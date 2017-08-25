@@ -7,7 +7,7 @@ import json
 from datetime import datetime, date, timedelta
 from math import floor
 
-from indic_transliteration.little.transliterator import transliterate
+from indic_transliteration import sanscript
 from pytz import timezone as tz
 from icalendar import Calendar, Event, Alarm
 from jyotisha.panchangam import helper_functions
@@ -1914,9 +1914,9 @@ class panchangam:
                             else:
                                 sys.stderr.write('No description found for festival %s!\n' % ekad)
                             desc += '\n' + BASE_URL + page_id
-                            pref = helper_functions.romanise(str(transliterate(
+                            pref = helper_functions.romanise(str(sanscript.transliterate(
                                                 stext.split('~')[0],
-                                                'harvardkyoto', 'iast'), 'utf8')) + "-"
+                                                sanscript.HK, sanscript.IAST), 'utf8')) + "-"
                             uid = '%s-%d-%02d' % (pref + page_id, y, m)
                         # print(page_id)
                         event.add_component(alarm)

@@ -1,16 +1,19 @@
 #!/usr/bin/python3
 #  -*- coding: utf-8 -*-
 
-from indic_transliteration.little.transliterator import transliterate as tr
 import ast
 
+import os
+from indic_transliteration import sanscript
 
-def init_names_auto(fname='translation_table_HK.tsv'):
+CODE_ROOT = os.path.dirname(os.path.dirname(__file__))
+
+def init_names_auto(fname=os.path.join(CODE_ROOT, 'names/translation_table_HK.tsv')):
 
     with open(fname) as f:
         lines = f.readlines()
 
-    scripts_list = ['devanagari', 'iast']
+    scripts_list = [sanscript.DEVANAGARI, sanscript.IAST]
 
     NAMES = {}
     for line in lines:
@@ -24,12 +27,12 @@ def init_names_auto(fname='translation_table_HK.tsv'):
             for scr in scripts_list:
                 NAMES[var[:-6]][scr] = {}
                 for key in NAMES[var[:-6]]['hk']:
-                    NAMES[var[:-6]][scr][key] = str(tr(NAMES[var[:-6]]['hk'][key],
-                                                       'harvardkyoto', scr), 'utf8').title()
+                    NAMES[var[:-6]][scr][key] = sanscript.transliterate(NAMES[var[:-6]]['hk'][key],
+                                                       sanscript.HK, scr).title()
         else:
             NAMES[var] = {}
             NAMES[var]['hk'] = value.strip('\'')
             for scr in scripts_list:
-                NAMES[var][scr] = str(tr(NAMES[var]['hk'], 'harvardkyoto', scr), 'utf8').title()
+                NAMES[var][scr] = sanscript.transliterate(NAMES[var]['hk'], sanscript.HK, scr).title()
 
     return (NAMES)

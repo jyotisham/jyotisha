@@ -1,3 +1,7 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+
 """
 Panchangam
 ==========
@@ -72,7 +76,7 @@ Downloadable Panchangams (PDF/ICS)
 | (13 |                   |                 | gam/raw/maste |
 | °05 |                   |                 | r/ics/Chennai |
 | ’24 |                   |                 | -2017-devanag |
-| ’‘N |                   |                 | ar            |
+| ’‘N |                   |                 | ar)           |
 | ,   |                   |                 |               |
 | 80° |                   |                 |               |
 | 16’ |                   |                 |               |

@@ -6,7 +6,8 @@ import sys
 from math import floor
 
 import swisseph as swe
-from indic_transliteration.little.transliterator import transliterate
+
+from indic_transliteration import sanscript
 from scipy.optimize import brentq
 
 from jyotisha.names.init_names_auto import init_names_auto
@@ -131,7 +132,7 @@ def dn2tam(dn_text):
 
 def tr(text, scr, titled=True, fontize=False):
     if scr == 'hk':
-        scr = 'harvardkyoto'
+        scr = sanscript.HK
     if text == '':
         return ''
 
@@ -149,19 +150,19 @@ def tr(text, scr, titled=True, fontize=False):
                 t = t[3:]
                 if fontize:
                     transliterated_text.append('\\tamil{%s}' % dn2tam(
-                        str(transliterate(t, 'harvardkyoto', scr), 'utf8').title()))
+                        str(sanscript.transliterate(_text=t, _from=sanscript.HK, _to=scr), 'utf8').title()))
                 else:
                     transliterated_text.append(dn2tam(
-                        str(transliterate(t, 'harvardkyoto', scr), 'utf8').title()))
+                        str(sanscript.transliterate(_text=t, _from=sanscript.HK, _to=scr), 'utf8').title()))
 
             else:
                 if t.find('RIGHTarrow') == -1:
                     transliterated_text.append(
-                        str(transliterate(t, 'harvardkyoto', scr), 'utf8').title())
+                        str(sanscript.transliterate(_text=t, _from=sanscript.HK, _to=scr), 'utf8').title())
                 else:
                     [txt, t1, arrow, t2] = t.split('\\')
                     transliterated_text.append(
-                        '\\'.join([str(transliterate(txt, 'harvardkyoto', scr), 'utf8').title(),
+                        '\\'.join([str(sanscript.transliterate(_text=txt, _from=sanscript.HK, _to=scr), 'utf8').title(),
                                    t1, arrow, t2]))
     else:
         for t in text_bits:
@@ -170,14 +171,14 @@ def tr(text, scr, titled=True, fontize=False):
                 # Force Tamil!
                 t = t[3:]
                 transliterated_text.append(dn2tam(
-                    str(transliterate(t, 'harvardkyoto', scr), 'utf8').title()))
+                    str(sanscript.transliterate(_text=t, _from=sanscript.HK, _to=scr), 'utf8').title()))
             else:
                 if t.find('RIGHTarrow') == -1:
-                    transliterated_text.append(str(transliterate(t, 'harvardkyoto', scr), 'utf8'))
+                    transliterated_text.append(str(sanscript.transliterate(_text=t, _from=sanscript.HK, _to=scr), 'utf8'))
                 else:
                     [txt, t1, arrow, t2] = t.split('\\')
                     transliterated_text.append(
-                        '\\'.join([str(transliterate(txt, 'harvardkyoto', scr), 'utf8'),
+                        '\\'.join([str(sanscript.transliterate(txt, _from=sanscript.HK, _to=scr), 'utf8'),
                                    t1, arrow, t2]))
 
     return '|'.join(transliterated_text)
@@ -406,8 +407,7 @@ def get_angam_float(jd, angam_type, offset=0, debug=False):
       Args:
         float jd: The Julian Day at which the angam is to be computed
         angam_type: One of the pre-defined constants in the panchangam
-            class, such as TITHI, NAKSHATRAM, YOGAM, KARANAM or
-            SOLAR_MONTH
+        class, such as TITHI, NAKSHATRAM, YOGAM, KARANAM or SOLAR_MONTH
 
       Returns:
         float angam
@@ -798,6 +798,7 @@ def get_solar_month_day(jd_start, city):
 
 def get_kalas(start_span, end_span, part_start, num_parts):
     """Compute kalas in a given span with specified fractions
+
     Args:
       float (jd) start_span
       float (jd) end_span
