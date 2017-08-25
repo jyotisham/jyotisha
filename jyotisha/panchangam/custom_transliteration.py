@@ -1,3 +1,6 @@
+#!/usr/bin/python3
+#  -*- coding: utf-8 -*-
+
 import re
 import swisseph as swe
 import sys
@@ -232,3 +235,5 @@ def print_lat_lon(latstr, lonstr):
                                                 lon_data[1], lon_data[2], lon_suffix)
 
     return formatted_string
+
+

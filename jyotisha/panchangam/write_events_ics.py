@@ -8,7 +8,8 @@ from datetime import datetime, date, timedelta
 from icalendar import Calendar, Event, Alarm
 from pytz import timezone as tz
 from jyotisha.panchangam import panchangam
-from jyotisha.panchangam.helper_functions import swe, MAX_SZ, get_nakshatram, get_tithi, City
+from jyotisha.panchangam.spatio_temporal import swe, City
+from jyotisha.panchangam.temporal import get_nakshatram, get_tithi, MAX_SZ
 
 
 def compute_events(P, json_file):

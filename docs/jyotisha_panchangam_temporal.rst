@@ -1,7 +1,7 @@
-jyotisha.panchangam.helper_functions
+jyotisha.panchangam.temporal
 ====================================
 
-.. automodule:: jyotisha.panchangam.helper_functions
+.. automodule:: jyotisha.panchangam.temporal
 	:members:
 	:undoc-members:
 			:show-inheritance:

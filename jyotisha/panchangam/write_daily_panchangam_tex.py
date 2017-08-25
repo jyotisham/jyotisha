@@ -5,7 +5,7 @@ import os.path
 import pickle
 import sys
 from jyotisha.panchangam import panchangam
-from jyotisha.panchangam.helper_functions import City
+from jyotisha.panchangam.spatio_temporal import City
 
 
 def main():

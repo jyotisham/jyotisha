@@ -6,7 +6,7 @@ import sys
 from indic_transliteration import sanscript
 
 from jyotisha.panchangam import panchangam
-from jyotisha.panchangam.helper_functions import City
+from jyotisha.panchangam.spatio_temporal import City
 
 
 def main():

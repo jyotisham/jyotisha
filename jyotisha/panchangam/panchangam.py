@@ -12,7 +12,8 @@ from pytz import timezone as tz
 from icalendar import Calendar, Event, Alarm
 
 import jyotisha.panchangam.custom_transliteration
-from jyotisha.panchangam import helper_functions
+import jyotisha.panchangam.temporal
+from jyotisha.panchangam import spatio_temporal
 import swisseph as swe
 
 
@@ -44,37 +45,37 @@ class Panchangam(object):
         """
 
         # INITIALISE VARIABLES
-        self.jd_sunrise = [None] * helper_functions.MAX_SZ
-        self.jd_sunset = [None] * helper_functions.MAX_SZ
-        self.jd_moonrise = [None] * helper_functions.MAX_SZ
-        self.jd_moonset = [None] * helper_functions.MAX_SZ
-        self.solar_month = [None] * helper_functions.MAX_SZ
-        self.solar_month_day = [None] * helper_functions.MAX_SZ
+        self.jd_sunrise = [None] * jyotisha.panchangam.temporal.MAX_SZ
+        self.jd_sunset = [None] * jyotisha.panchangam.temporal.MAX_SZ
+        self.jd_moonrise = [None] * jyotisha.panchangam.temporal.MAX_SZ
+        self.jd_moonset = [None] * jyotisha.panchangam.temporal.MAX_SZ
+        self.solar_month = [None] * jyotisha.panchangam.temporal.MAX_SZ
+        self.solar_month_day = [None] * jyotisha.panchangam.temporal.MAX_SZ
 
-        solar_month_sunrise = [None] * helper_functions.MAX_SZ
+        solar_month_sunrise = [None] * jyotisha.panchangam.temporal.MAX_SZ
 
-        self.lunar_month = [None] * helper_functions.MAX_SZ
-        self.month_data = [None] * helper_functions.MAX_SZ
-        self.tithi_data = [None] * helper_functions.MAX_SZ
-        self.tithi_sunrise = [None] * helper_functions.MAX_SZ
-        self.nakshatram_data = [None] * helper_functions.MAX_SZ
-        self.nakshatram_sunrise = [None] * helper_functions.MAX_SZ
-        self.yogam_data = [None] * helper_functions.MAX_SZ
-        self.karanam_data = [None] * helper_functions.MAX_SZ
-        self.rashi_data = [None] * helper_functions.MAX_SZ
-        self.lagna_data = [None] * helper_functions.MAX_SZ
+        self.lunar_month = [None] * jyotisha.panchangam.temporal.MAX_SZ
+        self.month_data = [None] * jyotisha.panchangam.temporal.MAX_SZ
+        self.tithi_data = [None] * jyotisha.panchangam.temporal.MAX_SZ
+        self.tithi_sunrise = [None] * jyotisha.panchangam.temporal.MAX_SZ
+        self.nakshatram_data = [None] * jyotisha.panchangam.temporal.MAX_SZ
+        self.nakshatram_sunrise = [None] * jyotisha.panchangam.temporal.MAX_SZ
+        self.yogam_data = [None] * jyotisha.panchangam.temporal.MAX_SZ
+        self.karanam_data = [None] * jyotisha.panchangam.temporal.MAX_SZ
+        self.rashi_data = [None] * jyotisha.panchangam.temporal.MAX_SZ
+        self.lagna_data = [None] * jyotisha.panchangam.temporal.MAX_SZ
 
-        self.weekday = [None] * helper_functions.MAX_SZ
-        self.kalams = [dict() for _x in range(helper_functions.MAX_SZ)]
+        self.weekday = [None] * jyotisha.panchangam.temporal.MAX_SZ
+        self.kalams = [dict() for _x in range(jyotisha.panchangam.temporal.MAX_SZ)]
 
         self.fest_days = {}
-        self.festivals = [[] for _x in range(helper_functions.MAX_SZ)]
+        self.festivals = [[] for _x in range(jyotisha.panchangam.temporal.MAX_SZ)]
 
         # Computing solar month details for Dec 31
         # rather than Jan 1, since we have an always increment
         # solar_month_day at the start of the loop across every day in
         # year
-        [self.solar_month[1], solar_month_day] = helper_functions.get_solar_month_day(self.jd_start - 1, self.city)
+        [self.solar_month[1], solar_month_day] = spatio_temporal.get_solar_month_day(self.jd_start - 1, self.city)
 
         if self.solar_month[1] != 9:
             raise(ValueError('Dec 31 does not appear to be Dhanurmasa!'))
@@ -85,10 +86,10 @@ class Panchangam(object):
         # Compute all parameters -- sun/moon latitude/longitude etc #
         #############################################################
 
-        for d in range(helper_functions.MAX_SZ):
+        for d in range(jyotisha.panchangam.temporal.MAX_SZ):
             self.weekday[d] = (self.weekday_start + d - 1) % 7
 
-        for d in range(-1, helper_functions.MAX_DAYS + 1):
+        for d in range(-1, jyotisha.panchangam.temporal.MAX_DAYS + 1):
             [y, m, dt, t] = swe.revjul(self.jd_start + d - 1)
 
             # checking @ 6am local - can we do any better?
@@ -143,14 +144,14 @@ class Panchangam(object):
                 solar_month_day = solar_month_day + 1
                 if self.solar_month[d] != solar_month_sunrise[d + 1]:
                     month_start_after_sunset = True
-                    [_m, solar_month_end_jd] = helper_functions.get_angam_data(
-                        self.jd_sunrise[d], self.jd_sunrise[d + 1], helper_functions.SOLAR_MONTH)[0]
+                    [_m, solar_month_end_jd] = jyotisha.panchangam.temporal.get_angam_data(
+                        self.jd_sunrise[d], self.jd_sunrise[d + 1], jyotisha.panchangam.temporal.SOLAR_MONTH)[0]
             elif solar_month_sunrise[d] != self.solar_month[d]:
                 # sankrAnti!
                 # sun moves into next rAshi before sunset
                 solar_month_day = 1
-                [_m, solar_month_end_jd] = helper_functions.get_angam_data(
-                    self.jd_sunrise[d], self.jd_sunrise[d + 1], helper_functions.SOLAR_MONTH)[0]
+                [_m, solar_month_end_jd] = jyotisha.panchangam.temporal.get_angam_data(
+                    self.jd_sunrise[d], self.jd_sunrise[d + 1], jyotisha.panchangam.temporal.SOLAR_MONTH)[0]
             else:
                 solar_month_day = solar_month_day + 1
                 solar_month_end_jd = None
@@ -179,11 +180,11 @@ class Panchangam(object):
                 solar_month_end_time = ''
             else:
                 solar_month_end_time = '\\mbox{%s {\\tiny \\RIGHTarrow} \\textsf{%s}}' % (
-                    helper_functions.NAMES['MASA'][self.script][_m], helper_functions.Time(
+                    jyotisha.panchangam.temporal.NAMES['MASA'][self.script][_m], jyotisha.panchangam.temporal.Time(
                         24 * (solar_month_end_jd - jd)).toString(format=self.fmt))
 
             self.month_data[d] = '\\sunmonth{%s}{%d}{%s}' % (
-                helper_functions.NAMES['MASA'][self.script][self.solar_month[d]],
+                jyotisha.panchangam.temporal.NAMES['MASA'][self.script][self.solar_month[d]],
                 solar_month_day, solar_month_end_time)
             self.solar_month_day[d] = solar_month_day
 
@@ -200,49 +201,54 @@ class Panchangam(object):
             GULIKAKALA_OCTETS = [6, 5, 4, 3, 2, 1, 0]
 
             self.kalams[d] = {
-                'prAtaH sandhyA': helper_functions.get_kalas(self.jd_sunset[d-1], self.jd_sunrise[d], 14, 15),
-                'prAtah'        : helper_functions.get_kalas(self.jd_sunrise[d],  self.jd_sunset[d],   0,  5),
-                'saGgava'       : helper_functions.get_kalas(self.jd_sunrise[d],  self.jd_sunset[d],   1,  5),
-                'madhyAhna'     : helper_functions.get_kalas(self.jd_sunrise[d],  self.jd_sunset[d],   2,  5),
-                'aparAhna'      : helper_functions.get_kalas(self.jd_sunrise[d],  self.jd_sunset[d],   3,  5),
-                'sAyAhna'       : helper_functions.get_kalas(self.jd_sunrise[d],  self.jd_sunset[d],   4,  5),
-                'sAyaM sandhyA' : helper_functions.get_kalas(self.jd_sunrise[d],  self.jd_sunset[d],  14, 15),
-                'rahu'          : helper_functions.get_kalas(self.jd_sunrise[d],  self.jd_sunset[d], RAHUKALA_OCTETS[self.weekday[d]]  , 8),
-                'yama'          : helper_functions.get_kalas(self.jd_sunrise[d],  self.jd_sunset[d], YAMAGANDA_OCTETS[self.weekday[d]] , 8),
-                'gulika'        : helper_functions.get_kalas(self.jd_sunrise[d],  self.jd_sunset[d], GULIKAKALA_OCTETS[self.weekday[d]], 8)
+                'prAtaH sandhyA': jyotisha.panchangam.temporal.get_kalas(self.jd_sunset[d - 1], self.jd_sunrise[d], 14, 15),
+                'prAtah'        : jyotisha.panchangam.temporal.get_kalas(self.jd_sunrise[d], self.jd_sunset[d], 0, 5),
+                'saGgava'       : jyotisha.panchangam.temporal.get_kalas(self.jd_sunrise[d], self.jd_sunset[d], 1, 5),
+                'madhyAhna'     : jyotisha.panchangam.temporal.get_kalas(self.jd_sunrise[d], self.jd_sunset[d], 2, 5),
+                'aparAhna'      : jyotisha.panchangam.temporal.get_kalas(self.jd_sunrise[d], self.jd_sunset[d], 3, 5),
+                'sAyAhna'       : jyotisha.panchangam.temporal.get_kalas(self.jd_sunrise[d], self.jd_sunset[d], 4, 5),
+                'sAyaM sandhyA' : jyotisha.panchangam.temporal.get_kalas(self.jd_sunrise[d], self.jd_sunset[d], 14, 15),
+                'rahu'          : jyotisha.panchangam.temporal.get_kalas(self.jd_sunrise[d], self.jd_sunset[d], RAHUKALA_OCTETS[self.weekday[d]], 8),
+                'yama'          : jyotisha.panchangam.temporal.get_kalas(self.jd_sunrise[d], self.jd_sunset[d], YAMAGANDA_OCTETS[self.weekday[d]], 8),
+                'gulika'        : jyotisha.panchangam.temporal.get_kalas(self.jd_sunrise[d], self.jd_sunset[d], GULIKAKALA_OCTETS[self.weekday[d]], 8)
                 }
 
             # Compute all the anga datas
-            self.tithi_data[d] = helper_functions.get_angam_data(self.jd_sunrise[d], self.jd_sunrise[d + 1],  helper_functions.TITHI)
+            self.tithi_data[d] = jyotisha.panchangam.temporal.get_angam_data(self.jd_sunrise[d], self.jd_sunrise[d + 1],
+                                                                             jyotisha.panchangam.temporal.TITHI)
             self.tithi_sunrise[d] = self.tithi_data[d][0][0]
-            self.nakshatram_data[d] = helper_functions.get_angam_data(self.jd_sunrise[d],
-                                                                      self.jd_sunrise[d + 1], helper_functions.NAKSHATRAM)
+            self.nakshatram_data[d] = jyotisha.panchangam.temporal.get_angam_data(self.jd_sunrise[d],
+                                                                                  self.jd_sunrise[d + 1],
+                                                                                  jyotisha.panchangam.temporal.NAKSHATRAM)
             self.nakshatram_sunrise[d] = self.nakshatram_data[d][0][0]
-            self.yogam_data[d] = helper_functions.get_angam_data(self.jd_sunrise[d], self.jd_sunrise[d + 1], helper_functions.YOGAM)
-            self.karanam_data[d] = helper_functions.get_angam_data(self.jd_sunrise[d],
-                                                                   self.jd_sunrise[d + 1], helper_functions.KARANAM)
-            self.rashi_data[d] = helper_functions.get_angam_data(self.jd_sunrise[d], self.jd_sunrise[d + 1], helper_functions.RASHI)
+            self.yogam_data[d] = jyotisha.panchangam.temporal.get_angam_data(self.jd_sunrise[d], self.jd_sunrise[d + 1],
+                                                                             jyotisha.panchangam.temporal.YOGAM)
+            self.karanam_data[d] = jyotisha.panchangam.temporal.get_angam_data(self.jd_sunrise[d],
+                                                                               self.jd_sunrise[d + 1],
+                                                                               jyotisha.panchangam.temporal.KARANAM)
+            self.rashi_data[d] = jyotisha.panchangam.temporal.get_angam_data(self.jd_sunrise[d], self.jd_sunrise[d + 1],
+                                                                             jyotisha.panchangam.temporal.RASHI)
             if computeLagnams:
-                self.lagna_data[d] = helper_functions.get_lagna_data(self.jd_sunrise[d], self.city.latitude,
-                                                    self.city.longitude, tz_off)
+                self.lagna_data[d] = spatio_temporal.get_lagna_data(self.jd_sunrise[d], self.city.latitude,
+                                                                    self.city.longitude, tz_off)
 
     def assignLunarMonths(self):
         last_d_assigned = 0
-        last_new_moon_start, last_new_moon_end = helper_functions.get_angam_span(self.jd_start -
-                                                                self.tithi_sunrise[1] - 2,
-                                                                self.jd_start -
-                                                                self.tithi_sunrise[1] + 2,
-                                                                 helper_functions.TITHI, 30)
-        prev_new_moon_start, prev_new_moon_end = helper_functions.get_angam_span(last_new_moon_start - 32,
-                                                                last_new_moon_start - 24,
-                                                                 helper_functions.TITHI, 30)
+        last_new_moon_start, last_new_moon_end = jyotisha.panchangam.temporal.get_angam_span(self.jd_start -
+                                                                                             self.tithi_sunrise[1] - 2,
+                                                                                             self.jd_start -
+                                                                                             self.tithi_sunrise[1] + 2,
+                                                                                             jyotisha.panchangam.temporal.TITHI, 30)
+        prev_new_moon_start, prev_new_moon_end = jyotisha.panchangam.temporal.get_angam_span(last_new_moon_start - 32,
+                                                                                             last_new_moon_start - 24,
+                                                                                             jyotisha.panchangam.temporal.TITHI, 30)
         # Check if current mAsa is adhika here
-        isAdhika = helper_functions.get_solar_rashi(last_new_moon_start) == helper_functions.get_solar_rashi(prev_new_moon_start)
+        isAdhika = jyotisha.panchangam.temporal.get_solar_rashi(last_new_moon_start) == jyotisha.panchangam.temporal.get_solar_rashi(prev_new_moon_start)
 
         while last_new_moon_start < self.jd_start + 367:
-            this_new_moon_start, this_new_moon_end = helper_functions.get_angam_span(last_new_moon_start + 24,
-                                                                    last_new_moon_start + 32,
-                                                                     helper_functions.TITHI, 30)
+            this_new_moon_start, this_new_moon_end = jyotisha.panchangam.temporal.get_angam_span(last_new_moon_start + 24,
+                                                                                                 last_new_moon_start + 32,
+                                                                                                 jyotisha.panchangam.temporal.TITHI, 30)
             for i in range(last_d_assigned + 1, last_d_assigned + 32):
                 if i > 367 or self.jd_sunrise[i] > this_new_moon_end:
                     last_d_assigned = i - 1
@@ -252,7 +258,7 @@ class Panchangam(object):
                 else:
                     self.lunar_month[i] = self.solar_month[last_d_assigned] % 12 + 1
 
-            isAdhika = helper_functions.get_solar_rashi(this_new_moon_start) == helper_functions.get_solar_rashi(last_new_moon_start)
+            isAdhika = jyotisha.panchangam.temporal.get_solar_rashi(this_new_moon_start) == jyotisha.panchangam.temporal.get_solar_rashi(last_new_moon_start)
             last_new_moon_start = this_new_moon_start
 
         # # Older code below. Major mistake was that calculation was done after checking for
@@ -391,7 +397,7 @@ class Panchangam(object):
         # debugFestivals = True
         debugFestivals = False
 
-        for d in range(1, helper_functions.MAX_DAYS + 1):
+        for d in range(1, jyotisha.panchangam.temporal.MAX_DAYS + 1):
             [y, m, dt, t] = swe.revjul(self.jd_start + d - 1)
 
             # checking @ 6am local - can we do any better?
@@ -415,7 +421,7 @@ class Panchangam(object):
                 # check for shukla ekadashi
                 if (self.tithi_sunrise[d] == 11 and self.tithi_sunrise[d + 1] == 11):
                     self.festivals[d + 1].append(
-                        'sarva~' + helper_functions.get_ekadashi_name('shukla', self.lunar_month[d]))
+                        'sarva~' + jyotisha.panchangam.temporal.get_ekadashi_name('shukla', self.lunar_month[d]))
                     if self.solar_month[d] == 9:
                         self.festivals[d + 1].append('sarva~vaikuNTha~EkAdazI')
                     elif self.solar_month[d] == 8:
@@ -425,25 +431,25 @@ class Panchangam(object):
                     # Check dashami end time to decide for whether this is
                     # sarva/smartha
                     # Two muhurtams is 1/15 of day-length
-                    tithi_arunodayam = helper_functions.get_tithi(
+                    tithi_arunodayam = jyotisha.panchangam.temporal.get_tithi(
                         self.jd_sunrise[d] - (1 / 15.0) *
                         (self.jd_sunrise[d] - self.jd_sunrise[d - 1]))
                     if tithi_arunodayam == 10:
                         self.festivals[d].append(
-                            'smArta~' + helper_functions.get_ekadashi_name('shukla', self.lunar_month[d]))
+                            'smArta~' + jyotisha.panchangam.temporal.get_ekadashi_name('shukla', self.lunar_month[d]))
                         if self.solar_month[d] == 9:
                             self.festivals[d].append('smArta~vaikuNTha~EkAdazI')
                         elif self.solar_month[d] == 8:
                             self.festivals[d].append('smArta~guruvAyupura~EkAdazI')
                         self.festivals[d + 1].append(
-                            'vaiSNava~' + helper_functions.get_ekadashi_name('shukla', self.lunar_month[d]))
+                            'vaiSNava~' + jyotisha.panchangam.temporal.get_ekadashi_name('shukla', self.lunar_month[d]))
                         if self.solar_month[d] == 9:
                             self.festivals[d].append('vaiSNava~vaikuNTha~EkAdazI')
                         elif self.solar_month[d] == 8:
                             self.festivals[d].append('vaiSNava~guruvAyupura~EkAdazI')
                     else:
                         self.festivals[d].append(
-                            'sarva~' + helper_functions.get_ekadashi_name('shukla', self.lunar_month[d]))
+                            'sarva~' + jyotisha.panchangam.temporal.get_ekadashi_name('shukla', self.lunar_month[d]))
                         if self.solar_month[d] == 9:
                             self.festivals[d].append('sarva~vaikuNTha~EkAdazI')
                         elif self.solar_month[d] == 8:
@@ -451,17 +457,18 @@ class Panchangam(object):
 
                 elif (self.tithi_sunrise[d - 1] != 11 and self.tithi_sunrise[d] == 12):
                     self.festivals[d].append(
-                        'sarva~' + helper_functions.get_ekadashi_name('shukla', self.lunar_month[d]))
+                        'sarva~' + jyotisha.panchangam.temporal.get_ekadashi_name('shukla', self.lunar_month[d]))
                     if self.solar_month[d] == 9:
                         self.festivals[d].append('sarva~vaikuNTha~EkAdazI')
                     elif self.solar_month[d] == 8:
                         self.festivals[d].append('sarva~guruvAyupura~EkAdazI')
 
                 # Harivasara Computation
-                harivasara_end = helper_functions.brentq(helper_functions.get_angam_float, self.jd_sunrise[d] - 2,
-                                                         self.jd_sunrise[d] + 2, args=(helper_functions.TITHI_PADA, -45, False))
+                harivasara_end = spatio_temporal.brentq(jyotisha.panchangam.temporal.get_angam_float, self.jd_sunrise[d] - 2,
+                                                        self.jd_sunrise[d] + 2, args=(
+                    jyotisha.panchangam.temporal.TITHI_PADA, -45, False))
                 [_y, _m, _d, _t] = swe.revjul(harivasara_end + (tz_off / 24.0))
-                hariv_end_time = helper_functions.Time(swe.revjul(harivasara_end + (tz_off / 24.0))[3]).toString()
+                hariv_end_time = jyotisha.panchangam.temporal.Time(swe.revjul(harivasara_end + (tz_off / 24.0))[3]).toString()
 
                 fday = swe.julday(_y, _m, _d, 0) - self.jd_start + 1
                 self.festivals[int(fday)].append(
@@ -472,30 +479,31 @@ class Panchangam(object):
                 # check for krishna ekadashi
                 if (self.tithi_sunrise[d] == 26 and self.tithi_sunrise[d + 1] == 26):
                     self.festivals[d + 1].append(
-                        'sarva~' + helper_functions.get_ekadashi_name('krishna', self.lunar_month[d]))
+                        'sarva~' + jyotisha.panchangam.temporal.get_ekadashi_name('krishna', self.lunar_month[d]))
                 elif (self.tithi_sunrise[d] == 26 and self.tithi_sunrise[d + 1] != 26):
                     # Check dashami end time to decide for whether this is
                     # sarva/smartha
                     # Two muhurtams is 1/15 of day-length
-                    tithi_arunodayam = helper_functions.get_tithi(
+                    tithi_arunodayam = jyotisha.panchangam.temporal.get_tithi(
                         self.jd_sunrise[d] - (1 / 15.0) *
                         (self.jd_sunrise[d] - self.jd_sunrise[d - 1]))
                     if tithi_arunodayam == 25:
                         self.festivals[d].append(
-                            'smArta~' + helper_functions.get_ekadashi_name('krishna', self.lunar_month[d]))
+                            'smArta~' + jyotisha.panchangam.temporal.get_ekadashi_name('krishna', self.lunar_month[d]))
                         self.festivals[d + 1].append(
-                            'vaiSNava~' + helper_functions.get_ekadashi_name('krishna', self.lunar_month[d]))
+                            'vaiSNava~' + jyotisha.panchangam.temporal.get_ekadashi_name('krishna', self.lunar_month[d]))
                     else:
                         self.festivals[d].append(
-                            'sarva~' + helper_functions.get_ekadashi_name('krishna', self.lunar_month[d]))
+                            'sarva~' + jyotisha.panchangam.temporal.get_ekadashi_name('krishna', self.lunar_month[d]))
                 elif (self.tithi_sunrise[d - 1] != 26 and self.tithi_sunrise[d] == 27):
                     self.festivals[d].append(
-                        'sarva~' + helper_functions.get_ekadashi_name('krishna', self.lunar_month[d]))
+                        'sarva~' + jyotisha.panchangam.temporal.get_ekadashi_name('krishna', self.lunar_month[d]))
 
-                harivasara_end = helper_functions.brentq(helper_functions.get_angam_float, self.jd_sunrise[d - 2],
-                                        self.jd_sunrise[d - 2] + 4, args=(helper_functions.TITHI_PADA, -105, False))
+                harivasara_end = spatio_temporal.brentq(jyotisha.panchangam.temporal.get_angam_float, self.jd_sunrise[d - 2],
+                                                        self.jd_sunrise[d - 2] + 4, args=(
+                    jyotisha.panchangam.temporal.TITHI_PADA, -105, False))
                 [_y, _m, _d, _t] = swe.revjul(harivasara_end + (tz_off / 24.0))
-                hariv_end_time = helper_functions.Time(swe.revjul(harivasara_end + (tz_off / 24.0))[3]).toString()
+                hariv_end_time = jyotisha.panchangam.temporal.Time(swe.revjul(harivasara_end + (tz_off / 24.0))[3]).toString()
 
                 fday = swe.julday(_y, _m, _d, 0) - self.jd_start + 1
                 self.festivals[int(fday)].append(
@@ -504,8 +512,8 @@ class Panchangam(object):
             # PRADOSHA Vratam
             pref = ''
             if self.tithi_sunrise[d] == 12 or self.tithi_sunrise[d] == 13:
-                tithi_sunset = helper_functions.get_tithi(self.jd_sunset[d])
-                tithi_sunset_tmrw = helper_functions.get_tithi(self.jd_sunset[d + 1])
+                tithi_sunset = jyotisha.panchangam.temporal.get_tithi(self.jd_sunset[d])
+                tithi_sunset_tmrw = jyotisha.panchangam.temporal.get_tithi(self.jd_sunset[d + 1])
                 if tithi_sunset <= 13 and tithi_sunset_tmrw != 13:
                     if self.weekday[d] == 1:
                         pref = 'sOma~'
@@ -520,8 +528,8 @@ class Panchangam(object):
                     self.festivals[d + 1].append(pref + 'pradOSa~vratam')
 
             if self.tithi_sunrise[d] == 27 or self.tithi_sunrise[d] == 28:
-                tithi_sunset = helper_functions.get_tithi(self.jd_sunset[d])
-                tithi_sunset_tmrw = helper_functions.get_tithi(self.jd_sunset[d + 1])
+                tithi_sunset = jyotisha.panchangam.temporal.get_tithi(self.jd_sunset[d])
+                tithi_sunset_tmrw = jyotisha.panchangam.temporal.get_tithi(self.jd_sunset[d + 1])
                 if tithi_sunset <= 28 and tithi_sunset_tmrw != 28:
                     if self.weekday[d] == 1:
                         pref = 'sOma~'
@@ -597,8 +605,8 @@ class Panchangam(object):
 
             # Chandra Darshanam
             if self.tithi_sunrise[d] == 1 or self.tithi_sunrise[d] == 2:
-                tithi_sunset = helper_functions.get_tithi(self.jd_sunset[d])
-                tithi_sunset_tmrw = helper_functions.get_tithi(self.jd_sunset[d + 1])
+                tithi_sunset = jyotisha.panchangam.temporal.get_tithi(self.jd_sunset[d])
+                tithi_sunset_tmrw = jyotisha.panchangam.temporal.get_tithi(self.jd_sunset[d + 1])
                 if tithi_sunset <= 2 and tithi_sunset_tmrw != 2:
                     if tithi_sunset == 1:
                         self.festivals[d + 1].append('candra-darzanam')
@@ -614,38 +622,43 @@ class Panchangam(object):
                 t30_end = None
             if self.tithi_sunrise[d] == 29 or self.tithi_sunrise[d] == 30:
                 if self.tithi_sunrise[d] == 29:
-                    t29, t29_end = helper_functions.get_angam_data(
-                        self.jd_sunrise[d], self.jd_sunrise[d + 1],  helper_functions.TITHI)[0]
-                    t30, t30_end = helper_functions.get_angam_data(
-                        self.jd_sunrise[d + 1], self.jd_sunrise[d + 2],  helper_functions.TITHI)[0]
+                    t29, t29_end = jyotisha.panchangam.temporal.get_angam_data(
+                        self.jd_sunrise[d], self.jd_sunrise[d + 1], jyotisha.panchangam.temporal.TITHI)[0]
+                    t30, t30_end = jyotisha.panchangam.temporal.get_angam_data(
+                        self.jd_sunrise[d + 1], self.jd_sunrise[d + 2], jyotisha.panchangam.temporal.TITHI)[0]
                     if t30 != 30:
                         # Only 29 ends tomorrow!
-                        t30, t30_end = helper_functions.get_angam_data(
+                        t30, t30_end = jyotisha.panchangam.temporal.get_angam_data(
                             self.jd_sunrise[d + 1] + 0.5,
-                            self.jd_sunrise[d + 2] + 0.5,  helper_functions.TITHI)[0]
+                            self.jd_sunrise[d + 2] + 0.5, jyotisha.panchangam.temporal.TITHI)[0]
                 if self.tithi_sunrise[d] == 30:
                     if t29_end is None:
                         # 29 never touched sunrise
-                        t30, t30_end = helper_functions.get_angam_data(
-                            self.jd_sunrise[d], self.jd_sunrise[d + 1],  helper_functions.TITHI)[0]
-                        t29, t29_end = helper_functions.get_angam_data(t30_end - 1.5, t30_end - 0.5,  helper_functions.TITHI)[0]
+                        t30, t30_end = jyotisha.panchangam.temporal.get_angam_data(
+                            self.jd_sunrise[d], self.jd_sunrise[d + 1], jyotisha.panchangam.temporal.TITHI)[0]
+                        t29, t29_end = jyotisha.panchangam.temporal.get_angam_data(t30_end - 1.5, t30_end - 0.5,
+                                                                                   jyotisha.panchangam.temporal.TITHI)[0]
                 if t29_end is None:
                     # Should never be here!
                     sys.stderr.write('Error! Still not computed t29_end!')
 
-                angams = self.get_angams_for_kalas(d, helper_functions.get_tithi, 'aparahna')
+                angams = self.get_angams_for_kalas(d, jyotisha.panchangam.temporal.get_tithi, 'aparahna')
                 if angams[0] == 30 or angams[1] == 30:
                     if self.lunar_month[d] == 6:
                         pref = '(%s) mahAlaya ' % (
-                            helper_functions.get_chandra_masa(self.lunar_month[d], helper_functions.NAMES, 'hk'))
+                            jyotisha.panchangam.temporal.get_chandra_masa(self.lunar_month[d],
+                                                                          jyotisha.panchangam.temporal.NAMES, 'hk'))
                     elif self.solar_month[d] == 4:
                         pref = '%s (kaTaka) ' % (
-                            helper_functions.get_chandra_masa(self.lunar_month[d], helper_functions.NAMES, 'hk'))
+                            jyotisha.panchangam.temporal.get_chandra_masa(self.lunar_month[d],
+                                                                          jyotisha.panchangam.temporal.NAMES, 'hk'))
                     elif self.solar_month[d] == 10:
                         pref = 'mauni (%s/makara) ' % (
-                            helper_functions.get_chandra_masa(self.lunar_month[d], helper_functions.NAMES, 'hk'))
+                            jyotisha.panchangam.temporal.get_chandra_masa(self.lunar_month[d],
+                                                                          jyotisha.panchangam.temporal.NAMES, 'hk'))
                     else:
-                        pref = helper_functions.get_chandra_masa(self.lunar_month[d], helper_functions.NAMES, 'hk') + '~'
+                        pref = jyotisha.panchangam.temporal.get_chandra_masa(self.lunar_month[d],
+                                                                             jyotisha.panchangam.temporal.NAMES, 'hk') + '~'
                     if angams[2] == 30 or angams[3] == 30:
                         # Amavasya is there on both aparahnas
                         if t30_end - t29_end < 1:
@@ -660,8 +673,8 @@ class Panchangam(object):
 
             # MAKARAYANAM
             if self.solar_month[d] == 9 and self.solar_month_day[d] == 1:
-                makara_jd_start = helper_functions.brentq(helper_functions.get_nirayana_sun_lon, self.jd_sunrise[d],
-                                         self.jd_sunrise[d] + 15, args=(-270, False))
+                makara_jd_start = spatio_temporal.brentq(jyotisha.panchangam.temporal.get_nirayana_sun_lon, self.jd_sunrise[d],
+                                                         self.jd_sunrise[d] + 15, args=(-270, False))
 
             if self.solar_month[d] == 9 and 3 < self.solar_month_day[d] < 10:
                 if self.jd_sunset[d] < makara_jd_start < self.jd_sunset[d + 1]:
@@ -674,11 +687,11 @@ class Panchangam(object):
             # AGNI NAKSHATRAM
             # Arbitrarily checking after Mesha 10! Agni Nakshatram can't start earlier...
             if self.solar_month[d] == 1 and self.solar_month_day[d] == 10:
-                agni_jd_start, dummy = helper_functions.get_angam_span(
+                agni_jd_start, dummy = jyotisha.panchangam.temporal.get_angam_span(
                     self.jd_sunrise[d], self.jd_sunrise[d] + 30,
                     {'arc_len': 360.0 / 108.0, 'w_moon': 0, 'w_sun': 1}, 7)
                 # sys.stderr.write('Agni Start: %s\n' % revjul(agni_jd_start + (5.5 / 24.0)))
-                dummy, agni_jd_end = helper_functions.get_angam_span(
+                dummy, agni_jd_end = jyotisha.panchangam.temporal.get_angam_span(
                     agni_jd_start, agni_jd_start + 30,
                     {'arc_len': 360.0 / 108.0, 'w_moon': 0, 'w_sun': 1}, 13)
                 # sys.stderr.write('Agni End: %s\n' % revjul(agni_jd_end + (5.5 / 24.0)))
@@ -697,20 +710,20 @@ class Panchangam(object):
                 moon_hasta_jd_start = moon_hasta_jd_start = t30_start = None
                 moon_hasta_jd_end = moon_hasta_jd_end = t30_end = None
 
-                sun_hasta_jd_start, sun_hasta_jd_end = helper_functions.get_angam_span(
-                    self.jd_sunrise[d], self.jd_sunrise[d] + 30, helper_functions.SOLAR_NAKSH, 13)
+                sun_hasta_jd_start, sun_hasta_jd_end = jyotisha.panchangam.temporal.get_angam_span(
+                    self.jd_sunrise[d], self.jd_sunrise[d] + 30, jyotisha.panchangam.temporal.SOLAR_NAKSH, 13)
 
-                moon_magha_jd_start, moon_magha_jd_end = helper_functions.get_angam_span(
-                    sun_hasta_jd_start - 1, sun_hasta_jd_end + 1, helper_functions.NAKSHATRAM, 10)
+                moon_magha_jd_start, moon_magha_jd_end = jyotisha.panchangam.temporal.get_angam_span(
+                    sun_hasta_jd_start - 1, sun_hasta_jd_end + 1, jyotisha.panchangam.temporal.NAKSHATRAM, 10)
                 if all([moon_magha_jd_start, moon_magha_jd_end]):
-                    t28_start, t28_end = helper_functions.get_angam_span(
-                        moon_magha_jd_start - 3, moon_magha_jd_end + 3,  helper_functions.TITHI, 28)
+                    t28_start, t28_end = jyotisha.panchangam.temporal.get_angam_span(
+                        moon_magha_jd_start - 3, moon_magha_jd_end + 3, jyotisha.panchangam.temporal.TITHI, 28)
 
-                moon_hasta_jd_start, moon_hasta_jd_end = helper_functions.get_angam_span(
-                    sun_hasta_jd_start - 1, sun_hasta_jd_end + 1, helper_functions.NAKSHATRAM, 13)
+                moon_hasta_jd_start, moon_hasta_jd_end = jyotisha.panchangam.temporal.get_angam_span(
+                    sun_hasta_jd_start - 1, sun_hasta_jd_end + 1, jyotisha.panchangam.temporal.NAKSHATRAM, 13)
                 if all([moon_hasta_jd_start, moon_hasta_jd_end]):
-                    t30_start, t30_end = helper_functions.get_angam_span(
-                        sun_hasta_jd_start - 1, sun_hasta_jd_end + 1,  helper_functions.TITHI, 30)
+                    t30_start, t30_end = jyotisha.panchangam.temporal.get_angam_span(
+                        sun_hasta_jd_start - 1, sun_hasta_jd_end + 1, jyotisha.panchangam.temporal.TITHI, 30)
 
                 gc_28 = gc_30 = False
 
@@ -736,14 +749,14 @@ class Panchangam(object):
                     gc_28_end += tz_off / 24.0
                     # sys.stderr.write('28: (%f, %f)\n' % (gc_28_start, gc_28_end))
                     gc_28_d = 1 + floor(gc_28_start - self.jd_start)
-                    t1 = helper_functions.Time(swe.revjul(gc_28_start)[3]).toString()
+                    t1 = jyotisha.panchangam.temporal.Time(swe.revjul(gc_28_start)[3]).toString()
 
                     if floor(gc_28_end - 0.5) != floor(gc_28_start - 0.5):
                         # -0.5 is for the fact that julday is zero at noon always, not midnight!
                         offset = 24
                     else:
                         offset = 0
-                    t2 = helper_functions.Time(swe.revjul(gc_28_end)[3] + offset).toString()
+                    t2 = jyotisha.panchangam.temporal.Time(swe.revjul(gc_28_end)[3] + offset).toString()
                     # sys.stderr.write('gajacchhaya %d\n' % gc_28_d)
 
                     self.fest_days['gajacchAyA~yOgam' +
@@ -755,13 +768,13 @@ class Panchangam(object):
                     gc_30_end += tz_off / 24.0
                     # sys.stderr.write('30: (%f, %f)\n' % (gc_30_start, gc_30_end))
                     gc_30_d = 1 + floor(gc_30_start - self.jd_start)
-                    t1 = helper_functions.Time(swe.revjul(gc_30_start)[3]).toString()
+                    t1 = jyotisha.panchangam.temporal.Time(swe.revjul(gc_30_start)[3]).toString()
 
                     if floor(gc_30_end - 0.5) != floor(gc_30_start - 0.5):
                         offset = 24
                     else:
                         offset = 0
-                    t2 = helper_functions.Time(swe.revjul(gc_30_end)[3] + offset).toString()
+                    t2 = jyotisha.panchangam.temporal.Time(swe.revjul(gc_30_end)[3] + offset).toString()
                     # sys.stderr.write('gajacchhaya %d\n' % gc_30_d)
 
                     self.fest_days['gajacchAyA~yOgam' +
@@ -770,15 +783,16 @@ class Panchangam(object):
                     gc_30 = False
 
             # AYUSHMAN BAVA SAUMYA
-            if self.weekday[d] == 3 and helper_functions.get_angam(self.jd_sunrise[d], helper_functions.YOGAM) == 3:
-                if helper_functions.get_angam(self.jd_sunrise[d], helper_functions.KARANAM) in list(range(2, 52, 7)):
+            if self.weekday[d] == 3 and jyotisha.panchangam.temporal.get_angam(self.jd_sunrise[d],
+                                                                               jyotisha.panchangam.temporal.YOGAM) == 3:
+                if jyotisha.panchangam.temporal.get_angam(self.jd_sunrise[d], jyotisha.panchangam.temporal.KARANAM) in list(range(2, 52, 7)):
                     self.addFestival('AyuSmAn-bava-saumya', d, debugFestivals)
 
             # VYATIPATAM
-            if helper_functions.get_angam(self.jd_sunrise[d], helper_functions.YOGAM) == 17 and self.solar_month[d] == 9:
+            if jyotisha.panchangam.temporal.get_angam(self.jd_sunrise[d], jyotisha.panchangam.temporal.YOGAM) == 17 and self.solar_month[d] == 9:
                 self.addFestival('mahAdhanurvyatIpAtam', d, debugFestivals)
 
-            if helper_functions.get_angam(self.jd_sunrise[d], helper_functions.YOGAM) == 17 and self.solar_month[d] == 6:
+            if jyotisha.panchangam.temporal.get_angam(self.jd_sunrise[d], jyotisha.panchangam.temporal.YOGAM) == 17 and self.solar_month[d] == 6:
                 self.addFestival('mahAvyatIpAtam', d, debugFestivals)
 
 
@@ -796,19 +810,19 @@ class Panchangam(object):
                 if (d - 3) > 0:
                     self.addFestival('pakSavardhinI~mahAdvAdazI', d - 3, debugFestivals)
 
-            if helper_functions.get_angam(self.jd_sunrise[d], helper_functions.NAKSHATRAM) == 4 and\
+            if jyotisha.panchangam.temporal.get_angam(self.jd_sunrise[d], jyotisha.panchangam.temporal.NAKSHATRAM) == 4 and\
                (self.tithi_sunrise[d] % 15) == 12:
                 self.addFestival('pApanAzinI~mahAdvAdazI', d, debugFestivals)
 
-            if helper_functions.get_angam(self.jd_sunrise[d], helper_functions.NAKSHATRAM) == 7 and\
+            if jyotisha.panchangam.temporal.get_angam(self.jd_sunrise[d], jyotisha.panchangam.temporal.NAKSHATRAM) == 7 and\
                (self.tithi_sunrise[d] % 15) == 12:
                 self.addFestival('jayantI~mahAdvAdazI', d, debugFestivals)
 
-            if helper_functions.get_angam(self.jd_sunrise[d], helper_functions.NAKSHATRAM) == 8 and\
+            if jyotisha.panchangam.temporal.get_angam(self.jd_sunrise[d], jyotisha.panchangam.temporal.NAKSHATRAM) == 8 and\
                (self.tithi_sunrise[d] % 15) == 12:
                 self.addFestival('jayA~mahAdvAdazI', d, debugFestivals)
 
-            if helper_functions.get_angam(self.jd_sunrise[d], helper_functions.NAKSHATRAM) == 22 and\
+            if jyotisha.panchangam.temporal.get_angam(self.jd_sunrise[d], jyotisha.panchangam.temporal.NAKSHATRAM) == 22 and\
                (self.tithi_sunrise[d] % 15) == 12:
                 self.addFestival('vijayA/zravaNa~mahAdvAdazI', d, debugFestivals)
 
@@ -823,7 +837,7 @@ class Panchangam(object):
                     festival_name += '*'
                 self.addFestival(festival_name, d, debugFestivals)
 
-            if helper_functions.get_angam(self.jd_sunrise[d], helper_functions.NAKSHATRA_PADA) == 49 and\
+            if jyotisha.panchangam.temporal.get_angam(self.jd_sunrise[d], jyotisha.panchangam.temporal.NAKSHATRA_PADA) == 49 and\
                self.tithi_sunrise[d] == 7:
                 self.addFestival('bhadrA~saptamI', d, debugFestivals)
 
@@ -834,11 +848,12 @@ class Panchangam(object):
 
             # VARUNI TRAYODASHI
             if self.lunar_month[d] == 12 and self.tithi_sunrise[d] == 28:
-                if helper_functions.get_angam(self.jd_sunrise[d], helper_functions.NAKSHATRAM) == 24:
+                if jyotisha.panchangam.temporal.get_angam(self.jd_sunrise[d], jyotisha.panchangam.temporal.NAKSHATRAM) == 24:
                     vtr_name = 'vAruNI~trayOdazI'
                     if self.weekday[d] == 6:
                         vtr_name = 'mahA' + vtr_name
-                        if helper_functions.get_angam(self.jd_sunrise[d], helper_functions.YOGAM) == 23:
+                        if jyotisha.panchangam.temporal.get_angam(self.jd_sunrise[d],
+                                                                  jyotisha.panchangam.temporal.YOGAM) == 23:
                             pref = 'mahA' + vtr_name
                     self.addFestival(vtr_name, d, debugFestivals)
 
@@ -849,8 +864,8 @@ class Panchangam(object):
 
             # MAHODAYAM
             if self.lunar_month[d] == 10 and self.tithi_sunrise[d] == 30:
-                if helper_functions.get_angam(self.jd_sunrise[d], helper_functions.YOGAM) == 17 and\
-                   helper_functions.get_angam(self.jd_sunrise[d], helper_functions.NAKSHATRAM) == 22:
+                if jyotisha.panchangam.temporal.get_angam(self.jd_sunrise[d], jyotisha.panchangam.temporal.YOGAM) == 17 and\
+                   jyotisha.panchangam.temporal.get_angam(self.jd_sunrise[d], jyotisha.panchangam.temporal.NAKSHATRAM) == 22:
                     if self.weekday[d] == 1:
                         festival_name = 'mahOdaya~puNyakAlam'
                         self.addFestival(festival_name, d, debugFestivals)
@@ -1001,10 +1016,10 @@ class Panchangam(object):
                      (month_type == 'solar_month' and self.solar_month[d] == month_num):
                     if angam_type == 'tithi':
                         angam_sunrise = self.tithi_sunrise
-                        get_angam_func = helper_functions.get_tithi
+                        get_angam_func = jyotisha.panchangam.temporal.get_tithi
                     elif angam_type == 'nakshatram':
                         angam_sunrise = self.nakshatram_sunrise
-                        get_angam_func = helper_functions.get_nakshatram
+                        get_angam_func = jyotisha.panchangam.temporal.get_nakshatram
                     else:
                         raise ValueError('Error; unknown string in rule: "%s"' % (angam_type))
                         return
@@ -1112,7 +1127,7 @@ class Panchangam(object):
 
             # distance from prabhava
             samvatsara_id = (self.year - 1568) % 60 + 1
-            new_yr = 'mESa~saGkrAnti' + '~(' + helper_functions.NAMES['YEAR']['hk'][(samvatsara_id % 60) + 1] +\
+            new_yr = 'mESa~saGkrAnti' + '~(' + jyotisha.panchangam.temporal.NAMES['YEAR']['hk'][(samvatsara_id % 60) + 1] +\
                      '-' + 'saMvatsaraH' + ')'
 
             if self.solar_month[d] == 1 and self.solar_month[d - 1] == 12:
@@ -1215,7 +1230,7 @@ class Panchangam(object):
                    (jd_eclipse_solar_end - (tz_off / 24.0)) == 0.0:
                     # Move towards the next eclipse... at least the next new
                     # moon (>=25 days away)
-                    jd += helper_functions.MIN_DAYS_NEXT_ECL
+                    jd += jyotisha.panchangam.temporal.MIN_DAYS_NEXT_ECL
                     continue
                 if eclipse_solar_end < eclipse_solar_start:
                     eclipse_solar_end += 24
@@ -1226,12 +1241,12 @@ class Panchangam(object):
                 if eclipse_solar_end > sunset_eclipse_day:
                     eclipse_solar_end = sunset_eclipse_day
                 solar_eclipse_str = 'sUrya-grahaNam' +\
-                    '~\\textsf{' + helper_functions.Time(eclipse_solar_start).toString() +\
-                    '}{\\RIGHTarrow}\\textsf{' + helper_functions.Time(eclipse_solar_end).toString() + '}'
+                    '~\\textsf{' + jyotisha.panchangam.temporal.Time(eclipse_solar_start).toString() +\
+                    '}{\\RIGHTarrow}\\textsf{' + jyotisha.panchangam.temporal.Time(eclipse_solar_end).toString() + '}'
                 if self.weekday[fday] == 0:
                     solar_eclipse_str = '*cUDAmaNi~' + solar_eclipse_str
                 self.festivals[fday].append(solar_eclipse_str)
-            jd = jd + helper_functions.MIN_DAYS_NEXT_ECL
+            jd = jd + jyotisha.panchangam.temporal.MIN_DAYS_NEXT_ECL
 
     def computeLunarEclipses(self):
         # Set location
@@ -1262,7 +1277,7 @@ class Panchangam(object):
                    (jd_eclipse_lunar_end - (tz_off / 24.0)) == 0.0:
                     # Move towards the next eclipse... at least the next full
                     # moon (>=25 days away)
-                    jd += helper_functions.MIN_DAYS_NEXT_ECL
+                    jd += jyotisha.panchangam.temporal.MIN_DAYS_NEXT_ECL
                     continue
                 fday = int(
                     floor(jd_eclipse_lunar_start) - floor(self.jd_start) + 1)
@@ -1291,7 +1306,7 @@ class Panchangam(object):
                    jd_eclipse_lunar_start > jd_moonset_eclipse_day:
                     # Move towards the next eclipse... at least the next full
                     # moon (>=25 days away)
-                    jd += helper_functions.MIN_DAYS_NEXT_ECL
+                    jd += jyotisha.panchangam.temporal.MIN_DAYS_NEXT_ECL
                     continue
 
                 moonrise_eclipse_day = swe.revjul(jd_moonrise_eclipse_day)[3]
@@ -1303,13 +1318,13 @@ class Panchangam(object):
                     eclipse_lunar_end = moonset_eclipse_day
 
                 lunar_eclipse_str = 'candra-grahaNam' +\
-                    '~\\textsf{' + helper_functions.Time(eclipse_lunar_start).toString() +\
-                    '}{\\RIGHTarrow}\\textsf{' + helper_functions.Time(eclipse_lunar_end).toString() + '}'
+                    '~\\textsf{' + jyotisha.panchangam.temporal.Time(eclipse_lunar_start).toString() +\
+                    '}{\\RIGHTarrow}\\textsf{' + jyotisha.panchangam.temporal.Time(eclipse_lunar_end).toString() + '}'
                 if self.weekday[fday] == 1:
                     lunar_eclipse_str = '*cUDAmaNi~' + lunar_eclipse_str
 
                 self.festivals[fday].append(lunar_eclipse_str)
-            jd += helper_functions.MIN_DAYS_NEXT_ECL
+            jd += jyotisha.panchangam.temporal.MIN_DAYS_NEXT_ECL
 
     def writeMonthlyTeX(self, template_file):
         """Write out the panchangam TeX using a specified template
@@ -1330,8 +1345,8 @@ class Panchangam(object):
             print(template_lines[i][:-1])
 
         samvatsara_id = (self.year - 1568) % 60 + 1  # distance from prabhava
-        samvatsara_names = '%s–%s' % (helper_functions.NAMES['YEAR'][self.script][samvatsara_id],
-                                      helper_functions.NAMES['YEAR'][self.script][(samvatsara_id % 60) + 1])
+        samvatsara_names = '%s–%s' % (jyotisha.panchangam.temporal.NAMES['YEAR'][self.script][samvatsara_id],
+                                      jyotisha.panchangam.temporal.NAMES['YEAR'][self.script][(samvatsara_id % 60) + 1])
 
         print('\\mbox{}')
         print('{\\font\\x="Candara" at 60 pt\\x %d\\\\[0.5cm]}' % self.year)
@@ -1356,7 +1371,7 @@ class Panchangam(object):
               '{>{\\sffamily}r>{\\sffamily}r>{\\sffamily}c>{\\hangindent=2ex}p{8cm}}')
 
         mlast = 1
-        for d in range(1, helper_functions.MAX_SZ - 1):
+        for d in range(1, jyotisha.panchangam.temporal.MAX_SZ - 1):
             [y, m, dt, t] = swe.revjul(self.jd_start + d - 1)
 
             # checking @ 6am local - can we do any better?
@@ -1388,7 +1403,7 @@ class Panchangam(object):
 
         # print('\\clearpage')
 
-        for d in range(1, helper_functions.MAX_SZ - 1):
+        for d in range(1, jyotisha.panchangam.temporal.MAX_SZ - 1):
             [y, m, dt, t] = swe.revjul(self.jd_start + d - 1)
 
             # checking @ 6am local - can we do any better?
@@ -1427,21 +1442,21 @@ class Panchangam(object):
                 # if tithi_data_str != '':
                 #     tithi_data_str += '\\hspace{2ex}'
                 tithi = '\moon[scale=0.6]{%d}~' % (tithi_ID) + \
-                        helper_functions.NAMES['TITHI'][self.script][tithi_ID]
+                        jyotisha.panchangam.temporal.NAMES['TITHI'][self.script][tithi_ID]
                 if tithi_end_jd is None:
                     tithi_data_str = '%s\\mbox{%s {\\tiny \\RIGHTarrow} %s}' %\
                                      (tithi_data_str, tithi, jyotisha.panchangam.custom_transliteration.tr('ahOrAtram', self.script))
                 else:
                     tithi_data_str = '%s\\mbox{%s {\\tiny \\RIGHTarrow} \\textsf{%s%s}}' %\
                                      (tithi_data_str, tithi,
-                                      helper_functions.Time(24 * (tithi_end_jd - jd)).toString(format=self.fmt),
+                                      jyotisha.panchangam.temporal.Time(24 * (tithi_end_jd - jd)).toString(format=self.fmt),
                                       '\\hspace{2ex}')
 
             nakshatram_data_str = ''
             for nakshatram_ID, nakshatram_end_jd in self.nakshatram_data[d]:
                 # if nakshatram_data_str != '':
                 #     nakshatram_data_str += '\\hspace{2ex}'
-                nakshatram = helper_functions.NAMES['NAKSHATRAM'][self.script][nakshatram_ID]
+                nakshatram = jyotisha.panchangam.temporal.NAMES['NAKSHATRAM'][self.script][nakshatram_ID]
                 if nakshatram_end_jd is None:
                     nakshatram_data_str = '%s\\mbox{%s {\\tiny \\RIGHTarrow} %s}' %\
                                           (nakshatram_data_str, nakshatram,
@@ -1449,22 +1464,22 @@ class Panchangam(object):
                 else:
                     nakshatram_data_str = '%s\\mbox{%s {\\tiny \\RIGHTarrow} \\textsf{%s%s}}' %\
                                           (nakshatram_data_str, nakshatram,
-                                           helper_functions.Time(24 * (nakshatram_end_jd -
-                                                                       jd)).toString(format=self.fmt),
+                                           jyotisha.panchangam.temporal.Time(24 * (nakshatram_end_jd -
+                                                                                   jd)).toString(format=self.fmt),
                                            '\\hspace{2ex}')
 
             yogam_data_str = ''
             for yogam_ID, yogam_end_jd in self.yogam_data[d]:
                 # if yogam_data_str != '':
                 #     yogam_data_str += '\\hspace{2ex}'
-                yogam = helper_functions.NAMES['YOGAM'][self.script][yogam_ID]
+                yogam = jyotisha.panchangam.temporal.NAMES['YOGAM'][self.script][yogam_ID]
                 if yogam_end_jd is None:
                     yogam_data_str = '%s\\mbox{%s {\\tiny \\RIGHTarrow} %s}' %\
                                      (yogam_data_str, yogam, jyotisha.panchangam.custom_transliteration.tr('ahOrAtram', self.script))
                 else:
                     yogam_data_str = '%s\\mbox{%s {\\tiny \\RIGHTarrow} \\textsf{%s%s}}' %\
                                      (yogam_data_str, yogam,
-                                      helper_functions.Time(24 * (yogam_end_jd - jd)).toString(format=self.fmt),
+                                      jyotisha.panchangam.temporal.Time(24 * (yogam_end_jd - jd)).toString(format=self.fmt),
                                       '\\hspace{2ex}')
 
             karanam_data_str = ''
@@ -1473,7 +1488,7 @@ class Panchangam(object):
                 #     karanam_data_str += '\\hspace{2ex}'
                 if numKaranam == 2:
                     karanam_data_str = karanam_data_str + '\\\\'
-                karanam = helper_functions.NAMES['KARANAM'][self.script][karanam_ID]
+                karanam = jyotisha.panchangam.temporal.NAMES['KARANAM'][self.script][karanam_ID]
                 if karanam_end_jd is None:
                     karanam_data_str = '%s\\mbox{%s {\\tiny \\RIGHTarrow} %s}' %\
                                        (karanam_data_str, karanam,
@@ -1481,22 +1496,23 @@ class Panchangam(object):
                 else:
                     karanam_data_str = '%s\\mbox{%s {\\tiny \\RIGHTarrow} \\textsf{%s%s}}' %\
                                        (karanam_data_str, karanam,
-                                        helper_functions.Time(24 * (karanam_end_jd -
-                                                                    jd)).toString(format=self.fmt), '\\hspace{2ex}')
+                                        jyotisha.panchangam.temporal.Time(24 * (karanam_end_jd -
+                                                                                jd)).toString(format=self.fmt), '\\hspace{2ex}')
 
-            sunrise = helper_functions.Time(24 * (self.jd_sunrise[d] - jd)).toString(format=self.fmt)
-            sunset = helper_functions.Time(24 * (self.jd_sunset[d] - jd)).toString(format=self.fmt)
-            sangava = helper_functions.Time(24 * (self.kalams[d]['saGgava'][0] - jd)).toString(format=self.fmt)
+            sunrise = jyotisha.panchangam.temporal.Time(24 * (self.jd_sunrise[d] - jd)).toString(format=self.fmt)
+            sunset = jyotisha.panchangam.temporal.Time(24 * (self.jd_sunset[d] - jd)).toString(format=self.fmt)
+            sangava = jyotisha.panchangam.temporal.Time(24 * (self.kalams[d]['saGgava'][0] - jd)).toString(format=self.fmt)
             rahu = '%s--%s' % (
-                helper_functions.Time(24 * (self.kalams[d]['rahu'][0] - jd)).toString(format=self.fmt),
-                helper_functions.Time(24 * (self.kalams[d]['rahu'][1] - jd)).toString(format=self.fmt))
+                jyotisha.panchangam.temporal.Time(24 * (self.kalams[d]['rahu'][0] - jd)).toString(format=self.fmt),
+                jyotisha.panchangam.temporal.Time(24 * (self.kalams[d]['rahu'][1] - jd)).toString(format=self.fmt))
             yama = '%s--%s' % (
-                helper_functions.Time(24 * (self.kalams[d]['yama'][0] - jd)).toString(format=self.fmt),
-                helper_functions.Time(24 * (self.kalams[d]['yama'][1] - jd)).toString(format=self.fmt))
+                jyotisha.panchangam.temporal.Time(24 * (self.kalams[d]['yama'][0] - jd)).toString(format=self.fmt),
+                jyotisha.panchangam.temporal.Time(24 * (self.kalams[d]['yama'][1] - jd)).toString(format=self.fmt))
 
             print('\caldata{\\textcolor{%s}{%s}}{%s{%s}}%%' %
                   (day_colours[self.weekday[d]], dt, self.month_data[d],
-                   helper_functions.get_chandra_masa(self.lunar_month[d], helper_functions.NAMES, self.script)))
+                   jyotisha.panchangam.temporal.get_chandra_masa(self.lunar_month[d],
+                                                                 jyotisha.panchangam.temporal.NAMES, self.script)))
             print('{\\sundata{%s}{%s}{%s}}%%' % (sunrise, sunset, sangava))
             print('{\\tnyk{%s}%%\n{%s}%%\n{%s}%%\n{%s}}%%' % (tithi_data_str, nakshatram_data_str,
                                                               yogam_data_str, karanam_data_str))
@@ -1544,8 +1560,8 @@ class Panchangam(object):
             print(template_lines[i][:-1])
 
         samvatsara_id = (self.year - 1568) % 60 + 1  # distance from prabhava
-        samvatsara_names = (helper_functions.NAMES['YEAR'][self.script][samvatsara_id],
-                            helper_functions.NAMES['YEAR'][self.script][(samvatsara_id % 60) + 1])
+        samvatsara_names = (jyotisha.panchangam.temporal.NAMES['YEAR'][self.script][samvatsara_id],
+                            jyotisha.panchangam.temporal.NAMES['YEAR'][self.script][(samvatsara_id % 60) + 1])
 
         yname = samvatsara_names[0]  # Assign year name until Mesha Sankranti
 
@@ -1566,7 +1582,7 @@ class Panchangam(object):
         print('\end{center}')
         print('\clearpage')
 
-        for d in range(1, helper_functions.MAX_SZ - 1):
+        for d in range(1, jyotisha.panchangam.temporal.MAX_SZ - 1):
 
             [y, m, dt, t] = swe.revjul(self.jd_start + d - 1)
 
@@ -1584,21 +1600,21 @@ class Panchangam(object):
                 # if tithi_data_str != '':
                 #     tithi_data_str += '\\hspace{2ex}'
                 tithi = '\moon[scale=0.8]{%d}~' % (tithi_ID) + \
-                        helper_functions.NAMES['TITHI'][self.script][tithi_ID]
+                        jyotisha.panchangam.temporal.NAMES['TITHI'][self.script][tithi_ID]
                 if tithi_end_jd is None:
                     tithi_data_str = '%s\\mbox{%s {\\small\\RIGHTarrow} %s}' %\
                                      (tithi_data_str, tithi, jyotisha.panchangam.custom_transliteration.tr('ahOrAtram', self.script))
                 else:
                     tithi_data_str = '%s\\mbox{%s {\\small\\RIGHTarrow} \\textsf{%s%s}}' %\
                                      (tithi_data_str, tithi,
-                                      helper_functions.Time(24 * (tithi_end_jd - jd)).toString(format=self.fmt),
+                                      jyotisha.panchangam.temporal.Time(24 * (tithi_end_jd - jd)).toString(format=self.fmt),
                                       '\\hspace{2ex}')
 
             nakshatram_data_str = ''
             for nakshatram_ID, nakshatram_end_jd in self.nakshatram_data[d]:
                 if nakshatram_data_str != '':
                     nakshatram_data_str += '\\hspace{2ex}'
-                nakshatram = helper_functions.NAMES['NAKSHATRAM'][self.script][nakshatram_ID]
+                nakshatram = jyotisha.panchangam.temporal.NAMES['NAKSHATRAM'][self.script][nakshatram_ID]
                 if nakshatram_end_jd is None:
                     nakshatram_data_str = '%s\\mbox{%s {\\small\\RIGHTarrow} %s}' %\
                                           (nakshatram_data_str, nakshatram,
@@ -1606,79 +1622,79 @@ class Panchangam(object):
                 else:
                     nakshatram_data_str = '%s\\mbox{%s {\\small\\RIGHTarrow} \\textsf{%s}}' %\
                                           (nakshatram_data_str, nakshatram,
-                                           helper_functions.Time(24 * (nakshatram_end_jd -
-                                                                       jd)).toString(format=self.fmt))
+                                           jyotisha.panchangam.temporal.Time(24 * (nakshatram_end_jd -
+                                                                                   jd)).toString(format=self.fmt))
 
             rashi_data_str = ''
             for rashi_ID, rashi_end_jd in self.rashi_data[d]:
                 # if rashi_data_str != '':
                 #     rashi_data_str += '\\hspace{2ex}'
-                rashi = helper_functions.NAMES['RASHI'][self.script][rashi_ID]
+                rashi = jyotisha.panchangam.temporal.NAMES['RASHI'][self.script][rashi_ID]
                 if rashi_end_jd is None:
                     rashi_data_str = '%s\\mbox{%s}' % (rashi_data_str, rashi)
                 else:
                     rashi_data_str = '%s\\mbox{%s \\RIGHTarrow \\textsf{%s}}' %\
                                      (rashi_data_str, rashi,
-                                      helper_functions.Time(24 * (rashi_end_jd - jd)).toString(format=self.fmt))
+                                      jyotisha.panchangam.temporal.Time(24 * (rashi_end_jd - jd)).toString(format=self.fmt))
             if computeLagnams:
                 lagna_data_str = 'लग्नं:~'
                 for lagna_ID, lagna_end_jd in self.lagna_data[d]:
-                    lagna = helper_functions.NAMES['MASA'][self.script][lagna_ID]
+                    lagna = jyotisha.panchangam.temporal.NAMES['MASA'][self.script][lagna_ID]
                     lagna_data_str = '%s \\mbox{%s \\RIGHTarrow \\textsf{%s}}' %\
                                      (lagna_data_str, lagna,
-                                      helper_functions.Time(24 * (lagna_end_jd - jd)).toString(format=self.fmt))
+                                      jyotisha.panchangam.temporal.Time(24 * (lagna_end_jd - jd)).toString(format=self.fmt))
 
             yogam_data_str = ''
             for yogam_ID, yogam_end_jd in self.yogam_data[d]:
                 # if yogam_data_str != '':
                 #     yogam_data_str += '\\hspace{2ex}'
-                yogam = helper_functions.NAMES['YOGAM'][self.script][yogam_ID]
+                yogam = jyotisha.panchangam.temporal.NAMES['YOGAM'][self.script][yogam_ID]
                 if yogam_end_jd is None:
                     yogam_data_str = '%s\\mbox{%s {\\small\\RIGHTarrow} %s}' %\
                                      (yogam_data_str, yogam, jyotisha.panchangam.custom_transliteration.tr('ahOrAtram', self.script))
                 else:
                     yogam_data_str = '%s\\mbox{%s {\\small\\RIGHTarrow} \\textsf{%s%s}}' %\
                                      (yogam_data_str, yogam,
-                                      helper_functions.Time(24 * (yogam_end_jd - jd)).toString(format=self.fmt),
+                                      jyotisha.panchangam.temporal.Time(24 * (yogam_end_jd - jd)).toString(format=self.fmt),
                                       '\\hspace{2ex}')
 
             karanam_data_str = ''
             for numKaranam, (karanam_ID, karanam_end_jd) in enumerate(self.karanam_data[d]):
                 # if numKaranam == 1:
                 #     karanam_data_str += '\\hspace{2ex}'
-                karanam = helper_functions.NAMES['KARANAM'][self.script][karanam_ID]
+                karanam = jyotisha.panchangam.temporal.NAMES['KARANAM'][self.script][karanam_ID]
                 if karanam_end_jd is None:
                     karanam_data_str = '%s\\mbox{%s {\\small\\RIGHTarrow} %s}' %\
                                        (karanam_data_str, karanam, jyotisha.panchangam.custom_transliteration.tr('ahOrAtram', self.script))
                 else:
                     karanam_data_str = '%s\\mbox{%s {\\small\\RIGHTarrow} \\textsf{%s%s}}' %\
                                        (karanam_data_str, karanam,
-                                        helper_functions.Time(24 * (karanam_end_jd - jd)).toString(format=self.fmt),
+                                        jyotisha.panchangam.temporal.Time(24 * (karanam_end_jd - jd)).toString(format=self.fmt),
                                         '\\hspace{2ex}')
 
-            sunrise = helper_functions.Time(24 * (self.jd_sunrise[d] - jd)).toString(format=self.fmt)
-            sunset = helper_functions.Time(24 * (self.jd_sunset[d] - jd)).toString(format=self.fmt)
-            moonrise = helper_functions.Time(24 * (self.jd_moonrise[d] - jd)).toString(format=self.fmt)
-            moonset = helper_functions.Time(24 * (self.jd_moonset[d] - jd)).toString(format=self.fmt)
+            sunrise = jyotisha.panchangam.temporal.Time(24 * (self.jd_sunrise[d] - jd)).toString(format=self.fmt)
+            sunset = jyotisha.panchangam.temporal.Time(24 * (self.jd_sunset[d] - jd)).toString(format=self.fmt)
+            moonrise = jyotisha.panchangam.temporal.Time(24 * (self.jd_moonrise[d] - jd)).toString(format=self.fmt)
+            moonset = jyotisha.panchangam.temporal.Time(24 * (self.jd_moonset[d] - jd)).toString(format=self.fmt)
 
-            pratahsandhya = helper_functions.Time(24 * (self.kalams[d]['prAtaH sandhyA'][0] -
-                                                        jd)).toString(format=self.fmt)
-            sangava = helper_functions.Time(24 * (self.kalams[d]['saGgava'][0] - jd)).toString(format=self.fmt)
-            madhyahna = helper_functions.Time(24 * (self.kalams[d]['madhyAhna'][0] - jd)).toString(format=self.fmt)
-            aparahna = helper_functions.Time(24 * (self.kalams[d]['aparAhna'][0] - jd)).toString(format=self.fmt)
-            sayahna = helper_functions.Time(24 * (self.kalams[d]['sAyAhna'][0] - jd)).toString(format=self.fmt)
-            sayamsandhya = helper_functions.Time(24 * (self.kalams[d]['sAyaM sandhyA'][0] -
-                                                       jd)).toString(format=self.fmt)
+            pratahsandhya = jyotisha.panchangam.temporal.Time(24 * (self.kalams[d]['prAtaH sandhyA'][0] -
+                                                                    jd)).toString(format=self.fmt)
+            sangava = jyotisha.panchangam.temporal.Time(24 * (self.kalams[d]['saGgava'][0] - jd)).toString(format=self.fmt)
+            madhyahna = jyotisha.panchangam.temporal.Time(24 * (self.kalams[d]['madhyAhna'][0] - jd)).toString(format=self.fmt)
+            aparahna = jyotisha.panchangam.temporal.Time(24 * (self.kalams[d]['aparAhna'][0] - jd)).toString(format=self.fmt)
+            sayahna = jyotisha.panchangam.temporal.Time(24 * (self.kalams[d]['sAyAhna'][0] - jd)).toString(format=self.fmt)
+            sayamsandhya = jyotisha.panchangam.temporal.Time(24 * (self.kalams[d]['sAyaM sandhyA'][0] -
+                                                                   jd)).toString(format=self.fmt)
 
             rahu = '%s--%s' % (
-                helper_functions.Time(24 * (self.kalams[d]['rahu'][0] - jd)).toString(format=self.fmt),
-                helper_functions.Time(24 * (self.kalams[d]['rahu'][1] - jd)).toString(format=self.fmt))
+                jyotisha.panchangam.temporal.Time(24 * (self.kalams[d]['rahu'][0] - jd)).toString(format=self.fmt),
+                jyotisha.panchangam.temporal.Time(24 * (self.kalams[d]['rahu'][1] - jd)).toString(format=self.fmt))
             yama = '%s--%s' % (
-                helper_functions.Time(24 * (self.kalams[d]['yama'][0] - jd)).toString(format=self.fmt),
-                helper_functions.Time(24 * (self.kalams[d]['yama'][1] - jd)).toString(format=self.fmt))
+                jyotisha.panchangam.temporal.Time(24 * (self.kalams[d]['yama'][0] - jd)).toString(format=self.fmt),
+                jyotisha.panchangam.temporal.Time(24 * (self.kalams[d]['yama'][1] - jd)).toString(format=self.fmt))
             gulika = '%s--%s' % (
-                helper_functions.Time(24 * (self.kalams[d]['gulika'][0] - jd)).toString(format=self.fmt),
-                helper_functions.Time(24 * (self.kalams[d]['gulika'][1] - jd)).toString(format=self.fmt))
+                jyotisha.panchangam.temporal.Time(24 * (self.kalams[d]['gulika'][0] - jd)).toString(format=self.fmt),
+                jyotisha.panchangam.temporal.Time(24 * (self.kalams[d]['gulika'][1] - jd)).toString(format=self.fmt))
 
             if self.solar_month[d] == 1:
                 # Flip the year name for the remaining days
@@ -1686,8 +1702,9 @@ class Panchangam(object):
 
             print('\caldata{%s}{%s}{%s{%s}{%s}{%s}}' %
                   (month[m], dt, self.month_data[d],
-                   helper_functions.get_chandra_masa(self.lunar_month[d], helper_functions.NAMES, self.script),
-                   helper_functions.NAMES['VARA'][self.script][self.weekday[d]], yname))
+                   jyotisha.panchangam.temporal.get_chandra_masa(self.lunar_month[d],
+                                                                 jyotisha.panchangam.temporal.NAMES, self.script),
+                   jyotisha.panchangam.temporal.NAMES['VARA'][self.script][self.weekday[d]], yname))
             print('{\\sunmoondata{%s}{%s}{%s}{%s}' % (sunrise, sunset, moonrise, moonset))
             print('{\kalas{%s}{%s}{%s}{%s}{%s}{%s}}}' % (pratahsandhya, sangava, madhyahna,
                                                          aparahna, sayahna, sayamsandhya,))
@@ -1726,7 +1743,7 @@ class Panchangam(object):
 
         BASE_URL = "http://adyatithih.wordpress.com/"
 
-        for d in range(1, helper_functions.MAX_SZ - 1):
+        for d in range(1, jyotisha.panchangam.temporal.MAX_SZ - 1):
             [y, m, dt, t] = swe.revjul(self.jd_start + d - 1)
 
             if len(self.festivals[d]) > 0:
@@ -1945,7 +1962,7 @@ class Panchangam(object):
     def writeDebugLog(self):
         log_file = open('cal-%4d-%s-log.txt' % (self.year, self.city.name), 'w')
         # helper_functions.MAX_SZ = 368
-        for d in range(1, helper_functions.MAX_SZ - 1):
+        for d in range(1, jyotisha.panchangam.temporal.MAX_SZ - 1):
             jd = self.jd_start - 1 + d
             [y, m, dt, t] = swe.revjul(jd)
             longitude_sun_sunset = swe.calc_ut(
@@ -1953,7 +1970,8 @@ class Panchangam(object):
                 swe.get_ayanamsa(self.jd_sunset[d])
             log_data = '%02d-%02d-%4d\t[%3d]\tsun_rashi=%8.3f\ttithi=%8.3f\tsolar_month\
         =%2d\tlunar_month=%4.1f\n' % (dt, m, y, d, (longitude_sun_sunset % 360) / 30.0,
-                                      helper_functions.get_angam_float(self.jd_sunrise[d],  helper_functions.TITHI),
+                                      jyotisha.panchangam.temporal.get_angam_float(self.jd_sunrise[d],
+                                                                                   jyotisha.panchangam.temporal.TITHI),
                                       self.solar_month[d], self.lunar_month[d])
             log_file.write(log_data)
 
