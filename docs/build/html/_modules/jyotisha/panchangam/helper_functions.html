@@ -73,7 +73,7 @@
 <span class="n">SOLAR_NAKSH</span>    <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;arc_len&#39;</span><span class="p">:</span> <span class="mf">360.0</span> <span class="o">/</span> <span class="mf">27.0</span><span class="p">,</span>  <span class="s1">&#39;w_moon&#39;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="s1">&#39;w_sun&#39;</span><span class="p">:</span>  <span class="mi">1</span><span class="p">}</span>
 
 
-<div class="viewcode-block" id="city"><a class="viewcode-back" href="../../../jyotisha_panchangam_helper_functions.html#jyotisha.panchangam.helper_functions.city">[docs]</a><span class="k">class</span> <span class="nc">city</span><span class="p">:</span>
+<div class="viewcode-block" id="City"><a class="viewcode-back" href="../../../jyotisha_panchangam_helper_functions.html#jyotisha.panchangam.helper_functions.City">[docs]</a><span class="k">class</span> <span class="nc">City</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
 
     <span class="sd">&quot;&quot;&quot;This class enables the construction of a city object</span>
 <span class="sd">    &quot;&quot;&quot;</span>
@@ -88,7 +88,7 @@
         <span class="bp">self</span><span class="o">.</span><span class="n">timezone</span> <span class="o">=</span> <span class="n">timezone</span></div>
 
 
-<div class="viewcode-block" id="time"><a class="viewcode-back" href="../../../jyotisha_panchangam_helper_functions.html#jyotisha.panchangam.helper_functions.time">[docs]</a><span class="k">class</span> <span class="nc">time</span><span class="p">:</span>
+<div class="viewcode-block" id="Time"><a class="viewcode-back" href="../../../jyotisha_panchangam_helper_functions.html#jyotisha.panchangam.helper_functions.Time">[docs]</a><span class="k">class</span> <span class="nc">Time</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
 
     <span class="sd">&quot;&quot;&quot;This  class is a time class with methods for printing, conversion etc.</span>
 <span class="sd">    &quot;&quot;&quot;</span>
@@ -99,7 +99,7 @@
         <span class="k">else</span><span class="p">:</span>
             <span class="k">raise</span><span class="p">(</span><span class="ne">TypeError</span><span class="p">(</span><span class="s1">&#39;Input to time class must be int or float!&#39;</span><span class="p">))</span>
 
-<div class="viewcode-block" id="time.toString"><a class="viewcode-back" href="../../../jyotisha_panchangam_helper_functions.html#jyotisha.panchangam.helper_functions.time.toString">[docs]</a>    <span class="k">def</span> <span class="nf">toString</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">default_suffix</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="nb">format</span><span class="o">=</span><span class="s1">&#39;hh:mm&#39;</span><span class="p">):</span>
+<div class="viewcode-block" id="Time.toString"><a class="viewcode-back" href="../../../jyotisha_panchangam_helper_functions.html#jyotisha.panchangam.helper_functions.Time.toString">[docs]</a>    <span class="k">def</span> <span class="nf">toString</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">default_suffix</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="nb">format</span><span class="o">=</span><span class="s1">&#39;hh:mm&#39;</span><span class="p">):</span>
         <span class="n">secs</span> <span class="o">=</span> <span class="nb">round</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">t</span> <span class="o">*</span> <span class="mi">3600</span><span class="p">)</span>  <span class="c1"># round to nearest second</span>
         <span class="n">hour</span> <span class="o">=</span> <span class="n">secs</span> <span class="o">//</span> <span class="mi">3600</span>
         <span class="n">secs</span> <span class="o">=</span> <span class="n">secs</span> <span class="o">%</span> <span class="mi">3600</span>
