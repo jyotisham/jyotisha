@@ -60,7 +60,7 @@ class Time(object):
         return self.toString(format='hh:mm:ss')
 
 
-def get_nakshatram(jd):
+def get_nakshatram(jd, ayanamsha_id=swe.SIDM_LAHIRI):
     """Returns the nakshatram prevailing at a given moment
 
     Nakshatram is computed based on the longitude of the Moon; in
@@ -79,10 +79,10 @@ def get_nakshatram(jd):
       16
     """
 
-    return get_angam(jd, NAKSHATRAM)
+    return get_angam(jd, NAKSHATRAM, ayanamsha_id=ayanamsha_id)
 
 
-def get_solar_rashi(jd):
+def get_solar_rashi(jd, ayanamsha_id=swe.SIDM_LAHIRI):
     """Returns the solar rashi prevailing at a given moment
 
     Solar month is computed based on the longitude of the sun; in
@@ -100,10 +100,10 @@ def get_solar_rashi(jd):
       9
     """
 
-    return get_angam(jd, SOLAR_MONTH)
+    return get_angam(jd, SOLAR_MONTH, ayanamsha_id=ayanamsha_id)
 
 
-def get_angam_float(jd, angam_type, offset=0, debug=False):
+def get_angam_float(jd, angam_type, offset=0, ayanamsha_id=swe.SIDM_LAHIRI, debug=False):
     """Returns the angam
 
       Args:
@@ -118,7 +118,7 @@ def get_angam_float(jd, angam_type, offset=0, debug=False):
         >>> get_angam_float(2444961.7125,NAKSHATRAM)
         15.967801358055189
     """
-    swe.set_sid_mode(swe.SIDM_LAHIRI)  # Force Lahiri Ayanamsha
+    swe.set_sid_mode(ayanamsha_id)
     w_moon = angam_type['w_moon']
     w_sun = angam_type['w_sun']
     arc_len = angam_type['arc_len']
@@ -173,7 +173,7 @@ def get_nirayana_sun_lon(jd, offset=0, debug=False):
     return lsun + offset
 
 
-def get_angam(jd, angam_type):
+def get_angam(jd, angam_type, ayanamsha_id=swe.SIDM_LAHIRI):
     """Returns the angam prevailing at a particular time
 
       Args:
@@ -198,12 +198,12 @@ def get_angam(jd, angam_type):
       >>> get_angam(2444961.7125,KARANAM)
       55
     """
-    swe.set_sid_mode(swe.SIDM_LAHIRI)  # Force Lahiri Ayanamsha
+    swe.set_sid_mode(ayanamsha_id)
 
-    return int(1 + floor(get_angam_float(jd, angam_type)))
+    return int(1 + floor(get_angam_float(jd, angam_type, ayanamsha_id=ayanamsha_id)))
 
 
-def get_angam_span(jd1, jd2, angam_type, target, debug=False):
+def get_angam_span(jd1, jd2, angam_type, target, ayanamsha_id=swe.SIDM_LAHIRI, debug=False):
     """Computes angam spans for angams such as tithi, nakshatram, yogam
         and karanam.
 
@@ -228,17 +228,17 @@ def get_angam_span(jd1, jd2, angam_type, target, debug=False):
 
     jd_now = jd1
     while jd_now < jd2 and angam_start is None:
-        angam_now = get_angam(jd_now, angam_type)
+        angam_now = get_angam(jd_now, angam_type, ayanamsha_id=ayanamsha_id)
 
         if debug:
-            print('%%', jd_now, revjul(jd_now), angam_now, get_angam_float(jd_now, angam_type))
+            print('%%', jd_now, revjul(jd_now), angam_now, get_angam_float(jd_now, angam_type, ayanamsha_id=ayanamsha_id))
         if angam_now < target:
             if debug:
                 print('%% jd_bracket_L ', jd_now)
             jd_bracket_L = jd_now
         if angam_now == target:
             angam_start = brentq(get_angam_float, jd_bracket_L, jd_now,
-                                 args=(angam_type, -target + 1, False))
+                                 args=(angam_type, -target + 1, ayanamsha_id, False))
             if debug:
                 print('%% angam_start', angam_start)
         # if angam_now > target and angam_start is not None:
@@ -251,10 +251,10 @@ def get_angam_span(jd1, jd2, angam_type, target, debug=False):
     jd_now = angam_start
 
     while jd_now < jd2 and angam_end is None:
-        angam_now = get_angam(jd_now, angam_type)
+        angam_now = get_angam(jd_now, angam_type, ayanamsha_id=ayanamsha_id)
 
         if debug:
-            print('%%#', jd_now, revjul(jd_now), angam_now, get_angam_float(jd_now, angam_type))
+            print('%%#', jd_now, revjul(jd_now), angam_now, get_angam_float(jd_now, angam_type, ayanamsha_id=ayanamsha_id))
         if target == num_angas:
             # Wait till we land at the next anga!
             if angam_now == 1:
@@ -272,7 +272,7 @@ def get_angam_span(jd1, jd2, angam_type, target, debug=False):
 
     try:
         angam_end = brentq(get_angam_float, angam_start, jd_bracket_R,
-                           args=(angam_type, -target, False))
+                           args=(angam_type, -target, ayanamsha_id, False))
     except:
         sys.stderr.write('Unable to compute angam_end (%s->%d); possibly could not bracket correctly!\n' % (str(angam_type), target))
 
@@ -282,7 +282,7 @@ def get_angam_span(jd1, jd2, angam_type, target, debug=False):
     return (angam_start, angam_end)
 
 
-def get_angam_data(jd_sunrise, jd_sunrise_tmrw, angam_type):
+def get_angam_data(jd_sunrise, jd_sunrise_tmrw, angam_type, ayanamsha_id=swe.SIDM_LAHIRI):
     """Computes angam data for angams such as tithi, nakshatram, yogam
     and karanam.
 
@@ -306,7 +306,7 @@ def get_angam_data(jd_sunrise, jd_sunrise_tmrw, angam_type):
       >>> get_angam_data(2444961.54042,2444962.54076,KARANAM)
       [(54, 2444961.599213231), (55, 2444962.15444546)]
     """
-    swe.set_sid_mode(swe.SIDM_LAHIRI)  # Force Lahiri Ayanamsha
+    swe.set_sid_mode(ayanamsha_id)
 
     w_moon = angam_type['w_moon']
     w_sun = angam_type['w_sun']
@@ -315,8 +315,8 @@ def get_angam_data(jd_sunrise, jd_sunrise_tmrw, angam_type):
     num_angas = int(360.0 / arc_len)
 
     # Compute angam details
-    angam_now = get_angam(jd_sunrise, angam_type)
-    angam_tmrw = get_angam(jd_sunrise_tmrw, angam_type)
+    angam_now = get_angam(jd_sunrise, angam_type, ayanamsha_id=ayanamsha_id)
+    angam_tmrw = get_angam(jd_sunrise_tmrw, angam_type, ayanamsha_id=ayanamsha_id)
 
     angams_list = []
 
@@ -366,7 +366,7 @@ def get_angam_data(jd_sunrise, jd_sunrise_tmrw, angam_type):
             # used to bracket the root, for brenth
             TDELTA = 0.05
             t_act = brentq(get_angam_float, x0 - TDELTA, x0 + TDELTA,
-                           args=(angam_type, -target, False))
+                           args=(angam_type, -target, ayanamsha_id, False))
             angams_list.extend([((angam_now + i - 1) % num_angas + 1, t_act)])
     return angams_list
 
@@ -395,7 +395,7 @@ def get_chandra_masa(month, NAMES, script):
         return '%s~(%s)' % (NAMES['CHANDRA_MASA'][script][int(month) + 1], tr('adhika', script))
 
 
-def get_tithi(jd):
+def get_tithi(jd, ayanamsha_id=swe.SIDM_LAHIRI):
     """Returns the tithi prevailing at a given moment
 
     Tithi is computed as the difference in the longitudes of the moon
@@ -415,7 +415,7 @@ def get_tithi(jd):
       28
     """
 
-    return get_angam(jd, TITHI)
+    return get_angam(jd, TITHI, ayanamsha_id=ayanamsha_id)
 
 
 def get_kalas(start_span, end_span, part_start, num_parts):

@@ -37,7 +37,7 @@ class Panchangam(object):
 
         self.weekday_start = swe.day_of_week(swe.julday(year, 1, 1)) + 1
         # swe has Mon = 0, non-intuitively!
-
+        self.ayanamsha_id=ayanamsha_id
         swe.set_sid_mode(ayanamsha_id)
 
     def computeAngams(self, computeLagnams=True):
@@ -75,7 +75,7 @@ class Panchangam(object):
         # rather than Jan 1, since we have an always increment
         # solar_month_day at the start of the loop across every day in
         # year
-        [self.solar_month[1], solar_month_day] = spatio_temporal.get_solar_month_day(self.jd_start - 1, self.city)
+        [self.solar_month[1], solar_month_day] = spatio_temporal.get_solar_month_day(self.jd_start - 1, self.city, ayanamsha_id=self.ayanamsha_id)
 
         if self.solar_month[1] != 9:
             raise(ValueError('Dec 31 does not appear to be Dhanurmasa!'))
@@ -145,13 +145,13 @@ class Panchangam(object):
                 if self.solar_month[d] != solar_month_sunrise[d + 1]:
                     month_start_after_sunset = True
                     [_m, solar_month_end_jd] = jyotisha.panchangam.temporal.get_angam_data(
-                        self.jd_sunrise[d], self.jd_sunrise[d + 1], jyotisha.panchangam.temporal.SOLAR_MONTH)[0]
+                        self.jd_sunrise[d], self.jd_sunrise[d + 1], jyotisha.panchangam.temporal.SOLAR_MONTH, ayanamsha_id=self.ayanamsha_id)[0]
             elif solar_month_sunrise[d] != self.solar_month[d]:
                 # sankrAnti!
                 # sun moves into next rAshi before sunset
                 solar_month_day = 1
                 [_m, solar_month_end_jd] = jyotisha.panchangam.temporal.get_angam_data(
-                    self.jd_sunrise[d], self.jd_sunrise[d + 1], jyotisha.panchangam.temporal.SOLAR_MONTH)[0]
+                    self.jd_sunrise[d], self.jd_sunrise[d + 1], jyotisha.panchangam.temporal.SOLAR_MONTH, ayanamsha_id=self.ayanamsha_id)[0]
             else:
                 solar_month_day = solar_month_day + 1
                 solar_month_end_jd = None
@@ -215,22 +215,22 @@ class Panchangam(object):
 
             # Compute all the anga datas
             self.tithi_data[d] = jyotisha.panchangam.temporal.get_angam_data(self.jd_sunrise[d], self.jd_sunrise[d + 1],
-                                                                             jyotisha.panchangam.temporal.TITHI)
+                                                                             jyotisha.panchangam.temporal.TITHI, ayanamsha_id=self.ayanamsha_id)
             self.tithi_sunrise[d] = self.tithi_data[d][0][0]
             self.nakshatram_data[d] = jyotisha.panchangam.temporal.get_angam_data(self.jd_sunrise[d],
                                                                                   self.jd_sunrise[d + 1],
-                                                                                  jyotisha.panchangam.temporal.NAKSHATRAM)
+                                                                                  jyotisha.panchangam.temporal.NAKSHATRAM, ayanamsha_id=self.ayanamsha_id)
             self.nakshatram_sunrise[d] = self.nakshatram_data[d][0][0]
             self.yogam_data[d] = jyotisha.panchangam.temporal.get_angam_data(self.jd_sunrise[d], self.jd_sunrise[d + 1],
-                                                                             jyotisha.panchangam.temporal.YOGAM)
+                                                                             jyotisha.panchangam.temporal.YOGAM, ayanamsha_id=self.ayanamsha_id)
             self.karanam_data[d] = jyotisha.panchangam.temporal.get_angam_data(self.jd_sunrise[d],
                                                                                self.jd_sunrise[d + 1],
-                                                                               jyotisha.panchangam.temporal.KARANAM)
+                                                                               jyotisha.panchangam.temporal.KARANAM, ayanamsha_id=self.ayanamsha_id)
             self.rashi_data[d] = jyotisha.panchangam.temporal.get_angam_data(self.jd_sunrise[d], self.jd_sunrise[d + 1],
-                                                                             jyotisha.panchangam.temporal.RASHI)
+                                                                             jyotisha.panchangam.temporal.RASHI, ayanamsha_id=self.ayanamsha_id)
             if computeLagnams:
                 self.lagna_data[d] = spatio_temporal.get_lagna_data(self.jd_sunrise[d], self.city.latitude,
-                                                                    self.city.longitude, tz_off)
+                                                                    self.city.longitude, tz_off, ayanamsha_id=self.ayanamsha_id)
 
     def assignLunarMonths(self):
         last_d_assigned = 0
@@ -238,17 +238,17 @@ class Panchangam(object):
                                                                                              self.tithi_sunrise[1] - 2,
                                                                                              self.jd_start -
                                                                                              self.tithi_sunrise[1] + 2,
-                                                                                             jyotisha.panchangam.temporal.TITHI, 30)
+                                                                                             jyotisha.panchangam.temporal.TITHI, 30, ayanamsha_id=self.ayanamsha_id)
         prev_new_moon_start, prev_new_moon_end = jyotisha.panchangam.temporal.get_angam_span(last_new_moon_start - 32,
                                                                                              last_new_moon_start - 24,
-                                                                                             jyotisha.panchangam.temporal.TITHI, 30)
+                                                                                             jyotisha.panchangam.temporal.TITHI, 30, ayanamsha_id=self.ayanamsha_id)
         # Check if current mAsa is adhika here
-        isAdhika = jyotisha.panchangam.temporal.get_solar_rashi(last_new_moon_start) == jyotisha.panchangam.temporal.get_solar_rashi(prev_new_moon_start)
+        isAdhika = jyotisha.panchangam.temporal.get_solar_rashi(last_new_moon_start) == jyotisha.panchangam.temporal.get_solar_rashi(prev_new_moon_start, ayanamsha_id=self.ayanamsha_id)
 
         while last_new_moon_start < self.jd_start + 367:
             this_new_moon_start, this_new_moon_end = jyotisha.panchangam.temporal.get_angam_span(last_new_moon_start + 24,
                                                                                                  last_new_moon_start + 32,
-                                                                                                 jyotisha.panchangam.temporal.TITHI, 30)
+                                                                                                 jyotisha.panchangam.temporal.TITHI, 30, ayanamsha_id=self.ayanamsha_id)
             for i in range(last_d_assigned + 1, last_d_assigned + 32):
                 if i > 367 or self.jd_sunrise[i] > this_new_moon_end:
                     last_d_assigned = i - 1
@@ -258,7 +258,7 @@ class Panchangam(object):
                 else:
                     self.lunar_month[i] = self.solar_month[last_d_assigned] % 12 + 1
 
-            isAdhika = jyotisha.panchangam.temporal.get_solar_rashi(this_new_moon_start) == jyotisha.panchangam.temporal.get_solar_rashi(last_new_moon_start)
+            isAdhika = jyotisha.panchangam.temporal.get_solar_rashi(this_new_moon_start, ayanamsha_id=self.ayanamsha_id) == jyotisha.panchangam.temporal.get_solar_rashi(last_new_moon_start, ayanamsha_id=self.ayanamsha_id)
             last_new_moon_start = this_new_moon_start
 
         # # Older code below. Major mistake was that calculation was done after checking for
@@ -298,84 +298,84 @@ class Panchangam(object):
         jd_moonrise = self.jd_moonrise[d]
         jd_moonrise_tmrw = self.jd_moonrise[d + 1]
         if kala_type == 'sunrise':
-            angams = [get_angam_func(jd_sunrise), get_angam_func(jd_sunrise),
-                      get_angam_func(jd_sunrise_tmrw), get_angam_func(jd_sunrise_tmrw)]
+            angams = [get_angam_func(jd_sunrise, ayanamsha_id=self.ayanamsha_id), get_angam_func(jd_sunrise, ayanamsha_id=self.ayanamsha_id),
+                      get_angam_func(jd_sunrise_tmrw, ayanamsha_id=self.ayanamsha_id), get_angam_func(jd_sunrise_tmrw, ayanamsha_id=self.ayanamsha_id)]
         elif kala_type == 'sunset':
-            angams = [get_angam_func(jd_sunset), get_angam_func(jd_sunset),
-                      get_angam_func(jd_sunset_tmrw), get_angam_func(jd_sunset_tmrw)]
+            angams = [get_angam_func(jd_sunset, ayanamsha_id=self.ayanamsha_id), get_angam_func(jd_sunset, ayanamsha_id=self.ayanamsha_id),
+                      get_angam_func(jd_sunset_tmrw, ayanamsha_id=self.ayanamsha_id), get_angam_func(jd_sunset_tmrw, ayanamsha_id=self.ayanamsha_id)]
         elif kala_type == 'pratah':
-            angams = [get_angam_func(jd_sunrise),  # pratah1 start
+            angams = [get_angam_func(jd_sunrise, ayanamsha_id=self.ayanamsha_id),  # pratah1 start
                       # pratah1 end
-                      get_angam_func(jd_sunrise + (jd_sunset - jd_sunrise) * (1.0 / 5.0)),
-                      get_angam_func(jd_sunrise_tmrw),  # pratah2 start
+                      get_angam_func(jd_sunrise + (jd_sunset - jd_sunrise) * (1.0 / 5.0), ayanamsha_id=self.ayanamsha_id),
+                      get_angam_func(jd_sunrise_tmrw, ayanamsha_id=self.ayanamsha_id),  # pratah2 start
                       # pratah2 end
                       get_angam_func(jd_sunrise_tmrw +\
-                                     (jd_sunset_tmrw - jd_sunrise_tmrw) * (1.0 / 5.0))]
+                                     (jd_sunset_tmrw - jd_sunrise_tmrw) * (1.0 / 5.0), ayanamsha_id=self.ayanamsha_id)]
         elif kala_type == 'sangava':
-            angams = [get_angam_func(jd_sunrise + (jd_sunset - jd_sunrise) * (1.0 / 5.0)),
-                      get_angam_func(jd_sunrise + (jd_sunset - jd_sunrise) * (2.0 / 5.0)),
+            angams = [get_angam_func(jd_sunrise + (jd_sunset - jd_sunrise) * (1.0 / 5.0), ayanamsha_id=self.ayanamsha_id),
+                      get_angam_func(jd_sunrise + (jd_sunset - jd_sunrise) * (2.0 / 5.0), ayanamsha_id=self.ayanamsha_id),
                       get_angam_func(jd_sunrise_tmrw +
-                                     (jd_sunset_tmrw - jd_sunrise_tmrw) * (1.0 / 5.0)),
+                                     (jd_sunset_tmrw - jd_sunrise_tmrw) * (1.0 / 5.0), ayanamsha_id=self.ayanamsha_id),
                       get_angam_func(jd_sunrise_tmrw +
-                                     (jd_sunset_tmrw - jd_sunrise_tmrw) * (2.0 / 5.0))]
+                                     (jd_sunset_tmrw - jd_sunrise_tmrw) * (2.0 / 5.0), ayanamsha_id=self.ayanamsha_id)]
         elif kala_type == 'madhyahna':
-            angams = [get_angam_func(jd_sunrise + (jd_sunset - jd_sunrise) * (2.0 / 5.0)),
-                      get_angam_func(jd_sunrise + (jd_sunset - jd_sunrise) * (3.0 / 5.0)),
+            angams = [get_angam_func(jd_sunrise + (jd_sunset - jd_sunrise) * (2.0 / 5.0), ayanamsha_id=self.ayanamsha_id),
+                      get_angam_func(jd_sunrise + (jd_sunset - jd_sunrise) * (3.0 / 5.0), ayanamsha_id=self.ayanamsha_id),
                       get_angam_func(jd_sunrise_tmrw +
-                                     (jd_sunset_tmrw - jd_sunrise_tmrw) * (2.0 / 5.0)),
+                                     (jd_sunset_tmrw - jd_sunrise_tmrw) * (2.0 / 5.0), ayanamsha_id=self.ayanamsha_id),
                       get_angam_func(jd_sunrise_tmrw + (jd_sunset_tmrw -
-                                                        jd_sunrise_tmrw) * (3.0 / 5.0))]
+                                                        jd_sunrise_tmrw) * (3.0 / 5.0), ayanamsha_id=self.ayanamsha_id)]
         elif kala_type == 'aparahna':
-            angams = [get_angam_func(jd_sunrise + (jd_sunset - jd_sunrise) * (3.0 / 5.0)),
-                      get_angam_func(jd_sunrise + (jd_sunset - jd_sunrise) * (4.0 / 5.0)),
+            angams = [get_angam_func(jd_sunrise + (jd_sunset - jd_sunrise) * (3.0 / 5.0), ayanamsha_id=self.ayanamsha_id),
+                      get_angam_func(jd_sunrise + (jd_sunset - jd_sunrise) * (4.0 / 5.0), ayanamsha_id=self.ayanamsha_id),
                       get_angam_func(jd_sunrise_tmrw +
-                                     (jd_sunset_tmrw - jd_sunrise_tmrw) * (3.0 / 5.0)),
+                                     (jd_sunset_tmrw - jd_sunrise_tmrw) * (3.0 / 5.0), ayanamsha_id=self.ayanamsha_id),
                       get_angam_func(jd_sunrise_tmrw +
-                                     (jd_sunset_tmrw - jd_sunrise_tmrw) * (4.0 / 5.0))]
+                                     (jd_sunset_tmrw - jd_sunrise_tmrw) * (4.0 / 5.0), ayanamsha_id=self.ayanamsha_id)]
         elif kala_type == 'sayahna':
-            angams = [get_angam_func(jd_sunrise + (jd_sunset - jd_sunrise) * (4.0 / 5.0)),
-                      get_angam_func(jd_sunrise + (jd_sunset - jd_sunrise) * (5.0 / 5.0)),
+            angams = [get_angam_func(jd_sunrise + (jd_sunset - jd_sunrise) * (4.0 / 5.0), ayanamsha_id=self.ayanamsha_id),
+                      get_angam_func(jd_sunrise + (jd_sunset - jd_sunrise) * (5.0 / 5.0), ayanamsha_id=self.ayanamsha_id),
                       get_angam_func(jd_sunrise_tmrw +
-                                     (jd_sunset_tmrw - jd_sunrise_tmrw) * (4.0 / 5.0)),
+                                     (jd_sunset_tmrw - jd_sunrise_tmrw) * (4.0 / 5.0), ayanamsha_id=self.ayanamsha_id),
                       get_angam_func(jd_sunrise_tmrw +
-                                     (jd_sunset_tmrw - jd_sunrise_tmrw) * (5.0 / 5.0))]
+                                     (jd_sunset_tmrw - jd_sunrise_tmrw) * (5.0 / 5.0), ayanamsha_id=self.ayanamsha_id)]
         elif kala_type == 'madhyaratri':
-            angams = [get_angam_func(jd_sunset + (jd_sunrise_tmrw - jd_sunset) * (2.0 / 5.0)),
-                      get_angam_func(jd_sunset + (jd_sunrise_tmrw - jd_sunset) * (3.0 / 5.0)),
+            angams = [get_angam_func(jd_sunset + (jd_sunrise_tmrw - jd_sunset) * (2.0 / 5.0), ayanamsha_id=self.ayanamsha_id),
+                      get_angam_func(jd_sunset + (jd_sunrise_tmrw - jd_sunset) * (3.0 / 5.0), ayanamsha_id=self.ayanamsha_id),
                       get_angam_func(jd_sunset_tmrw +
-                                     (jd_sunrise_datmrw - jd_sunset_tmrw) * (2.0 / 5.0)),
+                                     (jd_sunrise_datmrw - jd_sunset_tmrw) * (2.0 / 5.0), ayanamsha_id=self.ayanamsha_id),
                       get_angam_func(jd_sunset_tmrw +
-                                     (jd_sunrise_datmrw - jd_sunset_tmrw) * (3.0 / 5.0))]
+                                     (jd_sunrise_datmrw - jd_sunset_tmrw) * (3.0 / 5.0), ayanamsha_id=self.ayanamsha_id)]
         elif kala_type == 'pradosha':
-            angams = [get_angam_func(jd_sunset),
-                      get_angam_func(jd_sunset + (jd_sunrise_tmrw - jd_sunset) * (1.0 / 5.0)),
-                      get_angam_func(jd_sunset_tmrw),
+            angams = [get_angam_func(jd_sunset, ayanamsha_id=self.ayanamsha_id),
+                      get_angam_func(jd_sunset + (jd_sunrise_tmrw - jd_sunset) * (1.0 / 5.0), ayanamsha_id=self.ayanamsha_id),
+                      get_angam_func(jd_sunset_tmrw, ayanamsha_id=self.ayanamsha_id),
                       get_angam_func(jd_sunset_tmrw +
-                                     (jd_sunrise_datmrw - jd_sunset_tmrw) * (1.0 / 5.0))]
+                                     (jd_sunrise_datmrw - jd_sunset_tmrw) * (1.0 / 5.0), ayanamsha_id=self.ayanamsha_id)]
         elif kala_type == 'nishita':
-            angams = [get_angam_func(jd_sunset + (jd_sunrise_tmrw - jd_sunset) * (7.0 / 15.0)),
-                      get_angam_func(jd_sunset + (jd_sunrise_tmrw - jd_sunset) * (8.0 / 15.0)),
+            angams = [get_angam_func(jd_sunset + (jd_sunrise_tmrw - jd_sunset) * (7.0 / 15.0), ayanamsha_id=self.ayanamsha_id),
+                      get_angam_func(jd_sunset + (jd_sunrise_tmrw - jd_sunset) * (8.0 / 15.0), ayanamsha_id=self.ayanamsha_id),
                       get_angam_func(jd_sunset_tmrw +
-                                     (jd_sunrise_datmrw - jd_sunset_tmrw) * (7.0 / 15.0)),
+                                     (jd_sunrise_datmrw - jd_sunset_tmrw) * (7.0 / 15.0), ayanamsha_id=self.ayanamsha_id),
                       get_angam_func(jd_sunset_tmrw +
-                                     (jd_sunrise_datmrw - jd_sunset_tmrw) * (8.0 / 15.0))]
+                                     (jd_sunrise_datmrw - jd_sunset_tmrw) * (8.0 / 15.0), ayanamsha_id=self.ayanamsha_id)]
         elif kala_type == 'ratrimana':
-            angams = [get_angam_func(jd_sunset + (jd_sunrise_tmrw - jd_sunset) * (0.0 / 15.0)),
-                      get_angam_func(jd_sunset + (jd_sunrise_tmrw - jd_sunset) * (15.0 / 15.0)),
+            angams = [get_angam_func(jd_sunset + (jd_sunrise_tmrw - jd_sunset) * (0.0 / 15.0), ayanamsha_id=self.ayanamsha_id),
+                      get_angam_func(jd_sunset + (jd_sunrise_tmrw - jd_sunset) * (15.0 / 15.0), ayanamsha_id=self.ayanamsha_id),
                       get_angam_func(jd_sunset_tmrw +
-                                     (jd_sunrise_datmrw - jd_sunset_tmrw) * (0.0 / 15.0)),
+                                     (jd_sunrise_datmrw - jd_sunset_tmrw) * (0.0 / 15.0), ayanamsha_id=self.ayanamsha_id),
                       get_angam_func(jd_sunset_tmrw +
-                                     (jd_sunrise_datmrw - jd_sunset_tmrw) * (15.0 / 15.0))]
+                                     (jd_sunrise_datmrw - jd_sunset_tmrw) * (15.0 / 15.0), ayanamsha_id=self.ayanamsha_id)]
         elif kala_type == 'arunodaya':  # deliberately not simplifying expressions involving 15/15
-            angams = [get_angam_func(jd_sunset + (jd_sunrise_tmrw - jd_sunset) * (13.0 / 15.0)),
-                      get_angam_func(jd_sunset + (jd_sunrise_tmrw - jd_sunset) * (15.0 / 15.0)),
+            angams = [get_angam_func(jd_sunset + (jd_sunrise_tmrw - jd_sunset) * (13.0 / 15.0), ayanamsha_id=self.ayanamsha_id),
+                      get_angam_func(jd_sunset + (jd_sunrise_tmrw - jd_sunset) * (15.0 / 15.0), ayanamsha_id=self.ayanamsha_id),
                       get_angam_func(jd_sunset_tmrw +
-                                     (jd_sunrise_datmrw - jd_sunset_tmrw) * (13.0 / 15.0)),
+                                     (jd_sunrise_datmrw - jd_sunset_tmrw) * (13.0 / 15.0), ayanamsha_id=self.ayanamsha_id),
                       get_angam_func(jd_sunset_tmrw +
-                                     (jd_sunrise_datmrw - jd_sunset_tmrw) * (15.0 / 15.0))]
+                                     (jd_sunrise_datmrw - jd_sunset_tmrw) * (15.0 / 15.0), ayanamsha_id=self.ayanamsha_id)]
         elif kala_type == 'moonrise':
-            angams = [get_angam_func(jd_moonrise), get_angam_func(jd_moonrise),
-                      get_angam_func(jd_moonrise_tmrw), get_angam_func(jd_moonrise_tmrw)]
+            angams = [get_angam_func(jd_moonrise, ayanamsha_id=self.ayanamsha_id), get_angam_func(jd_moonrise, ayanamsha_id=self.ayanamsha_id),
+                      get_angam_func(jd_moonrise_tmrw, ayanamsha_id=self.ayanamsha_id), get_angam_func(jd_moonrise_tmrw, ayanamsha_id=self.ayanamsha_id)]
         else:
             # Error!
             raise(ValueError, 'Unkown kala "%s" input!' % kala_type)
@@ -433,7 +433,7 @@ class Panchangam(object):
                     # Two muhurtams is 1/15 of day-length
                     tithi_arunodayam = jyotisha.panchangam.temporal.get_tithi(
                         self.jd_sunrise[d] - (1 / 15.0) *
-                        (self.jd_sunrise[d] - self.jd_sunrise[d - 1]))
+                        (self.jd_sunrise[d] - self.jd_sunrise[d - 1]), ayanamsha_id=self.ayanamsha_id)
                     if tithi_arunodayam == 10:
                         self.festivals[d].append(
                             'smArta~' + jyotisha.panchangam.temporal.get_ekadashi_name('shukla', self.lunar_month[d]))
@@ -466,7 +466,7 @@ class Panchangam(object):
                 # Harivasara Computation
                 harivasara_end = spatio_temporal.brentq(jyotisha.panchangam.temporal.get_angam_float, self.jd_sunrise[d] - 2,
                                                         self.jd_sunrise[d] + 2, args=(
-                    jyotisha.panchangam.temporal.TITHI_PADA, -45, False))
+                    jyotisha.panchangam.temporal.TITHI_PADA, -45, self.ayanamsha_id, False))
                 [_y, _m, _d, _t] = swe.revjul(harivasara_end + (tz_off / 24.0))
                 hariv_end_time = jyotisha.panchangam.temporal.Time(swe.revjul(harivasara_end + (tz_off / 24.0))[3]).toString()
 
@@ -486,7 +486,7 @@ class Panchangam(object):
                     # Two muhurtams is 1/15 of day-length
                     tithi_arunodayam = jyotisha.panchangam.temporal.get_tithi(
                         self.jd_sunrise[d] - (1 / 15.0) *
-                        (self.jd_sunrise[d] - self.jd_sunrise[d - 1]))
+                        (self.jd_sunrise[d] - self.jd_sunrise[d - 1]), ayanamsha_id=self.ayanamsha_id)
                     if tithi_arunodayam == 25:
                         self.festivals[d].append(
                             'smArta~' + jyotisha.panchangam.temporal.get_ekadashi_name('krishna', self.lunar_month[d]))
@@ -501,7 +501,7 @@ class Panchangam(object):
 
                 harivasara_end = spatio_temporal.brentq(jyotisha.panchangam.temporal.get_angam_float, self.jd_sunrise[d - 2],
                                                         self.jd_sunrise[d - 2] + 4, args=(
-                    jyotisha.panchangam.temporal.TITHI_PADA, -105, False))
+                    jyotisha.panchangam.temporal.TITHI_PADA, -105, self.ayanamsha_id, False))
                 [_y, _m, _d, _t] = swe.revjul(harivasara_end + (tz_off / 24.0))
                 hariv_end_time = jyotisha.panchangam.temporal.Time(swe.revjul(harivasara_end + (tz_off / 24.0))[3]).toString()
 
@@ -512,8 +512,8 @@ class Panchangam(object):
             # PRADOSHA Vratam
             pref = ''
             if self.tithi_sunrise[d] == 12 or self.tithi_sunrise[d] == 13:
-                tithi_sunset = jyotisha.panchangam.temporal.get_tithi(self.jd_sunset[d])
-                tithi_sunset_tmrw = jyotisha.panchangam.temporal.get_tithi(self.jd_sunset[d + 1])
+                tithi_sunset = jyotisha.panchangam.temporal.get_tithi(self.jd_sunset[d], ayanamsha_id=self.ayanamsha_id)
+                tithi_sunset_tmrw = jyotisha.panchangam.temporal.get_tithi(self.jd_sunset[d + 1], ayanamsha_id=self.ayanamsha_id)
                 if tithi_sunset <= 13 and tithi_sunset_tmrw != 13:
                     if self.weekday[d] == 1:
                         pref = 'sOma~'
@@ -528,8 +528,8 @@ class Panchangam(object):
                     self.festivals[d + 1].append(pref + 'pradOSa~vratam')
 
             if self.tithi_sunrise[d] == 27 or self.tithi_sunrise[d] == 28:
-                tithi_sunset = jyotisha.panchangam.temporal.get_tithi(self.jd_sunset[d])
-                tithi_sunset_tmrw = jyotisha.panchangam.temporal.get_tithi(self.jd_sunset[d + 1])
+                tithi_sunset = jyotisha.panchangam.temporal.get_tithi(self.jd_sunset[d], ayanamsha_id=self.ayanamsha_id)
+                tithi_sunset_tmrw = jyotisha.panchangam.temporal.get_tithi(self.jd_sunset[d + 1], ayanamsha_id=self.ayanamsha_id)
                 if tithi_sunset <= 28 and tithi_sunset_tmrw != 28:
                     if self.weekday[d] == 1:
                         pref = 'sOma~'
@@ -605,8 +605,8 @@ class Panchangam(object):
 
             # Chandra Darshanam
             if self.tithi_sunrise[d] == 1 or self.tithi_sunrise[d] == 2:
-                tithi_sunset = jyotisha.panchangam.temporal.get_tithi(self.jd_sunset[d])
-                tithi_sunset_tmrw = jyotisha.panchangam.temporal.get_tithi(self.jd_sunset[d + 1])
+                tithi_sunset = jyotisha.panchangam.temporal.get_tithi(self.jd_sunset[d], ayanamsha_id=self.ayanamsha_id)
+                tithi_sunset_tmrw = jyotisha.panchangam.temporal.get_tithi(self.jd_sunset[d + 1], ayanamsha_id=self.ayanamsha_id)
                 if tithi_sunset <= 2 and tithi_sunset_tmrw != 2:
                     if tithi_sunset == 1:
                         self.festivals[d + 1].append('candra-darzanam')
@@ -623,21 +623,21 @@ class Panchangam(object):
             if self.tithi_sunrise[d] == 29 or self.tithi_sunrise[d] == 30:
                 if self.tithi_sunrise[d] == 29:
                     t29, t29_end = jyotisha.panchangam.temporal.get_angam_data(
-                        self.jd_sunrise[d], self.jd_sunrise[d + 1], jyotisha.panchangam.temporal.TITHI)[0]
+                        self.jd_sunrise[d], self.jd_sunrise[d + 1], jyotisha.panchangam.temporal.TITHI, ayanamsha_id=self.ayanamsha_id)[0]
                     t30, t30_end = jyotisha.panchangam.temporal.get_angam_data(
-                        self.jd_sunrise[d + 1], self.jd_sunrise[d + 2], jyotisha.panchangam.temporal.TITHI)[0]
+                        self.jd_sunrise[d + 1], self.jd_sunrise[d + 2], jyotisha.panchangam.temporal.TITHI, ayanamsha_id=self.ayanamsha_id)[0]
                     if t30 != 30:
                         # Only 29 ends tomorrow!
                         t30, t30_end = jyotisha.panchangam.temporal.get_angam_data(
                             self.jd_sunrise[d + 1] + 0.5,
-                            self.jd_sunrise[d + 2] + 0.5, jyotisha.panchangam.temporal.TITHI)[0]
+                            self.jd_sunrise[d + 2] + 0.5, jyotisha.panchangam.temporal.TITHI, ayanamsha_id=self.ayanamsha_id)[0]
                 if self.tithi_sunrise[d] == 30:
                     if t29_end is None:
                         # 29 never touched sunrise
                         t30, t30_end = jyotisha.panchangam.temporal.get_angam_data(
-                            self.jd_sunrise[d], self.jd_sunrise[d + 1], jyotisha.panchangam.temporal.TITHI)[0]
+                            self.jd_sunrise[d], self.jd_sunrise[d + 1], jyotisha.panchangam.temporal.TITHI, ayanamsha_id=self.ayanamsha_id)[0]
                         t29, t29_end = jyotisha.panchangam.temporal.get_angam_data(t30_end - 1.5, t30_end - 0.5,
-                                                                                   jyotisha.panchangam.temporal.TITHI)[0]
+                                                                                   jyotisha.panchangam.temporal.TITHI, ayanamsha_id=self.ayanamsha_id)[0]
                 if t29_end is None:
                     # Should never be here!
                     sys.stderr.write('Error! Still not computed t29_end!')
@@ -689,11 +689,11 @@ class Panchangam(object):
             if self.solar_month[d] == 1 and self.solar_month_day[d] == 10:
                 agni_jd_start, dummy = jyotisha.panchangam.temporal.get_angam_span(
                     self.jd_sunrise[d], self.jd_sunrise[d] + 30,
-                    {'arc_len': 360.0 / 108.0, 'w_moon': 0, 'w_sun': 1}, 7)
+                    {'arc_len': 360.0 / 108.0, 'w_moon': 0, 'w_sun': 1}, 7, ayanamsha_id=self.ayanamsha_id)
                 # sys.stderr.write('Agni Start: %s\n' % revjul(agni_jd_start + (5.5 / 24.0)))
                 dummy, agni_jd_end = jyotisha.panchangam.temporal.get_angam_span(
                     agni_jd_start, agni_jd_start + 30,
-                    {'arc_len': 360.0 / 108.0, 'w_moon': 0, 'w_sun': 1}, 13)
+                    {'arc_len': 360.0 / 108.0, 'w_moon': 0, 'w_sun': 1}, 13, ayanamsha_id=self.ayanamsha_id)
                 # sys.stderr.write('Agni End: %s\n' % revjul(agni_jd_end + (5.5 / 24.0)))
 
             if self.solar_month[d] == 1 and self.solar_month_day[d] > 10:
@@ -711,19 +711,19 @@ class Panchangam(object):
                 moon_hasta_jd_end = moon_hasta_jd_end = t30_end = None
 
                 sun_hasta_jd_start, sun_hasta_jd_end = jyotisha.panchangam.temporal.get_angam_span(
-                    self.jd_sunrise[d], self.jd_sunrise[d] + 30, jyotisha.panchangam.temporal.SOLAR_NAKSH, 13)
+                    self.jd_sunrise[d], self.jd_sunrise[d] + 30, jyotisha.panchangam.temporal.SOLAR_NAKSH, 13, ayanamsha_id=self.ayanamsha_id)
 
                 moon_magha_jd_start, moon_magha_jd_end = jyotisha.panchangam.temporal.get_angam_span(
-                    sun_hasta_jd_start - 1, sun_hasta_jd_end + 1, jyotisha.panchangam.temporal.NAKSHATRAM, 10)
+                    sun_hasta_jd_start - 1, sun_hasta_jd_end + 1, jyotisha.panchangam.temporal.NAKSHATRAM, 10, ayanamsha_id=self.ayanamsha_id)
                 if all([moon_magha_jd_start, moon_magha_jd_end]):
                     t28_start, t28_end = jyotisha.panchangam.temporal.get_angam_span(
-                        moon_magha_jd_start - 3, moon_magha_jd_end + 3, jyotisha.panchangam.temporal.TITHI, 28)
+                        moon_magha_jd_start - 3, moon_magha_jd_end + 3, jyotisha.panchangam.temporal.TITHI, 28, ayanamsha_id=self.ayanamsha_id)
 
                 moon_hasta_jd_start, moon_hasta_jd_end = jyotisha.panchangam.temporal.get_angam_span(
-                    sun_hasta_jd_start - 1, sun_hasta_jd_end + 1, jyotisha.panchangam.temporal.NAKSHATRAM, 13)
+                    sun_hasta_jd_start - 1, sun_hasta_jd_end + 1, jyotisha.panchangam.temporal.NAKSHATRAM, 13, ayanamsha_id=self.ayanamsha_id)
                 if all([moon_hasta_jd_start, moon_hasta_jd_end]):
                     t30_start, t30_end = jyotisha.panchangam.temporal.get_angam_span(
-                        sun_hasta_jd_start - 1, sun_hasta_jd_end + 1, jyotisha.panchangam.temporal.TITHI, 30)
+                        sun_hasta_jd_start - 1, sun_hasta_jd_end + 1, jyotisha.panchangam.temporal.TITHI, 30, ayanamsha_id=self.ayanamsha_id)
 
                 gc_28 = gc_30 = False
 
@@ -784,15 +784,15 @@ class Panchangam(object):
 
             # AYUSHMAN BAVA SAUMYA
             if self.weekday[d] == 3 and jyotisha.panchangam.temporal.get_angam(self.jd_sunrise[d],
-                                                                               jyotisha.panchangam.temporal.YOGAM) == 3:
-                if jyotisha.panchangam.temporal.get_angam(self.jd_sunrise[d], jyotisha.panchangam.temporal.KARANAM) in list(range(2, 52, 7)):
+                                                                               jyotisha.panchangam.temporal.YOGAM, ayanamsha_id=self.ayanamsha_id) == 3:
+                if jyotisha.panchangam.temporal.get_angam(self.jd_sunrise[d], jyotisha.panchangam.temporal.KARANAM, ayanamsha_id=self.ayanamsha_id) in list(range(2, 52, 7)):
                     self.addFestival('AyuSmAn-bava-saumya', d, debugFestivals)
 
             # VYATIPATAM
-            if jyotisha.panchangam.temporal.get_angam(self.jd_sunrise[d], jyotisha.panchangam.temporal.YOGAM) == 17 and self.solar_month[d] == 9:
+            if jyotisha.panchangam.temporal.get_angam(self.jd_sunrise[d], jyotisha.panchangam.temporal.YOGAM, ayanamsha_id=self.ayanamsha_id) == 17 and self.solar_month[d] == 9:
                 self.addFestival('mahAdhanurvyatIpAtam', d, debugFestivals)
 
-            if jyotisha.panchangam.temporal.get_angam(self.jd_sunrise[d], jyotisha.panchangam.temporal.YOGAM) == 17 and self.solar_month[d] == 6:
+            if jyotisha.panchangam.temporal.get_angam(self.jd_sunrise[d], jyotisha.panchangam.temporal.YOGAM, ayanamsha_id=self.ayanamsha_id) == 17 and self.solar_month[d] == 6:
                 self.addFestival('mahAvyatIpAtam', d, debugFestivals)
 
 
@@ -822,7 +822,7 @@ class Panchangam(object):
                (self.tithi_sunrise[d] % 15) == 12:
                 self.addFestival('jayA~mahAdvAdazI', d, debugFestivals)
 
-            if jyotisha.panchangam.temporal.get_angam(self.jd_sunrise[d], jyotisha.panchangam.temporal.NAKSHATRAM) == 22 and\
+            if jyotisha.panchangam.temporal.get_angam(self.jd_sunrise[d], jyotisha.panchangam.temporal.NAKSHATRAM, ayanamsha_id=self.ayanamsha_id) == 22 and\
                (self.tithi_sunrise[d] % 15) == 12:
                 self.addFestival('vijayA/zravaNa~mahAdvAdazI', d, debugFestivals)
 
@@ -837,7 +837,7 @@ class Panchangam(object):
                     festival_name += '*'
                 self.addFestival(festival_name, d, debugFestivals)
 
-            if jyotisha.panchangam.temporal.get_angam(self.jd_sunrise[d], jyotisha.panchangam.temporal.NAKSHATRA_PADA) == 49 and\
+            if jyotisha.panchangam.temporal.get_angam(self.jd_sunrise[d], jyotisha.panchangam.temporal.NAKSHATRA_PADA, ayanamsha_id=self.ayanamsha_id) == 49 and\
                self.tithi_sunrise[d] == 7:
                 self.addFestival('bhadrA~saptamI', d, debugFestivals)
 
@@ -848,12 +848,12 @@ class Panchangam(object):
 
             # VARUNI TRAYODASHI
             if self.lunar_month[d] == 12 and self.tithi_sunrise[d] == 28:
-                if jyotisha.panchangam.temporal.get_angam(self.jd_sunrise[d], jyotisha.panchangam.temporal.NAKSHATRAM) == 24:
+                if jyotisha.panchangam.temporal.get_angam(self.jd_sunrise[d], jyotisha.panchangam.temporal.NAKSHATRAM, ayanamsha_id=self.ayanamsha_id) == 24:
                     vtr_name = 'vAruNI~trayOdazI'
                     if self.weekday[d] == 6:
                         vtr_name = 'mahA' + vtr_name
                         if jyotisha.panchangam.temporal.get_angam(self.jd_sunrise[d],
-                                                                  jyotisha.panchangam.temporal.YOGAM) == 23:
+                                                                  jyotisha.panchangam.temporal.YOGAM, ayanamsha_id=self.ayanamsha_id) == 23:
                             pref = 'mahA' + vtr_name
                     self.addFestival(vtr_name, d, debugFestivals)
 
@@ -864,8 +864,8 @@ class Panchangam(object):
 
             # MAHODAYAM
             if self.lunar_month[d] == 10 and self.tithi_sunrise[d] == 30:
-                if jyotisha.panchangam.temporal.get_angam(self.jd_sunrise[d], jyotisha.panchangam.temporal.YOGAM) == 17 and\
-                   jyotisha.panchangam.temporal.get_angam(self.jd_sunrise[d], jyotisha.panchangam.temporal.NAKSHATRAM) == 22:
+                if jyotisha.panchangam.temporal.get_angam(self.jd_sunrise[d], jyotisha.panchangam.temporal.YOGAM, ayanamsha_id=self.ayanamsha_id) == 17 and\
+                   jyotisha.panchangam.temporal.get_angam(self.jd_sunrise[d], jyotisha.panchangam.temporal.NAKSHATRAM, ayanamsha_id=self.ayanamsha_id) == 22:
                     if self.weekday[d] == 1:
                         festival_name = 'mahOdaya~puNyakAlam'
                         self.addFestival(festival_name, d, debugFestivals)
@@ -1042,7 +1042,7 @@ class Panchangam(object):
                         festival_name += '~\\#{%d}' % fest_num
 
                     if angam_sunrise[d] == angam_num - 1 or angam_sunrise[d] == angam_num:
-                        angams = self.get_angams_for_kalas(d, get_angam_func, kala)
+                        angams = self.get_angams_for_kalas(d, get_angam_func, kala, ayanamsha_id=self.ayanamsha_id)
                         if angams is None:
                             sys.stderr.write('No angams returned! Skipping festival %s'
                                              % festival_name)
@@ -1971,7 +1971,7 @@ class Panchangam(object):
             log_data = '%02d-%02d-%4d\t[%3d]\tsun_rashi=%8.3f\ttithi=%8.3f\tsolar_month\
         =%2d\tlunar_month=%4.1f\n' % (dt, m, y, d, (longitude_sun_sunset % 360) / 30.0,
                                       jyotisha.panchangam.temporal.get_angam_float(self.jd_sunrise[d],
-                                                                                   jyotisha.panchangam.temporal.TITHI),
+                                                                                   jyotisha.panchangam.temporal.TITHI, ayanamsha_id=self.ayanamsha_id),
                                       self.solar_month[d], self.lunar_month[d])
             log_file.write(log_data)
 
