@@ -32,7 +32,7 @@ Dependencies
 
 -  Both Python 3 and LaTeX are necessary to generate the panchangam
    PDFs; to generate the ICS alone, only Python 3 suffices
--  Python: `pyswisseph`_, `SciPy`_, `icalendar`_ and `pytz`_
+-  Python: pyswisseph, SciPy, icalendar and pytz
 -  XeLaTeX / fontspec and a few other ‘regular’ packages
 -  Fonts: Sanskrit 2003, Candara, Vijaya (for Tamil)
 
@@ -62,34 +62,68 @@ The above codes generate two PDF files
 an ICS file (``Chennai-2017-devanagari.ics``) in the ``pdf`` and ``ics``
 folders respectively.
 
+
+
+
+Documentation & References
+--------------------------
+
+Currently, the documentation is sparse, but I hope to populate more in
+the ``docs`` folder. There are also some useful references in the
+``docs/ref`` folder.
+
 Downloadable Panchangams (PDF/ICS)
 ----------------------------------
+See https://github.com/karthikraman/panchangam repository.
 
-+-----+-------------------+-----------------+---------------+
-| Cit | Monthly Calendar  | Daily Calendar  | ICS Calendar  |
-| y   |                   |                 |               |
-+=====+===================+=================+===============+
-| **C | `A3 PDF`_         | `Kindle         | [Devanagari]( |
-| hen |                   | friendly PDF`_  | https://githu |
-| nai |                   |                 | b.com/karthik |
-| **  |                   |                 | raman/panchan |
-| (13 |                   |                 | gam/raw/maste |
-| °05 |                   |                 | r/ics/Chennai |
-| ’24 |                   |                 | -2017-devanag |
-| ’‘N |                   |                 | ar)           |
-| ,   |                   |                 |               |
-| 80° |                   |                 |               |
-| 16’ |                   |                 |               |
-| 12’ |                   |                 |               |
-| ’E) |                   |                 |               |
-+-----+-------------------+-----------------+---------------+
 
-.. _here: https://github.com/karthikraman/panchangam/archive/master.zip
-.. _pyswisseph: https://github.com/astrorigin/pyswisseph
-.. _SciPy: https://www.scipy.org/
-.. _icalendar: https://pypi.python.org/pypi/icalendar
-.. _pytz: https://pypi.python.org/pypi/pytz
-.. _A3 PDF: https://github.com/karthikraman/panchangam/raw/master/pdf/cal-2017-Chennai-deva.pdf
-.. _Kindle friendly PDF: https://github.com/karthikraman/panchangam/raw/master/pdf/daily-cal-2017-Chennai-deva.pdf
+Similar software
+-----------------
+
+-  `drik-panchanga`_: well-written Python-based panchangam, with a nice
+   simple GUI
+-  `drikpanchang.com`_: online calendar, with a lot of details,
+   festivals etc.
+
+.. _drik-panchanga: https://github.com/webresh/drik-panchanga
+.. _drikpanchang.com: https://www.drikpanchang.com
+
+
+Credits
+-------
+
+Sincere thanks to the creators of pyswisseph, without which I could not
+have attempted this. Many thanks are due to `Ajit Krishnan`_ for so
+clearly explaining the panchangam process, and example festivals, which
+was sort of the inspiration for integrating a number of festivals. Many
+thanks to Saketha Nath for getting details of hundreds of festivals from
+obscure sources, and to the `Vaidikasri magazine`_, which is another
+veritable treasure house of these festivals.
+
+.. _Ajit Krishnan: http://aupasana.com/
+.. _Vaidikasri magazine: http://vaithikasri.com/
+
+
+Disclaimer
+----------
+
+It is very important to note that this is an *approximate* panchangam,
+automatically generated, without the careful oversight of learned
+scholars who have the depth of knowledge to resolve the exact dates for
+occurrences of different festivals. Also, the ayanamsha used here
+conforms to the Drik panchanga. The best use of this panchangam is as an
+approximate guide (95% of the events are also probably spot on) — when
+in doubt, consult only your own panchangam!
+
+Bugs
+~~~~
+
+I have not extensively tested the code, especially for Southern
+Hemisphere locations etc. I have primarily restricted my example testing
+to Chennai, Mumbai, London and Palo Alto. Please let me know of any bugs
+or errors that you encounter by raising an issue and I’ll do my best to
+fix them. I wish I had the time to rewrite the whole thing efficiently;
+there are far too many vestiges of the old code built on my then novice
+Python knowledge!
 
 """
