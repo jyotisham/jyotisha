@@ -11,7 +11,7 @@ from jyotisha.panchangam import panchangam
 from jyotisha.panchangam.helper_functions import swe, MAX_SZ, get_nakshatram, get_tithi, City
 
 
-def computeEvents(P, json_file):
+def compute_events(P, json_file):
     P.fest_days = {}  # Resetting it
     for d in range(1, MAX_SZ):
         [y, m, dt, t] = swe.revjul(P.jd_start + d - 1)
@@ -290,7 +290,7 @@ def main():
             # Pickle the 'data' dictionary using the highest protocol available.
             pickle.dump(Panchangam, f, pickle.HIGHEST_PROTOCOL)
 
-    computeEvents(Panchangam, json_file)
+    compute_events(Panchangam, json_file)
     cal_file_name = '../ics/%s-%s-%s' % (city_name, year, json_file.replace('.json', '.ics'))
     computeIcsCalendar(Panchangam, cal_file_name)
     print('Wrote ICS file to %s' % cal_file_name)
