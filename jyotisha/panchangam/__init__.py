@@ -39,29 +39,9 @@ Dependencies
 Usage
 -----
 
-Organisation
-~~~~~~~~~~~~
-
-There are helpful scripts in the ``bin`` folder, while the Python codes
-are in the ``panchangam`` folder. Generated PDFs will go to the ``pdf``
-folder and ``.ics`` files will go to the ``ics`` folder, from which they
-can be imported into any calendaring application.
-
-Examples
-~~~~~~~~
-
-::
-
-    cd panchangam/bin
-    ./gen_daily_cal.sh Chennai 13:05:24 80:16:12 'Asia/Calcutta' 2017 devanagari lagna
-    ./gen_monthly_cal.sh Chennai 13:05:24 80:16:12 'Asia/Calcutta' 2017 devanagari
-    ./gen_ics.sh Chennai 13:05:24 80:16:12 'Asia/Calcutta' 2017 devanagari
-
-The above codes generate two PDF files
-(``daily-cal-2017-Chennai-deva.pdf``, ``cal-2017-Chennai-deva.pdf``) and
-an ICS file (``Chennai-2017-devanagari.ics``) in the ``pdf`` and ``ics``
-folders respectively.
-
+Helper scripts
+~~~~~~~~~~~~~~
+See https://github.com/karthikraman/panchangam repository.
 
 
 

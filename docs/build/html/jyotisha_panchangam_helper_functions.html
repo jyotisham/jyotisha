@@ -1,0 +1,490 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>jyotisha.panchangam.helper_functions &#8212; jyotisha 0.0.2 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.0.2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="jyotisha.names" href="jyotisha_names.html" />
+    <link rel="prev" title="jyotisha.panchangam.panchangam" href="jyotisha_panchangam_panchangam.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="module-jyotisha.panchangam.helper_functions">
+<span id="jyotisha-panchangam-helper-functions"></span><h1>jyotisha.panchangam.helper_functions<a class="headerlink" href="#module-jyotisha.panchangam.helper_functions" title="Permalink to this headline">¶</a></h1>
+<dl class="class">
+<dt id="jyotisha.panchangam.helper_functions.city">
+<em class="property">class </em><code class="descclassname">jyotisha.panchangam.helper_functions.</code><code class="descname">city</code><span class="sig-paren">(</span><em>name</em>, <em>latitude</em>, <em>longitude</em>, <em>timezone</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jyotisha/panchangam/helper_functions.html#city"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jyotisha.panchangam.helper_functions.city" title="Permalink to this definition">¶</a></dt>
+<dd><p>This class enables the construction of a city object</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="jyotisha.panchangam.helper_functions.dn2tam">
+<code class="descclassname">jyotisha.panchangam.helper_functions.</code><code class="descname">dn2tam</code><span class="sig-paren">(</span><em>dn_text</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jyotisha/panchangam/helper_functions.html#dn2tam"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jyotisha.panchangam.helper_functions.dn2tam" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="jyotisha.panchangam.helper_functions.get_angam">
+<code class="descclassname">jyotisha.panchangam.helper_functions.</code><code class="descname">get_angam</code><span class="sig-paren">(</span><em>jd</em>, <em>angam_type</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jyotisha/panchangam/helper_functions.html#get_angam"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jyotisha.panchangam.helper_functions.get_angam" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns the angam prevailing at a particular time</p>
+<dl class="docutils">
+<dt>Args:</dt>
+<dd>float jd: The Julian Day at which the angam is to be computed
+float arc_len: The arc_len for the corresponding angam
+w_moon: The multiplier for moon’s longitude
+w_sun: The multiplier for sun’s longitude</dd>
+<dt>Returns:</dt>
+<dd>int angam</dd>
+</dl>
+<p>Examples:
+&gt;&gt;&gt; get_angam(2444961.7125,NAKSHATRAM)
+16</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">get_angam</span><span class="p">(</span><span class="mf">2444961.7125</span><span class="p">,</span><span class="n">TITHI</span><span class="p">)</span>
+<span class="go">28</span>
+</pre></div>
+</div>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">get_angam</span><span class="p">(</span><span class="mf">2444961.7125</span><span class="p">,</span><span class="n">YOGAM</span><span class="p">)</span>
+<span class="go">8</span>
+</pre></div>
+</div>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">get_angam</span><span class="p">(</span><span class="mf">2444961.7125</span><span class="p">,</span><span class="n">KARANAM</span><span class="p">)</span>
+<span class="go">55</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="jyotisha.panchangam.helper_functions.get_angam_data">
+<code class="descclassname">jyotisha.panchangam.helper_functions.</code><code class="descname">get_angam_data</code><span class="sig-paren">(</span><em>jd_sunrise</em>, <em>jd_sunrise_tmrw</em>, <em>angam_type</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jyotisha/panchangam/helper_functions.html#get_angam_data"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jyotisha.panchangam.helper_functions.get_angam_data" title="Permalink to this definition">¶</a></dt>
+<dd><p>Computes angam data for angams such as tithi, nakshatram, yogam
+and karanam.</p>
+<dl class="docutils">
+<dt>Args:</dt>
+<dd>angam_type: TITHI, NAKSHATRAM, YOGAM, KARANAM, SOLAR_MONTH, SOLAR_NAKSH</dd>
+<dt>Returns:</dt>
+<dd><dl class="first last docutils">
+<dt>tuple: A tuple comprising</dt>
+<dd>angam_sunrise: The angam that prevails as sunrise
+angam_data: a list of (int, float) tuples detailing the angams
+for the day and their end-times (Julian day)</dd>
+</dl>
+</dd>
+<dt>Examples:</dt>
+<dd><div class="first last highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">get_angam_data</span><span class="p">(</span><span class="mf">2444961.54042</span><span class="p">,</span><span class="mf">2444962.54076</span><span class="p">,</span><span class="n">TITHI</span><span class="p">)</span>
+<span class="go">[(27, 2444961.599213231)]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">get_angam_data</span><span class="p">(</span><span class="mf">2444961.54042</span><span class="p">,</span><span class="mf">2444962.54076</span><span class="p">,</span><span class="n">NAKSHATRAM</span><span class="p">)</span>
+<span class="go">[(16, 2444961.7487953394)]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">get_angam_data</span><span class="p">(</span><span class="mf">2444961.54042</span><span class="p">,</span><span class="mf">2444962.54076</span><span class="p">,</span><span class="n">YOGAM</span><span class="p">)</span>
+<span class="go">[(8, 2444962.1861976916)]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">get_angam_data</span><span class="p">(</span><span class="mf">2444961.54042</span><span class="p">,</span><span class="mf">2444962.54076</span><span class="p">,</span><span class="n">KARANAM</span><span class="p">)</span>
+<span class="go">[(54, 2444961.599213231), (55, 2444962.15444546)]</span>
+</pre></div>
+</div>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="jyotisha.panchangam.helper_functions.get_angam_float">
+<code class="descclassname">jyotisha.panchangam.helper_functions.</code><code class="descname">get_angam_float</code><span class="sig-paren">(</span><em>jd</em>, <em>angam_type</em>, <em>offset=0</em>, <em>debug=False</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jyotisha/panchangam/helper_functions.html#get_angam_float"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jyotisha.panchangam.helper_functions.get_angam_float" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns the angam</p>
+<dl class="docutils">
+<dt>Args:</dt>
+<dd>float jd: The Julian Day at which the angam is to be computed
+angam_type: One of the pre-defined constants in the panchangam
+class, such as TITHI, NAKSHATRAM, YOGAM, KARANAM or SOLAR_MONTH</dd>
+<dt>Returns:</dt>
+<dd>float angam</dd>
+<dt>Examples:</dt>
+<dd><div class="first last highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">get_angam_float</span><span class="p">(</span><span class="mf">2444961.7125</span><span class="p">,</span><span class="n">NAKSHATRAM</span><span class="p">)</span>
+<span class="go">15.967801358055189</span>
+</pre></div>
+</div>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="jyotisha.panchangam.helper_functions.get_angam_span">
+<code class="descclassname">jyotisha.panchangam.helper_functions.</code><code class="descname">get_angam_span</code><span class="sig-paren">(</span><em>jd1</em>, <em>jd2</em>, <em>angam_type</em>, <em>target</em>, <em>debug=False</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jyotisha/panchangam/helper_functions.html#get_angam_span"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jyotisha.panchangam.helper_functions.get_angam_span" title="Permalink to this definition">¶</a></dt>
+<dd><p>Computes angam spans for angams such as tithi, nakshatram, yogam
+and karanam.</p>
+<dl class="docutils">
+<dt>Args:</dt>
+<dd>jd1: return all spans that start after this date
+jd2: return all spans that end before this date
+angam_type: TITHI, NAKSHATRAM, YOGAM, KARANAM, SOLAR_MONTH, SOLAR_NAKSH</dd>
+<dt>Returns:</dt>
+<dd><dl class="first last docutils">
+<dt>list: A list comprising tuples of start and end times that lie within</dt>
+<dd>jd1 and jd2</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="jyotisha.panchangam.helper_functions.get_chandra_masa">
+<code class="descclassname">jyotisha.panchangam.helper_functions.</code><code class="descname">get_chandra_masa</code><span class="sig-paren">(</span><em>month</em>, <em>NAMES</em>, <em>script</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jyotisha/panchangam/helper_functions.html#get_chandra_masa"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jyotisha.panchangam.helper_functions.get_chandra_masa" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="jyotisha.panchangam.helper_functions.get_ekadashi_name">
+<code class="descclassname">jyotisha.panchangam.helper_functions.</code><code class="descname">get_ekadashi_name</code><span class="sig-paren">(</span><em>paksha</em>, <em>lmonth</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jyotisha/panchangam/helper_functions.html#get_ekadashi_name"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jyotisha.panchangam.helper_functions.get_ekadashi_name" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the name of an ekadashi</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="jyotisha.panchangam.helper_functions.get_kalas">
+<code class="descclassname">jyotisha.panchangam.helper_functions.</code><code class="descname">get_kalas</code><span class="sig-paren">(</span><em>start_span</em>, <em>end_span</em>, <em>part_start</em>, <em>num_parts</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jyotisha/panchangam/helper_functions.html#get_kalas"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jyotisha.panchangam.helper_functions.get_kalas" title="Permalink to this definition">¶</a></dt>
+<dd><p>Compute kalas in a given span with specified fractions</p>
+<dl class="docutils">
+<dt>Args:</dt>
+<dd>float (jd) start_span
+float (jd) end_span
+int part_start
+int num_parts</dd>
+<dt>Returns:</dt>
+<dd>tuple (start_time_jd, end_time_jd)</dd>
+</dl>
+<p>Examples:</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="jyotisha.panchangam.helper_functions.get_lagna_data">
+<code class="descclassname">jyotisha.panchangam.helper_functions.</code><code class="descname">get_lagna_data</code><span class="sig-paren">(</span><em>jd_sunrise</em>, <em>lat</em>, <em>lon</em>, <em>tz_off</em>, <em>debug=False</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jyotisha/panchangam/helper_functions.html#get_lagna_data"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jyotisha.panchangam.helper_functions.get_lagna_data" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns the lagna data</p>
+<dl class="docutils">
+<dt>Args:</dt>
+<dd>float jd: The Julian Day at which the lagnam is to be computed
+lat: Latitude of the place where the lagnam is to be computed
+lon: Longitude of the place where the lagnam is to be computed
+offset: Used by internal functions for bracketing</dd>
+<dt>Returns:</dt>
+<dd>tuples detailing the end time of each lagna, beginning with the one
+prevailing at sunrise</dd>
+<dt>Examples:</dt>
+<dd><div class="first last highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">get_lagna_data</span><span class="p">(</span><span class="mf">2458222.5208333335</span><span class="p">,</span> <span class="n">lat</span><span class="o">=</span><span class="mf">13.08784</span><span class="p">,</span> <span class="n">lon</span><span class="o">=</span><span class="mf">80.27847</span><span class="p">,</span> <span class="n">tz_off</span><span class="o">=</span><span class="mf">5.5</span><span class="p">)</span>
+<span class="go">[(12, 2458222.5214310056), (1, 2458222.596420153), (2, 2458222.6812926503), (3, 2458222.772619788), (4, 2458222.8624254186), (5, 2458222.9478168003), (6, 2458223.0322211445), (7, 2458223.1202004547), (8, 2458223.211770839), (9, 2458223.3000455885), (10, 2458223.3787625884), (11, 2458223.4494649624)]</span>
+</pre></div>
+</div>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="jyotisha.panchangam.helper_functions.get_lagna_float">
+<code class="descclassname">jyotisha.panchangam.helper_functions.</code><code class="descname">get_lagna_float</code><span class="sig-paren">(</span><em>jd</em>, <em>lat</em>, <em>lon</em>, <em>offset=0</em>, <em>debug=False</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jyotisha/panchangam/helper_functions.html#get_lagna_float"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jyotisha.panchangam.helper_functions.get_lagna_float" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns the angam</p>
+<dl class="docutils">
+<dt>Args:</dt>
+<dd>float jd: The Julian Day at which the lagnam is to be computed
+lat: Latitude of the place where the lagnam is to be computed
+lon: Longitude of the place where the lagnam is to be computed
+offset: Used by internal functions for bracketing</dd>
+<dt>Returns:</dt>
+<dd>float lagna</dd>
+<dt>Examples:</dt>
+<dd><div class="first last highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">get_lagna_float</span><span class="p">(</span><span class="mf">2444961.7125</span><span class="p">,</span><span class="mf">13.08784</span><span class="p">,</span> <span class="mf">80.27847</span><span class="p">)</span>
+<span class="go">10.353595502472984</span>
+</pre></div>
+</div>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="jyotisha.panchangam.helper_functions.get_nakshatram">
+<code class="descclassname">jyotisha.panchangam.helper_functions.</code><code class="descname">get_nakshatram</code><span class="sig-paren">(</span><em>jd</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jyotisha/panchangam/helper_functions.html#get_nakshatram"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jyotisha.panchangam.helper_functions.get_nakshatram" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns the nakshatram prevailing at a given moment</p>
+<p>Nakshatram is computed based on the longitude of the Moon; in
+addition, to obtain the absolute value of the longitude, the
+ayanamsa is required to be subtracted.</p>
+<dl class="docutils">
+<dt>Args:</dt>
+<dd>float jd, the Julian day</dd>
+<dt>Returns:</dt>
+<dd>int nakShatram, where 1 stands for Ashwini, …, 14 stands
+for Chitra, …, 27 stands for Revati</dd>
+<dt>Examples:</dt>
+<dd><div class="first last highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">get_nakshatram</span><span class="p">(</span><span class="mf">2444961.7125</span><span class="p">)</span>
+<span class="go">16</span>
+</pre></div>
+</div>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="jyotisha.panchangam.helper_functions.get_nirayana_sun_lon">
+<code class="descclassname">jyotisha.panchangam.helper_functions.</code><code class="descname">get_nirayana_sun_lon</code><span class="sig-paren">(</span><em>jd</em>, <em>offset=0</em>, <em>debug=False</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jyotisha/panchangam/helper_functions.html#get_nirayana_sun_lon"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jyotisha.panchangam.helper_functions.get_nirayana_sun_lon" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns the nirayana longitude of the sun</p>
+<dl class="docutils">
+<dt>Args:</dt>
+<dd>float jd: The Julian Day at which the angam is to be computed</dd>
+<dt>Returns:</dt>
+<dd>float longitude</dd>
+</dl>
+<p>Examples:</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="jyotisha.panchangam.helper_functions.get_solar_month_day">
+<code class="descclassname">jyotisha.panchangam.helper_functions.</code><code class="descname">get_solar_month_day</code><span class="sig-paren">(</span><em>jd_start</em>, <em>city</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jyotisha/panchangam/helper_functions.html#get_solar_month_day"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jyotisha.panchangam.helper_functions.get_solar_month_day" title="Permalink to this definition">¶</a></dt>
+<dd><p>Compute the solar month and day for a given Julian day</p>
+<p>Computes the solar month and day on the day corresponding to a given
+Julian day</p>
+<dl class="docutils">
+<dt>Args:</dt>
+<dd>float jd
+city</dd>
+<dt>Returns:</dt>
+<dd>int solar_month
+int solar_month_day</dd>
+<dt>Examples:</dt>
+<dd><div class="first last highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">get_solar_month_day</span><span class="p">(</span><span class="mf">2457023.27</span><span class="p">,</span> <span class="n">city</span><span class="p">(</span><span class="s1">&#39;Chennai&#39;</span><span class="p">,</span> <span class="s1">&#39;13:05:24&#39;</span><span class="p">,</span> <span class="s1">&#39;80:16:12&#39;</span><span class="p">,</span> <span class="s1">&#39;Asia/Calcutta&#39;</span><span class="p">))</span>
+<span class="go">(9, 17)</span>
+</pre></div>
+</div>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="jyotisha.panchangam.helper_functions.get_solar_rashi">
+<code class="descclassname">jyotisha.panchangam.helper_functions.</code><code class="descname">get_solar_rashi</code><span class="sig-paren">(</span><em>jd</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jyotisha/panchangam/helper_functions.html#get_solar_rashi"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jyotisha.panchangam.helper_functions.get_solar_rashi" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns the solar rashi prevailing at a given moment</p>
+<p>Solar month is computed based on the longitude of the sun; in
+addition, to obtain the absolute value of the longitude, the
+ayanamsa is required to be subtracted.</p>
+<dl class="docutils">
+<dt>Args:</dt>
+<dd>float jd, the Julian day</dd>
+<dt>Returns:</dt>
+<dd>int rashi, where 1 stands for mESa, …, 12 stands for mIna</dd>
+<dt>Examples:</dt>
+<dd><div class="first last highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">get_solar_rashi</span><span class="p">(</span><span class="mf">2444961.7125</span><span class="p">)</span>
+<span class="go">9</span>
+</pre></div>
+</div>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="jyotisha.panchangam.helper_functions.get_tithi">
+<code class="descclassname">jyotisha.panchangam.helper_functions.</code><code class="descname">get_tithi</code><span class="sig-paren">(</span><em>jd</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jyotisha/panchangam/helper_functions.html#get_tithi"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jyotisha.panchangam.helper_functions.get_tithi" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns the tithi prevailing at a given moment</p>
+<p>Tithi is computed as the difference in the longitudes of the moon
+and sun at any given point of time. Therefore, even the ayanamsha
+does not matter, as it gets cancelled out.</p>
+<dl class="docutils">
+<dt>Args:</dt>
+<dd>float jd, the Julian day</dd>
+<dt>Returns:</dt>
+<dd>int tithi, where 1 stands for ShuklapakshaPrathama, …, 15 stands
+for Paurnamasi, …, 23 stands for KrishnapakshaAshtami, 30 stands
+for Amavasya</dd>
+<dt>Examples:</dt>
+<dd><div class="first last highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">get_tithi</span><span class="p">(</span><span class="mf">2444961.7125</span><span class="p">)</span>
+<span class="go">28</span>
+</pre></div>
+</div>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="jyotisha.panchangam.helper_functions.print_lat_lon">
+<code class="descclassname">jyotisha.panchangam.helper_functions.</code><code class="descname">print_lat_lon</code><span class="sig-paren">(</span><em>latstr</em>, <em>lonstr</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jyotisha/panchangam/helper_functions.html#print_lat_lon"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jyotisha.panchangam.helper_functions.print_lat_lon" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns a formatted string for a latitude and longitude</p>
+<p>Returns a formatted string for latitude and longitude, given sexagesimal
+‘strings’ using colons for separation</p>
+<dl class="docutils">
+<dt>Args:</dt>
+<dd>str latstr
+str lonstr</dd>
+<dt>Returns:</dt>
+<dd>string corresponding to the formatted latitude and longitude</dd>
+<dt>Examples:</dt>
+<dd><div class="first last highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">print_lat_lon</span><span class="p">(</span><span class="s1">&#39;13:05:24&#39;</span><span class="p">,</span><span class="s1">&#39;80:16:12&#39;</span><span class="p">)</span> <span class="c1">#Chennai</span>
+<span class="go">&quot;13°05&#39;24&#39;&#39;N, 80°16&#39;12&#39;&#39;E&quot;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">print_lat_lon</span><span class="p">(</span><span class="s1">&#39;37:23:59&#39;</span><span class="p">,</span><span class="s1">&#39;-122:08:34&#39;</span><span class="p">)</span> <span class="c1">#Palo Alto</span>
+<span class="go">&quot;37°23&#39;59&#39;&#39;N, 122°08&#39;34&#39;&#39;W&quot;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">print_lat_lon</span><span class="p">(</span><span class="s1">&#39;1&#39;</span><span class="p">,</span><span class="s1">&#39;-1&#39;</span><span class="p">)</span>
+<span class="go">&quot;1°0&#39;0&#39;&#39;N, 1°0&#39;0&#39;&#39;W&quot;</span>
+</pre></div>
+</div>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="jyotisha.panchangam.helper_functions.revjul">
+<code class="descclassname">jyotisha.panchangam.helper_functions.</code><code class="descname">revjul</code><span class="sig-paren">(</span><em>jd</em>, <em>formatstr='%4d-%02d-%02d %02d:%02d:%02d'</em>, <em>tz_off=0</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jyotisha/panchangam/helper_functions.html#revjul"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jyotisha.panchangam.helper_functions.revjul" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns a more human readable revjul compared to swe</p>
+<p>Converts a given jd (float) to a tuple [y,m,d,h,mm,ss]</p>
+<dl class="docutils">
+<dt>Args:</dt>
+<dd>A float corresponding to a Julian day</dd>
+<dt>Returns:</dt>
+<dd>A tuple detailing the year, month, day, hour, minute and second</dd>
+<dt>Examples:</dt>
+<dd><div class="first last highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">revjul</span><span class="p">(</span><span class="mf">2444961.7125</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span>
+<span class="go">(1981, 12, 23, 5, 6, 0)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">revjul</span><span class="p">(</span><span class="mf">2444961.7125</span><span class="p">)</span>
+<span class="go">&#39;1981-12-23 05:06:00&#39;</span>
+</pre></div>
+</div>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="jyotisha.panchangam.helper_functions.romanise">
+<code class="descclassname">jyotisha.panchangam.helper_functions.</code><code class="descname">romanise</code><span class="sig-paren">(</span><em>iast_text</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jyotisha/panchangam/helper_functions.html#romanise"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jyotisha.panchangam.helper_functions.romanise" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="jyotisha.panchangam.helper_functions.sexastr2deci">
+<code class="descclassname">jyotisha.panchangam.helper_functions.</code><code class="descname">sexastr2deci</code><span class="sig-paren">(</span><em>sexa_str</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jyotisha/panchangam/helper_functions.html#sexastr2deci"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jyotisha.panchangam.helper_functions.sexastr2deci" title="Permalink to this definition">¶</a></dt>
+<dd><p>Converts as sexagesimal string to decimal</p>
+<p>Converts a given sexagesimal string to its decimal value</p>
+<dl class="docutils">
+<dt>Args:</dt>
+<dd>A string encoding of a sexagesimal value, with the various
+components separated by colons</dd>
+<dt>Returns:</dt>
+<dd>A decimal value corresponding to the sexagesimal string</dd>
+<dt>Examples:</dt>
+<dd><div class="first last highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">sexastr2deci</span><span class="p">(</span><span class="s1">&#39;15:30:00&#39;</span><span class="p">)</span>
+<span class="go">15.5</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">sexastr2deci</span><span class="p">(</span><span class="s1">&#39;-15:30:45&#39;</span><span class="p">)</span>
+<span class="go">-15.5125</span>
+</pre></div>
+</div>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="class">
+<dt id="jyotisha.panchangam.helper_functions.time">
+<em class="property">class </em><code class="descclassname">jyotisha.panchangam.helper_functions.</code><code class="descname">time</code><span class="sig-paren">(</span><em>t</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jyotisha/panchangam/helper_functions.html#time"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jyotisha.panchangam.helper_functions.time" title="Permalink to this definition">¶</a></dt>
+<dd><p>This  class is a time class with methods for printing, conversion etc.</p>
+<dl class="method">
+<dt id="jyotisha.panchangam.helper_functions.time.toString">
+<code class="descname">toString</code><span class="sig-paren">(</span><em>default_suffix=''</em>, <em>format='hh:mm'</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jyotisha/panchangam/helper_functions.html#time.toString"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jyotisha.panchangam.helper_functions.time.toString" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="function">
+<dt id="jyotisha.panchangam.helper_functions.tr">
+<code class="descclassname">jyotisha.panchangam.helper_functions.</code><code class="descname">tr</code><span class="sig-paren">(</span><em>text</em>, <em>scr</em>, <em>titled=True</em>, <em>fontize=False</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jyotisha/panchangam/helper_functions.html#tr"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jyotisha.panchangam.helper_functions.tr" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<div class="toctree-wrapper compound">
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="jyotisha.html">jyotisha</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="jyotisha_panchangam.html">jyotisha.panchangam</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="jyotisha_panchangam.html#panchangam">Panchangam</a></li>
+<li class="toctree-l2"><a class="reference internal" href="jyotisha_panchangam_panchangam.html">jyotisha.panchangam.panchangam</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">jyotisha.panchangam.helper_functions</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="jyotisha_names.html">jyotisha.names</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="jyotisha.html">Documentation overview</a><ul>
+  <li><a href="jyotisha_panchangam.html">jyotisha.panchangam</a><ul>
+      <li>Previous: <a href="jyotisha_panchangam_panchangam.html" title="previous chapter">jyotisha.panchangam.panchangam</a></li>
+      <li>Next: <a href="jyotisha_names.html" title="next chapter">jyotisha.names</a></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2017, sanskrit-programmers.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.6.3</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
+      
+      |
+      <a href="_sources/jyotisha_panchangam_helper_functions.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

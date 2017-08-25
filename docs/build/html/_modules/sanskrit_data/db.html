@@ -1,0 +1,194 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>sanskrit_data.db &#8212; jyotisha 0.0.2 documentation</title>
+    <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '0.0.2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+   
+  <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <h1>Source code for sanskrit_data.db</h1><div class="highlight"><pre>
+<span></span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">This package aims to achieve database neutrality - we abstract database-client operations and database operations using interfaces so as to enable one to easily switch the database one uses.</span>
+
+<span class="sd">&quot;&quot;&quot;</span>
+
+<span class="n">__all__</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;ClientInterface&quot;</span><span class="p">,</span> <span class="s2">&quot;DbInterface&quot;</span><span class="p">,</span> <span class="s2">&quot;couchdb&quot;</span><span class="p">,</span> <span class="s2">&quot;mongodb&quot;</span><span class="p">]</span>
+
+<div class="viewcode-block" id="ClientInterface"><a class="viewcode-back" href="../../jyotisha_panchangam.html#sanskrit_data.db.ClientInterface">[docs]</a><span class="k">class</span> <span class="nc">ClientInterface</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+  <span class="sd">&quot;&quot;&quot;A common interface to a database server or system.</span>
+
+<span class="sd">  Accessing databases through implementations of this interface enables one to switch databases more easily down the line.</span>
+<span class="sd">  &quot;&quot;&quot;</span>
+
+<div class="viewcode-block" id="ClientInterface.get_database"><a class="viewcode-back" href="../../jyotisha_panchangam.html#sanskrit_data.db.ClientInterface.get_database">[docs]</a>  <span class="k">def</span> <span class="nf">get_database</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">db_name</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Create or get a database, with which one can instantiate a suitable DbInterface subclass.</span>
+
+<span class="sd">    While it is better to use :meth:`get_database_interface` generally, we expose this in order to support :class:`DbInterface` subclasses which may be defined outside this module.</span>
+<span class="sd">    :param str db_name: Name of the database which needs to be accessed (The database is created if it does not already exist).</span>
+<span class="sd">    :returns DbInterface db: A database interface implementation for accessing this database.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">pass</span></div>
+
+<div class="viewcode-block" id="ClientInterface.get_database_interface"><a class="viewcode-back" href="../../jyotisha_panchangam.html#sanskrit_data.db.ClientInterface.get_database_interface">[docs]</a>  <span class="k">def</span> <span class="nf">get_database_interface</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">db_name</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Create or get a suitable :class:`DbInterface` subclass.</span>
+
+<span class="sd">    :param str db_name: Name of the database which needs to be accessed (The database is created if it does not already exist).</span>
+<span class="sd">    :returns DbInterface db: A database interface implementation for accessing this database.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">pass</span></div>
+
+<div class="viewcode-block" id="ClientInterface.delete_database"><a class="viewcode-back" href="../../jyotisha_panchangam.html#sanskrit_data.db.ClientInterface.delete_database">[docs]</a>  <span class="k">def</span> <span class="nf">delete_database</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">db_name</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Delete a database, with which one can instantiate a suitable DbInterface subclass.</span>
+
+<span class="sd">    :param str db_name: Name of the database which needs to be deleted.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">pass</span></div></div>
+
+
+<div class="viewcode-block" id="DbInterface"><a class="viewcode-back" href="../../jyotisha_panchangam.html#sanskrit_data.db.DbInterface">[docs]</a><span class="k">class</span> <span class="nc">DbInterface</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+  <span class="sd">&quot;&quot;&quot;A common interface to a database.</span>
+
+<span class="sd">  Accessing databases through implementations of this interface enables one to switch databases more easily down the line.</span>
+<span class="sd">  &quot;&quot;&quot;</span>
+
+<div class="viewcode-block" id="DbInterface.update_doc"><a class="viewcode-back" href="../../jyotisha_panchangam.html#sanskrit_data.db.DbInterface.update_doc">[docs]</a>  <span class="k">def</span> <span class="nf">update_doc</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">doc</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot; Update or insert a json object, represented as a dict.</span>
+<span class="sd">    </span>
+<span class="sd">    :param dict doc: _id parameter determines the key. One will be created if it does not exist. This argument could be modified.</span>
+<span class="sd">    :return: updated dict with _id set.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">assert</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">doc</span><span class="p">,</span> <span class="nb">dict</span><span class="p">)</span>
+    <span class="k">pass</span></div>
+
+<div class="viewcode-block" id="DbInterface.delete_doc"><a class="viewcode-back" href="../../jyotisha_panchangam.html#sanskrit_data.db.DbInterface.delete_doc">[docs]</a>  <span class="k">def</span> <span class="nf">delete_doc</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">doc_id</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    </span>
+<span class="sd">    :param doc_id:</span>
+<span class="sd">    :return: Not used.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">pass</span></div>
+
+<div class="viewcode-block" id="DbInterface.find_by_indexed_key"><a class="viewcode-back" href="../../jyotisha_panchangam.html#sanskrit_data.db.DbInterface.find_by_indexed_key">[docs]</a>  <span class="k">def</span> <span class="nf">find_by_indexed_key</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">index_name</span><span class="p">,</span> <span class="n">key</span><span class="p">):</span>
+    <span class="k">pass</span></div>
+
+<div class="viewcode-block" id="DbInterface.find_by_id"><a class="viewcode-back" href="../../jyotisha_panchangam.html#sanskrit_data.db.DbInterface.find_by_id">[docs]</a>  <span class="k">def</span> <span class="nf">find_by_id</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="nb">id</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    </span>
+<span class="sd">    :param id: </span>
+<span class="sd">    :return: Returns None if nothing is found. Else a python dict representing a JSON object.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">pass</span></div>
+
+<div class="viewcode-block" id="DbInterface.find"><a class="viewcode-back" href="../../jyotisha_panchangam.html#sanskrit_data.db.DbInterface.find">[docs]</a>  <span class="k">def</span> <span class="nf">find</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="nb">filter</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot; Find matching objects from the database.</span>
+<span class="sd">    </span>
+<span class="sd">    Should be a generator and return an iterator: ie it should use the yield keyword.</span>
+
+<span class="sd">    :param dict filter: A mango or mongo query.</span>
+<span class="sd">    :return: Returns None if nothing is found. Else a python dict representing a JSON object.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">pass</span></div>
+
+<div class="viewcode-block" id="DbInterface.find_one"><a class="viewcode-back" href="../../jyotisha_panchangam.html#sanskrit_data.db.DbInterface.find_one">[docs]</a>  <span class="k">def</span> <span class="nf">find_one</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="nb">filter</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot; Fine one matching object from the database.</span>
+<span class="sd">    </span>
+<span class="sd">    :param filter: A mango or mongo query.</span>
+<span class="sd">    :return: Returns None if nothing is found. Else a python dict representing a JSON object.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">iterator</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="nb">filter</span><span class="o">=</span><span class="nb">filter</span><span class="p">)</span>
+    <span class="k">try</span><span class="p">:</span>
+      <span class="k">return</span> <span class="n">iterator</span><span class="o">.</span><span class="n">next</span><span class="p">()</span>
+    <span class="k">except</span> <span class="ne">StopIteration</span><span class="p">:</span>
+      <span class="k">return</span> <span class="kc">None</span></div></div>
+</pre></div>
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../../jyotisha.html">jyotisha</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../jyotisha_panchangam.html">jyotisha.panchangam</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../jyotisha_names.html">jyotisha.names</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../jyotisha.html">Documentation overview</a><ul>
+  <li><a href="../index.html">Module code</a><ul>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2017, sanskrit-programmers.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.6.3</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
+      
+    </div>
+
+    
+
+    
+  </body>
+</html>

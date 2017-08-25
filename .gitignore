@@ -1,5 +1,5 @@
 # general things to ignore
-build/
+/build/
 dist/
 *.egg-info/
 *.egg

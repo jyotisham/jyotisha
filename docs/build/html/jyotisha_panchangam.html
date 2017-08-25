@@ -1,0 +1,230 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>jyotisha.panchangam &#8212; jyotisha 0.0.2 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.0.2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="jyotisha.panchangam.panchangam" href="jyotisha_panchangam_panchangam.html" />
+    <link rel="prev" title="jyotisha’s documentation" href="jyotisha.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="module-jyotisha.panchangam">
+<span id="jyotisha-panchangam"></span><h1>jyotisha.panchangam<a class="headerlink" href="#module-jyotisha.panchangam" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="panchangam">
+<h2>Panchangam<a class="headerlink" href="#panchangam" title="Permalink to this headline">¶</a></h2>
+<p>This project computes a <em>Pañcāṅgam</em> for a given location and given year.
+It uses planetary positions from the Swiss ephemeris to (somewhat
+accurately) calculate important aspects of a day, particularly the five
+<em>āṅgams</em>, viz. <em>tithi</em> (moon phase), <em>nakshatram</em> (asterism), <em>yogam</em>,
+<em>karaṇam</em> and <em>vāram</em>, and also the occurrence of various Hindu
+festivals, which are usually decided by elaborate rules dependent on the
+(combinations of the) <em>āṅgams</em>.</p>
+<div class="section" id="key-features">
+<h3>Key Features<a class="headerlink" href="#key-features" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li>Generate an A3 PDF of a <em>monthly calendar</em> using Python / TeX (using
+<code class="docutils literal"><span class="pre">gen_monthly_cal.sh</span></code> or <code class="docutils literal"><span class="pre">write_monthly_panchangam_tex.py</span></code>)</li>
+<li>Generate an A5 PDF of a <em>daily calendar</em> using Python / TeX (using
+<code class="docutils literal"><span class="pre">gen_daily_cal.sh</span></code> or <code class="docutils literal"><span class="pre">write_daily_panchangam_tex.py</span></code>)</li>
+<li>Generate an ICS calendar file for using with calendaring applications
+(using <code class="docutils literal"><span class="pre">gen_ics.sh</span></code> or <code class="docutils literal"><span class="pre">write_panchangam_ics.py</span></code>)</li>
+</ol>
+<p>The PDFs and ICS are best generated using a Devanagari (and Tamil)
+scripts, though IAST works as well (mostly).</p>
+<div class="section" id="dependencies">
+<h4>Dependencies<a class="headerlink" href="#dependencies" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li>Both Python 3 and LaTeX are necessary to generate the panchangam
+PDFs; to generate the ICS alone, only Python 3 suffices</li>
+<li>Python: pyswisseph, SciPy, icalendar and pytz</li>
+<li>XeLaTeX / fontspec and a few other ‘regular’ packages</li>
+<li>Fonts: Sanskrit 2003, Candara, Vijaya (for Tamil)</li>
+</ul>
+</div>
+</div>
+<div class="section" id="usage">
+<h3>Usage<a class="headerlink" href="#usage" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="helper-scripts">
+<h4>Helper scripts<a class="headerlink" href="#helper-scripts" title="Permalink to this headline">¶</a></h4>
+<p>See <a class="reference external" href="https://github.com/karthikraman/panchangam">https://github.com/karthikraman/panchangam</a> repository.</p>
+</div>
+</div>
+<div class="section" id="documentation-references">
+<h3>Documentation &amp; References<a class="headerlink" href="#documentation-references" title="Permalink to this headline">¶</a></h3>
+<p>Currently, the documentation is sparse, but I hope to populate more in
+the <code class="docutils literal"><span class="pre">docs</span></code> folder. There are also some useful references in the
+<code class="docutils literal"><span class="pre">docs/ref</span></code> folder.</p>
+</div>
+<div class="section" id="downloadable-panchangams-pdf-ics">
+<h3>Downloadable Panchangams (PDF/ICS)<a class="headerlink" href="#downloadable-panchangams-pdf-ics" title="Permalink to this headline">¶</a></h3>
+<p>See <a class="reference external" href="https://github.com/karthikraman/panchangam">https://github.com/karthikraman/panchangam</a> repository.</p>
+</div>
+<div class="section" id="similar-software">
+<h3>Similar software<a class="headerlink" href="#similar-software" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><a class="reference external" href="https://github.com/webresh/drik-panchanga">drik-panchanga</a>: well-written Python-based panchangam, with a nice
+simple GUI</li>
+<li><a class="reference external" href="https://www.drikpanchang.com">drikpanchang.com</a>: online calendar, with a lot of details,
+festivals etc.</li>
+</ul>
+</div>
+<div class="section" id="credits">
+<h3>Credits<a class="headerlink" href="#credits" title="Permalink to this headline">¶</a></h3>
+<p>Sincere thanks to the creators of pyswisseph, without which I could not
+have attempted this. Many thanks are due to <a class="reference external" href="http://aupasana.com/">Ajit Krishnan</a> for so
+clearly explaining the panchangam process, and example festivals, which
+was sort of the inspiration for integrating a number of festivals. Many
+thanks to Saketha Nath for getting details of hundreds of festivals from
+obscure sources, and to the <a class="reference external" href="http://vaithikasri.com/">Vaidikasri magazine</a>, which is another
+veritable treasure house of these festivals.</p>
+</div>
+<div class="section" id="disclaimer">
+<h3>Disclaimer<a class="headerlink" href="#disclaimer" title="Permalink to this headline">¶</a></h3>
+<p>It is very important to note that this is an <em>approximate</em> panchangam,
+automatically generated, without the careful oversight of learned
+scholars who have the depth of knowledge to resolve the exact dates for
+occurrences of different festivals. Also, the ayanamsha used here
+conforms to the Drik panchanga. The best use of this panchangam is as an
+approximate guide (95% of the events are also probably spot on) — when
+in doubt, consult only your own panchangam!</p>
+<div class="section" id="bugs">
+<h4>Bugs<a class="headerlink" href="#bugs" title="Permalink to this headline">¶</a></h4>
+<p>I have not extensively tested the code, especially for Southern
+Hemisphere locations etc. I have primarily restricted my example testing
+to Chennai, Mumbai, London and Palo Alto. Please let me know of any bugs
+or errors that you encounter by raising an issue and I’ll do my best to
+fix them. I wish I had the time to rewrite the whole thing efficiently;
+there are far too many vestiges of the old code built on my then novice
+Python knowledge!</p>
+</div>
+</div>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="jyotisha_panchangam_panchangam.html">jyotisha.panchangam.panchangam</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="jyotisha_panchangam_helper_functions.html">jyotisha.panchangam.helper_functions</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="jyotisha.html">jyotisha</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">jyotisha.panchangam</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#panchangam">Panchangam</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#key-features">Key Features</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#dependencies">Dependencies</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#usage">Usage</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#helper-scripts">Helper scripts</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#documentation-references">Documentation &amp; References</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#downloadable-panchangams-pdf-ics">Downloadable Panchangams (PDF/ICS)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#similar-software">Similar software</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#credits">Credits</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#disclaimer">Disclaimer</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#bugs">Bugs</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="jyotisha_panchangam_panchangam.html">jyotisha.panchangam.panchangam</a></li>
+<li class="toctree-l2"><a class="reference internal" href="jyotisha_panchangam_helper_functions.html">jyotisha.panchangam.helper_functions</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="jyotisha_names.html">jyotisha.names</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="jyotisha.html">Documentation overview</a><ul>
+      <li>Previous: <a href="jyotisha.html" title="previous chapter">jyotisha’s documentation</a></li>
+      <li>Next: <a href="jyotisha_panchangam_panchangam.html" title="next chapter">jyotisha.panchangam.panchangam</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2017, sanskrit-programmers.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.6.3</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
+      
+      |
+      <a href="_sources/jyotisha_panchangam.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
