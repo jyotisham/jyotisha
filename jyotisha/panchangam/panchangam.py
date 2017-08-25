@@ -22,7 +22,7 @@ class Panchangam(object):
     """This class enables the construction of a panchangam
     """
 
-    def __init__(self, city, year=2012, script=sanscript.DEVANAGARI, fmt='hh:mm', ayanamsha=swe.SIDM_LAHIRI):
+    def __init__(self, city, year=2012, script=sanscript.DEVANAGARI, fmt='hh:mm', ayanamsha_id=swe.SIDM_LAHIRI):
         """Constructor for the panchangam.
         """
         self.city = city
@@ -35,7 +35,7 @@ class Panchangam(object):
         self.weekday_start = swe.day_of_week(swe.julday(year, 1, 1)) + 1
         # swe has Mon = 0, non-intuitively!
 
-        swe.set_sid_mode(ayanamsha)
+        swe.set_sid_mode(ayanamsha_id)
 
     def computeAngams(self, computeLagnams=True):
         """Compute the entire panchangam
