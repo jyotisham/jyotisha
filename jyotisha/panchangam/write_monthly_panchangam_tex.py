@@ -4,6 +4,9 @@
 import os.path
 import pickle
 import sys
+
+from indic_transliteration import sanscript
+
 from jyotisha.panchangam import panchangam
 from jyotisha.panchangam.helper_functions import City
 
@@ -12,7 +15,7 @@ def main():
     [city_name, latitude, longitude, tz] = sys.argv[1:5]
     year = int(sys.argv[5])
 
-    script = 'deva'  # Default script is devanagari
+    script = sanscript.DEVANAGARI  # Default script is devanagari
 
     if len(sys.argv) == 7:
         script = sys.argv[6]

@@ -2,6 +2,9 @@
 import os
 import pickle
 import sys
+
+from indic_transliteration import sanscript
+
 from jyotisha.panchangam import panchangam
 from jyotisha.panchangam.helper_functions import City
 
@@ -13,7 +16,7 @@ def main():
     if len(sys.argv) == 7:
         script = sys.argv[6]
     else:
-        script = 'iast'  # Default script is IAST for writing calendar
+        script = sanscript.IAST  # Default script is IAST for writing calendar
 
     city = City(city_name, latitude, longitude, tz)
 
