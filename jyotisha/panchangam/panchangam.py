@@ -17,7 +17,7 @@ import swisseph as swe
 # from festival_rules import festival_rules
 
 
-class panchangam:
+class Panchangam(object):
 
     """This class enables the construction of a panchangam
     """
@@ -177,7 +177,7 @@ class panchangam:
                 solar_month_end_time = ''
             else:
                 solar_month_end_time = '\\mbox{%s {\\tiny \\RIGHTarrow} \\textsf{%s}}' % (
-                    helper_functions.NAMES['MASA'][self.script][_m], helper_functions.time(
+                    helper_functions.NAMES['MASA'][self.script][_m], helper_functions.Time(
                         24 * (solar_month_end_jd - jd)).toString(format=self.fmt))
 
             self.month_data[d] = '\\sunmonth{%s}{%d}{%s}' % (
@@ -459,7 +459,7 @@ class panchangam:
                 harivasara_end = helper_functions.brentq(helper_functions.get_angam_float, self.jd_sunrise[d] - 2,
                                                          self.jd_sunrise[d] + 2, args=(helper_functions.TITHI_PADA, -45, False))
                 [_y, _m, _d, _t] = swe.revjul(harivasara_end + (tz_off / 24.0))
-                hariv_end_time = helper_functions.time(swe.revjul(harivasara_end + (tz_off / 24.0))[3]).toString()
+                hariv_end_time = helper_functions.Time(swe.revjul(harivasara_end + (tz_off / 24.0))[3]).toString()
 
                 fday = swe.julday(_y, _m, _d, 0) - self.jd_start + 1
                 self.festivals[int(fday)].append(
@@ -493,7 +493,7 @@ class panchangam:
                 harivasara_end = helper_functions.brentq(helper_functions.get_angam_float, self.jd_sunrise[d - 2],
                                         self.jd_sunrise[d - 2] + 4, args=(helper_functions.TITHI_PADA, -105, False))
                 [_y, _m, _d, _t] = swe.revjul(harivasara_end + (tz_off / 24.0))
-                hariv_end_time = helper_functions.time(swe.revjul(harivasara_end + (tz_off / 24.0))[3]).toString()
+                hariv_end_time = helper_functions.Time(swe.revjul(harivasara_end + (tz_off / 24.0))[3]).toString()
 
                 fday = swe.julday(_y, _m, _d, 0) - self.jd_start + 1
                 self.festivals[int(fday)].append(
@@ -734,14 +734,14 @@ class panchangam:
                     gc_28_end += tz_off / 24.0
                     # sys.stderr.write('28: (%f, %f)\n' % (gc_28_start, gc_28_end))
                     gc_28_d = 1 + floor(gc_28_start - self.jd_start)
-                    t1 = helper_functions.time(swe.revjul(gc_28_start)[3]).toString()
+                    t1 = helper_functions.Time(swe.revjul(gc_28_start)[3]).toString()
 
                     if floor(gc_28_end - 0.5) != floor(gc_28_start - 0.5):
                         # -0.5 is for the fact that julday is zero at noon always, not midnight!
                         offset = 24
                     else:
                         offset = 0
-                    t2 = helper_functions.time(swe.revjul(gc_28_end)[3] + offset).toString()
+                    t2 = helper_functions.Time(swe.revjul(gc_28_end)[3] + offset).toString()
                     # sys.stderr.write('gajacchhaya %d\n' % gc_28_d)
 
                     self.fest_days['gajacchAyA~yOgam' +
@@ -753,13 +753,13 @@ class panchangam:
                     gc_30_end += tz_off / 24.0
                     # sys.stderr.write('30: (%f, %f)\n' % (gc_30_start, gc_30_end))
                     gc_30_d = 1 + floor(gc_30_start - self.jd_start)
-                    t1 = helper_functions.time(swe.revjul(gc_30_start)[3]).toString()
+                    t1 = helper_functions.Time(swe.revjul(gc_30_start)[3]).toString()
 
                     if floor(gc_30_end - 0.5) != floor(gc_30_start - 0.5):
                         offset = 24
                     else:
                         offset = 0
-                    t2 = helper_functions.time(swe.revjul(gc_30_end)[3] + offset).toString()
+                    t2 = helper_functions.Time(swe.revjul(gc_30_end)[3] + offset).toString()
                     # sys.stderr.write('gajacchhaya %d\n' % gc_30_d)
 
                     self.fest_days['gajacchAyA~yOgam' +
@@ -1224,8 +1224,8 @@ class panchangam:
                 if eclipse_solar_end > sunset_eclipse_day:
                     eclipse_solar_end = sunset_eclipse_day
                 solar_eclipse_str = 'sUrya-grahaNam' +\
-                    '~\\textsf{' + helper_functions.time(eclipse_solar_start).toString() +\
-                    '}{\\RIGHTarrow}\\textsf{' + helper_functions.time(eclipse_solar_end).toString() + '}'
+                    '~\\textsf{' + helper_functions.Time(eclipse_solar_start).toString() +\
+                    '}{\\RIGHTarrow}\\textsf{' + helper_functions.Time(eclipse_solar_end).toString() + '}'
                 if self.weekday[fday] == 0:
                     solar_eclipse_str = '*cUDAmaNi~' + solar_eclipse_str
                 self.festivals[fday].append(solar_eclipse_str)
@@ -1301,8 +1301,8 @@ class panchangam:
                     eclipse_lunar_end = moonset_eclipse_day
 
                 lunar_eclipse_str = 'candra-grahaNam' +\
-                    '~\\textsf{' + helper_functions.time(eclipse_lunar_start).toString() +\
-                    '}{\\RIGHTarrow}\\textsf{' + helper_functions.time(eclipse_lunar_end).toString() + '}'
+                    '~\\textsf{' + helper_functions.Time(eclipse_lunar_start).toString() +\
+                    '}{\\RIGHTarrow}\\textsf{' + helper_functions.Time(eclipse_lunar_end).toString() + '}'
                 if self.weekday[fday] == 1:
                     lunar_eclipse_str = '*cUDAmaNi~' + lunar_eclipse_str
 
@@ -1432,7 +1432,7 @@ class panchangam:
                 else:
                     tithi_data_str = '%s\\mbox{%s {\\tiny \\RIGHTarrow} \\textsf{%s%s}}' %\
                                      (tithi_data_str, tithi,
-                                      helper_functions.time(24 * (tithi_end_jd - jd)).toString(format=self.fmt),
+                                      helper_functions.Time(24 * (tithi_end_jd - jd)).toString(format=self.fmt),
                                       '\\hspace{2ex}')
 
             nakshatram_data_str = ''
@@ -1447,8 +1447,8 @@ class panchangam:
                 else:
                     nakshatram_data_str = '%s\\mbox{%s {\\tiny \\RIGHTarrow} \\textsf{%s%s}}' %\
                                           (nakshatram_data_str, nakshatram,
-                                           helper_functions.time(24 * (nakshatram_end_jd -
-                                                                                           jd)).toString(format=self.fmt),
+                                           helper_functions.Time(24 * (nakshatram_end_jd -
+                                                                       jd)).toString(format=self.fmt),
                                            '\\hspace{2ex}')
 
             yogam_data_str = ''
@@ -1462,7 +1462,7 @@ class panchangam:
                 else:
                     yogam_data_str = '%s\\mbox{%s {\\tiny \\RIGHTarrow} \\textsf{%s%s}}' %\
                                      (yogam_data_str, yogam,
-                                      helper_functions.time(24 * (yogam_end_jd - jd)).toString(format=self.fmt),
+                                      helper_functions.Time(24 * (yogam_end_jd - jd)).toString(format=self.fmt),
                                       '\\hspace{2ex}')
 
             karanam_data_str = ''
@@ -1479,18 +1479,18 @@ class panchangam:
                 else:
                     karanam_data_str = '%s\\mbox{%s {\\tiny \\RIGHTarrow} \\textsf{%s%s}}' %\
                                        (karanam_data_str, karanam,
-                                        helper_functions.time(24 * (karanam_end_jd -
-                                                                                        jd)).toString(format=self.fmt), '\\hspace{2ex}')
+                                        helper_functions.Time(24 * (karanam_end_jd -
+                                                                    jd)).toString(format=self.fmt), '\\hspace{2ex}')
 
-            sunrise = helper_functions.time(24 * (self.jd_sunrise[d] - jd)).toString(format=self.fmt)
-            sunset = helper_functions.time(24 * (self.jd_sunset[d] - jd)).toString(format=self.fmt)
-            sangava = helper_functions.time(24 * (self.kalams[d]['saGgava'][0] - jd)).toString(format=self.fmt)
+            sunrise = helper_functions.Time(24 * (self.jd_sunrise[d] - jd)).toString(format=self.fmt)
+            sunset = helper_functions.Time(24 * (self.jd_sunset[d] - jd)).toString(format=self.fmt)
+            sangava = helper_functions.Time(24 * (self.kalams[d]['saGgava'][0] - jd)).toString(format=self.fmt)
             rahu = '%s--%s' % (
-                helper_functions.time(24 * (self.kalams[d]['rahu'][0] - jd)).toString(format=self.fmt),
-                helper_functions.time(24 * (self.kalams[d]['rahu'][1] - jd)).toString(format=self.fmt))
+                helper_functions.Time(24 * (self.kalams[d]['rahu'][0] - jd)).toString(format=self.fmt),
+                helper_functions.Time(24 * (self.kalams[d]['rahu'][1] - jd)).toString(format=self.fmt))
             yama = '%s--%s' % (
-                helper_functions.time(24 * (self.kalams[d]['yama'][0] - jd)).toString(format=self.fmt),
-                helper_functions.time(24 * (self.kalams[d]['yama'][1] - jd)).toString(format=self.fmt))
+                helper_functions.Time(24 * (self.kalams[d]['yama'][0] - jd)).toString(format=self.fmt),
+                helper_functions.Time(24 * (self.kalams[d]['yama'][1] - jd)).toString(format=self.fmt))
 
             print('\caldata{\\textcolor{%s}{%s}}{%s{%s}}%%' %
                   (day_colours[self.weekday[d]], dt, self.month_data[d],
@@ -1589,7 +1589,7 @@ class panchangam:
                 else:
                     tithi_data_str = '%s\\mbox{%s {\\small\\RIGHTarrow} \\textsf{%s%s}}' %\
                                      (tithi_data_str, tithi,
-                                      helper_functions.time(24 * (tithi_end_jd - jd)).toString(format=self.fmt),
+                                      helper_functions.Time(24 * (tithi_end_jd - jd)).toString(format=self.fmt),
                                       '\\hspace{2ex}')
 
             nakshatram_data_str = ''
@@ -1604,8 +1604,8 @@ class panchangam:
                 else:
                     nakshatram_data_str = '%s\\mbox{%s {\\small\\RIGHTarrow} \\textsf{%s}}' %\
                                           (nakshatram_data_str, nakshatram,
-                                           helper_functions.time(24 * (nakshatram_end_jd -
-                                                                                           jd)).toString(format=self.fmt))
+                                           helper_functions.Time(24 * (nakshatram_end_jd -
+                                                                       jd)).toString(format=self.fmt))
 
             rashi_data_str = ''
             for rashi_ID, rashi_end_jd in self.rashi_data[d]:
@@ -1617,14 +1617,14 @@ class panchangam:
                 else:
                     rashi_data_str = '%s\\mbox{%s \\RIGHTarrow \\textsf{%s}}' %\
                                      (rashi_data_str, rashi,
-                                      helper_functions.time(24 * (rashi_end_jd - jd)).toString(format=self.fmt))
+                                      helper_functions.Time(24 * (rashi_end_jd - jd)).toString(format=self.fmt))
             if computeLagnams:
                 lagna_data_str = 'लग्नं:~'
                 for lagna_ID, lagna_end_jd in self.lagna_data[d]:
                     lagna = helper_functions.NAMES['MASA'][self.script][lagna_ID]
                     lagna_data_str = '%s \\mbox{%s \\RIGHTarrow \\textsf{%s}}' %\
                                      (lagna_data_str, lagna,
-                                      helper_functions.time(24 * (lagna_end_jd - jd)).toString(format=self.fmt))
+                                      helper_functions.Time(24 * (lagna_end_jd - jd)).toString(format=self.fmt))
 
             yogam_data_str = ''
             for yogam_ID, yogam_end_jd in self.yogam_data[d]:
@@ -1637,7 +1637,7 @@ class panchangam:
                 else:
                     yogam_data_str = '%s\\mbox{%s {\\small\\RIGHTarrow} \\textsf{%s%s}}' %\
                                      (yogam_data_str, yogam,
-                                      helper_functions.time(24 * (yogam_end_jd - jd)).toString(format=self.fmt),
+                                      helper_functions.Time(24 * (yogam_end_jd - jd)).toString(format=self.fmt),
                                       '\\hspace{2ex}')
 
             karanam_data_str = ''
@@ -1651,32 +1651,32 @@ class panchangam:
                 else:
                     karanam_data_str = '%s\\mbox{%s {\\small\\RIGHTarrow} \\textsf{%s%s}}' %\
                                        (karanam_data_str, karanam,
-                                        helper_functions.time(24 * (karanam_end_jd - jd)).toString(format=self.fmt),
+                                        helper_functions.Time(24 * (karanam_end_jd - jd)).toString(format=self.fmt),
                                         '\\hspace{2ex}')
 
-            sunrise = helper_functions.time(24 * (self.jd_sunrise[d] - jd)).toString(format=self.fmt)
-            sunset = helper_functions.time(24 * (self.jd_sunset[d] - jd)).toString(format=self.fmt)
-            moonrise = helper_functions.time(24 * (self.jd_moonrise[d] - jd)).toString(format=self.fmt)
-            moonset = helper_functions.time(24 * (self.jd_moonset[d] - jd)).toString(format=self.fmt)
+            sunrise = helper_functions.Time(24 * (self.jd_sunrise[d] - jd)).toString(format=self.fmt)
+            sunset = helper_functions.Time(24 * (self.jd_sunset[d] - jd)).toString(format=self.fmt)
+            moonrise = helper_functions.Time(24 * (self.jd_moonrise[d] - jd)).toString(format=self.fmt)
+            moonset = helper_functions.Time(24 * (self.jd_moonset[d] - jd)).toString(format=self.fmt)
 
-            pratahsandhya = helper_functions.time(24 * (self.kalams[d]['prAtaH sandhyA'][0] -
-                                                                            jd)).toString(format=self.fmt)
-            sangava = helper_functions.time(24 * (self.kalams[d]['saGgava'][0] - jd)).toString(format=self.fmt)
-            madhyahna = helper_functions.time(24 * (self.kalams[d]['madhyAhna'][0] - jd)).toString(format=self.fmt)
-            aparahna = helper_functions.time(24 * (self.kalams[d]['aparAhna'][0] - jd)).toString(format=self.fmt)
-            sayahna = helper_functions.time(24 * (self.kalams[d]['sAyAhna'][0] - jd)).toString(format=self.fmt)
-            sayamsandhya = helper_functions.time(24 * (self.kalams[d]['sAyaM sandhyA'][0] -
-                                                                           jd)).toString(format=self.fmt)
+            pratahsandhya = helper_functions.Time(24 * (self.kalams[d]['prAtaH sandhyA'][0] -
+                                                        jd)).toString(format=self.fmt)
+            sangava = helper_functions.Time(24 * (self.kalams[d]['saGgava'][0] - jd)).toString(format=self.fmt)
+            madhyahna = helper_functions.Time(24 * (self.kalams[d]['madhyAhna'][0] - jd)).toString(format=self.fmt)
+            aparahna = helper_functions.Time(24 * (self.kalams[d]['aparAhna'][0] - jd)).toString(format=self.fmt)
+            sayahna = helper_functions.Time(24 * (self.kalams[d]['sAyAhna'][0] - jd)).toString(format=self.fmt)
+            sayamsandhya = helper_functions.Time(24 * (self.kalams[d]['sAyaM sandhyA'][0] -
+                                                       jd)).toString(format=self.fmt)
 
             rahu = '%s--%s' % (
-                helper_functions.time(24 * (self.kalams[d]['rahu'][0] - jd)).toString(format=self.fmt),
-                helper_functions.time(24 * (self.kalams[d]['rahu'][1] - jd)).toString(format=self.fmt))
+                helper_functions.Time(24 * (self.kalams[d]['rahu'][0] - jd)).toString(format=self.fmt),
+                helper_functions.Time(24 * (self.kalams[d]['rahu'][1] - jd)).toString(format=self.fmt))
             yama = '%s--%s' % (
-                helper_functions.time(24 * (self.kalams[d]['yama'][0] - jd)).toString(format=self.fmt),
-                helper_functions.time(24 * (self.kalams[d]['yama'][1] - jd)).toString(format=self.fmt))
+                helper_functions.Time(24 * (self.kalams[d]['yama'][0] - jd)).toString(format=self.fmt),
+                helper_functions.Time(24 * (self.kalams[d]['yama'][1] - jd)).toString(format=self.fmt))
             gulika = '%s--%s' % (
-                helper_functions.time(24 * (self.kalams[d]['gulika'][0] - jd)).toString(format=self.fmt),
-                helper_functions.time(24 * (self.kalams[d]['gulika'][1] - jd)).toString(format=self.fmt))
+                helper_functions.Time(24 * (self.kalams[d]['gulika'][0] - jd)).toString(format=self.fmt),
+                helper_functions.Time(24 * (self.kalams[d]['gulika'][1] - jd)).toString(format=self.fmt))
 
             if self.solar_month[d] == 1:
                 # Flip the year name for the remaining days

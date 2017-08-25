@@ -5,7 +5,7 @@ import os.path
 import pickle
 import sys
 from jyotisha.panchangam import panchangam
-from jyotisha.panchangam.helper_functions import city
+from jyotisha.panchangam.helper_functions import City
 
 
 def main():
@@ -22,7 +22,7 @@ def main():
         script = sys.argv[6]
         computeLagnams = False
 
-    City = city(city_name, latitude, longitude, tz)
+    city = City(city_name, latitude, longitude, tz)
 
     if computeLagnams:
         # Includes lagna etc
@@ -38,7 +38,7 @@ def main():
     else:
         sys.stderr.write('No precomputed data available. Computing panchangam... ')
         sys.stderr.flush()
-        Panchangam = panchangam(city=City, year=year, script=script)
+        Panchangam = panchangam(city=city, year=year, script=script)
         Panchangam.computeAngams(computeLagnams)
         Panchangam.assignLunarMonths()
         sys.stderr.write('done.\n')

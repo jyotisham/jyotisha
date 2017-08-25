@@ -3,7 +3,7 @@ import os
 import pickle
 import sys
 from jyotisha.panchangam import panchangam
-from jyotisha.panchangam.helper_functions import city
+from jyotisha.panchangam.helper_functions import City
 
 
 def main():
@@ -15,7 +15,7 @@ def main():
     else:
         script = 'iast'  # Default script is IAST for writing calendar
 
-    City = city(city_name, latitude, longitude, tz)
+    city = City(city_name, latitude, longitude, tz)
 
     Panchangam = panchangam(city=City, year=year, script=script)
 

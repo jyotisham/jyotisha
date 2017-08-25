@@ -8,7 +8,7 @@ from datetime import datetime, date, timedelta
 from icalendar import Calendar, Event, Alarm
 from pytz import timezone as tz
 from jyotisha.panchangam import panchangam
-from jyotisha.panchangam.helper_functions import swe, MAX_SZ, get_nakshatram, get_tithi, city
+from jyotisha.panchangam.helper_functions import swe, MAX_SZ, get_nakshatram, get_tithi, City
 
 
 def computeEvents(P, json_file):
@@ -263,7 +263,7 @@ def main():
     else:
         script = 'iast'  # Default script is IAST for writing calendar
 
-    City = city(city_name, latitude, longitude, tz)
+    city = City(city_name, latitude, longitude, tz)
 
     fname_det = '../precomputed/%s-%s-detailed.pickle' % (city_name, year)
     fname = '../precomputed/%s-%s.pickle' % (city_name, year)

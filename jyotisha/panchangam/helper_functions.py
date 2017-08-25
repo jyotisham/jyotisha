@@ -31,7 +31,7 @@ SOLAR_MONTH    = {'arc_len': 360.0 / 12.0,  'w_moon': 0, 'w_sun':  1}
 SOLAR_NAKSH    = {'arc_len': 360.0 / 27.0,  'w_moon': 0, 'w_sun':  1}
 
 
-class city:
+class City(object):
 
     """This class enables the construction of a city object
     """
@@ -46,7 +46,7 @@ class city:
         self.timezone = timezone
 
 
-class time:
+class Time(object):
 
     """This  class is a time class with methods for printing, conversion etc.
     """

@@ -5,7 +5,7 @@ import os.path
 import pickle
 import sys
 from jyotisha.panchangam import panchangam
-from jyotisha.panchangam.helper_functions import city
+from jyotisha.panchangam.helper_functions import City
 
 
 def main():
@@ -17,7 +17,7 @@ def main():
     if len(sys.argv) == 7:
         script = sys.argv[6]
 
-    City = city(city_name, latitude, longitude, tz)
+    city = City(city_name, latitude, longitude, tz)
 
     fname_det = '../precomputed/%s-%s-detailed.pickle' % (city_name, year)
     fname = '../precomputed/%s-%s.pickle' % (city_name, year)
