@@ -9,9 +9,9 @@ from jyotisha.panchangam.custom_transliteration import revjul, tr
 
 
 NAMES = init_names_auto()
-MAX_DAYS = 366
-MAX_SZ = MAX_DAYS + 3  # plus one and minus one are usually necessary
-MIN_DAYS_NEXT_ECL = 25
+MAX_DAYS_PER_YEAR = 366
+MAX_SZ = MAX_DAYS_PER_YEAR + 3  # plus one and minus one are usually necessary
+MIN_DAYS_NEXT_ECLIPSE = 25
 TITHI          = {'arc_len': 360.0 / 30.0,  'w_moon': 1, 'w_sun': -1}
 TITHI_PADA     = {'arc_len': 360.0 / 120.0, 'w_moon': 1, 'w_sun': -1}
 NAKSHATRAM     = {'arc_len': 360.0 / 27.0,  'w_moon': 1, 'w_sun':  0}

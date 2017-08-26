@@ -93,7 +93,7 @@ class Panchangam(object):
         for d in range(jyotisha.panchangam.temporal.MAX_SZ):
             self.weekday[d] = (self.weekday_start + d - 1) % 7
 
-        for d in range(-1, jyotisha.panchangam.temporal.MAX_DAYS + 1):
+        for d in range(-1, jyotisha.panchangam.temporal.MAX_DAYS_PER_YEAR + 1):
             [y, m, dt, t] = swe.revjul(self.jd_start + d - 1)
 
             # checking @ 6am local - can we do any better?
@@ -401,7 +401,7 @@ class Panchangam(object):
         # debugFestivals = True
         debugFestivals = False
 
-        for d in range(1, jyotisha.panchangam.temporal.MAX_DAYS + 1):
+        for d in range(1, jyotisha.panchangam.temporal.MAX_DAYS_PER_YEAR + 1):
             [y, m, dt, t] = swe.revjul(self.jd_start + d - 1)
 
             # checking @ 6am local - can we do any better?
@@ -1234,7 +1234,7 @@ class Panchangam(object):
                    (jd_eclipse_solar_end - (tz_off / 24.0)) == 0.0:
                     # Move towards the next eclipse... at least the next new
                     # moon (>=25 days away)
-                    jd += jyotisha.panchangam.temporal.MIN_DAYS_NEXT_ECL
+                    jd += jyotisha.panchangam.temporal.MIN_DAYS_NEXT_ECLIPSE
                     continue
                 if eclipse_solar_end < eclipse_solar_start:
                     eclipse_solar_end += 24
@@ -1250,7 +1250,7 @@ class Panchangam(object):
                 if self.weekday[fday] == 0:
                     solar_eclipse_str = '*cUDAmaNi~' + solar_eclipse_str
                 self.festivals[fday].append(solar_eclipse_str)
-            jd = jd + jyotisha.panchangam.temporal.MIN_DAYS_NEXT_ECL
+            jd = jd + jyotisha.panchangam.temporal.MIN_DAYS_NEXT_ECLIPSE
 
     def computeLunarEclipses(self):
         # Set location
@@ -1281,7 +1281,7 @@ class Panchangam(object):
                    (jd_eclipse_lunar_end - (tz_off / 24.0)) == 0.0:
                     # Move towards the next eclipse... at least the next full
                     # moon (>=25 days away)
-                    jd += jyotisha.panchangam.temporal.MIN_DAYS_NEXT_ECL
+                    jd += jyotisha.panchangam.temporal.MIN_DAYS_NEXT_ECLIPSE
                     continue
                 fday = int(
                     floor(jd_eclipse_lunar_start) - floor(self.jd_start) + 1)
@@ -1310,7 +1310,7 @@ class Panchangam(object):
                    jd_eclipse_lunar_start > jd_moonset_eclipse_day:
                     # Move towards the next eclipse... at least the next full
                     # moon (>=25 days away)
-                    jd += jyotisha.panchangam.temporal.MIN_DAYS_NEXT_ECL
+                    jd += jyotisha.panchangam.temporal.MIN_DAYS_NEXT_ECLIPSE
                     continue
 
                 moonrise_eclipse_day = swe.revjul(jd_moonrise_eclipse_day)[3]
@@ -1328,7 +1328,7 @@ class Panchangam(object):
                     lunar_eclipse_str = '*cUDAmaNi~' + lunar_eclipse_str
 
                 self.festivals[fday].append(lunar_eclipse_str)
-            jd += jyotisha.panchangam.temporal.MIN_DAYS_NEXT_ECL
+            jd += jyotisha.panchangam.temporal.MIN_DAYS_NEXT_ECLIPSE
 
     def writeMonthlyTeX(self, template_file):
         """Write out the panchangam TeX using a specified template
