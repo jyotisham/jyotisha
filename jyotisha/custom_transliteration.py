@@ -244,3 +244,5 @@ def print_lat_lon(latstr, lonstr):
     return formatted_string
 
 
+def longitudeToRightAscension(longitude):
+    return (360-longitude)/360*24
