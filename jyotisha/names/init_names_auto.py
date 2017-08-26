@@ -8,7 +8,7 @@ from indic_transliteration import sanscript
 
 CODE_ROOT = os.path.dirname(os.path.dirname(__file__))
 
-def init_names_auto(fname=os.path.join(CODE_ROOT, 'names/translation_table_HK.tsv')):
+def init_names_auto(fname=os.path.join(CODE_ROOT, 'names/data/translation_table_HK.tsv')):
 
     with open(fname) as f:
         lines = f.readlines()

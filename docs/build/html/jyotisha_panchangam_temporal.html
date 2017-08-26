@@ -56,7 +56,7 @@
 
 <dl class="function">
 <dt id="jyotisha.panchangam.temporal.get_angam">
-<code class="descclassname">jyotisha.panchangam.temporal.</code><code class="descname">get_angam</code><span class="sig-paren">(</span><em>jd</em>, <em>angam_type</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jyotisha/panchangam/temporal.html#get_angam"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jyotisha.panchangam.temporal.get_angam" title="Permalink to this definition">¶</a></dt>
+<code class="descclassname">jyotisha.panchangam.temporal.</code><code class="descname">get_angam</code><span class="sig-paren">(</span><em>jd</em>, <em>angam_type</em>, <em>ayanamsha_id=1</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jyotisha/panchangam/temporal.html#get_angam"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jyotisha.panchangam.temporal.get_angam" title="Permalink to this definition">¶</a></dt>
 <dd><p>Returns the angam prevailing at a particular time</p>
 <dl class="docutils">
 <dt>Args:</dt>
@@ -86,7 +86,7 @@ w_sun: The multiplier for sun’s longitude</dd>
 
 <dl class="function">
 <dt id="jyotisha.panchangam.temporal.get_angam_data">
-<code class="descclassname">jyotisha.panchangam.temporal.</code><code class="descname">get_angam_data</code><span class="sig-paren">(</span><em>jd_sunrise</em>, <em>jd_sunrise_tmrw</em>, <em>angam_type</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jyotisha/panchangam/temporal.html#get_angam_data"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jyotisha.panchangam.temporal.get_angam_data" title="Permalink to this definition">¶</a></dt>
+<code class="descclassname">jyotisha.panchangam.temporal.</code><code class="descname">get_angam_data</code><span class="sig-paren">(</span><em>jd_sunrise</em>, <em>jd_sunrise_tmrw</em>, <em>angam_type</em>, <em>ayanamsha_id=1</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jyotisha/panchangam/temporal.html#get_angam_data"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jyotisha.panchangam.temporal.get_angam_data" title="Permalink to this definition">¶</a></dt>
 <dd><p>Computes angam data for angams such as tithi, nakshatram, yogam
 and karanam.</p>
 <dl class="docutils">
@@ -117,7 +117,7 @@ for the day and their end-times (Julian day)</dd>
 
 <dl class="function">
 <dt id="jyotisha.panchangam.temporal.get_angam_float">
-<code class="descclassname">jyotisha.panchangam.temporal.</code><code class="descname">get_angam_float</code><span class="sig-paren">(</span><em>jd</em>, <em>angam_type</em>, <em>offset=0</em>, <em>debug=False</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jyotisha/panchangam/temporal.html#get_angam_float"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jyotisha.panchangam.temporal.get_angam_float" title="Permalink to this definition">¶</a></dt>
+<code class="descclassname">jyotisha.panchangam.temporal.</code><code class="descname">get_angam_float</code><span class="sig-paren">(</span><em>jd</em>, <em>angam_type</em>, <em>offset=0</em>, <em>ayanamsha_id=1</em>, <em>debug=False</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jyotisha/panchangam/temporal.html#get_angam_float"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jyotisha.panchangam.temporal.get_angam_float" title="Permalink to this definition">¶</a></dt>
 <dd><p>Returns the angam</p>
 <dl class="docutils">
 <dt>Args:</dt>
@@ -137,7 +137,7 @@ class, such as TITHI, NAKSHATRAM, YOGAM, KARANAM or SOLAR_MONTH</dd>
 
 <dl class="function">
 <dt id="jyotisha.panchangam.temporal.get_angam_span">
-<code class="descclassname">jyotisha.panchangam.temporal.</code><code class="descname">get_angam_span</code><span class="sig-paren">(</span><em>jd1</em>, <em>jd2</em>, <em>angam_type</em>, <em>target</em>, <em>debug=False</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jyotisha/panchangam/temporal.html#get_angam_span"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jyotisha.panchangam.temporal.get_angam_span" title="Permalink to this definition">¶</a></dt>
+<code class="descclassname">jyotisha.panchangam.temporal.</code><code class="descname">get_angam_span</code><span class="sig-paren">(</span><em>jd1</em>, <em>jd2</em>, <em>angam_type</em>, <em>target</em>, <em>ayanamsha_id=1</em>, <em>debug=False</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jyotisha/panchangam/temporal.html#get_angam_span"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jyotisha.panchangam.temporal.get_angam_span" title="Permalink to this definition">¶</a></dt>
 <dd><p>Computes angam spans for angams such as tithi, nakshatram, yogam
 and karanam.</p>
 <dl class="docutils">
@@ -183,7 +183,7 @@ int num_parts</dd>
 
 <dl class="function">
 <dt id="jyotisha.panchangam.temporal.get_nakshatram">
-<code class="descclassname">jyotisha.panchangam.temporal.</code><code class="descname">get_nakshatram</code><span class="sig-paren">(</span><em>jd</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jyotisha/panchangam/temporal.html#get_nakshatram"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jyotisha.panchangam.temporal.get_nakshatram" title="Permalink to this definition">¶</a></dt>
+<code class="descclassname">jyotisha.panchangam.temporal.</code><code class="descname">get_nakshatram</code><span class="sig-paren">(</span><em>jd</em>, <em>ayanamsha_id=1</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jyotisha/panchangam/temporal.html#get_nakshatram"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jyotisha.panchangam.temporal.get_nakshatram" title="Permalink to this definition">¶</a></dt>
 <dd><p>Returns the nakshatram prevailing at a given moment</p>
 <p>Nakshatram is computed based on the longitude of the Moon; in
 addition, to obtain the absolute value of the longitude, the
@@ -218,7 +218,7 @@ for Chitra, …, 27 stands for Revati</dd>
 
 <dl class="function">
 <dt id="jyotisha.panchangam.temporal.get_solar_rashi">
-<code class="descclassname">jyotisha.panchangam.temporal.</code><code class="descname">get_solar_rashi</code><span class="sig-paren">(</span><em>jd</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jyotisha/panchangam/temporal.html#get_solar_rashi"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jyotisha.panchangam.temporal.get_solar_rashi" title="Permalink to this definition">¶</a></dt>
+<code class="descclassname">jyotisha.panchangam.temporal.</code><code class="descname">get_solar_rashi</code><span class="sig-paren">(</span><em>jd</em>, <em>ayanamsha_id=1</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jyotisha/panchangam/temporal.html#get_solar_rashi"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jyotisha.panchangam.temporal.get_solar_rashi" title="Permalink to this definition">¶</a></dt>
 <dd><p>Returns the solar rashi prevailing at a given moment</p>
 <p>Solar month is computed based on the longitude of the sun; in
 addition, to obtain the absolute value of the longitude, the
@@ -239,7 +239,7 @@ ayanamsa is required to be subtracted.</p>
 
 <dl class="function">
 <dt id="jyotisha.panchangam.temporal.get_tithi">
-<code class="descclassname">jyotisha.panchangam.temporal.</code><code class="descname">get_tithi</code><span class="sig-paren">(</span><em>jd</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jyotisha/panchangam/temporal.html#get_tithi"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jyotisha.panchangam.temporal.get_tithi" title="Permalink to this definition">¶</a></dt>
+<code class="descclassname">jyotisha.panchangam.temporal.</code><code class="descname">get_tithi</code><span class="sig-paren">(</span><em>jd</em>, <em>ayanamsha_id=1</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jyotisha/panchangam/temporal.html#get_tithi"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jyotisha.panchangam.temporal.get_tithi" title="Permalink to this definition">¶</a></dt>
 <dd><p>Returns the tithi prevailing at a given moment</p>
 <p>Tithi is computed as the difference in the longitudes of the moon
 and sun at any given point of time. Therefore, even the ayanamsha

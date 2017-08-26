@@ -51,9 +51,9 @@
 
 
 <span class="n">NAMES</span> <span class="o">=</span> <span class="n">init_names_auto</span><span class="p">()</span>
-<span class="n">MAX_DAYS</span> <span class="o">=</span> <span class="mi">366</span>
-<span class="n">MAX_SZ</span> <span class="o">=</span> <span class="n">MAX_DAYS</span> <span class="o">+</span> <span class="mi">3</span>  <span class="c1"># plus one and minus one are usually necessary</span>
-<span class="n">MIN_DAYS_NEXT_ECL</span> <span class="o">=</span> <span class="mi">25</span>
+<span class="n">MAX_DAYS_PER_YEAR</span> <span class="o">=</span> <span class="mi">366</span>
+<span class="n">MAX_SZ</span> <span class="o">=</span> <span class="n">MAX_DAYS_PER_YEAR</span> <span class="o">+</span> <span class="mi">3</span>  <span class="c1"># plus one and minus one are usually necessary</span>
+<span class="n">MIN_DAYS_NEXT_ECLIPSE</span> <span class="o">=</span> <span class="mi">25</span>
 <span class="n">TITHI</span>          <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;arc_len&#39;</span><span class="p">:</span> <span class="mf">360.0</span> <span class="o">/</span> <span class="mf">30.0</span><span class="p">,</span>  <span class="s1">&#39;w_moon&#39;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span> <span class="s1">&#39;w_sun&#39;</span><span class="p">:</span> <span class="o">-</span><span class="mi">1</span><span class="p">}</span>
 <span class="n">TITHI_PADA</span>     <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;arc_len&#39;</span><span class="p">:</span> <span class="mf">360.0</span> <span class="o">/</span> <span class="mf">120.0</span><span class="p">,</span> <span class="s1">&#39;w_moon&#39;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span> <span class="s1">&#39;w_sun&#39;</span><span class="p">:</span> <span class="o">-</span><span class="mi">1</span><span class="p">}</span>
 <span class="n">NAKSHATRAM</span>     <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;arc_len&#39;</span><span class="p">:</span> <span class="mf">360.0</span> <span class="o">/</span> <span class="mf">27.0</span><span class="p">,</span>  <span class="s1">&#39;w_moon&#39;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span> <span class="s1">&#39;w_sun&#39;</span><span class="p">:</span>  <span class="mi">0</span><span class="p">}</span>
@@ -102,7 +102,7 @@
         <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">toString</span><span class="p">(</span><span class="nb">format</span><span class="o">=</span><span class="s1">&#39;hh:mm:ss&#39;</span><span class="p">)</span></div>
 
 
-<div class="viewcode-block" id="get_nakshatram"><a class="viewcode-back" href="../../../jyotisha_panchangam_temporal.html#jyotisha.panchangam.temporal.get_nakshatram">[docs]</a><span class="k">def</span> <span class="nf">get_nakshatram</span><span class="p">(</span><span class="n">jd</span><span class="p">):</span>
+<div class="viewcode-block" id="get_nakshatram"><a class="viewcode-back" href="../../../jyotisha_panchangam_temporal.html#jyotisha.panchangam.temporal.get_nakshatram">[docs]</a><span class="k">def</span> <span class="nf">get_nakshatram</span><span class="p">(</span><span class="n">jd</span><span class="p">,</span> <span class="n">ayanamsha_id</span><span class="o">=</span><span class="n">swe</span><span class="o">.</span><span class="n">SIDM_LAHIRI</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Returns the nakshatram prevailing at a given moment</span>
 
 <span class="sd">    Nakshatram is computed based on the longitude of the Moon; in</span>
@@ -121,10 +121,10 @@
 <span class="sd">      16</span>
 <span class="sd">    &quot;&quot;&quot;</span>
 
-    <span class="k">return</span> <span class="n">get_angam</span><span class="p">(</span><span class="n">jd</span><span class="p">,</span> <span class="n">NAKSHATRAM</span><span class="p">)</span></div>
+    <span class="k">return</span> <span class="n">get_angam</span><span class="p">(</span><span class="n">jd</span><span class="p">,</span> <span class="n">NAKSHATRAM</span><span class="p">,</span> <span class="n">ayanamsha_id</span><span class="o">=</span><span class="n">ayanamsha_id</span><span class="p">)</span></div>
 
 
-<div class="viewcode-block" id="get_solar_rashi"><a class="viewcode-back" href="../../../jyotisha_panchangam_temporal.html#jyotisha.panchangam.temporal.get_solar_rashi">[docs]</a><span class="k">def</span> <span class="nf">get_solar_rashi</span><span class="p">(</span><span class="n">jd</span><span class="p">):</span>
+<div class="viewcode-block" id="get_solar_rashi"><a class="viewcode-back" href="../../../jyotisha_panchangam_temporal.html#jyotisha.panchangam.temporal.get_solar_rashi">[docs]</a><span class="k">def</span> <span class="nf">get_solar_rashi</span><span class="p">(</span><span class="n">jd</span><span class="p">,</span> <span class="n">ayanamsha_id</span><span class="o">=</span><span class="n">swe</span><span class="o">.</span><span class="n">SIDM_LAHIRI</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Returns the solar rashi prevailing at a given moment</span>
 
 <span class="sd">    Solar month is computed based on the longitude of the sun; in</span>
@@ -142,10 +142,10 @@
 <span class="sd">      9</span>
 <span class="sd">    &quot;&quot;&quot;</span>
 
-    <span class="k">return</span> <span class="n">get_angam</span><span class="p">(</span><span class="n">jd</span><span class="p">,</span> <span class="n">SOLAR_MONTH</span><span class="p">)</span></div>
+    <span class="k">return</span> <span class="n">get_angam</span><span class="p">(</span><span class="n">jd</span><span class="p">,</span> <span class="n">SOLAR_MONTH</span><span class="p">,</span> <span class="n">ayanamsha_id</span><span class="o">=</span><span class="n">ayanamsha_id</span><span class="p">)</span></div>
 
 
-<div class="viewcode-block" id="get_angam_float"><a class="viewcode-back" href="../../../jyotisha_panchangam_temporal.html#jyotisha.panchangam.temporal.get_angam_float">[docs]</a><span class="k">def</span> <span class="nf">get_angam_float</span><span class="p">(</span><span class="n">jd</span><span class="p">,</span> <span class="n">angam_type</span><span class="p">,</span> <span class="n">offset</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">debug</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
+<div class="viewcode-block" id="get_angam_float"><a class="viewcode-back" href="../../../jyotisha_panchangam_temporal.html#jyotisha.panchangam.temporal.get_angam_float">[docs]</a><span class="k">def</span> <span class="nf">get_angam_float</span><span class="p">(</span><span class="n">jd</span><span class="p">,</span> <span class="n">angam_type</span><span class="p">,</span> <span class="n">offset</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">ayanamsha_id</span><span class="o">=</span><span class="n">swe</span><span class="o">.</span><span class="n">SIDM_LAHIRI</span><span class="p">,</span> <span class="n">debug</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Returns the angam</span>
 
 <span class="sd">      Args:</span>
@@ -160,7 +160,7 @@
 <span class="sd">        &gt;&gt;&gt; get_angam_float(2444961.7125,NAKSHATRAM)</span>
 <span class="sd">        15.967801358055189</span>
 <span class="sd">    &quot;&quot;&quot;</span>
-    <span class="n">swe</span><span class="o">.</span><span class="n">set_sid_mode</span><span class="p">(</span><span class="n">swe</span><span class="o">.</span><span class="n">SIDM_LAHIRI</span><span class="p">)</span>  <span class="c1"># Force Lahiri Ayanamsha</span>
+    <span class="n">swe</span><span class="o">.</span><span class="n">set_sid_mode</span><span class="p">(</span><span class="n">ayanamsha_id</span><span class="p">)</span>
     <span class="n">w_moon</span> <span class="o">=</span> <span class="n">angam_type</span><span class="p">[</span><span class="s1">&#39;w_moon&#39;</span><span class="p">]</span>
     <span class="n">w_sun</span> <span class="o">=</span> <span class="n">angam_type</span><span class="p">[</span><span class="s1">&#39;w_sun&#39;</span><span class="p">]</span>
     <span class="n">arc_len</span> <span class="o">=</span> <span class="n">angam_type</span><span class="p">[</span><span class="s1">&#39;arc_len&#39;</span><span class="p">]</span>
@@ -215,7 +215,7 @@
     <span class="k">return</span> <span class="n">lsun</span> <span class="o">+</span> <span class="n">offset</span></div>
 
 
-<div class="viewcode-block" id="get_angam"><a class="viewcode-back" href="../../../jyotisha_panchangam_temporal.html#jyotisha.panchangam.temporal.get_angam">[docs]</a><span class="k">def</span> <span class="nf">get_angam</span><span class="p">(</span><span class="n">jd</span><span class="p">,</span> <span class="n">angam_type</span><span class="p">):</span>
+<div class="viewcode-block" id="get_angam"><a class="viewcode-back" href="../../../jyotisha_panchangam_temporal.html#jyotisha.panchangam.temporal.get_angam">[docs]</a><span class="k">def</span> <span class="nf">get_angam</span><span class="p">(</span><span class="n">jd</span><span class="p">,</span> <span class="n">angam_type</span><span class="p">,</span> <span class="n">ayanamsha_id</span><span class="o">=</span><span class="n">swe</span><span class="o">.</span><span class="n">SIDM_LAHIRI</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Returns the angam prevailing at a particular time</span>
 
 <span class="sd">      Args:</span>
@@ -240,12 +240,12 @@
 <span class="sd">      &gt;&gt;&gt; get_angam(2444961.7125,KARANAM)</span>
 <span class="sd">      55</span>
 <span class="sd">    &quot;&quot;&quot;</span>
-    <span class="n">swe</span><span class="o">.</span><span class="n">set_sid_mode</span><span class="p">(</span><span class="n">swe</span><span class="o">.</span><span class="n">SIDM_LAHIRI</span><span class="p">)</span>  <span class="c1"># Force Lahiri Ayanamsha</span>
+    <span class="n">swe</span><span class="o">.</span><span class="n">set_sid_mode</span><span class="p">(</span><span class="n">ayanamsha_id</span><span class="p">)</span>
 
-    <span class="k">return</span> <span class="nb">int</span><span class="p">(</span><span class="mi">1</span> <span class="o">+</span> <span class="n">floor</span><span class="p">(</span><span class="n">get_angam_float</span><span class="p">(</span><span class="n">jd</span><span class="p">,</span> <span class="n">angam_type</span><span class="p">)))</span></div>
+    <span class="k">return</span> <span class="nb">int</span><span class="p">(</span><span class="mi">1</span> <span class="o">+</span> <span class="n">floor</span><span class="p">(</span><span class="n">get_angam_float</span><span class="p">(</span><span class="n">jd</span><span class="p">,</span> <span class="n">angam_type</span><span class="p">,</span> <span class="n">ayanamsha_id</span><span class="o">=</span><span class="n">ayanamsha_id</span><span class="p">)))</span></div>
 
 
-<div class="viewcode-block" id="get_angam_span"><a class="viewcode-back" href="../../../jyotisha_panchangam_temporal.html#jyotisha.panchangam.temporal.get_angam_span">[docs]</a><span class="k">def</span> <span class="nf">get_angam_span</span><span class="p">(</span><span class="n">jd1</span><span class="p">,</span> <span class="n">jd2</span><span class="p">,</span> <span class="n">angam_type</span><span class="p">,</span> <span class="n">target</span><span class="p">,</span> <span class="n">debug</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
+<div class="viewcode-block" id="get_angam_span"><a class="viewcode-back" href="../../../jyotisha_panchangam_temporal.html#jyotisha.panchangam.temporal.get_angam_span">[docs]</a><span class="k">def</span> <span class="nf">get_angam_span</span><span class="p">(</span><span class="n">jd1</span><span class="p">,</span> <span class="n">jd2</span><span class="p">,</span> <span class="n">angam_type</span><span class="p">,</span> <span class="n">target</span><span class="p">,</span> <span class="n">ayanamsha_id</span><span class="o">=</span><span class="n">swe</span><span class="o">.</span><span class="n">SIDM_LAHIRI</span><span class="p">,</span> <span class="n">debug</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Computes angam spans for angams such as tithi, nakshatram, yogam</span>
 <span class="sd">        and karanam.</span>
 
@@ -270,17 +270,17 @@
 
     <span class="n">jd_now</span> <span class="o">=</span> <span class="n">jd1</span>
     <span class="k">while</span> <span class="n">jd_now</span> <span class="o">&lt;</span> <span class="n">jd2</span> <span class="ow">and</span> <span class="n">angam_start</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
-        <span class="n">angam_now</span> <span class="o">=</span> <span class="n">get_angam</span><span class="p">(</span><span class="n">jd_now</span><span class="p">,</span> <span class="n">angam_type</span><span class="p">)</span>
+        <span class="n">angam_now</span> <span class="o">=</span> <span class="n">get_angam</span><span class="p">(</span><span class="n">jd_now</span><span class="p">,</span> <span class="n">angam_type</span><span class="p">,</span> <span class="n">ayanamsha_id</span><span class="o">=</span><span class="n">ayanamsha_id</span><span class="p">)</span>
 
         <span class="k">if</span> <span class="n">debug</span><span class="p">:</span>
-            <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="si">%%</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">jd_now</span><span class="p">,</span> <span class="n">revjul</span><span class="p">(</span><span class="n">jd_now</span><span class="p">),</span> <span class="n">angam_now</span><span class="p">,</span> <span class="n">get_angam_float</span><span class="p">(</span><span class="n">jd_now</span><span class="p">,</span> <span class="n">angam_type</span><span class="p">))</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="si">%%</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">jd_now</span><span class="p">,</span> <span class="n">revjul</span><span class="p">(</span><span class="n">jd_now</span><span class="p">),</span> <span class="n">angam_now</span><span class="p">,</span> <span class="n">get_angam_float</span><span class="p">(</span><span class="n">jd_now</span><span class="p">,</span> <span class="n">angam_type</span><span class="p">,</span> <span class="n">ayanamsha_id</span><span class="o">=</span><span class="n">ayanamsha_id</span><span class="p">))</span>
         <span class="k">if</span> <span class="n">angam_now</span> <span class="o">&lt;</span> <span class="n">target</span><span class="p">:</span>
             <span class="k">if</span> <span class="n">debug</span><span class="p">:</span>
                 <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="si">%%</span><span class="s1"> jd_bracket_L &#39;</span><span class="p">,</span> <span class="n">jd_now</span><span class="p">)</span>
             <span class="n">jd_bracket_L</span> <span class="o">=</span> <span class="n">jd_now</span>
         <span class="k">if</span> <span class="n">angam_now</span> <span class="o">==</span> <span class="n">target</span><span class="p">:</span>
             <span class="n">angam_start</span> <span class="o">=</span> <span class="n">brentq</span><span class="p">(</span><span class="n">get_angam_float</span><span class="p">,</span> <span class="n">jd_bracket_L</span><span class="p">,</span> <span class="n">jd_now</span><span class="p">,</span>
-                                 <span class="n">args</span><span class="o">=</span><span class="p">(</span><span class="n">angam_type</span><span class="p">,</span> <span class="o">-</span><span class="n">target</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span> <span class="kc">False</span><span class="p">))</span>
+                                 <span class="n">args</span><span class="o">=</span><span class="p">(</span><span class="n">angam_type</span><span class="p">,</span> <span class="o">-</span><span class="n">target</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span> <span class="n">ayanamsha_id</span><span class="p">,</span> <span class="kc">False</span><span class="p">))</span>
             <span class="k">if</span> <span class="n">debug</span><span class="p">:</span>
                 <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="si">%%</span><span class="s1"> angam_start&#39;</span><span class="p">,</span> <span class="n">angam_start</span><span class="p">)</span>
         <span class="c1"># if angam_now &gt; target and angam_start is not None:</span>
@@ -293,10 +293,10 @@
     <span class="n">jd_now</span> <span class="o">=</span> <span class="n">angam_start</span>
 
     <span class="k">while</span> <span class="n">jd_now</span> <span class="o">&lt;</span> <span class="n">jd2</span> <span class="ow">and</span> <span class="n">angam_end</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
-        <span class="n">angam_now</span> <span class="o">=</span> <span class="n">get_angam</span><span class="p">(</span><span class="n">jd_now</span><span class="p">,</span> <span class="n">angam_type</span><span class="p">)</span>
+        <span class="n">angam_now</span> <span class="o">=</span> <span class="n">get_angam</span><span class="p">(</span><span class="n">jd_now</span><span class="p">,</span> <span class="n">angam_type</span><span class="p">,</span> <span class="n">ayanamsha_id</span><span class="o">=</span><span class="n">ayanamsha_id</span><span class="p">)</span>
 
         <span class="k">if</span> <span class="n">debug</span><span class="p">:</span>
-            <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="si">%%</span><span class="s1">#&#39;</span><span class="p">,</span> <span class="n">jd_now</span><span class="p">,</span> <span class="n">revjul</span><span class="p">(</span><span class="n">jd_now</span><span class="p">),</span> <span class="n">angam_now</span><span class="p">,</span> <span class="n">get_angam_float</span><span class="p">(</span><span class="n">jd_now</span><span class="p">,</span> <span class="n">angam_type</span><span class="p">))</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="si">%%</span><span class="s1">#&#39;</span><span class="p">,</span> <span class="n">jd_now</span><span class="p">,</span> <span class="n">revjul</span><span class="p">(</span><span class="n">jd_now</span><span class="p">),</span> <span class="n">angam_now</span><span class="p">,</span> <span class="n">get_angam_float</span><span class="p">(</span><span class="n">jd_now</span><span class="p">,</span> <span class="n">angam_type</span><span class="p">,</span> <span class="n">ayanamsha_id</span><span class="o">=</span><span class="n">ayanamsha_id</span><span class="p">))</span>
         <span class="k">if</span> <span class="n">target</span> <span class="o">==</span> <span class="n">num_angas</span><span class="p">:</span>
             <span class="c1"># Wait till we land at the next anga!</span>
             <span class="k">if</span> <span class="n">angam_now</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
@@ -314,7 +314,7 @@
 
     <span class="k">try</span><span class="p">:</span>
         <span class="n">angam_end</span> <span class="o">=</span> <span class="n">brentq</span><span class="p">(</span><span class="n">get_angam_float</span><span class="p">,</span> <span class="n">angam_start</span><span class="p">,</span> <span class="n">jd_bracket_R</span><span class="p">,</span>
-                           <span class="n">args</span><span class="o">=</span><span class="p">(</span><span class="n">angam_type</span><span class="p">,</span> <span class="o">-</span><span class="n">target</span><span class="p">,</span> <span class="kc">False</span><span class="p">))</span>
+                           <span class="n">args</span><span class="o">=</span><span class="p">(</span><span class="n">angam_type</span><span class="p">,</span> <span class="o">-</span><span class="n">target</span><span class="p">,</span> <span class="n">ayanamsha_id</span><span class="p">,</span> <span class="kc">False</span><span class="p">))</span>
     <span class="k">except</span><span class="p">:</span>
         <span class="n">sys</span><span class="o">.</span><span class="n">stderr</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s1">&#39;Unable to compute angam_end (</span><span class="si">%s</span><span class="s1">-&gt;</span><span class="si">%d</span><span class="s1">); possibly could not bracket correctly!</span><span class="se">\n</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">angam_type</span><span class="p">),</span> <span class="n">target</span><span class="p">))</span>
 
@@ -324,7 +324,7 @@
     <span class="k">return</span> <span class="p">(</span><span class="n">angam_start</span><span class="p">,</span> <span class="n">angam_end</span><span class="p">)</span></div>
 
 
-<div class="viewcode-block" id="get_angam_data"><a class="viewcode-back" href="../../../jyotisha_panchangam_temporal.html#jyotisha.panchangam.temporal.get_angam_data">[docs]</a><span class="k">def</span> <span class="nf">get_angam_data</span><span class="p">(</span><span class="n">jd_sunrise</span><span class="p">,</span> <span class="n">jd_sunrise_tmrw</span><span class="p">,</span> <span class="n">angam_type</span><span class="p">):</span>
+<div class="viewcode-block" id="get_angam_data"><a class="viewcode-back" href="../../../jyotisha_panchangam_temporal.html#jyotisha.panchangam.temporal.get_angam_data">[docs]</a><span class="k">def</span> <span class="nf">get_angam_data</span><span class="p">(</span><span class="n">jd_sunrise</span><span class="p">,</span> <span class="n">jd_sunrise_tmrw</span><span class="p">,</span> <span class="n">angam_type</span><span class="p">,</span> <span class="n">ayanamsha_id</span><span class="o">=</span><span class="n">swe</span><span class="o">.</span><span class="n">SIDM_LAHIRI</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Computes angam data for angams such as tithi, nakshatram, yogam</span>
 <span class="sd">    and karanam.</span>
 
@@ -348,7 +348,7 @@
 <span class="sd">      &gt;&gt;&gt; get_angam_data(2444961.54042,2444962.54076,KARANAM)</span>
 <span class="sd">      [(54, 2444961.599213231), (55, 2444962.15444546)]</span>
 <span class="sd">    &quot;&quot;&quot;</span>
-    <span class="n">swe</span><span class="o">.</span><span class="n">set_sid_mode</span><span class="p">(</span><span class="n">swe</span><span class="o">.</span><span class="n">SIDM_LAHIRI</span><span class="p">)</span>  <span class="c1"># Force Lahiri Ayanamsha</span>
+    <span class="n">swe</span><span class="o">.</span><span class="n">set_sid_mode</span><span class="p">(</span><span class="n">ayanamsha_id</span><span class="p">)</span>
 
     <span class="n">w_moon</span> <span class="o">=</span> <span class="n">angam_type</span><span class="p">[</span><span class="s1">&#39;w_moon&#39;</span><span class="p">]</span>
     <span class="n">w_sun</span> <span class="o">=</span> <span class="n">angam_type</span><span class="p">[</span><span class="s1">&#39;w_sun&#39;</span><span class="p">]</span>
@@ -357,8 +357,8 @@
     <span class="n">num_angas</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="mf">360.0</span> <span class="o">/</span> <span class="n">arc_len</span><span class="p">)</span>
 
     <span class="c1"># Compute angam details</span>
-    <span class="n">angam_now</span> <span class="o">=</span> <span class="n">get_angam</span><span class="p">(</span><span class="n">jd_sunrise</span><span class="p">,</span> <span class="n">angam_type</span><span class="p">)</span>
-    <span class="n">angam_tmrw</span> <span class="o">=</span> <span class="n">get_angam</span><span class="p">(</span><span class="n">jd_sunrise_tmrw</span><span class="p">,</span> <span class="n">angam_type</span><span class="p">)</span>
+    <span class="n">angam_now</span> <span class="o">=</span> <span class="n">get_angam</span><span class="p">(</span><span class="n">jd_sunrise</span><span class="p">,</span> <span class="n">angam_type</span><span class="p">,</span> <span class="n">ayanamsha_id</span><span class="o">=</span><span class="n">ayanamsha_id</span><span class="p">)</span>
+    <span class="n">angam_tmrw</span> <span class="o">=</span> <span class="n">get_angam</span><span class="p">(</span><span class="n">jd_sunrise_tmrw</span><span class="p">,</span> <span class="n">angam_type</span><span class="p">,</span> <span class="n">ayanamsha_id</span><span class="o">=</span><span class="n">ayanamsha_id</span><span class="p">)</span>
 
     <span class="n">angams_list</span> <span class="o">=</span> <span class="p">[]</span>
 
@@ -408,7 +408,7 @@
             <span class="c1"># used to bracket the root, for brenth</span>
             <span class="n">TDELTA</span> <span class="o">=</span> <span class="mf">0.05</span>
             <span class="n">t_act</span> <span class="o">=</span> <span class="n">brentq</span><span class="p">(</span><span class="n">get_angam_float</span><span class="p">,</span> <span class="n">x0</span> <span class="o">-</span> <span class="n">TDELTA</span><span class="p">,</span> <span class="n">x0</span> <span class="o">+</span> <span class="n">TDELTA</span><span class="p">,</span>
-                           <span class="n">args</span><span class="o">=</span><span class="p">(</span><span class="n">angam_type</span><span class="p">,</span> <span class="o">-</span><span class="n">target</span><span class="p">,</span> <span class="kc">False</span><span class="p">))</span>
+                           <span class="n">args</span><span class="o">=</span><span class="p">(</span><span class="n">angam_type</span><span class="p">,</span> <span class="o">-</span><span class="n">target</span><span class="p">,</span> <span class="n">ayanamsha_id</span><span class="p">,</span> <span class="kc">False</span><span class="p">))</span>
             <span class="n">angams_list</span><span class="o">.</span><span class="n">extend</span><span class="p">([((</span><span class="n">angam_now</span> <span class="o">+</span> <span class="n">i</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span> <span class="o">%</span> <span class="n">num_angas</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span> <span class="n">t_act</span><span class="p">)])</span>
     <span class="k">return</span> <span class="n">angams_list</span></div>
 
@@ -437,7 +437,7 @@
         <span class="k">return</span> <span class="s1">&#39;</span><span class="si">%s</span><span class="s1">~(</span><span class="si">%s</span><span class="s1">)&#39;</span> <span class="o">%</span> <span class="p">(</span><span class="n">NAMES</span><span class="p">[</span><span class="s1">&#39;CHANDRA_MASA&#39;</span><span class="p">][</span><span class="n">script</span><span class="p">][</span><span class="nb">int</span><span class="p">(</span><span class="n">month</span><span class="p">)</span> <span class="o">+</span> <span class="mi">1</span><span class="p">],</span> <span class="n">tr</span><span class="p">(</span><span class="s1">&#39;adhika&#39;</span><span class="p">,</span> <span class="n">script</span><span class="p">))</span></div>
 
 
-<div class="viewcode-block" id="get_tithi"><a class="viewcode-back" href="../../../jyotisha_panchangam_temporal.html#jyotisha.panchangam.temporal.get_tithi">[docs]</a><span class="k">def</span> <span class="nf">get_tithi</span><span class="p">(</span><span class="n">jd</span><span class="p">):</span>
+<div class="viewcode-block" id="get_tithi"><a class="viewcode-back" href="../../../jyotisha_panchangam_temporal.html#jyotisha.panchangam.temporal.get_tithi">[docs]</a><span class="k">def</span> <span class="nf">get_tithi</span><span class="p">(</span><span class="n">jd</span><span class="p">,</span> <span class="n">ayanamsha_id</span><span class="o">=</span><span class="n">swe</span><span class="o">.</span><span class="n">SIDM_LAHIRI</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Returns the tithi prevailing at a given moment</span>
 
 <span class="sd">    Tithi is computed as the difference in the longitudes of the moon</span>
@@ -457,7 +457,7 @@
 <span class="sd">      28</span>
 <span class="sd">    &quot;&quot;&quot;</span>
 
-    <span class="k">return</span> <span class="n">get_angam</span><span class="p">(</span><span class="n">jd</span><span class="p">,</span> <span class="n">TITHI</span><span class="p">)</span></div>
+    <span class="k">return</span> <span class="n">get_angam</span><span class="p">(</span><span class="n">jd</span><span class="p">,</span> <span class="n">TITHI</span><span class="p">,</span> <span class="n">ayanamsha_id</span><span class="o">=</span><span class="n">ayanamsha_id</span><span class="p">)</span></div>
 
 
 <div class="viewcode-block" id="get_kalas"><a class="viewcode-back" href="../../../jyotisha_panchangam_temporal.html#jyotisha.panchangam.temporal.get_kalas">[docs]</a><span class="k">def</span> <span class="nf">get_kalas</span><span class="p">(</span><span class="n">start_span</span><span class="p">,</span> <span class="n">end_span</span><span class="p">,</span> <span class="n">part_start</span><span class="p">,</span> <span class="n">num_parts</span><span class="p">):</span>
