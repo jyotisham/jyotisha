@@ -5,6 +5,13 @@ import ast
 
 import os
 from indic_transliteration import sanscript
+import logging
+
+logging.basicConfig(
+    level=logging.DEBUG,
+    format="%(levelname)s: %(asctime)s {%(filename)s:%(lineno)d}: %(message)s "
+)
+
 
 CODE_ROOT = os.path.dirname(os.path.dirname(__file__))
 

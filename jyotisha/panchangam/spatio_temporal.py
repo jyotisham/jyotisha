@@ -8,6 +8,13 @@ from scipy.optimize import brentq
 
 from jyotisha.panchangam.custom_transliteration import sexastr2deci
 from jyotisha.panchangam.temporal import get_angam_float, get_angam, SOLAR_MONTH
+import logging
+
+logging.basicConfig(
+  level=logging.DEBUG,
+  format="%(levelname)s: %(asctime)s {%(filename)s:%(lineno)d}: %(message)s "
+)
+
 
 
 # next new/full moon from current one is at least 27.3 days away

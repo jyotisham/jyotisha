@@ -6,6 +6,13 @@ import pickle
 import sys
 from jyotisha.panchangam.panchangam import Panchangam
 from jyotisha.panchangam.spatio_temporal import City
+import logging
+
+logging.basicConfig(
+    level=logging.DEBUG,
+    format="%(levelname)s: %(asctime)s {%(filename)s:%(lineno)d}: %(message)s "
+)
+
 
 
 def main():

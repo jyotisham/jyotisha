@@ -7,6 +7,13 @@ import sys
 from math import floor
 
 from indic_transliteration import sanscript
+import logging
+
+logging.basicConfig(
+    level=logging.DEBUG,
+    format="%(levelname)s: %(asctime)s {%(filename)s:%(lineno)d}: %(message)s "
+)
+
 
 
 def romanise(iast_text):

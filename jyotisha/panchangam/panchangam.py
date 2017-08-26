@@ -16,6 +16,13 @@ import jyotisha.panchangam.custom_transliteration
 import jyotisha.panchangam.temporal
 from jyotisha.panchangam import spatio_temporal
 import swisseph as swe
+import logging
+
+logging.basicConfig(
+    level=logging.DEBUG,
+    format="%(levelname)s: %(asctime)s {%(filename)s:%(lineno)d}: %(message)s "
+)
+
 
 
 CODE_ROOT = os.path.dirname(os.path.dirname(__file__))

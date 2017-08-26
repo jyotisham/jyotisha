@@ -10,6 +10,13 @@ from pytz import timezone as tz
 from jyotisha.panchangam.panchangam import Panchangam
 from jyotisha.panchangam.spatio_temporal import swe, City
 from jyotisha.panchangam.temporal import get_nakshatram, get_tithi, MAX_SZ
+import logging
+
+logging.basicConfig(
+    level=logging.DEBUG,
+    format="%(levelname)s: %(asctime)s {%(filename)s:%(lineno)d}: %(message)s "
+)
+
 
 
 def compute_events(P, json_file):

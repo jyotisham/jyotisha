@@ -6,6 +6,13 @@ from scipy.optimize import brentq
 
 from jyotisha.names.init_names_auto import init_names_auto
 from jyotisha.panchangam.custom_transliteration import revjul, tr
+import logging
+
+logging.basicConfig(
+    level=logging.DEBUG,
+    format="%(levelname)s: %(asctime)s {%(filename)s:%(lineno)d}: %(message)s "
+)
+
 
 
 NAMES = init_names_auto()

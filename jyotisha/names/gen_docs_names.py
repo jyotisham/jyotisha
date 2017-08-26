@@ -1,6 +1,13 @@
 #!/usr/bin/python3
 #  -*- coding: utf-8 -*-
 from jyotisha.names.init_names_auto import init_names_auto
+import logging
+
+logging.basicConfig(
+    level=logging.DEBUG,
+    format="%(levelname)s: %(asctime)s {%(filename)s:%(lineno)d}: %(message)s "
+)
+
 
 if __name__ == '__main__':
     NAMES = init_names_auto()

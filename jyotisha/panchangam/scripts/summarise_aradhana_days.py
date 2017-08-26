@@ -8,6 +8,13 @@ import os
 from indic_transliteration import sanscript
 
 from jyotisha.names.init_names_auto import init_names_auto
+import logging
+
+logging.basicConfig(
+    level=logging.DEBUG,
+    format="%(levelname)s: %(asctime)s {%(filename)s:%(lineno)d}: %(message)s "
+)
+
 
 
 CODE_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
