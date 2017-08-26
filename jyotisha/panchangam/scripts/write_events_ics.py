@@ -7,7 +7,7 @@ from datetime import datetime, date, timedelta
 
 from icalendar import Calendar, Event, Alarm
 from pytz import timezone as tz
-from jyotisha.panchangam import panchangam
+from jyotisha.panchangam.panchangam import Panchangam
 from jyotisha.panchangam.spatio_temporal import swe, City
 from jyotisha.panchangam.temporal import get_nakshatram, get_tithi, MAX_SZ
 
@@ -272,28 +272,28 @@ def main():
     if os.path.isfile(fname):
         # Load pickle, do not compute!
         with open(fname, 'rb') as f:
-            Panchangam = pickle.load(f)
+            panchangam = pickle.load(f)
         sys.stderr.write('Loaded pre-computed panchangam from %s.\n' % fname)
     elif os.path.isfile(fname_det):
         # Load pickle, do not compute!
         with open(fname_det, 'rb') as f:
-            Panchangam = pickle.load(f)
+            panchangam = pickle.load(f)
         sys.stderr.write('Loaded pre-computed panchangam from %s.\n' % fname)
     else:
         sys.stderr.write('No precomputed data available. Computing panchangam... ')
         sys.stderr.flush()
-        Panchangam = panchangam(city=City, year=year, script=script)
-        Panchangam.computeAngams(computeLagnams=False)
-        Panchangam.assignLunarMonths()
+        panchangam = Panchangam(city=city, year=year, script=script)
+        panchangam.computeAngams(computeLagnams=False)
+        panchangam.assignLunarMonths()
         sys.stderr.write('done.\n')
         sys.stderr.write('Writing computed panchangam to %s...' % fname)
         with open(fname, 'wb') as f:
             # Pickle the 'data' dictionary using the highest protocol available.
-            pickle.dump(Panchangam, f, pickle.HIGHEST_PROTOCOL)
+            pickle.dump(panchangam, f, pickle.HIGHEST_PROTOCOL)
 
-    compute_events(Panchangam, json_file)
+    compute_events(panchangam, json_file)
     cal_file_name = '../ics/%s-%s-%s' % (city_name, year, json_file.replace('.json', '.ics'))
-    computeIcsCalendar(Panchangam, cal_file_name)
+    computeIcsCalendar(panchangam, cal_file_name)
     print('Wrote ICS file to %s' % cal_file_name)
 
 

@@ -4,7 +4,7 @@
 import os.path
 import pickle
 import sys
-from jyotisha.panchangam import panchangam
+from jyotisha.panchangam.panchangam import Panchangam
 from jyotisha.panchangam.spatio_temporal import City
 
 
@@ -33,23 +33,23 @@ def main():
     if os.path.isfile(fname):
         # Load pickle, do not compute!
         with open(fname, 'rb') as f:
-            Panchangam = pickle.load(f)
+            panchangam = pickle.load(f)
         sys.stderr.write('Loaded pre-computed panchangam from %s.\n' % fname)
     else:
         sys.stderr.write('No precomputed data available. Computing panchangam... ')
         sys.stderr.flush()
-        Panchangam = panchangam(city=city, year=year, script=script)
-        Panchangam.computeAngams(computeLagnams)
-        Panchangam.assignLunarMonths()
+        panchangam = Panchangam(city=city, year=year, script=script)
+        panchangam.computeAngams(computeLagnams)
+        panchangam.assignLunarMonths()
         sys.stderr.write('done.\n')
         sys.stderr.write('Writing computed panchangam to %s...' % fname)
         with open(fname, 'wb') as f:
             # Pickle the 'data' dictionary using the highest protocol available.
-            pickle.dump(Panchangam, f, pickle.HIGHEST_PROTOCOL)
+            pickle.dump(panchangam, f, pickle.HIGHEST_PROTOCOL)
 
-    Panchangam.computeFestivals()
-    Panchangam.computeSolarEclipses()
-    Panchangam.computeLunarEclipses()
+    panchangam.computeFestivals()
+    panchangam.computeSolarEclipses()
+    panchangam.computeLunarEclipses()
 
     daily_template_file = open('../tex/templates/daily_cal_template.tex')
     Panchangam.writeDailyTeX(daily_template_file, computeLagnams)
