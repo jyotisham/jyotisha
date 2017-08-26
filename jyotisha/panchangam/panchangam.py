@@ -1,22 +1,21 @@
 #!/usr/bin/python3
 #  -*- coding: utf-8 -*-
-import re
-import sys
 import json
-
+import logging
+import os
+import re
+import swisseph as swe
+import sys
 from datetime import datetime, date, timedelta
 from math import floor
 
-import os
+from icalendar import Calendar, Event, Alarm
 from indic_transliteration import sanscript
 from pytz import timezone as tz
-from icalendar import Calendar, Event, Alarm
 
-import jyotisha.panchangam.custom_transliteration
+import jyotisha.custom_transliteration
 import jyotisha.panchangam.temporal
 from jyotisha.panchangam import spatio_temporal
-import swisseph as swe
-import logging
 
 logging.basicConfig(
     level=logging.DEBUG,
@@ -1364,18 +1363,18 @@ class Panchangam(object):
         print('\\mbox{\\font\\x="Sanskrit 2003:script=deva" at 48 pt\\x %s}\\\\[0.5cm]' %
               samvatsara_names)
         print('\\mbox{\\font\\x="Sanskrit 2003:script=deva" at 32 pt\\x %s } %%'
-              % jyotisha.panchangam.custom_transliteration.tr('kali', self.script))
+              % jyotisha.custom_transliteration.tr('kali', self.script))
         print('{\\font\\x="Candara" at 32 pt\\x %d–%d\\\\[0.5cm]}'
               % (self.year + 3100, self.year + 3101))
         print('{\\font\\x="Candara" at 48 pt\\x \\uppercase{%s}\\\\[0.2cm]}' %
               self.city.name)
         print('{\\font\\x="Candara" at 16 pt\\x {%s}\\\\[0.5cm]}' %
-              jyotisha.panchangam.custom_transliteration.print_lat_lon(self.city.latstr, self.city.lonstr))
+              jyotisha.custom_transliteration.print_lat_lon(self.city.latstr, self.city.lonstr))
         print('\hrule')
 
         print('\\newpage')
         print('\\centering')
-        print('\\centerline{\\LARGE {{%s}}}' % jyotisha.panchangam.custom_transliteration.tr('mAsAntara-vizESAH', self.script))
+        print('\\centerline{\\LARGE {{%s}}}' % jyotisha.custom_transliteration.tr('mAsAntara-vizESAH', self.script))
         print('\\begin{multicols*}{3}')
         print('\\TrickSupertabularIntoMulticols')
         print('\\begin{supertabular}' +
@@ -1401,7 +1400,7 @@ class Panchangam(object):
 
                 print('%s & %s & %s & {\\raggedright %s} \\\\' %
                       (MON[m], dt, WDAY[self.weekday[d]],
-                       '\\\\'.join([jyotisha.panchangam.custom_transliteration.tr(f, self.script, True, True)
+                       '\\\\'.join([jyotisha.custom_transliteration.tr(f, self.script, True, True)
                                     for f in sorted(set(self.festivals[d]))])))
 
             if m == 12 and dt == 31:
@@ -1456,7 +1455,7 @@ class Panchangam(object):
                         jyotisha.panchangam.temporal.NAMES['TITHI'][self.script][tithi_ID]
                 if tithi_end_jd is None:
                     tithi_data_str = '%s\\mbox{%s {\\tiny \\RIGHTarrow} %s}' %\
-                                     (tithi_data_str, tithi, jyotisha.panchangam.custom_transliteration.tr('ahOrAtram', self.script))
+                                     (tithi_data_str, tithi, jyotisha.custom_transliteration.tr('ahOrAtram', self.script))
                 else:
                     tithi_data_str = '%s\\mbox{%s {\\tiny \\RIGHTarrow} \\textsf{%s%s}}' %\
                                      (tithi_data_str, tithi,
@@ -1471,7 +1470,7 @@ class Panchangam(object):
                 if nakshatram_end_jd is None:
                     nakshatram_data_str = '%s\\mbox{%s {\\tiny \\RIGHTarrow} %s}' %\
                                           (nakshatram_data_str, nakshatram,
-                                           jyotisha.panchangam.custom_transliteration.tr('ahOrAtram', self.script))
+                                           jyotisha.custom_transliteration.tr('ahOrAtram', self.script))
                 else:
                     nakshatram_data_str = '%s\\mbox{%s {\\tiny \\RIGHTarrow} \\textsf{%s%s}}' %\
                                           (nakshatram_data_str, nakshatram,
@@ -1486,7 +1485,7 @@ class Panchangam(object):
                 yogam = jyotisha.panchangam.temporal.NAMES['YOGAM'][self.script][yogam_ID]
                 if yogam_end_jd is None:
                     yogam_data_str = '%s\\mbox{%s {\\tiny \\RIGHTarrow} %s}' %\
-                                     (yogam_data_str, yogam, jyotisha.panchangam.custom_transliteration.tr('ahOrAtram', self.script))
+                                     (yogam_data_str, yogam, jyotisha.custom_transliteration.tr('ahOrAtram', self.script))
                 else:
                     yogam_data_str = '%s\\mbox{%s {\\tiny \\RIGHTarrow} \\textsf{%s%s}}' %\
                                      (yogam_data_str, yogam,
@@ -1503,7 +1502,7 @@ class Panchangam(object):
                 if karanam_end_jd is None:
                     karanam_data_str = '%s\\mbox{%s {\\tiny \\RIGHTarrow} %s}' %\
                                        (karanam_data_str, karanam,
-                                        jyotisha.panchangam.custom_transliteration.tr('ahOrAtram', self.script))
+                                        jyotisha.custom_transliteration.tr('ahOrAtram', self.script))
                 else:
                     karanam_data_str = '%s\\mbox{%s {\\tiny \\RIGHTarrow} \\textsf{%s%s}}' %\
                                        (karanam_data_str, karanam,
@@ -1532,7 +1531,7 @@ class Panchangam(object):
             # Using set as an ugly workaround since we may have sometimes assigned the same
             # festival to the same day again!
             print('{%s}' % '\\eventsep '.join(
-                [jyotisha.panchangam.custom_transliteration.tr(f, self.script, True, True) for f in sorted(set(self.festivals[d]))]))
+                [jyotisha.custom_transliteration.tr(f, self.script, True, True) for f in sorted(set(self.festivals[d]))]))
 
             if self.weekday[d] == 6:
                 print("\\\\ \hline")
@@ -1583,12 +1582,12 @@ class Panchangam(object):
         print('\\mbox{\\font\\x="Sanskrit 2003:script=deva" at 48 pt\\x %s–%s}\\\\[0.5cm]'
               % samvatsara_names)
         print('\\mbox{\\font\\x="Sanskrit 2003:script=deva" at 32 pt\\x %s } %%'
-              % jyotisha.panchangam.custom_transliteration.tr('kali', self.script))
+              % jyotisha.custom_transliteration.tr('kali', self.script))
         print('{\\font\\x="Candara" at 32 pt\\x %d–%d\\\\[0.5cm]}'
               % (self.year + 3100, self.year + 3101))
         print('{\\font\\x="Candara" at 48 pt\\x \\uppercase{%s}\\\\[0.2cm]}' % self.city.name)
         print('{\\font\\x="Candara" at 16 pt\\x {%s}\\\\[0.5cm]}'
-              % jyotisha.panchangam.custom_transliteration.print_lat_lon(self.city.latstr, self.city.lonstr))
+              % jyotisha.custom_transliteration.print_lat_lon(self.city.latstr, self.city.lonstr))
         print('\hrule')
         print('\end{center}')
         print('\clearpage')
@@ -1614,7 +1613,7 @@ class Panchangam(object):
                         jyotisha.panchangam.temporal.NAMES['TITHI'][self.script][tithi_ID]
                 if tithi_end_jd is None:
                     tithi_data_str = '%s\\mbox{%s {\\small\\RIGHTarrow} %s}' %\
-                                     (tithi_data_str, tithi, jyotisha.panchangam.custom_transliteration.tr('ahOrAtram', self.script))
+                                     (tithi_data_str, tithi, jyotisha.custom_transliteration.tr('ahOrAtram', self.script))
                 else:
                     tithi_data_str = '%s\\mbox{%s {\\small\\RIGHTarrow} \\textsf{%s%s}}' %\
                                      (tithi_data_str, tithi,
@@ -1629,7 +1628,7 @@ class Panchangam(object):
                 if nakshatram_end_jd is None:
                     nakshatram_data_str = '%s\\mbox{%s {\\small\\RIGHTarrow} %s}' %\
                                           (nakshatram_data_str, nakshatram,
-                                           jyotisha.panchangam.custom_transliteration.tr('ahOrAtram', self.script))
+                                           jyotisha.custom_transliteration.tr('ahOrAtram', self.script))
                 else:
                     nakshatram_data_str = '%s\\mbox{%s {\\small\\RIGHTarrow} \\textsf{%s}}' %\
                                           (nakshatram_data_str, nakshatram,
@@ -1662,7 +1661,7 @@ class Panchangam(object):
                 yogam = jyotisha.panchangam.temporal.NAMES['YOGAM'][self.script][yogam_ID]
                 if yogam_end_jd is None:
                     yogam_data_str = '%s\\mbox{%s {\\small\\RIGHTarrow} %s}' %\
-                                     (yogam_data_str, yogam, jyotisha.panchangam.custom_transliteration.tr('ahOrAtram', self.script))
+                                     (yogam_data_str, yogam, jyotisha.custom_transliteration.tr('ahOrAtram', self.script))
                 else:
                     yogam_data_str = '%s\\mbox{%s {\\small\\RIGHTarrow} \\textsf{%s%s}}' %\
                                      (yogam_data_str, yogam,
@@ -1676,7 +1675,7 @@ class Panchangam(object):
                 karanam = jyotisha.panchangam.temporal.NAMES['KARANAM'][self.script][karanam_ID]
                 if karanam_end_jd is None:
                     karanam_data_str = '%s\\mbox{%s {\\small\\RIGHTarrow} %s}' %\
-                                       (karanam_data_str, karanam, jyotisha.panchangam.custom_transliteration.tr('ahOrAtram', self.script))
+                                       (karanam_data_str, karanam, jyotisha.custom_transliteration.tr('ahOrAtram', self.script))
                 else:
                     karanam_data_str = '%s\\mbox{%s {\\small\\RIGHTarrow} \\textsf{%s%s}}' %\
                                        (karanam_data_str, karanam,
@@ -1732,7 +1731,7 @@ class Panchangam(object):
             # Using set as an ugly workaround since we may have sometimes assigned the same
             # festival to the same day again!
             print('{%s}' % '\\eventsep '.join(
-                [jyotisha.panchangam.custom_transliteration.tr(f, self.script, True, True) for f in sorted(set(self.festivals[d]))]))
+                [jyotisha.custom_transliteration.tr(f, self.script, True, True) for f in sorted(set(self.festivals[d]))]))
 
             print('{%s} ' % WDAY[self.weekday[d]])
 
@@ -1767,7 +1766,7 @@ class Panchangam(object):
                     page_id = ''
                     event = Event()
                     if stext == 'kRttikA~maNDala~pArAyaNam':
-                        event.add('summary', jyotisha.panchangam.custom_transliteration.tr(stext.replace('~', ' '), self.script))
+                        event.add('summary', jyotisha.custom_transliteration.tr(stext.replace('~', ' '), self.script))
                         fest_num_loc = stext.find('#')
                         if fest_num_loc != -1:
                             stext = stext[:fest_num_loc - 2]  # Two more chars dropped, ~\
@@ -1776,7 +1775,7 @@ class Panchangam(object):
 
                         if stext in festival_rules:
                             desc = festival_rules[stext]['Short Description'] + '\n\n' + \
-                                   jyotisha.panchangam.custom_transliteration.tr(festival_rules[stext]['Shloka'], self.script, False) +\
+                                   jyotisha.custom_transliteration.tr(festival_rules[stext]['Shloka'], self.script, False) +\
                                 '\n\n'
                             if 'URL' in festival_rules[stext]:
                                 page_id = festival_rules[stext]['URL']
@@ -1803,7 +1802,7 @@ class Panchangam(object):
                             continue
                         [stext, t1, arrow, t2] = stext.split('\\')
                         stext = stext.strip('~')
-                        event.add('summary', jyotisha.panchangam.custom_transliteration.tr(stext, self.script))
+                        event.add('summary', jyotisha.custom_transliteration.tr(stext, self.script))
                         # we know that t1 is something like 'textsf{hh:mm(+1)}{'
                         # so we know the exact positions of min and hour
                         if t1[12] == '(':  # (+1), next day
@@ -1821,7 +1820,7 @@ class Panchangam(object):
 
                         if stext in festival_rules:
                             desc = festival_rules[stext]['Short Description'] + '\n\n' + \
-                                   jyotisha.panchangam.custom_transliteration.tr(festival_rules[stext]['Shloka'], self.script, False) + '\n\n'
+                                   jyotisha.custom_transliteration.tr(festival_rules[stext]['Shloka'], self.script, False) + '\n\n'
                             if 'URL' in festival_rules[stext]:
                                 page_id = festival_rules[stext]['URL']
                             else:
@@ -1842,14 +1841,14 @@ class Panchangam(object):
                         self.ics_calendar.add_component(event)
                     elif stext.find('samApanam') != -1:
                         # It's an ending event
-                        event.add('summary', jyotisha.panchangam.custom_transliteration.tr(re.sub('.~samApanam',
+                        event.add('summary', jyotisha.custom_transliteration.tr(re.sub('.~samApanam',
                                                        '-samApanam', stext), self.script))
                         event.add('dtstart', date(y, m, dt))
                         event.add('dtend', (datetime(y, m, dt) + timedelta(1)).date())
 
                         if stext in festival_rules:
                             desc = festival_rules[stext]['Short Description'] + '\n\n' + \
-                                   jyotisha.panchangam.custom_transliteration.tr(festival_rules[stext]['Shloka'], self.script, False) +\
+                                   jyotisha.custom_transliteration.tr(festival_rules[stext]['Shloka'], self.script, False) +\
                                 '\n\n'
                             if 'URL' in festival_rules[stext]:
                                 page_id = festival_rules[stext]['URL']
@@ -1888,7 +1887,7 @@ class Panchangam(object):
                                 start_d = check_d
                                 break
 
-                        event.add('summary', jyotisha.panchangam.custom_transliteration.tr(stext.replace(
+                        event.add('summary', jyotisha.custom_transliteration.tr(stext.replace(
                                                 'samApanam', '').replace('~', ' '), self.script))
                         event.add('dtstart', (datetime(y, m, dt) - timedelta(d - start_d)).date())
                         event.add('dtend', (datetime(y, m, dt) + timedelta(1)).date())
@@ -1910,7 +1909,7 @@ class Panchangam(object):
                         self.ics_calendar.add_component(event)
 
                     else:
-                        event.add('summary', jyotisha.panchangam.custom_transliteration.tr(re.sub('.~ArambhaH', '-ArambhaH', stext).replace('~', ' ').replace('\#', '#'), self.script))
+                        event.add('summary', jyotisha.custom_transliteration.tr(re.sub('.~ArambhaH', '-ArambhaH', stext).replace('~', ' ').replace('\#', '#'), self.script))
                         fest_num_loc = stext.find('#')
                         if fest_num_loc != -1:
                             stext = stext[:fest_num_loc - 2]  # Two more chars dropped, ~\
@@ -1920,7 +1919,7 @@ class Panchangam(object):
                         if stext.find('EkAdazI') == -1:
                             if stext in festival_rules:
                                 desc = festival_rules[stext]['Short Description'] + '\n\n' + \
-                                       jyotisha.panchangam.custom_transliteration.tr(festival_rules[stext]['Shloka'], self.script, False) +\
+                                       jyotisha.custom_transliteration.tr(festival_rules[stext]['Shloka'], self.script, False) +\
                                     '\n\n'
                                 if 'URL' in festival_rules[stext]:
                                     page_id = festival_rules[stext]['URL']
@@ -1936,7 +1935,7 @@ class Panchangam(object):
                             ekad = '~'.join(stext.split('~')[1:])  # get rid of sarva etc. prefix!
                             if ekad in festival_rules:
                                 desc = festival_rules[ekad]['Short Description'] + '\n\n' + \
-                                       jyotisha.panchangam.custom_transliteration.tr(festival_rules[ekad]['Shloka'], self.script) + '\n\n'
+                                       jyotisha.custom_transliteration.tr(festival_rules[ekad]['Shloka'], self.script) + '\n\n'
                                 if 'URL' in festival_rules[ekad]:
                                     page_id = festival_rules[ekad]['URL']
                                 else:
@@ -1944,7 +1943,7 @@ class Panchangam(object):
                             else:
                                 sys.stderr.write('No description found for festival %s!\n' % ekad)
                             desc += '\n' + BASE_URL + page_id
-                            pref = jyotisha.panchangam.custom_transliteration.romanise(str(sanscript.transliterate(
+                            pref = jyotisha.custom_transliteration.romanise(str(sanscript.transliterate(
                                                 stext.split('~')[0],
                                                 sanscript.HK, sanscript.IAST), 'utf8')) + "-"
                             uid = '%s-%d-%02d' % (pref + page_id, y, m)

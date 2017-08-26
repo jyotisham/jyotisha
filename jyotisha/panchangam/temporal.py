@@ -1,12 +1,12 @@
+import logging
 import swisseph as swe
 import sys
 from math import floor
 
 from scipy.optimize import brentq
 
+from jyotisha.custom_transliteration import revjul, tr
 from jyotisha.names.init_names_auto import init_names_auto
-from jyotisha.panchangam.custom_transliteration import revjul, tr
-import logging
 
 logging.basicConfig(
     level=logging.DEBUG,

@@ -1,14 +1,14 @@
 #!/usr/bin/python3
 #  -*- coding: utf-8 -*-
 
+import logging
 import swisseph as swe
 from math import floor
 
 from scipy.optimize import brentq
 
-from jyotisha.panchangam.custom_transliteration import sexastr2deci
+from jyotisha.custom_transliteration import sexastr2deci
 from jyotisha.panchangam.temporal import get_angam_float, get_angam, SOLAR_MONTH
-import logging
 
 logging.basicConfig(
   level=logging.DEBUG,
