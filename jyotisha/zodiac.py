@@ -29,7 +29,12 @@ class NakshatraDivision(object):
   def __str__(self):
     return str(self.__dict__)
 
+  # def get_boundary_longitudes(self):
+  #   map(lambda longitude: , self.right_boundaries.tolist(), xyz)
+
 
 if __name__ == '__main__':
   lahiri_nakshatra_division = NakshatraDivision(julday=swe.julday(2017,8,3))
   logging.info(lahiri_nakshatra_division)
+  #  input: long., lat., dist., tilt of the ecliptic.
+  logging.debug(swe.cotrans(lon=200, lat=-90, dist=9999999, obliquity=23.437404))
