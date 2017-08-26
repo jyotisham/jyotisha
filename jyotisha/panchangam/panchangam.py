@@ -7,6 +7,7 @@ import json
 from datetime import datetime, date, timedelta
 from math import floor
 
+import os
 from indic_transliteration import sanscript
 from pytz import timezone as tz
 from icalendar import Calendar, Event, Alarm
@@ -15,6 +16,9 @@ import jyotisha.panchangam.custom_transliteration
 import jyotisha.panchangam.temporal
 from jyotisha.panchangam import spatio_temporal
 import swisseph as swe
+
+
+CODE_ROOT = os.path.dirname(os.path.dirname(__file__))
 
 
 # from festival_rules import festival_rules
@@ -936,7 +940,7 @@ class Panchangam(object):
                 if any(x == 17 for x in [self.nakshatram_sunrise[d]]):
                     self.addFestival('budhAnUrAdhA~puNyakAlam', d, debugFestivals)
 
-            with open('festival_rules.json') as festivals_data:
+            with open(os.path.join(CODE_ROOT, 'panchangam/data/festival_rules.json')) as festivals_data:
                 festival_rules = json.load(festivals_data)
 
             for festival_name in festival_rules:
@@ -1731,7 +1735,7 @@ class Panchangam(object):
         print('\end{document}')
 
     def computeIcsCalendar(self):
-        with open('festival_rules.json') as festivals_data:
+        with open(os.path.join(CODE_ROOT, 'panchangam/data/festival_rules.json')) as festivals_data:
             festival_rules = json.load(festivals_data)
 
         self.ics_calendar = Calendar()

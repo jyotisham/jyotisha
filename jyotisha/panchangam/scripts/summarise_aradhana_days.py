@@ -2,16 +2,23 @@
 #  -*- coding: utf-8 -*-
 import json
 from collections import OrderedDict
-from init_names_auto import init_names_auto
-from transliterator import transliterate as tr
+
+import os
+
+from indic_transliteration import sanscript
+
+from jyotisha.names.init_names_auto import init_names_auto
+
+
+CODE_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
 
 if __name__ == '__main__':
     NAMES = init_names_auto()
-    with open('kanchi_aradhana_rules.json') as aradhana_data:
+    with open(os.path.join(CODE_ROOT, 'panchangam/data/kanchi_aradhana_rules.json')) as aradhana_data:
         aradhana_rules = json.load(aradhana_data, object_pairs_hook=OrderedDict)
 
-    for script in ['devanagari', 'iast']:
-        with open('../docs/kanchi_aradhana_days_%s.md' % script, 'w') as f:
+    for script in [sanscript.DEVANAGARI, sanscript.IAST]:
+        with open(os.path.join(CODE_ROOT, 'kanchi_aradhana_days_%s.md' % script), 'w') as f:
             f.write('## Sri Kanchi Matham Guru Aaradhana Days\n\n')
             f.write('(obtained from [kamakoti.org](http://kamakoti.org/peeth/origin.html#appendix2), ')
             f.write('and corrected using [@kamakoti twitter feed](https://twitter.com/kamakoti)!)\n\n')
@@ -34,5 +41,5 @@ if __name__ == '__main__':
                 elif aradhana_rules[guru]['Month Type'] == 'solar_month':
                     month_name = NAMES['MASA'][script][aradhana_rules[guru]['Month Number']]
                 f.write('| %s | %s | %s | %s | %s | %s |\n' %
-                        (num, str(tr(name, 'harvardkyoto', script), 'utf8').title(),
+                        (num, sanscript.transliterate(name, sanscript.HK, script).title(),
                          kali_year, year_name, month_name, tithi.replace('~', ' ')))
