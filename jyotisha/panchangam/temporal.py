@@ -478,7 +478,7 @@ def get_kalas(start_span, end_span, part_start, num_parts):
 
 if __name__ == '__main__':
   # time = swe.utc_to_jd(year=1982, month=2, day=18, hour=11, minutes=10, seconds=0, flag=1)[0]
-  time = swe.utc_to_jd(year=2016, month=9, day=17, hour=15, minutes=16, seconds=0, flag=1)[0]
+  time = swe.utc_to_jd(year=2015, month=9, day=17, hour=15, minutes=16, seconds=0, flag=1)[0]
   # time = swe.utc_to_jd(year=1986, month=8, day=24, hour=11, minutes=54, seconds=0, flag=1)[0]
   logging.info(time)
   print_angas_x_ayanamshas(jd=time)

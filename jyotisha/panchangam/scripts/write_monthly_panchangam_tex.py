@@ -18,6 +18,8 @@ logging.basicConfig(
 
 
 
+CODE_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
+
 def main():
     [city_name, latitude, longitude, tz] = sys.argv[1:5]
     year = int(sys.argv[5])
@@ -29,8 +31,8 @@ def main():
 
     city = City(city_name, latitude, longitude, tz)
 
-    fname_det = '../precomputed/%s-%s-detailed.pickle' % (city_name, year)
-    fname = '../precomputed/%s-%s.pickle' % (city_name, year)
+    fname_det = os.path.join(CODE_ROOT, 'data/precomputed/%s-%s-detailed.pickle' % (city_name, year))
+    fname = os.path.join(CODE_ROOT, 'data/precomputed/%s-%s.pickle' % (city_name, year))
 
     if os.path.isfile(fname):
         # Load pickle, do not compute!
