@@ -1042,13 +1042,13 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "chatrapati-zivAjI-rAjyAbhiSEkam": {
+  "chatrapati-zivAjI-rAjyAbhiSEkaH": {
     "Month Type": "lunar_month",
     "Month Number": 3,
     "Angam Type": "tithi",
     "Angam Number": 13,
     "Tags": "mahapurusha-events",
-    "URL": "chhatrapati-shivaji-rajyabhishekam",
+    "URL": "chhatrapati-shivaji-rajyabhiSEkaH",
     "Short Description": "",
     "Shloka": "",
     "Other Names": "",
@@ -1893,13 +1893,13 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "zrIkRSNadEvarAya-rAjyAbhiSEkam": {
+  "zrIkRSNadEvarAya-rAjyAbhiSEkaH": {
     "Month Type": "lunar_month",
     "Month Number": 5,
     "Angam Type": "tithi",
     "Angam Number": 23,
     "Tags": "mahapurusha-events",
-    "URL": "shrikrishnadevaraya-rajyabhishekam",
+    "URL": "shrikrishnadevaraya-rajyabhiSEkaH",
     "Short Description": "",
     "Shloka": "",
     "Other Names": "",
@@ -3807,13 +3807,13 @@
     "Primary Reference": "Vrata Chudamani",
     "Comments": ""
   },
-  "vikramAditya-paTTAbhiSEkam": {
+  "vikramAditya-paTTAbhiSEkaH": {
     "Month Type": "lunar_month",
     "Month Number": 7,
     "Angam Type": "tithi",
     "Angam Number": 30,
     "Tags": "mahapurusha-events",
-    "URL": "vikramaditya-pattabhishekam",
+    "URL": "vikramaditya-pattabhiSEkaH",
     "Short Description": "",
     "Shloka": "",
     "Other Names": "",
@@ -3822,13 +3822,13 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "rAma-paTTAbhiSEkam": {
+  "rAma-paTTAbhiSEkaH": {
     "Month Type": "lunar_month",
     "Month Number": 7,
     "Angam Type": "tithi",
     "Angam Number": 30,
     "Tags": "purana-events",
-    "URL": "rama-pattabhishekam",
+    "URL": "rama-pattabhiSEkaH",
     "Short Description": "",
     "Shloka": "",
     "Other Names": "",
@@ -6216,7 +6216,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "mahA-annAbhiSEkam": {
+  "mahA-annAbhiSEkaH": {
     "Month Type": "solar_month",
     "Month Number": 7,
     "Angam Type": "tithi",
@@ -6224,7 +6224,7 @@
     "kala": "sunset",
     "priority": "purvaviddha",
     "Tags": "tamilnadu-temple-festivals,common-festivals",
-    "URL": "maha-annabhishekam",
+    "URL": "maha-annabhiSEkaH",
     "Short Description": "",
     "Shloka": "",
     "Other Names": "",
@@ -6483,13 +6483,13 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "ta:ArudrA-darican2am/naTarAjar mahAbhiSEkam": {
+  "ta:ArudrA-darican2am/naTarAjar mahAbhiSEkaH": {
     "Month Type": "solar_month",
     "Month Number": 9,
     "Angam Type": "nakshatram",
     "Angam Number": 6,
     "Tags": "tamilnadu-temple-festivals,common-festivals",
-    "URL": "arudra-darisanam-natarajar-mahabhishekam",
+    "URL": "arudra-darisanam-natarajar-mahabhiSEkaH",
     "Short Description": "Visit Chidambaram to have darshan of Nataraja, or pray to Nataraja",
     "Shloka": "kRpAsamudram sumukhaM trinEtraM sadAzivaM rudramanantarUpam .\njaTAdharaM pArvativAmabhAgaM cidambarEzaM hRdi bhAvayAmi ..",
     "Other Names": "",
@@ -7272,13 +7272,13 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "ta:naTarAjar cittirai ONam mahAbhiSEkam": {
+  "ta:naTarAjar cittirai ONam mahAbhiSEkaH": {
     "Month Type": "solar_month",
     "Month Number": 1,
     "Angam Type": "nakshatram",
     "Angam Number": 22,
     "Tags": "tamilnadu-temple-festivals",
-    "URL": "natarajar-chittirai-onam-mahabhishekam",
+    "URL": "natarajar-chittirai-onam-mahabhiSEkaH",
     "Short Description": "",
     "Shloka": "",
     "Other Names": "",
@@ -7287,13 +7287,13 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "ta:naTarAjar mahAbhiSEkam-2": {
+  "ta:naTarAjar mahAbhiSEkaH-2": {
     "Month Type": "solar_month",
     "Month Number": 5,
     "Angam Type": "tithi",
     "Angam Number": 14,
     "Tags": "tamilnadu-temple-festivals",
-    "URL": "natarajar-mahabhishekam",
+    "URL": "natarajar-mahabhiSEkaH",
     "Short Description": "",
     "Shloka": "",
     "Other Names": "",
@@ -7302,13 +7302,13 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "ta:naTarAjar mahAbhiSEkam-3": {
+  "ta:naTarAjar mahAbhiSEkaH-3": {
     "Month Type": "solar_month",
     "Month Number": 6,
     "Angam Type": "tithi",
     "Angam Number": 14,
     "Tags": "tamilnadu-temple-festivals",
-    "URL": "natarajar-mahabhishekam",
+    "URL": "natarajar-mahabhiSEkaH",
     "Short Description": "",
     "Shloka": "",
     "Other Names": "",
@@ -7317,13 +7317,13 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "ta:naTarAjar mahAbhiSEkam-6": {
+  "ta:naTarAjar mahAbhiSEkaH-6": {
     "Month Type": "solar_month",
     "Month Number": 11,
     "Angam Type": "tithi",
     "Angam Number": 14,
     "Tags": "tamilnadu-temple-festivals",
-    "URL": "natarajar-mahabhishekam",
+    "URL": "natarajar-mahabhiSEkaH",
     "Short Description": "",
     "Shloka": "",
     "Other Names": "",
