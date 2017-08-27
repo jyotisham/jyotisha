@@ -5,6 +5,7 @@ import logging
 import swisseph as swe
 from math import floor
 
+from sanskrit_data.schema.common import JsonObject
 from scipy.optimize import brentq
 
 from jyotisha.custom_transliteration import sexastr2deci
@@ -20,7 +21,7 @@ logging.basicConfig(
 # next new/full moon from current one is at least 27.3 days away
 
 
-class City(object):
+class City(JsonObject):
 
     """This class enables the construction of a city object
     """
