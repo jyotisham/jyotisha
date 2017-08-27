@@ -59,13 +59,13 @@ def main():
         except EnvironmentError:
             logging.warning("Not able to save.")
 
-    Panchangam.computeFestivals()
-    Panchangam.computeSolarEclipses()
-    Panchangam.computeLunarEclipses()
+    panchangam.computeFestivals()
+    panchangam.computeSolarEclipses()
+    panchangam.computeLunarEclipses()
 
     monthly_template_file = open(os.path.join(CODE_ROOT, 'panchangam/data/templates/monthly_cal_template.tex'))
-    Panchangam.writeMonthlyTeX(monthly_template_file)
-    # Panchangam.writeDebugLog()
+    panchangam.writeMonthlyTeX(monthly_template_file)
+    # panchangam.writeDebugLog()
 
 
 if __name__ == '__main__':

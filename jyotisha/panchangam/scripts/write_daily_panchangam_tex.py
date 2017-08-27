@@ -65,8 +65,8 @@ def main():
     panchangam.computeLunarEclipses()
 
     daily_template_file = open(os.path.join(CODE_ROOT, 'panchangam/data/templates/daily_cal_template.tex'))
-    Panchangam.writeDailyTeX(daily_template_file, computeLagnams)
-    # Panchangam.writeDebugLog()
+    panchangam.writeDailyTeX(daily_template_file, computeLagnams)
+    # panchangam.writeDebugLog()
 
 
 if __name__ == '__main__':

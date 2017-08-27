@@ -61,12 +61,12 @@ def main():
         except EnvironmentError:
             logging.warning("Not able to save.")
 
-    Panchangam.computeFestivals()
-    Panchangam.computeSolarEclipses()
-    Panchangam.computeLunarEclipses()
+    panchangam.computeFestivals()
+    panchangam.computeSolarEclipses()
+    panchangam.computeLunarEclipses()
 
-    Panchangam.computeIcsCalendar()
-    Panchangam.writeIcsCalendar('%s-%d-%s.ics' % (city_name, year, script))
+    panchangam.computeIcsCalendar()
+    panchangam.writeIcsCalendar('%s-%d-%s.ics' % (city_name, year, script))
 
 
 if __name__ == '__main__':
