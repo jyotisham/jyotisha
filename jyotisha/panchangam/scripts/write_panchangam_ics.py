@@ -34,8 +34,8 @@ def main():
 
     panchangam = Panchangam(city=city, year=year, script=script)
 
-    fname_det = '~/Documents/%s-%s-detailed.json' % (city_name, year)
-    fname = '~/Documents/%s-%s.json' % (city_name, year)
+    fname_det = os.path.expanduser('~/Documents/%s-%s-detailed.json' % (city_name, year))
+    fname = os.path.expanduser('~/Documents/%s-%s.json' % (city_name, year))
 
     if os.path.isfile(fname):
         # Load pickle, do not compute!
