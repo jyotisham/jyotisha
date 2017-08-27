@@ -3,13 +3,13 @@ import swisseph as swe
 import sys
 from math import floor
 
+from sanskrit_data.schema import common
 from sanskrit_data.schema.common import JsonObject
 from scipy.optimize import brentq
 
 from jyotisha import names
 from jyotisha.custom_transliteration import revjul, tr
 from jyotisha.names.init_names_auto import init_names_auto
-from sanskrit_data.schema import common
 
 logging.basicConfig(
     level=logging.DEBUG,
