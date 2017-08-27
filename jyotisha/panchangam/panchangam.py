@@ -1943,9 +1943,9 @@ class Panchangam(object):
                             else:
                                 sys.stderr.write('No description found for festival %s!\n' % ekad)
                             desc += '\n' + BASE_URL + page_id
-                            pref = jyotisha.custom_transliteration.romanise(str(sanscript.transliterate(
+                            pref = jyotisha.custom_transliteration.romanise(sanscript.transliterate(
                                                 stext.split('~')[0],
-                                                sanscript.HK, sanscript.IAST), 'utf8')) + "-"
+                                                sanscript.HK, sanscript.IAST)) + "-"
                             uid = '%s-%d-%02d' % (pref + page_id, y, m)
                         # print(page_id)
                         event.add_component(alarm)
