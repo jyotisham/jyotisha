@@ -6,6 +6,7 @@ import pickle
 import sys
 
 from indic_transliteration import sanscript
+from sanskrit_data.schema.common import JsonObject
 
 from jyotisha.panchangam.panchangam import Panchangam
 from jyotisha.panchangam.spatio_temporal import City
@@ -31,18 +32,15 @@ def main():
 
     city = City(city_name, latitude, longitude, tz)
 
-    fname_det = os.path.join(CODE_ROOT, 'panchangam/data/precomputed/%s-%s-detailed.pickle' % (city_name, year))
-    fname = os.path.join(CODE_ROOT, 'panchangam/data/precomputed/%s-%s.pickle' % (city_name, year))
+    fname_det = os.path.join(CODE_ROOT, '~/Documents/%s-%s-detailed.json' % (city_name, year))
+    fname = os.path.join(CODE_ROOT, '~/Documents/%s-%s.json' % (city_name, year))
 
     if os.path.isfile(fname):
-        # Load pickle, do not compute!
-        with open(fname, 'rb') as f:
-            panchangam = pickle.load(f)
+        panchangam = JsonObject.read_from_file(filename=fname)
         sys.stderr.write('Loaded pre-computed panchangam from %s.\n' % fname)
     elif os.path.isfile(fname_det):
         # Load pickle, do not compute!
-        with open(fname_det, 'rb') as f:
-            panchangam = pickle.load(f)
+        panchangam = JsonObject.read_from_file(filename=fname_det)
         sys.stderr.write('Loaded pre-computed panchangam from %s.\n' % fname)
     else:
         sys.stderr.write('No precomputed data available. Computing panchangam... ')
@@ -53,9 +51,7 @@ def main():
         sys.stderr.write('done.\n')
         sys.stderr.write('Writing computed panchangam to %s...' % fname)
         try:
-            with open(fname, 'wb') as f:
-                # Pickle the 'data' dictionary using the highest protocol available.
-                pickle.dump(panchangam, f, pickle.HIGHEST_PROTOCOL)
+            panchangam.dump_to_file(filename=fname)
         except EnvironmentError:
             logging.warning("Not able to save.")
 

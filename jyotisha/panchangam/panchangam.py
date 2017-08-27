@@ -12,6 +12,7 @@ from math import floor
 from icalendar import Calendar, Event, Alarm
 from indic_transliteration import sanscript
 from pytz import timezone as tz
+from sanskrit_data.schema import common
 
 import jyotisha.custom_transliteration
 import jyotisha.panchangam.temporal
@@ -30,7 +31,7 @@ CODE_ROOT = os.path.dirname(os.path.dirname(__file__))
 # from festival_rules import festival_rules
 
 
-class Panchangam(object):
+class Panchangam(common.JsonObject):
 
     """This class enables the construction of a panchangam
     """
@@ -1984,6 +1985,11 @@ class Panchangam(object):
                                                                                    jyotisha.panchangam.temporal.TITHI, ayanamsha_id=self.ayanamsha_id),
                                       self.solar_month[d], self.lunar_month[d])
             log_file.write(log_data)
+
+
+# Essential for depickling to work.
+common.update_json_class_index(sys.modules[__name__])
+logging.debug(common.json_class_index)
 
 
 if __name__ == '__main__':

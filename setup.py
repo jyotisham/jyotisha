@@ -83,6 +83,7 @@ setup(
   install_requires=[
     'pyswisseph',
     'scipy', 'pandas',
+    'sanskrit_data',
     'indic_transliteration',
     'icalendar',
     'pytz',
@@ -101,7 +102,7 @@ setup(
   # installed, specify them here.  If using Python 2.6 or less, then these
   # have to be included in MANIFEST.in as well.
   package_data={
-      'jyotisha': ['names/data/*', "panchangam/data/*", "panchangam/data/precomputed/*", "panchangam/data/templates/*"],
+      'jyotisha': ['names/data/*', "panchangam/data/*", "panchangam/data/templates/*"],
   },
 
   # Although 'package_data' is the preferred approach, in some case you may
