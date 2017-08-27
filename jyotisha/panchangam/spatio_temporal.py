@@ -8,6 +8,7 @@ from math import floor
 from sanskrit_data.schema.common import JsonObject
 from scipy.optimize import brentq
 
+from sanskrit_data.schema import common
 from jyotisha.custom_transliteration import sexastr2deci
 from jyotisha.panchangam.temporal import get_angam_float, get_angam, SOLAR_MONTH
 
@@ -162,4 +163,8 @@ def get_solar_month_day(jd_start, city, ayanamsha_id=swe.SIDM_LAHIRI):
 
     return (solar_month, solar_month_day)
 
+
+# Essential for depickling to work.
+common.update_json_class_index(sys.modules[__name__])
+logging.debug(common.json_class_index)
 
