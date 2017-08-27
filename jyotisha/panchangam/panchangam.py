@@ -1052,7 +1052,7 @@ class Panchangam(object):
                         festival_name += '~\\#{%d}' % fest_num
 
                     if angam_sunrise[d] == angam_num - 1 or angam_sunrise[d] == angam_num:
-                        angams = self.get_angams_for_kalas(d, get_angam_func, kala, ayanamsha_id=self.ayanamsha_id)
+                        angams = self.get_angams_for_kalas(d, get_angam_func, kala)
                         if angams is None:
                             sys.stderr.write('No angams returned! Skipping festival %s'
                                              % festival_name)
