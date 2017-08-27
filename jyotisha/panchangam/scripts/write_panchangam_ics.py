@@ -54,9 +54,12 @@ def main():
         panchangam.assignLunarMonths()
         sys.stderr.write('done.\n')
         sys.stderr.write('Writing computed panchangam to %s...' % fname)
-        with open(fname, 'wb') as f:
-            # Pickle the 'data' dictionary using the highest protocol available.
-            pickle.dump(panchangam, f, pickle.HIGHEST_PROTOCOL)
+        try:
+            with open(fname, 'wb') as f:
+                # Pickle the 'data' dictionary using the highest protocol available.
+                pickle.dump(panchangam, f, pickle.HIGHEST_PROTOCOL)
+        except EnvironmentError:
+            logging.warning("Not able to save.")
 
     Panchangam.computeFestivals()
     Panchangam.computeSolarEclipses()
