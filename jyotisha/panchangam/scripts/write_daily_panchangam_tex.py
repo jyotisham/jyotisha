@@ -34,7 +34,7 @@ def main():
 
     city = City(city_name, latitude, longitude, tz)
 
-    panchangam = scripts.get_panchangam()
+    panchangam = scripts.get_panchangam(city=city, year=year, script=script)
 
     panchangam.computeFestivals()
     panchangam.computeSolarEclipses()

@@ -14,9 +14,9 @@ logging.basicConfig(
 )
 
 
-def get_panchangam():
-  fname_det = os.path.expanduser('~/Documents/%s-%s-detailed.json' % (city_name, year))
-  fname = os.path.expanduser('~/Documents/%s-%s.json' % (city_name, year))
+def get_panchangam(city, year, script):
+  fname_det = os.path.expanduser('~/Documents/%s-%s-detailed.json' % (city.name, year))
+  fname = os.path.expanduser('~/Documents/%s-%s.json' % (city.name, year))
 
   if os.path.isfile(fname):
     sys.stderr.write('Loaded pre-computed panchangam from %s.\n' % fname)

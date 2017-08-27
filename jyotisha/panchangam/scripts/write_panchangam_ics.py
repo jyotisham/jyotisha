@@ -36,7 +36,7 @@ def main():
     fname_det = os.path.expanduser('~/Documents/%s-%s-detailed.json' % (city_name, year))
     fname = os.path.expanduser('~/Documents/%s-%s.json' % (city_name, year))
 
-    panchangam = scripts.get_panchangam()
+    panchangam = scripts.get_panchangam(city=city, year=year, script=script)
 
 
     panchangam.computeFestivals()
