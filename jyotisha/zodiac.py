@@ -29,14 +29,7 @@ class NakshatraDivision(object):
     if julday > -1:
       self.set_time(julday=julday)
 
-    # This block yields wrong result. Unlike the return statement, it did not require files at /usr/local/share/swisseph.
-    logging.debug(swe.calc_ut(self.julday, body_id)[0])
-    logging.debug(swe.get_ayanamsa(self.julday))
-    logging.debug(swe.calc_ut(self.julday, body_id)[0] - swe.get_ayanamsa(self.julday))
-    logging.debug((swe.calc_ut(self.julday, body_id)[0] - swe.get_ayanamsa(self.julday)) % 360)
-    logging.debug(((swe.calc_ut(self.julday, body_id)[0] - swe.get_ayanamsa(self.julday)) % 360) / (360.0/27.0))
-
-    return (temporal.get_angam_float(julday,temporal.NAKSHATRAM, debug=True))
+    return (((swe.calc_ut(self.julday, body_id)[0] - swe.get_ayanamsa(self.julday)) % 360) / (360.0/27.0))
 
   def __str__(self):
     return str(self.__dict__)
