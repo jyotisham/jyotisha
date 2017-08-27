@@ -2,6 +2,8 @@ import swisseph as swe
 import numpy
 import logging
 
+from jyotisha.panchangam import temporal
+
 from jyotisha import custom_transliteration
 
 logging.basicConfig(
@@ -21,12 +23,20 @@ class NakshatraDivision(object):
 
   def set_time(self, julday):
     self.julday = julday
-    self.right_boundaries = ((numpy.arange(27) + 1) * (360/27) + swe.get_ayanamsa(julday)) % 360
+    self.right_boundaries = ((numpy.arange(27) + 1) * (360.0/27.0) + swe.get_ayanamsa(julday)) % 360
 
   def get_nakshatra(self, body_id, julday=-1):
     if julday > -1:
       self.set_time(julday=julday)
-    return (swe.calc_ut(self.julday, body_id)[0] - swe.get_ayanamsa(self.julday)) % 360
+
+    # This block yields wrong result. Unlike the return statement, it did not require files at /usr/local/share/swisseph.
+    logging.debug(swe.calc_ut(self.julday, body_id)[0])
+    logging.debug(swe.get_ayanamsa(self.julday))
+    logging.debug(swe.calc_ut(self.julday, body_id)[0] - swe.get_ayanamsa(self.julday))
+    logging.debug((swe.calc_ut(self.julday, body_id)[0] - swe.get_ayanamsa(self.julday)) % 360)
+    logging.debug(((swe.calc_ut(self.julday, body_id)[0] - swe.get_ayanamsa(self.julday)) % 360) / (360.0/27.0))
+
+    return (temporal.get_angam_float(julday,temporal.NAKSHATRAM, debug=True))
 
   def __str__(self):
     return str(self.__dict__)
@@ -42,7 +52,7 @@ class NakshatraDivision(object):
     equatorial_boundary_coordinates_with_ra = self.get_equatorial_boundary_coordinates()
     ecliptic_north_pole = swe.cotrans(lon=20, lat=90, dist=9999999, obliquity=23.437404)
     ecliptic_north_pole_with_ra = (custom_transliteration.longitudeToRightAscension(ecliptic_north_pole[0]), ecliptic_north_pole[1])
-    logging.debug(ecliptic_north_pole_with_ra)
+    # logging.debug(ecliptic_north_pole_with_ra)
     ecliptic_south_pole = swe.cotrans(lon=20, lat=-90, dist=9999999, obliquity=23.437404)
     ecliptic_south_pole_with_ra = (custom_transliteration.longitudeToRightAscension(ecliptic_south_pole[0]), ecliptic_south_pole[1])
     # logging.debug(ecliptic_south_pole_with_ra)
@@ -62,6 +72,8 @@ class NakshatraDivision(object):
 
 if __name__ == '__main__':
   lahiri_nakshatra_division = NakshatraDivision(julday=swe.julday(2017,8,3))
+  # lahiri_nakshatra_division = NakshatraDivision(julday=swe.julday(1982,2,19,11))
+  logging.info(lahiri_nakshatra_division.get_nakshatra(body_id=swe.MOON))
   # logging.info(lahiri_nakshatra_division)
   # logging.debug(swe.cotrans(lon=20, lat=-90, dist=9999999, obliquity=23.437404))
   lahiri_nakshatra_division.get_stellarium_nakshatra_boundaries()

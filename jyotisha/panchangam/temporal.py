@@ -132,29 +132,33 @@ def get_angam_float(jd, angam_type, offset=0, ayanamsha_id=swe.SIDM_LAHIRI, debu
 
     lcalc = 0  # computing weighted longitudes
     if debug:
-        print('## get_angam_float(): jd=', jd)
+        logging.debug('## get_angam_float(): jd=%f', jd)
+        logging.debug("Ayanamsha: %f", swe.get_ayanamsa(jd))
 
+    #  Get the lunar longitude, starting at the ayanaamsha point in the ecliptic.
     if w_moon != 0:
         lmoon = (swe.calc_ut(jd, swe.MOON)[0] - swe.get_ayanamsa(jd)) % 360
-        if(debug):
-            print('## get_angam_float(): lmoon=', lmoon)
+        if (debug):
+            logging.debug("Moon longitude: %f", swe.calc_ut(jd, swe.MOON)[0])
+            logging.debug('## get_angam_float(): lmoon=%f', lmoon)
         lcalc += w_moon * lmoon
 
+    #  Get the solar longitude, starting at the ayanaamsha point in the ecliptic.
     if w_sun != 0:
         lsun = (swe.calc_ut(jd, swe.SUN)[0] - swe.get_ayanamsa(jd)) % 360
         if(debug):
-            print('## get_angam_float(): lsun=', lsun)
+            logging.debug('## get_angam_float(): lsun=%f', lsun)
         lcalc += w_sun * lsun
 
     if debug:
-        print('## get_angam_float(): lcalc=', lcalc)
+        logging.debug('## get_angam_float(): lcalc=%f', lcalc)
 
     lcalc = lcalc % 360
 
     if debug:
-        print('## get_angam_float(): lcalc%360=', lcalc)
-        print("offset: ", offset)
-        print(offset + int(360.0 / arc_len))
+        logging.debug('## get_angam_float(): lcalc %% 360=%f', lcalc)
+        logging.debug("offset: %f", offset)
+        logging.debug(offset + int(360.0 / arc_len))
     if offset + int(360.0 / arc_len) == 0 and lcalc + offset >= 0:
         return (lcalc / arc_len)
     else:
