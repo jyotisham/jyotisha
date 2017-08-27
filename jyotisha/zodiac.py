@@ -25,8 +25,8 @@ class NakshatraDivision(object):
     self.julday = julday
     self.right_boundaries = ((numpy.arange(27) + 1) * (360.0/27.0) + swe.get_ayanamsa(julday)) % 360
 
-  def get_nakshatra(self, body_id, julday=-1):
-    if julday > -1:
+  def get_nakshatra(self, body_id, julday=None):
+    if julday is not None:
       self.set_time(julday=julday)
 
     return (((swe.calc_ut(self.julday, body_id)[0] - swe.get_ayanamsa(self.julday)) % 360) / (360.0/27.0))
@@ -64,8 +64,8 @@ class NakshatraDivision(object):
 
 
 if __name__ == '__main__':
-  lahiri_nakshatra_division = NakshatraDivision(julday=swe.julday(2017,8,3))
-  # lahiri_nakshatra_division = NakshatraDivision(julday=swe.julday(1982,2,19,11))
+  # lahiri_nakshatra_division = NakshatraDivision(julday=swe.julday(2017,8,3))
+  lahiri_nakshatra_division = NakshatraDivision(julday=swe.julday(1982,2,19,11))
   logging.info(lahiri_nakshatra_division.get_nakshatra(body_id=swe.MOON))
   # logging.info(lahiri_nakshatra_division)
   # logging.debug(swe.cotrans(lon=20, lat=-90, dist=9999999, obliquity=23.437404))
