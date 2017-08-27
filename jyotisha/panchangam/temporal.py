@@ -5,6 +5,7 @@ from math import floor
 
 from scipy.optimize import brentq
 
+from jyotisha import names
 from jyotisha.custom_transliteration import revjul, tr
 from jyotisha.names.init_names_auto import init_names_auto
 
@@ -19,15 +20,15 @@ NAMES = init_names_auto()
 MAX_DAYS_PER_YEAR = 366
 MAX_SZ = MAX_DAYS_PER_YEAR + 3  # plus one and minus one are usually necessary
 MIN_DAYS_NEXT_ECLIPSE = 25
-TITHI          = {'arc_len': 360.0 / 30.0,  'w_moon': 1, 'w_sun': -1}
-TITHI_PADA     = {'arc_len': 360.0 / 120.0, 'w_moon': 1, 'w_sun': -1}
-NAKSHATRAM     = {'arc_len': 360.0 / 27.0,  'w_moon': 1, 'w_sun':  0}
-NAKSHATRA_PADA = {'arc_len': 360.0 / 108.0, 'w_moon': 1, 'w_sun':  0}
-RASHI          = {'arc_len': 360.0 / 12.0,  'w_moon': 1, 'w_sun':  0}
-YOGAM          = {'arc_len': 360.0 / 27.0,  'w_moon': 1, 'w_sun':  1}
-KARANAM        = {'arc_len': 360.0 / 60.0,  'w_moon': 1, 'w_sun': -1}
-SOLAR_MONTH    = {'arc_len': 360.0 / 12.0,  'w_moon': 0, 'w_sun':  1}
-SOLAR_NAKSH    = {'arc_len': 360.0 / 27.0,  'w_moon': 0, 'w_sun':  1}
+TITHI = {'id': 'TITHI', 'arc_len': 360.0 / 30.0,  'w_moon': 1, 'w_sun': -1}
+TITHI_PADA = {'id': 'TITHI_PADA', 'arc_len': 360.0 / 120.0, 'w_moon': 1, 'w_sun': -1}
+NAKSHATRAM = {'id': 'NAKSHATRAM', 'arc_len': 360.0 / 27.0,  'w_moon': 1, 'w_sun':  0}
+NAKSHATRA_PADA = {'id': 'NAKSHATRA_PADA', 'arc_len': 360.0 / 108.0, 'w_moon': 1, 'w_sun':  0}
+RASHI = {'id': 'RASHI', 'arc_len': 360.0 / 12.0,  'w_moon': 1, 'w_sun':  0}
+YOGAM = {'id': 'YOGAM', 'arc_len': 360.0 / 27.0,  'w_moon': 1, 'w_sun':  1}
+KARANAM = {'id': 'KARANAM', 'arc_len': 360.0 / 60.0,  'w_moon': 1, 'w_sun': -1}
+SOLAR_MONTH = {'id': 'SOLAR_MONTH', 'arc_len': 360.0 / 12.0,  'w_moon': 0, 'w_sun':  1}
+SOLAR_NAKSH = {'id': 'SOLAR_NAKSH', 'arc_len': 360.0 / 27.0,  'w_moon': 0, 'w_sun':  1}
 
 
 class Time(object):
@@ -212,6 +213,28 @@ def get_angam(jd, angam_type, ayanamsha_id=swe.SIDM_LAHIRI):
     swe.set_sid_mode(ayanamsha_id)
 
     return int(1 + floor(get_angam_float(jd, angam_type, ayanamsha_id=ayanamsha_id)))
+
+
+def get_all_angas(jd, ayanamsha_id=swe.SIDM_LAHIRI):
+  anga_objects = [TITHI, TITHI_PADA, NAKSHATRAM, NAKSHATRA_PADA, RASHI, SOLAR_MONTH, SOLAR_NAKSH, YOGAM, KARANAM]
+  angas = list(map(lambda anga_object: get_angam(jd=jd, angam_type=anga_object, ayanamsha_id=ayanamsha_id), anga_objects))
+  anga_ids = list(map(lambda anga_obj: anga_obj["id"], anga_objects))
+  return dict(list(zip(anga_ids, angas)))
+
+
+def get_all_angas_x_ayanamshas(jd):
+  # swe.SIDM_TRUE_REVATI leads to a segfault.
+  ayanamshas = [swe.SIDM_LAHIRI, swe.SIDM_ARYABHATA, swe.SIDM_ARYABHATA_MSUN, swe.SIDM_KRISHNAMURTI, swe.SIDM_JN_BHASIN, swe.SIDM_RAMAN, swe.SIDM_SS_CITRA, swe.SIDM_SS_REVATI, swe.SIDM_SURYASIDDHANTA, swe.SIDM_SURYASIDDHANTA_MSUN, swe.SIDM_USHASHASHI, swe.SIDM_YUKTESHWAR, swe.SIDM_TRUE_CITRA, names.SIDM_TRUE_MULA, names.SIDM_TRUE_PUSHYA]
+
+  ayanamsha_names = list(map(lambda ayanamsha: names.get_ayanamsha_name(ayanamsha), ayanamshas))
+  return dict(zip(ayanamsha_names, map(lambda ayanamsha_id: get_all_angas(jd=jd, ayanamsha_id=ayanamsha_id), ayanamshas)))
+
+
+def print_angas_x_ayanamshas(jd):
+  anga_x_ayanamsha = get_all_angas_x_ayanamshas(jd=jd)
+  import pandas
+  angas_df = pandas.DataFrame(anga_x_ayanamsha)
+  print(angas_df.to_csv(sep="\t"))
 
 
 def get_angam_span(jd1, jd2, angam_type, target, ayanamsha_id=swe.SIDM_LAHIRI, debug=False):
@@ -451,3 +474,11 @@ def get_kalas(start_span, end_span, part_start, num_parts):
     end_time = start_span + (end_span - start_span) * end_fraction
 
     return (start_time, end_time)
+
+
+if __name__ == '__main__':
+  # time = swe.utc_to_jd(year=1982, month=2, day=19, hour=11, minutes=10, seconds=0, flag=1)[0]
+  # time = swe.utc_to_jd(year=2016, month=9, day=17, hour=3, minutes=16, seconds=0, flag=1)[0]
+  time = swe.utc_to_jd(year=1986, month=8, day=24, hour=11, minutes=54, seconds=0, flag=1)[0]
+  logging.info(time)
+  print_angas_x_ayanamshas(jd=time)

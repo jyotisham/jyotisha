@@ -64,8 +64,8 @@ class NakshatraDivision(object):
 
 
 if __name__ == '__main__':
-  # lahiri_nakshatra_division = NakshatraDivision(julday=swe.julday(2017,8,3))
-  lahiri_nakshatra_division = NakshatraDivision(julday=swe.julday(1982,2,19,11))
+  # lahiri_nakshatra_division = NakshatraDivision(julday=swe.utc_to_jd(year=2017, month=8, day=19, hour=11, minutes=10, seconds=0, flag=1)[0])
+  lahiri_nakshatra_division = NakshatraDivision(julday=swe.utc_to_jd(year=1982, month=2, day=19, hour=11, minutes=10, seconds=0, flag=1)[0])
   logging.info(lahiri_nakshatra_division.get_nakshatra(body_id=swe.MOON))
   # logging.info(lahiri_nakshatra_division)
   # logging.debug(swe.cotrans(lon=20, lat=-90, dist=9999999, obliquity=23.437404))
