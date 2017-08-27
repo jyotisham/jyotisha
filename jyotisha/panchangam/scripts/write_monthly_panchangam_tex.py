@@ -32,8 +32,8 @@ def main():
 
     city = City(city_name, latitude, longitude, tz)
 
-    fname_det = os.path.join(CODE_ROOT, '~/Documents/%s-%s-detailed.json' % (city_name, year))
-    fname = os.path.join(CODE_ROOT, '~/Documents/%s-%s.json' % (city_name, year))
+    fname_det = '~/Documents/%s-%s-detailed.json' % (city_name, year)
+    fname = '~/Documents/%s-%s.json' % (city_name, year)
 
     if os.path.isfile(fname):
         panchangam = JsonObject.read_from_file(filename=fname)

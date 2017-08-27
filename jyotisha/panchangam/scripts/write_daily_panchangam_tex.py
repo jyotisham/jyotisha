@@ -39,9 +39,9 @@ def main():
 
     if computeLagnams:
         # Includes lagna etc
-        fname = os.path.join(CODE_ROOT, '~/Documents/%s-%s-detailed.json' % (city_name, year))
+        fname = '~/Documents/%s-%s-detailed.json' % (city_name, year)
     else:
-        fname = os.path.join(CODE_ROOT, '~/Documents/%s-%s.json' % (city_name, year))
+        fname = '~/Documents/%s-%s.json' % (city_name, year)
 
     if os.path.isfile(fname):
         panchangam = JsonObject.read_from_file(filename=fname)
