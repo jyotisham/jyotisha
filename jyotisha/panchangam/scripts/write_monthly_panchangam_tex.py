@@ -60,7 +60,7 @@ def main():
     Panchangam.computeSolarEclipses()
     Panchangam.computeLunarEclipses()
 
-    monthly_template_file = open('../tex/templates/monthly_cal_template.tex')
+    monthly_template_file = open(os.path.join(CODE_ROOT, 'panchangam/data/templates/monthly_cal_template.tex'))
     Panchangam.writeMonthlyTeX(monthly_template_file)
     # Panchangam.writeDebugLog()
 
