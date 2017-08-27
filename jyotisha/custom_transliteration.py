@@ -83,19 +83,19 @@ def tr(text, scr, titled=True, fontize=False):
                 t = t[3:]
                 if fontize:
                     transliterated_text.append('\\tamil{%s}' % dn2tam(
-                        str(sanscript.transliterate(_text=t, _from=sanscript.HK, _to=scr), 'utf8').title()))
+                        sanscript.transliterate(data=t, _from=sanscript.HK, _to=scr).title()))
                 else:
                     transliterated_text.append(dn2tam(
-                        str(sanscript.transliterate(_text=t, _from=sanscript.HK, _to=scr), 'utf8').title()))
+                        sanscript.transliterate(data=t, _from=sanscript.HK, _to=scr).title()))
 
             else:
                 if t.find('RIGHTarrow') == -1:
                     transliterated_text.append(
-                        str(sanscript.transliterate(_text=t, _from=sanscript.HK, _to=scr), 'utf8').title())
+                        sanscript.transliterate(data=t, _from=sanscript.HK, _to=scr).title())
                 else:
                     [txt, t1, arrow, t2] = t.split('\\')
                     transliterated_text.append(
-                        '\\'.join([str(sanscript.transliterate(_text=txt, _from=sanscript.HK, _to=scr), 'utf8').title(),
+                        '\\'.join([sanscript.transliterate(data=txt, _from=sanscript.HK, _to=scr).title(),
                                    t1, arrow, t2]))
     else:
         for t in text_bits:
@@ -104,14 +104,14 @@ def tr(text, scr, titled=True, fontize=False):
                 # Force Tamil!
                 t = t[3:]
                 transliterated_text.append(dn2tam(
-                    str(sanscript.transliterate(_text=t, _from=sanscript.HK, _to=scr), 'utf8').title()))
+                    sanscript.transliterate(data=t, _from=sanscript.HK, _to=scr).title()))
             else:
                 if t.find('RIGHTarrow') == -1:
-                    transliterated_text.append(str(sanscript.transliterate(_text=t, _from=sanscript.HK, _to=scr), 'utf8'))
+                    transliterated_text.append(sanscript.transliterate(data=t, _from=sanscript.HK, _to=scr))
                 else:
                     [txt, t1, arrow, t2] = t.split('\\')
                     transliterated_text.append(
-                        '\\'.join([str(sanscript.transliterate(txt, _from=sanscript.HK, _to=scr), 'utf8'),
+                        '\\'.join([sanscript.transliterate(txt, _from=sanscript.HK, _to=scr),
                                    t1, arrow, t2]))
 
     return '|'.join(transliterated_text)
