@@ -36,9 +36,9 @@ def main():
 
     if computeLagnams:
         # Includes lagna etc
-        fname = os.path.join(CODE_ROOT, '../precomputed/%s-%s-detailed.pickle' % (city_name, year))
+        fname = os.path.join(CODE_ROOT, 'panchangam/data/precomputed/%s-%s-detailed.pickle' % (city_name, year))
     else:
-        fname = os.path.join(CODE_ROOT, '../precomputed/%s-%s.pickle' % (city_name, year))
+        fname = os.path.join(CODE_ROOT, 'panchangam/data/precomputed/%s-%s.pickle' % (city_name, year))
 
     if os.path.isfile(fname):
         # Load pickle, do not compute!

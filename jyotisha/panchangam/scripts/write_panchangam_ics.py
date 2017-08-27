@@ -33,8 +33,8 @@ def main():
 
     panchangam = Panchangam(city=city, year=year, script=script)
 
-    fname_det = os.path.join(CODE_ROOT, 'data/precomputed/%s-%s-detailed.pickle' % (city_name, year))
-    fname = os.path.join(CODE_ROOT, 'data/precomputed/%s-%s.pickle' % (city_name, year))
+    fname_det = os.path.join(CODE_ROOT, 'panchangam/data/precomputed/%s-%s-detailed.pickle' % (city_name, year))
+    fname = os.path.join(CODE_ROOT, 'panchangam/data/precomputed/%s-%s.pickle' % (city_name, year))
 
     if os.path.isfile(fname):
         # Load pickle, do not compute!
