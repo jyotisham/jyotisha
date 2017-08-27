@@ -1359,16 +1359,16 @@ class Panchangam(object):
                                       jyotisha.panchangam.temporal.NAMES['YEAR'][self.script][(samvatsara_id % 60) + 1])
 
         print('\\mbox{}')
-        print('{\\font\\x="Candara" at 60 pt\\x %d\\\\[0.5cm]}' % self.year)
+        print('{\\font\\x="Noto Sans UI" at 60 pt\\x %d\\\\[0.5cm]}' % self.year)
         print('\\mbox{\\font\\x="Noto Sans Devanagari" at 48 pt\\x %s}\\\\[0.5cm]' %
               samvatsara_names)
         print('\\mbox{\\font\\x="Noto Sans Devanagari" at 32 pt\\x %s } %%'
               % jyotisha.custom_transliteration.tr('kali', self.script))
-        print('{\\font\\x="Candara" at 32 pt\\x %d–%d\\\\[0.5cm]}'
+        print('{\\font\\x="Noto Sans UI" at 32 pt\\x %d–%d\\\\[0.5cm]}'
               % (self.year + 3100, self.year + 3101))
-        print('{\\font\\x="Candara" at 48 pt\\x \\uppercase{%s}\\\\[0.2cm]}' %
+        print('{\\font\\x="Noto Sans UI" at 48 pt\\x \\uppercase{%s}\\\\[0.2cm]}' %
               self.city.name)
-        print('{\\font\\x="Candara" at 16 pt\\x {%s}\\\\[0.5cm]}' %
+        print('{\\font\\x="Noto Sans UI" at 16 pt\\x {%s}\\\\[0.5cm]}' %
               jyotisha.custom_transliteration.print_lat_lon(self.city.latstr, self.city.lonstr))
         print('\hrule')
 

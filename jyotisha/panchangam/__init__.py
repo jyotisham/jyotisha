@@ -34,7 +34,7 @@ Dependencies
    PDFs; to generate the ICS alone, only Python 3 suffices
 -  Python: pyswisseph, SciPy, icalendar and pytz
 -  XeLaTeX / fontspec and a few other ‘regular’ packages
--  Fonts: Sanskrit 2003, Candara, Vijaya (for Tamil)
+-  Fonts: Sanskrit 2003, Noto Sans UI, Noto Sans Devanagari, Noto Sans Tamil
 
 Usage
 -----
