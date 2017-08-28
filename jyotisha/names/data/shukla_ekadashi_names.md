@@ -5,7 +5,7 @@
 |---| ---------- | -- | ---- |
 | 1 | कामदा | kAmadA | Kāmadā |
 | 2 | मोहिनी | mOhinI | Mohinī |
-| 3 | पाण्डव~निर्जला | pANDava~nirjalA | Pāṇḍava~Nirjalā |
+| 3 | पाण्डव-निर्जला | pANDava-nirjalA | Pāṇḍava-Nirjalā |
 | 4 | शयन | zayana | Śayana |
 | 5 | पवित्रोपान | pavitrOpAna | Pavitropāna |
 | 6 | परिवर्तिनी | parivartinI | Parivartinī |
