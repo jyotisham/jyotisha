@@ -483,14 +483,14 @@ class Panchangam(common.JsonObject):
 
                 fday = swe.julday(_y, _m, _d, 0) - self.jd_start + 1
                 self.festivals[int(fday)].append(
-                    'harivAsaraH~\\textsf{%s}{\\RIGHTarrow}\\textsf{%s}' % ('', hariv_end_time))
+                    'harivAsaraH-\\textsf{%s}{\\RIGHTarrow}\\textsf{%s}' % ('', hariv_end_time))
 
             # One of two consecutive tithis must appear @ sunrise!
             if self.tithi_sunrise[d] == 26 or self.tithi_sunrise[d] == 27:
                 # check for krishna ekadashi
                 if (self.tithi_sunrise[d] == 26 and self.tithi_sunrise[d + 1] == 26):
                     self.festivals[d + 1].append(
-                        'sarva~' + jyotisha.panchangam.temporal.get_ekadashi_name('krishna', self.lunar_month[d]))
+                        'sarva-' + jyotisha.panchangam.temporal.get_ekadashi_name('krishna', self.lunar_month[d]))
                 elif (self.tithi_sunrise[d] == 26 and self.tithi_sunrise[d + 1] != 26):
                     # Check dashami end time to decide for whether this is
                     # sarva/smartha
@@ -500,15 +500,15 @@ class Panchangam(common.JsonObject):
                         (self.jd_sunrise[d] - self.jd_sunrise[d - 1]), ayanamsha_id=self.ayanamsha_id)
                     if tithi_arunodayam == 25:
                         self.festivals[d].append(
-                            'smArta~' + jyotisha.panchangam.temporal.get_ekadashi_name('krishna', self.lunar_month[d]))
+                            'smArta-' + jyotisha.panchangam.temporal.get_ekadashi_name('krishna', self.lunar_month[d]))
                         self.festivals[d + 1].append(
-                            'vaiSNava~' + jyotisha.panchangam.temporal.get_ekadashi_name('krishna', self.lunar_month[d]))
+                            'vaiSNava-' + jyotisha.panchangam.temporal.get_ekadashi_name('krishna', self.lunar_month[d]))
                     else:
                         self.festivals[d].append(
-                            'sarva~' + jyotisha.panchangam.temporal.get_ekadashi_name('krishna', self.lunar_month[d]))
+                            'sarva-' + jyotisha.panchangam.temporal.get_ekadashi_name('krishna', self.lunar_month[d]))
                 elif (self.tithi_sunrise[d - 1] != 26 and self.tithi_sunrise[d] == 27):
                     self.festivals[d].append(
-                        'sarva~' + jyotisha.panchangam.temporal.get_ekadashi_name('krishna', self.lunar_month[d]))
+                        'sarva-' + jyotisha.panchangam.temporal.get_ekadashi_name('krishna', self.lunar_month[d]))
 
                 harivasara_end = spatio_temporal.brentq(jyotisha.panchangam.temporal.get_angam_float, self.jd_sunrise[d - 2],
                                                         self.jd_sunrise[d - 2] + 4, args=(
@@ -770,7 +770,7 @@ class Panchangam(common.JsonObject):
                     t2 = jyotisha.panchangam.temporal.Time(swe.revjul(gc_28_end)[3] + offset).toString()
                     # sys.stderr.write('gajacchhaya %d\n' % gc_28_d)
 
-                    self.fest_days['gajacchAyA-yOgam' +
+                    self.fest_days['gajacchAyA-yOgaH' +
                                    '-\\textsf{' + t1 + '}{\\RIGHTarrow}\\textsf{' +
                                    t2 + '}'] = [gc_28_d]
                     gc_28 = False
@@ -788,7 +788,7 @@ class Panchangam(common.JsonObject):
                     t2 = jyotisha.panchangam.temporal.Time(swe.revjul(gc_30_end)[3] + offset).toString()
                     # sys.stderr.write('gajacchhaya %d\n' % gc_30_d)
 
-                    self.fest_days['gajacchAyA-yOgam' +
+                    self.fest_days['gajacchAyA-yOgaH' +
                                    '-\\textsf{' + t1 + '}{\\RIGHTarrow}\\textsf{' +
                                    t2 + '}'] = [gc_30_d]
                     gc_30 = False
