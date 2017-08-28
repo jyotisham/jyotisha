@@ -8,6 +8,7 @@ import swisseph as swe
 import sys
 from datetime import datetime
 
+from indic_transliteration import sanscript
 from pytz import timezone as tz
 
 import jyotisha
@@ -217,7 +218,7 @@ def main():
     year = int(sys.argv[5])
 
     computeLagnams = False  # Default
-    script = 'deva'  # Default script is devanagari
+    script = sanscript.DEVANAGARI  # Default script is devanagari
 
     if len(sys.argv) == 8:
         computeLagnams = True
