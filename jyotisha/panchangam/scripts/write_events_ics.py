@@ -82,7 +82,7 @@ def compute_events(P, json_file):
                         return
 
                     if event_num is not None:
-                        event_name += '~\\#{%d}' % event_num
+                        event_name += '-\\#{%d}' % event_num
 
                     print('%%0 Assigned fday = %d' % d)
                     P.addFestival(event_name, d, debugEvents)
@@ -123,7 +123,7 @@ def compute_events(P, json_file):
                     return
 
                 if event_num is not None:
-                    event_name += '~\\#{%d}' % event_num
+                    event_name += '-\\#{%d}' % event_num
 
                 if angam_sunrise[d] == angam_num_pred or angam_sunrise[d] == angam_num:
                     angams = P.get_angams_for_kalas(d, get_angam_func, kala)
@@ -232,7 +232,7 @@ def computeIcsCalendar(P, ics_file_name):
                     # It's an event, with a start and end time
                     event = Event()
                     [stext, t1, arrow, t2] = stext.split('|')
-                    event.add('summary', stext.split('|')[-1].replace('~', ' ').strip())
+                    event.add('summary', stext.split('|')[-1].replace('-', ' ').strip())
                     h1, m1 = t1.split(':')
                     h2, m2 = t2.split(':')
                     event.add('dtstart', datetime(y, m, dt, int(h1), int(m1),
@@ -242,7 +242,7 @@ def computeIcsCalendar(P, ics_file_name):
                     P.ics_calendar.add_component(event)
                 else:
                     event = Event()
-                    event.add('summary', stext.replace('~', ' '))
+                    event.add('summary', stext.replace('-', ' '))
                     event.add('dtstart', date(y, m, dt))
                     event.add('dtend', (datetime(y, m, dt) + timedelta(1)).date())
                     alarm = Alarm()

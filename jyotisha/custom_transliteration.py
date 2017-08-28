@@ -19,7 +19,7 @@ logging.basicConfig(
 def romanise(iast_text):
     swapTable = {'ā': 'a', 'Ā': 'A', 'ī': 'i', 'ū': 'u', 'ṅ': 'n', 'ṇ': 'n',
                  'ḍ': 'd', 'ṭ': 't', 'ṃ': 'm', 'ñ': 'n', 'ṛ': 'ri', 'ś': 'sh',
-                 'Ś': 'Sh', 'ṣ': 'sh', 'Ṣ': 'Sh', 'ḥ': '', '~': '-', ' ': '-'}
+                 'Ś': 'Sh', 'ṣ': 'sh', 'Ṣ': 'Sh', 'ḥ': '', '-': '-', ' ': '-'}
 
     roman_text = ''
     for char in iast_text:
