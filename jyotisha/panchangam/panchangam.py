@@ -1410,7 +1410,7 @@ class Panchangam(common.JsonObject):
         print('\\end{supertabular}')
         print('\\end{multicols*}')
         print('\\renewcommand{\\tamil}[1]{%')
-        print('{\\fontspec{Vijaya}\\fontsize{7}{12}\\selectfont #1}}')
+        print('{\\fontspec{Noto Sans Tamil}\\fontsize{7}{12}\\selectfont #1}}')
 
         # print('\\clearpage')
 
