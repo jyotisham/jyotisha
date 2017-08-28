@@ -22,10 +22,10 @@ logging.basicConfig(
 CODE_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
 
 
-def compute_events(P, json_file):
-    P.fest_days = {}  # Resetting it
+def compute_events(p, json_file):
+    p.fest_days = {}  # Resetting it
     for d in range(1, MAX_SZ):
-        [y, m, dt, t] = swe.revjul(P.jd_start + d - 1)
+        [y, m, dt, t] = swe.revjul(p.jd_start + d - 1)
 
         debugEvents = True
 
@@ -67,15 +67,15 @@ def compute_events(P, json_file):
                 # Shukla prathama tithis need to be dealt carefully, if e.g. the prathama tithi
                 # does not touch sunrise on either day (the regular check won't work, because
                 # the month itself is different the previous day!)
-                if P.tithi_sunrise[d] == 30 and P.tithi_sunrise[d + 1] == 2 and\
-                   P.lunar_month[d + 1] == month_num:
+                if p.tithi_sunrise[d] == 30 and p.tithi_sunrise[d + 1] == 2 and\
+                   p.lunar_month[d + 1] == month_num:
                     # Only in this case, we have a problem
 
                     event_num = None
                     if event_start_year is not None:
                         if month_type == 'lunar_month':
-                            event_num = P.year + 3100 +\
-                                (d >= P.lunar_month.index(1)) - event_start_year + 1
+                            event_num = p.year + 3100 + \
+                                        (d >= p.lunar_month.index(1)) - event_start_year + 1
 
                     if event_num is not None and event_num < 0:
                         print('Festival %s is only in the future!' % event_name)
@@ -85,22 +85,22 @@ def compute_events(P, json_file):
                         event_name += '-\\#{%d}' % event_num
 
                     print('%%0 Assigned fday = %d' % d)
-                    P.addFestival(event_name, d, debugEvents)
+                    p.addFestival(event_name, d, debugEvents)
                     continue
 
             if angam_type == 'day' and month_type == 'solar_month'\
-               and P.solar_month[d] == month_num:
-                if P.solar_month_day[d] == angam_num:
-                    P.fest_days[event_name] = [d]
-            elif (month_type == 'lunar_month' and P.lunar_month[d] == month_num) or\
-                 (month_type == 'solar_month' and P.solar_month[d] == month_num):
+               and p.solar_month[d] == month_num:
+                if p.solar_month_day[d] == angam_num:
+                    p.fest_days[event_name] = [d]
+            elif (month_type == 'lunar_month' and p.lunar_month[d] == month_num) or\
+                 (month_type == 'solar_month' and p.solar_month[d] == month_num):
                 if angam_type == 'tithi':
-                    angam_sunrise = P.tithi_sunrise
+                    angam_sunrise = p.tithi_sunrise
                     get_angam_func = get_tithi
                     angam_num_pred = (angam_num - 2) % 30 + 1
                     angam_num_succ = (angam_num % 30) + 1
                 elif angam_type == 'nakshatram':
-                    angam_sunrise = P.nakshatram_sunrise
+                    angam_sunrise = p.nakshatram_sunrise
                     get_angam_func = get_nakshatram
                     angam_num_pred = (angam_num - 2) % 27 + 1
                     angam_num_succ = (angam_num % 27) + 1
@@ -112,11 +112,11 @@ def compute_events(P, json_file):
                 event_num = None
                 if event_start_year is not None and month_type is not None:
                     if month_type == 'solar_month':
-                        event_num = P.year + 3100 +\
-                            (d >= P.solar_month.index(1)) - event_start_year + 1
+                        event_num = p.year + 3100 + \
+                                    (d >= p.solar_month.index(1)) - event_start_year + 1
                     elif month_type == 'lunar_month':
-                        event_num = P.year + 3100 +\
-                            (d >= P.lunar_month.index(1)) - event_start_year + 1
+                        event_num = p.year + 3100 + \
+                                    (d >= p.lunar_month.index(1)) - event_start_year + 1
 
                 if event_num is not None and event_num < 0:
                     print('Festival %s is only in the future!' % event_name)
@@ -126,7 +126,7 @@ def compute_events(P, json_file):
                     event_name += '-\\#{%d}' % event_num
 
                 if angam_sunrise[d] == angam_num_pred or angam_sunrise[d] == angam_num:
-                    angams = P.get_angams_for_kalas(d, get_angam_func, kala)
+                    angams = p.get_angams_for_kalas(d, get_angam_func, kala)
                     if angams is None:
                         sys.stderr.write('No angams returned! Skipping festival %s'
                                          % event_name)
@@ -157,32 +157,32 @@ def compute_events(P, json_file):
                             sys.stderr.write('Assigned paraviddha day for %s!' %
                                              event_name + ' Ignore future warnings!\n')
                     elif priority == 'purvaviddha':
-                        angams_yest = P.get_angams_for_kalas(d - 1, get_angam_func, kala)
+                        angams_yest = p.get_angams_for_kalas(d - 1, get_angam_func, kala)
                         if debugEvents:
                             print("%angams yest & today:", angams_yest)
                         if angams[0] == angam_num or angams[1] == angam_num:
-                            if event_name in P.fest_days:
+                            if event_name in p.fest_days:
                                 # Check if yesterday was assigned already
                                 # to this purvaviddha festival!
                                 if angam_num == 1:
                                     # Need to check if tomorrow is still the same month, unlikely!
-                                    if P.lunar_month[d + 1] == month_num:
-                                        if P.fest_days[event_name].count(d - 1) == 0:
+                                    if p.lunar_month[d + 1] == month_num:
+                                        if p.fest_days[event_name].count(d - 1) == 0:
                                             fday = d
                                             print('%%3B Assigned fday = %d' % d)
                                     else:
                                         continue
 
                                 else:
-                                    if P.fest_days[event_name].count(d - 1) == 0:
+                                    if p.fest_days[event_name].count(d - 1) == 0:
                                         fday = d
                                         print('%%3B Assigned fday = %d' % d)
                             else:
                                 fday = d
                                 print('%%4 Assigned fday = %d' % d)
                         elif angams[2] == angam_num or angams[3] == angam_num:
-                            if (month_type == 'lunar_month' and P.lunar_month[d + 1] == month_num) or\
-                               (month_type == 'solar_month' and P.solar_month[d + 1] == month_num):
+                            if (month_type == 'lunar_month' and p.lunar_month[d + 1] == month_num) or\
+                               (month_type == 'solar_month' and p.solar_month[d + 1] == month_num):
                                 fday = d + 1
                                 print('%%5 Assigned fday = %d' % (d + 1))
                         else:
@@ -197,8 +197,8 @@ def compute_events(P, json_file):
                                 # THIS BEING PURVAVIDDHA
                                 # Perhaps just need better checking of
                                 # conditions instead of this fix
-                                if event_name in P.fest_days:
-                                    if P.fest_days[event_name].count(d - 1) == 0:
+                                if event_name in p.fest_days:
+                                    if p.fest_days[event_name].count(d - 1) == 0:
                                         fday = d
                                         print('%%6 Assigned fday = %d' % d)
                                 else:
@@ -209,11 +209,11 @@ def compute_events(P, json_file):
                                          (priority, event_name))
                 # print (P.fest_days)
                 if fday is not None:
-                    P.addFestival(event_name, fday, debugEvents)
+                    p.addFestival(event_name, fday, debugEvents)
 
-    for festival_name in P.fest_days:
-        for j in range(0, len(P.fest_days[festival_name])):
-            P.festivals[P.fest_days[festival_name][j]].append(festival_name)
+    for festival_name in p.fest_days:
+        for j in range(0, len(p.fest_days[festival_name])):
+            p.festivals[p.fest_days[festival_name][j]].append(festival_name)
 
 
 def computeIcsCalendar(P, ics_file_name):
