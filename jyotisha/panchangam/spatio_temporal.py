@@ -19,7 +19,6 @@ import jyotisha.custom_transliteration
 import jyotisha.panchangam
 import jyotisha.panchangam.temporal
 from jyotisha.custom_transliteration import sexastr2deci
-from jyotisha.panchangam import spatio_temporal
 from jyotisha.panchangam.temporal import get_angam_float, get_angam, SOLAR_MONTH
 
 logging.basicConfig(
@@ -230,7 +229,7 @@ class Panchangam(common.JsonObject):
         # rather than Jan 1, since we have an always increment
         # solar_month_day at the start of the loop across every day in
         # year
-        [self.solar_month[1], solar_month_day] = spatio_temporal.get_solar_month_day(self.jd_start - 1, self.city, ayanamsha_id=self.ayanamsha_id)
+        [self.solar_month[1], solar_month_day] = get_solar_month_day(self.jd_start - 1, self.city, ayanamsha_id=self.ayanamsha_id)
 
         if self.solar_month[1] != 9:
             raise(ValueError('Dec 31 does not appear to be Dhanurmasa!'))
@@ -384,7 +383,7 @@ class Panchangam(common.JsonObject):
             self.rashi_data[d] = jyotisha.panchangam.temporal.get_angam_data(self.jd_sunrise[d], self.jd_sunrise[d + 1],
                                                                              jyotisha.panchangam.temporal.RASHI, ayanamsha_id=self.ayanamsha_id)
             if computeLagnams:
-                self.lagna_data[d] = spatio_temporal.get_lagna_data(self.jd_sunrise[d], self.city.latitude,
+                self.lagna_data[d] = get_lagna_data(self.jd_sunrise[d], self.city.latitude,
                                                                     self.city.longitude, tz_off, ayanamsha_id=self.ayanamsha_id)
 
     def assignLunarMonths(self):
@@ -619,7 +618,7 @@ class Panchangam(common.JsonObject):
                         self.festivals[d].append('sarva-guruvAyupura-EkAdazI')
 
                 # Harivasara Computation
-                harivasara_end = spatio_temporal.brentq(jyotisha.panchangam.temporal.get_angam_float, self.jd_sunrise[d] - 2,
+                harivasara_end = brentq(jyotisha.panchangam.temporal.get_angam_float, self.jd_sunrise[d] - 2,
                                                         self.jd_sunrise[d] + 2, args=(
                     jyotisha.panchangam.temporal.TITHI_PADA, -45, self.ayanamsha_id, False))
                 [_y, _m, _d, _t] = swe.revjul(harivasara_end + (tz_off / 24.0))
@@ -654,7 +653,7 @@ class Panchangam(common.JsonObject):
                     self.festivals[d].append(
                         'sarva-' + jyotisha.panchangam.temporal.get_ekadashi_name('krishna', self.lunar_month[d]))
 
-                harivasara_end = spatio_temporal.brentq(jyotisha.panchangam.temporal.get_angam_float, self.jd_sunrise[d - 2],
+                harivasara_end = brentq(jyotisha.panchangam.temporal.get_angam_float, self.jd_sunrise[d - 2],
                                                         self.jd_sunrise[d - 2] + 4, args=(
                     jyotisha.panchangam.temporal.TITHI_PADA, -105, self.ayanamsha_id, False))
                 [_y, _m, _d, _t] = swe.revjul(harivasara_end + (tz_off / 24.0))
@@ -828,7 +827,7 @@ class Panchangam(common.JsonObject):
 
             # MAKARAYANAM
             if self.solar_month[d] == 9 and self.solar_month_day[d] == 1:
-                makara_jd_start = spatio_temporal.brentq(jyotisha.panchangam.temporal.get_nirayana_sun_lon, self.jd_sunrise[d],
+                makara_jd_start = brentq(jyotisha.panchangam.temporal.get_nirayana_sun_lon, self.jd_sunrise[d],
                                                          self.jd_sunrise[d] + 15, args=(-270, False))
 
             if self.solar_month[d] == 9 and 3 < self.solar_month_day[d] < 10:
@@ -1503,8 +1502,6 @@ class Panchangam(common.JsonObject):
 # Essential for depickling to work.
 common.update_json_class_index(sys.modules[__name__])
 logging.debug(common.json_class_index)
-
-
 
 
 if __name__ == '__main__':
