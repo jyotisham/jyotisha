@@ -1,7 +1,7 @@
-jyotisha.panchangam.custom_transliteration
+jyotisha.custom_transliteration
 ==========================================
 
-.. automodule:: jyotisha.panchangam.custom_transliteration
+.. automodule:: jyotisha.custom_transliteration
 	:members:
 	:undoc-members:
 			:show-inheritance:

@@ -12,6 +12,7 @@ jyotisha's documentation
 
 	jyotisha_panchangam
 	jyotisha_names
+	jyotisha_custom_transliteration
 
 Indices and tables
 ====================

@@ -45,6 +45,8 @@
 <span class="kn">import</span> <span class="nn">sys</span>
 <span class="kn">from</span> <span class="nn">math</span> <span class="k">import</span> <span class="n">floor</span>
 
+<span class="kn">from</span> <span class="nn">sanskrit_data.schema</span> <span class="k">import</span> <span class="n">common</span>
+<span class="kn">from</span> <span class="nn">sanskrit_data.schema.common</span> <span class="k">import</span> <span class="n">JsonObject</span>
 <span class="kn">from</span> <span class="nn">scipy.optimize</span> <span class="k">import</span> <span class="n">brentq</span>
 
 <span class="kn">from</span> <span class="nn">jyotisha</span> <span class="k">import</span> <span class="n">names</span>
@@ -73,7 +75,7 @@
 <span class="n">SOLAR_NAKSH</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;id&#39;</span><span class="p">:</span> <span class="s1">&#39;SOLAR_NAKSH&#39;</span><span class="p">,</span> <span class="s1">&#39;arc_len&#39;</span><span class="p">:</span> <span class="mf">360.0</span> <span class="o">/</span> <span class="mf">27.0</span><span class="p">,</span>  <span class="s1">&#39;w_moon&#39;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="s1">&#39;w_sun&#39;</span><span class="p">:</span>  <span class="mi">1</span><span class="p">}</span>
 
 
-<div class="viewcode-block" id="Time"><a class="viewcode-back" href="../../../jyotisha_panchangam_temporal.html#jyotisha.panchangam.temporal.Time">[docs]</a><span class="k">class</span> <span class="nc">Time</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+<div class="viewcode-block" id="Time"><a class="viewcode-back" href="../../../jyotisha_panchangam_temporal.html#jyotisha.panchangam.temporal.Time">[docs]</a><span class="k">class</span> <span class="nc">Time</span><span class="p">(</span><span class="n">JsonObject</span><span class="p">):</span>
 
     <span class="sd">&quot;&quot;&quot;This  class is a time class with methods for printing, conversion etc.</span>
 <span class="sd">    &quot;&quot;&quot;</span>
@@ -452,23 +454,23 @@
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="k">if</span> <span class="n">paksha</span> <span class="o">==</span> <span class="s1">&#39;shukla&#39;</span><span class="p">:</span>
         <span class="k">if</span> <span class="n">lmonth</span> <span class="o">==</span> <span class="nb">int</span><span class="p">(</span><span class="n">lmonth</span><span class="p">):</span>
-            <span class="k">return</span> <span class="s1">&#39;</span><span class="si">%s</span><span class="s1">~EkAdazI&#39;</span> <span class="o">%</span> <span class="n">NAMES</span><span class="p">[</span><span class="s1">&#39;SHUKLA_EKADASHI&#39;</span><span class="p">][</span><span class="s1">&#39;hk&#39;</span><span class="p">][</span><span class="n">lmonth</span><span class="p">]</span>
+            <span class="k">return</span> <span class="s1">&#39;</span><span class="si">%s</span><span class="s1">-EkAdazI&#39;</span> <span class="o">%</span> <span class="n">NAMES</span><span class="p">[</span><span class="s1">&#39;SHUKLA_EKADASHI&#39;</span><span class="p">][</span><span class="s1">&#39;hk&#39;</span><span class="p">][</span><span class="n">lmonth</span><span class="p">]</span>
         <span class="k">else</span><span class="p">:</span>
             <span class="c1"># adhika mAsam</span>
-            <span class="k">return</span> <span class="s1">&#39;</span><span class="si">%s</span><span class="s1">~EkAdazI&#39;</span> <span class="o">%</span> <span class="n">NAMES</span><span class="p">[</span><span class="s1">&#39;SHUKLA_EKADASHI&#39;</span><span class="p">][</span><span class="s1">&#39;hk&#39;</span><span class="p">][</span><span class="mi">13</span><span class="p">]</span>
+            <span class="k">return</span> <span class="s1">&#39;</span><span class="si">%s</span><span class="s1">-EkAdazI&#39;</span> <span class="o">%</span> <span class="n">NAMES</span><span class="p">[</span><span class="s1">&#39;SHUKLA_EKADASHI&#39;</span><span class="p">][</span><span class="s1">&#39;hk&#39;</span><span class="p">][</span><span class="mi">13</span><span class="p">]</span>
     <span class="k">elif</span> <span class="n">paksha</span> <span class="o">==</span> <span class="s1">&#39;krishna&#39;</span><span class="p">:</span>
         <span class="k">if</span> <span class="n">lmonth</span> <span class="o">==</span> <span class="nb">int</span><span class="p">(</span><span class="n">lmonth</span><span class="p">):</span>
-            <span class="k">return</span> <span class="s1">&#39;</span><span class="si">%s</span><span class="s1">~EkAdazI&#39;</span> <span class="o">%</span> <span class="n">NAMES</span><span class="p">[</span><span class="s1">&#39;KRISHNA_EKADASHI&#39;</span><span class="p">][</span><span class="s1">&#39;hk&#39;</span><span class="p">][</span><span class="n">lmonth</span><span class="p">]</span>
+            <span class="k">return</span> <span class="s1">&#39;</span><span class="si">%s</span><span class="s1">-EkAdazI&#39;</span> <span class="o">%</span> <span class="n">NAMES</span><span class="p">[</span><span class="s1">&#39;KRISHNA_EKADASHI&#39;</span><span class="p">][</span><span class="s1">&#39;hk&#39;</span><span class="p">][</span><span class="n">lmonth</span><span class="p">]</span>
         <span class="k">else</span><span class="p">:</span>
             <span class="c1"># adhika mAsam</span>
-            <span class="k">return</span> <span class="s1">&#39;</span><span class="si">%s</span><span class="s1">~EkAdazI&#39;</span> <span class="o">%</span> <span class="n">NAMES</span><span class="p">[</span><span class="s1">&#39;KRISHNA_EKADASHI&#39;</span><span class="p">][</span><span class="s1">&#39;hk&#39;</span><span class="p">][</span><span class="mi">13</span><span class="p">]</span></div>
+            <span class="k">return</span> <span class="s1">&#39;</span><span class="si">%s</span><span class="s1">-EkAdazI&#39;</span> <span class="o">%</span> <span class="n">NAMES</span><span class="p">[</span><span class="s1">&#39;KRISHNA_EKADASHI&#39;</span><span class="p">][</span><span class="s1">&#39;hk&#39;</span><span class="p">][</span><span class="mi">13</span><span class="p">]</span></div>
 
 
 <div class="viewcode-block" id="get_chandra_masa"><a class="viewcode-back" href="../../../jyotisha_panchangam_temporal.html#jyotisha.panchangam.temporal.get_chandra_masa">[docs]</a><span class="k">def</span> <span class="nf">get_chandra_masa</span><span class="p">(</span><span class="n">month</span><span class="p">,</span> <span class="n">NAMES</span><span class="p">,</span> <span class="n">script</span><span class="p">):</span>
     <span class="k">if</span> <span class="n">month</span> <span class="o">==</span> <span class="nb">int</span><span class="p">(</span><span class="n">month</span><span class="p">):</span>
         <span class="k">return</span> <span class="n">NAMES</span><span class="p">[</span><span class="s1">&#39;CHANDRA_MASA&#39;</span><span class="p">][</span><span class="n">script</span><span class="p">][</span><span class="n">month</span><span class="p">]</span>
     <span class="k">else</span><span class="p">:</span>
-        <span class="k">return</span> <span class="s1">&#39;</span><span class="si">%s</span><span class="s1">~(</span><span class="si">%s</span><span class="s1">)&#39;</span> <span class="o">%</span> <span class="p">(</span><span class="n">NAMES</span><span class="p">[</span><span class="s1">&#39;CHANDRA_MASA&#39;</span><span class="p">][</span><span class="n">script</span><span class="p">][</span><span class="nb">int</span><span class="p">(</span><span class="n">month</span><span class="p">)</span> <span class="o">+</span> <span class="mi">1</span><span class="p">],</span> <span class="n">tr</span><span class="p">(</span><span class="s1">&#39;adhika&#39;</span><span class="p">,</span> <span class="n">script</span><span class="p">))</span></div>
+        <span class="k">return</span> <span class="s1">&#39;</span><span class="si">%s</span><span class="s1">-(</span><span class="si">%s</span><span class="s1">)&#39;</span> <span class="o">%</span> <span class="p">(</span><span class="n">NAMES</span><span class="p">[</span><span class="s1">&#39;CHANDRA_MASA&#39;</span><span class="p">][</span><span class="n">script</span><span class="p">][</span><span class="nb">int</span><span class="p">(</span><span class="n">month</span><span class="p">)</span> <span class="o">+</span> <span class="mi">1</span><span class="p">],</span> <span class="n">tr</span><span class="p">(</span><span class="s1">&#39;adhika&#39;</span><span class="p">,</span> <span class="n">script</span><span class="p">))</span></div>
 
 
 <div class="viewcode-block" id="get_tithi"><a class="viewcode-back" href="../../../jyotisha_panchangam_temporal.html#jyotisha.panchangam.temporal.get_tithi">[docs]</a><span class="k">def</span> <span class="nf">get_tithi</span><span class="p">(</span><span class="n">jd</span><span class="p">,</span> <span class="n">ayanamsha_id</span><span class="o">=</span><span class="n">swe</span><span class="o">.</span><span class="n">SIDM_LAHIRI</span><span class="p">):</span>
@@ -518,12 +520,18 @@
     <span class="k">return</span> <span class="p">(</span><span class="n">start_time</span><span class="p">,</span> <span class="n">end_time</span><span class="p">)</span></div>
 
 
+<span class="c1"># Essential for depickling to work.</span>
+<span class="n">common</span><span class="o">.</span><span class="n">update_json_class_index</span><span class="p">(</span><span class="n">sys</span><span class="o">.</span><span class="n">modules</span><span class="p">[</span><span class="vm">__name__</span><span class="p">])</span>
+<span class="n">logging</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="n">common</span><span class="o">.</span><span class="n">json_class_index</span><span class="p">)</span>
+
+
 <span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s1">&#39;__main__&#39;</span><span class="p">:</span>
   <span class="c1"># time = swe.utc_to_jd(year=1982, month=2, day=18, hour=11, minutes=10, seconds=0, flag=1)[0]</span>
-  <span class="n">time</span> <span class="o">=</span> <span class="n">swe</span><span class="o">.</span><span class="n">utc_to_jd</span><span class="p">(</span><span class="n">year</span><span class="o">=</span><span class="mi">2016</span><span class="p">,</span> <span class="n">month</span><span class="o">=</span><span class="mi">9</span><span class="p">,</span> <span class="n">day</span><span class="o">=</span><span class="mi">17</span><span class="p">,</span> <span class="n">hour</span><span class="o">=</span><span class="mi">15</span><span class="p">,</span> <span class="n">minutes</span><span class="o">=</span><span class="mi">16</span><span class="p">,</span> <span class="n">seconds</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">flag</span><span class="o">=</span><span class="mi">1</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span>
+  <span class="n">time</span> <span class="o">=</span> <span class="n">swe</span><span class="o">.</span><span class="n">utc_to_jd</span><span class="p">(</span><span class="n">year</span><span class="o">=</span><span class="mi">2015</span><span class="p">,</span> <span class="n">month</span><span class="o">=</span><span class="mi">9</span><span class="p">,</span> <span class="n">day</span><span class="o">=</span><span class="mi">17</span><span class="p">,</span> <span class="n">hour</span><span class="o">=</span><span class="mi">15</span><span class="p">,</span> <span class="n">minutes</span><span class="o">=</span><span class="mi">16</span><span class="p">,</span> <span class="n">seconds</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">flag</span><span class="o">=</span><span class="mi">1</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span>
   <span class="c1"># time = swe.utc_to_jd(year=1986, month=8, day=24, hour=11, minutes=54, seconds=0, flag=1)[0]</span>
   <span class="n">logging</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="n">time</span><span class="p">)</span>
   <span class="n">print_angas_x_ayanamshas</span><span class="p">(</span><span class="n">jd</span><span class="o">=</span><span class="n">time</span><span class="p">)</span>
+
 </pre></div>
 
           </div>
@@ -544,6 +552,7 @@
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../../jyotisha_panchangam.html">jyotisha.panchangam</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../../jyotisha_names.html">jyotisha.names</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../jyotisha_custom_transliteration.html">jyotisha.custom_transliteration</a></li>
 </ul>
 
 <div class="relations">

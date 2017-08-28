@@ -10,7 +10,5 @@ jyotisha.panchangam
 .. toctree::
 	:maxdepth: 5
 
-	jyotisha_panchangam_panchangam
 	jyotisha_panchangam_temporal
 	jyotisha_panchangam_spatio_temporal
-	jyotisha_panchangam_custom_transliteration

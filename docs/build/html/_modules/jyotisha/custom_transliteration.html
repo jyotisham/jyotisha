@@ -5,12 +5,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>jyotisha.panchangam.custom_transliteration &#8212; jyotisha 0.0.2 documentation</title>
-    <link rel="stylesheet" href="../../../_static/alabaster.css" type="text/css" />
-    <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+    <title>jyotisha.custom_transliteration &#8212; jyotisha 0.0.2 documentation</title>
+    <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <script type="text/javascript">
       var DOCUMENTATION_OPTIONS = {
-        URL_ROOT:    '../../../',
+        URL_ROOT:    '../../',
         VERSION:     '0.0.2',
         COLLAPSE_INDEX: false,
         FILE_SUFFIX: '.html',
@@ -18,14 +18,14 @@
         SOURCELINK_SUFFIX: '.txt'
       };
     </script>
-    <script type="text/javascript" src="../../../_static/jquery.js"></script>
-    <script type="text/javascript" src="../../../_static/underscore.js"></script>
-    <script type="text/javascript" src="../../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    <link rel="index" title="Index" href="../../../genindex.html" />
-    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
    
-  <link rel="stylesheet" href="../../../_static/custom.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
   
   
   <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
@@ -39,7 +39,7 @@
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <h1>Source code for jyotisha.panchangam.custom_transliteration</h1><div class="highlight"><pre>
+  <h1>Source code for jyotisha.custom_transliteration</h1><div class="highlight"><pre>
 <span></span><span class="ch">#!/usr/bin/python3</span>
 <span class="c1">#  -*- coding: utf-8 -*-</span>
 
@@ -49,12 +49,19 @@
 <span class="kn">from</span> <span class="nn">math</span> <span class="k">import</span> <span class="n">floor</span>
 
 <span class="kn">from</span> <span class="nn">indic_transliteration</span> <span class="k">import</span> <span class="n">sanscript</span>
+<span class="kn">import</span> <span class="nn">logging</span>
+
+<span class="n">logging</span><span class="o">.</span><span class="n">basicConfig</span><span class="p">(</span>
+    <span class="n">level</span><span class="o">=</span><span class="n">logging</span><span class="o">.</span><span class="n">DEBUG</span><span class="p">,</span>
+    <span class="nb">format</span><span class="o">=</span><span class="s2">&quot;</span><span class="si">%(levelname)s</span><span class="s2">: </span><span class="si">%(asctime)s</span><span class="s2"> {</span><span class="si">%(filename)s</span><span class="s2">:</span><span class="si">%(lineno)d</span><span class="s2">}: </span><span class="si">%(message)s</span><span class="s2"> &quot;</span>
+<span class="p">)</span>
 
 
-<div class="viewcode-block" id="romanise"><a class="viewcode-back" href="../../../jyotisha_panchangam_custom_transliteration.html#jyotisha.panchangam.custom_transliteration.romanise">[docs]</a><span class="k">def</span> <span class="nf">romanise</span><span class="p">(</span><span class="n">iast_text</span><span class="p">):</span>
+
+<div class="viewcode-block" id="romanise"><a class="viewcode-back" href="../../jyotisha_custom_transliteration.html#jyotisha.custom_transliteration.romanise">[docs]</a><span class="k">def</span> <span class="nf">romanise</span><span class="p">(</span><span class="n">iast_text</span><span class="p">):</span>
     <span class="n">swapTable</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;ā&#39;</span><span class="p">:</span> <span class="s1">&#39;a&#39;</span><span class="p">,</span> <span class="s1">&#39;Ā&#39;</span><span class="p">:</span> <span class="s1">&#39;A&#39;</span><span class="p">,</span> <span class="s1">&#39;ī&#39;</span><span class="p">:</span> <span class="s1">&#39;i&#39;</span><span class="p">,</span> <span class="s1">&#39;ū&#39;</span><span class="p">:</span> <span class="s1">&#39;u&#39;</span><span class="p">,</span> <span class="s1">&#39;ṅ&#39;</span><span class="p">:</span> <span class="s1">&#39;n&#39;</span><span class="p">,</span> <span class="s1">&#39;ṇ&#39;</span><span class="p">:</span> <span class="s1">&#39;n&#39;</span><span class="p">,</span>
                  <span class="s1">&#39;ḍ&#39;</span><span class="p">:</span> <span class="s1">&#39;d&#39;</span><span class="p">,</span> <span class="s1">&#39;ṭ&#39;</span><span class="p">:</span> <span class="s1">&#39;t&#39;</span><span class="p">,</span> <span class="s1">&#39;ṃ&#39;</span><span class="p">:</span> <span class="s1">&#39;m&#39;</span><span class="p">,</span> <span class="s1">&#39;ñ&#39;</span><span class="p">:</span> <span class="s1">&#39;n&#39;</span><span class="p">,</span> <span class="s1">&#39;ṛ&#39;</span><span class="p">:</span> <span class="s1">&#39;ri&#39;</span><span class="p">,</span> <span class="s1">&#39;ś&#39;</span><span class="p">:</span> <span class="s1">&#39;sh&#39;</span><span class="p">,</span>
-                 <span class="s1">&#39;Ś&#39;</span><span class="p">:</span> <span class="s1">&#39;Sh&#39;</span><span class="p">,</span> <span class="s1">&#39;ṣ&#39;</span><span class="p">:</span> <span class="s1">&#39;sh&#39;</span><span class="p">,</span> <span class="s1">&#39;Ṣ&#39;</span><span class="p">:</span> <span class="s1">&#39;Sh&#39;</span><span class="p">,</span> <span class="s1">&#39;ḥ&#39;</span><span class="p">:</span> <span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="s1">&#39;~&#39;</span><span class="p">:</span> <span class="s1">&#39;-&#39;</span><span class="p">,</span> <span class="s1">&#39; &#39;</span><span class="p">:</span> <span class="s1">&#39;-&#39;</span><span class="p">}</span>
+                 <span class="s1">&#39;Ś&#39;</span><span class="p">:</span> <span class="s1">&#39;Sh&#39;</span><span class="p">,</span> <span class="s1">&#39;ṣ&#39;</span><span class="p">:</span> <span class="s1">&#39;sh&#39;</span><span class="p">,</span> <span class="s1">&#39;Ṣ&#39;</span><span class="p">:</span> <span class="s1">&#39;Sh&#39;</span><span class="p">,</span> <span class="s1">&#39;ḥ&#39;</span><span class="p">:</span> <span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="s1">&#39;-&#39;</span><span class="p">:</span> <span class="s1">&#39;-&#39;</span><span class="p">,</span> <span class="s1">&#39; &#39;</span><span class="p">:</span> <span class="s1">&#39;-&#39;</span><span class="p">}</span>
 
     <span class="n">roman_text</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span>
     <span class="k">for</span> <span class="n">char</span> <span class="ow">in</span> <span class="n">iast_text</span><span class="p">:</span>
@@ -65,7 +72,7 @@
     <span class="k">return</span> <span class="n">roman_text</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span></div>
 
 
-<div class="viewcode-block" id="dn2tam"><a class="viewcode-back" href="../../../jyotisha_panchangam_custom_transliteration.html#jyotisha.panchangam.custom_transliteration.dn2tam">[docs]</a><span class="k">def</span> <span class="nf">dn2tam</span><span class="p">(</span><span class="n">dn_text</span><span class="p">):</span>
+<div class="viewcode-block" id="dn2tam"><a class="viewcode-back" href="../../jyotisha_custom_transliteration.html#jyotisha.custom_transliteration.dn2tam">[docs]</a><span class="k">def</span> <span class="nf">dn2tam</span><span class="p">(</span><span class="n">dn_text</span><span class="p">):</span>
     <span class="n">swapTable</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39; &#39;</span><span class="p">:</span> <span class="s1">&#39; &#39;</span><span class="p">,</span> <span class="s1">&#39;-&#39;</span><span class="p">:</span> <span class="s1">&#39;-&#39;</span><span class="p">,</span> <span class="s1">&#39;~&#39;</span><span class="p">:</span> <span class="s1">&#39;~&#39;</span><span class="p">,</span> <span class="s1">&#39;/&#39;</span><span class="p">:</span> <span class="s1">&#39;/&#39;</span><span class="p">,</span> <span class="s1">&#39;ऀ&#39;</span><span class="p">:</span> <span class="s1">&#39;ऀ&#39;</span><span class="p">,</span> <span class="s1">&#39;ँ&#39;</span><span class="p">:</span> <span class="s1">&#39;ँ&#39;</span><span class="p">,</span> <span class="s1">&#39;ं&#39;</span><span class="p">:</span> <span class="s1">&#39;ஂ&#39;</span><span class="p">,</span> <span class="s1">&#39;ः&#39;</span><span class="p">:</span> <span class="s1">&#39;ஃ&#39;</span><span class="p">,</span>
                  <span class="s1">&#39;अ&#39;</span><span class="p">:</span> <span class="s1">&#39;அ&#39;</span><span class="p">,</span> <span class="s1">&#39;आ&#39;</span><span class="p">:</span> <span class="s1">&#39;ஆ&#39;</span><span class="p">,</span> <span class="s1">&#39;इ&#39;</span><span class="p">:</span> <span class="s1">&#39;இ&#39;</span><span class="p">,</span> <span class="s1">&#39;ई&#39;</span><span class="p">:</span> <span class="s1">&#39;ஈ&#39;</span><span class="p">,</span> <span class="s1">&#39;उ&#39;</span><span class="p">:</span> <span class="s1">&#39;உ&#39;</span><span class="p">,</span> <span class="s1">&#39;ऊ&#39;</span><span class="p">:</span> <span class="s1">&#39;ஊ&#39;</span><span class="p">,</span>
                  <span class="s1">&#39;ऋ&#39;</span><span class="p">:</span> <span class="s1">&#39;ற&#39;</span><span class="p">,</span> <span class="s1">&#39;ऌ&#39;</span><span class="p">:</span> <span class="s1">&#39;ऌ&#39;</span><span class="p">,</span> <span class="s1">&#39;ऍ&#39;</span><span class="p">:</span> <span class="s1">&#39;ऍ&#39;</span><span class="p">,</span>
@@ -98,7 +105,7 @@
     <span class="k">return</span> <span class="n">tam_text</span><span class="o">.</span><span class="n">strip</span><span class="p">(</span><span class="s1">&#39;</span><span class="si">{}</span><span class="s1">&#39;</span><span class="p">)</span>  <span class="c1"># .replace(&#39; ன&#39;, &#39; ந&#39;).replace(&#39;-ன&#39;, &#39;ந&#39;)</span></div>
 
 
-<div class="viewcode-block" id="tr"><a class="viewcode-back" href="../../../jyotisha_panchangam_custom_transliteration.html#jyotisha.panchangam.custom_transliteration.tr">[docs]</a><span class="k">def</span> <span class="nf">tr</span><span class="p">(</span><span class="n">text</span><span class="p">,</span> <span class="n">scr</span><span class="p">,</span> <span class="n">titled</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">fontize</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
+<div class="viewcode-block" id="tr"><a class="viewcode-back" href="../../jyotisha_custom_transliteration.html#jyotisha.custom_transliteration.tr">[docs]</a><span class="k">def</span> <span class="nf">tr</span><span class="p">(</span><span class="n">text</span><span class="p">,</span> <span class="n">scr</span><span class="p">,</span> <span class="n">titled</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">fontize</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
     <span class="k">if</span> <span class="n">scr</span> <span class="o">==</span> <span class="s1">&#39;hk&#39;</span><span class="p">:</span>
         <span class="n">scr</span> <span class="o">=</span> <span class="n">sanscript</span><span class="o">.</span><span class="n">HK</span>
     <span class="k">if</span> <span class="n">text</span> <span class="o">==</span> <span class="s1">&#39;&#39;</span><span class="p">:</span>
@@ -118,19 +125,19 @@
                 <span class="n">t</span> <span class="o">=</span> <span class="n">t</span><span class="p">[</span><span class="mi">3</span><span class="p">:]</span>
                 <span class="k">if</span> <span class="n">fontize</span><span class="p">:</span>
                     <span class="n">transliterated_text</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\\</span><span class="s1">tamil{</span><span class="si">%s</span><span class="s1">}&#39;</span> <span class="o">%</span> <span class="n">dn2tam</span><span class="p">(</span>
-                        <span class="nb">str</span><span class="p">(</span><span class="n">sanscript</span><span class="o">.</span><span class="n">transliterate</span><span class="p">(</span><span class="n">_text</span><span class="o">=</span><span class="n">t</span><span class="p">,</span> <span class="n">_from</span><span class="o">=</span><span class="n">sanscript</span><span class="o">.</span><span class="n">HK</span><span class="p">,</span> <span class="n">_to</span><span class="o">=</span><span class="n">scr</span><span class="p">),</span> <span class="s1">&#39;utf8&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">title</span><span class="p">()))</span>
+                        <span class="n">sanscript</span><span class="o">.</span><span class="n">transliterate</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">t</span><span class="p">,</span> <span class="n">_from</span><span class="o">=</span><span class="n">sanscript</span><span class="o">.</span><span class="n">HK</span><span class="p">,</span> <span class="n">_to</span><span class="o">=</span><span class="n">scr</span><span class="p">)</span><span class="o">.</span><span class="n">title</span><span class="p">()))</span>
                 <span class="k">else</span><span class="p">:</span>
                     <span class="n">transliterated_text</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">dn2tam</span><span class="p">(</span>
-                        <span class="nb">str</span><span class="p">(</span><span class="n">sanscript</span><span class="o">.</span><span class="n">transliterate</span><span class="p">(</span><span class="n">_text</span><span class="o">=</span><span class="n">t</span><span class="p">,</span> <span class="n">_from</span><span class="o">=</span><span class="n">sanscript</span><span class="o">.</span><span class="n">HK</span><span class="p">,</span> <span class="n">_to</span><span class="o">=</span><span class="n">scr</span><span class="p">),</span> <span class="s1">&#39;utf8&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">title</span><span class="p">()))</span>
+                        <span class="n">sanscript</span><span class="o">.</span><span class="n">transliterate</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">t</span><span class="p">,</span> <span class="n">_from</span><span class="o">=</span><span class="n">sanscript</span><span class="o">.</span><span class="n">HK</span><span class="p">,</span> <span class="n">_to</span><span class="o">=</span><span class="n">scr</span><span class="p">)</span><span class="o">.</span><span class="n">title</span><span class="p">()))</span>
 
             <span class="k">else</span><span class="p">:</span>
                 <span class="k">if</span> <span class="n">t</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s1">&#39;RIGHTarrow&#39;</span><span class="p">)</span> <span class="o">==</span> <span class="o">-</span><span class="mi">1</span><span class="p">:</span>
                     <span class="n">transliterated_text</span><span class="o">.</span><span class="n">append</span><span class="p">(</span>
-                        <span class="nb">str</span><span class="p">(</span><span class="n">sanscript</span><span class="o">.</span><span class="n">transliterate</span><span class="p">(</span><span class="n">_text</span><span class="o">=</span><span class="n">t</span><span class="p">,</span> <span class="n">_from</span><span class="o">=</span><span class="n">sanscript</span><span class="o">.</span><span class="n">HK</span><span class="p">,</span> <span class="n">_to</span><span class="o">=</span><span class="n">scr</span><span class="p">),</span> <span class="s1">&#39;utf8&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">title</span><span class="p">())</span>
+                        <span class="n">sanscript</span><span class="o">.</span><span class="n">transliterate</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">t</span><span class="p">,</span> <span class="n">_from</span><span class="o">=</span><span class="n">sanscript</span><span class="o">.</span><span class="n">HK</span><span class="p">,</span> <span class="n">_to</span><span class="o">=</span><span class="n">scr</span><span class="p">)</span><span class="o">.</span><span class="n">title</span><span class="p">())</span>
                 <span class="k">else</span><span class="p">:</span>
                     <span class="p">[</span><span class="n">txt</span><span class="p">,</span> <span class="n">t1</span><span class="p">,</span> <span class="n">arrow</span><span class="p">,</span> <span class="n">t2</span><span class="p">]</span> <span class="o">=</span> <span class="n">t</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\\</span><span class="s1">&#39;</span><span class="p">)</span>
                     <span class="n">transliterated_text</span><span class="o">.</span><span class="n">append</span><span class="p">(</span>
-                        <span class="s1">&#39;</span><span class="se">\\</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">([</span><span class="nb">str</span><span class="p">(</span><span class="n">sanscript</span><span class="o">.</span><span class="n">transliterate</span><span class="p">(</span><span class="n">_text</span><span class="o">=</span><span class="n">txt</span><span class="p">,</span> <span class="n">_from</span><span class="o">=</span><span class="n">sanscript</span><span class="o">.</span><span class="n">HK</span><span class="p">,</span> <span class="n">_to</span><span class="o">=</span><span class="n">scr</span><span class="p">),</span> <span class="s1">&#39;utf8&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">title</span><span class="p">(),</span>
+                        <span class="s1">&#39;</span><span class="se">\\</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">([</span><span class="n">sanscript</span><span class="o">.</span><span class="n">transliterate</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">txt</span><span class="p">,</span> <span class="n">_from</span><span class="o">=</span><span class="n">sanscript</span><span class="o">.</span><span class="n">HK</span><span class="p">,</span> <span class="n">_to</span><span class="o">=</span><span class="n">scr</span><span class="p">)</span><span class="o">.</span><span class="n">title</span><span class="p">(),</span>
                                    <span class="n">t1</span><span class="p">,</span> <span class="n">arrow</span><span class="p">,</span> <span class="n">t2</span><span class="p">]))</span>
     <span class="k">else</span><span class="p">:</span>
         <span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="n">text_bits</span><span class="p">:</span>
@@ -139,20 +146,20 @@
                 <span class="c1"># Force Tamil!</span>
                 <span class="n">t</span> <span class="o">=</span> <span class="n">t</span><span class="p">[</span><span class="mi">3</span><span class="p">:]</span>
                 <span class="n">transliterated_text</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">dn2tam</span><span class="p">(</span>
-                    <span class="nb">str</span><span class="p">(</span><span class="n">sanscript</span><span class="o">.</span><span class="n">transliterate</span><span class="p">(</span><span class="n">_text</span><span class="o">=</span><span class="n">t</span><span class="p">,</span> <span class="n">_from</span><span class="o">=</span><span class="n">sanscript</span><span class="o">.</span><span class="n">HK</span><span class="p">,</span> <span class="n">_to</span><span class="o">=</span><span class="n">scr</span><span class="p">),</span> <span class="s1">&#39;utf8&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">title</span><span class="p">()))</span>
+                    <span class="n">sanscript</span><span class="o">.</span><span class="n">transliterate</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">t</span><span class="p">,</span> <span class="n">_from</span><span class="o">=</span><span class="n">sanscript</span><span class="o">.</span><span class="n">HK</span><span class="p">,</span> <span class="n">_to</span><span class="o">=</span><span class="n">scr</span><span class="p">)</span><span class="o">.</span><span class="n">title</span><span class="p">()))</span>
             <span class="k">else</span><span class="p">:</span>
                 <span class="k">if</span> <span class="n">t</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s1">&#39;RIGHTarrow&#39;</span><span class="p">)</span> <span class="o">==</span> <span class="o">-</span><span class="mi">1</span><span class="p">:</span>
-                    <span class="n">transliterated_text</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">sanscript</span><span class="o">.</span><span class="n">transliterate</span><span class="p">(</span><span class="n">_text</span><span class="o">=</span><span class="n">t</span><span class="p">,</span> <span class="n">_from</span><span class="o">=</span><span class="n">sanscript</span><span class="o">.</span><span class="n">HK</span><span class="p">,</span> <span class="n">_to</span><span class="o">=</span><span class="n">scr</span><span class="p">),</span> <span class="s1">&#39;utf8&#39;</span><span class="p">))</span>
+                    <span class="n">transliterated_text</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">sanscript</span><span class="o">.</span><span class="n">transliterate</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">t</span><span class="p">,</span> <span class="n">_from</span><span class="o">=</span><span class="n">sanscript</span><span class="o">.</span><span class="n">HK</span><span class="p">,</span> <span class="n">_to</span><span class="o">=</span><span class="n">scr</span><span class="p">))</span>
                 <span class="k">else</span><span class="p">:</span>
                     <span class="p">[</span><span class="n">txt</span><span class="p">,</span> <span class="n">t1</span><span class="p">,</span> <span class="n">arrow</span><span class="p">,</span> <span class="n">t2</span><span class="p">]</span> <span class="o">=</span> <span class="n">t</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\\</span><span class="s1">&#39;</span><span class="p">)</span>
                     <span class="n">transliterated_text</span><span class="o">.</span><span class="n">append</span><span class="p">(</span>
-                        <span class="s1">&#39;</span><span class="se">\\</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">([</span><span class="nb">str</span><span class="p">(</span><span class="n">sanscript</span><span class="o">.</span><span class="n">transliterate</span><span class="p">(</span><span class="n">txt</span><span class="p">,</span> <span class="n">_from</span><span class="o">=</span><span class="n">sanscript</span><span class="o">.</span><span class="n">HK</span><span class="p">,</span> <span class="n">_to</span><span class="o">=</span><span class="n">scr</span><span class="p">),</span> <span class="s1">&#39;utf8&#39;</span><span class="p">),</span>
+                        <span class="s1">&#39;</span><span class="se">\\</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">([</span><span class="n">sanscript</span><span class="o">.</span><span class="n">transliterate</span><span class="p">(</span><span class="n">txt</span><span class="p">,</span> <span class="n">_from</span><span class="o">=</span><span class="n">sanscript</span><span class="o">.</span><span class="n">HK</span><span class="p">,</span> <span class="n">_to</span><span class="o">=</span><span class="n">scr</span><span class="p">),</span>
                                    <span class="n">t1</span><span class="p">,</span> <span class="n">arrow</span><span class="p">,</span> <span class="n">t2</span><span class="p">]))</span>
 
     <span class="k">return</span> <span class="s1">&#39;|&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">transliterated_text</span><span class="p">)</span></div>
 
 
-<div class="viewcode-block" id="sexastr2deci"><a class="viewcode-back" href="../../../jyotisha_panchangam_custom_transliteration.html#jyotisha.panchangam.custom_transliteration.sexastr2deci">[docs]</a><span class="k">def</span> <span class="nf">sexastr2deci</span><span class="p">(</span><span class="n">sexa_str</span><span class="p">):</span>
+<div class="viewcode-block" id="sexastr2deci"><a class="viewcode-back" href="../../jyotisha_custom_transliteration.html#jyotisha.custom_transliteration.sexastr2deci">[docs]</a><span class="k">def</span> <span class="nf">sexastr2deci</span><span class="p">(</span><span class="n">sexa_str</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Converts as sexagesimal string to decimal</span>
 
 <span class="sd">    Converts a given sexagesimal string to its decimal value</span>
@@ -185,7 +192,7 @@
     <span class="k">return</span> <span class="n">decival</span> <span class="o">*</span> <span class="n">sgn</span></div>
 
 
-<div class="viewcode-block" id="revjul"><a class="viewcode-back" href="../../../jyotisha_panchangam_custom_transliteration.html#jyotisha.panchangam.custom_transliteration.revjul">[docs]</a><span class="k">def</span> <span class="nf">revjul</span><span class="p">(</span><span class="n">jd</span><span class="p">,</span> <span class="n">formatstr</span><span class="o">=</span><span class="s1">&#39;</span><span class="si">%4d</span><span class="s1">-</span><span class="si">%02d</span><span class="s1">-</span><span class="si">%02d</span><span class="s1"> </span><span class="si">%02d</span><span class="s1">:</span><span class="si">%02d</span><span class="s1">:</span><span class="si">%02d</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">tz_off</span><span class="o">=</span><span class="mi">0</span><span class="p">):</span>
+<div class="viewcode-block" id="revjul"><a class="viewcode-back" href="../../jyotisha_custom_transliteration.html#jyotisha.custom_transliteration.revjul">[docs]</a><span class="k">def</span> <span class="nf">revjul</span><span class="p">(</span><span class="n">jd</span><span class="p">,</span> <span class="n">formatstr</span><span class="o">=</span><span class="s1">&#39;</span><span class="si">%4d</span><span class="s1">-</span><span class="si">%02d</span><span class="s1">-</span><span class="si">%02d</span><span class="s1"> </span><span class="si">%02d</span><span class="s1">:</span><span class="si">%02d</span><span class="s1">:</span><span class="si">%02d</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">tz_off</span><span class="o">=</span><span class="mi">0</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Returns a more human readable revjul compared to swe</span>
 
 <span class="sd">    Converts a given jd (float) to a tuple [y,m,d,h,mm,ss]</span>
@@ -231,7 +238,7 @@
         <span class="k">return</span> <span class="p">(</span><span class="n">formatstr</span> <span class="o">%</span> <span class="p">(</span><span class="n">year</span><span class="p">,</span> <span class="n">month</span><span class="p">,</span> <span class="n">day</span><span class="p">,</span> <span class="n">hour</span><span class="p">,</span> <span class="n">minute</span><span class="p">,</span> <span class="n">second</span><span class="p">))</span></div>
 
 
-<div class="viewcode-block" id="print_lat_lon"><a class="viewcode-back" href="../../../jyotisha_panchangam_custom_transliteration.html#jyotisha.panchangam.custom_transliteration.print_lat_lon">[docs]</a><span class="k">def</span> <span class="nf">print_lat_lon</span><span class="p">(</span><span class="n">latstr</span><span class="p">,</span> <span class="n">lonstr</span><span class="p">):</span>
+<div class="viewcode-block" id="print_lat_lon"><a class="viewcode-back" href="../../jyotisha_custom_transliteration.html#jyotisha.custom_transliteration.print_lat_lon">[docs]</a><span class="k">def</span> <span class="nf">print_lat_lon</span><span class="p">(</span><span class="n">latstr</span><span class="p">,</span> <span class="n">lonstr</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Returns a formatted string for a latitude and longitude</span>
 
 <span class="sd">    Returns a formatted string for latitude and longitude, given sexagesimal</span>
@@ -279,6 +286,8 @@
     <span class="k">return</span> <span class="n">formatted_string</span></div>
 
 
+<div class="viewcode-block" id="longitudeToRightAscension"><a class="viewcode-back" href="../../jyotisha_custom_transliteration.html#jyotisha.custom_transliteration.longitudeToRightAscension">[docs]</a><span class="k">def</span> <span class="nf">longitudeToRightAscension</span><span class="p">(</span><span class="n">longitude</span><span class="p">):</span>
+    <span class="k">return</span> <span class="p">(</span><span class="mi">360</span><span class="o">-</span><span class="n">longitude</span><span class="p">)</span><span class="o">/</span><span class="mi">360</span><span class="o">*</span><span class="mi">24</span></div>
 </pre></div>
 
           </div>
@@ -286,7 +295,7 @@
       </div>
       <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
         <div class="sphinxsidebarwrapper">
-<h1 class="logo"><a href="../../../jyotisha.html">jyotisha</a></h1>
+<h1 class="logo"><a href="../../jyotisha.html">jyotisha</a></h1>
 
 
 
@@ -297,23 +306,23 @@
 
 <h3>Navigation</h3>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../../jyotisha_panchangam.html">jyotisha.panchangam</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../jyotisha_names.html">jyotisha.names</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../jyotisha_custom_transliteration.html">jyotisha.custom_transliteration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../jyotisha_panchangam.html">jyotisha.panchangam</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../jyotisha_names.html">jyotisha.names</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../jyotisha_custom_transliteration.html">jyotisha.custom_transliteration</a></li>
 </ul>
 
 <div class="relations">
 <h3>Related Topics</h3>
 <ul>
-  <li><a href="../../../jyotisha.html">Documentation overview</a><ul>
-  <li><a href="../../index.html">Module code</a><ul>
+  <li><a href="../../jyotisha.html">Documentation overview</a><ul>
+  <li><a href="../index.html">Module code</a><ul>
   </ul></li>
   </ul></li>
 </ul>
 </div>
 <div id="searchbox" style="display: none" role="search">
   <h3>Quick search</h3>
-    <form class="search" action="../../../search.html" method="get">
+    <form class="search" action="../../search.html" method="get">
       <div><input type="text" name="q" /></div>
       <div><input type="submit" value="Go" /></div>
       <input type="hidden" name="check_keywords" value="yes" />

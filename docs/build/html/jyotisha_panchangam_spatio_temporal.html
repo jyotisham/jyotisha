@@ -24,7 +24,7 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="jyotisha.panchangam.custom_transliteration" href="jyotisha_panchangam_custom_transliteration.html" />
+    <link rel="next" title="jyotisha.names" href="jyotisha_names.html" />
     <link rel="prev" title="jyotisha.panchangam.temporal" href="jyotisha_panchangam_temporal.html" />
    
   <link rel="stylesheet" href="_static/custom.css" type="text/css" />
@@ -41,79 +41,8 @@
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <div class="section" id="module-jyotisha.panchangam.spatio_temporal">
-<span id="jyotisha-panchangam-spatio-temporal"></span><h1>jyotisha.panchangam.spatio_temporal<a class="headerlink" href="#module-jyotisha.panchangam.spatio_temporal" title="Permalink to this headline">¶</a></h1>
-<dl class="class">
-<dt id="jyotisha.panchangam.spatio_temporal.City">
-<em class="property">class </em><code class="descclassname">jyotisha.panchangam.spatio_temporal.</code><code class="descname">City</code><span class="sig-paren">(</span><em>name</em>, <em>latitude</em>, <em>longitude</em>, <em>timezone</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jyotisha/panchangam/spatio_temporal.html#City"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jyotisha.panchangam.spatio_temporal.City" title="Permalink to this definition">¶</a></dt>
-<dd><p>This class enables the construction of a city object</p>
-</dd></dl>
-
-<dl class="function">
-<dt id="jyotisha.panchangam.spatio_temporal.get_lagna_data">
-<code class="descclassname">jyotisha.panchangam.spatio_temporal.</code><code class="descname">get_lagna_data</code><span class="sig-paren">(</span><em>jd_sunrise</em>, <em>lat</em>, <em>lon</em>, <em>tz_off</em>, <em>ayanamsha_id=1</em>, <em>debug=False</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jyotisha/panchangam/spatio_temporal.html#get_lagna_data"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jyotisha.panchangam.spatio_temporal.get_lagna_data" title="Permalink to this definition">¶</a></dt>
-<dd><p>Returns the lagna data</p>
-<dl class="docutils">
-<dt>Args:</dt>
-<dd>float jd: The Julian Day at which the lagnam is to be computed
-lat: Latitude of the place where the lagnam is to be computed
-lon: Longitude of the place where the lagnam is to be computed
-offset: Used by internal functions for bracketing</dd>
-<dt>Returns:</dt>
-<dd>tuples detailing the end time of each lagna, beginning with the one
-prevailing at sunrise</dd>
-<dt>Examples:</dt>
-<dd><div class="first last highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">get_lagna_data</span><span class="p">(</span><span class="mf">2458222.5208333335</span><span class="p">,</span> <span class="n">lat</span><span class="o">=</span><span class="mf">13.08784</span><span class="p">,</span> <span class="n">lon</span><span class="o">=</span><span class="mf">80.27847</span><span class="p">,</span> <span class="n">tz_off</span><span class="o">=</span><span class="mf">5.5</span><span class="p">)</span>
-<span class="go">[(12, 2458222.5214310056), (1, 2458222.596420153), (2, 2458222.6812926503), (3, 2458222.772619788), (4, 2458222.8624254186), (5, 2458222.9478168003), (6, 2458223.0322211445), (7, 2458223.1202004547), (8, 2458223.211770839), (9, 2458223.3000455885), (10, 2458223.3787625884), (11, 2458223.4494649624)]</span>
-</pre></div>
-</div>
-</dd>
-</dl>
-</dd></dl>
-
-<dl class="function">
-<dt id="jyotisha.panchangam.spatio_temporal.get_lagna_float">
-<code class="descclassname">jyotisha.panchangam.spatio_temporal.</code><code class="descname">get_lagna_float</code><span class="sig-paren">(</span><em>jd</em>, <em>lat</em>, <em>lon</em>, <em>offset=0</em>, <em>ayanamsha_id=1</em>, <em>debug=False</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jyotisha/panchangam/spatio_temporal.html#get_lagna_float"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jyotisha.panchangam.spatio_temporal.get_lagna_float" title="Permalink to this definition">¶</a></dt>
-<dd><p>Returns the angam</p>
-<dl class="docutils">
-<dt>Args:</dt>
-<dd>float jd: The Julian Day at which the lagnam is to be computed
-lat: Latitude of the place where the lagnam is to be computed
-lon: Longitude of the place where the lagnam is to be computed
-offset: Used by internal functions for bracketing</dd>
-<dt>Returns:</dt>
-<dd>float lagna</dd>
-<dt>Examples:</dt>
-<dd><div class="first last highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">get_lagna_float</span><span class="p">(</span><span class="mf">2444961.7125</span><span class="p">,</span><span class="mf">13.08784</span><span class="p">,</span> <span class="mf">80.27847</span><span class="p">)</span>
-<span class="go">10.353595502472984</span>
-</pre></div>
-</div>
-</dd>
-</dl>
-</dd></dl>
-
-<dl class="function">
-<dt id="jyotisha.panchangam.spatio_temporal.get_solar_month_day">
-<code class="descclassname">jyotisha.panchangam.spatio_temporal.</code><code class="descname">get_solar_month_day</code><span class="sig-paren">(</span><em>jd_start</em>, <em>city</em>, <em>ayanamsha_id=1</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jyotisha/panchangam/spatio_temporal.html#get_solar_month_day"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jyotisha.panchangam.spatio_temporal.get_solar_month_day" title="Permalink to this definition">¶</a></dt>
-<dd><p>Compute the solar month and day for a given Julian day</p>
-<p>Computes the solar month and day on the day corresponding to a given
-Julian day</p>
-<dl class="docutils">
-<dt>Args:</dt>
-<dd>float jd
-city</dd>
-<dt>Returns:</dt>
-<dd>int solar_month
-int solar_month_day</dd>
-<dt>Examples:</dt>
-<dd><div class="first last highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">get_solar_month_day</span><span class="p">(</span><span class="mf">2457023.27</span><span class="p">,</span> <span class="n">city</span><span class="p">(</span><span class="s1">&#39;Chennai&#39;</span><span class="p">,</span> <span class="s1">&#39;13:05:24&#39;</span><span class="p">,</span> <span class="s1">&#39;80:16:12&#39;</span><span class="p">,</span> <span class="s1">&#39;Asia/Calcutta&#39;</span><span class="p">))</span>
-<span class="go">(9, 17)</span>
-</pre></div>
-</div>
-</dd>
-</dl>
-</dd></dl>
-
+  <div class="section" id="jyotisha-panchangam-spatio-temporal">
+<h1>jyotisha.panchangam.spatio_temporal<a class="headerlink" href="#jyotisha-panchangam-spatio-temporal" title="Permalink to this headline">¶</a></h1>
 <div class="toctree-wrapper compound">
 </div>
 </div>
@@ -137,15 +66,14 @@ int solar_month_day</dd>
 <ul class="current">
 <li class="toctree-l1 current"><a class="reference internal" href="jyotisha_panchangam.html">jyotisha.panchangam</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="jyotisha_panchangam.html#panchangam">Panchangam</a></li>
-<li class="toctree-l2"><a class="reference internal" href="jyotisha_panchangam_panchangam.html">jyotisha.panchangam.panchangam</a></li>
 <li class="toctree-l2"><a class="reference internal" href="jyotisha_panchangam_temporal.html">jyotisha.panchangam.temporal</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">jyotisha.panchangam.spatio_temporal</a><ul class="simple">
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="jyotisha_panchangam_custom_transliteration.html">jyotisha.panchangam.custom_transliteration</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="jyotisha_names.html">jyotisha.names</a></li>
+<li class="toctree-l1"><a class="reference internal" href="jyotisha_custom_transliteration.html">jyotisha.custom_transliteration</a></li>
 </ul>
 
 <div class="relations">
@@ -154,7 +82,7 @@ int solar_month_day</dd>
   <li><a href="jyotisha.html">Documentation overview</a><ul>
   <li><a href="jyotisha_panchangam.html">jyotisha.panchangam</a><ul>
       <li>Previous: <a href="jyotisha_panchangam_temporal.html" title="previous chapter">jyotisha.panchangam.temporal</a></li>
-      <li>Next: <a href="jyotisha_panchangam_custom_transliteration.html" title="next chapter">jyotisha.panchangam.custom_transliteration</a></li>
+      <li>Next: <a href="jyotisha_names.html" title="next chapter">jyotisha.names</a></li>
   </ul></li>
   </ul></li>
 </ul>
