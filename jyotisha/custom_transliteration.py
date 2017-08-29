@@ -6,7 +6,7 @@ import swisseph as swe
 import sys
 from math import floor
 
-from indic_transliteration import sanscript
+from indic_transliteration import xsanscript as sanscript
 import logging
 
 logging.basicConfig(

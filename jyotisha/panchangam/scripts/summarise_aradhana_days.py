@@ -5,7 +5,7 @@ from collections import OrderedDict
 
 import os
 
-from indic_transliteration import sanscript
+from indic_transliteration import xsanscript as sanscript
 
 from jyotisha.names.init_names_auto import init_names_auto
 import logging

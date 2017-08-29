@@ -9,7 +9,7 @@ import sys
 from datetime import datetime
 from math import floor
 
-from indic_transliteration import sanscript
+from indic_transliteration import xsanscript as sanscript
 from pytz import timezone as tz
 from sanskrit_data.schema import common
 from sanskrit_data.schema.common import JsonObject

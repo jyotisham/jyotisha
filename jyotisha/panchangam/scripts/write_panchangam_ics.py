@@ -9,7 +9,7 @@ import sys
 from datetime import datetime, date, timedelta
 
 from icalendar import Calendar, Event, Alarm
-from indic_transliteration import sanscript
+from indic_transliteration import xsanscript as sanscript
 from pytz import timezone as tz
 
 import jyotisha.custom_transliteration

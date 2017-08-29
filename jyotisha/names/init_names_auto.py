@@ -4,7 +4,7 @@
 import ast
 
 import os
-from indic_transliteration import sanscript
+from indic_transliteration import xsanscript as sanscript
 import logging
 
 logging.basicConfig(
