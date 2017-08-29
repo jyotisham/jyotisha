@@ -257,6 +257,8 @@ def computeIcsCalendar(panchangam):
         if m == 12 and dt == 31:
             break
 
+    return ics_calendar
+
 
 def main():
     [city_name, latitude, longitude, tz] = sys.argv[1:5]
