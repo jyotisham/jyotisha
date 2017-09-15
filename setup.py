@@ -18,7 +18,7 @@ long_description = ''
 try:
   import pypandoc
 
-  long_description = pypandoc.convert('README.md', 'rst')
+  long_description = pypandoc.convert(source='README.md', to='rst', format='markdown_github')
 except (IOError, ImportError):
   long_description = ''
 
@@ -49,7 +49,7 @@ setup(
     #   3 - Alpha
     #   4 - Beta
     #   5 - Production/Stable
-    'Development Status :: 3 - Alpha',
+    'Development Status :: 4 - Beta',
 
     # Indicate who your project is intended for
     'Intended Audience :: Education',

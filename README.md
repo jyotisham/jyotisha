@@ -10,7 +10,7 @@ For detailed examples and help, please see individual module files in this packa
 
 ## Usage
 - Please see the generated python sphynx docs in one of the following places:
-    - http://jyotisha.readthedocs.io
+    - http://jyotisha.readthedocs.io [Broken as of 20170828.]
     - [project page](https://sanskrit-coders.github.io/jyotisha/build/html/jyotisha.html).
     - under docs/_build/html/index.html
 
@@ -27,4 +27,5 @@ twine upload dist/* --skip-existing
 
 ## Document generation
 - Sphynx html docs can be generated with `cd docs; make html`
-- http://jyotisha.readthedocs.io/en/latest/jyotisha.html should automatically have good updated documentation - unless there are build errors.
+- http://jyotisha.readthedocs.io/en/latest/jyotisha.html should automatically have good updated documentation - unless there are build errors. Current build errors:
+  - swisseph dependency is not being satisfied.
