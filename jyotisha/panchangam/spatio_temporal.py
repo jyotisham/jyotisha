@@ -832,7 +832,7 @@ class Panchangam(common.JsonObject):
 
             if self.solar_month[d] == 9 and 3 < self.solar_month_day[d] < 10:
                 if self.jd_sunset[d] < makara_jd_start < self.jd_sunset[d + 1]:
-                    self.fest_days['makarAyaNa-puNyakAlam/mitrOtsavam'] = [d + 1]
+                    self.fest_days['makarAyaNa-puNyakAlaH/mitrOtsavaH'] = [d + 1]
 
             # KUCHELA DINAM
             if self.solar_month[d] == 9 and self.solar_month_day[d] <= 7 and self.weekday[d] == 3:
@@ -1036,7 +1036,7 @@ class Panchangam(common.JsonObject):
 
             # KRISHNA ANGARAKA CHATURDASHI
             if self.weekday[d] == 2 and self.tithi_sunrise[d] == 29:
-                self.addFestival('kRSNAGgAraka-caturdazI-puNyakAlam/yamatarpaNam', d, debugFestivals)
+                self.addFestival('kRSNAGgAraka-caturdazI-puNyakAlaH/yamatarpaNam', d, debugFestivals)
                 festival_name = 'budhASTamI'
 
             # BUDHASHTAMI
