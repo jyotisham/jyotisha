@@ -80,13 +80,15 @@ def tr(text, scr, titled=True, fontize=False):
             t = t.rstrip('~0123456789 ')
             if t[:3] == 'ta:':
                 # Force Tamil!
+                if scr == sanscript.DEVANAGARI:
+                    scr = sanscript.TAMIL
                 t = t[3:]
                 if fontize:
-                    transliterated_text.append('\\tamil{%s}' % dn2tam(
-                        sanscript.transliterate(data=t, _from=sanscript.HK, _to=scr).title()))
+                    transliterated_text.append('\\tamil{%s}' % 
+                        sanscript.transliterate(data=t, _from=sanscript.HK, _to=scr).title())
                 else:
-                    transliterated_text.append(dn2tam(
-                        sanscript.transliterate(data=t, _from=sanscript.HK, _to=scr).title()))
+                    transliterated_text.append(
+                        sanscript.transliterate(data=t, _from=sanscript.HK, _to=scr).title())
 
             else:
                 if t.find('RIGHTarrow') == -1:
@@ -102,9 +104,11 @@ def tr(text, scr, titled=True, fontize=False):
             t = t.rstrip('~0123456789 ')
             if t[:3] == 'ta:':
                 # Force Tamil!
+                if scr == sanscript.DEVANAGARI:
+                    scr = sanscript.TAMIL
                 t = t[3:]
-                transliterated_text.append(dn2tam(
-                    sanscript.transliterate(data=t, _from=sanscript.HK, _to=scr).title()))
+                transliterated_text.append(
+                    sanscript.transliterate(data=t, _from=sanscript.HK, _to=scr).title())
             else:
                 if t.find('RIGHTarrow') == -1:
                     transliterated_text.append(sanscript.transliterate(data=t, _from=sanscript.HK, _to=scr))
