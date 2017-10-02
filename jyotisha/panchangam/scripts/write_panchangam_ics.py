@@ -202,7 +202,7 @@ def computeIcsCalendar(panchangam):
                     ics_calendar.add_component(event)
 
                 else:
-                    event.add('summary', jyotisha.custom_transliteration.tr(re.sub('.-ArambhaH', '-ArambhaH', stext).replace('-', ' ').replace('\#', '#'), panchangam.script))
+                    event.add('summary', jyotisha.custom_transliteration.tr(re.sub('.-ArambhaH', '-ArambhaH', stext).replace('\#', '#'), panchangam.script))
                     fest_num_loc = stext.find('#')
                     if fest_num_loc != -1:
                         stext = stext[:fest_num_loc - 2]  # Two more chars dropped, -\
