@@ -70,8 +70,8 @@
 % PDF SETUP
 % ---- FILL IN HERE THE DOC TITLE AND AUTHOR
 \defaultfontfeatures{Scale=MatchLowercase,Mapping=tex-text}
-\setmainfont{Sanskrit 2003:script=deva}
-\setsansfont[BoldFont={Ubuntu Bold}]{Ubuntu}
+\setmainfont{Siddhanta}[Script=Devanagari]
+\setsansfont[Scale=0.65]{Noto Sans UI}
 %%%%%%% Numbers and counters %%%%%%%
 \newcount\num
 \newcount\tempone \newcount\temptwo
@@ -96,7 +96,8 @@
 \newcommand{\devadigit}{%
 \ifcase\tempone०\or१\or२\or३\or४\or५\or६\or७\or८\or९\fi%\number\tempone%
 }
-\newcommand{\eventsep}{~$\Diamondblack$ }
+\newcommand{\eventsep}{~\raisebox{1pt}{\scriptsize$\Diamondblack$} }
+\newcommand{\TO}{\hspace{1pt}\raisebox{1pt}{\footnotesize\RIGHTarrow}\hspace{1pt}}
 %%%%%%%% Calendar display stuff %%%%%%%%%%%
 \newcommand{\sunmonth}[6]{%
 \begin{minipage}[t]{56mm}
@@ -109,17 +110,17 @@
 \end{minipage}
 \begin{minipage}[c][30mm]{\linewidth}
 \centering
- \mbox{\font\x="Sanskrit 2003:deva" at 80 pt\x \devanumber{#2}}\mbox{}\\[2ex]%Solar month date
+ \mbox{\font\x="Siddhanta:script=deva" at 80 pt\x \devanumber{#2}}\mbox{}\\[2ex]%Solar month date
  \end{minipage}
  \begin{minipage}[b][14mm]{\linewidth}
  \centering
-\mbox{\font\x="Sanskrit 2003:deva" at 24 pt\x {#5}}\\%Vara name
+\mbox{\font\x="Siddhanta:script=deva" at 24 pt\x {#5}}\\%Vara name
 \mbox{}
 \end{minipage}
 \end{minipage}%
 }
 \newcommand{\tamil}[1]{%
-{\fontspec{Noto Sans Tamil} \footnotesize #1}}
+{\fontspec[Scale=0.85,FakeStretch=0.9]{Noto Sans Tamil} \footnotesize #1}}
 \newcommand{\kalas}[6]{%
 \centerline{\small{\mbox{प्रातः सन्ध्या \textsf{#1} सङ्गव \textsf{#2}\hspace{2ex}मध्याह्न \textsf{#3}{\scriptsize\RIGHTarrow}\textsf{#4}\hspace{2ex} सायाह्न \textsf{#5} सायं सन्ध्या \textsf{#6}}}}%Sangava kala etc
 }
@@ -130,9 +131,9 @@
  }
 \newcommand{\tnykdata}[6]{\large
 \mbox{#1}\\%Tithi
-\mbox{नक्षत्रं:~#2}\hspace{2ex}\parbox[c][2em][c]{10mm}{\scriptsize(#3)} \\%Nakshatram and Rashi
-\mbox{योगं:~#4}\\%Yogam
-करणं:~#5\\%Karanam
+\mbox{नक्षत्रम्–#2}\hspace{2ex}\parbox[c][2em][c]{10mm}{\scriptsize(#3)} \\%Nakshatram and Rashi
+\mbox{योगः–#4}\\%Yogam
+करणम्–#5\\%Karanam
 \parbox[c][2ex][c]{0.9\linewidth}{#6}
 }
 \newcommand{\rygdata}[3]{%
