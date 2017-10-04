@@ -30,7 +30,8 @@ def romanise(iast_text):
     return roman_text.lower()
 
 
-def tr(text, scr, titled=True, fontize=False):
+def tr(text, scr, titled=True):
+    # titled = True seems to be primarily for NOT TitleCasing IAST Shlokas...
     if scr == 'hk':
         scr = sanscript.HK
     if text == '':
@@ -47,21 +48,21 @@ def tr(text, scr, titled=True, fontize=False):
                 if scr == sanscript.DEVANAGARI:
                     scr = sanscript.TAMIL
                 t = t[3:]
-                if fontize:
+                if scr == sanscript.TAMIL:
                     transliterated_text.append('\\tamil{%s}' % 
-                        sanscript.transliterate(data=t, _from=sanscript.HK, _to=scr).title())
+                        sanscript.transliterate(data=t, _from=sanscript.HK, _to=scr).replace('C','Ch').replace('c','ch').title())
                 else:
                     transliterated_text.append(
-                        sanscript.transliterate(data=t, _from=sanscript.HK, _to=scr).title())
+                        sanscript.transliterate(data=t, _from=sanscript.HK, _to=scr).replace('C','Ch').replace('c','ch').title())
 
             else:
                 if t.find('RIGHTarrow') == -1:
                     transliterated_text.append(
-                        sanscript.transliterate(data=t, _from=sanscript.HK, _to=scr).title())
+                        sanscript.transliterate(data=t, _from=sanscript.HK, _to=scr).replace('C','Ch').replace('c','ch').title())
                 else:
                     [txt, t1, arrow, t2] = t.split('\\')
                     transliterated_text.append(
-                        '\\'.join([sanscript.transliterate(data=txt, _from=sanscript.HK, _to=scr).title(),
+                        '\\'.join([sanscript.transliterate(data=txt, _from=sanscript.HK, _to=scr).replace('C','Ch').replace('c','ch').title(),
                                    t1, arrow, t2]))
     else:
         for t in text_bits:
@@ -72,7 +73,7 @@ def tr(text, scr, titled=True, fontize=False):
                     scr = sanscript.TAMIL
                 t = t[3:]
                 transliterated_text.append(
-                    sanscript.transliterate(data=t, _from=sanscript.HK, _to=scr).title())
+                    sanscript.transliterate(data=t, _from=sanscript.HK, _to=scr).replace('C','Ch').replace('c','ch').title())
             else:
                 if t.find('RIGHTarrow') == -1:
                     transliterated_text.append(sanscript.transliterate(data=t, _from=sanscript.HK, _to=scr))
