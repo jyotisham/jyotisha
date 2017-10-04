@@ -134,8 +134,7 @@ def computeIcsCalendar(panchangam):
                     ics_calendar.add_component(event)
                 elif stext.find('samApanam') != -1:
                     # It's an ending event
-                    event.add('summary', jyotisha.custom_transliteration.tr(re.sub('.-samApanam',
-                                                                                   '-samApanam', stext), panchangam.script))
+                    event.add('summary', jyotisha.custom_transliteration.tr(stext, panchangam.script))
                     event.add('dtstart', date(y, m, dt))
                     event.add('dtend', (datetime(y, m, dt) + timedelta(1)).date())
 
@@ -181,7 +180,7 @@ def computeIcsCalendar(panchangam):
                             break
 
                     event.add('summary', jyotisha.custom_transliteration.tr(stext.replace(
-                        'samApanam', '').replace('-', ' '), panchangam.script))
+                        'samApanam', '').replace('rAtri-','rAtriH').replace('nakSatra-', 'nakSatram').replace('pakSa-', 'pakSam'), panchangam.script))
                     event.add('dtstart', (datetime(y, m, dt) - timedelta(d - start_d)).date())
                     event.add('dtend', (datetime(y, m, dt) + timedelta(1)).date())
 
@@ -202,7 +201,9 @@ def computeIcsCalendar(panchangam):
                     ics_calendar.add_component(event)
 
                 else:
-                    event.add('summary', jyotisha.custom_transliteration.tr(re.sub('.-ArambhaH', '-ArambhaH', stext).replace('\#', '#'), panchangam.script))
+                    summary = jyotisha.custom_transliteration.tr(stext.replace('~',' ').replace('\#', '#'), panchangam.script)
+                    summary = re.sub('.tamil{(.*)}','\\1', summary)
+                    event.add('summary', summary)
                     fest_num_loc = stext.find('#')
                     if fest_num_loc != -1:
                         stext = stext[:fest_num_loc - 2]  # Two more chars dropped, -\
