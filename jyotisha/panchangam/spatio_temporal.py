@@ -626,7 +626,7 @@ class Panchangam(common.JsonObject):
 
                 fday = swe.julday(_y, _m, _d, 0) - self.jd_start + 1
                 self.festivals[int(fday)].append(
-                    'harivAsaraH-\\textsf{%s}{\\RIGHTarrow}\\textsf{%s}' % ('', hariv_end_time))
+                    'harivAsaraH\\textsf{%s}{\\RIGHTarrow}\\textsf{%s}' % ('', hariv_end_time))
 
             # One of two consecutive tithis must appear @ sunrise!
             if self.tithi_sunrise[d] == 26 or self.tithi_sunrise[d] == 27:
@@ -661,7 +661,7 @@ class Panchangam(common.JsonObject):
 
                 fday = swe.julday(_y, _m, _d, 0) - self.jd_start + 1
                 self.festivals[int(fday)].append(
-                    'harivAsaraH-\\textsf{%s}{\\RIGHTarrow}\\textsf{%s}' % ('', hariv_end_time))
+                    'harivAsaraH\\textsf{%s}{\\RIGHTarrow}\\textsf{%s}' % ('', hariv_end_time))
 
             # PRADOSHA Vratam
             pref = ''
@@ -1157,7 +1157,7 @@ class Panchangam(common.JsonObject):
                             return
 
                         if fest_num is not None:
-                            festival_name += '-\\#{%d}' % fest_num
+                            festival_name += '~\\#{%d}' % fest_num
 
                         self.addFestival(festival_name, d, debugFestivals)
                         continue
@@ -1193,7 +1193,7 @@ class Panchangam(common.JsonObject):
                         return
 
                     if fest_num is not None:
-                        festival_name += '-\\#{%d}' % fest_num
+                        festival_name += '~\\#{%d}' % fest_num
 
                     if angam_sunrise[d] == angam_num - 1 or angam_sunrise[d] == angam_num:
                         angams = self.get_angams_for_kalas(d, get_angam_func, kala)
