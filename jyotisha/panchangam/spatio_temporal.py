@@ -852,10 +852,10 @@ class Panchangam(common.JsonObject):
 
             if self.solar_month[d] == 1 and self.solar_month_day[d] > 10:
                 if self.jd_sunset[d] < agni_jd_start < self.jd_sunset[d + 1]:
-                    self.fest_days['agninakSatram-ArambhaH'] = [d + 1]
+                    self.fest_days['agninakSatra-ArambhaH'] = [d + 1]
             if self.solar_month[d] == 2 and self.solar_month_day[d] > 10:
                 if self.jd_sunset[d] < agni_jd_end < self.jd_sunset[d + 1]:
-                    self.fest_days['agninakSatram-samApanam'] = [d + 1]
+                    self.fest_days['agninakSatra-samApanam'] = [d + 1]
 
             # GAJACHHAYA YOGA
             if self.solar_month[d] == 6 and self.solar_month_day[d] == 1:
@@ -1308,8 +1308,9 @@ class Panchangam(common.JsonObject):
         self.fest_days['ta:kan2up-poGgal'] =\
             [self.fest_days['makara-saGkrAnti/uttarAyaNa-puNyakAlaH'][0] + 1]
 
-        self.fest_days['mahAlaya-pakSam-samApanam'] =\
+        self.fest_days['mahAlaya-pakSa-samApanam'] =\
             [self.fest_days['(bhAdrapada) mahAlaya amAvasyA'][0]]
+        self.fest_days['ta:varagUr ur2iyaDi utsavam'] = [self.fest_days['zrIkRSNajanmASTamI'][0] + 1]
 
         # KAPALI FESTIVALS
         panguni_uttaram = self.fest_days['ta:paGgun2i-uttiram'][-1]
@@ -1324,7 +1325,7 @@ class Panchangam(common.JsonObject):
         self.fest_days['ta:kapAlI tEr'] = [panguni_uttaram - 3]
         self.fest_days['ta:kapAlI ar2upattu mUvar'] = [panguni_uttaram - 2]
         # self.fest_days['ta:kapAlI bhikSATan2ar'] = [panguni_uttaram - 1]
-        self.fest_days['ta:kapAlI umA-mahezvara darican2am'] = [panguni_uttaram + 1]
+        self.fest_days['ta:kapAlI umA-mahEzvara darican2am'] = [panguni_uttaram + 1]
         self.fest_days['ta:kapAlI viDaiyAr2r2i toDakkam'] = [panguni_uttaram + 1]
         self.fest_days['ta:kapAlI viDaiyAr2r2i nir2aivu'] = [panguni_uttaram + 11]
 
