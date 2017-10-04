@@ -1,5 +1,5 @@
 {
-  "vasantanavarAtriH-ArambhaH": {
+  "vasantanavarAtri-ArambhaH": {
     "Month Type": "lunar_month",
     "Month Number": 1,
     "Angam Type": "tithi",
@@ -29,7 +29,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "arundhatI-vratam-ArambhaH": {
+  "arundhatI-vrata-ArambhaH": {
     "Month Type": "lunar_month",
     "Month Number": 1,
     "Angam Type": "tithi",
@@ -76,7 +76,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "manvAdi-(uttama)-1": {
+  "manvAdi-(uttama)~1": {
     "Month Type": "lunar_month",
     "Month Number": 1,
     "Angam Type": "tithi",
@@ -91,7 +91,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "zAlihOtra-vratam-ArambhaH": {
+  "zAlihOtra-vrata-ArambhaH": {
     "Month Type": "lunar_month",
     "Month Number": 1,
     "Angam Type": "tithi",
@@ -153,7 +153,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "vasantanavarAtriH-samApanam": {
+  "vasantanavarAtri-samApanam": {
     "Month Type": "lunar_month",
     "Month Number": 1,
     "Angam Type": "tithi",
@@ -213,7 +213,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "bhrAtRprApti-vratam-ArambhaH": {
+  "bhrAtRprApti-vrata-ArambhaH": {
     "Month Type": "lunar_month",
     "Month Number": 1,
     "Angam Type": "tithi",
@@ -243,7 +243,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "gajEndra-mOkSaH-1": {
+  "gajEndra-mOkSaH~1": {
     "Month Type": "lunar_month",
     "Month Number": 1,
     "Angam Type": "tithi",
@@ -258,13 +258,13 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "zrI-hanUmat-jayantI-2": {
+  "zrI-hanUmat-jayantI~2": {
     "Month Type": "lunar_month",
     "Month Number": 1,
     "Angam Type": "tithi",
     "Angam Number": 15,
     "Tags": "less-common-festivals",
-    "URL": "shri-hanumat-jayanti-2",
+    "URL": "shri-hanumat-jayanti~2",
     "Short Description": "Hanuman born from Kaikeyi part of Payasam taken by Vulture and eaten by Anjana Devi",
     "Shloka": "",
     "Other Names": "",
@@ -333,7 +333,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "manvAdi-(svArOciSa)-1": {
+  "manvAdi-(svArOciSa)~1": {
     "Month Type": "lunar_month",
     "Month Number": 1,
     "Angam Type": "tithi",
@@ -471,7 +471,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "parazurAma-jayantI-1": {
+  "parazurAma-jayantI~1": {
     "Month Type": "lunar_month",
     "Month Number": 2,
     "Angam Type": "tithi",
@@ -519,7 +519,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "sarpa-pUjA-1": {
+  "sarpa-pUjA~1": {
     "Month Type": "lunar_month",
     "Month Number": 2,
     "Angam Type": "tithi",
@@ -1117,7 +1117,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "manvAdi-(tAmasa)-1": {
+  "manvAdi-(tAmasa)~1": {
     "Month Type": "lunar_month",
     "Month Number": 3,
     "Angam Type": "tithi",
@@ -1192,7 +1192,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "vArAhI-navarAtriH-ArambhaH": {
+  "vArAhI-navarAtri-ArambhaH": {
     "Month Type": "lunar_month",
     "Month Number": 4,
     "Angam Type": "tithi",
@@ -1300,7 +1300,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "vArAhI-navarAtriH-samApanam": {
+  "vArAhI-navarAtri-samApanam": {
     "Month Type": "lunar_month",
     "Month Number": 4,
     "Angam Type": "tithi",
@@ -1345,7 +1345,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "manvAdi-(cAkSuSa)-1": {
+  "manvAdi-(cAkSuSa)~1": {
     "Month Type": "lunar_month",
     "Month Number": 4,
     "Angam Type": "tithi",
@@ -1424,7 +1424,7 @@
     "Primary Reference": "Vrata Chudamani 173",
     "Comments": ""
   },
-  "cAturmAsyavratam-ArambhaH": {
+  "cAturmAsyavrata-ArambhaH": {
     "Month Type": "lunar_month",
     "Month Number": 4,
     "Angam Type": "tithi",
@@ -1486,7 +1486,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "yaticAturmAsyavratam-ArambhaH": {
+  "yaticAturmAsyavrata-ArambhaH": {
     "Month Type": "lunar_month",
     "Month Number": 4,
     "Angam Type": "tithi",
@@ -1535,7 +1535,7 @@
     "Primary Reference": "Satyavrata Smriti",
     "Comments": ""
   },
-  "azUnyazayana-vratam-1": {
+  "azUnyazayana-vratam~1": {
     "Month Type": "lunar_month",
     "Month Number": 4,
     "Angam Type": "tithi",
@@ -1703,7 +1703,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "azUnyazayana-vratam-2": {
+  "azUnyazayana-vratam~2": {
     "Month Type": "lunar_month",
     "Month Number": 5,
     "Angam Type": "tithi",
@@ -2259,7 +2259,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "mahAlakSmI-vratam-ArambhaH": {
+  "mahAlakSmI-vrata-ArambhaH": {
     "Month Type": "lunar_month",
     "Month Number": 6,
     "Angam Type": "tithi",
@@ -2426,7 +2426,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "gO-trirAtri-vratam-1": {
+  "gO-trirAtri-vratam~1": {
     "Month Type": "lunar_month",
     "Month Number": 6,
     "Angam Type": "tithi",
@@ -2486,7 +2486,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "yaticAturmAsyavratam-samApanam": {
+  "yaticAturmAsyavrata-samApanam": {
     "Month Type": "lunar_month",
     "Month Number": 6,
     "Angam Type": "tithi",
@@ -2563,7 +2563,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "dikpAla-pUjA-1": {
+  "dikpAla-pUjA~1": {
     "Month Type": "lunar_month",
     "Month Number": 6,
     "Angam Type": "tithi",
@@ -2578,7 +2578,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "mahAlaya-pakSam-ArambhaH": {
+  "mahAlaya-pakSa-ArambhaH": {
     "Month Type": "lunar_month",
     "Month Number": 6,
     "Angam Type": "tithi",
@@ -2595,7 +2595,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "azUnyazayana-vratam-3": {
+  "azUnyazayana-vratam~3": {
     "Month Type": "lunar_month",
     "Month Number": 6,
     "Angam Type": "tithi",
@@ -2626,7 +2626,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "dikpAla-pUjA-2": {
+  "dikpAla-pUjA~2": {
     "Month Type": "lunar_month",
     "Month Number": 6,
     "Angam Type": "tithi",
@@ -2703,7 +2703,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "mahAlakSmI-vratam-samApanam": {
+  "mahAlakSmI-vrata-samApanam": {
     "Month Type": "lunar_month",
     "Month Number": 6,
     "Angam Type": "tithi",
@@ -2733,7 +2733,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "jImUtavAhana-pUjA-1": {
+  "jImUtavAhana-pUjA~1": {
     "Month Type": "lunar_month",
     "Month Number": 6,
     "Angam Type": "tithi",
@@ -2748,7 +2748,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "azOka-aSTamI-vratam-ArambhaH": {
+  "azOka-aSTamI-vrata-ArambhaH": {
     "Month Type": "lunar_month",
     "Month Number": 6,
     "Angam Type": "tithi",
@@ -2900,7 +2900,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "mahAlaya-pakSam-samApanam": {
+  "mahAlaya-pakSa-samApanam": {
     "Tags": "special-period-end,common-festivals",
     "URL": "mahalaya-paksha-samapanam",
     "Short Description": "",
@@ -2956,7 +2956,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "zarannavarAtriH-ArambhaH": {
+  "zarannavarAtri-ArambhaH": {
     "Month Type": "lunar_month",
     "Month Number": 7,
     "Angam Type": "tithi",
@@ -3153,7 +3153,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "zarannavarAtriH-samApanam": {
+  "zarannavarAtri-samApanam": {
     "Month Type": "lunar_month",
     "Month Number": 7,
     "Angam Type": "tithi",
@@ -3472,7 +3472,7 @@
     "Primary Reference": "Chaturvarga Chintamani",
     "Comments": ""
   },
-  "azUnyazayana-vratam-4": {
+  "azUnyazayana-vratam~4": {
     "Month Type": "lunar_month",
     "Month Number": 7,
     "Angam Type": "tithi",
@@ -3565,7 +3565,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "jImUtavAhana-pUjA-2": {
+  "jImUtavAhana-pUjA~2": {
     "Month Type": "lunar_month",
     "Month Number": 7,
     "Angam Type": "tithi",
@@ -3732,7 +3732,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "gO-trirAtri-vratam-2": {
+  "gO-trirAtri-vratam~2": {
     "Month Type": "lunar_month",
     "Month Number": 7,
     "Angam Type": "tithi",
@@ -3901,7 +3901,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "sarpa-pUjA-2": {
+  "sarpa-pUjA~2": {
     "Month Type": "lunar_month",
     "Month Number": 8,
     "Angam Type": "tithi",
@@ -3965,7 +3965,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "cAturmAsyavratam-samApanam": {
+  "cAturmAsyavrata-samApanam": {
     "Month Type": "lunar_month",
     "Month Number": 8,
     "Angam Type": "tithi",
@@ -4057,7 +4057,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "manvAdi-(svArOciSa)-2": {
+  "manvAdi-(svArOciSa)~2": {
     "Month Type": "lunar_month",
     "Month Number": 8,
     "Angam Type": "tithi",
@@ -4104,7 +4104,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "manvAdi-(uttama)-2": {
+  "manvAdi-(uttama)~2": {
     "Month Type": "lunar_month",
     "Month Number": 8,
     "Angam Type": "tithi",
@@ -5486,7 +5486,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "manvAdi-(cAkSuSa)-2": {
+  "manvAdi-(cAkSuSa)~2": {
     "Month Type": "lunar_month",
     "Month Number": 10,
     "Angam Type": "tithi",
@@ -5717,7 +5717,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "zyAmaLAnavarAtriH-ArambhaH": {
+  "zyAmaLAnavarAtri-ArambhaH": {
     "Month Type": "lunar_month",
     "Month Number": 11,
     "Angam Type": "tithi",
@@ -5872,7 +5872,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "zyAmaLAnavarAtriH-samApanam": {
+  "zyAmaLAnavarAtri-samApanam": {
     "Month Type": "lunar_month",
     "Month Number": 11,
     "Angam Type": "tithi",
@@ -6154,7 +6154,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "manvAdi-(tAmasa)-2": {
+  "manvAdi-(tAmasa)~2": {
     "Month Type": "lunar_month",
     "Month Number": 12,
     "Angam Type": "tithi",
@@ -6286,13 +6286,13 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "zrI-hanUmat-jayantI-1": {
+  "zrI-hanUmat-jayantI~1": {
     "Month Type": "solar_month",
     "Month Number": 9,
     "Angam Type": "tithi",
     "Angam Number": 30,
     "Tags": "other-avatarams,common-festivals",
-    "URL": "shri-hanumat-jayanti-1",
+    "URL": "shri-hanumat-jayanti~1",
     "Short Description": "",
     "Shloka": "",
     "Other Names": "",
@@ -6423,7 +6423,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "gajEndra-mOkSaH-2": {
+  "gajEndra-mOkSaH~2": {
     "Month Type": "solar_month",
     "Month Number": 5,
     "Angam Type": "nakshatram",
@@ -7079,7 +7079,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "durgA-vratam-ArambhaH": {
+  "durgA-vrata-ArambhaH": {
     "Month Type": "lunar_month",
     "Month Number": 5,
     "Angam Type": "tithi",
@@ -7124,7 +7124,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "vEda/dadhi-vratam-ArambhaH": {
+  "vEda/dadhi-vrata-ArambhaH": {
     "Month Type": "lunar_month",
     "Month Number": 5,
     "Angam Type": "tithi",
@@ -7289,7 +7289,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "ta:naTarAjar mahAbhiSEkam-2": {
+  "ta:naTarAjar mahAbhiSEkam~2": {
     "Month Type": "solar_month",
     "Month Number": 5,
     "Angam Type": "tithi",
@@ -7304,7 +7304,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "ta:naTarAjar mahAbhiSEkam-3": {
+  "ta:naTarAjar mahAbhiSEkam~3": {
     "Month Type": "solar_month",
     "Month Number": 6,
     "Angam Type": "tithi",
@@ -7319,7 +7319,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "ta:naTarAjar mahAbhiSEkam-6": {
+  "ta:naTarAjar mahAbhiSEkam~6": {
     "Month Type": "solar_month",
     "Month Number": 11,
     "Angam Type": "tithi",
@@ -9271,7 +9271,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "agninakSatram-ArambhaH": {
+  "agninakSatra-ArambhaH": {
     "Tags": "special-period-start",
     "URL": "agninakshatra-arambha",
     "Short Description": "",
@@ -9282,7 +9282,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "agninakSatram-samApanam": {
+  "agninakSatra-samApanam": {
     "Tags": "special-period-end",
     "URL": "agninakshatra-samapanam",
     "Short Description": "",
