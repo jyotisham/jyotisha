@@ -187,6 +187,75 @@ def get_nirayana_sun_lon(jd, offset=0, debug=False):
     return lsun + offset
 
 
+def get_planet_lon(jd, planet, offset=0, ayanamsha_id=swe.SIDM_LAHIRI):
+    """Returns the longitude of the given planet e.g. swe.JUPITER
+
+      Args:
+        float jd: The Julian Day at which the longitude is to be computed
+        int planet  - e.g. swe.SUN, swe.JUPITER, ...
+
+      Returns:
+        float longitude
+
+      Examples:
+      >>> get_planet_lon(2458008.58, swe.JUPITER)
+      180.00174875784376
+    """
+    swe.set_sid_mode(ayanamsha_id)
+    lon = (swe.calc_ut(jd, planet)[0] - swe.get_ayanamsa(jd)) % 360
+    return lon + offset
+
+
+def get_planet_next_transit(jd_start, jd_end, planet, ayanamsha_id=swe.SIDM_LAHIRI):
+    """Returns the next transit of the given planet e.g. swe.JUPITER
+
+      Args:
+        float jd_start, jd_end: The Julian Days between which transits must be computed
+        int planet  - e.g. swe.SUN, swe.JUPITER, ...
+
+      Returns:
+        List of tuples [(float jd_transit, int old_rashi, int new_rashi)]
+
+      Examples:
+      >>> get_planet_next_transit(2457755, 2458120, swe.JUPITER)
+      [(2458008.5710764076, 6, 7)]
+    """
+    swe.set_sid_mode(ayanamsha_id)
+
+    transits = []
+    MIN_JUMP = 15  # Random check for a transit every 15 days! Could be tweaked based on planet using a dict?
+
+    curr_L_bracket = jd_start
+    curr_R_bracket = jd_start + MIN_JUMP
+
+    while curr_R_bracket <= jd_end:
+        L_rashi = floor(get_planet_lon(curr_L_bracket, planet, offset=0, ayanamsha_id=ayanamsha_id) / 30) + 1
+        R_rashi = floor(get_planet_lon(curr_R_bracket, planet, offset=0, ayanamsha_id=ayanamsha_id) / 30) + 1
+
+        if L_rashi == R_rashi:
+            curr_R_bracket += MIN_JUMP
+            continue
+        else:
+            # We have bracketed a transit!
+            if L_rashi < R_rashi:
+                target = R_rashi
+            else:
+                # retrograde transit
+                target = L_rashi
+            try:
+                jd_transit = brentq(get_planet_lon, curr_L_bracket, curr_R_bracket,
+                                    args=(planet, (-target + 1) * 30, ayanamsha_id))
+                transits += [(jd_transit, L_rashi, R_rashi)]
+                curr_R_bracket += MIN_JUMP
+                curr_L_bracket = jd_transit + MIN_JUMP
+            except ValueError:
+                sys.stderr.write('Unable to compute transit of planet; possibly could not bracket correctly!\n')
+                (None, None, None)
+
+    return transits
+
+  
+
 def get_angam(jd, angam_type, ayanamsha_id=swe.SIDM_LAHIRI):
     """Returns the angam prevailing at a particular time
 
