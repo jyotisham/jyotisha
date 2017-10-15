@@ -5794,7 +5794,7 @@
     "Primary Reference": "Smriti Kaustubham 479",
     "Comments": ""
   },
-  "mAghI-sarasvatI-pUjA": {
+  "mAghI~sarasvatI-pUjA": {
     "Month Type": "lunar_month",
     "Month Number": 11,
     "Angam Type": "tithi",
@@ -9040,7 +9040,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "sukhA-aGgAraka-caturthI": {
+  "sukhA~aGgAraka-caturthI": {
     "Tags": "rare-days",
     "URL": "sukha-angaraka-chaturthi",
     "Short Description": "",
@@ -9513,7 +9513,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "ta:kapAlI umA~mahEzvara darican2am": {
+  "ta:kapAlI umA-mahEzvara darican2am": {
     "Tags": "tamilnadu-temple-festivals",
     "URL": "kapali-uma-maheshvara-darisanam",
     "Short Description": "",
@@ -9623,7 +9623,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "ta:puraTTAci can2ikkizhamai": {
+  "ta:puraTTAci~can2ikkizhamai": {
     "Tags": "tamil-month-vratams,special-vratams",
     "URL": "purattachi-chanikkizhamai",
     "Short Description": "Perform special puja and naivedyam (e.g. `tilAnnam`) to Lord Venkateshwara.",
@@ -10176,7 +10176,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "jayant~mahAdvAdazI": {
+  "jayantI~mahAdvAdazI": {
     "Tags": "rare-days",
     "URL": "jayanti-mahadvadashi",
     "Short Description": "Dvadashi tithi, combined with Punarvasu nakshatram.",
