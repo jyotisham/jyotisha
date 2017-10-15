@@ -111,7 +111,7 @@ def writeDailyTeX(panchangam, template_file, computeLagnams=True):
         for rashi_ID, rashi_end_jd in panchangam.rashi_data[d]:
             # if rashi_data_str != '':
             #     rashi_data_str += '\\hspace{2ex}'
-            rashi = jyotisha.panchangam.temporal.NAMES['RASHI'][panchangam.script][rashi_ID] + '-rAzI'
+            rashi = jyotisha.panchangam.temporal.NAMES['RASHI'][panchangam.script][rashi_ID] + jyotisha.custom_transliteration.tr('-rAzI', panchangam.script)
             if rashi_end_jd is None:
                 rashi_data_str = '%s\\mbox{%s}' % (rashi_data_str, rashi)
             else:
@@ -121,7 +121,7 @@ def writeDailyTeX(panchangam, template_file, computeLagnams=True):
         if computeLagnams:
             lagna_data_str = 'लग्नः–'
             for lagna_ID, lagna_end_jd in panchangam.lagna_data[d]:
-                lagna = jyotisha.panchangam.temporal.NAMES['MASA'][panchangam.script][lagna_ID]
+                lagna = jyotisha.panchangam.temporal.NAMES['RASHI'][panchangam.script][lagna_ID]
                 lagna_data_str = '%s \\mbox{%s \\RIGHTarrow \\textsf{%s}}' % \
                                  (lagna_data_str, lagna,
                                   jyotisha.panchangam.temporal.Time(24 * (lagna_end_jd - jd)).toString(format=panchangam.fmt))
@@ -229,7 +229,7 @@ def main():
 
     city = City(city_name, latitude, longitude, tz)
 
-    panchangam = scripts.get_panchangam(city=city, year=year, script=script)
+    panchangam = scripts.get_panchangam(city=city, year=year, script=script, computeLagnams=computeLagnams)
 
     panchangam.computeFestivals()
     panchangam.computeSolarEclipses()
