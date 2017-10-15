@@ -201,7 +201,7 @@ def computeIcsCalendar(panchangam):
                     ics_calendar.add_component(event)
 
                 else:
-                    summary = jyotisha.custom_transliteration.tr(stext.replace('~',' ').replace('\#', '#'), panchangam.script)
+                    summary = jyotisha.custom_transliteration.tr(stext.replace('~',' ').replace('\#', '#').replace('\\To{}','▶'), panchangam.script)
                     summary = re.sub('.tamil{(.*)}','\\1', summary)
                     event.add('summary', summary)
                     fest_num_loc = stext.find('#')
@@ -278,6 +278,7 @@ def main():
     panchangam.computeFestivals()
     panchangam.computeSolarEclipses()
     panchangam.computeLunarEclipses()
+    panchangam.computeTransits()
 
     ics_calendar = computeIcsCalendar(panchangam)
     writeIcsCalendar(ics_calendar, '%s-%d-%s.ics' % (city_name, year, script))
