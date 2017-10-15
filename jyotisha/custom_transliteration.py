@@ -36,13 +36,13 @@ def tr(text, scr, titled=True):
         scr = sanscript.HK
     if text == '':
         return ''
-
+    text = text.replace('~', '##~##')
     text_bits = text.split('|')
     transliterated_text = []
 
     if titled:
         for t in text_bits:
-            t = t.rstrip('~0123456789 ')
+            t = t.rstrip('#~0123456789 ')
             if t[:3] == 'ta:':
                 # Force Tamil!
                 if scr == sanscript.DEVANAGARI:
