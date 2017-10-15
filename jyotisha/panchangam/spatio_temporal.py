@@ -334,11 +334,11 @@ class Panchangam(common.JsonObject):
                 solar_month_end_time = ''
             else:
                 solar_month_end_time = '\\mbox{%s {\\tiny \\RIGHTarrow} \\textsf{%s}}' % (
-                    jyotisha.panchangam.temporal.NAMES['MASA'][self.script][_m], jyotisha.panchangam.temporal.Time(
+                    jyotisha.panchangam.temporal.NAMES['RASHI'][self.script][_m], jyotisha.panchangam.temporal.Time(
                         24 * (solar_month_end_jd - jd)).toString(format=self.fmt))
 
             self.month_data[d] = '\\sunmonth{%s}{%d}{%s}' % (
-                jyotisha.panchangam.temporal.NAMES['MASA'][self.script][self.solar_month[d]],
+                jyotisha.panchangam.temporal.NAMES['RASHI'][self.script][self.solar_month[d]],
                 solar_month_day, solar_month_end_time)
             self.solar_month_day[d] = solar_month_day
 
@@ -1480,6 +1480,19 @@ class Panchangam(common.JsonObject):
 
                 self.festivals[fday].append(lunar_eclipse_str)
             jd += jyotisha.panchangam.temporal.MIN_DAYS_NEXT_ECLIPSE
+
+    def computeTransits(self):
+        jd_end = self.jd_start + jyotisha.panchangam.temporal.MAX_DAYS_PER_YEAR
+        transits = jyotisha.panchangam.temporal.get_planet_next_transit(self.jd_start, jd_end,
+                                           swe.JUPITER, ayanamsha_id=self.ayanamsha_id)
+        if len(transits) > 0:
+            for jd_transit, rashi1, rashi2 in transits:
+                fday = int(floor(jd_transit) - floor(self.jd_start) + 1)
+                self.festivals[fday].append('guru-saGkrAntiH##~##(%s##\\To{}##%s)' %
+                                            (jyotisha.panchangam.temporal.NAMES['RASHI']['hk'][rashi1],
+                                            jyotisha.panchangam.temporal.NAMES['RASHI']['hk'][rashi2]))
+
+
 
     def writeDebugLog(self):
         log_file = open('cal-%4d-%s-log.txt' % (self.year, self.city.name), 'w')

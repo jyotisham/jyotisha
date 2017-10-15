@@ -84,10 +84,10 @@ def writeDailyTeX(panchangam, template_file, computeLagnams=True):
             tithi = '\\raisebox{-1pt}{\moon[scale=0.8]{%d}}\\hspace{2pt}' % (tithi_ID) + \
                     jyotisha.panchangam.temporal.NAMES['TITHI'][panchangam.script][tithi_ID]
             if tithi_end_jd is None:
-                tithi_data_str = '%s\\mbox{%s\\TO{}%s}' % \
+                tithi_data_str = '%s\\mbox{%s\\To{}%s}' % \
                                  (tithi_data_str, tithi, jyotisha.custom_transliteration.tr('ahOrAtram', panchangam.script))
             else:
-                tithi_data_str = '%s\\mbox{%s\\TO{}\\textsf{%s%s}}' % \
+                tithi_data_str = '%s\\mbox{%s\\To{}\\textsf{%s%s}}' % \
                                  (tithi_data_str, tithi,
                                   jyotisha.panchangam.temporal.Time(24 * (tithi_end_jd - jd)).toString(format=panchangam.fmt),
                                   '\\hspace{2ex}')
@@ -98,11 +98,11 @@ def writeDailyTeX(panchangam, template_file, computeLagnams=True):
                 nakshatram_data_str += '\\hspace{2ex}'
             nakshatram = jyotisha.panchangam.temporal.NAMES['NAKSHATRAM'][panchangam.script][nakshatram_ID]
             if nakshatram_end_jd is None:
-                nakshatram_data_str = '%s\\mbox{%s\\TO{}%s}' % \
+                nakshatram_data_str = '%s\\mbox{%s\\To{}%s}' % \
                                       (nakshatram_data_str, nakshatram,
                                        jyotisha.custom_transliteration.tr('ahOrAtram', panchangam.script))
             else:
-                nakshatram_data_str = '%s\\mbox{%s\\TO{}\\textsf{%s}}' % \
+                nakshatram_data_str = '%s\\mbox{%s\\To{}\\textsf{%s}}' % \
                                       (nakshatram_data_str, nakshatram,
                                        jyotisha.panchangam.temporal.Time(24 * (nakshatram_end_jd -
                                                                                jd)).toString(format=panchangam.fmt))
@@ -111,7 +111,7 @@ def writeDailyTeX(panchangam, template_file, computeLagnams=True):
         for rashi_ID, rashi_end_jd in panchangam.rashi_data[d]:
             # if rashi_data_str != '':
             #     rashi_data_str += '\\hspace{2ex}'
-            rashi = jyotisha.panchangam.temporal.NAMES['RASHI'][panchangam.script][rashi_ID]
+            rashi = jyotisha.panchangam.temporal.NAMES['RASHI'][panchangam.script][rashi_ID] + '-rAzI'
             if rashi_end_jd is None:
                 rashi_data_str = '%s\\mbox{%s}' % (rashi_data_str, rashi)
             else:
@@ -132,10 +132,10 @@ def writeDailyTeX(panchangam, template_file, computeLagnams=True):
             #     yogam_data_str += '\\hspace{2ex}'
             yogam = jyotisha.panchangam.temporal.NAMES['YOGAM'][panchangam.script][yogam_ID]
             if yogam_end_jd is None:
-                yogam_data_str = '%s\\mbox{%s\\TO{}%s}' % \
+                yogam_data_str = '%s\\mbox{%s\\To{}%s}' % \
                                  (yogam_data_str, yogam, jyotisha.custom_transliteration.tr('ahOrAtram', panchangam.script))
             else:
-                yogam_data_str = '%s\\mbox{%s\\TO{}\\textsf{%s%s}}' % \
+                yogam_data_str = '%s\\mbox{%s\\To{}\\textsf{%s%s}}' % \
                                  (yogam_data_str, yogam,
                                   jyotisha.panchangam.temporal.Time(24 * (yogam_end_jd - jd)).toString(format=panchangam.fmt),
                                   '\\hspace{2ex}')
@@ -146,10 +146,10 @@ def writeDailyTeX(panchangam, template_file, computeLagnams=True):
             #     karanam_data_str += '\\hspace{2ex}'
             karanam = jyotisha.panchangam.temporal.NAMES['KARANAM'][panchangam.script][karanam_ID]
             if karanam_end_jd is None:
-                karanam_data_str = '%s\\mbox{%s\\TO{}%s}' % \
+                karanam_data_str = '%s\\mbox{%s\\To{}%s}' % \
                                    (karanam_data_str, karanam, jyotisha.custom_transliteration.tr('ahOrAtram', panchangam.script))
             else:
-                karanam_data_str = '%s\\mbox{%s\\TO{}\\textsf{%s%s}}' % \
+                karanam_data_str = '%s\\mbox{%s\\To{}\\textsf{%s%s}}' % \
                                    (karanam_data_str, karanam,
                                     jyotisha.panchangam.temporal.Time(24 * (karanam_end_jd - jd)).toString(format=panchangam.fmt),
                                     '\\hspace{2ex}')
@@ -234,6 +234,7 @@ def main():
     panchangam.computeFestivals()
     panchangam.computeSolarEclipses()
     panchangam.computeLunarEclipses()
+    panchangam.computeTransits()
 
     daily_template_file = open(os.path.join(CODE_ROOT, 'panchangam/data/templates/daily_cal_template.tex'))
     writeDailyTeX(panchangam, daily_template_file, computeLagnams)
