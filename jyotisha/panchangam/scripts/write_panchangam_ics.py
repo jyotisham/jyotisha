@@ -180,7 +180,7 @@ def computeIcsCalendar(panchangam):
                             break
 
                     event.add('summary', jyotisha.custom_transliteration.tr(stext.replace(
-                        'samApanam', '').replace('rAtri-','rAtriH').replace('nakSatra-', 'nakSatram').replace('pakSa-', 'pakSam'), panchangam.script))
+                        'samApanam', '').replace('rAtri-','rAtriH').replace('nakSatra-', 'nakSatram').replace('pakSa-', 'pakSam').replace('kara-', 'karam'), panchangam.script))
                     event.add('dtstart', (datetime(y, m, dt) - timedelta(d - start_d)).date())
                     event.add('dtend', (datetime(y, m, dt) + timedelta(1)).date())
 
