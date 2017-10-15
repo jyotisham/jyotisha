@@ -1488,9 +1488,19 @@ class Panchangam(common.JsonObject):
         if len(transits) > 0:
             for jd_transit, rashi1, rashi2 in transits:
                 fday = int(floor(jd_transit) - floor(self.jd_start) + 1)
-                self.festivals[fday].append('guru-saGkrAntiH##~##(%s##\\To{}##%s)' %
+                self.festivals[fday].append('guru-saGkrAntiH~(%s##\\To{}##%s)' %
                                             (jyotisha.panchangam.temporal.NAMES['RASHI']['hk'][rashi1],
                                             jyotisha.panchangam.temporal.NAMES['RASHI']['hk'][rashi2]))
+                (madhyanha_start, madhyahna_end)  = jyotisha.panchangam.temporal.get_kalas(self.jd_sunrise[fday], self.jd_sunset[fday], 2, 5)
+                if jd_transit < madhyahna_end:
+                    fday_pushkara = fday
+                else:
+                    fday_pushkara = fday + 1
+                self.festivals[fday_pushkara].append('%s-Adi-puSkara-ArambhaH' % jyotisha.panchangam.temporal.NAMES['PUSHKARA']['hk'][rashi2])
+                self.festivals[fday_pushkara + 11].append('%s-Adi-puSkara-samApanam' % jyotisha.panchangam.temporal.NAMES['PUSHKARA']['hk'][rashi2])
+                self.festivals[fday_pushkara - 1].append('%s-antya-puSkara-samApanam' % jyotisha.panchangam.temporal.NAMES['PUSHKARA']['hk'][rashi1])
+                self.festivals[fday_pushkara - 12].append('%s-antya-puSkara-ArambhaH' % jyotisha.panchangam.temporal.NAMES['PUSHKARA']['hk'][rashi1])
+
 
 
 
