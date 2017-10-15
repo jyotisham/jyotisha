@@ -36,7 +36,7 @@ def tr(text, scr, titled=True):
         scr = sanscript.HK
     if text == '':
         return ''
-    text = text.replace('~', '##~##')
+    text = text.replace('~', '##~##')  # Simple fix to prevent transliteration of ~
     text_bits = text.split('|')
     transliterated_text = []
 
