@@ -1031,7 +1031,7 @@ class Panchangam(common.JsonObject):
             if self.weekday[d] == 2 and (self.tithi_sunrise[d] % 15) == 4:
                 festival_name = 'aGgAraka-caturthI'
                 if self.tithi_sunrise[d] == 4:
-                    festival_name = 'sukhA' + '-' + festival_name
+                    festival_name = 'sukhA' + '~' + festival_name
                 self.addFestival(festival_name, d, debugFestivals)
 
             # KRISHNA ANGARAKA CHATURDASHI
@@ -1290,8 +1290,8 @@ class Panchangam(common.JsonObject):
         # If tripurotsava coincides with maha kArtikI (kRttikA nakShatram)
         # only then it is mahAkArtikI
         # else it is only tripurotsava
-        if self.fest_days['tripurOtsavaH'] != self.fest_days['mahA-kArtikI']:
-            del self.fest_days['mahA-kArtikI']
+        if self.fest_days['tripurOtsavaH'] != self.fest_days['mahA~kArtikI']:
+            del self.fest_days['mahA~kArtikI']
             # An error here implies the festivals were not assigned: adhika
             # mAsa calc errors??
 
@@ -1305,7 +1305,7 @@ class Panchangam(common.JsonObject):
         self.fest_days['hOli'] = [self.fest_days['hOlikA-pUrNimA'][0] + 1]
         self.fest_days['indra-pUjA/gO-pUjA'] =\
             [self.fest_days['makara-saGkrAnti/uttarAyaNa-puNyakAlaH'][0] + 1]
-        self.fest_days['ta:kan2up-poGgal'] =\
+        self.fest_days['ta:kan2up~poGgal'] =\
             [self.fest_days['makara-saGkrAnti/uttarAyaNa-puNyakAlaH'][0] + 1]
 
         self.fest_days['mahAlaya-pakSa-samApanam'] =\
@@ -1313,9 +1313,9 @@ class Panchangam(common.JsonObject):
         self.fest_days['ta:varagUr ur2iyaDi utsavam'] = [self.fest_days['zrIkRSNajanmASTamI'][0] + 1]
 
         # KAPALI FESTIVALS
-        panguni_uttaram = self.fest_days['ta:paGgun2i-uttiram'][-1]
+        panguni_uttaram = self.fest_days['ta:paGgun2i~uttiram'][-1]
         self.fest_days['ta:kapAlI dvajArOhaNam'] = [panguni_uttaram - 9]
-        self.fest_days['ta:kapAlI sUrya-candra-vaTTam'] = [panguni_uttaram - 8]
+        self.fest_days['ta:kapAlI sUrya~candra~vaTTam'] = [panguni_uttaram - 8]
         self.fest_days['ta:kapAlI adhikAra nandi'] = [panguni_uttaram - 7]
         self.fest_days['ta:kapAlI bhUtaN bhUtakI'] = [panguni_uttaram - 7]
         # self.fest_days['ta:kapAlI veLLi bhUta vAhan2am'] = [panguni_uttaram - 6]
