@@ -653,8 +653,8 @@ class Panchangam(common.JsonObject):
                     self.festivals[d].append(
                         'sarva-' + jyotisha.panchangam.temporal.get_ekadashi_name('krishna', self.lunar_month[d]))
 
-                harivasara_end = brentq(jyotisha.panchangam.temporal.get_angam_float, self.jd_sunrise[d - 2],
-                                                        self.jd_sunrise[d - 2] + 4, args=(
+                harivasara_end = brentq(jyotisha.panchangam.temporal.get_angam_float, self.jd_sunrise[d] - 2,
+                                                        self.jd_sunrise[d] + 2, args=(
                     jyotisha.panchangam.temporal.TITHI_PADA, -105, self.ayanamsha_id, False))
                 [_y, _m, _d, _t] = swe.revjul(harivasara_end + (tz_off / 24.0))
                 hariv_end_time = jyotisha.panchangam.temporal.Time(swe.revjul(harivasara_end + (tz_off / 24.0))[3]).toString()
@@ -1281,7 +1281,7 @@ class Panchangam(common.JsonObject):
 
             # distance from prabhava
             samvatsara_id = (self.year - 1568) % 60 + 1
-            new_yr = 'mESa-saGkrAnti' + '-(' + jyotisha.panchangam.temporal.NAMES['YEAR']['hk'][(samvatsara_id % 60) + 1] +\
+            new_yr = 'mESa-saGkrAntiH' + '~(' + jyotisha.panchangam.temporal.NAMES['YEAR']['hk'][(samvatsara_id % 60) + 1] +\
                      '-' + 'saMvatsaraH' + ')'
 
             if self.solar_month[d] == 1 and self.solar_month[d - 1] == 12:
@@ -1310,7 +1310,12 @@ class Panchangam(common.JsonObject):
 
         self.fest_days['mahAlaya-pakSa-samApanam'] =\
             [self.fest_days['(bhAdrapada) mahAlaya amAvasyA'][0]]
+        self.fest_days['saptama-aparapakSa-samApanam'] =\
+            [self.fest_days['Azvayuja-amAvasyA'][0]]
+        self.fest_days['navama-aparapakSa-samApanam'] =\
+            [self.fest_days['kArtika-amAvasyA'][0]]
         self.fest_days['ta:varagUr ur2iyaDi utsavam'] = [self.fest_days['zrIkRSNajanmASTamI'][0] + 1]
+        self.fest_days['tiruvizalUr gaGgAkarSaNa-mahOtsava-ArambhaH'] = [self.fest_days['tiruvizalUr gaGgAkarSaNa-mahOtsava-samApanam'][0] - 9]
 
         # KAPALI FESTIVALS
         panguni_uttaram = self.fest_days['ta:paGgun2i~uttiram'][-1]
