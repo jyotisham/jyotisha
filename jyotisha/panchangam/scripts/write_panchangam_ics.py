@@ -180,7 +180,7 @@ def computeIcsCalendar(panchangam):
                             break
 
                     event.add('summary', jyotisha.custom_transliteration.tr(stext.replace(
-                        'samApanam', '').replace('rAtri-','rAtriH').replace('nakSatra-', 'nakSatram').replace('pakSa-', 'pakSam').replace('kara-', 'karam'), panchangam.script))
+                        'samApanam', '').replace('rAtri-','rAtriH').replace('nakSatra-', 'nakSatram').replace('pakSa-', 'pakSaH').replace('kara-', 'karam').replace('tsava-', 'tsavaH'), panchangam.script))
                     event.add('dtstart', (datetime(y, m, dt) - timedelta(d - start_d)).date())
                     event.add('dtend', (datetime(y, m, dt) + timedelta(1)).date())
 
@@ -210,7 +210,7 @@ def computeIcsCalendar(panchangam):
                     event.add('dtstart', date(y, m, dt))
                     event.add('dtend', (datetime(y, m, dt) + timedelta(1)).date())
 
-                    if stext.find('EkAdazI') == -1:
+                    if stext.find('EkAdazI') == -1 and stext.find('saGkrAntiH') == -1:
                         if stext in festival_rules:
                             desc = festival_rules[stext]['Short Description'] + '\n\n' + \
                                    jyotisha.custom_transliteration.tr(festival_rules[stext]['Shloka'], panchangam.script, False) + \
@@ -223,6 +223,20 @@ def computeIcsCalendar(panchangam):
                             sys.stderr.write('No description found for festival %s!\n' % stext)
                         desc += BASE_URL + \
                                 page_id.rstrip('-1234567890').rstrip('0123456789{}\\#')
+                        uid = '%s-%d-%02d' % (page_id, y, m)
+                    elif stext.find('saGkrAntiH') != -1:
+                        # Handle Sankranti descriptions differently
+                        planet_trans = stext.split('~')[0] # get rid of ~(rAshi name) etc.
+                        if planet_trans in festival_rules:
+                            desc = festival_rules[planet_trans]['Short Description'] + '\n\n' + \
+                                   jyotisha.custom_transliteration.tr(festival_rules[planet_trans]['Shloka'], panchangam.script) + '\n\n'
+                            if 'URL' in festival_rules[planet_trans]:
+                                page_id = festival_rules[planet_trans]['URL']
+                            else:
+                                sys.stderr.write('No URL found for festival %s!\n' % stext)
+                        else:
+                            sys.stderr.write('No description found for festival %s!\n' % planet_trans)
+                        desc += '\n' + BASE_URL + page_id
                         uid = '%s-%d-%02d' % (page_id, y, m)
                     else:
                         # Handle ekadashi descriptions differently
