@@ -192,7 +192,10 @@ def computeIcsCalendar(panchangam):
                     if uid not in uid_list:
                         uid_list.append(uid)
                     else:
-                        uid = '%s-%d-%02d-%02d' % (page_id, y, m, dt)
+                        suff = 0
+                        while uid in uid_list:
+                            uid = '%s-%d-%02d-%02d-%d' % (page_id, y, m, dt, suff)
+                            suff += 1
                         uid_list.append(uid)
                     event.add('uid', uid)
                     event['X-MICROSOFT-CDO-ALLDAYEVENT'] = 'TRUE'
@@ -261,7 +264,10 @@ def computeIcsCalendar(panchangam):
                     if uid not in uid_list:
                         uid_list.append(uid)
                     else:
-                        uid = '%s-%d-%02d-%02d' % (page_id, y, m, dt)
+                        suff = 0
+                        while uid in uid_list:
+                            uid = '%s-%d-%02d-%02d-%d' % (page_id, y, m, dt, suff)
+                            suff += 1
                         uid_list.append(uid)
                     event.add('uid', uid)
                     event['X-MICROSOFT-CDO-ALLDAYEVENT'] = 'TRUE'
