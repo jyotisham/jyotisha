@@ -92,6 +92,27 @@ def get_nakshatram(jd, ayanamsha_id=swe.SIDM_LAHIRI):
     return get_angam(jd, NAKSHATRAM, ayanamsha_id=ayanamsha_id)
 
 
+def get_yoga(jd, ayanamsha_id=swe.SIDM_LAHIRI):
+    """Returns the yoha prevailing at a given moment
+
+    Yoga is computed based on the longitude of the Moon and longitude of
+    the Sun; in addition, to obtain the absolute value of the longitude, the
+    ayanamsa is required to be subtracted (for each).
+
+    Args:
+      float jd, the Julian day
+
+    Returns:
+      int yoga, where 1 stands for Vishkambha and 27 stands for Vaidhrti
+
+    Examples:
+      >>> get_yoga(2444961.7125)
+      8
+    """
+
+    return get_angam(jd, YOGAM, ayanamsha_id=ayanamsha_id)
+
+
 def get_solar_rashi(jd, ayanamsha_id=swe.SIDM_LAHIRI):
     """Returns the solar rashi prevailing at a given moment
 

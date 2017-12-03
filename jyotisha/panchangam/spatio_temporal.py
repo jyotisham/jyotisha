@@ -943,10 +943,10 @@ class Panchangam(common.JsonObject):
                     self.addFestival('AyuSmAn-bava-saumya', d, debugFestivals)
 
             # VYATIPATAM
-            if jyotisha.panchangam.temporal.get_angam(self.jd_sunrise[d], jyotisha.panchangam.temporal.YOGAM, ayanamsha_id=self.ayanamsha_id) == 17 and self.solar_month[d] == 9:
+            if jyotisha.panchangam.temporal.get_yoga(self.jd_sunrise[d], ayanamsha_id=self.ayanamsha_id) == 17 and self.solar_month[d] == 9:
                 self.addFestival('mahAdhanurvyatIpAtam', d, debugFestivals)
 
-            if jyotisha.panchangam.temporal.get_angam(self.jd_sunrise[d], jyotisha.panchangam.temporal.YOGAM, ayanamsha_id=self.ayanamsha_id) == 17 and self.solar_month[d] == 6:
+            if jyotisha.panchangam.temporal.get_yoga(self.jd_sunrise[d], ayanamsha_id=self.ayanamsha_id) == 17 and self.solar_month[d] == 6:
                 self.addFestival('mahAvyatIpAtam', d, debugFestivals)
 
 
@@ -1539,7 +1539,14 @@ class Panchangam(common.JsonObject):
                     self.festivals[fday_pushkara - 1].append('%s-antya-puSkara-samApanam' % jyotisha.panchangam.temporal.NAMES['PUSHKARA']['hk'][rashi1])
                     self.festivals[fday_pushkara - 12].append('%s-antya-puSkara-ArambhaH' % jyotisha.panchangam.temporal.NAMES['PUSHKARA']['hk'][rashi1])
 
-
+        # transits = jyotisha.panchangam.temporal.get_planet_next_transit(self.jd_start, jd_end,
+        #                                    swe.SATURN, ayanamsha_id=self.ayanamsha_id)
+        # if len(transits) > 0:
+        #     for jd_transit, rashi1, rashi2 in transits:
+        #         fday = int(floor(jd_transit) - floor(self.jd_start) + 1)
+        #         self.festivals[fday].append('zani-saGkrAntiH~(%s##\\To{}##%s)' %
+        #                                     (jyotisha.panchangam.temporal.NAMES['RASHI']['hk'][rashi1],
+        #                                     jyotisha.panchangam.temporal.NAMES['RASHI']['hk'][rashi2]))
 
 
     def writeDebugLog(self):
