@@ -1323,6 +1323,7 @@ class Panchangam(common.JsonObject):
             [self.fest_days['kArtika-amAvasyA'][0]]
 
         self.fest_days['ta:varagUr ur2iyaDi utsavam'] = [self.fest_days['zrIkRSNajanmASTamI'][0] + 1]
+        self.fest_days['nandOtsavaH'] = [self.fest_days['zrIkRSNajanmASTamI'][0] + 1]
         self.fest_days['tiruvizalUr gaGgAkarSaNa-mahOtsava-ArambhaH'] = [self.fest_days['tiruvizalUr gaGgAkarSaNa-mahOtsava-samApanam'][0] - 9]
 
         # KAPALI FESTIVALS
