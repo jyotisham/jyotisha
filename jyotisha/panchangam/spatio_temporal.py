@@ -729,33 +729,48 @@ class Panchangam(common.JsonObject):
                             if self.lunar_month[d] == 5:
                                 self.festivals[d][-1] = 'mahA' + self.festivals[d][-1]
 
-            # SHASHTHI Vratam
-            if self.tithi_sunrise[d] == 5 or self.tithi_sunrise[d] == 6:
-                if self.tithi_sunrise[d] == 6 or\
-                   (self.tithi_sunrise[d] == 5 and self.tithi_sunrise[d + 1] == 7):
-                    # otherwise yesterday would have already been assigned
-                    if self.tithi_sunrise[d - 1] != 6:
-                        self.festivals[d].append('SaSThI-vratam')
-                        # kArtika shukla shashthi
-                        if self.lunar_month[d] == 8:
-                            self.festivals[d][-1] = 'skanda' + self.festivals[d][-1]
-                        elif self.lunar_month[d] == 4:
-                            self.festivals[d][-1] = 'kumAra-' + self.festivals[d][-1]
-                        elif self.lunar_month[d] == 6:
-                            self.festivals[d][-1] = 'SaSThIdEvI-' + self.festivals[d][-1]
-                        elif self.lunar_month[d] == 9:
-                            self.festivals[d][-1] = 'subrahmaNya-' + self.festivals[d][-1]
-                elif self.tithi_sunrise[d + 1] == 6:
-                    self.festivals[d + 1].append('SaSThI-vratam')
-                    # self.lunar_month[d] and[d + 1] are same, so checking [d] is enough
-                    if self.lunar_month[d] == 8:
-                        self.festivals[d + 1][-1] = 'skanda' + self.festivals[d + 1][-1]
-                    elif self.lunar_month[d] == 4:
-                        self.festivals[d + 1][-1] = 'kumAra-' + self.festivals[d + 1][-1]
-                    elif self.lunar_month[d] == 6:
-                        self.festivals[d + 1][-1] = 'SaSThIdEvI-' + self.festivals[d + 1][-1]
-                    elif self.lunar_month[d] == 9:
-                        self.festivals[d + 1][-1] = 'subrahmaNya-' + self.festivals[d + 1][-1]
+            # # SHASHTHI Vratam
+            # Check only for Adhika maasa here...
+            festival_name = 'SaSThI-vratam'
+            if self.lunar_month[d] == 8:
+                festival_name = 'skanda' + festival_name
+            elif self.lunar_month[d] == 4:
+                festival_name = 'kumAra-' + festival_name
+            elif self.lunar_month[d] == 6:
+                festival_name = 'SaSThIdEvI-' + festival_name
+            elif self.lunar_month[d] == 9:
+                festival_name = 'subrahmaNya-' + festival_name
+
+            if self.tithi_sunrise[d] == 6 or self.tithi_sunrise[d] == 7:
+                angams = self.get_angams_for_kalas(d, jyotisha.panchangam.temporal.get_tithi,
+                                                   'madhyahna')
+                if angams[0] == 6 or angams[1] == 6:
+                    if festival_name in self.fest_days:
+                        # Check if yesterday was assigned already
+                        # to this purvaviddha festival!
+                        if self.fest_days[festival_name].count(d - 1) == 0:
+                            fday = d
+                    else:
+                        fday = d
+                elif angams[2] == 6 or angams[3] == 6:
+                    fday = d + 1
+                if fday is None:
+                    # This means that the correct angam did not
+                    # touch the kalam on either day!
+                    # sys.stderr.write('Could not assign purvaviddha day for %s!\
+                    # Please check for unusual cases.\n' % festival_name)
+                    if angams[2] == 6 + 1 or angams[3] == 6 + 1:
+                        # Need to assign a day to the festival here
+                        # since the angam did not touch kalam on either day
+                        # BUT ONLY IF YESTERDAY WASN'T ALREADY ASSIGNED,
+                        # THIS BEING PURVAVIDDHA
+                        # Perhaps just need better checking of
+                        # conditions instead of this fix
+                        if festival_name in self.fest_days:
+                            if self.fest_days[festival_name].count(d - 1) == 0:
+                                fday = d
+                        else:
+                            fday = d
 
             # Chandra Darshanam
             if self.tithi_sunrise[d] == 1 or self.tithi_sunrise[d] == 2:
@@ -943,17 +958,19 @@ class Panchangam(common.JsonObject):
                     self.addFestival('AyuSmAn-bava-saumya', d, debugFestivals)
 
             # VYATIPATAM
-            if jyotisha.panchangam.temporal.get_yoga(self.jd_sunrise[d], ayanamsha_id=self.ayanamsha_id) == 17 and self.solar_month[d] == 9:
+            if jyotisha.panchangam.temporal.get_yoga(self.jd_sunrise[d], ayanamsha_id=self.ayanamsha_id) == 17 and self.solar_month[d] in [6, 9]:
                 yogams_yest = self.get_angams_for_kalas(d - 1, jyotisha.panchangam.temporal.get_yoga, 'madhyahna')
-                yogams_today = self.get_angams_for_kalas(d, jyotisha.panchangam.temporal.get_yoga, 'madhyahna')
-                if yogams_yest[0] == 17 or yogams_yest[1] == 17:
-                    self.addFestival('mahAdhanurvyatIpAtam', d - 1, debugFestivals)
+                if self.solar_month[d] == 9:
+                    festival_name = 'mahAdhanurvyatIpAtam'
+                elif self.solar_month[d] == 6:
+                    festival_name = 'mahAvyatIpAtam'
                 else:
-                    self.addFestival('mahAdhanurvyatIpAtam', d, debugFestivals)
-
-            if jyotisha.panchangam.temporal.get_yoga(self.jd_sunrise[d], ayanamsha_id=self.ayanamsha_id) == 17 and self.solar_month[d] == 6:
-                self.addFestival('mahAvyatIpAtam', d, debugFestivals)
-
+                    # Can be used later, for marking Shannavati Tarpana days
+                    festival_name = 'vyatIpAtam'
+                if yogams_yest[0] == 17 or yogams_yest[1] == 17:
+                        self.addFestival(festival_name, d - 1, debugFestivals)
+                else:
+                    self.addFestival(festival_name, d, debugFestivals)
 
             # 8 MAHA DWADASHIS
             if (self.jd_sunrise[d] % 15) == 11 and (self.jd_sunrise[d + 1] % 15) == 11:
@@ -1243,9 +1260,9 @@ class Panchangam(common.JsonObject):
                             #     sys.stderr.write('Assigned paraviddha day for %s!' %
                             #                      festival_name + ' Ignore future warnings!\n')
                         elif priority == 'purvaviddha':
-                            angams_yest = self.get_angams_for_kalas(d - 1, get_angam_func, kala)
-                            if debugFestivals:
-                                print("%angams yest & today:", angams_yest)
+                            # angams_yest = self.get_angams_for_kalas(d - 1, get_angam_func, kala)
+                            # if debugFestivals:
+                            #     print("%angams yest & today:", angams_yest)
                             if angams[0] == angam_num or angams[1] == angam_num:
                                 if festival_name in self.fest_days:
                                     # Check if yesterday was assigned already
@@ -1308,7 +1325,8 @@ class Panchangam(common.JsonObject):
             [self.fest_days['yajurvEda-upAkarma'][0] -
              ((self.weekday_start - 1 + self.fest_days['yajurvEda-upAkarma'][0] - 5) % 7)]
         self.fest_days['bhOgI'] = [self.fest_days['makara-saGkrAnti/uttarAyaNa-puNyakAlaH'][0] - 1]
-        self.fest_days['ta:madhurai mIn2AkSI kOyilil kal yAn2aikku karumbu kODutta lIlai'] = [self.fest_days['makara-saGkrAnti/uttarAyaNa-puNyakAlaH'][0]]
+        self.fest_days['ta:madhurai mIn2AkSI kOyilil kal yAn2aikku karumbu kODutta lIlai'] =\
+            [self.fest_days['makara-saGkrAnti/uttarAyaNa-puNyakAlaH'][0]]
         self.fest_days['hOli'] = [self.fest_days['hOlikA-pUrNimA'][0] + 1]
         self.fest_days['indra-pUjA/gO-pUjA'] =\
             [self.fest_days['makara-saGkrAnti/uttarAyaNa-puNyakAlaH'][0] + 1]
@@ -1322,9 +1340,17 @@ class Panchangam(common.JsonObject):
         self.fest_days['navama-aparapakSa-samApanam'] =\
             [self.fest_days['kArtika-amAvasyA'][0]]
 
-        self.fest_days['ta:varagUr ur2iyaDi utsavam'] = [self.fest_days['zrIkRSNajanmASTamI'][0] + 1]
-        self.fest_days['nandOtsavaH'] = [self.fest_days['zrIkRSNajanmASTamI'][0] + 1]
-        self.fest_days['tiruvizalUr gaGgAkarSaNa-mahOtsava-ArambhaH'] = [self.fest_days['tiruvizalUr gaGgAkarSaNa-mahOtsava-samApanam'][0] - 9]
+        self.fest_days['vEGkaTAcalE jyESTha-abhidyEyakAbhiSEkaH (mutyala-kavacam)'] =\
+            [self.fest_days['vEGkaTAcalE jyESTha-abhidyEyakAbhiSEkaH (svarNa-kavacam)'][0] - 1]
+        self.fest_days['vEGkaTAcalE jyESTha-abhidyEyakAbhiSEkaH (vajra-kavacam)'] =\
+            [self.fest_days['vEGkaTAcalE jyESTha-abhidyEyakAbhiSEkaH (svarNa-kavacam)'][0] - 2]
+
+        self.fest_days['ta:varagUr ur2iyaDi utsavam'] =\
+            [self.fest_days['zrIkRSNajanmASTamI'][0] + 1]
+        self.fest_days['nandOtsavaH'] =\
+            [self.fest_days['zrIkRSNajanmASTamI'][0] + 1]
+        self.fest_days['tiruvizalUr gaGgAkarSaNa-mahOtsava-ArambhaH'] =\
+            [self.fest_days['tiruvizalUr gaGgAkarSaNa-mahOtsava-samApanam'][0] - 9]
 
         # KAPALI FESTIVALS
         panguni_uttaram = self.fest_days['ta:paGgun2i~uttiram'][-1]
@@ -1364,29 +1390,45 @@ class Panchangam(common.JsonObject):
         chendur_masi = self.fest_days['ta:tiruccendUr mAcit tiruvizhA nir2aivu'][-1]
         self.fest_days['ta:tiruccendUr murugan2 mAcit tiruvizhA toDakkam'] = [chendur_masi - 11]
         self.fest_days['ta:tiruccendUr murugan2 mAcit tiruvizhA ##2##m nAL'] = [chendur_masi - 10]
-        self.fest_days['ta:tiruccendUr murugan2 mAcit tiruvizhA ##3##m nAL—murugan2 bhavan2i'] = [chendur_masi - 9]
+        self.fest_days['ta:tiruccendUr murugan2 mAcit tiruvizhA ##3##m nAL—murugan2 bhavan2i'] =\
+            [chendur_masi - 9]
         self.fest_days['ta:tiruccendUr murugan2 mAcit tiruvizhA ##4##m nAL'] = [chendur_masi - 8]
         self.fest_days['ta:tiruccendUr murugan2 mAcit tiruvizhA ##5##m nAL'] = [chendur_masi - 7]
-        self.fest_days['ta:tiruccendUr murugan2 mAcit tiruvizhA ##6##m nAL—veLLit tEr bhavan2i'] = [chendur_masi - 6]
-        self.fest_days['ta:tiruccendUr murugan2 mAcit tiruvizhA ##7##m nAL—urugu cattac cEvai/cigappu cAtti alaGkAram'] = [chendur_masi - 5]
-        self.fest_days['ta:tiruccendUr murugan2 mAcit tiruvizhA ##8##m nAL—paccai cAtti alaGkAram'] = [chendur_masi - 4]
-        self.fest_days['ta:tiruccendUr murugan2 mAcit tiruvizhA ##9##m nAL—taGga kailAca vAhan2am'] = [chendur_masi - 3]
-        self.fest_days['ta:tiruccendUr murugan2 mAcit tiruvizhA ##10##m nAL—tEr'] = [chendur_masi - 2]
+        self.fest_days['ta:tiruccendUr murugan2 mAcit tiruvizhA ##6##m nAL—veLLit tEr bhavan2i'] =\
+            [chendur_masi - 6]
+        self.fest_days['ta:tiruccendUr murugan2 mAcit tiruvizhA ##7##m nAL—urugu cattac cEvai/cigappu cAtti alaGkAram'] =\
+            [chendur_masi - 5]
+        self.fest_days['ta:tiruccendUr murugan2 mAcit tiruvizhA ##8##m nAL—paccai cAtti alaGkAram'] =\
+            [chendur_masi - 4]
+        self.fest_days['ta:tiruccendUr murugan2 mAcit tiruvizhA ##9##m nAL—taGga kailAca vAhan2am'] =\
+            [chendur_masi - 3]
+        self.fest_days['ta:tiruccendUr murugan2 mAcit tiruvizhA ##10##m nAL—tEr'] =\
+            [chendur_masi - 2]
         self.fest_days['ta:tiruccendUr murugan2 teppam'] = [chendur_masi - 1]
 
         chendur_avani = self.fest_days['ta:tiruccendUr AvaNit tiruvizhA nir2aivu'][-1]
-        self.fest_days['ta:tiruccendUr murugan2 AvaNit tiruvizhA toDakkam/koDiyEr2r2am'] = [chendur_avani - 11]
-        self.fest_days['ta:tiruccendUr murugan2 AvaNit tiruvizhA ##2##m nAL'] = [chendur_avani - 10]
-        self.fest_days['ta:tiruccendUr murugan2 AvaNit tiruvizhA ##3##m nAL—murugan2 bhavan2i'] = [chendur_avani - 9]
-        self.fest_days['ta:tiruccendUr murugan2 AvaNit tiruvizhA ##4##m nAL—yAn2ai vAhanattil murugan2-ambAL bhavan2i'] = [chendur_avani - 8]
-        self.fest_days['ta:tiruccendUr murugan2 AvaNit tiruvizhA ##5##m nAL'] = [chendur_avani - 7]
-        self.fest_days['ta:tiruccendUr murugan2 AvaNit tiruvizhA ##6##m nAL—veLLit tEr bhavan2i'] = [chendur_avani - 6]
-        self.fest_days['ta:tiruccendUr murugan2 AvaNit tiruvizhA ##7##m nAL—cigappu cAtti alaGkAram'] = [chendur_avani - 5]
-        self.fest_days['ta:tiruccendUr murugan2 AvaNit tiruvizhA ##8##m nAL—paccai cAtti alaGkAram'] = [chendur_avani - 4]
-        self.fest_days['ta:tiruccendUr murugan2 AvaNit tiruvizhA ##9##m nAL'] = [chendur_avani - 3]
-        self.fest_days['ta:tiruccendUr murugan2 AvaNit tiruvizhA ##10##m nAL—tEr'] = [chendur_avani - 2]
-        self.fest_days['ta:tiruccendUr murugan2 AvaNit tiruvizhA ##11##m nAL'] = [chendur_avani - 1]
-
+        self.fest_days['ta:tiruccendUr murugan2 AvaNit tiruvizhA toDakkam/koDiyEr2r2am'] =\
+            [chendur_avani - 11]
+        self.fest_days['ta:tiruccendUr murugan2 AvaNit tiruvizhA ##2##m nAL'] =\
+            [chendur_avani - 10]
+        self.fest_days['ta:tiruccendUr murugan2 AvaNit tiruvizhA ##3##m nAL—murugan2 bhavan2i'] =\
+            [chendur_avani - 9]
+        self.fest_days['ta:tiruccendUr murugan2 AvaNit tiruvizhA ##4##m nAL—yAn2ai vAhanattil murugan2-ambAL bhavan2i'] =\
+            [chendur_avani - 8]
+        self.fest_days['ta:tiruccendUr murugan2 AvaNit tiruvizhA ##5##m nAL'] =\
+            [chendur_avani - 7]
+        self.fest_days['ta:tiruccendUr murugan2 AvaNit tiruvizhA ##6##m nAL—veLLit tEr bhavan2i'] =\
+            [chendur_avani - 6]
+        self.fest_days['ta:tiruccendUr murugan2 AvaNit tiruvizhA ##7##m nAL—cigappu cAtti alaGkAram'] =\
+            [chendur_avani - 5]
+        self.fest_days['ta:tiruccendUr murugan2 AvaNit tiruvizhA ##8##m nAL—paccai cAtti alaGkAram'] =\
+            [chendur_avani - 4]
+        self.fest_days['ta:tiruccendUr murugan2 AvaNit tiruvizhA ##9##m nAL'] =\
+            [chendur_avani - 3]
+        self.fest_days['ta:tiruccendUr murugan2 AvaNit tiruvizhA ##10##m nAL—tEr'] =\
+            [chendur_avani - 2]
+        self.fest_days['ta:tiruccendUr murugan2 AvaNit tiruvizhA ##11##m nAL'] =\
+            [chendur_avani - 1]
 
         # if debugFestivals:
         #     print('%', self.fest_days)

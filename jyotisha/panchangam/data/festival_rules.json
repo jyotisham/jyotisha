@@ -1194,6 +1194,21 @@
     "Primary Reference": "",
     "Comments": ""
   },
+  "vEGkaTAcalE jyESTha-abhidyEyakAbhiSEkaH (svarNa-kavacam)": {
+    "Month Type": "lunar_month",
+    "Month Number": 3,
+    "Angam Type": "tithi",
+    "Angam Number": 15,
+    "Tags": "purnima-days,less-common-festivals,danam-days",
+    "URL": "abhidyeyaka-abhisheka",
+    "Short Description": "",
+    "Shloka": "",
+    "Other Names": "",
+    "Nirnaya": "",
+    "Secondary Reference": "",
+    "Primary Reference": "",
+    "Comments": ""
+  },
   "kabIradAsa~jayantI": {
     "Month Type": "lunar_month",
     "Month Number": 3,
@@ -1374,8 +1389,19 @@
     "Primary Reference": "",
     "Comments": ""
   },
+  "SaSThI-vratam": {
+    "Tags": "monthly-vratams,shashthi-vratam-days",
+    "URL": "shashthi-vratam",
+    "Short Description": "",
+    "Shloka": "",
+    "Other Names": "",
+    "Nirnaya": "",
+    "Secondary Reference": "",
+    "Primary Reference": "",
+    "Comments": ""
+  },
   "kumAra-SaSThI-vratam": {
-    "Tags": "special-vratams",
+    "Tags": "monthly-vratams,shashthi-vratam-days",
     "URL": "kumara-shashthi-vratam",
     "Short Description": "`upavAsam` with only water and next day `pAraNa` gives `Arogyam`",
     "Shloka": "ASADha zuklaSaSThI tu tithiH kaumArilA smRtA.\nkumAramarcayEttatra pUrvatrOpESya vai dinam..",
@@ -1386,7 +1412,7 @@
     "Comments": ""
   },
   "SaSThIdEvI-SaSThI-vratam": {
-    "Tags": "special-vratams",
+    "Tags": "monthly-vratams,shashthi-vratam-days",
     "URL": "shashthidevi-shashthi-vratam",
     "Short Description": "Skanda darshanam is recommended, removes sins including brahmahatya.",
     "Shloka": "yO'syAM pazyati gAGgEyaM dakSiNApathavAsinam .\nbrahmahatyAdi pApaistu mucyatE nAtra saMzayaH ..",
@@ -1396,8 +1422,19 @@
     "Primary Reference": "",
     "Comments": ""
   },
+  "skanda-SaSThI-vratam": {
+    "Tags": "monthly-vratams,shashthi-vratam-days",
+    "URL": "shashthi-vratam",
+    "Short Description": "",
+    "Shloka": "",
+    "Other Names": "",
+    "Nirnaya": "",
+    "Secondary Reference": "",
+    "Primary Reference": "",
+    "Comments": ""
+  },
   "subrahmaNya-SaSThI-vratam": {
-    "Tags": "special-vratams",
+    "Tags": "monthly-vratams,shashthi-vratam-days",
     "URL": "subrahmanya-shashthi-vratam",
     "Short Description": "Also known as `campA/campaka SaSThI`",
     "Shloka": "sEnAvidAraka skanda mahAsEna mahAbala.\nrudrOmAgnija SaDvaktra gaGgAgarbha namO'stu tE..",
@@ -2628,6 +2665,21 @@
     "Angam Number": 9,
     "Tags": "less-common-festivals",
     "URL": "godhuma-navami",
+    "Short Description": "Durga Puja",
+    "Shloka": "",
+    "Other Names": "",
+    "Nirnaya": "",
+    "Secondary Reference": "",
+    "Primary Reference": "",
+    "Comments": ""
+  },
+  "nandA~navamI": {
+    "Month Type": "lunar_month",
+    "Month Number": 6,
+    "Angam Type": "tithi",
+    "Angam Number": 9,
+    "Tags": "less-common-festivals",
+    "URL": "nanda-navami",
     "Short Description": "Durga Puja",
     "Shloka": "",
     "Other Names": "",
@@ -4248,6 +4300,23 @@
     "priority": "purvaviddha",
     "Tags": "less-common-festivals",
     "URL": "devasena-panchami",
+    "Short Description": "",
+    "Shloka": "",
+    "Other Names": "",
+    "Nirnaya": "",
+    "Secondary Reference": "",
+    "Primary Reference": "",
+    "Comments": ""
+  },
+  "pANDava~(lAbha)-paJcamI": {
+    "Month Type": "lunar_month",
+    "Month Number": 8,
+    "Angam Type": "tithi",
+    "Angam Number": 5,
+    "kala": "madhyahna",
+    "priority": "purvaviddha",
+    "Tags": "less-common-festivals",
+    "URL": "pandava-panchami",
     "Short Description": "",
     "Shloka": "",
     "Other Names": "",
@@ -5965,6 +6034,57 @@
     "Primary Reference": "",
     "Comments": ""
   },
+  "nandA-saptamI~1": {
+    "Month Type": "lunar_month",
+    "Month Number": 9,
+    "Angam Type": "tithi",
+    "Angam Number": 7,
+    "kala": "madhyahna",
+    "priority": "purvaviddha",
+    "Tags": "special-vratams,less-common-festivals",
+    "URL": "nanda-saptami",
+    "Short Description": "",
+    "Shloka": "",
+    "Other Names": "",
+    "Nirnaya": "",
+    "Secondary Reference": "Chaturvarga Chintamani",
+    "Primary Reference": "Bhavishyottara Puranam",
+    "Comments": ""
+  },
+  "nandA-saptamI~2": {
+    "Month Type": "lunar_month",
+    "Month Number": 12,
+    "Angam Type": "tithi",
+    "Angam Number": 7,
+    "kala": "madhyahna",
+    "priority": "purvaviddha",
+    "Tags": "special-vratams,less-common-festivals",
+    "URL": "nanda-saptami",
+    "Short Description": "",
+    "Shloka": "",
+    "Other Names": "",
+    "Nirnaya": "",
+    "Secondary Reference": "",
+    "Primary Reference": "",
+    "Comments": ""
+  },
+  "nikSubhArka-saptamI": {
+    "Month Type": "lunar_month",
+    "Month Number": 11,
+    "Angam Type": "tithi",
+    "Angam Number": 19,
+    "kala": "madhyahna",
+    "priority": "purvaviddha",
+    "Tags": "special-vratams,less-common-festivals",
+    "URL": "nanda-saptami",
+    "Short Description": "",
+    "Shloka": "",
+    "Other Names": "",
+    "Nirnaya": "",
+    "Secondary Reference": "Chaturvarga Chintamani",
+    "Primary Reference": "Bhavisyat Purana",
+    "Comments": ""
+  },
   "badarI jyOtirmaTha-pratiSThApana~jayantI": {
     "Month Type": "lunar_month",
     "Month Number": 10,
@@ -6878,6 +6998,23 @@
     "Primary Reference": "",
     "Comments": ""
   },
+  "ta:tiruvaNNAmalai~dIpam": {
+    "Month Type": "solar_month",
+    "Month Number": 8,
+    "Angam Type": "nakshatram",
+    "Angam Number": 3,
+    "kala": "ratrimana",
+    "priority": "purvaviddha",
+    "Tags": "common-festivals",
+    "URL": "tiruvannamalai-dipam",
+    "Short Description": "",
+    "Shloka": "",
+    "Other Names": "",
+    "Nirnaya": "",
+    "Secondary Reference": "",
+    "Primary Reference": "",
+    "Comments": ""
+  },
   "ta:sarvAlaya~dIpam": {
     "Month Type": "solar_month",
     "Month Number": 8,
@@ -6943,7 +7080,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "ta:ADi~kiruttikai": {
+  "ta:ADik~kiruttikai": {
     "Month Type": "solar_month",
     "Month Number": 4,
     "Angam Type": "nakshatram",
@@ -7094,7 +7231,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "ONam": {
+  "ta:ONam": {
     "Month Type": "solar_month",
     "Month Number": 5,
     "Angam Type": "nakshatram",
@@ -7299,7 +7436,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "ta:ADi~perukku": {
+  "ta:ADip~perukku": {
     "Month Type": "solar_month",
     "Month Number": 4,
     "Angam Type": "day",
@@ -9656,31 +9793,9 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "SaSThI-vratam": {
-    "Tags": "monthly-vratams,shashthi-vratam-days",
-    "URL": "shashthi-vratam",
-    "Short Description": "",
-    "Shloka": "",
-    "Other Names": "",
-    "Nirnaya": "",
-    "Secondary Reference": "",
-    "Primary Reference": "",
-    "Comments": ""
-  },
   "SaTtilA-EkAdazI": {
     "Tags": "monthly-vratams,ekadashi-vratam-days",
     "URL": "shattila-ekadashi",
-    "Short Description": "",
-    "Shloka": "",
-    "Other Names": "",
-    "Nirnaya": "",
-    "Secondary Reference": "",
-    "Primary Reference": "",
-    "Comments": ""
-  },
-  "skandaSaSThI-vratam": {
-    "Tags": "skandashashthi-vratam-days,monthly-vratams",
-    "URL": "skandashashthi-vratam",
     "Short Description": "",
     "Shloka": "",
     "Other Names": "",
@@ -10206,7 +10321,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "ta:kAraDaiyAn2 nOmbu": {
+  "ta:kAraDaiyAn2 nOn2bu": {
     "Tags": "common-festivals-tamilnadu",
     "URL": "karadaiyan-nombu",
     "Short Description": "",
