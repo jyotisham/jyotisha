@@ -944,7 +944,12 @@ class Panchangam(common.JsonObject):
 
             # VYATIPATAM
             if jyotisha.panchangam.temporal.get_yoga(self.jd_sunrise[d], ayanamsha_id=self.ayanamsha_id) == 17 and self.solar_month[d] == 9:
-                self.addFestival('mahAdhanurvyatIpAtam', d, debugFestivals)
+                yogams_yest = self.get_angams_for_kalas(d - 1, jyotisha.panchangam.temporal.get_yoga, 'madhyahna')
+                yogams_today = self.get_angams_for_kalas(d, jyotisha.panchangam.temporal.get_yoga, 'madhyahna')
+                if yogams_yest[0] == 17 or yogams_yest[1] == 17:
+                    self.addFestival('mahAdhanurvyatIpAtam', d - 1, debugFestivals)
+                else:
+                    self.addFestival('mahAdhanurvyatIpAtam', d, debugFestivals)
 
             if jyotisha.panchangam.temporal.get_yoga(self.jd_sunrise[d], ayanamsha_id=self.ayanamsha_id) == 17 and self.solar_month[d] == 6:
                 self.addFestival('mahAvyatIpAtam', d, debugFestivals)
