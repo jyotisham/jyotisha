@@ -232,6 +232,7 @@ def main():
     panchangam = scripts.get_panchangam(city=city, year=year, script=script, computeLagnams=computeLagnams)
 
     panchangam.computeFestivals()
+    panchangam.assignRelativeFestivals()
     panchangam.computeSolarEclipses()
     panchangam.computeLunarEclipses()
     panchangam.computeTransits()

@@ -346,7 +346,7 @@ class Panchangam(common.JsonObject):
             if solar_month_end_jd is not None:  # month ends today
                 if (self.solar_month[d] == 12 and solar_month_day == 1) or\
                    (self.solar_month[d] == 11 and solar_month_day != 1):
-                    self.fest_days['ta:kAraDaiyAn2 nOmbu'] = [d]
+                    self.fest_days['ta:kAraDaiyAn2 nOn2bu'] = [d]
 
             # Compute the various kalas
             # Sunrise/sunset and related stuff (like rahu, yama)
@@ -1295,6 +1295,7 @@ class Panchangam(common.JsonObject):
             # An error here implies the festivals were not assigned: adhika
             # mAsa calc errors??
 
+    def assignRelativeFestivals(self):
         # Add "RELATIVE" festivals --- festivals that happen before or
         # after other festivals with an exact timedelta!
         self.fest_days['gAyatrI-japaH'] = [self.fest_days['yajurvEda-upAkarma'][0] + 1]
@@ -1302,6 +1303,7 @@ class Panchangam(common.JsonObject):
             [self.fest_days['yajurvEda-upAkarma'][0] -
              ((self.weekday_start - 1 + self.fest_days['yajurvEda-upAkarma'][0] - 5) % 7)]
         self.fest_days['bhOgI'] = [self.fest_days['makara-saGkrAnti/uttarAyaNa-puNyakAlaH'][0] - 1]
+        self.fest_days['ta:madhurai mIn2AkSI kOyilil kal yAn2aikku karumbu kODutta lIlai'] = [self.fest_days['makara-saGkrAnti/uttarAyaNa-puNyakAlaH'][0]]
         self.fest_days['hOli'] = [self.fest_days['hOlikA-pUrNimA'][0] + 1]
         self.fest_days['indra-pUjA/gO-pUjA'] =\
             [self.fest_days['makara-saGkrAnti/uttarAyaNa-puNyakAlaH'][0] + 1]
@@ -1314,6 +1316,7 @@ class Panchangam(common.JsonObject):
             [self.fest_days['Azvayuja-amAvasyA'][0]]
         self.fest_days['navama-aparapakSa-samApanam'] =\
             [self.fest_days['kArtika-amAvasyA'][0]]
+
         self.fest_days['ta:varagUr ur2iyaDi utsavam'] = [self.fest_days['zrIkRSNajanmASTamI'][0] + 1]
         self.fest_days['tiruvizalUr gaGgAkarSaNa-mahOtsava-ArambhaH'] = [self.fest_days['tiruvizalUr gaGgAkarSaNa-mahOtsava-samApanam'][0] - 9]
 
@@ -1351,8 +1354,36 @@ class Panchangam(common.JsonObject):
         self.fest_days['ta:cidambaram tEr'] = [aani_tirumanjanam - 1]
         self.fest_days['ta:cidambaram muttuppallakku'] = [aani_tirumanjanam + 1]
 
-        if debugFestivals:
-            print('%', self.fest_days)
+        # TIRUCHENDUR FESTIVALS
+        chendur_masi = self.fest_days['ta:tiruccendUr mAcit tiruvizhA nir2aivu'][-1]
+        self.fest_days['ta:tiruccendUr murugan2 mAcit tiruvizhA toDakkam'] = [chendur_masi - 11]
+        self.fest_days['ta:tiruccendUr murugan2 mAcit tiruvizhA ##2##m nAL'] = [chendur_masi - 10]
+        self.fest_days['ta:tiruccendUr murugan2 mAcit tiruvizhA ##3##m nAL—murugan2 bhavan2i'] = [chendur_masi - 9]
+        self.fest_days['ta:tiruccendUr murugan2 mAcit tiruvizhA ##4##m nAL'] = [chendur_masi - 8]
+        self.fest_days['ta:tiruccendUr murugan2 mAcit tiruvizhA ##5##m nAL'] = [chendur_masi - 7]
+        self.fest_days['ta:tiruccendUr murugan2 mAcit tiruvizhA ##6##m nAL—veLLit tEr bhavan2i'] = [chendur_masi - 6]
+        self.fest_days['ta:tiruccendUr murugan2 mAcit tiruvizhA ##7##m nAL—urugu cattac cEvai/cigappu cAtti alaGkAram'] = [chendur_masi - 5]
+        self.fest_days['ta:tiruccendUr murugan2 mAcit tiruvizhA ##8##m nAL—paccai cAtti alaGkAram'] = [chendur_masi - 4]
+        self.fest_days['ta:tiruccendUr murugan2 mAcit tiruvizhA ##9##m nAL—taGga kailAca vAhan2am'] = [chendur_masi - 3]
+        self.fest_days['ta:tiruccendUr murugan2 mAcit tiruvizhA ##10##m nAL—tEr'] = [chendur_masi - 2]
+        self.fest_days['ta:tiruccendUr murugan2 teppam'] = [chendur_masi - 1]
+
+        chendur_avani = self.fest_days['ta:tiruccendUr AvaNit tiruvizhA nir2aivu'][-1]
+        self.fest_days['ta:tiruccendUr murugan2 AvaNit tiruvizhA toDakkam/koDiyEr2r2am'] = [chendur_avani - 11]
+        self.fest_days['ta:tiruccendUr murugan2 AvaNit tiruvizhA ##2##m nAL'] = [chendur_avani - 10]
+        self.fest_days['ta:tiruccendUr murugan2 AvaNit tiruvizhA ##3##m nAL—murugan2 bhavan2i'] = [chendur_avani - 9]
+        self.fest_days['ta:tiruccendUr murugan2 AvaNit tiruvizhA ##4##m nAL—yAn2ai vAhanattil murugan2-ambAL bhavan2i'] = [chendur_avani - 8]
+        self.fest_days['ta:tiruccendUr murugan2 AvaNit tiruvizhA ##5##m nAL'] = [chendur_avani - 7]
+        self.fest_days['ta:tiruccendUr murugan2 AvaNit tiruvizhA ##6##m nAL—veLLit tEr bhavan2i'] = [chendur_avani - 6]
+        self.fest_days['ta:tiruccendUr murugan2 AvaNit tiruvizhA ##7##m nAL—cigappu cAtti alaGkAram'] = [chendur_avani - 5]
+        self.fest_days['ta:tiruccendUr murugan2 AvaNit tiruvizhA ##8##m nAL—paccai cAtti alaGkAram'] = [chendur_avani - 4]
+        self.fest_days['ta:tiruccendUr murugan2 AvaNit tiruvizhA ##9##m nAL'] = [chendur_avani - 3]
+        self.fest_days['ta:tiruccendUr murugan2 AvaNit tiruvizhA ##10##m nAL—tEr'] = [chendur_avani - 2]
+        self.fest_days['ta:tiruccendUr murugan2 AvaNit tiruvizhA ##11##m nAL'] = [chendur_avani - 1]
+
+
+        # if debugFestivals:
+        #     print('%', self.fest_days)
 
         for festival_name in self.fest_days:
             for j in range(0, len(self.fest_days[festival_name])):

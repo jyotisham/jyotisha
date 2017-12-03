@@ -296,6 +296,7 @@ def main():
 
 
     panchangam.computeFestivals()
+    panchangam.assignRelativeFestivals()
     panchangam.computeSolarEclipses()
     panchangam.computeLunarEclipses()
     panchangam.computeTransits()
