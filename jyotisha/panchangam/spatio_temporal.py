@@ -264,12 +264,12 @@ class Panchangam(common.JsonObject):
                 lon=self.city.longitude, lat=self.city.latitude,
                 rsmi=swe.CALC_SET | swe.BIT_DISC_CENTER)[1][0]
             self.jd_moonrise[d + 1] = swe.rise_trans(
-                jd_start=jd + 1,
+                jd_start=self.jd_sunrise[d + 1],
                 body=swe.MOON, lon=self.city.longitude,
                 lat=self.city.latitude,
                 rsmi=swe.CALC_RISE | swe.BIT_DISC_CENTER)[1][0]
             self.jd_moonset[d + 1] = swe.rise_trans(
-                jd_start=jd + 1, body=swe.MOON,
+                jd_start=self.jd_moonrise[d + 1], body=swe.MOON,
                 lon=self.city.longitude, lat=self.city.latitude,
                 rsmi=swe.CALC_SET | swe.BIT_DISC_CENTER)[1][0]
 
