@@ -156,13 +156,13 @@ def get_solar_month_day(jd_start, city, ayanamsha_id=swe.SIDM_LAHIRI):
                              lat=city.latitude, rsmi=swe.CALC_SET | swe.BIT_DISC_CENTER)[1][0]
 
   solar_month = get_angam(jd_sunset, SOLAR_MONTH, ayanamsha_id=ayanamsha_id)
-  target = floor(solar_month) - 1
+  target = floor(get_angam_float(jd_sunset, SOLAR_MONTH, ayanamsha_id=ayanamsha_id))
 
-  logging.debug(jd_start)
+  logging.debug(jd_sunset)
   logging.debug(target)
-  logging.debug(get_angam_float(jd_start - 34, SOLAR_MONTH, -target, ayanamsha_id, False))
-  logging.debug(get_angam_float(jd_start + 1, SOLAR_MONTH, -target, ayanamsha_id, False))
-  jd_masa_transit = brentq(get_angam_float, jd_start - 34, jd_start + 1,
+  logging.debug(get_angam_float(jd_sunset - 34, SOLAR_MONTH, -target, ayanamsha_id, False))
+  logging.debug(get_angam_float(jd_sunset + 1, SOLAR_MONTH, -target, ayanamsha_id, False))
+  jd_masa_transit = brentq(get_angam_float, jd_start - 34, jd_sunset,
                            args=(SOLAR_MONTH, -target, ayanamsha_id, False))
 
   jd_next_sunset = swe.rise_trans(jd_start=jd_masa_transit, body=swe.SUN,
@@ -243,6 +243,7 @@ class Panchangam(common.JsonObject):
                                                                  ayanamsha_id=self.ayanamsha_id)
 
     if self.solar_month[1] != 9:
+      logging.error(self.solar_month[1])
       raise (ValueError('Dec 31 does not appear to be Dhanurmasa!'))
 
     month_start_after_sunset = False
