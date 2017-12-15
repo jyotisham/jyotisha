@@ -87,6 +87,7 @@ setup(
     'indic_transliteration',
     'icalendar',
     'pytz',
+    'geocoder', 'numpy', 'flask', 'jsonpickle'
   ],
 
   # List additional groups of dependencies here (e.g. development

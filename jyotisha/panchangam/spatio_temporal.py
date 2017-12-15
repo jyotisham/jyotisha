@@ -1602,7 +1602,7 @@ class Panchangam(common.JsonObject):
         #                                     jyotisha.panchangam.temporal.NAMES['RASHI']['hk'][rashi2]))
 
 
-    def writeDebugLog(self):
+    def write_debug_log(self):
         log_file = open('cal-%4d-%s-log.txt' % (self.year, self.city.name), 'w')
         # helper_functions.MAX_SZ = 368
         for d in range(1, jyotisha.panchangam.temporal.MAX_SZ - 1):
@@ -1618,6 +1618,12 @@ class Panchangam(common.JsonObject):
                                       self.solar_month[d], self.lunar_month[d])
             log_file.write(log_data)
 
+    def add_details(self):
+        self.computeFestivals()
+        self.assignRelativeFestivals()
+        self.computeSolarEclipses()
+        self.computeLunarEclipses()
+        self.computeTransits()
 
 
 

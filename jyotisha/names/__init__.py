@@ -4,10 +4,10 @@ import swisseph as swe
 SIDM_TRUE_PUSHYA = 29
 SIDM_TRUE_MULA = 35
 
+
 def get_ayanamsha_name(ayanamsha_id):
   if ayanamsha_id == SIDM_TRUE_MULA:
     return "true mula"
   if ayanamsha_id == SIDM_TRUE_PUSHYA:
     return "true pushya"
   return swe.get_ayanamsa_name(ayanamsha_id)
-

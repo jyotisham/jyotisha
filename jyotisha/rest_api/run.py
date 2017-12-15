@@ -27,7 +27,7 @@ def setup_app():
   app.register_blueprint(api_v1.api_blueprint, url_prefix="/jyotisha")
 
 
-def main(argv):
+def main(argv_unused):
   setup_app()
   app.run(
     host="0.0.0.0",
@@ -39,7 +39,7 @@ def main(argv):
 
 if __name__ == "__main__":
   logging.info("Running in stand-alone mode.")
-  main(sys.argv[1:])
+  main()
 else:
   logging.info("Likely running as a WSGI app.")
   setup_app()
