@@ -39,6 +39,7 @@ class City(JsonObject):
 
     def __init__(self, name, latitude, longitude, timezone):
         """Constructor for city"""
+        super().__init__()
         self.name = name
         self.latstr = latitude
         self.lonstr = longitude
@@ -114,9 +115,9 @@ def get_lagna_data(jd_sunrise, lat, lon, tz_off, ayanamsha_id=swe.SIDM_LAHIRI, d
     for lagna in lagna_list:
         # print('---\n', lagna)
         if (debug):
-            print('lagna sunrise', get_lagna_float(jd_sunrise, ayanamsha_id=ayanamsha_id))
-            print('lbrack', get_lagna_float(lbrack, lat, lon, -lagna, ayanamsha_id=ayanamsha_id))
-            print('rbrack', get_lagna_float(rbrack, lat, lon, -lagna, ayanamsha_id=ayanamsha_id))
+            print('lagna sunrise', get_lagna_float(jd_sunrise, lat, lon, ayanamsha_id=ayanamsha_id))
+            print('lbrack', get_lagna_float(lbrack, lat, lon, int(-lagna), ayanamsha_id=ayanamsha_id))
+            print('rbrack', get_lagna_float(rbrack, lat, lon,  int(-lagna), ayanamsha_id=ayanamsha_id))
 
         lagna_end_time = brentq(get_lagna_float, lbrack, rbrack,
                                 args=(lat, lon, -lagna, debug))
@@ -182,6 +183,7 @@ class Panchangam(common.JsonObject):
     def __init__(self, city, year=2012, script=sanscript.DEVANAGARI, fmt='hh:mm', ayanamsha_id=swe.SIDM_LAHIRI):
         """Constructor for the panchangam.
         """
+        super().__init__()
         self.city = city
         self.year = year
         self.script = script
@@ -294,6 +296,7 @@ class Panchangam(common.JsonObject):
                 solar_month_day = 0
                 month_start_after_sunset = False
 
+            solar_month_end_jd = None
             if self.solar_month[d] != self.solar_month[d + 1]:
                 solar_month_day = solar_month_day + 1
                 if self.solar_month[d] != solar_month_sunrise[d + 1]:
@@ -533,7 +536,6 @@ class Panchangam(common.JsonObject):
         else:
             # Error!
             raise(ValueError, 'Unkown kala "%s" input!' % kala_type)
-            return None
         return angams
 
     def addFestival(self, festival_name, d, debug=False):
@@ -550,6 +552,7 @@ class Panchangam(common.JsonObject):
     def computeFestivals(self):
         # debugFestivals = True
         debugFestivals = False
+        fday = None
 
         for d in range(1, jyotisha.panchangam.temporal.MAX_DAYS_PER_YEAR + 1):
             [y, m, dt, t] = swe.revjul(self.jd_start + d - 1)
@@ -1113,7 +1116,7 @@ class Panchangam(common.JsonObject):
                     self.addFestival('budhAnUrAdhA-puNyakAlaH', d, debugFestivals)
 
             with open(os.path.join(CODE_ROOT, 'panchangam/data/festival_rules.json')) as festivals_data:
-                festival_rules = json.load(festivals_data)
+                festival_rules = json.loads(festivals_data, encoding="utf-8")
 
             for festival_name in festival_rules:
                 if 'Month Type' in festival_rules[festival_name]:
@@ -1198,7 +1201,6 @@ class Panchangam(common.JsonObject):
                         get_angam_func = jyotisha.panchangam.temporal.get_nakshatram
                     else:
                         raise ValueError('Error; unknown string in rule: "%s"' % (angam_type))
-                        return
 
                     fday = None
                     fest_num = None
