@@ -1115,7 +1115,7 @@ class Panchangam(common.JsonObject):
                 if any(x == 17 for x in [self.nakshatram_sunrise[d]]):
                     self.addFestival('budhAnUrAdhA-puNyakAlaH', d, debugFestivals)
 
-            with open(os.path.join(CODE_ROOT, 'panchangam/data/festival_rules.json')) as festivals_data:
+            with open(os.path.join(CODE_ROOT, 'panchangam/data/festival_rules.json'), encoding="utf-8") as festivals_data:
                 festival_rules = json.load(festivals_data, encoding="utf-8")
 
             for festival_name in festival_rules:
