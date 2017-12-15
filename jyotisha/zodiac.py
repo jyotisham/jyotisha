@@ -76,3 +76,41 @@ if __name__ == '__main__':
   # logging.info(lahiri_nakshatra_division)
   # logging.debug(swe.cotrans(lon=20, lat=-90, dist=9999999, obliquity=23.437404))
   lahiri_nakshatra_division.get_stellarium_nakshatra_boundaries()
+
+
+def get_nirayana_sun_lon(jd, offset=0, debug=False):
+    """Returns the nirayana longitude of the sun
+
+      Args:
+        float jd: The Julian Day at which the angam is to be computed
+
+      Returns:
+        float longitude
+
+      Examples:
+    """
+    lsun = (swe.calc_ut(jd, swe.SUN)[0]) % 360
+
+    if debug:
+        print('## get_angam_float(): lsun (nirayana) =', lsun)
+
+    return lsun + offset
+
+
+def get_planet_lon(jd, planet, offset=0, ayanamsha_id=swe.SIDM_LAHIRI):
+    """Returns the longitude of the given planet e.g. swe.JUPITER
+
+      Args:
+        float jd: The Julian Day at which the longitude is to be computed
+        int planet  - e.g. swe.SUN, swe.JUPITER, ...
+
+      Returns:
+        float longitude
+
+      Examples:
+      >>> get_planet_lon(2458008.58, swe.JUPITER)
+      180.00174875784376
+    """
+    swe.set_sid_mode(ayanamsha_id)
+    lon = (swe.calc_ut(jd, planet)[0] - swe.get_ayanamsa(jd)) % 360
+    return lon + offset

@@ -18,6 +18,7 @@ from scipy.optimize import brentq
 import jyotisha.custom_transliteration
 import jyotisha.panchangam
 import jyotisha.panchangam.temporal
+import jyotisha.zodiac
 from jyotisha.custom_transliteration import sexastr2deci
 from jyotisha.panchangam.temporal import get_angam_float, get_angam, SOLAR_MONTH
 
@@ -146,7 +147,7 @@ def get_solar_month_day(jd_start, city, ayanamsha_id=swe.SIDM_LAHIRI):
       int solar_month_day
 
     Examples:
-      >>> get_solar_month_day(2457023.27, city('Chennai', '13:05:24', \
+      >>> get_solar_month_day(2457023.27, City('Chennai', '13:05:24', \
 '80:16:12', 'Asia/Calcutta'))
       (9, 17)
     """
@@ -157,6 +158,10 @@ def get_solar_month_day(jd_start, city, ayanamsha_id=swe.SIDM_LAHIRI):
   solar_month = get_angam(jd_sunset, SOLAR_MONTH, ayanamsha_id=ayanamsha_id)
   target = floor(solar_month) - 1
 
+  logging.debug(jd_start)
+  logging.debug(target)
+  logging.debug(get_angam_float(jd_start - 34, SOLAR_MONTH, -target, ayanamsha_id, False))
+  logging.debug(get_angam_float(jd_start + 1, SOLAR_MONTH, -target, ayanamsha_id, False))
   jd_masa_transit = brentq(get_angam_float, jd_start - 34, jd_start + 1,
                            args=(SOLAR_MONTH, -target, ayanamsha_id, False))
 
@@ -885,7 +890,7 @@ class Panchangam(common.JsonObject):
 
       # MAKARAYANAM
       if self.solar_month[d] == 9 and self.solar_month_day[d] == 1:
-        makara_jd_start = brentq(jyotisha.panchangam.temporal.get_nirayana_sun_lon, self.jd_sunrise[d],
+        makara_jd_start = brentq(jyotisha.zodiac.get_nirayana_sun_lon, self.jd_sunrise[d],
                                  self.jd_sunrise[d] + 15, args=(-270, False))
 
       if self.solar_month[d] == 9 and 3 < self.solar_month_day[d] < 10:
