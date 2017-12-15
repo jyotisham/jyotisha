@@ -42,7 +42,8 @@ class City(JsonObject):
         super().__init__()
         if name is None or name == "":
           self.name = str([latitude, longitude])
-        self.name = name
+        else:
+            self.name = name
         self.latstr = latitude
         self.lonstr = longitude
         self.latitude = sexastr2deci(latitude)
