@@ -9,10 +9,12 @@ For detailed examples and help, please see individual module files in this packa
 * [Web](https://pypi.python.org/pypi/jyotisha).
 
 ## Usage
+- REST API/ swagger web interface - at [vedavaapi](http://api.vedavaapi.org/jyotisha).
 - Please see the generated python sphynx docs in one of the following places:
     - http://jyotisha.readthedocs.io [Broken as of 20170828.]
     - [project page](https://sanskrit-coders.github.io/jyotisha/build/html/jyotisha.html).
     - under docs/_build/html/index.html
+- Command line usage - See [this issue](https://github.com/sanskrit-coders/jyotisha/issues/10).
 
 # For contributors
 ## Contact
