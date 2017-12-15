@@ -27,7 +27,7 @@ def setup_app():
   app.register_blueprint(api_v1.api_blueprint, url_prefix="/jyotisha")
 
 
-def main(argv_unused):
+def main():
   setup_app()
   app.run(
     host="0.0.0.0",

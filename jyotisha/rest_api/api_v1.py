@@ -39,9 +39,9 @@ class DailyCalendarHandler(Resource):
     city = City("", lattitude, longitude, args['timezone'])
     panchangam = scripts.get_panchangam(city=city, year=int(year), script=args['encoding'])
 
-    panchangam.computeFestivals()
-    panchangam.assignRelativeFestivals()
-    panchangam.computeSolarEclipses()
-    panchangam.computeLunarEclipses()
+    panchangam.compute_festivals()
+    panchangam.assign_relative_festivals()
+    panchangam.compute_solar_eclipses()
+    panchangam.compute_lunar_eclipses()
     panchangam.computeTransits()
     return panchangam.to_json_map()

@@ -27,13 +27,13 @@ logging.basicConfig(
 CODE_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
 
 
-
-def writeIcsCalendar(ics_calendar, fname):
+def write_to_file(ics_calendar, fname):
     ics_calendar_file = open(fname, 'wb')
     ics_calendar_file.write(ics_calendar.to_ical())
     ics_calendar_file.close()
 
-def computeIcsCalendar(panchangam):
+
+def compute_calendar(panchangam):
     with open(os.path.join(CODE_ROOT, 'panchangam/data/festival_rules.json')) as festivals_data:
         festival_rules = json.load(festivals_data)
 
@@ -293,16 +293,10 @@ def main():
     city = City(city_name, latitude, longitude, tz)
 
     panchangam = scripts.get_panchangam(city=city, year=year, script=script)
+    panchangam.add_details()
 
-
-    panchangam.computeFestivals()
-    panchangam.assignRelativeFestivals()
-    panchangam.computeSolarEclipses()
-    panchangam.computeLunarEclipses()
-    panchangam.computeTransits()
-
-    ics_calendar = computeIcsCalendar(panchangam)
-    writeIcsCalendar(ics_calendar, '%s-%d-%s.ics' % (city_name, year, script))
+    ics_calendar = compute_calendar(panchangam)
+    write_to_file(ics_calendar, '%s-%d-%s.ics' % (city_name, year, script))
 
 
 if __name__ == '__main__':

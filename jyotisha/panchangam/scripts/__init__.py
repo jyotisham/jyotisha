@@ -29,7 +29,7 @@ def get_panchangam(city, year, script, computeLagnams=False):
     sys.stderr.write('No precomputed data available. Computing panchangam... ')
     sys.stderr.flush()
     panchangam = Panchangam(city=city, year=year, script=script)
-    panchangam.computeAngams(computeLagnams=computeLagnams)
+    panchangam.compute_angams(computeLagnams=computeLagnams)
     panchangam.assignLunarMonths()
     sys.stderr.write('done.\n')
     sys.stderr.write('Writing computed panchangam to %s...' % fname)

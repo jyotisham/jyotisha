@@ -22,7 +22,7 @@ Key Features
 #. Generate an A5 PDF of a *daily calendar* using Python / TeX (using
    ``gen_daily_cal.sh`` or ``write_daily_panchangam_tex.py``)
 #. Generate an ICS calendar file for using with calendaring applications
-   (using ``gen_ics.sh`` or ``write_panchangam_ics.py``)
+   (using ``gen_ics.sh`` or ``ics.py``)
 
 The PDFs and ICS are best generated using a Devanagari (and Tamil)
 scripts, though IAST works as well (mostly).

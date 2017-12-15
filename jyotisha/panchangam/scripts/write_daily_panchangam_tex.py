@@ -231,11 +231,7 @@ def main():
 
     panchangam = scripts.get_panchangam(city=city, year=year, script=script, computeLagnams=computeLagnams)
 
-    panchangam.computeFestivals()
-    panchangam.assignRelativeFestivals()
-    panchangam.computeSolarEclipses()
-    panchangam.computeLunarEclipses()
-    panchangam.computeTransits()
+    panchangam.add_details()
 
     daily_template_file = open(os.path.join(CODE_ROOT, 'panchangam/data/templates/daily_cal_template.tex'))
     writeDailyTeX(panchangam, daily_template_file, computeLagnams)

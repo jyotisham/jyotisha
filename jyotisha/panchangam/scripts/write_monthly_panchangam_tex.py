@@ -258,10 +258,10 @@ def main():
     city = City(city_name, latitude, longitude, tz)
     panchangam = scripts.get_panchangam(city=city, year=year, script=script)
 
-    panchangam.computeFestivals()
-    panchangam.assignRelativeFestivals()
-    panchangam.computeSolarEclipses()
-    panchangam.computeLunarEclipses()
+    panchangam.compute_festivals()
+    panchangam.assign_relative_festivals()
+    panchangam.compute_solar_eclipses()
+    panchangam.compute_lunar_eclipses()
     panchangam.computeTransits()
 
     monthly_template_file = open(os.path.join(CODE_ROOT, 'panchangam/data/templates/monthly_cal_template.tex'))
