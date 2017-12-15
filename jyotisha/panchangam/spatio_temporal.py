@@ -1116,7 +1116,7 @@ class Panchangam(common.JsonObject):
                     self.addFestival('budhAnUrAdhA-puNyakAlaH', d, debugFestivals)
 
             with open(os.path.join(CODE_ROOT, 'panchangam/data/festival_rules.json')) as festivals_data:
-                festival_rules = json.loads(festivals_data, encoding="utf-8")
+                festival_rules = json.load(festivals_data, encoding="utf-8")
 
             for festival_name in festival_rules:
                 if 'Month Type' in festival_rules[festival_name]:
