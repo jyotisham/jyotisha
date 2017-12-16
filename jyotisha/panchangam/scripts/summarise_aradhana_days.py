@@ -36,17 +36,18 @@ if __name__ == '__main__':
                     name = str(' '.join(guru.split()[3:-1])).replace('-', ' ')
                     num = int(guru.split()[1])
                     kali_year = str(aradhana_rules[guru]['Start Year'] - 1)
-                    year_name = NAMES['YEAR'][script][((int(kali_year) + 12) % 60) + 1]
+                    year_name = NAMES['YEAR_NAMES']['hk'][((int(kali_year) + 12) % 60)]
                 else:
                     name = guru[:-9]
                     num = '-'
                     kali_year = '-'
                     year_name = '-'
-                tithi = NAMES['TITHI'][script][aradhana_rules[guru]['Angam Number']]
+                tithi = NAMES['TITHI_NAMES']['hk'][aradhana_rules[guru]['Angam Number']-1]
+                month_name = "UNKNOWN"
                 if aradhana_rules[guru]['Month Type'] == 'lunar_month':
-                    month_name = NAMES['CHANDRA_MASA'][script][aradhana_rules[guru]['Month Number']]
+                    month_name = NAMES['CHANDRA_MASA_NAMES']['hk'][aradhana_rules[guru]['Month Number']-1]
                 elif aradhana_rules[guru]['Month Type'] == 'solar_month':
-                    month_name = NAMES['MASA'][script][aradhana_rules[guru]['Month Number']]
+                    month_name = NAMES['MASA_NAMES']['hk'][aradhana_rules[guru]['Month Number']-1]
                 f.write('| %s | %s | %s | %s | %s | %s |\n' %
                         (num, sanscript.transliterate(name, sanscript.HK, script).title(),
-                         kali_year, year_name, month_name, tithi.replace('-', ' ')))
+                         kali_year, sanscript.transliterate(year_name, sanscript.HK, script), sanscript.transliterate(month_name, sanscript.HK, script), tithi.replace('-', ' ')))

@@ -12,7 +12,7 @@ logging.basicConfig(
 if __name__ == '__main__':
     NAMES = init_names_auto()
 
-    # TODO: Fix the below.
+    # TODO: Verify the below.
     for angam in NAMES:
         fname = '%s_names.md' % angam.lower()
         with open(fname, 'w') as f:
@@ -21,8 +21,8 @@ if __name__ == '__main__':
             f.write('| # | ' + ' | '.join(sorted(list(NAMES[angam].keys()))) + ' |\n')
             f.write('|---| ' + ' | '.join(['-' * len(scr)
                                            for scr in sorted(list(NAMES[angam].keys()))]) + ' |\n')
-            for num in sorted(list(NAMES[angam]['hk'])):
-                line = '| %d' % num
-                for scr in sorted(list(NAMES[angam].keys())):
-                    line += ' | ' + NAMES[angam][scr][num]
+            for num in range(0, len(NAMES[angam]['hk'])):
+                line = '| %d' % (num + 1)
+                for scr in [sanscript.DEVANAGARI, sanscript.IAST]:
+                    line += ' | ' + sanscript.transliterate(NAMES[angam]['hk'][num], sanscript.HK, script)
                 f.write(line + ' |\n')
