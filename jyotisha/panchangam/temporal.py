@@ -40,6 +40,7 @@ class Time(JsonObject):
     """
 
     def __init__(self, t):
+        super().__init__()
         if type(t) == float or type(t) == int:
             self.t = t
         else:
@@ -238,7 +239,7 @@ def get_planet_next_transit(jd_start, jd_end, planet, ayanamsha_id=swe.SIDM_LAHI
             except ValueError:
                 sys.stderr.write('Unable to compute transit of planet;\
                                  possibly could not bracket correctly!\n')
-                (None, None, None)
+                return (None, None, None)
 
     return transits
 
@@ -468,23 +469,23 @@ def get_ekadashi_name(paksha, lmonth):
     """
     if paksha == 'shukla':
         if lmonth == int(lmonth):
-            return '%s-EkAdazI' % NAMES['SHUKLA_EKADASHI']['hk'][lmonth]
+            return '%s-EkAdazI' % NAMES['SHUKLA_EKADASHI_NAMES']['hk'][lmonth-1]
         else:
             # adhika mAsam
-            return '%s-EkAdazI' % NAMES['SHUKLA_EKADASHI']['hk'][13]
+            return '%s-EkAdazI' % NAMES['SHUKLA_EKADASHI_NAMES']['hk'][12]
     elif paksha == 'krishna':
         if lmonth == int(lmonth):
-            return '%s-EkAdazI' % NAMES['KRISHNA_EKADASHI']['hk'][lmonth]
+            return '%s-EkAdazI' % NAMES['KRISHNA_EKADASHI_NAMES']['hk'][lmonth-1]
         else:
             # adhika mAsam
-            return '%s-EkAdazI' % NAMES['KRISHNA_EKADASHI']['hk'][13]
+            return '%s-EkAdazI' % NAMES['KRISHNA_EKADASHI_NAMES']['hk'][12]
 
 
 def get_chandra_masa(month, NAMES, script):
     if month == int(month):
-        return NAMES['CHANDRA_MASA'][script][month]
+        return NAMES['CHANDRA_MASA_NAMES'][script][month-1]
     else:
-        return '%s-(%s)' % (NAMES['CHANDRA_MASA'][script][int(month) + 1], tr('adhika', script))
+        return '%s-(%s)' % (NAMES['CHANDRA_MASA_NAMES'][script][int(month)], tr('adhika', script))
 
 
 def get_tithi(jd, ayanamsha_id=swe.SIDM_LAHIRI):

@@ -12,10 +12,11 @@ logging.basicConfig(
 if __name__ == '__main__':
     NAMES = init_names_auto()
 
+    # TODO: Fix the below.
     for angam in NAMES:
         fname = '%s_names.md' % angam.lower()
         with open(fname, 'w') as f:
-            f.write('## ' + angam + '_NAMES\n')
+            f.write('## ' + angam + '\n')
             f.write('(as initialised from `init_names_auto.py`)\n\n')
             f.write('| # | ' + ' | '.join(sorted(list(NAMES[angam].keys()))) + ' |\n')
             f.write('|---| ' + ' | '.join(['-' * len(scr)

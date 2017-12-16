@@ -4,7 +4,6 @@
 import ast
 
 import os
-from indic_transliteration import xsanscript as sanscript
 import logging
 
 logging.basicConfig(
@@ -15,30 +14,13 @@ logging.basicConfig(
 CODE_ROOT = os.path.dirname(os.path.dirname(__file__))
 
 
-def init_names_auto(fname=os.path.join(CODE_ROOT, 'names/data/translation_table_HK.tsv')):
+def init_names_auto(fname=os.path.join(CODE_ROOT, 'names/data/translation_table_HK.json')):
+  """Read various nakShatra, samvatsara, mAsa and such names from a file return a dict with all of that.
+
+  :returns a dict like { "YEAR_NAMES": {"hk": } ...}
+  """
   with open(fname) as f:
-    lines = f.readlines()
-
-  scripts_list = [sanscript.DEVANAGARI, sanscript.IAST]
-
-  names_dict = {}
-  for line in lines:
-    var, value = line.strip().split('\t')
-
-    if var[-5:] == 'names_dict':
-      # This will be a dictionary itself, like MASA_NAMES
-      names_dict[var[:-6]] = {}
-      names_dict[var[:-6]]['hk'] = ast.literal_eval(value)
-
-      for scr in scripts_list:
-        names_dict[var[:-6]][scr] = {}
-        for key in names_dict[var[:-6]]['hk']:
-          names_dict[var[:-6]][scr][key] = sanscript.transliterate(names_dict[var[:-6]]['hk'][key],
-                                                              sanscript.HK, scr).title()
-    else:
-      names_dict[var] = {}
-      names_dict[var]['hk'] = value.strip('\'')
-      for scr in scripts_list:
-        names_dict[var][scr] = sanscript.transliterate(names_dict[var]['hk'], sanscript.HK, scr).title()
-
-  return names_dict
+    import json
+    names_dict = json.load(f)
+    logging.debug(json.dumps(names_dict, sort_keys=True, indent=2))
+    return names_dict
