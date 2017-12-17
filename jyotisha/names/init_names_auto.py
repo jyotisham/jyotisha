@@ -27,6 +27,6 @@ def init_names_auto(fname=os.path.join(CODE_ROOT, 'names/data/translation_table_
     # logging.debug(json.dumps(names_dict, sort_keys=True, indent=2))
     for dictionary in names_dict:
       for scr in scripts:
-        names_dict[dictionary][scr] = [sanscript.transliterate(name, 'hk', scr) for name in names_dict[dictionary]['hk']]
+        names_dict[dictionary][scr] = [sanscript.transliterate(name, 'hk', scr).title() for name in names_dict[dictionary]['hk']]
     # logging.debug(json.dumps(names_dict, sort_keys=True, indent=2))
     return names_dict
