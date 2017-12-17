@@ -155,16 +155,16 @@ def get_solar_month_day(jd_start, city, ayanamsha_id=swe.SIDM_LAHIRI):
   jd_sunset = swe.rise_trans(jd_start=jd_start, body=swe.SUN, lon=city.longitude,
                              lat=city.latitude, rsmi=swe.CALC_SET | swe.BIT_DISC_CENTER)[1][0]
 
-  logging.debug(swe.rise_trans(jd_start=jd_start, body=swe.SUN, lon=city.longitude,
-                               lat=city.latitude, rsmi=swe.CALC_SET | swe.BIT_DISC_CENTER))
+  # logging.debug(swe.rise_trans(jd_start=jd_start, body=swe.SUN, lon=city.longitude,
+  #                              lat=city.latitude, rsmi=swe.CALC_SET | swe.BIT_DISC_CENTER))
   solar_month = get_angam(jd_sunset, SOLAR_MONTH, ayanamsha_id=ayanamsha_id)
   target = floor(get_angam_float(jd_sunset, SOLAR_MONTH, ayanamsha_id=ayanamsha_id))
 
-  logging.debug(jd_start)
-  logging.debug(jd_sunset)
-  logging.debug(target)
-  logging.debug(get_angam_float(jd_sunset - 34, SOLAR_MONTH, -target, ayanamsha_id, False))
-  logging.debug(get_angam_float(jd_sunset + 1, SOLAR_MONTH, -target, ayanamsha_id, False))
+  # logging.debug(jd_start)
+  # logging.debug(jd_sunset)
+  # logging.debug(target)
+  # logging.debug(get_angam_float(jd_sunset - 34, SOLAR_MONTH, -target, ayanamsha_id, False))
+  # logging.debug(get_angam_float(jd_sunset + 1, SOLAR_MONTH, -target, ayanamsha_id, False))
   jd_masa_transit = brentq(get_angam_float, jd_start - 34, jd_sunset,
                            args=(SOLAR_MONTH, -target, ayanamsha_id, False))
 
@@ -352,11 +352,13 @@ class Panchangam(common.JsonObject):
         solar_month_end_time = ''
       else:
         solar_month_end_time = '\\mbox{%s {\\tiny \\RIGHTarrow} \\textsf{%s}}' % (
-          jyotisha.panchangam.temporal.NAMES['RASHI'][self.script][_m], jyotisha.panchangam.temporal.Time(
+          jyotisha.panchangam.temporal.NAMES['RASHI_NAMES'][self.script][_m], jyotisha.panchangam.temporal.Time(
             24 * (solar_month_end_jd - jd)).toString(format=self.fmt))
 
+      # logging.debug(jyotisha.panchangam.temporal.NAMES)
+
       self.month_data[d] = '\\sunmonth{%s}{%d}{%s}' % (
-        jyotisha.panchangam.temporal.NAMES['RASHI'][self.script][self.solar_month[d]],
+        jyotisha.panchangam.temporal.NAMES['RASHI_NAMES'][self.script][self.solar_month[d]],
         solar_month_day, solar_month_end_time)
       self.solar_month_day[d] = solar_month_day
 
@@ -1364,7 +1366,7 @@ class Panchangam(common.JsonObject):
 
       # distance from prabhava
       samvatsara_id = (self.year - 1568) % 60 + 1
-      new_yr = 'mESa-saGkrAntiH' + '~(' + jyotisha.panchangam.temporal.NAMES['YEAR_NAMES']['hk'][(samvatsara_id % 60)] + \
+      new_yr = 'mESa-saGkrAntiH' + '~(' + jyotisha.panchangam.temporal.NAMES['SAMVATSARA_NAMES']['hk'][(samvatsara_id % 60) + 1] + \
                '-' + 'saMvatsaraH' + ')'
 
       if self.solar_month[d] == 1 and self.solar_month[d - 1] == 12:
@@ -1636,8 +1638,8 @@ class Panchangam(common.JsonObject):
       for jd_transit, rashi1, rashi2 in transits:
         fday = int(floor(jd_transit) - floor(self.jd_start) + 1)
         self.festivals[fday].append('guru-saGkrAntiH~(%s##\\To{}##%s)' %
-                                    (jyotisha.panchangam.temporal.NAMES['RASHI_NAMES']['hk'][rashi1-1],
-                                     jyotisha.panchangam.temporal.NAMES['RASHI_NAMES']['hk'][rashi2-1]))
+                                    (jyotisha.panchangam.temporal.NAMES['RASHI_NAMES']['hk'][rashi1],
+                                     jyotisha.panchangam.temporal.NAMES['RASHI_NAMES']['hk'][rashi2]))
         if rashi1 < rashi2:
           # Ignore retrograde transits for pushkara computations
           (madhyanha_start, madhyahna_end) = jyotisha.panchangam.temporal.get_kalas(self.jd_sunrise[fday],
