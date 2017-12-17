@@ -1,5 +1,5 @@
-JyotiSha tools
-==============
+JyotiSha tools and data
+=======================
 # For users
 For detailed examples and help, please see individual module files in this package.
 
