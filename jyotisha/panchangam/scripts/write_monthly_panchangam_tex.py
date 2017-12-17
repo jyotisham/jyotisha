@@ -45,8 +45,8 @@ def writeMonthlyTeX(panchangam, template_file):
         print(template_lines[i][:-1])
 
     samvatsara_id = (panchangam.year - 1568) % 60 + 1  # distance from prabhava
-    samvatsara_names = '%s–%s' % (jyotisha.panchangam.temporal.NAMES['YEAR'][panchangam.script][samvatsara_id],
-                                  jyotisha.panchangam.temporal.NAMES['YEAR'][panchangam.script][(samvatsara_id % 60) + 1])
+    samvatsara_names = '%s–%s' % (jyotisha.panchangam.temporal.NAMES['SAMVATSARA_NAMES'][panchangam.script][samvatsara_id],
+                                  jyotisha.panchangam.temporal.NAMES['SAMVATSARA_NAMES'][panchangam.script][(samvatsara_id % 60) + 1])
 
     print('\\mbox{}')
     print('{\\font\\x="Noto Sans UI" at 60 pt\\x %d\\\\[0.5cm]}' % panchangam.year)
@@ -142,7 +142,7 @@ def writeMonthlyTeX(panchangam, template_file):
             # if tithi_data_str != '':
             #     tithi_data_str += '\\hspace{2ex}'
             tithi = '\moon[scale=0.6]{%d}\\hspace{2pt}' % (tithi_ID) + \
-                    jyotisha.panchangam.temporal.NAMES['TITHI'][panchangam.script][tithi_ID]
+                    jyotisha.panchangam.temporal.NAMES['TITHI_NAMES'][panchangam.script][tithi_ID]
             if tithi_end_jd is None:
                 tithi_data_str = '%s\\mbox{%s\\To{}%s}' % \
                                  (tithi_data_str, tithi, jyotisha.custom_transliteration.tr('ahOrAtram', panchangam.script))
@@ -156,7 +156,7 @@ def writeMonthlyTeX(panchangam, template_file):
         for nakshatram_ID, nakshatram_end_jd in panchangam.nakshatram_data[d]:
             # if nakshatram_data_str != '':
             #     nakshatram_data_str += '\\hspace{2ex}'
-            nakshatram = jyotisha.panchangam.temporal.NAMES['NAKSHATRAM'][panchangam.script][nakshatram_ID]
+            nakshatram = jyotisha.panchangam.temporal.NAMES['NAKSHATRAM_NAMES'][panchangam.script][nakshatram_ID]
             if nakshatram_end_jd is None:
                 nakshatram_data_str = '%s\\mbox{%s\\To{}%s}' % \
                                       (nakshatram_data_str, nakshatram,
@@ -172,7 +172,7 @@ def writeMonthlyTeX(panchangam, template_file):
         for yogam_ID, yogam_end_jd in panchangam.yogam_data[d]:
             # if yogam_data_str != '':
             #     yogam_data_str += '\\hspace{2ex}'
-            yogam = jyotisha.panchangam.temporal.NAMES['YOGAM'][panchangam.script][yogam_ID]
+            yogam = jyotisha.panchangam.temporal.NAMES['YOGAM_NAMES'][panchangam.script][yogam_ID]
             if yogam_end_jd is None:
                 yogam_data_str = '%s\\mbox{%s\\To{}%s}' % \
                                  (yogam_data_str, yogam, jyotisha.custom_transliteration.tr('ahOrAtram', panchangam.script))
@@ -188,7 +188,7 @@ def writeMonthlyTeX(panchangam, template_file):
             #     karanam_data_str += '\\hspace{2ex}'
             if numKaranam == 2:
                 karanam_data_str = karanam_data_str + '\\\\'
-            karanam = jyotisha.panchangam.temporal.NAMES['KARANAM'][panchangam.script][karanam_ID]
+            karanam = jyotisha.panchangam.temporal.NAMES['KARANAM_NAMES'][panchangam.script][karanam_ID]
             if karanam_end_jd is None:
                 karanam_data_str = '%s\\mbox{%s\\To{}%s}' % \
                                    (karanam_data_str, karanam,
@@ -254,6 +254,8 @@ def main():
 
     if len(sys.argv) == 7:
         script = sys.argv[6]
+
+    logging.debug(script)
 
     city = City(city_name, latitude, longitude, tz)
     panchangam = scripts.get_panchangam(city=city, year=year, script=script)
