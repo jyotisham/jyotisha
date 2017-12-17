@@ -155,16 +155,16 @@ def get_solar_month_day(jd_start, city, ayanamsha_id=swe.SIDM_LAHIRI):
   jd_sunset = swe.rise_trans(jd_start=jd_start, body=swe.SUN, lon=city.longitude,
                              lat=city.latitude, rsmi=swe.CALC_SET | swe.BIT_DISC_CENTER)[1][0]
 
-  logging.debug(swe.rise_trans(jd_start=jd_start, body=swe.SUN, lon=city.longitude,
-                               lat=city.latitude, rsmi=swe.CALC_SET | swe.BIT_DISC_CENTER))
+  # logging.debug(swe.rise_trans(jd_start=jd_start, body=swe.SUN, lon=city.longitude,
+  #                              lat=city.latitude, rsmi=swe.CALC_SET | swe.BIT_DISC_CENTER))
   solar_month = get_angam(jd_sunset, SOLAR_MONTH, ayanamsha_id=ayanamsha_id)
   target = floor(get_angam_float(jd_sunset, SOLAR_MONTH, ayanamsha_id=ayanamsha_id))
 
-  logging.debug(jd_start)
-  logging.debug(jd_sunset)
-  logging.debug(target)
-  logging.debug(get_angam_float(jd_sunset - 34, SOLAR_MONTH, -target, ayanamsha_id, False))
-  logging.debug(get_angam_float(jd_sunset + 1, SOLAR_MONTH, -target, ayanamsha_id, False))
+  # logging.debug(jd_start)
+  # logging.debug(jd_sunset)
+  # logging.debug(target)
+  # logging.debug(get_angam_float(jd_sunset - 34, SOLAR_MONTH, -target, ayanamsha_id, False))
+  # logging.debug(get_angam_float(jd_sunset + 1, SOLAR_MONTH, -target, ayanamsha_id, False))
   jd_masa_transit = brentq(get_angam_float, jd_start - 34, jd_sunset,
                            args=(SOLAR_MONTH, -target, ayanamsha_id, False))
 
@@ -355,7 +355,7 @@ class Panchangam(common.JsonObject):
           jyotisha.panchangam.temporal.NAMES['RASHI_NAMES'][self.script][_m], jyotisha.panchangam.temporal.Time(
             24 * (solar_month_end_jd - jd)).toString(format=self.fmt))
 
-      logging.debug(jyotisha.panchangam.temporal.NAMES)
+      # logging.debug(jyotisha.panchangam.temporal.NAMES)
 
       self.month_data[d] = '\\sunmonth{%s}{%d}{%s}' % (
         jyotisha.panchangam.temporal.NAMES['RASHI_NAMES'][self.script][self.solar_month[d]],
