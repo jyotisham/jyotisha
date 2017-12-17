@@ -206,6 +206,7 @@ def compute_calendar(panchangam):
                 else:
                     summary = jyotisha.custom_transliteration.tr(stext.replace('~',' ').replace('\#', '#').replace('\\To{}','▶'), panchangam.script)
                     summary = re.sub('.tamil{(.*)}','\\1', summary)
+                    summary = re.sub('{(.*)}','\\1', summary)  # strip braces around numbers
                     event.add('summary', summary)
                     fest_num_loc = stext.find('#')
                     if fest_num_loc != -1:
