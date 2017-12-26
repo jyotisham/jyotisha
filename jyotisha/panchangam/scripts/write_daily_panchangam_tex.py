@@ -50,15 +50,15 @@ def writeDailyTeX(panchangam, template_file, computeLagnams=True):
     print('\\mbox{}')
     print('\\renewcommand{\yearname}{%d}' % panchangam.year)
     print('\\begin{center}')
-    print('{\\font\\x="Noto Sans UI" at 60 pt\\x %d\\\\[0.5cm]}' % panchangam.year)
-    print('\\mbox{\\font\\x="Siddhanta:script=deva" at 48 pt\\x %s–%s}\\\\[0.5cm]'
+    print('{\\sffamily \\fontsize{80}{80}\\selectfont  %d\\\\[0.5cm]}' % panchangam.year)
+    print('\\mbox{\\fontsize{48}{48}\\selectfont %s–%s}\\\\'
           % samvatsara_names)
-    print('\\mbox{\\font\\x="Siddhanta:script=deva" at 32 pt\\x %s } %%'
+    print('\\mbox{\\fontsize{32}{32}\\selectfont %s } %%'
           % jyotisha.custom_transliteration.tr('kali', panchangam.script))
-    print('{\\font\\x="Noto Sans UI" at 32 pt\\x %d–%d\\\\[0.5cm]}'
+    print('{\\sffamily \\fontsize{43}{43}\\selectfont  %d–%d\\\\[0.5cm]}\n\\hrule\n\\vspace{0.2cm}'
           % (panchangam.year + 3100, panchangam.year + 3101))
-    print('{\\font\\x="Noto Sans UI" at 48 pt\\x \\uppercase{%s}\\\\[0.2cm]}' % panchangam.city.name)
-    print('{\\font\\x="Noto Sans UI" at 16 pt\\x {%s}\\\\[0.5cm]}'
+    print('{\\sffamily \\fontsize{50}{50}\\selectfont  \\uppercase{%s}\\\\[0.2cm]}' % panchangam.city.name)
+    print('{\\sffamily \\fontsize{23}{23}\\selectfont  {%s}\\\\[0.2cm]}'
           % jyotisha.custom_transliteration.print_lat_lon(panchangam.city.latstr, panchangam.city.lonstr))
     print('\hrule')
     print('\end{center}')

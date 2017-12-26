@@ -70,8 +70,9 @@
 % PDF SETUP
 % ---- FILL IN HERE THE DOC TITLE AND AUTHOR
 \defaultfontfeatures{Scale=MatchLowercase,Mapping=tex-text}
-\setmainfont{Siddhanta}[Script=Devanagari]
-\setsansfont[Scale=0.75]{Noto Sans UI}
+\setmainfont{siddhanta.ttf}[Path=../fonts/,Script=Devanagari]
+\setsansfont[Path=../fonts/,Scale=0.75]{NotoSansUI-Regular.ttf}
+% \newfontfamily\noto[Path=../fonts/, Ligatures=TeX]{NotoSansUI-Regular}
 %%%%%%% Numbers and counters %%%%%%%
 \newcount\num
 \newcount\tempone \newcount\temptwo
@@ -111,17 +112,17 @@
 \end{minipage}
 \begin{minipage}[c][30mm]{\linewidth}
 \centering
- \mbox{\font\x="Siddhanta:script=deva" at 80 pt\x \devanumber{#2}}\mbox{}\\[2ex]%Solar month date
+ \mbox{\fontsize{96}{96}\selectfont \devanumber{#2}}\mbox{}\\[2ex]%Solar month date
  \end{minipage}
  \begin{minipage}[b][14mm]{\linewidth}
  \centering
-\mbox{\font\x="Siddhanta:script=deva" at 24 pt\x {#5}}\\%Vara name
+\mbox{\fontsize{28}{28}\selectfont {#5}}\\%Vara name
 \mbox{}
 \end{minipage}
 \end{minipage}%
 }
 \newcommand{\tamil}[1]{%
-{\fontspec[Scale=0.9,FakeStretch=0.9]{Noto Sans Tamil} \footnotesize #1}}
+{\fontspec[Scale=0.9,FakeStretch=0.9,Path=../fonts/]{NotoSansTamil-Regular.ttf} \footnotesize #1}}
 \newcommand{\kalas}[6]{%
 \centerline{\small{\mbox{प्रातः सन्ध्या \textsf{#1} सङ्गव \textsf{#2}\hspace{2ex}मध्याह्न \textsf{#3}{\scriptsize\RIGHTarrow}\textsf{#4}\hspace{2ex} सायाह्न \textsf{#5} सायं सन्ध्या \textsf{#6}}}}%Sangava kala etc
 }
@@ -148,9 +149,9 @@
 \begin{minipage}[t]{56mm}
 \centering
 \large \textsf{\yearname}\\[1ex]%YYYY
- \mbox{\font\x="Ubuntu" at 16 pt\x {\uppercase{#1}}}\\[9ex]%mmm
- \mbox{\font\x="Ubuntu" at 80 pt\x #2}\\[3ex]%DD
-\mbox{\font\x="Ubuntu" at 24 pt\x \uppercase{#8}}\\%Day of the week
+\mbox{\sffamily\fontsize{20}{25}\selectfont {\uppercase{#1}}}\\[9ex]%mmm
+\mbox{\sffamily\fontsize{108}{130}\selectfont #2}\\[3ex]%DD
+\mbox{\sffamily\fontsize{32}{38}\selectfont\uppercase{#8}}\\%Day of the week
 \mbox{}
 \end{minipage}
 \vline
