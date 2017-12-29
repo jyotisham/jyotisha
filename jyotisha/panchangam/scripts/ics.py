@@ -44,7 +44,8 @@ def compute_calendar(panchangam):
     alarm.add('action', 'DISPLAY')
     alarm.add('trigger', timedelta(hours=-4))  # default alarm, with a 4 hour reminder
 
-    BASE_URL = "http://adyatithih.wordpress.com/"
+    # BASE_URL = "http://adyatithih.wordpress.com/"
+    BASE_URL = "http://karthikraman.github.io/adyatithih/posts/"
 
     for d in range(1, jyotisha.panchangam.temporal.MAX_SZ - 1):
         [y, m, dt, t] = swe.revjul(panchangam.jd_start + d - 1)
@@ -60,9 +61,9 @@ def compute_calendar(panchangam):
                 event = Event()
                 if stext == 'kRttikA-maNDala-pArAyaNam':
                     event.add('summary', jyotisha.custom_transliteration.tr(stext.replace('-', ' '), panchangam.script))
-                    fest_num_loc = stext.find('#')
+                    fest_num_loc = stext.find('~\#')
                     if fest_num_loc != -1:
-                        stext = stext[:fest_num_loc - 2]  # Two more chars dropped, -\
+                        stext = stext[:fest_num_loc]
                     event.add('dtstart', date(y, m, dt))
                     event.add('dtend', (datetime(y, m, dt) + timedelta(48)).date())
 
@@ -208,9 +209,9 @@ def compute_calendar(panchangam):
                     summary = re.sub('.tamil{(.*)}','\\1', summary)
                     summary = re.sub('{(.*)}','\\1', summary)  # strip braces around numbers
                     event.add('summary', summary)
-                    fest_num_loc = stext.find('#')
+                    fest_num_loc = stext.find('~\#')
                     if fest_num_loc != -1:
-                        stext = stext[:fest_num_loc - 2]  # Two more chars dropped, -\
+                        stext = stext[:fest_num_loc]
                     event.add('dtstart', date(y, m, dt))
                     event.add('dtend', (datetime(y, m, dt) + timedelta(1)).date())
 
