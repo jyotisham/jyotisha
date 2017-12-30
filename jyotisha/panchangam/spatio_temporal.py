@@ -1383,115 +1383,20 @@ class Panchangam(common.JsonObject):
   def assign_relative_festivals(self):
     # Add "RELATIVE" festivals --- festivals that happen before or
     # after other festivals with an exact timedelta!
-    self.fest_days['gAyatrI-japaH'] = [self.fest_days['yajurvEda-upAkarma'][0] + 1]
     self.fest_days['varalakSmI-vratam'] = \
       [self.fest_days['yajurvEda-upAkarma'][0] -
        ((self.weekday_start - 1 + self.fest_days['yajurvEda-upAkarma'][0] - 5) % 7)]
-    self.fest_days['bhOgI'] = [self.fest_days['makara-saGkrAnti/uttarAyaNa-puNyakAlaH'][0] - 1]
-    self.fest_days['ta:madhurai mIn2AkSI kOyilil kal yAn2aikku karumbu kODutta lIlai'] = \
-      [self.fest_days['makara-saGkrAnti/uttarAyaNa-puNyakAlaH'][0]]
-    self.fest_days['hOli'] = [self.fest_days['hOlikA-pUrNimA'][0] + 1]
-    self.fest_days['indra-pUjA/gO-pUjA'] = \
-      [self.fest_days['makara-saGkrAnti/uttarAyaNa-puNyakAlaH'][0] + 1]
-    self.fest_days['ta:kan2up~poGgal'] = \
-      [self.fest_days['makara-saGkrAnti/uttarAyaNa-puNyakAlaH'][0] + 1]
 
-    self.fest_days['mahAlaya-pakSa-samApanam'] = \
-      [self.fest_days['(bhAdrapada) mahAlaya amAvasyA'][0]]
-    self.fest_days['saptama-aparapakSa-samApanam'] = \
-      [self.fest_days['Azvayuja-amAvasyA'][0]]
-    self.fest_days['navama-aparapakSa-samApanam'] = \
-      [self.fest_days['kArtika-amAvasyA'][0]]
+    with open(os.path.join(CODE_ROOT, 'panchangam/data/relative_festival_rules.json'), encoding="utf-8") as relative_festivals_data:
+      relative_festival_rules = json.load(relative_festivals_data, encoding="utf-8")
 
-    self.fest_days['vEGkaTAcalE jyESTha-abhidyEyakAbhiSEkaH (mutyala-kavacam)'] = \
-      [self.fest_days['vEGkaTAcalE jyESTha-abhidyEyakAbhiSEkaH (svarNa-kavacam)'][0] - 1]
-    self.fest_days['vEGkaTAcalE jyESTha-abhidyEyakAbhiSEkaH (vajra-kavacam)'] = \
-      [self.fest_days['vEGkaTAcalE jyESTha-abhidyEyakAbhiSEkaH (svarNa-kavacam)'][0] - 2]
+    for festival_name in relative_festival_rules:
+      offset = int(relative_festival_rules[festival_name]['offset'])
+      rel_festival_name = relative_festival_rules[festival_name]['Relative Festival']
+      self.fest_days[festival_name] = [self.fest_days[rel_festival_name][-1] + offset]
 
-    self.fest_days['ta:varagUr ur2iyaDi utsavam'] = \
-      [self.fest_days['zrIkRSNajanmASTamI'][0] + 1]
-    self.fest_days['nandOtsavaH'] = \
-      [self.fest_days['zrIkRSNajanmASTamI'][0] + 1]
-    self.fest_days['tiruvizalUr gaGgAkarSaNa-mahOtsava-ArambhaH'] = \
-      [self.fest_days['tiruvizalUr gaGgAkarSaNa-mahOtsava-samApanam'][0] - 9]
-
-    # KAPALI FESTIVALS
-    panguni_uttaram = self.fest_days['ta:paGgun2i~uttiram'][-1]
-    self.fest_days['ta:kapAlI dvajArOhaNam'] = [panguni_uttaram - 9]
-    self.fest_days['ta:kapAlI sUrya~candra~vaTTam'] = [panguni_uttaram - 8]
-    self.fest_days['ta:kapAlI adhikAra nandi'] = [panguni_uttaram - 7]
-    self.fest_days['ta:kapAlI bhUtaN bhUtakI'] = [panguni_uttaram - 7]
     # self.fest_days['ta:kapAlI veLLi bhUta vAhan2am'] = [panguni_uttaram - 6]
-    self.fest_days['ta:kapAlI cavuDal vimAn2am'] = [panguni_uttaram - 5]
-    self.fest_days['ta:kapAlI riSabha vAhan2am'] = [panguni_uttaram - 5]
-    self.fest_days['ta:kapAlI pallakku vizhA'] = [panguni_uttaram - 4]
-    self.fest_days['ta:kapAlI tEr'] = [panguni_uttaram - 3]
-    self.fest_days['ta:kapAlI ar2upattu mUvar'] = [panguni_uttaram - 2]
     # self.fest_days['ta:kapAlI bhikSATan2ar'] = [panguni_uttaram - 1]
-    self.fest_days['ta:kapAlI umA-mahEzvara darican2am'] = [panguni_uttaram + 1]
-    self.fest_days['ta:kapAlI viDaiyAr2r2i toDakkam'] = [panguni_uttaram + 1]
-    self.fest_days['ta:kapAlI viDaiyAr2r2i nir2aivu'] = [panguni_uttaram + 11]
-
-    self.fest_days['ta:kapAlI teppOtsavam'] = [self.fest_days['ta:taippUcam'][-1] - 1,
-                                               self.fest_days['ta:taippUcam'][-1],
-                                               self.fest_days['ta:taippUcam'][-1] + 1]
-
-    # CHIDAMBARAM FESTIVALS
-    aani_tirumanjanam = self.fest_days['ta:naTarAjar An2i tirumaJcan2am'][-1]
-    self.fest_days['ta:cidambaram dvajArOhaNam/paJcamUrtti bhavan2i'] = [aani_tirumanjanam - 9]
-    self.fest_days['ta:cidambaram veLLi candraprabha vAhan2am'] = [aani_tirumanjanam - 8]
-    self.fest_days['ta:cidambaram taGga sUryaprabha vAhan2am'] = [aani_tirumanjanam - 7]
-    self.fest_days['ta:cidambaram veLLi bhUta vAhan2am'] = [aani_tirumanjanam - 6]
-    self.fest_days['ta:cidambaram veLLi riSabha vAhan2am'] = [aani_tirumanjanam - 5]
-    self.fest_days['ta:cidambaram veLLi yAn2ai vAhan2am'] = [aani_tirumanjanam - 4]
-    self.fest_days['ta:cidambaram kailAca vAhan2am'] = [aani_tirumanjanam - 3]
-    self.fest_days['ta:cidambaram bhikSATan2ar taGga ratham'] = [aani_tirumanjanam - 2]
-    self.fest_days['ta:cidambaram tEr'] = [aani_tirumanjanam - 1]
-    self.fest_days['ta:cidambaram muttuppallakku'] = [aani_tirumanjanam + 1]
-
-    # TIRUCHENDUR FESTIVALS
-    chendur_masi = self.fest_days['ta:tiruccendUr mAcit tiruvizhA nir2aivu'][-1]
-    self.fest_days['ta:tiruccendUr murugan2 mAcit tiruvizhA toDakkam'] = [chendur_masi - 11]
-    self.fest_days['ta:tiruccendUr murugan2 mAcit tiruvizhA ##2##m nAL'] = [chendur_masi - 10]
-    self.fest_days['ta:tiruccendUr murugan2 mAcit tiruvizhA ##3##m nAL—murugan2 bhavan2i'] = \
-      [chendur_masi - 9]
-    self.fest_days['ta:tiruccendUr murugan2 mAcit tiruvizhA ##4##m nAL'] = [chendur_masi - 8]
-    self.fest_days['ta:tiruccendUr murugan2 mAcit tiruvizhA ##5##m nAL'] = [chendur_masi - 7]
-    self.fest_days['ta:tiruccendUr murugan2 mAcit tiruvizhA ##6##m nAL—veLLit tEr bhavan2i'] = \
-      [chendur_masi - 6]
-    self.fest_days['ta:tiruccendUr murugan2 mAcit tiruvizhA ##7##m nAL—urugu cattac cEvai/cigappu cAtti alaGkAram'] = \
-      [chendur_masi - 5]
-    self.fest_days['ta:tiruccendUr murugan2 mAcit tiruvizhA ##8##m nAL—paccai cAtti alaGkAram'] = \
-      [chendur_masi - 4]
-    self.fest_days['ta:tiruccendUr murugan2 mAcit tiruvizhA ##9##m nAL—taGga kailAca vAhan2am'] = \
-      [chendur_masi - 3]
-    self.fest_days['ta:tiruccendUr murugan2 mAcit tiruvizhA ##10##m nAL—tEr'] = \
-      [chendur_masi - 2]
-    self.fest_days['ta:tiruccendUr murugan2 teppam'] = [chendur_masi - 1]
-
-    chendur_avani = self.fest_days['ta:tiruccendUr AvaNit tiruvizhA nir2aivu'][-1]
-    self.fest_days['ta:tiruccendUr murugan2 AvaNit tiruvizhA toDakkam/koDiyEr2r2am'] = \
-      [chendur_avani - 11]
-    self.fest_days['ta:tiruccendUr murugan2 AvaNit tiruvizhA ##2##m nAL'] = \
-      [chendur_avani - 10]
-    self.fest_days['ta:tiruccendUr murugan2 AvaNit tiruvizhA ##3##m nAL—murugan2 bhavan2i'] = \
-      [chendur_avani - 9]
-    self.fest_days['ta:tiruccendUr murugan2 AvaNit tiruvizhA ##4##m nAL—yAn2ai vAhanattil murugan2-ambAL bhavan2i'] = \
-      [chendur_avani - 8]
-    self.fest_days['ta:tiruccendUr murugan2 AvaNit tiruvizhA ##5##m nAL'] = \
-      [chendur_avani - 7]
-    self.fest_days['ta:tiruccendUr murugan2 AvaNit tiruvizhA ##6##m nAL—veLLit tEr bhavan2i'] = \
-      [chendur_avani - 6]
-    self.fest_days['ta:tiruccendUr murugan2 AvaNit tiruvizhA ##7##m nAL—cigappu cAtti alaGkAram'] = \
-      [chendur_avani - 5]
-    self.fest_days['ta:tiruccendUr murugan2 AvaNit tiruvizhA ##8##m nAL—paccai cAtti alaGkAram'] = \
-      [chendur_avani - 4]
-    self.fest_days['ta:tiruccendUr murugan2 AvaNit tiruvizhA ##9##m nAL'] = \
-      [chendur_avani - 3]
-    self.fest_days['ta:tiruccendUr murugan2 AvaNit tiruvizhA ##10##m nAL—tEr'] = \
-      [chendur_avani - 2]
-    self.fest_days['ta:tiruccendUr murugan2 AvaNit tiruvizhA ##11##m nAL'] = \
-      [chendur_avani - 1]
 
     # if debugFestivals:
     #     print('%', self.fest_days)

@@ -1,0 +1,246 @@
+{
+  "gAyatrI-japaH": {
+    "Relative Festival": "yajurvEda-upAkarma",
+    "offset" : 1
+  },
+  "bhOgI": {
+    "Relative Festival": "makara-saGkrAnti/uttarAyaNa-puNyakAlaH",
+    "offset" : -1
+  },
+  "ta:madhurai mIn2AkSI kOyilil kal yAn2aikku karumbu kODutta lIlai": {
+    "Relative Festival": "makara-saGkrAnti/uttarAyaNa-puNyakAlaH",
+    "offset" : 0
+  },
+  "hOli": {
+    "Relative Festival": "hOlikA-pUrNimA",
+    "offset" : 1
+  },
+  "indra-pUjA/gO-pUjA": {
+    "Relative Festival": "makara-saGkrAnti/uttarAyaNa-puNyakAlaH",
+    "offset" : 1
+  },
+  "ta:kan2up~poGgal": {
+    "Relative Festival": "makara-saGkrAnti/uttarAyaNa-puNyakAlaH",
+    "offset" : 1
+  },
+  "mahAlaya-pakSa-samApanam": {
+    "Relative Festival": "(bhAdrapada) mahAlaya amAvasyA",
+    "offset" : 0
+  },
+  "saptama-aparapakSa-samApanam": {
+    "Relative Festival": "Azvayuja-amAvasyA",
+    "offset" : 0
+  },
+  "navama-aparapakSa-samApanam": {
+    "Relative Festival": "kArtika-amAvasyA",
+    "offset" : 0
+  },
+  "vEGkaTAcalE jyESTha-abhidyEyakAbhiSEkaH (mutyala-kavacam)": {
+    "Relative Festival": "vEGkaTAcalE jyESTha-abhidyEyakAbhiSEkaH (svarNa-kavacam)",
+    "offset" : -1
+  },
+  "vEGkaTAcalE jyESTha-abhidyEyakAbhiSEkaH (vajra-kavacam)": {
+    "Relative Festival": "vEGkaTAcalE jyESTha-abhidyEyakAbhiSEkaH (svarNa-kavacam)",
+    "offset" : -2
+  },
+  "ta:varagUr ur2iyaDi utsavam": {
+    "Relative Festival": "zrIkRSNajanmASTamI",
+    "offset" : 1
+  },
+  "nandOtsavaH": {
+    "Relative Festival": "zrIkRSNajanmASTamI",
+    "offset" : 1
+  },
+  "tiruvizalUr gaGgAkarSaNa-mahOtsava-ArambhaH": {
+    "Relative Festival": "tiruvizalUr gaGgAkarSaNa-mahOtsava-samApanam",
+    "offset" : -9
+  },
+  "ta:kapAlI dvajArOhaNam": {
+    "Relative Festival": "ta:paGgun2i~uttiram",
+    "offset" : -9
+  },
+  "ta:kapAlI sUrya~candra~vaTTam": {
+    "Relative Festival": "ta:paGgun2i~uttiram",
+    "offset" : -8
+  },
+  "ta:kapAlI adhikAra nandi": {
+    "Relative Festival": "ta:paGgun2i~uttiram",
+    "offset" : -7
+  },
+  "ta:kapAlI bhUtaN bhUtakI": {
+    "Relative Festival": "ta:paGgun2i~uttiram",
+    "offset" : -7
+  },
+  "ta:kapAlI cavuDal vimAn2am": {
+    "Relative Festival": "ta:paGgun2i~uttiram",
+    "offset" : -5
+  },
+  "ta:kapAlI riSabha vAhan2am": {
+    "Relative Festival": "ta:paGgun2i~uttiram",
+    "offset" : -5
+  },
+  "ta:kapAlI pallakku vizhA": {
+    "Relative Festival": "ta:paGgun2i~uttiram",
+    "offset" : -4
+  },
+  "ta:kapAlI tEr": {
+    "Relative Festival": "ta:paGgun2i~uttiram",
+    "offset" : -3
+  },
+  "ta:kapAlI ar2upattu mUvar": {
+    "Relative Festival": "ta:paGgun2i~uttiram",
+    "offset" : -2
+  },
+  "ta:kapAlI umA-mahEzvara darican2am": {
+    "Relative Festival": "ta:paGgun2i~uttiram",
+    "offset" : 1
+  },
+  "ta:kapAlI viDaiyAr2r2i toDakkam": {
+    "Relative Festival": "ta:paGgun2i~uttiram",
+    "offset" : 1
+  },
+  "ta:kapAlI viDaiyAr2r2i nir2aivu": {
+    "Relative Festival": "ta:paGgun2i~uttiram",
+    "offset" : 11
+  },
+  "ta:kapAlI teppOtsavam~1": {
+    "Relative Festival": "ta:taippUcam",
+    "offset" : -1
+  },
+  "ta:kapAlI teppOtsavam~2": {
+    "Relative Festival": "ta:taippUcam",
+    "offset" : 0
+  },
+  "ta:kapAlI teppOtsavam~3": {
+    "Relative Festival": "ta:taippUcam",
+    "offset" : 1
+  },
+  "ta:cidambaram dvajArOhaNam/paJcamUrtti bhavan2i": {
+    "Relative Festival": "ta:naTarAjar An2i tirumaJcan2am",
+    "offset" : -9
+  },
+  "ta:cidambaram veLLi candraprabha vAhan2am": {
+    "Relative Festival": "ta:naTarAjar An2i tirumaJcan2am",
+    "offset" : -8
+  },
+  "ta:cidambaram taGga sUryaprabha vAhan2am": {
+    "Relative Festival": "ta:naTarAjar An2i tirumaJcan2am",
+    "offset" : -7
+  },
+  "ta:cidambaram veLLi bhUta vAhan2am": {
+    "Relative Festival": "ta:naTarAjar An2i tirumaJcan2am",
+    "offset" : -6
+  },
+  "ta:cidambaram veLLi riSabha vAhan2am": {
+    "Relative Festival": "ta:naTarAjar An2i tirumaJcan2am",
+    "offset" : -5
+  },
+  "ta:cidambaram veLLi yAn2ai vAhan2am": {
+    "Relative Festival": "ta:naTarAjar An2i tirumaJcan2am",
+    "offset" : -4
+  },
+  "ta:cidambaram kailAca vAhan2am": {
+    "Relative Festival": "ta:naTarAjar An2i tirumaJcan2am",
+    "offset" : -3
+  },
+  "ta:cidambaram bhikSATan2ar taGga ratham": {
+    "Relative Festival": "ta:naTarAjar An2i tirumaJcan2am",
+    "offset" : -2
+  },
+  "ta:cidambaram tEr": {
+    "Relative Festival": "ta:naTarAjar An2i tirumaJcan2am",
+    "offset" : -1
+  },
+  "ta:cidambaram muttuppallakku": {
+    "Relative Festival": "ta:naTarAjar An2i tirumaJcan2am",
+    "offset" : 1
+  },
+  "ta:tiruccendUr murugan2 mAcit tiruvizhA toDakkam": {
+    "Relative Festival": "ta:tiruccendUr mAcit tiruvizhA nir2aivu",
+    "offset" : -11
+  },
+  "ta:tiruccendUr murugan2 mAcit tiruvizhA ##2##m nAL": {
+    "Relative Festival": "ta:tiruccendUr mAcit tiruvizhA nir2aivu",
+    "offset" : -10
+  },
+  "ta:tiruccendUr murugan2 mAcit tiruvizhA ##3##m nAL—murugan2 bhavan2i": {
+    "Relative Festival": "ta:tiruccendUr mAcit tiruvizhA nir2aivu",
+    "offset" : -9
+  },
+  "ta:tiruccendUr murugan2 mAcit tiruvizhA ##4##m nAL": {
+    "Relative Festival": "ta:tiruccendUr mAcit tiruvizhA nir2aivu",
+    "offset" : -8
+  },
+  "ta:tiruccendUr murugan2 mAcit tiruvizhA ##5##m nAL": {
+    "Relative Festival": "ta:tiruccendUr mAcit tiruvizhA nir2aivu",
+    "offset" : -7
+  },
+  "ta:tiruccendUr murugan2 mAcit tiruvizhA ##6##m nAL—veLLit tEr bhavan2i": {
+    "Relative Festival": "ta:tiruccendUr mAcit tiruvizhA nir2aivu",
+    "offset" : -6
+  },
+  "ta:tiruccendUr murugan2 mAcit tiruvizhA ##7##m nAL—urugu cattac cEvai/cigappu cAtti alaGkAram": {
+    "Relative Festival": "ta:tiruccendUr mAcit tiruvizhA nir2aivu",
+    "offset" : -5
+  },
+  "ta:tiruccendUr murugan2 mAcit tiruvizhA ##8##m nAL—paccai cAtti alaGkAram": {
+    "Relative Festival": "ta:tiruccendUr mAcit tiruvizhA nir2aivu",
+    "offset" : -4
+  },
+  "ta:tiruccendUr murugan2 mAcit tiruvizhA ##9##m nAL—taGga kailAca vAhan2am": {
+    "Relative Festival": "ta:tiruccendUr mAcit tiruvizhA nir2aivu",
+    "offset" : -3
+  },
+  "ta:tiruccendUr murugan2 mAcit tiruvizhA ##10##m nAL—tEr": {
+    "Relative Festival": "ta:tiruccendUr mAcit tiruvizhA nir2aivu",
+    "offset" : -2
+  },
+  "ta:tiruccendUr murugan2 teppam": {
+    "Relative Festival": "ta:tiruccendUr mAcit tiruvizhA nir2aivu",
+    "offset" : -1
+  },
+  "ta:tiruccendUr murugan2 AvaNit tiruvizhA toDakkam/koDiyEr2r2am": {
+    "Relative Festival": "ta:tiruccendUr AvaNit tiruvizhA nir2aivu",
+    "offset" : -11
+  },
+  "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##2##m nAL": {
+    "Relative Festival": "ta:tiruccendUr AvaNit tiruvizhA nir2aivu",
+    "offset" : -10
+  },
+  "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##3##m nAL—murugan2 bhavan2i": {
+    "Relative Festival": "ta:tiruccendUr AvaNit tiruvizhA nir2aivu",
+    "offset" : -9
+  },
+  "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##4##m nAL—yAn2ai vAhanattil murugan2-ambAL bhavan2i": {
+    "Relative Festival": "ta:tiruccendUr AvaNit tiruvizhA nir2aivu",
+    "offset" : -8
+  },
+  "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##5##m nAL": {
+    "Relative Festival": "ta:tiruccendUr AvaNit tiruvizhA nir2aivu",
+    "offset" : -7
+  },
+  "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##6##m nAL—veLLit tEr bhavan2i": {
+    "Relative Festival": "ta:tiruccendUr AvaNit tiruvizhA nir2aivu",
+    "offset" : -6
+  },
+  "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##7##m nAL—cigappu cAtti alaGkAram": {
+    "Relative Festival": "ta:tiruccendUr AvaNit tiruvizhA nir2aivu",
+    "offset" : -5
+  },
+  "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##8##m nAL—paccai cAtti alaGkAram": {
+    "Relative Festival": "ta:tiruccendUr AvaNit tiruvizhA nir2aivu",
+    "offset" : -4
+  },
+  "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##9##m nAL": {
+    "Relative Festival": "ta:tiruccendUr AvaNit tiruvizhA nir2aivu",
+    "offset" : -3
+  },
+  "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##10##m nAL—tEr": {
+    "Relative Festival": "ta:tiruccendUr AvaNit tiruvizhA nir2aivu",
+    "offset" : -2
+  },
+  "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##11##m nAL": {
+    "Relative Festival": "ta:tiruccendUr AvaNit tiruvizhA nir2aivu",
+    "offset" : -1
+  }
+}
