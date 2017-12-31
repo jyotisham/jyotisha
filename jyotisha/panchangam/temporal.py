@@ -18,20 +18,19 @@ logging.basicConfig(
 )
 
 
-
 NAMES = init_names_auto()
 MAX_DAYS_PER_YEAR = 366
 MAX_SZ = MAX_DAYS_PER_YEAR + 3  # plus one and minus one are usually necessary
 MIN_DAYS_NEXT_ECLIPSE = 25
-TITHI = {'id': 'TITHI', 'arc_len': 360.0 / 30.0,  'w_moon': 1, 'w_sun': -1}
+TITHI = {'id': 'TITHI', 'arc_len': 360.0 / 30.0, 'w_moon': 1, 'w_sun': -1}
 TITHI_PADA = {'id': 'TITHI_PADA', 'arc_len': 360.0 / 120.0, 'w_moon': 1, 'w_sun': -1}
-NAKSHATRAM = {'id': 'NAKSHATRAM', 'arc_len': 360.0 / 27.0,  'w_moon': 1, 'w_sun':  0}
-NAKSHATRA_PADA = {'id': 'NAKSHATRA_PADA', 'arc_len': 360.0 / 108.0, 'w_moon': 1, 'w_sun':  0}
-RASHI = {'id': 'RASHI', 'arc_len': 360.0 / 12.0,  'w_moon': 1, 'w_sun':  0}
-YOGAM = {'id': 'YOGAM', 'arc_len': 360.0 / 27.0,  'w_moon': 1, 'w_sun':  1}
-KARANAM = {'id': 'KARANAM', 'arc_len': 360.0 / 60.0,  'w_moon': 1, 'w_sun': -1}
-SOLAR_MONTH = {'id': 'SOLAR_MONTH', 'arc_len': 360.0 / 12.0,  'w_moon': 0, 'w_sun':  1}
-SOLAR_NAKSH = {'id': 'SOLAR_NAKSH', 'arc_len': 360.0 / 27.0,  'w_moon': 0, 'w_sun':  1}
+NAKSHATRAM = {'id': 'NAKSHATRAM', 'arc_len': 360.0 / 27.0, 'w_moon': 1, 'w_sun': 0}
+NAKSHATRA_PADA = {'id': 'NAKSHATRA_PADA', 'arc_len': 360.0 / 108.0, 'w_moon': 1, 'w_sun': 0}
+RASHI = {'id': 'RASHI', 'arc_len': 360.0 / 12.0, 'w_moon': 1, 'w_sun': 0}
+YOGAM = {'id': 'YOGAM', 'arc_len': 360.0 / 27.0, 'w_moon': 1, 'w_sun': 1}
+KARANAM = {'id': 'KARANAM', 'arc_len': 360.0 / 60.0, 'w_moon': 1, 'w_sun': -1}
+SOLAR_MONTH = {'id': 'SOLAR_MONTH', 'arc_len': 360.0 / 12.0, 'w_moon': 0, 'w_sun': 1}
+SOLAR_NAKSH = {'id': 'SOLAR_NAKSH', 'arc_len': 360.0 / 27.0, 'w_moon': 0, 'w_sun': 1}
 
 
 class Time(JsonObject):
@@ -330,8 +329,12 @@ def get_angam_span(jd1, jd2, angam_type, target, ayanamsha_id=swe.SIDM_LAHIRI, d
                 print('%% jd_bracket_L ', jd_now)
             jd_bracket_L = jd_now
         if angam_now == target:
-            angam_start = brentq(get_angam_float, jd_bracket_L, jd_now,
-                                 args=(angam_type, -target + 1, ayanamsha_id, False))
+            try:
+              angam_start = brentq(get_angam_float, jd_bracket_L, jd_now,
+                                   args=(angam_type, -target + 1, ayanamsha_id, False))
+            except ValueError:
+              logging.error('Unable to bracket %s->%f between jd = (%f, %f)' % (str(angam_type), -target + 1, jd_bracket_L, jd_now))
+              angam_start = None
             if debug:
                 print('%% angam_start', angam_start)
         # if angam_now > target and angam_start is not None:
@@ -366,8 +369,8 @@ def get_angam_span(jd1, jd2, angam_type, target, ayanamsha_id=swe.SIDM_LAHIRI, d
     try:
         angam_end = brentq(get_angam_float, angam_start, jd_bracket_R,
                            args=(angam_type, -target, ayanamsha_id, False))
-    except:
-        sys.stderr.write('Unable to compute angam_end (%s->%d); possibly could not bracket correctly!\n' % (str(angam_type), target))
+    except ValueError:
+        logging.error('Unable to compute angam_end (%s->%d); possibly could not bracket correctly!\n' % (str(angam_type), target))
 
     if debug:
         print('%% angam_end', angam_end)
