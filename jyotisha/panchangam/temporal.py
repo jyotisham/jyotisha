@@ -300,13 +300,12 @@ def get_angam_span(jd1, jd2, angam_type, target, ayanamsha_id=swe.SIDM_LAHIRI, d
         and karanam.
 
         Args:
-          jd1: return all spans that start after this date
-          jd2: return all spans that end before this date
+          jd1: return the first span that starts after this date
+          jd2: return the first span that ends before this date
           angam_type: TITHI, NAKSHATRAM, YOGAM, KARANAM, SOLAR_MONTH, SOLAR_NAKSH
 
         Returns:
-          list: A list comprising tuples of start and end times that lie within
-            jd1 and jd2
+          tuple: A tuple of start and end times that lies within jd1 and jd2
     """
 
     angam_start = angam_end = None
