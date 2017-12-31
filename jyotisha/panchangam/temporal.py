@@ -469,23 +469,23 @@ def get_ekadashi_name(paksha, lmonth):
     """
     if paksha == 'shukla':
         if lmonth == int(lmonth):
-            return '%s-EkAdazI' % NAMES['SHUKLA_EKADASHI_NAMES']['hk'][lmonth-1]
+            return '%s-EkAdazI' % NAMES['SHUKLA_EKADASHI_NAMES']['hk'][lmonth]
         else:
             # adhika mAsam
-            return '%s-EkAdazI' % NAMES['SHUKLA_EKADASHI_NAMES']['hk'][12]
+            return '%s-EkAdazI' % NAMES['SHUKLA_EKADASHI_NAMES']['hk'][13]
     elif paksha == 'krishna':
         if lmonth == int(lmonth):
-            return '%s-EkAdazI' % NAMES['KRISHNA_EKADASHI_NAMES']['hk'][lmonth-1]
+            return '%s-EkAdazI' % NAMES['KRISHNA_EKADASHI_NAMES']['hk'][lmonth]
         else:
             # adhika mAsam
-            return '%s-EkAdazI' % NAMES['KRISHNA_EKADASHI_NAMES']['hk'][12]
+            return '%s-EkAdazI' % NAMES['KRISHNA_EKADASHI_NAMES']['hk'][13]
 
 
 def get_chandra_masa(month, NAMES, script):
     if month == int(month):
-        return NAMES['CHANDRA_MASA_NAMES'][script][month-1]
+        return NAMES['CHANDRA_MASA_NAMES'][script][month]
     else:
-        return '%s-(%s)' % (NAMES['CHANDRA_MASA_NAMES'][script][int(month)], tr('adhika', script))
+        return '%s-(%s)' % (NAMES['CHANDRA_MASA_NAMES'][script][int(month) + 1], tr('adhika', script))
 
 
 def get_tithi(jd, ayanamsha_id=swe.SIDM_LAHIRI):
