@@ -152,7 +152,9 @@ def get_solar_month_day(jd_start, city, ayanamsha_id=swe.SIDM_LAHIRI):
 
   jd_sunset = swe.rise_trans(jd_start=jd_start, body=swe.SUN, lon=city.longitude,
                              lat=city.latitude, rsmi=swe.CALC_SET | swe.BIT_DISC_CENTER)[1][0]
-
+  if jd_sunset == 0.0:
+    logging.error('No sunset was computed!')
+    raise (ValueError('No sunset was computed. Perhaps the co-ordinates are beyond the polar circle (most likely a LAT-LONG swap! Please check your inputs.'))
   # logging.debug(swe.rise_trans(jd_start=jd_start, body=swe.SUN, lon=city.longitude,
   #                              lat=city.latitude, rsmi=swe.CALC_SET | swe.BIT_DISC_CENTER))
   solar_month = get_angam(jd_sunset, SOLAR_MONTH, ayanamsha_id=ayanamsha_id)
