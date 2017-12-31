@@ -35,7 +35,12 @@ def write_to_file(ics_calendar, fname):
 
 def compute_calendar(panchangam):
     with open(os.path.join(CODE_ROOT, 'panchangam/data/festival_rules.json')) as festivals_data:
-        festival_rules = json.load(festivals_data)
+        festival_rules_1 = json.load(festivals_data)
+
+    with open(os.path.join(CODE_ROOT, 'panchangam/data/relative_festival_rules.json')) as relative_festivals_data:
+        festival_rules_2 = json.load(relative_festivals_data)
+
+    festival_rules = {**festival_rules_1, **festival_rules_2}
 
     ics_calendar = Calendar()
     uid_list = []

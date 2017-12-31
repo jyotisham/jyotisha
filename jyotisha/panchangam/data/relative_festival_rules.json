@@ -1,246 +1,795 @@
 {
-  "gAyatrI-japaH": {
-    "Relative Festival": "yajurvEda-upAkarma",
-    "offset" : 1
-  },
   "bhOgI": {
+    "Comments": "",
+    "Nirnaya": "",
+    "Other Names": "",
+    "Primary Reference": "",
     "Relative Festival": "makara-saGkrAnti/uttarAyaNa-puNyakAlaH",
-    "offset" : -1
+    "Secondary Reference": "",
+    "Shloka": "",
+    "Short Description": "",
+    "Tags": "common-festivals",
+    "URL": "bhogi",
+    "offset": -1
   },
-  "ta:madhurai mIn2AkSI kOyilil kal yAn2aikku karumbu kODutta lIlai": {
-    "Relative Festival": "makara-saGkrAnti/uttarAyaNa-puNyakAlaH",
-    "offset" : 0
+  "gAyatrI-japaH": {
+    "Comments": "",
+    "Nirnaya": "",
+    "Other Names": "",
+    "Primary Reference": "",
+    "Relative Festival": "yajurvEda-upAkarma",
+    "Secondary Reference": "",
+    "Shloka": "",
+    "Short Description": "Perform 1008 Gayatri Japa.",
+    "Tags": "common-festivals",
+    "URL": "gayatri-japa",
+    "offset": 1
   },
   "hOli": {
+    "Comments": "",
+    "Nirnaya": "",
+    "Other Names": "",
+    "Primary Reference": "",
     "Relative Festival": "hOlikA-pUrNimA",
-    "offset" : 1
+    "Secondary Reference": "",
+    "Shloka": "",
+    "Short Description": "Festival of colours is celebrated today.",
+    "Tags": "common-festivals",
+    "URL": "holi",
+    "offset": 1
   },
   "indra-pUjA/gO-pUjA": {
+    "Comments": "",
+    "Nirnaya": "",
+    "Other Names": "",
+    "Primary Reference": "",
     "Relative Festival": "makara-saGkrAnti/uttarAyaNa-puNyakAlaH",
-    "offset" : 1
-  },
-  "ta:kan2up~poGgal": {
-    "Relative Festival": "makara-saGkrAnti/uttarAyaNa-puNyakAlaH",
-    "offset" : 1
+    "Secondary Reference": "",
+    "Shloka": "",
+    "Short Description": "",
+    "Tags": "special-pujas",
+    "URL": "indra-puja-go-puja",
+    "offset": 1
   },
   "mahAlaya-pakSa-samApanam": {
+    "Comments": "",
+    "Nirnaya": "",
+    "Other Names": "",
+    "Primary Reference": "",
     "Relative Festival": "(bhAdrapada) mahAlaya amAvasyA",
-    "offset" : 0
-  },
-  "saptama-aparapakSa-samApanam": {
-    "Relative Festival": "Azvayuja-amAvasyA",
-    "offset" : 0
-  },
-  "navama-aparapakSa-samApanam": {
-    "Relative Festival": "kArtika-amAvasyA",
-    "offset" : 0
-  },
-  "vEGkaTAcalE jyESTha-abhidyEyakAbhiSEkaH (mutyala-kavacam)": {
-    "Relative Festival": "vEGkaTAcalE jyESTha-abhidyEyakAbhiSEkaH (svarNa-kavacam)",
-    "offset" : -1
-  },
-  "vEGkaTAcalE jyESTha-abhidyEyakAbhiSEkaH (vajra-kavacam)": {
-    "Relative Festival": "vEGkaTAcalE jyESTha-abhidyEyakAbhiSEkaH (svarNa-kavacam)",
-    "offset" : -2
-  },
-  "ta:varagUr ur2iyaDi utsavam": {
-    "Relative Festival": "zrIkRSNajanmASTamI",
-    "offset" : 1
+    "Secondary Reference": "",
+    "Shloka": "",
+    "Short Description": "",
+    "Tags": "special-period-end,common-festivals",
+    "URL": "mahalaya-paksha-samapanam",
+    "offset": 0
   },
   "nandOtsavaH": {
+    "Comments": "",
+    "Nirnaya": "",
+    "Other Names": "",
+    "Primary Reference": "",
     "Relative Festival": "zrIkRSNajanmASTamI",
-    "offset" : 1
+    "Secondary Reference": "",
+    "Shloka": "",
+    "Short Description": "",
+    "Tags": "north-india-temple-festivals",
+    "URL": "nandotsava",
+    "offset": 1
   },
-  "tiruvizalUr gaGgAkarSaNa-mahOtsava-ArambhaH": {
-    "Relative Festival": "tiruvizalUr gaGgAkarSaNa-mahOtsava-samApanam",
-    "offset" : -9
+  "navama-aparapakSa-samApanam": {
+    "Comments": "",
+    "Nirnaya": "",
+    "Other Names": "",
+    "Primary Reference": "",
+    "Relative Festival": "kArtika-amAvasyA",
+    "Secondary Reference": "",
+    "Shloka": "",
+    "Short Description": "",
+    "Tags": "special-period-end",
+    "URL": "navama-aparapaksha",
+    "offset": 0
   },
-  "ta:kapAlI dvajArOhaNam": {
-    "Relative Festival": "ta:paGgun2i~uttiram",
-    "offset" : -9
-  },
-  "ta:kapAlI sUrya~candra~vaTTam": {
-    "Relative Festival": "ta:paGgun2i~uttiram",
-    "offset" : -8
-  },
-  "ta:kapAlI adhikAra nandi": {
-    "Relative Festival": "ta:paGgun2i~uttiram",
-    "offset" : -7
-  },
-  "ta:kapAlI bhUtaN bhUtakI": {
-    "Relative Festival": "ta:paGgun2i~uttiram",
-    "offset" : -7
-  },
-  "ta:kapAlI cavuDal vimAn2am": {
-    "Relative Festival": "ta:paGgun2i~uttiram",
-    "offset" : -5
-  },
-  "ta:kapAlI riSabha vAhan2am": {
-    "Relative Festival": "ta:paGgun2i~uttiram",
-    "offset" : -5
-  },
-  "ta:kapAlI pallakku vizhA": {
-    "Relative Festival": "ta:paGgun2i~uttiram",
-    "offset" : -4
-  },
-  "ta:kapAlI tEr": {
-    "Relative Festival": "ta:paGgun2i~uttiram",
-    "offset" : -3
-  },
-  "ta:kapAlI ar2upattu mUvar": {
-    "Relative Festival": "ta:paGgun2i~uttiram",
-    "offset" : -2
-  },
-  "ta:kapAlI umA-mahEzvara darican2am": {
-    "Relative Festival": "ta:paGgun2i~uttiram",
-    "offset" : 1
-  },
-  "ta:kapAlI viDaiyAr2r2i toDakkam": {
-    "Relative Festival": "ta:paGgun2i~uttiram",
-    "offset" : 1
-  },
-  "ta:kapAlI viDaiyAr2r2i nir2aivu": {
-    "Relative Festival": "ta:paGgun2i~uttiram",
-    "offset" : 11
-  },
-  "ta:kapAlI teppOtsavam~1": {
-    "Relative Festival": "ta:taippUcam",
-    "offset" : -1
-  },
-  "ta:kapAlI teppOtsavam~2": {
-    "Relative Festival": "ta:taippUcam",
-    "offset" : 0
-  },
-  "ta:kapAlI teppOtsavam~3": {
-    "Relative Festival": "ta:taippUcam",
-    "offset" : 1
-  },
-  "ta:cidambaram dvajArOhaNam/paJcamUrtti bhavan2i": {
-    "Relative Festival": "ta:naTarAjar An2i tirumaJcan2am",
-    "offset" : -9
-  },
-  "ta:cidambaram veLLi candraprabha vAhan2am": {
-    "Relative Festival": "ta:naTarAjar An2i tirumaJcan2am",
-    "offset" : -8
-  },
-  "ta:cidambaram taGga sUryaprabha vAhan2am": {
-    "Relative Festival": "ta:naTarAjar An2i tirumaJcan2am",
-    "offset" : -7
-  },
-  "ta:cidambaram veLLi bhUta vAhan2am": {
-    "Relative Festival": "ta:naTarAjar An2i tirumaJcan2am",
-    "offset" : -6
-  },
-  "ta:cidambaram veLLi riSabha vAhan2am": {
-    "Relative Festival": "ta:naTarAjar An2i tirumaJcan2am",
-    "offset" : -5
-  },
-  "ta:cidambaram veLLi yAn2ai vAhan2am": {
-    "Relative Festival": "ta:naTarAjar An2i tirumaJcan2am",
-    "offset" : -4
-  },
-  "ta:cidambaram kailAca vAhan2am": {
-    "Relative Festival": "ta:naTarAjar An2i tirumaJcan2am",
-    "offset" : -3
+  "saptama-aparapakSa-samApanam": {
+    "Comments": "",
+    "Nirnaya": "",
+    "Other Names": "",
+    "Primary Reference": "",
+    "Relative Festival": "Azvayuja-amAvasyA",
+    "Secondary Reference": "",
+    "Shloka": "",
+    "Short Description": "",
+    "Tags": "special-period-end",
+    "URL": "saptama-aparapaksha",
+    "offset": 0
   },
   "ta:cidambaram bhikSATan2ar taGga ratham": {
+    "Comments": "",
+    "Nirnaya": "",
+    "Other Names": "",
+    "Primary Reference": "",
     "Relative Festival": "ta:naTarAjar An2i tirumaJcan2am",
-    "offset" : -2
+    "Secondary Reference": "",
+    "Shloka": "",
+    "Short Description": "",
+    "Tags": "tamilnadu-temple-festivals",
+    "URL": "chidambaram-bhikshatanar-tanga-ratham",
+    "offset": -2
   },
-  "ta:cidambaram tEr": {
+  "ta:cidambaram dvajArOhaNam/paJcamUrtti bhavan2i": {
+    "Comments": "",
+    "Nirnaya": "",
+    "Other Names": "",
+    "Primary Reference": "",
     "Relative Festival": "ta:naTarAjar An2i tirumaJcan2am",
-    "offset" : -1
+    "Secondary Reference": "",
+    "Shloka": "",
+    "Short Description": "",
+    "Tags": "tamilnadu-temple-festivals",
+    "URL": "chidambaram-dvajarohanam-panchamurtti-bhavani",
+    "offset": -9
+  },
+  "ta:cidambaram kailAca vAhan2am": {
+    "Comments": "",
+    "Nirnaya": "",
+    "Other Names": "",
+    "Primary Reference": "",
+    "Relative Festival": "ta:naTarAjar An2i tirumaJcan2am",
+    "Secondary Reference": "",
+    "Shloka": "",
+    "Short Description": "",
+    "Tags": "tamilnadu-temple-festivals",
+    "URL": "chidambaram-kailasa-vahanam",
+    "offset": -3
   },
   "ta:cidambaram muttuppallakku": {
+    "Comments": "",
+    "Nirnaya": "",
+    "Other Names": "",
+    "Primary Reference": "",
     "Relative Festival": "ta:naTarAjar An2i tirumaJcan2am",
-    "offset" : 1
+    "Secondary Reference": "",
+    "Shloka": "",
+    "Short Description": "",
+    "Tags": "tamilnadu-temple-festivals",
+    "URL": "chidambaram-muttuppallakku",
+    "offset": 1
   },
-  "ta:tiruccendUr murugan2 mAcit tiruvizhA toDakkam": {
-    "Relative Festival": "ta:tiruccendUr mAcit tiruvizhA nir2aivu",
-    "offset" : -11
+  "ta:cidambaram tEr": {
+    "Comments": "",
+    "Nirnaya": "",
+    "Other Names": "",
+    "Primary Reference": "",
+    "Relative Festival": "ta:naTarAjar An2i tirumaJcan2am",
+    "Secondary Reference": "",
+    "Shloka": "",
+    "Short Description": "",
+    "Tags": "tamilnadu-temple-festivals",
+    "URL": "chidambaram-ter",
+    "offset": -1
   },
-  "ta:tiruccendUr murugan2 mAcit tiruvizhA ##2##m nAL": {
-    "Relative Festival": "ta:tiruccendUr mAcit tiruvizhA nir2aivu",
-    "offset" : -10
+  "ta:cidambaram taGga sUryaprabha vAhan2am": {
+    "Comments": "",
+    "Nirnaya": "",
+    "Other Names": "",
+    "Primary Reference": "",
+    "Relative Festival": "ta:naTarAjar An2i tirumaJcan2am",
+    "Secondary Reference": "",
+    "Shloka": "",
+    "Short Description": "",
+    "Tags": "tamilnadu-temple-festivals",
+    "URL": "chidambaram-tanga-suryaprabha-vahanam",
+    "offset": -7
   },
-  "ta:tiruccendUr murugan2 mAcit tiruvizhA ##3##m nAL—murugan2 bhavan2i": {
-    "Relative Festival": "ta:tiruccendUr mAcit tiruvizhA nir2aivu",
-    "offset" : -9
+  "ta:cidambaram veLLi bhUta vAhan2am": {
+    "Comments": "",
+    "Nirnaya": "",
+    "Other Names": "",
+    "Primary Reference": "",
+    "Relative Festival": "ta:naTarAjar An2i tirumaJcan2am",
+    "Secondary Reference": "",
+    "Shloka": "",
+    "Short Description": "",
+    "Tags": "tamilnadu-temple-festivals",
+    "URL": "chidambaram-velli-bhuta-vahanam",
+    "offset": -6
   },
-  "ta:tiruccendUr murugan2 mAcit tiruvizhA ##4##m nAL": {
-    "Relative Festival": "ta:tiruccendUr mAcit tiruvizhA nir2aivu",
-    "offset" : -8
+  "ta:cidambaram veLLi candraprabha vAhan2am": {
+    "Comments": "",
+    "Nirnaya": "",
+    "Other Names": "",
+    "Primary Reference": "",
+    "Relative Festival": "ta:naTarAjar An2i tirumaJcan2am",
+    "Secondary Reference": "",
+    "Shloka": "",
+    "Short Description": "",
+    "Tags": "tamilnadu-temple-festivals",
+    "URL": "chidambaram-velli-chandraprabha-vahanam",
+    "offset": -8
   },
-  "ta:tiruccendUr murugan2 mAcit tiruvizhA ##5##m nAL": {
-    "Relative Festival": "ta:tiruccendUr mAcit tiruvizhA nir2aivu",
-    "offset" : -7
+  "ta:cidambaram veLLi riSabha vAhan2am": {
+    "Comments": "",
+    "Nirnaya": "",
+    "Other Names": "",
+    "Primary Reference": "",
+    "Relative Festival": "ta:naTarAjar An2i tirumaJcan2am",
+    "Secondary Reference": "",
+    "Shloka": "",
+    "Short Description": "",
+    "Tags": "tamilnadu-temple-festivals",
+    "URL": "chidambaram-velli-rishabha-vahanam",
+    "offset": -5
   },
-  "ta:tiruccendUr murugan2 mAcit tiruvizhA ##6##m nAL—veLLit tEr bhavan2i": {
-    "Relative Festival": "ta:tiruccendUr mAcit tiruvizhA nir2aivu",
-    "offset" : -6
+  "ta:cidambaram veLLi yAn2ai vAhan2am": {
+    "Comments": "",
+    "Nirnaya": "",
+    "Other Names": "",
+    "Primary Reference": "",
+    "Relative Festival": "ta:naTarAjar An2i tirumaJcan2am",
+    "Secondary Reference": "",
+    "Shloka": "",
+    "Short Description": "",
+    "Tags": "tamilnadu-temple-festivals",
+    "URL": "chidambaram-velli-yanai-vahanam",
+    "offset": -4
   },
-  "ta:tiruccendUr murugan2 mAcit tiruvizhA ##7##m nAL—urugu cattac cEvai/cigappu cAtti alaGkAram": {
-    "Relative Festival": "ta:tiruccendUr mAcit tiruvizhA nir2aivu",
-    "offset" : -5
+  "ta:kan2up~poGgal": {
+    "Comments": "",
+    "Nirnaya": "",
+    "Other Names": "",
+    "Primary Reference": "",
+    "Relative Festival": "makara-saGkrAnti/uttarAyaNa-puNyakAlaH",
+    "Secondary Reference": "",
+    "Shloka": "",
+    "Short Description": "",
+    "Tags": "common-festivals",
+    "URL": "kanup-pongal",
+    "offset": 1
   },
-  "ta:tiruccendUr murugan2 mAcit tiruvizhA ##8##m nAL—paccai cAtti alaGkAram": {
-    "Relative Festival": "ta:tiruccendUr mAcit tiruvizhA nir2aivu",
-    "offset" : -4
+  "ta:kapAlI adhikAra nandi": {
+    "Comments": "",
+    "Nirnaya": "",
+    "Other Names": "",
+    "Primary Reference": "",
+    "Relative Festival": "ta:paGgun2i~uttiram",
+    "Secondary Reference": "",
+    "Shloka": "",
+    "Short Description": "",
+    "Tags": "tamilnadu-temple-festivals",
+    "URL": "kapali-adhikara-nandi",
+    "offset": -7
   },
-  "ta:tiruccendUr murugan2 mAcit tiruvizhA ##9##m nAL—taGga kailAca vAhan2am": {
-    "Relative Festival": "ta:tiruccendUr mAcit tiruvizhA nir2aivu",
-    "offset" : -3
+  "ta:kapAlI ar2upattu mUvar": {
+    "Comments": "",
+    "Nirnaya": "",
+    "Other Names": "",
+    "Primary Reference": "",
+    "Relative Festival": "ta:paGgun2i~uttiram",
+    "Secondary Reference": "",
+    "Shloka": "",
+    "Short Description": "",
+    "Tags": "tamilnadu-temple-festivals",
+    "URL": "kapali-arupattu-muvar",
+    "offset": -2
   },
-  "ta:tiruccendUr murugan2 mAcit tiruvizhA ##10##m nAL—tEr": {
-    "Relative Festival": "ta:tiruccendUr mAcit tiruvizhA nir2aivu",
-    "offset" : -2
+  "ta:kapAlI bhUtaN bhUtakI": {
+    "Comments": "",
+    "Nirnaya": "",
+    "Other Names": "",
+    "Primary Reference": "",
+    "Relative Festival": "ta:paGgun2i~uttiram",
+    "Secondary Reference": "",
+    "Shloka": "",
+    "Short Description": "",
+    "Tags": "tamilnadu-temple-festivals",
+    "URL": "kapali-bhutan-bhutaki",
+    "offset": -7
   },
-  "ta:tiruccendUr murugan2 teppam": {
-    "Relative Festival": "ta:tiruccendUr mAcit tiruvizhA nir2aivu",
-    "offset" : -1
+  "ta:kapAlI cavuDal vimAn2am": {
+    "Comments": "",
+    "Nirnaya": "",
+    "Other Names": "",
+    "Primary Reference": "",
+    "Relative Festival": "ta:paGgun2i~uttiram",
+    "Secondary Reference": "",
+    "Shloka": "",
+    "Short Description": "",
+    "Tags": "tamilnadu-temple-festivals",
+    "URL": "kapali-chavudal-vimanam",
+    "offset": -5
   },
-  "ta:tiruccendUr murugan2 AvaNit tiruvizhA toDakkam/koDiyEr2r2am": {
+  "ta:kapAlI dvajArOhaNam": {
+    "Comments": "",
+    "Nirnaya": "",
+    "Other Names": "",
+    "Primary Reference": "",
+    "Relative Festival": "ta:paGgun2i~uttiram",
+    "Secondary Reference": "",
+    "Shloka": "",
+    "Short Description": "",
+    "Tags": "tamilnadu-temple-festivals",
+    "URL": "kapali-dvajarohanam",
+    "offset": -9
+  },
+  "ta:kapAlI pallakku vizhA": {
+    "Comments": "",
+    "Nirnaya": "",
+    "Other Names": "",
+    "Primary Reference": "",
+    "Relative Festival": "ta:paGgun2i~uttiram",
+    "Secondary Reference": "",
+    "Shloka": "",
+    "Short Description": "",
+    "Tags": "tamilnadu-temple-festivals",
+    "URL": "kapali-pallakku-vizha",
+    "offset": -4
+  },
+  "ta:kapAlI riSabha vAhan2am": {
+    "Comments": "",
+    "Nirnaya": "",
+    "Other Names": "",
+    "Primary Reference": "",
+    "Relative Festival": "ta:paGgun2i~uttiram",
+    "Secondary Reference": "",
+    "Shloka": "",
+    "Short Description": "",
+    "Tags": "tamilnadu-temple-festivals",
+    "URL": "kapali-rishabha-vahanam",
+    "offset": -5
+  },
+  "ta:kapAlI sUrya~candra~vaTTam": {
+    "Comments": "",
+    "Nirnaya": "",
+    "Other Names": "",
+    "Primary Reference": "",
+    "Relative Festival": "ta:paGgun2i~uttiram",
+    "Secondary Reference": "",
+    "Shloka": "",
+    "Short Description": "",
+    "Tags": "tamilnadu-temple-festivals",
+    "URL": "kapali-surya-chandra-vattam",
+    "offset": -8
+  },
+  "ta:kapAlI tEr": {
+    "Comments": "",
+    "Nirnaya": "",
+    "Other Names": "",
+    "Primary Reference": "",
+    "Relative Festival": "ta:paGgun2i~uttiram",
+    "Secondary Reference": "",
+    "Shloka": "",
+    "Short Description": "",
+    "Tags": "tamilnadu-temple-festivals",
+    "URL": "kapali-ter",
+    "offset": -3
+  },
+  "ta:kapAlI teppOtsavam~1": {
+    "Comments": "",
+    "Nirnaya": "",
+    "Other Names": "",
+    "Primary Reference": "",
+    "Relative Festival": "ta:taippUcam",
+    "Secondary Reference": "",
+    "Shloka": "",
+    "Short Description": "",
+    "Tags": "tamilnadu-temple-festivals",
+    "URL": "kapali-teppotsavam",
+    "offset": -1
+  },
+  "ta:kapAlI teppOtsavam~2": {
+    "Comments": "",
+    "Nirnaya": "",
+    "Other Names": "",
+    "Primary Reference": "",
+    "Relative Festival": "ta:taippUcam",
+    "Secondary Reference": "",
+    "Shloka": "",
+    "Short Description": "",
+    "Tags": "tamilnadu-temple-festivals",
+    "URL": "kapali-teppotsavam",
+    "offset": 0
+  },
+  "ta:kapAlI teppOtsavam~3": {
+    "Comments": "",
+    "Nirnaya": "",
+    "Other Names": "",
+    "Primary Reference": "",
+    "Relative Festival": "ta:taippUcam",
+    "Secondary Reference": "",
+    "Shloka": "",
+    "Short Description": "",
+    "Tags": "tamilnadu-temple-festivals",
+    "URL": "kapali-teppotsavam",
+    "offset": 1
+  },
+  "ta:kapAlI umA-mahEzvara darican2am": {
+    "Comments": "",
+    "Nirnaya": "",
+    "Other Names": "",
+    "Primary Reference": "",
+    "Relative Festival": "ta:paGgun2i~uttiram",
+    "Secondary Reference": "",
+    "Shloka": "",
+    "Short Description": "",
+    "Tags": "tamilnadu-temple-festivals",
+    "URL": "kapali-uma-maheshvara-darisanam",
+    "offset": 1
+  },
+  "ta:kapAlI viDaiyAr2r2i nir2aivu": {
+    "Comments": "",
+    "Nirnaya": "",
+    "Other Names": "",
+    "Primary Reference": "",
+    "Relative Festival": "ta:paGgun2i~uttiram",
+    "Secondary Reference": "",
+    "Shloka": "",
+    "Short Description": "",
+    "Tags": "tamilnadu-temple-festivals",
+    "URL": "kapali-vidaiyarri-niraivu",
+    "offset": 11
+  },
+  "ta:kapAlI viDaiyAr2r2i toDakkam": {
+    "Comments": "",
+    "Nirnaya": "",
+    "Other Names": "",
+    "Primary Reference": "",
+    "Relative Festival": "ta:paGgun2i~uttiram",
+    "Secondary Reference": "",
+    "Shloka": "",
+    "Short Description": "",
+    "Tags": "tamilnadu-temple-festivals",
+    "URL": "kapali-vidaiyarri-todakkam",
+    "offset": 1
+  },
+  "ta:madhurai mIn2AkSI kOyilil kal yAn2aikku karumbu kODutta lIlai": {
+    "Comments": "",
+    "Nirnaya": "",
+    "Other Names": "",
+    "Primary Reference": "",
+    "Relative Festival": "makara-saGkrAnti/uttarAyaNa-puNyakAlaH",
+    "Secondary Reference": "",
+    "Shloka": "",
+    "Short Description": "",
+    "Tags": "tamilnadu-temple-festivals",
+    "URL": "madurai-minakshi-temple-festivals",
+    "offset": 0
+  },
+  "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##10##m nAL\u2014tEr": {
+    "Comments": "",
+    "Nirnaya": "",
+    "Other Names": "",
+    "Primary Reference": "",
     "Relative Festival": "ta:tiruccendUr AvaNit tiruvizhA nir2aivu",
-    "offset" : -11
-  },
-  "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##2##m nAL": {
-    "Relative Festival": "ta:tiruccendUr AvaNit tiruvizhA nir2aivu",
-    "offset" : -10
-  },
-  "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##3##m nAL—murugan2 bhavan2i": {
-    "Relative Festival": "ta:tiruccendUr AvaNit tiruvizhA nir2aivu",
-    "offset" : -9
-  },
-  "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##4##m nAL—yAn2ai vAhanattil murugan2-ambAL bhavan2i": {
-    "Relative Festival": "ta:tiruccendUr AvaNit tiruvizhA nir2aivu",
-    "offset" : -8
-  },
-  "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##5##m nAL": {
-    "Relative Festival": "ta:tiruccendUr AvaNit tiruvizhA nir2aivu",
-    "offset" : -7
-  },
-  "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##6##m nAL—veLLit tEr bhavan2i": {
-    "Relative Festival": "ta:tiruccendUr AvaNit tiruvizhA nir2aivu",
-    "offset" : -6
-  },
-  "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##7##m nAL—cigappu cAtti alaGkAram": {
-    "Relative Festival": "ta:tiruccendUr AvaNit tiruvizhA nir2aivu",
-    "offset" : -5
-  },
-  "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##8##m nAL—paccai cAtti alaGkAram": {
-    "Relative Festival": "ta:tiruccendUr AvaNit tiruvizhA nir2aivu",
-    "offset" : -4
-  },
-  "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##9##m nAL": {
-    "Relative Festival": "ta:tiruccendUr AvaNit tiruvizhA nir2aivu",
-    "offset" : -3
-  },
-  "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##10##m nAL—tEr": {
-    "Relative Festival": "ta:tiruccendUr AvaNit tiruvizhA nir2aivu",
-    "offset" : -2
+    "Secondary Reference": "",
+    "Shloka": "",
+    "Short Description": "",
+    "Tags": "tamilnadu-temple-festivals",
+    "URL": "tiruchendur-avani-tiruvizha",
+    "offset": -2
   },
   "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##11##m nAL": {
+    "Comments": "",
+    "Nirnaya": "",
+    "Other Names": "",
+    "Primary Reference": "",
     "Relative Festival": "ta:tiruccendUr AvaNit tiruvizhA nir2aivu",
-    "offset" : -1
+    "Secondary Reference": "",
+    "Shloka": "",
+    "Short Description": "",
+    "Tags": "tamilnadu-temple-festivals",
+    "URL": "tiruchendur-avani-tiruvizha",
+    "offset": -1
+  },
+  "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##2##m nAL": {
+    "Comments": "",
+    "Nirnaya": "",
+    "Other Names": "",
+    "Primary Reference": "",
+    "Relative Festival": "ta:tiruccendUr AvaNit tiruvizhA nir2aivu",
+    "Secondary Reference": "",
+    "Shloka": "",
+    "Short Description": "",
+    "Tags": "tamilnadu-temple-festivals",
+    "URL": "tiruchendur-avani-tiruvizha",
+    "offset": -10
+  },
+  "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##3##m nAL\u2014murugan2 bhavan2i": {
+    "Comments": "",
+    "Nirnaya": "",
+    "Other Names": "",
+    "Primary Reference": "",
+    "Relative Festival": "ta:tiruccendUr AvaNit tiruvizhA nir2aivu",
+    "Secondary Reference": "",
+    "Shloka": "",
+    "Short Description": "",
+    "Tags": "tamilnadu-temple-festivals",
+    "URL": "tiruchendur-avani-tiruvizha",
+    "offset": -9
+  },
+  "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##4##m nAL\u2014yAn2ai vAhanattil murugan2-ambAL bhavan2i": {
+    "Comments": "",
+    "Nirnaya": "",
+    "Other Names": "",
+    "Primary Reference": "",
+    "Relative Festival": "ta:tiruccendUr AvaNit tiruvizhA nir2aivu",
+    "Secondary Reference": "",
+    "Shloka": "",
+    "Short Description": "",
+    "Tags": "tamilnadu-temple-festivals",
+    "URL": "tiruchendur-avani-tiruvizha",
+    "offset": -8
+  },
+  "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##5##m nAL": {
+    "Comments": "",
+    "Nirnaya": "",
+    "Other Names": "",
+    "Primary Reference": "",
+    "Relative Festival": "ta:tiruccendUr AvaNit tiruvizhA nir2aivu",
+    "Secondary Reference": "",
+    "Shloka": "",
+    "Short Description": "",
+    "Tags": "tamilnadu-temple-festivals",
+    "URL": "tiruchendur-avani-tiruvizha",
+    "offset": -7
+  },
+  "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##6##m nAL\u2014veLLit tEr bhavan2i": {
+    "Comments": "",
+    "Nirnaya": "",
+    "Other Names": "",
+    "Primary Reference": "",
+    "Relative Festival": "ta:tiruccendUr AvaNit tiruvizhA nir2aivu",
+    "Secondary Reference": "",
+    "Shloka": "",
+    "Short Description": "",
+    "Tags": "tamilnadu-temple-festivals",
+    "URL": "tiruchendur-avani-tiruvizha",
+    "offset": -6
+  },
+  "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##7##m nAL\u2014cigappu cAtti alaGkAram": {
+    "Comments": "",
+    "Nirnaya": "",
+    "Other Names": "",
+    "Primary Reference": "",
+    "Relative Festival": "ta:tiruccendUr AvaNit tiruvizhA nir2aivu",
+    "Secondary Reference": "",
+    "Shloka": "",
+    "Short Description": "",
+    "Tags": "tamilnadu-temple-festivals",
+    "URL": "tiruchendur-avani-tiruvizha",
+    "offset": -5
+  },
+  "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##8##m nAL\u2014paccai cAtti alaGkAram": {
+    "Comments": "",
+    "Nirnaya": "",
+    "Other Names": "",
+    "Primary Reference": "",
+    "Relative Festival": "ta:tiruccendUr AvaNit tiruvizhA nir2aivu",
+    "Secondary Reference": "",
+    "Shloka": "",
+    "Short Description": "",
+    "Tags": "tamilnadu-temple-festivals",
+    "URL": "tiruchendur-avani-tiruvizha",
+    "offset": -4
+  },
+  "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##9##m nAL": {
+    "Comments": "",
+    "Nirnaya": "",
+    "Other Names": "",
+    "Primary Reference": "",
+    "Relative Festival": "ta:tiruccendUr AvaNit tiruvizhA nir2aivu",
+    "Secondary Reference": "",
+    "Shloka": "",
+    "Short Description": "",
+    "Tags": "tamilnadu-temple-festivals",
+    "URL": "tiruchendur-avani-tiruvizha",
+    "offset": -3
+  },
+  "ta:tiruccendUr murugan2 AvaNit tiruvizhA toDakkam/koDiyEr2r2am": {
+    "Comments": "",
+    "Nirnaya": "",
+    "Other Names": "",
+    "Primary Reference": "",
+    "Relative Festival": "ta:tiruccendUr AvaNit tiruvizhA nir2aivu",
+    "Secondary Reference": "",
+    "Shloka": "",
+    "Short Description": "",
+    "Tags": "tamilnadu-temple-festivals",
+    "URL": "tiruchendur-avani-tiruvizha",
+    "offset": -11
+  },
+  "ta:tiruccendUr murugan2 mAcit tiruvizhA ##10##m nAL\u2014tEr": {
+    "Comments": "",
+    "Nirnaya": "",
+    "Other Names": "",
+    "Primary Reference": "",
+    "Relative Festival": "ta:tiruccendUr mAcit tiruvizhA nir2aivu",
+    "Secondary Reference": "",
+    "Shloka": "",
+    "Short Description": "",
+    "Tags": "tamilnadu-temple-festivals",
+    "URL": "tiruchendur-masi-tiruvizha",
+    "offset": -2
+  },
+  "ta:tiruccendUr murugan2 mAcit tiruvizhA ##2##m nAL": {
+    "Comments": "",
+    "Nirnaya": "",
+    "Other Names": "",
+    "Primary Reference": "",
+    "Relative Festival": "ta:tiruccendUr mAcit tiruvizhA nir2aivu",
+    "Secondary Reference": "",
+    "Shloka": "",
+    "Short Description": "",
+    "Tags": "tamilnadu-temple-festivals",
+    "URL": "tiruchendur-masi-tiruvizha",
+    "offset": -10
+  },
+  "ta:tiruccendUr murugan2 mAcit tiruvizhA ##3##m nAL\u2014murugan2 bhavan2i": {
+    "Comments": "",
+    "Nirnaya": "",
+    "Other Names": "",
+    "Primary Reference": "",
+    "Relative Festival": "ta:tiruccendUr mAcit tiruvizhA nir2aivu",
+    "Secondary Reference": "",
+    "Shloka": "",
+    "Short Description": "",
+    "Tags": "tamilnadu-temple-festivals",
+    "URL": "tiruchendur-masi-tiruvizha",
+    "offset": -9
+  },
+  "ta:tiruccendUr murugan2 mAcit tiruvizhA ##4##m nAL": {
+    "Comments": "",
+    "Nirnaya": "",
+    "Other Names": "",
+    "Primary Reference": "",
+    "Relative Festival": "ta:tiruccendUr mAcit tiruvizhA nir2aivu",
+    "Secondary Reference": "",
+    "Shloka": "",
+    "Short Description": "",
+    "Tags": "tamilnadu-temple-festivals",
+    "URL": "tiruchendur-masi-tiruvizha",
+    "offset": -8
+  },
+  "ta:tiruccendUr murugan2 mAcit tiruvizhA ##5##m nAL": {
+    "Comments": "",
+    "Nirnaya": "",
+    "Other Names": "",
+    "Primary Reference": "",
+    "Relative Festival": "ta:tiruccendUr mAcit tiruvizhA nir2aivu",
+    "Secondary Reference": "",
+    "Shloka": "",
+    "Short Description": "",
+    "Tags": "tamilnadu-temple-festivals",
+    "URL": "tiruchendur-masi-tiruvizha",
+    "offset": -7
+  },
+  "ta:tiruccendUr murugan2 mAcit tiruvizhA ##6##m nAL\u2014veLLit tEr bhavan2i": {
+    "Comments": "",
+    "Nirnaya": "",
+    "Other Names": "",
+    "Primary Reference": "",
+    "Relative Festival": "ta:tiruccendUr mAcit tiruvizhA nir2aivu",
+    "Secondary Reference": "",
+    "Shloka": "",
+    "Short Description": "",
+    "Tags": "tamilnadu-temple-festivals",
+    "URL": "tiruchendur-masi-tiruvizha",
+    "offset": -6
+  },
+  "ta:tiruccendUr murugan2 mAcit tiruvizhA ##7##m nAL\u2014urugu cattac cEvai/cigappu cAtti alaGkAram": {
+    "Comments": "",
+    "Nirnaya": "",
+    "Other Names": "",
+    "Primary Reference": "",
+    "Relative Festival": "ta:tiruccendUr mAcit tiruvizhA nir2aivu",
+    "Secondary Reference": "",
+    "Shloka": "",
+    "Short Description": "",
+    "Tags": "tamilnadu-temple-festivals",
+    "URL": "tiruchendur-masi-tiruvizha",
+    "offset": -5
+  },
+  "ta:tiruccendUr murugan2 mAcit tiruvizhA ##8##m nAL\u2014paccai cAtti alaGkAram": {
+    "Comments": "",
+    "Nirnaya": "",
+    "Other Names": "",
+    "Primary Reference": "",
+    "Relative Festival": "ta:tiruccendUr mAcit tiruvizhA nir2aivu",
+    "Secondary Reference": "",
+    "Shloka": "",
+    "Short Description": "",
+    "Tags": "tamilnadu-temple-festivals",
+    "URL": "tiruchendur-masi-tiruvizha",
+    "offset": -4
+  },
+  "ta:tiruccendUr murugan2 mAcit tiruvizhA ##9##m nAL\u2014taGga kailAca vAhan2am": {
+    "Comments": "",
+    "Nirnaya": "",
+    "Other Names": "",
+    "Primary Reference": "",
+    "Relative Festival": "ta:tiruccendUr mAcit tiruvizhA nir2aivu",
+    "Secondary Reference": "",
+    "Shloka": "",
+    "Short Description": "",
+    "Tags": "tamilnadu-temple-festivals",
+    "URL": "tiruchendur-masi-tiruvizha",
+    "offset": -3
+  },
+  "ta:tiruccendUr murugan2 mAcit tiruvizhA toDakkam": {
+    "Comments": "",
+    "Nirnaya": "",
+    "Other Names": "",
+    "Primary Reference": "",
+    "Relative Festival": "ta:tiruccendUr mAcit tiruvizhA nir2aivu",
+    "Secondary Reference": "",
+    "Shloka": "",
+    "Short Description": "",
+    "Tags": "tamilnadu-temple-festivals",
+    "URL": "tiruchendur-masi-tiruvizha",
+    "offset": -11
+  },
+  "ta:tiruccendUr murugan2 teppam": {
+    "Comments": "",
+    "Nirnaya": "",
+    "Other Names": "",
+    "Primary Reference": "",
+    "Relative Festival": "ta:tiruccendUr mAcit tiruvizhA nir2aivu",
+    "Secondary Reference": "",
+    "Shloka": "",
+    "Short Description": "",
+    "Tags": "tamilnadu-temple-festivals",
+    "URL": "tiruchendur-murugan-teppam",
+    "offset": -1
+  },
+  "ta:varagUr ur2iyaDi utsavam": {
+    "Comments": "",
+    "Nirnaya": "",
+    "Other Names": "",
+    "Primary Reference": "",
+    "Relative Festival": "zrIkRSNajanmASTamI",
+    "Secondary Reference": "",
+    "Shloka": "",
+    "Short Description": "",
+    "Tags": "tamilnadu-temple-festivals",
+    "URL": "varagur-uriyadi-utsavam",
+    "offset": 1
+  },
+  "tiruvizalUr gaGgAkarSaNa-mahOtsava-ArambhaH": {
+    "Comments": "",
+    "Nirnaya": "",
+    "Other Names": "",
+    "Primary Reference": "",
+    "Relative Festival": "tiruvizalUr gaGgAkarSaNa-mahOtsava-samApanam",
+    "Secondary Reference": "",
+    "Shloka": "",
+    "Short Description": "Beginning of Gangakarshana Mahotsava in Thiruvisanallur. See also http://www.sriayyaval.org/ .  ",
+    "Tags": "mahapurusha-events,tamilnadu-temple-festivals",
+    "URL": "gangakarshana-mahotsava",
+    "offset": -9
+  },
+  "vEGkaTAcalE jyESTha-abhidyEyakAbhiSEkaH (mutyala-kavacam)": {
+    "Comments": "",
+    "Nirnaya": "",
+    "Other Names": "",
+    "Primary Reference": "",
+    "Relative Festival": "vEGkaTAcalE jyESTha-abhidyEyakAbhiSEkaH (svarNa-kavacam)",
+    "Secondary Reference": "",
+    "Shloka": "",
+    "Short Description": "",
+    "Tags": "andhra-temple-festivals",
+    "URL": "jyeshthabhishekam",
+    "offset": -1
+  },
+  "vEGkaTAcalE jyESTha-abhidyEyakAbhiSEkaH (vajra-kavacam)": {
+    "Comments": "",
+    "Nirnaya": "",
+    "Other Names": "",
+    "Primary Reference": "",
+    "Relative Festival": "vEGkaTAcalE jyESTha-abhidyEyakAbhiSEkaH (svarNa-kavacam)",
+    "Secondary Reference": "",
+    "Shloka": "",
+    "Short Description": "",
+    "Tags": "andhra-temple-festivals",
+    "URL": "jyeshthabhishekam",
+    "offset": -2
   }
 }
