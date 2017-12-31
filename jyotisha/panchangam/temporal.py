@@ -184,7 +184,9 @@ def get_angam_float(jd, angam_type, offset=0, ayanamsha_id=swe.SIDM_LAHIRI, debu
         logging.debug('## get_angam_float(): lcalc %% 360=%f', lcalc)
         logging.debug("offset: %f", offset)
         logging.debug(offset + int(360.0 / arc_len))
-    if offset + int(360.0 / arc_len) == 0 and lcalc + offset >= 0:
+
+    if offset + int(360.0 / arc_len) == 0 and lcalc < arc_len:
+        # Angam 1 -- needs different treatment, because of 'discontinuity'
         return (lcalc / arc_len)
     else:
         return (lcalc / arc_len) + offset
