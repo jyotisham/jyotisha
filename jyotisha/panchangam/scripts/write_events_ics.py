@@ -2,9 +2,9 @@
 import json
 import logging
 import os.path
+import re
 import sys
 from datetime import datetime, date, timedelta
-
 from icalendar import Calendar, Event, Alarm
 from pytz import timezone as tz
 
@@ -17,8 +17,6 @@ logging.basicConfig(
     format="%(levelname)s: %(asctime)s {%(filename)s:%(lineno)d}: %(message)s "
 )
 
-
-
 CODE_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
 
 
@@ -27,7 +25,7 @@ def compute_events(p, json_file):
     for d in range(1, MAX_SZ):
         [y, m, dt, t] = swe.revjul(p.jd_start + d - 1)
 
-        debugEvents = True
+        debugEvents = False
 
         with open(json_file) as event_data:
             event_rules = json.load(event_data)
@@ -74,17 +72,16 @@ def compute_events(p, json_file):
                     event_num = None
                     if event_start_year is not None:
                         if month_type == 'lunar_month':
-                            event_num = p.year + 3100 + \
-                                        (d >= p.lunar_month.index(1)) - event_start_year + 1
+                            event_num = p.year + 3100 + (d >= p.lunar_month.index(1)) - event_start_year + 1
 
                     if event_num is not None and event_num < 0:
-                        print('Festival %s is only in the future!' % event_name)
+                        logging.debug('Festival %s is only in the future!' % event_name)
                         return
 
                     if event_num is not None:
-                        event_name += '-\\#{%d}' % event_num
+                        event_name += '-#%d' % event_num
 
-                    print('%%0 Assigned fday = %d' % d)
+                    logging.debug('Assigned fday = %d' % d)
                     p.addFestival(event_name, d, debugEvents)
                     continue
 
@@ -112,18 +109,16 @@ def compute_events(p, json_file):
                 event_num = None
                 if event_start_year is not None and month_type is not None:
                     if month_type == 'solar_month':
-                        event_num = p.year + 3100 + \
-                                    (d >= p.solar_month.index(1)) - event_start_year + 1
+                        event_num = p.year + 3100 + (d >= p.solar_month.index(1)) - event_start_year + 1
                     elif month_type == 'lunar_month':
-                        event_num = p.year + 3100 + \
-                                    (d >= p.lunar_month.index(1)) - event_start_year + 1
+                        event_num = p.year + 3100 + (d >= p.lunar_month.index(1)) - event_start_year + 1
 
                 if event_num is not None and event_num < 0:
-                    print('Festival %s is only in the future!' % event_name)
+                    logging.debug('Festival %s is only in the future!' % event_name)
                     return
 
                 if event_num is not None:
-                    event_name += '-\\#{%d}' % event_num
+                    event_name += '-#%d' % event_num
 
                 if angam_sunrise[d] == angam_num_pred or angam_sunrise[d] == angam_num:
                     angams = p.get_angams_for_kalas(d, get_angam_func, kala)
@@ -133,23 +128,23 @@ def compute_events(p, json_file):
                         continue
                         # Some error, e.g. weird kala, so skip festival
                     if debugEvents:
-                        print('%' * 80)
+                        logging.debug('%' * 80)
                         try:
-                            print('%', event_name, ': ', event_rules[event_name])
-                            print("%%angams today & tmrw:", angams)
+                            logging.debug('%s: %s' % (event_name, event_rules[event_name]))
+                            logging.debug("%%angams today & tmrw: %s" % angams)
                         except KeyError:
-                            print('%', event_name, ': ', event_rules[event_name.split('\\')[0][:-1]])
-                            print("%%angams today & tmrw:", angams)
+                            logging.debug('%s: %s' % (event_name, event_rules[event_name.split('\\')[0][:-1]]))
+                            logging.debug("%%angams today & tmrw: %s" % angams)
                     if priority == 'paraviddha':
                         if angams[0] == angam_num or angams[1] == angam_num:
-                            print('%%1 Assigned fday = %d' % d)
+                            logging.debug('Assigned fday = %d' % d)
                             fday = d
                         if angams[2] == angam_num or angams[3] == angam_num:
-                            print('%%2 Assigned fday = %d', d + 1)
+                            logging.debug('Assigned fday = %d' % d + 1)
                             fday = d + 1
                         if fday is None:
                             if debugEvents:
-                                print('%', angams, angam_num)
+                                logging.debug('%s: %s' % (angams, angam_num))
                             sys.stderr.write('Could not assign paraviddha day for %s!' %
                                              event_name +
                                              ' Please check for unusual cases.\n')
@@ -159,7 +154,7 @@ def compute_events(p, json_file):
                     elif priority == 'purvaviddha':
                         angams_yest = p.get_angams_for_kalas(d - 1, get_angam_func, kala)
                         if debugEvents:
-                            print("%angams yest & today:", angams_yest)
+                            logging.debug("Angams yest & today: %s" % angams_yest)
                         if angams[0] == angam_num or angams[1] == angam_num:
                             if event_name in p.fest_days:
                                 # Check if yesterday was assigned already
@@ -169,22 +164,24 @@ def compute_events(p, json_file):
                                     if p.lunar_month[d + 1] == month_num:
                                         if p.fest_days[event_name].count(d - 1) == 0:
                                             fday = d
-                                            print('%%3B Assigned fday = %d' % d)
+                                            if debugEvents:
+                                                logging.debug('Assigned fday = %d' % d)
                                     else:
                                         continue
 
                                 else:
                                     if p.fest_days[event_name].count(d - 1) == 0:
                                         fday = d
-                                        print('%%3B Assigned fday = %d' % d)
+                                        if debugEvents:
+                                            logging.debug('Assigned fday = %d' % d)
                             else:
                                 fday = d
-                                print('%%4 Assigned fday = %d' % d)
+                                logging.debug('Assigned fday = %d' % d)
                         elif angams[2] == angam_num or angams[3] == angam_num:
                             if (month_type == 'lunar_month' and p.lunar_month[d + 1] == month_num) or\
                                (month_type == 'solar_month' and p.solar_month[d + 1] == month_num):
                                 fday = d + 1
-                                print('%%5 Assigned fday = %d' % (d + 1))
+                                logging.debug('Assigned fday = %d' % (d + 1))
                         else:
                             # This means that the correct angam did not
                             # touch the kalam on either day!
@@ -200,14 +197,14 @@ def compute_events(p, json_file):
                                 if event_name in p.fest_days:
                                     if p.fest_days[event_name].count(d - 1) == 0:
                                         fday = d
-                                        print('%%6 Assigned fday = %d' % d)
+                                        logging.debug('Assigned fday = %d' % d)
                                 else:
                                     fday = d
-                                    print('%%7 Assigned fday = %d' % d)
+                                    logging.debug('Assigned fday = %d' % d)
                     else:
                         sys.stderr.write('Unknown priority "%s" for %s! Check the rules!' %
                                          (priority, event_name))
-                # print (P.fest_days)
+                # logging.debug (P.fest_days)
                 if fday is not None:
                     p.addFestival(event_name, fday, debugEvents)
 
@@ -235,13 +232,12 @@ def computeIcsCalendar(P, ics_file_name):
                     event.add('summary', stext.split('|')[-1].replace('-', ' ').strip())
                     h1, m1 = t1.split(':')
                     h2, m2 = t2.split(':')
-                    event.add('dtstart', datetime(y, m, dt, int(h1), int(m1),
-                                                  tzinfo= tz(P.city.timezone)))
-                    event.add('dtend', datetime(y, m, dt, int(h2), int(m2),
-                                                tzinfo=tz(P.city.timezone)))
+                    event.add('dtstart', datetime(y, m, dt, int(h1), int(m1), tzinfo=tz(P.city.timezone)))
+                    event.add('dtend', datetime(y, m, dt, int(h2), int(m2), tzinfo=tz(P.city.timezone)))
                     P.ics_calendar.add_component(event)
                 else:
                     event = Event()
+                    # summary = re.sub('{(.*)}','\\1', )  # strip braces around numbers
                     event.add('summary', stext.replace('-', ' '))
                     event.add('dtstart', date(y, m, dt))
                     event.add('dtend', (datetime(y, m, dt) + timedelta(1)).date())
@@ -276,10 +272,11 @@ def main():
 
     city = City(city_name, latitude, longitude, tz)
 
-    panchangam = scripts.get_panchangam()
+    panchangam = scripts.get_panchangam(city=city, year=year, script=script)
+    # panchangam.add_details()
 
     compute_events(panchangam, json_file)
-    cal_file_name = '../ics/%s-%s-%s' % (city_name, year, json_file.replace('.json', '.ics'))
+    cal_file_name = '%s-%s-%s' % (city_name, year, os.path.basename(json_file).replace('.json', '.ics'))
     computeIcsCalendar(panchangam, cal_file_name)
     print('Wrote ICS file to %s' % cal_file_name)
 
