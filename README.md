@@ -32,3 +32,10 @@ twine upload dist/* --skip-existing
   - Can't find xsanscript. indic_transliteration package must be updated.
 - http://jyotisha.readthedocs.io/en/latest/jyotisha.html should automatically have good updated documentation - unless there are build errors. Current build errors:
   - indic_transliteration cannot be installed. [Stackexchange question](https://stackoverflow.com/questions/45929148/read-the-docs-pip-pypi-dependency-installation-error).
+
+
+## Using pyswisseph
+Pyswisseph is a thin wrapper around the C++ code.
+
+- [Official py Docs](https://astrorigin.com/pyswisseph/pydoc/index.html) - not [unsupported docs](http://pythonhosted.org/pyswisseph/swisseph-module.html).
+- [swisseph docs](http://www.astro.com/swisseph/swephprg.htm)
