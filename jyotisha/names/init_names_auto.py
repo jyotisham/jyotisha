@@ -24,7 +24,7 @@ def init_names_auto(fname=os.path.join(CODE_ROOT, 'names/data/translation_table_
     for dictionary in names_dict:
       if dictionary != 'VARA_NAMES':
         # Vara Names follow zero indexing, rest don't
-        names_dict[dictionary]['hk'].insert(0, '')
+        names_dict[dictionary]['hk'].insert(0, 'aspaShTam')
 
       for scr in scripts:
         names_dict[dictionary][scr] = [sanscript.transliterate(name, 'hk', scr).title() for name in names_dict[dictionary]['hk']]
