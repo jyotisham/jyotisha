@@ -6143,6 +6143,21 @@
     "Primary Reference": "",
     "Comments": ""
   },
+  "vanadurgAnavarAtri-ArambhaH": {
+    "Month Type": "lunar_month",
+    "Month Number": 9,
+    "Angam Type": "tithi",
+    "Angam Number": 1,
+    "Tags": "navaratri,special-period-start",
+    "URL": "vanadurga-arambha",
+    "Short Description": "Vanadurga Navaratri. Specially celebrated in Karthiramangalam.",
+    "Shloka": "",
+    "Other Names": "",
+    "Nirnaya": "",
+    "Secondary Reference": "",
+    "Primary Reference": "",
+    "Comments": ""
+  },
   "zyAmaLAnavarAtri-ArambhaH": {
     "Month Type": "lunar_month",
     "Month Number": 11,
@@ -6295,6 +6310,21 @@
     "Other Names": "",
     "Nirnaya": "",
     "Secondary Reference": "Vaidikasri Feb 2016",
+    "Primary Reference": "",
+    "Comments": ""
+  },
+  "vanadurgAnavarAtri-samApanam": {
+    "Month Type": "lunar_month",
+    "Month Number": 9,
+    "Angam Type": "tithi",
+    "Angam Number": 9,
+    "Tags": "navaratri,special-period-end",
+    "URL": "vanadurga-navaratri-samapanam",
+    "Short Description": "Vanadurga Navaratri. Specially celebrated in Karthiramangalam.",
+    "Shloka": "",
+    "Other Names": "",
+    "Nirnaya": "",
+    "Secondary Reference": "",
     "Primary Reference": "",
     "Comments": ""
   },
@@ -7615,7 +7645,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "makara-saGkrAnti/uttarAyaNa-puNyakAlaH": {
+  "makara-saGkrAntiH/uttarAyaNa-puNyakAlaH": {
     "Month Type": "solar_month",
     "Month Number": 10,
     "Angam Type": "day",
