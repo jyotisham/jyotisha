@@ -82,7 +82,7 @@ def compute_events(p, json_file):
                         event_name += '-#%d' % event_num
 
                     logging.debug('Assigned fday = %d' % d)
-                    p.addFestival(event_name, d, debugEvents)
+                    p.add_festival(event_name, d, debugEvents)
                     continue
 
             if angam_type == 'day' and month_type == 'solar_month'\
@@ -206,7 +206,7 @@ def compute_events(p, json_file):
                                          (priority, event_name))
                 # logging.debug (P.fest_days)
                 if fday is not None:
-                    p.addFestival(event_name, fday, debugEvents)
+                    p.add_festival(event_name, fday, debugEvents)
 
     for festival_name in p.fest_days:
         for j in range(0, len(p.fest_days[festival_name])):
