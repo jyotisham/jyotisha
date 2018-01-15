@@ -48,6 +48,20 @@ class City(JsonObject):
     self.longitude = sexastr2deci(longitude)
     self.timezone = timezone
 
+  def get_timezone_offset_hours(self, julian_day):
+    """Get timezone offset in hours east of UTC (negative west of UTC)
+
+    Timezone offset is dependent both on place and time - due to Daylight savings time.
+    compute offset from UTC in hours
+    """
+    [y, m, dt, t] = swe.revjul(julian_day)
+
+    import pytz
+    # checking @ 6am local - can we do any better?
+    local_time = pytz.timezone(self.timezone).localize(datetime(y, m, dt, 6, 0, 0))
+
+    return datetime.utcoffset(local_time).seconds / 3600.0
+
 
 def get_lagna_float(jd, lat, lon, offset=0, ayanamsha_id=swe.SIDM_LAHIRI, debug=False):
   """Returns the angam
