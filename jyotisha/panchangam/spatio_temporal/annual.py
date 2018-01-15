@@ -5,6 +5,7 @@ import swisseph as swe
 import sys
 from datetime import datetime
 from math import floor
+from swisseph import julday
 
 from indic_transliteration import xsanscript as sanscript
 from pytz import timezone as tz
@@ -13,7 +14,7 @@ from scipy.optimize import brentq
 
 import jyotisha.panchangam
 import jyotisha.zodiac
-from jyotisha.panchangam.spatio_temporal import get_solar_month_day, get_lagna_data, CODE_ROOT
+from jyotisha.panchangam.spatio_temporal import get_lagna_data, CODE_ROOT, daily
 
 
 class Panchangam(common.JsonObject):
@@ -71,8 +72,11 @@ class Panchangam(common.JsonObject):
     # rather than Jan 1, since we have an always increment
     # solar_month_day at the start of the loop across every day in
     # year
-    [self.solar_month[1], solar_month_day] = get_solar_month_day(self.jd_start - 1, self.city,
-                                                                 ayanamsha_id=self.ayanamsha_id)
+    daily_panchangam_start = daily.Panchangam(city=self.city, julian_day=self.jd_start - 1,
+                                        ayanamsha_id=self.ayanamsha_id)
+    daily_panchangam_start.compute_solar_day()
+    self.solar_month[1] = daily_panchangam_start.solar_month
+    solar_month_day = daily_panchangam_start.solar_month_day
 
     if self.solar_month[1] != 9:
       logging.error(self.solar_month[1])
@@ -1392,3 +1396,8 @@ class Panchangam(common.JsonObject):
     self.compute_solar_eclipses()
     self.compute_lunar_eclipses()
     self.computeTransits()
+
+
+# Essential for depickling to work.
+common.update_json_class_index(sys.modules[__name__])
+logging.debug(common.json_class_index)

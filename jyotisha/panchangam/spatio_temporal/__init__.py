@@ -18,7 +18,7 @@ from jyotisha.panchangam.temporal import get_angam_float, get_angam, SOLAR_MONTH
 logging.basicConfig(level=logging.DEBUG,
                     format="%(levelname)s: %(asctime)s {%(filename)s:%(lineno)d}: %(message)s ")
 
-CODE_ROOT = os.path.dirname(os.path.dirname(__file__))
+CODE_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
 
 
 # next new/full moon from current one is at least 27.3 days away
@@ -135,63 +135,6 @@ def get_lagna_data(jd_sunrise, lat, lon, tz_off, ayanamsha_id=swe.SIDM_LAHIRI, d
     rbrack = lagna_end_time + 3 / 24
     lagna_data.append((lagna, lagna_end_time))
   return lagna_data
-
-
-def get_solar_month_day(jd_start, city, ayanamsha_id=swe.SIDM_LAHIRI):
-  """Compute the solar month and day for a given Julian day
-
-    Computes the solar month and day on the day corresponding to a given
-    Julian day
-
-    Args:
-      float jd
-      city
-
-    Returns:
-      int solar_month
-      int solar_month_day
-
-    Examples:
-      >>> get_solar_month_day(2457023.27, City('Chennai', '13:05:24', \
-'80:16:12', 'Asia/Calcutta'))
-      (9, 17)
-    """
-
-  jd_sunset = swe.rise_trans(jd_start=jd_start, body=swe.SUN, lon=city.longitude,
-                             lat=city.latitude, rsmi=swe.CALC_SET | swe.BIT_DISC_CENTER)[1][0]
-  if jd_sunset == 0.0:
-    logging.error('No sunset was computed!')
-    raise (ValueError('No sunset was computed. Perhaps the co-ordinates are beyond the polar circle (most likely a LAT-LONG swap! Please check your inputs.'))
-  # logging.debug(swe.rise_trans(jd_start=jd_start, body=swe.SUN, lon=city.longitude,
-  #                              lat=city.latitude, rsmi=swe.CALC_SET | swe.BIT_DISC_CENTER))
-  solar_month = get_angam(jd_sunset, SOLAR_MONTH, ayanamsha_id=ayanamsha_id)
-  target = floor(get_angam_float(jd_sunset, SOLAR_MONTH, ayanamsha_id=ayanamsha_id))
-
-  # logging.debug(jd_start)
-  # logging.debug(jd_sunset)
-  # logging.debug(target)
-  # logging.debug(get_angam_float(jd_sunset - 34, SOLAR_MONTH, -target, ayanamsha_id, False))
-  # logging.debug(get_angam_float(jd_sunset + 1, SOLAR_MONTH, -target, ayanamsha_id, False))
-  jd_masa_transit = brentq(get_angam_float, jd_start - 34, jd_sunset,
-                           args=(SOLAR_MONTH, -target, ayanamsha_id, False))
-
-  jd_next_sunset = swe.rise_trans(jd_start=jd_masa_transit, body=swe.SUN,
-                                  lon=city.longitude, lat=city.latitude,
-                                  rsmi=swe.CALC_SET | swe.BIT_DISC_CENTER)[1][0]
-
-  jd_next_sunrise = swe.rise_trans(jd_start=jd_masa_transit, body=swe.SUN,
-                                   lon=city.longitude, lat=city.latitude,
-                                   rsmi=swe.CALC_RISE | swe.BIT_DISC_CENTER)[1][0]
-
-  if jd_next_sunset > jd_next_sunrise:
-    # Masa begins after sunset and before sunrise
-    # Therefore Masa 1 is on the day when the sun rises next
-    solar_month_day = floor(jd_sunset - jd_next_sunrise) + 1
-  else:
-    # Masa has started before sunset
-    solar_month_day = round(jd_sunset - jd_next_sunset) + 1
-
-  return (solar_month, solar_month_day)
 
 
 # Essential for depickling to work.
