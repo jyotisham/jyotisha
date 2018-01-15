@@ -5,7 +5,7 @@ import traceback
 
 from sanskrit_data.schema.common import JsonObject
 
-from jyotisha.panchangam.spatio_temporal import Panchangam
+from jyotisha.panchangam.spatio_temporal.annual import Panchangam
 import logging
 
 logging.basicConfig(
