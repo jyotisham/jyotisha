@@ -10,6 +10,8 @@ from indic_transliteration import xsanscript as sanscript
 from jyotisha.names.init_names_auto import init_names_auto
 import logging
 
+from jyotisha.panchangam.temporal.festival import read_old_festival_rules_dict
+
 logging.basicConfig(
     level=logging.DEBUG,
     format="%(levelname)s: %(asctime)s {%(filename)s:%(lineno)d}: %(message)s "
@@ -21,8 +23,7 @@ CODE_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
 
 if __name__ == '__main__':
     NAMES = init_names_auto()
-    with open(os.path.join(CODE_ROOT, 'panchangam/data/kanchi_aradhana_rules.json')) as aradhana_data:
-        aradhana_rules = json.load(aradhana_data, object_pairs_hook=OrderedDict)
+    aradhana_rules = read_old_festival_rules_dict(os.path.join(CODE_ROOT, 'panchangam/data/kanchi_aradhana_rules.json'))
 
     for script in [sanscript.DEVANAGARI, sanscript.IAST]:
         with open(os.path.join(CODE_ROOT, 'kanchi_aradhana_days_%s.md' % script), 'w') as f:
@@ -31,12 +32,12 @@ if __name__ == '__main__':
             f.write('and corrected using [@kamakoti twitter feed](https://twitter.com/kamakoti)!)\n\n')
             f.write('| # | Jagadguru | Mukti Year (Kali) | Mukti Year Name | Month | Tithi |\n')
             f.write('| - | --------- | ----------------- | --------------- | ----- | ----- |\n')
-            for guru in aradhana_rules.keys():
+            for guru in aradhana_rules:
                 if guru[:5] == 'kAJcI':
                     name = str(' '.join(guru.split()[3:-1])).replace('-', ' ')
                     num = int(guru.split()[1])
                     kali_year = str(aradhana_rules[guru]['Start Year'] - 1)
-                    year_name = NAMES['YEAR_NAMES']['hk'][((int(kali_year) + 12) % 60)]
+                    year_name = NAMES['SAMVATSARA_NAMES']['hk'][((int(kali_year) + 12) % 60)]
                 else:
                     name = guru[:-9]
                     num = '-'
@@ -47,7 +48,7 @@ if __name__ == '__main__':
                 if aradhana_rules[guru]['month_type'] == 'lunar_month':
                     month_name = NAMES['CHANDRA_MASA_NAMES']['hk'][aradhana_rules[guru]['month_number']-1]
                 elif aradhana_rules[guru]['month_type'] == 'solar_month':
-                    month_name = NAMES['MASA_NAMES']['hk'][aradhana_rules[guru]['month_number']-1]
+                    month_name = NAMES['RASHI_NAMES']['hk'][aradhana_rules[guru]['month_number']-1]
                 f.write('| %s | %s | %s | %s | %s | %s |\n' %
                         (num, sanscript.transliterate(name, sanscript.HK, script).title(),
                          kali_year, sanscript.transliterate(year_name, sanscript.HK, script), sanscript.transliterate(month_name, sanscript.HK, script), tithi.replace('-', ' ')))

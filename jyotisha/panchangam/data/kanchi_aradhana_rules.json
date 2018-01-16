@@ -1,5 +1,6 @@
-{
-  "zrI gOvinda bhagavatpAda ArAdhanA": {
+[
+  {
+    "id": "zrI gOvinda bhagavatpAda ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 8,
     "angam_type": "tithi",
@@ -9,7 +10,8 @@
     "Tags": "kanchi-aradhana-days",
     "URL": "shri-govinda-bhagavatpada-aradhana"
   },
-  "kAJcI 1 jagadguru zrI Adi~zaGkara bhagavatpAda ArAdhanA": {
+  {
+    "id": "kAJcI 1 jagadguru zrI Adi~zaGkara bhagavatpAda ArAdhanA",
     "month_type": "solar_month",
     "month_number": 2,
     "angam_type": "tithi",
@@ -21,7 +23,8 @@
     "URL": "kanchi-1-jagadguru-shri-adi-shankara-bhagavatpada-aradhana",
     "references_secondary": "www.kamakoti.org"
   },
-  "kAJcI 2 jagadguru zrI surEzvarAcArya ArAdhanA": {
+  {
+    "id": "kAJcI 2 jagadguru zrI surEzvarAcArya ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 3,
     "angam_type": "tithi",
@@ -33,7 +36,8 @@
     "URL": "kanchi-2-jagadguru-shri-sureshvaracharya-aradhana",
     "references_secondary": "www.kamakoti.org"
   },
-  "kAJcI 3 jagadguru zrI sarvajJAtmEndra sarasvatI ArAdhanA": {
+  {
+    "id": "kAJcI 3 jagadguru zrI sarvajJAtmEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 2,
     "angam_type": "tithi",
@@ -45,7 +49,8 @@
     "URL": "kanchi-3-jagadguru-shri-sarvajnatmendra-sarasvati-aradhana",
     "references_secondary": "www.kamakoti.org"
   },
-  "kAJcI 4 jagadguru zrI satyabOdhEndra sarasvatI ArAdhanA": {
+  {
+    "id": "kAJcI 4 jagadguru zrI satyabOdhEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 9,
     "angam_type": "tithi",
@@ -57,7 +62,8 @@
     "URL": "kanchi-4-jagadguru-shri-satyabodhendra-sarasvati-aradhana",
     "references_secondary": "www.kamakoti.org"
   },
-  "kAJcI 5 jagadguru zrI jJAnAnandEndra sarasvatI ArAdhanA": {
+  {
+    "id": "kAJcI 5 jagadguru zrI jJAnAnandEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 9,
     "angam_type": "tithi",
@@ -69,7 +75,8 @@
     "URL": "kanchi-5-jagadguru-shri-jnananandendra-sarasvati-aradhana",
     "references_secondary": "www.kamakoti.org"
   },
-  "kAJcI 6 jagadguru zrI zuddhAnandEndra sarasvatI ArAdhanA": {
+  {
+    "id": "kAJcI 6 jagadguru zrI zuddhAnandEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 3,
     "angam_type": "tithi",
@@ -81,7 +88,8 @@
     "URL": "kanchi-6-jagadguru-shri-shuddhanandendra-sarasvati-aradhana",
     "references_secondary": "www.kamakoti.org"
   },
-  "kAJcI 7 jagadguru zrI AnandaghanEndra sarasvatI ArAdhanA": {
+  {
+    "id": "kAJcI 7 jagadguru zrI AnandaghanEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 2,
     "angam_type": "tithi",
@@ -93,7 +101,8 @@
     "URL": "kanchi-7-jagadguru-shri-anandaghanendra-sarasvati-aradhana",
     "references_secondary": "www.kamakoti.org"
   },
-  "kAJcI 8 jagadguru zrI kaivalyAnandayOgEndra sarasvatI ArAdhanA": {
+  {
+    "id": "kAJcI 8 jagadguru zrI kaivalyAnandayOgEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 10,
     "angam_type": "tithi",
@@ -105,7 +114,8 @@
     "URL": "kanchi-8-jagadguru-shri-kaivalyanandayogendra-sarasvati-aradhana",
     "references_secondary": "www.kamakoti.org"
   },
-  "kAJcI 9 jagadguru zrI kRpAzGkarEndra sarasvatI ArAdhanA": {
+  {
+    "id": "kAJcI 9 jagadguru zrI kRpAzGkarEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 8,
     "angam_type": "tithi",
@@ -117,7 +127,8 @@
     "URL": "kanchi-9-jagadguru-shri-kripashnkarendra-sarasvati-aradhana",
     "references_secondary": "www.kamakoti.org"
   },
-  "kAJcI 10 jagadguru zrI surEzvarEndra sarasvatI ArAdhanA": {
+  {
+    "id": "kAJcI 10 jagadguru zrI surEzvarEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 4,
     "angam_type": "tithi",
@@ -129,7 +140,8 @@
     "URL": "kanchi-10-jagadguru-shri-sureshvarendra-sarasvati-aradhana",
     "references_secondary": "www.kamakoti.org"
   },
-  "kAJcI 11 jagadguru zrI zivAnanda cidghanEndra sarasvatI ArAdhanA": {
+  {
+    "id": "kAJcI 11 jagadguru zrI zivAnanda cidghanEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 11,
     "angam_type": "tithi",
@@ -141,7 +153,8 @@
     "URL": "kanchi-11-jagadguru-shri-shivananda-chidghanendra-sarasvati-aradhana",
     "references_secondary": "www.kamakoti.org"
   },
-  "kAJcI 12 jagadguru zrI candrazEkharEndra sarasvatI ArAdhanA": {
+  {
+    "id": "kAJcI 12 jagadguru zrI candrazEkharEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 4,
     "angam_type": "tithi",
@@ -153,7 +166,8 @@
     "URL": "kanchi-12-jagadguru-shri-chandrashekharendra-sarasvati-aradhana",
     "references_secondary": "www.kamakoti.org"
   },
-  "kAJcI 13 jagadguru zrI saccidghanEndra sarasvatI ArAdhanA": {
+  {
+    "id": "kAJcI 13 jagadguru zrI saccidghanEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 9,
     "angam_type": "tithi",
@@ -165,7 +179,8 @@
     "URL": "kanchi-13-jagadguru-shri-sachchidghanendra-sarasvati-aradhana",
     "references_secondary": "www.kamakoti.org"
   },
-  "kAJcI 14 jagadguru zrI vidyaghanEndra sarasvatI ArAdhanA": {
+  {
+    "id": "kAJcI 14 jagadguru zrI vidyaghanEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 9,
     "angam_type": "tithi",
@@ -177,7 +192,8 @@
     "URL": "kanchi-14-jagadguru-shri-vidyaghanendra-sarasvati-aradhana",
     "references_secondary": "www.kamakoti.org"
   },
-  "kAJcI 15 jagadguru zrI gaGgAdharEndra sarasvatI ArAdhanA": {
+  {
+    "id": "kAJcI 15 jagadguru zrI gaGgAdharEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 1,
     "angam_type": "tithi",
@@ -189,7 +205,8 @@
     "URL": "kanchi-15-jagadguru-shri-gangadharendra-sarasvati-aradhana",
     "references_secondary": "www.kamakoti.org"
   },
-  "kAJcI 16 jagadguru zrI ujjvala zaGkarEndra sarasvatI ArAdhanA": {
+  {
+    "id": "kAJcI 16 jagadguru zrI ujjvala zaGkarEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 3,
     "angam_type": "tithi",
@@ -201,7 +218,8 @@
     "URL": "kanchi-16-jagadguru-shri-ujjvala-shankarendra-sarasvati-aradhana",
     "references_secondary": "www.kamakoti.org"
   },
-  "kAJcI 17 jagadguru zrI sadAzivEndra sarasvatI ArAdhanA": {
+  {
+    "id": "kAJcI 17 jagadguru zrI sadAzivEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 3,
     "angam_type": "tithi",
@@ -213,7 +231,8 @@
     "URL": "kanchi-17-jagadguru-shri-sadashivendra-sarasvati-aradhana",
     "references_secondary": "www.kamakoti.org"
   },
-  "kAJcI 18 jagadguru zrI yOgatilaka surEndra sarasvatI ArAdhanA": {
+  {
+    "id": "kAJcI 18 jagadguru zrI yOgatilaka surEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 9,
     "angam_type": "tithi",
@@ -225,7 +244,8 @@
     "URL": "kanchi-18-jagadguru-shri-yogatilaka-surendra-sarasvati-aradhana",
     "references_secondary": "www.kamakoti.org"
   },
-  "kAJcI 19 jagadguru zrI mArtANDa vidyAghanEndra sarasvatI ArAdhanA": {
+  {
+    "id": "kAJcI 19 jagadguru zrI mArtANDa vidyAghanEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 7,
     "angam_type": "tithi",
@@ -237,7 +257,8 @@
     "URL": "kanchi-19-jagadguru-shri-martanda-vidyaghanendra-sarasvati-aradhana",
     "references_secondary": "www.kamakoti.org"
   },
-  "kAJcI 20 jagadguru zrI mUkazaGkarEndra sarasvatI ArAdhanA": {
+  {
+    "id": "kAJcI 20 jagadguru zrI mUkazaGkarEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 5,
     "angam_type": "tithi",
@@ -249,7 +270,8 @@
     "URL": "kanchi-20-jagadguru-shri-mukashankarendra-sarasvati-aradhana",
     "references_secondary": "www.kamakoti.org"
   },
-  "kAJcI 21 jagadguru zrI candrazEkharEndra sarasvatI 2 ArAdhanA": {
+  {
+    "id": "kAJcI 21 jagadguru zrI candrazEkharEndra sarasvatI 2 ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 5,
     "angam_type": "tithi",
@@ -261,7 +283,8 @@
     "URL": "kanchi-21-jagadguru-shri-chandrashekharendra-sarasvati-2-aradhana",
     "references_secondary": "www.kamakoti.org"
   },
-  "kAJcI 22 jagadguru zrI bOdhEndra sarasvatI ArAdhanA": {
+  {
+    "id": "kAJcI 22 jagadguru zrI bOdhEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 8,
     "angam_type": "tithi",
@@ -273,7 +296,8 @@
     "URL": "kanchi-22-jagadguru-shri-bodhendra-sarasvati-aradhana",
     "references_secondary": "www.kamakoti.org"
   },
-  "kAJcI 23 jagadguru zrI saccitsukhEndra sarasvatI ArAdhanA": {
+  {
+    "id": "kAJcI 23 jagadguru zrI saccitsukhEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 2,
     "angam_type": "tithi",
@@ -285,7 +309,8 @@
     "URL": "kanchi-23-jagadguru-shri-sachchitsukhendra-sarasvati-aradhana",
     "references_secondary": "www.kamakoti.org"
   },
-  "kAJcI 24 jagadguru zrI citsukhEndra sarasvatI ArAdhanA": {
+  {
+    "id": "kAJcI 24 jagadguru zrI citsukhEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 5,
     "angam_type": "tithi",
@@ -297,7 +322,8 @@
     "URL": "kanchi-24-jagadguru-shri-chitsukhendra-sarasvati-aradhana",
     "references_secondary": "www.kamakoti.org"
   },
-  "kAJcI 25 jagadguru zrI saccidAnandaghanEndra sarasvatI ArAdhanA": {
+  {
+    "id": "kAJcI 25 jagadguru zrI saccidAnandaghanEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 4,
     "angam_type": "tithi",
@@ -309,7 +335,8 @@
     "URL": "kanchi-25-jagadguru-shri-sachchidanandaghanendra-sarasvati-aradhana",
     "references_secondary": "www.kamakoti.org"
   },
-  "kAJcI 26 jagadguru zrI prajJAaghanEndra sarasvatI ArAdhanA": {
+  {
+    "id": "kAJcI 26 jagadguru zrI prajJAaghanEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 2,
     "angam_type": "tithi",
@@ -321,7 +348,8 @@
     "URL": "kanchi-26-jagadguru-shri-prajnaaghanendra-sarasvati-aradhana",
     "references_secondary": "www.kamakoti.org"
   },
-  "kAJcI 27 jagadguru zrI cidvilasEndra sarasvatI ArAdhanA": {
+  {
+    "id": "kAJcI 27 jagadguru zrI cidvilasEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 1,
     "angam_type": "tithi",
@@ -333,7 +361,8 @@
     "URL": "kanchi-27-jagadguru-shri-chidvilasendra-sarasvati-aradhana",
     "references_secondary": "www.kamakoti.org"
   },
-  "kAJcI 28 jagadguru zrI mahAdEvEndra sarasvatI 1 ArAdhanA": {
+  {
+    "id": "kAJcI 28 jagadguru zrI mahAdEvEndra sarasvatI 1 ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 8,
     "angam_type": "tithi",
@@ -345,7 +374,8 @@
     "URL": "kanchi-28-jagadguru-shri-mahadevendra-sarasvati-1-aradhana",
     "references_secondary": "www.kamakoti.org"
   },
-  "kAJcI 29 jagadguru zrI purnabhOdhEndra sarasvatI ArAdhanA": {
+  {
+    "id": "kAJcI 29 jagadguru zrI purnabhOdhEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 5,
     "angam_type": "tithi",
@@ -357,7 +387,8 @@
     "URL": "kanchi-29-jagadguru-shri-purnabhodhendra-sarasvati-aradhana",
     "references_secondary": "www.kamakoti.org"
   },
-  "kAJcI 30 jagadguru zrI bOdhEndra sarasvatI 2 ArAdhanA": {
+  {
+    "id": "kAJcI 30 jagadguru zrI bOdhEndra sarasvatI 2 ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 2,
     "angam_type": "tithi",
@@ -369,7 +400,8 @@
     "URL": "kanchi-30-jagadguru-shri-bodhendra-sarasvati-2-aradhana",
     "references_secondary": "www.kamakoti.org"
   },
-  "kAJcI 31 jagadguru zrI brahmAnandaghanEndra sarasvatI ArAdhanA": {
+  {
+    "id": "kAJcI 31 jagadguru zrI brahmAnandaghanEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 4,
     "angam_type": "tithi",
@@ -381,7 +413,8 @@
     "URL": "kanchi-31-jagadguru-shri-brahmanandaghanendra-sarasvati-aradhana",
     "references_secondary": "www.kamakoti.org"
   },
-  "kAJcI 32 jagadguru zrI cidAnandaghanEndra sarasvatI ArAdhanA": {
+  {
+    "id": "kAJcI 32 jagadguru zrI cidAnandaghanEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 9,
     "angam_type": "tithi",
@@ -393,7 +426,8 @@
     "URL": "kanchi-32-jagadguru-shri-chidanandaghanendra-sarasvati-aradhana",
     "references_secondary": "www.kamakoti.org"
   },
-  "kAJcI 33 jagadguru zrI saccidAnanda sarasvatI ArAdhanA": {
+  {
+    "id": "kAJcI 33 jagadguru zrI saccidAnanda sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 6,
     "angam_type": "tithi",
@@ -405,7 +439,8 @@
     "URL": "kanchi-33-jagadguru-shri-sachchidananda-sarasvati-aradhana",
     "references_secondary": "www.kamakoti.org"
   },
-  "kAJcI 34 jagadguru zrI candrazEkharEndra sarasvatI 3 ArAdhanA": {
+  {
+    "id": "kAJcI 34 jagadguru zrI candrazEkharEndra sarasvatI 3 ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 9,
     "angam_type": "tithi",
@@ -417,7 +452,8 @@
     "URL": "kanchi-34-jagadguru-shri-chandrashekharendra-sarasvati-3-aradhana",
     "references_secondary": "www.kamakoti.org"
   },
-  "kAJcI 35 jagadguru zrI citsukhEndra sarasvatI ArAdhanA": {
+  {
+    "id": "kAJcI 35 jagadguru zrI citsukhEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 4,
     "angam_type": "tithi",
@@ -429,7 +465,8 @@
     "URL": "kanchi-35-jagadguru-shri-chitsukhendra-sarasvati-aradhana",
     "references_secondary": "www.kamakoti.org"
   },
-  "kAJcI 36 jagadguru zrI citsukhanandEndra sarasvatI ArAdhanA": {
+  {
+    "id": "kAJcI 36 jagadguru zrI citsukhanandEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 7,
     "angam_type": "tithi",
@@ -441,7 +478,8 @@
     "URL": "kanchi-36-jagadguru-shri-chitsukhanandendra-sarasvati-aradhana",
     "references_secondary": "www.kamakoti.org"
   },
-  "kAJcI 37 jagadguru zrI vidyAghanEndra sarasvatI 3 ArAdhanA": {
+  {
+    "id": "kAJcI 37 jagadguru zrI vidyAghanEndra sarasvatI 3 ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 10,
     "angam_type": "tithi",
@@ -453,7 +491,8 @@
     "URL": "kanchi-37-jagadguru-shri-vidyaghanendra-sarasvati-3-aradhana",
     "references_secondary": "www.kamakoti.org"
   },
-  "kAJcI 38 jagadguru zrI abhinavazaGkarEndra sarasvatI ArAdhanA": {
+  {
+    "id": "kAJcI 38 jagadguru zrI abhinavazaGkarEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 4,
     "angam_type": "tithi",
@@ -465,7 +504,8 @@
     "URL": "kanchi-38-jagadguru-shri-abhinavashankarendra-sarasvati-aradhana",
     "references_secondary": "www.kamakoti.org"
   },
-  "kAJcI 39 jagadguru zrI saccidvilAsEndra sarasvatI ArAdhanA": {
+  {
+    "id": "kAJcI 39 jagadguru zrI saccidvilAsEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 2,
     "angam_type": "tithi",
@@ -477,7 +517,8 @@
     "URL": "kanchi-39-jagadguru-shri-sachchidvilasendra-sarasvati-aradhana",
     "references_secondary": "www.kamakoti.org"
   },
-  "kAJcI 40 jagadguru zrI mahAdEvEndra sarasvatI 2 ArAdhanA": {
+  {
+    "id": "kAJcI 40 jagadguru zrI mahAdEvEndra sarasvatI 2 ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 2,
     "angam_type": "tithi",
@@ -489,7 +530,8 @@
     "URL": "kanchi-40-jagadguru-shri-mahadevendra-sarasvati-2-aradhana",
     "references_secondary": "www.kamakoti.org"
   },
-  "kAJcI 41 jagadguru zrI gaGgAdharEndra sarasvatI 2 ArAdhanA": {
+  {
+    "id": "kAJcI 41 jagadguru zrI gaGgAdharEndra sarasvatI 2 ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 5,
     "angam_type": "tithi",
@@ -501,7 +543,8 @@
     "URL": "kanchi-41-jagadguru-shri-gangadharendra-sarasvati-2-aradhana",
     "references_secondary": "www.kamakoti.org"
   },
-  "kAJcI 42 jagadguru zrI brahmAnandaghanEndra sarasvatI 2 ArAdhanA": {
+  {
+    "id": "kAJcI 42 jagadguru zrI brahmAnandaghanEndra sarasvatI 2 ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 8,
     "angam_type": "tithi",
@@ -513,7 +556,8 @@
     "URL": "kanchi-42-jagadguru-shri-brahmanandaghanendra-sarasvati-2-aradhana",
     "references_secondary": "www.kamakoti.org"
   },
-  "kAJcI 43 jagadguru zrI AnandaghanEndra sarasvatI ArAdhanA": {
+  {
+    "id": "kAJcI 43 jagadguru zrI AnandaghanEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 1,
     "angam_type": "tithi",
@@ -525,7 +569,8 @@
     "URL": "kanchi-43-jagadguru-shri-anandaghanendra-sarasvati-aradhana",
     "references_secondary": "www.kamakoti.org"
   },
-  "kAJcI 44 jagadguru zrI pUrnabOdhEndra sarasvatI 2 ArAdhanA": {
+  {
+    "id": "kAJcI 44 jagadguru zrI pUrnabOdhEndra sarasvatI 2 ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 6,
     "angam_type": "tithi",
@@ -537,7 +582,8 @@
     "URL": "kanchi-44-jagadguru-shri-purnabodhendra-sarasvati-2-aradhana",
     "references_secondary": "www.kamakoti.org"
   },
-  "kAJcI 45 jagadguru zrI paramazivEndra sarasvatI 1 ArAdhanA": {
+  {
+    "id": "kAJcI 45 jagadguru zrI paramazivEndra sarasvatI 1 ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 7,
     "angam_type": "tithi",
@@ -549,7 +595,8 @@
     "URL": "kanchi-45-jagadguru-shri-paramashivendra-sarasvati-1-aradhana",
     "references_secondary": "www.kamakoti.org"
   },
-  "kAJcI 46 jagadguru zrI sAndrAnandabOdhEndra sarasvatI ArAdhanA": {
+  {
+    "id": "kAJcI 46 jagadguru zrI sAndrAnandabOdhEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 4,
     "angam_type": "tithi",
@@ -561,7 +608,8 @@
     "URL": "kanchi-46-jagadguru-shri-sandranandabodhendra-sarasvati-aradhana",
     "references_secondary": "www.kamakoti.org"
   },
-  "kAJcI 47 jagadguru zrI candrazEkharEndra sarasvatI 4 ArAdhanA": {
+  {
+    "id": "kAJcI 47 jagadguru zrI candrazEkharEndra sarasvatI 4 ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 1,
     "angam_type": "tithi",
@@ -573,7 +621,8 @@
     "URL": "kanchi-47-jagadguru-shri-chandrashekharendra-sarasvati-4-aradhana",
     "references_secondary": "www.kamakoti.org"
   },
-  "kAJcI 48 jagadguru zrI advaitAnandabOdhEndra sarasvatI ArAdhanA": {
+  {
+    "id": "kAJcI 48 jagadguru zrI advaitAnandabOdhEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 4,
     "angam_type": "tithi",
@@ -585,7 +634,8 @@
     "URL": "kanchi-48-jagadguru-shri-advaitanandabodhendra-sarasvati-aradhana",
     "references_secondary": "www.kamakoti.org"
   },
-  "kAJcI 49 jagadguru zrI mahAdEvEndra sarasvatI 3 ArAdhanA": {
+  {
+    "id": "kAJcI 49 jagadguru zrI mahAdEvEndra sarasvatI 3 ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 8,
     "angam_type": "tithi",
@@ -597,7 +647,8 @@
     "URL": "kanchi-49-jagadguru-shri-mahadevendra-sarasvati-3-aradhana",
     "references_secondary": "www.kamakoti.org"
   },
-  "kAJcI 50 jagadguru zrI candracUDEndra sarasvatI 1 ArAdhanA": {
+  {
+    "id": "kAJcI 50 jagadguru zrI candracUDEndra sarasvatI 1 ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 3,
     "angam_type": "tithi",
@@ -609,7 +660,8 @@
     "URL": "kanchi-50-jagadguru-shri-chandrachudendra-sarasvati-1-aradhana",
     "references_secondary": "www.kamakoti.org"
   },
-  "kAJcI 51 jagadguru zrI vidyAtIrthEndra sarasvatI ArAdhanA": {
+  {
+    "id": "kAJcI 51 jagadguru zrI vidyAtIrthEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 11,
     "angam_type": "tithi",
@@ -621,7 +673,8 @@
     "URL": "kanchi-51-jagadguru-shri-vidyatirthendra-sarasvati-aradhana",
     "references_secondary": "www.kamakoti.org"
   },
-  "kAJcI 52 jagadguru zrI saGkarAnandEndra sarasvatI ArAdhanA": {
+  {
+    "id": "kAJcI 52 jagadguru zrI saGkarAnandEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 1,
     "angam_type": "tithi",
@@ -633,7 +686,8 @@
     "URL": "kanchi-52-jagadguru-shri-sankaranandendra-sarasvati-aradhana",
     "references_secondary": "www.kamakoti.org"
   },
-  "kAJcI 53 jagadguru zrI pUrNAnanda sadAzivEndra sarasvatI ArAdhanA": {
+  {
+    "id": "kAJcI 53 jagadguru zrI pUrNAnanda sadAzivEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 3,
     "angam_type": "tithi",
@@ -645,7 +699,8 @@
     "URL": "kanchi-53-jagadguru-shri-purnananda-sadashivendra-sarasvati-aradhana",
     "references_secondary": "www.kamakoti.org"
   },
-  "kAJcI 54 jagadguru zrI vyAsAcala mahAdEvEndra sarasvatI ArAdhanA": {
+  {
+    "id": "kAJcI 54 jagadguru zrI vyAsAcala mahAdEvEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 4,
     "angam_type": "tithi",
@@ -657,7 +712,8 @@
     "URL": "kanchi-54-jagadguru-shri-vyasachala-mahadevendra-sarasvati-aradhana",
     "references_secondary": "www.kamakoti.org"
   },
-  "kAJcI 55 jagadguru zrI candracUDEndra sarasvatI 2 ArAdhanA": {
+  {
+    "id": "kAJcI 55 jagadguru zrI candracUDEndra sarasvatI 2 ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 10,
     "angam_type": "tithi",
@@ -669,7 +725,8 @@
     "URL": "kanchi-55-jagadguru-shri-chandrachudendra-sarasvati-2-aradhana",
     "references_secondary": "www.kamakoti.org"
   },
-  "kAJcI 56 jagadguru zrI sarvajJa sadAziva bOdhEndra sarasvatI ArAdhanA": {
+  {
+    "id": "kAJcI 56 jagadguru zrI sarvajJa sadAziva bOdhEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 1,
     "angam_type": "tithi",
@@ -681,7 +738,8 @@
     "URL": "kanchi-56-jagadguru-shri-sarvajna-sadashiva-bodhendra-sarasvati-aradhana",
     "references_secondary": "www.kamakoti.org"
   },
-  "kAJcI 57 jagadguru zrI paramazivEndra sarasvatI 2 ArAdhanA": {
+  {
+    "id": "kAJcI 57 jagadguru zrI paramazivEndra sarasvatI 2 ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 5,
     "angam_type": "tithi",
@@ -693,7 +751,8 @@
     "URL": "kanchi-57-jagadguru-shri-paramashivendra-sarasvati-2-aradhana",
     "references_secondary": "www.kamakoti.org"
   },
-  "kAJcI 58 jagadguru zrI AtmabOdhEndra sarasvatI ArAdhanA": {
+  {
+    "id": "kAJcI 58 jagadguru zrI AtmabOdhEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 7,
     "angam_type": "tithi",
@@ -705,7 +764,8 @@
     "URL": "kanchi-58-jagadguru-shri-atmabodhendra-sarasvati-aradhana",
     "references_secondary": "www.kamakoti.org"
   },
-  "kAJcI 59 jagadguru zrI bhagavannAma bOdhEndra sarasvatI ArAdhanA": {
+  {
+    "id": "kAJcI 59 jagadguru zrI bhagavannAma bOdhEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 6,
     "angam_type": "tithi",
@@ -717,7 +777,8 @@
     "URL": "kanchi-59-jagadguru-shri-bhagavannama-bodhendra-sarasvati-aradhana",
     "references_secondary": "www.kamakoti.org"
   },
-  "kAJcI 60 jagadguru zrI advaitAtmaprakAzEndra sarasvatI ArAdhanA": {
+  {
+    "id": "kAJcI 60 jagadguru zrI advaitAtmaprakAzEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 1,
     "angam_type": "tithi",
@@ -729,7 +790,8 @@
     "URL": "kanchi-60-jagadguru-shri-advaitatmaprakashendra-sarasvati-aradhana",
     "references_secondary": "www.kamakoti.org"
   },
-  "kAJcI 61 jagadguru zrI mahAdEvEndra sarasvatI 4 ArAdhanA": {
+  {
+    "id": "kAJcI 61 jagadguru zrI mahAdEvEndra sarasvatI 4 ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 3,
     "angam_type": "tithi",
@@ -741,7 +803,8 @@
     "URL": "kanchi-61-jagadguru-shri-mahadevendra-sarasvati-4-aradhana",
     "references_secondary": "www.kamakoti.org"
   },
-  "kAJcI 62 jagadguru zrI candrazEkharEndra sarasvatI 5 ArAdhanA": {
+  {
+    "id": "kAJcI 62 jagadguru zrI candrazEkharEndra sarasvatI 5 ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 10,
     "angam_type": "tithi",
@@ -753,7 +816,8 @@
     "URL": "kanchi-62-jagadguru-shri-chandrashekharendra-sarasvati-5-aradhana",
     "references_secondary": "www.kamakoti.org"
   },
-  "kAJcI 63 jagadguru zrI mahAdEvEndra sarasvatI 5 ArAdhanA": {
+  {
+    "id": "kAJcI 63 jagadguru zrI mahAdEvEndra sarasvatI 5 ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 4,
     "angam_type": "tithi",
@@ -765,7 +829,8 @@
     "URL": "kanchi-63-jagadguru-shri-mahadevendra-sarasvati-5-aradhana",
     "references_secondary": "www.kamakoti.org"
   },
-  "kAJcI 64 jagadguru zrI candrazEkharEndra sarasvatI 6 ArAdhanA": {
+  {
+    "id": "kAJcI 64 jagadguru zrI candrazEkharEndra sarasvatI 6 ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 8,
     "angam_type": "tithi",
@@ -777,7 +842,8 @@
     "URL": "kanchi-64-jagadguru-shri-chandrashekharendra-sarasvati-6-aradhana",
     "references_secondary": "www.kamakoti.org"
   },
-  "kAJcI 65 jagadguru zrI sudarzana mahAdEvEndra sarasvatI ArAdhanA": {
+  {
+    "id": "kAJcI 65 jagadguru zrI sudarzana mahAdEvEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 12,
     "angam_type": "tithi",
@@ -789,7 +855,8 @@
     "URL": "kanchi-65-jagadguru-shri-sudarshana-mahadevendra-sarasvati-aradhana",
     "references_secondary": "www.kamakoti.org"
   },
-  "kAJcI 66 jagadguru zrI candrazEkharEndra sarasvatI 7 ArAdhanA": {
+  {
+    "id": "kAJcI 66 jagadguru zrI candrazEkharEndra sarasvatI 7 ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 11,
     "angam_type": "tithi",
@@ -801,7 +868,8 @@
     "URL": "kanchi-66-jagadguru-shri-chandrashekharendra-sarasvati-7-aradhana",
     "references_secondary": "www.kamakoti.org"
   },
-  "kAJcI 67 jagadguru zrI mahAdEvEndra sarasvatI 5 ArAdhanA": {
+  {
+    "id": "kAJcI 67 jagadguru zrI mahAdEvEndra sarasvatI 5 ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 12,
     "angam_type": "tithi",
@@ -813,7 +881,8 @@
     "URL": "kanchi-67-jagadguru-shri-mahadevendra-sarasvati-5-aradhana",
     "references_secondary": "www.kamakoti.org"
   },
-  "kAJcI 68 jagadguru zrI candrazEkharEndra sarasvatI ArAdhanA": {
+  {
+    "id": "kAJcI 68 jagadguru zrI candrazEkharEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 9,
     "angam_type": "tithi",
@@ -824,4 +893,4 @@
     "Tags": "kanchi-aradhana-days,common-festivals",
     "URL": "kanchi-68-jagadguru-shri-chandrashekharendra-sarasvati-aradhana"
   }
-}
+]

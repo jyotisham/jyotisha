@@ -16,6 +16,7 @@ import jyotisha.custom_transliteration
 import jyotisha.panchangam.temporal
 from jyotisha.panchangam import scripts
 from jyotisha.panchangam.spatio_temporal import City
+from jyotisha.panchangam.temporal.festival import read_old_festival_rules_dict
 
 logging.basicConfig(
     level=logging.DEBUG,
@@ -33,14 +34,9 @@ def write_to_file(ics_calendar, fname):
 
 
 def compute_calendar(panchangam):
-    with open(os.path.join(CODE_ROOT, 'panchangam/data/festival_rules.json')) as festivals_data:
-        festival_rules_main = json.load(festivals_data)
-
-    with open(os.path.join(CODE_ROOT, 'panchangam/data/relative_festival_rules.json')) as relative_festivals_data:
-        festival_rules_rel = json.load(relative_festivals_data)
-
-    with open(os.path.join(CODE_ROOT, 'panchangam/data/festival_rules_desc_only.json')) as festivals_desc_data:
-        festival_rules_desc_only = json.load(festivals_desc_data)
+    festival_rules_main = read_old_festival_rules_dict(os.path.join(CODE_ROOT, 'panchangam/data/festival_rules.json'))
+    festival_rules_rel = read_old_festival_rules_dict(os.path.join(CODE_ROOT, 'panchangam/data/relative_festival_rules.json'))
+    festival_rules_desc_only = read_old_festival_rules_dict(os.path.join(CODE_ROOT, 'panchangam/data/festival_rules_desc_only.json'))
 
     festival_rules = {**festival_rules_main, **festival_rules_rel, **festival_rules_desc_only}
 

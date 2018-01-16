@@ -9,6 +9,8 @@ from swisseph import julday
 
 from indic_transliteration import xsanscript as sanscript
 from pytz import timezone as tz
+
+from jyotisha.panchangam.temporal.festival import read_old_festival_rules_dict
 from sanskrit_data.schema import common
 from scipy.optimize import brentq
 
@@ -1001,8 +1003,7 @@ class Panchangam(common.JsonObject):
         if any(x == 17 for x in [self.nakshatram_sunrise[d]]):
           self.add_festival('budhAnUrAdhA-puNyakAlaH', d, debug_festivals)
 
-      with open(os.path.join(CODE_ROOT, 'panchangam/data/festival_rules.json'), encoding="utf-8") as festivals_data:
-        festival_rules = json.load(festivals_data, encoding="utf-8")
+      festival_rules = read_old_festival_rules_dict(os.path.join(CODE_ROOT, 'panchangam/data/festival_rules.json'))
 
       for festival_name in festival_rules:
         if 'month_type' in festival_rules[festival_name]:
@@ -1203,8 +1204,7 @@ class Panchangam(common.JsonObject):
     self.fest_days['varalakSmI-vratam'] = [self.fest_days['yajurvEda-upAkarma'][0] -
                                            ((self.weekday_start - 1 + self.fest_days['yajurvEda-upAkarma'][0] - 5) % 7)]
 
-    with open(os.path.join(CODE_ROOT, 'panchangam/data/relative_festival_rules.json'), encoding="utf-8") as relative_festivals_data:
-      relative_festival_rules = json.load(relative_festivals_data, encoding="utf-8")
+    relative_festival_rules = read_old_festival_rules_dict(os.path.join(CODE_ROOT, 'panchangam/data/relative_festival_rules.json'))
 
     for festival_name in relative_festival_rules:
       offset = int(relative_festival_rules[festival_name]['offset'])

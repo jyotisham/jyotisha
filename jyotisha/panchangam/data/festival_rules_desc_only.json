@@ -1,479 +1,584 @@
-{
-  "SaSThI-vratam": {
+[
+  {
+    "id": "SaSThI-vratam",
     "Tags": "monthly-vratams,shashthi-vratam-days",
     "URL": "shashthi-vratam"
   },
-  "kumAra-SaSThI-vratam": {
+  {
+    "id": "kumAra-SaSThI-vratam",
     "Tags": "monthly-vratams,shashthi-vratam-days",
     "URL": "kumara-shashthi-vratam",
     "description_short": "`upavAsam` with only water and next day `pAraNa` gives `Arogyam`",
     "Shloka": "ASADha zuklaSaSThI tu tithiH kaumArilA smRtA.\nkumAramarcayEttatra pUrvatrOpESya vai dinam.."
   },
-  "SaSThIdEvI-SaSThI-vratam": {
+  {
+    "id": "SaSThIdEvI-SaSThI-vratam",
     "Tags": "monthly-vratams,shashthi-vratam-days",
     "URL": "shashthidevi-shashthi-vratam",
     "description_short": "Skanda darshanam is recommended, removes sins including brahmahatya.",
     "Shloka": "yO'syAM pazyati gAGgEyaM dakSiNApathavAsinam .\nbrahmahatyAdi pApaistu mucyatE nAtra saMzayaH .."
   },
-  "skanda-SaSThI-vratam": {
+  {
+    "id": "skanda-SaSThI-vratam",
     "Tags": "monthly-vratams,shashthi-vratam-days",
     "URL": "shashthi-vratam"
   },
-  "subrahmaNya-SaSThI-vratam": {
+  {
+    "id": "subrahmaNya-SaSThI-vratam",
     "Tags": "monthly-vratams,shashthi-vratam-days",
     "URL": "subrahmanya-shashthi-vratam",
     "description_short": "Also known as `campA/campaka SaSThI`",
     "Shloka": "sEnAvidAraka skanda mahAsEna mahAbala.\nrudrOmAgnija SaDvaktra gaGgAgarbha namO'stu tE.."
   },
-  "bhAnusaptamI": {
+  {
+    "id": "bhAnusaptamI",
     "Tags": "rare-days",
     "URL": "bhanusaptami",
     "description_short": "`saptamI tithi` on a Sunday is as sacred as a solar eclipse. Particularly good for worshipping Surya. ",
     "Shloka": "amAvasyA tu sOmEna saptamI bhAnunA saha.\ncaturthI bhUmiputrENa sOmaputrENa cASTamI.\n catasrastithayastvEtAH sUryagrahaNasannibhAH.."
   },
-  "bhAnusaptamI*": {
+  {
+    "id": "bhAnusaptamI*",
     "Tags": "rare-days",
     "URL": "bhanusaptami",
     "description_short": "`saptamI tithi` on a Sunday is as sacred as a solar eclipse. Particularly good for worshipping Surya. Today is even more auspicious, as it is associated with `revatI` star.",
     "Shloka": "amAvasyA tu sOmEna saptamI bhAnunA saha.\ncaturthI bhUmiputrENa sOmaputrENa cASTamI.\n catasrastithayastvEtAH sUryagrahaNasannibhAH.."
   },
-  "budhASTamI": {
+  {
+    "id": "budhASTamI",
     "Tags": "rare-days",
     "URL": "budhashtami",
     "description_short": "`aSTamI tithi` on a Wednesday is as sacred as a solar eclipse. ",
     "Shloka": "amAvasyA tu sOmEna saptamI bhAnunA saha.\ncaturthI bhUmiputrENa sOmaputrENa cASTamI.\n catasrastithayastvEtAH sUryagrahaNasannibhAH.."
   },
-  "aGgAraka-caturthI": {
+  {
+    "id": "aGgAraka-caturthI",
     "Tags": "rare-days",
     "URL": "angaraka-chaturthi",
     "description_short": "`caturthI tithi` on a Tuesday is as sacred as a solar eclipse. Good day for doing puja of Ganesha/Subrahmanya with naivedyam of modakam/millet flour respectively.",
     "Shloka": "amAvasyA tu sOmEna saptamI bhAnunA saha.\ncaturthI bhUmiputrENa sOmaputrENa cASTamI.\n catasrastithayastvEtAH sUryagrahaNasannibhAH.."
   },
-  "kRSNAGgAraka-caturdazI-puNyakAlaH/yamatarpaNam": {
+  {
+    "id": "kRSNAGgAraka-caturdazI-puNyakAlaH/yamatarpaNam",
     "Tags": "rare-days",
     "URL": "krishna-angaraka-chaturdashi",
     "description_short": "`kRSNa caturdazI tithi` on a Tuesday is very sacred. Perform `tarpaNa` to Yama Dharamaraja."
   },
-  "sOma-amAvasyA": {
+  {
+    "id": "sOma-amAvasyA",
     "Tags": "rare-days,amavasya-days",
     "URL": "soma-amavasya",
     "description_short": "`amAvasyA` on a Monday is as sacred as a solar eclipse. Particularly good for performing pradakshinam of Pippala tree.",
     "Shloka": "amAvasyA tu sOmEna saptamI bhAnunA saha.\ncaturthI bhUmiputrENa sOmaputrENa cASTamI.\n catasrastithayastvEtAH sUryagrahaNasannibhAH.. mUlatO brahmarUpAya madhyatO viSNurUpiNE.\nagrataH zivarUpAya vRkSarAjAya tE namaH..\nakSispandaM bhujaspandaM duHsvapnaM durvicintanam .\n zatrUnAm ca samutpannam azvattha zamayasva mE .."
   },
-  "candra-darzanam": {
+  {
+    "id": "candra-darzanam",
     "Tags": "chandra-darshanam",
     "URL": "chandra-darshanam",
     "description_short": "Have darshan of Moon today, chanting the following shloka",
     "Shloka": "zvEtAmbaraH zvEtavibhUSaNazca zvEtadyutirdaNDadharO dvibAhuH.\ncandrO'mRtAtmA varadaH kirITI mayi prasAdaM vidadhAtu dEvaH.."
   },
-  "(bhAdrapada) mahAlaya amAvasyA": {
+  {
+    "id": "(bhAdrapada) mahAlaya amAvasyA",
     "Tags": "amavasya-days",
     "URL": "(bhadrapada)-mahalaya-amavasya"
   },
-  "ajA-EkAdazI": {
+  {
+    "id": "ajA-EkAdazI",
     "Tags": "monthly-vratams,ekadashi-vratam-days",
     "URL": "aja-ekadashi",
     "description_short": "Satya Harishchandra performed this to get back family and kingdom."
   },
-  "AmalakI-EkAdazI": {
+  {
+    "id": "AmalakI-EkAdazI",
     "Tags": "monthly-vratams,ekadashi-vratam-days",
     "URL": "amalaki-ekadashi"
   },
-  "aparA-EkAdazI": {
+  {
+    "id": "aparA-EkAdazI",
     "Tags": "monthly-vratams,ekadashi-vratam-days",
     "URL": "apara-ekadashi"
   },
-  "Azvayuja-amAvasyA": {
+  {
+    "id": "Azvayuja-amAvasyA",
     "Tags": "amavasya-days",
     "URL": "ashvina-amavasya"
   },
-  "caitra-amAvasyA": {
+  {
+    "id": "caitra-amAvasyA",
     "Tags": "amavasya-days",
     "URL": "chaitra-amavasya"
   },
-  "candra-grahaNam": {
+  {
+    "id": "candra-grahaNam",
     "Tags": "rare-days",
     "URL": "chandra-grahanam"
   },
-  "guruvAyupura-EkAdazI": {
+  {
+    "id": "guruvAyupura-EkAdazI",
     "Tags": "monthly-vratams,ekadashi-vratam-days,kerala-temple-festivals",
     "URL": "guruvayupura-ekadashi"
   },
-  "indirA-EkAdazI": {
+  {
+    "id": "indirA-EkAdazI",
     "Tags": "monthly-vratams,ekadashi-vratam-days",
     "URL": "indira-ekadashi",
     "description_short": "Indrasena's son did Ekadashi and as a result he was shifted from hell to heaven."
   },
-  "padminI-EkAdazI": {
+  {
+    "id": "padminI-EkAdazI",
     "Tags": "monthly-vratams,ekadashi-vratam-days",
     "URL": "padmini-ekadashi"
   },
-  "paramA-EkAdazI": {
+  {
+    "id": "paramA-EkAdazI",
     "Tags": "monthly-vratams,ekadashi-vratam-days",
     "URL": "parama-ekadashi"
   },
-  "jayA/bhaimI-EkAdazI": {
+  {
+    "id": "jayA/bhaimI-EkAdazI",
     "Tags": "monthly-vratams,ekadashi-vratam-days",
     "URL": "jaya-ekadashi",
     "titles": "bhaimI-EkAdazI"
   },
-  "jyaiSTha-amAvasyA": {
+  {
+    "id": "jyaiSTha-amAvasyA",
     "Tags": "amavasya-days",
     "URL": "jyaishtha-amavasya"
   },
-  "kAmadA-EkAdazI": {
+  {
+    "id": "kAmadA-EkAdazI",
     "Tags": "monthly-vratams,ekadashi-vratam-days",
     "URL": "kamada-ekadashi"
   },
-  "kAmikA-EkAdazI": {
+  {
+    "id": "kAmikA-EkAdazI",
     "Tags": "monthly-vratams,ekadashi-vratam-days",
     "URL": "kamika-ekadashi"
   },
-  "kArtika-amAvasyA": {
+  {
+    "id": "kArtika-amAvasyA",
     "Tags": "amavasya-days",
     "URL": "kartika-amavasya"
   },
-  "kucEla-dinam": {
+  {
+    "id": "kucEla-dinam",
     "Tags": "purana-events",
     "URL": "kuchela-dinam",
     "description_short": "Celebrated especially in Kerala/Guruvayur."
   },
-  "mAgha-amAvasyA": {
+  {
+    "id": "mAgha-amAvasyA",
     "Tags": "amavasya-days",
     "URL": "magha-amavasya"
   },
-  "mahAdhanurvyatIpAtam": {
+  {
+    "id": "mahAdhanurvyatIpAtam",
     "Tags": "common-festivals",
     "URL": "mahadhanurvyatipatam"
   },
-  "mahAsaGkaTahara-caturthI-vratam": {
+  {
+    "id": "mahAsaGkaTahara-caturthI-vratam",
     "Tags": "common-festivals",
     "URL": "mahasankatahara-chaturthi-vratam"
   },
-  "mahAvyatIpAtam": {
+  {
+    "id": "mahAvyatIpAtam",
     "Tags": "common-festivals",
     "URL": "mahavyatipatam"
   },
-  "makarAyaNa-puNyakAlaH/mitrOtsavaH": {
+  {
+    "id": "makarAyaNa-puNyakAlaH/mitrOtsavaH",
     "Tags": "common-festivals",
     "URL": "makarayana-punyakAlaH-mitrotsavaH"
   },
-  "mArgazIrSa-amAvasyA": {
+  {
+    "id": "mArgazIrSa-amAvasyA",
     "Tags": "amavasya-days",
     "URL": "margashirsha-amavasya"
   },
-  "mOhinI-EkAdazI": {
+  {
+    "id": "mOhinI-EkAdazI",
     "Tags": "monthly-vratams,ekadashi-vratam-days",
     "URL": "mohini-ekadashi"
   },
-  "mOkSadA-EkAdazI": {
+  {
+    "id": "mOkSadA-EkAdazI",
     "Tags": "monthly-vratams,ekadashi-vratam-days",
     "URL": "mokshada-ekadashi"
   },
-  "zayana-EkAdazI": {
+  {
+    "id": "zayana-EkAdazI",
     "Tags": "monthly-vratams,ekadashi-vratam-days",
     "URL": "shayana-ekadashi",
     "description_short": "Lord Vishnu goes to sleep.",
     "Shloka": "vAsudEva jagadyOnE prAptEyaM dvAdazI tava.\nbhujaGgazayanE'bdhau ca sukhaM svapihi mAdhava..\niyaM tu dvAdazI dEva zayanArthaM vinirmita .\nasyAM suptE jagannAthE jagatsuptaM bhavEdidam ..\nvibuddhE tvayi buddhyEta sarvamEtaccarAcaram ..",
     "titles": "padmA ekAdazI\ndevazayanI ekAdazI"
   },
-  "pANDava-nirjalA-EkAdazI": {
+  {
+    "id": "pANDava-nirjalA-EkAdazI",
     "Tags": "monthly-vratams,ekadashi-vratam-days",
     "URL": "pandava-nirjala-ekadashi"
   },
-  "pApAGkuzA-EkAdazI": {
+  {
+    "id": "pApAGkuzA-EkAdazI",
     "Tags": "monthly-vratams,ekadashi-vratam-days",
     "URL": "papankusha-ekadashi"
   },
-  "pApamOcanI-EkAdazI": {
+  {
+    "id": "pApamOcanI-EkAdazI",
     "Tags": "monthly-vratams,ekadashi-vratam-days",
     "URL": "papamochani-ekadashi"
   },
-  "parivartinI-EkAdazI": {
+  {
+    "id": "parivartinI-EkAdazI",
     "Tags": "monthly-vratams,ekadashi-vratam-days",
     "URL": "parivartini-ekadashi",
     "description_short": "Side ways turn inside sleep of Vishnu midway after Shayana Ekadashi.",
     "Shloka": "vAsudEva jagannAtha prAptEyaM dvAdazI tava.\n pArzvEna parivartasva sukhaM svapihi mAdhava.."
   },
-  "mauni (pauSa/makara) amAvasyA": {
+  {
+    "id": "mauni (pauSa/makara) amAvasyA",
     "Tags": "amavasya-days",
     "URL": "mauni-pausha-makara-amavasya"
   },
-  "pavitrOpAna-EkAdazI": {
+  {
+    "id": "pavitrOpAna-EkAdazI",
     "Tags": "monthly-vratams,ekadashi-vratam-days",
     "URL": "pavitropana-ekadashi"
   },
-  "phAlguna-amAvasyA": {
+  {
+    "id": "phAlguna-amAvasyA",
     "Tags": "amavasya-days",
     "URL": "phalguna-amavasya"
   },
-  "pradOSa-vratam": {
+  {
+    "id": "pradOSa-vratam",
     "Tags": "monthly-vratams,pradosha-vratam-days",
     "URL": "pradosha-vratam"
   },
-  "putradA-EkAdazI": {
+  {
+    "id": "putradA-EkAdazI",
     "Tags": "monthly-vratams,ekadashi-vratam-days",
     "URL": "putrada-ekadashi"
   },
-  "ramA-EkAdazI": {
+  {
+    "id": "ramA-EkAdazI",
     "Tags": "monthly-vratams,ekadashi-vratam-days",
     "URL": "rama-ekadashi"
   },
-  "saGkaTahara-caturthI-vratam": {
+  {
+    "id": "saGkaTahara-caturthI-vratam",
     "Tags": "monthly-vratams,sankatahara-chaturthi-vratam-days",
     "URL": "sankatahara-chaturthi-vratam",
     "description_short": "Special vrata day for Ganesha. Fast during the day and pray to Ganesha after moonrise, as follows:",
     "Shloka": "gaNAdhipastvaM dEvEza caturthyAM pUjitO mayA.\nkaSTAn mAM mOcayEzAna sarvamiSTaM ca dEhi mE.."
   },
-  "saphalA-EkAdazI": {
+  {
+    "id": "saphalA-EkAdazI",
     "Tags": "monthly-vratams,ekadashi-vratam-days",
     "URL": "saphala-ekadashi"
   },
-  "SaTtilA-EkAdazI": {
+  {
+    "id": "SaTtilA-EkAdazI",
     "Tags": "monthly-vratams,ekadashi-vratam-days",
     "URL": "shattila-ekadashi"
   },
-  "sOma-pradOSa-vratam": {
+  {
+    "id": "sOma-pradOSa-vratam",
     "Tags": "pradosha-vratam-days,monthly-vratams",
     "URL": "soma-pradosha-vratam"
   },
-  "sukhA~aGgAraka-caturthI": {
+  {
+    "id": "sukhA~aGgAraka-caturthI",
     "Tags": "rare-days",
     "URL": "sukha-angaraka-chaturthi"
   },
-  "utpannA-EkAdazI": {
+  {
+    "id": "utpannA-EkAdazI",
     "Tags": "monthly-vratams,ekadashi-vratam-days",
     "URL": "utpanna-ekadashi"
   },
-  "utthAna-EkAdazI": {
+  {
+    "id": "utthAna-EkAdazI",
     "Tags": "monthly-vratams,ekadashi-vratam-days",
     "URL": "utthana-ekadashi"
   },
-  "vaikuNTha-EkAdazI": {
+  {
+    "id": "vaikuNTha-EkAdazI",
     "Tags": "monthly-vratams,ekadashi-vratam-days",
     "URL": "vaikuntha-ekadashi"
   },
-  "vaizAkha-amAvasyA": {
+  {
+    "id": "vaizAkha-amAvasyA",
     "Tags": "amavasya-days",
     "URL": "vaishakha-amavasya"
   },
-  "varalakSmI-vratam": {
+  {
+    "id": "varalakSmI-vratam",
     "Tags": "common-festivals,special-vratams",
     "URL": "varalakshmi-vratam"
   },
-  "varUthinI-EkAdazI": {
+  {
+    "id": "varUthinI-EkAdazI",
     "Tags": "monthly-vratams,ekadashi-vratam-days",
     "URL": "varuthini-ekadashi"
   },
-  "vijayA~bhAnusaptamI": {
+  {
+    "id": "vijayA~bhAnusaptamI",
     "Tags": "rare-days",
     "URL": "vijaya-bhanusaptami",
     "description_short": "`saptamI tithi` on a Sunday is as sacred as a solar eclipse. Particularly good for worshipping Surya. When `zukla saptamI` is present at sunrise, it is called `vijayA`.",
     "Shloka": "amAvasyA tu sOmEna saptamI bhAnunA saha.\ncaturthI bhUmiputrENa sOmaputrENa cASTamI.\n catasrastithayastvEtAH sUryagrahaNasannibhAH.."
   },
-  "vijayA~bhAnusaptamI*": {
+  {
+    "id": "vijayA~bhAnusaptamI*",
     "Tags": "rare-days",
     "URL": "vijaya-bhanusaptami",
     "description_short": "`saptamI tithi` on a Sunday is as sacred as a solar eclipse. Particularly good for worshipping Surya. When `zukla saptamI` is present at sunrise, it is called `vijayA`.",
     "Shloka": "amAvasyA tu sOmEna saptamI bhAnunA saha.\ncaturthI bhUmiputrENa sOmaputrENa cASTamI.\n catasrastithayastvEtAH sUryagrahaNasannibhAH.."
   },
-  "vijayA-EkAdazI": {
+  {
+    "id": "vijayA-EkAdazI",
     "Tags": "monthly-vratams,ekadashi-vratam-days",
     "URL": "vijaya-ekadashi"
   },
-  "yOginI-EkAdazI": {
+  {
+    "id": "yOginI-EkAdazI",
     "Tags": "monthly-vratams,ekadashi-vratam-days",
     "URL": "yogini-ekadashi"
   },
-  "zani-pradOSa-vratam": {
+  {
+    "id": "zani-pradOSa-vratam",
     "Tags": "monthly-vratams,pradosha-vratam-days",
     "URL": "shani-pradosha-vratam"
   },
-  "zravaNa-amAvasyA": {
+  {
+    "id": "zravaNa-amAvasyA",
     "Tags": "amavasya-days",
     "URL": "shravana-amavasya"
   },
-  "pauSa (makara) amAvasyA": {
+  {
+    "id": "pauSa (makara) amAvasyA",
     "Tags": "amavasya-days",
     "URL": "pausha-(makara)-amavasya"
   },
-  "sUrya-grahaNam": {
+  {
+    "id": "sUrya-grahaNam",
     "Tags": "rare-days",
     "URL": "surya-grahanam"
   },
-  "bhaumAzvinI-puNyakAlaH": {
+  {
+    "id": "bhaumAzvinI-puNyakAlaH",
     "Tags": "rare-days",
     "URL": "bhaumashvini-punyakala",
     "description_short": "When Ashwini nakshatram falls on a Tuesday, it is a special `puNyakAlaH`. Do `upAsanA` of Lakshmi Narasimha."
   },
-  "ASADha (kaTaka) amAvasyA": {
+  {
+    "id": "ASADha (kaTaka) amAvasyA",
     "Tags": "amavasya-days",
     "URL": "ashadha-(kataka)-amavasya"
   },
-  "zravaNa (kaTaka) amAvasyA": {
+  {
+    "id": "zravaNa (kaTaka) amAvasyA",
     "Tags": "amavasya-days",
     "URL": "shravana-(kataka)-amavasya"
   },
-  "budhAnUrAdhA-puNyakAlaH": {
+  {
+    "id": "budhAnUrAdhA-puNyakAlaH",
     "Tags": "rare-days",
     "URL": "budhanuradha-punyakala",
     "description_short": "When Anuradha nakshatram falls on a Wednesday, it is a special `puNyakAlaH` for performing danams. One can do dAnaM of dadhyodanam in Vishnu temples on this day."
   },
-  "gajacchAyA-yOgam": {
+  {
+    "id": "gajacchAyA-yOgam",
     "Tags": "rare-days",
     "URL": "gajachchhaya-yogam"
   },
-  "agninakSatra-ArambhaH": {
+  {
+    "id": "agninakSatra-ArambhaH",
     "Tags": "special-period-start",
     "URL": "agninakshatra-arambha"
   },
-  "agninakSatra-samApanam": {
+  {
+    "id": "agninakSatra-samApanam",
     "Tags": "special-period-end",
     "URL": "agninakshatra-samapanam"
   },
-  "ta:kapAlI teppOtsavam": {
+  {
+    "id": "ta:kapAlI teppOtsavam",
     "Tags": "tamilnadu-temple-festivals",
     "URL": "kapali-teppotsavam"
   },
-  "ta:kAraDaiyAn2 nOn2bu": {
+  {
+    "id": "ta:kAraDaiyAn2 nOn2bu",
     "Tags": "common-festivals-tamilnadu",
     "URL": "karadaiyan-nombu"
   },
-  "ta:AvaNi~JAyir2r2ukkizhamai": {
+  {
+    "id": "ta:AvaNi~JAyir2r2ukkizhamai",
     "Tags": "month-weekday-festivals",
     "URL": "avani-jnayirrukkizhamai",
     "description_short": "Do puja to Surya/Suryanamaskaram."
   },
-  "ta:kArttigai~JAyir2r2ukkizhamai": {
+  {
+    "id": "ta:kArttigai~JAyir2r2ukkizhamai",
     "Tags": "month-weekday-festivals",
     "URL": "karttigai-jnayirrukkizhamai",
     "description_short": "Do puja to Surya/Suryanamaskaram."
   },
-  "ta:kArttigai~sOmavAram": {
+  {
+    "id": "ta:kArttigai~sOmavAram",
     "Tags": "tamil-month-vratams",
     "URL": "karttigai-somavaram"
   },
-  "ta:ADi~veLLikkizhamai": {
+  {
+    "id": "ta:ADi~veLLikkizhamai",
     "Tags": "tamil-month-vratams",
     "URL": "adi-vellikkizhamai"
   },
-  "ta:tai~veLLikkizhamai": {
+  {
+    "id": "ta:tai~veLLikkizhamai",
     "Tags": "tamil-month-vratams",
     "URL": "tai-vellikkizhamai"
   },
-  "ta:mAci~cevvAy": {
+  {
+    "id": "ta:mAci~cevvAy",
     "Tags": "tamil-month-vratams,special-vratams",
     "URL": "masi-chevvay",
     "description_short": "Do `upavAsam` (at least do not take salt) and pray to Lord Shiva (Vaidyanatha Swami)."
   },
-  "ta:puraTTAci~can2ikkizhamai": {
+  {
+    "id": "ta:puraTTAci~can2ikkizhamai",
     "Tags": "tamil-month-vratams,special-vratams",
     "URL": "purattachi-chanikkizhamai",
     "description_short": "Perform special puja and naivedyam (e.g. `tilAnnam`) to Lord Venkateshwara."
   },
-  "*cUDAmaNi-candra-grahaNam": {
+  {
+    "id": "*cUDAmaNi-candra-grahaNam",
     "Tags": "rare-days",
     "URL": "*chudamani-chandra-grahanam",
     "description_short": "When a lunar eclipse occurs on a Monday, it is even more special: `cUDAmaNi`, i.e. crest jewel.",
     "references_secondary": "Kielhorn, 1897"
   },
-  "*cUDAmaNi-sUrya-grahaNam": {
+  {
+    "id": "*cUDAmaNi-sUrya-grahaNam",
     "Tags": "rare-days",
     "URL": "*chudamani-chandra-grahanam",
     "description_short": "When a solar eclipse occurs on a Sunday, it is even more special: `cUDAmaNi`, i.e. crest jewel.",
     "references_secondary": "Kielhorn, 1897"
   },
-  "ASADha-amAvasyA": {
+  {
+    "id": "ASADha-amAvasyA",
     "Tags": "amavasya-days",
     "URL": "ashadha-amavasya"
   },
-  "AyuSmAn-bava-saumya": {
+  {
+    "id": "AyuSmAn-bava-saumya",
     "Tags": "rare-days",
     "URL": "ayushman-bava-saumya",
     "description_short": "A rare combination of `AyuSmAn yOga, bava karaNa` and `saumyavAsara`. Also a source of the normal blessing 'AyuSmAn bava saumya'!",
     "references_secondary": "Maha Periva / Deivattin Kural"
   },
-  "jayantI~mahAdvAdazI": {
+  {
+    "id": "jayantI~mahAdvAdazI",
     "Tags": "rare-days",
     "URL": "jayanti-mahadvadashi",
     "description_short": "Dvadashi tithi, combined with Punarvasu nakshatram."
   },
-  "jayA~mahAdvAdazI": {
+  {
+    "id": "jayA~mahAdvAdazI",
     "Tags": "rare-days",
     "URL": "jaya-mahadvadashi",
     "description_short": "Dvadashi tithi, combined with Pushya nakshatram."
   },
-  "mahAjayA~saptamI": {
+  {
+    "id": "mahAjayA~saptamI",
     "Tags": "rare-days",
     "URL": "mahajaya-saptami",
     "description_short": "Saptami tithi, combined with a sankranti."
   },
-  "mahOdaya-puNyakAlaH": {
+  {
+    "id": "mahOdaya-puNyakAlaH",
     "Tags": "rare-days",
     "URL": "mahodaya-punyakala",
     "description_short": "A rare combination of Pausha masam, Shravana nakshatram, Vyatipata yogam and Monday."
   },
-  "ardhOdaya-puNyakAlaH": {
+  {
+    "id": "ardhOdaya-puNyakAlaH",
     "Tags": "rare-days",
     "URL": "ardhodaya-punyakala",
     "description_short": "A rare combination of Pausha masam, Shravana nakshatram, Vyatipata yogam and Sunday."
   },
-  "pApanAzinI~mahAdvAdazI": {
+  {
+    "id": "pApanAzinI~mahAdvAdazI",
     "Tags": "rare-days",
     "URL": "papanashini-mahadvadashi",
     "description_short": "Dvadashi tithi, combined with Rohini nakshatram."
   },
-  "pauSa-amAvasyA": {
+  {
+    "id": "pauSa-amAvasyA",
     "Tags": "amavasya-days",
     "URL": "pausha-amavasya"
   },
-  "vAruNI~trayOdazI": {
+  {
+    "id": "vAruNI~trayOdazI",
     "Tags": "rare-days",
     "URL": "varuni-trayodashi",
     "description_short": "Phalguna Krishna Chaturdashi, combined with Shatabhishak Nakshatram."
   },
-  "mahAvAruNI~trayOdazI": {
+  {
+    "id": "mahAvAruNI~trayOdazI",
     "Tags": "rare-days",
     "URL": "varuni-trayodashi",
     "description_short": "Phalguna Krishna Chaturdashi, combined with Shatabhishak Nakshatram and Saturday."
   },
-  "mahAmahAvAruNI~trayOdazI": {
+  {
+    "id": "mahAmahAvAruNI~trayOdazI",
     "Tags": "rare-days",
     "URL": "varuni-trayodashi",
     "description_short": "Phalguna Krishna Chaturdashi, combined with Shatabhishak Nakshatram, Saturday and Shubha Yogam."
   },
-  "vijayA/zravaNa~mahAdvAdazI": {
+  {
+    "id": "vijayA/zravaNa~mahAdvAdazI",
     "Tags": "rare-days,special-vratams",
     "URL": "vijaya-shravana-mahadvadashi",
     "description_short": "Dvadashi tithi, combined with Shravana nakshatram."
   },
-  "mESa-saGkrAntiH": {
+  {
+    "id": "mESa-saGkrAntiH",
     "Tags": "sun-sankranti,common-festivals",
     "URL": "mesha-sankranti",
     "description_short": "Tamil New Year."
   },
-  "kRSNA-antya-puSkara-ArambhaH": {
+  {
+    "id": "kRSNA-antya-puSkara-ArambhaH",
     "Tags": "pushkara,rare-days",
     "URL": "krishna-antya-pushkara"
   },
-  "kRSNA-antya-puSkara-samApanam": {
+  {
+    "id": "kRSNA-antya-puSkara-samApanam",
     "Tags": "pushkara,rare-days",
     "URL": "krishna-antya-pushkara"
   },
-  "guru-saGkrAntiH": {
+  {
+    "id": "guru-saGkrAntiH",
     "Tags": "sankranti",
     "URL": "guru-sankranti"
   },
-  "zani-saGkrAntiH": {
+  {
+    "id": "zani-saGkrAntiH",
     "Tags": "sankranti",
     "URL": "zani-sankranti"
   },
-  "kAvErI-Adi-puSkara-ArambhaH": {
+  {
+    "id": "kAvErI-Adi-puSkara-ArambhaH",
     "Tags": "pushkara,rare-days",
     "URL": "kaveri-adi-pushkara"
   },
-  "kAvErI-Adi-puSkara-samApanam": {
+  {
+    "id": "kAvErI-Adi-puSkara-samApanam",
     "Tags": "pushkara,rare-days",
     "URL": "kaveri-adi-pushkara"
   }
-}
+]
