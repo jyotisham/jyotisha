@@ -75,7 +75,7 @@ def compute_calendar(panchangam):
                     event.add('dtend', (datetime(y, m, dt) + timedelta(48)).date())
 
                     if stext in festival_rules:
-                        desc = festival_rules[stext]['Short Description'] + '\n\n' + \
+                        desc = festival_rules[stext]['description_short'] + '\n\n' + \
                             jyotisha.custom_transliteration.tr(festival_rules[stext]['Shloka'],
                                                                panchangam.script, False) + '\n\n'
                         if 'URL' in festival_rules[stext]:
@@ -119,7 +119,7 @@ def compute_calendar(panchangam):
                                                     tzinfo=tz(panchangam.city.timezone)))
 
                     if stext in festival_rules:
-                        desc = festival_rules[stext]['Short Description'] + '\n\n' + \
+                        desc = festival_rules[stext]['description_short'] + '\n\n' + \
                             jyotisha.custom_transliteration.tr(festival_rules[stext]['Shloka'], panchangam.script, False) + '\n\n'
                         if 'URL' in festival_rules[stext]:
                             page_id = festival_rules[stext]['URL']
@@ -146,7 +146,7 @@ def compute_calendar(panchangam):
                     event.add('dtend', (datetime(y, m, dt) + timedelta(1)).date())
 
                     if stext in festival_rules:
-                        desc = festival_rules[stext]['Short Description'] + '\n\n' + \
+                        desc = festival_rules[stext]['description_short'] + '\n\n' + \
                             jyotisha.custom_transliteration.tr(festival_rules[stext]['Shloka'], panchangam.script, False) + '\n\n'
                         if 'URL' in festival_rules[stext]:
                             page_id = festival_rules[stext]['URL']
@@ -221,7 +221,7 @@ def compute_calendar(panchangam):
 
                     if stext.find('EkAdazI') == -1 and stext.find('saGkrAntiH') == -1:
                         if stext in festival_rules:
-                            desc = festival_rules[stext]['Short Description'] + '\n\n' + \
+                            desc = festival_rules[stext]['description_short'] + '\n\n' + \
                                 jyotisha.custom_transliteration.tr(festival_rules[stext]['Shloka'], panchangam.script, False) + '\n\n'
                             if 'URL' in festival_rules[stext]:
                                 page_id = festival_rules[stext]['URL']
@@ -235,7 +235,7 @@ def compute_calendar(panchangam):
                         # Handle Sankranti descriptions differently
                         planet_trans = stext.split('~')[0]  # get rid of ~(rAshi name) etc.
                         if planet_trans in festival_rules:
-                            desc = festival_rules[planet_trans]['Short Description'] + '\n\n' + \
+                            desc = festival_rules[planet_trans]['description_short'] + '\n\n' + \
                                 jyotisha.custom_transliteration.tr(festival_rules[planet_trans]['Shloka'], panchangam.script) + '\n\n'
                             if 'URL' in festival_rules[planet_trans]:
                                 page_id = festival_rules[planet_trans]['URL']
@@ -249,7 +249,7 @@ def compute_calendar(panchangam):
                         # Handle ekadashi descriptions differently
                         ekad = '-'.join(stext.split('-')[1:])  # get rid of sarva etc. prefix!
                         if ekad in festival_rules:
-                            desc = festival_rules[ekad]['Short Description'] + '\n\n' + \
+                            desc = festival_rules[ekad]['description_short'] + '\n\n' + \
                                 jyotisha.custom_transliteration.tr(festival_rules[ekad]['Shloka'], panchangam.script) + '\n\n'
                             if 'URL' in festival_rules[ekad]:
                                 page_id = festival_rules[ekad]['URL']

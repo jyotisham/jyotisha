@@ -1005,24 +1005,24 @@ class Panchangam(common.JsonObject):
         festival_rules = json.load(festivals_data, encoding="utf-8")
 
       for festival_name in festival_rules:
-        if 'Month Type' in festival_rules[festival_name]:
-          month_type = festival_rules[festival_name]['Month Type']
+        if 'month_type' in festival_rules[festival_name]:
+          month_type = festival_rules[festival_name]['month_type']
         else:
           # Maybe only description of the festival is given, as computation has been
           # done in computeFestivals(), without using a rule in festival_rules.json!
-          if 'Short Description' in festival_rules[festival_name]:
+          if 'description_short' in festival_rules[festival_name]:
             continue
           raise (ValueError, "No month_type mentioned for %s" % festival_name)
-        if 'Month Number' in festival_rules[festival_name]:
-          month_num = festival_rules[festival_name]['Month Number']
+        if 'month_number' in festival_rules[festival_name]:
+          month_num = festival_rules[festival_name]['month_number']
         else:
           raise (ValueError, "No month_num mentioned for %s" % festival_name)
-        if 'Angam Type' in festival_rules[festival_name]:
-          angam_type = festival_rules[festival_name]['Angam Type']
+        if 'angam_type' in festival_rules[festival_name]:
+          angam_type = festival_rules[festival_name]['angam_type']
         else:
           raise (ValueError, "No angam_type mentioned for %s" % festival_name)
-        if 'Angam Number' in festival_rules[festival_name]:
-          angam_num = festival_rules[festival_name]['Angam Number']
+        if 'angam_number' in festival_rules[festival_name]:
+          angam_num = festival_rules[festival_name]['angam_number']
         else:
           raise (ValueError, "No angam_num mentioned for %s" % festival_name)
         if 'kala' in festival_rules[festival_name]:
@@ -1037,14 +1037,14 @@ class Panchangam(common.JsonObject):
           fest_start_year = festival_rules[festival_name]['Start Year']
         else:
           fest_start_year = None
-        # if 'Other Names' in festival_rules[festival_name]:
-        #     fest_other_names = festival_rules[festival_name]['Other Names']
+        # if 'titles' in festival_rules[festival_name]:
+        #     fest_other_names = festival_rules[festival_name]['titles']
         # if 'Nirnaya' in festival_rules[festival_name]:
         #     fest_nirnaya = festival_rules[festival_name]['Nirnaya']
-        # if 'Primary Reference' in festival_rules[festival_name]:
-        #     fest_ref1 = festival_rules[festival_name]['Primary Reference']
-        # if 'Secondary Reference' in festival_rules[festival_name]:
-        #     fest_ref2 = festival_rules[festival_name]['Secondary Reference']
+        # if 'references_primary' in festival_rules[festival_name]:
+        #     fest_ref1 = festival_rules[festival_name]['references_primary']
+        # if 'references_secondary' in festival_rules[festival_name]:
+        #     fest_ref2 = festival_rules[festival_name]['references_secondary']
         # if 'Comments' in festival_rules[festival_name]:
         #     fest_comments = festival_rules[festival_name]['Comments']
 

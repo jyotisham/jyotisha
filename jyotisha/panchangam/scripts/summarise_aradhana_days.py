@@ -42,12 +42,12 @@ if __name__ == '__main__':
                     num = '-'
                     kali_year = '-'
                     year_name = '-'
-                tithi = NAMES['TITHI_NAMES']['hk'][aradhana_rules[guru]['Angam Number']-1]
+                tithi = NAMES['TITHI_NAMES']['hk'][aradhana_rules[guru]['angam_number']-1]
                 month_name = "UNKNOWN"
-                if aradhana_rules[guru]['Month Type'] == 'lunar_month':
-                    month_name = NAMES['CHANDRA_MASA_NAMES']['hk'][aradhana_rules[guru]['Month Number']-1]
-                elif aradhana_rules[guru]['Month Type'] == 'solar_month':
-                    month_name = NAMES['MASA_NAMES']['hk'][aradhana_rules[guru]['Month Number']-1]
+                if aradhana_rules[guru]['month_type'] == 'lunar_month':
+                    month_name = NAMES['CHANDRA_MASA_NAMES']['hk'][aradhana_rules[guru]['month_number']-1]
+                elif aradhana_rules[guru]['month_type'] == 'solar_month':
+                    month_name = NAMES['MASA_NAMES']['hk'][aradhana_rules[guru]['month_number']-1]
                 f.write('| %s | %s | %s | %s | %s | %s |\n' %
                         (num, sanscript.transliterate(name, sanscript.HK, script).title(),
                          kali_year, sanscript.transliterate(year_name, sanscript.HK, script), sanscript.transliterate(month_name, sanscript.HK, script), tithi.replace('-', ' ')))

@@ -31,20 +31,20 @@ def compute_events(p, json_file):
             event_rules = json.load(event_data)
 
         for event_name in event_rules:
-            if 'Month Type' in event_rules[event_name]:
-                month_type = event_rules[event_name]['Month Type']
+            if 'month_type' in event_rules[event_name]:
+                month_type = event_rules[event_name]['month_type']
             else:
                 raise(ValueError, "No month_type mentioned for %s" % event_name)
-            if 'Month Number' in event_rules[event_name]:
-                month_num = event_rules[event_name]['Month Number']
+            if 'month_number' in event_rules[event_name]:
+                month_num = event_rules[event_name]['month_number']
             else:
                 raise(ValueError, "No month_num mentioned for %s" % event_name)
-            if 'Angam Type' in event_rules[event_name]:
-                angam_type = event_rules[event_name]['Angam Type']
+            if 'angam_type' in event_rules[event_name]:
+                angam_type = event_rules[event_name]['angam_type']
             else:
                 raise(ValueError, "No angam_type mentioned for %s" % event_name)
-            if 'Angam Number' in event_rules[event_name]:
-                angam_num = event_rules[event_name]['Angam Number']
+            if 'angam_number' in event_rules[event_name]:
+                angam_num = event_rules[event_name]['angam_number']
             else:
                 raise(ValueError, "No angam_num mentioned for %s" % event_name)
             if 'kala' in event_rules[event_name]:
