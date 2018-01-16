@@ -1208,7 +1208,7 @@ class Panchangam(common.JsonObject):
 
     for festival_name in relative_festival_rules:
       offset = int(relative_festival_rules[festival_name]['offset'])
-      rel_festival_name = relative_festival_rules[festival_name]['Relative Festival']
+      rel_festival_name = relative_festival_rules[festival_name]['anchor_festival_id']
       self.fest_days[festival_name] = [self.fest_days[rel_festival_name][-1] + offset]
 
     # self.fest_days['ta:kapAlI veLLi bhUta vAhan2am'] = [panguni_uttaram - 6]
