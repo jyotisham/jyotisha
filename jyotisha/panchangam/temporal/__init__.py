@@ -251,8 +251,6 @@ def get_angam(jd, angam_type, ayanamsha_id=swe.SIDM_LAHIRI):
       Args:
         float jd: The Julian Day at which the angam is to be computed
         float arc_len: The arc_len for the corresponding angam
-        w_moon: The multiplier for moon's longitude
-        w_sun: The multiplier for sun's longitude
 
       Returns:
         int angam
@@ -519,8 +517,8 @@ def get_kalas(start_span, end_span, part_start, num_parts):
     """Compute kalas in a given span with specified fractions
 
     Args:
-      float (jd) start_span
-      float (jd) end_span
+      :param start_span float (jd)
+      :param end_span float (jd)
       int part_start
       int num_parts
 
