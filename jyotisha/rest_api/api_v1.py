@@ -47,17 +47,19 @@ def get_body_id(body_name):
 
 
 # noinspection PyUnresolvedReferences
-@api.route('/calendars/coordinates/<string:lattitude>/<string:longitude>/years/<string:year>')
+@api.route('/calendars/coordinates/<string:latitude>/<string:longitude>/years/<string:year>')
+# TODO: How to set default values for latitude and logitude here??
+# Questions at: https://github.com/noirbizarre/flask-restplus/issues/381 and stackoverflow linked therein.
 class DailyCalendarHandler(Resource):
   get_parser = reqparse.RequestParser()
-  get_parser.add_argument('timezone', type=str, help='Example: Asia/Calcutta', location='args', required=True)
-  get_parser.add_argument('encoding', type=str, help='Example: iast, devanagari, kannada, tamil', location='args',
+  get_parser.add_argument('timezone', type=str, default='Asia/Calcutta', help='Example: Asia/Calcutta', location='args', required=True)
+  get_parser.add_argument('encoding', type=str, default='devanagari', help='Example: iast, devanagari, kannada, tamil', location='args',
                           required=True)
 
   @api.expect(get_parser)
-  def get(self, lattitude, longitude, year):
+  def get(self, latitude, longitude, year):
     args = self.get_parser.parse_args()
-    city = City("", lattitude, longitude, args['timezone'])
+    city = City("", latitude, longitude, args['timezone'])
     panchangam = scripts.get_panchangam(city=city, year=int(year), script=args['encoding'])
 
     panchangam.compute_festivals()
