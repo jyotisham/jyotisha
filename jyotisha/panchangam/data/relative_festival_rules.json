@@ -2,431 +2,370 @@
   {
     "id": "ta:bhOgi",
     "anchor_festival_id": "makara-saGkrAntiH/uttarAyaNa-puNyakAlaH",
-    "Tags": "common-festivals",
-    "URL": "bhogi",
+    "tags": "common-festivals",
     "offset": -1
   },
   {
     "id": "gAyatrI-japaH",
     "anchor_festival_id": "yajurvEda-upAkarma",
     "description_short": "Perform 1008 Gayatri Japa.",
-    "Tags": "common-festivals",
-    "URL": "gayatri-japa",
+    "tags": "common-festivals",
     "offset": 1
   },
   {
     "id": "hOli",
     "anchor_festival_id": "hOlikA-pUrNimA",
     "description_short": "Festival of colours is celebrated today.",
-    "Tags": "common-festivals",
-    "URL": "holi",
+    "tags": "common-festivals",
     "offset": 1
   },
   {
     "id": "indra-pUjA/gO-pUjA",
     "anchor_festival_id": "makara-saGkrAntiH/uttarAyaNa-puNyakAlaH",
-    "Tags": "special-pujas",
-    "URL": "indra-puja-go-puja",
+    "tags": "special-pujas",
     "offset": 1
   },
   {
     "id": "mahAlaya-pakSa-samApanam",
     "anchor_festival_id": "(bhAdrapada) mahAlaya amAvasyA",
-    "Tags": "special-period-end,common-festivals",
-    "URL": "mahalaya-paksha-samapanam",
+    "tags": "special-period-end,common-festivals",
     "offset": 0
   },
   {
     "id": "nandOtsavaH",
     "anchor_festival_id": "zrIkRSNajanmASTamI",
-    "Tags": "north-india-temple-festivals",
-    "URL": "nandotsava",
+    "tags": "north-india-temple-festivals",
     "offset": 1
   },
   {
     "id": "navama-aparapakSa-samApanam",
     "anchor_festival_id": "kArtika-amAvasyA",
-    "Tags": "special-period-end",
-    "URL": "navama-aparapaksha",
+    "tags": "special-period-end",
     "offset": 0
   },
   {
     "id": "saptama-aparapakSa-samApanam",
     "anchor_festival_id": "Azvayuja-amAvasyA",
-    "Tags": "special-period-end",
-    "URL": "saptama-aparapaksha",
+    "tags": "special-period-end",
     "offset": 0
   },
   {
     "id": "ta:cidambaram bhikSATan2ar taGga ratham",
     "anchor_festival_id": "ta:naTarAjar An2i tirumaJcan2am",
-    "Tags": "tamilnadu-temple-festivals",
-    "URL": "chidambaram-bhikshatanar-tanga-ratham",
+    "tags": "tamilnadu-temple-festivals",
     "offset": -2
   },
   {
     "id": "ta:cidambaram dvajArOhaNam/paJcamUrtti bhavan2i",
     "anchor_festival_id": "ta:naTarAjar An2i tirumaJcan2am",
-    "Tags": "tamilnadu-temple-festivals",
-    "URL": "chidambaram-dvajarohanam-panchamurtti-bhavani",
+    "tags": "tamilnadu-temple-festivals",
     "offset": -9
   },
   {
     "id": "ta:cidambaram kailAca vAhan2am",
     "anchor_festival_id": "ta:naTarAjar An2i tirumaJcan2am",
-    "Tags": "tamilnadu-temple-festivals",
-    "URL": "chidambaram-kailasa-vahanam",
+    "tags": "tamilnadu-temple-festivals",
     "offset": -3
   },
   {
     "id": "ta:cidambaram muttuppallakku",
     "anchor_festival_id": "ta:naTarAjar An2i tirumaJcan2am",
-    "Tags": "tamilnadu-temple-festivals",
-    "URL": "chidambaram-muttuppallakku",
+    "tags": "tamilnadu-temple-festivals",
     "offset": 1
   },
   {
     "id": "ta:cidambaram tEr",
     "anchor_festival_id": "ta:naTarAjar An2i tirumaJcan2am",
-    "Tags": "tamilnadu-temple-festivals",
-    "URL": "chidambaram-ter",
+    "tags": "tamilnadu-temple-festivals",
     "offset": -1
   },
   {
     "id": "ta:cidambaram taGga sUryaprabha vAhan2am",
     "anchor_festival_id": "ta:naTarAjar An2i tirumaJcan2am",
-    "Tags": "tamilnadu-temple-festivals",
-    "URL": "chidambaram-tanga-suryaprabha-vahanam",
+    "tags": "tamilnadu-temple-festivals",
     "offset": -7
   },
   {
     "id": "ta:cidambaram veLLi bhUta vAhan2am",
     "anchor_festival_id": "ta:naTarAjar An2i tirumaJcan2am",
-    "Tags": "tamilnadu-temple-festivals",
-    "URL": "chidambaram-velli-bhuta-vahanam",
+    "tags": "tamilnadu-temple-festivals",
     "offset": -6
   },
   {
     "id": "ta:cidambaram veLLi candraprabha vAhan2am",
     "anchor_festival_id": "ta:naTarAjar An2i tirumaJcan2am",
-    "Tags": "tamilnadu-temple-festivals",
-    "URL": "chidambaram-velli-chandraprabha-vahanam",
+    "tags": "tamilnadu-temple-festivals",
     "offset": -8
   },
   {
     "id": "ta:cidambaram veLLi riSabha vAhan2am",
     "anchor_festival_id": "ta:naTarAjar An2i tirumaJcan2am",
-    "Tags": "tamilnadu-temple-festivals",
-    "URL": "chidambaram-velli-rishabha-vahanam",
+    "tags": "tamilnadu-temple-festivals",
     "offset": -5
   },
   {
     "id": "ta:cidambaram veLLi yAn2ai vAhan2am",
     "anchor_festival_id": "ta:naTarAjar An2i tirumaJcan2am",
-    "Tags": "tamilnadu-temple-festivals",
-    "URL": "chidambaram-velli-yanai-vahanam",
+    "tags": "tamilnadu-temple-festivals",
     "offset": -4
   },
   {
     "id": "ta:kan2up~poGgal",
     "anchor_festival_id": "makara-saGkrAntiH/uttarAyaNa-puNyakAlaH",
-    "Tags": "common-festivals",
-    "URL": "kanup-pongal",
+    "tags": "common-festivals",
     "offset": 1
   },
   {
     "id": "ta:kapAlI adhikAra nandi",
     "anchor_festival_id": "ta:paGgun2i~uttiram",
-    "Tags": "tamilnadu-temple-festivals",
-    "URL": "kapali-adhikara-nandi",
+    "tags": "tamilnadu-temple-festivals",
     "offset": -7
   },
   {
     "id": "ta:kapAlI ar2upattu mUvar",
     "anchor_festival_id": "ta:paGgun2i~uttiram",
-    "Tags": "tamilnadu-temple-festivals",
-    "URL": "kapali-arupattu-muvar",
+    "tags": "tamilnadu-temple-festivals",
     "offset": -2
   },
   {
     "id": "ta:kapAlI bhUtaN bhUtakI",
     "anchor_festival_id": "ta:paGgun2i~uttiram",
-    "Tags": "tamilnadu-temple-festivals",
-    "URL": "kapali-bhutan-bhutaki",
+    "tags": "tamilnadu-temple-festivals",
     "offset": -7
   },
   {
     "id": "ta:kapAlI cavuDal vimAn2am",
     "anchor_festival_id": "ta:paGgun2i~uttiram",
-    "Tags": "tamilnadu-temple-festivals",
-    "URL": "kapali-chavudal-vimanam",
+    "tags": "tamilnadu-temple-festivals",
     "offset": -5
   },
   {
     "id": "ta:kapAlI dvajArOhaNam",
     "anchor_festival_id": "ta:paGgun2i~uttiram",
-    "Tags": "tamilnadu-temple-festivals",
-    "URL": "kapali-dvajarohanam",
+    "tags": "tamilnadu-temple-festivals",
     "offset": -9
   },
   {
     "id": "ta:kapAlI pallakku vizhA",
     "anchor_festival_id": "ta:paGgun2i~uttiram",
-    "Tags": "tamilnadu-temple-festivals",
-    "URL": "kapali-pallakku-vizha",
+    "tags": "tamilnadu-temple-festivals",
     "offset": -4
   },
   {
     "id": "ta:kapAlI riSabha vAhan2am",
     "anchor_festival_id": "ta:paGgun2i~uttiram",
-    "Tags": "tamilnadu-temple-festivals",
-    "URL": "kapali-rishabha-vahanam",
+    "tags": "tamilnadu-temple-festivals",
     "offset": -5
   },
   {
     "id": "ta:kapAlI sUrya~candra~vaTTam",
     "anchor_festival_id": "ta:paGgun2i~uttiram",
-    "Tags": "tamilnadu-temple-festivals",
-    "URL": "kapali-surya-chandra-vattam",
+    "tags": "tamilnadu-temple-festivals",
     "offset": -8
   },
   {
     "id": "ta:kapAlI tEr",
     "anchor_festival_id": "ta:paGgun2i~uttiram",
-    "Tags": "tamilnadu-temple-festivals",
-    "URL": "kapali-ter",
+    "tags": "tamilnadu-temple-festivals",
     "offset": -3
   },
   {
     "id": "ta:kapAlI teppOtsavam~1",
     "anchor_festival_id": "ta:taippUcam",
-    "Tags": "tamilnadu-temple-festivals",
-    "URL": "kapali-teppotsavam",
+    "tags": "tamilnadu-temple-festivals",
     "offset": -1
   },
   {
     "id": "ta:kapAlI teppOtsavam~2",
     "anchor_festival_id": "ta:taippUcam",
-    "Tags": "tamilnadu-temple-festivals",
-    "URL": "kapali-teppotsavam",
+    "tags": "tamilnadu-temple-festivals",
     "offset": 0
   },
   {
     "id": "ta:kapAlI teppOtsavam~3",
     "anchor_festival_id": "ta:taippUcam",
-    "Tags": "tamilnadu-temple-festivals",
-    "URL": "kapali-teppotsavam",
+    "tags": "tamilnadu-temple-festivals",
     "offset": 1
   },
   {
     "id": "ta:kapAlI umA-mahEzvara darican2am",
     "anchor_festival_id": "ta:paGgun2i~uttiram",
-    "Tags": "tamilnadu-temple-festivals",
-    "URL": "kapali-uma-maheshvara-darisanam",
+    "tags": "tamilnadu-temple-festivals",
     "offset": 1
   },
   {
     "id": "ta:kapAlI viDaiyAr2r2i nir2aivu",
     "anchor_festival_id": "ta:paGgun2i~uttiram",
-    "Tags": "tamilnadu-temple-festivals",
-    "URL": "kapali-vidaiyarri-niraivu",
+    "tags": "tamilnadu-temple-festivals",
     "offset": 11
   },
   {
     "id": "ta:kapAlI viDaiyAr2r2i toDakkam",
     "anchor_festival_id": "ta:paGgun2i~uttiram",
-    "Tags": "tamilnadu-temple-festivals",
-    "URL": "kapali-vidaiyarri-todakkam",
+    "tags": "tamilnadu-temple-festivals",
     "offset": 1
   },
   {
     "id": "ta:madhurai mIn2AkSI kOyilil kal yAn2aikku karumbu kODutta lIlai",
     "anchor_festival_id": "makara-saGkrAntiH/uttarAyaNa-puNyakAlaH",
-    "Tags": "tamilnadu-temple-festivals",
-    "URL": "madurai-minakshi-temple-festivals",
+    "tags": "tamilnadu-temple-festivals",
     "offset": 0
   },
   {
     "id": "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##10##m nAL\u2014tEr",
     "anchor_festival_id": "ta:tiruccendUr AvaNit tiruvizhA nir2aivu",
-    "Tags": "tamilnadu-temple-festivals",
-    "URL": "tiruchendur-avani-tiruvizha",
+    "tags": "tamilnadu-temple-festivals",
     "offset": -2
   },
   {
     "id": "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##11##m nAL",
     "anchor_festival_id": "ta:tiruccendUr AvaNit tiruvizhA nir2aivu",
-    "Tags": "tamilnadu-temple-festivals",
-    "URL": "tiruchendur-avani-tiruvizha",
+    "tags": "tamilnadu-temple-festivals",
     "offset": -1
   },
   {
     "id": "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##2##m nAL",
     "anchor_festival_id": "ta:tiruccendUr AvaNit tiruvizhA nir2aivu",
-    "Tags": "tamilnadu-temple-festivals",
-    "URL": "tiruchendur-avani-tiruvizha",
+    "tags": "tamilnadu-temple-festivals",
     "offset": -10
   },
   {
     "id": "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##3##m nAL\u2014murugan2 bhavan2i",
     "anchor_festival_id": "ta:tiruccendUr AvaNit tiruvizhA nir2aivu",
-    "Tags": "tamilnadu-temple-festivals",
-    "URL": "tiruchendur-avani-tiruvizha",
+    "tags": "tamilnadu-temple-festivals",
     "offset": -9
   },
   {
     "id": "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##4##m nAL\u2014yAn2ai vAhanattil murugan2-ambAL bhavan2i",
     "anchor_festival_id": "ta:tiruccendUr AvaNit tiruvizhA nir2aivu",
-    "Tags": "tamilnadu-temple-festivals",
-    "URL": "tiruchendur-avani-tiruvizha",
+    "tags": "tamilnadu-temple-festivals",
     "offset": -8
   },
   {
     "id": "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##5##m nAL",
     "anchor_festival_id": "ta:tiruccendUr AvaNit tiruvizhA nir2aivu",
-    "Tags": "tamilnadu-temple-festivals",
-    "URL": "tiruchendur-avani-tiruvizha",
+    "tags": "tamilnadu-temple-festivals",
     "offset": -7
   },
   {
     "id": "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##6##m nAL\u2014veLLit tEr bhavan2i",
     "anchor_festival_id": "ta:tiruccendUr AvaNit tiruvizhA nir2aivu",
-    "Tags": "tamilnadu-temple-festivals",
-    "URL": "tiruchendur-avani-tiruvizha",
+    "tags": "tamilnadu-temple-festivals",
     "offset": -6
   },
   {
     "id": "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##7##m nAL\u2014cigappu cAtti alaGkAram",
     "anchor_festival_id": "ta:tiruccendUr AvaNit tiruvizhA nir2aivu",
-    "Tags": "tamilnadu-temple-festivals",
-    "URL": "tiruchendur-avani-tiruvizha",
+    "tags": "tamilnadu-temple-festivals",
     "offset": -5
   },
   {
     "id": "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##8##m nAL\u2014paccai cAtti alaGkAram",
     "anchor_festival_id": "ta:tiruccendUr AvaNit tiruvizhA nir2aivu",
-    "Tags": "tamilnadu-temple-festivals",
-    "URL": "tiruchendur-avani-tiruvizha",
+    "tags": "tamilnadu-temple-festivals",
     "offset": -4
   },
   {
     "id": "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##9##m nAL",
     "anchor_festival_id": "ta:tiruccendUr AvaNit tiruvizhA nir2aivu",
-    "Tags": "tamilnadu-temple-festivals",
-    "URL": "tiruchendur-avani-tiruvizha",
+    "tags": "tamilnadu-temple-festivals",
     "offset": -3
   },
   {
     "id": "ta:tiruccendUr murugan2 AvaNit tiruvizhA toDakkam/koDiyEr2r2am",
     "anchor_festival_id": "ta:tiruccendUr AvaNit tiruvizhA nir2aivu",
-    "Tags": "tamilnadu-temple-festivals",
-    "URL": "tiruchendur-avani-tiruvizha",
+    "tags": "tamilnadu-temple-festivals",
     "offset": -11
   },
   {
     "id": "ta:tiruccendUr murugan2 mAcit tiruvizhA ##10##m nAL\u2014tEr",
     "anchor_festival_id": "ta:tiruccendUr mAcit tiruvizhA nir2aivu",
-    "Tags": "tamilnadu-temple-festivals",
-    "URL": "tiruchendur-masi-tiruvizha",
+    "tags": "tamilnadu-temple-festivals",
     "offset": -2
   },
   {
     "id": "ta:tiruccendUr murugan2 mAcit tiruvizhA ##2##m nAL",
     "anchor_festival_id": "ta:tiruccendUr mAcit tiruvizhA nir2aivu",
-    "Tags": "tamilnadu-temple-festivals",
-    "URL": "tiruchendur-masi-tiruvizha",
+    "tags": "tamilnadu-temple-festivals",
     "offset": -10
   },
   {
     "id": "ta:tiruccendUr murugan2 mAcit tiruvizhA ##3##m nAL\u2014murugan2 bhavan2i",
     "anchor_festival_id": "ta:tiruccendUr mAcit tiruvizhA nir2aivu",
-    "Tags": "tamilnadu-temple-festivals",
-    "URL": "tiruchendur-masi-tiruvizha",
+    "tags": "tamilnadu-temple-festivals",
     "offset": -9
   },
   {
     "id": "ta:tiruccendUr murugan2 mAcit tiruvizhA ##4##m nAL",
     "anchor_festival_id": "ta:tiruccendUr mAcit tiruvizhA nir2aivu",
-    "Tags": "tamilnadu-temple-festivals",
-    "URL": "tiruchendur-masi-tiruvizha",
+    "tags": "tamilnadu-temple-festivals",
     "offset": -8
   },
   {
     "id": "ta:tiruccendUr murugan2 mAcit tiruvizhA ##5##m nAL",
     "anchor_festival_id": "ta:tiruccendUr mAcit tiruvizhA nir2aivu",
-    "Tags": "tamilnadu-temple-festivals",
-    "URL": "tiruchendur-masi-tiruvizha",
+    "tags": "tamilnadu-temple-festivals",
     "offset": -7
   },
   {
     "id": "ta:tiruccendUr murugan2 mAcit tiruvizhA ##6##m nAL\u2014veLLit tEr bhavan2i",
     "anchor_festival_id": "ta:tiruccendUr mAcit tiruvizhA nir2aivu",
-    "Tags": "tamilnadu-temple-festivals",
-    "URL": "tiruchendur-masi-tiruvizha",
+    "tags": "tamilnadu-temple-festivals",
     "offset": -6
   },
   {
     "id": "ta:tiruccendUr murugan2 mAcit tiruvizhA ##7##m nAL\u2014urugu cattac cEvai/cigappu cAtti alaGkAram",
     "anchor_festival_id": "ta:tiruccendUr mAcit tiruvizhA nir2aivu",
-    "Tags": "tamilnadu-temple-festivals",
-    "URL": "tiruchendur-masi-tiruvizha",
+    "tags": "tamilnadu-temple-festivals",
     "offset": -5
   },
   {
     "id": "ta:tiruccendUr murugan2 mAcit tiruvizhA ##8##m nAL\u2014paccai cAtti alaGkAram",
     "anchor_festival_id": "ta:tiruccendUr mAcit tiruvizhA nir2aivu",
-    "Tags": "tamilnadu-temple-festivals",
-    "URL": "tiruchendur-masi-tiruvizha",
+    "tags": "tamilnadu-temple-festivals",
     "offset": -4
   },
   {
     "id": "ta:tiruccendUr murugan2 mAcit tiruvizhA ##9##m nAL\u2014taGga kailAca vAhan2am",
     "anchor_festival_id": "ta:tiruccendUr mAcit tiruvizhA nir2aivu",
-    "Tags": "tamilnadu-temple-festivals",
-    "URL": "tiruchendur-masi-tiruvizha",
+    "tags": "tamilnadu-temple-festivals",
     "offset": -3
   },
   {
     "id": "ta:tiruccendUr murugan2 mAcit tiruvizhA toDakkam",
     "anchor_festival_id": "ta:tiruccendUr mAcit tiruvizhA nir2aivu",
-    "Tags": "tamilnadu-temple-festivals",
-    "URL": "tiruchendur-masi-tiruvizha",
+    "tags": "tamilnadu-temple-festivals",
     "offset": -11
   },
   {
     "id": "ta:tiruccendUr murugan2 teppam",
     "anchor_festival_id": "ta:tiruccendUr mAcit tiruvizhA nir2aivu",
-    "Tags": "tamilnadu-temple-festivals",
-    "URL": "tiruchendur-murugan-teppam",
+    "tags": "tamilnadu-temple-festivals",
     "offset": -1
   },
   {
     "id": "ta:varagUr ur2iyaDi utsavam",
     "anchor_festival_id": "zrIkRSNajanmASTamI",
-    "Tags": "tamilnadu-temple-festivals",
-    "URL": "varagur-uriyadi-utsavam",
+    "tags": "tamilnadu-temple-festivals",
     "offset": 1
   },
   {
     "id": "tiruvizalUr gaGgAkarSaNa-mahOtsava-ArambhaH",
     "anchor_festival_id": "tiruvizalUr gaGgAkarSaNa-mahOtsava-samApanam",
     "description_short": "Beginning of Gangakarshana Mahotsava in Thiruvisanallur. See also http://www.sriayyaval.org/ .  ",
-    "Tags": "mahapurusha-events,tamilnadu-temple-festivals",
-    "URL": "gangakarshana-mahotsava",
+    "tags": "mahapurusha-events,tamilnadu-temple-festivals",
     "offset": -9
   },
   {
     "id": "vEGkaTAcalE jyESTha-abhidyEyakAbhiSEkaH (mutyala-kavacam)",
     "anchor_festival_id": "vEGkaTAcalE jyESTha-abhidyEyakAbhiSEkaH (svarNa-kavacam)",
-    "Tags": "andhra-temple-festivals",
-    "URL": "jyeshthabhishekam",
+    "tags": "andhra-temple-festivals",
     "offset": -1
   },
   {
     "id": "vEGkaTAcalE jyESTha-abhidyEyakAbhiSEkaH (vajra-kavacam)",
     "anchor_festival_id": "vEGkaTAcalE jyESTha-abhidyEyakAbhiSEkaH (svarNa-kavacam)",
-    "Tags": "andhra-temple-festivals",
-    "URL": "jyeshthabhishekam",
+    "tags": "andhra-temple-festivals",
     "offset": -2
   }
 ]

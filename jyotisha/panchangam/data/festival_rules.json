@@ -5,7 +5,7 @@
     "month_number": 1,
     "angam_type": "tithi",
     "angam_number": 1,
-    "Tags": "common-festivals,navaratri,special-period-start",
+    "tags": "common-festivals,navaratri,special-period-start",
     "URL": "vasantanavaratri-arambha"
   },
   {
@@ -14,7 +14,7 @@
     "month_number": 1,
     "angam_type": "tithi",
     "angam_number": 1,
-    "Tags": "yugadi,common-festivals",
+    "tags": "yugadi,common-festivals",
     "URL": "yugadi"
   },
   {
@@ -23,7 +23,7 @@
     "month_number": 1,
     "angam_type": "tithi",
     "angam_number": 2,
-    "Tags": "special-vratams,vratam-start,special-period-start",
+    "tags": "special-vratams,vratam-start,special-period-start",
     "URL": "arundhati-vrata-arambha"
   },
   {
@@ -32,8 +32,7 @@
     "month_number": 1,
     "angam_type": "tithi",
     "angam_number": 3,
-    "Tags": "common-festivals,devi-pujas",
-    "URL": "gauri-tritiya",
+    "tags": "common-festivals,devi-pujas",
     "references_secondary": "Kielhorn (1897)"
   },
   {
@@ -44,8 +43,7 @@
     "angam_number": 3,
     "kala": "aparahna",
     "priority": "purvaviddha",
-    "Tags": "dashavataram",
-    "URL": "matsya-jayanti",
+    "tags": "dashavataram",
     "references_secondary": "Kielhorn (1897)"
   },
   {
@@ -54,7 +52,7 @@
     "month_number": 1,
     "angam_type": "tithi",
     "angam_number": 3,
-    "Tags": "manvadi-days",
+    "tags": "manvadi-days",
     "URL": "manvadi-uttama"
   },
   {
@@ -63,7 +61,7 @@
     "month_number": 1,
     "angam_type": "tithi",
     "angam_number": 5,
-    "Tags": "special-vratams,vratam-start,special-period-start",
+    "tags": "special-vratams,vratam-start,special-period-start",
     "URL": "shalihotra-vrata-arambha"
   },
   {
@@ -72,7 +70,7 @@
     "month_number": 1,
     "angam_type": "tithi",
     "angam_number": 6,
-    "Tags": "common-festivals",
+    "tags": "common-festivals",
     "URL": "yamuna-jayanti"
   },
   {
@@ -81,8 +79,7 @@
     "month_number": 1,
     "angam_type": "tithi",
     "angam_number": 8,
-    "Tags": "common-festivals",
-    "URL": "bhavanyutpatti",
+    "tags": "common-festivals",
     "references_secondary": "Kielhorn (1897)"
   },
   {
@@ -93,7 +90,7 @@
     "angam_number": 9,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "dashavataram,common-festivals",
+    "tags": "dashavataram,common-festivals",
     "URL": "shriramanavami"
   },
   {
@@ -102,7 +99,7 @@
     "month_number": 1,
     "angam_type": "tithi",
     "angam_number": 9,
-    "Tags": "common-festivals,navaratri,special-period-end",
+    "tags": "common-festivals,navaratri,special-period-end",
     "URL": "vasantanavaratri-samapanam"
   },
   {
@@ -111,7 +108,7 @@
     "month_number": 1,
     "angam_type": "tithi",
     "angam_number": 10,
-    "Tags": "less-common-festivals",
+    "tags": "less-common-festivals",
     "URL": "yamadharmaraja-puja"
   },
   {
@@ -120,8 +117,7 @@
     "month_number": 1,
     "angam_type": "tithi",
     "angam_number": 11,
-    "Tags": "purana-events,less-common-festivals",
-    "URL": "samudra-manthanam",
+    "tags": "purana-events,less-common-festivals",
     "description_short": "Jyeshtha Devi (Kali wife), Varuni (Sesha wife), Sauparni (Garuda wife), Apsaras, Gandharvas, Airavata, Ucchaisrava, Dhanvantari, Parijatam, Kamadhenu born from Milk ocean"
   },
   {
@@ -130,7 +126,7 @@
     "month_number": 1,
     "angam_type": "tithi",
     "angam_number": 12,
-    "Tags": "less-common-festivals,purana-events",
+    "tags": "less-common-festivals,purana-events",
     "URL": "tulasi-jananam-kshirasagarata"
   },
   {
@@ -139,7 +135,7 @@
     "month_number": 1,
     "angam_type": "tithi",
     "angam_number": 12,
-    "Tags": "special-vratams,vratam-start,special-period-start",
+    "tags": "special-vratams,vratam-start,special-period-start",
     "URL": "bhratriprapti-vrata-arambha"
   },
   {
@@ -148,8 +144,7 @@
     "month_number": 1,
     "angam_type": "tithi",
     "angam_number": 12,
-    "Tags": "odisha-temple-festivals",
-    "URL": "damanaka-chori-utsava",
+    "tags": "odisha-temple-festivals",
     "description_short": "Celebrating the stealing of Damanaka leaves by Jagannath Prabhu from Indra's garden. Involves planting Damanaka trees."
   },
   {
@@ -158,8 +153,7 @@
     "month_number": 1,
     "angam_type": "tithi",
     "angam_number": 13,
-    "Tags": "odisha-temple-festivals",
-    "URL": "damanaka-chori-utsava",
+    "tags": "odisha-temple-festivals",
     "description_short": "Celebrating the stealing of Damanaka leaves by Jagannath Prabhu from Indra's garden."
   },
   {
@@ -168,8 +162,7 @@
     "month_number": 1,
     "angam_type": "tithi",
     "angam_number": 14,
-    "Tags": "odisha-temple-festivals",
-    "URL": "damanaka-chori-utsava",
+    "tags": "odisha-temple-festivals",
     "description_short": "Celebrating the stealing of Damanaka leaves by Jagannath Prabhu from Indra's garden."
   },
   {
@@ -178,7 +171,7 @@
     "month_number": 1,
     "angam_type": "tithi",
     "angam_number": 13,
-    "Tags": "less-common-festivals",
+    "tags": "less-common-festivals",
     "URL": "madana-trayodashi"
   },
   {
@@ -187,7 +180,7 @@
     "month_number": 1,
     "angam_type": "tithi",
     "angam_number": 14,
-    "Tags": "less-common-festivals",
+    "tags": "less-common-festivals",
     "URL": "madana-chaturdashi"
   },
   {
@@ -196,7 +189,7 @@
     "month_number": 1,
     "angam_type": "tithi",
     "angam_number": 15,
-    "Tags": "purana-events,common-festivals",
+    "tags": "purana-events,common-festivals",
     "URL": "gajendra-moksha"
   },
   {
@@ -205,8 +198,7 @@
     "month_number": 1,
     "angam_type": "tithi",
     "angam_number": 15,
-    "Tags": "less-common-festivals",
-    "URL": "shri-hanumat-jayanti~2",
+    "tags": "less-common-festivals",
     "description_short": "Hanuman born from Kaikeyi part of Payasam taken by Vulture and eaten by Anjana Devi"
   },
   {
@@ -215,8 +207,7 @@
     "month_number": 1,
     "angam_type": "tithi",
     "angam_number": 15,
-    "Tags": "purnima-days,common-festivals",
-    "URL": "chaitra-purnima",
+    "tags": "purnima-days,common-festivals",
     "description_short": "Daanam of Varaha Puran"
   },
   {
@@ -225,8 +216,7 @@
     "month_number": 1,
     "angam_type": "tithi",
     "angam_number": 15,
-    "Tags": "purnima-days,common-festivals",
-    "URL": "chitra-purnima",
+    "tags": "purnima-days,common-festivals",
     "Shloka": "citraguptaM mahAprAjJyaM lEkhanIpatradhAriNam .\ncitraratnAmbaradharaM madhyasthaM sarvadEhinAm .."
   },
   {
@@ -235,7 +225,7 @@
     "month_number": 1,
     "angam_type": "tithi",
     "angam_number": 15,
-    "Tags": "common-festivals,special-vratams",
+    "tags": "common-festivals,special-vratams",
     "URL": "chitragupta-vratam"
   },
   {
@@ -244,7 +234,7 @@
     "month_number": 1,
     "angam_type": "tithi",
     "angam_number": 15,
-    "Tags": "manvadi-days",
+    "tags": "manvadi-days",
     "URL": "manvadi-rauchya"
   },
   {
@@ -253,7 +243,7 @@
     "month_number": 1,
     "angam_type": "tithi",
     "angam_number": 15,
-    "Tags": "manvadi-days",
+    "tags": "manvadi-days",
     "URL": "manvadi-svarochisha"
   },
   {
@@ -263,7 +253,7 @@
     "angam_type": "tithi",
     "angam_number": 26,
     "Start Year": 4580,
-    "Tags": "mahapurusha-events",
+    "tags": "mahapurusha-events",
     "URL": "vallabhacharya-jayanti"
   },
   {
@@ -272,7 +262,7 @@
     "month_number": 1,
     "angam_type": "tithi",
     "angam_number": 29,
-    "Tags": "less-common-festivals",
+    "tags": "less-common-festivals",
     "URL": "ganga-snanam"
   },
   {
@@ -281,7 +271,7 @@
     "month_number": 1,
     "angam_type": "tithi",
     "angam_number": 30,
-    "Tags": "special-vratams",
+    "tags": "special-vratams",
     "URL": "vahni-vratam"
   },
   {
@@ -290,7 +280,7 @@
     "month_number": 1,
     "angam_type": "tithi",
     "angam_number": 30,
-    "Tags": "less-common-festivals",
+    "tags": "less-common-festivals",
     "URL": "bhargava-rama-puja"
   },
   {
@@ -301,8 +291,7 @@
     "angam_number": 3,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "common-festivals",
-    "URL": "akshaya-tritiya",
+    "tags": "common-festivals",
     "description_short": "Daanam of Dadhyodanam, Vyanjanam, Chatram, Paduka, Udaka Kumbham, Mangos, Jackfruit; Lakshmi Narayana Pooja; Gouri Pooja;",
     "references_secondary": "Kielhorn (1897)"
   },
@@ -312,8 +301,7 @@
     "month_number": 2,
     "angam_type": "tithi",
     "angam_number": 3,
-    "Tags": "dashamahavidya,less-common-festivals",
-    "URL": "raja-matangi-jayanti",
+    "tags": "dashamahavidya,less-common-festivals",
     "description_short": "Goddess Raja Matangi is 9th of the Dasha Maha Vidyas.",
     "references_secondary": "Kielhorn (1897)"
   },
@@ -323,7 +311,7 @@
     "month_number": 2,
     "angam_type": "tithi",
     "angam_number": 3,
-    "Tags": "dashavataram,less-common-festivals",
+    "tags": "dashavataram,less-common-festivals",
     "URL": "balarama-jayanti"
   },
   {
@@ -334,8 +322,7 @@
     "angam_number": 3,
     "kala": "sangava",
     "priority": "purvaviddha",
-    "Tags": "yugadi-days",
-    "URL": "tretayugadi",
+    "tags": "yugadi-days",
     "description_short": "Perform Samudra Snanam and Shraddha"
   },
   {
@@ -346,7 +333,7 @@
     "angam_number": 3,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "dashavataram",
+    "tags": "dashavataram",
     "URL": "parashurama-jayanti"
   },
   {
@@ -355,7 +342,7 @@
     "month_number": 2,
     "angam_type": "tithi",
     "angam_number": 4,
-    "Tags": "special-vratams",
+    "tags": "special-vratams",
     "URL": "varta-gauri-vratam"
   },
   {
@@ -365,8 +352,7 @@
     "angam_type": "tithi",
     "angam_number": 5,
     "Start Year": 2593,
-    "Tags": "common-festivals,adi-shankara-history",
-    "URL": "shankara-jayanti",
+    "tags": "common-festivals,adi-shankara-history",
     "description_short": "Nandana year"
   },
   {
@@ -375,8 +361,7 @@
     "month_number": 2,
     "angam_type": "tithi",
     "angam_number": 5,
-    "Tags": "special-pujas,purana-events",
-    "URL": "sarpa-puja",
+    "tags": "special-pujas,purana-events",
     "description_short": "Vishnu's boon to AdiSesha that humans will worship on this day"
   },
   {
@@ -386,7 +371,7 @@
     "angam_type": "tithi",
     "angam_number": 5,
     "Start Year": 4579,
-    "Tags": "mahapurusha-events",
+    "tags": "mahapurusha-events",
     "URL": "suradasa-jayanti"
   },
   {
@@ -396,7 +381,7 @@
     "angam_type": "tithi",
     "angam_number": 6,
     "Start Year": 4118,
-    "Tags": "mahapurusha-events",
+    "tags": "mahapurusha-events",
     "URL": "ramanuja-jayanti"
   },
   {
@@ -405,8 +390,7 @@
     "month_number": 2,
     "angam_type": "tithi",
     "angam_number": 7,
-    "Tags": "purana-events,special-pujas",
-    "URL": "ganga-saptami",
+    "tags": "purana-events,special-pujas",
     "description_short": "Ganga came out of Jahnu Maharshi and became Jahnavi; perform Parjanya Pooja"
   },
   {
@@ -415,8 +399,7 @@
     "month_number": 2,
     "angam_type": "tithi",
     "angam_number": 7,
-    "Tags": "special-pujas",
-    "URL": "sharkara-saptami",
+    "tags": "special-pujas",
     "description_short": "Worship Surya Bhagavan in a vessel (`kumbha`) filled with sugar, followed by `dAnam` of the same.",
     "Shloka": "zarkarAsaptamI caiva vAjimEdhaphalapradA.\nsarvaduHkhaprazamanI sarvasampatpradAyinI..",
     "references_secondary": "Vaidikasri May 2016",
@@ -430,8 +413,7 @@
     "angam_number": 9,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "common-festivals",
-    "URL": "sitanavami",
+    "tags": "common-festivals",
     "references_secondary": "Kielhorn (1897)"
   },
   {
@@ -440,7 +422,7 @@
     "month_number": 2,
     "angam_type": "tithi",
     "angam_number": 9,
-    "Tags": "andhra-temple-festivals",
+    "tags": "andhra-temple-festivals",
     "URL": "simhachalam-chandana-mahotsava"
   },
   {
@@ -450,8 +432,7 @@
     "angam_type": "tithi",
     "angam_number": 9,
     "Start Year": 2617,
-    "Tags": "adi-shankara-history",
-    "URL": "puryam-govardhana-matha-pratishthapana-jayanti",
+    "tags": "adi-shankara-history",
     "description_short": "Adi Shankara founded Govardhan mutt, Puri in Nala year Padmapadacharya as first"
   },
   {
@@ -462,8 +443,7 @@
     "angam_number": 14,
     "kala": "sunset",
     "priority": "purvaviddha",
-    "Tags": "dashavataram,common-festivals",
-    "URL": "nrisimha-jayanti",
+    "tags": "dashavataram,common-festivals",
     "description_short": "Monday Swati?"
   },
   {
@@ -472,7 +452,7 @@
     "month_number": 2,
     "angam_type": "tithi",
     "angam_number": 12,
-    "Tags": "sringeri-festivals",
+    "tags": "sringeri-festivals",
     "URL": "girija-kalyanam"
   },
   {
@@ -481,7 +461,7 @@
     "month_number": 2,
     "angam_type": "tithi",
     "angam_number": 12,
-    "Tags": "special-vratams",
+    "tags": "special-vratams",
     "URL": "prashurama-dvadashi"
   },
   {
@@ -490,7 +470,7 @@
     "month_number": 2,
     "angam_type": "tithi",
     "angam_number": 12,
-    "Tags": "other-jayantis",
+    "tags": "other-jayantis",
     "URL": "rukmini-dvadashi"
   },
   {
@@ -501,8 +481,7 @@
     "angam_number": 15,
     "kala": "sayahna",
     "priority": "purvaviddha",
-    "Tags": "dashavataram,less-common-festivals",
-    "URL": "kurma-jayanti",
+    "tags": "dashavataram,less-common-festivals",
     "description_short": "Danam of Brahma puranam",
     "references_secondary": "Kielhorn (1897)"
   },
@@ -513,8 +492,7 @@
     "angam_type": "tithi",
     "angam_number": 15,
     "Start Year": 2620,
-    "Tags": "adi-shankara-history",
-    "URL": "kanchi-kamakoti-matha-pratishthapana-jayanti",
+    "tags": "adi-shankara-history",
     "description_short": "Adi Shankara founded Kamakoti Mutt, Kanchi in Siddharthi year with himself as first"
   },
   {
@@ -523,7 +501,7 @@
     "month_number": 2,
     "angam_type": "tithi",
     "angam_number": 15,
-    "Tags": "less-common-festivals,other-avatarams",
+    "tags": "less-common-festivals,other-avatarams",
     "URL": "sharabha-jayanti"
   },
   {
@@ -534,8 +512,7 @@
     "angam_number": 15,
     "kala": "arunodaya",
     "priority": "paraviddha",
-    "Tags": "special-snanam",
-    "URL": "a-ka-ma-vai-snanam",
+    "tags": "special-snanam",
     "description_short": "Perform snana four ghatikas before sunrise (during `aruNodayam`, when the Moon is still up, on the full-moon days of `ASADha`, `kArtika`, `mAgha` and `vaizAkha` \u2013 hence the name `A-kA-mA-vai`) bestows strength, beauty, fame, dharma, knowledge, happiness, fortitude and health.",
     "Shloka": "balaM rUpaM yazO dharmaM jJAnamAyuH sukhaM dhRtim .\nArOgyaM paramApnOti samyak snAnEna mAnavaH ..",
     "references_secondary": "Vaidikasri",
@@ -547,8 +524,7 @@
     "month_number": 2,
     "angam_type": "tithi",
     "angam_number": 17,
-    "Tags": "less-common-festivals",
-    "URL": "narada-jayanti",
+    "tags": "less-common-festivals",
     "description_short": "Avataram of `nArada muni`; perform danam of `vINA`, music"
   },
   {
@@ -557,7 +533,7 @@
     "month_number": 2,
     "angam_type": "tithi",
     "angam_number": 19,
-    "Tags": "special-vratams",
+    "tags": "special-vratams",
     "URL": "savitri-vratam"
   },
   {
@@ -566,7 +542,7 @@
     "month_number": 2,
     "angam_type": "tithi",
     "angam_number": 19,
-    "Tags": "mahapurusha-events",
+    "tags": "mahapurusha-events",
     "URL": "sati-anasuya-jayanti"
   },
   {
@@ -575,7 +551,7 @@
     "month_number": 11,
     "angam_type": "tithi",
     "angam_number": 22,
-    "Tags": "mahapurusha-events",
+    "tags": "mahapurusha-events",
     "URL": "shabari-jayanti"
   },
   {
@@ -584,8 +560,7 @@
     "month_number": 2,
     "angam_type": "tithi",
     "angam_number": 30,
-    "Tags": "moon-sankranti",
-    "URL": "vrishabha-sankramanam",
+    "tags": "moon-sankranti",
     "description_short": "Perform Krishna Pooja"
   },
   {
@@ -594,8 +569,7 @@
     "month_number": 3,
     "angam_type": "tithi",
     "angam_number": 1,
-    "Tags": "special-vratams",
-    "URL": "karavira-vratam",
+    "tags": "special-vratams",
     "description_short": "Perform puja of `karavIra` plants/flowers and then offer them in `arcanA`.",
     "Shloka": "karavIra viSAvAsa namastE bhAnuvallabha.\nmaulimaNDana durgAdi dEvAnAM satataM priya",
     "Comments": "Not assigned in 2016"
@@ -606,8 +580,7 @@
     "month_number": 3,
     "angam_type": "tithi",
     "angam_number": 1,
-    "Tags": "special-vratams",
-    "URL": "bhadra-chatushtaya-vratam",
+    "tags": "special-vratams",
     "Comments": "Not assigned in 2016"
   },
   {
@@ -616,8 +589,7 @@
     "month_number": 3,
     "angam_type": "tithi",
     "angam_number": 1,
-    "Tags": "special-vratams",
-    "URL": "punnaga-gauri-vratam",
+    "tags": "special-vratams",
     "Comments": "Not assigned in 2016"
   },
   {
@@ -626,8 +598,7 @@
     "month_number": 3,
     "angam_type": "tithi",
     "angam_number": 3,
-    "Tags": "special-vratams",
-    "URL": "rambha-tritiya",
+    "tags": "special-vratams",
     "description_short": "Rambha Vratam; perform Savitri pooja near Banana tree. Offer naivedyam of bananas prepared with ghee.",
     "Shloka": "puSpamaNDapikA kAryA rambhAstambhOpazObhitA.\ntatra sampUjayEddEvIM zaktyA svarNAdinirmitAm ..\n\nvEdESu sarvazAstrESu divi bhUmau rasAtalE.\nzrutO dRSTazca bahuzO na zaktyA rahitaH zivaH.\ntvaM zakstistvaM svadhA svAhA tvaM sAvitrI sarasvatI.\npatiM dEhi sutAndEhi gRhaM dEvi namO'stu tE..\n\n yOSitaH puruSO vA'pi khyAtaM rambhAvrataM bhuvi.\nbhAryAM putraM gRhaM bhOgAn kulavRddhimavApnuyuH..",
     "references_secondary": "Kielhorn (1897), Vaidikasri June 2017"
@@ -638,8 +609,7 @@
     "month_number": 3,
     "angam_type": "tithi",
     "angam_number": 4,
-    "Tags": "other-jayantis",
-    "URL": "uma-avataram",
+    "tags": "other-jayantis",
     "description_short": "Perform puja of Uma-Maheshvara, on the day of Uma Devi's Avataram.",
     "Shloka": "jyESThazuklacaturthyAM tu jAtA pUrvamumA satI.\ntasmAt sA tatra sampUjyA strIbhiH saubhAgyavRddhayE.."
   },
@@ -649,8 +619,7 @@
     "month_number": 3,
     "angam_type": "tithi",
     "angam_number": 4,
-    "Tags": "less-common-festivals",
-    "URL": "kadali-gauri-vratam",
+    "tags": "less-common-festivals",
     "description_short": "Perform puja of Shiva-Parvati under a banana tree or on a banana leaf, do naivedyam of 100+ bananas and give away to small girl children.",
     "Shloka": "putrAn dEhi dhanaM dEhi saubhAgyaM sarvamaGgalE.\nsaumaGgalyaM sukhaM jJAnaM dEhi mE zivasundari..",
     "references_secondary": "Vaidikasri June 2017",
@@ -662,7 +631,7 @@
     "month_number": 3,
     "angam_type": "tithi",
     "angam_number": 6,
-    "Tags": "special-vratams",
+    "tags": "special-vratams",
     "URL": "aranya-gauri-vratam"
   },
   {
@@ -671,8 +640,7 @@
     "month_number": 3,
     "angam_type": "tithi",
     "angam_number": 6,
-    "Tags": "special-pujas",
-    "URL": "vindhyavasini-devi-puja",
+    "tags": "special-pujas",
     "titles": "Nanda Devi Puja"
   },
   {
@@ -681,7 +649,7 @@
     "month_number": 3,
     "angam_type": "tithi",
     "angam_number": 7,
-    "Tags": "devata-pujas",
+    "tags": "devata-pujas",
     "URL": "varuna-puja"
   },
   {
@@ -690,8 +658,7 @@
     "month_number": 3,
     "angam_type": "tithi",
     "angam_number": 9,
-    "Tags": "special-pujas",
-    "URL": "brahmani-puja",
+    "tags": "special-pujas",
     "description_short": "`brahmANI` is one of the seven `mAtRkA`s"
   },
   {
@@ -700,7 +667,7 @@
     "month_number": 3,
     "angam_type": "tithi",
     "angam_number": 9,
-    "Tags": "special-pujas",
+    "tags": "special-pujas",
     "URL": "shukla-devi-puja"
   },
   {
@@ -709,8 +676,7 @@
     "month_number": 3,
     "angam_type": "tithi",
     "angam_number": 10,
-    "Tags": "other-jayantis",
-    "URL": "dashahara-gangavataranam",
+    "tags": "other-jayantis",
     "description_short": "Avataranam of Ganga Devi. Bathe in any river and offer arghyam — destroys 10 types of sins (`dazaharA`).",
     "Shloka": "dazamyAM zuklapakSE tu jyESThE mAsE kujE dinE.\ngaGgA'vatIrNA hastarkSE sarvapApaharA smRtA..\n\nyAM kAJcit saritaM prApya dadyAdarghyaM zubhOdakam .\nmucyatE dazabhiH pApaiH sa mahApAtakOpamaiH..",
     "titles": "Ganga Jayanti; Dashapaapa-hara-dashami; Wednesday; Hasta star (Valmiki Ramayana)",
@@ -722,8 +688,7 @@
     "month_number": 3,
     "angam_type": "tithi",
     "angam_number": 12,
-    "Tags": "less-common-festivals",
-    "URL": "gavamayana-dvadashi",
+    "tags": "less-common-festivals",
     "description_short": "Perform puja of Lord Trivikrama (Sahasranamarchana), do naivedyam of mangoes and offer annadanam to needy.",
     "Shloka": "ahOrAtrENa dvAdazyAM jyESThE mAsi trivikramam .\ngavAmayanamApnOti apsarObhizca mOdatE..",
     "references_secondary": "Vaidikasri June 2017",
@@ -735,7 +700,7 @@
     "month_number": 3,
     "angam_type": "tithi",
     "angam_number": 12,
-    "Tags": "less-common-festivals",
+    "tags": "less-common-festivals",
     "URL": "ramalakshmana-dvadashi"
   },
   {
@@ -744,7 +709,7 @@
     "month_number": 3,
     "angam_type": "tithi",
     "angam_number": 13,
-    "Tags": "less-common-festivals",
+    "tags": "less-common-festivals",
     "URL": "durgandha-daurbhagya-nashaka-trayodashi"
   },
   {
@@ -754,7 +719,7 @@
     "angam_type": "tithi",
     "angam_number": 13,
     "Start Year": 4493,
-    "Tags": "mahapurusha-events",
+    "tags": "mahapurusha-events",
     "URL": "vidyaranya-svami-aradhana"
   },
   {
@@ -763,7 +728,7 @@
     "month_number": 3,
     "angam_type": "tithi",
     "angam_number": 13,
-    "Tags": "mahapurusha-events",
+    "tags": "mahapurusha-events",
     "URL": "chhatrapati-shivaji-rajyabhisheka"
   },
   {
@@ -772,8 +737,7 @@
     "month_number": 3,
     "angam_type": "tithi",
     "angam_number": 15,
-    "Tags": "special-vratams",
-    "URL": "vata-purnima-vata-savitri-vratam",
+    "tags": "special-vratams",
     "description_short": "Perform puja of banyan tree; begets `saumaGgalyam` and `saubhAgyam`.",
     "references_secondary": "Vaidikasri June 2017",
     "references_primary": "Bhavishyottara Puranam"
@@ -784,8 +748,7 @@
     "month_number": 3,
     "angam_type": "tithi",
     "angam_number": 15,
-    "Tags": "purnima-days,less-common-festivals,danam-days",
-    "URL": "eruvaka-purnima",
+    "tags": "purnima-days,less-common-festivals,danam-days",
     "description_short": "Danam of Padma Puranam"
   },
   {
@@ -794,7 +757,7 @@
     "month_number": 3,
     "angam_type": "tithi",
     "angam_number": 15,
-    "Tags": "purnima-days,less-common-festivals,danam-days",
+    "tags": "purnima-days,less-common-festivals,danam-days",
     "URL": "abhidyeyaka-abhisheka"
   },
   {
@@ -803,7 +766,7 @@
     "month_number": 3,
     "angam_type": "tithi",
     "angam_number": 15,
-    "Tags": "mahapurusha-events",
+    "tags": "mahapurusha-events",
     "URL": "kabiradasa-jayanti"
   },
   {
@@ -812,7 +775,7 @@
     "month_number": 3,
     "angam_type": "tithi",
     "angam_number": 15,
-    "Tags": "manvadi-days",
+    "tags": "manvadi-days",
     "URL": "manvadi-bhautya"
   },
   {
@@ -821,7 +784,7 @@
     "month_number": 3,
     "angam_type": "tithi",
     "angam_number": 15,
-    "Tags": "manvadi-days",
+    "tags": "manvadi-days",
     "URL": "manvadi-tamasa"
   },
   {
@@ -830,7 +793,7 @@
     "month_number": 3,
     "angam_type": "tithi",
     "angam_number": 23,
-    "Tags": "less-common-festivals",
+    "tags": "less-common-festivals",
     "URL": "vinayaka-ashtami"
   },
   {
@@ -839,7 +802,7 @@
     "month_number": 3,
     "angam_type": "tithi",
     "angam_number": 23,
-    "Tags": "less-common-festivals",
+    "tags": "less-common-festivals",
     "URL": "shitalashtami"
   },
   {
@@ -848,7 +811,7 @@
     "month_number": 3,
     "angam_type": "tithi",
     "angam_number": 30,
-    "Tags": "special-pujas",
+    "tags": "special-pujas",
     "URL": "bhogashayi-puja"
   },
   {
@@ -857,7 +820,7 @@
     "month_number": 3,
     "angam_type": "tithi",
     "angam_number": 30,
-    "Tags": "moon-sankranti",
+    "tags": "moon-sankranti",
     "URL": "mithuna-sankramanam"
   },
   {
@@ -866,7 +829,7 @@
     "month_number": 4,
     "angam_type": "tithi",
     "angam_number": 1,
-    "Tags": "navaratri,special-period-start",
+    "tags": "navaratri,special-period-start",
     "URL": "varahi-navaratri-arambha"
   },
   {
@@ -875,7 +838,7 @@
     "month_number": 4,
     "angam_type": "tithi",
     "angam_number": 2,
-    "Tags": "common-festivals,odisha-temple-festivals",
+    "tags": "common-festivals,odisha-temple-festivals",
     "URL": "jagannatha-ratha-yatra"
   },
   {
@@ -884,7 +847,7 @@
     "month_number": 4,
     "angam_type": "tithi",
     "angam_number": 2,
-    "Tags": "special-vratams",
+    "tags": "special-vratams",
     "URL": "amritalakshmi-vratam"
   },
   {
@@ -893,7 +856,7 @@
     "month_number": 4,
     "angam_type": "tithi",
     "angam_number": 5,
-    "Tags": "special-vratams",
+    "tags": "special-vratams",
     "URL": "shami-gauri-vratam"
   },
   {
@@ -902,7 +865,7 @@
     "month_number": 4,
     "angam_type": "tithi",
     "angam_number": 5,
-    "Tags": "special-vratams",
+    "tags": "special-vratams",
     "URL": "skanda-panchami"
   },
   {
@@ -911,8 +874,7 @@
     "month_number": 4,
     "angam_type": "tithi",
     "angam_number": 7,
-    "Tags": "special-pujas",
-    "URL": "vaivasvata-saptami",
+    "tags": "special-pujas",
     "description_short": "Mitra rupa Surya Pooja"
   },
   {
@@ -921,7 +883,7 @@
     "month_number": 4,
     "angam_type": "tithi",
     "angam_number": 8,
-    "Tags": "special-pujas",
+    "tags": "special-pujas",
     "URL": "mahishaghni-puja"
   },
   {
@@ -930,7 +892,7 @@
     "month_number": 4,
     "angam_type": "tithi",
     "angam_number": 9,
-    "Tags": "navaratri,special-period-end",
+    "tags": "navaratri,special-period-end",
     "URL": "varahi-navaratri-samapanam"
   },
   {
@@ -939,7 +901,7 @@
     "month_number": 4,
     "angam_type": "tithi",
     "angam_number": 9,
-    "Tags": "less-common-festivals",
+    "tags": "less-common-festivals",
     "URL": "upendra-navami"
   },
   {
@@ -948,7 +910,7 @@
     "month_number": 4,
     "angam_type": "tithi",
     "angam_number": 9,
-    "Tags": "special-pujas",
+    "tags": "special-pujas",
     "URL": "aindri-durga-puja"
   },
   {
@@ -959,7 +921,7 @@
     "angam_number": 10,
     "kala": "sunset",
     "priority": "purvaviddha",
-    "Tags": "manvadi-days",
+    "tags": "manvadi-days",
     "URL": "manvadi-chakshusha"
   },
   {
@@ -970,7 +932,7 @@
     "angam_number": 10,
     "kala": "sunset",
     "priority": "purvaviddha",
-    "Tags": "manvadi-days",
+    "tags": "manvadi-days",
     "URL": "manvadi-vaivasvata"
   },
   {
@@ -979,8 +941,7 @@
     "month_number": 4,
     "angam_type": "tithi",
     "angam_number": 10,
-    "Tags": "special-vratams",
-    "URL": "shaka-vratam-(mahalakshmi)",
+    "tags": "special-vratams",
     "description_short": "Do danam of leafy vegetables (but do not consume, on this day)"
   },
   {
@@ -989,8 +950,7 @@
     "month_number": 4,
     "angam_type": "tithi",
     "angam_number": 10,
-    "Tags": "special-vratams",
-    "URL": "dadhi-vratam-(mahalakshmi)",
+    "tags": "special-vratams",
     "description_short": "Do danam of curd (but do not consume, on this day)"
   },
   {
@@ -999,8 +959,7 @@
     "month_number": 4,
     "angam_type": "tithi",
     "angam_number": 11,
-    "Tags": "special-vratams",
-    "URL": "gopadma-vratam",
+    "tags": "special-vratams",
     "description_short": "Perform puja of Mahalakshmi-Mahavishnu",
     "Shloka": "gOpadmamiti vikhyAtaM sarvapApaharaM param .\nsarvaduHkhOpazamanaM sarvasampatpradAyakam .\nsuvAsinyAstu saubhAgyaputrapautrapravardhanam ..",
     "references_secondary": "Vaidikasri Aug 2015",
@@ -1012,8 +971,7 @@
     "month_number": 8,
     "angam_type": "tithi",
     "angam_number": 12,
-    "Tags": "special-vratams",
-    "URL": "gopadma-vratam",
+    "tags": "special-vratams",
     "references_secondary": "https://madhwafestivals.wordpress.com/2016/09/28/go-padma-vrata/"
   },
   {
@@ -1022,8 +980,7 @@
     "month_number": 4,
     "angam_type": "tithi",
     "angam_number": 10,
-    "Tags": "vratam-start,special-period-start",
-    "URL": "chaturmasya-vratam",
+    "tags": "vratam-start,special-period-start",
     "Shloka": "vAsudEva zucau mAsE zAkavratamanuttamam.\ntvatprItyarthaM kariSyE'haM nirvighnaM kuru mAdhava.."
   },
   {
@@ -1032,7 +989,7 @@
     "month_number": 4,
     "angam_type": "tithi",
     "angam_number": 12,
-    "Tags": "special-vratams",
+    "tags": "special-vratams",
     "URL": "vasudeva-dvadashi"
   },
   {
@@ -1041,8 +998,7 @@
     "month_number": 5,
     "angam_type": "tithi",
     "angam_number": 12,
-    "Tags": "vratam-end,special-period-end",
-    "URL": "chaturmasya-vratam",
+    "tags": "vratam-end,special-period-end",
     "Shloka": "vAsudEva namastubhyaM prathamE mAsi matkRtam.\nzAkavrataM mayA tEna saMtuSTO bhava mAdhava..\nidaM vrataM mayA dEva kRtaM prItyai tava prabhO.\nnyUnaM sampUrNatAM yAtu tvatprasAdajjanArdana.."
   },
   {
@@ -1051,8 +1007,7 @@
     "month_number": 5,
     "angam_type": "tithi",
     "angam_number": 12,
-    "Tags": "vratam-start,special-period-start",
-    "URL": "chaturmasya-vratam",
+    "tags": "vratam-start,special-period-start",
     "Shloka": "saGkarSaNAravindAkSa kariSyE'haM dadhivratam. dvitIyE mAsi dEvEza nirvighnaM kuru mE prabhO.."
   },
   {
@@ -1061,8 +1016,7 @@
     "month_number": 6,
     "angam_type": "tithi",
     "angam_number": 12,
-    "Tags": "vratam-end,special-period-end",
-    "URL": "chaturmasya-vratam",
+    "tags": "vratam-end,special-period-end",
     "Shloka": "saGkarSaNa namastubhyaM zravaNE matkRtEna ca.\n dadhivratEna dEvEza tuSTO bhava janArdana..\nidaM vrataM mayA dEva kRtaM prItyai tava prabhO.\nnyUnaM sampUrNatAM yAtu tvatprasAdajjanArdana.."
   },
   {
@@ -1071,8 +1025,7 @@
     "month_number": 6,
     "angam_type": "tithi",
     "angam_number": 12,
-    "Tags": "vratam-start,special-period-start",
-    "URL": "chaturmasya-vratam",
+    "tags": "vratam-start,special-period-start",
     "Shloka": "pradyumna tava tuSTyarthaM prOSTapadyAM tRtIyakE.\nnirvighnaM kuru dEvEza kariSyE'haM payOvratam.."
   },
   {
@@ -1081,8 +1034,7 @@
     "month_number": 7,
     "angam_type": "tithi",
     "angam_number": 12,
-    "Tags": "vratam-end,special-period-end",
-    "URL": "chaturmasya-vratam",
+    "tags": "vratam-end,special-period-end",
     "Shloka": "zrIpradyumna namastubhyaM mAsamArabhya yatkRtam. iSTadO bhava sarvEza gRhItvA tu payOvratam.. idaM vrataM mayA dEva kRtaM prItyai tava prabhO. nyUnaM sampUrNatAM yAtu tvatprasAdajjanArdana.."
   },
   {
@@ -1091,8 +1043,7 @@
     "month_number": 7,
     "angam_type": "tithi",
     "angam_number": 12,
-    "Tags": "vratam-start,special-period-start",
-    "URL": "chaturmasya-vratam",
+    "tags": "vratam-start,special-period-start",
     "Shloka": "aniruddha surairvandya dvidalavratamuttamam.\nkarOmyahamiSEmAsE nirvighnaM kuru mE prabhO.."
   },
   {
@@ -1101,8 +1052,7 @@
     "month_number": 8,
     "angam_type": "tithi",
     "angam_number": 12,
-    "Tags": "vratam-end,special-period-end",
-    "URL": "chaturmasya-vratam",
+    "tags": "vratam-end,special-period-end",
     "Shloka": "aniruddha namastubhyaM dvidalAkhyavratEna ca. matkRtEnAzvinE mAsE prItyarthaM phaladO bhava..\nidaM vrataM mayA dEva kRtaM prItyai tava prabhO.\nnyUnaM sampUrNatAM yAtu tvatprasAdajjanArdana.."
   },
   {
@@ -1111,8 +1061,7 @@
     "month_number": 4,
     "angam_type": "tithi",
     "angam_number": 10,
-    "Tags": "vratam-start,special-period-start",
-    "URL": "chaturmasya-vratam",
+    "tags": "vratam-start,special-period-start",
     "description_short": "Chaaturmasya begins; 4 months; Pradakshina to Pippala; Deeparadhana in temple; Saraswati Pooja; 1st month no vegetables; 2nd month no curds; 3rd month no milk; 4th month no dals;"
   },
   {
@@ -1121,8 +1070,7 @@
     "month_number": 4,
     "angam_type": "tithi",
     "angam_number": 15,
-    "Tags": "purnima-days,special-pujas,common-festivals",
-    "URL": "guru-purnima",
+    "tags": "purnima-days,special-pujas,common-festivals",
     "description_short": "Puja of Veda Vyasa / Gurus; Danam of Vishnu Puran is good on this day.",
     "Shloka": "acaturvadanO brahmA dvibAhuraparO hariH. aphAlalOcanO zambhurbhagavAn bAdArAyaNaH.."
   },
@@ -1132,7 +1080,7 @@
     "month_number": 4,
     "angam_type": "tithi",
     "angam_number": 15,
-    "Tags": "special-pujas",
+    "tags": "special-pujas",
     "URL": "shiva-shayanotsava"
   },
   {
@@ -1143,8 +1091,7 @@
     "angam_number": 15,
     "kala": "sunset",
     "priority": "purvaviddha",
-    "Tags": "special-vratams",
-    "URL": "kokila-vratam",
+    "tags": "special-vratams",
     "description_short": "Pooja of Kokila for getting good husband/wife."
   },
   {
@@ -1153,7 +1100,7 @@
     "month_number": 4,
     "angam_type": "tithi",
     "angam_number": 15,
-    "Tags": "vratam-start,special-period-start",
+    "tags": "vratam-start,special-period-start",
     "URL": "chaturmasyavrata-arambha"
   },
   {
@@ -1164,7 +1111,7 @@
     "angam_number": 15,
     "kala": "sunset",
     "priority": "purvaviddha",
-    "Tags": "manvadi-days",
+    "tags": "manvadi-days",
     "URL": "manvadi-rudra-savarni"
   },
   {
@@ -1175,8 +1122,7 @@
     "angam_number": 15,
     "kala": "arunodaya",
     "priority": "paraviddha",
-    "Tags": "special-snanam",
-    "URL": "a-ka-ma-vai-snanam",
+    "tags": "special-snanam",
     "description_short": "Perform snana four ghatikas before sunrise (during `aruNodayam`, when the Moon is still up, on the full-moon days of `ASADha`, `kArtika`, `mAgha` and `vaizAkha` \u2013 hence the name `A-kA-mA-vai`) bestows strength, beauty, fame, dharma, knowledge, happiness, fortitude and health.",
     "references_secondary": "Vaidikasri",
     "references_primary": "Satyavrata Smriti"
@@ -1188,8 +1134,7 @@
     "angam_type": "tithi",
     "angam_number": 17,
     "kala": "moonrise",
-    "Tags": "special-vratams",
-    "URL": "ashunyashayana-vratam",
+    "tags": "special-vratams",
     "description_short": "Lord Mahavishnu sleeps with Goddess Mahalakshmi on this day. Do Puja by placing the God/Goddess on a new bed with pillow/blanket. Do danam of same after puja.",
     "Shloka": "lakSmyA viyujyatE dEva na kadAcit yatO bhavAn .\ntathA kalatrasambandhO dEva mA mE viyujyatAm .."
   },
@@ -1199,8 +1144,7 @@
     "month_number": 5,
     "angam_type": "tithi",
     "angam_number": 4,
-    "Tags": "special-vratams",
-    "URL": "durva-ganapati-vratam",
+    "tags": "special-vratams",
     "description_short": "Perform puja of Ganapati with `dUrvA` grass"
   },
   {
@@ -1209,8 +1153,7 @@
     "month_number": 5,
     "angam_type": "tithi",
     "angam_number": 5,
-    "Tags": "purana-events",
-    "URL": "garuda-panchami",
+    "tags": "purana-events",
     "description_short": "\n* Day Garuda brought Amrutam for Nagas\n* Day Garuda and Takshaka fought and compromise was struck with Takshaka as garland in Garuda's neck (peace treaty :) "
   },
   {
@@ -1219,8 +1162,7 @@
     "month_number": 5,
     "angam_type": "tithi",
     "angam_number": 5,
-    "Tags": "special-pujas,purana-events",
-    "URL": "naga-panchami",
+    "tags": "special-pujas,purana-events",
     "description_short": "Naga Panchami; SarpaPooja (manasaDevi); Vishnu's boon to AdiSesha that humans will worship on this day",
     "Shloka": "apasarpa sarpa bhadraM tE dUraM gaccha mahAyazAH .\njanamEjayasya yajJAntE astIkavacanaM smaran .. "
   },
@@ -1232,7 +1174,7 @@
     "angam_number": 6,
     "kala": "sunset",
     "priority": "purvaviddha",
-    "Tags": "dashavataram",
+    "tags": "dashavataram",
     "URL": "kalki-jayanti"
   },
   {
@@ -1241,7 +1183,7 @@
     "month_number": 5,
     "angam_type": "tithi",
     "angam_number": 7,
-    "Tags": "mahapurusha-events",
+    "tags": "mahapurusha-events",
     "URL": "tulasidasa-jayanti"
   },
   {
@@ -1250,7 +1192,7 @@
     "month_number": 5,
     "angam_type": "tithi",
     "angam_number": 15,
-    "Tags": "common-festivals",
+    "tags": "common-festivals",
     "URL": "yajurveda-upakarma"
   },
   {
@@ -1259,8 +1201,7 @@
     "month_number": 5,
     "angam_type": "tithi",
     "angam_number": 15,
-    "Tags": "other-avatarams",
-    "URL": "hayagriva-jayanti",
+    "tags": "other-avatarams",
     "description_short": "Lord Hayagriva did upadesham of all four vedas to Brahma.",
     "Shloka": "OGkArOdgItharUpAya RgyajussAmamUrtayE.\nnamO'studEvadEvAya vAcchitArthapradAyinE..\najJAnatimiraM chindhi jJAnaM ca''zu prayaccha mE.\ndEhi mE dEva dEvEza hayazIrSa namO'stu tE.."
   },
@@ -1270,7 +1211,7 @@
     "month_number": 5,
     "angam_type": "tithi",
     "angam_number": 15,
-    "Tags": "other-jayantis",
+    "tags": "other-jayantis",
     "URL": "gayatri-jayanti"
   },
   {
@@ -1279,8 +1220,7 @@
     "month_number": 5,
     "angam_type": "tithi",
     "angam_number": 15,
-    "Tags": "other-jayantis",
-    "URL": "samskrta-divas",
+    "tags": "other-jayantis",
     "description_short": "World Sanskrit Day is celebrated on this day."
   },
   {
@@ -1289,7 +1229,7 @@
     "month_number": 5,
     "angam_type": "tithi",
     "angam_number": 15,
-    "Tags": "mahapurusha-events",
+    "tags": "mahapurusha-events",
     "URL": "vaikhanasa-maharshi-jayanti"
   },
   {
@@ -1299,7 +1239,7 @@
     "angam_type": "tithi",
     "angam_number": 17,
     "kala": "moonrise",
-    "Tags": "special-vratams",
+    "tags": "special-vratams",
     "URL": "ashunyashayana-vratam"
   },
   {
@@ -1309,8 +1249,7 @@
     "angam_type": "tithi",
     "angam_number": 17,
     "Start Year": 4773,
-    "Tags": "mahapurusha-events",
-    "URL": "shri-raghavendra-svami-aradhana",
+    "tags": "mahapurusha-events",
     "Shloka": "pujyAya rAghavEndrAya satyadharmaratAya ca.\nbhajatAM kalavRkSAya namatAM kAmadhEnavE.."
   },
   {
@@ -1319,8 +1258,7 @@
     "month_number": 5,
     "angam_type": "tithi",
     "angam_number": 17,
-    "Tags": "special-pujas",
-    "URL": "brihati-vrikshaka-puja",
+    "tags": "special-pujas",
     "description_short": "VaakuduChettu Puja"
   },
   {
@@ -1329,7 +1267,7 @@
     "month_number": 5,
     "angam_type": "tithi",
     "angam_number": 18,
-    "Tags": "special-vratams",
+    "tags": "special-vratams",
     "URL": "kajjali-tritiya"
   },
   {
@@ -1338,7 +1276,7 @@
     "month_number": 5,
     "angam_type": "tithi",
     "angam_number": 18,
-    "Tags": "special-vratams",
+    "tags": "special-vratams",
     "URL": "tushti-prapti-tritiya"
   },
   {
@@ -1349,8 +1287,7 @@
     "angam_number": 19,
     "kala": "sayahna",
     "priority": "purvaviddha",
-    "Tags": "less-common-festivals",
-    "URL": "bahula-chaturthi",
+    "tags": "less-common-festivals",
     "references_secondary": "Kielhorn (1897)"
   },
   {
@@ -1359,8 +1296,7 @@
     "month_number": 5,
     "angam_type": "tithi",
     "angam_number": 20,
-    "Tags": "less-common-festivals",
-    "URL": "raksha-panchami",
+    "tags": "less-common-festivals",
     "description_short": "Naga (Manasa) Puja",
     "references_secondary": "Kielhorn (1897)"
   },
@@ -1370,8 +1306,7 @@
     "month_number": 5,
     "angam_type": "tithi",
     "angam_number": 21,
-    "Tags": "dashavataram,less-common-festivals",
-    "URL": "hala-shashthi",
+    "tags": "dashavataram,less-common-festivals",
     "description_short": "Birth of Balarama",
     "references_secondary": "Kielhorn (1897)"
   },
@@ -1383,8 +1318,7 @@
     "angam_number": 7,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "less-common-festivals",
-    "URL": "shitala-saptami",
+    "tags": "less-common-festivals",
     "references_secondary": "Vaidikasri Aug 2016"
   },
   {
@@ -1395,7 +1329,7 @@
     "angam_number": 23,
     "kala": "nishita",
     "priority": "paraviddha",
-    "Tags": "dashavataram,common-festivals",
+    "tags": "dashavataram,common-festivals",
     "URL": "shrikrishnajanmashtami"
   },
   {
@@ -1406,8 +1340,7 @@
     "angam_number": 23,
     "kala": "nishita",
     "priority": "paraviddha",
-    "Tags": "dashamahavidya",
-    "URL": "mahakali-jayanti",
+    "tags": "dashamahavidya",
     "description_short": "Goddess Mahakali is 1st of the Dasha Maha Vidyas."
   },
   {
@@ -1416,7 +1349,7 @@
     "month_number": 5,
     "angam_type": "tithi",
     "angam_number": 23,
-    "Tags": "manvadi-days",
+    "tags": "manvadi-days",
     "URL": "manvadi-brahma-savarni"
   },
   {
@@ -1425,7 +1358,7 @@
     "month_number": 5,
     "angam_type": "tithi",
     "angam_number": 23,
-    "Tags": "mahapurusha-events",
+    "tags": "mahapurusha-events",
     "URL": "shrikrishnadevaraya-rajyabhisheka"
   },
   {
@@ -1434,7 +1367,7 @@
     "month_number": 5,
     "angam_type": "tithi",
     "angam_number": 24,
-    "Tags": "special-pujas",
+    "tags": "special-pujas",
     "URL": "chandika-puja"
   },
   {
@@ -1443,7 +1376,7 @@
     "month_number": 5,
     "angam_type": "tithi",
     "angam_number": 24,
-    "Tags": "less-common-festivals",
+    "tags": "less-common-festivals",
     "URL": "aravinda-jayanti"
   },
   {
@@ -1452,7 +1385,7 @@
     "month_number": 5,
     "angam_type": "tithi",
     "angam_number": 24,
-    "Tags": "special-pujas",
+    "tags": "special-pujas",
     "URL": "kaumara-puja"
   },
   {
@@ -1461,7 +1394,7 @@
     "month_number": 5,
     "angam_type": "tithi",
     "angam_number": 27,
-    "Tags": "less-common-festivals",
+    "tags": "less-common-festivals",
     "URL": "rohini-dvadashi"
   },
   {
@@ -1470,7 +1403,7 @@
     "month_number": 5,
     "angam_type": "tithi",
     "angam_number": 29,
-    "Tags": "less-common-festivals",
+    "tags": "less-common-festivals",
     "URL": "aghora-chaturdashi"
   },
   {
@@ -1479,8 +1412,7 @@
     "month_number": 5,
     "angam_type": "tithi",
     "angam_number": 30,
-    "Tags": "special-pujas",
-    "URL": "vrishabha-puja",
+    "tags": "special-pujas",
     "description_short": "Vrushabha puja; Nandi born to Shilaada on this day"
   },
   {
@@ -1489,8 +1421,7 @@
     "month_number": 5,
     "angam_type": "tithi",
     "angam_number": 30,
-    "Tags": "less-common-festivals",
-    "URL": "64-yogini-puja",
+    "tags": "less-common-festivals",
     "titles": "grAmadevatA-pUjA"
   },
   {
@@ -1499,7 +1430,7 @@
     "month_number": 6,
     "angam_type": "tithi",
     "angam_number": 1,
-    "Tags": "special-vratams",
+    "tags": "special-vratams",
     "URL": "mrigashirsha-vratam"
   },
   {
@@ -1510,7 +1441,7 @@
     "angam_number": 3,
     "kala": "aparahna",
     "priority": "purvaviddha",
-    "Tags": "dashavataram",
+    "tags": "dashavataram",
     "URL": "varaha-jayanti"
   },
   {
@@ -1519,8 +1450,7 @@
     "month_number": 1,
     "angam_type": "tithi",
     "angam_number": 20,
-    "Tags": "dashavataram",
-    "URL": "lakshmi-varaha-jayanti",
+    "tags": "dashavataram",
     "Shloka": "jitaM jitaM tE'jita yajJabhAvana trayIM tanuM svAM paridhunvatE namaH.\nyadrOmagartESu nililyuraddhayastasmai namaH kAraNasUkarAya tE..3-13-35..\n\u2014zrImadbhAgavatE mahApurANE tRtIyEskandhE trayOdazE'dhyAyE "
   },
   {
@@ -1529,8 +1459,7 @@
     "month_number": 6,
     "angam_type": "tithi",
     "angam_number": 3,
-    "Tags": "special-vratams",
-    "URL": "haritalika-vratam",
+    "tags": "special-vratams",
     "description_short": "Puja of Gauri-Maheshwara on Vrishabham, esp. for girls desirous of getting married, like Goddess Parvati sought the hand of Maheshwara, as Himavan's daughter.",
     "references_secondary": "Vaidikasri Sep 2015",
     "references_primary": "Bhavishyottara Puranam"
@@ -1541,7 +1470,7 @@
     "month_number": 6,
     "angam_type": "tithi",
     "angam_number": 18,
-    "Tags": "special-vratams",
+    "tags": "special-vratams",
     "URL": "kajari-tritiya"
   },
   {
@@ -1550,7 +1479,7 @@
     "month_number": 5,
     "angam_type": "tithi",
     "angam_number": 3,
-    "Tags": "special-vratams",
+    "tags": "special-vratams",
     "URL": "hariyali-tritiya"
   },
   {
@@ -1559,7 +1488,7 @@
     "month_number": 6,
     "angam_type": "tithi",
     "angam_number": 3,
-    "Tags": "manvadi-days",
+    "tags": "manvadi-days",
     "URL": "manvadi-raivata"
   },
   {
@@ -1570,7 +1499,7 @@
     "angam_number": 4,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "common-festivals",
+    "tags": "common-festivals",
     "URL": "shrivinayaka-chaturthi"
   },
   {
@@ -1581,7 +1510,7 @@
     "angam_number": 5,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "special-vratams,common-festivals",
+    "tags": "special-vratams,common-festivals",
     "URL": "rishi-panchami-vratam"
   },
   {
@@ -1590,8 +1519,7 @@
     "month_number": 6,
     "angam_type": "tithi",
     "angam_number": 6,
-    "Tags": "special-pujas",
-    "URL": "surya-shashthi",
+    "tags": "special-pujas",
     "description_short": "Perform puja of Surya, eat Panchagavya -- brings merits greater than Ashvamedha!",
     "Shloka": "zuklE bhAdrapadE SaSThyAM snAnaM bhAskarapUjanam .\n prAzanaM paJcagavyasya azvamEdhaphalAdhikam .."
   },
@@ -1601,7 +1529,7 @@
     "month_number": 6,
     "angam_type": "tithi",
     "angam_number": 6,
-    "Tags": "less-common-festivals",
+    "tags": "less-common-festivals",
     "URL": "kumarika-svapanam"
   },
   {
@@ -1610,8 +1538,7 @@
     "month_number": 6,
     "angam_type": "tithi",
     "angam_number": 6,
-    "Tags": "less-common-festivals,special-pujas",
-    "URL": "manthana-shashthi",
+    "tags": "less-common-festivals,special-pujas",
     "titles": "campA SaSThI"
   },
   {
@@ -1620,7 +1547,7 @@
     "month_number": 6,
     "angam_type": "tithi",
     "angam_number": 6,
-    "Tags": "less-common-festivals",
+    "tags": "less-common-festivals",
     "URL": "lalita-shashthi"
   },
   {
@@ -1629,7 +1556,7 @@
     "month_number": 6,
     "angam_type": "tithi",
     "angam_number": 7,
-    "Tags": "less-common-festivals",
+    "tags": "less-common-festivals",
     "URL": "amuktabharana-saptami"
   },
   {
@@ -1638,8 +1565,7 @@
     "month_number": 6,
     "angam_type": "tithi",
     "angam_number": 7,
-    "Tags": "special-vratams",
-    "URL": "kukkuti-vratam",
+    "tags": "special-vratams",
     "description_short": "Shiva Puja"
   },
   {
@@ -1648,8 +1574,7 @@
     "month_number": 6,
     "angam_type": "tithi",
     "angam_number": 7,
-    "Tags": "special-pujas,less-common-festivals",
-    "URL": "anantaphala-saptami",
+    "tags": "special-pujas,less-common-festivals",
     "titles": "putra-saptamI\naparAjitA-saptamI\ndvAdasha-saptamI"
   },
   {
@@ -1658,8 +1583,7 @@
     "month_number": 6,
     "angam_type": "tithi",
     "angam_number": 9,
-    "Tags": "vratam-start,special-period-start",
-    "URL": "mahalakshmi-vrata-arambha",
+    "tags": "vratam-start,special-period-start",
     "references_secondary": "Vaidikasri Sep 2017"
   },
   {
@@ -1668,7 +1592,7 @@
     "month_number": 6,
     "angam_type": "tithi",
     "angam_number": 8,
-    "Tags": "common-festivals",
+    "tags": "common-festivals",
     "URL": "radhashtami"
   },
   {
@@ -1677,8 +1601,7 @@
     "month_number": 6,
     "angam_type": "tithi",
     "angam_number": 8,
-    "Tags": "less-common-festivals",
-    "URL": "durvashtami",
+    "tags": "less-common-festivals",
     "description_short": "Do `pUjA` *of* `dUrva`!"
   },
   {
@@ -1687,8 +1610,7 @@
     "month_number": 6,
     "angam_type": "tithi",
     "angam_number": 9,
-    "Tags": "less-common-festivals",
-    "URL": "adukhanavami",
+    "tags": "less-common-festivals",
     "titles": "nandikA-navamI"
   },
   {
@@ -1697,8 +1619,7 @@
     "month_number": 6,
     "angam_type": "tithi",
     "angam_number": 9,
-    "Tags": "less-common-festivals",
-    "URL": "talanavami",
+    "tags": "less-common-festivals",
     "titles": "Shri Vriksha Navami"
   },
   {
@@ -1707,8 +1628,7 @@
     "month_number": 6,
     "angam_type": "tithi",
     "angam_number": 9,
-    "Tags": "less-common-festivals",
-    "URL": "godhuma-navami",
+    "tags": "less-common-festivals",
     "description_short": "Durga Puja"
   },
   {
@@ -1717,8 +1637,7 @@
     "month_number": 6,
     "angam_type": "tithi",
     "angam_number": 9,
-    "Tags": "less-common-festivals",
-    "URL": "nanda-navami",
+    "tags": "less-common-festivals",
     "description_short": "Durga Puja"
   },
   {
@@ -1727,7 +1646,7 @@
     "month_number": 6,
     "angam_type": "tithi",
     "angam_number": 10,
-    "Tags": "special-vratams,less-common-festivals",
+    "tags": "special-vratams,less-common-festivals",
     "URL": "dashavatara-vratam"
   },
   {
@@ -1736,8 +1655,7 @@
     "month_number": 6,
     "angam_type": "tithi",
     "angam_number": 10,
-    "Tags": "special-snanam",
-    "URL": "vitastotsava",
+    "tags": "special-snanam",
     "description_short": "7 days bath in Vitasta river tributary of Narmada"
   },
   {
@@ -1748,8 +1666,7 @@
     "angam_number": 12,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "dashavataram,common-festivals",
-    "URL": "vamana-jayanti",
+    "tags": "dashavataram,common-festivals",
     "description_short": "Wednesday Shravana ; Vamana Jayanti; Shravana Dvadashi; Vijaya Dvadashi; Shakra Dvadashi"
   },
   {
@@ -1758,8 +1675,7 @@
     "month_number": 6,
     "angam_type": "tithi",
     "angam_number": 12,
-    "Tags": "dashamahavidya",
-    "URL": "bhuvaneshvari-jayanti",
+    "tags": "dashamahavidya",
     "description_short": "Goddess Bhuvaneshwari is 4th of the Dasha Maha Vidyas.",
     "Shloka": "udyadinadyutimindukirITAm tuGgakucAM nayanatrayayuktAM \nsmEramukhIM varadAGkuzapAzAbhItikarAm prabhajE bhuvanEzIm "
   },
@@ -1769,8 +1685,7 @@
     "month_number": 6,
     "angam_type": "tithi",
     "angam_number": 12,
-    "Tags": "special-pujas",
-    "URL": "ananta-dvadashi",
+    "tags": "special-pujas",
     "description_short": "Vanjuli (Cow giving lots of milk), dugdha (milk), Aviyoga, Ananta Dvadashi"
   },
   {
@@ -1779,8 +1694,7 @@
     "month_number": 6,
     "angam_type": "tithi",
     "angam_number": 13,
-    "Tags": "special-vratams",
-    "URL": "go-triratri-vratam",
+    "tags": "special-vratams",
     "description_short": "Agastya arghya danam"
   },
   {
@@ -1789,7 +1703,7 @@
     "month_number": 6,
     "angam_type": "tithi",
     "angam_number": 13,
-    "Tags": "special-vratams",
+    "tags": "special-vratams",
     "URL": "durva-tri-vratam"
   },
   {
@@ -1798,8 +1712,7 @@
     "month_number": 6,
     "angam_type": "tithi",
     "angam_number": 14,
-    "Tags": "common-festivals,special-pujas",
-    "URL": "ananta-chaturdashi",
+    "tags": "common-festivals,special-pujas",
     "description_short": "Visarjan of Ganesha idols"
   },
   {
@@ -1808,8 +1721,7 @@
     "month_number": 6,
     "angam_type": "tithi",
     "angam_number": 14,
-    "Tags": "special-pujas",
-    "URL": "ananta-padmanabha-vratam",
+    "tags": "special-pujas",
     "description_short": "Puja of Ananta Padmanabha."
   },
   {
@@ -1818,7 +1730,7 @@
     "month_number": 6,
     "angam_type": "tithi",
     "angam_number": 15,
-    "Tags": "special-period-end,vratam-end,common-festivals",
+    "tags": "special-period-end,vratam-end,common-festivals",
     "URL": "chaturmasyavrata-samapanam"
   },
   {
@@ -1827,8 +1739,7 @@
     "month_number": 6,
     "angam_type": "tithi",
     "angam_number": 15,
-    "Tags": "common-festivals",
-    "URL": "vishvarupa-yatra",
+    "tags": "common-festivals",
     "description_short": "Shankaracharyas will resume their travel, after being stationed for Chaturmasya vratam for the last four pakshas."
   },
   {
@@ -1839,7 +1750,7 @@
     "angam_number": 15,
     "kala": "sunrise",
     "priority": "purvaviddha",
-    "Tags": "special-vratams,common-festivals",
+    "tags": "special-vratams,common-festivals",
     "URL": "uma-maheshvara-vratam"
   },
   {
@@ -1848,8 +1759,7 @@
     "month_number": 6,
     "angam_type": "tithi",
     "angam_number": 15,
-    "Tags": "special-vratams",
-    "URL": "upanga-lalita-gauri-vratam",
+    "tags": "special-vratams",
     "titles": "vandhyatvahArI-liGgArcanA-vratam/putra-vratam\nvaruNa-vratam\nbrahma-sAvitrI-vratam\nazoka-trirAtri-vratam"
   },
   {
@@ -1858,8 +1768,7 @@
     "month_number": 7,
     "angam_type": "tithi",
     "angam_number": 5,
-    "Tags": "special-vratams",
-    "URL": "upanga-lalita-vratam",
+    "tags": "special-vratams",
     "description_short": "Do `pUjA` of Lalita Devi."
   },
   {
@@ -1868,8 +1777,7 @@
     "month_number": 6,
     "angam_type": "tithi",
     "angam_number": 15,
-    "Tags": "devata-pujas",
-    "URL": "dikpala-puja",
+    "tags": "devata-pujas",
     "description_short": "Spend this day in Badarikashramam"
   },
   {
@@ -1880,7 +1788,7 @@
     "angam_number": 16,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "special-period-start",
+    "tags": "special-period-start",
     "URL": "mahalaya-paksha-arambha"
   },
   {
@@ -1891,7 +1799,7 @@
     "angam_number": 16,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "special-period-start",
+    "tags": "special-period-start",
     "URL": "saptama-apara-paksha-arambha"
   },
   {
@@ -1902,7 +1810,7 @@
     "angam_number": 16,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "special-period-start",
+    "tags": "special-period-start",
     "URL": "navama-apara-paksha-arambha"
   },
   {
@@ -1912,7 +1820,7 @@
     "angam_type": "tithi",
     "angam_number": 17,
     "kala": "moonrise",
-    "Tags": "special-vratams",
+    "tags": "special-vratams",
     "URL": "ashunyashayana-vratam"
   },
   {
@@ -1921,8 +1829,7 @@
     "month_number": 6,
     "angam_type": "tithi",
     "angam_number": 18,
-    "Tags": "special-vratams",
-    "URL": "gauri-vratam",
+    "tags": "special-vratams",
     "description_short": "Undralla Taddi (Telugu)"
   },
   {
@@ -1931,8 +1838,7 @@
     "month_number": 6,
     "angam_type": "tithi",
     "angam_number": 19,
-    "Tags": "devata-pujas",
-    "URL": "dikpala-puja",
+    "tags": "devata-pujas",
     "references_primary": "Nilamata Puranam"
   },
   {
@@ -1941,7 +1847,7 @@
     "month_number": 6,
     "angam_type": "tithi",
     "angam_number": 20,
-    "Tags": "special-pujas",
+    "tags": "special-pujas",
     "URL": "naga-puja"
   },
   {
@@ -1950,7 +1856,7 @@
     "month_number": 6,
     "angam_type": "tithi",
     "angam_number": 20,
-    "Tags": "special-pujas",
+    "tags": "special-pujas",
     "URL": "saptarshi-puja-arghyam"
   },
   {
@@ -1959,8 +1865,7 @@
     "month_number": 6,
     "angam_type": "tithi",
     "angam_number": 21,
-    "Tags": "special-pujas",
-    "URL": "kapila-shashthi",
+    "tags": "special-pujas",
     "Shloka": "prabhAkara namastubhyaM saMsArAnmAM samuddhara.\n bhuktimuktipradO yasmAt tasmAcchAntiM prayaccha mE.."
   },
   {
@@ -1971,8 +1876,7 @@
     "angam_number": 21,
     "kala": "moonrise",
     "priority": "purvaviddha",
-    "Tags": "special-pujas",
-    "URL": "chandra-shashthi",
+    "tags": "special-pujas",
     "references_secondary": "Kielhorn (1897)"
   },
   {
@@ -1981,7 +1885,7 @@
     "month_number": 6,
     "angam_type": "tithi",
     "angam_number": 22,
-    "Tags": "special-vratams",
+    "tags": "special-vratams",
     "URL": "mahalakshmi-vrata-samapanam"
   },
   {
@@ -1990,7 +1894,7 @@
     "month_number": 6,
     "angam_type": "tithi",
     "angam_number": 23,
-    "Tags": "common-festivals",
+    "tags": "common-festivals",
     "URL": "madhyashtami"
   },
   {
@@ -1999,8 +1903,7 @@
     "month_number": 6,
     "angam_type": "tithi",
     "angam_number": 23,
-    "Tags": "purana-events",
-    "URL": "jimutavahana-puja",
+    "tags": "purana-events",
     "description_short": "Jeemuutavahana is an atma-tyagi vidyadhara Chakravarti. Saved Shankhachuda's (Naaga) life by offering himself to Garuda. From that day Garuda stopped eating snakes.",
     "references_secondary": "Aamade Jyotishi"
   },
@@ -2010,8 +1913,7 @@
     "month_number": 6,
     "angam_type": "tithi",
     "angam_number": 23,
-    "Tags": "special-vratams,vratam-start,special-period-start",
-    "URL": "ashoka-ashtami-vrata-arambha",
+    "tags": "special-vratams,vratam-start,special-period-start",
     "references_secondary": "Aamade Jyotishi"
   },
   {
@@ -2020,7 +1922,7 @@
     "month_number": 8,
     "angam_type": "tithi",
     "angam_number": 23,
-    "Tags": "special-pujas",
+    "tags": "special-pujas",
     "URL": "kalabhairavashtami"
   },
   {
@@ -2029,8 +1931,7 @@
     "month_number": 8,
     "angam_type": "tithi",
     "angam_number": 8,
-    "Tags": "other-jayantis",
-    "URL": "kartaviryarjuna-jayanti",
+    "tags": "other-jayantis",
     "references_secondary": "http://hindupad.com/karthaveerya-arjuna-jayanthi-2011-karthaveerya-uthpatthi/"
   },
   {
@@ -2039,8 +1940,7 @@
     "month_number": 8,
     "angam_type": "tithi",
     "angam_number": 14,
-    "Tags": "special-snanam",
-    "URL": "manikarnika-snanam",
+    "tags": "special-snanam",
     "description_short": "Perform `snAnam` at `maNikarNikA` ghat in Varanasi."
   },
   {
@@ -2049,8 +1949,7 @@
     "month_number": 8,
     "angam_type": "tithi",
     "angam_number": 10,
-    "Tags": "purana-events",
-    "URL": "kamsa-vadha",
+    "tags": "purana-events",
     "description_short": "Lord Krishna killed Kamsa on this day; most popularly celebrated in Mathura and Uttar Pradesh."
   },
   {
@@ -2059,8 +1958,7 @@
     "month_number": 6,
     "angam_type": "tithi",
     "angam_number": 24,
-    "Tags": "special-pujas",
-    "URL": "sumangali-navami",
+    "tags": "special-pujas",
     "description_short": "In honour of Sumangalis (in the family), by holding a feast for Suvasinis and Kanyas.",
     "Shloka": "bharturagrE mRtA nArI sahadAhEna vA mRtA .\n tasyAH sthAnE niyuJjIta vipraiH saha suvAsinIm ..",
     "titles": "avidhavA-navamI"
@@ -2071,8 +1969,7 @@
     "month_number": 6,
     "angam_type": "tithi",
     "angam_number": 24,
-    "Tags": "special-pujas",
-    "URL": "durga-gauri-puja",
+    "tags": "special-pujas",
     "references_primary": "Nilamata Puranam"
   },
   {
@@ -2081,7 +1978,7 @@
     "month_number": 6,
     "angam_type": "tithi",
     "angam_number": 27,
-    "Tags": "special-pujas,common-festivals",
+    "tags": "special-pujas,common-festivals",
     "URL": "yati-mahalayam"
   },
   {
@@ -2090,8 +1987,7 @@
     "month_number": 6,
     "angam_type": "tithi",
     "angam_number": 28,
-    "Tags": "yugadi-days",
-    "URL": "kaliyugadi",
+    "tags": "yugadi-days",
     "description_short": "Perform Samudra Snanam and Shraddha."
   },
   {
@@ -2102,7 +1998,7 @@
     "angam_number": 29,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "less-common-festivals",
+    "tags": "less-common-festivals",
     "URL": "shastrahatachaturdashi"
   },
   {
@@ -2111,7 +2007,7 @@
     "month_number": 6,
     "angam_type": "tithi",
     "angam_number": 30,
-    "Tags": "moon-sankranti",
+    "tags": "moon-sankranti",
     "URL": "kanya-sankramanam"
   },
   {
@@ -2120,8 +2016,7 @@
     "month_number": 6,
     "angam_type": "tithi",
     "angam_number": 30,
-    "Tags": "devata-pujas",
-    "URL": "ashvashiro-deva-puja",
+    "tags": "devata-pujas",
     "references_primary": "Hemadri Grantham"
   },
   {
@@ -2130,7 +2025,7 @@
     "month_number": 6,
     "angam_type": "tithi",
     "angam_number": 30,
-    "Tags": "special-vratams",
+    "tags": "special-vratams",
     "URL": "sujanmaprapti-vratam"
   },
   {
@@ -2139,7 +2034,7 @@
     "month_number": 7,
     "angam_type": "tithi",
     "angam_number": 1,
-    "Tags": "navaratri,special-period-start,common-festivals",
+    "tags": "navaratri,special-period-start,common-festivals",
     "URL": "sharannavaratri-arambha"
   },
   {
@@ -2148,8 +2043,7 @@
     "month_number": 7,
     "angam_type": "tithi",
     "angam_number": 1,
-    "Tags": "less-common-festivals",
-    "URL": "dauhitra-pratipat",
+    "tags": "less-common-festivals",
     "description_short": "Grandson must seek blessings of his maternal grandparents, and bestow gifts."
   },
   {
@@ -2158,8 +2052,7 @@
     "month_number": 7,
     "angam_type": "tithi",
     "angam_number": 1,
-    "Tags": "less-common-festivals",
-    "URL": "grihadevi-puja",
+    "tags": "less-common-festivals",
     "references_primary": "Nilamata Puranam"
   },
   {
@@ -2168,7 +2061,7 @@
     "month_number": 7,
     "angam_type": "tithi",
     "angam_number": 1,
-    "Tags": "special-vratams",
+    "tags": "special-vratams",
     "URL": "stanavriddhi-gauri-vratam"
   },
   {
@@ -2177,7 +2070,7 @@
     "month_number": 7,
     "angam_type": "tithi",
     "angam_number": 3,
-    "Tags": "less-common-festivals",
+    "tags": "less-common-festivals",
     "URL": "meghapaliya-tritiya"
   },
   {
@@ -2186,8 +2079,7 @@
     "month_number": 7,
     "angam_type": "tithi",
     "angam_number": 4,
-    "Tags": "special-pujas",
-    "URL": "devata-suvasini-puja",
+    "tags": "special-pujas",
     "references_primary": "Nilamata Puranam"
   },
   {
@@ -2198,8 +2090,7 @@
     "angam_number": 5,
     "kala": "aparahna",
     "priority": "purvaviddha",
-    "Tags": "common-festivals",
-    "URL": "lalita-panchami",
+    "tags": "common-festivals",
     "titles": "upAGga-lalitA-vratam"
   },
   {
@@ -2208,7 +2099,7 @@
     "month_number": 7,
     "angam_type": "tithi",
     "angam_number": 5,
-    "Tags": "special-vratams",
+    "tags": "special-vratams",
     "URL": "shanti-panchami-vratam"
   },
   {
@@ -2217,8 +2108,7 @@
     "month_number": 7,
     "angam_type": "tithi",
     "angam_number": 7,
-    "Tags": "special-vratams",
-    "URL": "shubha-saptami",
+    "tags": "special-vratams",
     "titles": "dvAdaza-saptamI-vratam"
   },
   {
@@ -2227,8 +2117,7 @@
     "month_number": 7,
     "angam_type": "tithi",
     "angam_number": 7,
-    "Tags": "special-pujas",
-    "URL": "patrika-pravesha-puja",
+    "tags": "special-pujas",
     "description_short": "Pooja of Kapila cow, eat only Panchagavya, next day eat",
     "titles": "dvAdaza-saptamI-vratam"
   },
@@ -2238,7 +2127,7 @@
     "month_number": 7,
     "angam_type": "tithi",
     "angam_number": 8,
-    "Tags": "common-festivals",
+    "tags": "common-festivals",
     "URL": "durgashtami"
   },
   {
@@ -2247,7 +2136,7 @@
     "month_number": 7,
     "angam_type": "tithi",
     "angam_number": 8,
-    "Tags": "less-common-festivals",
+    "tags": "less-common-festivals",
     "URL": "bhadrakali-puja"
   },
   {
@@ -2256,7 +2145,7 @@
     "month_number": 7,
     "angam_type": "tithi",
     "angam_number": 8,
-    "Tags": "special-vratams",
+    "tags": "special-vratams",
     "URL": "kala-triratri-vratam"
   },
   {
@@ -2265,7 +2154,7 @@
     "month_number": 7,
     "angam_type": "tithi",
     "angam_number": 9,
-    "Tags": "navaratri,special-period-end,common-festivals",
+    "tags": "navaratri,special-period-end,common-festivals",
     "URL": "sharannavaratri-samapanam"
   },
   {
@@ -2274,8 +2163,7 @@
     "month_number": 7,
     "angam_type": "tithi",
     "angam_number": 9,
-    "Tags": "common-festivals",
-    "URL": "mahanavami-sarasvati-puja",
+    "tags": "common-festivals",
     "description_short": "Daanam is good, get crore times punya.\nMaatruNavami, NaamaNavami Vratam, DurgaNavami-Vratam, Shourya-Vratam, Mahaaphala Vratam, PradeeptaNavami"
   },
   {
@@ -2284,7 +2172,7 @@
     "month_number": 7,
     "angam_type": "tithi",
     "angam_number": 9,
-    "Tags": "special-vratams",
+    "tags": "special-vratams",
     "URL": "bhadrakali-vratam"
   },
   {
@@ -2293,7 +2181,7 @@
     "month_number": 7,
     "angam_type": "tithi",
     "angam_number": 9,
-    "Tags": "manvadi-days",
+    "tags": "manvadi-days",
     "URL": "manvadi-svayambhuva"
   },
   {
@@ -2302,8 +2190,7 @@
     "month_number": 7,
     "angam_type": "tithi",
     "angam_number": 10,
-    "Tags": "common-festivals",
-    "URL": "vijayadashami",
+    "tags": "common-festivals",
     "description_short": "Arjuna wins over all Kauravas and Karna\nSri Rama's army built tents on ocean bank before crossing on Shravana star (AnandaRamayanam)\nBest day for AksharaaBhyaasam"
   },
   {
@@ -2312,8 +2199,7 @@
     "month_number": 7,
     "angam_type": "tithi",
     "angam_number": 10,
-    "Tags": "common-festivals",
-    "URL": "ayudha-puja",
+    "tags": "common-festivals",
     "description_short": "Arjuna wins over all Kauravas and Karna. Worship of all weapons, or rather, tools related to one's profession."
   },
   {
@@ -2323,8 +2209,7 @@
     "angam_type": "tithi",
     "angam_number": 10,
     "Start Year": 4339,
-    "Tags": "mahapurusha-events",
-    "URL": "madhvacharya-jayanti",
+    "tags": "mahapurusha-events",
     "description_short": "Jayanti of Madhvacharya, a proponent of Dvaita Vedanta"
   },
   {
@@ -2333,8 +2218,7 @@
     "month_number": 7,
     "angam_type": "tithi",
     "angam_number": 10,
-    "Tags": "common-festivals",
-    "URL": "dashahara",
+    "tags": "common-festivals",
     "description_short": "Dussehra (Raama wins over Ravana)"
   },
   {
@@ -2343,8 +2227,7 @@
     "month_number": 7,
     "angam_type": "tithi",
     "angam_number": 10,
-    "Tags": "purana-events",
-    "URL": "gangavataranam",
+    "tags": "purana-events",
     "description_short": "According to Agni/Padma Puranam"
   },
   {
@@ -2353,8 +2236,7 @@
     "month_number": 7,
     "angam_type": "tithi",
     "angam_number": 10,
-    "Tags": "less-common-festivals",
-    "URL": "kushmanda-dashami",
+    "tags": "less-common-festivals",
     "description_short": "`kUSmANDa` Danam"
   },
   {
@@ -2363,8 +2245,7 @@
     "month_number": 7,
     "angam_type": "tithi",
     "angam_number": 10,
-    "Tags": "less-common-festivals",
-    "URL": "yuddhadevata-aradhana",
+    "tags": "less-common-festivals",
     "titles": "aparAjitA-ArAdhanA"
   },
   {
@@ -2375,7 +2256,7 @@
     "angam_number": 10,
     "kala": "sunset",
     "priority": "purvaviddha",
-    "Tags": "dashavataram,less-common-festivals",
+    "tags": "dashavataram,less-common-festivals",
     "URL": "buddha-jayanti"
   },
   {
@@ -2384,7 +2265,7 @@
     "month_number": 7,
     "angam_type": "tithi",
     "angam_number": 10,
-    "Tags": "common-festivals",
+    "tags": "common-festivals",
     "URL": "durga-puja"
   },
   {
@@ -2393,7 +2274,7 @@
     "month_number": 7,
     "angam_type": "tithi",
     "angam_number": 15,
-    "Tags": "purnima-days,common-festivals",
+    "tags": "purnima-days,common-festivals",
     "URL": "sharad-purnima"
   },
   {
@@ -2402,7 +2283,7 @@
     "month_number": 7,
     "angam_type": "tithi",
     "angam_number": 15,
-    "Tags": "mahapurusha-events",
+    "tags": "mahapurusha-events",
     "URL": "valmiki-maharshi-jayanti"
   },
   {
@@ -2411,8 +2292,7 @@
     "month_number": 7,
     "angam_type": "tithi",
     "angam_number": 15,
-    "Tags": "special-vratams,common-festivals",
-    "URL": "ko-jagarti-vratam",
+    "tags": "special-vratams,common-festivals",
     "description_short": "Have to play Aksha kreeda only on this day and Ko-jagarti-Vratam (Lakshmi will ask \"who are awake\"). Vaalakhilya Rushi mentioned Ko-jagarti Vratam",
     "Shloka": "nizIthE varadA lakSmIH kO jAgartIti bhASiNI.\ntasmai vittaM prayacchAmi akSaiH krIDAM karOti yaH..",
     "references_secondary": "Vaidikasri Oct 2015",
@@ -2425,7 +2305,7 @@
     "angam_type": "tithi",
     "angam_number": 15,
     "Start Year": 4599,
-    "Tags": "mahapurusha-events",
+    "tags": "mahapurusha-events",
     "URL": "mirabai-jayanti"
   },
   {
@@ -2434,7 +2314,7 @@
     "month_number": 7,
     "angam_type": "tithi",
     "angam_number": 15,
-    "Tags": "less-common-festivals",
+    "tags": "less-common-festivals",
     "URL": "kaumudi-utsava"
   },
   {
@@ -2443,8 +2323,7 @@
     "month_number": 7,
     "angam_type": "tithi",
     "angam_number": 15,
-    "Tags": "special-pujas",
-    "URL": "lakshmi-indra-kubera-puja",
+    "tags": "special-pujas",
     "references_primary": "Purushartha Chintamani"
   },
   {
@@ -2453,7 +2332,7 @@
     "month_number": 7,
     "angam_type": "tithi",
     "angam_number": 15,
-    "Tags": "purnima-days",
+    "tags": "purnima-days",
     "URL": "kumara-paurnamasi-maha-ashvini"
   },
   {
@@ -2462,8 +2341,7 @@
     "month_number": 7,
     "angam_type": "tithi",
     "angam_number": 15,
-    "Tags": "special-vratams",
-    "URL": "kunti-(parvati)-vratam",
+    "tags": "special-vratams",
     "description_short": "Kunti-vratam done today will remove all paapams (including Gohatya). As per Bhavishyottara Puraana. Here Kunti means Parvati. Also, some people worship Yudhisthira's mother Kunti. In AP/TEL, eldest child is given new clothes, harti and blessed \"Deerghayushman\"."
   },
   {
@@ -2472,8 +2350,7 @@
     "month_number": 7,
     "angam_type": "tithi",
     "angam_number": 16,
-    "Tags": "special-vratams",
-    "URL": "jayavapti-vratam",
+    "tags": "special-vratams",
     "references_primary": "Chaturvarga Chintamani"
   },
   {
@@ -2483,8 +2360,7 @@
     "angam_type": "tithi",
     "angam_number": 17,
     "kala": "moonrise",
-    "Tags": "special-vratams",
-    "URL": "ashunyashayana-vratam",
+    "tags": "special-vratams",
     "references_primary": "Purushartha Chintamani"
   },
   {
@@ -2493,7 +2369,7 @@
     "month_number": 7,
     "angam_type": "tithi",
     "angam_number": 18,
-    "Tags": "special-vratams",
+    "tags": "special-vratams",
     "URL": "kanaka-ganesha-vratam"
   },
   {
@@ -2502,7 +2378,7 @@
     "month_number": 7,
     "angam_type": "tithi",
     "angam_number": 18,
-    "Tags": "special-vratams",
+    "tags": "special-vratams",
     "URL": "lalita-gauri-vratam"
   },
   {
@@ -2513,8 +2389,7 @@
     "angam_number": 18,
     "kala": "moonrise",
     "priority": "purvaviddha",
-    "Tags": "special-vratams",
-    "URL": "chandrodaya-uma-vratam",
+    "tags": "special-vratams",
     "description_short": "Attla-Taddi (Telugu). After moonrise, Uma devi pooja; From this day to Deepaavali eat more Urad dal"
   },
   {
@@ -2525,8 +2400,7 @@
     "angam_number": 19,
     "kala": "moonrise",
     "priority": "purvaviddha",
-    "Tags": "special-pujas",
-    "URL": "karaka-chaturthi",
+    "tags": "special-pujas",
     "references_secondary": "Kielhorn (1897)"
   },
   {
@@ -2535,8 +2409,7 @@
     "month_number": 7,
     "angam_type": "tithi",
     "angam_number": 20,
-    "Tags": "less-common-festivals",
-    "URL": "ghotaka-panchami",
+    "tags": "less-common-festivals",
     "references_secondary": "Kielhorn (1897)"
   },
   {
@@ -2545,8 +2418,7 @@
     "month_number": 7,
     "angam_type": "tithi",
     "angam_number": 23,
-    "Tags": "special-pujas,less-common-festivals",
-    "URL": "jimutavahana-puja",
+    "tags": "special-pujas,less-common-festivals",
     "description_short": "In North India, for progeny",
     "references_secondary": "Kielhorn (1897)"
   },
@@ -2556,8 +2428,7 @@
     "month_number": 7,
     "angam_type": "tithi",
     "angam_number": 23,
-    "Tags": "special-vratams",
-    "URL": "mangala-vratam",
+    "tags": "special-vratams",
     "references_secondary": "Kielhorn (1897)",
     "references_primary": "Chaturvarga Chintamani"
   },
@@ -2567,8 +2438,7 @@
     "month_number": 7,
     "angam_type": "tithi",
     "angam_number": 23,
-    "Tags": "less-common-festivals",
-    "URL": "kalashtami",
+    "tags": "less-common-festivals",
     "references_primary": "Aamaar Jyotishi"
   },
   {
@@ -2577,8 +2447,7 @@
     "month_number": 7,
     "angam_type": "tithi",
     "angam_number": 23,
-    "Tags": "less-common-festivals",
-    "URL": "jivaputrikashtami",
+    "tags": "less-common-festivals",
     "references_primary": "Krutyasaara samucchayam"
   },
   {
@@ -2587,8 +2456,7 @@
     "month_number": 7,
     "angam_type": "tithi",
     "angam_number": 23,
-    "Tags": "special-vratams",
-    "URL": "mahalakshmi-vratam",
+    "tags": "special-vratams",
     "references_primary": "Krutyasaara samucchayam"
   },
   {
@@ -2597,8 +2465,7 @@
     "month_number": 7,
     "angam_type": "tithi",
     "angam_number": 24,
-    "Tags": "purana-events",
-    "URL": "bhimasena-jayanti",
+    "tags": "purana-events",
     "description_short": "Bhava year",
     "references_secondary": "Kielhorn (1897)"
   },
@@ -2610,8 +2477,7 @@
     "angam_number": 27,
     "kala": "pradosha",
     "priority": "purvaviddha",
-    "Tags": "special-vratams,less-common-festivals",
-    "URL": "govatsa-dvadashi",
+    "tags": "special-vratams,less-common-festivals",
     "titles": "vizoka-dvAdazI\nekhaNDa-dvAdazI\npadmanAbha-dvAdazI"
   },
   {
@@ -2620,8 +2486,7 @@
     "month_number": 7,
     "angam_type": "tithi",
     "angam_number": 27,
-    "Tags": "less-common-festivals",
-    "URL": "vasudeva-puja",
+    "tags": "less-common-festivals",
     "references_primary": "Smriti Kaustubham"
   },
   {
@@ -2630,8 +2495,7 @@
     "month_number": 7,
     "angam_type": "tithi",
     "angam_number": 27,
-    "Tags": "less-common-festivals",
-    "URL": "vyaghra-dvadashi",
+    "tags": "less-common-festivals",
     "description_short": "In Gujarat",
     "references_primary": "Smriti Kaustubham"
   },
@@ -2641,8 +2505,7 @@
     "month_number": 7,
     "angam_type": "tithi",
     "angam_number": 28,
-    "Tags": "common-festivals",
-    "URL": "dhanvantari-jayanti",
+    "tags": "common-festivals",
     "description_short": "Dhanvantari Jayanti (born as Divodaas King of Kaashi) as per Brahmanda-Puraana (Dvadashi?)"
   },
   {
@@ -2651,8 +2514,7 @@
     "month_number": 7,
     "angam_type": "tithi",
     "angam_number": 28,
-    "Tags": "common-festivals",
-    "URL": "dhana-trayodashi",
+    "tags": "common-festivals",
     "description_short": "Dhan-trayodashi in Gujarat; Lakshmi pooja"
   },
   {
@@ -2661,8 +2523,7 @@
     "month_number": 7,
     "angam_type": "tithi",
     "angam_number": 28,
-    "Tags": "special-vratams",
-    "URL": "go-triratri-vratam",
+    "tags": "special-vratams",
     "references_primary": "Chaturvarga Chintamani"
   },
   {
@@ -2671,8 +2532,7 @@
     "month_number": 7,
     "angam_type": "tithi",
     "angam_number": 28,
-    "Tags": "common-festivals",
-    "URL": "(yama)-dipa-trayodashi",
+    "tags": "common-festivals",
     "description_short": "Do `dAnaM` of `dIpam`, light deepam outside the house.",
     "Shloka": "AzvinasyAsitE pakSE trayOdazyAM nizAmukhE.\nyamadIpaM bahirdadyAt apamRtyurvinazyati..\n\nmRtyunA pAzadaNDAbhyAM kAlEna zyAmayA saha.\ntrayOdazyAM dIpadAnAt sUryajaH prIyatAM mama.."
   },
@@ -2682,8 +2542,7 @@
     "month_number": 7,
     "angam_type": "tithi",
     "angam_number": 29,
-    "Tags": "common-festivals",
-    "URL": "naraka-chaturdashi",
+    "tags": "common-festivals",
     "description_short": "\n*ShriKrishna killed Muraasura and Narakaasura on this day.\n*Must do Taila-abhyangana-snaanam in early morning before sunrise, else Narakam (as per PadmaPurana) . If done, equal to GangaSnanam and avoids YamaYaatanam. Use water stored from previous day. Previous day night do pooja to water. Use this water on Chaturdashi. With plough uproot Upaamaarga-vruksham (small one) and put in the water. (DO NOT PLUCK WITH HAND). Do dhyaanam of Seeta.\n* As per KalikaPuranam, Naraka was also upraised by Janaka. He was then sent to PraajyotishaPuram."
   },
   {
@@ -2692,8 +2551,7 @@
     "month_number": 7,
     "angam_type": "tithi",
     "angam_number": 29,
-    "Tags": "less-common-festivals",
-    "URL": "dipotsava-chaturdashi-yama-tarpanam",
+    "tags": "less-common-festivals",
     "description_short": "Perform Tarpana to Yamadharmaraja (even those with father). `jIvatpitA'pi kurvIta tarpaNaM yamabhISmayoH`"
   },
   {
@@ -2702,8 +2560,7 @@
     "month_number": 7,
     "angam_type": "tithi",
     "angam_number": 29,
-    "Tags": "less-common-festivals",
-    "URL": "preta-chaturdashi",
+    "tags": "less-common-festivals",
     "description_short": "Perform Deepa Danam for Yamadharmaraja in evening",
     "references_primary": "Vrata Chudamani"
   },
@@ -2713,7 +2570,7 @@
     "month_number": 7,
     "angam_type": "tithi",
     "angam_number": 30,
-    "Tags": "mahapurusha-events",
+    "tags": "mahapurusha-events",
     "URL": "vikramaditya-pattabhisheka"
   },
   {
@@ -2722,7 +2579,7 @@
     "month_number": 7,
     "angam_type": "tithi",
     "angam_number": 30,
-    "Tags": "purana-events",
+    "tags": "purana-events",
     "URL": "rama-pattabhisheka"
   },
   {
@@ -2731,8 +2588,7 @@
     "month_number": 7,
     "angam_type": "tithi",
     "angam_number": 30,
-    "Tags": "common-festivals",
-    "URL": "dipavali-lakshmi-kubera-puja",
+    "tags": "common-festivals",
     "description_short": "Gives light even to Naraka-vasis; Also, Bali was sent to Paatalam on this day."
   },
   {
@@ -2741,7 +2597,7 @@
     "month_number": 7,
     "angam_type": "tithi",
     "angam_number": 30,
-    "Tags": "special-vratams",
+    "tags": "special-vratams",
     "URL": "kedara-gauri-vratam"
   },
   {
@@ -2752,8 +2608,7 @@
     "angam_number": 1,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "purana-events",
-    "URL": "govardhana-puja",
+    "tags": "purana-events",
     "description_short": "Commemoration of Govardhana Leela of Krishna. Offer naivedyam to Lord Krishna.",
     "titles": "annakUT"
   },
@@ -2765,7 +2620,7 @@
     "angam_number": 2,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "common-festivals",
+    "tags": "common-festivals",
     "URL": "yama-bhratri-dvitiya"
   },
   {
@@ -2776,8 +2631,7 @@
     "angam_number": 5,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "less-common-festivals",
-    "URL": "devasena-panchami",
+    "tags": "less-common-festivals",
     "references_secondary": "https://twitter.com/blog_supplement/status/923044462229671936"
   },
   {
@@ -2788,7 +2642,7 @@
     "angam_number": 5,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "less-common-festivals",
+    "tags": "less-common-festivals",
     "URL": "pandava-panchami"
   },
   {
@@ -2797,8 +2651,7 @@
     "month_number": 8,
     "angam_type": "tithi",
     "angam_number": 5,
-    "Tags": "special-pujas,purana-events",
-    "URL": "sarpa-puja",
+    "tags": "special-pujas,purana-events",
     "description_short": "Vishnu's boon to AdiSesha that humans will worship on this day"
   },
   {
@@ -2809,7 +2662,7 @@
     "angam_number": 8,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "less-common-festivals",
+    "tags": "less-common-festivals",
     "URL": "gopashtami"
   },
   {
@@ -2820,8 +2673,7 @@
     "angam_number": 9,
     "kala": "sangava",
     "priority": "purvaviddha",
-    "Tags": "yugadi-days",
-    "URL": "kritayugadi",
+    "tags": "yugadi-days",
     "description_short": "Perform Samudra Snanam and Shraddha."
   },
   {
@@ -2830,7 +2682,7 @@
     "month_number": 8,
     "angam_type": "tithi",
     "angam_number": 9,
-    "Tags": "less-common-festivals",
+    "tags": "less-common-festivals",
     "URL": "akshaya-navami"
   },
   {
@@ -2839,7 +2691,7 @@
     "month_number": 8,
     "angam_type": "tithi",
     "angam_number": 9,
-    "Tags": "bengal-festivals",
+    "tags": "bengal-festivals",
     "URL": "jagaddhatri-puja"
   },
   {
@@ -2848,7 +2700,7 @@
     "month_number": 8,
     "angam_type": "tithi",
     "angam_number": 15,
-    "Tags": "special-period-end",
+    "tags": "special-period-end",
     "URL": "chaturmasya-samapanam"
   },
   {
@@ -2857,8 +2709,7 @@
     "month_number": 8,
     "angam_type": "tithi",
     "angam_number": 11,
-    "Tags": "adi-shankara-history",
-    "URL": "adi-shankara-manasika-sannyasa-dinam",
+    "tags": "adi-shankara-history",
     "description_short": "In Plava Nama year Adi Shankara obtained permission from mother and took manasika sanyasam"
   },
   {
@@ -2869,7 +2720,7 @@
     "angam_number": 12,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "common-festivals",
+    "tags": "common-festivals",
     "URL": "tulasi-vivaha"
   },
   {
@@ -2878,7 +2729,7 @@
     "month_number": 8,
     "angam_type": "tithi",
     "angam_number": 12,
-    "Tags": "mahapurusha-events",
+    "tags": "mahapurusha-events",
     "URL": "yajnavalkya-jayanti"
   },
   {
@@ -2887,7 +2738,7 @@
     "month_number": 8,
     "angam_type": "tithi",
     "angam_number": 12,
-    "Tags": "common-festivals",
+    "tags": "common-festivals",
     "URL": "brindavana-dvadashi"
   },
   {
@@ -2896,7 +2747,7 @@
     "month_number": 8,
     "angam_type": "tithi",
     "angam_number": 12,
-    "Tags": "common-festivals",
+    "tags": "common-festivals",
     "URL": "prabodhotsava"
   },
   {
@@ -2905,7 +2756,7 @@
     "month_number": 8,
     "angam_type": "tithi",
     "angam_number": 12,
-    "Tags": "manvadi-days",
+    "tags": "manvadi-days",
     "URL": "manvadi-svarochisha"
   },
   {
@@ -2916,7 +2767,7 @@
     "angam_number": 15,
     "kala": "pradosha",
     "priority": "purvaviddha",
-    "Tags": "common-festivals",
+    "tags": "common-festivals",
     "URL": "tripurotsava"
   },
   {
@@ -2925,7 +2776,7 @@
     "month_number": 8,
     "angam_type": "tithi",
     "angam_number": 15,
-    "Tags": "manvadi-days",
+    "tags": "manvadi-days",
     "URL": "manvadi-daksha-savarni"
   },
   {
@@ -2936,7 +2787,7 @@
     "angam_number": 15,
     "kala": "pradosha",
     "priority": "purvaviddha",
-    "Tags": "manvadi-days",
+    "tags": "manvadi-days",
     "URL": "manvadi-uttama"
   },
   {
@@ -2947,8 +2798,7 @@
     "angam_number": 15,
     "kala": "arunodaya",
     "priority": "paraviddha",
-    "Tags": "special-snanam",
-    "URL": "a-ka-ma-vai-snanam",
+    "tags": "special-snanam",
     "description_short": "Perform snana four ghatikas before sunrise (during `aruNodayam`, when the Moon is still up, on the full-moon days of `ASADha`, `kArtika`, `mAgha` and `vaizAkha` \u2013 hence the name `A-kA-mA-vai`) bestows strength, beauty, fame, dharma, knowledge, happiness, fortitude and health.",
     "references_secondary": "Vaidikasri",
     "references_primary": "Satyavrata Smriti"
@@ -2961,8 +2811,7 @@
     "angam_number": 15,
     "kala": "pradosha",
     "priority": "purvaviddha",
-    "Tags": "other-avatarams",
-    "URL": "dattatreya-jayanti",
+    "tags": "other-avatarams",
     "Shloka": "Adau brahmA madhyE viSNurantE dEvaH sadAzivaH.\nmUrtitrayasvarUpAya dattAtrEya namO'stu tE.. "
   },
   {
@@ -2971,8 +2820,7 @@
     "month_number": 3,
     "angam_type": "tithi",
     "angam_number": 2,
-    "Tags": "mahapurusha-events,sringeri-aradhana-days",
-    "URL": "shringeri-32-jagadguru-shri-nrisimha-bharati-aradhana",
+    "tags": "mahapurusha-events,sringeri-aradhana-days",
     "Shloka": "prahlAdavaradO dEvO yO nRsiMhaH parO hariH.\nnRsiMhOpAsakaM nityaM taM nRsiMhaH guruM bhajE.."
   },
   {
@@ -2981,8 +2829,7 @@
     "month_number": 6,
     "angam_type": "tithi",
     "angam_number": 30,
-    "Tags": "mahapurusha-events,sringeri-aradhana-days",
-    "URL": "shringeri-34-jagadguru-shri-chandrashekhara-bharati-aradhana",
+    "tags": "mahapurusha-events,sringeri-aradhana-days",
     "Shloka": "sadA''tmadhyAnanirataM viSayEbhyaH paraGmukham .\nnaumi zAstrESu niSNAtaM candrazEkharabhAratIm .."
   },
   {
@@ -2991,8 +2838,7 @@
     "month_number": 6,
     "angam_type": "tithi",
     "angam_number": 22,
-    "Tags": "mahapurusha-events,sringeri-aradhana-days",
-    "URL": "shringeri-35-jagadguru-shri-abhinava-vidyatirtha-mahasvami-aradhana",
+    "tags": "mahapurusha-events,sringeri-aradhana-days",
     "Shloka": "vivEkinaM mahAprAjJyaM dhairyaudAryakSamAnidhim .\nsadA'bhinavapUrvaM taM vidyAtIrthaguruM bhajE .."
   },
   {
@@ -3001,8 +2847,7 @@
     "month_number": 7,
     "angam_type": "tithi",
     "angam_number": 26,
-    "Tags": "mahapurusha-events",
-    "URL": "shringeri-34-jagadguru-shri-chandrashekhara-bharati-jayanti",
+    "tags": "mahapurusha-events",
     "Shloka": "sadA''tmadhyAnanirataM viSayEbhyaH paraGmukham .\nnaumi zAstrESu niSNAtaM candrazEkharabhAratIm .."
   },
   {
@@ -3011,8 +2856,7 @@
     "month_number": 7,
     "angam_type": "tithi",
     "angam_number": 29,
-    "Tags": "mahapurusha-events",
-    "URL": "shringeri-35-jagadguru-shri-abhinava-vidyatirtha-mahasvami-jayanti",
+    "tags": "mahapurusha-events",
     "Shloka": "vivEkinaM mahAprAjJyaM dhairyaudAryakSamAnidhim .\nsadA'bhinavapUrvaM taM vidyAtIrthaguruM bhajE .."
   },
   {
@@ -3021,7 +2865,7 @@
     "month_number": 6,
     "angam_type": "tithi",
     "angam_number": 27,
-    "Tags": "mahapurusha-events",
+    "tags": "mahapurusha-events",
     "URL": "shri-bodhendra-sarasvati-aradhana"
   },
   {
@@ -3032,7 +2876,7 @@
     "angam_number": 15,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "kanchi-aradhana-days",
+    "tags": "kanchi-aradhana-days",
     "URL": "shri-govinda-bhagavatpada-aradhana"
   },
   {
@@ -3044,8 +2888,7 @@
     "Start Year": 2626,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "kanchi-aradhana-days",
-    "URL": "kanchi-1-jagadguru-shri-adi-shankara-bhagavatpada-aradhana",
+    "tags": "kanchi-aradhana-days",
     "references_secondary": "www.kamakoti.org"
   },
   {
@@ -3057,8 +2900,7 @@
     "Start Year": 2696,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "kanchi-aradhana-days",
-    "URL": "kanchi-2-jagadguru-shri-sureshvaracharya-aradhana",
+    "tags": "kanchi-aradhana-days",
     "references_secondary": "www.kamakoti.org"
   },
   {
@@ -3070,8 +2912,7 @@
     "Start Year": 2738,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "kanchi-aradhana-days",
-    "URL": "kanchi-3-jagadguru-shri-sarvajnatmendra-sarasvati-aradhana",
+    "tags": "kanchi-aradhana-days",
     "references_secondary": "www.kamakoti.org"
   },
   {
@@ -3083,8 +2924,7 @@
     "Start Year": 2834,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "kanchi-aradhana-days",
-    "URL": "kanchi-4-jagadguru-shri-satyabodhendra-sarasvati-aradhana",
+    "tags": "kanchi-aradhana-days",
     "references_secondary": "www.kamakoti.org"
   },
   {
@@ -3096,8 +2936,7 @@
     "Start Year": 2897,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "kanchi-aradhana-days",
-    "URL": "kanchi-5-jagadguru-shri-jnananandendra-sarasvati-aradhana",
+    "tags": "kanchi-aradhana-days",
     "references_secondary": "www.kamakoti.org"
   },
   {
@@ -3109,8 +2948,7 @@
     "Start Year": 2978,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "kanchi-aradhana-days",
-    "URL": "kanchi-6-jagadguru-shri-shuddhanandendra-sarasvati-aradhana",
+    "tags": "kanchi-aradhana-days",
     "references_secondary": "www.kamakoti.org"
   },
   {
@@ -3122,8 +2960,7 @@
     "Start Year": 3047,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "kanchi-aradhana-days",
-    "URL": "kanchi-7-jagadguru-shri-anandaghanendra-sarasvati-aradhana",
+    "tags": "kanchi-aradhana-days",
     "references_secondary": "www.kamakoti.org"
   },
   {
@@ -3135,8 +2972,7 @@
     "Start Year": 3130,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "kanchi-aradhana-days",
-    "URL": "kanchi-8-jagadguru-shri-kaivalyanandayogendra-sarasvati-aradhana",
+    "tags": "kanchi-aradhana-days",
     "references_secondary": "www.kamakoti.org"
   },
   {
@@ -3148,8 +2984,7 @@
     "Start Year": 3170,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "kanchi-aradhana-days",
-    "URL": "kanchi-9-jagadguru-shri-kripashnkarendra-sarasvati-aradhana",
+    "tags": "kanchi-aradhana-days",
     "references_secondary": "www.kamakoti.org"
   },
   {
@@ -3161,8 +2996,7 @@
     "Start Year": 3228,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "kanchi-aradhana-days",
-    "URL": "kanchi-10-jagadguru-shri-sureshvarendra-sarasvati-aradhana",
+    "tags": "kanchi-aradhana-days",
     "references_secondary": "www.kamakoti.org"
   },
   {
@@ -3174,8 +3008,7 @@
     "Start Year": 3273,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "kanchi-aradhana-days",
-    "URL": "kanchi-11-jagadguru-shri-shivananda-chidghanendra-sarasvati-aradhana",
+    "tags": "kanchi-aradhana-days",
     "references_secondary": "www.kamakoti.org"
   },
   {
@@ -3187,8 +3020,7 @@
     "Start Year": 3336,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "kanchi-aradhana-days",
-    "URL": "kanchi-12-jagadguru-shri-chandrashekharendra-sarasvati-aradhana",
+    "tags": "kanchi-aradhana-days",
     "references_secondary": "www.kamakoti.org"
   },
   {
@@ -3200,8 +3032,7 @@
     "Start Year": 3373,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "kanchi-aradhana-days",
-    "URL": "kanchi-13-jagadguru-shri-sachchidghanendra-sarasvati-aradhana",
+    "tags": "kanchi-aradhana-days",
     "references_secondary": "www.kamakoti.org"
   },
   {
@@ -3213,8 +3044,7 @@
     "Start Year": 3418,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "kanchi-aradhana-days",
-    "URL": "kanchi-14-jagadguru-shri-vidyaghanendra-sarasvati-aradhana",
+    "tags": "kanchi-aradhana-days",
     "references_secondary": "www.kamakoti.org"
   },
   {
@@ -3226,8 +3056,7 @@
     "Start Year": 3430,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "kanchi-aradhana-days",
-    "URL": "kanchi-15-jagadguru-shri-gangadharendra-sarasvati-aradhana",
+    "tags": "kanchi-aradhana-days",
     "references_secondary": "www.kamakoti.org"
   },
   {
@@ -3239,8 +3068,7 @@
     "Start Year": 3468,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "kanchi-aradhana-days",
-    "URL": "kanchi-16-jagadguru-shri-ujjvala-shankarendra-sarasvati-aradhana",
+    "tags": "kanchi-aradhana-days",
     "references_secondary": "www.kamakoti.org"
   },
   {
@@ -3252,8 +3080,7 @@
     "Start Year": 3476,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "kanchi-aradhana-days",
-    "URL": "kanchi-17-jagadguru-shri-sadashivendra-sarasvati-aradhana",
+    "tags": "kanchi-aradhana-days",
     "references_secondary": "www.kamakoti.org"
   },
   {
@@ -3265,8 +3092,7 @@
     "Start Year": 3486,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "kanchi-aradhana-days",
-    "URL": "kanchi-18-jagadguru-shri-yogatilaka-surendra-sarasvati-aradhana",
+    "tags": "kanchi-aradhana-days",
     "references_secondary": "www.kamakoti.org"
   },
   {
@@ -3278,8 +3104,7 @@
     "Start Year": 3499,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "kanchi-aradhana-days",
-    "URL": "kanchi-19-jagadguru-shri-martanda-vidyaghanendra-sarasvati-aradhana",
+    "tags": "kanchi-aradhana-days",
     "references_secondary": "www.kamakoti.org"
   },
   {
@@ -3291,8 +3116,7 @@
     "Start Year": 3538,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "kanchi-aradhana-days",
-    "URL": "kanchi-20-jagadguru-shri-mukashankarendra-sarasvati-aradhana",
+    "tags": "kanchi-aradhana-days",
     "references_secondary": "www.kamakoti.org"
   },
   {
@@ -3304,8 +3128,7 @@
     "Start Year": 3548,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "kanchi-aradhana-days",
-    "URL": "kanchi-21-jagadguru-shri-chandrashekharendra-sarasvati-2-aradhana",
+    "tags": "kanchi-aradhana-days",
     "references_secondary": "www.kamakoti.org"
   },
   {
@@ -3317,8 +3140,7 @@
     "Start Year": 3582,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "kanchi-aradhana-days",
-    "URL": "kanchi-22-jagadguru-shri-bodhendra-sarasvati-aradhana",
+    "tags": "kanchi-aradhana-days",
     "references_secondary": "www.kamakoti.org"
   },
   {
@@ -3330,8 +3152,7 @@
     "Start Year": 3613,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "kanchi-aradhana-days",
-    "URL": "kanchi-23-jagadguru-shri-sachchitsukhendra-sarasvati-aradhana",
+    "tags": "kanchi-aradhana-days",
     "references_secondary": "www.kamakoti.org"
   },
   {
@@ -3343,8 +3164,7 @@
     "Start Year": 3628,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "kanchi-aradhana-days",
-    "URL": "kanchi-24-jagadguru-shri-chitsukhendra-sarasvati-aradhana",
+    "tags": "kanchi-aradhana-days",
     "references_secondary": "www.kamakoti.org"
   },
   {
@@ -3356,8 +3176,7 @@
     "Start Year": 3649,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "kanchi-aradhana-days",
-    "URL": "kanchi-25-jagadguru-shri-sachchidanandaghanendra-sarasvati-aradhana",
+    "tags": "kanchi-aradhana-days",
     "references_secondary": "www.kamakoti.org"
   },
   {
@@ -3369,8 +3188,7 @@
     "Start Year": 3665,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "kanchi-aradhana-days",
-    "URL": "kanchi-26-jagadguru-shri-prajnaaghanendra-sarasvati-aradhana",
+    "tags": "kanchi-aradhana-days",
     "references_secondary": "www.kamakoti.org"
   },
   {
@@ -3382,8 +3200,7 @@
     "Start Year": 3678,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "kanchi-aradhana-days",
-    "URL": "kanchi-27-jagadguru-shri-chidvilasendra-sarasvati-aradhana",
+    "tags": "kanchi-aradhana-days",
     "references_secondary": "www.kamakoti.org"
   },
   {
@@ -3395,8 +3212,7 @@
     "Start Year": 3702,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "kanchi-aradhana-days",
-    "URL": "kanchi-28-jagadguru-shri-mahadevendra-sarasvati-1-aradhana",
+    "tags": "kanchi-aradhana-days",
     "references_secondary": "www.kamakoti.org"
   },
   {
@@ -3408,8 +3224,7 @@
     "Start Year": 3719,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "kanchi-aradhana-days",
-    "URL": "kanchi-29-jagadguru-shri-purnabodhendra-sarasvati-aradhana",
+    "tags": "kanchi-aradhana-days",
     "references_secondary": "www.kamakoti.org"
   },
   {
@@ -3421,8 +3236,7 @@
     "Start Year": 3756,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "kanchi-aradhana-days",
-    "URL": "kanchi-30-jagadguru-shri-bodhendra-sarasvati-2-aradhana",
+    "tags": "kanchi-aradhana-days",
     "references_secondary": "www.kamakoti.org"
   },
   {
@@ -3434,8 +3248,7 @@
     "Start Year": 3769,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "kanchi-aradhana-days",
-    "URL": "kanchi-31-jagadguru-shri-brahmanandaghanendra-sarasvati-aradhana",
+    "tags": "kanchi-aradhana-days",
     "references_secondary": "www.kamakoti.org"
   },
   {
@@ -3447,8 +3260,7 @@
     "Start Year": 3773,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "kanchi-aradhana-days",
-    "URL": "kanchi-32-jagadguru-shri-chidanandaghanendra-sarasvati-aradhana",
+    "tags": "kanchi-aradhana-days",
     "references_secondary": "www.kamakoti.org"
   },
   {
@@ -3460,8 +3272,7 @@
     "Start Year": 3793,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "kanchi-aradhana-days",
-    "URL": "kanchi-33-jagadguru-shri-sachchidananda-sarasvati-aradhana",
+    "tags": "kanchi-aradhana-days",
     "references_secondary": "www.kamakoti.org"
   },
   {
@@ -3473,8 +3284,7 @@
     "Start Year": 3811,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "kanchi-aradhana-days",
-    "URL": "kanchi-34-jagadguru-shri-chandrashekharendra-sarasvati-3-aradhana",
+    "tags": "kanchi-aradhana-days",
     "references_secondary": "www.kamakoti.org"
   },
   {
@@ -3486,8 +3296,7 @@
     "Start Year": 3838,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "kanchi-aradhana-days",
-    "URL": "kanchi-35-jagadguru-shri-chitsukhendra-sarasvati-aradhana",
+    "tags": "kanchi-aradhana-days",
     "references_secondary": "www.kamakoti.org"
   },
   {
@@ -3499,8 +3308,7 @@
     "Start Year": 3859,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "kanchi-aradhana-days",
-    "URL": "kanchi-36-jagadguru-shri-chitsukhanandendra-sarasvati-aradhana",
+    "tags": "kanchi-aradhana-days",
     "references_secondary": "www.kamakoti.org"
   },
   {
@@ -3512,8 +3320,7 @@
     "Start Year": 3889,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "kanchi-aradhana-days",
-    "URL": "kanchi-37-jagadguru-shri-vidyaghanendra-sarasvati-3-aradhana",
+    "tags": "kanchi-aradhana-days",
     "references_secondary": "www.kamakoti.org"
   },
   {
@@ -3525,8 +3332,7 @@
     "Start Year": 3941,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "kanchi-aradhana-days",
-    "URL": "kanchi-38-jagadguru-shri-abhinavashankarendra-sarasvati-aradhana",
+    "tags": "kanchi-aradhana-days",
     "references_secondary": "www.kamakoti.org"
   },
   {
@@ -3538,8 +3344,7 @@
     "Start Year": 3974,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "kanchi-aradhana-days",
-    "URL": "kanchi-39-jagadguru-shri-sachchidvilasendra-sarasvati-aradhana",
+    "tags": "kanchi-aradhana-days",
     "references_secondary": "www.kamakoti.org"
   },
   {
@@ -3551,8 +3356,7 @@
     "Start Year": 4016,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "kanchi-aradhana-days",
-    "URL": "kanchi-40-jagadguru-shri-mahadevendra-sarasvati-2-aradhana",
+    "tags": "kanchi-aradhana-days",
     "references_secondary": "www.kamakoti.org"
   },
   {
@@ -3564,8 +3368,7 @@
     "Start Year": 4051,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "kanchi-aradhana-days",
-    "URL": "kanchi-41-jagadguru-shri-gangadharendra-sarasvati-2-aradhana",
+    "tags": "kanchi-aradhana-days",
     "references_secondary": "www.kamakoti.org"
   },
   {
@@ -3577,8 +3380,7 @@
     "Start Year": 4079,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "kanchi-aradhana-days",
-    "URL": "kanchi-42-jagadguru-shri-brahmanandaghanendra-sarasvati-2-aradhana",
+    "tags": "kanchi-aradhana-days",
     "references_secondary": "www.kamakoti.org"
   },
   {
@@ -3590,8 +3392,7 @@
     "Start Year": 4115,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "kanchi-aradhana-days",
-    "URL": "kanchi-43-jagadguru-shri-anandaghanendra-sarasvati-aradhana",
+    "tags": "kanchi-aradhana-days",
     "references_secondary": "www.kamakoti.org"
   },
   {
@@ -3603,8 +3404,7 @@
     "Start Year": 4141,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "kanchi-aradhana-days",
-    "URL": "kanchi-44-jagadguru-shri-purnabodhendra-sarasvati-2-aradhana",
+    "tags": "kanchi-aradhana-days",
     "references_secondary": "www.kamakoti.org"
   },
   {
@@ -3616,8 +3416,7 @@
     "Start Year": 4162,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "kanchi-aradhana-days",
-    "URL": "kanchi-45-jagadguru-shri-paramashivendra-sarasvati-1-aradhana",
+    "tags": "kanchi-aradhana-days",
     "references_secondary": "www.kamakoti.org"
   },
   {
@@ -3629,8 +3428,7 @@
     "Start Year": 4199,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "kanchi-aradhana-days",
-    "URL": "kanchi-46-jagadguru-shri-sandranandabodhendra-sarasvati-aradhana",
+    "tags": "kanchi-aradhana-days",
     "references_secondary": "www.kamakoti.org"
   },
   {
@@ -3642,8 +3440,7 @@
     "Start Year": 4267,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "kanchi-aradhana-days",
-    "URL": "kanchi-47-jagadguru-shri-chandrashekharendra-sarasvati-4-aradhana",
+    "tags": "kanchi-aradhana-days",
     "references_secondary": "www.kamakoti.org"
   },
   {
@@ -3655,8 +3452,7 @@
     "Start Year": 4301,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "kanchi-aradhana-days",
-    "URL": "kanchi-48-jagadguru-shri-advaitanandabodhendra-sarasvati-aradhana",
+    "tags": "kanchi-aradhana-days",
     "references_secondary": "www.kamakoti.org"
   },
   {
@@ -3668,8 +3464,7 @@
     "Start Year": 4348,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "kanchi-aradhana-days",
-    "URL": "kanchi-49-jagadguru-shri-mahadevendra-sarasvati-3-aradhana",
+    "tags": "kanchi-aradhana-days",
     "references_secondary": "www.kamakoti.org"
   },
   {
@@ -3681,8 +3476,7 @@
     "Start Year": 4398,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "kanchi-aradhana-days",
-    "URL": "kanchi-50-jagadguru-shri-chandrachudendra-sarasvati-1-aradhana",
+    "tags": "kanchi-aradhana-days",
     "references_secondary": "www.kamakoti.org"
   },
   {
@@ -3694,8 +3488,7 @@
     "Start Year": 4486,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "kanchi-aradhana-days",
-    "URL": "kanchi-51-jagadguru-shri-vidyatirthendra-sarasvati-aradhana",
+    "tags": "kanchi-aradhana-days",
     "references_secondary": "www.kamakoti.org"
   },
   {
@@ -3707,8 +3500,7 @@
     "Start Year": 4518,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "kanchi-aradhana-days",
-    "URL": "kanchi-52-jagadguru-shri-sankaranandendra-sarasvati-aradhana",
+    "tags": "kanchi-aradhana-days",
     "references_secondary": "www.kamakoti.org"
   },
   {
@@ -3720,8 +3512,7 @@
     "Start Year": 4599,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "kanchi-aradhana-days",
-    "URL": "kanchi-53-jagadguru-shri-purnananda-sadashivendra-sarasvati-aradhana",
+    "tags": "kanchi-aradhana-days",
     "references_secondary": "www.kamakoti.org"
   },
   {
@@ -3733,8 +3524,7 @@
     "Start Year": 4608,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "kanchi-aradhana-days",
-    "URL": "kanchi-54-jagadguru-shri-vyasachala-mahadevendra-sarasvati-aradhana",
+    "tags": "kanchi-aradhana-days",
     "references_secondary": "www.kamakoti.org"
   },
   {
@@ -3746,8 +3536,7 @@
     "Start Year": 4625,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "kanchi-aradhana-days",
-    "URL": "kanchi-55-jagadguru-shri-chandrachudendra-sarasvati-2-aradhana",
+    "tags": "kanchi-aradhana-days",
     "references_secondary": "www.kamakoti.org"
   },
   {
@@ -3759,8 +3548,7 @@
     "Start Year": 4640,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "kanchi-aradhana-days",
-    "URL": "kanchi-56-jagadguru-shri-sarvajna-sadashiva-bodhendra-sarasvati-aradhana",
+    "tags": "kanchi-aradhana-days",
     "references_secondary": "www.kamakoti.org"
   },
   {
@@ -3772,8 +3560,7 @@
     "Start Year": 4687,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "kanchi-aradhana-days",
-    "URL": "kanchi-57-jagadguru-shri-paramashivendra-sarasvati-2-aradhana",
+    "tags": "kanchi-aradhana-days",
     "references_secondary": "www.kamakoti.org"
   },
   {
@@ -3785,8 +3572,7 @@
     "Start Year": 4739,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "kanchi-aradhana-days",
-    "URL": "kanchi-58-jagadguru-shri-atmabodhendra-sarasvati-aradhana",
+    "tags": "kanchi-aradhana-days",
     "references_secondary": "www.kamakoti.org"
   },
   {
@@ -3798,8 +3584,7 @@
     "Start Year": 4793,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "kanchi-aradhana-days",
-    "URL": "kanchi-59-jagadguru-shri-bhagavannama-bodhendra-sarasvati-aradhana",
+    "tags": "kanchi-aradhana-days",
     "references_secondary": "www.kamakoti.org"
   },
   {
@@ -3811,8 +3596,7 @@
     "Start Year": 4805,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "kanchi-aradhana-days",
-    "URL": "kanchi-60-jagadguru-shri-advaitatmaprakashendra-sarasvati-aradhana",
+    "tags": "kanchi-aradhana-days",
     "references_secondary": "www.kamakoti.org"
   },
   {
@@ -3824,8 +3608,7 @@
     "Start Year": 4847,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "kanchi-aradhana-days",
-    "URL": "kanchi-61-jagadguru-shri-mahadevendra-sarasvati-4-aradhana",
+    "tags": "kanchi-aradhana-days",
     "references_secondary": "www.kamakoti.org"
   },
   {
@@ -3837,8 +3620,7 @@
     "Start Year": 4884,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "kanchi-aradhana-days",
-    "URL": "kanchi-62-jagadguru-shri-chandrashekharendra-sarasvati-5-aradhana",
+    "tags": "kanchi-aradhana-days",
     "references_secondary": "www.kamakoti.org"
   },
   {
@@ -3850,8 +3632,7 @@
     "Start Year": 4915,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "kanchi-aradhana-days",
-    "URL": "kanchi-63-jagadguru-shri-mahadevendra-sarasvati-5-aradhana",
+    "tags": "kanchi-aradhana-days",
     "references_secondary": "www.kamakoti.org"
   },
   {
@@ -3863,8 +3644,7 @@
     "Start Year": 4952,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "kanchi-aradhana-days",
-    "URL": "kanchi-64-jagadguru-shri-chandrashekharendra-sarasvati-6-aradhana",
+    "tags": "kanchi-aradhana-days",
     "references_secondary": "www.kamakoti.org"
   },
   {
@@ -3876,8 +3656,7 @@
     "Start Year": 4991,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "kanchi-aradhana-days",
-    "URL": "kanchi-65-jagadguru-shri-sudarshana-mahadevendra-sarasvati-aradhana",
+    "tags": "kanchi-aradhana-days",
     "references_secondary": "www.kamakoti.org"
   },
   {
@@ -3889,8 +3668,7 @@
     "Start Year": 5008,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "kanchi-aradhana-days",
-    "URL": "kanchi-66-jagadguru-shri-chandrashekharendra-sarasvati-7-aradhana",
+    "tags": "kanchi-aradhana-days",
     "references_secondary": "www.kamakoti.org"
   },
   {
@@ -3902,8 +3680,7 @@
     "Start Year": 5008,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "kanchi-aradhana-days",
-    "URL": "kanchi-67-jagadguru-shri-mahadevendra-sarasvati-5-aradhana",
+    "tags": "kanchi-aradhana-days",
     "references_secondary": "www.kamakoti.org"
   },
   {
@@ -3915,7 +3692,7 @@
     "Start Year": 5095,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "kanchi-aradhana-days,common-festivals",
+    "tags": "kanchi-aradhana-days,common-festivals",
     "URL": "kanchi-68-jagadguru-shri-chandrashekharendra-sarasvati-aradhana"
   },
   {
@@ -3926,7 +3703,7 @@
     "angam_number": 11,
     "kala": "sunset",
     "priority": "purvaviddha",
-    "Tags": "manvadi-days",
+    "tags": "manvadi-days",
     "URL": "manvadi-chakshusha"
   },
   {
@@ -3935,8 +3712,7 @@
     "month_number": 10,
     "angam_type": "tithi",
     "angam_number": 11,
-    "Tags": "manvadi-days",
-    "URL": "trailanga-svami-jayanti",
+    "tags": "manvadi-days",
     "description_short": "Paramahamsa described Him as \"walking Shiva of Varanasi\""
   },
   {
@@ -3945,7 +3721,7 @@
     "month_number": 9,
     "angam_type": "tithi",
     "angam_number": 11,
-    "Tags": "purana-events,common-festivals",
+    "tags": "purana-events,common-festivals",
     "URL": "gita-jayanti"
   },
   {
@@ -3954,7 +3730,7 @@
     "month_number": 9,
     "angam_type": "tithi",
     "angam_number": 2,
-    "Tags": "special-vratams",
+    "tags": "special-vratams",
     "URL": "tintrini-gauri-vratam"
   },
   {
@@ -3963,7 +3739,7 @@
     "month_number": 9,
     "angam_type": "tithi",
     "angam_number": 4,
-    "Tags": "special-vratams",
+    "tags": "special-vratams",
     "URL": "badari-gauri-vratam"
   },
   {
@@ -3972,8 +3748,7 @@
     "month_number": 9,
     "angam_type": "tithi",
     "angam_number": 6,
-    "Tags": "special-pujas",
-    "URL": "margashirsha-shivalinga-shashthi",
+    "tags": "special-pujas",
     "description_short": "Have darshan of Shivalingam today; removes Shivapachara doshas in the family.",
     "Shloka": "mArgazIrSE'malE pakSE SaSThyAM vArEM'zumAlinaH .\nzatatArAgatE candrE liGgaM syAddRSTigOcaram ."
   },
@@ -3985,8 +3760,7 @@
     "angam_number": 7,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "other-avatarams,special-pujas,common-festivals",
-    "URL": "mitra-saptami",
+    "tags": "other-avatarams,special-pujas,common-festivals",
     "description_short": "Birth of Surya to Aditya-Kashyapa on this day.",
     "Shloka": "adityAM kazyapAjjajJE mitrO nAma divAkaraH.\nsaptamyAM tEna sA khyAtA lOkE'smin mitrasaptamI.."
   },
@@ -3998,8 +3772,7 @@
     "angam_number": 7,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "special-vratams,less-common-festivals",
-    "URL": "nanda-saptami",
+    "tags": "special-vratams,less-common-festivals",
     "references_secondary": "Chaturvarga Chintamani",
     "references_primary": "Bhavishyottara Puranam"
   },
@@ -4011,7 +3784,7 @@
     "angam_number": 7,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "special-vratams,less-common-festivals",
+    "tags": "special-vratams,less-common-festivals",
     "URL": "nanda-saptami"
   },
   {
@@ -4022,8 +3795,7 @@
     "angam_number": 22,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "special-vratams,less-common-festivals",
-    "URL": "nikshubharka-saptami",
+    "tags": "special-vratams,less-common-festivals",
     "references_secondary": "Chaturvarga Chintamani",
     "references_primary": "Bhavisyat Purana"
   },
@@ -4034,8 +3806,7 @@
     "angam_type": "tithi",
     "angam_number": 15,
     "Start Year": 2616,
-    "Tags": "adi-shankara-history",
-    "URL": "badaryam-jyotirmatha-pratishthapana-jayanti",
+    "tags": "adi-shankara-history",
     "description_short": "Adi Shankara founded Jyotir Mutt, Badarinath in Rakshasa year Totakacharya as first"
   },
   {
@@ -4045,8 +3816,7 @@
     "angam_type": "tithi",
     "angam_number": 15,
     "Start Year": 2618,
-    "Tags": "adi-shankara-history",
-    "URL": "shringeryam-sharada-matha-pratishthapana-jayanti",
+    "tags": "adi-shankara-history",
     "description_short": "Adi Shankara founded Sharada Mutt, Shringeri in Pingala year Sureshwaracharya as first"
   },
   {
@@ -4055,8 +3825,7 @@
     "month_number": 9,
     "angam_type": "tithi",
     "angam_number": 15,
-    "Tags": "purnima-days",
-    "URL": "margashirsha-purnima",
+    "tags": "purnima-days",
     "description_short": "Do `dAnam` of salt, `sundararUpatvasiddhyartham`!",
     "references_secondary": "Vaidikasri Dec 2016"
   },
@@ -4066,7 +3835,7 @@
     "month_number": 9,
     "angam_type": "tithi",
     "angam_number": 15,
-    "Tags": "other-jayantis",
+    "tags": "other-jayantis",
     "URL": "annapurna-jayanti"
   },
   {
@@ -4075,7 +3844,7 @@
     "month_number": 8,
     "angam_type": "tithi",
     "angam_number": 18,
-    "Tags": "special-vratams",
+    "tags": "special-vratams",
     "URL": "saubhagya-sundari-vratam"
   },
   {
@@ -4084,7 +3853,7 @@
     "month_number": 10,
     "angam_type": "tithi",
     "angam_number": 20,
-    "Tags": "special-pujas",
+    "tags": "special-pujas",
     "URL": "bahula-panchami"
   },
   {
@@ -4094,8 +3863,7 @@
     "angam_type": "tithi",
     "angam_number": 20,
     "Start Year": 4948,
-    "Tags": "mahapurusha-events",
-    "URL": "tyagaraja-aradhana",
+    "tags": "mahapurusha-events",
     "Shloka": "kAmakrOdhAdirahitaM rAmabhaktazirOmaNim .\ntyAgarAjaguruM vandE saGgItAbdhiM kalAnidhim .."
   },
   {
@@ -4105,7 +3873,7 @@
     "angam_type": "tithi",
     "angam_number": 22,
     "Start Year": 4963,
-    "Tags": "mahapurusha-events",
+    "tags": "mahapurusha-events",
     "URL": "vivekananda-jayanti"
   },
   {
@@ -4114,8 +3882,7 @@
     "month_number": 9,
     "angam_type": "tithi",
     "angam_number": 1,
-    "Tags": "navaratri,special-period-start",
-    "URL": "vanadurga-arambha",
+    "tags": "navaratri,special-period-start",
     "description_short": "Vanadurga Navaratri. Specially celebrated in Karthiramangalam."
   },
   {
@@ -4124,8 +3891,7 @@
     "month_number": 11,
     "angam_type": "tithi",
     "angam_number": 1,
-    "Tags": "navaratri,special-period-start",
-    "URL": "shyamalanavaratri-arambha",
+    "tags": "navaratri,special-period-start",
     "description_short": "Shyamala Devi specially blesses musicians; honour musicians in this period.",
     "references_secondary": "Vaidikasri Feb 2016"
   },
@@ -4137,8 +3903,7 @@
     "angam_number": 4,
     "kala": "pradosha",
     "priority": "purvaviddha",
-    "Tags": "special-pujas",
-    "URL": "varakunda-chaturthi",
+    "tags": "special-pujas",
     "Shloka": "mAghazuklacaturthyAM tu kundapuSpaiH sadAzivam .\nsampUjya yO hi naktA''zI samprApnOti zriyaM naraH ..",
     "references_secondary": "Vaidikasri Feb 2016",
     "references_primary": "Nirnaya Sindhu 162"
@@ -4149,8 +3914,7 @@
     "month_number": 11,
     "angam_type": "tithi",
     "angam_number": 5,
-    "Tags": "special-pujas,purana-events",
-    "URL": "sarpa-puja",
+    "tags": "special-pujas,purana-events",
     "description_short": "Vishnu's boon to AdiSesha that humans will worship on this day."
   },
   {
@@ -4159,8 +3923,7 @@
     "month_number": 11,
     "angam_type": "tithi",
     "angam_number": 5,
-    "Tags": "purana-events",
-    "URL": "shrirama-vanavasa-gamanam",
+    "tags": "purana-events",
     "description_short": "Afternoon Shri Raama started to go to the forests/exile."
   },
   {
@@ -4169,8 +3932,7 @@
     "month_number": 11,
     "angam_type": "tithi",
     "angam_number": 5,
-    "Tags": "special-pujas",
-    "URL": "shri-panchami",
+    "tags": "special-pujas",
     "description_short": "Worship Mahavishnu and Mahalakshmi, Rati Devi and Manmatha with jasmine flowers.",
     "Shloka": "mAghamAsE nRpazrESTha zuklAyAM paJcamItithau.\nratikAmau tu sampUjya kartavyaH sumahOtsavaH..",
     "titles": "madana-paJcamI",
@@ -4183,8 +3945,7 @@
     "month_number": 11,
     "angam_type": "tithi",
     "angam_number": 5,
-    "Tags": "special-pujas",
-    "URL": "maghi-sarasvati-puja",
+    "tags": "special-pujas",
     "description_short": "Saraswati Puja, especially in Bengal.",
     "references_secondary": "http://hindupad.com/madana-panchami/"
   },
@@ -4194,7 +3955,7 @@
     "month_number": 11,
     "angam_type": "tithi",
     "angam_number": 7,
-    "Tags": "special-pujas,mahapurusha-events",
+    "tags": "special-pujas,mahapurusha-events",
     "URL": "ratha-saptami"
   },
   {
@@ -4203,7 +3964,7 @@
     "month_number": 11,
     "angam_type": "tithi",
     "angam_number": 7,
-    "Tags": "manvadi-days",
+    "tags": "manvadi-days",
     "URL": "manvadi-savarni"
   },
   {
@@ -4213,8 +3974,7 @@
     "angam_type": "tithi",
     "angam_number": 7,
     "Start Year": 2611,
-    "Tags": "adi-shankara-history",
-    "URL": "dvaraka-matha-pratishthapana-jayanti",
+    "tags": "adi-shankara-history",
     "description_short": "Adi Shankara founded Dwaraka Mutt in Sadharana year with HastamalakaAcharya as first"
   },
   {
@@ -4225,8 +3985,7 @@
     "angam_number": 8,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "special-pujas,common-festivals",
-    "URL": "bhishmashtami",
+    "tags": "special-pujas,common-festivals",
     "description_short": "Bhishma obtained mukti on this day; offer tarpana to Bhishma (even those with parents). Brings health, long life and harmony in family.",
     "references_secondary": "Vaidikasri Feb 2016"
   },
@@ -4236,8 +3995,7 @@
     "month_number": 9,
     "angam_type": "tithi",
     "angam_number": 9,
-    "Tags": "navaratri,special-period-end",
-    "URL": "vanadurga-navaratri-samapanam",
+    "tags": "navaratri,special-period-end",
     "description_short": "Vanadurga Navaratri. Specially celebrated in Karthiramangalam."
   },
   {
@@ -4246,7 +4004,7 @@
     "month_number": 11,
     "angam_type": "tithi",
     "angam_number": 9,
-    "Tags": "navaratri,special-period-end",
+    "tags": "navaratri,special-period-end",
     "URL": "shyamalanavaratri-samapanam"
   },
   {
@@ -4255,8 +4013,7 @@
     "month_number": 11,
     "angam_type": "tithi",
     "angam_number": 9,
-    "Tags": "mahapurusha-events",
-    "URL": "madhva-navami",
+    "tags": "mahapurusha-events",
     "description_short": "Brahmaikyam of Madhvacharya"
   },
   {
@@ -4265,7 +4022,7 @@
     "month_number": 11,
     "angam_type": "tithi",
     "angam_number": 12,
-    "Tags": "special-pujas",
+    "tags": "special-pujas",
     "URL": "bhishma-dvadashi"
   },
   {
@@ -4274,7 +4031,7 @@
     "month_number": 11,
     "angam_type": "tithi",
     "angam_number": 12,
-    "Tags": "dashavataram",
+    "tags": "dashavataram",
     "URL": "varaha-dvadashi"
   },
   {
@@ -4283,8 +4040,7 @@
     "month_number": 11,
     "angam_type": "tithi",
     "angam_number": 12,
-    "Tags": "special-pujas",
-    "URL": "tilapadma-dvadashi-tilotpatti",
+    "tags": "special-pujas",
     "description_short": "Mahavishnu created black til by extreme `tapas` on this day; light til deepam and offer `tilAnnam naivedyam`.",
     "Shloka": "mAghE tu zukladvAdazyAM yatO hi bhagavAn pura.\ntilAn utpAdayAmAsa tapaH kRtvA sudAruNam ..\ntilatailEna dIpAzcha dEyAh dEva gRhESu ca.\nnivEdayEt tilAnEva",
     "references_secondary": "Vaidikasri Feb 2016"
@@ -4295,7 +4051,7 @@
     "month_number": 11,
     "angam_type": "tithi",
     "angam_number": 15,
-    "Tags": "purnima-days",
+    "tags": "purnima-days",
     "URL": "magha-purnima"
   },
   {
@@ -4304,8 +4060,7 @@
     "month_number": 11,
     "angam_type": "tithi",
     "angam_number": 15,
-    "Tags": "common-festivals,dashamahavidya",
-    "URL": "lalita-jayanti",
+    "tags": "common-festivals,dashamahavidya",
     "description_short": "Goddess Lalita is 3rd of the Dasha Maha Vidyas."
   },
   {
@@ -4316,8 +4071,7 @@
     "angam_number": 15,
     "kala": "arunodaya",
     "priority": "paraviddha",
-    "Tags": "special-snanam",
-    "URL": "a-ka-ma-vai-snanam",
+    "tags": "special-snanam",
     "description_short": "Perform snana four ghatikas before sunrise (during `aruNodayam`, when the Moon is still up, on the full-moon days of `ASADha`, `kArtika`, `mAgha` and `vaizAkha` \u2013 hence the name `A-kA-mA-vai`) bestows strength, beauty, fame, dharma, knowledge, happiness, fortitude and health.",
     "references_secondary": "Vaidikasri",
     "references_primary": "Satyavrata Smriti"
@@ -4330,8 +4084,7 @@
     "angam_number": 28,
     "kala": "aparahna",
     "priority": "purvaviddha",
-    "Tags": "yugadi-days",
-    "URL": "dvaparayugadi",
+    "tags": "yugadi-days",
     "description_short": "Perform Samudra Snanam and Shraddha"
   },
   {
@@ -4342,8 +4095,7 @@
     "angam_number": 1,
     "kala": "aparahna",
     "priority": "purvaviddha",
-    "Tags": "kalpadi-days",
-    "URL": "kalpadi",
+    "tags": "kalpadi-days",
     "description_short": "Kalpadi"
   },
   {
@@ -4354,8 +4106,7 @@
     "angam_number": 5,
     "kala": "aparahna",
     "priority": "purvaviddha",
-    "Tags": "kalpadi-days",
-    "URL": "kalpadi",
+    "tags": "kalpadi-days",
     "description_short": "Kalpadi"
   },
   {
@@ -4366,8 +4117,7 @@
     "angam_number": 3,
     "kala": "aparahna",
     "priority": "purvaviddha",
-    "Tags": "kalpadi-days",
-    "URL": "kalpadi",
+    "tags": "kalpadi-days",
     "description_short": "Kalpadi"
   },
   {
@@ -4378,8 +4128,7 @@
     "angam_number": 7,
     "kala": "aparahna",
     "priority": "purvaviddha",
-    "Tags": "kalpadi-days",
-    "URL": "kalpadi",
+    "tags": "kalpadi-days",
     "description_short": "Kalpadi"
   },
   {
@@ -4390,8 +4139,7 @@
     "angam_number": 9,
     "kala": "aparahna",
     "priority": "purvaviddha",
-    "Tags": "kalpadi-days",
-    "URL": "kalpadi",
+    "tags": "kalpadi-days",
     "description_short": "Kalpadi"
   },
   {
@@ -4402,8 +4150,7 @@
     "angam_number": 13,
     "kala": "aparahna",
     "priority": "purvaviddha",
-    "Tags": "kalpadi-days",
-    "URL": "kalpadi",
+    "tags": "kalpadi-days",
     "description_short": "Kalpadi"
   },
   {
@@ -4414,8 +4161,7 @@
     "angam_number": 18,
     "kala": "aparahna",
     "priority": "purvaviddha",
-    "Tags": "kalpadi-days",
-    "URL": "brahma-kalpadi",
+    "tags": "kalpadi-days",
     "description_short": "Brahma Kalpadi"
   },
   {
@@ -4426,8 +4172,7 @@
     "angam_number": 29,
     "kala": "nishita",
     "priority": "paraviddha",
-    "Tags": "common-festivals",
-    "URL": "mahashivaratri",
+    "tags": "common-festivals",
     "description_short": "All related events e.g. kAmadahanam"
   },
   {
@@ -4437,7 +4182,7 @@
     "angam_type": "tithi",
     "angam_number": 2,
     "Start Year": 4936,
-    "Tags": "mahapurusha-events",
+    "tags": "mahapurusha-events",
     "URL": "ramakrishna-paramahamsa-jayanti"
   },
   {
@@ -4447,7 +4192,7 @@
     "angam_type": "tithi",
     "angam_number": 7,
     "Start Year": 4695,
-    "Tags": "mahapurusha-events",
+    "tags": "mahapurusha-events",
     "URL": "shri-raghavendra-svami-jayanti"
   },
   {
@@ -4458,7 +4203,7 @@
     "angam_number": 15,
     "kala": "pradosha",
     "priority": "paraviddha",
-    "Tags": "special-pujas,common-festivals",
+    "tags": "special-pujas,common-festivals",
     "URL": "holika-purnima"
   },
   {
@@ -4469,7 +4214,7 @@
     "angam_number": 15,
     "kala": "pradosha",
     "priority": "purvaviddha",
-    "Tags": "common-festivals,purana-events",
+    "tags": "common-festivals,purana-events",
     "URL": "kama-dahanam"
   },
   {
@@ -4480,7 +4225,7 @@
     "angam_number": 20,
     "kala": "pradosha",
     "priority": "paraviddha",
-    "Tags": "less-common-festivals",
+    "tags": "less-common-festivals",
     "URL": "ranga-panchami"
   },
   {
@@ -4490,7 +4235,7 @@
     "angam_type": "tithi",
     "angam_number": 15,
     "Start Year": 4586,
-    "Tags": "mahapurusha-events",
+    "tags": "mahapurusha-events",
     "URL": "chaitanya-mahaprabhu-jayanti"
   },
   {
@@ -4499,8 +4244,7 @@
     "month_number": 12,
     "angam_type": "tithi",
     "angam_number": 15,
-    "Tags": "manvadi-days",
-    "URL": "manvadi-dharma-savarni",
+    "tags": "manvadi-days",
     "titles": "gaura-pUrNimA"
   },
   {
@@ -4510,7 +4254,7 @@
     "angam_type": "tithi",
     "angam_number": 18,
     "Start Year": 4730,
-    "Tags": "mahapurusha-events",
+    "tags": "mahapurusha-events",
     "URL": "chhatrapati-shivaji-jayanti"
   },
   {
@@ -4519,7 +4263,7 @@
     "month_number": 12,
     "angam_type": "tithi",
     "angam_number": 30,
-    "Tags": "manvadi-days",
+    "tags": "manvadi-days",
     "URL": "manvadi-tamasa"
   },
   {
@@ -4528,7 +4272,7 @@
     "month_number": 5,
     "angam_type": "nakshatram",
     "angam_number": 22,
-    "Tags": "common-festivals",
+    "tags": "common-festivals",
     "URL": "rigveda-upakarma"
   },
   {
@@ -4539,7 +4283,7 @@
     "angam_number": 19,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "common-festivals",
+    "tags": "common-festivals",
     "URL": "sarasvati-avahanam"
   },
   {
@@ -4550,7 +4294,7 @@
     "angam_number": 4,
     "kala": "pradosha",
     "priority": "purvaviddha",
-    "Tags": "common-festivals",
+    "tags": "common-festivals",
     "URL": "maha-kartiki"
   },
   {
@@ -4561,7 +4305,7 @@
     "angam_number": 15,
     "kala": "sunset",
     "priority": "purvaviddha",
-    "Tags": "tamilnadu-temple-festivals,common-festivals",
+    "tags": "tamilnadu-temple-festivals,common-festivals",
     "URL": "maha-annabhishekam"
   },
   {
@@ -4572,7 +4316,7 @@
     "angam_number": 1,
     "kala": "sunrise",
     "priority": "purvaviddha",
-    "Tags": "tamilnadu-temple-festivals",
+    "tags": "tamilnadu-temple-festivals",
     "URL": "tirunelveli-nellaiyappar-nellukku-veli-kattiya-leelai"
   },
   {
@@ -4583,7 +4327,7 @@
     "angam_number": 3,
     "kala": "sunrise",
     "priority": "purvaviddha",
-    "Tags": "tamilnadu-temple-festivals",
+    "tags": "tamilnadu-temple-festivals",
     "URL": "tai-kiruttikai"
   },
   {
@@ -4594,8 +4338,7 @@
     "angam_number": 15,
     "kala": "sunrise",
     "priority": "purvaviddha",
-    "Tags": "special-pujas",
-    "URL": "agrayana-homa",
+    "tags": "special-pujas",
     "description_short": "Perform `homa' with fresh rice from paddy.",
     "references_secondary": "Vaidikasri Nov 2017"
   },
@@ -4607,8 +4350,7 @@
     "angam_number": 30,
     "kala": "sunrise",
     "priority": "purvaviddha",
-    "Tags": "special-pujas",
-    "URL": "agrayana-homa",
+    "tags": "special-pujas",
     "description_short": "Perform `homa' with fresh rice from paddy.",
     "references_secondary": "Vaidikasri Nov 2017"
   },
@@ -4620,8 +4362,7 @@
     "angam_number": 15,
     "kala": "sunrise",
     "priority": "purvaviddha",
-    "Tags": "special-pujas",
-    "URL": "agrayana-homa",
+    "tags": "special-pujas",
     "description_short": "Perform `homa' with fresh rice from paddy.",
     "references_secondary": "Vaidikasri Nov 2017"
   },
@@ -4633,8 +4374,7 @@
     "angam_number": 30,
     "kala": "sunrise",
     "priority": "purvaviddha",
-    "Tags": "special-pujas",
-    "URL": "agrayana-homa",
+    "tags": "special-pujas",
     "description_short": "Perform `homa' with fresh rice from paddy.",
     "references_secondary": "Vaidikasri Nov 2017"
   },
@@ -4647,8 +4387,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "Start Year": 5071,
-    "Tags": "mahapurusha-events",
-    "URL": "anantarama-dikshita-aradhana",
+    "tags": "mahapurusha-events",
     "description_short": "Aradhana Day of Sri Anantarama Dikshitar.",
     "references_secondary": "Vaidikasri Nov 2017"
   },
@@ -4660,7 +4399,7 @@
     "angam_number": 2,
     "kala": "sunrise",
     "priority": "paraviddha",
-    "Tags": "common-festivals",
+    "tags": "common-festivals",
     "URL": "bharani-dipam"
   },
   {
@@ -4671,7 +4410,7 @@
     "angam_number": 3,
     "kala": "ratrimana",
     "priority": "purvaviddha",
-    "Tags": "common-festivals",
+    "tags": "common-festivals",
     "URL": "tiruvannamalai-dipam"
   },
   {
@@ -4682,7 +4421,7 @@
     "angam_number": 15,
     "kala": "ratrimana",
     "priority": "purvaviddha",
-    "Tags": "common-festivals",
+    "tags": "common-festivals",
     "URL": "sarvalaya-dipam"
   },
   {
@@ -4693,7 +4432,7 @@
     "angam_number": 3,
     "kala": "ratrimana",
     "priority": "purvaviddha",
-    "Tags": "common-festivals",
+    "tags": "common-festivals",
     "URL": "karttigai"
   },
   {
@@ -4702,7 +4441,7 @@
     "month_number": 9,
     "angam_type": "tithi",
     "angam_number": 30,
-    "Tags": "other-avatarams,common-festivals",
+    "tags": "other-avatarams,common-festivals",
     "URL": "shri-hanumat-jayanti~1"
   },
   {
@@ -4712,7 +4451,7 @@
     "angam_type": "nakshatram",
     "angam_number": 17,
     "Start Year": 4995,
-    "Tags": "mahapurusha-events",
+    "tags": "mahapurusha-events",
     "URL": "kanchi-jagadguru-shri-chandrashekharendra-sarasvati-jayanti"
   },
   {
@@ -4721,8 +4460,7 @@
     "month_number": 4,
     "angam_type": "nakshatram",
     "angam_number": 3,
-    "Tags": "tamilnadu-temple-festivals",
-    "URL": "adi-kiruttikai",
+    "tags": "tamilnadu-temple-festivals",
     "description_short": "Special puja for Subrahmanya Swami in temples."
   },
   {
@@ -4731,8 +4469,7 @@
     "month_number": 2,
     "angam_type": "nakshatram",
     "angam_number": 16,
-    "Tags": "tamilnadu-temple-festivals",
-    "URL": "vaikasi-vishakham",
+    "tags": "tamilnadu-temple-festivals",
     "description_short": "Special puja for Subrahmanya Swami in temples. Birth of Subrahmanya Swami. Worship Him with red flowers."
   },
   {
@@ -4741,7 +4478,7 @@
     "month_number": 10,
     "angam_type": "tithi",
     "angam_number": 30,
-    "Tags": "tamilnadu-temple-festivals",
+    "tags": "tamilnadu-temple-festivals",
     "URL": "nellaiyappar-patra-deepam"
   },
   {
@@ -4750,7 +4487,7 @@
     "month_number": 11,
     "angam_type": "nakshatram",
     "angam_number": 10,
-    "Tags": "tamilnadu-temple-festivals",
+    "tags": "tamilnadu-temple-festivals",
     "URL": "masi-magham"
   },
   {
@@ -4759,8 +4496,7 @@
     "month_number": 4,
     "angam_type": "nakshatram",
     "angam_number": 11,
-    "Tags": "common-festivals,azhwar-jayanti",
-    "URL": "tiruvadippuram",
+    "tags": "common-festivals,azhwar-jayanti",
     "Shloka": "zrIviSNucitta-kulakalpakanandavallIm\nzrIraGgarAja-hari-candana-yOga-drzyAm .\nsAkSAt kSamAM karuNayA kamalAmivAnyAM\ngOdAm ananyazaraNaH zaraNaM prapadyE.."
   },
   {
@@ -4770,7 +4506,7 @@
     "angam_type": "nakshatram",
     "angam_number": 23,
     "Start Year": 5036,
-    "Tags": "mahapurusha-events",
+    "tags": "mahapurusha-events",
     "URL": "kanchi-jagadguru-shri-jayendra-sarasvati-jayanti"
   },
   {
@@ -4779,7 +4515,7 @@
     "month_number": 5,
     "angam_type": "nakshatram",
     "angam_number": 4,
-    "Tags": "dashavataram",
+    "tags": "dashavataram",
     "URL": "shri-jayanti"
   },
   {
@@ -4788,7 +4524,7 @@
     "month_number": 5,
     "angam_type": "nakshatram",
     "angam_number": 13,
-    "Tags": "common-festivals",
+    "tags": "common-festivals",
     "URL": "samaveda-upakarma"
   },
   {
@@ -4797,7 +4533,7 @@
     "month_number": 5,
     "angam_type": "nakshatram",
     "angam_number": 19,
-    "Tags": "purana-events",
+    "tags": "purana-events",
     "URL": "gajendra-moksha"
   },
   {
@@ -4806,7 +4542,7 @@
     "month_number": 5,
     "angam_type": "nakshatram",
     "angam_number": 19,
-    "Tags": "purana-events",
+    "tags": "purana-events",
     "URL": "pittukku-man-sumanda-lilai"
   },
   {
@@ -4815,7 +4551,7 @@
     "month_number": 5,
     "angam_type": "nakshatram",
     "angam_number": 22,
-    "Tags": "common-festivals",
+    "tags": "common-festivals",
     "URL": "onam"
   },
   {
@@ -4826,7 +4562,7 @@
     "angam_number": 2,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "special-pujas,common-festivals",
+    "tags": "special-pujas,common-festivals",
     "URL": "mahabharani"
   },
   {
@@ -4835,8 +4571,7 @@
     "month_number": 9,
     "angam_type": "nakshatram",
     "angam_number": 6,
-    "Tags": "tamilnadu-temple-festivals,common-festivals",
-    "URL": "arudra-darisanam-natarajar-mahabhishekam",
+    "tags": "tamilnadu-temple-festivals,common-festivals",
     "description_short": "Visit Chidambaram to have darshan of Nataraja, or pray to Nataraja",
     "Shloka": "kRpAsamudram sumukhaM trinEtraM sadAzivaM rudramanantarUpam .\njaTAdharaM pArvativAmabhAgaM cidambarEzaM hRdi bhAvayAmi .."
   },
@@ -4846,7 +4581,7 @@
     "month_number": 9,
     "angam_type": "nakshatram",
     "angam_number": 5,
-    "Tags": "sringeri-festivals",
+    "tags": "sringeri-festivals",
     "URL": "andhakasura-vadha"
   },
   {
@@ -4856,8 +4591,7 @@
     "angam_type": "nakshatram",
     "angam_number": 1,
     "Start Year": 4648,
-    "Tags": "mahapurusha-events",
-    "URL": "puntanam-jayanti",
+    "tags": "mahapurusha-events",
     "description_short": "Poonthanam, a great devotee of Guruvayurappan, enriched Malayalam devotional literature with his renowned poetic composition 'Jnanapana', a philosophical work of all times. On this day, recital of Poonthanam's works and debate takes place. A one week literary festival is conducted at Poonthanam illam."
   },
   {
@@ -4867,7 +4601,7 @@
     "angam_type": "nakshatram",
     "angam_number": 7,
     "Start Year": 4980,
-    "Tags": "mahapurusha-events",
+    "tags": "mahapurusha-events",
     "URL": "ramana-maharshi-jayanti"
   },
   {
@@ -4877,7 +4611,7 @@
     "angam_type": "tithi",
     "angam_number": 28,
     "Start Year": 5052,
-    "Tags": "mahapurusha-events",
+    "tags": "mahapurusha-events",
     "URL": "ramana-maharshi-aradhana"
   },
   {
@@ -4887,8 +4621,7 @@
     "angam_type": "nakshatram",
     "angam_number": 13,
     "Start Year": 4970,
-    "Tags": "mahapurusha-events",
-    "URL": "shri-sheshadri-svami-jayanti",
+    "tags": "mahapurusha-events",
     "Shloka": "karuNAsAgaraM zAntam aruNAcalavAsinam .\nzrIzESAdriguruM vandE brahmIbhUtaM tapOnidhim .."
   },
   {
@@ -4897,8 +4630,7 @@
     "month_number": 9,
     "angam_type": "tithi",
     "angam_number": 24,
-    "Tags": "mahapurusha-events",
-    "URL": "shri-sheshadri-svami-aradhana",
+    "tags": "mahapurusha-events",
     "Shloka": "karuNAsAgaraM zAntam aruNAcalavAsinam .\nzrIzESAdriguruM vandE brahmIbhUtaM tapOnidhim .."
   },
   {
@@ -4908,7 +4640,7 @@
     "angam_type": "nakshatram",
     "angam_number": 21,
     "Start Year": 5069,
-    "Tags": "mahapurusha-events",
+    "tags": "mahapurusha-events",
     "URL": "kanchi-jagadguru-shri-shankara-vijayendra-sarasvati-jayanti"
   },
   {
@@ -4917,7 +4649,7 @@
     "month_number": 12,
     "angam_type": "nakshatram",
     "angam_number": 12,
-    "Tags": "tamilnadu-temple-festivals",
+    "tags": "tamilnadu-temple-festivals",
     "URL": "panguni-uttiram"
   },
   {
@@ -4927,7 +4659,7 @@
     "angam_type": "nakshatram",
     "angam_number": 12,
     "kala": "madhyahna",
-    "Tags": "tamilnadu-temple-festivals",
+    "tags": "tamilnadu-temple-festivals",
     "URL": "minakshi-tirukkalyanam"
   },
   {
@@ -4938,7 +4670,7 @@
     "angam_number": 8,
     "kala": "ratrimana",
     "priority": "purvaviddha",
-    "Tags": "tamilnadu-temple-festivals",
+    "tags": "tamilnadu-temple-festivals",
     "URL": "taippusam"
   },
   {
@@ -4947,8 +4679,7 @@
     "month_number": 4,
     "angam_type": "day",
     "angam_number": 18,
-    "Tags": "tamilnadu-temple-festivals",
-    "URL": "adi-perukku",
+    "tags": "tamilnadu-temple-festivals",
     "description_short": "Offer naivedyam of citrAnnam"
   },
   {
@@ -4957,8 +4688,7 @@
     "month_number": 2,
     "angam_type": "day",
     "angam_number": 8,
-    "Tags": "tamilnadu-temple-festivals",
-    "URL": "mayilai-vellishvarar-brahmotsavam",
+    "tags": "tamilnadu-temple-festivals",
     "description_short": "Enactment of restoration of eyesight of Shukracharya."
   },
   {
@@ -4967,8 +4697,7 @@
     "month_number": 8,
     "angam_type": "day",
     "angam_number": 1,
-    "Tags": "special-period-start",
-    "URL": "krittika-mandala-parayanam",
+    "tags": "special-period-start",
     "description_short": "Conduct veda parayanam in the evening, on one of these 48 days."
   },
   {
@@ -4977,8 +4706,7 @@
     "month_number": 9,
     "angam_type": "day",
     "angam_number": 18,
-    "Tags": "tamil-festivals",
-    "URL": "undu-madakkalirran",
+    "tags": "tamil-festivals",
     "description_short": "Offer naivedyam of `citrAnnam` (tamarind rice) to Vishnu"
   },
   {
@@ -4987,8 +4715,7 @@
     "month_number": 9,
     "angam_type": "day",
     "angam_number": 27,
-    "Tags": "tamil-festivals",
-    "URL": "kudaravalli",
+    "tags": "tamil-festivals",
     "description_short": "Offer naivedyam of `gudAnnam` to Vishnu, as mentioned in the Tiruppavai 27"
   },
   {
@@ -4998,8 +4725,7 @@
     "angam_type": "day",
     "angam_number": 28,
     "Start Year": 3863,
-    "Tags": "other-jayantis",
-    "URL": "narayaniyam-jayanti",
+    "tags": "other-jayantis",
     "description_short": "Celebration of completion of Narayaniyam (762 CE), in Guruvayur temple."
   },
   {
@@ -5008,8 +4734,7 @@
     "month_number": 9,
     "angam_type": "day",
     "angam_number": 28,
-    "Tags": "tamil-festivals",
-    "URL": "kar2avaigal-pinchenru",
+    "tags": "tamil-festivals",
     "description_short": "Offer naivedyam of `dadhyodanam` to Vishnu, for Tiruppavai 28"
   },
   {
@@ -5018,8 +4743,7 @@
     "month_number": 10,
     "angam_type": "day",
     "angam_number": 1,
-    "Tags": "kerala-temple-festivals",
-    "URL": "makara-jyoti",
+    "tags": "kerala-temple-festivals",
     "description_short": "Darshan of Makara Jyoti in Sabarimala Ayyappa Temple."
   },
   {
@@ -5028,7 +4752,7 @@
     "month_number": 6,
     "angam_type": "day",
     "angam_number": 1,
-    "Tags": "other-jayantis",
+    "tags": "other-jayantis",
     "URL": "vishvakarma-jayanti"
   },
   {
@@ -5037,7 +4761,7 @@
     "month_number": 2,
     "angam_type": "day",
     "angam_number": 1,
-    "Tags": "sun-sankranti",
+    "tags": "sun-sankranti",
     "URL": "vishnupadi-vrishabha-ravi"
   },
   {
@@ -5046,8 +4770,7 @@
     "month_number": 3,
     "angam_type": "day",
     "angam_number": 1,
-    "Tags": "sun-sankranti",
-    "URL": "shadashiti-mithuna-ravi",
+    "tags": "sun-sankranti",
     "description_short": "Perform danam of clothes, food and water.",
     "Shloka": "vastrAnnapAnadAnAni mithunE vihitAni tu.."
   },
@@ -5057,7 +4780,7 @@
     "month_number": 4,
     "angam_type": "day",
     "angam_number": 1,
-    "Tags": "sun-sankranti",
+    "tags": "sun-sankranti",
     "URL": "dakshinayana-punyakala"
   },
   {
@@ -5066,8 +4789,7 @@
     "month_number": 5,
     "angam_type": "day",
     "angam_number": 1,
-    "Tags": "sun-sankranti",
-    "URL": "vishnupadi-simharavi",
+    "tags": "sun-sankranti",
     "description_short": "Perform danam of ghee, milk vessel, \"ghee cow\" and fruits.",
     "Shloka": "ghRtaM ca kSIrakumbhazca ghRtadhEnu phalAni ca.\nzrAvaNE zrIdharaprItyai dAtavyAni vipazcitA.."
   },
@@ -5077,8 +4799,7 @@
     "month_number": 6,
     "angam_type": "day",
     "angam_number": 1,
-    "Tags": "sun-sankranti",
-    "URL": "shadashiti-kanya-ravi",
+    "tags": "sun-sankranti",
     "description_short": "Perform danam of clothes/place to live.",
     "Shloka": "kanyApravEzE vastrANAM vEzmanAM dAnamEva ca"
   },
@@ -5088,8 +4809,7 @@
     "month_number": 7,
     "angam_type": "day",
     "angam_number": 1,
-    "Tags": "sun-sankranti",
-    "URL": "tula-vishu-punyakala",
+    "tags": "sun-sankranti",
     "description_short": "Perform danam of rice/wheat/grains and cow ghee/curd etc.",
     "Shloka": "tulApravEzE dhAnyAnAM gOrasAnAmapISTadam"
   },
@@ -5099,8 +4819,7 @@
     "month_number": 8,
     "angam_type": "day",
     "angam_number": 1,
-    "Tags": "sun-sankranti",
-    "URL": "vishnupadi-vrishchika-ravi",
+    "tags": "sun-sankranti",
     "description_short": "Do danam of deepam."
   },
   {
@@ -5109,8 +4828,7 @@
     "month_number": 9,
     "angam_type": "day",
     "angam_number": 1,
-    "Tags": "sun-sankranti",
-    "URL": "shadashiti-dhanur-ravi",
+    "tags": "sun-sankranti",
     "description_short": "Perform danam of clothes/vehicle (e.g. bullock cart).",
     "Shloka": "dhanuHpravEzE vastrANAM yAnAnAM ca mahAphalam "
   },
@@ -5120,7 +4838,7 @@
     "month_number": 10,
     "angam_type": "day",
     "angam_number": 1,
-    "Tags": "common-festivals,sun-sankranti",
+    "tags": "common-festivals,sun-sankranti",
     "URL": "makara-sankranti-uttarayana-punyakala"
   },
   {
@@ -5129,8 +4847,7 @@
     "month_number": 11,
     "angam_type": "day",
     "angam_number": 1,
-    "Tags": "sun-sankranti",
-    "URL": "vishnupadi-kumbha-ravi",
+    "tags": "sun-sankranti",
     "description_short": "Perform danam of hay, grass, food and pure water to cows.",
     "Shloka": "kumbhapravEzE dAnaM tu gavaM ambu tRNasya ca"
   },
@@ -5140,7 +4857,7 @@
     "month_number": 12,
     "angam_type": "day",
     "angam_number": 1,
-    "Tags": "sun-sankranti",
+    "tags": "sun-sankranti",
     "URL": "shadashiti-mina-ravi"
   },
   {
@@ -5149,8 +4866,7 @@
     "month_number": 4,
     "angam_type": "tithi",
     "angam_number": 17,
-    "Tags": "special-pujas",
-    "URL": "ashtanaga-puja",
+    "tags": "special-pujas",
     "titles": "Manasa Puja"
   },
   {
@@ -5159,7 +4875,7 @@
     "month_number": 4,
     "angam_type": "tithi",
     "angam_number": 30,
-    "Tags": "less-common-festivals",
+    "tags": "less-common-festivals",
     "URL": "dipa-puja"
   },
   {
@@ -5168,8 +4884,7 @@
     "month_number": 5,
     "angam_type": "tithi",
     "angam_number": 2,
-    "Tags": "less-common-festivals,special-pujas",
-    "URL": "manoratha-dvitiya",
+    "tags": "less-common-festivals,special-pujas",
     "description_short": "VasudevaPooja, ChandraArghya, Naktam"
   },
   {
@@ -5178,7 +4893,7 @@
     "month_number": 5,
     "angam_type": "tithi",
     "angam_number": 3,
-    "Tags": "special-vratams",
+    "tags": "special-vratams",
     "URL": "madhushravani-vratam"
   },
   {
@@ -5187,8 +4902,7 @@
     "month_number": 5,
     "angam_type": "tithi",
     "angam_number": 6,
-    "Tags": "special-vratams",
-    "URL": "supodana-vratam",
+    "tags": "special-vratams",
     "description_short": "Shiva Puja"
   },
   {
@@ -5197,7 +4911,7 @@
     "month_number": 5,
     "angam_type": "tithi",
     "angam_number": 7,
-    "Tags": "less-common-festivals",
+    "tags": "less-common-festivals",
     "URL": "papanashani-saptami"
   },
   {
@@ -5206,7 +4920,7 @@
     "month_number": 5,
     "angam_type": "tithi",
     "angam_number": 7,
-    "Tags": "less-common-festivals",
+    "tags": "less-common-festivals",
     "URL": "avyanga-saptami"
   },
   {
@@ -5215,8 +4929,7 @@
     "month_number": 5,
     "angam_type": "tithi",
     "angam_number": 7,
-    "Tags": "special-pujas",
-    "URL": "dvadasha-saptami",
+    "tags": "special-pujas",
     "description_short": "Surya Puja, Danam to please Surya Bhagavan"
   },
   {
@@ -5225,7 +4938,7 @@
     "month_number": 5,
     "angam_type": "tithi",
     "angam_number": 8,
-    "Tags": "vratam-start,special-period-start",
+    "tags": "vratam-start,special-period-start",
     "URL": "durga-vrata-arambha"
   },
   {
@@ -5234,7 +4947,7 @@
     "month_number": 5,
     "angam_type": "tithi",
     "angam_number": 9,
-    "Tags": "less-common-festivals,special-pujas",
+    "tags": "less-common-festivals,special-pujas",
     "URL": "kaumari-puja"
   },
   {
@@ -5243,8 +4956,7 @@
     "month_number": 4,
     "angam_type": "tithi",
     "angam_number": 10,
-    "Tags": "less-common-festivals,special-pujas",
-    "URL": "asha-dashami",
+    "tags": "less-common-festivals,special-pujas",
     "description_short": "Puja of `AzA devI (pArvatI)`"
   },
   {
@@ -5253,8 +4965,7 @@
     "month_number": 5,
     "angam_type": "tithi",
     "angam_number": 10,
-    "Tags": "special-vratams,vratam-start,special-period-start",
-    "URL": "veda-dadhi-vrata-arambha",
+    "tags": "special-vratams,vratam-start,special-period-start",
     "description_short": "Shiva Puja with `gandham`"
   },
   {
@@ -5263,8 +4974,7 @@
     "month_number": 5,
     "angam_type": "tithi",
     "angam_number": 12,
-    "Tags": "special-pujas",
-    "URL": "damodara-dvadashi",
+    "tags": "special-pujas",
     "description_short": "Perform Vishnu Pratima Danam, Sridhara Puja"
   },
   {
@@ -5273,7 +4983,7 @@
     "month_number": 5,
     "angam_type": "tithi",
     "angam_number": 13,
-    "Tags": "less-common-festivals",
+    "tags": "less-common-festivals",
     "URL": "ananga-trayodashi"
   },
   {
@@ -5282,8 +4992,7 @@
     "month_number": 5,
     "angam_type": "tithi",
     "angam_number": 15,
-    "Tags": "devata-pujas",
-    "URL": "narikela-purnima",
+    "tags": "devata-pujas",
     "description_short": "Offer coconut to sea God Varuna",
     "titles": "nAralI-pUrNimA"
   },
@@ -5293,8 +5002,7 @@
     "month_number": 5,
     "angam_type": "tithi",
     "angam_number": 15,
-    "Tags": "purnima-days,common-festivals",
-    "URL": "rakhi-purnima",
+    "tags": "purnima-days,common-festivals",
     "description_short": "Rakshabandhanam"
   },
   {
@@ -5303,7 +5011,7 @@
     "month_number": 5,
     "angam_type": "nakshatram",
     "angam_number": 9,
-    "Tags": "Nayanar Gurupujai",
+    "tags": "Nayanar Gurupujai",
     "URL": "atipatta-nayanar-gurupujai"
   },
   {
@@ -5312,7 +5020,7 @@
     "month_number": 10,
     "angam_type": "nakshatram",
     "angam_number": 24,
-    "Tags": "Nayanar Gurupujai",
+    "tags": "Nayanar Gurupujai",
     "URL": "appudiyadigal-nayanar-gurupujai"
   },
   {
@@ -5321,7 +5029,7 @@
     "month_number": 3,
     "angam_type": "nakshatram",
     "angam_number": 11,
-    "Tags": "Nayanar Gurupujai",
+    "tags": "Nayanar Gurupujai",
     "URL": "amaraniti-nayanar-gurupujai"
   },
   {
@@ -5330,7 +5038,7 @@
     "month_number": 3,
     "angam_type": "nakshatram",
     "angam_number": 10,
-    "Tags": "Nayanar Gurupujai",
+    "tags": "Nayanar Gurupujai",
     "URL": "manikkavasakar-gurupujai"
   },
   {
@@ -5339,7 +5047,7 @@
     "month_number": 3,
     "angam_type": "nakshatram",
     "angam_number": 12,
-    "Tags": "tamilnadu-temple-festivals",
+    "tags": "tamilnadu-temple-festivals",
     "URL": "natarajar-ani-tirumanjanam"
   },
   {
@@ -5348,7 +5056,7 @@
     "month_number": 11,
     "angam_type": "tithi",
     "angam_number": 15,
-    "Tags": "tamilnadu-temple-festivals",
+    "tags": "tamilnadu-temple-festivals",
     "URL": "tiruchendur-masi-tiruvizha"
   },
   {
@@ -5357,7 +5065,7 @@
     "month_number": 5,
     "angam_type": "nakshatram",
     "angam_number": 16,
-    "Tags": "tamilnadu-temple-festivals",
+    "tags": "tamilnadu-temple-festivals",
     "URL": "tiruchendur-masi-tiruvizha"
   },
   {
@@ -5366,7 +5074,7 @@
     "month_number": 1,
     "angam_type": "nakshatram",
     "angam_number": 22,
-    "Tags": "tamilnadu-temple-festivals",
+    "tags": "tamilnadu-temple-festivals",
     "URL": "natarajar-chittirai-onam-mahabhishekam"
   },
   {
@@ -5375,7 +5083,7 @@
     "month_number": 5,
     "angam_type": "tithi",
     "angam_number": 14,
-    "Tags": "tamilnadu-temple-festivals",
+    "tags": "tamilnadu-temple-festivals",
     "URL": "natarajar-mahabhishekam"
   },
   {
@@ -5384,7 +5092,7 @@
     "month_number": 6,
     "angam_type": "tithi",
     "angam_number": 14,
-    "Tags": "tamilnadu-temple-festivals",
+    "tags": "tamilnadu-temple-festivals",
     "URL": "natarajar-mahabhishekam"
   },
   {
@@ -5393,7 +5101,7 @@
     "month_number": 11,
     "angam_type": "tithi",
     "angam_number": 14,
-    "Tags": "tamilnadu-temple-festivals",
+    "tags": "tamilnadu-temple-festivals",
     "URL": "natarajar-mahabhishekam"
   },
   {
@@ -5402,7 +5110,7 @@
     "month_number": 10,
     "angam_type": "nakshatram",
     "angam_number": 6,
-    "Tags": "Nayanar Gurupujai",
+    "tags": "Nayanar Gurupujai",
     "URL": "arivattaya-nayanar-gurupujai"
   },
   {
@@ -5411,7 +5119,7 @@
     "month_number": 8,
     "angam_type": "nakshatram",
     "angam_number": 13,
-    "Tags": "Nayanar Gurupujai",
+    "tags": "Nayanar Gurupujai",
     "URL": "anaya-nayanar-gurupujai"
   },
   {
@@ -5420,7 +5128,7 @@
     "month_number": 1,
     "angam_type": "nakshatram",
     "angam_number": 14,
-    "Tags": "Nayanar Gurupujai",
+    "tags": "Nayanar Gurupujai",
     "URL": "isainaniyar-nayanar-gurupujai"
   },
   {
@@ -5429,7 +5137,7 @@
     "month_number": 7,
     "angam_type": "nakshatram",
     "angam_number": 3,
-    "Tags": "Nayanar Gurupujai",
+    "tags": "Nayanar Gurupujai",
     "URL": "idankazhi-nayanar-gurupujai"
   },
   {
@@ -5438,7 +5146,7 @@
     "month_number": 9,
     "angam_type": "nakshatram",
     "angam_number": 12,
-    "Tags": "Nayanar Gurupujai",
+    "tags": "Nayanar Gurupujai",
     "URL": "iyarpagai-nayanar-gurupujai"
   },
   {
@@ -5447,7 +5155,7 @@
     "month_number": 5,
     "angam_type": "nakshatram",
     "angam_number": 10,
-    "Tags": "Nayanar Gurupujai",
+    "tags": "Nayanar Gurupujai",
     "URL": "ilaiyankudi-mara-nayanar-gurupujai"
   },
   {
@@ -5456,7 +5164,7 @@
     "month_number": 6,
     "angam_type": "nakshatram",
     "angam_number": 1,
-    "Tags": "Nayanar Gurupujai",
+    "tags": "Nayanar Gurupujai",
     "URL": "rudra-pashupati-nayanar-gurupujai"
   },
   {
@@ -5465,7 +5173,7 @@
     "month_number": 11,
     "angam_type": "nakshatram",
     "angam_number": 13,
-    "Tags": "Nayanar Gurupujai",
+    "tags": "Nayanar Gurupujai",
     "URL": "eripatta-nayanar-gurupujai"
   },
   {
@@ -5474,7 +5182,7 @@
     "month_number": 3,
     "angam_type": "nakshatram",
     "angam_number": 27,
-    "Tags": "Nayanar Gurupujai",
+    "tags": "Nayanar Gurupujai",
     "URL": "eyarkon-kalikkama-nayanar-gurupujai"
   },
   {
@@ -5483,7 +5191,7 @@
     "month_number": 6,
     "angam_type": "nakshatram",
     "angam_number": 21,
-    "Tags": "Nayanar Gurupujai",
+    "tags": "Nayanar Gurupujai",
     "URL": "enadinatha-nayanar-gurupujai"
   },
   {
@@ -5492,7 +5200,7 @@
     "month_number": 7,
     "angam_type": "nakshatram",
     "angam_number": 19,
-    "Tags": "Nayanar Gurupujai",
+    "tags": "Nayanar Gurupujai",
     "URL": "aiyadigal-kadavarkon-nayanar-gurupujai"
   },
   {
@@ -5501,7 +5209,7 @@
     "month_number": 12,
     "angam_type": "nakshatram",
     "angam_number": 6,
-    "Tags": "Nayanar Gurupujai",
+    "tags": "Nayanar Gurupujai",
     "URL": "gananatha-nayanar-gurupujai"
   },
   {
@@ -5510,7 +5218,7 @@
     "month_number": 8,
     "angam_type": "nakshatram",
     "angam_number": 3,
-    "Tags": "Nayanar Gurupujai",
+    "tags": "Nayanar Gurupujai",
     "URL": "kanampulla-nayanar-gurupujai"
   },
   {
@@ -5519,7 +5227,7 @@
     "month_number": 10,
     "angam_type": "nakshatram",
     "angam_number": 5,
-    "Tags": "Nayanar Gurupujai",
+    "tags": "Nayanar Gurupujai",
     "URL": "kannappa-nayanar-gurupujai"
   },
   {
@@ -5528,7 +5236,7 @@
     "month_number": 4,
     "angam_type": "nakshatram",
     "angam_number": 18,
-    "Tags": "Nayanar Gurupujai",
+    "tags": "Nayanar Gurupujai",
     "URL": "kaliya-nayanar-gurupujai"
   },
   {
@@ -5537,7 +5245,7 @@
     "month_number": 4,
     "angam_type": "nakshatram",
     "angam_number": 15,
-    "Tags": "Nayanar Gurupujai",
+    "tags": "Nayanar Gurupujai",
     "URL": "kazharirrarivar-nayanar-gurupujai"
   },
   {
@@ -5546,7 +5254,7 @@
     "month_number": 2,
     "angam_type": "nakshatram",
     "angam_number": 2,
-    "Tags": "Nayanar Gurupujai",
+    "tags": "Nayanar Gurupujai",
     "URL": "kazharsinga-nayanar-gurupujai"
   },
   {
@@ -5555,7 +5263,7 @@
     "month_number": 11,
     "angam_type": "nakshatram",
     "angam_number": 20,
-    "Tags": "Nayanar Gurupujai",
+    "tags": "Nayanar Gurupujai",
     "URL": "kari-nayanar-gurupujai"
   },
   {
@@ -5564,7 +5272,7 @@
     "month_number": 12,
     "angam_type": "nakshatram",
     "angam_number": 15,
-    "Tags": "Nayanar Gurupujai",
+    "tags": "Nayanar Gurupujai",
     "URL": "karaikkal-ammaiyar-gurupujai"
   },
   {
@@ -5573,7 +5281,7 @@
     "month_number": 5,
     "angam_type": "nakshatram",
     "angam_number": 19,
-    "Tags": "Nayanar Gurupujai",
+    "tags": "Nayanar Gurupujai",
     "URL": "kungiliyakkalaya-nayanar-gurupujai"
   },
   {
@@ -5582,7 +5290,7 @@
     "month_number": 5,
     "angam_type": "nakshatram",
     "angam_number": 17,
-    "Tags": "Nayanar Gurupujai",
+    "tags": "Nayanar Gurupujai",
     "URL": "kulachchirai-nayanar-gurupujai"
   },
   {
@@ -5591,7 +5299,7 @@
     "month_number": 4,
     "angam_type": "nakshatram",
     "angam_number": 6,
-    "Tags": "Nayanar Gurupujai",
+    "tags": "Nayanar Gurupujai",
     "URL": "kurruva-nayanar-gurupujai"
   },
   {
@@ -5600,7 +5308,7 @@
     "month_number": 10,
     "angam_type": "nakshatram",
     "angam_number": 27,
-    "Tags": "Nayanar Gurupujai",
+    "tags": "Nayanar Gurupujai",
     "URL": "kalikkamba-nayanar-gurupujai"
   },
   {
@@ -5609,7 +5317,7 @@
     "month_number": 11,
     "angam_type": "nakshatram",
     "angam_number": 24,
-    "Tags": "Nayanar Gurupujai",
+    "tags": "Nayanar Gurupujai",
     "URL": "kochchengat-chozha-nayanar-gurupujai"
   },
   {
@@ -5618,7 +5326,7 @@
     "month_number": 4,
     "angam_type": "nakshatram",
     "angam_number": 18,
-    "Tags": "Nayanar Gurupujai",
+    "tags": "Nayanar Gurupujai",
     "URL": "kotpuli-nayanar-gurupujai"
   },
   {
@@ -5627,7 +5335,7 @@
     "month_number": 9,
     "angam_type": "nakshatram",
     "angam_number": 6,
-    "Tags": "Nayanar Gurupujai",
+    "tags": "Nayanar Gurupujai",
     "URL": "sadaiya-nayanar-gurupujai"
   },
   {
@@ -5636,7 +5344,7 @@
     "month_number": 10,
     "angam_type": "nakshatram",
     "angam_number": 12,
-    "Tags": "Nayanar Gurupujai",
+    "tags": "Nayanar Gurupujai",
     "URL": "chandeshvara-nayanar-gurupujai"
   },
   {
@@ -5645,7 +5353,7 @@
     "month_number": 7,
     "angam_type": "nakshatram",
     "angam_number": 11,
-    "Tags": "Nayanar Gurupujai",
+    "tags": "Nayanar Gurupujai",
     "URL": "chatti-nayanar-gurupujai"
   },
   {
@@ -5654,7 +5362,7 @@
     "month_number": 9,
     "angam_type": "nakshatram",
     "angam_number": 20,
-    "Tags": "Nayanar Gurupujai",
+    "tags": "Nayanar Gurupujai",
     "URL": "chakkiya-nayanar-gurupujai"
   },
   {
@@ -5663,7 +5371,7 @@
     "month_number": 8,
     "angam_type": "nakshatram",
     "angam_number": 20,
-    "Tags": "Nayanar Gurupujai",
+    "tags": "Nayanar Gurupujai",
     "URL": "sirappuli-nayanar-gurupujai"
   },
   {
@@ -5672,7 +5380,7 @@
     "month_number": 1,
     "angam_type": "nakshatram",
     "angam_number": 2,
-    "Tags": "Nayanar Gurupujai",
+    "tags": "Nayanar Gurupujai",
     "URL": "siruttonda-nayanar-gurupujai"
   },
   {
@@ -5681,7 +5389,7 @@
     "month_number": 4,
     "angam_type": "nakshatram",
     "angam_number": 15,
-    "Tags": "Nayanar Gurupujai",
+    "tags": "Nayanar Gurupujai",
     "URL": "sundaramurtti-nayanar-gurupujai"
   },
   {
@@ -5690,7 +5398,7 @@
     "month_number": 5,
     "angam_type": "nakshatram",
     "angam_number": 8,
-    "Tags": "Nayanar Gurupujai",
+    "tags": "Nayanar Gurupujai",
     "URL": "seruttunai-nayanar-gurupujai"
   },
   {
@@ -5699,7 +5407,7 @@
     "month_number": 2,
     "angam_type": "nakshatram",
     "angam_number": 9,
-    "Tags": "Nayanar Gurupujai",
+    "tags": "Nayanar Gurupujai",
     "URL": "somasimara-nayanar-gurupujai"
   },
   {
@@ -5708,7 +5416,7 @@
     "month_number": 12,
     "angam_type": "nakshatram",
     "angam_number": 24,
-    "Tags": "Nayanar Gurupujai",
+    "tags": "Nayanar Gurupujai",
     "URL": "dandiyadigal-nayanar-gurupujai"
   },
   {
@@ -5717,7 +5425,7 @@
     "month_number": 1,
     "angam_type": "nakshatram",
     "angam_number": 15,
-    "Tags": "Nayanar Gurupujai",
+    "tags": "Nayanar Gurupujai",
     "URL": "tirukkuripput-tonda-nayanar-gurupujai"
   },
   {
@@ -5726,7 +5434,7 @@
     "month_number": 2,
     "angam_type": "nakshatram",
     "angam_number": 19,
-    "Tags": "Nayanar Gurupujai",
+    "tags": "Nayanar Gurupujai",
     "URL": "tirunanasambandhamurtti-nayanar-gurupujai"
   },
   {
@@ -5735,7 +5443,7 @@
     "month_number": 1,
     "angam_type": "nakshatram",
     "angam_number": 24,
-    "Tags": "Nayanar Gurupujai",
+    "tags": "Nayanar Gurupujai",
     "URL": "tirunavukkarasa-nayanar-gurupujai"
   },
   {
@@ -5744,7 +5452,7 @@
     "month_number": 6,
     "angam_type": "nakshatram",
     "angam_number": 4,
-    "Tags": "Nayanar Gurupujai",
+    "tags": "Nayanar Gurupujai",
     "URL": "tirunalaippovar-nayanar-gurupujai"
   },
   {
@@ -5753,7 +5461,7 @@
     "month_number": 10,
     "angam_type": "nakshatram",
     "angam_number": 16,
-    "Tags": "Nayanar Gurupujai",
+    "tags": "Nayanar Gurupujai",
     "URL": "tirunilakantha-nayanar-gurupujai"
   },
   {
@@ -5762,7 +5470,7 @@
     "month_number": 2,
     "angam_type": "nakshatram",
     "angam_number": 19,
-    "Tags": "Nayanar Gurupujai",
+    "tags": "Nayanar Gurupujai",
     "URL": "tirunilakantha-yazhppana-nayanar-gurupujai"
   },
   {
@@ -5771,7 +5479,7 @@
     "month_number": 2,
     "angam_type": "nakshatram",
     "angam_number": 19,
-    "Tags": "Nayanar Gurupujai",
+    "tags": "Nayanar Gurupujai",
     "URL": "tirunilanakka-nayanar-gurupujai"
   },
   {
@@ -5780,7 +5488,7 @@
     "month_number": 7,
     "angam_type": "nakshatram",
     "angam_number": 1,
-    "Tags": "Nayanar Gurupujai",
+    "tags": "Nayanar Gurupujai",
     "URL": "tirumula-nayanar-gurupujai"
   },
   {
@@ -5789,7 +5497,7 @@
     "month_number": 2,
     "angam_type": "nakshatram",
     "angam_number": 8,
-    "Tags": "Nayanar Gurupujai",
+    "tags": "Nayanar Gurupujai",
     "URL": "naminandiyadigal-nayanar-gurupujai"
   },
   {
@@ -5798,7 +5506,7 @@
     "month_number": 6,
     "angam_type": "nakshatram",
     "angam_number": 24,
-    "Tags": "Nayanar Gurupujai",
+    "tags": "Nayanar Gurupujai",
     "URL": "narasingamunaiyaraiya-nayanar-gurupujai"
   },
   {
@@ -5807,7 +5515,7 @@
     "month_number": 7,
     "angam_type": "nakshatram",
     "angam_number": 2,
-    "Tags": "Nayanar Gurupujai",
+    "tags": "Nayanar Gurupujai",
     "URL": "ninrasir-nedumara-nayanar-gurupujai"
   },
   {
@@ -5816,7 +5524,7 @@
     "month_number": 12,
     "angam_type": "nakshatram",
     "angam_number": 4,
-    "Tags": "Nayanar Gurupujai",
+    "tags": "Nayanar Gurupujai",
     "URL": "nesa-nayanar-gurupujai"
   },
   {
@@ -5825,7 +5533,7 @@
     "month_number": 4,
     "angam_type": "nakshatram",
     "angam_number": 3,
-    "Tags": "Nayanar Gurupujai",
+    "tags": "Nayanar Gurupujai",
     "URL": "pugazhchchozha-nayanar-gurupujai"
   },
   {
@@ -5834,7 +5542,7 @@
     "month_number": 3,
     "angam_type": "nakshatram",
     "angam_number": 9,
-    "Tags": "Nayanar Gurupujai",
+    "tags": "Nayanar Gurupujai",
     "URL": "pugazhttunai-nayanar-gurupujai"
   },
   {
@@ -5843,7 +5551,7 @@
     "month_number": 7,
     "angam_type": "nakshatram",
     "angam_number": 17,
-    "Tags": "Nayanar Gurupujai",
+    "tags": "Nayanar Gurupujai",
     "URL": "pusalar-nayanar-gurupujai"
   },
   {
@@ -5852,7 +5560,7 @@
     "month_number": 4,
     "angam_type": "nakshatram",
     "angam_number": 14,
-    "Tags": "Nayanar Gurupujai",
+    "tags": "Nayanar Gurupujai",
     "URL": "perumizhalaik-kurumba-nayanar-gurupujai"
   },
   {
@@ -5861,7 +5569,7 @@
     "month_number": 1,
     "angam_type": "nakshatram",
     "angam_number": 4,
-    "Tags": "Nayanar Gurupujai",
+    "tags": "Nayanar Gurupujai",
     "URL": "mangaiyarkkarasiyar-nayanar-gurupujai"
   },
   {
@@ -5870,7 +5578,7 @@
     "month_number": 9,
     "angam_type": "nakshatram",
     "angam_number": 15,
-    "Tags": "Nayanar Gurupujai",
+    "tags": "Nayanar Gurupujai",
     "URL": "manakkanjara-nayanar-gurupujai"
   },
   {
@@ -5879,7 +5587,7 @@
     "month_number": 2,
     "angam_type": "nakshatram",
     "angam_number": 19,
-    "Tags": "Nayanar Gurupujai",
+    "tags": "Nayanar Gurupujai",
     "URL": "muruga-nayanar-gurupujai"
   },
   {
@@ -5888,7 +5596,7 @@
     "month_number": 12,
     "angam_type": "nakshatram",
     "angam_number": 8,
-    "Tags": "Nayanar Gurupujai",
+    "tags": "Nayanar Gurupujai",
     "URL": "munaiyaduvar-nayanar-gurupujai"
   },
   {
@@ -5897,7 +5605,7 @@
     "month_number": 8,
     "angam_type": "nakshatram",
     "angam_number": 19,
-    "Tags": "Nayanar Gurupujai",
+    "tags": "Nayanar Gurupujai",
     "URL": "murkha-nayanar-gurupujai"
   },
   {
@@ -5906,7 +5614,7 @@
     "month_number": 4,
     "angam_type": "nakshatram",
     "angam_number": 3,
-    "Tags": "Nayanar Gurupujai",
+    "tags": "Nayanar Gurupujai",
     "URL": "murtti-nayanar-gurupujai"
   },
   {
@@ -5915,7 +5623,7 @@
     "month_number": 8,
     "angam_type": "nakshatram",
     "angam_number": 12,
-    "Tags": "Nayanar Gurupujai",
+    "tags": "Nayanar Gurupujai",
     "URL": "meypporul-nayanar-gurupujai"
   },
   {
@@ -5924,7 +5632,7 @@
     "month_number": 9,
     "angam_type": "nakshatram",
     "angam_number": 27,
-    "Tags": "Nayanar Gurupujai",
+    "tags": "Nayanar Gurupujai",
     "URL": "vayilar-nayanar-gurupujai"
   },
   {
@@ -5933,7 +5641,7 @@
     "month_number": 1,
     "angam_type": "nakshatram",
     "angam_number": 6,
-    "Tags": "Nayanar Gurupujai",
+    "tags": "Nayanar Gurupujai",
     "URL": "viranminda-nayanar-gurupujai"
   },
   {
@@ -5942,7 +5650,7 @@
     "month_number": 7,
     "angam_type": "nakshatram",
     "angam_number": 22,
-    "Tags": "mahapurusha-events,azhwar-jayanti,mahapurusha-events",
+    "tags": "mahapurusha-events,azhwar-jayanti,mahapurusha-events",
     "URL": "poygaiyazhvar-tirunakshattiram"
   },
   {
@@ -5951,7 +5659,7 @@
     "month_number": 7,
     "angam_type": "nakshatram",
     "angam_number": 23,
-    "Tags": "mahapurusha-events,azhwar-jayanti,mahapurusha-events",
+    "tags": "mahapurusha-events,azhwar-jayanti,mahapurusha-events",
     "URL": "bhutattazhvar-tirunakshattiram"
   },
   {
@@ -5960,7 +5668,7 @@
     "month_number": 7,
     "angam_type": "nakshatram",
     "angam_number": 24,
-    "Tags": "mahapurusha-events,azhwar-jayanti,mahapurusha-events",
+    "tags": "mahapurusha-events,azhwar-jayanti,mahapurusha-events",
     "URL": "peyazhvar-tirunakshattiram"
   },
   {
@@ -5969,7 +5677,7 @@
     "month_number": 10,
     "angam_type": "nakshatram",
     "angam_number": 10,
-    "Tags": "mahapurusha-events,azhwar-jayanti,mahapurusha-events",
+    "tags": "mahapurusha-events,azhwar-jayanti,mahapurusha-events",
     "URL": "tirumazhisaiyazhvar-tirunakshattiram"
   },
   {
@@ -5978,7 +5686,7 @@
     "month_number": 2,
     "angam_type": "nakshatram",
     "angam_number": 16,
-    "Tags": "mahapurusha-events,azhwar-jayanti,mahapurusha-events",
+    "tags": "mahapurusha-events,azhwar-jayanti,mahapurusha-events",
     "URL": "nammazhvar-tirunakshattiram"
   },
   {
@@ -5987,7 +5695,7 @@
     "month_number": 1,
     "angam_type": "nakshatram",
     "angam_number": 14,
-    "Tags": "mahapurusha-events,azhwar-jayanti,mahapurusha-events",
+    "tags": "mahapurusha-events,azhwar-jayanti,mahapurusha-events",
     "URL": "madhurakavi-azhvar-tirunakshattiram"
   },
   {
@@ -5996,7 +5704,7 @@
     "month_number": 11,
     "angam_type": "nakshatram",
     "angam_number": 7,
-    "Tags": "mahapurusha-events,azhwar-jayanti,mahapurusha-events",
+    "tags": "mahapurusha-events,azhwar-jayanti,mahapurusha-events",
     "URL": "kulashekhara-azhvar-tirunakshattiram"
   },
   {
@@ -6005,7 +5713,7 @@
     "month_number": 3,
     "angam_type": "nakshatram",
     "angam_number": 15,
-    "Tags": "mahapurusha-events,azhwar-jayanti,mahapurusha-events",
+    "tags": "mahapurusha-events,azhwar-jayanti,mahapurusha-events",
     "URL": "periyazhvar-tirunakshattiram"
   },
   {
@@ -6014,7 +5722,7 @@
     "month_number": 9,
     "angam_type": "nakshatram",
     "angam_number": 18,
-    "Tags": "mahapurusha-events,azhwar-jayanti,mahapurusha-events",
+    "tags": "mahapurusha-events,azhwar-jayanti,mahapurusha-events",
     "URL": "tondaradippodiyazhvar-tirunakshattiram"
   },
   {
@@ -6023,7 +5731,7 @@
     "month_number": 4,
     "angam_type": "nakshatram",
     "angam_number": 4,
-    "Tags": "mahapurusha-events,azhwar-jayanti,mahapurusha-events",
+    "tags": "mahapurusha-events,azhwar-jayanti,mahapurusha-events",
     "URL": "tiruppanazhvar-tirunakshattiram"
   },
   {
@@ -6032,7 +5740,7 @@
     "month_number": 8,
     "angam_type": "nakshatram",
     "angam_number": 3,
-    "Tags": "mahapurusha-events,azhwar-jayanti,mahapurusha-events",
+    "tags": "mahapurusha-events,azhwar-jayanti,mahapurusha-events",
     "URL": "tirumangaiyazhvar-tirunakshattiram"
   },
   {
@@ -6041,7 +5749,7 @@
     "month_number": 3,
     "angam_type": "nakshatram",
     "angam_number": 14,
-    "Tags": "common-festivals",
+    "tags": "common-festivals",
     "URL": "sudarshana-jayanti"
   },
   {
@@ -6051,7 +5759,7 @@
     "angam_type": "nakshatram",
     "angam_number": 3,
     "Start Year": 4875,
-    "Tags": "mahapurusha-events",
+    "tags": "mahapurusha-events",
     "URL": "muttusvami-dikshita-jayanti"
   },
   {
@@ -6061,7 +5769,7 @@
     "angam_type": "nakshatram",
     "angam_number": 3,
     "Start Year": 4863,
-    "Tags": "mahapurusha-events",
+    "tags": "mahapurusha-events",
     "URL": "shyama-shastri-jayanti"
   },
   {
@@ -6070,8 +5778,7 @@
     "month_number": 6,
     "angam_type": "tithi",
     "angam_number": 29,
-    "Tags": "other-jayantis",
-    "URL": "katyayani-jayanti",
+    "tags": "other-jayantis",
     "references_secondary": "http://hindupad.com/katyayani-jayanti/"
   },
   {
@@ -6080,8 +5787,7 @@
     "month_number": 5,
     "angam_type": "tithi",
     "angam_number": 17,
-    "Tags": "other-jayantis",
-    "URL": "bhima-chandi-jayanti",
+    "tags": "other-jayantis",
     "references_secondary": "http://hindupad.com/bhim-chandi-jayanti/"
   },
   {
@@ -6090,8 +5796,7 @@
     "month_number": 4,
     "angam_type": "tithi",
     "angam_number": 22,
-    "Tags": "other-jayantis",
-    "URL": "chamundeshvari-jayanti",
+    "tags": "other-jayantis",
     "references_secondary": "http://hindupad.com/chamundeshwari-jayanti-birthday-of-goddess-chamundeshwari-mata/"
   },
   {
@@ -6100,8 +5805,7 @@
     "month_number": 2,
     "angam_type": "tithi",
     "angam_number": 30,
-    "Tags": "special-snanam",
-    "URL": "vaishakha-snanapurti",
+    "tags": "special-snanam",
     "Shloka": "mAdhavE mESagE bhAnau murArE madhusUdana.\nprAtaH snAnEna mE nAtha phaladO bhava pApahan ..",
     "references_secondary": "Vaidikasri June 2017"
   },
@@ -6111,7 +5815,7 @@
     "month_number": 4,
     "angam_type": "tithi",
     "angam_number": 30,
-    "Tags": "special-snanam",
+    "tags": "special-snanam",
     "URL": "ashadha-snanapurti"
   },
   {
@@ -6120,8 +5824,7 @@
     "month_number": 8,
     "angam_type": "tithi",
     "angam_number": 30,
-    "Tags": "mahapurusha-events,tamilnadu-temple-festivals",
-    "URL": "gangakarshana-mahotsava",
+    "tags": "mahapurusha-events,tamilnadu-temple-festivals",
     "description_short": "Thiruvisanallur Sridhara Aiyyaval brought Ganga to his house well on this day! See also http://www.sriayyaval.org/ .  ",
     "Shloka": "IzE tasya ca nAmani pravimalaM jJAnaM tayOrUrjitam\nprEma prEma ca tatparESu viratizcAnyatra sarvatra ca.\nIzEkSA karuNA ca yasya niyatA vRttiH zritasyApi yam\ntaM vandE nararUpamantakaripuM zrIvEGkaTEzaM gurum.."
   },
@@ -6131,7 +5834,7 @@
     "month_number": 8,
     "angam_type": "tithi",
     "angam_number": 30,
-    "Tags": "special-snanam",
+    "tags": "special-snanam",
     "URL": "vaishakha-snanapurti"
   },
   {
@@ -6140,8 +5843,7 @@
     "month_number": 11,
     "angam_type": "tithi",
     "angam_number": 30,
-    "Tags": "special-snanam",
-    "URL": "magha-snanapurti",
+    "tags": "special-snanam",
     "references_secondary": "Vaidikasri Feb 2017"
   },
   {
@@ -6150,8 +5852,7 @@
     "month_number": 2,
     "angam_type": "tithi",
     "angam_number": 30,
-    "Tags": "other-jayantis",
-    "URL": "shani-jayanti",
+    "tags": "other-jayantis",
     "references_secondary": "http://hindupad.com/shani-jayanti-2013/"
   },
   {
@@ -6160,8 +5861,7 @@
     "month_number": 2,
     "angam_type": "tithi",
     "angam_number": 20,
-    "Tags": "mahapurusha-events",
-    "URL": "kashyapa-maharshi-jayanti",
+    "tags": "mahapurusha-events",
     "references_secondary": "http://hindupad.com/kashyap-rishi-jayanti/"
   },
   {
@@ -6170,8 +5870,7 @@
     "month_number": 2,
     "angam_type": "tithi",
     "angam_number": 26,
-    "Tags": "other-jayantis",
-    "URL": "bhadrakali-jayanti",
+    "tags": "other-jayantis",
     "references_secondary": "http://hindupad.com/bhadrakali-jayanti/"
   },
   {
@@ -6180,8 +5879,7 @@
     "month_number": 5,
     "angam_type": "tithi",
     "angam_number": 2,
-    "Tags": "andhra-temple-festivals",
-    "URL": "satyanarayana-jayanti",
+    "tags": "andhra-temple-festivals",
     "description_short": "Satyanarayana Swami Jayanti is celebrated in Annavaram Satya Narayana Temple, Andhra Pradesh",
     "references_secondary": "http://hindupad.com/satyanarayana-swamy-jayanti-in-annavaram-satyanarayana-swamy-temple/"
   },
@@ -6191,8 +5889,7 @@
     "month_number": 2,
     "angam_type": "tithi",
     "angam_number": 9,
-    "Tags": "mahapurusha-events",
-    "URL": "vasishtha-maharshi-jayanti",
+    "tags": "mahapurusha-events",
     "references_secondary": "http://hindupad.com/vashishta-jayanti/"
   },
   {
@@ -6201,8 +5898,7 @@
     "month_number": 2,
     "angam_type": "tithi",
     "angam_number": 8,
-    "Tags": "dashamahavidya",
-    "URL": "bagalamukhi-jayanti",
+    "tags": "dashamahavidya",
     "description_short": "Goddess Bagalamukhi is 8th of the Dasha Maha Vidyas.",
     "titles": "pItAmbara-jayantI",
     "references_secondary": "http://hindupad.com/bagalamukhi-jayanti-bhagalamukhi-jayanthi-pitambara-jayanti/"
@@ -6213,8 +5909,7 @@
     "month_number": 2,
     "angam_type": "tithi",
     "angam_number": 7,
-    "Tags": "mahapurusha-events",
-    "URL": "vidyaranya-svami-jayanti",
+    "tags": "mahapurusha-events",
     "references_secondary": "http://hindupad.com/vidyaranya-jayanti-swami-vidyaranya-jayanthi/"
   },
   {
@@ -6224,8 +5919,7 @@
     "angam_type": "tithi",
     "angam_number": 7,
     "Start Year": 4868,
-    "Tags": "mahapurusha-events",
-    "URL": "tyagaraja-jayanti",
+    "tags": "mahapurusha-events",
     "references_secondary": "Vaidikasri May 2017"
   },
   {
@@ -6234,8 +5928,7 @@
     "month_number": 2,
     "angam_type": "tithi",
     "angam_number": 1,
-    "Tags": "mahapurusha-events",
-    "URL": "parashara-maharshi-jayanti",
+    "tags": "mahapurusha-events",
     "references_secondary": "http://hindupad.com/parashar-jayanti/"
   },
   {
@@ -6244,7 +5937,7 @@
     "month_number": 2,
     "angam_type": "tithi",
     "angam_number": 30,
-    "Tags": "mahapurusha-events",
+    "tags": "mahapurusha-events",
     "URL": "shuka-maharshi-jayanti"
   },
   {
@@ -6253,8 +5946,7 @@
     "month_number": 2,
     "angam_type": "tithi",
     "angam_number": 15,
-    "Tags": "mahapurusha-events",
-    "URL": "annamacharya-jayanti",
+    "tags": "mahapurusha-events",
     "references_secondary": "http://hindupad.com/annamacharya-jayanti-2010-birth-annivarsary-date-of-annamayya/"
   },
   {
@@ -6263,8 +5955,7 @@
     "month_number": 1,
     "angam_type": "tithi",
     "angam_number": 2,
-    "Tags": "other-jayantis",
-    "URL": "jhulelal-jayanti",
+    "tags": "other-jayantis",
     "references_secondary": "http://hindupad.com/jhulelal-jayanti-2012-date/"
   },
   {
@@ -6273,8 +5964,7 @@
     "month_number": 11,
     "angam_type": "tithi",
     "angam_number": 21,
-    "Tags": "other-jayantis",
-    "URL": "yashoda-jayanti",
+    "tags": "other-jayantis",
     "references_secondary": "http://hindupad.com/mata-yashoda-jayanti/"
   },
   {
@@ -6283,8 +5973,7 @@
     "month_number": 11,
     "angam_type": "tithi",
     "angam_number": 8,
-    "Tags": "other-jayantis",
-    "URL": "khodiyar-mata-jayanti",
+    "tags": "other-jayantis",
     "references_secondary": "http://hindupad.com/khodiyar-mata-jayanti/"
   },
   {
@@ -6293,8 +5982,7 @@
     "month_number": 11,
     "angam_type": "tithi",
     "angam_number": 4,
-    "Tags": "mahapurusha-events",
-    "URL": "markandeya-jayanti",
+    "tags": "mahapurusha-events",
     "references_secondary": "http://hindupad.com/markandeya-jayanti/"
   },
   {
@@ -6303,8 +5991,7 @@
     "month_number": 11,
     "angam_type": "tithi",
     "angam_number": 7,
-    "Tags": "other-jayantis",
-    "URL": "narmada-jayanti",
+    "tags": "other-jayantis",
     "references_secondary": "http://hindupad.com/narmada-jayanti/"
   },
   {
@@ -6313,8 +6000,7 @@
     "month_number": 10,
     "angam_type": "tithi",
     "angam_number": 24,
-    "Tags": "mahapurusha-events",
-    "URL": "bhishma-jayanti",
+    "tags": "mahapurusha-events",
     "references_secondary": "http://hindupad.com/bhishma-pitamaha-jayanti/"
   },
   {
@@ -6323,8 +6009,7 @@
     "month_number": 3,
     "angam_type": "tithi",
     "angam_number": 8,
-    "Tags": "dashamahavidya",
-    "URL": "dhumavati-jayanti",
+    "tags": "dashamahavidya",
     "description_short": "Goddess Dhumavati is 7th of the Dasha Maha Vidyas.",
     "references_secondary": "http://hindupad.com/dhumavati-jayanti-maa-dhumavathi-jayanthi/"
   },
@@ -6334,7 +6019,7 @@
     "month_number": 3,
     "angam_type": "tithi",
     "angam_number": 8,
-    "Tags": "less-common-festivals",
+    "tags": "less-common-festivals",
     "URL": "jyeshthashtami"
   },
   {
@@ -6343,8 +6028,7 @@
     "month_number": 3,
     "angam_type": "tithi",
     "angam_number": 9,
-    "Tags": "less-common-festivals",
-    "URL": "mahesha-navami",
+    "tags": "less-common-festivals",
     "references_secondary": "http://www.festivalsofindia.in/maheshnavmi/"
   },
   {
@@ -6353,8 +6037,7 @@
     "month_number": 6,
     "angam_type": "tithi",
     "angam_number": 8,
-    "Tags": "mahapurusha-events",
-    "URL": "dadhichi-maharshi-jayanti",
+    "tags": "mahapurusha-events",
     "references_secondary": "http://hindupad.com/dadhichi-jayanti/"
   },
   {
@@ -6363,8 +6046,7 @@
     "month_number": 10,
     "angam_type": "tithi",
     "angam_number": 15,
-    "Tags": "other-jayantis",
-    "URL": "shakambhari-jayanti",
+    "tags": "other-jayantis",
     "references_secondary": "http://hindupad.com/shakambari-jayanti-2009-shakambari-jayanthi-or-last-day-of-shakambari-navaratri/"
   },
   {
@@ -6373,8 +6055,7 @@
     "month_number": 2,
     "angam_type": "tithi",
     "angam_number": 15,
-    "Tags": "dashamahavidya",
-    "URL": "chhinnamasta-jayanti",
+    "tags": "dashamahavidya",
     "description_short": "Goddess Chinnmasta is 6th of the Dasha Maha Vidyas."
   },
   {
@@ -6383,7 +6064,7 @@
     "month_number": 2,
     "angam_type": "tithi",
     "angam_number": 10,
-    "Tags": "other-jayantis",
+    "tags": "other-jayantis",
     "URL": "nimishamba-jayanti"
   },
   {
@@ -6392,7 +6073,7 @@
     "month_number": 7,
     "angam_type": "tithi",
     "angam_number": 1,
-    "Tags": "mahapurusha-events",
+    "tags": "mahapurusha-events",
     "URL": "agrasena-maharaja-jayanti"
   },
   {
@@ -6401,8 +6082,7 @@
     "month_number": 9,
     "angam_type": "tithi",
     "angam_number": 15,
-    "Tags": "dashamahavidya",
-    "URL": "tripura-bhairavi-jayanti",
+    "tags": "dashamahavidya",
     "description_short": "Goddess Tripura Bhairavi is 5th of the Dasha Maha Vidyas."
   },
   {
@@ -6413,8 +6093,7 @@
     "angam_number": 9,
     "kala": "madhyahna",
     "priority": "purvaviddha",
-    "Tags": "dashamahavidya",
-    "URL": "mahatara-jayanti",
+    "tags": "dashamahavidya",
     "description_short": "Goddess Mahatara is 2nd of the Dasha Maha Vidyas."
   },
   {
@@ -6423,8 +6102,7 @@
     "month_number": 7,
     "angam_type": "tithi",
     "angam_number": 30,
-    "Tags": "dashamahavidya",
-    "URL": "kamala-jayanti",
+    "tags": "dashamahavidya",
     "description_short": "Goddess Kamala is 10th of the Dasha Maha Vidyas."
   }
 ]

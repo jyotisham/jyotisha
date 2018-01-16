@@ -47,9 +47,6 @@ def compute_calendar(panchangam):
     alarm.add('action', 'DISPLAY')
     alarm.add('trigger', timedelta(hours=-4))  # default alarm, with a 4 hour reminder
 
-    # BASE_URL = "http://adyatithih.wordpress.com/"
-    BASE_URL = "http://karthikraman.github.io/adyatithih/posts/"
-
     for d in range(1, jyotisha.panchangam.temporal.MAX_SZ - 1):
         [y, m, dt, t] = swe.revjul(panchangam.jd_start + d - 1)
 
@@ -74,13 +71,8 @@ def compute_calendar(panchangam):
                         desc = festival_rules[stext]['description_short'] + '\n\n' + \
                             jyotisha.custom_transliteration.tr(festival_rules[stext]['Shloka'],
                                                                panchangam.script, False) + '\n\n'
-                        if 'URL' in festival_rules[stext]:
-                            page_id = festival_rules[stext]['URL']
-                        else:
-                            sys.stderr.write('No URL found for festival %s!\n' % stext)
                     else:
                         sys.stderr.write('No description found for festival %s!\n' % stext)
-                    desc += BASE_URL + page_id.rstrip('-1234567890').rstrip('0123456789{}\\#')
                     uid = '%s-%d' % (page_id, y)
 
                     event.add_component(alarm)
@@ -117,14 +109,8 @@ def compute_calendar(panchangam):
                     if stext in festival_rules:
                         desc = festival_rules[stext]['description_short'] + '\n\n' + \
                             jyotisha.custom_transliteration.tr(festival_rules[stext]['Shloka'], panchangam.script, False) + '\n\n'
-                        if 'URL' in festival_rules[stext]:
-                            page_id = festival_rules[stext]['URL']
-                        else:
-                            sys.stderr.write('No URL found for festival %s!\n' % stext)
                     else:
                         sys.stderr.write('No description found for festival %s!\n' % stext)
-
-                    desc += BASE_URL + page_id
                     event.add('description', desc.strip())
                     uid = '%s-%d-%02d' % (page_id, y, m)
                     if uid not in uid_list:
@@ -144,14 +130,9 @@ def compute_calendar(panchangam):
                     if stext in festival_rules:
                         desc = festival_rules[stext]['description_short'] + '\n\n' + \
                             jyotisha.custom_transliteration.tr(festival_rules[stext]['Shloka'], panchangam.script, False) + '\n\n'
-                        if 'URL' in festival_rules[stext]:
-                            page_id = festival_rules[stext]['URL']
-                        else:
-                            sys.stderr.write('No URL found for festival %s!\n' % stext)
                     else:
                         sys.stderr.write('No description found for festival %s!\n' % stext)
 
-                    desc += BASE_URL + page_id.rstrip('-1234567890').rstrip('0123456789{}\\#')
                     # print(event)
                     event.add_component(alarm)
                     event.add('description', desc.strip())
@@ -185,7 +166,6 @@ def compute_calendar(panchangam):
                     event.add('dtstart', (datetime(y, m, dt) - timedelta(d - start_d)).date())
                     event.add('dtend', (datetime(y, m, dt) + timedelta(1)).date())
 
-                    desc += BASE_URL + page_id.rstrip('-1234567890').rstrip('0123456789{}\\#')
                     # print(event)
                     event.add_component(alarm)
                     event.add('description', desc.strip())
@@ -219,13 +199,8 @@ def compute_calendar(panchangam):
                         if stext in festival_rules:
                             desc = festival_rules[stext]['description_short'] + '\n\n' + \
                                 jyotisha.custom_transliteration.tr(festival_rules[stext]['Shloka'], panchangam.script, False) + '\n\n'
-                            if 'URL' in festival_rules[stext]:
-                                page_id = festival_rules[stext]['URL']
-                            else:
-                                sys.stderr.write('No URL found for festival %s!\n' % stext)
                         else:
                             sys.stderr.write('No description found for festival %s!\n' % stext)
-                        desc += BASE_URL + page_id.rstrip('-1234567890').rstrip('0123456789{}\\#')
                         uid = '%s-%d-%02d' % (page_id, y, m)
                     elif stext.find('saGkrAntiH') != -1:
                         # Handle Sankranti descriptions differently
@@ -233,13 +208,8 @@ def compute_calendar(panchangam):
                         if planet_trans in festival_rules:
                             desc = festival_rules[planet_trans]['description_short'] + '\n\n' + \
                                 jyotisha.custom_transliteration.tr(festival_rules[planet_trans]['Shloka'], panchangam.script) + '\n\n'
-                            if 'URL' in festival_rules[planet_trans]:
-                                page_id = festival_rules[planet_trans]['URL']
-                            else:
-                                sys.stderr.write('No URL found for festival %s!\n' % stext)
                         else:
                             sys.stderr.write('No description found for festival %s!\n' % planet_trans)
-                        desc += '\n' + BASE_URL + page_id
                         uid = '%s-%d-%02d' % (page_id, y, m)
                     else:
                         # Handle ekadashi descriptions differently
@@ -247,13 +217,8 @@ def compute_calendar(panchangam):
                         if ekad in festival_rules:
                             desc = festival_rules[ekad]['description_short'] + '\n\n' + \
                                 jyotisha.custom_transliteration.tr(festival_rules[ekad]['Shloka'], panchangam.script) + '\n\n'
-                            if 'URL' in festival_rules[ekad]:
-                                page_id = festival_rules[ekad]['URL']
-                            else:
-                                sys.stderr.write('No URL found for festival %s!\n' % stext)
                         else:
                             sys.stderr.write('No description found for festival %s!\n' % ekad)
-                        desc += '\n' + BASE_URL + page_id
                         pref = jyotisha.custom_transliteration.romanise(sanscript.transliterate(
                             stext.split('-')[0],
                             sanscript.HK, sanscript.IAST)) + "-"
