@@ -1034,8 +1034,8 @@ class Panchangam(common.JsonObject):
           priority = festival_rules[festival_name]['priority']
         else:
           priority = 'purvaviddha'
-        if 'Start Year' in festival_rules[festival_name]:
-          fest_start_year = festival_rules[festival_name]['Start Year']
+        if 'year_start' in festival_rules[festival_name]:
+          fest_start_year = festival_rules[festival_name]['year_start']
         else:
           fest_start_year = None
         # if 'titles' in festival_rules[festival_name]:

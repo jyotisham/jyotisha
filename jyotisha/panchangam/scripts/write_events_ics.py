@@ -55,8 +55,8 @@ def compute_events(p, json_file):
                 priority = event_rules[event_name]['priority']
             else:
                 priority = 'purvaviddha'
-            if 'Start Year' in event_rules[event_name]:
-                event_start_year = event_rules[event_name]['Start Year']
+            if 'year_start' in event_rules[event_name]:
+                event_start_year = event_rules[event_name]['year_start']
             else:
                 event_start_year = None
 

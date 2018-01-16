@@ -1,8 +1,7 @@
 [
   {
     "id": "SaSThI-vratam",
-    "tags": "monthly-vratams,shashthi-vratam-days",
-    "URL": "shashthi-vratam"
+    "tags": "monthly-vratams,shashthi-vratam-days"
   },
   {
     "id": "kumAra-SaSThI-vratam",
@@ -18,8 +17,7 @@
   },
   {
     "id": "skanda-SaSThI-vratam",
-    "tags": "monthly-vratams,shashthi-vratam-days",
-    "URL": "shashthi-vratam"
+    "tags": "monthly-vratams,shashthi-vratam-days"
   },
   {
     "id": "subrahmaNya-SaSThI-vratam",
@@ -70,8 +68,7 @@
   },
   {
     "id": "(bhAdrapada) mahAlaya amAvasyA",
-    "tags": "amavasya-days",
-    "URL": "(bhadrapada)-mahalaya-amavasya"
+    "tags": "amavasya-days"
   },
   {
     "id": "ajA-EkAdazI",
@@ -80,33 +77,27 @@
   },
   {
     "id": "AmalakI-EkAdazI",
-    "tags": "monthly-vratams,ekadashi-vratam-days",
-    "URL": "amalaki-ekadashi"
+    "tags": "monthly-vratams,ekadashi-vratam-days"
   },
   {
     "id": "aparA-EkAdazI",
-    "tags": "monthly-vratams,ekadashi-vratam-days",
-    "URL": "apara-ekadashi"
+    "tags": "monthly-vratams,ekadashi-vratam-days"
   },
   {
     "id": "Azvayuja-amAvasyA",
-    "tags": "amavasya-days",
-    "URL": "ashvina-amavasya"
+    "tags": "amavasya-days"
   },
   {
     "id": "caitra-amAvasyA",
-    "tags": "amavasya-days",
-    "URL": "chaitra-amavasya"
+    "tags": "amavasya-days"
   },
   {
     "id": "candra-grahaNam",
-    "tags": "rare-days",
-    "URL": "chandra-grahanam"
+    "tags": "rare-days"
   },
   {
     "id": "guruvAyupura-EkAdazI",
-    "tags": "monthly-vratams,ekadashi-vratam-days,kerala-temple-festivals",
-    "URL": "guruvayupura-ekadashi"
+    "tags": "monthly-vratams,ekadashi-vratam-days,kerala-temple-festivals"
   },
   {
     "id": "indirA-EkAdazI",
@@ -115,13 +106,11 @@
   },
   {
     "id": "padminI-EkAdazI",
-    "tags": "monthly-vratams,ekadashi-vratam-days",
-    "URL": "padmini-ekadashi"
+    "tags": "monthly-vratams,ekadashi-vratam-days"
   },
   {
     "id": "paramA-EkAdazI",
-    "tags": "monthly-vratams,ekadashi-vratam-days",
-    "URL": "parama-ekadashi"
+    "tags": "monthly-vratams,ekadashi-vratam-days"
   },
   {
     "id": "jayA/bhaimI-EkAdazI",
@@ -130,23 +119,19 @@
   },
   {
     "id": "jyaiSTha-amAvasyA",
-    "tags": "amavasya-days",
-    "URL": "jyaishtha-amavasya"
+    "tags": "amavasya-days"
   },
   {
     "id": "kAmadA-EkAdazI",
-    "tags": "monthly-vratams,ekadashi-vratam-days",
-    "URL": "kamada-ekadashi"
+    "tags": "monthly-vratams,ekadashi-vratam-days"
   },
   {
     "id": "kAmikA-EkAdazI",
-    "tags": "monthly-vratams,ekadashi-vratam-days",
-    "URL": "kamika-ekadashi"
+    "tags": "monthly-vratams,ekadashi-vratam-days"
   },
   {
     "id": "kArtika-amAvasyA",
-    "tags": "amavasya-days",
-    "URL": "kartika-amavasya"
+    "tags": "amavasya-days"
   },
   {
     "id": "kucEla-dinam",
@@ -155,43 +140,35 @@
   },
   {
     "id": "mAgha-amAvasyA",
-    "tags": "amavasya-days",
-    "URL": "magha-amavasya"
+    "tags": "amavasya-days"
   },
   {
     "id": "mahAdhanurvyatIpAtam",
-    "tags": "common-festivals",
-    "URL": "mahadhanurvyatipatam"
+    "tags": "common-festivals"
   },
   {
     "id": "mahAsaGkaTahara-caturthI-vratam",
-    "tags": "common-festivals",
-    "URL": "mahasankatahara-chaturthi-vratam"
+    "tags": "common-festivals"
   },
   {
     "id": "mahAvyatIpAtam",
-    "tags": "common-festivals",
-    "URL": "mahavyatipatam"
+    "tags": "common-festivals"
   },
   {
     "id": "makarAyaNa-puNyakAlaH/mitrOtsavaH",
-    "tags": "common-festivals",
-    "URL": "makarayana-punyakAlaH-mitrotsavaH"
+    "tags": "common-festivals"
   },
   {
     "id": "mArgazIrSa-amAvasyA",
-    "tags": "amavasya-days",
-    "URL": "margashirsha-amavasya"
+    "tags": "amavasya-days"
   },
   {
     "id": "mOhinI-EkAdazI",
-    "tags": "monthly-vratams,ekadashi-vratam-days",
-    "URL": "mohini-ekadashi"
+    "tags": "monthly-vratams,ekadashi-vratam-days"
   },
   {
     "id": "mOkSadA-EkAdazI",
-    "tags": "monthly-vratams,ekadashi-vratam-days",
-    "URL": "mokshada-ekadashi"
+    "tags": "monthly-vratams,ekadashi-vratam-days"
   },
   {
     "id": "zayana-EkAdazI",
@@ -202,18 +179,15 @@
   },
   {
     "id": "pANDava-nirjalA-EkAdazI",
-    "tags": "monthly-vratams,ekadashi-vratam-days",
-    "URL": "pandava-nirjala-ekadashi"
+    "tags": "monthly-vratams,ekadashi-vratam-days"
   },
   {
     "id": "pApAGkuzA-EkAdazI",
-    "tags": "monthly-vratams,ekadashi-vratam-days",
-    "URL": "papankusha-ekadashi"
+    "tags": "monthly-vratams,ekadashi-vratam-days"
   },
   {
     "id": "pApamOcanI-EkAdazI",
-    "tags": "monthly-vratams,ekadashi-vratam-days",
-    "URL": "papamochani-ekadashi"
+    "tags": "monthly-vratams,ekadashi-vratam-days"
   },
   {
     "id": "parivartinI-EkAdazI",
@@ -223,33 +197,27 @@
   },
   {
     "id": "mauni (pauSa/makara) amAvasyA",
-    "tags": "amavasya-days",
-    "URL": "mauni-pausha-makara-amavasya"
+    "tags": "amavasya-days"
   },
   {
     "id": "pavitrOpAna-EkAdazI",
-    "tags": "monthly-vratams,ekadashi-vratam-days",
-    "URL": "pavitropana-ekadashi"
+    "tags": "monthly-vratams,ekadashi-vratam-days"
   },
   {
     "id": "phAlguna-amAvasyA",
-    "tags": "amavasya-days",
-    "URL": "phalguna-amavasya"
+    "tags": "amavasya-days"
   },
   {
     "id": "pradOSa-vratam",
-    "tags": "monthly-vratams,pradosha-vratam-days",
-    "URL": "pradosha-vratam"
+    "tags": "monthly-vratams,pradosha-vratam-days"
   },
   {
     "id": "putradA-EkAdazI",
-    "tags": "monthly-vratams,ekadashi-vratam-days",
-    "URL": "putrada-ekadashi"
+    "tags": "monthly-vratams,ekadashi-vratam-days"
   },
   {
     "id": "ramA-EkAdazI",
-    "tags": "monthly-vratams,ekadashi-vratam-days",
-    "URL": "rama-ekadashi"
+    "tags": "monthly-vratams,ekadashi-vratam-days"
   },
   {
     "id": "saGkaTahara-caturthI-vratam",
@@ -259,53 +227,43 @@
   },
   {
     "id": "saphalA-EkAdazI",
-    "tags": "monthly-vratams,ekadashi-vratam-days",
-    "URL": "saphala-ekadashi"
+    "tags": "monthly-vratams,ekadashi-vratam-days"
   },
   {
     "id": "SaTtilA-EkAdazI",
-    "tags": "monthly-vratams,ekadashi-vratam-days",
-    "URL": "shattila-ekadashi"
+    "tags": "monthly-vratams,ekadashi-vratam-days"
   },
   {
     "id": "sOma-pradOSa-vratam",
-    "tags": "pradosha-vratam-days,monthly-vratams",
-    "URL": "soma-pradosha-vratam"
+    "tags": "pradosha-vratam-days,monthly-vratams"
   },
   {
     "id": "sukhA~aGgAraka-caturthI",
-    "tags": "rare-days",
-    "URL": "sukha-angaraka-chaturthi"
+    "tags": "rare-days"
   },
   {
     "id": "utpannA-EkAdazI",
-    "tags": "monthly-vratams,ekadashi-vratam-days",
-    "URL": "utpanna-ekadashi"
+    "tags": "monthly-vratams,ekadashi-vratam-days"
   },
   {
     "id": "utthAna-EkAdazI",
-    "tags": "monthly-vratams,ekadashi-vratam-days",
-    "URL": "utthana-ekadashi"
+    "tags": "monthly-vratams,ekadashi-vratam-days"
   },
   {
     "id": "vaikuNTha-EkAdazI",
-    "tags": "monthly-vratams,ekadashi-vratam-days",
-    "URL": "vaikuntha-ekadashi"
+    "tags": "monthly-vratams,ekadashi-vratam-days"
   },
   {
     "id": "vaizAkha-amAvasyA",
-    "tags": "amavasya-days",
-    "URL": "vaishakha-amavasya"
+    "tags": "amavasya-days"
   },
   {
     "id": "varalakSmI-vratam",
-    "tags": "common-festivals,special-vratams",
-    "URL": "varalakshmi-vratam"
+    "tags": "common-festivals,special-vratams"
   },
   {
     "id": "varUthinI-EkAdazI",
-    "tags": "monthly-vratams,ekadashi-vratam-days",
-    "URL": "varuthini-ekadashi"
+    "tags": "monthly-vratams,ekadashi-vratam-days"
   },
   {
     "id": "vijayA~bhAnusaptamI",
@@ -321,33 +279,27 @@
   },
   {
     "id": "vijayA-EkAdazI",
-    "tags": "monthly-vratams,ekadashi-vratam-days",
-    "URL": "vijaya-ekadashi"
+    "tags": "monthly-vratams,ekadashi-vratam-days"
   },
   {
     "id": "yOginI-EkAdazI",
-    "tags": "monthly-vratams,ekadashi-vratam-days",
-    "URL": "yogini-ekadashi"
+    "tags": "monthly-vratams,ekadashi-vratam-days"
   },
   {
     "id": "zani-pradOSa-vratam",
-    "tags": "monthly-vratams,pradosha-vratam-days",
-    "URL": "shani-pradosha-vratam"
+    "tags": "monthly-vratams,pradosha-vratam-days"
   },
   {
     "id": "zravaNa-amAvasyA",
-    "tags": "amavasya-days",
-    "URL": "shravana-amavasya"
+    "tags": "amavasya-days"
   },
   {
     "id": "pauSa (makara) amAvasyA",
-    "tags": "amavasya-days",
-    "URL": "pausha-(makara)-amavasya"
+    "tags": "amavasya-days"
   },
   {
     "id": "sUrya-grahaNam",
-    "tags": "rare-days",
-    "URL": "surya-grahanam"
+    "tags": "rare-days"
   },
   {
     "id": "bhaumAzvinI-puNyakAlaH",
@@ -356,13 +308,11 @@
   },
   {
     "id": "ASADha (kaTaka) amAvasyA",
-    "tags": "amavasya-days",
-    "URL": "ashadha-(kataka)-amavasya"
+    "tags": "amavasya-days"
   },
   {
     "id": "zravaNa (kaTaka) amAvasyA",
-    "tags": "amavasya-days",
-    "URL": "shravana-(kataka)-amavasya"
+    "tags": "amavasya-days"
   },
   {
     "id": "budhAnUrAdhA-puNyakAlaH",
@@ -371,28 +321,23 @@
   },
   {
     "id": "gajacchAyA-yOgam",
-    "tags": "rare-days",
-    "URL": "gajachchhaya-yogam"
+    "tags": "rare-days"
   },
   {
     "id": "agninakSatra-ArambhaH",
-    "tags": "special-period-start",
-    "URL": "agninakshatra-arambha"
+    "tags": "special-period-start"
   },
   {
     "id": "agninakSatra-samApanam",
-    "tags": "special-period-end",
-    "URL": "agninakshatra-samapanam"
+    "tags": "special-period-end"
   },
   {
     "id": "ta:kapAlI teppOtsavam",
-    "tags": "tamilnadu-temple-festivals",
-    "URL": "kapali-teppotsavam"
+    "tags": "tamilnadu-temple-festivals"
   },
   {
     "id": "ta:kAraDaiyAn2 nOn2bu",
-    "tags": "common-festivals-tamilnadu",
-    "URL": "karadaiyan-nombu"
+    "tags": "common-festivals-tamilnadu"
   },
   {
     "id": "ta:AvaNi~JAyir2r2ukkizhamai",
@@ -406,18 +351,15 @@
   },
   {
     "id": "ta:kArttigai~sOmavAram",
-    "tags": "tamil-month-vratams",
-    "URL": "karttigai-somavaram"
+    "tags": "tamil-month-vratams"
   },
   {
     "id": "ta:ADi~veLLikkizhamai",
-    "tags": "tamil-month-vratams",
-    "URL": "adi-vellikkizhamai"
+    "tags": "tamil-month-vratams"
   },
   {
     "id": "ta:tai~veLLikkizhamai",
-    "tags": "tamil-month-vratams",
-    "URL": "tai-vellikkizhamai"
+    "tags": "tamil-month-vratams"
   },
   {
     "id": "ta:mAci~cevvAy",
@@ -443,8 +385,7 @@
   },
   {
     "id": "ASADha-amAvasyA",
-    "tags": "amavasya-days",
-    "URL": "ashadha-amavasya"
+    "tags": "amavasya-days"
   },
   {
     "id": "AyuSmAn-bava-saumya",
@@ -484,8 +425,7 @@
   },
   {
     "id": "pauSa-amAvasyA",
-    "tags": "amavasya-days",
-    "URL": "pausha-amavasya"
+    "tags": "amavasya-days"
   },
   {
     "id": "vAruNI~trayOdazI",
@@ -514,32 +454,26 @@
   },
   {
     "id": "kRSNA-antya-puSkara-ArambhaH",
-    "tags": "pushkara,rare-days",
-    "URL": "krishna-antya-pushkara"
+    "tags": "pushkara,rare-days"
   },
   {
     "id": "kRSNA-antya-puSkara-samApanam",
-    "tags": "pushkara,rare-days",
-    "URL": "krishna-antya-pushkara"
+    "tags": "pushkara,rare-days"
   },
   {
     "id": "guru-saGkrAntiH",
-    "tags": "sankranti",
-    "URL": "guru-sankranti"
+    "tags": "sankranti"
   },
   {
     "id": "zani-saGkrAntiH",
-    "tags": "sankranti",
-    "URL": "zani-sankranti"
+    "tags": "sankranti"
   },
   {
     "id": "kAvErI-Adi-puSkara-ArambhaH",
-    "tags": "pushkara,rare-days",
-    "URL": "kaveri-adi-pushkara"
+    "tags": "pushkara,rare-days"
   },
   {
     "id": "kAvErI-Adi-puSkara-samApanam",
-    "tags": "pushkara,rare-days",
-    "URL": "kaveri-adi-pushkara"
+    "tags": "pushkara,rare-days"
   }
 ]

@@ -36,7 +36,7 @@ if __name__ == '__main__':
                 if guru[:5] == 'kAJcI':
                     name = str(' '.join(guru.split()[3:-1])).replace('-', ' ')
                     num = int(guru.split()[1])
-                    kali_year = str(aradhana_rules[guru]['Start Year'] - 1)
+                    kali_year = str(aradhana_rules[guru]['year_start'] - 1)
                     year_name = NAMES['SAMVATSARA_NAMES']['hk'][((int(kali_year) + 12) % 60)]
                 else:
                     name = guru[:-9]
