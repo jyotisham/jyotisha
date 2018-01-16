@@ -203,7 +203,7 @@
     "angam_type": "tithi",
     "angam_number": 15,
     "tags": "purnima-days,common-festivals",
-    "Shloka": "citraguptaM mahAprAjJyaM lEkhanIpatradhAriNam .\ncitraratnAmbaradharaM madhyasthaM sarvadEhinAm .."
+    "shlokas": "citraguptaM mahAprAjJyaM lEkhanIpatradhAriNam .\ncitraratnAmbaradharaM madhyasthaM sarvadEhinAm .."
   },
   {
     "id": "citragupta-vratam",
@@ -375,7 +375,7 @@
     "angam_number": 7,
     "tags": "special-pujas",
     "description_short": "Worship Surya Bhagavan in a vessel (`kumbha`) filled with sugar, followed by `dAnam` of the same.",
-    "Shloka": "zarkarAsaptamI caiva vAjimEdhaphalapradA.\nsarvaduHkhaprazamanI sarvasampatpradAyinI..",
+    "shlokas": "zarkarAsaptamI caiva vAjimEdhaphalapradA.\nsarvaduHkhaprazamanI sarvasampatpradAyinI..",
     "references_secondary": "Vaidikasri May 2016",
     "references_primary": "Smriti Kaustubham - 112"
   },
@@ -483,7 +483,7 @@
     "priority": "paraviddha",
     "tags": "special-snanam",
     "description_short": "Perform snana four ghatikas before sunrise (during `aruNodayam`, when the Moon is still up, on the full-moon days of `ASADha`, `kArtika`, `mAgha` and `vaizAkha` \u2013 hence the name `A-kA-mA-vai`) bestows strength, beauty, fame, dharma, knowledge, happiness, fortitude and health.",
-    "Shloka": "balaM rUpaM yazO dharmaM jJAnamAyuH sukhaM dhRtim .\nArOgyaM paramApnOti samyak snAnEna mAnavaH ..",
+    "shlokas": "balaM rUpaM yazO dharmaM jJAnamAyuH sukhaM dhRtim .\nArOgyaM paramApnOti samyak snAnEna mAnavaH ..",
     "references_secondary": "Vaidikasri",
     "references_primary": "Satyavrata Smriti"
   },
@@ -537,7 +537,7 @@
     "angam_number": 1,
     "tags": "special-vratams",
     "description_short": "Perform puja of `karavIra` plants/flowers and then offer them in `arcanA`.",
-    "Shloka": "karavIra viSAvAsa namastE bhAnuvallabha.\nmaulimaNDana durgAdi dEvAnAM satataM priya",
+    "shlokas": "karavIra viSAvAsa namastE bhAnuvallabha.\nmaulimaNDana durgAdi dEvAnAM satataM priya",
     "Comments": "Not assigned in 2016"
   },
   {
@@ -566,7 +566,7 @@
     "angam_number": 3,
     "tags": "special-vratams",
     "description_short": "Rambha Vratam; perform Savitri pooja near Banana tree. Offer naivedyam of bananas prepared with ghee.",
-    "Shloka": "puSpamaNDapikA kAryA rambhAstambhOpazObhitA.\ntatra sampUjayEddEvIM zaktyA svarNAdinirmitAm ..\n\nvEdESu sarvazAstrESu divi bhUmau rasAtalE.\nzrutO dRSTazca bahuzO na zaktyA rahitaH zivaH.\ntvaM zakstistvaM svadhA svAhA tvaM sAvitrI sarasvatI.\npatiM dEhi sutAndEhi gRhaM dEvi namO'stu tE..\n\n yOSitaH puruSO vA'pi khyAtaM rambhAvrataM bhuvi.\nbhAryAM putraM gRhaM bhOgAn kulavRddhimavApnuyuH..",
+    "shlokas": "puSpamaNDapikA kAryA rambhAstambhOpazObhitA.\ntatra sampUjayEddEvIM zaktyA svarNAdinirmitAm ..\n\nvEdESu sarvazAstrESu divi bhUmau rasAtalE.\nzrutO dRSTazca bahuzO na zaktyA rahitaH zivaH.\ntvaM zakstistvaM svadhA svAhA tvaM sAvitrI sarasvatI.\npatiM dEhi sutAndEhi gRhaM dEvi namO'stu tE..\n\n yOSitaH puruSO vA'pi khyAtaM rambhAvrataM bhuvi.\nbhAryAM putraM gRhaM bhOgAn kulavRddhimavApnuyuH..",
     "references_secondary": "Kielhorn (1897), Vaidikasri June 2017"
   },
   {
@@ -577,7 +577,7 @@
     "angam_number": 4,
     "tags": "other-jayantis",
     "description_short": "Perform puja of Uma-Maheshvara, on the day of Uma Devi's Avataram.",
-    "Shloka": "jyESThazuklacaturthyAM tu jAtA pUrvamumA satI.\ntasmAt sA tatra sampUjyA strIbhiH saubhAgyavRddhayE.."
+    "shlokas": "jyESThazuklacaturthyAM tu jAtA pUrvamumA satI.\ntasmAt sA tatra sampUjyA strIbhiH saubhAgyavRddhayE.."
   },
   {
     "id": "kadalI-gaurI-vratam/pUjA",
@@ -587,7 +587,7 @@
     "angam_number": 4,
     "tags": "less-common-festivals",
     "description_short": "Perform puja of Shiva-Parvati under a banana tree or on a banana leaf, do naivedyam of 100+ bananas and give away to small girl children.",
-    "Shloka": "putrAn dEhi dhanaM dEhi saubhAgyaM sarvamaGgalE.\nsaumaGgalyaM sukhaM jJAnaM dEhi mE zivasundari..",
+    "shlokas": "putrAn dEhi dhanaM dEhi saubhAgyaM sarvamaGgalE.\nsaumaGgalyaM sukhaM jJAnaM dEhi mE zivasundari..",
     "references_secondary": "Vaidikasri June 2017",
     "references_primary": "Bhavishyottara Puranam"
   },
@@ -641,7 +641,7 @@
     "angam_number": 10,
     "tags": "other-jayantis",
     "description_short": "Avataranam of Ganga Devi. Bathe in any river and offer arghyam — destroys 10 types of sins (`dazaharA`).",
-    "Shloka": "dazamyAM zuklapakSE tu jyESThE mAsE kujE dinE.\ngaGgA'vatIrNA hastarkSE sarvapApaharA smRtA..\n\nyAM kAJcit saritaM prApya dadyAdarghyaM zubhOdakam .\nmucyatE dazabhiH pApaiH sa mahApAtakOpamaiH..",
+    "shlokas": "dazamyAM zuklapakSE tu jyESThE mAsE kujE dinE.\ngaGgA'vatIrNA hastarkSE sarvapApaharA smRtA..\n\nyAM kAJcit saritaM prApya dadyAdarghyaM zubhOdakam .\nmucyatE dazabhiH pApaiH sa mahApAtakOpamaiH..",
     "titles": "Ganga Jayanti; Dashapaapa-hara-dashami; Wednesday; Hasta star (Valmiki Ramayana)",
     "references_secondary": "Vaidikasri June 2017"
   },
@@ -653,7 +653,7 @@
     "angam_number": 12,
     "tags": "less-common-festivals",
     "description_short": "Perform puja of Lord Trivikrama (Sahasranamarchana), do naivedyam of mangoes and offer annadanam to needy.",
-    "Shloka": "ahOrAtrENa dvAdazyAM jyESThE mAsi trivikramam .\ngavAmayanamApnOti apsarObhizca mOdatE..",
+    "shlokas": "ahOrAtrENa dvAdazyAM jyESThE mAsi trivikramam .\ngavAmayanamApnOti apsarObhizca mOdatE..",
     "references_secondary": "Vaidikasri June 2017",
     "references_primary": "Mahabharata"
   },
@@ -901,7 +901,7 @@
     "angam_number": 11,
     "tags": "special-vratams",
     "description_short": "Perform puja of Mahalakshmi-Mahavishnu",
-    "Shloka": "gOpadmamiti vikhyAtaM sarvapApaharaM param .\nsarvaduHkhOpazamanaM sarvasampatpradAyakam .\nsuvAsinyAstu saubhAgyaputrapautrapravardhanam ..",
+    "shlokas": "gOpadmamiti vikhyAtaM sarvapApaharaM param .\nsarvaduHkhOpazamanaM sarvasampatpradAyakam .\nsuvAsinyAstu saubhAgyaputrapautrapravardhanam ..",
     "references_secondary": "Vaidikasri Aug 2015",
     "references_primary": "Vrata Chudamani 173"
   },
@@ -921,7 +921,7 @@
     "angam_type": "tithi",
     "angam_number": 10,
     "tags": "vratam-start,special-period-start",
-    "Shloka": "vAsudEva zucau mAsE zAkavratamanuttamam.\ntvatprItyarthaM kariSyE'haM nirvighnaM kuru mAdhava.."
+    "shlokas": "vAsudEva zucau mAsE zAkavratamanuttamam.\ntvatprItyarthaM kariSyE'haM nirvighnaM kuru mAdhava.."
   },
   {
     "id": "vAsudEva-dvAdazI",
@@ -938,7 +938,7 @@
     "angam_type": "tithi",
     "angam_number": 12,
     "tags": "vratam-end,special-period-end",
-    "Shloka": "vAsudEva namastubhyaM prathamE mAsi matkRtam.\nzAkavrataM mayA tEna saMtuSTO bhava mAdhava..\nidaM vrataM mayA dEva kRtaM prItyai tava prabhO.\nnyUnaM sampUrNatAM yAtu tvatprasAdajjanArdana.."
+    "shlokas": "vAsudEva namastubhyaM prathamE mAsi matkRtam.\nzAkavrataM mayA tEna saMtuSTO bhava mAdhava..\nidaM vrataM mayA dEva kRtaM prItyai tava prabhO.\nnyUnaM sampUrNatAM yAtu tvatprasAdajjanArdana.."
   },
   {
     "id": "dadhi-vrata-ArambhaH",
@@ -947,7 +947,7 @@
     "angam_type": "tithi",
     "angam_number": 12,
     "tags": "vratam-start,special-period-start",
-    "Shloka": "saGkarSaNAravindAkSa kariSyE'haM dadhivratam. dvitIyE mAsi dEvEza nirvighnaM kuru mE prabhO.."
+    "shlokas": "saGkarSaNAravindAkSa kariSyE'haM dadhivratam. dvitIyE mAsi dEvEza nirvighnaM kuru mE prabhO.."
   },
   {
     "id": "dadhi-vrata-samApanam",
@@ -956,7 +956,7 @@
     "angam_type": "tithi",
     "angam_number": 12,
     "tags": "vratam-end,special-period-end",
-    "Shloka": "saGkarSaNa namastubhyaM zravaNE matkRtEna ca.\n dadhivratEna dEvEza tuSTO bhava janArdana..\nidaM vrataM mayA dEva kRtaM prItyai tava prabhO.\nnyUnaM sampUrNatAM yAtu tvatprasAdajjanArdana.."
+    "shlokas": "saGkarSaNa namastubhyaM zravaNE matkRtEna ca.\n dadhivratEna dEvEza tuSTO bhava janArdana..\nidaM vrataM mayA dEva kRtaM prItyai tava prabhO.\nnyUnaM sampUrNatAM yAtu tvatprasAdajjanArdana.."
   },
   {
     "id": "payOvrata-ArambhaH",
@@ -965,7 +965,7 @@
     "angam_type": "tithi",
     "angam_number": 12,
     "tags": "vratam-start,special-period-start",
-    "Shloka": "pradyumna tava tuSTyarthaM prOSTapadyAM tRtIyakE.\nnirvighnaM kuru dEvEza kariSyE'haM payOvratam.."
+    "shlokas": "pradyumna tava tuSTyarthaM prOSTapadyAM tRtIyakE.\nnirvighnaM kuru dEvEza kariSyE'haM payOvratam.."
   },
   {
     "id": "payOvrata-samApanam",
@@ -974,7 +974,7 @@
     "angam_type": "tithi",
     "angam_number": 12,
     "tags": "vratam-end,special-period-end",
-    "Shloka": "zrIpradyumna namastubhyaM mAsamArabhya yatkRtam. iSTadO bhava sarvEza gRhItvA tu payOvratam.. idaM vrataM mayA dEva kRtaM prItyai tava prabhO. nyUnaM sampUrNatAM yAtu tvatprasAdajjanArdana.."
+    "shlokas": "zrIpradyumna namastubhyaM mAsamArabhya yatkRtam. iSTadO bhava sarvEza gRhItvA tu payOvratam.. idaM vrataM mayA dEva kRtaM prItyai tava prabhO. nyUnaM sampUrNatAM yAtu tvatprasAdajjanArdana.."
   },
   {
     "id": "dvidala-vrata-ArambhaH",
@@ -983,7 +983,7 @@
     "angam_type": "tithi",
     "angam_number": 12,
     "tags": "vratam-start,special-period-start",
-    "Shloka": "aniruddha surairvandya dvidalavratamuttamam.\nkarOmyahamiSEmAsE nirvighnaM kuru mE prabhO.."
+    "shlokas": "aniruddha surairvandya dvidalavratamuttamam.\nkarOmyahamiSEmAsE nirvighnaM kuru mE prabhO.."
   },
   {
     "id": "dvidala-vrata-samApanam",
@@ -992,7 +992,7 @@
     "angam_type": "tithi",
     "angam_number": 12,
     "tags": "vratam-end,special-period-end",
-    "Shloka": "aniruddha namastubhyaM dvidalAkhyavratEna ca. matkRtEnAzvinE mAsE prItyarthaM phaladO bhava..\nidaM vrataM mayA dEva kRtaM prItyai tava prabhO.\nnyUnaM sampUrNatAM yAtu tvatprasAdajjanArdana.."
+    "shlokas": "aniruddha namastubhyaM dvidalAkhyavratEna ca. matkRtEnAzvinE mAsE prItyarthaM phaladO bhava..\nidaM vrataM mayA dEva kRtaM prItyai tava prabhO.\nnyUnaM sampUrNatAM yAtu tvatprasAdajjanArdana.."
   },
   {
     "id": "cAturmAsyavrata-ArambhaH",
@@ -1011,7 +1011,7 @@
     "angam_number": 15,
     "tags": "purnima-days,special-pujas,common-festivals",
     "description_short": "Puja of Veda Vyasa / Gurus; Danam of Vishnu Puran is good on this day.",
-    "Shloka": "acaturvadanO brahmA dvibAhuraparO hariH. aphAlalOcanO zambhurbhagavAn bAdArAyaNaH.."
+    "shlokas": "acaturvadanO brahmA dvibAhuraparO hariH. aphAlalOcanO zambhurbhagavAn bAdArAyaNaH.."
   },
   {
     "id": "ziva-zayanOtsavaH",
@@ -1072,7 +1072,7 @@
     "kala": "moonrise",
     "tags": "special-vratams",
     "description_short": "Lord Mahavishnu sleeps with Goddess Mahalakshmi on this day. Do Puja by placing the God/Goddess on a new bed with pillow/blanket. Do danam of same after puja.",
-    "Shloka": "lakSmyA viyujyatE dEva na kadAcit yatO bhavAn .\ntathA kalatrasambandhO dEva mA mE viyujyatAm .."
+    "shlokas": "lakSmyA viyujyatE dEva na kadAcit yatO bhavAn .\ntathA kalatrasambandhO dEva mA mE viyujyatAm .."
   },
   {
     "id": "dUrvA-gaNapati-vratam",
@@ -1100,7 +1100,7 @@
     "angam_number": 5,
     "tags": "special-pujas,purana-events",
     "description_short": "Naga Panchami; SarpaPooja (manasaDevi); Vishnu's boon to AdiSesha that humans will worship on this day",
-    "Shloka": "apasarpa sarpa bhadraM tE dUraM gaccha mahAyazAH .\njanamEjayasya yajJAntE astIkavacanaM smaran .. "
+    "shlokas": "apasarpa sarpa bhadraM tE dUraM gaccha mahAyazAH .\njanamEjayasya yajJAntE astIkavacanaM smaran .. "
   },
   {
     "id": "kalki~jayantI",
@@ -1136,7 +1136,7 @@
     "angam_number": 15,
     "tags": "other-avatarams",
     "description_short": "Lord Hayagriva did upadesham of all four vedas to Brahma.",
-    "Shloka": "OGkArOdgItharUpAya RgyajussAmamUrtayE.\nnamO'studEvadEvAya vAcchitArthapradAyinE..\najJAnatimiraM chindhi jJAnaM ca''zu prayaccha mE.\ndEhi mE dEva dEvEza hayazIrSa namO'stu tE.."
+    "shlokas": "OGkArOdgItharUpAya RgyajussAmamUrtayE.\nnamO'studEvadEvAya vAcchitArthapradAyinE..\najJAnatimiraM chindhi jJAnaM ca''zu prayaccha mE.\ndEhi mE dEva dEvEza hayazIrSa namO'stu tE.."
   },
   {
     "id": "gAyatrI~jayantI",
@@ -1180,7 +1180,7 @@
     "angam_number": 17,
     "year_start": 4773,
     "tags": "mahapurusha-events",
-    "Shloka": "pujyAya rAghavEndrAya satyadharmaratAya ca.\nbhajatAM kalavRkSAya namatAM kAmadhEnavE.."
+    "shlokas": "pujyAya rAghavEndrAya satyadharmaratAya ca.\nbhajatAM kalavRkSAya namatAM kAmadhEnavE.."
   },
   {
     "id": "bRhatI-vRkSaka-pUjA",
@@ -1369,7 +1369,7 @@
     "angam_type": "tithi",
     "angam_number": 20,
     "tags": "dashavataram",
-    "Shloka": "jitaM jitaM tE'jita yajJabhAvana trayIM tanuM svAM paridhunvatE namaH.\nyadrOmagartESu nililyuraddhayastasmai namaH kAraNasUkarAya tE..3-13-35..\n\u2014zrImadbhAgavatE mahApurANE tRtIyEskandhE trayOdazE'dhyAyE "
+    "shlokas": "jitaM jitaM tE'jita yajJabhAvana trayIM tanuM svAM paridhunvatE namaH.\nyadrOmagartESu nililyuraddhayastasmai namaH kAraNasUkarAya tE..3-13-35..\n\u2014zrImadbhAgavatE mahApurANE tRtIyEskandhE trayOdazE'dhyAyE "
   },
   {
     "id": "haritAlikA-vratam",
@@ -1434,7 +1434,7 @@
     "angam_number": 6,
     "tags": "special-pujas",
     "description_short": "Perform puja of Surya, eat Panchagavya -- brings merits greater than Ashvamedha!",
-    "Shloka": "zuklE bhAdrapadE SaSThyAM snAnaM bhAskarapUjanam .\n prAzanaM paJcagavyasya azvamEdhaphalAdhikam .."
+    "shlokas": "zuklE bhAdrapadE SaSThyAM snAnaM bhAskarapUjanam .\n prAzanaM paJcagavyasya azvamEdhaphalAdhikam .."
   },
   {
     "id": "kumArikA-svapanam",
@@ -1585,7 +1585,7 @@
     "angam_number": 12,
     "tags": "dashamahavidya",
     "description_short": "Goddess Bhuvaneshwari is 4th of the Dasha Maha Vidyas.",
-    "Shloka": "udyadinadyutimindukirITAm tuGgakucAM nayanatrayayuktAM \nsmEramukhIM varadAGkuzapAzAbhItikarAm prabhajE bhuvanEzIm "
+    "shlokas": "udyadinadyutimindukirITAm tuGgakucAM nayanatrayayuktAM \nsmEramukhIM varadAGkuzapAzAbhItikarAm prabhajE bhuvanEzIm "
   },
   {
     "id": "ananta-dvAdazI",
@@ -1765,7 +1765,7 @@
     "angam_type": "tithi",
     "angam_number": 21,
     "tags": "special-pujas",
-    "Shloka": "prabhAkara namastubhyaM saMsArAnmAM samuddhara.\n bhuktimuktipradO yasmAt tasmAcchAntiM prayaccha mE.."
+    "shlokas": "prabhAkara namastubhyaM saMsArAnmAM samuddhara.\n bhuktimuktipradO yasmAt tasmAcchAntiM prayaccha mE.."
   },
   {
     "id": "candra-SaSThI",
@@ -1856,7 +1856,7 @@
     "angam_number": 24,
     "tags": "special-pujas",
     "description_short": "In honour of Sumangalis (in the family), by holding a feast for Suvasinis and Kanyas.",
-    "Shloka": "bharturagrE mRtA nArI sahadAhEna vA mRtA .\n tasyAH sthAnE niyuJjIta vipraiH saha suvAsinIm ..",
+    "shlokas": "bharturagrE mRtA nArI sahadAhEna vA mRtA .\n tasyAH sthAnE niyuJjIta vipraiH saha suvAsinIm ..",
     "titles": "avidhavA-navamI"
   },
   {
@@ -2172,7 +2172,7 @@
     "angam_number": 15,
     "tags": "special-vratams,common-festivals",
     "description_short": "Have to play Aksha kreeda only on this day and Ko-jagarti-Vratam (Lakshmi will ask \"who are awake\"). Vaalakhilya Rushi mentioned Ko-jagarti Vratam",
-    "Shloka": "nizIthE varadA lakSmIH kO jAgartIti bhASiNI.\ntasmai vittaM prayacchAmi akSaiH krIDAM karOti yaH..",
+    "shlokas": "nizIthE varadA lakSmIH kO jAgartIti bhASiNI.\ntasmai vittaM prayacchAmi akSaiH krIDAM karOti yaH..",
     "references_secondary": "Vaidikasri Oct 2015",
     "references_primary": "Dharma Sindhu 142"
   },
@@ -2407,7 +2407,7 @@
     "angam_number": 28,
     "tags": "common-festivals",
     "description_short": "Do `dAnaM` of `dIpam`, light deepam outside the house.",
-    "Shloka": "AzvinasyAsitE pakSE trayOdazyAM nizAmukhE.\nyamadIpaM bahirdadyAt apamRtyurvinazyati..\n\nmRtyunA pAzadaNDAbhyAM kAlEna zyAmayA saha.\ntrayOdazyAM dIpadAnAt sUryajaH prIyatAM mama.."
+    "shlokas": "AzvinasyAsitE pakSE trayOdazyAM nizAmukhE.\nyamadIpaM bahirdadyAt apamRtyurvinazyati..\n\nmRtyunA pAzadaNDAbhyAM kAlEna zyAmayA saha.\ntrayOdazyAM dIpadAnAt sUryajaH prIyatAM mama.."
   },
   {
     "id": "naraka-caturdazI",
@@ -2668,7 +2668,7 @@
     "kala": "pradosha",
     "priority": "purvaviddha",
     "tags": "other-avatarams",
-    "Shloka": "Adau brahmA madhyE viSNurantE dEvaH sadAzivaH.\nmUrtitrayasvarUpAya dattAtrEya namO'stu tE.. "
+    "shlokas": "Adau brahmA madhyE viSNurantE dEvaH sadAzivaH.\nmUrtitrayasvarUpAya dattAtrEya namO'stu tE.. "
   },
   {
     "id": "zRGgErI 32 jagadguru zrI nRsiMha bhAratI ArAdhanA",
@@ -2677,7 +2677,7 @@
     "angam_type": "tithi",
     "angam_number": 2,
     "tags": "mahapurusha-events,sringeri-aradhana-days",
-    "Shloka": "prahlAdavaradO dEvO yO nRsiMhaH parO hariH.\nnRsiMhOpAsakaM nityaM taM nRsiMhaH guruM bhajE.."
+    "shlokas": "prahlAdavaradO dEvO yO nRsiMhaH parO hariH.\nnRsiMhOpAsakaM nityaM taM nRsiMhaH guruM bhajE.."
   },
   {
     "id": "zRGgErI 34 jagadguru zrI candrazEkhara bhAratI ArAdhanA",
@@ -2686,7 +2686,7 @@
     "angam_type": "tithi",
     "angam_number": 30,
     "tags": "mahapurusha-events,sringeri-aradhana-days",
-    "Shloka": "sadA''tmadhyAnanirataM viSayEbhyaH paraGmukham .\nnaumi zAstrESu niSNAtaM candrazEkharabhAratIm .."
+    "shlokas": "sadA''tmadhyAnanirataM viSayEbhyaH paraGmukham .\nnaumi zAstrESu niSNAtaM candrazEkharabhAratIm .."
   },
   {
     "id": "zRGgErI 35 jagadguru zrI abhinava vidyAtIrtha mahAsvAmI ArAdhanA",
@@ -2695,7 +2695,7 @@
     "angam_type": "tithi",
     "angam_number": 22,
     "tags": "mahapurusha-events,sringeri-aradhana-days",
-    "Shloka": "vivEkinaM mahAprAjJyaM dhairyaudAryakSamAnidhim .\nsadA'bhinavapUrvaM taM vidyAtIrthaguruM bhajE .."
+    "shlokas": "vivEkinaM mahAprAjJyaM dhairyaudAryakSamAnidhim .\nsadA'bhinavapUrvaM taM vidyAtIrthaguruM bhajE .."
   },
   {
     "id": "zRGgErI 34 jagadguru zrI candrazEkhara bhAratI jayantI",
@@ -2704,7 +2704,7 @@
     "angam_type": "tithi",
     "angam_number": 26,
     "tags": "mahapurusha-events",
-    "Shloka": "sadA''tmadhyAnanirataM viSayEbhyaH paraGmukham .\nnaumi zAstrESu niSNAtaM candrazEkharabhAratIm .."
+    "shlokas": "sadA''tmadhyAnanirataM viSayEbhyaH paraGmukham .\nnaumi zAstrESu niSNAtaM candrazEkharabhAratIm .."
   },
   {
     "id": "zRGgErI 35 jagadguru zrI abhinava vidyAtIrtha mahAsvAmI jayantI",
@@ -2713,7 +2713,7 @@
     "angam_type": "tithi",
     "angam_number": 29,
     "tags": "mahapurusha-events",
-    "Shloka": "vivEkinaM mahAprAjJyaM dhairyaudAryakSamAnidhim .\nsadA'bhinavapUrvaM taM vidyAtIrthaguruM bhajE .."
+    "shlokas": "vivEkinaM mahAprAjJyaM dhairyaudAryakSamAnidhim .\nsadA'bhinavapUrvaM taM vidyAtIrthaguruM bhajE .."
   },
   {
     "id": "zrI bOdhEndra sarasvatI ArAdhanA",
@@ -3599,7 +3599,7 @@
     "angam_number": 6,
     "tags": "special-pujas",
     "description_short": "Have darshan of Shivalingam today; removes Shivapachara doshas in the family.",
-    "Shloka": "mArgazIrSE'malE pakSE SaSThyAM vArEM'zumAlinaH .\nzatatArAgatE candrE liGgaM syAddRSTigOcaram ."
+    "shlokas": "mArgazIrSE'malE pakSE SaSThyAM vArEM'zumAlinaH .\nzatatArAgatE candrE liGgaM syAddRSTigOcaram ."
   },
   {
     "id": "mitra-saptamI",
@@ -3611,7 +3611,7 @@
     "priority": "purvaviddha",
     "tags": "other-avatarams,special-pujas,common-festivals",
     "description_short": "Birth of Surya to Aditya-Kashyapa on this day.",
-    "Shloka": "adityAM kazyapAjjajJE mitrO nAma divAkaraH.\nsaptamyAM tEna sA khyAtA lOkE'smin mitrasaptamI.."
+    "shlokas": "adityAM kazyapAjjajJE mitrO nAma divAkaraH.\nsaptamyAM tEna sA khyAtA lOkE'smin mitrasaptamI.."
   },
   {
     "id": "nandA-saptamI~1",
@@ -3709,7 +3709,7 @@
     "angam_number": 20,
     "year_start": 4948,
     "tags": "mahapurusha-events",
-    "Shloka": "kAmakrOdhAdirahitaM rAmabhaktazirOmaNim .\ntyAgarAjaguruM vandE saGgItAbdhiM kalAnidhim .."
+    "shlokas": "kAmakrOdhAdirahitaM rAmabhaktazirOmaNim .\ntyAgarAjaguruM vandE saGgItAbdhiM kalAnidhim .."
   },
   {
     "id": "vivEkAnanda~jayantI",
@@ -3748,7 +3748,7 @@
     "kala": "pradosha",
     "priority": "purvaviddha",
     "tags": "special-pujas",
-    "Shloka": "mAghazuklacaturthyAM tu kundapuSpaiH sadAzivam .\nsampUjya yO hi naktA''zI samprApnOti zriyaM naraH ..",
+    "shlokas": "mAghazuklacaturthyAM tu kundapuSpaiH sadAzivam .\nsampUjya yO hi naktA''zI samprApnOti zriyaM naraH ..",
     "references_secondary": "Vaidikasri Feb 2016",
     "references_primary": "Nirnaya Sindhu 162"
   },
@@ -3778,7 +3778,7 @@
     "angam_number": 5,
     "tags": "special-pujas",
     "description_short": "Worship Mahavishnu and Mahalakshmi, Rati Devi and Manmatha with jasmine flowers.",
-    "Shloka": "mAghamAsE nRpazrESTha zuklAyAM paJcamItithau.\nratikAmau tu sampUjya kartavyaH sumahOtsavaH..",
+    "shlokas": "mAghamAsE nRpazrESTha zuklAyAM paJcamItithau.\nratikAmau tu sampUjya kartavyaH sumahOtsavaH..",
     "titles": "madana-paJcamI",
     "references_secondary": "Vaidikasri Feb 2016",
     "references_primary": "Smriti Kaustubham 479"
@@ -3881,7 +3881,7 @@
     "angam_number": 12,
     "tags": "special-pujas",
     "description_short": "Mahavishnu created black til by extreme `tapas` on this day; light til deepam and offer `tilAnnam naivedyam`.",
-    "Shloka": "mAghE tu zukladvAdazyAM yatO hi bhagavAn pura.\ntilAn utpAdayAmAsa tapaH kRtvA sudAruNam ..\ntilatailEna dIpAzcha dEyAh dEva gRhESu ca.\nnivEdayEt tilAnEva",
+    "shlokas": "mAghE tu zukladvAdazyAM yatO hi bhagavAn pura.\ntilAn utpAdayAmAsa tapaH kRtvA sudAruNam ..\ntilatailEna dIpAzcha dEyAh dEva gRhESu ca.\nnivEdayEt tilAnEva",
     "references_secondary": "Vaidikasri Feb 2016"
   },
   {
@@ -4313,7 +4313,7 @@
     "angam_type": "nakshatram",
     "angam_number": 11,
     "tags": "common-festivals,azhwar-jayanti",
-    "Shloka": "zrIviSNucitta-kulakalpakanandavallIm\nzrIraGgarAja-hari-candana-yOga-drzyAm .\nsAkSAt kSamAM karuNayA kamalAmivAnyAM\ngOdAm ananyazaraNaH zaraNaM prapadyE.."
+    "shlokas": "zrIviSNucitta-kulakalpakanandavallIm\nzrIraGgarAja-hari-candana-yOga-drzyAm .\nsAkSAt kSamAM karuNayA kamalAmivAnyAM\ngOdAm ananyazaraNaH zaraNaM prapadyE.."
   },
   {
     "id": "kAJcI jagadguru zrI jayEndra sarasvatI jayantI",
@@ -4382,7 +4382,7 @@
     "angam_number": 6,
     "tags": "tamilnadu-temple-festivals,common-festivals",
     "description_short": "Visit Chidambaram to have darshan of Nataraja, or pray to Nataraja",
-    "Shloka": "kRpAsamudram sumukhaM trinEtraM sadAzivaM rudramanantarUpam .\njaTAdharaM pArvativAmabhAgaM cidambarEzaM hRdi bhAvayAmi .."
+    "shlokas": "kRpAsamudram sumukhaM trinEtraM sadAzivaM rudramanantarUpam .\njaTAdharaM pArvativAmabhAgaM cidambarEzaM hRdi bhAvayAmi .."
   },
   {
     "id": "andhakAsura-vadhaH",
@@ -4428,7 +4428,7 @@
     "angam_number": 13,
     "year_start": 4970,
     "tags": "mahapurusha-events",
-    "Shloka": "karuNAsAgaraM zAntam aruNAcalavAsinam .\nzrIzESAdriguruM vandE brahmIbhUtaM tapOnidhim .."
+    "shlokas": "karuNAsAgaraM zAntam aruNAcalavAsinam .\nzrIzESAdriguruM vandE brahmIbhUtaM tapOnidhim .."
   },
   {
     "id": "zrI~zESAdri-svAmI~ArAdhanA",
@@ -4437,7 +4437,7 @@
     "angam_type": "tithi",
     "angam_number": 24,
     "tags": "mahapurusha-events",
-    "Shloka": "karuNAsAgaraM zAntam aruNAcalavAsinam .\nzrIzESAdriguruM vandE brahmIbhUtaM tapOnidhim .."
+    "shlokas": "karuNAsAgaraM zAntam aruNAcalavAsinam .\nzrIzESAdriguruM vandE brahmIbhUtaM tapOnidhim .."
   },
   {
     "id": "kAJcI jagadguru zrI zaGkara vijayEndra sarasvatI jayantI",
@@ -4572,7 +4572,7 @@
     "angam_number": 1,
     "tags": "sun-sankranti",
     "description_short": "Perform danam of clothes, food and water.",
-    "Shloka": "vastrAnnapAnadAnAni mithunE vihitAni tu.."
+    "shlokas": "vastrAnnapAnadAnAni mithunE vihitAni tu.."
   },
   {
     "id": "dakSiNAyana-puNyakAlaH",
@@ -4590,7 +4590,7 @@
     "angam_number": 1,
     "tags": "sun-sankranti",
     "description_short": "Perform danam of ghee, milk vessel, \"ghee cow\" and fruits.",
-    "Shloka": "ghRtaM ca kSIrakumbhazca ghRtadhEnu phalAni ca.\nzrAvaNE zrIdharaprItyai dAtavyAni vipazcitA.."
+    "shlokas": "ghRtaM ca kSIrakumbhazca ghRtadhEnu phalAni ca.\nzrAvaNE zrIdharaprItyai dAtavyAni vipazcitA.."
   },
   {
     "id": "SaDazIti-kanyAraviH",
@@ -4600,7 +4600,7 @@
     "angam_number": 1,
     "tags": "sun-sankranti",
     "description_short": "Perform danam of clothes/place to live.",
-    "Shloka": "kanyApravEzE vastrANAM vEzmanAM dAnamEva ca"
+    "shlokas": "kanyApravEzE vastrANAM vEzmanAM dAnamEva ca"
   },
   {
     "id": "tulA-viSu-puNyakAlaH",
@@ -4610,7 +4610,7 @@
     "angam_number": 1,
     "tags": "sun-sankranti",
     "description_short": "Perform danam of rice/wheat/grains and cow ghee/curd etc.",
-    "Shloka": "tulApravEzE dhAnyAnAM gOrasAnAmapISTadam"
+    "shlokas": "tulApravEzE dhAnyAnAM gOrasAnAmapISTadam"
   },
   {
     "id": "viSNupadI-vRzcikaraviH",
@@ -4629,7 +4629,7 @@
     "angam_number": 1,
     "tags": "sun-sankranti",
     "description_short": "Perform danam of clothes/vehicle (e.g. bullock cart).",
-    "Shloka": "dhanuHpravEzE vastrANAM yAnAnAM ca mahAphalam "
+    "shlokas": "dhanuHpravEzE vastrANAM yAnAnAM ca mahAphalam "
   },
   {
     "id": "makara-saGkrAntiH/uttarAyaNa-puNyakAlaH",
@@ -4647,7 +4647,7 @@
     "angam_number": 1,
     "tags": "sun-sankranti",
     "description_short": "Perform danam of hay, grass, food and pure water to cows.",
-    "Shloka": "kumbhapravEzE dAnaM tu gavaM ambu tRNasya ca"
+    "shlokas": "kumbhapravEzE dAnaM tu gavaM ambu tRNasya ca"
   },
   {
     "id": "SaDazIti-mInaraviH",
@@ -5511,7 +5511,7 @@
     "angam_type": "tithi",
     "angam_number": 30,
     "tags": "special-snanam",
-    "Shloka": "mAdhavE mESagE bhAnau murArE madhusUdana.\nprAtaH snAnEna mE nAtha phaladO bhava pApahan ..",
+    "shlokas": "mAdhavE mESagE bhAnau murArE madhusUdana.\nprAtaH snAnEna mE nAtha phaladO bhava pApahan ..",
     "references_secondary": "Vaidikasri June 2017"
   },
   {
@@ -5530,7 +5530,7 @@
     "angam_number": 30,
     "tags": "mahapurusha-events,tamilnadu-temple-festivals",
     "description_short": "Thiruvisanallur Sridhara Aiyyaval brought Ganga to his house well on this day! See also http://www.sriayyaval.org/ .  ",
-    "Shloka": "IzE tasya ca nAmani pravimalaM jJAnaM tayOrUrjitam\nprEma prEma ca tatparESu viratizcAnyatra sarvatra ca.\nIzEkSA karuNA ca yasya niyatA vRttiH zritasyApi yam\ntaM vandE nararUpamantakaripuM zrIvEGkaTEzaM gurum.."
+    "shlokas": "IzE tasya ca nAmani pravimalaM jJAnaM tayOrUrjitam\nprEma prEma ca tatparESu viratizcAnyatra sarvatra ca.\nIzEkSA karuNA ca yasya niyatA vRttiH zritasyApi yam\ntaM vandE nararUpamantakaripuM zrIvEGkaTEzaM gurum.."
   },
   {
     "id": "kArtika-snAnapUrtiH",
