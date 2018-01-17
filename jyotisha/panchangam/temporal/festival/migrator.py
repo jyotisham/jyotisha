@@ -11,8 +11,8 @@ logging.basicConfig(
 )
 
 
-def migrate_db():
-  old_style_events = HinduCalendarEventOld.read_from_file(os.path.join(CODE_ROOT, 'panchangam/data/festival_rules.json'))
+def migrate_db(old_db_file):
+  old_style_events = HinduCalendarEventOld.read_from_file(old_db_file)
   for old_style_event in old_style_events:
     event = HinduCalendarEvent.from_old_style_event(old_style_event=old_style_event)
     logging.debug(str(event))
@@ -22,4 +22,5 @@ def migrate_db():
 
 
 if __name__ == '__main__':
-    migrate_db()
+  # migrate_db(os.path.join(CODE_ROOT, 'panchangam/data/festival_rules.json'))
+  migrate_db(os.path.join(CODE_ROOT, 'panchangam/data/kanchi_aradhana_rules.json'))
