@@ -377,7 +377,7 @@
     "description_short": "Worship Surya Bhagavan in a vessel (`kumbha`) filled with sugar, followed by `dAnam` of the same.",
     "shlokas": ["zarkarAsaptamI caiva vAjimEdhaphalapradA.\nsarvaduHkhaprazamanI sarvasampatpradAyinI.."],
     "references_secondary": ["Vaidikasri May 2016"],
-    "references_primary": "Smriti Kaustubham - 112"
+    "references_primary": ["Smriti Kaustubham - 112"]
   },
   {
     "id": "sItAnavamI",
@@ -485,7 +485,7 @@
     "description_short": "Perform snana four ghatikas before sunrise (during `aruNodayam`, when the Moon is still up, on the full-moon days of `ASADha`, `kArtika`, `mAgha` and `vaizAkha` \u2013 hence the name `A-kA-mA-vai`) bestows strength, beauty, fame, dharma, knowledge, happiness, fortitude and health.",
     "shlokas": ["balaM rUpaM yazO dharmaM jJAnamAyuH sukhaM dhRtim .\nArOgyaM paramApnOti samyak snAnEna mAnavaH .."],
     "references_secondary": ["Vaidikasri"],
-    "references_primary": "Satyavrata Smriti"
+    "references_primary": ["Satyavrata Smriti"]
   },
   {
     "id": "nArada~jayantI",
@@ -589,7 +589,7 @@
     "description_short": "Perform puja of Shiva-Parvati under a banana tree or on a banana leaf, do naivedyam of 100+ bananas and give away to small girl children.",
     "shlokas": ["putrAn dEhi dhanaM dEhi saubhAgyaM sarvamaGgalE.\nsaumaGgalyaM sukhaM jJAnaM dEhi mE zivasundari.."],
     "references_secondary": ["Vaidikasri June 2017"],
-    "references_primary": "Bhavishyottara Puranam"
+    "references_primary": ["Bhavishyottara Puranam"]
   },
   {
     "id": "AraNya-gaurI-vratam",
@@ -655,7 +655,7 @@
     "description_short": "Perform puja of Lord Trivikrama (Sahasranamarchana), do naivedyam of mangoes and offer annadanam to needy.",
     "shlokas": ["ahOrAtrENa dvAdazyAM jyESThE mAsi trivikramam .\ngavAmayanamApnOti apsarObhizca mOdatE.."],
     "references_secondary": ["Vaidikasri June 2017"],
-    "references_primary": "Mahabharata"
+    "references_primary": ["Mahabharata"]
   },
   {
     "id": "rAmalakSmaNa-dvAdazI",
@@ -699,7 +699,7 @@
     "tags": "special-vratams",
     "description_short": "Perform puja of banyan tree; begets `saumaGgalyam` and `saubhAgyam`.",
     "references_secondary": ["Vaidikasri June 2017"],
-    "references_primary": "Bhavishyottara Puranam"
+    "references_primary": ["Bhavishyottara Puranam"]
   },
   {
     "id": "eruvaka-pUrNimA",
@@ -903,7 +903,7 @@
     "description_short": "Perform puja of Mahalakshmi-Mahavishnu",
     "shlokas": ["gOpadmamiti vikhyAtaM sarvapApaharaM param .\nsarvaduHkhOpazamanaM sarvasampatpradAyakam .\nsuvAsinyAstu saubhAgyaputrapautrapravardhanam .."],
     "references_secondary": ["Vaidikasri Aug 2015"],
-    "references_primary": "Vrata Chudamani 173"
+    "references_primary": ["Vrata Chudamani 173"]
   },
   {
     "id": "gOpadma-vrata-samapanam",
@@ -1061,7 +1061,7 @@
     "tags": "special-snanam",
     "description_short": "Perform snana four ghatikas before sunrise (during `aruNodayam`, when the Moon is still up, on the full-moon days of `ASADha`, `kArtika`, `mAgha` and `vaizAkha` \u2013 hence the name `A-kA-mA-vai`) bestows strength, beauty, fame, dharma, knowledge, happiness, fortitude and health.",
     "references_secondary": ["Vaidikasri"],
-    "references_primary": "Satyavrata Smriti"
+    "references_primary": ["Satyavrata Smriti"]
   },
   {
     "id": "azUnyazayana-vratam~1",
@@ -1380,7 +1380,7 @@
     "tags": "special-vratams",
     "description_short": "Puja of Gauri-Maheshwara on Vrishabham, esp. for girls desirous of getting married, like Goddess Parvati sought the hand of Maheshwara, as Himavan's daughter.",
     "references_secondary": ["Vaidikasri Sep 2015"],
-    "references_primary": "Bhavishyottara Puranam"
+    "references_primary": ["Bhavishyottara Puranam"]
   },
   {
     "id": "kajarI~tRtIyA",
@@ -1740,7 +1740,7 @@
     "angam_type": "tithi",
     "angam_number": 19,
     "tags": "devata-pujas",
-    "references_primary": "Nilamata Puranam"
+    "references_primary": ["Nilamata Puranam"]
   },
   {
     "id": "nAga-pUjA",
@@ -1866,7 +1866,7 @@
     "angam_type": "tithi",
     "angam_number": 24,
     "tags": "special-pujas",
-    "references_primary": "Nilamata Puranam"
+    "references_primary": ["Nilamata Puranam"]
   },
   {
     "id": "yati-mahAlayam",
@@ -1910,7 +1910,7 @@
     "angam_type": "tithi",
     "angam_number": 30,
     "tags": "devata-pujas",
-    "references_primary": "Hemadri Grantham"
+    "references_primary": ["Hemadri Grantham"]
   },
   {
     "id": "sujanmaprApti-vratam",
@@ -1944,7 +1944,7 @@
     "angam_type": "tithi",
     "angam_number": 1,
     "tags": "less-common-festivals",
-    "references_primary": "Nilamata Puranam"
+    "references_primary": ["Nilamata Puranam"]
   },
   {
     "id": "stanavRddhi-gaurI-vratam",
@@ -1969,7 +1969,7 @@
     "angam_type": "tithi",
     "angam_number": 4,
     "tags": "special-pujas",
-    "references_primary": "Nilamata Puranam"
+    "references_primary": ["Nilamata Puranam"]
   },
   {
     "id": "lalitA-paJcamI",
@@ -2174,7 +2174,7 @@
     "description_short": "Have to play Aksha kreeda only on this day and Ko-jagarti-Vratam (Lakshmi will ask \"who are awake\"). Vaalakhilya Rushi mentioned Ko-jagarti Vratam",
     "shlokas": ["nizIthE varadA lakSmIH kO jAgartIti bhASiNI.\ntasmai vittaM prayacchAmi akSaiH krIDAM karOti yaH.."],
     "references_secondary": ["Vaidikasri Oct 2015"],
-    "references_primary": "Dharma Sindhu 142"
+    "references_primary": ["Dharma Sindhu 142"]
   },
   {
     "id": "mIrAbAI~jayantI",
@@ -2200,7 +2200,7 @@
     "angam_type": "tithi",
     "angam_number": 15,
     "tags": "special-pujas",
-    "references_primary": "Purushartha Chintamani"
+    "references_primary": ["Purushartha Chintamani"]
   },
   {
     "id": "kumAra-paurNamAsI/mahA-azvini",
@@ -2226,7 +2226,7 @@
     "angam_type": "tithi",
     "angam_number": 16,
     "tags": "special-vratams",
-    "references_primary": "Chaturvarga Chintamani"
+    "references_primary": ["Chaturvarga Chintamani"]
   },
   {
     "id": "azUnyazayana-vratam~4",
@@ -2236,7 +2236,7 @@
     "angam_number": 17,
     "kala": "moonrise",
     "tags": "special-vratams",
-    "references_primary": "Purushartha Chintamani"
+    "references_primary": ["Purushartha Chintamani"]
   },
   {
     "id": "kanaka-gaNEza-vratam",
@@ -2303,7 +2303,7 @@
     "angam_number": 23,
     "tags": "special-vratams",
     "references_secondary": ["Kielhorn (1897)"],
-    "references_primary": "Chaturvarga Chintamani"
+    "references_primary": ["Chaturvarga Chintamani"]
   },
   {
     "id": "kAlASTamI",
@@ -2312,7 +2312,7 @@
     "angam_type": "tithi",
     "angam_number": 23,
     "tags": "less-common-festivals",
-    "references_primary": "Aamaar Jyotishi"
+    "references_primary": ["Aamaar Jyotishi"]
   },
   {
     "id": "jIvaputrikASTamI",
@@ -2321,7 +2321,7 @@
     "angam_type": "tithi",
     "angam_number": 23,
     "tags": "less-common-festivals",
-    "references_primary": "Krutyasaara samucchayam"
+    "references_primary": ["Krutyasaara samucchayam"]
   },
   {
     "id": "mahAlakSmI-vratam",
@@ -2330,7 +2330,7 @@
     "angam_type": "tithi",
     "angam_number": 23,
     "tags": "special-vratams",
-    "references_primary": "Krutyasaara samucchayam"
+    "references_primary": ["Krutyasaara samucchayam"]
   },
   {
     "id": "bhImasEna~jayantI",
@@ -2360,7 +2360,7 @@
     "angam_type": "tithi",
     "angam_number": 27,
     "tags": "less-common-festivals",
-    "references_primary": "Smriti Kaustubham"
+    "references_primary": ["Smriti Kaustubham"]
   },
   {
     "id": "vyAghra-dvAdazI",
@@ -2370,7 +2370,7 @@
     "angam_number": 27,
     "tags": "less-common-festivals",
     "description_short": "In Gujarat",
-    "references_primary": "Smriti Kaustubham"
+    "references_primary": ["Smriti Kaustubham"]
   },
   {
     "id": "dhanvantari~jayantI",
@@ -2397,7 +2397,7 @@
     "angam_type": "tithi",
     "angam_number": 28,
     "tags": "special-vratams",
-    "references_primary": "Chaturvarga Chintamani"
+    "references_primary": ["Chaturvarga Chintamani"]
   },
   {
     "id": "(yama)-dIpa-trayOdazI",
@@ -2435,7 +2435,7 @@
     "angam_number": 29,
     "tags": "less-common-festivals",
     "description_short": "Perform Deepa Danam for Yamadharmaraja in evening",
-    "references_primary": "Vrata Chudamani"
+    "references_primary": ["Vrata Chudamani"]
   },
   {
     "id": "vikramAditya-paTTAbhiSEkaH",
@@ -2657,7 +2657,7 @@
     "tags": "special-snanam",
     "description_short": "Perform snana four ghatikas before sunrise (during `aruNodayam`, when the Moon is still up, on the full-moon days of `ASADha`, `kArtika`, `mAgha` and `vaizAkha` \u2013 hence the name `A-kA-mA-vai`) bestows strength, beauty, fame, dharma, knowledge, happiness, fortitude and health.",
     "references_secondary": ["Vaidikasri"],
-    "references_primary": "Satyavrata Smriti"
+    "references_primary": ["Satyavrata Smriti"]
   },
   {
     "id": "dattAtrEya~jayantI",
@@ -3623,7 +3623,7 @@
     "priority": "purvaviddha",
     "tags": "special-vratams,less-common-festivals",
     "references_secondary": ["Chaturvarga Chintamani"],
-    "references_primary": "Bhavishyottara Puranam"
+    "references_primary": ["Bhavishyottara Puranam"]
   },
   {
     "id": "nandA-saptamI~2",
@@ -3645,7 +3645,7 @@
     "priority": "purvaviddha",
     "tags": "special-vratams,less-common-festivals",
     "references_secondary": ["Chaturvarga Chintamani"],
-    "references_primary": "Bhavisyat Purana"
+    "references_primary": ["Bhavisyat Purana"]
   },
   {
     "id": "badarI jyOtirmaTha-pratiSThApana~jayantI",
@@ -3750,7 +3750,7 @@
     "tags": "special-pujas",
     "shlokas": ["mAghazuklacaturthyAM tu kundapuSpaiH sadAzivam .\nsampUjya yO hi naktA''zI samprApnOti zriyaM naraH .."],
     "references_secondary": ["Vaidikasri Feb 2016"],
-    "references_primary": "Nirnaya Sindhu 162"
+    "references_primary": ["Nirnaya Sindhu 162"]
   },
   {
     "id": "sarpa-pUjA",
@@ -3781,7 +3781,7 @@
     "shlokas": ["mAghamAsE nRpazrESTha zuklAyAM paJcamItithau.\nratikAmau tu sampUjya kartavyaH sumahOtsavaH.."],
     "titles": "madana-paJcamI",
     "references_secondary": ["Vaidikasri Feb 2016"],
-    "references_primary": "Smriti Kaustubham 479"
+    "references_primary": ["Smriti Kaustubham 479"]
   },
   {
     "id": "mAghI~sarasvatI-pUjA",
@@ -3912,7 +3912,7 @@
     "tags": "special-snanam",
     "description_short": "Perform snana four ghatikas before sunrise (during `aruNodayam`, when the Moon is still up, on the full-moon days of `ASADha`, `kArtika`, `mAgha` and `vaizAkha` \u2013 hence the name `A-kA-mA-vai`) bestows strength, beauty, fame, dharma, knowledge, happiness, fortitude and health.",
     "references_secondary": ["Vaidikasri"],
-    "references_primary": "Satyavrata Smriti"
+    "references_primary": ["Satyavrata Smriti"]
   },
   {
     "id": "dvAparayugAdi",
