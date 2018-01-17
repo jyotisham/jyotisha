@@ -1,0 +1,12 @@
+{
+  "id": "ta:kapAlI dvajArOhaNam",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "tamilnadu-temple-festivals"
+  ],
+  "timing": {
+    "anchor_festival_id": "ta:paGgun2i~uttiram",
+    "jsonClass": "HinduCalendarEventTiming",
+    "offset": -9
+  }
+}

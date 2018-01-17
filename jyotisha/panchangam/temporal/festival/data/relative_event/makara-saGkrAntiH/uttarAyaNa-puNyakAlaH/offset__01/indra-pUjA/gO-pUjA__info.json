@@ -1,0 +1,12 @@
+{
+  "id": "indra-pUjA/gO-pUjA",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "special-pujas"
+  ],
+  "timing": {
+    "anchor_festival_id": "makara-saGkrAntiH/uttarAyaNa-puNyakAlaH",
+    "jsonClass": "HinduCalendarEventTiming",
+    "offset": 1
+  }
+}

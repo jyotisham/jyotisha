@@ -1,0 +1,12 @@
+{
+  "id": "ta:tiruccendUr murugan2 mAcit tiruvizhA ##8##m nAL\u2014paccai cAtti alaGkAram",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "tamilnadu-temple-festivals"
+  ],
+  "timing": {
+    "anchor_festival_id": "ta:tiruccendUr mAcit tiruvizhA nir2aivu",
+    "jsonClass": "HinduCalendarEventTiming",
+    "offset": -4
+  }
+}

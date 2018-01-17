@@ -1,0 +1,12 @@
+{
+  "id": "ta:tiruccendUr murugan2 AvaNit tiruvizhA toDakkam/koDiyEr2r2am",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "tamilnadu-temple-festivals"
+  ],
+  "timing": {
+    "anchor_festival_id": "ta:tiruccendUr AvaNit tiruvizhA nir2aivu",
+    "jsonClass": "HinduCalendarEventTiming",
+    "offset": -11
+  }
+}

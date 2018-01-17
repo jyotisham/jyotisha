@@ -1,0 +1,12 @@
+{
+  "id": "ta:kapAlI cavuDal vimAn2am",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "tamilnadu-temple-festivals"
+  ],
+  "timing": {
+    "anchor_festival_id": "ta:paGgun2i~uttiram",
+    "jsonClass": "HinduCalendarEventTiming",
+    "offset": -5
+  }
+}

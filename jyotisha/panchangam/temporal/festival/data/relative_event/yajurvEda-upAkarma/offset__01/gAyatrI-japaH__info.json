@@ -1,0 +1,15 @@
+{
+  "description_short": {
+    "en": "Perform 1008 Gayatri Japa."
+  },
+  "id": "gAyatrI-japaH",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "common-festivals"
+  ],
+  "timing": {
+    "anchor_festival_id": "yajurvEda-upAkarma",
+    "jsonClass": "HinduCalendarEventTiming",
+    "offset": 1
+  }
+}

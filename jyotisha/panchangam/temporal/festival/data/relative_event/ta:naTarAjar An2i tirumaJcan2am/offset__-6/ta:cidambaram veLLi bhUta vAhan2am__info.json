@@ -1,0 +1,12 @@
+{
+  "id": "ta:cidambaram veLLi bhUta vAhan2am",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "tamilnadu-temple-festivals"
+  ],
+  "timing": {
+    "anchor_festival_id": "ta:naTarAjar An2i tirumaJcan2am",
+    "jsonClass": "HinduCalendarEventTiming",
+    "offset": -6
+  }
+}

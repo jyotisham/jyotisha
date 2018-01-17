@@ -49,6 +49,14 @@ class HinduCalendarEventTiming(common.JsonObject):
         "type": "integer",
         "description": "",
       },
+      "anchor_festival_id": {
+        "type": "string",
+        "description": "A festival may be (say) 8 days before some other event xyz. The xyz is stored here.",
+      },
+      "offset": {
+        "type": "integer",
+        "description": "A festival may be 8 days before some other event xyz. The 8 is stored here.",
+      },
     }
   }))
 
@@ -80,6 +88,10 @@ class HinduCalendarEventTiming(common.JsonObject):
       timing.kaala = old_style_event.kaala
     if hasattr(old_style_event, "year_start"):
       timing.year_start = old_style_event.year_start
+    if hasattr(old_style_event, "anchor_festival_id"):
+      timing.anchor_festival_id = old_style_event.anchor_festival_id
+    if hasattr(old_style_event, "offset"):
+      timing.offset = old_style_event.offset
     timing.validate_schema()
     return timing
 
@@ -88,6 +100,7 @@ class HinduCalendarEventOld(common.JsonObject):
   pass
 
 
+# noinspection PyUnresolvedReferences
 class HinduCalendarEvent(common.JsonObject):
   schema = common.recursively_merge_json_schemas(common.JsonObject.schema, ({
     "type": "object",
@@ -169,14 +182,22 @@ class HinduCalendarEvent(common.JsonObject):
     return event
 
   def get_storage_file_name(self, base_dir):
-    return "%(base_dir)s/%(month_type)s/%(angam_type)s/%(month_number)02d__%(angam_number)02d/%(id)s__info.json" % dict(
-      base_dir=base_dir,
-      month_type=self.timing.month_type,
-      angam_type=self.timing.angam_type,
-      month_number=self.timing.month_number,
-      angam_number=self.timing.angam_number,
-      id=self.id
-    )
+    if hasattr(self.timing, "anchor_festival_id"):
+      return "%(base_dir)s/relative_event/%(anchor_festival_id)s/offset__%(offset)02d/%(id)s__info.json" % dict(
+        base_dir=base_dir,
+        anchor_festival_id=self.timing.anchor_festival_id,
+        offset=self.timing.offset,
+        id=self.id
+      )
+    else:
+      return "%(base_dir)s/%(month_type)s/%(angam_type)s/%(month_number)02d__%(angam_number)02d/%(id)s__info.json" % dict(
+        base_dir=base_dir,
+        month_type=self.timing.month_type,
+        angam_type=self.timing.angam_type,
+        month_number=self.timing.month_number,
+        angam_number=self.timing.angam_number,
+        id=self.id
+      )
 
 
 def read_old_festival_rules_dict(file_name):

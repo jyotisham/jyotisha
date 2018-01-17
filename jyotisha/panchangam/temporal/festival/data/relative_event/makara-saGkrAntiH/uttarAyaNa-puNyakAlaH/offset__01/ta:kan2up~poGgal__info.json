@@ -1,0 +1,12 @@
+{
+  "id": "ta:kan2up~poGgal",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "common-festivals"
+  ],
+  "timing": {
+    "anchor_festival_id": "makara-saGkrAntiH/uttarAyaNa-puNyakAlaH",
+    "jsonClass": "HinduCalendarEventTiming",
+    "offset": 1
+  }
+}
