@@ -8,14 +8,18 @@
   {
     "id": "gAyatrI-japaH",
     "anchor_festival_id": "yajurvEda-upAkarma",
-    "description_short": "Perform 1008 Gayatri Japa.",
+    "description_short": {
+      "en": "Perform 1008 Gayatri Japa."
+    },
     "tags": "common-festivals",
     "offset": 1
   },
   {
     "id": "hOli",
     "anchor_festival_id": "hOlikA-pUrNimA",
-    "description_short": "Festival of colours is celebrated today.",
+    "description_short": {
+      "en": "Festival of colours is celebrated today."
+    },
     "tags": "common-festivals",
     "offset": 1
   },
@@ -352,7 +356,9 @@
   {
     "id": "tiruvizalUr gaGgAkarSaNa-mahOtsava-ArambhaH",
     "anchor_festival_id": "tiruvizalUr gaGgAkarSaNa-mahOtsava-samApanam",
-    "description_short": "Beginning of Gangakarshana Mahotsava in Thiruvisanallur. See also http://www.sriayyaval.org/ .  ",
+    "description_short": {
+      "en": "Beginning of Gangakarshana Mahotsava in Thiruvisanallur. See also http://www.sriayyaval.org/ .  "
+    },
     "tags": "mahapurusha-events,tamilnadu-temple-festivals",
     "offset": -9
   },

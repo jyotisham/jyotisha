@@ -68,8 +68,8 @@ def compute_calendar(panchangam):
                     event.add('dtend', (datetime(y, m, dt) + timedelta(48)).date())
 
                     if stext in festival_rules:
-                        desc = festival_rules[stext]['description_short'] + '\n\n' + \
-                            jyotisha.custom_transliteration.tr(festival_rules[stext]['shlokas'],
+                        desc = json.dumps(festival_rules[stext].get('description_short'), sort_keys=True, indent = 2) + '\n\n' + \
+                            jyotisha.custom_transliteration.tr(festival_rules[stext].get('shlokas'),
                                                                panchangam.script, False) + '\n\n'
                     else:
                         sys.stderr.write('No description found for festival %s!\n' % stext)
@@ -107,8 +107,8 @@ def compute_calendar(panchangam):
                                                     tzinfo=tz(panchangam.city.timezone)))
 
                     if stext in festival_rules:
-                        desc = festival_rules[stext]['description_short'] + '\n\n' + \
-                            jyotisha.custom_transliteration.tr(festival_rules[stext]['shlokas'], panchangam.script, False) + '\n\n'
+                        desc = json.dumps(festival_rules[stext].get('description_short'), sort_keys=True, indent = 2) + '\n\n' + \
+                            jyotisha.custom_transliteration.tr(festival_rules[stext].get('shlokas'), panchangam.script, False) + '\n\n'
                     else:
                         sys.stderr.write('No description found for festival %s!\n' % stext)
                     event.add('description', desc.strip())
@@ -128,8 +128,8 @@ def compute_calendar(panchangam):
                     event.add('dtend', (datetime(y, m, dt) + timedelta(1)).date())
 
                     if stext in festival_rules:
-                        desc = festival_rules[stext]['description_short'] + '\n\n' + \
-                            jyotisha.custom_transliteration.tr(festival_rules[stext]['shlokas'], panchangam.script, False) + '\n\n'
+                        desc = json.dumps(festival_rules[stext].get('description_short'), sort_keys=True, indent = 2) + '\n\n' + \
+                            jyotisha.custom_transliteration.tr(festival_rules[stext].get('shlokas'), panchangam.script, False) + '\n\n'
                     else:
                         sys.stderr.write('No description found for festival %s!\n' % stext)
 
@@ -197,8 +197,8 @@ def compute_calendar(panchangam):
 
                     if stext.find('EkAdazI') == -1 and stext.find('saGkrAntiH') == -1:
                         if stext in festival_rules:
-                            desc = festival_rules[stext]['description_short'] + '\n\n' + \
-                                jyotisha.custom_transliteration.tr(festival_rules[stext]['shlokas'], panchangam.script, False) + '\n\n'
+                            desc = json.dumps(festival_rules[stext].get('description_short'), sort_keys=True, indent = 2) + '\n\n' + \
+                                jyotisha.custom_transliteration.tr(festival_rules[stext].get('shlokas'), panchangam.script, False) + '\n\n'
                         else:
                             sys.stderr.write('No description found for festival %s!\n' % stext)
                         uid = '%s-%d-%02d' % (page_id, y, m)
@@ -206,8 +206,8 @@ def compute_calendar(panchangam):
                         # Handle Sankranti descriptions differently
                         planet_trans = stext.split('~')[0]  # get rid of ~(rAshi name) etc.
                         if planet_trans in festival_rules:
-                            desc = festival_rules[planet_trans]['description_short'] + '\n\n' + \
-                                jyotisha.custom_transliteration.tr(festival_rules[planet_trans]['shlokas'], panchangam.script) + '\n\n'
+                            desc = festival_rules[planet_trans].get('description_short') + '\n\n' + \
+                                jyotisha.custom_transliteration.tr(festival_rules[planet_trans].get('shlokas'), panchangam.script) + '\n\n'
                         else:
                             sys.stderr.write('No description found for festival %s!\n' % planet_trans)
                         uid = '%s-%d-%02d' % (page_id, y, m)
@@ -215,8 +215,8 @@ def compute_calendar(panchangam):
                         # Handle ekadashi descriptions differently
                         ekad = '-'.join(stext.split('-')[1:])  # get rid of sarva etc. prefix!
                         if ekad in festival_rules:
-                            desc = festival_rules[ekad]['description_short'] + '\n\n' + \
-                                jyotisha.custom_transliteration.tr(festival_rules[ekad]['shlokas'], panchangam.script) + '\n\n'
+                            desc = festival_rules[ekad].get('description_short') + '\n\n' + \
+                                jyotisha.custom_transliteration.tr(festival_rules[ekad].get('shlokas'), panchangam.script) + '\n\n'
                         else:
                             sys.stderr.write('No description found for festival %s!\n' % ekad)
                         pref = jyotisha.custom_transliteration.romanise(sanscript.transliterate(

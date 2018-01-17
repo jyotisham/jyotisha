@@ -109,7 +109,9 @@
     "angam_type": "tithi",
     "angam_number": 11,
     "tags": "purana-events,less-common-festivals",
-    "description_short": "Jyeshtha Devi (Kali wife), Varuni (Sesha wife), Sauparni (Garuda wife), Apsaras, Gandharvas, Airavata, Ucchaisrava, Dhanvantari, Parijatam, Kamadhenu born from Milk ocean"
+    "description_short": {
+      "en": "Jyeshtha Devi (Kali wife), Varuni (Sesha wife), Sauparni (Garuda wife), Apsaras, Gandharvas, Airavata, Ucchaisrava, Dhanvantari, Parijatam, Kamadhenu born from Milk ocean"
+    }
   },
   {
     "id": "tulasI-jananaM~kSIrasAgarataH",
@@ -134,7 +136,9 @@
     "angam_type": "tithi",
     "angam_number": 12,
     "tags": "odisha-temple-festivals",
-    "description_short": "Celebrating the stealing of Damanaka leaves by Jagannath Prabhu from Indra's garden. Involves planting Damanaka trees."
+    "description_short": {
+      "en": "Celebrating the stealing of Damanaka leaves by Jagannath Prabhu from Indra's garden. Involves planting Damanaka trees."
+    }
   },
   {
     "id": "damanaka-cOrI-utsavaH",
@@ -143,7 +147,9 @@
     "angam_type": "tithi",
     "angam_number": 13,
     "tags": "odisha-temple-festivals",
-    "description_short": "Celebrating the stealing of Damanaka leaves by Jagannath Prabhu from Indra's garden."
+    "description_short": {
+      "en": "Celebrating the stealing of Damanaka leaves by Jagannath Prabhu from Indra's garden."
+    }
   },
   {
     "id": "damanaka-caturdazI",
@@ -152,7 +158,9 @@
     "angam_type": "tithi",
     "angam_number": 14,
     "tags": "odisha-temple-festivals",
-    "description_short": "Celebrating the stealing of Damanaka leaves by Jagannath Prabhu from Indra's garden."
+    "description_short": {
+      "en": "Celebrating the stealing of Damanaka leaves by Jagannath Prabhu from Indra's garden."
+    }
   },
   {
     "id": "madana-trayOdazI",
@@ -185,7 +193,9 @@
     "angam_type": "tithi",
     "angam_number": 15,
     "tags": "less-common-festivals",
-    "description_short": "Hanuman born from Kaikeyi part of Payasam taken by Vulture and eaten by Anjana Devi"
+    "description_short": {
+      "en": "Hanuman born from Kaikeyi part of Payasam taken by Vulture and eaten by Anjana Devi"
+    }
   },
   {
     "id": "caitra-pUrNimA",
@@ -194,7 +204,9 @@
     "angam_type": "tithi",
     "angam_number": 15,
     "tags": "purnima-days,common-festivals",
-    "description_short": "Daanam of Varaha Puran"
+    "description_short": {
+      "en": "Daanam of Varaha Puran"
+    }
   },
   {
     "id": "ta:citrA~paurNamI/citragupta~pUjai",
@@ -271,7 +283,9 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "common-festivals",
-    "description_short": "Daanam of Dadhyodanam, Vyanjanam, Chatram, Paduka, Udaka Kumbham, Mangos, Jackfruit; Lakshmi Narayana Pooja; Gouri Pooja;",
+    "description_short": {
+      "en": "Daanam of Dadhyodanam, Vyanjanam, Chatram, Paduka, Udaka Kumbham, Mangos, Jackfruit; Lakshmi Narayana Pooja; Gouri Pooja;"
+    },
     "references_secondary": ["Kielhorn (1897)"]
   },
   {
@@ -281,7 +295,9 @@
     "angam_type": "tithi",
     "angam_number": 3,
     "tags": "dashamahavidya,less-common-festivals",
-    "description_short": "Goddess Raja Matangi is 9th of the Dasha Maha Vidyas.",
+    "description_short": {
+      "en": "Goddess Raja Matangi is 9th of the Dasha Maha Vidyas."
+    },
     "references_secondary": ["Kielhorn (1897)"]
   },
   {
@@ -301,7 +317,9 @@
     "kala": "sangava",
     "priority": "purvaviddha",
     "tags": "yugadi-days",
-    "description_short": "Perform Samudra Snanam and Shraddha"
+    "description_short": {
+      "en": "Perform Samudra Snanam and Shraddha"
+    }
   },
   {
     "id": "parazurAma~jayantI~1",
@@ -329,7 +347,9 @@
     "angam_number": 5,
     "year_start": 2593,
     "tags": "common-festivals,adi-shankara-history",
-    "description_short": "Nandana year"
+    "description_short": {
+      "en": "Nandana year"
+    }
   },
   {
     "id": "sarpa-pUjA~1",
@@ -338,7 +358,9 @@
     "angam_type": "tithi",
     "angam_number": 5,
     "tags": "special-pujas,purana-events",
-    "description_short": "Vishnu's boon to AdiSesha that humans will worship on this day"
+    "description_short": {
+      "en": "Vishnu's boon to AdiSesha that humans will worship on this day"
+    }
   },
   {
     "id": "sUradAsa~jayantI",
@@ -365,7 +387,9 @@
     "angam_type": "tithi",
     "angam_number": 7,
     "tags": "purana-events,special-pujas",
-    "description_short": "Ganga came out of Jahnu Maharshi and became Jahnavi; perform Parjanya Pooja"
+    "description_short": {
+      "en": "Ganga came out of Jahnu Maharshi and became Jahnavi; perform Parjanya Pooja"
+    }
   },
   {
     "id": "zarkarA-saptamI",
@@ -374,7 +398,9 @@
     "angam_type": "tithi",
     "angam_number": 7,
     "tags": "special-pujas",
-    "description_short": "Worship Surya Bhagavan in a vessel (`kumbha`) filled with sugar, followed by `dAnam` of the same.",
+    "description_short": {
+      "en": "Worship Surya Bhagavan in a vessel (`kumbha`) filled with sugar, followed by `dAnam` of the same."
+    },
     "shlokas": ["zarkarAsaptamI caiva vAjimEdhaphalapradA.\nsarvaduHkhaprazamanI sarvasampatpradAyinI.."],
     "references_secondary": ["Vaidikasri May 2016"],
     "references_primary": ["Smriti Kaustubham - 112"]
@@ -406,7 +432,9 @@
     "angam_number": 9,
     "year_start": 2617,
     "tags": "adi-shankara-history",
-    "description_short": "Adi Shankara founded Govardhan mutt, Puri in Nala year Padmapadacharya as first"
+    "description_short": {
+      "en": "Adi Shankara founded Govardhan mutt, Puri in Nala year Padmapadacharya as first"
+    }
   },
   {
     "id": "nRsiMha~jayantI",
@@ -417,7 +445,9 @@
     "kala": "sunset",
     "priority": "purvaviddha",
     "tags": "dashavataram,common-festivals",
-    "description_short": "Monday Swati?"
+    "description_short": {
+      "en": "Monday Swati?"
+    }
   },
   {
     "id": "girijA-kalyANam",
@@ -452,7 +482,9 @@
     "kala": "sayahna",
     "priority": "purvaviddha",
     "tags": "dashavataram,less-common-festivals",
-    "description_short": "Danam of Brahma puranam",
+    "description_short": {
+      "en": "Danam of Brahma puranam"
+    },
     "references_secondary": ["Kielhorn (1897)"]
   },
   {
@@ -463,7 +495,9 @@
     "angam_number": 15,
     "year_start": 2620,
     "tags": "adi-shankara-history",
-    "description_short": "Adi Shankara founded Kamakoti Mutt, Kanchi in Siddharthi year with himself as first"
+    "description_short": {
+      "en": "Adi Shankara founded Kamakoti Mutt, Kanchi in Siddharthi year with himself as first"
+    }
   },
   {
     "id": "zarabha~jayantI",
@@ -482,7 +516,9 @@
     "kala": "arunodaya",
     "priority": "paraviddha",
     "tags": "special-snanam",
-    "description_short": "Perform snana four ghatikas before sunrise (during `aruNodayam`, when the Moon is still up, on the full-moon days of `ASADha`, `kArtika`, `mAgha` and `vaizAkha` \u2013 hence the name `A-kA-mA-vai`) bestows strength, beauty, fame, dharma, knowledge, happiness, fortitude and health.",
+    "description_short": {
+      "en": "Perform snana four ghatikas before sunrise (during `aruNodayam`, when the Moon is still up, on the full-moon days of `ASADha`, `kArtika`, `mAgha` and `vaizAkha` \u2013 hence the name `A-kA-mA-vai`) bestows strength, beauty, fame, dharma, knowledge, happiness, fortitude and health."
+    },
     "shlokas": ["balaM rUpaM yazO dharmaM jJAnamAyuH sukhaM dhRtim .\nArOgyaM paramApnOti samyak snAnEna mAnavaH .."],
     "references_secondary": ["Vaidikasri"],
     "references_primary": ["Satyavrata Smriti"]
@@ -494,7 +530,9 @@
     "angam_type": "tithi",
     "angam_number": 17,
     "tags": "less-common-festivals",
-    "description_short": "Avataram of `nArada muni`; perform danam of `vINA`, music"
+    "description_short": {
+      "en": "Avataram of `nArada muni`; perform danam of `vINA`, music"
+    }
   },
   {
     "id": "sAvitrI-vratam",
@@ -527,7 +565,9 @@
     "angam_type": "tithi",
     "angam_number": 30,
     "tags": "moon-sankranti",
-    "description_short": "Perform Krishna Pooja"
+    "description_short": {
+      "en": "Perform Krishna Pooja"
+    }
   },
   {
     "id": "karavIra-vratam",
@@ -536,7 +576,9 @@
     "angam_type": "tithi",
     "angam_number": 1,
     "tags": "special-vratams",
-    "description_short": "Perform puja of `karavIra` plants/flowers and then offer them in `arcanA`.",
+    "description_short": {
+      "en": "Perform puja of `karavIra` plants/flowers and then offer them in `arcanA`."
+    },
     "shlokas": ["karavIra viSAvAsa namastE bhAnuvallabha.\nmaulimaNDana durgAdi dEvAnAM satataM priya"],
     "Comments": "Not assigned in 2016"
   },
@@ -565,7 +607,9 @@
     "angam_type": "tithi",
     "angam_number": 3,
     "tags": "special-vratams",
-    "description_short": "Rambha Vratam; perform Savitri pooja near Banana tree. Offer naivedyam of bananas prepared with ghee.",
+    "description_short": {
+      "en": "Rambha Vratam; perform Savitri pooja near Banana tree. Offer naivedyam of bananas prepared with ghee."
+    },
     "shlokas": ["puSpamaNDapikA kAryA rambhAstambhOpazObhitA.\ntatra sampUjayEddEvIM zaktyA svarNAdinirmitAm ..\n\nvEdESu sarvazAstrESu divi bhUmau rasAtalE.\nzrutO dRSTazca bahuzO na zaktyA rahitaH zivaH.\ntvaM zakstistvaM svadhA svAhA tvaM sAvitrI sarasvatI.\npatiM dEhi sutAndEhi gRhaM dEvi namO'stu tE..\n\n yOSitaH puruSO vA'pi khyAtaM rambhAvrataM bhuvi.\nbhAryAM putraM gRhaM bhOgAn kulavRddhimavApnuyuH.."],
     "references_secondary": ["Kielhorn (1897)", "Vaidikasri June 2017"]
   },
@@ -576,7 +620,9 @@
     "angam_type": "tithi",
     "angam_number": 4,
     "tags": "other-jayantis",
-    "description_short": "Perform puja of Uma-Maheshvara, on the day of Uma Devi's Avataram.",
+    "description_short": {
+      "en": "Perform puja of Uma-Maheshvara, on the day of Uma Devi's Avataram."
+    },
     "shlokas": ["jyESThazuklacaturthyAM tu jAtA pUrvamumA satI.\ntasmAt sA tatra sampUjyA strIbhiH saubhAgyavRddhayE.."]
   },
   {
@@ -586,7 +632,9 @@
     "angam_type": "tithi",
     "angam_number": 4,
     "tags": "less-common-festivals",
-    "description_short": "Perform puja of Shiva-Parvati under a banana tree or on a banana leaf, do naivedyam of 100+ bananas and give away to small girl children.",
+    "description_short": {
+      "en": "Perform puja of Shiva-Parvati under a banana tree or on a banana leaf, do naivedyam of 100+ bananas and give away to small girl children."
+    },
     "shlokas": ["putrAn dEhi dhanaM dEhi saubhAgyaM sarvamaGgalE.\nsaumaGgalyaM sukhaM jJAnaM dEhi mE zivasundari.."],
     "references_secondary": ["Vaidikasri June 2017"],
     "references_primary": ["Bhavishyottara Puranam"]
@@ -623,7 +671,9 @@
     "angam_type": "tithi",
     "angam_number": 9,
     "tags": "special-pujas",
-    "description_short": "`brahmANI` is one of the seven `mAtRkA`s"
+    "description_short": {
+      "en": "`brahmANI` is one of the seven `mAtRkA`s"
+    }
   },
   {
     "id": "zukla-dEvI-pUjA",
@@ -640,7 +690,9 @@
     "angam_type": "tithi",
     "angam_number": 10,
     "tags": "other-jayantis",
-    "description_short": "Avataranam of Ganga Devi. Bathe in any river and offer arghyam — destroys 10 types of sins (`dazaharA`).",
+    "description_short": {
+      "en": "Avataranam of Ganga Devi. Bathe in any river and offer arghyam — destroys 10 types of sins (`dazaharA`)."
+    },
     "shlokas": ["dazamyAM zuklapakSE tu jyESThE mAsE kujE dinE.\ngaGgA'vatIrNA hastarkSE sarvapApaharA smRtA..\n\nyAM kAJcit saritaM prApya dadyAdarghyaM zubhOdakam .\nmucyatE dazabhiH pApaiH sa mahApAtakOpamaiH.."],
     "titles": "Ganga Jayanti; Dashapaapa-hara-dashami; Wednesday; Hasta star (Valmiki Ramayana)",
     "references_secondary": ["Vaidikasri June 2017"]
@@ -652,7 +704,9 @@
     "angam_type": "tithi",
     "angam_number": 12,
     "tags": "less-common-festivals",
-    "description_short": "Perform puja of Lord Trivikrama (Sahasranamarchana), do naivedyam of mangoes and offer annadanam to needy.",
+    "description_short": {
+      "en": "Perform puja of Lord Trivikrama (Sahasranamarchana), do naivedyam of mangoes and offer annadanam to needy."
+    },
     "shlokas": ["ahOrAtrENa dvAdazyAM jyESThE mAsi trivikramam .\ngavAmayanamApnOti apsarObhizca mOdatE.."],
     "references_secondary": ["Vaidikasri June 2017"],
     "references_primary": ["Mahabharata"]
@@ -697,7 +751,9 @@
     "angam_type": "tithi",
     "angam_number": 15,
     "tags": "special-vratams",
-    "description_short": "Perform puja of banyan tree; begets `saumaGgalyam` and `saubhAgyam`.",
+    "description_short": {
+      "en": "Perform puja of banyan tree; begets `saumaGgalyam` and `saubhAgyam`."
+    },
     "references_secondary": ["Vaidikasri June 2017"],
     "references_primary": ["Bhavishyottara Puranam"]
   },
@@ -708,7 +764,9 @@
     "angam_type": "tithi",
     "angam_number": 15,
     "tags": "purnima-days,less-common-festivals,danam-days",
-    "description_short": "Danam of Padma Puranam"
+    "description_short": {
+      "en": "Danam of Padma Puranam"
+    }
   },
   {
     "id": "vEGkaTAcalE jyESTha-abhidyEyakAbhiSEkaH (svarNa-kavacam)",
@@ -821,7 +879,9 @@
     "angam_type": "tithi",
     "angam_number": 7,
     "tags": "special-pujas",
-    "description_short": "Mitra rupa Surya Pooja"
+    "description_short": {
+      "en": "Mitra rupa Surya Pooja"
+    }
   },
   {
     "id": "mahiSaghnI-pUjA",
@@ -882,7 +942,9 @@
     "angam_type": "tithi",
     "angam_number": 10,
     "tags": "special-vratams",
-    "description_short": "Do danam of leafy vegetables (but do not consume, on this day)"
+    "description_short": {
+      "en": "Do danam of leafy vegetables (but do not consume, on this day)"
+    }
   },
   {
     "id": "dadhi-vratam (mahAlakSmI)",
@@ -891,7 +953,9 @@
     "angam_type": "tithi",
     "angam_number": 10,
     "tags": "special-vratams",
-    "description_short": "Do danam of curd (but do not consume, on this day)"
+    "description_short": {
+      "en": "Do danam of curd (but do not consume, on this day)"
+    }
   },
   {
     "id": "gOpadma-vrata-ArambhaH",
@@ -900,7 +964,9 @@
     "angam_type": "tithi",
     "angam_number": 11,
     "tags": "special-vratams",
-    "description_short": "Perform puja of Mahalakshmi-Mahavishnu",
+    "description_short": {
+      "en": "Perform puja of Mahalakshmi-Mahavishnu"
+    },
     "shlokas": ["gOpadmamiti vikhyAtaM sarvapApaharaM param .\nsarvaduHkhOpazamanaM sarvasampatpradAyakam .\nsuvAsinyAstu saubhAgyaputrapautrapravardhanam .."],
     "references_secondary": ["Vaidikasri Aug 2015"],
     "references_primary": ["Vrata Chudamani 173"]
@@ -1001,7 +1067,9 @@
     "angam_type": "tithi",
     "angam_number": 10,
     "tags": "vratam-start,special-period-start",
-    "description_short": "Chaaturmasya begins; 4 months; Pradakshina to Pippala; Deeparadhana in temple; Saraswati Pooja; 1st month no vegetables; 2nd month no curds; 3rd month no milk; 4th month no dals;"
+    "description_short": {
+      "en": "Chaaturmasya begins; 4 months; Pradakshina to Pippala; Deeparadhana in temple; Saraswati Pooja; 1st month no vegetables; 2nd month no curds; 3rd month no milk; 4th month no dals;"
+    }
   },
   {
     "id": "guru-pUrNimA/vyAsa-pUjA",
@@ -1010,7 +1078,9 @@
     "angam_type": "tithi",
     "angam_number": 15,
     "tags": "purnima-days,special-pujas,common-festivals",
-    "description_short": "Puja of Veda Vyasa / Gurus; Danam of Vishnu Puran is good on this day.",
+    "description_short": {
+      "en": "Puja of Veda Vyasa / Gurus; Danam of Vishnu Puran is good on this day."
+    },
     "shlokas": ["acaturvadanO brahmA dvibAhuraparO hariH. aphAlalOcanO zambhurbhagavAn bAdArAyaNaH.."]
   },
   {
@@ -1030,7 +1100,9 @@
     "kala": "sunset",
     "priority": "purvaviddha",
     "tags": "special-vratams",
-    "description_short": "Pooja of Kokila for getting good husband/wife."
+    "description_short": {
+      "en": "Pooja of Kokila for getting good husband/wife."
+    }
   },
   {
     "id": "yaticAturmAsyavrata-ArambhaH",
@@ -1059,7 +1131,9 @@
     "kala": "arunodaya",
     "priority": "paraviddha",
     "tags": "special-snanam",
-    "description_short": "Perform snana four ghatikas before sunrise (during `aruNodayam`, when the Moon is still up, on the full-moon days of `ASADha`, `kArtika`, `mAgha` and `vaizAkha` \u2013 hence the name `A-kA-mA-vai`) bestows strength, beauty, fame, dharma, knowledge, happiness, fortitude and health.",
+    "description_short": {
+      "en": "Perform snana four ghatikas before sunrise (during `aruNodayam`, when the Moon is still up, on the full-moon days of `ASADha`, `kArtika`, `mAgha` and `vaizAkha` \u2013 hence the name `A-kA-mA-vai`) bestows strength, beauty, fame, dharma, knowledge, happiness, fortitude and health."
+    },
     "references_secondary": ["Vaidikasri"],
     "references_primary": ["Satyavrata Smriti"]
   },
@@ -1071,7 +1145,9 @@
     "angam_number": 17,
     "kala": "moonrise",
     "tags": "special-vratams",
-    "description_short": "Lord Mahavishnu sleeps with Goddess Mahalakshmi on this day. Do Puja by placing the God/Goddess on a new bed with pillow/blanket. Do danam of same after puja.",
+    "description_short": {
+      "en": "Lord Mahavishnu sleeps with Goddess Mahalakshmi on this day. Do Puja by placing the God/Goddess on a new bed with pillow/blanket. Do danam of same after puja."
+    },
     "shlokas": ["lakSmyA viyujyatE dEva na kadAcit yatO bhavAn .\ntathA kalatrasambandhO dEva mA mE viyujyatAm .."]
   },
   {
@@ -1081,7 +1157,9 @@
     "angam_type": "tithi",
     "angam_number": 4,
     "tags": "special-vratams",
-    "description_short": "Perform puja of Ganapati with `dUrvA` grass"
+    "description_short": {
+      "en": "Perform puja of Ganapati with `dUrvA` grass"
+    }
   },
   {
     "id": "garuDa-paJcamI",
@@ -1090,7 +1168,9 @@
     "angam_type": "tithi",
     "angam_number": 5,
     "tags": "purana-events",
-    "description_short": "\n* Day Garuda brought Amrutam for Nagas\n* Day Garuda and Takshaka fought and compromise was struck with Takshaka as garland in Garuda's neck (peace treaty :) "
+    "description_short": {
+      "en": "\n* Day Garuda brought Amrutam for Nagas\n* Day Garuda and Takshaka fought and compromise was struck with Takshaka as garland in Garuda's neck (peace treaty :) "
+    }
   },
   {
     "id": "nAga-paJcamI",
@@ -1099,7 +1179,9 @@
     "angam_type": "tithi",
     "angam_number": 5,
     "tags": "special-pujas,purana-events",
-    "description_short": "Naga Panchami; SarpaPooja (manasaDevi); Vishnu's boon to AdiSesha that humans will worship on this day",
+    "description_short": {
+      "en": "Naga Panchami; SarpaPooja (manasaDevi); Vishnu's boon to AdiSesha that humans will worship on this day"
+    },
     "shlokas": ["apasarpa sarpa bhadraM tE dUraM gaccha mahAyazAH .\njanamEjayasya yajJAntE astIkavacanaM smaran .. "]
   },
   {
@@ -1135,7 +1217,9 @@
     "angam_type": "tithi",
     "angam_number": 15,
     "tags": "other-avatarams",
-    "description_short": "Lord Hayagriva did upadesham of all four vedas to Brahma.",
+    "description_short": {
+      "en": "Lord Hayagriva did upadesham of all four vedas to Brahma."
+    },
     "shlokas": ["OGkArOdgItharUpAya RgyajussAmamUrtayE.\nnamO'studEvadEvAya vAcchitArthapradAyinE..\najJAnatimiraM chindhi jJAnaM ca''zu prayaccha mE.\ndEhi mE dEva dEvEza hayazIrSa namO'stu tE.."]
   },
   {
@@ -1153,7 +1237,9 @@
     "angam_type": "tithi",
     "angam_number": 15,
     "tags": "other-jayantis",
-    "description_short": "World Sanskrit Day is celebrated on this day."
+    "description_short": {
+      "en": "World Sanskrit Day is celebrated on this day."
+    }
   },
   {
     "id": "vaikhAnasa~maharSi~jayantI",
@@ -1189,7 +1275,9 @@
     "angam_type": "tithi",
     "angam_number": 17,
     "tags": "special-pujas",
-    "description_short": "VaakuduChettu Puja"
+    "description_short": {
+      "en": "VaakuduChettu Puja"
+    }
   },
   {
     "id": "kajjalI~tRtIyA",
@@ -1225,7 +1313,9 @@
     "angam_type": "tithi",
     "angam_number": 20,
     "tags": "less-common-festivals",
-    "description_short": "Naga (Manasa) Puja",
+    "description_short": {
+      "en": "Naga (Manasa) Puja"
+    },
     "references_secondary": ["Kielhorn (1897)"]
   },
   {
@@ -1235,7 +1325,9 @@
     "angam_type": "tithi",
     "angam_number": 21,
     "tags": "dashavataram,less-common-festivals",
-    "description_short": "Birth of Balarama",
+    "description_short": {
+      "en": "Birth of Balarama"
+    },
     "references_secondary": ["Kielhorn (1897)"]
   },
   {
@@ -1268,7 +1360,9 @@
     "kala": "nishita",
     "priority": "paraviddha",
     "tags": "dashamahavidya",
-    "description_short": "Goddess Mahakali is 1st of the Dasha Maha Vidyas."
+    "description_short": {
+      "en": "Goddess Mahakali is 1st of the Dasha Maha Vidyas."
+    }
   },
   {
     "id": "manvAdi~(brahma-sAvarNi)",
@@ -1333,7 +1427,9 @@
     "angam_type": "tithi",
     "angam_number": 30,
     "tags": "special-pujas",
-    "description_short": "Vrushabha puja; Nandi born to Shilaada on this day"
+    "description_short": {
+      "en": "Vrushabha puja; Nandi born to Shilaada on this day"
+    }
   },
   {
     "id": "64 yOginI-pUjA",
@@ -1378,7 +1474,9 @@
     "angam_type": "tithi",
     "angam_number": 3,
     "tags": "special-vratams",
-    "description_short": "Puja of Gauri-Maheshwara on Vrishabham, esp. for girls desirous of getting married, like Goddess Parvati sought the hand of Maheshwara, as Himavan's daughter.",
+    "description_short": {
+      "en": "Puja of Gauri-Maheshwara on Vrishabham, esp. for girls desirous of getting married, like Goddess Parvati sought the hand of Maheshwara, as Himavan's daughter."
+    },
     "references_secondary": ["Vaidikasri Sep 2015"],
     "references_primary": ["Bhavishyottara Puranam"]
   },
@@ -1433,7 +1531,9 @@
     "angam_type": "tithi",
     "angam_number": 6,
     "tags": "special-pujas",
-    "description_short": "Perform puja of Surya, eat Panchagavya -- brings merits greater than Ashvamedha!",
+    "description_short": {
+      "en": "Perform puja of Surya, eat Panchagavya -- brings merits greater than Ashvamedha!"
+    },
     "shlokas": ["zuklE bhAdrapadE SaSThyAM snAnaM bhAskarapUjanam .\n prAzanaM paJcagavyasya azvamEdhaphalAdhikam .."]
   },
   {
@@ -1476,7 +1576,9 @@
     "angam_type": "tithi",
     "angam_number": 7,
     "tags": "special-vratams",
-    "description_short": "Shiva Puja"
+    "description_short": {
+      "en": "Shiva Puja"
+    }
   },
   {
     "id": "anantaphala-saptamI",
@@ -1511,7 +1613,9 @@
     "angam_type": "tithi",
     "angam_number": 8,
     "tags": "less-common-festivals",
-    "description_short": "Do `pUjA` *of* `dUrva`!"
+    "description_short": {
+      "en": "Do `pUjA` *of* `dUrva`!"
+    }
   },
   {
     "id": "aduHkhanavamI",
@@ -1538,7 +1642,9 @@
     "angam_type": "tithi",
     "angam_number": 9,
     "tags": "less-common-festivals",
-    "description_short": "Durga Puja"
+    "description_short": {
+      "en": "Durga Puja"
+    }
   },
   {
     "id": "nandA~navamI",
@@ -1547,7 +1653,9 @@
     "angam_type": "tithi",
     "angam_number": 9,
     "tags": "less-common-festivals",
-    "description_short": "Durga Puja"
+    "description_short": {
+      "en": "Durga Puja"
+    }
   },
   {
     "id": "dazAvatAra-vratam",
@@ -1564,7 +1672,9 @@
     "angam_type": "tithi",
     "angam_number": 10,
     "tags": "special-snanam",
-    "description_short": "7 days bath in Vitasta river tributary of Narmada"
+    "description_short": {
+      "en": "7 days bath in Vitasta river tributary of Narmada"
+    }
   },
   {
     "id": "vAmana~jayantI",
@@ -1575,7 +1685,9 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "dashavataram,common-festivals",
-    "description_short": "Wednesday Shravana ; Vamana Jayanti; Shravana Dvadashi; Vijaya Dvadashi; Shakra Dvadashi"
+    "description_short": {
+      "en": "Wednesday Shravana ; Vamana Jayanti; Shravana Dvadashi; Vijaya Dvadashi; Shakra Dvadashi"
+    }
   },
   {
     "id": "bhuvanEzvarI~jayantI",
@@ -1584,7 +1696,9 @@
     "angam_type": "tithi",
     "angam_number": 12,
     "tags": "dashamahavidya",
-    "description_short": "Goddess Bhuvaneshwari is 4th of the Dasha Maha Vidyas.",
+    "description_short": {
+      "en": "Goddess Bhuvaneshwari is 4th of the Dasha Maha Vidyas."
+    },
     "shlokas": ["udyadinadyutimindukirITAm tuGgakucAM nayanatrayayuktAM \nsmEramukhIM varadAGkuzapAzAbhItikarAm prabhajE bhuvanEzIm "]
   },
   {
@@ -1594,7 +1708,9 @@
     "angam_type": "tithi",
     "angam_number": 12,
     "tags": "special-pujas",
-    "description_short": "Vanjuli (Cow giving lots of milk), dugdha (milk), Aviyoga, Ananta Dvadashi"
+    "description_short": {
+      "en": "Vanjuli (Cow giving lots of milk), dugdha (milk), Aviyoga, Ananta Dvadashi"
+    }
   },
   {
     "id": "gO-trirAtri-vratam~1",
@@ -1603,7 +1719,9 @@
     "angam_type": "tithi",
     "angam_number": 13,
     "tags": "special-vratams",
-    "description_short": "Agastya arghya danam"
+    "description_short": {
+      "en": "Agastya arghya danam"
+    }
   },
   {
     "id": "dUrva-tri-vratam",
@@ -1620,7 +1738,9 @@
     "angam_type": "tithi",
     "angam_number": 14,
     "tags": "common-festivals,special-pujas",
-    "description_short": "Visarjan of Ganesha idols"
+    "description_short": {
+      "en": "Visarjan of Ganesha idols"
+    }
   },
   {
     "id": "ananta-padmanAbha-vratam",
@@ -1629,7 +1749,9 @@
     "angam_type": "tithi",
     "angam_number": 14,
     "tags": "special-pujas",
-    "description_short": "Puja of Ananta Padmanabha."
+    "description_short": {
+      "en": "Puja of Ananta Padmanabha."
+    }
   },
   {
     "id": "yaticAturmAsyavrata-samApanam",
@@ -1646,7 +1768,9 @@
     "angam_type": "tithi",
     "angam_number": 15,
     "tags": "common-festivals",
-    "description_short": "Shankaracharyas will resume their travel, after being stationed for Chaturmasya vratam for the last four pakshas."
+    "description_short": {
+      "en": "Shankaracharyas will resume their travel, after being stationed for Chaturmasya vratam for the last four pakshas."
+    }
   },
   {
     "id": "umA-mahEzvara-vratam",
@@ -1674,7 +1798,9 @@
     "angam_type": "tithi",
     "angam_number": 5,
     "tags": "special-vratams",
-    "description_short": "Do `pUjA` of Lalita Devi."
+    "description_short": {
+      "en": "Do `pUjA` of Lalita Devi."
+    }
   },
   {
     "id": "dikpAla-pUjA~1",
@@ -1683,7 +1809,9 @@
     "angam_type": "tithi",
     "angam_number": 15,
     "tags": "devata-pujas",
-    "description_short": "Spend this day in Badarikashramam"
+    "description_short": {
+      "en": "Spend this day in Badarikashramam"
+    }
   },
   {
     "id": "mahAlaya-pakSa-ArambhaH",
@@ -1731,7 +1859,9 @@
     "angam_type": "tithi",
     "angam_number": 18,
     "tags": "special-vratams",
-    "description_short": "Undralla Taddi (Telugu)"
+    "description_short": {
+      "en": "Undralla Taddi (Telugu)"
+    }
   },
   {
     "id": "dikpAla-pUjA~2",
@@ -1801,7 +1931,9 @@
     "angam_type": "tithi",
     "angam_number": 23,
     "tags": "purana-events",
-    "description_short": "Jeemuutavahana is an atma-tyagi vidyadhara Chakravarti. Saved Shankhachuda's (Naaga) life by offering himself to Garuda. From that day Garuda stopped eating snakes.",
+    "description_short": {
+      "en": "Jeemuutavahana is an atma-tyagi vidyadhara Chakravarti. Saved Shankhachuda's (Naaga) life by offering himself to Garuda. From that day Garuda stopped eating snakes."
+    },
     "references_secondary": ["Aamade Jyotishi"]
   },
   {
@@ -1837,7 +1969,9 @@
     "angam_type": "tithi",
     "angam_number": 14,
     "tags": "special-snanam",
-    "description_short": "Perform `snAnam` at `maNikarNikA` ghat in Varanasi."
+    "description_short": {
+      "en": "Perform `snAnam` at `maNikarNikA` ghat in Varanasi."
+    }
   },
   {
     "id": "kaMsa-vadhaH",
@@ -1846,7 +1980,9 @@
     "angam_type": "tithi",
     "angam_number": 10,
     "tags": "purana-events",
-    "description_short": "Lord Krishna killed Kamsa on this day; most popularly celebrated in Mathura and Uttar Pradesh."
+    "description_short": {
+      "en": "Lord Krishna killed Kamsa on this day; most popularly celebrated in Mathura and Uttar Pradesh."
+    }
   },
   {
     "id": "sumaGgalI~navamI",
@@ -1855,7 +1991,9 @@
     "angam_type": "tithi",
     "angam_number": 24,
     "tags": "special-pujas",
-    "description_short": "In honour of Sumangalis (in the family), by holding a feast for Suvasinis and Kanyas.",
+    "description_short": {
+      "en": "In honour of Sumangalis (in the family), by holding a feast for Suvasinis and Kanyas."
+    },
     "shlokas": ["bharturagrE mRtA nArI sahadAhEna vA mRtA .\n tasyAH sthAnE niyuJjIta vipraiH saha suvAsinIm .."],
     "titles": "avidhavA-navamI"
   },
@@ -1883,7 +2021,9 @@
     "angam_type": "tithi",
     "angam_number": 28,
     "tags": "yugadi-days",
-    "description_short": "Perform Samudra Snanam and Shraddha."
+    "description_short": {
+      "en": "Perform Samudra Snanam and Shraddha."
+    }
   },
   {
     "id": "zastrahatacaturdazI",
@@ -1935,7 +2075,9 @@
     "angam_type": "tithi",
     "angam_number": 1,
     "tags": "less-common-festivals",
-    "description_short": "Grandson must seek blessings of his maternal grandparents, and bestow gifts."
+    "description_short": {
+      "en": "Grandson must seek blessings of his maternal grandparents, and bestow gifts."
+    }
   },
   {
     "id": "gRhadEvI-pUjA",
@@ -2006,7 +2148,9 @@
     "angam_type": "tithi",
     "angam_number": 7,
     "tags": "special-pujas",
-    "description_short": "Pooja of Kapila cow, eat only Panchagavya, next day eat",
+    "description_short": {
+      "en": "Pooja of Kapila cow, eat only Panchagavya, next day eat"
+    },
     "titles": "dvAdaza-saptamI-vratam"
   },
   {
@@ -2048,7 +2192,9 @@
     "angam_type": "tithi",
     "angam_number": 9,
     "tags": "common-festivals",
-    "description_short": "Daanam is good, get crore times punya.\nMaatruNavami, NaamaNavami Vratam, DurgaNavami-Vratam, Shourya-Vratam, Mahaaphala Vratam, PradeeptaNavami"
+    "description_short": {
+      "en": "Daanam is good, get crore times punya.\nMaatruNavami, NaamaNavami Vratam, DurgaNavami-Vratam, Shourya-Vratam, Mahaaphala Vratam, PradeeptaNavami"
+    }
   },
   {
     "id": "bhadrakALI-vratam",
@@ -2073,7 +2219,9 @@
     "angam_type": "tithi",
     "angam_number": 10,
     "tags": "common-festivals",
-    "description_short": "Arjuna wins over all Kauravas and Karna\nSri Rama's army built tents on ocean bank before crossing on Shravana star (AnandaRamayanam)\nBest day for AksharaaBhyaasam"
+    "description_short": {
+      "en": "Arjuna wins over all Kauravas and Karna\nSri Rama's army built tents on ocean bank before crossing on Shravana star (AnandaRamayanam)\nBest day for AksharaaBhyaasam"
+    }
   },
   {
     "id": "ta:Ayudha~pUjai",
@@ -2082,7 +2230,9 @@
     "angam_type": "tithi",
     "angam_number": 10,
     "tags": "common-festivals",
-    "description_short": "Arjuna wins over all Kauravas and Karna. Worship of all weapons, or rather, tools related to one's profession."
+    "description_short": {
+      "en": "Arjuna wins over all Kauravas and Karna. Worship of all weapons, or rather, tools related to one's profession."
+    }
   },
   {
     "id": "madhvAcArya~jayantI",
@@ -2092,7 +2242,9 @@
     "angam_number": 10,
     "year_start": 4339,
     "tags": "mahapurusha-events",
-    "description_short": "Jayanti of Madhvacharya, a proponent of Dvaita Vedanta"
+    "description_short": {
+      "en": "Jayanti of Madhvacharya, a proponent of Dvaita Vedanta"
+    }
   },
   {
     "id": "dazaharA",
@@ -2101,7 +2253,9 @@
     "angam_type": "tithi",
     "angam_number": 10,
     "tags": "common-festivals",
-    "description_short": "Dussehra (Raama wins over Ravana)"
+    "description_short": {
+      "en": "Dussehra (Raama wins over Ravana)"
+    }
   },
   {
     "id": "gaGgAvataraNam",
@@ -2110,7 +2264,9 @@
     "angam_type": "tithi",
     "angam_number": 10,
     "tags": "purana-events",
-    "description_short": "According to Agni/Padma Puranam"
+    "description_short": {
+      "en": "According to Agni/Padma Puranam"
+    }
   },
   {
     "id": "kUSmANDa-dazamI",
@@ -2119,7 +2275,9 @@
     "angam_type": "tithi",
     "angam_number": 10,
     "tags": "less-common-festivals",
-    "description_short": "`kUSmANDa` Danam"
+    "description_short": {
+      "en": "`kUSmANDa` Danam"
+    }
   },
   {
     "id": "yuddhadEvatA-ArAdhanA",
@@ -2171,7 +2329,9 @@
     "angam_type": "tithi",
     "angam_number": 15,
     "tags": "special-vratams,common-festivals",
-    "description_short": "Have to play Aksha kreeda only on this day and Ko-jagarti-Vratam (Lakshmi will ask \"who are awake\"). Vaalakhilya Rushi mentioned Ko-jagarti Vratam",
+    "description_short": {
+      "en": "Have to play Aksha kreeda only on this day and Ko-jagarti-Vratam (Lakshmi will ask \"who are awake\"). Vaalakhilya Rushi mentioned Ko-jagarti Vratam"
+    },
     "shlokas": ["nizIthE varadA lakSmIH kO jAgartIti bhASiNI.\ntasmai vittaM prayacchAmi akSaiH krIDAM karOti yaH.."],
     "references_secondary": ["Vaidikasri Oct 2015"],
     "references_primary": ["Dharma Sindhu 142"]
@@ -2217,7 +2377,9 @@
     "angam_type": "tithi",
     "angam_number": 15,
     "tags": "special-vratams",
-    "description_short": "Kunti-vratam done today will remove all paapams (including Gohatya). As per Bhavishyottara Puraana. Here Kunti means Parvati. Also, some people worship Yudhisthira's mother Kunti. In AP/TEL, eldest child is given new clothes, harti and blessed \"Deerghayushman\"."
+    "description_short": {
+      "en": "Kunti-vratam done today will remove all paapams (including Gohatya). As per Bhavishyottara Puraana. Here Kunti means Parvati. Also, some people worship Yudhisthira's mother Kunti. In AP/TEL, eldest child is given new clothes, harti and blessed \"Deerghayushman\"."
+    }
   },
   {
     "id": "jayAvApti-vratam",
@@ -2263,7 +2425,9 @@
     "kala": "moonrise",
     "priority": "purvaviddha",
     "tags": "special-vratams",
-    "description_short": "Attla-Taddi (Telugu). After moonrise, Uma devi pooja; From this day to Deepaavali eat more Urad dal"
+    "description_short": {
+      "en": "Attla-Taddi (Telugu). After moonrise, Uma devi pooja; From this day to Deepaavali eat more Urad dal"
+    }
   },
   {
     "id": "karaka-caturthI",
@@ -2292,7 +2456,9 @@
     "angam_type": "tithi",
     "angam_number": 23,
     "tags": "special-pujas,less-common-festivals",
-    "description_short": "In North India, for progeny",
+    "description_short": {
+      "en": "In North India, for progeny"
+    },
     "references_secondary": ["Kielhorn (1897)"]
   },
   {
@@ -2339,7 +2505,9 @@
     "angam_type": "tithi",
     "angam_number": 24,
     "tags": "purana-events",
-    "description_short": "Bhava year",
+    "description_short": {
+      "en": "Bhava year"
+    },
     "references_secondary": ["Kielhorn (1897)"]
   },
   {
@@ -2369,7 +2537,9 @@
     "angam_type": "tithi",
     "angam_number": 27,
     "tags": "less-common-festivals",
-    "description_short": "In Gujarat",
+    "description_short": {
+      "en": "In Gujarat"
+    },
     "references_primary": ["Smriti Kaustubham"]
   },
   {
@@ -2379,7 +2549,9 @@
     "angam_type": "tithi",
     "angam_number": 28,
     "tags": "common-festivals",
-    "description_short": "Dhanvantari Jayanti (born as Divodaas King of Kaashi) as per Brahmanda-Puraana (Dvadashi?)"
+    "description_short": {
+      "en": "Dhanvantari Jayanti (born as Divodaas King of Kaashi) as per Brahmanda-Puraana (Dvadashi?)"
+    }
   },
   {
     "id": "dhana-trayOdazI",
@@ -2388,7 +2560,9 @@
     "angam_type": "tithi",
     "angam_number": 28,
     "tags": "common-festivals",
-    "description_short": "Dhan-trayodashi in Gujarat; Lakshmi pooja"
+    "description_short": {
+      "en": "Dhan-trayodashi in Gujarat; Lakshmi pooja"
+    }
   },
   {
     "id": "gO-trirAtri-vratam~2",
@@ -2406,7 +2580,9 @@
     "angam_type": "tithi",
     "angam_number": 28,
     "tags": "common-festivals",
-    "description_short": "Do `dAnaM` of `dIpam`, light deepam outside the house.",
+    "description_short": {
+      "en": "Do `dAnaM` of `dIpam`, light deepam outside the house."
+    },
     "shlokas": ["AzvinasyAsitE pakSE trayOdazyAM nizAmukhE.\nyamadIpaM bahirdadyAt apamRtyurvinazyati..\n\nmRtyunA pAzadaNDAbhyAM kAlEna zyAmayA saha.\ntrayOdazyAM dIpadAnAt sUryajaH prIyatAM mama.."]
   },
   {
@@ -2416,7 +2592,9 @@
     "angam_type": "tithi",
     "angam_number": 29,
     "tags": "common-festivals",
-    "description_short": "\n*ShriKrishna killed Muraasura and Narakaasura on this day.\n*Must do Taila-abhyangana-snaanam in early morning before sunrise, else Narakam (as per PadmaPurana) . If done, equal to GangaSnanam and avoids YamaYaatanam. Use water stored from previous day. Previous day night do pooja to water. Use this water on Chaturdashi. With plough uproot Upaamaarga-vruksham (small one) and put in the water. (DO NOT PLUCK WITH HAND). Do dhyaanam of Seeta.\n* As per KalikaPuranam, Naraka was also upraised by Janaka. He was then sent to PraajyotishaPuram."
+    "description_short": {
+      "en": "\n*ShriKrishna killed Muraasura and Narakaasura on this day.\n*Must do Taila-abhyangana-snaanam in early morning before sunrise, else Narakam (as per PadmaPurana) . If done, equal to GangaSnanam and avoids YamaYaatanam. Use water stored from previous day. Previous day night do pooja to water. Use this water on Chaturdashi. With plough uproot Upaamaarga-vruksham (small one) and put in the water. (DO NOT PLUCK WITH HAND). Do dhyaanam of Seeta.\n* As per KalikaPuranam, Naraka was also upraised by Janaka. He was then sent to PraajyotishaPuram."
+    }
   },
   {
     "id": "dIpOtsava-caturdazI/yama-tarpaNam",
@@ -2425,7 +2603,9 @@
     "angam_type": "tithi",
     "angam_number": 29,
     "tags": "less-common-festivals",
-    "description_short": "Perform Tarpana to Yamadharmaraja (even those with father). `jIvatpitA'pi kurvIta tarpaNaM yamabhISmayoH`"
+    "description_short": {
+      "en": "Perform Tarpana to Yamadharmaraja (even those with father). `jIvatpitA'pi kurvIta tarpaNaM yamabhISmayoH`"
+    }
   },
   {
     "id": "prEta-caturdazI",
@@ -2434,7 +2614,9 @@
     "angam_type": "tithi",
     "angam_number": 29,
     "tags": "less-common-festivals",
-    "description_short": "Perform Deepa Danam for Yamadharmaraja in evening",
+    "description_short": {
+      "en": "Perform Deepa Danam for Yamadharmaraja in evening"
+    },
     "references_primary": ["Vrata Chudamani"]
   },
   {
@@ -2460,7 +2642,9 @@
     "angam_type": "tithi",
     "angam_number": 30,
     "tags": "common-festivals",
-    "description_short": "Gives light even to Naraka-vasis; Also, Bali was sent to Paatalam on this day."
+    "description_short": {
+      "en": "Gives light even to Naraka-vasis; Also, Bali was sent to Paatalam on this day."
+    }
   },
   {
     "id": "kEdAra-gaurI-vratam",
@@ -2479,7 +2663,9 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "purana-events",
-    "description_short": "Commemoration of Govardhana Leela of Krishna. Offer naivedyam to Lord Krishna.",
+    "description_short": {
+      "en": "Commemoration of Govardhana Leela of Krishna. Offer naivedyam to Lord Krishna."
+    },
     "titles": "annakUT"
   },
   {
@@ -2520,7 +2706,9 @@
     "angam_type": "tithi",
     "angam_number": 5,
     "tags": "special-pujas,purana-events",
-    "description_short": "Vishnu's boon to AdiSesha that humans will worship on this day"
+    "description_short": {
+      "en": "Vishnu's boon to AdiSesha that humans will worship on this day"
+    }
   },
   {
     "id": "gOpASTamI",
@@ -2541,7 +2729,9 @@
     "kala": "sangava",
     "priority": "purvaviddha",
     "tags": "yugadi-days",
-    "description_short": "Perform Samudra Snanam and Shraddha."
+    "description_short": {
+      "en": "Perform Samudra Snanam and Shraddha."
+    }
   },
   {
     "id": "akSayA~navamI",
@@ -2574,7 +2764,9 @@
     "angam_type": "tithi",
     "angam_number": 11,
     "tags": "adi-shankara-history",
-    "description_short": "In Plava Nama year Adi Shankara obtained permission from mother and took manasika sanyasam"
+    "description_short": {
+      "en": "In Plava Nama year Adi Shankara obtained permission from mother and took manasika sanyasam"
+    }
   },
   {
     "id": "tulasI-vivAhaH",
@@ -2655,7 +2847,9 @@
     "kala": "arunodaya",
     "priority": "paraviddha",
     "tags": "special-snanam",
-    "description_short": "Perform snana four ghatikas before sunrise (during `aruNodayam`, when the Moon is still up, on the full-moon days of `ASADha`, `kArtika`, `mAgha` and `vaizAkha` \u2013 hence the name `A-kA-mA-vai`) bestows strength, beauty, fame, dharma, knowledge, happiness, fortitude and health.",
+    "description_short": {
+      "en": "Perform snana four ghatikas before sunrise (during `aruNodayam`, when the Moon is still up, on the full-moon days of `ASADha`, `kArtika`, `mAgha` and `vaizAkha` \u2013 hence the name `A-kA-mA-vai`) bestows strength, beauty, fame, dharma, knowledge, happiness, fortitude and health."
+    },
     "references_secondary": ["Vaidikasri"],
     "references_primary": ["Satyavrata Smriti"]
   },
@@ -3565,7 +3759,9 @@
     "angam_type": "tithi",
     "angam_number": 11,
     "tags": "manvadi-days",
-    "description_short": "Paramahamsa described Him as \"walking Shiva of Varanasi\""
+    "description_short": {
+      "en": "Paramahamsa described Him as \"walking Shiva of Varanasi\""
+    }
   },
   {
     "id": "gItA~jayantI",
@@ -3598,7 +3794,9 @@
     "angam_type": "tithi",
     "angam_number": 6,
     "tags": "special-pujas",
-    "description_short": "Have darshan of Shivalingam today; removes Shivapachara doshas in the family.",
+    "description_short": {
+      "en": "Have darshan of Shivalingam today; removes Shivapachara doshas in the family."
+    },
     "shlokas": ["mArgazIrSE'malE pakSE SaSThyAM vArEM'zumAlinaH .\nzatatArAgatE candrE liGgaM syAddRSTigOcaram ."]
   },
   {
@@ -3610,7 +3808,9 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "other-avatarams,special-pujas,common-festivals",
-    "description_short": "Birth of Surya to Aditya-Kashyapa on this day.",
+    "description_short": {
+      "en": "Birth of Surya to Aditya-Kashyapa on this day."
+    },
     "shlokas": ["adityAM kazyapAjjajJE mitrO nAma divAkaraH.\nsaptamyAM tEna sA khyAtA lOkE'smin mitrasaptamI.."]
   },
   {
@@ -3655,7 +3855,9 @@
     "angam_number": 15,
     "year_start": 2616,
     "tags": "adi-shankara-history",
-    "description_short": "Adi Shankara founded Jyotir Mutt, Badarinath in Rakshasa year Totakacharya as first"
+    "description_short": {
+      "en": "Adi Shankara founded Jyotir Mutt, Badarinath in Rakshasa year Totakacharya as first"
+    }
   },
   {
     "id": "zRGgErI zAradAmaTha-pratiSThApana~jayantI",
@@ -3665,7 +3867,9 @@
     "angam_number": 15,
     "year_start": 2618,
     "tags": "adi-shankara-history",
-    "description_short": "Adi Shankara founded Sharada Mutt, Shringeri in Pingala year Sureshwaracharya as first"
+    "description_short": {
+      "en": "Adi Shankara founded Sharada Mutt, Shringeri in Pingala year Sureshwaracharya as first"
+    }
   },
   {
     "id": "mArgazIrSa-pUrNimA",
@@ -3674,7 +3878,9 @@
     "angam_type": "tithi",
     "angam_number": 15,
     "tags": "purnima-days",
-    "description_short": "Do `dAnam` of salt, `sundararUpatvasiddhyartham`!",
+    "description_short": {
+      "en": "Do `dAnam` of salt, `sundararUpatvasiddhyartham`!"
+    },
     "references_secondary": ["Vaidikasri Dec 2016"]
   },
   {
@@ -3727,7 +3933,9 @@
     "angam_type": "tithi",
     "angam_number": 1,
     "tags": "navaratri,special-period-start",
-    "description_short": "Vanadurga Navaratri. Specially celebrated in Karthiramangalam."
+    "description_short": {
+      "en": "Vanadurga Navaratri. Specially celebrated in Karthiramangalam."
+    }
   },
   {
     "id": "zyAmaLAnavarAtri-ArambhaH",
@@ -3736,7 +3944,9 @@
     "angam_type": "tithi",
     "angam_number": 1,
     "tags": "navaratri,special-period-start",
-    "description_short": "Shyamala Devi specially blesses musicians; honour musicians in this period.",
+    "description_short": {
+      "en": "Shyamala Devi specially blesses musicians; honour musicians in this period."
+    },
     "references_secondary": ["Vaidikasri Feb 2016"]
   },
   {
@@ -3759,7 +3969,9 @@
     "angam_type": "tithi",
     "angam_number": 5,
     "tags": "special-pujas,purana-events",
-    "description_short": "Vishnu's boon to AdiSesha that humans will worship on this day."
+    "description_short": {
+      "en": "Vishnu's boon to AdiSesha that humans will worship on this day."
+    }
   },
   {
     "id": "zrIrAma-vanavAsa-gamanam",
@@ -3768,7 +3980,9 @@
     "angam_type": "tithi",
     "angam_number": 5,
     "tags": "purana-events",
-    "description_short": "Afternoon Shri Raama started to go to the forests/exile."
+    "description_short": {
+      "en": "Afternoon Shri Raama started to go to the forests/exile."
+    }
   },
   {
     "id": "vasanta-zrI-paJcamI",
@@ -3777,7 +3991,9 @@
     "angam_type": "tithi",
     "angam_number": 5,
     "tags": "special-pujas",
-    "description_short": "Worship Mahavishnu and Mahalakshmi, Rati Devi and Manmatha with jasmine flowers.",
+    "description_short": {
+      "en": "Worship Mahavishnu and Mahalakshmi, Rati Devi and Manmatha with jasmine flowers."
+    },
     "shlokas": ["mAghamAsE nRpazrESTha zuklAyAM paJcamItithau.\nratikAmau tu sampUjya kartavyaH sumahOtsavaH.."],
     "titles": "madana-paJcamI",
     "references_secondary": ["Vaidikasri Feb 2016"],
@@ -3790,7 +4006,9 @@
     "angam_type": "tithi",
     "angam_number": 5,
     "tags": "special-pujas",
-    "description_short": "Saraswati Puja, especially in Bengal.",
+    "description_short": {
+      "en": "Saraswati Puja, especially in Bengal."
+    },
     "references_secondary": ["http://hindupad.com/madana-panchami/"]
   },
   {
@@ -3817,7 +4035,9 @@
     "angam_number": 7,
     "year_start": 2611,
     "tags": "adi-shankara-history",
-    "description_short": "Adi Shankara founded Dwaraka Mutt in Sadharana year with HastamalakaAcharya as first"
+    "description_short": {
+      "en": "Adi Shankara founded Dwaraka Mutt in Sadharana year with HastamalakaAcharya as first"
+    }
   },
   {
     "id": "bhISmASTamI",
@@ -3828,7 +4048,9 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "special-pujas,common-festivals",
-    "description_short": "Bhishma obtained mukti on this day; offer tarpana to Bhishma (even those with parents). Brings health, long life and harmony in family.",
+    "description_short": {
+      "en": "Bhishma obtained mukti on this day; offer tarpana to Bhishma (even those with parents). Brings health, long life and harmony in family."
+    },
     "references_secondary": ["Vaidikasri Feb 2016"]
   },
   {
@@ -3838,7 +4060,9 @@
     "angam_type": "tithi",
     "angam_number": 9,
     "tags": "navaratri,special-period-end",
-    "description_short": "Vanadurga Navaratri. Specially celebrated in Karthiramangalam."
+    "description_short": {
+      "en": "Vanadurga Navaratri. Specially celebrated in Karthiramangalam."
+    }
   },
   {
     "id": "zyAmaLAnavarAtri-samApanam",
@@ -3855,7 +4079,9 @@
     "angam_type": "tithi",
     "angam_number": 9,
     "tags": "mahapurusha-events",
-    "description_short": "Brahmaikyam of Madhvacharya"
+    "description_short": {
+      "en": "Brahmaikyam of Madhvacharya"
+    }
   },
   {
     "id": "bhISma-dvAdazI",
@@ -3880,7 +4106,9 @@
     "angam_type": "tithi",
     "angam_number": 12,
     "tags": "special-pujas",
-    "description_short": "Mahavishnu created black til by extreme `tapas` on this day; light til deepam and offer `tilAnnam naivedyam`.",
+    "description_short": {
+      "en": "Mahavishnu created black til by extreme `tapas` on this day; light til deepam and offer `tilAnnam naivedyam`."
+    },
     "shlokas": ["mAghE tu zukladvAdazyAM yatO hi bhagavAn pura.\ntilAn utpAdayAmAsa tapaH kRtvA sudAruNam ..\ntilatailEna dIpAzcha dEyAh dEva gRhESu ca.\nnivEdayEt tilAnEva"],
     "references_secondary": ["Vaidikasri Feb 2016"]
   },
@@ -3899,7 +4127,9 @@
     "angam_type": "tithi",
     "angam_number": 15,
     "tags": "common-festivals,dashamahavidya",
-    "description_short": "Goddess Lalita is 3rd of the Dasha Maha Vidyas."
+    "description_short": {
+      "en": "Goddess Lalita is 3rd of the Dasha Maha Vidyas."
+    }
   },
   {
     "id": "mAgha-pUrNimA-snAnam",
@@ -3910,7 +4140,9 @@
     "kala": "arunodaya",
     "priority": "paraviddha",
     "tags": "special-snanam",
-    "description_short": "Perform snana four ghatikas before sunrise (during `aruNodayam`, when the Moon is still up, on the full-moon days of `ASADha`, `kArtika`, `mAgha` and `vaizAkha` \u2013 hence the name `A-kA-mA-vai`) bestows strength, beauty, fame, dharma, knowledge, happiness, fortitude and health.",
+    "description_short": {
+      "en": "Perform snana four ghatikas before sunrise (during `aruNodayam`, when the Moon is still up, on the full-moon days of `ASADha`, `kArtika`, `mAgha` and `vaizAkha` \u2013 hence the name `A-kA-mA-vai`) bestows strength, beauty, fame, dharma, knowledge, happiness, fortitude and health."
+    },
     "references_secondary": ["Vaidikasri"],
     "references_primary": ["Satyavrata Smriti"]
   },
@@ -3923,7 +4155,9 @@
     "kala": "aparahna",
     "priority": "purvaviddha",
     "tags": "yugadi-days",
-    "description_short": "Perform Samudra Snanam and Shraddha"
+    "description_short": {
+      "en": "Perform Samudra Snanam and Shraddha"
+    }
   },
   {
     "id": "kalpAdi~1",
@@ -3934,7 +4168,9 @@
     "kala": "aparahna",
     "priority": "purvaviddha",
     "tags": "kalpadi-days",
-    "description_short": "Kalpadi"
+    "description_short": {
+      "en": "Kalpadi"
+    }
   },
   {
     "id": "kalpAdi~2",
@@ -3945,7 +4181,9 @@
     "kala": "aparahna",
     "priority": "purvaviddha",
     "tags": "kalpadi-days",
-    "description_short": "Kalpadi"
+    "description_short": {
+      "en": "Kalpadi"
+    }
   },
   {
     "id": "kalpAdi~3",
@@ -3956,7 +4194,9 @@
     "kala": "aparahna",
     "priority": "purvaviddha",
     "tags": "kalpadi-days",
-    "description_short": "Kalpadi"
+    "description_short": {
+      "en": "Kalpadi"
+    }
   },
   {
     "id": "kalpAdi~4",
@@ -3967,7 +4207,9 @@
     "kala": "aparahna",
     "priority": "purvaviddha",
     "tags": "kalpadi-days",
-    "description_short": "Kalpadi"
+    "description_short": {
+      "en": "Kalpadi"
+    }
   },
   {
     "id": "kalpAdi~5",
@@ -3978,7 +4220,9 @@
     "kala": "aparahna",
     "priority": "purvaviddha",
     "tags": "kalpadi-days",
-    "description_short": "Kalpadi"
+    "description_short": {
+      "en": "Kalpadi"
+    }
   },
   {
     "id": "kalpAdi~6",
@@ -3989,7 +4233,9 @@
     "kala": "aparahna",
     "priority": "purvaviddha",
     "tags": "kalpadi-days",
-    "description_short": "Kalpadi"
+    "description_short": {
+      "en": "Kalpadi"
+    }
   },
   {
     "id": "brahma-kalpAdi",
@@ -4000,7 +4246,9 @@
     "kala": "aparahna",
     "priority": "purvaviddha",
     "tags": "kalpadi-days",
-    "description_short": "Brahma Kalpadi"
+    "description_short": {
+      "en": "Brahma Kalpadi"
+    }
   },
   {
     "id": "mahAzivarAtriH",
@@ -4011,7 +4259,9 @@
     "kala": "nishita",
     "priority": "paraviddha",
     "tags": "common-festivals",
-    "description_short": "All related events e.g. kAmadahanam"
+    "description_short": {
+      "en": "All related events e.g. kAmadahanam"
+    }
   },
   {
     "id": "rAmakRSNa-paramahaMsa~jayantI",
@@ -4163,7 +4413,9 @@
     "kala": "sunrise",
     "priority": "purvaviddha",
     "tags": "special-pujas",
-    "description_short": "Perform `homa' with fresh rice from paddy.",
+    "description_short": {
+      "en": "Perform `homa' with fresh rice from paddy."
+    },
     "references_secondary": ["Vaidikasri Nov 2017"]
   },
   {
@@ -4175,7 +4427,9 @@
     "kala": "sunrise",
     "priority": "purvaviddha",
     "tags": "special-pujas",
-    "description_short": "Perform `homa' with fresh rice from paddy.",
+    "description_short": {
+      "en": "Perform `homa' with fresh rice from paddy."
+    },
     "references_secondary": ["Vaidikasri Nov 2017"]
   },
   {
@@ -4187,7 +4441,9 @@
     "kala": "sunrise",
     "priority": "purvaviddha",
     "tags": "special-pujas",
-    "description_short": "Perform `homa' with fresh rice from paddy.",
+    "description_short": {
+      "en": "Perform `homa' with fresh rice from paddy."
+    },
     "references_secondary": ["Vaidikasri Nov 2017"]
   },
   {
@@ -4199,7 +4455,9 @@
     "kala": "sunrise",
     "priority": "purvaviddha",
     "tags": "special-pujas",
-    "description_short": "Perform `homa' with fresh rice from paddy.",
+    "description_short": {
+      "en": "Perform `homa' with fresh rice from paddy."
+    },
     "references_secondary": ["Vaidikasri Nov 2017"]
   },
   {
@@ -4212,7 +4470,9 @@
     "priority": "purvaviddha",
     "year_start": 5071,
     "tags": "mahapurusha-events",
-    "description_short": "Aradhana Day of Sri Anantarama Dikshitar.",
+    "description_short": {
+      "en": "Aradhana Day of Sri Anantarama Dikshitar."
+    },
     "references_secondary": ["Vaidikasri Nov 2017"]
   },
   {
@@ -4279,7 +4539,9 @@
     "angam_type": "nakshatram",
     "angam_number": 3,
     "tags": "tamilnadu-temple-festivals",
-    "description_short": "Special puja for Subrahmanya Swami in temples."
+    "description_short": {
+      "en": "Special puja for Subrahmanya Swami in temples."
+    }
   },
   {
     "id": "ta:vaikAci~vizAkham",
@@ -4288,7 +4550,9 @@
     "angam_type": "nakshatram",
     "angam_number": 16,
     "tags": "tamilnadu-temple-festivals",
-    "description_short": "Special puja for Subrahmanya Swami in temples. Birth of Subrahmanya Swami. Worship Him with red flowers."
+    "description_short": {
+      "en": "Special puja for Subrahmanya Swami in temples. Birth of Subrahmanya Swami. Worship Him with red flowers."
+    }
   },
   {
     "id": "ta:tirunelvEli nellaiyappar patra dIpa tiruvizhA",
@@ -4381,7 +4645,9 @@
     "angam_type": "nakshatram",
     "angam_number": 6,
     "tags": "tamilnadu-temple-festivals,common-festivals",
-    "description_short": "Visit Chidambaram to have darshan of Nataraja, or pray to Nataraja",
+    "description_short": {
+      "en": "Visit Chidambaram to have darshan of Nataraja, or pray to Nataraja"
+    },
     "shlokas": ["kRpAsamudram sumukhaM trinEtraM sadAzivaM rudramanantarUpam .\njaTAdharaM pArvativAmabhAgaM cidambarEzaM hRdi bhAvayAmi .."]
   },
   {
@@ -4400,7 +4666,9 @@
     "angam_number": 1,
     "year_start": 4648,
     "tags": "mahapurusha-events",
-    "description_short": "Poonthanam, a great devotee of Guruvayurappan, enriched Malayalam devotional literature with his renowned poetic composition 'Jnanapana', a philosophical work of all times. On this day, recital of Poonthanam's works and debate takes place. A one week literary festival is conducted at Poonthanam illam."
+    "description_short": {
+      "en": "Poonthanam, a great devotee of Guruvayurappan, enriched Malayalam devotional literature with his renowned poetic composition 'Jnanapana', a philosophical work of all times. On this day, recital of Poonthanam's works and debate takes place. A one week literary festival is conducted at Poonthanam illam."
+    }
   },
   {
     "id": "ramaNa~maharSi~jayantI",
@@ -4482,7 +4750,9 @@
     "angam_type": "day",
     "angam_number": 18,
     "tags": "tamilnadu-temple-festivals",
-    "description_short": "Offer naivedyam of citrAnnam"
+    "description_short": {
+      "en": "Offer naivedyam of citrAnnam"
+    }
   },
   {
     "id": "ta:mayilai~veLLIzvarar~brahmOtsavam",
@@ -4491,7 +4761,9 @@
     "angam_type": "day",
     "angam_number": 8,
     "tags": "tamilnadu-temple-festivals",
-    "description_short": "Enactment of restoration of eyesight of Shukracharya."
+    "description_short": {
+      "en": "Enactment of restoration of eyesight of Shukracharya."
+    }
   },
   {
     "id": "kRttikA-maNDala-pArAyaNam",
@@ -4500,7 +4772,9 @@
     "angam_type": "day",
     "angam_number": 1,
     "tags": "special-period-start",
-    "description_short": "Conduct veda parayanam in the evening, on one of these 48 days."
+    "description_short": {
+      "en": "Conduct veda parayanam in the evening, on one of these 48 days."
+    }
   },
   {
     "id": "ta:undu~madakkaLir2r2an2{}",
@@ -4509,7 +4783,9 @@
     "angam_type": "day",
     "angam_number": 18,
     "tags": "tamil-festivals",
-    "description_short": "Offer naivedyam of `citrAnnam` (tamarind rice) to Vishnu"
+    "description_short": {
+      "en": "Offer naivedyam of `citrAnnam` (tamarind rice) to Vishnu"
+    }
   },
   {
     "id": "ta:kUDAravallI",
@@ -4518,7 +4794,9 @@
     "angam_type": "day",
     "angam_number": 27,
     "tags": "tamil-festivals",
-    "description_short": "Offer naivedyam of `gudAnnam` to Vishnu, as mentioned in the Tiruppavai 27"
+    "description_short": {
+      "en": "Offer naivedyam of `gudAnnam` to Vishnu, as mentioned in the Tiruppavai 27"
+    }
   },
   {
     "id": "nArAyaNIyaM~jayantI",
@@ -4528,7 +4806,9 @@
     "angam_number": 28,
     "year_start": 3863,
     "tags": "other-jayantis",
-    "description_short": "Celebration of completion of Narayaniyam (762 CE), in Guruvayur temple."
+    "description_short": {
+      "en": "Celebration of completion of Narayaniyam (762 CE), in Guruvayur temple."
+    }
   },
   {
     "id": "ta:kar2avaigaL pin2cen2r2u",
@@ -4537,7 +4817,9 @@
     "angam_type": "day",
     "angam_number": 28,
     "tags": "tamil-festivals",
-    "description_short": "Offer naivedyam of `dadhyodanam` to Vishnu, for Tiruppavai 28"
+    "description_short": {
+      "en": "Offer naivedyam of `dadhyodanam` to Vishnu, for Tiruppavai 28"
+    }
   },
   {
     "id": "makara-jyOtiH",
@@ -4546,7 +4828,9 @@
     "angam_type": "day",
     "angam_number": 1,
     "tags": "kerala-temple-festivals",
-    "description_short": "Darshan of Makara Jyoti in Sabarimala Ayyappa Temple."
+    "description_short": {
+      "en": "Darshan of Makara Jyoti in Sabarimala Ayyappa Temple."
+    }
   },
   {
     "id": "vizvakarmA~jayantI",
@@ -4571,7 +4855,9 @@
     "angam_type": "day",
     "angam_number": 1,
     "tags": "sun-sankranti",
-    "description_short": "Perform danam of clothes, food and water.",
+    "description_short": {
+      "en": "Perform danam of clothes, food and water."
+    },
     "shlokas": ["vastrAnnapAnadAnAni mithunE vihitAni tu.."]
   },
   {
@@ -4589,7 +4875,9 @@
     "angam_type": "day",
     "angam_number": 1,
     "tags": "sun-sankranti",
-    "description_short": "Perform danam of ghee, milk vessel, \"ghee cow\" and fruits.",
+    "description_short": {
+      "en": "Perform danam of ghee, milk vessel, \"ghee cow\" and fruits."
+    },
     "shlokas": ["ghRtaM ca kSIrakumbhazca ghRtadhEnu phalAni ca.\nzrAvaNE zrIdharaprItyai dAtavyAni vipazcitA.."]
   },
   {
@@ -4599,7 +4887,9 @@
     "angam_type": "day",
     "angam_number": 1,
     "tags": "sun-sankranti",
-    "description_short": "Perform danam of clothes/place to live.",
+    "description_short": {
+      "en": "Perform danam of clothes/place to live."
+    },
     "shlokas": ["kanyApravEzE vastrANAM vEzmanAM dAnamEva ca"]
   },
   {
@@ -4609,7 +4899,9 @@
     "angam_type": "day",
     "angam_number": 1,
     "tags": "sun-sankranti",
-    "description_short": "Perform danam of rice/wheat/grains and cow ghee/curd etc.",
+    "description_short": {
+      "en": "Perform danam of rice/wheat/grains and cow ghee/curd etc."
+    },
     "shlokas": ["tulApravEzE dhAnyAnAM gOrasAnAmapISTadam"]
   },
   {
@@ -4619,7 +4911,9 @@
     "angam_type": "day",
     "angam_number": 1,
     "tags": "sun-sankranti",
-    "description_short": "Do danam of deepam."
+    "description_short": {
+      "en": "Do danam of deepam."
+    }
   },
   {
     "id": "SaDazIti-dhanurraviH",
@@ -4628,7 +4922,9 @@
     "angam_type": "day",
     "angam_number": 1,
     "tags": "sun-sankranti",
-    "description_short": "Perform danam of clothes/vehicle (e.g. bullock cart).",
+    "description_short": {
+      "en": "Perform danam of clothes/vehicle (e.g. bullock cart)."
+    },
     "shlokas": ["dhanuHpravEzE vastrANAM yAnAnAM ca mahAphalam "]
   },
   {
@@ -4646,7 +4942,9 @@
     "angam_type": "day",
     "angam_number": 1,
     "tags": "sun-sankranti",
-    "description_short": "Perform danam of hay, grass, food and pure water to cows.",
+    "description_short": {
+      "en": "Perform danam of hay, grass, food and pure water to cows."
+    },
     "shlokas": ["kumbhapravEzE dAnaM tu gavaM ambu tRNasya ca"]
   },
   {
@@ -4681,7 +4979,9 @@
     "angam_type": "tithi",
     "angam_number": 2,
     "tags": "less-common-festivals,special-pujas",
-    "description_short": "VasudevaPooja, ChandraArghya, Naktam"
+    "description_short": {
+      "en": "VasudevaPooja, ChandraArghya, Naktam"
+    }
   },
   {
     "id": "madhuzrAvaNi-vratam",
@@ -4698,7 +4998,9 @@
     "angam_type": "tithi",
     "angam_number": 6,
     "tags": "special-vratams",
-    "description_short": "Shiva Puja"
+    "description_short": {
+      "en": "Shiva Puja"
+    }
   },
   {
     "id": "pApanAzanI~saptamI",
@@ -4723,7 +5025,9 @@
     "angam_type": "tithi",
     "angam_number": 7,
     "tags": "special-pujas",
-    "description_short": "Surya Puja, Danam to please Surya Bhagavan"
+    "description_short": {
+      "en": "Surya Puja, Danam to please Surya Bhagavan"
+    }
   },
   {
     "id": "durgA-vrata-ArambhaH",
@@ -4748,7 +5052,9 @@
     "angam_type": "tithi",
     "angam_number": 10,
     "tags": "less-common-festivals,special-pujas",
-    "description_short": "Puja of `AzA devI (pArvatI)`"
+    "description_short": {
+      "en": "Puja of `AzA devI (pArvatI)`"
+    }
   },
   {
     "id": "vEda/dadhi-vrata-ArambhaH",
@@ -4757,7 +5063,9 @@
     "angam_type": "tithi",
     "angam_number": 10,
     "tags": "special-vratams,vratam-start,special-period-start",
-    "description_short": "Shiva Puja with `gandham`"
+    "description_short": {
+      "en": "Shiva Puja with `gandham`"
+    }
   },
   {
     "id": "dAmOdara-dvAdazI",
@@ -4766,7 +5074,9 @@
     "angam_type": "tithi",
     "angam_number": 12,
     "tags": "special-pujas",
-    "description_short": "Perform Vishnu Pratima Danam, Sridhara Puja"
+    "description_short": {
+      "en": "Perform Vishnu Pratima Danam, Sridhara Puja"
+    }
   },
   {
     "id": "anaGga-trayOdazI",
@@ -4783,7 +5093,9 @@
     "angam_type": "tithi",
     "angam_number": 15,
     "tags": "devata-pujas",
-    "description_short": "Offer coconut to sea God Varuna",
+    "description_short": {
+      "en": "Offer coconut to sea God Varuna"
+    },
     "titles": "nAralI-pUrNimA"
   },
   {
@@ -4793,7 +5105,9 @@
     "angam_type": "tithi",
     "angam_number": 15,
     "tags": "purnima-days,common-festivals",
-    "description_short": "Rakshabandhanam"
+    "description_short": {
+      "en": "Rakshabandhanam"
+    }
   },
   {
     "id": "ta:atipatta nAyan2Ar gurupUjai",
@@ -5529,7 +5843,9 @@
     "angam_type": "tithi",
     "angam_number": 30,
     "tags": "mahapurusha-events,tamilnadu-temple-festivals",
-    "description_short": "Thiruvisanallur Sridhara Aiyyaval brought Ganga to his house well on this day! See also http://www.sriayyaval.org/ .  ",
+    "description_short": {
+      "en": "Thiruvisanallur Sridhara Aiyyaval brought Ganga to his house well on this day! See also http://www.sriayyaval.org/ .  "
+    },
     "shlokas": ["IzE tasya ca nAmani pravimalaM jJAnaM tayOrUrjitam\nprEma prEma ca tatparESu viratizcAnyatra sarvatra ca.\nIzEkSA karuNA ca yasya niyatA vRttiH zritasyApi yam\ntaM vandE nararUpamantakaripuM zrIvEGkaTEzaM gurum.."]
   },
   {
@@ -5583,7 +5899,9 @@
     "angam_type": "tithi",
     "angam_number": 2,
     "tags": "andhra-temple-festivals",
-    "description_short": "Satyanarayana Swami Jayanti is celebrated in Annavaram Satya Narayana Temple, Andhra Pradesh",
+    "description_short": {
+      "en": "Satyanarayana Swami Jayanti is celebrated in Annavaram Satya Narayana Temple, Andhra Pradesh"
+    },
     "references_secondary": ["http://hindupad.com/satyanarayana-swamy-jayanti-in-annavaram-satyanarayana-swamy-temple/"]
   },
   {
@@ -5602,7 +5920,9 @@
     "angam_type": "tithi",
     "angam_number": 8,
     "tags": "dashamahavidya",
-    "description_short": "Goddess Bagalamukhi is 8th of the Dasha Maha Vidyas.",
+    "description_short": {
+      "en": "Goddess Bagalamukhi is 8th of the Dasha Maha Vidyas."
+    },
     "titles": "pItAmbara-jayantI",
     "references_secondary": ["http://hindupad.com/bagalamukhi-jayanti-bhagalamukhi-jayanthi-pitambara-jayanti/"]
   },
@@ -5712,7 +6032,9 @@
     "angam_type": "tithi",
     "angam_number": 8,
     "tags": "dashamahavidya",
-    "description_short": "Goddess Dhumavati is 7th of the Dasha Maha Vidyas.",
+    "description_short": {
+      "en": "Goddess Dhumavati is 7th of the Dasha Maha Vidyas."
+    },
     "references_secondary": ["http://hindupad.com/dhumavati-jayanti-maa-dhumavathi-jayanthi/"]
   },
   {
@@ -5757,7 +6079,9 @@
     "angam_type": "tithi",
     "angam_number": 15,
     "tags": "dashamahavidya",
-    "description_short": "Goddess Chinnmasta is 6th of the Dasha Maha Vidyas."
+    "description_short": {
+      "en": "Goddess Chinnmasta is 6th of the Dasha Maha Vidyas."
+    }
   },
   {
     "id": "nimiSAmbA~jayantI",
@@ -5782,7 +6106,9 @@
     "angam_type": "tithi",
     "angam_number": 15,
     "tags": "dashamahavidya",
-    "description_short": "Goddess Tripura Bhairavi is 5th of the Dasha Maha Vidyas."
+    "description_short": {
+      "en": "Goddess Tripura Bhairavi is 5th of the Dasha Maha Vidyas."
+    }
   },
   {
     "id": "mahAtArA~jayantI",
@@ -5793,7 +6119,9 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "dashamahavidya",
-    "description_short": "Goddess Mahatara is 2nd of the Dasha Maha Vidyas."
+    "description_short": {
+      "en": "Goddess Mahatara is 2nd of the Dasha Maha Vidyas."
+    }
   },
   {
     "id": "kamalA~jayantI",
@@ -5802,6 +6130,8 @@
     "angam_type": "tithi",
     "angam_number": 30,
     "tags": "dashamahavidya",
-    "description_short": "Goddess Kamala is 10th of the Dasha Maha Vidyas."
+    "description_short": {
+      "en": "Goddess Kamala is 10th of the Dasha Maha Vidyas."
+    }
   }
 ]

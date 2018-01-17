@@ -6,13 +6,17 @@
   {
     "id": "kumAra-SaSThI-vratam",
     "tags": "monthly-vratams,shashthi-vratam-days",
-    "description_short": "`upavAsam` with only water and next day `pAraNa` gives `Arogyam`",
+    "description_short": {
+      "en": "`upavAsam` with only water and next day `pAraNa` gives `Arogyam`"
+    },
     "shlokas": ["ASADha zuklaSaSThI tu tithiH kaumArilA smRtA.\nkumAramarcayEttatra pUrvatrOpESya vai dinam.."]
   },
   {
     "id": "SaSThIdEvI-SaSThI-vratam",
     "tags": "monthly-vratams,shashthi-vratam-days",
-    "description_short": "Skanda darshanam is recommended, removes sins including brahmahatya.",
+    "description_short": {
+      "en": "Skanda darshanam is recommended, removes sins including brahmahatya."
+    },
     "shlokas": ["yO'syAM pazyati gAGgEyaM dakSiNApathavAsinam .\nbrahmahatyAdi pApaistu mucyatE nAtra saMzayaH .."]
   },
   {
@@ -22,48 +26,64 @@
   {
     "id": "subrahmaNya-SaSThI-vratam",
     "tags": "monthly-vratams,shashthi-vratam-days",
-    "description_short": "Also known as `campA/campaka SaSThI`",
+    "description_short": {
+      "en": "Also known as `campA/campaka SaSThI`"
+    },
     "shlokas": ["sEnAvidAraka skanda mahAsEna mahAbala.\nrudrOmAgnija SaDvaktra gaGgAgarbha namO'stu tE.."]
   },
   {
     "id": "bhAnusaptamI",
     "tags": "rare-days",
-    "description_short": "`saptamI tithi` on a Sunday is as sacred as a solar eclipse. Particularly good for worshipping Surya. ",
+    "description_short": {
+      "en": "`saptamI tithi` on a Sunday is as sacred as a solar eclipse. Particularly good for worshipping Surya. "
+    },
     "shlokas": ["amAvasyA tu sOmEna saptamI bhAnunA saha.\ncaturthI bhUmiputrENa sOmaputrENa cASTamI.\n catasrastithayastvEtAH sUryagrahaNasannibhAH.."]
   },
   {
     "id": "bhAnusaptamI*",
     "tags": "rare-days",
-    "description_short": "`saptamI tithi` on a Sunday is as sacred as a solar eclipse. Particularly good for worshipping Surya. Today is even more auspicious, as it is associated with `revatI` star.",
+    "description_short": {
+      "en": "`saptamI tithi` on a Sunday is as sacred as a solar eclipse. Particularly good for worshipping Surya. Today is even more auspicious, as it is associated with `revatI` star."
+    },
     "shlokas": ["amAvasyA tu sOmEna saptamI bhAnunA saha.\ncaturthI bhUmiputrENa sOmaputrENa cASTamI.\n catasrastithayastvEtAH sUryagrahaNasannibhAH.."]
   },
   {
     "id": "budhASTamI",
     "tags": "rare-days",
-    "description_short": "`aSTamI tithi` on a Wednesday is as sacred as a solar eclipse. ",
+    "description_short": {
+      "en": "`aSTamI tithi` on a Wednesday is as sacred as a solar eclipse. "
+    },
     "shlokas": ["amAvasyA tu sOmEna saptamI bhAnunA saha.\ncaturthI bhUmiputrENa sOmaputrENa cASTamI.\n catasrastithayastvEtAH sUryagrahaNasannibhAH.."]
   },
   {
     "id": "aGgAraka-caturthI",
     "tags": "rare-days",
-    "description_short": "`caturthI tithi` on a Tuesday is as sacred as a solar eclipse. Good day for doing puja of Ganesha/Subrahmanya with naivedyam of modakam/millet flour respectively.",
+    "description_short": {
+      "en": "`caturthI tithi` on a Tuesday is as sacred as a solar eclipse. Good day for doing puja of Ganesha/Subrahmanya with naivedyam of modakam/millet flour respectively."
+    },
     "shlokas": ["amAvasyA tu sOmEna saptamI bhAnunA saha.\ncaturthI bhUmiputrENa sOmaputrENa cASTamI.\n catasrastithayastvEtAH sUryagrahaNasannibhAH.."]
   },
   {
     "id": "kRSNAGgAraka-caturdazI-puNyakAlaH/yamatarpaNam",
     "tags": "rare-days",
-    "description_short": "`kRSNa caturdazI tithi` on a Tuesday is very sacred. Perform `tarpaNa` to Yama Dharamaraja."
+    "description_short": {
+      "en": "`kRSNa caturdazI tithi` on a Tuesday is very sacred. Perform `tarpaNa` to Yama Dharamaraja."
+    }
   },
   {
     "id": "sOma-amAvasyA",
     "tags": "rare-days,amavasya-days",
-    "description_short": "`amAvasyA` on a Monday is as sacred as a solar eclipse. Particularly good for performing pradakshinam of Pippala tree.",
+    "description_short": {
+      "en": "`amAvasyA` on a Monday is as sacred as a solar eclipse. Particularly good for performing pradakshinam of Pippala tree."
+    },
     "shlokas": ["amAvasyA tu sOmEna saptamI bhAnunA saha.\ncaturthI bhUmiputrENa sOmaputrENa cASTamI.\n catasrastithayastvEtAH sUryagrahaNasannibhAH.. mUlatO brahmarUpAya madhyatO viSNurUpiNE.\nagrataH zivarUpAya vRkSarAjAya tE namaH..\nakSispandaM bhujaspandaM duHsvapnaM durvicintanam .\n zatrUnAm ca samutpannam azvattha zamayasva mE .."]
   },
   {
     "id": "candra-darzanam",
     "tags": "chandra-darshanam",
-    "description_short": "Have darshan of Moon today, chanting the following shloka",
+    "description_short": {
+      "en": "Have darshan of Moon today, chanting the following shloka"
+    },
     "shlokas": ["zvEtAmbaraH zvEtavibhUSaNazca zvEtadyutirdaNDadharO dvibAhuH.\ncandrO'mRtAtmA varadaH kirITI mayi prasAdaM vidadhAtu dEvaH.."]
   },
   {
@@ -73,7 +93,9 @@
   {
     "id": "ajA-EkAdazI",
     "tags": "monthly-vratams,ekadashi-vratam-days",
-    "description_short": "Satya Harishchandra performed this to get back family and kingdom."
+    "description_short": {
+      "en": "Satya Harishchandra performed this to get back family and kingdom."
+    }
   },
   {
     "id": "AmalakI-EkAdazI",
@@ -102,7 +124,9 @@
   {
     "id": "indirA-EkAdazI",
     "tags": "monthly-vratams,ekadashi-vratam-days",
-    "description_short": "Indrasena's son did Ekadashi and as a result he was shifted from hell to heaven."
+    "description_short": {
+      "en": "Indrasena's son did Ekadashi and as a result he was shifted from hell to heaven."
+    }
   },
   {
     "id": "padminI-EkAdazI",
@@ -136,7 +160,9 @@
   {
     "id": "kucEla-dinam",
     "tags": "purana-events",
-    "description_short": "Celebrated especially in Kerala/Guruvayur."
+    "description_short": {
+      "en": "Celebrated especially in Kerala/Guruvayur."
+    }
   },
   {
     "id": "mAgha-amAvasyA",
@@ -173,7 +199,9 @@
   {
     "id": "zayana-EkAdazI",
     "tags": "monthly-vratams,ekadashi-vratam-days",
-    "description_short": "Lord Vishnu goes to sleep.",
+    "description_short": {
+      "en": "Lord Vishnu goes to sleep."
+    },
     "shlokas": ["vAsudEva jagadyOnE prAptEyaM dvAdazI tava.\nbhujaGgazayanE'bdhau ca sukhaM svapihi mAdhava..\niyaM tu dvAdazI dEva zayanArthaM vinirmita .\nasyAM suptE jagannAthE jagatsuptaM bhavEdidam ..\nvibuddhE tvayi buddhyEta sarvamEtaccarAcaram .."],
     "titles": "padmA ekAdazI\ndevazayanI ekAdazI"
   },
@@ -192,7 +220,9 @@
   {
     "id": "parivartinI-EkAdazI",
     "tags": "monthly-vratams,ekadashi-vratam-days",
-    "description_short": "Side ways turn inside sleep of Vishnu midway after Shayana Ekadashi.",
+    "description_short": {
+      "en": "Side ways turn inside sleep of Vishnu midway after Shayana Ekadashi."
+    },
     "shlokas": ["vAsudEva jagannAtha prAptEyaM dvAdazI tava.\n pArzvEna parivartasva sukhaM svapihi mAdhava.."]
   },
   {
@@ -222,7 +252,9 @@
   {
     "id": "saGkaTahara-caturthI-vratam",
     "tags": "monthly-vratams,sankatahara-chaturthi-vratam-days",
-    "description_short": "Special vrata day for Ganesha. Fast during the day and pray to Ganesha after moonrise, as follows:",
+    "description_short": {
+      "en": "Special vrata day for Ganesha. Fast during the day and pray to Ganesha after moonrise, as follows:"
+    },
     "shlokas": ["gaNAdhipastvaM dEvEza caturthyAM pUjitO mayA.\nkaSTAn mAM mOcayEzAna sarvamiSTaM ca dEhi mE.."]
   },
   {
@@ -268,13 +300,17 @@
   {
     "id": "vijayA~bhAnusaptamI",
     "tags": "rare-days",
-    "description_short": "`saptamI tithi` on a Sunday is as sacred as a solar eclipse. Particularly good for worshipping Surya. When `zukla saptamI` is present at sunrise, it is called `vijayA`.",
+    "description_short": {
+      "en": "`saptamI tithi` on a Sunday is as sacred as a solar eclipse. Particularly good for worshipping Surya. When `zukla saptamI` is present at sunrise, it is called `vijayA`."
+    },
     "shlokas": ["amAvasyA tu sOmEna saptamI bhAnunA saha.\ncaturthI bhUmiputrENa sOmaputrENa cASTamI.\n catasrastithayastvEtAH sUryagrahaNasannibhAH.."]
   },
   {
     "id": "vijayA~bhAnusaptamI*",
     "tags": "rare-days",
-    "description_short": "`saptamI tithi` on a Sunday is as sacred as a solar eclipse. Particularly good for worshipping Surya. When `zukla saptamI` is present at sunrise, it is called `vijayA`.",
+    "description_short": {
+      "en": "`saptamI tithi` on a Sunday is as sacred as a solar eclipse. Particularly good for worshipping Surya. When `zukla saptamI` is present at sunrise, it is called `vijayA`."
+    },
     "shlokas": ["amAvasyA tu sOmEna saptamI bhAnunA saha.\ncaturthI bhUmiputrENa sOmaputrENa cASTamI.\n catasrastithayastvEtAH sUryagrahaNasannibhAH.."]
   },
   {
@@ -304,7 +340,9 @@
   {
     "id": "bhaumAzvinI-puNyakAlaH",
     "tags": "rare-days",
-    "description_short": "When Ashwini nakshatram falls on a Tuesday, it is a special `puNyakAlaH`. Do `upAsanA` of Lakshmi Narasimha."
+    "description_short": {
+      "en": "When Ashwini nakshatram falls on a Tuesday, it is a special `puNyakAlaH`. Do `upAsanA` of Lakshmi Narasimha."
+    }
   },
   {
     "id": "ASADha (kaTaka) amAvasyA",
@@ -317,7 +355,9 @@
   {
     "id": "budhAnUrAdhA-puNyakAlaH",
     "tags": "rare-days",
-    "description_short": "When Anuradha nakshatram falls on a Wednesday, it is a special `puNyakAlaH` for performing danams. One can do dAnaM of dadhyodanam in Vishnu temples on this day."
+    "description_short": {
+      "en": "When Anuradha nakshatram falls on a Wednesday, it is a special `puNyakAlaH` for performing danams. One can do dAnaM of dadhyodanam in Vishnu temples on this day."
+    }
   },
   {
     "id": "gajacchAyA-yOgam",
@@ -342,12 +382,16 @@
   {
     "id": "ta:AvaNi~JAyir2r2ukkizhamai",
     "tags": "month-weekday-festivals",
-    "description_short": "Do puja to Surya/Suryanamaskaram."
+    "description_short": {
+      "en": "Do puja to Surya/Suryanamaskaram."
+    }
   },
   {
     "id": "ta:kArttigai~JAyir2r2ukkizhamai",
     "tags": "month-weekday-festivals",
-    "description_short": "Do puja to Surya/Suryanamaskaram."
+    "description_short": {
+      "en": "Do puja to Surya/Suryanamaskaram."
+    }
   },
   {
     "id": "ta:kArttigai~sOmavAram",
@@ -364,23 +408,31 @@
   {
     "id": "ta:mAci~cevvAy",
     "tags": "tamil-month-vratams,special-vratams",
-    "description_short": "Do `upavAsam` (at least do not take salt) and pray to Lord Shiva (Vaidyanatha Swami)."
+    "description_short": {
+      "en": "Do `upavAsam` (at least do not take salt) and pray to Lord Shiva (Vaidyanatha Swami)."
+    }
   },
   {
     "id": "ta:puraTTAci~can2ikkizhamai",
     "tags": "tamil-month-vratams,special-vratams",
-    "description_short": "Perform special puja and naivedyam (e.g. `tilAnnam`) to Lord Venkateshwara."
+    "description_short": {
+      "en": "Perform special puja and naivedyam (e.g. `tilAnnam`) to Lord Venkateshwara."
+    }
   },
   {
     "id": "*cUDAmaNi-candra-grahaNam",
     "tags": "rare-days",
-    "description_short": "When a lunar eclipse occurs on a Monday, it is even more special: `cUDAmaNi`, i.e. crest jewel.",
+    "description_short": {
+      "en": "When a lunar eclipse occurs on a Monday, it is even more special: `cUDAmaNi`, i.e. crest jewel."
+    },
     "references_secondary": ["Kielhorn, 1897"]
   },
   {
     "id": "*cUDAmaNi-sUrya-grahaNam",
     "tags": "rare-days",
-    "description_short": "When a solar eclipse occurs on a Sunday, it is even more special: `cUDAmaNi`, i.e. crest jewel.",
+    "description_short": {
+      "en": "When a solar eclipse occurs on a Sunday, it is even more special: `cUDAmaNi`, i.e. crest jewel."
+    },
     "references_secondary": ["Kielhorn, 1897"]
   },
   {
@@ -390,38 +442,52 @@
   {
     "id": "AyuSmAn-bava-saumya",
     "tags": "rare-days",
-    "description_short": "A rare combination of `AyuSmAn yOga, bava karaNa` and `saumyavAsara`. Also a source of the normal blessing 'AyuSmAn bava saumya'!",
+    "description_short": {
+      "en": "A rare combination of `AyuSmAn yOga, bava karaNa` and `saumyavAsara`. Also a source of the normal blessing 'AyuSmAn bava saumya'!"
+    },
     "references_secondary": ["Maha Periva / Deivattin Kural"]
   },
   {
     "id": "jayantI~mahAdvAdazI",
     "tags": "rare-days",
-    "description_short": "Dvadashi tithi, combined with Punarvasu nakshatram."
+    "description_short": {
+      "en": "Dvadashi tithi, combined with Punarvasu nakshatram."
+    }
   },
   {
     "id": "jayA~mahAdvAdazI",
     "tags": "rare-days",
-    "description_short": "Dvadashi tithi, combined with Pushya nakshatram."
+    "description_short": {
+      "en": "Dvadashi tithi, combined with Pushya nakshatram."
+    }
   },
   {
     "id": "mahAjayA~saptamI",
     "tags": "rare-days",
-    "description_short": "Saptami tithi, combined with a sankranti."
+    "description_short": {
+      "en": "Saptami tithi, combined with a sankranti."
+    }
   },
   {
     "id": "mahOdaya-puNyakAlaH",
     "tags": "rare-days",
-    "description_short": "A rare combination of Pausha masam, Shravana nakshatram, Vyatipata yogam and Monday."
+    "description_short": {
+      "en": "A rare combination of Pausha masam, Shravana nakshatram, Vyatipata yogam and Monday."
+    }
   },
   {
     "id": "ardhOdaya-puNyakAlaH",
     "tags": "rare-days",
-    "description_short": "A rare combination of Pausha masam, Shravana nakshatram, Vyatipata yogam and Sunday."
+    "description_short": {
+      "en": "A rare combination of Pausha masam, Shravana nakshatram, Vyatipata yogam and Sunday."
+    }
   },
   {
     "id": "pApanAzinI~mahAdvAdazI",
     "tags": "rare-days",
-    "description_short": "Dvadashi tithi, combined with Rohini nakshatram."
+    "description_short": {
+      "en": "Dvadashi tithi, combined with Rohini nakshatram."
+    }
   },
   {
     "id": "pauSa-amAvasyA",
@@ -430,27 +496,37 @@
   {
     "id": "vAruNI~trayOdazI",
     "tags": "rare-days",
-    "description_short": "Phalguna Krishna Chaturdashi, combined with Shatabhishak Nakshatram."
+    "description_short": {
+      "en": "Phalguna Krishna Chaturdashi, combined with Shatabhishak Nakshatram."
+    }
   },
   {
     "id": "mahAvAruNI~trayOdazI",
     "tags": "rare-days",
-    "description_short": "Phalguna Krishna Chaturdashi, combined with Shatabhishak Nakshatram and Saturday."
+    "description_short": {
+      "en": "Phalguna Krishna Chaturdashi, combined with Shatabhishak Nakshatram and Saturday."
+    }
   },
   {
     "id": "mahAmahAvAruNI~trayOdazI",
     "tags": "rare-days",
-    "description_short": "Phalguna Krishna Chaturdashi, combined with Shatabhishak Nakshatram, Saturday and Shubha Yogam."
+    "description_short": {
+      "en": "Phalguna Krishna Chaturdashi, combined with Shatabhishak Nakshatram, Saturday and Shubha Yogam."
+    }
   },
   {
     "id": "vijayA/zravaNa~mahAdvAdazI",
     "tags": "rare-days,special-vratams",
-    "description_short": "Dvadashi tithi, combined with Shravana nakshatram."
+    "description_short": {
+      "en": "Dvadashi tithi, combined with Shravana nakshatram."
+    }
   },
   {
     "id": "mESa-saGkrAntiH",
     "tags": "sun-sankranti,common-festivals",
-    "description_short": "Tamil New Year."
+    "description_short": {
+      "en": "Tamil New Year."
+    }
   },
   {
     "id": "kRSNA-antya-puSkara-ArambhaH",
