@@ -65,7 +65,7 @@ class Panchangam(common.JsonObject):
     self.lagna_data = [None] * jyotisha.panchangam.temporal.MAX_SZ
 
     self.weekday = [None] * jyotisha.panchangam.temporal.MAX_SZ
-    self.kaalams = [dict() for _x in range(jyotisha.panchangam.temporal.MAX_SZ)]
+    self.kaalas = [dict() for _x in range(jyotisha.panchangam.temporal.MAX_SZ)]
 
     self.fest_days = {}
     self.festivals = [[] for _x in range(jyotisha.panchangam.temporal.MAX_SZ)]
@@ -207,7 +207,7 @@ class Panchangam(common.JsonObject):
       RAHUKALA_OCTETS = [7, 1, 6, 4, 5, 3, 2]
       GULIKAKALA_OCTETS = [6, 5, 4, 3, 2, 1, 0]
 
-      self.kaalams[d] = {
+      self.kaalas[d] = {
         'prAtaH sandhyA': jyotisha.panchangam.temporal.get_kaalas(self.jd_sunset[d - 1], self.jd_sunrise[d], 14, 15),
         'prAtah': jyotisha.panchangam.temporal.get_kaalas(self.jd_sunrise[d], self.jd_sunset[d], 0, 5),
         'saGgava': jyotisha.panchangam.temporal.get_kaalas(self.jd_sunrise[d], self.jd_sunset[d], 1, 5),
@@ -635,12 +635,12 @@ class Panchangam(common.JsonObject):
           fday = d + 1
         if fday is None:
           # This means that the correct angam did not
-          # touch the kaalam on either day!
+          # touch the kaala on either day!
           # sys.stderr.write('Could not assign purvaviddha day for %s!\
           # Please check for unusual cases.\n' % festival_name)
           if angams[2] == 6 + 1 or angams[3] == 6 + 1:
             # Need to assign a day to the festival here
-            # since the angam did not touch kaalam on either day
+            # since the angam did not touch kaala on either day
             # BUT ONLY IF YESTERDAY WASN'T ALREADY ASSIGNED,
             # THIS BEING PURVAVIDDHA
             # Perhaps just need better checking of
@@ -1156,12 +1156,12 @@ class Panchangam(common.JsonObject):
                 fday = d + 1
               if fday is None:
                 # This means that the correct angam did not
-                # touch the kaalam on either day!
+                # touch the kaala on either day!
                 # sys.stderr.write('Could not assign purvaviddha day for %s!\
                 # Please check for unusual cases.\n' % festival_name)
                 if angams[2] == angam_num + 1 or angams[3] == angam_num + 1:
                   # Need to assign a day to the festival here
-                  # since the angam did not touch kaalam on either day
+                  # since the angam did not touch kaala on either day
                   # BUT ONLY IF YESTERDAY WASN'T ALREADY ASSIGNED,
                   # THIS BEING PURVAVIDDHA
                   # Perhaps just need better checking of

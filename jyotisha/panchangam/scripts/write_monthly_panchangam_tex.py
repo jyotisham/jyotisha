@@ -201,13 +201,13 @@ def writeMonthlyTeX(panchangam, template_file):
 
         sunrise = jyotisha.panchangam.temporal.Time(24 * (panchangam.jd_sunrise[d] - jd)).toString(format=panchangam.fmt)
         sunset = jyotisha.panchangam.temporal.Time(24 * (panchangam.jd_sunset[d] - jd)).toString(format=panchangam.fmt)
-        sangava = jyotisha.panchangam.temporal.Time(24 * (panchangam.kaalams[d]['saGgava'][0] - jd)).toString(format=panchangam.fmt)
+        sangava = jyotisha.panchangam.temporal.Time(24 * (panchangam.kaalas[d]['saGgava'][0] - jd)).toString(format=panchangam.fmt)
         rahu = '%s--%s' % (
-            jyotisha.panchangam.temporal.Time(24 * (panchangam.kaalams[d]['rahu'][0] - jd)).toString(format=panchangam.fmt),
-            jyotisha.panchangam.temporal.Time(24 * (panchangam.kaalams[d]['rahu'][1] - jd)).toString(format=panchangam.fmt))
+            jyotisha.panchangam.temporal.Time(24 * (panchangam.kaalas[d]['rahu'][0] - jd)).toString(format=panchangam.fmt),
+            jyotisha.panchangam.temporal.Time(24 * (panchangam.kaalas[d]['rahu'][1] - jd)).toString(format=panchangam.fmt))
         yama = '%s--%s' % (
-            jyotisha.panchangam.temporal.Time(24 * (panchangam.kaalams[d]['yama'][0] - jd)).toString(format=panchangam.fmt),
-            jyotisha.panchangam.temporal.Time(24 * (panchangam.kaalams[d]['yama'][1] - jd)).toString(format=panchangam.fmt))
+            jyotisha.panchangam.temporal.Time(24 * (panchangam.kaalas[d]['yama'][0] - jd)).toString(format=panchangam.fmt),
+            jyotisha.panchangam.temporal.Time(24 * (panchangam.kaalas[d]['yama'][1] - jd)).toString(format=panchangam.fmt))
 
         print('\caldata{\\textcolor{%s}{%s}}{%s{%s}}%%' %
               (day_colours[panchangam.weekday[d]], dt, panchangam.month_data[d],

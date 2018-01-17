@@ -184,12 +184,12 @@ def compute_events(p, json_file):
                                 logging.debug('Assigned fday = %d' % (d + 1))
                         else:
                             # This means that the correct angam did not
-                            # touch the kaalam on either day!
+                            # touch the kaala on either day!
                             # sys.stderr.write('Could not assign purvaviddha day for %s!\
                             # Please check for unusual cases.\n' % event_name)
                             if angams[2] == angam_num_succ or angams[3] == angam_num_succ:
                                 # Need to assign a day to the festival here
-                                # since the angam did not touch kaalam on either day
+                                # since the angam did not touch kaala on either day
                                 # BUT ONLY IF YESTERDAY WASN'T ALREADY ASSIGNED,
                                 # THIS BEING PURVAVIDDHA
                                 # Perhaps just need better checking of

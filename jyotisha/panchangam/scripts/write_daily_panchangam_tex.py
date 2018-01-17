@@ -158,24 +158,24 @@ def writeDailyTeX(panchangam, template_file, computeLagnams=True):
         moonrise = jyotisha.panchangam.temporal.Time(24 * (panchangam.jd_moonrise[d] - jd)).toString(format=panchangam.fmt)
         moonset = jyotisha.panchangam.temporal.Time(24 * (panchangam.jd_moonset[d] - jd)).toString(format=panchangam.fmt)
 
-        pratahsandhya = jyotisha.panchangam.temporal.Time(24 * (panchangam.kaalams[d]['prAtaH sandhyA'][0] -
+        pratahsandhya = jyotisha.panchangam.temporal.Time(24 * (panchangam.kaalas[d]['prAtaH sandhyA'][0] -
                                                                 jd)).toString(format=panchangam.fmt)
-        sangava = jyotisha.panchangam.temporal.Time(24 * (panchangam.kaalams[d]['saGgava'][0] - jd)).toString(format=panchangam.fmt)
-        madhyahna = jyotisha.panchangam.temporal.Time(24 * (panchangam.kaalams[d]['madhyAhna'][0] - jd)).toString(format=panchangam.fmt)
-        aparahna = jyotisha.panchangam.temporal.Time(24 * (panchangam.kaalams[d]['aparAhna'][0] - jd)).toString(format=panchangam.fmt)
-        sayahna = jyotisha.panchangam.temporal.Time(24 * (panchangam.kaalams[d]['sAyAhna'][0] - jd)).toString(format=panchangam.fmt)
-        sayamsandhya = jyotisha.panchangam.temporal.Time(24 * (panchangam.kaalams[d]['sAyaM sandhyA'][0] -
+        sangava = jyotisha.panchangam.temporal.Time(24 * (panchangam.kaalas[d]['saGgava'][0] - jd)).toString(format=panchangam.fmt)
+        madhyahna = jyotisha.panchangam.temporal.Time(24 * (panchangam.kaalas[d]['madhyAhna'][0] - jd)).toString(format=panchangam.fmt)
+        aparahna = jyotisha.panchangam.temporal.Time(24 * (panchangam.kaalas[d]['aparAhna'][0] - jd)).toString(format=panchangam.fmt)
+        sayahna = jyotisha.panchangam.temporal.Time(24 * (panchangam.kaalas[d]['sAyAhna'][0] - jd)).toString(format=panchangam.fmt)
+        sayamsandhya = jyotisha.panchangam.temporal.Time(24 * (panchangam.kaalas[d]['sAyaM sandhyA'][0] -
                                                                jd)).toString(format=panchangam.fmt)
 
         rahu = '%s--%s' % (
-            jyotisha.panchangam.temporal.Time(24 * (panchangam.kaalams[d]['rahu'][0] - jd)).toString(format=panchangam.fmt),
-            jyotisha.panchangam.temporal.Time(24 * (panchangam.kaalams[d]['rahu'][1] - jd)).toString(format=panchangam.fmt))
+            jyotisha.panchangam.temporal.Time(24 * (panchangam.kaalas[d]['rahu'][0] - jd)).toString(format=panchangam.fmt),
+            jyotisha.panchangam.temporal.Time(24 * (panchangam.kaalas[d]['rahu'][1] - jd)).toString(format=panchangam.fmt))
         yama = '%s--%s' % (
-            jyotisha.panchangam.temporal.Time(24 * (panchangam.kaalams[d]['yama'][0] - jd)).toString(format=panchangam.fmt),
-            jyotisha.panchangam.temporal.Time(24 * (panchangam.kaalams[d]['yama'][1] - jd)).toString(format=panchangam.fmt))
+            jyotisha.panchangam.temporal.Time(24 * (panchangam.kaalas[d]['yama'][0] - jd)).toString(format=panchangam.fmt),
+            jyotisha.panchangam.temporal.Time(24 * (panchangam.kaalas[d]['yama'][1] - jd)).toString(format=panchangam.fmt))
         gulika = '%s--%s' % (
-            jyotisha.panchangam.temporal.Time(24 * (panchangam.kaalams[d]['gulika'][0] - jd)).toString(format=panchangam.fmt),
-            jyotisha.panchangam.temporal.Time(24 * (panchangam.kaalams[d]['gulika'][1] - jd)).toString(format=panchangam.fmt))
+            jyotisha.panchangam.temporal.Time(24 * (panchangam.kaalas[d]['gulika'][0] - jd)).toString(format=panchangam.fmt),
+            jyotisha.panchangam.temporal.Time(24 * (panchangam.kaalas[d]['gulika'][1] - jd)).toString(format=panchangam.fmt))
 
         if panchangam.solar_month[d] == 1:
             # Flip the year name for the remaining days
