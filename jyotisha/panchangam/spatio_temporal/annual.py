@@ -1046,8 +1046,8 @@ class Panchangam(common.JsonObject):
         #     fest_ref1 = festival_rules[festival_name]['references_primary']
         # if 'references_secondary' in festival_rules[festival_name]:
         #     fest_ref2 = festival_rules[festival_name]['references_secondary']
-        # if 'Comments' in festival_rules[festival_name]:
-        #     fest_comments = festival_rules[festival_name]['Comments']
+        # if 'comments' in festival_rules[festival_name]:
+        #     fest_comments = festival_rules[festival_name]['comments']
 
         if angam_type == 'tithi' and month_type == 'lunar_month' and angam_num == 1:
           # Shukla prathama tithis need to be dealt carefully, if e.g. the prathama tithi

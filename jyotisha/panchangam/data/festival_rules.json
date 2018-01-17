@@ -580,7 +580,7 @@
       "en": "Perform puja of `karavIra` plants/flowers and then offer them in `arcanA`."
     },
     "shlokas": ["karavIra viSAvAsa namastE bhAnuvallabha.\nmaulimaNDana durgAdi dEvAnAM satataM priya"],
-    "Comments": "Not assigned in 2016"
+    "comments": "Not assigned in 2016"
   },
   {
     "id": "bhadra-catuSTaya-vratam",
@@ -589,7 +589,7 @@
     "angam_type": "tithi",
     "angam_number": 1,
     "tags": "special-vratams",
-    "Comments": "Not assigned in 2016"
+    "comments": "Not assigned in 2016"
   },
   {
     "id": "punnAga-gaurI-vratam",
@@ -598,7 +598,7 @@
     "angam_type": "tithi",
     "angam_number": 1,
     "tags": "special-vratams",
-    "Comments": "Not assigned in 2016"
+    "comments": "Not assigned in 2016"
   },
   {
     "id": "rambhA~tRtIyA",

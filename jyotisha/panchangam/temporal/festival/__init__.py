@@ -1,10 +1,68 @@
 import json
+import logging
 
 import os
 
+import sys
+
 from jyotisha.panchangam.spatio_temporal import CODE_ROOT
+from sanskrit_data.schema import common
+
+logging.basicConfig(
+  level=logging.DEBUG,
+  format="%(levelname)s: %(asctime)s {%(filename)s:%(lineno)d}: %(message)s "
+)
 
 festival_id_to_json = {}
+
+
+class HinduCalendarEvent(common.JsonObject):
+  """The same name written in different languages have different spellings - oft due to differing case endings and conventions: kAlidAsaH vs Kalidasa. Hence this container."""
+  schema = common.recursively_merge_json_schemas(common.JsonObject.schema, ({
+    "type": "object",
+    "properties": {
+      common.TYPE_FIELD: {
+        "enum": ["HinduCalendarEvent"]
+      },
+      "month_type": {
+        "type": "string",
+        "enum": ["lunar_month", "solar_month"],
+        "description": "",
+      },
+      "angam_type": {
+        "type": "string",
+        "enum": ["tithi", "nakshatram", "day"],
+        "description": "",
+      },
+      "tags": {
+        "type": "string",
+        "description": "",
+      },
+      "comments": {
+        "type": "string",
+        "description": "",
+      },
+      "description_short": {
+        "type": "object",
+        "description": "",
+      },
+      "titles": {
+        "type": "string",
+      },
+      "shlokas": {
+        "type": "array",
+        "items": "string"
+      },
+      "references_primary": {
+        "type": "array",
+        "items": "string"
+      },
+      "references_secondary": {
+        "type": "array",
+        "items": "string"
+      },
+    }
+  }))
 
 
 def read_old_festival_rules_dict(file_name):
@@ -25,3 +83,8 @@ def fill_festival_id_to_json():
     festival_id_to_json.update(festival_rules)
     festival_rules = read_old_festival_rules_dict(os.path.join(CODE_ROOT, 'panchangam/data/festival_rules_desc_only.json'))
     festival_id_to_json.update(festival_rules)
+
+
+# Essential for depickling to work.
+common.update_json_class_index(sys.modules[__name__])
+logging.debug(common.json_class_index)
