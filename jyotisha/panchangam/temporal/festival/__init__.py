@@ -34,8 +34,20 @@ class HinduCalendarEvent(common.JsonObject):
         "enum": ["tithi", "nakshatram", "day"],
         "description": "",
       },
+      "kaala": {
+        "type": "string",
+        "description": "",
+      },
       "tags": {
         "type": "string",
+        "description": "",
+      },
+      "priority": {
+        "type": "string",
+        "description": "",
+      },
+      "year_start": {
+        "type": "integer",
         "description": "",
       },
       "comments": {
