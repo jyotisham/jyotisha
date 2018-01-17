@@ -345,7 +345,7 @@ class Panchangam(common.JsonObject):
                                (jd_sunset_tmrw - jd_sunrise_tmrw) * (1.0 / 5.0), ayanamsha_id=self.ayanamsha_id),
                 get_angam_func(jd_sunrise_tmrw +
                                (jd_sunset_tmrw - jd_sunrise_tmrw) * (2.0 / 5.0), ayanamsha_id=self.ayanamsha_id)]
-    elif kaala_type == 'madhyahna':
+    elif kaala_type == 'madhyaahna':
       angams = [get_angam_func(jd_sunrise + (jd_sunset - jd_sunrise) * (2.0 / 5.0), ayanamsha_id=self.ayanamsha_id),
                 get_angam_func(jd_sunrise + (jd_sunset - jd_sunrise) * (3.0 / 5.0), ayanamsha_id=self.ayanamsha_id),
                 get_angam_func(jd_sunrise_tmrw +
@@ -622,7 +622,7 @@ class Panchangam(common.JsonObject):
 
       if self.tithi_sunrise[d] == 6 or self.tithi_sunrise[d] == 7:
         angams = self.get_angams_for_kaalas(d, jyotisha.panchangam.temporal.get_tithi,
-                                           'madhyahna')
+                                           'madhyaahna')
         if angams[0] == 6 or angams[1] == 6:
           if festival_name in self.fest_days:
             # Check if yesterday was assigned already
@@ -848,7 +848,7 @@ class Panchangam(common.JsonObject):
       # VYATIPATAM
       if jyotisha.panchangam.temporal.get_yoga(self.jd_sunrise[d], ayanamsha_id=self.ayanamsha_id) == 17 and \
           self.solar_month[d] in [6, 9]:
-        yogams_yest = self.get_angams_for_kaalas(d - 1, jyotisha.panchangam.temporal.get_yoga, 'madhyahna')
+        yogams_yest = self.get_angams_for_kaalas(d - 1, jyotisha.panchangam.temporal.get_yoga, 'madhyaahna')
         if self.solar_month[d] == 9:
           festival_name = 'mahAdhanurvyatIpAtam'
         elif self.solar_month[d] == 6:
@@ -990,7 +990,7 @@ class Panchangam(common.JsonObject):
       # BHAUMASHWINI
       if (self.nakshatram_sunrise[d] == 27 or self.nakshatram_sunrise[d] == 1) and self.weekday[d] == 2:
         # Is it necessarily only at sunrise?
-        # angams = self.get_angams_for_kaalas(d, helper_functions.get_nakshatram, 'madhyahna')
+        # angams = self.get_angams_for_kaalas(d, helper_functions.get_nakshatram, 'madhyaahna')
         # if any(x == 1 for x in [self.nakshatram_sunrise[d], angams[0], angams[1]]):
         if any(x == 1 for x in [self.nakshatram_sunrise[d]]):
           self.add_festival('bhaumAzvinI-puNyakAlaH', d, debug_festivals)
@@ -998,7 +998,7 @@ class Panchangam(common.JsonObject):
       # BUDHANURADHA
       if (self.nakshatram_sunrise[d] == 16 or self.nakshatram_sunrise[d] == 17) and self.weekday[d] == 3:
         # Is it necessarily only at sunrise?
-        # angams = self.get_angams_for_kaalas(d, helper_functions.get_nakshatram, 'madhyahna')
+        # angams = self.get_angams_for_kaalas(d, helper_functions.get_nakshatram, 'madhyaahna')
         # if any(x == 17 for x in [self.nakshatram_sunrise[d], angams[0], angams[1]]):
         if any(x == 17 for x in [self.nakshatram_sunrise[d]]):
           self.add_festival('budhAnUrAdhA-puNyakAlaH', d, debug_festivals)
@@ -1354,9 +1354,9 @@ class Panchangam(common.JsonObject):
                                      jyotisha.panchangam.temporal.NAMES['RASHI_NAMES']['hk'][rashi2]))
         if rashi1 < rashi2:
           # Considering only non-retrograde transits for pushkara computations
-          (madhyanha_start, madhyahna_end) = jyotisha.panchangam.temporal.get_kaalas(self.jd_sunrise[fday],
+          (madhyanha_start, madhyaahna_end) = jyotisha.panchangam.temporal.get_kaalas(self.jd_sunrise[fday],
                                                                                     self.jd_sunset[fday], 2, 5)
-          if jd_transit < madhyahna_end:
+          if jd_transit < madhyaahna_end:
             fday_pushkara = fday
           else:
             fday_pushkara = fday + 1

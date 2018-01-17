@@ -161,7 +161,7 @@ def writeDailyTeX(panchangam, template_file, computeLagnams=True):
         pratahsandhya = jyotisha.panchangam.temporal.Time(24 * (panchangam.kaalas[d]['prAtaH sandhyA'][0] -
                                                                 jd)).toString(format=panchangam.fmt)
         sangava = jyotisha.panchangam.temporal.Time(24 * (panchangam.kaalas[d]['saGgava'][0] - jd)).toString(format=panchangam.fmt)
-        madhyahna = jyotisha.panchangam.temporal.Time(24 * (panchangam.kaalas[d]['madhyAhna'][0] - jd)).toString(format=panchangam.fmt)
+        madhyaahna = jyotisha.panchangam.temporal.Time(24 * (panchangam.kaalas[d]['madhyAhna'][0] - jd)).toString(format=panchangam.fmt)
         aparahna = jyotisha.panchangam.temporal.Time(24 * (panchangam.kaalas[d]['aparAhna'][0] - jd)).toString(format=panchangam.fmt)
         sayahna = jyotisha.panchangam.temporal.Time(24 * (panchangam.kaalas[d]['sAyAhna'][0] - jd)).toString(format=panchangam.fmt)
         sayamsandhya = jyotisha.panchangam.temporal.Time(24 * (panchangam.kaalas[d]['sAyaM sandhyA'][0] -
@@ -187,7 +187,7 @@ def writeDailyTeX(panchangam, template_file, computeLagnams=True):
                                                              jyotisha.panchangam.temporal.NAMES, panchangam.script),
                jyotisha.panchangam.temporal.NAMES['VARA_NAMES'][panchangam.script][panchangam.weekday[d]], yname))
         print('{\\sunmoondata{%s}{%s}{%s}{%s}' % (sunrise, sunset, moonrise, moonset))
-        print('{\kaalas{%s}{%s}{%s}{%s}{%s}{%s}}}' % (pratahsandhya, sangava, madhyahna,
+        print('{\kaalas{%s}{%s}{%s}{%s}{%s}{%s}}}' % (pratahsandhya, sangava, madhyaahna,
                                                      aparahna, sayahna, sayamsandhya,))
         if computeLagnams:
             print('{\\tnykdata{%s}%%\n{%s}{%s}%%\n{%s}%%\n{%s}{\\tiny %s}\n}'

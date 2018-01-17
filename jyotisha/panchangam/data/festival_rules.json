@@ -92,7 +92,7 @@
     "month_number": 1,
     "angam_type": "tithi",
     "angam_number": 9,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "dashavataram,common-festivals"
   },
@@ -312,7 +312,7 @@
     "month_number": 2,
     "angam_type": "tithi",
     "angam_number": 3,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "common-festivals",
     "description_short": {
@@ -363,7 +363,7 @@
     "month_number": 2,
     "angam_type": "tithi",
     "angam_number": 3,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "dashavataram"
   },
@@ -455,7 +455,7 @@
     "month_number": 2,
     "angam_type": "tithi",
     "angam_number": 9,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "common-festivals",
     "references_secondary": ["Kielhorn (1897)"]
@@ -1474,7 +1474,7 @@
     "month_number": 5,
     "angam_type": "tithi",
     "angam_number": 7,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "less-common-festivals",
     "references_secondary": ["Vaidikasri Aug 2016"]
@@ -1667,7 +1667,7 @@
     "month_number": 6,
     "angam_type": "tithi",
     "angam_number": 4,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "common-festivals"
   },
@@ -1678,7 +1678,7 @@
     "month_number": 6,
     "angam_type": "tithi",
     "angam_number": 5,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "special-vratams,common-festivals"
   },
@@ -1857,7 +1857,7 @@
     "month_number": 6,
     "angam_type": "tithi",
     "angam_number": 12,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "dashavataram,common-festivals",
     "description_short": {
@@ -2007,7 +2007,7 @@
     "month_number": 6,
     "angam_type": "tithi",
     "angam_number": 16,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "special-period-start"
   },
@@ -2018,7 +2018,7 @@
     "month_number": 7,
     "angam_type": "tithi",
     "angam_number": 16,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "special-period-start"
   },
@@ -2029,7 +2029,7 @@
     "month_number": 8,
     "angam_type": "tithi",
     "angam_number": 16,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "special-period-start"
   },
@@ -2241,7 +2241,7 @@
     "month_number": 6,
     "angam_type": "tithi",
     "angam_number": 29,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "less-common-festivals"
   },
@@ -2935,7 +2935,7 @@
     "month_number": 8,
     "angam_type": "tithi",
     "angam_number": 1,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "purana-events",
     "description_short": {
@@ -2950,7 +2950,7 @@
     "month_number": 8,
     "angam_type": "tithi",
     "angam_number": 2,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "common-festivals"
   },
@@ -2961,7 +2961,7 @@
     "month_number": 8,
     "angam_type": "tithi",
     "angam_number": 5,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "less-common-festivals",
     "references_secondary": ["https://twitter.com/blog_supplement/status/923044462229671936"]
@@ -2973,7 +2973,7 @@
     "month_number": 8,
     "angam_type": "tithi",
     "angam_number": 5,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "less-common-festivals"
   },
@@ -2996,7 +2996,7 @@
     "month_number": 8,
     "angam_type": "tithi",
     "angam_number": 8,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "less-common-festivals"
   },
@@ -3060,7 +3060,7 @@
     "month_number": 8,
     "angam_type": "tithi",
     "angam_number": 12,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "common-festivals"
   },
@@ -3225,7 +3225,7 @@
     "month_number": 8,
     "angam_type": "tithi",
     "angam_number": 15,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "kanchi-aradhana-days"
   },
@@ -3237,7 +3237,7 @@
     "angam_type": "tithi",
     "angam_number": 11,
     "year_start": 2626,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "kanchi-aradhana-days",
     "references_secondary": ["www.kamakoti.org"]
@@ -3250,7 +3250,7 @@
     "angam_type": "tithi",
     "angam_number": 11,
     "year_start": 2696,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "kanchi-aradhana-days",
     "references_secondary": ["www.kamakoti.org"]
@@ -3263,7 +3263,7 @@
     "angam_type": "tithi",
     "angam_number": 29,
     "year_start": 2738,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "kanchi-aradhana-days",
     "references_secondary": ["www.kamakoti.org"]
@@ -3276,7 +3276,7 @@
     "angam_type": "tithi",
     "angam_number": 23,
     "year_start": 2834,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "kanchi-aradhana-days",
     "references_secondary": ["www.kamakoti.org"]
@@ -3289,7 +3289,7 @@
     "angam_type": "tithi",
     "angam_number": 7,
     "year_start": 2897,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "kanchi-aradhana-days",
     "references_secondary": ["www.kamakoti.org"]
@@ -3302,7 +3302,7 @@
     "angam_type": "tithi",
     "angam_number": 6,
     "year_start": 2978,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "kanchi-aradhana-days",
     "references_secondary": ["www.kamakoti.org"]
@@ -3315,7 +3315,7 @@
     "angam_type": "tithi",
     "angam_number": 24,
     "year_start": 3047,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "kanchi-aradhana-days",
     "references_secondary": ["www.kamakoti.org"]
@@ -3328,7 +3328,7 @@
     "angam_type": "tithi",
     "angam_number": 14,
     "year_start": 3130,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "kanchi-aradhana-days",
     "references_secondary": ["www.kamakoti.org"]
@@ -3341,7 +3341,7 @@
     "angam_type": "tithi",
     "angam_number": 18,
     "year_start": 3170,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "kanchi-aradhana-days",
     "references_secondary": ["www.kamakoti.org"]
@@ -3354,7 +3354,7 @@
     "angam_type": "tithi",
     "angam_number": 15,
     "year_start": 3228,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "kanchi-aradhana-days",
     "references_secondary": ["www.kamakoti.org"]
@@ -3367,7 +3367,7 @@
     "angam_type": "tithi",
     "angam_number": 10,
     "year_start": 3273,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "kanchi-aradhana-days",
     "references_secondary": ["www.kamakoti.org"]
@@ -3380,7 +3380,7 @@
     "angam_type": "tithi",
     "angam_number": 9,
     "year_start": 3336,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "kanchi-aradhana-days",
     "references_secondary": ["www.kamakoti.org"]
@@ -3393,7 +3393,7 @@
     "angam_type": "tithi",
     "angam_number": 16,
     "year_start": 3373,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "kanchi-aradhana-days",
     "references_secondary": ["www.kamakoti.org"]
@@ -3406,7 +3406,7 @@
     "angam_type": "tithi",
     "angam_number": 30,
     "year_start": 3418,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "kanchi-aradhana-days",
     "references_secondary": ["www.kamakoti.org"]
@@ -3419,7 +3419,7 @@
     "angam_type": "tithi",
     "angam_number": 1,
     "year_start": 3430,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "kanchi-aradhana-days",
     "references_secondary": ["www.kamakoti.org"]
@@ -3432,7 +3432,7 @@
     "angam_type": "tithi",
     "angam_number": 8,
     "year_start": 3468,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "kanchi-aradhana-days",
     "references_secondary": ["www.kamakoti.org"]
@@ -3445,7 +3445,7 @@
     "angam_type": "tithi",
     "angam_number": 10,
     "year_start": 3476,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "kanchi-aradhana-days",
     "references_secondary": ["www.kamakoti.org"]
@@ -3458,7 +3458,7 @@
     "angam_type": "tithi",
     "angam_number": 1,
     "year_start": 3486,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "kanchi-aradhana-days",
     "references_secondary": ["www.kamakoti.org"]
@@ -3471,7 +3471,7 @@
     "angam_type": "tithi",
     "angam_number": 9,
     "year_start": 3499,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "kanchi-aradhana-days",
     "references_secondary": ["www.kamakoti.org"]
@@ -3484,7 +3484,7 @@
     "angam_type": "tithi",
     "angam_number": 15,
     "year_start": 3538,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "kanchi-aradhana-days",
     "references_secondary": ["www.kamakoti.org"]
@@ -3497,7 +3497,7 @@
     "angam_type": "tithi",
     "angam_number": 23,
     "year_start": 3548,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "kanchi-aradhana-days",
     "references_secondary": ["www.kamakoti.org"]
@@ -3510,7 +3510,7 @@
     "angam_type": "tithi",
     "angam_number": 9,
     "year_start": 3582,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "kanchi-aradhana-days",
     "references_secondary": ["www.kamakoti.org"]
@@ -3523,7 +3523,7 @@
     "angam_type": "tithi",
     "angam_number": 7,
     "year_start": 3613,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "kanchi-aradhana-days",
     "references_secondary": ["www.kamakoti.org"]
@@ -3536,7 +3536,7 @@
     "angam_type": "tithi",
     "angam_number": 24,
     "year_start": 3628,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "kanchi-aradhana-days",
     "references_secondary": ["www.kamakoti.org"]
@@ -3549,7 +3549,7 @@
     "angam_type": "tithi",
     "angam_number": 1,
     "year_start": 3649,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "kanchi-aradhana-days",
     "references_secondary": ["www.kamakoti.org"]
@@ -3562,7 +3562,7 @@
     "angam_type": "tithi",
     "angam_number": 8,
     "year_start": 3665,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "kanchi-aradhana-days",
     "references_secondary": ["www.kamakoti.org"]
@@ -3575,7 +3575,7 @@
     "angam_type": "tithi",
     "angam_number": 1,
     "year_start": 3678,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "kanchi-aradhana-days",
     "references_secondary": ["www.kamakoti.org"]
@@ -3588,7 +3588,7 @@
     "angam_type": "tithi",
     "angam_number": 25,
     "year_start": 3702,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "kanchi-aradhana-days",
     "references_secondary": ["www.kamakoti.org"]
@@ -3601,7 +3601,7 @@
     "angam_type": "tithi",
     "angam_number": 11,
     "year_start": 3719,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "kanchi-aradhana-days",
     "references_secondary": ["www.kamakoti.org"]
@@ -3614,7 +3614,7 @@
     "angam_type": "tithi",
     "angam_number": 19,
     "year_start": 3756,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "kanchi-aradhana-days",
     "references_secondary": ["www.kamakoti.org"]
@@ -3627,7 +3627,7 @@
     "angam_type": "tithi",
     "angam_number": 12,
     "year_start": 3769,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "kanchi-aradhana-days",
     "references_secondary": ["www.kamakoti.org"]
@@ -3640,7 +3640,7 @@
     "angam_type": "tithi",
     "angam_number": 6,
     "year_start": 3773,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "kanchi-aradhana-days",
     "references_secondary": ["www.kamakoti.org"]
@@ -3653,7 +3653,7 @@
     "angam_type": "tithi",
     "angam_number": 21,
     "year_start": 3793,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "kanchi-aradhana-days",
     "references_secondary": ["www.kamakoti.org"]
@@ -3666,7 +3666,7 @@
     "angam_type": "tithi",
     "angam_number": 30,
     "year_start": 3811,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "kanchi-aradhana-days",
     "references_secondary": ["www.kamakoti.org"]
@@ -3679,7 +3679,7 @@
     "angam_type": "tithi",
     "angam_number": 6,
     "year_start": 3838,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "kanchi-aradhana-days",
     "references_secondary": ["www.kamakoti.org"]
@@ -3692,7 +3692,7 @@
     "angam_type": "tithi",
     "angam_number": 15,
     "year_start": 3859,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "kanchi-aradhana-days",
     "references_secondary": ["www.kamakoti.org"]
@@ -3705,7 +3705,7 @@
     "angam_type": "tithi",
     "angam_number": 17,
     "year_start": 3889,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "kanchi-aradhana-days",
     "references_secondary": ["www.kamakoti.org"]
@@ -3718,7 +3718,7 @@
     "angam_type": "tithi",
     "angam_number": 30,
     "year_start": 3941,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "kanchi-aradhana-days",
     "references_secondary": ["www.kamakoti.org"]
@@ -3731,7 +3731,7 @@
     "angam_type": "tithi",
     "angam_number": 15,
     "year_start": 3974,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "kanchi-aradhana-days",
     "references_secondary": ["www.kamakoti.org"]
@@ -3744,7 +3744,7 @@
     "angam_type": "tithi",
     "angam_number": 6,
     "year_start": 4016,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "kanchi-aradhana-days",
     "references_secondary": ["www.kamakoti.org"]
@@ -3757,7 +3757,7 @@
     "angam_type": "tithi",
     "angam_number": 1,
     "year_start": 4051,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "kanchi-aradhana-days",
     "references_secondary": ["www.kamakoti.org"]
@@ -3770,7 +3770,7 @@
     "angam_type": "tithi",
     "angam_number": 22,
     "year_start": 4079,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "kanchi-aradhana-days",
     "references_secondary": ["www.kamakoti.org"]
@@ -3783,7 +3783,7 @@
     "angam_type": "tithi",
     "angam_number": 9,
     "year_start": 4115,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "kanchi-aradhana-days",
     "references_secondary": ["www.kamakoti.org"]
@@ -3796,7 +3796,7 @@
     "angam_type": "tithi",
     "angam_number": 28,
     "year_start": 4141,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "kanchi-aradhana-days",
     "references_secondary": ["www.kamakoti.org"]
@@ -3809,7 +3809,7 @@
     "angam_type": "tithi",
     "angam_number": 7,
     "year_start": 4162,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "kanchi-aradhana-days",
     "references_secondary": ["www.kamakoti.org"]
@@ -3822,7 +3822,7 @@
     "angam_type": "tithi",
     "angam_number": 30,
     "year_start": 4199,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "kanchi-aradhana-days",
     "references_secondary": ["www.kamakoti.org"]
@@ -3835,7 +3835,7 @@
     "angam_type": "tithi",
     "angam_number": 30,
     "year_start": 4267,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "kanchi-aradhana-days",
     "references_secondary": ["www.kamakoti.org"]
@@ -3848,7 +3848,7 @@
     "angam_type": "tithi",
     "angam_number": 10,
     "year_start": 4301,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "kanchi-aradhana-days",
     "references_secondary": ["www.kamakoti.org"]
@@ -3861,7 +3861,7 @@
     "angam_type": "tithi",
     "angam_number": 23,
     "year_start": 4348,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "kanchi-aradhana-days",
     "references_secondary": ["www.kamakoti.org"]
@@ -3874,7 +3874,7 @@
     "angam_type": "tithi",
     "angam_number": 6,
     "year_start": 4398,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "kanchi-aradhana-days",
     "references_secondary": ["www.kamakoti.org"]
@@ -3887,7 +3887,7 @@
     "angam_type": "tithi",
     "angam_number": 16,
     "year_start": 4486,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "kanchi-aradhana-days",
     "references_secondary": ["www.kamakoti.org"]
@@ -3900,7 +3900,7 @@
     "angam_type": "tithi",
     "angam_number": 1,
     "year_start": 4518,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "kanchi-aradhana-days",
     "references_secondary": ["www.kamakoti.org"]
@@ -3913,7 +3913,7 @@
     "angam_type": "tithi",
     "angam_number": 10,
     "year_start": 4599,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "kanchi-aradhana-days",
     "references_secondary": ["www.kamakoti.org"]
@@ -3926,7 +3926,7 @@
     "angam_type": "tithi",
     "angam_number": 16,
     "year_start": 4608,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "kanchi-aradhana-days",
     "references_secondary": ["www.kamakoti.org"]
@@ -3939,7 +3939,7 @@
     "angam_type": "tithi",
     "angam_number": 11,
     "year_start": 4625,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "kanchi-aradhana-days",
     "references_secondary": ["www.kamakoti.org"]
@@ -3952,7 +3952,7 @@
     "angam_type": "tithi",
     "angam_number": 23,
     "year_start": 4640,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "kanchi-aradhana-days",
     "references_secondary": ["www.kamakoti.org"]
@@ -3965,7 +3965,7 @@
     "angam_type": "tithi",
     "angam_number": 10,
     "year_start": 4687,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "kanchi-aradhana-days",
     "references_secondary": ["www.kamakoti.org"]
@@ -3978,7 +3978,7 @@
     "angam_type": "tithi",
     "angam_number": 23,
     "year_start": 4739,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "kanchi-aradhana-days",
     "references_secondary": ["www.kamakoti.org"]
@@ -3991,7 +3991,7 @@
     "angam_type": "tithi",
     "angam_number": 15,
     "year_start": 4793,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "kanchi-aradhana-days",
     "references_secondary": ["www.kamakoti.org"]
@@ -4004,7 +4004,7 @@
     "angam_type": "tithi",
     "angam_number": 2,
     "year_start": 4805,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "kanchi-aradhana-days",
     "references_secondary": ["www.kamakoti.org"]
@@ -4017,7 +4017,7 @@
     "angam_type": "tithi",
     "angam_number": 9,
     "year_start": 4847,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "kanchi-aradhana-days",
     "references_secondary": ["www.kamakoti.org"]
@@ -4030,7 +4030,7 @@
     "angam_type": "tithi",
     "angam_number": 16,
     "year_start": 4884,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "kanchi-aradhana-days",
     "references_secondary": ["www.kamakoti.org"]
@@ -4043,7 +4043,7 @@
     "angam_type": "tithi",
     "angam_number": 12,
     "year_start": 4915,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "kanchi-aradhana-days",
     "references_secondary": ["www.kamakoti.org"]
@@ -4056,7 +4056,7 @@
     "angam_type": "tithi",
     "angam_number": 16,
     "year_start": 4952,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "kanchi-aradhana-days",
     "references_secondary": ["www.kamakoti.org"]
@@ -4069,7 +4069,7 @@
     "angam_type": "tithi",
     "angam_number": 30,
     "year_start": 4991,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "kanchi-aradhana-days",
     "references_secondary": ["www.kamakoti.org"]
@@ -4082,7 +4082,7 @@
     "angam_type": "tithi",
     "angam_number": 23,
     "year_start": 5008,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "kanchi-aradhana-days",
     "references_secondary": ["www.kamakoti.org"]
@@ -4095,7 +4095,7 @@
     "angam_type": "tithi",
     "angam_number": 1,
     "year_start": 5008,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "kanchi-aradhana-days",
     "references_secondary": ["www.kamakoti.org"]
@@ -4108,7 +4108,7 @@
     "angam_type": "tithi",
     "angam_number": 27,
     "year_start": 5095,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "kanchi-aradhana-days,common-festivals"
   },
@@ -4182,7 +4182,7 @@
     "month_number": 9,
     "angam_type": "tithi",
     "angam_number": 7,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "other-avatarams,special-pujas,common-festivals",
     "description_short": {
@@ -4197,7 +4197,7 @@
     "month_number": 9,
     "angam_type": "tithi",
     "angam_number": 7,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "special-vratams,less-common-festivals",
     "references_secondary": ["Chaturvarga Chintamani"],
@@ -4210,7 +4210,7 @@
     "month_number": 12,
     "angam_type": "tithi",
     "angam_number": 7,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "special-vratams,less-common-festivals"
   },
@@ -4221,7 +4221,7 @@
     "month_number": 11,
     "angam_type": "tithi",
     "angam_number": 22,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "special-vratams,less-common-festivals",
     "references_secondary": ["Chaturvarga Chintamani"],
@@ -4444,7 +4444,7 @@
     "month_number": 11,
     "angam_type": "tithi",
     "angam_number": 8,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "special-pujas,common-festivals",
     "description_short": {
@@ -4788,7 +4788,7 @@
     "month_number": 7,
     "angam_type": "nakshatram",
     "angam_number": 19,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "common-festivals"
   },
@@ -4903,7 +4903,7 @@
     "month_number": 7,
     "angam_type": "tithi",
     "angam_number": 21,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "year_start": 5071,
     "tags": "mahapurusha-events",
@@ -5089,7 +5089,7 @@
     "month_number": 6,
     "angam_type": "nakshatram",
     "angam_number": 2,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "special-pujas,common-festivals"
   },
@@ -5195,7 +5195,7 @@
     "month_number": 1,
     "angam_type": "nakshatram",
     "angam_number": 12,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "tags": "tamilnadu-temple-festivals"
   },
   {
@@ -6738,7 +6738,7 @@
     "month_number": 1,
     "angam_type": "tithi",
     "angam_number": 9,
-    "kaala": "madhyahna",
+    "kaala": "madhyaahna",
     "priority": "puurvaviddha",
     "tags": "dashamahavidya",
     "description_short": {
