@@ -626,7 +626,7 @@ class Panchangam(common.JsonObject):
         if angams[0] == 6 or angams[1] == 6:
           if festival_name in self.fest_days:
             # Check if yesterday was assigned already
-            # to this purvaviddha festival!
+            # to this puurvaviddha festival!
             if self.fest_days[festival_name].count(d - 1) == 0:
               fday = d
           else:
@@ -636,7 +636,7 @@ class Panchangam(common.JsonObject):
         if fday is None:
           # This means that the correct angam did not
           # touch the kaala on either day!
-          # sys.stderr.write('Could not assign purvaviddha day for %s!\
+          # sys.stderr.write('Could not assign puurvaviddha day for %s!\
           # Please check for unusual cases.\n' % festival_name)
           if angams[2] == 6 + 1 or angams[3] == 6 + 1:
             # Need to assign a day to the festival here
@@ -1033,7 +1033,7 @@ class Panchangam(common.JsonObject):
         if 'priority' in festival_rules[festival_name]:
           priority = festival_rules[festival_name]['priority']
         else:
-          priority = 'purvaviddha'
+          priority = 'puurvaviddha'
         if 'year_start' in festival_rules[festival_name]:
           fest_start_year = festival_rules[festival_name]['year_start']
         else:
@@ -1140,14 +1140,14 @@ class Panchangam(common.JsonObject):
               # else:
               #     sys.stderr.write('Assigned paraviddha day for %s!' %
               #                      festival_name + ' Ignore future warnings!\n')
-            elif priority == 'purvaviddha':
+            elif priority == 'puurvaviddha':
               # angams_yest = self.get_angams_for_kaalas(d - 1, get_angam_func, kaala)
               # if debug_festivals:
               #     print("%angams yest & today:", angams_yest)
               if angams[0] == angam_num or angams[1] == angam_num:
                 if festival_name in self.fest_days:
                   # Check if yesterday was assigned already
-                  # to this purvaviddha festival!
+                  # to this puurvaviddha festival!
                   if self.fest_days[festival_name].count(d - 1) == 0:
                     fday = d
                 else:
@@ -1157,7 +1157,7 @@ class Panchangam(common.JsonObject):
               if fday is None:
                 # This means that the correct angam did not
                 # touch the kaala on either day!
-                # sys.stderr.write('Could not assign purvaviddha day for %s!\
+                # sys.stderr.write('Could not assign puurvaviddha day for %s!\
                 # Please check for unusual cases.\n' % festival_name)
                 if angams[2] == angam_num + 1 or angams[3] == angam_num + 1:
                   # Need to assign a day to the festival here

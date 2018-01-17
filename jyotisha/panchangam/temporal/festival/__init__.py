@@ -16,17 +16,20 @@ logging.basicConfig(
 festival_id_to_json = {}
 
 
-class HinduCalendarEvent(common.JsonObject):
-  """The same name written in different languages have different spellings - oft due to differing case endings and conventions: kAlidAsaH vs Kalidasa. Hence this container."""
+class HinduCalendarEventTiming(common.JsonObject):
   schema = common.recursively_merge_json_schemas(common.JsonObject.schema, ({
     "type": "object",
     "properties": {
       common.TYPE_FIELD: {
-        "enum": ["HinduCalendarEvent"]
+        "enum": ["HinduCalendarEventTiming"]
       },
       "month_type": {
         "type": "string",
         "enum": ["lunar_month", "solar_month"],
+        "description": "",
+      },
+      "month_number": {
+        "type": "integer",
         "description": "",
       },
       "angam_type": {
@@ -34,20 +37,43 @@ class HinduCalendarEvent(common.JsonObject):
         "enum": ["tithi", "nakshatram", "day"],
         "description": "",
       },
+      "angam_number": {
+        "type": "integer",
+        "description": "",
+      },
       "kaala": {
-        "type": "string",
-        "description": "",
-      },
-      "tags": {
-        "type": "string",
-        "description": "",
-      },
-      "priority": {
         "type": "string",
         "description": "",
       },
       "year_start": {
         "type": "integer",
+        "description": "",
+      },
+    }
+  }))
+
+
+class HinduCalendarEventOld(common.JsonObject):
+  pass
+
+
+class HinduCalendarEvent(common.JsonObject):
+  schema = common.recursively_merge_json_schemas(common.JsonObject.schema, ({
+    "type": "object",
+    "properties": {
+      common.TYPE_FIELD: {
+        "enum": ["HinduCalendarEvent"]
+      },
+      "timing": {
+        "type": HinduCalendarEventTiming.schema
+      },
+      "tags": {
+        "type": "array",
+        "items": "string",
+        "description": "",
+      },
+      "priority": {
+        "type": "string",
         "description": "",
       },
       "comments": {

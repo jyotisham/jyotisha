@@ -54,7 +54,7 @@ def compute_events(p, json_file):
             if 'priority' in event_rules[event_name]:
                 priority = event_rules[event_name]['priority']
             else:
-                priority = 'purvaviddha'
+                priority = 'puurvaviddha'
             if 'year_start' in event_rules[event_name]:
                 event_start_year = event_rules[event_name]['year_start']
             else:
@@ -151,14 +151,14 @@ def compute_events(p, json_file):
                         else:
                             sys.stderr.write('Assigned paraviddha day for %s!' %
                                              event_name + ' Ignore future warnings!\n')
-                    elif priority == 'purvaviddha':
+                    elif priority == 'puurvaviddha':
                         angams_yest = p.get_angams_for_kaalas(d - 1, get_angam_func, kaala)
                         if debugEvents:
                             logging.debug("Angams yest & today: %s" % angams_yest)
                         if angams[0] == angam_num or angams[1] == angam_num:
                             if event_name in p.fest_days:
                                 # Check if yesterday was assigned already
-                                # to this purvaviddha festival!
+                                # to this puurvaviddha festival!
                                 if angam_num == 1:
                                     # Need to check if tomorrow is still the same month, unlikely!
                                     if p.lunar_month[d + 1] == month_num:
@@ -185,7 +185,7 @@ def compute_events(p, json_file):
                         else:
                             # This means that the correct angam did not
                             # touch the kaala on either day!
-                            # sys.stderr.write('Could not assign purvaviddha day for %s!\
+                            # sys.stderr.write('Could not assign puurvaviddha day for %s!\
                             # Please check for unusual cases.\n' % event_name)
                             if angams[2] == angam_num_succ or angams[3] == angam_num_succ:
                                 # Need to assign a day to the festival here

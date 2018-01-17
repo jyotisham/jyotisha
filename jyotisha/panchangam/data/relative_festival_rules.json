@@ -1,13 +1,13 @@
 [
   {
-    "jsonClass": "HinduCalendarEvent",
+    "jsonClass": "HinduCalendarEventOld",
     "id": "ta:bhOgi",
     "anchor_festival_id": "makara-saGkrAntiH/uttarAyaNa-puNyakAlaH",
     "tags": "common-festivals",
     "offset": -1
   },
   {
-    "jsonClass": "HinduCalendarEvent",
+    "jsonClass": "HinduCalendarEventOld",
     "id": "gAyatrI-japaH",
     "anchor_festival_id": "yajurvEda-upAkarma",
     "description_short": {
@@ -17,7 +17,7 @@
     "offset": 1
   },
   {
-    "jsonClass": "HinduCalendarEvent",
+    "jsonClass": "HinduCalendarEventOld",
     "id": "hOli",
     "anchor_festival_id": "hOlikA-pUrNimA",
     "description_short": {
@@ -27,392 +27,392 @@
     "offset": 1
   },
   {
-    "jsonClass": "HinduCalendarEvent",
+    "jsonClass": "HinduCalendarEventOld",
     "id": "indra-pUjA/gO-pUjA",
     "anchor_festival_id": "makara-saGkrAntiH/uttarAyaNa-puNyakAlaH",
     "tags": "special-pujas",
     "offset": 1
   },
   {
-    "jsonClass": "HinduCalendarEvent",
+    "jsonClass": "HinduCalendarEventOld",
     "id": "mahAlaya-pakSa-samApanam",
     "anchor_festival_id": "(bhAdrapada) mahAlaya amAvasyA",
     "tags": "special-period-end,common-festivals",
     "offset": 0
   },
   {
-    "jsonClass": "HinduCalendarEvent",
+    "jsonClass": "HinduCalendarEventOld",
     "id": "nandOtsavaH",
     "anchor_festival_id": "zrIkRSNajanmASTamI",
     "tags": "north-india-temple-festivals",
     "offset": 1
   },
   {
-    "jsonClass": "HinduCalendarEvent",
+    "jsonClass": "HinduCalendarEventOld",
     "id": "navama-aparapakSa-samApanam",
     "anchor_festival_id": "kArtika-amAvasyA",
     "tags": "special-period-end",
     "offset": 0
   },
   {
-    "jsonClass": "HinduCalendarEvent",
+    "jsonClass": "HinduCalendarEventOld",
     "id": "saptama-aparapakSa-samApanam",
     "anchor_festival_id": "Azvayuja-amAvasyA",
     "tags": "special-period-end",
     "offset": 0
   },
   {
-    "jsonClass": "HinduCalendarEvent",
+    "jsonClass": "HinduCalendarEventOld",
     "id": "ta:cidambaram bhikSATan2ar taGga ratham",
     "anchor_festival_id": "ta:naTarAjar An2i tirumaJcan2am",
     "tags": "tamilnadu-temple-festivals",
     "offset": -2
   },
   {
-    "jsonClass": "HinduCalendarEvent",
+    "jsonClass": "HinduCalendarEventOld",
     "id": "ta:cidambaram dvajArOhaNam/paJcamUrtti bhavan2i",
     "anchor_festival_id": "ta:naTarAjar An2i tirumaJcan2am",
     "tags": "tamilnadu-temple-festivals",
     "offset": -9
   },
   {
-    "jsonClass": "HinduCalendarEvent",
+    "jsonClass": "HinduCalendarEventOld",
     "id": "ta:cidambaram kailAca vAhan2am",
     "anchor_festival_id": "ta:naTarAjar An2i tirumaJcan2am",
     "tags": "tamilnadu-temple-festivals",
     "offset": -3
   },
   {
-    "jsonClass": "HinduCalendarEvent",
+    "jsonClass": "HinduCalendarEventOld",
     "id": "ta:cidambaram muttuppallakku",
     "anchor_festival_id": "ta:naTarAjar An2i tirumaJcan2am",
     "tags": "tamilnadu-temple-festivals",
     "offset": 1
   },
   {
-    "jsonClass": "HinduCalendarEvent",
+    "jsonClass": "HinduCalendarEventOld",
     "id": "ta:cidambaram tEr",
     "anchor_festival_id": "ta:naTarAjar An2i tirumaJcan2am",
     "tags": "tamilnadu-temple-festivals",
     "offset": -1
   },
   {
-    "jsonClass": "HinduCalendarEvent",
+    "jsonClass": "HinduCalendarEventOld",
     "id": "ta:cidambaram taGga sUryaprabha vAhan2am",
     "anchor_festival_id": "ta:naTarAjar An2i tirumaJcan2am",
     "tags": "tamilnadu-temple-festivals",
     "offset": -7
   },
   {
-    "jsonClass": "HinduCalendarEvent",
+    "jsonClass": "HinduCalendarEventOld",
     "id": "ta:cidambaram veLLi bhUta vAhan2am",
     "anchor_festival_id": "ta:naTarAjar An2i tirumaJcan2am",
     "tags": "tamilnadu-temple-festivals",
     "offset": -6
   },
   {
-    "jsonClass": "HinduCalendarEvent",
+    "jsonClass": "HinduCalendarEventOld",
     "id": "ta:cidambaram veLLi candraprabha vAhan2am",
     "anchor_festival_id": "ta:naTarAjar An2i tirumaJcan2am",
     "tags": "tamilnadu-temple-festivals",
     "offset": -8
   },
   {
-    "jsonClass": "HinduCalendarEvent",
+    "jsonClass": "HinduCalendarEventOld",
     "id": "ta:cidambaram veLLi riSabha vAhan2am",
     "anchor_festival_id": "ta:naTarAjar An2i tirumaJcan2am",
     "tags": "tamilnadu-temple-festivals",
     "offset": -5
   },
   {
-    "jsonClass": "HinduCalendarEvent",
+    "jsonClass": "HinduCalendarEventOld",
     "id": "ta:cidambaram veLLi yAn2ai vAhan2am",
     "anchor_festival_id": "ta:naTarAjar An2i tirumaJcan2am",
     "tags": "tamilnadu-temple-festivals",
     "offset": -4
   },
   {
-    "jsonClass": "HinduCalendarEvent",
+    "jsonClass": "HinduCalendarEventOld",
     "id": "ta:kan2up~poGgal",
     "anchor_festival_id": "makara-saGkrAntiH/uttarAyaNa-puNyakAlaH",
     "tags": "common-festivals",
     "offset": 1
   },
   {
-    "jsonClass": "HinduCalendarEvent",
+    "jsonClass": "HinduCalendarEventOld",
     "id": "ta:kapAlI adhikAra nandi",
     "anchor_festival_id": "ta:paGgun2i~uttiram",
     "tags": "tamilnadu-temple-festivals",
     "offset": -7
   },
   {
-    "jsonClass": "HinduCalendarEvent",
+    "jsonClass": "HinduCalendarEventOld",
     "id": "ta:kapAlI ar2upattu mUvar",
     "anchor_festival_id": "ta:paGgun2i~uttiram",
     "tags": "tamilnadu-temple-festivals",
     "offset": -2
   },
   {
-    "jsonClass": "HinduCalendarEvent",
+    "jsonClass": "HinduCalendarEventOld",
     "id": "ta:kapAlI bhUtaN bhUtakI",
     "anchor_festival_id": "ta:paGgun2i~uttiram",
     "tags": "tamilnadu-temple-festivals",
     "offset": -7
   },
   {
-    "jsonClass": "HinduCalendarEvent",
+    "jsonClass": "HinduCalendarEventOld",
     "id": "ta:kapAlI cavuDal vimAn2am",
     "anchor_festival_id": "ta:paGgun2i~uttiram",
     "tags": "tamilnadu-temple-festivals",
     "offset": -5
   },
   {
-    "jsonClass": "HinduCalendarEvent",
+    "jsonClass": "HinduCalendarEventOld",
     "id": "ta:kapAlI dvajArOhaNam",
     "anchor_festival_id": "ta:paGgun2i~uttiram",
     "tags": "tamilnadu-temple-festivals",
     "offset": -9
   },
   {
-    "jsonClass": "HinduCalendarEvent",
+    "jsonClass": "HinduCalendarEventOld",
     "id": "ta:kapAlI pallakku vizhA",
     "anchor_festival_id": "ta:paGgun2i~uttiram",
     "tags": "tamilnadu-temple-festivals",
     "offset": -4
   },
   {
-    "jsonClass": "HinduCalendarEvent",
+    "jsonClass": "HinduCalendarEventOld",
     "id": "ta:kapAlI riSabha vAhan2am",
     "anchor_festival_id": "ta:paGgun2i~uttiram",
     "tags": "tamilnadu-temple-festivals",
     "offset": -5
   },
   {
-    "jsonClass": "HinduCalendarEvent",
+    "jsonClass": "HinduCalendarEventOld",
     "id": "ta:kapAlI sUrya~candra~vaTTam",
     "anchor_festival_id": "ta:paGgun2i~uttiram",
     "tags": "tamilnadu-temple-festivals",
     "offset": -8
   },
   {
-    "jsonClass": "HinduCalendarEvent",
+    "jsonClass": "HinduCalendarEventOld",
     "id": "ta:kapAlI tEr",
     "anchor_festival_id": "ta:paGgun2i~uttiram",
     "tags": "tamilnadu-temple-festivals",
     "offset": -3
   },
   {
-    "jsonClass": "HinduCalendarEvent",
+    "jsonClass": "HinduCalendarEventOld",
     "id": "ta:kapAlI teppOtsavam~1",
     "anchor_festival_id": "ta:taippUcam",
     "tags": "tamilnadu-temple-festivals",
     "offset": -1
   },
   {
-    "jsonClass": "HinduCalendarEvent",
+    "jsonClass": "HinduCalendarEventOld",
     "id": "ta:kapAlI teppOtsavam~2",
     "anchor_festival_id": "ta:taippUcam",
     "tags": "tamilnadu-temple-festivals",
     "offset": 0
   },
   {
-    "jsonClass": "HinduCalendarEvent",
+    "jsonClass": "HinduCalendarEventOld",
     "id": "ta:kapAlI teppOtsavam~3",
     "anchor_festival_id": "ta:taippUcam",
     "tags": "tamilnadu-temple-festivals",
     "offset": 1
   },
   {
-    "jsonClass": "HinduCalendarEvent",
+    "jsonClass": "HinduCalendarEventOld",
     "id": "ta:kapAlI umA-mahEzvara darican2am",
     "anchor_festival_id": "ta:paGgun2i~uttiram",
     "tags": "tamilnadu-temple-festivals",
     "offset": 1
   },
   {
-    "jsonClass": "HinduCalendarEvent",
+    "jsonClass": "HinduCalendarEventOld",
     "id": "ta:kapAlI viDaiyAr2r2i nir2aivu",
     "anchor_festival_id": "ta:paGgun2i~uttiram",
     "tags": "tamilnadu-temple-festivals",
     "offset": 11
   },
   {
-    "jsonClass": "HinduCalendarEvent",
+    "jsonClass": "HinduCalendarEventOld",
     "id": "ta:kapAlI viDaiyAr2r2i toDakkam",
     "anchor_festival_id": "ta:paGgun2i~uttiram",
     "tags": "tamilnadu-temple-festivals",
     "offset": 1
   },
   {
-    "jsonClass": "HinduCalendarEvent",
+    "jsonClass": "HinduCalendarEventOld",
     "id": "ta:madhurai mIn2AkSI kOyilil kal yAn2aikku karumbu kODutta lIlai",
     "anchor_festival_id": "makara-saGkrAntiH/uttarAyaNa-puNyakAlaH",
     "tags": "tamilnadu-temple-festivals",
     "offset": 0
   },
   {
-    "jsonClass": "HinduCalendarEvent",
+    "jsonClass": "HinduCalendarEventOld",
     "id": "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##10##m nAL\u2014tEr",
     "anchor_festival_id": "ta:tiruccendUr AvaNit tiruvizhA nir2aivu",
     "tags": "tamilnadu-temple-festivals",
     "offset": -2
   },
   {
-    "jsonClass": "HinduCalendarEvent",
+    "jsonClass": "HinduCalendarEventOld",
     "id": "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##11##m nAL",
     "anchor_festival_id": "ta:tiruccendUr AvaNit tiruvizhA nir2aivu",
     "tags": "tamilnadu-temple-festivals",
     "offset": -1
   },
   {
-    "jsonClass": "HinduCalendarEvent",
+    "jsonClass": "HinduCalendarEventOld",
     "id": "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##2##m nAL",
     "anchor_festival_id": "ta:tiruccendUr AvaNit tiruvizhA nir2aivu",
     "tags": "tamilnadu-temple-festivals",
     "offset": -10
   },
   {
-    "jsonClass": "HinduCalendarEvent",
+    "jsonClass": "HinduCalendarEventOld",
     "id": "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##3##m nAL\u2014murugan2 bhavan2i",
     "anchor_festival_id": "ta:tiruccendUr AvaNit tiruvizhA nir2aivu",
     "tags": "tamilnadu-temple-festivals",
     "offset": -9
   },
   {
-    "jsonClass": "HinduCalendarEvent",
+    "jsonClass": "HinduCalendarEventOld",
     "id": "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##4##m nAL\u2014yAn2ai vAhanattil murugan2-ambAL bhavan2i",
     "anchor_festival_id": "ta:tiruccendUr AvaNit tiruvizhA nir2aivu",
     "tags": "tamilnadu-temple-festivals",
     "offset": -8
   },
   {
-    "jsonClass": "HinduCalendarEvent",
+    "jsonClass": "HinduCalendarEventOld",
     "id": "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##5##m nAL",
     "anchor_festival_id": "ta:tiruccendUr AvaNit tiruvizhA nir2aivu",
     "tags": "tamilnadu-temple-festivals",
     "offset": -7
   },
   {
-    "jsonClass": "HinduCalendarEvent",
+    "jsonClass": "HinduCalendarEventOld",
     "id": "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##6##m nAL\u2014veLLit tEr bhavan2i",
     "anchor_festival_id": "ta:tiruccendUr AvaNit tiruvizhA nir2aivu",
     "tags": "tamilnadu-temple-festivals",
     "offset": -6
   },
   {
-    "jsonClass": "HinduCalendarEvent",
+    "jsonClass": "HinduCalendarEventOld",
     "id": "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##7##m nAL\u2014cigappu cAtti alaGkAram",
     "anchor_festival_id": "ta:tiruccendUr AvaNit tiruvizhA nir2aivu",
     "tags": "tamilnadu-temple-festivals",
     "offset": -5
   },
   {
-    "jsonClass": "HinduCalendarEvent",
+    "jsonClass": "HinduCalendarEventOld",
     "id": "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##8##m nAL\u2014paccai cAtti alaGkAram",
     "anchor_festival_id": "ta:tiruccendUr AvaNit tiruvizhA nir2aivu",
     "tags": "tamilnadu-temple-festivals",
     "offset": -4
   },
   {
-    "jsonClass": "HinduCalendarEvent",
+    "jsonClass": "HinduCalendarEventOld",
     "id": "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##9##m nAL",
     "anchor_festival_id": "ta:tiruccendUr AvaNit tiruvizhA nir2aivu",
     "tags": "tamilnadu-temple-festivals",
     "offset": -3
   },
   {
-    "jsonClass": "HinduCalendarEvent",
+    "jsonClass": "HinduCalendarEventOld",
     "id": "ta:tiruccendUr murugan2 AvaNit tiruvizhA toDakkam/koDiyEr2r2am",
     "anchor_festival_id": "ta:tiruccendUr AvaNit tiruvizhA nir2aivu",
     "tags": "tamilnadu-temple-festivals",
     "offset": -11
   },
   {
-    "jsonClass": "HinduCalendarEvent",
+    "jsonClass": "HinduCalendarEventOld",
     "id": "ta:tiruccendUr murugan2 mAcit tiruvizhA ##10##m nAL\u2014tEr",
     "anchor_festival_id": "ta:tiruccendUr mAcit tiruvizhA nir2aivu",
     "tags": "tamilnadu-temple-festivals",
     "offset": -2
   },
   {
-    "jsonClass": "HinduCalendarEvent",
+    "jsonClass": "HinduCalendarEventOld",
     "id": "ta:tiruccendUr murugan2 mAcit tiruvizhA ##2##m nAL",
     "anchor_festival_id": "ta:tiruccendUr mAcit tiruvizhA nir2aivu",
     "tags": "tamilnadu-temple-festivals",
     "offset": -10
   },
   {
-    "jsonClass": "HinduCalendarEvent",
+    "jsonClass": "HinduCalendarEventOld",
     "id": "ta:tiruccendUr murugan2 mAcit tiruvizhA ##3##m nAL\u2014murugan2 bhavan2i",
     "anchor_festival_id": "ta:tiruccendUr mAcit tiruvizhA nir2aivu",
     "tags": "tamilnadu-temple-festivals",
     "offset": -9
   },
   {
-    "jsonClass": "HinduCalendarEvent",
+    "jsonClass": "HinduCalendarEventOld",
     "id": "ta:tiruccendUr murugan2 mAcit tiruvizhA ##4##m nAL",
     "anchor_festival_id": "ta:tiruccendUr mAcit tiruvizhA nir2aivu",
     "tags": "tamilnadu-temple-festivals",
     "offset": -8
   },
   {
-    "jsonClass": "HinduCalendarEvent",
+    "jsonClass": "HinduCalendarEventOld",
     "id": "ta:tiruccendUr murugan2 mAcit tiruvizhA ##5##m nAL",
     "anchor_festival_id": "ta:tiruccendUr mAcit tiruvizhA nir2aivu",
     "tags": "tamilnadu-temple-festivals",
     "offset": -7
   },
   {
-    "jsonClass": "HinduCalendarEvent",
+    "jsonClass": "HinduCalendarEventOld",
     "id": "ta:tiruccendUr murugan2 mAcit tiruvizhA ##6##m nAL\u2014veLLit tEr bhavan2i",
     "anchor_festival_id": "ta:tiruccendUr mAcit tiruvizhA nir2aivu",
     "tags": "tamilnadu-temple-festivals",
     "offset": -6
   },
   {
-    "jsonClass": "HinduCalendarEvent",
+    "jsonClass": "HinduCalendarEventOld",
     "id": "ta:tiruccendUr murugan2 mAcit tiruvizhA ##7##m nAL\u2014urugu cattac cEvai/cigappu cAtti alaGkAram",
     "anchor_festival_id": "ta:tiruccendUr mAcit tiruvizhA nir2aivu",
     "tags": "tamilnadu-temple-festivals",
     "offset": -5
   },
   {
-    "jsonClass": "HinduCalendarEvent",
+    "jsonClass": "HinduCalendarEventOld",
     "id": "ta:tiruccendUr murugan2 mAcit tiruvizhA ##8##m nAL\u2014paccai cAtti alaGkAram",
     "anchor_festival_id": "ta:tiruccendUr mAcit tiruvizhA nir2aivu",
     "tags": "tamilnadu-temple-festivals",
     "offset": -4
   },
   {
-    "jsonClass": "HinduCalendarEvent",
+    "jsonClass": "HinduCalendarEventOld",
     "id": "ta:tiruccendUr murugan2 mAcit tiruvizhA ##9##m nAL\u2014taGga kailAca vAhan2am",
     "anchor_festival_id": "ta:tiruccendUr mAcit tiruvizhA nir2aivu",
     "tags": "tamilnadu-temple-festivals",
     "offset": -3
   },
   {
-    "jsonClass": "HinduCalendarEvent",
+    "jsonClass": "HinduCalendarEventOld",
     "id": "ta:tiruccendUr murugan2 mAcit tiruvizhA toDakkam",
     "anchor_festival_id": "ta:tiruccendUr mAcit tiruvizhA nir2aivu",
     "tags": "tamilnadu-temple-festivals",
     "offset": -11
   },
   {
-    "jsonClass": "HinduCalendarEvent",
+    "jsonClass": "HinduCalendarEventOld",
     "id": "ta:tiruccendUr murugan2 teppam",
     "anchor_festival_id": "ta:tiruccendUr mAcit tiruvizhA nir2aivu",
     "tags": "tamilnadu-temple-festivals",
     "offset": -1
   },
   {
-    "jsonClass": "HinduCalendarEvent",
+    "jsonClass": "HinduCalendarEventOld",
     "id": "ta:varagUr ur2iyaDi utsavam",
     "anchor_festival_id": "zrIkRSNajanmASTamI",
     "tags": "tamilnadu-temple-festivals",
     "offset": 1
   },
   {
-    "jsonClass": "HinduCalendarEvent",
+    "jsonClass": "HinduCalendarEventOld",
     "id": "tiruvizalUr gaGgAkarSaNa-mahOtsava-ArambhaH",
     "anchor_festival_id": "tiruvizalUr gaGgAkarSaNa-mahOtsava-samApanam",
     "description_short": {
@@ -422,14 +422,14 @@
     "offset": -9
   },
   {
-    "jsonClass": "HinduCalendarEvent",
+    "jsonClass": "HinduCalendarEventOld",
     "id": "vEGkaTAcalE jyESTha-abhidyEyakAbhiSEkaH (mutyala-kavacam)",
     "anchor_festival_id": "vEGkaTAcalE jyESTha-abhidyEyakAbhiSEkaH (svarNa-kavacam)",
     "tags": "andhra-temple-festivals",
     "offset": -1
   },
   {
-    "jsonClass": "HinduCalendarEvent",
+    "jsonClass": "HinduCalendarEventOld",
     "id": "vEGkaTAcalE jyESTha-abhidyEyakAbhiSEkaH (vajra-kavacam)",
     "anchor_festival_id": "vEGkaTAcalE jyESTha-abhidyEyakAbhiSEkaH (svarNa-kavacam)",
     "tags": "andhra-temple-festivals",
