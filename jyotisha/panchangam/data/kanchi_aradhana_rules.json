@@ -1,5 +1,6 @@
 [
   {
+    "jsonClass": "HinduCalendarEvent",
     "id": "zrI gOvinda bhagavatpAda ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 8,
@@ -10,6 +11,7 @@
     "tags": "kanchi-aradhana-days"
   },
   {
+    "jsonClass": "HinduCalendarEvent",
     "id": "kAJcI 1 jagadguru zrI Adi~zaGkara bhagavatpAda ArAdhanA",
     "month_type": "solar_month",
     "month_number": 2,
@@ -22,6 +24,7 @@
     "references_secondary": ["www.kamakoti.org"]
   },
   {
+    "jsonClass": "HinduCalendarEvent",
     "id": "kAJcI 2 jagadguru zrI surEzvarAcArya ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 3,
@@ -34,6 +37,7 @@
     "references_secondary": ["www.kamakoti.org"]
   },
   {
+    "jsonClass": "HinduCalendarEvent",
     "id": "kAJcI 3 jagadguru zrI sarvajJAtmEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 2,
@@ -46,6 +50,7 @@
     "references_secondary": ["www.kamakoti.org"]
   },
   {
+    "jsonClass": "HinduCalendarEvent",
     "id": "kAJcI 4 jagadguru zrI satyabOdhEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 9,
@@ -58,6 +63,7 @@
     "references_secondary": ["www.kamakoti.org"]
   },
   {
+    "jsonClass": "HinduCalendarEvent",
     "id": "kAJcI 5 jagadguru zrI jJAnAnandEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 9,
@@ -70,6 +76,7 @@
     "references_secondary": ["www.kamakoti.org"]
   },
   {
+    "jsonClass": "HinduCalendarEvent",
     "id": "kAJcI 6 jagadguru zrI zuddhAnandEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 3,
@@ -82,6 +89,7 @@
     "references_secondary": ["www.kamakoti.org"]
   },
   {
+    "jsonClass": "HinduCalendarEvent",
     "id": "kAJcI 7 jagadguru zrI AnandaghanEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 2,
@@ -94,6 +102,7 @@
     "references_secondary": ["www.kamakoti.org"]
   },
   {
+    "jsonClass": "HinduCalendarEvent",
     "id": "kAJcI 8 jagadguru zrI kaivalyAnandayOgEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 10,
@@ -106,6 +115,7 @@
     "references_secondary": ["www.kamakoti.org"]
   },
   {
+    "jsonClass": "HinduCalendarEvent",
     "id": "kAJcI 9 jagadguru zrI kRpAzGkarEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 8,
@@ -118,6 +128,7 @@
     "references_secondary": ["www.kamakoti.org"]
   },
   {
+    "jsonClass": "HinduCalendarEvent",
     "id": "kAJcI 10 jagadguru zrI surEzvarEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 4,
@@ -130,6 +141,7 @@
     "references_secondary": ["www.kamakoti.org"]
   },
   {
+    "jsonClass": "HinduCalendarEvent",
     "id": "kAJcI 11 jagadguru zrI zivAnanda cidghanEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 11,
@@ -142,6 +154,7 @@
     "references_secondary": ["www.kamakoti.org"]
   },
   {
+    "jsonClass": "HinduCalendarEvent",
     "id": "kAJcI 12 jagadguru zrI candrazEkharEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 4,
@@ -154,6 +167,7 @@
     "references_secondary": ["www.kamakoti.org"]
   },
   {
+    "jsonClass": "HinduCalendarEvent",
     "id": "kAJcI 13 jagadguru zrI saccidghanEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 9,
@@ -166,6 +180,7 @@
     "references_secondary": ["www.kamakoti.org"]
   },
   {
+    "jsonClass": "HinduCalendarEvent",
     "id": "kAJcI 14 jagadguru zrI vidyaghanEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 9,
@@ -178,6 +193,7 @@
     "references_secondary": ["www.kamakoti.org"]
   },
   {
+    "jsonClass": "HinduCalendarEvent",
     "id": "kAJcI 15 jagadguru zrI gaGgAdharEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 1,
@@ -190,6 +206,7 @@
     "references_secondary": ["www.kamakoti.org"]
   },
   {
+    "jsonClass": "HinduCalendarEvent",
     "id": "kAJcI 16 jagadguru zrI ujjvala zaGkarEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 3,
@@ -202,6 +219,7 @@
     "references_secondary": ["www.kamakoti.org"]
   },
   {
+    "jsonClass": "HinduCalendarEvent",
     "id": "kAJcI 17 jagadguru zrI sadAzivEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 3,
@@ -214,6 +232,7 @@
     "references_secondary": ["www.kamakoti.org"]
   },
   {
+    "jsonClass": "HinduCalendarEvent",
     "id": "kAJcI 18 jagadguru zrI yOgatilaka surEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 9,
@@ -226,6 +245,7 @@
     "references_secondary": ["www.kamakoti.org"]
   },
   {
+    "jsonClass": "HinduCalendarEvent",
     "id": "kAJcI 19 jagadguru zrI mArtANDa vidyAghanEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 7,
@@ -238,6 +258,7 @@
     "references_secondary": ["www.kamakoti.org"]
   },
   {
+    "jsonClass": "HinduCalendarEvent",
     "id": "kAJcI 20 jagadguru zrI mUkazaGkarEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 5,
@@ -250,6 +271,7 @@
     "references_secondary": ["www.kamakoti.org"]
   },
   {
+    "jsonClass": "HinduCalendarEvent",
     "id": "kAJcI 21 jagadguru zrI candrazEkharEndra sarasvatI 2 ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 5,
@@ -262,6 +284,7 @@
     "references_secondary": ["www.kamakoti.org"]
   },
   {
+    "jsonClass": "HinduCalendarEvent",
     "id": "kAJcI 22 jagadguru zrI bOdhEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 8,
@@ -274,6 +297,7 @@
     "references_secondary": ["www.kamakoti.org"]
   },
   {
+    "jsonClass": "HinduCalendarEvent",
     "id": "kAJcI 23 jagadguru zrI saccitsukhEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 2,
@@ -286,6 +310,7 @@
     "references_secondary": ["www.kamakoti.org"]
   },
   {
+    "jsonClass": "HinduCalendarEvent",
     "id": "kAJcI 24 jagadguru zrI citsukhEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 5,
@@ -298,6 +323,7 @@
     "references_secondary": ["www.kamakoti.org"]
   },
   {
+    "jsonClass": "HinduCalendarEvent",
     "id": "kAJcI 25 jagadguru zrI saccidAnandaghanEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 4,
@@ -310,6 +336,7 @@
     "references_secondary": ["www.kamakoti.org"]
   },
   {
+    "jsonClass": "HinduCalendarEvent",
     "id": "kAJcI 26 jagadguru zrI prajJAaghanEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 2,
@@ -322,6 +349,7 @@
     "references_secondary": ["www.kamakoti.org"]
   },
   {
+    "jsonClass": "HinduCalendarEvent",
     "id": "kAJcI 27 jagadguru zrI cidvilasEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 1,
@@ -334,6 +362,7 @@
     "references_secondary": ["www.kamakoti.org"]
   },
   {
+    "jsonClass": "HinduCalendarEvent",
     "id": "kAJcI 28 jagadguru zrI mahAdEvEndra sarasvatI 1 ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 8,
@@ -346,6 +375,7 @@
     "references_secondary": ["www.kamakoti.org"]
   },
   {
+    "jsonClass": "HinduCalendarEvent",
     "id": "kAJcI 29 jagadguru zrI purnabhOdhEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 5,
@@ -358,6 +388,7 @@
     "references_secondary": ["www.kamakoti.org"]
   },
   {
+    "jsonClass": "HinduCalendarEvent",
     "id": "kAJcI 30 jagadguru zrI bOdhEndra sarasvatI 2 ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 2,
@@ -370,6 +401,7 @@
     "references_secondary": ["www.kamakoti.org"]
   },
   {
+    "jsonClass": "HinduCalendarEvent",
     "id": "kAJcI 31 jagadguru zrI brahmAnandaghanEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 4,
@@ -382,6 +414,7 @@
     "references_secondary": ["www.kamakoti.org"]
   },
   {
+    "jsonClass": "HinduCalendarEvent",
     "id": "kAJcI 32 jagadguru zrI cidAnandaghanEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 9,
@@ -394,6 +427,7 @@
     "references_secondary": ["www.kamakoti.org"]
   },
   {
+    "jsonClass": "HinduCalendarEvent",
     "id": "kAJcI 33 jagadguru zrI saccidAnanda sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 6,
@@ -406,6 +440,7 @@
     "references_secondary": ["www.kamakoti.org"]
   },
   {
+    "jsonClass": "HinduCalendarEvent",
     "id": "kAJcI 34 jagadguru zrI candrazEkharEndra sarasvatI 3 ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 9,
@@ -418,6 +453,7 @@
     "references_secondary": ["www.kamakoti.org"]
   },
   {
+    "jsonClass": "HinduCalendarEvent",
     "id": "kAJcI 35 jagadguru zrI citsukhEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 4,
@@ -430,6 +466,7 @@
     "references_secondary": ["www.kamakoti.org"]
   },
   {
+    "jsonClass": "HinduCalendarEvent",
     "id": "kAJcI 36 jagadguru zrI citsukhanandEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 7,
@@ -442,6 +479,7 @@
     "references_secondary": ["www.kamakoti.org"]
   },
   {
+    "jsonClass": "HinduCalendarEvent",
     "id": "kAJcI 37 jagadguru zrI vidyAghanEndra sarasvatI 3 ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 10,
@@ -454,6 +492,7 @@
     "references_secondary": ["www.kamakoti.org"]
   },
   {
+    "jsonClass": "HinduCalendarEvent",
     "id": "kAJcI 38 jagadguru zrI abhinavazaGkarEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 4,
@@ -466,6 +505,7 @@
     "references_secondary": ["www.kamakoti.org"]
   },
   {
+    "jsonClass": "HinduCalendarEvent",
     "id": "kAJcI 39 jagadguru zrI saccidvilAsEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 2,
@@ -478,6 +518,7 @@
     "references_secondary": ["www.kamakoti.org"]
   },
   {
+    "jsonClass": "HinduCalendarEvent",
     "id": "kAJcI 40 jagadguru zrI mahAdEvEndra sarasvatI 2 ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 2,
@@ -490,6 +531,7 @@
     "references_secondary": ["www.kamakoti.org"]
   },
   {
+    "jsonClass": "HinduCalendarEvent",
     "id": "kAJcI 41 jagadguru zrI gaGgAdharEndra sarasvatI 2 ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 5,
@@ -502,6 +544,7 @@
     "references_secondary": ["www.kamakoti.org"]
   },
   {
+    "jsonClass": "HinduCalendarEvent",
     "id": "kAJcI 42 jagadguru zrI brahmAnandaghanEndra sarasvatI 2 ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 8,
@@ -514,6 +557,7 @@
     "references_secondary": ["www.kamakoti.org"]
   },
   {
+    "jsonClass": "HinduCalendarEvent",
     "id": "kAJcI 43 jagadguru zrI AnandaghanEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 1,
@@ -526,6 +570,7 @@
     "references_secondary": ["www.kamakoti.org"]
   },
   {
+    "jsonClass": "HinduCalendarEvent",
     "id": "kAJcI 44 jagadguru zrI pUrnabOdhEndra sarasvatI 2 ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 6,
@@ -538,6 +583,7 @@
     "references_secondary": ["www.kamakoti.org"]
   },
   {
+    "jsonClass": "HinduCalendarEvent",
     "id": "kAJcI 45 jagadguru zrI paramazivEndra sarasvatI 1 ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 7,
@@ -550,6 +596,7 @@
     "references_secondary": ["www.kamakoti.org"]
   },
   {
+    "jsonClass": "HinduCalendarEvent",
     "id": "kAJcI 46 jagadguru zrI sAndrAnandabOdhEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 4,
@@ -562,6 +609,7 @@
     "references_secondary": ["www.kamakoti.org"]
   },
   {
+    "jsonClass": "HinduCalendarEvent",
     "id": "kAJcI 47 jagadguru zrI candrazEkharEndra sarasvatI 4 ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 1,
@@ -574,6 +622,7 @@
     "references_secondary": ["www.kamakoti.org"]
   },
   {
+    "jsonClass": "HinduCalendarEvent",
     "id": "kAJcI 48 jagadguru zrI advaitAnandabOdhEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 4,
@@ -586,6 +635,7 @@
     "references_secondary": ["www.kamakoti.org"]
   },
   {
+    "jsonClass": "HinduCalendarEvent",
     "id": "kAJcI 49 jagadguru zrI mahAdEvEndra sarasvatI 3 ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 8,
@@ -598,6 +648,7 @@
     "references_secondary": ["www.kamakoti.org"]
   },
   {
+    "jsonClass": "HinduCalendarEvent",
     "id": "kAJcI 50 jagadguru zrI candracUDEndra sarasvatI 1 ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 3,
@@ -610,6 +661,7 @@
     "references_secondary": ["www.kamakoti.org"]
   },
   {
+    "jsonClass": "HinduCalendarEvent",
     "id": "kAJcI 51 jagadguru zrI vidyAtIrthEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 11,
@@ -622,6 +674,7 @@
     "references_secondary": ["www.kamakoti.org"]
   },
   {
+    "jsonClass": "HinduCalendarEvent",
     "id": "kAJcI 52 jagadguru zrI saGkarAnandEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 1,
@@ -634,6 +687,7 @@
     "references_secondary": ["www.kamakoti.org"]
   },
   {
+    "jsonClass": "HinduCalendarEvent",
     "id": "kAJcI 53 jagadguru zrI pUrNAnanda sadAzivEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 3,
@@ -646,6 +700,7 @@
     "references_secondary": ["www.kamakoti.org"]
   },
   {
+    "jsonClass": "HinduCalendarEvent",
     "id": "kAJcI 54 jagadguru zrI vyAsAcala mahAdEvEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 4,
@@ -658,6 +713,7 @@
     "references_secondary": ["www.kamakoti.org"]
   },
   {
+    "jsonClass": "HinduCalendarEvent",
     "id": "kAJcI 55 jagadguru zrI candracUDEndra sarasvatI 2 ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 10,
@@ -670,6 +726,7 @@
     "references_secondary": ["www.kamakoti.org"]
   },
   {
+    "jsonClass": "HinduCalendarEvent",
     "id": "kAJcI 56 jagadguru zrI sarvajJa sadAziva bOdhEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 1,
@@ -682,6 +739,7 @@
     "references_secondary": ["www.kamakoti.org"]
   },
   {
+    "jsonClass": "HinduCalendarEvent",
     "id": "kAJcI 57 jagadguru zrI paramazivEndra sarasvatI 2 ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 5,
@@ -694,6 +752,7 @@
     "references_secondary": ["www.kamakoti.org"]
   },
   {
+    "jsonClass": "HinduCalendarEvent",
     "id": "kAJcI 58 jagadguru zrI AtmabOdhEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 7,
@@ -706,6 +765,7 @@
     "references_secondary": ["www.kamakoti.org"]
   },
   {
+    "jsonClass": "HinduCalendarEvent",
     "id": "kAJcI 59 jagadguru zrI bhagavannAma bOdhEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 6,
@@ -718,6 +778,7 @@
     "references_secondary": ["www.kamakoti.org"]
   },
   {
+    "jsonClass": "HinduCalendarEvent",
     "id": "kAJcI 60 jagadguru zrI advaitAtmaprakAzEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 1,
@@ -730,6 +791,7 @@
     "references_secondary": ["www.kamakoti.org"]
   },
   {
+    "jsonClass": "HinduCalendarEvent",
     "id": "kAJcI 61 jagadguru zrI mahAdEvEndra sarasvatI 4 ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 3,
@@ -742,6 +804,7 @@
     "references_secondary": ["www.kamakoti.org"]
   },
   {
+    "jsonClass": "HinduCalendarEvent",
     "id": "kAJcI 62 jagadguru zrI candrazEkharEndra sarasvatI 5 ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 10,
@@ -754,6 +817,7 @@
     "references_secondary": ["www.kamakoti.org"]
   },
   {
+    "jsonClass": "HinduCalendarEvent",
     "id": "kAJcI 63 jagadguru zrI mahAdEvEndra sarasvatI 5 ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 4,
@@ -766,6 +830,7 @@
     "references_secondary": ["www.kamakoti.org"]
   },
   {
+    "jsonClass": "HinduCalendarEvent",
     "id": "kAJcI 64 jagadguru zrI candrazEkharEndra sarasvatI 6 ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 8,
@@ -778,6 +843,7 @@
     "references_secondary": ["www.kamakoti.org"]
   },
   {
+    "jsonClass": "HinduCalendarEvent",
     "id": "kAJcI 65 jagadguru zrI sudarzana mahAdEvEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 12,
@@ -790,6 +856,7 @@
     "references_secondary": ["www.kamakoti.org"]
   },
   {
+    "jsonClass": "HinduCalendarEvent",
     "id": "kAJcI 66 jagadguru zrI candrazEkharEndra sarasvatI 7 ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 11,
@@ -802,6 +869,7 @@
     "references_secondary": ["www.kamakoti.org"]
   },
   {
+    "jsonClass": "HinduCalendarEvent",
     "id": "kAJcI 67 jagadguru zrI mahAdEvEndra sarasvatI 5 ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 12,
@@ -814,6 +882,7 @@
     "references_secondary": ["www.kamakoti.org"]
   },
   {
+    "jsonClass": "HinduCalendarEvent",
     "id": "kAJcI 68 jagadguru zrI candrazEkharEndra sarasvatI ArAdhanA",
     "month_type": "lunar_month",
     "month_number": 9,
