@@ -513,8 +513,8 @@ def get_tithi(jd, ayanamsha_id=swe.SIDM_LAHIRI):
     return get_angam(jd, TITHI, ayanamsha_id=ayanamsha_id)
 
 
-def get_kalas(start_span, end_span, part_start, num_parts):
-    """Compute kalas in a given span with specified fractions
+def get_kaalas(start_span, end_span, part_start, num_parts):
+    """Compute kaalas in a given span with specified fractions
 
     Args:
       :param start_span float (jd)

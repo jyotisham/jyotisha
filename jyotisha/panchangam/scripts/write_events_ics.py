@@ -47,10 +47,10 @@ def compute_events(p, json_file):
                 angam_num = event_rules[event_name]['angam_number']
             else:
                 raise(ValueError, "No angam_num mentioned for %s" % event_name)
-            if 'kala' in event_rules[event_name]:
-                kala = event_rules[event_name]['kala']
+            if 'kaala' in event_rules[event_name]:
+                kaala = event_rules[event_name]['kaala']
             else:
-                kala = 'sunrise'
+                kaala = 'sunrise'
             if 'priority' in event_rules[event_name]:
                 priority = event_rules[event_name]['priority']
             else:
@@ -121,12 +121,12 @@ def compute_events(p, json_file):
                     event_name += '-#%d' % event_num
 
                 if angam_sunrise[d] == angam_num_pred or angam_sunrise[d] == angam_num:
-                    angams = p.get_angams_for_kalas(d, get_angam_func, kala)
+                    angams = p.get_angams_for_kaalas(d, get_angam_func, kaala)
                     if angams is None:
                         sys.stderr.write('No angams returned! Skipping festival %s'
                                          % event_name)
                         continue
-                        # Some error, e.g. weird kala, so skip festival
+                        # Some error, e.g. weird kaala, so skip festival
                     if debugEvents:
                         logging.debug('%' * 80)
                         try:
@@ -152,7 +152,7 @@ def compute_events(p, json_file):
                             sys.stderr.write('Assigned paraviddha day for %s!' %
                                              event_name + ' Ignore future warnings!\n')
                     elif priority == 'purvaviddha':
-                        angams_yest = p.get_angams_for_kalas(d - 1, get_angam_func, kala)
+                        angams_yest = p.get_angams_for_kaalas(d - 1, get_angam_func, kaala)
                         if debugEvents:
                             logging.debug("Angams yest & today: %s" % angams_yest)
                         if angams[0] == angam_num or angams[1] == angam_num:
@@ -184,12 +184,12 @@ def compute_events(p, json_file):
                                 logging.debug('Assigned fday = %d' % (d + 1))
                         else:
                             # This means that the correct angam did not
-                            # touch the kalam on either day!
+                            # touch the kaalam on either day!
                             # sys.stderr.write('Could not assign purvaviddha day for %s!\
                             # Please check for unusual cases.\n' % event_name)
                             if angams[2] == angam_num_succ or angams[3] == angam_num_succ:
                                 # Need to assign a day to the festival here
-                                # since the angam did not touch kalam on either day
+                                # since the angam did not touch kaalam on either day
                                 # BUT ONLY IF YESTERDAY WASN'T ALREADY ASSIGNED,
                                 # THIS BEING PURVAVIDDHA
                                 # Perhaps just need better checking of

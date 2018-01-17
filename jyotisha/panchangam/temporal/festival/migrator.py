@@ -9,5 +9,6 @@ def migrate_db():
     festival_rules = json.load(festivals_data, encoding="utf-8")
     pass
 
+
 if __name__ == '__main__':
     migrate_db()
