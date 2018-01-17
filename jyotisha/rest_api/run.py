@@ -24,7 +24,7 @@ params = {
 
 
 def setup_app():
-  app.register_blueprint(api_v1.api_blueprint, url_prefix="/jyotisha")
+  app.register_blueprint(api_v1.api_blueprint)
 
 
 def main():

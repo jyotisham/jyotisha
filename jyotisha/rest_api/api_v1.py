@@ -8,6 +8,7 @@ from flask_restplus import reqparse
 
 from jyotisha.panchangam import scripts
 from jyotisha.panchangam.spatio_temporal import City
+from jyotisha.panchangam.temporal import festival
 
 logging.basicConfig(
   level=logging.DEBUG,
@@ -71,6 +72,15 @@ class DailyCalendarHandler(Resource):
 
 
 # noinspection PyUnresolvedReferences
+@api.route('/events/<string:id>')
+class EventFinder(Resource):
+  def get(self, id):
+    festival.fill_festival_id_to_json()
+    festival_data = festival.festival_id_to_json.get(id)
+    return festival_data
+
+
+# noinspection PyUnresolvedReferences
 @api.route('/times/utc_offsets/<string:offset>/years/<int:year>/months/<int:month>/days/<int:day>/hours/<int:hour>/minutes/<int:minute>/seconds/<int:second>/bodies/<string:body>/nakshatra')
 class NakshatraFinder(Resource):
   def get(self, body, offset, year, month, day, hour, minute, second):
@@ -115,3 +125,5 @@ class RaashiTransitionFinder(Resource):
     transits_utc = [(swe.jdut1_to_utc(ut=transit[0], flag=swe.GREG_CAL), transit[1], transit[2]) for transit in transits]
     transits_local = [(swe.utc_time_zone(year=transit[0][0], month=transit[0][1], day=transit[0][2], hour=transit[0][3], minutes=transit[0][4], seconds=int(transit[0][5]), offset=-float(offset)), transit[1], transit[2]) for transit in transits_utc]
     return str(transits_local)
+
+
