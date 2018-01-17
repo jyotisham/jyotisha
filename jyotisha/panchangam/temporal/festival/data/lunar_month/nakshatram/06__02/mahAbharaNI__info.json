@@ -1,0 +1,17 @@
+{
+  "id": "mahAbharaNI",
+  "jsonClass": "HinduCalendarEvent",
+  "priority": "puurvaviddha",
+  "tags": [
+    "special-pujas",
+    "common-festivals"
+  ],
+  "timing": {
+    "angam_number": 2,
+    "angam_type": "nakshatram",
+    "jsonClass": "HinduCalendarEventTiming",
+    "kaala": "madhyaahna",
+    "month_number": 6,
+    "month_type": "lunar_month"
+  }
+}

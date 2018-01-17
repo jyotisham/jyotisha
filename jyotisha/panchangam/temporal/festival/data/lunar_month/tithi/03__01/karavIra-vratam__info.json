@@ -1,0 +1,21 @@
+{
+  "comments": "Not assigned in 2016",
+  "description_short": {
+    "en": "Perform puja of `karavIra` plants/flowers and then offer them in `arcanA`."
+  },
+  "id": "karavIra-vratam",
+  "jsonClass": "HinduCalendarEvent",
+  "shlokas": [
+    "karavIra viSAvAsa namastE bhAnuvallabha.\nmaulimaNDana durgAdi dEvAnAM satataM priya"
+  ],
+  "tags": [
+    "special-vratams"
+  ],
+  "timing": {
+    "angam_number": 1,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 3,
+    "month_type": "lunar_month"
+  }
+}

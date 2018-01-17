@@ -1,0 +1,17 @@
+{
+  "description_short": {
+    "en": "Offer naivedyam of citrAnnam"
+  },
+  "id": "ta:ADip~perukku",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "tamilnadu-temple-festivals"
+  ],
+  "timing": {
+    "angam_number": 18,
+    "angam_type": "day",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 4,
+    "month_type": "solar_month"
+  }
+}

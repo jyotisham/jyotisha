@@ -1,0 +1,22 @@
+{
+  "description_short": {
+    "en": "Puja of Veda Vyasa / Gurus; Danam of Vishnu Puran is good on this day."
+  },
+  "id": "guru-pUrNimA/vyAsa-pUjA",
+  "jsonClass": "HinduCalendarEvent",
+  "shlokas": [
+    "acaturvadanO brahmA dvibAhuraparO hariH. aphAlalOcanO zambhurbhagavAn bAdArAyaNaH.."
+  ],
+  "tags": [
+    "purnima-days",
+    "special-pujas",
+    "common-festivals"
+  ],
+  "timing": {
+    "angam_number": 15,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 4,
+    "month_type": "lunar_month"
+  }
+}

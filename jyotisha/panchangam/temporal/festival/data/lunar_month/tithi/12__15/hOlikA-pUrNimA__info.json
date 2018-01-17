@@ -1,0 +1,17 @@
+{
+  "id": "hOlikA-pUrNimA",
+  "jsonClass": "HinduCalendarEvent",
+  "priority": "paraviddha",
+  "tags": [
+    "special-pujas",
+    "common-festivals"
+  ],
+  "timing": {
+    "angam_number": 15,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "kaala": "pradosha",
+    "month_number": 12,
+    "month_type": "lunar_month"
+  }
+}

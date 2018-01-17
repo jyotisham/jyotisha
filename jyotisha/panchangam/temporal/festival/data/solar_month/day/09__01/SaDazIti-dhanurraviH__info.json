@@ -1,0 +1,20 @@
+{
+  "description_short": {
+    "en": "Perform danam of clothes/vehicle (e.g. bullock cart)."
+  },
+  "id": "SaDazIti-dhanurraviH",
+  "jsonClass": "HinduCalendarEvent",
+  "shlokas": [
+    "dhanuHpravEzE vastrANAM yAnAnAM ca mahAphalam "
+  ],
+  "tags": [
+    "sun-sankranti"
+  ],
+  "timing": {
+    "angam_number": 1,
+    "angam_type": "day",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 9,
+    "month_type": "solar_month"
+  }
+}

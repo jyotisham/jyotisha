@@ -1,0 +1,14 @@
+{
+  "id": "bhISma-dvAdazI",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "special-pujas"
+  ],
+  "timing": {
+    "angam_number": 12,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 11,
+    "month_type": "lunar_month"
+  }
+}

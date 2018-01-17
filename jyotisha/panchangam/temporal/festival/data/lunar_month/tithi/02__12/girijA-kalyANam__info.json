@@ -1,0 +1,14 @@
+{
+  "id": "girijA-kalyANam",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "sringeri-festivals"
+  ],
+  "timing": {
+    "angam_number": 12,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 2,
+    "month_type": "lunar_month"
+  }
+}

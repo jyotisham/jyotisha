@@ -1,0 +1,17 @@
+{
+  "id": "zRGgErI 34 jagadguru zrI candrazEkhara bhAratI jayantI",
+  "jsonClass": "HinduCalendarEvent",
+  "shlokas": [
+    "sadA''tmadhyAnanirataM viSayEbhyaH paraGmukham .\nnaumi zAstrESu niSNAtaM candrazEkharabhAratIm .."
+  ],
+  "tags": [
+    "mahapurusha-events"
+  ],
+  "timing": {
+    "angam_number": 26,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 7,
+    "month_type": "lunar_month"
+  }
+}

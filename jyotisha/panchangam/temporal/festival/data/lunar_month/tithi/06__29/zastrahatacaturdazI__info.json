@@ -1,0 +1,16 @@
+{
+  "id": "zastrahatacaturdazI",
+  "jsonClass": "HinduCalendarEvent",
+  "priority": "puurvaviddha",
+  "tags": [
+    "less-common-festivals"
+  ],
+  "timing": {
+    "angam_number": 29,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "kaala": "madhyaahna",
+    "month_number": 6,
+    "month_type": "lunar_month"
+  }
+}

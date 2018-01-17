@@ -1,0 +1,17 @@
+{
+  "id": "zani~jayantI",
+  "jsonClass": "HinduCalendarEvent",
+  "references_secondary": [
+    "http://hindupad.com/shani-jayanti-2013/"
+  ],
+  "tags": [
+    "other-jayantis"
+  ],
+  "timing": {
+    "angam_number": 30,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 2,
+    "month_type": "lunar_month"
+  }
+}

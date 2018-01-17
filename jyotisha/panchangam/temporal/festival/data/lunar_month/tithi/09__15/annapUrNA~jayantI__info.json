@@ -1,0 +1,14 @@
+{
+  "id": "annapUrNA~jayantI",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "other-jayantis"
+  ],
+  "timing": {
+    "angam_number": 15,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 9,
+    "month_type": "lunar_month"
+  }
+}

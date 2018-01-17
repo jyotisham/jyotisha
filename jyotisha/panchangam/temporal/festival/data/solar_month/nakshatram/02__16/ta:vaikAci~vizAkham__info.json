@@ -1,0 +1,17 @@
+{
+  "description_short": {
+    "en": "Special puja for Subrahmanya Swami in temples. Birth of Subrahmanya Swami. Worship Him with red flowers."
+  },
+  "id": "ta:vaikAci~vizAkham",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "tamilnadu-temple-festivals"
+  ],
+  "timing": {
+    "angam_number": 16,
+    "angam_type": "nakshatram",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 2,
+    "month_type": "solar_month"
+  }
+}

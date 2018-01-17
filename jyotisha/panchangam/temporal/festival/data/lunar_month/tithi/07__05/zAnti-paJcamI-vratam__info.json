@@ -1,0 +1,14 @@
+{
+  "id": "zAnti-paJcamI-vratam",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "special-vratams"
+  ],
+  "timing": {
+    "angam_number": 5,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 7,
+    "month_type": "lunar_month"
+  }
+}

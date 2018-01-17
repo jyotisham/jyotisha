@@ -1,0 +1,17 @@
+{
+  "description_short": {
+    "en": "Dhan-trayodashi in Gujarat; Lakshmi pooja"
+  },
+  "id": "dhana-trayOdazI",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "common-festivals"
+  ],
+  "timing": {
+    "angam_number": 28,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 7,
+    "month_type": "lunar_month"
+  }
+}

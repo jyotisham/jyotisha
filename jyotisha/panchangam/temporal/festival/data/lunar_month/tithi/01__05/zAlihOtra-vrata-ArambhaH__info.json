@@ -1,0 +1,16 @@
+{
+  "id": "zAlihOtra-vrata-ArambhaH",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "special-vratams",
+    "vratam-start",
+    "special-period-start"
+  ],
+  "timing": {
+    "angam_number": 5,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 1,
+    "month_type": "lunar_month"
+  }
+}

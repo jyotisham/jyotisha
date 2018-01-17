@@ -1,0 +1,14 @@
+{
+  "id": "ASADha-snAnapUrtiH",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "special-snanam"
+  ],
+  "timing": {
+    "angam_number": 30,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 4,
+    "month_type": "lunar_month"
+  }
+}

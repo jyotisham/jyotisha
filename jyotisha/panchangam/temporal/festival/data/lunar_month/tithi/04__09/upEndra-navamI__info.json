@@ -1,0 +1,14 @@
+{
+  "id": "upEndra-navamI",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "less-common-festivals"
+  ],
+  "timing": {
+    "angam_number": 9,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 4,
+    "month_type": "lunar_month"
+  }
+}

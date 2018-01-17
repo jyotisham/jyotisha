@@ -1,0 +1,18 @@
+{
+  "description_short": {
+    "en": "Celebration of completion of Narayaniyam (762 CE), in Guruvayur temple."
+  },
+  "id": "nArAyaNIyaM~jayantI",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "other-jayantis"
+  ],
+  "timing": {
+    "angam_number": 28,
+    "angam_type": "day",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 8,
+    "month_type": "solar_month",
+    "year_start": 3863
+  }
+}

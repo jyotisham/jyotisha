@@ -1,0 +1,17 @@
+{
+  "description_short": {
+    "en": "In Plava Nama year Adi Shankara obtained permission from mother and took manasika sanyasam"
+  },
+  "id": "Adi-zaGkara mAnasika-sannyAsa-dinam",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "adi-shankara-history"
+  ],
+  "timing": {
+    "angam_number": 11,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 8,
+    "month_type": "lunar_month"
+  }
+}

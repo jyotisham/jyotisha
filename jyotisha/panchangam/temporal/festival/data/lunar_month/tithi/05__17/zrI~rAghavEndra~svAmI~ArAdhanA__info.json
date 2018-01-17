@@ -1,0 +1,18 @@
+{
+  "id": "zrI~rAghavEndra~svAmI~ArAdhanA",
+  "jsonClass": "HinduCalendarEvent",
+  "shlokas": [
+    "pujyAya rAghavEndrAya satyadharmaratAya ca.\nbhajatAM kaalavRkSAya namatAM kAmadhEnavE.."
+  ],
+  "tags": [
+    "mahapurusha-events"
+  ],
+  "timing": {
+    "angam_number": 17,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 5,
+    "month_type": "lunar_month",
+    "year_start": 4773
+  }
+}

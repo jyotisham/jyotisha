@@ -1,0 +1,19 @@
+{
+  "id": "lalitA-paJcamI",
+  "jsonClass": "HinduCalendarEvent",
+  "priority": "puurvaviddha",
+  "tags": [
+    "common-festivals"
+  ],
+  "timing": {
+    "angam_number": 5,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "kaala": "aparahna",
+    "month_number": 7,
+    "month_type": "lunar_month"
+  },
+  "titles": [
+    "upAGga-lalitA-vratam"
+  ]
+}

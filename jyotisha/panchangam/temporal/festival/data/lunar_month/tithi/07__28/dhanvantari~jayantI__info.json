@@ -1,0 +1,17 @@
+{
+  "description_short": {
+    "en": "Dhanvantari Jayanti (born as Divodaas King of Kaashi) as per Brahmanda-Puraana (Dvadashi?)"
+  },
+  "id": "dhanvantari~jayantI",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "common-festivals"
+  ],
+  "timing": {
+    "angam_number": 28,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 7,
+    "month_type": "lunar_month"
+  }
+}

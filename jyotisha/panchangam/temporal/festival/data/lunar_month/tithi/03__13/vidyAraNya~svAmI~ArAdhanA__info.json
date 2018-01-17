@@ -1,0 +1,15 @@
+{
+  "id": "vidyAraNya~svAmI~ArAdhanA",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "mahapurusha-events"
+  ],
+  "timing": {
+    "angam_number": 13,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 3,
+    "month_type": "lunar_month",
+    "year_start": 4493
+  }
+}

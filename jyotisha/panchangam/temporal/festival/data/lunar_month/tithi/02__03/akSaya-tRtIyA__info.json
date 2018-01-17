@@ -1,0 +1,22 @@
+{
+  "description_short": {
+    "en": "Daanam of Dadhyodanam, Vyanjanam, Chatram, Paduka, Udaka Kumbham, Mangos, Jackfruit; Lakshmi Narayana Pooja; Gouri Pooja;"
+  },
+  "id": "akSaya-tRtIyA",
+  "jsonClass": "HinduCalendarEvent",
+  "priority": "puurvaviddha",
+  "references_secondary": [
+    "Kielhorn (1897)"
+  ],
+  "tags": [
+    "common-festivals"
+  ],
+  "timing": {
+    "angam_number": 3,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "kaala": "madhyaahna",
+    "month_number": 2,
+    "month_type": "lunar_month"
+  }
+}

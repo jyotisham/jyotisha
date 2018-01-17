@@ -1,0 +1,17 @@
+{
+  "id": "bhISma~jayantI",
+  "jsonClass": "HinduCalendarEvent",
+  "references_secondary": [
+    "http://hindupad.com/bhishma-pitamaha-jayanti/"
+  ],
+  "tags": [
+    "mahapurusha-events"
+  ],
+  "timing": {
+    "angam_number": 24,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 10,
+    "month_type": "lunar_month"
+  }
+}

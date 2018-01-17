@@ -1,0 +1,17 @@
+{
+  "description_short": {
+    "en": "Agastya arghya danam"
+  },
+  "id": "gO-trirAtri-vratam~1",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "special-vratams"
+  ],
+  "timing": {
+    "angam_number": 13,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 6,
+    "month_type": "lunar_month"
+  }
+}

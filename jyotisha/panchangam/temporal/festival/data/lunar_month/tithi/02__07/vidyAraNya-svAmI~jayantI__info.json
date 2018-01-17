@@ -1,0 +1,17 @@
+{
+  "id": "vidyAraNya-svAmI~jayantI",
+  "jsonClass": "HinduCalendarEvent",
+  "references_secondary": [
+    "http://hindupad.com/vidyaranya-jayanti-swami-vidyaranya-jayanthi/"
+  ],
+  "tags": [
+    "mahapurusha-events"
+  ],
+  "timing": {
+    "angam_number": 7,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 2,
+    "month_type": "lunar_month"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "andhakAsura-vadhaH",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "sringeri-festivals"
+  ],
+  "timing": {
+    "angam_number": 5,
+    "angam_type": "nakshatram",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 9,
+    "month_type": "solar_month"
+  }
+}

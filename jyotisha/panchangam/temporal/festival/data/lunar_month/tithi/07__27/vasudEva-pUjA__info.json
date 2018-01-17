@@ -1,0 +1,17 @@
+{
+  "id": "vasudEva-pUjA",
+  "jsonClass": "HinduCalendarEvent",
+  "references_primary": [
+    "Smriti Kaustubham"
+  ],
+  "tags": [
+    "less-common-festivals"
+  ],
+  "timing": {
+    "angam_number": 27,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 7,
+    "month_type": "lunar_month"
+  }
+}

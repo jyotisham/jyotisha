@@ -1,0 +1,17 @@
+{
+  "description_short": {
+    "en": "Perform Tarpana to Yamadharmaraja (even those with father). `jIvatpitA'pi kurvIta tarpaNaM yamabhISmayoH`"
+  },
+  "id": "dIpOtsava-caturdazI/yama-tarpaNam",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "less-common-festivals"
+  ],
+  "timing": {
+    "angam_number": 29,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 7,
+    "month_type": "lunar_month"
+  }
+}

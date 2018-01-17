@@ -1,0 +1,15 @@
+{
+  "id": "zarabha~jayantI",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "less-common-festivals",
+    "other-avatarams"
+  ],
+  "timing": {
+    "angam_number": 15,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 2,
+    "month_type": "lunar_month"
+  }
+}

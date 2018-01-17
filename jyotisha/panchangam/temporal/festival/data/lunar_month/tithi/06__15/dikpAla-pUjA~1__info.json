@@ -1,0 +1,17 @@
+{
+  "description_short": {
+    "en": "Spend this day in Badarikashramam"
+  },
+  "id": "dikpAla-pUjA~1",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "devata-pujas"
+  ],
+  "timing": {
+    "angam_number": 15,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 6,
+    "month_type": "lunar_month"
+  }
+}

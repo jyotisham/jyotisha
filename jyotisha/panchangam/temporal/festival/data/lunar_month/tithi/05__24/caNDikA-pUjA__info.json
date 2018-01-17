@@ -1,0 +1,14 @@
+{
+  "id": "caNDikA-pUjA",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "special-pujas"
+  ],
+  "timing": {
+    "angam_number": 24,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 5,
+    "month_type": "lunar_month"
+  }
+}

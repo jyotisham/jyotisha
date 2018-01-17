@@ -1,0 +1,20 @@
+{
+  "description_short": {
+    "en": "Do `dAnam` of salt, `sundararUpatvasiddhyartham`!"
+  },
+  "id": "mArgazIrSa-pUrNimA",
+  "jsonClass": "HinduCalendarEvent",
+  "references_secondary": [
+    "Vaidikasri Dec 2016"
+  ],
+  "tags": [
+    "purnima-days"
+  ],
+  "timing": {
+    "angam_number": 15,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 9,
+    "month_type": "lunar_month"
+  }
+}

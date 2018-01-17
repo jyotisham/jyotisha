@@ -1,0 +1,26 @@
+{
+  "description_short": {
+    "en": "Perform puja of Shiva-Parvati under a banana tree or on a banana leaf, do naivedyam of 100+ bananas and give away to small girl children."
+  },
+  "id": "kadalI-gaurI-vratam/pUjA",
+  "jsonClass": "HinduCalendarEvent",
+  "references_primary": [
+    "Bhavishyottara Puranam"
+  ],
+  "references_secondary": [
+    "Vaidikasri June 2017"
+  ],
+  "shlokas": [
+    "putrAn dEhi dhanaM dEhi saubhAgyaM sarvamaGgalE.\nsaumaGgalyaM sukhaM jJAnaM dEhi mE zivasundari.."
+  ],
+  "tags": [
+    "less-common-festivals"
+  ],
+  "timing": {
+    "angam_number": 4,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 3,
+    "month_type": "lunar_month"
+  }
+}

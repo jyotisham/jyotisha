@@ -1,0 +1,17 @@
+{
+  "description_short": {
+    "en": "`brahmANI` is one of the seven `mAtRkA`s"
+  },
+  "id": "brahmANI-pUjA",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "special-pujas"
+  ],
+  "timing": {
+    "angam_number": 9,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 3,
+    "month_type": "lunar_month"
+  }
+}

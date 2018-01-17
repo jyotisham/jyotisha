@@ -1,0 +1,14 @@
+{
+  "id": "manvAdi~(svArOciSa)~1",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "manvadi-days"
+  ],
+  "timing": {
+    "angam_number": 15,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 1,
+    "month_type": "lunar_month"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "viSNupadI-vRSabharaviH",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "sun-sankranti"
+  ],
+  "timing": {
+    "angam_number": 1,
+    "angam_type": "day",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 2,
+    "month_type": "solar_month"
+  }
+}

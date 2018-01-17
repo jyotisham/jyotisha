@@ -1,0 +1,21 @@
+{
+  "description_short": {
+    "en": "Lord Mahavishnu sleeps with Goddess Mahalakshmi on this day. Do Puja by placing the God/Goddess on a new bed with pillow/blanket. Do danam of same after puja."
+  },
+  "id": "azUnyazayana-vratam~1",
+  "jsonClass": "HinduCalendarEvent",
+  "shlokas": [
+    "lakSmyA viyujyatE dEva na kadAcit yatO bhavAn .\ntathA kaalatrasambandhO dEva mA mE viyujyatAm .."
+  ],
+  "tags": [
+    "special-vratams"
+  ],
+  "timing": {
+    "angam_number": 17,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "kaala": "moonrise",
+    "month_number": 4,
+    "month_type": "lunar_month"
+  }
+}

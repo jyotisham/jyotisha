@@ -3,7 +3,7 @@ import logging
 import os
 
 from jyotisha.panchangam.spatio_temporal import CODE_ROOT
-from jyotisha.panchangam.temporal.festival import HinduCalendarEventOld
+from jyotisha.panchangam.temporal.festival import HinduCalendarEventOld, HinduCalendarEvent
 
 logging.basicConfig(
   level=logging.DEBUG,
@@ -12,9 +12,13 @@ logging.basicConfig(
 
 
 def migrate_db():
-  events = HinduCalendarEventOld.read_from_file(os.path.join(CODE_ROOT, 'panchangam/data/festival_rules.json'))
-  for event in events:
+  old_style_events = HinduCalendarEventOld.read_from_file(os.path.join(CODE_ROOT, 'panchangam/data/festival_rules.json'))
+  for old_style_event in old_style_events:
+    event = HinduCalendarEvent.from_old_style_event(old_style_event=old_style_event)
     logging.debug(str(event))
+    event_file_name = event.get_storage_file_name(base_dir=os.path.join(CODE_ROOT, 'panchangam/temporal/festival/data'))
+    logging.debug(event_file_name)
+    event.dump_to_file(filename=event_file_name)
 
 
 if __name__ == '__main__':

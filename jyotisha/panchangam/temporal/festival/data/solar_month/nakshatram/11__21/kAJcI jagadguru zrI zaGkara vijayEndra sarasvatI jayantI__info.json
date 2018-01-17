@@ -1,0 +1,15 @@
+{
+  "id": "kAJcI jagadguru zrI zaGkara vijayEndra sarasvatI jayantI",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "mahapurusha-events"
+  ],
+  "timing": {
+    "angam_number": 21,
+    "angam_type": "nakshatram",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 11,
+    "month_type": "solar_month",
+    "year_start": 5069
+  }
+}

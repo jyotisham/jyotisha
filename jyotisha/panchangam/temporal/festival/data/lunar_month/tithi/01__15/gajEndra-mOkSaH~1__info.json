@@ -1,0 +1,15 @@
+{
+  "id": "gajEndra-mOkSaH~1",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "purana-events",
+    "common-festivals"
+  ],
+  "timing": {
+    "angam_number": 15,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 1,
+    "month_type": "lunar_month"
+  }
+}

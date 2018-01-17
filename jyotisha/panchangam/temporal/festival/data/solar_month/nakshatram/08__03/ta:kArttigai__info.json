@@ -1,0 +1,16 @@
+{
+  "id": "ta:kArttigai",
+  "jsonClass": "HinduCalendarEvent",
+  "priority": "puurvaviddha",
+  "tags": [
+    "common-festivals"
+  ],
+  "timing": {
+    "angam_number": 3,
+    "angam_type": "nakshatram",
+    "jsonClass": "HinduCalendarEventTiming",
+    "kaala": "ratrimana",
+    "month_number": 8,
+    "month_type": "solar_month"
+  }
+}

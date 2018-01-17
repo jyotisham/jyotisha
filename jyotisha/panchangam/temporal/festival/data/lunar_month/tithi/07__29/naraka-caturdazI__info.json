@@ -1,0 +1,17 @@
+{
+  "description_short": {
+    "en": "\n*ShriKrishna killed Muraasura and Narakaasura on this day.\n*Must do Taila-abhyangana-snaanam in early morning before sunrise, else Narakam (as per PadmaPurana) . If done, equal to GangaSnanam and avoids YamaYaatanam. Use water stored from previous day. Previous day night do pooja to water. Use this water on Chaturdashi. With plough uproot Upaamaarga-vruksham (small one) and put in the water. (DO NOT PLUCK WITH HAND). Do dhyaanam of Seeta.\n* As per KalikaPuranam, Naraka was also upraised by Janaka. He was then sent to PraajyotishaPuram."
+  },
+  "id": "naraka-caturdazI",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "common-festivals"
+  ],
+  "timing": {
+    "angam_number": 29,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 7,
+    "month_type": "lunar_month"
+  }
+}

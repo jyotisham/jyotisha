@@ -1,0 +1,17 @@
+{
+  "id": "lakSmI-varAha~jayantI",
+  "jsonClass": "HinduCalendarEvent",
+  "shlokas": [
+    "jitaM jitaM tE'jita yajJabhAvana trayIM tanuM svAM paridhunvatE namaH.\nyadrOmagartESu nililyuraddhayastasmai namaH kAraNasUkarAya tE..3-13-35..\n\u2014zrImadbhAgavatE mahApurANE tRtIyEskandhE trayOdazE'dhyAyE "
+  ],
+  "tags": [
+    "dashavataram"
+  ],
+  "timing": {
+    "angam_number": 20,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 1,
+    "month_type": "lunar_month"
+  }
+}

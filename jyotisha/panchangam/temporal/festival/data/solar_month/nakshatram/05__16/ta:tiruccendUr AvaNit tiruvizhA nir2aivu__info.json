@@ -1,0 +1,14 @@
+{
+  "id": "ta:tiruccendUr AvaNit tiruvizhA nir2aivu",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "tamilnadu-temple-festivals"
+  ],
+  "timing": {
+    "angam_number": 16,
+    "angam_type": "nakshatram",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 5,
+    "month_type": "solar_month"
+  }
+}

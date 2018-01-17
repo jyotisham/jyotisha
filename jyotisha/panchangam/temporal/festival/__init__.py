@@ -52,6 +52,37 @@ class HinduCalendarEventTiming(common.JsonObject):
     }
   }))
 
+  @classmethod
+  def from_details(cls, month_type, month_number, angam_type, angam_number, kaala, year_start):
+    timing = HinduCalendarEventTiming()
+    timing.month_type = month_type
+    timing.month_number = month_number
+    timing.angam_type = angam_type
+    timing.angam_number = angam_number
+    timing.kaala = kaala
+    timing.year_start = year_start
+    timing.validate_schema()
+    return timing
+
+
+  @classmethod
+  def from_old_style_event(cls, old_style_event):
+    timing = HinduCalendarEventTiming()
+    if hasattr(old_style_event, "month_type"):
+      timing.month_type = old_style_event.month_type
+    if hasattr(old_style_event, "month_number"):
+      timing.month_number = old_style_event.month_number
+    if hasattr(old_style_event, "angam_type"):
+      timing.angam_type = old_style_event.angam_type
+    if hasattr(old_style_event, "angam_number"):
+      timing.angam_number = old_style_event.angam_number
+    if hasattr(old_style_event, "kaala"):
+      timing.kaala = old_style_event.kaala
+    if hasattr(old_style_event, "year_start"):
+      timing.year_start = old_style_event.year_start
+    timing.validate_schema()
+    return timing
+
 
 class HinduCalendarEventOld(common.JsonObject):
   pass
@@ -64,12 +95,12 @@ class HinduCalendarEvent(common.JsonObject):
       common.TYPE_FIELD: {
         "enum": ["HinduCalendarEvent"]
       },
-      "timing": {
-        "type": HinduCalendarEventTiming.schema
-      },
+      "timing": HinduCalendarEventTiming.schema,
       "tags": {
         "type": "array",
-        "items": "string",
+        "items": {
+          "type": "string"
+        },
         "description": "",
       },
       "priority": {
@@ -85,22 +116,67 @@ class HinduCalendarEvent(common.JsonObject):
         "description": "",
       },
       "titles": {
-        "type": "string",
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
       },
       "shlokas": {
         "type": "array",
-        "items": "string"
+        "items": {
+          "type": "string"
+        }
       },
       "references_primary": {
         "type": "array",
-        "items": "string"
+        "items": {
+          "type": "string"
+        }
       },
       "references_secondary": {
         "type": "array",
-        "items": "string"
+        "items": {
+          "type": "string"
+        }
       },
     }
   }))
+
+  @classmethod
+  def from_old_style_event(cls, old_style_event):
+    event = HinduCalendarEvent()
+    event.timing = HinduCalendarEventTiming.from_old_style_event(old_style_event=old_style_event)
+    if hasattr(old_style_event, "id"):
+      event.id = old_style_event.id
+    if hasattr(old_style_event, "tags") and old_style_event.tags is not None:
+      event.tags = [x.strip() for x in old_style_event.tags.split(",")]
+    if hasattr(old_style_event, "titles") and old_style_event.titles is not None:
+      event.titles = [x.strip() for x in old_style_event.titles.split(";")]
+    if hasattr(old_style_event, "shlokas"):
+      event.shlokas = old_style_event.shlokas
+    if hasattr(old_style_event, "priority"):
+      event.priority = old_style_event.priority
+    if hasattr(old_style_event, "comments"):
+      event.comments = old_style_event.comments
+    if hasattr(old_style_event, "references_primary"):
+      event.references_primary = old_style_event.references_primary
+    if hasattr(old_style_event, "references_secondary"):
+      event.references_secondary = old_style_event.references_secondary
+    if hasattr(old_style_event, "description_short"):
+      event.description_short = old_style_event.description_short
+
+    event.validate_schema()
+    return event
+
+  def get_storage_file_name(self, base_dir):
+    return "%(base_dir)s/%(month_type)s/%(angam_type)s/%(month_number)02d__%(angam_number)02d/%(id)s__info.json" % dict(
+      base_dir=base_dir,
+      month_type=self.timing.month_type,
+      angam_type=self.timing.angam_type,
+      month_number=self.timing.month_number,
+      angam_number=self.timing.angam_number,
+      id=self.id
+    )
 
 
 def read_old_festival_rules_dict(file_name):

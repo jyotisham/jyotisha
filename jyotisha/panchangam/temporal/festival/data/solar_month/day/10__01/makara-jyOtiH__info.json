@@ -1,0 +1,17 @@
+{
+  "description_short": {
+    "en": "Darshan of Makara Jyoti in Sabarimala Ayyappa Temple."
+  },
+  "id": "makara-jyOtiH",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "kerala-temple-festivals"
+  ],
+  "timing": {
+    "angam_number": 1,
+    "angam_type": "day",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 10,
+    "month_type": "solar_month"
+  }
+}

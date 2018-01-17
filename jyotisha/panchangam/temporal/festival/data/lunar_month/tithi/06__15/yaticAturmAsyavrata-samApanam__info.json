@@ -1,0 +1,16 @@
+{
+  "id": "yaticAturmAsyavrata-samApanam",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "special-period-end",
+    "vratam-end",
+    "common-festivals"
+  ],
+  "timing": {
+    "angam_number": 15,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 6,
+    "month_type": "lunar_month"
+  }
+}

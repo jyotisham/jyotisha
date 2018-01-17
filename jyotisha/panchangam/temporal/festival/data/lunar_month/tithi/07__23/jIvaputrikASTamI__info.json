@@ -1,0 +1,17 @@
+{
+  "id": "jIvaputrikASTamI",
+  "jsonClass": "HinduCalendarEvent",
+  "references_primary": [
+    "Krutyasaara samucchayam"
+  ],
+  "tags": [
+    "less-common-festivals"
+  ],
+  "timing": {
+    "angam_number": 23,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 7,
+    "month_type": "lunar_month"
+  }
+}

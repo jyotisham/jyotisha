@@ -1,0 +1,17 @@
+{
+  "description_short": {
+    "en": "Goddess Tripura Bhairavi is 5th of the Dasha Maha Vidyas."
+  },
+  "id": "tripura~bhairavI~jayantI",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "dashamahavidya"
+  ],
+  "timing": {
+    "angam_number": 15,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 9,
+    "month_type": "lunar_month"
+  }
+}

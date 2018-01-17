@@ -1,0 +1,14 @@
+{
+  "id": "siMhAcalaM-candana-mahOtsavaH",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "andhra-temple-festivals"
+  ],
+  "timing": {
+    "angam_number": 9,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 2,
+    "month_type": "lunar_month"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "cAmuNDEzvarI~jayantI",
+  "jsonClass": "HinduCalendarEvent",
+  "references_secondary": [
+    "http://hindupad.com/chamundeshwari-jayanti-birthday-of-goddess-chamundeshwari-mata/"
+  ],
+  "tags": [
+    "other-jayantis"
+  ],
+  "timing": {
+    "angam_number": 22,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 4,
+    "month_type": "lunar_month"
+  }
+}

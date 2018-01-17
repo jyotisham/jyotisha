@@ -1,0 +1,14 @@
+{
+  "id": "ta:naTarAjar An2i tirumaJcan2am",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "tamilnadu-temple-festivals"
+  ],
+  "timing": {
+    "angam_number": 12,
+    "angam_type": "nakshatram",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 3,
+    "month_type": "solar_month"
+  }
+}

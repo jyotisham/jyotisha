@@ -1,0 +1,17 @@
+{
+  "description_short": {
+    "en": "Conduct veda parayanam in the evening, on one of these 48 days."
+  },
+  "id": "kRttikA-maNDala-pArAyaNam",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "special-period-start"
+  ],
+  "timing": {
+    "angam_number": 1,
+    "angam_type": "day",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 8,
+    "month_type": "solar_month"
+  }
+}

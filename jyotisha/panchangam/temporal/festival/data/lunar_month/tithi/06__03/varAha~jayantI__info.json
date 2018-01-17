@@ -1,0 +1,16 @@
+{
+  "id": "varAha~jayantI",
+  "jsonClass": "HinduCalendarEvent",
+  "priority": "puurvaviddha",
+  "tags": [
+    "dashavataram"
+  ],
+  "timing": {
+    "angam_number": 3,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "kaala": "aparahna",
+    "month_number": 6,
+    "month_type": "lunar_month"
+  }
+}

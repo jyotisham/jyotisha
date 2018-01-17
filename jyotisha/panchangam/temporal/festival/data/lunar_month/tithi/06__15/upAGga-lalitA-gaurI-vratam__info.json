@@ -1,0 +1,17 @@
+{
+  "id": "upAGga-lalitA-gaurI-vratam",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "special-vratams"
+  ],
+  "timing": {
+    "angam_number": 15,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 6,
+    "month_type": "lunar_month"
+  },
+  "titles": [
+    "vandhyatvahArI-liGgArcanA-vratam/putra-vratam\nvaruNa-vratam\nbrahma-sAvitrI-vratam\nazoka-trirAtri-vratam"
+  ]
+}

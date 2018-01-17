@@ -1,0 +1,15 @@
+{
+  "id": "zyAmA~zAstrI~jayantI",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "mahapurusha-events"
+  ],
+  "timing": {
+    "angam_number": 3,
+    "angam_type": "nakshatram",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 1,
+    "month_type": "solar_month",
+    "year_start": 4863
+  }
+}

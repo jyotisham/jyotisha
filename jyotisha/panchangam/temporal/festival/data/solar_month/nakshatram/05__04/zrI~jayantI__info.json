@@ -1,0 +1,14 @@
+{
+  "id": "zrI~jayantI",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "dashavataram"
+  ],
+  "timing": {
+    "angam_number": 4,
+    "angam_type": "nakshatram",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 5,
+    "month_type": "solar_month"
+  }
+}

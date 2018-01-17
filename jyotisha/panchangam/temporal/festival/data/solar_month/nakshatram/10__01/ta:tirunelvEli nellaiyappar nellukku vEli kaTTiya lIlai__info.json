@@ -1,0 +1,16 @@
+{
+  "id": "ta:tirunelvEli nellaiyappar nellukku vEli kaTTiya lIlai",
+  "jsonClass": "HinduCalendarEvent",
+  "priority": "puurvaviddha",
+  "tags": [
+    "tamilnadu-temple-festivals"
+  ],
+  "timing": {
+    "angam_number": 1,
+    "angam_type": "nakshatram",
+    "jsonClass": "HinduCalendarEventTiming",
+    "kaala": "sunrise",
+    "month_number": 10,
+    "month_type": "solar_month"
+  }
+}

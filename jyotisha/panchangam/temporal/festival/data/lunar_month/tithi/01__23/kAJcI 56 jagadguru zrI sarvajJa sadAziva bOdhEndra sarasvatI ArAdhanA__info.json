@@ -1,0 +1,20 @@
+{
+  "id": "kAJcI 56 jagadguru zrI sarvajJa sadAziva bOdhEndra sarasvatI ArAdhanA",
+  "jsonClass": "HinduCalendarEvent",
+  "priority": "puurvaviddha",
+  "references_secondary": [
+    "www.kamakoti.org"
+  ],
+  "tags": [
+    "kanchi-aradhana-days"
+  ],
+  "timing": {
+    "angam_number": 23,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "kaala": "madhyaahna",
+    "month_number": 1,
+    "month_type": "lunar_month",
+    "year_start": 4640
+  }
+}

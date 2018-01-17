@@ -1,0 +1,17 @@
+{
+  "id": "mAgha-snAnapUrtiH",
+  "jsonClass": "HinduCalendarEvent",
+  "references_secondary": [
+    "Vaidikasri Feb 2017"
+  ],
+  "tags": [
+    "special-snanam"
+  ],
+  "timing": {
+    "angam_number": 30,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 11,
+    "month_type": "lunar_month"
+  }
+}

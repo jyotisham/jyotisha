@@ -1,0 +1,17 @@
+{
+  "description_short": {
+    "en": "Offer naivedyam of `gudAnnam` to Vishnu, as mentioned in the Tiruppavai 27"
+  },
+  "id": "ta:kUDAravallI",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "tamil-festivals"
+  ],
+  "timing": {
+    "angam_number": 27,
+    "angam_type": "day",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 9,
+    "month_type": "solar_month"
+  }
+}

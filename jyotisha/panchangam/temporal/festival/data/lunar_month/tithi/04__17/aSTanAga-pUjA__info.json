@@ -1,0 +1,17 @@
+{
+  "id": "aSTanAga-pUjA",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "special-pujas"
+  ],
+  "timing": {
+    "angam_number": 17,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 4,
+    "month_type": "lunar_month"
+  },
+  "titles": [
+    "Manasa Puja"
+  ]
+}

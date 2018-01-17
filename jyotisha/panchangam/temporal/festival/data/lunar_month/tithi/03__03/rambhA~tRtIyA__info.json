@@ -1,0 +1,24 @@
+{
+  "description_short": {
+    "en": "Rambha Vratam; perform Savitri pooja near Banana tree. Offer naivedyam of bananas prepared with ghee."
+  },
+  "id": "rambhA~tRtIyA",
+  "jsonClass": "HinduCalendarEvent",
+  "references_secondary": [
+    "Kielhorn (1897)",
+    "Vaidikasri June 2017"
+  ],
+  "shlokas": [
+    "puSpamaNDapikA kAryA rambhAstambhOpazObhitA.\ntatra sampUjayEddEvIM zaktyA svarNAdinirmitAm ..\n\nvEdESu sarvazAstrESu divi bhUmau rasAtalE.\nzrutO dRSTazca bahuzO na zaktyA rahitaH zivaH.\ntvaM zakstistvaM svadhA svAhA tvaM sAvitrI sarasvatI.\npatiM dEhi sutAndEhi gRhaM dEvi namO'stu tE..\n\n yOSitaH puruSO vA'pi khyAtaM rambhAvrataM bhuvi.\nbhAryAM putraM gRhaM bhOgAn kulavRddhimavApnuyuH.."
+  ],
+  "tags": [
+    "special-vratams"
+  ],
+  "timing": {
+    "angam_number": 3,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 3,
+    "month_type": "lunar_month"
+  }
+}

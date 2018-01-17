@@ -1,0 +1,14 @@
+{
+  "id": "gajEndra-mOkSaH~2",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "purana-events"
+  ],
+  "timing": {
+    "angam_number": 19,
+    "angam_type": "nakshatram",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 5,
+    "month_type": "solar_month"
+  }
+}

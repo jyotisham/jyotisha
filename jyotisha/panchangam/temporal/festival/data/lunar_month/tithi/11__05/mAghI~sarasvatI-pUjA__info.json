@@ -1,0 +1,20 @@
+{
+  "description_short": {
+    "en": "Saraswati Puja, especially in Bengal."
+  },
+  "id": "mAghI~sarasvatI-pUjA",
+  "jsonClass": "HinduCalendarEvent",
+  "references_secondary": [
+    "http://hindupad.com/madana-panchami/"
+  ],
+  "tags": [
+    "special-pujas"
+  ],
+  "timing": {
+    "angam_number": 5,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 11,
+    "month_type": "lunar_month"
+  }
+}

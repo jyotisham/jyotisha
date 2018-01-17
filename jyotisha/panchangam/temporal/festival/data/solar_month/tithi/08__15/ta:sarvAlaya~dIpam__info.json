@@ -1,0 +1,16 @@
+{
+  "id": "ta:sarvAlaya~dIpam",
+  "jsonClass": "HinduCalendarEvent",
+  "priority": "puurvaviddha",
+  "tags": [
+    "common-festivals"
+  ],
+  "timing": {
+    "angam_number": 15,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "kaala": "ratrimana",
+    "month_number": 8,
+    "month_type": "solar_month"
+  }
+}

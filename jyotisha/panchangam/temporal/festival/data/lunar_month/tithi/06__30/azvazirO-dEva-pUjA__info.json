@@ -1,0 +1,17 @@
+{
+  "id": "azvazirO-dEva-pUjA",
+  "jsonClass": "HinduCalendarEvent",
+  "references_primary": [
+    "Hemadri Grantham"
+  ],
+  "tags": [
+    "devata-pujas"
+  ],
+  "timing": {
+    "angam_number": 30,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 6,
+    "month_type": "lunar_month"
+  }
+}

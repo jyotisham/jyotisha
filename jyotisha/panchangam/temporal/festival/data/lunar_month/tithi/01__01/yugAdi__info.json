@@ -1,0 +1,15 @@
+{
+  "id": "yugAdi",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "yugadi",
+    "common-festivals"
+  ],
+  "timing": {
+    "angam_number": 1,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 1,
+    "month_type": "lunar_month"
+  }
+}

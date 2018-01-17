@@ -1,0 +1,16 @@
+{
+  "id": "sarasvatI-AvAhanam",
+  "jsonClass": "HinduCalendarEvent",
+  "priority": "puurvaviddha",
+  "tags": [
+    "common-festivals"
+  ],
+  "timing": {
+    "angam_number": 19,
+    "angam_type": "nakshatram",
+    "jsonClass": "HinduCalendarEventTiming",
+    "kaala": "madhyaahna",
+    "month_number": 7,
+    "month_type": "lunar_month"
+  }
+}
