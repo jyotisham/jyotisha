@@ -19,7 +19,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 2 jagadguru zrI surEzvarAcArya ArAdhanA",
@@ -31,7 +31,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 3 jagadguru zrI sarvajJAtmEndra sarasvatI ArAdhanA",
@@ -43,7 +43,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 4 jagadguru zrI satyabOdhEndra sarasvatI ArAdhanA",
@@ -55,7 +55,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 5 jagadguru zrI jJAnAnandEndra sarasvatI ArAdhanA",
@@ -67,7 +67,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 6 jagadguru zrI zuddhAnandEndra sarasvatI ArAdhanA",
@@ -79,7 +79,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 7 jagadguru zrI AnandaghanEndra sarasvatI ArAdhanA",
@@ -91,7 +91,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 8 jagadguru zrI kaivalyAnandayOgEndra sarasvatI ArAdhanA",
@@ -103,7 +103,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 9 jagadguru zrI kRpAzGkarEndra sarasvatI ArAdhanA",
@@ -115,7 +115,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 10 jagadguru zrI surEzvarEndra sarasvatI ArAdhanA",
@@ -127,7 +127,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 11 jagadguru zrI zivAnanda cidghanEndra sarasvatI ArAdhanA",
@@ -139,7 +139,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 12 jagadguru zrI candrazEkharEndra sarasvatI ArAdhanA",
@@ -151,7 +151,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 13 jagadguru zrI saccidghanEndra sarasvatI ArAdhanA",
@@ -163,7 +163,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 14 jagadguru zrI vidyaghanEndra sarasvatI ArAdhanA",
@@ -175,7 +175,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 15 jagadguru zrI gaGgAdharEndra sarasvatI ArAdhanA",
@@ -187,7 +187,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 16 jagadguru zrI ujjvala zaGkarEndra sarasvatI ArAdhanA",
@@ -199,7 +199,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 17 jagadguru zrI sadAzivEndra sarasvatI ArAdhanA",
@@ -211,7 +211,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 18 jagadguru zrI yOgatilaka surEndra sarasvatI ArAdhanA",
@@ -223,7 +223,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 19 jagadguru zrI mArtANDa vidyAghanEndra sarasvatI ArAdhanA",
@@ -235,7 +235,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 20 jagadguru zrI mUkazaGkarEndra sarasvatI ArAdhanA",
@@ -247,7 +247,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 21 jagadguru zrI candrazEkharEndra sarasvatI 2 ArAdhanA",
@@ -259,7 +259,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 22 jagadguru zrI bOdhEndra sarasvatI ArAdhanA",
@@ -271,7 +271,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 23 jagadguru zrI saccitsukhEndra sarasvatI ArAdhanA",
@@ -283,7 +283,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 24 jagadguru zrI citsukhEndra sarasvatI ArAdhanA",
@@ -295,7 +295,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 25 jagadguru zrI saccidAnandaghanEndra sarasvatI ArAdhanA",
@@ -307,7 +307,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 26 jagadguru zrI prajJAaghanEndra sarasvatI ArAdhanA",
@@ -319,7 +319,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 27 jagadguru zrI cidvilasEndra sarasvatI ArAdhanA",
@@ -331,7 +331,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 28 jagadguru zrI mahAdEvEndra sarasvatI 1 ArAdhanA",
@@ -343,7 +343,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 29 jagadguru zrI purnabhOdhEndra sarasvatI ArAdhanA",
@@ -355,7 +355,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 30 jagadguru zrI bOdhEndra sarasvatI 2 ArAdhanA",
@@ -367,7 +367,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 31 jagadguru zrI brahmAnandaghanEndra sarasvatI ArAdhanA",
@@ -379,7 +379,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 32 jagadguru zrI cidAnandaghanEndra sarasvatI ArAdhanA",
@@ -391,7 +391,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 33 jagadguru zrI saccidAnanda sarasvatI ArAdhanA",
@@ -403,7 +403,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 34 jagadguru zrI candrazEkharEndra sarasvatI 3 ArAdhanA",
@@ -415,7 +415,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 35 jagadguru zrI citsukhEndra sarasvatI ArAdhanA",
@@ -427,7 +427,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 36 jagadguru zrI citsukhanandEndra sarasvatI ArAdhanA",
@@ -439,7 +439,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 37 jagadguru zrI vidyAghanEndra sarasvatI 3 ArAdhanA",
@@ -451,7 +451,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 38 jagadguru zrI abhinavazaGkarEndra sarasvatI ArAdhanA",
@@ -463,7 +463,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 39 jagadguru zrI saccidvilAsEndra sarasvatI ArAdhanA",
@@ -475,7 +475,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 40 jagadguru zrI mahAdEvEndra sarasvatI 2 ArAdhanA",
@@ -487,7 +487,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 41 jagadguru zrI gaGgAdharEndra sarasvatI 2 ArAdhanA",
@@ -499,7 +499,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 42 jagadguru zrI brahmAnandaghanEndra sarasvatI 2 ArAdhanA",
@@ -511,7 +511,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 43 jagadguru zrI AnandaghanEndra sarasvatI ArAdhanA",
@@ -523,7 +523,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 44 jagadguru zrI pUrnabOdhEndra sarasvatI 2 ArAdhanA",
@@ -535,7 +535,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 45 jagadguru zrI paramazivEndra sarasvatI 1 ArAdhanA",
@@ -547,7 +547,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 46 jagadguru zrI sAndrAnandabOdhEndra sarasvatI ArAdhanA",
@@ -559,7 +559,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 47 jagadguru zrI candrazEkharEndra sarasvatI 4 ArAdhanA",
@@ -571,7 +571,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 48 jagadguru zrI advaitAnandabOdhEndra sarasvatI ArAdhanA",
@@ -583,7 +583,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 49 jagadguru zrI mahAdEvEndra sarasvatI 3 ArAdhanA",
@@ -595,7 +595,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 50 jagadguru zrI candracUDEndra sarasvatI 1 ArAdhanA",
@@ -607,7 +607,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 51 jagadguru zrI vidyAtIrthEndra sarasvatI ArAdhanA",
@@ -619,7 +619,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 52 jagadguru zrI saGkarAnandEndra sarasvatI ArAdhanA",
@@ -631,7 +631,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 53 jagadguru zrI pUrNAnanda sadAzivEndra sarasvatI ArAdhanA",
@@ -643,7 +643,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 54 jagadguru zrI vyAsAcala mahAdEvEndra sarasvatI ArAdhanA",
@@ -655,7 +655,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 55 jagadguru zrI candracUDEndra sarasvatI 2 ArAdhanA",
@@ -667,7 +667,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 56 jagadguru zrI sarvajJa sadAziva bOdhEndra sarasvatI ArAdhanA",
@@ -679,7 +679,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 57 jagadguru zrI paramazivEndra sarasvatI 2 ArAdhanA",
@@ -691,7 +691,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 58 jagadguru zrI AtmabOdhEndra sarasvatI ArAdhanA",
@@ -703,7 +703,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 59 jagadguru zrI bhagavannAma bOdhEndra sarasvatI ArAdhanA",
@@ -715,7 +715,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 60 jagadguru zrI advaitAtmaprakAzEndra sarasvatI ArAdhanA",
@@ -727,7 +727,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 61 jagadguru zrI mahAdEvEndra sarasvatI 4 ArAdhanA",
@@ -739,7 +739,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 62 jagadguru zrI candrazEkharEndra sarasvatI 5 ArAdhanA",
@@ -751,7 +751,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 63 jagadguru zrI mahAdEvEndra sarasvatI 5 ArAdhanA",
@@ -763,7 +763,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 64 jagadguru zrI candrazEkharEndra sarasvatI 6 ArAdhanA",
@@ -775,7 +775,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 65 jagadguru zrI sudarzana mahAdEvEndra sarasvatI ArAdhanA",
@@ -787,7 +787,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 66 jagadguru zrI candrazEkharEndra sarasvatI 7 ArAdhanA",
@@ -799,7 +799,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 67 jagadguru zrI mahAdEvEndra sarasvatI 5 ArAdhanA",
@@ -811,7 +811,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 68 jagadguru zrI candrazEkharEndra sarasvatI ArAdhanA",

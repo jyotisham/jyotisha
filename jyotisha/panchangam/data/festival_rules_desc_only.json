@@ -375,13 +375,13 @@
     "id": "*cUDAmaNi-candra-grahaNam",
     "tags": "rare-days",
     "description_short": "When a lunar eclipse occurs on a Monday, it is even more special: `cUDAmaNi`, i.e. crest jewel.",
-    "references_secondary": "Kielhorn, 1897"
+    "references_secondary": ["Kielhorn, 1897"]
   },
   {
     "id": "*cUDAmaNi-sUrya-grahaNam",
     "tags": "rare-days",
     "description_short": "When a solar eclipse occurs on a Sunday, it is even more special: `cUDAmaNi`, i.e. crest jewel.",
-    "references_secondary": "Kielhorn, 1897"
+    "references_secondary": ["Kielhorn, 1897"]
   },
   {
     "id": "ASADha-amAvasyA",
@@ -391,7 +391,7 @@
     "id": "AyuSmAn-bava-saumya",
     "tags": "rare-days",
     "description_short": "A rare combination of `AyuSmAn yOga, bava karaNa` and `saumyavAsara`. Also a source of the normal blessing 'AyuSmAn bava saumya'!",
-    "references_secondary": "Maha Periva / Deivattin Kural"
+    "references_secondary": ["Maha Periva / Deivattin Kural"]
   },
   {
     "id": "jayantI~mahAdvAdazI",

@@ -30,7 +30,7 @@
     "angam_type": "tithi",
     "angam_number": 3,
     "tags": "common-festivals,devi-pujas",
-    "references_secondary": "Kielhorn (1897)"
+    "references_secondary": ["Kielhorn (1897)"]
   },
   {
     "id": "matsya~jayantI",
@@ -41,7 +41,7 @@
     "kala": "aparahna",
     "priority": "purvaviddha",
     "tags": "dashavataram",
-    "references_secondary": "Kielhorn (1897)"
+    "references_secondary": ["Kielhorn (1897)"]
   },
   {
     "id": "manvAdi~(uttama)~1",
@@ -74,7 +74,7 @@
     "angam_type": "tithi",
     "angam_number": 8,
     "tags": "common-festivals",
-    "references_secondary": "Kielhorn (1897)"
+    "references_secondary": ["Kielhorn (1897)"]
   },
   {
     "id": "zrIrAmanavamI",
@@ -272,7 +272,7 @@
     "priority": "purvaviddha",
     "tags": "common-festivals",
     "description_short": "Daanam of Dadhyodanam, Vyanjanam, Chatram, Paduka, Udaka Kumbham, Mangos, Jackfruit; Lakshmi Narayana Pooja; Gouri Pooja;",
-    "references_secondary": "Kielhorn (1897)"
+    "references_secondary": ["Kielhorn (1897)"]
   },
   {
     "id": "rAja-mAtaGgI~jayantI",
@@ -282,7 +282,7 @@
     "angam_number": 3,
     "tags": "dashamahavidya,less-common-festivals",
     "description_short": "Goddess Raja Matangi is 9th of the Dasha Maha Vidyas.",
-    "references_secondary": "Kielhorn (1897)"
+    "references_secondary": ["Kielhorn (1897)"]
   },
   {
     "id": "balarAma~jayantI",
@@ -376,7 +376,7 @@
     "tags": "special-pujas",
     "description_short": "Worship Surya Bhagavan in a vessel (`kumbha`) filled with sugar, followed by `dAnam` of the same.",
     "shlokas": "zarkarAsaptamI caiva vAjimEdhaphalapradA.\nsarvaduHkhaprazamanI sarvasampatpradAyinI..",
-    "references_secondary": "Vaidikasri May 2016",
+    "references_secondary": ["Vaidikasri May 2016"],
     "references_primary": "Smriti Kaustubham - 112"
   },
   {
@@ -388,7 +388,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "common-festivals",
-    "references_secondary": "Kielhorn (1897)"
+    "references_secondary": ["Kielhorn (1897)"]
   },
   {
     "id": "siMhAcalaM-candana-mahOtsavaH",
@@ -453,7 +453,7 @@
     "priority": "purvaviddha",
     "tags": "dashavataram,less-common-festivals",
     "description_short": "Danam of Brahma puranam",
-    "references_secondary": "Kielhorn (1897)"
+    "references_secondary": ["Kielhorn (1897)"]
   },
   {
     "id": "kAJcI kAmakOTi-maTha-pratiSThApana~jayantI",
@@ -484,7 +484,7 @@
     "tags": "special-snanam",
     "description_short": "Perform snana four ghatikas before sunrise (during `aruNodayam`, when the Moon is still up, on the full-moon days of `ASADha`, `kArtika`, `mAgha` and `vaizAkha` \u2013 hence the name `A-kA-mA-vai`) bestows strength, beauty, fame, dharma, knowledge, happiness, fortitude and health.",
     "shlokas": "balaM rUpaM yazO dharmaM jJAnamAyuH sukhaM dhRtim .\nArOgyaM paramApnOti samyak snAnEna mAnavaH ..",
-    "references_secondary": "Vaidikasri",
+    "references_secondary": ["Vaidikasri"],
     "references_primary": "Satyavrata Smriti"
   },
   {
@@ -567,7 +567,7 @@
     "tags": "special-vratams",
     "description_short": "Rambha Vratam; perform Savitri pooja near Banana tree. Offer naivedyam of bananas prepared with ghee.",
     "shlokas": "puSpamaNDapikA kAryA rambhAstambhOpazObhitA.\ntatra sampUjayEddEvIM zaktyA svarNAdinirmitAm ..\n\nvEdESu sarvazAstrESu divi bhUmau rasAtalE.\nzrutO dRSTazca bahuzO na zaktyA rahitaH zivaH.\ntvaM zakstistvaM svadhA svAhA tvaM sAvitrI sarasvatI.\npatiM dEhi sutAndEhi gRhaM dEvi namO'stu tE..\n\n yOSitaH puruSO vA'pi khyAtaM rambhAvrataM bhuvi.\nbhAryAM putraM gRhaM bhOgAn kulavRddhimavApnuyuH..",
-    "references_secondary": "Kielhorn (1897), Vaidikasri June 2017"
+    "references_secondary": ["Kielhorn (1897)", "Vaidikasri June 2017"]
   },
   {
     "id": "umA-avatAraH",
@@ -588,7 +588,7 @@
     "tags": "less-common-festivals",
     "description_short": "Perform puja of Shiva-Parvati under a banana tree or on a banana leaf, do naivedyam of 100+ bananas and give away to small girl children.",
     "shlokas": "putrAn dEhi dhanaM dEhi saubhAgyaM sarvamaGgalE.\nsaumaGgalyaM sukhaM jJAnaM dEhi mE zivasundari..",
-    "references_secondary": "Vaidikasri June 2017",
+    "references_secondary": ["Vaidikasri June 2017"],
     "references_primary": "Bhavishyottara Puranam"
   },
   {
@@ -643,7 +643,7 @@
     "description_short": "Avataranam of Ganga Devi. Bathe in any river and offer arghyam — destroys 10 types of sins (`dazaharA`).",
     "shlokas": "dazamyAM zuklapakSE tu jyESThE mAsE kujE dinE.\ngaGgA'vatIrNA hastarkSE sarvapApaharA smRtA..\n\nyAM kAJcit saritaM prApya dadyAdarghyaM zubhOdakam .\nmucyatE dazabhiH pApaiH sa mahApAtakOpamaiH..",
     "titles": "Ganga Jayanti; Dashapaapa-hara-dashami; Wednesday; Hasta star (Valmiki Ramayana)",
-    "references_secondary": "Vaidikasri June 2017"
+    "references_secondary": ["Vaidikasri June 2017"]
   },
   {
     "id": "gavAmayana-dvAdazI",
@@ -654,7 +654,7 @@
     "tags": "less-common-festivals",
     "description_short": "Perform puja of Lord Trivikrama (Sahasranamarchana), do naivedyam of mangoes and offer annadanam to needy.",
     "shlokas": "ahOrAtrENa dvAdazyAM jyESThE mAsi trivikramam .\ngavAmayanamApnOti apsarObhizca mOdatE..",
-    "references_secondary": "Vaidikasri June 2017",
+    "references_secondary": ["Vaidikasri June 2017"],
     "references_primary": "Mahabharata"
   },
   {
@@ -698,7 +698,7 @@
     "angam_number": 15,
     "tags": "special-vratams",
     "description_short": "Perform puja of banyan tree; begets `saumaGgalyam` and `saubhAgyam`.",
-    "references_secondary": "Vaidikasri June 2017",
+    "references_secondary": ["Vaidikasri June 2017"],
     "references_primary": "Bhavishyottara Puranam"
   },
   {
@@ -902,7 +902,7 @@
     "tags": "special-vratams",
     "description_short": "Perform puja of Mahalakshmi-Mahavishnu",
     "shlokas": "gOpadmamiti vikhyAtaM sarvapApaharaM param .\nsarvaduHkhOpazamanaM sarvasampatpradAyakam .\nsuvAsinyAstu saubhAgyaputrapautrapravardhanam ..",
-    "references_secondary": "Vaidikasri Aug 2015",
+    "references_secondary": ["Vaidikasri Aug 2015"],
     "references_primary": "Vrata Chudamani 173"
   },
   {
@@ -912,7 +912,7 @@
     "angam_type": "tithi",
     "angam_number": 12,
     "tags": "special-vratams",
-    "references_secondary": "https://madhwafestivals.wordpress.com/2016/09/28/go-padma-vrata/"
+    "references_secondary": ["https://madhwafestivals.wordpress.com/2016/09/28/go-padma-vrata/"]
   },
   {
     "id": "zAkavrata-ArambhaH",
@@ -1060,7 +1060,7 @@
     "priority": "paraviddha",
     "tags": "special-snanam",
     "description_short": "Perform snana four ghatikas before sunrise (during `aruNodayam`, when the Moon is still up, on the full-moon days of `ASADha`, `kArtika`, `mAgha` and `vaizAkha` \u2013 hence the name `A-kA-mA-vai`) bestows strength, beauty, fame, dharma, knowledge, happiness, fortitude and health.",
-    "references_secondary": "Vaidikasri",
+    "references_secondary": ["Vaidikasri"],
     "references_primary": "Satyavrata Smriti"
   },
   {
@@ -1216,7 +1216,7 @@
     "kala": "sayahna",
     "priority": "purvaviddha",
     "tags": "less-common-festivals",
-    "references_secondary": "Kielhorn (1897)"
+    "references_secondary": ["Kielhorn (1897)"]
   },
   {
     "id": "rakSA~paJcamI",
@@ -1226,7 +1226,7 @@
     "angam_number": 20,
     "tags": "less-common-festivals",
     "description_short": "Naga (Manasa) Puja",
-    "references_secondary": "Kielhorn (1897)"
+    "references_secondary": ["Kielhorn (1897)"]
   },
   {
     "id": "hala-SaSThI",
@@ -1236,7 +1236,7 @@
     "angam_number": 21,
     "tags": "dashavataram,less-common-festivals",
     "description_short": "Birth of Balarama",
-    "references_secondary": "Kielhorn (1897)"
+    "references_secondary": ["Kielhorn (1897)"]
   },
   {
     "id": "zItalA~saptamI",
@@ -1247,7 +1247,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "less-common-festivals",
-    "references_secondary": "Vaidikasri Aug 2016"
+    "references_secondary": ["Vaidikasri Aug 2016"]
   },
   {
     "id": "zrIkRSNajanmASTamI",
@@ -1379,7 +1379,7 @@
     "angam_number": 3,
     "tags": "special-vratams",
     "description_short": "Puja of Gauri-Maheshwara on Vrishabham, esp. for girls desirous of getting married, like Goddess Parvati sought the hand of Maheshwara, as Himavan's daughter.",
-    "references_secondary": "Vaidikasri Sep 2015",
+    "references_secondary": ["Vaidikasri Sep 2015"],
     "references_primary": "Bhavishyottara Puranam"
   },
   {
@@ -1494,7 +1494,7 @@
     "angam_type": "tithi",
     "angam_number": 9,
     "tags": "vratam-start,special-period-start",
-    "references_secondary": "Vaidikasri Sep 2017"
+    "references_secondary": ["Vaidikasri Sep 2017"]
   },
   {
     "id": "rAdhASTamI",
@@ -1776,7 +1776,7 @@
     "kala": "moonrise",
     "priority": "purvaviddha",
     "tags": "special-pujas",
-    "references_secondary": "Kielhorn (1897)"
+    "references_secondary": ["Kielhorn (1897)"]
   },
   {
     "id": "mahAlakSmI-vrata-samApanam",
@@ -1802,7 +1802,7 @@
     "angam_number": 23,
     "tags": "purana-events",
     "description_short": "Jeemuutavahana is an atma-tyagi vidyadhara Chakravarti. Saved Shankhachuda's (Naaga) life by offering himself to Garuda. From that day Garuda stopped eating snakes.",
-    "references_secondary": "Aamade Jyotishi"
+    "references_secondary": ["Aamade Jyotishi"]
   },
   {
     "id": "azOkASTamI-vrata-ArambhaH",
@@ -1811,7 +1811,7 @@
     "angam_type": "tithi",
     "angam_number": 23,
     "tags": "special-vratams,vratam-start,special-period-start",
-    "references_secondary": "Aamade Jyotishi"
+    "references_secondary": ["Aamade Jyotishi"]
   },
   {
     "id": "kAlabhairavASTamI",
@@ -1828,7 +1828,7 @@
     "angam_type": "tithi",
     "angam_number": 8,
     "tags": "other-jayantis",
-    "references_secondary": "http://hindupad.com/karthaveerya-arjuna-jayanthi-2011-karthaveerya-uthpatthi/"
+    "references_secondary": ["http://hindupad.com/karthaveerya-arjuna-jayanthi-2011-karthaveerya-uthpatthi/"]
   },
   {
     "id": "maNikarNikA-snAnam",
@@ -2173,7 +2173,7 @@
     "tags": "special-vratams,common-festivals",
     "description_short": "Have to play Aksha kreeda only on this day and Ko-jagarti-Vratam (Lakshmi will ask \"who are awake\"). Vaalakhilya Rushi mentioned Ko-jagarti Vratam",
     "shlokas": "nizIthE varadA lakSmIH kO jAgartIti bhASiNI.\ntasmai vittaM prayacchAmi akSaiH krIDAM karOti yaH..",
-    "references_secondary": "Vaidikasri Oct 2015",
+    "references_secondary": ["Vaidikasri Oct 2015"],
     "references_primary": "Dharma Sindhu 142"
   },
   {
@@ -2274,7 +2274,7 @@
     "kala": "moonrise",
     "priority": "purvaviddha",
     "tags": "special-pujas",
-    "references_secondary": "Kielhorn (1897)"
+    "references_secondary": ["Kielhorn (1897)"]
   },
   {
     "id": "ghOTaka-paJcamI",
@@ -2283,7 +2283,7 @@
     "angam_type": "tithi",
     "angam_number": 20,
     "tags": "less-common-festivals",
-    "references_secondary": "Kielhorn (1897)"
+    "references_secondary": ["Kielhorn (1897)"]
   },
   {
     "id": "jImUtavAhana-pUjA~2",
@@ -2293,7 +2293,7 @@
     "angam_number": 23,
     "tags": "special-pujas,less-common-festivals",
     "description_short": "In North India, for progeny",
-    "references_secondary": "Kielhorn (1897)"
+    "references_secondary": ["Kielhorn (1897)"]
   },
   {
     "id": "maGgala-vratam",
@@ -2302,7 +2302,7 @@
     "angam_type": "tithi",
     "angam_number": 23,
     "tags": "special-vratams",
-    "references_secondary": "Kielhorn (1897)",
+    "references_secondary": ["Kielhorn (1897)"],
     "references_primary": "Chaturvarga Chintamani"
   },
   {
@@ -2340,7 +2340,7 @@
     "angam_number": 24,
     "tags": "purana-events",
     "description_short": "Bhava year",
-    "references_secondary": "Kielhorn (1897)"
+    "references_secondary": ["Kielhorn (1897)"]
   },
   {
     "id": "gOvatsa-dvAdazI",
@@ -2501,7 +2501,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "less-common-festivals",
-    "references_secondary": "https://twitter.com/blog_supplement/status/923044462229671936"
+    "references_secondary": ["https://twitter.com/blog_supplement/status/923044462229671936"]
   },
   {
     "id": "pANDava~(lAbha)-paJcamI",
@@ -2656,7 +2656,7 @@
     "priority": "paraviddha",
     "tags": "special-snanam",
     "description_short": "Perform snana four ghatikas before sunrise (during `aruNodayam`, when the Moon is still up, on the full-moon days of `ASADha`, `kArtika`, `mAgha` and `vaizAkha` \u2013 hence the name `A-kA-mA-vai`) bestows strength, beauty, fame, dharma, knowledge, happiness, fortitude and health.",
-    "references_secondary": "Vaidikasri",
+    "references_secondary": ["Vaidikasri"],
     "references_primary": "Satyavrata Smriti"
   },
   {
@@ -2743,7 +2743,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 2 jagadguru zrI surEzvarAcArya ArAdhanA",
@@ -2755,7 +2755,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 3 jagadguru zrI sarvajJAtmEndra sarasvatI ArAdhanA",
@@ -2767,7 +2767,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 4 jagadguru zrI satyabOdhEndra sarasvatI ArAdhanA",
@@ -2779,7 +2779,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 5 jagadguru zrI jJAnAnandEndra sarasvatI ArAdhanA",
@@ -2791,7 +2791,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 6 jagadguru zrI zuddhAnandEndra sarasvatI ArAdhanA",
@@ -2803,7 +2803,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 7 jagadguru zrI AnandaghanEndra sarasvatI ArAdhanA",
@@ -2815,7 +2815,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 8 jagadguru zrI kaivalyAnandayOgEndra sarasvatI ArAdhanA",
@@ -2827,7 +2827,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 9 jagadguru zrI kRpAzGkarEndra sarasvatI ArAdhanA",
@@ -2839,7 +2839,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 10 jagadguru zrI surEzvarEndra sarasvatI ArAdhanA",
@@ -2851,7 +2851,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 11 jagadguru zrI zivAnanda cidghanEndra sarasvatI ArAdhanA",
@@ -2863,7 +2863,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 12 jagadguru zrI candrazEkharEndra sarasvatI ArAdhanA",
@@ -2875,7 +2875,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 13 jagadguru zrI saccidghanEndra sarasvatI ArAdhanA",
@@ -2887,7 +2887,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 14 jagadguru zrI vidyAghanEndra sarasvatI ArAdhanA",
@@ -2899,7 +2899,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 15 jagadguru zrI gaGgAdharEndra sarasvatI ArAdhanA",
@@ -2911,7 +2911,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 16 jagadguru zrI ujjvala zaGkarEndra sarasvatI ArAdhanA",
@@ -2923,7 +2923,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 17 jagadguru zrI sadAzivEndra sarasvatI ArAdhanA",
@@ -2935,7 +2935,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 18 jagadguru zrI yOgatilaka surEndra sarasvatI ArAdhanA",
@@ -2947,7 +2947,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 19 jagadguru zrI mArtANDa vidyAghanEndra sarasvatI ArAdhanA",
@@ -2959,7 +2959,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 20 jagadguru zrI mUkazaGkarEndra sarasvatI ArAdhanA",
@@ -2971,7 +2971,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 21 jagadguru zrI candrazEkharEndra sarasvatI 2 ArAdhanA",
@@ -2983,7 +2983,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 22 jagadguru zrI bOdhEndra sarasvatI ArAdhanA",
@@ -2995,7 +2995,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 23 jagadguru zrI saccitsukhEndra sarasvatI ArAdhanA",
@@ -3007,7 +3007,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 24 jagadguru zrI citsukhEndra sarasvatI ArAdhanA",
@@ -3019,7 +3019,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 25 jagadguru zrI saccidAnandaghanEndra sarasvatI ArAdhanA",
@@ -3031,7 +3031,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 26 jagadguru zrI prajJAghanEndra sarasvatI ArAdhanA",
@@ -3043,7 +3043,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 27 jagadguru zrI cidvilasEndra sarasvatI ArAdhanA",
@@ -3055,7 +3055,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 28 jagadguru zrI mahAdEvEndra sarasvatI 1 ArAdhanA",
@@ -3067,7 +3067,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 29 jagadguru zrI pUrNabOdhEndra sarasvatI ArAdhanA",
@@ -3079,7 +3079,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 30 jagadguru zrI bOdhEndra sarasvatI 2 ArAdhanA",
@@ -3091,7 +3091,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 31 jagadguru zrI brahmAnandaghanEndra sarasvatI ArAdhanA",
@@ -3103,7 +3103,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 32 jagadguru zrI cidAnandaghanEndra sarasvatI ArAdhanA",
@@ -3115,7 +3115,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 33 jagadguru zrI saccidAnanda sarasvatI ArAdhanA",
@@ -3127,7 +3127,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 34 jagadguru zrI candrazEkharEndra sarasvatI 3 ArAdhanA",
@@ -3139,7 +3139,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 35 jagadguru zrI citsukhEndra sarasvatI ArAdhanA",
@@ -3151,7 +3151,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 36 jagadguru zrI citsukhanandEndra sarasvatI ArAdhanA",
@@ -3163,7 +3163,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 37 jagadguru zrI vidyAghanEndra sarasvatI 3 ArAdhanA",
@@ -3175,7 +3175,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 38 jagadguru zrI abhinavazaGkarEndra sarasvatI ArAdhanA",
@@ -3187,7 +3187,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 39 jagadguru zrI saccidvilAsEndra sarasvatI ArAdhanA",
@@ -3199,7 +3199,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 40 jagadguru zrI mahAdEvEndra sarasvatI 2 ArAdhanA",
@@ -3211,7 +3211,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 41 jagadguru zrI gaGgAdharEndra sarasvatI 2 ArAdhanA",
@@ -3223,7 +3223,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 42 jagadguru zrI brahmAnandaghanEndra sarasvatI 2 ArAdhanA",
@@ -3235,7 +3235,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 43 jagadguru zrI AnandaghanEndra sarasvatI ArAdhanA",
@@ -3247,7 +3247,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 44 jagadguru zrI pUrNabOdhEndra sarasvatI 2 ArAdhanA",
@@ -3259,7 +3259,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 45 jagadguru zrI paramazivEndra sarasvatI 1 ArAdhanA",
@@ -3271,7 +3271,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 46 jagadguru zrI sAndrAnandabOdhEndra sarasvatI ArAdhanA",
@@ -3283,7 +3283,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 47 jagadguru zrI candrazEkharEndra sarasvatI 4 ArAdhanA",
@@ -3295,7 +3295,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 48 jagadguru zrI advaitAnandabOdhEndra sarasvatI ArAdhanA",
@@ -3307,7 +3307,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 49 jagadguru zrI mahAdEvEndra sarasvatI 3 ArAdhanA",
@@ -3319,7 +3319,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 50 jagadguru zrI candracUDEndra sarasvatI 1 ArAdhanA",
@@ -3331,7 +3331,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 51 jagadguru zrI vidyAtIrthEndra sarasvatI ArAdhanA",
@@ -3343,7 +3343,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 52 jagadguru zrI saGkarAnandEndra sarasvatI ArAdhanA",
@@ -3355,7 +3355,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 53 jagadguru zrI pUrNAnanda sadAzivEndra sarasvatI ArAdhanA",
@@ -3367,7 +3367,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 54 jagadguru zrI vyAsAcala mahAdEvEndra sarasvatI ArAdhanA",
@@ -3379,7 +3379,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 55 jagadguru zrI candracUDEndra sarasvatI 2 ArAdhanA",
@@ -3391,7 +3391,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 56 jagadguru zrI sarvajJa sadAziva bOdhEndra sarasvatI ArAdhanA",
@@ -3403,7 +3403,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 57 jagadguru zrI paramazivEndra sarasvatI 2 ArAdhanA",
@@ -3415,7 +3415,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 58 jagadguru zrI AtmabOdhEndra sarasvatI ArAdhanA",
@@ -3427,7 +3427,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 59 jagadguru zrI bhagavannAma bOdhEndra sarasvatI ArAdhanA",
@@ -3439,7 +3439,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 60 jagadguru zrI advaitAtmaprakAzEndra sarasvatI ArAdhanA",
@@ -3451,7 +3451,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 61 jagadguru zrI mahAdEvEndra sarasvatI 4 ArAdhanA",
@@ -3463,7 +3463,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 62 jagadguru zrI candrazEkharEndra sarasvatI 5 ArAdhanA",
@@ -3475,7 +3475,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 63 jagadguru zrI mahAdEvEndra sarasvatI 5 ArAdhanA",
@@ -3487,7 +3487,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 64 jagadguru zrI candrazEkharEndra sarasvatI 6 ArAdhanA",
@@ -3499,7 +3499,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 65 jagadguru zrI sudarzana mahAdEvEndra sarasvatI ArAdhanA",
@@ -3511,7 +3511,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 66 jagadguru zrI candrazEkharEndra sarasvatI 7 ArAdhanA",
@@ -3523,7 +3523,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 67 jagadguru zrI mahAdEvEndra sarasvatI 5 ArAdhanA",
@@ -3535,7 +3535,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "kanchi-aradhana-days",
-    "references_secondary": "www.kamakoti.org"
+    "references_secondary": ["www.kamakoti.org"]
   },
   {
     "id": "kAJcI 68 jagadguru zrI candrazEkharEndra sarasvatI ArAdhanA",
@@ -3622,7 +3622,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "special-vratams,less-common-festivals",
-    "references_secondary": "Chaturvarga Chintamani",
+    "references_secondary": ["Chaturvarga Chintamani"],
     "references_primary": "Bhavishyottara Puranam"
   },
   {
@@ -3644,7 +3644,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "tags": "special-vratams,less-common-festivals",
-    "references_secondary": "Chaturvarga Chintamani",
+    "references_secondary": ["Chaturvarga Chintamani"],
     "references_primary": "Bhavisyat Purana"
   },
   {
@@ -3675,7 +3675,7 @@
     "angam_number": 15,
     "tags": "purnima-days",
     "description_short": "Do `dAnam` of salt, `sundararUpatvasiddhyartham`!",
-    "references_secondary": "Vaidikasri Dec 2016"
+    "references_secondary": ["Vaidikasri Dec 2016"]
   },
   {
     "id": "annapUrNA~jayantI",
@@ -3737,7 +3737,7 @@
     "angam_number": 1,
     "tags": "navaratri,special-period-start",
     "description_short": "Shyamala Devi specially blesses musicians; honour musicians in this period.",
-    "references_secondary": "Vaidikasri Feb 2016"
+    "references_secondary": ["Vaidikasri Feb 2016"]
   },
   {
     "id": "varakunda-caturthI",
@@ -3749,7 +3749,7 @@
     "priority": "purvaviddha",
     "tags": "special-pujas",
     "shlokas": "mAghazuklacaturthyAM tu kundapuSpaiH sadAzivam .\nsampUjya yO hi naktA''zI samprApnOti zriyaM naraH ..",
-    "references_secondary": "Vaidikasri Feb 2016",
+    "references_secondary": ["Vaidikasri Feb 2016"],
     "references_primary": "Nirnaya Sindhu 162"
   },
   {
@@ -3780,7 +3780,7 @@
     "description_short": "Worship Mahavishnu and Mahalakshmi, Rati Devi and Manmatha with jasmine flowers.",
     "shlokas": "mAghamAsE nRpazrESTha zuklAyAM paJcamItithau.\nratikAmau tu sampUjya kartavyaH sumahOtsavaH..",
     "titles": "madana-paJcamI",
-    "references_secondary": "Vaidikasri Feb 2016",
+    "references_secondary": ["Vaidikasri Feb 2016"],
     "references_primary": "Smriti Kaustubham 479"
   },
   {
@@ -3791,7 +3791,7 @@
     "angam_number": 5,
     "tags": "special-pujas",
     "description_short": "Saraswati Puja, especially in Bengal.",
-    "references_secondary": "http://hindupad.com/madana-panchami/"
+    "references_secondary": ["http://hindupad.com/madana-panchami/"]
   },
   {
     "id": "ratha-saptamI",
@@ -3829,7 +3829,7 @@
     "priority": "purvaviddha",
     "tags": "special-pujas,common-festivals",
     "description_short": "Bhishma obtained mukti on this day; offer tarpana to Bhishma (even those with parents). Brings health, long life and harmony in family.",
-    "references_secondary": "Vaidikasri Feb 2016"
+    "references_secondary": ["Vaidikasri Feb 2016"]
   },
   {
     "id": "vanadurgAnavarAtri-samApanam",
@@ -3882,7 +3882,7 @@
     "tags": "special-pujas",
     "description_short": "Mahavishnu created black til by extreme `tapas` on this day; light til deepam and offer `tilAnnam naivedyam`.",
     "shlokas": "mAghE tu zukladvAdazyAM yatO hi bhagavAn pura.\ntilAn utpAdayAmAsa tapaH kRtvA sudAruNam ..\ntilatailEna dIpAzcha dEyAh dEva gRhESu ca.\nnivEdayEt tilAnEva",
-    "references_secondary": "Vaidikasri Feb 2016"
+    "references_secondary": ["Vaidikasri Feb 2016"]
   },
   {
     "id": "mAgha-pUrNimA",
@@ -3911,7 +3911,7 @@
     "priority": "paraviddha",
     "tags": "special-snanam",
     "description_short": "Perform snana four ghatikas before sunrise (during `aruNodayam`, when the Moon is still up, on the full-moon days of `ASADha`, `kArtika`, `mAgha` and `vaizAkha` \u2013 hence the name `A-kA-mA-vai`) bestows strength, beauty, fame, dharma, knowledge, happiness, fortitude and health.",
-    "references_secondary": "Vaidikasri",
+    "references_secondary": ["Vaidikasri"],
     "references_primary": "Satyavrata Smriti"
   },
   {
@@ -4164,7 +4164,7 @@
     "priority": "purvaviddha",
     "tags": "special-pujas",
     "description_short": "Perform `homa' with fresh rice from paddy.",
-    "references_secondary": "Vaidikasri Nov 2017"
+    "references_secondary": ["Vaidikasri Nov 2017"]
   },
   {
     "id": "AgrayaNa~hOmaH~2",
@@ -4176,7 +4176,7 @@
     "priority": "purvaviddha",
     "tags": "special-pujas",
     "description_short": "Perform `homa' with fresh rice from paddy.",
-    "references_secondary": "Vaidikasri Nov 2017"
+    "references_secondary": ["Vaidikasri Nov 2017"]
   },
   {
     "id": "AgrayaNa~hOmaH~3",
@@ -4188,7 +4188,7 @@
     "priority": "purvaviddha",
     "tags": "special-pujas",
     "description_short": "Perform `homa' with fresh rice from paddy.",
-    "references_secondary": "Vaidikasri Nov 2017"
+    "references_secondary": ["Vaidikasri Nov 2017"]
   },
   {
     "id": "AgrayaNa~hOmaH~4",
@@ -4200,7 +4200,7 @@
     "priority": "purvaviddha",
     "tags": "special-pujas",
     "description_short": "Perform `homa' with fresh rice from paddy.",
-    "references_secondary": "Vaidikasri Nov 2017"
+    "references_secondary": ["Vaidikasri Nov 2017"]
   },
   {
     "id": "sEGgAlipuram anantarAma-dIkSita-ArAdhanA",
@@ -4213,7 +4213,7 @@
     "year_start": 5071,
     "tags": "mahapurusha-events",
     "description_short": "Aradhana Day of Sri Anantarama Dikshitar.",
-    "references_secondary": "Vaidikasri Nov 2017"
+    "references_secondary": ["Vaidikasri Nov 2017"]
   },
   {
     "id": "ta:bharaNI~dIpam",
@@ -5484,7 +5484,7 @@
     "angam_type": "tithi",
     "angam_number": 29,
     "tags": "other-jayantis",
-    "references_secondary": "http://hindupad.com/katyayani-jayanti/"
+    "references_secondary": ["http://hindupad.com/katyayani-jayanti/"]
   },
   {
     "id": "bhIma~caNDI~jayantI",
@@ -5493,7 +5493,7 @@
     "angam_type": "tithi",
     "angam_number": 17,
     "tags": "other-jayantis",
-    "references_secondary": "http://hindupad.com/bhim-chandi-jayanti/"
+    "references_secondary": ["http://hindupad.com/bhim-chandi-jayanti/"]
   },
   {
     "id": "cAmuNDEzvarI~jayantI",
@@ -5502,7 +5502,7 @@
     "angam_type": "tithi",
     "angam_number": 22,
     "tags": "other-jayantis",
-    "references_secondary": "http://hindupad.com/chamundeshwari-jayanti-birthday-of-goddess-chamundeshwari-mata/"
+    "references_secondary": ["http://hindupad.com/chamundeshwari-jayanti-birthday-of-goddess-chamundeshwari-mata/"]
   },
   {
     "id": "vaizAkha-snAnapUrtiH",
@@ -5512,7 +5512,7 @@
     "angam_number": 30,
     "tags": "special-snanam",
     "shlokas": "mAdhavE mESagE bhAnau murArE madhusUdana.\nprAtaH snAnEna mE nAtha phaladO bhava pApahan ..",
-    "references_secondary": "Vaidikasri June 2017"
+    "references_secondary": ["Vaidikasri June 2017"]
   },
   {
     "id": "ASADha-snAnapUrtiH",
@@ -5547,7 +5547,7 @@
     "angam_type": "tithi",
     "angam_number": 30,
     "tags": "special-snanam",
-    "references_secondary": "Vaidikasri Feb 2017"
+    "references_secondary": ["Vaidikasri Feb 2017"]
   },
   {
     "id": "zani~jayantI",
@@ -5556,7 +5556,7 @@
     "angam_type": "tithi",
     "angam_number": 30,
     "tags": "other-jayantis",
-    "references_secondary": "http://hindupad.com/shani-jayanti-2013/"
+    "references_secondary": ["http://hindupad.com/shani-jayanti-2013/"]
   },
   {
     "id": "kazyapa~maharSi~jayantI",
@@ -5565,7 +5565,7 @@
     "angam_type": "tithi",
     "angam_number": 20,
     "tags": "mahapurusha-events",
-    "references_secondary": "http://hindupad.com/kashyap-rishi-jayanti/"
+    "references_secondary": ["http://hindupad.com/kashyap-rishi-jayanti/"]
   },
   {
     "id": "bhadrakALI~jayantI",
@@ -5574,7 +5574,7 @@
     "angam_type": "tithi",
     "angam_number": 26,
     "tags": "other-jayantis",
-    "references_secondary": "http://hindupad.com/bhadrakali-jayanti/"
+    "references_secondary": ["http://hindupad.com/bhadrakali-jayanti/"]
   },
   {
     "id": "satyanArAyaNa~jayantI",
@@ -5584,7 +5584,7 @@
     "angam_number": 2,
     "tags": "andhra-temple-festivals",
     "description_short": "Satyanarayana Swami Jayanti is celebrated in Annavaram Satya Narayana Temple, Andhra Pradesh",
-    "references_secondary": "http://hindupad.com/satyanarayana-swamy-jayanti-in-annavaram-satyanarayana-swamy-temple/"
+    "references_secondary": ["http://hindupad.com/satyanarayana-swamy-jayanti-in-annavaram-satyanarayana-swamy-temple/"]
   },
   {
     "id": "vasiSTha~maharSi~jayantI",
@@ -5593,7 +5593,7 @@
     "angam_type": "tithi",
     "angam_number": 9,
     "tags": "mahapurusha-events",
-    "references_secondary": "http://hindupad.com/vashishta-jayanti/"
+    "references_secondary": ["http://hindupad.com/vashishta-jayanti/"]
   },
   {
     "id": "bagalAmukhI~jayantI",
@@ -5604,7 +5604,7 @@
     "tags": "dashamahavidya",
     "description_short": "Goddess Bagalamukhi is 8th of the Dasha Maha Vidyas.",
     "titles": "pItAmbara-jayantI",
-    "references_secondary": "http://hindupad.com/bagalamukhi-jayanti-bhagalamukhi-jayanthi-pitambara-jayanti/"
+    "references_secondary": ["http://hindupad.com/bagalamukhi-jayanti-bhagalamukhi-jayanthi-pitambara-jayanti/"]
   },
   {
     "id": "vidyAraNya-svAmI~jayantI",
@@ -5613,7 +5613,7 @@
     "angam_type": "tithi",
     "angam_number": 7,
     "tags": "mahapurusha-events",
-    "references_secondary": "http://hindupad.com/vidyaranya-jayanti-swami-vidyaranya-jayanthi/"
+    "references_secondary": ["http://hindupad.com/vidyaranya-jayanti-swami-vidyaranya-jayanthi/"]
   },
   {
     "id": "tyAgarAja~jayantI",
@@ -5623,7 +5623,7 @@
     "angam_number": 7,
     "year_start": 4868,
     "tags": "mahapurusha-events",
-    "references_secondary": "Vaidikasri May 2017"
+    "references_secondary": ["Vaidikasri May 2017"]
   },
   {
     "id": "parAzara~maharSi~jayantI",
@@ -5632,7 +5632,7 @@
     "angam_type": "tithi",
     "angam_number": 1,
     "tags": "mahapurusha-events",
-    "references_secondary": "http://hindupad.com/parashar-jayanti/"
+    "references_secondary": ["http://hindupad.com/parashar-jayanti/"]
   },
   {
     "id": "zuka~maharSi~jayantI",
@@ -5649,7 +5649,7 @@
     "angam_type": "tithi",
     "angam_number": 15,
     "tags": "mahapurusha-events",
-    "references_secondary": "http://hindupad.com/annamacharya-jayanti-2010-birth-annivarsary-date-of-annamayya/"
+    "references_secondary": ["http://hindupad.com/annamacharya-jayanti-2010-birth-annivarsary-date-of-annamayya/"]
   },
   {
     "id": "jhUlElAla~jayantI",
@@ -5658,7 +5658,7 @@
     "angam_type": "tithi",
     "angam_number": 2,
     "tags": "other-jayantis",
-    "references_secondary": "http://hindupad.com/jhulelal-jayanti-2012-date/"
+    "references_secondary": ["http://hindupad.com/jhulelal-jayanti-2012-date/"]
   },
   {
     "id": "yazOdA~jayantI",
@@ -5667,7 +5667,7 @@
     "angam_type": "tithi",
     "angam_number": 21,
     "tags": "other-jayantis",
-    "references_secondary": "http://hindupad.com/mata-yashoda-jayanti/"
+    "references_secondary": ["http://hindupad.com/mata-yashoda-jayanti/"]
   },
   {
     "id": "khODiyAra~mAtA~jayantI",
@@ -5676,7 +5676,7 @@
     "angam_type": "tithi",
     "angam_number": 8,
     "tags": "other-jayantis",
-    "references_secondary": "http://hindupad.com/khodiyar-mata-jayanti/"
+    "references_secondary": ["http://hindupad.com/khodiyar-mata-jayanti/"]
   },
   {
     "id": "mArkaNDEya~jayantI",
@@ -5685,7 +5685,7 @@
     "angam_type": "tithi",
     "angam_number": 4,
     "tags": "mahapurusha-events",
-    "references_secondary": "http://hindupad.com/markandeya-jayanti/"
+    "references_secondary": ["http://hindupad.com/markandeya-jayanti/"]
   },
   {
     "id": "narmadA~jayantI",
@@ -5694,7 +5694,7 @@
     "angam_type": "tithi",
     "angam_number": 7,
     "tags": "other-jayantis",
-    "references_secondary": "http://hindupad.com/narmada-jayanti/"
+    "references_secondary": ["http://hindupad.com/narmada-jayanti/"]
   },
   {
     "id": "bhISma~jayantI",
@@ -5703,7 +5703,7 @@
     "angam_type": "tithi",
     "angam_number": 24,
     "tags": "mahapurusha-events",
-    "references_secondary": "http://hindupad.com/bhishma-pitamaha-jayanti/"
+    "references_secondary": ["http://hindupad.com/bhishma-pitamaha-jayanti/"]
   },
   {
     "id": "dhUmAvatI~jayantI",
@@ -5713,7 +5713,7 @@
     "angam_number": 8,
     "tags": "dashamahavidya",
     "description_short": "Goddess Dhumavati is 7th of the Dasha Maha Vidyas.",
-    "references_secondary": "http://hindupad.com/dhumavati-jayanti-maa-dhumavathi-jayanthi/"
+    "references_secondary": ["http://hindupad.com/dhumavati-jayanti-maa-dhumavathi-jayanthi/"]
   },
   {
     "id": "jyESThASTamI",
@@ -5730,7 +5730,7 @@
     "angam_type": "tithi",
     "angam_number": 9,
     "tags": "less-common-festivals",
-    "references_secondary": "http://www.festivalsofindia.in/maheshnavmi/"
+    "references_secondary": ["http://www.festivalsofindia.in/maheshnavmi/"]
   },
   {
     "id": "dadhIci~maharSi~jayanti",
@@ -5739,7 +5739,7 @@
     "angam_type": "tithi",
     "angam_number": 8,
     "tags": "mahapurusha-events",
-    "references_secondary": "http://hindupad.com/dadhichi-jayanti/"
+    "references_secondary": ["http://hindupad.com/dadhichi-jayanti/"]
   },
   {
     "id": "zAkambharI~jayantI",
@@ -5748,7 +5748,7 @@
     "angam_type": "tithi",
     "angam_number": 15,
     "tags": "other-jayantis",
-    "references_secondary": "http://hindupad.com/shakambari-jayanti-2009-shakambari-jayanthi-or-last-day-of-shakambari-navaratri/"
+    "references_secondary": ["http://hindupad.com/shakambari-jayanti-2009-shakambari-jayanthi-or-last-day-of-shakambari-navaratri/"]
   },
   {
     "id": "chinnamastA~jayantI",
