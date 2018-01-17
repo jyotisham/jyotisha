@@ -7,13 +7,13 @@
     "id": "kumAra-SaSThI-vratam",
     "tags": "monthly-vratams,shashthi-vratam-days",
     "description_short": "`upavAsam` with only water and next day `pAraNa` gives `Arogyam`",
-    "shlokas": "ASADha zuklaSaSThI tu tithiH kaumArilA smRtA.\nkumAramarcayEttatra pUrvatrOpESya vai dinam.."
+    "shlokas": ["ASADha zuklaSaSThI tu tithiH kaumArilA smRtA.\nkumAramarcayEttatra pUrvatrOpESya vai dinam.."]
   },
   {
     "id": "SaSThIdEvI-SaSThI-vratam",
     "tags": "monthly-vratams,shashthi-vratam-days",
     "description_short": "Skanda darshanam is recommended, removes sins including brahmahatya.",
-    "shlokas": "yO'syAM pazyati gAGgEyaM dakSiNApathavAsinam .\nbrahmahatyAdi pApaistu mucyatE nAtra saMzayaH .."
+    "shlokas": ["yO'syAM pazyati gAGgEyaM dakSiNApathavAsinam .\nbrahmahatyAdi pApaistu mucyatE nAtra saMzayaH .."]
   },
   {
     "id": "skanda-SaSThI-vratam",
@@ -23,31 +23,31 @@
     "id": "subrahmaNya-SaSThI-vratam",
     "tags": "monthly-vratams,shashthi-vratam-days",
     "description_short": "Also known as `campA/campaka SaSThI`",
-    "shlokas": "sEnAvidAraka skanda mahAsEna mahAbala.\nrudrOmAgnija SaDvaktra gaGgAgarbha namO'stu tE.."
+    "shlokas": ["sEnAvidAraka skanda mahAsEna mahAbala.\nrudrOmAgnija SaDvaktra gaGgAgarbha namO'stu tE.."]
   },
   {
     "id": "bhAnusaptamI",
     "tags": "rare-days",
     "description_short": "`saptamI tithi` on a Sunday is as sacred as a solar eclipse. Particularly good for worshipping Surya. ",
-    "shlokas": "amAvasyA tu sOmEna saptamI bhAnunA saha.\ncaturthI bhUmiputrENa sOmaputrENa cASTamI.\n catasrastithayastvEtAH sUryagrahaNasannibhAH.."
+    "shlokas": ["amAvasyA tu sOmEna saptamI bhAnunA saha.\ncaturthI bhUmiputrENa sOmaputrENa cASTamI.\n catasrastithayastvEtAH sUryagrahaNasannibhAH.."]
   },
   {
     "id": "bhAnusaptamI*",
     "tags": "rare-days",
     "description_short": "`saptamI tithi` on a Sunday is as sacred as a solar eclipse. Particularly good for worshipping Surya. Today is even more auspicious, as it is associated with `revatI` star.",
-    "shlokas": "amAvasyA tu sOmEna saptamI bhAnunA saha.\ncaturthI bhUmiputrENa sOmaputrENa cASTamI.\n catasrastithayastvEtAH sUryagrahaNasannibhAH.."
+    "shlokas": ["amAvasyA tu sOmEna saptamI bhAnunA saha.\ncaturthI bhUmiputrENa sOmaputrENa cASTamI.\n catasrastithayastvEtAH sUryagrahaNasannibhAH.."]
   },
   {
     "id": "budhASTamI",
     "tags": "rare-days",
     "description_short": "`aSTamI tithi` on a Wednesday is as sacred as a solar eclipse. ",
-    "shlokas": "amAvasyA tu sOmEna saptamI bhAnunA saha.\ncaturthI bhUmiputrENa sOmaputrENa cASTamI.\n catasrastithayastvEtAH sUryagrahaNasannibhAH.."
+    "shlokas": ["amAvasyA tu sOmEna saptamI bhAnunA saha.\ncaturthI bhUmiputrENa sOmaputrENa cASTamI.\n catasrastithayastvEtAH sUryagrahaNasannibhAH.."]
   },
   {
     "id": "aGgAraka-caturthI",
     "tags": "rare-days",
     "description_short": "`caturthI tithi` on a Tuesday is as sacred as a solar eclipse. Good day for doing puja of Ganesha/Subrahmanya with naivedyam of modakam/millet flour respectively.",
-    "shlokas": "amAvasyA tu sOmEna saptamI bhAnunA saha.\ncaturthI bhUmiputrENa sOmaputrENa cASTamI.\n catasrastithayastvEtAH sUryagrahaNasannibhAH.."
+    "shlokas": ["amAvasyA tu sOmEna saptamI bhAnunA saha.\ncaturthI bhUmiputrENa sOmaputrENa cASTamI.\n catasrastithayastvEtAH sUryagrahaNasannibhAH.."]
   },
   {
     "id": "kRSNAGgAraka-caturdazI-puNyakAlaH/yamatarpaNam",
@@ -58,13 +58,13 @@
     "id": "sOma-amAvasyA",
     "tags": "rare-days,amavasya-days",
     "description_short": "`amAvasyA` on a Monday is as sacred as a solar eclipse. Particularly good for performing pradakshinam of Pippala tree.",
-    "shlokas": "amAvasyA tu sOmEna saptamI bhAnunA saha.\ncaturthI bhUmiputrENa sOmaputrENa cASTamI.\n catasrastithayastvEtAH sUryagrahaNasannibhAH.. mUlatO brahmarUpAya madhyatO viSNurUpiNE.\nagrataH zivarUpAya vRkSarAjAya tE namaH..\nakSispandaM bhujaspandaM duHsvapnaM durvicintanam .\n zatrUnAm ca samutpannam azvattha zamayasva mE .."
+    "shlokas": ["amAvasyA tu sOmEna saptamI bhAnunA saha.\ncaturthI bhUmiputrENa sOmaputrENa cASTamI.\n catasrastithayastvEtAH sUryagrahaNasannibhAH.. mUlatO brahmarUpAya madhyatO viSNurUpiNE.\nagrataH zivarUpAya vRkSarAjAya tE namaH..\nakSispandaM bhujaspandaM duHsvapnaM durvicintanam .\n zatrUnAm ca samutpannam azvattha zamayasva mE .."]
   },
   {
     "id": "candra-darzanam",
     "tags": "chandra-darshanam",
     "description_short": "Have darshan of Moon today, chanting the following shloka",
-    "shlokas": "zvEtAmbaraH zvEtavibhUSaNazca zvEtadyutirdaNDadharO dvibAhuH.\ncandrO'mRtAtmA varadaH kirITI mayi prasAdaM vidadhAtu dEvaH.."
+    "shlokas": ["zvEtAmbaraH zvEtavibhUSaNazca zvEtadyutirdaNDadharO dvibAhuH.\ncandrO'mRtAtmA varadaH kirITI mayi prasAdaM vidadhAtu dEvaH.."]
   },
   {
     "id": "(bhAdrapada) mahAlaya amAvasyA",
@@ -174,7 +174,7 @@
     "id": "zayana-EkAdazI",
     "tags": "monthly-vratams,ekadashi-vratam-days",
     "description_short": "Lord Vishnu goes to sleep.",
-    "shlokas": "vAsudEva jagadyOnE prAptEyaM dvAdazI tava.\nbhujaGgazayanE'bdhau ca sukhaM svapihi mAdhava..\niyaM tu dvAdazI dEva zayanArthaM vinirmita .\nasyAM suptE jagannAthE jagatsuptaM bhavEdidam ..\nvibuddhE tvayi buddhyEta sarvamEtaccarAcaram ..",
+    "shlokas": ["vAsudEva jagadyOnE prAptEyaM dvAdazI tava.\nbhujaGgazayanE'bdhau ca sukhaM svapihi mAdhava..\niyaM tu dvAdazI dEva zayanArthaM vinirmita .\nasyAM suptE jagannAthE jagatsuptaM bhavEdidam ..\nvibuddhE tvayi buddhyEta sarvamEtaccarAcaram .."],
     "titles": "padmA ekAdazI\ndevazayanI ekAdazI"
   },
   {
@@ -193,7 +193,7 @@
     "id": "parivartinI-EkAdazI",
     "tags": "monthly-vratams,ekadashi-vratam-days",
     "description_short": "Side ways turn inside sleep of Vishnu midway after Shayana Ekadashi.",
-    "shlokas": "vAsudEva jagannAtha prAptEyaM dvAdazI tava.\n pArzvEna parivartasva sukhaM svapihi mAdhava.."
+    "shlokas": ["vAsudEva jagannAtha prAptEyaM dvAdazI tava.\n pArzvEna parivartasva sukhaM svapihi mAdhava.."]
   },
   {
     "id": "mauni (pauSa/makara) amAvasyA",
@@ -223,7 +223,7 @@
     "id": "saGkaTahara-caturthI-vratam",
     "tags": "monthly-vratams,sankatahara-chaturthi-vratam-days",
     "description_short": "Special vrata day for Ganesha. Fast during the day and pray to Ganesha after moonrise, as follows:",
-    "shlokas": "gaNAdhipastvaM dEvEza caturthyAM pUjitO mayA.\nkaSTAn mAM mOcayEzAna sarvamiSTaM ca dEhi mE.."
+    "shlokas": ["gaNAdhipastvaM dEvEza caturthyAM pUjitO mayA.\nkaSTAn mAM mOcayEzAna sarvamiSTaM ca dEhi mE.."]
   },
   {
     "id": "saphalA-EkAdazI",
@@ -269,13 +269,13 @@
     "id": "vijayA~bhAnusaptamI",
     "tags": "rare-days",
     "description_short": "`saptamI tithi` on a Sunday is as sacred as a solar eclipse. Particularly good for worshipping Surya. When `zukla saptamI` is present at sunrise, it is called `vijayA`.",
-    "shlokas": "amAvasyA tu sOmEna saptamI bhAnunA saha.\ncaturthI bhUmiputrENa sOmaputrENa cASTamI.\n catasrastithayastvEtAH sUryagrahaNasannibhAH.."
+    "shlokas": ["amAvasyA tu sOmEna saptamI bhAnunA saha.\ncaturthI bhUmiputrENa sOmaputrENa cASTamI.\n catasrastithayastvEtAH sUryagrahaNasannibhAH.."]
   },
   {
     "id": "vijayA~bhAnusaptamI*",
     "tags": "rare-days",
     "description_short": "`saptamI tithi` on a Sunday is as sacred as a solar eclipse. Particularly good for worshipping Surya. When `zukla saptamI` is present at sunrise, it is called `vijayA`.",
-    "shlokas": "amAvasyA tu sOmEna saptamI bhAnunA saha.\ncaturthI bhUmiputrENa sOmaputrENa cASTamI.\n catasrastithayastvEtAH sUryagrahaNasannibhAH.."
+    "shlokas": ["amAvasyA tu sOmEna saptamI bhAnunA saha.\ncaturthI bhUmiputrENa sOmaputrENa cASTamI.\n catasrastithayastvEtAH sUryagrahaNasannibhAH.."]
   },
   {
     "id": "vijayA-EkAdazI",
