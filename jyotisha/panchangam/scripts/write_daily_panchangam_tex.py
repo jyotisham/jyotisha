@@ -158,14 +158,16 @@ def writeDailyTeX(panchangam, template_file, computeLagnams=True):
         moonrise = jyotisha.panchangam.temporal.Time(24 * (panchangam.jd_moonrise[d] - jd)).toString(format=panchangam.fmt)
         moonset = jyotisha.panchangam.temporal.Time(24 * (panchangam.jd_moonset[d] - jd)).toString(format=panchangam.fmt)
 
-        pratahsandhya = jyotisha.panchangam.temporal.Time(24 * (panchangam.kalams[d]['prAtaH sandhyA'][0] -
-                                                                jd)).toString(format=panchangam.fmt)
+        pratahsandhya = jyotisha.panchangam.temporal.Time(24 * (panchangam.kalams[d]['prAtaH sandhyA'][0] - jd)).toString(format=panchangam.fmt)
+        pratahsandhya_end = jyotisha.panchangam.temporal.Time(24 * (panchangam.kalams[d]['prAtaH sandhyA end'][0] - jd)).toString(format=panchangam.fmt)
         sangava = jyotisha.panchangam.temporal.Time(24 * (panchangam.kalams[d]['saGgava'][0] - jd)).toString(format=panchangam.fmt)
         madhyahna = jyotisha.panchangam.temporal.Time(24 * (panchangam.kalams[d]['madhyAhna'][0] - jd)).toString(format=panchangam.fmt)
+        madhyahnika_sandhya = jyotisha.panchangam.temporal.Time(24 * (panchangam.kalams[d]['mAdhyAhnika sandhyA'][0] - jd)).toString(format=panchangam.fmt)
+        madhyahnika_sandhya_end = jyotisha.panchangam.temporal.Time(24 * (panchangam.kalams[d]['mAdhyAhnika sandhyA end'][0] - jd)).toString(format=panchangam.fmt)
         aparahna = jyotisha.panchangam.temporal.Time(24 * (panchangam.kalams[d]['aparAhna'][0] - jd)).toString(format=panchangam.fmt)
         sayahna = jyotisha.panchangam.temporal.Time(24 * (panchangam.kalams[d]['sAyAhna'][0] - jd)).toString(format=panchangam.fmt)
-        sayamsandhya = jyotisha.panchangam.temporal.Time(24 * (panchangam.kalams[d]['sAyaM sandhyA'][0] -
-                                                               jd)).toString(format=panchangam.fmt)
+        sayamsandhya = jyotisha.panchangam.temporal.Time(24 * (panchangam.kalams[d]['sAyaM sandhyA'][0] - jd)).toString(format=panchangam.fmt)
+        sayamsandhya_end = jyotisha.panchangam.temporal.Time(24 * (panchangam.kalams[d]['sAyaM sandhyA end'][0] - jd)).toString(format=panchangam.fmt)
 
         rahu = '%s--%s' % (
             jyotisha.panchangam.temporal.Time(24 * (panchangam.kalams[d]['rahu'][0] - jd)).toString(format=panchangam.fmt),
@@ -187,8 +189,11 @@ def writeDailyTeX(panchangam, template_file, computeLagnams=True):
                                                              jyotisha.panchangam.temporal.NAMES, panchangam.script),
                jyotisha.panchangam.temporal.NAMES['VARA_NAMES'][panchangam.script][panchangam.weekday[d]], yname))
         print('{\\sunmoondata{%s}{%s}{%s}{%s}' % (sunrise, sunset, moonrise, moonset))
-        print('{\kalas{%s}{%s}{%s}{%s}{%s}{%s}}}' % (pratahsandhya, sangava, madhyahna,
-                                                     aparahna, sayahna, sayamsandhya,))
+        print('{\kalas{%s %s %s %s %s %s %s %s %s %s}}}' % (pratahsandhya, pratahsandhya_end,
+                                                            sangava,
+                                                            madhyahnika_sandhya, madhyahnika_sandhya_end,
+                                                            madhyahna, aparahna, sayahna,
+                                                            sayamsandhya, sayamsandhya_end))
         if computeLagnams:
             print('{\\tnykdata{%s}%%\n{%s}{%s}%%\n{%s}%%\n{%s}{\\tiny %s}\n}'
                   % (tithi_data_str, nakshatram_data_str, rashi_data_str, yogam_data_str,
