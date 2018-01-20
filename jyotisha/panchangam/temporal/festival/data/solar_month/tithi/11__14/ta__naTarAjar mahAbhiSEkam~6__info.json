@@ -1,0 +1,14 @@
+{
+  "id": "ta__naTarAjar mahAbhiSEkam~6",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "tamilnadu-temple-festivals"
+  ],
+  "timing": {
+    "angam_number": 14,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 11,
+    "month_type": "solar_month"
+  }
+}

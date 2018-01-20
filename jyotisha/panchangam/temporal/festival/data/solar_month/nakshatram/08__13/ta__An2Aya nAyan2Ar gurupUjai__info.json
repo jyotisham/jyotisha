@@ -1,0 +1,14 @@
+{
+  "id": "ta__An2Aya nAyan2Ar gurupUjai",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "Nayanar Gurupujai"
+  ],
+  "timing": {
+    "angam_number": 13,
+    "angam_type": "nakshatram",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 8,
+    "month_type": "solar_month"
+  }
+}

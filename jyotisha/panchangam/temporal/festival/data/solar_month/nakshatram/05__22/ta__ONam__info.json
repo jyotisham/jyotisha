@@ -1,0 +1,14 @@
+{
+  "id": "ta__ONam",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "common-festivals"
+  ],
+  "timing": {
+    "angam_number": 22,
+    "angam_type": "nakshatram",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 5,
+    "month_type": "solar_month"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "ta__bharaNI~dIpam",
+  "jsonClass": "HinduCalendarEvent",
+  "priority": "paraviddha",
+  "tags": [
+    "common-festivals"
+  ],
+  "timing": {
+    "angam_number": 2,
+    "angam_type": "nakshatram",
+    "jsonClass": "HinduCalendarEventTiming",
+    "kaala": "sunrise",
+    "month_number": 8,
+    "month_type": "solar_month"
+  }
+}
