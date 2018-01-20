@@ -89,7 +89,8 @@ class HinduCalendarEventTiming(common.JsonObject):
     if hasattr(old_style_event, "year_start"):
       timing.year_start = old_style_event.year_start
     if hasattr(old_style_event, "anchor_festival_id"):
-      timing.anchor_festival_id = old_style_event.anchor_festival_id
+      import regex
+      timing.anchor_festival_id = regex.sub(":", "__", old_style_event.anchor_festival_id)
     if hasattr(old_style_event, "offset"):
       timing.offset = old_style_event.offset
     timing.validate_schema()
@@ -160,7 +161,8 @@ class HinduCalendarEvent(common.JsonObject):
     event = HinduCalendarEvent()
     event.timing = HinduCalendarEventTiming.from_old_style_event(old_style_event=old_style_event)
     if hasattr(old_style_event, "id"):
-      event.id = old_style_event.id
+      import regex
+      event.id = regex.sub(":", "__", old_style_event.id)
     if hasattr(old_style_event, "tags") and old_style_event.tags is not None:
       event.tags = [x.strip() for x in old_style_event.tags.split(",")]
     if hasattr(old_style_event, "titles") and old_style_event.titles is not None:

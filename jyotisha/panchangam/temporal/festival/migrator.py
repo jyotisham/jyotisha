@@ -31,6 +31,6 @@ def migrate_relative_db():
 
 
 if __name__ == '__main__':
-  # migrate_db(os.path.join(CODE_ROOT, 'panchangam/data/festival_rules.json'))
-  # migrate_db(os.path.join(CODE_ROOT, 'panchangam/data/kanchi_aradhana_rules.json'))
+  migrate_db(os.path.join(CODE_ROOT, 'panchangam/data/festival_rules.json'))
+  migrate_db(os.path.join(CODE_ROOT, 'panchangam/data/kanchi_aradhana_rules.json'))
   migrate_relative_db()
