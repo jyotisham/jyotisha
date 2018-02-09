@@ -33,6 +33,14 @@ SOLAR_MONTH = {'id': 'SOLAR_MONTH', 'arc_len': 360.0 / 12.0, 'w_moon': 0, 'w_sun
 SOLAR_NAKSH = {'id': 'SOLAR_NAKSH', 'arc_len': 360.0 / 27.0, 'w_moon': 0, 'w_sun': 1}
 
 
+class Muhuurta(JsonObject):
+    def __init__(self, jd_start, jd_end, muhuurta_id):
+        super().__init__()
+        self.muhuurta_id = muhuurta_id
+        self.jd_start = jd_start
+        self.jd_end = jd_end
+
+
 class Time(JsonObject):
 
     """This  class is a time class with methods for printing, conversion etc.

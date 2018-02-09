@@ -3,13 +3,12 @@
 
 import logging
 import swisseph as swe
-from datetime import datetime
+import sys
 from math import floor
 
-import sys
-from indic_transliteration import xsanscript as sanscript
 from scipy.optimize import brentq
 
+from jyotisha.panchangam.spatio_temporal import City
 from jyotisha.panchangam.temporal import SOLAR_MONTH, get_angam, get_angam_float
 from sanskrit_data.schema import common
 
@@ -30,6 +29,7 @@ class Panchangam(common.JsonObject):
     self.julian_day_start = self.julian_day - (self.city.get_timezone_offset_hours(julian_day=julian_day) / 24.0)
     self.ayanamsha_id = ayanamsha_id
 
+
   def compute_solar_transitions(self):
     self.jd_sunrise = swe.rise_trans(
       jd_start=self.julian_day_start, body=swe.SUN,
@@ -46,10 +46,27 @@ class Panchangam(common.JsonObject):
       #                              lat=city.latitude, rsmi=swe.CALC_SET | swe.BIT_DISC_CENTER))
 
 
+  def compute_tb_muhuurtas(self):
+    """ Computes muhuurta-s according to taittiriiya brAhmaNa.
+    """
+    if not hasattr(self, "jd_sunrise"):
+      self.compute_solar_transitions()
+    day_length_jd = self.jd_sunset - self.jd_sunrise
+    muhuurta_length_jd = day_length_jd/(5*3)
+    import numpy
+    # 15 muhUrta-s in a day.
+    muhuurta_starts =  numpy.arange(self.jd_sunrise, self.jd_sunset, muhuurta_length_jd)[0:15]
+    from jyotisha.panchangam import temporal
+    self.tb_muhuurtas = [temporal.Muhuurta(jd_start=jd_start, jd_end=jd_start + muhuurta_length_jd,
+                                           muhuurta_id=int((jd_start - self.jd_sunrise)/muhuurta_length_jd))
+                         for jd_start in muhuurta_starts]
+
+
   def compute_solar_day(self):
     """Compute the solar month and day for a given Julian day
     """
-    self.compute_solar_transitions()
+    if not hasattr(self, "jd_sunrise"):
+      self.compute_solar_transitions()
     self.solar_month = get_angam(self.jd_sunset, SOLAR_MONTH, ayanamsha_id=self.ayanamsha_id)
     target = floor(get_angam_float(self.jd_sunset, SOLAR_MONTH, ayanamsha_id=self.ayanamsha_id))
 
@@ -79,8 +96,12 @@ class Panchangam(common.JsonObject):
     self.solar_month_day = solar_month_day
 
 
-
 # Essential for depickling to work.
 common.update_json_class_index(sys.modules[__name__])
 logging.debug(common.json_class_index)
 
+
+if __name__ == '__main__':
+  panchangam = Panchangam(city=City('Chennai', '13:05:24', '80:16:12', 'Asia/Calcutta'), julian_day=2457023.27)
+  panchangam.compute_tb_muhuurtas()
+  logging.debug(str(panchangam))
