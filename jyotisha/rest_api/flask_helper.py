@@ -34,7 +34,7 @@ app.config.update(
 @app.route('/')
 def index():
   flask.session['logstatus'] = 1
-  return flask.redirect('jyotisha/docs')
+  return flask.redirect('docs')
 
 
 @app.route("/sitemap")
