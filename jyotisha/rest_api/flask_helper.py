@@ -37,17 +37,17 @@ def index():
   return flask.redirect('docs')
 
 
+# Cant use flask-sitemap - won't list flask restplus routes.
 @app.route("/sitemap")
 def site_map():
   output = []
   for rule in app.url_map.iter_rules():
-
     options = {}
     for arg in rule.arguments:
       options[arg] = "[{0}]".format(arg)
 
     methods = ','.join(rule.methods)
-    url = url_for(rule.endpoint, **options)
+    url = str(rule)
     import urllib.request
 
     line = urllib.request.unquote("{:50s} {:20s} {}".format(rule.endpoint, methods, url))
