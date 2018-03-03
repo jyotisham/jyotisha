@@ -789,7 +789,7 @@ class Panchangam(common.JsonObject):
       elif self.lunar_month[d] == 9:
         festival_name = 'subrahmaNya-' + festival_name
 
-      if self.tithi_sunrise[d] == 6 or self.tithi_sunrise[d] == 7:
+      if self.tithi_sunrise[d] == 5 or self.tithi_sunrise[d] == 6:
         angams = self.get_angams_for_kalas(d, jyotisha.panchangam.temporal.get_tithi,
                                            'madhyahna')
         if angams[0] == 6 or angams[1] == 6:
@@ -819,6 +819,10 @@ class Panchangam(common.JsonObject):
                 fday = d
             else:
               fday = d
+
+        if fday is not None:
+          # logging.debug('SaSThI-vratam: %s, %d' % (festival_name, fday))
+          self.addFestival(festival_name, fday, debug_festivals)
 
       # Chandra Darshanam
       if self.tithi_sunrise[d] == 1 or self.tithi_sunrise[d] == 2:
@@ -1231,9 +1235,8 @@ class Panchangam(common.JsonObject):
               if month_type == 'lunar_month':
                 fest_num = self.year + 3100 + (d >= self.lunar_month.index(1)) - fest_start_year + 1
 
-            if fest_num is not None and fest_num < 0:
-              raise (Exception('Festival %s is only in the future!\n' %
-                               festival_name))
+            if fest_num is not None and fest_num <= 0:
+              logging.warning('Festival %s is only in the future!\n' % festival_name)
 
             if fest_num is not None:
               festival_name += '~\\#{%d}' % fest_num
@@ -1263,8 +1266,8 @@ class Panchangam(common.JsonObject):
             elif month_type == 'lunar_month':
               fest_num = self.year + 3100 + (d >= self.lunar_month.index(1)) - fest_start_year + 1
 
-          if fest_num is not None and fest_num < 0:
-            raise (Exception('Festival %s is only in the future!\n' % festival_name))
+          if fest_num is not None and fest_num <= 0:
+            logging.warning('Festival %s is only in the future!\n' % festival_name)
 
           if fest_num is not None:
             festival_name += '~\\#{%d}' % fest_num
