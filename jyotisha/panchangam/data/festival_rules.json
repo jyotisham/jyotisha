@@ -4573,7 +4573,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "zRGgErI 32 jagadguru zrI nRsiMha bhAratI ArAdhanA": {
+  "zRGgErI 32 jagadguru zrI~nRsiMha bhAratI ArAdhanA": {
     "Month Type": "lunar_month",
     "Month Number": 3,
     "Angam Type": "tithi",
@@ -4588,7 +4588,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "zRGgErI 34 jagadguru zrI candrazEkhara bhAratI ArAdhanA": {
+  "zRGgErI 34 jagadguru zrI~candrazEkhara bhAratI ArAdhanA": {
     "Month Type": "lunar_month",
     "Month Number": 6,
     "Angam Type": "tithi",
@@ -4603,7 +4603,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "zRGgErI 35 jagadguru zrI abhinava vidyAtIrtha mahAsvAmI ArAdhanA": {
+  "zRGgErI 35 jagadguru zrI~abhinava vidyAtIrtha mahAsvAmI ArAdhanA": {
     "Month Type": "lunar_month",
     "Month Number": 6,
     "Angam Type": "tithi",
@@ -4618,7 +4618,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "zRGgErI 34 jagadguru zrI candrazEkhara bhAratI jayantI": {
+  "zRGgErI 34 jagadguru zrI~candrazEkhara bhAratI jayantI": {
     "Month Type": "lunar_month",
     "Month Number": 7,
     "Angam Type": "tithi",
@@ -4633,7 +4633,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "zRGgErI 35 jagadguru zrI abhinava vidyAtIrtha mahAsvAmI jayantI": {
+  "zRGgErI 35 jagadguru zrI~abhinava vidyAtIrtha mahAsvAmI jayantI": {
     "Month Type": "lunar_month",
     "Month Number": 7,
     "Angam Type": "tithi",
@@ -4648,7 +4648,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "zrI bOdhEndra sarasvatI ArAdhanA": {
+  "zrI~bOdhEndra sarasvatI ArAdhanA": {
     "Month Type": "lunar_month",
     "Month Number": 6,
     "Angam Type": "tithi",
@@ -4663,7 +4663,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "zrI gOvinda bhagavatpAda ArAdhanA": {
+  "zrI~gOvinda bhagavatpAda ArAdhanA": {
     "Month Type": "lunar_month",
     "Month Number": 8,
     "Angam Type": "tithi",
@@ -4698,11 +4698,11 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "kAJcI 2 jagadguru zrI surEzvarAcArya ArAdhanA": {
+  "kAJcI 2 jagadguru zrI~surEzvarAcArya ArAdhanA": {
     "Month Type": "lunar_month",
     "Month Number": 3,
     "Angam Type": "tithi",
-    "Angam Number": 11,
+    "Angam Number": 12,
     "Start Year": 2696,
     "kala": "madhyahna",
     "priority": "purvaviddha",
@@ -4716,7 +4716,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "kAJcI 3 jagadguru zrI sarvajJAtmEndra sarasvatI ArAdhanA": {
+  "kAJcI 3 jagadguru zrI~sarvajJAtmanEndra sarasvatI ArAdhanA": {
     "Month Type": "lunar_month",
     "Month Number": 2,
     "Angam Type": "tithi",
@@ -4725,7 +4725,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "Tags": "kanchi-aradhana-days",
-    "URL": "kanchi-3-jagadguru-shri-sarvajnatmendra-sarasvati-aradhana",
+    "URL": "kanchi-3-jagadguru-shri-sarvajnatmanendra-sarasvati-aradhana",
     "Short Description": "",
     "Shloka": "",
     "Other Names": "",
@@ -4734,7 +4734,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "kAJcI 4 jagadguru zrI satyabOdhEndra sarasvatI ArAdhanA": {
+  "kAJcI 4 jagadguru zrI~satyabOdhEndra sarasvatI ArAdhanA": {
     "Month Type": "lunar_month",
     "Month Number": 9,
     "Angam Type": "tithi",
@@ -4752,7 +4752,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "kAJcI 5 jagadguru zrI jJAnAnandEndra sarasvatI ArAdhanA": {
+  "kAJcI 5 jagadguru zrI~jJAnAnandEndra sarasvatI ArAdhanA": {
     "Month Type": "lunar_month",
     "Month Number": 9,
     "Angam Type": "tithi",
@@ -4770,7 +4770,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "kAJcI 6 jagadguru zrI zuddhAnandEndra sarasvatI ArAdhanA": {
+  "kAJcI 6 jagadguru zrI~zuddhAnandEndra sarasvatI ArAdhanA": {
     "Month Type": "lunar_month",
     "Month Number": 3,
     "Angam Type": "tithi",
@@ -4788,7 +4788,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "kAJcI 7 jagadguru zrI AnandaghanEndra sarasvatI ArAdhanA": {
+  "kAJcI 7 jagadguru zrI~AnandajJAnEndra sarasvatI ArAdhanA": {
     "Month Type": "lunar_month",
     "Month Number": 2,
     "Angam Type": "tithi",
@@ -4797,7 +4797,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "Tags": "kanchi-aradhana-days",
-    "URL": "kanchi-7-jagadguru-shri-anandaghanendra-sarasvati-aradhana",
+    "URL": "kanchi-7-jagadguru-shri-anandajnanendra-sarasvati-aradhana",
     "Short Description": "",
     "Shloka": "",
     "Other Names": "",
@@ -4806,7 +4806,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "kAJcI 8 jagadguru zrI kaivalyAnandayOgEndra sarasvatI ArAdhanA": {
+  "kAJcI 8 jagadguru zrI~kaivalyAnandayOgEndra sarasvatI ArAdhanA": {
     "Month Type": "lunar_month",
     "Month Number": 10,
     "Angam Type": "tithi",
@@ -4824,7 +4824,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "kAJcI 9 jagadguru zrI kRpAzGkarEndra sarasvatI ArAdhanA": {
+  "kAJcI 9 jagadguru zrI~kRpAzaGkarEndra sarasvatI ArAdhanA": {
     "Month Type": "lunar_month",
     "Month Number": 8,
     "Angam Type": "tithi",
@@ -4833,7 +4833,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "Tags": "kanchi-aradhana-days",
-    "URL": "kanchi-9-jagadguru-shri-kripashnkarendra-sarasvati-aradhana",
+    "URL": "kanchi-9-jagadguru-shri-kripashankarendra-sarasvati-aradhana",
     "Short Description": "",
     "Shloka": "",
     "Other Names": "",
@@ -4842,7 +4842,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "kAJcI 10 jagadguru zrI surEzvarEndra sarasvatI ArAdhanA": {
+  "kAJcI 10 jagadguru zrI~surEzvarEndra sarasvatI ArAdhanA": {
     "Month Type": "lunar_month",
     "Month Number": 4,
     "Angam Type": "tithi",
@@ -4860,7 +4860,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "kAJcI 11 jagadguru zrI zivAnanda cidghanEndra sarasvatI ArAdhanA": {
+  "kAJcI 11 jagadguru zrI~zivAnanda cidghanEndra sarasvatI ArAdhanA": {
     "Month Type": "lunar_month",
     "Month Number": 11,
     "Angam Type": "tithi",
@@ -4878,7 +4878,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "kAJcI 12 jagadguru zrI candrazEkharEndra sarasvatI ArAdhanA": {
+  "kAJcI 12 jagadguru zrI~candrazEkharEndra sarasvatI ArAdhanA": {
     "Month Type": "lunar_month",
     "Month Number": 4,
     "Angam Type": "tithi",
@@ -4896,7 +4896,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "kAJcI 13 jagadguru zrI saccidghanEndra sarasvatI ArAdhanA": {
+  "kAJcI 13 jagadguru zrI~saccidghanEndra sarasvatI ArAdhanA": {
     "Month Type": "lunar_month",
     "Month Number": 9,
     "Angam Type": "tithi",
@@ -4914,7 +4914,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "kAJcI 14 jagadguru zrI vidyAghanEndra sarasvatI ArAdhanA": {
+  "kAJcI 14 jagadguru zrI~vidyAghanEndra sarasvatI ArAdhanA": {
     "Month Type": "lunar_month",
     "Month Number": 9,
     "Angam Type": "tithi",
@@ -4932,7 +4932,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "kAJcI 15 jagadguru zrI gaGgAdharEndra sarasvatI ArAdhanA": {
+  "kAJcI 15 jagadguru zrI~gaGgAdharEndra sarasvatI ArAdhanA": {
     "Month Type": "lunar_month",
     "Month Number": 1,
     "Angam Type": "tithi",
@@ -4950,9 +4950,9 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "kAJcI 16 jagadguru zrI ujjvala zaGkarEndra sarasvatI ArAdhanA": {
-    "Month Type": "lunar_month",
-    "Month Number": 3,
+  "kAJcI 16 jagadguru zrI~ujjvala zaGkarEndra sarasvatI ArAdhanA": {
+    "Month Type": "solar_month",
+    "Month Number": 2,
     "Angam Type": "tithi",
     "Angam Number": 8,
     "Start Year": 3468,
@@ -4968,7 +4968,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "kAJcI 17 jagadguru zrI sadAzivEndra sarasvatI ArAdhanA": {
+  "kAJcI 17 jagadguru zrI~sadAzivEndra sarasvatI ArAdhanA": {
     "Month Type": "lunar_month",
     "Month Number": 3,
     "Angam Type": "tithi",
@@ -4986,7 +4986,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "kAJcI 18 jagadguru zrI yOgatilaka surEndra sarasvatI ArAdhanA": {
+  "kAJcI 18 jagadguru zrI~yOgatilaka surEndra sarasvatI ArAdhanA": {
     "Month Type": "lunar_month",
     "Month Number": 9,
     "Angam Type": "tithi",
@@ -5004,7 +5004,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "kAJcI 19 jagadguru zrI mArtANDa vidyAghanEndra sarasvatI ArAdhanA": {
+  "kAJcI 19 jagadguru zrI~mArtANDa vidyAghanEndra sarasvatI ArAdhanA": {
     "Month Type": "lunar_month",
     "Month Number": 7,
     "Angam Type": "tithi",
@@ -5022,7 +5022,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "kAJcI 20 jagadguru zrI mUkazaGkarEndra sarasvatI ArAdhanA": {
+  "kAJcI 20 jagadguru zrI~mUkazaGkarEndra sarasvatI ArAdhanA": {
     "Month Type": "lunar_month",
     "Month Number": 5,
     "Angam Type": "tithi",
@@ -5040,7 +5040,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "kAJcI 21 jagadguru zrI candrazEkharEndra sarasvatI 2 ArAdhanA": {
+  "kAJcI 21 jagadguru zrI~candrazEkharEndra sarasvatI 2 ArAdhanA": {
     "Month Type": "lunar_month",
     "Month Number": 5,
     "Angam Type": "tithi",
@@ -5058,7 +5058,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "kAJcI 22 jagadguru zrI bOdhEndra sarasvatI ArAdhanA": {
+  "kAJcI 22 jagadguru zrI~paripUrNabOdhEndra sarasvatI ArAdhanA": {
     "Month Type": "lunar_month",
     "Month Number": 8,
     "Angam Type": "tithi",
@@ -5067,7 +5067,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "Tags": "kanchi-aradhana-days",
-    "URL": "kanchi-22-jagadguru-shri-bodhendra-sarasvati-aradhana",
+    "URL": "kanchi-22-jagadguru-shri-paripurna-bodhendra-sarasvati-aradhana",
     "Short Description": "",
     "Shloka": "",
     "Other Names": "",
@@ -5076,8 +5076,8 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "kAJcI 23 jagadguru zrI saccitsukhEndra sarasvatI ArAdhanA": {
-    "Month Type": "lunar_month",
+  "kAJcI 23 jagadguru zrI~saccitsukhEndra sarasvatI ArAdhanA": {
+    "Month Type": "solar_month",
     "Month Number": 2,
     "Angam Type": "tithi",
     "Angam Number": 7,
@@ -5094,7 +5094,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "kAJcI 24 jagadguru zrI citsukhEndra sarasvatI ArAdhanA": {
+  "kAJcI 24 jagadguru zrI~citsukhEndra sarasvatI ArAdhanA": {
     "Month Type": "lunar_month",
     "Month Number": 5,
     "Angam Type": "tithi",
@@ -5112,7 +5112,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "kAJcI 25 jagadguru zrI saccidAnandaghanEndra sarasvatI ArAdhanA": {
+  "kAJcI 25 jagadguru zrI~saccidAnandaghanEndra sarasvatI ArAdhanA": {
     "Month Type": "lunar_month",
     "Month Number": 4,
     "Angam Type": "tithi",
@@ -5130,7 +5130,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "kAJcI 26 jagadguru zrI prajJAghanEndra sarasvatI ArAdhanA": {
+  "kAJcI 26 jagadguru zrI~prajJAghanEndra sarasvatI ArAdhanA": {
     "Month Type": "lunar_month",
     "Month Number": 2,
     "Angam Type": "tithi",
@@ -5139,7 +5139,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "Tags": "kanchi-aradhana-days",
-    "URL": "kanchi-26-jagadguru-shri-prajnaaghanendra-sarasvati-aradhana",
+    "URL": "kanchi-26-jagadguru-shri-prajnaghanendra-sarasvati-aradhana",
     "Short Description": "",
     "Shloka": "",
     "Other Names": "",
@@ -5148,7 +5148,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "kAJcI 27 jagadguru zrI cidvilasEndra sarasvatI ArAdhanA": {
+  "kAJcI 27 jagadguru zrI~cidvilasEndra sarasvatI ArAdhanA": {
     "Month Type": "lunar_month",
     "Month Number": 1,
     "Angam Type": "tithi",
@@ -5166,7 +5166,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "kAJcI 28 jagadguru zrI mahAdEvEndra sarasvatI 1 ArAdhanA": {
+  "kAJcI 28 jagadguru zrI~mahAdEvEndra sarasvatI 1 ArAdhanA": {
     "Month Type": "lunar_month",
     "Month Number": 8,
     "Angam Type": "tithi",
@@ -5184,7 +5184,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "kAJcI 29 jagadguru zrI pUrNabOdhEndra sarasvatI ArAdhanA": {
+  "kAJcI 29 jagadguru zrI~pUrNabOdhEndra sarasvatI ArAdhanA": {
     "Month Type": "lunar_month",
     "Month Number": 5,
     "Angam Type": "tithi",
@@ -5202,7 +5202,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "kAJcI 30 jagadguru zrI bOdhEndra sarasvatI 2 ArAdhanA": {
+  "kAJcI 30 jagadguru zrI~bOdhEndra sarasvatI 2 ArAdhanA": {
     "Month Type": "lunar_month",
     "Month Number": 2,
     "Angam Type": "tithi",
@@ -5220,7 +5220,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "kAJcI 31 jagadguru zrI brahmAnandaghanEndra sarasvatI ArAdhanA": {
+  "kAJcI 31 jagadguru zrI~brahmAnandaghanEndra sarasvatI ArAdhanA": {
     "Month Type": "lunar_month",
     "Month Number": 4,
     "Angam Type": "tithi",
@@ -5238,7 +5238,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "kAJcI 32 jagadguru zrI cidAnandaghanEndra sarasvatI ArAdhanA": {
+  "kAJcI 32 jagadguru zrI~cidAnandaghanEndra sarasvatI ArAdhanA": {
     "Month Type": "lunar_month",
     "Month Number": 9,
     "Angam Type": "tithi",
@@ -5256,7 +5256,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "kAJcI 33 jagadguru zrI saccidAnanda sarasvatI ArAdhanA": {
+  "kAJcI 33 jagadguru zrI~saccidAnandaghanEndra sarasvatI 2 ArAdhanA": {
     "Month Type": "lunar_month",
     "Month Number": 6,
     "Angam Type": "tithi",
@@ -5265,7 +5265,7 @@
     "kala": "madhyahna",
     "priority": "purvaviddha",
     "Tags": "kanchi-aradhana-days",
-    "URL": "kanchi-33-jagadguru-shri-sachchidananda-sarasvati-aradhana",
+    "URL": "kanchi-33-jagadguru-shri-sachchidanandaghanendra-sarasvati-2-aradhana",
     "Short Description": "",
     "Shloka": "",
     "Other Names": "",
@@ -5274,7 +5274,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "kAJcI 34 jagadguru zrI candrazEkharEndra sarasvatI 3 ArAdhanA": {
+  "kAJcI 34 jagadguru zrI~candrazEkharEndra sarasvatI 3 ArAdhanA": {
     "Month Type": "lunar_month",
     "Month Number": 9,
     "Angam Type": "tithi",
@@ -5292,7 +5292,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "kAJcI 35 jagadguru zrI citsukhEndra sarasvatI ArAdhanA": {
+  "kAJcI 35 jagadguru zrI~citsukhEndra sarasvatI ArAdhanA": {
     "Month Type": "lunar_month",
     "Month Number": 4,
     "Angam Type": "tithi",
@@ -5310,7 +5310,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "kAJcI 36 jagadguru zrI citsukhanandEndra sarasvatI ArAdhanA": {
+  "kAJcI 36 jagadguru zrI~citsukhAnandEndra sarasvatI ArAdhanA": {
     "Month Type": "lunar_month",
     "Month Number": 7,
     "Angam Type": "tithi",
@@ -5328,7 +5328,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "kAJcI 37 jagadguru zrI vidyAghanEndra sarasvatI 3 ArAdhanA": {
+  "kAJcI 37 jagadguru zrI~vidyAghanEndra sarasvatI 3 ArAdhanA": {
     "Month Type": "lunar_month",
     "Month Number": 10,
     "Angam Type": "tithi",
@@ -5346,7 +5346,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "kAJcI 38 jagadguru zrI abhinavazaGkarEndra sarasvatI ArAdhanA": {
+  "kAJcI 38 jagadguru zrI~abhinavazaGkarEndra sarasvatI ArAdhanA": {
     "Month Type": "lunar_month",
     "Month Number": 4,
     "Angam Type": "tithi",
@@ -5364,11 +5364,11 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "kAJcI 39 jagadguru zrI saccidvilAsEndra sarasvatI ArAdhanA": {
+  "kAJcI 39 jagadguru zrI~saccidvilAsEndra sarasvatI ArAdhanA": {
     "Month Type": "lunar_month",
     "Month Number": 2,
     "Angam Type": "tithi",
-    "Angam Number": 15,
+    "Angam Number": 14,
     "Start Year": 3974,
     "kala": "madhyahna",
     "priority": "purvaviddha",
@@ -5382,7 +5382,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "kAJcI 40 jagadguru zrI mahAdEvEndra sarasvatI 2 ArAdhanA": {
+  "kAJcI 40 jagadguru zrI~mahAdEvEndra sarasvatI 2 ArAdhanA": {
     "Month Type": "lunar_month",
     "Month Number": 2,
     "Angam Type": "tithi",
@@ -5400,7 +5400,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "kAJcI 41 jagadguru zrI gaGgAdharEndra sarasvatI 2 ArAdhanA": {
+  "kAJcI 41 jagadguru zrI~gaGgAdharEndra sarasvatI 2 ArAdhanA": {
     "Month Type": "lunar_month",
     "Month Number": 5,
     "Angam Type": "tithi",
@@ -5418,11 +5418,11 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "kAJcI 42 jagadguru zrI brahmAnandaghanEndra sarasvatI 2 ArAdhanA": {
+  "kAJcI 42 jagadguru zrI~brahmAnandaghanEndra sarasvatI 2 ArAdhanA": {
     "Month Type": "lunar_month",
     "Month Number": 8,
     "Angam Type": "tithi",
-    "Angam Number": 22,
+    "Angam Number": 23,
     "Start Year": 4079,
     "kala": "madhyahna",
     "priority": "purvaviddha",
@@ -5436,7 +5436,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "kAJcI 43 jagadguru zrI AnandaghanEndra sarasvatI ArAdhanA": {
+  "kAJcI 43 jagadguru zrI~AnandaghanEndra sarasvatI ArAdhanA": {
     "Month Type": "lunar_month",
     "Month Number": 1,
     "Angam Type": "tithi",
@@ -5454,7 +5454,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "kAJcI 44 jagadguru zrI pUrNabOdhEndra sarasvatI 2 ArAdhanA": {
+  "kAJcI 44 jagadguru zrI~pUrNabOdhEndra sarasvatI 2 ArAdhanA": {
     "Month Type": "lunar_month",
     "Month Number": 6,
     "Angam Type": "tithi",
@@ -5472,7 +5472,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "kAJcI 45 jagadguru zrI paramazivEndra sarasvatI 1 ArAdhanA": {
+  "kAJcI 45 jagadguru zrI~paramazivEndra sarasvatI 1 ArAdhanA": {
     "Month Type": "lunar_month",
     "Month Number": 7,
     "Angam Type": "tithi",
@@ -5490,7 +5490,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "kAJcI 46 jagadguru zrI sAndrAnandabOdhEndra sarasvatI ArAdhanA": {
+  "kAJcI 46 jagadguru zrI~sAndrAnandabOdhEndra sarasvatI ArAdhanA": {
     "Month Type": "lunar_month",
     "Month Number": 4,
     "Angam Type": "tithi",
@@ -5508,7 +5508,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "kAJcI 47 jagadguru zrI candrazEkharEndra sarasvatI 4 ArAdhanA": {
+  "kAJcI 47 jagadguru zrI~candrazEkharEndra sarasvatI 4 ArAdhanA": {
     "Month Type": "lunar_month",
     "Month Number": 1,
     "Angam Type": "tithi",
@@ -5526,7 +5526,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "kAJcI 48 jagadguru zrI advaitAnandabOdhEndra sarasvatI ArAdhanA": {
+  "kAJcI 48 jagadguru zrI~advaitAnandabOdhEndra sarasvatI ArAdhanA": {
     "Month Type": "lunar_month",
     "Month Number": 4,
     "Angam Type": "tithi",
@@ -5544,7 +5544,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "kAJcI 49 jagadguru zrI mahAdEvEndra sarasvatI 3 ArAdhanA": {
+  "kAJcI 49 jagadguru zrI~mahAdEvEndra sarasvatI 3 ArAdhanA": {
     "Month Type": "lunar_month",
     "Month Number": 8,
     "Angam Type": "tithi",
@@ -5562,7 +5562,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "kAJcI 50 jagadguru zrI candracUDEndra sarasvatI 1 ArAdhanA": {
+  "kAJcI 50 jagadguru zrI~candracUDEndra sarasvatI 1 ArAdhanA": {
     "Month Type": "lunar_month",
     "Month Number": 3,
     "Angam Type": "tithi",
@@ -5580,7 +5580,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "kAJcI 51 jagadguru zrI vidyAtIrthEndra sarasvatI ArAdhanA": {
+  "kAJcI 51 jagadguru zrI~vidyAtIrthEndra sarasvatI ArAdhanA": {
     "Month Type": "lunar_month",
     "Month Number": 11,
     "Angam Type": "tithi",
@@ -5598,7 +5598,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "kAJcI 52 jagadguru zrI zaGkarAnandEndra sarasvatI ArAdhanA": {
+  "kAJcI 52 jagadguru zrI~zaGkarAnandEndra sarasvatI ArAdhanA": {
     "Month Type": "lunar_month",
     "Month Number": 1,
     "Angam Type": "tithi",
@@ -5616,7 +5616,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "kAJcI 53 jagadguru zrI pUrNAnanda sadAzivEndra sarasvatI ArAdhanA": {
+  "kAJcI 53 jagadguru zrI~pUrNAnanda sadAzivEndra sarasvatI ArAdhanA": {
     "Month Type": "lunar_month",
     "Month Number": 3,
     "Angam Type": "tithi",
@@ -5634,7 +5634,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "kAJcI 54 jagadguru zrI vyAsAcala mahAdEvEndra sarasvatI ArAdhanA": {
+  "kAJcI 54 jagadguru zrI~vyAsAcala mahAdEvEndra sarasvatI ArAdhanA": {
     "Month Type": "lunar_month",
     "Month Number": 4,
     "Angam Type": "tithi",
@@ -5652,7 +5652,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "kAJcI 55 jagadguru zrI candracUDEndra sarasvatI 2 ArAdhanA": {
+  "kAJcI 55 jagadguru zrI~candracUDEndra sarasvatI 2 ArAdhanA": {
     "Month Type": "lunar_month",
     "Month Number": 10,
     "Angam Type": "tithi",
@@ -5670,7 +5670,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "kAJcI 56 jagadguru zrI sarvajJa sadAziva bOdhEndra sarasvatI ArAdhanA": {
+  "kAJcI 56 jagadguru zrI~sarvajJa sadAziva bOdhEndra sarasvatI ArAdhanA": {
     "Month Type": "lunar_month",
     "Month Number": 1,
     "Angam Type": "tithi",
@@ -5688,7 +5688,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "kAJcI 57 jagadguru zrI paramazivEndra sarasvatI 2 ArAdhanA": {
+  "kAJcI 57 jagadguru zrI~paramazivEndra sarasvatI 2 ArAdhanA": {
     "Month Type": "lunar_month",
     "Month Number": 5,
     "Angam Type": "tithi",
@@ -5706,8 +5706,8 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "kAJcI 58 jagadguru zrI AtmabOdhEndra sarasvatI ArAdhanA": {
-    "Month Type": "lunar_month",
+  "kAJcI 58 jagadguru zrI~AtmabOdhEndra sarasvatI ArAdhanA": {
+    "Month Type": "solar_month",
     "Month Number": 7,
     "Angam Type": "tithi",
     "Angam Number": 23,
@@ -5724,7 +5724,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "kAJcI 59 jagadguru zrI bhagavannAma bOdhEndra sarasvatI ArAdhanA": {
+  "kAJcI 59 jagadguru zrI~bhagavannAma bOdhEndra sarasvatI ArAdhanA": {
     "Month Type": "lunar_month",
     "Month Number": 6,
     "Angam Type": "tithi",
@@ -5742,7 +5742,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "kAJcI 60 jagadguru zrI advaitAtmaprakAzEndra sarasvatI ArAdhanA": {
+  "kAJcI 60 jagadguru zrI~advaitAtmaprakAzEndra sarasvatI ArAdhanA": {
     "Month Type": "lunar_month",
     "Month Number": 1,
     "Angam Type": "tithi",
@@ -5760,7 +5760,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "kAJcI 61 jagadguru zrI mahAdEvEndra sarasvatI 4 ArAdhanA": {
+  "kAJcI 61 jagadguru zrI~mahAdEvEndra sarasvatI 4 ArAdhanA": {
     "Month Type": "lunar_month",
     "Month Number": 3,
     "Angam Type": "tithi",
@@ -5778,11 +5778,11 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "kAJcI 62 jagadguru zrI candrazEkharEndra sarasvatI 5 ArAdhanA": {
+  "kAJcI 62 jagadguru zrI~candrazEkharEndra sarasvatI 5 ArAdhanA": {
     "Month Type": "lunar_month",
     "Month Number": 10,
     "Angam Type": "tithi",
-    "Angam Number": 16,
+    "Angam Number": 17,
     "Start Year": 4884,
     "kala": "madhyahna",
     "priority": "purvaviddha",
@@ -5796,7 +5796,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "kAJcI 63 jagadguru zrI mahAdEvEndra sarasvatI 5 ArAdhanA": {
+  "kAJcI 63 jagadguru zrI~mahAdEvEndra sarasvatI 5 ArAdhanA": {
     "Month Type": "lunar_month",
     "Month Number": 4,
     "Angam Type": "tithi",
@@ -5814,7 +5814,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "kAJcI 64 jagadguru zrI candrazEkharEndra sarasvatI 6 ArAdhanA": {
+  "kAJcI 64 jagadguru zrI~candrazEkharEndra sarasvatI 6 ArAdhanA": {
     "Month Type": "lunar_month",
     "Month Number": 8,
     "Angam Type": "tithi",
@@ -5832,7 +5832,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "kAJcI 65 jagadguru zrI sudarzana mahAdEvEndra sarasvatI ArAdhanA": {
+  "kAJcI 65 jagadguru zrI~sudarzana mahAdEvEndra sarasvatI ArAdhanA": {
     "Month Type": "lunar_month",
     "Month Number": 12,
     "Angam Type": "tithi",
@@ -5850,7 +5850,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "kAJcI 66 jagadguru zrI candrazEkharEndra sarasvatI 7 ArAdhanA": {
+  "kAJcI 66 jagadguru zrI~candrazEkharEndra sarasvatI 7 ArAdhanA": {
     "Month Type": "lunar_month",
     "Month Number": 11,
     "Angam Type": "tithi",
@@ -5868,7 +5868,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "kAJcI 67 jagadguru zrI mahAdEvEndra sarasvatI 5 ArAdhanA": {
+  "kAJcI 67 jagadguru zrI~mahAdEvEndra sarasvatI 5 ArAdhanA": {
     "Month Type": "lunar_month",
     "Month Number": 12,
     "Angam Type": "tithi",
@@ -5886,7 +5886,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "kAJcI 68 jagadguru zrI candrazEkharEndra sarasvatI ArAdhanA": {
+  "kAJcI 68 jagadguru zrI~candrazEkharEndra sarasvatI ArAdhanA": {
     "Month Type": "lunar_month",
     "Month Number": 9,
     "Angam Type": "tithi",
@@ -7092,7 +7092,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "kAJcI jagadguru zrI candrazEkharEndra sarasvatI jayantI": {
+  "kAJcI jagadguru zrI~candrazEkharEndra sarasvatI jayantI": {
     "Month Type": "solar_month",
     "Month Number": 2,
     "Angam Type": "nakshatram",
@@ -7199,7 +7199,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "kAJcI jagadguru zrI jayEndra sarasvatI jayantI": {
+  "kAJcI jagadguru zrI~jayEndra sarasvatI jayantI": {
     "Month Type": "solar_month",
     "Month Number": 4,
     "Angam Type": "nakshatram",
@@ -7416,7 +7416,7 @@
     "Primary Reference": "",
     "Comments": ""
   },
-  "kAJcI jagadguru zrI zaGkara vijayEndra sarasvatI jayantI": {
+  "kAJcI jagadguru zrI~zaGkara vijayEndra sarasvatI jayantI": {
     "Month Type": "solar_month",
     "Month Number": 11,
     "Angam Type": "nakshatram",
