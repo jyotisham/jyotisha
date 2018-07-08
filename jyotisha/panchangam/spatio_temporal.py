@@ -1261,8 +1261,9 @@ class Panchangam(common.JsonObject):
         if angam_type == 'day' and month_type == 'solar_month' and self.solar_month[d] == month_num:
           if self.solar_month_day[d] == angam_num:
             self.fest_days[festival_name] = [d]
-        elif (month_type == 'lunar_month' and self.lunar_month[d] == month_num) or \
+        elif (month_type == 'lunar_month' and (self.lunar_month[d] == month_num or month_num == 0)) or \
              (month_type == 'solar_month' and self.solar_month[d] == month_num):
+          # Using 0 as a special tag to denote every month!
           if angam_type == 'tithi':
             angam_sunrise = self.tithi_sunrise
             get_angam_func = jyotisha.panchangam.temporal.get_tithi
