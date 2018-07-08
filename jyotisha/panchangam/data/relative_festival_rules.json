@@ -103,7 +103,7 @@
     "URL": "saptama-aparapaksha",
     "offset": 0
   },
-  "ta:cidambaram bhikSATan2ar taGga ratham": {
+  "cidambarE bhikSATana svarNarathaH": {
     "Comments": "",
     "Nirnaya": "",
     "Other Names": "",
@@ -113,10 +113,10 @@
     "Shloka": "",
     "Short Description": "",
     "Tags": "tamilnadu-temple-festivals",
-    "URL": "chidambaram-bhikshatanar-tanga-ratham",
+    "URL": "chidambaram-bhikshatanar-svarna-ratha",
     "offset": -2
   },
-  "ta:cidambaram dvajArOhaNam/paJcamUrtti bhavan2i": {
+  "cidambarE dhvajArOhaNam/paJcamUrti rathOtsavaH": {
     "Comments": "",
     "Nirnaya": "",
     "Other Names": "",
@@ -126,10 +126,10 @@
     "Shloka": "",
     "Short Description": "",
     "Tags": "tamilnadu-temple-festivals",
-    "URL": "chidambaram-dvajarohanam-panchamurtti-bhavani",
+    "URL": "chidambaram-dvhajarohanam-panchamurti-rathotsava",
     "offset": -9
   },
-  "ta:cidambaram kailAca vAhan2am": {
+  "cidambarE kailAsa vAhanam": {
     "Comments": "",
     "Nirnaya": "",
     "Other Names": "",
@@ -142,7 +142,7 @@
     "URL": "chidambaram-kailasa-vahanam",
     "offset": -3
   },
-  "ta:cidambaram muttuppallakku": {
+  "cidambarE muttuppallakku": {
     "Comments": "",
     "Nirnaya": "",
     "Other Names": "",
@@ -155,7 +155,7 @@
     "URL": "chidambaram-muttuppallakku",
     "offset": 1
   },
-  "ta:cidambaram tEr": {
+  "cidambarE naTarAjasya rAjasabhAyAM mahAbhiSEkaH": {
     "Comments": "",
     "Nirnaya": "",
     "Other Names": "",
@@ -165,10 +165,23 @@
     "Shloka": "",
     "Short Description": "",
     "Tags": "tamilnadu-temple-festivals",
-    "URL": "chidambaram-ter",
+    "URL": "natarajar-ani-tirumanjanam",
+    "offset": 0
+  },
+  "cidambarE rathOtsavaH": {
+    "Comments": "",
+    "Nirnaya": "",
+    "Other Names": "",
+    "Primary Reference": "",
+    "Relative Festival": "ta:naTarAjar An2i tirumaJcan2am",
+    "Secondary Reference": "",
+    "Shloka": "",
+    "Short Description": "",
+    "Tags": "tamilnadu-temple-festivals",
+    "URL": "chidambaram-rathotsava",
     "offset": -1
   },
-  "ta:cidambaram taGga sUryaprabha vAhan2am": {
+  "cidambarE svarNa-sUryaprabha vAhanam": {
     "Comments": "",
     "Nirnaya": "",
     "Other Names": "",
@@ -178,10 +191,10 @@
     "Shloka": "",
     "Short Description": "",
     "Tags": "tamilnadu-temple-festivals",
-    "URL": "chidambaram-tanga-suryaprabha-vahanam",
+    "URL": "chidambaram-svarna-suryaprabha-vahanam",
     "offset": -7
   },
-  "ta:cidambaram veLLi bhUta vAhan2am": {
+  "cidambarE rajata bhUta vAhanam": {
     "Comments": "",
     "Nirnaya": "",
     "Other Names": "",
@@ -191,10 +204,10 @@
     "Shloka": "",
     "Short Description": "",
     "Tags": "tamilnadu-temple-festivals",
-    "URL": "chidambaram-velli-bhuta-vahanam",
+    "URL": "chidambaram-rajata-bhuta-vahanam",
     "offset": -6
   },
-  "ta:cidambaram veLLi candraprabha vAhan2am": {
+  "cidambarE rajata candraprabha vAhanam": {
     "Comments": "",
     "Nirnaya": "",
     "Other Names": "",
@@ -204,10 +217,10 @@
     "Shloka": "",
     "Short Description": "",
     "Tags": "tamilnadu-temple-festivals",
-    "URL": "chidambaram-velli-chandraprabha-vahanam",
+    "URL": "chidambaram-rajata-chandraprabha-vahanam",
     "offset": -8
   },
-  "ta:cidambaram veLLi riSabha vAhan2am": {
+  "cidambarE rajata RSabha vAhanam": {
     "Comments": "",
     "Nirnaya": "",
     "Other Names": "",
@@ -217,10 +230,10 @@
     "Shloka": "",
     "Short Description": "",
     "Tags": "tamilnadu-temple-festivals",
-    "URL": "chidambaram-velli-rishabha-vahanam",
+    "URL": "chidambaram-rajata-rishabha-vahanam",
     "offset": -5
   },
-  "ta:cidambaram veLLi yAn2ai vAhan2am": {
+  "cidambarE rajata-gajavAhanam": {
     "Comments": "",
     "Nirnaya": "",
     "Other Names": "",
@@ -230,7 +243,7 @@
     "Shloka": "",
     "Short Description": "",
     "Tags": "tamilnadu-temple-festivals",
-    "URL": "chidambaram-velli-yanai-vahanam",
+    "URL": "chidambaram-rajata-gajavahanam",
     "offset": -4
   },
   "ta:kan2up~poGgal": {
