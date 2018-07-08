@@ -1450,7 +1450,7 @@ class Panchangam(common.JsonObject):
         if eclipse_solar_end > sunset_eclipse_day:
           eclipse_solar_end = sunset_eclipse_day
         solar_eclipse_str = 'sUrya-grahaNam' + \
-                            '-\\textsf{' + jyotisha.panchangam.temporal.Time(eclipse_solar_start).toString() + \
+                            '~\\textsf{' + jyotisha.panchangam.temporal.Time(eclipse_solar_start).toString() + \
                             '}{\\RIGHTarrow}\\textsf{' + jyotisha.panchangam.temporal.Time(
                                 eclipse_solar_end).toString() + '}'
         if self.weekday[fday] == 0:
