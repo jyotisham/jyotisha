@@ -101,7 +101,7 @@ def compute_calendar(panchangam):
                         # Starting or ending time is empty, e.g. harivasara, so no ICS entry
                         continue
                     [stext, t1, arrow, t2] = stext.split('\\')
-                    stext = stext.strip('-')
+                    stext = stext.strip('-~')
                     event.add('summary', jyotisha.custom_transliteration.tr(stext, panchangam.script))
                     # we know that t1 is something like 'textsf{hh:mm(+1)}{'
                     # so we know the exact positions of min and hour
