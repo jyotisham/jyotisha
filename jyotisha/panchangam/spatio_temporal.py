@@ -1523,7 +1523,7 @@ class Panchangam(common.JsonObject):
           eclipse_lunar_end = moonset_eclipse_day
 
         lunar_eclipse_str = 'candra-grahaNam' + \
-                            '-\\textsf{' + jyotisha.panchangam.temporal.Time(eclipse_lunar_start).toString() + \
+                            '~\\textsf{' + jyotisha.panchangam.temporal.Time(eclipse_lunar_start).toString() + \
                             '}{\\RIGHTarrow}\\textsf{' + jyotisha.panchangam.temporal.Time(eclipse_lunar_end).toString() + '}'
         if self.weekday[fday] == 1:
           lunar_eclipse_str = '*cUDAmaNi-' + lunar_eclipse_str
