@@ -47,7 +47,7 @@ def writeDailyTeX(panchangam, template_file, computeLagnams=True):
     yname = samvatsara_names[0]  # Assign year name until Mesha Sankranti
 
     print('\\mbox{}')
-    print('\\renewcommand{\yearname}{%d}' % panchangam.year)
+    print('\\renewcommand{\\yearname}{%d}' % panchangam.year)
     print('\\begin{center}')
     print('{\\sffamily \\fontsize{80}{80}\\selectfont  %d\\\\[0.5cm]}' % panchangam.year)
     print('\\mbox{\\fontsize{48}{48}\\selectfont %s–%s}\\\\'
@@ -58,10 +58,10 @@ def writeDailyTeX(panchangam, template_file, computeLagnams=True):
           % (panchangam.year + 3100, panchangam.year + 3101))
     print('{\\sffamily \\fontsize{50}{50}\\selectfont  \\uppercase{%s}\\\\[0.2cm]}' % panchangam.city.name)
     print('{\\sffamily \\fontsize{23}{23}\\selectfont  {%s}\\\\[0.2cm]}'
-          % jyotisha.custom_transliteration.print_lat_lon(panchangam.city.latstr, panchangam.city.lonstr))
-    print('\hrule')
-    print('\end{center}')
-    print('\clearpage')
+          % jyotisha.custom_transliteration.print_lat_lon(panchangam.city.latitude, panchangam.city.longitude))
+    print('\\hrule')
+    print('\\end{center}')
+    print('\\clearpage')
 
     for d in range(1, jyotisha.panchangam.temporal.MAX_SZ - 1):
 

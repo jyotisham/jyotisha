@@ -165,7 +165,7 @@ def revjul(jd, formatstr='%4d-%02d-%02d %02d:%02d:%02d', tz_off=0):
         return (formatstr % (year, month, day, hour, minute, second))
 
 
-def print_lat_lon(latstr, lonstr):
+def print_lat_lon(lat, lon):
     """Returns a formatted string for a latitude and longitude
 
     Returns a formatted string for latitude and longitude, given sexagesimal
@@ -183,35 +183,24 @@ def print_lat_lon(latstr, lonstr):
       "13°05'24''N, 80°16'12''E"
       >>> print_lat_lon('37:23:59','-122:08:34') #Palo Alto
       "37°23'59''N, 122°08'34''W"
-      >>> print_lat_lon('1','-1')
+      >>> print_lat_lon(1, -1)
       "1°0'0''N, 1°0'0''W"
     """
 
-    if(latstr[0] == '-'):
-        latstr = latstr[1:]
+    if lat < 0:
+        lat = -lat
         lat_suffix = 'S'
     else:
         lat_suffix = 'N'
 
-    lat_data = latstr.split(':')
-    while len(lat_data) < 3:
-        lat_data.append(0)
-    formatted_string = '%s°%s\'%s\'\'%s' % (lat_data[0], lat_data[1], lat_data[2], lat_suffix)
-
-    if lonstr[0] == '-':
-        lonstr = lonstr[1:]
+    if lon < 0:
+        lon = -lon
         lon_suffix = 'W'
     else:
         lon_suffix = 'E'
 
-    lon_data = lonstr.split(':')
-    while len(lon_data) < 3:
-        lon_data.append(0)
-    formatted_string = '%s, %s°%s\'%s\'\'%s' % (formatted_string, lon_data[0],
-                                                lon_data[1], lon_data[2], lon_suffix)
-
-    return formatted_string
+    return '%.6f°%s, %.6f°%s' % (lat, lat_suffix, lon, lon_suffix)
 
 
 def longitudeToRightAscension(longitude):
-    return (360-longitude)/360*24
+    return (360 - longitude) / 360 * 24

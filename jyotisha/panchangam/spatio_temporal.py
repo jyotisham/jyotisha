@@ -42,10 +42,12 @@ class City(JsonObject):
       self.name = str([latitude, longitude])
     else:
       self.name = name
-    self.latstr = latitude
-    self.lonstr = longitude
-    self.latitude = sexastr2deci(latitude)
-    self.longitude = sexastr2deci(longitude)
+    try:
+        self.latitude = float(latitude)
+        self.longitude = float(longitude)
+    except ValueError:
+        self.latitude = sexastr2deci(latitude)
+        self.longitude = sexastr2deci(longitude)
     self.timezone = timezone
 
 
@@ -1522,7 +1524,12 @@ class Panchangam(common.JsonObject):
         if jd_eclipse_lunar_end > jd_moonset_eclipse_day:
           eclipse_lunar_end = moonset_eclipse_day
 
-        lunar_eclipse_str = 'candra-grahaNam' + \
+        if swe.calc_ut(jd_eclipse_lunar_end, swe.MOON)[0] < swe.calc_ut(jd_eclipse_lunar_end, swe.SUN)[0]:
+            grasta = 'rAhugrasta'
+        else:
+            grasta = 'kEtugrasta'
+
+        lunar_eclipse_str = 'candra-grahaNam~(' + grasta + ')' + \
                             '~\\textsf{' + jyotisha.panchangam.temporal.Time(eclipse_lunar_start).toString() + \
                             '}{\\RIGHTarrow}\\textsf{' + jyotisha.panchangam.temporal.Time(eclipse_lunar_end).toString() + '}'
         if self.weekday[fday] == 1:

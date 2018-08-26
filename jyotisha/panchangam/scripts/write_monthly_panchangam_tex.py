@@ -59,8 +59,8 @@ def writeMonthlyTeX(panchangam, template_file):
     print('{\\font\\x="Noto Sans UI" at 48 pt\\x \\uppercase{%s}\\\\[0.2cm]}' %
           panchangam.city.name)
     print('{\\font\\x="Noto Sans UI" at 16 pt\\x {%s}\\\\[0.5cm]}' %
-          jyotisha.custom_transliteration.print_lat_lon(panchangam.city.latstr, panchangam.city.lonstr))
-    print('\hrule')
+          jyotisha.custom_transliteration.print_lat_lon(panchangam.city.latitude, panchangam.city.longitude))
+    print('\\hrule')
 
     print('\\newpage')
     print('\\centering')
@@ -120,18 +120,18 @@ def writeMonthlyTeX(panchangam, template_file):
                 if panchangam.weekday[d] != 0:  # Space till Sunday
                     for i in range(panchangam.weekday[d], 6):
                         print("{}  &")
-                    print("\\\\ \hline")
-                print('\end{tabular}')
+                    print("\\\\ \\hline")
+                print('\\end{tabular}')
                 print('\n\n')
 
             # Begin tabular
             print('\\begin{tabular}{|c|c|c|c|c|c|c|}')
-            print('\multicolumn{7}{c}{\Large \\bfseries \sffamily %s %s}\\\\[3mm]' % (
+            print('\\multicolumn{7}{c}{\\Large \\bfseries \\sffamily %s %s}\\\\[3mm]' % (
                 month[m], y))
-            print('\hline')
+            print('\\hline')
             WDAY_NAMES = ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT']
             print(' & '.join(['\\textbf{\\textsf{%s}}' %
-                              _day for _day in WDAY_NAMES]) + ' \\\\ \hline')
+                              _day for _day in WDAY_NAMES]) + ' \\\\ \\hline')
 
             # Blanks for previous weekdays
             for i in range(0, panchangam.weekday[d]):
@@ -141,7 +141,7 @@ def writeMonthlyTeX(panchangam, template_file):
         for tithi_ID, tithi_end_jd in panchangam.tithi_data[d]:
             # if tithi_data_str != '':
             #     tithi_data_str += '\\hspace{2ex}'
-            tithi = '\moon[scale=0.6]{%d}\\hspace{2pt}' % (tithi_ID) + \
+            tithi = '\\moon[scale=0.6]{%d}\\hspace{2pt}' % (tithi_ID) + \
                     jyotisha.panchangam.temporal.NAMES['TITHI_NAMES'][panchangam.script][tithi_ID]
             if tithi_end_jd is None:
                 tithi_data_str = '%s\\mbox{%s\\To{}%s}' % \
@@ -209,7 +209,7 @@ def writeMonthlyTeX(panchangam, template_file):
             jyotisha.panchangam.temporal.Time(24 * (panchangam.kalams[d]['yama'][0] - jd)).toString(format=panchangam.fmt),
             jyotisha.panchangam.temporal.Time(24 * (panchangam.kalams[d]['yama'][1] - jd)).toString(format=panchangam.fmt))
 
-        print('\caldata{\\textcolor{%s}{%s}}{%s{%s}}%%' %
+        print('\\caldata{\\textcolor{%s}{%s}}{%s{%s}}%%' %
               (day_colours[panchangam.weekday[d]], dt, panchangam.month_data[d],
                jyotisha.panchangam.temporal.get_chandra_masa(panchangam.lunar_month[d],
                                                              jyotisha.panchangam.temporal.NAMES, panchangam.script)))
@@ -224,7 +224,7 @@ def writeMonthlyTeX(panchangam, template_file):
             [jyotisha.custom_transliteration.tr(f, panchangam.script) for f in sorted(set(panchangam.festivals[d]))]))
 
         if panchangam.weekday[d] == 6:
-            print("\\\\ \hline")
+            print("\\\\ \\hline")
         else:
             print("&")
 
@@ -238,8 +238,8 @@ def writeMonthlyTeX(panchangam, template_file):
     for i in range(panchangam.weekday[d] + 1, 6):
         print("{}  &")
     if panchangam.weekday[d] != 6:
-        print("\\\\ \hline")
-    print('\end{tabular}')
+        print("\\\\ \\hline")
+    print('\\end{tabular}')
     print('\n\n')
 
     print(template_lines[-2][:-1])
