@@ -185,7 +185,7 @@ def compute_calendar(panchangam):
                             start_d = check_d
                             break
 
-                    event.add('summary', jyotisha.custom_transliteration.tr(stext.replace('samApanam', '').replace('rAtri-', 'rAtriH').replace('nakSatra-', 'nakSatram').replace('pakSa-', 'pakSaH').replace('kara-', 'karam').replace('tsava-', 'tsavaH'), panchangam.script))
+                    event.add('summary', jyotisha.custom_transliteration.tr(stext.replace('samApanam', '').replace('rAtri-', 'rAtriH').replace('nakSatra-', 'nakSatram').replace('pakSa-', 'pakSaH').replace('kara-', 'karam').replace('tsava-', 'tsavaH').replace('vrata-','vratam'), panchangam.script))
                     event.add('dtstart', (datetime(y, m, dt) - timedelta(d - start_d)).date())
                     event.add('dtend', (datetime(y, m, dt) + timedelta(1)).date())
 
