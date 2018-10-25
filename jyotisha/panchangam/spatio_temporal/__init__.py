@@ -2,6 +2,7 @@
 #  -*- coding: utf-8 -*-
 
 import logging
+import math
 import os
 import swisseph as swe
 import sys
@@ -14,6 +15,8 @@ from scipy.optimize import brentq
 
 from jyotisha.custom_transliteration import sexastr2deci
 from jyotisha.panchangam.temporal import get_angam_float, get_angam, SOLAR_MONTH
+from pytz import timezone as tz
+
 
 logging.basicConfig(level=logging.DEBUG,
                     format="%(levelname)s: %(asctime)s {%(filename)s:%(lineno)d}: %(message)s ")
@@ -53,7 +56,17 @@ class City(JsonObject):
     # checking @ 6am local - can we do any better?
     local_time = pytz.timezone(self.timezone).localize(datetime(y, m, dt, 6, 0, 0))
 
-    return datetime.utcoffset(local_time).seconds / 3600.0
+    return (datetime.utcoffset(local_time).days * 86400 +
+            datetime.utcoffset(local_time).seconds) / 3600.0
+
+  def get_local_time(self, julian_day):
+    # TODO: Complete and Test this.
+    [y, m, dt, time_in_hours] = swe.revjul(julian_day)
+    hours = math.floor(time_in_hours)
+    minutes = math.floor((time_in_hours-hours)*60)
+    seconds = math.floor(((time_in_hours-hours)*60 - minutes)*60)
+    local_time = swe.utc_time_zone(y, m, dt, hours, minutes, seconds, -self.get_timezone_offset_hours(julian_day))
+    return local_time
 
 
 def get_lagna_float(jd, lat, lon, offset=0, ayanamsha_id=swe.SIDM_LAHIRI, debug=False):
@@ -143,5 +156,4 @@ logging.debug(common.json_class_index)
 
 if __name__ == '__main__':
   import doctest
-
   doctest.testmod(verbose=True)

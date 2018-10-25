@@ -73,7 +73,7 @@ class Time(JsonObject):
         elif format == 'hh:mm:ss':
             return '%02d:%02d:%02d%s' % (hour, minute, second, suffix)
         else:
-            """Thrown an exception, for unknown format"""
+            raise Exception("""Unknown format""")
 
     def __str__(self):
         return self.toString(format='hh:mm:ss')
