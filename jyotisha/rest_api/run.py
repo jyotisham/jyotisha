@@ -1,7 +1,7 @@
 #!/usr/bin/python3 -u
 
 # This web app may be run in two modes. See bottom of the file.
-
+import json
 import logging
 import os.path
 import sys
@@ -18,9 +18,12 @@ logging.basicConfig(
 sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
 logging.debug(sys.path)
 
-params = {
-  'port': 9000,
-}
+
+CONFIG_PATH = os.path.join(os.path.dirname(__file__), 'config_local.json')
+config = {'port': 9000,}
+with open(CONFIG_PATH) as config_file:
+  # noinspection PyRedeclaration
+  config = json.loads(config_file.read())
 
 
 def setup_app():
@@ -32,7 +35,7 @@ def main():
   app.run(
     host="0.0.0.0",
     debug=False,
-    port=params["port"],
+    port=config["port"],
     use_reloader=False
   )
 

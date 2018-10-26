@@ -1,4 +1,6 @@
+import json
 import logging
+import os
 
 from jyotisha.panchangam.spatio_temporal import City
 
@@ -6,6 +8,13 @@ logging.basicConfig(
   level=logging.DEBUG,
   format="%(levelname)s: %(asctime)s {%(filename)s:%(lineno)d}: %(message)s "
 )
+
+CONFIG_PATH = os.path.join(os.path.dirname(__file__), 'config_local.json')
+config = {}
+with open(CONFIG_PATH) as config_file:
+  # noinspection PyRedeclaration
+  config = json.loads(config_file.read())
+
 
 def test_solar_day():
   from jyotisha.panchangam.spatio_temporal import daily
@@ -25,3 +34,10 @@ def test_tb_muhuurta():
   assert panchangam.tb_muhuurtas[0].jd_start == panchangam.jd_sunrise
   import numpy.testing
   numpy.testing.assert_approx_equal(panchangam.tb_muhuurtas[14].jd_end, panchangam.jd_sunrise)
+
+
+def test_get_local_time():
+  city = City.from_address(address="Mountain View, CA", api_key=config["goog_api_key"])
+  logging.info(city)
+  logging.info(city.get_local_time(julian_day="2458416.16389"))
+  pass

@@ -8,6 +8,7 @@ __pycache__/
 .pytest_cache/
 *.so
 *~
+config_local.json
 
 # due to using tox and pytest
 .tox

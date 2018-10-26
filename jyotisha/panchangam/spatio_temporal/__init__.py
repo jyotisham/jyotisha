@@ -38,11 +38,21 @@ class City(JsonObject):
       self.name = str([latitude, longitude])
     else:
       self.name = name
-    self.latstr = latitude
-    self.lonstr = longitude
-    self.latitude = sexastr2deci(latitude)
-    self.longitude = sexastr2deci(longitude)
+    if ":" in latitude:
+      self.latitude = sexastr2deci(latitude)
+      self.longitude = sexastr2deci(longitude)
+    else:
+      self.latitude = latitude
+      self.longitude = longitude
     self.timezone = timezone
+
+  @classmethod
+  def from_address(cls, address, api_key):
+    from geopy import geocoders
+    geolocator = geocoders.GoogleV3(api_key=api_key)
+    location = geolocator.geocode(address)
+    city = City(name=address, latitude=location.latitude, longitude=location.longitude, timezone=location.timezone().zone)
+    return city
 
   def get_timezone_offset_hours(self, julian_day):
     """Get timezone offset in hours east of UTC (negative west of UTC)
