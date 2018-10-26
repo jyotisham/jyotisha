@@ -39,5 +39,9 @@ def test_tb_muhuurta():
 def test_get_local_time():
   city = City.from_address_and_timezone(address="Mountain View, CA", timezone_str="America/Los_Angeles")
   logging.info(city)
-  logging.info(city.get_local_time(julian_day=2458418.319444))
-  pass
+  local_time = city.get_local_time(julian_day=2458418.319444)
+  assert local_time[0] == 2018
+  assert local_time[1] == 10
+  assert local_time[2] == 26
+  assert local_time[3] == 12
+  assert local_time[4] == 38
