@@ -38,7 +38,7 @@ class City(JsonObject):
       self.name = str([latitude, longitude])
     else:
       self.name = name
-    if ":" in latitude:
+    if ":" in str(latitude):
       self.latitude = sexastr2deci(latitude)
       self.longitude = sexastr2deci(longitude)
     else:
@@ -53,6 +53,15 @@ class City(JsonObject):
     location = geolocator.geocode(address)
     city = City(name=address, latitude=location.latitude, longitude=location.longitude, timezone=location.timezone().zone)
     return city
+
+  @classmethod
+  def from_address_and_timezone(cls, address, timezone_str):
+    from geopy import geocoders
+    geolocator = geocoders.ArcGIS()
+    location = geolocator.geocode(address)
+    city = City(name=address, latitude=location.latitude, longitude=location.longitude, timezone=timezone_str)
+    return city
+
 
   def get_timezone_offset_hours(self, julian_day):
     """Get timezone offset in hours east of UTC (negative west of UTC)
@@ -70,11 +79,10 @@ class City(JsonObject):
             datetime.utcoffset(local_time).seconds) / 3600.0
 
   def get_local_time(self, julian_day):
-    # TODO: Complete and Test this.
     [y, m, dt, time_in_hours] = swe.revjul(julian_day)
     hours = math.floor(time_in_hours)
     minutes = math.floor((time_in_hours-hours)*60)
-    seconds = math.floor(((time_in_hours-hours)*60 - minutes)*60)
+    seconds = math.floor((time_in_hours - hours - minutes * 60)*3600)
     local_time = swe.utc_time_zone(y, m, dt, hours, minutes, seconds, -self.get_timezone_offset_hours(julian_day))
     return local_time
 

@@ -37,7 +37,7 @@ def test_tb_muhuurta():
 
 
 def test_get_local_time():
-  city = City.from_address(address="Mountain View, CA", api_key=config["goog_api_key"])
+  city = City.from_address_and_timezone(address="Mountain View, CA", timezone_str="America/Los_Angeles")
   logging.info(city)
-  logging.info(city.get_local_time(julian_day="2458416.16389"))
+  logging.info(city.get_local_time(julian_day=2458418.319444))
   pass
