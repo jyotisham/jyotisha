@@ -97,7 +97,11 @@ class City(JsonObject):
     return julian_dates[1]
 
 
-class Muhuurta(JsonObject):
+class TbSayanaMuhuurta(JsonObject):
+  """ A muhUrta as defined by SayaNa's commentary to TB 5.3
+  
+  Refer https://archive.org/stream/Anandashram_Samskrita_Granthavali_Anandashram_Sanskrit_Series/ASS_037_Taittiriya_Brahmanam_with_Sayanabhashya_Part_1_-_Narayanasastri_Godbole_1934#page/n239/mode/2up .
+  """
   def __init__(self, jd_start, jd_end, muhuurta_id, city):
     super().__init__()
     self.city = city

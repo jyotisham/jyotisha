@@ -70,7 +70,7 @@ class Panchangam(common.JsonObject):
     # 15 muhUrta-s in a day.
     muhuurta_starts =  numpy.arange(self.jd_sunrise, self.jd_sunset, muhuurta_length_jd)[0:15]
     from jyotisha.panchangam import spatio_temporal
-    self.tb_muhuurtas = [spatio_temporal.Muhuurta(
+    self.tb_muhuurtas = [spatio_temporal.TbSayanaMuhuurta(
       city=self.city, jd_start=jd_start, jd_end=jd_start + muhuurta_length_jd,
       muhuurta_id=int((jd_start - self.jd_sunrise + muhuurta_length_jd/10)/muhuurta_length_jd))
                          for jd_start in muhuurta_starts]
