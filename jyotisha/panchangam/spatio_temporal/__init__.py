@@ -14,9 +14,6 @@ from sanskrit_data.schema.common import JsonObject
 from scipy.optimize import brentq
 
 from jyotisha.custom_transliteration import sexastr2deci
-from jyotisha.panchangam.temporal import get_angam_float, get_angam, SOLAR_MONTH
-from pytz import timezone as tz
-
 
 logging.basicConfig(level=logging.DEBUG,
                     format="%(levelname)s: %(asctime)s {%(filename)s:%(lineno)d}: %(message)s ")
@@ -24,7 +21,11 @@ logging.basicConfig(level=logging.DEBUG,
 CODE_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
 
 
-# next new/full moon from current one is at least 27.3 days away
+def decypher_fractional_hours(time_in_hours):
+  hours = math.floor(time_in_hours)
+  minutes = math.floor((time_in_hours-hours)*60)
+  seconds = math.floor((time_in_hours - hours - minutes * 60)*3600)
+  return (hours, minutes, seconds)
 
 
 class City(JsonObject):
@@ -47,44 +48,69 @@ class City(JsonObject):
     self.timezone = timezone
 
   @classmethod
-  def from_address(cls, address, api_key):
+  def from_address(cls, address, api_key, timeout=45):
     from geopy import geocoders
-    geolocator = geocoders.GoogleV3(api_key=api_key)
+    geolocator = geocoders.GoogleV3(api_key=api_key, timeout=timeout)
     location = geolocator.geocode(address)
     city = City(name=address, latitude=location.latitude, longitude=location.longitude, timezone=location.timezone().zone)
     return city
 
   @classmethod
-  def from_address_and_timezone(cls, address, timezone_str):
+  def from_address_and_timezone(cls, address, timezone_str, timeout=45):
     from geopy import geocoders
     geolocator = geocoders.ArcGIS()
-    location = geolocator.geocode(address)
+    location = geolocator.geocode(query=address, timeout=timeout)
     city = City(name=address, latitude=location.latitude, longitude=location.longitude, timezone=timezone_str)
     return city
 
-
-  def get_timezone_offset_hours(self, julian_day):
+  def get_timezone_offset_hours_from_jd(self, julian_day):
     """Get timezone offset in hours east of UTC (negative west of UTC)
 
     Timezone offset is dependent both on place and time - due to Daylight savings time.
     compute offset from UTC in hours
     """
     [y, m, dt, t] = swe.revjul(julian_day)
+    return self.get_timezone_offset_hours_from_date(year=y, month=m, day=dt)
 
+
+  def get_timezone_offset_hours_from_date(self, year, month, day):
+    """Get timezone offset in hours east of UTC (negative west of UTC)
+
+    Timezone offset is dependent both on place and time - due to Daylight savings time.
+    compute offset from UTC in hours
+    """
     import pytz
     # checking @ 6am local - can we do any better?
-    local_time = pytz.timezone(self.timezone).localize(datetime(y, m, dt, 6, 0, 0))
-
+    local_time = pytz.timezone(self.timezone).localize(datetime(year, month, day, 6, 0, 0))
     return (datetime.utcoffset(local_time).days * 86400 +
             datetime.utcoffset(local_time).seconds) / 3600.0
 
-  def get_local_time(self, julian_day):
+  def julian_day_to_local_time(self, julian_day):
     [y, m, dt, time_in_hours] = swe.revjul(julian_day)
-    hours = math.floor(time_in_hours)
-    minutes = math.floor((time_in_hours-hours)*60)
-    seconds = math.floor((time_in_hours - hours - minutes * 60)*3600)
-    local_time = swe.utc_time_zone(y, m, dt, hours, minutes, seconds, -self.get_timezone_offset_hours(julian_day))
+    (hours, minutes, seconds) = decypher_fractional_hours(time_in_hours=time_in_hours)
+    local_time = swe.utc_time_zone(y, m, dt, hours, minutes, seconds, -self.get_timezone_offset_hours_from_jd(julian_day))
     return local_time
+
+  def local_time_to_julian_day(self, year, month, day, hours, minutes, seconds):
+    (year_utc, month_utc, day_utc, hours_utc, minutes_utc, seconds_utc) = swe.utc_time_zone(year, month, day, hours, minutes, seconds, self.get_timezone_offset_hours_from_date(year=year, month=month, day=day))
+    julian_dates = swe.utc_to_jd(year_utc, month_utc, day_utc, hours_utc, minutes_utc, seconds_utc, 1)
+    return julian_dates[1]
+
+
+class Muhuurta(JsonObject):
+  def __init__(self, jd_start, jd_end, muhuurta_id, city):
+    super().__init__()
+    self.city = city
+    self.muhuurta_id = muhuurta_id
+    self.jd_start = jd_start
+    self.jd_end = jd_end
+    self.ahna = floor(self.muhuurta_id/3)
+    self.ahna_part = self.muhuurta_id % 3
+    self.is_nirviirya = self.muhuurta_id in (2,3, 5,6, 8,9, 11,12)
+
+  def to_localized_string(self):
+    return "muhUrta %d (nirvIrya: %s) starts from %s to %s" % (self.muhuurta_id, str(self.is_nirviirya),  self.city.julian_day_to_local_time(julian_day=self.jd_start), self.city.julian_day_to_local_time(julian_day=self.jd_end))
+
 
 
 def get_lagna_float(jd, lat, lon, offset=0, ayanamsha_id=swe.SIDM_LAHIRI, debug=False):
