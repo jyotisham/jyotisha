@@ -11,6 +11,7 @@
 \usepackage{fontspec}
 \usepackage{multicol}
 \usepackage{supertabular}
+\usepackage{../templates/listofitems}
 \newcommand{\yearname}{2015}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% MOONPHASE CODE 
@@ -123,8 +124,10 @@
 }
 \newcommand{\tamil}[1]{%
 {\fontspec[Scale=0.9,FakeStretch=0.9,Path=../fonts/]{NotoSansTamil-Regular.ttf} \footnotesize #1}}
-\newcommand{\kalas}[6]{%
-\centerline{\small{\mbox{प्रातः सन्ध्या \textsf{#1} सङ्गव \textsf{#2}\hspace{2ex}मध्याह्न \textsf{#3}{\scriptsize\RIGHTarrow}\textsf{#4}\hspace{2ex} सायाह्न \textsf{#5} सायं सन्ध्या \textsf{#6}}}}%Sangava kala etc
+\newcommand{\kalas}[1]{%
+\setsepchar{ }
+\readlist\arg{#1}
+\centerline{\small{\mbox{प्रातः सन्ध्या \textsf{\arg[1]} सङ्गव \textsf{\arg[3]}\hspace{2ex}मध्याह्न \textsf{\arg[6]}{\scriptsize\RIGHTarrow}\textsf{\arg[7]}\hspace{2ex} सायाह्न \textsf{\arg[8]} सायं सन्ध्या \textsf{\arg[9]}}}}%Sangava kala etc
 }
 \newcommand{\sunmoondata}[5]{%
 \mbox{\large\sun{\small\UParrow}\textsf{#1}~\sun{\small\DOWNarrow}\textsf{#2}}\hfill
