@@ -1,7 +1,4 @@
 {
-  "description_short": {
-    "en": "Perform puja of Mahalakshmi-Mahavishnu"
-  },
   "id": "gOpadma-vrata-ArambhaH",
   "jsonClass": "HinduCalendarEvent",
   "references_primary": [
@@ -11,7 +8,7 @@
     "Vaidikasri Aug 2015"
   ],
   "shlokas": [
-    "gOpadmamiti vikhyAtaM sarvapApaharaM param .\nsarvaduHkhOpazamanaM sarvasampatpradAyakam .\nsuvAsinyAstu saubhAgyaputrapautrapravardhanam .."
+    "gOpadmamiti vikhyAtaM sarvapApaharaM param.\nsarvaduHkhOpazamanaM sarvasampatpradAyakam.\nsuvAsinyAstu saubhAgyaputrapautrapravardhanam.."
   ],
   "tags": [
     "special-vratams"

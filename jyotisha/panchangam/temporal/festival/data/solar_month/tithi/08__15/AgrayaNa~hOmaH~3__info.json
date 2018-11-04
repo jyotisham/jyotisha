@@ -1,10 +1,7 @@
 {
-  "description_short": {
-    "en": "Perform `homa' with fresh rice from paddy."
-  },
   "id": "AgrayaNa~hOmaH~3",
   "jsonClass": "HinduCalendarEvent",
-  "priority": "puurvaviddha",
+  "priority": "purvaviddha",
   "references_secondary": [
     "Vaidikasri Nov 2017"
   ],

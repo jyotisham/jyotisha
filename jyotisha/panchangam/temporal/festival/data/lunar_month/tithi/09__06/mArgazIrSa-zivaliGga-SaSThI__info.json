@@ -1,11 +1,8 @@
 {
-  "description_short": {
-    "en": "Have darshan of Shivalingam today; removes Shivapachara doshas in the family."
-  },
   "id": "mArgazIrSa-zivaliGga-SaSThI",
   "jsonClass": "HinduCalendarEvent",
   "shlokas": [
-    "mArgazIrSE'malE pakSE SaSThyAM vArEM'zumAlinaH .\nzatatArAgatE candrE liGgaM syAddRSTigOcaram ."
+    "mArgazIrSE'malE pakSE SaSThyAM vArEM'zumAlinaH .\nzatatArAgatE candrE liGgaM syAddRSTigOcaram."
   ],
   "tags": [
     "special-pujas"

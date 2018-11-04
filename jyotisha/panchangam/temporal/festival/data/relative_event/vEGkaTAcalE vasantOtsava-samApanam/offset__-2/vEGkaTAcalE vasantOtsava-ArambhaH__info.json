@@ -1,0 +1,12 @@
+{
+  "id": "vEGkaTAcalE vasantOtsava-ArambhaH",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "andhra-temple-festivals"
+  ],
+  "timing": {
+    "anchor_festival_id": "vEGkaTAcalE vasantOtsava-samApanam",
+    "jsonClass": "HinduCalendarEventTiming",
+    "offset": -2
+  }
+}

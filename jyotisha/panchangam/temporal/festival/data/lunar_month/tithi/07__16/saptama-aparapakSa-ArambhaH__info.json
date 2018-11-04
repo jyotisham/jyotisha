@@ -1,7 +1,7 @@
 {
   "id": "saptama-aparapakSa-ArambhaH",
   "jsonClass": "HinduCalendarEvent",
-  "priority": "puurvaviddha",
+  "priority": "purvaviddha",
   "tags": [
     "special-period-start"
   ],
@@ -9,7 +9,7 @@
     "angam_number": 16,
     "angam_type": "tithi",
     "jsonClass": "HinduCalendarEventTiming",
-    "kaala": "madhyaahna",
+    "kaala": "madhyahna",
     "month_number": 7,
     "month_type": "lunar_month"
   }

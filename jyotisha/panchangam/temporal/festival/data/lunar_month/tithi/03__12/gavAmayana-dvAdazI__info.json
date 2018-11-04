@@ -1,7 +1,4 @@
 {
-  "description_short": {
-    "en": "Perform puja of Lord Trivikrama (Sahasranamarchana), do naivedyam of mangoes and offer annadanam to needy."
-  },
   "id": "gavAmayana-dvAdazI",
   "jsonClass": "HinduCalendarEvent",
   "references_primary": [
@@ -11,7 +8,7 @@
     "Vaidikasri June 2017"
   ],
   "shlokas": [
-    "ahOrAtrENa dvAdazyAM jyESThE mAsi trivikramam .\ngavAmayanamApnOti apsarObhizca mOdatE.."
+    "ahOrAtrENa dvAdazyAM jyESThE mAsi trivikramam.\ngavAmayanamApnOti apsarObhizca mOdatE.."
   ],
   "tags": [
     "less-common-festivals"

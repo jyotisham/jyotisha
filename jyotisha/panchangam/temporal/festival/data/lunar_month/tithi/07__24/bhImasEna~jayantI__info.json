@@ -1,7 +1,4 @@
 {
-  "description_short": {
-    "en": "Bhava year"
-  },
   "id": "bhImasEna~jayantI",
   "jsonClass": "HinduCalendarEvent",
   "references_secondary": [

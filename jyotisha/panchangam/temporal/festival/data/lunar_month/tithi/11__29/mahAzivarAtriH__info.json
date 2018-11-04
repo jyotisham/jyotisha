@@ -1,7 +1,4 @@
 {
-  "description_short": {
-    "en": "All related events e.g. kAmadahanam"
-  },
   "id": "mahAzivarAtriH",
   "jsonClass": "HinduCalendarEvent",
   "priority": "paraviddha",

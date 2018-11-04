@@ -337,7 +337,8 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 1,
         "month_type": "lunar_month",
-        "tags": "mahapurusha-events"
+        "tags": "mahapurusha-events",
+        "year_start": 4580
     },
     {
         "angam_number": 29,
@@ -451,7 +452,8 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 2,
         "month_type": "lunar_month",
-        "tags": "common-festivals,adi-shankara-history"
+        "tags": "common-festivals,adi-shankara-history",
+        "year_start": 2593
     },
     {
         "angam_number": 5,
@@ -472,7 +474,8 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 2,
         "month_type": "lunar_month",
-        "tags": "mahapurusha-events"
+        "tags": "mahapurusha-events",
+        "year_start": 4579
     },
     {
         "angam_number": 6,
@@ -481,7 +484,8 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 2,
         "month_type": "lunar_month",
-        "tags": "mahapurusha-events"
+        "tags": "mahapurusha-events",
+        "year_start": 4118
     },
     {
         "angam_number": 7,
@@ -549,7 +553,8 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 2,
         "month_type": "lunar_month",
-        "tags": "adi-shankara-history"
+        "tags": "adi-shankara-history",
+        "year_start": 2617
     },
     {
         "angam_number": 14,
@@ -619,7 +624,8 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 2,
         "month_type": "lunar_month",
-        "tags": "adi-shankara-history"
+        "tags": "adi-shankara-history",
+        "year_start": 2620
     },
     {
         "angam_number": 15,
@@ -707,9 +713,7 @@
     {
         "angam_number": 1,
         "angam_type": "tithi",
-        "comments": [
-            "Not assigned in 2016"
-        ],
+        "comments": "Not assigned in 2016",
         "description": {
             "en": "Perform puja of `karavIra` plants/flowers and then offer them in `arcanA`."
         },
@@ -725,9 +729,7 @@
     {
         "angam_number": 1,
         "angam_type": "tithi",
-        "comments": [
-            "Not assigned in 2016"
-        ],
+        "comments": "Not assigned in 2016",
         "id": "bhadra-catuSTaya-vratam",
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 3,
@@ -737,9 +739,7 @@
     {
         "angam_number": 1,
         "angam_type": "tithi",
-        "comments": [
-            "Not assigned in 2016"
-        ],
+        "comments": "Not assigned in 2016",
         "id": "punnAga-gaurI-vratam",
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 3,
@@ -914,7 +914,8 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 3,
         "month_type": "lunar_month",
-        "tags": "mahapurusha-events"
+        "tags": "mahapurusha-events",
+        "year_start": 4493
     },
     {
         "angam_number": 13,
@@ -1576,7 +1577,8 @@
         "shlokas": [
             "pujyAya rAghavEndrAya satyadharmaratAya ca.\nbhajatAM kalavRkSAya namatAM kAmadhEnavE.."
         ],
-        "tags": "mahapurusha-events"
+        "tags": "mahapurusha-events",
+        "year_start": 4773
     },
     {
         "angam_number": 17,
@@ -2727,7 +2729,8 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 7,
         "month_type": "lunar_month",
-        "tags": "mahapurusha-events"
+        "tags": "mahapurusha-events",
+        "year_start": 4339
     },
     {
         "angam_number": 10,
@@ -2841,7 +2844,8 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 7,
         "month_type": "lunar_month",
-        "tags": "mahapurusha-events"
+        "tags": "mahapurusha-events",
+        "year_start": 4599
     },
     {
         "angam_number": 15,
@@ -3549,7 +3553,8 @@
         "month_number": 2,
         "month_type": "lunar_month",
         "priority": "purvaviddha",
-        "tags": "mahapurusha-events"
+        "tags": "mahapurusha-events",
+        "year_start": 5016
     },
     {
         "angam_number": 11,
@@ -3563,7 +3568,8 @@
         "references_secondary": [
             "www.kamakoti.org"
         ],
-        "tags": "kanchi-aradhana-days"
+        "tags": "kanchi-aradhana-days",
+        "year_start": 2626
     },
     {
         "angam_number": 12,
@@ -3577,7 +3583,8 @@
         "references_secondary": [
             "www.kamakoti.org"
         ],
-        "tags": "kanchi-aradhana-days"
+        "tags": "kanchi-aradhana-days",
+        "year_start": 2696
     },
     {
         "angam_number": 29,
@@ -3591,7 +3598,8 @@
         "references_secondary": [
             "www.kamakoti.org"
         ],
-        "tags": "kanchi-aradhana-days"
+        "tags": "kanchi-aradhana-days",
+        "year_start": 2738
     },
     {
         "angam_number": 23,
@@ -3605,7 +3613,8 @@
         "references_secondary": [
             "www.kamakoti.org"
         ],
-        "tags": "kanchi-aradhana-days"
+        "tags": "kanchi-aradhana-days",
+        "year_start": 2834
     },
     {
         "angam_number": 7,
@@ -3619,7 +3628,8 @@
         "references_secondary": [
             "www.kamakoti.org"
         ],
-        "tags": "kanchi-aradhana-days"
+        "tags": "kanchi-aradhana-days",
+        "year_start": 2897
     },
     {
         "angam_number": 6,
@@ -3633,7 +3643,8 @@
         "references_secondary": [
             "www.kamakoti.org"
         ],
-        "tags": "kanchi-aradhana-days"
+        "tags": "kanchi-aradhana-days",
+        "year_start": 2978
     },
     {
         "angam_number": 24,
@@ -3647,7 +3658,8 @@
         "references_secondary": [
             "www.kamakoti.org"
         ],
-        "tags": "kanchi-aradhana-days"
+        "tags": "kanchi-aradhana-days",
+        "year_start": 3047
     },
     {
         "angam_number": 14,
@@ -3661,7 +3673,8 @@
         "references_secondary": [
             "www.kamakoti.org"
         ],
-        "tags": "kanchi-aradhana-days"
+        "tags": "kanchi-aradhana-days",
+        "year_start": 3130
     },
     {
         "angam_number": 18,
@@ -3675,7 +3688,8 @@
         "references_secondary": [
             "www.kamakoti.org"
         ],
-        "tags": "kanchi-aradhana-days"
+        "tags": "kanchi-aradhana-days",
+        "year_start": 3170
     },
     {
         "angam_number": 15,
@@ -3689,7 +3703,8 @@
         "references_secondary": [
             "www.kamakoti.org"
         ],
-        "tags": "kanchi-aradhana-days"
+        "tags": "kanchi-aradhana-days",
+        "year_start": 3228
     },
     {
         "angam_number": 10,
@@ -3703,7 +3718,8 @@
         "references_secondary": [
             "www.kamakoti.org"
         ],
-        "tags": "kanchi-aradhana-days"
+        "tags": "kanchi-aradhana-days",
+        "year_start": 3273
     },
     {
         "angam_number": 9,
@@ -3717,7 +3733,8 @@
         "references_secondary": [
             "www.kamakoti.org"
         ],
-        "tags": "kanchi-aradhana-days"
+        "tags": "kanchi-aradhana-days",
+        "year_start": 3336
     },
     {
         "angam_number": 16,
@@ -3731,7 +3748,8 @@
         "references_secondary": [
             "www.kamakoti.org"
         ],
-        "tags": "kanchi-aradhana-days"
+        "tags": "kanchi-aradhana-days",
+        "year_start": 3373
     },
     {
         "angam_number": 30,
@@ -3745,7 +3763,8 @@
         "references_secondary": [
             "www.kamakoti.org"
         ],
-        "tags": "kanchi-aradhana-days"
+        "tags": "kanchi-aradhana-days",
+        "year_start": 3418
     },
     {
         "angam_number": 1,
@@ -3759,7 +3778,8 @@
         "references_secondary": [
             "www.kamakoti.org"
         ],
-        "tags": "kanchi-aradhana-days"
+        "tags": "kanchi-aradhana-days",
+        "year_start": 3430
     },
     {
         "angam_number": 8,
@@ -3773,7 +3793,8 @@
         "references_secondary": [
             "www.kamakoti.org"
         ],
-        "tags": "kanchi-aradhana-days"
+        "tags": "kanchi-aradhana-days",
+        "year_start": 3468
     },
     {
         "angam_number": 10,
@@ -3787,7 +3808,8 @@
         "references_secondary": [
             "www.kamakoti.org"
         ],
-        "tags": "kanchi-aradhana-days"
+        "tags": "kanchi-aradhana-days",
+        "year_start": 3476
     },
     {
         "angam_number": 1,
@@ -3801,7 +3823,8 @@
         "references_secondary": [
             "www.kamakoti.org"
         ],
-        "tags": "kanchi-aradhana-days"
+        "tags": "kanchi-aradhana-days",
+        "year_start": 3486
     },
     {
         "angam_number": 9,
@@ -3815,7 +3838,8 @@
         "references_secondary": [
             "www.kamakoti.org"
         ],
-        "tags": "kanchi-aradhana-days"
+        "tags": "kanchi-aradhana-days",
+        "year_start": 3499
     },
     {
         "angam_number": 15,
@@ -3829,7 +3853,8 @@
         "references_secondary": [
             "www.kamakoti.org"
         ],
-        "tags": "kanchi-aradhana-days"
+        "tags": "kanchi-aradhana-days",
+        "year_start": 3538
     },
     {
         "angam_number": 23,
@@ -3843,7 +3868,8 @@
         "references_secondary": [
             "www.kamakoti.org"
         ],
-        "tags": "kanchi-aradhana-days"
+        "tags": "kanchi-aradhana-days",
+        "year_start": 3548
     },
     {
         "angam_number": 9,
@@ -3857,7 +3883,8 @@
         "references_secondary": [
             "www.kamakoti.org"
         ],
-        "tags": "kanchi-aradhana-days"
+        "tags": "kanchi-aradhana-days",
+        "year_start": 3582
     },
     {
         "angam_number": 7,
@@ -3871,7 +3898,8 @@
         "references_secondary": [
             "www.kamakoti.org"
         ],
-        "tags": "kanchi-aradhana-days"
+        "tags": "kanchi-aradhana-days",
+        "year_start": 3613
     },
     {
         "angam_number": 24,
@@ -3885,7 +3913,8 @@
         "references_secondary": [
             "www.kamakoti.org"
         ],
-        "tags": "kanchi-aradhana-days"
+        "tags": "kanchi-aradhana-days",
+        "year_start": 3628
     },
     {
         "angam_number": 1,
@@ -3899,7 +3928,8 @@
         "references_secondary": [
             "www.kamakoti.org"
         ],
-        "tags": "kanchi-aradhana-days"
+        "tags": "kanchi-aradhana-days",
+        "year_start": 3649
     },
     {
         "angam_number": 8,
@@ -3913,7 +3943,8 @@
         "references_secondary": [
             "www.kamakoti.org"
         ],
-        "tags": "kanchi-aradhana-days"
+        "tags": "kanchi-aradhana-days",
+        "year_start": 3665
     },
     {
         "angam_number": 1,
@@ -3927,7 +3958,8 @@
         "references_secondary": [
             "www.kamakoti.org"
         ],
-        "tags": "kanchi-aradhana-days"
+        "tags": "kanchi-aradhana-days",
+        "year_start": 3678
     },
     {
         "angam_number": 25,
@@ -3941,7 +3973,8 @@
         "references_secondary": [
             "www.kamakoti.org"
         ],
-        "tags": "kanchi-aradhana-days"
+        "tags": "kanchi-aradhana-days",
+        "year_start": 3702
     },
     {
         "angam_number": 11,
@@ -3955,7 +3988,8 @@
         "references_secondary": [
             "www.kamakoti.org"
         ],
-        "tags": "kanchi-aradhana-days"
+        "tags": "kanchi-aradhana-days",
+        "year_start": 3719
     },
     {
         "angam_number": 19,
@@ -3969,7 +4003,8 @@
         "references_secondary": [
             "www.kamakoti.org"
         ],
-        "tags": "kanchi-aradhana-days"
+        "tags": "kanchi-aradhana-days",
+        "year_start": 3756
     },
     {
         "angam_number": 12,
@@ -3983,7 +4018,8 @@
         "references_secondary": [
             "www.kamakoti.org"
         ],
-        "tags": "kanchi-aradhana-days"
+        "tags": "kanchi-aradhana-days",
+        "year_start": 3769
     },
     {
         "angam_number": 6,
@@ -3997,7 +4033,8 @@
         "references_secondary": [
             "www.kamakoti.org"
         ],
-        "tags": "kanchi-aradhana-days"
+        "tags": "kanchi-aradhana-days",
+        "year_start": 3773
     },
     {
         "angam_number": 21,
@@ -4011,7 +4048,8 @@
         "references_secondary": [
             "www.kamakoti.org"
         ],
-        "tags": "kanchi-aradhana-days"
+        "tags": "kanchi-aradhana-days",
+        "year_start": 3793
     },
     {
         "angam_number": 30,
@@ -4025,7 +4063,8 @@
         "references_secondary": [
             "www.kamakoti.org"
         ],
-        "tags": "kanchi-aradhana-days"
+        "tags": "kanchi-aradhana-days",
+        "year_start": 3811
     },
     {
         "angam_number": 6,
@@ -4039,7 +4078,8 @@
         "references_secondary": [
             "www.kamakoti.org"
         ],
-        "tags": "kanchi-aradhana-days"
+        "tags": "kanchi-aradhana-days",
+        "year_start": 3838
     },
     {
         "angam_number": 15,
@@ -4053,7 +4093,8 @@
         "references_secondary": [
             "www.kamakoti.org"
         ],
-        "tags": "kanchi-aradhana-days"
+        "tags": "kanchi-aradhana-days",
+        "year_start": 3859
     },
     {
         "angam_number": 17,
@@ -4067,7 +4108,8 @@
         "references_secondary": [
             "www.kamakoti.org"
         ],
-        "tags": "kanchi-aradhana-days"
+        "tags": "kanchi-aradhana-days",
+        "year_start": 3889
     },
     {
         "angam_number": 30,
@@ -4081,7 +4123,8 @@
         "references_secondary": [
             "www.kamakoti.org"
         ],
-        "tags": "kanchi-aradhana-days"
+        "tags": "kanchi-aradhana-days",
+        "year_start": 3941
     },
     {
         "angam_number": 14,
@@ -4095,7 +4138,8 @@
         "references_secondary": [
             "www.kamakoti.org"
         ],
-        "tags": "kanchi-aradhana-days"
+        "tags": "kanchi-aradhana-days",
+        "year_start": 3974
     },
     {
         "angam_number": 6,
@@ -4109,7 +4153,8 @@
         "references_secondary": [
             "www.kamakoti.org"
         ],
-        "tags": "kanchi-aradhana-days"
+        "tags": "kanchi-aradhana-days",
+        "year_start": 4016
     },
     {
         "angam_number": 1,
@@ -4123,7 +4168,8 @@
         "references_secondary": [
             "www.kamakoti.org"
         ],
-        "tags": "kanchi-aradhana-days"
+        "tags": "kanchi-aradhana-days",
+        "year_start": 4051
     },
     {
         "angam_number": 23,
@@ -4137,7 +4183,8 @@
         "references_secondary": [
             "www.kamakoti.org"
         ],
-        "tags": "kanchi-aradhana-days"
+        "tags": "kanchi-aradhana-days",
+        "year_start": 4079
     },
     {
         "angam_number": 9,
@@ -4151,7 +4198,8 @@
         "references_secondary": [
             "www.kamakoti.org"
         ],
-        "tags": "kanchi-aradhana-days"
+        "tags": "kanchi-aradhana-days",
+        "year_start": 4115
     },
     {
         "angam_number": 28,
@@ -4165,7 +4213,8 @@
         "references_secondary": [
             "www.kamakoti.org"
         ],
-        "tags": "kanchi-aradhana-days"
+        "tags": "kanchi-aradhana-days",
+        "year_start": 4141
     },
     {
         "angam_number": 7,
@@ -4179,7 +4228,8 @@
         "references_secondary": [
             "www.kamakoti.org"
         ],
-        "tags": "kanchi-aradhana-days"
+        "tags": "kanchi-aradhana-days",
+        "year_start": 4162
     },
     {
         "angam_number": 30,
@@ -4193,7 +4243,8 @@
         "references_secondary": [
             "www.kamakoti.org"
         ],
-        "tags": "kanchi-aradhana-days"
+        "tags": "kanchi-aradhana-days",
+        "year_start": 4199
     },
     {
         "angam_number": 30,
@@ -4207,7 +4258,8 @@
         "references_secondary": [
             "www.kamakoti.org"
         ],
-        "tags": "kanchi-aradhana-days"
+        "tags": "kanchi-aradhana-days",
+        "year_start": 4267
     },
     {
         "angam_number": 10,
@@ -4221,7 +4273,8 @@
         "references_secondary": [
             "www.kamakoti.org"
         ],
-        "tags": "kanchi-aradhana-days"
+        "tags": "kanchi-aradhana-days",
+        "year_start": 4301
     },
     {
         "angam_number": 23,
@@ -4235,7 +4288,8 @@
         "references_secondary": [
             "www.kamakoti.org"
         ],
-        "tags": "kanchi-aradhana-days"
+        "tags": "kanchi-aradhana-days",
+        "year_start": 4348
     },
     {
         "angam_number": 6,
@@ -4249,7 +4303,8 @@
         "references_secondary": [
             "www.kamakoti.org"
         ],
-        "tags": "kanchi-aradhana-days"
+        "tags": "kanchi-aradhana-days",
+        "year_start": 4398
     },
     {
         "angam_number": 16,
@@ -4263,7 +4318,8 @@
         "references_secondary": [
             "www.kamakoti.org"
         ],
-        "tags": "kanchi-aradhana-days"
+        "tags": "kanchi-aradhana-days",
+        "year_start": 4486
     },
     {
         "angam_number": 1,
@@ -4277,7 +4333,8 @@
         "references_secondary": [
             "www.kamakoti.org"
         ],
-        "tags": "kanchi-aradhana-days"
+        "tags": "kanchi-aradhana-days",
+        "year_start": 4518
     },
     {
         "angam_number": 10,
@@ -4291,7 +4348,8 @@
         "references_secondary": [
             "www.kamakoti.org"
         ],
-        "tags": "kanchi-aradhana-days"
+        "tags": "kanchi-aradhana-days",
+        "year_start": 4599
     },
     {
         "angam_number": 16,
@@ -4305,7 +4363,8 @@
         "references_secondary": [
             "www.kamakoti.org"
         ],
-        "tags": "kanchi-aradhana-days"
+        "tags": "kanchi-aradhana-days",
+        "year_start": 4608
     },
     {
         "angam_number": 11,
@@ -4319,7 +4378,8 @@
         "references_secondary": [
             "www.kamakoti.org"
         ],
-        "tags": "kanchi-aradhana-days"
+        "tags": "kanchi-aradhana-days",
+        "year_start": 4625
     },
     {
         "angam_number": 23,
@@ -4333,7 +4393,8 @@
         "references_secondary": [
             "www.kamakoti.org"
         ],
-        "tags": "kanchi-aradhana-days"
+        "tags": "kanchi-aradhana-days",
+        "year_start": 4640
     },
     {
         "angam_number": 10,
@@ -4347,7 +4408,8 @@
         "references_secondary": [
             "www.kamakoti.org"
         ],
-        "tags": "kanchi-aradhana-days"
+        "tags": "kanchi-aradhana-days",
+        "year_start": 4687
     },
     {
         "angam_number": 23,
@@ -4361,7 +4423,8 @@
         "references_secondary": [
             "www.kamakoti.org"
         ],
-        "tags": "kanchi-aradhana-days"
+        "tags": "kanchi-aradhana-days",
+        "year_start": 4739
     },
     {
         "angam_number": 15,
@@ -4375,7 +4438,8 @@
         "references_secondary": [
             "www.kamakoti.org"
         ],
-        "tags": "kanchi-aradhana-days"
+        "tags": "kanchi-aradhana-days",
+        "year_start": 4793
     },
     {
         "angam_number": 2,
@@ -4389,7 +4453,8 @@
         "references_secondary": [
             "www.kamakoti.org"
         ],
-        "tags": "kanchi-aradhana-days"
+        "tags": "kanchi-aradhana-days",
+        "year_start": 4805
     },
     {
         "angam_number": 9,
@@ -4403,7 +4468,8 @@
         "references_secondary": [
             "www.kamakoti.org"
         ],
-        "tags": "kanchi-aradhana-days"
+        "tags": "kanchi-aradhana-days",
+        "year_start": 4847
     },
     {
         "angam_number": 17,
@@ -4417,7 +4483,8 @@
         "references_secondary": [
             "www.kamakoti.org"
         ],
-        "tags": "kanchi-aradhana-days"
+        "tags": "kanchi-aradhana-days",
+        "year_start": 4884
     },
     {
         "angam_number": 12,
@@ -4431,7 +4498,8 @@
         "references_secondary": [
             "www.kamakoti.org"
         ],
-        "tags": "kanchi-aradhana-days"
+        "tags": "kanchi-aradhana-days",
+        "year_start": 4915
     },
     {
         "angam_number": 16,
@@ -4445,7 +4513,8 @@
         "references_secondary": [
             "www.kamakoti.org"
         ],
-        "tags": "kanchi-aradhana-days"
+        "tags": "kanchi-aradhana-days",
+        "year_start": 4952
     },
     {
         "angam_number": 30,
@@ -4459,7 +4528,8 @@
         "references_secondary": [
             "www.kamakoti.org"
         ],
-        "tags": "kanchi-aradhana-days"
+        "tags": "kanchi-aradhana-days",
+        "year_start": 4991
     },
     {
         "angam_number": 23,
@@ -4473,7 +4543,8 @@
         "references_secondary": [
             "www.kamakoti.org"
         ],
-        "tags": "kanchi-aradhana-days"
+        "tags": "kanchi-aradhana-days",
+        "year_start": 5008
     },
     {
         "angam_number": 1,
@@ -4487,7 +4558,8 @@
         "references_secondary": [
             "www.kamakoti.org"
         ],
-        "tags": "kanchi-aradhana-days"
+        "tags": "kanchi-aradhana-days",
+        "year_start": 5008
     },
     {
         "angam_number": 27,
@@ -4498,7 +4570,8 @@
         "month_number": 9,
         "month_type": "lunar_month",
         "priority": "purvaviddha",
-        "tags": "kanchi-aradhana-days,common-festivals"
+        "tags": "kanchi-aradhana-days,common-festivals",
+        "year_start": 5095
     },
     {
         "angam_number": 13,
@@ -4509,7 +4582,8 @@
         "month_number": 12,
         "month_type": "lunar_month",
         "priority": "purvaviddha",
-        "tags": "kanchi-aradhana-days,common-festivals"
+        "tags": "kanchi-aradhana-days,common-festivals",
+        "year_start": 5119
     },
     {
         "angam_number": 11,
@@ -4648,7 +4722,8 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 10,
         "month_type": "lunar_month",
-        "tags": "adi-shankara-history"
+        "tags": "adi-shankara-history",
+        "year_start": 2616
     },
     {
         "angam_number": 15,
@@ -4660,7 +4735,8 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 10,
         "month_type": "lunar_month",
-        "tags": "adi-shankara-history"
+        "tags": "adi-shankara-history",
+        "year_start": 2618
     },
     {
         "angam_number": 15,
@@ -4714,7 +4790,8 @@
         "shlokas": [
             "kAmakrOdhAdirahitaM rAmabhaktazirOmaNim.\ntyAgarAjaguruM vandE saGgItAbdhiM kalAnidhim.."
         ],
-        "tags": "mahapurusha-events"
+        "tags": "mahapurusha-events",
+        "year_start": 4948
     },
     {
         "angam_number": 22,
@@ -4723,7 +4800,8 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 10,
         "month_type": "lunar_month",
-        "tags": "mahapurusha-events"
+        "tags": "mahapurusha-events",
+        "year_start": 4963
     },
     {
         "angam_number": 1,
@@ -4876,7 +4954,8 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 11,
         "month_type": "lunar_month",
-        "tags": "adi-shankara-history"
+        "tags": "adi-shankara-history",
+        "year_start": 2611
     },
     {
         "angam_number": 8,
@@ -5159,7 +5238,8 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 12,
         "month_type": "lunar_month",
-        "tags": "mahapurusha-events"
+        "tags": "mahapurusha-events",
+        "year_start": 4936
     },
     {
         "angam_number": 7,
@@ -5168,7 +5248,8 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 12,
         "month_type": "lunar_month",
-        "tags": "mahapurusha-events"
+        "tags": "mahapurusha-events",
+        "year_start": 4695
     },
     {
         "angam_number": 15,
@@ -5210,7 +5291,8 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 12,
         "month_type": "lunar_month",
-        "tags": "mahapurusha-events"
+        "tags": "mahapurusha-events",
+        "year_start": 4586
     },
     {
         "angam_number": 15,
@@ -5229,7 +5311,8 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 12,
         "month_type": "lunar_month",
-        "tags": "mahapurusha-events"
+        "tags": "mahapurusha-events",
+        "year_start": 4730
     },
     {
         "angam_number": 30,
@@ -5387,7 +5470,8 @@
         "references_secondary": [
             "Vaidikasri Nov 2017"
         ],
-        "tags": "mahapurusha-events"
+        "tags": "mahapurusha-events",
+        "year_start": 5071
     },
     {
         "angam_number": 2,
@@ -5449,7 +5533,8 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 2,
         "month_type": "solar_month",
-        "tags": "mahapurusha-events"
+        "tags": "mahapurusha-events",
+        "year_start": 4995
     },
     {
         "angam_number": 3,
@@ -5503,7 +5588,8 @@
         "shlokas": [
             "manmanObhISTavaradaM sarvAbhISTaphalapradam.\npurandaraguruM vandE dAsazRESThaM dayAnidhim.."
         ],
-        "tags": "mahapurusha-events"
+        "tags": "mahapurusha-events",
+        "year_start": 4665
     },
     {
         "angam_number": 11,
@@ -5524,7 +5610,8 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 4,
         "month_type": "solar_month",
-        "tags": "mahapurusha-events"
+        "tags": "mahapurusha-events",
+        "year_start": 5036
     },
     {
         "angam_number": 4,
@@ -5616,7 +5703,8 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 11,
         "month_type": "solar_month",
-        "tags": "mahapurusha-events"
+        "tags": "mahapurusha-events",
+        "year_start": 4648
     },
     {
         "angam_number": 7,
@@ -5625,7 +5713,8 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 9,
         "month_type": "solar_month",
-        "tags": "mahapurusha-events"
+        "tags": "mahapurusha-events",
+        "year_start": 4980
     },
     {
         "angam_number": 28,
@@ -5635,7 +5724,8 @@
         "kaala": "aparahna",
         "month_number": 1,
         "month_type": "solar_month",
-        "tags": "mahapurusha-events"
+        "tags": "mahapurusha-events",
+        "year_start": 5052
     },
     {
         "angam_number": 27,
@@ -5645,7 +5735,8 @@
         "kaala": "aparahna",
         "month_number": 10,
         "month_type": "solar_month",
-        "tags": "mahapurusha-events"
+        "tags": "mahapurusha-events",
+        "year_start": 4994
     },
     {
         "angam_number": 13,
@@ -5657,7 +5748,8 @@
         "shlokas": [
             "karuNAsAgaraM zAntam aruNAcalavAsinam.\nzrIzESAdriguruM vandE brahmIbhUtaM tapOnidhim.."
         ],
-        "tags": "mahapurusha-events"
+        "tags": "mahapurusha-events",
+        "year_start": 4970
     },
     {
         "angam_number": 24,
@@ -5678,7 +5770,8 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 11,
         "month_type": "solar_month",
-        "tags": "mahapurusha-events"
+        "tags": "mahapurusha-events",
+        "year_start": 5069
     },
     {
         "angam_number": 12,
@@ -5816,7 +5909,8 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 8,
         "month_type": "solar_month",
-        "tags": "other-jayantis"
+        "tags": "other-jayantis",
+        "year_start": 3863
     },
     {
         "angam_number": 28,
@@ -6922,7 +7016,8 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 12,
         "month_type": "solar_month",
-        "tags": "mahapurusha-events"
+        "tags": "mahapurusha-events",
+        "year_start": 4875
     },
     {
         "angam_number": 3,
@@ -6931,7 +7026,8 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 1,
         "month_type": "solar_month",
-        "tags": "mahapurusha-events"
+        "tags": "mahapurusha-events",
+        "year_start": 4863
     },
     {
         "angam_number": 29,
@@ -7145,7 +7241,8 @@
         "references_secondary": [
             "Vaidikasri May 2017"
         ],
-        "tags": "mahapurusha-events"
+        "tags": "mahapurusha-events",
+        "year_start": 4868
     },
     {
         "angam_number": 1,

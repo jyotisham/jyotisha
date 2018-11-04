@@ -1,10 +1,7 @@
 {
-  "description_short": {
-    "en": "Danam of Brahma puranam"
-  },
   "id": "kUrma~jayantI",
   "jsonClass": "HinduCalendarEvent",
-  "priority": "puurvaviddha",
+  "priority": "purvaviddha",
   "references_secondary": [
     "Kielhorn (1897)"
   ],

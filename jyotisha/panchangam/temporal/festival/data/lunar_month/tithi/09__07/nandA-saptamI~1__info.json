@@ -1,7 +1,7 @@
 {
   "id": "nandA-saptamI~1",
   "jsonClass": "HinduCalendarEvent",
-  "priority": "puurvaviddha",
+  "priority": "purvaviddha",
   "references_primary": [
     "Bhavishyottara Puranam"
   ],
@@ -16,7 +16,7 @@
     "angam_number": 7,
     "angam_type": "tithi",
     "jsonClass": "HinduCalendarEventTiming",
-    "kaala": "madhyaahna",
+    "kaala": "madhyahna",
     "month_number": 9,
     "month_type": "lunar_month"
   }

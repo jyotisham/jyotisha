@@ -1,6 +1,9 @@
 {
   "id": "vinAyakASTamI",
   "jsonClass": "HinduCalendarEvent",
+  "references_primary": [
+    "Nilamata Puranam"
+  ],
   "tags": [
     "less-common-festivals"
   ],

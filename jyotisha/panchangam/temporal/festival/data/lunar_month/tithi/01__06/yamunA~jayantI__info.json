@@ -10,5 +10,8 @@
     "jsonClass": "HinduCalendarEventTiming",
     "month_number": 1,
     "month_type": "lunar_month"
-  }
+  },
+  "titles": [
+    "yamunA~SaSThI"
+  ]
 }

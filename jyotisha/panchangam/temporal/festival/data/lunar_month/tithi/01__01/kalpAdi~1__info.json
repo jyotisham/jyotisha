@@ -1,10 +1,7 @@
 {
-  "description_short": {
-    "en": "Kalpadi"
-  },
   "id": "kalpAdi~1",
   "jsonClass": "HinduCalendarEvent",
-  "priority": "puurvaviddha",
+  "priority": "purvaviddha",
   "tags": [
     "kalpadi-days"
   ],

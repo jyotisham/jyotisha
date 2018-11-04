@@ -2,7 +2,7 @@
   "id": "ta__citrA~paurNamI/citragupta~pUjai",
   "jsonClass": "HinduCalendarEvent",
   "shlokas": [
-    "citraguptaM mahAprAjJyaM lEkhanIpatradhAriNam .\ncitraratnAmbaradharaM madhyasthaM sarvadEhinAm .."
+    "citraguptaM mahAprAjJyaM lEkhanIpatradhAriNam.\ncitraratnAmbaradharaM madhyasthaM sarvadEhinAm.."
   ],
   "tags": [
     "purnima-days",
@@ -12,6 +12,7 @@
     "angam_number": 15,
     "angam_type": "tithi",
     "jsonClass": "HinduCalendarEventTiming",
+    "kaala": "moonrise",
     "month_number": 1,
     "month_type": "solar_month"
   }

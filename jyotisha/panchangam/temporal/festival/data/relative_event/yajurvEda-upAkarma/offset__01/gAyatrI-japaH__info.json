@@ -1,7 +1,4 @@
 {
-  "description_short": {
-    "en": "Perform 1008 Gayatri Japa."
-  },
   "id": "gAyatrI-japaH",
   "jsonClass": "HinduCalendarEvent",
   "tags": [

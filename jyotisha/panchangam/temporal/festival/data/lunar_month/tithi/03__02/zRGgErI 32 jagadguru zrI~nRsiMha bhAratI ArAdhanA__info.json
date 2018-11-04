@@ -1,0 +1,20 @@
+{
+  "id": "zRGgErI 32 jagadguru zrI~nRsiMha bhAratI ArAdhanA",
+  "jsonClass": "HinduCalendarEvent",
+  "priority": "purvaviddha",
+  "shlokas": [
+    "prahlAdavaradO dEvO yO nRsiMhaH parO hariH.\nnRsiMhOpAsakaM nityaM taM nRsiMhaH guruM bhajE.."
+  ],
+  "tags": [
+    "mahapurusha-events",
+    "sringeri-aradhana-days"
+  ],
+  "timing": {
+    "angam_number": 2,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "kaala": "madhyahna",
+    "month_number": 3,
+    "month_type": "lunar_month"
+  }
+}

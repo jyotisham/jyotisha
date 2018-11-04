@@ -1,7 +1,4 @@
 {
-  "description_short": {
-    "en": "Perform puja of Ganapati with `dUrvA` grass"
-  },
   "id": "dUrvA-gaNapati-vratam",
   "jsonClass": "HinduCalendarEvent",
   "tags": [

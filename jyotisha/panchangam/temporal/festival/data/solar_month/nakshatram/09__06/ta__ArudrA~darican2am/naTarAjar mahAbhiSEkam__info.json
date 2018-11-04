@@ -1,11 +1,8 @@
 {
-  "description_short": {
-    "en": "Visit Chidambaram to have darshan of Nataraja, or pray to Nataraja"
-  },
   "id": "ta__ArudrA~darican2am/naTarAjar mahAbhiSEkam",
   "jsonClass": "HinduCalendarEvent",
   "shlokas": [
-    "kRpAsamudram sumukhaM trinEtraM sadAzivaM rudramanantarUpam .\njaTAdharaM pArvativAmabhAgaM cidambarEzaM hRdi bhAvayAmi .."
+    "kRpAsamudram sumukhaM trinEtraM sadAzivaM rudramanantarUpam.\njaTAdharaM pArvativAmabhAgaM cidambarEzaM hRdi bhAvayAmi .."
   ],
   "tags": [
     "tamilnadu-temple-festivals",

@@ -1,7 +1,7 @@
 {
   "id": "varakunda-caturthI",
   "jsonClass": "HinduCalendarEvent",
-  "priority": "puurvaviddha",
+  "priority": "purvaviddha",
   "references_primary": [
     "Nirnaya Sindhu 162"
   ],
@@ -9,7 +9,7 @@
     "Vaidikasri Feb 2016"
   ],
   "shlokas": [
-    "mAghazuklacaturthyAM tu kundapuSpaiH sadAzivam .\nsampUjya yO hi naktA''zI samprApnOti zriyaM naraH .."
+    "mAghazuklacaturthyAM tu kundapuSpaiH sadAzivam.\nsampUjya yO hi naktA''zI samprApnOti zriyaM naraH .."
   ],
   "tags": [
     "special-pujas"

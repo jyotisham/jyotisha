@@ -1,7 +1,7 @@
 {
   "id": "sarasvatI-AvAhanam",
   "jsonClass": "HinduCalendarEvent",
-  "priority": "puurvaviddha",
+  "priority": "purvaviddha",
   "tags": [
     "common-festivals"
   ],
@@ -9,7 +9,7 @@
     "angam_number": 19,
     "angam_type": "nakshatram",
     "jsonClass": "HinduCalendarEventTiming",
-    "kaala": "madhyaahna",
+    "kaala": "madhyahna",
     "month_number": 7,
     "month_type": "lunar_month"
   }

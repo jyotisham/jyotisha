@@ -125,13 +125,19 @@ class HinduCalendarEventOld(common.JsonObject):
     if (legacy_event_dict.get("Shloka", "") != ""):
       event.shlokas = [legacy_event_dict["Shloka"]]
     if (legacy_event_dict.get("Comments", "") != ""):
-      event.comments = [legacy_event_dict["Comments"]]
+      event.comments = legacy_event_dict["Comments"]
     if (legacy_event_dict.get("Secondary Reference", "") != ""):
       event.references_secondary = [legacy_event_dict["Secondary Reference"]]
     if (legacy_event_dict.get("Primary Reference", "") != ""):
       event.references_primary = [legacy_event_dict["Primary Reference"]]
     if (legacy_event_dict.get("Other Names", "") != ""):
       event.titles = legacy_event_dict["Other Names"]
+    if (legacy_event_dict.get("offset", "") != ""):
+      event.offset = legacy_event_dict["offset"]
+    if (legacy_event_dict.get("Start Year", "") != ""):
+      event.year_start = legacy_event_dict["Start Year"]
+    if (legacy_event_dict.get("Relative Festival", "") != ""):
+      event.anchor_festival_id = legacy_event_dict["Relative Festival"]
     return event
 
 # noinspection PyUnresolvedReferences

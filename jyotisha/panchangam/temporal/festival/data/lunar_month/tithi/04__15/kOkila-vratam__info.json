@@ -1,10 +1,7 @@
 {
-  "description_short": {
-    "en": "Pooja of Kokila for getting good husband/wife."
-  },
   "id": "kOkila-vratam",
   "jsonClass": "HinduCalendarEvent",
-  "priority": "puurvaviddha",
+  "priority": "purvaviddha",
   "tags": [
     "special-vratams"
   ],

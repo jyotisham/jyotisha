@@ -47,10 +47,10 @@ def legacy_dict_to_HinduCalendarEventOld_list(old_db_file, new_db_file):
 
 
 if __name__ == '__main__':
-  # migrate_db(os.path.join(CODE_ROOT, 'panchangam/data/festival_rules.json'))
-  # migrate_db(os.path.join(CODE_ROOT, 'panchangam/data/kanchi_aradhana_rules.json'))
-  # migrate_relative_db()
   legacy_dict_to_HinduCalendarEventOld_list(os.path.join(CODE_ROOT, 'panchangam/data/legacy/festival_rules.json'), os.path.join(CODE_ROOT, 'panchangam/data/festival_rules.json'))
   legacy_dict_to_HinduCalendarEventOld_list(os.path.join(CODE_ROOT, 'panchangam/data/legacy/festival_rules_desc_only.json'), os.path.join(CODE_ROOT, 'panchangam/data/festival_rules_desc_only.json'))
   legacy_dict_to_HinduCalendarEventOld_list(os.path.join(CODE_ROOT, 'panchangam/data/legacy/relative_festival_rules.json'), os.path.join(CODE_ROOT, 'panchangam/data/relative_festival_rules.json'))
+  migrate_db(os.path.join(CODE_ROOT, 'panchangam/data/festival_rules.json'))
+  migrate_db(os.path.join(CODE_ROOT, 'panchangam/data/kanchi_aradhana_rules.json'))
+  migrate_relative_db()
   pass

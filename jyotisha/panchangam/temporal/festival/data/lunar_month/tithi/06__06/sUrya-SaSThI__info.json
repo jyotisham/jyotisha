@@ -1,11 +1,8 @@
 {
-  "description_short": {
-    "en": "Perform puja of Surya, eat Panchagavya -- brings merits greater than Ashvamedha!"
-  },
   "id": "sUrya-SaSThI",
   "jsonClass": "HinduCalendarEvent",
   "shlokas": [
-    "zuklE bhAdrapadE SaSThyAM snAnaM bhAskarapUjanam .\n prAzanaM paJcagavyasya azvamEdhaphalAdhikam .."
+    "zuklE bhAdrapadE SaSThyAM snAnaM bhAskarapUjanam.\nprAzanaM paJcagavyasya azvamEdhaphalAdhikam.."
   ],
   "tags": [
     "special-pujas"

@@ -1,7 +1,7 @@
 {
   "id": "pANDava~(lAbha)-paJcamI",
   "jsonClass": "HinduCalendarEvent",
-  "priority": "puurvaviddha",
+  "priority": "purvaviddha",
   "tags": [
     "less-common-festivals"
   ],
@@ -9,7 +9,7 @@
     "angam_number": 5,
     "angam_type": "tithi",
     "jsonClass": "HinduCalendarEventTiming",
-    "kaala": "madhyaahna",
+    "kaala": "madhyahna",
     "month_number": 8,
     "month_type": "lunar_month"
   }

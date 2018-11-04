@@ -1,8 +1,5 @@
 {
   "comments": "Not assigned in 2016",
-  "description_short": {
-    "en": "Perform puja of `karavIra` plants/flowers and then offer them in `arcanA`."
-  },
   "id": "karavIra-vratam",
   "jsonClass": "HinduCalendarEvent",
   "shlokas": [

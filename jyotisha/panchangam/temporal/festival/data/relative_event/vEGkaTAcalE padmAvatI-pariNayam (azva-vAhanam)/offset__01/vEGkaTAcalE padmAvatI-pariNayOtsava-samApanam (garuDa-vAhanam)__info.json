@@ -1,0 +1,12 @@
+{
+  "id": "vEGkaTAcalE padmAvatI-pariNayOtsava-samApanam (garuDa-vAhanam)",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "andhra-temple-festivals"
+  ],
+  "timing": {
+    "anchor_festival_id": "vEGkaTAcalE padmAvatI-pariNayam (azva-vAhanam)",
+    "jsonClass": "HinduCalendarEventTiming",
+    "offset": 1
+  }
+}

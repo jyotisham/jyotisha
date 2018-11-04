@@ -1,0 +1,16 @@
+{
+  "id": "AndOlana~tRtIyA",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "common-festivals",
+    "devi-pujas"
+  ],
+  "timing": {
+    "angam_number": 3,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "kaala": "ratrimana",
+    "month_number": 1,
+    "month_type": "lunar_month"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "kAJcI 69 jagadguru zrI~jayEndra sarasvatI ArAdhanA",
+  "jsonClass": "HinduCalendarEvent",
+  "priority": "purvaviddha",
+  "tags": [
+    "kanchi-aradhana-days",
+    "common-festivals"
+  ],
+  "timing": {
+    "angam_number": 13,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "kaala": "madhyahna",
+    "month_number": 12,
+    "month_type": "lunar_month",
+    "year_start": 5119
+  }
+}

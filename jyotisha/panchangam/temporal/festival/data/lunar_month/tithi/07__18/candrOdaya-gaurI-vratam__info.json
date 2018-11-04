@@ -1,10 +1,7 @@
 {
-  "description_short": {
-    "en": "Attla-Taddi (Telugu). After moonrise, Uma devi pooja; From this day to Deepaavali eat more Urad dal"
-  },
   "id": "candrOdaya-gaurI-vratam",
   "jsonClass": "HinduCalendarEvent",
-  "priority": "puurvaviddha",
+  "priority": "purvaviddha",
   "tags": [
     "special-vratams"
   ],

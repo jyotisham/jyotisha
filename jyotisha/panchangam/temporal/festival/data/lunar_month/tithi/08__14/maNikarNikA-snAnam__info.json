@@ -1,7 +1,4 @@
 {
-  "description_short": {
-    "en": "Perform `snAnam` at `maNikarNikA` ghat in Varanasi."
-  },
   "id": "maNikarNikA-snAnam",
   "jsonClass": "HinduCalendarEvent",
   "tags": [

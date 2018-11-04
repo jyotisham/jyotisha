@@ -1,10 +1,7 @@
 {
-  "description_short": {
-    "en": "Monday Swati?"
-  },
   "id": "nRsiMha~jayantI",
   "jsonClass": "HinduCalendarEvent",
-  "priority": "puurvaviddha",
+  "priority": "purvaviddha",
   "tags": [
     "dashavataram",
     "common-festivals"

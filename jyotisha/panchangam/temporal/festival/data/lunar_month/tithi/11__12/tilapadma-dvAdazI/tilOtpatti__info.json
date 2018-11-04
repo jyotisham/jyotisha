@@ -1,14 +1,11 @@
 {
-  "description_short": {
-    "en": "Mahavishnu created black til by extreme `tapas` on this day; light til deepam and offer `tilAnnam naivedyam`."
-  },
   "id": "tilapadma-dvAdazI/tilOtpatti",
   "jsonClass": "HinduCalendarEvent",
   "references_secondary": [
     "Vaidikasri Feb 2016"
   ],
   "shlokas": [
-    "mAghE tu zukladvAdazyAM yatO hi bhagavAn pura.\ntilAn utpAdayAmAsa tapaH kRtvA sudAruNam ..\ntilatailEna dIpAzcha dEyAh dEva gRhESu ca.\nnivEdayEt tilAnEva"
+    "mAghE tu zukladvAdazyAM yatO hi bhagavAn pura.\ntilAn utpAdayAmAsa tapaH kRtvA sudAruNam..\ntilatailEna dIpAzcha dEyAh dEva gRhESu ca.\nnivEdayEt tilAnEva"
   ],
   "tags": [
     "special-pujas"

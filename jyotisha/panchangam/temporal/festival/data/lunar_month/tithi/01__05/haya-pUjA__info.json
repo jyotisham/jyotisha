@@ -1,0 +1,17 @@
+{
+  "id": "haya-pUjA",
+  "jsonClass": "HinduCalendarEvent",
+  "references_secondary": [
+    "Vaidikasri Mar 2018"
+  ],
+  "tags": [
+    "less-common-festivals"
+  ],
+  "timing": {
+    "angam_number": 5,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 1,
+    "month_type": "lunar_month"
+  }
+}

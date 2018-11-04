@@ -1,10 +1,7 @@
 {
-  "description_short": {
-    "en": "Goddess Mahatara is 2nd of the Dasha Maha Vidyas."
-  },
   "id": "mahAtArA~jayantI",
   "jsonClass": "HinduCalendarEvent",
-  "priority": "puurvaviddha",
+  "priority": "purvaviddha",
   "tags": [
     "dashamahavidya"
   ],
@@ -12,7 +9,7 @@
     "angam_number": 9,
     "angam_type": "tithi",
     "jsonClass": "HinduCalendarEventTiming",
-    "kaala": "madhyaahna",
+    "kaala": "madhyahna",
     "month_number": 1,
     "month_type": "lunar_month"
   }

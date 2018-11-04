@@ -1,0 +1,15 @@
+{
+  "id": "ta__viSukkan2i",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "common-festivals",
+    "sun-sankranti"
+  ],
+  "timing": {
+    "angam_number": 1,
+    "angam_type": "day",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 1,
+    "month_type": "solar_month"
+  }
+}

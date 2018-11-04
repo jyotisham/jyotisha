@@ -1,10 +1,7 @@
 {
-  "description_short": {
-    "en": "Perform Samudra Snanam and Shraddha."
-  },
   "id": "kRtayugAdi",
   "jsonClass": "HinduCalendarEvent",
-  "priority": "puurvaviddha",
+  "priority": "purvaviddha",
   "tags": [
     "yugadi-days"
   ],
