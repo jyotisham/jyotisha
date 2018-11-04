@@ -66,6 +66,7 @@ class Panchangam(common.JsonObject):
 
     self.weekday = [None] * jyotisha.panchangam.temporal.MAX_SZ
     self.kaalas = [dict() for _x in range(jyotisha.panchangam.temporal.MAX_SZ)]
+    self.daily_panchaangas = [None] * jyotisha.panchangam.temporal.MAX_SZ
 
     self.fest_days = {}
     self.festivals = [[] for _x in range(jyotisha.panchangam.temporal.MAX_SZ)]
@@ -105,14 +106,13 @@ class Panchangam(common.JsonObject):
       # What is the jd at 00:00 local time today?
       jd = self.jd_start - (tz_off / 24.0) + d - 1
 
-      self.jd_sunrise[d + 1] = swe.rise_trans(
-        jd_start=jd + 1, body=swe.SUN,
-        lon=self.city.longitude, lat=self.city.latitude,
-        rsmi=swe.CALC_RISE | swe.BIT_DISC_CENTER)[1][0]
-      self.jd_sunset[d + 1] = swe.rise_trans(
-        jd_start=self.jd_sunrise[d + 1], body=swe.SUN,
-        lon=self.city.longitude, lat=self.city.latitude,
-        rsmi=swe.CALC_SET | swe.BIT_DISC_CENTER)[1][0]
+      ## TODO: Eventually, we are shifting to an array of daily panchangas. Reason: Better modularity.
+      # The below block is temporary code to make the transition seamless.
+      self.daily_panchaangas[d + 1] = daily.Panchangam.from_date(city=self.city, year=y, month=m, day=dt)
+      self.daily_panchaangas[d + 1].compute_solar_transitions()
+      self.jd_sunrise[d+1] = self.daily_panchaangas[d+1].jd_sunrise
+      self.jd_sunset[d+1] = self.daily_panchaangas[d+1].jd_sunset
+
       self.jd_moonrise[d + 1] = swe.rise_trans(
         jd_start=self.jd_sunrise[d + 1],
         body=swe.MOON, lon=self.city.longitude,
@@ -1026,7 +1026,7 @@ class Panchangam(common.JsonObject):
 
       festival_rules = read_old_festival_rules_dict(os.path.join(CODE_ROOT, 'panchangam/data/festival_rules.json'))
       assert "tripurOtsavaH" in festival_rules
-      logging.debug(festival_rules.keys())
+      # logging.debug(festival_rules.keys())
       for festival_name in festival_rules:
         if 'month_type' in festival_rules[festival_name]:
           month_type = festival_rules[festival_name]['month_type']
