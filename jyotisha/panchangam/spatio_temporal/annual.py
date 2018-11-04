@@ -423,7 +423,7 @@ class Panchangam(common.JsonObject):
                 get_angam_func(jd_moonrise_tmrw, ayanamsha_id=self.ayanamsha_id)]
     else:
       # Error!
-      raise (ValueError, 'Unkown kaala "%s" input!' % kaala_type)
+      raise ValueError('Unkown kaala "%s" input!' % kaala_type)
     return angams
 
   def add_festival(self, festival_name, d, debug=False):

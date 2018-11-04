@@ -121,7 +121,7 @@ class HinduCalendarEventOld(common.JsonObject):
     if (legacy_event_dict.get("priority", "") != ""):
       event.priority = legacy_event_dict["priority"]
     if (legacy_event_dict.get("kala", "") != ""):
-      event.kaala = legacy_event_dict["kala"]
+      event.kaala = legacy_event_dict["kala"].replace("madhyahna", "madhyaahna")
     if (legacy_event_dict.get("Shloka", "") != ""):
       event.shlokas = [legacy_event_dict["Shloka"]]
     if (legacy_event_dict.get("Comments", "") != ""):
