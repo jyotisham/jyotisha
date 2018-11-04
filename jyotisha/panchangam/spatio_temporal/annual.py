@@ -209,12 +209,16 @@ class Panchangam(common.JsonObject):
 
       self.kaalas[d] = {
         'prAtaH sandhyA': jyotisha.panchangam.temporal.get_kaalas(self.jd_sunset[d - 1], self.jd_sunrise[d], 14, 15),
+        'prAtaH sandhyA end': jyotisha.panchangam.temporal.get_kaalas(self.jd_sunrise[d], self.jd_sunset[d], 4, 15),
         'prAtah': jyotisha.panchangam.temporal.get_kaalas(self.jd_sunrise[d], self.jd_sunset[d], 0, 5),
         'saGgava': jyotisha.panchangam.temporal.get_kaalas(self.jd_sunrise[d], self.jd_sunset[d], 1, 5),
         'madhyAhna': jyotisha.panchangam.temporal.get_kaalas(self.jd_sunrise[d], self.jd_sunset[d], 2, 5),
+        'mAdhyAhnika sandhyA': jyotisha.panchangam.temporal.get_kaalas(self.jd_sunrise[d], self.jd_sunset[d], 5, 15),
+        'mAdhyAhnika sandhyA end': jyotisha.panchangam.temporal.get_kaalas(self.jd_sunrise[d], self.jd_sunset[d], 13, 15),
         'aparAhna': jyotisha.panchangam.temporal.get_kaalas(self.jd_sunrise[d], self.jd_sunset[d], 3, 5),
         'sAyAhna': jyotisha.panchangam.temporal.get_kaalas(self.jd_sunrise[d], self.jd_sunset[d], 4, 5),
         'sAyaM sandhyA': jyotisha.panchangam.temporal.get_kaalas(self.jd_sunrise[d], self.jd_sunset[d], 14, 15),
+        'sAyaM sandhyA end': jyotisha.panchangam.temporal.get_kaalas(self.jd_sunset[d], self.jd_sunrise[d + 1], 1, 15),
         'rahu': jyotisha.panchangam.temporal.get_kaalas(self.jd_sunrise[d], self.jd_sunset[d],
                                                        RAHUKALA_OCTETS[self.weekday[d]], 8),
         'yama': jyotisha.panchangam.temporal.get_kaalas(self.jd_sunrise[d], self.jd_sunset[d],
