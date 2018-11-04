@@ -1082,9 +1082,8 @@ class Panchangam(common.JsonObject):
               if month_type == 'lunar_month':
                 fest_num = self.year + 3100 + (d >= self.lunar_month.index(1)) - fest_start_year + 1
 
-            if fest_num is not None and fest_num < 0:
-              raise (Exception('Festival %s is only in the future!\n' %
-                               festival_name))
+            if fest_num is not None and fest_num <= 0:
+              logging.warning('Festival %s is only in the future!\n' % festival_name)
 
             if fest_num is not None:
               festival_name += '~\\#{%d}' % fest_num
@@ -1114,8 +1113,8 @@ class Panchangam(common.JsonObject):
             elif month_type == 'lunar_month':
               fest_num = self.year + 3100 + (d >= self.lunar_month.index(1)) - fest_start_year + 1
 
-          if fest_num is not None and fest_num < 0:
-            raise (Exception('Festival %s is only in the future!\n' % festival_name))
+          if fest_num is not None and fest_num <= 0:
+            logging.warning('Festival %s is only in the future!\n' % festival_name)
 
           if fest_num is not None:
             festival_name += '~\\#{%d}' % fest_num
