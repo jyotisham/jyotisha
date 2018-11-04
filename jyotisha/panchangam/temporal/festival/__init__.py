@@ -100,6 +100,39 @@ class HinduCalendarEventTiming(common.JsonObject):
 class HinduCalendarEventOld(common.JsonObject):
   pass
 
+  @classmethod
+  def from_legacy_event(cls, event_id, legacy_event_dict):
+    event = HinduCalendarEventOld()
+    event.id = event_id
+    if (legacy_event_dict.get("Month Type", "") != ""):
+      event.month_type = legacy_event_dict["Month Type"]
+    if (legacy_event_dict.get("Month Number", "") != ""):
+      event.month_number = legacy_event_dict["Month Number"]
+    if (legacy_event_dict.get("Angam Type", "") != ""):
+      event.angam_type = legacy_event_dict["Angam Type"]
+    if (legacy_event_dict.get("Angam Number", "") != ""):
+      event.angam_number = legacy_event_dict["Angam Number"]
+    if (legacy_event_dict.get("Tags", "") != ""):
+      event.tags = legacy_event_dict["Tags"]
+    if (legacy_event_dict.get("Short Description", "") != ""):
+      event.description = {
+        "en": legacy_event_dict["Short Description"]
+      }
+    if (legacy_event_dict.get("priority", "") != ""):
+      event.priority = legacy_event_dict["priority"]
+    if (legacy_event_dict.get("kala", "") != ""):
+      event.kaala = legacy_event_dict["kala"]
+    if (legacy_event_dict.get("Shloka", "") != ""):
+      event.shlokas = [legacy_event_dict["Shloka"]]
+    if (legacy_event_dict.get("Comments", "") != ""):
+      event.comments = [legacy_event_dict["Comments"]]
+    if (legacy_event_dict.get("Secondary Reference", "") != ""):
+      event.references_secondary = [legacy_event_dict["Secondary Reference"]]
+    if (legacy_event_dict.get("Primary Reference", "") != ""):
+      event.references_primary = [legacy_event_dict["Primary Reference"]]
+    if (legacy_event_dict.get("Other Names", "") != ""):
+      event.titles = legacy_event_dict["Other Names"]
+    return event
 
 # noinspection PyUnresolvedReferences
 class HinduCalendarEvent(common.JsonObject):
