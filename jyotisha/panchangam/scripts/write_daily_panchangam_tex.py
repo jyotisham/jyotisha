@@ -192,7 +192,7 @@ def writeDailyTeX(panchangam, template_file, computeLagnams=True):
         print('{\kalas{%s %s %s %s %s %s %s %s %s %s}}}' % (pratahsandhya, pratahsandhya_end,
                                                             sangava,
                                                             madhyahnika_sandhya, madhyahnika_sandhya_end,
-                                                            madhyahna, aparahna, sayahna,
+                                                            madhyaahna, aparahna, sayahna,
                                                             sayamsandhya, sayamsandhya_end))
         if computeLagnams:
             print('{\\tnykdata{%s}%%\n{%s}{%s}%%\n{%s}%%\n{%s}{\\tiny %s}\n}'

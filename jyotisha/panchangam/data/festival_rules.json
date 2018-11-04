@@ -56,7 +56,7 @@
         "kaala": "aparahna",
         "month_number": 1,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "Kielhorn (1897)"
         ],
@@ -152,7 +152,7 @@
         "kaala": "madhyaahna",
         "month_number": 1,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "tags": "dashavataram,common-festivals"
     },
     {
@@ -378,7 +378,7 @@
         "kaala": "madhyaahna",
         "month_number": 2,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "Kielhorn (1897)"
         ],
@@ -419,7 +419,7 @@
         "kaala": "sangava",
         "month_number": 2,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "tags": "yugadi-days"
     },
     {
@@ -430,7 +430,7 @@
         "kaala": "madhyaahna",
         "month_number": 2,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "tags": "dashavataram"
     },
     {
@@ -528,7 +528,7 @@
         "kaala": "madhyaahna",
         "month_number": 2,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "Kielhorn (1897)"
         ],
@@ -567,7 +567,7 @@
         "kaala": "sunset",
         "month_number": 2,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "tags": "dashavataram,common-festivals"
     },
     {
@@ -608,7 +608,7 @@
         "kaala": "sayahna",
         "month_number": 2,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "Kielhorn (1897)"
         ],
@@ -1156,7 +1156,7 @@
         "kaala": "sunset",
         "month_number": 4,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "tags": "manvadi-days"
     },
     {
@@ -1167,7 +1167,7 @@
         "kaala": "sunset",
         "month_number": 4,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "tags": "manvadi-days"
     },
     {
@@ -1385,7 +1385,7 @@
         "kaala": "sunset",
         "month_number": 4,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "tags": "special-vratams"
     },
     {
@@ -1405,7 +1405,7 @@
         "kaala": "sunset",
         "month_number": 4,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "tags": "manvadi-days"
     },
     {
@@ -1491,7 +1491,7 @@
         "kaala": "sunset",
         "month_number": 5,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "tags": "dashavataram"
     },
     {
@@ -1618,7 +1618,7 @@
         "kaala": "sayahna",
         "month_number": 5,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "Kielhorn (1897)"
         ],
@@ -1662,7 +1662,7 @@
         "kaala": "madhyaahna",
         "month_number": 5,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "Vaidikasri Aug 2016"
         ],
@@ -1795,7 +1795,7 @@
         "kaala": "aparahna",
         "month_number": 6,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "tags": "dashavataram"
     },
     {
@@ -1872,7 +1872,7 @@
         "kaala": "madhyaahna",
         "month_number": 6,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "tags": "common-festivals"
     },
     {
@@ -1883,7 +1883,7 @@
         "kaala": "madhyaahna",
         "month_number": 6,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "tags": "special-vratams,common-festivals"
     },
     {
@@ -2090,7 +2090,7 @@
         "kaala": "madhyaahna",
         "month_number": 6,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "tags": "dashavataram,common-festivals"
     },
     {
@@ -2194,7 +2194,7 @@
         "kaala": "sunrise",
         "month_number": 6,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "tags": "special-vratams,common-festivals"
     },
     {
@@ -2239,7 +2239,7 @@
         "kaala": "madhyaahna",
         "month_number": 6,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "tags": "special-period-start"
     },
     {
@@ -2250,7 +2250,7 @@
         "kaala": "madhyaahna",
         "month_number": 7,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "tags": "special-period-start"
     },
     {
@@ -2261,7 +2261,7 @@
         "kaala": "madhyaahna",
         "month_number": 8,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "tags": "special-period-start"
     },
     {
@@ -2336,7 +2336,7 @@
         "kaala": "moonrise",
         "month_number": 6,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "Kielhorn (1897)"
         ],
@@ -2489,7 +2489,7 @@
         "kaala": "madhyaahna",
         "month_number": 6,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "tags": "less-common-festivals"
     },
     {
@@ -2593,7 +2593,7 @@
         "kaala": "aparahna",
         "month_number": 7,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "tags": "common-festivals",
         "titles": "upAGga-lalitA-vratam"
     },
@@ -2786,7 +2786,7 @@
         "kaala": "sunset",
         "month_number": 7,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "tags": "dashavataram,less-common-festivals"
     },
     {
@@ -2943,7 +2943,7 @@
         "kaala": "moonrise",
         "month_number": 7,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "tags": "special-vratams"
     },
     {
@@ -2954,7 +2954,7 @@
         "kaala": "moonrise",
         "month_number": 7,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "Kielhorn (1897)"
         ],
@@ -3061,7 +3061,7 @@
         "kaala": "pradosha",
         "month_number": 7,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "tags": "special-vratams,less-common-festivals",
         "titles": "vizoka-dvAdazI\nekhaNDa-dvAdazI\npadmanAbha-dvAdazI"
     },
@@ -3232,7 +3232,7 @@
         "kaala": "madhyaahna",
         "month_number": 8,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "tags": "purana-events",
         "titles": "annakUT"
     },
@@ -3244,7 +3244,7 @@
         "kaala": "madhyaahna",
         "month_number": 8,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "tags": "common-festivals"
     },
     {
@@ -3255,7 +3255,7 @@
         "kaala": "madhyaahna",
         "month_number": 8,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "https://twitter.com/blog_supplement/status/923044462229671936"
         ],
@@ -3269,7 +3269,7 @@
         "kaala": "madhyaahna",
         "month_number": 8,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "tags": "less-common-festivals"
     },
     {
@@ -3292,7 +3292,7 @@
         "kaala": "madhyaahna",
         "month_number": 8,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "tags": "less-common-festivals"
     },
     {
@@ -3306,7 +3306,7 @@
         "kaala": "sangava",
         "month_number": 8,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "tags": "yugadi-days"
     },
     {
@@ -3356,7 +3356,7 @@
         "kaala": "madhyaahna",
         "month_number": 8,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "tags": "common-festivals"
     },
     {
@@ -3403,7 +3403,7 @@
         "kaala": "pradosha",
         "month_number": 8,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "tags": "common-festivals"
     },
     {
@@ -3423,7 +3423,7 @@
         "kaala": "pradosha",
         "month_number": 8,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "tags": "manvadi-days"
     },
     {
@@ -3454,7 +3454,7 @@
         "kaala": "pradosha",
         "month_number": 9,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "shlokas": [
             "Adau brahmA madhyE viSNurantE dEvaH sadAzivaH.\nmUrtitrayasvarUpAya dattAtrEya namO'stu tE.. "
         ],
@@ -3468,7 +3468,7 @@
         "kaala": "madhyaahna",
         "month_number": 3,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "shlokas": [
             "prahlAdavaradO dEvO yO nRsiMhaH parO hariH.\nnRsiMhOpAsakaM nityaM taM nRsiMhaH guruM bhajE.."
         ],
@@ -3482,7 +3482,7 @@
         "kaala": "madhyaahna",
         "month_number": 6,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "shlokas": [
             "sadA''tmadhyAnanirataM viSayEbhyaH paraGmukham.\nnaumi zAstrESu niSNAtaM candrazEkharabhAratIm.."
         ],
@@ -3541,7 +3541,7 @@
         "kaala": "madhyaahna",
         "month_number": 8,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "tags": "kanchi-aradhana-days"
     },
     {
@@ -3552,7 +3552,7 @@
         "kaala": "madhyaahna",
         "month_number": 2,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "tags": "mahapurusha-events",
         "year_start": 5016
     },
@@ -3564,7 +3564,7 @@
         "kaala": "madhyaahna",
         "month_number": 2,
         "month_type": "solar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "www.kamakoti.org"
         ],
@@ -3579,7 +3579,7 @@
         "kaala": "madhyaahna",
         "month_number": 3,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "www.kamakoti.org"
         ],
@@ -3594,7 +3594,7 @@
         "kaala": "madhyaahna",
         "month_number": 2,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "www.kamakoti.org"
         ],
@@ -3609,7 +3609,7 @@
         "kaala": "madhyaahna",
         "month_number": 9,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "www.kamakoti.org"
         ],
@@ -3624,7 +3624,7 @@
         "kaala": "madhyaahna",
         "month_number": 9,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "www.kamakoti.org"
         ],
@@ -3639,7 +3639,7 @@
         "kaala": "madhyaahna",
         "month_number": 3,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "www.kamakoti.org"
         ],
@@ -3654,7 +3654,7 @@
         "kaala": "madhyaahna",
         "month_number": 2,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "www.kamakoti.org"
         ],
@@ -3669,7 +3669,7 @@
         "kaala": "madhyaahna",
         "month_number": 10,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "www.kamakoti.org"
         ],
@@ -3684,7 +3684,7 @@
         "kaala": "madhyaahna",
         "month_number": 8,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "www.kamakoti.org"
         ],
@@ -3699,7 +3699,7 @@
         "kaala": "madhyaahna",
         "month_number": 4,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "www.kamakoti.org"
         ],
@@ -3714,7 +3714,7 @@
         "kaala": "madhyaahna",
         "month_number": 11,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "www.kamakoti.org"
         ],
@@ -3729,7 +3729,7 @@
         "kaala": "madhyaahna",
         "month_number": 4,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "www.kamakoti.org"
         ],
@@ -3744,7 +3744,7 @@
         "kaala": "madhyaahna",
         "month_number": 9,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "www.kamakoti.org"
         ],
@@ -3759,7 +3759,7 @@
         "kaala": "madhyaahna",
         "month_number": 9,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "www.kamakoti.org"
         ],
@@ -3774,7 +3774,7 @@
         "kaala": "madhyaahna",
         "month_number": 1,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "www.kamakoti.org"
         ],
@@ -3789,7 +3789,7 @@
         "kaala": "madhyaahna",
         "month_number": 2,
         "month_type": "solar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "www.kamakoti.org"
         ],
@@ -3804,7 +3804,7 @@
         "kaala": "madhyaahna",
         "month_number": 3,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "www.kamakoti.org"
         ],
@@ -3819,7 +3819,7 @@
         "kaala": "madhyaahna",
         "month_number": 9,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "www.kamakoti.org"
         ],
@@ -3834,7 +3834,7 @@
         "kaala": "madhyaahna",
         "month_number": 7,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "www.kamakoti.org"
         ],
@@ -3849,7 +3849,7 @@
         "kaala": "madhyaahna",
         "month_number": 5,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "www.kamakoti.org"
         ],
@@ -3864,7 +3864,7 @@
         "kaala": "madhyaahna",
         "month_number": 5,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "www.kamakoti.org"
         ],
@@ -3879,7 +3879,7 @@
         "kaala": "madhyaahna",
         "month_number": 8,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "www.kamakoti.org"
         ],
@@ -3894,7 +3894,7 @@
         "kaala": "madhyaahna",
         "month_number": 2,
         "month_type": "solar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "www.kamakoti.org"
         ],
@@ -3909,7 +3909,7 @@
         "kaala": "madhyaahna",
         "month_number": 5,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "www.kamakoti.org"
         ],
@@ -3924,7 +3924,7 @@
         "kaala": "madhyaahna",
         "month_number": 4,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "www.kamakoti.org"
         ],
@@ -3939,7 +3939,7 @@
         "kaala": "madhyaahna",
         "month_number": 2,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "www.kamakoti.org"
         ],
@@ -3954,7 +3954,7 @@
         "kaala": "madhyaahna",
         "month_number": 1,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "www.kamakoti.org"
         ],
@@ -3969,7 +3969,7 @@
         "kaala": "madhyaahna",
         "month_number": 8,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "www.kamakoti.org"
         ],
@@ -3984,7 +3984,7 @@
         "kaala": "madhyaahna",
         "month_number": 5,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "www.kamakoti.org"
         ],
@@ -3999,7 +3999,7 @@
         "kaala": "madhyaahna",
         "month_number": 2,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "www.kamakoti.org"
         ],
@@ -4014,7 +4014,7 @@
         "kaala": "madhyaahna",
         "month_number": 4,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "www.kamakoti.org"
         ],
@@ -4029,7 +4029,7 @@
         "kaala": "madhyaahna",
         "month_number": 9,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "www.kamakoti.org"
         ],
@@ -4044,7 +4044,7 @@
         "kaala": "madhyaahna",
         "month_number": 6,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "www.kamakoti.org"
         ],
@@ -4059,7 +4059,7 @@
         "kaala": "madhyaahna",
         "month_number": 9,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "www.kamakoti.org"
         ],
@@ -4074,7 +4074,7 @@
         "kaala": "madhyaahna",
         "month_number": 4,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "www.kamakoti.org"
         ],
@@ -4089,7 +4089,7 @@
         "kaala": "madhyaahna",
         "month_number": 7,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "www.kamakoti.org"
         ],
@@ -4104,7 +4104,7 @@
         "kaala": "madhyaahna",
         "month_number": 10,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "www.kamakoti.org"
         ],
@@ -4119,7 +4119,7 @@
         "kaala": "madhyaahna",
         "month_number": 4,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "www.kamakoti.org"
         ],
@@ -4134,7 +4134,7 @@
         "kaala": "madhyaahna",
         "month_number": 2,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "www.kamakoti.org"
         ],
@@ -4149,7 +4149,7 @@
         "kaala": "madhyaahna",
         "month_number": 2,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "www.kamakoti.org"
         ],
@@ -4164,7 +4164,7 @@
         "kaala": "madhyaahna",
         "month_number": 5,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "www.kamakoti.org"
         ],
@@ -4179,7 +4179,7 @@
         "kaala": "madhyaahna",
         "month_number": 8,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "www.kamakoti.org"
         ],
@@ -4194,7 +4194,7 @@
         "kaala": "madhyaahna",
         "month_number": 1,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "www.kamakoti.org"
         ],
@@ -4209,7 +4209,7 @@
         "kaala": "madhyaahna",
         "month_number": 6,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "www.kamakoti.org"
         ],
@@ -4224,7 +4224,7 @@
         "kaala": "madhyaahna",
         "month_number": 7,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "www.kamakoti.org"
         ],
@@ -4239,7 +4239,7 @@
         "kaala": "madhyaahna",
         "month_number": 4,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "www.kamakoti.org"
         ],
@@ -4254,7 +4254,7 @@
         "kaala": "madhyaahna",
         "month_number": 1,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "www.kamakoti.org"
         ],
@@ -4269,7 +4269,7 @@
         "kaala": "madhyaahna",
         "month_number": 4,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "www.kamakoti.org"
         ],
@@ -4284,7 +4284,7 @@
         "kaala": "madhyaahna",
         "month_number": 8,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "www.kamakoti.org"
         ],
@@ -4299,7 +4299,7 @@
         "kaala": "madhyaahna",
         "month_number": 3,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "www.kamakoti.org"
         ],
@@ -4314,7 +4314,7 @@
         "kaala": "madhyaahna",
         "month_number": 11,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "www.kamakoti.org"
         ],
@@ -4329,7 +4329,7 @@
         "kaala": "madhyaahna",
         "month_number": 1,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "www.kamakoti.org"
         ],
@@ -4344,7 +4344,7 @@
         "kaala": "madhyaahna",
         "month_number": 3,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "www.kamakoti.org"
         ],
@@ -4359,7 +4359,7 @@
         "kaala": "madhyaahna",
         "month_number": 4,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "www.kamakoti.org"
         ],
@@ -4374,7 +4374,7 @@
         "kaala": "madhyaahna",
         "month_number": 10,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "www.kamakoti.org"
         ],
@@ -4389,7 +4389,7 @@
         "kaala": "madhyaahna",
         "month_number": 1,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "www.kamakoti.org"
         ],
@@ -4404,7 +4404,7 @@
         "kaala": "madhyaahna",
         "month_number": 5,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "www.kamakoti.org"
         ],
@@ -4419,7 +4419,7 @@
         "kaala": "madhyaahna",
         "month_number": 7,
         "month_type": "solar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "www.kamakoti.org"
         ],
@@ -4434,7 +4434,7 @@
         "kaala": "madhyaahna",
         "month_number": 6,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "www.kamakoti.org"
         ],
@@ -4449,7 +4449,7 @@
         "kaala": "madhyaahna",
         "month_number": 1,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "www.kamakoti.org"
         ],
@@ -4464,7 +4464,7 @@
         "kaala": "madhyaahna",
         "month_number": 3,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "www.kamakoti.org"
         ],
@@ -4479,7 +4479,7 @@
         "kaala": "madhyaahna",
         "month_number": 10,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "www.kamakoti.org"
         ],
@@ -4494,7 +4494,7 @@
         "kaala": "madhyaahna",
         "month_number": 4,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "www.kamakoti.org"
         ],
@@ -4509,7 +4509,7 @@
         "kaala": "madhyaahna",
         "month_number": 8,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "www.kamakoti.org"
         ],
@@ -4524,7 +4524,7 @@
         "kaala": "madhyaahna",
         "month_number": 12,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "www.kamakoti.org"
         ],
@@ -4539,7 +4539,7 @@
         "kaala": "madhyaahna",
         "month_number": 11,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "www.kamakoti.org"
         ],
@@ -4554,7 +4554,7 @@
         "kaala": "madhyaahna",
         "month_number": 12,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "www.kamakoti.org"
         ],
@@ -4569,7 +4569,7 @@
         "kaala": "madhyaahna",
         "month_number": 9,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "tags": "kanchi-aradhana-days,common-festivals",
         "year_start": 5095
     },
@@ -4581,7 +4581,7 @@
         "kaala": "madhyaahna",
         "month_number": 12,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "tags": "kanchi-aradhana-days,common-festivals",
         "year_start": 5119
     },
@@ -4593,7 +4593,7 @@
         "kaala": "sunset",
         "month_number": 10,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "tags": "manvadi-days"
     },
     {
@@ -4661,7 +4661,7 @@
         "kaala": "madhyaahna",
         "month_number": 9,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "shlokas": [
             "adityAM kazyapAjjajJE mitrO nAma divAkaraH.\nsaptamyAM tEna sA khyAtA lOkE'smin mitrasaptamI.."
         ],
@@ -4675,7 +4675,7 @@
         "kaala": "madhyaahna",
         "month_number": 9,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_primary": [
             "Bhavishyottara Puranam"
         ],
@@ -4692,7 +4692,7 @@
         "kaala": "madhyaahna",
         "month_number": 12,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "tags": "special-vratams,less-common-festivals"
     },
     {
@@ -4703,7 +4703,7 @@
         "kaala": "madhyaahna",
         "month_number": 11,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_primary": [
             "Bhavisyat Purana"
         ],
@@ -4853,7 +4853,7 @@
         "kaala": "pradosha",
         "month_number": 11,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_primary": [
             "Nirnaya Sindhu 162"
         ],
@@ -4968,7 +4968,7 @@
         "kaala": "madhyaahna",
         "month_number": 11,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "Vaidikasri Feb 2016"
         ],
@@ -5116,7 +5116,7 @@
         "kaala": "aparahna",
         "month_number": 11,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "tags": "yugadi-days"
     },
     {
@@ -5130,7 +5130,7 @@
         "kaala": "aparahna",
         "month_number": 1,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "tags": "kalpadi-days"
     },
     {
@@ -5144,7 +5144,7 @@
         "kaala": "aparahna",
         "month_number": 1,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "tags": "kalpadi-days"
     },
     {
@@ -5158,7 +5158,7 @@
         "kaala": "aparahna",
         "month_number": 2,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "tags": "kalpadi-days"
     },
     {
@@ -5172,7 +5172,7 @@
         "kaala": "aparahna",
         "month_number": 8,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "tags": "kalpadi-days"
     },
     {
@@ -5186,7 +5186,7 @@
         "kaala": "aparahna",
         "month_number": 9,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "tags": "kalpadi-days"
     },
     {
@@ -5200,7 +5200,7 @@
         "kaala": "aparahna",
         "month_number": 11,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "tags": "kalpadi-days"
     },
     {
@@ -5214,7 +5214,7 @@
         "kaala": "aparahna",
         "month_number": 12,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "tags": "kalpadi-days"
     },
     {
@@ -5270,7 +5270,7 @@
         "kaala": "pradosha",
         "month_number": 12,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "tags": "common-festivals,purana-events"
     },
     {
@@ -5340,7 +5340,7 @@
         "kaala": "madhyaahna",
         "month_number": 7,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "tags": "common-festivals"
     },
     {
@@ -5351,7 +5351,7 @@
         "kaala": "pradosha",
         "month_number": 8,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "tags": "common-festivals"
     },
     {
@@ -5362,7 +5362,7 @@
         "kaala": "sunset",
         "month_number": 7,
         "month_type": "solar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "tags": "tamilnadu-temple-festivals,common-festivals"
     },
     {
@@ -5373,7 +5373,7 @@
         "kaala": "sunrise",
         "month_number": 10,
         "month_type": "solar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "tags": "tamilnadu-temple-festivals"
     },
     {
@@ -5384,7 +5384,7 @@
         "kaala": "sunrise",
         "month_number": 10,
         "month_type": "solar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "tags": "tamilnadu-temple-festivals"
     },
     {
@@ -5398,7 +5398,7 @@
         "kaala": "sunrise",
         "month_number": 7,
         "month_type": "solar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "Vaidikasri Nov 2017"
         ],
@@ -5415,7 +5415,7 @@
         "kaala": "sunrise",
         "month_number": 7,
         "month_type": "solar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "Vaidikasri Nov 2017"
         ],
@@ -5432,7 +5432,7 @@
         "kaala": "sunrise",
         "month_number": 8,
         "month_type": "solar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "Vaidikasri Nov 2017"
         ],
@@ -5449,7 +5449,7 @@
         "kaala": "sunrise",
         "month_number": 8,
         "month_type": "solar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "Vaidikasri Nov 2017"
         ],
@@ -5466,7 +5466,7 @@
         "kaala": "madhyaahna",
         "month_number": 7,
         "month_type": "solar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "references_secondary": [
             "Vaidikasri Nov 2017"
         ],
@@ -5492,7 +5492,7 @@
         "kaala": "ratrimana",
         "month_number": 8,
         "month_type": "solar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "tags": "common-festivals"
     },
     {
@@ -5503,7 +5503,7 @@
         "kaala": "ratrimana",
         "month_number": 8,
         "month_type": "solar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "tags": "common-festivals"
     },
     {
@@ -5514,7 +5514,7 @@
         "kaala": "ratrimana",
         "month_number": 8,
         "month_type": "solar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "tags": "common-festivals"
     },
     {
@@ -5666,7 +5666,7 @@
         "kaala": "madhyaahna",
         "month_number": 6,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "tags": "special-pujas,common-festivals"
     },
     {
@@ -5800,7 +5800,7 @@
         "kaala": "ratrimana",
         "month_number": 10,
         "month_type": "solar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "tags": "tamilnadu-temple-festivals"
     },
     {
@@ -7462,7 +7462,7 @@
         "kaala": "madhyaahna",
         "month_number": 1,
         "month_type": "lunar_month",
-        "priority": "purvaviddha",
+        "priority": "puurvaviddha",
         "tags": "dashamahavidya"
     },
     {

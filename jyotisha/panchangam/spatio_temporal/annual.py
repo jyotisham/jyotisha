@@ -1025,7 +1025,8 @@ class Panchangam(common.JsonObject):
           self.add_festival('budhAnUrAdhA-puNyakAlaH', d, debug_festivals)
 
       festival_rules = read_old_festival_rules_dict(os.path.join(CODE_ROOT, 'panchangam/data/festival_rules.json'))
-
+      assert "tripurOtsavaH" in festival_rules
+      logging.debug(festival_rules.keys())
       for festival_name in festival_rules:
         if 'month_type' in festival_rules[festival_name]:
           month_type = festival_rules[festival_name]['month_type']
