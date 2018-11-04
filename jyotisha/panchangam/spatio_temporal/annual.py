@@ -109,19 +109,11 @@ class Panchangam(common.JsonObject):
       ## TODO: Eventually, we are shifting to an array of daily panchangas. Reason: Better modularity.
       # The below block is temporary code to make the transition seamless.
       self.daily_panchaangas[d + 1] = daily.Panchangam.from_date(city=self.city, year=y, month=m, day=dt)
-      self.daily_panchaangas[d + 1].compute_solar_transitions()
+      self.daily_panchaangas[d + 1].compute_sun_moon_transitions()
       self.jd_sunrise[d+1] = self.daily_panchaangas[d+1].jd_sunrise
       self.jd_sunset[d+1] = self.daily_panchaangas[d+1].jd_sunset
-
-      self.jd_moonrise[d + 1] = swe.rise_trans(
-        jd_start=self.jd_sunrise[d + 1],
-        body=swe.MOON, lon=self.city.longitude,
-        lat=self.city.latitude,
-        rsmi=swe.CALC_RISE | swe.BIT_DISC_CENTER)[1][0]
-      self.jd_moonset[d + 1] = swe.rise_trans(
-        jd_start=self.jd_moonrise[d + 1], body=swe.MOON,
-        lon=self.city.longitude, lat=self.city.latitude,
-        rsmi=swe.CALC_SET | swe.BIT_DISC_CENTER)[1][0]
+      self.jd_moonrise[d+1] = self.daily_panchaangas[d+1].jd_moonrise
+      self.jd_moonset[d+1] = self.daily_panchaangas[d+1].jd_moonset
 
       longitude_sun_sunrise = swe.calc_ut(self.jd_sunrise[d + 1], swe.SUN)[0] - swe.get_ayanamsa(self.jd_sunrise[d + 1])
       longitude_sun_sunset = swe.calc_ut(self.jd_sunset[d + 1], swe.SUN)[0] - swe.get_ayanamsa(self.jd_sunset[d + 1])

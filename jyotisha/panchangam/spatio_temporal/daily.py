@@ -31,6 +31,8 @@ class Panchangam(common.JsonObject):
     self.ayanamsha_id = ayanamsha_id
     self.jd_sunrise = None
     self.jd_sunset = None
+    self.jd_moonrise = None
+    self.jd_moonset = None
     self.tb_muhuurtas = None
     self.solar_month_day = None
 
@@ -43,13 +45,22 @@ class Panchangam(common.JsonObject):
     julian_day = city.local_time_to_julian_day(year=year, month=month, day=day, hours=6, minutes=1, seconds=1)
     return Panchangam(city=city, julian_day=julian_day)
 
-  def compute_solar_transitions(self):
+  def compute_sun_moon_transitions(self):
     self.jd_sunrise = swe.rise_trans(
       jd_start=self.julian_day_start, body=swe.SUN,
       lon=self.city.longitude, lat=self.city.latitude,
       rsmi=swe.CALC_RISE | swe.BIT_DISC_CENTER)[1][0]
     self.jd_sunset = swe.rise_trans(
       jd_start=self.jd_sunrise, body=swe.SUN,
+      lon=self.city.longitude, lat=self.city.latitude,
+      rsmi=swe.CALC_SET | swe.BIT_DISC_CENTER)[1][0]
+    self.jd_moonrise = swe.rise_trans(
+      jd_start=self.jd_sunrise,
+      body=swe.MOON, lon=self.city.longitude,
+      lat=self.city.latitude,
+      rsmi=swe.CALC_RISE | swe.BIT_DISC_CENTER)[1][0]
+    self.jd_moonset = swe.rise_trans(
+      jd_start=self.jd_moonrise, body=swe.MOON,
       lon=self.city.longitude, lat=self.city.latitude,
       rsmi=swe.CALC_SET | swe.BIT_DISC_CENTER)[1][0]
     if self.jd_sunset == 0.0:
@@ -63,7 +74,7 @@ class Panchangam(common.JsonObject):
     """ Computes muhuurta-s according to taittiriiya brAhmaNa.
     """
     if not hasattr(self, "jd_sunrise") or self.jd_sunrise is None:
-      self.compute_solar_transitions()
+      self.compute_sun_moon_transitions()
     day_length_jd = self.jd_sunset - self.jd_sunrise
     muhuurta_length_jd = day_length_jd/(5*3)
     import numpy
@@ -79,7 +90,7 @@ class Panchangam(common.JsonObject):
     """Compute the solar month and day for a given Julian day
     """
     if not hasattr(self, "jd_sunrise") or self.jd_sunrise is None:
-      self.compute_solar_transitions()
+      self.compute_sun_moon_transitions()
     self.solar_month = get_angam(self.jd_sunset, SOLAR_MONTH, ayanamsha_id=self.ayanamsha_id)
     target = floor(get_angam_float(self.jd_sunset, SOLAR_MONTH, ayanamsha_id=self.ayanamsha_id))
 

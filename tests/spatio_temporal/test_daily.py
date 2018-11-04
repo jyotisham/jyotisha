@@ -29,7 +29,7 @@ def test_sunrise_mtv():
   city = City.from_address_and_timezone('Cupertino, CA', "America/Los_Angeles")
   from jyotisha.panchangam.spatio_temporal import daily
   panchangam = daily.Panchangam.from_date(city=city, year=2018, month=11, day=11)
-  panchangam.compute_solar_transitions()
+  panchangam.compute_sun_moon_transitions()
   numpy.testing.assert_approx_equal(panchangam.jd_sunrise, 2458434.11)
 
 def test_tb_muhuurta_mtv():
