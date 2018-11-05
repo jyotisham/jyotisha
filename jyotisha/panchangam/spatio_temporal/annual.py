@@ -117,17 +117,14 @@ class Panchangam(common.JsonObject):
       # The below block is temporary code to make the transition seamless.
       self.daily_panchaangas[d + 1] = daily.Panchangam(city=self.city, julian_day=jd + 1, ayanamsha_id=self.ayanamsha_id)
       self.daily_panchaangas[d + 1].compute_sun_moon_transitions()
+      self.daily_panchaangas[d + 1].compute_solar_month()
       self.jd_sunrise[d+1] = self.daily_panchaangas[d+1].jd_sunrise
       self.jd_sunset[d+1] = self.daily_panchaangas[d+1].jd_sunset
       self.jd_moonrise[d+1] = self.daily_panchaangas[d+1].jd_moonrise
       self.jd_moonset[d+1] = self.daily_panchaangas[d+1].jd_moonset
+      self.solar_month[d + 1] = self.daily_panchaangas[d+1].solar_month_sunset
 
-      longitude_sun_sunrise = swe.calc_ut(self.jd_sunrise[d + 1], swe.SUN)[0] - swe.get_ayanamsa(self.jd_sunrise[d + 1])
-      longitude_sun_sunset = swe.calc_ut(self.jd_sunset[d + 1], swe.SUN)[0] - swe.get_ayanamsa(self.jd_sunset[d + 1])
-
-      self.solar_month[d + 1] = int(1 + floor((longitude_sun_sunset % 360) / 30.0))
-
-      solar_month_sunrise[d + 1] = int(1 + floor(((longitude_sun_sunrise) % 360) / 30.0))
+      solar_month_sunrise[d + 1] = self.daily_panchaangas[d+1].solar_month_sunrise
 
       if (d <= 0):
         continue
@@ -136,7 +133,6 @@ class Panchangam(common.JsonObject):
         # data for day 0, -1.
 
       # Solar month calculations
-      solar_month_end_time = ''
       if month_start_after_sunset is True:
         solar_month_day = 0
         month_start_after_sunset = False

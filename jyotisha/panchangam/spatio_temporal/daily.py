@@ -29,6 +29,7 @@ class Panchangam(common.JsonObject):
     self.julian_day_start = None
     self.compute_jd_start()
     self.ayanamsha_id = ayanamsha_id
+    swe.set_sid_mode(ayanamsha_id)
     self.jd_sunrise = None
     self.jd_sunset = None
     self.jd_moonrise = None
@@ -43,7 +44,7 @@ class Panchangam(common.JsonObject):
   @classmethod
   def from_date(cls, city, year, month, day, ayanamsha_id=swe.SIDM_LAHIRI):
     julian_day = city.local_time_to_julian_day(year=year, month=month, day=day, hours=6, minutes=1, seconds=1)
-    return Panchangam(city=city, julian_day=julian_day, ayanamsha_id=swe.SIDM_LAHIRI)
+    return Panchangam(city=city, julian_day=julian_day, ayanamsha_id=ayanamsha_id)
 
   def compute_sun_moon_transitions(self):
     self.jd_sunrise = swe.rise_trans(
@@ -54,6 +55,12 @@ class Panchangam(common.JsonObject):
       jd_start=self.jd_sunrise, body=swe.SUN,
       lon=self.city.longitude, lat=self.city.latitude,
       rsmi=swe.CALC_SET | swe.BIT_DISC_CENTER)[1][0]
+    if self.jd_sunset == 0.0:
+      logging.error('No sunset was computed!')
+      raise (ValueError('No sunset was computed. Perhaps the co-ordinates are beyond the polar circle (most likely a LAT-LONG swap! Please check your inputs.'))
+      # logging.debug(swe.rise_trans(jd_start=jd_start, body=swe.SUN, lon=city.longitude,
+      #                              lat=city.latitude, rsmi=swe.CALC_SET | swe.BIT_DISC_CENTER))
+
     self.jd_moonrise = swe.rise_trans(
       jd_start=self.jd_sunrise,
       body=swe.MOON, lon=self.city.longitude,
@@ -63,12 +70,18 @@ class Panchangam(common.JsonObject):
       jd_start=self.jd_moonrise, body=swe.MOON,
       lon=self.city.longitude, lat=self.city.latitude,
       rsmi=swe.CALC_SET | swe.BIT_DISC_CENTER)[1][0]
-    if self.jd_sunset == 0.0:
-      logging.error('No sunset was computed!')
-      raise (ValueError('No sunset was computed. Perhaps the co-ordinates are beyond the polar circle (most likely a LAT-LONG swap! Please check your inputs.'))
-      # logging.debug(swe.rise_trans(jd_start=jd_start, body=swe.SUN, lon=city.longitude,
-      #                              lat=city.latitude, rsmi=swe.CALC_SET | swe.BIT_DISC_CENTER))
 
+  def compute_solar_month(self):
+    swe.set_sid_mode(self.ayanamsha_id)
+    self.longitude_sun_sunrise = swe.calc_ut(self.jd_sunrise, swe.SUN)[0] - swe.get_ayanamsa(self.jd_sunrise)
+    self.longitude_sun_sunset = swe.calc_ut(self.jd_sunset, swe.SUN)[0] - swe.get_ayanamsa(self.jd_sunset)
+    
+    # Each solar month has 30 days. So, divide the longitude by 30 to get the solar month.
+    self.solar_month_sunset = int(1 + floor((self.longitude_sun_sunset % 360) / 30.0))
+    self.solar_month_sunrise = int(1 + floor(((self.longitude_sun_sunrise) % 360) / 30.0))
+      
+    # If solar transition happens before the current sunset but after the previous sunset, then that is taken to be solar day 1.
+    
 
   def compute_tb_muhuurtas(self):
     """ Computes muhuurta-s according to taittiriiya brAhmaNa.

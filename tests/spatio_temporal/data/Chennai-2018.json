@@ -24,7 +24,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458118.2708333335,
       "julian_day_start": 2458118.270823908,
+      "longitude_sun_sunrise": 255.42438465159222,
+      "longitude_sun_sunset": 255.90563553154954,
       "solar_month_day": null,
+      "solar_month_sunrise": 9,
+      "solar_month_sunset": 9,
       "tb_muhuurtas": null
     },
     {
@@ -43,7 +47,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458119.2708333335,
       "julian_day_start": 2458119.270823891,
+      "longitude_sun_sunrise": 256.4434635251868,
+      "longitude_sun_sunset": 256.924836411956,
       "solar_month_day": null,
+      "solar_month_sunrise": 9,
+      "solar_month_sunset": 9,
       "tb_muhuurtas": null
     },
     {
@@ -62,7 +70,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458120.2708333335,
       "julian_day_start": 2458120.270823875,
+      "longitude_sun_sunrise": 257.4625402048895,
+      "longitude_sun_sunset": 257.9440477460326,
       "solar_month_day": null,
+      "solar_month_sunrise": 9,
+      "solar_month_sunset": 9,
       "tb_muhuurtas": null
     },
     {
@@ -81,7 +93,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458121.2708333335,
       "julian_day_start": 2458121.270823859,
+      "longitude_sun_sunrise": 258.481617537853,
+      "longitude_sun_sunset": 258.9632727929144,
       "solar_month_day": null,
+      "solar_month_sunrise": 9,
+      "solar_month_sunset": 9,
       "tb_muhuurtas": null
     },
     {
@@ -100,7 +116,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458122.2708333335,
       "julian_day_start": 2458122.2708238433,
+      "longitude_sun_sunrise": 259.5006998642519,
+      "longitude_sun_sunset": 259.98251701181346,
       "solar_month_day": null,
+      "solar_month_sunrise": 9,
+      "solar_month_sunset": 9,
       "tb_muhuurtas": null
     },
     {
@@ -119,7 +139,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458123.2708333335,
       "julian_day_start": 2458123.2708238275,
+      "longitude_sun_sunrise": 260.5197931604539,
+      "longitude_sun_sunset": 261.0017867079755,
       "solar_month_day": null,
+      "solar_month_sunrise": 9,
+      "solar_month_sunset": 9,
       "tb_muhuurtas": null
     },
     {
@@ -138,7 +162,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458124.2708333335,
       "julian_day_start": 2458124.2708238116,
+      "longitude_sun_sunrise": 261.53890478544963,
+      "longitude_sun_sunset": 262.0210887612576,
       "solar_month_day": null,
+      "solar_month_sunrise": 9,
+      "solar_month_sunset": 9,
       "tb_muhuurtas": null
     },
     {
@@ -157,7 +185,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458125.2708333335,
       "julian_day_start": 2458125.270823796,
+      "longitude_sun_sunrise": 262.55804043418436,
+      "longitude_sun_sunset": 263.0404275640006,
       "solar_month_day": null,
+      "solar_month_sunrise": 9,
+      "solar_month_sunset": 9,
       "tb_muhuurtas": null
     },
     {
@@ -176,7 +208,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458126.2708333335,
       "julian_day_start": 2458126.27082378,
+      "longitude_sun_sunrise": 263.57720219601396,
+      "longitude_sun_sunset": 264.05980264818083,
       "solar_month_day": null,
+      "solar_month_sunrise": 9,
+      "solar_month_sunset": 9,
       "tb_muhuurtas": null
     },
     {
@@ -195,7 +231,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458127.2708333335,
       "julian_day_start": 2458127.270823764,
+      "longitude_sun_sunrise": 264.59638758644854,
+      "longitude_sun_sunset": 265.0792087886043,
       "solar_month_day": null,
+      "solar_month_sunrise": 9,
+      "solar_month_sunset": 9,
       "tb_muhuurtas": null
     },
     {
@@ -214,7 +254,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458128.2708333335,
       "julian_day_start": 2458128.2708237483,
+      "longitude_sun_sunrise": 265.6155887859613,
+      "longitude_sun_sunset": 266.0986359620444,
       "solar_month_day": null,
+      "solar_month_sunrise": 9,
+      "solar_month_sunset": 9,
       "tb_muhuurtas": null
     },
     {
@@ -233,7 +277,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458129.2708333335,
       "julian_day_start": 2458129.2708237325,
+      "longitude_sun_sunrise": 266.63479366592816,
+      "longitude_sun_sunset": 267.11806980450035,
       "solar_month_day": null,
+      "solar_month_sunrise": 9,
+      "solar_month_sunset": 9,
       "tb_muhuurtas": null
     },
     {
@@ -252,7 +300,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458130.2708333335,
       "julian_day_start": 2458130.2708237167,
+      "longitude_sun_sunrise": 267.6539860556464,
+      "longitude_sun_sunset": 268.1374926189116,
       "solar_month_day": null,
+      "solar_month_sunrise": 9,
+      "solar_month_sunset": 9,
       "tb_muhuurtas": null
     },
     {
@@ -271,7 +323,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458131.2708333335,
       "julian_day_start": 2458131.270823701,
+      "longitude_sun_sunrise": 268.6731465183387,
+      "longitude_sun_sunset": 269.15688299657467,
       "solar_month_day": null,
+      "solar_month_sunrise": 9,
+      "solar_month_sunset": 9,
       "tb_muhuurtas": null
     },
     {
@@ -290,7 +346,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458132.2708333335,
       "julian_day_start": 2458132.270823685,
+      "longitude_sun_sunrise": 269.69225282698824,
+      "longitude_sun_sunset": 270.176217349216,
       "solar_month_day": null,
+      "solar_month_sunrise": 9,
+      "solar_month_sunset": 10,
       "tb_muhuurtas": null
     },
     {
@@ -309,7 +369,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458133.2708333335,
       "julian_day_start": 2458133.270823669,
+      "longitude_sun_sunrise": 270.71127997651536,
+      "longitude_sun_sunset": 271.19546999532594,
       "solar_month_day": null,
+      "solar_month_sunrise": 10,
+      "solar_month_sunset": 10,
       "tb_muhuurtas": null
     },
     {
@@ -328,7 +392,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458134.2708333335,
       "julian_day_start": 2458134.2708236533,
+      "longitude_sun_sunrise": 271.7302019318335,
+      "longitude_sun_sunset": 272.2146137722388,
       "solar_month_day": null,
+      "solar_month_sunrise": 10,
+      "solar_month_sunset": 10,
       "tb_muhuurtas": null
     },
     {
@@ -347,7 +415,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458135.2708333335,
       "julian_day_start": 2458135.270823637,
+      "longitude_sun_sunrise": 272.74899171368133,
+      "longitude_sun_sunset": 273.233621694081,
       "solar_month_day": null,
+      "solar_month_sunrise": 10,
+      "solar_month_sunset": 10,
       "tb_muhuurtas": null
     },
     {
@@ -366,7 +438,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458136.2708333335,
       "julian_day_start": 2458136.270823621,
+      "longitude_sun_sunrise": 273.7676220507418,
+      "longitude_sun_sunset": 274.2524663092929,
       "solar_month_day": null,
+      "solar_month_sunrise": 10,
+      "solar_month_sunset": 10,
       "tb_muhuurtas": null
     },
     {
@@ -385,7 +461,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458137.2708333335,
       "julian_day_start": 2458137.2708236054,
+      "longitude_sun_sunrise": 274.7860668625811,
+      "longitude_sun_sunset": 275.2711217081464,
       "solar_month_day": null,
+      "solar_month_sunrise": 10,
+      "solar_month_sunset": 10,
       "tb_muhuurtas": null
     },
     {
@@ -404,7 +484,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458138.2708333335,
       "julian_day_start": 2458138.2708235895,
+      "longitude_sun_sunrise": 275.80430040199366,
+      "longitude_sun_sunset": 276.28956300407117,
       "solar_month_day": null,
+      "solar_month_sunrise": 10,
+      "solar_month_sunset": 10,
       "tb_muhuurtas": null
     },
     {
@@ -423,7 +507,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458139.2708333335,
       "julian_day_start": 2458139.2708235737,
+      "longitude_sun_sunrise": 276.8222999270193,
+      "longitude_sun_sunset": 277.30776827812673,
       "solar_month_day": null,
+      "solar_month_sunrise": 10,
+      "solar_month_sunset": 10,
       "tb_muhuurtas": null
     },
     {
@@ -442,7 +530,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458140.2708333335,
       "julian_day_start": 2458140.270823558,
+      "longitude_sun_sunrise": 277.84004461423075,
+      "longitude_sun_sunset": 278.3257178613911,
       "solar_month_day": null,
+      "solar_month_sunrise": 10,
+      "solar_month_sunset": 10,
       "tb_muhuurtas": null
     },
     {
@@ -461,7 +553,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458141.2708333335,
       "julian_day_start": 2458141.270823542,
+      "longitude_sun_sunrise": 278.8575168341974,
+      "longitude_sun_sunset": 279.34339537393805,
       "solar_month_day": null,
+      "solar_month_sunrise": 10,
+      "solar_month_sunset": 10,
       "tb_muhuurtas": null
     },
     {
@@ -480,7 +576,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458142.2708333335,
       "julian_day_start": 2458142.270823526,
+      "longitude_sun_sunrise": 279.8747019941065,
+      "longitude_sun_sunset": 280.3607875208656,
       "solar_month_day": null,
+      "solar_month_sunrise": 10,
+      "solar_month_sunset": 10,
       "tb_muhuurtas": null
     },
     {
@@ -499,7 +599,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458143.2708333335,
       "julian_day_start": 2458143.2708235104,
+      "longitude_sun_sunrise": 280.8915885829768,
+      "longitude_sun_sunset": 281.3778838651331,
       "solar_month_day": null,
+      "solar_month_sunrise": 10,
+      "solar_month_sunset": 10,
       "tb_muhuurtas": null
     },
     {
@@ -518,7 +622,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458144.2708333335,
       "julian_day_start": 2458144.2708234945,
+      "longitude_sun_sunrise": 281.9081679328084,
+      "longitude_sun_sunset": 282.39467654767634,
       "solar_month_day": null,
+      "solar_month_sunrise": 10,
+      "solar_month_sunset": 10,
       "tb_muhuurtas": null
     },
     {
@@ -537,7 +645,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458145.2708333335,
       "julian_day_start": 2458145.2708234787,
+      "longitude_sun_sunrise": 282.92443339541387,
+      "longitude_sun_sunset": 283.4111599728373,
       "solar_month_day": null,
+      "solar_month_sunrise": 10,
+      "solar_month_sunset": 10,
       "tb_muhuurtas": null
     },
     {
@@ -556,7 +668,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458146.2708333335,
       "julian_day_start": 2458146.270823463,
+      "longitude_sun_sunrise": 283.9403801732675,
+      "longitude_sun_sunset": 284.4273291788817,
       "solar_month_day": null,
+      "solar_month_sunrise": 10,
+      "solar_month_sunset": 10,
       "tb_muhuurtas": null
     },
     {
@@ -575,7 +691,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458147.2708333335,
       "julian_day_start": 2458147.270823447,
+      "longitude_sun_sunrise": 284.95600422987656,
+      "longitude_sun_sunset": 285.4431806957982,
       "solar_month_day": null,
+      "solar_month_sunrise": 10,
+      "solar_month_sunset": 10,
       "tb_muhuurtas": null
     },
     {
@@ -594,7 +714,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458148.2708333335,
       "julian_day_start": 2458148.270823431,
+      "longitude_sun_sunrise": 285.97130343199086,
+      "longitude_sun_sunset": 286.4587138860953,
       "solar_month_day": null,
+      "solar_month_sunrise": 10,
+      "solar_month_sunset": 10,
       "tb_muhuurtas": null
     },
     {
@@ -613,7 +737,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458149.2708333335,
       "julian_day_start": 2458149.2708234154,
+      "longitude_sun_sunrise": 286.98627959331407,
+      "longitude_sun_sunset": 287.4739325856508,
       "solar_month_day": null,
+      "solar_month_sunrise": 10,
+      "solar_month_sunset": 10,
       "tb_muhuurtas": null
     },
     {
@@ -632,7 +760,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458150.2708333335,
       "julian_day_start": 2458150.2708233995,
+      "longitude_sun_sunrise": 288.00093934694996,
+      "longitude_sun_sunset": 288.4888458718192,
       "solar_month_day": null,
+      "solar_month_sunrise": 10,
+      "solar_month_sunset": 10,
       "tb_muhuurtas": null
     },
     {
@@ -651,7 +783,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458151.2708333335,
       "julian_day_start": 2458151.2708233837,
+      "longitude_sun_sunrise": 289.0152946347057,
+      "longitude_sun_sunset": 289.50346755427825,
       "solar_month_day": null,
+      "solar_month_sunrise": 10,
+      "solar_month_sunset": 10,
       "tb_muhuurtas": null
     },
     {
@@ -670,7 +806,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458152.2708333335,
       "julian_day_start": 2458152.270823368,
+      "longitude_sun_sunrise": 290.02936049484805,
+      "longitude_sun_sunset": 290.51781251103625,
       "solar_month_day": null,
+      "solar_month_sunrise": 10,
+      "solar_month_sunset": 10,
       "tb_muhuurtas": null
     },
     {
@@ -689,7 +829,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458153.2708333335,
       "julian_day_start": 2458153.270823352,
+      "longitude_sun_sunrise": 291.0431518301237,
+      "longitude_sun_sunset": 291.531894116089,
       "solar_month_day": null,
+      "solar_month_sunrise": 10,
+      "solar_month_sunset": 10,
       "tb_muhuurtas": null
     },
     {
@@ -708,7 +852,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458154.2708333335,
       "julian_day_start": 2458154.270823336,
+      "longitude_sun_sunrise": 292.0566796319014,
+      "longitude_sun_sunset": 292.5457208308815,
       "solar_month_day": null,
+      "solar_month_sunrise": 10,
+      "solar_month_sunset": 10,
       "tb_muhuurtas": null
     },
     {
@@ -727,7 +875,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458155.2708333335,
       "julian_day_start": 2458155.2708233204,
+      "longitude_sun_sunrise": 293.06994966194947,
+      "longitude_sun_sunset": 293.5592952036607,
       "solar_month_day": null,
+      "solar_month_sunrise": 10,
+      "solar_month_sunset": 10,
       "tb_muhuurtas": null
     },
     {
@@ -746,7 +898,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458156.2708333335,
       "julian_day_start": 2458156.2708233045,
+      "longitude_sun_sunrise": 294.0829612826074,
+      "longitude_sun_sunset": 294.57261393886307,
       "solar_month_day": null,
+      "solar_month_sunrise": 10,
+      "solar_month_sunset": 10,
       "tb_muhuurtas": null
     },
     {
@@ -765,7 +921,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458157.2708333335,
       "julian_day_start": 2458157.2708232887,
+      "longitude_sun_sunrise": 295.09570925121966,
+      "longitude_sun_sunset": 295.58566910114706,
       "solar_month_day": null,
+      "solar_month_sunrise": 10,
+      "solar_month_sunset": 10,
       "tb_muhuurtas": null
     },
     {
@@ -784,7 +944,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458158.2708333335,
       "julian_day_start": 2458158.270823273,
+      "longitude_sun_sunrise": 296.10818352411457,
+      "longitude_sun_sunset": 296.5984489901919,
       "solar_month_day": null,
+      "solar_month_sunrise": 10,
+      "solar_month_sunset": 10,
       "tb_muhuurtas": null
     },
     {
@@ -803,7 +967,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458159.2708333335,
       "julian_day_start": 2458159.270823257,
+      "longitude_sun_sunrise": 297.1203706757937,
+      "longitude_sun_sunset": 297.61093834779,
       "solar_month_day": null,
+      "solar_month_sunrise": 10,
+      "solar_month_sunset": 10,
       "tb_muhuurtas": null
     },
     {
@@ -822,7 +990,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458160.2708333335,
       "julian_day_start": 2458160.270823241,
+      "longitude_sun_sunrise": 298.13225436242584,
+      "longitude_sun_sunset": 298.6231194459262,
       "solar_month_day": null,
+      "solar_month_sunrise": 10,
+      "solar_month_sunset": 10,
       "tb_muhuurtas": null
     },
     {
@@ -841,7 +1013,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458161.2708333335,
       "julian_day_start": 2458161.2708232254,
+      "longitude_sun_sunrise": 299.1438160928038,
+      "longitude_sun_sunset": 299.6349725453992,
       "solar_month_day": null,
+      "solar_month_sunrise": 10,
+      "solar_month_sunset": 10,
       "tb_muhuurtas": null
     },
     {
@@ -860,7 +1036,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458162.2708333335,
       "julian_day_start": 2458162.2708232095,
+      "longitude_sun_sunrise": 300.1550353597966,
+      "longitude_sun_sunset": 300.64647649118183,
       "solar_month_day": null,
+      "solar_month_sunrise": 11,
+      "solar_month_sunset": 11,
       "tb_muhuurtas": null
     },
     {
@@ -879,7 +1059,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458163.2708333335,
       "julian_day_start": 2458163.2708231937,
+      "longitude_sun_sunrise": 301.1658906831273,
+      "longitude_sun_sunset": 301.6576092375493,
       "solar_month_day": null,
+      "solar_month_sunrise": 11,
+      "solar_month_sunset": 11,
       "tb_muhuurtas": null
     },
     {
@@ -898,7 +1082,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458164.2708333335,
       "julian_day_start": 2458164.270823178,
+      "longitude_sun_sunrise": 302.17636011075473,
+      "longitude_sun_sunset": 302.6683483635798,
       "solar_month_day": null,
+      "solar_month_sunrise": 11,
+      "solar_month_sunset": 11,
       "tb_muhuurtas": null
     },
     {
@@ -917,7 +1105,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458165.2708333335,
       "julian_day_start": 2458165.270823162,
+      "longitude_sun_sunrise": 303.1864211293405,
+      "longitude_sun_sunset": 303.6786718336768,
       "solar_month_day": null,
+      "solar_month_sunrise": 11,
+      "solar_month_sunset": 11,
       "tb_muhuurtas": null
     },
     {
@@ -936,7 +1128,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458166.2708333335,
       "julian_day_start": 2458166.270823146,
+      "longitude_sun_sunrise": 304.1960525995594,
+      "longitude_sun_sunset": 304.6885581990607,
       "solar_month_day": null,
+      "solar_month_sunrise": 11,
+      "solar_month_sunset": 11,
       "tb_muhuurtas": null
     },
     {
@@ -955,7 +1151,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458167.2708333335,
       "julian_day_start": 2458167.2708231304,
+      "longitude_sun_sunrise": 305.2052338196392,
+      "longitude_sun_sunset": 305.69798768849904,
       "solar_month_day": null,
+      "solar_month_sunrise": 11,
+      "solar_month_sunset": 11,
       "tb_muhuurtas": null
     },
     {
@@ -974,7 +1174,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458168.2708333335,
       "julian_day_start": 2458168.2708231146,
+      "longitude_sun_sunrise": 306.21394630783385,
+      "longitude_sun_sunset": 306.7069427351849,
       "solar_month_day": null,
+      "solar_month_sunrise": 11,
+      "solar_month_sunset": 11,
       "tb_muhuurtas": null
     },
     {
@@ -993,7 +1197,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458169.2708333335,
       "julian_day_start": 2458169.2708230987,
+      "longitude_sun_sunrise": 307.2221733735751,
+      "longitude_sun_sunset": 307.7154072479268,
       "solar_month_day": null,
+      "solar_month_sunrise": 11,
+      "solar_month_sunset": 11,
       "tb_muhuurtas": null
     },
     {
@@ -1012,7 +1220,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458170.2708333335,
       "julian_day_start": 2458170.270823083,
+      "longitude_sun_sunrise": 308.2299003779933,
+      "longitude_sun_sunset": 308.72336708490116,
       "solar_month_day": null,
+      "solar_month_sunrise": 11,
+      "solar_month_sunset": 11,
       "tb_muhuurtas": null
     },
     {
@@ -1031,7 +1243,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458171.2708333335,
       "julian_day_start": 2458171.270823067,
+      "longitude_sun_sunrise": 309.2371140013641,
+      "longitude_sun_sunset": 309.7308098989521,
       "solar_month_day": null,
+      "solar_month_sunrise": 11,
+      "solar_month_sunset": 11,
       "tb_muhuurtas": null
     },
     {
@@ -1050,7 +1266,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458172.2708333335,
       "julian_day_start": 2458172.270823051,
+      "longitude_sun_sunrise": 310.2438025257022,
+      "longitude_sun_sunset": 310.73772413078444,
       "solar_month_day": null,
+      "solar_month_sunrise": 11,
+      "solar_month_sunset": 11,
       "tb_muhuurtas": null
     },
     {
@@ -1069,7 +1289,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458173.2708333335,
       "julian_day_start": 2458173.2708230354,
+      "longitude_sun_sunrise": 311.2499550403778,
+      "longitude_sun_sunset": 311.7440991539179,
       "solar_month_day": null,
+      "solar_month_sunrise": 11,
+      "solar_month_sunset": 11,
       "tb_muhuurtas": null
     },
     {
@@ -1088,7 +1312,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458174.2708333335,
       "julian_day_start": 2458174.270823019,
+      "longitude_sun_sunrise": 312.255562000824,
+      "longitude_sun_sunset": 312.7499258556643,
       "solar_month_day": null,
+      "solar_month_sunrise": 11,
+      "solar_month_sunset": 11,
       "tb_muhuurtas": null
     },
     {
@@ -1107,7 +1335,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458175.2708333335,
       "julian_day_start": 2458175.2708230033,
+      "longitude_sun_sunrise": 313.2606152924521,
+      "longitude_sun_sunset": 313.75519797490534,
       "solar_month_day": null,
+      "solar_month_sunrise": 11,
+      "solar_month_sunset": 11,
       "tb_muhuurtas": null
     },
     {
@@ -1126,7 +1358,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458176.2708333335,
       "julian_day_start": 2458176.2708229874,
+      "longitude_sun_sunrise": 314.2651109668874,
+      "longitude_sun_sunset": 314.75991370123927,
       "solar_month_day": null,
+      "solar_month_sunrise": 11,
+      "solar_month_sunset": 11,
       "tb_muhuurtas": null
     },
     {
@@ -1145,7 +1381,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458177.2708333335,
       "julian_day_start": 2458177.2708229716,
+      "longitude_sun_sunrise": 315.26905061084085,
+      "longitude_sun_sunset": 315.7640783020723,
       "solar_month_day": null,
+      "solar_month_sunrise": 11,
+      "solar_month_sunset": 11,
       "tb_muhuurtas": null
     },
     {
@@ -1164,7 +1404,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458178.2708333335,
       "julian_day_start": 2458178.2708229558,
+      "longitude_sun_sunrise": 316.27244346241514,
+      "longitude_sun_sunset": 316.7677043623295,
       "solar_month_day": null,
+      "solar_month_sunrise": 11,
+      "solar_month_sunset": 11,
       "tb_muhuurtas": null
     },
     {
@@ -1183,7 +1427,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458179.2708333335,
       "julian_day_start": 2458179.27082294,
+      "longitude_sun_sunrise": 317.27530550695894,
+      "longitude_sun_sunset": 317.7708106331639,
       "solar_month_day": null,
+      "solar_month_sunrise": 11,
+      "solar_month_sunset": 11,
       "tb_muhuurtas": null
     },
     {
@@ -1202,7 +1450,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458180.2708333335,
       "julian_day_start": 2458180.270822924,
+      "longitude_sun_sunrise": 318.27765779292326,
+      "longitude_sun_sunset": 318.77341906344196,
       "solar_month_day": null,
+      "solar_month_sunrise": 11,
+      "solar_month_sunset": 11,
       "tb_muhuurtas": null
     },
     {
@@ -1221,7 +1473,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458181.2708333335,
       "julian_day_start": 2458181.2708229083,
+      "longitude_sun_sunrise": 319.27952198568624,
+      "longitude_sun_sunset": 319.77555064924206,
       "solar_month_day": null,
+      "solar_month_sunrise": 11,
+      "solar_month_sunset": 11,
       "tb_muhuurtas": null
     },
     {
@@ -1240,7 +1496,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458182.2708333335,
       "julian_day_start": 2458182.2708228924,
+      "longitude_sun_sunrise": 320.28091784491653,
+      "longitude_sun_sunset": 320.7772224315664,
       "solar_month_day": null,
+      "solar_month_sunrise": 11,
+      "solar_month_sunset": 11,
       "tb_muhuurtas": null
     },
     {
@@ -1259,7 +1519,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458183.2708333335,
       "julian_day_start": 2458183.2708228766,
+      "longitude_sun_sunrise": 321.2818596634331,
+      "longitude_sun_sunset": 321.77844600020546,
       "solar_month_day": null,
+      "solar_month_sunrise": 11,
+      "solar_month_sunset": 11,
       "tb_muhuurtas": null
     },
     {
@@ -1278,7 +1542,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458184.2708333335,
       "julian_day_start": 2458184.2708228608,
+      "longitude_sun_sunrise": 322.282356060757,
+      "longitude_sun_sunset": 322.7792270250578,
       "solar_month_day": null,
+      "solar_month_sunrise": 11,
+      "solar_month_sunset": 11,
       "tb_muhuurtas": null
     },
     {
@@ -1297,7 +1565,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458185.2708333335,
       "julian_day_start": 2458185.270822845,
+      "longitude_sun_sunrise": 323.2824102177475,
+      "longitude_sun_sunset": 323.7795663291004,
       "solar_month_day": null,
+      "solar_month_sunrise": 11,
+      "solar_month_sunset": 11,
       "tb_muhuurtas": null
     },
     {
@@ -1316,7 +1588,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458186.2708333335,
       "julian_day_start": 2458186.270822829,
+      "longitude_sun_sunrise": 324.28202082374486,
+      "longitude_sun_sunset": 324.7794602511516,
       "solar_month_day": null,
+      "solar_month_sunrise": 11,
+      "solar_month_sunset": 11,
       "tb_muhuurtas": null
     },
     {
@@ -1335,7 +1611,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458187.2708333335,
       "julian_day_start": 2458187.2708228133,
+      "longitude_sun_sunrise": 325.2811827150763,
+      "longitude_sun_sunset": 325.7789027926693,
       "solar_month_day": null,
+      "solar_month_sunrise": 11,
+      "solar_month_sunset": 11,
       "tb_muhuurtas": null
     },
     {
@@ -1354,7 +1634,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458188.2708333335,
       "julian_day_start": 2458188.2708227974,
+      "longitude_sun_sunrise": 326.27988859927103,
+      "longitude_sun_sunset": 326.777884550834,
       "solar_month_day": null,
+      "solar_month_sunrise": 11,
+      "solar_month_sunset": 11,
       "tb_muhuurtas": null
     },
     {
@@ -1373,7 +1657,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458189.2708333335,
       "julian_day_start": 2458189.2708227816,
+      "longitude_sun_sunrise": 327.27812855002,
+      "longitude_sun_sunset": 327.7763951710941,
       "solar_month_day": null,
+      "solar_month_sunrise": 11,
+      "solar_month_sunset": 11,
       "tb_muhuurtas": null
     },
     {
@@ -1392,7 +1680,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458190.2708333335,
       "julian_day_start": 2458190.270822766,
+      "longitude_sun_sunrise": 328.27589097140253,
+      "longitude_sun_sunset": 328.77442219613033,
       "solar_month_day": null,
+      "solar_month_sunrise": 11,
+      "solar_month_sunset": 11,
       "tb_muhuurtas": null
     },
     {
@@ -1411,7 +1703,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458191.2708333335,
       "julian_day_start": 2458191.27082275,
+      "longitude_sun_sunrise": 329.27316298418754,
+      "longitude_sun_sunset": 329.7719520462736,
       "solar_month_day": null,
+      "solar_month_sunrise": 11,
+      "solar_month_sunset": 11,
       "tb_muhuurtas": null
     },
     {
@@ -1430,7 +1726,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458192.2708333335,
       "julian_day_start": 2458192.270822734,
+      "longitude_sun_sunrise": 330.2699312201677,
+      "longitude_sun_sunset": 330.76897064714205,
       "solar_month_day": null,
+      "solar_month_sunrise": 12,
+      "solar_month_sunset": 12,
       "tb_muhuurtas": null
     },
     {
@@ -1449,7 +1749,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458193.2708333335,
       "julian_day_start": 2458193.2708227183,
+      "longitude_sun_sunrise": 331.26618087007637,
+      "longitude_sun_sunset": 331.7654632972024,
       "solar_month_day": null,
+      "solar_month_sunrise": 12,
+      "solar_month_sunset": 12,
       "tb_muhuurtas": null
     },
     {
@@ -1468,7 +1772,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458194.2708333335,
       "julian_day_start": 2458194.2708227024,
+      "longitude_sun_sunrise": 332.2618974892603,
+      "longitude_sun_sunset": 332.7614152280849,
       "solar_month_day": null,
+      "solar_month_sunrise": 12,
+      "solar_month_sunset": 12,
       "tb_muhuurtas": null
     },
     {
@@ -1487,7 +1795,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458195.2708333335,
       "julian_day_start": 2458195.2708226866,
+      "longitude_sun_sunrise": 333.2570665979878,
+      "longitude_sun_sunset": 333.7568119557495,
       "solar_month_day": null,
+      "solar_month_sunrise": 12,
+      "solar_month_sunset": 12,
       "tb_muhuurtas": null
     },
     {
@@ -1506,7 +1818,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458196.2708333335,
       "julian_day_start": 2458196.270822671,
+      "longitude_sun_sunrise": 334.25167363025406,
+      "longitude_sun_sunset": 334.75163942512506,
       "solar_month_day": null,
+      "solar_month_sunrise": 12,
+      "solar_month_sunset": 12,
       "tb_muhuurtas": null
     },
     {
@@ -1525,7 +1841,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458197.2708333335,
       "julian_day_start": 2458197.270822655,
+      "longitude_sun_sunrise": 335.24570520822664,
+      "longitude_sun_sunset": 335.7458837194063,
       "solar_month_day": null,
+      "solar_month_sunrise": 12,
+      "solar_month_sunset": 12,
       "tb_muhuurtas": null
     },
     {
@@ -1544,7 +1864,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458198.2708333335,
       "julian_day_start": 2458198.270822639,
+      "longitude_sun_sunrise": -23.76085237802455,
+      "longitude_sun_sunset": -23.260468794422803,
       "solar_month_day": null,
+      "solar_month_sunrise": 12,
+      "solar_month_sunset": 12,
       "tb_muhuurtas": null
     },
     {
@@ -1563,7 +1887,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458199.2708333335,
       "julian_day_start": 2458199.2708226233,
+      "longitude_sun_sunrise": -22.768013025433365,
+      "longitude_sun_sunset": -22.267432352558203,
       "solar_month_day": null,
+      "solar_month_sunrise": 12,
+      "solar_month_sunset": 12,
       "tb_muhuurtas": null
     },
     {
@@ -1582,7 +1910,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458200.2708333335,
       "julian_day_start": 2458200.2708226074,
+      "longitude_sun_sunrise": -21.775790917534778,
+      "longitude_sun_sunset": -21.275020860933218,
       "solar_month_day": null,
+      "solar_month_sunrise": 12,
+      "solar_month_sunset": 12,
       "tb_muhuurtas": null
     },
     {
@@ -1601,7 +1933,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458201.2708333335,
       "julian_day_start": 2458201.2708225916,
+      "longitude_sun_sunrise": -20.784199752891837,
+      "longitude_sun_sunset": -20.283248175960942,
       "solar_month_day": null,
+      "solar_month_sunrise": 12,
+      "solar_month_sunset": 12,
       "tb_muhuurtas": null
     },
     {
@@ -1620,7 +1956,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458202.2708333335,
       "julian_day_start": 2458202.270822576,
+      "longitude_sun_sunrise": -19.79325233594426,
+      "longitude_sun_sunset": -19.292125584976773,
       "solar_month_day": null,
+      "solar_month_sunrise": 12,
+      "solar_month_sunset": 12,
       "tb_muhuurtas": null
     },
     {
@@ -1639,7 +1979,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458203.2708333335,
       "julian_day_start": 2458203.27082256,
+      "longitude_sun_sunrise": -18.80295774421642,
+      "longitude_sun_sunset": -18.301659692026142,
       "solar_month_day": null,
+      "solar_month_sunrise": 12,
+      "solar_month_sunset": 12,
       "tb_muhuurtas": null
     },
     {
@@ -1658,7 +2002,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458204.2708333335,
       "julian_day_start": 2458204.270822544,
+      "longitude_sun_sunrise": -17.813319769481083,
+      "longitude_sun_sunset": -17.311850935697976,
       "solar_month_day": null,
+      "solar_month_sunrise": 12,
+      "solar_month_sunset": 12,
       "tb_muhuurtas": null
     },
     {
@@ -1677,7 +2025,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458205.2708333335,
       "julian_day_start": 2458205.2708225283,
+      "longitude_sun_sunrise": -16.824335074586795,
+      "longitude_sun_sunset": -16.32269204674219,
       "solar_month_day": null,
+      "solar_month_sunrise": 12,
+      "solar_month_sunset": 12,
       "tb_muhuurtas": null
     },
     {
@@ -1696,7 +2048,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458206.2708333335,
       "julian_day_start": 2458206.2708225125,
+      "longitude_sun_sunrise": -15.835992106309812,
+      "longitude_sun_sunset": -15.334167549678844,
       "solar_month_day": null,
+      "solar_month_sunrise": 12,
+      "solar_month_sunset": 12,
       "tb_muhuurtas": null
     },
     {
@@ -1715,7 +2071,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458207.2708333335,
       "julian_day_start": 2458207.2708224966,
+      "longitude_sun_sunrise": -14.84827201736495,
+      "longitude_sun_sunset": -14.346255650346382,
       "solar_month_day": null,
+      "solar_month_sunrise": 12,
+      "solar_month_sunset": 12,
       "tb_muhuurtas": null
     },
     {
@@ -1734,7 +2094,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458208.2708333335,
       "julian_day_start": 2458208.270822481,
+      "longitude_sun_sunrise": -13.861150926739578,
+      "longitude_sun_sunset": -13.358931058094909,
       "solar_month_day": null,
+      "solar_month_sunrise": 12,
+      "solar_month_sunset": 12,
       "tb_muhuurtas": null
     },
     {
@@ -1753,7 +2117,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458209.2708333335,
       "julian_day_start": 2458209.270822465,
+      "longitude_sun_sunrise": -12.874602918297695,
+      "longitude_sun_sunset": -12.372168573150356,
       "solar_month_day": null,
+      "solar_month_sunrise": 12,
+      "solar_month_sunset": 12,
       "tb_muhuurtas": null
     },
     {
@@ -1772,7 +2140,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458210.2708333335,
       "julian_day_start": 2458210.270822449,
+      "longitude_sun_sunrise": -11.888603805677796,
+      "longitude_sun_sunset": -11.385945264824116,
       "solar_month_day": null,
+      "solar_month_sunrise": 12,
+      "solar_month_sunset": 12,
       "tb_muhuurtas": null
     },
     {
@@ -1791,7 +2163,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458211.2708333335,
       "julian_day_start": 2458211.2708224333,
+      "longitude_sun_sunrise": -10.903132506015236,
+      "longitude_sun_sunset": -10.400242502027432,
       "solar_month_day": null,
+      "solar_month_sunrise": 12,
+      "solar_month_sunset": 12,
       "tb_muhuurtas": null
     },
     {
@@ -1810,7 +2186,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458212.2708333335,
       "julian_day_start": 2458212.2708224175,
+      "longitude_sun_sunrise": -9.918172780772503,
+      "longitude_sun_sunset": -9.415046636128306,
       "solar_month_day": null,
+      "solar_month_sunrise": 12,
+      "solar_month_sunset": 12,
       "tb_muhuurtas": null
     },
     {
@@ -1829,7 +2209,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458213.2708333335,
       "julian_day_start": 2458213.2708224016,
+      "longitude_sun_sunrise": -8.933713100146882,
+      "longitude_sun_sunset": -8.430348460595352,
       "solar_month_day": null,
+      "solar_month_sunrise": 12,
+      "solar_month_sunset": 12,
       "tb_muhuurtas": null
     },
     {
@@ -1848,7 +2232,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458214.2708333335,
       "julian_day_start": 2458214.2708223853,
+      "longitude_sun_sunrise": -7.949746168943552,
+      "longitude_sun_sunset": -7.446142425286666,
       "solar_month_day": null,
+      "solar_month_sunrise": 12,
+      "solar_month_sunset": 12,
       "tb_muhuurtas": null
     },
     {
@@ -1867,7 +2255,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458215.2708333335,
       "julian_day_start": 2458215.2708223695,
+      "longitude_sun_sunrise": -6.9662677606919345,
+      "longitude_sun_sunset": -6.462425642130139,
       "solar_month_day": null,
+      "solar_month_sunrise": 12,
+      "solar_month_sunset": 12,
       "tb_muhuurtas": null
     },
     {
@@ -1886,7 +2278,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458216.2708333335,
       "julian_day_start": 2458216.2708223537,
+      "longitude_sun_sunrise": -5.9832761056964365,
+      "longitude_sun_sunset": -5.479197505862022,
       "solar_month_day": null,
+      "solar_month_sunrise": 12,
+      "solar_month_sunset": 12,
       "tb_muhuurtas": null
     },
     {
@@ -1905,7 +2301,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458217.2708333335,
       "julian_day_start": 2458217.270822338,
+      "longitude_sun_sunrise": -5.000771441539214,
+      "longitude_sun_sunset": -4.496459185227163,
       "solar_month_day": null,
+      "solar_month_sunrise": 12,
+      "solar_month_sunset": 12,
       "tb_muhuurtas": null
     },
     {
@@ -1924,7 +2324,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458218.2708333335,
       "julian_day_start": 2458218.270822322,
+      "longitude_sun_sunrise": -4.018755278999944,
+      "longitude_sun_sunset": -3.5142129688835055,
       "solar_month_day": null,
+      "solar_month_sunrise": 12,
+      "solar_month_sunset": 12,
       "tb_muhuurtas": null
     },
     {
@@ -1943,7 +2347,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458219.2708333335,
       "julian_day_start": 2458219.270822306,
+      "longitude_sun_sunrise": -3.037230448099084,
+      "longitude_sun_sunset": -2.5324620729190137,
       "solar_month_day": null,
+      "solar_month_sunrise": 12,
+      "solar_month_sunset": 12,
       "tb_muhuurtas": null
     },
     {
@@ -1962,7 +2370,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458220.2708333335,
       "julian_day_start": 2458220.2708222903,
+      "longitude_sun_sunrise": -2.056200651071233,
+      "longitude_sun_sunset": -1.5512110160425436,
       "solar_month_day": null,
+      "solar_month_sunrise": 12,
+      "solar_month_sunset": 12,
       "tb_muhuurtas": null
     },
     {
@@ -1981,7 +2393,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458221.2708333335,
       "julian_day_start": 2458221.2708222745,
+      "longitude_sun_sunrise": -1.0756705551095962,
+      "longitude_sun_sunset": -0.5704652638897088,
       "solar_month_day": null,
+      "solar_month_sunrise": 12,
+      "solar_month_sunset": 12,
       "tb_muhuurtas": null
     },
     {
@@ -2000,7 +2416,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458222.2708333335,
       "julian_day_start": 2458222.2708222587,
+      "longitude_sun_sunrise": -0.09564606812272913,
+      "longitude_sun_sunset": 0.4097690980736246,
       "solar_month_day": null,
+      "solar_month_sunrise": 12,
+      "solar_month_sunset": 1,
       "tb_muhuurtas": null
     },
     {
@@ -2019,7 +2439,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458223.2708333335,
       "julian_day_start": 2458223.270822243,
+      "longitude_sun_sunrise": 0.8838662479506887,
+      "longitude_sun_sunset": 1.389484618561898,
       "solar_month_day": null,
+      "solar_month_sunrise": 1,
+      "solar_month_sunset": 1,
       "tb_muhuurtas": null
     },
     {
@@ -2038,7 +2462,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458224.2708333335,
       "julian_day_start": 2458224.270822227,
+      "longitude_sun_sunrise": 1.86285848122019,
+      "longitude_sun_sunset": 2.368672578208887,
       "solar_month_day": null,
+      "solar_month_sunrise": 1,
+      "solar_month_sunset": 1,
       "tb_muhuurtas": null
     },
     {
@@ -2057,7 +2485,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458225.2708333335,
       "julian_day_start": 2458225.270822211,
+      "longitude_sun_sunrise": 2.8413210217023988,
+      "longitude_sun_sunset": 3.3473219111271533,
       "solar_month_day": null,
+      "solar_month_sunrise": 1,
+      "solar_month_sunset": 1,
       "tb_muhuurtas": null
     },
     {
@@ -2076,7 +2508,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458226.2708333335,
       "julian_day_start": 2458226.2708221953,
+      "longitude_sun_sunrise": 3.8192420780463046,
+      "longitude_sun_sunset": 4.325419431168232,
       "solar_month_day": null,
+      "solar_month_sunrise": 1,
+      "solar_month_sunset": 1,
       "tb_muhuurtas": null
     },
     {
@@ -2095,7 +2531,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458227.2708333335,
       "julian_day_start": 2458227.2708221795,
+      "longitude_sun_sunrise": 4.796606883553967,
+      "longitude_sun_sunset": 5.302948954400854,
       "solar_month_day": null,
+      "solar_month_sunrise": 1,
+      "solar_month_sunset": 1,
       "tb_muhuurtas": null
     },
     {
@@ -2114,7 +2554,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458228.2708333335,
       "julian_day_start": 2458228.2708221637,
+      "longitude_sun_sunrise": 5.77339884631931,
+      "longitude_sun_sunset": 6.279893204367237,
       "solar_month_day": null,
+      "solar_month_sunrise": 1,
+      "solar_month_sunset": 1,
       "tb_muhuurtas": null
     },
     {
@@ -2133,7 +2577,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458229.2708333335,
       "julian_day_start": 2458229.270822148,
+      "longitude_sun_sunrise": 6.7496006280990315,
+      "longitude_sun_sunset": 7.256235762366412,
       "solar_month_day": null,
+      "solar_month_sunrise": 1,
+      "solar_month_sunset": 1,
       "tb_muhuurtas": null
     },
     {
@@ -2152,7 +2600,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458230.2708333335,
       "julian_day_start": 2458230.270822132,
+      "longitude_sun_sunrise": 7.725197571749167,
+      "longitude_sun_sunset": 8.231963650459228,
       "solar_month_day": null,
+      "solar_month_sunrise": 1,
+      "solar_month_sunset": 1,
       "tb_muhuurtas": null
     },
     {
@@ -2171,7 +2623,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458231.2708333335,
       "julian_day_start": 2458231.270822116,
+      "longitude_sun_sunrise": 8.700179509010908,
+      "longitude_sun_sunset": 9.20707062088308,
       "solar_month_day": null,
+      "solar_month_sunrise": 1,
+      "solar_month_sunset": 1,
       "tb_muhuurtas": null
     },
     {
@@ -2190,7 +2646,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458232.2708333335,
       "julian_day_start": 2458232.2708221003,
+      "longitude_sun_sunrise": 9.674544410300598,
+      "longitude_sun_sunset": 10.181558350655045,
       "solar_month_day": null,
+      "solar_month_sunrise": 1,
+      "solar_month_sunset": 1,
       "tb_muhuurtas": null
     },
     {
@@ -2209,7 +2669,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458233.2708333335,
       "julian_day_start": 2458233.2708220845,
+      "longitude_sun_sunrise": 10.648297685471292,
+      "longitude_sun_sunset": 11.155437010456417,
       "solar_month_day": null,
+      "solar_month_sunrise": 1,
+      "solar_month_sunset": 1,
       "tb_muhuurtas": null
     },
     {
@@ -2228,7 +2692,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458234.2708333335,
       "julian_day_start": 2458234.2708220687,
+      "longitude_sun_sunrise": 11.621453636408887,
+      "longitude_sun_sunset": 12.128724056696527,
       "solar_month_day": null,
+      "solar_month_sunrise": 1,
+      "solar_month_sunset": 1,
       "tb_muhuurtas": null
     },
     {
@@ -2247,7 +2715,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458235.2708333335,
       "julian_day_start": 2458235.270822053,
+      "longitude_sun_sunrise": 12.59403251706238,
+      "longitude_sun_sunset": 13.10144210597884,
       "solar_month_day": null,
+      "solar_month_sunrise": 1,
+      "solar_month_sunset": 1,
       "tb_muhuurtas": null
     },
     {
@@ -2266,7 +2738,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458236.2708333335,
       "julian_day_start": 2458236.270822037,
+      "longitude_sun_sunrise": 13.566058755947921,
+      "longitude_sun_sunset": 14.073616830092618,
       "solar_month_day": null,
+      "solar_month_sunrise": 1,
+      "solar_month_sunset": 1,
       "tb_muhuurtas": null
     },
     {
@@ -2285,7 +2761,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458237.2708333335,
       "julian_day_start": 2458237.270822021,
+      "longitude_sun_sunrise": 14.537558361052902,
+      "longitude_sun_sunset": 15.045274273305175,
       "solar_month_day": null,
+      "solar_month_sunrise": 1,
+      "solar_month_sunset": 1,
       "tb_muhuurtas": null
     },
     {
@@ -2304,7 +2784,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458238.2708333335,
       "julian_day_start": 2458238.2708220053,
+      "longitude_sun_sunrise": 15.508557474407105,
+      "longitude_sun_sunset": 16.016439040925327,
       "solar_month_day": null,
+      "solar_month_sunrise": 1,
+      "solar_month_sunset": 1,
       "tb_muhuurtas": null
     },
     {
@@ -2323,7 +2807,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458239.2708333335,
       "julian_day_start": 2458239.2708219895,
+      "longitude_sun_sunrise": 16.479079328088723,
+      "longitude_sun_sunset": 16.987133180560228,
       "solar_month_day": null,
+      "solar_month_sunrise": 1,
+      "solar_month_sunset": 1,
       "tb_muhuurtas": null
     },
     {
@@ -2342,7 +2830,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458240.2708333335,
       "julian_day_start": 2458240.2708219737,
+      "longitude_sun_sunrise": 17.449144568055942,
+      "longitude_sun_sunset": 17.95737549591786,
       "solar_month_day": null,
+      "solar_month_sunrise": 1,
+      "solar_month_sunset": 1,
       "tb_muhuurtas": null
     },
     {
@@ -2361,7 +2853,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458241.2708333335,
       "julian_day_start": 2458241.270821958,
+      "longitude_sun_sunrise": 18.41877058169912,
+      "longitude_sun_sunset": 18.927181476822447,
       "solar_month_day": null,
+      "solar_month_sunrise": 1,
+      "solar_month_sunset": 1,
       "tb_muhuurtas": null
     },
     {
@@ -2380,7 +2876,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458242.2708333335,
       "julian_day_start": 2458242.270821942,
+      "longitude_sun_sunrise": 19.38797147014946,
+      "longitude_sun_sunset": 19.896563731457306,
       "solar_month_day": null,
+      "solar_month_sunrise": 1,
+      "solar_month_sunset": 1,
       "tb_muhuurtas": null
     },
     {
@@ -2399,7 +2899,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458243.2708333335,
       "julian_day_start": 2458243.270821926,
+      "longitude_sun_sunrise": 20.35675918296274,
+      "longitude_sun_sunset": 20.865533165535204,
       "solar_month_day": null,
+      "solar_month_sunrise": 1,
+      "solar_month_sunset": 1,
       "tb_muhuurtas": null
     },
     {
@@ -2418,7 +2922,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458244.2708333335,
       "julian_day_start": 2458244.2708219104,
+      "longitude_sun_sunrise": 21.32514346550584,
+      "longitude_sun_sunset": 21.834098448995896,
       "solar_month_day": null,
+      "solar_month_sunrise": 1,
+      "solar_month_sunset": 1,
       "tb_muhuurtas": null
     },
     {
@@ -2437,7 +2945,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458245.2708333335,
       "julian_day_start": 2458245.2708218945,
+      "longitude_sun_sunrise": 22.293132986422663,
+      "longitude_sun_sunset": 22.802267396705084,
       "solar_month_day": null,
+      "solar_month_sunrise": 1,
+      "solar_month_sunset": 1,
       "tb_muhuurtas": null
     },
     {
@@ -2456,7 +2968,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458246.2708333335,
       "julian_day_start": 2458246.2708218787,
+      "longitude_sun_sunrise": 23.260734957233126,
+      "longitude_sun_sunset": 23.770047268352464,
       "solar_month_day": null,
+      "solar_month_sunrise": 1,
+      "solar_month_sunset": 1,
       "tb_muhuurtas": null
     },
     {
@@ -2475,7 +2991,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458247.2708333335,
       "julian_day_start": 2458247.270821863,
+      "longitude_sun_sunrise": 24.22795641023466,
+      "longitude_sun_sunset": 24.737443774902182,
       "solar_month_day": null,
+      "solar_month_sunrise": 1,
+      "solar_month_sunset": 1,
       "tb_muhuurtas": null
     },
     {
@@ -2494,7 +3014,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458248.2708333335,
       "julian_day_start": 2458248.270821847,
+      "longitude_sun_sunrise": 25.194803107834183,
+      "longitude_sun_sunset": 25.70446236062096,
       "solar_month_day": null,
+      "solar_month_sunrise": 1,
+      "solar_month_sunset": 1,
       "tb_muhuurtas": null
     },
     {
@@ -2513,7 +3037,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458249.2708333335,
       "julian_day_start": 2458249.270821831,
+      "longitude_sun_sunrise": 26.161279689862567,
+      "longitude_sun_sunset": 26.671107220362614,
       "solar_month_day": null,
+      "solar_month_sunrise": 1,
+      "solar_month_sunset": 1,
       "tb_muhuurtas": null
     },
     {
@@ -2532,7 +3060,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458250.2708333335,
       "julian_day_start": 2458250.2708218154,
+      "longitude_sun_sunrise": 27.12739017693616,
+      "longitude_sun_sunset": 27.637380810744197,
       "solar_month_day": null,
+      "solar_month_sunrise": 1,
+      "solar_month_sunset": 1,
       "tb_muhuurtas": null
     },
     {
@@ -2551,7 +3083,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458251.2708333335,
       "julian_day_start": 2458251.2708217995,
+      "longitude_sun_sunrise": 28.09313615535917,
+      "longitude_sun_sunset": 28.603283855306614,
       "solar_month_day": null,
+      "solar_month_sunrise": 1,
+      "solar_month_sunset": 1,
       "tb_muhuurtas": null
     },
     {
@@ -2570,7 +3106,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458252.2708333335,
       "julian_day_start": 2458252.2708217837,
+      "longitude_sun_sunrise": 29.0585173436316,
+      "longitude_sun_sunset": 29.568813812140306,
       "solar_month_day": null,
+      "solar_month_sunrise": 1,
+      "solar_month_sunset": 1,
       "tb_muhuurtas": null
     },
     {
@@ -2589,7 +3129,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458253.2708333335,
       "julian_day_start": 2458253.2708217674,
+      "longitude_sun_sunrise": 30.02352939548429,
+      "longitude_sun_sunset": 30.533963622860902,
       "solar_month_day": null,
+      "solar_month_sunrise": 2,
+      "solar_month_sunset": 2,
       "tb_muhuurtas": null
     },
     {
@@ -2608,7 +3152,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458254.2708333335,
       "julian_day_start": 2458254.2708217516,
+      "longitude_sun_sunrise": 30.988162553955554,
+      "longitude_sun_sunset": 31.498720665986077,
       "solar_month_day": null,
+      "solar_month_sunrise": 2,
+      "solar_month_sunset": 2,
       "tb_muhuurtas": null
     },
     {
@@ -2627,7 +3175,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458255.2708333335,
       "julian_day_start": 2458255.2708333335,
+      "longitude_sun_sunrise": 31.95240217041075,
+      "longitude_sun_sunset": 32.46306702540531,
       "solar_month_day": null,
+      "solar_month_sunrise": 2,
+      "solar_month_sunset": 2,
       "tb_muhuurtas": null
     },
     {
@@ -2646,7 +3198,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458256.2708333335,
       "julian_day_start": 2458256.2708333335,
+      "longitude_sun_sunrise": 32.91622824019936,
+      "longitude_sun_sunset": 33.42698164360192,
       "solar_month_day": null,
+      "solar_month_sunrise": 2,
+      "solar_month_sunset": 2,
       "tb_muhuurtas": null
     },
     {
@@ -2665,7 +3221,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458257.2708333335,
       "julian_day_start": 2458257.2708333335,
+      "longitude_sun_sunrise": 33.87962015926515,
+      "longitude_sun_sunset": 34.39044447812362,
       "solar_month_day": null,
+      "solar_month_sunrise": 2,
+      "solar_month_sunset": 2,
       "tb_muhuurtas": null
     },
     {
@@ -2684,7 +3244,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458258.2708333335,
       "julian_day_start": 2458258.2708333335,
+      "longitude_sun_sunrise": 34.84255971879344,
+      "longitude_sun_sunset": 35.35344058893725,
       "solar_month_day": null,
+      "solar_month_sunrise": 2,
+      "solar_month_sunset": 2,
       "tb_muhuurtas": null
     },
     {
@@ -2703,7 +3267,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458259.2708333335,
       "julian_day_start": 2458259.2708333335,
+      "longitude_sun_sunrise": 35.805036256890745,
+      "longitude_sun_sunset": 36.315963886364685,
       "solar_month_day": null,
+      "solar_month_sunrise": 2,
+      "solar_month_sunset": 2,
       "tb_muhuurtas": null
     },
     {
@@ -2722,7 +3290,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458260.2708333335,
       "julian_day_start": 2458260.2708333335,
+      "longitude_sun_sunrise": 36.767047648833724,
+      "longitude_sun_sunset": 37.27801710212732,
       "solar_month_day": null,
+      "solar_month_sunrise": 2,
+      "solar_month_sunset": 2,
       "tb_muhuurtas": null
     },
     {
@@ -2741,7 +3313,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458261.2708333335,
       "julian_day_start": 2458261.2708333335,
+      "longitude_sun_sunrise": 37.72860125514782,
+      "longitude_sun_sunset": 38.239611739186586,
       "solar_month_day": null,
+      "solar_month_sunrise": 2,
+      "solar_month_sunset": 2,
       "tb_muhuurtas": null
     },
     {
@@ -2760,7 +3336,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458262.2708333335,
       "julian_day_start": 2458262.2708333335,
+      "longitude_sun_sunrise": 38.68971212197465,
+      "longitude_sun_sunset": 39.2007656247847,
       "solar_month_day": null,
+      "solar_month_sunrise": 2,
+      "solar_month_sunset": 2,
       "tb_muhuurtas": null
     },
     {
@@ -2779,7 +3359,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458263.2708333335,
       "julian_day_start": 2458263.2708333335,
+      "longitude_sun_sunrise": 39.650400340935434,
+      "longitude_sun_sunset": 40.16150055515112,
       "solar_month_day": null,
+      "solar_month_sunrise": 2,
+      "solar_month_sunset": 2,
       "tb_muhuurtas": null
     },
     {
@@ -2798,7 +3382,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458264.2708333335,
       "julian_day_start": 2458264.2708333335,
+      "longitude_sun_sunrise": 40.61068881002298,
+      "longitude_sun_sunset": 41.121840414940834,
       "solar_month_day": null,
+      "solar_month_sunrise": 2,
+      "solar_month_sunset": 2,
       "tb_muhuurtas": null
     },
     {
@@ -2817,7 +3405,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458265.2708333335,
       "julian_day_start": 2458265.2708333335,
+      "longitude_sun_sunrise": 41.570601877323824,
+      "longitude_sun_sunset": 42.08180900308025,
       "solar_month_day": null,
+      "solar_month_sunrise": 2,
+      "solar_month_sunset": 2,
       "tb_muhuurtas": null
     },
     {
@@ -2836,7 +3428,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458266.2708333335,
       "julian_day_start": 2458266.2708333335,
+      "longitude_sun_sunrise": 42.53016323153328,
+      "longitude_sun_sunset": 43.041429987438406,
       "solar_month_day": null,
+      "solar_month_sunrise": 2,
+      "solar_month_sunset": 2,
       "tb_muhuurtas": null
     },
     {
@@ -2855,7 +3451,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458267.2708333335,
       "julian_day_start": 2458267.2708333335,
+      "longitude_sun_sunrise": 43.4893959105502,
+      "longitude_sun_sunset": 44.00072501711665,
       "solar_month_day": null,
+      "solar_month_sunrise": 2,
+      "solar_month_sunset": 2,
       "tb_muhuurtas": null
     },
     {
@@ -2874,7 +3474,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458268.2708333335,
       "julian_day_start": 2458268.2708333335,
+      "longitude_sun_sunrise": 44.44832123524182,
+      "longitude_sun_sunset": 44.959714396173354,
       "solar_month_day": null,
+      "solar_month_sunrise": 2,
+      "solar_month_sunset": 2,
       "tb_muhuurtas": null
     },
     {
@@ -2893,7 +3497,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458269.2708333335,
       "julian_day_start": 2458269.2708333335,
+      "longitude_sun_sunrise": 45.40695872190123,
+      "longitude_sun_sunset": 45.918416981778904,
       "solar_month_day": null,
+      "solar_month_sunrise": 2,
+      "solar_month_sunset": 2,
       "tb_muhuurtas": null
     },
     {
@@ -2912,7 +3520,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458270.2708333335,
       "julian_day_start": 2458270.2708333335,
+      "longitude_sun_sunrise": 46.36532652372131,
+      "longitude_sun_sunset": 46.87684991668651,
       "solar_month_day": null,
+      "solar_month_sunrise": 2,
+      "solar_month_sunset": 2,
       "tb_muhuurtas": null
     },
     {
@@ -2931,7 +3543,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458271.2708333335,
       "julian_day_start": 2458271.2708333335,
+      "longitude_sun_sunrise": 47.323441334223915,
+      "longitude_sun_sunset": 47.83502915987326,
       "solar_month_day": null,
+      "solar_month_sunrise": 2,
+      "solar_month_sunset": 2,
       "tb_muhuurtas": null
     },
     {
@@ -2950,7 +3566,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458272.2708333335,
       "julian_day_start": 2458272.2708333335,
+      "longitude_sun_sunrise": 48.281318788443144,
+      "longitude_sun_sunset": 48.79296992324754,
       "solar_month_day": null,
+      "solar_month_sunrise": 2,
+      "solar_month_sunset": 2,
       "tb_muhuurtas": null
     },
     {
@@ -2969,7 +3589,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458273.2708333335,
       "julian_day_start": 2458273.2708333335,
+      "longitude_sun_sunrise": 49.23897408309058,
+      "longitude_sun_sunset": 49.75068685367246,
       "solar_month_day": null,
+      "solar_month_sunrise": 2,
+      "solar_month_sunset": 2,
       "tb_muhuurtas": null
     },
     {
@@ -2988,7 +3612,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458274.2708333335,
       "julian_day_start": 2458274.2708333335,
+      "longitude_sun_sunrise": 50.196421531685715,
+      "longitude_sun_sunset": 50.70819413108171,
       "solar_month_day": null,
+      "solar_month_sunrise": 2,
+      "solar_month_sunset": 2,
       "tb_muhuurtas": null
     },
     {
@@ -3007,7 +3635,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458275.2708333335,
       "julian_day_start": 2458275.2708333335,
+      "longitude_sun_sunrise": 51.153675329439935,
+      "longitude_sun_sunset": 51.665505780993485,
       "solar_month_day": null,
+      "solar_month_sunrise": 2,
+      "solar_month_sunset": 2,
       "tb_muhuurtas": null
     },
     {
@@ -3026,7 +3658,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458276.2708333335,
       "julian_day_start": 2458276.2708333335,
+      "longitude_sun_sunrise": 52.110749411674774,
+      "longitude_sun_sunset": 52.622634931403965,
       "solar_month_day": null,
+      "solar_month_sunrise": 2,
+      "solar_month_sunset": 2,
       "tb_muhuurtas": null
     },
     {
@@ -3045,7 +3681,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458277.2708333335,
       "julian_day_start": 2458277.2708333335,
+      "longitude_sun_sunrise": 53.06765662683651,
+      "longitude_sun_sunset": 53.57959397755117,
       "solar_month_day": null,
+      "solar_month_sunrise": 2,
+      "solar_month_sunset": 2,
       "tb_muhuurtas": null
     },
     {
@@ -3064,7 +3704,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458278.2708333335,
       "julian_day_start": 2458278.2708333335,
+      "longitude_sun_sunrise": 54.024408847672404,
+      "longitude_sun_sunset": 54.536393552343895,
       "solar_month_day": null,
+      "solar_month_sunrise": 2,
+      "solar_month_sunset": 2,
       "tb_muhuurtas": null
     },
     {
@@ -3083,7 +3727,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458279.2708333335,
       "julian_day_start": 2458279.2708333335,
+      "longitude_sun_sunrise": 54.98101551389908,
+      "longitude_sun_sunset": 55.49304189213281,
       "solar_month_day": null,
+      "solar_month_sunrise": 2,
+      "solar_month_sunset": 2,
       "tb_muhuurtas": null
     },
     {
@@ -3102,7 +3750,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458280.2708333335,
       "julian_day_start": 2458280.2708333335,
+      "longitude_sun_sunrise": 55.93748331669872,
+      "longitude_sun_sunset": 56.44954276286026,
       "solar_month_day": null,
+      "solar_month_sunrise": 2,
+      "solar_month_sunset": 2,
       "tb_muhuurtas": null
     },
     {
@@ -3121,7 +3773,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458281.2708333335,
       "julian_day_start": 2458281.2708333335,
+      "longitude_sun_sunrise": 56.89381350069898,
+      "longitude_sun_sunset": 57.40589374879309,
       "solar_month_day": null,
+      "solar_month_sunrise": 2,
+      "solar_month_sunset": 2,
       "tb_muhuurtas": null
     },
     {
@@ -3140,7 +3796,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458282.2708333335,
       "julian_day_start": 2458282.2708333335,
+      "longitude_sun_sunrise": 57.850000192360596,
+      "longitude_sun_sunset": 58.36208438331964,
       "solar_month_day": null,
+      "solar_month_sunrise": 2,
+      "solar_month_sunset": 2,
       "tb_muhuurtas": null
     },
     {
@@ -3159,7 +3819,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458283.2708333335,
       "julian_day_start": 2458283.2708333335,
+      "longitude_sun_sunrise": 58.80602892282808,
+      "longitude_sun_sunset": 59.31809630763894,
       "solar_month_day": null,
+      "solar_month_sunrise": 2,
+      "solar_month_sunset": 2,
       "tb_muhuurtas": null
     },
     {
@@ -3178,7 +3842,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458284.2708333335,
       "julian_day_start": 2458284.2708333335,
+      "longitude_sun_sunrise": 59.761878659178535,
+      "longitude_sun_sunset": 60.27390623457852,
       "solar_month_day": null,
+      "solar_month_sunrise": 2,
+      "solar_month_sunset": 3,
       "tb_muhuurtas": null
     },
     {
@@ -3197,7 +3865,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458285.2708333335,
       "julian_day_start": 2458285.2708333335,
+      "longitude_sun_sunrise": 60.71752552172005,
+      "longitude_sun_sunset": 61.22949100463673,
       "solar_month_day": null,
+      "solar_month_sunrise": 3,
+      "solar_month_sunset": 3,
       "tb_muhuurtas": null
     },
     {
@@ -3216,7 +3888,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458286.2708333335,
       "julian_day_start": 2458286.2708333335,
+      "longitude_sun_sunrise": 61.672948571876134,
+      "longitude_sun_sunset": 62.18483339863431,
       "solar_month_day": null,
+      "solar_month_sunrise": 3,
+      "solar_month_sunset": 3,
       "tb_muhuurtas": null
     },
     {
@@ -3235,7 +3911,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458287.2708333335,
       "julian_day_start": 2458287.2708333335,
+      "longitude_sun_sunrise": 62.62813452930098,
+      "longitude_sun_sunset": 63.13992546287362,
       "solar_month_day": null,
+      "solar_month_sunrise": 3,
+      "solar_month_sunset": 3,
       "tb_muhuurtas": null
     },
     {
@@ -3254,7 +3934,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458288.2708333335,
       "julian_day_start": 2458288.2708333335,
+      "longitude_sun_sunrise": 63.58308065073423,
+      "longitude_sun_sunset": 64.09476974900151,
       "solar_month_day": null,
+      "solar_month_sunrise": 3,
+      "solar_month_sunset": 3,
       "tb_muhuurtas": null
     },
     {
@@ -3273,7 +3957,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458289.2708333335,
       "julian_day_start": 2458289.2708333335,
+      "longitude_sun_sunrise": 64.53779316064531,
+      "longitude_sun_sunset": 65.0493765561951,
       "solar_month_day": null,
+      "solar_month_sunrise": 3,
+      "solar_month_sunset": 3,
       "tb_muhuurtas": null
     },
     {
@@ -3292,7 +3980,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458290.2708333335,
       "julian_day_start": 2458290.2708333335,
+      "longitude_sun_sunrise": 65.4922853452578,
+      "longitude_sun_sunset": 66.00376169446369,
       "solar_month_day": null,
+      "solar_month_sunrise": 3,
+      "solar_month_sunset": 3,
       "tb_muhuurtas": null
     },
     {
@@ -3311,7 +4003,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458291.2708333335,
       "julian_day_start": 2458291.2708333335,
+      "longitude_sun_sunrise": 66.44657489452318,
+      "longitude_sun_sunset": 66.95794397897205,
       "solar_month_day": null,
+      "solar_month_sunrise": 3,
+      "solar_month_sunset": 3,
       "tb_muhuurtas": null
     },
     {
@@ -3330,7 +4026,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458292.2708333335,
       "julian_day_start": 2458292.2708333335,
+      "longitude_sun_sunrise": 67.40068103177887,
+      "longitude_sun_sunset": 67.91194344477461,
       "solar_month_day": null,
+      "solar_month_sunrise": 3,
+      "solar_month_sunset": 3,
       "tb_muhuurtas": null
     },
     {
@@ -3349,7 +4049,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458293.2708333335,
       "julian_day_start": 2458293.2708333335,
+      "longitude_sun_sunrise": 68.35462401211899,
+      "longitude_sun_sunset": 68.86578012709593,
       "solar_month_day": null,
+      "solar_month_sunrise": 3,
+      "solar_month_sunset": 3,
       "tb_muhuurtas": null
     },
     {
@@ -3368,7 +4072,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458294.2708333335,
       "julian_day_start": 2458294.2708333335,
+      "longitude_sun_sunrise": 69.30842396581048,
+      "longitude_sun_sunset": 69.81947415467597,
       "solar_month_day": null,
+      "solar_month_sunrise": 3,
+      "solar_month_sunset": 3,
       "tb_muhuurtas": null
     },
     {
@@ -3387,7 +4095,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458295.2708333335,
       "julian_day_start": 2458295.2708333335,
+      "longitude_sun_sunrise": 70.2621006830202,
+      "longitude_sun_sunset": 70.77304538590619,
       "solar_month_day": null,
+      "solar_month_sunrise": 3,
+      "solar_month_sunset": 3,
       "tb_muhuurtas": null
     },
     {
@@ -3406,7 +4118,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458296.2708333335,
       "julian_day_start": 2458296.2708333335,
+      "longitude_sun_sunrise": 71.21567382248263,
+      "longitude_sun_sunset": 71.72651283621187,
       "solar_month_day": null,
+      "solar_month_sunrise": 3,
+      "solar_month_sunset": 3,
       "tb_muhuurtas": null
     },
     {
@@ -3425,7 +4141,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458297.2708333335,
       "julian_day_start": 2458297.2708333335,
+      "longitude_sun_sunrise": 72.16916227886627,
+      "longitude_sun_sunset": 72.6798957663045,
       "solar_month_day": null,
+      "solar_month_sunrise": 3,
+      "solar_month_sunset": 3,
       "tb_muhuurtas": null
     },
     {
@@ -3444,7 +4164,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458298.2708333335,
       "julian_day_start": 2458298.2708333335,
+      "longitude_sun_sunrise": 73.12258497188476,
+      "longitude_sun_sunset": 73.63321306965017,
       "solar_month_day": null,
+      "solar_month_sunrise": 3,
+      "solar_month_sunset": 3,
       "tb_muhuurtas": null
     },
     {
@@ -3463,7 +4187,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458299.2708333335,
       "julian_day_start": 2458299.2708333335,
+      "longitude_sun_sunrise": 74.07596108259102,
+      "longitude_sun_sunset": 74.58648375912838,
       "solar_month_day": null,
+      "solar_month_sunrise": 3,
+      "solar_month_sunset": 3,
       "tb_muhuurtas": null
     },
     {
@@ -3482,7 +4210,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458300.2708333335,
       "julian_day_start": 2458300.2708333335,
+      "longitude_sun_sunrise": 75.02930947487316,
+      "longitude_sun_sunset": 75.53972702161377,
       "solar_month_day": null,
+      "solar_month_sunrise": 3,
+      "solar_month_sunset": 3,
       "tb_muhuurtas": null
     },
     {
@@ -3501,7 +4233,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458301.2708333335,
       "julian_day_start": 2458301.2708333335,
+      "longitude_sun_sunrise": 75.98264909564064,
+      "longitude_sun_sunset": 76.49296176455822,
       "solar_month_day": null,
+      "solar_month_sunrise": 3,
+      "solar_month_sunset": 3,
       "tb_muhuurtas": null
     },
     {
@@ -3520,7 +4256,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458302.2708333335,
       "julian_day_start": 2458302.2708333335,
+      "longitude_sun_sunrise": 76.93599914756841,
+      "longitude_sun_sunset": 77.44620766255305,
       "solar_month_day": null,
+      "solar_month_sunrise": 3,
+      "solar_month_sunset": 3,
       "tb_muhuurtas": null
     },
     {
@@ -3539,7 +4279,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458303.2708333335,
       "julian_day_start": 2458303.2708333335,
+      "longitude_sun_sunrise": 77.88937944238238,
+      "longitude_sun_sunset": 78.39948428590891,
       "solar_month_day": null,
+      "solar_month_sunrise": 3,
+      "solar_month_sunset": 3,
       "tb_muhuurtas": null
     },
     {
@@ -3558,7 +4302,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458304.2708333335,
       "julian_day_start": 2458304.2708333335,
+      "longitude_sun_sunrise": 78.84280920597013,
+      "longitude_sun_sunset": 79.35281138565358,
       "solar_month_day": null,
+      "solar_month_sunrise": 3,
+      "solar_month_sunset": 3,
       "tb_muhuurtas": null
     },
     {
@@ -3577,7 +4325,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458305.2708333335,
       "julian_day_start": 2458305.2708333335,
+      "longitude_sun_sunrise": 79.79630768995798,
+      "longitude_sun_sunset": 80.30620714138944,
       "solar_month_day": null,
+      "solar_month_sunrise": 3,
+      "solar_month_sunset": 3,
       "tb_muhuurtas": null
     },
     {
@@ -3596,7 +4348,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458306.2708333335,
       "julian_day_start": 2458306.2708333335,
+      "longitude_sun_sunrise": 80.74989268052259,
+      "longitude_sun_sunset": 81.25968828221325,
       "solar_month_day": null,
+      "solar_month_sunrise": 3,
+      "solar_month_sunset": 3,
       "tb_muhuurtas": null
     },
     {
@@ -3615,7 +4371,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458307.2708333335,
       "julian_day_start": 2458307.2708333335,
+      "longitude_sun_sunrise": 81.7035793044503,
+      "longitude_sun_sunset": 82.213268984836,
       "solar_month_day": null,
+      "solar_month_sunrise": 3,
+      "solar_month_sunset": 3,
       "tb_muhuurtas": null
     },
     {
@@ -3634,7 +4394,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458308.2708333335,
       "julian_day_start": 2458308.2708333335,
+      "longitude_sun_sunrise": 82.65737985710469,
+      "longitude_sun_sunset": 83.16695817042995,
       "solar_month_day": null,
+      "solar_month_sunrise": 3,
+      "solar_month_sunset": 3,
       "tb_muhuurtas": null
     },
     {
@@ -3653,7 +4417,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458309.2708333335,
       "julian_day_start": 2458309.2708333335,
+      "longitude_sun_sunrise": 83.61130013241305,
+      "longitude_sun_sunset": 84.12075813176627,
       "solar_month_day": null,
+      "solar_month_sunrise": 3,
+      "solar_month_sunset": 3,
       "tb_muhuurtas": null
     },
     {
@@ -3672,7 +4440,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458310.2708333335,
       "julian_day_start": 2458310.2708333335,
+      "longitude_sun_sunrise": 84.56533818509575,
+      "longitude_sun_sunset": 85.07466185376308,
       "solar_month_day": null,
+      "solar_month_sunrise": 3,
+      "solar_month_sunset": 3,
       "tb_muhuurtas": null
     },
     {
@@ -3691,7 +4463,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458311.2708333335,
       "julian_day_start": 2458311.2708333335,
+      "longitude_sun_sunrise": 85.51948251884335,
+      "longitude_sun_sunset": 86.02865290498177,
       "solar_month_day": null,
+      "solar_month_sunrise": 3,
+      "solar_month_sunset": 3,
       "tb_muhuurtas": null
     },
     {
@@ -3710,7 +4486,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458312.2708333335,
       "julian_day_start": 2458312.2708333335,
+      "longitude_sun_sunrise": 86.47371288252276,
+      "longitude_sun_sunset": 86.98270881544282,
       "solar_month_day": null,
+      "solar_month_sunrise": 3,
+      "solar_month_sunset": 3,
       "tb_muhuurtas": null
     },
     {
@@ -3729,7 +4509,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458313.2708333335,
       "julian_day_start": 2458313.2708333335,
+      "longitude_sun_sunrise": 87.42800560655886,
+      "longitude_sun_sunset": 87.9368060463027,
       "solar_month_day": null,
+      "solar_month_sunrise": 3,
+      "solar_month_sunset": 3,
       "tb_muhuurtas": null
     },
     {
@@ -3748,7 +4532,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458314.2708333335,
       "julian_day_start": 2458314.2708333335,
+      "longitude_sun_sunrise": 88.38233846969828,
+      "longitude_sun_sunset": 88.89092564693729,
       "solar_month_day": null,
+      "solar_month_sunrise": 3,
+      "solar_month_sunset": 3,
       "tb_muhuurtas": null
     },
     {
@@ -3767,7 +4555,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458315.2708333335,
       "julian_day_start": 2458315.2708333335,
+      "longitude_sun_sunrise": 89.3366964323911,
+      "longitude_sun_sunset": 89.84505809882477,
       "solar_month_day": null,
+      "solar_month_sunrise": 3,
+      "solar_month_sunset": 3,
       "tb_muhuurtas": null
     },
     {
@@ -3786,7 +4578,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458316.2708333335,
       "julian_day_start": 2458316.2708333335,
+      "longitude_sun_sunrise": 90.29107380137008,
+      "longitude_sun_sunset": 90.79920251678466,
       "solar_month_day": null,
+      "solar_month_sunrise": 4,
+      "solar_month_sunset": 4,
       "tb_muhuurtas": null
     },
     {
@@ -3805,7 +4601,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458317.2708333335,
       "julian_day_start": 2458317.2708333335,
+      "longitude_sun_sunrise": 91.2454737262072,
+      "longitude_sun_sunset": 91.7533654064456,
       "solar_month_day": null,
+      "solar_month_sunrise": 4,
+      "solar_month_sunset": 4,
       "tb_muhuurtas": null
     },
     {
@@ -3824,7 +4624,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458318.2708333335,
       "julian_day_start": 2458318.2708333335,
+      "longitude_sun_sunrise": 92.1999049553478,
+      "longitude_sun_sunset": 92.70755779978828,
       "solar_month_day": null,
+      "solar_month_sunrise": 4,
+      "solar_month_sunset": 4,
       "tb_muhuurtas": null
     },
     {
@@ -3843,7 +4647,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458319.2708333335,
       "julian_day_start": 2458319.2708333335,
+      "longitude_sun_sunrise": 93.15437929025737,
+      "longitude_sun_sunset": 93.66179287282054,
       "solar_month_day": null,
+      "solar_month_sunrise": 4,
+      "solar_month_sunset": 4,
       "tb_muhuurtas": null
     },
     {
@@ -3862,7 +4670,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458320.2708333335,
       "julian_day_start": 2458320.2708333335,
+      "longitude_sun_sunrise": 94.10891062200027,
+      "longitude_sun_sunset": 94.61608479935772,
       "solar_month_day": null,
+      "solar_month_sunrise": 4,
+      "solar_month_sunset": 4,
       "tb_muhuurtas": null
     },
     {
@@ -3881,7 +4693,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458321.2708333335,
       "julian_day_start": 2458321.2708333335,
+      "longitude_sun_sunrise": 95.06351313935872,
+      "longitude_sun_sunset": 95.57044819701711,
       "solar_month_day": null,
+      "solar_month_sunrise": 4,
+      "solar_month_sunset": 4,
       "tb_muhuurtas": null
     },
     {
@@ -3900,7 +4716,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458322.2708333335,
       "julian_day_start": 2458322.2708333335,
+      "longitude_sun_sunrise": 96.018201856078,
+      "longitude_sun_sunset": 96.52489860772447,
       "solar_month_day": null,
+      "solar_month_sunrise": 4,
+      "solar_month_sunset": 4,
       "tb_muhuurtas": null
     },
     {
@@ -3919,7 +4739,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458323.2708333335,
       "julian_day_start": 2458323.2708333335,
+      "longitude_sun_sunrise": 96.97299177743042,
+      "longitude_sun_sunset": 97.4794515706557,
       "solar_month_day": null,
+      "solar_month_sunrise": 4,
+      "solar_month_sunset": 4,
       "tb_muhuurtas": null
     },
     {
@@ -3938,7 +4762,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458324.2708333335,
       "julian_day_start": 2458324.2708333335,
+      "longitude_sun_sunrise": 97.92789901371889,
+      "longitude_sun_sunset": 98.43412352054176,
       "solar_month_day": null,
+      "solar_month_sunrise": 4,
+      "solar_month_sunset": 4,
       "tb_muhuurtas": null
     },
     {
@@ -3957,7 +4785,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458325.2708333335,
       "julian_day_start": 2458325.2708333335,
+      "longitude_sun_sunrise": 98.88294007690793,
+      "longitude_sun_sunset": 99.3889315821991,
       "solar_month_day": null,
+      "solar_month_sunrise": 4,
+      "solar_month_sunset": 4,
       "tb_muhuurtas": null
     },
     {
@@ -3976,7 +4808,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458326.2708333335,
       "julian_day_start": 2458326.2708333335,
+      "longitude_sun_sunrise": 99.8381324390644,
+      "longitude_sun_sunset": 100.34389393324204,
       "solar_month_day": null,
+      "solar_month_sunrise": 4,
+      "solar_month_sunset": 4,
       "tb_muhuurtas": null
     },
     {
@@ -3995,7 +4831,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458327.2708333335,
       "julian_day_start": 2458327.2708333335,
+      "longitude_sun_sunrise": 100.79349466782956,
+      "longitude_sun_sunset": 101.29903000880817,
       "solar_month_day": null,
+      "solar_month_sunrise": 4,
+      "solar_month_sunset": 4,
       "tb_muhuurtas": null
     },
     {
@@ -4014,7 +4854,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458328.2708333335,
       "julian_day_start": 2458328.2708333335,
+      "longitude_sun_sunrise": 101.74904673504747,
+      "longitude_sun_sunset": 102.2543603303051,
       "solar_month_day": null,
+      "solar_month_sunrise": 4,
+      "solar_month_sunset": 4,
       "tb_muhuurtas": null
     },
     {
@@ -4033,7 +4877,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458329.2708333335,
       "julian_day_start": 2458329.2708333335,
+      "longitude_sun_sunrise": 102.70480924503265,
+      "longitude_sun_sunset": 103.20990620743052,
       "solar_month_day": null,
+      "solar_month_sunrise": 4,
+      "solar_month_sunset": 4,
       "tb_muhuurtas": null
     },
     {
@@ -4052,7 +4900,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458330.2708333335,
       "julian_day_start": 2458330.2708333335,
+      "longitude_sun_sunrise": 103.66080434708522,
+      "longitude_sun_sunset": 104.16569059781801,
       "solar_month_day": null,
+      "solar_month_sunrise": 4,
+      "solar_month_sunset": 4,
       "tb_muhuurtas": null
     },
     {
@@ -4071,7 +4923,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458331.2708333335,
       "julian_day_start": 2458331.2708333335,
+      "longitude_sun_sunrise": 104.61705466801851,
+      "longitude_sun_sunset": 105.1217365614188,
       "solar_month_day": null,
+      "solar_month_sunrise": 4,
+      "solar_month_sunset": 4,
       "tb_muhuurtas": null
     },
     {
@@ -4090,7 +4946,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458332.2708333335,
       "julian_day_start": 2458332.2708333335,
+      "longitude_sun_sunrise": 105.57358370791127,
+      "longitude_sun_sunset": 106.07806745102627,
       "solar_month_day": null,
+      "solar_month_sunrise": 4,
+      "solar_month_sunset": 4,
       "tb_muhuurtas": null
     },
     {
@@ -4109,7 +4969,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458333.2708333335,
       "julian_day_start": 2458333.2708333335,
+      "longitude_sun_sunrise": 106.5304142059158,
+      "longitude_sun_sunset": 107.03470562543868,
       "solar_month_day": null,
+      "solar_month_sunrise": 4,
+      "solar_month_sunset": 4,
       "tb_muhuurtas": null
     },
     {
@@ -4128,7 +4992,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458334.2708333335,
       "julian_day_start": 2458334.2708333335,
+      "longitude_sun_sunrise": 107.48756771565192,
+      "longitude_sun_sunset": 107.99167123518907,
       "solar_month_day": null,
+      "solar_month_sunrise": 4,
+      "solar_month_sunset": 4,
       "tb_muhuurtas": null
     },
     {
@@ -4147,7 +5015,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458335.2708333335,
       "julian_day_start": 2458335.2708333335,
+      "longitude_sun_sunrise": 108.44506272978956,
+      "longitude_sun_sunset": 108.94898160437694,
       "solar_month_day": null,
+      "solar_month_sunrise": 4,
+      "solar_month_sunset": 4,
       "tb_muhuurtas": null
     },
     {
@@ -4166,7 +5038,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458336.2708333335,
       "julian_day_start": 2458336.2708333335,
+      "longitude_sun_sunrise": 109.40291434212406,
+      "longitude_sun_sunset": 109.90664834770874,
       "solar_month_day": null,
+      "solar_month_sunrise": 4,
+      "solar_month_sunset": 4,
       "tb_muhuurtas": null
     },
     {
@@ -4185,7 +5061,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458337.2708333335,
       "julian_day_start": 2458337.2708333335,
+      "longitude_sun_sunrise": 110.36113096136418,
+      "longitude_sun_sunset": 110.86467680070905,
       "solar_month_day": null,
+      "solar_month_sunrise": 4,
+      "solar_month_sunset": 4,
       "tb_muhuurtas": null
     },
     {
@@ -4204,7 +5084,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458338.2708333335,
       "julian_day_start": 2458338.2708333335,
+      "longitude_sun_sunrise": 111.31971376142195,
+      "longitude_sun_sunset": 111.82306291179825,
       "solar_month_day": null,
+      "solar_month_sunrise": 4,
+      "solar_month_sunset": 4,
       "tb_muhuurtas": null
     },
     {
@@ -4223,7 +5107,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458339.2708333335,
       "julian_day_start": 2458339.2708333335,
+      "longitude_sun_sunrise": 112.2786543419576,
+      "longitude_sun_sunset": 112.78179406917855,
       "solar_month_day": null,
+      "solar_month_sunrise": 4,
+      "solar_month_sunset": 4,
       "tb_muhuurtas": null
     },
     {
@@ -4242,7 +5130,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458340.2708333335,
       "julian_day_start": 2458340.2708333335,
+      "longitude_sun_sunrise": 113.23793626443131,
+      "longitude_sun_sunset": 113.740851404686,
       "solar_month_day": null,
+      "solar_month_sunrise": 4,
+      "solar_month_sunset": 4,
       "tb_muhuurtas": null
     },
     {
@@ -4261,7 +5153,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458341.2708333335,
       "julian_day_start": 2458341.2708333335,
+      "longitude_sun_sunrise": 114.19753881276634,
+      "longitude_sun_sunset": 114.70021373457413,
       "solar_month_day": null,
+      "solar_month_sunrise": 4,
+      "solar_month_sunset": 4,
       "tb_muhuurtas": null
     },
     {
@@ -4280,7 +5176,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458342.2708333335,
       "julian_day_start": 2458342.2708333335,
+      "longitude_sun_sunrise": 115.15744182922364,
+      "longitude_sun_sunset": 115.6598632044024,
       "solar_month_day": null,
+      "solar_month_sunrise": 4,
+      "solar_month_sunset": 4,
       "tb_muhuurtas": null
     },
     {
@@ -4299,7 +5199,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458343.2708333335,
       "julian_day_start": 2458343.2708333335,
+      "longitude_sun_sunrise": 116.11763001027992,
+      "longitude_sun_sunset": 116.61978816437065,
       "solar_month_day": null,
+      "solar_month_sunrise": 4,
+      "solar_month_sunset": 4,
       "tb_muhuurtas": null
     },
     {
@@ -4318,7 +5222,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458344.2708333335,
       "julian_day_start": 2458344.2708333335,
+      "longitude_sun_sunrise": 117.07809453618694,
+      "longitude_sun_sunset": 117.57998352804614,
       "solar_month_day": null,
+      "solar_month_sunrise": 4,
+      "solar_month_sunset": 4,
       "tb_muhuurtas": null
     },
     {
@@ -4337,7 +5245,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458345.2708333335,
       "julian_day_start": 2458345.2708333335,
+      "longitude_sun_sunrise": 118.03883319833918,
+      "longitude_sun_sunset": 118.54044966320177,
       "solar_month_day": null,
+      "solar_month_sunrise": 4,
+      "solar_month_sunset": 4,
       "tb_muhuurtas": null
     },
     {
@@ -4356,7 +5268,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458346.2708333335,
       "julian_day_start": 2458346.2708333335,
+      "longitude_sun_sunrise": 118.99984790004018,
+      "longitude_sun_sunset": 119.50118964438843,
       "solar_month_day": null,
+      "solar_month_sunrise": 4,
+      "solar_month_sunset": 4,
       "tb_muhuurtas": null
     },
     {
@@ -4375,7 +5291,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458347.2708333335,
       "julian_day_start": 2458347.2708333335,
+      "longitude_sun_sunrise": 119.96114242913652,
+      "longitude_sun_sunset": 120.46220824902665,
       "solar_month_day": null,
+      "solar_month_sunrise": 4,
+      "solar_month_sunset": 5,
       "tb_muhuurtas": null
     },
     {
@@ -4394,7 +5314,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458348.2708333335,
       "julian_day_start": 2458348.2708333335,
+      "longitude_sun_sunrise": 120.92272194916009,
+      "longitude_sun_sunset": 121.42351149280142,
       "solar_month_day": null,
+      "solar_month_sunrise": 5,
+      "solar_month_sunset": 5,
       "tb_muhuurtas": null
     },
     {
@@ -4413,7 +5337,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458349.2708333335,
       "julian_day_start": 2458349.2708333335,
+      "longitude_sun_sunrise": 121.88459287646342,
+      "longitude_sun_sunset": 122.3851064201277,
       "solar_month_day": null,
+      "solar_month_sunrise": 5,
+      "solar_month_sunset": 5,
       "tb_muhuurtas": null
     },
     {
@@ -4432,7 +5360,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458350.2708333335,
       "julian_day_start": 2458350.2708333335,
+      "longitude_sun_sunrise": 122.84676274069076,
+      "longitude_sun_sunset": 123.34700140311756,
       "solar_month_day": null,
+      "solar_month_sunrise": 5,
+      "solar_month_sunset": 5,
       "tb_muhuurtas": null
     },
     {
@@ -4451,7 +5383,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458351.2708333335,
       "julian_day_start": 2458351.2708333335,
+      "longitude_sun_sunrise": 123.80924073790845,
+      "longitude_sun_sunset": 124.30920634154717,
       "solar_month_day": null,
+      "solar_month_sunrise": 5,
+      "solar_month_sunset": 5,
       "tb_muhuurtas": null
     },
     {
@@ -4470,7 +5406,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458352.2708333335,
       "julian_day_start": 2458352.2708333335,
+      "longitude_sun_sunrise": 124.77203700551078,
+      "longitude_sun_sunset": 125.2717322749734,
       "solar_month_day": null,
+      "solar_month_sunrise": 5,
+      "solar_month_sunset": 5,
       "tb_muhuurtas": null
     },
     {
@@ -4489,7 +5429,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458353.2708333335,
       "julian_day_start": 2458353.2708333335,
+      "longitude_sun_sunrise": 125.73516350828237,
+      "longitude_sun_sunset": 126.23459248620023,
       "solar_month_day": null,
+      "solar_month_sunrise": 5,
+      "solar_month_sunset": 5,
       "tb_muhuurtas": null
     },
     {
@@ -4508,7 +5452,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458354.2708333335,
       "julian_day_start": 2458354.2708333335,
+      "longitude_sun_sunrise": 126.69863396515706,
+      "longitude_sun_sunset": 127.19780136824863,
       "solar_month_day": null,
+      "solar_month_sunrise": 5,
+      "solar_month_sunset": 5,
       "tb_muhuurtas": null
     },
     {
@@ -4527,7 +5475,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458355.2708333335,
       "julian_day_start": 2458355.2708333335,
+      "longitude_sun_sunrise": 127.66246423129232,
+      "longitude_sun_sunset": 128.16137599547324,
       "solar_month_day": null,
+      "solar_month_sunrise": 5,
+      "solar_month_sunset": 5,
       "tb_muhuurtas": null
     },
     {
@@ -4546,7 +5498,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458356.2708333335,
       "julian_day_start": 2458356.2708333335,
+      "longitude_sun_sunrise": 128.62667183101217,
+      "longitude_sun_sunset": 129.12533545060745,
       "solar_month_day": null,
+      "solar_month_sunrise": 5,
+      "solar_month_sunset": 5,
       "tb_muhuurtas": null
     },
     {
@@ -4565,7 +5521,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458357.2708333335,
       "julian_day_start": 2458357.2708333335,
+      "longitude_sun_sunrise": 129.59127692914348,
+      "longitude_sun_sunset": 130.08970066531734,
       "solar_month_day": null,
+      "solar_month_sunrise": 5,
+      "solar_month_sunset": 5,
       "tb_muhuurtas": null
     },
     {
@@ -4584,7 +5544,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458358.2708333335,
       "julian_day_start": 2458358.2708333335,
+      "longitude_sun_sunrise": 130.55630162370613,
+      "longitude_sun_sunset": 131.05449496084267,
       "solar_month_day": null,
+      "solar_month_sunrise": 5,
+      "solar_month_sunset": 5,
       "tb_muhuurtas": null
     },
     {
@@ -4603,7 +5567,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458359.2708333335,
       "julian_day_start": 2458359.2708333335,
+      "longitude_sun_sunrise": 131.52176971074473,
+      "longitude_sun_sunset": 132.0197428301942,
       "solar_month_day": null,
+      "solar_month_sunrise": 5,
+      "solar_month_sunset": 5,
       "tb_muhuurtas": null
     },
     {
@@ -4622,7 +5590,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458360.2708333335,
       "julian_day_start": 2458360.2708333335,
+      "longitude_sun_sunrise": 132.4877057002824,
+      "longitude_sun_sunset": 132.98546873008104,
       "solar_month_day": null,
+      "solar_month_sunrise": 5,
+      "solar_month_sunset": 5,
       "tb_muhuurtas": null
     },
     {
@@ -4641,7 +5613,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458361.2708333335,
       "julian_day_start": 2458361.2708333335,
+      "longitude_sun_sunrise": 133.45413420133877,
+      "longitude_sun_sunset": 133.95169649933615,
       "solar_month_day": null,
+      "solar_month_sunrise": 5,
+      "solar_month_sunset": 5,
       "tb_muhuurtas": null
     },
     {
@@ -4660,7 +5636,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458362.2708333335,
       "julian_day_start": 2458362.2708333335,
+      "longitude_sun_sunrise": 134.4210775961359,
+      "longitude_sun_sunset": 134.91844733637825,
       "solar_month_day": null,
+      "solar_month_sunrise": 5,
+      "solar_month_sunset": 5,
       "tb_muhuurtas": null
     },
     {
@@ -4679,7 +5659,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458363.2708333335,
       "julian_day_start": 2458363.2708333335,
+      "longitude_sun_sunrise": 135.38855540609333,
+      "longitude_sun_sunset": 135.8857382596044,
       "solar_month_day": null,
+      "solar_month_sunrise": 5,
+      "solar_month_sunset": 5,
       "tb_muhuurtas": null
     },
     {
@@ -4698,7 +5682,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458364.2708333335,
       "julian_day_start": 2458364.2708333335,
+      "longitude_sun_sunrise": 136.35658228778192,
+      "longitude_sun_sunset": 136.8535814667462,
       "solar_month_day": null,
+      "solar_month_sunrise": 5,
+      "solar_month_sunset": 5,
       "tb_muhuurtas": null
     },
     {
@@ -4717,7 +5705,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458365.2708333335,
       "julian_day_start": 2458365.2708333335,
+      "longitude_sun_sunrise": 137.3251670648505,
+      "longitude_sun_sunset": 137.82198219180452,
       "solar_month_day": null,
+      "solar_month_sunrise": 5,
+      "solar_month_sunset": 5,
       "tb_muhuurtas": null
     },
     {
@@ -4736,7 +5728,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458366.2708333335,
       "julian_day_start": 2458366.2708333335,
+      "longitude_sun_sunrise": 138.2943115193129,
+      "longitude_sun_sunset": 138.79093830585046,
       "solar_month_day": null,
+      "solar_month_sunrise": 5,
+      "solar_month_sunset": 5,
       "tb_muhuurtas": null
     },
     {
@@ -4755,7 +5751,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458367.2708333335,
       "julian_day_start": 2458367.2708333335,
+      "longitude_sun_sunrise": 139.26400957981693,
+      "longitude_sun_sunset": 139.7604405358683,
       "solar_month_day": null,
+      "solar_month_sunrise": 5,
+      "solar_month_sunset": 5,
       "tb_muhuurtas": null
     },
     {
@@ -4774,7 +5774,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458368.2708333335,
       "julian_day_start": 2458368.2708333335,
+      "longitude_sun_sunrise": 140.23424895155222,
+      "longitude_sun_sunset": 140.73047416210335,
       "solar_month_day": null,
+      "solar_month_sunrise": 5,
+      "solar_month_sunset": 5,
       "tb_muhuurtas": null
     },
     {
@@ -4793,7 +5797,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458369.2708333335,
       "julian_day_start": 2458369.2708333335,
+      "longitude_sun_sunrise": 141.2050136662101,
+      "longitude_sun_sunset": 141.7010226689396,
       "solar_month_day": null,
+      "solar_month_sunrise": 5,
+      "solar_month_sunset": 5,
       "tb_muhuurtas": null
     },
     {
@@ -4812,7 +5820,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458370.2708333335,
       "julian_day_start": 2458370.2708333335,
+      "longitude_sun_sunrise": 142.17628743863042,
+      "longitude_sun_sunset": 142.67207105315356,
       "solar_month_day": null,
+      "solar_month_sunrise": 5,
+      "solar_month_sunset": 5,
       "tb_muhuurtas": null
     },
     {
@@ -4831,7 +5843,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458371.2708333335,
       "julian_day_start": 2458371.2708333335,
+      "longitude_sun_sunrise": 143.14805615471093,
+      "longitude_sun_sunset": 143.64360705107399,
       "solar_month_day": null,
+      "solar_month_sunrise": 5,
+      "solar_month_sunset": 5,
       "tb_muhuurtas": null
     },
     {
@@ -4850,7 +5866,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458372.2708333335,
       "julian_day_start": 2458372.2708333335,
+      "longitude_sun_sunrise": 144.120309162266,
+      "longitude_sun_sunset": 144.6156215470994,
       "solar_month_day": null,
+      "solar_month_sunrise": 5,
+      "solar_month_sunset": 5,
       "tb_muhuurtas": null
     },
     {
@@ -4869,7 +5889,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458373.2708333335,
       "julian_day_start": 2458373.2708333335,
+      "longitude_sun_sunrise": 145.09303867230975,
+      "longitude_sun_sunset": 145.5881073508772,
       "solar_month_day": null,
+      "solar_month_sunrise": 5,
+      "solar_month_sunset": 5,
       "tb_muhuurtas": null
     },
     {
@@ -4888,7 +5912,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458374.2708333335,
       "julian_day_start": 2458374.2708333335,
+      "longitude_sun_sunrise": 146.06623790459864,
+      "longitude_sun_sunset": 146.56105869084143,
       "solar_month_day": null,
+      "solar_month_sunrise": 5,
+      "solar_month_sunset": 5,
       "tb_muhuurtas": null
     },
     {
@@ -4907,7 +5935,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458375.2708333335,
       "julian_day_start": 2458375.2708333335,
+      "longitude_sun_sunrise": 147.03990119949552,
+      "longitude_sun_sunset": 147.53447021714098,
       "solar_month_day": null,
+      "solar_month_sunrise": 5,
+      "solar_month_sunset": 5,
       "tb_muhuurtas": null
     },
     {
@@ -4926,7 +5958,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458376.2708333335,
       "julian_day_start": 2458376.2708333335,
+      "longitude_sun_sunrise": 148.0140232903697,
+      "longitude_sun_sunset": 148.5083372523441,
       "solar_month_day": null,
+      "solar_month_sunrise": 5,
+      "solar_month_sunset": 5,
       "tb_muhuurtas": null
     },
     {
@@ -4945,7 +5981,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458377.2708333335,
       "julian_day_start": 2458377.2708333335,
+      "longitude_sun_sunrise": 148.98860070183667,
+      "longitude_sun_sunset": 149.4826571030362,
       "solar_month_day": null,
+      "solar_month_sunrise": 5,
+      "solar_month_sunset": 5,
       "tb_muhuurtas": null
     },
     {
@@ -4964,7 +6004,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458378.2708333335,
       "julian_day_start": 2458378.2708333335,
+      "longitude_sun_sunrise": 149.96363130149373,
+      "longitude_sun_sunset": 150.45742938896518,
       "solar_month_day": null,
+      "solar_month_sunrise": 5,
+      "solar_month_sunset": 6,
       "tb_muhuurtas": null
     },
     {
@@ -4983,7 +6027,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458379.2708333335,
       "julian_day_start": 2458379.2708333335,
+      "longitude_sun_sunrise": 150.93911583688984,
+      "longitude_sun_sunset": 151.432655550202,
       "solar_month_day": null,
+      "solar_month_sunrise": 6,
+      "solar_month_sunset": 6,
       "tb_muhuurtas": null
     },
     {
@@ -5002,7 +6050,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458380.2708333335,
       "julian_day_start": 2458380.2708333335,
+      "longitude_sun_sunrise": 151.9150568670277,
+      "longitude_sun_sunset": 152.40833973864636,
       "solar_month_day": null,
+      "solar_month_sunrise": 6,
+      "solar_month_sunset": 6,
       "tb_muhuurtas": null
     },
     {
@@ -5021,7 +6073,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458381.2708333335,
       "julian_day_start": 2458381.2708333335,
+      "longitude_sun_sunrise": 152.89145950923182,
+      "longitude_sun_sunset": 153.38448807248224,
       "solar_month_day": null,
+      "solar_month_sunrise": 6,
+      "solar_month_sunset": 6,
       "tb_muhuurtas": null
     },
     {
@@ -5040,7 +6096,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458382.2708333335,
       "julian_day_start": 2458382.2708333335,
+      "longitude_sun_sunrise": 153.8683312319562,
+      "longitude_sun_sunset": 154.36110928469566,
       "solar_month_day": null,
+      "solar_month_sunrise": 6,
+      "solar_month_sunset": 6,
       "tb_muhuurtas": null
     },
     {
@@ -5059,7 +6119,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458383.2708333335,
       "julian_day_start": 2458383.2708333335,
+      "longitude_sun_sunrise": 154.84568164252104,
+      "longitude_sun_sunset": 155.33821486239867,
       "solar_month_day": null,
+      "solar_month_sunrise": 6,
+      "solar_month_sunset": 6,
       "tb_muhuurtas": null
     },
     {
@@ -5078,7 +6142,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458384.2708333335,
       "julian_day_start": 2458384.2708333335,
+      "longitude_sun_sunrise": 155.82352403610545,
+      "longitude_sun_sunset": 156.31581948924998,
       "solar_month_day": null,
+      "solar_month_sunrise": 6,
+      "solar_month_sunset": 6,
       "tb_muhuurtas": null
     },
     {
@@ -5097,7 +6165,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458385.2708333335,
       "julian_day_start": 2458385.2708333335,
+      "longitude_sun_sunrise": 156.8018742252936,
+      "longitude_sun_sunset": 157.29394054493815,
       "solar_month_day": null,
+      "solar_month_sunrise": 6,
+      "solar_month_sunset": 6,
       "tb_muhuurtas": null
     },
     {
@@ -5116,7 +6188,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458386.2708333335,
       "julian_day_start": 2458386.2708333335,
+      "longitude_sun_sunrise": 157.78075159751825,
+      "longitude_sun_sunset": 158.27259879949352,
       "solar_month_day": null,
+      "solar_month_sunrise": 6,
+      "solar_month_sunset": 6,
       "tb_muhuurtas": null
     },
     {
@@ -5135,7 +6211,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458387.2708333335,
       "julian_day_start": 2458387.2708333335,
+      "longitude_sun_sunrise": 158.76017753526025,
+      "longitude_sun_sunset": 159.25181701285413,
       "solar_month_day": null,
+      "solar_month_sunrise": 6,
+      "solar_month_sunset": 6,
       "tb_muhuurtas": null
     },
     {
@@ -5154,7 +6234,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458388.2708333335,
       "julian_day_start": 2458388.2708333335,
+      "longitude_sun_sunrise": 159.74017573492043,
+      "longitude_sun_sunset": 160.23161857284177,
       "solar_month_day": null,
+      "solar_month_sunrise": 6,
+      "solar_month_sunset": 6,
       "tb_muhuurtas": null
     },
     {
@@ -5173,7 +6257,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458389.2708333335,
       "julian_day_start": 2458389.2708333335,
+      "longitude_sun_sunrise": 160.7207693674991,
+      "longitude_sun_sunset": 161.2120262086693,
       "solar_month_day": null,
+      "solar_month_sunrise": 6,
+      "solar_month_sunset": 6,
       "tb_muhuurtas": null
     },
     {
@@ -5192,7 +6280,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458390.2708333335,
       "julian_day_start": 2458390.2708333335,
+      "longitude_sun_sunrise": 161.70197955420747,
+      "longitude_sun_sunset": 162.19305970799667,
       "solar_month_day": null,
+      "solar_month_sunrise": 6,
+      "solar_month_sunset": 6,
       "tb_muhuurtas": null
     },
     {
@@ -5211,7 +6303,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458391.2708333335,
       "julian_day_start": 2458391.2708333335,
+      "longitude_sun_sunrise": 162.68382441613116,
+      "longitude_sun_sunset": 163.17473434384638,
       "solar_month_day": null,
+      "solar_month_sunrise": 6,
+      "solar_month_sunset": 6,
       "tb_muhuurtas": null
     },
     {
@@ -5230,7 +6326,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458392.2708333335,
       "julian_day_start": 2458392.2708333335,
+      "longitude_sun_sunrise": 163.66631630076623,
+      "longitude_sun_sunset": 164.1570602192085,
       "solar_month_day": null,
+      "solar_month_sunrise": 6,
+      "solar_month_sunset": 6,
       "tb_muhuurtas": null
     },
     {
@@ -5249,7 +6349,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458393.2708333335,
       "julian_day_start": 2458393.2708333335,
+      "longitude_sun_sunrise": 164.6494623192245,
+      "longitude_sun_sunset": 165.1400410637324,
       "solar_month_day": null,
+      "solar_month_sunrise": 6,
+      "solar_month_sunset": 6,
       "tb_muhuurtas": null
     },
     {
@@ -5268,7 +6372,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458394.2708333335,
       "julian_day_start": 2458394.2708333335,
+      "longitude_sun_sunrise": 165.63326301360138,
+      "longitude_sun_sunset": 166.1236748413635,
       "solar_month_day": null,
+      "solar_month_sunrise": 6,
+      "solar_month_sunset": 6,
       "tb_muhuurtas": null
     },
     {
@@ -5287,7 +6395,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458395.2708333335,
       "julian_day_start": 2458395.2708333335,
+      "longitude_sun_sunrise": 166.6177138281925,
+      "longitude_sun_sunset": 167.10795437089092,
       "solar_month_day": null,
+      "solar_month_sunrise": 6,
+      "solar_month_sunset": 6,
       "tb_muhuurtas": null
     },
     {
@@ -5306,7 +6418,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458396.2708333335,
       "julian_day_start": 2458396.2708333335,
+      "longitude_sun_sunrise": 167.60280549172668,
+      "longitude_sun_sunset": 168.09286942339543,
       "solar_month_day": null,
+      "solar_month_sunrise": 6,
+      "solar_month_sunset": 6,
       "tb_muhuurtas": null
     },
     {
@@ -5325,7 +6441,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458397.2708333335,
       "julian_day_start": 2458397.2708333335,
+      "longitude_sun_sunrise": 168.5885264667957,
+      "longitude_sun_sunset": 169.07840794524546,
       "solar_month_day": null,
+      "solar_month_sunrise": 6,
+      "solar_month_sunset": 6,
       "tb_muhuurtas": null
     },
     {
@@ -5344,7 +6464,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458398.2708333335,
       "julian_day_start": 2458398.2708333335,
+      "longitude_sun_sunrise": 169.57486433473858,
+      "longitude_sun_sunset": 170.06455774222644,
       "solar_month_day": null,
+      "solar_month_sunrise": 6,
+      "solar_month_sunset": 6,
       "tb_muhuurtas": null
     },
     {
@@ -5363,7 +6487,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458399.2708333335,
       "julian_day_start": 2458399.2708333335,
+      "longitude_sun_sunrise": 170.5618073454015,
+      "longitude_sun_sunset": 171.05130704401083,
       "solar_month_day": null,
+      "solar_month_sunrise": 6,
+      "solar_month_sunset": 6,
       "tb_muhuurtas": null
     },
     {
@@ -5382,7 +6510,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458400.2708333335,
       "julian_day_start": 2458400.2708333335,
+      "longitude_sun_sunrise": 171.5493433725906,
+      "longitude_sun_sunset": 172.038643678251,
       "solar_month_day": null,
+      "solar_month_sunrise": 6,
+      "solar_month_sunset": 6,
       "tb_muhuurtas": null
     },
     {
@@ -5401,7 +6533,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458401.2708333335,
       "julian_day_start": 2458401.2708333335,
+      "longitude_sun_sunrise": 172.53745962216829,
+      "longitude_sun_sunset": 173.02655457457985,
       "solar_month_day": null,
+      "solar_month_sunrise": 6,
+      "solar_month_sunset": 6,
       "tb_muhuurtas": null
     },
     {
@@ -5420,7 +6556,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458402.2708333335,
       "julian_day_start": 2458402.2708333335,
+      "longitude_sun_sunrise": 173.52614212643303,
+      "longitude_sun_sunset": 174.01502494323194,
       "solar_month_day": null,
+      "solar_month_sunrise": 6,
+      "solar_month_sunset": 6,
       "tb_muhuurtas": null
     },
     {
@@ -5439,7 +6579,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458403.2708333335,
       "julian_day_start": 2458403.2708333335,
+      "longitude_sun_sunrise": 174.51537581927352,
+      "longitude_sun_sunset": 175.0040395813804,
       "solar_month_day": null,
+      "solar_month_sunrise": 6,
+      "solar_month_sunset": 6,
       "tb_muhuurtas": null
     },
     {
@@ -5458,7 +6602,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458404.2708333335,
       "julian_day_start": 2458404.2708333335,
+      "longitude_sun_sunrise": 175.50514483417254,
+      "longitude_sun_sunset": 175.99358329411265,
       "solar_month_day": null,
+      "solar_month_sunrise": 6,
+      "solar_month_sunset": 6,
       "tb_muhuurtas": null
     },
     {
@@ -5477,7 +6625,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458405.2708333335,
       "julian_day_start": 2458405.2708333335,
+      "longitude_sun_sunrise": 176.49543479338652,
+      "longitude_sun_sunset": 176.98364269202168,
       "solar_month_day": null,
+      "solar_month_sunrise": 6,
+      "solar_month_sunset": 6,
       "tb_muhuurtas": null
     },
     {
@@ -5496,7 +6648,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458406.2708333335,
       "julian_day_start": 2458406.2708333335,
+      "longitude_sun_sunrise": 177.4862333542763,
+      "longitude_sun_sunset": 177.97420664172506,
       "solar_month_day": null,
+      "solar_month_sunrise": 6,
+      "solar_month_sunset": 6,
       "tb_muhuurtas": null
     },
     {
@@ -5515,7 +6671,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458407.2708333335,
       "julian_day_start": 2458407.2708333335,
+      "longitude_sun_sunrise": 178.4775308378698,
+      "longitude_sun_sunset": 178.9652674071978,
       "solar_month_day": null,
+      "solar_month_sunrise": 6,
+      "solar_month_sunset": 6,
       "tb_muhuurtas": null
     },
     {
@@ -5534,7 +6694,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458408.2708333335,
       "julian_day_start": 2458408.2708333335,
+      "longitude_sun_sunrise": 179.46932066256153,
+      "longitude_sun_sunset": 179.95681982662424,
       "solar_month_day": null,
+      "solar_month_sunrise": 6,
+      "solar_month_sunset": 6,
       "tb_muhuurtas": null
     },
     {
@@ -5553,7 +6717,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458409.2708333335,
       "julian_day_start": 2458409.2708333335,
+      "longitude_sun_sunrise": 180.46159923793383,
+      "longitude_sun_sunset": 180.94886168507173,
       "solar_month_day": null,
+      "solar_month_sunrise": 7,
+      "solar_month_sunset": 7,
       "tb_muhuurtas": null
     },
     {
@@ -5572,7 +6740,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458410.2708333335,
       "julian_day_start": 2458410.2708333335,
+      "longitude_sun_sunrise": 181.45436530399058,
+      "longitude_sun_sunset": 181.94139346868573,
       "solar_month_day": null,
+      "solar_month_sunrise": 7,
+      "solar_month_sunset": 7,
       "tb_muhuurtas": null
     },
     {
@@ -5591,7 +6763,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458411.2708333335,
       "julian_day_start": 2458411.2708333335,
+      "longitude_sun_sunrise": 182.44762121262798,
+      "longitude_sun_sunset": 182.93441911497064,
       "solar_month_day": null,
+      "solar_month_sunrise": 7,
+      "solar_month_sunset": 7,
       "tb_muhuurtas": null
     },
     {
@@ -5610,7 +6786,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458412.2708333335,
       "julian_day_start": 2458412.2708333335,
+      "longitude_sun_sunrise": 183.44137217624575,
+      "longitude_sun_sunset": 183.92794560452126,
       "solar_month_day": null,
+      "solar_month_sunrise": 7,
+      "solar_month_sunset": 7,
       "tb_muhuurtas": null
     },
     {
@@ -5629,7 +6809,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458413.2708333335,
       "julian_day_start": 2458413.2708333335,
+      "longitude_sun_sunrise": 184.43562726376192,
+      "longitude_sun_sunset": 184.92198419433623,
       "solar_month_day": null,
+      "solar_month_sunrise": 7,
+      "solar_month_sunset": 7,
       "tb_muhuurtas": null
     },
     {
@@ -5648,7 +6832,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458414.2708333335,
       "julian_day_start": 2458414.2708333335,
+      "longitude_sun_sunrise": 185.43039937425434,
+      "longitude_sun_sunset": 185.91654954671526,
       "solar_month_day": null,
+      "solar_month_sunrise": 7,
+      "solar_month_sunset": 7,
       "tb_muhuurtas": null
     },
     {
@@ -5667,7 +6855,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458415.2708333335,
       "julian_day_start": 2458415.2708333335,
+      "longitude_sun_sunrise": 186.42570470702302,
+      "longitude_sun_sunset": 186.91165950413537,
       "solar_month_day": null,
+      "solar_month_sunrise": 7,
+      "solar_month_sunset": 7,
       "tb_muhuurtas": null
     },
     {
@@ -5686,7 +6878,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458416.2708333335,
       "julian_day_start": 2458416.2708333335,
+      "longitude_sun_sunrise": 187.42156232363385,
+      "longitude_sun_sunset": 187.90733350796594,
       "solar_month_day": null,
+      "solar_month_sunrise": 7,
+      "solar_month_sunset": 7,
       "tb_muhuurtas": null
     },
     {
@@ -5705,7 +6901,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458417.2708333335,
       "julian_day_start": 2458417.2708333335,
+      "longitude_sun_sunrise": 188.4179912786094,
+      "longitude_sun_sunset": 188.90359044079312,
       "solar_month_day": null,
+      "solar_month_sunrise": 7,
+      "solar_month_sunset": 7,
       "tb_muhuurtas": null
     },
     {
@@ -5724,7 +6924,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458418.2708333335,
       "julian_day_start": 2458418.2708333335,
+      "longitude_sun_sunrise": 189.41500942429158,
+      "longitude_sun_sunset": 189.90044680433897,
       "solar_month_day": null,
+      "solar_month_sunrise": 7,
+      "solar_month_sunset": 7,
       "tb_muhuurtas": null
     },
     {
@@ -5743,7 +6947,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458419.2708333335,
       "julian_day_start": 2458419.2708333335,
+      "longitude_sun_sunrise": 190.41263126540295,
+      "longitude_sun_sunset": 190.89791485199387,
       "solar_month_day": null,
+      "solar_month_sunrise": 7,
+      "solar_month_sunset": 7,
       "tb_muhuurtas": null
     },
     {
@@ -5762,7 +6970,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458420.2708333335,
       "julian_day_start": 2458420.2708333335,
+      "longitude_sun_sunrise": 191.4108661646754,
+      "longitude_sun_sunset": 191.8960015664272,
       "solar_month_day": null,
+      "solar_month_sunrise": 7,
+      "solar_month_sunset": 7,
       "tb_muhuurtas": null
     },
     {
@@ -5781,7 +6993,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458421.2708333335,
       "julian_day_start": 2458421.2708333335,
+      "longitude_sun_sunrise": 192.4097184672141,
+      "longitude_sun_sunset": 192.89470893054573,
       "solar_month_day": null,
+      "solar_month_sunrise": 7,
+      "solar_month_sunset": 7,
       "tb_muhuurtas": null
     },
     {
@@ -5800,7 +7016,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458422.2708333335,
       "julian_day_start": 2458422.2708333335,
+      "longitude_sun_sunrise": 193.40918771859492,
+      "longitude_sun_sunset": 193.8940350961278,
       "solar_month_day": null,
+      "solar_month_sunrise": 7,
+      "solar_month_sunset": 7,
       "tb_muhuurtas": null
     },
     {
@@ -5819,7 +7039,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458423.2708333335,
       "julian_day_start": 2458423.2708333335,
+      "longitude_sun_sunrise": 194.40926990009845,
+      "longitude_sun_sunset": 194.89397475708904,
       "solar_month_day": null,
+      "solar_month_sunrise": 7,
+      "solar_month_sunset": 7,
       "tb_muhuurtas": null
     },
     {
@@ -5838,7 +7062,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458424.2708333335,
       "julian_day_start": 2458424.2708333335,
+      "longitude_sun_sunrise": 195.40995874615388,
+      "longitude_sun_sunset": 195.89452099433186,
       "solar_month_day": null,
+      "solar_month_sunrise": 7,
+      "solar_month_sunset": 7,
       "tb_muhuurtas": null
     },
     {
@@ -5857,7 +7085,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458425.2708333335,
       "julian_day_start": 2458425.2708333335,
+      "longitude_sun_sunrise": 196.41124643425522,
+      "longitude_sun_sunset": 196.89566523124378,
       "solar_month_day": null,
+      "solar_month_sunrise": 7,
+      "solar_month_sunset": 7,
       "tb_muhuurtas": null
     },
     {
@@ -5876,7 +7108,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458426.2708333335,
       "julian_day_start": 2458426.2708333335,
+      "longitude_sun_sunrise": 197.41312339071806,
+      "longitude_sun_sunset": 197.89739785391723,
       "solar_month_day": null,
+      "solar_month_sunrise": 7,
+      "solar_month_sunset": 7,
       "tb_muhuurtas": null
     },
     {
@@ -5895,7 +7131,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458427.2708333335,
       "julian_day_start": 2458427.2708333335,
+      "longitude_sun_sunrise": 198.41557876494366,
+      "longitude_sun_sunset": 198.89970700804201,
       "solar_month_day": null,
+      "solar_month_sunrise": 7,
+      "solar_month_sunset": 7,
       "tb_muhuurtas": null
     },
     {
@@ -5914,7 +7154,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458428.2708333335,
       "julian_day_start": 2458428.2708333335,
+      "longitude_sun_sunrise": 199.4185995239457,
+      "longitude_sun_sunset": 199.90257826381293,
       "solar_month_day": null,
+      "solar_month_sunrise": 7,
+      "solar_month_sunset": 7,
       "tb_muhuurtas": null
     },
     {
@@ -5933,7 +7177,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458429.2708333335,
       "julian_day_start": 2458429.2708333335,
+      "longitude_sun_sunrise": 200.4221692102481,
+      "longitude_sun_sunset": 200.90599402590558,
       "solar_month_day": null,
+      "solar_month_sunrise": 7,
+      "solar_month_sunset": 7,
       "tb_muhuurtas": null
     },
     {
@@ -5952,7 +7200,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458430.2708333335,
       "julian_day_start": 2458430.2708333335,
+      "longitude_sun_sunrise": 201.42626797630538,
+      "longitude_sun_sunset": 201.90993282468673,
       "solar_month_day": null,
+      "solar_month_sunrise": 7,
+      "solar_month_sunset": 7,
       "tb_muhuurtas": null
     },
     {
@@ -5971,7 +7223,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458431.2708333335,
       "julian_day_start": 2458431.2708333335,
+      "longitude_sun_sunrise": 202.4308732857587,
+      "longitude_sun_sunset": 202.9143717103392,
       "solar_month_day": null,
+      "solar_month_sunrise": 7,
+      "solar_month_sunset": 7,
       "tb_muhuurtas": null
     },
     {
@@ -5990,7 +7246,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458432.2708333335,
       "julian_day_start": 2458432.2708333335,
+      "longitude_sun_sunrise": 203.43596094036678,
+      "longitude_sun_sunset": 203.91928657576742,
       "solar_month_day": null,
+      "solar_month_sunrise": 7,
+      "solar_month_sunset": 7,
       "tb_muhuurtas": null
     },
     {
@@ -6009,7 +7269,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458433.2708333335,
       "julian_day_start": 2458433.2708333335,
+      "longitude_sun_sunrise": 204.4415071410438,
+      "longitude_sun_sunset": 204.92465419872588,
       "solar_month_day": null,
+      "solar_month_sunrise": 7,
+      "solar_month_sunset": 7,
       "tb_muhuurtas": null
     },
     {
@@ -6028,7 +7292,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458434.2708333335,
       "julian_day_start": 2458434.2708333335,
+      "longitude_sun_sunrise": 205.44748956790406,
+      "longitude_sun_sunset": 205.93045418495043,
       "solar_month_day": null,
+      "solar_month_sunrise": 7,
+      "solar_month_sunset": 7,
       "tb_muhuurtas": null
     },
     {
@@ -6047,7 +7315,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458435.2708333335,
       "julian_day_start": 2458435.2708333335,
+      "longitude_sun_sunrise": 206.45388900012225,
+      "longitude_sun_sunset": 206.9366688304208,
       "solar_month_day": null,
+      "solar_month_sunrise": 7,
+      "solar_month_sunset": 7,
       "tb_muhuurtas": null
     },
     {
@@ -6066,7 +7338,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458436.2708333335,
       "julian_day_start": 2458436.2708333335,
+      "longitude_sun_sunrise": 207.46068918723577,
+      "longitude_sun_sunset": 207.9432837346104,
       "solar_month_day": null,
+      "solar_month_sunrise": 7,
+      "solar_month_sunset": 7,
       "tb_muhuurtas": null
     },
     {
@@ -6085,7 +7361,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458437.2708333335,
       "julian_day_start": 2458437.2708333335,
+      "longitude_sun_sunrise": 208.46787699063742,
+      "longitude_sun_sunset": 208.95028724080024,
       "solar_month_day": null,
+      "solar_month_sunrise": 7,
+      "solar_month_sunset": 7,
       "tb_muhuurtas": null
     },
     {
@@ -6104,7 +7384,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458438.2708333335,
       "julian_day_start": 2458438.2708333335,
+      "longitude_sun_sunrise": 209.4754424806577,
+      "longitude_sun_sunset": 209.95767123757304,
       "solar_month_day": null,
+      "solar_month_sunrise": 7,
+      "solar_month_sunset": 7,
       "tb_muhuurtas": null
     },
     {
@@ -6123,7 +7407,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458439.2708333335,
       "julian_day_start": 2458439.2708333335,
+      "longitude_sun_sunrise": 210.48337854847583,
+      "longitude_sun_sunset": 210.96543037548514,
       "solar_month_day": null,
+      "solar_month_sunrise": 8,
+      "solar_month_sunset": 8,
       "tb_muhuurtas": null
     },
     {
@@ -6142,7 +7430,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458440.2708333335,
       "julian_day_start": 2458440.2708333335,
+      "longitude_sun_sunrise": 211.49168180271647,
+      "longitude_sun_sunset": 211.97356333898819,
       "solar_month_day": null,
+      "solar_month_sunrise": 8,
+      "solar_month_sunset": 8,
       "tb_muhuurtas": null
     },
     {
@@ -6161,7 +7453,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458441.2708333335,
       "julian_day_start": 2458441.2708333335,
+      "longitude_sun_sunrise": 212.5003522674698,
+      "longitude_sun_sunset": 212.98207203855154,
       "solar_month_day": null,
+      "solar_month_sunrise": 8,
+      "solar_month_sunset": 8,
       "tb_muhuurtas": null
     },
     {
@@ -6180,7 +7476,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458442.2708333335,
       "julian_day_start": 2458442.2708333335,
+      "longitude_sun_sunrise": 213.5093942491019,
+      "longitude_sun_sunset": 213.99096298018455,
       "solar_month_day": null,
+      "solar_month_sunrise": 8,
+      "solar_month_sunset": 8,
       "tb_muhuurtas": null
     },
     {
@@ -6199,7 +7499,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458443.2708333335,
       "julian_day_start": 2458443.2708333335,
+      "longitude_sun_sunrise": 214.5188155537629,
+      "longitude_sun_sunset": 215.00024572038734,
       "solar_month_day": null,
+      "solar_month_sunrise": 8,
+      "solar_month_sunset": 8,
       "tb_muhuurtas": null
     },
     {
@@ -6218,7 +7522,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458444.2708333335,
       "julian_day_start": 2458444.2708333335,
+      "longitude_sun_sunrise": 215.528627173299,
+      "longitude_sun_sunset": 216.00993266491506,
       "solar_month_day": null,
+      "solar_month_sunrise": 8,
+      "solar_month_sunset": 8,
       "tb_muhuurtas": null
     },
     {
@@ -6237,7 +7545,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458445.2708333335,
       "julian_day_start": 2458445.2708333335,
+      "longitude_sun_sunrise": 216.53884188657204,
+      "longitude_sun_sunset": 217.0200360953668,
       "solar_month_day": null,
+      "solar_month_sunrise": 8,
+      "solar_month_sunset": 8,
       "tb_muhuurtas": null
     },
     {
@@ -6256,7 +7568,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458446.2708333335,
       "julian_day_start": 2458446.2708333335,
+      "longitude_sun_sunrise": 217.5494710849918,
+      "longitude_sun_sunset": 218.03056722291345,
       "solar_month_day": null,
+      "solar_month_sunrise": 8,
+      "solar_month_sunset": 8,
       "tb_muhuurtas": null
     },
     {
@@ -6275,7 +7591,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458447.2708333335,
       "julian_day_start": 2458447.2708333335,
+      "longitude_sun_sunrise": 218.56052432672666,
+      "longitude_sun_sunset": 219.04153399781694,
       "solar_month_day": null,
+      "solar_month_sunrise": 8,
+      "solar_month_sunset": 8,
       "tb_muhuurtas": null
     },
     {
@@ -6294,7 +7614,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458448.2708333335,
       "julian_day_start": 2458448.2708333335,
+      "longitude_sun_sunrise": 219.57200766377505,
+      "longitude_sun_sunset": 220.05294078693714,
       "solar_month_day": null,
+      "solar_month_sunrise": 8,
+      "solar_month_sunset": 8,
       "tb_muhuurtas": null
     },
     {
@@ -6313,7 +7637,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458449.2708333335,
       "julian_day_start": 2458449.2708333335,
+      "longitude_sun_sunrise": 220.5839231107406,
+      "longitude_sun_sunset": 221.06478878414603,
       "solar_month_day": null,
+      "solar_month_sunrise": 8,
+      "solar_month_sunset": 8,
       "tb_muhuurtas": null
     },
     {
@@ -6332,7 +7660,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458450.2708333335,
       "julian_day_start": 2458450.2708333335,
+      "longitude_sun_sunrise": 221.59627101999507,
+      "longitude_sun_sunset": 222.07707755279856,
       "solar_month_day": null,
+      "solar_month_sunrise": 8,
+      "solar_month_sunset": 8,
       "tb_muhuurtas": null
     },
     {
@@ -6351,7 +7683,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458451.2708333335,
       "julian_day_start": 2458451.2708333335,
+      "longitude_sun_sunrise": 222.60904961478735,
+      "longitude_sun_sunset": 223.0898049699506,
       "solar_month_day": null,
+      "solar_month_sunrise": 8,
+      "solar_month_sunset": 8,
       "tb_muhuurtas": null
     },
     {
@@ -6370,7 +7706,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458452.2708333335,
       "julian_day_start": 2458452.2708333335,
+      "longitude_sun_sunrise": 223.62225634101551,
+      "longitude_sun_sunset": 224.1029681937949,
       "solar_month_day": null,
+      "solar_month_sunrise": 8,
+      "solar_month_sunset": 8,
       "tb_muhuurtas": null
     },
     {
@@ -6389,7 +7729,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458453.2708333335,
       "julian_day_start": 2458453.2708333335,
+      "longitude_sun_sunrise": 224.63588681292896,
+      "longitude_sun_sunset": 225.1165618289059,
       "solar_month_day": null,
+      "solar_month_sunrise": 8,
+      "solar_month_sunset": 8,
       "tb_muhuurtas": null
     },
     {
@@ -6408,7 +7752,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458454.2708333335,
       "julian_day_start": 2458454.2708333335,
+      "longitude_sun_sunrise": 225.6499345340649,
+      "longitude_sun_sunset": 226.1305782103926,
       "solar_month_day": null,
+      "solar_month_sunrise": 8,
+      "solar_month_sunset": 8,
       "tb_muhuurtas": null
     },
     {
@@ -6427,7 +7775,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458455.2708333335,
       "julian_day_start": 2458455.2708333335,
+      "longitude_sun_sunrise": 226.66438926298517,
+      "longitude_sun_sunset": 227.14500537031995,
       "solar_month_day": null,
+      "solar_month_sunrise": 8,
+      "solar_month_sunset": 8,
       "tb_muhuurtas": null
     },
     {
@@ -6446,7 +7798,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458456.2708333335,
       "julian_day_start": 2458456.2708333335,
+      "longitude_sun_sunrise": 227.6792367476737,
+      "longitude_sun_sunset": 228.1598269538253,
       "solar_month_day": null,
+      "solar_month_sunrise": 8,
+      "solar_month_sunset": 8,
       "tb_muhuurtas": null
     },
     {
@@ -6465,7 +7821,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458457.2708333335,
       "julian_day_start": 2458457.2708333335,
+      "longitude_sun_sunrise": 228.69445805628888,
+      "longitude_sun_sunset": 229.17502225487377,
       "solar_month_day": null,
+      "solar_month_sunrise": 8,
+      "solar_month_sunset": 8,
       "tb_muhuurtas": null
     },
     {
@@ -6484,7 +7844,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458458.2708333335,
       "julian_day_start": 2458458.2708333335,
+      "longitude_sun_sunrise": 229.71003005622433,
+      "longitude_sun_sunset": 230.19056649119182,
       "solar_month_day": null,
+      "solar_month_sunrise": 8,
+      "solar_month_sunset": 8,
       "tb_muhuurtas": null
     },
     {
@@ -6503,7 +7867,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458459.2708333335,
       "julian_day_start": 2458459.2708333335,
+      "longitude_sun_sunrise": 230.72592602245172,
+      "longitude_sun_sunset": 231.2064315477479,
       "solar_month_day": null,
+      "solar_month_sunrise": 8,
+      "solar_month_sunset": 8,
       "tb_muhuurtas": null
     },
     {
@@ -6522,7 +7890,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458460.2708333335,
       "julian_day_start": 2458460.2708333335,
+      "longitude_sun_sunrise": 231.74211651755107,
+      "longitude_sun_sunset": 232.22258835467926,
       "solar_month_day": null,
+      "solar_month_sunrise": 8,
+      "solar_month_sunset": 8,
       "tb_muhuurtas": null
     },
     {
@@ -6541,7 +7913,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458461.2708333335,
       "julian_day_start": 2458461.2708333335,
+      "longitude_sun_sunrise": 232.7585723923783,
+      "longitude_sun_sunset": 233.2390074767717,
       "solar_month_day": null,
+      "solar_month_sunrise": 8,
+      "solar_month_sunset": 8,
       "tb_muhuurtas": null
     },
     {
@@ -6560,7 +7936,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458462.2708333335,
       "julian_day_start": 2458462.2708333335,
+      "longitude_sun_sunrise": 233.77526477739957,
+      "longitude_sun_sunset": 234.25566181280476,
       "solar_month_day": null,
+      "solar_month_sunrise": 8,
+      "solar_month_sunset": 8,
       "tb_muhuurtas": null
     },
     {
@@ -6579,7 +7959,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458463.2708333335,
       "julian_day_start": 2458463.2708333335,
+      "longitude_sun_sunrise": 234.7921676569619,
+      "longitude_sun_sunset": 235.27252614679458,
       "solar_month_day": null,
+      "solar_month_sunrise": 8,
+      "solar_month_sunset": 8,
       "tb_muhuurtas": null
     },
     {
@@ -6598,7 +7982,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458464.2708333335,
       "julian_day_start": 2458464.2708333335,
+      "longitude_sun_sunrise": 235.80925729663255,
+      "longitude_sun_sunset": 236.28957878536926,
       "solar_month_day": null,
+      "solar_month_sunrise": 8,
+      "solar_month_sunset": 8,
       "tb_muhuurtas": null
     },
     {
@@ -6617,7 +8005,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458465.2708333335,
       "julian_day_start": 2458465.2708333335,
+      "longitude_sun_sunrise": 236.82651306606795,
+      "longitude_sun_sunset": 237.30680051939686,
       "solar_month_day": null,
+      "solar_month_sunrise": 8,
+      "solar_month_sunset": 8,
       "tb_muhuurtas": null
     },
     {
@@ -6636,7 +8028,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458466.2708333335,
       "julian_day_start": 2458466.2708333335,
+      "longitude_sun_sunrise": 237.84391765617795,
+      "longitude_sun_sunset": 238.32417532929918,
       "solar_month_day": null,
+      "solar_month_sunrise": 8,
+      "solar_month_sunset": 8,
       "tb_muhuurtas": null
     },
     {
@@ -6655,7 +8051,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458467.2708333335,
       "julian_day_start": 2458467.2708333335,
+      "longitude_sun_sunrise": 238.8614563502082,
+      "longitude_sun_sunset": 239.34169015792207,
       "solar_month_day": null,
+      "solar_month_sunrise": 8,
+      "solar_month_sunset": 8,
       "tb_muhuurtas": null
     },
     {
@@ -6674,7 +8074,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458468.2708333335,
       "julian_day_start": 2458468.2708333335,
+      "longitude_sun_sunrise": 239.8791177850992,
+      "longitude_sun_sunset": 240.35933553170582,
       "solar_month_day": null,
+      "solar_month_sunrise": 8,
+      "solar_month_sunset": 9,
       "tb_muhuurtas": null
     },
     {
@@ -6693,7 +8097,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458469.2708333335,
       "julian_day_start": 2458469.2708333335,
+      "longitude_sun_sunrise": 240.89689410905237,
+      "longitude_sun_sunset": 241.3771052418416,
       "solar_month_day": null,
+      "solar_month_sunrise": 9,
+      "solar_month_sunset": 9,
       "tb_muhuurtas": null
     },
     {
@@ -6712,7 +8120,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458470.2708333335,
       "julian_day_start": 2458470.2708333335,
+      "longitude_sun_sunrise": 241.91478096954637,
+      "longitude_sun_sunset": 242.394996282056,
       "solar_month_day": null,
+      "solar_month_sunrise": 9,
+      "solar_month_sunset": 9,
       "tb_muhuurtas": null
     },
     {
@@ -6731,7 +8143,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458471.2708333335,
       "julian_day_start": 2458471.2708333335,
+      "longitude_sun_sunrise": 242.9327771728054,
+      "longitude_sun_sunset": 243.4130096256605,
       "solar_month_day": null,
+      "solar_month_sunrise": 9,
+      "solar_month_sunset": 9,
       "tb_muhuurtas": null
     },
     {
@@ -6750,7 +8166,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458472.2708333335,
       "julian_day_start": 2458472.2708333335,
+      "longitude_sun_sunrise": 243.9508850163391,
+      "longitude_sun_sunset": 244.43114831917904,
       "solar_month_day": null,
+      "solar_month_sunrise": 9,
+      "solar_month_sunset": 9,
       "tb_muhuurtas": null
     },
     {
@@ -6769,7 +8189,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458473.2708333335,
       "julian_day_start": 2458473.2708333335,
+      "longitude_sun_sunrise": 244.96910837057573,
+      "longitude_sun_sunset": 245.44941661251494,
       "solar_month_day": null,
+      "solar_month_sunrise": 9,
+      "solar_month_sunset": 9,
       "tb_muhuurtas": null
     },
     {
@@ -6788,7 +8212,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458474.2708333335,
       "julian_day_start": 2458474.2708333335,
+      "longitude_sun_sunrise": 245.98745166879849,
+      "longitude_sun_sunset": 246.4678188316072,
       "solar_month_day": null,
+      "solar_month_sunrise": 9,
+      "solar_month_sunset": 9,
       "tb_muhuurtas": null
     },
     {
@@ -6807,7 +8235,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458475.2708333335,
       "julian_day_start": 2458475.2708333335,
+      "longitude_sun_sunrise": 247.0059183864326,
+      "longitude_sun_sunset": 247.48635792781585,
       "solar_month_day": null,
+      "solar_month_sunrise": 9,
+      "solar_month_sunset": 9,
       "tb_muhuurtas": null
     },
     {
@@ -6826,7 +8258,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458476.2708333335,
       "julian_day_start": 2458476.2708333335,
+      "longitude_sun_sunrise": 248.02451129109846,
+      "longitude_sun_sunset": 248.50503625152868,
       "solar_month_day": null,
+      "solar_month_sunrise": 9,
+      "solar_month_sunset": 9,
       "tb_muhuurtas": null
     },
     {
@@ -6845,7 +8281,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458477.2708333335,
       "julian_day_start": 2458477.2708333335,
+      "longitude_sun_sunrise": 249.0432327229547,
+      "longitude_sun_sunset": 249.52385656914817,
       "solar_month_day": null,
+      "solar_month_sunrise": 9,
+      "solar_month_sunset": 9,
       "tb_muhuurtas": null
     },
     {
@@ -6864,7 +8304,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458478.2708333335,
       "julian_day_start": 2458478.2708333335,
+      "longitude_sun_sunrise": 250.06208563369609,
+      "longitude_sun_sunset": 250.54282221008248,
       "solar_month_day": null,
+      "solar_month_sunrise": 9,
+      "solar_month_sunset": 9,
       "tb_muhuurtas": null
     },
     {
@@ -6883,7 +8327,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458479.2708333335,
       "julian_day_start": 2458479.2708333335,
+      "longitude_sun_sunrise": 251.0810743327749,
+      "longitude_sun_sunset": 251.56193768451516,
       "solar_month_day": null,
+      "solar_month_sunrise": 9,
+      "solar_month_sunset": 9,
       "tb_muhuurtas": null
     },
     {
@@ -6902,7 +8350,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458480.2708333335,
       "julian_day_start": 2458480.2708333335,
+      "longitude_sun_sunrise": 252.10020277519834,
+      "longitude_sun_sunset": 252.58120625828525,
       "solar_month_day": null,
+      "solar_month_sunrise": 9,
+      "solar_month_sunset": 9,
       "tb_muhuurtas": null
     },
     {
@@ -6921,7 +8373,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458481.2708333335,
       "julian_day_start": 2458481.2708333335,
+      "longitude_sun_sunrise": 253.1194731712501,
+      "longitude_sun_sunset": 253.60062825398154,
       "solar_month_day": null,
+      "solar_month_sunrise": 9,
+      "solar_month_sunset": 9,
       "tb_muhuurtas": null
     },
     {
@@ -6940,7 +8396,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458482.2708333335,
       "julian_day_start": 2458482.2708333335,
+      "longitude_sun_sunrise": 254.13888310420134,
+      "longitude_sun_sunset": 254.62019879530322,
       "solar_month_day": null,
+      "solar_month_sunrise": 9,
+      "solar_month_sunset": 9,
       "tb_muhuurtas": null
     },
     {
@@ -6959,7 +8419,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458483.2708333335,
       "julian_day_start": 2458483.2708333335,
+      "longitude_sun_sunrise": 255.15842522304297,
+      "longitude_sun_sunset": 255.63990798675286,
       "solar_month_day": null,
+      "solar_month_sunrise": 9,
+      "solar_month_sunset": 9,
       "tb_muhuurtas": null
     },
     {
@@ -6978,7 +8442,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458484.2708333335,
       "julian_day_start": 2458484.2708333335,
+      "longitude_sun_sunrise": 256.17808631388647,
+      "longitude_sun_sunset": 256.6597395683282,
       "solar_month_day": null,
+      "solar_month_sunrise": 9,
+      "solar_month_sunset": 9,
       "tb_muhuurtas": null
     },
     {
@@ -6997,7 +8465,11 @@
       "jsonClass": "Panchangam",
       "julian_day": 2458485.2708333335,
       "julian_day_start": 2458485.2708333335,
+      "longitude_sun_sunrise": 257.1978477474273,
+      "longitude_sun_sunset": 257.679672629818,
       "solar_month_day": null,
+      "solar_month_sunrise": 9,
+      "solar_month_sunset": 9,
       "tb_muhuurtas": null
     },
     null
