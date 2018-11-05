@@ -108,7 +108,7 @@ class Panchangam(common.JsonObject):
 
       ## TODO: Eventually, we are shifting to an array of daily panchangas. Reason: Better modularity.
       # The below block is temporary code to make the transition seamless.
-      self.daily_panchaangas[d + 1] = daily.Panchangam.from_date(city=self.city, year=y, month=m, day=dt)
+      self.daily_panchaangas[d + 1] = daily.Panchangam(city=self.city, julian_day=jd + 1, ayanamsha_id=self.ayanamsha_id)
       self.daily_panchaangas[d + 1].compute_sun_moon_transitions()
       self.jd_sunrise[d+1] = self.daily_panchaangas[d+1].jd_sunrise
       self.jd_sunset[d+1] = self.daily_panchaangas[d+1].jd_sunset

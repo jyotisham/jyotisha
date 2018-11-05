@@ -41,9 +41,9 @@ class Panchangam(common.JsonObject):
     self.julian_day_start = self.city.local_time_to_julian_day(year=year, month=month, day=day, hours=0, minutes=0, seconds=1)
 
   @classmethod
-  def from_date(cls, city, year, month, day):
+  def from_date(cls, city, year, month, day, ayanamsha_id=swe.SIDM_LAHIRI):
     julian_day = city.local_time_to_julian_day(year=year, month=month, day=day, hours=6, minutes=1, seconds=1)
-    return Panchangam(city=city, julian_day=julian_day)
+    return Panchangam(city=city, julian_day=julian_day, ayanamsha_id=swe.SIDM_LAHIRI)
 
   def compute_sun_moon_transitions(self):
     self.jd_sunrise = swe.rise_trans(
