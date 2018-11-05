@@ -27,7 +27,7 @@ logging.basicConfig(
 CODE_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
 
 
-def writeDailyTeX(panchangam, template_file, computeLagnams=True):
+def writeDailyTeX(panchangam, template_file, compute_lagnams=True):
     """Write out the panchangam TeX using a specified template
     """
     # day_colours = {0: 'blue', 1: 'blue', 2: 'blue',
@@ -118,7 +118,7 @@ def writeDailyTeX(panchangam, template_file, computeLagnams=True):
                 rashi_data_str = '%s\\mbox{%s \\RIGHTarrow \\textsf{%s}}' % \
                                  (rashi_data_str, rashi,
                                   jyotisha.panchangam.temporal.Time(24 * (rashi_end_jd - jd)).toString(format=panchangam.fmt))
-        if computeLagnams:
+        if compute_lagnams:
             lagna_data_str = 'लग्नः–'
             for lagna_ID, lagna_end_jd in panchangam.lagna_data[d]:
                 lagna = jyotisha.panchangam.temporal.NAMES['RASHI_NAMES'][panchangam.script][lagna_ID]
@@ -195,7 +195,7 @@ def writeDailyTeX(panchangam, template_file, computeLagnams=True):
                                                             madhyahnika_sandhya, madhyahnika_sandhya_end,
                                                             madhyaahna, aparahna, sayahna,
                                                             sayamsandhya, sayamsandhya_end))
-        if computeLagnams:
+        if compute_lagnams:
             print('{\\tnykdata{%s}%%\n{%s}{%s}%%\n{%s}%%\n{%s}{\\tiny %s}\n}'
                   % (tithi_data_str, nakshatram_data_str, rashi_data_str, yogam_data_str,
                      karanam_data_str, lagna_data_str))
@@ -222,24 +222,24 @@ def main():
     [city_name, latitude, longitude, tz] = sys.argv[1:5]
     year = int(sys.argv[5])
 
-    computeLagnams = False  # Default
+    compute_lagnams = False  # Default
     script = sanscript.DEVANAGARI  # Default script is devanagari
 
     if len(sys.argv) == 8:
-        computeLagnams = True
+        compute_lagnams = True
         script = sys.argv[6]
     elif len(sys.argv) == 7:
         script = sys.argv[6]
-        computeLagnams = False
+        compute_lagnams = False
 
     city = City(city_name, latitude, longitude, tz)
 
-    panchangam = jyotisha.panchangam.spatio_temporal.annual.get_panchangam(city=city, year=year, script=script, computeLagnams=computeLagnams)
+    panchangam = jyotisha.panchangam.spatio_temporal.annual.get_panchangam(city=city, year=year, script=script, compute_lagnams=compute_lagnams)
 
     panchangam.add_details()
 
     daily_template_file = open(os.path.join(CODE_ROOT, 'panchangam/data/templates/daily_cal_template.tex'))
-    writeDailyTeX(panchangam, daily_template_file, computeLagnams)
+    writeDailyTeX(panchangam, daily_template_file, compute_lagnams)
     # panchangam.writeDebugLog()
 
 

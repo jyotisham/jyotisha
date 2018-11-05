@@ -46,7 +46,7 @@ class Panchangam(common.JsonObject):
     swe.set_sid_mode(ayanamsha_id)
     self.add_details(compute_lagnams=compute_lagnams)
 
-  def compute_angams(self, computeLagnams=True):
+  def compute_angams(self, compute_lagnams=True):
     """Compute the entire panchangam
     """
 
@@ -242,7 +242,7 @@ class Panchangam(common.JsonObject):
       self.rashi_data[d] = jyotisha.panchangam.temporal.get_angam_data(self.jd_sunrise[d], self.jd_sunrise[d + 1],
                                                                        jyotisha.panchangam.temporal.RASHI,
                                                                        ayanamsha_id=self.ayanamsha_id)
-      if computeLagnams:
+      if compute_lagnams:
         self.lagna_data[d] = get_lagna_data(self.jd_sunrise[d], self.city.latitude,
                                             self.city.longitude, tz_off, ayanamsha_id=self.ayanamsha_id)
 
@@ -1422,7 +1422,7 @@ class Panchangam(common.JsonObject):
     self.assign_relative_festivals()
 
   def add_details(self, compute_lagnams):
-    self.compute_angams(computeLagnams=compute_lagnams)
+    self.compute_angams(compute_lagnams=compute_lagnams)
     self.assignLunarMonths()
     self.update_festival_details()
     self.compute_solar_eclipses()
@@ -1435,11 +1435,11 @@ common.update_json_class_index(sys.modules[__name__])
 logging.debug(common.json_class_index)
 
 
-def get_panchangam(city, year, script, computeLagnams=False, precomputed_json_dir="~/Documents"):
+def get_panchangam(city, year, script, compute_lagnams=False, precomputed_json_dir="~/Documents"):
   fname_det = os.path.expanduser('%s/%s-%s-detailed.json' % (precomputed_json_dir, city.name, year))
   fname = os.path.expanduser('%s/%s-%s.json' % (precomputed_json_dir, city.name, year))
 
-  if os.path.isfile(fname) and not computeLagnams:
+  if os.path.isfile(fname) and not compute_lagnams:
     sys.stderr.write('Loaded pre-computed panchangam from %s.\n' % fname)
     return JsonObject.read_from_file(filename=fname)
   elif os.path.isfile(fname_det):
@@ -1449,13 +1449,13 @@ def get_panchangam(city, year, script, computeLagnams=False, precomputed_json_di
   else:
     sys.stderr.write('No precomputed data available. Computing panchangam... ')
     sys.stderr.flush()
-    panchangam = Panchangam(city=city, year=year, script=script, compute_lagnams=computeLagnams)
+    panchangam = Panchangam(city=city, year=year, script=script, compute_lagnams=compute_lagnams)
     # Festival data may be updated more frequently and a precomputed panchangam may go out of sync. Hence we keep this method separate.
     panchangam.update_festival_details()
     sys.stderr.write('done.\n')
     sys.stderr.write('Writing computed panchangam to %s...' % fname)
     try:
-      if computeLagnams:
+      if compute_lagnams:
         panchangam.dump_to_file(filename=fname_det)
       else:
         panchangam.dump_to_file(filename=fname)
