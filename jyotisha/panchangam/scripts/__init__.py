@@ -31,6 +31,7 @@ def get_panchangam(city, year, script, computeLagnams=False):
     panchangam = Panchangam(city=city, year=year, script=script)
     panchangam.compute_angams(computeLagnams=computeLagnams)
     panchangam.assignLunarMonths()
+    panchangam.add_details()
     sys.stderr.write('done.\n')
     sys.stderr.write('Writing computed panchangam to %s...' % fname)
     try:

@@ -258,7 +258,6 @@ def main():
     city = City(city_name, latitude, longitude, tz)
 
     panchangam = scripts.get_panchangam(city=city, year=year, script=script)
-    panchangam.add_details()
 
     ics_calendar = compute_calendar(panchangam)
     write_to_file(ics_calendar, '%s-%d-%s.ics' % (city_name, year, script))

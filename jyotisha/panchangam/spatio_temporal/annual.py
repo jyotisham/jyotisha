@@ -41,7 +41,7 @@ class Panchangam(common.JsonObject):
 
   def compute_angams(self, computeLagnams=True):
     """Compute the entire panchangam
-        """
+    """
 
     # INITIALISE VARIABLES
     self.jd_sunrise = [None] * jyotisha.panchangam.temporal.MAX_SZ
