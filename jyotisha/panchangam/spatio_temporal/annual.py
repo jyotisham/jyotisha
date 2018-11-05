@@ -1416,11 +1416,19 @@ class Panchangam(common.JsonObject):
                                       self.solar_month[d], self.lunar_month[d])
       log_file.write(log_data)
 
+  def update_festival_details(self):
+    """
+    
+    Festival data may be updated more frequently and a precomputed panchangam may go out of sync. Hence we keep this method separate.
+    :return: 
+    """
+    self.compute_festivals()
+    self.assign_relative_festivals()
+
   def add_details(self, compute_lagnams):
     self.compute_angams(computeLagnams=compute_lagnams)
     self.assignLunarMonths()
-    self.compute_festivals()
-    self.assign_relative_festivals()
+    self.update_festival_details()
     self.compute_solar_eclipses()
     self.compute_lunar_eclipses()
     self.computeTransits()
@@ -1446,6 +1454,8 @@ def get_panchangam(city, year, script, computeLagnams=False, precomputed_json_di
     sys.stderr.write('No precomputed data available. Computing panchangam... ')
     sys.stderr.flush()
     panchangam = Panchangam(city=city, year=year, script=script, compute_lagnams=computeLagnams)
+    # Festival data may be updated more frequently and a precomputed panchangam may go out of sync. Hence we keep this method separate.
+    panchangam.update_festival_details()
     sys.stderr.write('done.\n')
     sys.stderr.write('Writing computed panchangam to %s...' % fname)
     try:
