@@ -73,7 +73,7 @@ class Panchangam(common.JsonObject):
 
     self.weekday = [None] * jyotisha.panchangam.temporal.MAX_SZ
     self.kaalas = [dict() for _x in range(jyotisha.panchangam.temporal.MAX_SZ)]
-    self.daily_panchaangas = [None] * jyotisha.panchangam.temporal.MAX_SZ
+    daily_panchaangas = [None] * jyotisha.panchangam.temporal.MAX_SZ
 
     self.fest_days = {}
     self.festivals = [[] for _x in range(jyotisha.panchangam.temporal.MAX_SZ)]
@@ -115,16 +115,16 @@ class Panchangam(common.JsonObject):
 
       ## TODO: Eventually, we are shifting to an array of daily panchangas. Reason: Better modularity.
       # The below block is temporary code to make the transition seamless.
-      self.daily_panchaangas[d + 1] = daily.Panchangam(city=self.city, julian_day=jd + 1, ayanamsha_id=self.ayanamsha_id)
-      self.daily_panchaangas[d + 1].compute_sun_moon_transitions()
-      self.daily_panchaangas[d + 1].compute_solar_month()
-      self.jd_sunrise[d+1] = self.daily_panchaangas[d+1].jd_sunrise
-      self.jd_sunset[d+1] = self.daily_panchaangas[d+1].jd_sunset
-      self.jd_moonrise[d+1] = self.daily_panchaangas[d+1].jd_moonrise
-      self.jd_moonset[d+1] = self.daily_panchaangas[d+1].jd_moonset
-      self.solar_month[d + 1] = self.daily_panchaangas[d+1].solar_month_sunset
+      daily_panchaangas[d + 1] = daily.Panchangam(city=self.city, julian_day=jd + 1, ayanamsha_id=self.ayanamsha_id)
+      daily_panchaangas[d + 1].compute_sun_moon_transitions()
+      daily_panchaangas[d + 1].compute_solar_month()
+      self.jd_sunrise[d+1] = daily_panchaangas[d+1].jd_sunrise
+      self.jd_sunset[d+1] = daily_panchaangas[d+1].jd_sunset
+      self.jd_moonrise[d+1] = daily_panchaangas[d+1].jd_moonrise
+      self.jd_moonset[d+1] = daily_panchaangas[d+1].jd_moonset
+      self.solar_month[d + 1] = daily_panchaangas[d+1].solar_month_sunset
 
-      solar_month_sunrise[d + 1] = self.daily_panchaangas[d+1].solar_month_sunrise
+      solar_month_sunrise[d + 1] = daily_panchaangas[d+1].solar_month_sunrise
 
       if (d <= 0):
         continue

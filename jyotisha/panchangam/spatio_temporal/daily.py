@@ -8,6 +8,7 @@ from math import floor
 
 from scipy.optimize import brentq
 
+import jyotisha
 from jyotisha.panchangam.spatio_temporal import City
 from jyotisha.panchangam.temporal import SOLAR_MONTH, get_angam, get_angam_float
 from sanskrit_data.schema import common
@@ -36,6 +37,7 @@ class Panchangam(common.JsonObject):
     self.jd_moonset = None
     self.tb_muhuurtas = None
     self.solar_month_day = None
+    self.solar_month_end_jd = None
 
   def compute_jd_start(self):
     (year, month, day, hours, minutes, seconds) = self.city.julian_day_to_local_time(self.julian_day)
@@ -72,6 +74,8 @@ class Panchangam(common.JsonObject):
       rsmi=swe.CALC_SET | swe.BIT_DISC_CENTER)[1][0]
 
   def compute_solar_month(self):
+    if not hasattr(self, "jd_sunrise") or self.jd_sunrise is None:
+      self.compute_sun_moon_transitions()
     swe.set_sid_mode(self.ayanamsha_id)
     self.longitude_sun_sunrise = swe.calc_ut(self.jd_sunrise, swe.SUN)[0] - swe.get_ayanamsa(self.jd_sunrise)
     self.longitude_sun_sunset = swe.calc_ut(self.jd_sunset, swe.SUN)[0] - swe.get_ayanamsa(self.jd_sunset)
@@ -79,9 +83,12 @@ class Panchangam(common.JsonObject):
     # Each solar month has 30 days. So, divide the longitude by 30 to get the solar month.
     self.solar_month_sunset = int(1 + floor((self.longitude_sun_sunset % 360) / 30.0))
     self.solar_month_sunrise = int(1 + floor(((self.longitude_sun_sunrise) % 360) / 30.0))
-      
-    # If solar transition happens before the current sunset but after the previous sunset, then that is taken to be solar day 1.
-    
+    # if self.solar_month_sunset != self.solar_month_sunrise:
+    #   # sankrAnti.
+    #   [_m, self.solar_month_end_jd] = jyotisha.panchangam.temporal.get_angam_data(
+    #     self.jd_sunrise[d], self.jd_sunrise[d + 1], jyotisha.panchangam.temporal.SOLAR_MONTH,
+    #     ayanamsha_id=self.ayanamsha_id)[0]
+
 
   def compute_tb_muhuurtas(self):
     """ Computes muhuurta-s according to taittiriiya brAhmaNa.
@@ -102,6 +109,7 @@ class Panchangam(common.JsonObject):
   def compute_solar_day(self):
     """Compute the solar month and day for a given Julian day
     """
+    # If solar transition happens before the current sunset but after the previous sunset, then that is taken to be solar day 1. Number of sunsets since the past solar month transition gives the solar day number.
     if not hasattr(self, "jd_sunrise") or self.jd_sunrise is None:
       self.compute_sun_moon_transitions()
     self.solar_month = get_angam(self.jd_sunset, SOLAR_MONTH, ayanamsha_id=self.ayanamsha_id)
