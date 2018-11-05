@@ -12,6 +12,7 @@ from pytz import timezone as tz
 
 import jyotisha
 import jyotisha.custom_transliteration
+import jyotisha.panchangam.spatio_temporal.annual
 import jyotisha.panchangam.temporal
 from jyotisha.panchangam import scripts
 from jyotisha.panchangam.spatio_temporal import City
@@ -258,7 +259,7 @@ def main():
     logging.debug(script)
 
     city = City(city_name, latitude, longitude, tz)
-    panchangam = scripts.get_panchangam(city=city, year=year, script=script)
+    panchangam = jyotisha.panchangam.spatio_temporal.annual.get_panchangam(city=city, year=year, script=script)
 
     monthly_template_file = open(os.path.join(CODE_ROOT, 'panchangam/data/templates/monthly_cal_template.tex'))
     writeMonthlyTeX(panchangam, monthly_template_file)

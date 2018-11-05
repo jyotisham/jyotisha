@@ -13,6 +13,7 @@ from pytz import timezone as tz
 
 import jyotisha
 import jyotisha.custom_transliteration
+import jyotisha.panchangam.spatio_temporal.annual
 import jyotisha.panchangam.temporal
 from jyotisha.panchangam import scripts
 from jyotisha.panchangam.spatio_temporal import City
@@ -233,7 +234,7 @@ def main():
 
     city = City(city_name, latitude, longitude, tz)
 
-    panchangam = scripts.get_panchangam(city=city, year=year, script=script, computeLagnams=computeLagnams)
+    panchangam = jyotisha.panchangam.spatio_temporal.annual.get_panchangam(city=city, year=year, script=script, computeLagnams=computeLagnams)
 
     panchangam.add_details()
 

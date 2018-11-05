@@ -7003,379 +7003,4036 @@
     null
   ],
   "fest_days": {
+    "(bhAdrapada) mahAlaya amAvasyA": [
+      281
+    ],
+    "(yama)-dIpa-trayOdazI": [
+      309
+    ],
+    "64 yOginI-pUjA": [
+      252
+    ],
+    "ASADha (kaTaka) amAvasyA": [
+      223
+    ],
+    "ASADha-pUrNimA-snAnam": [
+      208
+    ],
+    "ASADha-snAnapUrtiH": [
+      223
+    ],
+    "Adi-zaGkara mAnasika-sannyAsa-dinam": [
+      323
+    ],
+    "AgrayaNa~hOmaH~1": [
+      297
+    ],
+    "AgrayaNa~hOmaH~2": [
+      311
+    ],
+    "AgrayaNa~hOmaH~3": [
+      327
+    ],
+    "AgrayaNa~hOmaH~4": [
+      341
+    ],
+    "AndOlana~tRtIyA": [
+      78
+    ],
+    "AraNya-gaurI-vratam": [
+      170
+    ],
+    "AzA~dazamI": [
+      203
+    ],
+    "Azvayuja-amAvasyA": [
+      311
+    ],
+    "RSi-paJcamI-vratam": [
+      257
+    ],
+    "RgvEda-upAkarma": [
+      237
+    ],
+    "SaDazIti-dhanurraviH": [
+      350
+    ],
+    "SaDazIti-kanyAraviH": [
+      260
+    ],
+    "SaDazIti-mInaraviH": [
+      74
+    ],
+    "SaDazIti-mithunaraviH": [
+      166
+    ],
+    "SaSThI-vratam": [
+      23,
+      52,
+      82,
+      111,
+      140,
+      169,
+      228,
+      287
+    ],
+    "SaSThIdEvI-SaSThI-vratam": [
+      258
+    ],
+    "aSTanAga-pUjA": [
+      210
+    ],
+    "aduHkhanavamI": [
+      261
+    ],
+    "aghOra-caturdazI": [
+      251
+    ],
+    "agninakSatra-ArambhaH": [
+      125
+    ],
+    "agninakSatra-samApanam": [
+      149
+    ],
+    "agrasEna~mahArAja~jayantI": [
+      283
+    ],
+    "aindrI-durgA-pujA": [
+      202
+    ],
+    "akSayA~navamI": [
+      321
+    ],
+    "akSaya-tRtIyA": [
+      108
+    ],
+    "alarmElmaGgApurE plavOtsava-ArambhaH": [
+      175
+    ],
+    "alarmElmaGgApurE plavOtsavaH~2": [
+      176
+    ],
+    "alarmElmaGgApurE plavOtsavaH~3": [
+      177
+    ],
+    "alarmElmaGgApurE plavOtsavaH~4": [
+      178
+    ],
+    "alarmElmaGgApurE plavOtsava~samApanam": [
+      179
+    ],
+    "amRtalakSmI-vratam": [
+      195
+    ],
+    "amuktAbharaNa-saptamI": [
+      259
+    ],
+    "anaGga-trayOdazI": [
+      236
+    ],
+    "ananta-caturdazI": [
+      266
+    ],
+    "ananta-dvAdazI": [
+      264
+    ],
+    "ananta-padmanAbha-vratam": [
+      266
+    ],
+    "anantaphala-saptamI": [
+      259
+    ],
+    "andhakAsura-vadhaH": [
+      1,
+      356
+    ],
+    "annamAcArya~jayantI": [
+      120
+    ],
+    "annapUrNA~jayantI": [
+      356
+    ],
+    "aravinda~jayantI": [
+      247
+    ],
+    "arundhatI-vrata-ArambhaH": [
+      78
+    ],
+    "avyaGga-saptamI": [
+      229
+    ],
+    "azOkASTamI": [
+      84
+    ],
+    "azOkASTamI-vrata-ArambhaH": [
+      275
+    ],
+    "azUnyazayana-vratam~1": [
+      210
+    ],
+    "azUnyazayana-vratam~2": [
+      240
+    ],
+    "azUnyazayana-vratam~3": [
+      269
+    ],
+    "azUnyazayana-vratam~4": [
+      299
+    ],
+    "azvazirO-dEva-pUjA": [
+      282
+    ],
+    "bRhatI-vRkSaka-pUjA": [
+      240
+    ],
+    "bRndAvana-dvAdazI": [
+      324
+    ],
+    "badarI jyOtirmaTha-pratiSThApana~jayantI~\\#{2503}": [
+      2
+    ],
+    "badarI-gaurI-vratam": [
+      345
+    ],
+    "bagalAmukhI~jayantI": [
+      113
+    ],
+    "bahulA~caturthI": [
+      242
+    ],
+    "bahula-paJcamI": [
+      6
+    ],
+    "balarAma~jayantI": [
+      108
+    ],
+    "bhAnusaptamI": [
+      245
+    ],
+    "bhArgava-rAma-pUjA": [
+      106
+    ],
+    "bhISmASTamI": [
+      25
+    ],
+    "bhISma-dvAdazI": [
+      28
+    ],
+    "bhISma~jayantI": [
+      10
+    ],
+    "bhImasEna~jayantI": [
+      306
+    ],
+    "bhIma~caNDI~jayantI": [
+      240
+    ],
+    "bhOgazAyI-pUjA": [
+      194
+    ],
+    "bhadra-catuSTaya-vratam": [
+      165
+    ],
+    "bhadrakALI-pUjA": [
+      290
+    ],
+    "bhadrakALI-vratam": [
+      291
+    ],
+    "bhadrakALI~jayantI": [
+      131
+    ],
+    "bhaumAzvinI-puNyakAlaH": [
+      79,
+      352
+    ],
+    "bhavAnyutpattiH": [
+      84
+    ],
+    "bhrAtRprApti-vrata-ArambhaH": [
+      87
+    ],
+    "bhuvanEzvarI~jayantI": [
+      264
+    ],
+    "brahmANI-pUjA": [
+      172
+    ],
+    "brahma-kalpAdi": [
+      63
+    ],
+    "buddha~jayantI": [
+      291
+    ],
+    "budhASTamI": [
+      171,
+      290
+    ],
+    "budhAnUrAdhA-puNyakAlaH": [
+      122
+    ],
+    "cAmuNDEzvarI~jayantI": [
+      216
+    ],
+    "cAturmAsyavrata-ArambhaH": [
+      203
+    ],
+    "cAturmAsyavrata-samApanam": [
+      327
+    ],
+    "caNDikA-pUjA": [
+      247
+    ],
+    "caitanya-mahAprabhu~jayantI~\\#{533}": [
+      60
+    ],
+    "caitra-amAvasyA": [
+      105
+    ],
+    "caitra-pUrNimA": [
+      90
+    ],
+    "candrOdaya-gaurI-vratam": [
+      299
+    ],
+    "candra-SaSThI": [
+      273
+    ],
+    "chatrapati-zivAjI~jayantI~\\#{389}": [
+      63
+    ],
+    "chatrapati~zivAjI~rAjyAbhiSEkaH": [
+      176
+    ],
+    "chinnamastA~jayantI": [
+      120
+    ],
+    "cidambarE bhikSATana svarNarathaH": [
+      169
+    ],
+    "cidambarE dhvajArOhaNam/paJcamUrti rathOtsavaH": [
+      162
+    ],
+    "cidambarE kailAsa vAhanam": [
+      168
+    ],
+    "cidambarE muttuppallakku": [
+      172
+    ],
+    "cidambarE naTarAjasya rAjasabhAyAM mahAbhiSEkaH": [
+      171
+    ],
+    "cidambarE rajata RSabha vAhanam": [
+      166
+    ],
+    "cidambarE rajata bhUta vAhanam": [
+      165
+    ],
+    "cidambarE rajata candraprabha vAhanam": [
+      163
+    ],
+    "cidambarE rajata-gajavAhanam": [
+      167
+    ],
+    "cidambarE rathOtsavaH": [
+      170
+    ],
+    "cidambarE svarNa-sUryaprabha vAhanam": [
+      164
+    ],
+    "citragupta-vratam": [
+      90
+    ],
+    "dAmOdara-dvAdazI": [
+      235
+    ],
+    "dEvasEnA~paJcamI": [
+      316
+    ],
+    "dEvatA-suvAsinI-pUjA": [
+      285
+    ],
+    "dIpAvalI/lakSmI-kubEra-pUjA": [
+      311
+    ],
+    "dIpOtsava-caturdazI/yama-tarpaNam": [
+      310
+    ],
+    "dIpa-pUjA": [
+      223
+    ],
+    "dUrvA-gaNapati-vratam": [
+      226
+    ],
+    "dUrvASTamI": [
+      260
+    ],
+    "dUrva-tri-vratam": [
+      265
+    ],
+    "dadhIci~maharSi~jayanti": [
+      260
+    ],
+    "dadhi-vrata-ArambhaH": [
+      235
+    ],
+    "dadhi-vrata-samApanam": [
+      264
+    ],
+    "dadhi-vratam (mahAlakSmI)": [
+      203
+    ],
+    "dakSiNAyana-puNyakAlaH": [
+      198
+    ],
+    "damanakArOpaNa-dvAdazI": [
+      87
+    ],
+    "damanaka-cOrI-utsavaH": [
+      88
+    ],
+    "damanaka-caturdazI": [
+      89
+    ],
+    "dattAtrEya~jayantI": [
+      356
+    ],
+    "dauhitra-pratipat": [
+      283
+    ],
+    "dazAvatAra-vratam": [
+      262
+    ],
+    "dazaharA": [
+      292
+    ],
+    "dazaharA/gaGgAvataraNam/dazapApaharA~dazamI": [
+      173
+    ],
+    "dhUmAvatI~jayantI": [
+      171
+    ],
+    "dhana-trayOdazI": [
+      309
+    ],
+    "dhanvantari~jayantI": [
+      309
+    ],
+    "dikpAla-pUjA~1": [
+      268
+    ],
+    "dikpAla-pUjA~2": [
+      272
+    ],
+    "durgA-pUjA": [
+      292
+    ],
+    "durgA-vrata-ArambhaH": [
+      230
+    ],
+    "durgA/gaurI-pUjA": [
+      276
+    ],
+    "durgASTamI": [
+      290
+    ],
+    "durgandha-daurbhAgya-nAzaka-trayOdazI": [
+      176
+    ],
+    "dvAdaza-saptamI": [
+      229
+    ],
+    "dvAparayugAdi": [
+      44
+    ],
+    "dvArakA-maTha-pratiSThApana~jayantI~\\#{2508}": [
+      24
+    ],
+    "dvidala-vrata-ArambhaH": [
+      294
+    ],
+    "dvidala-vrata-samApanam": [
+      324
+    ],
+    "eruvaka-pUrNimA": [
+      179
+    ],
+    "gAyatrI-japaH": [
+      239
+    ],
+    "gAyatrI~jayantI": [
+      238
+    ],
+    "gItA~jayantI": [
+      353
+    ],
+    "gO-trirAtri-vratam~1": [
+      265
+    ],
+    "gO-trirAtri-vratam~2": [
+      309
+    ],
+    "gOdhUmA~navamI": [
+      261
+    ],
+    "gOpASTamI": [
+      319
+    ],
+    "gOpadma-vrata-ArambhaH": [
+      204
+    ],
+    "gOpadma-vrata-samapanam": [
+      324
+    ],
+    "gOvardhana-pUjA": [
+      312
+    ],
+    "gOvatsa-dvAdazI": [
+      308
+    ],
+    "gRhadEvI-pUjA": [
+      283
+    ],
+    "gaGgA-saptamI": [
+      112
+    ],
+    "gaGgA-snAnam": [
+      105
+    ],
+    "gaGgAvataraNam": [
+      292
+    ],
+    "gajEndra-mOkSaH~1": [
+      90
+    ],
+    "gajEndra-mOkSaH~2": [
+      233,
+      260
+    ],
+    "gajacchAyA-yOgaH-\\textsf{13:33}{\\RIGHTarrow}\\textsf{09:16(+1)}": [
+      281
+    ],
+    "gajacchAyA-yOgaH-\\textsf{16:40}{\\RIGHTarrow}\\textsf{17:10}": [
+      279
+    ],
+    "garuDa-paJcamI": [
+      227
+    ],
+    "gaurI-vratam": [
+      271
+    ],
+    "gaurI~tRtIyA/saubhAgya-gaurI-vratam": [
+      79
+    ],
+    "gavAmayana-dvAdazI": [
+      175
+    ],
+    "ghOTaka-paJcamI": [
+      302
+    ],
+    "girijA-kalyANam": [
+      117
+    ],
+    "guru-pUrNimA/vyAsa-pUjA": [
+      208
+    ],
+    "hOli": [
+      61
+    ],
+    "hOlikA-pUrNimA": [
+      60
+    ],
+    "hala-SaSThI": [
+      244
+    ],
+    "haritAlikA-vratam": [
+      255
+    ],
+    "hariyAlI~tRtIyA": [
+      225
+    ],
+    "haya-pUjA": [
+      81
+    ],
+    "hayagrIva~jayantI": [
+      238
+    ],
+    "indra-pUjA/gO-pUjA": [
+      15
+    ],
+    "jImUtavAhana-pUjA~1": [
+      275
+    ],
+    "jImUtavAhana-pUjA~2": [
+      305
+    ],
+    "jIvaputrikASTamI": [
+      305
+    ],
+    "jagaddhAtrI-pUjA": [
+      321
+    ],
+    "jagannAtha-ratha-yAtrA": [
+      195
+    ],
+    "jayAvApti-vratam": [
+      298
+    ],
+    "jayA~mahAdvAdazI": [
+      58,
+      250
+    ],
+    "jhUlElAla~jayantI": [
+      78
+    ],
+    "jyESThASTamI": [
+      171
+    ],
+    "jyaiSTha-(Adhika)-amAvasyA": [
+      164
+    ],
+    "jyaiSTha-amAvasyA": [
+      193
+    ],
+    "kAJcI 10 jagadguru zrI~surEzvarEndra sarasvatI ArAdhanA~\\#{1892}": [
+      208
+    ],
+    "kAJcI 11 jagadguru zrI~zivAnanda cidghanEndra sarasvatI ArAdhanA~\\#{1846}": [
+      27
+    ],
+    "kAJcI 12 jagadguru zrI~candrazEkharEndra sarasvatI ArAdhanA~\\#{1784}": [
+      201
+    ],
+    "kAJcI 13 jagadguru zrI~saccidghanEndra sarasvatI ArAdhanA~\\#{1747}": [
+      357
+    ],
+    "kAJcI 15 jagadguru zrI~gaGgAdharEndra sarasvatI ArAdhanA~\\#{1690}": [
+      77
+    ],
+    "kAJcI 16 jagadguru zrI~ujjvala zaGkarEndra sarasvatI ArAdhanA~\\#{1652}": [
+      142
+    ],
+    "kAJcI 17 jagadguru zrI~sadAzivEndra sarasvatI ArAdhanA~\\#{1644}": [
+      173
+    ],
+    "kAJcI 18 jagadguru zrI~yOgatilaka surEndra sarasvatI ArAdhanA~\\#{1634}": [
+      342
+    ],
+    "kAJcI 19 jagadguru zrI~mArtANDa vidyAghanEndra sarasvatI ArAdhanA~\\#{1621}": [
+      290
+    ],
+    "kAJcI 2 jagadguru zrI~surEzvarAcArya ArAdhanA~\\#{2424}": [
+      175
+    ],
+    "kAJcI 20 jagadguru zrI~mUkazaGkarEndra sarasvatI ArAdhanA~\\#{1582}": [
+      238
+    ],
+    "kAJcI 21 jagadguru zrI~candrazEkharEndra sarasvatI 2 ArAdhanA~\\#{1572}": [
+      246
+    ],
+    "kAJcI 22 jagadguru zrI~paripUrNabOdhEndra sarasvatI ArAdhanA~\\#{1538}": [
+      320
+    ],
+    "kAJcI 23 jagadguru zrI~saccitsukhEndra sarasvatI ArAdhanA~\\#{1507}": [
+      141
+    ],
+    "kAJcI 24 jagadguru zrI~citsukhEndra sarasvatI ArAdhanA~\\#{1492}": [
+      247
+    ],
+    "kAJcI 25 jagadguru zrI~saccidAnandaghanEndra sarasvatI ArAdhanA~\\#{1471}": [
+      194
+    ],
+    "kAJcI 26 jagadguru zrI~prajJAghanEndra sarasvatI ArAdhanA~\\#{1455}": [
+      113
+    ],
+    "kAJcI 27 jagadguru zrI~cidvilAsEndra sarasvatI ArAdhanA~\\#{1442}": [
+      77
+    ],
+    "kAJcI 28 jagadguru zrI~mahAdEvEndra sarasvatI 1 ArAdhanA~\\#{1418}": [
+      336
+    ],
+    "kAJcI 29 jagadguru zrI~pUrNabOdhEndra sarasvatI ArAdhanA~\\#{1401}": [
+      233
+    ],
+    "kAJcI 3 jagadguru zrI~sarvajJAtmanEndra sarasvatI ArAdhanA~\\#{2382}": [
+      134
+    ],
+    "kAJcI 30 jagadguru zrI~bOdhEndra sarasvatI 2 ArAdhanA~\\#{1364}": [
+      123
+    ],
+    "kAJcI 31 jagadguru zrI~brahmAnandaghanEndra sarasvatI ArAdhanA~\\#{1351}": [
+      205
+    ],
+    "kAJcI 32 jagadguru zrI~cidAnandaghanEndra sarasvatI ArAdhanA~\\#{1347}": [
+      347
+    ],
+    "kAJcI 33 jagadguru zrI~saccidAnandaghanEndra sarasvatI 2 ArAdhanA~\\#{1327}": [
+      273
+    ],
+    "kAJcI 35 jagadguru zrI~citsukhEndra sarasvatI ArAdhanA~\\#{1282}": [
+      199
+    ],
+    "kAJcI 36 jagadguru zrI~citsukhAnandEndra sarasvatI ArAdhanA~\\#{1261}": [
+      297
+    ],
+    "kAJcI 37 jagadguru zrI~vidyAghanEndra sarasvatI 3 ArAdhanA~\\#{1230}": [
+      3
+    ],
+    "kAJcI 38 jagadguru zrI~abhinavazaGkarEndra sarasvatI ArAdhanA~\\#{1179}": [
+      223
+    ],
+    "kAJcI 39 jagadguru zrI~saccidvilAsEndra sarasvatI ArAdhanA~\\#{1146}": [
+      118
+    ],
+    "kAJcI 4 jagadguru zrI~satyabOdhEndra sarasvatI ArAdhanA~\\#{2286}": [
+      363
+    ],
+    "kAJcI 40 jagadguru zrI~mahAdEvEndra sarasvatI 2 ArAdhanA~\\#{1104}": [
+      111
+    ],
+    "kAJcI 41 jagadguru zrI~gaGgAdharEndra sarasvatI 2 ArAdhanA~\\#{1069}": [
+      224
+    ],
+    "kAJcI 42 jagadguru zrI~brahmAnandaghanEndra sarasvatI 2 ArAdhanA~\\#{1041}": [
+      334
+    ],
+    "kAJcI 43 jagadguru zrI~AnandaghanEndra sarasvatI ArAdhanA~\\#{1005}": [
+      84
+    ],
+    "kAJcI 44 jagadguru zrI~pUrNabOdhEndra sarasvatI 2 ArAdhanA~\\#{979}": [
+      280
+    ],
+    "kAJcI 45 jagadguru zrI~paramazivEndra sarasvatI 1 ArAdhanA~\\#{958}": [
+      288
+    ],
+    "kAJcI 46 jagadguru zrI~sAndrAnandabOdhEndra sarasvatI ArAdhanA~\\#{921}": [
+      223
+    ],
+    "kAJcI 47 jagadguru zrI~candrazEkharEndra sarasvatI 4 ArAdhanA~\\#{853}": [
+      105
+    ],
+    "kAJcI 48 jagadguru zrI~advaitAnandabOdhEndra sarasvatI ArAdhanA~\\#{819}": [
+      203
+    ],
+    "kAJcI 49 jagadguru zrI~mahAdEvEndra sarasvatI 3 ArAdhanA~\\#{772}": [
+      334
+    ],
+    "kAJcI 5 jagadguru zrI~jJAnAnandEndra sarasvatI ArAdhanA~\\#{2223}": [
+      348
+    ],
+    "kAJcI 50 jagadguru zrI~candracUDEndra sarasvatI 1 ArAdhanA~\\#{722}": [
+      169
+    ],
+    "kAJcI 51 jagadguru zrI~vidyAtIrthEndra sarasvatI ArAdhanA~\\#{633}": [
+      32
+    ],
+    "kAJcI 52 jagadguru zrI~zaGkarAnandEndra sarasvatI ArAdhanA~\\#{602}": [
+      77
+    ],
+    "kAJcI 53 jagadguru zrI~pUrNAnanda sadAzivEndra sarasvatI ArAdhanA~\\#{521}": [
+      173
+    ],
+    "kAJcI 54 jagadguru zrI~vyAsAcala mahAdEvEndra sarasvatI ArAdhanA~\\#{512}": [
+      209
+    ],
+    "kAJcI 56 jagadguru zrI~sarvajJa sadAziva bOdhEndra sarasvatI ArAdhanA~\\#{480}": [
+      98
+    ],
+    "kAJcI 57 jagadguru zrI~paramazivEndra sarasvatI 2 ArAdhanA~\\#{433}": [
+      232
+    ],
+    "kAJcI 58 jagadguru zrI~AtmabOdhEndra sarasvatI ArAdhanA~\\#{381}": [
+      304
+    ],
+    "kAJcI 59 jagadguru zrI~bhagavannAma bOdhEndra sarasvatI ArAdhanA~\\#{327}": [
+      267
+    ],
+    "kAJcI 6 jagadguru zrI~zuddhAnandEndra sarasvatI ArAdhanA~\\#{2142}": [
+      169
+    ],
+    "kAJcI 60 jagadguru zrI~advaitAtmaprakAzEndra sarasvatI ArAdhanA~\\#{315}": [
+      78
+    ],
+    "kAJcI 61 jagadguru zrI~mahAdEvEndra sarasvatI 4 ArAdhanA~\\#{273}": [
+      172
+    ],
+    "kAJcI 62 jagadguru zrI~candrazEkharEndra sarasvatI 5 ArAdhanA~\\#{235}": [
+      3
+    ],
+    "kAJcI 63 jagadguru zrI~mahAdEvEndra sarasvatI 5 ArAdhanA~\\#{205}": [
+      205
+    ],
+    "kAJcI 64 jagadguru zrI~candrazEkharEndra sarasvatI 6 ArAdhanA~\\#{168}": [
+      327
+    ],
+    "kAJcI 65 jagadguru zrI~sudarzana mahAdEvEndra sarasvatI ArAdhanA~\\#{128}": [
+      76
+    ],
+    "kAJcI 66 jagadguru zrI~candrazEkharEndra sarasvatI 7 ArAdhanA~\\#{111}": [
+      38
+    ],
+    "kAJcI 67 jagadguru zrI~mahAdEvEndra sarasvatI 5 ArAdhanA~\\#{111}": [
+      47
+    ],
+    "kAJcI 68 jagadguru zrI~candrazEkharEndra sarasvatI ArAdhanA~\\#{25}": [
+      367
+    ],
+    "kAJcI 69 jagadguru zrI~jayEndra sarasvatI ArAdhanA~\\#{0}": [
+      59
+    ],
+    "kAJcI 7 jagadguru zrI~AnandajJAnEndra sarasvatI ArAdhanA~\\#{2073}": [
+      129
+    ],
+    "kAJcI 8 jagadguru zrI~kaivalyAnandayOgEndra sarasvatI ArAdhanA~\\#{1989}": [
+      1
+    ],
+    "kAJcI 9 jagadguru zrI~kRpAzaGkarEndra sarasvatI ArAdhanA~\\#{1950}": [
+      329
+    ],
+    "kAJcI jagadguru zrI~candrazEkharEndra sarasvatI jayantI~\\#{125}": [
+      149
+    ],
+    "kAJcI jagadguru zrI~jayEndra sarasvatI jayantI~\\#{84}": [
+      210
+    ],
+    "kAJcI jagadguru zrI~zaGkara vijayEndra sarasvatI jayantI~\\#{50}": [
+      44,
+      72
+    ],
+    "kAJcI kAmakOTi-maTha-pratiSThApana~jayantI~\\#{2500}": [
+      120
+    ],
+    "kAJcI~1 jagadguru zrI~Adi-zaGkara bhagavatpAda ArAdhanA~\\#{2494}": [
+      145
+    ],
+    "kAlASTamI": [
+      305
+    ],
+    "kAla-trirAtri-vratam": [
+      290
+    ],
+    "kAlabhairavASTamI": [
+      334
+    ],
+    "kAma-dahanam": [
+      60
+    ],
+    "kArtavIryArjuna~jayantI": [
+      320
+    ],
+    "kArtika-amAvasyA": [
+      340
+    ],
+    "kArtika-pUrNimA-snAnam": [
+      327
+    ],
+    "kArtika-snAnapUrtiH": [
+      341
+    ],
+    "kAtyAyanI~jayantI": [
+      281
+    ],
+    "kEdAra-gaurI-vratam": [
+      311
+    ],
+    "kO-jAgarti-vratam": [
+      297
+    ],
+    "kOkila-vratam": [
+      208
+    ],
+    "kRSNAGgAraka-caturdazI-puNyakAlaH/yamatarpaNam": [
+      310
+    ],
+    "kRtayugAdi": [
+      320
+    ],
+    "kRttikA-maNDala-pArAyaNam": [
+      321
+    ],
+    "kUSmANDa-dazamI": [
+      292
+    ],
+    "kUrma~jayantI": [
+      119
+    ],
+    "kaMsa-vadhaH": [
+      322
+    ],
+    "kaTadAnOtsavaH": [
+      263
+    ],
+    "kabIradAsa~jayantI": [
+      179
+    ],
+    "kadalI-gaurI-vratam/pUjA": [
+      168
+    ],
+    "kajarI~tRtIyA": [
+      271
+    ],
+    "kajjalI~tRtIyA": [
+      241
+    ],
+    "kaliyugAdi": [
+      280
+    ],
+    "kalki~jayantI": [
+      228
+    ],
+    "kalpAdi~1": [
+      77
+    ],
+    "kalpAdi~2": [
+      80
+    ],
+    "kalpAdi~3": [
+      108
+    ],
+    "kalpAdi~4": [
+      318
+    ],
+    "kalpAdi~5": [
+      350
+    ],
+    "kalpAdi~6": [
+      29
+    ],
+    "kamalA~jayantI": [
+      311
+    ],
+    "kanaka-gaNEza-vratam": [
+      300
+    ],
+    "kanyA-saGkramaNam": [
+      282
+    ],
+    "kapila-SaSThI": [
+      273
+    ],
+    "karaka-caturthI": [
+      300
+    ],
+    "karavIra-vratam": [
+      165
+    ],
+    "kaumArI-pUjA": [
+      231
+    ],
+    "kaumAra-pUjA": [
+      247
+    ],
+    "kaumudI-utsavaH": [
+      297
+    ],
+    "kazyapa~maharSi~jayantI": [
+      125
+    ],
+    "khODiyAra~mAtA~jayantI": [
+      25
+    ],
+    "kucEla-dinam": [
+      353
+    ],
+    "kukkuTI-vratam": [
+      259
+    ],
+    "kumAra-SaSThI-vratam": [
+      199
+    ],
+    "kumAra-paurNamAsI/mahA-azvini": [
+      297
+    ],
+    "kumArikA-svapanam": [
+      258
+    ],
+    "kuntI~(pArvatI)-vratam": [
+      297
+    ],
+    "lakSmI-indra-kubEra-pUjA": [
+      297
+    ],
+    "lakSmI-paJcamI": [
+      81
+    ],
+    "lakSmI-varAha~jayantI": [
+      95
+    ],
+    "lalitA-SaSThI": [
+      258
+    ],
+    "lalitA-gaurI-vratam": [
+      300
+    ],
+    "lalitA-paJcamI": [
+      286
+    ],
+    "lalitA~jayantI": [
+      31
+    ],
+    "mAghI~sarasvatI-pUjA": [
+      22
+    ],
+    "mAgha-amAvasyA": [
+      46
+    ],
+    "mAgha-pUrNimA": [
+      31
+    ],
+    "mAgha-pUrNimA-snAnam": [
+      31
+    ],
+    "mAgha-snAnapUrtiH": [
+      46
+    ],
+    "mArgazIrSa-pUrNimA": [
+      356
+    ],
+    "mArgazIrSa-zivaliGga-SaSThI": [
+      347
+    ],
+    "mArkaNDEya~jayantI": [
+      21
+    ],
+    "mESa-saGkrAntiH~(vilambI-saMvatsaraH)": [
+      104
+    ],
+    "mEghapAlIya-tRtIyA": [
+      284
+    ],
+    "mIrAbAI~jayantI~\\#{521}": [
+      297
+    ],
+    "mRgazIrSa-vratam": [
+      253
+    ],
+    "maGgala-vratam": [
+      305
+    ],
+    "maNikarNikA-snAnam": [
+      326
+    ],
+    "madana-caturdazI": [
+      89
+    ],
+    "madana-trayOdazI": [
+      88
+    ],
+    "madhuzrAvaNi-vratam": [
+      225
+    ],
+    "madhvAcArya~jayantI~\\#{781}": [
+      292
+    ],
+    "madhva-navamI": [
+      26
+    ],
+    "madhyASTamI": [
+      275
+    ],
+    "mahAbharaNI": [
+      271
+    ],
+    "mahAdhanurvyatIpAtam": [
+      350
+    ],
+    "mahAjayA~saptamI": [
+      229
+    ],
+    "mahAkAlI~jayantI": [
+      245
+    ],
+    "mahAlakSmI-vrata-ArambhaH": [
+      261
+    ],
+    "mahAlakSmI-vrata-samApanam": [
+      274
+    ],
+    "mahAlakSmI-vratam": [
+      305
+    ],
+    "mahAlaya-pakSa-ArambhaH": [
+      268
+    ],
+    "mahAlaya-pakSa-samApanam": [
+      281
+    ],
+    "mahAnavamI/sarasvatI-pUjA": [
+      291
+    ],
+    "mahAtArA~jayantI": [
+      84
+    ],
+    "mahAvyatIpAtam": [
+      274
+    ],
+    "mahAzivarAtriH": [
+      45
+    ],
+    "mahA~annAbhiSEkaH": [
+      297
+    ],
+    "mahEza-navamI": [
+      172
+    ],
+    "mahiSaghnI-pUjA": [
+      201
+    ],
+    "makarAyaNa-puNyakAlaH/mitrOtsavaH": [
+      356
+    ],
+    "makara-jyOtiH": [
+      14
+    ],
+    "makara-saGkrAntiH/uttarAyaNa-puNyakAlaH": [
+      14
+    ],
+    "manOratha-dvitIyA": [
+      225
+    ],
+    "manthana-SaSThI": [
+      258
+    ],
+    "manvAdi~(bhautya)": [
+      179
+    ],
+    "manvAdi~(brahma-sAvarNi)": [
+      246
+    ],
+    "manvAdi~(cAkSuSa)~1": [
+      202
+    ],
+    "manvAdi~(dakSa-sAvarNi)": [
+      327
+    ],
+    "manvAdi~(dharma-sAvarNi)": [
+      60
+    ],
+    "manvAdi~(raivata)": [
+      255
+    ],
+    "manvAdi~(raucya)": [
+      90
+    ],
+    "manvAdi~(rudra-sAvarNi)": [
+      208
+    ],
+    "manvAdi~(sAvarNi)": [
+      24
+    ],
+    "manvAdi~(svArOciSa)~1": [
+      90
+    ],
+    "manvAdi~(svArOciSa)~2": [
+      324
+    ],
+    "manvAdi~(svAyambhuva)": [
+      291
+    ],
+    "manvAdi~(tAmasa)~1": [
+      179
+    ],
+    "manvAdi~(tAmasa)~2": [
+      76
+    ],
+    "manvAdi~(uttama)~1": [
+      79
+    ],
+    "manvAdi~(uttama)~2": [
+      326
+    ],
+    "manvAdi~(vaivasvata)": [
+      202
+    ],
+    "matsya~jayantI": [
+      79
+    ],
+    "mauni (pauSa/makara) amAvasyA": [
+      16
+    ],
+    "mithuna-saGkramaNam": [
+      194
+    ],
+    "mitra-saptamI": [
+      348
+    ],
+    "muttusvAmI~dIkSita~jayantI~\\#{244}": [
+      81
+    ],
+    "nAga-pUjA": [
+      273
+    ],
+    "nAga-paJcamI": [
+      227
+    ],
+    "nArAyaNIyaM~jayantI": [
+      348
+    ],
+    "nArada~jayantI": [
+      122
+    ],
+    "nArikEla-pUrNimA": [
+      238
+    ],
+    "nRsiMha~jayantI": [
+      118
+    ],
+    "nandA-saptamI~1": [
+      348
+    ],
+    "nandA-saptamI~2": [
+      53
+    ],
+    "nandA~navamI": [
+      261
+    ],
+    "nandOtsavaH": [
+      246
+    ],
+    "naraka-caturdazI": [
+      310
+    ],
+    "narasiMha-dvAdazI": [
+      58
+    ],
+    "narmadA~jayantI": [
+      24
+    ],
+    "navama-aparapakSa-ArambhaH": [
+      327
+    ],
+    "navama-aparapakSa-samApanam": [
+      340
+    ],
+    "nerUr~zrI~sadAziva~brahmEndra~ArAdhanA~\\#{104}": [
+      114
+    ],
+    "nikSubhArka-saptamI": [
+      37
+    ],
+    "nimiSAmbA~jayantI": [
+      115
+    ],
+    "pANDava~(lAbha)-paJcamI": [
+      316
+    ],
+    "pApanAzanI~saptamI": [
+      229
+    ],
+    "pApanAzinI~mahAdvAdazI": [
+      191
+    ],
+    "pArvatI~pavitrArOpaNam": [
+      225
+    ],
+    "pUntAnaM~jayantI~\\#{471}": [
+      52
+    ],
+    "parAzara~maharSi~jayantI": [
+      106
+    ],
+    "parazurAma-dvAdazI": [
+      117
+    ],
+    "parazurAma~jayantI~1": [
+      108
+    ],
+    "pati-saJjIvanI-vratam": [
+      223
+    ],
+    "patrikA-pravEza-pUjA": [
+      289
+    ],
+    "payOvrata-ArambhaH": [
+      264
+    ],
+    "payOvrata-samApanam": [
+      294
+    ],
+    "phAlguna-amAvasyA": [
+      76
+    ],
+    "prEta-caturdazI": [
+      310
+    ],
+    "prabOdhOtsavaH": [
+      324
+    ],
+    "punnAga-gaurI-vratam": [
+      165
+    ],
+    "purI gOvardhana-maTha-pratiSThApana~jayantI~\\#{2503}": [
+      114
+    ],
+    "purandaradAsa-ArAdhanA~\\#{454}": [
+      46
+    ],
+    "rAdhASTamI": [
+      260
+    ],
+    "rAja-mAtaGgI~jayantI": [
+      108
+    ],
+    "rAkhI-pUrNimA": [
+      238
+    ],
+    "rAmAnuja~jayantI~\\#{1002}": [
+      111
+    ],
+    "rAmakRSNa-paramahaMsa~jayantI~\\#{183}": [
+      48
+    ],
+    "rAmalakSmaNa-dvAdazI": [
+      175
+    ],
+    "rOhiNI~dvAdazI": [
+      250
+    ],
+    "raGga-paJcamI": [
+      65
+    ],
+    "raMgabharI EkAdazI": [
+      57
+    ],
+    "rakSA~paJcamI": [
+      243
+    ],
+    "ramaNa~maharSi~ArAdhanA~\\#{68}": [
+      133
+    ],
+    "ramaNa~maharSi~jayantI~\\#{139}": [
+      3
+    ],
+    "ramaNa~maharSi~jayantI~\\#{140}": [
+      358
+    ],
+    "rambhA~tRtIyA": [
+      167
+    ],
+    "ratha-saptamI": [
+      24
+    ],
+    "rukmiNI-dvAdazI": [
+      117
+    ],
+    "sAmavEda-upAkarma": [
+      254
+    ],
+    "sAmba-dazamI (sUryapUjA)": [
+      27
+    ],
+    "sAvitrI-vratam": [
+      124
+    ],
+    "sEGgAlipuram anantarAma-dIkSita-ArAdhanA~\\#{49}": [
+      303
+    ],
+    "sEGgAlipuram~muttaNNAvAL~ArAdhanA~\\#{125}": [
+      43
+    ],
+    "sItAnavamI": [
+      114
+    ],
+    "sOma-amAvasyA": [
+      106
+    ],
+    "sUpOdana-vratam": [
+      228
+    ],
+    "sUradAsa~jayantI~\\#{541}": [
+      110
+    ],
+    "sUrya-SaSThI": [
+      258
+    ],
+    "saMskRta-divasaH": [
+      238
+    ],
+    "samudra-manthanam": [
+      86
+    ],
+    "saptama-aparapakSa-ArambhaH": [
+      298
+    ],
+    "saptama-aparapakSa-samApanam": [
+      311
+    ],
+    "saptarSi-pUjA/arghyam": [
+      273
+    ],
+    "sarasvatI-AvAhanam": [
+      288
+    ],
+    "sarpa-pUjA": [
+      22
+    ],
+    "sarpa-pUjA~1": [
+      110
+    ],
+    "sarpa-pUjA~2": [
+      316
+    ],
+    "sarvanadI-rajasvalA~1": [
+      198
+    ],
+    "sarvanadI-rajasvalA~2": [
+      199
+    ],
+    "sarvanadI-rajasvalA~3": [
+      200
+    ],
+    "satI~anasUyA~jayantI": [
+      124
+    ],
+    "satyanArAyaNa~jayantI": [
+      225
+    ],
+    "saubhAgya-sundarI-vratam": [
+      329
+    ],
+    "siMhAcalaM-candana-mahOtsavaH": [
+      114
+    ],
+    "skanda-paJcamI": [
+      198
+    ],
+    "skandaSaSThI-vratam": [
+      317
+    ],
+    "stanavRddhi-gaurI-vratam": [
+      283
+    ],
+    "subrahmaNya-SaSThI-vratam": [
+      347
+    ],
+    "sudarzana~jayantI": [
+      173
+    ],
+    "sujanmaprApti-vratam": [
+      282
+    ],
+    "sukhA~aGgAraka-caturthI": [
+      226,
+      345
+    ],
+    "sumaGgalI~navamI": [
+      276
+    ],
+    "tAlanavamI": [
+      261
+    ],
+    "ta:ADik~kiruttikai": [
+      218
+    ],
+    "ta:ADip~perukku": [
+      215
+    ],
+    "ta:ADi~veLLikkizhamai": [
+      201,
+      208,
+      215,
+      222
+    ],
+    "ta:An2Aya nAyan2Ar gurupUjai": [
+      336
+    ],
+    "ta:ArudrA~darican2am/naTarAjar mahAbhiSEkam": [
+      2,
+      357
+    ],
+    "ta:AvaNi~JAyir2r2ukkizhamai": [
+      231,
+      238,
+      245,
+      252,
+      259
+    ],
+    "ta:Ayudha~pUjai": [
+      292
+    ],
+    "ta:En2AdinAtha nAyan2Ar gurupUjai": [
+      263,
+      290
+    ],
+    "ta:ONam": [
+      237
+    ],
+    "ta:aiyaDigaL kADavarkOn2 nAyan2Ar gurupUjai": [
+      315
+    ],
+    "ta:amaranIti nAyan2Ar gurupUjai": [
+      170,
+      198
+    ],
+    "ta:appUdiyaDigaL nAyan2Ar gurupUjai": [
+      20
+    ],
+    "ta:arivATTAya nAyan2Ar gurupUjai": [
+      29
+    ],
+    "ta:atipatta nAyan2Ar gurupUjai": [
+      251
+    ],
+    "ta:bhOgi": [
+      13
+    ],
+    "ta:bhUtattAzhvAr tirunakSattiram": [
+      292,
+      320
+    ],
+    "ta:bharaNI~dIpam": [
+      326
+    ],
+    "ta:caDaiya nAyan2Ar gurupUjai": [
+      2,
+      357
+    ],
+    "ta:caNDEzvara nAyan2Ar gurupUjai": [
+      35
+    ],
+    "ta:catti nAyan2Ar gurupUjai": [
+      307
+    ],
+    "ta:ceruttuNai nAyan2Ar gurupUjai": [
+      250
+    ],
+    "ta:cirappuli nAyan2Ar gurupUjai": [
+      344
+    ],
+    "ta:ciruttoNDa nAyan2Ar gurupUjai": [
+      107,
+      135
+    ],
+    "ta:citrA~paurNamI/citragupta~pUjai": [
+      119
+    ],
+    "ta:cundaramUrtti nAyan2Ar gurupUjai": [
+      202,
+      229
+    ],
+    "ta:daNDiyaDigaL nAyan2Ar gurupUjai": [
+      75,
+      102
+    ],
+    "ta:er2ipatta nAyan2Ar gurupUjai": [
+      63
+    ],
+    "ta:eyarkOn2 kalikkAma nAyan2Ar gurupUjai": [
+      188
+    ],
+    "ta:gaNanAtha nAyan2Ar gurupUjai": [
+      84
+    ],
+    "ta:iDaGkazhi nAyan2Ar gurupUjai": [
+      300
+    ],
+    "ta:iLaiyAn2kuDi mAr2a nAyan2Ar gurupUjai": [
+      252
+    ],
+    "ta:icaiJAn2iyAr nAyan2Ar gurupUjai": [
+      119
+    ],
+    "ta:iyarpagai nAyan2Ar gurupUjai": [
+      7,
+      363
+    ],
     "ta:kAraDaiyAn2 nOn2bu": [
       73
+    ],
+    "ta:kAraikkAl ammaiyAr gurupUjai": [
+      92
+    ],
+    "ta:kAri nAyan2Ar gurupUjai": [
+      71
+    ],
+    "ta:kArttigai": [
+      326
+    ],
+    "ta:kArttigai~JAyir2r2ukkizhamai": [
+      322,
+      329,
+      336,
+      343
+    ],
+    "ta:kArttigai~sOmavAram": [
+      323,
+      330,
+      337,
+      344
+    ],
+    "ta:kOTpuli nAyan2Ar gurupUjai": [
+      205
+    ],
+    "ta:kUDAravallI": [
+      11
+    ],
+    "ta:kUr2r2uva nAyan2Ar gurupUjai": [
+      221
+    ],
+    "ta:kaNNappa nAyan2Ar gurupUjai": [
+      28
+    ],
+    "ta:kaNampulla nAyan2Ar gurupUjai": [
+      327
+    ],
+    "ta:kalikkamba nAyan2Ar gurupUjai": [
+      24
+    ],
+    "ta:kaliya nAyan2Ar gurupUjai": [
+      205
+    ],
+    "ta:kan2up~poGgal": [
+      15
+    ],
+    "ta:kapAlI adhikAra nandi": [
+      83
+    ],
+    "ta:kapAlI ar2upattu mUvar": [
+      88
+    ],
+    "ta:kapAlI bhUtaN bhUtakI": [
+      83
+    ],
+    "ta:kapAlI cavuDal vimAn2am": [
+      85
+    ],
+    "ta:kapAlI dvajArOhaNam": [
+      81
+    ],
+    "ta:kapAlI pallakku vizhA": [
+      86
+    ],
+    "ta:kapAlI riSabha vAhan2am": [
+      85
+    ],
+    "ta:kapAlI sUrya~candra~vaTTam": [
+      82
+    ],
+    "ta:kapAlI tEr": [
+      87
+    ],
+    "ta:kapAlI teppOtsavam~1": [
+      29
+    ],
+    "ta:kapAlI teppOtsavam~2": [
+      30
+    ],
+    "ta:kapAlI teppOtsavam~3": [
+      31
+    ],
+    "ta:kapAlI umA-mahEzvara darican2am": [
+      91
+    ],
+    "ta:kapAlI viDaiyAr2r2i nir2aivu": [
+      101
+    ],
+    "ta:kapAlI viDaiyAr2r2i toDakkam": [
+      91
+    ],
+    "ta:kar2avaigaL pin2cen2r2u": [
+      12
+    ],
+    "ta:kazhar2ciGga nAyan2Ar gurupUjai": [
+      135,
+      162
+    ],
+    "ta:kazhar2ir2r2ar2ivAr nAyan2Ar gurupUjai": [
+      202,
+      229
+    ],
+    "ta:kocceGgaT cOzha nAyan2Ar gurupUjai": [
+      48
+    ],
+    "ta:kuGgiliyakkalaya nAyan2Ar gurupUjai": [
+      233,
+      260
+    ],
+    "ta:kulaccirai nAyan2Ar gurupUjai": [
+      231,
+      258
+    ],
+    "ta:kulazEkhara AzhvAr tirunakSattiram": [
+      57
+    ],
+    "ta:mANikkavAcakar gurupUjai": [
+      169,
+      197
+    ],
+    "ta:mAci~cevvAy": [
+      44,
+      51,
+      58,
+      65,
+      72
+    ],
+    "ta:mAci~magham": [
+      60
+    ],
+    "ta:mAn2akkaJcAr2a nAyan2Ar gurupUjai": [
+      10,
+      366
+    ],
+    "ta:mIn2AkSI tirukkalyANam": [
+      117
+    ],
+    "ta:mUrkha nAyan2Ar gurupUjai": [
+      342
+    ],
+    "ta:mUrtti nAyan2Ar gurupUjai": [
+      218
+    ],
+    "ta:maGgaiyarkkaraciyAr nAyan2Ar gurupUjai": [
+      109
+    ],
+    "ta:madhurai mIn2AkSI kOyilil kal yAn2aikku karumbu kODutta lIlai": [
+      14
+    ],
+    "ta:madhurakavi AzhvAr tirunakSattiram": [
+      119
+    ],
+    "ta:mayilai~veLLIzvarar~brahmOtsavam": [
+      142
+    ],
+    "ta:meypporuL nAyan2Ar gurupUjai": [
+      335
+    ],
+    "ta:mun2aiyaDuvAr nAyan2Ar gurupUjai": [
+      86
+    ],
+    "ta:muruga nAyan2Ar gurupUjai": [
+      151
+    ],
+    "ta:nEca nAyan2Ar gurupUjai": [
+      82
+    ],
+    "ta:naTarAjar An2i tirumaJcan2am": [
+      171
+    ],
+    "ta:naTarAjar cittirai ONam mahAbhiSEkam": [
+      127
+    ],
+    "ta:naTarAjar mahAbhiSEkam~2": [
+      237
+    ],
+    "ta:naTarAjar mahAbhiSEkam~3": [
+      266
+    ],
+    "ta:naTarAjar mahAbhiSEkam~6": [
+      60
+    ],
+    "ta:naminandiyaDigaL nAyan2Ar gurupUjai": [
+      140
+    ],
+    "ta:nammAzhvAr tirunakSattiram": [
+      148
+    ],
+    "ta:naraciGgamun2aiyaraiya nAyan2Ar gurupUjai": [
+      266
+    ],
+    "ta:nin2r2acIr neDumAr2a nAyan2Ar gurupUjai": [
+      299
+    ],
+    "ta:pEyAzhvAr tirunakSattiram": [
+      293,
+      321
+    ],
+    "ta:pUcalAr nAyan2Ar gurupUjai": [
+      313
+    ],
+    "ta:paGgun2i~uttiram": [
+      90
+    ],
+    "ta:periyAzhvAr tirunakSattiram": [
+      174
+    ],
+    "ta:perumizhalaik kur2umba nAyan2Ar gurupUjai": [
+      201,
+      228
+    ],
+    "ta:piTTukku maN cumanda lIlai": [
+      233,
+      260
+    ],
+    "ta:poygaiyAzhvAr tirunakSattiram": [
+      291,
+      318
+    ],
+    "ta:pugazhccOzha nAyan2Ar gurupUjai": [
+      218
+    ],
+    "ta:pugazhttuNai nAyan2Ar gurupUjai": [
+      168,
+      196
+    ],
+    "ta:puraTTAci~can2ikkizhamai": [
+      265,
+      272,
+      279,
+      286
+    ],
+    "ta:rudra~pazupati nAyan2Ar gurupUjai": [
+      270
+    ],
+    "ta:sOmAsimAra nAyan2Ar gurupUjai": [
+      141
+    ],
+    "ta:sarvAlaya~dIpam": [
+      326
+    ],
+    "ta:tai kiruttikai": [
+      26
+    ],
+    "ta:taippUcam": [
+      30
+    ],
+    "ta:tai~veLLikkizhamai": [
+      19,
+      26,
+      33,
+      40
+    ],
+    "ta:tiruJAn2asambandhamUrtti nAyan2Ar gurupUjai": [
+      151
+    ],
+    "ta:tiruccendUr AvaNit tiruvizhA nir2aivu": [
+      230,
+      257
+    ],
+    "ta:tiruccendUr mAcit tiruvizhA nir2aivu": [
+      60
+    ],
+    "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##10##m nAL\u2014tEr": [
+      255
+    ],
+    "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##11##m nAL": [
+      256
+    ],
+    "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##2##m nAL": [
+      247
+    ],
+    "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##3##m nAL\u2014murugan2 bhavan2i": [
+      248
+    ],
+    "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##4##m nAL\u2014yAn2ai vAhanattil murugan2-ambAL bhavan2i": [
+      249
+    ],
+    "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##5##m nAL": [
+      250
+    ],
+    "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##6##m nAL\u2014veLLit tEr bhavan2i": [
+      251
+    ],
+    "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##7##m nAL\u2014cigappu cAtti alaGkAram": [
+      252
+    ],
+    "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##8##m nAL\u2014paccai cAtti alaGkAram": [
+      253
+    ],
+    "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##9##m nAL": [
+      254
+    ],
+    "ta:tiruccendUr murugan2 AvaNit tiruvizhA toDakkam/koDiyEr2r2am": [
+      246
+    ],
+    "ta:tiruccendUr murugan2 mAcit tiruvizhA ##10##m nAL\u2014tEr": [
+      58
+    ],
+    "ta:tiruccendUr murugan2 mAcit tiruvizhA ##2##m nAL": [
+      50
+    ],
+    "ta:tiruccendUr murugan2 mAcit tiruvizhA ##3##m nAL\u2014murugan2 bhavan2i": [
+      51
+    ],
+    "ta:tiruccendUr murugan2 mAcit tiruvizhA ##4##m nAL": [
+      52
+    ],
+    "ta:tiruccendUr murugan2 mAcit tiruvizhA ##5##m nAL": [
+      53
+    ],
+    "ta:tiruccendUr murugan2 mAcit tiruvizhA ##6##m nAL\u2014veLLit tEr bhavan2i": [
+      54
+    ],
+    "ta:tiruccendUr murugan2 mAcit tiruvizhA ##7##m nAL\u2014urugu cattac cEvai/cigappu cAtti alaGkAram": [
+      55
+    ],
+    "ta:tiruccendUr murugan2 mAcit tiruvizhA ##8##m nAL\u2014paccai cAtti alaGkAram": [
+      56
+    ],
+    "ta:tiruccendUr murugan2 mAcit tiruvizhA ##9##m nAL\u2014taGga kailAca vAhan2am": [
+      57
+    ],
+    "ta:tiruccendUr murugan2 mAcit tiruvizhA toDakkam": [
+      49
+    ],
+    "ta:tiruccendUr murugan2 teppam": [
+      59
+    ],
+    "ta:tirukkur2ipput toNDa nAyan2Ar gurupUjai": [
+      120
+    ],
+    "ta:tirumUla nAyan2Ar gurupUjai": [
+      298
+    ],
+    "ta:tirumaGgaiyAzhvAr tirunakSattiram": [
+      327
+    ],
+    "ta:tirumazhicaiyAzhvAr tirunakSattiram": [
+      33
+    ],
+    "ta:tirunALaippOvAr nAyan2Ar gurupUjai": [
+      273
+    ],
+    "ta:tirunAvukkaracha nAyan2Ar gurupUjai": [
+      130
+    ],
+    "ta:tirunIlakaNTha nAyan2Ar gurupUjai": [
+      39
+    ],
+    "ta:tirunIlakaNTha yAzhppANa nAyan2Ar gurupUjai": [
+      151
+    ],
+    "ta:tirunIlanakka nAyan2Ar gurupUjai": [
+      151
+    ],
+    "ta:tirunelvEli nellaiyappar nellukku vEli kaTTiya lIlai": [
+      25
+    ],
+    "ta:tirunelvEli nellaiyappar patra dIpa tiruvizhA": [
+      16
+    ],
+    "ta:tiruppANAzhvAr tirunakSattiram": [
+      219
+    ],
+    "ta:tiruvADippUram": [
+      198,
+      225
+    ],
+    "ta:tiruvaNNAmalai~dIpam": [
+      326
+    ],
+    "ta:toNDaraDippoDiyAzhvAr tirunakSattiram": [
+      14
+    ],
+    "ta:undu~madakkaLir2r2an2{}": [
+      2
+    ],
+    "ta:vAyilAr nAyan2Ar gurupUjai": [
+      351
+    ],
+    "ta:vaikAci~vizAkham": [
+      148
+    ],
+    "ta:varagUr ur2iyaDi utsavam": [
+      246
+    ],
+    "ta:viSukkan2i": [
+      104
+    ],
+    "ta:vir2an2miNDa nAyan2Ar gurupUjai": [
+      111
+    ],
+    "tilapadma-dvAdazI/tilOtpatti": [
+      28
+    ],
+    "tindukASTamI": [
+      187
+    ],
+    "tintriNI-gaurI-vratam": [
+      343
+    ],
+    "tiruvizalUr gaGgAkarSaNa-mahOtsava-ArambhaH": [
+      332
+    ],
+    "tiruvizalUr gaGgAkarSaNa-mahOtsava-samApanam": [
+      341
+    ],
+    "trEtAyugAdi": [
+      108
+    ],
+    "trilocanASTamI": [
+      187
+    ],
+    "tripurOtsavaH": [
+      326
+    ],
+    "tripura~bhairavI~jayantI": [
+      356
+    ],
+    "tuSTi-prApti-tRtIyA": [
+      241
+    ],
+    "tulA-viSu-puNyakAlaH": [
+      291
+    ],
+    "tulasI-jananaM~kSIrasAgarataH": [
+      87
+    ],
+    "tulasI-vivAhaH": [
+      324
+    ],
+    "tulasIdAsa~jayantI": [
+      229
+    ],
+    "tyAgarAja-ArAdhanA~\\#{171}": [
+      6
+    ],
+    "tyAgarAja~jayantI~\\#{252}": [
+      112
+    ],
+    "umA-avatAraH": [
+      168
+    ],
+    "umA-mahEzvara-vratam": [
+      268
+    ],
+    "upAGga-lalitA-gaurI-vratam": [
+      268
+    ],
+    "upAGga-lalitA-vratam": [
+      286
+    ],
+    "upEndra-navamI": [
+      202
+    ],
+    "vAlmIki~maharSi~jayantI": [
+      297
+    ],
+    "vAmana~jayantI": [
+      264
+    ],
+    "vArAhI-navarAtri-ArambhaH": [
+      194
+    ],
+    "vArAhI-navarAtri-samApanam": [
+      202
+    ],
+    "vArtA-gaurI-vratam": [
+      109
+    ],
+    "vAsudEva-dvAdazI": [
+      205
+    ],
+    "vEGkaTAcalE jyESTha-abhidyEyakAbhiSEkaH (mutyala-kavacam)": [
+      178
+    ],
+    "vEGkaTAcalE jyESTha-abhidyEyakAbhiSEkaH (svarNa-kavacam)": [
+      179
+    ],
+    "vEGkaTAcalE jyESTha-abhidyEyakAbhiSEkaH (vajra-kavacam)": [
+      177
+    ],
+    "vEGkaTAcalE padmAvatI-pariNayOtsava-ArambhaH (gaja-vAhanam)": [
+      114
+    ],
+    "vEGkaTAcalE padmAvatI-pariNayOtsava-samApanam (garuDa-vAhanam)": [
+      116
+    ],
+    "vEGkaTAcalE padmAvatI-pariNayam (azva-vAhanam)": [
+      115
+    ],
+    "vEGkaTAcalE paurNamI~garuDa-sEvA": [
+      1,
+      31,
+      60,
+      89,
+      119,
+      149,
+      178,
+      208,
+      237,
+      267,
+      297,
+      326,
+      356
+    ],
+    "vEGkaTAcalE plavOtsava-ArambhaH": [
+      56
+    ],
+    "vEGkaTAcalE plavOtsavaH~2": [
+      57
+    ],
+    "vEGkaTAcalE plavOtsavaH~3": [
+      58
+    ],
+    "vEGkaTAcalE plavOtsavaH~4": [
+      59
+    ],
+    "vEGkaTAcalE plavOtsava~samApanam": [
+      60
+    ],
+    "vEGkaTAcalE vasantOtsava-ArambhaH": [
+      87
+    ],
+    "vEGkaTAcalE vasantOtsava-samApanam": [
+      89
+    ],
+    "vEGkaTAcalE vasantOtsavaH": [
+      88
+    ],
+    "vEda/dadhi-vrata-ArambhaH": [
+      232
+    ],
+    "vRSabha-pUjA": [
+      252
+    ],
+    "vRSabha-saGkramaNam": [
+      135
+    ],
+    "vaTa-pUrNimA/vaTa-sAvitrI-vratam": [
+      179
+    ],
+    "vahni-vratam": [
+      106
+    ],
+    "vaikhAnasa~maharSi~jayantI": [
+      238
+    ],
+    "vaivasvata-saptamI": [
+      200
+    ],
+    "vaizAkha-amAvasyA": [
+      135
+    ],
+    "vaizAkha-pUrNimA-snAnam": [
+      120
+    ],
+    "vaizAkha-snAnapUrtiH": [
+      135
+    ],
+    "vallabhAcArya~jayantI~\\#{540}": [
+      102
+    ],
+    "vanadurgAnavarAtri-ArambhaH": [
+      342
+    ],
+    "vanadurgAnavarAtri-samApanam": [
+      350
+    ],
+    "varAha-dvAdazI": [
+      28
+    ],
+    "varAha~jayantI": [
+      255
+    ],
+    "varakunda-caturthI": [
+      20
+    ],
+    "varalakSmI-vratam": [
+      236
+    ],
+    "varuNa-pUjA": [
+      170
+    ],
+    "vasanta-zrI-paJcamI": [
+      22
+    ],
+    "vasantanavarAtri-ArambhaH": [
+      77
+    ],
+    "vasantanavarAtri-samApanam": [
+      84
+    ],
+    "vasiSTha~maharSi~jayantI": [
+      114
+    ],
+    "vasudEva-pUjA": [
+      308
+    ],
+    "viSNupadI-kumbharaviH": [
+      44
+    ],
+    "viSNupadI-siMharaviH": [
+      229
+    ],
+    "viSNupadI-vRSabharaviH": [
+      135
+    ],
+    "viSNupadI-vRzcikaraviH": [
+      321
+    ],
+    "vidyAraNya-svAmI~jayantI": [
+      112
+    ],
+    "vidyAraNya~svAmI~ArAdhanA~\\#{627}": [
+      176
+    ],
+    "vijayA/zravaNa-mahAdvAdazI": [
+      73,
+      264
+    ],
+    "vijayA~bhAnusaptamI": [
+      112,
+      259
+    ],
+    "vijayadazamI": [
+      292
+    ],
+    "vikramAditya-paTTAbhiSEkaH": [
+      311
+    ],
+    "vinAyakASTamI": [
+      187
+    ],
+    "vindhyAvAsinI-dEvI-pUjA": [
+      170
+    ],
+    "vitastOtsavaH": [
+      262
+    ],
+    "vivEkAnanda~jayantI~\\#{156}": [
+      8
+    ],
+    "vizvakarmA~jayantI": [
+      260
+    ],
+    "vizvarUpa-yAtrA": [
+      268
+    ],
+    "vyAghra-dvAdazI": [
+      308
+    ],
+    "yAjJavalkya~jayantI": [
+      324
+    ],
+    "yajurvEda-upAkarma": [
+      238
+    ],
+    "yama/bhrAtR-dvitIyA": [
+      313
+    ],
+    "yamadharmarAjA-pUjA": [
+      85
+    ],
+    "yamunA~jayantI": [
+      82
+    ],
+    "yati-mahAlayam": [
+      279
+    ],
+    "yaticAturmAsyavrata-ArambhaH": [
+      208
+    ],
+    "yaticAturmAsyavrata-samApanam": [
+      268
+    ],
+    "yazOdA~jayantI": [
+      37
+    ],
+    "yuddhadEvatA-ArAdhanA": [
+      292
+    ],
+    "yugAdi": [
+      77
+    ],
+    "zAka-vratam (mahAlakSmI)": [
+      203
+    ],
+    "zAkambharI~jayantI": [
+      2
+    ],
+    "zAkavrata-ArambhaH": [
+      203
+    ],
+    "zAkavrata-samApanam": [
+      235
+    ],
+    "zAlihOtra-vrata-ArambhaH": [
+      81
+    ],
+    "zAnti-paJcamI-vratam": [
+      286
+    ],
+    "zItalASTamI": [
+      187
+    ],
+    "zItalA~saptamI": [
+      229
+    ],
+    "zRGgErI 32 jagadguru zrI~nRsiMha bhAratI ArAdhanA": [
+      166
+    ],
+    "zRGgErI 34 jagadguru zrI~candrazEkhara bhAratI ArAdhanA": [
+      281
+    ],
+    "zRGgErI 34 jagadguru zrI~candrazEkhara bhAratI jayantI": [
+      307
+    ],
+    "zRGgErI 35 jagadguru zrI~abhinava vidyAtIrtha mahAsvAmI ArAdhanA": [
+      274
+    ],
+    "zRGgErI 35 jagadguru zrI~abhinava vidyAtIrtha mahAsvAmI jayantI": [
+      310
+    ],
+    "zRGgErI zAradAmaTha-pratiSThApana~jayantI~\\#{2501}": [
+      2
+    ],
+    "zaGkara~jayantI~\\#{2527}": [
+      110
+    ],
+    "zabarI~jayantI": [
+      38
+    ],
+    "zamI-gaurI-vratam": [
+      198
+    ],
+    "zani~jayantI": [
+      135
+    ],
+    "zarabha~jayantI": [
+      120
+    ],
+    "zarad-pUrNimA": [
+      297
+    ],
+    "zarannavarAtri-ArambhaH": [
+      283
+    ],
+    "zarannavarAtri-samApanam": [
+      291
+    ],
+    "zarkarA-saptamI": [
+      112
+    ],
+    "zastrahatacaturdazI": [
+      281
+    ],
+    "ziva-zayanOtsavaH": [
+      208
+    ],
+    "zrIkRSNadEvarAya-rAjyAbhiSEkaH": [
+      246
+    ],
+    "zrIkRSNajanmASTamI": [
+      245
+    ],
+    "zrInivAsamaGgApure sAkSAtkAra-vaibhavOtsava-ArambhaH": [
+      169
+    ],
+    "zrInivAsamaGgApure sAkSAtkAra-vaibhavOtsava-samApanam": [
+      171
+    ],
+    "zrInivAsamaGgApure sAkSAtkAra-vaibhavOtsavaH": [
+      170
+    ],
+    "zrIrAma-paTTAbhiSEkaH": [
+      311
+    ],
+    "zrIrAma-vanavAsa-gamanam": [
+      22
+    ],
+    "zrIrAmanavamI": [
+      84
+    ],
+    "zrIvinAyaka-caturthI": [
+      256
+    ],
+    "zrI~bOdhEndra sarasvatI ArAdhanA": [
+      279
+    ],
+    "zrI~gOvinda bhagavatpAda ArAdhanA": [
+      326
+    ],
+    "zrI~hanUmat~jayantI~2": [
+      90
+    ],
+    "zrI~jayantI": [
+      246
+    ],
+    "zrI~rAghavEndra-svAmI~jayantI~\\#{424}": [
+      53
+    ],
+    "zrI~rAghavEndra~svAmI~ArAdhanA~\\#{347}": [
+      240
+    ],
+    "zrI~zESAdri-svAmI~ArAdhanA": [
+      364
+    ],
+    "zrI~zESAdri-svAmI~jayantI~\\#{149}": [
+      36
+    ],
+    "zravaNa-amAvasyA": [
+      252
+    ],
+    "zubha-saptamI": [
+      289
+    ],
+    "zuka~maharSi~jayantI": [
+      135
+    ],
+    "zukla-dEvI-pUjA": [
+      172
+    ],
+    "zyAmA~zAstrI~jayantI~\\#{257}": [
+      108
+    ],
+    "zyAmaLAnavarAtri-ArambhaH": [
+      18
+    ],
+    "zyAmaLAnavarAtri-samApanam": [
+      26
     ]
   },
   "festivals": [
     [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
+    [
+      "kAJcI 8 jagadguru zrI~kaivalyAnandayOgEndra sarasvatI ArAdhanA~\\#{1989}",
+      "andhakAsura-vadhaH",
+      "vEGkaTAcalE paurNamI~garuDa-sEvA"
+    ],
+    [
+      "badarI jyOtirmaTha-pratiSThApana~jayantI~\\#{2503}",
+      "zRGgErI zAradAmaTha-pratiSThApana~jayantI~\\#{2501}",
+      "ta:ArudrA~darican2am/naTarAjar mahAbhiSEkam",
+      "ta:caDaiya nAyan2Ar gurupUjai",
+      "zAkambharI~jayantI",
+      "ta:undu~madakkaLir2r2an2{}"
+    ],
+    [
+      "ramaNa~maharSi~jayantI~\\#{139}",
+      "kAJcI 37 jagadguru zrI~vidyAghanEndra sarasvatI 3 ArAdhanA~\\#{1230}",
+      "kAJcI 62 jagadguru zrI~candrazEkharEndra sarasvatI 5 ArAdhanA~\\#{235}"
+    ],
+    [
+      "saGkaTahara-caturthI-vratam"
+    ],
+    [],
+    [
+      "bahula-paJcamI",
+      "tyAgarAja-ArAdhanA~\\#{171}"
+    ],
+    [
+      "ta:iyarpagai nAyan2Ar gurupUjai"
+    ],
+    [
+      "vivEkAnanda~jayantI~\\#{156}"
+    ],
+    [],
+    [
+      "ta:mAn2akkaJcAr2a nAyan2Ar gurupUjai",
+      "bhISma~jayantI"
+    ],
+    [
+      "ta:kUDAravallI"
+    ],
+    [
+      "sarva-SaTtilA-EkAdazI",
+      "ta:kar2avaigaL pin2cen2r2u"
+    ],
+    [
+      "harivAsaraH\\textsf{}{\\RIGHTarrow}\\textsf{03:58}",
+      "harivAsaraH\\textsf{}{\\RIGHTarrow}\\textsf{03:58}",
+      "ta:bhOgi"
+    ],
+    [
+      "pradOSa-vratam",
+      "pradOSa-vratam",
+      "ta:toNDaraDippoDiyAzhvAr tirunakSattiram",
+      "makara-jyOtiH",
+      "makara-saGkrAntiH/uttarAyaNa-puNyakAlaH",
+      "ta:madhurai mIn2AkSI kOyilil kal yAn2aikku karumbu kODutta lIlai"
+    ],
+    [
+      "indra-pUjA/gO-pUjA",
+      "ta:kan2up~poGgal"
+    ],
+    [
+      "ta:tirunelvEli nellaiyappar patra dIpa tiruvizhA",
+      "mauni (pauSa/makara) amAvasyA"
+    ],
+    [],
+    [
+      "candra-darzanam",
+      "zyAmaLAnavarAtri-ArambhaH"
+    ],
+    [
+      "ta:tai~veLLikkizhamai"
+    ],
+    [
+      "ta:appUdiyaDigaL nAyan2Ar gurupUjai",
+      "varakunda-caturthI"
+    ],
+    [
+      "mArkaNDEya~jayantI"
+    ],
+    [
+      "sarpa-pUjA",
+      "zrIrAma-vanavAsa-gamanam",
+      "vasanta-zrI-paJcamI",
+      "mAghI~sarasvatI-pUjA"
+    ],
+    [
+      "SaSThI-vratam"
+    ],
+    [
+      "ratha-saptamI",
+      "manvAdi~(sAvarNi)",
+      "dvArakA-maTha-pratiSThApana~jayantI~\\#{2508}",
+      "ta:kalikkamba nAyan2Ar gurupUjai",
+      "narmadA~jayantI"
+    ],
+    [
+      "bhISmASTamI",
+      "khODiyAra~mAtA~jayantI",
+      "ta:tirunelvEli nellaiyappar nellukku vEli kaTTiya lIlai"
+    ],
+    [
+      "ta:tai~veLLikkizhamai",
+      "zyAmaLAnavarAtri-samApanam",
+      "madhva-navamI",
+      "ta:tai kiruttikai"
+    ],
+    [
+      "kAJcI 11 jagadguru zrI~zivAnanda cidghanEndra sarasvatI ArAdhanA~\\#{1846}",
+      "sAmba-dazamI (sUryapUjA)"
+    ],
+    [
+      "sarva-jayA/bhaimI-EkAdazI",
+      "harivAsaraH\\textsf{}{\\RIGHTarrow}\\textsf{13:42}",
+      "ta:kaNNappa nAyan2Ar gurupUjai",
+      "bhISma-dvAdazI",
+      "varAha-dvAdazI",
+      "tilapadma-dvAdazI/tilOtpatti"
+    ],
+    [
+      "sOma-pradOSa-vratam",
+      "ta:arivATTAya nAyan2Ar gurupUjai",
+      "kalpAdi~6",
+      "ta:kapAlI teppOtsavam~1"
+    ],
+    [
+      "ta:taippUcam",
+      "ta:kapAlI teppOtsavam~2"
+    ],
+    [
+      "vEGkaTAcalE paurNamI~garuDa-sEvA",
+      "mAgha-pUrNimA",
+      "lalitA~jayantI",
+      "mAgha-pUrNimA-snAnam",
+      "ta:kapAlI teppOtsavam~3",
+      "candra-grahaNam~(rAhugrasta)~\\textsf{18:05}{\\RIGHTarrow}\\textsf{20:41}"
+    ],
+    [
+      "kAJcI 51 jagadguru zrI~vidyAtIrthEndra sarasvatI ArAdhanA~\\#{633}"
+    ],
+    [
+      "ta:tai~veLLikkizhamai",
+      "ta:tirumazhicaiyAzhvAr tirunakSattiram"
+    ],
+    [
+      "saGkaTahara-caturthI-vratam"
+    ],
+    [
+      "ta:caNDEzvara nAyan2Ar gurupUjai"
+    ],
+    [
+      "zrI~zESAdri-svAmI~jayantI~\\#{149}"
+    ],
+    [
+      "yazOdA~jayantI",
+      "nikSubhArka-saptamI"
+    ],
+    [
+      "zabarI~jayantI",
+      "kAJcI 66 jagadguru zrI~candrazEkharEndra sarasvatI 7 ArAdhanA~\\#{111}"
+    ],
+    [
+      "ta:tirunIlakaNTha nAyan2Ar gurupUjai"
+    ],
+    [
+      "ta:tai~veLLikkizhamai"
+    ],
+    [],
+    [
+      "sarva-vijayA-EkAdazI"
+    ],
+    [
+      "harivAsaraH\\textsf{}{\\RIGHTarrow}\\textsf{00:05}",
+      "harivAsaraH\\textsf{}{\\RIGHTarrow}\\textsf{00:05}",
+      "sEGgAlipuram~muttaNNAvAL~ArAdhanA~\\#{125}"
+    ],
+    [
+      "pradOSa-vratam",
+      "pradOSa-vratam",
+      "dvAparayugAdi",
+      "ta:mAci~cevvAy",
+      "kAJcI jagadguru zrI~zaGkara vijayEndra sarasvatI jayantI~\\#{50}",
+      "viSNupadI-kumbharaviH"
+    ],
+    [
+      "mahAzivarAtriH"
+    ],
+    [
+      "purandaradAsa-ArAdhanA~\\#{454}",
+      "mAgha-snAnapUrtiH",
+      "mAgha-amAvasyA"
+    ],
+    [
+      "kAJcI 67 jagadguru zrI~mahAdEvEndra sarasvatI 5 ArAdhanA~\\#{111}"
+    ],
+    [
+      "candra-darzanam",
+      "candra-darzanam",
+      "rAmakRSNa-paramahaMsa~jayantI~\\#{183}",
+      "ta:kocceGgaT cOzha nAyan2Ar gurupUjai"
+    ],
+    [
+      "ta:tiruccendUr murugan2 mAcit tiruvizhA toDakkam"
+    ],
+    [
+      "ta:tiruccendUr murugan2 mAcit tiruvizhA ##2##m nAL"
+    ],
+    [
+      "ta:mAci~cevvAy",
+      "ta:tiruccendUr murugan2 mAcit tiruvizhA ##3##m nAL\u2014murugan2 bhavan2i"
+    ],
+    [
+      "SaSThI-vratam",
+      "pUntAnaM~jayantI~\\#{471}",
+      "ta:tiruccendUr murugan2 mAcit tiruvizhA ##4##m nAL"
+    ],
+    [
+      "nandA-saptamI~2",
+      "zrI~rAghavEndra-svAmI~jayantI~\\#{424}",
+      "ta:tiruccendUr murugan2 mAcit tiruvizhA ##5##m nAL"
+    ],
+    [
+      "ta:tiruccendUr murugan2 mAcit tiruvizhA ##6##m nAL\u2014veLLit tEr bhavan2i"
+    ],
+    [
+      "ta:tiruccendUr murugan2 mAcit tiruvizhA ##7##m nAL\u2014urugu cattac cEvai/cigappu cAtti alaGkAram"
+    ],
+    [
+      "ta:tiruccendUr murugan2 mAcit tiruvizhA ##8##m nAL\u2014paccai cAtti alaGkAram",
+      "vEGkaTAcalE plavOtsava-ArambhaH"
+    ],
+    [
+      "sarva-AmalakI-EkAdazI",
+      "harivAsaraH\\textsf{}{\\RIGHTarrow}\\textsf{22:47}",
+      "harivAsaraH\\textsf{}{\\RIGHTarrow}\\textsf{22:47}",
+      "raMgabharI EkAdazI",
+      "ta:kulazEkhara AzhvAr tirunakSattiram",
+      "ta:tiruccendUr murugan2 mAcit tiruvizhA ##9##m nAL\u2014taGga kailAca vAhan2am",
+      "vEGkaTAcalE plavOtsavaH~2"
+    ],
+    [
+      "pradOSa-vratam",
+      "ta:mAci~cevvAy",
+      "narasiMha-dvAdazI",
+      "jayA~mahAdvAdazI",
+      "ta:tiruccendUr murugan2 mAcit tiruvizhA ##10##m nAL\u2014tEr",
+      "vEGkaTAcalE plavOtsavaH~3"
+    ],
+    [
+      "kAJcI 69 jagadguru zrI~jayEndra sarasvatI ArAdhanA~\\#{0}",
+      "ta:tiruccendUr murugan2 teppam",
+      "vEGkaTAcalE plavOtsavaH~4"
+    ],
+    [
+      "vEGkaTAcalE paurNamI~garuDa-sEvA",
+      "ta:mAci~magham",
+      "ta:naTarAjar mahAbhiSEkam~6",
+      "hOlikA-pUrNimA",
+      "kAma-dahanam",
+      "caitanya-mahAprabhu~jayantI~\\#{533}",
+      "manvAdi~(dharma-sAvarNi)",
+      "ta:tiruccendUr mAcit tiruvizhA nir2aivu",
+      "vEGkaTAcalE plavOtsava~samApanam"
+    ],
+    [
+      "hOli"
+    ],
+    [],
+    [
+      "brahma-kalpAdi",
+      "chatrapati-zivAjI~jayantI~\\#{389}",
+      "ta:er2ipatta nAyan2Ar gurupUjai"
+    ],
+    [
+      "saGkaTahara-caturthI-vratam",
+      "saGkaTahara-caturthI-vratam"
+    ],
+    [
+      "ta:mAci~cevvAy",
+      "raGga-paJcamI"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "ta:kAri nAyan2Ar gurupUjai"
+    ],
+    [
+      "sarva-pApamOcanI-EkAdazI",
+      "harivAsaraH\\textsf{}{\\RIGHTarrow}\\textsf{20:14}",
+      "harivAsaraH\\textsf{}{\\RIGHTarrow}\\textsf{20:14}",
+      "ta:mAci~cevvAy",
+      "kAJcI jagadguru zrI~zaGkara vijayEndra sarasvatI jayantI~\\#{50}"
+    ],
+    [
+      "pradOSa-vratam",
+      "ta:kAraDaiyAn2 nOn2bu",
+      "vijayA/zravaNa-mahAdvAdazI"
+    ],
+    [
+      "SaDazIti-mInaraviH"
+    ],
+    [
+      "ta:daNDiyaDigaL nAyan2Ar gurupUjai"
+    ],
+    [
+      "kAJcI 65 jagadguru zrI~sudarzana mahAdEvEndra sarasvatI ArAdhanA~\\#{128}",
+      "manvAdi~(tAmasa)~2",
+      "phAlguna-amAvasyA"
+    ],
+    [
+      "vasantanavarAtri-ArambhaH",
+      "yugAdi",
+      "kAJcI 15 jagadguru zrI~gaGgAdharEndra sarasvatI ArAdhanA~\\#{1690}",
+      "kAJcI 27 jagadguru zrI~cidvilAsEndra sarasvatI ArAdhanA~\\#{1442}",
+      "kAJcI 52 jagadguru zrI~zaGkarAnandEndra sarasvatI ArAdhanA~\\#{602}",
+      "kalpAdi~1"
+    ],
+    [
+      "candra-darzanam",
+      "arundhatI-vrata-ArambhaH",
+      "kAJcI 60 jagadguru zrI~advaitAtmaprakAzEndra sarasvatI ArAdhanA~\\#{315}",
+      "jhUlElAla~jayantI",
+      "AndOlana~tRtIyA"
+    ],
+    [
+      "gaurI~tRtIyA/saubhAgya-gaurI-vratam",
+      "matsya~jayantI",
+      "manvAdi~(uttama)~1",
+      "bhaumAzvinI-puNyakAlaH"
+    ],
+    [
+      "kalpAdi~2"
+    ],
+    [
+      "zAlihOtra-vrata-ArambhaH",
+      "lakSmI-paJcamI",
+      "haya-pUjA",
+      "muttusvAmI~dIkSita~jayantI~\\#{244}",
+      "ta:kapAlI dvajArOhaNam"
+    ],
+    [
+      "SaSThI-vratam",
+      "yamunA~jayantI",
+      "ta:nEca nAyan2Ar gurupUjai",
+      "ta:kapAlI sUrya~candra~vaTTam"
+    ],
+    [
+      "ta:kapAlI adhikAra nandi",
+      "ta:kapAlI bhUtaN bhUtakI"
+    ],
+    [
+      "bhavAnyutpattiH",
+      "azOkASTamI",
+      "ta:gaNanAtha nAyan2Ar gurupUjai",
+      "zrIrAmanavamI",
+      "vasantanavarAtri-samApanam",
+      "kAJcI 43 jagadguru zrI~AnandaghanEndra sarasvatI ArAdhanA~\\#{1005}",
+      "mahAtArA~jayantI"
+    ],
+    [
+      "yamadharmarAjA-pUjA",
+      "ta:kapAlI cavuDal vimAn2am",
+      "ta:kapAlI riSabha vAhan2am"
+    ],
+    [
+      "sarva-kAmadA-EkAdazI",
+      "samudra-manthanam",
+      "ta:mun2aiyaDuvAr nAyan2Ar gurupUjai",
+      "ta:kapAlI pallakku vizhA"
+    ],
+    [
+      "harivAsaraH\\textsf{}{\\RIGHTarrow}\\textsf{06:59}",
+      "harivAsaraH\\textsf{}{\\RIGHTarrow}\\textsf{06:59}",
+      "tulasI-jananaM~kSIrasAgarataH",
+      "bhrAtRprApti-vrata-ArambhaH",
+      "damanakArOpaNa-dvAdazI",
+      "ta:kapAlI tEr",
+      "vEGkaTAcalE vasantOtsava-ArambhaH"
+    ],
+    [
+      "pradOSa-vratam",
+      "pradOSa-vratam",
+      "damanaka-cOrI-utsavaH",
+      "madana-trayOdazI",
+      "ta:kapAlI ar2upattu mUvar",
+      "vEGkaTAcalE vasantOtsavaH"
+    ],
+    [
+      "vEGkaTAcalE paurNamI~garuDa-sEvA",
+      "damanaka-caturdazI",
+      "madana-caturdazI",
+      "vEGkaTAcalE vasantOtsava-samApanam"
+    ],
+    [
+      "gajEndra-mOkSaH~1",
+      "zrI~hanUmat~jayantI~2",
+      "caitra-pUrNimA",
+      "citragupta-vratam",
+      "manvAdi~(raucya)",
+      "manvAdi~(svArOciSa)~1",
+      "ta:paGgun2i~uttiram"
+    ],
+    [
+      "ta:kapAlI umA-mahEzvara darican2am",
+      "ta:kapAlI viDaiyAr2r2i toDakkam"
+    ],
+    [
+      "ta:kAraikkAl ammaiyAr gurupUjai"
+    ],
+    [
+      "saGkaTahara-caturthI-vratam"
+    ],
+    [],
+    [
+      "lakSmI-varAha~jayantI"
+    ],
+    [],
+    [],
+    [
+      "kAJcI 56 jagadguru zrI~sarvajJa sadAziva bOdhEndra sarasvatI ArAdhanA~\\#{480}"
+    ],
+    [],
+    [],
+    [
+      "ta:kapAlI viDaiyAr2r2i nir2aivu"
+    ],
+    [
+      "sarva-varUthinI-EkAdazI",
+      "harivAsaraH\\textsf{}{\\RIGHTarrow}\\textsf{14:30}",
+      "harivAsaraH\\textsf{}{\\RIGHTarrow}\\textsf{14:30}",
+      "ta:daNDiyaDigaL nAyan2Ar gurupUjai",
+      "vallabhAcArya~jayantI~\\#{540}"
+    ],
+    [
+      "pradOSa-vratam"
+    ],
+    [
+      "ta:viSukkan2i",
+      "mESa-saGkrAntiH~(vilambI-saMvatsaraH)"
+    ],
+    [
+      "gaGgA-snAnam",
+      "caitra-amAvasyA",
+      "kAJcI 47 jagadguru zrI~candrazEkharEndra sarasvatI 4 ArAdhanA~\\#{853}"
+    ],
+    [
+      "vahni-vratam",
+      "bhArgava-rAma-pUjA",
+      "sOma-amAvasyA",
+      "parAzara~maharSi~jayantI"
+    ],
+    [
+      "candra-darzanam",
+      "ta:ciruttoNDa nAyan2Ar gurupUjai"
+    ],
+    [
+      "akSaya-tRtIyA",
+      "rAja-mAtaGgI~jayantI",
+      "balarAma~jayantI",
+      "trEtAyugAdi",
+      "parazurAma~jayantI~1",
+      "kalpAdi~3",
+      "zyAmA~zAstrI~jayantI~\\#{257}"
+    ],
+    [
+      "vArtA-gaurI-vratam",
+      "ta:maGgaiyarkkaraciyAr nAyan2Ar gurupUjai"
+    ],
+    [
+      "zaGkara~jayantI~\\#{2527}",
+      "sarpa-pUjA~1",
+      "sUradAsa~jayantI~\\#{541}"
+    ],
+    [
+      "SaSThI-vratam",
+      "rAmAnuja~jayantI~\\#{1002}",
+      "kAJcI 40 jagadguru zrI~mahAdEvEndra sarasvatI 2 ArAdhanA~\\#{1104}",
+      "ta:vir2an2miNDa nAyan2Ar gurupUjai"
+    ],
+    [
+      "gaGgA-saptamI",
+      "zarkarA-saptamI",
+      "vidyAraNya-svAmI~jayantI",
+      "tyAgarAja~jayantI~\\#{252}",
+      "vijayA~bhAnusaptamI"
+    ],
+    [
+      "kAJcI 26 jagadguru zrI~prajJAghanEndra sarasvatI ArAdhanA~\\#{1455}",
+      "bagalAmukhI~jayantI"
+    ],
+    [
+      "sItAnavamI",
+      "siMhAcalaM-candana-mahOtsavaH",
+      "purI gOvardhana-maTha-pratiSThApana~jayantI~\\#{2503}",
+      "vasiSTha~maharSi~jayantI",
+      "nerUr~zrI~sadAziva~brahmEndra~ArAdhanA~\\#{104}",
+      "vEGkaTAcalE padmAvatI-pariNayOtsava-ArambhaH (gaja-vAhanam)"
+    ],
+    [
+      "nimiSAmbA~jayantI",
+      "vEGkaTAcalE padmAvatI-pariNayam (azva-vAhanam)"
+    ],
+    [
+      "sarva-mOhinI-EkAdazI",
+      "harivAsaraH\\textsf{}{\\RIGHTarrow}\\textsf{15:00}",
+      "harivAsaraH\\textsf{}{\\RIGHTarrow}\\textsf{15:00}",
+      "vEGkaTAcalE padmAvatI-pariNayOtsava-samApanam (garuDa-vAhanam)"
+    ],
+    [
+      "pradOSa-vratam",
+      "girijA-kalyANam",
+      "parazurAma-dvAdazI",
+      "rukmiNI-dvAdazI",
+      "ta:mIn2AkSI tirukkalyANam"
+    ],
+    [
+      "nRsiMha~jayantI",
+      "kAJcI 39 jagadguru zrI~saccidvilAsEndra sarasvatI ArAdhanA~\\#{1146}"
+    ],
+    [
+      "vEGkaTAcalE paurNamI~garuDa-sEvA",
+      "ta:icaiJAn2iyAr nAyan2Ar gurupUjai",
+      "ta:madhurakavi AzhvAr tirunakSattiram",
+      "ta:citrA~paurNamI/citragupta~pUjai",
+      "kUrma~jayantI"
+    ],
+    [
+      "kAJcI kAmakOTi-maTha-pratiSThApana~jayantI~\\#{2500}",
+      "zarabha~jayantI",
+      "vaizAkha-pUrNimA-snAnam",
+      "ta:tirukkur2ipput toNDa nAyan2Ar gurupUjai",
+      "annamAcArya~jayantI",
+      "chinnamastA~jayantI"
+    ],
+    [],
+    [
+      "nArada~jayantI",
+      "budhAnUrAdhA-puNyakAlaH"
+    ],
+    [
+      "saGkaTahara-caturthI-vratam",
+      "kAJcI 30 jagadguru zrI~bOdhEndra sarasvatI 2 ArAdhanA~\\#{1364}"
+    ],
+    [
+      "sAvitrI-vratam",
+      "satI~anasUyA~jayantI"
+    ],
+    [
+      "agninakSatra-ArambhaH",
+      "kazyapa~maharSi~jayantI"
+    ],
+    [],
+    [
+      "ta:naTarAjar cittirai ONam mahAbhiSEkam"
+    ],
+    [],
+    [
+      "kAJcI 7 jagadguru zrI~AnandajJAnEndra sarasvatI ArAdhanA~\\#{2073}"
+    ],
+    [
+      "ta:tirunAvukkaracha nAyan2Ar gurupUjai"
+    ],
+    [
+      "sarva-aparA-EkAdazI",
+      "bhadrakALI~jayantI"
+    ],
+    [
+      "harivAsaraH\\textsf{}{\\RIGHTarrow}\\textsf{05:37}",
+      "harivAsaraH\\textsf{}{\\RIGHTarrow}\\textsf{05:37}"
+    ],
+    [
+      "pradOSa-vratam",
+      "pradOSa-vratam",
+      "ramaNa~maharSi~ArAdhanA~\\#{68}"
+    ],
+    [
+      "kAJcI 3 jagadguru zrI~sarvajJAtmanEndra sarasvatI ArAdhanA~\\#{2382}"
+    ],
+    [
+      "ta:ciruttoNDa nAyan2Ar gurupUjai",
+      "vRSabha-saGkramaNam",
+      "vaizAkha-snAnapUrtiH",
+      "zani~jayantI",
+      "zuka~maharSi~jayantI",
+      "vaizAkha-amAvasyA",
+      "viSNupadI-vRSabharaviH",
+      "ta:kazhar2ciGga nAyan2Ar gurupUjai"
+    ],
+    [
+      "candra-darzanam"
+    ],
+    [],
+    [],
+    [],
+    [
+      "SaSThI-vratam",
+      "ta:naminandiyaDigaL nAyan2Ar gurupUjai"
+    ],
+    [
+      "kAJcI 23 jagadguru zrI~saccitsukhEndra sarasvatI ArAdhanA~\\#{1507}",
+      "ta:sOmAsimAra nAyan2Ar gurupUjai"
+    ],
+    [
+      "kAJcI 16 jagadguru zrI~ujjvala zaGkarEndra sarasvatI ArAdhanA~\\#{1652}",
+      "ta:mayilai~veLLIzvarar~brahmOtsavam"
+    ],
+    [],
+    [],
+    [
+      "sarva-padminI-EkAdazI",
+      "harivAsaraH\\textsf{}{\\RIGHTarrow}\\textsf{23:43}",
+      "harivAsaraH\\textsf{}{\\RIGHTarrow}\\textsf{23:43}",
+      "kAJcI~1 jagadguru zrI~Adi-zaGkara bhagavatpAda ArAdhanA~\\#{2494}"
+    ],
+    [
+      "zani-pradOSa-vratam"
+    ],
+    [],
+    [
+      "ta:vaikAci~vizAkham",
+      "ta:nammAzhvAr tirunakSattiram"
+    ],
+    [
+      "vEGkaTAcalE paurNamI~garuDa-sEvA",
+      "agninakSatra-samApanam",
+      "kAJcI jagadguru zrI~candrazEkharEndra sarasvatI jayantI~\\#{125}"
+    ],
+    [],
+    [
+      "ta:tiruJAn2asambandhamUrtti nAyan2Ar gurupUjai",
+      "ta:tirunIlakaNTha yAzhppANa nAyan2Ar gurupUjai",
+      "ta:tirunIlanakka nAyan2Ar gurupUjai",
+      "ta:muruga nAyan2Ar gurupUjai"
+    ],
+    [],
+    [
+      "saGkaTahara-caturthI-vratam",
+      "saGkaTahara-caturthI-vratam"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "sarva-paramA-EkAdazI",
+      "harivAsaraH\\textsf{}{\\RIGHTarrow}\\textsf{17:31}",
+      "harivAsaraH\\textsf{}{\\RIGHTarrow}\\textsf{17:31}"
+    ],
+    [
+      "sOma-pradOSa-vratam",
+      "ta:kazhar2ciGga nAyan2Ar gurupUjai",
+      "cidambarE dhvajArOhaNam/paJcamUrti rathOtsavaH"
+    ],
+    [
+      "cidambarE rajata candraprabha vAhanam"
+    ],
+    [
+      "jyaiSTha-(Adhika)-amAvasyA",
+      "cidambarE svarNa-sUryaprabha vAhanam"
+    ],
+    [
+      "karavIra-vratam",
+      "bhadra-catuSTaya-vratam",
+      "punnAga-gaurI-vratam",
+      "cidambarE rajata bhUta vAhanam"
+    ],
+    [
+      "candra-darzanam",
+      "zRGgErI 32 jagadguru zrI~nRsiMha bhAratI ArAdhanA",
+      "SaDazIti-mithunaraviH",
+      "cidambarE rajata RSabha vAhanam"
+    ],
+    [
+      "rambhA~tRtIyA",
+      "cidambarE rajata-gajavAhanam"
+    ],
+    [
+      "umA-avatAraH",
+      "kadalI-gaurI-vratam/pUjA",
+      "ta:pugazhttuNai nAyan2Ar gurupUjai",
+      "cidambarE kailAsa vAhanam"
+    ],
+    [
+      "SaSThI-vratam",
+      "kAJcI 6 jagadguru zrI~zuddhAnandEndra sarasvatI ArAdhanA~\\#{2142}",
+      "kAJcI 50 jagadguru zrI~candracUDEndra sarasvatI 1 ArAdhanA~\\#{722}",
+      "ta:mANikkavAcakar gurupUjai",
+      "cidambarE bhikSATana svarNarathaH",
+      "zrInivAsamaGgApure sAkSAtkAra-vaibhavOtsava-ArambhaH"
+    ],
+    [
+      "AraNya-gaurI-vratam",
+      "vindhyAvAsinI-dEvI-pUjA",
+      "ta:amaranIti nAyan2Ar gurupUjai",
+      "zrInivAsamaGgApure sAkSAtkAra-vaibhavOtsavaH",
+      "varuNa-pUjA",
+      "cidambarE rathOtsavaH"
+    ],
+    [
+      "ta:naTarAjar An2i tirumaJcan2am",
+      "budhASTamI",
+      "dhUmAvatI~jayantI",
+      "jyESThASTamI",
+      "cidambarE naTarAjasya rAjasabhAyAM mahAbhiSEkaH",
+      "zrInivAsamaGgApure sAkSAtkAra-vaibhavOtsava-samApanam"
+    ],
+    [
+      "brahmANI-pUjA",
+      "zukla-dEvI-pUjA",
+      "kAJcI 61 jagadguru zrI~mahAdEvEndra sarasvatI 4 ArAdhanA~\\#{273}",
+      "mahEza-navamI",
+      "cidambarE muttuppallakku"
+    ],
+    [
+      "dazaharA/gaGgAvataraNam/dazapApaharA~dazamI",
+      "kAJcI 17 jagadguru zrI~sadAzivEndra sarasvatI ArAdhanA~\\#{1644}",
+      "kAJcI 53 jagadguru zrI~pUrNAnanda sadAzivEndra sarasvatI ArAdhanA~\\#{521}",
+      "sudarzana~jayantI"
+    ],
+    [
+      "sarva-pANDava-nirjalA-EkAdazI",
+      "ta:periyAzhvAr tirunakSattiram"
+    ],
+    [
+      "harivAsaraH\\textsf{}{\\RIGHTarrow}\\textsf{10:05}",
+      "harivAsaraH\\textsf{}{\\RIGHTarrow}\\textsf{10:05}",
+      "gavAmayana-dvAdazI",
+      "rAmalakSmaNa-dvAdazI",
+      "kAJcI 2 jagadguru zrI~surEzvarAcArya ArAdhanA~\\#{2424}",
+      "alarmElmaGgApurE plavOtsava-ArambhaH"
+    ],
+    [
+      "sOma-pradOSa-vratam",
+      "sOma-pradOSa-vratam",
+      "durgandha-daurbhAgya-nAzaka-trayOdazI",
+      "vidyAraNya~svAmI~ArAdhanA~\\#{627}",
+      "chatrapati~zivAjI~rAjyAbhiSEkaH",
+      "alarmElmaGgApurE plavOtsavaH~2"
+    ],
+    [
+      "vEGkaTAcalE jyESTha-abhidyEyakAbhiSEkaH (vajra-kavacam)",
+      "alarmElmaGgApurE plavOtsavaH~3"
+    ],
+    [
+      "vEGkaTAcalE paurNamI~garuDa-sEvA",
+      "vEGkaTAcalE jyESTha-abhidyEyakAbhiSEkaH (mutyala-kavacam)",
+      "alarmElmaGgApurE plavOtsavaH~4"
+    ],
+    [
+      "vaTa-pUrNimA/vaTa-sAvitrI-vratam",
+      "eruvaka-pUrNimA",
+      "vEGkaTAcalE jyESTha-abhidyEyakAbhiSEkaH (svarNa-kavacam)",
+      "kabIradAsa~jayantI",
+      "manvAdi~(bhautya)",
+      "manvAdi~(tAmasa)~1",
+      "alarmElmaGgApurE plavOtsava~samApanam"
+    ],
+    [],
+    [],
+    [
+      "saGkaTahara-caturthI-vratam"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [
+      "vinAyakASTamI",
+      "tindukASTamI",
+      "trilocanASTamI",
+      "zItalASTamI"
+    ],
+    [
+      "ta:eyarkOn2 kalikkAma nAyan2Ar gurupUjai"
+    ],
+    [],
+    [
+      "sarva-yOginI-EkAdazI"
+    ],
+    [
+      "harivAsaraH\\textsf{}{\\RIGHTarrow}\\textsf{02:50}",
+      "harivAsaraH\\textsf{}{\\RIGHTarrow}\\textsf{02:50}",
+      "pradOSa-vratam",
+      "pApanAzinI~mahAdvAdazI"
+    ],
+    [],
+    [
+      "jyaiSTha-amAvasyA"
+    ],
+    [
+      "bhOgazAyI-pUjA",
+      "mithuna-saGkramaNam",
+      "vArAhI-navarAtri-ArambhaH",
+      "kAJcI 25 jagadguru zrI~saccidAnandaghanEndra sarasvatI ArAdhanA~\\#{1471}"
+    ],
+    [
+      "candra-darzanam",
+      "jagannAtha-ratha-yAtrA",
+      "amRtalakSmI-vratam"
+    ],
+    [
+      "ta:pugazhttuNai nAyan2Ar gurupUjai"
+    ],
+    [
+      "ta:mANikkavAcakar gurupUjai"
+    ],
+    [
+      "ta:amaranIti nAyan2Ar gurupUjai",
+      "zamI-gaurI-vratam",
+      "skanda-paJcamI",
+      "ta:tiruvADippUram",
+      "sarvanadI-rajasvalA~1",
+      "dakSiNAyana-puNyakAlaH"
+    ],
+    [
+      "kumAra-SaSThI-vratam",
+      "kAJcI 35 jagadguru zrI~citsukhEndra sarasvatI ArAdhanA~\\#{1282}",
+      "sarvanadI-rajasvalA~2"
+    ],
+    [
+      "vaivasvata-saptamI",
+      "sarvanadI-rajasvalA~3"
+    ],
+    [
+      "mahiSaghnI-pUjA",
+      "ta:perumizhalaik kur2umba nAyan2Ar gurupUjai",
+      "ta:ADi~veLLikkizhamai",
+      "kAJcI 12 jagadguru zrI~candrazEkharEndra sarasvatI ArAdhanA~\\#{1784}"
+    ],
+    [
+      "vArAhI-navarAtri-samApanam",
+      "upEndra-navamI",
+      "aindrI-durgA-pujA",
+      "ta:kazhar2ir2r2ar2ivAr nAyan2Ar gurupUjai",
+      "ta:cundaramUrtti nAyan2Ar gurupUjai",
+      "manvAdi~(cAkSuSa)~1",
+      "manvAdi~(vaivasvata)"
+    ],
+    [
+      "zAka-vratam (mahAlakSmI)",
+      "dadhi-vratam (mahAlakSmI)",
+      "zAkavrata-ArambhaH",
+      "cAturmAsyavrata-ArambhaH",
+      "kAJcI 48 jagadguru zrI~advaitAnandabOdhEndra sarasvatI ArAdhanA~\\#{819}",
+      "AzA~dazamI"
+    ],
+    [
+      "sarva-zayana-EkAdazI",
+      "harivAsaraH\\textsf{}{\\RIGHTarrow}\\textsf{22:52}",
+      "harivAsaraH\\textsf{}{\\RIGHTarrow}\\textsf{22:52}",
+      "gOpadma-vrata-ArambhaH"
+    ],
+    [
+      "vAsudEva-dvAdazI",
+      "kAJcI 31 jagadguru zrI~brahmAnandaghanEndra sarasvatI ArAdhanA~\\#{1351}",
+      "kAJcI 63 jagadguru zrI~mahAdEvEndra sarasvatI 5 ArAdhanA~\\#{205}",
+      "ta:kaliya nAyan2Ar gurupUjai",
+      "ta:kOTpuli nAyan2Ar gurupUjai"
+    ],
+    [
+      "pradOSa-vratam",
+      "pradOSa-vratam"
+    ],
+    [],
+    [
+      "vEGkaTAcalE paurNamI~garuDa-sEvA",
+      "ta:ADi~veLLikkizhamai",
+      "guru-pUrNimA/vyAsa-pUjA",
+      "ziva-zayanOtsavaH",
+      "kOkila-vratam",
+      "yaticAturmAsyavrata-ArambhaH",
+      "manvAdi~(rudra-sAvarNi)",
+      "ASADha-pUrNimA-snAnam",
+      "kAJcI 10 jagadguru zrI~surEzvarEndra sarasvatI ArAdhanA~\\#{1892}",
+      "candra-grahaNam~(kEtugrasta)~\\textsf{23:54}{\\RIGHTarrow}\\textsf{03:49(+1)}"
+    ],
+    [
+      "kAJcI 54 jagadguru zrI~vyAsAcala mahAdEvEndra sarasvatI ArAdhanA~\\#{512}"
+    ],
+    [
+      "azUnyazayana-vratam~1",
+      "kAJcI jagadguru zrI~jayEndra sarasvatI jayantI~\\#{84}",
+      "aSTanAga-pUjA"
+    ],
+    [],
+    [
+      "saGkaTahara-caturthI-vratam"
+    ],
+    [],
+    [],
+    [
+      "ta:ADi~veLLikkizhamai",
+      "ta:ADip~perukku"
+    ],
+    [
+      "cAmuNDEzvarI~jayantI"
+    ],
+    [],
+    [
+      "ta:ADik~kiruttikai",
+      "ta:pugazhccOzha nAyan2Ar gurupUjai",
+      "ta:mUrtti nAyan2Ar gurupUjai"
+    ],
+    [
+      "ta:tiruppANAzhvAr tirunakSattiram"
+    ],
+    [
+      "sarva-kAmikA-EkAdazI",
+      "harivAsaraH\\textsf{}{\\RIGHTarrow}\\textsf{10:31}"
+    ],
+    [
+      "pradOSa-vratam",
+      "pradOSa-vratam",
+      "ta:kUr2r2uva nAyan2Ar gurupUjai"
+    ],
+    [
+      "ta:ADi~veLLikkizhamai"
+    ],
+    [
+      "kAJcI 38 jagadguru zrI~abhinavazaGkarEndra sarasvatI ArAdhanA~\\#{1179}",
+      "kAJcI 46 jagadguru zrI~sAndrAnandabOdhEndra sarasvatI ArAdhanA~\\#{921}",
+      "dIpa-pUjA",
+      "ASADha-snAnapUrtiH",
+      "pati-saJjIvanI-vratam",
+      "ASADha (kaTaka) amAvasyA"
+    ],
+    [
+      "candra-darzanam",
+      "kAJcI 41 jagadguru zrI~gaGgAdharEndra sarasvatI 2 ArAdhanA~\\#{1069}"
+    ],
+    [
+      "ta:tiruvADippUram",
+      "manOratha-dvitIyA",
+      "satyanArAyaNa~jayantI",
+      "pArvatI~pavitrArOpaNam",
+      "hariyAlI~tRtIyA",
+      "madhuzrAvaNi-vratam"
+    ],
+    [
+      "sukhA~aGgAraka-caturthI",
+      "dUrvA-gaNapati-vratam"
+    ],
+    [
+      "garuDa-paJcamI",
+      "nAga-paJcamI"
+    ],
+    [
+      "SaSThI-vratam",
+      "ta:perumizhalaik kur2umba nAyan2Ar gurupUjai",
+      "kalki~jayantI",
+      "sUpOdana-vratam"
+    ],
+    [
+      "ta:kazhar2ir2r2ar2ivAr nAyan2Ar gurupUjai",
+      "ta:cundaramUrtti nAyan2Ar gurupUjai",
+      "tulasIdAsa~jayantI",
+      "zItalA~saptamI",
+      "pApanAzanI~saptamI",
+      "avyaGga-saptamI",
+      "dvAdaza-saptamI",
+      "mahAjayA~saptamI",
+      "viSNupadI-siMharaviH"
+    ],
+    [
+      "durgA-vrata-ArambhaH",
+      "ta:tiruccendUr AvaNit tiruvizhA nir2aivu"
+    ],
+    [
+      "kaumArI-pUjA",
+      "ta:kulaccirai nAyan2Ar gurupUjai",
+      "ta:AvaNi~JAyir2r2ukkizhamai"
+    ],
+    [
+      "kAJcI 57 jagadguru zrI~paramazivEndra sarasvatI 2 ArAdhanA~\\#{433}",
+      "vEda/dadhi-vrata-ArambhaH"
+    ],
+    [
+      "kAJcI 29 jagadguru zrI~pUrNabOdhEndra sarasvatI ArAdhanA~\\#{1401}",
+      "gajEndra-mOkSaH~2",
+      "ta:piTTukku maN cumanda lIlai",
+      "ta:kuGgiliyakkalaya nAyan2Ar gurupUjai"
+    ],
+    [
+      "sarva-pavitrOpAna-EkAdazI",
+      "harivAsaraH\\textsf{}{\\RIGHTarrow}\\textsf{14:18}",
+      "sarva-pavitrOpAna-EkAdazI",
+      "harivAsaraH\\textsf{}{\\RIGHTarrow}\\textsf{14:18}",
+      "harivAsaraH\\textsf{}{\\RIGHTarrow}\\textsf{14:18}"
+    ],
+    [
+      "pradOSa-vratam",
+      "zAkavrata-samApanam",
+      "dadhi-vrata-ArambhaH",
+      "dAmOdara-dvAdazI"
+    ],
+    [
+      "anaGga-trayOdazI",
+      "varalakSmI-vratam"
+    ],
+    [
+      "vEGkaTAcalE paurNamI~garuDa-sEvA",
+      "RgvEda-upAkarma",
+      "ta:ONam",
+      "ta:naTarAjar mahAbhiSEkam~2"
+    ],
+    [
+      "ta:AvaNi~JAyir2r2ukkizhamai",
+      "yajurvEda-upAkarma",
+      "hayagrIva~jayantI",
+      "gAyatrI~jayantI",
+      "saMskRta-divasaH",
+      "vaikhAnasa~maharSi~jayantI",
+      "kAJcI 20 jagadguru zrI~mUkazaGkarEndra sarasvatI ArAdhanA~\\#{1582}",
+      "nArikEla-pUrNimA",
+      "rAkhI-pUrNimA"
+    ],
+    [
+      "gAyatrI-japaH"
+    ],
+    [
+      "azUnyazayana-vratam~2",
+      "zrI~rAghavEndra~svAmI~ArAdhanA~\\#{347}",
+      "bRhatI-vRkSaka-pUjA",
+      "bhIma~caNDI~jayantI"
+    ],
+    [
+      "kajjalI~tRtIyA",
+      "tuSTi-prApti-tRtIyA"
+    ],
+    [
+      "mahAsaGkaTahara-caturthI-vratam",
+      "mahAsaGkaTahara-caturthI-vratam",
+      "bahulA~caturthI"
+    ],
+    [
+      "rakSA~paJcamI"
+    ],
+    [
+      "hala-SaSThI"
+    ],
+    [
+      "ta:AvaNi~JAyir2r2ukkizhamai",
+      "bhAnusaptamI",
+      "zrIkRSNajanmASTamI",
+      "mahAkAlI~jayantI"
+    ],
+    [
+      "manvAdi~(brahma-sAvarNi)",
+      "zrIkRSNadEvarAya-rAjyAbhiSEkaH",
+      "kAJcI 21 jagadguru zrI~candrazEkharEndra sarasvatI 2 ArAdhanA~\\#{1572}",
+      "zrI~jayantI",
+      "nandOtsavaH",
+      "ta:tiruccendUr murugan2 AvaNit tiruvizhA toDakkam/koDiyEr2r2am",
+      "ta:varagUr ur2iyaDi utsavam"
+    ],
+    [
+      "caNDikA-pUjA",
+      "aravinda~jayantI",
+      "kaumAra-pUjA",
+      "kAJcI 24 jagadguru zrI~citsukhEndra sarasvatI ArAdhanA~\\#{1492}",
+      "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##2##m nAL"
+    ],
+    [
+      "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##3##m nAL\u2014murugan2 bhavan2i"
+    ],
+    [
+      "sarva-ajA-EkAdazI",
+      "harivAsaraH\\textsf{}{\\RIGHTarrow}\\textsf{17:31}",
+      "harivAsaraH\\textsf{}{\\RIGHTarrow}\\textsf{17:31}",
+      "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##4##m nAL\u2014yAn2ai vAhanattil murugan2-ambAL bhavan2i"
+    ],
+    [
+      "pradOSa-vratam",
+      "jayA~mahAdvAdazI",
+      "rOhiNI~dvAdazI",
+      "ta:ceruttuNai nAyan2Ar gurupUjai",
+      "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##5##m nAL"
+    ],
+    [
+      "ta:atipatta nAyan2Ar gurupUjai",
+      "aghOra-caturdazI",
+      "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##6##m nAL\u2014veLLit tEr bhavan2i"
+    ],
+    [
+      "ta:AvaNi~JAyir2r2ukkizhamai",
+      "ta:iLaiyAn2kuDi mAr2a nAyan2Ar gurupUjai",
+      "zravaNa-amAvasyA",
+      "vRSabha-pUjA",
+      "64 yOginI-pUjA",
+      "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##7##m nAL\u2014cigappu cAtti alaGkAram"
+    ],
+    [
+      "mRgazIrSa-vratam",
+      "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##8##m nAL\u2014paccai cAtti alaGkAram"
+    ],
+    [
+      "candra-darzanam",
+      "sAmavEda-upAkarma",
+      "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##9##m nAL"
+    ],
+    [
+      "varAha~jayantI",
+      "haritAlikA-vratam",
+      "manvAdi~(raivata)",
+      "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##10##m nAL\u2014tEr"
+    ],
+    [
+      "zrIvinAyaka-caturthI",
+      "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##11##m nAL"
+    ],
+    [
+      "ta:tiruccendUr AvaNit tiruvizhA nir2aivu",
+      "RSi-paJcamI-vratam"
+    ],
+    [
+      "ta:kulaccirai nAyan2Ar gurupUjai",
+      "SaSThIdEvI-SaSThI-vratam",
+      "sUrya-SaSThI",
+      "kumArikA-svapanam",
+      "manthana-SaSThI",
+      "lalitA-SaSThI"
+    ],
+    [
+      "vijayA~bhAnusaptamI",
+      "ta:AvaNi~JAyir2r2ukkizhamai",
+      "amuktAbharaNa-saptamI",
+      "kukkuTI-vratam",
+      "anantaphala-saptamI"
+    ],
+    [
+      "gajEndra-mOkSaH~2",
+      "ta:piTTukku maN cumanda lIlai",
+      "ta:kuGgiliyakkalaya nAyan2Ar gurupUjai",
+      "rAdhASTamI",
+      "dUrvASTamI",
+      "dadhIci~maharSi~jayanti",
+      "vizvakarmA~jayantI",
+      "SaDazIti-kanyAraviH"
+    ],
+    [
+      "mahAlakSmI-vrata-ArambhaH",
+      "aduHkhanavamI",
+      "tAlanavamI",
+      "gOdhUmA~navamI",
+      "nandA~navamI"
+    ],
+    [
+      "dazAvatAra-vratam",
+      "vitastOtsavaH"
+    ],
+    [
+      "sarva-parivartinI-EkAdazI",
+      "kaTadAnOtsavaH",
+      "ta:En2AdinAtha nAyan2Ar gurupUjai"
+    ],
+    [
+      "harivAsaraH\\textsf{}{\\RIGHTarrow}\\textsf{07:54}",
+      "harivAsaraH\\textsf{}{\\RIGHTarrow}\\textsf{07:54}",
+      "vijayA/zravaNa-mahAdvAdazI",
+      "dadhi-vrata-samApanam",
+      "payOvrata-ArambhaH",
+      "vAmana~jayantI",
+      "bhuvanEzvarI~jayantI",
+      "ananta-dvAdazI"
+    ],
+    [
+      "zani-pradOSa-vratam",
+      "zani-pradOSa-vratam",
+      "gO-trirAtri-vratam~1",
+      "dUrva-tri-vratam",
+      "ta:puraTTAci~can2ikkizhamai"
+    ],
+    [
+      "ananta-caturdazI",
+      "ananta-padmanAbha-vratam",
+      "ta:naTarAjar mahAbhiSEkam~3",
+      "ta:naraciGgamun2aiyaraiya nAyan2Ar gurupUjai"
+    ],
+    [
+      "vEGkaTAcalE paurNamI~garuDa-sEvA",
+      "kAJcI 59 jagadguru zrI~bhagavannAma bOdhEndra sarasvatI ArAdhanA~\\#{327}"
+    ],
+    [
+      "yaticAturmAsyavrata-samApanam",
+      "vizvarUpa-yAtrA",
+      "umA-mahEzvara-vratam",
+      "upAGga-lalitA-gaurI-vratam",
+      "dikpAla-pUjA~1",
+      "mahAlaya-pakSa-ArambhaH"
+    ],
+    [
+      "azUnyazayana-vratam~3"
+    ],
+    [
+      "ta:rudra~pazupati nAyan2Ar gurupUjai"
+    ],
+    [
+      "saGkaTahara-caturthI-vratam",
+      "kajarI~tRtIyA",
+      "gaurI-vratam",
+      "mahAbharaNI"
+    ],
+    [
+      "ta:puraTTAci~can2ikkizhamai",
+      "dikpAla-pUjA~2"
+    ],
+    [
+      "nAga-pUjA",
+      "saptarSi-pUjA/arghyam",
+      "ta:tirunALaippOvAr nAyan2Ar gurupUjai",
+      "kapila-SaSThI",
+      "candra-SaSThI",
+      "kAJcI 33 jagadguru zrI~saccidAnandaghanEndra sarasvatI 2 ArAdhanA~\\#{1327}",
+      "kAvErI-antya-puSkara-ArambhaH"
+    ],
+    [
+      "mahAvyatIpAtam",
+      "mahAlakSmI-vrata-samApanam",
+      "zRGgErI 35 jagadguru zrI~abhinava vidyAtIrtha mahAsvAmI ArAdhanA"
+    ],
+    [
+      "madhyASTamI",
+      "jImUtavAhana-pUjA~1",
+      "azOkASTamI-vrata-ArambhaH"
+    ],
+    [
+      "sumaGgalI~navamI",
+      "durgA/gaurI-pUjA"
+    ],
+    [],
+    [
+      "sarva-indirA-EkAdazI"
+    ],
+    [
+      "harivAsaraH\\textsf{}{\\RIGHTarrow}\\textsf{00:38}",
+      "harivAsaraH\\textsf{}{\\RIGHTarrow}\\textsf{00:38}",
+      "zani-pradOSa-vratam",
+      "gajacchAyA-yOgaH-\\textsf{16:40}{\\RIGHTarrow}\\textsf{17:10}",
+      "ta:puraTTAci~can2ikkizhamai",
+      "yati-mahAlayam",
+      "zrI~bOdhEndra sarasvatI ArAdhanA"
+    ],
+    [
+      "kaliyugAdi",
+      "kAJcI 44 jagadguru zrI~pUrNabOdhEndra sarasvatI 2 ArAdhanA~\\#{979}"
+    ],
+    [
+      "gajacchAyA-yOgaH-\\textsf{13:33}{\\RIGHTarrow}\\textsf{09:16(+1)}",
+      "zastrahatacaturdazI",
+      "kAtyAyanI~jayantI",
+      "(bhAdrapada) mahAlaya amAvasyA",
+      "zRGgErI 34 jagadguru zrI~candrazEkhara bhAratI ArAdhanA",
+      "mahAlaya-pakSa-samApanam"
+    ],
+    [
+      "kanyA-saGkramaNam",
+      "azvazirO-dEva-pUjA",
+      "sujanmaprApti-vratam"
+    ],
+    [
+      "candra-darzanam",
+      "zarannavarAtri-ArambhaH",
+      "dauhitra-pratipat",
+      "gRhadEvI-pUjA",
+      "stanavRddhi-gaurI-vratam",
+      "agrasEna~mahArAja~jayantI"
+    ],
+    [
+      "mEghapAlIya-tRtIyA",
+      "kAvErI-antya-puSkara-samApanam"
+    ],
+    [
+      "dEvatA-suvAsinI-pUjA",
+      "guru-saGkrAntiH~(tulA##\\To{}##vRzcika)",
+      "bhImA/tAmraparNI-Adi-puSkara-ArambhaH"
+    ],
+    [
+      "ta:puraTTAci~can2ikkizhamai",
+      "upAGga-lalitA-vratam",
+      "lalitA-paJcamI",
+      "zAnti-paJcamI-vratam"
+    ],
+    [
+      "SaSThI-vratam"
+    ],
+    [
+      "sarasvatI-AvAhanam",
+      "kAJcI 45 jagadguru zrI~paramazivEndra sarasvatI 1 ArAdhanA~\\#{958}"
+    ],
+    [
+      "zubha-saptamI",
+      "patrikA-pravEza-pUjA"
+    ],
+    [
+      "budhASTamI",
+      "ta:En2AdinAtha nAyan2Ar gurupUjai",
+      "durgASTamI",
+      "bhadrakALI-pUjA",
+      "kAla-trirAtri-vratam",
+      "kAJcI 19 jagadguru zrI~mArtANDa vidyAghanEndra sarasvatI ArAdhanA~\\#{1621}"
+    ],
+    [
+      "zarannavarAtri-samApanam",
+      "mahAnavamI/sarasvatI-pUjA",
+      "bhadrakALI-vratam",
+      "manvAdi~(svAyambhuva)",
+      "buddha~jayantI",
+      "tulA-viSu-puNyakAlaH",
+      "ta:poygaiyAzhvAr tirunakSattiram"
+    ],
+    [
+      "vijayadazamI",
+      "ta:Ayudha~pUjai",
+      "madhvAcArya~jayantI~\\#{781}",
+      "dazaharA",
+      "gaGgAvataraNam",
+      "kUSmANDa-dazamI",
+      "yuddhadEvatA-ArAdhanA",
+      "durgA-pUjA",
+      "ta:bhUtattAzhvAr tirunakSattiram"
+    ],
+    [
+      "sarva-pApAGkuzA-EkAdazI",
+      "ta:pEyAzhvAr tirunakSattiram"
+    ],
+    [
+      "harivAsaraH\\textsf{}{\\RIGHTarrow}\\textsf{02:27}",
+      "harivAsaraH\\textsf{}{\\RIGHTarrow}\\textsf{02:27}",
+      "payOvrata-samApanam",
+      "dvidala-vrata-ArambhaH"
+    ],
+    [
+      "sOma-pradOSa-vratam",
+      "sOma-pradOSa-vratam"
+    ],
+    [
+      "bhImA/tAmraparNI-Adi-puSkara-samApanam"
+    ],
+    [
+      "vEGkaTAcalE paurNamI~garuDa-sEvA",
+      "zarad-pUrNimA",
+      "vAlmIki~maharSi~jayantI",
+      "kO-jAgarti-vratam",
+      "mIrAbAI~jayantI~\\#{521}",
+      "kaumudI-utsavaH",
+      "lakSmI-indra-kubEra-pUjA",
+      "kumAra-paurNamAsI/mahA-azvini",
+      "kuntI~(pArvatI)-vratam",
+      "kAJcI 36 jagadguru zrI~citsukhAnandEndra sarasvatI ArAdhanA~\\#{1261}",
+      "mahA~annAbhiSEkaH",
+      "AgrayaNa~hOmaH~1"
+    ],
+    [
+      "saptama-aparapakSa-ArambhaH",
+      "jayAvApti-vratam",
+      "ta:tirumUla nAyan2Ar gurupUjai"
+    ],
+    [
+      "azUnyazayana-vratam~4",
+      "ta:nin2r2acIr neDumAr2a nAyan2Ar gurupUjai",
+      "candrOdaya-gaurI-vratam"
+    ],
+    [
+      "saGkaTahara-caturthI-vratam",
+      "kanaka-gaNEza-vratam",
+      "lalitA-gaurI-vratam",
+      "ta:iDaGkazhi nAyan2Ar gurupUjai",
+      "karaka-caturthI"
+    ],
+    [],
+    [
+      "ghOTaka-paJcamI"
+    ],
+    [
+      "sEGgAlipuram anantarAma-dIkSita-ArAdhanA~\\#{49}"
+    ],
+    [
+      "kAJcI 58 jagadguru zrI~AtmabOdhEndra sarasvatI ArAdhanA~\\#{381}"
+    ],
+    [
+      "jImUtavAhana-pUjA~2",
+      "maGgala-vratam",
+      "kAlASTamI",
+      "jIvaputrikASTamI",
+      "mahAlakSmI-vratam"
+    ],
+    [
+      "bhImasEna~jayantI"
+    ],
+    [
+      "smArta-ramA-EkAdazI",
+      "ta:catti nAyan2Ar gurupUjai",
+      "zRGgErI 34 jagadguru zrI~candrazEkhara bhAratI jayantI"
+    ],
+    [
+      "vaiSNava-ramA-EkAdazI",
+      "harivAsaraH\\textsf{}{\\RIGHTarrow}\\textsf{08:45}",
+      "harivAsaraH\\textsf{}{\\RIGHTarrow}\\textsf{08:45}",
+      "gOvatsa-dvAdazI",
+      "vasudEva-pUjA",
+      "vyAghra-dvAdazI"
+    ],
+    [
+      "sOma-pradOSa-vratam",
+      "sOma-pradOSa-vratam",
+      "dhanvantari~jayantI",
+      "dhana-trayOdazI",
+      "gO-trirAtri-vratam~2",
+      "(yama)-dIpa-trayOdazI"
+    ],
+    [
+      "naraka-caturdazI",
+      "dIpOtsava-caturdazI/yama-tarpaNam",
+      "prEta-caturdazI",
+      "zRGgErI 35 jagadguru zrI~abhinava vidyAtIrtha mahAsvAmI jayantI",
+      "kRSNAGgAraka-caturdazI-puNyakAlaH/yamatarpaNam"
+    ],
+    [
+      "vikramAditya-paTTAbhiSEkaH",
+      "zrIrAma-paTTAbhiSEkaH",
+      "dIpAvalI/lakSmI-kubEra-pUjA",
+      "kEdAra-gaurI-vratam",
+      "AgrayaNa~hOmaH~2",
+      "kamalA~jayantI",
+      "Azvayuja-amAvasyA",
+      "saptama-aparapakSa-samApanam"
+    ],
+    [
+      "gOvardhana-pUjA"
+    ],
+    [
+      "candra-darzanam",
+      "candra-darzanam",
+      "yama/bhrAtR-dvitIyA",
+      "ta:pUcalAr nAyan2Ar gurupUjai"
+    ],
+    [],
+    [
+      "ta:aiyaDigaL kADavarkOn2 nAyan2Ar gurupUjai"
+    ],
+    [
+      "dEvasEnA~paJcamI",
+      "pANDava~(lAbha)-paJcamI",
+      "sarpa-pUjA~2"
+    ],
+    [
+      "skandaSaSThI-vratam"
+    ],
+    [
+      "ta:poygaiyAzhvAr tirunakSattiram",
+      "kalpAdi~4"
+    ],
+    [
+      "gOpASTamI"
+    ],
+    [
+      "ta:bhUtattAzhvAr tirunakSattiram",
+      "kArtavIryArjuna~jayantI",
+      "kRtayugAdi",
+      "kAJcI 22 jagadguru zrI~paripUrNabOdhEndra sarasvatI ArAdhanA~\\#{1538}"
+    ],
+    [
+      "ta:pEyAzhvAr tirunakSattiram",
+      "akSayA~navamI",
+      "jagaddhAtrI-pUjA",
+      "kRttikA-maNDala-pArAyaNam",
+      "viSNupadI-vRzcikaraviH"
+    ],
+    [
+      "kaMsa-vadhaH",
+      "ta:kArttigai~JAyir2r2ukkizhamai"
+    ],
+    [
+      "sarva-utthAna-EkAdazI",
+      "sarva-guruvAyupura-EkAdazI",
+      "kaizika-EkAdazI",
+      "harivAsaraH\\textsf{}{\\RIGHTarrow}\\textsf{20:37}",
+      "harivAsaraH\\textsf{}{\\RIGHTarrow}\\textsf{20:37}",
+      "Adi-zaGkara mAnasika-sannyAsa-dinam",
+      "ta:kArttigai~sOmavAram"
+    ],
+    [
+      "pradOSa-vratam",
+      "gOpadma-vrata-samapanam",
+      "dvidala-vrata-samApanam",
+      "tulasI-vivAhaH",
+      "yAjJavalkya~jayantI",
+      "bRndAvana-dvAdazI",
+      "prabOdhOtsavaH",
+      "manvAdi~(svArOciSa)~2"
+    ],
+    [],
+    [
+      "vEGkaTAcalE paurNamI~garuDa-sEvA",
+      "maNikarNikA-snAnam",
+      "ta:bharaNI~dIpam",
+      "tripurOtsavaH",
+      "manvAdi~(uttama)~2",
+      "zrI~gOvinda bhagavatpAda ArAdhanA",
+      "ta:tiruvaNNAmalai~dIpam",
+      "ta:sarvAlaya~dIpam",
+      "ta:kArttigai"
+    ],
+    [
+      "cAturmAsyavrata-samApanam",
+      "manvAdi~(dakSa-sAvarNi)",
+      "kArtika-pUrNimA-snAnam",
+      "AgrayaNa~hOmaH~3",
+      "ta:kaNampulla nAyan2Ar gurupUjai",
+      "ta:tirumaGgaiyAzhvAr tirunakSattiram",
+      "navama-aparapakSa-ArambhaH",
+      "kAJcI 64 jagadguru zrI~candrazEkharEndra sarasvatI 6 ArAdhanA~\\#{168}"
+    ],
+    [],
+    [
+      "ta:kArttigai~JAyir2r2ukkizhamai",
+      "kAJcI 9 jagadguru zrI~kRpAzaGkarEndra sarasvatI ArAdhanA~\\#{1950}",
+      "saubhAgya-sundarI-vratam"
+    ],
+    [
+      "saGkaTahara-caturthI-vratam",
+      "ta:kArttigai~sOmavAram"
+    ],
+    [],
+    [
+      "tiruvizalUr gaGgAkarSaNa-mahOtsava-ArambhaH"
+    ],
+    [],
+    [
+      "kAlabhairavASTamI",
+      "kAJcI 42 jagadguru zrI~brahmAnandaghanEndra sarasvatI 2 ArAdhanA~\\#{1041}",
+      "kAJcI 49 jagadguru zrI~mahAdEvEndra sarasvatI 3 ArAdhanA~\\#{772}"
+    ],
+    [
+      "ta:meypporuL nAyan2Ar gurupUjai"
+    ],
+    [
+      "ta:kArttigai~JAyir2r2ukkizhamai",
+      "kAJcI 28 jagadguru zrI~mahAdEvEndra sarasvatI 1 ArAdhanA~\\#{1418}",
+      "ta:An2Aya nAyan2Ar gurupUjai"
+    ],
+    [
+      "sarva-utpannA-EkAdazI",
+      "harivAsaraH\\textsf{}{\\RIGHTarrow}\\textsf{18:48}",
+      "harivAsaraH\\textsf{}{\\RIGHTarrow}\\textsf{18:48}",
+      "ta:kArttigai~sOmavAram"
+    ],
+    [
+      "pradOSa-vratam"
+    ],
+    [],
+    [
+      "kArtika-amAvasyA",
+      "navama-aparapakSa-samApanam"
+    ],
+    [
+      "AgrayaNa~hOmaH~4",
+      "tiruvizalUr gaGgAkarSaNa-mahOtsava-samApanam",
+      "kArtika-snAnapUrtiH"
+    ],
+    [
+      "candra-darzanam",
+      "ta:mUrkha nAyan2Ar gurupUjai",
+      "kAJcI 18 jagadguru zrI~yOgatilaka surEndra sarasvatI ArAdhanA~\\#{1634}",
+      "vanadurgAnavarAtri-ArambhaH"
+    ],
+    [
+      "ta:kArttigai~JAyir2r2ukkizhamai",
+      "tintriNI-gaurI-vratam"
+    ],
+    [
+      "ta:kArttigai~sOmavAram",
+      "ta:cirappuli nAyan2Ar gurupUjai"
+    ],
+    [
+      "sukhA~aGgAraka-caturthI",
+      "badarI-gaurI-vratam"
+    ],
+    [],
+    [
+      "subrahmaNya-SaSThI-vratam",
+      "kAJcI 32 jagadguru zrI~cidAnandaghanEndra sarasvatI ArAdhanA~\\#{1347}",
+      "mArgazIrSa-zivaliGga-SaSThI"
+    ],
+    [
+      "kAJcI 5 jagadguru zrI~jJAnAnandEndra sarasvatI ArAdhanA~\\#{2223}",
+      "mitra-saptamI",
+      "nandA-saptamI~1",
+      "nArAyaNIyaM~jayantI"
+    ],
+    [],
+    [
+      "vanadurgAnavarAtri-samApanam",
+      "kalpAdi~5",
+      "mahAdhanurvyatIpAtam",
+      "SaDazIti-dhanurraviH"
+    ],
+    [
+      "ta:vAyilAr nAyan2Ar gurupUjai"
+    ],
+    [
+      "bhaumAzvinI-puNyakAlaH"
+    ],
+    [
+      "sarva-mOkSadA-EkAdazI",
+      "sarva-vaikuNTha-EkAdazI",
+      "harivAsaraH\\textsf{}{\\RIGHTarrow}\\textsf{13:22}",
+      "gItA~jayantI",
+      "kucEla-dinam"
+    ],
+    [
+      "pradOSa-vratam"
+    ],
+    [],
+    [
+      "andhakAsura-vadhaH",
+      "vEGkaTAcalE paurNamI~garuDa-sEvA",
+      "makarAyaNa-puNyakAlaH/mitrOtsavaH",
+      "dattAtrEya~jayantI",
+      "mArgazIrSa-pUrNimA",
+      "annapUrNA~jayantI",
+      "tripura~bhairavI~jayantI"
+    ],
+    [
+      "ta:ArudrA~darican2am/naTarAjar mahAbhiSEkam",
+      "ta:caDaiya nAyan2Ar gurupUjai",
+      "kAJcI 13 jagadguru zrI~saccidghanEndra sarasvatI ArAdhanA~\\#{1747}"
+    ],
+    [
+      "ramaNa~maharSi~jayantI~\\#{140}"
+    ],
+    [
+      "saGkaTahara-caturthI-vratam"
+    ],
+    [],
+    [],
+    [],
+    [
+      "ta:iyarpagai nAyan2Ar gurupUjai",
+      "kAJcI 4 jagadguru zrI~satyabOdhEndra sarasvatI ArAdhanA~\\#{2286}"
+    ],
+    [
+      "zrI~zESAdri-svAmI~ArAdhanA"
+    ],
+    [],
+    [
+      "sarva-saphalA-EkAdazI",
+      "ta:mAn2akkaJcAr2a nAyan2Ar gurupUjai"
+    ],
+    [
+      "harivAsaraH\\textsf{}{\\RIGHTarrow}\\textsf{07:36}",
+      "kAJcI 68 jagadguru zrI~candrazEkharEndra sarasvatI ArAdhanA~\\#{25}"
+    ],
     []
   ],
   "fmt": "hh:mm",

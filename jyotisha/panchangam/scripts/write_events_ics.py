@@ -8,6 +8,7 @@ from datetime import datetime, date, timedelta
 from icalendar import Calendar, Event, Alarm
 from pytz import timezone as tz
 
+import jyotisha.panchangam.spatio_temporal.annual
 from jyotisha.panchangam import scripts
 from jyotisha.panchangam.spatio_temporal import swe, City
 from jyotisha.panchangam.temporal import get_nakshatram, get_tithi, MAX_SZ
@@ -272,7 +273,7 @@ def main():
 
     city = City(city_name, latitude, longitude, tz)
 
-    panchangam = scripts.get_panchangam(city=city, year=year, script=script)
+    panchangam = jyotisha.panchangam.spatio_temporal.annual.get_panchangam(city=city, year=year, script=script)
     # panchangam.add_details()
 
     compute_events(panchangam, json_file)

@@ -6,6 +6,7 @@ from flask import Blueprint
 from flask_restplus import Resource
 from flask_restplus import reqparse
 
+import jyotisha.panchangam.spatio_temporal.annual
 from jyotisha.panchangam import scripts
 from jyotisha.panchangam.spatio_temporal import City
 from jyotisha.panchangam.temporal import festival
@@ -61,7 +62,7 @@ class DailyCalendarHandler(Resource):
   def get(self, latitude, longitude, year):
     args = self.get_parser.parse_args()
     city = City("", latitude, longitude, args['timezone'])
-    panchangam = scripts.get_panchangam(city=city, year=int(year), script=args['encoding'])
+    panchangam = jyotisha.panchangam.spatio_temporal.annual.get_panchangam(city=city, year=int(year), script=args['encoding'])
 
     return panchangam.to_json_map()
 

@@ -13,6 +13,7 @@ from indic_transliteration import xsanscript as sanscript
 from pytz import timezone as tz
 
 import jyotisha.custom_transliteration
+import jyotisha.panchangam.spatio_temporal.annual
 import jyotisha.panchangam.temporal
 from jyotisha.panchangam import scripts
 from jyotisha.panchangam.spatio_temporal import City
@@ -257,7 +258,7 @@ def main():
 
     city = City(city_name, latitude, longitude, tz)
 
-    panchangam = scripts.get_panchangam(city=city, year=year, script=script)
+    panchangam = jyotisha.panchangam.spatio_temporal.annual.get_panchangam(city=city, year=year, script=script)
 
     ics_calendar = compute_calendar(panchangam)
     write_to_file(ics_calendar, '%s-%d-%s.ics' % (city_name, year, script))

@@ -14,3 +14,4 @@ config_local.json
 .tox
 .cache
 *.iml
+*.local

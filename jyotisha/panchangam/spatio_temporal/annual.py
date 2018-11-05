@@ -3,12 +3,15 @@ import logging
 import os
 import swisseph as swe
 import sys
+import traceback
+
 from datetime import datetime
 from math import floor
 from swisseph import julday
 
 from indic_transliteration import xsanscript as sanscript
 from pytz import timezone as tz
+from sanskrit_data.schema.common import JsonObject
 
 from jyotisha.panchangam.temporal.festival import read_old_festival_rules_dict
 from sanskrit_data.schema import common
@@ -23,8 +26,11 @@ class Panchangam(common.JsonObject):
   """This class enables the construction of a panchangam
     """
 
-  def __init__(self, city, year=2012, script=sanscript.DEVANAGARI, fmt='hh:mm', ayanamsha_id=swe.SIDM_LAHIRI):
+  def __init__(self, city, year=2012, script=sanscript.DEVANAGARI, fmt='hh:mm', ayanamsha_id=swe.SIDM_LAHIRI,
+               compute_lagnams=False):
     """Constructor for the panchangam.
+    :param compute_lagnams: 
+    :param compute_lagnams: 
         """
     super().__init__()
     self.city = city
@@ -38,6 +44,7 @@ class Panchangam(common.JsonObject):
     # swe has Mon = 0, non-intuitively!
     self.ayanamsha_id = ayanamsha_id
     swe.set_sid_mode(ayanamsha_id)
+    self.add_details(compute_lagnams=compute_lagnams)
 
   def compute_angams(self, computeLagnams=True):
     """Compute the entire panchangam
@@ -1409,7 +1416,9 @@ class Panchangam(common.JsonObject):
                                       self.solar_month[d], self.lunar_month[d])
       log_file.write(log_data)
 
-  def add_details(self):
+  def add_details(self, compute_lagnams):
+    self.compute_angams(computeLagnams=compute_lagnams)
+    self.assignLunarMonths()
     self.compute_festivals()
     self.assign_relative_festivals()
     self.compute_solar_eclipses()
@@ -1420,3 +1429,31 @@ class Panchangam(common.JsonObject):
 # Essential for depickling to work.
 common.update_json_class_index(sys.modules[__name__])
 logging.debug(common.json_class_index)
+
+
+def get_panchangam(city, year, script, computeLagnams=False, precomputed_json_dir="~/Documents"):
+  fname_det = os.path.expanduser('%s/%s-%s-detailed.json' % (precomputed_json_dir, city.name, year))
+  fname = os.path.expanduser('%s/%s-%s.json' % (precomputed_json_dir, city.name, year))
+
+  if os.path.isfile(fname) and not computeLagnams:
+    sys.stderr.write('Loaded pre-computed panchangam from %s.\n' % fname)
+    return JsonObject.read_from_file(filename=fname)
+  elif os.path.isfile(fname_det):
+    # Load pickle, do not compute!
+    sys.stderr.write('Loaded pre-computed panchangam from %s.\n' % fname)
+    return JsonObject.read_from_file(filename=fname_det)
+  else:
+    sys.stderr.write('No precomputed data available. Computing panchangam... ')
+    sys.stderr.flush()
+    panchangam = Panchangam(city=city, year=year, script=script, compute_lagnams=computeLagnams)
+    sys.stderr.write('done.\n')
+    sys.stderr.write('Writing computed panchangam to %s...' % fname)
+    try:
+      if computeLagnams:
+        panchangam.dump_to_file(filename=fname_det)
+      else:
+        panchangam.dump_to_file(filename=fname)
+    except EnvironmentError:
+      logging.warning("Not able to save.")
+      logging.error(traceback.format_exc())
+    return panchangam
