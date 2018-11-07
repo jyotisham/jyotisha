@@ -5,6 +5,7 @@ import os
 
 import sys
 
+from jyotisha import custom_transliteration
 from jyotisha.panchangam.spatio_temporal import CODE_ROOT
 from sanskrit_data.schema import common
 
@@ -139,6 +140,16 @@ class HinduCalendarEventOld(common.JsonObject):
     if (legacy_event_dict.get("Relative Festival", "") != ""):
       event.anchor_festival_id = legacy_event_dict["Relative Festival"]
     return event
+
+  def get_desription_string(self, script):
+    description_string = ""
+    if hasattr(self, "description"):
+      description_string = json.dumps(self.description)
+    if hasattr(self, "shlokas"):
+      description_string = description_string + '\n\n' + \
+                           custom_transliteration.tr(", ".join(self.shlokas), script, False) + '\n\n'
+    return description_string
+
 
 # noinspection PyUnresolvedReferences
 class HinduCalendarEvent(common.JsonObject):

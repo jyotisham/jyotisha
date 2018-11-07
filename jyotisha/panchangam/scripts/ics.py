@@ -17,6 +17,7 @@ import jyotisha.panchangam.spatio_temporal.annual
 import jyotisha.panchangam.temporal
 from jyotisha.panchangam import scripts
 from jyotisha.panchangam.spatio_temporal import City
+from jyotisha.panchangam.temporal import festival
 from jyotisha.panchangam.temporal.festival import read_old_festival_rules_dict
 
 logging.basicConfig(
@@ -69,9 +70,7 @@ def compute_calendar(panchangam):
                     event.add('dtend', (datetime(y, m, dt) + timedelta(48)).date())
 
                     if stext in festival_rules:
-                        desc = json.dumps(festival_rules[stext].get('description_short'), sort_keys=True, indent = 2) + '\n\n' + \
-                            jyotisha.custom_transliteration.tr(festival_rules[stext].get('shlokas'),
-                                                               panchangam.script, False) + '\n\n'
+                        desc = festival.HinduCalendarEventOld.make_from_dict(festival_rules[stext]).get_desription_string(script=panchangam.script)
                     else:
                         sys.stderr.write('No description found for festival %s!\n' % stext)
                     uid = '%s-%d' % (page_id, y)
@@ -108,8 +107,7 @@ def compute_calendar(panchangam):
                                                     tzinfo=tz(panchangam.city.timezone)))
 
                     if stext in festival_rules:
-                        desc = json.dumps(festival_rules[stext].get('description_short'), sort_keys=True, indent = 2) + '\n\n' + \
-                            jyotisha.custom_transliteration.tr(festival_rules[stext].get('shlokas'), panchangam.script, False) + '\n\n'
+                        desc = festival.HinduCalendarEventOld.make_from_dict(festival_rules[stext]).get_desription_string(script=panchangam.script)
                     else:
                         sys.stderr.write('No description found for festival %s!\n' % stext)
                     event.add('description', desc.strip())
@@ -129,8 +127,7 @@ def compute_calendar(panchangam):
                     event.add('dtend', (datetime(y, m, dt) + timedelta(1)).date())
 
                     if stext in festival_rules:
-                        desc = json.dumps(festival_rules[stext].get('description_short'), sort_keys=True, indent = 2) + '\n\n' + \
-                            jyotisha.custom_transliteration.tr(festival_rules[stext].get('shlokas'), panchangam.script, False) + '\n\n'
+                        desc = festival.HinduCalendarEventOld.make_from_dict(festival_rules[stext]).get_desription_string(script=panchangam.script)
                     else:
                         sys.stderr.write('No description found for festival %s!\n' % stext)
 
@@ -198,8 +195,7 @@ def compute_calendar(panchangam):
 
                     if stext.find('EkAdazI') == -1 and stext.find('saGkrAntiH') == -1:
                         if stext in festival_rules:
-                            desc = json.dumps(festival_rules[stext].get('description_short'), sort_keys=True, indent = 2) + '\n\n' + \
-                                jyotisha.custom_transliteration.tr(festival_rules[stext].get('shlokas'), panchangam.script, False) + '\n\n'
+                            desc = festival.HinduCalendarEventOld.make_from_dict(festival_rules[stext]).get_desription_string(script=panchangam.script)
                         else:
                             sys.stderr.write('No description found for festival %s!\n' % stext)
                         uid = '%s-%d-%02d' % (page_id, y, m)
@@ -207,8 +203,7 @@ def compute_calendar(panchangam):
                         # Handle Sankranti descriptions differently
                         planet_trans = stext.split('~')[0]  # get rid of ~(rAshi name) etc.
                         if planet_trans in festival_rules:
-                            desc = festival_rules[planet_trans].get('description_short') + '\n\n' + \
-                                jyotisha.custom_transliteration.tr(festival_rules[planet_trans].get('shlokas'), panchangam.script) + '\n\n'
+                            desc = festival.HinduCalendarEventOld.make_from_dict(festival_rules[planet_trans]).get_desription_string(script=panchangam.script)
                         else:
                             sys.stderr.write('No description found for festival %s!\n' % planet_trans)
                         uid = '%s-%d-%02d' % (page_id, y, m)
@@ -216,8 +211,7 @@ def compute_calendar(panchangam):
                         # Handle ekadashi descriptions differently
                         ekad = '-'.join(stext.split('-')[1:])  # get rid of sarva etc. prefix!
                         if ekad in festival_rules:
-                            desc = festival_rules[ekad].get('description_short') + '\n\n' + \
-                                jyotisha.custom_transliteration.tr(festival_rules[ekad].get('shlokas'), panchangam.script) + '\n\n'
+                            desc = festival.HinduCalendarEventOld.make_from_dict(festival_rules[ekad]).get_desription_string(script=panchangam.script)
                         else:
                             sys.stderr.write('No description found for festival %s!\n' % ekad)
                         pref = jyotisha.custom_transliteration.romanise(sanscript.transliterate(
@@ -261,7 +255,7 @@ def main():
     panchangam = jyotisha.panchangam.spatio_temporal.annual.get_panchangam(city=city, year=year, script=script)
 
     ics_calendar = compute_calendar(panchangam)
-    write_to_file(ics_calendar, '%s-%d-%s.ics' % (city_name, year, script))
+    write_to_file(ics_calendar, '~/Documents/%s-%d-%s.ics' % (city_name, year, script))
 
 
 if __name__ == '__main__':
