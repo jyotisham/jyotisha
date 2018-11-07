@@ -255,7 +255,8 @@ def main():
     panchangam = jyotisha.panchangam.spatio_temporal.annual.get_panchangam(city=city, year=year, script=script)
 
     ics_calendar = compute_calendar(panchangam)
-    write_to_file(ics_calendar, '~/Documents/%s-%d-%s.ics' % (city_name, year, script))
+    output_file = os.path.expanduser('%s/%s-%d-%s.ics' % ("~/Documents", city.name, year, script))
+    write_to_file(ics_calendar, output_file)
 
 
 if __name__ == '__main__':
