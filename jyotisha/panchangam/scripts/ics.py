@@ -43,7 +43,7 @@ def compute_calendar(panchangam):
     festival_rules = {**festival_rules_main, **festival_rules_rel, **festival_rules_desc_only}
 
     ics_calendar = Calendar()
-    uid_list = []
+    # uid_list = []
 
     alarm = Alarm()
     alarm.add('action', 'DISPLAY')
@@ -73,12 +73,12 @@ def compute_calendar(panchangam):
                         desc = festival.HinduCalendarEventOld.make_from_dict(festival_rules[stext]).get_description_string(script=panchangam.script)
                     else:
                         sys.stderr.write('No description found for festival %s!\n' % stext)
-                    uid = '%s-%d' % (page_id, y)
+                    # uid = '%s-%d' % (page_id, y)
 
                     event.add_component(alarm)
                     event.add('description', desc.strip())
-                    uid_list.append(uid)
-                    event.add('uid', uid)
+                    # uid_list.append(uid)
+                    # event.add('uid', uid)
                     event['X-MICROSOFT-CDO-ALLDAYEVENT'] = 'TRUE'
                     event['TRANSP'] = 'TRANSPARENT'
                     event['X-MICROSOFT-CDO-BUSYSTATUS'] = 'FREE'
@@ -111,13 +111,13 @@ def compute_calendar(panchangam):
                     else:
                         sys.stderr.write('No description found for festival %s!\n' % stext)
                     event.add('description', desc.strip())
-                    uid = '%s-%d-%02d' % (page_id, y, m)
-                    if uid not in uid_list:
-                        uid_list.append(uid)
-                    else:
-                        uid = '%s-%d-%02d-%02d' % (page_id, y, m, dt)
-                        uid_list.append(uid)
-                    event.add('uid', uid)
+                    # uid = '%s-%d-%02d' % (page_id, y, m)
+                    # if uid not in uid_list:
+                    #     uid_list.append(uid)
+                    # else:
+                    #     uid = '%s-%d-%02d-%02d' % (page_id, y, m, dt)
+                    #     uid_list.append(uid)
+                    # event.add('uid', uid)
                     event.add_component(alarm)
                     ics_calendar.add_component(event)
                 elif stext.find('samApanam') != -1:
@@ -134,13 +134,13 @@ def compute_calendar(panchangam):
                     # print(event)
                     event.add_component(alarm)
                     event.add('description', desc.strip())
-                    uid = '%s-%d-%02d' % (page_id, y, m)
-                    if uid not in uid_list:
-                        uid_list.append(uid)
-                    else:
-                        uid = '%s-%d-%02d-%02d' % (page_id, y, m, dt)
-                        uid_list.append(uid)
-                    event.add('uid', uid)
+                    # uid = '%s-%d-%02d' % (page_id, y, m)
+                    # if uid not in uid_list:
+                    #     uid_list.append(uid)
+                    # else:
+                    #     uid = '%s-%d-%02d-%02d' % (page_id, y, m, dt)
+                    #     uid_list.append(uid)
+                    # event.add('uid', uid)
                     event['X-MICROSOFT-CDO-ALLDAYEVENT'] = 'TRUE'
                     event['TRANSP'] = 'TRANSPARENT'
                     event['X-MICROSOFT-CDO-BUSYSTATUS'] = 'FREE'
@@ -167,16 +167,16 @@ def compute_calendar(panchangam):
                     # print(event)
                     event.add_component(alarm)
                     event.add('description', desc.strip())
-                    uid = '%s-%d-%02d' % (page_id, y, m)
-                    if uid not in uid_list:
-                        uid_list.append(uid)
-                    else:
-                        suff = 0
-                        while uid in uid_list:
-                            uid = '%s-%d-%02d-%02d-%d' % (page_id, y, m, dt, suff)
-                            suff += 1
-                        uid_list.append(uid)
-                    event.add('uid', uid)
+                    # uid = '%s-%d-%02d' % (page_id, y, m)
+                    # if uid not in uid_list:
+                    #     uid_list.append(uid)
+                    # else:
+                    #     suff = 0
+                    #     while uid in uid_list:
+                    #         uid = '%s-%d-%02d-%02d-%d' % (page_id, y, m, dt, suff)
+                    #         suff += 1
+                    #     uid_list.append(uid)
+                    # event.add('uid', uid)
                     event['X-MICROSOFT-CDO-ALLDAYEVENT'] = 'TRUE'
                     event['TRANSP'] = 'TRANSPARENT'
                     event['X-MICROSOFT-CDO-BUSYSTATUS'] = 'FREE'
@@ -198,7 +198,7 @@ def compute_calendar(panchangam):
                             desc = festival.HinduCalendarEventOld.make_from_dict(festival_rules[stext]).get_description_string(script=panchangam.script)
                         else:
                             sys.stderr.write('No description found for festival %s!\n' % stext)
-                        uid = '%s-%d-%02d' % (page_id, y, m)
+                        # uid = '%s-%d-%02d' % (page_id, y, m)
                     elif stext.find('saGkrAntiH') != -1:
                         # Handle Sankranti descriptions differently
                         planet_trans = stext.split('~')[0]  # get rid of ~(rAshi name) etc.
@@ -206,7 +206,7 @@ def compute_calendar(panchangam):
                             desc = festival.HinduCalendarEventOld.make_from_dict(festival_rules[planet_trans]).get_description_string(script=panchangam.script)
                         else:
                             sys.stderr.write('No description found for festival %s!\n' % planet_trans)
-                        uid = '%s-%d-%02d' % (page_id, y, m)
+                        # uid = '%s-%d-%02d' % (page_id, y, m)
                     else:
                         # Handle ekadashi descriptions differently
                         ekad = '-'.join(stext.split('-')[1:])  # get rid of sarva etc. prefix!
@@ -217,19 +217,19 @@ def compute_calendar(panchangam):
                         pref = jyotisha.custom_transliteration.romanise(sanscript.transliterate(
                             stext.split('-')[0],
                             sanscript.HK, sanscript.IAST)) + "-"
-                        uid = '%s-%d-%02d' % (pref + page_id, y, m)
+                        # uid = '%s-%d-%02d' % (pref + page_id, y, m)
                     # print(page_id)
                     event.add_component(alarm)
                     event.add('description', desc.strip())
-                    if uid not in uid_list:
-                        uid_list.append(uid)
-                    else:
-                        suff = 0
-                        while uid in uid_list:
-                            uid = '%s-%d-%02d-%02d-%d' % (page_id, y, m, dt, suff)
-                            suff += 1
-                        uid_list.append(uid)
-                    event.add('uid', uid)
+                    # if uid not in uid_list:
+                    #     uid_list.append(uid)
+                    # else:
+                    #     suff = 0
+                    #     while uid in uid_list:
+                    #         uid = '%s-%d-%02d-%02d-%d' % (page_id, y, m, dt, suff)
+                    #         suff += 1
+                    #     uid_list.append(uid)
+                    # event.add('uid', uid)
                     event['X-MICROSOFT-CDO-ALLDAYEVENT'] = 'TRUE'
                     event['TRANSP'] = 'TRANSPARENT'
                     event['X-MICROSOFT-CDO-BUSYSTATUS'] = 'FREE'
