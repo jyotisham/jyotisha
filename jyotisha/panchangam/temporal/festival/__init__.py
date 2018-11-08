@@ -141,7 +141,7 @@ class HinduCalendarEventOld(common.JsonObject):
       event.anchor_festival_id = legacy_event_dict["Relative Festival"]
     return event
 
-  def get_desription_string(self, script):
+  def get_description_string(self, script):
     description_string = ""
     if hasattr(self, "description"):
       description_string = json.dumps(self.description)
