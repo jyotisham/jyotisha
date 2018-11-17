@@ -7551,5 +7551,18 @@
         "month_number": 3,
         "month_type": "lunar_month",
         "tags": "andhra-temple-festivals"
+    },
+    {
+        "angam_number": 3,
+        "angam_type": "nakshatram",
+        "description": {
+            "en": "`kRttikA-vratam` for Lord Subrahmanya. Observe fast for the entire day, and obtain blessings of all the `kRttikA-striyaH` who raised `skanda` after His birth."
+        },
+        "id": "kRttikA-vratam",
+        "jsonClass": "HinduCalendarEventOld",
+        "kaala": "sangava",
+        "month_number": 0,
+        "month_type": "solar_month",
+        "tags": "special-vratams"
     }
 ]
