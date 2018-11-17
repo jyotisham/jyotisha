@@ -968,12 +968,10 @@ class Panchangam(common.JsonObject):
       # KRISHNA ANGARAKA CHATURDASHI
       if self.weekday[d] == 2 and self.tithi_sunrise[d] == 29:
         self.add_festival('kRSNAGgAraka-caturdazI-puNyakAlaH/yamatarpaNam', d, debug_festivals)
-        festival_name = 'budhASTamI'
 
       # BUDHASHTAMI
       if self.weekday[d] == 3 and (self.tithi_sunrise[d] % 15) == 8:
         self.add_festival('budhASTamI', d, debug_festivals)
-        festival_name = 'budhASTamI'
 
       # AVANI NYAYITRUKIZHAMAI
       if self.solar_month[d] == 5 and self.weekday[d] == 0:
