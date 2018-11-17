@@ -1429,7 +1429,7 @@ class Panchangam(common.JsonObject):
     self.compute_festivals()
     self.assign_relative_festivals()
 
-  def add_details(self, compute_lagnams):
+  def add_details(self, compute_lagnams=False):
     self.compute_angams(compute_lagnams=compute_lagnams)
     self.assignLunarMonths()
     self.update_festival_details()
