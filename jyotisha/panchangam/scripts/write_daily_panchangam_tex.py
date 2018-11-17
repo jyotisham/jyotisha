@@ -215,7 +215,7 @@ def writeDailyTeX(panchangam, template_file, compute_lagnams=True):
         if m == 12 and dt == 31:
             break
 
-    print('\end{document}')
+    print('\\end{document}')
 
 
 def main():
