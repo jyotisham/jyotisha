@@ -28,6 +28,13 @@
     },
     {
         "id": "skanda-SaSThI-vratam",
+        "description": {
+            "en": "One of the most important vratams, alongside Krishnajanmashtami, Shivaratri etc. Must observe fast. Offer Arghyam facing South, using Curd, Akshata, Water and Flowers (`dadhnAkSatOdakaiH puSpaiH`) chanting the shloka below."
+        },
+        "shlokas": [
+            "asyAM hi zrIH samAyuktaH yasmAt skandO.bhavat pura. tasmATSaSThyAM na bhuJjIta prApnuyAdbhArgavI sadA..",
+            "saptarSidAraja skanda sEnAdhipa mahAbala. rudrOmAgnija SaDvaktra gaGgAgarbha namO'stu tE.."
+        ],
         "jsonClass": "HinduCalendarEventOld",
         "tags": "monthly-vratams,shashthi-vratam-days"
     },
