@@ -981,6 +981,7 @@ class Panchangam(common.JsonObject):
         festival_name = 'bhRguvAra-subrahmaNya-vratam'
         if festival_name not in self.fest_days:
           # only the first bhRguvAra of tulA mAsa is considered (skAnda purANam)
+          # https://youtu.be/rgXwyo0L3i8?t=222
           self.add_festival(festival_name, d, debug_festivals)
 
       # AVANI NYAYITRUKIZHAMAI
