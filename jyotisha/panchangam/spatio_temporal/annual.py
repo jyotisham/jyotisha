@@ -976,6 +976,13 @@ class Panchangam(common.JsonObject):
       if self.weekday[d] == 3 and (self.tithi_sunrise[d] % 15) == 8:
         self.add_festival('budhASTamI', d, debug_festivals)
 
+      # BHRGUVARA SUBRAHMANYA VRATAM
+      if self.solar_month[d] == 7 and self.weekday[d] == 5:
+        festival_name = 'bhRguvAra-subrahmaNya-vratam'
+        if festival_name not in self.fest_days:
+          # only the first bhRguvAra of tulA mAsa is considered (skAnda purANam)
+          self.add_festival(festival_name, d, debug_festivals)
+
       # AVANI NYAYITRUKIZHAMAI
       if self.solar_month[d] == 5 and self.weekday[d] == 0:
         self.add_festival('ta:AvaNi~JAyir2r2ukkizhamai', d, debug_festivals)
