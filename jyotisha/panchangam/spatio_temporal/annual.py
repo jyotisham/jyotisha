@@ -946,6 +946,9 @@ class Panchangam(common.JsonObject):
         self.add_festival('sOma-amAvasyA', d, debug_festivals)
 
       # MAHODAYAM
+      # Can also refer youtube video https://youtu.be/0DBIwb7iaLE?list=PL_H2LUtMCKPjh63PRk5FA3zdoEhtBjhzj&t=6747
+      # 4th pada of vyatipatam, 1st pada of Amavasya, 2nd pada of Shravana, Suryodaya, Bhanuvasara = Ardhodayam
+      # 4th pada of vyatipatam, 1st pada of Amavasya, 2nd pada of Shravana, Suryodaya, Somavasara = Mahodayam
       if self.lunar_month[d] == 10 and self.tithi_sunrise[d] == 30:
         if jyotisha.panchangam.temporal.get_angam(self.jd_sunrise[d], jyotisha.panchangam.temporal.YOGAM,
                                                   ayanamsha_id=self.ayanamsha_id) == 17 and \
