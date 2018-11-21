@@ -1218,7 +1218,6 @@
     {
         "angam_number": 12,
         "angam_type": "tithi",
-        "id": "gOpadma-vrata-samapanam",
         "id": "gOpadma-vrata-samApanam",
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 8,
