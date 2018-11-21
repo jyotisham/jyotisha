@@ -6304,6 +6304,16 @@
         "tags": "less-common-festivals"
     },
     {
+        "angam_number": 26,
+        "angam_type": "nakshatram",
+        "id": "appayya-dIkSita-jayantI",
+        "jsonClass": "HinduCalendarEventOld",
+        "month_number": 6,
+        "month_type": "solar_month",
+        "year_start": 4620,
+        "tags": "mahapurusha-events"
+    },
+    {
         "angam_number": 9,
         "angam_type": "nakshatram",
         "id": "ta:atipatta nAyan2Ar gurupUjai",
