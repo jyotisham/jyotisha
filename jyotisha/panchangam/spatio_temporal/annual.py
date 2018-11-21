@@ -465,7 +465,8 @@ class Panchangam(common.JsonObject):
             self.festivals[d + 1].append('sarva-vaikuNTha-EkAdazI')
           elif self.solar_month[d] == 8:
             self.festivals[d + 1].append('sarva-guruvAyupura-EkAdazI')
-            self.festivals[d + 1].append('kaizika-EkAdazI')
+            # self.festivals[d + 1].append('kaizika-EkAdazI')
+            self.add_festival('kaizika-EkAdazI', d + 1, debug_festivals)
 
         elif (self.tithi_sunrise[d] == 11 and self.tithi_sunrise[d + 1] != 11):
           # Check dashami end time to decide for whether this is
@@ -487,7 +488,8 @@ class Panchangam(common.JsonObject):
               self.festivals[d].append('vaiSNava-vaikuNTha-EkAdazI')
             elif self.solar_month[d] == 8:
               self.festivals[d].append('vaiSNava-guruvAyupura-EkAdazI')
-              self.festivals[d].append('kaizika-EkAdazI')
+              # self.festivals[d].append('kaizika-EkAdazI')
+              self.add_festival('kaizika-EkAdazI', d, debug_festivals)
           else:
             self.festivals[d].append(
               'sarva-' + jyotisha.panchangam.temporal.get_ekadashi_name('shukla', self.lunar_month[d]))
@@ -495,7 +497,8 @@ class Panchangam(common.JsonObject):
               self.festivals[d].append('sarva-vaikuNTha-EkAdazI')
             elif self.solar_month[d] == 8:
               self.festivals[d].append('sarva-guruvAyupura-EkAdazI')
-              self.festivals[d].append('kaizika-EkAdazI')
+              # self.festivals[d].append('kaizika-EkAdazI')
+              self.add_festival('kaizika-EkAdazI', d, debug_festivals)
 
         elif (self.tithi_sunrise[d - 1] != 11 and self.tithi_sunrise[d] == 12):
           self.festivals[d].append(
@@ -504,7 +507,8 @@ class Panchangam(common.JsonObject):
             self.festivals[d].append('sarva-vaikuNTha-EkAdazI')
           elif self.solar_month[d] == 8:
             self.festivals[d].append('sarva-guruvAyupura-EkAdazI')
-            self.festivals[d].append('kaizika-EkAdazI')
+            # self.festivals[d].append('kaizika-EkAdazI')
+            self.add_festival('kaizika-EkAdazI', d, debug_festivals)
 
         # Harivasara Computation
         harivasara_end = brentq(jyotisha.panchangam.temporal.get_angam_float, self.jd_sunrise[d] - 2,
