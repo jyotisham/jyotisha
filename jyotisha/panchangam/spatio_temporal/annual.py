@@ -947,7 +947,7 @@ class Panchangam(common.JsonObject):
 
       # SOMAMAVASYA
       if self.weekday[d] == 1 and self.tithi_sunrise[d] == 30:
-        self.add_festival('sOma-amAvasyA', d, debug_festivals)
+        self.add_festival('sOmavatI amAvasyA', d, debug_festivals)
 
       # MAHODAYAM
       # Can also refer youtube video https://youtu.be/0DBIwb7iaLE?list=PL_H2LUtMCKPjh63PRk5FA3zdoEhtBjhzj&t=6747
