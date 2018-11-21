@@ -552,6 +552,16 @@
         "tags": "andhra-temple-festivals"
     },
     {
+        "anchor_festival_id": "kaizika-EkAdazI",
+        "id": "kaizika-dvAdazI",
+        "description": {
+            "en": "Read `kaizika purANam` on this day. Special celebrations in Thirukurungudi Divya Desham Temple."
+        },
+        "jsonClass": "HinduCalendarEventOld",
+        "offset": 1,
+        "tags": "tn-temple-festivals"
+    },
+    {
         "anchor_festival_id": "vEGkaTAcalE vasantOtsava-samApanam",
         "description": {
             "en": "Vasantotsava is an annual festival conducted for three days (Trayodashi, Chaturdashi and Pournami in the month of Chaitra). During this period, Lord Sri Venkateshwara and His Consorts Sridevi and Bhudevi are taken out in a procession and brought to the Vasanta Mandapam for abhishekam. On the third day, idols of Sri Rama, Sita, Lakshmana, Anjaneya and Sri Krishna (with Rukmini and Satyabhama) are brought to Vasanta Mandapam in procession."
