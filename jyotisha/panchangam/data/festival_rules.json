@@ -6280,6 +6280,30 @@
         "tags": "purnima-days,common-festivals"
     },
     {
+        "angam_number": 15,
+        "angam_type": "tithi",
+        "description": {
+            "en": "Offer `bali` to serpents on (from) this day, in the night after `sthAlIpAka`."
+        },
+        "id": "sarpa-baliH",
+        "jsonClass": "HinduCalendarEventOld",
+        "month_number": 5,
+        "month_type": "lunar_month",
+        "tags": "less-common-festivals"
+    },
+    {
+        "angam_number": 15,
+        "angam_type": "tithi",
+        "description": {
+            "en": "Offer `bali` to serpents on (from) this day, in the night after `sthAlIpAka`."
+        },
+        "id": "sarpa-bali-utsarjanam",
+        "jsonClass": "HinduCalendarEventOld",
+        "month_number": 9,
+        "month_type": "lunar_month",
+        "tags": "less-common-festivals"
+    },
+    {
         "angam_number": 9,
         "angam_type": "nakshatram",
         "id": "ta:atipatta nAyan2Ar gurupUjai",
