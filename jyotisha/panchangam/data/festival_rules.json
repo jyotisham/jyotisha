@@ -7696,6 +7696,28 @@
             "SaTSaSTikOTitIrthAni dvisaptabhuvanESu ca.\n kEzavasyA''jJayA yAnti tulAmAsE marudvRdham.."
         ],
         "tags": "common-festivals"
+        "tags": "tamilnadu-temple-festivals"
+    },
+    {
+        "angam_number": 1,
+        "angam_type": "day",
+        "description": {
+            "en": "Offer Akasha Dipam for this entire month, in the evening, on a high place (pillar?). Light lamps using gingelly oil with eight wicks."
+        },
+        "id": "AkAzadIpa-ArambhaH",
+        "jsonClass": "HinduCalendarEventOld",
+        "month_number": 7,
+        "month_type": "solar_month",
+        "shlokas": [
+            "tulAyAM  tilatailEna  sAyaGkAlE  samAgatE.\nAkAzadIpaM  yO  dadyAnmAsamEkaM  hariM  prati.\nmahatIM  zriyamApnOti  rUpa-saubhAgya-sampadam..\n\ndAmOdarAya  nabhasi  tulAyAM  lOlayA  saha.\npradIpaM  tE  prayacchAmi  namO'nantAya  vEdhasE..\n"
+        ],
+        "references_primary": [
+            "Nirnaya Sindhu 146"
+        ],
+        "references_secondary": [
+            "Vaidikasri Oct 2009"
+        ],
+        "tags": "less-common-festivals"
     },
     {
         "angam_number": 1,
