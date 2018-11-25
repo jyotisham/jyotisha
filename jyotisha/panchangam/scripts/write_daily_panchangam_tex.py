@@ -15,7 +15,6 @@ import jyotisha
 import jyotisha.custom_transliteration
 import jyotisha.panchangam.spatio_temporal.annual
 import jyotisha.panchangam.temporal
-from jyotisha.panchangam import scripts
 from jyotisha.panchangam.spatio_temporal import City
 from math import ceil
 
