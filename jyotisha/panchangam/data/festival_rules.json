@@ -2394,6 +2394,7 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 8,
         "month_type": "lunar_month",
+        "kaala": "pradosha",
         "tags": "special-pujas"
     },
     {
@@ -2850,6 +2851,7 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 7,
         "month_type": "lunar_month",
+        "kaala": "nishita",
         "references_primary": [
             "Dharma Sindhu 142"
         ],
@@ -3237,6 +3239,7 @@
             "en": "Gives light even to Naraka-vasis; Also, Bali was sent to Paatalam on this day."
         },
         "id": "dIpAvalI/lakSmI-kubEra-pUjA",
+        "kaala": "pradosha",
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 7,
         "month_type": "lunar_month",
@@ -7682,7 +7685,7 @@
         "month_type": "solar_month",
         "tags": "special-vratams"
     },
-        {
+    {
         "angam_number": 1,
         "angam_type": "day",
         "description": {
@@ -7695,7 +7698,6 @@
         "shlokas": [
             "SaTSaSTikOTitIrthAni dvisaptabhuvanESu ca.\n kEzavasyA''jJayA yAnti tulAmAsE marudvRdham.."
         ],
-        "tags": "common-festivals"
         "tags": "tamilnadu-temple-festivals"
     },
     {
