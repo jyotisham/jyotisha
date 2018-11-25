@@ -538,6 +538,16 @@
         "tags": "andhra-temple-festivals"
     },
     {
+        "anchor_festival_id": "ta:muDavan2 muzhukku",
+        "description": {
+            "en": "End of Tula Kaveri Snanam. Also known as `ta:kaDaimugam`."
+        },
+        "id": "tulA-kAvErI-snAna-samApanam",
+        "jsonClass": "HinduCalendarEventOld",
+        "offset": -1,
+        "tags": "tn-temple-festivals"
+    },
+    {
         "anchor_festival_id": "zrInivAsamaGgApurE sAkSAtkAra-vaibhavOtsavaH",
         "id": "zrInivAsamaGgApurE sAkSAtkAra-vaibhavOtsava-ArambhaH",
         "jsonClass": "HinduCalendarEventOld",
