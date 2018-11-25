@@ -2060,7 +2060,7 @@
             "Nilamata Puranam"
         ],
         "shlokas": [
-            "yAni tIrthAni bhAratavarSe tAni tIrthAni kAzmIramaNDale.\nyAni tIrthAni kAzmIramaNDale tAni tIrthAni vitastAyAm.."
+            "yAni tIrthAni bhAratavarSE tAni tIrthAni kAzmIramaNDalE.\nyAni tIrthAni kAzmIramaNDalE tAni tIrthAni vitastAyAm.."
         ],
         "tags": "special-snanam"
     },
@@ -2490,6 +2490,9 @@
         "month_number": 6,
         "month_type": "lunar_month",
         "priority": "puurvaviddha",
+        "shlokas": [
+            "vRkSArOhENa lOhAdyairvidyujjala-viSAgnibhiH.\n nakhi daMSTri vipannA yE tESAM zastA caturdazI.."
+        ],
         "tags": "less-common-festivals"
     },
     {
@@ -3062,6 +3065,12 @@
         "month_number": 7,
         "month_type": "lunar_month",
         "priority": "puurvaviddha",
+        "description": {
+            "en": "Avoid cow's milk, ghee, curd and buttermilk on this day. Give grass to cows and pray to them."
+        },
+        "shlokas": [
+            "gOkSIraM gOghRtaM caiva dadhi takraM ca varjayEt.\n\n surabhi tvaM jaganmAtardEvi viSNupadE sthitA.\n sarvadEvamayE grAsaM mayA dattamidaM grasa..\n\n sarvadEvamayE dEvi sarvEdEvaizca satkRtA.\n mAtarmamA'bhilASitaM saphalaM kuru nandini..\n "
+        ],
         "tags": "special-vratams,less-common-festivals",
         "titles": "vizoka-dvAdazI\nekhaNDa-dvAdazI\npadmanAbha-dvAdazI"
     },
@@ -3289,6 +3298,12 @@
         "angam_type": "tithi",
         "id": "gOpASTamI",
         "jsonClass": "HinduCalendarEventOld",
+        "description": {
+            "en": "Perform `pujA` of cow with calf, and offer `ahattikIrai` and grass/water, and perform 16 pradakshinams."
+        },
+        "shlokas": [
+            "kArtikE  yA'STamI  zuklA  jJEyA  gOpASTamI  budhai.\n tatra  kuryAdgavAM  pUjAM  gOgrAsaM  gOpradakSiNam.."
+        ],
         "kaala": "madhyaahna",
         "month_number": 8,
         "month_type": "lunar_month",
@@ -3363,8 +3378,17 @@
         "angam_number": 12,
         "angam_type": "tithi",
         "id": "yAjJavalkya~jayantI",
+        "description": {
+            "en": "Avataram of Yajnavalkya Maharshi happened in kArtika shulka dwadashi in Shatabhishak Nakshatram/Dhanurlagnam."
+        },
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 8,
+        "references_secondary": [
+            "Vaidikasri Nov 2017"
+        ],
+        "shlokas": [
+            "vandE'haM  maGgaLAtmAnaM  bhAsvantaM  vEdavigraham.\n yAjJavalkyaM  munizrESThaM  jISNuM  hariharaprabham..\n jitEndriyaM  jitakrOdhaM  sadA  dhyAnaparAyaNam.\n AnandanilayaM  vandE  yOgAnandamunIzvaram..\n "
+        ],
         "month_type": "lunar_month",
         "tags": "mahapurusha-events"
     },
@@ -5336,11 +5360,17 @@
         "angam_number": 19,
         "angam_type": "nakshatram",
         "id": "sarasvatI-AvAhanam",
+        "description": {
+            "en": "Being `mUlA` nakshatram, it is another ideal day to begin Saraswati Puja. If not, at least perform on Navami. During the Saraswati Puja days, those desirous of obtaining knowledge must not teach, learn or write anything!"
+        },
         "jsonClass": "HinduCalendarEventOld",
         "kaala": "madhyaahna",
         "month_number": 7,
         "month_type": "lunar_month",
         "priority": "puurvaviddha",
+        "shlokas": [
+            "athavA  mUlanakSatrE  samArabhya  prapUjayEt.\n tatrApyazaktO  viprEndrO  navamyAM  tu  prapUjayEt..\n nA'dhyApayEnna  ca  likhEnnA'dhIyIta  kadAcana.\n pustakE  sthApitE  dEvIM  vidyAkAmO  dvijOttamaH.."
+        ],
         "tags": "common-festivals"
     },
     {
