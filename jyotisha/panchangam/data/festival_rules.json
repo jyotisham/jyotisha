@@ -2714,6 +2714,27 @@
         "angam_number": 10,
         "angam_type": "tithi",
         "description": {
+            "en": "Perform puja to Shami tree. Arjuna and Pandavas had left their weapons on this tree during `aGYAtavAsa`. Those who are unable to worship the tree must at least chant the following shlokas."
+        },
+        "id": "zamI-pUjA",
+        "jsonClass": "HinduCalendarEventOld",
+        "month_number": 7,
+        "month_type": "lunar_month",
+        "shlokas": [
+            "zamIM zamayatE pApaM zamI zatruvinAzini.\narjunasya dhanurdhAtrI rAmasya priyadarzinI..\n\nzamIM kamalapatrAkSIM zamIM kaNTakadhAriNIm.\nArOhatu zamIM lakSmIH nRNAmAyuSyavardhinIm..\n\nnamO vizvAsavRkSAya pArthazastrAstradhAriNE.\ntvattaH patraM pratIcchAmi sadA vijayadO bhava..\n\namaGgalAnAM zamanIM duSkRtasya ca nAzinIm.\nduHsvapnahAriNIM dhanyAM pravasyE'haM zamIM zubhAm..\n"
+        ],
+        "references_primary": [
+            "Vrata Mahima"
+        ],
+        "references_secondary": [
+            "Vaidikasri Sep 2009"
+        ],
+        "tags": "less-common-festivals"
+    },
+    {
+        "angam_number": 10,
+        "angam_type": "tithi",
+        "description": {
             "en": "Arjuna wins over all Kauravas and Karna. Worship of all weapons, or rather, tools related to one's profession."
         },
         "id": "ta:Ayudha~pUjai",
