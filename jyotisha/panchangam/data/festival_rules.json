@@ -7615,5 +7615,32 @@
         "month_number": 0,
         "month_type": "solar_month",
         "tags": "special-vratams"
+    },
+        {
+        "angam_number": 1,
+        "angam_type": "day",
+        "description": {
+            "en": "Perform `snAnam` in Kaveri during this month."
+        },
+        "id": "tulA-kAvErI-snAna-ArambhaH",
+        "jsonClass": "HinduCalendarEventOld",
+        "month_number": 7,
+        "month_type": "solar_month",
+        "shlokas": [
+            "SaTSaSTikOTitIrthAni dvisaptabhuvanESu ca.\n kEzavasyA''jJayA yAnti tulAmAsE marudvRdham.."
+        ],
+        "tags": "common-festivals"
+    },
+    {
+        "angam_number": 1,
+        "angam_type": "day",
+        "description": {
+            "en": "Nadha Sharma (`muDavan`, i.e. lame man) and his wife Anavidyambikai came to Mayavaram in order to perform a `tulA snAnam` in Kaveri. However, by the time they arrived, it was the last day of `tulA mAsa` and they could not complete the `snAnam`. They were disappointed yet spent their time doing Puja of the Lord, who appeared in their dreams and asked them to take a bath next morning (1st day of Vrschika) and reap full benefits of the Tula Kaveri Snanam iteself!"
+        },
+        "id": "ta:muDavan2 muzhukku",
+        "jsonClass": "HinduCalendarEventOld",
+        "month_number": 8,
+        "month_type": "solar_month",
+        "tags": "common-festivals"
     }
 ]
