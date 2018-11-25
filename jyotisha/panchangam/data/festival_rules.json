@@ -4730,6 +4730,20 @@
         "tags": "special-vratams,less-common-festivals"
     },
     {
+        "angam_number": 2,
+        "angam_type": "tithi",
+        "id": "phUlErA~dUj",
+        "description": {
+            "en": "Very auspicious day, celebrations with flowers in temples."
+        },        
+        "jsonClass": "HinduCalendarEventOld",
+        "kaala": "sunrise",
+        "month_number": 12,
+        "month_type": "lunar_month",
+        "priority": "puurvaviddha",
+        "tags": "uttar-pradesh-temple-festivals"
+    },
+    {
         "angam_number": 7,
         "angam_type": "tithi",
         "id": "nandA-saptamI~2",
