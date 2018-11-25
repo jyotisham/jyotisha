@@ -17,6 +17,7 @@ import jyotisha.panchangam.spatio_temporal.annual
 import jyotisha.panchangam.temporal
 from jyotisha.panchangam import scripts
 from jyotisha.panchangam.spatio_temporal import City
+from math import ceil
 
 logging.basicConfig(
     level=logging.DEBUG,
@@ -184,11 +185,17 @@ def writeDailyTeX(panchangam, template_file, compute_lagnams=True):
             # Flip the year name for the remaining days
             yname = samvatsara_names[1]
 
-        print('\caldata{%s}{%s}{%s{%s}{%s}{%s}}' %
+        # Assign samvatsara, ayana, rtu #
+        sar_data = '%s\\\\[-4pt]{\\scriptsize %s \\hspace{4pt} %s}' % (yname,
+                                     jyotisha.panchangam.temporal.NAMES['AYANA_NAMES'][panchangam.script][panchangam.solar_month[d]],
+                                     jyotisha.panchangam.temporal.NAMES['RTU_NAMES'][panchangam.script][panchangam.solar_month[d]])
+
+        print('\\caldata{%s}{%s}{%s{%s {\\scriptsize (%s)}}{%s}{%s}}' %
               (month[m], dt, panchangam.month_data[d],
                jyotisha.panchangam.temporal.get_chandra_masa(panchangam.lunar_month[d],
                                                              jyotisha.panchangam.temporal.NAMES, panchangam.script),
-               jyotisha.panchangam.temporal.NAMES['VARA_NAMES'][panchangam.script][panchangam.weekday[d]], yname))
+               jyotisha.panchangam.temporal.NAMES['RTU_NAMES'][panchangam.script][int(ceil(panchangam.lunar_month[d]))],
+               jyotisha.panchangam.temporal.NAMES['VARA_NAMES'][panchangam.script][panchangam.weekday[d]], sar_data))
         print('{\\sunmoondata{%s}{%s}{%s}{%s}' % (sunrise, sunset, moonrise, moonset))
         print('{\kalas{%s %s %s %s %s %s %s %s %s %s}}}' % (pratahsandhya, pratahsandhya_end,
                                                             sangava,

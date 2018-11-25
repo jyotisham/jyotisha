@@ -31,5 +31,11 @@
   },
   "YOGAM_NAMES": {
     "hk": ["viSkumbha", "prIti", "AyuSmAn", "saubhAgya", "zObhana", "atigaNDa", "sukarma", "dhRti", "zUla", "gaNDa", "vRddhi", "dhruva", "vyAghAta", "harSaNa", "vajra", "siddhi", "vyatIpAta", "varIyAn", "parigha", "ziva", "siddha", "sAdhya", "zubha", "zukla", "brahma", "indra", "vaidhRti"]
+  },
+  "AYANA_NAMES": {
+    "hk": ["uttarAyaNam", "uttarAyaNam", "uttarAyaNam", "dakSiNAyanam", "dakSiNAyanam", "dakSiNAyanam", "dakSiNAyanam", "dakSiNAyanam", "dakSiNAyanam", "uttarAyaNam", "uttarAyaNam", "uttarAyaNam"]
+  },
+  "RTU_NAMES": {
+    "hk": ["vasanta-RtuH", "vasanta-RtuH", "grISma-RtuH", "grISma-RtuH", "varSa-RtuH", "varSa-RtuH", "zarad-RtuH", "zarad-RtuH", "hEmanta-RtuH", "hEmanta-RtuH", "zizira-RtuH", "zizira-RtuH"]
   }
 }
