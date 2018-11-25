@@ -4758,6 +4758,21 @@
         "tags": "special-vratams,less-common-festivals"
     },
     {
+        "angam_number": 30,
+        "angam_type": "tithi",
+        "id": "darbha-saGgrahaH~1",
+        "jsonClass": "HinduCalendarEventOld",
+        "kaala": "madhyaahna",
+        "month_number": 11,
+        "month_type": "lunar_month",
+        "priority": "puurvaviddha",
+        "references_secondary": [
+            "Vaidikasri Feb 2010"
+        ],
+        "tags": "special-vratams,less-common-festivals",
+        "notes": "Must check timings from some pravachanam? Based on time of sangraha?"
+    },
+    {
         "angam_number": 22,
         "angam_type": "tithi",
         "id": "nikSubhArka-saptamI",
@@ -5876,7 +5891,8 @@
         "kaala": "madhyaahna",
         "month_number": 1,
         "month_type": "solar_month",
-        "tags": "tamilnadu-temple-festivals"
+        "tags": "tamilnadu-temple-festivals",
+        "notes": "Check! Is it purNimA? Vaidikasri Apr 2010 says 29.04.2010"
     },
     {
         "angam_number": 8,
@@ -7237,6 +7253,7 @@
         "shlokas": [
             "IzE tasya ca nAmani pravimalaM jJAnaM tayOrUrjitam\nprEma prEma ca tatparESu viratizcAnyatra sarvatra ca.\nIzEkSA karuNA ca yasya niyatA vRttiH zritasyApi yam\ntaM vandE nararUpamantakaripuM zrIvEGkaTEzaM gurum.."
         ],
+        "kaala": "aparahna",
         "tags": "mahapurusha-events,tamilnadu-temple-festivals"
     },
     {
