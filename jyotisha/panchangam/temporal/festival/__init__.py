@@ -144,7 +144,8 @@ class HinduCalendarEventOld(common.JsonObject):
   def get_description_string(self, script):
     description_string = ""
     if hasattr(self, "description"):
-      description_string = json.dumps(self.description)
+      # description_string = json.dumps(self.description)
+      description_string = self.description["en"]
     if hasattr(self, "shlokas"):
       description_string = description_string + '\n\n' + \
                            custom_transliteration.tr(", ".join(self.shlokas), script, False) + '\n\n'
