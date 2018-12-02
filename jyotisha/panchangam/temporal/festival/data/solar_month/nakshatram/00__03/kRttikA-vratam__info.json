@@ -1,0 +1,15 @@
+{
+  "id": "kRttikA-vratam",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "special-vratams"
+  ],
+  "timing": {
+    "angam_number": 3,
+    "angam_type": "nakshatram",
+    "jsonClass": "HinduCalendarEventTiming",
+    "kaala": "sangava",
+    "month_number": 0,
+    "month_type": "solar_month"
+  }
+}

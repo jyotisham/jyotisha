@@ -1,6 +1,12 @@
 {
   "id": "yAjJavalkya~jayantI",
   "jsonClass": "HinduCalendarEvent",
+  "references_secondary": [
+    "Vaidikasri Nov 2017"
+  ],
+  "shlokas": [
+    "vandE'haM  maGgaLAtmAnaM  bhAsvantaM  vEdavigraham.\n yAjJavalkyaM  munizrESThaM  jISNuM  hariharaprabham..\n jitEndriyaM  jitakrOdhaM  sadA  dhyAnaparAyaNam.\n AnandanilayaM  vandE  yOgAnandamunIzvaram..\n "
+  ],
   "tags": [
     "mahapurusha-events"
   ],

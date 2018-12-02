@@ -1,15 +1,16 @@
 {
-  "id": "zrInivAsamaGgApurE sAkSAtkAra-vaibhavOtsavaH",
+  "id": "phUlErA~dUj",
   "jsonClass": "HinduCalendarEvent",
+  "priority": "puurvaviddha",
   "tags": [
-    "andhra-temple-festivals"
+    "uttar-pradesh-temple-festivals"
   ],
   "timing": {
-    "angam_number": 6,
+    "angam_number": 2,
     "angam_type": "tithi",
     "jsonClass": "HinduCalendarEventTiming",
     "kaala": "sunrise",
-    "month_number": 3,
+    "month_number": 12,
     "month_type": "lunar_month"
   }
 }

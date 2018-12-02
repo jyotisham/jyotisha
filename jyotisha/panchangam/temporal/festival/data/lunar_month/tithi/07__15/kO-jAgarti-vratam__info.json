@@ -18,6 +18,7 @@
     "angam_number": 15,
     "angam_type": "tithi",
     "jsonClass": "HinduCalendarEventTiming",
+    "kaala": "nishita",
     "month_number": 7,
     "month_type": "lunar_month"
   }

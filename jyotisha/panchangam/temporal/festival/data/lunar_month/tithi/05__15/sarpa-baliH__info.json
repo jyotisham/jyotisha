@@ -1,15 +1,14 @@
 {
-  "id": "zrInivAsamaGgApurE sAkSAtkAra-vaibhavOtsavaH",
+  "id": "sarpa-baliH",
   "jsonClass": "HinduCalendarEvent",
   "tags": [
-    "andhra-temple-festivals"
+    "less-common-festivals"
   ],
   "timing": {
-    "angam_number": 6,
+    "angam_number": 15,
     "angam_type": "tithi",
     "jsonClass": "HinduCalendarEventTiming",
-    "kaala": "sunrise",
-    "month_number": 3,
+    "month_number": 5,
     "month_type": "lunar_month"
   }
 }

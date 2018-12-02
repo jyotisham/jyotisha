@@ -12,6 +12,7 @@
     "angam_number": 30,
     "angam_type": "tithi",
     "jsonClass": "HinduCalendarEventTiming",
+    "kaala": "aparahna",
     "month_number": 8,
     "month_type": "lunar_month"
   }

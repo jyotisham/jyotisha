@@ -8,6 +8,7 @@
     "angam_number": 30,
     "angam_type": "tithi",
     "jsonClass": "HinduCalendarEventTiming",
+    "kaala": "pradosha",
     "month_number": 7,
     "month_type": "lunar_month"
   }

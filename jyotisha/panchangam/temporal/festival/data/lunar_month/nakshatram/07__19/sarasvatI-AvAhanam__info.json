@@ -2,6 +2,9 @@
   "id": "sarasvatI-AvAhanam",
   "jsonClass": "HinduCalendarEvent",
   "priority": "puurvaviddha",
+  "shlokas": [
+    "athavA  mUlanakSatrE  samArabhya  prapUjayEt.\n tatrApyazaktO  viprEndrO  navamyAM  tu  prapUjayEt..\n nA'dhyApayEnna  ca  likhEnnA'dhIyIta  kadAcana.\n pustakE  sthApitE  dEvIM  vidyAkAmO  dvijOttamaH.."
+  ],
   "tags": [
     "common-festivals"
   ],

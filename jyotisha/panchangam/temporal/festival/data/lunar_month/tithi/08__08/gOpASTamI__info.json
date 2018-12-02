@@ -2,6 +2,9 @@
   "id": "gOpASTamI",
   "jsonClass": "HinduCalendarEvent",
   "priority": "puurvaviddha",
+  "shlokas": [
+    "kArtikE  yA'STamI  zuklA  jJEyA  gOpASTamI  budhai.\n tatra  kuryAdgavAM  pUjAM  gOgrAsaM  gOpradakSiNam.."
+  ],
   "tags": [
     "less-common-festivals"
   ],
