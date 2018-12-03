@@ -1,4 +1,7 @@
 {
+  "description": {
+    "en": "Perform danam of hay, grass, food and pure water to cows."
+  },
   "id": "viSNupadI-kumbharaviH",
   "jsonClass": "HinduCalendarEvent",
   "shlokas": [

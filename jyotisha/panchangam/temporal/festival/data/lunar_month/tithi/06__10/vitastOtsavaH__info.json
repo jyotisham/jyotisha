@@ -1,4 +1,7 @@
 {
+  "description": {
+    "en": "This is the day when the sacred river `vitastA` was born. 2.  `nIlamata purANam` recommends taking bath in this sacred river (Jhelum, tributary of Sindhu) for 7 consecutive days starting from this day."
+  },
   "id": "vitastOtsavaH",
   "jsonClass": "HinduCalendarEvent",
   "references_primary": [

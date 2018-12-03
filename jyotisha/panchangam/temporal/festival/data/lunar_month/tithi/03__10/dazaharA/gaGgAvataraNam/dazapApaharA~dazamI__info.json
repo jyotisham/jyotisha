@@ -1,4 +1,7 @@
 {
+  "description": {
+    "en": "Avataranam of Ganga Devi. Bathe in any river and offer arghyam \u2014 destroys 10 types of sins (`dazaharA`)."
+  },
   "id": "dazaharA/gaGgAvataraNam/dazapApaharA~dazamI",
   "jsonClass": "HinduCalendarEvent",
   "references_secondary": [

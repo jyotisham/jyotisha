@@ -1,4 +1,7 @@
 {
+  "description": {
+    "en": "Perform Tarpana to Yamadharmaraja (even those with father). `jIvatpitA'pi kurvIta tarpaNaM yamabhISmayoH`"
+  },
   "id": "dIpOtsava-caturdazI/yama-tarpaNam",
   "jsonClass": "HinduCalendarEvent",
   "tags": [

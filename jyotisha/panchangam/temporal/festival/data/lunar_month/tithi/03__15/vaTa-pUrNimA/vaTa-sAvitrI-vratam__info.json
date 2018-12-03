@@ -1,4 +1,7 @@
 {
+  "description": {
+    "en": "Perform puja of banyan tree; begets `saumaGgalyam` and `saubhAgyam`."
+  },
   "id": "vaTa-pUrNimA/vaTa-sAvitrI-vratam",
   "jsonClass": "HinduCalendarEvent",
   "references_primary": [

@@ -1,4 +1,7 @@
 {
+  "description": {
+    "en": "Shiva Puja"
+  },
   "id": "kukkuTI-vratam",
   "jsonClass": "HinduCalendarEvent",
   "tags": [

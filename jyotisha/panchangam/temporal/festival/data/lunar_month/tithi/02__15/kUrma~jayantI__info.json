@@ -1,4 +1,7 @@
 {
+  "description": {
+    "en": "Danam of Brahma puranam"
+  },
   "id": "kUrma~jayantI",
   "jsonClass": "HinduCalendarEvent",
   "priority": "puurvaviddha",

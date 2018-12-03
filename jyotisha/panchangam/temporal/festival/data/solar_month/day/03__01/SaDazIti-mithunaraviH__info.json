@@ -1,4 +1,7 @@
 {
+  "description": {
+    "en": "Perform danam of clothes, food and water."
+  },
   "id": "SaDazIti-mithunaraviH",
   "jsonClass": "HinduCalendarEvent",
   "shlokas": [

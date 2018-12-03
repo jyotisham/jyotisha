@@ -1,4 +1,7 @@
 {
+  "description": {
+    "en": "Danam of Padma Puranam"
+  },
   "id": "eruvaka-pUrNimA",
   "jsonClass": "HinduCalendarEvent",
   "tags": [

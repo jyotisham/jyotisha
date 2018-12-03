@@ -1,4 +1,7 @@
 {
+  "description": {
+    "en": "Brahma Kalpadi"
+  },
   "id": "brahma-kalpAdi",
   "jsonClass": "HinduCalendarEvent",
   "priority": "puurvaviddha",

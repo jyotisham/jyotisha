@@ -1,4 +1,7 @@
 {
+  "description": {
+    "en": "Offer `bali` to serpents on (from) this day, in the night after `sthAlIpAka`."
+  },
   "id": "sarpa-bali-utsarjanam",
   "jsonClass": "HinduCalendarEvent",
   "tags": [

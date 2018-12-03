@@ -1,4 +1,7 @@
 {
+  "description": {
+    "en": "Perform puja of Uma-Maheshvara, on the day of Uma Devi's Avataram."
+  },
   "id": "umA-avatAraH",
   "jsonClass": "HinduCalendarEvent",
   "shlokas": [

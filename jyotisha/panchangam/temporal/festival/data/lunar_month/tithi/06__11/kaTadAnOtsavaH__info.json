@@ -1,4 +1,7 @@
 {
+  "description": {
+    "en": "As per Smruti-Kaustubham, one must perform daanam of mat (`kaTam`) to a dharmic Vipra."
+  },
   "id": "kaTadAnOtsavaH",
   "jsonClass": "HinduCalendarEvent",
   "references_secondary": [

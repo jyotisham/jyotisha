@@ -1,4 +1,7 @@
 {
+  "description": {
+    "en": "Vanadurga Navaratri. Specially celebrated in Karthiramangalam."
+  },
   "id": "vanadurgAnavarAtri-samApanam",
   "jsonClass": "HinduCalendarEvent",
   "tags": [

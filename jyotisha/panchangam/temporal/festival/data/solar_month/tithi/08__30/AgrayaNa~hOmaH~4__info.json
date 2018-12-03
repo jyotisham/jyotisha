@@ -1,4 +1,7 @@
 {
+  "description": {
+    "en": "Perform `homa' with fresh rice from paddy."
+  },
   "id": "AgrayaNa~hOmaH~4",
   "jsonClass": "HinduCalendarEvent",
   "priority": "puurvaviddha",

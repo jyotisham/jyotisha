@@ -1,4 +1,7 @@
 {
+  "description": {
+    "en": "End of Tula Kaveri Snanam. Also known as `ta:kaDaimugam`."
+  },
   "id": "tulA-kAvErI-snAna-samApanam",
   "jsonClass": "HinduCalendarEvent",
   "tags": [

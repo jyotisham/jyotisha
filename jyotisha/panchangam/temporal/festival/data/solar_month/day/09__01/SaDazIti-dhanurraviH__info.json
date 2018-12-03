@@ -1,4 +1,7 @@
 {
+  "description": {
+    "en": "Perform danam of clothes/vehicle (e.g. bullock cart)."
+  },
   "id": "SaDazIti-dhanurraviH",
   "jsonClass": "HinduCalendarEvent",
   "shlokas": [

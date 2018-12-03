@@ -1,4 +1,7 @@
 {
+  "description": {
+    "en": "Perform `snAnam` in Kaveri during this month."
+  },
   "id": "tulA-kAvErI-snAna-ArambhaH",
   "jsonClass": "HinduCalendarEvent",
   "shlokas": [

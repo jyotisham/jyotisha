@@ -1,4 +1,7 @@
 {
+  "description": {
+    "en": "Have to play Aksha kreeda only on this day and Ko-jagarti-Vratam (Lakshmi will ask \"who are awake\"). Vaalakhilya Rushi mentioned Ko-jagarti Vratam"
+  },
   "id": "kO-jAgarti-vratam",
   "jsonClass": "HinduCalendarEvent",
   "references_primary": [

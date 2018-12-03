@@ -1,4 +1,7 @@
 {
+  "description": {
+    "en": "Lord Krishna killed Kamsa on this day; most popularly celebrated in Mathura and Uttar Pradesh."
+  },
   "id": "kaMsa-vadhaH",
   "jsonClass": "HinduCalendarEvent",
   "tags": [

@@ -1,4 +1,7 @@
 {
+  "description": {
+    "en": "Perform Samudra Snanam and Shraddha"
+  },
   "id": "trEtAyugAdi",
   "jsonClass": "HinduCalendarEvent",
   "priority": "puurvaviddha",

@@ -1,4 +1,7 @@
 {
+  "description": {
+    "en": "Avataram of Yajnavalkya Maharshi happened in kArtika shulka dwadashi in Shatabhishak Nakshatram/Dhanurlagnam."
+  },
   "id": "yAjJavalkya~jayantI",
   "jsonClass": "HinduCalendarEvent",
   "references_secondary": [

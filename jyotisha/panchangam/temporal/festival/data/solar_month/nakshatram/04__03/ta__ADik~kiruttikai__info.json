@@ -1,4 +1,7 @@
 {
+  "description": {
+    "en": "Special puja for Subrahmanya Swami in temples."
+  },
   "id": "ta__ADik~kiruttikai",
   "jsonClass": "HinduCalendarEvent",
   "tags": [

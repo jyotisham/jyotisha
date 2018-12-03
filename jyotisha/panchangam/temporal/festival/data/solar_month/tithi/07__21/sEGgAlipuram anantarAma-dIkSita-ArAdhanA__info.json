@@ -1,4 +1,7 @@
 {
+  "description": {
+    "en": "Aradhana Day of Sri Anantarama Dikshitar."
+  },
   "id": "sEGgAlipuram anantarAma-dIkSita-ArAdhanA",
   "jsonClass": "HinduCalendarEvent",
   "priority": "puurvaviddha",

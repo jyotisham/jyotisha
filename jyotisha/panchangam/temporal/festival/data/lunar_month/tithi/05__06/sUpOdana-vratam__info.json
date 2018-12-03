@@ -1,4 +1,7 @@
 {
+  "description": {
+    "en": "Shiva Puja"
+  },
   "id": "sUpOdana-vratam",
   "jsonClass": "HinduCalendarEvent",
   "tags": [

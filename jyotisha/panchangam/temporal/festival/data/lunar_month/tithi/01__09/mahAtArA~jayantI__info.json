@@ -1,4 +1,7 @@
 {
+  "description": {
+    "en": "Goddess Mahatara is 2nd of the Dasha Maha Vidyas."
+  },
   "id": "mahAtArA~jayantI",
   "jsonClass": "HinduCalendarEvent",
   "priority": "puurvaviddha",

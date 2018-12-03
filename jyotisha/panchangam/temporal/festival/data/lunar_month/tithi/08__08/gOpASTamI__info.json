@@ -1,4 +1,7 @@
 {
+  "description": {
+    "en": "Perform `pujA` of cow with calf, and offer `ahattikIrai` and grass/water, and perform 16 pradakshinams."
+  },
   "id": "gOpASTamI",
   "jsonClass": "HinduCalendarEvent",
   "priority": "puurvaviddha",

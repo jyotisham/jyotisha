@@ -1,4 +1,7 @@
 {
+  "description": {
+    "en": "Perform puja of Surya, eat Panchagavya -- brings merits greater than Ashvamedha!"
+  },
   "id": "sUrya-SaSThI",
   "jsonClass": "HinduCalendarEvent",
   "shlokas": [

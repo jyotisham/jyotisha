@@ -1,4 +1,7 @@
 {
+  "description": {
+    "en": "Perform danam of clothes/place to live."
+  },
   "id": "SaDazIti-kanyAraviH",
   "jsonClass": "HinduCalendarEvent",
   "shlokas": [

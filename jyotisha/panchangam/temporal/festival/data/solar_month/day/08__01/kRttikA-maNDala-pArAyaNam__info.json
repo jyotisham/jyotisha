@@ -1,4 +1,7 @@
 {
+  "description": {
+    "en": "Conduct veda parayanam in the evening, on one of these 48 days."
+  },
   "id": "kRttikA-maNDala-pArAyaNam",
   "jsonClass": "HinduCalendarEvent",
   "tags": [

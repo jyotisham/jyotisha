@@ -1,4 +1,7 @@
 {
+  "description": {
+    "en": "Commemoration of Govardhana Leela of Krishna. Offer naivedyam to Lord Krishna."
+  },
   "id": "gOvardhana-pUjA",
   "jsonClass": "HinduCalendarEvent",
   "priority": "puurvaviddha",

@@ -1,4 +1,7 @@
 {
+  "description": {
+    "en": "Rambha Vratam; perform Savitri pooja near Banana tree. Offer naivedyam of bananas prepared with ghee."
+  },
   "id": "rambhA~tRtIyA",
   "jsonClass": "HinduCalendarEvent",
   "references_secondary": [

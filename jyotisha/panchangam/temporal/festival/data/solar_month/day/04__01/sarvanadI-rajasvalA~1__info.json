@@ -1,4 +1,7 @@
 {
+  "description": {
+    "en": "Do not take bath in any river during these days."
+  },
   "id": "sarvanadI-rajasvalA~1",
   "jsonClass": "HinduCalendarEvent",
   "tags": [

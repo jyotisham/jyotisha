@@ -1,4 +1,7 @@
 {
+  "description": {
+    "en": "Jayanti Day of Sri Anantarama Dikshitar."
+  },
   "id": "sEGgAlipuram anantarAma-dIkSita-jayantI",
   "jsonClass": "HinduCalendarEvent",
   "references_secondary": [

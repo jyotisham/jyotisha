@@ -230,6 +230,8 @@ class HinduCalendarEvent(common.JsonObject):
       event.references_secondary = old_style_event.references_secondary
     if hasattr(old_style_event, "description_short"):
       event.description_short = old_style_event.description_short
+    if hasattr(old_style_event, "description"):
+      event.description = old_style_event.description
 
     event.validate_schema()
     return event

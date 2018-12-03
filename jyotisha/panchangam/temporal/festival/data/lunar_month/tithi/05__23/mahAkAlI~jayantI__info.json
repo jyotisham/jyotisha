@@ -1,4 +1,7 @@
 {
+  "description": {
+    "en": "Goddess Mahakali is 1st of the Dasha Maha Vidyas."
+  },
   "id": "mahAkAlI~jayantI",
   "jsonClass": "HinduCalendarEvent",
   "priority": "paraviddha",

@@ -1,4 +1,7 @@
 {
+  "description": {
+    "en": "Goddess Bagalamukhi is 8th of the Dasha Maha Vidyas."
+  },
   "id": "bagalAmukhI~jayantI",
   "jsonClass": "HinduCalendarEvent",
   "references_secondary": [

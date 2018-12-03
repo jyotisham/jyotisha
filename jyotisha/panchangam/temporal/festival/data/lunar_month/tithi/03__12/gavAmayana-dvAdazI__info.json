@@ -1,4 +1,7 @@
 {
+  "description": {
+    "en": "Perform puja of Lord Trivikrama (Sahasranamarchana), do naivedyam of mangoes and offer annadanam to needy."
+  },
   "id": "gavAmayana-dvAdazI",
   "jsonClass": "HinduCalendarEvent",
   "references_primary": [

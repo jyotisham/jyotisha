@@ -1,4 +1,7 @@
 {
+  "description": {
+    "en": "Undralla Taddi (Telugu)"
+  },
   "id": "gaurI-vratam",
   "jsonClass": "HinduCalendarEvent",
   "tags": [

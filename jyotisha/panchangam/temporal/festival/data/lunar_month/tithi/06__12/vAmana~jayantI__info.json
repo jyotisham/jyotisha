@@ -1,4 +1,7 @@
 {
+  "description": {
+    "en": "Wednesday Shravana ; Vamana Jayanti; Shravana Dvadashi; Vijaya Dvadashi; Shakra Dvadashi"
+  },
   "id": "vAmana~jayantI",
   "jsonClass": "HinduCalendarEvent",
   "priority": "puurvaviddha",

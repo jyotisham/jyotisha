@@ -1,4 +1,7 @@
 {
+  "description": {
+    "en": "Perform puja of Mahalakshmi-Mahavishnu"
+  },
   "id": "gOpadma-vrata-ArambhaH",
   "jsonClass": "HinduCalendarEvent",
   "references_primary": [

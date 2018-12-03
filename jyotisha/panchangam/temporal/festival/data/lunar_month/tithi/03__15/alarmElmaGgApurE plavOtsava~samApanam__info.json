@@ -1,4 +1,7 @@
 {
+  "description": {
+    "en": "Padmavati Devi is taken out on the `plava` (last three days)."
+  },
   "id": "alarmElmaGgApurE plavOtsava~samApanam",
   "jsonClass": "HinduCalendarEvent",
   "tags": [

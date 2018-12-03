@@ -1,4 +1,7 @@
 {
+  "description": {
+    "en": "Brahmaikyam of Madhvacharya"
+  },
   "id": "madhva-navamI",
   "jsonClass": "HinduCalendarEvent",
   "tags": [

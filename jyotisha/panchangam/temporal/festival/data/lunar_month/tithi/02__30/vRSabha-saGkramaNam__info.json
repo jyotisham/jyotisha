@@ -1,4 +1,7 @@
 {
+  "description": {
+    "en": "Perform Krishna Pooja"
+  },
   "id": "vRSabha-saGkramaNam",
   "jsonClass": "HinduCalendarEvent",
   "tags": [
