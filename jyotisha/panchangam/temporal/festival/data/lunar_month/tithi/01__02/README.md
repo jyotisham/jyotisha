@@ -1,0 +1,18 @@
+## arundhatI-vrata-ArambhaH
+
+अरुन्धती-व्रत-आरम्भः is observed on Śukla-Dvitīyā tithi of Caitra (lunar) month.
+
+
+
+## kAJcI 60 jagadguru zrI advaitAtmaprakAzEndra sarasvatI ArAdhanA
+
+काञ्ची ६० जगद्गुरु श्री~अद्वैतात्मप्रकाशेन्द्र सरस्वती आराधना is observed on Śukla-Dvitīyā tithi of Caitra (lunar) month.
+
+
+
+## jhUlElAla jayantI
+
+झूलेलाल~जयन्ती is observed on Śukla-Dvitīyā tithi of Caitra (lunar) month.
+
+
+

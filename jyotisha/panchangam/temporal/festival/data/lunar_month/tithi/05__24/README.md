@@ -1,0 +1,24 @@
+## caNDikA-pUjA
+
+चण्डिका-पूजा is observed on Kṛṣṇa-Navamī tithi of Śravaṇa (lunar) month.
+
+
+
+## aravinda jayantI
+
+अरविन्द~जयन्ती is observed on Kṛṣṇa-Navamī tithi of Śravaṇa (lunar) month.
+
+
+
+## kaumAra-pUjA
+
+कौमार-पूजा is observed on Kṛṣṇa-Navamī tithi of Śravaṇa (lunar) month.
+
+
+
+## kAJcI 24 jagadguru zrI citsukhEndra sarasvatI ArAdhanA
+
+काञ्ची २४ जगद्गुरु श्री~चित्सुखेन्द्र सरस्वती आराधना is observed on Kṛṣṇa-Navamī tithi of Śravaṇa (lunar) month.
+
+
+

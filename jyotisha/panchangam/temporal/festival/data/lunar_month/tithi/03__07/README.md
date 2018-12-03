@@ -1,0 +1,6 @@
+## varuNa-pUjA
+
+वरुण-पूजा is observed on Śukla-Saptamī tithi of Jyaiṣṭha (lunar) month.
+
+
+

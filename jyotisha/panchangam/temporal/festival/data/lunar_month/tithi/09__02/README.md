@@ -1,0 +1,6 @@
+## tintriNI-gaurI-vratam
+
+तिन्त्रिणी-गौरी-व्रतम् is observed on Śukla-Dvitīyā tithi of Mārgaśīrṣa (lunar) month.
+
+
+
