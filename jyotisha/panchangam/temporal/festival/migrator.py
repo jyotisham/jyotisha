@@ -51,7 +51,7 @@ def write_event_README(event, event_file_name):
             if event_dict["id"][:4] == "ta__":
               angam = custom_transliteration.tr(event_dict["id"][4:], sanscript.TAMIL) + ' is observed on '
             else:
-              angam = custom_transliteration.tr(event_dict["id"], sanscript.DEVANAGARI) + ' is observed on '
+              angam = custom_transliteration.tr(event_dict["id"], sanscript.DEVANAGARI).replace("~", " ") + ' is observed on '
 
             if event_dict['timing']['angam_type'] == 'tithi':
                 angam += NAMES['TITHI_NAMES'][sanscript.IAST][event_dict['timing']['angam_number']] + ' tithi'
