@@ -15,8 +15,10 @@ _Afternoon Shri Raama started to go to the forests/exile._
 
 _Worship Mahavishnu and Mahalakshmi, Rati Devi and Manmatha with jasmine flowers._
 
+```
 माघमासे नृपश्रेष्ठ शुक्लायां पञ्चमीतिथौ।
 रतिकामौ तु सम्पूज्य कर्तव्यः सुमहोत्सवः॥
+```
 ### References
 * Smriti Kaustubham 479
 

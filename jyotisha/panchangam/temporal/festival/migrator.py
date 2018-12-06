@@ -82,9 +82,9 @@ def write_event_README(event, event_file_name):
           # description_string = json.dumps(event_dict.description)
           description_string = '_' + event_dict["description"]["en"] + '_'
         if "shlokas" in event_dict:
-          description_string = description_string + '\n\n' + \
+          description_string = description_string + '\n\n```\n' + \
                                custom_transliteration.tr(", ".join(event_dict["shlokas"]),
-                                                         sanscript.DEVANAGARI, False)
+                                                         sanscript.DEVANAGARI, False) + '\n```'
         readme_file.write(description_string)
         if "references_primary" in event_dict or "references_secondary" in event_dict:
           readme_file.write('\n')

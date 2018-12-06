@@ -3,6 +3,8 @@
 
 _Perform danam of hay, grass, food and pure water to cows._
 
+```
 कुम्भप्रवेशे दानं तु गवं अम्बु तृणस्य च
+```
 
 ---

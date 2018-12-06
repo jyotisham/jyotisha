@@ -3,8 +3,10 @@
 
 _Perform puja of `karavIra` plants/flowers and then offer them in `arcanA`._
 
+```
 करवीर विषावास नमस्ते भानुवल्लभ।
 मौलिमण्डन दुर्गादि देवानां सततं प्रिय
+```
 
 ---
 ## bhadra-catuSTaya-vratam

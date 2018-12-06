@@ -3,6 +3,8 @@
 
 _Perform danam of clothes/vehicle (e.g. bullock cart)._
 
+```
 धनुःप्रवेशे वस्त्राणां यानानां च महाफलम्
+```
 
 ---

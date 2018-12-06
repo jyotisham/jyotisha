@@ -11,6 +11,7 @@ Best day for AksharaaBhyaasam_
 
 _Perform puja to Shami tree. Arjuna and Pandavas had left their weapons on this tree during `aGYAtavAsa`. Those who are unable to worship the tree must at least chant the following shlokas._
 
+```
 शमीं शमयते पापं शमी शत्रुविनाशिनि।
 अर्जुनस्य धनुर्धात्री रामस्य प्रियदर्शिनी॥
 
@@ -23,6 +24,7 @@ _Perform puja to Shami tree. Arjuna and Pandavas had left their weapons on this 
 अमङ्गलानां शमनीं दुष्कृतस्य च नाशिनीम्।
 दुःस्वप्नहारिणीं धन्यां प्रवस्येऽहं शमीं शुभाम्॥
 
+```
 ### References
 * Vrata Mahima
 

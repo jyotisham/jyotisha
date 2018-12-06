@@ -3,7 +3,9 @@
 
 _Perform danam of rice/wheat/grains and cow ghee/curd etc._
 
+```
 तुलाप्रवेशे धान्यानां गोरसानामपीष्टदम्
+```
 
 ---
 ## tulA-kAvErI-snAna-ArambhaH
@@ -11,8 +13,10 @@ _Perform danam of rice/wheat/grains and cow ghee/curd etc._
 
 _Perform `snAnam` in Kaveri during this month._
 
+```
 षट्षष्टिकोटितीर्थानि द्विसप्तभुवनेषु च।
  केशवस्याऽऽज्ञया यान्ति तुलामासे मरुद्वृधम्॥
+```
 
 ---
 ## AkAzadIpa-ArambhaH
@@ -20,6 +24,7 @@ _Perform `snAnam` in Kaveri during this month._
 
 _Offer Akasha Dipam for this entire month, in the evening, on a high place (pillar?). Light lamps using gingelly oil with eight wicks._
 
+```
 तुलायां  तिलतैलेन  सायङ्काले  समागते।
 आकाशदीपं  यो  दद्यान्मासमेकं  हरिं  प्रति।
 महतीं  श्रियमाप्नोति  रूप-सौभाग्य-सम्पदम्॥
@@ -27,6 +32,7 @@ _Offer Akasha Dipam for this entire month, in the evening, on a high place (pill
 दामोदराय  नभसि  तुलायां  लोलया  सह।
 प्रदीपं  ते  प्रयच्छामि  नमोऽनन्ताय  वेधसे॥
 
+```
 ### References
 * Nirnaya Sindhu 146
 

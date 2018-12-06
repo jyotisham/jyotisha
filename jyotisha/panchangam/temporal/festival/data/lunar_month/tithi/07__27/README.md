@@ -3,6 +3,7 @@
 
 _Avoid cow's milk, ghee, curd and buttermilk on this day. Give grass to cows and pray to them._
 
+```
 गोक्षीरं गोघृतं चैव दधि तक्रं च वर्जयेत्।
 
  सुरभि त्वं जगन्मातर्देवि विष्णुपदे स्थिता।
@@ -11,6 +12,7 @@ _Avoid cow's milk, ghee, curd and buttermilk on this day. Give grass to cows and
  सर्वदेवमये देवि सर्वेदेवैश्च सत्कृता।
  मातर्ममाऽभिलाषितं सफलं कुरु नन्दिनि॥
 
+```
 
 ---
 ## vasudEva-pUjA

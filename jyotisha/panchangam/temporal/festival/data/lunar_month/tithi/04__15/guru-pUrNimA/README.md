@@ -3,6 +3,8 @@
 
 _Puja of Veda Vyasa / Gurus; Danam of Vishnu Puran is good on this day._
 
+```
 अचतुर्वदनो ब्रह्मा द्विबाहुरपरो हरिः। अफाललोचनो शम्भुर्भगवान् बादारायणः॥
+```
 
 ---

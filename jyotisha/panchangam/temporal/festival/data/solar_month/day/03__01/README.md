@@ -3,6 +3,8 @@
 
 _Perform danam of clothes, food and water._
 
+```
 वस्त्रान्नपानदानानि मिथुने विहितानि तु॥
+```
 
 ---

@@ -3,8 +3,10 @@
 
 _Perform puja of Lord Trivikrama (Sahasranamarchana), do naivedyam of mangoes and offer annadanam to needy._
 
+```
 अहोरात्रेण द्वादश्यां ज्येष्ठे मासि त्रिविक्रमम्।
 गवामयनमाप्नोति अप्सरोभिश्च मोदते॥
+```
 ### References
 * Mahabharata
 

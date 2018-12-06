@@ -9,8 +9,10 @@ _Ganga came out of Jahnu Maharshi and became Jahnavi; perform Parjanya Pooja_
 
 _Worship Surya Bhagavan in a vessel (`kumbha`) filled with sugar, followed by `dAnam` of the same._
 
+```
 शर्करासप्तमी चैव वाजिमेधफलप्रदा।
 सर्वदुःखप्रशमनी सर्वसम्पत्प्रदायिनी॥
+```
 ### References
 * Smriti Kaustubham - 112
 

@@ -9,8 +9,10 @@ _Perform Krishna Pooja_
 
 
 
+```
 माधवे मेषगे भानौ मुरारे मधुसूदन।
 प्रातः स्नानेन मे नाथ फलदो भव पापहन् ॥
+```
 ### References
 * Vaidikasri June 2017
 

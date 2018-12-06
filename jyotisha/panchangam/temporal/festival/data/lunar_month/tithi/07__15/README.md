@@ -15,8 +15,10 @@
 
 _Have to play Aksha kreeda only on this day and Ko-jagarti-Vratam (Lakshmi will ask "who are awake"). Vaalakhilya Rushi mentioned Ko-jagarti Vratam_
 
+```
 निशीथे वरदा लक्ष्मीः को जागर्तीति भाषिणी।
 तस्मै वित्तं प्रयच्छामि अक्षैः क्रीडां करोति यः॥
+```
 ### References
 * Dharma Sindhu 142
 

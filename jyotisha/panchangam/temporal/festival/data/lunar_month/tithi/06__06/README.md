@@ -3,8 +3,10 @@
 
 _Perform puja of Surya, eat Panchagavya -- brings merits greater than Ashvamedha!_
 
+```
 शुक्ले भाद्रपदे षष्ठ्यां स्नानं भास्करपूजनम्।
 प्राशनं पञ्चगव्यस्य अश्वमेधफलाधिकम्॥
+```
 
 ---
 ## kumArikA-svapanam

@@ -24,8 +24,10 @@ _Adi Shankara founded Kamakoti Mutt, Kanchi in Siddharthi year with himself as f
 
 _Perform snana four ghatikas before sunrise (during `aruNodayam`, when the Moon is still up, on the full-moon days of `ASADha`, `kArtika`, `mAgha` and `vaizAkha` – hence the name `A-kA-mA-vai`) bestows strength, beauty, fame, dharma, knowledge, happiness, fortitude and health._
 
+```
 बलं रूपं यशो धर्मं ज्ञानमायुः सुखं धृतिम्।
 आरोग्यं परमाप्नोति सम्यक् स्नानेन मानवः ॥
+```
 ### References
 * Satyavrata Smriti
 

@@ -27,8 +27,10 @@ _Do danam of curd (but do not consume, on this day)_
 
 
 
+```
 वासुदेव शुचौ मासे शाकव्रतमनुत्तमम्।
 त्वत्प्रीत्यर्थं करिष्येऽहं निर्विघ्नं कुरु माधव॥
+```
 
 ---
 ## cAturmAsyavrata-ArambhaH

@@ -9,6 +9,8 @@
 
 _Perform danam of clothes/place to live._
 
+```
 कन्याप्रवेशे वस्त्राणां वेश्मनां दानमेव च
+```
 
 ---
