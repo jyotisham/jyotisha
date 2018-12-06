@@ -1,15 +1,15 @@
 ## kaliyugAdi
-
 कलियुगादि is observed on Kṛṣṇa-Trayodaśī tithi of Bhādrapada (lunar) month (sunrise (default)/puurvaviddha (default)).
 
-Perform Samudra Snanam and Shraddha.
+_Perform Samudra Snanam and Shraddha._
+
 ---
 ## kAJcI 44 jagadguru zrI pUrNabOdhEndra sarasvatI 2 ArAdhanA
-
 काञ्ची ४४ जगद्गुरु श्री पूर्णबोधेन्द्र सरस्वती २ आराधना is observed on Kṛṣṇa-Trayodaśī tithi of Bhādrapada (lunar) month (madhyaahna/puurvaviddha).
 
 
 ### References
 * www.kamakoti.org
+
 
 ---

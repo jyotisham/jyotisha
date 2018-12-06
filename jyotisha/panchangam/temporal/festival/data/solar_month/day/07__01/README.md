@@ -1,25 +1,24 @@
 ## tulA-viSu-puNyakAlaH
-
 तुला-विषु-पुण्यकालः is observed on day 1 of Tulā (solar) month (sunrise (default)/puurvaviddha (default)).
 
-Perform danam of rice/wheat/grains and cow ghee/curd etc.
+_Perform danam of rice/wheat/grains and cow ghee/curd etc._
 
 तुलाप्रवेशे धान्यानां गोरसानामपीष्टदम्
+
 ---
 ## tulA-kAvErI-snAna-ArambhaH
-
 तुला-कावेरी-स्नान-आरम्भः is observed on day 1 of Tulā (solar) month (sunrise (default)/puurvaviddha (default)).
 
-Perform `snAnam` in Kaveri during this month.
+_Perform `snAnam` in Kaveri during this month._
 
 षट्षष्टिकोटितीर्थानि द्विसप्तभुवनेषु च।
  केशवस्याऽऽज्ञया यान्ति तुलामासे मरुद्वृधम्॥
+
 ---
 ## AkAzadIpa-ArambhaH
-
 आकाशदीप-आरम्भः is observed on day 1 of Tulā (solar) month (sunrise (default)/puurvaviddha (default)).
 
-Offer Akasha Dipam for this entire month, in the evening, on a high place (pillar?). Light lamps using gingelly oil with eight wicks.
+_Offer Akasha Dipam for this entire month, in the evening, on a high place (pillar?). Light lamps using gingelly oil with eight wicks._
 
 तुलायां  तिलतैलेन  सायङ्काले  समागते।
 आकाशदीपं  यो  दद्यान्मासमेकं  हरिं  प्रति।
@@ -30,5 +29,6 @@ Offer Akasha Dipam for this entire month, in the evening, on a high place (pilla
 
 ### References
 * Nirnaya Sindhu 146
+
 
 ---

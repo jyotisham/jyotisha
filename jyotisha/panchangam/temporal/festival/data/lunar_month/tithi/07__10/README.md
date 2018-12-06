@@ -1,16 +1,15 @@
 ## vijayadazamI
-
 विजयदशमी is observed on Śukla-Daśamī tithi of Āśvayuja (lunar) month (sunrise (default)/puurvaviddha (default)).
 
-Arjuna wins over all Kauravas and Karna
+_Arjuna wins over all Kauravas and Karna
 Sri Rama's army built tents on ocean bank before crossing on Shravana star (AnandaRamayanam)
-Best day for AksharaaBhyaasam
+Best day for AksharaaBhyaasam_
+
 ---
 ## zamI-pUjA
-
 शमी-पूजा is observed on Śukla-Daśamī tithi of Āśvayuja (lunar) month (sunrise (default)/puurvaviddha (default)).
 
-Perform puja to Shami tree. Arjuna and Pandavas had left their weapons on this tree during `aGYAtavAsa`. Those who are unable to worship the tree must at least chant the following shlokas.
+_Perform puja to Shami tree. Arjuna and Pandavas had left their weapons on this tree during `aGYAtavAsa`. Those who are unable to worship the tree must at least chant the following shlokas._
 
 शमीं शमयते पापं शमी शत्रुविनाशिनि।
 अर्जुनस्य धनुर्धात्री रामस्य प्रियदर्शिनी॥
@@ -27,52 +26,53 @@ Perform puja to Shami tree. Arjuna and Pandavas had left their weapons on this t
 ### References
 * Vrata Mahima
 
+
 ---
 ## Ayudha pUjai
-
 ஆயுத~பூஜை is observed on Śukla-Daśamī tithi of Āśvayuja (lunar) month (sunrise (default)/puurvaviddha (default)).
 
-Arjuna wins over all Kauravas and Karna. Worship of all weapons, or rather, tools related to one's profession.
+_Arjuna wins over all Kauravas and Karna. Worship of all weapons, or rather, tools related to one's profession._
+
 ---
 ## madhvAcArya jayantI
-
 मध्वाचार्य जयन्ती is observed on Śukla-Daśamī tithi of Āśvayuja (lunar) month (sunrise (default)/puurvaviddha (default)).
 
-Jayanti of Madhvacharya, a proponent of Dvaita Vedanta
+_Jayanti of Madhvacharya, a proponent of Dvaita Vedanta_
+
 ---
 ## dazaharA
-
 दशहरा is observed on Śukla-Daśamī tithi of Āśvayuja (lunar) month (sunrise (default)/puurvaviddha (default)).
 
-Dussehra (Raama wins over Ravana)
+_Dussehra (Raama wins over Ravana)_
+
 ---
 ## gaGgAvataraNam
-
 गङ्गावतरणम् is observed on Śukla-Daśamī tithi of Āśvayuja (lunar) month (sunrise (default)/puurvaviddha (default)).
 
-According to Agni/Padma Puranam
+_According to Agni/Padma Puranam_
+
 ---
 ## kUSmANDa-dazamI
-
 कूष्माण्ड-दशमी is observed on Śukla-Daśamī tithi of Āśvayuja (lunar) month (sunrise (default)/puurvaviddha (default)).
 
-`kUSmANDa` Danam
+_`kUSmANDa` Danam_
+
 ---
 ## yuddhadEvatA-ArAdhanA
-
 युद्धदेवता-आराधना is observed on Śukla-Daśamī tithi of Āśvayuja (lunar) month (sunrise (default)/puurvaviddha (default)).
+
 
 
 ---
 ## buddha jayantI
-
 बुद्ध जयन्ती is observed on Śukla-Daśamī tithi of Āśvayuja (lunar) month (sunset/puurvaviddha).
+
 
 
 ---
 ## durgA-pUjA
-
 दुर्गा-पूजा is observed on Śukla-Daśamī tithi of Āśvayuja (lunar) month (sunrise (default)/puurvaviddha (default)).
+
 
 
 ---

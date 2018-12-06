@@ -36,7 +36,7 @@ def write_event_README(event, event_file_name):
       readme_file_name = os.path.join(os.path.dirname(event_file_name), 'README.md')
       event_dict = json.load(event_data)
       with open(readme_file_name, 'a+') as readme_file:
-        readme_file.write('## %s\n\n' % event_dict["id"].replace('ta__', '').replace('~', ' '))
+        readme_file.write('## %s\n' % event_dict["id"].replace('ta__', '').replace('~', ' '))
 
         blurb = ''
         month = ''
@@ -80,7 +80,7 @@ def write_event_README(event, event_file_name):
         logging.debug(event_dict)
         if "description" in event_dict:
           # description_string = json.dumps(event_dict.description)
-          description_string = event_dict["description"]["en"]
+          description_string = '_' + event_dict["description"]["en"] + '_'
         if "shlokas" in event_dict:
           description_string = description_string + '\n\n' + \
                                custom_transliteration.tr(", ".join(event_dict["shlokas"]),
@@ -95,7 +95,7 @@ def write_event_README(event, event_file_name):
           elif "references_secondary" in event_dict:
             for ref in event_dict["references_secondary"]:
               readme_file.write('* %s\n' % ref)
-        readme_file.write('\n---\n')
+        readme_file.write('\n\n---\n')
 
 
 def migrate_relative_db():

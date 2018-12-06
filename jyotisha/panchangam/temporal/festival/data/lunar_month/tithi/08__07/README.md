@@ -1,6 +1,6 @@
 ## kalpAdi 4
-
 कल्पादि is observed on Śukla-Saptamī tithi of Kārtika (lunar) month (aparahna/puurvaviddha).
 
-Kalpadi
+_Kalpadi_
+
 ---
