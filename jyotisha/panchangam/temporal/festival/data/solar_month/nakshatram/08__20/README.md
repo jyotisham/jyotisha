@@ -1,6 +1,6 @@
 ## cirappuli nAyan2Ar gurupUjai
 
-சிரப்புலி நாயனார் குருபூஜை is observed on Pūrvāṣāḍhā nakṣhatram day of Vṛścika (solar) month.
+சிரப்புலி நாயனார் குருபூஜை is observed on Pūrvāṣāḍhā nakṣhatram day of Vṛścika (solar) month (sunrise (default)/puurvaviddha (default)).
 
 
-
+---

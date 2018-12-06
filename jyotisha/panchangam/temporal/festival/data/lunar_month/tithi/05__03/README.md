@@ -1,18 +1,18 @@
 ## pArvatI pavitrArOpaNam
 
-पार्वती~पवित्रारोपणम् is observed on Śukla-Tṛtīyā tithi of Śravaṇa (lunar) month.
+पार्वती~पवित्रारोपणम् is observed on Śukla-Tṛtīyā tithi of Śravaṇa (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
-
+---
 ## hariyAlI tRtIyA
 
-हरियाली~तृतीया is observed on Śukla-Tṛtīyā tithi of Śravaṇa (lunar) month.
+हरियाली~तृतीया is observed on Śukla-Tṛtīyā tithi of Śravaṇa (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
-
+---
 ## madhuzrAvaNi-vratam
 
-मधुश्रावणि-व्रतम् is observed on Śukla-Tṛtīyā tithi of Śravaṇa (lunar) month.
+मधुश्रावणि-व्रतम् is observed on Śukla-Tṛtīyā tithi of Śravaṇa (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
-
+---

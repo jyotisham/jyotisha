@@ -1,10 +1,10 @@
 ## lakSmI-varAha jayantI
 
-लक्ष्मी-वराह~जयन्ती is observed on Kṛṣṇa-Pañcamī tithi of Caitra (lunar) month.
+लक्ष्मी-वराह~जयन्ती is observed on Kṛṣṇa-Pañcamī tithi of Caitra (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 
 जितं जितं तेऽजित यज्ञभावन त्रयीं तनुं स्वां परिधुन्वते नमः।
 यद्रोमगर्तेषु निलिल्युरद्धयस्तस्मै नमः कारणसूकराय ते॥३-१३-३५॥
 —श्रीमद्भागवते महापुराणे तृतीयेस्कन्धे त्रयोदशेऽध्याये
-
+---

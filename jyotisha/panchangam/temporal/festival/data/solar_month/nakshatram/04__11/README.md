@@ -1,6 +1,6 @@
 ## tiruvADippUram
 
-திருவாடிப்பூரம் is observed on Pūrvaphalgunī nakṣhatram day of Kaṭaka (solar) month.
+திருவாடிப்பூரம் is observed on Pūrvaphalgunī nakṣhatram day of Kaṭaka (solar) month (sunrise (default)/puurvaviddha (default)).
 
 
 
@@ -8,4 +8,4 @@
 श्रीरङ्गराज-हरि-चन्दन-योग-द्र्श्याम्।
 साक्षात् क्षमां करुणया कमलामिवान्यां
 गोदाम् अनन्यशरणः शरणं प्रपद्ये॥
-
+---

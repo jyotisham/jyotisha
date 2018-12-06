@@ -1,6 +1,6 @@
 ## tilapadma-dvAdazI/tilOtpatti
 
-तिलपद्म-द्वादशी/तिलोत्पत्ति is observed on Śukla-Dvādaśī tithi of Māgha (lunar) month.
+तिलपद्म-द्वादशी/तिलोत्पत्ति is observed on Śukla-Dvādaśī tithi of Māgha (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 Mahavishnu created black til by extreme `tapas` on this day; light til deepam and offer `tilAnnam naivedyam`.
 
@@ -8,4 +8,7 @@ Mahavishnu created black til by extreme `tapas` on this day; light til deepam an
 तिलान् उत्पादयामास तपः कृत्वा सुदारुणम्॥
 तिलतैलेन दीपाश्छ देयाह् देव गृहेषु च।
 निवेदयेत् तिलानेव
+### References
+* Vaidikasri Feb 2016
 
+---
