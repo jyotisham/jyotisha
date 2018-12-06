@@ -1,12 +1,12 @@
 ## manvAdi (cAkSuSa) 1
 
-मन्वादि~(चाक्षुष) is observed on Śukla-Daśamī tithi of Āṣāḍha (lunar) month (sunset/puurvaviddha).
+मन्वादि (चाक्षुष) is observed on Śukla-Daśamī tithi of Āṣāḍha (lunar) month (sunset/puurvaviddha).
 
 
 ---
 ## manvAdi (vaivasvata)
 
-मन्वादि~(वैवस्वत) is observed on Śukla-Daśamī tithi of Āṣāḍha (lunar) month (sunset/puurvaviddha).
+मन्वादि (वैवस्वत) is observed on Śukla-Daśamī tithi of Āṣāḍha (lunar) month (sunset/puurvaviddha).
 
 
 ---
@@ -39,7 +39,7 @@ Chaaturmasya begins; 4 months; Pradakshina to Pippala; Deeparadhana in temple; S
 ---
 ## kAJcI 48 jagadguru zrI advaitAnandabOdhEndra sarasvatI ArAdhanA
 
-काञ्ची ४८ जगद्गुरु श्री~अद्वैतानन्दबोधेन्द्र सरस्वती आराधना is observed on Śukla-Daśamī tithi of Āṣāḍha (lunar) month (madhyaahna/puurvaviddha).
+काञ्ची ४८ जगद्गुरु श्री अद्वैतानन्दबोधेन्द्र सरस्वती आराधना is observed on Śukla-Daśamī tithi of Āṣāḍha (lunar) month (madhyaahna/puurvaviddha).
 
 
 ### References
@@ -48,7 +48,7 @@ Chaaturmasya begins; 4 months; Pradakshina to Pippala; Deeparadhana in temple; S
 ---
 ## AzA dazamI
 
-आशा~दशमी is observed on Śukla-Daśamī tithi of Āṣāḍha (lunar) month (sunrise (default)/puurvaviddha (default)).
+आशा दशमी is observed on Śukla-Daśamī tithi of Āṣāḍha (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 Puja of `AzA devI (pArvatI)`
 ---

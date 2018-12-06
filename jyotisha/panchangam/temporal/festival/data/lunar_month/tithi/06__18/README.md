@@ -1,6 +1,6 @@
 ## kajarI tRtIyA
 
-कजरी~तृतीया is observed on Kṛṣṇa-Tṛtīyā tithi of Bhādrapada (lunar) month (sunrise (default)/puurvaviddha (default)).
+कजरी तृतीया is observed on Kṛṣṇa-Tṛtīyā tithi of Bhādrapada (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 ---

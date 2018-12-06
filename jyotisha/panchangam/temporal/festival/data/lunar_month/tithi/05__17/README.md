@@ -6,7 +6,7 @@
 ---
 ## zrI rAghavEndra svAmI ArAdhanA
 
-श्री~राघवेन्द्र~स्वामी~आराधना is observed on Kṛṣṇa-Dvitīyā tithi of Śravaṇa (lunar) month (sunrise (default)/puurvaviddha (default)).
+श्री राघवेन्द्र स्वामी आराधना is observed on Kṛṣṇa-Dvitīyā tithi of Śravaṇa (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 
@@ -21,7 +21,7 @@ VaakuduChettu Puja
 ---
 ## bhIma caNDI jayantI
 
-भीम~चण्डी~जयन्ती is observed on Kṛṣṇa-Dvitīyā tithi of Śravaṇa (lunar) month (sunrise (default)/puurvaviddha (default)).
+भीम चण्डी जयन्ती is observed on Kṛṣṇa-Dvitīyā tithi of Śravaṇa (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 ### References

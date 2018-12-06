@@ -18,7 +18,7 @@
 ---
 ## kAJcI 33 jagadguru zrI saccidAnandaghanEndra sarasvatI 2 ArAdhanA
 
-काञ्ची ३३ जगद्गुरु श्री~सच्चिदानन्दघनेन्द्र सरस्वती २ आराधना is observed on Kṛṣṇa-Ṣaṣṭhī tithi of Bhādrapada (lunar) month (madhyaahna/puurvaviddha).
+काञ्ची ३३ जगद्गुरु श्री सच्चिदानन्दघनेन्द्र सरस्वती २ आराधना is observed on Kṛṣṇa-Ṣaṣṭhī tithi of Bhādrapada (lunar) month (madhyaahna/puurvaviddha).
 
 
 ### References

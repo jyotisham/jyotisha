@@ -27,7 +27,7 @@ Grandson must seek blessings of his maternal grandparents, and bestow gifts.
 ---
 ## agrasEna mahArAja jayantI
 
-अग्रसेन~महाराज~जयन्ती is observed on Śukla-Prathamā tithi of Āśvayuja (lunar) month (sunrise (default)/puurvaviddha (default)).
+अग्रसेन महाराज जयन्ती is observed on Śukla-Prathamā tithi of Āśvayuja (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 ---

@@ -1,12 +1,12 @@
 ## nerUr zrI sadAziva brahmEndra ArAdhanA
 
-नॆरूर्~श्री~सदाशिव~ब्रह्मेन्द्र~आराधना is observed on Śukla-Daśamī tithi of Vaiśākha (lunar) month (madhyaahna/puurvaviddha).
+नॆरूर् श्री सदाशिव ब्रह्मेन्द्र आराधना is observed on Śukla-Daśamī tithi of Vaiśākha (lunar) month (madhyaahna/puurvaviddha).
 
 
 ---
 ## nimiSAmbA jayantI
 
-निमिषाम्बा~जयन्ती is observed on Śukla-Daśamī tithi of Vaiśākha (lunar) month (sunrise (default)/puurvaviddha (default)).
+निमिषाम्बा जयन्ती is observed on Śukla-Daśamī tithi of Vaiśākha (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 ---

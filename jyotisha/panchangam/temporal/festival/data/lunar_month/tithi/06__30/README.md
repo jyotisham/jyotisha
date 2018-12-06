@@ -21,7 +21,7 @@
 ---
 ## zRGgErI 34 jagadguru zrI candrazEkhara bhAratI ArAdhanA
 
-शृङ्गेरी ३४ जगद्गुरु श्री~चन्द्रशेखर भारती आराधना is observed on Amāvāsyā tithi of Bhādrapada (lunar) month (madhyaahna/puurvaviddha).
+शृङ्गेरी ३४ जगद्गुरु श्री चन्द्रशेखर भारती आराधना is observed on Amāvāsyā tithi of Bhādrapada (lunar) month (madhyaahna/puurvaviddha).
 
 
 

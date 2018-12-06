@@ -12,7 +12,7 @@
 ---
 ## kAJcI 6 jagadguru zrI zuddhAnandEndra sarasvatI ArAdhanA
 
-काञ्ची ६ जगद्गुरु श्री~शुद्धानन्देन्द्र सरस्वती आराधना is observed on Śukla-Ṣaṣṭhī tithi of Jyaiṣṭha (lunar) month (madhyaahna/puurvaviddha).
+काञ्ची ६ जगद्गुरु श्री शुद्धानन्देन्द्र सरस्वती आराधना is observed on Śukla-Ṣaṣṭhī tithi of Jyaiṣṭha (lunar) month (madhyaahna/puurvaviddha).
 
 
 ### References
@@ -21,7 +21,7 @@
 ---
 ## kAJcI 50 jagadguru zrI candracUDEndra sarasvatI 1 ArAdhanA
 
-काञ्ची ५० जगद्गुरु श्री~चन्द्रचूडेन्द्र सरस्वती १ आराधना is observed on Śukla-Ṣaṣṭhī tithi of Jyaiṣṭha (lunar) month (madhyaahna/puurvaviddha).
+काञ्ची ५० जगद्गुरु श्री चन्द्रचूडेन्द्र सरस्वती १ आराधना is observed on Śukla-Ṣaṣṭhī tithi of Jyaiṣṭha (lunar) month (madhyaahna/puurvaviddha).
 
 
 ### References

@@ -36,7 +36,7 @@ Arjuna wins over all Kauravas and Karna. Worship of all weapons, or rather, tool
 ---
 ## madhvAcArya jayantI
 
-मध्वाचार्य~जयन्ती is observed on Śukla-Daśamī tithi of Āśvayuja (lunar) month (sunrise (default)/puurvaviddha (default)).
+मध्वाचार्य जयन्ती is observed on Śukla-Daśamī tithi of Āśvayuja (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 Jayanti of Madhvacharya, a proponent of Dvaita Vedanta
 ---
@@ -66,7 +66,7 @@ According to Agni/Padma Puranam
 ---
 ## buddha jayantI
 
-बुद्ध~जयन्ती is observed on Śukla-Daśamī tithi of Āśvayuja (lunar) month (sunset/puurvaviddha).
+बुद्ध जयन्ती is observed on Śukla-Daśamī tithi of Āśvayuja (lunar) month (sunset/puurvaviddha).
 
 
 ---

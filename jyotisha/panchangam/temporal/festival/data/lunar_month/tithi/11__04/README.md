@@ -12,7 +12,7 @@
 ---
 ## mArkaNDEya jayantI
 
-मार्कण्डेय~जयन्ती is observed on Śukla-Caturthī tithi of Māgha (lunar) month (sunrise (default)/puurvaviddha (default)).
+मार्कण्डेय जयन्ती is observed on Śukla-Caturthī tithi of Māgha (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 ### References

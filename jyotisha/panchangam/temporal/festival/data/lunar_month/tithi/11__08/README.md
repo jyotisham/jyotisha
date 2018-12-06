@@ -9,7 +9,7 @@ Bhishma obtained mukti on this day; offer tarpana to Bhishma (even those with pa
 ---
 ## khODiyAra mAtA jayantI
 
-खोडियार~माता~जयन्ती is observed on Śukla-Aṣṭamī tithi of Māgha (lunar) month (sunrise (default)/puurvaviddha (default)).
+खोडियार माता जयन्ती is observed on Śukla-Aṣṭamī tithi of Māgha (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 ### References

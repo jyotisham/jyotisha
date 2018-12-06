@@ -18,7 +18,7 @@ Worship Surya Bhagavan in a vessel (`kumbha`) filled with sugar, followed by `dA
 ---
 ## vidyAraNya-svAmI jayantI
 
-विद्यारण्य-स्वामी~जयन्ती is observed on Śukla-Saptamī tithi of Vaiśākha (lunar) month (sunrise (default)/puurvaviddha (default)).
+विद्यारण्य-स्वामी जयन्ती is observed on Śukla-Saptamī tithi of Vaiśākha (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 ### References
@@ -27,7 +27,7 @@ Worship Surya Bhagavan in a vessel (`kumbha`) filled with sugar, followed by `dA
 ---
 ## tyAgarAja jayantI
 
-त्यागराज~जयन्ती is observed on Śukla-Saptamī tithi of Vaiśākha (lunar) month (sunrise (default)/puurvaviddha (default)).
+त्यागराज जयन्ती is observed on Śukla-Saptamī tithi of Vaiśākha (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 ### References

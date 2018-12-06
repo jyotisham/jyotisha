@@ -1,6 +1,6 @@
 ## zRGgErI 34 jagadguru zrI candrazEkhara bhAratI jayantI
 
-शृङ्गेरी ३४ जगद्गुरु श्री~चन्द्रशेखर भारती जयन्ती is observed on Kṛṣṇa-Ekādaśī tithi of Āśvayuja (lunar) month (sunrise (default)/puurvaviddha (default)).
+शृङ्गेरी ३४ जगद्गुरु श्री चन्द्रशेखर भारती जयन्ती is observed on Kṛṣṇa-Ekādaśī tithi of Āśvayuja (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 

@@ -18,7 +18,7 @@ Perform Krishna Pooja
 ---
 ## zani jayantI
 
-शनि~जयन्ती is observed on Amāvāsyā tithi of Vaiśākha (lunar) month (sunrise (default)/puurvaviddha (default)).
+शनि जयन्ती is observed on Amāvāsyā tithi of Vaiśākha (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 ### References
@@ -27,7 +27,7 @@ Perform Krishna Pooja
 ---
 ## zuka maharSi jayantI
 
-शुक~महर्षि~जयन्ती is observed on Amāvāsyā tithi of Vaiśākha (lunar) month (sunrise (default)/puurvaviddha (default)).
+शुक महर्षि जयन्ती is observed on Amāvāsyā tithi of Vaiśākha (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 ---

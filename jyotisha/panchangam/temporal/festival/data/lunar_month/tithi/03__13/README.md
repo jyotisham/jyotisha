@@ -6,13 +6,13 @@
 ---
 ## vidyAraNya svAmI ArAdhanA
 
-विद्यारण्य~स्वामी~आराधना is observed on Śukla-Trayodaśī tithi of Jyaiṣṭha (lunar) month (sunrise (default)/puurvaviddha (default)).
+विद्यारण्य स्वामी आराधना is observed on Śukla-Trayodaśī tithi of Jyaiṣṭha (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 ---
 ## chatrapati zivAjI rAjyAbhiSEkaH
 
-छत्रपति~शिवाजी~राज्याभिषेकः is observed on Śukla-Trayodaśī tithi of Jyaiṣṭha (lunar) month (sunrise (default)/puurvaviddha (default)).
+छत्रपति शिवाजी राज्याभिषेकः is observed on Śukla-Trayodaśī tithi of Jyaiṣṭha (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 ---

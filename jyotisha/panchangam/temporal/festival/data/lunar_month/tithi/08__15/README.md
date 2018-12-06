@@ -12,13 +12,13 @@
 ---
 ## manvAdi (dakSa-sAvarNi)
 
-मन्वादि~(दक्ष-सावर्णि) is observed on Paurṇamāsī tithi of Kārtika (lunar) month (sunrise (default)/puurvaviddha (default)).
+मन्वादि (दक्ष-सावर्णि) is observed on Paurṇamāsī tithi of Kārtika (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 ---
 ## manvAdi (uttama) 2
 
-मन्वादि~(उत्तम) is observed on Paurṇamāsī tithi of Kārtika (lunar) month (pradosha/puurvaviddha).
+मन्वादि (उत्तम) is observed on Paurṇamāsī tithi of Kārtika (lunar) month (pradosha/puurvaviddha).
 
 
 ---
@@ -33,7 +33,7 @@ Perform snana four ghatikas before sunrise (during `aruNodayam`, when the Moon i
 ---
 ## zrI gOvinda bhagavatpAda ArAdhanA
 
-श्री~गोविन्द भगवत्पाद आराधना is observed on Paurṇamāsī tithi of Kārtika (lunar) month (madhyaahna/puurvaviddha).
+श्री गोविन्द भगवत्पाद आराधना is observed on Paurṇamāsī tithi of Kārtika (lunar) month (madhyaahna/puurvaviddha).
 
 
 ---

@@ -12,25 +12,25 @@ Danam of Padma Puranam
 ---
 ## kabIradAsa jayantI
 
-कबीरदास~जयन्ती is observed on Paurṇamāsī tithi of Jyaiṣṭha (lunar) month (sunrise (default)/puurvaviddha (default)).
+कबीरदास जयन्ती is observed on Paurṇamāsī tithi of Jyaiṣṭha (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 ---
 ## manvAdi (bhautya)
 
-मन्वादि~(भौत्य) is observed on Paurṇamāsī tithi of Jyaiṣṭha (lunar) month (sunrise (default)/puurvaviddha (default)).
+मन्वादि (भौत्य) is observed on Paurṇamāsī tithi of Jyaiṣṭha (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 ---
 ## manvAdi (tAmasa) 1
 
-मन्वादि~(तामस) is observed on Paurṇamāsī tithi of Jyaiṣṭha (lunar) month (sunrise (default)/puurvaviddha (default)).
+मन्वादि (तामस) is observed on Paurṇamāsī tithi of Jyaiṣṭha (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 ---
 ## alarmElmaGgApurE plavOtsava samApanam
 
-अलर्मेल्मङ्गापुरे प्लवोत्सव~समापनम् is observed on Paurṇamāsī tithi of Jyaiṣṭha (lunar) month (sunrise/puurvaviddha (default)).
+अलर्मेल्मङ्गापुरे प्लवोत्सव समापनम् is observed on Paurṇamāsī tithi of Jyaiṣṭha (lunar) month (sunrise/puurvaviddha (default)).
 
 Padmavati Devi is taken out on the `plava` (last three days).
 ---

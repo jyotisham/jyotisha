@@ -21,13 +21,13 @@
 ---
 ## gOdhUmA navamI
 
-गोधूमा~नवमी is observed on Śukla-Navamī tithi of Bhādrapada (lunar) month (sunrise (default)/puurvaviddha (default)).
+गोधूमा नवमी is observed on Śukla-Navamī tithi of Bhādrapada (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 Durga Puja
 ---
 ## nandA navamI
 
-नन्दा~नवमी is observed on Śukla-Navamī tithi of Bhādrapada (lunar) month (sunrise (default)/puurvaviddha (default)).
+नन्दा नवमी is observed on Śukla-Navamī tithi of Bhādrapada (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 Durga Puja
 ---

@@ -24,7 +24,7 @@ Worship Mahavishnu and Mahalakshmi, Rati Devi and Manmatha with jasmine flowers.
 ---
 ## mAghI sarasvatI-pUjA
 
-माघी~सरस्वती-पूजा is observed on Śukla-Pañcamī tithi of Māgha (lunar) month (sunrise (default)/puurvaviddha (default)).
+माघी सरस्वती-पूजा is observed on Śukla-Pañcamī tithi of Māgha (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 Saraswati Puja, especially in Bengal.
 ### References

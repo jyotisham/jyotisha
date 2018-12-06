@@ -9,7 +9,7 @@ Daanam of Dadhyodanam, Vyanjanam, Chatram, Paduka, Udaka Kumbham, Mangos, Jackfr
 ---
 ## rAja-mAtaGgI jayantI
 
-राज-मातङ्गी~जयन्ती is observed on Śukla-Tṛtīyā tithi of Vaiśākha (lunar) month (sunrise (default)/puurvaviddha (default)).
+राज-मातङ्गी जयन्ती is observed on Śukla-Tṛtīyā tithi of Vaiśākha (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 Goddess Raja Matangi is 9th of the Dasha Maha Vidyas.
 ### References
@@ -18,7 +18,7 @@ Goddess Raja Matangi is 9th of the Dasha Maha Vidyas.
 ---
 ## balarAma jayantI
 
-बलराम~जयन्ती is observed on Śukla-Tṛtīyā tithi of Vaiśākha (lunar) month (sunrise (default)/puurvaviddha (default)).
+बलराम जयन्ती is observed on Śukla-Tṛtīyā tithi of Vaiśākha (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 ---
@@ -30,7 +30,7 @@ Perform Samudra Snanam and Shraddha
 ---
 ## parazurAma jayantI 1
 
-परशुराम~जयन्ती is observed on Śukla-Tṛtīyā tithi of Vaiśākha (lunar) month (madhyaahna/puurvaviddha).
+परशुराम जयन्ती is observed on Śukla-Tṛtīyā tithi of Vaiśākha (lunar) month (madhyaahna/puurvaviddha).
 
 
 ---

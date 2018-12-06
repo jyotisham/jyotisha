@@ -1,6 +1,6 @@
 ## kajjalI tRtIyA
 
-कज्जली~तृतीया is observed on Kṛṣṇa-Tṛtīyā tithi of Śravaṇa (lunar) month (sunrise (default)/puurvaviddha (default)).
+कज्जली तृतीया is observed on Kṛṣṇa-Tṛtīyā tithi of Śravaṇa (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 ---

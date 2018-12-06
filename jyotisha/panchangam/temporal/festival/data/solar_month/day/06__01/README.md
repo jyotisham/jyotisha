@@ -1,6 +1,6 @@
 ## vizvakarmA jayantI
 
-विश्वकर्मा~जयन्ती is observed on day 1 of Kanyā (solar) month (sunrise (default)/puurvaviddha (default)).
+विश्वकर्मा जयन्ती is observed on day 1 of Kanyā (solar) month (sunrise (default)/puurvaviddha (default)).
 
 
 ---

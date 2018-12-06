@@ -1,6 +1,6 @@
 ## dEvasEnA paJcamI
 
-देवसेना~पञ्चमी is observed on Śukla-Pañcamī tithi of Kārtika (lunar) month (madhyaahna/puurvaviddha).
+देवसेना पञ्चमी is observed on Śukla-Pañcamī tithi of Kārtika (lunar) month (madhyaahna/puurvaviddha).
 
 
 ### References
@@ -9,7 +9,7 @@
 ---
 ## pANDava (lAbha)-paJcamI
 
-पाण्डव~(लाभ)-पञ्चमी is observed on Śukla-Pañcamī tithi of Kārtika (lunar) month (madhyaahna/puurvaviddha).
+पाण्डव (लाभ)-पञ्चमी is observed on Śukla-Pañcamī tithi of Kārtika (lunar) month (madhyaahna/puurvaviddha).
 
 
 ---

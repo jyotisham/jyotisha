@@ -1,6 +1,6 @@
 ## tulasI-jananaM kSIrasAgarataH
 
-तुलसी-जननं~क्षीरसागरतः is observed on Śukla-Dvādaśī tithi of Caitra (lunar) month (sunrise (default)/puurvaviddha (default)).
+तुलसी-जननं क्षीरसागरतः is observed on Śukla-Dvādaśī tithi of Caitra (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 ---

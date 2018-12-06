@@ -1,6 +1,6 @@
 ## kArtavIryArjuna jayantI
 
-कार्तवीर्यार्जुन~जयन्ती is observed on Śukla-Aṣṭamī tithi of Kārtika (lunar) month (sunrise (default)/puurvaviddha (default)).
+कार्तवीर्यार्जुन जयन्ती is observed on Śukla-Aṣṭamī tithi of Kārtika (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 ### References

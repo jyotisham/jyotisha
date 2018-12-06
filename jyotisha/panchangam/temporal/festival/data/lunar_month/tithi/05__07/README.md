@@ -1,12 +1,12 @@
 ## tulasIdAsa jayantI
 
-तुलसीदास~जयन्ती is observed on Śukla-Saptamī tithi of Śravaṇa (lunar) month (sunrise (default)/puurvaviddha (default)).
+तुलसीदास जयन्ती is observed on Śukla-Saptamī tithi of Śravaṇa (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 ---
 ## zItalA saptamI
 
-शीतला~सप्तमी is observed on Śukla-Saptamī tithi of Śravaṇa (lunar) month (madhyaahna/puurvaviddha).
+शीतला सप्तमी is observed on Śukla-Saptamī tithi of Śravaṇa (lunar) month (madhyaahna/puurvaviddha).
 
 
 ### References
@@ -15,7 +15,7 @@
 ---
 ## pApanAzanI saptamI
 
-पापनाशनी~सप्तमी is observed on Śukla-Saptamī tithi of Śravaṇa (lunar) month (sunrise (default)/puurvaviddha (default)).
+पापनाशनी सप्तमी is observed on Śukla-Saptamī tithi of Śravaṇa (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 ---

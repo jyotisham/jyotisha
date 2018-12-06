@@ -1,6 +1,6 @@
 ## kalki jayantI
 
-कल्कि~जयन्ती is observed on Śukla-Ṣaṣṭhī tithi of Śravaṇa (lunar) month (sunset/puurvaviddha).
+कल्कि जयन्ती is observed on Śukla-Ṣaṣṭhī tithi of Śravaṇa (lunar) month (sunset/puurvaviddha).
 
 
 ---

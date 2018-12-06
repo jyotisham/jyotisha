@@ -18,7 +18,7 @@ Pooja of Kokila for getting good husband/wife.
 ---
 ## manvAdi (rudra-sAvarNi)
 
-मन्वादि~(रुद्र-सावर्णि) is observed on Paurṇamāsī tithi of Āṣāḍha (lunar) month (sunset/puurvaviddha).
+मन्वादि (रुद्र-सावर्णि) is observed on Paurṇamāsī tithi of Āṣāḍha (lunar) month (sunset/puurvaviddha).
 
 
 ---
@@ -33,7 +33,7 @@ Perform snana four ghatikas before sunrise (during `aruNodayam`, when the Moon i
 ---
 ## kAJcI 10 jagadguru zrI surEzvarEndra sarasvatI ArAdhanA
 
-काञ्ची १० जगद्गुरु श्री~सुरेश्वरेन्द्र सरस्वती आराधना is observed on Paurṇamāsī tithi of Āṣāḍha (lunar) month (madhyaahna/puurvaviddha).
+काञ्ची १० जगद्गुरु श्री सुरेश्वरेन्द्र सरस्वती आराधना is observed on Paurṇamāsī tithi of Āṣāḍha (lunar) month (madhyaahna/puurvaviddha).
 
 
 ### References

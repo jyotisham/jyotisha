@@ -6,7 +6,7 @@
 ---
 ## zrI bOdhEndra sarasvatI ArAdhanA
 
-श्री~बोधेन्द्र सरस्वती आराधना is observed on Kṛṣṇa-Dvādaśī tithi of Bhādrapada (lunar) month (sunrise (default)/puurvaviddha (default)).
+श्री बोधेन्द्र सरस्वती आराधना is observed on Kṛṣṇa-Dvādaśī tithi of Bhādrapada (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 ---

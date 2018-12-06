@@ -6,7 +6,7 @@
 ---
 ## hayagrIva jayantI
 
-हयग्रीव~जयन्ती is observed on Paurṇamāsī tithi of Śravaṇa (lunar) month (sunrise (default)/puurvaviddha (default)).
+हयग्रीव जयन्ती is observed on Paurṇamāsī tithi of Śravaṇa (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 Lord Hayagriva did upadesham of all four vedas to Brahma.
 
@@ -17,7 +17,7 @@ Lord Hayagriva did upadesham of all four vedas to Brahma.
 ---
 ## gAyatrI jayantI
 
-गायत्री~जयन्ती is observed on Paurṇamāsī tithi of Śravaṇa (lunar) month (sunrise (default)/puurvaviddha (default)).
+गायत्री जयन्ती is observed on Paurṇamāsī tithi of Śravaṇa (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 ---
@@ -29,13 +29,13 @@ World Sanskrit Day is celebrated on this day.
 ---
 ## vaikhAnasa maharSi jayantI
 
-वैखानस~महर्षि~जयन्ती is observed on Paurṇamāsī tithi of Śravaṇa (lunar) month (sunrise (default)/puurvaviddha (default)).
+वैखानस महर्षि जयन्ती is observed on Paurṇamāsī tithi of Śravaṇa (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 ---
 ## kAJcI 20 jagadguru zrI mUkazaGkarEndra sarasvatI ArAdhanA
 
-काञ्ची २० जगद्गुरु श्री~मूकशङ्करेन्द्र सरस्वती आराधना is observed on Paurṇamāsī tithi of Śravaṇa (lunar) month (madhyaahna/puurvaviddha).
+काञ्ची २० जगद्गुरु श्री मूकशङ्करेन्द्र सरस्वती आराधना is observed on Paurṇamāsī tithi of Śravaṇa (lunar) month (madhyaahna/puurvaviddha).
 
 
 ### References

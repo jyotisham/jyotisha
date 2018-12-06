@@ -20,13 +20,13 @@ On this day the DadhiVratam in Chaaturmaasyam is completed, hence perform danam 
 ---
 ## vAmana jayantI
 
-वामन~जयन्ती is observed on Śukla-Dvādaśī tithi of Bhādrapada (lunar) month (madhyaahna/puurvaviddha).
+वामन जयन्ती is observed on Śukla-Dvādaśī tithi of Bhādrapada (lunar) month (madhyaahna/puurvaviddha).
 
 Wednesday Shravana ; Vamana Jayanti; Shravana Dvadashi; Vijaya Dvadashi; Shakra Dvadashi
 ---
 ## bhuvanEzvarI jayantI
 
-भुवनेश्वरी~जयन्ती is observed on Śukla-Dvādaśī tithi of Bhādrapada (lunar) month (sunrise (default)/puurvaviddha (default)).
+भुवनेश्वरी जयन्ती is observed on Śukla-Dvādaśī tithi of Bhādrapada (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 Goddess Bhuvaneshwari is 4th of the Dasha Maha Vidyas.
 

@@ -18,7 +18,7 @@
 ---
 ## kAJcI 12 jagadguru zrI candrazEkharEndra sarasvatI ArAdhanA
 
-काञ्ची १२ जगद्गुरु श्री~चन्द्रशेखरेन्द्र सरस्वती आराधना is observed on Śukla-Navamī tithi of Āṣāḍha (lunar) month (madhyaahna/puurvaviddha).
+काञ्ची १२ जगद्गुरु श्री चन्द्रशेखरेन्द्र सरस्वती आराधना is observed on Śukla-Navamī tithi of Āṣāḍha (lunar) month (madhyaahna/puurvaviddha).
 
 
 ### References

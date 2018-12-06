@@ -1,6 +1,6 @@
 ## dattAtrEya jayantI
 
-दत्तात्रेय~जयन्ती is observed on Paurṇamāsī tithi of Mārgaśīrṣa (lunar) month (pradosha/puurvaviddha).
+दत्तात्रेय जयन्ती is observed on Paurṇamāsī tithi of Mārgaśīrṣa (lunar) month (pradosha/puurvaviddha).
 
 
 
@@ -18,7 +18,7 @@ Do `dAnam` of salt, `sundararUpatvasiddhyartham`!
 ---
 ## annapUrNA jayantI
 
-अन्नपूर्णा~जयन्ती is observed on Paurṇamāsī tithi of Mārgaśīrṣa (lunar) month (sunrise (default)/puurvaviddha (default)).
+अन्नपूर्णा जयन्ती is observed on Paurṇamāsī tithi of Mārgaśīrṣa (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 ---
@@ -30,7 +30,7 @@ Offer `bali` to serpents on (from) this day, in the night after `sthAlIpAka`.
 ---
 ## tripura bhairavI jayantI
 
-त्रिपुर~भैरवी~जयन्ती is observed on Paurṇamāsī tithi of Mārgaśīrṣa (lunar) month (sunrise (default)/puurvaviddha (default)).
+त्रिपुर भैरवी जयन्ती is observed on Paurṇamāsī tithi of Mārgaśīrṣa (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 Goddess Tripura Bhairavi is 5th of the Dasha Maha Vidyas.
 ---

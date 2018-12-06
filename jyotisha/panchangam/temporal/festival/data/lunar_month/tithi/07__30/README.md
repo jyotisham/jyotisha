@@ -18,7 +18,7 @@
 ---
 ## kamalA jayantI
 
-कमला~जयन्ती is observed on Amāvāsyā tithi of Āśvayuja (lunar) month (sunrise (default)/puurvaviddha (default)).
+कमला जयन्ती is observed on Amāvāsyā tithi of Āśvayuja (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 Goddess Kamala is 10th of the Dasha Maha Vidyas.
 ---

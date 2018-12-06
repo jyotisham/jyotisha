@@ -1,6 +1,6 @@
 ## dhanvantari jayantI
 
-धन्वन्तरि~जयन्ती is observed on Kṛṣṇa-Trayodaśī tithi of Āśvayuja (lunar) month (sunrise (default)/puurvaviddha (default)).
+धन्वन्तरि जयन्ती is observed on Kṛṣṇa-Trayodaśī tithi of Āśvayuja (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 Dhanvantari Jayanti (born as Divodaas King of Kaashi) as per Brahmanda-Puraana (Dvadashi?)
 ---

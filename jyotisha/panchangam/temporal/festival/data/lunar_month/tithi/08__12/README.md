@@ -25,7 +25,7 @@
 ---
 ## yAjJavalkya jayantI
 
-याज्ञवल्क्य~जयन्ती is observed on Śukla-Dvādaśī tithi of Kārtika (lunar) month (sunrise (default)/puurvaviddha (default)).
+याज्ञवल्क्य जयन्ती is observed on Śukla-Dvādaśī tithi of Kārtika (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 Avataram of Yajnavalkya Maharshi happened in kArtika shulka dwadashi in Shatabhishak Nakshatram/Dhanurlagnam.
 
@@ -52,7 +52,7 @@ Avataram of Yajnavalkya Maharshi happened in kArtika shulka dwadashi in Shatabhi
 ---
 ## manvAdi (svArOciSa) 2
 
-मन्वादि~(स्वारोचिष) is observed on Śukla-Dvādaśī tithi of Kārtika (lunar) month (sunrise (default)/puurvaviddha (default)).
+मन्वादि (स्वारोचिष) is observed on Śukla-Dvādaśī tithi of Kārtika (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 ---

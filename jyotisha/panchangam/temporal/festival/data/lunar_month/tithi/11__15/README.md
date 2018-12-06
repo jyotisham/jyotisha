@@ -6,7 +6,7 @@
 ---
 ## lalitA jayantI
 
-ललिता~जयन्ती is observed on Paurṇamāsī tithi of Māgha (lunar) month (sunrise (default)/puurvaviddha (default)).
+ललिता जयन्ती is observed on Paurṇamāsī tithi of Māgha (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 Goddess Lalita is 3rd of the Dasha Maha Vidyas.
 ---

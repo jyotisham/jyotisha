@@ -9,7 +9,7 @@
 ---
 ## kAtyAyanI jayantI
 
-कात्यायनी~जयन्ती is observed on Kṛṣṇa-Caturdaśī tithi of Bhādrapada (lunar) month (sunrise (default)/puurvaviddha (default)).
+कात्यायनी जयन्ती is observed on Kṛṣṇa-Caturdaśī tithi of Bhādrapada (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 ### References

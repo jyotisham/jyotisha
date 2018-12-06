@@ -18,7 +18,7 @@ Perform Deepa Danam for Yamadharmaraja in evening
 ---
 ## zRGgErI 35 jagadguru zrI abhinava vidyAtIrtha mahAsvAmI jayantI
 
-शृङ्गेरी ३५ जगद्गुरु श्री~अभिनव विद्यातीर्थ महास्वामी जयन्ती is observed on Kṛṣṇa-Caturdaśī tithi of Āśvayuja (lunar) month (sunrise (default)/puurvaviddha (default)).
+शृङ्गेरी ३५ जगद्गुरु श्री अभिनव विद्यातीर्थ महास्वामी जयन्ती is observed on Kṛṣṇa-Caturdaśī tithi of Āśvayuja (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 

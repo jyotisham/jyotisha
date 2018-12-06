@@ -6,7 +6,7 @@
 ---
 ## zrI hanUmat jayantI 2
 
-श्री~हनूमत्~जयन्ती is observed on Paurṇamāsī tithi of Caitra (lunar) month (sunrise (default)/puurvaviddha (default)).
+श्री हनूमत् जयन्ती is observed on Paurṇamāsī tithi of Caitra (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 Hanuman born from Kaikeyi part of Payasam taken by Vulture and eaten by Anjana Devi
 ---
@@ -24,13 +24,13 @@ Daanam of Varaha Puran
 ---
 ## manvAdi (raucya)
 
-मन्वादि~(रौच्य) is observed on Paurṇamāsī tithi of Caitra (lunar) month (sunrise (default)/puurvaviddha (default)).
+मन्वादि (रौच्य) is observed on Paurṇamāsī tithi of Caitra (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 ---
 ## manvAdi (svArOciSa) 1
 
-मन्वादि~(स्वारोचिष) is observed on Paurṇamāsī tithi of Caitra (lunar) month (sunrise (default)/puurvaviddha (default)).
+मन्वादि (स्वारोचिष) is observed on Paurṇamāsī tithi of Caitra (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 ---

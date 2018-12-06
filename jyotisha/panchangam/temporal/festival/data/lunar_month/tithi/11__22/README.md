@@ -1,6 +1,6 @@
 ## zabarI jayantI
 
-शबरी~जयन्ती is observed on Kṛṣṇa-Saptamī tithi of Māgha (lunar) month (sunrise (default)/puurvaviddha (default)).
+शबरी जयन्ती is observed on Kṛṣṇa-Saptamī tithi of Māgha (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 ---

@@ -1,12 +1,12 @@
 ## pArvatI pavitrArOpaNam
 
-पार्वती~पवित्रारोपणम् is observed on Śukla-Tṛtīyā tithi of Śravaṇa (lunar) month (sunrise (default)/puurvaviddha (default)).
+पार्वती पवित्रारोपणम् is observed on Śukla-Tṛtīyā tithi of Śravaṇa (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 ---
 ## hariyAlI tRtIyA
 
-हरियाली~तृतीया is observed on Śukla-Tṛtīyā tithi of Śravaṇa (lunar) month (sunrise (default)/puurvaviddha (default)).
+हरियाली तृतीया is observed on Śukla-Tṛtīyā tithi of Śravaṇa (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 ---

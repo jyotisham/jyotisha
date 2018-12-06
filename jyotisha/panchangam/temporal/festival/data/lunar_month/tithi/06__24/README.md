@@ -1,6 +1,6 @@
 ## sumaGgalI navamI
 
-सुमङ्गली~नवमी is observed on Kṛṣṇa-Navamī tithi of Bhādrapada (lunar) month (sunrise (default)/puurvaviddha (default)).
+सुमङ्गली नवमी is observed on Kṛṣṇa-Navamī tithi of Bhādrapada (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 In honour of Sumangalis (in the family), by holding a feast for Suvasinis and Kanyas.
 

@@ -12,7 +12,7 @@
 ---
 ## kAJcI 15 jagadguru zrI gaGgAdharEndra sarasvatI ArAdhanA
 
-काञ्ची १५ जगद्गुरु श्री~गङ्गाधरेन्द्र सरस्वती आराधना is observed on Śukla-Prathamā tithi of Caitra (lunar) month (madhyaahna/puurvaviddha).
+काञ्ची १५ जगद्गुरु श्री गङ्गाधरेन्द्र सरस्वती आराधना is observed on Śukla-Prathamā tithi of Caitra (lunar) month (madhyaahna/puurvaviddha).
 
 
 ### References
@@ -21,7 +21,7 @@
 ---
 ## kAJcI 27 jagadguru zrI cidvilAsEndra sarasvatI ArAdhanA
 
-काञ्ची २७ जगद्गुरु श्री~चिद्विलासेन्द्र सरस्वती आराधना is observed on Śukla-Prathamā tithi of Caitra (lunar) month (madhyaahna/puurvaviddha).
+काञ्ची २७ जगद्गुरु श्री चिद्विलासेन्द्र सरस्वती आराधना is observed on Śukla-Prathamā tithi of Caitra (lunar) month (madhyaahna/puurvaviddha).
 
 
 ### References
@@ -30,7 +30,7 @@
 ---
 ## kAJcI 52 jagadguru zrI zaGkarAnandEndra sarasvatI ArAdhanA
 
-काञ्ची ५२ जगद्गुरु श्री~शङ्करानन्देन्द्र सरस्वती आराधना is observed on Śukla-Prathamā tithi of Caitra (lunar) month (madhyaahna/puurvaviddha).
+काञ्ची ५२ जगद्गुरु श्री शङ्करानन्देन्द्र सरस्वती आराधना is observed on Śukla-Prathamā tithi of Caitra (lunar) month (madhyaahna/puurvaviddha).
 
 
 ### References

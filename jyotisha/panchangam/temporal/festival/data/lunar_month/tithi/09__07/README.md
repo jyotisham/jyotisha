@@ -1,6 +1,6 @@
 ## kAJcI 5 jagadguru zrI jJAnAnandEndra sarasvatI ArAdhanA
 
-काञ्ची ५ जगद्गुरु श्री~ज्ञानानन्देन्द्र सरस्वती आराधना is observed on Śukla-Saptamī tithi of Mārgaśīrṣa (lunar) month (madhyaahna/puurvaviddha).
+काञ्ची ५ जगद्गुरु श्री ज्ञानानन्देन्द्र सरस्वती आराधना is observed on Śukla-Saptamī tithi of Mārgaśīrṣa (lunar) month (madhyaahna/puurvaviddha).
 
 
 ### References

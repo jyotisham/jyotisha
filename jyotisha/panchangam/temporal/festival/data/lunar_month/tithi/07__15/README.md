@@ -6,7 +6,7 @@
 ---
 ## vAlmIki maharSi jayantI
 
-वाल्मीकि~महर्षि~जयन्ती is observed on Paurṇamāsī tithi of Āśvayuja (lunar) month (sunrise (default)/puurvaviddha (default)).
+वाल्मीकि महर्षि जयन्ती is observed on Paurṇamāsī tithi of Āśvayuja (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 ---
@@ -24,7 +24,7 @@ Have to play Aksha kreeda only on this day and Ko-jagarti-Vratam (Lakshmi will a
 ---
 ## mIrAbAI jayantI
 
-मीराबाई~जयन्ती is observed on Paurṇamāsī tithi of Āśvayuja (lunar) month (sunrise (default)/puurvaviddha (default)).
+मीराबाई जयन्ती is observed on Paurṇamāsī tithi of Āśvayuja (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 ---
@@ -45,13 +45,13 @@ Have to play Aksha kreeda only on this day and Ko-jagarti-Vratam (Lakshmi will a
 ---
 ## kuntI (pArvatI)-vratam
 
-कुन्ती~(पार्वती)-व्रतम् is observed on Paurṇamāsī tithi of Āśvayuja (lunar) month (sunrise (default)/puurvaviddha (default)).
+कुन्ती (पार्वती)-व्रतम् is observed on Paurṇamāsī tithi of Āśvayuja (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 Kunti-vratam done today will remove all paapams (including Gohatya). As per Bhavishyottara Puraana. Here Kunti means Parvati. Also, some people worship Yudhisthira's mother Kunti. In AP/TEL, eldest child is given new clothes, harti and blessed "Deerghayushman".
 ---
 ## kAJcI 36 jagadguru zrI citsukhAnandEndra sarasvatI ArAdhanA
 
-काञ्ची ३६ जगद्गुरु श्री~चित्सुखानन्देन्द्र सरस्वती आराधना is observed on Paurṇamāsī tithi of Āśvayuja (lunar) month (madhyaahna/puurvaviddha).
+काञ्ची ३६ जगद्गुरु श्री चित्सुखानन्देन्द्र सरस्वती आराधना is observed on Paurṇamāsī tithi of Āśvayuja (lunar) month (madhyaahna/puurvaviddha).
 
 
 ### References

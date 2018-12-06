@@ -6,7 +6,7 @@
 ---
 ## zrI rAghavEndra-svAmI jayantI
 
-श्री~राघवेन्द्र-स्वामी~जयन्ती is observed on Śukla-Saptamī tithi of Phālguna (lunar) month (sunrise (default)/puurvaviddha (default)).
+श्री राघवेन्द्र-स्वामी जयन्ती is observed on Śukla-Saptamī tithi of Phālguna (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 ---

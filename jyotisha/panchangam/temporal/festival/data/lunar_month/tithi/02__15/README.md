@@ -1,6 +1,6 @@
 ## kUrma jayantI
 
-कूर्म~जयन्ती is observed on Paurṇamāsī tithi of Vaiśākha (lunar) month (sayahna/puurvaviddha).
+कूर्म जयन्ती is observed on Paurṇamāsī tithi of Vaiśākha (lunar) month (sayahna/puurvaviddha).
 
 Danam of Brahma puranam
 ### References
@@ -9,13 +9,13 @@ Danam of Brahma puranam
 ---
 ## kAJcI kAmakOTi-maTha-pratiSThApana jayantI
 
-काञ्ची कामकोटि-मठ-प्रतिष्ठापन~जयन्ती is observed on Paurṇamāsī tithi of Vaiśākha (lunar) month (sunrise (default)/puurvaviddha (default)).
+काञ्ची कामकोटि-मठ-प्रतिष्ठापन जयन्ती is observed on Paurṇamāsī tithi of Vaiśākha (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 Adi Shankara founded Kamakoti Mutt, Kanchi in Siddharthi year with himself as first
 ---
 ## zarabha jayantI
 
-शरभ~जयन्ती is observed on Paurṇamāsī tithi of Vaiśākha (lunar) month (sunrise (default)/puurvaviddha (default)).
+शरभ जयन्ती is observed on Paurṇamāsī tithi of Vaiśākha (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 ---
@@ -33,7 +33,7 @@ Perform snana four ghatikas before sunrise (during `aruNodayam`, when the Moon i
 ---
 ## annamAcArya jayantI
 
-अन्नमाचार्य~जयन्ती is observed on Paurṇamāsī tithi of Vaiśākha (lunar) month (sunrise (default)/puurvaviddha (default)).
+अन्नमाचार्य जयन्ती is observed on Paurṇamāsī tithi of Vaiśākha (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 ### References
@@ -42,7 +42,7 @@ Perform snana four ghatikas before sunrise (during `aruNodayam`, when the Moon i
 ---
 ## chinnamastA jayantI
 
-छिन्नमस्ता~जयन्ती is observed on Paurṇamāsī tithi of Vaiśākha (lunar) month (sunrise (default)/puurvaviddha (default)).
+छिन्नमस्ता जयन्ती is observed on Paurṇamāsī tithi of Vaiśākha (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 Goddess Chinnmasta is 6th of the Dasha Maha Vidyas.
 ---

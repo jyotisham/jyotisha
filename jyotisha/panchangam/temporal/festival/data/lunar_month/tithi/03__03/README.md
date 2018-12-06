@@ -1,6 +1,6 @@
 ## rambhA tRtIyA
 
-रम्भा~तृतीया is observed on Śukla-Tṛtīyā tithi of Jyaiṣṭha (lunar) month (sunrise (default)/puurvaviddha (default)).
+रम्भा तृतीया is observed on Śukla-Tṛtīyā tithi of Jyaiṣṭha (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 Rambha Vratam; perform Savitri pooja near Banana tree. Offer naivedyam of bananas prepared with ghee.
 

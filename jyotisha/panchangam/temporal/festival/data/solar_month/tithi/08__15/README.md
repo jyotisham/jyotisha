@@ -1,6 +1,6 @@
 ## AgrayaNa hOmaH 3
 
-आग्रयण~होमः is observed on Paurṇamāsī tithi of Vṛścika (solar) month (sunrise/puurvaviddha).
+आग्रयण होमः is observed on Paurṇamāsī tithi of Vṛścika (solar) month (sunrise/puurvaviddha).
 
 Perform `homa' with fresh rice from paddy.
 ### References

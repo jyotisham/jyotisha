@@ -12,7 +12,7 @@ Do `pUjA` *of* `dUrva`!
 ---
 ## dadhIci maharSi jayanti
 
-दधीचि~महर्षि~जयन्ति is observed on Śukla-Aṣṭamī tithi of Bhādrapada (lunar) month (sunrise (default)/puurvaviddha (default)).
+दधीचि महर्षि जयन्ति is observed on Śukla-Aṣṭamī tithi of Bhādrapada (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 ### References

@@ -1,6 +1,6 @@
 ## kAJcI 32 jagadguru zrI cidAnandaghanEndra sarasvatI ArAdhanA
 
-काञ्ची ३२ जगद्गुरु श्री~चिदानन्दघनेन्द्र सरस्वती आराधना is observed on Śukla-Ṣaṣṭhī tithi of Mārgaśīrṣa (lunar) month (madhyaahna/puurvaviddha).
+काञ्ची ३२ जगद्गुरु श्री चिदानन्दघनेन्द्र सरस्वती आराधना is observed on Śukla-Ṣaṣṭhī tithi of Mārgaśīrṣa (lunar) month (madhyaahna/puurvaviddha).
 
 
 ### References
