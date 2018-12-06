@@ -61,12 +61,20 @@ def write_event_README(event, event_file_name):
                 angam += 'day %d' % event_dict['timing']['angam_number']
         else:
           logging.debug('No angam_type in %s', event_dict['id'])
+        if 'kaala' in event_dict['timing']:
+          kaala = event_dict["timing"]["kaala"]
+        else:
+          kaala = "sunrise (default)"
+        if 'priority' in event_dict:
+          priority = event_dict["priority"]
+        else:
+          priority = 'puurvaviddha (default)'
         if angam is not None:
             blurb += angam
         if month is not None:
             blurb += month
         if blurb != '':
-            blurb += '.\n\n'
+            blurb += ' (%s/%s).\n\n' % (kaala, priority)
         readme_file.write(blurb)
         description_string = ""
         logging.debug(event_dict)
@@ -78,7 +86,16 @@ def write_event_README(event, event_file_name):
                                custom_transliteration.tr(", ".join(event_dict["shlokas"]),
                                                          sanscript.DEVANAGARI, False)
         readme_file.write(description_string)
-        readme_file.write('\n\n')
+        if "references_primary" in event_dict or "references_secondary" in event_dict:
+          readme_file.write('\n')
+          readme_file.write('### References\n')
+          if "references_primary" in event_dict:
+            for ref in event_dict["references_primary"]:
+              readme_file.write('* %s\n' % ref)
+          elif "references_secondary" in event_dict:
+            for ref in event_dict["references_secondary"]:
+              readme_file.write('* %s\n' % ref)
+        readme_file.write('\n---\n')
 
 
 def migrate_relative_db():
