@@ -173,6 +173,9 @@ def writeDailyTeX(panchangam, template_file, compute_lagnams=True):
         sayahna = jyotisha.panchangam.temporal.Time(24 * (panchangam.kaalas[d]['sAyAhna'][0] - jd)).toString(format=panchangam.fmt)
         sayamsandhya = jyotisha.panchangam.temporal.Time(24 * (panchangam.kaalas[d]['sAyaM sandhyA'][0] - jd)).toString(format=panchangam.fmt)
         sayamsandhya_end = jyotisha.panchangam.temporal.Time(24 * (panchangam.kaalas[d]['sAyaM sandhyA end'][0] - jd)).toString(format=panchangam.fmt)
+        ratriyama1 = jyotisha.panchangam.temporal.Time(24 * (panchangam.kaalas[d]['rAtri yAma 1'][0] - jd)).toString(format=panchangam.fmt)
+        sayana_time = jyotisha.panchangam.temporal.Time(24 * (panchangam.kaalas[d]['zayana'][0] - jd)).toString(format=panchangam.fmt)
+        dinanta = jyotisha.panchangam.temporal.Time(24 * (panchangam.kaalas[d]['dinAnta'][0] - jd)).toString(format=panchangam.fmt)
 
         rahu = '%s--%s' % (
             jyotisha.panchangam.temporal.Time(24 * (panchangam.kaalas[d]['rahu'][0] - jd)).toString(format=panchangam.fmt),
@@ -200,11 +203,12 @@ def writeDailyTeX(panchangam, template_file, compute_lagnams=True):
                jyotisha.panchangam.temporal.NAMES['RTU_NAMES'][panchangam.script][int(ceil(panchangam.lunar_month[d]))],
                jyotisha.panchangam.temporal.NAMES['VARA_NAMES'][panchangam.script][panchangam.weekday[d]], sar_data))
         print('{\\sunmoondata{%s}{%s}{%s}{%s}' % (sunrise, sunset, moonrise, moonset))
-        print('{\kalas{%s %s %s %s %s %s %s %s %s %s}}}' % (pratahsandhya, pratahsandhya_end,
-                                                            sangava,
-                                                            madhyahnika_sandhya, madhyahnika_sandhya_end,
-                                                            madhyaahna, aparahna, sayahna,
-                                                            sayamsandhya, sayamsandhya_end))
+        print('{\kalas{%s %s %s %s %s %s %s %s %s %s %s %s %s}}}' % (pratahsandhya, pratahsandhya_end,
+                                                                     sangava,
+                                                                     madhyahnika_sandhya, madhyahnika_sandhya_end,
+                                                                     madhyaahna, aparahna, sayahna,
+                                                                     sayamsandhya, sayamsandhya_end,
+                                                                     ratriyama1, sayana_time, dinanta))
         if compute_lagnams:
             print('{\\tnykdata{%s}%%\n{%s}{%s}%%\n{%s}%%\n{%s}{\\tiny %s}\n}'
                   % (tithi_data_str, nakshatram_data_str, rashi_data_str, yogam_data_str,
