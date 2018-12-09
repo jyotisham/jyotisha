@@ -5390,6 +5390,20 @@
         "tags": "common-festivals"
     },
     {
+        "angam_number": 29,
+        "angam_type": "tithi",
+        "description": {
+            "en": "Monthly Shivaratri day."
+        },
+        "id": "mAsazivarAtriH",
+        "jsonClass": "HinduCalendarEventOld",
+        "kaala": "nishita",
+        "month_number": 0,
+        "month_type": "lunar_month",
+        "priority": "paraviddha",
+        "tags": "monthly-festivals"
+    },
+    {
         "angam_number": 2,
         "angam_type": "tithi",
         "id": "rAmakRSNa-paramahaMsa~jayantI",
