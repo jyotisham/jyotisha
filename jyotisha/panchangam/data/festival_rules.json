@@ -446,6 +446,15 @@
     {
         "angam_number": 5,
         "angam_type": "tithi",
+        "id": "lAvaNya-gaurI-vratam",
+        "jsonClass": "HinduCalendarEventOld",
+        "month_number": 2,
+        "month_type": "lunar_month",
+        "tags": "special-vratams"
+    },
+    {
+        "angam_number": 5,
+        "angam_type": "tithi",
         "description": {
             "en": "Nandana year"
         },
