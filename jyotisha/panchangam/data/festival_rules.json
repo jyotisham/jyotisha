@@ -2445,6 +2445,16 @@
         "tags": "special-pujas"
     },
     {
+        "angam_number": 23,
+        "angam_type": "tithi",
+        "id": "mahAdEvASTamI",
+        "jsonClass": "HinduCalendarEventOld",
+        "month_number": 8,
+        "month_type": "lunar_month",
+        "description": {"en": "Very famously celebrated in Vaikom Mahadeva Temple."},
+        "tags": "kerala-temple-festivals"
+    },
+    {
         "angam_number": 8,
         "angam_type": "tithi",
         "id": "kArtavIryArjuna~jayantI",
