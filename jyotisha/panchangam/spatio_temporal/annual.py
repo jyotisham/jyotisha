@@ -912,6 +912,12 @@ class Panchangam(common.JsonObject):
          (self.tithi_sunrise[d] % 15) == 12:
         self.add_festival('jayA~mahAdvAdazI', d, debug_festivals)
 
+      if jyotisha.panchangam.temporal.get_angam(self.jd_sunrise[d], jyotisha.panchangam.temporal.NAKSHATRAM) == 8 and \
+         (self.tithi_sunrise[d] % 15) == 12 and self.lunar_month[d] == 12:
+         # Better checking needed (for other than sunrise).
+         # Last occurred on 27-02-1961 - pushya nakshatra and phalguna krishna dvadashi (or shukla!?)
+        self.add_festival('gOvinda~mahAdvAdazI', d, debug_festivals)
+
       if jyotisha.panchangam.temporal.get_angam(self.jd_sunrise[d], jyotisha.panchangam.temporal.NAKSHATRAM,
                                                 ayanamsha_id=self.ayanamsha_id) == 22 and \
          (self.tithi_sunrise[d] % 15) == 12:
