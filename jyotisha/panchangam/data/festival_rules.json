@@ -1004,6 +1004,15 @@
         "tags": "purnima-days,less-common-festivals,danam-days"
     },
     {
+        "angam_number": 18,
+        "angam_type": "nakshatram",
+        "id": "ta:jyESThAbhiSEkam",
+        "jsonClass": "HinduCalendarEventOld",
+        "month_number": 3,
+        "month_type": "solar_month",
+        "tags": "tamilnadu-temple-festivals"
+    },
+    {
         "angam_number": 15,
         "angam_type": "tithi",
         "id": "kabIradAsa~jayantI",
