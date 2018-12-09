@@ -7672,6 +7672,15 @@
         "tags": "other-jayantis"
     },
     {
+        "angam_number": 11,
+        "angam_type": "tithi",
+        "id": "budha~jayantI",
+        "jsonClass": "HinduCalendarEventOld",
+        "month_number": 2,
+        "month_type": "lunar_month",
+        "tags": "other-jayantis"
+    },
+    {
         "angam_number": 1,
         "angam_type": "tithi",
         "id": "agrasEna~mahArAja~jayantI",
