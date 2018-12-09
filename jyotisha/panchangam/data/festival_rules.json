@@ -1905,6 +1905,15 @@
     {
         "angam_number": 3,
         "angam_type": "tithi",
+        "id": "svarNa-gaurI-vratam",
+        "jsonClass": "HinduCalendarEventOld",
+        "month_number": 5,
+        "month_type": "lunar_month",
+        "tags": "special-vratams"
+    },
+    {
+        "angam_number": 3,
+        "angam_type": "tithi",
         "id": "manvAdi~(raivata)",
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 6,
