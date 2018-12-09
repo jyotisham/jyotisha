@@ -5820,7 +5820,8 @@
     {
         "angam_number": 4,
         "angam_type": "nakshatram",
-        "id": "zrI~jayantI",
+        "id": "ta:zrI~jayantI",
+        "kaala": "nishita",
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 5,
         "month_type": "solar_month",
@@ -6555,6 +6556,21 @@
         "month_number": 11,
         "month_type": "solar_month",
         "tags": "tamilnadu-temple-festivals"
+    },
+    {
+        "angam_number": 7,
+        "angam_type": "tithi",
+        "id": "acalA~saptamI-vratam",
+        "jsonClass": "HinduCalendarEventOld",
+        "description": {
+            "en": "Upadesha of this vrata was done by Maharshi Vasishtha to Indumati, a veshya stri."
+        },
+        "references_primary": [
+            "Bhavishyottara Puranam"
+        ],
+        "month_number": 11,
+        "month_type": "lunar_month",
+        "tags": "special-vratams"
     },
     {
         "angam_number": 16,
