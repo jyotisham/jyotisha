@@ -973,6 +973,16 @@
         "tags": "special-vratams"
     },
     {
+        "angam_number": 19,
+        "angam_type": "tithi",
+        "id": "zravaNa-vratam",
+        "kaala": "moonrise",
+        "jsonClass": "HinduCalendarEventOld",
+        "month_number": 3,
+        "month_type": "lunar_month",
+        "tags": "less-common-festivals"
+    },
+    {
         "angam_number": 15,
         "angam_type": "tithi",
         "description": {
