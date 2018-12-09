@@ -3532,6 +3532,30 @@
         "tags": "manvadi-days"
     },
     {
+        "angam_number": 11,
+        "angam_type": "tithi",
+        "id": "bhISma-paJcaka-vrata-ArambhaH",
+        "description": {
+            "en": "Bhishma, lying on `zaratalpa` performed upadesha to Yudhisthira and other Pandavas for these five days."
+        },
+        "jsonClass": "HinduCalendarEventOld",
+        "month_number": 8,
+        "month_type": "lunar_month",
+        "tags": "less-common-festivals"
+    },
+    {
+        "angam_number": 15,
+        "angam_type": "tithi",
+        "id": "bhISma-paJcaka-vrata-samApanam",
+        "description": {
+            "en": "Bhishma, lying on `zaratalpa` performed upadesha to Yudhisthira and other Pandavas for these five days."
+        },
+        "jsonClass": "HinduCalendarEventOld",
+        "month_number": 8,
+        "month_type": "lunar_month",
+        "tags": "less-common-festivals"
+    },
+    {
         "angam_number": 15,
         "angam_type": "tithi",
         "description": {
