@@ -918,6 +918,15 @@
         "tags": "less-common-festivals"
     },
     {
+        "angam_number": 12,
+        "angam_type": "tithi",
+        "id": "campaka-dvAdazI",
+        "jsonClass": "HinduCalendarEventOld",
+        "month_number": 3,
+        "month_type": "lunar_month",
+        "tags": "odisha-temple-festivals"
+    },
+    {
         "angam_number": 13,
         "angam_type": "tithi",
         "id": "durgandha-daurbhAgya-nAzaka-trayOdazI",
