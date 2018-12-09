@@ -7862,5 +7862,33 @@
         "month_number": 8,
         "month_type": "solar_month",
         "tags": "common-festivals"
-    }
+    },
+    {
+        "angam_number": 17,
+        "angam_type": "yogam",
+        "description": {
+            "en": "Monthly Vyatipata Shraddha day."
+        },
+        "id": "vyatIpAta-zrAddhaH",
+        "jsonClass": "HinduCalendarEventOld",
+        "kaala": "aparahna",
+        "month_number": 0,
+        "month_type": "solar_month",
+        "priority": "puurvaviddha",
+        "tags": "monthly-shraddha-days,shannavati-tarpana-days"
+    },
+    {
+        "angam_number": 27,
+        "angam_type": "yogam",
+        "description": {
+            "en": "Monthly Vaidhrti Shraddha day."
+        },
+        "id": "vaidhRti-zrAddhaH",
+        "jsonClass": "HinduCalendarEventOld",
+        "kaala": "aparahna",
+        "month_number": 0,
+        "month_type": "solar_month",
+        "priority": "puurvaviddha",
+        "tags": "monthly-shraddha-days,shannavati-tarpana-days"
+    }    
 ]

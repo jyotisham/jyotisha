@@ -67,6 +67,7 @@ class Panchangam(common.JsonObject):
     self.nakshatram_data = [None] * jyotisha.panchangam.temporal.MAX_SZ
     self.nakshatram_sunrise = [None] * jyotisha.panchangam.temporal.MAX_SZ
     self.yogam_data = [None] * jyotisha.panchangam.temporal.MAX_SZ
+    self.yogam_sunrise = [None] * jyotisha.panchangam.temporal.MAX_SZ
     self.karanam_data = [None] * jyotisha.panchangam.temporal.MAX_SZ
     self.rashi_data = [None] * jyotisha.panchangam.temporal.MAX_SZ
     self.lagna_data = [None] * jyotisha.panchangam.temporal.MAX_SZ
@@ -235,6 +236,7 @@ class Panchangam(common.JsonObject):
       self.yogam_data[d] = jyotisha.panchangam.temporal.get_angam_data(self.jd_sunrise[d], self.jd_sunrise[d + 1],
                                                                        jyotisha.panchangam.temporal.YOGAM,
                                                                        ayanamsha_id=self.ayanamsha_id)
+      self.yogam_sunrise[d] = self.yogam_data[d][0][0]
       self.karanam_data[d] = jyotisha.panchangam.temporal.get_angam_data(self.jd_sunrise[d],
                                                                          self.jd_sunrise[d + 1],
                                                                          jyotisha.panchangam.temporal.KARANAM,
@@ -1112,6 +1114,9 @@ class Panchangam(common.JsonObject):
           elif angam_type == 'nakshatram':
             angam_sunrise = self.nakshatram_sunrise
             get_angam_func = jyotisha.panchangam.temporal.get_nakshatram
+          elif angam_type == 'yogam':
+            angam_sunrise = self.yogam_sunrise
+            get_angam_func = jyotisha.panchangam.temporal.get_yoga
           else:
             raise ValueError('Error; unknown string in rule: "%s"' % (angam_type))
 
