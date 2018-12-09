@@ -1224,6 +1224,7 @@ class Panchangam(common.JsonObject):
 
       if self.solar_month[d] == 1 and self.solar_month[d - 1] == 12:
         self.fest_days[new_yr] = [d]
+        self.add_festival('paJcAGga-paThanam', d, debug_festivals)
 
     # If tripurotsava coincides with maha kArtikI (kRttikA nakShatram)
     # only then it is mahAkArtikI
