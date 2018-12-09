@@ -167,11 +167,12 @@
     {
         "angam_number": 10,
         "angam_type": "tithi",
-        "id": "yamadharmarAjA-pUjA",
+        "id": "dharmarAja-dazamI",
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 1,
         "month_type": "lunar_month",
-        "tags": "less-common-festivals"
+        "tags": "less-common-festivals",
+        "titles": "yamadharmarAjA-pUjA"
     },
     {
         "angam_number": 11,
