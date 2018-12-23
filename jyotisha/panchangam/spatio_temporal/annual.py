@@ -178,7 +178,7 @@ class Panchangam(common.JsonObject):
       if solar_month_end_jd is None:
         solar_month_end_time = ''
       else:
-        solar_month_end_time = '\\mbox{%s {\\tiny \\RIGHTarrow} \\textsf{%s}}' % (
+        solar_month_end_time = '\\mbox{%s{\\tiny\\RIGHTarrow}\\textsf{%s}}' % (
           jyotisha.panchangam.temporal.NAMES['RASHI_NAMES'][self.script][_m], jyotisha.panchangam.temporal.Time(
             24 * (solar_month_end_jd - jd)).toString(format=self.fmt))
 
@@ -741,7 +741,7 @@ class Panchangam(common.JsonObject):
         [_y, _m, _d, _t] = swe.revjul(ayana_jd_start + (tz_off / 24.0))
         ayana_time = jyotisha.panchangam.temporal.Time(swe.revjul(ayana_jd_start + (tz_off / 24.0))[3]).toString()
         fday = swe.julday(_y, _m, _d, 0) - self.jd_start + 1
-        self.festivals[int(fday)].append('%s\\textsf{%s}{\\RIGHTarrow}\\textsf{(%s)}' % (jyotisha.panchangam.temporal.NAMES['NIRAYANA_NAMES'][self.script][self.solar_month[d]], '', ayana_time))
+        self.festivals[int(fday)].append('%s\\textsf{%s}{\\RIGHTarrow}\\textsf{%s}' % (jyotisha.panchangam.temporal.NAMES['NIRAYANA_NAMES'][self.script][self.solar_month[d]], '', ayana_time))
 
       # KUCHELA DINAM
       if self.solar_month[d] == 9 and self.solar_month_day[d] <= 7 and self.weekday[d] == 3:

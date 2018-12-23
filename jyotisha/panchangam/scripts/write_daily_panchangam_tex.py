@@ -192,11 +192,11 @@ def writeDailyTeX(panchangam, template_file, compute_lagnams=True):
             yname = samvatsara_names[1]
 
         # Assign samvatsara, ayana, rtu #
-        sar_data = '%s\\\\[-4pt]{\\scriptsize %s \\hspace{4pt} %s}' % (yname,
+        sar_data = '{%s}{%s}{%s}' % (yname,
                                      jyotisha.panchangam.temporal.NAMES['AYANA_NAMES'][panchangam.script][panchangam.solar_month[d]],
                                      jyotisha.panchangam.temporal.NAMES['RTU_NAMES'][panchangam.script][panchangam.solar_month[d]])
 
-        print('\\caldata{%s}{%s}{%s{%s {\\scriptsize (%s)}}{%s}{%s}}' %
+        print('\\caldata{%s}{%s}{%s{%s {\\scriptsize (%s)}}{%s}%s}' %
               (month[m], dt, panchangam.month_data[d],
                jyotisha.panchangam.temporal.get_chandra_masa(panchangam.lunar_month[d],
                                                              jyotisha.panchangam.temporal.NAMES, panchangam.script),
