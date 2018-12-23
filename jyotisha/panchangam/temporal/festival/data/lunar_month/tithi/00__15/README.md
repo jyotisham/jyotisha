@@ -4,3 +4,9 @@
 _Lord Malayappa rides on Garuda Vahanam in all four mada streets. This usually happens during Brahmotsavams, but since 2006, this has been happening on every `paurNamI`._
 
 ---
+## paurNamI vratam
+पौर्णमी व्रतम् is observed on Paurṇamāsī tithi of Aspaṣhṭam (lunar) month (sunrise/puurvaviddha (default)).
+
+_`paurNamI vratam` is commonly observed for Lord Satyanarayana._
+
+---

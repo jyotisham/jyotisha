@@ -22,6 +22,12 @@
 
 
 ---
+## bhISma-paJcaka-vrata-samApanam
+भीष्म-पञ्चक-व्रत-समापनम् is observed on Paurṇamāsī tithi of Kārtika (lunar) month (sunrise (default)/puurvaviddha (default)).
+
+_Bhishma, lying on `zaratalpa` performed upadesha to Yudhisthira and other Pandavas for these five days._
+
+---
 ## kArtika-pUrNimA-snAnam
 कार्तिक-पूर्णिमा-स्नानम् is observed on Paurṇamāsī tithi of Kārtika (lunar) month (arunodaya/paraviddha).
 

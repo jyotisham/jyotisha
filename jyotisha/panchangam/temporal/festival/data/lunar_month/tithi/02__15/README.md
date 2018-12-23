@@ -19,6 +19,18 @@ _Adi Shankara founded Kamakoti Mutt, Kanchi in Siddharthi year with himself as f
 
 
 ---
+## sampat-gaurI-vratam
+सम्पत्-गौरी-व्रतम् is observed on Paurṇamāsī tithi of Vaiśākha (lunar) month (sunrise (default)/puurvaviddha (default)).
+
+
+
+---
+## ardhanArIshvara-vratam
+अर्धनारीस्ह्वर-व्रतम् is observed on Paurṇamāsī tithi of Vaiśākha (lunar) month (sunrise (default)/puurvaviddha (default)).
+
+
+
+---
 ## vaizAkha-pUrNimA-snAnam
 वैशाख-पूर्णिमा-स्नानम् is observed on Paurṇamāsī tithi of Vaiśākha (lunar) month (arunodaya/paraviddha).
 

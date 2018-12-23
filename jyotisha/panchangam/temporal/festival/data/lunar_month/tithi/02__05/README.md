@@ -1,3 +1,9 @@
+## lAvaNya-gaurI-vratam
+लावण्य-गौरी-व्रतम् is observed on Śukla-Pañcamī tithi of Vaiśākha (lunar) month (sunrise (default)/puurvaviddha (default)).
+
+
+
+---
 ## zaGkara jayantI
 शङ्कर जयन्ती is observed on Śukla-Pañcamī tithi of Vaiśākha (lunar) month (sunrise (default)/puurvaviddha (default)).
 

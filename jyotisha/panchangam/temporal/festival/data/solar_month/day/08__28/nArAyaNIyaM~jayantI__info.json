@@ -1,6 +1,6 @@
 {
   "description": {
-    "en": "Celebration of completion of Narayaniyam (762 CE), in Guruvayur temple."
+    "en": "Celebration of completion of Narayaniyam (Kollam 762/1586 CE), in Guruvayur temple."
   },
   "id": "nArAyaNIyaM~jayantI",
   "jsonClass": "HinduCalendarEvent",
@@ -13,6 +13,6 @@
     "jsonClass": "HinduCalendarEventTiming",
     "month_number": 8,
     "month_type": "solar_month",
-    "year_start": 3863
+    "year_start": 4687
   }
 }

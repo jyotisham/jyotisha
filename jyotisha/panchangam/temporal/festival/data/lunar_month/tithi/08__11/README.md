@@ -4,3 +4,9 @@
 _In Plava Nama year Adi Shankara obtained permission from mother and took manasika sanyasam_
 
 ---
+## bhISma-paJcaka-vrata-ArambhaH
+भीष्म-पञ्चक-व्रत-आरम्भः is observed on Śukla-Ekādaśī tithi of Kārtika (lunar) month (sunrise (default)/puurvaviddha (default)).
+
+_Bhishma, lying on `zaratalpa` performed upadesha to Yudhisthira and other Pandavas for these five days._
+
+---

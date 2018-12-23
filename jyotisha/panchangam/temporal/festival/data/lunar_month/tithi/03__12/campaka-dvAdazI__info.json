@@ -1,11 +1,11 @@
 {
-  "id": "trilOcanASTamI",
+  "id": "campaka-dvAdazI",
   "jsonClass": "HinduCalendarEvent",
   "tags": [
-    "special-pujas"
+    "odisha-temple-festivals"
   ],
   "timing": {
-    "angam_number": 23,
+    "angam_number": 12,
     "angam_type": "tithi",
     "jsonClass": "HinduCalendarEventTiming",
     "month_number": 3,
