@@ -1069,7 +1069,7 @@
     {
         "angam_number": 23,
         "angam_type": "tithi",
-        "id": "trilocanASTamI",
+        "id": "trilOcanASTamI",
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 3,
         "month_type": "lunar_month",
