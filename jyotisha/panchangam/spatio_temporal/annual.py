@@ -587,25 +587,31 @@ class Panchangam(common.JsonObject):
         tithi_moonrise = int(1 + floor(ldiff_moonrise / 12.0))
         tithi_moonrise_tmrw = int(1 + floor(ldiff_moonrise_tmrw / 12.0))
 
+        _m = self.lunar_month[d]
+        if floor(_m) != _m:
+          _m = 13   # Adhika masa
+        chaturthi_name = jyotisha.panchangam.temporal.NAMES['SANKATAHARA_CHATURTHI_NAMES'][self.script][_m]
+        chaturthi_name += '-mahAgaNapati '
+
         if tithi_moonrise == 19:
           # otherwise yesterday would have already been assigned
           if tithi_moonrise_yest != 19:
-            self.festivals[d].append('saGkaTahara-caturthI-vratam')
+            self.festivals[d].append(chaturthi_name + 'saGkaTahara-caturthI-vratam')
             # shravana krishna chaturthi
             if self.lunar_month[d] == 5:
-              self.festivals[d][-1] = 'mahA' + self.festivals[d][-1]
+              self.festivals[d][-1] = chaturthi_name + 'mahAsaGkaTahara-caturthI-vratam'
         elif tithi_moonrise_tmrw == 19:
-          self.festivals[d + 1].append('saGkaTahara-caturthI-vratam')
+          self.festivals[d + 1].append(chaturthi_name + 'saGkaTahara-caturthI-vratam')
           # self.lunar_month[d] and[d + 1] are same, so checking [d] is enough
           if self.lunar_month[d] == 5:
-            self.festivals[d + 1][-1] = 'mahA' + self.festivals[d + 1][-1]
+            self.festivals[d + 1][-1] = chaturthi_name + 'mahAsaGkaTahara-caturthI-vratam'
         else:
           if tithi_moonrise_yest != 19:
             if tithi_moonrise == 18 and tithi_moonrise_tmrw == 20:
-              self.festivals[d].append('saGkaTahara-caturthI-vratam')
+              self.festivals[d].append(chaturthi_name + 'saGkaTahara-caturthI-vratam')
               # shravana krishna chaturthi
               if self.lunar_month[d] == 5:
-                self.festivals[d][-1] = 'mahA' + self.festivals[d][-1]
+                self.festivals[d][-1] = chaturthi_name + 'mahAsaGkaTahara-caturthI-vratam'
 
       # # SHASHTHI Vratam
       # Check only for Adhika maasa here...
