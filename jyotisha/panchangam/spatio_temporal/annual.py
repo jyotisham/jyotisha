@@ -1083,6 +1083,17 @@ class Panchangam(common.JsonObject):
 
         if angam_type == 'day' and month_type == 'solar_month' and self.solar_month[d] == month_num:
           if self.solar_month_day[d] == angam_num:
+            fest_num = None
+            if fest_start_year is not None:
+              fest_num = self.year + 3100 + (d >= self.solar_month.index(1)) - fest_start_year + 1
+
+            if fest_num is not None and fest_num <= 0:
+              logging.warning('Festival %s is only in the future!\n' % festival_name)
+
+            if fest_num is not None:
+              festival_name += '~\\#{%d}' % fest_num
+              logging.debug(festival_name)
+
             self.fest_days[festival_name] = [d]
         elif (month_type == 'lunar_month' and (self.lunar_month[d] == month_num or month_num == 0)) or \
              (month_type == 'solar_month' and (self.solar_month[d] == month_num or month_num == 0)):
