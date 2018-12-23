@@ -1,7 +1,7 @@
 % !Tex program = xelatex
 \documentclass[12pt]{article}
 \usepackage[dvipsnames]{xcolor} 
-\usepackage[paperwidth=126mm,paperheight=168mm,left=5mm,right=5mm,top=10mm,bottom=0mm]{geometry}
+\usepackage[paperwidth=126mm,paperheight=168mm,left=2mm,right=2mm,top=8mm,bottom=2mm]{geometry}
 \usepackage[xetex]{graphicx}
 \usepackage{array}
 \usepackage{multirow}
@@ -72,7 +72,7 @@
 % ---- FILL IN HERE THE DOC TITLE AND AUTHOR
 \defaultfontfeatures{Scale=MatchLowercase,Mapping=tex-text}
 \setmainfont{siddhanta.ttf}[Path=../fonts/,Script=Devanagari] 
-\setsansfont[Path=../fonts/,Scale=0.85,Numbers=Lining]{AlegreyaSans-Regular.ttf}
+\setsansfont[Path=../fonts/,Scale=0.95,Numbers=Lining]{AlegreyaSans-Regular.ttf}
 % \newfontfamily\noto[Path=../fonts/, Ligatures=TeX]{NotoSansUI-Regular}
 %%%%%%% Numbers and counters %%%%%%%
 \newcount\num
@@ -123,13 +123,13 @@
 \renewcommand{\rtuName}{#8}
 }
 \newcommand{\tamil}[1]{%
-{\fontspec[Scale=0.85,FakeStretch=0.9,Path=../fonts/]{NotoSansTamil-Regular.ttf} \footnotesize #1}}
+{\fontspec[Scale=0.8,FakeStretch=0.9,Path=../fonts/]{NotoSansTamil-Regular.ttf} \footnotesize #1}}
 \newcommand{\kalas}[1]{%
 \setsepchar{ }
 \readlist\arg{#1}
-{\small{\mbox{कालाः \ सङ्गव \textsf{\arg[3]}{\scriptsize\RIGHTarrow} मध्याह्न \textsf{\arg[6]}{\scriptsize\RIGHTarrow} अपराह्ण \textsf{\arg[7]}{\scriptsize\RIGHTarrow} सायाह्न \textsf{\arg[8]}{\scriptsize\RIGHTarrow}}\hfill शयन \textsf{\arg[11]}{\scriptsize\RIGHTarrow}\textsf{\arg[12]}}}\\[-1ex]
-{\small{\mbox{सन्ध्या \ प्रातः \textsf{\arg[1]}{\scriptsize\RIGHTarrow}\textsf{\arg[2]} माध्याह्निक \textsf{\arg[4]}{\scriptsize\RIGHTarrow}\textsf{\arg[5]} 
-सायं \textsf{\arg[9]}{\scriptsize\RIGHTarrow}\textsf{\arg[10]}}\hfill {दिनान्तः{\scriptsize\RIGHTarrow}\textsf{\arg[13]}}}\\[-5ex]}
+{\small{\mbox{सङ्गव-कालः \textsf{\arg[3]}{\scriptsize\RIGHTarrow} मध्याह्न \textsf{\arg[6]}{\scriptsize\RIGHTarrow} अपराह्ण \textsf{\arg[7]}{\scriptsize\RIGHTarrow} सायाह्न \textsf{\arg[8]}{\scriptsize\RIGHTarrow}} \hfill शयन \textsf{\arg[11]}{\scriptsize\RIGHTarrow}\textsf{\arg[12]}}}\\[-1ex]
+{\small{\mbox{प्रातः सन्ध्या \textsf{\arg[1]}{\scriptsize\RIGHTarrow}\textsf{\arg[2]} माध्याह्निक \textsf{\arg[4]}{\scriptsize\RIGHTarrow}\textsf{\arg[5]} 
+सायं \textsf{\arg[9]}{\scriptsize\RIGHTarrow}\textsf{\arg[10]}}\hfill {दिनान्तः{\scriptsize\RIGHTarrow}\textsf{\arg[13]}}}\\[-4.5ex]}
 }
 \newcommand{\sunmoondata}[5]{%
 \mbox{\large\sun{\small\UParrow}\textsf{#1}~\sun{\small\DOWNarrow}\textsf{#2}}\hfill
@@ -159,7 +159,7 @@
 \mbox{\sffamily\fontsize{20}{25}\selectfont {\uppercase{#1}}} & \parbox[2.6cm]{1cm}{\LARGE\solarMonthName}\\%mmm
 & \mbox{\small \solarMonthEndTime}\\
 & \parbox{3cm}{\centering\lunarMonthName}\\
-\hspace{0.46\linewidth} & \hspace{0.46\linewidth} \\
+\hspace{0.465\linewidth} & \hspace{0.465\linewidth} \\
 \mbox{\sffamily\fontsize{96}{115}\selectfont #2} & \mbox{\fontsize{90}{24}\selectfont \devanumber{\solarMonthDate}}\\[2.2ex]%DD
 \mbox{\sffamily\fontsize{24}{28}\selectfont\uppercase{#8}} & \parbox[2.6cm]{1cm}{\LARGE\vaaraName}\\[1.2ex]%Day of the week
 \hline
