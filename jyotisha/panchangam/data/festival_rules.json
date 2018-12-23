@@ -1085,6 +1085,15 @@
         "tags": "special-pujas"
     },
     {
+        "angam_number": 24,
+        "angam_type": "tithi",
+        "id": "durgA-svApanam",
+        "jsonClass": "HinduCalendarEventOld",
+        "month_number": 3,
+        "month_type": "lunar_month",
+        "tags": "special-pujas"
+    },
+    {
         "angam_number": 23,
         "angam_type": "tithi",
         "id": "zItalASTamI",
@@ -1299,6 +1308,15 @@
         "angam_number": 12,
         "angam_type": "tithi",
         "id": "vAsudEva-dvAdazI",
+        "jsonClass": "HinduCalendarEventOld",
+        "month_number": 4,
+        "month_type": "lunar_month",
+        "tags": "special-vratams"
+    },
+    {
+        "angam_number": 14,
+        "angam_type": "tithi",
+        "id": "pavitra-caturdazI",
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 4,
         "month_type": "lunar_month",
@@ -1883,6 +1901,24 @@
             "Vaidikasri Sep 2015"
         ],
         "tags": "special-vratams"
+    },
+    {
+        "angam_number": 3,
+        "angam_type": "tithi",
+        "id": "vipattAra-gaurI-vratam",
+        "jsonClass": "HinduCalendarEventOld",
+        "month_number": 6,
+        "month_type": "lunar_month",
+        "tags": "special-vratams"
+    },
+    {
+        "angam_number": 2,
+        "angam_type": "tithi",
+        "id": "aGgAraka~jayantI",
+        "jsonClass": "HinduCalendarEventOld",
+        "month_number": 6,
+        "month_type": "lunar_month",
+        "tags": "other-jayantis"
     },
     {
         "angam_number": 18,
@@ -4859,16 +4895,28 @@
     {
         "angam_number": 30,
         "angam_type": "tithi",
-        "id": "darbha-saGgrahaH~1",
+        "id": "darbha-saGgrahaH~2",
         "jsonClass": "HinduCalendarEventOld",
         "kaala": "madhyaahna",
-        "month_number": 11,
-        "month_type": "lunar_month",
+        "month_number": 10,
+        "month_type": "solar_month",
         "priority": "puurvaviddha",
         "references_secondary": [
             "Vaidikasri Feb 2010"
         ],
-        "tags": "special-vratams,less-common-festivals",
+        "tags": "special-days",
+        "notes": "Must check timings from some pravachanam? Based on time of sangraha?"
+    },
+    {
+        "angam_number": 30,
+        "angam_type": "tithi",
+        "id": "darbha-saGgrahaH~1",
+        "jsonClass": "HinduCalendarEventOld",
+        "kaala": "madhyaahna",
+        "month_number": 5,
+        "month_type": "solar_month",
+        "priority": "puurvaviddha",
+        "tags": "special-days",
         "notes": "Must check timings from some pravachanam? Based on time of sangraha?"
     },
     {
@@ -7614,6 +7662,15 @@
             "http://hindupad.com/bhishma-pitamaha-jayanti/"
         ],
         "tags": "mahapurusha-events"
+    },
+    {
+        "angam_number": 25,
+        "angam_type": "tithi",
+        "id": "trailOkya-gaurI-vratam",
+        "jsonClass": "HinduCalendarEventOld",
+        "month_number": 10,
+        "month_type": "lunar_month",
+        "tags": "special-vratams"
     },
     {
         "angam_number": 8,
