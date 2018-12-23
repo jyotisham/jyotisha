@@ -658,6 +658,15 @@
     {
         "angam_number": 15,
         "angam_type": "tithi",
+        "id": "ardhanArIshvara-vratam",
+        "jsonClass": "HinduCalendarEventOld",
+        "month_number": 2,
+        "month_type": "lunar_month",
+        "tags": "special-vratams"
+    },
+    {
+        "angam_number": 15,
+        "angam_type": "tithi",
         "description": {
             "en": "Perform snana four ghatikas before sunrise (during `aruNodayam`, when the Moon is still up, on the full-moon days of `ASADha`, `kArtika`, `mAgha` and `vaizAkha` \u2013 hence the name `A-kA-mA-vai`) bestows strength, beauty, fame, dharma, knowledge, happiness, fortitude and health."
         },
@@ -7764,6 +7773,19 @@
         "month_number": 0,
         "month_type": "lunar_month",
         "tags": "andhra-temple-festivals"
+    },
+    {
+        "angam_number": 15,
+        "angam_type": "tithi",
+        "description": {
+            "en": "`paurNamI vratam` is commonly observed for Lord Satyanarayana."
+        },
+        "id": "paurNamI~vratam",
+        "jsonClass": "HinduCalendarEventOld",
+        "kaala": "sunrise",
+        "month_number": 0,
+        "month_type": "lunar_month",
+        "tags": "monthly-festivals"
     },
     {
         "angam_number": 15,
