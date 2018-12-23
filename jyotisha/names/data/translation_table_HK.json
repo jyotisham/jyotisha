@@ -35,6 +35,9 @@
   "AYANA_NAMES": {
     "hk": ["uttarAyaNam", "uttarAyaNam", "uttarAyaNam", "dakSiNAyanam", "dakSiNAyanam", "dakSiNAyanam", "dakSiNAyanam", "dakSiNAyanam", "dakSiNAyanam", "uttarAyaNam", "uttarAyaNam", "uttarAyaNam"]
   },
+  "NIRAYANA_NAMES": {
+    "hk": ["mESAyanam", "vRSabhAyanam", "mithunAyanam", "kaTakAyanam", "siMhAyanam", "kanyAyanam", "tulAyanam", "vRzcikAyanam", "dhanurAyaNam", "makarAyaNam", "kumbhAyanam", "mInAyanam"]
+  },
   "RTU_NAMES": {
     "hk": ["vasanta-RtuH", "vasanta-RtuH", "grISma-RtuH", "grISma-RtuH", "varSa-RtuH", "varSa-RtuH", "zarad-RtuH", "zarad-RtuH", "hEmanta-RtuH", "hEmanta-RtuH", "zizira-RtuH", "zizira-RtuH"]
   }
