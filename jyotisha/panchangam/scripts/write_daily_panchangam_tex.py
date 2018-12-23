@@ -202,7 +202,11 @@ def writeDailyTeX(panchangam, template_file, compute_lagnams=True):
                                                              jyotisha.panchangam.temporal.NAMES, panchangam.script),
                jyotisha.panchangam.temporal.NAMES['RTU_NAMES'][panchangam.script][int(ceil(panchangam.lunar_month[d]))],
                jyotisha.panchangam.temporal.NAMES['VARA_NAMES'][panchangam.script][panchangam.weekday[d]], sar_data))
-        print('{\\sunmoondata{%s}{%s}{%s}{%s}' % (sunrise, sunset, moonrise, moonset))
+        if panchangam.jd_moonrise[d]>panchangam.jd_sunrise[d + 1]:
+          print('{\\sunmoondata{%s}{%s}{%s}{%s}' % (sunrise, sunset, '---', '---'))
+        else:
+          print('{\\sunmoondata{%s}{%s}{%s}{%s}' % (sunrise, sunset, moonrise, moonset))
+
         print('{\kalas{%s %s %s %s %s %s %s %s %s %s %s %s %s}}}' % (pratahsandhya, pratahsandhya_end,
                                                                      sangava,
                                                                      madhyahnika_sandhya, madhyahnika_sandhya_end,
