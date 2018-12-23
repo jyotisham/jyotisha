@@ -94,7 +94,11 @@ def get_nirayana_sun_lon(jd, offset=0, debug=False):
     if debug:
         print('## get_angam_float(): lsun (nirayana) =', lsun)
 
-    return lsun + offset
+    if offset + 360 == 0 and lsun < 30:
+        # Angam 1 -- needs different treatment, because of 'discontinuity'
+        return lsun
+    else:
+        return lsun + offset
 
 
 def get_planet_lon(jd, planet, offset=0, ayanamsha_id=swe.SIDM_LAHIRI):

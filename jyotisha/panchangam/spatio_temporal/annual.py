@@ -733,6 +733,16 @@ class Panchangam(common.JsonObject):
         if self.jd_sunset[d] < makara_jd_start < self.jd_sunset[d + 1]:
           self.fest_days['makarAyaNa-puNyakAlaH/mitrOtsavaH'] = [d + 1]
 
+      # NIRAYANA AYANAMS
+      if self.solar_month_day[d] == 1:
+        logging.debug(self.solar_month[d])
+        ayana_jd_start = brentq(jyotisha.zodiac.get_nirayana_sun_lon, self.jd_sunrise[d],
+                                self.jd_sunrise[d] + 15, args=(-30 * self.solar_month[d], False))
+        [_y, _m, _d, _t] = swe.revjul(ayana_jd_start + (tz_off / 24.0))
+        ayana_time = jyotisha.panchangam.temporal.Time(swe.revjul(ayana_jd_start + (tz_off / 24.0))[3]).toString()
+        fday = swe.julday(_y, _m, _d, 0) - self.jd_start + 1
+        self.festivals[int(fday)].append('%s\\textsf{%s}{\\RIGHTarrow}\\textsf{(%s)}' % (jyotisha.panchangam.temporal.NAMES['NIRAYANA_NAMES'][self.script][self.solar_month[d]], '', ayana_time))
+
       # KUCHELA DINAM
       if self.solar_month[d] == 9 and self.solar_month_day[d] <= 7 and self.weekday[d] == 3:
         self.fest_days['kucEla-dinam'] = [d]
