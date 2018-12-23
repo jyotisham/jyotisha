@@ -103,25 +103,24 @@
 \newcommand{\To}{\hspace{1pt}\raisebox{1pt}{\footnotesize\RIGHTarrow}\hspace{1pt}}
 \newcommand{\Too}{\hspace{1pt}\raisebox{1pt}{\footnotesize\RIGHTarrow\hspace{-5pt}\RIGHTarrow}\hspace{1pt}}
 %%%%%%%% Calendar display stuff %%%%%%%%%%%
-\newcommand{\sunmonth}[6]{%
-\begin{minipage}[t]{56mm}
-\begin{minipage}[t]{\linewidth}
-\centering
-\large #6\\[1pt]%Samvatsara Name
-{\LARGE #1}\\[0.5ex]%Solar month name
-\mbox{\small #3}\\[0.8ex]%Month end time, if any
-#4\\[3ex]%Lunar month name
-\end{minipage}
-\begin{minipage}[c][30mm]{\linewidth}
-\centering
- \mbox{\fontsize{90}{24}\selectfont \devanumber{#2}}%Solar month date
- \end{minipage}
- \begin{minipage}[b][10mm]{\linewidth}
- \centering
-\mbox{\fontsize{24}{12}\selectfont {#5}}\\%Vara name
-\mbox{}
-\end{minipage}
-\end{minipage}%
+\newcommand{\samvatsaraName}{}
+\newcommand{\solarMonthName}{}
+\newcommand{\solarMonthEndTime}{}
+\newcommand{\lunarMonthName}{}
+\newcommand{\solarMonthDate}{}
+\newcommand{\vaaraName}{}
+\newcommand{\rtuName}{}
+\newcommand{\ayanamName}{}
+
+\newcommand{\sunmonth}[8]{%
+\renewcommand{\samvatsaraName}{#6}
+\renewcommand{\solarMonthName}{#1}
+\renewcommand{\solarMonthEndTime}{#3}
+\renewcommand{\lunarMonthName}{#4}
+\renewcommand{\solarMonthDate}{#2}
+\renewcommand{\vaaraName}{#5}
+\renewcommand{\ayanamName}{#7}
+\renewcommand{\rtuName}{#8}
 }
 \newcommand{\tamil}[1]{%
 {\fontspec[Scale=0.9,FakeStretch=0.9,Path=../fonts/]{NotoSansTamil-Regular.ttf} \footnotesize #1}}
