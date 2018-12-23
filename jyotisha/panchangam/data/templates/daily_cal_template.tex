@@ -85,15 +85,15 @@
 {\tempone=\num
 %  \showthe\tempone\ %
 \ifnum\num > 0 
-	\divide \num by 10%
-	\temptwo=\num \multiply\temptwo by -10%
-	\devanumberrecurse%
-% 	\\stage 2\ %
-% 	\showthe\temptwo\ %
-% 	temp1=\number\tempone\ %
-% 	num=\number\num\ %
-	\advance\tempone by \temptwo%
-	\devadigit
+    \divide \num by 10%
+    \temptwo=\num \multiply\temptwo by -10%
+    \devanumberrecurse%
+%   \\stage 2\ %
+%   \showthe\temptwo\ %
+%   temp1=\number\tempone\ %
+%   num=\number\num\ %
+    \advance\tempone by \temptwo%
+    \devadigit
 \fi
 }}
 \newcommand{\devadigit}{%
