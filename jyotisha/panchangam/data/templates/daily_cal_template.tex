@@ -151,18 +151,20 @@
 \end{minipage}
 }
 \newcommand{\caldata}[8]{%
-\begin{minipage}[t]{56mm}
-\centering
-\large \textsf{\yearname}\\[2.6ex]%YYYY
-\mbox{\sffamily\fontsize{20}{25}\selectfont {\uppercase{#1}}}\\[9.1ex]%mmm
-\mbox{\sffamily\fontsize{84}{115}\selectfont #2}\\[2.5ex]%DD
-\mbox{\sffamily\fontsize{24}{28}\selectfont\uppercase{#8}}\\%Day of the week
-\mbox{}
-\end{minipage}
-\vline
-#3 %Right panel with all solar/lunar month data
-\hrule
-\mbox{}\\[0.3ex]
+#3% Calls \sunmonth
+\large% Fixes font size
+{\centering\begin{tabular}{c|c}
+\large \textsf{\yearname} & {\large\samvatsaraName}\\[-1ex]%YYYY
+& {\scriptsize \ayanamName \hspace{6pt} \rtuName}\\[0.4ex]
+\mbox{\sffamily\fontsize{20}{25}\selectfont {\uppercase{#1}}} & \LARGE\solarMonthName\\%mmm
+& \mbox{\small \solarMonthEndTime}\\
+& \lunarMonthName\\
+\hspace{0.46\linewidth} & \hspace{0.46\linewidth} \\
+\mbox{\sffamily\fontsize{84}{115}\selectfont #2} & \mbox{\fontsize{90}{24}\selectfont \devanumber{\solarMonthDate}}\\[2.2ex]%DD
+\mbox{\sffamily\fontsize{24}{28}\selectfont\uppercase{#8}} & \LARGE\vaaraName\\[1.2ex]%Day of the week
+\hline
+\end{tabular}
+}\mbox{}\\[1ex]
 #4\\[0.5em]%Sun rise, kalas etc
 #5\\[1.4em]%Tithi, Nakshatram, Varam, Yogam
 \parbox[c][3em][c]{0.9\linewidth}{\centering\normalsize\textcolor{RoyalBlue}{#7}}\\\vfill%Festivals
