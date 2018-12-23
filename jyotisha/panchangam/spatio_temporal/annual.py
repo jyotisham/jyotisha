@@ -1,4 +1,3 @@
-import json
 import logging
 import os
 import swisseph as swe
@@ -7,7 +6,6 @@ import traceback
 
 from datetime import datetime
 from math import floor
-from swisseph import julday
 
 from indic_transliteration import xsanscript as sanscript
 from pytz import timezone as tz
@@ -29,8 +27,8 @@ class Panchangam(common.JsonObject):
   def __init__(self, city, year=2012, script=sanscript.DEVANAGARI, fmt='hh:mm', ayanamsha_id=swe.SIDM_LAHIRI,
                compute_lagnams=False):
     """Constructor for the panchangam.
-    :param compute_lagnams: 
-    :param compute_lagnams: 
+    :param compute_lagnams:
+    :param compute_lagnams:
         """
     super().__init__()
     self.city = city
@@ -84,7 +82,7 @@ class Panchangam(common.JsonObject):
     # solar_month_day at the start of the loop across every day in
     # year
     daily_panchangam_start = daily.Panchangam(city=self.city, julian_day=self.jd_start - 1,
-                                        ayanamsha_id=self.ayanamsha_id)
+                                              ayanamsha_id=self.ayanamsha_id)
     daily_panchangam_start.compute_solar_day()
     self.solar_month[1] = daily_panchangam_start.solar_month
     solar_month_day = daily_panchangam_start.solar_month_day
@@ -114,18 +112,18 @@ class Panchangam(common.JsonObject):
       # What is the jd at 00:00 local time today?
       jd = self.jd_start - (tz_off / 24.0) + d - 1
 
-      ## TODO: Eventually, we are shifting to an array of daily panchangas. Reason: Better modularity.
+      # TODO: Eventually, we are shifting to an array of daily panchangas. Reason: Better modularity.
       # The below block is temporary code to make the transition seamless.
       daily_panchaangas[d + 1] = daily.Panchangam(city=self.city, julian_day=jd + 1, ayanamsha_id=self.ayanamsha_id)
       daily_panchaangas[d + 1].compute_sun_moon_transitions()
       daily_panchaangas[d + 1].compute_solar_month()
-      self.jd_sunrise[d+1] = daily_panchaangas[d+1].jd_sunrise
-      self.jd_sunset[d+1] = daily_panchaangas[d+1].jd_sunset
-      self.jd_moonrise[d+1] = daily_panchaangas[d+1].jd_moonrise
-      self.jd_moonset[d+1] = daily_panchaangas[d+1].jd_moonset
-      self.solar_month[d + 1] = daily_panchaangas[d+1].solar_month_sunset
+      self.jd_sunrise[d + 1] = daily_panchaangas[d + 1].jd_sunrise
+      self.jd_sunset[d + 1] = daily_panchaangas[d + 1].jd_sunset
+      self.jd_moonrise[d + 1] = daily_panchaangas[d + 1].jd_moonrise
+      self.jd_moonset[d + 1] = daily_panchaangas[d + 1].jd_moonset
+      self.solar_month[d + 1] = daily_panchaangas[d + 1].solar_month_sunset
 
-      solar_month_sunrise[d + 1] = daily_panchaangas[d+1].solar_month_sunrise
+      solar_month_sunrise[d + 1] = daily_panchaangas[d + 1].solar_month_sunrise
 
       if (d <= 0):
         continue
@@ -219,11 +217,11 @@ class Panchangam(common.JsonObject):
         'zayana': jyotisha.panchangam.temporal.get_kaalas(self.jd_sunset[d], self.jd_sunrise[d + 1], 3, 8),
         'dinAnta': jyotisha.panchangam.temporal.get_kaalas(self.jd_sunset[d], self.jd_sunrise[d + 1], 18.25, 30),
         'rahu': jyotisha.panchangam.temporal.get_kaalas(self.jd_sunrise[d], self.jd_sunset[d],
-                                                       RAHUKALA_OCTETS[self.weekday[d]], 8),
+                                                        RAHUKALA_OCTETS[self.weekday[d]], 8),
         'yama': jyotisha.panchangam.temporal.get_kaalas(self.jd_sunrise[d], self.jd_sunset[d],
-                                                       YAMAGANDA_OCTETS[self.weekday[d]], 8),
+                                                        YAMAGANDA_OCTETS[self.weekday[d]], 8),
         'gulika': jyotisha.panchangam.temporal.get_kaalas(self.jd_sunrise[d], self.jd_sunset[d],
-                                                         GULIKAKALA_OCTETS[self.weekday[d]], 8)
+                                                          GULIKAKALA_OCTETS[self.weekday[d]], 8)
       }
 
       # Compute all the anga datas
@@ -296,34 +294,6 @@ class Panchangam(common.JsonObject):
       isAdhika = jyotisha.panchangam.temporal.get_solar_rashi(this_new_moon_start, ayanamsha_id=self.ayanamsha_id) ==\
                  jyotisha.panchangam.temporal.get_solar_rashi(last_new_moon_start, ayanamsha_id=self.ayanamsha_id)
       last_new_moon_start = this_new_moon_start
-
-    # # Older code below. Major mistake was that calculation was done after checking for
-    # # prathama, rather than for amavasya.
-    # last_month_change = 1
-    # last_lunar_month = None
-
-    # for d in range(1, helper_functions.MAX_SZ - 1):
-    #     # Assign lunar_month for each day
-    #     if self.tithi_sunrise[d] == 1 and self.tithi_sunrise[d - 1] != 1:
-    #         for i in range(last_month_change, d):
-    #             if (self.solar_month[d] == last_lunar_month):
-    #                 self.lunar_month[i] = self.solar_month[d] % 12 + 0.5
-    #             else:
-    #                 self.lunar_month[i] = self.solar_month[d]
-    #         last_month_change = d
-    #         last_lunar_month = self.solar_month[d]
-    #     elif self.tithi_sunrise[d] == 2 and self.tithi_sunrise[d - 1] == 30:
-    #         # prathama tithi was never seen @ sunrise
-    #         for i in range(last_month_change, d):
-    #             if (self.solar_month[d - 1] == last_lunar_month):
-    #                 self.lunar_month[i] = self.solar_month[d - 1] % 12 + 0.5
-    #             else:
-    #                 self.lunar_month[i] = self.solar_month[d - 1]
-    #         last_month_change = d
-    #         last_lunar_month = self.solar_month[d - 1]
-
-    # for i in range(last_month_change, helper_functions.MAX_SZ - 1):
-    #     self.lunar_month[i] = self.solar_month[last_month_change - 1] + 1
 
   def get_angams_for_kaalas(self, d, get_angam_func, kaala_type):
     jd_sunrise = self.jd_sunrise[d]
