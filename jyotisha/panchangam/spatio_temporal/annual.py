@@ -1111,18 +1111,6 @@ class Panchangam(common.JsonObject):
             raise ValueError('Error; unknown string in rule: "%s"' % (angam_type))
 
           fday = None
-          fest_num = None
-          if fest_start_year is not None and month_type is not None:
-            if month_type == 'solar_month':
-              fest_num = self.year + 3100 + (d >= self.solar_month.index(1)) - fest_start_year + 1
-            elif month_type == 'lunar_month':
-              fest_num = self.year + 3100 + (d >= self.lunar_month.index(1)) - fest_start_year + 1
-
-          if fest_num is not None and fest_num <= 0:
-            logging.warning('Festival %s is only in the future!\n' % festival_name)
-
-          if fest_num is not None:
-            festival_name += '~\\#{%d}' % fest_num
 
           if angam_sunrise[d] == angam_num - 1 or angam_sunrise[d] == angam_num:
             angams = self.get_angams_for_kaalas(d, get_angam_func, kaala)
@@ -1139,6 +1127,19 @@ class Panchangam(common.JsonObject):
               except KeyError:
                 print('%', festival_name, ': ', festival_rules[festival_name.split('\\')[0][:-1]])
                 print("%%angams today & tmrw:", angams)
+
+            fest_num = None
+            if fest_start_year is not None and month_type is not None:
+              if month_type == 'solar_month':
+                fest_num = self.year + 3100 + (d >= self.solar_month.index(1)) - fest_start_year + 1
+              elif month_type == 'lunar_month':
+                fest_num = self.year + 3100 + (d >= self.lunar_month.index(1)) - fest_start_year + 1
+
+            if fest_num is not None and fest_num <= 0:
+              logging.warning('Festival %s is only in the future!\n' % festival_name)
+
+            if fest_num is not None:
+              festival_name += '~\\#{%d}' % fest_num
 
             if priority == 'paraviddha':
               if angams[0] == angam_num or angams[1] == angam_num:
