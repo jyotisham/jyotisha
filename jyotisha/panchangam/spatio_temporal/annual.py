@@ -592,6 +592,8 @@ class Panchangam(common.JsonObject):
           _m = 13   # Adhika masa
         chaturthi_name = jyotisha.panchangam.temporal.NAMES['SANKATAHARA_CHATURTHI_NAMES'][self.script][_m]
         chaturthi_name += '-mahAgaNapati '
+        if self.weekday[d] == 2:
+          chaturthi_name = 'aGgArakI~' + chaturthi_name
 
         if tithi_moonrise == 19:
           # otherwise yesterday would have already been assigned
