@@ -68,10 +68,10 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % PDF SETUP
 % ---- FILL IN HERE THE DOC TITLE AND AUTHOR
-\defaultfontfeatures{Scale=MatchLowercase,Mapping=tex-text}
+\defaultfontfeatures{Scale=MatchLowercase,Numbers=Lining,Mapping=tex-text}
 \setmainfont{Siddhanta}[Script=Devanagari]
 \setromanfont{Siddhanta}[Script=Devanagari]
-\setsansfont[Scale=0.75]{Noto Sans UI}
+\setsansfont[Path=../fonts/,Scale=0.95,BoldFont=AlegreyaSans-Bold.ttf]{AlegreyaSans-Regular.ttf} 
 %%%%%%% Numbers and counters %%%%%%%
 \newcount\num
 \newcount\tempone \newcount\temptwo
@@ -82,15 +82,15 @@
 {\tempone=\num
 %  \showthe\tempone\ %
 \ifnum\num > 0 
-	\divide \num by 10%
-	\temptwo=\num \multiply\temptwo by -10%
-	\devanumberrecurse%
-% 	\\stage 2\ %
-% 	\showthe\temptwo\ %
-% 	temp1=\number\tempone\ %
-% 	num=\number\num\ %
-	\advance\tempone by \temptwo%
-	\devadigit
+    \divide \num by 10%
+    \temptwo=\num \multiply\temptwo by -10%
+    \devanumberrecurse%
+%   \\stage 2\ %
+%   \showthe\temptwo\ %
+%   temp1=\number\tempone\ %
+%   num=\number\num\ %
+    \advance\tempone by \temptwo%
+    \devadigit
 \fi
 }}
 \newcommand{\devadigit}{%
@@ -126,11 +126,11 @@
 \mbox{#5}
 \end{minipage}\hfill\begin{minipage}[c]{1.2cm}
 \vspace{1ex}
-\hfill \mbox{{\font\x="Noto Sans UI" at 36 pt\x #1}\hspace{-2mm}}
+\hfill \mbox{{\fontsize{36pt}{12pt}\sffamily\selectfont #1}\hspace{-2mm}}
 \end{minipage}
 \scriptsize
-#4\\[0ex]
-\textcolor{RoyalBlue}{#6}%\\[0ex]
+#4\\[-8pt]
+\textcolor{RoyalBlue}{#6}\\[-4pt]
 \end{minipage}
 }
 
