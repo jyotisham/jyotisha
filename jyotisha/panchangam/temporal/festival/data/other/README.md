@@ -73,7 +73,7 @@ _A very special yOga, for doing Pitru Shraddha during Mahalaya Paksham. A man th
 
 ---
 ## bhAnusaptamI★
-_सप्तमी तिथि on a Sunday is as sacred as a solar eclipse. Particularly good for worshipping Surya. Today is even more auspicious, as it is associated with रॆवती star._
+_सप्तमी तिथि on a Sunday is as sacred as a solar eclipse. Particularly good for worshipping Surya. Today is even more auspicious, as it is associated with रेवती star._
 
 ```
 अमावस्या तु सोमेन सप्तमी भानुना सह।
