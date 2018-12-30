@@ -2,17 +2,14 @@
   "description": {
     "en": "Padmavati Devi is taken out on the `plava` (last three days)."
   },
-  "id": "alarmElmaGgApurE plavOtsava~samApanam",
+  "id": "alarmElmaGgApurE plavOtsavaH~4",
   "jsonClass": "HinduCalendarEvent",
   "tags": [
     "andhra-temple-festivals"
   ],
   "timing": {
-    "angam_number": 15,
-    "angam_type": "tithi",
+    "anchor_festival_id": "alarmElmaGgApurE plavOtsava-samApanam",
     "jsonClass": "HinduCalendarEventTiming",
-    "kaala": "sunrise",
-    "month_number": 3,
-    "month_type": "lunar_month"
+    "offset": -1
   }
 }

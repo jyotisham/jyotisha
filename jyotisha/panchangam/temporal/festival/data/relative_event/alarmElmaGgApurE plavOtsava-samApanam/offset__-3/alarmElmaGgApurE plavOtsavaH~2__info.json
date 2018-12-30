@@ -8,7 +8,7 @@
     "andhra-temple-festivals"
   ],
   "timing": {
-    "anchor_festival_id": "alarmElmaGgApurE plavOtsava~samApanam",
+    "anchor_festival_id": "alarmElmaGgApurE plavOtsava-samApanam",
     "jsonClass": "HinduCalendarEventTiming",
     "offset": -3
   }

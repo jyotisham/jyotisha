@@ -443,35 +443,35 @@
         "tags": "andhra-temple-festivals"
     },
     {
-        "anchor_festival_id": "vEGkaTAcalE plavOtsava~samApanam",
+        "anchor_festival_id": "vEGkaTAcalE plavOtsava-samApanam",
         "id": "vEGkaTAcalE plavOtsava-ArambhaH",
         "jsonClass": "HinduCalendarEventOld",
         "offset": -4,
         "tags": "andhra-temple-festivals"
     },
     {
-        "anchor_festival_id": "vEGkaTAcalE plavOtsava~samApanam",
+        "anchor_festival_id": "vEGkaTAcalE plavOtsava-samApanam",
         "id": "vEGkaTAcalE plavOtsavaH~2",
         "jsonClass": "HinduCalendarEventOld",
         "offset": -3,
         "tags": "andhra-temple-festivals"
     },
     {
-        "anchor_festival_id": "vEGkaTAcalE plavOtsava~samApanam",
+        "anchor_festival_id": "vEGkaTAcalE plavOtsava-samApanam",
         "id": "vEGkaTAcalE plavOtsavaH~3",
         "jsonClass": "HinduCalendarEventOld",
         "offset": -2,
         "tags": "andhra-temple-festivals"
     },
     {
-        "anchor_festival_id": "vEGkaTAcalE plavOtsava~samApanam",
+        "anchor_festival_id": "vEGkaTAcalE plavOtsava-samApanam",
         "id": "vEGkaTAcalE plavOtsavaH~4",
         "jsonClass": "HinduCalendarEventOld",
         "offset": -1,
         "tags": "andhra-temple-festivals"
     },
     {
-        "anchor_festival_id": "alarmElmaGgApurE plavOtsava~samApanam",
+        "anchor_festival_id": "alarmElmaGgApurE plavOtsava-samApanam",
         "description": {
             "en": "Rukmini Satyabhama sahita Krishna are taken out on the `plava`."
         },
@@ -481,7 +481,7 @@
         "tags": "andhra-temple-festivals"
     },
     {
-        "anchor_festival_id": "alarmElmaGgApurE plavOtsava~samApanam",
+        "anchor_festival_id": "alarmElmaGgApurE plavOtsava-samApanam",
         "description": {
             "en": "Sridevi Bhudevi sahita Sundararaja Swami are taken out on the `plava`."
         },
@@ -491,7 +491,7 @@
         "tags": "andhra-temple-festivals"
     },
     {
-        "anchor_festival_id": "alarmElmaGgApurE plavOtsava~samApanam",
+        "anchor_festival_id": "alarmElmaGgApurE plavOtsava-samApanam",
         "description": {
             "en": "Padmavati Devi is taken out on the `plava` (last three days)."
         },
@@ -501,7 +501,7 @@
         "tags": "andhra-temple-festivals"
     },
     {
-        "anchor_festival_id": "alarmElmaGgApurE plavOtsava~samApanam",
+        "anchor_festival_id": "alarmElmaGgApurE plavOtsava-samApanam",
         "description": {
             "en": "Padmavati Devi is taken out on the `plava` (last three days)."
         },
