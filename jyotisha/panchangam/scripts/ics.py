@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-import json
+# import json
 import logging
 import os
 import re
@@ -15,7 +15,7 @@ from pytz import timezone as tz
 import jyotisha.custom_transliteration
 import jyotisha.panchangam.spatio_temporal.annual
 import jyotisha.panchangam.temporal
-from jyotisha.panchangam import scripts
+# from jyotisha.panchangam import scripts
 from jyotisha.panchangam.spatio_temporal import City
 from jyotisha.panchangam.temporal import festival
 from jyotisha.panchangam.temporal.festival import read_old_festival_rules_dict
