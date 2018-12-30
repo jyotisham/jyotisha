@@ -193,7 +193,7 @@ def compute_calendar(panchangam):
                     event.add('dtstart', date(y, m, dt))
                     event.add('dtend', (datetime(y, m, dt) + timedelta(1)).date())
 
-                    if stext.find('EkAdazI') == -1 and stext.find('saGkrAntiH') == -1:
+                    if re.match('.*-.*-EkAdazI', stext) is None and stext.find('saGkrAntiH') == -1:
                         if stext in festival_rules:
                             desc = festival.HinduCalendarEventOld.make_from_dict(festival_rules[stext]).get_description_string(script=panchangam.script)
                         else:
@@ -208,6 +208,7 @@ def compute_calendar(panchangam):
                             logging.warning('No description found for festival %s!' % planet_trans)
                         # uid = '%s-%d-%02d' % (page_id, y, m)
                     else:
+                        # logging.debug(stext)
                         # Handle ekadashi descriptions differently
                         ekad = '-'.join(stext.split('-')[1:])  # get rid of sarva etc. prefix!
                         if ekad in festival_rules:
