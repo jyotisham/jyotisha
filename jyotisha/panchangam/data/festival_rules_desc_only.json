@@ -618,7 +618,7 @@
     {
         "id": "sUrya-grahaNam",
         "jsonClass": "HinduCalendarEventOld",
-        "tags": "rare-days"
+        "tags": "rare-days,eclipses"
     },
     {
         "description": {
@@ -626,7 +626,7 @@
         },
         "id": "bhaumAzvinI-puNyakAlaH",
         "jsonClass": "HinduCalendarEventOld",
-        "tags": "rare-days"
+        "tags": "rare-days,combinations"
     },
     {
         "id": "ASADha (kaTaka) amAvasyA",
@@ -726,7 +726,7 @@
         "references_secondary": [
             "Kielhorn, 1897"
         ],
-        "tags": "rare-days,combinations,eclipse"
+        "tags": "rare-days,combinations,eclipses"
     },
     {
         "description": {
@@ -737,7 +737,7 @@
         "references_secondary": [
             "Kielhorn, 1897"
         ],
-        "tags": "rare-days,combinations,eclipse"
+        "tags": "rare-days,combinations,eclipses"
     },
     {
         "id": "ASADha-amAvasyA",

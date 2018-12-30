@@ -2,7 +2,8 @@
   "id": "sUrya-grahaNam",
   "jsonClass": "HinduCalendarEvent",
   "tags": [
-    "rare-days"
+    "rare-days",
+    "eclipses"
   ],
   "timing": {
     "jsonClass": "HinduCalendarEventTiming"

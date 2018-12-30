@@ -76,6 +76,10 @@ _सप्तमी तिथि on a Sunday is as sacred as a solar eclipse. Pa
 ```
 
 ---
+## bhaumAzvinI-puNyakAlaH
+_When Ashwini nakshatram falls on a Tuesday, it is a special पुण्यकालः. Do उपासना of Lakshmi Narasimha._
+
+---
 ## budhAnUrAdhA-puNyakAlaH
 _When अनूराधा nakshatram falls on a Wednesday, it is a special पुण्यकालः for performing दानम्. One can do दानं of दध्योदनम् in Vishnu temples on this day._
 
