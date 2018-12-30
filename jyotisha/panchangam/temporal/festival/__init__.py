@@ -168,19 +168,19 @@ class HinduCalendarEventOld(common.JsonObject):
           angam_type=self.angam_type,
           month_number=self.month_number,
           angam_number=self.angam_number,
-          id=self.id.replace('/','__').replace('ta:',''))
+          id=self.id.replace('/','__').replace('ta:', '').replace(' ','-').lower())
     elif hasattr(self, "anchor_festival_id"):
       url = "%(base_dir)s/relative_event/%(anchor_festival_id)s/offset__%(offset)02d#%(id)s" % dict(
         base_dir=base_url,
         anchor_festival_id=self.anchor_festival_id.replace('/','__'),
         offset=self.offset,
-        id=self.id.replace('/','__').replace('ta:',''))
+        id=self.id.replace('/','__').replace('ta:', '').replace(' ','-').lower())
     else:
       tag_list = ('/'.join(self.tags.split(',')))
       url = "%(base_dir)s/other/%(tags)s#%(id)s" % dict(
           base_dir=base_url,
           tags=tag_list,
-          id=self.id.replace('/','__').replace('ta:',''))
+          id=self.id.replace('/','__').replace('ta:', '').replace(' ','-').lower())
 
     if include_url:
       return description_string + ('\n\n%s\n' % url)
