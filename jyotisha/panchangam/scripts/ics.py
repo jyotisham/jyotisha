@@ -160,16 +160,6 @@ def compute_calendar(panchangam):
                     # print(event)
                     event.add_component(alarm)
                     event.add('description', desc.strip())
-                    # uid = '%s-%d-%02d' % (page_id, y, m)
-                    # if uid not in uid_list:
-                    #     uid_list.append(uid)
-                    # else:
-                    #     suff = 0
-                    #     while uid in uid_list:
-                    #         uid = '%s-%d-%02d-%02d-%d' % (page_id, y, m, dt, suff)
-                    #         suff += 1
-                    #     uid_list.append(uid)
-                    # event.add('uid', uid)
                     event['X-MICROSOFT-CDO-ALLDAYEVENT'] = 'TRUE'
                     event['TRANSP'] = 'TRANSPARENT'
                     event['X-MICROSOFT-CDO-BUSYSTATUS'] = 'FREE'
