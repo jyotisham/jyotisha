@@ -197,7 +197,15 @@ def compute_calendar(panchangam):
                         if stext in festival_rules:
                             desc = festival.HinduCalendarEventOld.make_from_dict(festival_rules[stext]).get_description_string(script=panchangam.script)
                         else:
-                            logging.warning('No description found for festival %s!' % stext)
+                            if re.match('aGgArakI.*saGkaTahara-caturthI-vratam', stext):
+                                stext = stext.replace('aGgArakI~', '')
+                                if stext in festival_rules:
+                                    desc = festival.HinduCalendarEventOld.make_from_dict(festival_rules[stext]).get_description_string(script=panchangam.script)
+                                    desc += 'When `caturthI` occurs on a Tuesday, it is known as `aGgArakI` and is even more sacred.'
+                                else:
+                                    logging.warning('No description found for caturthI festival %s!' % stext)
+                            else:
+                                logging.warning('No description found for festival %s!' % stext)
                         # uid = '%s-%d-%02d' % (page_id, y, m)
                     elif stext.find('saGkrAntiH') != -1:
                         # Handle Sankranti descriptions differently

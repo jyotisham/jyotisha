@@ -9,6 +9,32 @@
     },
     {
         "description": {
+            "en": "Kaisika Puranam, consisting of 82 shlokas describes the story of `ta:nampADuvAn` and a `rAkSasa` who attained mukti by `nAmasaGkIrtanam` and the fruits of `ta:nampADuvAn`'s `nAmasaGkIrtanam`, respectively!"
+        },
+        "id": "kaizika-EkAdazI",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "monthly-vratams,ekadashi-vratam-days"
+    },
+    {
+        "description": {
+            "en": "Being the first day of the new year, read the `paJcAGga` today, followed by naivedyam of `pAnakam` to `gaNEzAdi trayastriMzat kOTi dEvatAH`."
+        },
+        "id": "paJcAGga-paThanam",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "common-festivals"
+    },
+    {
+        "description": {
+            "en": "`tulArAziM gatE sUryE pUrvasmin bhRguvAsarE`"
+        },
+        "id": "bhRguvAra-subrahmaNya-vratam",
+        "references_primary": ["Skanda Puranam"],
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "special-vratams",
+        "notes": "Pravachanam of Brahmmasri Ky. Bharaneedhara Sastrigal, https://www.youtube.com/watch?v=rgXwyo0L3i8&feature=youtu.be&t=222"
+    },
+    {
+        "description": {
             "en": "`upavAsam` with only water and next day `pAraNa` gives `Arogyam`"
         },
         "id": "kumAra-SaSThI-vratam",
@@ -60,6 +86,17 @@
         "jsonClass": "HinduCalendarEventOld",
         "shlokas": [
             "amAvasyA tu sOmEna saptamI bhAnunA saha.\ncaturthI bhUmiputrENa sOmaputrENa cASTamI.\n catasrastithayastvEtAH sUryagrahaNasannibhAH.."
+        ],
+        "tags": "rare-days"
+    },
+    {
+        "description": {
+            "en": "A very special yOga, for doing Pitru Shraddha during Mahalaya Paksham. A man that performs a sraddha in the conjunction called Gajacchaya at a place that is fanned by the leaves of the Aswattha tree enjoys the fruits thereof, O Yudhishthira, for a hundred thousand kalpas."
+        },
+        "id": "gajacchAyA-yOgaH",
+        "jsonClass": "HinduCalendarEventOld",
+        "shlokas": [
+            "ChAyAyAM kariNaH shrAddhaM tatkarma parivIjitam.\ndashakalpAyutAnIha na kShIyeta yudhiShThira..3-203-121..\nmahAbhAratE vanaparvaNi trayOttaradvishatatamE.adhyAyE"
         ],
         "tags": "rare-days"
     },
