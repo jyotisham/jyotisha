@@ -72,7 +72,7 @@ def compute_calendar(panchangam):
                     if stext in festival_rules:
                         desc = festival.HinduCalendarEventOld.make_from_dict(festival_rules[stext]).get_description_string(script=panchangam.script)
                     else:
-                        sys.stderr.write('No description found for festival %s!\n' % stext)
+                        logging.warning('No description found for festival %s!' % stext)
                     # uid = '%s-%d' % (page_id, y)
 
                     event.add_component(alarm)
@@ -109,7 +109,7 @@ def compute_calendar(panchangam):
                     if stext in festival_rules:
                         desc = festival.HinduCalendarEventOld.make_from_dict(festival_rules[stext]).get_description_string(script=panchangam.script)
                     else:
-                        sys.stderr.write('No description found for festival %s!\n' % stext)
+                        logging.warning('No description found for festival %s!\n' % stext)
                     event.add('description', desc.strip())
                     # uid = '%s-%d-%02d' % (page_id, y, m)
                     # if uid not in uid_list:
@@ -129,7 +129,7 @@ def compute_calendar(panchangam):
                     if stext in festival_rules:
                         desc = festival.HinduCalendarEventOld.make_from_dict(festival_rules[stext]).get_description_string(script=panchangam.script)
                     else:
-                        sys.stderr.write('No description found for festival %s!\n' % stext)
+                        logging.warning('No description found for festival %s!' % stext)
 
                     # print(event)
                     event.add_component(alarm)
@@ -197,7 +197,7 @@ def compute_calendar(panchangam):
                         if stext in festival_rules:
                             desc = festival.HinduCalendarEventOld.make_from_dict(festival_rules[stext]).get_description_string(script=panchangam.script)
                         else:
-                            sys.stderr.write('No description found for festival %s!\n' % stext)
+                            logging.warning('No description found for festival %s!' % stext)
                         # uid = '%s-%d-%02d' % (page_id, y, m)
                     elif stext.find('saGkrAntiH') != -1:
                         # Handle Sankranti descriptions differently
@@ -205,7 +205,7 @@ def compute_calendar(panchangam):
                         if planet_trans in festival_rules:
                             desc = festival.HinduCalendarEventOld.make_from_dict(festival_rules[planet_trans]).get_description_string(script=panchangam.script)
                         else:
-                            sys.stderr.write('No description found for festival %s!\n' % planet_trans)
+                            logging.warning('No description found for festival %s!' % planet_trans)
                         # uid = '%s-%d-%02d' % (page_id, y, m)
                     else:
                         # Handle ekadashi descriptions differently
@@ -213,7 +213,7 @@ def compute_calendar(panchangam):
                         if ekad in festival_rules:
                             desc = festival.HinduCalendarEventOld.make_from_dict(festival_rules[ekad]).get_description_string(script=panchangam.script)
                         else:
-                            sys.stderr.write('No description found for festival %s!\n' % ekad)
+                            logging.warning('No description found for Ekadashi festival %s (%s)!' % (ekad, stext))
                         pref = jyotisha.custom_transliteration.romanise(sanscript.transliterate(
                             stext.split('-')[0],
                             sanscript.HK, sanscript.IAST)) + "-"
