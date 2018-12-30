@@ -142,7 +142,7 @@ class HinduCalendarEventOld(common.JsonObject):
       event.anchor_festival_id = legacy_event_dict["Relative Festival"]
     return event
 
-  def get_description_string(self, script):
+  def get_description_string(self, script, include_url=False):
     description_string = ""
     if hasattr(self, "description"):
       # description_string = json.dumps(self.description)
@@ -160,7 +160,32 @@ class HinduCalendarEventOld(common.JsonObject):
     if hasattr(self, "shlokas"):
       description_string = description_string + '\n\n' + \
                            custom_transliteration.tr(", ".join(self.shlokas), script, False) + '\n\n'
-    return description_string
+    base_url = 'https://github.com/sanskrit-coders/jyotisha/tree/master/jyotisha/panchangam/temporal/festival/data'
+    if hasattr(self, "angam_type"):
+      url =  "%(base_dir)s/%(month_type)s/%(angam_type)s/%(month_number)02d__%(angam_number)02d#%(id)s" % dict(
+          base_dir=base_url,
+          month_type=self.month_type,
+          angam_type=self.angam_type,
+          month_number=self.month_number,
+          angam_number=self.angam_number,
+          id=self.id.replace('/','__').replace('ta:',''))
+    elif hasattr(self, "anchor_festival_id"):
+      url = "%(base_dir)s/relative_event/%(anchor_festival_id)s/offset__%(offset)02d#%(id)s" % dict(
+        base_dir=base_url,
+        anchor_festival_id=self.anchor_festival_id.replace('/','__'),
+        offset=self.offset,
+        id=self.id.replace('/','__').replace('ta:',''))
+    else:
+      tag_list = ('/'.join(self.tags.split(',')[0:2]))
+      url = "%(base_dir)s/other/%(tags)s/%(id)s__info.json" % dict(
+          base_dir=base_url,
+          tags=tag_list,
+          id=self.id.replace('/','__').replace('ta:',''))
+
+    if include_url:
+      return description_string + ('\n\n%s\n' % url)
+    else:
+      return description_string
 
 
 # noinspection PyUnresolvedReferences
