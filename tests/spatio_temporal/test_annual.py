@@ -7,8 +7,9 @@ from indic_transliteration import xsanscript as sanscript
 from sanskrit_data.schema.common import JsonObject
 
 import jyotisha.panchangam.spatio_temporal.annual
-from jyotisha.panchangam import scripts
-from jyotisha.panchangam.spatio_temporal import City, annual
+from jyotisha.panchangam.spatio_temporal import City
+# from jyotisha.panchangam import scripts
+# from jyotisha.panchangam.spatio_temporal import annual
 
 logging.basicConfig(
   level=logging.DEBUG,
