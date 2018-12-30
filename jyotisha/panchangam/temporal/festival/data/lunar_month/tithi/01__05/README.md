@@ -22,7 +22,7 @@
 ## haya-pUjA
 हय-पूजा is observed on Śukla-Pañcamī tithi of Caitra (lunar) month (sunrise (default)/puurvaviddha (default)).
 
-_Celebrating the birth of `uccaizravA` horse, offer puja to horses or even Lord Hayagriva._
+_Celebrating the birth of उच्चैश्रवा horse, offer puja to horses or even Lord Hayagriva._
 ### References
 * Vaidikasri Mar 2018
 

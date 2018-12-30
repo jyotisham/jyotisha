@@ -1,7 +1,7 @@
 ## karavIra-vratam
 करवीर-व्रतम् is observed on Śukla-Prathamā tithi of Jyaiṣṭha (lunar) month (sunrise (default)/puurvaviddha (default)).
 
-_Perform puja of `karavIra` plants/flowers and then offer them in `arcanA`._
+_Perform puja of करवीर plants/flowers and then offer them in अर्चना._
 
 ```
 करवीर विषावास नमस्ते भानुवल्लभ।

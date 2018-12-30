@@ -12,7 +12,7 @@
 ## mArgazIrSa-pUrNimA
 मार्गशीर्ष-पूर्णिमा is observed on Paurṇamāsī tithi of Mārgaśīrṣa (lunar) month (sunrise (default)/puurvaviddha (default)).
 
-_Do `dAnam` of salt, `sundararUpatvasiddhyartham`!_
+_Do दानम् of salt, सुन्दररूपत्वसिद्ध्यर्थम्!_
 ### References
 * Vaidikasri Dec 2016
 
@@ -27,7 +27,7 @@ _Do `dAnam` of salt, `sundararUpatvasiddhyartham`!_
 ## sarpa-bali-utsarjanam
 सर्प-बलि-उत्सर्जनम् is observed on Paurṇamāsī tithi of Mārgaśīrṣa (lunar) month (sunrise (default)/puurvaviddha (default)).
 
-_Offer `bali` to serpents on (from) this day, in the night after `sthAlIpAka`._
+_Offer बलि to serpents on (from) this day, in the night after स्थालीपाक._
 
 ---
 ## tripura bhairavI jayantI

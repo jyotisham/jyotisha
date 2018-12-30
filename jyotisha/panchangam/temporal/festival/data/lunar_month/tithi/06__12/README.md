@@ -14,7 +14,7 @@ _On this day the DadhiVratam in Chaaturmaasyam is completed, hence perform danam
 ## payOvrata-ArambhaH
 पयोव्रत-आरम्भः is observed on Śukla-Dvādaśī tithi of Bhādrapada (lunar) month (sunrise (default)/puurvaviddha (default)).
 
-_`payOvratam` in chaturmasyam begins today._
+_पयोव्रतम् in chaturmasyam begins today._
 
 ```
 प्रद्युम्न तव तुष्ट्यर्थं प्रोष्टपद्यां तृतीयके।

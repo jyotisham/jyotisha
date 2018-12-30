@@ -51,6 +51,6 @@ _Chaaturmasya begins; 4 months; Pradakshina to Pippala; Deeparadhana in temple; 
 ## AzA dazamI
 आशा दशमी is observed on Śukla-Daśamī tithi of Āṣāḍha (lunar) month (sunrise (default)/puurvaviddha (default)).
 
-_Puja of `AzA devI (pArvatI)`_
+_Puja of आशा देवी (पार्वती)_
 
 ---

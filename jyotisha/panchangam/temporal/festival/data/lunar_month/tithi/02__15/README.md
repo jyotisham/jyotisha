@@ -34,7 +34,7 @@ _Adi Shankara founded Kamakoti Mutt, Kanchi in Siddharthi year with himself as f
 ## vaizAkha-pUrNimA-snAnam
 वैशाख-पूर्णिमा-स्नानम् is observed on Paurṇamāsī tithi of Vaiśākha (lunar) month (arunodaya/paraviddha).
 
-_Perform snana four ghatikas before sunrise (during `aruNodayam`, when the Moon is still up, on the full-moon days of `ASADha`, `kArtika`, `mAgha` and `vaizAkha` – hence the name `A-kA-mA-vai`) bestows strength, beauty, fame, dharma, knowledge, happiness, fortitude and health._
+_Perform snana four ghatikas before sunrise (during अरुणोदयम्, when the Moon is still up, on the full-moon days of आषाढ, कार्तिक, माघ and वैशाख – hence the name आ-का-मा-वै) bestows strength, beauty, fame, dharma, knowledge, happiness, fortitude and health._
 
 ```
 बलं रूपं यशो धर्मं ज्ञानमायुः सुखं धृतिम्।

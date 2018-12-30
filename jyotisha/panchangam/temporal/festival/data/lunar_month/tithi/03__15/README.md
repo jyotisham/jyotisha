@@ -31,6 +31,6 @@ _Danam of Padma Puranam_
 ## alarmElmaGgApurE plavOtsava samApanam
 अलर्मेल्मङ्गापुरे प्लवोत्सव समापनम् is observed on Paurṇamāsī tithi of Jyaiṣṭha (lunar) month (sunrise/puurvaviddha (default)).
 
-_Padmavati Devi is taken out on the `plava` (last three days)._
+_Padmavati Devi is taken out on the प्लव (last three days)._
 
 ---

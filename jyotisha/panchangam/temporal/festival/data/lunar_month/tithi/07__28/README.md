@@ -22,7 +22,7 @@ _Dhan-trayodashi in Gujarat; Lakshmi pooja_
 ## (yama)-dIpa-trayOdazI
 (यम)-दीप-त्रयोदशी is observed on Kṛṣṇa-Trayodaśī tithi of Āśvayuja (lunar) month (sunrise (default)/puurvaviddha (default)).
 
-_Do `dAnaM` of `dIpam`, light deepam outside the house._
+_Do दानं of दीपम्, light deepam outside the house._
 
 ```
 आश्विनस्यासिते पक्षे त्रयोदश्यां निशामुखे।

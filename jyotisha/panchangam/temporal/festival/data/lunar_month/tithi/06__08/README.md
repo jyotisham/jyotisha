@@ -7,7 +7,7 @@
 ## dUrvASTamI
 दूर्वाष्टमी is observed on Śukla-Aṣṭamī tithi of Bhādrapada (lunar) month (sunrise (default)/puurvaviddha (default)).
 
-_Do `pUjA` *of* `dUrva`!_
+_Do पूजा *of* दूर्व!_
 
 ---
 ## dadhIci maharSi jayanti

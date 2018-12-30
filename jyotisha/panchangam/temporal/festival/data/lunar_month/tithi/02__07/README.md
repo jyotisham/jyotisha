@@ -7,7 +7,7 @@ _Ganga came out of Jahnu Maharshi and became Jahnavi; perform Parjanya Pooja_
 ## zarkarA-saptamI
 शर्करा-सप्तमी is observed on Śukla-Saptamī tithi of Vaiśākha (lunar) month (sunrise (default)/puurvaviddha (default)).
 
-_Worship Surya Bhagavan in a vessel (`kumbha`) filled with sugar, followed by `dAnam` of the same._
+_Worship Surya Bhagavan in a vessel (कुम्भ) filled with sugar, followed by दानम् of the same._
 
 ```
 शर्करासप्तमी चैव वाजिमेधफलप्रदा।

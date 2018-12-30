@@ -1,7 +1,7 @@
 ## upAGga-lalitA-vratam
 उपाङ्ग-ललिता-व्रतम् is observed on Śukla-Pañcamī tithi of Āśvayuja (lunar) month (sunrise (default)/puurvaviddha (default)).
 
-_Do `pUjA` of Lalita Devi._
+_Do पूजा of Lalita Devi._
 
 ---
 ## lalitA-paJcamI

@@ -1,7 +1,7 @@
 ## dazaharA/gaGgAvataraNam/dazapApaharA dazamI
 दशहरा/गङ्गावतरणम्/दशपापहरा दशमी is observed on Śukla-Daśamī tithi of Jyaiṣṭha (lunar) month (sunrise (default)/puurvaviddha (default)).
 
-_Avataranam of Ganga Devi. Bathe in any river and offer arghyam — destroys 10 types of sins (`dazaharA`)._
+_Avataranam of Ganga Devi. Bathe in any river and offer arghyam — destroys 10 types of sins (दशहरा)._
 
 ```
 दशम्यां शुक्लपक्षे तु ज्येष्ठे मासे कुजे दिने।

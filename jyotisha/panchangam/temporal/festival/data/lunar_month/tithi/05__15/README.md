@@ -59,6 +59,6 @@ _Rakshabandhanam_
 ## sarpa-baliH
 सर्प-बलिः is observed on Paurṇamāsī tithi of Śravaṇa (lunar) month (sunrise (default)/puurvaviddha (default)).
 
-_Offer `bali` to serpents on (from) this day, in the night after `sthAlIpAka`._
+_Offer बलि to serpents on (from) this day, in the night after स्थालीपाक._
 
 ---

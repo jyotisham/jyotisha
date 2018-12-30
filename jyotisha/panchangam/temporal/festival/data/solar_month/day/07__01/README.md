@@ -11,7 +11,7 @@ _Perform danam of rice/wheat/grains and cow ghee/curd etc._
 ## tulA-kAvErI-snAna-ArambhaH
 तुला-कावेरी-स्नान-आरम्भः is observed on day 1 of Tulā (solar) month (sunrise (default)/puurvaviddha (default)).
 
-_Perform `snAnam` in Kaveri during this month._
+_Perform स्नानम् in Kaveri during this month._
 
 ```
 षट्षष्टिकोटितीर्थानि द्विसप्तभुवनेषु च।

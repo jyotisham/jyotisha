@@ -1,7 +1,7 @@
 ## brahmANI-pUjA
 ब्रह्माणी-पूजा is observed on Śukla-Navamī tithi of Jyaiṣṭha (lunar) month (sunrise (default)/puurvaviddha (default)).
 
-_`brahmANI` is one of the seven `mAtRkA`s_
+_ब्रह्माणी is one of the seven मातृकाs_
 
 ---
 ## zukla-dEvI-pUjA
