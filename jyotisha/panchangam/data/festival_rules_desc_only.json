@@ -331,9 +331,141 @@
     },
     {
         "description": {
-            "en": "Special vrata day for Ganesha. Fast during the day and pray to Ganesha after moonrise, as follows:"
+            "en": "Special vrata day for Ganesha. In this month, Ganesha is worshipped as `lambOdara-mahAgaNapati`. Fast during the day and pray to Ganesha after moonrise, as follows:"
         },
-        "id": "saGkaTahara-caturthI-vratam",
+        "id": "lambOdara-mahAgaNapati saGkaTahara-caturthI-vratam",
+        "jsonClass": "HinduCalendarEventOld",
+        "shlokas": [
+            "gaNAdhipastvaM dEvEza caturthyAM pUjitO mayA.\nkaSTAn mAM mOcayEzAna sarvamiSTaM ca dEhi mE.."
+        ],
+        "tags": "monthly-vratams,sankatahara-chaturthi-vratam-days"
+    },
+    {
+        "description": {
+            "en": "Special vrata day for Ganesha. In this month, Ganesha is worshipped as `dvijapriya-mahAgaNapati`. Fast during the day and pray to Ganesha after moonrise, as follows:"
+        },
+        "id": "dvijapriya-mahAgaNapati saGkaTahara-caturthI-vratam",
+        "jsonClass": "HinduCalendarEventOld",
+        "shlokas": [
+            "gaNAdhipastvaM dEvEza caturthyAM pUjitO mayA.\nkaSTAn mAM mOcayEzAna sarvamiSTaM ca dEhi mE.."
+        ],
+        "tags": "monthly-vratams,sankatahara-chaturthi-vratam-days"
+    },
+    {
+        "description": {
+            "en": "Special vrata day for Ganesha. In this month, Ganesha is worshipped as `bhAlacandra-mahAgaNapati`. Fast during the day and pray to Ganesha after moonrise, as follows:"
+        },
+        "id": "bhAlacandra-mahAgaNapati saGkaTahara-caturthI-vratam",
+        "jsonClass": "HinduCalendarEventOld",
+        "shlokas": [
+            "gaNAdhipastvaM dEvEza caturthyAM pUjitO mayA.\nkaSTAn mAM mOcayEzAna sarvamiSTaM ca dEhi mE.."
+        ],
+        "tags": "monthly-vratams,sankatahara-chaturthi-vratam-days"
+    },
+    {
+        "description": {
+            "en": "Special vrata day for Ganesha. In this month, Ganesha is worshipped as `vikaTa-mahAgaNapati`. Fast during the day and pray to Ganesha after moonrise, as follows:"
+        },
+        "id": "vikaTa-mahAgaNapati saGkaTahara-caturthI-vratam",
+        "jsonClass": "HinduCalendarEventOld",
+        "shlokas": [
+            "gaNAdhipastvaM dEvEza caturthyAM pUjitO mayA.\nkaSTAn mAM mOcayEzAna sarvamiSTaM ca dEhi mE.."
+        ],
+        "tags": "monthly-vratams,sankatahara-chaturthi-vratam-days"
+    },
+    {
+        "description": {
+            "en": "Special vrata day for Ganesha. In this month, Ganesha is worshipped as `Ekadanta-mahAgaNapati`. Fast during the day and pray to Ganesha after moonrise, as follows:"
+        },
+        "id": "Ekadanta-mahAgaNapati saGkaTahara-caturthI-vratam",
+        "jsonClass": "HinduCalendarEventOld",
+        "shlokas": [
+            "gaNAdhipastvaM dEvEza caturthyAM pUjitO mayA.\nkaSTAn mAM mOcayEzAna sarvamiSTaM ca dEhi mE.."
+        ],
+        "tags": "monthly-vratams,sankatahara-chaturthi-vratam-days"
+    },
+    {
+        "description": {
+            "en": "Special vrata day for Ganesha. In this month, Ganesha is worshipped as `kRSNapiGgala-mahAgaNapati`. Fast during the day and pray to Ganesha after moonrise, as follows:"
+        },
+        "id": "kRSNapiGgala-mahAgaNapati saGkaTahara-caturthI-vratam",
+        "jsonClass": "HinduCalendarEventOld",
+        "shlokas": [
+            "gaNAdhipastvaM dEvEza caturthyAM pUjitO mayA.\nkaSTAn mAM mOcayEzAna sarvamiSTaM ca dEhi mE.."
+        ],
+        "tags": "monthly-vratams,sankatahara-chaturthi-vratam-days"
+    },
+    {
+        "description": {
+            "en": "Special vrata day for Ganesha. In this month, Ganesha is worshipped as `gajAnana-mahAgaNapati`. Fast during the day and pray to Ganesha after moonrise, as follows:"
+        },
+        "id": "gajAnana-mahAgaNapati saGkaTahara-caturthI-vratam",
+        "jsonClass": "HinduCalendarEventOld",
+        "shlokas": [
+            "gaNAdhipastvaM dEvEza caturthyAM pUjitO mayA.\nkaSTAn mAM mOcayEzAna sarvamiSTaM ca dEhi mE.."
+        ],
+        "tags": "monthly-vratams,sankatahara-chaturthi-vratam-days"
+    },
+    {
+        "description": {
+            "en": "Special vrata day for Ganesha. In this month, Ganesha is worshipped as `hEramba-mahAgaNapati`. Fast during the day and pray to Ganesha after moonrise, as follows:"
+        },
+        "id": "hEramba-mahAgaNapati mahAsaGkaTahara-caturthI-vratam",
+        "jsonClass": "HinduCalendarEventOld",
+        "shlokas": [
+            "gaNAdhipastvaM dEvEza caturthyAM pUjitO mayA.\nkaSTAn mAM mOcayEzAna sarvamiSTaM ca dEhi mE.."
+        ],
+        "tags": "monthly-vratams,sankatahara-chaturthi-vratam-days"
+    },
+    {
+        "description": {
+            "en": "Special vrata day for Ganesha. In this month, Ganesha is worshipped as `vighnarAja-mahAgaNapati`. Fast during the day and pray to Ganesha after moonrise, as follows:"
+        },
+        "id": "vighnarAja-mahAgaNapati saGkaTahara-caturthI-vratam",
+        "jsonClass": "HinduCalendarEventOld",
+        "shlokas": [
+            "gaNAdhipastvaM dEvEza caturthyAM pUjitO mayA.\nkaSTAn mAM mOcayEzAna sarvamiSTaM ca dEhi mE.."
+        ],
+        "tags": "monthly-vratams,sankatahara-chaturthi-vratam-days"
+    },
+    {
+        "description": {
+            "en": "Special vrata day for Ganesha. In this month, Ganesha is worshipped as `vakratuNDa-mahAgaNapati`. Fast during the day and pray to Ganesha after moonrise, as follows:"
+        },
+        "id": "vakratuNDa-mahAgaNapati saGkaTahara-caturthI-vratam",
+        "jsonClass": "HinduCalendarEventOld",
+        "shlokas": [
+            "gaNAdhipastvaM dEvEza caturthyAM pUjitO mayA.\nkaSTAn mAM mOcayEzAna sarvamiSTaM ca dEhi mE.."
+        ],
+        "tags": "monthly-vratams,sankatahara-chaturthi-vratam-days"
+    },
+    {
+        "description": {
+            "en": "Special vrata day for Ganesha. In this month, Ganesha is worshipped as `gaNAdhipa-mahAgaNapati`. Fast during the day and pray to Ganesha after moonrise, as follows:"
+        },
+        "id": "gaNAdhipa-mahAgaNapati saGkaTahara-caturthI-vratam",
+        "jsonClass": "HinduCalendarEventOld",
+        "shlokas": [
+            "gaNAdhipastvaM dEvEza caturthyAM pUjitO mayA.\nkaSTAn mAM mOcayEzAna sarvamiSTaM ca dEhi mE.."
+        ],
+        "tags": "monthly-vratams,sankatahara-chaturthi-vratam-days"
+    },
+    {
+        "description": {
+            "en": "Special vrata day for Ganesha. In this month, Ganesha is worshipped as `Akhuratha-mahAgaNapati`. Fast during the day and pray to Ganesha after moonrise, as follows:"
+        },
+        "id": "Akhuratha-mahAgaNapati saGkaTahara-caturthI-vratam",
+        "jsonClass": "HinduCalendarEventOld",
+        "shlokas": [
+            "gaNAdhipastvaM dEvEza caturthyAM pUjitO mayA.\nkaSTAn mAM mOcayEzAna sarvamiSTaM ca dEhi mE.."
+        ],
+        "tags": "monthly-vratams,sankatahara-chaturthi-vratam-days"
+    },
+    {
+        "description": {
+            "en": "Special vrata day for Ganesha. In this month, Ganesha is worshipped as `vibhuvana-mahAgaNapati`. Fast during the day and pray to Ganesha after moonrise, as follows:"
+        },
+        "id": "vibhuvana-mahAgaNapati saGkaTahara-caturthI-vratam",
         "jsonClass": "HinduCalendarEventOld",
         "shlokas": [
             "gaNAdhipastvaM dEvEza caturthyAM pUjitO mayA.\nkaSTAn mAM mOcayEzAna sarvamiSTaM ca dEhi mE.."
