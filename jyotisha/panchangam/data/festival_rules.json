@@ -683,7 +683,7 @@
             "Vaidikasri"
         ],
         "shlokas": [
-            "balaM rUpaM yazO dharmaM jJAnamAyuH sukhaM dhRtim.\nArOgyaM paramApnOti samyak snAnEna mAnavaH .."
+            "balaM rUpaM yazO dharmaM jJAnamAyuH sukhaM dhRtim.\nArOgyaM paramApnOti samyak snAnEna mAnavaH.."
         ],
         "tags": "special-snanam"
     },
@@ -1342,7 +1342,7 @@
         "month_number": 5,
         "month_type": "lunar_month",
         "shlokas": [
-            "saGkarSaNAravindAkSa kariSyE'haM dadhivratam. dvitIyE mAsi dEvEza nirvighnaM kuru mE prabhO.."
+            "saGkarSaNAravindAkSa kariSyE'haM dadhivratam.\ndvitIyE mAsi dEvEza nirvighnaM kuru mE prabhO.."
         ],
         "tags": "vratam-start,special-period-start"
     },
@@ -1384,7 +1384,7 @@
         "month_number": 7,
         "month_type": "lunar_month",
         "shlokas": [
-            "zrIpradyumna namastubhyaM mAsamArabhya yatkRtam. iSTadO bhava sarvEza gRhItvA tu payOvratam.. idaM vrataM mayA dEva kRtaM prItyai tava prabhO. nyUnaM sampUrNatAM yAtu tvatprasAdajjanArdana.."
+            "zrIpradyumna namastubhyaM mAsamArabhya yatkRtam.\niSTadO bhava sarvEza gRhItvA tu payOvratam..\nidaM vrataM mayA dEva kRtaM prItyai tava prabhO.\nnyUnaM sampUrNatAM yAtu tvatprasAdajjanArdana.."
         ],
         "tags": "vratam-end,special-period-end"
     },
@@ -1408,7 +1408,7 @@
         "month_number": 8,
         "month_type": "lunar_month",
         "shlokas": [
-            "aniruddha namastubhyaM dvidalAkhyavratEna ca. matkRtEnAzvinE mAsE prItyarthaM phaladO bhava..\nidaM vrataM mayA dEva kRtaM prItyai tava prabhO.\nnyUnaM sampUrNatAM yAtu tvatprasAdajjanArdana.."
+            "aniruddha namastubhyaM dvidalAkhyavratEna ca.\nmatkRtEnAzvinE mAsE prItyarthaM phaladO bhava..\nidaM vrataM mayA dEva kRtaM prItyai tava prabhO.\nnyUnaM sampUrNatAM yAtu tvatprasAdajjanArdana.."
         ],
         "tags": "vratam-end,special-period-end"
     },
@@ -1435,7 +1435,7 @@
         "month_number": 4,
         "month_type": "lunar_month",
         "shlokas": [
-            "acaturvadanO brahmA dvibAhuraparO hariH. aphAlalOcanO zambhurbhagavAn bAdArAyaNaH.."
+            "acaturvadanO brahmA dvibAhuraparO hariH.\naphAlalOcanO zambhurbhagavAn bAdArAyaNaH.."
         ],
         "tags": "purnima-days,special-pujas,common-festivals"
     },
@@ -1514,7 +1514,7 @@
         "month_number": 4,
         "month_type": "lunar_month",
         "shlokas": [
-            "lakSmyA viyujyatE dEva na kadAcit yatO bhavAn .\ntathA kalatrasambandhO dEva mA mE viyujyatAm.."
+            "lakSmyA viyujyatE dEva na kadAcit yatO bhavAn.\ntathA kalatrasambandhO dEva mA mE viyujyatAm.."
         ],
         "tags": "special-vratams"
     },
@@ -1553,7 +1553,7 @@
         "month_number": 5,
         "month_type": "lunar_month",
         "shlokas": [
-            "apasarpa sarpa bhadraM tE dUraM gaccha mahAyazAH .\njanamEjayasya yajJAntE astIkavacanaM smaran .. "
+            "apasarpa sarpa bhadraM tE dUraM gaccha mahAyazAH.\njanamEjayasya yajJAntE astIkavacanaM smaran.."
         ],
         "tags": "special-pujas,purana-events"
     },
@@ -2555,7 +2555,7 @@
         "month_number": 6,
         "month_type": "lunar_month",
         "shlokas": [
-            "bharturagrE mRtA nArI sahadAhEna vA mRtA .\ntasyAH sthAnE niyuJjIta vipraiH saha suvAsinIm.."
+            "bharturagrE mRtA nArI sahadAhEna vA mRtA.\ntasyAH sthAnE niyuJjIta vipraiH saha suvAsinIm.."
         ],
         "tags": "special-pujas",
         "titles": "avidhavA-navamI"
@@ -2603,7 +2603,7 @@
         "month_type": "lunar_month",
         "priority": "puurvaviddha",
         "shlokas": [
-            "vRkSArOhENa lOhAdyairvidyujjala-viSAgnibhiH.\n nakhi daMSTri vipannA yE tESAM zastA caturdazI.."
+            "vRkSArOhENa lOhAdyairvidyujjala-viSAgnibhiH.\nnakhi daMSTri vipannA yE tESAM zastA caturdazI.."
         ],
         "tags": "less-common-festivals"
     },
@@ -3203,7 +3203,7 @@
             "en": "Avoid cow's milk, ghee, curd and buttermilk on this day. Give grass to cows and pray to them."
         },
         "shlokas": [
-            "gOkSIraM gOghRtaM caiva dadhi takraM ca varjayEt.\n\n surabhi tvaM jaganmAtardEvi viSNupadE sthitA.\n sarvadEvamayE grAsaM mayA dattamidaM grasa..\n\n sarvadEvamayE dEvi sarvEdEvaizca satkRtA.\n mAtarmamA'bhilASitaM saphalaM kuru nandini..\n "
+            "gOkSIraM gOghRtaM caiva dadhi takraM ca varjayEt.\n\nsurabhi tvaM jaganmAtardEvi viSNupadE sthitA.\nsarvadEvamayE grAsaM mayA dattamidaM grasa..\n\nsarvadEvamayE dEvi sarvEdEvaizca satkRtA.\nmAtarmamA'bhilASitaM saphalaM kuru nandini..\n"
         ],
         "tags": "special-vratams,less-common-festivals",
         "titles": "vizoka-dvAdazI\nekhaNDa-dvAdazI\npadmanAbha-dvAdazI"
@@ -3437,7 +3437,7 @@
             "en": "Perform `pUjA` of cow with calf, and offer `ta:agattikIrai` and grass/water, and perform 16 `pradakSiNam`."
         },
         "shlokas": [
-            "kArtikE  yA'STamI  zuklA  jJEyA  gOpASTamI  budhai.\n tatra  kuryAdgavAM  pUjAM  gOgrAsaM  gOpradakSiNam.."
+            "kArtikE  yA'STamI  zuklA  jJEyA  gOpASTamI  budhai.\ntatra  kuryAdgavAM  pUjAM  gOgrAsaM  gOpradakSiNam.."
         ],
         "kaala": "madhyaahna",
         "month_number": 8,
@@ -3522,7 +3522,7 @@
             "Vaidikasri Nov 2017"
         ],
         "shlokas": [
-            "vandE'haM  maGgaLAtmAnaM  bhAsvantaM  vEdavigraham.\n yAjJavalkyaM  munizrESThaM  jISNuM  hariharaprabham..\n jitEndriyaM  jitakrOdhaM  sadA  dhyAnaparAyaNam.\n AnandanilayaM  vandE  yOgAnandamunIzvaram..\n "
+            "vandE'haM  maGgaLAtmAnaM  bhAsvantaM  vEdavigraham.\nyAjJavalkyaM  munizrESThaM  jISNuM  hariharaprabham..\njitEndriyaM  jitakrOdhaM  sadA  dhyAnaparAyaNam.\nAnandanilayaM  vandE  yOgAnandamunIzvaram..\n"
         ],
         "month_type": "lunar_month",
         "tags": "mahapurusha-events"
@@ -3639,7 +3639,7 @@
         "month_type": "lunar_month",
         "priority": "puurvaviddha",
         "shlokas": [
-            "Adau brahmA madhyE viSNurantE dEvaH sadAzivaH.\nmUrtitrayasvarUpAya dattAtrEya namO'stu tE.. "
+            "Adau brahmA madhyE viSNurantE dEvaH sadAzivaH.\nmUrtitrayasvarUpAya dattAtrEya namO'stu tE.."
         ],
         "tags": "other-avatarams"
     },
@@ -3679,7 +3679,7 @@
         "month_number": 6,
         "month_type": "lunar_month",
         "shlokas": [
-            "vivEkinaM mahAprAjJaM dhairyaudAryakSamAnidhim.\nsadA'bhinavapUrvaM taM vidyAtIrthaguruM bhajE .."
+            "vivEkinaM mahAprAjJaM dhairyaudAryakSamAnidhim.\nsadA'bhinavapUrvaM taM vidyAtIrthaguruM bhajE.."
         ],
         "tags": "mahapurusha-events,sringeri-aradhana-days"
     },
@@ -3703,7 +3703,7 @@
         "month_number": 7,
         "month_type": "lunar_month",
         "shlokas": [
-            "vivEkinaM mahAprAjJaM dhairyaudAryakSamAnidhim.\nsadA'bhinavapUrvaM taM vidyAtIrthaguruM bhajE .."
+            "vivEkinaM mahAprAjJaM dhairyaudAryakSamAnidhim.\nsadA'bhinavapUrvaM taM vidyAtIrthaguruM bhajE.."
         ],
         "tags": "mahapurusha-events"
     },
@@ -4829,7 +4829,7 @@
         "month_number": 9,
         "month_type": "lunar_month",
         "shlokas": [
-            "mArgazIrSE'malE pakSE SaSThyAM vArEM'zumAlinaH .\nzatatArAgatE candrE liGgaM syAddRSTigOcaram."
+            "mArgazIrSE'malE pakSE SaSThyAM vArEM'zumAlinaH.\nzatatArAgatE candrE liGgaM syAddRSTigOcaram."
         ],
         "tags": "special-pujas"
     },
@@ -5085,7 +5085,7 @@
             "Vaidikasri Feb 2016"
         ],
         "shlokas": [
-            "mAghazuklacaturthyAM tu kundapuSpaiH sadAzivam.\nsampUjya yO hi naktA''zI samprApnOti zriyaM naraH .."
+            "mAghazuklacaturthyAM tu kundapuSpaiH sadAzivam.\nsampUjya yO hi naktA''zI samprApnOti zriyaM naraH.."
         ],
         "tags": "special-pujas"
     },
@@ -5583,7 +5583,7 @@
         "month_type": "lunar_month",
         "priority": "puurvaviddha",
         "shlokas": [
-            "athavA  mUlanakSatrE  samArabhya  prapUjayEt.\n tatrApyazaktO  viprEndrO  navamyAM  tu  prapUjayEt..\n nA'dhyApayEnna  ca  likhEnnA'dhIyIta  kadAcana.\n pustakE  sthApitE  dEvIM  vidyAkAmO  dvijOttamaH.."
+            "athavA  mUlanakSatrE  samArabhya  prapUjayEt.\ntatrApyazaktO  viprEndrO  navamyAM  tu  prapUjayEt..\nnA'dhyApayEnna  ca  likhEnnA'dhIyIta  kadAcana.\npustakE  sthApitE  dEvIM  vidyAkAmO  dvijOttamaH.."
         ],
         "tags": "common-festivals"
     },
@@ -5942,7 +5942,7 @@
         "month_number": 9,
         "month_type": "solar_month",
         "shlokas": [
-            "kRpAsamudram sumukhaM trinEtraM sadAzivaM rudramanantarUpam.\njaTAdharaM pArvativAmabhAgaM cidambarEzaM hRdi bhAvayAmi .."
+            "kRpAsamudram sumukhaM trinEtraM sadAzivaM rudramanantarUpam.\njaTAdharaM pArvativAmabhAgaM cidambarEzaM hRdi bhAvayAmi.."
         ],
         "tags": "tamilnadu-temple-festivals,common-festivals"
     },
@@ -7389,7 +7389,7 @@
             "Vaidikasri June 2017"
         ],
         "shlokas": [
-            "mAdhavE mESagE bhAnau murArE madhusUdana.\nprAtaH snAnEna mE nAtha phaladO bhava pApahan .."
+            "mAdhavE mESagE bhAnau murArE madhusUdana.\nprAtaH snAnEna mE nAtha phaladO bhava pApahan.."
         ],
         "tags": "special-snanam"
     },
@@ -7930,7 +7930,7 @@
         "month_number": 7,
         "month_type": "solar_month",
         "shlokas": [
-            "SaTSaSTikOTitIrthAni dvisaptabhuvanESu ca.\n kEzavasyA''jJayA yAnti tulAmAsE marudvRdham.."
+            "SaTSaSTikOTitIrthAni dvisaptabhuvanESu ca.\nkEzavasyA''jJayA yAnti tulAmAsE marudvRdham.."
         ],
         "tags": "tamilnadu-temple-festivals"
     },

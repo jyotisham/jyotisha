@@ -12,8 +12,8 @@ _
 _Naga Panchami; SarpaPooja (manasaDevi); Vishnu's boon to AdiSesha that humans will worship on this day_
 
 ```
-अपसर्प सर्प भद्रं ते दूरं गच्छ महायशाः ।
-जनमेजयस्य यज्ञान्ते अस्तीकवचनं स्मरन् ॥
+अपसर्प सर्प भद्रं ते दूरं गच्छ महायशाः।
+जनमेजयस्य यज्ञान्ते अस्तीकवचनं स्मरन्॥
 ```
 
 ---

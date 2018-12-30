@@ -51,7 +51,7 @@
         "id": "SaSThIdEvI-SaSThI-vratam",
         "jsonClass": "HinduCalendarEventOld",
         "shlokas": [
-            "yO'syAM pazyati gAGgEyaM dakSiNApathavAsinam .\nbrahmahatyAdi pApaistu mucyatE nAtra saMzayaH.."
+            "yO'syAM pazyati gAGgEyaM dakSiNApathavAsinam.\nbrahmahatyAdi pApaistu mucyatE nAtra saMzayaH.."
         ],
         "tags": "monthly-vratams,shashthi-vratam-days"
     },
@@ -324,7 +324,7 @@
         "id": "zayana-EkAdazI",
         "jsonClass": "HinduCalendarEventOld",
         "shlokas": [
-            "vAsudEva jagadyOnE prAptEyaM dvAdazI tava.\nbhujaGgazayanE'bdhau ca sukhaM svapihi mAdhava..\niyaM tu dvAdazI dEva zayanArthaM vinirmita .\nasyAM suptE jagannAthE jagatsuptaM bhavEdidam..\nvibuddhE tvayi buddhyEta sarvamEtaccarAcaram.."
+            "vAsudEva jagadyOnE prAptEyaM dvAdazI tava.\nbhujaGgazayanE'bdhau ca sukhaM svapihi mAdhava..\niyaM tu dvAdazI dEva zayanArthaM vinirmita.\nasyAM suptE jagannAthE jagatsuptaM bhavEdidam..\nvibuddhE tvayi buddhyEta sarvamEtaccarAcaram.."
         ],
         "tags": "monthly-vratams,ekadashi-vratam-days",
         "titles": "padmA ekAdazI\ndevazayanI ekAdazI"

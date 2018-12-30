@@ -38,7 +38,7 @@ _Perform snana four ghatikas before sunrise (during अरुणोदयम्,
 
 ```
 बलं रूपं यशो धर्मं ज्ञानमायुः सुखं धृतिम्।
-आरोग्यं परमाप्नोति सम्यक् स्नानेन मानवः ॥
+आरोग्यं परमाप्नोति सम्यक् स्नानेन मानवः॥
 ```
 ### References
 * Satyavrata Smriti

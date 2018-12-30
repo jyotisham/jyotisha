@@ -15,7 +15,7 @@ _उपवासम् with only water and next day पारण gives आरो
 _Skanda darshanam is recommended, removes sins including brahmahatya._
 
 ```
-योऽस्यां पश्यति गाङ्गेयं दक्षिणापथवासिनम् ।
+योऽस्यां पश्यति गाङ्गेयं दक्षिणापथवासिनम्।
 ब्रह्महत्यादि पापैस्तु मुच्यते नात्र संशयः॥
 ```
 
