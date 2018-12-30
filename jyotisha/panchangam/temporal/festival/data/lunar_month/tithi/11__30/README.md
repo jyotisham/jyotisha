@@ -1,12 +1,3 @@
-## darbha-saGgrahaH 1
-दर्भ-सङ्ग्रहः is observed on Amāvāsyā tithi of Māgha (lunar) month (madhyaahna/puurvaviddha).
-
-
-### References
-* Vaidikasri Feb 2010
-
-
----
 ## purandaradAsa-ArAdhanA
 पुरन्दरदास-आराधना is observed on Amāvāsyā tithi of Māgha (lunar) month (sunrise (default)/puurvaviddha (default)).
 

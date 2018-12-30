@@ -13,6 +13,12 @@ _Puja of Gauri-Maheshwara on Vrishabham, esp. for girls desirous of getting marr
 
 
 ---
+## vipattAra-gaurI-vratam
+विपत्तार-गौरी-व्रतम् is observed on Śukla-Tṛtīyā tithi of Bhādrapada (lunar) month (sunrise (default)/puurvaviddha (default)).
+
+
+
+---
 ## manvAdi (raivata)
 मन्वादि (रैवत) is observed on Śukla-Tṛtīyā tithi of Bhādrapada (lunar) month (sunrise (default)/puurvaviddha (default)).
 
