@@ -162,7 +162,7 @@ class HinduCalendarEventOld(common.JsonObject):
                            custom_transliteration.tr(", ".join(self.shlokas), script, False) + '\n\n'
     base_url = 'https://github.com/sanskrit-coders/jyotisha/tree/master/jyotisha/panchangam/temporal/festival/data'
     if hasattr(self, "angam_type"):
-      url =  "%(base_dir)s/%(month_type)s/%(angam_type)s/%(month_number)02d__%(angam_number)02d#%(id)s" % dict(
+      url =  "%(base_dir)s/%(month_type)s/%(angam_type)s/%(month_number)02d/%(angam_number)02d#%(id)s" % dict(
           base_dir=base_url,
           month_type=self.month_type,
           angam_type=self.angam_type,
@@ -311,7 +311,7 @@ class HinduCalendarEvent(common.JsonObject):
           id=self.id.replace('/','__').strip('{}')
         )
       else:
-        return "%(base_dir)s/%(month_type)s/%(angam_type)s/%(month_number)02d__%(angam_number)02d/%(id)s__info.json" % dict(
+        return "%(base_dir)s/%(month_type)s/%(angam_type)s/%(month_number)02d/%(angam_number)02d/%(id)s__info.json" % dict(
           base_dir=base_dir,
           month_type=self.timing.month_type,
           angam_type=self.timing.angam_type,
