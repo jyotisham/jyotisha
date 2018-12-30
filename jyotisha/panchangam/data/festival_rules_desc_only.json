@@ -1,5 +1,8 @@
 [
     {
+        "description": {
+            "en": "Monthly Shashthi vratam for Lord Subrahmanya."
+        },
         "id": "SaSThI-vratam",
         "jsonClass": "HinduCalendarEventOld",
         "tags": "monthly-vratams,shashthi-vratam-days"
@@ -27,7 +30,7 @@
         "tags": "monthly-vratams,shashthi-vratam-days"
     },
     {
-        "id": "skanda-SaSThI-vratam",
+        "id": "skandaSaSThI-vratam",
         "description": {
             "en": "One of the most important vratams, alongside Krishnajanmashtami, Shivaratri etc. Must observe fast. Offer Arghyam facing South, using Curd, Akshata, Water and Flowers (`dadhnAkSatOdakaiH puSpaiH`) chanting the shloka below."
         },
@@ -105,7 +108,7 @@
         "description": {
             "en": "`amAvasyA` on a Monday is as sacred as a solar eclipse. Particularly good for performing pradakshinam of Pippala tree."
         },
-        "id": "sOma-amAvasyA",
+        "id": "sOmavatI amAvasyA",
         "jsonClass": "HinduCalendarEventOld",
         "shlokas": [
             "amAvasyA tu sOmEna saptamI bhAnunA saha.\ncaturthI bhUmiputrENa sOmaputrENa cASTamI.\n catasrastithayastvEtAH sUryagrahaNasannibhAH.. mUlatO brahmarUpAya madhyatO viSNurUpiNE.\nagrataH zivarUpAya vRkSarAjAya tE namaH..\nakSispandaM bhujaspandaM duHsvapnaM durvicintanam .\n zatrUnAm ca samutpannam azvattha zamayasva mE .."
@@ -157,7 +160,12 @@
         "tags": "amavasya-days"
     },
     {
-        "id": "candra-grahaNam",
+        "id": "candra-grahaNam~(rAhugrasta)",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "rare-days"
+    },
+    {
+        "id": "candra-grahaNam~(kEtugrasta)",
         "jsonClass": "HinduCalendarEventOld",
         "tags": "rare-days"
     },
@@ -212,7 +220,7 @@
     },
     {
         "description": {
-            "en": "Celebrated especially in Kerala/Guruvayur."
+            "en": "Celebrated especially in Kerala/Guruvayur. Commemorates the incident of Kuchela visiting Lord Krishna. Offer naivedyam of `pRthukam`."
         },
         "id": "kucEla-dinam",
         "jsonClass": "HinduCalendarEventOld",
@@ -225,11 +233,6 @@
     },
     {
         "id": "mahAdhanurvyatIpAtam",
-        "jsonClass": "HinduCalendarEventOld",
-        "tags": "common-festivals"
-    },
-    {
-        "id": "mahAsaGkaTahara-caturthI-vratam",
         "jsonClass": "HinduCalendarEventOld",
         "tags": "common-festivals"
     },
