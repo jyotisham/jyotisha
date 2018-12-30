@@ -35,7 +35,7 @@
     },
     {
         "description": {
-            "en": "`upavAsam` with only water and next day `pAraNa` gives `Arogyam`"
+            "en": "`upavAsam` with only water and next day `pAraNa` gives `ArOgyam`"
         },
         "id": "kumAra-SaSThI-vratam",
         "jsonClass": "HinduCalendarEventOld",
@@ -61,8 +61,8 @@
             "en": "One of the most important vratams, alongside Krishnajanmashtami, Shivaratri etc. Must observe fast. Offer Arghyam facing South, using Curd, Akshata, Water and Flowers (`dadhnAkSatOdakaiH puSpaiH`) chanting the shloka below."
         },
         "shlokas": [
-            "asyAM hi zrIH samAyuktaH yasmAt skandO.bhavat pura. tasmATSaSThyAM na bhuJjIta prApnuyAdbhArgavI sadA..",
-            "saptarSidAraja skanda sEnAdhipa mahAbala. rudrOmAgnija SaDvaktra gaGgAgarbha namO'stu tE.."
+            "asyAM hi zrIH samAyuktaH yasmAt skandO.bhavat pura.\ntasmATSaSThyAM na bhuJjIta prApnuyAdbhArgavI sadA..\n\n",
+            "saptarSidAraja skanda sEnAdhipa mahAbala.\nrudrOmAgnija SaDvaktra gaGgAgarbha namO'stu tE.."
         ],
         "jsonClass": "HinduCalendarEventOld",
         "tags": "monthly-vratams,shashthi-vratam-days"
@@ -80,12 +80,12 @@
     },
     {
         "description": {
-            "en": "`saptamI tithi` on a Sunday is as sacred as a solar eclipse. Particularly good for worshipping Surya. "
+            "en": "`saptamI tithi` on a Sunday is as sacred as a solar eclipse. Particularly good for worshipping Surya."
         },
         "id": "bhAnusaptamI",
         "jsonClass": "HinduCalendarEventOld",
         "shlokas": [
-            "amAvasyA tu sOmEna saptamI bhAnunA saha.\ncaturthI bhUmiputrENa sOmaputrENa cASTamI.\n catasrastithayastvEtAH sUryagrahaNasannibhAH.."
+            "amAvasyA tu sOmEna saptamI bhAnunA saha.\ncaturthI bhUmiputrENa sOmaputrENa cASTamI.\ncatasrastithayastvEtAH sUryagrahaNasannibhAH.."
         ],
         "tags": "rare-days"
     },
@@ -107,7 +107,7 @@
         "id": "bhAnusaptamI★",
         "jsonClass": "HinduCalendarEventOld",
         "shlokas": [
-            "amAvasyA tu sOmEna saptamI bhAnunA saha.\ncaturthI bhUmiputrENa sOmaputrENa cASTamI.\n catasrastithayastvEtAH sUryagrahaNasannibhAH.."
+            "amAvasyA tu sOmEna saptamI bhAnunA saha.\ncaturthI bhUmiputrENa sOmaputrENa cASTamI.\ncatasrastithayastvEtAH sUryagrahaNasannibhAH.."
         ],
         "tags": "rare-days"
     },
@@ -118,7 +118,7 @@
         "id": "budhASTamI",
         "jsonClass": "HinduCalendarEventOld",
         "shlokas": [
-            "amAvasyA tu sOmEna saptamI bhAnunA saha.\ncaturthI bhUmiputrENa sOmaputrENa cASTamI.\n catasrastithayastvEtAH sUryagrahaNasannibhAH.."
+            "amAvasyA tu sOmEna saptamI bhAnunA saha.\ncaturthI bhUmiputrENa sOmaputrENa cASTamI.\ncatasrastithayastvEtAH sUryagrahaNasannibhAH.."
         ],
         "tags": "rare-days"
     },
@@ -129,7 +129,7 @@
         "id": "aGgAraka-caturthI",
         "jsonClass": "HinduCalendarEventOld",
         "shlokas": [
-            "amAvasyA tu sOmEna saptamI bhAnunA saha.\ncaturthI bhUmiputrENa sOmaputrENa cASTamI.\n catasrastithayastvEtAH sUryagrahaNasannibhAH.."
+            "amAvasyA tu sOmEna saptamI bhAnunA saha.\ncaturthI bhUmiputrENa sOmaputrENa cASTamI.\ncatasrastithayastvEtAH sUryagrahaNasannibhAH.."
         ],
         "tags": "rare-days"
     },
@@ -148,7 +148,7 @@
         "id": "sOmavatI amAvasyA",
         "jsonClass": "HinduCalendarEventOld",
         "shlokas": [
-            "amAvasyA tu sOmEna saptamI bhAnunA saha.\ncaturthI bhUmiputrENa sOmaputrENa cASTamI.\n catasrastithayastvEtAH sUryagrahaNasannibhAH.. mUlatO brahmarUpAya madhyatO viSNurUpiNE.\nagrataH zivarUpAya vRkSarAjAya tE namaH..\nakSispandaM bhujaspandaM duHsvapnaM durvicintanam .\n zatrUnAm ca samutpannam azvattha zamayasva mE .."
+            "amAvasyA tu sOmEna saptamI bhAnunA saha.\ncaturthI bhUmiputrENa sOmaputrENa cASTamI.\ncatasrastithayastvEtAH sUryagrahaNasannibhAH..\n\nmUlatO brahmarUpAya madhyatO viSNurUpiNE.\nagrataH zivarUpAya vRkSarAjAya tE namaH..\nakSispandaM bhujaspandaM duHsvapnaM durvicintanam.\nzatrUnAm ca samutpannam azvattha zamayasva mE .."
         ],
         "tags": "rare-days,amavasya-days"
     },
@@ -332,7 +332,7 @@
         "id": "parivartinI-EkAdazI",
         "jsonClass": "HinduCalendarEventOld",
         "shlokas": [
-            "vAsudEva jagannAtha prAptEyaM dvAdazI tava.\n pArzvEna parivartasva sukhaM svapihi mAdhava.."
+            "vAsudEva jagannAtha prAptEyaM dvAdazI tava.\npArzvEna parivartasva sukhaM svapihi mAdhava.."
         ],
         "tags": "monthly-vratams,ekadashi-vratam-days"
     },
@@ -368,7 +368,7 @@
     },
     {
         "description": {
-            "en": "Special vrata day for Ganesha. In this month, Ganesha is worshipped as `lambOdara-mahAgaNapati`. Fast during the day and pray to Ganesha after moonrise, as follows:"
+            "en": "Special vrata day for Ganesha. In this month, Ganesha is worshipped as `lambOdara-mahAgaNapatiH`. Fast during the day and pray to Ganesha after moonrise, as follows:"
         },
         "id": "lambOdara-mahAgaNapati saGkaTahara-caturthI-vratam",
         "jsonClass": "HinduCalendarEventOld",
@@ -379,7 +379,7 @@
     },
     {
         "description": {
-            "en": "Special vrata day for Ganesha. In this month, Ganesha is worshipped as `dvijapriya-mahAgaNapati`. Fast during the day and pray to Ganesha after moonrise, as follows:"
+            "en": "Special vrata day for Ganesha. In this month, Ganesha is worshipped as `dvijapriya-mahAgaNapatiH`. Fast during the day and pray to Ganesha after moonrise, as follows:"
         },
         "id": "dvijapriya-mahAgaNapati saGkaTahara-caturthI-vratam",
         "jsonClass": "HinduCalendarEventOld",
@@ -390,7 +390,7 @@
     },
     {
         "description": {
-            "en": "Special vrata day for Ganesha. In this month, Ganesha is worshipped as `bhAlacandra-mahAgaNapati`. Fast during the day and pray to Ganesha after moonrise, as follows:"
+            "en": "Special vrata day for Ganesha. In this month, Ganesha is worshipped as `bhAlacandra-mahAgaNapatiH`. Fast during the day and pray to Ganesha after moonrise, as follows:"
         },
         "id": "bhAlacandra-mahAgaNapati saGkaTahara-caturthI-vratam",
         "jsonClass": "HinduCalendarEventOld",
@@ -401,7 +401,7 @@
     },
     {
         "description": {
-            "en": "Special vrata day for Ganesha. In this month, Ganesha is worshipped as `vikaTa-mahAgaNapati`. Fast during the day and pray to Ganesha after moonrise, as follows:"
+            "en": "Special vrata day for Ganesha. In this month, Ganesha is worshipped as `vikaTa-mahAgaNapatiH`. Fast during the day and pray to Ganesha after moonrise, as follows:"
         },
         "id": "vikaTa-mahAgaNapati saGkaTahara-caturthI-vratam",
         "jsonClass": "HinduCalendarEventOld",
@@ -412,7 +412,7 @@
     },
     {
         "description": {
-            "en": "Special vrata day for Ganesha. In this month, Ganesha is worshipped as `Ekadanta-mahAgaNapati`. Fast during the day and pray to Ganesha after moonrise, as follows:"
+            "en": "Special vrata day for Ganesha. In this month, Ganesha is worshipped as `Ekadanta-mahAgaNapatiH`. Fast during the day and pray to Ganesha after moonrise, as follows:"
         },
         "id": "Ekadanta-mahAgaNapati saGkaTahara-caturthI-vratam",
         "jsonClass": "HinduCalendarEventOld",
@@ -423,7 +423,7 @@
     },
     {
         "description": {
-            "en": "Special vrata day for Ganesha. In this month, Ganesha is worshipped as `kRSNapiGgala-mahAgaNapati`. Fast during the day and pray to Ganesha after moonrise, as follows:"
+            "en": "Special vrata day for Ganesha. In this month, Ganesha is worshipped as `kRSNapiGgala-mahAgaNapatiH`. Fast during the day and pray to Ganesha after moonrise, as follows:"
         },
         "id": "kRSNapiGgala-mahAgaNapati saGkaTahara-caturthI-vratam",
         "jsonClass": "HinduCalendarEventOld",
@@ -434,7 +434,7 @@
     },
     {
         "description": {
-            "en": "Special vrata day for Ganesha. In this month, Ganesha is worshipped as `gajAnana-mahAgaNapati`. Fast during the day and pray to Ganesha after moonrise, as follows:"
+            "en": "Special vrata day for Ganesha. In this month, Ganesha is worshipped as `gajAnana-mahAgaNapatiH`. Fast during the day and pray to Ganesha after moonrise, as follows:"
         },
         "id": "gajAnana-mahAgaNapati saGkaTahara-caturthI-vratam",
         "jsonClass": "HinduCalendarEventOld",
@@ -445,7 +445,7 @@
     },
     {
         "description": {
-            "en": "Special vrata day for Ganesha. In this month, Ganesha is worshipped as `hEramba-mahAgaNapati`. Fast during the day and pray to Ganesha after moonrise, as follows:"
+            "en": "Special vrata day for Ganesha. In this month, Ganesha is worshipped as `hEramba-mahAgaNapatiH`. Fast during the day and pray to Ganesha after moonrise, as follows:"
         },
         "id": "hEramba-mahAgaNapati mahAsaGkaTahara-caturthI-vratam",
         "jsonClass": "HinduCalendarEventOld",
@@ -456,7 +456,7 @@
     },
     {
         "description": {
-            "en": "Special vrata day for Ganesha. In this month, Ganesha is worshipped as `vighnarAja-mahAgaNapati`. Fast during the day and pray to Ganesha after moonrise, as follows:"
+            "en": "Special vrata day for Ganesha. In this month, Ganesha is worshipped as `vighnarAja-mahAgaNapatiH`. Fast during the day and pray to Ganesha after moonrise, as follows:"
         },
         "id": "vighnarAja-mahAgaNapati saGkaTahara-caturthI-vratam",
         "jsonClass": "HinduCalendarEventOld",
@@ -467,7 +467,7 @@
     },
     {
         "description": {
-            "en": "Special vrata day for Ganesha. In this month, Ganesha is worshipped as `vakratuNDa-mahAgaNapati`. Fast during the day and pray to Ganesha after moonrise, as follows:"
+            "en": "Special vrata day for Ganesha. In this month, Ganesha is worshipped as `vakratuNDa-mahAgaNapatiH`. Fast during the day and pray to Ganesha after moonrise, as follows:"
         },
         "id": "vakratuNDa-mahAgaNapati saGkaTahara-caturthI-vratam",
         "jsonClass": "HinduCalendarEventOld",
@@ -478,7 +478,7 @@
     },
     {
         "description": {
-            "en": "Special vrata day for Ganesha. In this month, Ganesha is worshipped as `gaNAdhipa-mahAgaNapati`. Fast during the day and pray to Ganesha after moonrise, as follows:"
+            "en": "Special vrata day for Ganesha. In this month, Ganesha is worshipped as `gaNAdhipa-mahAgaNapatiH`. Fast during the day and pray to Ganesha after moonrise, as follows:"
         },
         "id": "gaNAdhipa-mahAgaNapati saGkaTahara-caturthI-vratam",
         "jsonClass": "HinduCalendarEventOld",
@@ -489,7 +489,7 @@
     },
     {
         "description": {
-            "en": "Special vrata day for Ganesha. In this month, Ganesha is worshipped as `Akhuratha-mahAgaNapati`. Fast during the day and pray to Ganesha after moonrise, as follows:"
+            "en": "Special vrata day for Ganesha. In this month, Ganesha is worshipped as `Akhuratha-mahAgaNapatiH`. Fast during the day and pray to Ganesha after moonrise, as follows:"
         },
         "id": "Akhuratha-mahAgaNapati saGkaTahara-caturthI-vratam",
         "jsonClass": "HinduCalendarEventOld",
@@ -500,7 +500,7 @@
     },
     {
         "description": {
-            "en": "Special vrata day for Ganesha. In this month, Ganesha is worshipped as `vibhuvana-mahAgaNapati`. Fast during the day and pray to Ganesha after moonrise, as follows:"
+            "en": "Special vrata day for Ganesha. In this month, Ganesha is worshipped as `vibhuvana-mahAgaNapatiH`. Fast during the day and pray to Ganesha after moonrise, as follows:"
         },
         "id": "vibhuvana-mahAgaNapati saGkaTahara-caturthI-vratam",
         "jsonClass": "HinduCalendarEventOld",
@@ -566,7 +566,7 @@
         "id": "vijayA~bhAnusaptamI",
         "jsonClass": "HinduCalendarEventOld",
         "shlokas": [
-            "amAvasyA tu sOmEna saptamI bhAnunA saha.\ncaturthI bhUmiputrENa sOmaputrENa cASTamI.\n catasrastithayastvEtAH sUryagrahaNasannibhAH.."
+            "amAvasyA tu sOmEna saptamI bhAnunA saha.\ncaturthI bhUmiputrENa sOmaputrENa cASTamI.\ncatasrastithayastvEtAH sUryagrahaNasannibhAH.."
         ],
         "tags": "rare-days"
     },
@@ -577,7 +577,7 @@
         "id": "vijayA~bhAnusaptamI★",
         "jsonClass": "HinduCalendarEventOld",
         "shlokas": [
-            "amAvasyA tu sOmEna saptamI bhAnunA saha.\ncaturthI bhUmiputrENa sOmaputrENa cASTamI.\n catasrastithayastvEtAH sUryagrahaNasannibhAH.."
+            "amAvasyA tu sOmEna saptamI bhAnunA saha.\ncaturthI bhUmiputrENa sOmaputrENa cASTamI.\ncatasrastithayastvEtAH sUryagrahaNasannibhAH.."
         ],
         "tags": "rare-days"
     },

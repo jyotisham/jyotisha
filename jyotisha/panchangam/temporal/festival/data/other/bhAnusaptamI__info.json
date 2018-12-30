@@ -1,11 +1,11 @@
 {
   "description": {
-    "en": "`saptamI tithi` on a Sunday is as sacred as a solar eclipse. Particularly good for worshipping Surya. "
+    "en": "`saptamI tithi` on a Sunday is as sacred as a solar eclipse. Particularly good for worshipping Surya."
   },
   "id": "bhAnusaptamI",
   "jsonClass": "HinduCalendarEvent",
   "shlokas": [
-    "amAvasyA tu sOmEna saptamI bhAnunA saha.\ncaturthI bhUmiputrENa sOmaputrENa cASTamI.\n catasrastithayastvEtAH sUryagrahaNasannibhAH.."
+    "amAvasyA tu sOmEna saptamI bhAnunA saha.\ncaturthI bhUmiputrENa sOmaputrENa cASTamI.\ncatasrastithayastvEtAH sUryagrahaNasannibhAH.."
   ],
   "tags": [
     "rare-days"

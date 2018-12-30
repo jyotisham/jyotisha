@@ -18,7 +18,7 @@ _तुलाराशिं गते सूर्ये पूर्वस्�
 
 ---
 ## kumAra-SaSThI-vratam
-_उपवासम् with only water and next day पारण gives आरॊग्यम्_
+_उपवासम् with only water and next day पारण gives आरोग्यम्_
 
 ```
 आषाढ शुक्लषष्ठी तु तिथिः कौमारिला स्मृता।
@@ -39,7 +39,11 @@ _Skanda darshanam is recommended, removes sins including brahmahatya._
 _One of the most important vratams, alongside Krishnajanmashtami, Shivaratri etc. Must observe fast. Offer Arghyam facing South, using Curd, Akshata, Water and Flowers (दध्नाक्षतोदकैः पुष्पैः) chanting the shloka below._
 
 ```
-अस्यां हि श्रीः समायुक्तः यस्मात् स्कन्दो।भवत् पुर। तस्माट्षष्ठ्यां न भुञ्जीत प्राप्नुयाद्भार्गवी सदा॥, सप्तर्षिदारज स्कन्द सेनाधिप महाबल। रुद्रोमाग्निज षड्वक्त्र गङ्गागर्भ नमोऽस्तु ते॥
+अस्यां हि श्रीः समायुक्तः यस्मात् स्कन्दो।भवत् पुर।
+तस्माट्षष्ठ्यां न भुञ्जीत प्राप्नुयाद्भार्गवी सदा॥
+
+, सप्तर्षिदारज स्कन्द सेनाधिप महाबल।
+रुद्रोमाग्निज षड्वक्त्र गङ्गागर्भ नमोऽस्तु ते॥
 ```
 
 ---
@@ -53,12 +57,12 @@ _Also known as चम्पा/चम्पक षष्ठी_
 
 ---
 ## bhAnusaptamI
-_सप्तमी तिथि on a Sunday is as sacred as a solar eclipse. Particularly good for worshipping Surya. _
+_सप्तमी तिथि on a Sunday is as sacred as a solar eclipse. Particularly good for worshipping Surya._
 
 ```
 अमावस्या तु सोमेन सप्तमी भानुना सह।
 चतुर्थी भूमिपुत्रेण सोमपुत्रेण चाष्टमी।
- चतस्रस्तिथयस्त्वेताः सूर्यग्रहणसन्निभाः॥
+चतस्रस्तिथयस्त्वेताः सूर्यग्रहणसन्निभाः॥
 ```
 
 ---
@@ -78,7 +82,7 @@ _सप्तमी तिथि on a Sunday is as sacred as a solar eclipse. Pa
 ```
 अमावस्या तु सोमेन सप्तमी भानुना सह।
 चतुर्थी भूमिपुत्रेण सोमपुत्रेण चाष्टमी।
- चतस्रस्तिथयस्त्वेताः सूर्यग्रहणसन्निभाः॥
+चतस्रस्तिथयस्त्वेताः सूर्यग्रहणसन्निभाः॥
 ```
 
 ---
@@ -88,7 +92,7 @@ _अष्टमी तिथि on a Wednesday is as sacred as a solar eclipse.
 ```
 अमावस्या तु सोमेन सप्तमी भानुना सह।
 चतुर्थी भूमिपुत्रेण सोमपुत्रेण चाष्टमी।
- चतस्रस्तिथयस्त्वेताः सूर्यग्रहणसन्निभाः॥
+चतस्रस्तिथयस्त्वेताः सूर्यग्रहणसन्निभाः॥
 ```
 
 ---
@@ -98,7 +102,7 @@ _चतुर्थी तिथि on a Tuesday is as sacred as a solar eclipse
 ```
 अमावस्या तु सोमेन सप्तमी भानुना सह।
 चतुर्थी भूमिपुत्रेण सोमपुत्रेण चाष्टमी।
- चतस्रस्तिथयस्त्वेताः सूर्यग्रहणसन्निभाः॥
+चतस्रस्तिथयस्त्वेताः सूर्यग्रहणसन्निभाः॥
 ```
 
 ---
@@ -112,10 +116,12 @@ _अमावस्या on a Monday is as sacred as a solar eclipse. Particula
 ```
 अमावस्या तु सोमेन सप्तमी भानुना सह।
 चतुर्थी भूमिपुत्रेण सोमपुत्रेण चाष्टमी।
- चतस्रस्तिथयस्त्वेताः सूर्यग्रहणसन्निभाः॥ मूलतो ब्रह्मरूपाय मध्यतो विष्णुरूपिणे।
+चतस्रस्तिथयस्त्वेताः सूर्यग्रहणसन्निभाः॥
+
+मूलतो ब्रह्मरूपाय मध्यतो विष्णुरूपिणे।
 अग्रतः शिवरूपाय वृक्षराजाय ते नमः॥
-अक्षिस्पन्दं भुजस्पन्दं दुःस्वप्नं दुर्विचिन्तनम् ।
- शत्रूनाम् च समुत्पन्नम् अश्वत्थ शमयस्व मे ॥
+अक्षिस्पन्दं भुजस्पन्दं दुःस्वप्नं दुर्विचिन्तनम्।
+शत्रूनाम् च समुत्पन्नम् अश्वत्थ शमयस्व मे ॥
 ```
 
 ---
@@ -257,7 +263,7 @@ _Side ways turn inside sleep of Vishnu midway after Shayana Ekadashi._
 
 ```
 वासुदेव जगन्नाथ प्राप्तेयं द्वादशी तव।
- पार्श्वेन परिवर्तस्व सुखं स्वपिहि माधव॥
+पार्श्वेन परिवर्तस्व सुखं स्वपिहि माधव॥
 ```
 
 ---
@@ -286,7 +292,7 @@ _Side ways turn inside sleep of Vishnu midway after Shayana Ekadashi._
 
 ---
 ## lambOdara-mahAgaNapati saGkaTahara-caturthI-vratam
-_Special vrata day for Ganesha. In this month, Ganesha is worshipped as लम्बोदर-महागणपति. Fast during the day and pray to Ganesha after moonrise, as follows:_
+_Special vrata day for Ganesha. In this month, Ganesha is worshipped as लम्बोदर-महागणपतिः. Fast during the day and pray to Ganesha after moonrise, as follows:_
 
 ```
 गणाधिपस्त्वं देवेश चतुर्थ्यां पूजितो मया।
@@ -295,7 +301,7 @@ _Special vrata day for Ganesha. In this month, Ganesha is worshipped as लम�
 
 ---
 ## dvijapriya-mahAgaNapati saGkaTahara-caturthI-vratam
-_Special vrata day for Ganesha. In this month, Ganesha is worshipped as द्विजप्रिय-महागणपति. Fast during the day and pray to Ganesha after moonrise, as follows:_
+_Special vrata day for Ganesha. In this month, Ganesha is worshipped as द्विजप्रिय-महागणपतिः. Fast during the day and pray to Ganesha after moonrise, as follows:_
 
 ```
 गणाधिपस्त्वं देवेश चतुर्थ्यां पूजितो मया।
@@ -304,7 +310,7 @@ _Special vrata day for Ganesha. In this month, Ganesha is worshipped as द्�
 
 ---
 ## bhAlacandra-mahAgaNapati saGkaTahara-caturthI-vratam
-_Special vrata day for Ganesha. In this month, Ganesha is worshipped as भालचन्द्र-महागणपति. Fast during the day and pray to Ganesha after moonrise, as follows:_
+_Special vrata day for Ganesha. In this month, Ganesha is worshipped as भालचन्द्र-महागणपतिः. Fast during the day and pray to Ganesha after moonrise, as follows:_
 
 ```
 गणाधिपस्त्वं देवेश चतुर्थ्यां पूजितो मया।
@@ -313,7 +319,7 @@ _Special vrata day for Ganesha. In this month, Ganesha is worshipped as भा�
 
 ---
 ## vikaTa-mahAgaNapati saGkaTahara-caturthI-vratam
-_Special vrata day for Ganesha. In this month, Ganesha is worshipped as विकट-महागणपति. Fast during the day and pray to Ganesha after moonrise, as follows:_
+_Special vrata day for Ganesha. In this month, Ganesha is worshipped as विकट-महागणपतिः. Fast during the day and pray to Ganesha after moonrise, as follows:_
 
 ```
 गणाधिपस्त्वं देवेश चतुर्थ्यां पूजितो मया।
@@ -322,7 +328,7 @@ _Special vrata day for Ganesha. In this month, Ganesha is worshipped as वि�
 
 ---
 ## Ekadanta-mahAgaNapati saGkaTahara-caturthI-vratam
-_Special vrata day for Ganesha. In this month, Ganesha is worshipped as एकदन्त-महागणपति. Fast during the day and pray to Ganesha after moonrise, as follows:_
+_Special vrata day for Ganesha. In this month, Ganesha is worshipped as एकदन्त-महागणपतिः. Fast during the day and pray to Ganesha after moonrise, as follows:_
 
 ```
 गणाधिपस्त्वं देवेश चतुर्थ्यां पूजितो मया।
@@ -331,7 +337,7 @@ _Special vrata day for Ganesha. In this month, Ganesha is worshipped as एक�
 
 ---
 ## kRSNapiGgala-mahAgaNapati saGkaTahara-caturthI-vratam
-_Special vrata day for Ganesha. In this month, Ganesha is worshipped as कृष्णपिङ्गल-महागणपति. Fast during the day and pray to Ganesha after moonrise, as follows:_
+_Special vrata day for Ganesha. In this month, Ganesha is worshipped as कृष्णपिङ्गल-महागणपतिः. Fast during the day and pray to Ganesha after moonrise, as follows:_
 
 ```
 गणाधिपस्त्वं देवेश चतुर्थ्यां पूजितो मया।
@@ -340,7 +346,7 @@ _Special vrata day for Ganesha. In this month, Ganesha is worshipped as कृ�
 
 ---
 ## gajAnana-mahAgaNapati saGkaTahara-caturthI-vratam
-_Special vrata day for Ganesha. In this month, Ganesha is worshipped as गजानन-महागणपति. Fast during the day and pray to Ganesha after moonrise, as follows:_
+_Special vrata day for Ganesha. In this month, Ganesha is worshipped as गजानन-महागणपतिः. Fast during the day and pray to Ganesha after moonrise, as follows:_
 
 ```
 गणाधिपस्त्वं देवेश चतुर्थ्यां पूजितो मया।
@@ -349,7 +355,7 @@ _Special vrata day for Ganesha. In this month, Ganesha is worshipped as गज�
 
 ---
 ## hEramba-mahAgaNapati mahAsaGkaTahara-caturthI-vratam
-_Special vrata day for Ganesha. In this month, Ganesha is worshipped as हेरम्ब-महागणपति. Fast during the day and pray to Ganesha after moonrise, as follows:_
+_Special vrata day for Ganesha. In this month, Ganesha is worshipped as हेरम्ब-महागणपतिः. Fast during the day and pray to Ganesha after moonrise, as follows:_
 
 ```
 गणाधिपस्त्वं देवेश चतुर्थ्यां पूजितो मया।
@@ -358,7 +364,7 @@ _Special vrata day for Ganesha. In this month, Ganesha is worshipped as हे�
 
 ---
 ## vighnarAja-mahAgaNapati saGkaTahara-caturthI-vratam
-_Special vrata day for Ganesha. In this month, Ganesha is worshipped as विघ्नराज-महागणपति. Fast during the day and pray to Ganesha after moonrise, as follows:_
+_Special vrata day for Ganesha. In this month, Ganesha is worshipped as विघ्नराज-महागणपतिः. Fast during the day and pray to Ganesha after moonrise, as follows:_
 
 ```
 गणाधिपस्त्वं देवेश चतुर्थ्यां पूजितो मया।
@@ -367,7 +373,7 @@ _Special vrata day for Ganesha. In this month, Ganesha is worshipped as वि�
 
 ---
 ## vakratuNDa-mahAgaNapati saGkaTahara-caturthI-vratam
-_Special vrata day for Ganesha. In this month, Ganesha is worshipped as वक्रतुण्ड-महागणपति. Fast during the day and pray to Ganesha after moonrise, as follows:_
+_Special vrata day for Ganesha. In this month, Ganesha is worshipped as वक्रतुण्ड-महागणपतिः. Fast during the day and pray to Ganesha after moonrise, as follows:_
 
 ```
 गणाधिपस्त्वं देवेश चतुर्थ्यां पूजितो मया।
@@ -376,7 +382,7 @@ _Special vrata day for Ganesha. In this month, Ganesha is worshipped as वक�
 
 ---
 ## gaNAdhipa-mahAgaNapati saGkaTahara-caturthI-vratam
-_Special vrata day for Ganesha. In this month, Ganesha is worshipped as गणाधिप-महागणपति. Fast during the day and pray to Ganesha after moonrise, as follows:_
+_Special vrata day for Ganesha. In this month, Ganesha is worshipped as गणाधिप-महागणपतिः. Fast during the day and pray to Ganesha after moonrise, as follows:_
 
 ```
 गणाधिपस्त्वं देवेश चतुर्थ्यां पूजितो मया।
@@ -385,7 +391,7 @@ _Special vrata day for Ganesha. In this month, Ganesha is worshipped as गण�
 
 ---
 ## Akhuratha-mahAgaNapati saGkaTahara-caturthI-vratam
-_Special vrata day for Ganesha. In this month, Ganesha is worshipped as आखुरथ-महागणपति. Fast during the day and pray to Ganesha after moonrise, as follows:_
+_Special vrata day for Ganesha. In this month, Ganesha is worshipped as आखुरथ-महागणपतिः. Fast during the day and pray to Ganesha after moonrise, as follows:_
 
 ```
 गणाधिपस्त्वं देवेश चतुर्थ्यां पूजितो मया।
@@ -394,7 +400,7 @@ _Special vrata day for Ganesha. In this month, Ganesha is worshipped as आख�
 
 ---
 ## vibhuvana-mahAgaNapati saGkaTahara-caturthI-vratam
-_Special vrata day for Ganesha. In this month, Ganesha is worshipped as विभुवन-महागणपति. Fast during the day and pray to Ganesha after moonrise, as follows:_
+_Special vrata day for Ganesha. In this month, Ganesha is worshipped as विभुवन-महागणपतिः. Fast during the day and pray to Ganesha after moonrise, as follows:_
 
 ```
 गणाधिपस्त्वं देवेश चतुर्थ्यां पूजितो मया।
@@ -448,7 +454,7 @@ _सप्तमी तिथि on a Sunday is as sacred as a solar eclipse. Pa
 ```
 अमावस्या तु सोमेन सप्तमी भानुना सह।
 चतुर्थी भूमिपुत्रेण सोमपुत्रेण चाष्टमी।
- चतस्रस्तिथयस्त्वेताः सूर्यग्रहणसन्निभाः॥
+चतस्रस्तिथयस्त्वेताः सूर्यग्रहणसन्निभाः॥
 ```
 
 ---
@@ -458,7 +464,7 @@ _सप्तमी तिथि on a Sunday is as sacred as a solar eclipse. Pa
 ```
 अमावस्या तु सोमेन सप्तमी भानुना सह।
 चतुर्थी भूमिपुत्रेण सोमपुत्रेण चाष्टमी।
- चतस्रस्तिथयस्त्वेताः सूर्यग्रहणसन्निभाः॥
+चतस्रस्तिथयस्त्वेताः सूर्यग्रहणसन्निभाः॥
 ```
 
 ---
