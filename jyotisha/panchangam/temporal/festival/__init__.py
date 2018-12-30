@@ -8,6 +8,7 @@ import sys
 from jyotisha import custom_transliteration
 from jyotisha.panchangam.spatio_temporal import CODE_ROOT
 from sanskrit_data.schema import common
+from indic_transliteration import xsanscript as sanscript
 
 logging.basicConfig(
   level=logging.DEBUG,
@@ -146,6 +147,16 @@ class HinduCalendarEventOld(common.JsonObject):
     if hasattr(self, "description"):
       # description_string = json.dumps(self.description)
       description_string = self.description["en"]
+      pieces = description_string.split('`')
+      if len(pieces) > 1:
+        if len(pieces) % 2 == 1:
+          # We much have matching backquotes, the contents of which can be neatly transliterated
+          for i, piece in enumerate(pieces):
+            if (i % 2) == 1:
+              pieces[i] = custom_transliteration.tr(piece, script, False)
+          description_string = ''.join(pieces)
+        else:
+          logging.warning('Unmatched backquotes in description string: %s' % description_string)
     if hasattr(self, "shlokas"):
       description_string = description_string + '\n\n' + \
                            custom_transliteration.tr(", ".join(self.shlokas), script, False) + '\n\n'
