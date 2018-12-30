@@ -1,0 +1,13 @@
+{
+  "description": {
+    "en": "Dvadashi tithi, combined with Pushya nakshatram."
+  },
+  "id": "jayA~mahAdvAdazI",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "rare-days"
+  ],
+  "timing": {
+    "jsonClass": "HinduCalendarEventTiming"
+  }
+}

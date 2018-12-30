@@ -1,0 +1,13 @@
+{
+  "description": {
+    "en": "Dvadashi tithi, combined with Rohini nakshatram."
+  },
+  "id": "pApanAzinI~mahAdvAdazI",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "rare-days"
+  ],
+  "timing": {
+    "jsonClass": "HinduCalendarEventTiming"
+  }
+}

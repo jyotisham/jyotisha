@@ -1,0 +1,11 @@
+{
+  "id": "vaikuNTha-EkAdazI",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "monthly-vratams",
+    "ekadashi-vratam-days"
+  ],
+  "timing": {
+    "jsonClass": "HinduCalendarEventTiming"
+  }
+}

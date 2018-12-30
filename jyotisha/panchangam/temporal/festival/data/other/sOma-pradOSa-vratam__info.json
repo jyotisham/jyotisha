@@ -1,0 +1,11 @@
+{
+  "id": "sOma-pradOSa-vratam",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "pradosha-vratam-days",
+    "monthly-vratams"
+  ],
+  "timing": {
+    "jsonClass": "HinduCalendarEventTiming"
+  }
+}

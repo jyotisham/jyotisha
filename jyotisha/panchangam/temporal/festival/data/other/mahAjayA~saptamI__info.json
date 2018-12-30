@@ -1,0 +1,13 @@
+{
+  "description": {
+    "en": "Saptami tithi, combined with a sankranti."
+  },
+  "id": "mahAjayA~saptamI",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "rare-days"
+  ],
+  "timing": {
+    "jsonClass": "HinduCalendarEventTiming"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "ta__ADi~veLLikkizhamai",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "tamil-month-vratams"
+  ],
+  "timing": {
+    "jsonClass": "HinduCalendarEventTiming"
+  }
+}

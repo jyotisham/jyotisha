@@ -1,0 +1,10 @@
+{
+  "id": "ta__kapAlI teppOtsavam",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "tamilnadu-temple-festivals"
+  ],
+  "timing": {
+    "jsonClass": "HinduCalendarEventTiming"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": {
+    "en": "Side ways turn inside sleep of Vishnu midway after Shayana Ekadashi."
+  },
+  "id": "parivartinI-EkAdazI",
+  "jsonClass": "HinduCalendarEvent",
+  "shlokas": [
+    "vAsudEva jagannAtha prAptEyaM dvAdazI tava.\n pArzvEna parivartasva sukhaM svapihi mAdhava.."
+  ],
+  "tags": [
+    "monthly-vratams",
+    "ekadashi-vratam-days"
+  ],
+  "timing": {
+    "jsonClass": "HinduCalendarEventTiming"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "jayA/bhaimI-EkAdazI",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "monthly-vratams",
+    "ekadashi-vratam-days"
+  ],
+  "timing": {
+    "jsonClass": "HinduCalendarEventTiming"
+  },
+  "titles": [
+    "bhaimI-EkAdazI"
+  ]
+}

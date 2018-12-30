@@ -1,0 +1,10 @@
+{
+  "id": "mahAdhanurvyatIpAtam",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "common-festivals"
+  ],
+  "timing": {
+    "jsonClass": "HinduCalendarEventTiming"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "agninakSatra-ArambhaH",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "special-period-start"
+  ],
+  "timing": {
+    "jsonClass": "HinduCalendarEventTiming"
+  }
+}

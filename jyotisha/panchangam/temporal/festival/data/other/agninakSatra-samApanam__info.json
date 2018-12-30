@@ -1,0 +1,10 @@
+{
+  "id": "agninakSatra-samApanam",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "special-period-end"
+  ],
+  "timing": {
+    "jsonClass": "HinduCalendarEventTiming"
+  }
+}

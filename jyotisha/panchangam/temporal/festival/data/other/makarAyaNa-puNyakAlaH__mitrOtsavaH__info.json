@@ -1,0 +1,10 @@
+{
+  "id": "makarAyaNa-puNyakAlaH/mitrOtsavaH",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "common-festivals"
+  ],
+  "timing": {
+    "jsonClass": "HinduCalendarEventTiming"
+  }
+}

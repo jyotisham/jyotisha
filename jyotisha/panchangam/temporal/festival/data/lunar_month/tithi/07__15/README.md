@@ -45,6 +45,12 @@ _Have to play Aksha kreeda only on this day and Ko-jagarti-Vratam (Lakshmi will 
 
 
 ---
+## kumAra-paurNamAsI/mahA-azvini
+कुमार-पौर्णमासी/महा-अश्विनि is observed on Paurṇamāsī tithi of Āśvayuja (lunar) month (sunrise (default)/puurvaviddha (default)).
+
+
+
+---
 ## kuntI (pArvatI)-vratam
 कुन्ती (पार्वती)-व्रतम् is observed on Paurṇamāsī tithi of Āśvayuja (lunar) month (sunrise (default)/puurvaviddha (default)).
 

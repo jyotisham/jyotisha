@@ -1,0 +1,10 @@
+{
+  "id": "sukhA~aGgAraka-caturthI",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "rare-days"
+  ],
+  "timing": {
+    "jsonClass": "HinduCalendarEventTiming"
+  }
+}

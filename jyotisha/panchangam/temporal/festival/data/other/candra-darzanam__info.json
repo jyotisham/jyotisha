@@ -1,0 +1,16 @@
+{
+  "description": {
+    "en": "Have darshan of Moon today, chanting the following shloka"
+  },
+  "id": "candra-darzanam",
+  "jsonClass": "HinduCalendarEvent",
+  "shlokas": [
+    "zvEtAmbaraH zvEtavibhUSaNazca zvEtadyutirdaNDadharO dvibAhuH.\ncandrO'mRtAtmA varadaH kirITI mayi prasAdaM vidadhAtu dEvaH.."
+  ],
+  "tags": [
+    "chandra-darshanam"
+  ],
+  "timing": {
+    "jsonClass": "HinduCalendarEventTiming"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "description": {
+    "en": "Phalguna Krishna Chaturdashi, combined with Shatabhishak Nakshatram, Saturday and Shubha Yogam."
+  },
+  "id": "mahAmahAvAruNI~trayOdazI",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "rare-days"
+  ],
+  "timing": {
+    "jsonClass": "HinduCalendarEventTiming"
+  }
+}

@@ -16,17 +16,16 @@ logging.basicConfig(
 )
 
 
-def migrate_db(old_db_file):
+def migrate_db(old_db_file, only_descriptions=False):
   old_style_events = HinduCalendarEventOld.read_from_file(old_db_file)
   # TODO: Reset all README files in the folder here?
   for old_style_event in old_style_events:
     event = HinduCalendarEvent.from_old_style_event(old_style_event=old_style_event)
     logging.debug(str(event))
-    event_file_name = event.get_storage_file_name(base_dir=os.path.join(CODE_ROOT, 'panchangam/temporal/festival/data'))
+    event_file_name = event.get_storage_file_name(base_dir=os.path.join(CODE_ROOT, 'panchangam/temporal/festival/data'), only_descriptions=only_descriptions)
     logging.debug(event_file_name)
     event.dump_to_file(filename=event_file_name)
     write_event_README(event, event_file_name)
-
 
 # TODO:
 # Should this be moved to another file?
@@ -107,6 +106,7 @@ def migrate_relative_db():
     event_file_name = event.get_storage_file_name(base_dir=os.path.join(CODE_ROOT, 'panchangam/temporal/festival/data'))
     logging.debug(event_file_name)
     event.dump_to_file(filename=event_file_name)
+    write_event_README(event, event_file_name)
 
 
 def legacy_dict_to_HinduCalendarEventOld_list(old_db_file, new_db_file):
@@ -126,6 +126,7 @@ if __name__ == '__main__':
   # legacy_dict_to_HinduCalendarEventOld_list(os.path.join(CODE_ROOT, 'panchangam/data/legacy/festival_rules_desc_only.json'), os.path.join(CODE_ROOT, 'panchangam/data/festival_rules_desc_only.json'))
   # legacy_dict_to_HinduCalendarEventOld_list(os.path.join(CODE_ROOT, 'panchangam/data/legacy/relative_festival_rules.json'), os.path.join(CODE_ROOT, 'panchangam/data/relative_festival_rules.json'))
   migrate_db(os.path.join(CODE_ROOT, 'panchangam/data/festival_rules.json'))
+  migrate_db(os.path.join(CODE_ROOT, 'panchangam/data/festival_rules_desc_only.json'), only_descriptions=True)
   # migrate_db(os.path.join(CODE_ROOT, 'panchangam/data/kanchi_aradhana_rules.json'))
   migrate_relative_db()
   pass

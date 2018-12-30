@@ -267,23 +267,29 @@ class HinduCalendarEvent(common.JsonObject):
                            custom_transliteration.tr(", ".join(self.shlokas), script, False) + '\n\n'
     return description_string
 
-  def get_storage_file_name(self, base_dir):
+  def get_storage_file_name(self, base_dir, only_descriptions=False):
     if hasattr(self.timing, "anchor_festival_id"):
       return "%(base_dir)s/relative_event/%(anchor_festival_id)s/offset__%(offset)02d/%(id)s__info.json" % dict(
         base_dir=base_dir,
-        anchor_festival_id=self.timing.anchor_festival_id,
+        anchor_festival_id=self.timing.anchor_festival_id.replace('/','__'),
         offset=self.timing.offset,
-        id=self.id
+        id=self.id.replace('/','__')
       )
     else:
-      return "%(base_dir)s/%(month_type)s/%(angam_type)s/%(month_number)02d__%(angam_number)02d/%(id)s__info.json" % dict(
-        base_dir=base_dir,
-        month_type=self.timing.month_type,
-        angam_type=self.timing.angam_type,
-        month_number=self.timing.month_number,
-        angam_number=self.timing.angam_number,
-        id=self.id
-      )
+      if only_descriptions:
+        return "%(base_dir)s/other/%(id)s__info.json" % dict(
+          base_dir=base_dir,
+          id=self.id.replace('/','__')
+        )
+      else:
+        return "%(base_dir)s/%(month_type)s/%(angam_type)s/%(month_number)02d__%(angam_number)02d/%(id)s__info.json" % dict(
+          base_dir=base_dir,
+          month_type=self.timing.month_type,
+          angam_type=self.timing.angam_type,
+          month_number=self.timing.month_number,
+          angam_number=self.timing.angam_number,
+          id=self.id.replace('/','__')
+        )
 
 
 def read_old_festival_rules_dict(file_name):

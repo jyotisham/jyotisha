@@ -1,0 +1,13 @@
+{
+  "description": {
+    "en": "Do puja to Surya/Suryanamaskaram."
+  },
+  "id": "ta__kArttigai~JAyir2r2ukkizhamai",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "month-weekday-festivals"
+  ],
+  "timing": {
+    "jsonClass": "HinduCalendarEventTiming"
+  }
+}

@@ -7,6 +7,12 @@ _
 * As per KalikaPuranam, Naraka was also upraised by Janaka. He was then sent to PraajyotishaPuram._
 
 ---
+## dIpOtsava-caturdazI/yama-tarpaNam
+दीपोत्सव-चतुर्दशी/यम-तर्पणम् is observed on Kṛṣṇa-Caturdaśī tithi of Āśvayuja (lunar) month (sunrise (default)/puurvaviddha (default)).
+
+_Perform Tarpana to Yamadharmaraja (even those with father). जीवत्पिताऽपि कुर्वीत तर्पणं यमभीष्मयोः_
+
+---
 ## prEta-caturdazI
 प्रेत-चतुर्दशी is observed on Kṛṣṇa-Caturdaśī tithi of Āśvayuja (lunar) month (sunrise (default)/puurvaviddha (default)).
 

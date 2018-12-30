@@ -1,0 +1,14 @@
+{
+  "description": {
+    "en": "Do `upavAsam` (at least do not take salt) and pray to Lord Shiva (Vaidyanatha Swami)."
+  },
+  "id": "ta__mAci~cevvAy",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "tamil-month-vratams",
+    "special-vratams"
+  ],
+  "timing": {
+    "jsonClass": "HinduCalendarEventTiming"
+  }
+}

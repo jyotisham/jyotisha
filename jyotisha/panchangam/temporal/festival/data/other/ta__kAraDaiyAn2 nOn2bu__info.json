@@ -1,0 +1,10 @@
+{
+  "id": "ta__kAraDaiyAn2 nOn2bu",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "common-festivals-tamilnadu"
+  ],
+  "timing": {
+    "jsonClass": "HinduCalendarEventTiming"
+  }
+}

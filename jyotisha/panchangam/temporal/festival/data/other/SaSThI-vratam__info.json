@@ -1,0 +1,14 @@
+{
+  "description": {
+    "en": "Monthly Shashthi vratam for Lord Subrahmanya."
+  },
+  "id": "SaSThI-vratam",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "monthly-vratams",
+    "shashthi-vratam-days"
+  ],
+  "timing": {
+    "jsonClass": "HinduCalendarEventTiming"
+  }
+}

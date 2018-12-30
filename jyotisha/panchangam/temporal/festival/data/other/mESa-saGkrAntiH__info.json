@@ -1,0 +1,14 @@
+{
+  "description": {
+    "en": "Tamil New Year."
+  },
+  "id": "mESa-saGkrAntiH",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "sun-sankranti",
+    "common-festivals"
+  ],
+  "timing": {
+    "jsonClass": "HinduCalendarEventTiming"
+  }
+}

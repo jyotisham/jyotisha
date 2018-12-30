@@ -1,0 +1,10 @@
+{
+  "id": "gajacchAyA-yOgam",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "rare-days"
+  ],
+  "timing": {
+    "jsonClass": "HinduCalendarEventTiming"
+  }
+}

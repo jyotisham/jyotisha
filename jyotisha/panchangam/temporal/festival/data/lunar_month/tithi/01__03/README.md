@@ -1,3 +1,12 @@
+## gaurI tRtIyA/saubhAgya-gaurI-vratam
+गौरी तृतीया/सौभाग्य-गौरी-व्रतम् is observed on Śukla-Tṛtīyā tithi of Caitra (lunar) month (sunrise (default)/puurvaviddha (default)).
+
+
+### References
+* Kielhorn (1897)
+
+
+---
 ## AndOlana tRtIyA
 आन्दोलन तृतीया is observed on Śukla-Tṛtīyā tithi of Caitra (lunar) month (ratrimana/puurvaviddha (default)).
 

@@ -1,0 +1,16 @@
+{
+  "description": {
+    "en": "`tulArAziM gatE sUryE pUrvasmin bhRguvAsarE`"
+  },
+  "id": "bhRguvAra-subrahmaNya-vratam",
+  "jsonClass": "HinduCalendarEvent",
+  "references_primary": [
+    "Skanda Puranam"
+  ],
+  "tags": [
+    "special-vratams"
+  ],
+  "timing": {
+    "jsonClass": "HinduCalendarEventTiming"
+  }
+}

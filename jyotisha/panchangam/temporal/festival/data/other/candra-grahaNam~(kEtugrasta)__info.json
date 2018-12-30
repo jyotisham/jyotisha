@@ -1,0 +1,10 @@
+{
+  "id": "candra-grahaNam~(kEtugrasta)",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "rare-days"
+  ],
+  "timing": {
+    "jsonClass": "HinduCalendarEventTiming"
+  }
+}

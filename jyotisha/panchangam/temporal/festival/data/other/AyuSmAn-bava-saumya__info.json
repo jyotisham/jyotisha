@@ -1,0 +1,16 @@
+{
+  "description": {
+    "en": "A rare combination of `AyuSmAn yOga, bava karaNa` and `saumyavAsara`. Also a source of the normal blessing 'AyuSmAn bava saumya'!"
+  },
+  "id": "AyuSmAn-bava-saumya",
+  "jsonClass": "HinduCalendarEvent",
+  "references_secondary": [
+    "Maha Periva / Deivattin Kural"
+  ],
+  "tags": [
+    "rare-days"
+  ],
+  "timing": {
+    "jsonClass": "HinduCalendarEventTiming"
+  }
+}

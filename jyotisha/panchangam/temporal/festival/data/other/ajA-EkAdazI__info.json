@@ -1,0 +1,14 @@
+{
+  "description": {
+    "en": "Satya Harishchandra performed this to get back family and kingdom."
+  },
+  "id": "ajA-EkAdazI",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "monthly-vratams",
+    "ekadashi-vratam-days"
+  ],
+  "timing": {
+    "jsonClass": "HinduCalendarEventTiming"
+  }
+}
