@@ -668,7 +668,7 @@
         "angam_number": 15,
         "angam_type": "tithi",
         "description": {
-            "en": "Perform snana four ghatikas before sunrise (during `aruNodayam`, when the Moon is still up, on the full-moon days of `ASADha`, `kArtika`, `mAgha` and `vaizAkha` \u2013 hence the name `A-kA-mA-vai`) bestows strength, beauty, fame, dharma, knowledge, happiness, fortitude and health."
+            "en": "Perform snana four ghatikas before sunrise (during `aruNOdayam`, when the Moon is still up, on the full-moon days of `ASADha`, `kArtika`, `mAgha` and `vaizAkha` \u2013 hence the name `A-kA-mA-vai`) bestows strength, beauty, fame, dharma, knowledge, happiness, fortitude and health."
         },
         "id": "vaizAkha-pUrNimA-snAnam",
         "jsonClass": "HinduCalendarEventOld",
@@ -1207,7 +1207,7 @@
     {
         "angam_number": 9,
         "angam_type": "tithi",
-        "id": "aindrI-durgA-pujA",
+        "id": "aindrI-durgA-pUjA",
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 4,
         "month_type": "lunar_month",
@@ -1486,7 +1486,7 @@
         "angam_number": 15,
         "angam_type": "tithi",
         "description": {
-            "en": "Perform snana four ghatikas before sunrise (during `aruNodayam`, when the Moon is still up, on the full-moon days of `ASADha`, `kArtika`, `mAgha` and `vaizAkha` \u2013 hence the name `A-kA-mA-vai`) bestows strength, beauty, fame, dharma, knowledge, happiness, fortitude and health."
+            "en": "Perform snana four ghatikas before sunrise (during `aruNOdayam`, when the Moon is still up, on the full-moon days of `ASADha`, `kArtika`, `mAgha` and `vaizAkha` \u2013 hence the name `A-kA-mA-vai`) bestows strength, beauty, fame, dharma, knowledge, happiness, fortitude and health."
         },
         "id": "ASADha-pUrNimA-snAnam",
         "jsonClass": "HinduCalendarEventOld",
@@ -2826,7 +2826,7 @@
         "angam_number": 10,
         "angam_type": "tithi",
         "description": {
-            "en": "Perform puja to Shami tree. Arjuna and Pandavas had left their weapons on this tree during `aGYAtavAsa`. Those who are unable to worship the tree must at least chant the following shlokas."
+            "en": "Perform puja to Shami tree. Arjuna and Pandavas had left their weapons on this tree during `ajJAtavAsa`. Those who are unable to worship the tree must at least chant the following shlokas."
         },
         "id": "zamI-pUjA",
         "jsonClass": "HinduCalendarEventOld",
@@ -3302,7 +3302,7 @@
         "angam_number": 29,
         "angam_type": "tithi",
         "description": {
-            "en": "Perform Tarpana to Yamadharmaraja (even those with father). `jIvatpitA'pi kurvIta tarpaNaM yamabhISmayoH`"
+            "en": "Perform Tarpana to Yamadharmaraja (even those with father). `jIvatpitA'pi kurvIta tarpaNaM yamabhISmayOH`"
         },
         "id": "dIpOtsava-caturdazI/yama-tarpaNam",
         "jsonClass": "HinduCalendarEventOld",
@@ -3434,7 +3434,7 @@
         "id": "gOpASTamI",
         "jsonClass": "HinduCalendarEventOld",
         "description": {
-            "en": "Perform `pujA` of cow with calf, and offer `ahattikIrai` and grass/water, and perform 16 pradakshinams."
+            "en": "Perform `pUjA` of cow with calf, and offer `ta:agattikIrai` and grass/water, and perform 16 `pradakSiNam`."
         },
         "shlokas": [
             "kArtikE  yA'STamI  zuklA  jJEyA  gOpASTamI  budhai.\n tatra  kuryAdgavAM  pUjAM  gOgrAsaM  gOpradakSiNam.."
@@ -3613,7 +3613,7 @@
         "angam_number": 15,
         "angam_type": "tithi",
         "description": {
-            "en": "Perform snana four ghatikas before sunrise (during `aruNodayam`, when the Moon is still up, on the full-moon days of `ASADha`, `kArtika`, `mAgha` and `vaizAkha` \u2013 hence the name `A-kA-mA-vai`) bestows strength, beauty, fame, dharma, knowledge, happiness, fortitude and health."
+            "en": "Perform snana four ghatikas before sunrise (during `aruNOdayam`, when the Moon is still up, on the full-moon days of `ASADha`, `kArtika`, `mAgha` and `vaizAkha` \u2013 hence the name `A-kA-mA-vai`) bestows strength, beauty, fame, dharma, knowledge, happiness, fortitude and health."
         },
         "id": "kArtika-pUrNimA-snAnam",
         "jsonClass": "HinduCalendarEventOld",
@@ -5058,7 +5058,7 @@
         "angam_number": 10,
         "angam_type": "tithi",
         "description": {
-            "en": "Samba, the son of Sri Krishna, was cured of leprosy after performing tapas to propitiate Surya Bhagavan."
+            "en": "`sAmba`, the son of Sri Krishna, was cured of leprosy after performing `tapaH` to propitiate Surya Bhagavan."
         },
         "id": "sAmba-dazamI (sUryapUjA)",
         "jsonClass": "HinduCalendarEventOld",
@@ -5274,7 +5274,7 @@
         "angam_number": 12,
         "angam_type": "tithi",
         "description": {
-            "en": "Mahavishnu created black til by extreme `tapas` on this day; light til deepam and offer `tilAnnam naivedyam`."
+            "en": "Mahavishnu created black til by extreme `tapaH` on this day; light til deepam and offer `tilAnnam naivEdyam`."
         },
         "id": "tilapadma-dvAdazI/tilOtpatti",
         "jsonClass": "HinduCalendarEventOld",
@@ -5313,7 +5313,7 @@
         "angam_number": 15,
         "angam_type": "tithi",
         "description": {
-            "en": "Perform snana four ghatikas before sunrise (during `aruNodayam`, when the Moon is still up, on the full-moon days of `ASADha`, `kArtika`, `mAgha` and `vaizAkha` \u2013 hence the name `A-kA-mA-vai`) bestows strength, beauty, fame, dharma, knowledge, happiness, fortitude and health."
+            "en": "Perform snana four ghatikas before sunrise (during `aruNOdayam`, when the Moon is still up, on the full-moon days of `ASADha`, `kArtika`, `mAgha` and `vaizAkha` \u2013 hence the name `A-kA-mA-vai`) bestows strength, beauty, fame, dharma, knowledge, happiness, fortitude and health."
         },
         "id": "mAgha-pUrNimA-snAnam",
         "jsonClass": "HinduCalendarEventOld",
@@ -5635,7 +5635,7 @@
         "angam_number": 15,
         "angam_type": "tithi",
         "description": {
-            "en": "Perform `homa` with fresh rice from paddy."
+            "en": "Perform `hOma` with fresh rice from paddy."
         },
         "id": "AgrayaNa~hOmaH~1",
         "jsonClass": "HinduCalendarEventOld",
@@ -5652,7 +5652,7 @@
         "angam_number": 30,
         "angam_type": "tithi",
         "description": {
-            "en": "Perform `homa` with fresh rice from paddy."
+            "en": "Perform `hOma` with fresh rice from paddy."
         },
         "id": "AgrayaNa~hOmaH~2",
         "jsonClass": "HinduCalendarEventOld",
@@ -5669,7 +5669,7 @@
         "angam_number": 15,
         "angam_type": "tithi",
         "description": {
-            "en": "Perform `homa` with fresh rice from paddy."
+            "en": "Perform `hOma` with fresh rice from paddy."
         },
         "id": "AgrayaNa~hOmaH~3",
         "jsonClass": "HinduCalendarEventOld",
@@ -5686,7 +5686,7 @@
         "angam_number": 30,
         "angam_type": "tithi",
         "description": {
-            "en": "Perform `homa` with fresh rice from paddy."
+            "en": "Perform `hOma` with fresh rice from paddy."
         },
         "id": "AgrayaNa~hOmaH~4",
         "jsonClass": "HinduCalendarEventOld",
@@ -6155,7 +6155,7 @@
         "angam_number": 27,
         "angam_type": "day",
         "description": {
-            "en": "Offer naivedyam of `gudAnnam` to Vishnu, as mentioned in the Tiruppavai 27"
+            "en": "Offer naivedyam of `guDAnnam` to Vishnu, as mentioned in the Tiruppavai 27"
         },
         "id": "ta:kUDAravallI",
         "jsonClass": "HinduCalendarEventOld",
@@ -6180,7 +6180,7 @@
         "angam_number": 28,
         "angam_type": "day",
         "description": {
-            "en": "Offer naivedyam of `dadhyodanam` to Vishnu, for Tiruppavai 28"
+            "en": "Offer naivedyam of `dadhyOdanam` to Vishnu, for Tiruppavai 28"
         },
         "id": "ta:kar2avaigaL pin2cen2r2u",
         "jsonClass": "HinduCalendarEventOld",
@@ -6460,7 +6460,7 @@
         "angam_number": 10,
         "angam_type": "tithi",
         "description": {
-            "en": "Puja of `AzA devI (pArvatI)`"
+            "en": "Puja of `AzA dEvI (pArvatI)`"
         },
         "id": "AzA~dazamI",
         "jsonClass": "HinduCalendarEventOld",
@@ -7959,7 +7959,7 @@
         "angam_number": 1,
         "angam_type": "day",
         "description": {
-            "en": "Nadha Sharma (`muDavan`, i.e. lame man) and his wife Anavidyambikai came to Mayavaram in order to perform a `tulA snAnam` in Kaveri. However, by the time they arrived, it was the last day of `tulA mAsa` and they could not complete the `snAnam`. They were disappointed yet spent their time doing Puja of the Lord, who appeared in their dreams and asked them to take a bath next morning (1st day of Vrschika) and reap full benefits of the Tula Kaveri Snanam iteself!"
+            "en": "Nadha Sharma (`ta:muDavan2 `, i.e. lame man) and his wife Anavidyambikai came to Mayavaram in order to perform a `tulA snAnam` in Kaveri. However, by the time they arrived, it was the last day of `tulA mAsa` and they could not complete the `snAnam`. They were disappointed yet spent their time doing Puja of the Lord, who appeared in their dreams and asked them to take a bath next morning (1st day of Vrschika) and reap full benefits of the Tula Kaveri Snanam iteself!"
         },
         "id": "ta:muDavan2 muzhukku",
         "jsonClass": "HinduCalendarEventOld",

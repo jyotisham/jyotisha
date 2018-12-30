@@ -9,7 +9,7 @@ Best day for AksharaaBhyaasam_
 ## zamI-pUjA
 शमी-पूजा is observed on Śukla-Daśamī tithi of Āśvayuja (lunar) month (sunrise (default)/puurvaviddha (default)).
 
-_Perform puja to Shami tree. Arjuna and Pandavas had left their weapons on this tree during `aGYAtavAsa`. Those who are unable to worship the tree must at least chant the following shlokas._
+_Perform puja to Shami tree. Arjuna and Pandavas had left their weapons on this tree during अज्ञातवास. Those who are unable to worship the tree must at least chant the following shlokas._
 
 ```
 शमीं शमयते पापं शमी शत्रुविनाशिनि।
@@ -57,7 +57,7 @@ _According to Agni/Padma Puranam_
 ## kUSmANDa-dazamI
 कूष्माण्ड-दशमी is observed on Śukla-Daśamī tithi of Āśvayuja (lunar) month (sunrise (default)/puurvaviddha (default)).
 
-_`kUSmANDa` Danam_
+_कूष्माण्ड Danam_
 
 ---
 ## yuddhadEvatA-ArAdhanA

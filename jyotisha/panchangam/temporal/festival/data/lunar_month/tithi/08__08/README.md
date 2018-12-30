@@ -10,7 +10,7 @@
 ## gOpASTamI
 गोपाष्टमी is observed on Śukla-Aṣṭamī tithi of Kārtika (lunar) month (madhyaahna/puurvaviddha).
 
-_Perform `pujA` of cow with calf, and offer `ahattikIrai` and grass/water, and perform 16 pradakshinams._
+_Perform पूजा of cow with calf, and offer அகத்திகீரை and grass/water, and perform 16 प्रदक्षिणम्._
 
 ```
 कार्तिके  याऽष्टमी  शुक्ला  ज्ञेया  गोपाष्टमी  बुधै।

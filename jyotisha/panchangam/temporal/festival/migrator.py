@@ -80,7 +80,8 @@ def write_event_README(event, event_file_name):
         logging.debug(event_dict)
         if "description" in event_dict:
           # description_string = json.dumps(event_dict.description)
-          description_string = '_' + event_dict["description"]["en"] + '_'
+          # description_string = '_' + event_dict["description"]["en"] + '_'
+          description_string = '_' + event.get_description_string(script=sanscript.DEVANAGARI) + '_'
         if "shlokas" in event_dict:
           description_string = description_string + '\n\n```\n' + \
                                custom_transliteration.tr(", ".join(event_dict["shlokas"]),

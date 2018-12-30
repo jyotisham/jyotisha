@@ -247,6 +247,26 @@ class HinduCalendarEvent(common.JsonObject):
     event.validate_schema()
     return event
 
+  def get_description_string(self, script, includeShloka=False):
+    description_string = ""
+    if hasattr(self, "description"):
+      # description_string = json.dumps(self.description)
+      description_string = self.description["en"]
+      pieces = description_string.split('`')
+      if len(pieces) > 1:
+        if len(pieces) % 2 == 1:
+          # We much have matching backquotes, the contents of which can be neatly transliterated
+          for i, piece in enumerate(pieces):
+            if (i % 2) == 1:
+              pieces[i] = custom_transliteration.tr(piece, script, False)
+          description_string = ''.join(pieces)
+        else:
+          logging.warning('Unmatched backquotes in description string: %s' % description_string)
+    if includeShloka and hasattr(self, "shlokas"):
+      description_string = description_string + '\n\n' + \
+                           custom_transliteration.tr(", ".join(self.shlokas), script, False) + '\n\n'
+    return description_string
+
   def get_storage_file_name(self, base_dir):
     if hasattr(self.timing, "anchor_festival_id"):
       return "%(base_dir)s/relative_event/%(anchor_festival_id)s/offset__%(offset)02d/%(id)s__info.json" % dict(

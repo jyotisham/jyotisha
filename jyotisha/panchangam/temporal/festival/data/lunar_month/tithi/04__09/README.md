@@ -10,8 +10,8 @@
 
 
 ---
-## aindrI-durgA-pujA
-ऐन्द्री-दुर्गा-पुजा is observed on Śukla-Navamī tithi of Āṣāḍha (lunar) month (sunrise (default)/puurvaviddha (default)).
+## aindrI-durgA-pUjA
+ऐन्द्री-दुर्गा-पूजा is observed on Śukla-Navamī tithi of Āṣāḍha (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 
