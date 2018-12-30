@@ -1,0 +1,20 @@
+{
+  "description": {
+    "en": "Lord Vishnu goes to sleep."
+  },
+  "id": "zayana-EkAdazI",
+  "jsonClass": "HinduCalendarEvent",
+  "shlokas": [
+    "vAsudEva jagadyOnE prAptEyaM dvAdazI tava.\nbhujaGgazayanE'bdhau ca sukhaM svapihi mAdhava..\niyaM tu dvAdazI dEva zayanArthaM vinirmita .\nasyAM suptE jagannAthE jagatsuptaM bhavEdidam..\nvibuddhE tvayi buddhyEta sarvamEtaccarAcaram.."
+  ],
+  "tags": [
+    "monthly-vratams",
+    "ekadashi-vratam-days"
+  ],
+  "timing": {
+    "jsonClass": "HinduCalendarEventTiming"
+  },
+  "titles": [
+    "padmA ekAdazI\ndevazayanI ekAdazI"
+  ]
+}

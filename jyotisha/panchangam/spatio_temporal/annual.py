@@ -1026,17 +1026,17 @@ class Panchangam(common.JsonObject):
       # BHAUMASHWINI
       if (self.nakshatram_sunrise[d] == 27 or self.nakshatram_sunrise[d] == 1) and self.weekday[d] == 2:
         # Is it necessarily only at sunrise?
-        # angams = self.get_angams_for_kaalas(d, helper_functions.get_nakshatram, 'madhyaahna')
-        # if any(x == 1 for x in [self.nakshatram_sunrise[d], angams[0], angams[1]]):
-        if any(x == 1 for x in [self.nakshatram_sunrise[d]]):
+        angams = self.get_angams_for_kaalas(d, jyotisha.panchangam.temporal.get_nakshatram, 'madhyaahna')
+        if any(x == 1 for x in [self.nakshatram_sunrise[d], angams[0], angams[1]]):
+        # if any(x == 1 for x in [self.nakshatram_sunrise[d]]):
           self.add_festival('bhaumAzvinI-puNyakAlaH', d, debug_festivals)
 
       # BUDHANURADHA
       if (self.nakshatram_sunrise[d] == 16 or self.nakshatram_sunrise[d] == 17) and self.weekday[d] == 3:
         # Is it necessarily only at sunrise?
-        # angams = self.get_angams_for_kaalas(d, helper_functions.get_nakshatram, 'madhyaahna')
-        # if any(x == 17 for x in [self.nakshatram_sunrise[d], angams[0], angams[1]]):
-        if any(x == 17 for x in [self.nakshatram_sunrise[d]]):
+        angams = self.get_angams_for_kaalas(d, jyotisha.panchangam.temporal.get_nakshatram, 'madhyaahna')
+        if any(x == 17 for x in [self.nakshatram_sunrise[d], angams[0], angams[1]]):
+        # if any(x == 17 for x in [self.nakshatram_sunrise[d]]):
           self.add_festival('budhAnUrAdhA-puNyakAlaH', d, debug_festivals)
 
       festival_rules = read_old_festival_rules_dict(os.path.join(CODE_ROOT, 'panchangam/data/festival_rules.json'))

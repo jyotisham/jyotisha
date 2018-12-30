@@ -1,0 +1,10 @@
+{
+  "id": "mahAvyatIpAtam",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "shraddha-days"
+  ],
+  "timing": {
+    "jsonClass": "HinduCalendarEventTiming"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "description": {
+    "en": "Phalguna Krishna Chaturdashi, combined with Shatabhishak Nakshatram and Saturday."
+  },
+  "id": "mahAvAruNI~trayOdazI",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "rare-days",
+    "combinations"
+  ],
+  "timing": {
+    "jsonClass": "HinduCalendarEventTiming"
+  }
+}
