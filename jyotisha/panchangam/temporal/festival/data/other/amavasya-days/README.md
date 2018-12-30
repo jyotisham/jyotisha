@@ -6,6 +6,14 @@
 
 
 ---
+## Azvayuja-(Adhika)-amAvasyA
+
+
+---
+## jyaiSTha-(Adhika)-amAvasyA
+
+
+---
 ## caitra-amAvasyA
 
 

@@ -1,0 +1,15 @@
+{
+  "description": {
+    "en": "Phalguni Dvadashi tithi, combined with Pushya nakshatram."
+  },
+  "id": "gOvinda~mahAdvAdazI",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "rare-days",
+    "combinations",
+    "special-vratams"
+  ],
+  "timing": {
+    "jsonClass": "HinduCalendarEventTiming"
+  }
+}

@@ -191,6 +191,16 @@
         "tags": "amavasya-days"
     },
     {
+        "id": "Azvayuja-(Adhika)-amAvasyA",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "amavasya-days"
+    },
+    {
+        "id": "jyaiSTha-(Adhika)-amAvasyA",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "amavasya-days"
+    },
+    {
         "id": "caitra-amAvasyA",
         "jsonClass": "HinduCalendarEventOld",
         "tags": "amavasya-days"
@@ -661,11 +671,6 @@
         "tags": "special-period-end"
     },
     {
-        "id": "ta:kapAlI teppOtsavam",
-        "jsonClass": "HinduCalendarEventOld",
-        "tags": "tamilnadu-temple-festivals"
-    },
-    {
         "id": "ta:kAraDaiyAn2 nOn2bu",
         "jsonClass": "HinduCalendarEventOld",
         "tags": "common-festivals-tamilnadu"
@@ -836,7 +841,15 @@
         "description": {
             "en": "Dvadashi tithi, combined with Shravana nakshatram."
         },
-        "id": "vijayA/zravaNa~mahAdvAdazI",
+        "id": "vijayA/zravaNa-mahAdvAdazI",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "rare-days,combinations,special-vratams"
+    },
+    {
+        "description": {
+            "en": "Phalguni Dvadashi tithi, combined with Pushya nakshatram."
+        },
+        "id": "gOvinda~mahAdvAdazI",
         "jsonClass": "HinduCalendarEventOld",
         "tags": "rare-days,combinations,special-vratams"
     },
