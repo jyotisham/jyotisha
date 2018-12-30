@@ -300,7 +300,7 @@ class HinduCalendarEvent(common.JsonObject):
         base_dir=base_dir,
         anchor_festival_id=self.timing.anchor_festival_id.replace('/','__'),
         offset=self.timing.offset,
-        id=self.id.replace('/','__')
+        id=self.id.replace('/','__').strip('{}')
       )
     else:
       if only_descriptions:
@@ -308,7 +308,7 @@ class HinduCalendarEvent(common.JsonObject):
         return "%(base_dir)s/other/%(tags)s/%(id)s__info.json" % dict(
           base_dir=base_dir,
           tags=tag_list,
-          id=self.id.replace('/','__')
+          id=self.id.replace('/','__').strip('{}')
         )
       else:
         return "%(base_dir)s/%(month_type)s/%(angam_type)s/%(month_number)02d__%(angam_number)02d/%(id)s__info.json" % dict(
@@ -317,7 +317,7 @@ class HinduCalendarEvent(common.JsonObject):
           angam_type=self.timing.angam_type,
           month_number=self.timing.month_number,
           angam_number=self.timing.angam_number,
-          id=self.id.replace('/','__')
+          id=self.id.replace('/','__').strip('{}')
         )
 
 
