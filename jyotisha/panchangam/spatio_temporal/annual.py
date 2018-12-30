@@ -1437,8 +1437,7 @@ class Panchangam(common.JsonObject):
     for d in range(1, jyotisha.panchangam.temporal.MAX_SZ - 1):
       jd = self.jd_start - 1 + d
       [y, m, dt, t] = swe.revjul(jd)
-      longitude_sun_sunset = swe.calc_ut(self.jd_sunset[d], swe.SUN)[0] - \
-                             swe.get_ayanamsa(self.jd_sunset[d])
+      longitude_sun_sunset = swe.calc_ut(self.jd_sunset[d], swe.SUN)[0] - swe.get_ayanamsa(self.jd_sunset[d])
       log_data = '%02d-%02d-%4d\t[%3d]\tsun_rashi=%8.3f\ttithi=%8.3f\tsolar_month\
         =%2d\tlunar_month=%4.1f\n' % (dt, m, y, d, (longitude_sun_sunset % 360) / 30.0,
                                       jyotisha.panchangam.temporal.get_angam_float(self.jd_sunrise[d],
@@ -1449,9 +1448,9 @@ class Panchangam(common.JsonObject):
 
   def update_festival_details(self):
     """
-    
+
     Festival data may be updated more frequently and a precomputed panchangam may go out of sync. Hence we keep this method separate.
-    :return: 
+    :return:
     """
     self.compute_festivals()
     self.assign_relative_festivals()
