@@ -100,7 +100,7 @@ class Panchangam(common.JsonObject):
     for d in range(jyotisha.panchangam.temporal.MAX_SZ):
       self.weekday[d] = (self.weekday_start + d - 1) % 7
 
-    for d in range(-1, jyotisha.panchangam.temporal.MAX_DAYS_PER_YEAR + 1):
+    for d in range(-1, jyotisha.panchangam.temporal.MAX_DAYS_PER_YEAR + 2):
       [y, m, dt, t] = swe.revjul(self.jd_start + d - 1)
 
       # checking @ 6am local - can we do any better?
