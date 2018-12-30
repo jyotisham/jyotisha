@@ -1365,7 +1365,7 @@
         "angam_number": 12,
         "angam_type": "tithi",
         "description": {
-            "en": "``payOvratam` in chaturmasyam begins today."
+            "en": "`payOvratam` in chaturmasyam begins today."
         },
         "id": "payOvrata-ArambhaH",
         "jsonClass": "HinduCalendarEventOld",
@@ -5635,7 +5635,7 @@
         "angam_number": 15,
         "angam_type": "tithi",
         "description": {
-            "en": "Perform `homa' with fresh rice from paddy."
+            "en": "Perform `homa` with fresh rice from paddy."
         },
         "id": "AgrayaNa~hOmaH~1",
         "jsonClass": "HinduCalendarEventOld",
@@ -5652,7 +5652,7 @@
         "angam_number": 30,
         "angam_type": "tithi",
         "description": {
-            "en": "Perform `homa' with fresh rice from paddy."
+            "en": "Perform `homa` with fresh rice from paddy."
         },
         "id": "AgrayaNa~hOmaH~2",
         "jsonClass": "HinduCalendarEventOld",
@@ -5669,7 +5669,7 @@
         "angam_number": 15,
         "angam_type": "tithi",
         "description": {
-            "en": "Perform `homa' with fresh rice from paddy."
+            "en": "Perform `homa` with fresh rice from paddy."
         },
         "id": "AgrayaNa~hOmaH~3",
         "jsonClass": "HinduCalendarEventOld",
@@ -5686,7 +5686,7 @@
         "angam_number": 30,
         "angam_type": "tithi",
         "description": {
-            "en": "Perform `homa' with fresh rice from paddy."
+            "en": "Perform `homa` with fresh rice from paddy."
         },
         "id": "AgrayaNa~hOmaH~4",
         "jsonClass": "HinduCalendarEventOld",
