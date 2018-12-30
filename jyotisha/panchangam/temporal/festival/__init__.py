@@ -176,8 +176,8 @@ class HinduCalendarEventOld(common.JsonObject):
         offset=self.offset,
         id=self.id.replace('/','__').replace('ta:',''))
     else:
-      tag_list = ('/'.join(self.tags.split(',')[0:2]))
-      url = "%(base_dir)s/other/%(tags)s/%(id)s__info.json" % dict(
+      tag_list = ('/'.join(self.tags.split(',')))
+      url = "%(base_dir)s/other/%(tags)s#%(id)s" % dict(
           base_dir=base_url,
           tags=tag_list,
           id=self.id.replace('/','__').replace('ta:',''))
@@ -273,6 +273,8 @@ class HinduCalendarEvent(common.JsonObject):
     return event
 
   def get_description_string(self, script, includeShloka=False):
+    # When used for README.md generation, shloka is included differently
+    # When used for ICS generation, shloka can be included right here
     description_string = ""
     if hasattr(self, "description"):
       # description_string = json.dumps(self.description)
@@ -302,8 +304,10 @@ class HinduCalendarEvent(common.JsonObject):
       )
     else:
       if only_descriptions:
-        return "%(base_dir)s/other/%(id)s__info.json" % dict(
+        tag_list = '/'.join(self.tags)
+        return "%(base_dir)s/other/%(tags)s/%(id)s__info.json" % dict(
           base_dir=base_dir,
+          tags=tag_list,
           id=self.id.replace('/','__')
         )
       else:

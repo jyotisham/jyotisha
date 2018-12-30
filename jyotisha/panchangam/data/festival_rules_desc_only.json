@@ -640,15 +640,15 @@
     },
     {
         "description": {
-            "en": "When `anUrAdha` nakshatram falls on a Wednesday, it is a special `puNyakAlaH` for performing `dAnam`. One can do `dAnaM` of `dadhyOdanam` in Vishnu temples on this day."        },
+            "en": "When `anUrAdhA` nakshatram falls on a Wednesday, it is a special `puNyakAlaH` for performing `dAnam`. One can do `dAnaM` of `dadhyOdanam` in Vishnu temples on this day."        },
         "id": "budhAnUrAdhA-puNyakAlaH",
         "jsonClass": "HinduCalendarEventOld",
-        "tags": "rare-days"
+        "tags": "rare-days,combinations"
     },
     {
         "id": "gajacchAyA-yOgam",
         "jsonClass": "HinduCalendarEventOld",
-        "tags": "rare-days"
+        "tags": "rare-days,combinations"
     },
     {
         "id": "agninakSatra-ArambhaH",
@@ -726,7 +726,7 @@
         "references_secondary": [
             "Kielhorn, 1897"
         ],
-        "tags": "rare-days"
+        "tags": "rare-days,combinations,eclipse"
     },
     {
         "description": {
@@ -737,7 +737,7 @@
         "references_secondary": [
             "Kielhorn, 1897"
         ],
-        "tags": "rare-days"
+        "tags": "rare-days,combinations,eclipse"
     },
     {
         "id": "ASADha-amAvasyA",
@@ -753,7 +753,7 @@
         "references_secondary": [
             "Maha Periva / Deivattin Kural"
         ],
-        "tags": "rare-days"
+        "tags": "rare-days,combinations"
     },
     {
         "description": {
@@ -761,7 +761,7 @@
         },
         "id": "jayantI~mahAdvAdazI",
         "jsonClass": "HinduCalendarEventOld",
-        "tags": "rare-days"
+        "tags": "rare-days,combinations"
     },
     {
         "description": {
@@ -769,7 +769,7 @@
         },
         "id": "jayA~mahAdvAdazI",
         "jsonClass": "HinduCalendarEventOld",
-        "tags": "rare-days"
+        "tags": "rare-days,combinations"
     },
     {
         "description": {
@@ -777,7 +777,7 @@
         },
         "id": "mahAjayA~saptamI",
         "jsonClass": "HinduCalendarEventOld",
-        "tags": "rare-days"
+        "tags": "rare-days,combinations"
     },
     {
         "description": {
@@ -785,7 +785,7 @@
         },
         "id": "mahOdaya-puNyakAlaH",
         "jsonClass": "HinduCalendarEventOld",
-        "tags": "rare-days"
+        "tags": "rare-days,combinations"
     },
     {
         "description": {
@@ -793,7 +793,7 @@
         },
         "id": "ardhOdaya-puNyakAlaH",
         "jsonClass": "HinduCalendarEventOld",
-        "tags": "rare-days"
+        "tags": "rare-days,combinations"
     },
     {
         "description": {
@@ -801,7 +801,7 @@
         },
         "id": "pApanAzinI~mahAdvAdazI",
         "jsonClass": "HinduCalendarEventOld",
-        "tags": "rare-days"
+        "tags": "rare-days,combinations"
     },
     {
         "id": "pauSa-amAvasyA",
@@ -838,7 +838,7 @@
         },
         "id": "vijayA/zravaNa~mahAdvAdazI",
         "jsonClass": "HinduCalendarEventOld",
-        "tags": "rare-days,special-vratams"
+        "tags": "rare-days,combinations,special-vratams"
     },
     {
         "description": {

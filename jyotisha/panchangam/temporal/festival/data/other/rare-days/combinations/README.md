@@ -52,21 +52,6 @@ _चतुर्थी तिथि on a Tuesday is as sacred as a solar eclipse
 _कृष्ण चतुर्दशी तिथि on a Tuesday is very sacred. Perform तर्पणम् to Yama Dharamaraja._
 
 ---
-## sOmavatI amAvasyA
-_अमावस्या on a Monday is as sacred as a solar eclipse. Particularly good for performing pradakshinam of Pippala tree._
-
-```
-अमावस्या तु सोमेन सप्तमी भानुना सह।
-चतुर्थी भूमिपुत्रेण सोमपुत्रेण चाष्टमी।
-चतस्रस्तिथयस्त्वेताः सूर्यग्रहणसन्निभाः॥
-
-मूलतो ब्रह्मरूपाय मध्यतो विष्णुरूपिणे।
-अग्रतः शिवरूपाय वृक्षराजाय ते नमः॥
-अक्षिस्पन्दं भुजस्पन्दं दुःस्वप्नं दुर्विचिन्तनम्।
-शत्रूनाम् च समुत्पन्नम् अश्वत्थ शमयस्व मे॥
-```
-
----
 ## sukhA aGgAraka-caturthI
 
 
@@ -89,6 +74,45 @@ _सप्तमी तिथि on a Sunday is as sacred as a solar eclipse. Pa
 चतुर्थी भूमिपुत्रेण सोमपुत्रेण चाष्टमी।
 चतस्रस्तिथयस्त्वेताः सूर्यग्रहणसन्निभाः॥
 ```
+
+---
+## budhAnUrAdhA-puNyakAlaH
+_When अनूराधा nakshatram falls on a Wednesday, it is a special पुण्यकालः for performing दानम्. One can do दानं of दध्योदनम् in Vishnu temples on this day._
+
+---
+## gajacchAyA-yOgam
+
+
+---
+## AyuSmAn-bava-saumya
+_A rare combination of आयुष्मान् योग, बव करण and सौम्यवासर. Also a source of the normal blessing 'AyuSmAn bava saumya'!_
+### References
+* Maha Periva / Deivattin Kural
+
+
+---
+## jayantI mahAdvAdazI
+_Dvadashi tithi, combined with Punarvasu nakshatram._
+
+---
+## jayA mahAdvAdazI
+_Dvadashi tithi, combined with Pushya nakshatram._
+
+---
+## mahAjayA saptamI
+_Saptami tithi, combined with a sankranti._
+
+---
+## mahOdaya-puNyakAlaH
+_A rare combination of Pausha masam, Shravana nakshatram, Vyatipata yogam and Monday._
+
+---
+## ardhOdaya-puNyakAlaH
+_A rare combination of Pausha masam, Shravana nakshatram, Vyatipata yogam and Sunday._
+
+---
+## pApanAzinI mahAdvAdazI
+_Dvadashi tithi, combined with Rohini nakshatram._
 
 ---
 ## vAruNI trayOdazI

@@ -1,11 +1,12 @@
 {
   "description": {
-    "en": "Dvadashi tithi, combined with Rohini nakshatram."
+    "en": "Saptami tithi, combined with a sankranti."
   },
-  "id": "pApanAzinI~mahAdvAdazI",
+  "id": "mahAjayA~saptamI",
   "jsonClass": "HinduCalendarEvent",
   "tags": [
-    "rare-days"
+    "rare-days",
+    "combinations"
   ],
   "timing": {
     "jsonClass": "HinduCalendarEventTiming"

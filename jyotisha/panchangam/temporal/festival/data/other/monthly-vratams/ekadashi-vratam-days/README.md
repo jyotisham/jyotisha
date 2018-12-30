@@ -14,10 +14,6 @@ _Satya Harishchandra performed this to get back family and kingdom._
 
 
 ---
-## guruvAyupura-EkAdazI
-
-
----
 ## indirA-EkAdazI
 _Indrasena's son did Ekadashi and as a result he was shifted from hell to heaven._
 

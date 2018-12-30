@@ -1,12 +1,12 @@
 {
   "description": {
-    "en": "Dvadashi tithi, combined with Shravana nakshatram."
+    "en": "A rare combination of Pausha masam, Shravana nakshatram, Vyatipata yogam and Monday."
   },
-  "id": "vijayA/zravaNa~mahAdvAdazI",
+  "id": "mahOdaya-puNyakAlaH",
   "jsonClass": "HinduCalendarEvent",
   "tags": [
     "rare-days",
-    "special-vratams"
+    "combinations"
   ],
   "timing": {
     "jsonClass": "HinduCalendarEventTiming"

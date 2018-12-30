@@ -8,7 +8,8 @@
     "Maha Periva / Deivattin Kural"
   ],
   "tags": [
-    "rare-days"
+    "rare-days",
+    "combinations"
   ],
   "timing": {
     "jsonClass": "HinduCalendarEventTiming"
