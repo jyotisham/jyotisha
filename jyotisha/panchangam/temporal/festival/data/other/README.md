@@ -66,9 +66,9 @@ _सप्तमी तिथि on a Sunday is as sacred as a solar eclipse. Pa
 _A very special yOga, for doing Pitru Shraddha during Mahalaya Paksham. A man that performs a sraddha in the conjunction called Gajacchaya at a place that is fanned by the leaves of the Aswattha tree enjoys the fruits thereof, O Yudhishthira, for a hundred thousand kalpas._
 
 ```
-Cहायायां करिणः स्ह्राद्धं तत्कर्म परिवीजितम्।
-दस्हकल्पायुतानीह न क्ष्हीयॆत युधिष्ह्ठिर॥३-२०३-१२१॥
-महाभारते वनपर्वणि त्रयोत्तरद्विस्हततमे।अध्याये
+छायायां करिणः श्राद्धं तत्कर्म परिवीजितम्।
+दशकल्पायुतानीह न क्षीयेत युधिष्ठिर॥३-२०३-१२१॥
+महाभारते वनपर्वणि त्रयोत्तरद्विशततमेऽध्याये
 ```
 
 ---
