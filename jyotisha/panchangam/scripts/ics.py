@@ -130,43 +130,43 @@ def compute_calendar(panchangam):
                     ics_calendar.add_component(event)
 
                     # Find start and add entire event as well
-                    # logging.debug(desc)
                     event = Event()
                     check_d = d
                     stext_start = stext.replace('samApanam', 'ArambhaH')
-                    # print(stext_start)
+                    start_d = None
                     while check_d > 1:
                         check_d -= 1
                         if stext_start in panchangam.festivals[check_d]:
-                            # print(panchangam.festivals[check_d])
                             start_d = check_d
                             break
 
-                    # logging.debug(stext)
-                    event_summary_text = stext
-                    REPLACEMENTS = {'samApanam': '',
-                                    'rAtri-': 'rAtriH',
-                                    'nakSatra-': 'nakSatram',
-                                    'pakSa-': 'pakSaH',
-                                    'puSkara-': 'puSkaram',
-                                    'dIpa-': 'dIpaH',
-                                    'snAna-': 'snAnam',
-                                    'tsava-': 'tsavaH',
-                                    'vrata-': 'vratam'}
-                    for _orig, _repl in REPLACEMENTS.items():
-                        event_summary_text = event_summary_text.replace(_orig, _repl)
-                    event.add('summary', jyotisha.custom_transliteration.tr(event_summary_text, panchangam.script))
-                    event.add('dtstart', (datetime(y, m, dt) - timedelta(d - start_d)).date())
-                    event.add('dtend', (datetime(y, m, dt) + timedelta(1)).date())
+                    if start_d is None:
+                        logging.error('Unable to find start date for %s' % stext_start)
+                    else:
+                        # logging.debug(stext)
+                        event_summary_text = stext
+                        REPLACEMENTS = {'samApanam': '',
+                                        'rAtri-': 'rAtriH',
+                                        'nakSatra-': 'nakSatram',
+                                        'pakSa-': 'pakSaH',
+                                        'puSkara-': 'puSkaram',
+                                        'dIpa-': 'dIpaH',
+                                        'snAna-': 'snAnam',
+                                        'tsava-': 'tsavaH',
+                                        'vrata-': 'vratam'}
+                        for _orig, _repl in REPLACEMENTS.items():
+                            event_summary_text = event_summary_text.replace(_orig, _repl)
+                        event.add('summary', jyotisha.custom_transliteration.tr(event_summary_text, panchangam.script))
+                        event.add('dtstart', (datetime(y, m, dt) - timedelta(d - start_d)).date())
+                        event.add('dtend', (datetime(y, m, dt) + timedelta(1)).date())
 
-                    # print(event)
-                    event.add_component(alarm)
-                    event.add('description', desc.strip())
-                    event['X-MICROSOFT-CDO-ALLDAYEVENT'] = 'TRUE'
-                    event['TRANSP'] = 'TRANSPARENT'
-                    event['X-MICROSOFT-CDO-BUSYSTATUS'] = 'FREE'
-                    ics_calendar.add_component(event)
-
+                        # print(event)
+                        event.add_component(alarm)
+                        event.add('description', desc.strip())
+                        event['X-MICROSOFT-CDO-ALLDAYEVENT'] = 'TRUE'
+                        event['TRANSP'] = 'TRANSPARENT'
+                        event['X-MICROSOFT-CDO-BUSYSTATUS'] = 'FREE'
+                        ics_calendar.add_component(event)
                 else:
                     summary = jyotisha.custom_transliteration.tr(stext.replace('~', ' ').replace('\#', '#').replace('\\To{}', '▶'), panchangam.script)
                     summary = re.sub('.tamil{(.*)}', '\\1', summary)
