@@ -590,7 +590,7 @@ class Panchangam(common.JsonObject):
         _m = self.lunar_month[d]
         if floor(_m) != _m:
           _m = 13   # Adhika masa
-        chaturthi_name = jyotisha.panchangam.temporal.NAMES['SANKATAHARA_CHATURTHI_NAMES'][self.script][_m]
+        chaturthi_name = jyotisha.panchangam.temporal.NAMES['SANKATAHARA_CHATURTHI_NAMES']['hk'][_m]
         chaturthi_name += '-mahAgaNapati '
         if self.weekday[d] == 2:
           chaturthi_name = 'aGgArakI~' + chaturthi_name
