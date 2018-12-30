@@ -31,7 +31,7 @@ _Perform puja to Shami tree. Arjuna and Pandavas had left their weapons on this 
 
 ---
 ## Ayudha pUjai
-ஆயுத~பூஜை is observed on Śukla-Daśamī tithi of Āśvayuja (lunar) month (sunrise (default)/puurvaviddha (default)).
+ஆயுத பூஜை is observed on Śukla-Daśamī tithi of Āśvayuja (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 _Arjuna wins over all Kauravas and Karna. Worship of all weapons, or rather, tools related to one's profession._
 

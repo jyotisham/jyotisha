@@ -8,7 +8,7 @@ _Perform होम with fresh rice from paddy._
 
 ---
 ## sarvAlaya dIpam
-ஸர்வாலய~தீபம் is observed on Paurṇamāsī tithi of Vṛścika (solar) month (ratrimana/puurvaviddha).
+ஸர்வாலய தீபம் is observed on Paurṇamāsī tithi of Vṛścika (solar) month (ratrimana/puurvaviddha).
 
 
 

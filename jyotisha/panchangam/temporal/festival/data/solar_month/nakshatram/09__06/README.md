@@ -1,5 +1,5 @@
 ## ArudrA darican2am/naTarAjar mahAbhiSEkam
-ஆருத்ரா~தரிசனம்/நடராஜர் மஹாபிஷேகம் is observed on Ārdrā nakṣhatram day of Dhanuḥ (solar) month (sunrise (default)/puurvaviddha (default)).
+ஆருத்ரா தரிசனம்/நடராஜர் மஹாபிஷேகம் is observed on Ārdrā nakṣhatram day of Dhanuḥ (solar) month (sunrise (default)/puurvaviddha (default)).
 
 _Visit Chidambaram to have darshan of Nataraja, or pray to Nataraja_
 

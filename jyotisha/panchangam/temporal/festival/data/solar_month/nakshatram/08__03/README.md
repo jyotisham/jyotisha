@@ -1,5 +1,5 @@
 ## tiruvaNNAmalai dIpam
-திருவண்ணாமலை~தீபம் is observed on Kṛttikā nakṣhatram day of Vṛścika (solar) month (ratrimana/puurvaviddha).
+திருவண்ணாமலை தீபம் is observed on Kṛttikā nakṣhatram day of Vṛścika (solar) month (ratrimana/puurvaviddha).
 
 
 

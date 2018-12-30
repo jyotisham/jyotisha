@@ -1,5 +1,5 @@
 ## citrA paurNamI/citragupta pUjai
-சித்ரா~பௌர்ணமீ/சித்ரகுப்த~பூஜை is observed on Paurṇamāsī tithi of Meṣa (solar) month (moonrise/puurvaviddha (default)).
+சித்ரா பௌர்ணமீ/சித்ரகுப்த பூஜை is observed on Paurṇamāsī tithi of Meṣa (solar) month (moonrise/puurvaviddha (default)).
 
 
 

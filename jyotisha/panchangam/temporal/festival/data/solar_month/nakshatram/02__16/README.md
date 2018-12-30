@@ -1,5 +1,5 @@
 ## vaikAci vizAkham
-வைகாசி~விஶாகம் is observed on Viśākhā nakṣhatram day of Vṛṣabha (solar) month (sunrise (default)/puurvaviddha (default)).
+வைகாசி விஶாகம் is observed on Viśākhā nakṣhatram day of Vṛṣabha (solar) month (sunrise (default)/puurvaviddha (default)).
 
 _Special puja for Subrahmanya Swami in temples. Birth of Subrahmanya Swami. Worship Him with red flowers._
 

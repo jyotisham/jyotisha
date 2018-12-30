@@ -1,5 +1,5 @@
 ## ADik kiruttikai
-ஆடிக்~கிருத்திகை is observed on Kṛttikā nakṣhatram day of Kaṭaka (solar) month (sunrise (default)/puurvaviddha (default)).
+ஆடிக் கிருத்திகை is observed on Kṛttikā nakṣhatram day of Kaṭaka (solar) month (sunrise (default)/puurvaviddha (default)).
 
 _Special puja for Subrahmanya Swami in temples._
 

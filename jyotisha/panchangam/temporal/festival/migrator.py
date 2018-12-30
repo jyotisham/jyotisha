@@ -48,7 +48,7 @@ def write_event_README(event, event_file_name):
         if 'angam_type' in event_dict['timing']:
             logging.debug(event_dict["id"])
             if event_dict["id"][:4] == "ta__":
-              angam = custom_transliteration.tr(event_dict["id"][4:], sanscript.TAMIL) + ' is observed on '
+              angam = custom_transliteration.tr(event_dict["id"][4:], sanscript.TAMIL).replace("~", " ") + ' is observed on '
             else:
               angam = custom_transliteration.tr(event_dict["id"], sanscript.DEVANAGARI).replace("~", " ") + ' is observed on '
 
