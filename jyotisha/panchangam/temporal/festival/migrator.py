@@ -42,8 +42,14 @@ def write_event_README(event, event_file_name):
         angam = ''
         if 'month_type' in event_dict['timing']:
             if event_dict['timing']['month_type'] == 'lunar_month':
+              if event_dict['timing']['month_number'] == 0:
+                month = ' of every lunar month'
+              else:
                 month = ' of ' + get_chandra_masa(event_dict['timing']['month_number'], NAMES, sanscript.IAST) + ' (lunar) month'
             elif event_dict['timing']['month_type'] == 'solar_month':
+              if event_dict['timing']['month_number'] == 0:
+                month = ' of every solar month'
+              else:
                 month = ' of ' + NAMES['RASHI_NAMES'][sanscript.IAST][event_dict['timing']['month_number']] + ' (solar) month'
         if 'angam_type' in event_dict['timing']:
             logging.debug(event_dict["id"])
