@@ -59,7 +59,6 @@ def compute_calendar(panchangam):
             # this will work whether we have one or more events on the same day
             for stext in sorted(summary_text):
                 desc = ''
-                page_id = ''
                 event = Event()
                 if stext == 'kRttikA-maNDala-pArAyaNam':
                     event.add('summary', jyotisha.custom_transliteration.tr(stext.replace('-', ' '), panchangam.script))
@@ -73,12 +72,9 @@ def compute_calendar(panchangam):
                         desc = festival.HinduCalendarEventOld.make_from_dict(festival_rules[stext]).get_description_string(script=panchangam.script)
                     else:
                         logging.warning('No description found for festival %s!' % stext)
-                    # uid = '%s-%d' % (page_id, y)
 
                     event.add_component(alarm)
                     event.add('description', desc.strip())
-                    # uid_list.append(uid)
-                    # event.add('uid', uid)
                     event['X-MICROSOFT-CDO-ALLDAYEVENT'] = 'TRUE'
                     event['TRANSP'] = 'TRANSPARENT'
                     event['X-MICROSOFT-CDO-BUSYSTATUS'] = 'FREE'
@@ -111,13 +107,6 @@ def compute_calendar(panchangam):
                     else:
                         logging.warning('No description found for festival %s!\n' % stext)
                     event.add('description', desc.strip())
-                    # uid = '%s-%d-%02d' % (page_id, y, m)
-                    # if uid not in uid_list:
-                    #     uid_list.append(uid)
-                    # else:
-                    #     uid = '%s-%d-%02d-%02d' % (page_id, y, m, dt)
-                    #     uid_list.append(uid)
-                    # event.add('uid', uid)
                     event.add_component(alarm)
                     ics_calendar.add_component(event)
                 elif stext.find('samApanam') != -1:
@@ -131,24 +120,15 @@ def compute_calendar(panchangam):
                     else:
                         logging.warning('No description found for festival %s!' % stext)
 
-                    # print(event)
                     event.add_component(alarm)
                     event.add('description', desc.strip())
-                    # uid = '%s-%d-%02d' % (page_id, y, m)
-                    # if uid not in uid_list:
-                    #     uid_list.append(uid)
-                    # else:
-                    #     uid = '%s-%d-%02d-%02d' % (page_id, y, m, dt)
-                    #     uid_list.append(uid)
-                    # event.add('uid', uid)
                     event['X-MICROSOFT-CDO-ALLDAYEVENT'] = 'TRUE'
                     event['TRANSP'] = 'TRANSPARENT'
                     event['X-MICROSOFT-CDO-BUSYSTATUS'] = 'FREE'
                     ics_calendar.add_component(event)
 
                     # Find start and add entire event as well
-                    desc = ''
-                    page_id = page_id.replace('-samapanam', '')
+                    # logging.debug(desc)
                     event = Event()
                     check_d = d
                     stext_start = stext.replace('samApanam', 'ArambhaH')
@@ -160,7 +140,20 @@ def compute_calendar(panchangam):
                             start_d = check_d
                             break
 
-                    event.add('summary', jyotisha.custom_transliteration.tr(stext.replace('samApanam', '').replace('rAtri-', 'rAtriH').replace('nakSatra-', 'nakSatram').replace('pakSa-', 'pakSaH').replace('kara-', 'karam').replace('tsava-', 'tsavaH').replace('vrata-','vratam'), panchangam.script))
+                    # logging.debug(stext)
+                    event_summary_text = stext
+                    REPLACEMENTS = {'samApanam': '',
+                                    'rAtri-': 'rAtriH',
+                                    'nakSatra-': 'nakSatram',
+                                    'pakSa-': 'pakSaH',
+                                    'puSkara-': 'puSkaram',
+                                    'dIpa-': 'dIpaH',
+                                    'snAna-': 'snAnam',
+                                    'tsava-': 'tsavaH',
+                                    'vrata-': 'vratam'}
+                    for _orig, _repl in REPLACEMENTS.items():
+                        event_summary_text = event_summary_text.replace(_orig, _repl)
+                    event.add('summary', jyotisha.custom_transliteration.tr(event_summary_text, panchangam.script))
                     event.add('dtstart', (datetime(y, m, dt) - timedelta(d - start_d)).date())
                     event.add('dtend', (datetime(y, m, dt) + timedelta(1)).date())
 
