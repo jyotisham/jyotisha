@@ -743,7 +743,7 @@ class Panchangam(common.JsonObject):
 
       # NIRAYANA AYANAMS
       if self.solar_month_day[d] == 1:
-        logging.debug(self.solar_month[d])
+        # logging.debug(self.solar_month[d])
         ayana_jd_start = brentq(jyotisha.zodiac.get_nirayana_sun_lon, self.jd_sunrise[d],
                                 self.jd_sunrise[d] + 15, args=(-30 * self.solar_month[d], False))
         [_y, _m, _d, _t] = swe.revjul(ayana_jd_start + (tz_off / 24.0))
@@ -1118,7 +1118,6 @@ class Panchangam(common.JsonObject):
 
             if fest_num is not None:
               festival_name += '~\\#{%d}' % fest_num
-              logging.debug(festival_name)
 
             self.fest_days[festival_name] = [d]
         elif (month_type == 'lunar_month' and (self.lunar_month[d] == month_num or month_num == 0)) or \
@@ -1162,7 +1161,7 @@ class Panchangam(common.JsonObject):
                 fest_num = self.year + 3100 + (d >= self.lunar_month.index(1)) - fest_start_year + 1
 
             if fest_num is not None and fest_num <= 0:
-              logging.warning('Festival %s is only in the future!\n' % festival_name)
+              logging.warning('Festival %s is only in the future!' % festival_name)
 
             if fest_num is not None:
               festival_name += '~\\#{%d}' % fest_num
