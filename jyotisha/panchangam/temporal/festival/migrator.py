@@ -35,7 +35,7 @@ def write_event_README(event, event_file_name):
       readme_file_name = os.path.join(os.path.dirname(event_file_name), 'README.md')
       event_dict = json.load(event_data)
       with open(readme_file_name, 'a+') as readme_file:
-        readme_file.write('## %s\n' % event_dict["id"].replace('ta__', '').replace('~', ' '))
+        readme_file.write('## %s\n' % event_dict["id"].replace('ta__', '').replace('~', ' ').strip('{}'))
 
         blurb = ''
         month = ''
