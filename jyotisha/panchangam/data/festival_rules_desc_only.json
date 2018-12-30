@@ -804,16 +804,6 @@
         "tags": "sun-sankranti,common-festivals"
     },
     {
-        "id": "kRSNA-antya-puSkara-ArambhaH",
-        "jsonClass": "HinduCalendarEventOld",
-        "tags": "pushkara,rare-days"
-    },
-    {
-        "id": "kRSNA-antya-puSkara-samApanam",
-        "jsonClass": "HinduCalendarEventOld",
-        "tags": "pushkara,rare-days"
-    },
-    {
         "id": "guru-saGkrAntiH",
         "jsonClass": "HinduCalendarEventOld",
         "tags": "sankranti"
@@ -824,13 +814,531 @@
         "tags": "sankranti"
     },
     {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `mESa rAzI`, `puSkararAja` resides in `gaGgA` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "gaGgA-Adi-puSkara-ArambhaH",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "pushkara,rare-days"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `mESa rAzI`, `puSkararAja` resides in `gaGgA` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "gaGgA-antya-puSkara-ArambhaH",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "pushkara,rare-days"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `mESa rAzI`, `puSkararAja` resides in `gaGgA` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "gaGgA-Adi-puSkara-samApanam",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "pushkara,rare-days"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `mESa rAzI`, `puSkararAja` resides in `gaGgA` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "gaGgA-antya-puSkara-samApanam",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "pushkara,rare-days"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `vRSabha rAzI`, `puSkararAja` resides in `narmadA` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "narmadA-Adi-puSkara-ArambhaH",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "pushkara,rare-days"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `vRSabha rAzI`, `puSkararAja` resides in `narmadA` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "narmadA-antya-puSkara-ArambhaH",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "pushkara,rare-days"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `vRSabha rAzI`, `puSkararAja` resides in `narmadA` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "narmadA-Adi-puSkara-samApanam",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "pushkara,rare-days"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `vRSabha rAzI`, `puSkararAja` resides in `narmadA` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "narmadA-antya-puSkara-samApanam",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "pushkara,rare-days"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `mithuna rAzI`, `puSkararAja` resides in `sarasvatI` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "sarasvatI-Adi-puSkara-ArambhaH",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "pushkara,rare-days"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `mithuna rAzI`, `puSkararAja` resides in `sarasvatI` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "sarasvatI-antya-puSkara-ArambhaH",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "pushkara,rare-days"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `mithuna rAzI`, `puSkararAja` resides in `sarasvatI` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "sarasvatI-Adi-puSkara-samApanam",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "pushkara,rare-days"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `mithuna rAzI`, `puSkararAja` resides in `sarasvatI` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "sarasvatI-antya-puSkara-samApanam",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "pushkara,rare-days"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `kaTaka rAzI`, `puSkararAja` resides in `yamunA` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "yamunA-Adi-puSkara-ArambhaH",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "pushkara,rare-days"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `kaTaka rAzI`, `puSkararAja` resides in `yamunA` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "yamunA-antya-puSkara-ArambhaH",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "pushkara,rare-days"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `kaTaka rAzI`, `puSkararAja` resides in `yamunA` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "yamunA-Adi-puSkara-samApanam",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "pushkara,rare-days"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `kaTaka rAzI`, `puSkararAja` resides in `yamunA` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "yamunA-antya-puSkara-samApanam",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "pushkara,rare-days"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `siMha rAzI`, `puSkararAja` resides in `gOdAvarI` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "gOdAvarI-Adi-puSkara-ArambhaH",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "pushkara,rare-days"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `siMha rAzI`, `puSkararAja` resides in `gOdAvarI` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "gOdAvarI-antya-puSkara-ArambhaH",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "pushkara,rare-days"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `siMha rAzI`, `puSkararAja` resides in `gOdAvarI` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "gOdAvarI-Adi-puSkara-samApanam",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "pushkara,rare-days"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `siMha rAzI`, `puSkararAja` resides in `gOdAvarI` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "gOdAvarI-antya-puSkara-samApanam",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "pushkara,rare-days"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `kanyA rAzI`, `puSkararAja` resides in `kRSNA` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "kRSNA-Adi-puSkara-ArambhaH",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "pushkara,rare-days"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `kanyA rAzI`, `puSkararAja` resides in `kRSNA` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "kRSNA-antya-puSkara-ArambhaH",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "pushkara,rare-days"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `kanyA rAzI`, `puSkararAja` resides in `kRSNA` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "kRSNA-Adi-puSkara-samApanam",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "pushkara,rare-days"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `kanyA rAzI`, `puSkararAja` resides in `kRSNA` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "kRSNA-antya-puSkara-samApanam",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "pushkara,rare-days"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `tulA rAzI`, `puSkararAja` resides in `kAvErI` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
         "id": "kAvErI-Adi-puSkara-ArambhaH",
         "jsonClass": "HinduCalendarEventOld",
         "tags": "pushkara,rare-days"
     },
     {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `tulA rAzI`, `puSkararAja` resides in `kAvErI` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "kAvErI-antya-puSkara-ArambhaH",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "pushkara,rare-days"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `tulA rAzI`, `puSkararAja` resides in `kAvErI` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
         "id": "kAvErI-Adi-puSkara-samApanam",
         "jsonClass": "HinduCalendarEventOld",
         "tags": "pushkara,rare-days"
-    }
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `tulA rAzI`, `puSkararAja` resides in `kAvErI` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "kAvErI-antya-puSkara-samApanam",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "pushkara,rare-days"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `vRzcika rAzI`, `puSkararAja` resides in `bhImA/tAmraparNI` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "bhImA/tAmraparNI-Adi-puSkara-ArambhaH",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "pushkara,rare-days"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `vRzcika rAzI`, `puSkararAja` resides in `bhImA/tAmraparNI` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "bhImA/tAmraparNI-antya-puSkara-ArambhaH",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "pushkara,rare-days"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `vRzcika rAzI`, `puSkararAja` resides in `bhImA/tAmraparNI` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "bhImA/tAmraparNI-Adi-puSkara-samApanam",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "pushkara,rare-days"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `vRzcika rAzI`, `puSkararAja` resides in `bhImA/tAmraparNI` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "bhImA/tAmraparNI-antya-puSkara-samApanam",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "pushkara,rare-days"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `dhanuH rAzI`, `puSkararAja` resides in `tapatI` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "tapatI-Adi-puSkara-ArambhaH",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "pushkara,rare-days"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `dhanuH rAzI`, `puSkararAja` resides in `tapatI` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "tapatI-antya-puSkara-ArambhaH",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "pushkara,rare-days"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `dhanuH rAzI`, `puSkararAja` resides in `tapatI` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "tapatI-Adi-puSkara-samApanam",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "pushkara,rare-days"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `dhanuH rAzI`, `puSkararAja` resides in `tapatI` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "tapatI-antya-puSkara-samApanam",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "pushkara,rare-days"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `makara rAzI`, `puSkararAja` resides in `tuGgabhadrA` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "tuGgabhadrA-Adi-puSkara-ArambhaH",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "pushkara,rare-days"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `makara rAzI`, `puSkararAja` resides in `tuGgabhadrA` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "tuGgabhadrA-antya-puSkara-ArambhaH",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "pushkara,rare-days"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `makara rAzI`, `puSkararAja` resides in `tuGgabhadrA` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "tuGgabhadrA-Adi-puSkara-samApanam",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "pushkara,rare-days"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `makara rAzI`, `puSkararAja` resides in `tuGgabhadrA` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "tuGgabhadrA-antya-puSkara-samApanam",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "pushkara,rare-days"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `kumbha rAzI`, `puSkararAja` resides in `sindhu` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "sindhu-Adi-puSkara-ArambhaH",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "pushkara,rare-days"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `kumbha rAzI`, `puSkararAja` resides in `sindhu` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "sindhu-antya-puSkara-ArambhaH",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "pushkara,rare-days"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `kumbha rAzI`, `puSkararAja` resides in `sindhu` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "sindhu-Adi-puSkara-samApanam",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "pushkara,rare-days"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `kumbha rAzI`, `puSkararAja` resides in `sindhu` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "sindhu-antya-puSkara-samApanam",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "pushkara,rare-days"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `mIna rAzI`, `puSkararAja` resides in `prANahitA` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "prANahitA-Adi-puSkara-ArambhaH",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "pushkara,rare-days"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `mIna rAzI`, `puSkararAja` resides in `prANahitA` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "prANahitA-antya-puSkara-ArambhaH",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "pushkara,rare-days"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `mIna rAzI`, `puSkararAja` resides in `prANahitA` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "prANahitA-Adi-puSkara-samApanam",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "pushkara,rare-days"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `mIna rAzI`, `puSkararAja` resides in `prANahitA` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "prANahitA-antya-puSkara-samApanam",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "pushkara,rare-days"
+    }    
 ]
