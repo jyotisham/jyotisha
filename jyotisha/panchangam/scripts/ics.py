@@ -199,7 +199,6 @@ def compute_calendar(panchangam):
                                     logging.warning('No description found for caturthI festival %s!' % stext)
                             else:
                                 logging.warning('No description found for festival %s!' % stext)
-                        # uid = '%s-%d-%02d' % (page_id, y, m)
                     elif stext.find('saGkrAntiH') != -1:
                         # Handle Sankranti descriptions differently
                         planet_trans = stext.split('~')[0]  # get rid of ~(rAshi name) etc.
@@ -207,7 +206,6 @@ def compute_calendar(panchangam):
                             desc = festival.HinduCalendarEventOld.make_from_dict(festival_rules[planet_trans]).get_description_string(script=panchangam.script)
                         else:
                             logging.warning('No description found for festival %s!' % planet_trans)
-                        # uid = '%s-%d-%02d' % (page_id, y, m)
                     else:
                         # logging.debug(stext)
                         # Handle ekadashi descriptions differently
@@ -219,19 +217,8 @@ def compute_calendar(panchangam):
                         pref = jyotisha.custom_transliteration.romanise(sanscript.transliterate(
                             stext.split('-')[0],
                             sanscript.HK, sanscript.IAST)) + "-"
-                        # uid = '%s-%d-%02d' % (pref + page_id, y, m)
-                    # print(page_id)
                     event.add_component(alarm)
                     event.add('description', desc.strip())
-                    # if uid not in uid_list:
-                    #     uid_list.append(uid)
-                    # else:
-                    #     suff = 0
-                    #     while uid in uid_list:
-                    #         uid = '%s-%d-%02d-%02d-%d' % (page_id, y, m, dt, suff)
-                    #         suff += 1
-                    #     uid_list.append(uid)
-                    # event.add('uid', uid)
                     event['X-MICROSOFT-CDO-ALLDAYEVENT'] = 'TRUE'
                     event['TRANSP'] = 'TRANSPARENT'
                     event['X-MICROSOFT-CDO-BUSYSTATUS'] = 'FREE'
