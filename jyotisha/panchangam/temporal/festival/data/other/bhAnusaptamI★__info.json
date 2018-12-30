@@ -1,0 +1,16 @@
+{
+  "description": {
+    "en": "`saptamI tithi` on a Sunday is as sacred as a solar eclipse. Particularly good for worshipping Surya. Today is even more auspicious, as it is associated with `revatI` star."
+  },
+  "id": "bhAnusaptamI\u2605",
+  "jsonClass": "HinduCalendarEvent",
+  "shlokas": [
+    "amAvasyA tu sOmEna saptamI bhAnunA saha.\ncaturthI bhUmiputrENa sOmaputrENa cASTamI.\n catasrastithayastvEtAH sUryagrahaNasannibhAH.."
+  ],
+  "tags": [
+    "rare-days"
+  ],
+  "timing": {
+    "jsonClass": "HinduCalendarEventTiming"
+  }
+}

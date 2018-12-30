@@ -1,0 +1,16 @@
+{
+  "description": {
+    "en": "`saptamI tithi` on a Sunday is as sacred as a solar eclipse. Particularly good for worshipping Surya. When `zukla saptamI` is present at sunrise, it is called `vijayA`."
+  },
+  "id": "vijayA~bhAnusaptamI\u2605",
+  "jsonClass": "HinduCalendarEvent",
+  "shlokas": [
+    "amAvasyA tu sOmEna saptamI bhAnunA saha.\ncaturthI bhUmiputrENa sOmaputrENa cASTamI.\n catasrastithayastvEtAH sUryagrahaNasannibhAH.."
+  ],
+  "tags": [
+    "rare-days"
+  ],
+  "timing": {
+    "jsonClass": "HinduCalendarEventTiming"
+  }
+}

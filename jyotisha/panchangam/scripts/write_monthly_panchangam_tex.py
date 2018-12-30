@@ -91,7 +91,7 @@ def writeMonthlyTeX(panchangam, template_file):
 
             print('%s & %s & %s & {\\raggedright %s} \\\\' %
                   (MON[m], dt, WDAY[panchangam.weekday[d]],
-                   '\\\\'.join([jyotisha.custom_transliteration.tr(f, panchangam.script)
+                   '\\\\'.join([jyotisha.custom_transliteration.tr(f, panchangam.script).replace('★', '$^\\star$')
                                 for f in sorted(set(panchangam.festivals[d]))])))
 
         if m == 12 and dt == 31:
@@ -236,7 +236,7 @@ def writeMonthlyTeX(panchangam, template_file):
             # Using set as an ugly workaround since we may have sometimes assigned the same
             # festival to the same day again!
             month_text += '\n' + ('{%s}' % '\\eventsep '.join(
-                [jyotisha.custom_transliteration.tr(f, panchangam.script) for f in sorted(set(panchangam.festivals[d]))]))
+                [jyotisha.custom_transliteration.tr(f, panchangam.script).replace('★', '$^\\star$') for f in sorted(set(panchangam.festivals[d]))]))
         else:
             if panchangam.weekday[d] == 0:
                 W6D1 = '\n' + ('\\caldata{\\textcolor{%s}{%s}}{%s{%s}}%%' %

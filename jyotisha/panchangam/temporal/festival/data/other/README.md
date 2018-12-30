@@ -72,7 +72,7 @@ Cहायायां करिणः स्ह्राद्धं तत्�
 ```
 
 ---
-## bhAnusaptamI*
+## bhAnusaptamI★
 _सप्तमी तिथि on a Sunday is as sacred as a solar eclipse. Particularly good for worshipping Surya. Today is even more auspicious, as it is associated with रॆवती star._
 
 ```
@@ -452,7 +452,7 @@ _सप्तमी तिथि on a Sunday is as sacred as a solar eclipse. Pa
 ```
 
 ---
-## vijayA bhAnusaptamI*
+## vijayA bhAnusaptamI★
 _सप्तमी तिथि on a Sunday is as sacred as a solar eclipse. Particularly good for worshipping Surya. When शुक्ल सप्तमी is present at sunrise, it is called विजया._
 
 ```
@@ -550,14 +550,14 @@ _Do उपवासम् (at least do not take salt) and pray to Lord Shiva (Va
 _Perform special puja and naivedyam (e.g. तिलान्नम्) to Lord Venkateshwara._
 
 ---
-## *cUDAmaNi-candra-grahaNam
+## ★cUDAmaNi-candra-grahaNam
 _When a lunar eclipse occurs on a Monday, it is even more special: चूडामणि, i.e. crest jewel._
 ### References
 * Kielhorn, 1897
 
 
 ---
-## *cUDAmaNi-sUrya-grahaNam
+## ★cUDAmaNi-sUrya-grahaNam
 _When a solar eclipse occurs on a Sunday, it is even more special: चूडामणि, i.e. crest jewel._
 ### References
 * Kielhorn, 1897

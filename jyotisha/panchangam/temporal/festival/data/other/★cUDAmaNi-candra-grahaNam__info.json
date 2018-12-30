@@ -1,0 +1,16 @@
+{
+  "description": {
+    "en": "When a lunar eclipse occurs on a Monday, it is even more special: `cUDAmaNi`, i.e. crest jewel."
+  },
+  "id": "\u2605cUDAmaNi-candra-grahaNam",
+  "jsonClass": "HinduCalendarEvent",
+  "references_secondary": [
+    "Kielhorn, 1897"
+  ],
+  "tags": [
+    "rare-days"
+  ],
+  "timing": {
+    "jsonClass": "HinduCalendarEventTiming"
+  }
+}

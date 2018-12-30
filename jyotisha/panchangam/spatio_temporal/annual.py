@@ -926,7 +926,7 @@ class Panchangam(common.JsonObject):
           festival_name = 'vijayA' + '~' + festival_name
         if self.nakshatram_sunrise[d] == 27:
           # Even more auspicious!
-          festival_name += '*'
+          festival_name += '★'
         self.add_festival(festival_name, d, debug_festivals)
 
       if jyotisha.panchangam.temporal.get_angam(self.jd_sunrise[d], jyotisha.panchangam.temporal.NAKSHATRA_PADA,
@@ -1317,7 +1317,7 @@ class Panchangam(common.JsonObject):
                             '}{\\RIGHTarrow}\\textsf{' + jyotisha.panchangam.temporal.Time(
           eclipse_solar_end).toString() + '}'
         if self.weekday[fday] == 0:
-          solar_eclipse_str = '*cUDAmaNi-' + solar_eclipse_str
+          solar_eclipse_str = '★cUDAmaNi-' + solar_eclipse_str
         self.festivals[fday].append(solar_eclipse_str)
       jd = jd + jyotisha.panchangam.temporal.MIN_DAYS_NEXT_ECLIPSE
 
@@ -1394,7 +1394,7 @@ class Panchangam(common.JsonObject):
                             '~\\textsf{' + jyotisha.panchangam.temporal.Time(eclipse_lunar_start).toString() + \
                             '}{\\RIGHTarrow}\\textsf{' + jyotisha.panchangam.temporal.Time(eclipse_lunar_end).toString() + '}'
         if self.weekday[fday] == 1:
-          lunar_eclipse_str = '*cUDAmaNi-' + lunar_eclipse_str
+          lunar_eclipse_str = '★cUDAmaNi-' + lunar_eclipse_str
 
         self.festivals[fday].append(lunar_eclipse_str)
       jd += jyotisha.panchangam.temporal.MIN_DAYS_NEXT_ECLIPSE

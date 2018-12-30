@@ -226,7 +226,7 @@ def writeDailyTeX(panchangam, template_file, compute_lagnams=True):
         # Using set as an ugly workaround since we may have sometimes assigned the same
         # festival to the same day again!
         print('{%s}' % '\\eventsep '.join(
-            [jyotisha.custom_transliteration.tr(f, panchangam.script) for f in sorted(set(panchangam.festivals[d]))]))
+            [jyotisha.custom_transliteration.tr(f, panchangam.script).replace('★', '$^\\star$') for f in sorted(set(panchangam.festivals[d]))]))
 
         print('{%s} ' % WDAY[panchangam.weekday[d]])
 

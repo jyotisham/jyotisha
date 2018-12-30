@@ -102,9 +102,9 @@
     },
     {
         "description": {
-            "en": "`saptamI tithi` on a Sunday is as sacred as a solar eclipse. Particularly good for worshipping Surya. Today is even more auspicious, as it is associated with `revatI` star."
+            "en": "`saptamI tithi` on a Sunday is as sacred as a solar eclipse. Particularly good for worshipping Surya. Today is even more auspicious, as it is associated with `rEvatI` star."
         },
-        "id": "bhAnusaptamI*",
+        "id": "bhAnusaptamI★",
         "jsonClass": "HinduCalendarEventOld",
         "shlokas": [
             "amAvasyA tu sOmEna saptamI bhAnunA saha.\ncaturthI bhUmiputrENa sOmaputrENa cASTamI.\n catasrastithayastvEtAH sUryagrahaNasannibhAH.."
@@ -574,7 +574,7 @@
         "description": {
             "en": "`saptamI tithi` on a Sunday is as sacred as a solar eclipse. Particularly good for worshipping Surya. When `zukla saptamI` is present at sunrise, it is called `vijayA`."
         },
-        "id": "vijayA~bhAnusaptamI*",
+        "id": "vijayA~bhAnusaptamI★",
         "jsonClass": "HinduCalendarEventOld",
         "shlokas": [
             "amAvasyA tu sOmEna saptamI bhAnunA saha.\ncaturthI bhUmiputrENa sOmaputrENa cASTamI.\n catasrastithayastvEtAH sUryagrahaNasannibhAH.."
@@ -713,7 +713,7 @@
         "description": {
             "en": "When a lunar eclipse occurs on a Monday, it is even more special: `cUDAmaNi`, i.e. crest jewel."
         },
-        "id": "*cUDAmaNi-candra-grahaNam",
+        "id": "★cUDAmaNi-candra-grahaNam",
         "jsonClass": "HinduCalendarEventOld",
         "references_secondary": [
             "Kielhorn, 1897"
@@ -724,7 +724,7 @@
         "description": {
             "en": "When a solar eclipse occurs on a Sunday, it is even more special: `cUDAmaNi`, i.e. crest jewel."
         },
-        "id": "*cUDAmaNi-sUrya-grahaNam",
+        "id": "★cUDAmaNi-sUrya-grahaNam",
         "jsonClass": "HinduCalendarEventOld",
         "references_secondary": [
             "Kielhorn, 1897"
