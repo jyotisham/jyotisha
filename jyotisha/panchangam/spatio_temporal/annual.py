@@ -75,7 +75,8 @@ class Panchangam(common.JsonObject):
     daily_panchaangas = [None] * jyotisha.panchangam.temporal.MAX_SZ
 
     self.fest_days = {}
-    self.festivals = [[] for _x in range(jyotisha.panchangam.temporal.MAX_SZ)]
+    # Pushkaram starting on 31 Jan might not get over till 12 days later
+    self.festivals = [[] for _x in range(jyotisha.panchangam.temporal.MAX_SZ + 15)]
 
     # Computing solar month details for Dec 31
     # rather than Jan 1, since we have an always increment
@@ -1404,7 +1405,7 @@ class Panchangam(common.JsonObject):
 
   def computeTransits(self):
     jd_end = self.jd_start + jyotisha.panchangam.temporal.MAX_DAYS_PER_YEAR
-    check_window = 150
+    check_window = 400  # Max t between two Jupiter transits is ~396 (checked across 180y)
     # Let's check for transitions in a relatively large window
     # to finalise what is the FINAL transition post retrograde movements
     transits = jyotisha.panchangam.temporal.get_planet_next_transit(self.jd_start - check_window, jd_end + check_window,
@@ -1417,7 +1418,7 @@ class Panchangam(common.JsonObject):
           self.festivals[fday].append('guru-saGkrAntiH~(%s##\\To{}##%s)' %
                                       (jyotisha.panchangam.temporal.NAMES['RASHI_NAMES']['hk'][rashi1],
                                        jyotisha.panchangam.temporal.NAMES['RASHI_NAMES']['hk'][rashi2]))
-          if rashi1 < rashi2 and transits[i+1][1] < transits[i+1][2]:
+          if rashi1 < rashi2 and transits[i + 1][1] < transits[i + 1][2]:
             # Considering only non-retrograde transits for pushkara computations
             (madhyanha_start, madhyaahna_end) = jyotisha.panchangam.temporal.get_kaalas(self.jd_sunrise[fday],
                                                                                         self.jd_sunset[fday], 2, 5)
@@ -1425,10 +1426,14 @@ class Panchangam(common.JsonObject):
               fday_pushkara = fday
             else:
               fday_pushkara = fday + 1
-            self.festivals[fday_pushkara].append('%s-Adi-puSkara-ArambhaH' % jyotisha.panchangam.temporal.NAMES['PUSHKARA_NAMES']['hk'][rashi2])
-            self.festivals[fday_pushkara + 11].append('%s-Adi-puSkara-samApanam' % jyotisha.panchangam.temporal.NAMES['PUSHKARA_NAMES']['hk'][rashi2])
-            self.festivals[fday_pushkara - 1].append('%s-antya-puSkara-samApanam' % jyotisha.panchangam.temporal.NAMES['PUSHKARA_NAMES']['hk'][rashi1])
-            self.festivals[fday_pushkara - 12].append('%s-antya-puSkara-ArambhaH' % jyotisha.panchangam.temporal.NAMES['PUSHKARA_NAMES']['hk'][rashi1])
+            self.add_festival('%s-Adi-puSkara-ArambhaH' % jyotisha.panchangam.temporal.NAMES['PUSHKARA_NAMES']['hk'][rashi2], fday_pushkara, debug=False)
+            self.add_festival('%s-Adi-puSkara-samApanam' % jyotisha.panchangam.temporal.NAMES['PUSHKARA_NAMES']['hk'][rashi2], fday_pushkara + 11, debug=False)
+            self.add_festival('%s-antya-puSkara-samApanam' % jyotisha.panchangam.temporal.NAMES['PUSHKARA_NAMES']['hk'][rashi1], fday_pushkara - 1, debug=False)
+            self.add_festival('%s-antya-puSkara-ArambhaH' % jyotisha.panchangam.temporal.NAMES['PUSHKARA_NAMES']['hk'][rashi1], fday_pushkara - 12, debug=False)
+            # self.festivals[fday_pushkara].append('%s-Adi-puSkara-ArambhaH' % jyotisha.panchangam.temporal.NAMES['PUSHKARA_NAMES']['hk'][rashi2])
+            # self.festivals[fday_pushkara + 11].append('%s-Adi-puSkara-samApanam' % jyotisha.panchangam.temporal.NAMES['PUSHKARA_NAMES']['hk'][rashi2])
+            # self.festivals[fday_pushkara - 1].append('%s-antya-puSkara-samApanam' % jyotisha.panchangam.temporal.NAMES['PUSHKARA_NAMES']['hk'][rashi1])
+            # self.festivals[fday_pushkara - 12].append('%s-antya-puSkara-ArambhaH' % jyotisha.panchangam.temporal.NAMES['PUSHKARA_NAMES']['hk'][rashi1])
 
     # transits = jyotisha.panchangam.temporal.get_planet_next_transit(self.jd_start, jd_end,
     #                                    swe.SATURN, ayanamsha_id=self.ayanamsha_id)
