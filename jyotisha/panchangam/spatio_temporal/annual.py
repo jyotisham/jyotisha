@@ -1246,16 +1246,22 @@ class Panchangam(common.JsonObject):
     # If tripurotsava coincides with maha kArtikI (kRttikA nakShatram)
     # only then it is mahAkArtikI
     # else it is only tripurotsava
-    if self.fest_days['tripurOtsavaH'] != self.fest_days['mahA~kArtikI']:
-      del self.fest_days['mahA~kArtikI']
-      # An error here implies the festivals were not assigned: adhika
-      # mAsa calc errors??
+    if 'tripurOtsavaH' not in self.fest_days:
+      logging.error('tripurOtsavaH not in self.fest_days!')
+    else:
+      if self.fest_days['tripurOtsavaH'] != self.fest_days['mahA~kArtikI']:
+        del self.fest_days['mahA~kArtikI']
+        # An error here implies the festivals were not assigned: adhika
+        # mAsa calc errors??
 
   def assign_relative_festivals(self):
     # Add "RELATIVE" festivals --- festivals that happen before or
     # after other festivals with an exact timedelta!
-    self.fest_days['varalakSmI-vratam'] = [self.fest_days['yajurvEda-upAkarma'][0] -
-                                           ((self.weekday_start - 1 + self.fest_days['yajurvEda-upAkarma'][0] - 5) % 7)]
+    if 'yajurvEda-upAkarma' not in self.fest_days:
+      logging.error('yajurvEda-upAkarma not in festivals!')
+    else:
+      self.fest_days['varalakSmI-vratam'] = [self.fest_days['yajurvEda-upAkarma'][0] -
+                                             ((self.weekday_start - 1 + self.fest_days['yajurvEda-upAkarma'][0] - 5) % 7)]
 
     relative_festival_rules = read_old_festival_rules_dict(os.path.join(CODE_ROOT, 'panchangam/data/relative_festival_rules.json'))
 
