@@ -107,6 +107,10 @@ _Dvadashi tithi, combined with Pushya nakshatram._
 _Saptami tithi, combined with a sankranti._
 
 ---
+## bhadrA saptamI
+_Saptami tithi, combined with the first पाद of हस्त nakshatram._
+
+---
 ## mahOdaya-puNyakAlaH
 _A rare combination of Pausha masam, Shravana nakshatram, Vyatipata yogam and Monday._
 

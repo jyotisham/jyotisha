@@ -6,11 +6,31 @@
 
 
 ---
-## Azvayuja-(Adhika)-amAvasyA
+## Azvayuja-(adhika)-amAvasyA
 
 
 ---
-## jyaiSTha-(Adhika)-amAvasyA
+## ASADha-(adhika)-amAvasyA
+
+
+---
+## bhAdrapada-(adhika)-amAvasyA
+
+
+---
+## caitra-(adhika)-amAvasyA
+
+
+---
+## vaizAkha-(adhika)-amAvasyA
+
+
+---
+## zravaNa-(adhika)-amAvasyA
+
+
+---
+## jyaiSTha-(adhika)-amAvasyA
 
 
 ---
@@ -35,6 +55,10 @@
 
 ---
 ## mauni (pauSa/makara) amAvasyA
+
+
+---
+## mauni (mAgha/makara) amAvasyA
 
 
 ---
