@@ -487,7 +487,7 @@ def get_chandra_masa(month, NAMES, script):
     if month == int(month):
         return NAMES['CHANDRA_MASA_NAMES'][script][month]
     else:
-        return '%s-(%s)' % (NAMES['CHANDRA_MASA_NAMES'][script][int(month) + 1], tr('adhika', script))
+        return '%s-(%s)' % (NAMES['CHANDRA_MASA_NAMES'][script][int(month) + 1], tr('adhika', script, titled=False))
 
 
 def get_tithi(jd, ayanamsha_id=swe.SIDM_LAHIRI):
