@@ -49,7 +49,7 @@ def compute_calendar(panchangam):
     alarm.add('action', 'DISPLAY')
     alarm.add('trigger', timedelta(hours=-4))  # default alarm, with a 4 hour reminder
 
-    for d in range(1, jyotisha.panchangam.temporal.MAX_SZ - 1):
+    for d in range(1, len(panchangam.festivals)):
         [y, m, dt, t] = swe.revjul(panchangam.jd_start + d - 1)
 
         if len(panchangam.festivals[d]) > 0:
@@ -216,8 +216,8 @@ def compute_calendar(panchangam):
                     event['X-MICROSOFT-CDO-BUSYSTATUS'] = 'FREE'
                     ics_calendar.add_component(event)
 
-        if m == 12 and dt == 31:
-            break
+        # if m == 12 and dt == 31:
+        #     break
 
     return ics_calendar
 
