@@ -191,12 +191,37 @@
         "tags": "amavasya-days"
     },
     {
-        "id": "Azvayuja-(Adhika)-amAvasyA",
+        "id": "Azvayuja-(adhika)-amAvasyA",
         "jsonClass": "HinduCalendarEventOld",
         "tags": "amavasya-days"
     },
     {
-        "id": "jyaiSTha-(Adhika)-amAvasyA",
+        "id": "ASADha-(adhika)-amAvasyA",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "amavasya-days"
+    },
+    {
+        "id": "bhAdrapada-(adhika)-amAvasyA",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "amavasya-days"
+    },
+    {
+        "id": "caitra-(adhika)-amAvasyA",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "amavasya-days"
+    },
+    {
+        "id": "vaizAkha-(adhika)-amAvasyA",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "amavasya-days"
+    },
+    {
+        "id": "zravaNa-(adhika)-amAvasyA",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "amavasya-days"
+    },
+    {
+        "id": "jyaiSTha-(adhika)-amAvasyA",
         "jsonClass": "HinduCalendarEventOld",
         "tags": "amavasya-days"
     },
@@ -357,6 +382,11 @@
     },
     {
         "id": "mauni (pauSa/makara) amAvasyA",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "amavasya-days"
+    },
+    {
+        "id": "mauni (mAgha/makara) amAvasyA",
         "jsonClass": "HinduCalendarEventOld",
         "tags": "amavasya-days"
     },
@@ -781,6 +811,14 @@
             "en": "Saptami tithi, combined with a sankranti."
         },
         "id": "mahAjayA~saptamI",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "rare-days,combinations"
+    },
+    {
+        "description": {
+            "en": "Saptami tithi, combined with the first `pAda` of `hasta` nakshatram."
+        },
+        "id": "bhadrA~saptamI",
         "jsonClass": "HinduCalendarEventOld",
         "tags": "rare-days,combinations"
     },
