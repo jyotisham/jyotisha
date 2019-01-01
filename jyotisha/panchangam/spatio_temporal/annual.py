@@ -1489,13 +1489,11 @@ def get_panchangam(city, year, script, compute_lagnams=False, precomputed_json_d
     sys.stderr.write('Loaded pre-computed panchangam from %s.\n' % fname)
     return JsonObject.read_from_file(filename=fname_det)
   else:
-    sys.stderr.write('No precomputed data available. Computing panchangam... ')
-    sys.stderr.flush()
+    sys.stderr.write('No precomputed data available. Computing panchangam...\n')
     panchangam = Panchangam(city=city, year=year, script=script, compute_lagnams=compute_lagnams)
     # Festival data may be updated more frequently and a precomputed panchangam may go out of sync. Hence we keep this method separate.
-    panchangam.update_festival_details()
-    sys.stderr.write('done.\n')
-    sys.stderr.write('Writing computed panchangam to %s...' % fname)
+    sys.stderr.write('Writing computed panchangam to %s...\n' % fname)
+
     try:
       if compute_lagnams:
         panchangam.dump_to_file(filename=fname_det)
@@ -1504,4 +1502,6 @@ def get_panchangam(city, year, script, compute_lagnams=False, precomputed_json_d
     except EnvironmentError:
       logging.warning("Not able to save.")
       logging.error(traceback.format_exc())
+    # Save without festival details
+    panchangam.update_festival_details()
     return panchangam
