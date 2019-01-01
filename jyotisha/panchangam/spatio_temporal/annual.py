@@ -1117,12 +1117,15 @@ class Panchangam(common.JsonObject):
           if angam_type == 'tithi':
             angam_sunrise = self.tithi_sunrise
             get_angam_func = jyotisha.panchangam.temporal.get_tithi
+            num_angams = 30
           elif angam_type == 'nakshatram':
             angam_sunrise = self.nakshatram_sunrise
             get_angam_func = jyotisha.panchangam.temporal.get_nakshatram
+            num_angams = 27
           elif angam_type == 'yogam':
             angam_sunrise = self.yogam_sunrise
             get_angam_func = jyotisha.panchangam.temporal.get_yoga
+            num_angams = 27
           else:
             raise ValueError('Error; unknown string in rule: "%s"' % (angam_type))
 
@@ -1196,12 +1199,13 @@ class Panchangam(common.JsonObject):
                   fday = d
               elif angams[2] == angam_num or angams[3] == angam_num:
                 fday = d + 1
-              if fday is None:
+              else:
                 # This means that the correct angam did not
                 # touch the kaala on either day!
-                # sys.stderr.write('Could not assign puurvaviddha day for %s!\
-                # Please check for unusual cases.\n' % festival_name)
-                if angams[2] == angam_num + 1 or angams[3] == angam_num + 1:
+                if angams == [(angam_num - 1), (angam_num - 1), ((angam_num % num_angams) + 1), ((angam_num % num_angams) + 1)]:
+                  # d_offset = {'sunrise': 0, 'aparahna': 1, 'moonrise': 1, 'madhyaahna': 1, 'sunset': 1}[kaala]
+                  d_offset = 0 if kaala in ['sunrise', 'moonrise'] else 1
+                  logging.warning('%d-%02d-%02d> %s: %s %d did not touch %s on either day: %s. Assigning today + %d' % (y, m, dt, festival_name, angam_type, angam_num, kaala, str(angams), d_offset))
                   # Need to assign a day to the festival here
                   # since the angam did not touch kaala on either day
                   # BUT ONLY IF YESTERDAY WASN'T ALREADY ASSIGNED,
@@ -1209,10 +1213,10 @@ class Panchangam(common.JsonObject):
                   # Perhaps just need better checking of
                   # conditions instead of this fix
                   if festival_name in self.fest_days:
-                    if self.fest_days[festival_name].count(d - 1) == 0:
-                      fday = d
+                    if self.fest_days[festival_name].count(d - 1 + d_offset) == 0:
+                      fday = d + d_offset
                   else:
-                    fday = d
+                    fday = d + d_offset
             else:
               logging.error('Unknown priority "%s" for %s! Check the rules!' % (priority, festival_name))
 
