@@ -1467,6 +1467,7 @@ class Panchangam(common.JsonObject):
     Festival data may be updated more frequently and a precomputed panchangam may go out of sync. Hence we keep this method separate.
     :return:
     """
+    self.reset_festivals()
     self.computeTransits()
     self.compute_solar_eclipses()
     self.compute_lunar_eclipses()
@@ -1477,6 +1478,11 @@ class Panchangam(common.JsonObject):
     self.compute_angams(compute_lagnams=compute_lagnams)
     self.assignLunarMonths()
     # self.update_festival_details()
+
+  def reset_festivals(self, compute_lagnams=False):
+    self.fest_days = {}
+    # Pushkaram starting on 31 Jan might not get over till 12 days later
+    self.festivals = [[] for _x in range(jyotisha.panchangam.temporal.MAX_SZ + 15)]
 
 
 # Essential for depickling to work.
@@ -1498,7 +1504,6 @@ def get_panchangam(city, year, script, compute_lagnams=False, precomputed_json_d
   else:
     sys.stderr.write('No precomputed data available. Computing panchangam...\n')
     panchangam = Panchangam(city=city, year=year, script=script, compute_lagnams=compute_lagnams)
-    # Festival data may be updated more frequently and a precomputed panchangam may go out of sync. Hence we keep this method separate.
     sys.stderr.write('Writing computed panchangam to %s...\n' % fname)
 
     try:
@@ -1510,5 +1515,6 @@ def get_panchangam(city, year, script, compute_lagnams=False, precomputed_json_d
       logging.warning("Not able to save.")
       logging.error(traceback.format_exc())
     # Save without festival details
+    # Festival data may be updated more frequently and a precomputed panchangam may go out of sync. Hence we keep this method separate.
     panchangam.update_festival_details()
     return panchangam
