@@ -1461,16 +1461,16 @@ class Panchangam(common.JsonObject):
     Festival data may be updated more frequently and a precomputed panchangam may go out of sync. Hence we keep this method separate.
     :return:
     """
+    self.computeTransits()
+    self.compute_solar_eclipses()
+    self.compute_lunar_eclipses()
     self.compute_festivals()
     self.assign_relative_festivals()
 
   def add_details(self, compute_lagnams=False):
     self.compute_angams(compute_lagnams=compute_lagnams)
     self.assignLunarMonths()
-    self.update_festival_details()
-    self.compute_solar_eclipses()
-    self.compute_lunar_eclipses()
-    self.computeTransits()
+    # self.update_festival_details()
 
 
 # Essential for depickling to work.

@@ -310,6 +310,8 @@ def main():
     city = City(city_name, latitude, longitude, tz)
     panchangam = jyotisha.panchangam.spatio_temporal.annual.get_panchangam(city=city, year=year, script=script)
 
+    panchangam.update_festival_details()
+
     monthly_template_file = open(os.path.join(CODE_ROOT, 'panchangam/data/templates/monthly_cal_template.tex'))
     writeMonthlyTeX(panchangam, monthly_template_file)
     # panchangam.writeDebugLog()

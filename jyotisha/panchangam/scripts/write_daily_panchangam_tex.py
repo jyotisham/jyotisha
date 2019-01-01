@@ -254,7 +254,7 @@ def main():
 
     panchangam = jyotisha.panchangam.spatio_temporal.annual.get_panchangam(city=city, year=year, script=script, compute_lagnams=compute_lagnams)
 
-    panchangam.add_details()
+    panchangam.update_festival_details()
 
     daily_template_file = open(os.path.join(CODE_ROOT, 'panchangam/data/templates/daily_cal_template.tex'))
     writeDailyTeX(panchangam, daily_template_file, compute_lagnams)
