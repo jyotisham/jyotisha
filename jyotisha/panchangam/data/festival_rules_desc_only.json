@@ -1,133 +1,5 @@
 [
     {
-        "id": "guruvAyupura-EkAdazI",
-        "description": {
-            "en": "The Shukla-paksha Ekadashi of `vRzcikamAsa` is known as `guruvAyupura-EkAdazI`."
-        },
-        "jsonClass": "HinduCalendarEventOld",
-        "tags": "monthly-vratams,ekadashi-vratam-days,kerala-temple-festivals"
-    },
-    {
-        "id": "vaikunTha-EkAdazI",
-        "description": {
-            "en": "The Shukla-paksha Ekadashi of `dhanurmAsa` is known as `vaikunTha-EkAdazI`."
-        },
-        "jsonClass": "HinduCalendarEventOld",
-        "tags": "monthly-vratams,ekadashi-vratam-days"
-    },
-    {
-        "description": {
-            "en": "Kaisika Puranam, consisting of 82 shlokas describes the story of `ta:nampADuvAn2` and a `rAkSasa` who attained mukti by `nAmasaGkIrtanam` and the fruits of `ta:nampADuvAn`'s `nAmasaGkIrtanam`, respectively!"
-        },
-        "id": "kaizika-EkAdazI",
-        "jsonClass": "HinduCalendarEventOld",
-        "tags": "monthly-vratams,ekadashi-vratam-days"
-    },
-    {
-        "id": "varUthinI-EkAdazI",
-        "description": {
-            "en": "The Krishna-paksha Ekadashi of `caitra` month is known as `varUthinI-EkAdazI`."
-        },
-        "jsonClass": "HinduCalendarEventOld",
-        "tags": "monthly-vratams,ekadashi-vratam-days"
-    },
-    {
-        "id": "aparA-EkAdazI",
-        "description": {
-            "en": "The Krishna-paksha Ekadashi of `vaizAkha` month is known as `aparA-EkAdazI`."
-        },
-        "jsonClass": "HinduCalendarEventOld",
-        "tags": "monthly-vratams,ekadashi-vratam-days"
-    },
-    {
-        "id": "yOginI-EkAdazI",
-        "description": {
-            "en": "The Krishna-paksha Ekadashi of `jyaiSTha` month is known as `yOginI-EkAdazI`."
-        },
-        "jsonClass": "HinduCalendarEventOld",
-        "tags": "monthly-vratams,ekadashi-vratam-days"
-    },
-    {
-        "id": "kAmikA-EkAdazI",
-        "description": {
-            "en": "The Krishna-paksha Ekadashi of `ASADha` month is known as `kAmikA-EkAdazI`."
-        },
-        "jsonClass": "HinduCalendarEventOld",
-        "tags": "monthly-vratams,ekadashi-vratam-days"
-    },
-    {
-        "id": "ajA-EkAdazI",
-        "description": {
-            "en": "The Krishna-paksha Ekadashi of `zravaNa` month is known as `ajA-EkAdazI`. Satya Harishchandra performed this to get back family and kingdom."
-        },
-        "jsonClass": "HinduCalendarEventOld",
-        "tags": "monthly-vratams,ekadashi-vratam-days"
-    },
-    {
-        "id": "indirA-EkAdazI",
-        "description": {
-            "en": "The Krishna-paksha Ekadashi of `bhAdrapada` month is known as `indirA-EkAdazI`. Indrasena's son did Ekadashi and as a result he was shifted from hell to heaven."
-        },
-        "jsonClass": "HinduCalendarEventOld",
-        "tags": "monthly-vratams,ekadashi-vratam-days"
-    },
-    {
-        "id": "ramA-EkAdazI",
-        "description": {
-            "en": "The Krishna-paksha Ekadashi of `Azvayuja` month is known as `ramA-EkAdazI`."
-        },
-        "jsonClass": "HinduCalendarEventOld",
-        "tags": "monthly-vratams,ekadashi-vratam-days"
-    },
-    {
-        "id": "utpannA-EkAdazI",
-        "description": {
-            "en": "The Krishna-paksha Ekadashi of `kArtika` month is known as `utpannA-EkAdazI`."
-        },
-        "jsonClass": "HinduCalendarEventOld",
-        "tags": "monthly-vratams,ekadashi-vratam-days"
-    },
-    {
-        "id": "saphalA-EkAdazI",
-        "description": {
-            "en": "The Krishna-paksha Ekadashi of `mArgazIrSa` month is known as `saphalA-EkAdazI`."
-        },
-        "jsonClass": "HinduCalendarEventOld",
-        "tags": "monthly-vratams,ekadashi-vratam-days"
-    },
-    {
-        "id": "SaTtilA-EkAdazI",
-        "description": {
-            "en": "The Krishna-paksha Ekadashi of `pauSa` month is known as `SaTtilA-EkAdazI`."
-        },
-        "jsonClass": "HinduCalendarEventOld",
-        "tags": "monthly-vratams,ekadashi-vratam-days"
-    },
-    {
-        "id": "vijayA-EkAdazI",
-        "description": {
-            "en": "The Krishna-paksha Ekadashi of `mAgha` month is known as `vijayA-EkAdazI`."
-        },
-        "jsonClass": "HinduCalendarEventOld",
-        "tags": "monthly-vratams,ekadashi-vratam-days"
-    },
-    {
-        "id": "pApamOcanI-EkAdazI",
-        "description": {
-            "en": "The Krishna-paksha Ekadashi of `phAlguna` month is known as `pApamOcanI-EkAdazI`."
-        },
-        "jsonClass": "HinduCalendarEventOld",
-        "tags": "monthly-vratams,ekadashi-vratam-days"
-    },
-    {
-        "id": "paramA-EkAdazI",
-        "description": {
-            "en": "The Krishna-paksha Ekadashi of `adhika` month is known as `paramA-EkAdazI`."
-        },
-        "jsonClass": "HinduCalendarEventOld",
-        "tags": "monthly-vratams,ekadashi-vratam-days"
-    },
-    {
         "id": "kAmadA-EkAdazI",
         "description": {
             "en": "The Shukla-paksha Ekadashi of `caitra` month is known as `kAmadA-EkAdazI`."
@@ -234,6 +106,134 @@
         "id": "padminI-EkAdazI",
         "description": {
             "en": "The Shukla-paksha Ekadashi of `adhika` month is known as `padminI-EkAdazI`."
+        },
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "monthly-vratams,ekadashi-vratam-days"
+    },
+    {
+        "id": "guruvAyupura-EkAdazI",
+        "description": {
+            "en": "The Shukla-paksha Ekadashi of `vRzcikamAsa` is known as `guruvAyupura-EkAdazI`."
+        },
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "monthly-vratams,ekadashi-vratam-days,kerala-temple-festivals"
+    },
+    {
+        "id": "vaikunTha-EkAdazI",
+        "description": {
+            "en": "The Shukla-paksha Ekadashi of `dhanurmAsa` is known as `vaikunTha-EkAdazI`."
+        },
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "monthly-vratams,ekadashi-vratam-days"
+    },
+    {
+        "description": {
+            "en": "The Shukla-paksha Ekadashi of `vRzcikamAsa` is also celebrated as `kaizika-EkAdazI`. Kaisika Puranam, consisting of 82 shlokas describes the story of `ta:nampADuvAn2` and a `rAkSasa` who attained mukti by `nAmasaGkIrtanam` and the fruits of `ta:nampADuvAn`'s `nAmasaGkIrtanam`, respectively!"
+        },
+        "id": "kaizika-EkAdazI",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "monthly-vratams,ekadashi-vratam-days"
+    },
+    {
+        "id": "varUthinI-EkAdazI",
+        "description": {
+            "en": "The Krishna-paksha Ekadashi of `caitra` month is known as `varUthinI-EkAdazI`."
+        },
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "monthly-vratams,ekadashi-vratam-days"
+    },
+    {
+        "id": "aparA-EkAdazI",
+        "description": {
+            "en": "The Krishna-paksha Ekadashi of `vaizAkha` month is known as `aparA-EkAdazI`."
+        },
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "monthly-vratams,ekadashi-vratam-days"
+    },
+    {
+        "id": "yOginI-EkAdazI",
+        "description": {
+            "en": "The Krishna-paksha Ekadashi of `jyaiSTha` month is known as `yOginI-EkAdazI`."
+        },
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "monthly-vratams,ekadashi-vratam-days"
+    },
+    {
+        "id": "kAmikA-EkAdazI",
+        "description": {
+            "en": "The Krishna-paksha Ekadashi of `ASADha` month is known as `kAmikA-EkAdazI`."
+        },
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "monthly-vratams,ekadashi-vratam-days"
+    },
+    {
+        "id": "ajA-EkAdazI",
+        "description": {
+            "en": "The Krishna-paksha Ekadashi of `zravaNa` month is known as `ajA-EkAdazI`. Satya Harishchandra performed this to get back family and kingdom."
+        },
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "monthly-vratams,ekadashi-vratam-days"
+    },
+    {
+        "id": "indirA-EkAdazI",
+        "description": {
+            "en": "The Krishna-paksha Ekadashi of `bhAdrapada` month is known as `indirA-EkAdazI`. Indrasena's son did Ekadashi and as a result he was shifted from hell to heaven."
+        },
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "monthly-vratams,ekadashi-vratam-days"
+    },
+    {
+        "id": "ramA-EkAdazI",
+        "description": {
+            "en": "The Krishna-paksha Ekadashi of `Azvayuja` month is known as `ramA-EkAdazI`."
+        },
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "monthly-vratams,ekadashi-vratam-days"
+    },
+    {
+        "id": "utpannA-EkAdazI",
+        "description": {
+            "en": "The Krishna-paksha Ekadashi of `kArtika` month is known as `utpannA-EkAdazI`."
+        },
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "monthly-vratams,ekadashi-vratam-days"
+    },
+    {
+        "id": "saphalA-EkAdazI",
+        "description": {
+            "en": "The Krishna-paksha Ekadashi of `mArgazIrSa` month is known as `saphalA-EkAdazI`."
+        },
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "monthly-vratams,ekadashi-vratam-days"
+    },
+    {
+        "id": "SaTtilA-EkAdazI",
+        "description": {
+            "en": "The Krishna-paksha Ekadashi of `pauSa` month is known as `SaTtilA-EkAdazI`."
+        },
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "monthly-vratams,ekadashi-vratam-days"
+    },
+    {
+        "id": "vijayA-EkAdazI",
+        "description": {
+            "en": "The Krishna-paksha Ekadashi of `mAgha` month is known as `vijayA-EkAdazI`."
+        },
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "monthly-vratams,ekadashi-vratam-days"
+    },
+    {
+        "id": "pApamOcanI-EkAdazI",
+        "description": {
+            "en": "The Krishna-paksha Ekadashi of `phAlguna` month is known as `pApamOcanI-EkAdazI`."
+        },
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "monthly-vratams,ekadashi-vratam-days"
+    },
+    {
+        "id": "paramA-EkAdazI",
+        "description": {
+            "en": "The Krishna-paksha Ekadashi of `adhika` month is known as `paramA-EkAdazI`."
         },
         "jsonClass": "HinduCalendarEventOld",
         "tags": "monthly-vratams,ekadashi-vratam-days"
