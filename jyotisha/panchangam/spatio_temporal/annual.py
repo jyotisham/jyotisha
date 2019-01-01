@@ -1279,6 +1279,13 @@ class Panchangam(common.JsonObject):
       for j in range(0, len(self.fest_days[festival_name])):
         self.festivals[self.fest_days[festival_name][j]].append(festival_name)
 
+  # def check_festivals(self):
+    festival_rules = read_old_festival_rules_dict(os.path.join(CODE_ROOT, 'panchangam/data/festival_rules.json'))
+    for festival_name in festival_rules:
+      result = [(key, value) for key, value in self.fest_days.items() if key.startswith(festival_name)]
+      if len(result) == 0:
+        logging.warning('Unable to assign day for %s' % festival_name)
+
   def compute_solar_eclipses(self):
     # Set location
     swe.set_topo(lon=self.city.longitude, lat=self.city.latitude, alt=0.0)
