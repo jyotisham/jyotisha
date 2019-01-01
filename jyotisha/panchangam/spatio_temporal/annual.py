@@ -397,7 +397,7 @@ class Panchangam(common.JsonObject):
 
   def add_festival(self, festival_name, d, debug=False):
     if debug:
-      print('%', d, ':', festival_name, d)
+      logging.debug('%03d: %s ' % (d, festival_name))
     if festival_name in self.fest_days:
       if d not in self.fest_days[festival_name]:
         # Second occurrence of a festival within a
@@ -1176,18 +1176,18 @@ class Panchangam(common.JsonObject):
 
               if fday is None:
                 if festival_name not in self.fest_days:
-                  sys.stderr.write('%d: %s\n' % (d, angams))
+                  logging.debug('%d: %s' % (d, angams))
                   if angams[1] == angam_num + 1:
                     # This can fail for "boundary" angam_nums like 1 and 30!
                     fday = d  # Should be d - 1?
-                    sys.stderr.write('Assigned paraviddha day for %s as %d with difficulty!' %
-                                     (festival_name, fday) + ' Please check for unusual cases.\n')
+                    logging.warning('Assigned paraviddha day for %s as %d with difficulty!' %
+                                     (festival_name, fday) + ' Please check for unusual cases.')
 
               if fday is None:
                 if debug_festivals:
                   print('%', angams, angam_num)
                   if festival_name not in self.fest_days:
-                    sys.stderr.write('Could not assign paraviddha day for %s!' %
+                    logging.warning('Could not assign paraviddha day for %s!' %
                                      festival_name +
                                      ' Please check for unusual cases.\n')
               # else:
