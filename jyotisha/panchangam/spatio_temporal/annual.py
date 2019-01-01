@@ -491,8 +491,8 @@ class Panchangam(common.JsonObject):
         [_y, _m, _d, _t] = swe.revjul(harivasara_end + (tz_off / 24.0))
         hariv_end_time = jyotisha.panchangam.temporal.Time(swe.revjul(harivasara_end + (tz_off / 24.0))[3]).toString()
 
-        fday = swe.julday(_y, _m, _d, 0) - self.jd_start + 1
-        self.festivals[int(fday)].append(
+        fday_hv = swe.julday(_y, _m, _d, 0) - self.jd_start + 1
+        self.festivals[int(fday_hv)].append(
           'harivAsaraH\\textsf{%s}{\\RIGHTarrow}\\textsf{%s}' % ('', hariv_end_time))
 
       # One of two consecutive tithis must appear @ sunrise!
@@ -526,8 +526,8 @@ class Panchangam(common.JsonObject):
         [_y, _m, _d, _t] = swe.revjul(harivasara_end + (tz_off / 24.0))
         hariv_end_time = jyotisha.panchangam.temporal.Time(swe.revjul(harivasara_end + (tz_off / 24.0))[3]).toString()
 
-        fday = swe.julday(_y, _m, _d, 0) - self.jd_start + 1
-        self.festivals[int(fday)].append(
+        fday_hv = swe.julday(_y, _m, _d, 0) - self.jd_start + 1
+        self.festivals[int(fday_hv)].append(
           'harivAsaraH\\textsf{%s}{\\RIGHTarrow}\\textsf{%s}' % ('', hariv_end_time))
 
       # PRADOSHA Vratam
