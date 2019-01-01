@@ -1416,6 +1416,7 @@ class Panchangam(common.JsonObject):
                                        jyotisha.panchangam.temporal.NAMES['RASHI_NAMES']['hk'][rashi2]))
           if rashi1 < rashi2 and transits[i + 1][1] < transits[i + 1][2]:
             # Considering only non-retrograde transits for pushkara computations
+            # logging.debug('Non-retrograde transit; we have a pushkaram!')
             (madhyanha_start, madhyaahna_end) = jyotisha.panchangam.temporal.get_kaalas(self.jd_sunrise[fday],
                                                                                         self.jd_sunset[fday], 2, 5)
             if jd_transit < madhyaahna_end:
@@ -1426,10 +1427,8 @@ class Panchangam(common.JsonObject):
             self.add_festival('%s-Adi-puSkara-samApanam' % jyotisha.panchangam.temporal.NAMES['PUSHKARA_NAMES']['hk'][rashi2], fday_pushkara + 11, debug=False)
             self.add_festival('%s-antya-puSkara-samApanam' % jyotisha.panchangam.temporal.NAMES['PUSHKARA_NAMES']['hk'][rashi1], fday_pushkara - 1, debug=False)
             self.add_festival('%s-antya-puSkara-ArambhaH' % jyotisha.panchangam.temporal.NAMES['PUSHKARA_NAMES']['hk'][rashi1], fday_pushkara - 12, debug=False)
-            # self.festivals[fday_pushkara].append('%s-Adi-puSkara-ArambhaH' % jyotisha.panchangam.temporal.NAMES['PUSHKARA_NAMES']['hk'][rashi2])
-            # self.festivals[fday_pushkara + 11].append('%s-Adi-puSkara-samApanam' % jyotisha.panchangam.temporal.NAMES['PUSHKARA_NAMES']['hk'][rashi2])
-            # self.festivals[fday_pushkara - 1].append('%s-antya-puSkara-samApanam' % jyotisha.panchangam.temporal.NAMES['PUSHKARA_NAMES']['hk'][rashi1])
-            # self.festivals[fday_pushkara - 12].append('%s-antya-puSkara-ArambhaH' % jyotisha.panchangam.temporal.NAMES['PUSHKARA_NAMES']['hk'][rashi1])
+          # else:
+          #   logging.debug('Ignoring transit for pushkaram: %s' % str(swe.revjul(jd_transit)))
 
     # transits = jyotisha.panchangam.temporal.get_planet_next_transit(self.jd_start, jd_end,
     #                                    swe.SATURN, ayanamsha_id=self.ayanamsha_id)
@@ -1475,7 +1474,7 @@ class Panchangam(common.JsonObject):
 
 # Essential for depickling to work.
 common.update_json_class_index(sys.modules[__name__])
-logging.debug(common.json_class_index)
+# logging.debug(common.json_class_index)
 
 
 def get_panchangam(city, year, script, compute_lagnams=False, precomputed_json_dir="~/Documents"):
