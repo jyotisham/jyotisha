@@ -1,4 +1,7 @@
 {
+  "description": {
+    "en": "The Krishna-paksha Ekadashi of `pauSa` month is known as `SaTtilA-EkAdazI`."
+  },
   "id": "SaTtilA-EkAdazI",
   "jsonClass": "HinduCalendarEvent",
   "tags": [

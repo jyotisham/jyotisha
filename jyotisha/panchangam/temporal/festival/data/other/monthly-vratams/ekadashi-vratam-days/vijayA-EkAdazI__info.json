@@ -1,4 +1,7 @@
 {
+  "description": {
+    "en": "The Krishna-paksha Ekadashi of `mAgha` month is known as `vijayA-EkAdazI`."
+  },
   "id": "vijayA-EkAdazI",
   "jsonClass": "HinduCalendarEvent",
   "tags": [

@@ -1,4 +1,7 @@
 {
+  "description": {
+    "en": "The Shukla-paksha Ekadashi of `zravaNa` month is known as `pavitrOpAna-EkAdazI`."
+  },
   "id": "pavitrOpAna-EkAdazI",
   "jsonClass": "HinduCalendarEvent",
   "tags": [

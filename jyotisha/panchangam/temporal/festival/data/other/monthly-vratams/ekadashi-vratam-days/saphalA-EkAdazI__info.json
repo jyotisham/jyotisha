@@ -1,4 +1,7 @@
 {
+  "description": {
+    "en": "The Krishna-paksha Ekadashi of `mArgazIrSa` month is known as `saphalA-EkAdazI`."
+  },
   "id": "saphalA-EkAdazI",
   "jsonClass": "HinduCalendarEvent",
   "tags": [

@@ -25,8 +25,8 @@ _Adi Shankara founded Kamakoti Mutt, Kanchi in Siddharthi year with himself as f
 
 
 ---
-## ardhanArIshvara-vratam
-अर्धनारीस्ह्वर-व्रतम् is observed on Paurṇamāsī tithi of Vaiśākha (lunar) month (sunrise (default)/puurvaviddha (default)).
+## ardhanArIzvara-vratam
+अर्धनारीश्वर-व्रतम् is observed on Paurṇamāsī tithi of Vaiśākha (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 

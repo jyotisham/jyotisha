@@ -1,4 +1,7 @@
 {
+  "description": {
+    "en": "The Krishna-paksha Ekadashi of `phAlguna` month is known as `pApamOcanI-EkAdazI`."
+  },
   "id": "pApamOcanI-EkAdazI",
   "jsonClass": "HinduCalendarEvent",
   "tags": [

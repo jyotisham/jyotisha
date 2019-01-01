@@ -1,11 +1,19 @@
 [
     {
+        "id": "guruvAyupura-EkAdazI",
         "description": {
-            "en": "Monthly Shashthi vratam for Lord Subrahmanya."
+            "en": "The Shukla-paksha Ekadashi of `vRzcikamAsa` is known as `guruvAyupura-EkAdazI`."
         },
-        "id": "SaSThI-vratam",
         "jsonClass": "HinduCalendarEventOld",
-        "tags": "monthly-vratams,shashthi-vratam-days"
+        "tags": "monthly-vratams,ekadashi-vratam-days,kerala-temple-festivals"
+    },
+    {
+        "id": "vaikunTha-EkAdazI",
+        "description": {
+            "en": "The Shukla-paksha Ekadashi of `dhanurmAsa` is known as `vaikunTha-EkAdazI`."
+        },
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "monthly-vratams,ekadashi-vratam-days"
     },
     {
         "description": {
@@ -16,12 +24,235 @@
         "tags": "monthly-vratams,ekadashi-vratam-days"
     },
     {
+        "id": "varUthinI-EkAdazI",
+        "description": {
+            "en": "The Krishna-paksha Ekadashi of `caitra` month is known as `varUthinI-EkAdazI`."
+        },
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "monthly-vratams,ekadashi-vratam-days"
+    },
+    {
+        "id": "aparA-EkAdazI",
+        "description": {
+            "en": "The Krishna-paksha Ekadashi of `vaizAkha` month is known as `aparA-EkAdazI`."
+        },
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "monthly-vratams,ekadashi-vratam-days"
+    },
+    {
+        "id": "yOginI-EkAdazI",
+        "description": {
+            "en": "The Krishna-paksha Ekadashi of `jyaiSTha` month is known as `yOginI-EkAdazI`."
+        },
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "monthly-vratams,ekadashi-vratam-days"
+    },
+    {
+        "id": "kAmikA-EkAdazI",
+        "description": {
+            "en": "The Krishna-paksha Ekadashi of `ASADha` month is known as `kAmikA-EkAdazI`."
+        },
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "monthly-vratams,ekadashi-vratam-days"
+    },
+    {
+        "id": "ajA-EkAdazI",
+        "description": {
+            "en": "The Krishna-paksha Ekadashi of `zravaNa` month is known as `ajA-EkAdazI`. Satya Harishchandra performed this to get back family and kingdom."
+        },
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "monthly-vratams,ekadashi-vratam-days"
+    },
+    {
+        "id": "indirA-EkAdazI",
+        "description": {
+            "en": "The Krishna-paksha Ekadashi of `bhAdrapada` month is known as `indirA-EkAdazI`. Indrasena's son did Ekadashi and as a result he was shifted from hell to heaven."
+        },
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "monthly-vratams,ekadashi-vratam-days"
+    },
+    {
+        "id": "ramA-EkAdazI",
+        "description": {
+            "en": "The Krishna-paksha Ekadashi of `Azvayuja` month is known as `ramA-EkAdazI`."
+        },
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "monthly-vratams,ekadashi-vratam-days"
+    },
+    {
+        "id": "utpannA-EkAdazI",
+        "description": {
+            "en": "The Krishna-paksha Ekadashi of `kArtika` month is known as `utpannA-EkAdazI`."
+        },
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "monthly-vratams,ekadashi-vratam-days"
+    },
+    {
+        "id": "saphalA-EkAdazI",
+        "description": {
+            "en": "The Krishna-paksha Ekadashi of `mArgazIrSa` month is known as `saphalA-EkAdazI`."
+        },
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "monthly-vratams,ekadashi-vratam-days"
+    },
+    {
+        "id": "SaTtilA-EkAdazI",
+        "description": {
+            "en": "The Krishna-paksha Ekadashi of `pauSa` month is known as `SaTtilA-EkAdazI`."
+        },
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "monthly-vratams,ekadashi-vratam-days"
+    },
+    {
+        "id": "vijayA-EkAdazI",
+        "description": {
+            "en": "The Krishna-paksha Ekadashi of `mAgha` month is known as `vijayA-EkAdazI`."
+        },
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "monthly-vratams,ekadashi-vratam-days"
+    },
+    {
+        "id": "pApamOcanI-EkAdazI",
+        "description": {
+            "en": "The Krishna-paksha Ekadashi of `phAlguna` month is known as `pApamOcanI-EkAdazI`."
+        },
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "monthly-vratams,ekadashi-vratam-days"
+    },
+    {
+        "id": "paramA-EkAdazI",
+        "description": {
+            "en": "The Krishna-paksha Ekadashi of `adhika` month is known as `paramA-EkAdazI`."
+        },
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "monthly-vratams,ekadashi-vratam-days"
+    },
+    {
+        "id": "kAmadA-EkAdazI",
+        "description": {
+            "en": "The Shukla-paksha Ekadashi of `caitra` month is known as `kAmadA-EkAdazI`."
+        },
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "monthly-vratams,ekadashi-vratam-days"
+    },
+    {
+        "id": "mOhinI-EkAdazI",
+        "description": {
+            "en": "The Shukla-paksha Ekadashi of `vaizAkha` month is known as `mOhinI-EkAdazI`."
+        },
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "monthly-vratams,ekadashi-vratam-days"
+    },
+    {
+        "id": "pANDava-nirjalA-EkAdazI",
+        "description": {
+            "en": "The Shukla-paksha Ekadashi of `jyaiSTha` month is known as `nirjalA-EkAdazI`."
+        },
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "monthly-vratams,ekadashi-vratam-days"
+    },
+    {
+        "id": "zayana-EkAdazI",
+        "description": {
+            "en": "The Shukla-paksha Ekadashi of `ASADha` month is known as `zayana-EkAdazI`. Lord Vishnu goes to sleep for four months beginning today."
+        },
+        "jsonClass": "HinduCalendarEventOld",
+        "shlokas": [
+            "vAsudEva jagadyOnE prAptEyaM dvAdazI tava.\nbhujaGgazayanE'bdhau ca sukhaM svapihi mAdhava..\niyaM tu dvAdazI dEva zayanArthaM vinirmita.\nasyAM suptE jagannAthE jagatsuptaM bhavEdidam..\nvibuddhE tvayi buddhyEta sarvamEtaccarAcaram.."
+        ],
+        "tags": "monthly-vratams,ekadashi-vratam-days",
+        "titles": "padmA ekAdazI\ndevazayanI ekAdazI"
+    },
+    {
+        "id": "pavitrOpAna-EkAdazI",
+        "description": {
+            "en": "The Shukla-paksha Ekadashi of `zravaNa` month is known as `pavitrOpAna-EkAdazI`."
+        },
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "monthly-vratams,ekadashi-vratam-days"
+    },
+    {
+        "id": "parivartinI-EkAdazI",
+        "description": {
+            "en": "The Shukla-paksha Ekadashi of `bhAdrapada` month is known as `parivartinI-EkAdazI`. Sideways turn inside sleep of Lord Vishnu midway after Shayana Ekadashi."
+        },
+        "jsonClass": "HinduCalendarEventOld",
+        "shlokas": [
+            "vAsudEva jagannAtha prAptEyaM dvAdazI tava.\npArzvEna parivartasva sukhaM svapihi mAdhava.."
+        ],
+        "tags": "monthly-vratams,ekadashi-vratam-days"
+    },
+    {
+        "id": "pApAGkuzA-EkAdazI",
+        "description": {
+            "en": "The Shukla-paksha Ekadashi of `Azvayuja` month is known as `pApAGkuzA-EkAdazI`."
+        },
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "monthly-vratams,ekadashi-vratam-days"
+    },
+    {
+        "id": "utthAna-EkAdazI",
+        "description": {
+            "en": "The Shukla-paksha Ekadashi of `kArtika` month is known as `utthAna-EkAdazI`."
+        },
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "monthly-vratams,ekadashi-vratam-days"
+    },
+    {
+        "id": "mOkSadA-EkAdazI",
+        "description": {
+            "en": "The Shukla-paksha Ekadashi of `mArgazIrSa` month is known as `mOkSadA-EkAdazI`."
+        },
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "monthly-vratams,ekadashi-vratam-days"
+    },
+    {
+        "id": "putradA-EkAdazI",
+        "description": {
+            "en": "The Shukla-paksha Ekadashi of `pauSa` month is known as `putradA-EkAdazI`."
+        },
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "monthly-vratams,ekadashi-vratam-days"
+    },
+    {
+        "id": "jayA/bhaimI-EkAdazI",
+        "description": {
+            "en": "The Jaya-paksha Ekadashi of `mAgha` month is known as `bhaimI-EkAdazI`."
+        },
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "monthly-vratams,ekadashi-vratam-days"
+    },
+    {
+        "id": "AmalakI-EkAdazI",
+        "description": {
+            "en": "The Shukla-paksha Ekadashi of `phAlguna` month is known as `AmalakI-EkAdazI`."
+        },
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "monthly-vratams,ekadashi-vratam-days"
+    },
+    {
+        "id": "padminI-EkAdazI",
+        "description": {
+            "en": "The Shukla-paksha Ekadashi of `adhika` month is known as `padminI-EkAdazI`."
+        },
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "monthly-vratams,ekadashi-vratam-days"
+    },
+    {
         "description": {
             "en": "Being the first day of the new year, read the `paJcAGga` today, followed by naivedyam of `pAnakam` to `gaNEzAdi trayastriMzat kOTi dEvatAH`."
         },
         "id": "paJcAGga-paThanam",
         "jsonClass": "HinduCalendarEventOld",
         "tags": "common-festivals"
+    },
+    {
+        "description": {
+            "en": "Monthly Shashthi vratam for Lord Subrahmanya."
+        },
+        "id": "SaSThI-vratam",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "monthly-vratams,shashthi-vratam-days"
     },
     {
         "description": {
@@ -168,24 +399,6 @@
         "tags": "amavasya-days"
     },
     {
-        "description": {
-            "en": "Satya Harishchandra performed this to get back family and kingdom."
-        },
-        "id": "ajA-EkAdazI",
-        "jsonClass": "HinduCalendarEventOld",
-        "tags": "monthly-vratams,ekadashi-vratam-days"
-    },
-    {
-        "id": "AmalakI-EkAdazI",
-        "jsonClass": "HinduCalendarEventOld",
-        "tags": "monthly-vratams,ekadashi-vratam-days"
-    },
-    {
-        "id": "aparA-EkAdazI",
-        "jsonClass": "HinduCalendarEventOld",
-        "tags": "monthly-vratams,ekadashi-vratam-days"
-    },
-    {
         "id": "Azvayuja-amAvasyA",
         "jsonClass": "HinduCalendarEventOld",
         "tags": "amavasya-days"
@@ -251,48 +464,9 @@
         "tags": "rare-days,eclipses"
     },
     {
-        "id": "guruvAyupura-EkAdazI",
-        "jsonClass": "HinduCalendarEventOld",
-        "tags": "monthly-vratams,ekadashi-vratam-days,kerala-temple-festivals"
-    },
-    {
-        "description": {
-            "en": "Indrasena's son did Ekadashi and as a result he was shifted from hell to heaven."
-        },
-        "id": "indirA-EkAdazI",
-        "jsonClass": "HinduCalendarEventOld",
-        "tags": "monthly-vratams,ekadashi-vratam-days"
-    },
-    {
-        "id": "padminI-EkAdazI",
-        "jsonClass": "HinduCalendarEventOld",
-        "tags": "monthly-vratams,ekadashi-vratam-days"
-    },
-    {
-        "id": "paramA-EkAdazI",
-        "jsonClass": "HinduCalendarEventOld",
-        "tags": "monthly-vratams,ekadashi-vratam-days"
-    },
-    {
-        "id": "jayA/bhaimI-EkAdazI",
-        "jsonClass": "HinduCalendarEventOld",
-        "tags": "monthly-vratams,ekadashi-vratam-days",
-        "titles": "bhaimI-EkAdazI"
-    },
-    {
         "id": "jyaiSTha-amAvasyA",
         "jsonClass": "HinduCalendarEventOld",
         "tags": "amavasya-days"
-    },
-    {
-        "id": "kAmadA-EkAdazI",
-        "jsonClass": "HinduCalendarEventOld",
-        "tags": "monthly-vratams,ekadashi-vratam-days"
-    },
-    {
-        "id": "kAmikA-EkAdazI",
-        "jsonClass": "HinduCalendarEventOld",
-        "tags": "monthly-vratams,ekadashi-vratam-days"
     },
     {
         "id": "kArtika-amAvasyA",
@@ -333,54 +507,6 @@
         "tags": "amavasya-days"
     },
     {
-        "id": "mOhinI-EkAdazI",
-        "jsonClass": "HinduCalendarEventOld",
-        "tags": "monthly-vratams,ekadashi-vratam-days"
-    },
-    {
-        "id": "mOkSadA-EkAdazI",
-        "jsonClass": "HinduCalendarEventOld",
-        "tags": "monthly-vratams,ekadashi-vratam-days"
-    },
-    {
-        "description": {
-            "en": "Lord Vishnu goes to sleep."
-        },
-        "id": "zayana-EkAdazI",
-        "jsonClass": "HinduCalendarEventOld",
-        "shlokas": [
-            "vAsudEva jagadyOnE prAptEyaM dvAdazI tava.\nbhujaGgazayanE'bdhau ca sukhaM svapihi mAdhava..\niyaM tu dvAdazI dEva zayanArthaM vinirmita.\nasyAM suptE jagannAthE jagatsuptaM bhavEdidam..\nvibuddhE tvayi buddhyEta sarvamEtaccarAcaram.."
-        ],
-        "tags": "monthly-vratams,ekadashi-vratam-days",
-        "titles": "padmA ekAdazI\ndevazayanI ekAdazI"
-    },
-    {
-        "id": "pANDava-nirjalA-EkAdazI",
-        "jsonClass": "HinduCalendarEventOld",
-        "tags": "monthly-vratams,ekadashi-vratam-days"
-    },
-    {
-        "id": "pApAGkuzA-EkAdazI",
-        "jsonClass": "HinduCalendarEventOld",
-        "tags": "monthly-vratams,ekadashi-vratam-days"
-    },
-    {
-        "id": "pApamOcanI-EkAdazI",
-        "jsonClass": "HinduCalendarEventOld",
-        "tags": "monthly-vratams,ekadashi-vratam-days"
-    },
-    {
-        "description": {
-            "en": "Side ways turn inside sleep of Vishnu midway after Shayana Ekadashi."
-        },
-        "id": "parivartinI-EkAdazI",
-        "jsonClass": "HinduCalendarEventOld",
-        "shlokas": [
-            "vAsudEva jagannAtha prAptEyaM dvAdazI tava.\npArzvEna parivartasva sukhaM svapihi mAdhava.."
-        ],
-        "tags": "monthly-vratams,ekadashi-vratam-days"
-    },
-    {
         "id": "mauni (pauSa/makara) amAvasyA",
         "jsonClass": "HinduCalendarEventOld",
         "tags": "amavasya-days"
@@ -391,11 +517,6 @@
         "tags": "amavasya-days"
     },
     {
-        "id": "pavitrOpAna-EkAdazI",
-        "jsonClass": "HinduCalendarEventOld",
-        "tags": "monthly-vratams,ekadashi-vratam-days"
-    },
-    {
         "id": "phAlguna-amAvasyA",
         "jsonClass": "HinduCalendarEventOld",
         "tags": "amavasya-days"
@@ -404,16 +525,6 @@
         "id": "pradOSa-vratam",
         "jsonClass": "HinduCalendarEventOld",
         "tags": "monthly-vratams,pradosha-vratam-days"
-    },
-    {
-        "id": "putradA-EkAdazI",
-        "jsonClass": "HinduCalendarEventOld",
-        "tags": "monthly-vratams,ekadashi-vratam-days"
-    },
-    {
-        "id": "ramA-EkAdazI",
-        "jsonClass": "HinduCalendarEventOld",
-        "tags": "monthly-vratams,ekadashi-vratam-days"
     },
     {
         "description": {
@@ -559,16 +670,6 @@
         "tags": "monthly-vratams,sankatahara-chaturthi-vratam-days"
     },
     {
-        "id": "saphalA-EkAdazI",
-        "jsonClass": "HinduCalendarEventOld",
-        "tags": "monthly-vratams,ekadashi-vratam-days"
-    },
-    {
-        "id": "SaTtilA-EkAdazI",
-        "jsonClass": "HinduCalendarEventOld",
-        "tags": "monthly-vratams,ekadashi-vratam-days"
-    },
-    {
         "id": "sOma-pradOSa-vratam",
         "jsonClass": "HinduCalendarEventOld",
         "tags": "monthly-vratams,pradosha-vratam-days"
@@ -579,21 +680,6 @@
         "tags": "rare-days,combinations"
     },
     {
-        "id": "utpannA-EkAdazI",
-        "jsonClass": "HinduCalendarEventOld",
-        "tags": "monthly-vratams,ekadashi-vratam-days"
-    },
-    {
-        "id": "utthAna-EkAdazI",
-        "jsonClass": "HinduCalendarEventOld",
-        "tags": "monthly-vratams,ekadashi-vratam-days"
-    },
-    {
-        "id": "vaikuNTha-EkAdazI",
-        "jsonClass": "HinduCalendarEventOld",
-        "tags": "monthly-vratams,ekadashi-vratam-days"
-    },
-    {
         "id": "vaizAkha-amAvasyA",
         "jsonClass": "HinduCalendarEventOld",
         "tags": "amavasya-days"
@@ -602,11 +688,6 @@
         "id": "varalakSmI-vratam",
         "jsonClass": "HinduCalendarEventOld",
         "tags": "common-festivals,special-vratams"
-    },
-    {
-        "id": "varUthinI-EkAdazI",
-        "jsonClass": "HinduCalendarEventOld",
-        "tags": "monthly-vratams,ekadashi-vratam-days"
     },
     {
         "description": {
@@ -629,16 +710,6 @@
             "amAvasyA tu sOmEna saptamI bhAnunA saha.\ncaturthI bhUmiputrENa sOmaputrENa cASTamI.\ncatasrastithayastvEtAH sUryagrahaNasannibhAH.."
         ],
         "tags": "rare-days,combinations"
-    },
-    {
-        "id": "vijayA-EkAdazI",
-        "jsonClass": "HinduCalendarEventOld",
-        "tags": "monthly-vratams,ekadashi-vratam-days"
-    },
-    {
-        "id": "yOginI-EkAdazI",
-        "jsonClass": "HinduCalendarEventOld",
-        "tags": "monthly-vratams,ekadashi-vratam-days"
     },
     {
         "id": "zani-pradOSa-vratam",

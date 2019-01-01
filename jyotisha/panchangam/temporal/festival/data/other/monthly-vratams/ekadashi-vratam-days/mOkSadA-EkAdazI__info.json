@@ -1,4 +1,7 @@
 {
+  "description": {
+    "en": "The Shukla-paksha Ekadashi of `mArgazIrSa` month is known as `mOkSadA-EkAdazI`."
+  },
   "id": "mOkSadA-EkAdazI",
   "jsonClass": "HinduCalendarEvent",
   "tags": [

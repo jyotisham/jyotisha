@@ -1,4 +1,7 @@
 {
+  "description": {
+    "en": "The Krishna-paksha Ekadashi of `Azvayuja` month is known as `ramA-EkAdazI`."
+  },
   "id": "ramA-EkAdazI",
   "jsonClass": "HinduCalendarEvent",
   "tags": [

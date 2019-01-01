@@ -1,4 +1,7 @@
 {
+  "description": {
+    "en": "The Krishna-paksha Ekadashi of `adhika` month is known as `paramA-EkAdazI`."
+  },
   "id": "paramA-EkAdazI",
   "jsonClass": "HinduCalendarEvent",
   "tags": [

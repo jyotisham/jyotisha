@@ -1,4 +1,7 @@
 {
+  "description": {
+    "en": "The Shukla-paksha Ekadashi of `adhika` month is known as `padminI-EkAdazI`."
+  },
   "id": "padminI-EkAdazI",
   "jsonClass": "HinduCalendarEvent",
   "tags": [

@@ -1,4 +1,7 @@
 {
+  "description": {
+    "en": "The Shukla-paksha Ekadashi of `kArtika` month is known as `utthAna-EkAdazI`."
+  },
   "id": "utthAna-EkAdazI",
   "jsonClass": "HinduCalendarEvent",
   "tags": [

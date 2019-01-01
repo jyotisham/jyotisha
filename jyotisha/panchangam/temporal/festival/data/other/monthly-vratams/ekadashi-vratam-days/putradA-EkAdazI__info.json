@@ -1,4 +1,7 @@
 {
+  "description": {
+    "en": "The Shukla-paksha Ekadashi of `pauSa` month is known as `putradA-EkAdazI`."
+  },
   "id": "putradA-EkAdazI",
   "jsonClass": "HinduCalendarEvent",
   "tags": [

@@ -1,4 +1,7 @@
 {
+  "description": {
+    "en": "The Shukla-paksha Ekadashi of `Azvayuja` month is known as `pApAGkuzA-EkAdazI`."
+  },
   "id": "pApAGkuzA-EkAdazI",
   "jsonClass": "HinduCalendarEvent",
   "tags": [

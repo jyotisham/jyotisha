@@ -1,4 +1,7 @@
 {
+  "description": {
+    "en": "The Krishna-paksha Ekadashi of `ASADha` month is known as `kAmikA-EkAdazI`."
+  },
   "id": "kAmikA-EkAdazI",
   "jsonClass": "HinduCalendarEvent",
   "tags": [

@@ -1,4 +1,7 @@
 {
+  "description": {
+    "en": "The Shukla-paksha Ekadashi of `caitra` month is known as `kAmadA-EkAdazI`."
+  },
   "id": "kAmadA-EkAdazI",
   "jsonClass": "HinduCalendarEvent",
   "tags": [

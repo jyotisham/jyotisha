@@ -1,4 +1,7 @@
 {
+  "description": {
+    "en": "The Krishna-paksha Ekadashi of `vaizAkha` month is known as `aparA-EkAdazI`."
+  },
   "id": "aparA-EkAdazI",
   "jsonClass": "HinduCalendarEvent",
   "tags": [
