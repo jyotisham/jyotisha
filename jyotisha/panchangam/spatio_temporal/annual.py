@@ -407,7 +407,6 @@ class Panchangam(common.JsonObject):
       self.fest_days[festival_name] = [d]
 
   def compute_festivals(self):
-    # debug_festivals = True
     debug_festivals = False
     fday = None
 
@@ -619,8 +618,7 @@ class Panchangam(common.JsonObject):
         festival_name = 'subrahmaNya-' + festival_name
 
       if self.tithi_sunrise[d] == 5 or self.tithi_sunrise[d] == 6:
-        angams = self.get_angams_for_kaalas(d, jyotisha.panchangam.temporal.get_tithi,
-                                           'madhyaahna')
+        angams = self.get_angams_for_kaalas(d, jyotisha.panchangam.temporal.get_tithi, 'madhyaahna')
         if angams[0] == 6 or angams[1] == 6:
           if festival_name in self.fest_days:
             # Check if yesterday was assigned already
