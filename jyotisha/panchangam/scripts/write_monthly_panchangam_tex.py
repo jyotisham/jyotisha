@@ -277,16 +277,12 @@ def writeMonthlyTeX(panchangam, template_file):
             if currWeek < 6:
                 month_text += '\n' + ("&")
 
-
         if m == 12 and dt == 31:
             break
 
     month_text = month_text.replace('W6D1', W6D1)
     month_text = month_text.replace('W6D2', W6D2)
     print(month_text)
-            # For debugging specific dates
-            # if m==4 and dt==10:
-            #  break
 
     if currWeek < 6:
         for i in range(panchangam.weekday[d] + 1, 6):
@@ -309,7 +305,7 @@ def main():
     if len(sys.argv) == 7:
         script = sys.argv[6]
 
-    logging.debug(script)
+    # logging.debug(script)
 
     city = City(city_name, latitude, longitude, tz)
     panchangam = jyotisha.panchangam.spatio_temporal.annual.get_panchangam(city=city, year=year, script=script)
