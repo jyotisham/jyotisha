@@ -408,7 +408,6 @@ class Panchangam(common.JsonObject):
 
   def compute_festivals(self):
     debug_festivals = False
-    fday = None
 
     for d in range(1, jyotisha.panchangam.temporal.MAX_DAYS_PER_YEAR + 1):
       [y, m, dt, t] = swe.revjul(self.jd_start + d - 1)
