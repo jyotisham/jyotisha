@@ -880,40 +880,35 @@ class Panchangam(common.JsonObject):
           self.add_festival(festival_name, d, debug_festivals)
 
       # 8 MAHA DWADASHIS
-      if (self.jd_sunrise[d] % 15) == 11 and (self.jd_sunrise[d + 1] % 15) == 11:
+      if (self.tithi_sunrise[d] % 15) == 11 and (self.tithi_sunrise[d + 1] % 15) == 11:
         self.add_festival('unmIlanI~mahAdvAdazI', d + 1, debug_festivals)
 
-      if (self.jd_sunrise[d] % 15) == 12 and (self.jd_sunrise[d + 1] % 15) == 12:
+      if (self.tithi_sunrise[d] % 15) == 12 and (self.tithi_sunrise[d + 1] % 15) == 12:
         self.add_festival('vyaJjulI~mahAdvAdazI', d, debug_festivals)
 
-      if (self.jd_sunrise[d] % 15) == 11 and (self.jd_sunrise[d + 1] % 15) == 13:
+      if (self.tithi_sunrise[d] % 15) == 11 and (self.tithi_sunrise[d + 1] % 15) == 13:
         self.add_festival('trispRzA~mahAdvAdazI', d, debug_festivals)
 
-      if (self.jd_sunrise[d] % 15) == 0 and (self.jd_sunrise[d + 1] % 15) == 0:
+      if (self.tithi_sunrise[d] % 15) == 0 and (self.tithi_sunrise[d + 1] % 15) == 0:
+        # Might miss out on those parva days right after Dec 31!
         if (d - 3) > 0:
           self.add_festival('pakSavardhinI~mahAdvAdazI', d - 3, debug_festivals)
 
-      if jyotisha.panchangam.temporal.get_angam(self.jd_sunrise[d], jyotisha.panchangam.temporal.NAKSHATRAM) == 4 and \
-         (self.tithi_sunrise[d] % 15) == 12:
+      if self.nakshatram_sunrise[d] == 4 and (self.tithi_sunrise[d] % 15) == 12:
         self.add_festival('pApanAzinI~mahAdvAdazI', d, debug_festivals)
 
-      if jyotisha.panchangam.temporal.get_angam(self.jd_sunrise[d], jyotisha.panchangam.temporal.NAKSHATRAM) == 7 and \
-         (self.tithi_sunrise[d] % 15) == 12:
+      if self.nakshatram_sunrise[d] == 7 and (self.tithi_sunrise[d] % 15) == 12:
         self.add_festival('jayantI~mahAdvAdazI', d, debug_festivals)
 
-      if jyotisha.panchangam.temporal.get_angam(self.jd_sunrise[d], jyotisha.panchangam.temporal.NAKSHATRAM) == 8 and \
-         (self.tithi_sunrise[d] % 15) == 12:
+      if self.nakshatram_sunrise[d] == 8 and (self.tithi_sunrise[d] % 15) == 12:
         self.add_festival('jayA~mahAdvAdazI', d, debug_festivals)
 
-      if jyotisha.panchangam.temporal.get_angam(self.jd_sunrise[d], jyotisha.panchangam.temporal.NAKSHATRAM) == 8 and \
-         (self.tithi_sunrise[d] % 15) == 12 and self.lunar_month[d] == 12:
+      if self.nakshatram_sunrise[d] == 8 and (self.tithi_sunrise[d] % 15) == 12 and self.lunar_month[d] == 12:
          # Better checking needed (for other than sunrise).
          # Last occurred on 27-02-1961 - pushya nakshatra and phalguna krishna dvadashi (or shukla!?)
         self.add_festival('gOvinda~mahAdvAdazI', d, debug_festivals)
 
-      if jyotisha.panchangam.temporal.get_angam(self.jd_sunrise[d], jyotisha.panchangam.temporal.NAKSHATRAM,
-                                                ayanamsha_id=self.ayanamsha_id) == 22 and \
-         (self.tithi_sunrise[d] % 15) == 12:
+      if self.nakshatram_sunrise[d] == 22 and (self.tithi_sunrise[d] % 15) == 12:
         self.add_festival('vijayA/zravaNa-mahAdvAdazI', d, debug_festivals)
 
       # SPECIAL SAPTAMIs

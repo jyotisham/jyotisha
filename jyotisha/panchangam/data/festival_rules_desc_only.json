@@ -414,6 +414,11 @@
         "tags": "amavasya-days"
     },
     {
+        "id": "zravaNa-(adhika) (kaTaka) amAvasyA",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "amavasya-days"
+    },
+    {
         "id": "bhAdrapada-(adhika)-amAvasyA",
         "jsonClass": "HinduCalendarEventOld",
         "tags": "amavasya-days"
