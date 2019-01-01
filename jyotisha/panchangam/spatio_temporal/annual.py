@@ -1214,9 +1214,8 @@ class Panchangam(common.JsonObject):
                   else:
                     fday = d
             else:
-              sys.stderr.write('Unknown priority "%s" for %s! Check the rules!' %
-                               (priority, festival_name))
-          # print (self.fest_days)
+              logging.error('Unknown priority "%s" for %s! Check the rules!' % (priority, festival_name))
+
           if fday is not None:
             if festival_name.find('\\') == -1 and \
                'kaala' in festival_rules[festival_name] and \
