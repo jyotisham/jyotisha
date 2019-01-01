@@ -190,12 +190,6 @@ class Panchangam(common.JsonObject):
         solar_month_day, solar_month_end_time)
       self.solar_month_day[d] = solar_month_day
 
-      # KARADAYAN NOMBU -- easy to check here
-      if solar_month_end_jd is not None:  # month ends today
-        if (self.solar_month[d] == 12 and solar_month_day == 1) or \
-           (self.solar_month[d] == 11 and solar_month_day != 1):
-          self.fest_days['ta:kAraDaiyAn2 nOn2bu'] = [d]
-
       # Compute the various kaalas
       # Sunrise/sunset and related stuff (like rahu, yama)
       YAMAGANDA_OCTETS = [4, 3, 2, 1, 0, 6, 5]
@@ -424,6 +418,13 @@ class Panchangam(common.JsonObject):
       ####################
       # Festival details #
       ####################
+
+      # KARADAIYAN NOMBU
+      if self.solar_month[d] == 12 and self.solar_month_day[d] == 1:
+        if jyotisha.panchangam.temporal.get_solar_rashi(self.jd_sunrise[d]) == 12:
+          self.fest_days['ta:kAraDaiyAn2 nOn2bu'] = [d - 1]
+        else:
+          self.fest_days['ta:kAraDaiyAn2 nOn2bu'] = [d]
 
       # --- MONTHLY VRATAMS --- #
 
