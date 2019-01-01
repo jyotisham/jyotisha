@@ -626,12 +626,12 @@ class Panchangam(common.JsonObject):
             # Check if yesterday was assigned already
             # to this puurvaviddha festival!
             if self.fest_days[festival_name].count(d - 1) == 0:
-              fday = d
+              self.add_festival(festival_name, d, debug_festivals)
           else:
-            fday = d
+            self.add_festival(festival_name, d, debug_festivals)
         elif angams[2] == 6 or angams[3] == 6:
-          fday = d + 1
-        if fday is None:
+          self.add_festival(festival_name, d + 1, debug_festivals)
+        else:
           # This means that the correct angam did not
           # touch the kaala on either day!
           # sys.stderr.write('Could not assign puurvaviddha day for %s!\
@@ -645,13 +645,9 @@ class Panchangam(common.JsonObject):
             # conditions instead of this fix
             if festival_name in self.fest_days:
               if self.fest_days[festival_name].count(d - 1) == 0:
-                fday = d
+                self.add_festival(festival_name, d, debug_festivals)
             else:
-              fday = d
-
-        if fday is not None:
-          # logging.debug('SaSThI-vratam: %s, %d' % (festival_name, fday))
-          self.add_festival(festival_name, fday, debug_festivals)
+              self.add_festival(festival_name, d, debug_festivals)
 
       # Chandra Darshanam
       if self.tithi_sunrise[d] == 1 or self.tithi_sunrise[d] == 2:
