@@ -49,6 +49,8 @@ def compute_calendar(panchangam):
     alarm.add('action', 'DISPLAY')
     alarm.add('trigger', timedelta(hours=-4))  # default alarm, with a 4 hour reminder
 
+    year_start = swe.revjul(panchangam.jd_start + 1)[0]  # 1 helps ignore local time etc.
+
     for d in range(1, len(panchangam.festivals)):
         [y, m, dt, t] = swe.revjul(panchangam.jd_start + d - 1)
 
@@ -80,6 +82,8 @@ def compute_calendar(panchangam):
                     event['X-MICROSOFT-CDO-BUSYSTATUS'] = 'FREE'
                     ics_calendar.add_component(event)
                 elif stext.find('RIGHTarrow') != -1:
+                    if y != year_start:
+                        continue
                     # It's a grahanam/yogam, with a start and end time
                     if stext.find('{}') != -1:
                         # Starting or ending time is empty, e.g. harivasara, so no ICS entry
@@ -168,6 +172,8 @@ def compute_calendar(panchangam):
                         event['X-MICROSOFT-CDO-BUSYSTATUS'] = 'FREE'
                         ics_calendar.add_component(event)
                 else:
+                    if y != year_start:
+                        continue
                     summary = jyotisha.custom_transliteration.tr(stext.replace('~', ' ').replace('\#', '#').replace('\\To{}', '▶'), panchangam.script)
                     summary = re.sub('.tamil{(.*)}', '\\1', summary)
                     summary = re.sub('{(.*)}', '\\1', summary)  # strip braces around numbers
