@@ -539,7 +539,7 @@ def get_kaalas(start_span, end_span, part_start, num_parts):
 
 # Essential for depickling to work.
 common.update_json_class_index(sys.modules[__name__])
-logging.debug(common.json_class_index)
+# logging.debug(common.json_class_index)
 
 
 if __name__ == '__main__':
@@ -548,4 +548,3 @@ if __name__ == '__main__':
   # time = swe.utc_to_jd(year=1986, month=8, day=24, hour=11, minutes=54, seconds=0, flag=1)[0]
   logging.info(time)
   print_angas_x_ayanamshas(jd=time)
-
