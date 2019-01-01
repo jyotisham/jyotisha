@@ -1,8 +1,8 @@
 {
   "description": {
-    "en": "The Shukla-paksha Ekadashi of `dhanurmAsa` is known as `vaikunTha-EkAdazI`."
+    "en": "The Shukla-paksha Ekadashi of `dhanurmAsa` is known as `vaikuNTha-EkAdazI`."
   },
-  "id": "vaikunTha-EkAdazI",
+  "id": "vaikuNTha-EkAdazI",
   "jsonClass": "HinduCalendarEvent",
   "tags": [
     "monthly-vratams",

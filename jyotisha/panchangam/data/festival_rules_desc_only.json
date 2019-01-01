@@ -119,9 +119,9 @@
         "tags": "monthly-vratams,ekadashi-vratam-days,kerala-temple-festivals"
     },
     {
-        "id": "vaikunTha-EkAdazI",
+        "id": "vaikuNTha-EkAdazI",
         "description": {
-            "en": "The Shukla-paksha Ekadashi of `dhanurmAsa` is known as `vaikunTha-EkAdazI`."
+            "en": "The Shukla-paksha Ekadashi of `dhanurmAsa` is known as `vaikuNTha-EkAdazI`."
         },
         "jsonClass": "HinduCalendarEventOld",
         "tags": "monthly-vratams,ekadashi-vratam-days"

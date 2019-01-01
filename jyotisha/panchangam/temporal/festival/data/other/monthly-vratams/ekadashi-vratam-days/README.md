@@ -63,8 +63,8 @@ _The Shukla-paksha Ekadashi of फाल्गुन month is known as आमल
 _The Shukla-paksha Ekadashi of अधिक month is known as पद्मिनी-एकादशी._
 
 ---
-## vaikunTha-EkAdazI
-_The Shukla-paksha Ekadashi of धनुर्मास is known as वैकुन्ठ-एकादशी._
+## vaikuNTha-EkAdazI
+_The Shukla-paksha Ekadashi of धनुर्मास is known as वैकुण्ठ-एकादशी._
 
 ---
 ## kaizika-EkAdazI
