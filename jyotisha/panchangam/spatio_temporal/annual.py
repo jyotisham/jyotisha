@@ -1404,7 +1404,7 @@ class Panchangam(common.JsonObject):
     check_window = 400  # Max t between two Jupiter transits is ~396 (checked across 180y)
     # Let's check for transitions in a relatively large window
     # to finalise what is the FINAL transition post retrograde movements
-    transits = jyotisha.panchangam.temporal.get_planet_next_transit(self.jd_start - check_window, jd_end + check_window,
+    transits = jyotisha.panchangam.temporal.get_planet_next_transit(self.jd_start, jd_end + check_window,
                                                                     swe.JUPITER, ayanamsha_id=self.ayanamsha_id)
     if len(transits) > 0:
       for i, (jd_transit, rashi1, rashi2) in enumerate(transits):
