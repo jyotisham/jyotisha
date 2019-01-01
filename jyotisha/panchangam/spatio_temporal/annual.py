@@ -1000,6 +1000,8 @@ class Panchangam(common.JsonObject):
         self.add_festival('ta:kArttigai~JAyir2r2ukkizhamai', d, debug_festivals)
 
       # KRTTIKA SOMAVASARA
+      if self.lunar_month[d] == 8 and self.weekday[d] == 1:
+        self.add_festival('kRttikA~sOmavAsaraH', d, debug_festivals)
       if self.solar_month[d] == 8 and self.weekday[d] == 1:
         self.add_festival('ta:kArttigai~sOmavAram', d, debug_festivals)
 
