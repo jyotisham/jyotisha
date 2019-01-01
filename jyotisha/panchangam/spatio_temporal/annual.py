@@ -684,7 +684,7 @@ class Panchangam(common.JsonObject):
             t30, t30_end = jyotisha.panchangam.temporal.get_angam_data(
               self.jd_sunrise[d + 1] + 0.5,
               self.jd_sunrise[d + 2] + 0.5, jyotisha.panchangam.temporal.TITHI, ayanamsha_id=self.ayanamsha_id)[0]
-        if self.tithi_sunrise[d] == 30:
+        elif self.tithi_sunrise[d] == 30:
           if t29_end is None:
             # 29 never touched sunrise
             t30, t30_end = jyotisha.panchangam.temporal.get_angam_data(
@@ -693,24 +693,30 @@ class Panchangam(common.JsonObject):
             t29, t29_end = jyotisha.panchangam.temporal.get_angam_data(t30_end - 1.5, t30_end - 0.5,
                                                                        jyotisha.panchangam.temporal.TITHI,
                                                                        ayanamsha_id=self.ayanamsha_id)[0]
-        if t29_end is None:
-          # Should never be here!
-          sys.stderr.write('Error! Still not computed t29_end!')
+        # if t29_end is None:
+        #   # Should never be here!
+        #   sys.stderr.write('Error! Still not computed t29_end!')
 
         angams = self.get_angams_for_kaalas(d, jyotisha.panchangam.temporal.get_tithi, 'aparahna')
+        # logging.debug(angams)
+        # logging.debug(jyotisha.panchangam.temporal.get_chandra_masa(self.lunar_month[d], jyotisha.panchangam.temporal.NAMES, 'hk'))
+
+        # Get Name
+        if self.lunar_month[d] == 6:
+          pref = '(%s) mahAlaya ' % (jyotisha.panchangam.temporal.get_chandra_masa(
+            self.lunar_month[d], jyotisha.panchangam.temporal.NAMES, 'hk'))
+        elif self.solar_month[d] == 4:
+          pref = '%s (kaTaka) ' % (jyotisha.panchangam.temporal.get_chandra_masa(
+            self.lunar_month[d], jyotisha.panchangam.temporal.NAMES, 'hk'))
+        elif self.solar_month[d] == 10:
+          pref = 'mauni (%s/makara) ' % (jyotisha.panchangam.temporal.get_chandra_masa(
+            self.lunar_month[d], jyotisha.panchangam.temporal.NAMES, 'hk'))
+        else:
+          pref = jyotisha.panchangam.temporal.get_chandra_masa(self.lunar_month[d],
+                                                               jyotisha.panchangam.temporal.NAMES, 'hk') + '-'
+
+        # Assign
         if angams[0] == 30 or angams[1] == 30:
-          if self.lunar_month[d] == 6:
-            pref = '(%s) mahAlaya ' % (jyotisha.panchangam.temporal.get_chandra_masa(
-              self.lunar_month[d], jyotisha.panchangam.temporal.NAMES, 'hk'))
-          elif self.solar_month[d] == 4:
-            pref = '%s (kaTaka) ' % (jyotisha.panchangam.temporal.get_chandra_masa(
-              self.lunar_month[d], jyotisha.panchangam.temporal.NAMES, 'hk'))
-          elif self.solar_month[d] == 10:
-            pref = 'mauni (%s/makara) ' % (jyotisha.panchangam.temporal.get_chandra_masa(
-              self.lunar_month[d], jyotisha.panchangam.temporal.NAMES, 'hk'))
-          else:
-            pref = jyotisha.panchangam.temporal.get_chandra_masa(self.lunar_month[d],
-                                                                 jyotisha.panchangam.temporal.NAMES, 'hk') + '-'
           if angams[2] == 30 or angams[3] == 30:
             # Amavasya is there on both aparahnas
             if t30_end - t29_end < 1:
@@ -722,6 +728,12 @@ class Panchangam(common.JsonObject):
           else:
             # No Amavasya in aparahna tomorrow, so it's today
             self.add_festival(pref + 'amAvasyA', d, debug_festivals)
+        else:
+          if angams == [29, 29, 1, 1]:
+            logging.warning('amAvasyA did not touch aparAhna on either day?')
+            self.add_festival(pref + 'amAvasyA', d + 1, debug_festivals)
+          # else:
+          #   logging.debug('amAvasyA must have been assigned already?')
 
       # MAKARAYANAM
       if self.solar_month[d] == 9 and self.solar_month_day[d] == 1:
