@@ -74,19 +74,19 @@ class City(JsonObject):
     return self.get_timezone_offset_hours_from_date(year=y, month=m, day=dt)
 
 
-  def get_timezone_offset_hours_from_date(self, year, month, day):
+  def get_timezone_offset_hours_from_date(self, year, month, day, hour=6, minute=0, seconds=0):
     """Get timezone offset in hours east of UTC (negative west of UTC)
 
-    Timezone offset is dependent both on place and time - due to Daylight savings time.
+    Timezone offset is dependent both on place and time (yes- time, not just date) - due to Daylight savings time.
     compute offset from UTC in hours
     """
     import pytz
     # checking @ 6am local - can we do any better?
-    local_time = pytz.timezone(self.timezone).localize(datetime(year, month, day, 6, 0, 0))
+    local_time = pytz.timezone(self.timezone).localize(datetime(year, month, day, hour, minute, seconds))
     return (datetime.utcoffset(local_time).days * 86400 +
             datetime.utcoffset(local_time).seconds) / 3600.0
 
-  def julian_day_to_local_time(self, julian_day, round_seconds=True):
+  def julian_day_to_local_time(self, julian_day, round_seconds=False):
     [y, m, dt, time_in_hours] = swe.revjul(julian_day)
     (hours, minutes, seconds) = decypher_fractional_hours(time_in_hours=time_in_hours)
     local_time = swe.utc_time_zone(y, m, dt, hours, minutes, seconds, -self.get_timezone_offset_hours_from_jd(julian_day))
@@ -97,7 +97,8 @@ class City(JsonObject):
     return local_time
 
   def local_time_to_julian_day(self, year, month, day, hours, minutes, seconds):
-    (year_utc, month_utc, day_utc, hours_utc, minutes_utc, seconds_utc) = swe.utc_time_zone(year, month, day, hours, minutes, seconds, self.get_timezone_offset_hours_from_date(year=year, month=month, day=day))
+    offset_hours = self.get_timezone_offset_hours_from_date(year=year, month=month, day=day, hour=hours, minute=minutes, seconds=seconds)
+    (year_utc, month_utc, day_utc, hours_utc, minutes_utc, seconds_utc) = swe.utc_time_zone(year, month, day, hours, minutes, seconds, offset_hours)
     julian_dates = swe.utc_to_jd(year_utc, month_utc, day_utc, hours_utc, minutes_utc, seconds_utc, 1)
     return julian_dates[1]
 
@@ -118,7 +119,7 @@ class TbSayanaMuhuurta(JsonObject):
     self.is_nirviirya = self.muhuurta_id in (2,3, 5,6, 8,9, 11,12)
 
   def to_localized_string(self):
-    return "muhUrta %d (nirvIrya: %s) starts from %s to %s" % (self.muhuurta_id, str(self.is_nirviirya),  self.city.julian_day_to_local_time(julian_day=self.jd_start), self.city.julian_day_to_local_time(julian_day=self.jd_end))
+    return "muhUrta %d (nirvIrya: %s) starts from %s to %s" % (self.muhuurta_id, str(self.is_nirviirya),  self.city.julian_day_to_local_time(julian_day=self.jd_start, round_seconds=True), self.city.julian_day_to_local_time(julian_day=self.jd_end, round_seconds=True))
 
 
 

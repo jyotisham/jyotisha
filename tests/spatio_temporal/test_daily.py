@@ -43,4 +43,4 @@ def test_tb_muhuurta_mtv():
 def test_jd_start_orinda_ca():
   city = City('Orinda','37:51:38','-122:10:59','America/Los_Angeles')
   assert daily.Panchangam(city=city, julian_day=2458551.8333333335).julian_day_start == 2458551.8333333335
-  assert daily.Panchangam(city=city, julian_day=2458552.7916666665).julian_day_start == 2458552.7916666665
+  assert daily.Panchangam(city=city, julian_day=2458552.8333333335).julian_day_start == 2458552.8333333335
