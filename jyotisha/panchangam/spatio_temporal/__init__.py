@@ -14,6 +14,7 @@ from sanskrit_data.schema.common import JsonObject
 from scipy.optimize import brentq
 
 from jyotisha.custom_transliteration import sexastr2deci
+from jyotisha.panchangam import temporal
 
 logging.basicConfig(level=logging.DEBUG,
                     format="%(levelname)s: %(asctime)s {%(filename)s:%(lineno)d}: %(message)s ")
@@ -85,10 +86,14 @@ class City(JsonObject):
     return (datetime.utcoffset(local_time).days * 86400 +
             datetime.utcoffset(local_time).seconds) / 3600.0
 
-  def julian_day_to_local_time(self, julian_day):
+  def julian_day_to_local_time(self, julian_day, round_seconds=True):
     [y, m, dt, time_in_hours] = swe.revjul(julian_day)
     (hours, minutes, seconds) = decypher_fractional_hours(time_in_hours=time_in_hours)
     local_time = swe.utc_time_zone(y, m, dt, hours, minutes, seconds, -self.get_timezone_offset_hours_from_jd(julian_day))
+    if round_seconds:
+      (y, m, dt, hours, minutes, seconds) = local_time
+      local_time = (y, m, dt, hours, minutes, int(round(seconds)))
+      local_time = temporal.sanitize_time(*local_time)
     return local_time
 
   def local_time_to_julian_day(self, year, month, day, hours, minutes, seconds):
@@ -165,7 +170,7 @@ def get_lagna_data(jd_sunrise, lat, lon, tz_off, ayanamsha_id=swe.SIDM_LAHIRI, d
         float jd: The Julian Day at which the lagnam is to be computed
         lat: Latitude of the place where the lagnam is to be computed
         lon: Longitude of the place where the lagnam is to be computed
-        offset: Used by internal functions for bracketing
+        tz_off: Used by internal functions for bracketing
 
       Returns:
         tuples detailing the end time of each lagna, beginning with the one

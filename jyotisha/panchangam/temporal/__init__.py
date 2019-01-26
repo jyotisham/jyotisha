@@ -537,6 +537,28 @@ def get_kaalas(start_span, end_span, part_start, num_parts):
     return (start_time, end_time)
 
 
+def sanitize_time(year_in, month_in, day_in, hour_in, minute_in, second_in):
+    (year, month, day, hour, minute, second) = (year_in, month_in, day_in, hour_in, minute_in, second_in)
+    if second >= 60:
+        minute = minute + second / 60
+        second = second % 60
+    if minute >= 60:
+        hour = hour + minute / 60
+        minute = minute % 60
+    if hour >= 24:
+        day = day + hour / 24
+        hour = hour % 24
+    from calendar import monthrange
+    (_, final_day) = monthrange(year, month)
+    if day > final_day:
+        assert day == final_day + 1, "range not supported by this function"
+        day = 1
+        month = month + 1
+    if month >= 13:
+        year = year + (month - 1) / 12
+        month = ((month - 1) % 12) + 1
+    return (year, month, day, hour, minute, second)
+
 # Essential for depickling to work.
 common.update_json_class_index(sys.modules[__name__])
 logging.debug(common.json_class_index)
