@@ -81,7 +81,6 @@ class City(JsonObject):
     compute offset from UTC in hours
     """
     import pytz
-    # checking @ 6am local - can we do any better?
     local_time = pytz.timezone(self.timezone).localize(datetime(year, month, day, hour, minute, seconds))
     return (datetime.utcoffset(local_time).days * 86400 +
             datetime.utcoffset(local_time).seconds) / 3600.0
