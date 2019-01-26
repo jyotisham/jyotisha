@@ -2,7 +2,8 @@
   "id": "zrIrAma-paTTAbhiSEkaH",
   "jsonClass": "HinduCalendarEvent",
   "tags": [
-    "purana-events"
+    "purana-events",
+    "common-festivals"
   ],
   "timing": {
     "angam_number": 30,

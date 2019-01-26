@@ -5,7 +5,8 @@
   "id": "kRttikA-maNDala-pArAyaNam",
   "jsonClass": "HinduCalendarEvent",
   "tags": [
-    "special-period-start"
+    "special-period-start",
+    "common-festivals"
   ],
   "timing": {
     "angam_number": 1,

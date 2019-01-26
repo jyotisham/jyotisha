@@ -3,7 +3,8 @@
   "jsonClass": "HinduCalendarEvent",
   "tags": [
     "special-pujas",
-    "mahapurusha-events"
+    "mahapurusha-events",
+    "common-festivals"
   ],
   "timing": {
     "angam_number": 7,

@@ -6,7 +6,8 @@
   "jsonClass": "HinduCalendarEvent",
   "tags": [
     "purana-events",
-    "special-pujas"
+    "special-pujas",
+    "common-festivals"
   ],
   "timing": {
     "angam_number": 7,

@@ -3,7 +3,8 @@
   "jsonClass": "HinduCalendarEvent",
   "tags": [
     "vratam-start",
-    "special-period-start"
+    "special-period-start",
+    "common-festivals"
   ],
   "timing": {
     "angam_number": 15,

@@ -3,7 +3,8 @@
   "jsonClass": "HinduCalendarEvent",
   "priority": "puurvaviddha",
   "tags": [
-    "tamilnadu-temple-festivals"
+    "tamilnadu-temple-festivals",
+    "common-festivals"
   ],
   "timing": {
     "angam_number": 8,

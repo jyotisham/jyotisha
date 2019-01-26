@@ -57,6 +57,6 @@ _Perform snana four ghatikas before sunrise (during अरुणोदयम्,
 ## chinnamastA jayantI
 छिन्नमस्ता जयन्ती is observed on Paurṇamāsī tithi of Vaiśākha (lunar) month (sunrise (default)/puurvaviddha (default)).
 
-_Goddess Chinnmasta is 6th of the Dasha Maha Vidyas._
+_Goddess Chinnamasta is 6th of the Dasha Maha Vidyas._
 
 ---
