@@ -545,7 +545,7 @@
         "id": "tulA-kAvErI-snAna-samApanam",
         "jsonClass": "HinduCalendarEventOld",
         "offset": -1,
-        "tags": "tn-temple-festivals"
+        "tags": "tamilnadu-temple-festivals"
     },
     {
         "anchor_festival_id": "kRttikA-maNDala-pArAyaNam",
@@ -555,7 +555,7 @@
         "id": "AkAzadIpa-samApanam",
         "jsonClass": "HinduCalendarEventOld",
         "offset": -1,
-        "tags": "tn-temple-festivals"
+        "tags": "tamilnadu-temple-festivals"
     },
     {
         "anchor_festival_id": "zrInivAsamaGgApurE sAkSAtkAra-vaibhavOtsavaH",
@@ -579,7 +579,7 @@
         },
         "jsonClass": "HinduCalendarEventOld",
         "offset": 1,
-        "tags": "tn-temple-festivals"
+        "tags": "tamilnadu-temple-festivals"
     },
     {
         "anchor_festival_id": "vEGkaTAcalE vasantOtsava-samApanam",
