@@ -1,6 +1,7 @@
 import logging
 import swisseph as swe
 import sys
+import traceback
 from math import floor
 
 from sanskrit_data.schema import common
@@ -46,6 +47,9 @@ class Time(JsonObject):
             raise(TypeError('Input to time class must be int or float!'))
 
     def toString(self, default_suffix='', format='hh:mm'):
+        if self.t < 0:
+          logging.error('t<0! %s ' % self.t)
+          logging.error(traceback.print_stack())
         secs = round(self.t * 3600)  # round to nearest second
         hour = secs // 3600
         secs = secs % 3600
@@ -460,8 +464,13 @@ def get_angam_data(jd_sunrise, jd_sunrise_tmrw, angam_type, ayanamsha_id=swe.SID
             # Approximate error in calculation of end time -- arbitrary
             # used to bracket the root, for brenth
             TDELTA = 0.05
-            t_act = brentq(get_angam_float, x0 - TDELTA, x0 + TDELTA,
-                           args=(angam_type, -target, ayanamsha_id, False))
+            try:
+              t_act = brentq(get_angam_float, x0 - TDELTA, x0 + TDELTA,
+                             args=(angam_type, -target, ayanamsha_id, False))
+            except ValueError:
+              logging.warning('Unable to bracket! Using approximate t_end itself.')
+              logging.warning(locals())
+              t_act = approx_end
             angams_list.extend([((angam_now + i - 1) % num_angas + 1, t_act)])
     return angams_list
 
