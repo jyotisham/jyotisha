@@ -1,0 +1,17 @@
+{
+  "id": "gOpadma-vrata-samApanam",
+  "jsonClass": "HinduCalendarEvent",
+  "references_secondary": [
+    "https://madhwafestivals.wordpress.com/2016/09/28/go-padma-vrata/"
+  ],
+  "tags": [
+    "special-vratams"
+  ],
+  "timing": {
+    "angam_number": 12,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 8,
+    "month_type": "lunar_month"
+  }
+}

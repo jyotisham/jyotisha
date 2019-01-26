@@ -1,0 +1,17 @@
+{
+  "description": {
+    "en": "Goddess Chinnamasta is 6th of the Dasha Maha Vidyas."
+  },
+  "id": "chinnamastA~jayantI",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "dashamahavidya"
+  ],
+  "timing": {
+    "angam_number": 15,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 2,
+    "month_type": "lunar_month"
+  }
+}

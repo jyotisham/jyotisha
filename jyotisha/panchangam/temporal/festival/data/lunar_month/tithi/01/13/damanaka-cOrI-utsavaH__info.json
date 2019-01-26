@@ -1,0 +1,17 @@
+{
+  "description": {
+    "en": "Celebrating the stealing of Damanaka leaves by Jagannath Prabhu from Indra's garden."
+  },
+  "id": "damanaka-cOrI-utsavaH",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "odisha-temple-festivals"
+  ],
+  "timing": {
+    "angam_number": 13,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 1,
+    "month_type": "lunar_month"
+  }
+}

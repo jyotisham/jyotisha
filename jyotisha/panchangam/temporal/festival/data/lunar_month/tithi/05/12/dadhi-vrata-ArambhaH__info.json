@@ -1,0 +1,19 @@
+{
+  "id": "dadhi-vrata-ArambhaH",
+  "jsonClass": "HinduCalendarEvent",
+  "shlokas": [
+    "saGkarSaNAravindAkSa kariSyE'haM dadhivratam.\ndvitIyE mAsi dEvEza nirvighnaM kuru mE prabhO.."
+  ],
+  "tags": [
+    "vratam-start",
+    "special-period-start",
+    "common-festivals"
+  ],
+  "timing": {
+    "angam_number": 12,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 5,
+    "month_type": "lunar_month"
+  }
+}

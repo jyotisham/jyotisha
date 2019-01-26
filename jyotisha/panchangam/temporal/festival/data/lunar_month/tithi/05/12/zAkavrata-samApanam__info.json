@@ -1,0 +1,19 @@
+{
+  "id": "zAkavrata-samApanam",
+  "jsonClass": "HinduCalendarEvent",
+  "shlokas": [
+    "vAsudEva namastubhyaM prathamE mAsi matkRtam.\nzAkavrataM mayA tEna saMtuSTO bhava mAdhava..\nidaM vrataM mayA dEva kRtaM prItyai tava prabhO.\nnyUnaM sampUrNatAM yAtu tvatprasAdajjanArdana.."
+  ],
+  "tags": [
+    "vratam-end",
+    "special-period-end",
+    "common-festivals"
+  ],
+  "timing": {
+    "angam_number": 12,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 5,
+    "month_type": "lunar_month"
+  }
+}

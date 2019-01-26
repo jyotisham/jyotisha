@@ -1,0 +1,23 @@
+{
+  "description": {
+    "en": "Danam of Brahma puranam"
+  },
+  "id": "kUrma~jayantI",
+  "jsonClass": "HinduCalendarEvent",
+  "priority": "puurvaviddha",
+  "references_secondary": [
+    "Kielhorn (1897)"
+  ],
+  "tags": [
+    "dashavataram",
+    "less-common-festivals"
+  ],
+  "timing": {
+    "angam_number": 15,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "kaala": "sayahna",
+    "month_number": 2,
+    "month_type": "lunar_month"
+  }
+}

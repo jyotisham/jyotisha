@@ -1,0 +1,15 @@
+{
+  "id": "ta__pEyAzhvAr tirunakSattiram",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "mahapurusha-events",
+    "azhwar-jayanti"
+  ],
+  "timing": {
+    "angam_number": 24,
+    "angam_type": "nakshatram",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 7,
+    "month_type": "solar_month"
+  }
+}

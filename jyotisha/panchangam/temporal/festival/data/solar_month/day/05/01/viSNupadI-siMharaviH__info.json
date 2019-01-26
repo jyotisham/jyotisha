@@ -1,0 +1,20 @@
+{
+  "description": {
+    "en": "Perform danam of ghee, milk vessel, \"ghee cow\" and fruits."
+  },
+  "id": "viSNupadI-siMharaviH",
+  "jsonClass": "HinduCalendarEvent",
+  "shlokas": [
+    "ghRtaM ca kSIrakumbhazca ghRtadhEnu phalAni ca.\nzrAvaNE zrIdharaprItyai dAtavyAni vipazcitA.."
+  ],
+  "tags": [
+    "sun-sankranti"
+  ],
+  "timing": {
+    "angam_number": 1,
+    "angam_type": "day",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 5,
+    "month_type": "solar_month"
+  }
+}

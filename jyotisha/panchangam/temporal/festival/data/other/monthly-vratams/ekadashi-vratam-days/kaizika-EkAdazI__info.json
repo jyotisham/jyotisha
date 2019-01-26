@@ -1,0 +1,14 @@
+{
+  "description": {
+    "en": "The Shukla-paksha Ekadashi of `vRzcikamAsa` is also celebrated as `kaizika-EkAdazI`. Kaisika Puranam, consisting of 82 shlokas describes the story of `ta:nampADuvAn2` and a `rAkSasa` who attained mukti by `nAmasaGkIrtanam` and the fruits of `ta:nampADuvAn`'s `nAmasaGkIrtanam`, respectively!"
+  },
+  "id": "kaizika-EkAdazI",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "monthly-vratams",
+    "ekadashi-vratam-days"
+  ],
+  "timing": {
+    "jsonClass": "HinduCalendarEventTiming"
+  }
+}

@@ -1,7 +1,7 @@
-% !Tex root = daily-cal-2015-Chennai-deva.tex
+% !Tex program = xelatex
 \documentclass[12pt]{article}
 \usepackage[dvipsnames]{xcolor} 
-\usepackage[paperwidth=126mm,paperheight=168mm,left=5mm,right=5mm,top=10mm,bottom=0mm]{geometry}
+\usepackage[paperwidth=126mm,paperheight=168mm,left=2mm,right=2mm,top=8mm,bottom=2mm]{geometry}
 \usepackage[xetex]{graphicx}
 \usepackage{array}
 \usepackage{multirow}
@@ -71,8 +71,8 @@
 % PDF SETUP
 % ---- FILL IN HERE THE DOC TITLE AND AUTHOR
 \defaultfontfeatures{Scale=MatchLowercase,Mapping=tex-text}
-\setmainfont{siddhanta.ttf}[Path=../fonts/,Script=Devanagari]
-\setsansfont[Path=../fonts/,Scale=0.75]{NotoSansUI-Regular.ttf}
+\setmainfont{siddhanta.ttf}[Path=../fonts/,Script=Devanagari] 
+\setsansfont[Path=../fonts/,Scale=0.95,Numbers=Lining]{AlegreyaSans-Regular.ttf}
 % \newfontfamily\noto[Path=../fonts/, Ligatures=TeX]{NotoSansUI-Regular}
 %%%%%%% Numbers and counters %%%%%%%
 \newcount\num
@@ -84,15 +84,15 @@
 {\tempone=\num
 %  \showthe\tempone\ %
 \ifnum\num > 0 
-	\divide \num by 10%
-	\temptwo=\num \multiply\temptwo by -10%
-	\devanumberrecurse%
-% 	\\stage 2\ %
-% 	\showthe\temptwo\ %
-% 	temp1=\number\tempone\ %
-% 	num=\number\num\ %
-	\advance\tempone by \temptwo%
-	\devadigit
+    \divide \num by 10%
+    \temptwo=\num \multiply\temptwo by -10%
+    \devanumberrecurse%
+%   \\stage 2\ %
+%   \showthe\temptwo\ %
+%   temp1=\number\tempone\ %
+%   num=\number\num\ %
+    \advance\tempone by \temptwo%
+    \devadigit
 \fi
 }}
 \newcommand{\devadigit}{%
@@ -101,33 +101,35 @@
 \newcommand{\eventsep}{~\raisebox{1pt}{\scriptsize$\Diamondblack$} }
 \newcommand{\TO}{\hspace{1pt}\raisebox{1pt}{\footnotesize\RIGHTarrow}\hspace{1pt}}
 \newcommand{\To}{\hspace{1pt}\raisebox{1pt}{\footnotesize\RIGHTarrow}\hspace{1pt}}
+\newcommand{\Too}{\hspace{1pt}\raisebox{1pt}{\footnotesize\RIGHTarrow\hspace{-5pt}\RIGHTarrow}\hspace{1pt}}
 %%%%%%%% Calendar display stuff %%%%%%%%%%%
-\newcommand{\sunmonth}[6]{%
-\begin{minipage}[t]{56mm}
-\begin{minipage}[t]{\linewidth}
-\centering
-\large #6\\[1ex]%Samvatsara Name
-{\LARGE #1}\\%Solar month name
-\mbox{\small #3}\\[1ex]%Month end time, if any
-#4\\[3ex]%Lunar month name
-\end{minipage}
-\begin{minipage}[c][30mm]{\linewidth}
-\centering
- \mbox{\fontsize{96}{96}\selectfont \devanumber{#2}}\mbox{}\\[2ex]%Solar month date
- \end{minipage}
- \begin{minipage}[b][14mm]{\linewidth}
- \centering
-\mbox{\fontsize{28}{28}\selectfont {#5}}\\%Vara name
-\mbox{}
-\end{minipage}
-\end{minipage}%
+\newcommand{\samvatsaraName}{}
+\newcommand{\solarMonthName}{}
+\newcommand{\solarMonthEndTime}{}
+\newcommand{\lunarMonthName}{}
+\newcommand{\solarMonthDate}{}
+\newcommand{\vaaraName}{}
+\newcommand{\rtuName}{}
+\newcommand{\ayanamName}{}
+
+\newcommand{\sunmonth}[8]{%
+\renewcommand{\samvatsaraName}{#6}
+\renewcommand{\solarMonthName}{#1}
+\renewcommand{\solarMonthEndTime}{#3}
+\renewcommand{\lunarMonthName}{#4}
+\renewcommand{\solarMonthDate}{#2}
+\renewcommand{\vaaraName}{#5}
+\renewcommand{\ayanamName}{#7}
+\renewcommand{\rtuName}{#8}
 }
 \newcommand{\tamil}[1]{%
-{\fontspec[Scale=0.9,FakeStretch=0.9,Path=../fonts/]{NotoSansTamil-Regular.ttf} \footnotesize #1}}
+{\fontspec[Scale=0.8,FakeStretch=0.9,Path=../fonts/]{NotoSansTamil-Regular.ttf} \footnotesize #1}}
 \newcommand{\kalas}[1]{%
 \setsepchar{ }
 \readlist\arg{#1}
-\centerline{\small{\mbox{प्रातः सन्ध्या \textsf{\arg[1]} सङ्गव \textsf{\arg[3]}\hspace{2ex}मध्याह्न \textsf{\arg[6]}{\scriptsize\RIGHTarrow}\textsf{\arg[7]}\hspace{2ex} सायाह्न \textsf{\arg[8]} सायं सन्ध्या \textsf{\arg[9]}}}}%Sangava kala etc
+{\small{\mbox{सङ्गव-कालः \textsf{\arg[3]}{\scriptsize\RIGHTarrow} मध्याह्न \textsf{\arg[6]}{\scriptsize\RIGHTarrow} अपराह्ण \textsf{\arg[7]}{\scriptsize\RIGHTarrow} सायाह्न \textsf{\arg[8]}{\scriptsize\RIGHTarrow}} \hfill शयन \textsf{\arg[11]}{\scriptsize\RIGHTarrow}\textsf{\arg[12]}}}\\[-1ex]
+{\small{\mbox{प्रातः सन्ध्या \textsf{\arg[1]}{\scriptsize\RIGHTarrow}\textsf{\arg[2]} माध्याह्निक \textsf{\arg[4]}{\scriptsize\RIGHTarrow}\textsf{\arg[5]} 
+सायं \textsf{\arg[9]}{\scriptsize\RIGHTarrow}\textsf{\arg[10]}}\hfill {दिनान्तः{\scriptsize\RIGHTarrow}\textsf{\arg[13]}}}\\[-4.5ex]}
 }
 \newcommand{\sunmoondata}[5]{%
 \mbox{\large\sun{\small\UParrow}\textsf{#1}~\sun{\small\DOWNarrow}\textsf{#2}}\hfill
@@ -149,21 +151,23 @@
 \end{minipage}
 }
 \newcommand{\caldata}[8]{%
-\begin{minipage}[t]{56mm}
-\centering
-\large \textsf{\yearname}\\[1ex]%YYYY
-\mbox{\sffamily\fontsize{20}{25}\selectfont {\uppercase{#1}}}\\[9ex]%mmm
-\mbox{\sffamily\fontsize{108}{130}\selectfont #2}\\[3ex]%DD
-\mbox{\sffamily\fontsize{32}{38}\selectfont\uppercase{#8}}\\%Day of the week
-\mbox{}
-\end{minipage}
-\vline
-#3 %Right panel with all solar/lunar month data
-\hrule
-\mbox{}\\[0.3ex]
+#3% Calls \sunmonth
+\large% Fixes font size
+{\centering\begin{tabular}{c|c}
+\large \textsf{\yearname} & {\large\samvatsaraName}\\[-1ex]%YYYY
+& {\footnotesize \ayanamName \hspace{6pt} \rtuName}\\[0.4ex]
+\mbox{\sffamily\fontsize{20}{25}\selectfont {\uppercase{#1}}} & \parbox[2.6cm]{1cm}{\LARGE\solarMonthName}\\%mmm
+& \mbox{\small \solarMonthEndTime}\\
+& \parbox{3cm}{\centering\lunarMonthName}\\
+\hspace{0.465\linewidth} & \hspace{0.465\linewidth} \\
+\mbox{\sffamily\fontsize{96}{115}\selectfont #2} & \mbox{\fontsize{90}{24}\selectfont \devanumber{\solarMonthDate}}\\[2.2ex]%DD
+\mbox{\sffamily\fontsize{24}{28}\selectfont\uppercase{#8}} & \parbox[2.6cm]{1cm}{\LARGE\vaaraName}\\[1.2ex]%Day of the week
+\hline
+\end{tabular}
+}\mbox{}\\[1pt]
 #4\\[0.5em]%Sun rise, kalas etc
-#5\\[1.4em]%Tithi, Nakshatram, Varam, Yogam
-\parbox[c][3em][c]{0.9\linewidth}{\centering\normalsize\textcolor{RoyalBlue}{#7}}\\\vfill%Festivals
+#5\\[1.25em]%Tithi, Nakshatram, Varam, Yogam
+\parbox[c][3em][c]{0.95\linewidth}{\centering\normalsize\textcolor{RoyalBlue}{#7}}\\\vfill%Festivals
 #6%Rahu, Yama etc
 \clearpage
 }

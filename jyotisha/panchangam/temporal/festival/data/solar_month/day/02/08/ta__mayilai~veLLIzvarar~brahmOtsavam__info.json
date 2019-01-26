@@ -1,0 +1,17 @@
+{
+  "description": {
+    "en": "Enactment of restoration of eyesight of Shukracharya."
+  },
+  "id": "ta__mayilai~veLLIzvarar~brahmOtsavam",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "tamilnadu-temple-festivals"
+  ],
+  "timing": {
+    "angam_number": 8,
+    "angam_type": "day",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 2,
+    "month_type": "solar_month"
+  }
+}

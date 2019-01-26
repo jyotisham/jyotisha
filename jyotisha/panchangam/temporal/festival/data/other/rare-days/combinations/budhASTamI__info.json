@@ -1,0 +1,17 @@
+{
+  "description": {
+    "en": "`aSTamI tithi` on a Wednesday is as sacred as a solar eclipse."
+  },
+  "id": "budhASTamI",
+  "jsonClass": "HinduCalendarEvent",
+  "shlokas": [
+    "amAvasyA tu sOmEna saptamI bhAnunA saha.\ncaturthI bhUmiputrENa sOmaputrENa cASTamI.\ncatasrastithayastvEtAH sUryagrahaNasannibhAH.."
+  ],
+  "tags": [
+    "rare-days",
+    "combinations"
+  ],
+  "timing": {
+    "jsonClass": "HinduCalendarEventTiming"
+  }
+}

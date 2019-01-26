@@ -1,0 +1,17 @@
+{
+  "description": {
+    "en": "Very famously celebrated in Vaikom Mahadeva Temple."
+  },
+  "id": "mahAdEvASTamI",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "kerala-temple-festivals"
+  ],
+  "timing": {
+    "angam_number": 23,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 8,
+    "month_type": "lunar_month"
+  }
+}

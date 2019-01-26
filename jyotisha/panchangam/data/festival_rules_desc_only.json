@@ -1,12 +1,272 @@
 [
     {
+        "id": "kAmadA-EkAdazI",
+        "description": {
+            "en": "The Shukla-paksha Ekadashi of `caitra` month is known as `kAmadA-EkAdazI`."
+        },
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "monthly-vratams,ekadashi-vratam-days"
+    },
+    {
+        "id": "mOhinI-EkAdazI",
+        "description": {
+            "en": "The Shukla-paksha Ekadashi of `vaizAkha` month is known as `mOhinI-EkAdazI`."
+        },
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "monthly-vratams,ekadashi-vratam-days"
+    },
+    {
+        "id": "pANDava-nirjalA-EkAdazI",
+        "description": {
+            "en": "The Shukla-paksha Ekadashi of `jyaiSTha` month is known as `nirjalA-EkAdazI`."
+        },
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "monthly-vratams,ekadashi-vratam-days"
+    },
+    {
+        "id": "zayana-EkAdazI",
+        "description": {
+            "en": "The Shukla-paksha Ekadashi of `ASADha` month is known as `zayana-EkAdazI`. Lord Vishnu goes to sleep for four months beginning today."
+        },
+        "jsonClass": "HinduCalendarEventOld",
+        "shlokas": [
+            "vAsudEva jagadyOnE prAptEyaM dvAdazI tava.\nbhujaGgazayanE'bdhau ca sukhaM svapihi mAdhava..\niyaM tu dvAdazI dEva zayanArthaM vinirmita.\nasyAM suptE jagannAthE jagatsuptaM bhavEdidam..\nvibuddhE tvayi buddhyEta sarvamEtaccarAcaram.."
+        ],
+        "tags": "monthly-vratams,ekadashi-vratam-days",
+        "titles": "padmA ekAdazI\ndevazayanI ekAdazI"
+    },
+    {
+        "id": "pavitrOpAna-EkAdazI",
+        "description": {
+            "en": "The Shukla-paksha Ekadashi of `zravaNa` month is known as `pavitrOpAna-EkAdazI`."
+        },
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "monthly-vratams,ekadashi-vratam-days"
+    },
+    {
+        "id": "parivartinI-EkAdazI",
+        "description": {
+            "en": "The Shukla-paksha Ekadashi of `bhAdrapada` month is known as `parivartinI-EkAdazI`. Sideways turn inside sleep of Lord Vishnu midway after Shayana Ekadashi."
+        },
+        "jsonClass": "HinduCalendarEventOld",
+        "shlokas": [
+            "vAsudEva jagannAtha prAptEyaM dvAdazI tava.\npArzvEna parivartasva sukhaM svapihi mAdhava.."
+        ],
+        "tags": "monthly-vratams,ekadashi-vratam-days"
+    },
+    {
+        "id": "pApAGkuzA-EkAdazI",
+        "description": {
+            "en": "The Shukla-paksha Ekadashi of `Azvayuja` month is known as `pApAGkuzA-EkAdazI`."
+        },
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "monthly-vratams,ekadashi-vratam-days"
+    },
+    {
+        "id": "utthAna-EkAdazI",
+        "description": {
+            "en": "The Shukla-paksha Ekadashi of `kArtika` month is known as `utthAna-EkAdazI`."
+        },
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "monthly-vratams,ekadashi-vratam-days"
+    },
+    {
+        "id": "mOkSadA-EkAdazI",
+        "description": {
+            "en": "The Shukla-paksha Ekadashi of `mArgazIrSa` month is known as `mOkSadA-EkAdazI`."
+        },
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "monthly-vratams,ekadashi-vratam-days"
+    },
+    {
+        "id": "putradA-EkAdazI",
+        "description": {
+            "en": "The Shukla-paksha Ekadashi of `pauSa` month is known as `putradA-EkAdazI`."
+        },
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "monthly-vratams,ekadashi-vratam-days"
+    },
+    {
+        "id": "jayA/bhaimI-EkAdazI",
+        "description": {
+            "en": "The Jaya-paksha Ekadashi of `mAgha` month is known as `bhaimI-EkAdazI`."
+        },
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "monthly-vratams,ekadashi-vratam-days"
+    },
+    {
+        "id": "AmalakI-EkAdazI",
+        "description": {
+            "en": "The Shukla-paksha Ekadashi of `phAlguna` month is known as `AmalakI-EkAdazI`."
+        },
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "monthly-vratams,ekadashi-vratam-days"
+    },
+    {
+        "id": "padminI-EkAdazI",
+        "description": {
+            "en": "The Shukla-paksha Ekadashi of `adhika` month is known as `padminI-EkAdazI`."
+        },
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "monthly-vratams,ekadashi-vratam-days"
+    },
+    {
+        "id": "guruvAyupura-EkAdazI",
+        "description": {
+            "en": "The Shukla-paksha Ekadashi of `vRzcikamAsa` is known as `guruvAyupura-EkAdazI`."
+        },
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "monthly-vratams,ekadashi-vratam-days,kerala-temple-festivals"
+    },
+    {
+        "id": "vaikuNTha-EkAdazI",
+        "description": {
+            "en": "The Shukla-paksha Ekadashi of `dhanurmAsa` is known as `vaikuNTha-EkAdazI`."
+        },
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "monthly-vratams,ekadashi-vratam-days"
+    },
+    {
+        "description": {
+            "en": "The Shukla-paksha Ekadashi of `vRzcikamAsa` is also celebrated as `kaizika-EkAdazI`. Kaisika Puranam, consisting of 82 shlokas describes the story of `ta:nampADuvAn2` and a `rAkSasa` who attained mukti by `nAmasaGkIrtanam` and the fruits of `ta:nampADuvAn`'s `nAmasaGkIrtanam`, respectively!"
+        },
+        "id": "kaizika-EkAdazI",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "monthly-vratams,ekadashi-vratam-days"
+    },
+    {
+        "id": "varUthinI-EkAdazI",
+        "description": {
+            "en": "The Krishna-paksha Ekadashi of `caitra` month is known as `varUthinI-EkAdazI`."
+        },
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "monthly-vratams,ekadashi-vratam-days"
+    },
+    {
+        "id": "aparA-EkAdazI",
+        "description": {
+            "en": "The Krishna-paksha Ekadashi of `vaizAkha` month is known as `aparA-EkAdazI`."
+        },
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "monthly-vratams,ekadashi-vratam-days"
+    },
+    {
+        "id": "yOginI-EkAdazI",
+        "description": {
+            "en": "The Krishna-paksha Ekadashi of `jyaiSTha` month is known as `yOginI-EkAdazI`."
+        },
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "monthly-vratams,ekadashi-vratam-days"
+    },
+    {
+        "id": "kAmikA-EkAdazI",
+        "description": {
+            "en": "The Krishna-paksha Ekadashi of `ASADha` month is known as `kAmikA-EkAdazI`."
+        },
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "monthly-vratams,ekadashi-vratam-days"
+    },
+    {
+        "id": "ajA-EkAdazI",
+        "description": {
+            "en": "The Krishna-paksha Ekadashi of `zravaNa` month is known as `ajA-EkAdazI`. Satya Harishchandra performed this to get back family and kingdom."
+        },
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "monthly-vratams,ekadashi-vratam-days"
+    },
+    {
+        "id": "indirA-EkAdazI",
+        "description": {
+            "en": "The Krishna-paksha Ekadashi of `bhAdrapada` month is known as `indirA-EkAdazI`. Indrasena's son did Ekadashi and as a result he was shifted from hell to heaven."
+        },
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "monthly-vratams,ekadashi-vratam-days"
+    },
+    {
+        "id": "ramA-EkAdazI",
+        "description": {
+            "en": "The Krishna-paksha Ekadashi of `Azvayuja` month is known as `ramA-EkAdazI`."
+        },
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "monthly-vratams,ekadashi-vratam-days"
+    },
+    {
+        "id": "utpannA-EkAdazI",
+        "description": {
+            "en": "The Krishna-paksha Ekadashi of `kArtika` month is known as `utpannA-EkAdazI`."
+        },
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "monthly-vratams,ekadashi-vratam-days"
+    },
+    {
+        "id": "saphalA-EkAdazI",
+        "description": {
+            "en": "The Krishna-paksha Ekadashi of `mArgazIrSa` month is known as `saphalA-EkAdazI`."
+        },
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "monthly-vratams,ekadashi-vratam-days"
+    },
+    {
+        "id": "SaTtilA-EkAdazI",
+        "description": {
+            "en": "The Krishna-paksha Ekadashi of `pauSa` month is known as `SaTtilA-EkAdazI`."
+        },
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "monthly-vratams,ekadashi-vratam-days"
+    },
+    {
+        "id": "vijayA-EkAdazI",
+        "description": {
+            "en": "The Krishna-paksha Ekadashi of `mAgha` month is known as `vijayA-EkAdazI`."
+        },
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "monthly-vratams,ekadashi-vratam-days"
+    },
+    {
+        "id": "pApamOcanI-EkAdazI",
+        "description": {
+            "en": "The Krishna-paksha Ekadashi of `phAlguna` month is known as `pApamOcanI-EkAdazI`."
+        },
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "monthly-vratams,ekadashi-vratam-days"
+    },
+    {
+        "id": "paramA-EkAdazI",
+        "description": {
+            "en": "The Krishna-paksha Ekadashi of `adhika` month is known as `paramA-EkAdazI`."
+        },
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "monthly-vratams,ekadashi-vratam-days"
+    },
+    {
+        "description": {
+            "en": "Being the first day of the new year, read the `paJcAGga` today, followed by naivedyam of `pAnakam` to `gaNEzAdi trayastriMzat kOTi dEvatAH`."
+        },
+        "id": "paJcAGga-paThanam",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "common-festivals"
+    },
+    {
+        "description": {
+            "en": "Monthly Shashthi vratam for Lord Subrahmanya."
+        },
         "id": "SaSThI-vratam",
         "jsonClass": "HinduCalendarEventOld",
         "tags": "monthly-vratams,shashthi-vratam-days"
     },
     {
         "description": {
-            "en": "`upavAsam` with only water and next day `pAraNa` gives `Arogyam`"
+            "en": "`tulArAziM gatE sUryE pUrvasmin bhRguvAsarE`"
+        },
+        "id": "bhRguvAra-subrahmaNya-vratam",
+        "references_primary": ["Skanda Puranam"],
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "special-vratams",
+        "notes": "Pravachanam of Brahmmasri Ky. Bharaneedhara Sastrigal, https://www.youtube.com/watch?v=rgXwyo0L3i8&feature=youtu.be&t=222"
+    },
+    {
+        "description": {
+            "en": "`upavAsam` with only water and next day `pAraNa` gives `ArOgyam`"
         },
         "id": "kumAra-SaSThI-vratam",
         "jsonClass": "HinduCalendarEventOld",
@@ -22,12 +282,18 @@
         "id": "SaSThIdEvI-SaSThI-vratam",
         "jsonClass": "HinduCalendarEventOld",
         "shlokas": [
-            "yO'syAM pazyati gAGgEyaM dakSiNApathavAsinam .\nbrahmahatyAdi pApaistu mucyatE nAtra saMzayaH .."
+            "yO'syAM pazyati gAGgEyaM dakSiNApathavAsinam.\nbrahmahatyAdi pApaistu mucyatE nAtra saMzayaH.."
         ],
         "tags": "monthly-vratams,shashthi-vratam-days"
     },
     {
-        "id": "skanda-SaSThI-vratam",
+        "id": "skandaSaSThI-vratam",
+        "description": {
+            "en": "One of the most important vratams, alongside Krishnajanmashtami, Shivaratri etc. Must observe fast. Offer Arghyam facing South, using Curd, Akshata, Water and Flowers (`dadhnAkSatOdakaiH puSpaiH`) chanting the shloka below."
+        },
+        "shlokas": [
+            "asyAM hi zrIH samAyuktaH yasmAt skandO'bhavat purA.\ntasmATSaSThyAM na bhuJjIta prApnuyAdbhArgavI sadA..\n\nsaptarSidAraja skanda sEnAdhipa mahAbala.\nrudrOmAgnija SaDvaktra gaGgAgarbha namO'stu tE.."
+        ],
         "jsonClass": "HinduCalendarEventOld",
         "tags": "monthly-vratams,shashthi-vratam-days"
     },
@@ -44,36 +310,47 @@
     },
     {
         "description": {
-            "en": "`saptamI tithi` on a Sunday is as sacred as a solar eclipse. Particularly good for worshipping Surya. "
+            "en": "`saptamI tithi` on a Sunday is as sacred as a solar eclipse. Particularly good for worshipping Surya."
         },
         "id": "bhAnusaptamI",
         "jsonClass": "HinduCalendarEventOld",
         "shlokas": [
-            "amAvasyA tu sOmEna saptamI bhAnunA saha.\ncaturthI bhUmiputrENa sOmaputrENa cASTamI.\n catasrastithayastvEtAH sUryagrahaNasannibhAH.."
+            "amAvasyA tu sOmEna saptamI bhAnunA saha.\ncaturthI bhUmiputrENa sOmaputrENa cASTamI.\ncatasrastithayastvEtAH sUryagrahaNasannibhAH.."
         ],
-        "tags": "rare-days"
+        "tags": "rare-days,combinations"
     },
     {
         "description": {
-            "en": "`saptamI tithi` on a Sunday is as sacred as a solar eclipse. Particularly good for worshipping Surya. Today is even more auspicious, as it is associated with `revatI` star."
+            "en": "A very special yOga, for doing Pitru Shraddha during Mahalaya Paksham. A man that performs a sraddha in the conjunction called Gajacchaya at a place that is fanned by the leaves of the Aswattha tree enjoys the fruits thereof, O Yudhishthira, for a hundred thousand kalpas."
         },
-        "id": "bhAnusaptamI*",
+        "id": "gajacchAyA-yOgaH",
         "jsonClass": "HinduCalendarEventOld",
         "shlokas": [
-            "amAvasyA tu sOmEna saptamI bhAnunA saha.\ncaturthI bhUmiputrENa sOmaputrENa cASTamI.\n catasrastithayastvEtAH sUryagrahaNasannibhAH.."
+            "chAyAyAM kariNaH zrAddhaM tatkarma parivIjitam.\ndazakalpAyutAnIha na kSIyEta yudhiSThira..3-203-121..\nmahAbhAratE vanaparvaNi trayOttaradvizatatamE'dhyAyE"
         ],
-        "tags": "rare-days"
+        "tags": "rare-days,combinations"
     },
     {
         "description": {
-            "en": "`aSTamI tithi` on a Wednesday is as sacred as a solar eclipse. "
+            "en": "`saptamI tithi` on a Sunday is as sacred as a solar eclipse. Particularly good for worshipping Surya. Today is even more auspicious, as it is associated with `rEvatI` star."
+        },
+        "id": "bhAnusaptamI★",
+        "jsonClass": "HinduCalendarEventOld",
+        "shlokas": [
+            "amAvasyA tu sOmEna saptamI bhAnunA saha.\ncaturthI bhUmiputrENa sOmaputrENa cASTamI.\ncatasrastithayastvEtAH sUryagrahaNasannibhAH.."
+        ],
+        "tags": "rare-days,combinations"
+    },
+    {
+        "description": {
+            "en": "`aSTamI tithi` on a Wednesday is as sacred as a solar eclipse."
         },
         "id": "budhASTamI",
         "jsonClass": "HinduCalendarEventOld",
         "shlokas": [
-            "amAvasyA tu sOmEna saptamI bhAnunA saha.\ncaturthI bhUmiputrENa sOmaputrENa cASTamI.\n catasrastithayastvEtAH sUryagrahaNasannibhAH.."
+            "amAvasyA tu sOmEna saptamI bhAnunA saha.\ncaturthI bhUmiputrENa sOmaputrENa cASTamI.\ncatasrastithayastvEtAH sUryagrahaNasannibhAH.."
         ],
-        "tags": "rare-days"
+        "tags": "rare-days,combinations"
     },
     {
         "description": {
@@ -82,28 +359,28 @@
         "id": "aGgAraka-caturthI",
         "jsonClass": "HinduCalendarEventOld",
         "shlokas": [
-            "amAvasyA tu sOmEna saptamI bhAnunA saha.\ncaturthI bhUmiputrENa sOmaputrENa cASTamI.\n catasrastithayastvEtAH sUryagrahaNasannibhAH.."
+            "amAvasyA tu sOmEna saptamI bhAnunA saha.\ncaturthI bhUmiputrENa sOmaputrENa cASTamI.\ncatasrastithayastvEtAH sUryagrahaNasannibhAH.."
         ],
-        "tags": "rare-days"
+        "tags": "rare-days,combinations"
     },
     {
         "description": {
-            "en": "`kRSNa caturdazI tithi` on a Tuesday is very sacred. Perform `tarpaNa` to Yama Dharamaraja."
+            "en": "`kRSNa caturdazI tithi` on a Tuesday is very sacred. Perform `tarpaNam` to Yama Dharamaraja."
         },
         "id": "kRSNAGgAraka-caturdazI-puNyakAlaH/yamatarpaNam",
         "jsonClass": "HinduCalendarEventOld",
-        "tags": "rare-days"
+        "tags": "rare-days,combinations"
     },
     {
         "description": {
             "en": "`amAvasyA` on a Monday is as sacred as a solar eclipse. Particularly good for performing pradakshinam of Pippala tree."
         },
-        "id": "sOma-amAvasyA",
+        "id": "sOmavatI amAvasyA",
         "jsonClass": "HinduCalendarEventOld",
         "shlokas": [
-            "amAvasyA tu sOmEna saptamI bhAnunA saha.\ncaturthI bhUmiputrENa sOmaputrENa cASTamI.\n catasrastithayastvEtAH sUryagrahaNasannibhAH.. mUlatO brahmarUpAya madhyatO viSNurUpiNE.\nagrataH zivarUpAya vRkSarAjAya tE namaH..\nakSispandaM bhujaspandaM duHsvapnaM durvicintanam .\n zatrUnAm ca samutpannam azvattha zamayasva mE .."
+            "amAvasyA tu sOmEna saptamI bhAnunA saha.\ncaturthI bhUmiputrENa sOmaputrENa cASTamI.\ncatasrastithayastvEtAH sUryagrahaNasannibhAH..\n\nmUlatO brahmarUpAya madhyatO viSNurUpiNE.\nagrataH zivarUpAya vRkSarAjAya tE namaH..\nakSispandaM bhujaspandaM duHsvapnaM durvicintanam.\nzatrUnAm ca samutpannam azvattha zamayasva mE.."
         ],
-        "tags": "rare-days,amavasya-days"
+        "tags": "rare-days,combinations,amavasya-days"
     },
     {
         "description": {
@@ -122,25 +399,47 @@
         "tags": "amavasya-days"
     },
     {
-        "description": {
-            "en": "Satya Harishchandra performed this to get back family and kingdom."
-        },
-        "id": "ajA-EkAdazI",
-        "jsonClass": "HinduCalendarEventOld",
-        "tags": "monthly-vratams,ekadashi-vratam-days"
-    },
-    {
-        "id": "AmalakI-EkAdazI",
-        "jsonClass": "HinduCalendarEventOld",
-        "tags": "monthly-vratams,ekadashi-vratam-days"
-    },
-    {
-        "id": "aparA-EkAdazI",
-        "jsonClass": "HinduCalendarEventOld",
-        "tags": "monthly-vratams,ekadashi-vratam-days"
-    },
-    {
         "id": "Azvayuja-amAvasyA",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "amavasya-days"
+    },
+    {
+        "id": "Azvayuja-(adhika)-amAvasyA",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "amavasya-days"
+    },
+    {
+        "id": "ASADha-(adhika)-amAvasyA",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "amavasya-days"
+    },
+    {
+        "id": "zravaNa-(adhika) (kaTaka) amAvasyA",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "amavasya-days"
+    },
+    {
+        "id": "bhAdrapada-(adhika)-amAvasyA",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "amavasya-days"
+    },
+    {
+        "id": "caitra-(adhika)-amAvasyA",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "amavasya-days"
+    },
+    {
+        "id": "vaizAkha-(adhika)-amAvasyA",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "amavasya-days"
+    },
+    {
+        "id": "zravaNa-(adhika)-amAvasyA",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "amavasya-days"
+    },
+    {
+        "id": "jyaiSTha-(adhika)-amAvasyA",
         "jsonClass": "HinduCalendarEventOld",
         "tags": "amavasya-days"
     },
@@ -150,53 +449,29 @@
         "tags": "amavasya-days"
     },
     {
-        "id": "candra-grahaNam",
+        "id": "candra-grahaNam~(rAhugrasta)",
         "jsonClass": "HinduCalendarEventOld",
-        "tags": "rare-days"
+        "tags": "rare-days,eclipses"
     },
     {
-        "id": "guruvAyupura-EkAdazI",
+        "id": "candra-grahaNam~(kEtugrasta)",
         "jsonClass": "HinduCalendarEventOld",
-        "tags": "monthly-vratams,ekadashi-vratam-days,kerala-temple-festivals"
+        "tags": "rare-days,eclipses"
     },
     {
-        "description": {
-            "en": "Indrasena's son did Ekadashi and as a result he was shifted from hell to heaven."
-        },
-        "id": "indirA-EkAdazI",
+        "id": "★cUDAmaNi-candra-grahaNam~(rAhugrasta)",
         "jsonClass": "HinduCalendarEventOld",
-        "tags": "monthly-vratams,ekadashi-vratam-days"
+        "tags": "rare-days,eclipses"
     },
     {
-        "id": "padminI-EkAdazI",
+        "id": "★cUDAmaNi-candra-grahaNam~(kEtugrasta)",
         "jsonClass": "HinduCalendarEventOld",
-        "tags": "monthly-vratams,ekadashi-vratam-days"
-    },
-    {
-        "id": "paramA-EkAdazI",
-        "jsonClass": "HinduCalendarEventOld",
-        "tags": "monthly-vratams,ekadashi-vratam-days"
-    },
-    {
-        "id": "jayA/bhaimI-EkAdazI",
-        "jsonClass": "HinduCalendarEventOld",
-        "tags": "monthly-vratams,ekadashi-vratam-days",
-        "titles": "bhaimI-EkAdazI"
+        "tags": "rare-days,eclipses"
     },
     {
         "id": "jyaiSTha-amAvasyA",
         "jsonClass": "HinduCalendarEventOld",
         "tags": "amavasya-days"
-    },
-    {
-        "id": "kAmadA-EkAdazI",
-        "jsonClass": "HinduCalendarEventOld",
-        "tags": "monthly-vratams,ekadashi-vratam-days"
-    },
-    {
-        "id": "kAmikA-EkAdazI",
-        "jsonClass": "HinduCalendarEventOld",
-        "tags": "monthly-vratams,ekadashi-vratam-days"
     },
     {
         "id": "kArtika-amAvasyA",
@@ -205,7 +480,7 @@
     },
     {
         "description": {
-            "en": "Celebrated especially in Kerala/Guruvayur."
+            "en": "Celebrated especially in Kerala/Guruvayur. Commemorates the incident of Kuchela visiting Lord Krishna. Offer naivedyam of `pRthukam`."
         },
         "id": "kucEla-dinam",
         "jsonClass": "HinduCalendarEventOld",
@@ -219,22 +494,17 @@
     {
         "id": "mahAdhanurvyatIpAtam",
         "jsonClass": "HinduCalendarEventOld",
-        "tags": "common-festivals"
-    },
-    {
-        "id": "mahAsaGkaTahara-caturthI-vratam",
-        "jsonClass": "HinduCalendarEventOld",
-        "tags": "common-festivals"
+        "tags": "shraddha-days"
     },
     {
         "id": "mahAvyatIpAtam",
         "jsonClass": "HinduCalendarEventOld",
-        "tags": "common-festivals"
+        "tags": "shraddha-days"
     },
     {
         "id": "makarAyaNa-puNyakAlaH/mitrOtsavaH",
         "jsonClass": "HinduCalendarEventOld",
-        "tags": "common-festivals"
+        "tags": "sun-sankranti"
     },
     {
         "id": "mArgazIrSa-amAvasyA",
@@ -242,62 +512,14 @@
         "tags": "amavasya-days"
     },
     {
-        "id": "mOhinI-EkAdazI",
-        "jsonClass": "HinduCalendarEventOld",
-        "tags": "monthly-vratams,ekadashi-vratam-days"
-    },
-    {
-        "id": "mOkSadA-EkAdazI",
-        "jsonClass": "HinduCalendarEventOld",
-        "tags": "monthly-vratams,ekadashi-vratam-days"
-    },
-    {
-        "description": {
-            "en": "Lord Vishnu goes to sleep."
-        },
-        "id": "zayana-EkAdazI",
-        "jsonClass": "HinduCalendarEventOld",
-        "shlokas": [
-            "vAsudEva jagadyOnE prAptEyaM dvAdazI tava.\nbhujaGgazayanE'bdhau ca sukhaM svapihi mAdhava..\niyaM tu dvAdazI dEva zayanArthaM vinirmita .\nasyAM suptE jagannAthE jagatsuptaM bhavEdidam ..\nvibuddhE tvayi buddhyEta sarvamEtaccarAcaram .."
-        ],
-        "tags": "monthly-vratams,ekadashi-vratam-days",
-        "titles": "padmA ekAdazI\ndevazayanI ekAdazI"
-    },
-    {
-        "id": "pANDava-nirjalA-EkAdazI",
-        "jsonClass": "HinduCalendarEventOld",
-        "tags": "monthly-vratams,ekadashi-vratam-days"
-    },
-    {
-        "id": "pApAGkuzA-EkAdazI",
-        "jsonClass": "HinduCalendarEventOld",
-        "tags": "monthly-vratams,ekadashi-vratam-days"
-    },
-    {
-        "id": "pApamOcanI-EkAdazI",
-        "jsonClass": "HinduCalendarEventOld",
-        "tags": "monthly-vratams,ekadashi-vratam-days"
-    },
-    {
-        "description": {
-            "en": "Side ways turn inside sleep of Vishnu midway after Shayana Ekadashi."
-        },
-        "id": "parivartinI-EkAdazI",
-        "jsonClass": "HinduCalendarEventOld",
-        "shlokas": [
-            "vAsudEva jagannAtha prAptEyaM dvAdazI tava.\n pArzvEna parivartasva sukhaM svapihi mAdhava.."
-        ],
-        "tags": "monthly-vratams,ekadashi-vratam-days"
-    },
-    {
         "id": "mauni (pauSa/makara) amAvasyA",
         "jsonClass": "HinduCalendarEventOld",
         "tags": "amavasya-days"
     },
     {
-        "id": "pavitrOpAna-EkAdazI",
+        "id": "mauni (mAgha/makara) amAvasyA",
         "jsonClass": "HinduCalendarEventOld",
-        "tags": "monthly-vratams,ekadashi-vratam-days"
+        "tags": "amavasya-days"
     },
     {
         "id": "phAlguna-amAvasyA",
@@ -310,20 +532,10 @@
         "tags": "monthly-vratams,pradosha-vratam-days"
     },
     {
-        "id": "putradA-EkAdazI",
-        "jsonClass": "HinduCalendarEventOld",
-        "tags": "monthly-vratams,ekadashi-vratam-days"
-    },
-    {
-        "id": "ramA-EkAdazI",
-        "jsonClass": "HinduCalendarEventOld",
-        "tags": "monthly-vratams,ekadashi-vratam-days"
-    },
-    {
         "description": {
-            "en": "Special vrata day for Ganesha. Fast during the day and pray to Ganesha after moonrise, as follows:"
+            "en": "Special vrata day for Ganesha. In this month, Ganesha is worshipped as `lambOdara-mahAgaNapatiH`. Fast during the day and pray to Ganesha after moonrise, as follows:"
         },
-        "id": "saGkaTahara-caturthI-vratam",
+        "id": "lambOdara-mahAgaNapati saGkaTahara-caturthI-vratam",
         "jsonClass": "HinduCalendarEventOld",
         "shlokas": [
             "gaNAdhipastvaM dEvEza caturthyAM pUjitO mayA.\nkaSTAn mAM mOcayEzAna sarvamiSTaM ca dEhi mE.."
@@ -331,39 +543,146 @@
         "tags": "monthly-vratams,sankatahara-chaturthi-vratam-days"
     },
     {
-        "id": "saphalA-EkAdazI",
+        "description": {
+            "en": "Special vrata day for Ganesha. In this month, Ganesha is worshipped as `dvijapriya-mahAgaNapatiH`. Fast during the day and pray to Ganesha after moonrise, as follows:"
+        },
+        "id": "dvijapriya-mahAgaNapati saGkaTahara-caturthI-vratam",
         "jsonClass": "HinduCalendarEventOld",
-        "tags": "monthly-vratams,ekadashi-vratam-days"
+        "shlokas": [
+            "gaNAdhipastvaM dEvEza caturthyAM pUjitO mayA.\nkaSTAn mAM mOcayEzAna sarvamiSTaM ca dEhi mE.."
+        ],
+        "tags": "monthly-vratams,sankatahara-chaturthi-vratam-days"
     },
     {
-        "id": "SaTtilA-EkAdazI",
+        "description": {
+            "en": "Special vrata day for Ganesha. In this month, Ganesha is worshipped as `bhAlacandra-mahAgaNapatiH`. Fast during the day and pray to Ganesha after moonrise, as follows:"
+        },
+        "id": "bhAlacandra-mahAgaNapati saGkaTahara-caturthI-vratam",
         "jsonClass": "HinduCalendarEventOld",
-        "tags": "monthly-vratams,ekadashi-vratam-days"
+        "shlokas": [
+            "gaNAdhipastvaM dEvEza caturthyAM pUjitO mayA.\nkaSTAn mAM mOcayEzAna sarvamiSTaM ca dEhi mE.."
+        ],
+        "tags": "monthly-vratams,sankatahara-chaturthi-vratam-days"
+    },
+    {
+        "description": {
+            "en": "Special vrata day for Ganesha. In this month, Ganesha is worshipped as `vikaTa-mahAgaNapatiH`. Fast during the day and pray to Ganesha after moonrise, as follows:"
+        },
+        "id": "vikaTa-mahAgaNapati saGkaTahara-caturthI-vratam",
+        "jsonClass": "HinduCalendarEventOld",
+        "shlokas": [
+            "gaNAdhipastvaM dEvEza caturthyAM pUjitO mayA.\nkaSTAn mAM mOcayEzAna sarvamiSTaM ca dEhi mE.."
+        ],
+        "tags": "monthly-vratams,sankatahara-chaturthi-vratam-days"
+    },
+    {
+        "description": {
+            "en": "Special vrata day for Ganesha. In this month, Ganesha is worshipped as `Ekadanta-mahAgaNapatiH`. Fast during the day and pray to Ganesha after moonrise, as follows:"
+        },
+        "id": "Ekadanta-mahAgaNapati saGkaTahara-caturthI-vratam",
+        "jsonClass": "HinduCalendarEventOld",
+        "shlokas": [
+            "gaNAdhipastvaM dEvEza caturthyAM pUjitO mayA.\nkaSTAn mAM mOcayEzAna sarvamiSTaM ca dEhi mE.."
+        ],
+        "tags": "monthly-vratams,sankatahara-chaturthi-vratam-days"
+    },
+    {
+        "description": {
+            "en": "Special vrata day for Ganesha. In this month, Ganesha is worshipped as `kRSNapiGgala-mahAgaNapatiH`. Fast during the day and pray to Ganesha after moonrise, as follows:"
+        },
+        "id": "kRSNapiGgala-mahAgaNapati saGkaTahara-caturthI-vratam",
+        "jsonClass": "HinduCalendarEventOld",
+        "shlokas": [
+            "gaNAdhipastvaM dEvEza caturthyAM pUjitO mayA.\nkaSTAn mAM mOcayEzAna sarvamiSTaM ca dEhi mE.."
+        ],
+        "tags": "monthly-vratams,sankatahara-chaturthi-vratam-days"
+    },
+    {
+        "description": {
+            "en": "Special vrata day for Ganesha. In this month, Ganesha is worshipped as `gajAnana-mahAgaNapatiH`. Fast during the day and pray to Ganesha after moonrise, as follows:"
+        },
+        "id": "gajAnana-mahAgaNapati saGkaTahara-caturthI-vratam",
+        "jsonClass": "HinduCalendarEventOld",
+        "shlokas": [
+            "gaNAdhipastvaM dEvEza caturthyAM pUjitO mayA.\nkaSTAn mAM mOcayEzAna sarvamiSTaM ca dEhi mE.."
+        ],
+        "tags": "monthly-vratams,sankatahara-chaturthi-vratam-days"
+    },
+    {
+        "description": {
+            "en": "Special vrata day for Ganesha. In this month, Ganesha is worshipped as `hEramba-mahAgaNapatiH`. Fast during the day and pray to Ganesha after moonrise, as follows:"
+        },
+        "id": "hEramba-mahAgaNapati mahAsaGkaTahara-caturthI-vratam",
+        "jsonClass": "HinduCalendarEventOld",
+        "shlokas": [
+            "gaNAdhipastvaM dEvEza caturthyAM pUjitO mayA.\nkaSTAn mAM mOcayEzAna sarvamiSTaM ca dEhi mE.."
+        ],
+        "tags": "monthly-vratams,sankatahara-chaturthi-vratam-days"
+    },
+    {
+        "description": {
+            "en": "Special vrata day for Ganesha. In this month, Ganesha is worshipped as `vighnarAja-mahAgaNapatiH`. Fast during the day and pray to Ganesha after moonrise, as follows:"
+        },
+        "id": "vighnarAja-mahAgaNapati saGkaTahara-caturthI-vratam",
+        "jsonClass": "HinduCalendarEventOld",
+        "shlokas": [
+            "gaNAdhipastvaM dEvEza caturthyAM pUjitO mayA.\nkaSTAn mAM mOcayEzAna sarvamiSTaM ca dEhi mE.."
+        ],
+        "tags": "monthly-vratams,sankatahara-chaturthi-vratam-days"
+    },
+    {
+        "description": {
+            "en": "Special vrata day for Ganesha. In this month, Ganesha is worshipped as `vakratuNDa-mahAgaNapatiH`. Fast during the day and pray to Ganesha after moonrise, as follows:"
+        },
+        "id": "vakratuNDa-mahAgaNapati saGkaTahara-caturthI-vratam",
+        "jsonClass": "HinduCalendarEventOld",
+        "shlokas": [
+            "gaNAdhipastvaM dEvEza caturthyAM pUjitO mayA.\nkaSTAn mAM mOcayEzAna sarvamiSTaM ca dEhi mE.."
+        ],
+        "tags": "monthly-vratams,sankatahara-chaturthi-vratam-days"
+    },
+    {
+        "description": {
+            "en": "Special vrata day for Ganesha. In this month, Ganesha is worshipped as `gaNAdhipa-mahAgaNapatiH`. Fast during the day and pray to Ganesha after moonrise, as follows:"
+        },
+        "id": "gaNAdhipa-mahAgaNapati saGkaTahara-caturthI-vratam",
+        "jsonClass": "HinduCalendarEventOld",
+        "shlokas": [
+            "gaNAdhipastvaM dEvEza caturthyAM pUjitO mayA.\nkaSTAn mAM mOcayEzAna sarvamiSTaM ca dEhi mE.."
+        ],
+        "tags": "monthly-vratams,sankatahara-chaturthi-vratam-days"
+    },
+    {
+        "description": {
+            "en": "Special vrata day for Ganesha. In this month, Ganesha is worshipped as `Akhuratha-mahAgaNapatiH`. Fast during the day and pray to Ganesha after moonrise, as follows:"
+        },
+        "id": "Akhuratha-mahAgaNapati saGkaTahara-caturthI-vratam",
+        "jsonClass": "HinduCalendarEventOld",
+        "shlokas": [
+            "gaNAdhipastvaM dEvEza caturthyAM pUjitO mayA.\nkaSTAn mAM mOcayEzAna sarvamiSTaM ca dEhi mE.."
+        ],
+        "tags": "monthly-vratams,sankatahara-chaturthi-vratam-days"
+    },
+    {
+        "description": {
+            "en": "Special vrata day for Ganesha. In this month, Ganesha is worshipped as `vibhuvana-mahAgaNapatiH`. Fast during the day and pray to Ganesha after moonrise, as follows:"
+        },
+        "id": "vibhuvana-mahAgaNapati saGkaTahara-caturthI-vratam",
+        "jsonClass": "HinduCalendarEventOld",
+        "shlokas": [
+            "gaNAdhipastvaM dEvEza caturthyAM pUjitO mayA.\nkaSTAn mAM mOcayEzAna sarvamiSTaM ca dEhi mE.."
+        ],
+        "tags": "monthly-vratams,sankatahara-chaturthi-vratam-days"
     },
     {
         "id": "sOma-pradOSa-vratam",
         "jsonClass": "HinduCalendarEventOld",
-        "tags": "pradosha-vratam-days,monthly-vratams"
+        "tags": "monthly-vratams,pradosha-vratam-days"
     },
     {
         "id": "sukhA~aGgAraka-caturthI",
         "jsonClass": "HinduCalendarEventOld",
-        "tags": "rare-days"
-    },
-    {
-        "id": "utpannA-EkAdazI",
-        "jsonClass": "HinduCalendarEventOld",
-        "tags": "monthly-vratams,ekadashi-vratam-days"
-    },
-    {
-        "id": "utthAna-EkAdazI",
-        "jsonClass": "HinduCalendarEventOld",
-        "tags": "monthly-vratams,ekadashi-vratam-days"
-    },
-    {
-        "id": "vaikuNTha-EkAdazI",
-        "jsonClass": "HinduCalendarEventOld",
-        "tags": "monthly-vratams,ekadashi-vratam-days"
+        "tags": "rare-days,combinations"
     },
     {
         "id": "vaizAkha-amAvasyA",
@@ -376,41 +695,26 @@
         "tags": "common-festivals,special-vratams"
     },
     {
-        "id": "varUthinI-EkAdazI",
-        "jsonClass": "HinduCalendarEventOld",
-        "tags": "monthly-vratams,ekadashi-vratam-days"
-    },
-    {
         "description": {
             "en": "`saptamI tithi` on a Sunday is as sacred as a solar eclipse. Particularly good for worshipping Surya. When `zukla saptamI` is present at sunrise, it is called `vijayA`."
         },
         "id": "vijayA~bhAnusaptamI",
         "jsonClass": "HinduCalendarEventOld",
         "shlokas": [
-            "amAvasyA tu sOmEna saptamI bhAnunA saha.\ncaturthI bhUmiputrENa sOmaputrENa cASTamI.\n catasrastithayastvEtAH sUryagrahaNasannibhAH.."
+            "amAvasyA tu sOmEna saptamI bhAnunA saha.\ncaturthI bhUmiputrENa sOmaputrENa cASTamI.\ncatasrastithayastvEtAH sUryagrahaNasannibhAH.."
         ],
-        "tags": "rare-days"
+        "tags": "rare-days,combinations"
     },
     {
         "description": {
             "en": "`saptamI tithi` on a Sunday is as sacred as a solar eclipse. Particularly good for worshipping Surya. When `zukla saptamI` is present at sunrise, it is called `vijayA`."
         },
-        "id": "vijayA~bhAnusaptamI*",
+        "id": "vijayA~bhAnusaptamI★",
         "jsonClass": "HinduCalendarEventOld",
         "shlokas": [
-            "amAvasyA tu sOmEna saptamI bhAnunA saha.\ncaturthI bhUmiputrENa sOmaputrENa cASTamI.\n catasrastithayastvEtAH sUryagrahaNasannibhAH.."
+            "amAvasyA tu sOmEna saptamI bhAnunA saha.\ncaturthI bhUmiputrENa sOmaputrENa cASTamI.\ncatasrastithayastvEtAH sUryagrahaNasannibhAH.."
         ],
-        "tags": "rare-days"
-    },
-    {
-        "id": "vijayA-EkAdazI",
-        "jsonClass": "HinduCalendarEventOld",
-        "tags": "monthly-vratams,ekadashi-vratam-days"
-    },
-    {
-        "id": "yOginI-EkAdazI",
-        "jsonClass": "HinduCalendarEventOld",
-        "tags": "monthly-vratams,ekadashi-vratam-days"
+        "tags": "rare-days,combinations"
     },
     {
         "id": "zani-pradOSa-vratam",
@@ -430,7 +734,7 @@
     {
         "id": "sUrya-grahaNam",
         "jsonClass": "HinduCalendarEventOld",
-        "tags": "rare-days"
+        "tags": "rare-days,eclipses"
     },
     {
         "description": {
@@ -438,7 +742,7 @@
         },
         "id": "bhaumAzvinI-puNyakAlaH",
         "jsonClass": "HinduCalendarEventOld",
-        "tags": "rare-days"
+        "tags": "rare-days,combinations"
     },
     {
         "id": "ASADha (kaTaka) amAvasyA",
@@ -452,16 +756,15 @@
     },
     {
         "description": {
-            "en": "When Anuradha nakshatram falls on a Wednesday, it is a special `puNyakAlaH` for performing danams. One can do dAnaM of dadhyodanam in Vishnu temples on this day."
-        },
+            "en": "When `anUrAdhA` nakshatram falls on a Wednesday, it is a special `puNyakAlaH` for performing `dAnam`. One can do `dAnaM` of `dadhyOdanam` in Vishnu temples on this day."        },
         "id": "budhAnUrAdhA-puNyakAlaH",
         "jsonClass": "HinduCalendarEventOld",
-        "tags": "rare-days"
+        "tags": "rare-days,combinations"
     },
     {
         "id": "gajacchAyA-yOgam",
         "jsonClass": "HinduCalendarEventOld",
-        "tags": "rare-days"
+        "tags": "rare-days,combinations"
     },
     {
         "id": "agninakSatra-ArambhaH",
@@ -472,11 +775,6 @@
         "id": "agninakSatra-samApanam",
         "jsonClass": "HinduCalendarEventOld",
         "tags": "special-period-end"
-    },
-    {
-        "id": "ta:kapAlI teppOtsavam",
-        "jsonClass": "HinduCalendarEventOld",
-        "tags": "tamilnadu-temple-festivals"
     },
     {
         "id": "ta:kAraDaiyAn2 nOn2bu",
@@ -502,17 +800,17 @@
     {
         "id": "ta:kArttigai~sOmavAram",
         "jsonClass": "HinduCalendarEventOld",
-        "tags": "tamil-month-vratams"
+        "tags": "month-weekday-festivals"
     },
     {
         "id": "ta:ADi~veLLikkizhamai",
         "jsonClass": "HinduCalendarEventOld",
-        "tags": "tamil-month-vratams"
+        "tags": "month-weekday-festivals"
     },
     {
         "id": "ta:tai~veLLikkizhamai",
         "jsonClass": "HinduCalendarEventOld",
-        "tags": "tamil-month-vratams"
+        "tags": "month-weekday-festivals"
     },
     {
         "description": {
@@ -520,7 +818,7 @@
         },
         "id": "ta:mAci~cevvAy",
         "jsonClass": "HinduCalendarEventOld",
-        "tags": "tamil-month-vratams,special-vratams"
+        "tags": "month-weekday-festivals"
     },
     {
         "description": {
@@ -528,29 +826,29 @@
         },
         "id": "ta:puraTTAci~can2ikkizhamai",
         "jsonClass": "HinduCalendarEventOld",
-        "tags": "tamil-month-vratams,special-vratams"
+        "tags": "month-weekday-festivals"
     },
     {
         "description": {
             "en": "When a lunar eclipse occurs on a Monday, it is even more special: `cUDAmaNi`, i.e. crest jewel."
         },
-        "id": "*cUDAmaNi-candra-grahaNam",
+        "id": "★cUDAmaNi-candra-grahaNam",
         "jsonClass": "HinduCalendarEventOld",
         "references_secondary": [
             "Kielhorn, 1897"
         ],
-        "tags": "rare-days"
+        "tags": "rare-days,combinations,eclipses"
     },
     {
         "description": {
             "en": "When a solar eclipse occurs on a Sunday, it is even more special: `cUDAmaNi`, i.e. crest jewel."
         },
-        "id": "*cUDAmaNi-sUrya-grahaNam",
+        "id": "★cUDAmaNi-sUrya-grahaNam",
         "jsonClass": "HinduCalendarEventOld",
         "references_secondary": [
             "Kielhorn, 1897"
         ],
-        "tags": "rare-days"
+        "tags": "rare-days,combinations,eclipses"
     },
     {
         "id": "ASADha-amAvasyA",
@@ -566,7 +864,7 @@
         "references_secondary": [
             "Maha Periva / Deivattin Kural"
         ],
-        "tags": "rare-days"
+        "tags": "rare-days,combinations"
     },
     {
         "description": {
@@ -574,7 +872,7 @@
         },
         "id": "jayantI~mahAdvAdazI",
         "jsonClass": "HinduCalendarEventOld",
-        "tags": "rare-days"
+        "tags": "rare-days,combinations"
     },
     {
         "description": {
@@ -582,7 +880,7 @@
         },
         "id": "jayA~mahAdvAdazI",
         "jsonClass": "HinduCalendarEventOld",
-        "tags": "rare-days"
+        "tags": "rare-days,combinations"
     },
     {
         "description": {
@@ -590,7 +888,15 @@
         },
         "id": "mahAjayA~saptamI",
         "jsonClass": "HinduCalendarEventOld",
-        "tags": "rare-days"
+        "tags": "rare-days,combinations"
+    },
+    {
+        "description": {
+            "en": "Saptami tithi, combined with the first `pAda` of `hasta` nakshatram."
+        },
+        "id": "bhadrA~saptamI",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "rare-days,combinations"
     },
     {
         "description": {
@@ -598,7 +904,7 @@
         },
         "id": "mahOdaya-puNyakAlaH",
         "jsonClass": "HinduCalendarEventOld",
-        "tags": "rare-days"
+        "tags": "rare-days,combinations"
     },
     {
         "description": {
@@ -606,7 +912,7 @@
         },
         "id": "ardhOdaya-puNyakAlaH",
         "jsonClass": "HinduCalendarEventOld",
-        "tags": "rare-days"
+        "tags": "rare-days,combinations"
     },
     {
         "description": {
@@ -614,7 +920,7 @@
         },
         "id": "pApanAzinI~mahAdvAdazI",
         "jsonClass": "HinduCalendarEventOld",
-        "tags": "rare-days"
+        "tags": "rare-days,combinations"
     },
     {
         "id": "pauSa-amAvasyA",
@@ -627,7 +933,7 @@
         },
         "id": "vAruNI~trayOdazI",
         "jsonClass": "HinduCalendarEventOld",
-        "tags": "rare-days"
+        "tags": "rare-days,combinations"
     },
     {
         "description": {
@@ -635,7 +941,7 @@
         },
         "id": "mahAvAruNI~trayOdazI",
         "jsonClass": "HinduCalendarEventOld",
-        "tags": "rare-days"
+        "tags": "rare-days,combinations"
     },
     {
         "description": {
@@ -643,15 +949,23 @@
         },
         "id": "mahAmahAvAruNI~trayOdazI",
         "jsonClass": "HinduCalendarEventOld",
-        "tags": "rare-days"
+        "tags": "rare-days,combinations"
     },
     {
         "description": {
             "en": "Dvadashi tithi, combined with Shravana nakshatram."
         },
-        "id": "vijayA/zravaNa~mahAdvAdazI",
+        "id": "vijayA/zravaNa-mahAdvAdazI",
         "jsonClass": "HinduCalendarEventOld",
-        "tags": "rare-days,special-vratams"
+        "tags": "rare-days,combinations,special-vratams"
+    },
+    {
+        "description": {
+            "en": "Phalguni Dvadashi tithi, combined with Pushya nakshatram."
+        },
+        "id": "gOvinda~mahAdvAdazI",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "rare-days,combinations,special-vratams"
     },
     {
         "description": {
@@ -660,16 +974,6 @@
         "id": "mESa-saGkrAntiH",
         "jsonClass": "HinduCalendarEventOld",
         "tags": "sun-sankranti,common-festivals"
-    },
-    {
-        "id": "kRSNA-antya-puSkara-ArambhaH",
-        "jsonClass": "HinduCalendarEventOld",
-        "tags": "pushkara,rare-days"
-    },
-    {
-        "id": "kRSNA-antya-puSkara-samApanam",
-        "jsonClass": "HinduCalendarEventOld",
-        "tags": "pushkara,rare-days"
     },
     {
         "id": "guru-saGkrAntiH",
@@ -682,13 +986,531 @@
         "tags": "sankranti"
     },
     {
-        "id": "kAvErI-Adi-puSkara-ArambhaH",
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `mESa rAzI`, `puSkararAja` resides in `gaGgA` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "gaGgA-Adi-puSkara-ArambhaH",
         "jsonClass": "HinduCalendarEventOld",
-        "tags": "pushkara,rare-days"
+        "tags": "rare-days,pushkara"
     },
     {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `mESa rAzI`, `puSkararAja` resides in `gaGgA` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "gaGgA-antya-puSkara-ArambhaH",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "rare-days,pushkara"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `mESa rAzI`, `puSkararAja` resides in `gaGgA` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "gaGgA-Adi-puSkara-samApanam",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "rare-days,pushkara"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `mESa rAzI`, `puSkararAja` resides in `gaGgA` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "gaGgA-antya-puSkara-samApanam",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "rare-days,pushkara"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `vRSabha rAzI`, `puSkararAja` resides in `narmadA` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "narmadA-Adi-puSkara-ArambhaH",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "rare-days,pushkara"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `vRSabha rAzI`, `puSkararAja` resides in `narmadA` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "narmadA-antya-puSkara-ArambhaH",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "rare-days,pushkara"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `vRSabha rAzI`, `puSkararAja` resides in `narmadA` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "narmadA-Adi-puSkara-samApanam",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "rare-days,pushkara"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `vRSabha rAzI`, `puSkararAja` resides in `narmadA` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "narmadA-antya-puSkara-samApanam",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "rare-days,pushkara"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `mithuna rAzI`, `puSkararAja` resides in `sarasvatI` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "sarasvatI-Adi-puSkara-ArambhaH",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "rare-days,pushkara"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `mithuna rAzI`, `puSkararAja` resides in `sarasvatI` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "sarasvatI-antya-puSkara-ArambhaH",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "rare-days,pushkara"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `mithuna rAzI`, `puSkararAja` resides in `sarasvatI` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "sarasvatI-Adi-puSkara-samApanam",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "rare-days,pushkara"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `mithuna rAzI`, `puSkararAja` resides in `sarasvatI` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "sarasvatI-antya-puSkara-samApanam",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "rare-days,pushkara"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `kaTaka rAzI`, `puSkararAja` resides in `yamunA` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "yamunA-Adi-puSkara-ArambhaH",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "rare-days,pushkara"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `kaTaka rAzI`, `puSkararAja` resides in `yamunA` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "yamunA-antya-puSkara-ArambhaH",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "rare-days,pushkara"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `kaTaka rAzI`, `puSkararAja` resides in `yamunA` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "yamunA-Adi-puSkara-samApanam",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "rare-days,pushkara"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `kaTaka rAzI`, `puSkararAja` resides in `yamunA` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "yamunA-antya-puSkara-samApanam",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "rare-days,pushkara"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `siMha rAzI`, `puSkararAja` resides in `gOdAvarI` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "gOdAvarI-Adi-puSkara-ArambhaH",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "rare-days,pushkara"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `siMha rAzI`, `puSkararAja` resides in `gOdAvarI` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "gOdAvarI-antya-puSkara-ArambhaH",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "rare-days,pushkara"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `siMha rAzI`, `puSkararAja` resides in `gOdAvarI` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "gOdAvarI-Adi-puSkara-samApanam",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "rare-days,pushkara"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `siMha rAzI`, `puSkararAja` resides in `gOdAvarI` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "gOdAvarI-antya-puSkara-samApanam",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "rare-days,pushkara"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `kanyA rAzI`, `puSkararAja` resides in `kRSNA` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "kRSNA-Adi-puSkara-ArambhaH",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "rare-days,pushkara"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `kanyA rAzI`, `puSkararAja` resides in `kRSNA` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "kRSNA-antya-puSkara-ArambhaH",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "rare-days,pushkara"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `kanyA rAzI`, `puSkararAja` resides in `kRSNA` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "kRSNA-Adi-puSkara-samApanam",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "rare-days,pushkara"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `kanyA rAzI`, `puSkararAja` resides in `kRSNA` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "kRSNA-antya-puSkara-samApanam",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "rare-days,pushkara"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `tulA rAzI`, `puSkararAja` resides in `kAvErI` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "kAvErI-Adi-puSkara-ArambhaH",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "rare-days,pushkara"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `tulA rAzI`, `puSkararAja` resides in `kAvErI` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "kAvErI-antya-puSkara-ArambhaH",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "rare-days,pushkara"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `tulA rAzI`, `puSkararAja` resides in `kAvErI` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
         "id": "kAvErI-Adi-puSkara-samApanam",
         "jsonClass": "HinduCalendarEventOld",
-        "tags": "pushkara,rare-days"
-    }
+        "tags": "rare-days,pushkara"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `tulA rAzI`, `puSkararAja` resides in `kAvErI` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "kAvErI-antya-puSkara-samApanam",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "rare-days,pushkara"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `vRzcika rAzI`, `puSkararAja` resides in `bhImA/tAmraparNI` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "bhImA/tAmraparNI-Adi-puSkara-ArambhaH",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "rare-days,pushkara"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `vRzcika rAzI`, `puSkararAja` resides in `bhImA/tAmraparNI` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "bhImA/tAmraparNI-antya-puSkara-ArambhaH",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "rare-days,pushkara"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `vRzcika rAzI`, `puSkararAja` resides in `bhImA/tAmraparNI` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "bhImA/tAmraparNI-Adi-puSkara-samApanam",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "rare-days,pushkara"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `vRzcika rAzI`, `puSkararAja` resides in `bhImA/tAmraparNI` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "bhImA/tAmraparNI-antya-puSkara-samApanam",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "rare-days,pushkara"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `dhanuH rAzI`, `puSkararAja` resides in `tapatI` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "tapatI-Adi-puSkara-ArambhaH",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "rare-days,pushkara"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `dhanuH rAzI`, `puSkararAja` resides in `tapatI` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "tapatI-antya-puSkara-ArambhaH",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "rare-days,pushkara"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `dhanuH rAzI`, `puSkararAja` resides in `tapatI` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "tapatI-Adi-puSkara-samApanam",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "rare-days,pushkara"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `dhanuH rAzI`, `puSkararAja` resides in `tapatI` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "tapatI-antya-puSkara-samApanam",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "rare-days,pushkara"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `makara rAzI`, `puSkararAja` resides in `tuGgabhadrA` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "tuGgabhadrA-Adi-puSkara-ArambhaH",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "rare-days,pushkara"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `makara rAzI`, `puSkararAja` resides in `tuGgabhadrA` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "tuGgabhadrA-antya-puSkara-ArambhaH",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "rare-days,pushkara"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `makara rAzI`, `puSkararAja` resides in `tuGgabhadrA` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "tuGgabhadrA-Adi-puSkara-samApanam",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "rare-days,pushkara"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `makara rAzI`, `puSkararAja` resides in `tuGgabhadrA` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "tuGgabhadrA-antya-puSkara-samApanam",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "rare-days,pushkara"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `kumbha rAzI`, `puSkararAja` resides in `sindhu` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "sindhu-Adi-puSkara-ArambhaH",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "rare-days,pushkara"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `kumbha rAzI`, `puSkararAja` resides in `sindhu` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "sindhu-antya-puSkara-ArambhaH",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "rare-days,pushkara"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `kumbha rAzI`, `puSkararAja` resides in `sindhu` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "sindhu-Adi-puSkara-samApanam",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "rare-days,pushkara"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `kumbha rAzI`, `puSkararAja` resides in `sindhu` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "sindhu-antya-puSkara-samApanam",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "rare-days,pushkara"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `mIna rAzI`, `puSkararAja` resides in `prANahitA` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "prANahitA-Adi-puSkara-ArambhaH",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "rare-days,pushkara"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `mIna rAzI`, `puSkararAja` resides in `prANahitA` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "prANahitA-antya-puSkara-ArambhaH",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "rare-days,pushkara"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `mIna rAzI`, `puSkararAja` resides in `prANahitA` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "prANahitA-Adi-puSkara-samApanam",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "rare-days,pushkara"
+    },
+    {
+        "description": {
+            "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `mIna rAzI`, `puSkararAja` resides in `prANahitA` river."
+        },
+        "shlokas": [
+            "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+        ],
+        "id": "prANahitA-antya-puSkara-samApanam",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "rare-days,pushkara"
+    }    
 ]

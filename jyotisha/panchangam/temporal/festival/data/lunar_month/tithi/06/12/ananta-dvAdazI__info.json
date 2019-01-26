@@ -1,0 +1,17 @@
+{
+  "description": {
+    "en": "Vanjuli (Cow giving lots of milk), dugdha (milk), Aviyoga, Ananta Dvadashi"
+  },
+  "id": "ananta-dvAdazI",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "special-pujas"
+  ],
+  "timing": {
+    "angam_number": 12,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 6,
+    "month_type": "lunar_month"
+  }
+}

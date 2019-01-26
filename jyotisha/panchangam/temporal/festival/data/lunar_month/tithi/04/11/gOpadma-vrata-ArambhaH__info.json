@@ -1,0 +1,26 @@
+{
+  "description": {
+    "en": "Perform puja of Mahalakshmi-Mahavishnu"
+  },
+  "id": "gOpadma-vrata-ArambhaH",
+  "jsonClass": "HinduCalendarEvent",
+  "references_primary": [
+    "Vrata Chudamani 173"
+  ],
+  "references_secondary": [
+    "Vaidikasri Aug 2015"
+  ],
+  "shlokas": [
+    "gOpadmamiti vikhyAtaM sarvapApaharaM param.\nsarvaduHkhOpazamanaM sarvasampatpradAyakam.\nsuvAsinyAstu saubhAgyaputrapautrapravardhanam.."
+  ],
+  "tags": [
+    "special-vratams"
+  ],
+  "timing": {
+    "angam_number": 11,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 4,
+    "month_type": "lunar_month"
+  }
+}

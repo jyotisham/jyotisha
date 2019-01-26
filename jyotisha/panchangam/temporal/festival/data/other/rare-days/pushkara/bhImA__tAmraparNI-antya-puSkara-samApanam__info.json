@@ -1,0 +1,17 @@
+{
+  "description": {
+    "en": "Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (`Adi puSkaram`) and at the end of the year (preceding transition to the next `rAzI`, `antya puSkaram`), and for two muhurtas during mid-day, every day, during the entire year.\n Following the transition of Guru to `vRzcika rAzI`, `puSkararAja` resides in `bhImA/tAmraparNI` river."
+  },
+  "id": "bhImA/tAmraparNI-antya-puSkara-samApanam",
+  "jsonClass": "HinduCalendarEvent",
+  "shlokas": [
+    "yadA rAzi-pravEzaH syAttadA prabhRti sarvadA.\ndvAdazAhamitE kAlE vastavyaM tu mamA''jJayA..\nAvatsaraM tu vastavyaM madhyAhnE dvimuhUrtakam.\nantE dvAdaza vastavyaM dinAni ca yathAsukham..\n"
+  ],
+  "tags": [
+    "rare-days",
+    "pushkara"
+  ],
+  "timing": {
+    "jsonClass": "HinduCalendarEventTiming"
+  }
+}

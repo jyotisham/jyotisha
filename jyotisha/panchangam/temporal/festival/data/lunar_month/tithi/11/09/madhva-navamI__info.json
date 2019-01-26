@@ -1,0 +1,17 @@
+{
+  "description": {
+    "en": "Brahmaikyam of Madhvacharya"
+  },
+  "id": "madhva-navamI",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "mahapurusha-events"
+  ],
+  "timing": {
+    "angam_number": 9,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 11,
+    "month_type": "lunar_month"
+  }
+}

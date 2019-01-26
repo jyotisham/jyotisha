@@ -1,0 +1,21 @@
+{
+  "description": {
+    "en": "Shyamala Devi specially blesses musicians; honour musicians in this period."
+  },
+  "id": "zyAmaLAnavarAtri-ArambhaH",
+  "jsonClass": "HinduCalendarEvent",
+  "references_secondary": [
+    "Vaidikasri Feb 2016"
+  ],
+  "tags": [
+    "navaratri",
+    "special-period-start"
+  ],
+  "timing": {
+    "angam_number": 1,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 11,
+    "month_type": "lunar_month"
+  }
+}

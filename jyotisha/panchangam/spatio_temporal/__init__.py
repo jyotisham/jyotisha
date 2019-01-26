@@ -205,7 +205,7 @@ def get_lagna_data(jd_sunrise, lat, lon, tz_off, ayanamsha_id=swe.SIDM_LAHIRI, d
 
 # Essential for depickling to work.
 common.update_json_class_index(sys.modules[__name__])
-logging.debug(common.json_class_index)
+# logging.debug(common.json_class_index)
 
 if __name__ == '__main__':
   import doctest

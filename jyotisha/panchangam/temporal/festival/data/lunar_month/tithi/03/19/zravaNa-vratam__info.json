@@ -1,0 +1,15 @@
+{
+  "id": "zravaNa-vratam",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "less-common-festivals"
+  ],
+  "timing": {
+    "angam_number": 19,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "kaala": "moonrise",
+    "month_number": 3,
+    "month_type": "lunar_month"
+  }
+}

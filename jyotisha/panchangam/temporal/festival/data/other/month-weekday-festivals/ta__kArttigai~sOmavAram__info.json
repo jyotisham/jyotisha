@@ -1,0 +1,10 @@
+{
+  "id": "ta__kArttigai~sOmavAram",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "month-weekday-festivals"
+  ],
+  "timing": {
+    "jsonClass": "HinduCalendarEventTiming"
+  }
+}

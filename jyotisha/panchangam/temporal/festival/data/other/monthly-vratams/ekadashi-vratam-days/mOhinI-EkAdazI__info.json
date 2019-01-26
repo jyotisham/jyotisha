@@ -1,0 +1,14 @@
+{
+  "description": {
+    "en": "The Shukla-paksha Ekadashi of `vaizAkha` month is known as `mOhinI-EkAdazI`."
+  },
+  "id": "mOhinI-EkAdazI",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "monthly-vratams",
+    "ekadashi-vratam-days"
+  ],
+  "timing": {
+    "jsonClass": "HinduCalendarEventTiming"
+  }
+}

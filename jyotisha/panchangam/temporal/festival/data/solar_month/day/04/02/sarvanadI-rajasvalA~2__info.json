@@ -1,0 +1,17 @@
+{
+  "description": {
+    "en": "Do not take bath in any river during these days."
+  },
+  "id": "sarvanadI-rajasvalA~2",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "common-festivals"
+  ],
+  "timing": {
+    "angam_number": 2,
+    "angam_type": "day",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 4,
+    "month_type": "solar_month"
+  }
+}

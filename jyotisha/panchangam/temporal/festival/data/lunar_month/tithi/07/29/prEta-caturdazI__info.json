@@ -1,0 +1,20 @@
+{
+  "description": {
+    "en": "Perform Deepa Danam for Yamadharmaraja in evening"
+  },
+  "id": "prEta-caturdazI",
+  "jsonClass": "HinduCalendarEvent",
+  "references_primary": [
+    "Vrata Chudamani"
+  ],
+  "tags": [
+    "less-common-festivals"
+  ],
+  "timing": {
+    "angam_number": 29,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 7,
+    "month_type": "lunar_month"
+  }
+}

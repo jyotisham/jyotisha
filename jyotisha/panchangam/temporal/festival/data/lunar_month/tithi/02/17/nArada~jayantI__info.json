@@ -1,0 +1,17 @@
+{
+  "description": {
+    "en": "Avataram of `nArada muni`; perform danam of `vINA`, music"
+  },
+  "id": "nArada~jayantI",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "less-common-festivals"
+  ],
+  "timing": {
+    "angam_number": 17,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 2,
+    "month_type": "lunar_month"
+  }
+}

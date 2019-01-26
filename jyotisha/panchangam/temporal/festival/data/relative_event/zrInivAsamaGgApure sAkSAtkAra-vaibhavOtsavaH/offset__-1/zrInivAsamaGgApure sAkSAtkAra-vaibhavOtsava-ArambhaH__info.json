@@ -1,11 +1,11 @@
 {
-  "id": "zrInivAsamaGgApure sAkSAtkAra-vaibhavOtsava-ArambhaH",
+  "id": "zrInivAsamaGgApurE sAkSAtkAra-vaibhavOtsava-ArambhaH",
   "jsonClass": "HinduCalendarEvent",
   "tags": [
     "andhra-temple-festivals"
   ],
   "timing": {
-    "anchor_festival_id": "zrInivAsamaGgApure sAkSAtkAra-vaibhavOtsavaH",
+    "anchor_festival_id": "zrInivAsamaGgApurE sAkSAtkAra-vaibhavOtsavaH",
     "jsonClass": "HinduCalendarEventTiming",
     "offset": -1
   }

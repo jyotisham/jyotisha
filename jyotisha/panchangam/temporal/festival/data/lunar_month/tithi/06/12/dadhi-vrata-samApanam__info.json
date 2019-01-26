@@ -1,0 +1,22 @@
+{
+  "description": {
+    "en": "On this day the DadhiVratam in Chaaturmaasyam is completed, hence perform danam of Dadhi (curd) to a Viprottama and recite the following shloka."
+  },
+  "id": "dadhi-vrata-samApanam",
+  "jsonClass": "HinduCalendarEvent",
+  "shlokas": [
+    "saGkarSaNa namastubhyaM zravaNE matkRtEna ca.\ndadhivratEna dEvEza tuSTO bhava janArdana..\nidaM vrataM mayA dEva kRtaM prItyai tava prabhO.\nnyUnaM sampUrNatAM yAtu tvatprasAdajjanArdana.."
+  ],
+  "tags": [
+    "vratam-end",
+    "special-period-end",
+    "common-festivals"
+  ],
+  "timing": {
+    "angam_number": 12,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 6,
+    "month_type": "lunar_month"
+  }
+}

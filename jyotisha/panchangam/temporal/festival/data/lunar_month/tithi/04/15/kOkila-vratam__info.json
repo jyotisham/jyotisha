@@ -1,0 +1,19 @@
+{
+  "description": {
+    "en": "Pooja of Kokila for getting good husband/wife."
+  },
+  "id": "kOkila-vratam",
+  "jsonClass": "HinduCalendarEvent",
+  "priority": "puurvaviddha",
+  "tags": [
+    "special-vratams"
+  ],
+  "timing": {
+    "angam_number": 15,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "kaala": "sunset",
+    "month_number": 4,
+    "month_type": "lunar_month"
+  }
+}

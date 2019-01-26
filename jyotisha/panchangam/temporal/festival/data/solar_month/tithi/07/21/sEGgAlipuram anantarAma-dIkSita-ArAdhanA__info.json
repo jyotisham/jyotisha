@@ -1,0 +1,24 @@
+{
+  "description": {
+    "en": "Aradhana Day of Sri Anantarama Dikshitar."
+  },
+  "id": "sEGgAlipuram anantarAma-dIkSita-ArAdhanA",
+  "jsonClass": "HinduCalendarEvent",
+  "priority": "puurvaviddha",
+  "references_secondary": [
+    "Vaidikasri Nov 2017"
+  ],
+  "tags": [
+    "mahapurusha-events",
+    "common-festivals"
+  ],
+  "timing": {
+    "angam_number": 21,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "kaala": "madhyaahna",
+    "month_number": 7,
+    "month_type": "solar_month",
+    "year_start": 5071
+  }
+}

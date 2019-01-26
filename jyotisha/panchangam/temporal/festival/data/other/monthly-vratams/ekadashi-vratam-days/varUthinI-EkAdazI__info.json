@@ -1,0 +1,14 @@
+{
+  "description": {
+    "en": "The Krishna-paksha Ekadashi of `caitra` month is known as `varUthinI-EkAdazI`."
+  },
+  "id": "varUthinI-EkAdazI",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "monthly-vratams",
+    "ekadashi-vratam-days"
+  ],
+  "timing": {
+    "jsonClass": "HinduCalendarEventTiming"
+  }
+}

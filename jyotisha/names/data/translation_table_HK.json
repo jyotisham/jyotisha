@@ -8,6 +8,9 @@
   "KRISHNA_EKADASHI_NAMES": {
     "hk": ["varUthinI", "aparA", "yOginI", "kAmikA", "ajA", "indirA", "ramA", "utpannA", "saphalA", "SaTtilA", "vijayA", "pApamOcanI", "paramA"]
   },
+  "SANKATAHARA_CHATURTHI_NAMES": {
+    "hk": ["vikaTa", "Ekadanta", "kRSNapiGgala", "gajAnana", "hEramba", "vighnarAja", "vakratuNDa", "gaNAdhipa", "Akhuratha", "lambOdara", "dvijapriya", "bhAlacandra", "vibhuvana"]
+  },
   "NAKSHATRAM_NAMES": {
     "hk": ["azvinI", "apabharaNI", "kRttikA", "rOhiNI", "mRgazIrSa", "ArdrA", "punarvasU", "puSya", "AzrESA", "maghA", "pUrvaphalgunI", "uttaraphalgunI", "hasta", "citrA", "svAti", "vizAkhA", "anUrAdhA", "jyESThA", "mUlA", "pUrvASADhA", "uttarASADhA", "zravaNa", "zraviSThA", "zatabhiSak", "pUrvaprOSThapadA", "uttaraprOSThapadA", "rEvatI"]
   },
@@ -31,5 +34,14 @@
   },
   "YOGAM_NAMES": {
     "hk": ["viSkumbha", "prIti", "AyuSmAn", "saubhAgya", "zObhana", "atigaNDa", "sukarma", "dhRti", "zUla", "gaNDa", "vRddhi", "dhruva", "vyAghAta", "harSaNa", "vajra", "siddhi", "vyatIpAta", "varIyAn", "parigha", "ziva", "siddha", "sAdhya", "zubha", "zukla", "brahma", "indra", "vaidhRti"]
+  },
+  "AYANA_NAMES": {
+    "hk": ["uttarAyaNam", "uttarAyaNam", "uttarAyaNam", "dakSiNAyanam", "dakSiNAyanam", "dakSiNAyanam", "dakSiNAyanam", "dakSiNAyanam", "dakSiNAyanam", "uttarAyaNam", "uttarAyaNam", "uttarAyaNam"]
+  },
+  "NIRAYANA_NAMES": {
+    "hk": ["mESAyanam", "vRSabhAyanam", "mithunAyanam", "kaTakAyanam", "siMhAyanam", "kanyAyanam", "tulAyanam", "vRzcikAyanam", "dhanurAyaNam", "makarAyaNam", "kumbhAyanam", "mInAyanam"]
+  },
+  "RTU_NAMES": {
+    "hk": ["vasanta-RtuH", "vasanta-RtuH", "grISma-RtuH", "grISma-RtuH", "varSa-RtuH", "varSa-RtuH", "zarad-RtuH", "zarad-RtuH", "hEmanta-RtuH", "hEmanta-RtuH", "zizira-RtuH", "zizira-RtuH"]
   }
 }

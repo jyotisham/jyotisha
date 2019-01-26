@@ -1,0 +1,26 @@
+{
+  "description": {
+    "en": "Avoid cow's milk, ghee, curd and buttermilk on this day. Give grass to cows and pray to them."
+  },
+  "id": "gOvatsa-dvAdazI",
+  "jsonClass": "HinduCalendarEvent",
+  "priority": "puurvaviddha",
+  "shlokas": [
+    "gOkSIraM gOghRtaM caiva dadhi takraM ca varjayEt.\n\nsurabhi tvaM jaganmAtardEvi viSNupadE sthitA.\nsarvadEvamayE grAsaM mayA dattamidaM grasa..\n\nsarvadEvamayE dEvi sarvEdEvaizca satkRtA.\nmAtarmamA'bhilASitaM saphalaM kuru nandini..\n"
+  ],
+  "tags": [
+    "special-vratams",
+    "common-festivals"
+  ],
+  "timing": {
+    "angam_number": 27,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "kaala": "pradosha",
+    "month_number": 7,
+    "month_type": "lunar_month"
+  },
+  "titles": [
+    "vizoka-dvAdazI\nekhaNDa-dvAdazI\npadmanAbha-dvAdazI"
+  ]
+}

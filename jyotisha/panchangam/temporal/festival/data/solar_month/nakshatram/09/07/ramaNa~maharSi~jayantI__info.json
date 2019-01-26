@@ -1,0 +1,16 @@
+{
+  "id": "ramaNa~maharSi~jayantI",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "mahapurusha-events",
+    "common-festivals"
+  ],
+  "timing": {
+    "angam_number": 7,
+    "angam_type": "nakshatram",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 9,
+    "month_type": "solar_month",
+    "year_start": 4980
+  }
+}

@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-import json
+# import json
 import logging
 import os
 import re
@@ -15,7 +15,7 @@ from pytz import timezone as tz
 import jyotisha.custom_transliteration
 import jyotisha.panchangam.spatio_temporal.annual
 import jyotisha.panchangam.temporal
-from jyotisha.panchangam import scripts
+# from jyotisha.panchangam import scripts
 from jyotisha.panchangam.spatio_temporal import City
 from jyotisha.panchangam.temporal import festival
 from jyotisha.panchangam.temporal.festival import read_old_festival_rules_dict
@@ -43,13 +43,15 @@ def compute_calendar(panchangam):
     festival_rules = {**festival_rules_main, **festival_rules_rel, **festival_rules_desc_only}
 
     ics_calendar = Calendar()
-    uid_list = []
+    # uid_list = []
 
     alarm = Alarm()
     alarm.add('action', 'DISPLAY')
     alarm.add('trigger', timedelta(hours=-4))  # default alarm, with a 4 hour reminder
 
-    for d in range(1, jyotisha.panchangam.temporal.MAX_SZ - 1):
+    year_start = swe.revjul(panchangam.jd_start + 1)[0]  # 1 helps ignore local time etc.
+
+    for d in range(1, len(panchangam.festivals)):
         [y, m, dt, t] = swe.revjul(panchangam.jd_start + d - 1)
 
         if len(panchangam.festivals[d]) > 0:
@@ -59,7 +61,6 @@ def compute_calendar(panchangam):
             # this will work whether we have one or more events on the same day
             for stext in sorted(summary_text):
                 desc = ''
-                page_id = ''
                 event = Event()
                 if stext == 'kRttikA-maNDala-pArAyaNam':
                     event.add('summary', jyotisha.custom_transliteration.tr(stext.replace('-', ' '), panchangam.script))
@@ -70,20 +71,19 @@ def compute_calendar(panchangam):
                     event.add('dtend', (datetime(y, m, dt) + timedelta(48)).date())
 
                     if stext in festival_rules:
-                        desc = festival.HinduCalendarEventOld.make_from_dict(festival_rules[stext]).get_desription_string(script=panchangam.script)
+                        desc = festival.HinduCalendarEventOld.make_from_dict(festival_rules[stext]).get_description_string(script=panchangam.script, include_url=True)
                     else:
-                        sys.stderr.write('No description found for festival %s!\n' % stext)
-                    uid = '%s-%d' % (page_id, y)
+                        logging.warning('No description found for festival %s!' % stext)
 
                     event.add_component(alarm)
                     event.add('description', desc.strip())
-                    uid_list.append(uid)
-                    event.add('uid', uid)
                     event['X-MICROSOFT-CDO-ALLDAYEVENT'] = 'TRUE'
                     event['TRANSP'] = 'TRANSPARENT'
                     event['X-MICROSOFT-CDO-BUSYSTATUS'] = 'FREE'
                     ics_calendar.add_component(event)
                 elif stext.find('RIGHTarrow') != -1:
+                    if y != year_start:
+                        continue
                     # It's a grahanam/yogam, with a start and end time
                     if stext.find('{}') != -1:
                         # Starting or ending time is empty, e.g. harivasara, so no ICS entry
@@ -107,17 +107,11 @@ def compute_calendar(panchangam):
                                                     tzinfo=tz(panchangam.city.timezone)))
 
                     if stext in festival_rules:
-                        desc = festival.HinduCalendarEventOld.make_from_dict(festival_rules[stext]).get_desription_string(script=panchangam.script)
+                        festival_event = festival.HinduCalendarEventOld.make_from_dict(festival_rules[stext])
+                        desc = festival_event.get_description_string(script=panchangam.script, include_url=True)
                     else:
-                        sys.stderr.write('No description found for festival %s!\n' % stext)
+                        logging.warning('No description found for festival %s!\n' % stext)
                     event.add('description', desc.strip())
-                    uid = '%s-%d-%02d' % (page_id, y, m)
-                    if uid not in uid_list:
-                        uid_list.append(uid)
-                    else:
-                        uid = '%s-%d-%02d-%02d' % (page_id, y, m, dt)
-                        uid_list.append(uid)
-                    event.add('uid', uid)
                     event.add_component(alarm)
                     ics_calendar.add_component(event)
                 elif stext.find('samApanam') != -1:
@@ -127,62 +121,59 @@ def compute_calendar(panchangam):
                     event.add('dtend', (datetime(y, m, dt) + timedelta(1)).date())
 
                     if stext in festival_rules:
-                        desc = festival.HinduCalendarEventOld.make_from_dict(festival_rules[stext]).get_desription_string(script=panchangam.script)
+                        festival_event = festival.HinduCalendarEventOld.make_from_dict(festival_rules[stext])
+                        desc = festival_event.get_description_string(script=panchangam.script, include_url=True)
                     else:
-                        sys.stderr.write('No description found for festival %s!\n' % stext)
+                        logging.warning('No description found for festival %s!' % stext)
 
-                    # print(event)
                     event.add_component(alarm)
                     event.add('description', desc.strip())
-                    uid = '%s-%d-%02d' % (page_id, y, m)
-                    if uid not in uid_list:
-                        uid_list.append(uid)
-                    else:
-                        uid = '%s-%d-%02d-%02d' % (page_id, y, m, dt)
-                        uid_list.append(uid)
-                    event.add('uid', uid)
                     event['X-MICROSOFT-CDO-ALLDAYEVENT'] = 'TRUE'
                     event['TRANSP'] = 'TRANSPARENT'
                     event['X-MICROSOFT-CDO-BUSYSTATUS'] = 'FREE'
                     ics_calendar.add_component(event)
 
                     # Find start and add entire event as well
-                    desc = ''
-                    page_id = page_id.replace('-samapanam', '')
                     event = Event()
                     check_d = d
                     stext_start = stext.replace('samApanam', 'ArambhaH')
-                    # print(stext_start)
+                    start_d = None
                     while check_d > 1:
                         check_d -= 1
                         if stext_start in panchangam.festivals[check_d]:
-                            # print(panchangam.festivals[check_d])
                             start_d = check_d
                             break
 
-                    event.add('summary', jyotisha.custom_transliteration.tr(stext.replace('samApanam', '').replace('rAtri-', 'rAtriH').replace('nakSatra-', 'nakSatram').replace('pakSa-', 'pakSaH').replace('kara-', 'karam').replace('tsava-', 'tsavaH').replace('vrata-','vratam'), panchangam.script))
-                    event.add('dtstart', (datetime(y, m, dt) - timedelta(d - start_d)).date())
-                    event.add('dtend', (datetime(y, m, dt) + timedelta(1)).date())
-
-                    # print(event)
-                    event.add_component(alarm)
-                    event.add('description', desc.strip())
-                    uid = '%s-%d-%02d' % (page_id, y, m)
-                    if uid not in uid_list:
-                        uid_list.append(uid)
+                    if start_d is None:
+                        logging.error('Unable to find start date for %s' % stext_start)
                     else:
-                        suff = 0
-                        while uid in uid_list:
-                            uid = '%s-%d-%02d-%02d-%d' % (page_id, y, m, dt, suff)
-                            suff += 1
-                        uid_list.append(uid)
-                    event.add('uid', uid)
-                    event['X-MICROSOFT-CDO-ALLDAYEVENT'] = 'TRUE'
-                    event['TRANSP'] = 'TRANSPARENT'
-                    event['X-MICROSOFT-CDO-BUSYSTATUS'] = 'FREE'
-                    ics_calendar.add_component(event)
+                        # logging.debug(stext)
+                        event_summary_text = stext
+                        REPLACEMENTS = {'samApanam': '',
+                                        'rAtri-': 'rAtriH',
+                                        'nakSatra-': 'nakSatram',
+                                        'pakSa-': 'pakSaH',
+                                        'puSkara-': 'puSkaram',
+                                        'dIpa-': 'dIpaH',
+                                        'snAna-': 'snAnam',
+                                        'tsava-': 'tsavaH',
+                                        'vrata-': 'vratam'}
+                        for _orig, _repl in REPLACEMENTS.items():
+                            event_summary_text = event_summary_text.replace(_orig, _repl)
+                        event.add('summary', jyotisha.custom_transliteration.tr(event_summary_text, panchangam.script))
+                        event.add('dtstart', (datetime(y, m, dt) - timedelta(d - start_d)).date())
+                        event.add('dtend', (datetime(y, m, dt) + timedelta(1)).date())
 
+                        # print(event)
+                        event.add_component(alarm)
+                        event.add('description', desc.strip())
+                        event['X-MICROSOFT-CDO-ALLDAYEVENT'] = 'TRUE'
+                        event['TRANSP'] = 'TRANSPARENT'
+                        event['X-MICROSOFT-CDO-BUSYSTATUS'] = 'FREE'
+                        ics_calendar.add_component(event)
                 else:
+                    if y != year_start:
+                        continue
                     summary = jyotisha.custom_transliteration.tr(stext.replace('~', ' ').replace('\#', '#').replace('\\To{}', '▶'), panchangam.script)
                     summary = re.sub('.tamil{(.*)}', '\\1', summary)
                     summary = re.sub('{(.*)}', '\\1', summary)  # strip braces around numbers
@@ -193,50 +184,46 @@ def compute_calendar(panchangam):
                     event.add('dtstart', date(y, m, dt))
                     event.add('dtend', (datetime(y, m, dt) + timedelta(1)).date())
 
-                    if stext.find('EkAdazI') == -1 and stext.find('saGkrAntiH') == -1:
+                    if re.match('.*-.*-EkAdazI', stext) is None and stext.find('saGkrAntiH') == -1:
                         if stext in festival_rules:
-                            desc = festival.HinduCalendarEventOld.make_from_dict(festival_rules[stext]).get_desription_string(script=panchangam.script)
+                            desc = festival.HinduCalendarEventOld.make_from_dict(festival_rules[stext]).get_description_string(script=panchangam.script, include_url=True)
                         else:
-                            sys.stderr.write('No description found for festival %s!\n' % stext)
-                        uid = '%s-%d-%02d' % (page_id, y, m)
+                            if re.match('aGgArakI.*saGkaTahara-caturthI-vratam', stext):
+                                stext = stext.replace('aGgArakI~', '')
+                                if stext in festival_rules:
+                                    desc = festival.HinduCalendarEventOld.make_from_dict(festival_rules[stext]).get_description_string(script=panchangam.script)
+                                    desc += 'When `caturthI` occurs on a Tuesday, it is known as `aGgArakI` and is even more sacred.'
+                                else:
+                                    logging.warning('No description found for caturthI festival %s!' % stext)
+                            else:
+                                logging.warning('No description found for festival %s!' % stext)
                     elif stext.find('saGkrAntiH') != -1:
                         # Handle Sankranti descriptions differently
                         planet_trans = stext.split('~')[0]  # get rid of ~(rAshi name) etc.
                         if planet_trans in festival_rules:
-                            desc = festival.HinduCalendarEventOld.make_from_dict(festival_rules[planet_trans]).get_desription_string(script=panchangam.script)
+                            desc = festival.HinduCalendarEventOld.make_from_dict(festival_rules[planet_trans]).get_description_string(script=panchangam.script, include_url=True)
                         else:
-                            sys.stderr.write('No description found for festival %s!\n' % planet_trans)
-                        uid = '%s-%d-%02d' % (page_id, y, m)
+                            logging.warning('No description found for festival %s!' % planet_trans)
                     else:
+                        # logging.debug(stext)
                         # Handle ekadashi descriptions differently
                         ekad = '-'.join(stext.split('-')[1:])  # get rid of sarva etc. prefix!
                         if ekad in festival_rules:
-                            desc = festival.HinduCalendarEventOld.make_from_dict(festival_rules[ekad]).get_desription_string(script=panchangam.script)
+                            desc = festival.HinduCalendarEventOld.make_from_dict(festival_rules[ekad]).get_description_string(script=panchangam.script, include_url=True)
                         else:
-                            sys.stderr.write('No description found for festival %s!\n' % ekad)
+                            logging.warning('No description found for Ekadashi festival %s (%s)!' % (ekad, stext))
                         pref = jyotisha.custom_transliteration.romanise(sanscript.transliterate(
                             stext.split('-')[0],
                             sanscript.HK, sanscript.IAST)) + "-"
-                        uid = '%s-%d-%02d' % (pref + page_id, y, m)
-                    # print(page_id)
                     event.add_component(alarm)
                     event.add('description', desc.strip())
-                    if uid not in uid_list:
-                        uid_list.append(uid)
-                    else:
-                        suff = 0
-                        while uid in uid_list:
-                            uid = '%s-%d-%02d-%02d-%d' % (page_id, y, m, dt, suff)
-                            suff += 1
-                        uid_list.append(uid)
-                    event.add('uid', uid)
                     event['X-MICROSOFT-CDO-ALLDAYEVENT'] = 'TRUE'
                     event['TRANSP'] = 'TRANSPARENT'
                     event['X-MICROSOFT-CDO-BUSYSTATUS'] = 'FREE'
                     ics_calendar.add_component(event)
 
-        if m == 12 and dt == 31:
-            break
+        # if m == 12 and dt == 31:
+        #     break
 
     return ics_calendar
 
@@ -253,6 +240,7 @@ def main():
     city = City(city_name, latitude, longitude, tz)
 
     panchangam = jyotisha.panchangam.spatio_temporal.annual.get_panchangam(city=city, year=year, script=script)
+    panchangam.update_festival_details()
 
     ics_calendar = compute_calendar(panchangam)
     output_file = os.path.expanduser('%s/%s-%d-%s.ics' % ("~/Documents", city.name, year, script))

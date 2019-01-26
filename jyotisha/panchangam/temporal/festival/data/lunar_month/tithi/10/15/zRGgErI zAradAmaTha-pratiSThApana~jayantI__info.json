@@ -1,0 +1,18 @@
+{
+  "description": {
+    "en": "Adi Shankara founded Sharada Mutt, Shringeri in Pingala year Sureshwaracharya as first"
+  },
+  "id": "zRGgErI zAradAmaTha-pratiSThApana~jayantI",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "adi-shankara-history"
+  ],
+  "timing": {
+    "angam_number": 15,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 10,
+    "month_type": "lunar_month",
+    "year_start": 2618
+  }
+}

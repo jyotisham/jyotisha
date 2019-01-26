@@ -1,0 +1,23 @@
+{
+  "description": {
+    "en": "Puja of Gauri-Maheshwara on Vrishabham, esp. for girls desirous of getting married, like Goddess Parvati sought the hand of Maheshwara, as Himavan's daughter."
+  },
+  "id": "haritAlikA-vratam",
+  "jsonClass": "HinduCalendarEvent",
+  "references_primary": [
+    "Bhavishyottara Puranam"
+  ],
+  "references_secondary": [
+    "Vaidikasri Sep 2015"
+  ],
+  "tags": [
+    "special-vratams"
+  ],
+  "timing": {
+    "angam_number": 3,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 6,
+    "month_type": "lunar_month"
+  }
+}

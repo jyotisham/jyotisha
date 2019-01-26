@@ -1,0 +1,17 @@
+{
+  "description": {
+    "en": "World Sanskrit Day is celebrated on this day."
+  },
+  "id": "saMskRta-divasaH",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "other-jayantis"
+  ],
+  "timing": {
+    "angam_number": 15,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 5,
+    "month_type": "lunar_month"
+  }
+}

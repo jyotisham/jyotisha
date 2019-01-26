@@ -1,0 +1,20 @@
+{
+  "id": "vaizAkha-snAnapUrtiH",
+  "jsonClass": "HinduCalendarEvent",
+  "references_secondary": [
+    "Vaidikasri June 2017"
+  ],
+  "shlokas": [
+    "mAdhavE mESagE bhAnau murArE madhusUdana.\nprAtaH snAnEna mE nAtha phaladO bhava pApahan.."
+  ],
+  "tags": [
+    "special-snanam"
+  ],
+  "timing": {
+    "angam_number": 30,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 2,
+    "month_type": "lunar_month"
+  }
+}

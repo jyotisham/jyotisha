@@ -1,0 +1,22 @@
+{
+  "description": {
+    "en": "`payOvratam` in chaturmasyam begins today."
+  },
+  "id": "payOvrata-ArambhaH",
+  "jsonClass": "HinduCalendarEvent",
+  "shlokas": [
+    "pradyumna tava tuSTyarthaM prOSTapadyAM tRtIyakE.\nnirvighnaM kuru dEvEza kariSyE'haM payOvratam.."
+  ],
+  "tags": [
+    "vratam-start",
+    "special-period-start",
+    "common-festivals"
+  ],
+  "timing": {
+    "angam_number": 12,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 6,
+    "month_type": "lunar_month"
+  }
+}

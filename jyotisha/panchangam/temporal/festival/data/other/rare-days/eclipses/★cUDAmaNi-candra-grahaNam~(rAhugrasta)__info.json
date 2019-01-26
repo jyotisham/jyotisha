@@ -1,0 +1,11 @@
+{
+  "id": "\u2605cUDAmaNi-candra-grahaNam~(rAhugrasta)",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "rare-days",
+    "eclipses"
+  ],
+  "timing": {
+    "jsonClass": "HinduCalendarEventTiming"
+  }
+}

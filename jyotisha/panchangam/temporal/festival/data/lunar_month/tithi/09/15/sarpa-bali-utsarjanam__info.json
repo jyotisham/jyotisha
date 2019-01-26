@@ -1,0 +1,17 @@
+{
+  "description": {
+    "en": "Offer `bali` to serpents on (from) this day, in the night after `sthAlIpAka`."
+  },
+  "id": "sarpa-bali-utsarjanam",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "less-common-festivals"
+  ],
+  "timing": {
+    "angam_number": 15,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 9,
+    "month_type": "lunar_month"
+  }
+}

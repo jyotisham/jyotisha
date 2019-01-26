@@ -1,0 +1,10 @@
+{
+  "id": "mauni (mAgha/makara) amAvasyA",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "amavasya-days"
+  ],
+  "timing": {
+    "jsonClass": "HinduCalendarEventTiming"
+  }
+}

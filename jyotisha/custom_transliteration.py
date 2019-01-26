@@ -73,7 +73,7 @@ def tr(text, scr, titled=True):
                     scr = sanscript.TAMIL
                 t = t[3:]
                 transliterated_text.append(
-                    sanscript.transliterate(data=t, _from=sanscript.HK, _to=scr).replace('C','Ch').replace('c','ch').title())
+                    sanscript.transliterate(data=t, _from=sanscript.HK, _to=scr).replace('C','Ch').replace('c','ch').strip("{}").title())
             else:
                 if t.find('RIGHTarrow') == -1:
                     transliterated_text.append(sanscript.transliterate(data=t, _from=sanscript.HK, _to=scr))

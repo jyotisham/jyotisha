@@ -1,0 +1,17 @@
+{
+  "description": {
+    "en": "Do danam of deepam."
+  },
+  "id": "viSNupadI-vRzcikaraviH",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "sun-sankranti"
+  ],
+  "timing": {
+    "angam_number": 1,
+    "angam_type": "day",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 8,
+    "month_type": "solar_month"
+  }
+}

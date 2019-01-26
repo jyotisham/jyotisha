@@ -1,0 +1,21 @@
+{
+  "description": {
+    "en": "Naga Panchami; SarpaPooja (manasaDevi); Vishnu's boon to AdiSesha that humans will worship on this day"
+  },
+  "id": "nAga-paJcamI",
+  "jsonClass": "HinduCalendarEvent",
+  "shlokas": [
+    "apasarpa sarpa bhadraM tE dUraM gaccha mahAyazAH.\njanamEjayasya yajJAntE astIkavacanaM smaran.."
+  ],
+  "tags": [
+    "special-pujas",
+    "purana-events"
+  ],
+  "timing": {
+    "angam_number": 5,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 5,
+    "month_type": "lunar_month"
+  }
+}

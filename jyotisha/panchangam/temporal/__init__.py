@@ -1,6 +1,7 @@
 import logging
 import swisseph as swe
 import sys
+import traceback
 from math import floor
 
 from sanskrit_data.schema import common
@@ -46,6 +47,9 @@ class Time(JsonObject):
             raise(TypeError('Input to time class must be int or float!'))
 
     def toString(self, default_suffix='', format='hh:mm'):
+        if self.t < 0:
+          logging.error('t<0! %s ' % self.t)
+          logging.error(traceback.print_stack())
         secs = round(self.t * 3600)  # round to nearest second
         hour = secs // 3600
         secs = secs % 3600
@@ -460,8 +464,13 @@ def get_angam_data(jd_sunrise, jd_sunrise_tmrw, angam_type, ayanamsha_id=swe.SID
             # Approximate error in calculation of end time -- arbitrary
             # used to bracket the root, for brenth
             TDELTA = 0.05
-            t_act = brentq(get_angam_float, x0 - TDELTA, x0 + TDELTA,
-                           args=(angam_type, -target, ayanamsha_id, False))
+            try:
+              t_act = brentq(get_angam_float, x0 - TDELTA, x0 + TDELTA,
+                             args=(angam_type, -target, ayanamsha_id, False))
+            except ValueError:
+              logging.warning('Unable to bracket! Using approximate t_end itself.')
+              logging.warning(locals())
+              t_act = approx_end
             angams_list.extend([((angam_now + i - 1) % num_angas + 1, t_act)])
     return angams_list
 
@@ -487,7 +496,7 @@ def get_chandra_masa(month, NAMES, script):
     if month == int(month):
         return NAMES['CHANDRA_MASA_NAMES'][script][month]
     else:
-        return '%s-(%s)' % (NAMES['CHANDRA_MASA_NAMES'][script][int(month) + 1], tr('adhika', script))
+        return '%s-(%s)' % (NAMES['CHANDRA_MASA_NAMES'][script][int(month) + 1], tr('adhika', script, titled=False))
 
 
 def get_tithi(jd, ayanamsha_id=swe.SIDM_LAHIRI):
@@ -561,7 +570,7 @@ def sanitize_time(year_in, month_in, day_in, hour_in, minute_in, second_in):
 
 # Essential for depickling to work.
 common.update_json_class_index(sys.modules[__name__])
-logging.debug(common.json_class_index)
+# logging.debug(common.json_class_index)
 
 
 if __name__ == '__main__':
@@ -570,4 +579,3 @@ if __name__ == '__main__':
   # time = swe.utc_to_jd(year=1986, month=8, day=24, hour=11, minutes=54, seconds=0, flag=1)[0]
   logging.info(time)
   print_angas_x_ayanamshas(jd=time)
-

@@ -1,0 +1,15 @@
+{
+  "id": "zrI~bOdhEndra sarasvatI ArAdhanA",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "mahapurusha-events",
+    "common-festivals"
+  ],
+  "timing": {
+    "angam_number": 27,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 6,
+    "month_type": "lunar_month"
+  }
+}

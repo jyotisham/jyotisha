@@ -1,0 +1,14 @@
+{
+  "description": {
+    "en": "A rare combination of Pausha masam, Shravana nakshatram, Vyatipata yogam and Monday."
+  },
+  "id": "mahOdaya-puNyakAlaH",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "rare-days",
+    "combinations"
+  ],
+  "timing": {
+    "jsonClass": "HinduCalendarEventTiming"
+  }
+}

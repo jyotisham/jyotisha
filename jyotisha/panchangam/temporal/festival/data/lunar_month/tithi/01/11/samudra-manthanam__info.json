@@ -1,0 +1,18 @@
+{
+  "description": {
+    "en": "Jyeshtha Devi (Kali wife), Varuni (Sesha wife), Sauparni (Garuda wife), Apsaras, Gandharvas, Airavata, Ucchaisrava, Dhanvantari, Parijatam, Kamadhenu born from Milk ocean"
+  },
+  "id": "samudra-manthanam",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "purana-events",
+    "less-common-festivals"
+  ],
+  "timing": {
+    "angam_number": 11,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 1,
+    "month_type": "lunar_month"
+  }
+}

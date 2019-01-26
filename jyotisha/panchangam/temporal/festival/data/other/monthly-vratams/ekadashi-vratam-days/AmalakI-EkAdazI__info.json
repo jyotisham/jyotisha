@@ -1,0 +1,14 @@
+{
+  "description": {
+    "en": "The Shukla-paksha Ekadashi of `phAlguna` month is known as `AmalakI-EkAdazI`."
+  },
+  "id": "AmalakI-EkAdazI",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "monthly-vratams",
+    "ekadashi-vratam-days"
+  ],
+  "timing": {
+    "jsonClass": "HinduCalendarEventTiming"
+  }
+}

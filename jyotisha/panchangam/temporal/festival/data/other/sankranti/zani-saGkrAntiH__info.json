@@ -1,0 +1,10 @@
+{
+  "id": "zani-saGkrAntiH",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "sankranti"
+  ],
+  "timing": {
+    "jsonClass": "HinduCalendarEventTiming"
+  }
+}

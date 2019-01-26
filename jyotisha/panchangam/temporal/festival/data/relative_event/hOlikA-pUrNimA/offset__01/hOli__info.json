@@ -1,4 +1,7 @@
 {
+  "description": {
+    "en": "Festival of colours is celebrated today."
+  },
   "id": "hOli",
   "jsonClass": "HinduCalendarEvent",
   "tags": [

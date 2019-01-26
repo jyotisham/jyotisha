@@ -1,0 +1,17 @@
+{
+  "description": {
+    "en": "Kunti-vratam done today will remove all paapams (including Gohatya). As per Bhavishyottara Puraana. Here Kunti means Parvati. Also, some people worship Yudhisthira's mother Kunti. In AP/TEL, eldest child is given new clothes, harti and blessed \"Deerghayushman\"."
+  },
+  "id": "kuntI~(pArvatI)-vratam",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "special-vratams"
+  ],
+  "timing": {
+    "angam_number": 15,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 7,
+    "month_type": "lunar_month"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": {
+    "en": "Monthly Vaidhrti Shraddha day."
+  },
+  "id": "vaidhRti-zrAddhaH",
+  "jsonClass": "HinduCalendarEvent",
+  "priority": "puurvaviddha",
+  "tags": [
+    "monthly-shraddha-days",
+    "shannavati-tarpana-days"
+  ],
+  "timing": {
+    "angam_number": 27,
+    "angam_type": "yogam",
+    "jsonClass": "HinduCalendarEventTiming",
+    "kaala": "aparahna",
+    "month_number": 0,
+    "month_type": "solar_month"
+  }
+}

@@ -143,7 +143,7 @@ class Panchangam(common.JsonObject):
 
 # Essential for depickling to work.
 common.update_json_class_index(sys.modules[__name__])
-logging.debug(common.json_class_index)
+# logging.debug(common.json_class_index)
 
 
 if __name__ == '__main__':

@@ -1,0 +1,22 @@
+{
+  "description": {
+    "en": "Being `mUlA` nakshatram, it is another ideal day to begin Saraswati Puja. If not, at least perform on Navami. During the Saraswati Puja days, those desirous of obtaining knowledge must not teach, learn or write anything!"
+  },
+  "id": "sarasvatI-AvAhanam",
+  "jsonClass": "HinduCalendarEvent",
+  "priority": "puurvaviddha",
+  "shlokas": [
+    "athavA  mUlanakSatrE  samArabhya  prapUjayEt.\ntatrApyazaktO  viprEndrO  navamyAM  tu  prapUjayEt..\nnA'dhyApayEnna  ca  likhEnnA'dhIyIta  kadAcana.\npustakE  sthApitE  dEvIM  vidyAkAmO  dvijOttamaH.."
+  ],
+  "tags": [
+    "common-festivals"
+  ],
+  "timing": {
+    "angam_number": 19,
+    "angam_type": "nakshatram",
+    "jsonClass": "HinduCalendarEventTiming",
+    "kaala": "madhyaahna",
+    "month_number": 7,
+    "month_type": "lunar_month"
+  }
+}
