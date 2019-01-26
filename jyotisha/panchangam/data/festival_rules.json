@@ -36,7 +36,7 @@
         "references_secondary": [
             "Kielhorn (1897)"
         ],
-        "tags": "common-festivals,devi-pujas"
+        "tags": "special-vratams,devi-pujas"
     },
     {
         "angam_number": 3,
@@ -46,7 +46,7 @@
         "kaala": "ratrimana",
         "month_number": 1,
         "month_type": "lunar_month",
-        "tags": "common-festivals,devi-pujas"
+        "tags": "devi-pujas"
     },
     {
         "angam_number": 3,
@@ -462,7 +462,7 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 2,
         "month_type": "lunar_month",
-        "tags": "common-festivals,adi-shankara-history",
+        "tags": "common-festivals,adi-shankara-history,mahapurusha-events",
         "year_start": 2593
     },
     {
@@ -494,7 +494,7 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 2,
         "month_type": "lunar_month",
-        "tags": "mahapurusha-events",
+        "tags": "mahapurusha-events,common-festivals",
         "year_start": 4118
     },
     {
@@ -507,7 +507,7 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 2,
         "month_type": "lunar_month",
-        "tags": "purana-events,special-pujas"
+        "tags": "purana-events,special-pujas,common-festivals"
     },
     {
         "angam_number": 7,
@@ -634,7 +634,7 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 2,
         "month_type": "lunar_month",
-        "tags": "adi-shankara-history",
+        "tags": "adi-shankara-history,common-festivals",
         "year_start": 2620
     },
     {
@@ -741,7 +741,6 @@
     {
         "angam_number": 1,
         "angam_type": "tithi",
-        "comments": "Not assigned in 2016",
         "description": {
             "en": "Perform puja of `karavIra` plants/flowers and then offer them in `arcanA`."
         },
@@ -757,7 +756,6 @@
     {
         "angam_number": 1,
         "angam_type": "tithi",
-        "comments": "Not assigned in 2016",
         "id": "bhadra-catuSTaya-vratam",
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 3,
@@ -767,7 +765,6 @@
     {
         "angam_number": 1,
         "angam_type": "tithi",
-        "comments": "Not assigned in 2016",
         "id": "punnAga-gaurI-vratam",
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 3,
@@ -893,7 +890,7 @@
         "shlokas": [
             "dazamyAM zuklapakSE tu jyESThE mAsE kujE dinE.\ngaGgA'vatIrNA hastarkSE sarvapApaharA smRtA..\n\nyAM kAJcit saritaM prApya dadyAdarghyaM zubhOdakam.\nmucyatE dazabhiH pApaiH sa mahApAtakOpamaiH.."
         ],
-        "tags": "other-jayantis",
+        "tags": "other-jayantis,common-festivals",
         "titles": "Ganga Jayanti; Dashapaapa-hara-dashami; Wednesday; Hasta star (Valmiki Ramayana)"
     },
     {
@@ -1302,7 +1299,7 @@
         "shlokas": [
             "vAsudEva zucau mAsE zAkavratamanuttamam.\ntvatprItyarthaM kariSyE'haM nirvighnaM kuru mAdhava.."
         ],
-        "tags": "vratam-start,special-period-start"
+        "tags": "vratam-start,special-period-start,common-festivals"
     },
     {
         "angam_number": 12,
@@ -1332,7 +1329,7 @@
         "shlokas": [
             "vAsudEva namastubhyaM prathamE mAsi matkRtam.\nzAkavrataM mayA tEna saMtuSTO bhava mAdhava..\nidaM vrataM mayA dEva kRtaM prItyai tava prabhO.\nnyUnaM sampUrNatAM yAtu tvatprasAdajjanArdana.."
         ],
-        "tags": "vratam-end,special-period-end"
+        "tags": "vratam-end,special-period-end,common-festivals"
     },
     {
         "angam_number": 12,
@@ -1344,7 +1341,7 @@
         "shlokas": [
             "saGkarSaNAravindAkSa kariSyE'haM dadhivratam.\ndvitIyE mAsi dEvEza nirvighnaM kuru mE prabhO.."
         ],
-        "tags": "vratam-start,special-period-start"
+        "tags": "vratam-start,special-period-start,common-festivals"
     },
     {
         "angam_number": 12,
@@ -1359,7 +1356,7 @@
         "shlokas": [
             "saGkarSaNa namastubhyaM zravaNE matkRtEna ca.\ndadhivratEna dEvEza tuSTO bhava janArdana..\nidaM vrataM mayA dEva kRtaM prItyai tava prabhO.\nnyUnaM sampUrNatAM yAtu tvatprasAdajjanArdana.."
         ],
-        "tags": "vratam-end,special-period-end"
+        "tags": "vratam-end,special-period-end,common-festivals"
     },
     {
         "angam_number": 12,
@@ -1374,7 +1371,7 @@
         "shlokas": [
             "pradyumna tava tuSTyarthaM prOSTapadyAM tRtIyakE.\nnirvighnaM kuru dEvEza kariSyE'haM payOvratam.."
         ],
-        "tags": "vratam-start,special-period-start"
+        "tags": "vratam-start,special-period-start,common-festivals"
     },
     {
         "angam_number": 12,
@@ -1386,7 +1383,7 @@
         "shlokas": [
             "zrIpradyumna namastubhyaM mAsamArabhya yatkRtam.\niSTadO bhava sarvEza gRhItvA tu payOvratam..\nidaM vrataM mayA dEva kRtaM prItyai tava prabhO.\nnyUnaM sampUrNatAM yAtu tvatprasAdajjanArdana.."
         ],
-        "tags": "vratam-end,special-period-end"
+        "tags": "vratam-end,special-period-end,common-festivals"
     },
     {
         "angam_number": 12,
@@ -1398,7 +1395,7 @@
         "shlokas": [
             "aniruddha surairvandya dvidalavratamuttamam.\nkarOmyahamiSEmAsE nirvighnaM kuru mE prabhO.."
         ],
-        "tags": "vratam-start,special-period-start"
+        "tags": "vratam-start,special-period-start,common-festivals"
     },
     {
         "angam_number": 12,
@@ -1410,7 +1407,7 @@
         "shlokas": [
             "aniruddha namastubhyaM dvidalAkhyavratEna ca.\nmatkRtEnAzvinE mAsE prItyarthaM phaladO bhava..\nidaM vrataM mayA dEva kRtaM prItyai tava prabhO.\nnyUnaM sampUrNatAM yAtu tvatprasAdajjanArdana.."
         ],
-        "tags": "vratam-end,special-period-end"
+        "tags": "vratam-end,special-period-end,common-festivals"
     },
     {
         "angam_number": 10,
@@ -1422,7 +1419,7 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 4,
         "month_type": "lunar_month",
-        "tags": "vratam-start,special-period-start"
+        "tags": "vratam-start,special-period-start,common-festivals"
     },
     {
         "angam_number": 15,
@@ -1469,7 +1466,7 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 4,
         "month_type": "lunar_month",
-        "tags": "vratam-start,special-period-start"
+        "tags": "vratam-start,special-period-start,common-festivals"
     },
     {
         "angam_number": 15,
@@ -1651,7 +1648,7 @@
         "shlokas": [
             "pujyAya rAghavEndrAya satyadharmaratAya ca.\nbhajatAM kalavRkSAya namatAM kAmadhEnavE.."
         ],
-        "tags": "mahapurusha-events",
+        "tags": "mahapurusha-events,common-festivals",
         "year_start": 4773
     },
     {
@@ -2273,7 +2270,7 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 6,
         "month_type": "lunar_month",
-        "tags": "special-period-end,vratam-end,common-festivals"
+        "tags": "special-period-end,vratam-end,common-festivals,common-festivals"
     },
     {
         "angam_number": 15,
@@ -2306,7 +2303,7 @@
         "month_number": 6,
         "month_type": "lunar_month",
         "tags": "special-vratams",
-        "titles": "vandhyatvahArI-liGgArcanA-vratam/putra-vratam\nvaruNa-vratam\nbrahma-sAvitrI-vratam\nazoka-trirAtri-vratam"
+        "titles": "vandhyatvahArI-liGgArcanA-vratam/putra-vratam\nvaruNa-vratam\nbrahma-sAvitrI-vratam\nazOka-trirAtri-vratam"
     },
     {
         "angam_number": 5,
@@ -2542,7 +2539,7 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 8,
         "month_type": "lunar_month",
-        "tags": "purana-events"
+        "tags": "purana-events,common-festivals"
     },
     {
         "angam_number": 24,
@@ -2557,7 +2554,7 @@
         "shlokas": [
             "bharturagrE mRtA nArI sahadAhEna vA mRtA.\ntasyAH sthAnE niyuJjIta vipraiH saha suvAsinIm.."
         ],
-        "tags": "special-pujas",
+        "tags": "special-pujas,common-festivals",
         "titles": "avidhavA-navamI"
     },
     {
@@ -2579,7 +2576,7 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 6,
         "month_type": "lunar_month",
-        "tags": "special-pujas,common-festivals"
+        "tags": "special-pujas,common-festivals,common-festivals"
     },
     {
         "angam_number": 28,
@@ -2656,7 +2653,7 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 7,
         "month_type": "lunar_month",
-        "tags": "less-common-festivals"
+        "tags": "common-festivals"
     },
     {
         "angam_number": 1,
@@ -2950,7 +2947,7 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 7,
         "month_type": "lunar_month",
-        "tags": "mahapurusha-events"
+        "tags": "mahapurusha-events,common-festivals"
     },
     {
         "angam_number": 15,
@@ -2981,7 +2978,7 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 7,
         "month_type": "lunar_month",
-        "tags": "mahapurusha-events",
+        "tags": "mahapurusha-events,common-festivals",
         "year_start": 4599
     },
     {
@@ -3205,7 +3202,7 @@
         "shlokas": [
             "gOkSIraM gOghRtaM caiva dadhi takraM ca varjayEt.\n\nsurabhi tvaM jaganmAtardEvi viSNupadE sthitA.\nsarvadEvamayE grAsaM mayA dattamidaM grasa..\n\nsarvadEvamayE dEvi sarvEdEvaizca satkRtA.\nmAtarmamA'bhilASitaM saphalaM kuru nandini..\n"
         ],
-        "tags": "special-vratams,less-common-festivals",
+        "tags": "special-vratams,common-festivals",
         "titles": "vizoka-dvAdazI\nekhaNDa-dvAdazI\npadmanAbha-dvAdazI"
     },
     {
@@ -3308,7 +3305,7 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 7,
         "month_type": "lunar_month",
-        "tags": "less-common-festivals"
+        "tags": "common-festivals"
     },
     {
         "angam_number": 29,
@@ -3341,7 +3338,7 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 7,
         "month_type": "lunar_month",
-        "tags": "purana-events"
+        "tags": "purana-events,common-festivals"
     },
     {
         "angam_number": 30,
@@ -3377,7 +3374,7 @@
         "month_number": 8,
         "month_type": "lunar_month",
         "priority": "puurvaviddha",
-        "tags": "purana-events",
+        "tags": "purana-events,common-festivals",
         "titles": "annakUT"
     },
     {
@@ -3484,7 +3481,7 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 8,
         "month_type": "lunar_month",
-        "tags": "special-period-end"
+        "tags": "special-period-end,common-festivals"
     },
     {
         "angam_number": 11,
@@ -3641,7 +3638,7 @@
         "shlokas": [
             "Adau brahmA madhyE viSNurantE dEvaH sadAzivaH.\nmUrtitrayasvarUpAya dattAtrEya namO'stu tE.."
         ],
-        "tags": "other-avatarams"
+        "tags": "other-avatarams,common-festivals"
     },
     {
         "angam_number": 2,
@@ -3714,7 +3711,7 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 6,
         "month_type": "lunar_month",
-        "tags": "mahapurusha-events"
+        "tags": "mahapurusha-events,common-festivals"
     },
     {
         "angam_number": 15,
@@ -3751,7 +3748,7 @@
         "references_secondary": [
             "www.kamakoti.org"
         ],
-        "tags": "kanchi-aradhana-days",
+        "tags": "kanchi-aradhana-days,common-festivals",
         "year_start": 2626
     },
     {
@@ -4726,7 +4723,7 @@
         "references_secondary": [
             "www.kamakoti.org"
         ],
-        "tags": "kanchi-aradhana-days",
+        "tags": "kanchi-aradhana-days,common-festivals",
         "year_start": 5008
     },
     {
@@ -4741,7 +4738,7 @@
         "references_secondary": [
             "www.kamakoti.org"
         ],
-        "tags": "kanchi-aradhana-days",
+        "tags": "kanchi-aradhana-days,common-festivals",
         "year_start": 5008
     },
     {
@@ -4984,7 +4981,7 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 9,
         "month_type": "lunar_month",
-        "tags": "other-jayantis"
+        "tags": "other-jayantis,common-festivals"
     },
     {
         "angam_number": 18,
@@ -5014,7 +5011,7 @@
         "shlokas": [
             "kAmakrOdhAdirahitaM rAmabhaktazirOmaNim.\ntyAgarAjaguruM vandE saGgItAbdhiM kalAnidhim.."
         ],
-        "tags": "mahapurusha-events",
+        "tags": "mahapurusha-events,common-festivals",
         "year_start": 4948
     },
     {
@@ -5024,7 +5021,7 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 10,
         "month_type": "lunar_month",
-        "tags": "mahapurusha-events",
+        "tags": "mahapurusha-events,common-festivals",
         "year_start": 4963
     },
     {
@@ -5157,7 +5154,7 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 11,
         "month_type": "lunar_month",
-        "tags": "special-pujas,mahapurusha-events"
+        "tags": "special-pujas,mahapurusha-events,common-festivals"
     },
     {
         "angam_number": 7,
@@ -5196,7 +5193,7 @@
         "references_secondary": [
             "Vaidikasri Feb 2016"
         ],
-        "tags": "special-pujas,common-festivals"
+        "tags": "special-pujas,common-festivals,common-festivals"
     },
     {
         "angam_number": 9,
@@ -5295,7 +5292,7 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 11,
         "month_type": "lunar_month",
-        "tags": "purnima-days"
+        "tags": "purnima-days,common-festivals"
     },
     {
         "angam_number": 15,
@@ -5476,7 +5473,7 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 12,
         "month_type": "lunar_month",
-        "tags": "mahapurusha-events",
+        "tags": "mahapurusha-events,common-festivals",
         "year_start": 4936
     },
     {
@@ -5486,7 +5483,7 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 12,
         "month_type": "lunar_month",
-        "tags": "mahapurusha-events",
+        "tags": "mahapurusha-events,common-festivals",
         "year_start": 4695
     },
     {
@@ -5549,7 +5546,7 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 12,
         "month_type": "lunar_month",
-        "tags": "mahapurusha-events",
+        "tags": "mahapurusha-events,common-festivals",
         "year_start": 4730
     },
     {
@@ -5714,7 +5711,7 @@
         "references_secondary": [
             "Vaidikasri Nov 2017"
         ],
-        "tags": "mahapurusha-events",
+        "tags": "mahapurusha-events,common-festivals",
         "year_start": 5071
     },
     {
@@ -5731,7 +5728,7 @@
         "references_secondary": [
             "Vaidikasri Nov 2009"
         ],
-        "tags": "mahapurusha-events",
+        "tags": "mahapurusha-events,common-festivals",
         "year_start": 5004
     },
     {
@@ -5794,7 +5791,7 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 2,
         "month_type": "solar_month",
-        "tags": "mahapurusha-events",
+        "tags": "mahapurusha-events,common-festivals",
         "year_start": 4995
     },
     {
@@ -5807,7 +5804,7 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 4,
         "month_type": "solar_month",
-        "tags": "tamilnadu-temple-festivals"
+        "tags": "tamilnadu-temple-festivals,common-festivals"
     },
     {
         "angam_number": 16,
@@ -5819,7 +5816,7 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 2,
         "month_type": "solar_month",
-        "tags": "tamilnadu-temple-festivals"
+        "tags": "tamilnadu-temple-festivals,common-festivals"
     },
     {
         "angam_number": 30,
@@ -5837,7 +5834,7 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 11,
         "month_type": "solar_month",
-        "tags": "tamilnadu-temple-festivals"
+        "tags": "tamilnadu-temple-festivals,common-festivals"
     },
     {
         "angam_number": 30,
@@ -5849,7 +5846,7 @@
         "shlokas": [
             "manmanObhISTavaradaM sarvAbhISTaphalapradam.\npurandaraguruM vandE dAsazRESThaM dayAnidhim.."
         ],
-        "tags": "mahapurusha-events",
+        "tags": "mahapurusha-events,common-festivals",
         "year_start": 4665
     },
     {
@@ -5871,7 +5868,7 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 4,
         "month_type": "solar_month",
-        "tags": "mahapurusha-events",
+        "tags": "mahapurusha-events,common-festivals",
         "year_start": 5036
     },
     {
@@ -5882,7 +5879,7 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 5,
         "month_type": "solar_month",
-        "tags": "dashavataram"
+        "tags": "dashavataram,common-festivals"
     },
     {
         "angam_number": 13,
@@ -5975,7 +5972,7 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 9,
         "month_type": "solar_month",
-        "tags": "mahapurusha-events",
+        "tags": "mahapurusha-events,common-festivals",
         "year_start": 4980
     },
     {
@@ -5986,7 +5983,7 @@
         "kaala": "aparahna",
         "month_number": 1,
         "month_type": "solar_month",
-        "tags": "mahapurusha-events",
+        "tags": "mahapurusha-events,common-festivals",
         "year_start": 5052
     },
     {
@@ -6033,7 +6030,7 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 11,
         "month_type": "solar_month",
-        "tags": "mahapurusha-events",
+        "tags": "mahapurusha-events,common-festivals",
         "year_start": 5069
     },
     {
@@ -6043,7 +6040,7 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 12,
         "month_type": "solar_month",
-        "tags": "tamilnadu-temple-festivals"
+        "tags": "tamilnadu-temple-festivals,common-festivals"
     },
     {
         "angam_number": 12,
@@ -6053,7 +6050,7 @@
         "kaala": "madhyaahna",
         "month_number": 1,
         "month_type": "solar_month",
-        "tags": "tamilnadu-temple-festivals",
+        "tags": "tamilnadu-temple-festivals,common-festivals",
         "notes": "Check! Is it purNimA? Vaidikasri Apr 2010 says 29.04.2010"
     },
     {
@@ -6065,7 +6062,7 @@
         "month_number": 10,
         "month_type": "solar_month",
         "priority": "puurvaviddha",
-        "tags": "tamilnadu-temple-festivals"
+        "tags": "tamilnadu-temple-festivals,common-festivals"
     },
     {
         "angam_number": 1,
@@ -6113,7 +6110,7 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 4,
         "month_type": "solar_month",
-        "tags": "tamilnadu-temple-festivals"
+        "tags": "tamilnadu-temple-festivals,common-festivals"
     },
     {
         "angam_number": 8,
@@ -6137,7 +6134,7 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 8,
         "month_type": "solar_month",
-        "tags": "special-period-start"
+        "tags": "special-period-start,common-festivals"
     },
     {
         "angam_number": 18,
@@ -6149,7 +6146,7 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 9,
         "month_type": "solar_month",
-        "tags": "tamil-festivals"
+        "tags": "tamil-festivals,common-festivals"
     },
     {
         "angam_number": 27,
@@ -6161,7 +6158,7 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 9,
         "month_type": "solar_month",
-        "tags": "tamil-festivals"
+        "tags": "tamil-festivals,common-festivals"
     },
     {
         "angam_number": 28,
@@ -6173,7 +6170,7 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 8,
         "month_type": "solar_month",
-        "tags": "other-jayantis",
+        "tags": "other-jayantis,common-festivals",
         "year_start": 4687
     },
     {
@@ -6186,7 +6183,7 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 9,
         "month_type": "solar_month",
-        "tags": "tamil-festivals"
+        "tags": "tamil-festivals,common-festivals"
     },
     {
         "angam_number": 1,
@@ -6198,7 +6195,7 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 10,
         "month_type": "solar_month",
-        "tags": "kerala-temple-festivals"
+        "tags": "kerala-temple-festivals,common-festivals"
     },
     {
         "angam_number": 1,
@@ -6240,7 +6237,7 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 4,
         "month_type": "solar_month",
-        "tags": "sun-sankranti"
+        "tags": "sun-sankranti,common-festivals"
     },
     {
         "angam_number": 1,
@@ -6558,7 +6555,7 @@
         "month_number": 6,
         "month_type": "solar_month",
         "year_start": 4620,
-        "tags": "mahapurusha-events"
+        "tags": "mahapurusha-events,common-festivals"
     },
     {
         "angam_number": 9,
@@ -7221,7 +7218,7 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 7,
         "month_type": "solar_month",
-        "tags": "mahapurusha-events,azhwar-jayanti,mahapurusha-events"
+        "tags": "mahapurusha-events,azhwar-jayanti"
     },
     {
         "angam_number": 23,
@@ -7230,7 +7227,7 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 7,
         "month_type": "solar_month",
-        "tags": "mahapurusha-events,azhwar-jayanti,mahapurusha-events"
+        "tags": "mahapurusha-events,azhwar-jayanti"
     },
     {
         "angam_number": 24,
@@ -7239,7 +7236,7 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 7,
         "month_type": "solar_month",
-        "tags": "mahapurusha-events,azhwar-jayanti,mahapurusha-events"
+        "tags": "mahapurusha-events,azhwar-jayanti"
     },
     {
         "angam_number": 10,
@@ -7248,7 +7245,7 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 10,
         "month_type": "solar_month",
-        "tags": "mahapurusha-events,azhwar-jayanti,mahapurusha-events"
+        "tags": "mahapurusha-events,azhwar-jayanti"
     },
     {
         "angam_number": 16,
@@ -7257,7 +7254,7 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 2,
         "month_type": "solar_month",
-        "tags": "mahapurusha-events,azhwar-jayanti,mahapurusha-events"
+        "tags": "mahapurusha-events,azhwar-jayanti"
     },
     {
         "angam_number": 14,
@@ -7266,7 +7263,7 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 1,
         "month_type": "solar_month",
-        "tags": "mahapurusha-events,azhwar-jayanti,mahapurusha-events"
+        "tags": "mahapurusha-events,azhwar-jayanti"
     },
     {
         "angam_number": 7,
@@ -7275,7 +7272,7 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 11,
         "month_type": "solar_month",
-        "tags": "mahapurusha-events,azhwar-jayanti,mahapurusha-events"
+        "tags": "mahapurusha-events,azhwar-jayanti"
     },
     {
         "angam_number": 15,
@@ -7284,7 +7281,7 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 3,
         "month_type": "solar_month",
-        "tags": "mahapurusha-events,azhwar-jayanti,mahapurusha-events"
+        "tags": "mahapurusha-events,azhwar-jayanti"
     },
     {
         "angam_number": 18,
@@ -7293,7 +7290,7 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 9,
         "month_type": "solar_month",
-        "tags": "mahapurusha-events,azhwar-jayanti,mahapurusha-events"
+        "tags": "mahapurusha-events,azhwar-jayanti"
     },
     {
         "angam_number": 4,
@@ -7302,7 +7299,7 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 4,
         "month_type": "solar_month",
-        "tags": "mahapurusha-events,azhwar-jayanti,mahapurusha-events"
+        "tags": "mahapurusha-events,azhwar-jayanti"
     },
     {
         "angam_number": 3,
@@ -7311,7 +7308,7 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 8,
         "month_type": "solar_month",
-        "tags": "mahapurusha-events,azhwar-jayanti,mahapurusha-events"
+        "tags": "mahapurusha-events,azhwar-jayanti"
     },
     {
         "angam_number": 14,
@@ -7329,7 +7326,7 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 12,
         "month_type": "solar_month",
-        "tags": "mahapurusha-events",
+        "tags": "mahapurusha-events,common-festivals",
         "year_start": 4875
     },
     {
@@ -7339,7 +7336,7 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 1,
         "month_type": "solar_month",
-        "tags": "mahapurusha-events",
+        "tags": "mahapurusha-events,common-festivals",
         "year_start": 4863
     },
     {
@@ -7515,7 +7512,7 @@
         "references_secondary": [
             "http://hindupad.com/vashishta-jayanti/"
         ],
-        "tags": "mahapurusha-events"
+        "tags": "mahapurusha-events,common-festivals"
     },
     {
         "angam_number": 8,
@@ -7555,7 +7552,7 @@
         "references_secondary": [
             "Vaidikasri May 2017"
         ],
-        "tags": "mahapurusha-events",
+        "tags": "mahapurusha-events,common-festivals",
         "year_start": 4868
     },
     {
@@ -7577,7 +7574,7 @@
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 2,
         "month_type": "lunar_month",
-        "tags": "mahapurusha-events"
+        "tags": "mahapurusha-events,common-festivals"
     },
     {
         "angam_number": 15,
@@ -7589,7 +7586,7 @@
         "references_secondary": [
             "http://hindupad.com/annamacharya-jayanti-2010-birth-annivarsary-date-of-annamayya/"
         ],
-        "tags": "mahapurusha-events"
+        "tags": "mahapurusha-events,common-festivals"
     },
     {
         "angam_number": 2,
@@ -7613,7 +7610,7 @@
         "references_secondary": [
             "http://hindupad.com/mata-yashoda-jayanti/"
         ],
-        "tags": "other-jayantis"
+        "tags": "other-jayantis,common-festivals"
     },
     {
         "angam_number": 8,
@@ -7637,7 +7634,7 @@
         "references_secondary": [
             "http://hindupad.com/markandeya-jayanti/"
         ],
-        "tags": "mahapurusha-events"
+        "tags": "mahapurusha-events,common-festivals"
     },
     {
         "angam_number": 7,
@@ -7736,7 +7733,7 @@
         "angam_number": 15,
         "angam_type": "tithi",
         "description": {
-            "en": "Goddess Chinnmasta is 6th of the Dasha Maha Vidyas."
+            "en": "Goddess Chinnamasta is 6th of the Dasha Maha Vidyas."
         },
         "id": "chinnamastA~jayantI",
         "jsonClass": "HinduCalendarEventOld",
