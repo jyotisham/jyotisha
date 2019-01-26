@@ -240,6 +240,7 @@ def main():
     city = City(city_name, latitude, longitude, tz)
 
     panchangam = jyotisha.panchangam.spatio_temporal.annual.get_panchangam(city=city, year=year, script=script)
+    panchangam.update_festival_details()
 
     ics_calendar = compute_calendar(panchangam)
     output_file = os.path.expanduser('%s/%s-%d-%s.ics' % ("~/Documents", city.name, year, script))
