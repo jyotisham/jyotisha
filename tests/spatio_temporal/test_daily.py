@@ -44,3 +44,12 @@ def test_jd_start_orinda_ca():
   city = City('Orinda','37:51:38','-122:10:59','America/Los_Angeles')
   assert daily.Panchangam(city=city, julian_day=2458551.8333333335).julian_day_start == 2458551.8333333335
   assert daily.Panchangam(city=city, julian_day=2458552.8333333335).julian_day_start == 2458552.8333333335
+
+
+def test_get_lagna_float():
+  city = City('X', 13.08784, 80.27847, 'Asia/Calcutta')
+  assert daily.Panchangam(city=city, julian_day=2458222.5208333335).get_lagna_float(2444961.7125) == 10.353595502472984
+
+def test_get_lagna_data():
+  city = City('X', 13.08784, 80.27847, 'Asia/Calcutta')
+  assert daily.Panchangam(city=city, julian_day=2458222.5208333335).get_lagna_data() == [(12, 2458222.5214310056), (1, 2458222.596420153), (2, 2458222.6812926503), (3, 2458222.772619788), (4, 2458222.8624254186), (5, 2458222.9478168003), (6, 2458223.0322211445), (7, 2458223.1202004547), (8, 2458223.211770839), (9, 2458223.3000455885), (10, 2458223.3787625884), (11, 2458223.4494649624)]

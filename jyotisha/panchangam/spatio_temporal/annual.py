@@ -17,7 +17,7 @@ from scipy.optimize import brentq
 
 import jyotisha.panchangam
 import jyotisha.zodiac
-from jyotisha.panchangam.spatio_temporal import get_lagna_data, CODE_ROOT, daily
+from jyotisha.panchangam.spatio_temporal import CODE_ROOT, daily
 
 
 class Panchangam(common.JsonObject):
@@ -102,20 +102,9 @@ class Panchangam(common.JsonObject):
       self.weekday[d] = (self.weekday_start + d - 1) % 7
 
     for d in range(-1, jyotisha.panchangam.temporal.MAX_DAYS_PER_YEAR + 2):
-      [y, m, dt, t] = swe.revjul(self.jd_start + d - 1)
-
-      # checking @ 6am local - can we do any better?
-      local_time = tz(self.city.timezone).localize(datetime(y, m, dt, 6, 0, 0))
-      # compute offset from UTC in hours
-      tz_off = (datetime.utcoffset(local_time).days * 86400 +
-                datetime.utcoffset(local_time).seconds) / 3600.0
-
-      # What is the jd at 00:00 local time today?
-      jd = self.jd_start - (tz_off / 24.0) + d - 1
-
       # TODO: Eventually, we are shifting to an array of daily panchangas. Reason: Better modularity.
       # The below block is temporary code to make the transition seamless.
-      daily_panchaangas[d + 1] = daily.Panchangam(city=self.city, julian_day=jd + 1, ayanamsha_id=self.ayanamsha_id)
+      daily_panchaangas[d + 1] = daily.Panchangam(city=self.city, julian_day=self.jd_start + d, ayanamsha_id=self.ayanamsha_id)
       daily_panchaangas[d + 1].compute_sun_moon_transitions()
       daily_panchaangas[d + 1].compute_solar_month()
       self.jd_sunrise[d + 1] = daily_panchaangas[d + 1].jd_sunrise
@@ -179,9 +168,14 @@ class Panchangam(common.JsonObject):
       if solar_month_end_jd is None:
         solar_month_end_time = ''
       else:
-        solar_month_end_time = '\\mbox{%s{\\tiny\\RIGHTarrow}\\textsf{%s}}' % (
-          jyotisha.panchangam.temporal.NAMES['RASHI_NAMES'][self.script][_m], jyotisha.panchangam.temporal.Time(
-            24 * (solar_month_end_jd - jd)).toString(format=self.fmt))
+        if solar_month_end_jd >= daily_panchaangas[d + 1].julian_day_start:
+          solar_month_end_time = '\\mbox{%s{\\tiny\\RIGHTarrow}\\textsf{%s}}' % (
+            jyotisha.panchangam.temporal.NAMES['RASHI_NAMES'][self.script][_m], jyotisha.panchangam.temporal.Time(
+              24 * (solar_month_end_jd - daily_panchaangas[d + 1].julian_day_start)).toString(format=self.fmt))
+        else:
+          solar_month_end_time = '\\mbox{%s{\\tiny\\RIGHTarrow}\\textsf{%s}}' % (
+            jyotisha.panchangam.temporal.NAMES['RASHI_NAMES'][self.script][_m], jyotisha.panchangam.temporal.Time(
+              24 * (solar_month_end_jd - daily_panchaangas[d].julian_day_start)).toString(format=self.fmt))
 
       # logging.debug(jyotisha.panchangam.temporal.NAMES)
 
@@ -241,8 +235,7 @@ class Panchangam(common.JsonObject):
                                                                        jyotisha.panchangam.temporal.RASHI,
                                                                        ayanamsha_id=self.ayanamsha_id)
       if compute_lagnams:
-        self.lagna_data[d] = get_lagna_data(self.jd_sunrise[d], self.city.latitude,
-                                            self.city.longitude, tz_off, ayanamsha_id=self.ayanamsha_id)
+        self.lagna_data[d] = daily_panchaangas[d + 1].get_lagna_data(self.jd_sunrise[d])
 
   def assignLunarMonths(self):
     last_d_assigned = 0

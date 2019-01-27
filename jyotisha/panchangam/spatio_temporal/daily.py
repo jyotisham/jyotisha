@@ -140,6 +140,74 @@ class Panchangam(common.JsonObject):
       solar_month_day = round(self.jd_sunset - jd_next_sunset) + 1
     self.solar_month_day = solar_month_day
 
+  def get_lagna_float(self, jd, offset=0, debug=False):
+    """Returns the angam
+  
+      Args:
+        :param jd: The Julian Day at which the lagnam is to be computed
+        :param offset: Used by internal functions for bracketing
+        :param debug
+  
+      Returns:
+        float lagna
+    """
+    swe.set_sid_mode(self.ayanamsha_id)
+    lcalc = swe.houses_ex(jd, self.city.latitude, self.city.longitude)[1][0] - swe.get_ayanamsa_ut(jd)
+    lcalc = lcalc % 360
+  
+    if offset == 0:
+      return lcalc / 30
+  
+    else:
+      if (debug):
+        print('offset:', offset)
+        print('lcalc/30', lcalc / 30)
+        print('lcalc/30 + offset = ', lcalc / 30 + offset)
+  
+      # The max expected value is somewhere between 2 and -2, with bracketing
+  
+      if (lcalc / 30 + offset) >= 3:
+        return (lcalc / 30) + offset - 12
+      elif (lcalc / 30 + offset) <= -3:
+        return (lcalc / 30)
+      else:
+        return (lcalc / 30) + offset
+
+  def get_lagna_data(self, debug=False):
+    """Returns the lagna data
+  
+        Args:
+          debug
+  
+        Returns:
+          tuples detailing the end time of each lagna, beginning with the one
+          prevailing at sunrise
+        """
+    if not hasattr(self, "jd_sunrise") or self.jd_sunrise is None:
+      self.compute_sun_moon_transitions()
+    lagna_sunrise = 1 + floor(self.get_lagna_float(self.jd_sunrise))
+  
+    lagna_list = [(x + lagna_sunrise - 1) % 12 + 1 for x in range(12)]
+  
+    lbrack = self.jd_sunrise - 3 / 24
+    rbrack = self.jd_sunrise + 3 / 24
+    lagna_data = []
+  
+    for lagna in lagna_list:
+      # print('---\n', lagna)
+      if (debug):
+        print('lagna sunrise', self.get_lagna_float(self.jd_sunrise))
+        print('lbrack', self.get_lagna_float(lbrack, int(-lagna)))
+        print('rbrack', self.get_lagna_float(rbrack, int(-lagna)))
+  
+      lagna_end_time = brentq(self.get_lagna_float, lbrack, rbrack,
+                              args=(-lagna, debug))
+      lbrack = lagna_end_time + 1 / 24
+      rbrack = lagna_end_time + 3 / 24
+      lagna_data.append((lagna, lagna_end_time))
+    return lagna_data
+
+
 
 # Essential for depickling to work.
 common.update_json_class_index(sys.modules[__name__])
