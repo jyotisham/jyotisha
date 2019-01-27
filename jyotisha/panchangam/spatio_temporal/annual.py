@@ -184,34 +184,8 @@ class Panchangam(common.JsonObject):
         solar_month_day, solar_month_end_time)
       self.solar_month_day[d] = solar_month_day
 
-      # Compute the various kaalas
-      # Sunrise/sunset and related stuff (like rahu, yama)
-      YAMAGANDA_OCTETS = [4, 3, 2, 1, 0, 6, 5]
-      RAHUKALA_OCTETS = [7, 1, 6, 4, 5, 3, 2]
-      GULIKAKALA_OCTETS = [6, 5, 4, 3, 2, 1, 0]
 
-      self.kaalas[d] = {
-        'prAtaH sandhyA': jyotisha.panchangam.temporal.get_kaalas(self.jd_sunset[d - 1], self.jd_sunrise[d], 14, 15),
-        'prAtaH sandhyA end': jyotisha.panchangam.temporal.get_kaalas(self.jd_sunrise[d], self.jd_sunset[d], 4, 15),
-        'prAtah': jyotisha.panchangam.temporal.get_kaalas(self.jd_sunrise[d], self.jd_sunset[d], 0, 5),
-        'saGgava': jyotisha.panchangam.temporal.get_kaalas(self.jd_sunrise[d], self.jd_sunset[d], 1, 5),
-        'madhyAhna': jyotisha.panchangam.temporal.get_kaalas(self.jd_sunrise[d], self.jd_sunset[d], 2, 5),
-        'mAdhyAhnika sandhyA': jyotisha.panchangam.temporal.get_kaalas(self.jd_sunrise[d], self.jd_sunset[d], 5, 15),
-        'mAdhyAhnika sandhyA end': jyotisha.panchangam.temporal.get_kaalas(self.jd_sunrise[d], self.jd_sunset[d], 13, 15),
-        'aparAhna': jyotisha.panchangam.temporal.get_kaalas(self.jd_sunrise[d], self.jd_sunset[d], 3, 5),
-        'sAyAhna': jyotisha.panchangam.temporal.get_kaalas(self.jd_sunrise[d], self.jd_sunset[d], 4, 5),
-        'sAyaM sandhyA': jyotisha.panchangam.temporal.get_kaalas(self.jd_sunrise[d], self.jd_sunset[d], 14, 15),
-        'sAyaM sandhyA end': jyotisha.panchangam.temporal.get_kaalas(self.jd_sunset[d], self.jd_sunrise[d + 1], 1, 15),
-        'rAtri yAma 1': jyotisha.panchangam.temporal.get_kaalas(self.jd_sunset[d], self.jd_sunrise[d + 1], 1, 4),
-        'zayana': jyotisha.panchangam.temporal.get_kaalas(self.jd_sunset[d], self.jd_sunrise[d + 1], 3, 8),
-        'dinAnta': jyotisha.panchangam.temporal.get_kaalas(self.jd_sunset[d], self.jd_sunrise[d + 1], 18.25, 30),
-        'rahu': jyotisha.panchangam.temporal.get_kaalas(self.jd_sunrise[d], self.jd_sunset[d],
-                                                        RAHUKALA_OCTETS[self.weekday[d]], 8),
-        'yama': jyotisha.panchangam.temporal.get_kaalas(self.jd_sunrise[d], self.jd_sunset[d],
-                                                        YAMAGANDA_OCTETS[self.weekday[d]], 8),
-        'gulika': jyotisha.panchangam.temporal.get_kaalas(self.jd_sunrise[d], self.jd_sunset[d],
-                                                          GULIKAKALA_OCTETS[self.weekday[d]], 8)
-      }
+      self.kaalas[d] = daily_panchaangas[d].get_kaalas()
 
       # Compute all the anga datas
       self.tithi_data[d] = jyotisha.panchangam.temporal.get_angam_data(self.jd_sunrise[d], self.jd_sunrise[d + 1],

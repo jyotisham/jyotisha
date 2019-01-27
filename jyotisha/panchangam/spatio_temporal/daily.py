@@ -29,6 +29,7 @@ class Panchangam(common.JsonObject):
     self.julian_day = julian_day
     self.julian_day_start = None
     self.compute_jd_start()
+    self.weekday = swe.day_of_week(self.julian_day_start)
     self.ayanamsha_id = ayanamsha_id
     swe.set_sid_mode(ayanamsha_id)
     self.jd_sunrise = None
@@ -36,6 +37,8 @@ class Panchangam(common.JsonObject):
     self.jd_moonrise = None
     self.jd_moonset = None
     self.tb_muhuurtas = None
+    self.lagna_data = None
+    self.kaalas = None
     self.solar_month_day = None
     self.solar_month_end_jd = None
 
@@ -123,21 +126,21 @@ class Panchangam(common.JsonObject):
     jd_masa_transit = brentq(get_angam_float, self.jd_sunrise - 34, self.jd_sunset,
                              args=(SOLAR_MONTH, -target, self.ayanamsha_id, False))
 
-    jd_next_sunset = swe.rise_trans(jd_start=jd_masa_transit, body=swe.SUN,
+    jd_sunset_after_masa_transit = swe.rise_trans(jd_start=jd_masa_transit, body=swe.SUN,
                                     lon=self.city.longitude, lat=self.city.latitude,
                                     rsmi=swe.CALC_SET | swe.BIT_DISC_CENTER)[1][0]
 
-    jd_next_sunrise = swe.rise_trans(jd_start=jd_masa_transit, body=swe.SUN,
+    jd_sunrise_after_masa_transit = swe.rise_trans(jd_start=jd_masa_transit, body=swe.SUN,
                                      lon=self.city.longitude, lat=self.city.latitude,
                                      rsmi=swe.CALC_RISE | swe.BIT_DISC_CENTER)[1][0]
 
-    if jd_next_sunset > jd_next_sunrise:
+    if jd_sunset_after_masa_transit > jd_sunrise_after_masa_transit:
       # Masa begins after sunset and before sunrise
       # Therefore Masa 1 is on the day when the sun rises next
-      solar_month_day = floor(self.jd_sunset - jd_next_sunrise) + 1
+      solar_month_day = floor(self.jd_sunset - jd_sunrise_after_masa_transit) + 1
     else:
       # Masa has started before sunset
-      solar_month_day = round(self.jd_sunset - jd_next_sunset) + 1
+      solar_month_day = round(self.jd_sunset - jd_sunset_after_masa_transit) + 1
     self.solar_month_day = solar_month_day
 
   def get_lagna_float(self, jd, offset=0, debug=False):
@@ -183,6 +186,10 @@ class Panchangam(common.JsonObject):
           tuples detailing the end time of each lagna, beginning with the one
           prevailing at sunrise
         """
+    if self.lagna_data is not None:
+      return self.lagna_data
+
+    self.lagna_data = []
     if not hasattr(self, "jd_sunrise") or self.jd_sunrise is None:
       self.compute_sun_moon_transitions()
     lagna_sunrise = 1 + floor(self.get_lagna_float(self.jd_sunrise))
@@ -191,7 +198,6 @@ class Panchangam(common.JsonObject):
   
     lbrack = self.jd_sunrise - 3 / 24
     rbrack = self.jd_sunrise + 3 / 24
-    lagna_data = []
   
     for lagna in lagna_list:
       # print('---\n', lagna)
@@ -204,10 +210,49 @@ class Panchangam(common.JsonObject):
                               args=(-lagna, debug))
       lbrack = lagna_end_time + 1 / 24
       rbrack = lagna_end_time + 3 / 24
-      lagna_data.append((lagna, lagna_end_time))
-    return lagna_data
+      self.lagna_data.append((lagna, lagna_end_time))
+    return self.lagna_data
 
+  def get_kaalas(self):
+    # Compute the various kaalas
+    # Sunrise/sunset and related stuff (like rahu, yama)
+    if self.kaalas is not None:
+      return self.kaalas
 
+    if not hasattr(self, "jd_sunrise") or self.jd_sunrise is None:
+      self.compute_sun_moon_transitions()
+    YAMAGANDA_OCTETS = [4, 3, 2, 1, 0, 6, 5]
+    RAHUKALA_OCTETS = [7, 1, 6, 4, 5, 3, 2]
+    GULIKAKALA_OCTETS = [6, 5, 4, 3, 2, 1, 0]
+    jd_previous_sunset = swe.rise_trans(jd_start=self.jd_sunrise - 1, body=swe.SUN,
+                                        lon=self.city.longitude, lat=self.city.latitude,
+                                        rsmi=swe.CALC_SET | swe.BIT_DISC_CENTER)[1][0]
+    jd_next_sunrise = swe.rise_trans(jd_start=self.jd_sunset, body=swe.SUN,
+                                        lon=self.city.longitude, lat=self.city.latitude,
+                                        rsmi=swe.CALC_RISE | swe.BIT_DISC_CENTER)[1][0]
+    self.kaalas = {
+      'prAtaH sandhyA': jyotisha.panchangam.temporal.get_kaalas(jd_previous_sunset, self.jd_sunrise, 14, 15),
+      'prAtaH sandhyA end': jyotisha.panchangam.temporal.get_kaalas(self.jd_sunrise, self.jd_sunset, 4, 15),
+      'prAtah': jyotisha.panchangam.temporal.get_kaalas(self.jd_sunrise, self.jd_sunset, 0, 5),
+      'saGgava': jyotisha.panchangam.temporal.get_kaalas(self.jd_sunrise, self.jd_sunset, 1, 5),
+      'madhyAhna': jyotisha.panchangam.temporal.get_kaalas(self.jd_sunrise, self.jd_sunset, 2, 5),
+      'mAdhyAhnika sandhyA': jyotisha.panchangam.temporal.get_kaalas(self.jd_sunrise, self.jd_sunset, 5, 15),
+      'mAdhyAhnika sandhyA end': jyotisha.panchangam.temporal.get_kaalas(self.jd_sunrise, self.jd_sunset, 13, 15),
+      'aparAhna': jyotisha.panchangam.temporal.get_kaalas(self.jd_sunrise, self.jd_sunset, 3, 5),
+      'sAyAhna': jyotisha.panchangam.temporal.get_kaalas(self.jd_sunrise, self.jd_sunset, 4, 5),
+      'sAyaM sandhyA': jyotisha.panchangam.temporal.get_kaalas(self.jd_sunrise, self.jd_sunset, 14, 15),
+      'sAyaM sandhyA end': jyotisha.panchangam.temporal.get_kaalas(self.jd_sunset, jd_next_sunrise, 1, 15),
+      'rAtri yAma 1': jyotisha.panchangam.temporal.get_kaalas(self.jd_sunset, jd_next_sunrise, 1, 4),
+      'zayana': jyotisha.panchangam.temporal.get_kaalas(self.jd_sunset, jd_next_sunrise, 3, 8),
+      'dinAnta': jyotisha.panchangam.temporal.get_kaalas(self.jd_sunset, jd_next_sunrise, 18.25, 30),
+      'rahu': jyotisha.panchangam.temporal.get_kaalas(self.jd_sunrise, self.jd_sunset,
+                                                      RAHUKALA_OCTETS[self.weekday], 8),
+      'yama': jyotisha.panchangam.temporal.get_kaalas(self.jd_sunrise, self.jd_sunset,
+                                                      YAMAGANDA_OCTETS[self.weekday], 8),
+      'gulika': jyotisha.panchangam.temporal.get_kaalas(self.jd_sunrise, self.jd_sunset,
+                                                        GULIKAKALA_OCTETS[self.weekday], 8)
+    }
+    return self.kaalas
 
 # Essential for depickling to work.
 common.update_json_class_index(sys.modules[__name__])
