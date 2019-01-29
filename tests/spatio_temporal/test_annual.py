@@ -16,13 +16,6 @@ logging.basicConfig(
   format="%(levelname)s: %(asctime)s {%(filename)s:%(lineno)d}: %(message)s "
 )
 
-CONFIG_PATH = os.path.join(os.path.dirname(__file__), 'config_local.json')
-config = {}
-with open(CONFIG_PATH) as config_file:
-  # noinspection PyRedeclaration
-  config = json.loads(config_file.read())
-
-
 TEST_DATA_PATH = os.path.join(os.path.dirname(__file__), 'data')
 
 
