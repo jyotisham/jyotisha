@@ -34,6 +34,13 @@ def test_panchanga_chennai():
     panchangam.dump_to_file(filename=os.path.join(TEST_DATA_PATH, 'Chennai-2018-actual.json.local'))
   assert str(panchangam) == str(panchangam_expected_chennai_18)
 
+  panchangam_expected_chennai_19 = JsonObject.read_from_file(filename=os.path.join(TEST_DATA_PATH, 'Chennai-2019.json'))
+  city = City('Chennai', "13:05:24", "80:16:12", "Asia/Calcutta")
+  panchangam = annual.Panchangam(city=city, year=2019, script=sanscript.DEVANAGARI, ayanamsha_id=swe.SIDM_LAHIRI, compute_lagnams=False)
+  if str(panchangam) != str(panchangam_expected_chennai_19):
+    panchangam.dump_to_file(filename=os.path.join(TEST_DATA_PATH, 'Chennai-2019-actual.json.local'))
+  assert str(panchangam) == str(panchangam_expected_chennai_19)
+
 
 def test_adhika_maasa_computations():
   assert test_adhika_maasa_computations_2009()
