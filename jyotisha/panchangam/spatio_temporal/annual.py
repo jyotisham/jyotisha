@@ -170,7 +170,7 @@ class Panchangam(common.JsonObject):
             if solar_month_end_jd is None:
                 solar_month_end_time = ''
             else:
-                if solar_month_end_jd >= daily_panchaangas[d + 1].julian_day_start:
+                if solar_month_end_jd >= daily_panchaangas[d + 1].jd_sunrise:
                     solar_month_end_time = '\\mbox{%s{\\tiny\\RIGHTarrow}\\textsf{%s}}' % (
                         temporal.NAMES['RASHI_NAMES'][self.script][_m], temporal.Time(
                             24 * (solar_month_end_jd - daily_panchaangas[d + 1].julian_day_start)).toString(

@@ -31,7 +31,8 @@ class Panchangam(common.JsonObject):
         self.julian_day_start = None
         self.compute_jd_start()
 
-        self.weekday = swe.day_of_week(self.julian_day_start)
+        self.weekday = (swe.day_of_week(self.julian_day) + 1) % 7
+        # swe has Mon = 0, non-intuitively!
         self.ayanamsha_id = ayanamsha_id
         swe.set_sid_mode(ayanamsha_id)
 
