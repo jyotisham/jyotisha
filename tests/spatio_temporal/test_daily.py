@@ -1,7 +1,6 @@
-import numpy.testing
-import json
 import logging
-import os
+
+import numpy.testing
 
 from jyotisha.panchangam.spatio_temporal import City
 from jyotisha.panchangam.spatio_temporal import daily
@@ -10,13 +9,6 @@ logging.basicConfig(
   level=logging.DEBUG,
   format="%(levelname)s: %(asctime)s {%(filename)s:%(lineno)d}: %(message)s "
 )
-
-CONFIG_PATH = os.path.join(os.path.dirname(__file__), 'config_local.json')
-config = {}
-with open(CONFIG_PATH) as config_file:
-  # noinspection PyRedeclaration
-  config = json.loads(config_file.read())
-
 
 def test_solar_day():
   panchangam = daily.Panchangam(city=City('Chennai', '13:05:24', '80:16:12', 'Asia/Calcutta'), julian_day=2457023.27)
