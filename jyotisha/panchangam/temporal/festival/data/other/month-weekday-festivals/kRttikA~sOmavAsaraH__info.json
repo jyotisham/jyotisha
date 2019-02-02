@@ -1,0 +1,16 @@
+{
+  "description": {
+    "en": "Do puja to Shiva/Parvati, perform fast."
+  },
+  "id": "kRttikA~sOmavAsaraH",
+  "jsonClass": "HinduCalendarEvent",
+  "references_primary": [
+    "Skanda Puranam"
+  ],
+  "tags": [
+    "month-weekday-festivals"
+  ],
+  "timing": {
+    "jsonClass": "HinduCalendarEventTiming"
+  }
+}

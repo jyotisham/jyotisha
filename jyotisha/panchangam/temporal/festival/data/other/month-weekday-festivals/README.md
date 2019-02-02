@@ -6,7 +6,10 @@ _Do puja to Surya/Suryanamaskaram._
 _Do puja to Surya/Suryanamaskaram._
 
 ---
-## kArttigai sOmavAram
+## kRttikA sOmavAsaraH
+_Do puja to Shiva/Parvati, perform fast._
+### References
+* Skanda Puranam
 
 
 ---

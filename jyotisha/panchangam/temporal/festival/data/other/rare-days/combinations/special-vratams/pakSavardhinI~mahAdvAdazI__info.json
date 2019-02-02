@@ -1,0 +1,15 @@
+{
+  "description": {
+    "en": "Dvadashi tithi, which is followed by an `amAvasyA` or `paurNamI` that touches two consecutive days at sunrise."
+  },
+  "id": "pakSavardhinI~mahAdvAdazI",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "rare-days",
+    "combinations",
+    "special-vratams"
+  ],
+  "timing": {
+    "jsonClass": "HinduCalendarEventTiming"
+  }
+}
