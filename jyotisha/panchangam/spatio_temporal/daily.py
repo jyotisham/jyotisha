@@ -61,8 +61,7 @@ class Panchangam(common.JsonObject):
         self.rashi_data = None
 
     def compute_jd_start(self):
-        # (year, month, day, hours, minutes, seconds) = self.city.julian_day_to_local_time(self.julian_day)
-        (year, month, day, hours) = swe.revjul(self.julian_day)
+        (year, month, day, hours, minutes, seconds) = self.city.julian_day_to_local_time(self.julian_day)
         self.julian_day_start = self.city.local_time_to_julian_day(year=year, month=month, day=day, hours=0, minutes=0,
                                                                    seconds=1)
 
