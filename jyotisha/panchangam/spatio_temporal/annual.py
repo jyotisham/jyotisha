@@ -50,6 +50,7 @@ class Panchangam(common.JsonObject):
         """
 
         # INITIALISE VARIABLES
+        self.jd_midnight = [None] * temporal.MAX_SZ
         self.jd_sunrise = [None] * temporal.MAX_SZ
         self.jd_sunset = [None] * temporal.MAX_SZ
         self.jd_moonrise = [None] * temporal.MAX_SZ
@@ -109,6 +110,7 @@ class Panchangam(common.JsonObject):
                                                         ayanamsha_id=self.ayanamsha_id)
             daily_panchaangas[d + 1].compute_sun_moon_transitions()
             daily_panchaangas[d + 1].compute_solar_month()
+            self.jd_midnight[d + 1] = daily_panchaangas[d + 1].julian_day_start
             self.jd_sunrise[d + 1] = daily_panchaangas[d + 1].jd_sunrise
             self.jd_sunset[d + 1] = daily_panchaangas[d + 1].jd_sunset
             self.jd_moonrise[d + 1] = daily_panchaangas[d + 1].jd_moonrise
