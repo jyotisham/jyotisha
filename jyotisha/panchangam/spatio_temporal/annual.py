@@ -1018,8 +1018,6 @@ class Panchangam(common.JsonObject):
             # KRTTIKA SOMAVASARA
             if self.lunar_month[d] == 8 and self.weekday[d] == 1:
                 self.add_festival('kRttikA~sOmavAsaraH', d, debug_festivals)
-            if self.solar_month[d] == 8 and self.weekday[d] == 1:
-                self.add_festival('ta:kArttigai~sOmavAram', d, debug_festivals)
 
             # AADI VELLI
             if self.solar_month[d] == 4 and self.weekday[d] == 5:
