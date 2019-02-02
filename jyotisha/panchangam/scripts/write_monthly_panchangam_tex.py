@@ -116,7 +116,7 @@ def writeMonthlyTeX(panchangam, template_file):
                   datetime.utcoffset(local_time).seconds) / 3600.0
 
         # What is the jd at 00:00 local time today?
-        jd = panchangam.jd_start - (tz_off / 24.0) + d - 1
+        jd = panchangam.jd_midnight[d]
 
         if dt == 1:
             if m > 1:
