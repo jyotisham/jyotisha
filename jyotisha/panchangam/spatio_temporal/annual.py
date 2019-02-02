@@ -912,17 +912,17 @@ class Panchangam(common.JsonObject):
             # Can also refer youtube video https://youtu.be/0DBIwb7iaLE?list=PL_H2LUtMCKPjh63PRk5FA3zdoEhtBjhzj&t=6747
             # 4th pada of vyatipatam, 1st pada of Amavasya, 2nd pada of Shravana, Suryodaya, Bhanuvasara = Ardhodayam
             # 4th pada of vyatipatam, 1st pada of Amavasya, 2nd pada of Shravana, Suryodaya, Somavasara = Mahodayam
-            if self.lunar_month[d] == 10 and self.tithi_sunrise[d] == 30:
-                if temporal.get_angam(self.jd_sunrise[d], temporal.YOGAM,
-                                      ayanamsha_id=self.ayanamsha_id) == 17 and \
-                        temporal.get_angam(self.jd_sunrise[d], temporal.NAKSHATRAM,
-                                           ayanamsha_id=self.ayanamsha_id) == 22:
+            if self.lunar_month[d] in [10, 11] and self.tithi_sunrise[d] == 30 or temporal.get_tithi(self.jd_sunset[d], ayanamsha_id=self.ayanamsha_id) == 30:
+                if (temporal.get_angam(self.jd_sunrise[d], temporal.YOGAM, ayanamsha_id=self.ayanamsha_id) == 17 or temporal.get_angam(self.jd_sunset[d], temporal.YOGAM, ayanamsha_id=self.ayanamsha_id) == 17) and \
+                        (temporal.get_angam(self.jd_sunrise[d], temporal.NAKSHATRAM, ayanamsha_id=self.ayanamsha_id) == 22 or temporal.get_angam(self.jd_sunset[d], temporal.NAKSHATRAM, ayanamsha_id=self.ayanamsha_id) == 22):
                     if self.weekday[d] == 1:
                         festival_name = 'mahOdaya-puNyakAlaH'
                         self.add_festival(festival_name, d, debug_festivals)
+                        logging.debug('* %d-%02d-%02d> %s!' % (y, m, dt, festival_name))
                     elif self.weekday[d] == 0:
                         festival_name = 'ardhOdaya-puNyakAlaH'
                         self.add_festival(festival_name, d, debug_festivals)
+                        logging.debug('* %d-%02d-%02d> %s!' % (y, m, dt, festival_name))
 
             # MANGALA-CHATURTHI
             if self.weekday[d] == 2 and (self.tithi_sunrise[d] % 15) == 4:
