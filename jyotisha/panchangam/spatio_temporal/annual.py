@@ -924,6 +924,22 @@ class Panchangam(common.JsonObject):
                         self.add_festival(festival_name, d, debug_festivals)
                         logging.debug('* %d-%02d-%02d> %s!' % (y, m, dt, festival_name))
 
+            # AMA-VYATIPATA YOGAH
+            # श्रवणाश्विधनिष्ठार्द्रानागदैवतमापतेत् ।
+            # रविवारयुतामायां व्यतीपातः स उच्यते ॥
+            # व्यतीपाताख्ययोगोऽयं शतार्कग्रहसन्निभः ॥
+            # “In Mahabharata, if on a Sunday, Amavasya and one of the stars –
+            # Sravanam, Asvini, Avittam, Tiruvadirai or Ayilyam, occurs, then it is called ‘Vyatipatam’.
+            # This Vyatipata yogam is equal to a hundred Surya grahanas in merit.”
+            tithi_sunset = temporal.get_angam(self.jd_sunset[d], temporal.TITHI, ayanamsha_id=self.ayanamsha_id)
+            if self.weekday[d] == 0 and (self.tithi_sunrise[d] == 30 or tithi_sunset == 30):
+                # AMAVASYA on a Sunday
+                if (self.nakshatram_sunrise[d] in [1, 6, 9, 22, 23] and self.tithi_sunrise[d] == 30) or\
+                   (tithi_sunset == 30 and temporal.get_angam(self.jd_sunset[d], temporal.NAKSHATRAM, ayanamsha_id=self.ayanamsha_id) in [1, 6, 9, 22, 23]):
+                    festival_name = 'vyatIpAta-yOgaH (alabhyam)'
+                    self.add_festival(festival_name, d, debug_festivals)
+                    logging.debug('* %d-%02d-%02d> %s!' % (y, m, dt, festival_name))
+
             # MANGALA-CHATURTHI
             if self.weekday[d] == 2 and (self.tithi_sunrise[d] % 15) == 4:
                 festival_name = 'aGgAraka-caturthI'
