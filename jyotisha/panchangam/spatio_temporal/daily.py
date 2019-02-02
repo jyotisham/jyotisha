@@ -102,22 +102,14 @@ class Panchangam(common.JsonObject):
             lon=self.city.longitude, lat=self.city.latitude,
             rsmi=swe.CALC_SET | swe.BIT_DISC_CENTER)[1][0]
 
-        self.tithi_data = temporal.get_angam_data(self.jd_sunrise, self.jd_next_sunrise, temporal.TITHI,
-                                                  ayanamsha_id=self.ayanamsha_id)
+        self.tithi_data = temporal.get_angam_data(self.jd_sunrise, self.jd_next_sunrise, temporal.TITHI, ayanamsha_id=self.ayanamsha_id)
         self.tithi_at_sunrise = self.tithi_data[0][0]
         self.nakshatram_data = temporal.get_angam_data(self.jd_sunrise, self.jd_next_sunrise, temporal.NAKSHATRAM, ayanamsha_id=self.ayanamsha_id)
         self.nakshatram_at_sunrise = self.nakshatram_data[0][0]
-        self.yogam_data = temporal.get_angam_data(self.jd_sunrise, self.jd_next_sunrise,
-                                                  temporal.YOGAM,
-                                                  ayanamsha_id=self.ayanamsha_id)
+        self.yogam_data = temporal.get_angam_data(self.jd_sunrise, self.jd_next_sunrise, temporal.YOGAM, ayanamsha_id=self.ayanamsha_id)
         self.yogam_at_sunrise = self.yogam_data[0][0]
-        self.karanam_data = temporal.get_angam_data(self.jd_sunrise,
-                                                       self.jd_next_sunrise,
-                                                       temporal.KARANAM,
-                                                       ayanamsha_id=self.ayanamsha_id)
-        self.rashi_data = temporal.get_angam_data(self.jd_sunrise, self.jd_next_sunrise,
-                                                     temporal.RASHI,
-                                                     ayanamsha_id=self.ayanamsha_id)
+        self.karanam_data = temporal.get_angam_data(self.jd_sunrise, self.jd_next_sunrise, temporal.KARANAM, ayanamsha_id=self.ayanamsha_id)
+        self.rashi_data = temporal.get_angam_data(self.jd_sunrise, self.jd_next_sunrise, temporal.RASHI, ayanamsha_id=self.ayanamsha_id)
 
     def compute_solar_month(self):
         if not hasattr(self, "jd_sunrise") or self.jd_sunrise is None:
