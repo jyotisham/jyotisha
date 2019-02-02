@@ -35,7 +35,7 @@ def write_to_file(ics_calendar, fname):
     ics_calendar_file.close()
 
 
-def compute_calendar(panchangam):
+def compute_calendar(panchangam, all_tags=True):
     festival_rules_main = read_old_festival_rules_dict(os.path.join(CODE_ROOT, 'panchangam/data/festival_rules.json'))
     festival_rules_rel = read_old_festival_rules_dict(os.path.join(CODE_ROOT, 'panchangam/data/relative_festival_rules.json'))
     festival_rules_desc_only = read_old_festival_rules_dict(os.path.join(CODE_ROOT, 'panchangam/data/festival_rules_desc_only.json'))
@@ -62,6 +62,19 @@ def compute_calendar(panchangam):
             for stext in sorted(summary_text):
                 desc = ''
                 event = Event()
+
+                if not all_tags:
+                    fest_num_loc = stext.find('~\#')
+                    if fest_num_loc != -1:
+                        stext_chk = stext[:fest_num_loc]
+                    else:
+                        stext_chk = stext
+                    if stext_chk in festival_rules:
+                        tag_list = (festival_rules[stext_chk]['tags'].split(','))
+                        incl_tags = ['common-festivals', 'monthly-vratams', 'rare-days', 'amavasya-days', 'dashavataram', 'sun-sankranti']
+                        if set(tag_list).isdisjoint(set(incl_tags)):
+                            continue
+
                 if stext == 'kRttikA-maNDala-pArAyaNam':
                     event.add('summary', jyotisha.custom_transliteration.tr(stext.replace('-', ' '), panchangam.script))
                     fest_num_loc = stext.find('~\#')
@@ -232,7 +245,12 @@ def main():
     [city_name, latitude, longitude, tz] = sys.argv[1:5]
     year = int(sys.argv[5])
 
-    if len(sys.argv) == 7:
+    if len(sys.argv) == 8:
+        all_tags = False
+    else:
+        all_tags = True  # Default assume detailed ICS with all tags
+
+    if len(sys.argv) >= 7:
         script = sys.argv[6]
     else:
         script = sanscript.IAST  # Default script is IAST for writing calendar
@@ -240,9 +258,10 @@ def main():
     city = City(city_name, latitude, longitude, tz)
 
     panchangam = jyotisha.panchangam.spatio_temporal.annual.get_panchangam(city=city, year=year, script=script)
+    panchangam.script = script
     panchangam.update_festival_details()
 
-    ics_calendar = compute_calendar(panchangam)
+    ics_calendar = compute_calendar(panchangam, all_tags)
     output_file = os.path.expanduser('%s/%s-%d-%s.ics' % ("~/Documents", city.name, year, script))
     write_to_file(ics_calendar, output_file)
 
