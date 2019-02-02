@@ -969,6 +969,31 @@
     },
     {
         "description": {
+            "en": "If, on a Sunday, `amAvasyA` and one of the stars—`zravaNam`, `azvinI`, `zraviSThA`, `ArdrA` or `AzrESA`—occurs, then it is called `vyatIpAta yOGaH`, equal to a hundred _Surya grahanas_ in merit."
+        },
+        "id": "vyatIpAta-yOgaH (alabhyam)",
+        "shlokas": [
+            "zravaNAzvidhaniSThArdrAnAgadaivatamApatEt.\nravivArayutAmAyAM vyatIpAtaH sa ucyatE.\nvyatIpAtAkhyayOgO'yaM zatArkagrahasannibhaH..\n"
+        ],
+        "references_primary": ["Mahabharatam"],
+        "references_secondary": ["Smrti Mukthaphalam Shraddha Kandam Uttara Bhaga"],
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "rare-days,combinations,amavasya-days"
+    },
+    {
+        "description": {
+            "en": "If, `amAvasyA` occurs on a Monday, Tuesday or Thursday, the combination gives the tithi the name `puSkalA` and is equal to a solar eclipse."
+        },
+        "id": "puSkalA amAvasyA (alabhyam)",
+        "shlokas": [
+            "amA sOmEna bhaumEna guruNA vA yuta yadi.\nsA tithiH puSkalA nAma sUryagrahaNasannibhA..\n"
+        ],
+        "references_secondary": ["Smrti Mukthaphalam Shraddha Kandam Uttara Bhaga"],
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "rare-days,combinations,amavasya-days"
+    },
+    {
+        "description": {
             "en": "Tamil New Year."
         },
         "id": "mESa-saGkrAntiH",
