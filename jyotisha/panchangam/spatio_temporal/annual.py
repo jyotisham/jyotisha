@@ -1286,7 +1286,17 @@ class Panchangam(common.JsonObject):
             offset = int(relative_festival_rules[festival_name]['offset'])
             rel_festival_name = relative_festival_rules[festival_name]['anchor_festival_id']
             if rel_festival_name not in self.fest_days:
-                logging.error('Relative festival %s not in fest_days!' % rel_festival_name)
+                # Check approx. match
+                matched_festivals = []
+                for fest_key in self.fest_days:
+                    if fest_key.startswith(rel_festival_name):
+                        matched_festivals += [fest_key]
+                if matched_festivals == []:
+                    logging.error('Relative festival %s not in fest_days!' % rel_festival_name)
+                elif len(matched_festivals) > 1:
+                    logging.error('Relative festival %s not in fest_days! Found more than one approximate match: %s' % (rel_festival_name, str(matched_festivals)))
+                else:
+                    self.fest_days[festival_name] = [self.fest_days[matched_festivals[0]][-1] + offset]    
             else:
                 self.fest_days[festival_name] = [self.fest_days[rel_festival_name][-1] + offset]
 

@@ -209,7 +209,18 @@ def compute_calendar(panchangam, all_tags=True):
                                 else:
                                     logging.warning('No description found for caturthI festival %s!' % stext)
                             else:
-                                logging.warning('No description found for festival %s!' % stext)
+                                # Check approx. match
+                                matched_festivals = []
+                                for fest_key in festival_rules:
+                                    if stext.startswith(fest_key):
+                                        matched_festivals += [fest_key]
+                                if matched_festivals == []:
+                                    logging.warning('No description found for festival %s!' % stext)
+                                elif len(matched_festivals) > 1:
+                                    logging.warning('No exact match found for festival %s! Found more than one approximate match: %s' % (stext, str(matched_festivals)))
+                                else:
+                                    desc = festival.HinduCalendarEventOld.make_from_dict(festival_rules[matched_festivals[0]]).get_description_string(script=panchangam.script, include_url=True)
+
                     elif stext.find('saGkrAntiH') != -1:
                         # Handle Sankranti descriptions differently
                         planet_trans = stext.split('~')[0]  # get rid of ~(rAshi name) etc.
