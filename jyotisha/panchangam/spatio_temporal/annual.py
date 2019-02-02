@@ -670,8 +670,8 @@ class Panchangam(common.JsonObject):
                     pref = temporal.get_chandra_masa(self.lunar_month[d],
                                                      temporal.NAMES, 'hk') + '-'
 
-                ama_nakshatram_today = self.get_angams_for_kaalas(d, temporal.get_nakshatram, 'aparahna')
-                ama_nakshatram_tmrw = self.get_angams_for_kaalas(d + 1, temporal.get_nakshatram, 'aparahna')
+                ama_nakshatram_today = self.get_angams_for_kaalas(d, temporal.get_nakshatram, 'aparahna')[:2]
+                ama_nakshatram_tmrw = self.get_angams_for_kaalas(d + 1, temporal.get_nakshatram, 'aparahna')[:2]
                 suff = ''
                 # Assign
                 if angams[0] == 30 or angams[1] == 30:
@@ -944,7 +944,7 @@ class Panchangam(common.JsonObject):
             # SOMAMAVASYA
             if self.tithi_sunrise[d] == 30 and self.weekday[d] == 1:
                 self.add_festival('sOmavatI amAvasyA', d, debug_festivals)
-            if 30 in (self.get_angams_for_kaalas(d, temporal.get_tithi, 'aparahna') + [self.tithi_sunrise[d]]) and self.weekday[d] in [1, 2, 4]:
+            if 30 in (self.get_angams_for_kaalas(d, temporal.get_tithi, 'aparahna')[:2] + [self.tithi_sunrise[d]]) and self.weekday[d] in [1, 2, 4]:
                 # Checking for sunrise and aparahna. Not sure.
                 self.add_festival('puSkalA amAvasyA (alabhyam)', d, debug_festivals)
 
