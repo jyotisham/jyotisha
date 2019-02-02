@@ -1,0 +1,15 @@
+{
+  "description": {
+    "en": "Dvadashi tithi, which starts after sunrise on a day and ends before sunrise on the next."
+  },
+  "id": "trispRzA~mahAdvAdazI",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "rare-days",
+    "combinations",
+    "special-vratams"
+  ],
+  "timing": {
+    "jsonClass": "HinduCalendarEventTiming"
+  }
+}
