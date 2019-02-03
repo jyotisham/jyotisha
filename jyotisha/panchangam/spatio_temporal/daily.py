@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 #  -*- coding: utf-8 -*-
-
+import datetime
 import logging
 import swisseph as swe
 import sys
@@ -21,18 +21,21 @@ logging.basicConfig(level=logging.DEBUG,
 class Panchangam(common.JsonObject):
     """This class enables the construction of a panchangam
       """
+    @classmethod
+    def from_city_and_julian_day(cls, city, julian_day, ayanamsha_id=swe.SIDM_LAHIRI):
+        (year, month, day, hours, minutes, seconds) = city.julian_day_to_local_time(julian_day)
+        return Panchangam(city=city, year=year, month=month, day=day, ayanamsha_id=ayanamsha_id)
+        
 
-    def __init__(self, city, julian_day, ayanamsha_id=swe.SIDM_LAHIRI):
+    def __init__(self, city, year, month, day, ayanamsha_id=swe.SIDM_LAHIRI):
         """Constructor for the panchangam.
         """
         super().__init__()
         self.city = city
-        self.julian_day = julian_day
-        self.julian_day_start = None
-        self.compute_jd_start()
+        (self.year, self.month, self.day) = (year, month, day)
+        self.julian_day_start = self.city.local_time_to_julian_day(year=self.year, month=self.month, day=self.day, hours=0, minutes=0, seconds=1)
 
-        self.weekday = (swe.day_of_week(self.julian_day) + 1) % 7
-        # swe has Mon = 0, non-intuitively!
+        self.weekday = datetime.date(year=self.year, month=self.month, day=self.day).isoweekday() % 7
         self.ayanamsha_id = ayanamsha_id
         swe.set_sid_mode(ayanamsha_id)
 
@@ -59,16 +62,6 @@ class Panchangam(common.JsonObject):
         self.yogam_at_sunrise = None
         self.karanam_data = None
         self.rashi_data = None
-
-    def compute_jd_start(self):
-        (year, month, day, hours, minutes, seconds) = self.city.julian_day_to_local_time(self.julian_day)
-        self.julian_day_start = self.city.local_time_to_julian_day(year=year, month=month, day=day, hours=0, minutes=0,
-                                                                   seconds=1)
-
-    @classmethod
-    def from_date(cls, city, year, month, day, ayanamsha_id=swe.SIDM_LAHIRI):
-        julian_day = city.local_time_to_julian_day(year=year, month=month, day=day, hours=6, minutes=1, seconds=1)
-        return Panchangam(city=city, julian_day=julian_day, ayanamsha_id=ayanamsha_id)
 
     def compute_sun_moon_transitions(self):
         self.jd_sunrise = swe.rise_trans(
@@ -289,6 +282,6 @@ common.update_json_class_index(sys.modules[__name__])
 
 
 if __name__ == '__main__':
-    panchangam = Panchangam(city=City('Chennai', '13:05:24', '80:16:12', 'Asia/Calcutta'), julian_day=2457023.27)
+    panchangam = Panchangam.from_city_and_julian_day(city=City('Chennai', '13:05:24', '80:16:12', 'Asia/Calcutta'), julian_day=2457023.27)
     panchangam.compute_tb_muhuurtas()
     logging.debug(str(panchangam))
