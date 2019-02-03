@@ -49,10 +49,10 @@ def compute_calendar(panchangam, all_tags=True):
     alarm.add('action', 'DISPLAY')
     alarm.add('trigger', timedelta(hours=-4))  # default alarm, with a 4 hour reminder
 
-    year_start = swe.revjul(panchangam.jd_start + 1)[0]  # 1 helps ignore local time etc.
+    year_start = swe.revjul(panchangam.jd_start_utc + 1)[0]  # 1 helps ignore local time etc.
 
     for d in range(1, len(panchangam.festivals)):
-        [y, m, dt, t] = swe.revjul(panchangam.jd_start + d - 1)
+        [y, m, dt, t] = swe.revjul(panchangam.jd_start_utc + d - 1)
 
         if len(panchangam.festivals[d]) > 0:
             # Eliminate repeat festivals on the same day, and keep the list arbitrarily sorted
