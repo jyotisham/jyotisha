@@ -33,19 +33,6 @@ def test_panchanga_chennai_2019():
       assert orig_tex.read() == current_tex.read()
 
 
-# def test_panchanga_chennai_2018():
-#   panchangam_2018 = JsonObject.read_from_file(filename=os.path.join(TEST_DATA_PATH, 'Chennai-2018.json'))
-#   panchangam_2018.update_festival_details()
-#   orig_ics_file = os.path.join(TEST_DATA_PATH, 'daily-cal-2018-Chennai-deva.tex')
-#   daily_template_file = open(os.path.join(CODE_ROOT, 'jyotisha/panchangam/data/templates/daily_cal_template.tex'))
-#   current_ics_output = os.path.join(TEST_DATA_PATH, 'daily-cal-2018-Chennai-deva.tex.local')
-#   writeDailyTeX(panchangam_2018, daily_template_file, compute_lagnams=False, output_stream=open(current_ics_output, 'w'))
-
-#   with open(orig_ics_file) as orig_tex:
-#     with open(current_ics_output) as current_tex:
-#       assert orig_tex.read() == current_tex.read()
-
-
 if __name__ == '__main__':
   # test_panchanga_chennai_2018()
   test_panchanga_chennai_2019()
