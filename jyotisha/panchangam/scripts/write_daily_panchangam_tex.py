@@ -27,7 +27,7 @@ logging.basicConfig(
 CODE_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
 
 
-def writeDailyTeX(panchangam, template_file, compute_lagnams=True):
+def writeDailyTeX(panchangam, template_file, compute_lagnams=True, output_stream=None):
     """Write out the panchangam TeX using a specified template
     """
     # day_colours = {0: 'blue', 1: 'blue', 2: 'blue',
@@ -39,7 +39,7 @@ def writeDailyTeX(panchangam, template_file, compute_lagnams=True):
 
     template_lines = template_file.readlines()
     for i in range(len(template_lines)):
-        print(template_lines[i][:-1])
+        print(template_lines[i][:-1], file=output_stream)
 
     samvatsara_id = (panchangam.year - 1568) % 60 + 1  # distance from prabhava
     samvatsara_names = (jyotisha.panchangam.temporal.NAMES['SAMVATSARA_NAMES'][panchangam.script][samvatsara_id],
@@ -47,26 +47,26 @@ def writeDailyTeX(panchangam, template_file, compute_lagnams=True):
 
     yname = samvatsara_names[0]  # Assign year name until Mesha Sankranti
 
-    print('\\mbox{}')
-    print('\\renewcommand{\\yearname}{%d}' % panchangam.year)
-    print('\\begin{center}')
-    print('{\\sffamily \\fontsize{80}{80}\\selectfont  %d\\\\[0.5cm]}' % panchangam.year)
+    print('\\mbox{}', file=output_stream)
+    print('\\renewcommand{\\yearname}{%d}' % panchangam.year, file=output_stream)
+    print('\\begin{center}', file=output_stream)
+    print('{\\sffamily \\fontsize{80}{80}\\selectfont  %d\\\\[0.5cm]}' % panchangam.year, file=output_stream)
     print('\\mbox{\\fontsize{48}{48}\\selectfont %s–%s}\\\\'
-          % samvatsara_names)
+          % samvatsara_names, file=output_stream)
     print('\\mbox{\\fontsize{32}{32}\\selectfont %s } %%'
-          % jyotisha.custom_transliteration.tr('kali', panchangam.script))
+          % jyotisha.custom_transliteration.tr('kali', panchangam.script), file=output_stream)
     print('{\\sffamily \\fontsize{43}{43}\\selectfont  %d–%d\\\\[0.5cm]}\n\\hrule\n\\vspace{0.2cm}'
-          % (panchangam.year + 3100, panchangam.year + 3101))
-    print('{\\sffamily \\fontsize{50}{50}\\selectfont  \\uppercase{%s}\\\\[0.2cm]}' % panchangam.city.name)
+          % (panchangam.year + 3100, panchangam.year + 3101), file=output_stream)
+    print('{\\sffamily \\fontsize{50}{50}\\selectfont  \\uppercase{%s}\\\\[0.2cm]}' % panchangam.city.name, file=output_stream)
     print('{\\sffamily \\fontsize{23}{23}\\selectfont  {%s}\\\\[0.2cm]}'
-          % jyotisha.custom_transliteration.print_lat_lon(panchangam.city.latitude, panchangam.city.longitude))
-    print('\\hrule')
-    print('\\end{center}')
-    print('\\clearpage')
+          % jyotisha.custom_transliteration.print_lat_lon(panchangam.city.latitude, panchangam.city.longitude), file=output_stream)
+    print('\\hrule', file=output_stream)
+    print('\\end{center}', file=output_stream)
+    print('\\clearpage', file=output_stream)
 
     for d in range(1, jyotisha.panchangam.temporal.MAX_SZ - 1):
 
-        [y, m, dt, t] = swe.revjul(panchangam.jd_start + d - 1)
+        [y, m, dt, t] = swe.revjul(panchangam.jd_start_utc + d - 1)
 
         # checking @ 6am local - can we do any better?
         local_time = tz(panchangam.city.timezone).localize(datetime(y, m, dt, 6, 0, 0))
@@ -201,39 +201,39 @@ def writeDailyTeX(panchangam, template_file, compute_lagnams=True):
                jyotisha.panchangam.temporal.get_chandra_masa(panchangam.lunar_month[d],
                                                              jyotisha.panchangam.temporal.NAMES, panchangam.script),
                jyotisha.panchangam.temporal.NAMES['RTU_NAMES'][panchangam.script][int(ceil(panchangam.lunar_month[d]))],
-               jyotisha.panchangam.temporal.NAMES['VARA_NAMES'][panchangam.script][panchangam.weekday[d]], sar_data))
+               jyotisha.panchangam.temporal.NAMES['VARA_NAMES'][panchangam.script][panchangam.weekday[d]], sar_data), file=output_stream)
         if panchangam.jd_moonrise[d]>panchangam.jd_sunrise[d + 1]:
-          print('{\\sunmoondata{%s}{%s}{%s}{%s}' % (sunrise, sunset, '---', '---'))
+          print('{\\sunmoondata{%s}{%s}{%s}{%s}' % (sunrise, sunset, '---', '---'), file=output_stream)
         else:
-          print('{\\sunmoondata{%s}{%s}{%s}{%s}' % (sunrise, sunset, moonrise, moonset))
+          print('{\\sunmoondata{%s}{%s}{%s}{%s}' % (sunrise, sunset, moonrise, moonset), file=output_stream)
 
         print('{\kalas{%s %s %s %s %s %s %s %s %s %s %s %s %s}}}' % (pratahsandhya, pratahsandhya_end,
                                                                      sangava,
                                                                      madhyahnika_sandhya, madhyahnika_sandhya_end,
                                                                      madhyaahna, aparahna, sayahna,
                                                                      sayamsandhya, sayamsandhya_end,
-                                                                     ratriyama1, sayana_time, dinanta))
+                                                                     ratriyama1, sayana_time, dinanta), file=output_stream)
         if compute_lagnams:
             print('{\\tnykdata{%s}%%\n{%s}{%s}%%\n{%s}%%\n{%s}{\\tiny %s}\n}'
                   % (tithi_data_str, nakshatram_data_str, rashi_data_str, yogam_data_str,
-                     karanam_data_str, lagna_data_str))
+                     karanam_data_str, lagna_data_str), file=output_stream)
         else:
             print('{\\tnykdata{%s}%%\n{%s}{%s}%%\n{%s}%%\n{%s}{\\tiny %s}\n}'
                   % (tithi_data_str, nakshatram_data_str, rashi_data_str, yogam_data_str,
-                     karanam_data_str, ''))
-        print('{\\rygdata{%s}{%s}{%s}}' % (rahu, yama, gulika))
+                     karanam_data_str, ''), file=output_stream)
+        print('{\\rygdata{%s}{%s}{%s}}' % (rahu, yama, gulika), file=output_stream)
 
         # Using set as an ugly workaround since we may have sometimes assigned the same
         # festival to the same day again!
         print('{%s}' % '\\eventsep '.join(
-            [jyotisha.custom_transliteration.tr(f, panchangam.script).replace('★', '$^\\star$') for f in sorted(set(panchangam.festivals[d]))]))
+            [jyotisha.custom_transliteration.tr(f, panchangam.script).replace('★', '$^\\star$') for f in sorted(set(panchangam.festivals[d]))]), file=output_stream)
 
-        print('{%s} ' % WDAY[panchangam.weekday[d]])
+        print('{%s} ' % WDAY[panchangam.weekday[d]], file=output_stream)
 
         if m == 12 and dt == 31:
             break
 
-    print('\\end{document}')
+    print('\\end{document}', file=output_stream)
 
 
 def main():
