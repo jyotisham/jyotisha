@@ -73,7 +73,7 @@ def writeMonthlyTeX(panchangam, template_file):
 
     mlast = 1
     for d in range(1, jyotisha.panchangam.temporal.MAX_SZ - 1):
-        [y, m, dt, t] = swe.revjul(panchangam.jd_start + d - 1)
+        [y, m, dt, t] = swe.revjul(panchangam.jd_start_utc + d - 1)
 
         # checking @ 6am local - can we do any better?
         local_time = tz(panchangam.city.timezone).localize(datetime(y, m, dt, 6, 0, 0))
@@ -82,7 +82,7 @@ def writeMonthlyTeX(panchangam, template_file):
                   datetime.utcoffset(local_time).seconds) / 3600.0
 
         # What is the jd at 00:00 local time today?
-        jd = panchangam.jd_start - tz_off / 24.0 + d - 1
+        jd = panchangam.jd_start_utc - tz_off / 24.0 + d - 1
 
         if len(panchangam.festivals[d]) != 0:
             if m != mlast:
@@ -107,7 +107,7 @@ def writeMonthlyTeX(panchangam, template_file):
     month_text = ''
     W6D1 = W6D2 = ''
     for d in range(1, jyotisha.panchangam.temporal.MAX_SZ - 1):
-        [y, m, dt, t] = swe.revjul(panchangam.jd_start + d - 1)
+        [y, m, dt, t] = swe.revjul(panchangam.jd_start_utc + d - 1)
 
         # checking @ 6am local - can we do any better?
         local_time = tz(panchangam.city.timezone).localize(datetime(y, m, dt, 6, 0, 0))
@@ -309,6 +309,7 @@ def main():
 
     city = City(city_name, latitude, longitude, tz)
     panchangam = jyotisha.panchangam.spatio_temporal.annual.get_panchangam(city=city, year=year, script=script)
+    panchangam.script = script  # Force script
 
     panchangam.update_festival_details()
 
