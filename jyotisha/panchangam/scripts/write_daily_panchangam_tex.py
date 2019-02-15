@@ -253,6 +253,7 @@ def main():
     city = City(city_name, latitude, longitude, tz)
 
     panchangam = jyotisha.panchangam.spatio_temporal.annual.get_panchangam(city=city, year=year, script=script, compute_lagnams=compute_lagnams)
+    panchangam.script = script  # Force script
 
     panchangam.update_festival_details()
 
