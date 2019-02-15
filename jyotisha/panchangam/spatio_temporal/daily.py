@@ -265,7 +265,7 @@ class Panchangam(common.JsonObject):
             'sAyaM sandhyA end': temporal.get_kaalas(self.jd_sunset, self.jd_next_sunrise, 1, 15),
             'rAtri yAma 1': temporal.get_kaalas(self.jd_sunset, self.jd_next_sunrise, 1, 4),
             'zayana': temporal.get_kaalas(self.jd_sunset, self.jd_next_sunrise, 3, 8),
-            'dinAnta': temporal.get_kaalas(self.jd_sunset, self.jd_next_sunrise, 18.25, 30),
+            'dinAnta': temporal.get_kaalas(self.jd_sunset, self.jd_next_sunrise, 5, 8),
             'rahu': temporal.get_kaalas(self.jd_sunrise, self.jd_sunset,
                                         RAHUKALA_OCTETS[self.weekday], 8),
             'yama': temporal.get_kaalas(self.jd_sunrise, self.jd_sunset,
