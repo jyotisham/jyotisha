@@ -196,8 +196,19 @@ def writeDailyTeX(panchangam, template_file, compute_lagnams=True, output_stream
                                      jyotisha.panchangam.temporal.NAMES['AYANA_NAMES'][panchangam.script][panchangam.solar_month[d]],
                                      jyotisha.panchangam.temporal.NAMES['RTU_NAMES'][panchangam.script][panchangam.solar_month[d]])
 
+        if panchangam.solar_month_end_time[d] is None:
+            month_end_str = ''
+        else:
+            _m = panchangam.solar_month[d - 1]
+            if panchangam.solar_month_end_time[d] >= panchangam.jd_sunrise[d + 1]:
+                month_end_str = '\\mbox{%s{\\tiny\\RIGHTarrow}\\textsf{%s}}' % (jyotisha.panchangam.temporal.NAMES['RASHI_NAMES'][panchangam.script][_m], jyotisha.panchangam.temporal.Time(24 * (panchangam.solar_month_end_time[d] - panchangam.jd_midnight[d + 1])).toString(format=panchangam.fmt))
+            else:
+                month_end_str = '\\mbox{%s{\\tiny\\RIGHTarrow}\\textsf{%s}}' % (jyotisha.panchangam.temporal.NAMES['RASHI_NAMES'][panchangam.script][_m], jyotisha.panchangam.temporal.Time(24 * (panchangam.solar_month_end_time[d] - panchangam.jd_midnight[d])).toString(format=panchangam.fmt))
+
+        month_data = '\\sunmonth{%s}{%d}{%s}' % (jyotisha.panchangam.temporal.NAMES['RASHI_NAMES'][panchangam.script][panchangam.solar_month[d]], panchangam.solar_month_day[d], month_end_str)
+
         print('\\caldata{%s}{%s}{%s{%s\\\\[-8pt]{\\scriptsize (%s)}}{%s}%s}' %
-              (month[m], dt, panchangam.month_data[d],
+              (month[m], dt, month_data,
                jyotisha.panchangam.temporal.get_chandra_masa(panchangam.lunar_month[d],
                                                              jyotisha.panchangam.temporal.NAMES, panchangam.script),
                jyotisha.panchangam.temporal.NAMES['RTU_NAMES'][panchangam.script][int(ceil(panchangam.lunar_month[d]))],

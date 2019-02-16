@@ -223,9 +223,21 @@ def writeMonthlyTeX(panchangam, template_file):
             jyotisha.panchangam.temporal.Time(24 * (panchangam.kaalas[d]['yama'][0] - jd)).toString(format=panchangam.fmt),
             jyotisha.panchangam.temporal.Time(24 * (panchangam.kaalas[d]['yama'][1] - jd)).toString(format=panchangam.fmt))
 
+        if panchangam.solar_month_end_time[d] is None:
+            month_end_str = ''
+        else:
+            _m = panchangam.solar_month[d - 1]
+            if panchangam.solar_month_end_time[d] >= panchangam.jd_sunrise[d + 1]:
+                month_end_str = '\\mbox{%s{\\tiny\\RIGHTarrow}\\textsf{%s}}' % (jyotisha.panchangam.temporal.NAMES['RASHI_NAMES'][panchangam.script][_m], jyotisha.panchangam.temporal.Time(24 * (panchangam.solar_month_end_time[d] - panchangam.jd_midnight[d + 1])).toString(format=panchangam.fmt))
+            else:
+                month_end_str = '\\mbox{%s{\\tiny\\RIGHTarrow}\\textsf{%s}}' % (jyotisha.panchangam.temporal.NAMES['RASHI_NAMES'][panchangam.script][_m], jyotisha.panchangam.temporal.Time(24 * (panchangam.solar_month_end_time[d] - panchangam.jd_midnight[d])).toString(format=panchangam.fmt))
+
+        month_data = '\\sunmonth{%s}{%d}{%s}' % (jyotisha.panchangam.temporal.NAMES['RASHI_NAMES'][panchangam.script][panchangam.solar_month[d]], panchangam.solar_month_day[d], month_end_str)
+
+
         if currWeek < 6:
             month_text += '\n' + ('\\caldata{\\textcolor{%s}{%s}}{%s{%s}}%%' %
-                  (day_colours[panchangam.weekday[d]], dt, panchangam.month_data[d],
+                  (day_colours[panchangam.weekday[d]], dt, month_data,
                    jyotisha.panchangam.temporal.get_chandra_masa(panchangam.lunar_month[d],
                                                                  jyotisha.panchangam.temporal.NAMES, panchangam.script)))
             month_text += '\n' + ('{\\sundata{%s}{%s}{%s}}%%' % (sunrise, sunset, sangava))
@@ -240,7 +252,7 @@ def writeMonthlyTeX(panchangam, template_file):
         else:
             if panchangam.weekday[d] == 0:
                 W6D1 = '\n' + ('\\caldata{\\textcolor{%s}{%s}}{%s{%s}}%%' %
-                  (day_colours[panchangam.weekday[d]], dt, panchangam.month_data[d],
+                  (day_colours[panchangam.weekday[d]], dt, month_data,
                    jyotisha.panchangam.temporal.get_chandra_masa(panchangam.lunar_month[d],
                                                                  jyotisha.panchangam.temporal.NAMES, panchangam.script)))
                 W6D1 += '\n' + ('{\\sundata{%s}{%s}{%s}}%%' % (sunrise, sunset, sangava))
@@ -254,7 +266,7 @@ def writeMonthlyTeX(panchangam, template_file):
                     [jyotisha.custom_transliteration.tr(f, panchangam.script) for f in sorted(set(panchangam.festivals[d]))]))
             elif panchangam.weekday[d] == 1:
                 W6D2 = '\n' + ('\\caldata{\\textcolor{%s}{%s}}{%s{%s}}%%' %
-                  (day_colours[panchangam.weekday[d]], dt, panchangam.month_data[d],
+                  (day_colours[panchangam.weekday[d]], dt, month_data,
                    jyotisha.panchangam.temporal.get_chandra_masa(panchangam.lunar_month[d],
                                                                  jyotisha.panchangam.temporal.NAMES, panchangam.script)))
                 W6D2 += '\n' + ('{\\sundata{%s}{%s}{%s}}%%' % (sunrise, sunset, sangava))

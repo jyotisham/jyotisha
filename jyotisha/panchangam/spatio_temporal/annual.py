@@ -56,12 +56,12 @@ class Panchangam(common.JsonObject):
         self.jd_moonrise = [None] * temporal.MAX_SZ
         self.jd_moonset = [None] * temporal.MAX_SZ
         self.solar_month = [None] * temporal.MAX_SZ
+        self.solar_month_end_time = [None] * temporal.MAX_SZ
         self.solar_month_day = [None] * temporal.MAX_SZ
 
         solar_month_sunrise = [None] * temporal.MAX_SZ
 
         self.lunar_month = [None] * temporal.MAX_SZ
-        self.month_data = [None] * temporal.MAX_SZ
         self.tithi_data = [None] * temporal.MAX_SZ
         self.tithi_sunrise = [None] * temporal.MAX_SZ
         self.nakshatram_data = [None] * temporal.MAX_SZ
@@ -168,25 +168,8 @@ class Panchangam(common.JsonObject):
             #     solar_month_day += 1
             #     solar_month_end_jd = None
 
-            if solar_month_end_jd is None:
-                solar_month_end_time = ''
-            else:
-                if solar_month_end_jd >= daily_panchaangas[d + 1].jd_sunrise:
-                    solar_month_end_time = '\\mbox{%s{\\tiny\\RIGHTarrow}\\textsf{%s}}' % (
-                        temporal.NAMES['RASHI_NAMES'][self.script][_m], temporal.Time(
-                            24 * (solar_month_end_jd - daily_panchaangas[d + 1].julian_day_start)).toString(
-                            format=self.fmt))
-                else:
-                    solar_month_end_time = '\\mbox{%s{\\tiny\\RIGHTarrow}\\textsf{%s}}' % (
-                        temporal.NAMES['RASHI_NAMES'][self.script][_m], temporal.Time(
-                            24 * (solar_month_end_jd - daily_panchaangas[d].julian_day_start)).toString(
-                            format=self.fmt))
+            self.solar_month_end_time[d] = solar_month_end_jd
 
-            # logging.debug(temporal.NAMES)
-
-            self.month_data[d] = '\\sunmonth{%s}{%d}{%s}' % (
-                temporal.NAMES['RASHI_NAMES'][self.script][self.solar_month[d]],
-                solar_month_day, solar_month_end_time)
             self.solar_month_day[d] = solar_month_day
 
             self.kaalas[d] = daily_panchaangas[d].get_kaalas()
@@ -922,7 +905,7 @@ class Panchangam(common.JsonObject):
                     self.tithi_sunrise[d] == 7:
                 self.add_festival('bhadrA~saptamI', d, debug_festivals)
 
-            if self.month_data[d].find('RIGHTarrow') != -1:
+            if self.solar_month_end_time[d] is not None:
                 # we have a Sankranti!
                 if self.tithi_sunrise[d] == 7:
                     self.add_festival('mahAjayA~saptamI', d, debug_festivals)
