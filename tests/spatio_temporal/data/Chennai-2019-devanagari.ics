@@ -14134,27 +14134,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:भीमा/ताम्रपर्णी-अन्त्य-प
- ुष्कर-आरम्भः
+SUMMARY:सर्व-रमा-एकादशी
 DTSTART;VALUE=DATE:20191024
 DTEND;VALUE=DATE:20191025
-DESCRIPTION:Coming from Brahma's Kamandalu\, Pushkara Raja resides in diff
- erent rivers\, along with 3.5 crore tirthas\, following the Sankranti of G
- uru\, for twelve days at the beginning of the Sankranti (आदि पु
- ष्करम्) and at the end of the year (preceding transition to th
- e next राशी\, अन्त्य पुष्करम्)\, and f
- or two muhurtas during mid-day\, every day\, during the entire year.\n Fol
- lowing the transition of Guru to वृश्चिक राशी\, प
- ुष्करराज resides in भीमा/ताम्रपर्
- णी river.\n\nयदा राशि-प्रवेशः स्या
- त्तदा प्रभृति सर्वदा।\nद्वा
- दशाहमिते काले वस्तव्यं तु म
- माऽऽज्ञया॥\nआवत्सरं तु वस्त
- व्यं मध्याह्ने द्विमुहूर्त
- कम्।\nअन्ते द्वादश वस्तव्यं 
- दिनानि च यथासुखम्॥\n\n\n\n\nhttps://github
- .com/sanskrit-coders/jyotisha/tree/master/jyotisha/panchangam/temporal/fes
- tival/data/other/rare-days/pushkara#bhimatamraparni-antya-puskara-arambhah
+DESCRIPTION:The Krishna-paksha Ekadashi of आश्वयुज month is 
+ known as रमा-एकादशी.\n\nhttps://github.com/sanskrit-code
+ rs/jyotisha/tree/master/jyotisha/panchangam/temporal/festival/data/other/m
+ onthly-vratams/ekadashi-vratam-days#rama-ekadazi
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -14164,13 +14150,27 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:सर्व-रमा-एकादशी
+SUMMARY:ताम्रपर्णी-अन्त्य-पुष्क
+ र-आरम्भः
 DTSTART;VALUE=DATE:20191024
 DTEND;VALUE=DATE:20191025
-DESCRIPTION:The Krishna-paksha Ekadashi of आश्वयुज month is 
- known as रमा-एकादशी.\n\nhttps://github.com/sanskrit-code
- rs/jyotisha/tree/master/jyotisha/panchangam/temporal/festival/data/other/m
- onthly-vratams/ekadashi-vratam-days#rama-ekadazi
+DESCRIPTION:Coming from Brahma's Kamandalu\, Pushkara Raja resides in diff
+ erent rivers\, along with 3.5 crore tirthas\, following the Sankranti of G
+ uru\, for twelve days at the beginning of the Sankranti (आदि पु
+ ष्करम्) and at the end of the year (preceding transition to th
+ e next राशी\, अन्त्य पुष्करम्)\, and f
+ or two muhurtas during mid-day\, every day\, during the entire year.\n Fol
+ lowing the transition of Guru to वृश्चिक राशी\, प
+ ुष्करराज resides in ताम्रपर्णी river.\
+ n\nयदा राशि-प्रवेशः स्यात्तद
+ ा प्रभृति सर्वदा।\nद्वादशाह
+ मिते काले वस्तव्यं तु ममाऽऽ
+ ज्ञया॥\nआवत्सरं तु वस्तव्यं 
+ मध्याह्ने द्विमुहूर्तकम्।\
+ nअन्ते द्वादश वस्तव्यं दिना
+ नि च यथासुखम्॥\n\n\n\n\nhttps://github.com/sanskri
+ t-coders/jyotisha/tree/master/jyotisha/panchangam/temporal/festival/data/o
+ ther/rare-days/pushkara#tamraparni-antya-puskara-arambhah
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -14835,68 +14835,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:भीमा/ताम्रपर्णी-अन्त्य-प
- ुष्कर-समापनम्
-DTSTART;VALUE=DATE:20191104
-DTEND;VALUE=DATE:20191105
-DESCRIPTION:Coming from Brahma's Kamandalu\, Pushkara Raja resides in diff
- erent rivers\, along with 3.5 crore tirthas\, following the Sankranti of G
- uru\, for twelve days at the beginning of the Sankranti (आदि पु
- ष्करम्) and at the end of the year (preceding transition to th
- e next राशी\, अन्त्य पुष्करम्)\, and f
- or two muhurtas during mid-day\, every day\, during the entire year.\n Fol
- lowing the transition of Guru to वृश्चिक राशी\, प
- ुष्करराज resides in भीमा/ताम्रपर्
- णी river.\n\nयदा राशि-प्रवेशः स्या
- त्तदा प्रभृति सर्वदा।\nद्वा
- दशाहमिते काले वस्तव्यं तु म
- माऽऽज्ञया॥\nआवत्सरं तु वस्त
- व्यं मध्याह्ने द्विमुहूर्त
- कम्।\nअन्ते द्वादश वस्तव्यं 
- दिनानि च यथासुखम्॥\n\n\n\n\nhttps://github
- .com/sanskrit-coders/jyotisha/tree/master/jyotisha/panchangam/temporal/fes
- tival/data/other/rare-days/pushkara#bhimatamraparni-antya-puskara-samapana
- m
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:भीमा/ताम्रपर्णी-अन्त्य-प
- ुष्करम्
-DTSTART;VALUE=DATE:20191024
-DTEND;VALUE=DATE:20191105
-DESCRIPTION:Coming from Brahma's Kamandalu\, Pushkara Raja resides in diff
- erent rivers\, along with 3.5 crore tirthas\, following the Sankranti of G
- uru\, for twelve days at the beginning of the Sankranti (आदि पु
- ष्करम्) and at the end of the year (preceding transition to th
- e next राशी\, अन्त्य पुष्करम्)\, and f
- or two muhurtas during mid-day\, every day\, during the entire year.\n Fol
- lowing the transition of Guru to वृश्चिक राशी\, प
- ुष्करराज resides in भीमा/ताम्रपर्
- णी river.\n\nयदा राशि-प्रवेशः स्या
- त्तदा प्रभृति सर्वदा।\nद्वा
- दशाहमिते काले वस्तव्यं तु म
- माऽऽज्ञया॥\nआवत्सरं तु वस्त
- व्यं मध्याह्ने द्विमुहूर्त
- कम्।\nअन्ते द्वादश वस्तव्यं 
- दिनानि च यथासुखम्॥\n\n\n\n\nhttps://github
- .com/sanskrit-coders/jyotisha/tree/master/jyotisha/panchangam/temporal/fes
- tival/data/other/rare-days/pushkara#bhimatamraparni-antya-puskara-samapana
- m
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:गोपाष्टमी
 DTSTART;VALUE=DATE:20191104
 DTEND;VALUE=DATE:20191105
@@ -14939,6 +14877,66 @@ DTEND;VALUE=DATE:20191105
 DESCRIPTION:Do puja to Shiva/Parvati\, perform fast.\n\nhttps://github.com
  /sanskrit-coders/jyotisha/tree/master/jyotisha/panchangam/temporal/festiva
  l/data/other/month-weekday-festivals#krttika-somavasarah
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ताम्रपर्णी-अन्त्य-पुष्क
+ र-समापनम्
+DTSTART;VALUE=DATE:20191104
+DTEND;VALUE=DATE:20191105
+DESCRIPTION:Coming from Brahma's Kamandalu\, Pushkara Raja resides in diff
+ erent rivers\, along with 3.5 crore tirthas\, following the Sankranti of G
+ uru\, for twelve days at the beginning of the Sankranti (आदि पु
+ ष्करम्) and at the end of the year (preceding transition to th
+ e next राशी\, अन्त्य पुष्करम्)\, and f
+ or two muhurtas during mid-day\, every day\, during the entire year.\n Fol
+ lowing the transition of Guru to वृश्चिक राशी\, प
+ ुष्करराज resides in ताम्रपर्णी river.\
+ n\nयदा राशि-प्रवेशः स्यात्तद
+ ा प्रभृति सर्वदा।\nद्वादशाह
+ मिते काले वस्तव्यं तु ममाऽऽ
+ ज्ञया॥\nआवत्सरं तु वस्तव्यं 
+ मध्याह्ने द्विमुहूर्तकम्।\
+ nअन्ते द्वादश वस्तव्यं दिना
+ नि च यथासुखम्॥\n\n\n\n\nhttps://github.com/sanskri
+ t-coders/jyotisha/tree/master/jyotisha/panchangam/temporal/festival/data/o
+ ther/rare-days/pushkara#tamraparni-antya-puskara-samapanam
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ताम्रपर्णी-अन्त्य-पुष्क
+ रम्
+DTSTART;VALUE=DATE:20191024
+DTEND;VALUE=DATE:20191105
+DESCRIPTION:Coming from Brahma's Kamandalu\, Pushkara Raja resides in diff
+ erent rivers\, along with 3.5 crore tirthas\, following the Sankranti of G
+ uru\, for twelve days at the beginning of the Sankranti (आदि पु
+ ष्करम्) and at the end of the year (preceding transition to th
+ e next राशी\, अन्त्य पुष्करम्)\, and f
+ or two muhurtas during mid-day\, every day\, during the entire year.\n Fol
+ lowing the transition of Guru to वृश्चिक राशी\, प
+ ुष्करराज resides in ताम्रपर्णी river.\
+ n\nयदा राशि-प्रवेशः स्यात्तद
+ ा प्रभृति सर्वदा।\nद्वादशाह
+ मिते काले वस्तव्यं तु ममाऽऽ
+ ज्ञया॥\nआवत्सरं तु वस्तव्यं 
+ मध्याह्ने द्विमुहूर्तकम्।\
+ nअन्ते द्वादश वस्तव्यं दिना
+ नि च यथासुखम्॥\n\n\n\n\nhttps://github.com/sanskri
+ t-coders/jyotisha/tree/master/jyotisha/panchangam/temporal/festival/data/o
+ ther/rare-days/pushkara#tamraparni-antya-puskara-samapanam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15040,23 +15038,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:பூதத்தாழ்வார் திருநக்ஷ
- த்திரம்
-DTSTART;VALUE=DATE:20191105
-DTEND;VALUE=DATE:20191106
-DESCRIPTION:https://github.com/sanskrit-coders/jyotisha/tree/master/jyotis
- ha/panchangam/temporal/festival/data/solar_month/nakshatram/07/23#bhutatta
- zhvar-tirunaksattiram
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:तपती-आदि-पुष्कर-आरम्भः
+SUMMARY:सिन्धु-आदि-पुष्कर-आरम्भः
 DTSTART;VALUE=DATE:20191105
 DTEND;VALUE=DATE:20191106
 DESCRIPTION:Coming from Brahma's Kamandalu\, Pushkara Raja resides in diff
@@ -15066,16 +15048,32 @@ DESCRIPTION:Coming from Brahma's Kamandalu\, Pushkara Raja resides in diff
  e next राशी\, अन्त्य पुष्करम्)\, and f
  or two muhurtas during mid-day\, every day\, during the entire year.\n Fol
  lowing the transition of Guru to धनुः राशी\, पुष्
- करराज resides in तपती river.\n\nयदा राशि-
- प्रवेशः स्यात्तदा प्रभृति 
- सर्वदा।\nद्वादशाहमिते काले 
- वस्तव्यं तु ममाऽऽज्ञया॥\nआव
- त्सरं तु वस्तव्यं मध्याह्न
- े द्विमुहूर्तकम्।\nअन्ते द्
- वादश वस्तव्यं दिनानि च यथास
- ुखम्॥\n\n\n\n\nhttps://github.com/sanskrit-coders/jyotisha/tree/
- master/jyotisha/panchangam/temporal/festival/data/other/rare-days/pushkara
- #tapati-adi-puskara-arambhah
+ करराज resides in सिन्धु river.\n\nयदा रा
+ शि-प्रवेशः स्यात्तदा प्रभृ
+ ति सर्वदा।\nद्वादशाहमिते का
+ ले वस्तव्यं तु ममाऽऽज्ञया॥\n
+ आवत्सरं तु वस्तव्यं मध्याह
+ ्ने द्विमुहूर्तकम्।\nअन्ते 
+ द्वादश वस्तव्यं दिनानि च यथ
+ ासुखम्॥\n\n\n\n\nhttps://github.com/sanskrit-coders/jyotisha
+ /tree/master/jyotisha/panchangam/temporal/festival/data/other/rare-days/pu
+ shkara#sindhu-adi-puskara-arambhah
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:பூதத்தாழ்வார் திருநக்ஷ
+ த்திரம்
+DTSTART;VALUE=DATE:20191105
+DTEND;VALUE=DATE:20191106
+DESCRIPTION:https://github.com/sanskrit-coders/jyotisha/tree/master/jyotis
+ ha/panchangam/temporal/festival/data/solar_month/nakshatram/07/23#bhutatta
+ zhvar-tirunaksattiram
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15773,7 +15771,8 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:तपती-आदि-पुष्कर-समापनम्
+SUMMARY:सिन्धु-आदि-पुष्कर-समापनम
+ ्
 DTSTART;VALUE=DATE:20191116
 DTEND;VALUE=DATE:20191117
 DESCRIPTION:Coming from Brahma's Kamandalu\, Pushkara Raja resides in diff
@@ -15783,16 +15782,16 @@ DESCRIPTION:Coming from Brahma's Kamandalu\, Pushkara Raja resides in diff
  e next राशी\, अन्त्य पुष्करम्)\, and f
  or two muhurtas during mid-day\, every day\, during the entire year.\n Fol
  lowing the transition of Guru to धनुः राशी\, पुष्
- करराज resides in तपती river.\n\nयदा राशि-
- प्रवेशः स्यात्तदा प्रभृति 
- सर्वदा।\nद्वादशाहमिते काले 
- वस्तव्यं तु ममाऽऽज्ञया॥\nआव
- त्सरं तु वस्तव्यं मध्याह्न
- े द्विमुहूर्तकम्।\nअन्ते द्
- वादश वस्तव्यं दिनानि च यथास
- ुखम्॥\n\n\n\n\nhttps://github.com/sanskrit-coders/jyotisha/tree/
- master/jyotisha/panchangam/temporal/festival/data/other/rare-days/pushkara
- #tapati-adi-puskara-samapanam
+ करराज resides in सिन्धु river.\n\nयदा रा
+ शि-प्रवेशः स्यात्तदा प्रभृ
+ ति सर्वदा।\nद्वादशाहमिते का
+ ले वस्तव्यं तु ममाऽऽज्ञया॥\n
+ आवत्सरं तु वस्तव्यं मध्याह
+ ्ने द्विमुहूर्तकम्।\nअन्ते 
+ द्वादश वस्तव्यं दिनानि च यथ
+ ासुखम्॥\n\n\n\n\nhttps://github.com/sanskrit-coders/jyotisha
+ /tree/master/jyotisha/panchangam/temporal/festival/data/other/rare-days/pu
+ shkara#sindhu-adi-puskara-samapanam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15802,7 +15801,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:तपती-आदि-पुष्करम्
+SUMMARY:सिन्धु-आदि-पुष्करम्
 DTSTART;VALUE=DATE:20191105
 DTEND;VALUE=DATE:20191117
 DESCRIPTION:Coming from Brahma's Kamandalu\, Pushkara Raja resides in diff
@@ -15812,16 +15811,16 @@ DESCRIPTION:Coming from Brahma's Kamandalu\, Pushkara Raja resides in diff
  e next राशी\, अन्त्य पुष्करम्)\, and f
  or two muhurtas during mid-day\, every day\, during the entire year.\n Fol
  lowing the transition of Guru to धनुः राशी\, पुष्
- करराज resides in तपती river.\n\nयदा राशि-
- प्रवेशः स्यात्तदा प्रभृति 
- सर्वदा।\nद्वादशाहमिते काले 
- वस्तव्यं तु ममाऽऽज्ञया॥\nआव
- त्सरं तु वस्तव्यं मध्याह्न
- े द्विमुहूर्तकम्।\nअन्ते द्
- वादश वस्तव्यं दिनानि च यथास
- ुखम्॥\n\n\n\n\nhttps://github.com/sanskrit-coders/jyotisha/tree/
- master/jyotisha/panchangam/temporal/festival/data/other/rare-days/pushkara
- #tapati-adi-puskara-samapanam
+ करराज resides in सिन्धु river.\n\nयदा रा
+ शि-प्रवेशः स्यात्तदा प्रभृ
+ ति सर्वदा।\nद्वादशाहमिते का
+ ले वस्तव्यं तु ममाऽऽज्ञया॥\n
+ आवत्सरं तु वस्तव्यं मध्याह
+ ्ने द्विमुहूर्तकम्।\nअन्ते 
+ द्वादश वस्तव्यं दिनानि च यथ
+ ासुखम्॥\n\n\n\n\nhttps://github.com/sanskrit-coders/jyotisha
+ /tree/master/jyotisha/panchangam/temporal/festival/data/other/rare-days/pu
+ shkara#sindhu-adi-puskara-samapanam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
