@@ -76,10 +76,6 @@ class Panchangam(common.JsonObject):
         self.kaalas = [dict() for _x in range(temporal.MAX_SZ)]
         daily_panchaangas = [None] * temporal.MAX_SZ
 
-        self.fest_days = {}
-        # Pushkaram starting on 31 Jan might not get over till 12 days later
-        self.festivals = [[] for _x in range(temporal.MAX_SZ + 15)]
-
         # Computing solar month details for Dec 31
         # rather than Jan 1, since we have an always increment
         # solar_month_day at the start of the loop across every day in
@@ -1485,7 +1481,7 @@ class Panchangam(common.JsonObject):
 
     def update_festival_details(self):
         """
-    
+
         Festival data may be updated more frequently and a precomputed panchangam may go out of sync. Hence we keep this method separate.
         :return:
         """
