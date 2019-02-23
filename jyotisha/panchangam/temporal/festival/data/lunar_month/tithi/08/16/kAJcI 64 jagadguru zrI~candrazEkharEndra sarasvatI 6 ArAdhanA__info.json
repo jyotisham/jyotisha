@@ -1,7 +1,13 @@
 {
+  "description": {
+    "en": "![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-64.jpg)"
+  },
   "id": "kAJcI 64 jagadguru zrI~candrazEkharEndra sarasvatI 6 ArAdhanA",
   "jsonClass": "HinduCalendarEvent",
   "priority": "puurvaviddha",
+  "references_primary": [
+    "Punya Shloka Manjari"
+  ],
   "references_secondary": [
     "www.kamakoti.org"
   ],

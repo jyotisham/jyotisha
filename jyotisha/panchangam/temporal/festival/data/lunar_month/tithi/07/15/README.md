@@ -60,9 +60,9 @@ _Kunti-vratam done today will remove all paapams (including Gohatya). As per Bha
 ## Kāñchī 36 Jagadguru Śrī Chitsukhānandendra Sarasvatī Ārādhanā
 काञ्ची ३६ जगद्गुरु श्री चित्सुखानन्देन्द्र सरस्वती आराधना is observed on Paurṇamāsī tithi of Āśvayuja (lunar) month (madhyaahna/puurvaviddha).
 
-
+_![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-36.jpg)_
 ### References
-* www.kamakoti.org
+* Punya Shloka Manjari
 
 
 ---

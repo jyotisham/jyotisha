@@ -1,7 +1,7 @@
 ## Kāñchī 4 Jagadguru Śrī Satyabodhendra Sarasvatī Ārādhanā
 काञ्ची ४ जगद्गुरु श्री सत्यबोधेन्द्र सरस्वती आराधना is observed on Kṛṣṇa-Aṣṭamī tithi of Mārgaśīrṣa (lunar) month (madhyaahna/puurvaviddha).
 
-_The saint Satyabodha, by name Phalinīśa (before initiation into sainthood), son of Tāṇḍavaśarma living on the banks of Āmrāvatī river, the noble preceptor, who authored commentatorial and Vārtika texts on Advaita Vedānta bore the responsibilities of preceptor. Then, Śrī Satyabodha, who lived for ninety six years in Kāñci in the Maṭha called Śāradā, making unrestrained the systems of haughty Kumārila, Buddhists, Jains, Prabhākara, Kaṇāda and Akṣapāda and having shattered the enemies by the text Padakaśata realised his Self on the eighth day of the dark fortnight in the year Nandana._
+_![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-01.jpg)The saint Satyabodha, by name Phalinīśa (before initiation into sainthood), son of Tāṇḍavaśarma living on the banks of Āmrāvatī river, the noble preceptor, who authored commentatorial and Vārtika texts on Advaita Vedānta bore the responsibilities of preceptor. Then, Śrī Satyabodha, who lived for ninety six years in Kāñci in the Maṭha called Śāradā, making unrestrained the systems of haughty Kumārila, Buddhists, Jains, Prabhākara, Kaṇāda and Akṣapāda and having shattered the enemies by the text Padakaśata realised his Self on the eighth day of the dark fortnight in the year N 4dana._
 
 ```
 आम्रावतीतटजताण्डवशर्मसूनुः श्रीसत्यबोधनियमी फलिनीशनामा।

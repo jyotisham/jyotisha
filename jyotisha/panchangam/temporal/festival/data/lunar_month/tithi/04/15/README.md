@@ -45,9 +45,9 @@ _Perform snana four ghatikas before sunrise (during अरुणोदयम्,
 ## Kāñchī 10 Jagadguru Śrī Sureśvarendra Sarasvatī Ārādhanā
 काञ्ची १० जगद्गुरु श्री सुरेश्वरेन्द्र सरस्वती आराधना is observed on Paurṇamāsī tithi of Āṣāḍha (lunar) month (madhyaahna/puurvaviddha).
 
-
+_![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-10.jpg)_
 ### References
-* www.kamakoti.org
+* Punya Shloka Manjari
 
 
 ---

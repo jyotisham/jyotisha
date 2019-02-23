@@ -13,7 +13,7 @@
 ## Kāñchī 6 Jagadguru Śrī Śuddhānandendra Sarasvatī Ārādhanā
 काञ्ची ६ जगद्गुरु श्री शुद्धानन्देन्द्र सरस्वती आराधना is observed on Śukla-Ṣaṣṭhī tithi of Jyaiṣṭha (lunar) month (madhyaahna/puurvaviddha).
 
-_Śrī Viśvanātha, son of Vaidyabharva of Vedāraṇya, received initiation from sage Jñānānanda, became Śuddhānandamunīśvara was established in Kāñcī; having carried on the responsibilities of the preceptor for eighty-one years, he secured union on the sixth day of the bright fortnight in the year Nala._
+_![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-01.jpg)Śrī Viśvanātha, son of Vaidyabharva of Vedāraṇya, received initiation from sage Jñānānanda, became Śuddhānandamunīśvara was established in Kāñcī; having carried on the responsibilities of the preceptor for eighty-one years, he secured union on the sixth day of the bright fortnight in the yea 6Nala._
 
 ```
 वेदारण्यजवैद्यभर्वुतनयः श्रीविश्वनाथाभिधो ज्ञानानन्दमुनेरवाप्य नियमं काञ्चीपदे स्थापितः।
@@ -28,9 +28,9 @@ _Śrī Viśvanātha, son of Vaidyabharva of Vedāraṇya, received initiation fr
 ## Kāñchī 50 Jagadguru Śrī Chandrachūḍendra Sarasvatī 1 Ārādhanā
 काञ्ची ५० जगद्गुरु श्री चन्द्रचूडेन्द्र सरस्वती १ आराधना is observed on Śukla-Ṣaṣṭhī tithi of Jyaiṣṭha (lunar) month (madhyaahna/puurvaviddha).
 
-
+_![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-50.jpg)_
 ### References
-* www.kamakoti.org
+* Punya Shloka Manjari
 
 
 ---

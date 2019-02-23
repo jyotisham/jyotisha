@@ -1,18 +1,18 @@
 ## Kāñchī 38 Jagadguru Śrī Abhinavaśaṅkarendra Sarasvatī Ārādhanā
 काञ्ची ३८ जगद्गुरु श्री अभिनवशङ्करेन्द्र सरस्वती आराधना is observed on Amāvāsyā tithi of Āṣāḍha (lunar) month (madhyaahna/puurvaviddha).
 
-
+_![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-38.jpg)_
 ### References
-* www.kamakoti.org
+* Punya Shloka Manjari
 
 
 ---
 ## Kāñchī 46 Jagadguru Śrī Sāndrānandabodhendra Sarasvatī Ārādhanā
 काञ्ची ४६ जगद्गुरु श्री सान्द्रानन्दबोधेन्द्र सरस्वती आराधना is observed on Amāvāsyā tithi of Āṣāḍha (lunar) month (madhyaahna/puurvaviddha).
 
-
+_![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-46.jpg)_
 ### References
-* www.kamakoti.org
+* Punya Shloka Manjari
 
 
 ---

@@ -19,9 +19,9 @@
 ## Kāñchī 24 Jagadguru Śrī Chitsukhendra Sarasvatī Ārādhanā
 काञ्ची २४ जगद्गुरु श्री चित्सुखेन्द्र सरस्वती आराधना is observed on Kṛṣṇa-Navamī tithi of Śravaṇa (lunar) month (madhyaahna/puurvaviddha).
 
-
+_![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-24.jpg)_
 ### References
-* www.kamakoti.org
+* Punya Shloka Manjari
 
 
 ---

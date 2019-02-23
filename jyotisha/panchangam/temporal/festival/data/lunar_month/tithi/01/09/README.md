@@ -13,9 +13,9 @@
 ## Kāñchī 43 Jagadguru Śrī Ānandaghanendra Sarasvatī Ārādhanā
 काञ्ची ४३ जगद्गुरु श्री आनन्दघनेन्द्र सरस्वती आराधना is observed on Śukla-Navamī tithi of Caitra (lunar) month (madhyaahna/puurvaviddha).
 
-
+_![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-43.jpg)_
 ### References
-* www.kamakoti.org
+* Punya Shloka Manjari
 
 
 ---

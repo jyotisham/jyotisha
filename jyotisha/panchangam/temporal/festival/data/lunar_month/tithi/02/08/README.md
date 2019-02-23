@@ -1,9 +1,9 @@
 ## Kāñchī 26 Jagadguru Śrī Prajñāghanendra Sarasvatī Ārādhanā
 काञ्ची २६ जगद्गुरु श्री प्रज्ञाघनेन्द्र सरस्वती आराधना is observed on Śukla-Aṣṭamī tithi of Vaiśākha (lunar) month (madhyaahna/puurvaviddha).
 
-
+_![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-26.jpg)_
 ### References
-* www.kamakoti.org
+* Punya Shloka Manjari
 
 
 ---

@@ -1,9 +1,9 @@
 ## Kāñchī 55 Jagadguru Śrī Chandrachūḍendra Sarasvatī 2 Ārādhanā
 काञ्ची ५५ जगद्गुरु श्री चन्द्रचूडेन्द्र सरस्वती २ आराधना is observed on Śukla-Ekādaśī tithi of Pauṣa (lunar) month (madhyaahna/puurvaviddha).
 
-
+_![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-55.jpg)_
 ### References
-* www.kamakoti.org
+* Punya Shloka Manjari
 
 
 ---

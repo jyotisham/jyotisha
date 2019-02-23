@@ -1,7 +1,13 @@
 {
+  "description": {
+    "en": "![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-35.jpg)"
+  },
   "id": "kAJcI 35 jagadguru zrI~citsukhEndra sarasvatI ArAdhanA",
   "jsonClass": "HinduCalendarEvent",
   "priority": "puurvaviddha",
+  "references_primary": [
+    "Punya Shloka Manjari"
+  ],
   "references_secondary": [
     "www.kamakoti.org"
   ],

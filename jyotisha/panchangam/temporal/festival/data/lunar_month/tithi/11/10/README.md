@@ -1,9 +1,9 @@
 ## Kāñchī 11 Jagadguru Śrī Śivānanda Chidghanendra Sarasvatī Ārādhanā
 काञ्ची ११ जगद्गुरु श्री शिवानन्द चिद्घनेन्द्र सरस्वती आराधना is observed on Śukla-Daśamī tithi of Māgha (lunar) month (madhyaahna/puurvaviddha).
 
-
+_![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-11.jpg)_
 ### References
-* www.kamakoti.org
+* Punya Shloka Manjari
 
 
 ---

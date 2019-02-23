@@ -13,9 +13,9 @@ _ब्रह्माणी is one of the seven मातृकाs_
 ## Kāñchī 61 Jagadguru Śrī Mahādevendra Sarasvatī 4 Ārādhanā
 काञ्ची ६१ जगद्गुरु श्री महादेवेन्द्र सरस्वती ४ आराधना is observed on Śukla-Navamī tithi of Jyaiṣṭha (lunar) month (madhyaahna/puurvaviddha).
 
-
+_![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-61.jpg)_
 ### References
-* www.kamakoti.org
+* Punya Shloka Manjari
 
 
 ---
