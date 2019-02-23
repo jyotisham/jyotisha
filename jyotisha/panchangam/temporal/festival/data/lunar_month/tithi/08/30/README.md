@@ -1,4 +1,4 @@
-## tiruvizalUr gaGgAkarSaNa-mahOtsava-samApanam
+## Tiruviśalūr Gaṅgākarṣaṇa-Mahotsava-Samāpanam
 तिरुविशलूर् गङ्गाकर्षण-महोत्सव-समापनम् is observed on Amāvāsyā tithi of Kārtika (lunar) month (aparahna/puurvaviddha (default)).
 
 _Thiruvisanallur Sridhara Aiyyaval brought Ganga to his house well on this day! See also http://www.sriayyaval.org/ .  _
@@ -11,7 +11,7 @@ _Thiruvisanallur Sridhara Aiyyaval brought Ganga to his house well on this day! 
 ```
 
 ---
-## kArtika-snAnapUrtiH
+## Kārtika-Snānapūrtiḥ
 कार्तिक-स्नानपूर्तिः is observed on Amāvāsyā tithi of Kārtika (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 

@@ -1,16 +1,16 @@
-## durgASTamI
+## Durgāṣṭamī
 दुर्गाष्टमी is observed on Śukla-Aṣṭamī tithi of Āśvayuja (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 
 ---
-## bhadrakALI-pUjA
+## Bhadrakāḻī-Pūjā
 भद्रकाळी-पूजा is observed on Śukla-Aṣṭamī tithi of Āśvayuja (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 
 ---
-## kAla-trirAtri-vratam
+## Kāla-Trirātri-Vratam
 काल-त्रिरात्रि-व्रतम् is observed on Śukla-Aṣṭamī tithi of Āśvayuja (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 

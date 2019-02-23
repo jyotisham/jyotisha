@@ -1,4 +1,4 @@
-## tiruccendUr murugan2 AvaNit tiruvizhA ##7##m nAL—cigappu cAtti alaGkAram
+## Tiruchchêndūr Murugan Āvaṇit Tiruviḷā 7M Nāḻ—Chigappu Chātti Alaṅkāram
 
 
 ---

@@ -1,4 +1,4 @@
-## sItAnavamI
+## Sītānavamī
 सीतानवमी is observed on Śukla-Navamī tithi of Vaiśākha (lunar) month (madhyaahna/puurvaviddha).
 
 
@@ -7,19 +7,19 @@
 
 
 ---
-## siMhAcalaM-candana-mahOtsavaH
+## Siṃhāchalaṃ-Chandana-Mahotsavaḥ
 सिंहाचलं-चन्दन-महोत्सवः is observed on Śukla-Navamī tithi of Vaiśākha (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 
 ---
-## purI gOvardhana-maTha-pratiSThApana jayantI
+## Purī Govardhana-Maṭha-Pratiṣṭhāpana Jayantī
 पुरी गोवर्धन-मठ-प्रतिष्ठापन जयन्ती is observed on Śukla-Navamī tithi of Vaiśākha (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 _Adi Shankara founded Govardhan mutt, Puri in Nala year Padmapadacharya as first_
 
 ---
-## vasiSTha maharSi jayantI
+## Vasiṣṭha Maharṣi Jayantī
 वसिष्ठ महर्षि जयन्ती is observed on Śukla-Navamī tithi of Vaiśākha (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 

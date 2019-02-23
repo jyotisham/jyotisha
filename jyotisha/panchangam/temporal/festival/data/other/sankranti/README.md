@@ -1,8 +1,8 @@
-## guru-saGkrAntiH
+## Guru-Saṅkrāntiḥ
 
 
 ---
-## zani-saGkrAntiH
+## Śani-Saṅkrāntiḥ
 
 
 ---

@@ -1,4 +1,4 @@
-## dharmarAja-dazamI
+## Dharmarāja-Daśamī
 धर्मराज-दशमी is observed on Śukla-Daśamī tithi of Caitra (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 

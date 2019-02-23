@@ -1,4 +1,4 @@
-## mahAlaya-pakSa-samApanam
+## Mahālaya-Pakṣa-Samāpanam
 
 
 ---

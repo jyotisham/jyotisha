@@ -1,4 +1,4 @@
-## jImUtavAhana-pUjA 2
+## Jīmūtavāhana-Pūjā
 जीमूतवाहन-पूजा is observed on Kṛṣṇa-Aṣṭamī tithi of Āśvayuja (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 _In North India, for progeny_
@@ -7,7 +7,7 @@ _In North India, for progeny_
 
 
 ---
-## maGgala-vratam
+## Maṅgala-Vratam
 मङ्गल-व्रतम् is observed on Kṛṣṇa-Aṣṭamī tithi of Āśvayuja (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
@@ -16,7 +16,7 @@ _In North India, for progeny_
 
 
 ---
-## kAlASTamI
+## Kālāṣṭamī
 कालाष्टमी is observed on Kṛṣṇa-Aṣṭamī tithi of Āśvayuja (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
@@ -25,7 +25,7 @@ _In North India, for progeny_
 
 
 ---
-## jIvaputrikASTamI
+## Jīvaputrikāṣṭamī
 जीवपुत्रिकाष्टमी is observed on Kṛṣṇa-Aṣṭamī tithi of Āśvayuja (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
@@ -34,7 +34,7 @@ _In North India, for progeny_
 
 
 ---
-## mahAlakSmI-vratam
+## Mahālakṣmī-Vratam
 महालक्ष्मी-व्रतम् is observed on Kṛṣṇa-Aṣṭamī tithi of Āśvayuja (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 

@@ -1,16 +1,16 @@
-## kAmadA-EkAdazI
+## Kāmadā-Ekādaśī
 _The Shukla-paksha Ekadashi of चैत्र month is known as कामदा-एकादशी._
 
 ---
-## mOhinI-EkAdazI
+## Mohinī-Ekādaśī
 _The Shukla-paksha Ekadashi of वैशाख month is known as मोहिनी-एकादशी._
 
 ---
-## pANDava-nirjalA-EkAdazI
+## Pāṇḍava-Nirjalā-Ekādaśī
 _The Shukla-paksha Ekadashi of ज्यैष्ठ month is known as निर्जला-एकादशी._
 
 ---
-## zayana-EkAdazI
+## Śayana-Ekādaśī
 _The Shukla-paksha Ekadashi of आषाढ month is known as शयन-एकादशी. Lord Vishnu goes to sleep for four months beginning today._
 
 ```
@@ -22,11 +22,11 @@ _The Shukla-paksha Ekadashi of आषाढ month is known as शयन-एक�
 ```
 
 ---
-## pavitrOpAna-EkAdazI
+## Pavitropāna-Ekādaśī
 _The Shukla-paksha Ekadashi of श्रवण month is known as पवित्रोपान-एकादशी._
 
 ---
-## parivartinI-EkAdazI
+## Parivartinī-Ekādaśī
 _The Shukla-paksha Ekadashi of भाद्रपद month is known as परिवर्तिनी-एकादशी. Sideways turn inside sleep of Lord Vishnu midway after Shayana Ekadashi._
 
 ```
@@ -35,91 +35,91 @@ _The Shukla-paksha Ekadashi of भाद्रपद month is known as परि
 ```
 
 ---
-## pApAGkuzA-EkAdazI
+## Pāpāṅkuśā-Ekādaśī
 _The Shukla-paksha Ekadashi of आश्वयुज month is known as पापाङ्कुशा-एकादशी._
 
 ---
-## utthAna-EkAdazI
+## Utthāna-Ekādaśī
 _The Shukla-paksha Ekadashi of कार्तिक month is known as उत्थान-एकादशी._
 
 ---
-## mOkSadA-EkAdazI
+## Mokṣadā-Ekādaśī
 _The Shukla-paksha Ekadashi of मार्गशीर्ष month is known as मोक्षदा-एकादशी._
 
 ---
-## putradA-EkAdazI
+## Putradā-Ekādaśī
 _The Shukla-paksha Ekadashi of पौष month is known as पुत्रदा-एकादशी._
 
 ---
-## jayA/bhaimI-EkAdazI
+## Jayā/Bhaimī-Ekādaśī
 _The Jaya-paksha Ekadashi of माघ month is known as भैमी-एकादशी._
 
 ---
-## AmalakI-EkAdazI
+## Āmalakī-Ekādaśī
 _The Shukla-paksha Ekadashi of फाल्गुन month is known as आमलकी-एकादशी._
 
 ---
-## padminI-EkAdazI
+## Padminī-Ekādaśī
 _The Shukla-paksha Ekadashi of अधिक month is known as पद्मिनी-एकादशी._
 
 ---
-## vaikuNTha-EkAdazI
+## Vaikuṇṭha-Ekādaśī
 _The Shukla-paksha Ekadashi of धनुर्मास is known as वैकुण्ठ-एकादशी._
 
 ---
-## kaizika-EkAdazI
+## Kaiśika-Ekādaśī
 _The Shukla-paksha Ekadashi of वृश्चिकमास is also celebrated as कैशिक-एकादशी. Kaisika Puranam, consisting of 82 shlokas describes the story of நம்பாடுவாந் and a राक्षस who attained mukti by नामसङ्कीर्तनम् and the fruits of நம்பாடுவாந்'s नामसङ्कीर्तनम्, respectively!_
 
 ---
-## varUthinI-EkAdazI
+## Varūthinī-Ekādaśī
 _The Krishna-paksha Ekadashi of चैत्र month is known as वरूथिनी-एकादशी._
 
 ---
-## aparA-EkAdazI
+## Aparā-Ekādaśī
 _The Krishna-paksha Ekadashi of वैशाख month is known as अपरा-एकादशी._
 
 ---
-## yOginI-EkAdazI
+## Yoginī-Ekādaśī
 _The Krishna-paksha Ekadashi of ज्यैष्ठ month is known as योगिनी-एकादशी._
 
 ---
-## kAmikA-EkAdazI
+## Kāmikā-Ekādaśī
 _The Krishna-paksha Ekadashi of आषाढ month is known as कामिका-एकादशी._
 
 ---
-## ajA-EkAdazI
+## Ajā-Ekādaśī
 _The Krishna-paksha Ekadashi of श्रवण month is known as अजा-एकादशी. Satya Harishchandra performed this to get back family and kingdom._
 
 ---
-## indirA-EkAdazI
+## Indirā-Ekādaśī
 _The Krishna-paksha Ekadashi of भाद्रपद month is known as इन्दिरा-एकादशी. Indrasena's son did Ekadashi and as a result he was shifted from hell to heaven._
 
 ---
-## ramA-EkAdazI
+## Ramā-Ekādaśī
 _The Krishna-paksha Ekadashi of आश्वयुज month is known as रमा-एकादशी._
 
 ---
-## utpannA-EkAdazI
+## Utpannā-Ekādaśī
 _The Krishna-paksha Ekadashi of कार्तिक month is known as उत्पन्ना-एकादशी._
 
 ---
-## saphalA-EkAdazI
+## Saphalā-Ekādaśī
 _The Krishna-paksha Ekadashi of मार्गशीर्ष month is known as सफला-एकादशी._
 
 ---
-## SaTtilA-EkAdazI
+## Ṣaṭtilā-Ekādaśī
 _The Krishna-paksha Ekadashi of पौष month is known as षट्तिला-एकादशी._
 
 ---
-## vijayA-EkAdazI
+## Vijayā-Ekādaśī
 _The Krishna-paksha Ekadashi of माघ month is known as विजया-एकादशी._
 
 ---
-## pApamOcanI-EkAdazI
+## Pāpamochanī-Ekādaśī
 _The Krishna-paksha Ekadashi of फाल्गुन month is known as पापमोचनी-एकादशी._
 
 ---
-## paramA-EkAdazI
+## Paramā-Ekādaśī
 _The Krishna-paksha Ekadashi of अधिक month is known as परमा-एकादशी._
 
 ---

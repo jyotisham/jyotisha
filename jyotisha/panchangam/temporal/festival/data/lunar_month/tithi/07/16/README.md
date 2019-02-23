@@ -1,10 +1,10 @@
-## saptama-aparapakSa-ArambhaH
+## Saptama-Aparapakṣa-Ārambhaḥ
 सप्तम-अपरपक्ष-आरम्भः is observed on Kṛṣṇa-Prathamā tithi of Āśvayuja (lunar) month (madhyaahna/puurvaviddha).
 
 
 
 ---
-## jayAvApti-vratam
+## Jayāvāpti-Vratam
 जयावाप्ति-व्रतम् is observed on Kṛṣṇa-Prathamā tithi of Āśvayuja (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 

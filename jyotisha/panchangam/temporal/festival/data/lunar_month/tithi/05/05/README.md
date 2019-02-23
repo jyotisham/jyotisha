@@ -1,4 +1,4 @@
-## garuDa-paJcamI
+## Garuḍa-Pañchamī
 गरुड-पञ्चमी is observed on Śukla-Pañcamī tithi of Śravaṇa (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 _
@@ -6,7 +6,7 @@ _
 * Day Garuda and Takshaka fought and compromise was struck with Takshaka as garland in Garuda's neck (peace treaty :) _
 
 ---
-## nAga-paJcamI
+## Nāga-Pañchamī
 नाग-पञ्चमी is observed on Śukla-Pañcamī tithi of Śravaṇa (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 _Naga Panchami; SarpaPooja (manasaDevi); Vishnu's boon to AdiSesha that humans will worship on this day_

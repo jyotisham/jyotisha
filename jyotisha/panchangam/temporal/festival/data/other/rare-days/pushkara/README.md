@@ -1,4 +1,4 @@
-## gaGgA-Adi-puSkara-ArambhaH
+## Gaṅgā-Ādi-Puṣkara-Ārambhaḥ
 _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (आदि पुष्करम्) and at the end of the year (preceding transition to the next राशी, अन्त्य पुष्करम्), and for two muhurtas during mid-day, every day, during the entire year.
  Following the transition of Guru to मेष राशी, पुष्करराज resides in गङ्गा river._
 
@@ -11,7 +11,7 @@ _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, alon
 ```
 
 ---
-## gaGgA-antya-puSkara-ArambhaH
+## Gaṅgā-Antya-Puṣkara-Ārambhaḥ
 _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (आदि पुष्करम्) and at the end of the year (preceding transition to the next राशी, अन्त्य पुष्करम्), and for two muhurtas during mid-day, every day, during the entire year.
  Following the transition of Guru to मेष राशी, पुष्करराज resides in गङ्गा river._
 
@@ -24,7 +24,7 @@ _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, alon
 ```
 
 ---
-## gaGgA-Adi-puSkara-samApanam
+## Gaṅgā-Ādi-Puṣkara-Samāpanam
 _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (आदि पुष्करम्) and at the end of the year (preceding transition to the next राशी, अन्त्य पुष्करम्), and for two muhurtas during mid-day, every day, during the entire year.
  Following the transition of Guru to मेष राशी, पुष्करराज resides in गङ्गा river._
 
@@ -37,7 +37,7 @@ _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, alon
 ```
 
 ---
-## gaGgA-antya-puSkara-samApanam
+## Gaṅgā-Antya-Puṣkara-Samāpanam
 _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (आदि पुष्करम्) and at the end of the year (preceding transition to the next राशी, अन्त्य पुष्करम्), and for two muhurtas during mid-day, every day, during the entire year.
  Following the transition of Guru to मेष राशी, पुष्करराज resides in गङ्गा river._
 
@@ -50,7 +50,7 @@ _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, alon
 ```
 
 ---
-## narmadA-Adi-puSkara-ArambhaH
+## Narmadā-Ādi-Puṣkara-Ārambhaḥ
 _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (आदि पुष्करम्) and at the end of the year (preceding transition to the next राशी, अन्त्य पुष्करम्), and for two muhurtas during mid-day, every day, during the entire year.
  Following the transition of Guru to वृषभ राशी, पुष्करराज resides in नर्मदा river._
 
@@ -63,7 +63,7 @@ _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, alon
 ```
 
 ---
-## narmadA-antya-puSkara-ArambhaH
+## Narmadā-Antya-Puṣkara-Ārambhaḥ
 _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (आदि पुष्करम्) and at the end of the year (preceding transition to the next राशी, अन्त्य पुष्करम्), and for two muhurtas during mid-day, every day, during the entire year.
  Following the transition of Guru to वृषभ राशी, पुष्करराज resides in नर्मदा river._
 
@@ -76,7 +76,7 @@ _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, alon
 ```
 
 ---
-## narmadA-Adi-puSkara-samApanam
+## Narmadā-Ādi-Puṣkara-Samāpanam
 _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (आदि पुष्करम्) and at the end of the year (preceding transition to the next राशी, अन्त्य पुष्करम्), and for two muhurtas during mid-day, every day, during the entire year.
  Following the transition of Guru to वृषभ राशी, पुष्करराज resides in नर्मदा river._
 
@@ -89,7 +89,7 @@ _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, alon
 ```
 
 ---
-## narmadA-antya-puSkara-samApanam
+## Narmadā-Antya-Puṣkara-Samāpanam
 _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (आदि पुष्करम्) and at the end of the year (preceding transition to the next राशी, अन्त्य पुष्करम्), and for two muhurtas during mid-day, every day, during the entire year.
  Following the transition of Guru to वृषभ राशी, पुष्करराज resides in नर्मदा river._
 
@@ -102,7 +102,7 @@ _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, alon
 ```
 
 ---
-## sarasvatI-Adi-puSkara-ArambhaH
+## Sarasvatī-Ādi-Puṣkara-Ārambhaḥ
 _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (आदि पुष्करम्) and at the end of the year (preceding transition to the next राशी, अन्त्य पुष्करम्), and for two muhurtas during mid-day, every day, during the entire year.
  Following the transition of Guru to मिथुन राशी, पुष्करराज resides in सरस्वती river._
 
@@ -115,7 +115,7 @@ _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, alon
 ```
 
 ---
-## sarasvatI-antya-puSkara-ArambhaH
+## Sarasvatī-Antya-Puṣkara-Ārambhaḥ
 _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (आदि पुष्करम्) and at the end of the year (preceding transition to the next राशी, अन्त्य पुष्करम्), and for two muhurtas during mid-day, every day, during the entire year.
  Following the transition of Guru to मिथुन राशी, पुष्करराज resides in सरस्वती river._
 
@@ -128,7 +128,7 @@ _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, alon
 ```
 
 ---
-## sarasvatI-Adi-puSkara-samApanam
+## Sarasvatī-Ādi-Puṣkara-Samāpanam
 _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (आदि पुष्करम्) and at the end of the year (preceding transition to the next राशी, अन्त्य पुष्करम्), and for two muhurtas during mid-day, every day, during the entire year.
  Following the transition of Guru to मिथुन राशी, पुष्करराज resides in सरस्वती river._
 
@@ -141,7 +141,7 @@ _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, alon
 ```
 
 ---
-## sarasvatI-antya-puSkara-samApanam
+## Sarasvatī-Antya-Puṣkara-Samāpanam
 _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (आदि पुष्करम्) and at the end of the year (preceding transition to the next राशी, अन्त्य पुष्करम्), and for two muhurtas during mid-day, every day, during the entire year.
  Following the transition of Guru to मिथुन राशी, पुष्करराज resides in सरस्वती river._
 
@@ -154,7 +154,7 @@ _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, alon
 ```
 
 ---
-## yamunA-Adi-puSkara-ArambhaH
+## Yamunā-Ādi-Puṣkara-Ārambhaḥ
 _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (आदि पुष्करम्) and at the end of the year (preceding transition to the next राशी, अन्त्य पुष्करम्), and for two muhurtas during mid-day, every day, during the entire year.
  Following the transition of Guru to कटक राशी, पुष्करराज resides in यमुना river._
 
@@ -167,7 +167,7 @@ _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, alon
 ```
 
 ---
-## yamunA-antya-puSkara-ArambhaH
+## Yamunā-Antya-Puṣkara-Ārambhaḥ
 _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (आदि पुष्करम्) and at the end of the year (preceding transition to the next राशी, अन्त्य पुष्करम्), and for two muhurtas during mid-day, every day, during the entire year.
  Following the transition of Guru to कटक राशी, पुष्करराज resides in यमुना river._
 
@@ -180,7 +180,7 @@ _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, alon
 ```
 
 ---
-## yamunA-Adi-puSkara-samApanam
+## Yamunā-Ādi-Puṣkara-Samāpanam
 _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (आदि पुष्करम्) and at the end of the year (preceding transition to the next राशी, अन्त्य पुष्करम्), and for two muhurtas during mid-day, every day, during the entire year.
  Following the transition of Guru to कटक राशी, पुष्करराज resides in यमुना river._
 
@@ -193,7 +193,7 @@ _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, alon
 ```
 
 ---
-## yamunA-antya-puSkara-samApanam
+## Yamunā-Antya-Puṣkara-Samāpanam
 _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (आदि पुष्करम्) and at the end of the year (preceding transition to the next राशी, अन्त्य पुष्करम्), and for two muhurtas during mid-day, every day, during the entire year.
  Following the transition of Guru to कटक राशी, पुष्करराज resides in यमुना river._
 
@@ -206,7 +206,7 @@ _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, alon
 ```
 
 ---
-## gOdAvarI-Adi-puSkara-ArambhaH
+## Godāvarī-Ādi-Puṣkara-Ārambhaḥ
 _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (आदि पुष्करम्) and at the end of the year (preceding transition to the next राशी, अन्त्य पुष्करम्), and for two muhurtas during mid-day, every day, during the entire year.
  Following the transition of Guru to सिंह राशी, पुष्करराज resides in गोदावरी river._
 
@@ -219,7 +219,7 @@ _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, alon
 ```
 
 ---
-## gOdAvarI-antya-puSkara-ArambhaH
+## Godāvarī-Antya-Puṣkara-Ārambhaḥ
 _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (आदि पुष्करम्) and at the end of the year (preceding transition to the next राशी, अन्त्य पुष्करम्), and for two muhurtas during mid-day, every day, during the entire year.
  Following the transition of Guru to सिंह राशी, पुष्करराज resides in गोदावरी river._
 
@@ -232,7 +232,7 @@ _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, alon
 ```
 
 ---
-## gOdAvarI-Adi-puSkara-samApanam
+## Godāvarī-Ādi-Puṣkara-Samāpanam
 _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (आदि पुष्करम्) and at the end of the year (preceding transition to the next राशी, अन्त्य पुष्करम्), and for two muhurtas during mid-day, every day, during the entire year.
  Following the transition of Guru to सिंह राशी, पुष्करराज resides in गोदावरी river._
 
@@ -245,7 +245,7 @@ _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, alon
 ```
 
 ---
-## gOdAvarI-antya-puSkara-samApanam
+## Godāvarī-Antya-Puṣkara-Samāpanam
 _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (आदि पुष्करम्) and at the end of the year (preceding transition to the next राशी, अन्त्य पुष्करम्), and for two muhurtas during mid-day, every day, during the entire year.
  Following the transition of Guru to सिंह राशी, पुष्करराज resides in गोदावरी river._
 
@@ -258,7 +258,7 @@ _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, alon
 ```
 
 ---
-## kRSNA-Adi-puSkara-ArambhaH
+## Kṛṣṇā-Ādi-Puṣkara-Ārambhaḥ
 _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (आदि पुष्करम्) and at the end of the year (preceding transition to the next राशी, अन्त्य पुष्करम्), and for two muhurtas during mid-day, every day, during the entire year.
  Following the transition of Guru to कन्या राशी, पुष्करराज resides in कृष्णा river._
 
@@ -271,7 +271,7 @@ _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, alon
 ```
 
 ---
-## kRSNA-antya-puSkara-ArambhaH
+## Kṛṣṇā-Antya-Puṣkara-Ārambhaḥ
 _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (आदि पुष्करम्) and at the end of the year (preceding transition to the next राशी, अन्त्य पुष्करम्), and for two muhurtas during mid-day, every day, during the entire year.
  Following the transition of Guru to कन्या राशी, पुष्करराज resides in कृष्णा river._
 
@@ -284,7 +284,7 @@ _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, alon
 ```
 
 ---
-## kRSNA-Adi-puSkara-samApanam
+## Kṛṣṇā-Ādi-Puṣkara-Samāpanam
 _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (आदि पुष्करम्) and at the end of the year (preceding transition to the next राशी, अन्त्य पुष्करम्), and for two muhurtas during mid-day, every day, during the entire year.
  Following the transition of Guru to कन्या राशी, पुष्करराज resides in कृष्णा river._
 
@@ -297,7 +297,7 @@ _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, alon
 ```
 
 ---
-## kRSNA-antya-puSkara-samApanam
+## Kṛṣṇā-Antya-Puṣkara-Samāpanam
 _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (आदि पुष्करम्) and at the end of the year (preceding transition to the next राशी, अन्त्य पुष्करम्), and for two muhurtas during mid-day, every day, during the entire year.
  Following the transition of Guru to कन्या राशी, पुष्करराज resides in कृष्णा river._
 
@@ -310,7 +310,7 @@ _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, alon
 ```
 
 ---
-## kAvErI-Adi-puSkara-ArambhaH
+## Kāverī-Ādi-Puṣkara-Ārambhaḥ
 _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (आदि पुष्करम्) and at the end of the year (preceding transition to the next राशी, अन्त्य पुष्करम्), and for two muhurtas during mid-day, every day, during the entire year.
  Following the transition of Guru to तुला राशी, पुष्करराज resides in कावेरी river._
 
@@ -323,7 +323,7 @@ _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, alon
 ```
 
 ---
-## kAvErI-antya-puSkara-ArambhaH
+## Kāverī-Antya-Puṣkara-Ārambhaḥ
 _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (आदि पुष्करम्) and at the end of the year (preceding transition to the next राशी, अन्त्य पुष्करम्), and for two muhurtas during mid-day, every day, during the entire year.
  Following the transition of Guru to तुला राशी, पुष्करराज resides in कावेरी river._
 
@@ -336,7 +336,7 @@ _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, alon
 ```
 
 ---
-## kAvErI-Adi-puSkara-samApanam
+## Kāverī-Ādi-Puṣkara-Samāpanam
 _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (आदि पुष्करम्) and at the end of the year (preceding transition to the next राशी, अन्त्य पुष्करम्), and for two muhurtas during mid-day, every day, during the entire year.
  Following the transition of Guru to तुला राशी, पुष्करराज resides in कावेरी river._
 
@@ -349,7 +349,7 @@ _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, alon
 ```
 
 ---
-## kAvErI-antya-puSkara-samApanam
+## Kāverī-Antya-Puṣkara-Samāpanam
 _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (आदि पुष्करम्) and at the end of the year (preceding transition to the next राशी, अन्त्य पुष्करम्), and for two muhurtas during mid-day, every day, during the entire year.
  Following the transition of Guru to तुला राशी, पुष्करराज resides in कावेरी river._
 
@@ -362,7 +362,7 @@ _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, alon
 ```
 
 ---
-## tAmraparNI-Adi-puSkara-ArambhaH
+## Tāmraparṇī-Ādi-Puṣkara-Ārambhaḥ
 _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (आदि पुष्करम्) and at the end of the year (preceding transition to the next राशी, अन्त्य पुष्करम्), and for two muhurtas during mid-day, every day, during the entire year.
  Following the transition of Guru to वृश्चिक राशी, पुष्करराज resides in ताम्रपर्णी river._
 
@@ -375,7 +375,7 @@ _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, alon
 ```
 
 ---
-## tAmraparNI-antya-puSkara-ArambhaH
+## Tāmraparṇī-Antya-Puṣkara-Ārambhaḥ
 _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (आदि पुष्करम्) and at the end of the year (preceding transition to the next राशी, अन्त्य पुष्करम्), and for two muhurtas during mid-day, every day, during the entire year.
  Following the transition of Guru to वृश्चिक राशी, पुष्करराज resides in ताम्रपर्णी river._
 
@@ -388,7 +388,7 @@ _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, alon
 ```
 
 ---
-## tAmraparNI-Adi-puSkara-samApanam
+## Tāmraparṇī-Ādi-Puṣkara-Samāpanam
 _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (आदि पुष्करम्) and at the end of the year (preceding transition to the next राशी, अन्त्य पुष्करम्), and for two muhurtas during mid-day, every day, during the entire year.
  Following the transition of Guru to वृश्चिक राशी, पुष्करराज resides in ताम्रपर्णी river._
 
@@ -401,7 +401,7 @@ _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, alon
 ```
 
 ---
-## tAmraparNI-antya-puSkara-samApanam
+## Tāmraparṇī-Antya-Puṣkara-Samāpanam
 _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (आदि पुष्करम्) and at the end of the year (preceding transition to the next राशी, अन्त्य पुष्करम्), and for two muhurtas during mid-day, every day, during the entire year.
  Following the transition of Guru to वृश्चिक राशी, पुष्करराज resides in ताम्रपर्णी river._
 
@@ -414,7 +414,7 @@ _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, alon
 ```
 
 ---
-## sindhu-Adi-puSkara-ArambhaH
+## Sindhu-Ādi-Puṣkara-Ārambhaḥ
 _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (आदि पुष्करम्) and at the end of the year (preceding transition to the next राशी, अन्त्य पुष्करम्), and for two muhurtas during mid-day, every day, during the entire year.
  Following the transition of Guru to धनुः राशी, पुष्करराज resides in सिन्धु river._
 
@@ -427,7 +427,7 @@ _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, alon
 ```
 
 ---
-## sindhu-antya-puSkara-ArambhaH
+## Sindhu-Antya-Puṣkara-Ārambhaḥ
 _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (आदि पुष्करम्) and at the end of the year (preceding transition to the next राशी, अन्त्य पुष्करम्), and for two muhurtas during mid-day, every day, during the entire year.
  Following the transition of Guru to धनुः राशी, पुष्करराज resides in सिन्धु river._
 
@@ -440,7 +440,7 @@ _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, alon
 ```
 
 ---
-## sindhu-Adi-puSkara-samApanam
+## Sindhu-Ādi-Puṣkara-Samāpanam
 _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (आदि पुष्करम्) and at the end of the year (preceding transition to the next राशी, अन्त्य पुष्करम्), and for two muhurtas during mid-day, every day, during the entire year.
  Following the transition of Guru to धनुः राशी, पुष्करराज resides in सिन्धु river._
 
@@ -453,7 +453,7 @@ _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, alon
 ```
 
 ---
-## sindhu-antya-puSkara-samApanam
+## Sindhu-Antya-Puṣkara-Samāpanam
 _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (आदि पुष्करम्) and at the end of the year (preceding transition to the next राशी, अन्त्य पुष्करम्), and for two muhurtas during mid-day, every day, during the entire year.
  Following the transition of Guru to धनुः राशी, पुष्करराज resides in सिन्धु river._
 
@@ -466,7 +466,7 @@ _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, alon
 ```
 
 ---
-## bhadrA-Adi-puSkara-ArambhaH
+## Bhadrā-Ādi-Puṣkara-Ārambhaḥ
 _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (आदि पुष्करम्) and at the end of the year (preceding transition to the next राशी, अन्त्य पुष्करम्), and for two muhurtas during mid-day, every day, during the entire year.
  Following the transition of Guru to मकर राशी, पुष्करराज resides in भद्रा river._
 
@@ -479,7 +479,7 @@ _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, alon
 ```
 
 ---
-## bhadrA-antya-puSkara-ArambhaH
+## Bhadrā-Antya-Puṣkara-Ārambhaḥ
 _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (आदि पुष्करम्) and at the end of the year (preceding transition to the next राशी, अन्त्य पुष्करम्), and for two muhurtas during mid-day, every day, during the entire year.
  Following the transition of Guru to मकर राशी, पुष्करराज resides in भद्रा river._
 
@@ -492,7 +492,7 @@ _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, alon
 ```
 
 ---
-## bhadrA-Adi-puSkara-samApanam
+## Bhadrā-Ādi-Puṣkara-Samāpanam
 _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (आदि पुष्करम्) and at the end of the year (preceding transition to the next राशी, अन्त्य पुष्करम्), and for two muhurtas during mid-day, every day, during the entire year.
  Following the transition of Guru to मकर राशी, पुष्करराज resides in भद्रा river._
 
@@ -505,7 +505,7 @@ _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, alon
 ```
 
 ---
-## bhadrA-antya-puSkara-samApanam
+## Bhadrā-Antya-Puṣkara-Samāpanam
 _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (आदि पुष्करम्) and at the end of the year (preceding transition to the next राशी, अन्त्य पुष्करम्), and for two muhurtas during mid-day, every day, during the entire year.
  Following the transition of Guru to मकर राशी, पुष्करराज resides in भद्रा river._
 
@@ -518,7 +518,7 @@ _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, alon
 ```
 
 ---
-## bhImarathI-Adi-puSkara-ArambhaH
+## Bhīmarathī-Ādi-Puṣkara-Ārambhaḥ
 _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (आदि पुष्करम्) and at the end of the year (preceding transition to the next राशी, अन्त्य पुष्करम्), and for two muhurtas during mid-day, every day, during the entire year.
  Following the transition of Guru to कुम्भ राशी, पुष्करराज resides in भीमरथी river._
 
@@ -531,7 +531,7 @@ _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, alon
 ```
 
 ---
-## bhImarathI-antya-puSkara-ArambhaH
+## Bhīmarathī-Antya-Puṣkara-Ārambhaḥ
 _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (आदि पुष्करम्) and at the end of the year (preceding transition to the next राशी, अन्त्य पुष्करम्), and for two muhurtas during mid-day, every day, during the entire year.
  Following the transition of Guru to कुम्भ राशी, पुष्करराज resides in भीमरथी river._
 
@@ -544,7 +544,7 @@ _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, alon
 ```
 
 ---
-## bhImarathI-Adi-puSkara-samApanam
+## Bhīmarathī-Ādi-Puṣkara-Samāpanam
 _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (आदि पुष्करम्) and at the end of the year (preceding transition to the next राशी, अन्त्य पुष्करम्), and for two muhurtas during mid-day, every day, during the entire year.
  Following the transition of Guru to कुम्भ राशी, पुष्करराज resides in भीमरथी river._
 
@@ -557,7 +557,7 @@ _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, alon
 ```
 
 ---
-## bhImarathI-antya-puSkara-samApanam
+## Bhīmarathī-Antya-Puṣkara-Samāpanam
 _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (आदि पुष्करम्) and at the end of the year (preceding transition to the next राशी, अन्त्य पुष्करम्), and for two muhurtas during mid-day, every day, during the entire year.
  Following the transition of Guru to कुम्भ राशी, पुष्करराज resides in भीमरथी river._
 
@@ -570,7 +570,7 @@ _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, alon
 ```
 
 ---
-## prANahitA-Adi-puSkara-ArambhaH
+## Prāṇahitā-Ādi-Puṣkara-Ārambhaḥ
 _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (आदि पुष्करम्) and at the end of the year (preceding transition to the next राशी, अन्त्य पुष्करम्), and for two muhurtas during mid-day, every day, during the entire year.
  Following the transition of Guru to मीन राशी, पुष्करराज resides in प्राणहिता river._
 
@@ -583,7 +583,7 @@ _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, alon
 ```
 
 ---
-## prANahitA-antya-puSkara-ArambhaH
+## Prāṇahitā-Antya-Puṣkara-Ārambhaḥ
 _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (आदि पुष्करम्) and at the end of the year (preceding transition to the next राशी, अन्त्य पुष्करम्), and for two muhurtas during mid-day, every day, during the entire year.
  Following the transition of Guru to मीन राशी, पुष्करराज resides in प्राणहिता river._
 
@@ -596,7 +596,7 @@ _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, alon
 ```
 
 ---
-## prANahitA-Adi-puSkara-samApanam
+## Prāṇahitā-Ādi-Puṣkara-Samāpanam
 _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (आदि पुष्करम्) and at the end of the year (preceding transition to the next राशी, अन्त्य पुष्करम्), and for two muhurtas during mid-day, every day, during the entire year.
  Following the transition of Guru to मीन राशी, पुष्करराज resides in प्राणहिता river._
 
@@ -609,7 +609,7 @@ _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, alon
 ```
 
 ---
-## prANahitA-antya-puSkara-samApanam
+## Prāṇahitā-Antya-Puṣkara-Samāpanam
 _Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along with 3.5 crore tirthas, following the Sankranti of Guru, for twelve days at the beginning of the Sankranti (आदि पुष्करम्) and at the end of the year (preceding transition to the next राशी, अन्त्य पुष्करम्), and for two muhurtas during mid-day, every day, during the entire year.
  Following the transition of Guru to मीन राशी, पुष्करराज resides in प्राणहिता river._
 

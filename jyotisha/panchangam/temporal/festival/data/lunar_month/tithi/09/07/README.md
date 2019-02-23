@@ -1,4 +1,4 @@
-## kAJcI 5 jagadguru zrI jJAnAnandEndra sarasvatI ArAdhanA
+## Kāñchī 5 Jagadguru Śrī Jñānānandendra Sarasvatī Ārādhanā
 काञ्ची ५ जगद्गुरु श्री ज्ञानानन्देन्द्र सरस्वती आराधना is observed on Śukla-Saptamī tithi of Mārgaśīrṣa (lunar) month (madhyaahna/puurvaviddha).
 
 _Born of a brahmin called Nāgeśa in the village called Maṅgala of the Chola country, the erudite saint well-known as Śrī Jñānottama, foremost among logicians, having adorned the Pīṭha of preceptors for sixty-three years, attained salvation/siddhi on the seventh day of the bright fortnight in the month of Mārgaśīrṣa of the year Manmatha._
@@ -13,7 +13,7 @@ _Born of a brahmin called Nāgeśa in the village called Maṅgala of the Chola 
 
 
 ---
-## mitra-saptamI
+## Mitra-Saptamī
 मित्र-सप्तमी is observed on Śukla-Saptamī tithi of Mārgaśīrṣa (lunar) month (madhyaahna/puurvaviddha).
 
 _Birth of Surya to Aditya-Kashyapa on this day._
@@ -24,7 +24,7 @@ _Birth of Surya to Aditya-Kashyapa on this day._
 ```
 
 ---
-## nandA-saptamI 1
+## Nandā-Saptamī
 नन्दा-सप्तमी is observed on Śukla-Saptamī tithi of Mārgaśīrṣa (lunar) month (madhyaahna/puurvaviddha).
 
 

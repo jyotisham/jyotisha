@@ -1,28 +1,28 @@
-## manvAdi (cAkSuSa) 1
+## Manvādi (Chākṣuṣa)
 मन्वादि (चाक्षुष) is observed on Śukla-Daśamī tithi of Āṣāḍha (lunar) month (sunset/puurvaviddha).
 
 
 
 ---
-## manvAdi (vaivasvata)
+## Manvādi (Vaivasvata)
 मन्वादि (वैवस्वत) is observed on Śukla-Daśamī tithi of Āṣāḍha (lunar) month (sunset/puurvaviddha).
 
 
 
 ---
-## zAka-vratam (mahAlakSmI)
+## Śāka-Vratam (Mahālakṣmī)
 शाक-व्रतम् (महालक्ष्मी) is observed on Śukla-Daśamī tithi of Āṣāḍha (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 _Do danam of leafy vegetables (but do not consume, on this day)_
 
 ---
-## dadhi-vratam (mahAlakSmI)
+## Dadhi-Vratam (Mahālakṣmī)
 दधि-व्रतम् (महालक्ष्मी) is observed on Śukla-Daśamī tithi of Āṣāḍha (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 _Do danam of curd (but do not consume, on this day)_
 
 ---
-## zAkavrata-ArambhaH
+## Śākavrata-Ārambhaḥ
 शाकव्रत-आरम्भः is observed on Śukla-Daśamī tithi of Āṣāḍha (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
@@ -33,13 +33,13 @@ _Do danam of curd (but do not consume, on this day)_
 ```
 
 ---
-## cAturmAsyavrata-ArambhaH
+## Chāturmāsyavrata-Ārambhaḥ
 चातुर्मास्यव्रत-आरम्भः is observed on Śukla-Daśamī tithi of Āṣāḍha (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 _Chaaturmasya begins; 4 months; Pradakshina to Pippala; Deeparadhana in temple; Saraswati Pooja; 1st month no vegetables; 2nd month no curds; 3rd month no milk; 4th month no dals;_
 
 ---
-## kAJcI 48 jagadguru zrI advaitAnandabOdhEndra sarasvatI ArAdhanA
+## Kāñchī 48 Jagadguru Śrī Advaitānandabodhendra Sarasvatī Ārādhanā
 काञ्ची ४८ जगद्गुरु श्री अद्वैतानन्दबोधेन्द्र सरस्वती आराधना is observed on Śukla-Daśamī tithi of Āṣāḍha (lunar) month (madhyaahna/puurvaviddha).
 
 
@@ -48,7 +48,7 @@ _Chaaturmasya begins; 4 months; Pradakshina to Pippala; Deeparadhana in temple; 
 
 
 ---
-## AzA dazamI
+## Āśā Daśamī
 आशा दशमी is observed on Śukla-Daśamī tithi of Āṣāḍha (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 _Puja of आशा देवी (पार्वती)_

@@ -1,4 +1,4 @@
-## gOpadma-vrata-samApanam
+## Gopadma-Vrata-Samāpanam
 गोपद्म-व्रत-समापनम् is observed on Śukla-Dvādaśī tithi of Kārtika (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
@@ -7,7 +7,7 @@
 
 
 ---
-## dvidala-vrata-samApanam
+## Dvidala-Vrata-Samāpanam
 द्विदल-व्रत-समापनम् is observed on Śukla-Dvādaśī tithi of Kārtika (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
@@ -20,13 +20,13 @@
 ```
 
 ---
-## tulasI-vivAhaH
+## Tulasī-Vivāhaḥ
 तुलसी-विवाहः is observed on Śukla-Dvādaśī tithi of Kārtika (lunar) month (madhyaahna/puurvaviddha).
 
 
 
 ---
-## yAjJavalkya jayantI
+## Yājñavalkya Jayantī
 याज्ञवल्क्य जयन्ती is observed on Śukla-Dvādaśī tithi of Kārtika (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 _Avataram of Yajnavalkya Maharshi happened in kArtika shulka dwadashi in Shatabhishak Nakshatram/Dhanurlagnam._
@@ -43,19 +43,19 @@ _Avataram of Yajnavalkya Maharshi happened in kArtika shulka dwadashi in Shatabh
 
 
 ---
-## bRndAvana-dvAdazI
+## Bṛndāvana-Dvādaśī
 बृन्दावन-द्वादशी is observed on Śukla-Dvādaśī tithi of Kārtika (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 
 ---
-## prabOdhOtsavaH
+## Prabodhotsavaḥ
 प्रबोधोत्सवः is observed on Śukla-Dvādaśī tithi of Kārtika (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 
 ---
-## manvAdi (svArOciSa) 2
+## Manvādi (Svārochiṣa)
 मन्वादि (स्वारोचिष) is observed on Śukla-Dvādaśī tithi of Kārtika (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 

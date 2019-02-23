@@ -1,16 +1,16 @@
-## ADik kiruttikai
+## Āḍik Kiruttikai
 ஆடிக் கிருத்திகை is observed on Kṛttikā nakṣhatram day of Kaṭaka (solar) month (sunrise (default)/puurvaviddha (default)).
 
 _Special puja for Subrahmanya Swami in temples._
 
 ---
-## pugazhccOzha nAyan2Ar gurupUjai
+## Pugaḷchchoḷa Nāyanār Gurupūjai
 புகழ்ச்சோழ நாயனார் குருபூஜை is observed on Kṛttikā nakṣhatram day of Kaṭaka (solar) month (sunrise (default)/puurvaviddha (default)).
 
 
 
 ---
-## mUrtti nAyan2Ar gurupUjai
+## Mūrtti Nāyanār Gurupūjai
 மூர்த்தி நாயனார் குருபூஜை is observed on Kṛttikā nakṣhatram day of Kaṭaka (solar) month (sunrise (default)/puurvaviddha (default)).
 
 

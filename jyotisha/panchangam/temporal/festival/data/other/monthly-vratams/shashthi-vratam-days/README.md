@@ -1,8 +1,8 @@
-## SaSThI-vratam
+## Ṣaṣṭhī-Vratam
 _Monthly Shashthi vratam for Lord Subrahmanya._
 
 ---
-## kumAra-SaSThI-vratam
+## Kumāra-Ṣaṣṭhī-Vratam
 _उपवासम् with only water and next day पारण gives आरोग्यम्_
 
 ```
@@ -11,7 +11,7 @@ _उपवासम् with only water and next day पारण gives आरो
 ```
 
 ---
-## SaSThIdEvI-SaSThI-vratam
+## Ṣaṣṭhīdevī-Ṣaṣṭhī-Vratam
 _Skanda darshanam is recommended, removes sins including brahmahatya._
 
 ```
@@ -20,7 +20,7 @@ _Skanda darshanam is recommended, removes sins including brahmahatya._
 ```
 
 ---
-## skandaSaSThI-vratam
+## Skandaṣaṣṭhī-Vratam
 _One of the most important vratams, alongside Krishnajanmashtami, Shivaratri etc. Must observe fast. Offer Arghyam facing South, using Curd, Akshata, Water and Flowers (दध्नाक्षतोदकैः पुष्पैः) chanting the shloka below._
 
 ```
@@ -32,7 +32,7 @@ _One of the most important vratams, alongside Krishnajanmashtami, Shivaratri etc
 ```
 
 ---
-## subrahmaNya-SaSThI-vratam
+## Subrahmaṇya-Ṣaṣṭhī-Vratam
 _Also known as चम्पा/चम्पक षष्ठी_
 
 ```

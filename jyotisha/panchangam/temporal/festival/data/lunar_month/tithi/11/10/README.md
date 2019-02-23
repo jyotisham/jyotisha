@@ -1,4 +1,4 @@
-## kAJcI 11 jagadguru zrI zivAnanda cidghanEndra sarasvatI ArAdhanA
+## Kāñchī 11 Jagadguru Śrī Śivānanda Chidghanendra Sarasvatī Ārādhanā
 काञ्ची ११ जगद्गुरु श्री शिवानन्द चिद्घनेन्द्र सरस्वती आराधना is observed on Śukla-Daśamī tithi of Māgha (lunar) month (madhyaahna/puurvaviddha).
 
 
@@ -7,7 +7,7 @@
 
 
 ---
-## sAmba-dazamI (sUryapUjA)
+## Sāmba-Daśamī (Sūryapūjā)
 साम्ब-दशमी (सूर्यपूजा) is observed on Śukla-Daśamī tithi of Māgha (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 _साम्ब, the son of Sri Krishna, was cured of leprosy after performing तपः to propitiate Surya Bhagavan._

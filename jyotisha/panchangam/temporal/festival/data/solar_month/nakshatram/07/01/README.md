@@ -1,4 +1,4 @@
-## tirumUla nAyan2Ar gurupUjai
+## Tirumūla Nāyanār Gurupūjai
 திருமூல நாயனார் குருபூஜை is observed on Aśvinī nakṣhatram day of Tulā (solar) month (sunrise (default)/puurvaviddha (default)).
 
 

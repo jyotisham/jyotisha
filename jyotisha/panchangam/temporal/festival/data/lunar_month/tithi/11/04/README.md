@@ -1,4 +1,4 @@
-## varakunda-caturthI
+## Varakunda-Chaturthī
 वरकुन्द-चतुर्थी is observed on Śukla-Caturthī tithi of Māgha (lunar) month (pradosha/puurvaviddha).
 
 
@@ -12,7 +12,7 @@
 
 
 ---
-## mArkaNDEya jayantI
+## Mārkaṇḍeya Jayantī
 मार्कण्डेय जयन्ती is observed on Śukla-Caturthī tithi of Māgha (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 

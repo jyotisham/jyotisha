@@ -1,4 +1,4 @@
-## vEGkaTAcalE jyESTha-abhidyEyakAbhiSEkaH (vajra-kavacam)
+## Veṅkaṭāchale Jyeṣṭha-Abhidyeyakābhiṣekaḥ (Vajra-Kavacham)
 
 
 ---

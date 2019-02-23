@@ -1,4 +1,4 @@
-## kapAlI dvajArOhaNam
+## Kapālī Dvajārohaṇam
 
 
 ---

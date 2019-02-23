@@ -1,4 +1,4 @@
-## ArudrA darican2am/naTarAjar mahAbhiSEkam
+## Ārudrā Darichanam/Naṭarājar Mahābhiṣekam
 ஆருத்ரா தரிசனம்/நடராஜர் மஹாபிஷேகம் is observed on Ārdrā nakṣhatram day of Dhanuḥ (solar) month (sunrise (default)/puurvaviddha (default)).
 
 _Visit Chidambaram to have darshan of Nataraja, or pray to Nataraja_
@@ -9,7 +9,7 @@ _Visit Chidambaram to have darshan of Nataraja, or pray to Nataraja_
 ```
 
 ---
-## caDaiya nAyan2Ar gurupUjai
+## Chaḍaiya Nāyanār Gurupūjai
 சடைய நாயனார் குருபூஜை is observed on Ārdrā nakṣhatram day of Dhanuḥ (solar) month (sunrise (default)/puurvaviddha (default)).
 
 

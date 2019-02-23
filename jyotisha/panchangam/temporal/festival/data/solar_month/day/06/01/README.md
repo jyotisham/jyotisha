@@ -1,10 +1,10 @@
-## vizvakarmA jayantI
+## Viśvakarmā Jayantī
 विश्वकर्मा जयन्ती is observed on day 1 of Kanyā (solar) month (sunrise (default)/puurvaviddha (default)).
 
 
 
 ---
-## SaDazIti-kanyAraviH
+## Ṣaḍaśīti-Kanyāraviḥ
 षडशीति-कन्यारविः is observed on day 1 of Kanyā (solar) month (sunrise (default)/puurvaviddha (default)).
 
 _Perform danam of clothes/place to live._

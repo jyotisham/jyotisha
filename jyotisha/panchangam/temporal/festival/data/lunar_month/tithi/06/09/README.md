@@ -1,4 +1,4 @@
-## mahAlakSmI-vrata-ArambhaH
+## Mahālakṣmī-Vrata-Ārambhaḥ
 महालक्ष्मी-व्रत-आरम्भः is observed on Śukla-Navamī tithi of Bhādrapada (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
@@ -7,25 +7,25 @@
 
 
 ---
-## aduHkhanavamI
+## Aduḥkhanavamī
 अदुःखनवमी is observed on Śukla-Navamī tithi of Bhādrapada (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 
 ---
-## tAlanavamI
+## Tālanavamī
 तालनवमी is observed on Śukla-Navamī tithi of Bhādrapada (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 
 ---
-## gOdhUmA navamI
+## Godhūmā Navamī
 गोधूमा नवमी is observed on Śukla-Navamī tithi of Bhādrapada (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 _Durga Puja_
 
 ---
-## nandA navamI
+## Nandā Navamī
 नन्दा नवमी is observed on Śukla-Navamī tithi of Bhādrapada (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 _Durga Puja_

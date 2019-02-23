@@ -1,4 +1,4 @@
-## cidambarE rajata bhUta vAhanam
+## Chidambare Rajata Bhūta Vāhanam
 
 
 ---

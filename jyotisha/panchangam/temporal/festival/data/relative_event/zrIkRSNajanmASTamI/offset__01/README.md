@@ -1,8 +1,8 @@
-## nandOtsavaH
+## Nandotsavaḥ
 
 
 ---
-## varagUr ur2iyaDi utsavam
+## Varagūr Ur̂Iyaḍi Utsavam
 
 
 ---

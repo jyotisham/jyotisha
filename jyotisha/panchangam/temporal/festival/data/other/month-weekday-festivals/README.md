@@ -1,31 +1,31 @@
-## AvaNi JAyir2r2ukkizhamai
+## Āvaṇi Ñāyir̂R̂Ukkiḷamai
 _Do puja to Surya/Suryanamaskaram._
 
 ---
-## kArttigai JAyir2r2ukkizhamai
+## Kārttigai Ñāyir̂R̂Ukkiḷamai
 _Do puja to Surya/Suryanamaskaram._
 
 ---
-## kRttikA sOmavAsaraH
+## Kṛttikā Somavāsaraḥ
 _Do puja to Shiva/Parvati, perform fast._
 ### References
 * Skanda Puranam
 
 
 ---
-## ADi veLLikkizhamai
+## Āḍi Vêḻḻikkiḷamai
 
 
 ---
-## tai veLLikkizhamai
+## Tai Vêḻḻikkiḷamai
 
 
 ---
-## mAci cevvAy
+## Māchi Chêvvāy
 _Do उपवासम् (at least do not take salt) and pray to Lord Shiva (Vaidyanatha Swami)._
 
 ---
-## puraTTAci can2ikkizhamai
+## Puraṭṭāchi Chanikkiḷamai
 _Perform special puja and naivedyam (e.g. तिलान्नम्) to Lord Venkateshwara._
 
 ---

@@ -1,22 +1,22 @@
-## nerUr zrI sadAziva brahmEndra ArAdhanA
+## Nêrūr Śrī Sadāśiva Brahmendra Ārādhanā
 नॆरूर् श्री सदाशिव ब्रह्मेन्द्र आराधना is observed on Śukla-Daśamī tithi of Vaiśākha (lunar) month (madhyaahna/puurvaviddha).
 
 
 
 ---
-## nimiSAmbA jayantI
+## Nimiṣāmbā Jayantī
 निमिषाम्बा जयन्ती is observed on Śukla-Daśamī tithi of Vaiśākha (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 
 ---
-## zrI vAsavI jayantI
+## Śrī Vāsavī Jayantī
 श्री वासवी जयन्ती is observed on Śukla-Daśamī tithi of Vaiśākha (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 
 ---
-## vEGkaTAcalE padmAvatI-pariNayam (azva-vAhanam)
+## Veṅkaṭāchale Padmāvatī-Pariṇayam (Aśva-Vāhanam)
 वेङ्कटाचले पद्मावती-परिणयम् (अश्व-वाहनम्) is observed on Śukla-Daśamī tithi of Vaiśākha (lunar) month (sunrise/puurvaviddha (default)).
 
 

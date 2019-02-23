@@ -1,4 +1,4 @@
-## kUr2r2uva nAyan2Ar gurupUjai
+## Kūr̂R̂Uva Nāyanār Gurupūjai
 கூற்றுவ நாயனார் குருபூஜை is observed on Ārdrā nakṣhatram day of Kaṭaka (solar) month (sunrise (default)/puurvaviddha (default)).
 
 

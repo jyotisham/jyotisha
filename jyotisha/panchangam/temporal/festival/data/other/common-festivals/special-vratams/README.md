@@ -1,4 +1,4 @@
-## varalakSmI-vratam
+## Varalakṣmī-Vratam
 
 
 ---

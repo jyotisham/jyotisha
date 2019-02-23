@@ -1,4 +1,4 @@
-## kAJcI 9 jagadguru zrI kRpAzaGkarEndra sarasvatI ArAdhanA
+## Kāñchī 9 Jagadguru Śrī Kṛpāśaṅkarendra Sarasvatī Ārādhanā
 काञ्ची ९ जगद्गुरु श्री कृपाशङ्करेन्द्र सरस्वती आराधना is observed on Kṛṣṇa-Tṛtīyā tithi of Kārtika (lunar) month (madhyaahna/puurvaviddha).
 
 _Kṛpāśaṅkara, son of Ātmasomayāji in Andhra in the lineage of Garga, with the name Gaṅgayya before initiation established six religions of worship in worshipping Śiva, Hari, Skanda and others away from Tantrik practices and establishing everywhere the non-dualism enunciated in the Vedas, drove away the notion of dualism. Kṛpāśaṅkara established Śrī Viśvarūpa at Śṛṅgeri under the directions of Śrī Kaivalya Munīndra and formulated precepts; having adorned Ācārya Pīṭha for forty-one years, he departed in the direction of Kubera, viz. North and attained siddhi at Vindhyas. The mighty omniscient (Kṛpāśaṅkara), the One without a second, attained the supreme non-dual state of the Ultimate known as parāpara which is full of Supreme Bliss on the third day of the dark fortnight in the month of Kārtika in the year Vibhava._
@@ -19,7 +19,7 @@ _Kṛpāśaṅkara, son of Ātmasomayāji in Andhra in the lineage of Garga, wit
 
 
 ---
-## saubhAgya-sundarI-vratam
+## Saubhāgya-Sundarī-Vratam
 सौभाग्य-सुन्दरी-व्रतम् is observed on Kṛṣṇa-Tṛtīyā tithi of Kārtika (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 

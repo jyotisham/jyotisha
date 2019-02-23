@@ -1,4 +1,4 @@
-## aghOra-caturdazI
+## Aghora-Chaturdaśī
 अघोर-चतुर्दशी is observed on Kṛṣṇa-Caturdaśī tithi of Śravaṇa (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 

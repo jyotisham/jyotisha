@@ -1,4 +1,4 @@
-## amaranIti nAyan2Ar gurupUjai
+## Amaranīti Nāyanār Gurupūjai
 அமரநீதி நாயனார் குருபூஜை is observed on Pūrvaphalgunī nakṣhatram day of Mithuna (solar) month (sunrise (default)/puurvaviddha (default)).
 
 

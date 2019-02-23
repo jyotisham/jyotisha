@@ -1,4 +1,4 @@
-## vEGkaTAcalE plavOtsava-ArambhaH
+## Veṅkaṭāchale Plavotsava-Ārambhaḥ
 
 
 ---

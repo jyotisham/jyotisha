@@ -1,12 +1,12 @@
-## pradOSa-vratam
+## Pradoṣa-Vratam
 
 
 ---
-## sOma-pradOSa-vratam
+## Soma-Pradoṣa-Vratam
 
 
 ---
-## zani-pradOSa-vratam
+## Śani-Pradoṣa-Vratam
 
 
 ---

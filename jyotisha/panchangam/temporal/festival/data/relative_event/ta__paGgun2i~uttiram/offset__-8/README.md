@@ -1,4 +1,4 @@
-## kapAlI sUrya candra vaTTam
+## Kapālī Sūrya Chandra Vaṭṭam
 
 
 ---

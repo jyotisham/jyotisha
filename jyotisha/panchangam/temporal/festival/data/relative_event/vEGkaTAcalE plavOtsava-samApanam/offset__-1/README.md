@@ -1,4 +1,4 @@
-## vEGkaTAcalE plavOtsavaH 4
+## Veṅkaṭāchale Plavotsavaḥ
 
 
 ---

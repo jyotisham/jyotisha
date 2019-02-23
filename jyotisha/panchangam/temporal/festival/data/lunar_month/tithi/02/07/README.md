@@ -1,10 +1,10 @@
-## gaGgA-saptamI
+## Gaṅgā-Saptamī
 गङ्गा-सप्तमी is observed on Śukla-Saptamī tithi of Vaiśākha (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 _Ganga came out of Jahnu Maharshi and became Jahnavi; perform Parjanya Pooja_
 
 ---
-## zarkarA-saptamI
+## Śarkarā-Saptamī
 शर्करा-सप्तमी is observed on Śukla-Saptamī tithi of Vaiśākha (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 _Worship Surya Bhagavan in a vessel (कुम्भ) filled with sugar, followed by दानम् of the same._
@@ -18,7 +18,7 @@ _Worship Surya Bhagavan in a vessel (कुम्भ) filled with sugar, followe
 
 
 ---
-## vidyAraNya-svAmI jayantI
+## Vidyāraṇya-Svāmī Jayantī
 विद्यारण्य-स्वामी जयन्ती is observed on Śukla-Saptamī tithi of Vaiśākha (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
@@ -27,7 +27,7 @@ _Worship Surya Bhagavan in a vessel (कुम्भ) filled with sugar, followe
 
 
 ---
-## tyAgarAja jayantI
+## Tyāgarāja Jayantī
 त्यागराज जयन्ती is observed on Śukla-Saptamī tithi of Vaiśākha (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 

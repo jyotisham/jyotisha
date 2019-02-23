@@ -1,4 +1,4 @@
-## vEGkaTAcalE padmAvatI-pariNayOtsava-samApanam (garuDa-vAhanam)
+## Veṅkaṭāchale Padmāvatī-Pariṇayotsava-Samāpanam (Garuḍa-Vāhanam)
 
 
 ---

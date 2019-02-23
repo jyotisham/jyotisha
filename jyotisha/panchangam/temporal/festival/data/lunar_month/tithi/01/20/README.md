@@ -1,4 +1,4 @@
-## lakSmI-varAha jayantI
+## Lakṣmī-Varāha Jayantī
 लक्ष्मी-वराह जयन्ती is observed on Kṛṣṇa-Pañcamī tithi of Caitra (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 

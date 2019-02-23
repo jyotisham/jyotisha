@@ -1,4 +1,4 @@
-## saptama-aparapakSa-samApanam
+## Saptama-Aparapakṣa-Samāpanam
 
 
 ---

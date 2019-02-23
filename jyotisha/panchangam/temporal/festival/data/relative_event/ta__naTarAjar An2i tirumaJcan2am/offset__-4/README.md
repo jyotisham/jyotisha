@@ -1,4 +1,4 @@
-## cidambarE rajata-gajavAhanam
+## Chidambare Rajata-Gajavāhanam
 
 
 ---

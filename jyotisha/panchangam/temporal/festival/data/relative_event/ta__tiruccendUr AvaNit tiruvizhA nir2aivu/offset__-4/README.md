@@ -1,4 +1,4 @@
-## tiruccendUr murugan2 AvaNit tiruvizhA ##8##m nAL—paccai cAtti alaGkAram
+## Tiruchchêndūr Murugan Āvaṇit Tiruviḷā 8M Nāḻ—Pachchai Chātti Alaṅkāram
 
 
 ---

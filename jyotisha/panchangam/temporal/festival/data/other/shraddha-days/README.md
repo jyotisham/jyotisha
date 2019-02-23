@@ -1,8 +1,8 @@
-## mahAdhanurvyatIpAtam
+## Mahādhanurvyatīpātam
 
 
 ---
-## mahAvyatIpAtam
+## Mahāvyatīpātam
 
 
 ---

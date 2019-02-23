@@ -1,4 +1,4 @@
-## kapAlI tEr
+## Kapālī Ter
 
 
 ---

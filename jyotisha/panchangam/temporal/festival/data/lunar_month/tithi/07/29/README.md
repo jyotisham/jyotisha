@@ -1,4 +1,4 @@
-## naraka-caturdazI
+## Naraka-Chaturdaśī
 नरक-चतुर्दशी is observed on Kṛṣṇa-Caturdaśī tithi of Āśvayuja (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 _
@@ -7,13 +7,13 @@ _
 * As per KalikaPuranam, Naraka was also upraised by Janaka. He was then sent to PraajyotishaPuram._
 
 ---
-## dIpOtsava-caturdazI/yama-tarpaNam
+## Dīpotsava-Chaturdaśī/Yama-Tarpaṇam
 दीपोत्सव-चतुर्दशी/यम-तर्पणम् is observed on Kṛṣṇa-Caturdaśī tithi of Āśvayuja (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 _Perform Tarpana to Yamadharmaraja (even those with father). जीवत्पिताऽपि कुर्वीत तर्पणं यमभीष्मयोः_
 
 ---
-## prEta-caturdazI
+## Preta-Chaturdaśī
 प्रेत-चतुर्दशी is observed on Kṛṣṇa-Caturdaśī tithi of Āśvayuja (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 _Perform Deepa Danam for Yamadharmaraja in evening_
@@ -22,7 +22,7 @@ _Perform Deepa Danam for Yamadharmaraja in evening_
 
 
 ---
-## zRGgErI 35 jagadguru zrI abhinava vidyAtIrtha mahAsvAmI jayantI
+## Śṛṅgerī 35 Jagadguru Śrī Abhinava Vidyātīrtha Mahāsvāmī Jayantī
 शृङ्गेरी ३५ जगद्गुरु श्री अभिनव विद्यातीर्थ महास्वामी जयन्ती is observed on Kṛṣṇa-Caturdaśī tithi of Āśvayuja (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 

@@ -1,10 +1,10 @@
-## madhyASTamI
+## Madhyāṣṭamī
 मध्याष्टमी is observed on Kṛṣṇa-Aṣṭamī tithi of Bhādrapada (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 
 ---
-## jImUtavAhana-pUjA 1
+## Jīmūtavāhana-Pūjā
 जीमूतवाहन-पूजा is observed on Kṛṣṇa-Aṣṭamī tithi of Bhādrapada (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 _Jeemuutavahana is an atma-tyagi vidyadhara Chakravarti. Saved Shankhachuda's (Naaga) life by offering himself to Garuda. From that day Garuda stopped eating snakes._
@@ -13,7 +13,7 @@ _Jeemuutavahana is an atma-tyagi vidyadhara Chakravarti. Saved Shankhachuda's (N
 
 
 ---
-## azOkASTamI-vrata-ArambhaH
+## Aśokāṣṭamī-Vrata-Ārambhaḥ
 अशोकाष्टमी-व्रत-आरम्भः is observed on Kṛṣṇa-Aṣṭamī tithi of Bhādrapada (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 

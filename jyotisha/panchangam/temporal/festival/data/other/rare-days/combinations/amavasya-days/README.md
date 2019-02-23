@@ -1,4 +1,4 @@
-## sOmavatI amAvasyA
+## Somavatī Amāvasyā
 _अमावस्या on a Monday is as sacred as a solar eclipse. Particularly good for performing pradakshinam of Pippala tree._
 
 ```
@@ -13,7 +13,7 @@ _अमावस्या on a Monday is as sacred as a solar eclipse. Particula
 ```
 
 ---
-## vyatIpAta-yOgaH (alabhyam)
+## Vyatīpāta-Yogaḥ (Alabhyam)
 _If, on a Sunday, अमावस्या and one of the stars—श्रवणम्, अश्विनी, श्रविष्ठा, आर्द्रा or आश्रेषा—occurs, then it is called व्यतीपात योङः, equal to a hundred _Surya grahanas_ in merit._
 
 ```
@@ -27,7 +27,7 @@ _If, on a Sunday, अमावस्या and one of the stars—श्रव�
 
 
 ---
-## puSkalA amAvasyA (alabhyam)
+## Puṣkalā Amāvasyā (Alabhyam)
 _If, अमावस्या occurs on a Monday, Tuesday or Thursday, the combination gives the tithi the name पुष्कला and is equal to a solar eclipse._
 
 ```

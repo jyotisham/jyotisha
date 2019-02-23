@@ -1,4 +1,4 @@
-## agninakSatra-ArambhaH
+## Agninakṣatra-Ārambhaḥ
 
 
 ---

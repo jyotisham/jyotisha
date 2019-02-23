@@ -1,4 +1,4 @@
-## dadhi-vrata-samApanam
+## Dadhi-Vrata-Samāpanam
 दधि-व्रत-समापनम् is observed on Śukla-Dvādaśī tithi of Bhādrapada (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 _On this day the DadhiVratam in Chaaturmaasyam is completed, hence perform danam of Dadhi (curd) to a Viprottama and recite the following shloka._
@@ -11,7 +11,7 @@ _On this day the DadhiVratam in Chaaturmaasyam is completed, hence perform danam
 ```
 
 ---
-## payOvrata-ArambhaH
+## Payovrata-Ārambhaḥ
 पयोव्रत-आरम्भः is observed on Śukla-Dvādaśī tithi of Bhādrapada (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 _पयोव्रतम् in chaturmasyam begins today._
@@ -22,13 +22,13 @@ _पयोव्रतम् in chaturmasyam begins today._
 ```
 
 ---
-## vAmana jayantI
+## Vāmana Jayantī
 वामन जयन्ती is observed on Śukla-Dvādaśī tithi of Bhādrapada (lunar) month (madhyaahna/puurvaviddha).
 
 _Wednesday Shravana ; Vamana Jayanti; Shravana Dvadashi; Vijaya Dvadashi; Shakra Dvadashi_
 
 ---
-## bhuvanEzvarI jayantI
+## Bhuvaneśvarī Jayantī
 भुवनेश्वरी जयन्ती is observed on Śukla-Dvādaśī tithi of Bhādrapada (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 _Goddess Bhuvaneshwari is 4th of the Dasha Maha Vidyas._
@@ -39,7 +39,7 @@ _Goddess Bhuvaneshwari is 4th of the Dasha Maha Vidyas._
 ```
 
 ---
-## ananta-dvAdazI
+## Ananta-Dvādaśī
 अनन्त-द्वादशी is observed on Śukla-Dvādaśī tithi of Bhādrapada (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 _Vanjuli (Cow giving lots of milk), dugdha (milk), Aviyoga, Ananta Dvadashi_

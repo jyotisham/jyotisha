@@ -1,22 +1,22 @@
-## tiruJAn2asambandhamUrtti nAyan2Ar gurupUjai
+## Tiruñānasambandhamūrtti Nāyanār Gurupūjai
 திருஞானஸம்பந்தமூர்த்தி நாயனார் குருபூஜை is observed on Mūlā nakṣhatram day of Vṛṣabha (solar) month (sunrise (default)/puurvaviddha (default)).
 
 
 
 ---
-## tirunIlakaNTha yAzhppANa nAyan2Ar gurupUjai
+## Tirunīlakaṇṭha Yāḷppāṇa Nāyanār Gurupūjai
 திருநீலகண்ட யாழ்ப்பாண நாயனார் குருபூஜை is observed on Mūlā nakṣhatram day of Vṛṣabha (solar) month (sunrise (default)/puurvaviddha (default)).
 
 
 
 ---
-## tirunIlanakka nAyan2Ar gurupUjai
+## Tirunīlanakka Nāyanār Gurupūjai
 திருநீலநக்க நாயனார் குருபூஜை is observed on Mūlā nakṣhatram day of Vṛṣabha (solar) month (sunrise (default)/puurvaviddha (default)).
 
 
 
 ---
-## muruga nAyan2Ar gurupUjai
+## Muruga Nāyanār Gurupūjai
 முருக நாயனார் குருபூஜை is observed on Mūlā nakṣhatram day of Vṛṣabha (solar) month (sunrise (default)/puurvaviddha (default)).
 
 

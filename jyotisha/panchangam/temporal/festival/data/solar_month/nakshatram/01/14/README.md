@@ -1,10 +1,10 @@
-## icaiJAn2iyAr nAyan2Ar gurupUjai
+## Ichaiñāniyār Nāyanār Gurupūjai
 இசைஞானியார் நாயனார் குருபூஜை is observed on Citrā nakṣhatram day of Meṣa (solar) month (sunrise (default)/puurvaviddha (default)).
 
 
 
 ---
-## madhurakavi AzhvAr tirunakSattiram
+## Madhurakavi Āḷvār Tirunakṣattiram
 மதுரகவி ஆழ்வார் திருநக்ஷத்திரம் is observed on Citrā nakṣhatram day of Meṣa (solar) month (sunrise (default)/puurvaviddha (default)).
 
 

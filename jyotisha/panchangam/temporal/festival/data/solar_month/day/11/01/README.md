@@ -1,4 +1,4 @@
-## viSNupadI-kumbharaviH
+## Viṣṇupadī-Kumbharaviḥ
 विष्णुपदी-कुम्भरविः is observed on day 1 of Kumbha (solar) month (sunrise (default)/puurvaviddha (default)).
 
 _Perform danam of hay, grass, food and pure water to cows._

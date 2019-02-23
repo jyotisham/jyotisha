@@ -1,4 +1,4 @@
-## narasiMha-dvAdazI
+## Narasiṃha-Dvādaśī
 नरसिंह-द्वादशी is observed on Śukla-Dvādaśī tithi of Phālguna (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 

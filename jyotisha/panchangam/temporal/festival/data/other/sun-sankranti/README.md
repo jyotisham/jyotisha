@@ -1,4 +1,4 @@
-## makarAyaNa-puNyakAlaH/mitrOtsavaH
+## Makarāyaṇa-Puṇyakālaḥ/Mitrotsavaḥ
 
 
 ---

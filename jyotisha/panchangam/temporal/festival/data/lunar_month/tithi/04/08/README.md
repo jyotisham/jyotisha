@@ -1,4 +1,4 @@
-## mahiSaghnI-pUjA
+## Mahiṣaghnī-Pūjā
 महिषघ्नी-पूजा is observed on Śukla-Aṣṭamī tithi of Āṣāḍha (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 

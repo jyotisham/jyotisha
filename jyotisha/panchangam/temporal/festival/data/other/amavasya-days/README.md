@@ -1,100 +1,100 @@
-## (bhAdrapada) mahAlaya amAvasyA
+## (Bhādrapada) Mahālaya Amāvasyā
 
 
 ---
-## Azvayuja-amAvasyA
+## Āśvayuja-Amāvasyā
 
 
 ---
-## Azvayuja-(adhika)-amAvasyA
+## Āśvayuja-(Adhika)-Amāvasyā
 
 
 ---
-## ASADha-(adhika)-amAvasyA
+## Āṣāḍha-(Adhika)-Amāvasyā
 
 
 ---
-## zravaNa-(adhika) (kaTaka) amAvasyA
+## Śravaṇa-(Adhika) (Kaṭaka) Amāvasyā
 
 
 ---
-## bhAdrapada-(adhika)-amAvasyA
+## Bhādrapada-(Adhika)-Amāvasyā
 
 
 ---
-## caitra-(adhika)-amAvasyA
+## Chaitra-(Adhika)-Amāvasyā
 
 
 ---
-## vaizAkha-(adhika)-amAvasyA
+## Vaiśākha-(Adhika)-Amāvasyā
 
 
 ---
-## zravaNa-(adhika)-amAvasyA
+## Śravaṇa-(Adhika)-Amāvasyā
 
 
 ---
-## jyaiSTha-(adhika)-amAvasyA
+## Jyaiṣṭha-(Adhika)-Amāvasyā
 
 
 ---
-## caitra-amAvasyA
+## Chaitra-Amāvasyā
 
 
 ---
-## jyaiSTha-amAvasyA
+## Jyaiṣṭha-Amāvasyā
 
 
 ---
-## kArtika-amAvasyA
+## Kārtika-Amāvasyā
 
 
 ---
-## mAgha-amAvasyA
+## Māgha-Amāvasyā
 
 
 ---
-## mArgazIrSa-amAvasyA
+## Mārgaśīrṣa-Amāvasyā
 
 
 ---
-## mauni (pauSa/makara) amAvasyA
+## Mauni (Pauṣa/Makara) Amāvasyā
 
 
 ---
-## mauni (mAgha/makara) amAvasyA
+## Mauni (Māgha/Makara) Amāvasyā
 
 
 ---
-## phAlguna-amAvasyA
+## Phālguna-Amāvasyā
 
 
 ---
-## vaizAkha-amAvasyA
+## Vaiśākha-Amāvasyā
 
 
 ---
-## zravaNa-amAvasyA
+## Śravaṇa-Amāvasyā
 
 
 ---
-## pauSa (makara) amAvasyA
+## Pauṣa (Makara) Amāvasyā
 
 
 ---
-## ASADha (kaTaka) amAvasyA
+## Āṣāḍha (Kaṭaka) Amāvasyā
 
 
 ---
-## zravaNa (kaTaka) amAvasyA
+## Śravaṇa (Kaṭaka) Amāvasyā
 
 
 ---
-## ASADha-amAvasyA
+## Āṣāḍha-Amāvasyā
 
 
 ---
-## pauSa-amAvasyA
+## Pauṣa-Amāvasyā
 
 
 ---

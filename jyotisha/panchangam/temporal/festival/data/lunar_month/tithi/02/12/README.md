@@ -1,16 +1,16 @@
-## girijA-kalyANam
+## Girijā-Kalyāṇam
 गिरिजा-कल्याणम् is observed on Śukla-Dvādaśī tithi of Vaiśākha (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 
 ---
-## parazurAma-dvAdazI
+## Paraśurāma-Dvādaśī
 परशुराम-द्वादशी is observed on Śukla-Dvādaśī tithi of Vaiśākha (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 
 ---
-## rukmiNI-dvAdazI
+## Rukmiṇī-Dvādaśī
 रुक्मिणी-द्वादशी is observed on Śukla-Dvādaśī tithi of Vaiśākha (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 

@@ -1,4 +1,4 @@
-## mESa-saGkrAntiH
+## Meṣa-Saṅkrāntiḥ
 _Tamil New Year._
 
 ---

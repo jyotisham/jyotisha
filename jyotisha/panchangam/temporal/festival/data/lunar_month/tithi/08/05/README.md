@@ -1,4 +1,4 @@
-## dEvasEnA paJcamI
+## Devasenā Pañchamī
 देवसेना पञ्चमी is observed on Śukla-Pañcamī tithi of Kārtika (lunar) month (madhyaahna/puurvaviddha).
 
 
@@ -7,13 +7,13 @@
 
 
 ---
-## pANDava (lAbha)-paJcamI
+## Pāṇḍava (Lābha)-Pañchamī
 पाण्डव (लाभ)-पञ्चमी is observed on Śukla-Pañcamī tithi of Kārtika (lunar) month (madhyaahna/puurvaviddha).
 
 
 
 ---
-## sarpa-pUjA 2
+## Sarpa-Pūjā
 सर्प-पूजा is observed on Śukla-Pañcamī tithi of Kārtika (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 _Vishnu's boon to AdiSesha that humans will worship on this day_

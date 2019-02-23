@@ -1,4 +1,4 @@
-## zastrahatacaturdazI
+## Śastrahatachaturdaśī
 शस्त्रहतचतुर्दशी is observed on Kṛṣṇa-Caturdaśī tithi of Bhādrapada (lunar) month (madhyaahna/puurvaviddha).
 
 
@@ -9,7 +9,7 @@
 ```
 
 ---
-## kAtyAyanI jayantI
+## Kātyāyanī Jayantī
 कात्यायनी जयन्ती is observed on Kṛṣṇa-Caturdaśī tithi of Bhādrapada (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 

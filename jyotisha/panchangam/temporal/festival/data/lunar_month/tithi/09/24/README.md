@@ -1,4 +1,4 @@
-## zrI zESAdri-svAmI ArAdhanA
+## Śrī Śeṣādri-Svāmī Ārādhanā
 श्री शेषाद्रि-स्वामी आराधना is observed on Kṛṣṇa-Navamī tithi of Mārgaśīrṣa (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 

@@ -1,4 +1,4 @@
-## tulA-viSu-puNyakAlaH
+## Tulā-Viṣu-Puṇyakālaḥ
 तुला-विषु-पुण्यकालः is observed on day 1 of Tulā (solar) month (sunrise (default)/puurvaviddha (default)).
 
 _Perform danam of rice/wheat/grains and cow ghee/curd etc._
@@ -8,7 +8,7 @@ _Perform danam of rice/wheat/grains and cow ghee/curd etc._
 ```
 
 ---
-## tulA-kAvErI-snAna-ArambhaH
+## Tulā-Kāverī-Snāna-Ārambhaḥ
 तुला-कावेरी-स्नान-आरम्भः is observed on day 1 of Tulā (solar) month (sunrise (default)/puurvaviddha (default)).
 
 _Perform स्नानम् in Kaveri during this month._
@@ -19,7 +19,7 @@ _Perform स्नानम् in Kaveri during this month._
 ```
 
 ---
-## AkAzadIpa-ArambhaH
+## Ākāśadīpa-Ārambhaḥ
 आकाशदीप-आरम्भः is observed on day 1 of Tulā (solar) month (sunrise (default)/puurvaviddha (default)).
 
 _Offer Akasha Dipam for this entire month, in the evening, on a high place (pillar?). Light lamps using gingelly oil with eight wicks._

@@ -1,4 +1,4 @@
-## tiruccendUr murugan2 AvaNit tiruvizhA ##4##m nAL—yAn2ai vAhanattil murugan2-ambAL bhavan2i
+## Tiruchchêndūr Murugan Āvaṇit Tiruviḷā 4M Nāḻ—Yānai Vāhanattil Murugan-Ambāḻ Bhavani
 
 
 ---

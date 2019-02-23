@@ -1,4 +1,4 @@
-## cidambarE rajata RSabha vAhanam
+## Chidambare Rajata Ṛṣabha Vāhanam
 
 
 ---

@@ -1,4 +1,4 @@
-## kAJcI 26 jagadguru zrI prajJAghanEndra sarasvatI ArAdhanA
+## Kāñchī 26 Jagadguru Śrī Prajñāghanendra Sarasvatī Ārādhanā
 काञ्ची २६ जगद्गुरु श्री प्रज्ञाघनेन्द्र सरस्वती आराधना is observed on Śukla-Aṣṭamī tithi of Vaiśākha (lunar) month (madhyaahna/puurvaviddha).
 
 
@@ -7,7 +7,7 @@
 
 
 ---
-## bagalAmukhI jayantI
+## Bagalāmukhī Jayantī
 बगलामुखी जयन्ती is observed on Śukla-Aṣṭamī tithi of Vaiśākha (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 _Goddess Bagalamukhi is 8th of the Dasha Maha Vidyas._

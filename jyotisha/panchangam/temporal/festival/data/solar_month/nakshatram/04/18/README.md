@@ -1,10 +1,10 @@
-## kaliya nAyan2Ar gurupUjai
+## Kaliya Nāyanār Gurupūjai
 கலிய நாயனார் குருபூஜை is observed on Jyeṣṭhā nakṣhatram day of Kaṭaka (solar) month (sunrise (default)/puurvaviddha (default)).
 
 
 
 ---
-## kOTpuli nAyan2Ar gurupUjai
+## Koṭpuli Nāyanār Gurupūjai
 கோட்புலி நாயனார் குருபூஜை is observed on Jyeṣṭhā nakṣhatram day of Kaṭaka (solar) month (sunrise (default)/puurvaviddha (default)).
 
 

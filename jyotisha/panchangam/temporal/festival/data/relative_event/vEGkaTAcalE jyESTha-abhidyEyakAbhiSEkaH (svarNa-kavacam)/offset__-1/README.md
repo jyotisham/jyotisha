@@ -1,4 +1,4 @@
-## vEGkaTAcalE jyESTha-abhidyEyakAbhiSEkaH (mutyala-kavacam)
+## Veṅkaṭāchale Jyeṣṭha-Abhidyeyakābhiṣekaḥ (Mutyala-Kavacham)
 
 
 ---

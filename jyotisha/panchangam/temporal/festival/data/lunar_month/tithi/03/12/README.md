@@ -1,4 +1,4 @@
-## gavAmayana-dvAdazI
+## Gavāmayana-Dvādaśī
 गवामयन-द्वादशी is observed on Śukla-Dvādaśī tithi of Jyaiṣṭha (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 _Perform puja of Lord Trivikrama (Sahasranamarchana), do naivedyam of mangoes and offer annadanam to needy._
@@ -12,19 +12,19 @@ _Perform puja of Lord Trivikrama (Sahasranamarchana), do naivedyam of mangoes an
 
 
 ---
-## rAmalakSmaNa-dvAdazI
+## Rāmalakṣmaṇa-Dvādaśī
 रामलक्ष्मण-द्वादशी is observed on Śukla-Dvādaśī tithi of Jyaiṣṭha (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 
 ---
-## campaka-dvAdazI
+## Champaka-Dvādaśī
 चम्पक-द्वादशी is observed on Śukla-Dvādaśī tithi of Jyaiṣṭha (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 
 ---
-## kAJcI 2 jagadguru zrI surEzvarAcArya ArAdhanA
+## Kāñchī 2 Jagadguru Śrī Sureśvarāchārya Ārādhanā
 काञ्ची २ जगद्गुरु श्री सुरेश्वराचार्य आराधना is observed on Śukla-Dvādaśī tithi of Jyaiṣṭha (lunar) month (madhyaahna/puurvaviddha).
 
 _A native of Gauḍadeśa, born in Kashmir, pious, Śri Sureśvara, secured the knowledge of Pūrva Mīmāṁsā from Kumārila bhaṭṭā, well-versed in Vedas, and avowed to house-holder’s life; he engaged in debate with Ācārya and got initiated into asceticism. Then, attending on Ācārya, he reached the highest level in yogic practices and by the directions of the Ācārya, he lived forseventy years at the Kāmapīṭha in Kāñci. Then, in the year 2695 of the Kali era, on the night of the twelfth day of the bright fortnight in the month of Jyeṣṭha of the Bhava year that revered Sureśa, having taken the world by surprise through his fame by traversing throughout the earth, united/merged with the Supreme Being in the path known as Laya obtained the state of beautiful form of Śivaliṅga verily in the presence of on-lookers._

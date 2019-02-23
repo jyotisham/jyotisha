@@ -1,4 +1,4 @@
-## ceruttuNai nAyan2Ar gurupUjai
+## Chêruttuṇai Nāyanār Gurupūjai
 செருத்துணை நாயனார் குருபூஜை is observed on Puṣya nakṣhatram day of Siṃha (solar) month (sunrise (default)/puurvaviddha (default)).
 
 

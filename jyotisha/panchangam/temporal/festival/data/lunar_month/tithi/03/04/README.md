@@ -1,4 +1,4 @@
-## umA-avatAraH
+## Umā-Avatāraḥ
 उमा-अवतारः is observed on Śukla-Caturthī tithi of Jyaiṣṭha (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 _Perform puja of Uma-Maheshvara, on the day of Uma Devi's Avataram._
@@ -9,7 +9,7 @@ _Perform puja of Uma-Maheshvara, on the day of Uma Devi's Avataram._
 ```
 
 ---
-## kadalI-gaurI-vratam/pUjA
+## Kadalī-Gaurī-Vratam/Pūjā
 कदली-गौरी-व्रतम्/पूजा is observed on Śukla-Caturthī tithi of Jyaiṣṭha (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 _Perform puja of Shiva-Parvati under a banana tree or on a banana leaf, do naivedyam of 100+ bananas and give away to small girl children._

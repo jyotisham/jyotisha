@@ -1,10 +1,10 @@
-## nandA-saptamI 2
+## Nandā-Saptamī
 नन्दा-सप्तमी is observed on Śukla-Saptamī tithi of Phālguna (lunar) month (madhyaahna/puurvaviddha).
 
 
 
 ---
-## zrI rAghavEndra-svAmI jayantI
+## Śrī Rāghavendra-Svāmī Jayantī
 श्री राघवेन्द्र-स्वामी जयन्ती is observed on Śukla-Saptamī tithi of Phālguna (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 

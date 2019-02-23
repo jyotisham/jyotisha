@@ -1,4 +1,4 @@
-## cidambarE rathOtsavaH
+## Chidambare Rathotsavaḥ
 
 
 ---

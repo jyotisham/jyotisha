@@ -1,4 +1,4 @@
-## lambOdara-mahAgaNapati saGkaTahara-caturthI-vratam
+## Lambodara-Mahāgaṇapati Saṅkaṭahara-Chaturthī-Vratam
 _Special vrata day for Ganesha. In this month, Ganesha is worshipped as लम्बोदर-महागणपतिः. Fast during the day and pray to Ganesha after moonrise, as follows:_
 
 ```
@@ -7,7 +7,7 @@ _Special vrata day for Ganesha. In this month, Ganesha is worshipped as लम�
 ```
 
 ---
-## dvijapriya-mahAgaNapati saGkaTahara-caturthI-vratam
+## Dvijapriya-Mahāgaṇapati Saṅkaṭahara-Chaturthī-Vratam
 _Special vrata day for Ganesha. In this month, Ganesha is worshipped as द्विजप्रिय-महागणपतिः. Fast during the day and pray to Ganesha after moonrise, as follows:_
 
 ```
@@ -16,7 +16,7 @@ _Special vrata day for Ganesha. In this month, Ganesha is worshipped as द्�
 ```
 
 ---
-## bhAlacandra-mahAgaNapati saGkaTahara-caturthI-vratam
+## Bhālachandra-Mahāgaṇapati Saṅkaṭahara-Chaturthī-Vratam
 _Special vrata day for Ganesha. In this month, Ganesha is worshipped as भालचन्द्र-महागणपतिः. Fast during the day and pray to Ganesha after moonrise, as follows:_
 
 ```
@@ -25,7 +25,7 @@ _Special vrata day for Ganesha. In this month, Ganesha is worshipped as भा�
 ```
 
 ---
-## vikaTa-mahAgaNapati saGkaTahara-caturthI-vratam
+## Vikaṭa-Mahāgaṇapati Saṅkaṭahara-Chaturthī-Vratam
 _Special vrata day for Ganesha. In this month, Ganesha is worshipped as विकट-महागणपतिः. Fast during the day and pray to Ganesha after moonrise, as follows:_
 
 ```
@@ -34,7 +34,7 @@ _Special vrata day for Ganesha. In this month, Ganesha is worshipped as वि�
 ```
 
 ---
-## Ekadanta-mahAgaNapati saGkaTahara-caturthI-vratam
+## Ekadanta-Mahāgaṇapati Saṅkaṭahara-Chaturthī-Vratam
 _Special vrata day for Ganesha. In this month, Ganesha is worshipped as एकदन्त-महागणपतिः. Fast during the day and pray to Ganesha after moonrise, as follows:_
 
 ```
@@ -43,7 +43,7 @@ _Special vrata day for Ganesha. In this month, Ganesha is worshipped as एक�
 ```
 
 ---
-## kRSNapiGgala-mahAgaNapati saGkaTahara-caturthI-vratam
+## Kṛṣṇapiṅgala-Mahāgaṇapati Saṅkaṭahara-Chaturthī-Vratam
 _Special vrata day for Ganesha. In this month, Ganesha is worshipped as कृष्णपिङ्गल-महागणपतिः. Fast during the day and pray to Ganesha after moonrise, as follows:_
 
 ```
@@ -52,7 +52,7 @@ _Special vrata day for Ganesha. In this month, Ganesha is worshipped as कृ�
 ```
 
 ---
-## gajAnana-mahAgaNapati saGkaTahara-caturthI-vratam
+## Gajānana-Mahāgaṇapati Saṅkaṭahara-Chaturthī-Vratam
 _Special vrata day for Ganesha. In this month, Ganesha is worshipped as गजानन-महागणपतिः. Fast during the day and pray to Ganesha after moonrise, as follows:_
 
 ```
@@ -61,7 +61,7 @@ _Special vrata day for Ganesha. In this month, Ganesha is worshipped as गज�
 ```
 
 ---
-## hEramba-mahAgaNapati mahAsaGkaTahara-caturthI-vratam
+## Heramba-Mahāgaṇapati Mahāsaṅkaṭahara-Chaturthī-Vratam
 _Special vrata day for Ganesha. In this month, Ganesha is worshipped as हेरम्ब-महागणपतिः. Fast during the day and pray to Ganesha after moonrise, as follows:_
 
 ```
@@ -70,7 +70,7 @@ _Special vrata day for Ganesha. In this month, Ganesha is worshipped as हे�
 ```
 
 ---
-## vighnarAja-mahAgaNapati saGkaTahara-caturthI-vratam
+## Vighnarāja-Mahāgaṇapati Saṅkaṭahara-Chaturthī-Vratam
 _Special vrata day for Ganesha. In this month, Ganesha is worshipped as विघ्नराज-महागणपतिः. Fast during the day and pray to Ganesha after moonrise, as follows:_
 
 ```
@@ -79,7 +79,7 @@ _Special vrata day for Ganesha. In this month, Ganesha is worshipped as वि�
 ```
 
 ---
-## vakratuNDa-mahAgaNapati saGkaTahara-caturthI-vratam
+## Vakratuṇḍa-Mahāgaṇapati Saṅkaṭahara-Chaturthī-Vratam
 _Special vrata day for Ganesha. In this month, Ganesha is worshipped as वक्रतुण्ड-महागणपतिः. Fast during the day and pray to Ganesha after moonrise, as follows:_
 
 ```
@@ -88,7 +88,7 @@ _Special vrata day for Ganesha. In this month, Ganesha is worshipped as वक�
 ```
 
 ---
-## gaNAdhipa-mahAgaNapati saGkaTahara-caturthI-vratam
+## Gaṇādhipa-Mahāgaṇapati Saṅkaṭahara-Chaturthī-Vratam
 _Special vrata day for Ganesha. In this month, Ganesha is worshipped as गणाधिप-महागणपतिः. Fast during the day and pray to Ganesha after moonrise, as follows:_
 
 ```
@@ -97,7 +97,7 @@ _Special vrata day for Ganesha. In this month, Ganesha is worshipped as गण�
 ```
 
 ---
-## Akhuratha-mahAgaNapati saGkaTahara-caturthI-vratam
+## Ākhuratha-Mahāgaṇapati Saṅkaṭahara-Chaturthī-Vratam
 _Special vrata day for Ganesha. In this month, Ganesha is worshipped as आखुरथ-महागणपतिः. Fast during the day and pray to Ganesha after moonrise, as follows:_
 
 ```
@@ -106,7 +106,7 @@ _Special vrata day for Ganesha. In this month, Ganesha is worshipped as आख�
 ```
 
 ---
-## vibhuvana-mahAgaNapati saGkaTahara-caturthI-vratam
+## Vibhuvana-Mahāgaṇapati Saṅkaṭahara-Chaturthī-Vratam
 _Special vrata day for Ganesha. In this month, Ganesha is worshipped as विभुवन-महागणपतिः. Fast during the day and pray to Ganesha after moonrise, as follows:_
 
 ```

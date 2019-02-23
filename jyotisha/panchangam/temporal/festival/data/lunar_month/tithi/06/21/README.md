@@ -1,4 +1,4 @@
-## kapila-SaSThI
+## Kapila-Ṣaṣṭhī
 कपिल-षष्ठी is observed on Kṛṣṇa-Ṣaṣṭhī tithi of Bhādrapada (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
@@ -9,7 +9,7 @@
 ```
 
 ---
-## candra-SaSThI
+## Chandra-Ṣaṣṭhī
 चन्द्र-षष्ठी is observed on Kṛṣṇa-Ṣaṣṭhī tithi of Bhādrapada (lunar) month (moonrise/puurvaviddha).
 
 
@@ -18,7 +18,7 @@
 
 
 ---
-## kAJcI 33 jagadguru zrI saccidAnandaghanEndra sarasvatI 2 ArAdhanA
+## Kāñchī 33 Jagadguru Śrī Sachchidānandaghanendra Sarasvatī 2 Ārādhanā
 काञ्ची ३३ जगद्गुरु श्री सच्चिदानन्दघनेन्द्र सरस्वती २ आराधना is observed on Kṛṣṇa-Ṣaṣṭhī tithi of Bhādrapada (lunar) month (madhyaahna/puurvaviddha).
 
 

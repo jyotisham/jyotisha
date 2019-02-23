@@ -1,8 +1,8 @@
-## kapAlI adhikAra nandi
+## Kapālī Adhikāra Nandi
 
 
 ---
-## kapAlI bhUtaN bhUtakI
+## Kapālī Bhūtaṇ Bhūtakī
 
 
 ---

@@ -2,6 +2,9 @@
   "id": "kAJcI 69 jagadguru zrI~jayEndra sarasvatI ArAdhanA",
   "jsonClass": "HinduCalendarEvent",
   "priority": "puurvaviddha",
+  "references_secondary": [
+    "www.kamakoti.org"
+  ],
   "tags": [
     "kanchi-aradhana-days",
     "common-festivals"

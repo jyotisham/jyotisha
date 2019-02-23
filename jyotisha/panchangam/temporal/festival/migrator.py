@@ -27,6 +27,7 @@ def migrate_db(old_db_file, only_descriptions=False):
     event.dump_to_file(filename=event_file_name)
     write_event_README(event, event_file_name)
 
+
 # TODO:
 # Should this be moved to another file?
 # Should be called as event.write_README()??
@@ -35,7 +36,8 @@ def write_event_README(event, event_file_name):
       readme_file_name = os.path.join(os.path.dirname(event_file_name), 'README.md')
       event_dict = json.load(event_data)
       with open(readme_file_name, 'a+') as readme_file:
-        readme_file.write('## %s\n' % event_dict["id"].replace('ta__', '').replace('~', ' ').strip('{}'))
+        # readme_file.write('## %s\n' % event_dict["id"].replace('ta__', '').replace('~', ' ').strip('{}'))
+        readme_file.write('## %s\n' % custom_transliteration.tr(event_dict["id"], sanscript.IAST).replace('Ta__', '').replace('~', ' ').strip('{}'))
 
         blurb = ''
         month = ''

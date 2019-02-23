@@ -1,4 +1,4 @@
-## zrInivAsamaGgApurE sAkSAtkAra-vaibhavOtsava-ArambhaH
+## Śrīnivāsamaṅgāpure Sākṣātkāra-Vaibhavotsava-Ārambhaḥ
 
 
 ---

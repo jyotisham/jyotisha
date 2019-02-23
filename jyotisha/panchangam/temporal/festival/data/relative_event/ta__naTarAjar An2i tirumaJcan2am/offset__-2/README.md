@@ -1,4 +1,4 @@
-## cidambarE bhikSATana svarNarathaH
+## Chidambare Bhikṣāṭana Svarṇarathaḥ
 
 
 ---

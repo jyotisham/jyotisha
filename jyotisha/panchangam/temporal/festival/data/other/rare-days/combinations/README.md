@@ -1,4 +1,4 @@
-## bhAnusaptamI
+## Bhānusaptamī
 _सप्तमी तिथि on a Sunday is as sacred as a solar eclipse. Particularly good for worshipping Surya._
 
 ```
@@ -8,7 +8,7 @@ _सप्तमी तिथि on a Sunday is as sacred as a solar eclipse. Pa
 ```
 
 ---
-## gajacchAyA-yOgaH
+## Gajachchhāyā-Yogaḥ
 _A very special yOga, for doing Pitru Shraddha during Mahalaya Paksham. A man that performs a sraddha in the conjunction called Gajacchaya at a place that is fanned by the leaves of the Aswattha tree enjoys the fruits thereof, O Yudhishthira, for a hundred thousand kalpas._
 
 ```
@@ -18,7 +18,7 @@ _A very special yOga, for doing Pitru Shraddha during Mahalaya Paksham. A man th
 ```
 
 ---
-## bhAnusaptamI★
+## Bhānusaptamī★
 _सप्तमी तिथि on a Sunday is as sacred as a solar eclipse. Particularly good for worshipping Surya. Today is even more auspicious, as it is associated with रेवती star._
 
 ```
@@ -28,7 +28,7 @@ _सप्तमी तिथि on a Sunday is as sacred as a solar eclipse. Pa
 ```
 
 ---
-## budhASTamI
+## Budhāṣṭamī
 _अष्टमी तिथि on a Wednesday is as sacred as a solar eclipse._
 
 ```
@@ -38,7 +38,7 @@ _अष्टमी तिथि on a Wednesday is as sacred as a solar eclipse.
 ```
 
 ---
-## aGgAraka-caturthI
+## Aṅgāraka-Chaturthī
 _चतुर्थी तिथि on a Tuesday is as sacred as a solar eclipse. Good day for doing puja of Ganesha/Subrahmanya with naivedyam of modakam/millet flour respectively._
 
 ```
@@ -48,15 +48,15 @@ _चतुर्थी तिथि on a Tuesday is as sacred as a solar eclipse
 ```
 
 ---
-## kRSNAGgAraka-caturdazI-puNyakAlaH/yamatarpaNam
+## Kṛṣṇāṅgāraka-Chaturdaśī-Puṇyakālaḥ/Yamatarpaṇam
 _कृष्ण चतुर्दशी तिथि on a Tuesday is very sacred. Perform तर्पणम् to Yama Dharamaraja._
 
 ---
-## sukhA aGgAraka-caturthI
+## Sukhā Aṅgāraka-Chaturthī
 
 
 ---
-## vijayA bhAnusaptamI
+## Vijayā Bhānusaptamī
 _सप्तमी तिथि on a Sunday is as sacred as a solar eclipse. Particularly good for worshipping Surya. When शुक्ल सप्तमी is present at sunrise, it is called विजया._
 
 ```
@@ -66,7 +66,7 @@ _सप्तमी तिथि on a Sunday is as sacred as a solar eclipse. Pa
 ```
 
 ---
-## vijayA bhAnusaptamI★
+## Vijayā Bhānusaptamī★
 _सप्तमी तिथि on a Sunday is as sacred as a solar eclipse. Particularly good for worshipping Surya. When शुक्ल सप्तमी is present at sunrise, it is called विजया._
 
 ```
@@ -76,62 +76,62 @@ _सप्तमी तिथि on a Sunday is as sacred as a solar eclipse. Pa
 ```
 
 ---
-## bhaumAzvinI-puNyakAlaH
+## Bhaumāśvinī-Puṇyakālaḥ
 _When Ashwini nakshatram falls on a Tuesday, it is a special पुण्यकालः. Do उपासना of Lakshmi Narasimha._
 
 ---
-## budhAnUrAdhA-puNyakAlaH
+## Budhānūrādhā-Puṇyakālaḥ
 _When अनूराधा nakshatram falls on a Wednesday, it is a special पुण्यकालः for performing दानम्. One can do दानं of दध्योदनम् in Vishnu temples on this day._
 
 ---
-## gajacchAyA-yOgam
+## Gajachchhāyā-Yogam
 
 
 ---
-## AyuSmAn-bava-saumya
+## Āyuṣmān-Bava-Saumya
 _A rare combination of आयुष्मान् योग, बव करण and सौम्यवासर. Also a source of the normal blessing 'AyuSmAn bava saumya'!_
 ### References
 * Maha Periva / Deivattin Kural
 
 
 ---
-## jayantI mahAdvAdazI
+## Jayantī Mahādvādaśī
 _Dvadashi tithi, combined with Punarvasu nakshatram._
 
 ---
-## jayA mahAdvAdazI
+## Jayā Mahādvādaśī
 _Dvadashi tithi, combined with Pushya nakshatram._
 
 ---
-## mahAjayA saptamI
+## Mahājayā Saptamī
 _Saptami tithi, combined with a sankranti._
 
 ---
-## bhadrA saptamI
+## Bhadrā Saptamī
 _Saptami tithi, combined with the first पाद of हस्त nakshatram._
 
 ---
-## mahOdaya-puNyakAlaH
+## Mahodaya-Puṇyakālaḥ
 _A rare combination of Pausha masam, Shravana nakshatram, Vyatipata yogam and Monday._
 
 ---
-## ardhOdaya-puNyakAlaH
+## Ardhodaya-Puṇyakālaḥ
 _A rare combination of Pausha masam, Shravana nakshatram, Vyatipata yogam and Sunday._
 
 ---
-## pApanAzinI mahAdvAdazI
+## Pāpanāśinī Mahādvādaśī
 _Dvadashi tithi, combined with Rohini nakshatram._
 
 ---
-## vAruNI trayOdazI
+## Vāruṇī Trayodaśī
 _Phalguna Krishna Chaturdashi, combined with Shatabhishak Nakshatram._
 
 ---
-## mahAvAruNI trayOdazI
+## Mahāvāruṇī Trayodaśī
 _Phalguna Krishna Chaturdashi, combined with Shatabhishak Nakshatram and Saturday._
 
 ---
-## mahAmahAvAruNI trayOdazI
+## Mahāmahāvāruṇī Trayodaśī
 _Phalguna Krishna Chaturdashi, combined with Shatabhishak Nakshatram, Saturday and Shubha Yogam._
 
 ---

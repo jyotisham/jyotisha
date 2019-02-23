@@ -1,4 +1,4 @@
-## cidambarE dhvajArOhaNam/paJcamUrti rathOtsavaH
+## Chidambare Dhvajārohaṇam/Pañchamūrti Rathotsavaḥ
 
 
 ---

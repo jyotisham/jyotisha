@@ -1,4 +1,4 @@
-## tiruccendUr murugan2 mAcit tiruvizhA ##6##m nAL—veLLit tEr bhavan2i
+## Tiruchchêndūr Murugan Māchit Tiruviḷā 6M Nāḻ—Vêḻḻit Ter Bhavani
 
 
 ---

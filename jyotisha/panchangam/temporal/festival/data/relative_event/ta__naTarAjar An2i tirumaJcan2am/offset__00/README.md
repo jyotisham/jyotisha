@@ -1,4 +1,4 @@
-## cidambarE naTarAjasya rAjasabhAyAM mahAbhiSEkaH
+## Chidambare Naṭarājasya Rājasabhāyāṃ Mahābhiṣekaḥ
 
 
 ---

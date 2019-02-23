@@ -1,4 +1,4 @@
-## kapAlI pallakku vizhA
+## Kapālī Pallakku Viḷā
 
 
 ---

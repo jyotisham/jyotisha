@@ -1,8 +1,8 @@
-## kapAlI umA-mahEzvara darican2am
+## Kapālī Umā-Maheśvara Darichanam
 
 
 ---
-## kapAlI viDaiyAr2r2i toDakkam
+## Kapālī Viḍaiyār̂R̂I Tôḍakkam
 
 
 ---

@@ -1,4 +1,4 @@
-## naraciGgamun2aiyaraiya nAyan2Ar gurupUjai
+## Narachiṅgamunaiyaraiya Nāyanār Gurupūjai
 நரசிங்கமுனையரைய நாயனார் குருபூஜை is observed on Śatabhiṣak nakṣhatram day of Kanyā (solar) month (sunrise (default)/puurvaviddha (default)).
 
 

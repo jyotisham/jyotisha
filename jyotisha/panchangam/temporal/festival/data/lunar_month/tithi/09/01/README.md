@@ -1,4 +1,4 @@
-## kAJcI 18 jagadguru zrI yOgatilaka surEndra sarasvatI ArAdhanA
+## Kāñchī 18 Jagadguru Śrī Yogatilaka Surendra Sarasvatī Ārādhanā
 काञ्ची १८ जगद्गुरु श्री योगतिलक सुरेन्द्र सरस्वती आराधना is observed on Śukla-Prathamā tithi of Mārgaśīrṣa (lunar) month (madhyaahna/puurvaviddha).
 
 
@@ -7,7 +7,7 @@
 
 
 ---
-## vanadurgAnavarAtri-ArambhaH
+## Vanadurgānavarātri-Ārambhaḥ
 वनदुर्गानवरात्रि-आरम्भः is observed on Śukla-Prathamā tithi of Mārgaśīrṣa (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 _Vanadurga Navaratri. Specially celebrated in Karthiramangalam._

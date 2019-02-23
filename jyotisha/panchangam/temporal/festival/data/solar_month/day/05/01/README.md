@@ -1,4 +1,4 @@
-## viSNupadI-siMharaviH
+## Viṣṇupadī-Siṃharaviḥ
 विष्णुपदी-सिंहरविः is observed on day 1 of Siṃha (solar) month (sunrise (default)/puurvaviddha (default)).
 
 _Perform danam of ghee, milk vessel, "ghee cow" and fruits._

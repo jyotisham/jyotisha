@@ -1,4 +1,4 @@
-## iLaiyAn2kuDi mAr2a nAyan2Ar gurupUjai
+## Iḻaiyānkuḍi Mār̂A Nāyanār Gurupūjai
 இளையான்குடி மாற நாயனார் குருபூஜை is observed on Maghā nakṣhatram day of Siṃha (solar) month (sunrise (default)/puurvaviddha (default)).
 
 

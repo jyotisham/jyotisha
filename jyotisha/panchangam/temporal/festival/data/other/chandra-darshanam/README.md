@@ -1,4 +1,4 @@
-## candra-darzanam
+## Chandra-Darśanam
 _Have darshan of Moon today, chanting the following shloka_
 
 ```

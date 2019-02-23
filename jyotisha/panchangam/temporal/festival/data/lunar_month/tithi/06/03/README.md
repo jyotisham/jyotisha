@@ -1,10 +1,10 @@
-## varAha jayantI
+## Varāha Jayantī
 वराह जयन्ती is observed on Śukla-Tṛtīyā tithi of Bhādrapada (lunar) month (aparahna/puurvaviddha).
 
 
 
 ---
-## haritAlikA-vratam
+## Haritālikā-Vratam
 हरितालिका-व्रतम् is observed on Śukla-Tṛtīyā tithi of Bhādrapada (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 _Puja of Gauri-Maheshwara on Vrishabham, esp. for girls desirous of getting married, like Goddess Parvati sought the hand of Maheshwara, as Himavan's daughter._
@@ -13,13 +13,13 @@ _Puja of Gauri-Maheshwara on Vrishabham, esp. for girls desirous of getting marr
 
 
 ---
-## vipattAra-gaurI-vratam
+## Vipattāra-Gaurī-Vratam
 विपत्तार-गौरी-व्रतम् is observed on Śukla-Tṛtīyā tithi of Bhādrapada (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 
 ---
-## manvAdi (raivata)
+## Manvādi (Raivata)
 मन्वादि (रैवत) is observed on Śukla-Tṛtīyā tithi of Bhādrapada (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 

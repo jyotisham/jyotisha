@@ -1,4 +1,4 @@
-## sarasvatI-AvAhanam
+## Sarasvatī-Āvāhanam
 सरस्वती-आवाहनम् is observed on Mūlā nakṣhatram day of Āśvayuja (lunar) month (madhyaahna/puurvaviddha).
 
 _Being मूला nakshatram, it is another ideal day to begin Saraswati Puja. If not, at least perform on Navami. During the Saraswati Puja days, those desirous of obtaining knowledge must not teach, learn or write anything!_

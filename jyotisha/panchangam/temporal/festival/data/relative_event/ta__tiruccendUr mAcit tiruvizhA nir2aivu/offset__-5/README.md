@@ -1,4 +1,4 @@
-## tiruccendUr murugan2 mAcit tiruvizhA ##7##m nAL—urugu cattac cEvai/cigappu cAtti alaGkAram
+## Tiruchchêndūr Murugan Māchit Tiruviḷā 7M Nāḻ—Urugu Chattach Chevai/Chigappu Chātti Alaṅkāram
 
 
 ---

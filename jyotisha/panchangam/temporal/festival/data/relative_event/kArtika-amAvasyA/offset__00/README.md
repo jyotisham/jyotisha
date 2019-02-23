@@ -1,4 +1,4 @@
-## navama-aparapakSa-samApanam
+## Navama-Aparapakṣa-Samāpanam
 
 
 ---

@@ -1,10 +1,10 @@
-## kanyA-saGkramaNam
+## Kanyā-Saṅkramaṇam
 कन्या-सङ्क्रमणम् is observed on Amāvāsyā tithi of Bhādrapada (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 
 ---
-## azvazirO-dEva-pUjA
+## Aśvaśiro-Deva-Pūjā
 अश्वशिरो-देव-पूजा is observed on Amāvāsyā tithi of Bhādrapada (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
@@ -13,13 +13,13 @@
 
 
 ---
-## sujanmaprApti-vratam
+## Sujanmaprāpti-Vratam
 सुजन्मप्राप्ति-व्रतम् is observed on Amāvāsyā tithi of Bhādrapada (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 
 ---
-## zRGgErI 34 jagadguru zrI candrazEkhara bhAratI ArAdhanA
+## Śṛṅgerī 34 Jagadguru Śrī Chandraśekhara Bhāratī Ārādhanā
 शृङ्गेरी ३४ जगद्गुरु श्री चन्द्रशेखर भारती आराधना is observed on Amāvāsyā tithi of Bhādrapada (lunar) month (madhyaahna/puurvaviddha).
 
 

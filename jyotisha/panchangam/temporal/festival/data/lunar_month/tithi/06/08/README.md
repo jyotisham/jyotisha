@@ -1,16 +1,16 @@
-## rAdhASTamI
+## Rādhāṣṭamī
 राधाष्टमी is observed on Śukla-Aṣṭamī tithi of Bhādrapada (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 
 ---
-## dUrvASTamI
+## Dūrvāṣṭamī
 दूर्वाष्टमी is observed on Śukla-Aṣṭamī tithi of Bhādrapada (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 _Do पूजा *of* दूर्व!_
 
 ---
-## dadhIci maharSi jayanti
+## Dadhīchi Maharṣi Jayanti
 दधीचि महर्षि जयन्ति is observed on Śukla-Aṣṭamī tithi of Bhādrapada (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 

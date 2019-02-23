@@ -1,10 +1,10 @@
-## tulasIdAsa jayantI
+## Tulasīdāsa Jayantī
 तुलसीदास जयन्ती is observed on Śukla-Saptamī tithi of Śravaṇa (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 
 ---
-## zItalA saptamI
+## Śītalā Saptamī
 शीतला सप्तमी is observed on Śukla-Saptamī tithi of Śravaṇa (lunar) month (madhyaahna/puurvaviddha).
 
 
@@ -13,19 +13,19 @@
 
 
 ---
-## pApanAzanI saptamI
+## Pāpanāśanī Saptamī
 पापनाशनी सप्तमी is observed on Śukla-Saptamī tithi of Śravaṇa (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 
 ---
-## avyaGga-saptamI
+## Avyaṅga-Saptamī
 अव्यङ्ग-सप्तमी is observed on Śukla-Saptamī tithi of Śravaṇa (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 
 ---
-## dvAdaza-saptamI
+## Dvādaśa-Saptamī
 द्वादश-सप्तमी is observed on Śukla-Saptamī tithi of Śravaṇa (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 _Surya Puja, Danam to please Surya Bhagavan_

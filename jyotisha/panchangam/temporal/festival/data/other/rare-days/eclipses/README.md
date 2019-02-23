@@ -1,20 +1,20 @@
-## candra-grahaNam (rAhugrasta)
+## Chandra-Grahaṇam (Rāhugrasta)
 
 
 ---
-## candra-grahaNam (kEtugrasta)
+## Chandra-Grahaṇam (Ketugrasta)
 
 
 ---
-## ★cUDAmaNi-candra-grahaNam (rAhugrasta)
+## ★Chūḍāmaṇi-Chandra-Grahaṇam (Rāhugrasta)
 
 
 ---
-## ★cUDAmaNi-candra-grahaNam (kEtugrasta)
+## ★Chūḍāmaṇi-Chandra-Grahaṇam (Ketugrasta)
 
 
 ---
-## sUrya-grahaNam
+## Sūrya-Grahaṇam
 
 
 ---

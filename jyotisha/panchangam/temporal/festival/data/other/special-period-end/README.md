@@ -1,4 +1,4 @@
-## agninakSatra-samApanam
+## Agninakṣatra-Samāpanam
 
 
 ---

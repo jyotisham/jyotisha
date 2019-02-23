@@ -1,4 +1,4 @@
-## cidambarE rajata candraprabha vAhanam
+## Chidambare Rajata Chandraprabha Vāhanam
 
 
 ---

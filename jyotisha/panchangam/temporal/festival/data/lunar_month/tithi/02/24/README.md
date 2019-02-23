@@ -1,4 +1,4 @@
-## kAJcI 7 jagadguru zrI AnandajJAnEndra sarasvatI ArAdhanA
+## Kāñchī 7 Jagadguru Śrī Ānandajñānendra Sarasvatī Ārādhanā
 काञ्ची ७ जगद्गुरु श्री आनन्दज्ञानेन्द्र सरस्वती आराधना is observed on Kṛṣṇa-Navamī tithi of Vaiśākha (lunar) month (madhyaahna/puurvaviddha).
 
 _A native of Chera country, son of Sūryanārāyaṇamakhi, by name Chinnaya, having secured excellence in Sāhitya by the infinite or immeasurable or unbound grace of goddess Gaurī, who was pleased with worship, the sage by name Ānāndajñānanā prefixed with the term ‘Bhagavat’ the author of a collection of expository texts on the works of Ācārya, lived in the Kāmakoṭi Pīṭha of the Ācārya, the author of a commentary on Brahmasūtras. This accomplished knower of Brahman having got rid of the ignorance by the immaculate splendour of the moon-like Śuddhānandamunīndra, spreading the path of non-dualism protecting the world/earth for sixty-nine years, then approaching Śrīśailā, on the way, attained blissful liberation on the ninth day of the dark fortnight in the month of Rādhā (Vaiśākha) of the year Krodhana._

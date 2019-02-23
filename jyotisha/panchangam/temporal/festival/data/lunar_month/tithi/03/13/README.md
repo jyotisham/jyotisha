@@ -1,16 +1,16 @@
-## durgandha-daurbhAgya-nAzaka-trayOdazI
+## Durgandha-Daurbhāgya-Nāśaka-Trayodaśī
 दुर्गन्ध-दौर्भाग्य-नाशक-त्रयोदशी is observed on Śukla-Trayodaśī tithi of Jyaiṣṭha (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 
 ---
-## vidyAraNya svAmI ArAdhanA
+## Vidyāraṇya Svāmī Ārādhanā
 विद्यारण्य स्वामी आराधना is observed on Śukla-Trayodaśī tithi of Jyaiṣṭha (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 
 ---
-## chatrapati zivAjI rAjyAbhiSEkaH
+## Chhatrapati Śivājī Rājyābhiṣekaḥ
 छत्रपति शिवाजी राज्याभिषेकः is observed on Śukla-Trayodaśī tithi of Jyaiṣṭha (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 

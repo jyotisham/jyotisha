@@ -1,8 +1,8 @@
-## indra-pUjA/gO-pUjA
+## Indra-Pūjā/Go-Pūjā
 
 
 ---
-## kan2up poGgal
+## Kanup Pôṅgal
 
 
 ---

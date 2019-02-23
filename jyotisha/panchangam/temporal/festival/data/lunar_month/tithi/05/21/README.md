@@ -1,4 +1,4 @@
-## hala-SaSThI
+## Hala-Ṣaṣṭhī
 हल-षष्ठी is observed on Kṛṣṇa-Ṣaṣṭhī tithi of Śravaṇa (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 _Birth of Balarama_
