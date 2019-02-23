@@ -1,9 +1,15 @@
 ## kAJcI 5 jagadguru zrI jJAnAnandEndra sarasvatI ArAdhanA
 काञ्ची ५ जगद्गुरु श्री ज्ञानानन्देन्द्र सरस्वती आराधना is observed on Śukla-Saptamī tithi of Mārgaśīrṣa (lunar) month (madhyaahna/puurvaviddha).
 
+_Born of a brahmin called Nāgeśa in the village called Maṅgala of the Chola country, the erudite saint well-known as Śrī Jñānottama, foremost among logicians, having adorned the Pīṭha of preceptors for sixty-three years, attained salvation/siddhi on the seventh day of the bright fortnight in the month of Mārgaśīrṣa of the year Manmatha._
 
+```
+जातो मङ्गलनाम्नि चोलविषये नागेशसंज्ञाद् द्विजाच्छ्रीज्ञानोत्तम इत्यवाप्तबिरुदो यस्तार्किकाग्रेसरः।
+ज्ञानानन्दमुनिस्त्रिषष्टिशरदः सम्मण्ड्य पीठीं गुरोः सिद्धिं मन्मथमार्गशीर्षसितसप्तम्याम् अवापत्सुधीः॥१३॥
+—पुण्यश्लोकमञ्जरी
+```
 ### References
-* www.kamakoti.org
+* Punya Shloka Manjari
 
 
 ---

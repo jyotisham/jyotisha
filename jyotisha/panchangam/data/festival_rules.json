@@ -3743,8 +3743,14 @@
         "jsonClass": "HinduCalendarEventOld",
         "kaala": "madhyaahna",
         "month_number": 2,
-        "month_type": "solar_month",
+        "month_type": "lunar_month",
         "priority": "puurvaviddha",
+        "shlokas": [
+            "mahEzAMzAjjAtO madhuram upadiSTAdvayanayO\nmahAmOhadhvAntaprazamanaraviH SaNmataguruH.\nphalE svasmin svAyuSyapi zaracarAbdE'pi ca kalEH\nvililyE raktAkSiNyadhivRSasitaikAdazi parE..4..\n—puNyazlOkamaJjarI"
+        ],
+        "description": {
+            "en": "Born as an aṁśa of Lord Maheśa (Śiva), the sweet or lucid instructor of the principles of non-dualism, the Sun in dispelling the dense darkness (the great delusion), the preceptor of the six cults, merged in Supreme in the thirty-second year of his life span, in the Kali era 2625 on the eleventh day of the bright fortnight in the month of Vṛṣabha of the year Raktākṣi. This venerable Śri Śaṅkarābhagavatpāda established the Advaita school everywhere after winning over the scholars (of rival schools) through commentarial works on Brahmasūtra etc. His native is Kerala; belonged to Nampūthiri group; father was Śivaguru, mother Āryāmbā, preceptor - Śri Govindabhagavatpāda, life span - 32 years; realisation - on the eleventh day of the bright fortnight of the month Vṛṣabha in the year Raktākṣi of Kali era - 2625 in Kāñci itself."
+        },
         "references_secondary": [
             "www.kamakoti.org"
         ],
@@ -3760,6 +3766,12 @@
         "month_number": 3,
         "month_type": "lunar_month",
         "priority": "puurvaviddha",
+        "shlokas": [
+            "gauDaH kAzmIrajanmA kalitaparicitiH pUrvatantrE kumArAd\nbrahmaNyaH sarvavEdaH sphuTazapathapathaM zrImadAcAryayOdhI.\nsannyAsaM prApitastaM tadanu paricaran yOgabhUmaikasImA\ntasyAdEzEna kAJcyAm avasadatha samAH saptatiM kAmapIThE..5..\nvarSE zuddhatarE (2695) kalEratha bhavE jyESThE sitadvAdazI-\nrAtrau citritasarvabhUH sa yazasA zrImAn surEzaH svayam.\nzritvA puNyarasAM rasEna mahatA yuJjan layAkhyE pathi\nzlakSNazrIzivaliGgabhUyam abhajat sAkSAt satAM pazyatAm..6..\n—puNyazlOkamaJjarI"
+        ],
+        "description": {
+            "en": "A native of Gauḍadeśa, born in Kashmir, pious, Śri Sureśvara, secured the knowledge of Pūrva Mīmāṁsā from Kumārila bhaṭṭā, well-versed in Vedas, and avowed to house-holder’s life; he engaged in debate with Ācārya and got initiated into asceticism. Then, attending on Ācārya, he reached the highest level in yogic practices and by the directions of the Ācārya, he lived forseventy years at the Kāmapīṭha in Kāñci. Then, in the year 2695 of the Kali era, on the night of the twelfth day of the bright fortnight in the month of Jyeṣṭha of the Bhava year that revered Sureśa, having taken the world by surprise through his fame by traversing throughout the earth, united/merged with the Supreme Being in the path known as Laya obtained the state of beautiful form of Śivaliṅga verily in the presence of on-lookers."
+        },
         "references_secondary": [
             "www.kamakoti.org"
         ],
@@ -3775,6 +3787,15 @@
         "month_number": 2,
         "month_type": "lunar_month",
         "priority": "puurvaviddha",
+        "shlokas": [
+            "tAmrArOdhasi vardhanAt samuditaH sannyAsitaH saptamAt prAgEvAtmavivAdahRSTamanasA zrIzaGkarENaiva yaH.\ntatpIThE sasurEzvaraM samanayad varSAMzca yaH saptatiM catvAriMzatam Asta sadvayam asau abdAn svayaM tanmaThE..8..\nAcAryapriyapadmapAdacaraNAmbhOjadvayIsEvanAd UDhadvAravatImaThAya munayE brahmasvarUpAtmanE.\nzraddhArAddhapadAya tattvamatulaM cinmudrayA nirdizannEvaikyaM samagAnnijEna mahasA sarvajJasaMjJO muniH..9..\nkalyabdaiH sa hayAgnilOkanayanaiH (2737) varSE nalE mAdhavE\nlilyE kRSNacaturdazImanu mahasyAmnAyazailAntikE.\ngranthairyatkalitairnyadarzi vizadaM saGkSEpazArIraka-\nprakhyairadvayasUtrabhASyagahanacchannaH padArthOccayaH..10..\n—puNyazlOkamaJjarI"
+        ],
+        "description": {
+            "en": "This Sarvajñātman, who was born to Vardhana got initiated into asceticism even before the age of seven by Śri Śaṅkara himself on being delighted to have had debate with him on the banks of river Tāmraparṇi; he spent seventy years along with Sureśvara in that Pīṭha and then lived in that Maṭha for forty two yearsThe sage known as Sarvajña attained union with his own Self by doing service at the lotus feet of Śri Padmapāda, who  was  dear  to  the  Ācārya  (Śri  Śaṅkara) and imparting the unparallel doctrine through Cinmudrā to the saint by name Brahmasvarūpa who served with love and faith at the feet of the master who (Sarvajña or Brahmasvarūpa? - Not clear from sentence construction) was holding the pontiff-dom of the Dvāravatī maṭha.The sage Sarvajñātman whose works such as Saṁkṣepaśārīraka showed clearly/elaborately the collective meaning of the words hidden in the great commentatorial works on Advaita merged in the Supreme on the fourteenth day of the dark fortnight in the month of Vaiśākha in the Nala year of the Kali era 2737 at Kāñci Śri Śaṅkara Maṭha."
+        },
+        "references_primary": [
+            "Punya Shloka Manjari"
+        ],
         "references_secondary": [
             "www.kamakoti.org"
         ],
@@ -3790,6 +3811,15 @@
         "month_number": 9,
         "month_type": "lunar_month",
         "priority": "puurvaviddha",
+        "shlokas": [
+            "AmrAvatItaTajatANDavazarmasUnuH zrIsatyabOdhaniyamI phalinIzanAmA.\nzrIbhASyavArtikakRdAdarasamprapannasarvajJasadgururavODha dhurAM gurUNAm..11..\nabdAn yastattva(96)saGkhyAn avasad adhi maThE zAradAnAmni kAJcyAM\ndRpyattautAtitArhajjinagurukaNabhukpazyadaGghryAditantram.\nniryantraM nirmimANaH padakazatahatArAtikautaskutOktiH\nsAkSAcchrIsatyabOdhO'kRta sahabahulASTamyahE nandanE svam..12..\n—puNyazlOkamaJjarI"
+        ],
+        "description": {
+            "en": "The saint Satyabodha, by name Phalinīśa (before initiation into sainthood), son of Tāṇḍavaśarma living on the banks of Āmrāvatī river, the noble preceptor, who authored commentatorial and Vārtika texts on Advaita Vedānta bore the responsibilities of preceptor. Then, Śrī Satyabodha, who lived for ninety six years in Kāñci in the Maṭha called Śāradā, making unrestrained the systems of haughty Kumārila, Buddhists, Jains, Prabhākara, Kaṇāda and Akṣapāda and having shattered the enemies by the text Padakaśata realised his Self on the eighth day of the dark fortnight in the year Nandana."
+        },
+        "references_primary": [
+            "Punya Shloka Manjari"
+        ],
         "references_secondary": [
             "www.kamakoti.org"
         ],
@@ -3805,6 +3835,15 @@
         "month_number": 9,
         "month_type": "lunar_month",
         "priority": "puurvaviddha",
+        "shlokas": [
+            "jAtO maGgalanAmni cOlaviSayE nAgEzasaMjJAd dvijAcchrIjJAnOttama ityavAptabirudO yastArkikAgrEsaraH.\njJAnAnandamunistriSaSTizaradaH sammaNDya pIThIM gurOH siddhiM manmathamArgazIrSasitasaptamyAm avApatsudhIH..13..\n—puNyazlOkamaJjarI"
+        ],
+        "description": {
+            "en": "Born of a brahmin called Nāgeśa in the village called Maṅgala of the Chola country, the erudite saint well-known as Śrī Jñānottama, foremost among logicians, having adorned the Pīṭha of preceptors for sixty-three years, attained salvation/siddhi on the seventh day of the bright fortnight in the month of Mārgaśīrṣa of the year Manmatha."
+        },
+        "references_primary": [
+            "Punya Shloka Manjari"
+        ],
         "references_secondary": [
             "www.kamakoti.org"
         ],
@@ -3820,6 +3859,15 @@
         "month_number": 3,
         "month_type": "lunar_month",
         "priority": "puurvaviddha",
+        "shlokas": [
+            "vEdAraNyajavaidyabharvutanayaH zrIvizvanAthAbhidhO jJAnAnandamunEravApya niyamaM kAJcIpadE sthApitaH.\nzuddhAnandamunIzvaraH sa zaradaH saikAmazItiM dhurAm AcAryasya vahannavApa ca nalajyESThAcchaSaSThyAM layam..14..\n—puNyazlOkamaJjarI"
+        ],
+        "description": {
+            "en": "Śrī Viśvanātha, son of Vaidyabharva of Vedāraṇya, received initiation from sage Jñānānanda, became Śuddhānandamunīśvara was established in Kāñcī; having carried on the responsibilities of the preceptor for eighty-one years, he secured union on the sixth day of the bright fortnight in the year Nala."
+        },
+        "references_primary": [
+            "Punya Shloka Manjari"
+        ],
         "references_secondary": [
             "www.kamakoti.org"
         ],
@@ -3835,6 +3883,15 @@
         "month_number": 2,
         "month_type": "lunar_month",
         "priority": "puurvaviddha",
+        "shlokas": [
+            "AnandArAddhagaurIniravadhikaruNAlabdhasAhityavidyA-\nsauhityaH sUryanArAyaNamakhitanayazcErabhUzcinnayAkhyaH.\nAnandajJAnanAmA bhagavadupapadaH sambabhau bhASyakartuH\npIThE zrIkAmakOTyAM prakaTitaparamAcAryabhASyaughabhASyaH..15..\nzuddhAnandamunIndracandravimalAlOkAstacEtastamAH\nvistAryAdvayavartma saptatimathO naikAM samA gAmavan.\nzrIzailAntikam Asadan pathivazAd AnandasiddhiM yayau\nsiddhaH krOdhanarAdhakRSNanavamIsandhyAmanu brahmavit..16..\n—puNyazlOkamaJjarI"
+        ],
+        "description": {
+            "en": "A native of Chera country, son of Sūryanārāyaṇamakhi, by name Chinnaya, having secured excellence in Sāhitya by the infinite or immeasurable or unbound grace of goddess Gaurī, who was pleased with worship, the sage by name Ānāndajñānanā prefixed with the term ‘Bhagavat’ the author of a collection of expository texts on the works of Ācārya, lived in the Kāmakoṭi Pīṭha of the Ācārya, the author of a commentary on Brahmasūtras. This accomplished knower of Brahman having got rid of the ignorance by the immaculate splendour of the moon-like Śuddhānandamunīndra, spreading the path of non-dualism protecting the world/earth for sixty-nine years, then approaching Śrīśailā, on the way, attained blissful liberation on the ninth day of the dark fortnight in the month of Rādhā (Vaiśākha) of the year Krodhana."
+        },
+        "references_primary": [
+            "Punya Shloka Manjari"
+        ],
         "references_secondary": [
             "www.kamakoti.org"
         ],
@@ -3850,6 +3907,15 @@
         "month_number": 10,
         "month_type": "lunar_month",
         "priority": "puurvaviddha",
+        "shlokas": [
+            "zrIzailIyazivayyasUnuradadhAt tasyAjJayA tat padaM maGgaNNArya iti zrutaH paramahO kaivalyayOgiprathaH.\nArUDhaH zivarAjayOgapadavIM tiSThaMstryazItiM samAH siddhO'bhUt sa ca sarvadhArimakarakrAntau ca sAyAhani..17..\n—puNyazlOkamaJjarI"
+        ],
+        "description": {
+            "en": "Son of Śivayya of Śrīśaila, known as Manganna, held that position by his directions and became well-known as Kaivalya Yogi, ascended to the status of a Rājayogi and remaining (in that position) for eighty three years accomplished realisation in the evening of Makarasaṅkrānti of the year Sarvadhāri."
+        },
+        "references_primary": [
+            "Punya Shloka Manjari"
+        ],
         "references_secondary": [
             "www.kamakoti.org"
         ],
@@ -3865,6 +3931,15 @@
         "month_number": 8,
         "month_type": "lunar_month",
         "priority": "puurvaviddha",
+        "shlokas": [
+            "AndhrESvAtmaNasOmayAjitanayO gargAnvayO gaGgayA-\nbhikhyaH khyApitaSaNmataH zivahariskandAdisEvAdhvani.\ntantrAcAravidUramEva paritO vEdaikamArgOditaM\nsaMsthApyAdvayam apyadhAd dvayakathAdUraM kRpAzaGkaraH..18..\nzrIkaivalyamunIndrazAsanavazAt zrIvizvarUpAbhidhaM zRGgEryAM nihitaM vidhAya niyamAn lOkE vyavasthApya ca.\ncatvAriMzatam Ekayuktam abhimaNDyAcAryapIThIM dizaM prasthAyaiDaviDasya siddhimabhajadvindhyE kRpAzaGkaraH..19..\nvibhavE vibhurUrjitaH parOrjE paramApAnutRtIyam advitIyaH.\nparamaM padam AtmanInamEkaM paramAnandamayaM parAparAkhyam..20..\n—puNyazlOkamaJjarI"
+        ],
+        "description": {
+            "en": "Kṛpāśaṅkara, son of Ātmasomayāji in Andhra in the lineage of Garga, with the name Gaṅgayya before initiation established six religions of worship in worshipping Śiva, Hari, Skanda and others away from Tantrik practices and establishing everywhere the non-dualism enunciated in the Vedas, drove away the notion of dualism. Kṛpāśaṅkara established Śrī Viśvarūpa at Śṛṅgeri under the directions of Śrī Kaivalya Munīndra and formulated precepts; having adorned Ācārya Pīṭha for forty-one years, he departed in the direction of Kubera, viz. North and attained siddhi at Vindhyas. The mighty omniscient (Kṛpāśaṅkara), the One without a second, attained the supreme non-dual state of the Ultimate known as parāpara which is full of Supreme Bliss on the third day of the dark fortnight in the month of Kārtika in the year Vibhava."
+        },
+        "references_primary": [
+            "Punya Shloka Manjari"
+        ],
         "references_secondary": [
             "www.kamakoti.org"
         ],

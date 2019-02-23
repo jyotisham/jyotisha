@@ -13,9 +13,15 @@
 ## kAJcI 6 jagadguru zrI zuddhAnandEndra sarasvatI ArAdhanA
 काञ्ची ६ जगद्गुरु श्री शुद्धानन्देन्द्र सरस्वती आराधना is observed on Śukla-Ṣaṣṭhī tithi of Jyaiṣṭha (lunar) month (madhyaahna/puurvaviddha).
 
+_Śrī Viśvanātha, son of Vaidyabharva of Vedāraṇya, received initiation from sage Jñānānanda, became Śuddhānandamunīśvara was established in Kāñcī; having carried on the responsibilities of the preceptor for eighty-one years, he secured union on the sixth day of the bright fortnight in the year Nala._
 
+```
+वेदारण्यजवैद्यभर्वुतनयः श्रीविश्वनाथाभिधो ज्ञानानन्दमुनेरवाप्य नियमं काञ्चीपदे स्थापितः।
+शुद्धानन्दमुनीश्वरः स शरदः सैकामशीतिं धुराम् आचार्यस्य वहन्नवाप च नलज्येष्ठाच्छषष्ठ्यां लयम्॥१४॥
+—पुण्यश्लोकमञ्जरी
+```
 ### References
-* www.kamakoti.org
+* Punya Shloka Manjari
 
 
 ---
