@@ -1,4 +1,4 @@
-## Kapālī Viḍaiyār̂R̂I Nir̂Aivu
+## Kapālī Viḍaiyār̂r̂i Nir̂aivu
 
 
 ---

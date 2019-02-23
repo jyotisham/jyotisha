@@ -37,7 +37,17 @@ def write_event_README(event, event_file_name):
       event_dict = json.load(event_data)
       with open(readme_file_name, 'a+') as readme_file:
         # readme_file.write('## %s\n' % event_dict["id"].replace('ta__', '').replace('~', ' ').strip('{}'))
-        readme_file.write('## %s\n' % custom_transliteration.tr(event_dict["id"], sanscript.IAST).replace('Ta__', '').replace('~', ' ').strip('{}'))
+        headline = custom_transliteration.tr(event_dict["id"], sanscript.IAST).replace('Ta__', '').replace('~', ' ').strip('{}')
+        # Replace letter following r̂/r̂r̂ with lowercase
+        for sep in ['r̂']:
+          if headline[1:].find(sep) != -1:
+            headline = sep.join([word[0].lower() + word[1:] for word in headline.split(sep)])
+            headline = headline[0].upper() + headline[1:]
+        for sep in ['r̂r̂']:
+          if headline[1:].find(sep) != -1:
+            headline = sep.join([word[0].lower() + word[1:] for word in headline.split(sep)])
+            headline = headline[0].upper() + headline[1:]
+        readme_file.write('## %s\n' % headline)
 
         blurb = ''
         month = ''

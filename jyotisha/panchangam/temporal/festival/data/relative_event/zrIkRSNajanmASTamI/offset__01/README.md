@@ -2,7 +2,7 @@
 
 
 ---
-## Varagūr Ur̂Iyaḍi Utsavam
+## Varagūr Ur̂iyaḍi Utsavam
 
 
 ---

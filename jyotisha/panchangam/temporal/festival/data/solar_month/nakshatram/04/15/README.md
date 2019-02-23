@@ -1,4 +1,4 @@
-## Kaḷar̂Ir̂R̂Ar̂Ivār Nāyanār Gurupūjai
+## Kaḷar̂ir̂r̂ar̂ivār Nāyanār Gurupūjai
 கழறிற்றறிவார் நாயனார் குருபூஜை is observed on Svāti nakṣhatram day of Kaṭaka (solar) month (sunrise (default)/puurvaviddha (default)).
 
 

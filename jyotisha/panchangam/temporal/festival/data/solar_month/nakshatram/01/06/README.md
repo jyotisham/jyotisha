@@ -1,4 +1,4 @@
-## Vir̂Anmiṇḍa Nāyanār Gurupūjai
+## Vir̂anmiṇḍa Nāyanār Gurupūjai
 விறன்மிண்ட நாயனார் குருபூஜை is observed on Ārdrā nakṣhatram day of Meṣa (solar) month (sunrise (default)/puurvaviddha (default)).
 
 

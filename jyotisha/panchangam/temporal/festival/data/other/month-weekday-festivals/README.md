@@ -1,8 +1,8 @@
-## Āvaṇi Ñāyir̂R̂Ukkiḷamai
+## Āvaṇi Ñāyir̂r̂ukkiḷamai
 _Do puja to Surya/Suryanamaskaram._
 
 ---
-## Kārttigai Ñāyir̂R̂Ukkiḷamai
+## Kārttigai Ñāyir̂r̂ukkiḷamai
 _Do puja to Surya/Suryanamaskaram._
 
 ---
