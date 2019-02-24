@@ -1,7 +1,9 @@
 ## Kāñchī 26 Jagadguru Śrī Prajñāghanendra Sarasvatī Ārādhanā
 काञ्ची २६ जगद्गुरु श्री प्रज्ञाघनेन्द्र सरस्वती आराधना is observed on Śukla-Aṣṭamī tithi of Vaiśākha (lunar) month (madhyaahna/puurvaviddha).
 
-_![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-26.jpg)Śoṇagiri, son of Prabhākaraśarma, who lived on the banks of river Pinākinī, became Jagadguru Prajñāghana and attained blissful state on the night of the eighty day of the bright fortnight of the month of Vaiśāka in the year Subhānu/Svabhānu._
+![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-26.jpg
+
+)_Śoṇagiri, son of Prabhākaraśarma, who lived on the banks of river Pinākinī, became Jagadguru Prajñāghana and attained blissful state on the night of the eighty day of the bright fortnight of the month of Vaiśāka in the year Subhānu/Svabhānu._
 
 ```
 प्रभाकरस्यात्मभवः पिनाकिनीतटीभवः शोणगिरिर्जगद्गुरुः।

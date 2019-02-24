@@ -36,7 +36,6 @@ def write_event_README(event, event_file_name):
       readme_file_name = os.path.join(os.path.dirname(event_file_name), 'README.md')
       event_dict = json.load(event_data)
       with open(readme_file_name, 'a+') as readme_file:
-        # readme_file.write('## %s\n' % event_dict["id"].replace('ta__', '').replace('~', ' ').strip('{}'))
         headline = custom_transliteration.tr(event_dict["id"], sanscript.IAST).replace('Ta__', '').replace('~', ' ').strip('{}')
         # Replace letter following r̂/r̂r̂ with lowercase
         for sep in ['r̂']:
@@ -94,11 +93,13 @@ def write_event_README(event, event_file_name):
             blurb += ' (%s/%s).\n\n' % (kaala, priority)
         readme_file.write(blurb)
         description_string = ""
-        logging.debug(event_dict)
+        if "image" in event_dict:
+          description_string = '![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/%s\n\n)' % event_dict['image']
+
         if "description" in event_dict:
           # description_string = json.dumps(event_dict.description)
           # description_string = '_' + event_dict["description"]["en"] + '_'
-          description_string = '_' + event.get_description_string(script=sanscript.DEVANAGARI) + '_'
+          description_string = description_string + '_' + event.get_description_string(script=sanscript.DEVANAGARI) + '_'
         if "shlokas" in event_dict:
           description_string = description_string + '\n\n```\n' + \
                                custom_transliteration.tr(", ".join(event_dict["shlokas"]),

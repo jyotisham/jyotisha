@@ -211,6 +211,10 @@ class HinduCalendarEvent(common.JsonObject):
         "type": "string",
         "description": "",
       },
+      "image": {
+        "type": "string",
+        "description": "",
+      },
       "description_short": {
         "type": "object",
         "description": "",
@@ -259,6 +263,8 @@ class HinduCalendarEvent(common.JsonObject):
       event.priority = old_style_event.priority
     if hasattr(old_style_event, "comments"):
       event.comments = old_style_event.comments
+    if hasattr(old_style_event, "image"):
+      event.image = old_style_event.image
     if hasattr(old_style_event, "references_primary"):
       event.references_primary = old_style_event.references_primary
     if hasattr(old_style_event, "references_secondary"):

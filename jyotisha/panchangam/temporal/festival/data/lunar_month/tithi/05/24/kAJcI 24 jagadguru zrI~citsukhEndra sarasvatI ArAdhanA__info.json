@@ -1,8 +1,9 @@
 {
   "description": {
-    "en": "![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-24.jpg)Well-known as \u015aiva earlier, this Citsukhendra the governor (of the ma\u1e6dh) remained in Ko\u1e45ka\u1e47a; adorning the Preceptorship He was taking care of spiritual activities. He did not move a step from his place. This revered Preceptor ever victorious, the selfrestrained one, merged in the Supreme on the night in the month of \u015arava\u1e47a of the year Par\u0101bhava."
+    "en": "Well-known as \u015aiva earlier, this Citsukhendra the governor (of the ma\u1e6dh) remained in Ko\u1e45ka\u1e47a; adorning the Preceptorship He was taking care of spiritual activities. He did not move a step from his place. This revered Preceptor ever victorious, the selfrestrained one, merged in the Supreme on the night in the month of \u015arava\u1e47a of the year Par\u0101bhava."
   },
   "id": "kAJcI 24 jagadguru zrI~citsukhEndra sarasvatI ArAdhanA",
+  "image": "kanchi-jagadgurus/jagadguru-24.jpg",
   "jsonClass": "HinduCalendarEvent",
   "priority": "puurvaviddha",
   "references_primary": [

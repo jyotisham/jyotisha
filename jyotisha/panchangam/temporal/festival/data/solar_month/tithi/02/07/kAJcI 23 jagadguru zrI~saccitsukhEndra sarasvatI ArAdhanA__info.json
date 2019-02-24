@@ -1,8 +1,9 @@
 {
   "description": {
-    "en": "![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-23.jpg)Son of \u015ar\u012b Cikk\u0101kula Soman\u0101rya, named Gir\u012b\u015ba earlier. initiated with the tile Saccitsukha by Parip\u016br\u1e47abodha; an ardent devotee of Lord Subrahmanya, He made pious the astrologer \u0100ryabha\u1e6d\u1e6da by making him carry out the expiatory rite for his long voyage (on sea). He, Saccitsukha, having instituted Citsukha in his place, attained siddhi on the seventh day of the bright fortnight of the month of V\u1e5b\u1e63abha in the year Khara."
+    "en": "Son of \u015ar\u012b Cikk\u0101kula Soman\u0101rya, named Gir\u012b\u015ba earlier. initiated with the tile Saccitsukha by Parip\u016br\u1e47abodha; an ardent devotee of Lord Subrahmanya, He made pious the astrologer \u0100ryabha\u1e6d\u1e6da by making him carry out the expiatory rite for his long voyage (on sea). He, Saccitsukha, having instituted Citsukha in his place, attained siddhi on the seventh day of the bright fortnight of the month of V\u1e5b\u1e63abha in the year Khara."
   },
   "id": "kAJcI 23 jagadguru zrI~saccitsukhEndra sarasvatI ArAdhanA",
+  "image": "kanchi-jagadgurus/jagadguru-23.jpg",
   "jsonClass": "HinduCalendarEvent",
   "priority": "puurvaviddha",
   "references_primary": [

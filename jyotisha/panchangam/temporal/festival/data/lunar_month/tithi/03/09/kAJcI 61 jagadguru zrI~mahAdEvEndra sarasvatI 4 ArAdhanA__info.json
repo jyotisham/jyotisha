@@ -1,8 +1,9 @@
 {
   "description": {
-    "en": "![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-61.jpg)Here (in this world) the best among preceptors by name Mah\u0101devendra adorned the incomparable seat of preceptor for forty-two years; thus the great Yogi realised the Self and attained siddhi on the ninth day of bright fortnight in the month of Jye\u1e63\u1e6dha in the year Krodhana. \u0100tmabodha, who wrote a commentary Su\u1e63am\u0101 on \u015ar\u012b Sad\u0101\u015bivabrahmendra\u2019s Gururatnam\u0101lika also belonged to this period (aa contemporary of this preceptor). Only during this period, the Jagadguru Ma\u1e6dha moved out of K\u0101\u00f1ci. The place where this present preeptor attained siddhi was the wellknown Tiruvottiyur situated in the north of Madras (\u015aalivahana era 1664)."
+    "en": "Here (in this world) the best among preceptors by name Mah\u0101devendra adorned the incomparable seat of preceptor for forty-two years; thus the great Yogi realised the Self and attained siddhi on the ninth day of bright fortnight in the month of Jye\u1e63\u1e6dha in the year Krodhana. \u0100tmabodha, who wrote a commentary Su\u1e63am\u0101 on \u015ar\u012b Sad\u0101\u015bivabrahmendra\u2019s Gururatnam\u0101lika also belonged to this period (aa contemporary of this preceptor). Only during this period, the Jagadguru Ma\u1e6dha moved out of K\u0101\u00f1ci. The place where this present preeptor attained siddhi was the wellknown Tiruvottiyur situated in the north of Madras (\u015aalivahana era 1664)."
   },
   "id": "kAJcI 61 jagadguru zrI~mahAdEvEndra sarasvatI 4 ArAdhanA",
+  "image": "kanchi-jagadgurus/jagadguru-61.jpg",
   "jsonClass": "HinduCalendarEvent",
   "priority": "puurvaviddha",
   "references_primary": [
@@ -12,7 +13,7 @@
     "www.kamakoti.org"
   ],
   "shlokas": [
-    "advaitAtmaprakAzEndrAd bAlya AzritasaMyamaH.nArAyaNa AdipurE lilyE'nazanatatparaH..6..\nmahAdEvEndrAkhyO guruvara ihAcAryapadavIM samAzcatvAriMzad dvizaradadhikA bibhrad atulAm.\nmahAyOgI sAkSAtkRtaparamahAH krOdhanasamE tathA jyESThE zuklE navamasutithau siddhim abhajat..7..\n\u2014puNyazlOkamaJjarI"
+    "advaitAtmaprakAzEndrAd bAlya AzritasaMyamaH.\nnArAyaNa AdipurE lilyE'nazanatatparaH..6..\nmahAdEvEndrAkhyO guruvara ihAcAryapadavIM samAzcatvAriMzad dvizaradadhikA bibhrad atulAm.\nmahAyOgI sAkSAtkRtaparamahAH krOdhanasamE tathA jyESThE zuklE navamasutithau siddhim abhajat..7..\n\u2014puNyazlOkamaJjarI"
   ],
   "tags": [
     "kanchi-aradhana-days"

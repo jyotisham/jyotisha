@@ -1,7 +1,9 @@
 ## Kāñchī 54 Jagadguru Śrī Vyāsāchala Mahādevendra Sarasvatī Ārādhanā
 काञ्ची ५४ जगद्गुरु श्री व्यासाचल महादेवेन्द्र सरस्वती आराधना is observed on Kṛṣṇa-Prathamā tithi of Āṣāḍha (lunar) month (madhyaahna/puurvaviddha).
 
-_![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-54.jpg)Born as the son of Kāmeśvara and Kamalāmbā of Kāñci, the one named Kupanna who having received the initiation and preceptor-ship with the name Mahādeva, conducted the lectures on Bhāṣya ably for twenty-one times in nine years rejoicingly, attained siddhi on the pratipad of black fortnight in the month of Āṣāḍha of the year Akṣaya. As He stayed ever in the Vyāsācala, He is known as Vyāsācala and the author of Vyāsācaliya and other works. He attained siddhi in Vyāsācala._
+![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-54.jpg
+
+)_Born as the son of Kāmeśvara and Kamalāmbā of Kāñci, the one named Kupanna who having received the initiation and preceptor-ship with the name Mahādeva, conducted the lectures on Bhāṣya ably for twenty-one times in nine years rejoicingly, attained siddhi on the pratipad of black fortnight in the month of Āṣāḍha of the year Akṣaya. As He stayed ever in the Vyāsācala, He is known as Vyāsācala and the author of Vyāsācaliya and other works. He attained siddhi in Vyāsācala._
 
 ```
 काञ्चीकामेश्वरार्यात् समजनि कमलाम्बोदरात् कुप्पणाख्यो

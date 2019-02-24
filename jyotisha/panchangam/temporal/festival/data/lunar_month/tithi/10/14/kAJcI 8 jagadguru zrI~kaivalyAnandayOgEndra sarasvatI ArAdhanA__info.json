@@ -1,8 +1,9 @@
 {
   "description": {
-    "en": "![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-08.jpg)Son of \u015aivayya of \u015ar\u012b\u015baila, known as Manganna, held that position by his directions and became well-known as Kaivalya Yogi, ascended to the status of a R\u0101jayogi and remaining (in that position) for eighty three years accomplished realisation in the evening of Makarasa\u1e45kr\u0101nti of the year Sarvadh\u0101ri."
+    "en": "Son of \u015aivayya of \u015ar\u012b\u015baila, known as Manganna, held that position by his directions and became well-known as Kaivalya Yogi, ascended to the status of a R\u0101jayogi and remaining (in that position) for eighty three years accomplished realisation in the evening of Makarasa\u1e45kr\u0101nti of the year Sarvadh\u0101ri."
   },
   "id": "kAJcI 8 jagadguru zrI~kaivalyAnandayOgEndra sarasvatI ArAdhanA",
+  "image": "kanchi-jagadgurus/jagadguru-08.jpg",
   "jsonClass": "HinduCalendarEvent",
   "priority": "puurvaviddha",
   "references_primary": [

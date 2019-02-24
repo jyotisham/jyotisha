@@ -1,8 +1,9 @@
 {
   "description": {
-    "en": "![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-10.jpg)Born of Mah\u0101bal\u012b\u015bvare\u015bvara by name Mahe\u015bvara, the other Sure\u015bvara, adhering to austerities obtained the responsibility of governing the K\u0101\u00f1ci K\u0101mako\u1e6di P\u012b\u1e6dha of the preceptor of the entire earth, He, the pure reached his imperishable state in the month of \u0100\u1e63\u0101\u1e0dha of the year Ak\u1e63aya."
+    "en": "Born of Mah\u0101bal\u012b\u015bvare\u015bvara by name Mahe\u015bvara, the other Sure\u015bvara, adhering to austerities obtained the responsibility of governing the K\u0101\u00f1ci K\u0101mako\u1e6di P\u012b\u1e6dha of the preceptor of the entire earth, He, the pure reached his imperishable state in the month of \u0100\u1e63\u0101\u1e0dha of the year Ak\u1e63aya."
   },
   "id": "kAJcI 10 jagadguru zrI~surEzvarEndra sarasvatI ArAdhanA",
+  "image": "kanchi-jagadgurus/jagadguru-10.jpg",
   "jsonClass": "HinduCalendarEvent",
   "priority": "puurvaviddha",
   "references_primary": [

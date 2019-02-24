@@ -1,8 +1,9 @@
 {
   "description": {
-    "en": "![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-49.jpg)Son of Ch\u0101y\u0101vana Acyuta, He was Gurum\u016brthi by name (before initiation); having adorned the seat of Jagadguru for forty-seven years, He attained on the night of K\u0101l\u0101\u1e63\u1e6dam\u012b of the month K\u0101rtika in the year Par\u0101bhava\u2014the Supreme state denoted by the term Param\u0101tman."
+    "en": "Son of Ch\u0101y\u0101vana Acyuta, He was Gurum\u016brthi by name (before initiation); having adorned the seat of Jagadguru for forty-seven years, He attained on the night of K\u0101l\u0101\u1e63\u1e6dam\u012b of the month K\u0101rtika in the year Par\u0101bhava\u2014the Supreme state denoted by the term Param\u0101tman."
   },
   "id": "kAJcI 49 jagadguru zrI~mahAdEvEndra sarasvatI 3 ArAdhanA",
+  "image": "kanchi-jagadgurus/jagadguru-49.jpg",
   "jsonClass": "HinduCalendarEvent",
   "priority": "puurvaviddha",
   "references_primary": [

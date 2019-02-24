@@ -1,8 +1,9 @@
 {
   "description": {
-    "en": "![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-22.jpg)Son of Rame\u015ba Makhin, Madhura, a physician adept in the incatations of Gr\u0101v\u0101bhil\u0101paka, Parip\u016br\u1e47abodha, the preceptor of \u015ar\u012b \u015a\u0101rada Ma\u1e6dha attained the beatitude on the night of bright fortnight of the month Kartika in the year Raudri."
+    "en": "Son of Rame\u015ba Makhin, Madhura, a physician adept in the incatations of Gr\u0101v\u0101bhil\u0101paka, Parip\u016br\u1e47abodha, the preceptor of \u015ar\u012b \u015a\u0101rada Ma\u1e6dha attained the beatitude on the night of bright fortnight of the month Kartika in the year Raudri."
   },
   "id": "kAJcI 22 jagadguru zrI~paripUrNabOdhEndra sarasvatI ArAdhanA",
+  "image": "kanchi-jagadgurus/jagadguru-22.jpg",
   "jsonClass": "HinduCalendarEvent",
   "priority": "puurvaviddha",
   "references_primary": [

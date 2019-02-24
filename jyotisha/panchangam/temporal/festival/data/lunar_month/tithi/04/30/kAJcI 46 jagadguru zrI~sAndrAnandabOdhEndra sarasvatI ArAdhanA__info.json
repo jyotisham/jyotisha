@@ -1,8 +1,9 @@
 {
   "description": {
-    "en": "![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-46.jpg)He, Soma, initiated with the title Bodhendra by the preceptor Para\u015bivendra adorned the P\u012b\u1e6dha and visiting countries in the palanquin exquisitely decked with gems offered by Bhoja, the king of Dh\u0101r\u0101, inculcating faith in the principles of Advaita in the minds of those who venerated him on the path safeguarded the Ma\u1e6dha from the invaders (mlechas) with the help of the minister of the Kashmiri King Kala\u015ba.  Having stayed in the P\u012b\u1e6dha for thirty-seven years, He reached the Supreme Abode at Aru\u1e47\u0101cala on the New moon day of the month \u0100\u1e63\u0101\u1e0dha in the year \u0102\u015bvara. This preceptor Bodhendra, also known as S\u0101nandr\u0101nanda, was honoured for poetical excellence by Kings\u2014Bhoja, Kala\u015be\u015bvara and others and was intent on travelling through the earth."
+    "en": "He, Soma, initiated with the title Bodhendra by the preceptor Para\u015bivendra adorned the P\u012b\u1e6dha and visiting countries in the palanquin exquisitely decked with gems offered by Bhoja, the king of Dh\u0101r\u0101, inculcating faith in the principles of Advaita in the minds of those who venerated him on the path safeguarded the Ma\u1e6dha from the invaders (mlechas) with the help of the minister of the Kashmiri King Kala\u015ba.  Having stayed in the P\u012b\u1e6dha for thirty-seven years, He reached the Supreme Abode at Aru\u1e47\u0101cala on the New moon day of the month \u0100\u1e63\u0101\u1e0dha in the year \u0102\u015bvara. This preceptor Bodhendra, also known as S\u0101nandr\u0101nanda, was honoured for poetical excellence by Kings\u2014Bhoja, Kala\u015be\u015bvara and others and was intent on travelling through the earth."
   },
   "id": "kAJcI 46 jagadguru zrI~sAndrAnandabOdhEndra sarasvatI ArAdhanA",
+  "image": "kanchi-jagadgurus/jagadguru-46.jpg",
   "jsonClass": "HinduCalendarEvent",
   "priority": "puurvaviddha",
   "references_primary": [
@@ -12,7 +13,7 @@
     "www.kamakoti.org"
   ],
   "shlokas": [
-    "bOdhEndrAkhyaH sa sOmO guruparamazivEndrAryavAcA'dhipIThaM\ntiSThan prApyAnyadEzAn pathipathi vinatAn prApayan advayAsthAm.\nzrIdhArAbhOjadattapracuramaNimayAndOlikAklRptayAtraH\nkAzmIrAmAtyapuSyatkaTakasamavanO'dhAnmaThaM mlEcchadUram..89..\nzaradastriMzataM saptApyadhyuSyAnvaruNAcalam(-Sya sa gurOH padam).jagAma dhAma paramamIzvarASADhaparvaNi..90..\n\u2014puNyazlOkamaJjarI"
+    "bOdhEndrAkhyaH sa sOmO guruparamazivEndrAryavAcA'dhipIThaM\ntiSThan prApyAnyadEzAn pathipathi vinatAn prApayan advayAsthAm.\nzrIdhArAbhOjadattapracuramaNimayAndOlikAklRptayAtraH\nkAzmIrAmAtyapuSyatkaTakasamavanO'dhAnmaThaM mlEcchadUram..89..\nzaradastriMzataM saptApyadhyuSyAnvaruNAcalam(-Sya sa gurOH padam).\njagAma dhAma paramamIzvarASADhaparvaNi..90..\n\u2014puNyazlOkamaJjarI"
   ],
   "tags": [
     "kanchi-aradhana-days"

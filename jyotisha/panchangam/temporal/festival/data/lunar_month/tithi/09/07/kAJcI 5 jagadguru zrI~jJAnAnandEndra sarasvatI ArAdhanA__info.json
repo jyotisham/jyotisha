@@ -1,8 +1,9 @@
 {
   "description": {
-    "en": "![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-05.jpg)Born of a brahmin called N\u0101ge\u015ba in the village called Ma\u1e45gala of the Chola country, the erudite saint well-known as \u015ar\u012b J\u00f1\u0101nottama, foremost among logicians, having adorned the P\u012b\u1e6dha of preceptors for sixty-three years, attained salvation/siddhi on the seventh day of the bright fortnight in the month of M\u0101rga\u015b\u012br\u1e63a of the year Manmatha."
+    "en": "Born of a brahmin called N\u0101ge\u015ba in the village called Ma\u1e45gala of the Chola country, the erudite saint well-known as \u015ar\u012b J\u00f1\u0101nottama, foremost among logicians, having adorned the P\u012b\u1e6dha of preceptors for sixty-three years, attained salvation/siddhi on the seventh day of the bright fortnight in the month of M\u0101rga\u015b\u012br\u1e63a of the year Manmatha."
   },
   "id": "kAJcI 5 jagadguru zrI~jJAnAnandEndra sarasvatI ArAdhanA",
+  "image": "kanchi-jagadgurus/jagadguru-05.jpg",
   "jsonClass": "HinduCalendarEvent",
   "priority": "puurvaviddha",
   "references_primary": [

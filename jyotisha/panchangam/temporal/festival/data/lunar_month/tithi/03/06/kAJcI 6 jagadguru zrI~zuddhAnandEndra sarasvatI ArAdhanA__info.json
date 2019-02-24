@@ -1,8 +1,9 @@
 {
   "description": {
-    "en": "![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-06.jpg)\u015ar\u012b Vi\u015bvan\u0101tha, son of Vaidyabharva of Ved\u0101ra\u1e47ya, received initiation from sage J\u00f1\u0101n\u0101nanda, became \u015auddh\u0101nandamun\u012b\u015bvara was established in K\u0101\u00f1c\u012b; having carried on the responsibilities of the preceptor for eighty-one years, he secured union on the sixth day of the bright fortnight in the year Nala."
+    "en": "\u015ar\u012b Vi\u015bvan\u0101tha, son of Vaidyabharva of Ved\u0101ra\u1e47ya, received initiation from sage J\u00f1\u0101n\u0101nanda, became \u015auddh\u0101nandamun\u012b\u015bvara was established in K\u0101\u00f1c\u012b; having carried on the responsibilities of the preceptor for eighty-one years, he secured union on the sixth day of the bright fortnight in the year Nala."
   },
   "id": "kAJcI 6 jagadguru zrI~zuddhAnandEndra sarasvatI ArAdhanA",
+  "image": "kanchi-jagadgurus/jagadguru-06.jpg",
   "jsonClass": "HinduCalendarEvent",
   "priority": "puurvaviddha",
   "references_primary": [

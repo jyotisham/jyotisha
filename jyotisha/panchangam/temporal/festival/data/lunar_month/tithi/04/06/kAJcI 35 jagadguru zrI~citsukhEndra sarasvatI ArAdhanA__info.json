@@ -1,8 +1,9 @@
 {
   "description": {
-    "en": "![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-35.jpg)Born near the Ved\u0101chala mountain as the son of Vimal\u0101k\u1e63a and well-known as Su\u015b\u012blakamal\u0101k\u1e63a, after renunciation became Citsukha; having had the authority of the preceptor-ship of K\u0101\u00f1ci, He lived in the caves of Sahya mountain. He, having installed/deputed Citsukh\u0101nanda Yog\u012bndra in his place, vanished fully on the sixth day of the bright fortnight of the month of \u0100\u1e63\u0101\u1e0dha of the year Dh\u0101tu. His preceptor-ship was for twenty-seven years."
+    "en": "Born near the Ved\u0101chala mountain as the son of Vimal\u0101k\u1e63a and well-known as Su\u015b\u012blakamal\u0101k\u1e63a, after renunciation became Citsukha; having had the authority of the preceptor-ship of K\u0101\u00f1ci, He lived in the caves of Sahya mountain. He, having installed/deputed Citsukh\u0101nanda Yog\u012bndra in his place, vanished fully on the sixth day of the bright fortnight of the month of \u0100\u1e63\u0101\u1e0dha of the year Dh\u0101tu. His preceptor-ship was for twenty-seven years."
   },
   "id": "kAJcI 35 jagadguru zrI~citsukhEndra sarasvatI ArAdhanA",
+  "image": "kanchi-jagadgurus/jagadguru-35.jpg",
   "jsonClass": "HinduCalendarEvent",
   "priority": "puurvaviddha",
   "references_primary": [
@@ -12,7 +13,7 @@
     "www.kamakoti.org"
   ],
   "shlokas": [
-    "vEdAcalAntikabhavO vimalAkSanAmnaH sUnuH suzIlakamalAkSa iti prasiddhaH.\nsaMyamya citsukhatanuH zritakAmakOTIpIThAdhipatyavibhavO'pyavasat sa sahyE..68..\ncitsukhAnandayOgIndraM nivEzya nijaviSTarE.sarvAtmanA tirO'dhAt sa dhAtvASADhAcchaSaSThyahE..69..\n\u2014puNyazlOkamaJjarI"
+    "vEdAcalAntikabhavO vimalAkSanAmnaH sUnuH suzIlakamalAkSa iti prasiddhaH.\nsaMyamya citsukhatanuH zritakAmakOTIpIThAdhipatyavibhavO'pyavasat sa sahyE..68..\ncitsukhAnandayOgIndraM nivEzya nijaviSTarE.\nsarvAtmanA tirO'dhAt sa dhAtvASADhAcchaSaSThyahE..69..\n\u2014puNyazlOkamaJjarI"
   ],
   "tags": [
     "kanchi-aradhana-days"

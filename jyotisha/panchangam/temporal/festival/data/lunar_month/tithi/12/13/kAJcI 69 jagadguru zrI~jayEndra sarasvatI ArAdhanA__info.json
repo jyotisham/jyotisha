@@ -1,8 +1,9 @@
 {
   "description": {
-    "en": "![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-69.jpg)"
+    "en": ""
   },
   "id": "kAJcI 69 jagadguru zrI~jayEndra sarasvatI ArAdhanA",
+  "image": "kanchi-jagadgurus/jagadguru-69.jpg",
   "jsonClass": "HinduCalendarEvent",
   "priority": "puurvaviddha",
   "shlokas": [

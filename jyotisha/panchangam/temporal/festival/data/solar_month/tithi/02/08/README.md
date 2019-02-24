@@ -1,7 +1,9 @@
 ## Kāñchī 16 Jagadguru Śrī Ujjvala Śaṅkarendra Sarasvatī Ārādhanā
 काञ्ची १६ जगद्गुरु श्री उज्ज्वल शङ्करेन्द्र सरस्वती आराधना is observed on Śukla-Aṣṭamī tithi of Vṛṣabha (solar) month (madhyaahna/puurvaviddha).
 
-_![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-16.jpg)Born on the banks of river Tapati as the son of Śaṅkarakeśavasya and avowed to rigid celibacy Śrī Acyutakeśava, known as Ujjvalaśaṅkara, after being initiated by Gīṣpati, patronised by Vañcīśavara, uprooted the rival schools and with fame the great saint reached Kashmir. Then having spent thirty-eight years in the Pīṭha of the Universal Preceptor, He merged in Brahman, the eternal free from joy and sorrow and the everlasting on the eighth day of the bright fortnight in Vṛṣa month of the year Akṣaya in the Kali era 3468 in the place called Kalāpur in Kashmir._
+![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-16.jpg
+
+)_Born on the banks of river Tapati as the son of Śaṅkarakeśavasya and avowed to rigid celibacy Śrī Acyutakeśava, known as Ujjvalaśaṅkara, after being initiated by Gīṣpati, patronised by Vañcīśavara, uprooted the rival schools and with fame the great saint reached Kashmir. Then having spent thirty-eight years in the Pīṭha of the Universal Preceptor, He merged in Brahman, the eternal free from joy and sorrow and the everlasting on the eighth day of the bright fortnight in Vṛṣa month of the year Akṣaya in the Kali era 3468 in the place called Kalāpur in Kashmir._
 
 ```
 सूनुः केशवशङ्करस्य तपतीतीरोद्भवो नैष्ठिकः

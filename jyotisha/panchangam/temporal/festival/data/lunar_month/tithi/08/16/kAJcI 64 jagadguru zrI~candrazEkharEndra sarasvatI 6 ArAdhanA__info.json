@@ -1,8 +1,9 @@
 {
   "description": {
-    "en": "![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-64.jpg)Devoted to Lord Chandramauli, preceptor \u015ar\u012b Chandra\u015bekhara too remaining in the P\u012b\u1e6dha for thirtyseven years reached his eternal abode on the first day of K\u1e5b\u1e63\u1e47apak\u1e63a in the month of K\u0101rthika of the year S\u0101dh\u0101ra\u1e47a. The name of this preceptor before initiation was Ve\u00f1katasubrahma\u1e47ya D\u012bk\u1e63ita. He was a descendant of the family of Govinda D\u012bk\u1e63ita, wellknown as \u201cAyyan\u201d who carried out many righteous acts of \u201cp\u016brta\u201d and adorned the ministerial post in the assembly of King Sevappa N\u0101yaka of the N\u0101yaka dynasty ruling Thanjavur. This preceptor was well-versed in Mantra \u015a\u0101stra. Only during the period of this preceptor, the renovation or reinstallation of the pair of ear-rings (ta\u1e6da\u1e45ka yugala) symbolic of Sricakra, of Goddess Akhil\u0101\u1e47de\u015bvar\u012b of Jambuke\u015bvara, renovation of Sricakra in theK\u0101m\u0101k\u1e63\u012b temple at K\u0101\u00f1ci were carried out. During his visit ot Tanjavur, the preeptor was reverentially coronated with gold or offered Kanak\u0101bhi\u1e63eka by the monarch who was ruling Tanjavur. \u015aalivahana era 1773."
+    "en": "Devoted to Lord Chandramauli, preceptor \u015ar\u012b Chandra\u015bekhara too remaining in the P\u012b\u1e6dha for thirtyseven years reached his eternal abode on the first day of K\u1e5b\u1e63\u1e47apak\u1e63a in the month of K\u0101rthika of the year S\u0101dh\u0101ra\u1e47a. The name of this preceptor before initiation was Ve\u00f1katasubrahma\u1e47ya D\u012bk\u1e63ita. He was a descendant of the family of Govinda D\u012bk\u1e63ita, wellknown as \u201cAyyan\u201d who carried out many righteous acts of \u201cp\u016brta\u201d and adorned the ministerial post in the assembly of King Sevappa N\u0101yaka of the N\u0101yaka dynasty ruling Thanjavur. This preceptor was well-versed in Mantra \u015a\u0101stra. Only during the period of this preceptor, the renovation or reinstallation of the pair of ear-rings (ta\u1e6da\u1e45ka yugala) symbolic of Sricakra, of Goddess Akhil\u0101\u1e47de\u015bvar\u012b of Jambuke\u015bvara, renovation of Sricakra in theK\u0101m\u0101k\u1e63\u012b temple at K\u0101\u00f1ci were carried out. During his visit ot Tanjavur, the preeptor was reverentially coronated with gold or offered Kanak\u0101bhi\u1e63eka by the monarch who was ruling Tanjavur. \u015aalivahana era 1773."
   },
   "id": "kAJcI 64 jagadguru zrI~candrazEkharEndra sarasvatI 6 ArAdhanA",
+  "image": "kanchi-jagadgurus/jagadguru-64.jpg",
   "jsonClass": "HinduCalendarEvent",
   "priority": "puurvaviddha",
   "references_primary": [
@@ -12,7 +13,7 @@
     "www.kamakoti.org"
   ],
   "shlokas": [
-    "zrImaThapArzvE sadmani jAtO vEGkaTasubrahmaNyatapasvI.zrIgurupArzvE saMsthitim AgAd uttaravRndAvanavikhyAtaH..14..\nzrIcandrazEkharaguruH zritacandramaulistriMzatsamA api ca sapta vasan nu pIThE.\nsAdhAraNE zaradi kArtikakRSNapakSasyAdyE tithAvupagataH sthiram AtmadhAma..15..\n\u2014puNyazlOkamaJjarI"
+    "zrImaThapArzvE sadmani jAtO vEGkaTasubrahmaNyatapasvI.\nzrIgurupArzvE saMsthitim AgAd uttaravRndAvanavikhyAtaH..14..\nzrIcandrazEkharaguruH zritacandramaulistriMzatsamA api ca sapta vasan nu pIThE.\nsAdhAraNE zaradi kArtikakRSNapakSasyAdyE tithAvupagataH sthiram AtmadhAma..15..\n\u2014puNyazlOkamaJjarI"
   ],
   "tags": [
     "kanchi-aradhana-days"

@@ -1,8 +1,9 @@
 {
   "description": {
-    "en": "![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-26.jpg)\u015ao\u1e47agiri, son of Prabh\u0101kara\u015barma, who lived on the banks of river Pin\u0101kin\u012b, became Jagadguru Praj\u00f1\u0101ghana and attained blissful state on the night of the eighty day of the bright fortnight of the month of Vai\u015b\u0101ka in the year Subh\u0101nu/Svabh\u0101nu."
+    "en": "\u015ao\u1e47agiri, son of Prabh\u0101kara\u015barma, who lived on the banks of river Pin\u0101kin\u012b, became Jagadguru Praj\u00f1\u0101ghana and attained blissful state on the night of the eighty day of the bright fortnight of the month of Vai\u015b\u0101ka in the year Subh\u0101nu/Svabh\u0101nu."
   },
   "id": "kAJcI 26 jagadguru zrI~prajJAghanEndra sarasvatI ArAdhanA",
+  "image": "kanchi-jagadgurus/jagadguru-26.jpg",
   "jsonClass": "HinduCalendarEvent",
   "priority": "puurvaviddha",
   "references_primary": [

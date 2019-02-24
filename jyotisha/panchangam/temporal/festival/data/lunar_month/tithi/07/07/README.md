@@ -13,7 +13,9 @@ _Pooja of Kapila cow, eat only Panchagavya, next day eat_
 ## Kāñchī 45 Jagadguru Śrī Paramaśivendra Sarasvatī 1 Ārādhanā
 काञ्ची ४५ जगद्गुरु श्री परमशिवेन्द्र सरस्वती १ आराधना is observed on Śukla-Saptamī tithi of Āśvayuja (lunar) month (madhyaahna/puurvaviddha).
 
-_![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-45.jpg)Śrīkaṇṭha, son of Śivasāmbapaṇḍita, known by the appellation Parāśiva (Paramaśiva) (after initiation) who remained in the caves of the mountain since initiation governed the Pīṭha for twenty-one years and having placed poet Somaka’s son, Sūrya, in his place, He attained siddhi in the night of saptami of bright fortnight in the Aśvini month of He year Śārvari. This preceptor Paramaśivendra stayed in the caves of Sahya mountain adhereing to the mode of python (ajagaravṛtti), restored to by the disciple named Bodhendra, attained siddhi in the Sahya mountain itself._
+![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-45.jpg
+
+)_Śrīkaṇṭha, son of Śivasāmbapaṇḍita, known by the appellation Parāśiva (Paramaśiva) (after initiation) who remained in the caves of the mountain since initiation governed the Pīṭha for twenty-one years and having placed poet Somaka’s son, Sūrya, in his place, He attained siddhi in the night of saptami of bright fortnight in the Aśvini month of He year Śārvari. This preceptor Paramaśivendra stayed in the caves of Sahya mountain adhereing to the mode of python (ajagaravṛtti), restored to by the disciple named Bodhendra, attained siddhi in the Sahya mountain itself._
 
 ```
 श्रीकण्ठः शिवसाम्बपण्डितसुतः सैकां समा विंशतिं

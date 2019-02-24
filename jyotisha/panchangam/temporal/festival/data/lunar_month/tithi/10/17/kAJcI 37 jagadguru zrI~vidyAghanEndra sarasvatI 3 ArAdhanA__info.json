@@ -1,8 +1,9 @@
 {
   "description": {
-    "en": "![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-37.jpg)Son of B\u0101lacandrasuta named S\u016bryan\u0101r\u0101ya\u1e47a, \u015ar\u012b Vidy\u0101ghanade\u015bika was the disciple of \u015ar\u012b Cid\u0101nanda. The preceptor \u015ar\u012b Vidy\u0101ghana, mastering the \u015ar\u012bvidy\u0101 held the responsibilities of the preceptor despite the atrocities of Turu\u1e63kas for thirty years. The staunch adherent of asceticism, He reached the highest state of Bliss on the second day of the black fortnight in the month of Pu\u1e63ya in the year Prabhava. This preceptor Vidy\u0101ghana, searching a worthy disciple to adorn the seat of the P\u012b\u1e6dha, reached Cidambaram where He handed over the responsibilities of governing (the Ma\u1e6dha) to Dh\u012bra\u015ba\u1e45karendra and attained siddhi there itself. His preceptor-ship was for thirty years."
+    "en": "Son of B\u0101lacandrasuta named S\u016bryan\u0101r\u0101ya\u1e47a, \u015ar\u012b Vidy\u0101ghanade\u015bika was the disciple of \u015ar\u012b Cid\u0101nanda. The preceptor \u015ar\u012b Vidy\u0101ghana, mastering the \u015ar\u012bvidy\u0101 held the responsibilities of the preceptor despite the atrocities of Turu\u1e63kas for thirty years. The staunch adherent of asceticism, He reached the highest state of Bliss on the second day of the black fortnight in the month of Pu\u1e63ya in the year Prabhava. This preceptor Vidy\u0101ghana, searching a worthy disciple to adorn the seat of the P\u012b\u1e6dha, reached Cidambaram where He handed over the responsibilities of governing (the Ma\u1e6dha) to Dh\u012bra\u015ba\u1e45karendra and attained siddhi there itself. His preceptor-ship was for thirty years."
   },
   "id": "kAJcI 37 jagadguru zrI~vidyAghanEndra sarasvatI 3 ArAdhanA",
+  "image": "kanchi-jagadgurus/jagadguru-37.jpg",
   "jsonClass": "HinduCalendarEvent",
   "priority": "puurvaviddha",
   "references_primary": [
@@ -12,7 +13,7 @@
     "www.kamakoti.org"
   ],
   "shlokas": [
-    "bhAlacandrasutaH sUryanArAyaNasamAhvayaH.zrIcidAnandaziSyO'bhUcchrIvidyAghanadEzikaH..72..\nprapannaH zrIvidyAM kathamapi sa vidyAghanagurusturuSkAkrAntE'pi vyadhita dhuram AcAryasahajAm.\niha triMzadvarSAn prabhavazaradaH puSyabahuladvitIyAyAM prApat param uparamaM prauDhaniyamI..73..\n\u2014puNyazlOkamaJjarI"
+    "bhAlacandrasutaH sUryanArAyaNasamAhvayaH.\nzrIcidAnandaziSyO'bhUcchrIvidyAghanadEzikaH..72..\nprapannaH zrIvidyAM kathamapi sa vidyAghanagurusturuSkAkrAntE'pi vyadhita dhuram AcAryasahajAm.\niha triMzadvarSAn prabhavazaradaH puSyabahuladvitIyAyAM prApat param uparamaM prauDhaniyamI..73..\n\u2014puNyazlOkamaJjarI"
   ],
   "tags": [
     "kanchi-aradhana-days"
