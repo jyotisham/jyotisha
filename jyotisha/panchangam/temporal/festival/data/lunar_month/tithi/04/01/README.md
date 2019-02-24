@@ -7,9 +7,9 @@
 ## Kāñchī 25 Jagadguru Śrī Sachchidānandaghanendra Sarasvatī Ārādhanā
 काञ्ची २५ जगद्गुरु श्री सच्चिदानन्दघनेन्द्र सरस्वती आराधना is observed on Śukla-Prathamā tithi of Āṣāḍha (lunar) month (madhyaahna/puurvaviddha).
 
-![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-25.jpg
+![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-25.jpg)
 
-)_The noble son of Śrīkṛṣṇa of Śrīmuṣṇa by name Śivasāmbha who went round the earth thrice, became a disciple of Śrīcitrukha through initiation, and later became the head of Śrī Śārada maṭha. He (Śrī Citsukhendra), whose biography was composed by Mantha in his work titled Siddhajaya adorned the Pīṭha for twenty-one years and attained immortal state. He, the austere, Saccidānandaghana attained immortality in the form of Śivaliṅga on the first day of the bright fortnight in the month of Āṣāḍha of Prabhava year in the Śaka era 470._
+_The noble son of Śrīkṛṣṇa of Śrīmuṣṇa by name Śivasāmbha who went round the earth thrice, became a disciple of Śrīcitrukha through initiation, and later became the head of Śrī Śārada maṭha. He (Śrī Citsukhendra), whose biography was composed by Mantha in his work titled Siddhajaya adorned the Pīṭha for twenty-one years and attained immortal state. He, the austere, Saccidānandaghana attained immortality in the form of Śivaliṅga on the first day of the bright fortnight in the month of Āṣāḍha of Prabhava year in the Śaka era 470._
 
 ```
 श्रीमुष्णकृष्णतनयः शिवसाम्बनामा यस्त्रिः प्रदक्षिणितपुण्यमहिर्महात्मा।

@@ -1,9 +1,9 @@
 ## Kāñchī 11 Jagadguru Śrī Śivānanda Chidghanendra Sarasvatī Ārādhanā
 काञ्ची ११ जगद्गुरु श्री शिवानन्द चिद्घनेन्द्र सरस्वती आराधना is observed on Śukla-Daśamī tithi of Māgha (lunar) month (madhyaahna/puurvaviddha).
 
-![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-11.jpg
+![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-11.jpg)
 
-)_The boy Ăśvara, son of Ujjvala bhaṭṭa of Karnataka, known as Cidghana, who approached Sureśvara and acquired the knowledge of bhāṣyas etc., having got his (Sureśvara’s) responsibility and remaining in the Pīṭha there, this Cidghana spent forty-five years as if Śiva Himself had come there to grant liberation to those who seek liberation. Revered by the wise, Cidghana having placed Vātsyāyāna, the initiated who was hailed as Hari arrived from Milky Ocean, and imparting the precepts He had attained his form, the pure consciousness on the tenth day of the bright fortnight in the month of Jyeṣṭha in the year Virodhikṛt of the Kali era._
+_The boy Ăśvara, son of Ujjvala bhaṭṭa of Karnataka, known as Cidghana, who approached Sureśvara and acquired the knowledge of bhāṣyas etc., having got his (Sureśvara’s) responsibility and remaining in the Pīṭha there, this Cidghana spent forty-five years as if Śiva Himself had come there to grant liberation to those who seek liberation. Revered by the wise, Cidghana having placed Vātsyāyāna, the initiated who was hailed as Hari arrived from Milky Ocean, and imparting the precepts He had attained his form, the pure consciousness on the tenth day of the bright fortnight in the month of Jyeṣṭha in the year Virodhikṛt of the Kali era._
 
 ```
 कर्णाटोज्ज्वलसूनुरीश्वरवटुः श्रित्वा सुरेशं चिरात्

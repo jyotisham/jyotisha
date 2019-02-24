@@ -1,9 +1,9 @@
 ## Kāñchī 67 Jagadguru Śrī Mahādevendra Sarasvatī 5 Ārādhanā
 काञ्ची ६७ जगद्गुरु श्री महादेवेन्द्र सरस्वती ५ आराधना is observed on Śukla-Prathamā tithi of Phālguna (lunar) month (madhyaahna/puurvaviddha).
 
-![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-67.jpg
+![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-67.jpg)
 
-)_Preceptor by name Mahādevendra adorning Pīṭha attained siddhi on the first day (pratipat) of bright fortnight of Phālguna month in the year Parābhava. The name of this preceptor before initiation was Lakṣminārāyaṇa. His father was well-known as Narasimhaśāstri. This preceptor was well-versed in Ṛgveda. His place of sidhi was Kalavai village in Śalivahana era 1830._
+_Preceptor by name Mahādevendra adorning Pīṭha attained siddhi on the first day (pratipat) of bright fortnight of Phālguna month in the year Parābhava. The name of this preceptor before initiation was Lakṣminārāyaṇa. His father was well-known as Narasimhaśāstri. This preceptor was well-versed in Ṛgveda. His place of sidhi was Kalavai village in Śalivahana era 1830._
 
 ```
 लक्ष्मीनरसिंहयुगलपुत्रो लक्ष्मीकान्तो गुरुवरसेवाम्।

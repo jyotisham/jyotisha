@@ -13,9 +13,9 @@
 ## Kāñchī 15 Jagadguru Śrī Gaṅgādharendra Sarasvatī Ārādhanā
 काञ्ची १५ जगद्गुरु श्री गङ्गाधरेन्द्र सरस्वती आराधना is observed on Śukla-Prathamā tithi of Caitra (lunar) month (madhyaahna/puurvaviddha).
 
-![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-15.jpg
+![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-15.jpg)
 
-)_Gaṅgādharagīṣpatiḥ, known as Subhadra, son of Kāñci Bhadragiri, got initiated in the twelfth year of age by Śrī Vidyāghana whom He had served became a realised soul when He as twenty-four years old and reached the eternal abode of Śrī vidyā and Śrī Śiva. He, the Omnipotent, omniscient and pure reached the eternal abode by his glory on the first day of the bright fortnight in the month of Caitra of the year Sarvadhari._
+_Gaṅgādharagīṣpatiḥ, known as Subhadra, son of Kāñci Bhadragiri, got initiated in the twelfth year of age by Śrī Vidyāghana whom He had served became a realised soul when He as twenty-four years old and reached the eternal abode of Śrī vidyā and Śrī Śiva. He, the Omnipotent, omniscient and pure reached the eternal abode by his glory on the first day of the bright fortnight in the month of Caitra of the year Sarvadhari._
 
 ```
 सूनुर्भद्रगिरेः सुभद्र इति यः काञ्च्य(कप्य?)न्वयो द्वादशे
@@ -34,9 +34,9 @@
 ## Kāñchī 27 Jagadguru Śrī Chidvilāsendra Sarasvatī Ārādhanā
 काञ्ची २७ जगद्गुरु श्री चिद्विलासेन्द्र सरस्वती आराधना is observed on Śukla-Prathamā tithi of Caitra (lunar) month (madhyaahna/puurvaviddha).
 
-![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-27.jpg
+![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-27.jpg)
 
-)_Then the preceptor Cidvilāsa, who was Harikeśava (before initiation), son of Madhusūdanārya of Hastiśaila (Kāñci) attained his immortal state on the first day of the Śarat ṛṭu in the year Durmukhi. The above two impeccable pontiffs Prajñāghana and Cidvilāsa attained siddhi in Kāñci itself. His (Cidvilāsa) duration of preceptorship was thirteen years._
+_Then the preceptor Cidvilāsa, who was Harikeśava (before initiation), son of Madhusūdanārya of Hastiśaila (Kāñci) attained his immortal state on the first day of the Śarat ṛṭu in the year Durmukhi. The above two impeccable pontiffs Prajñāghana and Cidvilāsa attained siddhi in Kāñci itself. His (Cidvilāsa) duration of preceptorship was thirteen years._
 
 ```
 अथ हस्तिशैलमधुसूदनात्मजो हरिकेशवश्च चितिसौख्यमेदुरः।
@@ -51,9 +51,9 @@
 ## Kāñchī 52 Jagadguru Śrī Śaṅkarānandendra Sarasvatī Ārādhanā
 काञ्ची ५२ जगद्गुरु श्री शङ्करानन्देन्द्र सरस्वती आराधना is observed on Śukla-Prathamā tithi of Caitra (lunar) month (madhyaahna/puurvaviddha).
 
-![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-52.jpg
+![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-52.jpg)
 
-)_He, as per the suggestions of the Sāyaṇa Mādhava, having commissioned the eight saints disciples to protect the tenets of Advaita and to check the development of the faith of Madhva in Karnataka, despite the unbearable separation from the master preceptor Vidyātīrtha, returned from Himalayas and under his (master’s) directions held the responsibilities of the Kāmakoṭi Maṭha. Son of Balacandra Makhi of Madhyārjuna, by name Maheśa (before initiation), having received initiation into asceticism from Vidyātīrtha, popularising among people Advaita among the systems and dispelling the ignorance caused by dvaita, the head of nine Maṭhas, the Navaśaṅkara, headed the Kāmakoṭi Pīṭha for thirty-two years. He the pleasing one, the great preceptor with a sweet speech, the intelligent One, adored by all in the world, shed his physical body on the pratipad of bright fortnight in the month of Vaiśākha of the year Durmukhi; entered at once into his effulgence. This preceptor Śrī Abhinva Śaṅkara or Śaṅkarānanda also known as Navamaṭhīnātha, was the founder of nine Maṭhas—Śṛṅgeri etc. adept in destroying the schools of Madhva, the one who made the idol Varadarāja appear as Lord Śiva to wipe off the predominance of Vaiṣṇavism, adored by the king Bukka, renowned everywhere attained siddhi near Kāṅcipuram. This preceptor is the one who initiated the tradition of Śrividya mudrā._
+_He, as per the suggestions of the Sāyaṇa Mādhava, having commissioned the eight saints disciples to protect the tenets of Advaita and to check the development of the faith of Madhva in Karnataka, despite the unbearable separation from the master preceptor Vidyātīrtha, returned from Himalayas and under his (master’s) directions held the responsibilities of the Kāmakoṭi Maṭha. Son of Balacandra Makhi of Madhyārjuna, by name Maheśa (before initiation), having received initiation into asceticism from Vidyātīrtha, popularising among people Advaita among the systems and dispelling the ignorance caused by dvaita, the head of nine Maṭhas, the Navaśaṅkara, headed the Kāmakoṭi Pīṭha for thirty-two years. He the pleasing one, the great preceptor with a sweet speech, the intelligent One, adored by all in the world, shed his physical body on the pratipad of bright fortnight in the month of Vaiśākha of the year Durmukhi; entered at once into his effulgence. This preceptor Śrī Abhinva Śaṅkara or Śaṅkarānanda also known as Navamaṭhīnātha, was the founder of nine Maṭhas—Śṛṅgeri etc. adept in destroying the schools of Madhva, the one who made the idol Varadarāja appear as Lord Śiva to wipe off the predominance of Vaiṣṇavism, adored by the king Bukka, renowned everywhere attained siddhi near Kāṅcipuram. This preceptor is the one who initiated the tradition of Śrividya mudrā._
 
 ```
 आदिश्याष्ट यमीश्वरान् समवितुं कर्णाटदेशेऽद्वयं

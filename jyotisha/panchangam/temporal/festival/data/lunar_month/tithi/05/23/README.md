@@ -25,9 +25,9 @@ _Goddess Mahakali is 1st of the Dasha Maha Vidyas._
 ## Kāñchī 21 Jagadguru Śrī Chandraśekharendra Sarasvatī 2 Ārādhanā
 काञ्ची २१ जगद्गुरु श्री चन्द्रशेखरेन्द्र सरस्वती २ आराधना is observed on Kṛṣṇa-Aṣṭamī tithi of Śravaṇa (lunar) month (madhyaahna/puurvaviddha).
 
-![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-21.jpg
+![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-21.jpg)
 
-)_Son of Śrī Acyutaśarmā of Koṅkaṇadeśa, having offered his services of preparing sandal paste for the worship of Śrī Chandramoulīśvara, He was offered kingship of Kashmir by King Harṣa for his poetical wisdom/merits. Having ruled Kashmir for a short period, He came back to his preceptor Arbhakaśaṅkara and got initiated into asceticism with the name Sārvabhauma Chandracūḍendra Sarasvatī. Preceptor Śrī Chandracūḍendra Sarasvatī leading for ten years a pious life on the banks of Ganges, establishing on his throne revered Madhura the incarnation of Dhanvantari and adorning him with the title Paripūrṇabodha reached/attained his Lord’s immortal abode on the night of Kṛṣṇajanmāṣṭamī in the year Vijaya._
+_Son of Śrī Acyutaśarmā of Koṅkaṇadeśa, having offered his services of preparing sandal paste for the worship of Śrī Chandramoulīśvara, He was offered kingship of Kashmir by King Harṣa for his poetical wisdom/merits. Having ruled Kashmir for a short period, He came back to his preceptor Arbhakaśaṅkara and got initiated into asceticism with the name Sārvabhauma Chandracūḍendra Sarasvatī. Preceptor Śrī Chandracūḍendra Sarasvatī leading for ten years a pious life on the banks of Ganges, establishing on his throne revered Madhura the incarnation of Dhanvantari and adorning him with the title Paripūrṇabodha reached/attained his Lord’s immortal abode on the night of Kṛṣṇajanmāṣṭamī in the year Vijaya._
 
 ```
 अर्चाचन्दनपेषणाद् भगवतः श्रीशङ्करेन्द्रार्चित-

@@ -60,9 +60,9 @@ _Kunti-vratam done today will remove all paapams (including Gohatya). As per Bha
 ## Kāñchī 36 Jagadguru Śrī Chitsukhānandendra Sarasvatī Ārādhanā
 काञ्ची ३६ जगद्गुरु श्री चित्सुखानन्देन्द्र सरस्वती आराधना is observed on Paurṇamāsī tithi of Āśvayuja (lunar) month (madhyaahna/puurvaviddha).
 
-![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-36.jpg
+![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-36.jpg)
 
-)_Son of Somagiri, dwelling on the banks of river Pālār (Kṣīrapagā), known as Sureśa, (He) became the preceptor. A disciple of Śrī Citsukhendra, disinterest in campaigns/travels, He, on the directions of his preceptor-teacher, remained in the Maṭha itself. He, the preceptor, Śrī Citsukhānanda attained/ clung on to the state of Bliss on the day of Paurṇamī in the month of Aśvinī of the year Hevilambi. Also known as Cidānanda, He attained siddhi in Kañci itself. His preceptor-ship was for twenty-one years._
+_Son of Somagiri, dwelling on the banks of river Pālār (Kṣīrapagā), known as Sureśa, (He) became the preceptor. A disciple of Śrī Citsukhendra, disinterest in campaigns/travels, He, on the directions of his preceptor-teacher, remained in the Maṭha itself. He, the preceptor, Śrī Citsukhānanda attained/ clung on to the state of Bliss on the day of Paurṇamī in the month of Aśvinī of the year Hevilambi. Also known as Cidānanda, He attained siddhi in Kañci itself. His preceptor-ship was for twenty-one years._
 
 ```
 ख्यातः सुरेश इति सोमगिरेस्तनूजः क्षीरापगातटभवोऽभवद् आश्रमीन्द्रः।

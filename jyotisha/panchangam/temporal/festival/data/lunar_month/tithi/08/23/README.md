@@ -13,9 +13,9 @@ _Very famously celebrated in Vaikom Mahadeva Temple._
 ## Kāñchī 42 Jagadguru Śrī Brahmānandaghanendra Sarasvatī 2 Ārādhanā
 काञ्ची ४२ जगद्गुरु श्री ब्रह्मानन्दघनेन्द्र सरस्वती २ आराधना is observed on Kṛṣṇa-Aṣṭamī tithi of Kārtika (lunar) month (madhyaahna/puurvaviddha).
 
-![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-42.jpg
+![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-42.jpg)
 
-)_Then Narasambhaṭṭa, son of Subrahmanya, having been initiated by Gaṅgādhara got the appellation Brahmānandaghana held the preceptor-ship of the Pīṭha for twenty-eight years. This great preceptor merged in the Lord Ăśvara as He ws teaching the disciples the Brahmasūtra, bhāṣya etc. in the early morning of Aṣṭami of Kṛṣṇapakṣā in the month of Kārtika in the year Ăśvara._
+_Then Narasambhaṭṭa, son of Subrahmanya, having been initiated by Gaṅgādhara got the appellation Brahmānandaghana held the preceptor-ship of the Pīṭha for twenty-eight years. This great preceptor merged in the Lord Ăśvara as He ws teaching the disciples the Brahmasūtra, bhāṣya etc. in the early morning of Aṣṭami of Kṛṣṇapakṣā in the month of Kārtika in the year Ăśvara._
 
 ```
 सुब्रह्मण्यभवो नियम्य नरसम्भट्टोऽथ गङ्गाधराद्
@@ -32,9 +32,9 @@ _Very famously celebrated in Vaikom Mahadeva Temple._
 ## Kāñchī 49 Jagadguru Śrī Mahādevendra Sarasvatī 3 Ārādhanā
 काञ्ची ४९ जगद्गुरु श्री महादेवेन्द्र सरस्वती ३ आराधना is observed on Kṛṣṇa-Aṣṭamī tithi of Kārtika (lunar) month (madhyaahna/puurvaviddha).
 
-![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-49.jpg
+![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-49.jpg)
 
-)_Son of Chāyāvana Acyuta, He was Gurumūrthi by name (before initiation); having adorned the seat of Jagadguru for forty-seven years, He attained on the night of Kālāṣṭamī of the month Kārtika in the year Parābhava—the Supreme state denoted by the term Paramātman._
+_Son of Chāyāvana Acyuta, He was Gurumūrthi by name (before initiation); having adorned the seat of Jagadguru for forty-seven years, He attained on the night of Kālāṣṭamī of the month Kārtika in the year Parābhava—the Supreme state denoted by the term Paramātman._
 
 ```
 छायावनाच्युतसुतो गुरुमूर्तिनामा स्थित्वा जगद्गुरुपदे छवि(४७)वर्षकालम्।

@@ -1,9 +1,9 @@
 ## Kāñchī 68 Jagadguru Śrī Chandraśekharendra Sarasvatī Ārādhanā
 काञ्ची ६८ जगद्गुरु श्री चन्द्रशेखरेन्द्र सरस्वती आराधना is observed on Kṛṣṇa-Dvādaśī tithi of Mārgaśīrṣa (lunar) month (madhyaahna/puurvaviddha).
 
-![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-68.jpg
+![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-68.jpg)
 
-)__
+__
 
 ```
 महास्वामीति विख्यातस्त्वष्टषष्टो जगद्गुरुः।

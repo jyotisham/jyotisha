@@ -94,7 +94,7 @@ def write_event_README(event, event_file_name):
         readme_file.write(blurb)
         description_string = ""
         if "image" in event_dict:
-          description_string = '![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/%s\n\n)' % event_dict['image']
+          description_string = '![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/%s)\n\n' % event_dict['image']
 
         if "description" in event_dict:
           # description_string = json.dumps(event_dict.description)
