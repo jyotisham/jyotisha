@@ -281,12 +281,13 @@ class Panchangam(common.JsonObject):
                 get_angam_func(jd_sunset_tmrw +
                                (jd_sunrise_datmrw - jd_sunset_tmrw) * (3.0 / 5.0), ayanamsha_id=self.ayanamsha_id)]
         elif kaala_type == 'pradosha':
+            # pradOSo.astamayAdUrdhvaM ghaTikAdvayamiShyatE (tithyAdi tattvam, Vrat Parichay p. 25 Gita Press)
             angams = [get_angam_func(jd_sunset, ayanamsha_id=self.ayanamsha_id),
-                      get_angam_func(jd_sunset + (jd_sunrise_tmrw - jd_sunset) * (1.0 / 5.0),
+                      get_angam_func(jd_sunset + (jd_sunrise_tmrw - jd_sunset) * (1.0 / 15.0),
                                      ayanamsha_id=self.ayanamsha_id),
                       get_angam_func(jd_sunset_tmrw, ayanamsha_id=self.ayanamsha_id),
                       get_angam_func(jd_sunset_tmrw +
-                                     (jd_sunrise_datmrw - jd_sunset_tmrw) * (1.0 / 5.0),
+                                     (jd_sunrise_datmrw - jd_sunset_tmrw) * (1.0 / 15.0),
                                      ayanamsha_id=self.ayanamsha_id)]
         elif kaala_type == 'nishita':
             angams = [
