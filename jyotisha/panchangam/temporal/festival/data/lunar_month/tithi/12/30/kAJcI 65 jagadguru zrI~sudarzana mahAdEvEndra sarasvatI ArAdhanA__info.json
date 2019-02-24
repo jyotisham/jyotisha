@@ -1,6 +1,6 @@
 {
   "description": {
-    "en": "![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-65.jpg)"
+    "en": "![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-65.jpg)Preceptor Mah\u0101devendra adorned the P\u012b\u1e6dha for thirty-nine years and attaind Siddhi on the new moon day in the month of Ph\u0101lgu\u1e47a of the year Virodhi. This preceptor\u2019s name before initiation was Mah\u0101li\u1e45gam. His parents were well-known as Lak\u1e63m\u012b and \u015ae\u1e63\u0101dri. His place of siddhi was a village called Ilay\u0101tta\u1e45gu\u1e0di. \u015aalivahana era 1813."
   },
   "id": "kAJcI 65 jagadguru zrI~sudarzana mahAdEvEndra sarasvatI ArAdhanA",
   "jsonClass": "HinduCalendarEvent",
@@ -10,6 +10,9 @@
   ],
   "references_secondary": [
     "www.kamakoti.org"
+  ],
+  "shlokas": [
+    "madhyArjunamahAliGganAmA hArItagOtrajaH.zESAdrizAstriNaH subbulakSmyAM patnyAM vyajAyata..16..\nupaSaSTE svavayasi vizramagrAmam AgataH.zivAlayAntikE tatra zaivaM bhAvam upAgamat..17..\npIThE mahAdEvEndrAkhyastriMzannava samAH sthitaH.virOdhiphAlgunAmAyAM guruH kaivalyam AsthitaH..18..\n\u2014puNyazlOkamaJjarI"
   ],
   "tags": [
     "kanchi-aradhana-days"

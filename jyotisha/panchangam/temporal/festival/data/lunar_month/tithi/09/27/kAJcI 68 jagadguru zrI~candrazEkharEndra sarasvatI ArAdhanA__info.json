@@ -1,7 +1,16 @@
 {
+  "description": {
+    "en": "![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-68.jpg)"
+  },
   "id": "kAJcI 68 jagadguru zrI~candrazEkharEndra sarasvatI ArAdhanA",
   "jsonClass": "HinduCalendarEvent",
   "priority": "puurvaviddha",
+  "references_primary": [
+    "Punya Shloka Manjari"
+  ],
+  "shlokas": [
+    "mahAsvAmIti vikhyAtastvaSTaSaSTO jagadguruH.hArItE'nvaya udbhUta utkRSTE nAma dhAmani..25..\npaJcOnE varSasAhasrapaJcakE vigatE kalau.jayavarSE vRSE mAsi maitrarkSE kRSNapakSakE..26..\npratipattithimadhyAhnE svAminAthEti kIrtitaH.mahAlakSmIsubrahmaNyadampatyOstapasaH phalam..27..\nrujA'pahRtadEhatvE pUrvayOrgurunAthayOH.tadAjJayA sa sannyastO vayasyUnatrayOdazE..28..\ncandrazEkharEti puNyanAma bibhrat sa AzramI.sarvajJamUrtistriryAtrAM bhAratasyAcarat padA..29..\npratyakSaM daivataM bhUtvA dharmE cAkRSya mArdavAt.lOkAn samanujagrAha varSANAM zatakaM zubham..30..\nkAJcyAM vidEhakaivalyaM prApadyata munIzvaraH.zrImukhE mArgakRSNE sa dvAdazyAm aparAhNakE..31..\n\u2014puNyazlOkamaJjarI"
+  ],
   "tags": [
     "kanchi-aradhana-days",
     "common-festivals"

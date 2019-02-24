@@ -1,6 +1,6 @@
 {
   "description": {
-    "en": "![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-12.jpg)"
+    "en": "![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-12.jpg)Initiated by \u015ar\u012b Cidghanendra, the preceptor \u015ar\u012b Chandra\u015bekhara, having adorned the K\u0101mako\u1e6di P\u012b\u1e6dha for sixty-three years, then having initiated/ imparted on e named Saccidghana, vanished with form in the midst of disciples. He attained his exalted Supreme state on the ninth day of the bright fortnight in the month of \u0100\u1e63\u0101\u1e0dha of the year \u0100nanda."
   },
   "id": "kAJcI 12 jagadguru zrI~candrazEkharEndra sarasvatI ArAdhanA",
   "jsonClass": "HinduCalendarEvent",
@@ -10,6 +10,9 @@
   ],
   "references_secondary": [
     "www.kamakoti.org"
+  ],
+  "shlokas": [
+    "zrIcidghanEndraniyataH zaradastriSaSTiM zrIkAmakOTim abhimaNDya tatazca kaJcit.\nsaccidghanAkhyam anuziSya vRtO'pi ziSyaiH zrIcandrazEkharaguruH savapustirO'dhAt..23..\nAnandamayam AnandE ASADhyASADhapUrvakE.\nnavamyAm anavamyaM svaM padam Apat parAtparam..24..\n\u2014puNyazlOkamaJjarI"
   ],
   "tags": [
     "kanchi-aradhana-days"

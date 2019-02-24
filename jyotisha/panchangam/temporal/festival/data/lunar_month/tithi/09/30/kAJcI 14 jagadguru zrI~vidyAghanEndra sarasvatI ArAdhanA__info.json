@@ -1,6 +1,6 @@
 {
   "description": {
-    "en": "![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-14.jpg)"
+    "en": "![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-14.jpg)Having entered the peak named Agastya after established Ga\u1e45g\u0101dharag\u012b\u1e63pati in the \u0101c\u0101rya P\u012b\u1e6dha and after subduing the Ugrabhairava through mantra, He stayed there itself. Son of \u015ar\u012b Boppanna, known as \u015ar\u012b N\u0101yana earlier, that Vidy\u0101ghana having got initiation from Saccidghana, endowed with enormous occult powers, having adorned the principal seat of K\u0101mako\u1e6di for forty-five years, He merged (in Self) on the new moon day of the month of M\u0101rga\u015b\u012br\u1e63a in the year Dh\u0101tu of \u015a\u0101liv\u0101hana era 239."
   },
   "id": "kAJcI 14 jagadguru zrI~vidyAghanEndra sarasvatI ArAdhanA",
   "jsonClass": "HinduCalendarEvent",
@@ -10,6 +10,9 @@
   ],
   "references_secondary": [
     "www.kamakoti.org"
+  ],
+  "shlokas": [
+    "nivEzya gaGgAdharagISpatiM padE pravizya kUTaM tad agastyacihnitam.\npramOTayan mantrata ugrabhairavaM nivEzanaM svaM tata Eva klRptavAn..28..\nzrImadbApaNasOmayAjitanayaH zrInAyanAbhikhyayA\nkhyAtaH pUrvam udAramantravibhavaH saMyamya saccidghanAt.\nAsthAyApyadhikAmakOTi sa zivAn (45) abdAn agE'gAllayaM\ndhAtau zAli-maNIzikhIkSaNa(239)-sahE darzE ca vidyAghanaH..29..\n\u2014puNyazlOkamaJjarI"
   ],
   "tags": [
     "kanchi-aradhana-days"

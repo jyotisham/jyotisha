@@ -1,6 +1,6 @@
 {
   "description": {
-    "en": "![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-44.jpg)"
+    "en": "![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-44.jpg)Son of \u015aiva of Karnataka called Haripa\u1e47\u1e0dita subsequently known by the name \u015ar\u012b P\u016br\u1e47abodha (after initiation) held the preceptor-ship of the P\u012b\u1e6dha (Jagatgurupada) for twenty-six years. This realised preceptor merged in his illustrious effulgence in the early hours on the trayoda\u015b\u012b of K\u1e5b\u1e63\u1e47apak\u1e63\u0101 in the month Bh\u0101drapada of the year Pram\u0101th\u012b."
   },
   "id": "kAJcI 44 jagadguru zrI~pUrNabOdhEndra sarasvatI 2 ArAdhanA",
   "jsonClass": "HinduCalendarEvent",
@@ -10,6 +10,9 @@
   ],
   "references_secondary": [
     "www.kamakoti.org"
+  ],
+  "shlokas": [
+    "kArNATO haripaNDitaH zivasutaH zrIpUrNabOdhAkhyayA bibhrANO'nupadaM jagadgurupadaM varSAMzca SaDviMzatim.\ndhAmni svE paramE jagAma nilayaM varSE pramAthyAhvayE kRSNaprauSThapadatrayOdazatithau brAhmE kSaNE brahmavit..87..\n\u2014puNyazlOkamaJjarI"
   ],
   "tags": [
     "kanchi-aradhana-days"

@@ -1,6 +1,6 @@
 {
   "description": {
-    "en": "![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-18.jpg)"
+    "en": "![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-18.jpg)The austere preceptor Surendra after defeating boldly in debate the materialist Durdhivi and his companion J\u012bva, being honoured by King Surendra in his Court merged in his original state. Preceptor Surendra, a Maharashtrian, revered by all as M\u0101dhura, resorted to asceticism, an adept in Yogic practices, governed the Ma\u1e6dha for only ten years and reached his abode on the first day of the bright fortnight in the month of M\u0101rga\u015b\u012br\u1e63a of the T\u0101ra\u1e47a year in the Kali era 3486."
   },
   "id": "kAJcI 18 jagadguru zrI~yOgatilaka surEndra sarasvatI ArAdhanA",
   "jsonClass": "HinduCalendarEvent",
@@ -10,6 +10,9 @@
   ],
   "references_secondary": [
     "www.kamakoti.org"
+  ],
+  "shlokas": [
+    "durdIdiviM samabhibhUya tathA'sya sAhyAsaktaM ca jIvam apavArya sadhairyam uktyA.\nsampUjitaH sadasi rAjasurEndramukhyaiH yOgI surEndraniyamI yuyujE padE svE..39..\nmahArASTraH sarvairapi ca vinutO mAthura iti prapannaH sannyAsaM rasa-vasu-jaladhyagniSu (3486) kalEH.\ndazaivAdhyuSyAbdAn adhimaTham ayaM yOgitilakaH surEndraH svaM mArgE pratipadi sitE prApa nilayam..40..\n\u2014puNyazlOkamaJjarI"
   ],
   "tags": [
     "kanchi-aradhana-days"

@@ -1,6 +1,6 @@
 {
   "description": {
-    "en": "![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-43.jpg)"
+    "en": "![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-43.jpg)Preceptor \u0100nandaghana, known as \u015aa\u1e45karapa\u1e47\u1e0dita (before initiation) was the son of Sudevabha\u1e6d\u1e6d\u0101 living on the banks of river Tu\u1e45gabhadr\u0101 and He held the preceptor-ship for thirty-six years. He left his physical coil on the Navami (ninth day) of the bright fortnight in the month of Caitra of the year Pram\u0101di."
   },
   "id": "kAJcI 43 jagadguru zrI~AnandaghanEndra sarasvatI ArAdhanA",
   "jsonClass": "HinduCalendarEvent",
@@ -10,6 +10,9 @@
   ],
   "references_secondary": [
     "www.kamakoti.org"
+  ],
+  "shlokas": [
+    "zrItuGgabhadrAtaTabhUH sudEvabhaTTAtmajaH zaGkarapaNDitAkhyaH.\nabhUd athAnandaghanazcalAbdaiH (36) pramAdicaitrAcchanavamyahE'gAt..86..\n\u2014puNyazlOkamaJjarI"
   ],
   "tags": [
     "kanchi-aradhana-days"

@@ -1,6 +1,6 @@
 {
   "description": {
-    "en": "![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-32.jpg)"
+    "en": "![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-32.jpg)Son of Ka\u1e47\u1e47\u016b\u015ba\u1e45kara, the clever Padman\u0101bha by ame, though intent on practising Lambika Yoga, this preceptor Cid\u0101nandaghanendra adhering to the injunctions of the Master, remained in the seat of K\u0101mako\u1e6di that bestows all desired things to those who resort to, fed innumerable devotees every day. He, the adept in Yoga reinstating compassionately the Kannada prince who lost kith and kin in his own kingdom through his (the prince\u2019s) conqueror, He (Cid\u0101nandaghanendra) remained as preceptor only for four years sustaining on dry leaves. This preceptor reached his Ultimate abode which is devoid of all grief, delusion etc. on the sixty day of bright fortnight in the month of M\u0101rga\u015b\u012br\u1e63a of the year Prajotpati."
   },
   "id": "kAJcI 32 jagadguru zrI~cidAnandaghanEndra sarasvatI ArAdhanA",
   "jsonClass": "HinduCalendarEvent",
@@ -10,6 +10,9 @@
   ],
   "references_secondary": [
     "www.kamakoti.org"
+  ],
+  "shlokas": [
+    "aNNu(kaNva)zaGkaranandanaH paTupadmanAbhasamAhvayO\nlambikApathatatparO'pyavalambya sadguruzAsanam.\nkAmakOTipadE sthitaH zritakAmakOTiphalapradE\nnityadattasahasrabhaktam abhUd idaMpadabhAgasau..61..\nsakaruNam apabandhuM kannaDEzIkumAraM punarapi nijarAjyE sthApayaMstadvijEtrA.\natilaghutanuvRttirjIrNaparNAt sa yOgI padamanu caturO'bdAnEva dEvO'dhyavAtsIt..62..\nprajOtpattau mArgazIrSE sitaSaSThyAm agAd asau.padaM svaM paramaM sarvazOkamOhavivarjitam..63..\n\u2014puNyazlOkamaJjarI"
   ],
   "tags": [
     "kanchi-aradhana-days"

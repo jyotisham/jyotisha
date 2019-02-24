@@ -1,6 +1,6 @@
 {
   "description": {
-    "en": "![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-13.jpg)"
+    "en": "![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-13.jpg)Then, the preceptor \u015ar\u012b Cidghana, having governed or held the responsibilities of \u0100c\u0101rya P\u012b\u1e6dha for thirtyseven years, placed his disciple \u015ar\u012b Vidy\u0101ghana, who was known as \u015ar\u012b N\u0101yana in P\u016brv\u0101\u015brama before initiation, in the Ma\u1e6dha; adhering to ascetic principles, wandering like a child, He vanished in the divine form of \u0102\u015bvara. \u015ar\u012b Sacchid\u0101nanda, named \u015ae\u1e63a (before initiation), son of \u015ar\u012bdhrapa\u1e47\u1e0dita, born on the banks of river Garu\u1e0da, disciple of Preceptor Chandra\u015bekahara having enjoyed the bliss through spiritual practices for sixty-nine years, and at the end of life entered into the \u015aivali\u1e45ga\u2014K\u0101y\u0101dhirohane\u015bvara. The great preceptor, the transcendental, immaculate attained the supreme state devoid of pains, beyond everything, imperishable and infinite on the first day of the dark fortnight in the month of M\u0101rga\u015b\u012br\u1e63a in the year Khara. "
   },
   "id": "kAJcI 13 jagadguru zrI~saccidghanEndra sarasvatI ArAdhanA",
   "jsonClass": "HinduCalendarEvent",
@@ -10,6 +10,9 @@
   ],
   "references_secondary": [
     "www.kamakoti.org"
+  ],
+  "shlokas": [
+    "saptatriMzad asau samAH samanubhUyAcAryapIThIdhurAM\nzrIvidyAghanam AndhravarNinam adhAcchrInAyanAkhyaM maThE.\nbhrAmyan bAlavad antarE puravarasyA''dhUtavRttiH sthiraH\nzrIsaccidghanadEzikaH samabhajat svAntardhim anvIzvaram..25..\nsUnuH zrIdharapaNDitasya garuDasrOtasvinItIrabhUH\nzESAkhyO gurucandrazEkharamunEH ziSyazca saccidghanaH.\nvarSAn saptatim Ekavarjam anubhUyAdhyAtmabuddhyA sukhaM\ndEhAntE zivaliGgamadhyam avizat kAyAdhirOhEzituH..26..\nkharE'kharaprakRtiraghAsahaH sahE parOrajAH param aparE ca pakSakE.\nadhAd adhipratipad anApadAspadaM parAtparaM padam azarIram avyayam..27..\n\u2014puNyazlOkamaJjarI"
   ],
   "tags": [
     "kanchi-aradhana-days"

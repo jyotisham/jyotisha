@@ -1,6 +1,6 @@
 {
   "description": {
-    "en": "![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-54.jpg)"
+    "en": "![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-54.jpg)Born as the son of K\u0101me\u015bvara and Kamal\u0101mb\u0101 of K\u0101\u00f1ci, the one named Kupanna who having received the initiation and preceptor-ship with the name Mah\u0101deva, conducted the lectures on Bh\u0101\u1e63ya ably for twenty-one times in nine years rejoicingly, attained siddhi on the pratipad of black fortnight in the month of \u0100\u1e63\u0101\u1e0dha of the year Ak\u1e63aya. As He stayed ever in the Vy\u0101s\u0101cala, He is known as Vy\u0101s\u0101cala and the author of Vy\u0101s\u0101caliya and other works. He attained siddhi in Vy\u0101s\u0101cala."
   },
   "id": "kAJcI 54 jagadguru zrI~vyAsAcala mahAdEvEndra sarasvatI ArAdhanA",
   "jsonClass": "HinduCalendarEvent",
@@ -10,6 +10,9 @@
   ],
   "references_secondary": [
     "www.kamakoti.org"
+  ],
+  "shlokas": [
+    "kAJcIkAmEzvarAryAt samajani kamalAmbOdarAt kuppaNAkhyO\nyaH pUrNAnandayOgipravarapadaratEH prApa pIThIm amuSya.\nbhASyaM triH saptakRtvazcaTulam acakalad yO navAbdyAM prahRSyan.\n akSayyASADhakRSNapratipadi sa mahAdEvanAmA''pa siddhim..107..\n\u2014puNyazlOkamaJjarI"
   ],
   "tags": [
     "kanchi-aradhana-days"

@@ -1,6 +1,6 @@
 {
   "description": {
-    "en": "![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-67.jpg)"
+    "en": "![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-67.jpg)Preceptor by name Mah\u0101devendra adorning P\u012b\u1e6dha attained siddhi on the first day (pratipat) of bright fortnight of Phaguna month in the year Par\u0101bhava. The name of this preceptor before initiation was Lak\u1e63min\u0101r\u0101ya\u1e47a. His father was well-known as Narasimha\u015b\u0101stri. This preceptor was well-versed in \u1e5agveda. His place of sidhi was Kalavai village in \u015aalivahana era 1830."
   },
   "id": "kAJcI 67 jagadguru zrI~mahAdEvEndra sarasvatI 5 ArAdhanA",
   "jsonClass": "HinduCalendarEvent",
@@ -10,6 +10,9 @@
   ],
   "references_secondary": [
     "www.kamakoti.org"
+  ],
+  "shlokas": [
+    "lakSmInarasiMhayugalaputrO lakSmIkAntO guruvarasEvAm.\nEkAM kRtvA vaTurapi bhikSuH kASThAM prAptO jananam atItAm..21..\ntrivizalUr\u200cgrAmajAtaH ziSyamAtragrajAsutaH.traiviSTapairdurbhajaM sacchiSyatAmAtratO'bhajat..22..\nkalavainAmakE grAmE svagurOrEva sannidhau.A'ntaM tasyaiva zuzrUSAM kRtvA dEhAntam AptavAn..23..\ngururmahAdEvEndrAkhyaH saptAhI siddhim Ayayau.parAbhavE phAlgunE tu zuklAyAM pratipattithau..24..\n\u2014puNyazlOkamaJjarI"
   ],
   "tags": [
     "kanchi-aradhana-days",

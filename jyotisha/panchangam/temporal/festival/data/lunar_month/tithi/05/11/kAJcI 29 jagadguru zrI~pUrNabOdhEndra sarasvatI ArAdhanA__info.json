@@ -1,6 +1,6 @@
 {
   "description": {
-    "en": "![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-29.jpg)"
+    "en": "![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-29.jpg)Son of \u015ar\u012bpati, known as K\u1e5b\u1e63\u1e47a before initiation, the great sage P\u016br\u1e47abodhendra, merged in Brahman on the Ek\u0101da\u015bi (eleventh) day of the bright fortnight of the month \u015arava\u1e47a in the year \u0102\u015bvara. His preceptor-ship was for seventeen years."
   },
   "id": "kAJcI 29 jagadguru zrI~pUrNabOdhEndra sarasvatI ArAdhanA",
   "jsonClass": "HinduCalendarEvent",
@@ -10,6 +10,9 @@
   ],
   "references_secondary": [
     "www.kamakoti.org"
+  ],
+  "shlokas": [
+    "zrIpatEstanayaH kRSNaH pUrNabOdhO dinE harEH.brahmabhUtO nabhasyacchE saMyamIzvara IzvarE..58..\n\u2014puNyazlOkamaJjarI"
   ],
   "tags": [
     "kanchi-aradhana-days"

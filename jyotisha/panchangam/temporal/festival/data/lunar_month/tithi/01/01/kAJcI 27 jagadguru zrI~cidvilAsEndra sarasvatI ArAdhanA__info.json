@@ -1,6 +1,6 @@
 {
   "description": {
-    "en": "![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-27.jpg)"
+    "en": "![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-27.jpg)Then the preceptor Cidvil\u0101sa, who was Harike\u015bava (before initiation), son of Madhus\u016bdan\u0101rya of Hasti\u015baila (K\u0101\u00f1ci) attained his immortal state on the first day of the \u015aarat \u1e5b\u1e6du in the year Durmukhi. The above two impeccable pontiffs Praj\u00f1\u0101ghana and Cidvil\u0101sa attained siddhi in K\u0101\u00f1ci itself. His (Cidvil\u0101sa) duration of preceptorship was thirteen years."
   },
   "id": "kAJcI 27 jagadguru zrI~cidvilAsEndra sarasvatI ArAdhanA",
   "jsonClass": "HinduCalendarEvent",
@@ -10,6 +10,9 @@
   ],
   "references_secondary": [
     "www.kamakoti.org"
+  ],
+  "shlokas": [
+    "atha hastizailamadhusUdanAtmajO harikEzavazca citisaukhyamEduraH.\nagamat padaM svam akhilasthirAguruH zaradaH sa durmukhina AdimE dinE..56..\n\u2014puNyazlOkamaJjarI"
   ],
   "tags": [
     "kanchi-aradhana-days"

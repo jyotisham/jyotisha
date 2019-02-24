@@ -1,6 +1,6 @@
 {
   "description": {
-    "en": "![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-57.jpg)"
+    "en": "![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-57.jpg)\u015aivar\u0101mak\u1e5b\u1e63\u1e47a, son of Parame\u015bvara on the banks of river Pamp\u0101, devoted to Sad\u0101\u015biva, having got initiation into asceticism from him, devoid of any attachment indeed, He remained at the abode of goddess K\u0101m\u0101k\u1e63\u012b. Devoted to the worship of \u015ar\u012b Cakrar\u0101ja, adhered to the path of \u015aivar\u0101ja, adhered to the path of \u015aivayoga, adept in worshipping the goddess K\u0101me\u015bvar\u012b, He, free from desires, held the preceptor-ship for fortyseven years. This senior preceptor, courageous, reached the space that is beyond the physical body, on the tenth day of the bright fortnight of the \u015arava\u1e47a month in the year P\u0101rthiva of the \u015aaka era 1508 (D\u016bra \u015aaka). According to scholars, this preceptor was the master of Sad\u0101\u015bivabrahmendra and attained siddhi in \u015avet\u0101ra\u1e47yam."
   },
   "id": "kAJcI 57 jagadguru zrI~paramazivEndra sarasvatI 2 ArAdhanA",
   "jsonClass": "HinduCalendarEvent",
@@ -10,6 +10,9 @@
   ],
   "references_secondary": [
     "www.kamakoti.org"
+  ],
+  "shlokas": [
+    "pampAsarastaTabhuvaH paramEzvarasya putraH sadAzivarataH zivarAmakRSNaH.\ntasmAdavApya niyamaM niyamI nirastasaGgO'dhyuvAsa sadanaM khalu kAmanEtryAH..3..\nzrIcakrapUjanarataH zivayOgalambI zrIdEzikEndravacasA zritakAmapIThaH.\nAcAryakaM chavi(47)samaM vidadhAvakAmaH kAmEzvarI-manu-purazcaraNaikadakSaH..4..\nsa pArthivE pArthivadEhadUraM nabhO nabhasyacchatamO'cchapakSE.\navApad ApadvidhurO dazamyAM dazamyasau dInazakE (1508) zakAbdE..5..\n\u2014puNyazlOkamaJjarI"
   ],
   "tags": [
     "kanchi-aradhana-days"

@@ -1,6 +1,6 @@
 {
   "description": {
-    "en": "![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-21.jpg)"
+    "en": "![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-21.jpg)Son of \u015ar\u012b Acyuta\u015barm\u0101 of Ko\u1e45ka\u1e47ade\u015ba, having offered his services of preparing sandal paste for the worship of \u015ar\u012b Chandramoul\u012b\u015bvara, He was offered kingship of Kashmir by King Har\u1e63a for his poetical wisdom/merits. Having ruled Kashmir for a short period, He came back to his preceptor Arbhaka\u015ba\u1e45kara and got initiated into asceticism with the name S\u0101rvabhauma Chandrac\u016b\u1e0dendra Sarasvat\u012b. Preceptor \u015ar\u012b Chandrac\u016b\u1e0dendra Sarasvat\u012b leading for ten years a pious life on the banks of Ganges, establishing on his throne revered Madhura the incarnation of Dhanvantari and adorning him with the title Parip\u016br\u1e47abodha reached/attained his Lord\u2019s immortal abode on the night of K\u1e5b\u1e63\u1e47ajanm\u0101\u1e63\u1e6dam\u012b in the year Vijaya."
   },
   "id": "kAJcI 21 jagadguru zrI~candrazEkharEndra sarasvatI 2 ArAdhanA",
   "jsonClass": "HinduCalendarEvent",
@@ -10,6 +10,9 @@
   ],
   "references_secondary": [
     "www.kamakoti.org"
+  ],
+  "shlokas": [
+    "arcAcandanapESaNAd bhagavataH zrIzaGkarEndrArcita-\nsyArUDhaH padavIM kavEranusRtErharSasya bhUtvA nRpaH.\nkAzmIrESu virajya vikrama-mRtau gRhNan gurOH prAktanAt\nsannyAsaM sa hi kOGkaNAcyutasutaH zrIcandracUDO'bhavat..45..\nabdAn dEvanadItaTE daza nayan AcAryabhUtO bhuvO\ndhanvantaryavatAram AryamadhuraM nikSipya pIThE nijE.\ndattvA'smai paripUrNabOdhabirudaM bhEjE vyayE cAvyayaM\ndhAma svaM jananASTamInizi harEH zrIcandracUDAzramI..46..\n\u2014puNyazlOkamaJjarI"
   ],
   "tags": [
     "kanchi-aradhana-days"

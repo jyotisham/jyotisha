@@ -1,6 +1,6 @@
 {
   "description": {
-    "en": "![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-63.jpg)"
+    "en": "![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-63.jpg)Preceptor \u015ar\u012b Mah\u0101devendra governed the preceptor-ship for thirty-one years, attained siddhi on \u015aukla Dv\u0101da\u015b\u012b (twelfth day of bright fortnight) of the month \u0100\u1e63\u0101\u1e0dha in the year \u015armukha. His place of siddhi was Kumbhaghona town in \u015aalivahana era 1736."
   },
   "id": "kAJcI 63 jagadguru zrI~mahAdEvEndra sarasvatI 5 ArAdhanA",
   "jsonClass": "HinduCalendarEvent",
@@ -10,6 +10,9 @@
   ],
   "references_secondary": [
     "www.kamakoti.org"
+  ],
+  "shlokas": [
+    "aNNAzrautIti jAtO'yaM kumbhaghONE mahAmanAH.triSaSTO dEzikO lilyE svagurOrEva sannidhau..12..\nmahAdEvEndragururAD EkatriMzatsamAH sthitaH.zrImukhASADhamAzzukladvAdazyAM siddhim AsthitaH..13..\n\u2014puNyazlOkamaJjarI"
   ],
   "tags": [
     "kanchi-aradhana-days"

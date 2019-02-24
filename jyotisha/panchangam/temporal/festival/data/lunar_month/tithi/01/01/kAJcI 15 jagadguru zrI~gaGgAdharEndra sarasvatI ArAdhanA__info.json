@@ -1,6 +1,6 @@
 {
   "description": {
-    "en": "![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-15.jpg)"
+    "en": "![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-15.jpg)Ga\u1e45g\u0101dharag\u012b\u1e63pati\u1e25, known as Subhadra, son of K\u0101\u00f1ci Bhadragiri, got initiated in the twelfth year of age by \u015ar\u012b Vidy\u0101ghana whom He had served became a realised soul when He as twenty-four years old and reached the eternal abode of \u015ar\u012b vidy\u0101 and \u015ar\u012b \u015aiva. He, the Omnipotent, omniscient and pure reached the eternal abode by his glory on the first day of the bright fortnight in the month of Caitra of the year Sarvadhari."
   },
   "id": "kAJcI 15 jagadguru zrI~gaGgAdharEndra sarasvatI ArAdhanA",
   "jsonClass": "HinduCalendarEvent",
@@ -10,6 +10,9 @@
   ],
   "references_secondary": [
     "www.kamakoti.org"
+  ],
+  "shlokas": [
+    "sUnurbhadragirEH subhadra iti yaH kAJcya(kapya?)nvayO dvAdazE\nvarSE saMyamam AzritO'nucaritAd AcAryavidyAghanAt.\nzrIgaGgAdharagISpatiH sa ca caturviMzE vayasyAtmavit\nzrIvidyAzivayOrnirantaradhRtErApnOt padaM zAzvatam..30..\nsarvadhAriNi sa sarvadhArakazcitrazaktiradhicaitram arjunE.\narjunaH svayazasA''dimE dinE'nAdidhAma mahasA jagAma ha..31..\n\u2014puNyazlOkamaJjarI"
   ],
   "tags": [
     "kanchi-aradhana-days"

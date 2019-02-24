@@ -1,6 +1,6 @@
 {
   "description": {
-    "en": "![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-28.jpg)"
+    "en": "![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-28.jpg)Son of Bh\u0101numi\u015bra of Bhadr\u0101cala, \u015ae\u1e63an\u0101rya (before initiation), He (Bhadr\u0101cala Mah\u0101deva), having adorned/decorated the seat of the \u0100diguru, attained that Supreme state attainable by/to the great saints who were adepts in subduing senses, on the tenth day of the black fortnight in the year Raudr\u012b. He also attained beatitude in K\u0101\u00f1ci. His preceptorship was for twenty-four years."
   },
   "id": "kAJcI 28 jagadguru zrI~mahAdEvEndra sarasvatI 1 ArAdhanA",
   "jsonClass": "HinduCalendarEvent",
@@ -10,6 +10,9 @@
   ],
   "references_secondary": [
     "www.kamakoti.org"
+  ],
+  "shlokas": [
+    "bhadrAcalAbhijanabhAnusutaH sa zESaNAryO'bhimaNDya padam AdimadEzikasya.\nraudriNyanUrjadazami prazamIndragamyaM prApat padaM praNihitEH paramAmRtAkhyam..57..\n\u2014puNyazlOkamaJjarI"
   ],
   "tags": [
     "kanchi-aradhana-days"

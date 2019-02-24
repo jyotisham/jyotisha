@@ -1,6 +1,6 @@
 {
   "description": {
-    "en": "![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-31.jpg)"
+    "en": "![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-31.jpg)Born on the banks of river Garu\u1e0da (Ka\u1e0dilam in Tamil) in the Dravi\u1e0da de\u015ba (South India), as the son of Anant\u0101rya, He was called Jye\u1e63\u1e6darudra (before initiation). Having become the disciple of \u015ar\u012b Bodhendr\u0101c\u0101rya, He held with sincerity the responsibility of Preceptor-ship of the earth; worshipped by King Lalit\u0101ditya of Kashmir who conquered all rival kings on earth \u015ar\u012b Brahm\u0101nandaghana attained liberation on dv\u0101da\u015b\u012b(twelfth day) of the bright fortnight of Jye\u1e63\u1e6da in the year Prabhava. Well-versed in the six system of philosophy and adored/worshipped by the well-known poet Bhavabh\u016bti and Kashmir monarch Lalit\u0101ditya, this preceptor adorned the P\u012b\u1e6dha for thirteen years and attained liberation in K\u0101\u00f1ci itself."
   },
   "id": "kAJcI 31 jagadguru zrI~brahmAnandaghanEndra sarasvatI ArAdhanA",
   "jsonClass": "HinduCalendarEvent",
@@ -10,6 +10,9 @@
   ],
   "references_secondary": [
     "www.kamakoti.org"
+  ],
+  "shlokas": [
+    "AnantirjyESTharudrO draviDiSu garuDahrAdinIsImni jAtO\nbOdhEndrAcAryaziSyO bhuvanagurudhurAM pAlayaJchIlayuktaH.\nkRtsnakSmAmaNDalIjinnRpavaralalitAdityanutyArcitAGghriH\nzrIbrahmAnandasAndraH prabhavazucizucidvAdazIyAhni lilyE..60..\n\u2014puNyazlOkamaJjarI"
   ],
   "tags": [
     "kanchi-aradhana-days"

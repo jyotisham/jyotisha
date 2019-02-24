@@ -1,6 +1,6 @@
 {
   "description": {
-    "en": "![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-50.jpg)"
+    "en": "![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-50.jpg)Then the preceptor Chandrac\u016b\u1e0da, son of Aru\u1e47agiri, by name Ga\u1e45ge\u015ba (before initiation), governing the preceptor-ship for fifty years, He, avowed to the rigid worship of Lord \u015aiva, attained siddhi on the night of \u015auklapak\u1e63a\u1e63a\u1e63\u1e6dhi of the month Jye\u1e63\u1e6da in the year Durmukhi. These two preceptors\u2014\u015ar\u012b Mah\u0101deva and \u015ar\u012b J\u0101hnav\u012btirthas performed innumerable y\u0101gas and attained siddhi on the banks of river Garu\u1e0da (Ka\u1e0dilam)."
   },
   "id": "kAJcI 50 jagadguru zrI~candracUDEndra sarasvatI 1 ArAdhanA",
   "jsonClass": "HinduCalendarEvent",
@@ -10,6 +10,9 @@
   ],
   "references_secondary": [
     "www.kamakoti.org"
+  ],
+  "shlokas": [
+    "aruNagiritanUbhUrAryagaGgEzanAmA guruvarapadam aJcan kiJca paJcAzadabdAn.\nabhajadatha sa siddhiM durmukhijyESThaSaSThInizi nizitazivArcAniSThitazcandracUDaH..97..\n\u2014puNyazlOkamaJjarI"
   ],
   "tags": [
     "kanchi-aradhana-days"

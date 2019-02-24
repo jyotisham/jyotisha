@@ -1,6 +1,6 @@
 {
   "description": {
-    "en": "![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-41.jpg)"
+    "en": "![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-41.jpg)Appanna, son of Ume\u015babha\u1e6d\u1e6da, on the banks of river Bh\u012bm\u0101, engrossed in \u015ar\u012bvidy\u0101 became preceptor after initiation and remained in K\u0101mako\u1e6diP\u012b\u1e6dha adorning the \u015a\u0101rad\u0101p\u012b\u1e6dhik\u0101 for thirty-five years. The noble Ga\u1e45g\u0101dhara attained siddhi on the pratipad (first day) of bright fortnight in the month \u015arava\u1e47a of the year Saumya."
   },
   "id": "kAJcI 41 jagadguru zrI~gaGgAdharEndra sarasvatI 2 ArAdhanA",
   "jsonClass": "HinduCalendarEvent",
@@ -10,6 +10,9 @@
   ],
   "references_secondary": [
     "www.kamakoti.org"
+  ],
+  "shlokas": [
+    "appaNNAkhya umEzabhaTTatanayO bhImAtaTIsambhavaH zrIvidyAnirataH zritO gurupadaM zrIkAmakOTImaThE.\npaJcatriMzatam adhyuvAsa zaradaH zrIzAradApIThikAM saumyaH saumyanabhassitapratipadi prEyAya gaGgAdharaH..84..\n\u2014puNyazlOkamaJjarI"
   ],
   "tags": [
     "kanchi-aradhana-days"

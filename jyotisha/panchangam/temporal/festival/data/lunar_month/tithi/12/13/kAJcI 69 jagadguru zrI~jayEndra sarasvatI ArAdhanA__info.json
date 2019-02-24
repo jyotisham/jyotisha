@@ -1,7 +1,13 @@
 {
+  "description": {
+    "en": "![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-69.jpg)"
+  },
   "id": "kAJcI 69 jagadguru zrI~jayEndra sarasvatI ArAdhanA",
   "jsonClass": "HinduCalendarEvent",
   "priority": "puurvaviddha",
+  "shlokas": [
+    ""
+  ],
   "tags": [
     "kanchi-aradhana-days",
     "common-festivals"
