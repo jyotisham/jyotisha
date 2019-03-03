@@ -83,7 +83,7 @@ def test_orinda_ca_dst_2019():
   # March 10 is the 69th day of the year (70th in leap years) in the Gregorian calendar.
   # Sunrise on that day is around 7:27 AM according to Google, which is JD 2458553.14375 according to https://ssd.jpl.nasa.gov/tc.cgi#top .
   # We use the index 70 below as the annual panchanga object seems to use the index d + 1.
-  assert panchangam.jd_sunrise[70] == 2458554.102189621  # 2019-Mar-10 07:28:38.14
+  assert panchangam.jd_sunrise[70] == 2458554.104348263  # 2019-Mar-10 07:30:15.69
 
 
 if __name__ == '__main__':
