@@ -1,5 +1,5 @@
 ## Nêrūr Śrī Sadāśiva Brahmendra Ārādhanā
-नॆरूर् श्री सदाशिव ब्रह्मेन्द्र आराधना is observed on Śukla-Daśamī tithi of Vaiśākha (lunar) month (madhyaahna/puurvaviddha).
+नॆरूर् श्री सदाशिव ब्रह्मेन्द्र आराधना is observed on Śukla-Daśamī tithi of Vaiśākha (lunar) month (aparahna/puurvaviddha).
 
 
 

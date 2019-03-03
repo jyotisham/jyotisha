@@ -40,7 +40,7 @@ _Chaaturmasya begins; 4 months; Pradakshina to Pippala; Deeparadhana in temple; 
 
 ---
 ## Kāñchī 48 Jagadguru Śrī Advaitānandabodhendra Sarasvatī Ārādhanā
-काञ्ची ४८ जगद्गुरु श्री अद्वैतानन्दबोधेन्द्र सरस्वती आराधना is observed on Śukla-Daśamī tithi of Āṣāḍha (lunar) month (madhyaahna/puurvaviddha).
+काञ्ची ४८ जगद्गुरु श्री अद्वैतानन्दबोधेन्द्र सरस्वती आराधना is observed on Śukla-Daśamī tithi of Āṣāḍha (lunar) month (aparahna/puurvaviddha).
 
 ![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-48.jpg)
 

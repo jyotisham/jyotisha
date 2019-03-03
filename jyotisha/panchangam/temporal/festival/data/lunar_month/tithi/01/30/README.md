@@ -11,7 +11,7 @@
 
 ---
 ## Kāñchī 47 Jagadguru Śrī Chandraśekharendra Sarasvatī 4 Ārādhanā
-काञ्ची ४७ जगद्गुरु श्री चन्द्रशेखरेन्द्र सरस्वती ४ आराधना is observed on Amāvāsyā tithi of Caitra (lunar) month (madhyaahna/puurvaviddha).
+काञ्ची ४७ जगद्गुरु श्री चन्द्रशेखरेन्द्र सरस्वती ४ आराधना is observed on Amāvāsyā tithi of Caitra (lunar) month (aparahna/puurvaviddha).
 
 ![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-47.jpg)
 

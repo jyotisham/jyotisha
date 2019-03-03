@@ -5,7 +5,7 @@
 
 ---
 ## Śṛṅgerī 35 Jagadguru Śrī Abhinava Vidyātīrtha Mahāsvāmī Ārādhanā
-शृङ्गेरी ३५ जगद्गुरु श्री अभिनव विद्यातीर्थ महास्वामी आराधना is observed on Kṛṣṇa-Saptamī tithi of Bhādrapada (lunar) month (sunrise (default)/puurvaviddha (default)).
+शृङ्गेरी ३५ जगद्गुरु श्री अभिनव विद्यातीर्थ महास्वामी आराधना is observed on Kṛṣṇa-Saptamī tithi of Bhādrapada (lunar) month (aparahna/puurvaviddha (default)).
 
 
 

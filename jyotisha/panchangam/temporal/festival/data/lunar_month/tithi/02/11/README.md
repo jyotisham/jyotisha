@@ -1,5 +1,5 @@
 ## Kāñchī 1 Jagadguru Śrī Ādi-Śaṅkara Bhagavatpāda Ārādhanā
-काञ्ची १ जगद्गुरु श्री आदि-शङ्कर भगवत्पाद आराधना is observed on Śukla-Ekādaśī tithi of Vaiśākha (lunar) month (madhyaahna/puurvaviddha).
+काञ्ची १ जगद्गुरु श्री आदि-शङ्कर भगवत्पाद आराधना is observed on Śukla-Ekādaśī tithi of Vaiśākha (lunar) month (aparahna/puurvaviddha).
 
 ![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-01.jpg)
 

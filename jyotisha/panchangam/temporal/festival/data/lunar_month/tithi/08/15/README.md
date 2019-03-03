@@ -38,7 +38,7 @@ _Perform snana four ghatikas before sunrise (during अरुणोदयम्,
 
 ---
 ## Śrī Govinda Bhagavatpāda Ārādhanā
-श्री गोविन्द भगवत्पाद आराधना is observed on Paurṇamāsī tithi of Kārtika (lunar) month (madhyaahna/puurvaviddha).
+श्री गोविन्द भगवत्पाद आराधना is observed on Paurṇamāsī tithi of Kārtika (lunar) month (aparahna/puurvaviddha).
 
 
 

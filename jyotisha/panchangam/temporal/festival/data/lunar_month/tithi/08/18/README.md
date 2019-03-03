@@ -1,5 +1,5 @@
 ## Kāñchī 9 Jagadguru Śrī Kṛpāśaṅkarendra Sarasvatī Ārādhanā
-काञ्ची ९ जगद्गुरु श्री कृपाशङ्करेन्द्र सरस्वती आराधना is observed on Kṛṣṇa-Tṛtīyā tithi of Kārtika (lunar) month (madhyaahna/puurvaviddha).
+काञ्ची ९ जगद्गुरु श्री कृपाशङ्करेन्द्र सरस्वती आराधना is observed on Kṛṣṇa-Tṛtīyā tithi of Kārtika (lunar) month (aparahna/puurvaviddha).
 
 ![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-09.jpg)
 

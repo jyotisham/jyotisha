@@ -1,5 +1,5 @@
 ## Kāñchī 5 Jagadguru Śrī Jñānānandendra Sarasvatī Ārādhanā
-काञ्ची ५ जगद्गुरु श्री ज्ञानानन्देन्द्र सरस्वती आराधना is observed on Śukla-Saptamī tithi of Mārgaśīrṣa (lunar) month (madhyaahna/puurvaviddha).
+काञ्ची ५ जगद्गुरु श्री ज्ञानानन्देन्द्र सरस्वती आराधना is observed on Śukla-Saptamī tithi of Mārgaśīrṣa (lunar) month (aparahna/puurvaviddha).
 
 ![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-05.jpg)
 
@@ -16,7 +16,7 @@ _Born of a brahmin called Nāgeśa in the village called Maṅgala of the Chola 
 
 ---
 ## Mitra-Saptamī
-मित्र-सप्तमी is observed on Śukla-Saptamī tithi of Mārgaśīrṣa (lunar) month (madhyaahna/puurvaviddha).
+मित्र-सप्तमी is observed on Śukla-Saptamī tithi of Mārgaśīrṣa (lunar) month (aparahna/puurvaviddha).
 
 _Birth of Surya to Aditya-Kashyapa on this day._
 

@@ -1,5 +1,5 @@
 ## Saptama-Aparapakṣa-Ārambhaḥ
-सप्तम-अपरपक्ष-आरम्भः is observed on Kṛṣṇa-Prathamā tithi of Āśvayuja (lunar) month (madhyaahna/puurvaviddha).
+सप्तम-अपरपक्ष-आरम्भः is observed on Kṛṣṇa-Prathamā tithi of Āśvayuja (lunar) month (aparahna/puurvaviddha).
 
 
 
