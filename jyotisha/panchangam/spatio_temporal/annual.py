@@ -632,22 +632,16 @@ class Panchangam(common.JsonObject):
                 #   sys.stderr.write('Error! Still not computed t29_end!')
 
                 angams = self.get_angams_for_kaalas(d, temporal.get_tithi, 'aparahna')
-                # logging.debug(angams)
-                # logging.debug(temporal.get_chandra_masa(self.lunar_month[d], temporal.NAMES, 'hk'))
 
                 # Get Name
                 if self.lunar_month[d] == 6:
-                    pref = '(%s) mahAlaya ' % (temporal.get_chandra_masa(
-                        self.lunar_month[d], temporal.NAMES, 'hk'))
+                    pref = '(%s) mahAlaya ' % (temporal.get_chandra_masa(self.lunar_month[d], temporal.NAMES, 'hk', visarga=False))
                 elif self.solar_month[d] == 4:
-                    pref = '%s (kaTaka) ' % (temporal.get_chandra_masa(
-                        self.lunar_month[d], temporal.NAMES, 'hk'))
+                    pref = '%s (kaTaka) ' % (temporal.get_chandra_masa(self.lunar_month[d], temporal.NAMES, 'hk', visarga=False))
                 elif self.solar_month[d] == 10:
-                    pref = 'mauni (%s/makara) ' % (temporal.get_chandra_masa(
-                        self.lunar_month[d], temporal.NAMES, 'hk'))
+                    pref = 'mauni (%s/makara) ' % (temporal.get_chandra_masa(self.lunar_month[d], temporal.NAMES, 'hk', visarga=False))
                 else:
-                    pref = temporal.get_chandra_masa(self.lunar_month[d],
-                                                     temporal.NAMES, 'hk') + '-'
+                    pref = temporal.get_chandra_masa(self.lunar_month[d], temporal.NAMES, 'hk', visarga=False) + '-'
 
                 ama_nakshatram_today = self.get_angams_for_kaalas(d, temporal.get_nakshatram, 'aparahna')[:2]
                 ama_nakshatram_tmrw = self.get_angams_for_kaalas(d + 1, temporal.get_nakshatram, 'aparahna')[:2]
