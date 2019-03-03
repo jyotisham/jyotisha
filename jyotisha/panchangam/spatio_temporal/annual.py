@@ -884,6 +884,38 @@ class Panchangam(common.JsonObject):
                 # Last occurred on 27-02-1961 - pushya nakshatra and phalguna krishna dvadashi (or shukla!?)
                 self.add_festival('gOvinda~mahAdvAdazI', d, debug_festivals)
 
+            if (self.tithi_sunrise[d] % 15) == 12:
+                if self.nakshatram_sunrise[d] in [21, 22, 23]:
+                    # We have a dwadashi near shravana, check for Shravana sparsha
+                    logging.debug(self.tithi_data[d:d + 2])
+                    for td in self.tithi_data[d:d + 2]:
+                        logging.debug(td[0])
+                        (t12, t12_end) = td[0]
+                        if t12_end is None:
+                            continue
+                        if (t12 % 15) == 11:
+                            if temporal.get_angam(t12_end, temporal.NAKSHATRAM, ayanamsha_id=self.ayanamsha_id) == 22:
+                                if (self.tithi_sunrise[d] % 15) == 12 and (self.tithi_sunrise[d + 1] % 15) == 12:
+                                    self.add_festival('vijayA/zravaNa-mahAdvAdazI', d, debug_festivals)
+                                    logging.debug(('vijayA/zravaNa-mahAdvAdazI', d))
+                                elif (self.tithi_sunrise[d] % 15) == 12:
+                                    self.add_festival('vijayA/zravaNa-mahAdvAdazI', d, debug_festivals)
+                                    logging.debug(('vijayA/zravaNa-mahAdvAdazI', d))
+                                elif (self.tithi_sunrise[d + 1] % 15) == 12:
+                                    self.add_festival('vijayA/zravaNa-mahAdvAdazI', d + 1, debug_festivals)
+                                    logging.debug(('vijayA/zravaNa-mahAdvAdazI', d + 1))
+                        if (t12 % 15) == 12:
+                            if temporal.get_angam(t12_end, temporal.NAKSHATRAM, ayanamsha_id=self.ayanamsha_id) == 22:
+                                if (self.tithi_sunrise[d] % 15) == 12 and (self.tithi_sunrise[d + 1] % 15) == 12:
+                                    self.add_festival('vijayA/zravaNa-mahAdvAdazI', d, debug_festivals)
+                                    logging.debug(('vijayA/zravaNa-mahAdvAdazI', d))
+                                elif (self.tithi_sunrise[d] % 15) == 12:
+                                    self.add_festival('vijayA/zravaNa-mahAdvAdazI', d, debug_festivals)
+                                    logging.debug(('vijayA/zravaNa-mahAdvAdazI', d))
+                                elif (self.tithi_sunrise[d + 1] % 15) == 12:
+                                    self.add_festival('vijayA/zravaNa-mahAdvAdazI', d + 1, debug_festivals)
+                                    logging.debug(('vijayA/zravaNa-mahAdvAdazI', d + 1))
+
             if self.nakshatram_sunrise[d] == 22 and (self.tithi_sunrise[d] % 15) == 12:
                 self.add_festival('vijayA/zravaNa-mahAdvAdazI', d, debug_festivals)
 

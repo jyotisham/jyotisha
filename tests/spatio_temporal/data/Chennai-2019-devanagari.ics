@@ -2719,6 +2719,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:विजया/श्रवण-महाद्वादशी
+DTSTART;VALUE=DATE:20190303
+DTEND;VALUE=DATE:20190304
+DESCRIPTION:Dvadashi tithi\, combined with Shravana nakshatram.\n\nhttps:/
+ /github.com/sanskrit-coders/jyotisha/tree/master/jyotisha/panchangam/tempo
+ ral/festival/data/other/rare-days/combinations/special-vratams#vijayā/śr
+ avaṇa-mahādvādaśī
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:मासशिवरात्रिः
 DTSTART;VALUE=DATE:20190304
 DTEND;VALUE=DATE:20190305
@@ -12887,6 +12903,22 @@ DESCRIPTION:Wednesday Shravana \; Vamana Jayanti\; Shravana Dvadashi\; Vij
  aya Dvadashi\; Shakra Dvadashi\n\nhttps://github.com/sanskrit-coders/jyoti
  sha/tree/master/jyotisha/panchangam/temporal/festival/data/lunar_month/tit
  hi/06/12#vāmana-jayantī
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:विजया/श्रवण-महाद्वादशी
+DTSTART;VALUE=DATE:20190910
+DTEND;VALUE=DATE:20190911
+DESCRIPTION:Dvadashi tithi\, combined with Shravana nakshatram.\n\nhttps:/
+ /github.com/sanskrit-coders/jyotisha/tree/master/jyotisha/panchangam/tempo
+ ral/festival/data/other/rare-days/combinations/special-vratams#vijayā/śr
+ avaṇa-mahādvādaśī
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
