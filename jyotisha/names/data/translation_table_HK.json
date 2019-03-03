@@ -1,9 +1,9 @@
 {
   "CHANDRA_MASA_NAMES": {
-    "hk": ["caitra", "vaizAkha", "jyaiSTha", "ASADha", "zravaNa", "bhAdrapada", "Azvayuja", "kArtika", "mArgazIrSa", "pauSa", "mAgha", "phAlguna"]
+    "hk": ["caitraH", "vaizAkhaH", "jyaiSThaH", "ASADhaH", "zrAvaNaH", "bhAdrapadaH", "AzvayujaH", "kArtikaH", "mArgazIrSaH", "pauSaH", "mAghaH", "phAlgunaH"]
   },
   "KARANAM_NAMES": {
-    "hk": ["kiMstughna", "bava", "bAlava", "kaulava", "taitila", "garaja", "vaNija", "bhadra", "bava", "bAlava", "kaulava", "taitila", "garaja", "vaNija", "bhadra", "bava", "bAlava", "kaulava", "taitila", "garaja", "vaNija", "bhadra", "bava", "bAlava", "kaulava", "taitila", "garaja", "vaNija", "bhadra", "bava", "bAlava", "kaulava", "taitila", "garaja", "vaNija", "bhadra", "bava", "bAlava", "kaulava", "taitila", "garaja", "vaNija", "bhadra", "bava", "bAlava", "kaulava", "taitila", "garaja", "vaNija", "bhadra", "bava", "bAlava", "kaulava", "taitila", "garaja", "vaNija", "bhadra", "zakuni", "catuSpAt", "nAgava"]
+    "hk": ["kiMstughnam", "bavam", "bAlavam", "kaulavam", "taitilam", "garajA", "vaNijA", "bhadrA", "bavam", "bAlavam", "kaulavam", "taitilam", "garajA", "vaNijA", "bhadrA", "bavam", "bAlavam", "kaulavam", "taitilam", "garajA", "vaNijA", "bhadrA", "bavam", "bAlavam", "kaulavam", "taitilam", "garajA", "vaNijA", "bhadrA", "bavam", "bAlavam", "kaulavam", "taitilam", "garajA", "vaNijA", "bhadrA", "bavam", "bAlavam", "kaulavam", "taitilam", "garajA", "vaNijA", "bhadrA", "bavam", "bAlavam", "kaulavam", "taitilam", "garajA", "vaNijA", "bhadrA", "bavam", "bAlavam", "kaulavam", "taitilam", "garajA", "vaNijA", "bhadrA", "zakuniH", "catuSpAt", "nAgavAn"]
   },
   "KRISHNA_EKADASHI_NAMES": {
     "hk": ["varUthinI", "aparA", "yOginI", "kAmikA", "ajA", "indirA", "ramA", "utpannA", "saphalA", "SaTtilA", "vijayA", "pApamOcanI", "paramA"]
@@ -12,13 +12,13 @@
     "hk": ["vikaTa", "Ekadanta", "kRSNapiGgala", "gajAnana", "hEramba", "vighnarAja", "vakratuNDa", "gaNAdhipa", "Akhuratha", "lambOdara", "dvijapriya", "bhAlacandra", "vibhuvana"]
   },
   "NAKSHATRAM_NAMES": {
-    "hk": ["azvinI", "apabharaNI", "kRttikA", "rOhiNI", "mRgazIrSa", "ArdrA", "punarvasU", "puSya", "AzrESA", "maghA", "pUrvaphalgunI", "uttaraphalgunI", "hasta", "citrA", "svAti", "vizAkhA", "anUrAdhA", "jyESThA", "mUlA", "pUrvASADhA", "uttarASADhA", "zravaNa", "zraviSThA", "zatabhiSak", "pUrvaprOSThapadA", "uttaraprOSThapadA", "rEvatI"]
+    "hk": ["azvinI", "apabharaNI", "kRttikA", "rOhiNI", "mRgazIrSam", "ArdrA", "punarvasuH", "puSyaH", "AzrESA", "maghA", "pUrvaphalgunI", "uttaraphalgunI", "hastaH", "citrA", "svAtI", "vizAkhA", "anUrAdhA", "jyESThA", "mUlA", "pUrvASADhA", "uttarASADhA", "zravaNam", "zraviSThA", "zatabhiSak", "pUrvaprOSThapadA", "uttaraprOSThapadA", "rEvatI"]
   },
   "PUSHKARA_NAMES": {
     "hk": ["gaGgA", "narmadA", "sarasvatI", "yamunA", "gOdAvarI", "kRSNA", "kAvErI", "tAmraparNI", "sindhu", "bhadrA", "bhImarathI", "prANahitA"]
   },
   "RASHI_NAMES": {
-    "hk": ["mESa", "vRSabha", "mithuna", "kaTaka", "siMha", "kanyA", "tulA", "vRzcika", "dhanuH", "makara", "kumbha", "mIna"]
+    "hk": ["mESaH", "vRSabhaH", "mithunam", "kaTakaH", "siMhaH", "kanyA", "tulA", "vRzcikaH", "dhanuH", "makaraH", "kumbhaH", "mInaH"]
   },
   "SHUKLA_EKADASHI_NAMES": {
     "hk": ["kAmadA", "mOhinI", "pANDava-nirjalA", "zayana", "pavitrOpAna", "parivartinI", "pApAGkuzA", "utthAna", "mOkSadA", "putradA", "jayA/bhaimI", "AmalakI", "padminI"]
@@ -27,13 +27,13 @@
     "hk": ["zukla-prathamA", "zukla-dvitIyA", "zukla-tRtIyA", "zukla-caturthI", "zukla-paJcamI", "zukla-SaSThI", "zukla-saptamI", "zukla-aSTamI", "zukla-navamI", "zukla-dazamI", "zukla-EkAdazI", "zukla-dvAdazI", "zukla-trayOdazI", "zukla-caturdazI", "paurNamAsI", "kRSNa-prathamA", "kRSNa-dvitIyA", "kRSNa-tRtIyA", "kRSNa-caturthI", "kRSNa-paJcamI", "kRSNa-SaSThI", "kRSNa-saptamI", "kRSNa-aSTamI", "kRSNa-navamI", "kRSNa-dazamI", "kRSNa-EkAdazI", "kRSNa-dvAdazI", "kRSNa-trayOdazI", "kRSNa-caturdazI", "amAvAsyA"]
   },
   "VARA_NAMES": {
-    "hk": ["bhAnu" , "indu" , "bhauma" , "saumya" , "guru" , "bhRgu" , "sthira"]
+    "hk": ["bhAnuH" , "induH" , "bhaumaH" , "saumyaH" , "guruH" , "bhRguH" , "sthiraH"]
   },
   "SAMVATSARA_NAMES": {
     "hk": ["prabhava", "vibhava", "zukla", "pramOda", "prajApati", "AGgirasa", "zrImukha", "bhAva", "yuva", "dhAtR", "Izvara", "bahudhAnya", "pramAdhi", "vikrama", "vRSa", "citrabhAnu", "svabhAnu", "tAraNa", "pArthiva", "vyaya", "sarvajit", "sarvadhArI", "virOdhI", "vikRti", "khara", "nandana", "vijaya", "jaya", "manmatha", "durmukhI", "hEvilambI", "vilambI", "vikArI", "zArvarI", "plava", "zubhakRt", "zObhakRt", "krOdhI", "vizvAvasu", "parAbhava", "plavaGga", "kIlaka", "saumya", "sAdhAraNa", "virOdhikRti", "paridhAvI", "pramAdIca", "Ananda", "rAkSasa", "nala", "piGgala", "kAlayukti", "siddhArthI", "raudra", "durmati", "dundubhi", "rudhirOdgArI", "raktAkSI", "krOdhana", "akSaya"]
   },
   "YOGAM_NAMES": {
-    "hk": ["viSkumbha", "prIti", "AyuSmAn", "saubhAgya", "zObhana", "atigaNDa", "sukarma", "dhRti", "zUla", "gaNDa", "vRddhi", "dhruva", "vyAghAta", "harSaNa", "vajra", "siddhi", "vyatIpAta", "varIyAn", "parigha", "ziva", "siddha", "sAdhya", "zubha", "zukla", "brahma", "indra", "vaidhRti"]
+    "hk": ["viSkambhaH", "prItiH", "AyuSmAn", "saubhAgyam", "zObhanaH", "atigaNDaH", "sukarma", "dhRtiH", "zUlaH", "gaNDaH", "vRddhiH", "dhruvaH", "vyAghAtaH", "harSaNaH", "vajraH", "siddhiH", "vyatIpAtaH", "varIyAn", "parighaH", "zivaH", "siddhaH", "sAdhyaH", "zubhaH", "zubhraH", "brAhmaH", "mAhEndraH", "vaidhRtiH"]
   },
   "AYANA_NAMES": {
     "hk": ["uttarAyaNam", "uttarAyaNam", "uttarAyaNam", "dakSiNAyanam", "dakSiNAyanam", "dakSiNAyanam", "dakSiNAyanam", "dakSiNAyanam", "dakSiNAyanam", "uttarAyaNam", "uttarAyaNam", "uttarAyaNam"]
