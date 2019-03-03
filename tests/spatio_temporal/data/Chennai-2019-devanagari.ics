@@ -3708,7 +3708,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:गुरु-सङ्क्रान्तिः (वृश्च
- िक▶धनुः)
+ िकः▶धनुः)
 DTSTART;VALUE=DATE:20190330
 DTEND;VALUE=DATE:20190331
 DESCRIPTION:https://github.com/sanskrit-coders/jyotisha/tree/master/jyotis
@@ -5127,7 +5127,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:गुरु-सङ्क्रान्तिः (धनुः▶
- वृश्चिक)
+ वृश्चिकः)
 DTSTART;VALUE=DATE:20190423
 DTEND;VALUE=DATE:20190424
 DESCRIPTION:https://github.com/sanskrit-coders/jyotisha/tree/master/jyotis
@@ -10095,7 +10095,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:आषाढ (कटक) अमावस्या (अलभ्य
- म्–पुनर्वसू)
+ म्–पुनर्वसुः)
 DTSTART;VALUE=DATE:20190731
 DTEND;VALUE=DATE:20190801
 DESCRIPTION:https://github.com/sanskrit-coders/jyotisha/tree/master/jyotis
@@ -12107,12 +12107,10 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:श्रवण-अमावस्या
+SUMMARY:श्रावण-अमावस्या
 DTSTART;VALUE=DATE:20190830
 DTEND;VALUE=DATE:20190831
-DESCRIPTION:https://github.com/sanskrit-coders/jyotisha/tree/master/jyotis
- ha/panchangam/temporal/festival/data/other/amavasya-days#śravaṇa-amāva
- syā
+DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -16387,7 +16385,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:गुरु-सङ्क्रान्तिः (वृश्च
- िक▶धनुः)
+ िकः▶धनुः)
 DTSTART;VALUE=DATE:20191105
 DTEND;VALUE=DATE:20191106
 DESCRIPTION:https://github.com/sanskrit-coders/jyotisha/tree/master/jyotis
