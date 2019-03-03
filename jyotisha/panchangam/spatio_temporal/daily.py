@@ -10,7 +10,7 @@ from scipy.optimize import brentq
 
 import jyotisha
 from jyotisha.panchangam import temporal
-from jyotisha.panchangam.spatio_temporal import City
+from jyotisha.panchangam.spatio_temporal import City, CALC_RISE, CALC_SET
 from jyotisha.panchangam.temporal import SOLAR_MONTH, get_angam, get_angam_float
 from sanskrit_data.schema import common
 
@@ -67,33 +67,33 @@ class Panchangam(common.JsonObject):
         self.jd_sunrise = swe.rise_trans(
             jd_start=self.julian_day_start, body=swe.SUN,
             lon=self.city.longitude, lat=self.city.latitude,
-            rsmi=swe.CALC_RISE | swe.BIT_DISC_CENTER)[1][0]
+            rsmi=CALC_RISE)[1][0]
         self.jd_sunset = swe.rise_trans(
             jd_start=self.jd_sunrise, body=swe.SUN,
             lon=self.city.longitude, lat=self.city.latitude,
-            rsmi=swe.CALC_SET | swe.BIT_DISC_CENTER)[1][0]
+            rsmi=CALC_SET)[1][0]
         self.jd_previous_sunset = swe.rise_trans(jd_start=self.jd_sunrise - 1, body=swe.SUN,
                                                  lon=self.city.longitude, lat=self.city.latitude,
-                                                 rsmi=swe.CALC_SET | swe.BIT_DISC_CENTER)[1][0]
+                                                 rsmi=CALC_SET)[1][0]
         self.jd_next_sunrise = swe.rise_trans(jd_start=self.jd_sunset, body=swe.SUN,
                                               lon=self.city.longitude, lat=self.city.latitude,
-                                              rsmi=swe.CALC_RISE | swe.BIT_DISC_CENTER)[1][0]
+                                              rsmi=CALC_RISE)[1][0]
         if self.jd_sunset == 0.0:
             logging.error('No sunset was computed!')
             raise (ValueError(
                 'No sunset was computed. Perhaps the co-ordinates are beyond the polar circle (most likely a LAT-LONG swap! Please check your inputs.'))
             # logging.debug(swe.rise_trans(jd_start=jd_start, body=swe.SUN, lon=city.longitude,
-            #                              lat=city.latitude, rsmi=swe.CALC_SET | swe.BIT_DISC_CENTER))
+            #                              lat=city.latitude, rsmi=CALC_SET))
 
         self.jd_moonrise = swe.rise_trans(
             jd_start=self.jd_sunrise,
             body=swe.MOON, lon=self.city.longitude,
             lat=self.city.latitude,
-            rsmi=swe.CALC_RISE | swe.BIT_DISC_CENTER)[1][0]
+            rsmi=CALC_RISE)[1][0]
         self.jd_moonset = swe.rise_trans(
             jd_start=self.jd_moonrise, body=swe.MOON,
             lon=self.city.longitude, lat=self.city.latitude,
-            rsmi=swe.CALC_SET | swe.BIT_DISC_CENTER)[1][0]
+            rsmi=CALC_SET)[1][0]
 
         self.tithi_data = temporal.get_angam_data(self.jd_sunrise, self.jd_next_sunrise, temporal.TITHI, ayanamsha_id=self.ayanamsha_id)
         self.tithi_at_sunrise = self.tithi_data[0][0]
@@ -155,11 +155,11 @@ class Panchangam(common.JsonObject):
 
         jd_sunset_after_masa_transit = swe.rise_trans(jd_start=jd_masa_transit, body=swe.SUN,
                                                       lon=self.city.longitude, lat=self.city.latitude,
-                                                      rsmi=swe.CALC_SET | swe.BIT_DISC_CENTER)[1][0]
+                                                      rsmi=CALC_SET)[1][0]
 
         jd_sunrise_after_masa_transit = swe.rise_trans(jd_start=jd_masa_transit, body=swe.SUN,
                                                        lon=self.city.longitude, lat=self.city.latitude,
-                                                       rsmi=swe.CALC_RISE | swe.BIT_DISC_CENTER)[1][0]
+                                                       rsmi=CALC_RISE)[1][0]
 
         if jd_sunset_after_masa_transit > jd_sunrise_after_masa_transit:
             # Masa begins after sunset and before sunrise

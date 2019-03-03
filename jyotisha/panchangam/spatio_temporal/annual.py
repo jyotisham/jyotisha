@@ -18,7 +18,7 @@ from scipy.optimize import brentq
 
 import jyotisha.panchangam
 import jyotisha.zodiac
-from jyotisha.panchangam.spatio_temporal import CODE_ROOT, daily
+from jyotisha.panchangam.spatio_temporal import CODE_ROOT, daily, CALC_RISE, CALC_SET
 
 
 class Panchangam(common.JsonObject):
@@ -1385,10 +1385,10 @@ class Panchangam(common.JsonObject):
                 # eclipse_lunar_end
                 jd_moonrise_eclipse_day = swe.rise_trans(
                     jd_start=self.jd_sunrise[fday], body=swe.MOON, lon=self.city.longitude,
-                    lat=self.city.latitude, rsmi=swe.CALC_RISE | swe.BIT_DISC_CENTER)[1][0] + (tz_off / 24.0)
+                    lat=self.city.latitude, rsmi=CALC_RISE)[1][0] + (tz_off / 24.0)
                 jd_moonset_eclipse_day = swe.rise_trans(
                     jd_start=jd_moonrise_eclipse_day, body=swe.MOON, lon=self.city.longitude,
-                    lat=self.city.latitude, rsmi=swe.CALC_SET | swe.BIT_DISC_CENTER)[1][0] + (tz_off / 24.0)
+                    lat=self.city.latitude, rsmi=CALC_SET)[1][0] + (tz_off / 24.0)
 
                 if eclipse_lunar_end < eclipse_lunar_start:
                     eclipse_lunar_end += 24
