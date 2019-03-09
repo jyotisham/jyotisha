@@ -21,7 +21,7 @@ logging.basicConfig(
 
 NAMES = init_names_auto()
 MAX_DAYS_PER_YEAR = 366
-MAX_SZ = MAX_DAYS_PER_YEAR + 3  # plus one and minus one are usually necessary
+MAX_SZ = MAX_DAYS_PER_YEAR + 6  # plus one and minus one are usually necessary
 MIN_DAYS_NEXT_ECLIPSE = 25
 TITHI = {'id': 'TITHI', 'arc_len': 360.0 / 30.0, 'w_moon': 1, 'w_sun': -1}
 TITHI_PADA = {'id': 'TITHI_PADA', 'arc_len': 360.0 / 120.0, 'w_moon': 1, 'w_sun': -1}

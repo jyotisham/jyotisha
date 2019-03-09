@@ -98,7 +98,7 @@ class Panchangam(common.JsonObject):
         for d in range(temporal.MAX_SZ):
             self.weekday[d] = (self.weekday_start + d - 1) % 7
 
-        for d in range(-1, temporal.MAX_DAYS_PER_YEAR + 2):
+        for d in range(-1, temporal.MAX_DAYS_PER_YEAR + 4):
             # TODO: Eventually, we are shifting to an array of daily panchangas. Reason: Better modularity.
             # The below block is temporary code to make the transition seamless.
             (year_d, month_d, day_d, _) = swe.revjul(self.jd_start_utc + d)
