@@ -370,104 +370,180 @@ class Panchangam(common.JsonObject):
 
             # EKADASHI Vratam
             # One of two consecutive tithis must appear @ sunrise!
-            if self.tithi_sunrise[d] == 11 or self.tithi_sunrise[d] == 12:
-                # check for shukla ekadashi
-                if (self.tithi_sunrise[d] == 11 and self.tithi_sunrise[d + 1] == 11):
-                    self.festivals[d + 1].append('sarva-' + temporal.get_ekadashi_name('shukla', self.lunar_month[d]))
-                    if self.solar_month[d] == 9:
-                        self.festivals[d + 1].append('sarva-vaikuNTha-EkAdazI')
-                    elif self.solar_month[d] == 8:
-                        self.festivals[d + 1].append('sarva-guruvAyupura-EkAdazI')
-                        # self.festivals[d + 1].append('kaizika-EkAdazI')
-                        self.add_festival('kaizika-EkAdazI', d + 1, debug_festivals)
 
-                elif (self.tithi_sunrise[d] == 11 and self.tithi_sunrise[d + 1] != 11):
-                    # Check dashami end time to decide for whether this is
-                    # sarva/smartha
-                    # Two muhurtams is 1/15 of day-length
-                    tithi_arunodayam = temporal.get_tithi(
-                        self.jd_sunrise[d] - (1 / 15.0) *
-                        (self.jd_sunrise[d] - self.jd_sunrise[d - 1]), ayanamsha_id=self.ayanamsha_id)
+            if (self.tithi_sunrise[d] % 15) == 10 or (self.tithi_sunrise[d] % 15) == 11:
+                yati_ekadashi_fday = smaarta_ekadashi_fday = vaishnava_ekadashi_fday = None
+                ekadashi_tithi_days = [x % 15 for x in self.tithi_sunrise[d:d + 3]]
+                logging.debug((d, ':', ekadashi_tithi_days))
+                if self.tithi_sunrise[d] > 15:
+                    ekadashi_paksha = 'krishna'
+                else:
+                    ekadashi_paksha = 'shukla'
+                if ekadashi_tithi_days in [[10, 11, 12], [11, 11, 12], [10, 12, 12]]:
+                    smaarta_ekadashi_fday = d + 1
+                    tithi_arunodayam = temporal.get_tithi(self.jd_sunrise[d + 1] - (1 / 15.0) * (self.jd_sunrise[d + 1] - self.jd_sunrise[d]), ayanamsha_id=self.ayanamsha_id)
                     if tithi_arunodayam == 10:
-                        self.festivals[d].append(
-                            'smArta-' + temporal.get_ekadashi_name('shukla', self.lunar_month[d]))
-                        if self.solar_month[d] == 9:
-                            self.festivals[d].append('smArta-vaikuNTha-EkAdazI')
-                        elif self.solar_month[d] == 8:
-                            self.festivals[d].append('smArta-guruvAyupura-EkAdazI')
-                        self.festivals[d + 1].append(
-                            'vaiSNava-' + temporal.get_ekadashi_name('shukla', self.lunar_month[d]))
-                        if self.solar_month[d] == 9:
-                            self.festivals[d].append('vaiSNava-vaikuNTha-EkAdazI')
-                        elif self.solar_month[d] == 8:
-                            self.festivals[d].append('vaiSNava-guruvAyupura-EkAdazI')
-                            # self.festivals[d].append('kaizika-EkAdazI')
-                            self.add_festival('kaizika-EkAdazI', d, debug_festivals)
+                        vaishnava_ekadashi_fday = d + 2
                     else:
-                        self.festivals[d].append(
-                            'sarva-' + temporal.get_ekadashi_name('shukla', self.lunar_month[d]))
-                        if self.solar_month[d] == 9:
-                            self.festivals[d].append('sarva-vaikuNTha-EkAdazI')
-                        elif self.solar_month[d] == 8:
-                            self.festivals[d].append('sarva-guruvAyupura-EkAdazI')
-                            # self.festivals[d].append('kaizika-EkAdazI')
-                            self.add_festival('kaizika-EkAdazI', d, debug_festivals)
+                        vaishnava_ekadashi_fday = d + 1
+                elif ekadashi_tithi_days in [[10, 12, 13], [11, 12, 13], [11, 12, 12]]:
+                    smaarta_ekadashi_fday = d
+                    tithi_arunodayam = temporal.get_tithi(self.jd_sunrise[d] - (1 / 15.0) * (self.jd_sunrise[d] - self.jd_sunrise[d - 1]), ayanamsha_id=self.ayanamsha_id)
+                    if tithi_arunodayam == 10:
+                        vaishnava_ekadashi_fday = d + 1
+                    else:
+                        vaishnava_ekadashi_fday = d
+                elif ekadashi_tithi_days in [[10, 11, 13], [11, 11, 13]]:
+                    smaarta_ekadashi_fday = d
+                    vaishnava_ekadashi_fday = d + 1
+                    yati_ekadashi_fday = d + 1
 
-                elif (self.tithi_sunrise[d - 1] != 11 and self.tithi_sunrise[d] == 12):
-                    self.festivals[d].append(
-                        'sarva-' + temporal.get_ekadashi_name('shukla', self.lunar_month[d]))
+                if yati_ekadashi_fday == smaarta_ekadashi_fday == vaishnava_ekadashi_fday is None:
+                    # Must have already assigned
+                    pass
+                elif yati_ekadashi_fday is None:
+                    if smaarta_ekadashi_fday == vaishnava_ekadashi_fday:
+                        # It's sarva ekadashi
+                        self.add_festival('sarva-' + temporal.get_ekadashi_name(ekadashi_paksha, self.lunar_month[d]), smaarta_ekadashi_fday, debug_festivals)
+                        if ekadashi_paksha == 'shukla':
+                            if self.solar_month[d] == 9:
+                                self.add_festival('sarva-vaikuNTha-EkAdazI', smaarta_ekadashi_fday, debug_festivals)
+                    else:
+                        self.add_festival('smArta-' + temporal.get_ekadashi_name(ekadashi_paksha, self.lunar_month[d]), smaarta_ekadashi_fday, debug_festivals)
+                        self.add_festival('vaiSNava-' + temporal.get_ekadashi_name(ekadashi_paksha, self.lunar_month[d]), vaishnava_ekadashi_fday, debug_festivals)
+                        if ekadashi_paksha == 'shukla':
+                            if self.solar_month[d] == 9:
+                                self.add_festival('smArta-vaikuNTha-EkAdazI', smaarta_ekadashi_fday, debug_festivals)
+                                self.add_festival('vaiSNava-vaikuNTha-EkAdazI', vaishnava_ekadashi_fday, debug_festivals)
+                else:
+                    self.add_festival('smArta-' + temporal.get_ekadashi_name(ekadashi_paksha, self.lunar_month[d]) + ' (gRhastha)', smaarta_ekadashi_fday, debug_festivals)
+                    self.add_festival('smArta-' + temporal.get_ekadashi_name(ekadashi_paksha, self.lunar_month[d]) + ' (sannyastha)', yati_ekadashi_fday, debug_festivals)
+                    self.add_festival('vaiSNava-' + temporal.get_ekadashi_name(ekadashi_paksha, self.lunar_month[d]), vaishnava_ekadashi_fday, debug_festivals)
                     if self.solar_month[d] == 9:
-                        self.festivals[d].append('sarva-vaikuNTha-EkAdazI')
-                    elif self.solar_month[d] == 8:
-                        self.festivals[d].append('sarva-guruvAyupura-EkAdazI')
-                        # self.festivals[d].append('kaizika-EkAdazI')
-                        self.add_festival('kaizika-EkAdazI', d, debug_festivals)
+                        if ekadashi_paksha == 'shukla':
+                            self.add_festival('smArta-vaikuNTha-EkAdazI (gRhastha)', smaarta_ekadashi_fday, debug_festivals)
+                            self.add_festival('smArta-vaikuNTha-EkAdazI (sannyastha)', yati_ekadashi_fday, debug_festivals)
+                            self.add_festival('vaiSNava-vaikuNTha-EkAdazI', vaishnava_ekadashi_fday, debug_festivals)
 
-                # Harivasara Computation
-                harivasara_end = brentq(temporal.get_angam_float, self.jd_sunrise[d] - 2,
-                                        self.jd_sunrise[d] + 2, args=(
-                        temporal.TITHI_PADA, -45, self.ayanamsha_id, False))
-                [_y, _m, _d, _t] = swe.revjul(harivasara_end + (tz_off / 24.0))
-                hariv_end_time = temporal.Time(swe.revjul(harivasara_end + (tz_off / 24.0))[3]).toString()
+                logging.debug((yati_ekadashi_fday, smaarta_ekadashi_fday, vaishnava_ekadashi_fday))
 
-                fday_hv = swe.julday(_y, _m, _d, 0) - self.jd_start_utc + 1
-                self.festivals[int(fday_hv)].append(
-                    'harivAsaraH\\textsf{%s}{\\RIGHTarrow}\\textsf{%s}' % ('', hariv_end_time))
+                if yati_ekadashi_fday == smaarta_ekadashi_fday == vaishnava_ekadashi_fday is None:
+                    # Must have already assigned
+                    pass
+                else:
+                    if self.solar_month[d] == 8 and ekadashi_paksha == 'shukla':
+                            # self.add_festival('guruvAyupura-EkAdazI', smaarta_ekadashi_fday, debug_festivals)
+                            self.add_festival('guruvAyupura-EkAdazI', vaishnava_ekadashi_fday, debug_festivals)
+                            self.add_festival('kaizika-EkAdazI', vaishnava_ekadashi_fday, debug_festivals)
 
-            # One of two consecutive tithis must appear @ sunrise!
-            if self.tithi_sunrise[d] == 26 or self.tithi_sunrise[d] == 27:
-                # check for krishna ekadashi
-                if (self.tithi_sunrise[d] == 26 and self.tithi_sunrise[d + 1] == 26):
-                    self.festivals[d + 1].append(
-                        'sarva-' + temporal.get_ekadashi_name('krishna', self.lunar_month[d]))
-                elif (self.tithi_sunrise[d] == 26 and self.tithi_sunrise[d + 1] != 26):
-                    # Check dashami end time to decide for whether this is
-                    # sarva/smartha
-                    # Two muhurtams is 1/15 of day-length
-                    tithi_arunodayam = temporal.get_tithi(
-                        self.jd_sunrise[d] - (1 / 15.0) *
-                        (self.jd_sunrise[d] - self.jd_sunrise[d - 1]), ayanamsha_id=self.ayanamsha_id)
-                    if tithi_arunodayam == 25:
-                        self.festivals[d].append(
-                            'smArta-' + temporal.get_ekadashi_name('krishna', self.lunar_month[d]))
-                        self.festivals[d + 1].append(
-                            'vaiSNava-' + temporal.get_ekadashi_name('krishna', self.lunar_month[d]))
+                    # Harivasara Computation
+                    if ekadashi_paksha == 'shukla':
+                        harivasara_end = brentq(temporal.get_angam_float, self.jd_sunrise[smaarta_ekadashi_fday] - 2, self.jd_sunrise[smaarta_ekadashi_fday] + 2, args=(temporal.TITHI_PADA, -45, self.ayanamsha_id, False))
                     else:
-                        self.festivals[d].append(
-                            'sarva-' + temporal.get_ekadashi_name('krishna', self.lunar_month[d]))
-                elif (self.tithi_sunrise[d - 1] != 26 and self.tithi_sunrise[d] == 27):
-                    self.festivals[d].append(
-                        'sarva-' + temporal.get_ekadashi_name('krishna', self.lunar_month[d]))
+                        harivasara_end = brentq(temporal.get_angam_float, self.jd_sunrise[smaarta_ekadashi_fday] - 2, self.jd_sunrise[smaarta_ekadashi_fday] + 2, args=(temporal.TITHI_PADA, -105, self.ayanamsha_id, False))
+                    [_y, _m, _d, _t] = swe.revjul(harivasara_end + (tz_off / 24.0))
+                    hariv_end_time = temporal.Time(swe.revjul(harivasara_end + (tz_off / 24.0))[3]).toString()
+                    fday_hv = swe.julday(_y, _m, _d, 0) - self.jd_start_utc + 1
+                    self.festivals[int(fday_hv)].append('harivAsaraH\\textsf{%s}{\\RIGHTarrow}\\textsf{%s}' % ('', hariv_end_time))
 
-                harivasara_end = brentq(temporal.get_angam_float, self.jd_sunrise[d] - 2,
-                                        self.jd_sunrise[d] + 2, args=(
-                        temporal.TITHI_PADA, -105, self.ayanamsha_id, False))
-                [_y, _m, _d, _t] = swe.revjul(harivasara_end + (tz_off / 24.0))
-                hariv_end_time = temporal.Time(swe.revjul(harivasara_end + (tz_off / 24.0))[3]).toString()
+            # if self.tithi_sunrise[d] == 11 or self.tithi_sunrise[d] == 12:
+            #     # check for shukla ekadashi
+            #     if (self.tithi_sunrise[d] == 11 and self.tithi_sunrise[d + 1] == 11):
+            #         self.festivals[d + 1].append('sarva-' + temporal.get_ekadashi_name('shukla', self.lunar_month[d]))
+            #         if self.solar_month[d] == 9:
+            #             self.festivals[d + 1].append('sarva-vaikuNTha-EkAdazI')
+            #         elif self.solar_month[d] == 8:
+            #             self.festivals[d + 1].append('sarva-guruvAyupura-EkAdazI')
+            #             # self.festivals[d + 1].append('kaizika-EkAdazI')
+            #             self.add_festival('kaizika-EkAdazI', d + 1, debug_festivals)
 
-                fday_hv = swe.julday(_y, _m, _d, 0) - self.jd_start_utc + 1
-                self.festivals[int(fday_hv)].append(
-                    'harivAsaraH\\textsf{%s}{\\RIGHTarrow}\\textsf{%s}' % ('', hariv_end_time))
+            #     elif (self.tithi_sunrise[d] == 11 and self.tithi_sunrise[d + 1] != 11):
+            #         # Check dashami end time to decide for whether this is
+            #         # sarva/smartha
+            #         # Two muhurtams is 1/15 of day-length
+            #         tithi_arunodayam = temporal.get_tithi(
+            #             self.jd_sunrise[d] - (1 / 15.0) *
+            #             (self.jd_sunrise[d] - self.jd_sunrise[d - 1]), ayanamsha_id=self.ayanamsha_id)
+            #         if tithi_arunodayam == 10:
+            #             self.festivals[d].append(
+            #                 'smArta-' + temporal.get_ekadashi_name('shukla', self.lunar_month[d]))
+            #             if self.solar_month[d] == 9:
+            #                 self.festivals[d].append('smArta-vaikuNTha-EkAdazI')
+            #             elif self.solar_month[d] == 8:
+            #                 self.festivals[d].append('smArta-guruvAyupura-EkAdazI')
+            #             self.festivals[d + 1].append(
+            #                 'vaiSNava-' + temporal.get_ekadashi_name('shukla', self.lunar_month[d]))
+            #             if self.solar_month[d] == 9:
+            #                 self.festivals[d].append('vaiSNava-vaikuNTha-EkAdazI')
+            #             elif self.solar_month[d] == 8:
+            #                 self.festivals[d].append('vaiSNava-guruvAyupura-EkAdazI')
+            #                 # self.festivals[d].append('kaizika-EkAdazI')
+            #                 self.add_festival('kaizika-EkAdazI', d, debug_festivals)
+            #         else:
+            #             self.festivals[d].append(
+            #                 'sarva-' + temporal.get_ekadashi_name('shukla', self.lunar_month[d]))
+            #             if self.solar_month[d] == 9:
+            #                 self.festivals[d].append('sarva-vaikuNTha-EkAdazI')
+            #             elif self.solar_month[d] == 8:
+            #                 self.festivals[d].append('sarva-guruvAyupura-EkAdazI')
+            #                 # self.festivals[d].append('kaizika-EkAdazI')
+            #                 self.add_festival('kaizika-EkAdazI', d, debug_festivals)
+
+            #     elif (self.tithi_sunrise[d - 1] != 11 and self.tithi_sunrise[d] == 12):
+            #         self.festivals[d].append(
+            #             'sarva-' + temporal.get_ekadashi_name('shukla', self.lunar_month[d]))
+            #         if self.solar_month[d] == 9:
+            #             self.festivals[d].append('sarva-vaikuNTha-EkAdazI')
+            #         elif self.solar_month[d] == 8:
+            #             self.festivals[d].append('sarva-guruvAyupura-EkAdazI')
+            #             # self.festivals[d].append('kaizika-EkAdazI')
+            #             self.add_festival('kaizika-EkAdazI', d, debug_festivals)
+
+            #     # Harivasara Computation
+            #     harivasara_end = brentq(temporal.get_angam_float, self.jd_sunrise[d] - 2,
+            #                             self.jd_sunrise[d] + 2, args=(
+            #             temporal.TITHI_PADA, -45, self.ayanamsha_id, False))
+            #     [_y, _m, _d, _t] = swe.revjul(harivasara_end + (tz_off / 24.0))
+            #     hariv_end_time = temporal.Time(swe.revjul(harivasara_end + (tz_off / 24.0))[3]).toString()
+
+            #     fday_hv = swe.julday(_y, _m, _d, 0) - self.jd_start_utc + 1
+            #     self.festivals[int(fday_hv)].append(
+            #         'harivAsaraH\\textsf{%s}{\\RIGHTarrow}\\textsf{%s}' % ('', hariv_end_time))
+
+            # # One of two consecutive tithis must appear @ sunrise!
+            # if self.tithi_sunrise[d] == 26 or self.tithi_sunrise[d] == 27:
+            #     # check for krishna ekadashi
+            #     if (self.tithi_sunrise[d] == 26 and self.tithi_sunrise[d + 1] == 26):
+            #         self.festivals[d + 1].append(
+            #             'sarva-' + temporal.get_ekadashi_name('krishna', self.lunar_month[d]))
+            #     elif (self.tithi_sunrise[d] == 26 and self.tithi_sunrise[d + 1] != 26):
+            #         # Check dashami end time to decide for whether this is
+            #         # sarva/smartha
+            #         # Two muhurtams is 1/15 of day-length
+            #         tithi_arunodayam = temporal.get_tithi(
+            #             self.jd_sunrise[d] - (1 / 15.0) *
+            #             (self.jd_sunrise[d] - self.jd_sunrise[d - 1]), ayanamsha_id=self.ayanamsha_id)
+            #         if tithi_arunodayam == 25:
+            #             self.festivals[d].append(
+            #                 'smArta-' + temporal.get_ekadashi_name('krishna', self.lunar_month[d]))
+            #             self.festivals[d + 1].append(
+            #                 'vaiSNava-' + temporal.get_ekadashi_name('krishna', self.lunar_month[d]))
+            #         else:
+            #             self.festivals[d].append(
+            #                 'sarva-' + temporal.get_ekadashi_name('krishna', self.lunar_month[d]))
+            #     elif (self.tithi_sunrise[d - 1] != 26 and self.tithi_sunrise[d] == 27):
+            #         self.festivals[d].append(
+            #             'sarva-' + temporal.get_ekadashi_name('krishna', self.lunar_month[d]))
+
+            #     harivasara_end = brentq(temporal.get_angam_float, self.jd_sunrise[d] - 2,
+            #                             self.jd_sunrise[d] + 2, args=(
+            #             temporal.TITHI_PADA, -105, self.ayanamsha_id, False))
+            #     [_y, _m, _d, _t] = swe.revjul(harivasara_end + (tz_off / 24.0))
+            #     hariv_end_time = temporal.Time(swe.revjul(harivasara_end + (tz_off / 24.0))[3]).toString()
+
+            #     fday_hv = swe.julday(_y, _m, _d, 0) - self.jd_start_utc + 1
+            #     self.festivals[int(fday_hv)].append(
+            #         'harivAsaraH\\textsf{%s}{\\RIGHTarrow}\\textsf{%s}' % ('', hariv_end_time))
 
             # PRADOSHA Vratam
             pref = ''
