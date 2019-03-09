@@ -181,11 +181,11 @@ class Panchangam(common.JsonObject):
             self.rashi_data[d] = daily_panchaangas[d].rashi_data
             if compute_lagnams:
                 self.lagna_data[d] = daily_panchaangas[d].get_lagna_data(self.jd_sunrise[d])
-                
+
     def assignLunarMonths(self):
         last_d_assigned = 0
         last_new_moon_start, last_new_moon_end = temporal.get_angam_span(
-            self.jd_start_utc - self.tithi_sunrise[1] - 2, self.jd_start_utc - self.tithi_sunrise[1] + 2,   temporal.TITHI, 30, ayanamsha_id=self.ayanamsha_id)
+            self.jd_start_utc - self.tithi_sunrise[1] - 2, self.jd_start_utc - self.tithi_sunrise[1] + 2, temporal.TITHI, 30, ayanamsha_id=self.ayanamsha_id)
         this_new_moon_start, this_new_moon_end = temporal.get_angam_span(last_new_moon_start + 24, last_new_moon_start + 32, temporal.TITHI, 30, ayanamsha_id=self.ayanamsha_id)
         # Check if current mAsa is adhika here
         isAdhika = temporal.get_solar_rashi(last_new_moon_end, ayanamsha_id=self.ayanamsha_id) == \
@@ -201,10 +201,8 @@ class Panchangam(common.JsonObject):
                     break
                 if isAdhika:
                     self.lunar_month[i] = (last_solar_month % 12) + .5
-                    # logging.debug('*%3d: %2.1f, %2d, %2d, %2d' % (i, self.lunar_month[i], last_solar_month, temporal.get_solar_rashi(this_new_moon_end, ayanamsha_id=self.ayanamsha_id), temporal.get_solar_rashi(last_new_moon_end, ayanamsha_id=self.ayanamsha_id)))
                 else:
                     self.lunar_month[i] = last_solar_month
-                    # logging.debug(' %3d: %2.1f, %2d, %2d, %2d' % (i, self.lunar_month[i], last_solar_month, temporal.get_solar_rashi(this_new_moon_end, ayanamsha_id=self.ayanamsha_id), temporal.get_solar_rashi(last_new_moon_end, ayanamsha_id=self.ayanamsha_id)))
 
             isAdhika = temporal.get_solar_rashi(this_new_moon_end, ayanamsha_id=self.ayanamsha_id) == \
                        temporal.get_solar_rashi(next_new_moon_end, ayanamsha_id=self.ayanamsha_id)
@@ -374,7 +372,6 @@ class Panchangam(common.JsonObject):
             if (self.tithi_sunrise[d] % 15) == 10 or (self.tithi_sunrise[d] % 15) == 11:
                 yati_ekadashi_fday = smaarta_ekadashi_fday = vaishnava_ekadashi_fday = None
                 ekadashi_tithi_days = [x % 15 for x in self.tithi_sunrise[d:d + 3]]
-                logging.debug((d, ':', ekadashi_tithi_days))
                 if self.tithi_sunrise[d] > 15:
                     ekadashi_paksha = 'krishna'
                 else:
@@ -424,8 +421,6 @@ class Panchangam(common.JsonObject):
                             self.add_festival('smArta-vaikuNTha-EkAdazI (gRhastha)', smaarta_ekadashi_fday, debug_festivals)
                             self.add_festival('smArta-vaikuNTha-EkAdazI (sannyastha)', yati_ekadashi_fday, debug_festivals)
                             self.add_festival('vaiSNava-vaikuNTha-EkAdazI', vaishnava_ekadashi_fday, debug_festivals)
-
-                logging.debug((yati_ekadashi_fday, smaarta_ekadashi_fday, vaishnava_ekadashi_fday))
 
                 if yati_ekadashi_fday == smaarta_ekadashi_fday == vaishnava_ekadashi_fday is None:
                     # Must have already assigned
@@ -686,7 +681,6 @@ class Panchangam(common.JsonObject):
 
             # NIRAYANA AYANAMS
             if self.solar_month_day[d] == 1:
-                # logging.debug(self.solar_month[d])
                 ayana_jd_start = brentq(jyotisha.zodiac.get_nirayana_sun_lon, self.jd_sunrise[d],
                                         self.jd_sunrise[d] + 15, args=(-30 * self.solar_month[d], False))
                 [_y, _m, _d, _t] = swe.revjul(ayana_jd_start + (tz_off / 24.0))
@@ -858,9 +852,7 @@ class Panchangam(common.JsonObject):
             if (self.tithi_sunrise[d] % 15) == 12:
                 if self.nakshatram_sunrise[d] in [21, 22, 23]:
                     # We have a dwadashi near shravana, check for Shravana sparsha
-                    logging.debug(self.tithi_data[d:d + 2])
                     for td in self.tithi_data[d:d + 2]:
-                        logging.debug(td[0])
                         (t12, t12_end) = td[0]
                         if t12_end is None:
                             continue
@@ -868,24 +860,18 @@ class Panchangam(common.JsonObject):
                             if temporal.get_angam(t12_end, temporal.NAKSHATRAM, ayanamsha_id=self.ayanamsha_id) == 22:
                                 if (self.tithi_sunrise[d] % 15) == 12 and (self.tithi_sunrise[d + 1] % 15) == 12:
                                     self.add_festival('vijayA/zravaNa-mahAdvAdazI', d, debug_festivals)
-                                    logging.debug(('vijayA/zravaNa-mahAdvAdazI', d))
                                 elif (self.tithi_sunrise[d] % 15) == 12:
                                     self.add_festival('vijayA/zravaNa-mahAdvAdazI', d, debug_festivals)
-                                    logging.debug(('vijayA/zravaNa-mahAdvAdazI', d))
                                 elif (self.tithi_sunrise[d + 1] % 15) == 12:
                                     self.add_festival('vijayA/zravaNa-mahAdvAdazI', d + 1, debug_festivals)
-                                    logging.debug(('vijayA/zravaNa-mahAdvAdazI', d + 1))
                         if (t12 % 15) == 12:
                             if temporal.get_angam(t12_end, temporal.NAKSHATRAM, ayanamsha_id=self.ayanamsha_id) == 22:
                                 if (self.tithi_sunrise[d] % 15) == 12 and (self.tithi_sunrise[d + 1] % 15) == 12:
                                     self.add_festival('vijayA/zravaNa-mahAdvAdazI', d, debug_festivals)
-                                    logging.debug(('vijayA/zravaNa-mahAdvAdazI', d))
                                 elif (self.tithi_sunrise[d] % 15) == 12:
                                     self.add_festival('vijayA/zravaNa-mahAdvAdazI', d, debug_festivals)
-                                    logging.debug(('vijayA/zravaNa-mahAdvAdazI', d))
                                 elif (self.tithi_sunrise[d + 1] % 15) == 12:
                                     self.add_festival('vijayA/zravaNa-mahAdvAdazI', d + 1, debug_festivals)
-                                    logging.debug(('vijayA/zravaNa-mahAdvAdazI', d + 1))
 
             if self.nakshatram_sunrise[d] == 22 and (self.tithi_sunrise[d] % 15) == 12:
                 self.add_festival('vijayA/zravaNa-mahAdvAdazI', d, debug_festivals)
@@ -1029,10 +1015,9 @@ class Panchangam(common.JsonObject):
                     # if any(x == 17 for x in [self.nakshatram_sunrise[d]]):
                     self.add_festival('budhAnUrAdhA-puNyakAlaH', d, debug_festivals)
 
-            festival_rules = read_old_festival_rules_dict(
-                os.path.join(CODE_ROOT, 'panchangam/data/festival_rules.json'))
+            festival_rules = read_old_festival_rules_dict(os.path.join(CODE_ROOT, 'panchangam/data/festival_rules.json'))
             assert "tripurOtsavaH" in festival_rules
-            # logging.debug(festival_rules.keys())
+
             for festival_name in festival_rules:
                 if 'month_type' in festival_rules[festival_name]:
                     month_type = festival_rules[festival_name]['month_type']
@@ -1456,8 +1441,6 @@ class Panchangam(common.JsonObject):
                                           fday_pushkara - 1, debug=False)
                         self.add_festival('%s-antya-puSkara-ArambhaH' % temporal.NAMES['PUSHKARA_NAMES']['hk'][rashi1],
                                           fday_pushkara - 12, debug=False)
-                    # else:
-                    #   logging.debug('Ignoring transit for pushkaram: %s' % str(swe.revjul(jd_transit)))
 
         # transits = temporal.get_planet_next_transit(self.jd_start, jd_end,
         #                                    swe.SATURN, ayanamsha_id=self.ayanamsha_id)
