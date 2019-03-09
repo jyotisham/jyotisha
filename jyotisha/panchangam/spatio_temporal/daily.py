@@ -8,10 +8,10 @@ from math import floor
 
 from scipy.optimize import brentq
 
-import jyotisha
 from jyotisha.panchangam import temporal
 from jyotisha.panchangam.spatio_temporal import City, CALC_RISE, CALC_SET
 from jyotisha.panchangam.temporal import SOLAR_MONTH, get_angam, get_angam_float
+
 from sanskrit_data.schema import common
 
 logging.basicConfig(level=logging.DEBUG,
@@ -25,7 +25,6 @@ class Panchangam(common.JsonObject):
     def from_city_and_julian_day(cls, city, julian_day, ayanamsha_id=swe.SIDM_LAHIRI):
         (year, month, day, hours, minutes, seconds) = city.julian_day_to_local_time(julian_day)
         return Panchangam(city=city, year=year, month=month, day=day, ayanamsha_id=ayanamsha_id)
-        
 
     def __init__(self, city, year, month, day, ayanamsha_id=swe.SIDM_LAHIRI):
         """Constructor for the panchangam.
@@ -172,12 +171,12 @@ class Panchangam(common.JsonObject):
 
     def get_lagna_float(self, jd, offset=0, debug=False):
         """Returns the angam
-      
+
           Args:
             :param jd: The Julian Day at which the lagnam is to be computed
             :param offset: Used by internal functions for bracketing
             :param debug
-      
+
           Returns:
             float lagna
         """
@@ -205,10 +204,10 @@ class Panchangam(common.JsonObject):
 
     def get_lagna_data(self, debug=False):
         """Returns the lagna data
-      
+
             Args:
               debug
-      
+
             Returns:
               tuples detailing the end time of each lagna, beginning with the one
               prevailing at sunrise
