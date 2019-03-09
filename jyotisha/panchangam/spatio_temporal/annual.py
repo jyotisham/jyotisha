@@ -1114,9 +1114,16 @@ class Panchangam(common.JsonObject):
                     else:
                         raise ValueError('Error; unknown string in rule: "%s"' % (angam_type))
 
+                    if angam_num == 1:
+                        prev_angam = num_angams
+                    else:
+                        prev_angam = angam_num - 1
+                    next_angam = (angam_num % num_angams) + 1
+
                     fday = None
 
                     if angam_sunrise[d] == angam_num - 1 or angam_sunrise[d] == angam_num:
+                    if angam_sunrise[d] == prev_angam or angam_sunrise[d] == angam_num:
                         angams = self.get_angams_for_kaalas(d, get_angam_func, kaala)
                         if angams is None:
                             sys.stderr.write('No angams returned! Skipping festival %s'
@@ -1146,16 +1153,21 @@ class Panchangam(common.JsonObject):
                             festival_name += '~\\#{%d}' % fest_num
 
                         if priority == 'paraviddha':
-                            if angams[0] == angam_num or angams[1] == angam_num:
+                            if angams[0] == angam_num and angams[1] == angam_num:
                                 fday = d
-                            if angams[2] == angam_num or angams[3] == angam_num:
+                            if angams[2] == angam_num and angams[3] == angam_num:
                                 fday = d + 1
 
                             if fday is None:
                                 if festival_name not in self.fest_days:
-                                    logging.debug('%d: %s' % (d, angams))
-                                    if angams[1] == angam_num + 1:
-                                        # This can fail for "boundary" angam_nums like 1 and 30!
+                                    # logging.debug('%d: %s (%s)' % (d, angams, festival_name))
+                                    if angams[1] == angam_num:
+                                        # Angam not present at beginning of kala on Day 1, but present at end
+                                        # Does not touch Day 2.
+                                        fday = d
+                                        logging.warning('%s did not touch start of %s kaala on d=%d or %d, but incident at end of kaala at d=%d. Assigning %d.' %
+                                                        (jyotisha.panchangam.temporal.NAMES['NAKSHATRAM_NAMES']['hk'][angam_num], kaala, d, d + 1, d, d))
+                                    elif angams[1] == next_angam:
                                         fday = d  # Should be d - 1?
                                         logging.warning('Assigned paraviddha day for %s as %d with difficulty!' %
                                                         (festival_name, fday) + ' Please check for unusual cases.')
@@ -1187,9 +1199,8 @@ class Panchangam(common.JsonObject):
                             else:
                                 # This means that the correct angam did not
                                 # touch the kaala on either day!
-                                if angams == [(angam_num - 1), (angam_num - 1), ((angam_num % num_angams) + 1),
-                                              ((angam_num % num_angams) + 1)]:
-                                    # d_offset = {'sunrise': 0, 'aparahna': 1, 'moonrise': 1, 'madhyaahna': 1, 'sunset': 1}[kaala]
+                                if angams == [prev_angam, prev_angam, next_angam, next_angam]:
+                                    # d_offset = {'sunrise': 0, 'aparaahna': 1, 'moonrise': 1, 'madhyaahna': 1, 'sunset': 1}[kaala]
                                     d_offset = 0 if kaala in ['sunrise', 'moonrise'] else 1
                                     logging.warning(
                                         '%d-%02d-%02d> %s: %s %d did not touch %s on either day: %s. Assigning today + %d' % (
