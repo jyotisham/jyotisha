@@ -229,13 +229,13 @@ class Panchangam(common.JsonObject):
                       get_angam_func(jd_sunset, ayanamsha_id=self.ayanamsha_id),
                       get_angam_func(jd_sunset_tmrw, ayanamsha_id=self.ayanamsha_id),
                       get_angam_func(jd_sunset_tmrw, ayanamsha_id=self.ayanamsha_id)]
-        elif kaala_type == 'pratah':
-            angams = [get_angam_func(jd_sunrise, ayanamsha_id=self.ayanamsha_id),  # pratah1 start
-                      # pratah1 end
+        elif kaala_type == 'praatah':
+            angams = [get_angam_func(jd_sunrise, ayanamsha_id=self.ayanamsha_id),  # praatah1 start
+                      # praatah1 end
                       get_angam_func(jd_sunrise + (jd_sunset - jd_sunrise) * (1.0 / 5.0),
                                      ayanamsha_id=self.ayanamsha_id),
-                      get_angam_func(jd_sunrise_tmrw, ayanamsha_id=self.ayanamsha_id),  # pratah2 start
-                      # pratah2 end
+                      get_angam_func(jd_sunrise_tmrw, ayanamsha_id=self.ayanamsha_id),  # praatah2 start
+                      # praatah2 end
                       get_angam_func(jd_sunrise_tmrw + \
                                      (jd_sunset_tmrw - jd_sunrise_tmrw) * (1.0 / 5.0), ayanamsha_id=self.ayanamsha_id)]
         elif kaala_type == 'sangava':
@@ -254,7 +254,7 @@ class Panchangam(common.JsonObject):
                                (jd_sunset_tmrw - jd_sunrise_tmrw) * (2.0 / 5.0), ayanamsha_id=self.ayanamsha_id),
                 get_angam_func(jd_sunrise_tmrw + (jd_sunset_tmrw -
                                                   jd_sunrise_tmrw) * (3.0 / 5.0), ayanamsha_id=self.ayanamsha_id)]
-        elif kaala_type == 'aparahna':
+        elif kaala_type == 'aparaahna':
             angams = [
                 get_angam_func(jd_sunrise + (jd_sunset - jd_sunrise) * (3.0 / 5.0), ayanamsha_id=self.ayanamsha_id),
                 get_angam_func(jd_sunrise + (jd_sunset - jd_sunrise) * (4.0 / 5.0), ayanamsha_id=self.ayanamsha_id),
@@ -262,7 +262,7 @@ class Panchangam(common.JsonObject):
                                (jd_sunset_tmrw - jd_sunrise_tmrw) * (3.0 / 5.0), ayanamsha_id=self.ayanamsha_id),
                 get_angam_func(jd_sunrise_tmrw +
                                (jd_sunset_tmrw - jd_sunrise_tmrw) * (4.0 / 5.0), ayanamsha_id=self.ayanamsha_id)]
-        elif kaala_type == 'sayahna':
+        elif kaala_type == 'saayaahna':
             angams = [
                 get_angam_func(jd_sunrise + (jd_sunset - jd_sunrise) * (4.0 / 5.0), ayanamsha_id=self.ayanamsha_id),
                 get_angam_func(jd_sunrise + (jd_sunset - jd_sunrise) * (5.0 / 5.0), ayanamsha_id=self.ayanamsha_id),
@@ -270,7 +270,7 @@ class Panchangam(common.JsonObject):
                                (jd_sunset_tmrw - jd_sunrise_tmrw) * (4.0 / 5.0), ayanamsha_id=self.ayanamsha_id),
                 get_angam_func(jd_sunrise_tmrw +
                                (jd_sunset_tmrw - jd_sunrise_tmrw) * (5.0 / 5.0), ayanamsha_id=self.ayanamsha_id)]
-        elif kaala_type == 'madhyaratri':
+        elif kaala_type == 'madhyaraatri':
             angams = [
                 get_angam_func(jd_sunset + (jd_sunrise_tmrw - jd_sunset) * (2.0 / 5.0), ayanamsha_id=self.ayanamsha_id),
                 get_angam_func(jd_sunset + (jd_sunrise_tmrw - jd_sunset) * (3.0 / 5.0), ayanamsha_id=self.ayanamsha_id),
@@ -297,7 +297,7 @@ class Panchangam(common.JsonObject):
                                (jd_sunrise_datmrw - jd_sunset_tmrw) * (7.0 / 15.0), ayanamsha_id=self.ayanamsha_id),
                 get_angam_func(jd_sunset_tmrw +
                                (jd_sunrise_datmrw - jd_sunset_tmrw) * (8.0 / 15.0), ayanamsha_id=self.ayanamsha_id)]
-        elif kaala_type == 'ratrimana':
+        elif kaala_type == 'raatrimaana':
             angams = [
                 get_angam_func(jd_sunset + (jd_sunrise_tmrw - jd_sunset) * (0.0 / 15.0),
                                ayanamsha_id=self.ayanamsha_id),
@@ -334,6 +334,9 @@ class Panchangam(common.JsonObject):
             if d not in self.fest_days[festival_name]:
                 # Second occurrence of a festival within a
                 # Gregorian calendar year
+                if (d - 1) in self.fest_days[festival_name]:
+                    # No festival occurs on consecutive days; paraviddha assigned twice
+                    self.fest_days[festival_name].remove(d - 1)
                 self.fest_days[festival_name].append(d)
         else:
             self.fest_days[festival_name] = [d]
@@ -603,7 +606,7 @@ class Panchangam(common.JsonObject):
                 #   # Should never be here!
                 #   sys.stderr.write('Error! Still not computed t29_end!')
 
-                angams = self.get_angams_for_kaalas(d, temporal.get_tithi, 'aparahna')
+                angams = self.get_angams_for_kaalas(d, temporal.get_tithi, 'aparaahna')
 
                 # Get Name
                 if self.lunar_month[d] == 6:
@@ -615,13 +618,13 @@ class Panchangam(common.JsonObject):
                 else:
                     pref = temporal.get_chandra_masa(self.lunar_month[d], temporal.NAMES, 'hk', visarga=False) + '-'
 
-                ama_nakshatram_today = self.get_angams_for_kaalas(d, temporal.get_nakshatram, 'aparahna')[:2]
-                ama_nakshatram_tmrw = self.get_angams_for_kaalas(d + 1, temporal.get_nakshatram, 'aparahna')[:2]
+                ama_nakshatram_today = self.get_angams_for_kaalas(d, temporal.get_nakshatram, 'aparaahna')[:2]
+                ama_nakshatram_tmrw = self.get_angams_for_kaalas(d + 1, temporal.get_nakshatram, 'aparaahna')[:2]
                 suff = ''
                 # Assign
                 if angams[0] == 30 or angams[1] == 30:
                     if angams[2] == 30 or angams[3] == 30:
-                        # Amavasya is there on both aparahnas
+                        # Amavasya is there on both aparaahnas
                         if t30_end - t29_end < 1:
                             # But not longer than 60 ghatikas
                             if 23 in ama_nakshatram_today and self.lunar_month[d] == 10:
@@ -645,7 +648,7 @@ class Panchangam(common.JsonObject):
                                 suff = ' (alabhyam–%s)' % jyotisha.panchangam.temporal.NAMES['NAKSHATRAM_NAMES']['hk'][ama_nakshatram_tmrw[1]]
                             self.add_festival(pref + 'amAvasyA' + suff, d + 1, debug_festivals)
                     else:
-                        # No Amavasya in aparahna tomorrow, so it's today
+                        # No Amavasya in aparaahna tomorrow, so it's today
                         if 23 in ama_nakshatram_today and self.lunar_month[d] == 10:
                             suff = ' (alabhyam–zraviSThA)'
                         elif 24 in ama_nakshatram_today and self.lunar_month[d] == 10:
@@ -912,8 +915,8 @@ class Panchangam(common.JsonObject):
             # SOMAMAVASYA
             if self.tithi_sunrise[d] == 30 and self.weekday[d] == 1:
                 self.add_festival('sOmavatI amAvasyA', d, debug_festivals)
-            if 30 in (self.get_angams_for_kaalas(d, temporal.get_tithi, 'aparahna')[:2] + [self.tithi_sunrise[d]]) and self.weekday[d] in [1, 2, 4]:
-                # Checking for sunrise and aparahna. Not sure.
+            if 30 in (self.get_angams_for_kaalas(d, temporal.get_tithi, 'aparaahna')[:2] + [self.tithi_sunrise[d]]) and self.weekday[d] in [1, 2, 4]:
+                # Checking for sunrise and aparaahna. Not sure.
                 self.add_festival('puSkalA amAvasyA (alabhyam)', d, debug_festivals)
 
             # MAHODAYAM
@@ -1122,7 +1125,6 @@ class Panchangam(common.JsonObject):
 
                     fday = None
 
-                    if angam_sunrise[d] == angam_num - 1 or angam_sunrise[d] == angam_num:
                     if angam_sunrise[d] == prev_angam or angam_sunrise[d] == angam_num:
                         angams = self.get_angams_for_kaalas(d, get_angam_func, kaala)
                         if angams is None:
