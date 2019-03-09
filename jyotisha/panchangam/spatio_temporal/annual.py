@@ -1223,11 +1223,18 @@ class Panchangam(common.JsonObject):
                             logging.error('Unknown priority "%s" for %s! Check the rules!' % (priority, festival_name))
 
                     if fday is not None:
-                        if festival_name.find('\\') == -1 and \
-                                'kaala' in festival_rules[festival_name] and \
-                                festival_rules[festival_name]['kaala'] == 'arunodaya':
-                            fday += 1
-                        self.add_festival(festival_name, fday, debug_festivals)
+                        if month_type == 'lunar_month' and (self.lunar_month[fday] == month_num or month_num == 0) or \
+                           (month_type == 'solar_month' and (self.solar_month[fday] == month_num or month_num == 0)):
+                            # If month on fday is incorrect, we ignore and move.
+                            if month_type == 'lunar_month' and angam_num == 1 and self.lunar_month[fday + 1] != month_num:
+                                continue
+                            if festival_name.find('\\') == -1 and \
+                                    'kaala' in festival_rules[festival_name] and \
+                                    festival_rules[festival_name]['kaala'] == 'arunodaya':
+                                fday += 1
+                            self.add_festival(festival_name, fday, debug_festivals)
+                        else:
+                            logging.warning('Not adding festival %s on %d fday' % (festival_name, fday))
 
             # distance from prabhava
             samvatsara_id = (self.year - 1568) % 60 + 1
