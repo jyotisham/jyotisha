@@ -414,7 +414,7 @@
         "tags": "amavasya-days"
     },
     {
-        "id": "zravaNa-(adhika) (kaTaka) amAvasyA",
+        "id": "zrAvaNa-(adhika) (kaTaka) amAvasyA",
         "jsonClass": "HinduCalendarEventOld",
         "tags": "amavasya-days"
     },
@@ -434,7 +434,7 @@
         "tags": "amavasya-days"
     },
     {
-        "id": "zravaNa-(adhika)-amAvasyA",
+        "id": "zrAvaNa-(adhika)-amAvasyA",
         "jsonClass": "HinduCalendarEventOld",
         "tags": "amavasya-days"
     },
@@ -722,7 +722,7 @@
         "tags": "monthly-vratams,pradosha-vratam-days"
     },
     {
-        "id": "zravaNa-amAvasyA",
+        "id": "zrAvaNa-amAvasyA",
         "jsonClass": "HinduCalendarEventOld",
         "tags": "amavasya-days"
     },
@@ -750,7 +750,7 @@
         "tags": "amavasya-days"
     },
     {
-        "id": "zravaNa (kaTaka) amAvasyA",
+        "id": "zrAvaNa (kaTaka) amAvasyA",
         "jsonClass": "HinduCalendarEventOld",
         "tags": "amavasya-days"
     },
