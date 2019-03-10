@@ -929,11 +929,11 @@ class Panchangam(common.JsonObject):
                     if self.weekday[d] == 1:
                         festival_name = 'mahOdaya-puNyakAlaH'
                         self.add_festival(festival_name, d, debug_festivals)
-                        logging.debug('* %d-%02d-%02d> %s!' % (y, m, dt, festival_name))
+                        # logging.debug('* %d-%02d-%02d> %s!' % (y, m, dt, festival_name))
                     elif self.weekday[d] == 0:
                         festival_name = 'ardhOdaya-puNyakAlaH'
                         self.add_festival(festival_name, d, debug_festivals)
-                        logging.debug('* %d-%02d-%02d> %s!' % (y, m, dt, festival_name))
+                        # logging.debug('* %d-%02d-%02d> %s!' % (y, m, dt, festival_name))
 
             # AMA-VYATIPATA YOGAH
             # श्रवणाश्विधनिष्ठार्द्रानागदैवतमापतेत् ।
@@ -1167,8 +1167,9 @@ class Panchangam(common.JsonObject):
                                         # Angam not present at beginning of kala on Day 1, but present at end
                                         # Does not touch Day 2.
                                         fday = d
-                                        logging.warning('%s did not touch start of %s kaala on d=%d or %d, but incident at end of kaala at d=%d. Assigning %d.' %
-                                                        (jyotisha.panchangam.temporal.NAMES['NAKSHATRAM_NAMES']['hk'][angam_num], kaala, d, d + 1, d, d))
+                                        if debug_festivals:
+                                            logging.warning('%s did not touch start of %s kaala on d=%d or %d, but incident at end of kaala at d=%d. Assigning %d.' %
+                                                            (jyotisha.panchangam.temporal.NAMES['NAKSHATRAM_NAMES']['hk'][angam_num], kaala, d, d + 1, d, d))
                                     elif angams[1] == next_angam:
                                         fday = d  # Should be d - 1?
                                         logging.warning('Assigned paraviddha day for %s as %d with difficulty!' %
@@ -1204,10 +1205,10 @@ class Panchangam(common.JsonObject):
                                 if angams == [prev_angam, prev_angam, next_angam, next_angam]:
                                     # d_offset = {'sunrise': 0, 'aparaahna': 1, 'moonrise': 1, 'madhyaahna': 1, 'sunset': 1}[kaala]
                                     d_offset = 0 if kaala in ['sunrise', 'moonrise'] else 1
-                                    logging.warning(
-                                        '%d-%02d-%02d> %s: %s %d did not touch %s on either day: %s. Assigning today + %d' % (
-                                            y, m, dt, festival_name, angam_type, angam_num, kaala, str(angams),
-                                            d_offset))
+                                    if debug_festivals:
+                                        logging.warning(
+                                            '%d-%02d-%02d> %s: %s %d did not touch %s on either day: %s. Assigning today + %d' %
+                                            (y, m, dt, festival_name, angam_type, angam_num, kaala, str(angams), d_offset))
                                     # Need to assign a day to the festival here
                                     # since the angam did not touch kaala on either day
                                     # BUT ONLY IF YESTERDAY WASN'T ALREADY ASSIGNED,
@@ -1220,8 +1221,9 @@ class Panchangam(common.JsonObject):
                                     else:
                                         fday = d + d_offset
                                 else:
-                                    logging.debug('Special case: %s; angams = %s' % (festival_name, str(angams)))
-                                    
+                                    if festival_name not in self.fest_days and angams != [prev_angam] * 4:
+                                        logging.debug('Special case: %s; angams = %s' % (festival_name, str(angams)))
+
                         else:
                             logging.error('Unknown priority "%s" for %s! Check the rules!' % (priority, festival_name))
 
@@ -1237,7 +1239,11 @@ class Panchangam(common.JsonObject):
                                 fday += 1
                             self.add_festival(festival_name, fday, debug_festivals)
                         else:
-                            logging.warning('Not adding festival %s on %d fday' % (festival_name, fday))
+                            if debug_festivals:
+                                if month_type == 'solar_month':
+                                    logging.warning('Not adding festival %s on %d fday (month = %d instead of %d)' % (festival_name, fday, self.solar_month[fday], month_num))
+                                else:
+                                    logging.warning('Not adding festival %s on %d fday (month = %d instead of %d)' % (festival_name, fday, self.lunar_month[fday], month_num))
 
             # distance from prabhava
             samvatsara_id = (self.year - 1568) % 60 + 1
@@ -1286,7 +1292,7 @@ class Panchangam(common.JsonObject):
                 elif len(matched_festivals) > 1:
                     logging.error('Relative festival %s not in fest_days! Found more than one approximate match: %s' % (rel_festival_name, str(matched_festivals)))
                 else:
-                    self.fest_days[festival_name] = [self.fest_days[matched_festivals[0]][-1] + offset]    
+                    self.fest_days[festival_name] = [self.fest_days[matched_festivals[0]][-1] + offset]
             else:
                 self.fest_days[festival_name] = [self.fest_days[rel_festival_name][-1] + offset]
 
