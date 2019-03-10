@@ -1219,6 +1219,9 @@ class Panchangam(common.JsonObject):
                                             fday = d + d_offset
                                     else:
                                         fday = d + d_offset
+                                else:
+                                    logging.debug('Special case: %s; angams = %s' % (festival_name, str(angams)))
+                                    
                         else:
                             logging.error('Unknown priority "%s" for %s! Check the rules!' % (priority, festival_name))
 
