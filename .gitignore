@@ -17,3 +17,4 @@ config_local.json
 .cache
 *.iml
 *.local
+jyotisha/panchangam/data/festival_rules_test.json
