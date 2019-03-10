@@ -1050,10 +1050,6 @@ class Panchangam(common.JsonObject):
                     priority = festival_rules[festival_name]['priority']
                 else:
                     priority = 'puurvaviddha'
-                if 'year_start' in festival_rules[festival_name]:
-                    fest_start_year = festival_rules[festival_name]['year_start']
-                else:
-                    fest_start_year = None
                 # if 'titles' in festival_rules[festival_name]:
                 #     fest_other_names = festival_rules[festival_name]['titles']
                 # if 'Nirnaya' in festival_rules[festival_name]:
@@ -1072,32 +1068,11 @@ class Panchangam(common.JsonObject):
                     if self.tithi_sunrise[d] == 30 and self.tithi_sunrise[d + 1] == 2 and \
                             self.lunar_month[d + 1] == month_num:
                         # Only in this case, we have a problem
-                        fest_num = None
-                        if fest_start_year is not None:
-                            if month_type == 'lunar_month':
-                                fest_num = self.year + 3100 + (d >= self.lunar_month.index(1)) - fest_start_year + 1
-
-                        if fest_num is not None and fest_num <= 0:
-                            logging.warning('Festival %s is only in the future!\n' % festival_name)
-
-                        if fest_num is not None:
-                            festival_name += '~\\#{%d}' % fest_num
-
                         self.add_festival(festival_name, d, debug_festivals)
                         continue
 
                 if angam_type == 'day' and month_type == 'solar_month' and self.solar_month[d] == month_num:
                     if self.solar_month_day[d] == angam_num:
-                        fest_num = None
-                        if fest_start_year is not None:
-                            fest_num = self.year + 3100 + (d >= self.solar_month.index(1)) - fest_start_year + 1
-
-                        if fest_num is not None and fest_num <= 0:
-                            logging.warning('Festival %s is only in the future!\n' % festival_name)
-
-                        if fest_num is not None:
-                            festival_name += '~\\#{%d}' % fest_num
-
                         self.fest_days[festival_name] = [d]
                 elif (month_type == 'lunar_month' and ((self.lunar_month[d] == month_num or month_num == 0) or ((self.lunar_month[d + 1] == month_num and angam_num == 1)))) or \
                         (month_type == 'solar_month' and (self.solar_month[d] == month_num or month_num == 0)):
@@ -1140,19 +1115,6 @@ class Panchangam(common.JsonObject):
                             except KeyError:
                                 print('%', festival_name, ': ', festival_rules[festival_name.split('\\')[0][:-1]])
                                 print("%%angams today & tmrw:", angams)
-
-                        fest_num = None
-                        if fest_start_year is not None and month_type is not None:
-                            if month_type == 'solar_month':
-                                fest_num = self.year + 3100 + (d >= self.solar_month.index(1)) - fest_start_year + 1
-                            elif month_type == 'lunar_month':
-                                fest_num = self.year + 3100 + (d >= self.lunar_month.index(1)) - fest_start_year + 1
-
-                        if fest_num is not None and fest_num <= 0:
-                            logging.warning('Festival %s is only in the future!' % festival_name)
-
-                        if fest_num is not None:
-                            festival_name += '~\\#{%d}' % fest_num
 
                         if priority == 'paraviddha':
                             if angams[0] == angam_num and angams[1] == angam_num:
@@ -1253,6 +1215,43 @@ class Panchangam(common.JsonObject):
             if self.solar_month[d] == 1 and self.solar_month[d - 1] == 12:
                 self.fest_days[new_yr] = [d]
                 self.add_festival('paJcAGga-paThanam', d, debug_festivals)
+
+        # Update festival numbers if they exist
+        for festival_name in festival_rules:
+            if festival_name in self.fest_days and 'year_start' in festival_rules[festival_name]:
+                fest_start_year = festival_rules[festival_name]['year_start']
+                month_type = festival_rules[festival_name]['month_type']
+                if len(self.fest_days[festival_name]) > 1:
+                    if self.fest_days[festival_name][1] - self.fest_days[festival_name][0] < 300:
+                        # Lunar festivals can repeat after 354 days; Solar festivals "can" repeat after 330 days
+                        # (last day of Dhanur masa Jan and first day of Dhanur masa Dec may have same nakshatra and are about 335 days apart)
+                        # In fact they will be roughly 354 days apart, again!
+                        logging.warning('Multiple occurrences of festival %s within year. Check?: %s' % (festival_name, str(self.fest_days[festival_name])))
+                for assigned_day in self.fest_days[festival_name]:
+                    if month_type == 'solar_month':
+                        fest_num = self.year + 3100 + (assigned_day >= self.solar_month.index(1)) - fest_start_year + 1
+                    elif month_type == 'lunar_month':
+                        if festival_rules[festival_name]['angam_number'] == 1 and festival_rules[festival_name]['month_number'] == 1:
+                            # Assigned day may be less by one, since prathama may have started after sunrise
+                            # Still assume assigned_day >= self.lunar_month.index(1)!
+                            fest_num = self.year + 3100 + (1) - fest_start_year + 1
+                        else:
+                            fest_num = self.year + 3100 + (assigned_day >= self.lunar_month.index(1)) - fest_start_year + 1
+
+                    if fest_num <= 0:
+                        logging.warning('Festival %s is only in the future!' % festival_name)
+                    else:
+                        if festival_name not in self.fest_days:
+                            logging.warning('Did not find festival %s to be assigned. Dhanurmasa festival?' % festival_name)
+                            continue
+                        festival_name_updated = festival_name + '~\\#{%d}' % fest_num
+                        # logging.debug('Changing %s to %s' % (festival_name, festival_name_updated))
+                        if festival_name_updated in self.fest_days:
+                            logging.warning('Overwriting festival day for %s %d with %d.' % (festival_name_updated, self.fest_days[festival_name_updated][0], assigned_day))
+                            self.fest_days[festival_name_updated] = [assigned_day]
+                        else:
+                            self.fest_days[festival_name_updated] = [assigned_day]
+                del(self.fest_days[festival_name])
 
         # If tripurotsava coincides with maha kArtikI (kRttikA nakShatram)
         # only then it is mahAkArtikI
