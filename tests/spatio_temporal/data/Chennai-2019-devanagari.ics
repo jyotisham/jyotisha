@@ -3855,61 +3855,11 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:मन्वादि (तामस)
-DTSTART;VALUE=DATE:20190405
-DTEND;VALUE=DATE:20190406
-DESCRIPTION:https://github.com/sanskrit-coders/jyotisha/tree/master/jyotis
- ha/panchangam/temporal/festival/data/lunar_month/tithi/12/30#manvādi-(tā
- masa)
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:फाल्गुन-अमावस्या
-DTSTART;VALUE=DATE:20190405
-DTEND;VALUE=DATE:20190406
-DESCRIPTION:https://github.com/sanskrit-coders/jyotisha/tree/master/jyotis
- ha/panchangam/temporal/festival/data/other/amavasya-days#phālguna-amāvas
- yā
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:चन्द्र-दर्शनम्
-DTSTART;VALUE=DATE:20190406
-DTEND;VALUE=DATE:20190407
-DESCRIPTION:Have darshan of Moon today\, chanting the following shloka\n\n
- श्वेताम्बरः श्वेतविभूषणश्
- च श्वेतद्युतिर्दण्डधरो द्व
- िबाहुः।\nचन्द्रोऽमृतात्मा 
- वरदः किरीटी मयि प्रसादं विद
- धातु देवः॥\n\n\n\nhttps://github.com/sanskrit-coders/jyo
- tisha/tree/master/jyotisha/panchangam/temporal/festival/data/other/chandra
- -darshanam#chandra-darśanam
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:काञ्ची १५ जगद्गुरु श्री 
  गङ्गाधरेन्द्र सरस्वती आराध
  ना #१६९१
-DTSTART;VALUE=DATE:20190406
-DTEND;VALUE=DATE:20190407
+DTSTART;VALUE=DATE:20190405
+DTEND;VALUE=DATE:20190406
 DESCRIPTION:Gaṅgādharagīṣpatiḥ\, known as Subhadra\, son of Kāñc
  i Bhadragiri\, got initiated in the twelfth year of age by Śrī Vidyāgha
  na whom He had served became a realised soul when He as twenty-four years 
@@ -3944,8 +3894,8 @@ BEGIN:VEVENT
 SUMMARY:काञ्ची २७ जगद्गुरु श्री 
  चिद्विलासेन्द्र सरस्वती आर
  ाधना #१४४३
-DTSTART;VALUE=DATE:20190406
-DTEND;VALUE=DATE:20190407
+DTSTART;VALUE=DATE:20190405
+DTEND;VALUE=DATE:20190406
 DESCRIPTION:Then the preceptor Cidvilāsa\, who was Harikeśava (before in
  itiation)\, son of Madhusūdanārya of Hastiśaila (Kāñci) attained his 
  immortal state on the first day of the Śarat ṛṭu in the year Durmukhi
@@ -3972,8 +3922,8 @@ BEGIN:VEVENT
 SUMMARY:काञ्ची ५२ जगद्गुरु श्री 
  शङ्करानन्देन्द्र सरस्वती आ
  राधना #६०३
-DTSTART;VALUE=DATE:20190406
-DTEND;VALUE=DATE:20190407
+DTSTART;VALUE=DATE:20190405
+DTEND;VALUE=DATE:20190406
 DESCRIPTION:He\, as per the suggestions of the Sāyaṇa Mādhava\, having
   commissioned the eight saints disciples to protect the tenets of Advaita 
  and to check the development of the faith of Madhva in Karnataka\, despite
@@ -4028,6 +3978,71 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:कल्पादि
+DTSTART;VALUE=DATE:20190405
+DTEND;VALUE=DATE:20190406
+DESCRIPTION:Kalpadi\n\nhttps://github.com/sanskrit-coders/jyotisha/tree/ma
+ ster/jyotisha/panchangam/temporal/festival/data/lunar_month/tithi/01/01#ka
+ lpādi
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:मन्वादि (तामस)
+DTSTART;VALUE=DATE:20190405
+DTEND;VALUE=DATE:20190406
+DESCRIPTION:https://github.com/sanskrit-coders/jyotisha/tree/master/jyotis
+ ha/panchangam/temporal/festival/data/lunar_month/tithi/12/30#manvādi-(tā
+ masa)
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:फाल्गुन-अमावस्या
+DTSTART;VALUE=DATE:20190405
+DTEND;VALUE=DATE:20190406
+DESCRIPTION:https://github.com/sanskrit-coders/jyotisha/tree/master/jyotis
+ ha/panchangam/temporal/festival/data/other/amavasya-days#phālguna-amāvas
+ yā
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:चन्द्र-दर्शनम्
+DTSTART;VALUE=DATE:20190406
+DTEND;VALUE=DATE:20190407
+DESCRIPTION:Have darshan of Moon today\, chanting the following shloka\n\n
+ श्वेताम्बरः श्वेतविभूषणश्
+ च श्वेतद्युतिर्दण्डधरो द्व
+ िबाहुः।\nचन्द्रोऽमृतात्मा 
+ वरदः किरीटी मयि प्रसादं विद
+ धातु देवः॥\n\n\n\nhttps://github.com/sanskrit-coders/jyo
+ tisha/tree/master/jyotisha/panchangam/temporal/festival/data/other/chandra
+ -darshanam#chandra-darśanam
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:काञ्ची ६० जगद्गुरु श्री 
  अद्वैतात्मप्रकाशेन्द्र सर
  स्वती आराधना #३१६
@@ -4053,21 +4068,6 @@ DESCRIPTION:Then\, son of Paraśurāma on the banks of river Vaśiṣṭha
  ders/jyotisha/tree/master/jyotisha/panchangam/temporal/festival/data/lunar
  _month/tithi/01/02#kāñchī-60-jagadguru-śrī-advaitātmaprakāśendra-s
  arasvatī-ārādhanā
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:कल्पादि
-DTSTART;VALUE=DATE:20190406
-DTEND;VALUE=DATE:20190407
-DESCRIPTION:Kalpadi\n\nhttps://github.com/sanskrit-coders/jyotisha/tree/ma
- ster/jyotisha/panchangam/temporal/festival/data/lunar_month/tithi/01/01#ka
- lpādi
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9789,22 +9789,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:काञ्ची जगद्गुरु श्री जये
- न्द्र सरस्वती जयन्ती #८५
-DTSTART;VALUE=DATE:20190719
-DTEND;VALUE=DATE:20190720
-DESCRIPTION:https://github.com/sanskrit-coders/jyotisha/tree/master/jyotis
- ha/panchangam/temporal/festival/data/solar_month/nakshatram/04/23#kāñch
- ī-jagadguru-śrī-jayendra-sarasvatī-jayantī
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:सर्वनदी-रजस्वला
 DTSTART;VALUE=DATE:20190719
 DTEND;VALUE=DATE:20190720
@@ -12046,7 +12030,9 @@ BEGIN:VEVENT
 SUMMARY:श्रावण-अमावस्या
 DTSTART;VALUE=DATE:20190830
 DTEND;VALUE=DATE:20190831
-DESCRIPTION:
+DESCRIPTION:https://github.com/sanskrit-coders/jyotisha/tree/master/jyotis
+ ha/panchangam/temporal/festival/data/other/amavasya-days#śrāvaṇa-amāv
+ asyā
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15858,6 +15844,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:गोवर्धन-पूजा
+DTSTART;VALUE=DATE:20191028
+DTEND;VALUE=DATE:20191029
+DESCRIPTION:Commemoration of Govardhana Leela of Krishna. Offer naivedyam 
+ to Lord Krishna.\n\nhttps://github.com/sanskrit-coders/jyotisha/tree/maste
+ r/jyotisha/panchangam/temporal/festival/data/lunar_month/tithi/08/01#govar
+ dhana-pūjā
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:केदार-गौरी-व्रतम्
 DTSTART;VALUE=DATE:20191028
 DTEND;VALUE=DATE:20191029
@@ -17518,7 +17520,10 @@ SUMMARY:स्मार्त-उत्पन्ना-एकादशी
  (गृहस्थ)
 DTSTART;VALUE=DATE:20191122
 DTEND;VALUE=DATE:20191123
-DESCRIPTION:
+DESCRIPTION:The Krishna-paksha Ekadashi of कार्तिक month is 
+ known as उत्पन्ना-एकादशी.\n\nhttps://github.co
+ m/sanskrit-coders/jyotisha/tree/master/jyotisha/panchangam/temporal/festiv
+ al/data/other/monthly-vratams/ekadashi-vratam-days#utpannā-ekādaśī
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17548,7 +17553,10 @@ SUMMARY:स्मार्त-उत्पन्ना-एकादशी
  (सन्न्यस्थ)
 DTSTART;VALUE=DATE:20191123
 DTEND;VALUE=DATE:20191124
-DESCRIPTION:
+DESCRIPTION:The Krishna-paksha Ekadashi of कार्तिक month is 
+ known as उत्पन्ना-एकादशी.\n\nhttps://github.co
+ m/sanskrit-coders/jyotisha/tree/master/jyotisha/panchangam/temporal/festiv
+ al/data/other/monthly-vratams/ekadashi-vratam-days#utpannā-ekādaśī
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
