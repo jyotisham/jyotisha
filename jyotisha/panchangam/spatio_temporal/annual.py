@@ -1018,6 +1018,7 @@ class Panchangam(common.JsonObject):
                     # if any(x == 17 for x in [self.nakshatram_sunrise[d]]):
                     self.add_festival('budhAnUrAdhA-puNyakAlaH', d, debug_festivals)
 
+            # festival_rules = read_old_festival_rules_dict(os.path.join(CODE_ROOT, 'panchangam/data/festival_rules_test.json'))
             festival_rules = read_old_festival_rules_dict(os.path.join(CODE_ROOT, 'panchangam/data/festival_rules.json'))
             assert "tripurOtsavaH" in festival_rules
 
