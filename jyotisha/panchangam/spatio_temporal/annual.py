@@ -1099,7 +1099,7 @@ class Panchangam(common.JsonObject):
                             festival_name += '~\\#{%d}' % fest_num
 
                         self.fest_days[festival_name] = [d]
-                elif (month_type == 'lunar_month' and (self.lunar_month[d] == month_num or month_num == 0)) or \
+                elif (month_type == 'lunar_month' and ((self.lunar_month[d] == month_num or month_num == 0) or ((self.lunar_month[d + 1] == month_num and angam_num == 1)))) or \
                         (month_type == 'solar_month' and (self.solar_month[d] == month_num or month_num == 0)):
                     # Using 0 as a special tag to denote every month!
                     if angam_type == 'tithi':
@@ -1226,7 +1226,7 @@ class Panchangam(common.JsonObject):
                             logging.error('Unknown priority "%s" for %s! Check the rules!' % (priority, festival_name))
 
                     if fday is not None:
-                        if month_type == 'lunar_month' and (self.lunar_month[fday] == month_num or month_num == 0) or \
+                        if (month_type == 'lunar_month' and ((self.lunar_month[d] == month_num or month_num == 0) or ((self.lunar_month[d + 1] == month_num and angam_num == 1)))) or \
                            (month_type == 'solar_month' and (self.solar_month[fday] == month_num or month_num == 0)):
                             # If month on fday is incorrect, we ignore and move.
                             if month_type == 'lunar_month' and angam_num == 1 and self.lunar_month[fday + 1] != month_num:
