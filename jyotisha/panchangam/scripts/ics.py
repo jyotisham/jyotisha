@@ -232,13 +232,14 @@ def compute_calendar(panchangam, all_tags=True):
                         # logging.debug(stext)
                         # Handle ekadashi descriptions differently
                         ekad = '-'.join(stext.split('-')[1:])  # get rid of sarva etc. prefix!
+                        ekad_suff_pos = ekad.find(' (')
+                        if ekad_suff_pos != -1:
+                            # ekad_suff = ekad[ekad_suff_pos + 1:-1]
+                            ekad = ekad[:ekad_suff_pos]
                         if ekad in festival_rules:
                             desc = festival.HinduCalendarEventOld.make_from_dict(festival_rules[ekad]).get_description_string(script=panchangam.script, include_url=True)
                         else:
                             logging.warning('No description found for Ekadashi festival %s (%s)!' % (ekad, stext))
-                        pref = jyotisha.custom_transliteration.romanise(sanscript.transliterate(
-                            stext.split('-')[0],
-                            sanscript.HK, sanscript.IAST)) + "-"
                     event.add_component(alarm)
                     event.add('description', desc.strip())
                     event['X-MICROSOFT-CDO-ALLDAYEVENT'] = 'TRUE'
