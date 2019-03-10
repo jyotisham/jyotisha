@@ -1,6 +1,7 @@
 {
   "id": "kAJcI jagadguru zrI~jayEndra sarasvatI jayantI",
   "jsonClass": "HinduCalendarEvent",
+  "priority": "paraviddha",
   "tags": [
     "mahapurusha-events",
     "common-festivals"
@@ -9,6 +10,7 @@
     "angam_number": 23,
     "angam_type": "nakshatram",
     "jsonClass": "HinduCalendarEventTiming",
+    "kaala": "praatah",
     "month_number": 4,
     "month_type": "solar_month",
     "year_start": 5036

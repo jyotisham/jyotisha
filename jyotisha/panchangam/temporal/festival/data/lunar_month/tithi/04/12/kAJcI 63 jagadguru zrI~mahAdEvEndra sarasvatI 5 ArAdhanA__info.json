@@ -1,6 +1,6 @@
 {
   "description": {
-    "en": "Preceptor \u015ar\u012b Mah\u0101devendra governed the preceptor-ship for thirty-one years, attained siddhi on \u015aukla Dv\u0101da\u015b\u012b (twelfth day of bright fortnight) of the month \u0100\u1e63\u0101\u1e0dha in the year \u015armukha. His place of siddhi was Kumbhaghona town in \u015aalivahana era 1736."
+    "en": "Preceptor \u015ar\u012b Mah\u0101devendra governed the preceptorship for thirty-one years, attained siddhi on \u015aukla Dv\u0101da\u015b\u012b (twelfth day of bright fortnight) of the month \u0100\u1e63\u0101\u1e0dha in the year \u015armukha. His place of siddhi was Kumbhaghona town in \u015aalivahana era 1736."
   },
   "id": "kAJcI 63 jagadguru zrI~mahAdEvEndra sarasvatI 5 ArAdhanA",
   "image": "kanchi-jagadgurus/jagadguru-63.jpg",
@@ -22,7 +22,7 @@
     "angam_number": 12,
     "angam_type": "tithi",
     "jsonClass": "HinduCalendarEventTiming",
-    "kaala": "aparahna",
+    "kaala": "aparaahna",
     "month_number": 4,
     "month_type": "lunar_month",
     "year_start": 4915

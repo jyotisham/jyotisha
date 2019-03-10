@@ -1,5 +1,5 @@
 ## Gavāmayana-Dvādaśī
-गवामयन-द्वादशी is observed on Śukla-Dvādaśī tithi of Jyaiṣṭha (lunar) month (sunrise (default)/puurvaviddha (default)).
+गवामयन-द्वादशी is observed on Śukla-Dvādaśī tithi of Jyaiṣṭhaḥ (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 _Perform puja of Lord Trivikrama (Sahasranamarchana), do naivedyam of mangoes and offer annadanam to needy._
 
@@ -13,19 +13,19 @@ _Perform puja of Lord Trivikrama (Sahasranamarchana), do naivedyam of mangoes an
 
 ---
 ## Rāmalakṣmaṇa-Dvādaśī
-रामलक्ष्मण-द्वादशी is observed on Śukla-Dvādaśī tithi of Jyaiṣṭha (lunar) month (sunrise (default)/puurvaviddha (default)).
+रामलक्ष्मण-द्वादशी is observed on Śukla-Dvādaśī tithi of Jyaiṣṭhaḥ (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 
 ---
 ## Champaka-Dvādaśī
-चम्पक-द्वादशी is observed on Śukla-Dvādaśī tithi of Jyaiṣṭha (lunar) month (sunrise (default)/puurvaviddha (default)).
+चम्पक-द्वादशी is observed on Śukla-Dvādaśī tithi of Jyaiṣṭhaḥ (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 
 ---
 ## Kāñchī 2 Jagadguru Śrī Sureśvarāchārya Ārādhanā
-काञ्ची २ जगद्गुरु श्री सुरेश्वराचार्य आराधना is observed on Śukla-Dvādaśī tithi of Jyaiṣṭha (lunar) month (aparahna/puurvaviddha).
+काञ्ची २ जगद्गुरु श्री सुरेश्वराचार्य आराधना is observed on Śukla-Dvādaśī tithi of Jyaiṣṭhaḥ (lunar) month (aparaahna/puurvaviddha).
 
 ![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-02.jpg)
 

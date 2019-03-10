@@ -1,5 +1,5 @@
 ## Bhadrakāḻī Jayantī
-भद्रकाळी जयन्ती is observed on Kṛṣṇa-Ekādaśī tithi of Vaiśākha (lunar) month (sunrise (default)/puurvaviddha (default)).
+भद्रकाळी जयन्ती is observed on Kṛṣṇa-Ekādaśī tithi of Vaiśākhaḥ (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 ### References

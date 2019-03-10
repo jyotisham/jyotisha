@@ -1,5 +1,5 @@
 ## Aśūnyaśayana-Vratam
-अशून्यशयन-व्रतम् is observed on Kṛṣṇa-Dvitīyā tithi of Āṣāḍha (lunar) month (moonrise/puurvaviddha (default)).
+अशून्यशयन-व्रतम् is observed on Kṛṣṇa-Dvitīyā tithi of Āṣāḍhaḥ (lunar) month (moonrise/puurvaviddha (default)).
 
 _Lord Mahavishnu sleeps with Goddess Mahalakshmi on this day. Do Puja by placing the God/Goddess on a new bed with pillow/blanket. Do danam of same after puja._
 
@@ -10,7 +10,7 @@ _Lord Mahavishnu sleeps with Goddess Mahalakshmi on this day. Do Puja by placing
 
 ---
 ## Aṣṭanāga-Pūjā
-अष्टनाग-पूजा is observed on Kṛṣṇa-Dvitīyā tithi of Āṣāḍha (lunar) month (sunrise (default)/puurvaviddha (default)).
+अष्टनाग-पूजा is observed on Kṛṣṇa-Dvitīyā tithi of Āṣāḍhaḥ (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 

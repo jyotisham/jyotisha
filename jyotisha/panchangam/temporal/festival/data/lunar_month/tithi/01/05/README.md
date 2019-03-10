@@ -1,11 +1,11 @@
 ## Śālihotra-Vrata-Ārambhaḥ
-शालिहोत्र-व्रत-आरम्भः is observed on Śukla-Pañcamī tithi of Caitra (lunar) month (sunrise (default)/puurvaviddha (default)).
+शालिहोत्र-व्रत-आरम्भः is observed on Śukla-Pañcamī tithi of Caitraḥ (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 
 ---
 ## Lakṣmī-Pañchamī
-लक्ष्मी-पञ्चमी is observed on Śukla-Pañcamī tithi of Caitra (lunar) month (sunrise (default)/puurvaviddha (default)).
+लक्ष्मी-पञ्चमी is observed on Śukla-Pañcamī tithi of Caitraḥ (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 
@@ -20,7 +20,7 @@
 
 ---
 ## Haya-Pūjā
-हय-पूजा is observed on Śukla-Pañcamī tithi of Caitra (lunar) month (sunrise (default)/puurvaviddha (default)).
+हय-पूजा is observed on Śukla-Pañcamī tithi of Caitraḥ (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 _Celebrating the birth of उच्चैश्रवा horse, offer puja to horses or even Lord Hayagriva._
 ### References
@@ -29,7 +29,7 @@ _Celebrating the birth of उच्चैश्रवा horse, offer puja to ho
 
 ---
 ## Kalpādi
-कल्पादि is observed on Śukla-Pañcamī tithi of Caitra (lunar) month (aparahna/puurvaviddha).
+कल्पादि is observed on Śukla-Pañcamī tithi of Caitraḥ (lunar) month (aparaahna/puurvaviddha).
 
 _Kalpadi_
 

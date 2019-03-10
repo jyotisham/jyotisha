@@ -10,7 +10,7 @@ _Visit Chidambaram to have darshan of Nataraja, or pray to Nataraja_
 
 ---
 ## Chaḍaiya Nāyanār Gurupūjai
-சடைய நாயனார் குருபூஜை is observed on Ārdrā nakṣhatram day of Dhanuḥ (solar) month (sunrise (default)/puurvaviddha (default)).
+சடைய நாயனார் குருபூஜை is observed on Ārdrā nakṣhatram day of Dhanuḥ (solar) month (praatah/paraviddha).
 
 
 

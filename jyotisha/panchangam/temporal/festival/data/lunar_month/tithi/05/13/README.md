@@ -1,5 +1,5 @@
 ## Anaṅga-Trayodaśī
-अनङ्ग-त्रयोदशी is observed on Śukla-Trayodaśī tithi of Śravaṇa (lunar) month (sunrise (default)/puurvaviddha (default)).
+अनङ्ग-त्रयोदशी is observed on Śukla-Trayodaśī tithi of Śrāvaṇaḥ (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 

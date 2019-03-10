@@ -1,21 +1,21 @@
 ## Kālabhairavāṣṭamī
-कालभैरवाष्टमी is observed on Kṛṣṇa-Aṣṭamī tithi of Kārtika (lunar) month (pradosha/puurvaviddha (default)).
+कालभैरवाष्टमी is observed on Kṛṣṇa-Aṣṭamī tithi of Kārtikaḥ (lunar) month (pradosha/puurvaviddha (default)).
 
 
 
 ---
 ## Mahādevāṣṭamī
-महादेवाष्टमी is observed on Kṛṣṇa-Aṣṭamī tithi of Kārtika (lunar) month (sunrise (default)/puurvaviddha (default)).
+महादेवाष्टमी is observed on Kṛṣṇa-Aṣṭamī tithi of Kārtikaḥ (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 _Very famously celebrated in Vaikom Mahadeva Temple._
 
 ---
 ## Kāñchī 42 Jagadguru Śrī Brahmānandaghanendra Sarasvatī 2 Ārādhanā
-काञ्ची ४२ जगद्गुरु श्री ब्रह्मानन्दघनेन्द्र सरस्वती २ आराधना is observed on Kṛṣṇa-Aṣṭamī tithi of Kārtika (lunar) month (aparahna/puurvaviddha).
+काञ्ची ४२ जगद्गुरु श्री ब्रह्मानन्दघनेन्द्र सरस्वती २ आराधना is observed on Kṛṣṇa-Aṣṭamī tithi of Kārtikaḥ (lunar) month (aparaahna/puurvaviddha).
 
 ![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-42.jpg)
 
-_Then Narasambhaṭṭa, son of Subrahmanya, having been initiated by Gaṅgādhara got the appellation Brahmānandaghana held the preceptor-ship of the Pīṭha for twenty-eight years. This great preceptor merged in the Lord Ăśvara as He ws teaching the disciples the Brahmasūtra, bhāṣya etc. in the early morning of Aṣṭami of Kṛṣṇapakṣā in the month of Kārtika in the year Ăśvara._
+_Then Narasambhaṭṭa, son of Subrahmanya, having been initiated by Gaṅgādhara got the appellation Brahmānandaghana held the preceptorship of the Pīṭha for twenty-eight years. This great preceptor merged in the Lord Ăśvara as He ws teaching the disciples the Brahmasūtra, bhāṣya etc. in the early morning of Aṣṭami of Kṛṣṇapakṣā in the month of Kārtika in the year Ăśvara._
 
 ```
 सुब्रह्मण्यभवो नियम्य नरसम्भट्टोऽथ गङ्गाधराद्
@@ -30,7 +30,7 @@ _Then Narasambhaṭṭa, son of Subrahmanya, having been initiated by Gaṅgādh
 
 ---
 ## Kāñchī 49 Jagadguru Śrī Mahādevendra Sarasvatī 3 Ārādhanā
-काञ्ची ४९ जगद्गुरु श्री महादेवेन्द्र सरस्वती ३ आराधना is observed on Kṛṣṇa-Aṣṭamī tithi of Kārtika (lunar) month (aparahna/puurvaviddha).
+काञ्ची ४९ जगद्गुरु श्री महादेवेन्द्र सरस्वती ३ आराधना is observed on Kṛṣṇa-Aṣṭamī tithi of Kārtikaḥ (lunar) month (aparaahna/puurvaviddha).
 
 ![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-49.jpg)
 

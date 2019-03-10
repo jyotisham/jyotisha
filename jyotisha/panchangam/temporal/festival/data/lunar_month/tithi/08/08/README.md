@@ -1,5 +1,5 @@
 ## Kārtavīryārjuna Jayantī
-कार्तवीर्यार्जुन जयन्ती is observed on Śukla-Aṣṭamī tithi of Kārtika (lunar) month (sunrise (default)/puurvaviddha (default)).
+कार्तवीर्यार्जुन जयन्ती is observed on Śukla-Aṣṭamī tithi of Kārtikaḥ (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 ### References
@@ -8,7 +8,7 @@
 
 ---
 ## Gopāṣṭamī
-गोपाष्टमी is observed on Śukla-Aṣṭamī tithi of Kārtika (lunar) month (madhyaahna/puurvaviddha).
+गोपाष्टमी is observed on Śukla-Aṣṭamī tithi of Kārtikaḥ (lunar) month (madhyaahna/puurvaviddha).
 
 _Perform पूजा of cow with calf, and offer அகத்திகீரை and grass/water, and perform 16 प्रदक्षिणम्._
 

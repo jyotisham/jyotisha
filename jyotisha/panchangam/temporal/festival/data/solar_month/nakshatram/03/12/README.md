@@ -1,5 +1,5 @@
 ## Naṭarājar Āni Tirumañchanam
-நடராஜர் ஆனி திருமஞ்சனம் is observed on Uttaraphalgunī nakṣhatram day of Mithuna (solar) month (sunrise (default)/puurvaviddha (default)).
+நடராஜர் ஆனி திருமஞ்சனம் is observed on Uttaraphalgunī nakṣhatram day of Mithunam (solar) month (praatah/paraviddha).
 
 
 

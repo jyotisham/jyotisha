@@ -1,11 +1,11 @@
 ## Yajurveda-Upākarma
-यजुर्वेद-उपाकर्म is observed on Paurṇamāsī tithi of Śravaṇa (lunar) month (sunrise (default)/puurvaviddha (default)).
+यजुर्वेद-उपाकर्म is observed on Paurṇamāsī tithi of Śrāvaṇaḥ (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 
 ---
 ## Hayagrīva Jayantī
-हयग्रीव जयन्ती is observed on Paurṇamāsī tithi of Śravaṇa (lunar) month (sunrise (default)/puurvaviddha (default)).
+हयग्रीव जयन्ती is observed on Paurṇamāsī tithi of Śrāvaṇaḥ (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 _Lord Hayagriva did upadesham of all four vedas to Brahma._
 
@@ -18,25 +18,25 @@ _Lord Hayagriva did upadesham of all four vedas to Brahma._
 
 ---
 ## Gāyatrī Jayantī
-गायत्री जयन्ती is observed on Paurṇamāsī tithi of Śravaṇa (lunar) month (sunrise (default)/puurvaviddha (default)).
+गायत्री जयन्ती is observed on Paurṇamāsī tithi of Śrāvaṇaḥ (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 
 ---
 ## Saṃskṛta-Divasaḥ
-संस्कृत-दिवसः is observed on Paurṇamāsī tithi of Śravaṇa (lunar) month (sunrise (default)/puurvaviddha (default)).
+संस्कृत-दिवसः is observed on Paurṇamāsī tithi of Śrāvaṇaḥ (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 _World Sanskrit Day is celebrated on this day._
 
 ---
 ## Vaikhānasa Maharṣi Jayantī
-वैखानस महर्षि जयन्ती is observed on Paurṇamāsī tithi of Śravaṇa (lunar) month (sunrise (default)/puurvaviddha (default)).
+वैखानस महर्षि जयन्ती is observed on Paurṇamāsī tithi of Śrāvaṇaḥ (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 
 ---
 ## Kāñchī 20 Jagadguru Śrī Mūkaśaṅkarendra Sarasvatī Ārādhanā
-काञ्ची २० जगद्गुरु श्री मूकशङ्करेन्द्र सरस्वती आराधना is observed on Paurṇamāsī tithi of Śravaṇa (lunar) month (aparahna/puurvaviddha).
+काञ्ची २० जगद्गुरु श्री मूकशङ्करेन्द्र सरस्वती आराधना is observed on Paurṇamāsī tithi of Śrāvaṇaḥ (lunar) month (aparaahna/puurvaviddha).
 
 ![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-20.jpg)
 
@@ -57,19 +57,19 @@ _Dumb boy, as He was named born of Khalvāṭavīra, the gem in the family of ga
 
 ---
 ## Nārikela-Pūrṇimā
-नारिकेल-पूर्णिमा is observed on Paurṇamāsī tithi of Śravaṇa (lunar) month (sunrise (default)/puurvaviddha (default)).
+नारिकेल-पूर्णिमा is observed on Paurṇamāsī tithi of Śrāvaṇaḥ (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 _Offer coconut to sea God Varuna_
 
 ---
 ## Rākhī-Pūrṇimā
-राखी-पूर्णिमा is observed on Paurṇamāsī tithi of Śravaṇa (lunar) month (sunrise (default)/puurvaviddha (default)).
+राखी-पूर्णिमा is observed on Paurṇamāsī tithi of Śrāvaṇaḥ (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 _Rakshabandhanam_
 
 ---
 ## Sarpa-Baliḥ
-सर्प-बलिः is observed on Paurṇamāsī tithi of Śravaṇa (lunar) month (sunrise (default)/puurvaviddha (default)).
+सर्प-बलिः is observed on Paurṇamāsī tithi of Śrāvaṇaḥ (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 _Offer बलि to serpents on (from) this day, in the night after स्थालीपाक._
 

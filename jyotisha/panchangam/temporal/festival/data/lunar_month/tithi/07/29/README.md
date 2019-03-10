@@ -1,5 +1,5 @@
 ## Naraka-Chaturdaśī
-नरक-चतुर्दशी is observed on Kṛṣṇa-Caturdaśī tithi of Āśvayuja (lunar) month (sunrise (default)/puurvaviddha (default)).
+नरक-चतुर्दशी is observed on Kṛṣṇa-Caturdaśī tithi of Āśvayujaḥ (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 _
 *ShriKrishna killed Muraasura and Narakaasura on this day.
@@ -8,13 +8,13 @@ _
 
 ---
 ## Dīpotsava-Chaturdaśī/Yama-Tarpaṇam
-दीपोत्सव-चतुर्दशी/यम-तर्पणम् is observed on Kṛṣṇa-Caturdaśī tithi of Āśvayuja (lunar) month (sunrise (default)/puurvaviddha (default)).
+दीपोत्सव-चतुर्दशी/यम-तर्पणम् is observed on Kṛṣṇa-Caturdaśī tithi of Āśvayujaḥ (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 _Perform Tarpana to Yamadharmaraja (even those with father). जीवत्पिताऽपि कुर्वीत तर्पणं यमभीष्मयोः_
 
 ---
 ## Preta-Chaturdaśī
-प्रेत-चतुर्दशी is observed on Kṛṣṇa-Caturdaśī tithi of Āśvayuja (lunar) month (sunrise (default)/puurvaviddha (default)).
+प्रेत-चतुर्दशी is observed on Kṛṣṇa-Caturdaśī tithi of Āśvayujaḥ (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 _Perform Deepa Danam for Yamadharmaraja in evening_
 ### References
@@ -23,7 +23,7 @@ _Perform Deepa Danam for Yamadharmaraja in evening_
 
 ---
 ## Śṛṅgerī 35 Jagadguru Śrī Abhinava Vidyātīrtha Mahāsvāmī Jayantī
-शृङ्गेरी ३५ जगद्गुरु श्री अभिनव विद्यातीर्थ महास्वामी जयन्ती is observed on Kṛṣṇa-Caturdaśī tithi of Āśvayuja (lunar) month (sunrise (default)/puurvaviddha (default)).
+शृङ्गेरी ३५ जगद्गुरु श्री अभिनव विद्यातीर्थ महास्वामी जयन्ती is observed on Kṛṣṇa-Caturdaśī tithi of Āśvayujaḥ (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 

@@ -1,5 +1,5 @@
 ## Kāri Nāyanār Gurupūjai
-காரி நாயனார் குருபூஜை is observed on Pūrvāṣāḍhā nakṣhatram day of Kumbha (solar) month (sunrise (default)/puurvaviddha (default)).
+காரி நாயனார் குருபூஜை is observed on Pūrvāṣāḍhā nakṣhatram day of Kumbhaḥ (solar) month (praatah/paraviddha).
 
 
 

@@ -1,5 +1,5 @@
 ## Chāmuṇḍeśvarī Jayantī
-चामुण्डेश्वरी जयन्ती is observed on Kṛṣṇa-Saptamī tithi of Āṣāḍha (lunar) month (sunrise (default)/puurvaviddha (default)).
+चामुण्डेश्वरी जयन्ती is observed on Kṛṣṇa-Saptamī tithi of Āṣāḍhaḥ (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 ### References

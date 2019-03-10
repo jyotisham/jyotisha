@@ -1,5 +1,5 @@
 ## Gopadma-Vrata-Ārambhaḥ
-गोपद्म-व्रत-आरम्भः is observed on Śukla-Ekādaśī tithi of Āṣāḍha (lunar) month (sunrise (default)/puurvaviddha (default)).
+गोपद्म-व्रत-आरम्भः is observed on Śukla-Ekādaśī tithi of Āṣāḍhaḥ (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 _Perform puja of Mahalakshmi-Mahavishnu_
 

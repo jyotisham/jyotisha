@@ -1,11 +1,11 @@
 ## Vṛṣabha-Saṅkramaṇam
-वृषभ-सङ्क्रमणम् is observed on Amāvāsyā tithi of Vaiśākha (lunar) month (sunrise (default)/puurvaviddha (default)).
+वृषभ-सङ्क्रमणम् is observed on Amāvāsyā tithi of Vaiśākhaḥ (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 _Perform Krishna Pooja_
 
 ---
 ## Vaiśākha-Snānapūrtiḥ
-वैशाख-स्नानपूर्तिः is observed on Amāvāsyā tithi of Vaiśākha (lunar) month (sunrise (default)/puurvaviddha (default)).
+वैशाख-स्नानपूर्तिः is observed on Amāvāsyā tithi of Vaiśākhaḥ (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 
@@ -19,7 +19,7 @@ _Perform Krishna Pooja_
 
 ---
 ## Śani Jayantī
-शनि जयन्ती is observed on Amāvāsyā tithi of Vaiśākha (lunar) month (sunrise (default)/puurvaviddha (default)).
+शनि जयन्ती is observed on Amāvāsyā tithi of Vaiśākhaḥ (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 ### References
@@ -28,7 +28,7 @@ _Perform Krishna Pooja_
 
 ---
 ## Śuka Maharṣi Jayantī
-शुक महर्षि जयन्ती is observed on Amāvāsyā tithi of Vaiśākha (lunar) month (sunrise (default)/puurvaviddha (default)).
+शुक महर्षि जयन्ती is observed on Amāvāsyā tithi of Vaiśākhaḥ (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 

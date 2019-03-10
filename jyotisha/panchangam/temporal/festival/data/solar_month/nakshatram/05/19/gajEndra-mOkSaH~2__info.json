@@ -1,6 +1,7 @@
 {
   "id": "gajEndra-mOkSaH~2",
   "jsonClass": "HinduCalendarEvent",
+  "priority": "paraviddha",
   "tags": [
     "purana-events"
   ],
@@ -8,6 +9,7 @@
     "angam_number": 19,
     "angam_type": "nakshatram",
     "jsonClass": "HinduCalendarEventTiming",
+    "kaala": "praatah",
     "month_number": 5,
     "month_type": "solar_month"
   }

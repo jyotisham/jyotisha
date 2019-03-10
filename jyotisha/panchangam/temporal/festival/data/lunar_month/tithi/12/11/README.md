@@ -1,5 +1,5 @@
 ## Raṃgabharī Ekādaśī
-रंगभरी एकादशी is observed on Śukla-Ekādaśī tithi of Phālguna (lunar) month (sunrise (default)/puurvaviddha (default)).
+रंगभरी एकादशी is observed on Śukla-Ekādaśī tithi of Phālgunaḥ (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 ### References

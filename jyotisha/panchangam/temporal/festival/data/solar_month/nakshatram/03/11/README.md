@@ -1,5 +1,5 @@
 ## Amaranīti Nāyanār Gurupūjai
-அமரநீதி நாயனார் குருபூஜை is observed on Pūrvaphalgunī nakṣhatram day of Mithuna (solar) month (sunrise (default)/puurvaviddha (default)).
+அமரநீதி நாயனார் குருபூஜை is observed on Pūrvaphalgunī nakṣhatram day of Mithunam (solar) month (praatah/paraviddha).
 
 
 

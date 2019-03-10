@@ -1,5 +1,5 @@
 ## Kaṇṇappa Nāyanār Gurupūjai
-கண்ணப்ப நாயனார் குருபூஜை is observed on Mṛgaśīrṣa nakṣhatram day of Makara (solar) month (sunrise (default)/puurvaviddha (default)).
+கண்ணப்ப நாயனார் குருபூஜை is observed on Mṛgaśīrṣam nakṣhatram day of Makaraḥ (solar) month (praatah/paraviddha).
 
 
 

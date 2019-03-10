@@ -1,5 +1,5 @@
 ## Bhavānyutpattiḥ
-भवान्युत्पत्तिः is observed on Śukla-Aṣṭamī tithi of Caitra (lunar) month (sunrise (default)/puurvaviddha (default)).
+भवान्युत्पत्तिः is observed on Śukla-Aṣṭamī tithi of Caitraḥ (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 ### References
@@ -8,7 +8,7 @@
 
 ---
 ## Aśokāṣṭamī
-अशोकाष्टमी is observed on Śukla-Aṣṭamī tithi of Caitra (lunar) month (sunrise (default)/puurvaviddha (default)).
+अशोकाष्टमी is observed on Śukla-Aṣṭamī tithi of Caitraḥ (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 ### References

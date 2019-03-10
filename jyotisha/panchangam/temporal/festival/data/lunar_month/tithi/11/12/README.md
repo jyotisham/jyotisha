@@ -1,17 +1,17 @@
 ## Bhīṣma-Dvādaśī
-भीष्म-द्वादशी is observed on Śukla-Dvādaśī tithi of Māgha (lunar) month (sunrise (default)/puurvaviddha (default)).
+भीष्म-द्वादशी is observed on Śukla-Dvādaśī tithi of Māghaḥ (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 
 ---
 ## Varāha-Dvādaśī
-वराह-द्वादशी is observed on Śukla-Dvādaśī tithi of Māgha (lunar) month (sunrise (default)/puurvaviddha (default)).
+वराह-द्वादशी is observed on Śukla-Dvādaśī tithi of Māghaḥ (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 
 ---
 ## Tilapadma-Dvādaśī/Tilotpatti
-तिलपद्म-द्वादशी/तिलोत्पत्ति is observed on Śukla-Dvādaśī tithi of Māgha (lunar) month (sunrise (default)/puurvaviddha (default)).
+तिलपद्म-द्वादशी/तिलोत्पत्ति is observed on Śukla-Dvādaśī tithi of Māghaḥ (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 _Mahavishnu created black til by extreme तपः on this day; light til deepam and offer तिलान्नम् नैवेद्यम्._
 

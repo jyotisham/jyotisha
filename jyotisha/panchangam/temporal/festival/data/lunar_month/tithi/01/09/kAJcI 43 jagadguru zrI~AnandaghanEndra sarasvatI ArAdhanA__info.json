@@ -1,6 +1,6 @@
 {
   "description": {
-    "en": "Preceptor \u0100nandaghana, known as \u015aa\u1e45karapa\u1e47\u1e0dita (before initiation) was the son of Sudevabha\u1e6d\u1e6d\u0101 living on the banks of river Tu\u1e45gabhadr\u0101 and He held the preceptor-ship for thirty-six years. He left his physical coil on the Navami (ninth day) of the bright fortnight in the month of Caitra of the year Pram\u0101di."
+    "en": "Preceptor \u0100nandaghana, known as \u015aa\u1e45karapa\u1e47\u1e0dita (before initiation) was the son of Sudevabha\u1e6d\u1e6d\u0101 living on the banks of river Tu\u1e45gabhadr\u0101 and He held the preceptorship for thirty-six years. He left his physical coil on the Navami (ninth day) of the bright fortnight in the month of Caitra of the year Pram\u0101di."
   },
   "id": "kAJcI 43 jagadguru zrI~AnandaghanEndra sarasvatI ArAdhanA",
   "image": "kanchi-jagadgurus/jagadguru-43.jpg",
@@ -22,7 +22,7 @@
     "angam_number": 9,
     "angam_type": "tithi",
     "jsonClass": "HinduCalendarEventTiming",
-    "kaala": "aparahna",
+    "kaala": "aparaahna",
     "month_number": 1,
     "month_type": "lunar_month",
     "year_start": 4115

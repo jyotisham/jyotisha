@@ -1,6 +1,7 @@
 {
   "id": "ta__ONam",
   "jsonClass": "HinduCalendarEvent",
+  "priority": "paraviddha",
   "tags": [
     "common-festivals"
   ],
@@ -8,6 +9,7 @@
     "angam_number": 22,
     "angam_type": "nakshatram",
     "jsonClass": "HinduCalendarEventTiming",
+    "kaala": "praatah",
     "month_number": 5,
     "month_type": "solar_month"
   }

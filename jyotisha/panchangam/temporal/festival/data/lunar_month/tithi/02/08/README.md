@@ -1,5 +1,5 @@
 ## Kāñchī 26 Jagadguru Śrī Prajñāghanendra Sarasvatī Ārādhanā
-काञ्ची २६ जगद्गुरु श्री प्रज्ञाघनेन्द्र सरस्वती आराधना is observed on Śukla-Aṣṭamī tithi of Vaiśākha (lunar) month (aparahna/puurvaviddha).
+काञ्ची २६ जगद्गुरु श्री प्रज्ञाघनेन्द्र सरस्वती आराधना is observed on Śukla-Aṣṭamī tithi of Vaiśākhaḥ (lunar) month (aparaahna/puurvaviddha).
 
 ![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-26.jpg)
 
@@ -16,7 +16,7 @@ _Śoṇagiri, son of Prabhākaraśarma, who lived on the banks of river Pinākin
 
 ---
 ## Bagalāmukhī Jayantī
-बगलामुखी जयन्ती is observed on Śukla-Aṣṭamī tithi of Vaiśākha (lunar) month (sunrise (default)/puurvaviddha (default)).
+बगलामुखी जयन्ती is observed on Śukla-Aṣṭamī tithi of Vaiśākhaḥ (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 _Goddess Bagalamukhi is 8th of the Dasha Maha Vidyas._
 ### References

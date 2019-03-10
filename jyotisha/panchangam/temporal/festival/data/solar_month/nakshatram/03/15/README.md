@@ -1,5 +1,5 @@
 ## Pêriyāḷvār Tirunakṣattiram
-பெரியாழ்வார் திருநக்ஷத்திரம் is observed on Svāti nakṣhatram day of Mithuna (solar) month (sunrise (default)/puurvaviddha (default)).
+பெரியாழ்வார் திருநக்ஷத்திரம் is observed on Svātī nakṣhatram day of Mithunam (solar) month (praatah/paraviddha).
 
 
 

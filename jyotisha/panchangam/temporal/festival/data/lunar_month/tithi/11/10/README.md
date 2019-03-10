@@ -1,5 +1,5 @@
 ## Kāñchī 11 Jagadguru Śrī Śivānanda Chidghanendra Sarasvatī Ārādhanā
-काञ्ची ११ जगद्गुरु श्री शिवानन्द चिद्घनेन्द्र सरस्वती आराधना is observed on Śukla-Daśamī tithi of Māgha (lunar) month (aparahna/puurvaviddha).
+काञ्ची ११ जगद्गुरु श्री शिवानन्द चिद्घनेन्द्र सरस्वती आराधना is observed on Śukla-Daśamī tithi of Māghaḥ (lunar) month (aparaahna/puurvaviddha).
 
 ![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-11.jpg)
 
@@ -22,7 +22,7 @@ _The boy Ăśvara, son of Ujjvala bhaṭṭa of Karnataka, known as Cidghana, wh
 
 ---
 ## Sāmba-Daśamī (Sūryapūjā)
-साम्ब-दशमी (सूर्यपूजा) is observed on Śukla-Daśamī tithi of Māgha (lunar) month (sunrise (default)/puurvaviddha (default)).
+साम्ब-दशमी (सूर्यपूजा) is observed on Śukla-Daśamī tithi of Māghaḥ (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 _साम्ब, the son of Sri Krishna, was cured of leprosy after performing तपः to propitiate Surya Bhagavan._
 ### References

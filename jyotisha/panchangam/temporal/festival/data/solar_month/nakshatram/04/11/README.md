@@ -1,5 +1,5 @@
 ## Tiruvāḍippūram
-திருவாடிப்பூரம் is observed on Pūrvaphalgunī nakṣhatram day of Kaṭaka (solar) month (sunrise (default)/puurvaviddha (default)).
+திருவாடிப்பூரம் is observed on Pūrvaphalgunī nakṣhatram day of Kaṭakaḥ (solar) month (praatah/paraviddha).
 
 
 

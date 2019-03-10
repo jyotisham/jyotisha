@@ -1,5 +1,5 @@
 ## Śastrahatachaturdaśī
-शस्त्रहतचतुर्दशी is observed on Kṛṣṇa-Caturdaśī tithi of Bhādrapada (lunar) month (aparahna/puurvaviddha).
+शस्त्रहतचतुर्दशी is observed on Kṛṣṇa-Caturdaśī tithi of Bhādrapadaḥ (lunar) month (aparaahna/puurvaviddha).
 
 
 
@@ -10,7 +10,7 @@
 
 ---
 ## Kātyāyanī Jayantī
-कात्यायनी जयन्ती is observed on Kṛṣṇa-Caturdaśī tithi of Bhādrapada (lunar) month (sunrise (default)/puurvaviddha (default)).
+कात्यायनी जयन्ती is observed on Kṛṣṇa-Caturdaśī tithi of Bhādrapadaḥ (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 ### References

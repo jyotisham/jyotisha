@@ -4,6 +4,7 @@
   },
   "id": "sEGgAlipuram anantarAma-dIkSita-jayantI",
   "jsonClass": "HinduCalendarEvent",
+  "priority": "paraviddha",
   "references_secondary": [
     "Vaidikasri Nov 2009"
   ],
@@ -15,7 +16,7 @@
     "angam_number": 17,
     "angam_type": "nakshatram",
     "jsonClass": "HinduCalendarEventTiming",
-    "kaala": "madhyaahna",
+    "kaala": "praatah",
     "month_number": 4,
     "month_type": "solar_month",
     "year_start": 5004

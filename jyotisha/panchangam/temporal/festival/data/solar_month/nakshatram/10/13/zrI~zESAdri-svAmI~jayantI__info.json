@@ -1,6 +1,7 @@
 {
   "id": "zrI~zESAdri-svAmI~jayantI",
   "jsonClass": "HinduCalendarEvent",
+  "priority": "paraviddha",
   "shlokas": [
     "karuNAsAgaraM zAntam aruNAcalavAsinam.\nzrIzESAdriguruM vandE brahmIbhUtaM tapOnidhim.."
   ],
@@ -11,6 +12,7 @@
     "angam_number": 13,
     "angam_type": "nakshatram",
     "jsonClass": "HinduCalendarEventTiming",
+    "kaala": "praatah",
     "month_number": 10,
     "month_type": "solar_month",
     "year_start": 4970

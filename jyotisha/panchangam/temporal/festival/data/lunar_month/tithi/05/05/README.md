@@ -1,5 +1,5 @@
 ## Garuḍa-Pañchamī
-गरुड-पञ्चमी is observed on Śukla-Pañcamī tithi of Śravaṇa (lunar) month (sunrise (default)/puurvaviddha (default)).
+गरुड-पञ्चमी is observed on Śukla-Pañcamī tithi of Śrāvaṇaḥ (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 _
 * Day Garuda brought Amrutam for Nagas
@@ -7,7 +7,7 @@ _
 
 ---
 ## Nāga-Pañchamī
-नाग-पञ्चमी is observed on Śukla-Pañcamī tithi of Śravaṇa (lunar) month (sunrise (default)/puurvaviddha (default)).
+नाग-पञ्चमी is observed on Śukla-Pañcamī tithi of Śrāvaṇaḥ (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 _Naga Panchami; SarpaPooja (manasaDevi); Vishnu's boon to AdiSesha that humans will worship on this day_
 

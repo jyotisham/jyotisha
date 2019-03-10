@@ -1,11 +1,11 @@
 ## Aśūnyaśayana-Vratam
-अशून्यशयन-व्रतम् is observed on Kṛṣṇa-Dvitīyā tithi of Śravaṇa (lunar) month (moonrise/puurvaviddha (default)).
+अशून्यशयन-व्रतम् is observed on Kṛṣṇa-Dvitīyā tithi of Śrāvaṇaḥ (lunar) month (moonrise/puurvaviddha (default)).
 
 
 
 ---
 ## Śrī Rāghavendra Svāmī Ārādhanā
-श्री राघवेन्द्र स्वामी आराधना is observed on Kṛṣṇa-Dvitīyā tithi of Śravaṇa (lunar) month (sunrise (default)/puurvaviddha (default)).
+श्री राघवेन्द्र स्वामी आराधना is observed on Kṛṣṇa-Dvitīyā tithi of Śrāvaṇaḥ (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 
@@ -16,13 +16,13 @@
 
 ---
 ## Bṛhatī-Vṛkṣaka-Pūjā
-बृहती-वृक्षक-पूजा is observed on Kṛṣṇa-Dvitīyā tithi of Śravaṇa (lunar) month (sunrise (default)/puurvaviddha (default)).
+बृहती-वृक्षक-पूजा is observed on Kṛṣṇa-Dvitīyā tithi of Śrāvaṇaḥ (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 _VaakuduChettu Puja_
 
 ---
 ## Bhīma Chaṇḍī Jayantī
-भीम चण्डी जयन्ती is observed on Kṛṣṇa-Dvitīyā tithi of Śravaṇa (lunar) month (sunrise (default)/puurvaviddha (default)).
+भीम चण्डी जयन्ती is observed on Kṛṣṇa-Dvitīyā tithi of Śrāvaṇaḥ (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 ### References

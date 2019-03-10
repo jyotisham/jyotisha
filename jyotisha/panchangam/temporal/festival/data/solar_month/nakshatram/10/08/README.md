@@ -1,5 +1,5 @@
 ## Taippūcham
-தைப்பூசம் is observed on Puṣya nakṣhatram day of Makara (solar) month (ratrimana/puurvaviddha).
+தைப்பூசம் is observed on Puṣyaḥ nakṣhatram day of Makaraḥ (solar) month (raatrimaana/puurvaviddha).
 
 
 

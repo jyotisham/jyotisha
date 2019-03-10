@@ -1,5 +1,5 @@
 ## Śṛṅgerī 32 Jagadguru Śrī Nṛsiṃha Bhāratī Ārādhanā
-शृङ्गेरी ३२ जगद्गुरु श्री नृसिंह भारती आराधना is observed on Śukla-Dvitīyā tithi of Jyaiṣṭha (lunar) month (aparahna/puurvaviddha).
+शृङ्गेरी ३२ जगद्गुरु श्री नृसिंह भारती आराधना is observed on Śukla-Dvitīyā tithi of Jyaiṣṭhaḥ (lunar) month (aparaahna/puurvaviddha).
 
 
 

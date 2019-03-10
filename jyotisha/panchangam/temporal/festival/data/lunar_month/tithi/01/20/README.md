@@ -1,5 +1,5 @@
 ## Lakṣmī-Varāha Jayantī
-लक्ष्मी-वराह जयन्ती is observed on Kṛṣṇa-Pañcamī tithi of Caitra (lunar) month (sunrise (default)/puurvaviddha (default)).
+लक्ष्मी-वराह जयन्ती is observed on Kṛṣṇa-Pañcamī tithi of Caitraḥ (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 

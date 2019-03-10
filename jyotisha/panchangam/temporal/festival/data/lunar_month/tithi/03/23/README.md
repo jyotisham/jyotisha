@@ -1,5 +1,5 @@
 ## Vināyakāṣṭamī
-विनायकाष्टमी is observed on Kṛṣṇa-Aṣṭamī tithi of Jyaiṣṭha (lunar) month (sunrise (default)/puurvaviddha (default)).
+विनायकाष्टमी is observed on Kṛṣṇa-Aṣṭamī tithi of Jyaiṣṭhaḥ (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 ### References
@@ -8,7 +8,7 @@
 
 ---
 ## Tindukāṣṭamī
-तिन्दुकाष्टमी is observed on Kṛṣṇa-Aṣṭamī tithi of Jyaiṣṭha (lunar) month (sunrise (default)/puurvaviddha (default)).
+तिन्दुकाष्टमी is observed on Kṛṣṇa-Aṣṭamī tithi of Jyaiṣṭhaḥ (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 _Start of one year vratam of monthly shiva pooja as per chaturvaga chintamani._
 ### References
@@ -17,13 +17,13 @@ _Start of one year vratam of monthly shiva pooja as per chaturvaga chintamani._
 
 ---
 ## Trilochanāṣṭamī
-त्रिलोचनाष्टमी is observed on Kṛṣṇa-Aṣṭamī tithi of Jyaiṣṭha (lunar) month (sunrise (default)/puurvaviddha (default)).
+त्रिलोचनाष्टमी is observed on Kṛṣṇa-Aṣṭamī tithi of Jyaiṣṭhaḥ (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 
 ---
 ## Śītalāṣṭamī
-शीतलाष्टमी is observed on Kṛṣṇa-Aṣṭamī tithi of Jyaiṣṭha (lunar) month (sunrise (default)/puurvaviddha (default)).
+शीतलाष्टमी is observed on Kṛṣṇa-Aṣṭamī tithi of Jyaiṣṭhaḥ (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 

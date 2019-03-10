@@ -1,5 +1,5 @@
 ## Payovrata-Samāpanam
-पयोव्रत-समापनम् is observed on Śukla-Dvādaśī tithi of Āśvayuja (lunar) month (sunrise (default)/puurvaviddha (default)).
+पयोव्रत-समापनम् is observed on Śukla-Dvādaśī tithi of Āśvayujaḥ (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 
@@ -12,7 +12,7 @@
 
 ---
 ## Dvidala-Vrata-Ārambhaḥ
-द्विदल-व्रत-आरम्भः is observed on Śukla-Dvādaśī tithi of Āśvayuja (lunar) month (sunrise (default)/puurvaviddha (default)).
+द्विदल-व्रत-आरम्भः is observed on Śukla-Dvādaśī tithi of Āśvayujaḥ (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 

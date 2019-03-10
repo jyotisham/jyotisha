@@ -1,6 +1,7 @@
 {
   "id": "ta__naraciGgamun2aiyaraiya nAyan2Ar gurupUjai",
   "jsonClass": "HinduCalendarEvent",
+  "priority": "paraviddha",
   "tags": [
     "Nayanar Gurupujai"
   ],
@@ -8,6 +9,7 @@
     "angam_number": 24,
     "angam_type": "nakshatram",
     "jsonClass": "HinduCalendarEventTiming",
+    "kaala": "praatah",
     "month_number": 6,
     "month_type": "solar_month"
   }

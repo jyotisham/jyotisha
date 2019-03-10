@@ -1,17 +1,17 @@
 ## Sarpa-Pūjā
-सर्प-पूजा is observed on Śukla-Pañcamī tithi of Māgha (lunar) month (sunrise (default)/puurvaviddha (default)).
+सर्प-पूजा is observed on Śukla-Pañcamī tithi of Māghaḥ (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 _Vishnu's boon to AdiSesha that humans will worship on this day._
 
 ---
 ## Śrīrāma-Vanavāsa-Gamanam
-श्रीराम-वनवास-गमनम् is observed on Śukla-Pañcamī tithi of Māgha (lunar) month (sunrise (default)/puurvaviddha (default)).
+श्रीराम-वनवास-गमनम् is observed on Śukla-Pañcamī tithi of Māghaḥ (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 _Afternoon Shri Raama started to go to the forests/exile._
 
 ---
 ## Vasanta-Śrī-Pañchamī
-वसन्त-श्री-पञ्चमी is observed on Śukla-Pañcamī tithi of Māgha (lunar) month (sunrise (default)/puurvaviddha (default)).
+वसन्त-श्री-पञ्चमी is observed on Śukla-Pañcamī tithi of Māghaḥ (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 _Worship Mahavishnu and Mahalakshmi, Rati Devi and Manmatha with jasmine flowers._
 
@@ -25,7 +25,7 @@ _Worship Mahavishnu and Mahalakshmi, Rati Devi and Manmatha with jasmine flowers
 
 ---
 ## Māghī Sarasvatī-Pūjā
-माघी सरस्वती-पूजा is observed on Śukla-Pañcamī tithi of Māgha (lunar) month (sunrise (default)/puurvaviddha (default)).
+माघी सरस्वती-पूजा is observed on Śukla-Pañcamī tithi of Māghaḥ (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 _Saraswati Puja, especially in Bengal._
 ### References

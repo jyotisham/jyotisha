@@ -1,5 +1,5 @@
 ## Kāñchī 1 Jagadguru Śrī Ādi-Śaṅkara Bhagavatpāda Ārādhanā
-काञ्ची १ जगद्गुरु श्री आदि-शङ्कर भगवत्पाद आराधना is observed on Śukla-Ekādaśī tithi of Vaiśākha (lunar) month (aparahna/puurvaviddha).
+काञ्ची १ जगद्गुरु श्री आदि-शङ्कर भगवत्पाद आराधना is observed on Śukla-Ekādaśī tithi of Vaiśākhaḥ (lunar) month (aparaahna/puurvaviddha).
 
 ![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-01.jpg)
 
@@ -18,7 +18,7 @@ _Born as an aṁśa of Lord Maheśa (Śiva), the sweet or lucid instructor of th
 
 ---
 ## Budha Jayantī
-बुध जयन्ती is observed on Śukla-Ekādaśī tithi of Vaiśākha (lunar) month (sunrise (default)/puurvaviddha (default)).
+बुध जयन्ती is observed on Śukla-Ekādaśī tithi of Vaiśākhaḥ (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 

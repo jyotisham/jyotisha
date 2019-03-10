@@ -1,11 +1,11 @@
 ## Gaṅgā-Saptamī
-गङ्गा-सप्तमी is observed on Śukla-Saptamī tithi of Vaiśākha (lunar) month (sunrise (default)/puurvaviddha (default)).
+गङ्गा-सप्तमी is observed on Śukla-Saptamī tithi of Vaiśākhaḥ (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 _Ganga came out of Jahnu Maharshi and became Jahnavi; perform Parjanya Pooja_
 
 ---
 ## Śarkarā-Saptamī
-शर्करा-सप्तमी is observed on Śukla-Saptamī tithi of Vaiśākha (lunar) month (sunrise (default)/puurvaviddha (default)).
+शर्करा-सप्तमी is observed on Śukla-Saptamī tithi of Vaiśākhaḥ (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 _Worship Surya Bhagavan in a vessel (कुम्भ) filled with sugar, followed by दानम् of the same._
 
@@ -19,7 +19,7 @@ _Worship Surya Bhagavan in a vessel (कुम्भ) filled with sugar, followe
 
 ---
 ## Vidyāraṇya-Svāmī Jayantī
-विद्यारण्य-स्वामी जयन्ती is observed on Śukla-Saptamī tithi of Vaiśākha (lunar) month (sunrise (default)/puurvaviddha (default)).
+विद्यारण्य-स्वामी जयन्ती is observed on Śukla-Saptamī tithi of Vaiśākhaḥ (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 ### References
@@ -28,7 +28,7 @@ _Worship Surya Bhagavan in a vessel (कुम्भ) filled with sugar, followe
 
 ---
 ## Tyāgarāja Jayantī
-त्यागराज जयन्ती is observed on Śukla-Saptamī tithi of Vaiśākha (lunar) month (sunrise (default)/puurvaviddha (default)).
+त्यागराज जयन्ती is observed on Śukla-Saptamī tithi of Vaiśākhaḥ (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 ### References

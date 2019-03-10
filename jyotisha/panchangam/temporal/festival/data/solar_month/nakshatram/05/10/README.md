@@ -1,5 +1,5 @@
 ## Iḻaiyānkuḍi Mār̂a Nāyanār Gurupūjai
-இளையான்குடி மாற நாயனார் குருபூஜை is observed on Maghā nakṣhatram day of Siṃha (solar) month (sunrise (default)/puurvaviddha (default)).
+இளையான்குடி மாற நாயனார் குருபூஜை is observed on Maghā nakṣhatram day of Siṃhaḥ (solar) month (praatah/paraviddha).
 
 
 

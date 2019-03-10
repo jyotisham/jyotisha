@@ -1,5 +1,5 @@
 ## Atipatta Nāyanār Gurupūjai
-அதிபத்த நாயனார் குருபூஜை is observed on Āśreṣā nakṣhatram day of Siṃha (solar) month (sunrise (default)/puurvaviddha (default)).
+அதிபத்த நாயனார் குருபூஜை is observed on Āśreṣā nakṣhatram day of Siṃhaḥ (solar) month (praatah/paraviddha).
 
 
 

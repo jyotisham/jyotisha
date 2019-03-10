@@ -1,5 +1,5 @@
 ## Purandaradāsa-Ārādhanā
-पुरन्दरदास-आराधना is observed on Amāvāsyā tithi of Māgha (lunar) month (sunrise (default)/puurvaviddha (default)).
+पुरन्दरदास-आराधना is observed on Amāvāsyā tithi of Māghaḥ (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 
@@ -10,7 +10,7 @@
 
 ---
 ## Māgha-Snānapūrtiḥ
-माघ-स्नानपूर्तिः is observed on Amāvāsyā tithi of Māgha (lunar) month (sunrise (default)/puurvaviddha (default)).
+माघ-स्नानपूर्तिः is observed on Amāvāsyā tithi of Māghaḥ (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 ### References

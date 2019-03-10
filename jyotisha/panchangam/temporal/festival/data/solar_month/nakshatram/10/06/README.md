@@ -1,5 +1,5 @@
 ## Arivāṭṭāya Nāyanār Gurupūjai
-அரிவாட்டாய நாயனார் குருபூஜை is observed on Ārdrā nakṣhatram day of Makara (solar) month (sunrise (default)/puurvaviddha (default)).
+அரிவாட்டாய நாயனார் குருபூஜை is observed on Ārdrā nakṣhatram day of Makaraḥ (solar) month (praatah/paraviddha).
 
 
 

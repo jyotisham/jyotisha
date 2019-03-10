@@ -1,5 +1,5 @@
 ## Śākavrata-Samāpanam
-शाकव्रत-समापनम् is observed on Śukla-Dvādaśī tithi of Śravaṇa (lunar) month (sunrise (default)/puurvaviddha (default)).
+शाकव्रत-समापनम् is observed on Śukla-Dvādaśī tithi of Śrāvaṇaḥ (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 
@@ -12,7 +12,7 @@
 
 ---
 ## Dadhi-Vrata-Ārambhaḥ
-दधि-व्रत-आरम्भः is observed on Śukla-Dvādaśī tithi of Śravaṇa (lunar) month (sunrise (default)/puurvaviddha (default)).
+दधि-व्रत-आरम्भः is observed on Śukla-Dvādaśī tithi of Śrāvaṇaḥ (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 
@@ -23,7 +23,7 @@
 
 ---
 ## Dāmodara-Dvādaśī
-दामोदर-द्वादशी is observed on Śukla-Dvādaśī tithi of Śravaṇa (lunar) month (sunrise (default)/puurvaviddha (default)).
+दामोदर-द्वादशी is observed on Śukla-Dvādaśī tithi of Śrāvaṇaḥ (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 _Perform Vishnu Pratima Danam, Sridhara Puja_
 

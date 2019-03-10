@@ -1,17 +1,17 @@
 ## Vasantanavarātri-Ārambhaḥ
-वसन्तनवरात्रि-आरम्भः is observed on Śukla-Prathamā tithi of Caitra (lunar) month (sunrise (default)/puurvaviddha (default)).
+वसन्तनवरात्रि-आरम्भः is observed on Śukla-Prathamā tithi of Caitraḥ (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 
 ---
 ## Yugādi
-युगादि is observed on Śukla-Prathamā tithi of Caitra (lunar) month (sunrise (default)/puurvaviddha (default)).
+युगादि is observed on Śukla-Prathamā tithi of Caitraḥ (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 
 ---
 ## Kāñchī 15 Jagadguru Śrī Gaṅgādharendra Sarasvatī Ārādhanā
-काञ्ची १५ जगद्गुरु श्री गङ्गाधरेन्द्र सरस्वती आराधना is observed on Śukla-Prathamā tithi of Caitra (lunar) month (aparahna/puurvaviddha).
+काञ्ची १५ जगद्गुरु श्री गङ्गाधरेन्द्र सरस्वती आराधना is observed on Śukla-Prathamā tithi of Caitraḥ (lunar) month (aparaahna/puurvaviddha).
 
 ![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-15.jpg)
 
@@ -32,7 +32,7 @@ _Gaṅgādharagīṣpatiḥ, known as Subhadra, son of Kāñci Bhadragiri, got i
 
 ---
 ## Kāñchī 27 Jagadguru Śrī Chidvilāsendra Sarasvatī Ārādhanā
-काञ्ची २७ जगद्गुरु श्री चिद्विलासेन्द्र सरस्वती आराधना is observed on Śukla-Prathamā tithi of Caitra (lunar) month (aparahna/puurvaviddha).
+काञ्ची २७ जगद्गुरु श्री चिद्विलासेन्द्र सरस्वती आराधना is observed on Śukla-Prathamā tithi of Caitraḥ (lunar) month (aparaahna/puurvaviddha).
 
 ![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-27.jpg)
 
@@ -49,7 +49,7 @@ _Then the preceptor Cidvilāsa, who was Harikeśava (before initiation), son of 
 
 ---
 ## Kāñchī 52 Jagadguru Śrī Śaṅkarānandendra Sarasvatī Ārādhanā
-काञ्ची ५२ जगद्गुरु श्री शङ्करानन्देन्द्र सरस्वती आराधना is observed on Śukla-Prathamā tithi of Caitra (lunar) month (aparahna/puurvaviddha).
+काञ्ची ५२ जगद्गुरु श्री शङ्करानन्देन्द्र सरस्वती आराधना is observed on Śukla-Prathamā tithi of Caitraḥ (lunar) month (aparaahna/puurvaviddha).
 
 ![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-52.jpg)
 
@@ -76,7 +76,7 @@ _He, as per the suggestions of the Sāyaṇa Mādhava, having commissioned the e
 
 ---
 ## Kalpādi
-कल्पादि is observed on Śukla-Prathamā tithi of Caitra (lunar) month (aparahna/puurvaviddha).
+कल्पादि is observed on Śukla-Prathamā tithi of Caitraḥ (lunar) month (aparaahna/puurvaviddha).
 
 _Kalpadi_
 

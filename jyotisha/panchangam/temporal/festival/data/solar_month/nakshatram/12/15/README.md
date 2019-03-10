@@ -1,5 +1,5 @@
 ## Kāraikkāl Ammaiyār Gurupūjai
-காரைக்கால் அம்மையார் குருபூஜை is observed on Svāti nakṣhatram day of Mīna (solar) month (sunrise (default)/puurvaviddha (default)).
+காரைக்கால் அம்மையார் குருபூஜை is observed on Svātī nakṣhatram day of Mīnaḥ (solar) month (praatah/paraviddha).
 
 
 

@@ -1,5 +1,5 @@
 ## Naminandiyaḍigaḻ Nāyanār Gurupūjai
-நமிநந்தியடிகள் நாயனார் குருபூஜை is observed on Puṣya nakṣhatram day of Vṛṣabha (solar) month (sunrise (default)/puurvaviddha (default)).
+நமிநந்தியடிகள் நாயனார் குருபூஜை is observed on Puṣyaḥ nakṣhatram day of Vṛṣabhaḥ (solar) month (praatah/paraviddha).
 
 
 

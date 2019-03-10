@@ -1,6 +1,7 @@
 {
   "id": "ta__tiruccendUr AvaNit tiruvizhA nir2aivu",
   "jsonClass": "HinduCalendarEvent",
+  "priority": "paraviddha",
   "tags": [
     "tamilnadu-temple-festivals"
   ],
@@ -8,6 +9,7 @@
     "angam_number": 16,
     "angam_type": "nakshatram",
     "jsonClass": "HinduCalendarEventTiming",
+    "kaala": "praatah",
     "month_number": 5,
     "month_type": "solar_month"
   }

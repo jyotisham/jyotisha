@@ -1,6 +1,7 @@
 {
   "id": "zyAmA~zAstrI~jayantI",
   "jsonClass": "HinduCalendarEvent",
+  "priority": "paraviddha",
   "tags": [
     "mahapurusha-events",
     "common-festivals"
@@ -9,6 +10,7 @@
     "angam_number": 3,
     "angam_type": "nakshatram",
     "jsonClass": "HinduCalendarEventTiming",
+    "kaala": "praatah",
     "month_number": 1,
     "month_type": "solar_month",
     "year_start": 4863

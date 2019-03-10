@@ -14,7 +14,7 @@
 
 
 ---
-## Śravaṇa-(Adhika) (Kaṭaka) Amāvasyā
+## Śrāvaṇa-(Adhika) (Kaṭaka) Amāvasyā
 
 
 ---
@@ -30,7 +30,7 @@
 
 
 ---
-## Śravaṇa-(Adhika)-Amāvasyā
+## Śrāvaṇa-(Adhika)-Amāvasyā
 
 
 ---
@@ -74,7 +74,7 @@
 
 
 ---
-## Śravaṇa-Amāvasyā
+## Śrāvaṇa-Amāvasyā
 
 
 ---
@@ -86,7 +86,7 @@
 
 
 ---
-## Śravaṇa (Kaṭaka) Amāvasyā
+## Śrāvaṇa (Kaṭaka) Amāvasyā
 
 
 ---

@@ -1,5 +1,5 @@
 ## Kāñchī 14 Jagadguru Śrī Vidyāghanendra Sarasvatī Ārādhanā
-काञ्ची १४ जगद्गुरु श्री विद्याघनेन्द्र सरस्वती आराधना is observed on Amāvāsyā tithi of Mārgaśīrṣa (lunar) month (aparahna/puurvaviddha).
+काञ्ची १४ जगद्गुरु श्री विद्याघनेन्द्र सरस्वती आराधना is observed on Amāvāsyā tithi of Mārgaśīrṣaḥ (lunar) month (aparaahna/puurvaviddha).
 
 ![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-14.jpg)
 
@@ -20,11 +20,11 @@ _Having entered the peak named Agastya after established Gaṅgādharagīṣpati
 
 ---
 ## Kāñchī 34 Jagadguru Śrī Chandraśekharendra Sarasvatī 3 Ārādhanā
-काञ्ची ३४ जगद्गुरु श्री चन्द्रशेखरेन्द्र सरस्वती ३ आराधना is observed on Amāvāsyā tithi of Mārgaśīrṣa (lunar) month (aparahna/puurvaviddha).
+काञ्ची ३४ जगद्गुरु श्री चन्द्रशेखरेन्द्र सरस्वती ३ आराधना is observed on Amāvāsyā tithi of Mārgaśīrṣaḥ (lunar) month (aparaahna/puurvaviddha).
 
 ![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-34.jpg)
 
-_The preceptor, son of Mahādeva, who lived on the banks of river Vegavati, known by Lord Śiva’s name, who entered into the dense forest fire to save the child, wandered through out the earth by the directions of his master and adorning the Pīṭha and made the four castes to adhere to their respective paths. The pleasing, elegant and enduring preceptor Sri Chandraśekarendra also having remained in his maṭha for eighteen years disappeared on the new moon day of the month of Mārgaśīrṣa in the year Saumya. His preceptor-ship was for eighteen years._
+_The preceptor, son of Mahādeva, who lived on the banks of river Vegavati, known by Lord Śiva’s name, who entered into the dense forest fire to save the child, wandered through out the earth by the directions of his master and adorning the Pīṭha and made the four castes to adhere to their respective paths. The pleasing, elegant and enduring preceptor Sri Chandraśekarendra also having remained in his maṭha for eighteen years disappeared on the new moon day of the month of Mārgaśīrṣa in the year Saumya. His preceptorship was for eighteen years._
 
 ```
 सूनुर्वेगवतीतटोद्भवमहादेवाह्वयस्य श्रुतः शम्भुर्नाम दवाग्निदग्धपृथुकत्राणावगाढानलः।

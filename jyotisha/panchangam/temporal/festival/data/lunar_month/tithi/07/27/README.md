@@ -1,5 +1,5 @@
 ## Govatsa-Dvādaśī
-गोवत्स-द्वादशी is observed on Kṛṣṇa-Dvādaśī tithi of Āśvayuja (lunar) month (pradosha/puurvaviddha).
+गोवत्स-द्वादशी is observed on Kṛṣṇa-Dvādaśī tithi of Āśvayujaḥ (lunar) month (pradosha/puurvaviddha).
 
 _Avoid cow's milk, ghee, curd and buttermilk on this day. Give grass to cows and pray to them._
 
@@ -16,7 +16,7 @@ _Avoid cow's milk, ghee, curd and buttermilk on this day. Give grass to cows and
 
 ---
 ## Vasudeva-Pūjā
-वसुदेव-पूजा is observed on Kṛṣṇa-Dvādaśī tithi of Āśvayuja (lunar) month (sunrise (default)/puurvaviddha (default)).
+वसुदेव-पूजा is observed on Kṛṣṇa-Dvādaśī tithi of Āśvayujaḥ (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 ### References
@@ -25,7 +25,7 @@ _Avoid cow's milk, ghee, curd and buttermilk on this day. Give grass to cows and
 
 ---
 ## Vyāghra-Dvādaśī
-व्याघ्र-द्वादशी is observed on Kṛṣṇa-Dvādaśī tithi of Āśvayuja (lunar) month (sunrise (default)/puurvaviddha (default)).
+व्याघ्र-द्वादशी is observed on Kṛṣṇa-Dvādaśī tithi of Āśvayujaḥ (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 _In Gujarat_
 ### References

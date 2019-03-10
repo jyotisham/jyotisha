@@ -1,5 +1,5 @@
 ## Sāmaveda-Upākarma
-सामवेद-उपाकर्म is observed on Hasta nakṣhatram day of Siṃha (solar) month (sunrise (default)/puurvaviddha (default)).
+सामवेद-उपाकर्म is observed on Hastaḥ nakṣhatram day of Siṃhaḥ (solar) month (sunrise (default)/puurvaviddha (default)).
 
 
 

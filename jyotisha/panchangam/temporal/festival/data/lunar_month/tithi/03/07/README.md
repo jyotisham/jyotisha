@@ -1,5 +1,5 @@
 ## Varuṇa-Pūjā
-वरुण-पूजा is observed on Śukla-Saptamī tithi of Jyaiṣṭha (lunar) month (sunrise (default)/puurvaviddha (default)).
+वरुण-पूजा is observed on Śukla-Saptamī tithi of Jyaiṣṭhaḥ (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 

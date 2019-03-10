@@ -1,5 +1,5 @@
 ## Śrī Śeṣādri-Svāmī Jayantī
-श्री शेषाद्रि-स्वामी जयन्ती is observed on Hasta nakṣhatram day of Makara (solar) month (sunrise (default)/puurvaviddha (default)).
+श्री शेषाद्रि-स्वामी जयन्ती is observed on Hastaḥ nakṣhatram day of Makaraḥ (solar) month (praatah/paraviddha).
 
 
 
