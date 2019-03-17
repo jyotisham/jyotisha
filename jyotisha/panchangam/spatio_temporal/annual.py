@@ -38,7 +38,7 @@ class Panchangam(common.JsonObject):
         self.fmt = fmt
 
         self.jd_start_utc = swe.julday(year, 1, 1, 0)
-        
+
         self.weekday_start = swe.day_of_week(swe.julday(year, 1, 1)) + 1
         # swe has Mon = 0, non-intuitively!
         self.ayanamsha_id = ayanamsha_id
@@ -80,7 +80,7 @@ class Panchangam(common.JsonObject):
         # rather than Jan 1, since we have an always increment
         # solar_month_day at the start of the loop across every day in
         # year
-        daily_panchangam_start = daily.Panchangam(city=self.city, year=self.year-1, month=12, day=31, ayanamsha_id=self.ayanamsha_id)
+        daily_panchangam_start = daily.Panchangam(city=self.city, year=self.year - 1, month=12, day=31, ayanamsha_id=self.ayanamsha_id)
         daily_panchangam_start.compute_solar_day()
         self.solar_month[1] = daily_panchangam_start.solar_month
         solar_month_day = daily_panchangam_start.solar_month_day
