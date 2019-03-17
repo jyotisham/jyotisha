@@ -68,8 +68,8 @@ class City(JsonObject):
       self.latitude = sexastr2deci(latitude)
       self.longitude = sexastr2deci(longitude)
     else:
-      self.latitude = latitude
-      self.longitude = longitude
+      self.latitude = float(latitude)
+      self.longitude = float(longitude)
     self.timezone = timezone
 
   @classmethod
