@@ -6746,6 +6746,17 @@
         "tags": "tamilnadu-temple-festivals,common-festivals"
     },
     {
+        "angam_number": 15,
+        "angam_type": "tithi",
+        "kaala": "moonrise",
+        "id": "ta:kar2pagAmbAL–kapAlIzvarar tirukkalyANam",
+        "jsonClass": "HinduCalendarEventOld",
+        "month_number": 12,
+        "month_type": "solar_month",
+        "priority": "paraviddha",
+        "tags": "tamilnadu-temple-festivals,common-festivals"
+    },
+    {
         "angam_number": 12,
         "angam_type": "nakshatram",
         "id": "ta:mIn2AkSI tirukkalyANam",
