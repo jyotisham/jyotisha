@@ -11,7 +11,7 @@ from math import floor
 
 from sanskrit_data.schema import common
 from sanskrit_data.schema.common import JsonObject
-from scipy.optimize import brentq
+# from scipy.optimize import brentq
 
 from jyotisha.custom_transliteration import sexastr2deci
 from jyotisha.panchangam import temporal
@@ -48,8 +48,8 @@ CALC_SET = 898   # 512 + 256 + 128 + 2
 
 def decypher_fractional_hours(time_in_hours):
   hours = math.floor(time_in_hours)
-  minutes = math.floor((time_in_hours-hours)*60)
-  seconds = math.floor((time_in_hours - hours - minutes / 60.0)*3600)
+  minutes = math.floor((time_in_hours - hours) * 60)
+  seconds = math.floor((time_in_hours - hours - minutes / 60.0) * 3600)
   return (hours, minutes, seconds)
 
 
