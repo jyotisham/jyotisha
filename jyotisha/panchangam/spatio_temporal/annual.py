@@ -362,7 +362,8 @@ class Panchangam(common.JsonObject):
 
             # KARADAIYAN NOMBU
             if self.solar_month[d] == 12 and self.solar_month_day[d] == 1:
-                if temporal.get_solar_rashi(self.jd_sunrise[d]) == 12:
+                if temporal.get_solar_rashi(self.jd_sunrise[d] - (1 / 15.0) * (self.jd_sunrise[d] - self.jd_sunrise[d - 1])) == 12:
+                    # If kumbha prevails two ghatikAs before sunrise, nombu can be done in the early morning itself, else, previous night.
                     self.fest_days['ta:kAraDaiyAn2 nOn2bu'] = [d - 1]
                 else:
                     self.fest_days['ta:kAraDaiyAn2 nOn2bu'] = [d]
