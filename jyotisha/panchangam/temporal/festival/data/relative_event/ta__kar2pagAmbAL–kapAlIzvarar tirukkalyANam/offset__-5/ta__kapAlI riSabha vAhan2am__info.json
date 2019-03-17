@@ -1,12 +1,12 @@
 {
-  "id": "ta__kapAlI viDaiyAr2r2i toDakkam",
+  "id": "ta__kapAlI riSabha vAhan2am",
   "jsonClass": "HinduCalendarEvent",
   "tags": [
     "tamilnadu-temple-festivals"
   ],
   "timing": {
-    "anchor_festival_id": "ta__paGgun2i~uttiram",
+    "anchor_festival_id": "ta__kar2pagAmbAL\u2013kapAlIzvarar tirukkalyANam",
     "jsonClass": "HinduCalendarEventTiming",
-    "offset": 1
+    "offset": -5
   }
 }
