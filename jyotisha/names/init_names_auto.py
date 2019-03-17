@@ -10,7 +10,7 @@ logging.basicConfig(level=logging.DEBUG,
 
 CODE_ROOT = os.path.dirname(os.path.dirname(__file__))
 
-scripts = [sanscript.DEVANAGARI, sanscript.IAST]
+scripts = [sanscript.DEVANAGARI, sanscript.IAST, sanscript.TAMIL, sanscript.TELUGU]
 
 
 def init_names_auto(fname=os.path.join(CODE_ROOT, 'names/data/translation_table_HK.json')):
