@@ -26,7 +26,7 @@ class Panchangam(common.JsonObject):
         (year, month, day, hours, minutes, seconds) = city.julian_day_to_local_time(julian_day)
         return Panchangam(city=city, year=year, month=month, day=day, ayanamsha_id=ayanamsha_id)
 
-    def __init__(self, city: City, year: int, month: int, day: int, ayanamsha_id: int = swe.SIDM_LAHIRI) -> None:
+    def __init__(self, city: City, year: int, month: int, day: int, ayanamsha_id: int = swe.SIDM_LAHIRI, previous_day_panchangam=None) -> None:
         """Constructor for the panchangam.
         """
         super(Panchangam, self).__init__()
@@ -44,7 +44,7 @@ class Panchangam(common.JsonObject):
         self.jd_next_sunrise = None
         self.jd_moonrise = None
         self.jd_moonset = None
-        self.compute_sun_moon_transitions()
+        self.compute_sun_moon_transitions(previous_day_panchangam=previous_day_panchangam)
 
         self.tb_muhuurtas = None
         self.lagna_data = None
@@ -62,27 +62,34 @@ class Panchangam(common.JsonObject):
         self.karanam_data = None
         self.rashi_data = None
 
-    def compute_sun_moon_transitions(self, force_recomputation=False):
+    def compute_sun_moon_transitions(self, previous_day_panchangam=None, force_recomputation=False):
         """
 
+        :param previous_day_panchangam: Panchangam for previous day, to avoid unnecessary calculations. (rise_trans calculations can be time consuming.) 
         :param force_recomputation: Boolean indicating if the transitions should be recomputed. (rise_trans calculations can be time consuming.) 
         :return: 
         """
         if force_recomputation or self.jd_sunrise is None:
-            self.jd_sunrise = swe.rise_trans(
-                jd_start=self.julian_day_start, body=swe.SUN,
-                lon=self.city.longitude, lat=self.city.latitude,
-                rsmi=CALC_RISE)[1][0]
+            if previous_day_panchangam is not None and previous_day_panchangam.jd_next_sunrise is not None:
+                self.jd_sunrise = previous_day_panchangam.jd_next_sunrise
+            else:
+                self.jd_sunrise = swe.rise_trans(
+                    jd_start=self.julian_day_start, body=swe.SUN,
+                    lon=self.city.longitude, lat=self.city.latitude,
+                    rsmi=CALC_RISE)[1][0]
         if force_recomputation or self.jd_sunset is None:
             self.jd_sunset = swe.rise_trans(
                 jd_start=self.jd_sunrise, body=swe.SUN,
                 lon=self.city.longitude, lat=self.city.latitude,
                 rsmi=CALC_SET)[1][0]
         if force_recomputation or self.jd_previous_sunset is None:
-            self.jd_previous_sunset = swe.rise_trans(
-                jd_start=self.jd_sunrise - 1, body=swe.SUN,
-                lon=self.city.longitude, lat=self.city.latitude,
-                rsmi=CALC_SET)[1][0]
+            if previous_day_panchangam is not None and previous_day_panchangam.jd_sunset is not None:
+                self.jd_previous_sunset = previous_day_panchangam.jd_sunset
+            else:
+                self.jd_previous_sunset = swe.rise_trans(
+                    jd_start=self.jd_sunrise - 1, body=swe.SUN,
+                    lon=self.city.longitude, lat=self.city.latitude,
+                    rsmi=CALC_SET)[1][0]
         if force_recomputation or self.jd_next_sunrise is None:
             self.jd_next_sunrise = swe.rise_trans(
                 jd_start=self.jd_sunset, body=swe.SUN,

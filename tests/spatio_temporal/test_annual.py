@@ -23,25 +23,30 @@ def test_panchanga_chennai():
   panchangam_expected_chennai_18 = JsonObject.read_from_file(filename=os.path.join(TEST_DATA_PATH, 'Chennai-2018.json'))
   city = City('Chennai', "13:05:24", "80:16:12", "Asia/Calcutta")
   panchangam = annual.Panchangam(city=city, year=2018, script=sanscript.DEVANAGARI, ayanamsha_id=swe.SIDM_LAHIRI, compute_lagnams=False)
-  if str(panchangam) != str(panchangam_expected_chennai_18):
-    panchangam.dump_to_file(filename=os.path.join(TEST_DATA_PATH, 'Chennai-2018-actual.json.local'))
+  if panchangam.__str__(floating_point_precision=4) != panchangam_expected_chennai_18.__str__(floating_point_precision=4):
+    panchangam.dump_to_file(filename=os.path.join(TEST_DATA_PATH, 'Chennai-2018-actual.json.local'), floating_point_precision=4)
+    panchangam_expected_chennai_18.dump_to_file(filename=os.path.join(TEST_DATA_PATH, 'Chennai-2018-expected.json.local'), floating_point_precision=4)
   assert str(panchangam) == str(panchangam_expected_chennai_18)
 
   panchangam_expected_chennai_19 = JsonObject.read_from_file(filename=os.path.join(TEST_DATA_PATH, 'Chennai-2019.json'))
   city = City('Chennai', "13:05:24", "80:16:12", "Asia/Calcutta")
   panchangam = annual.Panchangam(city=city, year=2019, script=sanscript.DEVANAGARI, ayanamsha_id=swe.SIDM_LAHIRI, compute_lagnams=False)
-  if str(panchangam) != str(panchangam_expected_chennai_19):
-    panchangam.dump_to_file(filename=os.path.join(TEST_DATA_PATH, 'Chennai-2019-actual.json.local'))
-  assert str(panchangam) == str(panchangam_expected_chennai_19)
+
+  if panchangam.__str__(floating_point_precision=4) != panchangam_expected_chennai_19.__str__(floating_point_precision=4):
+    panchangam.dump_to_file(filename=os.path.join(TEST_DATA_PATH, 'Chennai-2019-actual.json.local'), floating_point_precision=4)
+    panchangam_expected_chennai_19.dump_to_file(filename=os.path.join(TEST_DATA_PATH, 'Chennai-2019-expected.json.local'), floating_point_precision=4)
+  assert panchangam.__str__(floating_point_precision=4) == panchangam_expected_chennai_19.__str__(floating_point_precision=4)
 
 
 def test_panchanga_orinda():
   panchangam_expected_orinda_19 = JsonObject.read_from_file(filename=os.path.join(TEST_DATA_PATH, 'Orinda-2019.json'))
   city = City('Orinda', '37:51:38', '-122:10:59', 'America/Los_Angeles')
   panchangam = annual.Panchangam(city=city, year=2019, script=sanscript.DEVANAGARI, ayanamsha_id=swe.SIDM_LAHIRI, compute_lagnams=False)
-  if str(panchangam) != str(panchangam_expected_orinda_19):
-    panchangam.dump_to_file(filename=os.path.join(TEST_DATA_PATH, 'Orinda-2019-actual.json.local'))
-  assert str(panchangam) == str(panchangam_expected_orinda_19)
+
+  if panchangam.__str__(floating_point_precision=4) != panchangam_expected_orinda_19.__str__(floating_point_precision=4):
+    panchangam.dump_to_file(filename=os.path.join(TEST_DATA_PATH, 'Orinda-2019-actual.json.local'), floating_point_precision=4)
+    panchangam_expected_orinda_19.dump_to_file(filename=os.path.join(TEST_DATA_PATH, 'Orinda-2019-expected.json.local'), floating_point_precision=4)
+  assert panchangam.__str__(floating_point_precision=4) == panchangam_expected_orinda_19.__str__(floating_point_precision=4)
 
 
 def test_adhika_maasa_computations():

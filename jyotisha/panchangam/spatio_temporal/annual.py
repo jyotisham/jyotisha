@@ -103,8 +103,8 @@ class Panchangam(common.JsonObject):
             # TODO: Eventually, we are shifting to an array of daily panchangas. Reason: Better modularity.
             # The below block is temporary code to make the transition seamless.
             (year_d, month_d, day_d, _) = swe.revjul(self.jd_start_utc + d)
-            daily_panchaangas[d + 1] = daily.Panchangam(city=self.city, year=year_d, month=month_d, day=day_d, ayanamsha_id=self.ayanamsha_id)
-            daily_panchaangas[d + 1].compute_sun_moon_transitions()
+            daily_panchaangas[d + 1] = daily.Panchangam(city=self.city, year=year_d, month=month_d, day=day_d, ayanamsha_id=self.ayanamsha_id, previous_day_panchangam=daily_panchaangas[d])
+            daily_panchaangas[d + 1].compute_sun_moon_transitions(previous_day_panchangam=daily_panchaangas[d])
             daily_panchaangas[d + 1].compute_solar_month()
             self.jd_midnight[d + 1] = daily_panchaangas[d + 1].julian_day_start
             self.jd_sunrise[d + 1] = daily_panchaangas[d + 1].jd_sunrise
