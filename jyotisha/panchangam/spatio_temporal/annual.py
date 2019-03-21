@@ -6,12 +6,13 @@ import traceback
 
 from datetime import datetime
 from math import floor
+from typing import List
 
 from indic_transliteration import xsanscript as sanscript
 from pytz import timezone as tz
 from sanskrit_data.schema.common import JsonObject
 
-from jyotisha.panchangam import temporal
+from jyotisha.panchangam import temporal, spatio_temporal
 from jyotisha.panchangam.temporal.festival import read_old_festival_rules_dict
 from sanskrit_data.schema import common
 from scipy.optimize import brentq
@@ -74,7 +75,7 @@ class Panchangam(common.JsonObject):
 
         self.weekday = [None] * temporal.MAX_SZ
         self.kaalas = [dict() for _x in range(temporal.MAX_SZ)]
-        daily_panchaangas = [None] * temporal.MAX_SZ
+        daily_panchaangas: List[daily.Panchangam] = [None] * temporal.MAX_SZ
 
         # Computing solar month details for Dec 31
         # rather than Jan 1, since we have an always increment
@@ -1555,3 +1556,8 @@ def get_panchangam(city, year, script, compute_lagnams=False, precomputed_json_d
         # Festival data may be updated more frequently and a precomputed panchangam may go out of sync. Hence we keep this method separate.
         panchangam.update_festival_details()
         return panchangam
+
+
+if __name__ == '__main__':
+    city = spatio_temporal.City('Chennai', "13:05:24", "80:16:12", "Asia/Calcutta")
+    panchangam = Panchangam(city=city, year=2019, script=sanscript.DEVANAGARI, ayanamsha_id=swe.SIDM_LAHIRI, compute_lagnams=False)

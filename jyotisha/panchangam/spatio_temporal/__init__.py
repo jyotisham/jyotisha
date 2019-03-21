@@ -59,7 +59,7 @@ class City(JsonObject):
 
   def __init__(self, name, latitude, longitude, timezone):
     """Constructor for city"""
-    super().__init__()
+    super(City, self).__init__()
     if name is None or name == "":
       self.name = str([latitude, longitude])
     else:

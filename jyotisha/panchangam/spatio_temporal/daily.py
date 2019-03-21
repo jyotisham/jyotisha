@@ -26,10 +26,10 @@ class Panchangam(common.JsonObject):
         (year, month, day, hours, minutes, seconds) = city.julian_day_to_local_time(julian_day)
         return Panchangam(city=city, year=year, month=month, day=day, ayanamsha_id=ayanamsha_id)
 
-    def __init__(self, city, year, month, day, ayanamsha_id=swe.SIDM_LAHIRI):
+    def __init__(self, city: City, year: int, month: int, day: int, ayanamsha_id: int = swe.SIDM_LAHIRI) -> None:
         """Constructor for the panchangam.
         """
-        super().__init__()
+        super(Panchangam, self).__init__()
         self.city = city
         (self.year, self.month, self.day) = (year, month, day)
         self.julian_day_start = self.city.local_time_to_julian_day(year=self.year, month=self.month, day=self.day, hours=0, minutes=0, seconds=1)
@@ -62,21 +62,32 @@ class Panchangam(common.JsonObject):
         self.karanam_data = None
         self.rashi_data = None
 
-    def compute_sun_moon_transitions(self):
-        self.jd_sunrise = swe.rise_trans(
-            jd_start=self.julian_day_start, body=swe.SUN,
-            lon=self.city.longitude, lat=self.city.latitude,
-            rsmi=CALC_RISE)[1][0]
-        self.jd_sunset = swe.rise_trans(
-            jd_start=self.jd_sunrise, body=swe.SUN,
-            lon=self.city.longitude, lat=self.city.latitude,
-            rsmi=CALC_SET)[1][0]
-        self.jd_previous_sunset = swe.rise_trans(jd_start=self.jd_sunrise - 1, body=swe.SUN,
-                                                 lon=self.city.longitude, lat=self.city.latitude,
-                                                 rsmi=CALC_SET)[1][0]
-        self.jd_next_sunrise = swe.rise_trans(jd_start=self.jd_sunset, body=swe.SUN,
-                                              lon=self.city.longitude, lat=self.city.latitude,
-                                              rsmi=CALC_RISE)[1][0]
+    def compute_sun_moon_transitions(self, force_recomputation=False):
+        """
+
+        :param force_recomputation: Boolean indicating if the transitions should be recomputed. (rise_trans calculations can be time consuming.) 
+        :return: 
+        """
+        if force_recomputation or self.jd_sunrise is None:
+            self.jd_sunrise = swe.rise_trans(
+                jd_start=self.julian_day_start, body=swe.SUN,
+                lon=self.city.longitude, lat=self.city.latitude,
+                rsmi=CALC_RISE)[1][0]
+        if force_recomputation or self.jd_sunset is None:
+            self.jd_sunset = swe.rise_trans(
+                jd_start=self.jd_sunrise, body=swe.SUN,
+                lon=self.city.longitude, lat=self.city.latitude,
+                rsmi=CALC_SET)[1][0]
+        if force_recomputation or self.jd_previous_sunset is None:
+            self.jd_previous_sunset = swe.rise_trans(
+                jd_start=self.jd_sunrise - 1, body=swe.SUN,
+                lon=self.city.longitude, lat=self.city.latitude,
+                rsmi=CALC_SET)[1][0]
+        if force_recomputation or self.jd_next_sunrise is None:
+            self.jd_next_sunrise = swe.rise_trans(
+                jd_start=self.jd_sunset, body=swe.SUN,
+                lon=self.city.longitude, lat=self.city.latitude,
+                rsmi=CALC_RISE)[1][0]
         if self.jd_sunset == 0.0:
             logging.error('No sunset was computed!')
             raise (ValueError(
@@ -84,15 +95,17 @@ class Panchangam(common.JsonObject):
             # logging.debug(swe.rise_trans(jd_start=jd_start, body=swe.SUN, lon=city.longitude,
             #                              lat=city.latitude, rsmi=CALC_SET))
 
-        self.jd_moonrise = swe.rise_trans(
-            jd_start=self.jd_sunrise,
-            body=swe.MOON, lon=self.city.longitude,
-            lat=self.city.latitude,
-            rsmi=CALC_RISE)[1][0]
-        self.jd_moonset = swe.rise_trans(
-            jd_start=self.jd_moonrise, body=swe.MOON,
-            lon=self.city.longitude, lat=self.city.latitude,
-            rsmi=CALC_SET)[1][0]
+        if force_recomputation or self.jd_moonrise is None:
+            self.jd_moonrise = swe.rise_trans(
+                jd_start=self.jd_sunrise,
+                body=swe.MOON, lon=self.city.longitude,
+                lat=self.city.latitude,
+                rsmi=CALC_RISE)[1][0]
+        if force_recomputation or self.jd_moonset is None:
+            self.jd_moonset = swe.rise_trans(
+                jd_start=self.jd_moonrise, body=swe.MOON,
+                lon=self.city.longitude, lat=self.city.latitude,
+                rsmi=CALC_SET)[1][0]
 
         self.tithi_data = temporal.get_angam_data(self.jd_sunrise, self.jd_next_sunrise, temporal.TITHI, ayanamsha_id=self.ayanamsha_id)
         self.tithi_at_sunrise = self.tithi_data[0][0]
