@@ -31,7 +31,7 @@ class Panchangam(common.JsonObject):
         :param compute_lagnams:
         :param compute_lagnams:
             """
-        super().__init__()
+        super(Panchangam, self).__init__()
         self.city = city
         self.year = year
         self.script = script
