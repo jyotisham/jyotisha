@@ -23,8 +23,8 @@
     "angam_type": "tithi",
     "jsonClass": "HinduCalendarEventTiming",
     "kaala": "aparaahna",
-    "month_number": 2,
-    "month_type": "solar_month",
+    "month_number": 3,
+    "month_type": "lunar_month",
     "year_start": 3613
   }
 }
