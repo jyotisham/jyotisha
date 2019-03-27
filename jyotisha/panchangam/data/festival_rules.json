@@ -4112,8 +4112,8 @@
         "id": "kAJcI 16 jagadguru zrI~ujjvala zaGkarEndra sarasvatI ArAdhanA",
         "jsonClass": "HinduCalendarEventOld",
         "kaala": "aparaahna",
-        "month_number": 2,
-        "month_type": "solar_month",
+        "month_number": 3,
+        "month_type": "lunar_month",
         "priority": "puurvaviddha",
         "shlokas": [
             "sUnuH kEzavazaGkarasya tapatItIrOdbhavO naiSThikaH\nzrImAn acyutakEzavaH zritapadO vaJcIzvarE gISpatEH.\nAdEzAt kRtasaMyamazca vimatAn AmUlam unmUlayan\nAkAzmIram agAnmahAyatiriti khyAtyOjjvalaH zaGkaraH..32..\naSTAtriMzad athAtivAhya zaradaH pIThE jagaddEzika-\nsyAsId dig-rasa-vArdhi-vahniSu (3468) kalEryAtsvakSayE'cchE vRSE.\naSTamyAm apaharSazOkam ajaraM brahmaiva yaH zAzvataM\nkAzmIrESu kalApurE yadadhunA'pyAkhyAyatE'syAkhyayA..33..\n—puNyazlOkamaJjarI"
@@ -4287,8 +4287,8 @@
         "id": "kAJcI 23 jagadguru zrI~saccitsukhEndra sarasvatI ArAdhanA",
         "jsonClass": "HinduCalendarEventOld",
         "kaala": "aparaahna",
-        "month_number": 2,
-        "month_type": "solar_month",
+        "month_number": 3,
+        "month_type": "lunar_month",
         "priority": "puurvaviddha",
         "shlokas": [
             "zrIcikkAkulasOmaNAryatanayaH sO'yaM girIzaH purA\nsannyastaH paripUrNabOdhaguruNA saccitsukhaH SaNmukham.\ndhyAyan kAlavidaM sudUram udadhau prOSyAryabhaTTAbhidhaM\npratyAvRttam adhAd athAstikam anuSThApyOditaM niSkrayam..48..\ncitsukhaM vinivEzya svE padE saccitsukhaH sitE.\nkharE kharAMzau vRSagE saptamyAM siddhim Apa saH..49..\n—puNyazlOkamaJjarI"
@@ -5162,8 +5162,8 @@
         "id": "kAJcI 58 jagadguru zrI~AtmabOdhEndra sarasvatI ArAdhanA",
         "jsonClass": "HinduCalendarEventOld",
         "kaala": "aparaahna",
-        "month_number": 7,
-        "month_type": "solar_month",
+        "month_number": 8,
+        "month_type": "lunar_month",
         "priority": "puurvaviddha",
         "shlokas": [
             "vRddhAcalaprabhavavizvamakhIndrasUnurvizvEzvaraH parazivAryapadaM prapannaH.\nAsEtuzItagiri kalpitajaitrayAtra AdyAt sa zaGkaragurOratihRdya AsIt..6..\nvizvAdhikasvadhiSaNatvata EnamAhurvizvAdhikEndram anaghA navazaGkaraM ca.\nzrIrudrabhASyamukhabhUritaraprabandhasandhAnakauzalam amuSya kimapyamEyam..7..\ndvApaJcAzatam udvahan gurudhurAm abdAnavAcyAM dizi prasthAnE garuDApagAtaTabhuvi prApat padaM zAzvatam.\nbOdhEndrAryavisRSTaviSTaradhurO vizvAdhikEndrastulAkRSNASTamyahanIzvarE hRdi dadhat sOmArdhacUDAmaNim..8..\n—puNyazlOkamaJjarI"
@@ -5207,7 +5207,7 @@
         "year_start": 4793
     },
     {
-        "angam_number": 2,
+        "angam_number": 17,
         "angam_type": "tithi",
         "id": "kAJcI 60 jagadguru zrI~advaitAtmaprakAzEndra sarasvatI ArAdhanA",
         "jsonClass": "HinduCalendarEventOld",
