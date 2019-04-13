@@ -314,6 +314,10 @@ def get_angam_span(jd1, jd2, angam_type, target, ayanamsha_id=swe.SIDM_LAHIRI, d
 
     angam_start = angam_end = None
 
+    if debug:
+      logging.debug(get_angam(jd1, angam_type, ayanamsha_id=ayanamsha_id))
+      logging.debug(get_angam(jd2, angam_type, ayanamsha_id=ayanamsha_id))
+
     num_angas = int(360.0 / angam_type['arc_len'])
 
     jd_bracket_L = jd1
@@ -326,20 +330,20 @@ def get_angam_span(jd1, jd2, angam_type, target, ayanamsha_id=swe.SIDM_LAHIRI, d
         angam_now = get_angam(jd_now, angam_type, ayanamsha_id=ayanamsha_id)
 
         if debug:
-            print('%%', jd_now, revjul(jd_now), angam_now, get_angam_float(jd_now, angam_type, ayanamsha_id=ayanamsha_id))
+            logging.debug((jd_now, revjul(jd_now), angam_now, get_angam_float(jd_now, angam_type, ayanamsha_id=ayanamsha_id)))
         if angam_now < target:
             if debug:
-                print('%% jd_bracket_L ', jd_now)
+                logging.debug(('jd_bracket_L ', jd_now))
             jd_bracket_L = jd_now
         if angam_now == target:
             try:
               angam_start = brentq(get_angam_float, jd_bracket_L, jd_now,
                                    args=(angam_type, -target + 1, ayanamsha_id, False))
             except ValueError:
-              logging.error('Unable to bracket %s->%f between jd = (%f, %f)' % (str(angam_type), -target + 1, jd_bracket_L, jd_now))
+              logging.error('Unable to bracket %s->%f between jd = (%f, %f), starting with (%f, %f)' % (str(angam_type), -target + 1, jd_bracket_L, jd_now, jd1, jd2))
               angam_start = None
             if debug:
-                print('%% angam_start', angam_start)
+                logging.debug(('angam_start', angam_start))
         # if angam_now > target and angam_start is not None:
         #     angam_end = brentq(get_angam_float, angam_start, jd_now,
         #                        args=(angam_type, -target, False))
@@ -353,19 +357,19 @@ def get_angam_span(jd1, jd2, angam_type, target, ayanamsha_id=swe.SIDM_LAHIRI, d
         angam_now = get_angam(jd_now, angam_type, ayanamsha_id=ayanamsha_id)
 
         if debug:
-            print('%%#', jd_now, revjul(jd_now), angam_now, get_angam_float(jd_now, angam_type, ayanamsha_id=ayanamsha_id))
+            logging.debug((jd_now, revjul(jd_now), angam_now, get_angam_float(jd_now, angam_type, ayanamsha_id=ayanamsha_id)))
         if target == num_angas:
             # Wait till we land at the next anga!
             if angam_now == 1:
                 jd_bracket_R = jd_now
                 if debug:
-                    print('%%# jd_bracket_R ', jd_now)
+                    logging.debug(('jd_bracket_R ', jd_now))
                 break
         else:
             if angam_now > target:
                 jd_bracket_R = jd_now
                 if debug:
-                    print('%%! jd_bracket_R ', jd_now)
+                    logging.debug(('jd_bracket_R ', jd_now))
                 break
         jd_now += h
 
@@ -376,7 +380,7 @@ def get_angam_span(jd1, jd2, angam_type, target, ayanamsha_id=swe.SIDM_LAHIRI, d
         logging.error('Unable to compute angam_end (%s->%d); possibly could not bracket correctly!\n' % (str(angam_type), target))
 
     if debug:
-        print('%% angam_end', angam_end)
+        logging.debug(('angam_end', angam_end))
 
     return (angam_start, angam_end)
 
