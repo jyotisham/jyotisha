@@ -729,7 +729,7 @@ class Panchangam(common.JsonObject):
                     ayanamsha_id=self.ayanamsha_id)
 
                 moon_magha_jd_start, moon_magha_jd_end = temporal.get_angam_span(
-                    sun_hasta_jd_start - 1, sun_hasta_jd_end + 1, temporal.NAKSHATRAM, 10,
+                    sun_hasta_jd_start - 2, sun_hasta_jd_end + 2, temporal.NAKSHATRAM, 10,
                     ayanamsha_id=self.ayanamsha_id)
                 if all([moon_magha_jd_start, moon_magha_jd_end]):
                     t28_start, t28_end = temporal.get_angam_span(
