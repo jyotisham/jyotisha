@@ -1,5 +1,5 @@
-## Ichaiñāniyār Nāyanār Gurupūjai
-இசைஞானியார் நாயனார் குருபூஜை is observed on Citrā nakṣhatram day of Meṣaḥ (solar) month (praatah/paraviddha).
+## Ichaiñāniyār Nāyanār (62) Gurupūjai
+இசைஞானியார் நாயனார் (62) குருபூஜை is observed on Citrā nakṣhatram day of Meṣaḥ (solar) month (praatah/paraviddha).
 
 
 

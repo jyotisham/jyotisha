@@ -1,5 +1,5 @@
-## Enādinātha Nāyanār Gurupūjai
-ஏனாதிநாத நாயனார் குருபூஜை is observed on Uttarāṣāḍhā nakṣhatram day of Kanyā (solar) month (praatah/paraviddha).
+## Enādinātha Nāyanār (8) Gurupūjai
+ஏனாதிநாத நாயனார் (8) குருபூஜை is observed on Uttarāṣāḍhā nakṣhatram day of Kanyā (solar) month (praatah/paraviddha).
 
 
 

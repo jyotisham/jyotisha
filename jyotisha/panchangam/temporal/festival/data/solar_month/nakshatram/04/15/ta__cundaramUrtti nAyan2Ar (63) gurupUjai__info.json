@@ -1,0 +1,16 @@
+{
+  "id": "ta__cundaramUrtti nAyan2Ar (63) gurupUjai",
+  "jsonClass": "HinduCalendarEvent",
+  "priority": "paraviddha",
+  "tags": [
+    "Nayanar Gurupujai"
+  ],
+  "timing": {
+    "angam_number": 15,
+    "angam_type": "nakshatram",
+    "jsonClass": "HinduCalendarEventTiming",
+    "kaala": "praatah",
+    "month_number": 4,
+    "month_type": "solar_month"
+  }
+}

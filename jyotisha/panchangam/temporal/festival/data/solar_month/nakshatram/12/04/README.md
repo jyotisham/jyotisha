@@ -1,5 +1,5 @@
-## Necha Nāyanār Gurupūjai
-நேச நாயனார் குருபூஜை is observed on Rohiṇī nakṣhatram day of Mīnaḥ (solar) month (praatah/paraviddha).
+## Necha Nāyanār (58) Gurupūjai
+நேச நாயனார் (58) குருபூஜை is observed on Rohiṇī nakṣhatram day of Mīnaḥ (solar) month (praatah/paraviddha).
 
 
 

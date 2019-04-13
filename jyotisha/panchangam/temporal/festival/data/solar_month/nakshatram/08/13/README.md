@@ -1,5 +1,5 @@
-## Ānāya Nāyanār Gurupūjai
-ஆனாய நாயனார் குருபூஜை is observed on Hastaḥ nakṣhatram day of Vṛścikaḥ (solar) month (praatah/paraviddha).
+## Ānāya Nāyanār (13) Gurupūjai
+ஆனாய நாயனார் (13) குருபூஜை is observed on Hastaḥ nakṣhatram day of Vṛścikaḥ (solar) month (praatah/paraviddha).
 
 
 

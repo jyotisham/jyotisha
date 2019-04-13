@@ -1,0 +1,16 @@
+{
+  "id": "ta__tirukkur2ipput toNDa nAyan2Ar (18) gurupUjai",
+  "jsonClass": "HinduCalendarEvent",
+  "priority": "paraviddha",
+  "tags": [
+    "Nayanar Gurupujai"
+  ],
+  "timing": {
+    "angam_number": 15,
+    "angam_type": "nakshatram",
+    "jsonClass": "HinduCalendarEventTiming",
+    "kaala": "praatah",
+    "month_number": 1,
+    "month_type": "solar_month"
+  }
+}

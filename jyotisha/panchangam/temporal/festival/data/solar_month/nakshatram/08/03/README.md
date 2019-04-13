@@ -10,8 +10,8 @@
 
 
 ---
-## Kaṇampulla Nāyanār Gurupūjai
-கணம்புல்ல நாயனார் குருபூஜை is observed on Kṛttikā nakṣhatram day of Vṛścikaḥ (solar) month (praatah/paraviddha).
+## Kaṇampulla Nāyanār (46) Gurupūjai
+கணம்புல்ல நாயனார் (46) குருபூஜை is observed on Kṛttikā nakṣhatram day of Vṛścikaḥ (solar) month (praatah/paraviddha).
 
 
 

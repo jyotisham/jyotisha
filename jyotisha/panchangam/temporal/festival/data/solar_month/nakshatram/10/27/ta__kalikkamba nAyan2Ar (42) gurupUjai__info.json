@@ -1,0 +1,16 @@
+{
+  "id": "ta__kalikkamba nAyan2Ar (42) gurupUjai",
+  "jsonClass": "HinduCalendarEvent",
+  "priority": "paraviddha",
+  "tags": [
+    "Nayanar Gurupujai"
+  ],
+  "timing": {
+    "angam_number": 27,
+    "angam_type": "nakshatram",
+    "jsonClass": "HinduCalendarEventTiming",
+    "kaala": "praatah",
+    "month_number": 10,
+    "month_type": "solar_month"
+  }
+}
