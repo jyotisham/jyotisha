@@ -168,7 +168,7 @@ class HinduCalendarEventOld(common.JsonObject):
             angam_type=self.angam_type,
             month_number=self.month_number,
             angam_number=self.angam_number,
-            id=custom_transliteration.tr(self.id, sanscript.IAST).replace('Ta__', '').replace('~', ' ').replace(' ', '-').strip('{}').lower())
+            id=custom_transliteration.tr(self.id, sanscript.IAST).replace('Ta__', '').replace('~', ' ').replace(' ', '-').replace('(', '').replace(')', '').strip('{}').lower())
       elif hasattr(self, "anchor_festival_id"):
         url = "%(base_dir)s/relative_event/%(anchor_festival_id)s/offset__%(offset)02d#%(id)s" % dict(
             base_dir=base_url,
