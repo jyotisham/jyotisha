@@ -75,7 +75,7 @@ class Panchangam(common.JsonObject):
 
         self.weekday = [None] * temporal.MAX_SZ
         self.kaalas = [dict() for _x in range(temporal.MAX_SZ)]
-        daily_panchaangas: List[daily.Panchangam] = [None] * temporal.MAX_SZ
+        daily_panchaangas = [None] * temporal.MAX_SZ
 
         # Computing solar month details for Dec 31
         # rather than Jan 1, since we have an always increment
