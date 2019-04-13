@@ -15,7 +15,7 @@
 
 ![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-15.jpg)
 
-_Gaṅgādharagīṣpatiḥ, known as Subhadra, son of Kāñci Bhadragiri, got initiated in the twelfth year of age by Śrī Vidyāghana whom He had served became a realised soul when He as twenty-four years old and reached the eternal abode of Śrī vidyā and Śrī Śiva. He, the Omnipotent, omniscient and pure reached the eternal abode by his glory on the first day of the bright fortnight in the month of Caitra of the year Sarvadhari._
+_Gaṅgādharagīṣpatiḥ, known as Subhadra, son of Kāñci Bhadragiri, got initiated in the twelfth year of age by Śrī Vidyāghana whom He had served became a realised soul when He as twenty-four years old and reached the eternal abode of Śrīvidyā and Śrī Śiva. He, the Omnipotent, omniscient and pure reached the eternal abode by his glory on the first day of the bright fortnight in the month of Caitra of the year Sarvadhari._
 
 ```
 सूनुर्भद्रगिरेः सुभद्र इति यः काञ्च्य(कप्य?)न्वयो द्वादशे

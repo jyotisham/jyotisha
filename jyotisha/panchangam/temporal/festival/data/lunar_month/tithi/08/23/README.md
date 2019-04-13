@@ -15,7 +15,7 @@ _Very famously celebrated in Vaikom Mahadeva Temple._
 
 ![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-42.jpg)
 
-_Then Narasambhaṭṭa, son of Subrahmanya, having been initiated by Gaṅgādhara got the appellation Brahmānandaghana held the preceptorship of the Pīṭha for twenty-eight years. This great preceptor merged in the Lord Ăśvara as He ws teaching the disciples the Brahmasūtra, bhāṣya etc. in the early morning of Aṣṭami of Kṛṣṇapakṣā in the month of Kārtika in the year Ăśvara._
+_Then Narasambhaṭṭa, son of Subrahmanya, having been initiated by Gaṅgādhara got the appellation Brahmānandaghana held the preceptorship of the Pīṭha for twenty-eight years. This great preceptor merged in the Lord Ăśvara as He ws teaching the disciples the Brahmasūtra, bhāṣya etc. in the early morning of Aṣṭami of Kṛṣṇapakṣa in the month of Kārtika in the year Ăśvara._
 
 ```
 सुब्रह्मण्यभवो नियम्य नरसम्भट्टोऽथ गङ्गाधराद्

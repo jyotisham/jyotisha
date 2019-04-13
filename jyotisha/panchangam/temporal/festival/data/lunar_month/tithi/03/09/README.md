@@ -15,7 +15,7 @@ _ब्रह्माणी is one of the seven मातृकाs_
 
 ![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-61.jpg)
 
-_Here (in this world) the best among preceptors by name Mahādevendra adorned the incomparable seat of preceptor for forty-two years; thus the great Yogi realised the Self and attained siddhi on the ninth day of bright fortnight in the month of Jyeṣṭha in the year Krodhana. Ātmabodha, who wrote a commentary Suṣamā on Śrī Sadāśivabrahmendra’s Gururatnamālika also belonged to this period (aa contemporary of this preceptor). Only during this period, the Jagadguru Maṭha moved out of Kāñci. The place where this present preeptor attained siddhi was the wellknown Tiruvottiyur situated in the north of Madras (Śalivahana era 1664)._
+_Here (in this world) the best among preceptors by name Mahādevendra adorned the incomparable seat of preceptor for forty-two years; thus the great Yogi realised the Self and attained siddhi on the ninth day of bright fortnight in the month of Jyeṣṭha in the year Krodhana. Ātmabodha, who wrote a commentary Suṣamā on Śrī Sadāśivabrahmendra’s Gururatnamālika also belonged to this period (a contemporary of this preceptor). Only during this period, the Jagadguru Maṭha moved out of Kāñci. The place where this present preeptor attained siddhi was the wellknown Tiruvottiyur situated in the north of Madras (Śalivahana era 1664)._
 
 ```
 अद्वैतात्मप्रकाशेन्द्राद् बाल्य आश्रितसंयमः।
