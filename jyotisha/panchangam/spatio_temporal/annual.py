@@ -1104,52 +1104,52 @@ class Panchangam(common.JsonObject):
                     fday = None
 
                     if angam_sunrise[d] == prev_angam or angam_sunrise[d] == angam_num:
-                        angams = self.get_angams_for_kaalas(d, get_angam_func, kaala)
+                        if kaala == 'arunodaya':
+                            # We want for arunodaya *preceding* today's sunrise; therefore, use d - 1
+                            angams = self.get_angams_for_kaalas(d - 1, get_angam_func, kaala)
+                        else:
+                            angams = self.get_angams_for_kaalas(d, get_angam_func, kaala)
+
                         if angams is None:
-                            sys.stderr.write('No angams returned! Skipping festival %s'
-                                             % festival_name)
+                            logging.error('No angams returned! Skipping festival %s' % festival_name)
                             continue
                             # Some error, e.g. weird kaala, so skip festival
                         if debug_festivals:
-                            print('%' * 80)
                             try:
-                                print('%', festival_name, ': ', festival_rules[festival_name])
-                                print("%%angams today & tmrw:", angams)
+                                logging.debug(('%', festival_name, ': ', festival_rules[festival_name]))
+                                logging.debug(("%%angams today & tmrw:", angams))
                             except KeyError:
-                                print('%', festival_name, ': ', festival_rules[festival_name.split('\\')[0][:-1]])
-                                print("%%angams today & tmrw:", angams)
+                                logging.debug(('%', festival_name, ': ', festival_rules[festival_name.split('\\')[0][:-1]]))
+                                logging.debug(("%%angams today & tmrw:", angams))
 
                         if priority == 'paraviddha':
-                            if angams[0] == angam_num and angams[1] == angam_num:
-                                fday = d
-                            if angams[2] == angam_num and angams[3] == angam_num:
+                            if (angams[1] == angam_num and angams[3] == angam_num) or (angams[2] == angam_num and angams[3] == angam_num):
+                                # Incident at kaala on two consecutive days; so take second
                                 fday = d + 1
-
-                            if fday is None:
-                                if festival_name not in self.fest_days:
-                                    # logging.debug('%d: %s (%s)' % (d, angams, festival_name))
-                                    if angams[1] == angam_num:
-                                        # Angam not present at beginning of kala on Day 1, but present at end
-                                        # Does not touch Day 2.
-                                        fday = d
-                                        if debug_festivals:
-                                            logging.warning('%s did not touch start of %s kaala on d=%d or %d, but incident at end of kaala at d=%d. Assigning %d.' %
-                                                            (jyotisha.panchangam.temporal.NAMES['NAKSHATRAM_NAMES']['hk'][angam_num], kaala, d, d + 1, d, d))
-                                    elif angams[1] == next_angam:
-                                        fday = d  # Should be d - 1?
-                                        logging.warning('Assigned paraviddha day for %s as %d with difficulty!' %
-                                                        (festival_name, fday) + ' Please check for unusual cases.')
-
-                            if fday is None:
+                            elif angams[0] == angam_num and angams[1] == angam_num:
+                                # Incident only on day 1, maybe just touching day 2
+                                fday = d
+                            elif angams[1] == angam_num:
+                                fday = d
                                 if debug_festivals:
-                                    print('%', angams, angam_num)
-                                    if festival_name not in self.fest_days:
-                                        logging.warning('Could not assign paraviddha day for %s!' %
-                                                        festival_name +
-                                                        ' Please check for unusual cases.\n')
-                            # else:
-                            #     sys.stderr.write('Assigned paraviddha day for %s!' %
-                            #                      festival_name + ' Ignore future warnings!\n')
+                                    logging.warning('%s %d did not touch start of %s kaala on d=%d or %d,\
+                                        but incident at end of kaala at d=%d. Assigning %d for %s; angams: %s' %
+                                                    (angam_type, angam_num, kaala, d, d + 1, d, fday, festival_name, str(angams)))
+                            elif angams[2] == angam_num:
+                                fday = d
+                                if debug_festivals:
+                                    logging.warning('%s %d present only at start of %s kaala on d=%d. Assigning %d for %s; angams: %s' %
+                                                    (angam_type, angam_num, kaala, d + 1, d, festival_name, str(angams)))
+                            elif angams[0] == angam_num and angams[1] == next_angam:
+                                fday = d - 1
+                            elif angams[1] == prev_angam and angams[2] == next_angam:
+                                fday = d
+                                logging.warning('%s %d did not touch %s kaala on d=%d or %d. Assigning %d for %s; angams: %s' %
+                                                (angam_type, angam_num, kaala, d, d + 1, fday, festival_name, str(angams)))
+                            else:
+                                if festival_name not in self.fest_days and angams[3] > angam_num:
+                                    logging.debug((angams, angam_num))
+                                    logging.warning('Could not assign paraviddha day for %s!  Please check for unusual cases.' % festival_name)
                         elif priority == 'puurvaviddha':
                             # angams_yest = self.get_angams_for_kaalas(d - 1, get_angam_func, kaala)
                             # if debug_festivals:
@@ -1198,10 +1198,10 @@ class Panchangam(common.JsonObject):
                             # If month on fday is incorrect, we ignore and move.
                             if month_type == 'lunar_month' and angam_num == 1 and self.lunar_month[fday + 1] != month_num:
                                 continue
-                            if festival_name.find('\\') == -1 and \
-                                    'kaala' in festival_rules[festival_name] and \
-                                    festival_rules[festival_name]['kaala'] == 'arunodaya':
-                                fday += 1
+                            # if festival_name.find('\\') == -1 and \
+                            #         'kaala' in festival_rules[festival_name] and \
+                            #         festival_rules[festival_name]['kaala'] == 'arunodaya':
+                            #     fday += 1
                             self.add_festival(festival_name, fday, debug_festivals)
                         else:
                             if debug_festivals:
