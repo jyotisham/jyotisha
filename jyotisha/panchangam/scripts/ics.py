@@ -149,13 +149,24 @@ def compute_calendar(panchangam, all_tags=True):
                     # Find start and add entire event as well
                     event = Event()
                     check_d = d
-                    stext_start = stext.replace('samApanam', 'ArambhaH')
+                    stext_start = stext[:stext.find('samApanam')] + 'ArambhaH'  # This discards any bracketed info after the word ArambhaH
                     start_d = None
                     while check_d > 1:
                         check_d -= 1
                         if stext_start in panchangam.festivals[check_d]:
                             start_d = check_d
                             break
+
+                    if start_d is None:
+                        # Look for approx match
+                        check_d = d
+                        while check_d > 1:
+                            check_d -= 1
+                            for fest_key in panchangam.festivals[check_d]:
+                                if fest_key.startswith(stext_start):
+                                    logging.debug('Found approx match for %s: %s' % (stext_start, fest_key))
+                                    start_d = check_d
+                                    break
 
                     if start_d is None:
                         logging.error('Unable to find start date for %s' % stext_start)
