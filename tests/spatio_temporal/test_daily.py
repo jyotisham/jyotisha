@@ -1,4 +1,5 @@
 import logging
+import math
 
 import numpy.testing
 
@@ -40,7 +41,7 @@ def test_jd_start_orinda_ca():
 
 def test_get_lagna_float():
   city = City('X', 13.08784, 80.27847, 'Asia/Calcutta')
-  assert daily.Panchangam.from_city_and_julian_day(city=city, julian_day=2458222.5208333335).get_lagna_float(2444961.7125) == 10.353595502472984
+  assert math.isclose(daily.Panchangam.from_city_and_julian_day(city=city, julian_day=2458222.5208333335).get_lagna_float(2444961.7125), 10.353595502472984, abs_tol=10**-5)
 
 def test_get_lagna_data():
   city = City('X', 13.08784, 80.27847, 'Asia/Calcutta')
