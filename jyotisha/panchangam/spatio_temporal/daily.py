@@ -18,18 +18,19 @@ logging.basicConfig(level=logging.DEBUG,
                     format="%(levelname)s: %(asctime)s {%(filename)s:%(lineno)d}: %(message)s ")
 
 
-class Panchangam(common.JsonObject):
+# This class is not named Panchangam in order to be able to disambiguate from annual.Panchangam in serialized objects.
+class DailyPanchanga(common.JsonObject):
     """This class enables the construction of a panchangam
       """
     @classmethod
     def from_city_and_julian_day(cls, city, julian_day, ayanamsha_id=swe.SIDM_LAHIRI):
         (year, month, day, hours, minutes, seconds) = city.julian_day_to_local_time(julian_day)
-        return Panchangam(city=city, year=year, month=month, day=day, ayanamsha_id=ayanamsha_id)
+        return DailyPanchanga(city=city, year=year, month=month, day=day, ayanamsha_id=ayanamsha_id)
 
     def __init__(self, city: City, year: int, month: int, day: int, ayanamsha_id: int = swe.SIDM_LAHIRI, previous_day_panchangam=None) -> None:
         """Constructor for the panchangam.
         """
-        super(Panchangam, self).__init__()
+        super(DailyPanchanga, self).__init__()
         self.city = city
         (self.year, self.month, self.day) = (year, month, day)
         self.julian_day_start = self.city.local_time_to_julian_day(year=self.year, month=self.month, day=self.day, hours=0, minutes=0, seconds=1)
@@ -301,6 +302,6 @@ common.update_json_class_index(sys.modules[__name__])
 
 
 if __name__ == '__main__':
-    panchangam = Panchangam.from_city_and_julian_day(city=City('Chennai', '13:05:24', '80:16:12', 'Asia/Calcutta'), julian_day=2457023.27)
+    panchangam = DailyPanchanga.from_city_and_julian_day(city=City('Chennai', '13:05:24', '80:16:12', 'Asia/Calcutta'), julian_day=2457023.27)
     panchangam.compute_tb_muhuurtas()
     logging.debug(str(panchangam))

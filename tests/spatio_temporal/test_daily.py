@@ -12,7 +12,7 @@ logging.basicConfig(
 )
 
 def test_solar_day():
-  panchangam = daily.Panchangam.from_city_and_julian_day(city=City('Chennai', '13:05:24', '80:16:12', 'Asia/Calcutta'), julian_day=2457023.27)
+  panchangam = daily.DailyPanchanga.from_city_and_julian_day(city=City('Chennai', '13:05:24', '80:16:12', 'Asia/Calcutta'), julian_day=2457023.27)
   panchangam.compute_solar_day()
   logging.debug(str(panchangam))
   assert panchangam.solar_month_day == 16
@@ -20,13 +20,13 @@ def test_solar_day():
 
 def test_sunrise_mtv():
   city = City.from_address_and_timezone('Cupertino, CA', "America/Los_Angeles")
-  panchangam = daily.Panchangam(city=city, year=2018, month=11, day=11)
+  panchangam = daily.DailyPanchanga(city=city, year=2018, month=11, day=11)
   panchangam.compute_sun_moon_transitions()
   numpy.testing.assert_approx_equal(panchangam.jd_sunrise, 2458434.11)
 
 def test_tb_muhuurta_mtv():
   city = City.from_address_and_timezone('Cupertino, CA', "America/Los_Angeles")
-  panchangam = daily.Panchangam(city=city, year=2018, month=11, day=11)
+  panchangam = daily.DailyPanchanga(city=city, year=2018, month=11, day=11)
   panchangam.compute_tb_muhuurtas()
   assert len(panchangam.tb_muhuurtas) == 15
   assert panchangam.tb_muhuurtas[0].jd_start == panchangam.jd_sunrise
@@ -35,14 +35,14 @@ def test_tb_muhuurta_mtv():
 
 def test_jd_start_orinda_ca():
   city = City('Orinda','37:51:38','-122:10:59','America/Los_Angeles')
-  assert daily.Panchangam.from_city_and_julian_day(city=city, julian_day=2458551.8333333335).julian_day_start == 2458551.8333333335
-  assert daily.Panchangam.from_city_and_julian_day(city=city, julian_day=2458552.8333333335).julian_day_start == 2458552.8333333335
+  assert daily.DailyPanchanga.from_city_and_julian_day(city=city, julian_day=2458551.8333333335).julian_day_start == 2458551.8333333335
+  assert daily.DailyPanchanga.from_city_and_julian_day(city=city, julian_day=2458552.8333333335).julian_day_start == 2458552.8333333335
 
 
 def test_get_lagna_float():
   city = City('X', 13.08784, 80.27847, 'Asia/Calcutta')
-  assert math.isclose(daily.Panchangam.from_city_and_julian_day(city=city, julian_day=2458222.5208333335).get_lagna_float(2444961.7125), 10.353595502472984, abs_tol=10**-5)
+  assert math.isclose(daily.DailyPanchanga.from_city_and_julian_day(city=city, julian_day=2458222.5208333335).get_lagna_float(2444961.7125), 10.353595502472984, abs_tol=10 ** -5)
 
 def test_get_lagna_data():
   city = City('X', 13.08784, 80.27847, 'Asia/Calcutta')
-  assert daily.Panchangam.from_city_and_julian_day(city=city, julian_day=2458222.5208333335).get_lagna_data() == [(12, 2458222.5214310056), (1, 2458222.596420153), (2, 2458222.6812926503), (3, 2458222.772619788), (4, 2458222.8624254186), (5, 2458222.9478168003), (6, 2458223.0322211445), (7, 2458223.1202004547), (8, 2458223.211770839), (9, 2458223.3000455885), (10, 2458223.3787625884), (11, 2458223.4494649624)]
+  assert daily.DailyPanchanga.from_city_and_julian_day(city=city, julian_day=2458222.5208333335).get_lagna_data() == [(12, 2458222.5214310056), (1, 2458222.596420153), (2, 2458222.6812926503), (3, 2458222.772619788), (4, 2458222.8624254186), (5, 2458222.9478168003), (6, 2458223.0322211445), (7, 2458223.1202004547), (8, 2458223.211770839), (9, 2458223.3000455885), (10, 2458223.3787625884), (11, 2458223.4494649624)]

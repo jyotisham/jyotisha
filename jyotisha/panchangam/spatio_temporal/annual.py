@@ -75,13 +75,13 @@ class Panchangam(common.JsonObject):
 
         self.weekday = [None] * temporal.MAX_SZ
         self.kaalas = [dict() for _x in range(temporal.MAX_SZ)]
-        daily_panchaangas = [None] * temporal.MAX_SZ
+        daily_panchaangas: List[daily.DailyPanchanga] = [None] * temporal.MAX_SZ
 
         # Computing solar month details for Dec 31
         # rather than Jan 1, since we have an always increment
         # solar_month_day at the start of the loop across every day in
         # year
-        daily_panchangam_start = daily.Panchangam(city=self.city, year=self.year - 1, month=12, day=31, ayanamsha_id=self.ayanamsha_id)
+        daily_panchangam_start = daily.DailyPanchanga(city=self.city, year=self.year - 1, month=12, day=31, ayanamsha_id=self.ayanamsha_id)
         daily_panchangam_start.compute_solar_day()
         self.solar_month[1] = daily_panchangam_start.solar_month
         solar_month_day = daily_panchangam_start.solar_month_day
@@ -103,7 +103,7 @@ class Panchangam(common.JsonObject):
             # TODO: Eventually, we are shifting to an array of daily panchangas. Reason: Better modularity.
             # The below block is temporary code to make the transition seamless.
             (year_d, month_d, day_d, _) = swe.revjul(self.jd_start_utc + d)
-            daily_panchaangas[d + 1] = daily.Panchangam(city=self.city, year=year_d, month=month_d, day=day_d, ayanamsha_id=self.ayanamsha_id, previous_day_panchangam=daily_panchaangas[d])
+            daily_panchaangas[d + 1] = daily.DailyPanchanga(city=self.city, year=year_d, month=month_d, day=day_d, ayanamsha_id=self.ayanamsha_id, previous_day_panchangam=daily_panchaangas[d])
             daily_panchaangas[d + 1].compute_sun_moon_transitions(previous_day_panchangam=daily_panchaangas[d])
             daily_panchaangas[d + 1].compute_solar_month()
             self.jd_midnight[d + 1] = daily_panchaangas[d + 1].julian_day_start
@@ -1556,6 +1556,7 @@ def get_panchangam(city, year, script, compute_lagnams=False, precomputed_json_d
         # Festival data may be updated more frequently and a precomputed panchangam may go out of sync. Hence we keep this method separate.
         panchangam.update_festival_details()
         return panchangam
+
 
 
 if __name__ == '__main__':
