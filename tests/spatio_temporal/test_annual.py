@@ -19,7 +19,7 @@ logging.basicConfig(
 TEST_DATA_PATH = os.path.join(os.path.dirname(__file__), 'data')
 
 
-def test_panchanga_chennai():
+def test_panchanga_chennai_18():
   panchangam_expected_chennai_18 = JsonObject.read_from_file(filename=os.path.join(TEST_DATA_PATH, 'Chennai-2018.json'))
   city = City('Chennai', "13:05:24", "80:16:12", "Asia/Calcutta")
   panchangam = annual.Panchangam(city=city, year=2018, script=sanscript.DEVANAGARI, ayanamsha_id=swe.SIDM_LAHIRI, compute_lagnams=False)
@@ -28,6 +28,8 @@ def test_panchanga_chennai():
     panchangam_expected_chennai_18.dump_to_file(filename=os.path.join(TEST_DATA_PATH, 'Chennai-2018-expected.json.local'), floating_point_precision=4)
   assert str(panchangam) == str(panchangam_expected_chennai_18)
 
+
+def test_panchanga_chennai_19():
   panchangam_expected_chennai_19 = JsonObject.read_from_file(filename=os.path.join(TEST_DATA_PATH, 'Chennai-2019.json'))
   city = City('Chennai', "13:05:24", "80:16:12", "Asia/Calcutta")
   panchangam = annual.Panchangam(city=city, year=2019, script=sanscript.DEVANAGARI, ayanamsha_id=swe.SIDM_LAHIRI, compute_lagnams=False)
@@ -92,7 +94,7 @@ def test_orinda_ca_dst_2019():
 
 
 if __name__ == '__main__':
-  test_panchanga_chennai()
+  test_panchanga_chennai_19()
   test_panchanga_orinda()
   test_adhika_maasa_computations()
   test_orinda_ca_dst_2019()
