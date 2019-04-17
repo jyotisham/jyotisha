@@ -209,10 +209,11 @@ class DailyPanchanga(common.JsonObject):
             return lcalc / 30
 
         else:
-            if (debug):
-                print('offset:', offset)
-                print('lcalc/30', lcalc / 30)
-                print('lcalc/30 + offset = ', lcalc / 30 + offset)
+            if debug:
+                logging.debug(debug)
+                logging.debug(('offset:', offset))
+                logging.debug(('lcalc/30', lcalc / 30))
+                logging.debug(('lcalc/30 + offset = ', lcalc / 30 + offset))
 
             # The max expected value is somewhere between 2 and -2, with bracketing
 
@@ -249,9 +250,9 @@ class DailyPanchanga(common.JsonObject):
         for lagna in lagna_list:
             # print('---\n', lagna)
             if (debug):
-                print('lagna sunrise', self.get_lagna_float(self.jd_sunrise))
-                print('lbrack', self.get_lagna_float(lbrack, int(-lagna)))
-                print('rbrack', self.get_lagna_float(rbrack, int(-lagna)))
+                logging.debug(('lagna sunrise', self.get_lagna_float(self.jd_sunrise)))
+                logging.debug(('lbrack', self.get_lagna_float(lbrack, int(-lagna))))
+                logging.debug(('rbrack', self.get_lagna_float(rbrack, int(-lagna))))
 
             lagna_end_time = brentq(self.get_lagna_float, lbrack, rbrack,
                                     args=(-lagna, debug))

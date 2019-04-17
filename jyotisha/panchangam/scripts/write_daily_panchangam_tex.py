@@ -119,10 +119,10 @@ def writeDailyTeX(panchangam, template_file, compute_lagnams=True, output_stream
                                  (rashi_data_str, rashi,
                                   jyotisha.panchangam.temporal.Time(24 * (rashi_end_jd - jd)).toString(format=panchangam.fmt))
         if compute_lagnams:
-            lagna_data_str = 'लग्नः–'
+            lagna_data_str = 'लग्नम्–'
             for lagna_ID, lagna_end_jd in panchangam.lagna_data[d]:
                 lagna = jyotisha.panchangam.temporal.NAMES['RASHI_NAMES'][panchangam.script][lagna_ID]
-                lagna_data_str = '%s \\mbox{%s \\RIGHTarrow \\textsf{%s}}' % \
+                lagna_data_str = '%s\\mbox{%s\\RIGHTarrow\\textsf{%s}} ' % \
                                  (lagna_data_str, lagna,
                                   jyotisha.panchangam.temporal.Time(24 * (lagna_end_jd - jd)).toString(format=panchangam.fmt))
 
@@ -226,11 +226,11 @@ def writeDailyTeX(panchangam, template_file, compute_lagnams=True, output_stream
                                                                      sayamsandhya, sayamsandhya_end,
                                                                      ratriyama1, sayana_time, dinanta), file=output_stream)
         if compute_lagnams:
-            print('{\\tnykdata{%s}%%\n{%s}{%s}%%\n{%s}%%\n{%s}{\\tiny %s}\n}'
+            print('{\\tnykdata{%s}%%\n{%s}{%s}%%\n{%s}%%\n{%s}{\\scriptsize %s}\n}'
                   % (tithi_data_str, nakshatram_data_str, rashi_data_str, yogam_data_str,
                      karanam_data_str, lagna_data_str), file=output_stream)
         else:
-            print('{\\tnykdata{%s}%%\n{%s}{%s}%%\n{%s}%%\n{%s}{\\tiny %s}\n}'
+            print('{\\tnykdata{%s}%%\n{%s}{%s}%%\n{%s}%%\n{%s}{\\scriptsize %s}\n}'
                   % (tithi_data_str, nakshatram_data_str, rashi_data_str, yogam_data_str,
                      karanam_data_str, ''), file=output_stream)
         print('{\\rygdata{%s}{%s}{%s}}' % (rahu, yama, gulika), file=output_stream)
