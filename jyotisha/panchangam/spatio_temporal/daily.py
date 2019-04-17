@@ -273,6 +273,7 @@ class DailyPanchanga(common.JsonObject):
         RAHUKALA_OCTETS = [7, 1, 6, 4, 5, 3, 2]
         GULIKAKALA_OCTETS = [6, 5, 4, 3, 2, 1, 0]
         self.kaalas = {
+            'braahma': temporal.get_kaalas(self.jd_previous_sunset, self.jd_sunrise, 13, 15),
             'prAtaH sandhyA': temporal.get_kaalas(self.jd_previous_sunset, self.jd_sunrise, 14, 15),
             'prAtaH sandhyA end': temporal.get_kaalas(self.jd_sunrise, self.jd_sunset, 4, 15),
             'prAtah': temporal.get_kaalas(self.jd_sunrise, self.jd_sunset, 0, 5),

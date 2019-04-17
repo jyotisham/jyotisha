@@ -163,6 +163,7 @@ def writeDailyTeX(panchangam, template_file, compute_lagnams=True, output_stream
         moonrise = jyotisha.panchangam.temporal.Time(24 * (panchangam.jd_moonrise[d] - jd)).toString(format=panchangam.fmt)
         moonset = jyotisha.panchangam.temporal.Time(24 * (panchangam.jd_moonset[d] - jd)).toString(format=panchangam.fmt)
 
+        braahma = jyotisha.panchangam.temporal.Time(24 * (panchangam.kaalas[d]['braahma'][0] - jd)).toString(format=panchangam.fmt)
         pratahsandhya = jyotisha.panchangam.temporal.Time(24 * (panchangam.kaalas[d]['prAtaH sandhyA'][0] - jd)).toString(format=panchangam.fmt)
         pratahsandhya_end = jyotisha.panchangam.temporal.Time(24 * (panchangam.kaalas[d]['prAtaH sandhyA end'][0] - jd)).toString(format=panchangam.fmt)
         sangava = jyotisha.panchangam.temporal.Time(24 * (panchangam.kaalas[d]['saGgava'][0] - jd)).toString(format=panchangam.fmt)
@@ -219,7 +220,7 @@ def writeDailyTeX(panchangam, template_file, compute_lagnams=True, output_stream
         else:
           print('{\\sunmoondata{%s}{%s}{%s}{%s}' % (sunrise, sunset, moonrise, moonset), file=output_stream)
 
-        print('{\kalas{%s %s %s %s %s %s %s %s %s %s %s %s %s}}}' % (pratahsandhya, pratahsandhya_end,
+        print('{\kalas{%s %s %s %s %s %s %s %s %s %s %s %s %s %s}}}' % (braahma, pratahsandhya, pratahsandhya_end,
                                                                      sangava,
                                                                      madhyahnika_sandhya, madhyahnika_sandhya_end,
                                                                      madhyaahna, aparahna, sayahna,

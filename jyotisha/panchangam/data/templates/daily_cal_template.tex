@@ -1,7 +1,7 @@
 % !Tex program = xelatex
 \documentclass[12pt]{article}
 \usepackage[dvipsnames]{xcolor} 
-\usepackage[paperwidth=126mm,paperheight=168mm,left=2mm,right=2mm,top=8mm,bottom=2mm]{geometry}
+\usepackage[paperwidth=126mm,paperheight=168mm,left=2mm,right=2mm,top=8mm,bottom=1mm]{geometry}
 \usepackage[xetex]{graphicx}
 \usepackage{array}
 \usepackage{multirow}
@@ -127,9 +127,9 @@
 \newcommand{\kalas}[1]{%
 \setsepchar{ }
 \readlist\arg{#1}
-{\small{\mbox{सङ्गव-कालः \textsf{\arg[3]}{\scriptsize\RIGHTarrow} मध्याह्न \textsf{\arg[6]}{\scriptsize\RIGHTarrow} अपराह्ण \textsf{\arg[7]}{\scriptsize\RIGHTarrow} सायाह्न \textsf{\arg[8]}{\scriptsize\RIGHTarrow}} \hfill शयन \textsf{\arg[11]}{\scriptsize\RIGHTarrow}\textsf{\arg[12]}}}\\[-1ex]
-{\small{\mbox{प्रातः सन्ध्या \textsf{\arg[1]}{\scriptsize\RIGHTarrow}\textsf{\arg[2]} माध्याह्निक \textsf{\arg[4]}{\scriptsize\RIGHTarrow}\textsf{\arg[5]} 
-सायं \textsf{\arg[9]}{\scriptsize\RIGHTarrow}\textsf{\arg[10]}}\hfill {दिनान्तः{\scriptsize\RIGHTarrow}\textsf{\arg[13]}}}\\[-4.5ex]}
+{\small{\mbox{ब्राह्म\,\textsf{\arg[1]}{\scriptsize\RIGHTarrow}\,सङ्गव\,\textsf{\arg[4]}{\scriptsize\RIGHTarrow}\,मध्याह्न\,\textsf{\arg[7]}{\scriptsize\RIGHTarrow}\,अपराह्ण\,\textsf{\arg[8]}{\scriptsize\RIGHTarrow}\,सायाह्न\,\textsf{\arg[9]}{\scriptsize\RIGHTarrow}}\hfill {दिनान्तः{\scriptsize\RIGHTarrow}\textsf{\arg[14]}}}}\\[-1ex]
+{\small{\mbox{प्रातः सन्ध्या \textsf{\arg[2]}{\scriptsize\RIGHTarrow}\textsf{\arg[3]} माध्याह्निक \textsf{\arg[5]}{\scriptsize\RIGHTarrow}\textsf{\arg[6]} 
+सायं \textsf{\arg[10]}{\scriptsize\RIGHTarrow}\textsf{\arg[11]}}\hfill शयन \textsf{\arg[12]}{\scriptsize\RIGHTarrow}\textsf{\arg[13]}}\\[-4.5ex]}
 }
 \newcommand{\sunmoondata}[5]{%
 \mbox{\large\sun{\small\UParrow}\textsf{#1}~\sun{\small\DOWNarrow}\textsf{#2}}\hfill
