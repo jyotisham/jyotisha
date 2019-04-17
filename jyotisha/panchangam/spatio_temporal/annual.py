@@ -181,7 +181,7 @@ class Panchangam(common.JsonObject):
             self.karanam_data[d] = daily_panchaangas[d].karanam_data
             self.rashi_data[d] = daily_panchaangas[d].rashi_data
             if compute_lagnams:
-                self.lagna_data[d] = daily_panchaangas[d].get_lagna_data(self.jd_sunrise[d])
+                self.lagna_data[d] = daily_panchaangas[d].get_lagna_data()
 
     def assignLunarMonths(self):
         last_d_assigned = 0
