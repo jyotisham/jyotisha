@@ -64,6 +64,8 @@ def writeDailyTeX(panchangam, template_file, compute_lagnams=True, output_stream
     print('\\end{center}', file=output_stream)
     print('\\clearpage', file=output_stream)
 
+    panchangam.get_kaalas()
+
     for d in range(1, jyotisha.panchangam.temporal.MAX_SZ - 1):
 
         [y, m, dt, t] = swe.revjul(panchangam.jd_start_utc + d - 1)
@@ -162,6 +164,7 @@ def writeDailyTeX(panchangam, template_file, compute_lagnams=True, output_stream
         sunset = jyotisha.panchangam.temporal.Time(24 * (panchangam.jd_sunset[d] - jd)).toString(format=panchangam.fmt)
         moonrise = jyotisha.panchangam.temporal.Time(24 * (panchangam.jd_moonrise[d] - jd)).toString(format=panchangam.fmt)
         moonset = jyotisha.panchangam.temporal.Time(24 * (panchangam.jd_moonset[d] - jd)).toString(format=panchangam.fmt)
+
 
         braahma = jyotisha.panchangam.temporal.Time(24 * (panchangam.kaalas[d]['braahma'][0] - jd)).toString(format=panchangam.fmt)
         pratahsandhya = jyotisha.panchangam.temporal.Time(24 * (panchangam.kaalas[d]['prAtaH sandhyA'][0] - jd)).toString(format=panchangam.fmt)
