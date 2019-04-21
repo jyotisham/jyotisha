@@ -1,5 +1,5 @@
-## Vaidhṛti-Śrāddhaḥ
-वैधृति-श्राद्धः is observed on  of every solar month (aparaahna/puurvaviddha).
+## Vaidhṛti-Śrāddham
+वैधृति-श्राद्धम् is observed on  of every solar month (aparaahna/puurvaviddha).
 
 _Monthly Vaidhrti Shraddha day._
 

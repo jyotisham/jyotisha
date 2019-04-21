@@ -8848,7 +8848,7 @@
         "description": {
             "en": "Monthly Vyatipata Shraddha day."
         },
-        "id": "vyatIpAta-zrAddhaH",
+        "id": "vyatIpAta-zrAddham",
         "jsonClass": "HinduCalendarEventOld",
         "kaala": "aparaahna",
         "month_number": 0,
@@ -8862,7 +8862,7 @@
         "description": {
             "en": "Monthly Vaidhrti Shraddha day."
         },
-        "id": "vaidhRti-zrAddhaH",
+        "id": "vaidhRti-zrAddham",
         "jsonClass": "HinduCalendarEventOld",
         "kaala": "aparaahna",
         "month_number": 0,
