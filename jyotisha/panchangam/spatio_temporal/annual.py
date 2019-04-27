@@ -1288,6 +1288,9 @@ class Panchangam(common.JsonObject):
             logging.error('tripurOtsavaH not in self.fest_days!')
         else:
             if self.fest_days['tripurOtsavaH'] != self.fest_days['mahA~kArtikI']:
+                logging.debug(self.fest_days['tripurOtsavaH'])
+                logging.debug(self.fest_days['mahA~kArtikI'])
+                logging.warning('Removing mahA~kArtikI')
                 del self.fest_days['mahA~kArtikI']
                 # An error here implies the festivals were not assigned: adhika
                 # mAsa calc errors??
@@ -1334,11 +1337,64 @@ class Panchangam(common.JsonObject):
                 self.festivals[self.fest_days[festival_name][j]].append(festival_name)
 
         # def check_festivals(self):
+        last_day_yr = (datetime(self.year + 1, 1, 1) - datetime(self.year, 1, 1)).days
+        solar_month_9_tithis = []
+        solar_month_9_nakshatrams = []
+        for d in range(1, last_day_yr + 1):
+            if self.solar_month[d] == 9:
+                for [n, n_end] in self.nakshatram_data[d]:
+                    solar_month_9_nakshatrams.append(n)
+                for [t, t_end] in self.tithi_data[d]:
+                    solar_month_9_tithis.append(t)
+        lunar_month_9_tithis = []
+        lunar_month_9_nakshatrams = []
+        for d in range(1, last_day_yr + 1):
+            if self.lunar_month[d] == 9:
+                for [n, n_end] in self.nakshatram_data[d]:
+                    lunar_month_9_nakshatrams.append(n)
+                for [t, t_end] in self.tithi_data[d]:
+                    lunar_month_9_tithis.append(t)
+        lunar_month_10_tithis = []
+        lunar_month_10_nakshatrams = []
+        for d in range(1, last_day_yr + 1):
+            if self.lunar_month[d] == 10:
+                for [n, n_end] in self.nakshatram_data[d]:
+                    lunar_month_10_nakshatrams.append(n)
+                for [t, t_end] in self.tithi_data[d]:
+                    lunar_month_10_tithis.append(t)
+
         festival_rules = read_old_festival_rules_dict(os.path.join(CODE_ROOT, 'panchangam/data/festival_rules.json'))
         for festival_name in festival_rules:
             result = [(key, value) for key, value in self.fest_days.items() if key.startswith(festival_name)]
             if len(result) == 0:
-                logging.warning('Unable to assign day for %s' % festival_name)
+                if festival_rules[festival_name]['month_type'] == 'lunar_month':
+                    if festival_rules[festival_name]['angam_type'] == 'nakshatram':
+                        if festival_rules[festival_name]['month_number'] == 9:
+                            if festival_rules[festival_name]['angam_number'] not in lunar_month_9_nakshatrams:
+                                logging.warning('No occurrence of %s in this calendar year!' % festival_name)
+                        elif festival_rules[festival_name]['month_number'] == 10:
+                            if festival_rules[festival_name]['angam_number'] not in lunar_month_10_nakshatrams:
+                                logging.warning('No occurrence of %s in this calendar year!' % festival_name)
+                        else:
+                            logging.warning('Unable to assign day for %s' % festival_name)
+                    elif festival_rules[festival_name]['angam_type'] == 'tithi':
+                        if festival_rules[festival_name]['month_number'] == 9:
+                            if festival_rules[festival_name]['angam_number'] not in lunar_month_9_tithis:
+                                logging.warning('No occurrence of %s in this calendar year!' % festival_name)
+                        elif festival_rules[festival_name]['month_number'] == 10:
+                            if festival_rules[festival_name]['angam_number'] not in lunar_month_10_tithis:
+                                logging.warning('No occurrence of %s in this calendar year!' % festival_name)
+                        else:
+                            logging.warning('Unable to assign day for %s' % festival_name)
+                elif festival_rules[festival_name]['month_type'] == 'solar_month':
+                    if festival_rules[festival_name]['angam_type'] == 'nakshatram':
+                        if festival_rules[festival_name]['angam_number'] not in solar_month_9_nakshatrams:
+                            logging.warning('No occurrence of %s in this calendar year!' % festival_name)
+                    elif festival_rules[festival_name]['angam_type'] == 'tithi':
+                        if festival_rules[festival_name]['angam_number'] not in solar_month_9_tithis:
+                            logging.warning('No occurrence of %s in this calendar year!' % festival_name)
+
+                # logging.debug((festival_rules[festival_name], self.tithi_sunrise[last_day_yr], self.lunar_month[last_day_yr], self.nakshatram_sunrise[last_day_yr], self.solar_month[1]))
 
     def compute_solar_eclipses(self):
         # Set location
