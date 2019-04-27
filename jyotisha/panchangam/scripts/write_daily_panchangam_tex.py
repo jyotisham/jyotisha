@@ -128,21 +128,21 @@ def writeDailyTeX(panchangam, template_file, compute_lagnams=True, output_stream
                                  (lagna_data_str, lagna,
                                   jyotisha.panchangam.temporal.Time(24 * (lagna_end_jd - jd)).toString(format=panchangam.fmt))
 
-        yogam_data_str = ''
-        for yogam_ID, yogam_end_jd in panchangam.yogam_data[d]:
-            # if yogam_data_str != '':
-            #     yogam_data_str += '\\hspace{1ex}'
-            yogam = jyotisha.panchangam.temporal.NAMES['YOGAM_NAMES'][panchangam.script][yogam_ID]
-            if yogam_end_jd is None:
-                yogam_data_str = '%s\\mbox{%s\\To{}%s}' % \
-                                 (yogam_data_str, yogam, jyotisha.custom_transliteration.tr('ahOrAtram', panchangam.script))
+        yoga_data_str = ''
+        for yoga_ID, yoga_end_jd in panchangam.yoga_data[d]:
+            # if yoga_data_str != '':
+            #     yoga_data_str += '\\hspace{1ex}'
+            yoga = jyotisha.panchangam.temporal.NAMES['YOGA_NAMES'][panchangam.script][yoga_ID]
+            if yoga_end_jd is None:
+                yoga_data_str = '%s\\mbox{%s\\To{}%s}' % \
+                                 (yoga_data_str, yoga, jyotisha.custom_transliteration.tr('ahOrAtram', panchangam.script))
             else:
-                yogam_data_str = '%s\\mbox{%s\\To{}\\textsf{%s%s}}' % \
-                                 (yogam_data_str, yogam,
-                                  jyotisha.panchangam.temporal.Time(24 * (yogam_end_jd - jd)).toString(format=panchangam.fmt),
+                yoga_data_str = '%s\\mbox{%s\\To{}\\textsf{%s%s}}' % \
+                                 (yoga_data_str, yoga,
+                                  jyotisha.panchangam.temporal.Time(24 * (yoga_end_jd - jd)).toString(format=panchangam.fmt),
                                   '\\hspace{1ex}')
-        if yogam_end_jd is not None:
-            yogam_data_str += '\\mbox{%s\\Too{}}' % (jyotisha.panchangam.temporal.NAMES['YOGAM_NAMES'][panchangam.script][(yogam_ID % 27) + 1])
+        if yoga_end_jd is not None:
+            yoga_data_str += '\\mbox{%s\\Too{}}' % (jyotisha.panchangam.temporal.NAMES['YOGA_NAMES'][panchangam.script][(yoga_ID % 27) + 1])
 
         karanam_data_str = ''
         for numKaranam, (karanam_ID, karanam_end_jd) in enumerate(panchangam.karanam_data[d]):
@@ -231,11 +231,11 @@ def writeDailyTeX(panchangam, template_file, compute_lagnams=True, output_stream
                                                                      ratriyama1, sayana_time, dinanta), file=output_stream)
         if compute_lagnams:
             print('{\\tnykdata{%s}%%\n{%s}{%s}%%\n{%s}%%\n{%s}{\\scriptsize %s}\n}'
-                  % (tithi_data_str, nakshatram_data_str, rashi_data_str, yogam_data_str,
+                  % (tithi_data_str, nakshatram_data_str, rashi_data_str, yoga_data_str,
                      karanam_data_str, lagna_data_str), file=output_stream)
         else:
             print('{\\tnykdata{%s}%%\n{%s}{%s}%%\n{%s}%%\n{%s}{\\scriptsize %s}\n}'
-                  % (tithi_data_str, nakshatram_data_str, rashi_data_str, yogam_data_str,
+                  % (tithi_data_str, nakshatram_data_str, rashi_data_str, yoga_data_str,
                      karanam_data_str, ''), file=output_stream)
         print('{\\rygdata{%s}{%s}{%s}}' % (rahu, yama, gulika), file=output_stream)
 

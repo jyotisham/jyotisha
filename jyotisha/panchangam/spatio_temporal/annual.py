@@ -67,8 +67,8 @@ class Panchangam(common.JsonObject):
         self.tithi_sunrise = [None] * temporal.MAX_SZ
         self.nakshatram_data = [None] * temporal.MAX_SZ
         self.nakshatram_sunrise = [None] * temporal.MAX_SZ
-        self.yogam_data = [None] * temporal.MAX_SZ
-        self.yogam_sunrise = [None] * temporal.MAX_SZ
+        self.yoga_data = [None] * temporal.MAX_SZ
+        self.yoga_sunrise = [None] * temporal.MAX_SZ
         self.karanam_data = [None] * temporal.MAX_SZ
         self.rashi_data = [None] * temporal.MAX_SZ
 
@@ -176,8 +176,8 @@ class Panchangam(common.JsonObject):
             self.tithi_sunrise[d] = daily_panchaangas[d].tithi_at_sunrise
             self.nakshatram_data[d] = daily_panchaangas[d].nakshatram_data
             self.nakshatram_sunrise[d] = daily_panchaangas[d].nakshatram_at_sunrise
-            self.yogam_data[d] = daily_panchaangas[d].yogam_data
-            self.yogam_sunrise[d] = daily_panchaangas[d].yogam_at_sunrise
+            self.yoga_data[d] = daily_panchaangas[d].yoga_data
+            self.yoga_sunrise[d] = daily_panchaangas[d].yoga_at_sunrise
             self.karanam_data[d] = daily_panchaangas[d].karanam_data
             self.rashi_data[d] = daily_panchaangas[d].rashi_data
             if compute_lagnams:
@@ -830,7 +830,7 @@ class Panchangam(common.JsonObject):
 
             # AYUSHMAN BAVA SAUMYA
             if self.weekday[d] == 3 and temporal.get_angam(self.jd_sunrise[d],
-                                                           temporal.YOGAM,
+                                                           temporal.YOGA,
                                                            ayanamsha_id=self.ayanamsha_id) == 3:
                 if temporal.get_angam(self.jd_sunrise[d], temporal.KARANAM,
                                       ayanamsha_id=self.ayanamsha_id) in list(range(2, 52, 7)):
@@ -839,7 +839,7 @@ class Panchangam(common.JsonObject):
             # VYATIPATAM
             if temporal.get_yoga(self.jd_sunrise[d], ayanamsha_id=self.ayanamsha_id) == 17 and \
                     self.solar_month[d] in [6, 9]:
-                yogams_yest = self.get_angams_for_kaalas(d - 1, temporal.get_yoga, 'madhyaahna')
+                yogas_yest = self.get_angams_for_kaalas(d - 1, temporal.get_yoga, 'madhyaahna')
                 if self.solar_month[d] == 9:
                     festival_name = 'mahAdhanurvyatIpAtam'
                 elif self.solar_month[d] == 6:
@@ -847,7 +847,7 @@ class Panchangam(common.JsonObject):
                 else:
                     # Can be used later, for marking Shannavati Tarpana days
                     festival_name = 'vyatIpAtam'
-                if yogams_yest[0] == 17 or yogams_yest[1] == 17:
+                if yogas_yest[0] == 17 or yogas_yest[1] == 17:
                     self.add_festival(festival_name, d - 1, debug_festivals)
                 else:
                     self.add_festival(festival_name, d, debug_festivals)
@@ -936,7 +936,7 @@ class Panchangam(common.JsonObject):
                     if self.weekday[d] == 6:
                         vtr_name = 'mahA' + vtr_name
                         if temporal.get_angam(self.jd_sunrise[d],
-                                              temporal.YOGAM,
+                                              temporal.YOGA,
                                               ayanamsha_id=self.ayanamsha_id) == 23:
                             pref = 'mahA' + vtr_name
                     self.add_festival(vtr_name, d, debug_festivals)
@@ -953,7 +953,7 @@ class Panchangam(common.JsonObject):
             # 4th pada of vyatipatam, 1st pada of Amavasya, 2nd pada of Shravana, Suryodaya, Bhanuvasara = Ardhodayam
             # 4th pada of vyatipatam, 1st pada of Amavasya, 2nd pada of Shravana, Suryodaya, Somavasara = Mahodayam
             if self.lunar_month[d] in [10, 11] and self.tithi_sunrise[d] == 30 or temporal.get_tithi(self.jd_sunset[d], ayanamsha_id=self.ayanamsha_id) == 30:
-                if (temporal.get_angam(self.jd_sunrise[d], temporal.YOGAM, ayanamsha_id=self.ayanamsha_id) == 17 or temporal.get_angam(self.jd_sunset[d], temporal.YOGAM, ayanamsha_id=self.ayanamsha_id) == 17) and \
+                if (temporal.get_angam(self.jd_sunrise[d], temporal.YOGA, ayanamsha_id=self.ayanamsha_id) == 17 or temporal.get_angam(self.jd_sunset[d], temporal.YOGA, ayanamsha_id=self.ayanamsha_id) == 17) and \
                         (temporal.get_angam(self.jd_sunrise[d], temporal.NAKSHATRAM, ayanamsha_id=self.ayanamsha_id) == 22 or temporal.get_angam(self.jd_sunset[d], temporal.NAKSHATRAM, ayanamsha_id=self.ayanamsha_id) == 22):
                     if self.weekday[d] == 1:
                         festival_name = 'mahOdaya-puNyakAlaH'
@@ -970,7 +970,7 @@ class Panchangam(common.JsonObject):
             # व्यतीपाताख्ययोगोऽयं शतार्कग्रहसन्निभः ॥
             # “In Mahabharata, if on a Sunday, Amavasya and one of the stars –
             # Sravanam, Asvini, Avittam, Tiruvadirai or Ayilyam, occurs, then it is called ‘Vyatipatam’.
-            # This Vyatipata yogam is equal to a hundred Surya grahanas in merit.”
+            # This Vyatipata yoga is equal to a hundred Surya grahanas in merit.”
             tithi_sunset = temporal.get_angam(self.jd_sunset[d], temporal.TITHI, ayanamsha_id=self.ayanamsha_id)
             if self.weekday[d] == 0 and (self.tithi_sunrise[d] == 30 or tithi_sunset == 30):
                 # AMAVASYA on a Sunday
@@ -1115,8 +1115,8 @@ class Panchangam(common.JsonObject):
                         angam_sunrise = self.nakshatram_sunrise
                         get_angam_func = temporal.get_nakshatram
                         num_angams = 27
-                    elif angam_type == 'yogam':
-                        angam_sunrise = self.yogam_sunrise
+                    elif angam_type == 'yoga':
+                        angam_sunrise = self.yoga_sunrise
                         get_angam_func = temporal.get_yoga
                         num_angams = 27
                     else:

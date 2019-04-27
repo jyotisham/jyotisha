@@ -184,18 +184,18 @@ def writeMonthlyTeX(panchangam, template_file):
                                                                                jd)).toString(format=panchangam.fmt),
                                        '\\hspace{2ex}')
 
-        yogam_data_str = ''
-        for yogam_ID, yogam_end_jd in panchangam.yogam_data[d]:
-            # if yogam_data_str != '':
-            #     yogam_data_str += '\\hspace{2ex}'
-            yogam = jyotisha.panchangam.temporal.NAMES['YOGAM_NAMES'][panchangam.script][yogam_ID]
-            if yogam_end_jd is None:
-                yogam_data_str = '%s\\mbox{%s\\To{}%s}' % \
-                                 (yogam_data_str, yogam, jyotisha.custom_transliteration.tr('ahOrAtram', panchangam.script))
+        yoga_data_str = ''
+        for yoga_ID, yoga_end_jd in panchangam.yoga_data[d]:
+            # if yoga_data_str != '':
+            #     yoga_data_str += '\\hspace{2ex}'
+            yoga = jyotisha.panchangam.temporal.NAMES['YOGA_NAMES'][panchangam.script][yoga_ID]
+            if yoga_end_jd is None:
+                yoga_data_str = '%s\\mbox{%s\\To{}%s}' % \
+                                 (yoga_data_str, yoga, jyotisha.custom_transliteration.tr('ahOrAtram', panchangam.script))
             else:
-                yogam_data_str = '%s\\mbox{%s\\To{}\\textsf{%s%s}}' % \
-                                 (yogam_data_str, yogam,
-                                  jyotisha.panchangam.temporal.Time(24 * (yogam_end_jd - jd)).toString(format=panchangam.fmt),
+                yoga_data_str = '%s\\mbox{%s\\To{}\\textsf{%s%s}}' % \
+                                 (yoga_data_str, yoga,
+                                  jyotisha.panchangam.temporal.Time(24 * (yoga_end_jd - jd)).toString(format=panchangam.fmt),
                                   '\\hspace{2ex}')
 
         karanam_data_str = ''
@@ -244,7 +244,7 @@ def writeMonthlyTeX(panchangam, template_file):
                                                                  jyotisha.panchangam.temporal.NAMES, panchangam.script)))
             month_text += '\n' + ('{\\sundata{%s}{%s}{%s}}%%' % (sunrise, sunset, sangava))
             month_text += '\n' + ('{\\tnyk{%s}%%\n{%s}%%\n{%s}%%\n{%s}}%%' % (tithi_data_str, nakshatram_data_str,
-                                                              yogam_data_str, karanam_data_str))
+                                                              yoga_data_str, karanam_data_str))
             month_text += '\n' + ('{\\rahuyama{%s}{%s}}%%' % (rahu, yama))
 
             # Using set as an ugly workaround since we may have sometimes assigned the same
@@ -259,7 +259,7 @@ def writeMonthlyTeX(panchangam, template_file):
                                                                  jyotisha.panchangam.temporal.NAMES, panchangam.script)))
                 W6D1 += '\n' + ('{\\sundata{%s}{%s}{%s}}%%' % (sunrise, sunset, sangava))
                 W6D1 += '\n' + ('{\\tnyk{%s}%%\n{%s}%%\n{%s}%%\n{%s}}%%' % (tithi_data_str, nakshatram_data_str,
-                                                                  yogam_data_str, karanam_data_str))
+                                                                  yoga_data_str, karanam_data_str))
                 W6D1 += '\n' + ('{\\rahuyama{%s}{%s}}%%' % (rahu, yama))
 
                 # Using set as an ugly workaround since we may have sometimes assigned the same
@@ -273,7 +273,7 @@ def writeMonthlyTeX(panchangam, template_file):
                                                                  jyotisha.panchangam.temporal.NAMES, panchangam.script)))
                 W6D2 += '\n' + ('{\\sundata{%s}{%s}{%s}}%%' % (sunrise, sunset, sangava))
                 W6D2 += '\n' + ('{\\tnyk{%s}%%\n{%s}%%\n{%s}%%\n{%s}}%%' % (tithi_data_str, nakshatram_data_str,
-                                                                  yogam_data_str, karanam_data_str))
+                                                                  yoga_data_str, karanam_data_str))
                 W6D2 += '\n' + ('{\\rahuyama{%s}{%s}}%%' % (rahu, yama))
 
                 # Using set as an ugly workaround since we may have sometimes assigned the same

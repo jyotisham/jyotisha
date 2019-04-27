@@ -58,8 +58,8 @@ class DailyPanchanga(common.JsonObject):
         self.tithi_at_sunrise = None
         self.nakshatram_data = None
         self.nakshatram_at_sunrise = None
-        self.yogam_data = None
-        self.yogam_at_sunrise = None
+        self.yoga_data = None
+        self.yoga_at_sunrise = None
         self.karanam_data = None
         self.rashi_data = None
 
@@ -119,8 +119,8 @@ class DailyPanchanga(common.JsonObject):
         self.tithi_at_sunrise = self.tithi_data[0][0]
         self.nakshatram_data = temporal.get_angam_data(self.jd_sunrise, self.jd_next_sunrise, temporal.NAKSHATRAM, ayanamsha_id=self.ayanamsha_id)
         self.nakshatram_at_sunrise = self.nakshatram_data[0][0]
-        self.yogam_data = temporal.get_angam_data(self.jd_sunrise, self.jd_next_sunrise, temporal.YOGAM, ayanamsha_id=self.ayanamsha_id)
-        self.yogam_at_sunrise = self.yogam_data[0][0]
+        self.yoga_data = temporal.get_angam_data(self.jd_sunrise, self.jd_next_sunrise, temporal.YOGA, ayanamsha_id=self.ayanamsha_id)
+        self.yoga_at_sunrise = self.yoga_data[0][0]
         self.karanam_data = temporal.get_angam_data(self.jd_sunrise, self.jd_next_sunrise, temporal.KARANAM, ayanamsha_id=self.ayanamsha_id)
         self.rashi_data = temporal.get_angam_data(self.jd_sunrise, self.jd_next_sunrise, temporal.RASHI, ayanamsha_id=self.ayanamsha_id)
 

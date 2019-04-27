@@ -36,7 +36,7 @@ class HinduCalendarEventTiming(common.JsonObject):
       },
       "angam_type": {
         "type": "string",
-        "enum": ["tithi", "nakshatram", "yogam", "day"],
+        "enum": ["tithi", "nakshatram", "yoga", "day"],
         "description": "",
       },
       "angam_number": {

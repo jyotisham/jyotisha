@@ -28,7 +28,7 @@ TITHI_PADA = {'id': 'TITHI_PADA', 'arc_len': 360.0 / 120.0, 'w_moon': 1, 'w_sun'
 NAKSHATRAM = {'id': 'NAKSHATRAM', 'arc_len': 360.0 / 27.0, 'w_moon': 1, 'w_sun': 0}
 NAKSHATRA_PADA = {'id': 'NAKSHATRA_PADA', 'arc_len': 360.0 / 108.0, 'w_moon': 1, 'w_sun': 0}
 RASHI = {'id': 'RASHI', 'arc_len': 360.0 / 12.0, 'w_moon': 1, 'w_sun': 0}
-YOGAM = {'id': 'YOGAM', 'arc_len': 360.0 / 27.0, 'w_moon': 1, 'w_sun': 1}
+YOGA = {'id': 'YOGA', 'arc_len': 360.0 / 27.0, 'w_moon': 1, 'w_sun': 1}
 KARANAM = {'id': 'KARANAM', 'arc_len': 360.0 / 60.0, 'w_moon': 1, 'w_sun': -1}
 SOLAR_MONTH = {'id': 'SOLAR_MONTH', 'arc_len': 360.0 / 12.0, 'w_moon': 0, 'w_sun': 1}
 SOLAR_NAKSH = {'id': 'SOLAR_NAKSH', 'arc_len': 360.0 / 27.0, 'w_moon': 0, 'w_sun': 1}
@@ -115,7 +115,7 @@ def get_yoga(jd, ayanamsha_id=swe.SIDM_LAHIRI):
       8
     """
 
-    return get_angam(jd, YOGAM, ayanamsha_id=ayanamsha_id)
+    return get_angam(jd, YOGA, ayanamsha_id=ayanamsha_id)
 
 
 def get_solar_rashi(jd, ayanamsha_id=swe.SIDM_LAHIRI):
@@ -145,7 +145,7 @@ def get_angam_float(jd, angam_type, offset=0, ayanamsha_id=swe.SIDM_LAHIRI, debu
       Args:
         float jd: The Julian Day at which the angam is to be computed
         angam_type: One of the pre-defined constants in the panchangam
-        class, such as TITHI, NAKSHATRAM, YOGAM, KARANAM or SOLAR_MONTH
+        class, such as TITHI, NAKSHATRAM, YOGA, KARANAM or SOLAR_MONTH
 
       Returns:
         float angam
@@ -266,7 +266,7 @@ def get_angam(jd, angam_type, ayanamsha_id=swe.SIDM_LAHIRI):
       >>> get_angam(2444961.7125,TITHI)
       28
 
-      >>> get_angam(2444961.7125,YOGAM)
+      >>> get_angam(2444961.7125,YOGA)
       8
 
       >>> get_angam(2444961.7125,KARANAM)
@@ -278,7 +278,7 @@ def get_angam(jd, angam_type, ayanamsha_id=swe.SIDM_LAHIRI):
 
 
 def get_all_angas(jd, ayanamsha_id=swe.SIDM_LAHIRI):
-  anga_objects = [TITHI, TITHI_PADA, NAKSHATRAM, NAKSHATRA_PADA, RASHI, SOLAR_MONTH, SOLAR_NAKSH, YOGAM, KARANAM]
+  anga_objects = [TITHI, TITHI_PADA, NAKSHATRAM, NAKSHATRA_PADA, RASHI, SOLAR_MONTH, SOLAR_NAKSH, YOGA, KARANAM]
   angas = list(map(lambda anga_object: get_angam(jd=jd, angam_type=anga_object, ayanamsha_id=ayanamsha_id), anga_objects))
   anga_ids = list(map(lambda anga_obj: anga_obj["id"], anga_objects))
   return dict(list(zip(anga_ids, angas)))
@@ -300,13 +300,13 @@ def print_angas_x_ayanamshas(jd):
 
 
 def get_angam_span(jd1, jd2, angam_type, target, ayanamsha_id=swe.SIDM_LAHIRI, debug=False):
-    """Computes angam spans for angams such as tithi, nakshatram, yogam
+    """Computes angam spans for angams such as tithi, nakshatram, yoga
         and karanam.
 
         Args:
           jd1: return the first span that starts after this date
           jd2: return the first span that ends before this date
-          angam_type: TITHI, NAKSHATRAM, YOGAM, KARANAM, SOLAR_MONTH, SOLAR_NAKSH
+          angam_type: TITHI, NAKSHATRAM, YOGA, KARANAM, SOLAR_MONTH, SOLAR_NAKSH
 
         Returns:
           tuple: A tuple of start and end times that lies within jd1 and jd2
@@ -386,11 +386,11 @@ def get_angam_span(jd1, jd2, angam_type, target, ayanamsha_id=swe.SIDM_LAHIRI, d
 
 
 def get_angam_data(jd_sunrise, jd_sunrise_tmrw, angam_type, ayanamsha_id=swe.SIDM_LAHIRI):
-    """Computes angam data for angams such as tithi, nakshatram, yogam
+    """Computes angam data for angams such as tithi, nakshatram, yoga
     and karanam.
 
     Args:
-      angam_type: TITHI, NAKSHATRAM, YOGAM, KARANAM, SOLAR_MONTH, SOLAR_NAKSH
+      angam_type: TITHI, NAKSHATRAM, YOGA, KARANAM, SOLAR_MONTH, SOLAR_NAKSH
 
 
     Returns:
@@ -404,7 +404,7 @@ def get_angam_data(jd_sunrise, jd_sunrise_tmrw, angam_type, ayanamsha_id=swe.SID
       [(27, 2444961.599213231)]
       >>> get_angam_data(2444961.54042,2444962.54076,NAKSHATRAM)
       [(16, 2444961.7487953394)]
-      >>> get_angam_data(2444961.54042,2444962.54076,YOGAM)
+      >>> get_angam_data(2444961.54042,2444962.54076,YOGA)
       [(8, 2444962.1861976916)]
       >>> get_angam_data(2444961.54042,2444962.54076,KARANAM)
       [(54, 2444961.599213231), (55, 2444962.15444546)]

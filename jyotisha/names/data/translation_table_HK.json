@@ -32,7 +32,7 @@
   "SAMVATSARA_NAMES": {
     "hk": ["prabhava", "vibhava", "zukla", "pramOda", "prajApati", "AGgirasa", "zrImukha", "bhAva", "yuva", "dhAtR", "Izvara", "bahudhAnya", "pramAdhi", "vikrama", "vRSa", "citrabhAnu", "svabhAnu", "tAraNa", "pArthiva", "vyaya", "sarvajit", "sarvadhArI", "virOdhI", "vikRti", "khara", "nandana", "vijaya", "jaya", "manmatha", "durmukhI", "hEvilambI", "vilambI", "vikArI", "zArvarI", "plava", "zubhakRt", "zObhakRt", "krOdhI", "vizvAvasu", "parAbhava", "plavaGga", "kIlaka", "saumya", "sAdhAraNa", "virOdhikRti", "paridhAvI", "pramAdIca", "Ananda", "rAkSasa", "nala", "piGgala", "kAlayukti", "siddhArthI", "raudra", "durmati", "dundubhi", "rudhirOdgArI", "raktAkSI", "krOdhana", "akSaya"]
   },
-  "YOGAM_NAMES": {
+  "YOGA_NAMES": {
     "hk": ["viSkambhaH", "prItiH", "AyuSmAn", "saubhAgyam", "zObhanaH", "atigaNDaH", "sukarma", "dhRtiH", "zUlaH", "gaNDaH", "vRddhiH", "dhruvaH", "vyAghAtaH", "harSaNaH", "vajraH", "siddhiH", "vyatIpAtaH", "varIyAn", "parighaH", "zivaH", "siddhaH", "sAdhyaH", "zubhaH", "zubhraH", "brAhmaH", "mAhEndraH", "vaidhRtiH"]
   },
   "AYANA_NAMES": {
