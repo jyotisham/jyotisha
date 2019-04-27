@@ -5,7 +5,7 @@
 
 ---
 ## Kāñchī 31 Jagadguru Śrī Brahmānandaghanendra Sarasvatī Ārādhanā
-काञ्ची ३१ जगद्गुरु श्री ब्रह्मानन्दघनेन्द्र सरस्वती आराधना is observed on Śukla-Dvādaśī tithi of Āṣāḍhaḥ (lunar) month (aparaahna/puurvaviddha).
+काञ्ची ३१ जगद्गुरु श्री ब्रह्मानन्दघनेन्द्र सरस्वती आराधना is observed on Śukla-Dvādaśī tithi of Āṣāḍhaḥ (lunar) month (aparaahna/paraviddha).
 
 ![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-31.jpg)
 
@@ -24,7 +24,7 @@ _Born on the banks of river Garuḍa (Kaḍilam in Tamil) in the Draviḍa deśa
 
 ---
 ## Kāñchī 63 Jagadguru Śrī Mahādevendra Sarasvatī 5 Ārādhanā
-काञ्ची ६३ जगद्गुरु श्री महादेवेन्द्र सरस्वती ५ आराधना is observed on Śukla-Dvādaśī tithi of Āṣāḍhaḥ (lunar) month (aparaahna/puurvaviddha).
+काञ्ची ६३ जगद्गुरु श्री महादेवेन्द्र सरस्वती ५ आराधना is observed on Śukla-Dvādaśī tithi of Āṣāḍhaḥ (lunar) month (aparaahna/paraviddha).
 
 ![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-63.jpg)
 

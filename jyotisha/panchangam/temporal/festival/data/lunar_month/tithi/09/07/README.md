@@ -1,5 +1,5 @@
 ## Kāñchī 5 Jagadguru Śrī Jñānānandendra Sarasvatī Ārādhanā
-काञ्ची ५ जगद्गुरु श्री ज्ञानानन्देन्द्र सरस्वती आराधना is observed on Śukla-Saptamī tithi of Mārgaśīrṣaḥ (lunar) month (aparaahna/puurvaviddha).
+काञ्ची ५ जगद्गुरु श्री ज्ञानानन्देन्द्र सरस्वती आराधना is observed on Śukla-Saptamī tithi of Mārgaśīrṣaḥ (lunar) month (aparaahna/paraviddha).
 
 ![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-05.jpg)
 

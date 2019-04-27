@@ -1,5 +1,5 @@
 ## Kāñchī 32 Jagadguru Śrī Chidānandaghanendra Sarasvatī Ārādhanā
-काञ्ची ३२ जगद्गुरु श्री चिदानन्दघनेन्द्र सरस्वती आराधना is observed on Śukla-Ṣaṣṭhī tithi of Mārgaśīrṣaḥ (lunar) month (aparaahna/puurvaviddha).
+काञ्ची ३२ जगद्गुरु श्री चिदानन्दघनेन्द्र सरस्वती आराधना is observed on Śukla-Ṣaṣṭhī tithi of Mārgaśīrṣaḥ (lunar) month (aparaahna/paraviddha).
 
 ![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-32.jpg)
 

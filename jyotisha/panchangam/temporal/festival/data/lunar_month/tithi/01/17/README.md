@@ -1,5 +1,5 @@
 ## Kāñchī 60 Jagadguru Śrī Advaitātmaprakāśendra Sarasvatī Ārādhanā
-काञ्ची ६० जगद्गुरु श्री अद्वैतात्मप्रकाशेन्द्र सरस्वती आराधना is observed on Kṛṣṇa-Dvitīyā tithi of Caitraḥ (lunar) month (aparaahna/puurvaviddha).
+काञ्ची ६० जगद्गुरु श्री अद्वैतात्मप्रकाशेन्द्र सरस्वती आराधना is observed on Kṛṣṇa-Dvitīyā tithi of Caitraḥ (lunar) month (aparaahna/paraviddha).
 
 ![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-60.jpg)
 

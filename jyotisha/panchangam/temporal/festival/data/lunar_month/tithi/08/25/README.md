@@ -1,5 +1,5 @@
 ## Kāñchī 28 Jagadguru Śrī Mahādevendra Sarasvatī 1 Ārādhanā
-काञ्ची २८ जगद्गुरु श्री महादेवेन्द्र सरस्वती १ आराधना is observed on Kṛṣṇa-Daśamī tithi of Kārtikaḥ (lunar) month (aparaahna/puurvaviddha).
+काञ्ची २८ जगद्गुरु श्री महादेवेन्द्र सरस्वती १ आराधना is observed on Kṛṣṇa-Daśamī tithi of Kārtikaḥ (lunar) month (aparaahna/paraviddha).
 
 ![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-28.jpg)
 

@@ -5,7 +5,7 @@
 
 ---
 ## Kāñchī 40 Jagadguru Śrī Mahādevendra Sarasvatī 2 Ārādhanā
-काञ्ची ४० जगद्गुरु श्री महादेवेन्द्र सरस्वती २ आराधना is observed on Śukla-Ṣaṣṭhī tithi of Vaiśākhaḥ (lunar) month (aparaahna/puurvaviddha).
+काञ्ची ४० जगद्गुरु श्री महादेवेन्द्र सरस्वती २ आराधना is observed on Śukla-Ṣaṣṭhī tithi of Vaiśākhaḥ (lunar) month (aparaahna/paraviddha).
 
 ![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-40.jpg)
 

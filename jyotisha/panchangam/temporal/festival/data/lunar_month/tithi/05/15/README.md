@@ -36,7 +36,7 @@ _World Sanskrit Day is celebrated on this day._
 
 ---
 ## Kāñchī 20 Jagadguru Śrī Mūkaśaṅkarendra Sarasvatī Ārādhanā
-काञ्ची २० जगद्गुरु श्री मूकशङ्करेन्द्र सरस्वती आराधना is observed on Paurṇamāsī tithi of Śrāvaṇaḥ (lunar) month (aparaahna/puurvaviddha).
+काञ्ची २० जगद्गुरु श्री मूकशङ्करेन्द्र सरस्वती आराधना is observed on Paurṇamāsī tithi of Śrāvaṇaḥ (lunar) month (aparaahna/paraviddha).
 
 ![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-20.jpg)
 

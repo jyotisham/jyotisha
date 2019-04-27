@@ -1,5 +1,5 @@
 ## Kāñchī 38 Jagadguru Śrī Abhinavaśaṅkarendra Sarasvatī Ārādhanā
-काञ्ची ३८ जगद्गुरु श्री अभिनवशङ्करेन्द्र सरस्वती आराधना is observed on Amāvāsyā tithi of Āṣāḍhaḥ (lunar) month (aparaahna/puurvaviddha).
+काञ्ची ३८ जगद्गुरु श्री अभिनवशङ्करेन्द्र सरस्वती आराधना is observed on Amāvāsyā tithi of Āṣāḍhaḥ (lunar) month (aparaahna/paraviddha).
 
 ![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-38.jpg)
 
@@ -32,7 +32,7 @@ _This preceptor was the son of Viśvajit of Cidambaram through viśiṣṭā; li
 
 ---
 ## Kāñchī 46 Jagadguru Śrī Sāndrānandabodhendra Sarasvatī Ārādhanā
-काञ्ची ४६ जगद्गुरु श्री सान्द्रानन्दबोधेन्द्र सरस्वती आराधना is observed on Amāvāsyā tithi of Āṣāḍhaḥ (lunar) month (aparaahna/puurvaviddha).
+काञ्ची ४६ जगद्गुरु श्री सान्द्रानन्दबोधेन्द्र सरस्वती आराधना is observed on Amāvāsyā tithi of Āṣāḍhaḥ (lunar) month (aparaahna/paraviddha).
 
 ![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-46.jpg)
 
