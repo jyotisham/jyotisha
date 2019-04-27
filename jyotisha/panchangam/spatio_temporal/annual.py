@@ -730,12 +730,10 @@ class Panchangam(common.JsonObject):
             if self.solar_month[d] == 1 and self.solar_month_day[d] == 10:
                 agni_jd_start, dummy = temporal.get_angam_span(
                     self.jd_sunrise[d], self.jd_sunrise[d] + 30,
-                    {'arc_len': 360.0 / 108.0, 'w_moon': 0, 'w_sun': 1}, 7, ayanamsha_id=self.ayanamsha_id)
-                # sys.stderr.write('Agni Start: %s\n' % revjul(agni_jd_start + (5.5 / 24.0)))
+                    temporal.SOLAR_NAKSH_PADA, 7, ayanamsha_id=self.ayanamsha_id)
                 dummy, agni_jd_end = temporal.get_angam_span(
                     agni_jd_start, agni_jd_start + 30,
-                    {'arc_len': 360.0 / 108.0, 'w_moon': 0, 'w_sun': 1}, 13, ayanamsha_id=self.ayanamsha_id)
-                # sys.stderr.write('Agni End: %s\n' % revjul(agni_jd_end + (5.5 / 24.0)))
+                    temporal.SOLAR_NAKSH_PADA, 13, ayanamsha_id=self.ayanamsha_id)
 
             if self.solar_month[d] == 1 and self.solar_month_day[d] > 10:
                 if self.jd_sunset[d] < agni_jd_start < self.jd_sunset[d + 1]:
