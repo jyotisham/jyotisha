@@ -372,9 +372,9 @@
         "angam_number": 3,
         "angam_type": "tithi",
         "description": {
-            "en": "Daanam of Dadhyodanam, Vyanjanam, Chatram, Paduka, Udaka Kumbham, Mangos, Jackfruit; Lakshmi Narayana Pooja; Gouri Pooja;"
+            "en": "Daanam of Dadhyodanam, Vyanjanam, Chatram, Paduka, Udaka Kumbham, Mangos, Jackfruit; Lakshmi Narayana Pooja; Gauri Pooja;"
         },
-        "id": "akSaya-tRtIyA",
+        "id": "akSayya-tRtIyA",
         "jsonClass": "HinduCalendarEventOld",
         "kaala": "madhyaahna",
         "month_number": 2,
@@ -382,6 +382,9 @@
         "priority": "puurvaviddha",
         "references_secondary": [
             "Kielhorn (1897)"
+        ],
+        "shlokas": [
+            "kanDUya pRSThatO gatvA gAM tu snAtvA pippala-tarpaNam.\nkRtvA govindamabhyarcya na durgatimavApnuyAt..\nchatrOpAnat pradAnaM vA gO-bhU-kAJcana-vAsasI.\nyadyadiSTatamaM cAnyattaddEyam avizaGkayA..\nyasyAM snAnaM japO hOmaH svAdhyAyaH pitRtarpaNam.\ndAnaM ca kriyatE kiJcittatsarvaM syAdihAkSayam.."
         ],
         "tags": "common-festivals"
     },
@@ -426,12 +429,16 @@
     {
         "angam_number": 3,
         "angam_type": "tithi",
-        "id": "parazurAma~jayantI~1",
+        "id": "parazurAma~jayantI",
         "jsonClass": "HinduCalendarEventOld",
         "kaala": "madhyaahna",
         "month_number": 2,
         "month_type": "lunar_month",
         "priority": "puurvaviddha",
+        "references_primary": ["Nirnaya Sindhu p.66"],
+        "shlokas": [
+            "vaizAkhasya sitE pakSE tRtIyAyAM punarvasau.\nnizAyAH prathamE yAmE rAmAkhyaH samayE hariH..\nsvOccagaiH SaDgrahairyuktE mithunE rAhusaMsthitE.\nrENukAyAstu yO garbhAdavatIrNO hariH svayam.."
+        ],
         "tags": "dashavataram"
     },
     {

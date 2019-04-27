@@ -1,0 +1,22 @@
+{
+  "id": "parazurAma~jayantI",
+  "jsonClass": "HinduCalendarEvent",
+  "priority": "puurvaviddha",
+  "references_primary": [
+    "Nirnaya Sindhu p.66"
+  ],
+  "shlokas": [
+    "vaizAkhasya sitE pakSE tRtIyAyAM punarvasau.\nnizAyAH prathamE yAmE rAmAkhyaH samayE hariH..\nsvOccagaiH SaDgrahairyuktE mithunE rAhusaMsthitE.\nrENukAyAstu yO garbhAdavatIrNO hariH svayam.."
+  ],
+  "tags": [
+    "dashavataram"
+  ],
+  "timing": {
+    "angam_number": 3,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "kaala": "madhyaahna",
+    "month_number": 2,
+    "month_type": "lunar_month"
+  }
+}

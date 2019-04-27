@@ -5526,13 +5526,24 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:अक्षय-तृतीया
+SUMMARY:अक्षय्य-तृतीया
 DTSTART;VALUE=DATE:20190507
 DTEND;VALUE=DATE:20190508
 DESCRIPTION:Daanam of Dadhyodanam\, Vyanjanam\, Chatram\, Paduka\, Udaka K
- umbham\, Mangos\, Jackfruit\; Lakshmi Narayana Pooja\; Gouri Pooja\;\n\nht
- tps://github.com/sanskrit-coders/jyotisha/tree/master/jyotisha/panchangam/
- temporal/festival/data/lunar_month/tithi/02/03#akṣaya-tṛtīyā
+ umbham\, Mangos\, Jackfruit\; Lakshmi Narayana Pooja\; Gauri Pooja\;\n\n
+ कन्डूय पृष्ठतो गत्वा गां तु 
+ स्नात्वा पिप्पल-तर्पणम्।\nक
+ ृत्वा गॊविन्दमभ्यर्च्य न द
+ ुर्गतिमवाप्नुयात्॥\nछत्रोप
+ ानत् प्रदानं वा गो-भू-काञ्चन
+ -वाससी।\nयद्यदिष्टतमं चान्य
+ त्तद्देयम् अविशङ्कया॥\nयस्
+ यां स्नानं जपो होमः स्वाध्य
+ ायः पितृतर्पणम्।\nदानं च क्र
+ ियते किञ्चित्तत्सर्वं स्या
+ दिहाक्षयम्॥\n\n\n\nhttps://github.com/sanskrit-coder
+ s/jyotisha/tree/master/jyotisha/panchangam/temporal/festival/data/lunar_mo
+ nth/tithi/02/03#akṣayya-tṛtīyā
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5575,9 +5586,15 @@ BEGIN:VEVENT
 SUMMARY:परशुराम जयन्ती
 DTSTART;VALUE=DATE:20190507
 DTEND;VALUE=DATE:20190508
-DESCRIPTION:https://github.com/sanskrit-coders/jyotisha/tree/master/jyotis
- ha/panchangam/temporal/festival/data/lunar_month/tithi/02/03#paraśurāma-
- jayantī
+DESCRIPTION:वैशाखस्य सिते पक्षे तृ
+ तीयायां पुनर्वसौ।\nनिशायाः 
+ प्रथमे यामे रामाख्यः समये ह
+ रिः॥\nस्वोच्चगैः षड्ग्रहैर
+ ्युक्ते मिथुने राहुसंस्थित
+ े।\nरेणुकायास्तु यो गर्भादव
+ तीर्णो हरिः स्वयम्॥\n\n\n\nhttps://githu
+ b.com/sanskrit-coders/jyotisha/tree/master/jyotisha/panchangam/temporal/fe
+ stival/data/lunar_month/tithi/02/03#paraśurāma-jayantī
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
