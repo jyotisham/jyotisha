@@ -4,12 +4,15 @@
   },
   "id": "akSayya-tRtIyA",
   "jsonClass": "HinduCalendarEvent",
-  "priority": "puurvaviddha",
+  "priority": "paraviddha",
+  "references_primary": [
+    "Nirnaya Sindhu p.71"
+  ],
   "references_secondary": [
     "Kielhorn (1897)"
   ],
   "shlokas": [
-    "kanDUya pRSThatO gatvA gAM tu snAtvA pippala-tarpaNam.\nkRtvA govindamabhyarcya na durgatimavApnuyAt..\nchatrOpAnat pradAnaM vA gO-bhU-kAJcana-vAsasI.\nyadyadiSTatamaM cAnyattaddEyam avizaGkayA..\nyasyAM snAnaM japO hOmaH svAdhyAyaH pitRtarpaNam.\ndAnaM ca kriyatE kiJcittatsarvaM syAdihAkSayam.."
+    "kaNDUya pRSThatO gAM tu snAtvA pippala-tarpaNam.\nkRtvA govindamabhyarcya na durgatimavApnuyAt..\nchatrOpAnat pradAnaM vA gO-bhU-kAJcana-vAsasI.\nyadyadiSTatamaM cAnyattaddEyam avizaGkayA..\nyasyAM snAnaM japO hOmaH svAdhyAyaH pitRtarpaNam.\ndAnaM ca kriyatE kiJcittatsarvaM syAdihAkSayam.."
   ],
   "tags": [
     "common-festivals"

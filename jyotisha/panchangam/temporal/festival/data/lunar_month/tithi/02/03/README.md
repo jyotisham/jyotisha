@@ -1,10 +1,10 @@
 ## Akṣayya-Tṛtīyā
-अक्षय्य-तृतीया is observed on Śukla-Tṛtīyā tithi of Vaiśākhaḥ (lunar) month (madhyaahna/puurvaviddha).
+अक्षय्य-तृतीया is observed on Śukla-Tṛtīyā tithi of Vaiśākhaḥ (lunar) month (madhyaahna/paraviddha).
 
 _Daanam of Dadhyodanam, Vyanjanam, Chatram, Paduka, Udaka Kumbham, Mangos, Jackfruit; Lakshmi Narayana Pooja; Gauri Pooja;_
 
 ```
-कन्डूय पृष्ठतो गत्वा गां तु स्नात्वा पिप्पल-तर्पणम्।
+कण्डूय पृष्ठतो गां तु स्नात्वा पिप्पल-तर्पणम्।
 कृत्वा गॊविन्दमभ्यर्च्य न दुर्गतिमवाप्नुयात्॥
 छत्रोपानत् प्रदानं वा गो-भू-काञ्चन-वाससी।
 यद्यदिष्टतमं चान्यत्तद्देयम् अविशङ्कया॥
@@ -12,7 +12,7 @@ _Daanam of Dadhyodanam, Vyanjanam, Chatram, Paduka, Udaka Kumbham, Mangos, Jackf
 दानं च क्रियते किञ्चित्तत्सर्वं स्यादिहाक्षयम्॥
 ```
 ### References
-* Kielhorn (1897)
+* Nirnaya Sindhu p.71
 
 
 ---
