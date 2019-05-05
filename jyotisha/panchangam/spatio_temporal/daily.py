@@ -111,7 +111,7 @@ class DailyPanchanga(common.JsonObject):
                 rsmi=CALC_RISE)[1][0]
         if force_recomputation or self.jd_moonset is None:
             self.jd_moonset = swe.rise_trans(
-                jd_start=self.jd_moonrise, body=swe.MOON,
+                jd_start=self.jd_sunrise, body=swe.MOON,
                 lon=self.city.longitude, lat=self.city.latitude,
                 rsmi=CALC_SET)[1][0]
 

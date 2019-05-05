@@ -131,9 +131,14 @@
 {\small{\mbox{प्रातः सन्ध्या \textsf{\arg[2]}{\scriptsize\RIGHTarrow}\textsf{\arg[3]} माध्याह्निक \textsf{\arg[5]}{\scriptsize\RIGHTarrow}\textsf{\arg[6]} 
 सायं \textsf{\arg[10]}{\scriptsize\RIGHTarrow}\textsf{\arg[11]}}\hfill शयन \textsf{\arg[12]}{\scriptsize\RIGHTarrow}\textsf{\arg[13]}}\\[-4.5ex]}
 }
-\newcommand{\sunmoondata}[5]{%
+\newcommand{\sunmoonrsdata}[5]{%
 \mbox{\large\sun{\small\UParrow}\textsf{#1}~\sun{\small\DOWNarrow}\textsf{#2}}\hfill
 \mbox{\large\rightmoon{\small\UParrow}\textsf{#3}~\rightmoon{\small\DOWNarrow}\textsf{#4}}\\
+#5
+ }
+\newcommand{\sunmoonsrdata}[5]{%
+\mbox{\large\sun{\small\UParrow}\textsf{#1}~\sun{\small\DOWNarrow}\textsf{#2}}\hfill
+\mbox{\large\rightmoon{\small\DOWNarrow}\textsf{#4}~\rightmoon{\small\UParrow}\textsf{#3}}\\
 #5
  }
 \newcommand{\tnykdata}[6]{\large
