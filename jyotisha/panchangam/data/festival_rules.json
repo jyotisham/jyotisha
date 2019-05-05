@@ -8456,6 +8456,36 @@
         "tags": "mahapurusha-events"
     },
     {
+        "angam_number": 1,
+        "angam_type": "tithi",
+        "description": {
+            "en": "`vaizAkha-mAsaH` begins today --- special for various `dAnam`'s such as buttermilk, `pAnakam` etc. Brings unlimited `puNyam`!"
+        },
+        "id": "vaizAkha-mAsa-ArambhaH",
+        "jsonClass": "HinduCalendarEventOld",
+        "month_number": 2,
+        "month_type": "lunar_month",
+        "shlokas": [
+            "vaizAkhE mAsiyOdadyAttakraMtApavinAzanam..41..\nvidyAvAndhanavAnbhUmau jAyatE nAtra saMzayaH ..\nna takrasadRzaM dAnaM gharmakAlESu vidyatE..42..\ntasmAttakraM pradAtavyamadhvazrAMtadvijAtayE ..\njaMbIrasurasOpEtaM lasallavaNamizritam..43..\nyastakramarucighnaMtudattvAmOkSamavApnuyAt ..\nyO dadyAddadhikhaMDaMtuvaizAkhEgharmazAMtayE..44..\ntasya puNyaphalaM vaktuM nAhaM zaknOmi bhUmipa ..\nyO dadyAttaMDulAndivyAnmadhusUdanavallabhE..45..\nsa labhEtpUrNamAyuSyaM sarvayajJaphalaM labhEt ..\nyO ghRtaM tEjasO rUpaM gavyaM dadyAddvijAtayE ..\nsO'zvamEdhaphalaM prApya mOdatE viSNumaMdirE..46..\nurvAruguDasaMmizraM vaizAkhE mESagE ravau ..\nsarvapApavinirmuktaH zvEtadvIpE vasEddhruvam..47..\nyazcEkSudaMDaM sAyAhnE divA tApOpazAntayE ..\nbrAhmaNAyacayOdadyAttasya puNyamanaMtakam..48..\nvaizAkhE pAnakaM dattvA sAyAhnE zramazAntayE ..\nsarvapApavinirmuktO viSNOH sAyujyamApnuyAt ..49..\nsaphalaM pAnakaM mESamAsE sAyaM dvijAtayE ..\ndadyAttEna pitRRNAMtusudhApAnaMnasaMzayaH.50..\nvaizAkhE pAnakaM cUtasupakvaphalasaMyutam ..\ntasya sarvANi pApAni vinAzaM yAMti nizcitam..51..\n-- skandapurANE dvitIyE vaiSNavakhaNDE vaizAkhamAhAtmyE tRtIyE adhyAyE"
+        ],
+        "references_primary": [
+            "Skanda Puranam"
+        ],
+        "tags": "special-days,special-period-start"
+    },
+    {
+        "angam_number": 30,
+        "angam_type": "tithi",
+        "description": {
+            "en": "`vaizAkha-mAsaH` ends today"
+        },
+        "id": "vaizAkha-mAsa-samApanam",
+        "jsonClass": "HinduCalendarEventOld",
+        "month_number": 2,
+        "month_type": "lunar_month",
+        "tags": "special-days,special-period-end"
+    },
+    {
         "angam_number": 30,
         "angam_type": "tithi",
         "id": "zuka~maharSi~jayantI",

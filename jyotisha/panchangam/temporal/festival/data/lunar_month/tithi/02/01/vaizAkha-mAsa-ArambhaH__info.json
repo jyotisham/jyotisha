@@ -1,0 +1,24 @@
+{
+  "description": {
+    "en": "`vaizAkha-mAsaH` begins today --- special for various `dAnam`'s such as buttermilk, `pAnakam` etc. Brings unlimited `puNyam`!"
+  },
+  "id": "vaizAkha-mAsa-ArambhaH",
+  "jsonClass": "HinduCalendarEvent",
+  "references_primary": [
+    "Skanda Puranam"
+  ],
+  "shlokas": [
+    "vaizAkhE mAsiyOdadyAttakraMtApavinAzanam..41..\nvidyAvAndhanavAnbhUmau jAyatE nAtra saMzayaH ..\nna takrasadRzaM dAnaM gharmakAlESu vidyatE..42..\ntasmAttakraM pradAtavyamadhvazrAMtadvijAtayE ..\njaMbIrasurasOpEtaM lasallavaNamizritam..43..\nyastakramarucighnaMtudattvAmOkSamavApnuyAt ..\nyO dadyAddadhikhaMDaMtuvaizAkhEgharmazAMtayE..44..\ntasya puNyaphalaM vaktuM nAhaM zaknOmi bhUmipa ..\nyO dadyAttaMDulAndivyAnmadhusUdanavallabhE..45..\nsa labhEtpUrNamAyuSyaM sarvayajJaphalaM labhEt ..\nyO ghRtaM tEjasO rUpaM gavyaM dadyAddvijAtayE ..\nsO'zvamEdhaphalaM prApya mOdatE viSNumaMdirE..46..\nurvAruguDasaMmizraM vaizAkhE mESagE ravau ..\nsarvapApavinirmuktaH zvEtadvIpE vasEddhruvam..47..\nyazcEkSudaMDaM sAyAhnE divA tApOpazAntayE ..\nbrAhmaNAyacayOdadyAttasya puNyamanaMtakam..48..\nvaizAkhE pAnakaM dattvA sAyAhnE zramazAntayE ..\nsarvapApavinirmuktO viSNOH sAyujyamApnuyAt ..49..\nsaphalaM pAnakaM mESamAsE sAyaM dvijAtayE ..\ndadyAttEna pitRRNAMtusudhApAnaMnasaMzayaH.50..\nvaizAkhE pAnakaM cUtasupakvaphalasaMyutam ..\ntasya sarvANi pApAni vinAzaM yAMti nizcitam..51..\n-- skandapurANE dvitIyE vaiSNavakhaNDE vaizAkhamAhAtmyE tRtIyE adhyAyE"
+  ],
+  "tags": [
+    "special-days",
+    "special-period-start"
+  ],
+  "timing": {
+    "angam_number": 1,
+    "angam_type": "tithi",
+    "jsonClass": "HinduCalendarEventTiming",
+    "month_number": 2,
+    "month_type": "lunar_month"
+  }
+}

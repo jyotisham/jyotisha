@@ -1,6 +1,15 @@
 {
+  "description": {
+    "en": "On Chaitra Amavasya, who gives a pot filled with `pAnakam`, he has indeed performed a hundred `gayAzrAddham`! He also gets the benefit of performing `SaNNavatizrAddham`!"
+  },
   "id": "caitra-amAvasyA",
   "jsonClass": "HinduCalendarEvent",
+  "references_primary": [
+    "Skanda Puranam"
+  ],
+  "shlokas": [
+    "yO dadyAccaitradarzE tu kumbhaM pUrNaM tu pAnakaiH.\ngayAzrAddhazataM tEna kRtamEva na saMzayaH..52..\nkastUrI karpurOpEtaM mallikOzIrasaMyutam.\nkalazaM pAnakaiH pUrNaM caitradarzE tu mAnavaH.\ndadyAtpitRRnsamuddizya sa SaNNavatidO bhavEt..53..\n-- skandapurANE dvitIyE vaiSNavakhaNDE vaizAkhamAhAtmyE tRtIyE adhyAyE"
+  ],
   "tags": [
     "amavasya-days"
   ],
