@@ -18,3 +18,4 @@ config_local.json
 *.iml
 *.local
 jyotisha/panchangam/data/festival_rules_test.json
+tests/update_test_json.py
