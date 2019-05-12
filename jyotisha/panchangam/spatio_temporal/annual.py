@@ -469,7 +469,7 @@ class Panchangam(common.JsonObject):
                     else:
                         harivasara_end = brentq(temporal.get_angam_float, self.jd_sunrise[smaarta_ekadashi_fday] - 2, self.jd_sunrise[smaarta_ekadashi_fday] + 2, args=(temporal.TITHI_PADA, -105, self.ayanamsha_id, False))
                     [_y, _m, _d, _t] = swe.revjul(harivasara_end + (tz_off / 24.0))
-                    hariv_end_time = temporal.Time(swe.revjul(harivasara_end + (tz_off / 24.0))[3]).toString()
+                    hariv_end_time = temporal.Time(swe.revjul(harivasara_end + (tz_off / 24.0))[3]).toString(format=self.fmt)
                     fday_hv = swe.julday(_y, _m, _d, 0) - self.jd_start_utc + 1
                     self.festivals[int(fday_hv)].append('harivAsaraH\\textsf{%s}{\\RIGHTarrow}\\textsf{%s}' % ('', hariv_end_time))
 
@@ -716,7 +716,7 @@ class Panchangam(common.JsonObject):
                 ayana_jd_start = brentq(jyotisha.zodiac.get_nirayana_sun_lon, self.jd_sunrise[d],
                                         self.jd_sunrise[d] + 15, args=(-30 * self.solar_month[d], False))
                 [_y, _m, _d, _t] = swe.revjul(ayana_jd_start + (tz_off / 24.0))
-                ayana_time = temporal.Time(swe.revjul(ayana_jd_start + (tz_off / 24.0))[3]).toString()
+                ayana_time = temporal.Time(swe.revjul(ayana_jd_start + (tz_off / 24.0))[3]).toString(format=self.fmt)
                 fday_nirayana = swe.julday(_y, _m, _d, 0) - self.jd_start_utc + 1
                 self.festivals[int(fday_nirayana)].append('%s\\textsf{%s}{\\RIGHTarrow}\\textsf{%s}' % (
                     temporal.NAMES['NIRAYANA_NAMES'][self.script][self.solar_month[d]], '', ayana_time))
@@ -793,14 +793,14 @@ class Panchangam(common.JsonObject):
                     gc_28_end += tz_off / 24.0
                     # sys.stderr.write('28: (%f, %f)\n' % (gc_28_start, gc_28_end))
                     gc_28_d = 1 + floor(gc_28_start - self.jd_start_utc)
-                    t1 = temporal.Time(swe.revjul(gc_28_start)[3]).toString()
+                    t1 = temporal.Time(swe.revjul(gc_28_start)[3]).toString(format=self.fmt)
 
                     if floor(gc_28_end - 0.5) != floor(gc_28_start - 0.5):
                         # -0.5 is for the fact that julday is zero at noon always, not midnight!
                         offset = 24
                     else:
                         offset = 0
-                    t2 = temporal.Time(swe.revjul(gc_28_end)[3] + offset).toString()
+                    t2 = temporal.Time(swe.revjul(gc_28_end)[3] + offset).toString(format=self.fmt)
                     # sys.stderr.write('gajacchhaya %d\n' % gc_28_d)
 
                     self.fest_days['gajacchAyA-yOgaH' +
@@ -812,13 +812,13 @@ class Panchangam(common.JsonObject):
                     gc_30_end += tz_off / 24.0
                     # sys.stderr.write('30: (%f, %f)\n' % (gc_30_start, gc_30_end))
                     gc_30_d = 1 + floor(gc_30_start - self.jd_start_utc)
-                    t1 = temporal.Time(swe.revjul(gc_30_start)[3]).toString()
+                    t1 = temporal.Time(swe.revjul(gc_30_start)[3]).toString(format=self.fmt)
 
                     if floor(gc_30_end - 0.5) != floor(gc_30_start - 0.5):
                         offset = 24
                     else:
                         offset = 0
-                    t2 = temporal.Time(swe.revjul(gc_30_end)[3] + offset).toString()
+                    t2 = temporal.Time(swe.revjul(gc_30_end)[3] + offset).toString(format=self.fmt)
                     # sys.stderr.write('gajacchhaya %d\n' % gc_30_d)
 
                     self.fest_days['gajacchAyA-yOgaH' +
@@ -1436,9 +1436,9 @@ class Panchangam(common.JsonObject):
                 if eclipse_solar_end > sunset_eclipse_day:
                     eclipse_solar_end = sunset_eclipse_day
                 solar_eclipse_str = 'sUrya-grahaNam' + \
-                                    '~\\textsf{' + temporal.Time(eclipse_solar_start).toString() + \
+                                    '~\\textsf{' + temporal.Time(eclipse_solar_start).toString(format=self.fmt) + \
                                     '}{\\RIGHTarrow}\\textsf{' + temporal.Time(
-                    eclipse_solar_end).toString() + '}'
+                    eclipse_solar_end).toString(format=self.fmt) + '}'
                 if self.weekday[fday] == 0:
                     solar_eclipse_str = '★cUDAmaNi-' + solar_eclipse_str
                 self.festivals[fday].append(solar_eclipse_str)
@@ -1514,8 +1514,8 @@ class Panchangam(common.JsonObject):
                     grasta = 'kEtugrasta'
 
                 lunar_eclipse_str = 'candra-grahaNam~(' + grasta + ')' + \
-                                    '~\\textsf{' + temporal.Time(eclipse_lunar_start).toString() + \
-                                    '}{\\RIGHTarrow}\\textsf{' + temporal.Time(eclipse_lunar_end).toString() + '}'
+                                    '~\\textsf{' + temporal.Time(eclipse_lunar_start).toString(format=self.fmt) + \
+                                    '}{\\RIGHTarrow}\\textsf{' + temporal.Time(eclipse_lunar_end).toString(format=self.fmt) + '}'
                 if self.weekday[fday] == 1:
                     lunar_eclipse_str = '★cUDAmaNi-' + lunar_eclipse_str
 
@@ -1609,7 +1609,7 @@ common.update_json_class_index(sys.modules[__name__])
 # logging.debug(common.json_class_index)
 
 
-def get_panchangam(city, year, script, compute_lagnams=False, precomputed_json_dir="~/Documents"):
+def get_panchangam(city, year, script, fmt='hh:mm', compute_lagnams=False, precomputed_json_dir="~/Documents"):
     fname_det = os.path.expanduser('%s/%s-%s-detailed.json' % (precomputed_json_dir, city.name, year))
     fname = os.path.expanduser('%s/%s-%s.json' % (precomputed_json_dir, city.name, year))
 
@@ -1622,7 +1622,7 @@ def get_panchangam(city, year, script, compute_lagnams=False, precomputed_json_d
         return JsonObject.read_from_file(filename=fname_det)
     else:
         sys.stderr.write('No precomputed data available. Computing panchangam...\n')
-        panchangam = Panchangam(city=city, year=year, script=script, compute_lagnams=compute_lagnams)
+        panchangam = Panchangam(city=city, year=year, script=script, fmt=fmt, compute_lagnams=compute_lagnams)
         sys.stderr.write('Writing computed panchangam to %s...\n' % fname)
 
         try:
@@ -1639,7 +1639,6 @@ def get_panchangam(city, year, script, compute_lagnams=False, precomputed_json_d
         return panchangam
 
 
-
 if __name__ == '__main__':
     city = spatio_temporal.City('Chennai', "13:05:24", "80:16:12", "Asia/Calcutta")
-    panchangam = Panchangam(city=city, year=2019, script=sanscript.DEVANAGARI, ayanamsha_id=swe.SIDM_LAHIRI, compute_lagnams=False)
+    panchangam = Panchangam(city=city, year=2019, script=sanscript.DEVANAGARI, ayanamsha_id=swe.SIDM_LAHIRI, fmt='hh:mm', compute_lagnams=False)

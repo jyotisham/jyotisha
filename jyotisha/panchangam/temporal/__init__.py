@@ -55,19 +55,22 @@ class Time(JsonObject):
         hour = secs // 3600
         secs = secs % 3600
 
-        if hour >= 24:
-            hour -= 24
-            suffix = '(+1)'
+        suffix = default_suffix
+        if format[-1] == '*':
+          if hour >= 24:
+              suffix = '*'
         else:
-            suffix = default_suffix
+          if hour >= 24:
+              hour -= 24
+              suffix = '(+1)'  # Default notation for times > 23:59
 
-        minute = secs // 60
+        minute = secs // 60  # Warning: This rounds down. 20:00:59 also becomes 20:00
         secs = secs % 60
         second = secs
 
-        if format == 'hh:mm':
+        if format in ('hh:mm', 'hh:mm*'):
             return '%02d:%02d%s' % (hour, minute, suffix)
-        elif format == 'hh:mm:ss':
+        elif format in ('hh:mm:ss', 'hh:mm:ss*'):
             return '%02d:%02d:%02d%s' % (hour, minute, second, suffix)
         else:
             raise Exception("""Unknown format""")

@@ -264,18 +264,25 @@ def main():
 
     compute_lagnams = False  # Default
     script = sanscript.DEVANAGARI  # Default script is devanagari
+    fmt = 'hh:mm'
 
-    if len(sys.argv) == 8:
+    if len(sys.argv) == 9:
         compute_lagnams = True
+        fmt = sys.argv[7]
         script = sys.argv[6]
+    elif len(sys.argv) == 8:
+        script = sys.argv[6]
+        fmt = sys.argv[7]
+        compute_lagnams = False
     elif len(sys.argv) == 7:
         script = sys.argv[6]
         compute_lagnams = False
 
     city = City(city_name, latitude, longitude, tz)
 
-    panchangam = jyotisha.panchangam.spatio_temporal.annual.get_panchangam(city=city, year=year, script=script, compute_lagnams=compute_lagnams)
-    panchangam.script = script  # Force script
+    panchangam = jyotisha.panchangam.spatio_temporal.annual.get_panchangam(city=city, year=year, script=script, fmt=fmt, compute_lagnams=compute_lagnams)
+    panchangam.script = script  # Force script irrespective of what was obtained from saved file
+    panchangam.fmt = fmt  # Force fmt
 
     panchangam.update_festival_details()
 
