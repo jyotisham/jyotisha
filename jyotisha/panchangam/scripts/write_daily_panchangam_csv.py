@@ -29,11 +29,11 @@ CODE_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
 
 def getName(text, script):
   translation = {'candrAstaH': 'சந்த்ராஸ்தமனம்',
-                 'candrodayaH': 'சந்த்ரோதயம்',
+                 'candrOdayaH': 'சந்த்ரோதயம்',
                  'cAndramAnam': 'சாந்த்ரமானம்',
                  'tithiH': 'திதி',
                  'nakSatram': 'நக்ஷத்ரம்',
-                 'yogaH': 'யோகம்',
+                 'yOgaH': 'யோகம்',
                  'mAsaH': 'மாஸம்',
                  'karaNam': 'கரணம்',
                  'rAzI': 'ராஶீ',
@@ -41,12 +41,13 @@ def getName(text, script):
                  'candrASTamam': 'சந்த்ராஷ்டமம்',
                  'zUlam': 'ஶூலம்',
                  'vAsaraH': 'வாஸரம்',
-                 'vizeSAH': 'விஶேஷங்கள்',
+                 'vizESAH': 'விஶேஷங்கள்',
                  'saMvatsaraH': 'ஸம்வத்ஸரம்',
                  'sUryAstaH': 'ஸூர்யாஸ்தமனம்',
-                 'sUryodayaH': 'ஸூர்யோதயம்',
+                 'sUryOdayaH': 'ஸூர்யோதயம்',
                  'sauramAnam': 'ஸௌரமானம்',
                  'Azauca dinAntaH': 'ஆஶௌச தினாந்தம்',
+                 'aparAhNa-vyAptiH': 'அபராஹ்ண-வ்யாப்திஃ',
                  'rAhukAlaH': 'ராஹுகாலம்',
                  'yamaghaNTaH': 'யமகண்டம்',
                  'gulikakAlaH': 'குலிககாலம்',
@@ -106,7 +107,7 @@ def writeDailyCSV(panchangam, compute_lagnams=True):
 
         tithi_data_str = ''
         for tithi_ID, tithi_end_jd in panchangam.tithi_data[d]:
-            tithi = jyotisha.panchangam.temporal.NAMES['TITHI_NAMES'][panchangam.script][tithi_ID].replace('-',  jyotisha. custom_transliteration.tr('pakSa', panchangam.script) + ' ')
+            tithi = jyotisha.panchangam.temporal.NAMES['TITHI_NAMES'][panchangam.script][tithi_ID].replace('-', jyotisha. custom_transliteration.tr('pakSa', panchangam.script) + ' ')
             if tithi_end_jd is None:
                 tithi_data_str = '%s; %s►%s' % \
                                  (tithi_data_str, tithi, jyotisha.custom_transliteration.tr('ahOrAtram (tridinaspRk)', panchangam.script))
@@ -140,7 +141,7 @@ def writeDailyCSV(panchangam, compute_lagnams=True):
             else:
                 rashi_data_str = getName('rAzI', panchangam.script) + '—%s►%s' % (rashi, jyotisha.panchangam.temporal.Time(24 * (rashi_end_jd - jd)).toString(format=panchangam.fmt))
                 # logging.debug(((jyotisha.panchangam.temporal.NAMES['RASHI_NAMES'][panchangam.script][((rashi_ID + 7) % 12) + 1], jyotisha.panchangam.temporal.Time(24 * (rashi_end_jd - jd)).toString(format=panchangam.fmt), jyotisha.panchangam.temporal.NAMES['RASHI_NAMES'][panchangam.script][((rashi_ID + 8) % 12) + 1])))
-                chandrashtama_rashi_data_str = getName('candrASTamam', panchangam.script) + '—%s►%s; %s 🢒🢒' % (jyotisha.panchangam.temporal.NAMES['RASHI_NAMES'][panchangam.script][((rashi_ID - 8) % 12) + 1], jyotisha.panchangam.temporal.Time(24 * (rashi_end_jd - jd)).toString(format=panchangam.fmt), jyotisha.panchangam.temporal.NAMES['RASHI_NAMES'][panchangam.script][((rashi_ID - 7) % 12) + 1])
+                chandrashtama_rashi_data_str = getName('candrASTamam', panchangam.script) + '—%s►%s; %s ➥' % (jyotisha.panchangam.temporal.NAMES['RASHI_NAMES'][panchangam.script][((rashi_ID - 8) % 12) + 1], jyotisha.panchangam.temporal.Time(24 * (rashi_end_jd - jd)).toString(format=panchangam.fmt), jyotisha.panchangam.temporal.NAMES['RASHI_NAMES'][panchangam.script][((rashi_ID - 7) % 12) + 1])
 
         if compute_lagnams:
             lagna_data_str = ''
@@ -161,8 +162,8 @@ def writeDailyCSV(panchangam, compute_lagnams=True):
             else:
                 yoga_data_str = '%s; %s►%s' % (yoga_data_str, yoga, jyotisha.panchangam.temporal.Time(24 * (yoga_end_jd - jd)).toString(format=panchangam.fmt))
         if yoga_end_jd is not None:
-            yoga_data_str += '; %s 🢒🢒' % (jyotisha.panchangam.temporal.NAMES['YOGA_NAMES'][panchangam.script][(yoga_ID % 27) + 1])
-        yoga_data_str = getName('yogaH', panchangam.script) + '—' + yoga_data_str[2:]
+            yoga_data_str += '; %s ➥' % (jyotisha.panchangam.temporal.NAMES['YOGA_NAMES'][panchangam.script][(yoga_ID % 27) + 1])
+        yoga_data_str = getName('yOgaH', panchangam.script) + '—' + yoga_data_str[2:]
 
         karanam_data_str = ''
         for numKaranam, (karanam_ID, karanam_end_jd) in enumerate(panchangam.karanam_data[d]):
@@ -177,7 +178,7 @@ def writeDailyCSV(panchangam, compute_lagnams=True):
                                    (karanam_data_str, karanam,
                                     jyotisha.panchangam.temporal.Time(24 * (karanam_end_jd - jd)).toString(format=panchangam.fmt))
         if karanam_end_jd is not None:
-            karanam_data_str += '; %s 🢒🢒' % (jyotisha.panchangam.temporal.NAMES['KARANAM_NAMES'][panchangam.script][(karanam_ID % 60) + 1])
+            karanam_data_str += '; %s ➥' % (jyotisha.panchangam.temporal.NAMES['KARANAM_NAMES'][panchangam.script][(karanam_ID % 60) + 1])
         karanam_data_str = getName('karaNam', panchangam.script) + '—' + karanam_data_str[2:]
 
         sunrise = jyotisha.panchangam.temporal.Time(24 * (panchangam.jd_sunrise[d] - jd)).toString(format=panchangam.fmt)
@@ -288,11 +289,11 @@ def writeDailyCSV(panchangam, compute_lagnams=True):
           print('%s' % (lagna_data_str), file=output_stream)
 
         if panchangam.jd_moonrise[d] < panchangam.jd_moonset[d]:
-          print('%s—%s; %s—%s' % (getName('sUryodayaH', panchangam.script), sunrise, getName('sUryAstaH', panchangam.script), sunset), file=output_stream)
-          print('%s—%s; %s—%s' % (getName('candrodayaH', panchangam.script), moonrise, getName('candrAstaH', panchangam.script), moonset), file=output_stream)
+          print('%s—%s; %s—%s' % (getName('sUryOdayaH', panchangam.script), sunrise, getName('sUryAstaH', panchangam.script), sunset), file=output_stream)
+          print('%s—%s; %s—%s' % (getName('candrOdayaH', panchangam.script), moonrise, getName('candrAstaH', panchangam.script), moonset), file=output_stream)
         else:
-          print('%s—%s; %s—%s' % (getName('sUryodayaH', panchangam.script), sunrise, getName('sUryAstaH', panchangam.script), sunset), file=output_stream)
-          print('%s—%s; %s—%s' % (getName('candrAstaH', panchangam.script), moonset, getName('candrodayaH', panchangam.script), moonrise), file=output_stream)
+          print('%s—%s; %s—%s' % (getName('sUryOdayaH', panchangam.script), sunrise, getName('sUryAstaH', panchangam.script), sunset), file=output_stream)
+          print('%s—%s; %s—%s' % (getName('candrAstaH', panchangam.script), moonset, getName('candrOdayaH', panchangam.script), moonrise), file=output_stream)
 
         print('%s—%s' % (getName('Azauca dinAntaH', panchangam.script), dinanta), file=output_stream)
         print('%s—%s; %s—%s; %s—%s' % (getName('rAhukAlaH', panchangam.script), rahu,
@@ -314,9 +315,18 @@ def writeDailyCSV(panchangam, compute_lagnams=True):
               fest_name_cleaned = re.sub('[{}]', '', fest_name_cleaned).replace('\\', '')
               fest_list.append(fest_name_cleaned.replace('ஆராதநா', 'ஆராதனை'))
         if len(fest_list):
-          print('%s—%s' % (getName('vizeSAH', panchangam.script), '; '.join(fest_list)), file=output_stream)
+          print('%s—%s' % (getName('vizESAH', panchangam.script), '; '.join(fest_list)), file=output_stream)
 
-        print(output_stream.getvalue())
+        output_text = output_stream.getvalue()
+        output_text = re.sub('([^ ])ந', '\\1ன', output_text)
+        output_text = re.sub('\<ன', 'ந', output_text)
+        output_text = re.sub('^ன', 'ந', output_text)
+        output_text = re.sub('\nன', '\nந', output_text)
+        output_text = re.sub('—ன', '—ந', output_text)
+        output_text = re.sub('-ன', '-ந', output_text)
+        output_text = re.sub('ன்த', 'ந்த', output_text)
+        output_text = re.sub('ன்த்', 'ந்த்', output_text)
+        print(output_text)
         output_stream = StringIO()
 
         if m == 12 and dt == 31:
