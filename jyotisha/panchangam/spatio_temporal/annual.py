@@ -858,7 +858,7 @@ class Panchangam(common.JsonObject):
                 self.add_festival('vyaJjulI~mahAdvAdazI', d, debug_festivals)
 
             if (self.tithi_sunrise[d] % 15) == 11 and (self.tithi_sunrise[d + 1] % 15) == 13:
-                self.add_festival('trispRzA~mahAdvAdazI', d, debug_festivals)
+                self.add_festival('trisparzA~mahAdvAdazI', d, debug_festivals)
 
             if (self.tithi_sunrise[d] % 15) == 0 and (self.tithi_sunrise[d + 1] % 15) == 0:
                 # Might miss out on those parva days right after Dec 31!
