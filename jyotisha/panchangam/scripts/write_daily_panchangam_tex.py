@@ -113,7 +113,7 @@ def writeDailyTeX(panchangam, template_file, compute_lagnams=True, output_stream
         for rashi_ID, rashi_end_jd in panchangam.rashi_data[d]:
             # if rashi_data_str != '':
             #     rashi_data_str += '\\hspace{1ex}'
-            rashi = jyotisha.panchangam.temporal.NAMES['RASHI_NAMES'][panchangam.script][rashi_ID] + jyotisha.custom_transliteration.tr('-rAzI', panchangam.script)
+            rashi = jyotisha.panchangam.temporal.NAMES['RASHI_SUFFIXED_NAMES'][panchangam.script][rashi_ID]
             if rashi_end_jd is None:
                 rashi_data_str = '%s\\mbox{%s}' % (rashi_data_str, rashi)
             else:
