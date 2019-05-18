@@ -294,7 +294,7 @@
     {
         "angam_number": 15,
         "angam_type": "tithi",
-        "id": "ta:citrA~paurNamI/citragupta~pUjai",
+        "id": "ta:citrA~pUrNimA/citragupta~pUjai",
         "jsonClass": "HinduCalendarEventOld",
         "kaala": "moonrise",
         "month_number": 1,
@@ -3015,7 +3015,7 @@
     {
         "angam_number": 15,
         "angam_type": "tithi",
-        "id": "kumAra-paurNamAsI/mahA-azvini",
+        "id": "kumAra-pUrNimA/mahA-azvini",
         "jsonClass": "HinduCalendarEventOld",
         "month_number": 7,
         "month_type": "lunar_month",
@@ -8737,9 +8737,9 @@
         "angam_number": 15,
         "angam_type": "tithi",
         "description": {
-            "en": "Lord Malayappa rides on Garuda Vahanam in all four mada streets. This usually happens during Brahmotsavams, but since 2006, this has been happening on every `paurNamI`."
+            "en": "Lord Malayappa rides on Garuda Vahanam in all four mada streets. This usually happens during Brahmotsavams, but since 2006, this has been happening on every `pUrNimA`."
         },
-        "id": "vEGkaTAcalE paurNamI~garuDa-sEvA",
+        "id": "vEGkaTAcalE pUrNimA~garuDa-sEvA",
         "jsonClass": "HinduCalendarEventOld",
         "kaala": "moonrise",
         "month_number": 0,
@@ -8750,9 +8750,9 @@
         "angam_number": 15,
         "angam_type": "tithi",
         "description": {
-            "en": "`paurNamI vratam` is commonly observed for Lord Satyanarayana."
+            "en": "`pUrNimA vratam` is commonly observed for Lord Satyanarayana."
         },
-        "id": "paurNamI~vratam",
+        "id": "pUrNimA~vratam",
         "jsonClass": "HinduCalendarEventOld",
         "kaala": "sunrise",
         "month_number": 0,

@@ -972,7 +972,7 @@
     },
     {
         "description": {
-            "en": "Dvadashi tithi, which is followed by an `amAvasyA` or `paurNamI` that touches two consecutive days at sunrise."
+            "en": "Dvadashi tithi, which is followed by an `amAvasyA` or `paurNamAsI` that touches two consecutive days at sunrise."
         },
         "id": "pakSavardhinI~mahAdvAdazI",
         "jsonClass": "HinduCalendarEventOld",
