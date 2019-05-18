@@ -524,29 +524,32 @@ class Panchangam(common.JsonObject):
                 _m = self.lunar_month[d]
                 if floor(_m) != _m:
                     _m = 13  # Adhika masa
-                chaturthi_name = temporal.NAMES['SANKATAHARA_CHATURTHI_NAMES']['hk'][_m]
-                chaturthi_name += '-mahAgaNapati '
-                if self.weekday[d] == 2:
-                    chaturthi_name = 'aGgArakI~' + chaturthi_name
+                chaturthi_name = temporal.NAMES['SANKATAHARA_CHATURTHI_NAMES']['hk'][_m] + '-mahAgaNapati '
 
                 if tithi_moonrise == 19:
                     # otherwise yesterday would have already been assigned
                     if tithi_moonrise_yest != 19:
+                        chaturthi_name = '%s%s' % ('aGgArakI~' if self.weekday[d] == 2 else '', chaturthi_name)
                         self.festivals[d].append(chaturthi_name + 'saGkaTahara-caturthI-vratam')
                         # shravana krishna chaturthi
                         if self.lunar_month[d] == 5:
+                            chaturthi_name = '%s%s' % ('aGgArakI~' if self.weekday[d] == 2 else '', chaturthi_name)
                             self.festivals[d][-1] = chaturthi_name + 'mahAsaGkaTahara-caturthI-vratam'
                 elif tithi_moonrise_tmrw == 19:
+                    chaturthi_name = '%s%s' % ('aGgArakI~' if self.weekday[d + 1] == 2 else '', chaturthi_name)
                     self.festivals[d + 1].append(chaturthi_name + 'saGkaTahara-caturthI-vratam')
                     # self.lunar_month[d] and[d + 1] are same, so checking [d] is enough
                     if self.lunar_month[d] == 5:
+                        chaturthi_name = '%s%s' % ('aGgArakI~' if self.weekday[d] == 2 else '', chaturthi_name)
                         self.festivals[d + 1][-1] = chaturthi_name + 'mahAsaGkaTahara-caturthI-vratam'
                 else:
                     if tithi_moonrise_yest != 19:
                         if tithi_moonrise == 18 and tithi_moonrise_tmrw == 20:
+                            chaturthi_name = '%s%s' % ('aGgArakI~' if self.weekday[d] == 2 else '', chaturthi_name)
                             self.festivals[d].append(chaturthi_name + 'saGkaTahara-caturthI-vratam')
                             # shravana krishna chaturthi
                             if self.lunar_month[d] == 5:
+                                chaturthi_name = '%s%s' % ('aGgArakI~' if self.weekday[d] == 2 else '', chaturthi_name)
                                 self.festivals[d][-1] = chaturthi_name + 'mahAsaGkaTahara-caturthI-vratam'
 
             # # SHASHTHI Vratam
