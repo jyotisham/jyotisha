@@ -5419,7 +5419,7 @@
     {
         "angam_number": 27,
         "angam_type": "tithi",
-        "id": "kAJcI 68 jagadguru zrI~candrazEkharEndra sarasvatI ArAdhanA",
+        "id": "kAJcI 68 jagadguru zrI~candrazEkharEndra sarasvatI 8 ArAdhanA",
         "jsonClass": "HinduCalendarEventOld",
         "kaala": "aparaahna",
         "month_number": 9,
@@ -6480,7 +6480,7 @@
     {
         "angam_number": 17,
         "angam_type": "nakshatram",
-        "id": "kAJcI jagadguru zrI~candrazEkharEndra sarasvatI jayantI",
+        "id": "kAJcI jagadguru zrI~candrazEkharEndra sarasvatI 8 jayantI",
         "jsonClass": "HinduCalendarEventOld",
         "kaala": "praatah",
         "month_number": 2,
