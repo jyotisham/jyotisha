@@ -3,7 +3,6 @@
 
 import re
 import swisseph as swe
-import sys
 from math import floor
 
 from indic_transliteration import xsanscript as sanscript
@@ -13,7 +12,6 @@ logging.basicConfig(
     level=logging.DEBUG,
     format="%(levelname)s: %(asctime)s {%(filename)s:%(lineno)d}: %(message)s "
 )
-
 
 
 def romanise(iast_text):
@@ -49,21 +47,17 @@ def tr(text, scr, titled=True):
                     scr = sanscript.TAMIL
                 t = t[3:]
                 if scr == sanscript.TAMIL:
-                    transliterated_text.append('\\tamil{%s}' % 
-                        sanscript.transliterate(data=t, _from=sanscript.HK, _to=scr).replace('C','Ch').replace('c','ch').title())
+                    transliterated_text.append('\\tamil{%s}' % sanscript.transliterate(data=t, _from=sanscript.HK, _to=scr).replace('C', 'Ch').replace('c', 'ch').title())
                 else:
-                    transliterated_text.append(
-                        sanscript.transliterate(data=t, _from=sanscript.HK, _to=scr).replace('C','Ch').replace('c','ch').title())
+                    transliterated_text.append(sanscript.transliterate(data=t, _from=sanscript.HK, _to=scr).replace('C', 'Ch').replace('c', 'ch').title())
 
             else:
                 if t.find('RIGHTarrow') == -1:
-                    transliterated_text.append(
-                        sanscript.transliterate(data=t, _from=sanscript.HK, _to=scr).replace('C','Ch').replace('c','ch').title())
+                    transliterated_text.append(sanscript.transliterate(data=t, _from=sanscript.HK, _to=scr).replace('C', 'Ch').replace('c', 'ch').title())
                 else:
                     [txt, t1, arrow, t2] = t.split('\\')
-                    transliterated_text.append(
-                        '\\'.join([sanscript.transliterate(data=txt, _from=sanscript.HK, _to=scr).replace('C','Ch').replace('c','ch').title(),
-                                   t1, arrow, t2]))
+                    transliterated_text.append('\\'.join([sanscript.transliterate(data=txt, _from=sanscript.HK, _to=scr).replace('C', 'Ch').replace('c', 'ch').title(),
+                                                          t1, arrow, t2]))
     else:
         for t in text_bits:
             t = t.rstrip('~0123456789 ')
@@ -72,18 +66,17 @@ def tr(text, scr, titled=True):
                 if scr == sanscript.DEVANAGARI:
                     scr = sanscript.TAMIL
                 t = t[3:]
-                transliterated_text.append(
-                    sanscript.transliterate(data=t, _from=sanscript.HK, _to=scr).replace('C','Ch').replace('c','ch').strip("{}").title())
+                transliterated_text.append(sanscript.transliterate(data=t, _from=sanscript.HK, _to=scr).replace('C', 'Ch').replace('c', 'ch').strip("{}").title())
             else:
                 if t.find('RIGHTarrow') == -1:
                     transliterated_text.append(sanscript.transliterate(data=t, _from=sanscript.HK, _to=scr))
                 else:
                     [txt, t1, arrow, t2] = t.split('\\')
-                    transliterated_text.append(
-                        '\\'.join([sanscript.transliterate(txt, _from=sanscript.HK, _to=scr),
-                                   t1, arrow, t2]))
+                    transliterated_text.append('\\'.join([sanscript.transliterate(txt, _from=sanscript.HK, _to=scr), t1, arrow, t2]))
 
-    return '|'.join(transliterated_text)
+    output_text = '|'.join(transliterated_text)
+
+    return output_text
 
 
 def sexastr2deci(sexa_str):
