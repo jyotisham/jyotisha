@@ -254,7 +254,7 @@ def writeDailyICS(panchangam, compute_lagnams=True):
         if month_end_str == '':
           month_data = '%s %d' % (jyotisha.panchangam.temporal.NAMES['RASHI_NAMES'][panchangam.script][panchangam.solar_month[d]], panchangam.solar_month_day[d])
         else:
-          month_data = '%s %d; %s' % (jyotisha.panchangam.temporal.NAMES['RASHI_NAMES'][panchangam.script][panchangam.solar_month[d]], jyotisha.custom_transliteration(panchangam.solar_month_day[d], panchangam.script), month_end_str)
+          month_data = '%s %d; %s' % (jyotisha.panchangam.temporal.NAMES['RASHI_NAMES'][panchangam.script][panchangam.solar_month[d]], panchangam.solar_month_day[d], month_end_str)
 
         vara = jyotisha.panchangam.temporal.NAMES['VARA_NAMES'][panchangam.script][panchangam.weekday[d]]
 
