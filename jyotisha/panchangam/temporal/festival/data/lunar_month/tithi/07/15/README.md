@@ -45,8 +45,8 @@ _Have to play Aksha kreeda only on this day and Ko-jagarti-Vratam (Lakshmi will 
 
 
 ---
-## Kumāra-Paurṇamāsī/Mahā-Aśvini
-कुमार-पौर्णमासी/महा-अश्विनि is observed on Paurṇamāsī tithi of Āśvayujaḥ (lunar) month (sunrise (default)/puurvaviddha (default)).
+## Kumāra-Pūrṇimā/Mahā-Aśvini
+कुमार-पूर्णिमा/महा-अश्विनि is observed on Paurṇamāsī tithi of Āśvayujaḥ (lunar) month (sunrise (default)/puurvaviddha (default)).
 
 
 

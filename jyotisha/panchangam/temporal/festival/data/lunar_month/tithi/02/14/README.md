@@ -9,7 +9,7 @@ _Monday Swati?_
 
 ![](https://github.com/sanskrit-coders/jyotisha/blob/master/jyotisha/panchangam/temporal/festival/images/kanchi-jagadgurus/jagadguru-39.jpg)
 
-_Son of Kamaleśvara Śrīpati, having received the initiation from Śaṅkara, the sage (preceptor) with an ability to endure heat and cold easily, remained in the guru Pīṭha. Adorned by the erudites like Ānandavardhana etc., residing at Pamapuram for a long time and then, having reached Kāñci, He attained siddhi on the night of Narasimha Jayanti in the year Nandana. This saint Saccidvilāsa, adored by Śrī Ānandavardhana, Muktākaṇa, Śivasāmi and Rājāakaralākara remained in the Pīṭha for thirty-three years and attained siddhi near Kāñci on the full moon day of Vaiśāka month in the year Nandana._
+_Son of Kamaleśvara Śrīpati, having received the initiation from Śaṅkara, the sage (preceptor) with an ability to endure heat and cold easily, remained in the guru Pīṭha. Adorned by the erudites like Ānandavardhana etc., residing at Padmapuram for a long time and then, having reached Kāñci, He attained siddhi on the night of Narasimha Jayanti in the year Nandana. This saint Saccidvilāsa, adored by Śrī Ānandavardhana, Muktākaṇa, Śivaswāmi and Rājānakaratnākara remained in the Pīṭha for thirty-three years and attained siddhi near Kāñci on the full moon day of Vaiśāka month in the year Nandana._
 
 ```
 कान्यकुब्जकमलेश्वरात्मजः श्रीपतिः श्रितयमश्च शङ्करात्।

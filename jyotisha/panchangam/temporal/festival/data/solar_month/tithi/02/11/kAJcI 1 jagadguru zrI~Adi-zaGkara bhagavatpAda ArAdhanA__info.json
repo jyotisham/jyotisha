@@ -22,7 +22,7 @@
     "jsonClass": "HinduCalendarEventTiming",
     "kaala": "aparaahna",
     "month_number": 2,
-    "month_type": "lunar_month",
+    "month_type": "solar_month",
     "year_start": 2626
   }
 }

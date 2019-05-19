@@ -1,5 +1,5 @@
-## Chitrā Paurṇamī/Chitragupta Pūjai
-சித்ரா பௌர்ணமீ/சித்ரகுப்த பூஜை is observed on Paurṇamāsī tithi of Meṣaḥ (solar) month (moonrise/puurvaviddha (default)).
+## Chitrā Pūrṇimā/Chitragupta Pūjai
+சித்ரா பூர்ணிமா/சித்ரகுப்த பூஜை is observed on Paurṇamāsī tithi of Meṣaḥ (solar) month (moonrise/puurvaviddha (default)).
 
 
 
