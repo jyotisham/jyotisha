@@ -89,7 +89,7 @@ def compute_calendar(panchangam, all_tags=True):
                         logging.warning('No description found for festival %s!' % stext)
 
                     event.add_component(alarm)
-                    event.add('description', desc.strip())
+                    event.add('description', desc.strip().replace('\n', '<br/>'))
                     event['X-MICROSOFT-CDO-ALLDAYEVENT'] = 'TRUE'
                     event['TRANSP'] = 'TRANSPARENT'
                     event['X-MICROSOFT-CDO-BUSYSTATUS'] = 'FREE'
@@ -106,25 +106,34 @@ def compute_calendar(panchangam, all_tags=True):
                     event.add('summary', jyotisha.custom_transliteration.tr(stext, panchangam.script))
                     # we know that t1 is something like 'textsf{hh:mm(+1)}{'
                     # so we know the exact positions of min and hour
-                    if t1[12] == '(':  # (+1), next day
+                    if t1[12] in '(':  # (+1), next day
                         event.add('dtstart', datetime(y, m, dt, int(t1[7:9]), int(t1[10:12]),
                                                       tzinfo=tz(panchangam.city.timezone)) + timedelta(1))
                     else:
-                        event.add('dtstart', datetime(y, m, dt, int(t1[7:9]), int(t1[10:12]),
-                                                      tzinfo=tz(panchangam.city.timezone)))
+                        if t1[12] == '*':
+                            event.add('dtstart', datetime(y, m, dt, int(t1[7:9]) - 24, int(t1[10:12]),
+                                                          tzinfo=tz(panchangam.city.timezone)) + timedelta(1))
+                        else:
+                            event.add('dtstart', datetime(y, m, dt, int(t1[7:9]), int(t1[10:12]),
+                                                          tzinfo=tz(panchangam.city.timezone)))
+
                     if t2[12] == '(':  # (+1), next day
                         event.add('dtend', datetime(y, m, dt, int(t2[7:9]), int(t2[10:12]),
                                                     tzinfo=tz(panchangam.city.timezone)) + timedelta(1))
                     else:
-                        event.add('dtend', datetime(y, m, dt, int(t2[7:9]), int(t2[10:12]),
-                                                    tzinfo=tz(panchangam.city.timezone)))
+                        if t2[12] == '*':
+                            event.add('dtend', datetime(y, m, dt, int(t2[7:9]) - 24, int(t2[10:12]),
+                                                        tzinfo=tz(panchangam.city.timezone)) + timedelta(1))
+                        else:
+                            event.add('dtend', datetime(y, m, dt, int(t2[7:9]), int(t2[10:12]),
+                                                        tzinfo=tz(panchangam.city.timezone)))
 
                     if stext in festival_rules:
                         festival_event = festival.HinduCalendarEventOld.make_from_dict(festival_rules[stext])
                         desc = festival_event.get_description_string(script=panchangam.script, include_url=True)
                     else:
                         logging.warning('No description found for festival %s!\n' % stext)
-                    event.add('description', desc.strip())
+                    event.add('description', desc.strip().replace('\n', '<br/>'))
                     event.add_component(alarm)
                     ics_calendar.add_component(event)
                 elif stext.find('samApanam') != -1:
@@ -140,7 +149,7 @@ def compute_calendar(panchangam, all_tags=True):
                         logging.warning('No description found for festival %s!' % stext)
 
                     event.add_component(alarm)
-                    event.add('description', desc.strip())
+                    event.add('description', desc.strip().replace('\n', '<br/>'))
                     event['X-MICROSOFT-CDO-ALLDAYEVENT'] = 'TRUE'
                     event['TRANSP'] = 'TRANSPARENT'
                     event['X-MICROSOFT-CDO-BUSYSTATUS'] = 'FREE'
@@ -190,7 +199,7 @@ def compute_calendar(panchangam, all_tags=True):
 
                         # print(event)
                         event.add_component(alarm)
-                        event.add('description', desc.strip())
+                        event.add('description', desc.strip().replace('\n', '<br/>'))
                         event['X-MICROSOFT-CDO-ALLDAYEVENT'] = 'TRUE'
                         event['TRANSP'] = 'TRANSPARENT'
                         event['X-MICROSOFT-CDO-BUSYSTATUS'] = 'FREE'
@@ -252,7 +261,7 @@ def compute_calendar(panchangam, all_tags=True):
                         else:
                             logging.warning('No description found for Ekadashi festival %s (%s)!' % (ekad, stext))
                     event.add_component(alarm)
-                    event.add('description', desc.strip())
+                    event.add('description', desc.strip().replace('\n', '<br/>'))
                     event['X-MICROSOFT-CDO-ALLDAYEVENT'] = 'TRUE'
                     event['TRANSP'] = 'TRANSPARENT'
                     event['X-MICROSOFT-CDO-BUSYSTATUS'] = 'FREE'

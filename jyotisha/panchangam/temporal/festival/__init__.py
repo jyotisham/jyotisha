@@ -182,7 +182,7 @@ class HinduCalendarEventOld(common.JsonObject):
             tags=tag_list,
             id=custom_transliteration.tr(self.id, sanscript.IAST).replace('Ta__', '').replace('~', ' ').replace(' ', '-').strip('{}').lower())
 
-      return description_string + ('\n\n%s\n' % url)
+      return description_string + ('\n\n<a href="%s">more ...</a>\n' % url) + '\n' + ' '.join(['#' + x for x in self.tags.split(',')])
     else:
       return description_string
 
