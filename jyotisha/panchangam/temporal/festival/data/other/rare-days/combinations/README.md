@@ -89,7 +89,7 @@ _When अनूराधा nakshatram falls on a Wednesday, it is a special प
 
 ---
 ## Āyuṣmān-Bava-Saumya
-_A rare combination of आयुष्मान् योग, बव करण and सौम्यवासर. Also a source of the normal blessing 'AyuSmAn bava saumya'!_
+_A rare combination of आयुष्मान् योग, बव करण and सौम्यवासर._
 ### References
 * Maha Periva / Deivattin Kural
 

@@ -1,0 +1,21 @@
+{
+  "description": {
+    "en": "`jagadguru zrI~jayEndra sarasvatI` was inducted into the `kAmakOTi-pITham` on 22nd March 1954, `vijaya` year, `mIna/phAlguna mAsa kRSNa dvitIyA sOmavAsaraH citrA upari svAtI nakSatram`."
+  },
+  "id": "kAJcI jagadguru zrI~jayEndra sarasvatI pIThArOhaNa jayantI",
+  "jsonClass": "HinduCalendarEvent",
+  "priority": "paraviddha",
+  "tags": [
+    "mahapurusha-events",
+    "common-festivals"
+  ],
+  "timing": {
+    "angam_number": 15,
+    "angam_type": "nakshatram",
+    "jsonClass": "HinduCalendarEventTiming",
+    "kaala": "praatah",
+    "month_number": 12,
+    "month_type": "solar_month",
+    "year_start": 5054
+  }
+}
