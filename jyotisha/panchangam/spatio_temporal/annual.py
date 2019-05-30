@@ -836,6 +836,12 @@ class Panchangam(common.JsonObject):
                 if temporal.get_angam(self.jd_sunrise[d], temporal.KARANAM,
                                       ayanamsha_id=self.ayanamsha_id) in list(range(2, 52, 7)):
                     self.add_festival('AyuSmAn-bava-saumya', d, debug_festivals)
+            if self.weekday[d] == 3 and temporal.get_angam(self.jd_sunset[d],
+                                                           temporal.YOGA,
+                                                           ayanamsha_id=self.ayanamsha_id) == 3:
+                if temporal.get_angam(self.jd_sunset[d], temporal.KARANAM,
+                                      ayanamsha_id=self.ayanamsha_id) in list(range(2, 52, 7)):
+                    self.add_festival('AyuSmAn-bava-saumya', d, debug_festivals)
 
             # VYATIPATAM
             if temporal.get_yoga(self.jd_sunrise[d], ayanamsha_id=self.ayanamsha_id) == 17 and \
