@@ -364,6 +364,7 @@ class Panchangam(common.JsonObject):
                 # Gregorian calendar year
                 if (d - 1) in self.fest_days[festival_name]:
                     # No festival occurs on consecutive days; paraviddha assigned twice
+                    logging.debug('%s occurring on two consecutive days (%d, %d). Removing! paraviddha assigned twice?' % (festival_name, d - 1, d))
                     self.fest_days[festival_name].remove(d - 1)
                 self.fest_days[festival_name].append(d)
         else:
