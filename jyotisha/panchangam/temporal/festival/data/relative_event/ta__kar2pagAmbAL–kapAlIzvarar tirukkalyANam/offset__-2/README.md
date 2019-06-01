@@ -1,4 +1,0 @@
-## Kapālī Ar̂upattu Mūvar
-
-
----

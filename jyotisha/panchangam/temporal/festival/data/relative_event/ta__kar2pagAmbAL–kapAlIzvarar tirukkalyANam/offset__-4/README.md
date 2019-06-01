@@ -1,4 +1,0 @@
-## Kapālī Pallakku Viḷā
-
-
----

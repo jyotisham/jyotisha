@@ -1,4 +1,0 @@
-## Veṅkaṭāchale Plavotsava-Ārambhaḥ
-
-
----

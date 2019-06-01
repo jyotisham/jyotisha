@@ -1,4 +1,0 @@
-## Chidambare Dhvajārohaṇam/Pañchamūrti Rathotsavaḥ
-
-
----

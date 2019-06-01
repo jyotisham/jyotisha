@@ -1,4 +1,0 @@
-## Chidambare Kailāsa Vāhanam
-
-
----

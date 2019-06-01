@@ -1,4 +1,0 @@
-## Chidambare Rajata Ṛṣabha Vāhanam
-
-
----

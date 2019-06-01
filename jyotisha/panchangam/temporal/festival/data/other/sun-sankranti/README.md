@@ -1,4 +1,0 @@
-## Makarāyaṇa-Puṇyakālaḥ/Mitrotsavaḥ
-
-
----

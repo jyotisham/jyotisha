@@ -1,4 +1,0 @@
-## Śrīnivāsamaṅgāpure Sākṣātkāra-Vaibhavotsava-Ārambhaḥ
-
-
----

@@ -1,4 +1,0 @@
-## Agninakṣatra-Samāpanam
-
-
----

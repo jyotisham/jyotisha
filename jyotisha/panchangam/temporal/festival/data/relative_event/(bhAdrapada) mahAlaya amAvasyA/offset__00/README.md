@@ -1,4 +1,0 @@
-## Mahālaya-Pakṣa-Samāpanam
-
-
----

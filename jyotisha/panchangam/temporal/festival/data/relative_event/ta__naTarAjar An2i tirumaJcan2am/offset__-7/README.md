@@ -1,4 +1,0 @@
-## Chidambare Svarṇa-Sūryaprabha Vāhanam
-
-
----
