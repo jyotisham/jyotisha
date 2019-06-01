@@ -751,6 +751,54 @@
         "tags": "rare-days,combinations"
     },
     {
+        "description": {
+            "en": "When Hasta nakshatram falls on a Sunday, it is a special `puNyakAlaH`."
+        },
+        "id": "Adityahasta-puNyakAlaH",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "rare-days,combinations"
+    },
+    {
+        "description": {
+            "en": "When Pushya nakshatram falls on a Sunday, it is a special `puNyakAlaH`."
+        },
+        "id": "ravipuSyayOga-puNyakAlaH",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "rare-days,combinations"
+    },
+    {
+        "description": {
+            "en": "When Shravana nakshatram falls on a Monday, it is a special `puNyakAlaH`."
+        },
+        "id": "sOmazrAvaNI-puNyakAlaH",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "rare-days,combinations"
+    },
+    {
+        "description": {
+            "en": "When Pushya nakshatram falls on a Thursday, it is a special `puNyakAlaH`."
+        },
+        "id": "gurupuSya-puNyakAlaH",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "rare-days,combinations"
+    },
+    {
+        "description": {
+            "en": "When Revati nakshatram falls on a Friday, it is a special `puNyakAlaH`."
+        },
+        "id": "bhRgurEvatI-puNyakAlaH",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "rare-days,combinations"
+    },
+    {
+        "description": {
+            "en": "When Rohini nakshatram falls on a Saturday, it is a special `puNyakAlaH`."
+        },
+        "id": "zanirOhiNI-puNyakAlaH",
+        "jsonClass": "HinduCalendarEventOld",
+        "tags": "rare-days,combinations"
+    },
+    {
         "id": "ASADha (kaTaka) amAvasyA",
         "jsonClass": "HinduCalendarEventOld",
         "tags": "amavasya-days"

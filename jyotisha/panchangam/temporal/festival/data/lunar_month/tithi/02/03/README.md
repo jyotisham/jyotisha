@@ -21,7 +21,7 @@ _Daanam of Dadhyodanam, Vyanjanam, Chatram, Paduka, Udaka Kumbham, Mangos, Jackf
 
 _Goddess Raja Matangi is 9th of the Dasha Maha Vidyas._
 ### References
-* Kielhorn (1897)
+* Kielhorn (1897); Ashtanga Panchangam
 
 
 ---

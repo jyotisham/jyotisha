@@ -80,6 +80,30 @@ _सप्तमी तिथि on a Sunday is as sacred as a solar eclipse. Pa
 _When Ashwini nakshatram falls on a Tuesday, it is a special पुण्यकालः. Do उपासना of Lakshmi Narasimha._
 
 ---
+## Ādityahasta-Puṇyakālaḥ
+_When Hasta nakshatram falls on a Sunday, it is a special पुण्यकालः._
+
+---
+## Ravipuṣyayoga-Puṇyakālaḥ
+_When Pushya nakshatram falls on a Sunday, it is a special पुण्यकालः._
+
+---
+## Somaśrāvaṇī-Puṇyakālaḥ
+_When Shravana nakshatram falls on a Monday, it is a special पुण्यकालः._
+
+---
+## Gurupuṣya-Puṇyakālaḥ
+_When Pushya nakshatram falls on a Thursday, it is a special पुण्यकालः._
+
+---
+## Bhṛgurevatī-Puṇyakālaḥ
+_When Revati nakshatram falls on a Friday, it is a special पुण्यकालः._
+
+---
+## Śanirohiṇī-Puṇyakālaḥ
+_When Rohini nakshatram falls on a Saturday, it is a special पुण्यकालः._
+
+---
 ## Budhānūrādhā-Puṇyakālaḥ
 _When अनूराधा nakshatram falls on a Wednesday, it is a special पुण्यकालः for performing दानम्. One can do दानं of दध्योदनम् in Vishnu temples on this day._
 

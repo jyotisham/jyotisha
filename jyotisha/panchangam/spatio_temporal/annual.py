@@ -1011,49 +1011,36 @@ class Panchangam(common.JsonObject):
                     # https://youtu.be/rgXwyo0L3i8?t=222
                     self.add_festival(festival_name, d, debug_festivals)
 
-            # AVANI NYAYITRUKIZHAMAI
-            if self.solar_month[d] == 5 and self.weekday[d] == 0:
-                self.add_festival('ta:AvaNi~JAyir2r2ukkizhamai', d, debug_festivals)
-
-            # PURATTASI SANIKKIZHAMAI
-            if self.solar_month[d] == 6 and self.weekday[d] == 6:
-                self.add_festival('ta:puraTTAci~can2ikkizhamai', d, debug_festivals)
-
-            # KARTHIKAI NYAYITRUKIZHAMAI
-            if self.solar_month[d] == 8 and self.weekday[d] == 0:
-                self.add_festival('ta:kArttigai~JAyir2r2ukkizhamai', d, debug_festivals)
-
             # KRTTIKA SOMAVASARA
             if self.lunar_month[d] == 8 and self.weekday[d] == 1:
                 self.add_festival('kRttikA~sOmavAsaraH', d, debug_festivals)
 
-            # AADI VELLI
-            if self.solar_month[d] == 4 and self.weekday[d] == 5:
-                self.add_festival('ta:ADi~veLLikkizhamai', d, debug_festivals)
+            # SOLAR MONTH-WEEKDAY FESTIVALS
+            for (mwd_fest_m, mwd_fest_wd, mwd_fest_name) in ((5, 0, 'ta:AvaNi~JAyir2r2ukkizhamai'),
+                                                             (6, 6, 'ta:puraTTAci~can2ikkizhamai'),
+                                                             (8, 0, 'ta:kArttigai~JAyir2r2ukkizhamai'),
+                                                             (4, 5, 'ta:ADi~veLLikkizhamai'),
+                                                             (10, 5, 'ta:tai~veLLikkizhamai'),
+                                                             (11, 2, 'ta:mAci~cevvAy')):
+                if self.solar_month[d] == mwd_fest_m and self.weekday[d] == mwd_fest_wd:
+                    self.add_festival(mwd_fest_name, d, debug_festivals)
 
-            # TAI
-            if self.solar_month[d] == 10 and self.weekday[d] == 5:
-                self.add_festival('ta:tai~veLLikkizhamai', d, debug_festivals)
-
-            # MASI SEVVAI
-            if self.solar_month[d] == 11 and self.weekday[d] == 2:
-                self.add_festival('ta:mAci~cevvAy', d, debug_festivals)
-
-            # BHAUMASHWINI
-            if (self.nakshatram_sunrise[d] == 27 or self.nakshatram_sunrise[d] == 1) and self.weekday[d] == 2:
-                # Is it necessarily only at sunrise?
-                angams = self.get_angams_for_kaalas(d, temporal.get_nakshatram, 'madhyaahna')
-                if any(x == 1 for x in [self.nakshatram_sunrise[d], angams[0], angams[1]]):
-                    # if any(x == 1 for x in [self.nakshatram_sunrise[d]]):
-                    self.add_festival('bhaumAzvinI-puNyakAlaH', d, debug_festivals)
-
-            # BUDHANURADHA
-            if (self.nakshatram_sunrise[d] == 16 or self.nakshatram_sunrise[d] == 17) and self.weekday[d] == 3:
-                # Is it necessarily only at sunrise?
-                angams = self.get_angams_for_kaalas(d, temporal.get_nakshatram, 'madhyaahna')
-                if any(x == 17 for x in [self.nakshatram_sunrise[d], angams[0], angams[1]]):
-                    # if any(x == 17 for x in [self.nakshatram_sunrise[d]]):
-                    self.add_festival('budhAnUrAdhA-puNyakAlaH', d, debug_festivals)
+            # NAKSHATRA-WEEKDAY FESTIVALS
+            for (nwd_fest_n, nwd_fest_wd, nwd_fest_name) in ((13, 0, 'Adityahasta-puNyakAlaH'),
+                                                             (8, 0, 'ravipuSyayOga-puNyakAlaH'),
+                                                             (22, 1, 'sOmazrAvaNI-puNyakAlaH'),
+                                                             (1, 2, 'bhaumAzvinI-puNyakAlaH'),
+                                                             (17, 3, 'budhAnUrAdhA-puNyakAlaH'),
+                                                             (8, 4, 'gurupuSya-puNyakAlaH'),
+                                                             (27, 5, 'bhRgurEvatI-puNyakAlaH'),
+                                                             (4, 6, 'zanirOhiNI-puNyakAlaH'),
+                                                             ):
+                n_prev = ((nwd_fest_n - 2) % 27) + 1
+                if (self.nakshatram_sunrise[d] == nwd_fest_n or self.nakshatram_sunrise[d] == n_prev) and self.weekday[d] == nwd_fest_wd:
+                    # Is it necessarily only at sunrise?
+                    angams = self.get_angams_for_kaalas(d, temporal.get_nakshatram, 'madhyaahna')
+                    if any(x == nwd_fest_n for x in [self.nakshatram_sunrise[d], angams[0], angams[1]]):
+                        self.add_festival(nwd_fest_name, d, debug_festivals)
 
             # festival_rules = read_old_festival_rules_dict(os.path.join(CODE_ROOT, 'panchangam/data/festival_rules_test.json'))
             festival_rules = read_old_festival_rules_dict(os.path.join(CODE_ROOT, 'panchangam/data/festival_rules.json'))

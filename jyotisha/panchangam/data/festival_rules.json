@@ -402,7 +402,7 @@
         "month_number": 2,
         "month_type": "lunar_month",
         "references_secondary": [
-            "Kielhorn (1897)"
+            "Kielhorn (1897); Ashtanga Panchangam"
         ],
         "tags": "dashamahavidya,less-common-festivals"
     },
@@ -8433,17 +8433,18 @@
         "tags": "mahapurusha-events,common-festivals"
     },
     {
-        "angam_number": 8,
+        "angam_number": 4,
         "angam_type": "tithi",
         "description": {
             "en": "Goddess Bagalamukhi is 8th of the Dasha Maha Vidyas."
         },
         "id": "bagalAmukhI~jayantI",
         "jsonClass": "HinduCalendarEventOld",
+        "kaala": "madhyaraatri",
         "month_number": 2,
         "month_type": "lunar_month",
         "references_secondary": [
-            "http://hindupad.com/bagalamukhi-jayanti-bhagalamukhi-jayanthi-pitambara-jayanti/"
+            "Ashtanga Panchangam"
         ],
         "tags": "dashamahavidya",
         "titles": "pItAmbara-jayantI"

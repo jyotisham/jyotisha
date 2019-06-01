@@ -1,0 +1,14 @@
+{
+  "description": {
+    "en": "When Shravana nakshatram falls on a Monday, it is a special `puNyakAlaH`."
+  },
+  "id": "sOmazrAvaNI-puNyakAlaH",
+  "jsonClass": "HinduCalendarEvent",
+  "tags": [
+    "rare-days",
+    "combinations"
+  ],
+  "timing": {
+    "jsonClass": "HinduCalendarEventTiming"
+  }
+}
