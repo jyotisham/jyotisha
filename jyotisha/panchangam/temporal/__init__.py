@@ -69,11 +69,17 @@ class Time(JsonObject):
         second = secs
 
         if format in ('hh:mm', 'hh:mm*'):
-            return '%02d:%02d%s' % (hour, minute, suffix)
+          return '%02d:%02d%s' % (hour, minute, suffix)
         elif format in ('hh:mm:ss', 'hh:mm:ss*'):
-            return '%02d:%02d:%02d%s' % (hour, minute, second, suffix)
+          return '%02d:%02d:%02d%s' % (hour, minute, second, suffix)
+        elif format == 'gg-pp':  # ghatika-pal
+          secs = round(self.t * 3600)
+          gg = secs // 1440
+          secs = secs % 1440
+          pp = secs // 24
+          return ('%d-%d' % (gg, pp))
         else:
-            raise Exception("""Unknown format""")
+          raise Exception("""Unknown format""")
 
     def __str__(self):
         return self.toString(format='hh:mm:ss')
