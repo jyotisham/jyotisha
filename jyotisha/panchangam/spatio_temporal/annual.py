@@ -1163,7 +1163,10 @@ class Panchangam(common.JsonObject):
                                     logging.warning('%s %d present only at start of %s kaala on d=%d. Assigning %d for %s; angams: %s' %
                                                     (angam_type, angam_num, kaala, d + 1, d, festival_name, str(angams)))
                             elif angams[0] == angam_num and angams[1] == next_angam:
-                                fday = d - 1
+                                if kaala == 'aparaahna':
+                                    fday = d
+                                else:
+                                    fday = d - 1
                             elif angams[1] == prev_angam and angams[2] == next_angam:
                                 fday = d
                                 logging.warning('%s %d did not touch %s kaala on d=%d or %d. Assigning %d for %s; angams: %s' %
