@@ -1043,7 +1043,7 @@ class Panchangam(common.JsonObject):
                         self.add_festival(nwd_fest_name, d, debug_festivals)
 
             # festival_rules = read_old_festival_rules_dict(os.path.join(CODE_ROOT, 'panchangam/data/festival_rules_test.json'))
-            festival_rules = read_old_festival_rules_dict(os.path.join(CODE_ROOT, 'panchangam/data/festival_rules.json'))
+            festival_rules = read_old_festival_rules_dict(os.path.join(CODE_ROOT, 'panchangam/temporal/festival/legacy/festival_rules.json'))
             assert "tripurOtsavaH" in festival_rules
 
             for festival_name in festival_rules:
@@ -1303,7 +1303,7 @@ class Panchangam(common.JsonObject):
                                                        0] - 5) % 7)]
 
         relative_festival_rules = read_old_festival_rules_dict(
-            os.path.join(CODE_ROOT, 'panchangam/data/relative_festival_rules.json'))
+            os.path.join(CODE_ROOT, 'panchangam/temporal/festival/legacy/relative_festival_rules.json'))
 
         for festival_name in relative_festival_rules:
             offset = int(relative_festival_rules[festival_name]['offset'])
@@ -1360,7 +1360,7 @@ class Panchangam(common.JsonObject):
                 for [t, t_end] in self.tithi_data[d]:
                     lunar_month_10_tithis.append(t)
 
-        festival_rules = read_old_festival_rules_dict(os.path.join(CODE_ROOT, 'panchangam/data/festival_rules.json'))
+        festival_rules = read_old_festival_rules_dict(os.path.join(CODE_ROOT, 'panchangam/temporal/festival/legacy/festival_rules.json'))
         for festival_name in festival_rules:
             result = [(key, value) for key, value in self.fest_days.items() if key.startswith(festival_name)]
             if len(result) == 0:
