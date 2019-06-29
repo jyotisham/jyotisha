@@ -35,7 +35,7 @@ def write_to_file(ics_calendar, fname):
     ics_calendar_file.close()
 
 
-def compute_calendar(panchangam, all_tags=True):
+def compute_calendar(panchangam, all_tags=True, brief=False):
     festival_rules_main = read_old_festival_rules_dict(os.path.join(CODE_ROOT, 'panchangam/temporal/festival/legacy/festival_rules.json'))
     festival_rules_rel = read_old_festival_rules_dict(os.path.join(CODE_ROOT, 'panchangam/temporal/festival/legacy/relative_festival_rules.json'))
     festival_rules_desc_only = read_old_festival_rules_dict(os.path.join(CODE_ROOT, 'panchangam/temporal/festival/legacy/festival_rules_desc_only.json'))
@@ -71,7 +71,7 @@ def compute_calendar(panchangam, all_tags=True):
                         stext_chk = stext
                     if stext_chk in festival_rules:
                         tag_list = (festival_rules[stext_chk]['tags'].split(','))
-                        incl_tags = ['common-festivals', 'monthly-vratams', 'rare-days', 'amavasya-days', 'dashavataram', 'sun-sankranti']
+                        incl_tags = ['CommonFestivals', 'MonthlyVratams', 'RareDays', 'AmavasyaDays', 'Dashavataram', 'SunSankranti']
                         if set(tag_list).isdisjoint(set(incl_tags)):
                             continue
 
@@ -84,7 +84,7 @@ def compute_calendar(panchangam, all_tags=True):
                     event.add('dtend', (datetime(y, m, dt) + timedelta(48)).date())
 
                     if stext in festival_rules:
-                        desc = festival.HinduCalendarEventOld.make_from_dict(festival_rules[stext]).get_description_string(script=panchangam.script, include_url=True)
+                        desc = festival.HinduCalendarEventOld.make_from_dict(festival_rules[stext]).get_description_string(script=panchangam.script, include_url=True, include_shlokas=True, truncate=True)
                     else:
                         logging.warning('No description found for festival %s!' % stext)
 
@@ -130,7 +130,7 @@ def compute_calendar(panchangam, all_tags=True):
 
                     if stext in festival_rules:
                         festival_event = festival.HinduCalendarEventOld.make_from_dict(festival_rules[stext])
-                        desc = festival_event.get_description_string(script=panchangam.script, include_url=True)
+                        desc = festival_event.get_description_string(script=panchangam.script, include_url=True, include_shlokas=True, truncate=True)
                     else:
                         logging.warning('No description found for festival %s!\n' % stext)
                     event.add('description', desc.strip().replace('\n', '<br/>'))
@@ -144,7 +144,7 @@ def compute_calendar(panchangam, all_tags=True):
 
                     if stext in festival_rules:
                         festival_event = festival.HinduCalendarEventOld.make_from_dict(festival_rules[stext])
-                        desc = festival_event.get_description_string(script=panchangam.script, include_url=True)
+                        desc = festival_event.get_description_string(script=panchangam.script, include_url=True, include_shlokas=True, truncate=True)
                     else:
                         logging.warning('No description found for festival %s!' % stext)
 
@@ -219,7 +219,7 @@ def compute_calendar(panchangam, all_tags=True):
 
                     if re.match('.*-.*-EkAdazI', stext) is None and stext.find('saGkrAntiH') == -1:
                         if stext in festival_rules:
-                            desc = festival.HinduCalendarEventOld.make_from_dict(festival_rules[stext]).get_description_string(script=panchangam.script, include_url=True, include_images=False)
+                            desc = festival.HinduCalendarEventOld.make_from_dict(festival_rules[stext]).get_description_string(script=panchangam.script, include_url=True, include_shlokas=True, truncate=True, include_images=False)
                         else:
                             if re.match('aGgArakI.*saGkaTahara-caturthI-vratam', stext):
                                 stext = stext.replace('aGgArakI~', '')
@@ -239,13 +239,13 @@ def compute_calendar(panchangam, all_tags=True):
                                 elif len(matched_festivals) > 1:
                                     logging.warning('No exact match found for festival %s! Found more than one approximate match: %s' % (stext, str(matched_festivals)))
                                 else:
-                                    desc = festival.HinduCalendarEventOld.make_from_dict(festival_rules[matched_festivals[0]]).get_description_string(script=panchangam.script, include_url=True)
+                                    desc = festival.HinduCalendarEventOld.make_from_dict(festival_rules[matched_festivals[0]]).get_description_string(script=panchangam.script, include_url=True, include_shlokas=True, truncate=True)
 
                     elif stext.find('saGkrAntiH') != -1:
                         # Handle Sankranti descriptions differently
                         planet_trans = stext.split('~')[0]  # get rid of ~(rAshi name) etc.
                         if planet_trans in festival_rules:
-                            desc = festival.HinduCalendarEventOld.make_from_dict(festival_rules[planet_trans]).get_description_string(script=panchangam.script, include_url=True)
+                            desc = festival.HinduCalendarEventOld.make_from_dict(festival_rules[planet_trans]).get_description_string(script=panchangam.script, include_url=True, include_shlokas=True, truncate=True)
                         else:
                             logging.warning('No description found for festival %s!' % planet_trans)
                     else:
@@ -257,7 +257,7 @@ def compute_calendar(panchangam, all_tags=True):
                             # ekad_suff = ekad[ekad_suff_pos + 1:-1]
                             ekad = ekad[:ekad_suff_pos]
                         if ekad in festival_rules:
-                            desc = festival.HinduCalendarEventOld.make_from_dict(festival_rules[ekad]).get_description_string(script=panchangam.script, include_url=True)
+                            desc = festival.HinduCalendarEventOld.make_from_dict(festival_rules[ekad]).get_description_string(script=panchangam.script, include_url=True, include_shlokas=True, truncate=True)
                         else:
                             logging.warning('No description found for Ekadashi festival %s (%s)!' % (ekad, stext))
                     event.add_component(alarm)
