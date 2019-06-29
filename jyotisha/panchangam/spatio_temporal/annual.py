@@ -1281,17 +1281,17 @@ class Panchangam(common.JsonObject):
                             self.fest_days[festival_name_updated] = [assigned_day]
                 del(self.fest_days[festival_name])
 
-        # If tripurotsava coincides with maha kArtikI (kRttikA nakShatram)
-        # only then it is mahAkArtikI
+        # If tripurotsava coincides with maha kArttikI (kRttikA nakShatram)
+        # only then it is mahAkArttikI
         # else it is only tripurotsava
         if 'tripurOtsavaH' not in self.fest_days:
             logging.error('tripurOtsavaH not in self.fest_days!')
         else:
-            if self.fest_days['tripurOtsavaH'] != self.fest_days['mahA~kArtikI']:
+            if self.fest_days['tripurOtsavaH'] != self.fest_days['mahA~kArttikI']:
                 logging.debug(self.fest_days['tripurOtsavaH'])
-                logging.debug(self.fest_days['mahA~kArtikI'])
-                logging.warning('Removing mahA~kArtikI')
-                del self.fest_days['mahA~kArtikI']
+                logging.debug(self.fest_days['mahA~kArttikI'])
+                logging.warning('Removing mahA~kArttikI')
+                del self.fest_days['mahA~kArttikI']
                 # An error here implies the festivals were not assigned: adhika
                 # mAsa calc errors??
 

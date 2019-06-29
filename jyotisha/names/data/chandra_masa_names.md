@@ -10,7 +10,7 @@
 | 5 | श्रवण | zravaNa | Śravaṇa |
 | 6 | भाद्रपद | bhAdrapada | Bhādrapada |
 | 7 | आश्विन | Azvina | Āśvina |
-| 8 | कार्तिक | kArtika | Kārtika |
+| 8 | कार्त्तिक | kArttika | Kārttika |
 | 9 | मार्गशीर्ष | mArgazIrSa | Mārgaśīrṣa |
 | 10 | पौष | pauSa | Pauṣa |
 | 11 | माघ | mAgha | Māgha |
