@@ -188,7 +188,7 @@ class Panchangam(common.JsonObject):
         RAHUKALA_OCTETS = [7, 1, 6, 4, 5, 3, 2]
         GULIKAKALA_OCTETS = [6, 5, 4, 3, 2, 1, 0]
         self.kaalas = [dict() for _x in range(temporal.MAX_SZ)]
-        for d in range(1, temporal.MAX_DAYS_PER_YEAR):
+        for d in range(1, temporal.MAX_DAYS_PER_YEAR + 1):
             self.kaalas[d] = {
                 'braahma': temporal.get_kaalas(self.jd_sunset[d - 1], self.jd_sunrise[d], 13, 15),
                 'prAtaH sandhyA': temporal.get_kaalas(self.jd_sunset[d - 1], self.jd_sunrise[d], 14, 15),
