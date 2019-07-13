@@ -78,6 +78,20 @@ class Time(JsonObject):
           secs = secs % 1440
           pp = secs // 24
           return ('%d-%d' % (gg, pp))
+        elif format == 'gg-pp-vv':  # ghatika-pal-vipal
+          vv_tot = round(self.t * 3600 / 0.4)
+          logging.debug(vv_tot)
+          vv = vv_tot % 60
+          logging.debug(vv)
+          vv_tot = (vv_tot - vv) // 60
+          logging.debug(vv_tot)
+          pp = vv_tot % 60
+          logging.debug(pp)
+          vv_tot = (vv_tot - pp) // 60
+          logging.debug(vv_tot)
+          gg = vv_tot
+          logging.debug(gg)
+          return ('%d-%d-%d' % (gg, pp, vv))
         else:
           raise Exception("""Unknown format""")
 
