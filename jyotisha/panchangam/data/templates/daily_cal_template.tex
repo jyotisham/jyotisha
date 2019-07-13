@@ -4,6 +4,7 @@
 \usepackage[paperwidth=126mm,paperheight=168mm,left=2mm,right=2mm,top=8mm,bottom=1mm]{geometry}
 \usepackage[xetex]{graphicx}
 \usepackage{array}
+\usepackage{setspace}
 \usepackage{multirow}
 \usepackage{pxfonts}
 \usepackage{bbding}
@@ -141,11 +142,14 @@
 \mbox{\large\rightmoon{\small\DOWNarrow}\textsf{#4}~\rightmoon{\small\UParrow}\textsf{#3}}\\
 #5
  }
-\newcommand{\tnykdata}[6]{\large
-\mbox{#1}\\%Tithi
-\mbox{नक्षत्रम्–#2}\hspace{2ex}\parbox[c][2em][c]{10mm}{\scriptsize(#3)} \\%Nakshatram and Rashi
-\mbox{योगः–#4}\\%Yogam
-करणम्–#5\\%Karanam
+\newcommand{\tnykdata}[6]{\large%\fontsize{13pt}{16pt}\selectfont
+{#1}\\[-3pt]%Tithi
+{नक्षत्रम्–#2\hspace{2ex}\parbox[c][2em][c]{10mm}{\scriptsize(#3)}}\\[-3pt]%Nakshatram and Rashi
+{\setstretch{0.55}
+\begin{tabular}{@{}r@{}p{108mm}@{}}
+योगः–&#4\\[2pt]%Yogam
+करणम्–&#5\\%Karanam
+\end{tabular}}
 \parbox[c][2ex][c]{0.9\linewidth}{#6}
 }
 \newcommand{\rygdata}[3]{%
