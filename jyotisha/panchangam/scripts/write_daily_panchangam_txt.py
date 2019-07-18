@@ -78,12 +78,12 @@ def getName(text, script):
                  }
   if script == 'tamil':
     if text in translation:
-      return translation[text]
+      return '**%s**' % translation[text]
     else:
       logging.warning('%s not found in translation table. Transliterating to %s' % (text, jyotisha.custom_transliteration.tr(text, script)))
-      return jyotisha.custom_transliteration.tr(text, script)
+      return '**%s**' % jyotisha.custom_transliteration.tr(text, script)
   else:
-    return jyotisha.custom_transliteration.tr(text, script)
+    return '**%s**' % jyotisha.custom_transliteration.tr(text, script)
 
 
 def writeDailyText(panchangam, compute_lagnams=True, output_file_stream=sys.stdout):
@@ -116,7 +116,7 @@ def writeDailyText(panchangam, compute_lagnams=True, output_file_stream=sys.stdo
 
         [y, m, dt, t] = swe.revjul(panchangam.jd_start_utc + d - 1)
 
-        print('%02d-%s-%4d' % (dt, month[m], y), file=output_stream)
+        print('### %02d-%s-%4d' % (dt, month[m], y), file=output_stream)
 
         jd = panchangam.jd_midnight[d]
 
@@ -341,7 +341,7 @@ def writeDailyText(panchangam, compute_lagnams=True, output_file_stream=sys.stdo
           print('\n%s—%s' % (getName('dina-vizESAH', panchangam.script), '; '.join(fest_list)), file=output_stream)
 
         output_text = cleanTamilNa(output_stream.getvalue())
-        print(output_text, file=output_file_stream)
+        print(output_text.replace('\n', '\\\n'), file=output_file_stream)
         output_stream = StringIO()
 
         if m == 12 and dt == 31:
@@ -379,7 +379,7 @@ def main():
     panchangam.update_festival_details()
 
     city_name_en = jyotisha.custom_transliteration.romanise(jyotisha.custom_transliteration.tr(city.name, sanscript.IAST)).title()
-    output_file = os.path.expanduser('%s/%s-%d-%s-daily%s.txt' % ("../txt/daily", city_name_en, year, script, lagnasuff))
+    output_file = os.path.expanduser('%s/%s-%d-%s-daily%s.md' % ("../txt/daily", city_name_en, year, script, lagnasuff))
     writeDailyText(panchangam, compute_lagnams, open(output_file, 'w'))
 
 
