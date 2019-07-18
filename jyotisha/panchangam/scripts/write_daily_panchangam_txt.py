@@ -116,7 +116,7 @@ def writeDailyText(panchangam, compute_lagnams=True, output_file_stream=sys.stdo
 
         [y, m, dt, t] = swe.revjul(panchangam.jd_start_utc + d - 1)
 
-        print('### %02d-%s-%4d' % (dt, month[m], y), file=output_stream)
+        print('## %02d-%s-%4d' % (dt, month[m], y), file=output_stream)
 
         jd = panchangam.jd_midnight[d]
 
@@ -307,7 +307,7 @@ def writeDailyText(panchangam, compute_lagnams=True, output_file_stream=sys.stdo
         if panchangam.jd_moonset[d] > panchangam.jd_sunrise[d + 1]:
           moonset = '---'
 
-        print('\n%s (%s):' % (getName('LOC', panchangam.script), jyotisha.custom_transliteration.tr(panchangam.city.name, panchangam.script)), file=output_stream)
+        print('### **%s (%s)**' % (getName('LOC', panchangam.script), jyotisha.custom_transliteration.tr(panchangam.city.name, panchangam.script)), file=output_stream)
 
         if compute_lagnams:
           print('%s' % (lagna_data_str), file=output_stream)
@@ -321,14 +321,14 @@ def writeDailyText(panchangam, compute_lagnams=True, output_file_stream=sys.stdo
 
         print('%s—%s►%s' % (getName('aparAhNa-kAlaH', panchangam.script), aparahna, sayahna), file=output_stream)
         print('%s—%s' % (getName('dinAntaH', panchangam.script), dinanta), file=output_stream)
-        print('%s—%s;\n%s—%s;\n%s—%s' % (getName('rAhukAlaH', panchangam.script), rahu,
-                                         getName('yamaghaNTaH', panchangam.script), yama,
-                                         getName('gulikakAlaH', panchangam.script), gulika), file=output_stream)
+        print('%s—%s\n%s—%s\n%s—%s' % (getName('rAhukAlaH', panchangam.script), rahu,
+                                       getName('yamaghaNTaH', panchangam.script), yama,
+                                       getName('gulikakAlaH', panchangam.script), gulika), file=output_stream)
 
         shulam_end_jd = panchangam.jd_sunrise[d] + (panchangam.jd_sunset[d] - panchangam.jd_sunrise[d]) * (SHULAM[panchangam.weekday[d]][1] / 30)
-        print('%s—%s (►%s); %s*–%s' % (getName('zUlam', panchangam.script), getName(SHULAM[panchangam.weekday[d]][0], panchangam.script),
-                                       jyotisha.panchangam.temporal.Time(24 * (shulam_end_jd - jd)).toString(format=panchangam.fmt),
-                                       getName('parihAraH', panchangam.script), getName(SHULAM[panchangam.weekday[d]][2], panchangam.script)), file=output_stream)
+        print('%s—%s (►%s); %s–%s' % (getName('zUlam', panchangam.script), getName(SHULAM[panchangam.weekday[d]][0], panchangam.script),
+                                      jyotisha.panchangam.temporal.Time(24 * (shulam_end_jd - jd)).toString(format=panchangam.fmt),
+                                      getName('parihAraH', panchangam.script), getName(SHULAM[panchangam.weekday[d]][2], panchangam.script)), file=output_stream)
         # Using set as an ugly workaround since we may have sometimes assigned the same
         # festival to the same day again!
         fest_list = []
@@ -338,10 +338,18 @@ def writeDailyText(panchangam, compute_lagnams=True, output_file_stream=sys.stdo
           fest_list.append(fest_name_cleaned)
 
         if len(fest_list):
-          print('\n%s—%s' % (getName('dina-vizESAH', panchangam.script), '; '.join(fest_list)), file=output_stream)
+          print('#### %s\n%s\n' % (getName('dina-vizESAH', panchangam.script), '; '.join(fest_list)), file=output_stream)
+        else:
+          print('', file=output_stream)
 
         output_text = cleanTamilNa(output_stream.getvalue())
-        print(output_text.replace('\n', '\\\n'), file=output_file_stream)
+        output_text = output_text.replace('\n', '\\\n')
+        output_text = output_text.replace('\n\\', '\n')
+        output_text = output_text.replace('\\\n\n', '\n\n')
+        output_text = output_text.replace('\\\n#', '\n#')
+        output_text = re.sub(r'(#.*)\\\n', r'\1\n', output_text)
+        # output_text = re.sub(r'^\\', r'', output_text)
+        print(output_text, file=output_file_stream)
         output_stream = StringIO()
 
         if m == 12 and dt == 31:
