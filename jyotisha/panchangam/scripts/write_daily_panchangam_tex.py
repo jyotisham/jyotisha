@@ -211,7 +211,7 @@ def writeDailyTeX(panchangam, template_file, compute_lagnams=True, output_stream
 
         month_data = '\\sunmonth{%s}{%d}{%s}' % (jyotisha.panchangam.temporal.NAMES['RASHI_NAMES'][panchangam.script][panchangam.solar_month[d]], panchangam.solar_month_day[d], month_end_str)
 
-        print('\\caldata{%s}{%s}{%s{%s\\\\[-8pt]{\\scriptsize (%s)}}{%s}%s}' %
+        print('\\caldata{%s}{%s}{%s{%s}{%s}{%s}%s}' %
               (month[m], dt, month_data,
                jyotisha.panchangam.temporal.get_chandra_masa(panchangam.lunar_month[d],
                                                              jyotisha.panchangam.temporal.NAMES, panchangam.script),

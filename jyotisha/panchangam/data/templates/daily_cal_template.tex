@@ -108,20 +108,22 @@
 \newcommand{\solarMonthName}{}
 \newcommand{\solarMonthEndTime}{}
 \newcommand{\lunarMonthName}{}
+\newcommand{\lunarRtu}{}
 \newcommand{\solarMonthDate}{}
 \newcommand{\vaaraName}{}
 \newcommand{\rtuName}{}
 \newcommand{\ayanamName}{}
 
-\newcommand{\sunmonth}[8]{%
-\renewcommand{\samvatsaraName}{#6}
+\newcommand{\sunmonth}[9]{%
 \renewcommand{\solarMonthName}{#1}
+\renewcommand{\solarMonthDate}{#2}
 \renewcommand{\solarMonthEndTime}{#3}
 \renewcommand{\lunarMonthName}{#4}
-\renewcommand{\solarMonthDate}{#2}
-\renewcommand{\vaaraName}{#5}
-\renewcommand{\ayanamName}{#7}
-\renewcommand{\rtuName}{#8}
+\renewcommand{\lunarRtu}{#5}
+\renewcommand{\vaaraName}{#6}
+\renewcommand{\samvatsaraName}{#7}
+\renewcommand{\ayanamName}{#8}
+\renewcommand{\rtuName}{#9}
 }
 \newcommand{\tamil}[1]{%
 {\fontspec[Scale=0.8,FakeStretch=0.9,Path=../fonts/]{NotoSansTamil-Regular.ttf} \footnotesize #1}}
@@ -164,20 +166,22 @@
 \large% Fixes font size
 {\centering\begin{tabular}{c|c}
 \large \textsf{\yearname} & {\large\samvatsaraName}\\[-1ex]%YYYY
-& {\footnotesize \ayanamName \hspace{6pt} \rtuName}\\[0.4ex]
-\mbox{\sffamily\fontsize{20}{25}\selectfont {\uppercase{#1}}} & \parbox[2.6cm]{1cm}{\LARGE\solarMonthName}\\%mmm
-& \mbox{\small \solarMonthEndTime}\\
-& \parbox{3cm}{\centering\lunarMonthName}\\
-\hspace{0.465\linewidth} & \hspace{0.465\linewidth} \\
-\mbox{\sffamily\fontsize{96}{115}\selectfont #2} & \mbox{\fontsize{90}{24}\selectfont \devanumber{\solarMonthDate}}\\[2.2ex]%DD
-\mbox{\sffamily\fontsize{24}{28}\selectfont\uppercase{#8}} & \parbox[2.6cm]{1cm}{\LARGE\vaaraName}\\[1.2ex]%Day of the week
+& {\footnotesize \ayanamName \hspace{6pt} \rtuName}\\[0.2ex]
+\mbox{\sffamily\fontsize{20}{25}\selectfont {\uppercase{#1}}} & \parbox[c][14pt][c]{1cm}{\LARGE\solarMonthName}\\[-4pt]%mmm
+& {\mbox{\small \solarMonthEndTime}}\\[-2pt]
+& {\parbox[c][15pt]{52mm}{\centering\lunarMonthName}}\\[-6pt]
+& {\parbox[c][10pt]{52mm}{\centering\scriptsize(\lunarRtu)}}\\[-5pt]
+\hspace{0.465\linewidth} & \hspace{0.465\linewidth} \\[-6pt]
+\mbox{\sffamily\fontsize{96}{115}\selectfont #2} & \mbox{\fontsize{90}{24}\selectfont \devanumber{\solarMonthDate}}\\[1.6ex]%DD
+\mbox{\sffamily\fontsize{24}{28}\selectfont\uppercase{#8}} & \parbox[c][24pt][c]{1cm}{\LARGE\vaaraName}\\[1.2ex]%Day of the week
 \hline
 \end{tabular}
-}\mbox{}\\[1pt]
+}\mbox{}\\[-4pt]
 #4\\[0.5em]%Sun rise, kalas etc
-#5\\[1.6em]%Tithi, Nakshatram, Varam, Yogam
-\parbox[c][4em][c]{0.95\linewidth}{\centering\normalsize\textcolor{RoyalBlue}{#7}}\\\vfill%Festivals
-#6%Rahu, Yama etc
+#5\\[1em]%Tithi, Nakshatram, Varam, Yogam
+\vfill
+{\parbox[b][70pt]{0.95\linewidth}{\centering\normalsize\textcolor{RoyalBlue}{#7}}}\\[0pt]%Festivals
+#6\\[-27pt]%Rahu, Yama etc
 \clearpage
 }
 
