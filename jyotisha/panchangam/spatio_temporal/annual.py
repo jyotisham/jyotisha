@@ -1609,7 +1609,7 @@ common.update_json_class_index(sys.modules[__name__])
 # logging.debug(common.json_class_index)
 
 
-def get_panchangam(city, year, script, fmt='hh:mm', compute_lagnams=False, precomputed_json_dir="~/Documents"):
+def get_panchangam(city, year, script, fmt='hh:mm', compute_lagnams=False, precomputed_json_dir="~/Documents", ayanamsha_id=swe.SIDM_LAHIRI):
     fname_det = os.path.expanduser('%s/%s-%s-detailed.json' % (precomputed_json_dir, city.name, year))
     fname = os.path.expanduser('%s/%s-%s.json' % (precomputed_json_dir, city.name, year))
 
@@ -1622,7 +1622,7 @@ def get_panchangam(city, year, script, fmt='hh:mm', compute_lagnams=False, preco
         return JsonObject.read_from_file(filename=fname_det)
     else:
         sys.stderr.write('No precomputed data available. Computing panchangam...\n')
-        panchangam = Panchangam(city=city, year=year, script=script, fmt=fmt, compute_lagnams=compute_lagnams)
+        panchangam = Panchangam(city=city, year=year, script=script, fmt=fmt, compute_lagnams=compute_lagnams, ayanamsha_id=ayanamsha_id)
         sys.stderr.write('Writing computed panchangam to %s...\n' % fname)
 
         try:
