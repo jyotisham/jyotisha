@@ -1,7 +1,7 @@
 % !Tex program = xelatex
 \documentclass[12pt]{article}
 \usepackage[dvipsnames]{xcolor} 
-\usepackage[paperwidth=126mm,paperheight=168mm,left=2mm,right=2mm,top=8mm,bottom=1mm]{geometry}
+\usepackage[paperwidth=126mm,paperheight=168mm,left=2mm,right=2mm,top=8mm,bottom=2mm]{geometry}
 \usepackage[xetex]{graphicx}
 \usepackage{array}
 \usepackage{setspace}
@@ -12,6 +12,12 @@
 \usepackage{fontspec}
 \usepackage{multicol}
 \usepackage{supertabular}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{}
+\lhead{}
+\cfoot{}
 \usepackage{../templates/listofitems}
 \newcommand{\yearname}{2015}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -68,7 +74,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% END MOONPHASE CODE
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \setlength{\footskip}{0mm}
+\setlength{\footskip}{2mm}
 % PDF SETUP
 % ---- FILL IN HERE THE DOC TITLE AND AUTHOR
 \defaultfontfeatures{Scale=MatchLowercase,Mapping=tex-text}
@@ -80,7 +86,7 @@
 \newcount\tempone \newcount\temptwo
 \newcommand{\devanumber}[1]{%
 \num=#1\devanumberrecurse}
-
+% \setlength{\textheight}{158mm}
 \newcommand{\devanumberrecurse}{%
 {\tempone=\num
 %  \showthe\tempone\ %
@@ -151,8 +157,8 @@
 \begin{tabular}{@{}r@{}p{108mm}@{}}
 योगः–&#4\\[2pt]%Yogam
 करणम्–&#5\\%Karanam
-\end{tabular}}
-\parbox[c][2ex][c]{0.9\linewidth}{#6}
+\end{tabular}}\mbox{}\\[3pt]
+\parbox[c][2ex][c]{0.9\linewidth}{\scriptsize #6}%Lagna, if required
 }
 \newcommand{\rygdata}[3]{%
 \begin{minipage}{\linewidth}
@@ -161,28 +167,29 @@
 \small राहु॰~\textsf{#1}~~यम॰~\textsf{#2}~~गुलिक॰~\textsf{#3}%Rahu Yama Gulika
 \end{minipage}
 }
-\newcommand{\caldata}[8]{%
+\newcommand{\caldata}[7]{%
+\clearpage
+\begin{minipage}{\linewidth}
 #3% Calls \sunmonth
 \large% Fixes font size
 {\centering\begin{tabular}{c|c}
 \large \textsf{\yearname} & {\large\samvatsaraName}\\[-1ex]%YYYY
 & {\footnotesize \ayanamName \hspace{6pt} \rtuName}\\[0.2ex]
-\mbox{\sffamily\fontsize{20}{25}\selectfont {\uppercase{#1}}} & \parbox[c][14pt][c]{1cm}{\LARGE\solarMonthName}\\[-4pt]%mmm
+\mbox{\sffamily\fontsize{20}{25}\selectfont {\uppercase{#1}}} & \parbox[c][14pt][c]{3cm}{\centering\LARGE\solarMonthName}\\[-4pt]%mmm
 & {\mbox{\small \solarMonthEndTime}}\\[-2pt]
 & {\parbox[c][15pt]{52mm}{\centering\lunarMonthName}}\\[-6pt]
 & {\parbox[c][10pt]{52mm}{\centering\scriptsize(\lunarRtu)}}\\[-5pt]
 \hspace{0.465\linewidth} & \hspace{0.465\linewidth} \\[-6pt]
 \mbox{\sffamily\fontsize{96}{115}\selectfont #2} & \mbox{\fontsize{90}{24}\selectfont \devanumber{\solarMonthDate}}\\[1.6ex]%DD
-\mbox{\sffamily\fontsize{24}{28}\selectfont\uppercase{#8}} & \parbox[c][24pt][c]{1cm}{\LARGE\vaaraName}\\[1.2ex]%Day of the week
+\mbox{\sffamily\fontsize{24}{28}\selectfont\uppercase{#7}} & \parbox[c][24pt][t]{1cm}{\centering\LARGE\vaaraName}\\[1.2ex]%Day of the week
 \hline
 \end{tabular}
 }\mbox{}\\[-4pt]
 #4\\[0.5em]%Sun rise, kalas etc
 #5\\[1em]%Tithi, Nakshatram, Varam, Yogam
-\vfill
-{\parbox[b][70pt]{0.95\linewidth}{\centering\normalsize\textcolor{RoyalBlue}{#7}}}\\[0pt]%Festivals
-#6\\[-27pt]%Rahu, Yama etc
-\clearpage
+\vspace{\fill}
+{\parbox[b][70pt]{0.95\linewidth}{\centering\normalsize\textcolor{RoyalBlue}{#6}}}%Festivals
+\end{minipage}
 }
 
 \addtolength{\headsep}{-3ex}

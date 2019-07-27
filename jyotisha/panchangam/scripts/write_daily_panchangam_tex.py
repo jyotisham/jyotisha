@@ -62,7 +62,7 @@ def writeDailyTeX(panchangam, template_file, compute_lagnams=True, output_stream
           % jyotisha.custom_transliteration.print_lat_lon(panchangam.city.latitude, panchangam.city.longitude), file=output_stream)
     print('\\hrule', file=output_stream)
     print('\\end{center}', file=output_stream)
-    print('\\clearpage', file=output_stream)
+    print('\\clearpage\\pagestyle{fancy}', file=output_stream)
 
     panchangam.get_kaalas()
 
@@ -236,14 +236,13 @@ def writeDailyTeX(panchangam, template_file, compute_lagnams=True, output_stream
                                                                      sayamsandhya, sayamsandhya_end,
                                                                      ratriyama1, sayana_time, dinanta), file=output_stream)
         if compute_lagnams:
-            print('{\\tnykdata{%s}%%\n{%s}{%s}%%\n{%s}%%\n{%s}{\\scriptsize %s}\n}'
+            print('{\\tnykdata{%s}%%\n{%s}{%s}%%\n{%s}%%\n{%s}{%s}\n}'
                   % (tithi_data_str, nakshatram_data_str, rashi_data_str, yoga_data_str,
                      karanam_data_str, lagna_data_str), file=output_stream)
         else:
             print('{\\tnykdata{%s}%%\n{%s}{%s}%%\n{%s}%%\n{%s}{\\scriptsize %s}\n}'
                   % (tithi_data_str, nakshatram_data_str, rashi_data_str, yoga_data_str,
                      karanam_data_str, ''), file=output_stream)
-        print('{\\rygdata{%s}{%s}{%s}}' % (rahu, yama, gulika), file=output_stream)
 
         # Using set as an ugly workaround since we may have sometimes assigned the same
         # festival to the same day again!
@@ -251,6 +250,7 @@ def writeDailyTeX(panchangam, template_file, compute_lagnams=True, output_stream
             [jyotisha.custom_transliteration.tr(f, panchangam.script).replace('★', '$^\\star$') for f in sorted(set(panchangam.festivals[d]))]), file=output_stream)
 
         print('{%s} ' % WDAY[panchangam.weekday[d]], file=output_stream)
+        print('\\cfoot{\\rygdata{%s}{%s}{%s}}' % (rahu, yama, gulika), file=output_stream)
 
         if m == 12 and dt == 31:
             break
