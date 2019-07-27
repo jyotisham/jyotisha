@@ -38,6 +38,9 @@ def cleanTamilNa(text):
 
 
 def getName(text, script):
+  LOC = {'tamil': 'குறிப்பிட்ட ஊருக்கான தகவல்கள்', 'devanagari': 'क्षेत्रविशेषस्य विवरणानि', 'iast': 'Location-specific data'}
+  if text == 'LOC':
+    return LOC[script]
   translation = {'candrAstamayaH': 'சந்த்ராஸ்தமனம்',
                  'candrOdayaH': 'சந்த்ரோதயம்',
                  'cAndramAnam': 'சாந்த்ரமானம்',
@@ -128,10 +131,9 @@ def writeDailyICS(panchangam, compute_lagnams=True):
 
         [y, m, dt, t] = swe.revjul(panchangam.jd_start_utc + d - 1)
 
-        print('*%s*' % jyotisha.custom_transliteration.tr('zrI kAJcI-kAmakOTi-pITham vEda-dharmazAstra-paripAlana-sabhA dRggaNita-paJcAGgam', panchangam.script), file=output_stream)
         print('*%02d-%s-%4d*' % (dt, month[m], y), file=output_stream)
         event = Event()
-        event.add('summary', '%s %02d-%s-%4d (%s)' % (WDAY[panchangam.weekday[d]][:3].upper(), dt, month[m], y, cleanTamilNa(jyotisha.custom_transliteration.tr(panchangam.city.name, panchangam.script))))
+        event.add('summary', '%02d-%s-%4d (%s)' % (dt, month[m], y, cleanTamilNa(jyotisha.custom_transliteration.tr(panchangam.city.name, panchangam.script))))
 
         jd = panchangam.jd_midnight[d]
 
@@ -316,7 +318,7 @@ def writeDailyICS(panchangam, compute_lagnams=True):
         if panchangam.jd_moonset[d] > panchangam.jd_sunrise[d + 1]:
           moonset = '---'
 
-        print('\nLocation-specific data (for %s):' % jyotisha.custom_transliteration.tr(panchangam.city.name, panchangam.script), file=output_stream)
+        print('**%s (%s)**' % (getName('LOC', panchangam.script), jyotisha.custom_transliteration.tr(panchangam.city.name, panchangam.script)), file=output_stream)
 
         if compute_lagnams:
           print('%s' % (lagna_data_str), file=output_stream)
@@ -341,26 +343,29 @@ def writeDailyICS(panchangam, compute_lagnams=True):
         # Using set as an ugly workaround since we may have sometimes assigned the same
         # festival to the same day again!
         fest_list = []
-        fest_classes = ['kAJcI', 'EkAdazI']
         for f in sorted(set(panchangam.festivals[d])):
-          for fcl in fest_classes:
-            if f.find(fcl) != -1:
-              fest_name_cleaned = jyotisha.custom_transliteration.tr(f.replace('kAJcI jagadguru', 'jagadguru'), panchangam.script).replace('~', ' ')
-              fest_name_cleaned = re.sub('[{}]', '', fest_name_cleaned).replace('\\', '')
-              fest_list.append(fest_name_cleaned.replace('ஆராதநா', 'ஆராதனை'))
-        if len(fest_list):
-          print('\n*%s*—%s' % (getName('dina-vizESAH', panchangam.script), '; '.join(fest_list)), file=output_stream)
+          fest_name_cleaned = jyotisha.custom_transliteration.tr(f, panchangam.script).replace('~', ' ').replace('tamil', '')
+          fest_name_cleaned = re.sub('[{}]', '', fest_name_cleaned).replace('\\', '').replace('textsf', '').replace('To', '►').replace('RIGHTarrow', '►')
+          fest_list.append(fest_name_cleaned)
 
-        dinanta_hh, dinanta_mm = dinanta.split(':')
-        dinanta_hh = int(dinanta_hh) - 24
-        dinanta_mm = int(dinanta_mm[:-1])
-        footer_text = 'Note: All times are shown in 24h format. Times beyond midnight are shown as %s, meaning %02d:%02d am tomorrow.' % (dinanta, dinanta_hh, dinanta_mm)
-        output_text = cleanTamilNa(output_stream.getvalue()) + '\n\n%s' % footer_text
+        if len(fest_list):
+          print('*%s*\n%s\n' % (getName('dina-vizESAH', panchangam.script), '; '.join(fest_list)), file=output_stream)
+        else:
+          print('', file=output_stream)
+
+        if panchangam.fmt == 'hh:mm*':
+          dinanta_hh, dinanta_mm = dinanta.split(':')
+          dinanta_hh = int(dinanta_hh) - 24
+          dinanta_mm = int(dinanta_mm[:-1])
+          footer_text = 'Note: All times are shown in 24h format. Times beyond midnight are shown as %s, meaning %02d:%02d am tomorrow.' % (dinanta, dinanta_hh, dinanta_mm)
+          output_text = cleanTamilNa(output_stream.getvalue()) + '\n\n%s' % footer_text
+        else:
+          output_text = cleanTamilNa(output_stream.getvalue())
 
         event.add('dtstart', date(y, m, dt))
         event.add('dtend', (datetime(y, m, dt) + timedelta(1)).date())
         event.add_component(alarm)
-        event.add('description', output_text.replace('\n', '<br/>'))
+        event.add('description', output_text)
         event['X-MICROSOFT-CDO-ALLDAYEVENT'] = 'TRUE'
         event['TRANSP'] = 'TRANSPARENT'
         event['X-MICROSOFT-CDO-BUSYSTATUS'] = 'FREE'
@@ -404,8 +409,10 @@ def main():
     panchangam.update_festival_details()
 
     ics_calendar = writeDailyICS(panchangam, compute_lagnams)
-    output_file = os.path.expanduser('%s/%s-%d-%s-daily.ics' % ("~/Documents", city.name, year, script))
+    city_name_en = jyotisha.custom_transliteration.romanise(jyotisha.custom_transliteration.tr(city.name, sanscript.IAST)).title()
+    output_file = os.path.expanduser('%s/%s-%d-%s-daily.ics' % ("../ics/daily", city_name_en, year, script))
     write_to_file(ics_calendar, output_file)
+    print('Output ICS written to %s' % output_file, file=sys.stderr)
 
 
 if __name__ == '__main__':
