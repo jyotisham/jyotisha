@@ -1309,9 +1309,13 @@ class Panchangam(common.JsonObject):
         if 'yajurvEda-upAkarma' not in self.fest_days:
             logging.error('yajurvEda-upAkarma not in festivals!')
         else:
-            self.fest_days['varalakSmI-vratam'] = [self.fest_days['yajurvEda-upAkarma'][0] -
-                                                   ((self.weekday_start - 1 + self.fest_days['yajurvEda-upAkarma'][
-                                                       0] - 5) % 7)]
+            # Extended for longer calendars where more than one upAkarma may be there
+            self.fest_days['varalakSmI-vratam'] = []
+            for d in self.fest_days['yajurvEda-upAkarma']:
+                self.fest_days['varalakSmI-vratam'].append(d - ((self.weekday_start - 1 + d - 5) % 7))
+            # self.fest_days['varalakSmI-vratam'] = [self.fest_days['yajurvEda-upAkarma'][0] -
+            #                                        ((self.weekday_start - 1 + self.fest_days['yajurvEda-upAkarma'][
+            #                                            0] - 5) % 7)]
 
         relative_festival_rules = read_old_festival_rules_dict(
             os.path.join(CODE_ROOT, 'panchangam/temporal/festival/legacy/relative_festival_rules.json'))
