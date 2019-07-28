@@ -732,10 +732,10 @@ class Panchangam(common.JsonObject):
 
             if self.solar_month[d] == 1 and self.solar_month_day[d] > 10:
                 if self.jd_sunset[d] < agni_jd_start < self.jd_sunset[d + 1]:
-                    self.fest_days['agninakSatra-ArambhaH'] = [d + 1]
+                    self.add_festival('agninakSatra-ArambhaH', d + 1, debug_festivals)
             if self.solar_month[d] == 2 and self.solar_month_day[d] > 10:
                 if self.jd_sunset[d] < agni_jd_end < self.jd_sunset[d + 1]:
-                    self.fest_days['agninakSatra-samApanam'] = [d + 1]
+                    self.add_festival('agninakSatra-samApanam', d + 1, debug_festivals)
 
             # GAJACHHAYA YOGA
             if self.solar_month[d] == 6 and self.solar_month_day[d] == 1:
@@ -1089,7 +1089,7 @@ class Panchangam(common.JsonObject):
 
                 if angam_type == 'day' and month_type == 'solar_month' and self.solar_month[d] == month_num:
                     if self.solar_month_day[d] == angam_num:
-                        self.fest_days[festival_name] = [d]
+                        self.add_festival(festival_name, d, debug_festivals)
                 elif (month_type == 'lunar_month' and ((self.lunar_month[d] == month_num or month_num == 0) or ((self.lunar_month[d + 1] == month_num and angam_num == 1)))) or \
                         (month_type == 'solar_month' and (self.solar_month[d] == month_num or month_num == 0)):
                     # Using 0 as a special tag to denote every month!
@@ -1243,6 +1243,7 @@ class Panchangam(common.JsonObject):
             if self.lunar_month[d] == 1 and self.lunar_month[d - 1] != 1:
                 lunar_y_start_d.append(d)
 
+        period_start_year = swe.revjul(self.jd_midnight[1])[0]
         for festival_name in festival_rules:
             if festival_name in self.fest_days and 'year_start' in festival_rules[festival_name]:
                 fest_start_year = festival_rules[festival_name]['year_start']
@@ -1254,9 +1255,8 @@ class Panchangam(common.JsonObject):
                         # In fact they will be roughly 354 days apart, again!
                         logging.warning('Multiple occurrences of festival %s within year. Check?: %s' % (festival_name, str(self.fest_days[festival_name])))
                 for assigned_day in self.fest_days[festival_name]:
-                    assigned_day_year = swe.revjul(self.jd_midnight[assigned_day])[0]
                     if month_type == 'solar_month':
-                        fest_num = assigned_day_year + 3100 - fest_start_year + 1
+                        fest_num = period_start_year + 3100 - fest_start_year + 1
                         for start_day in solar_y_start_d:
                             if assigned_day >= start_day:
                                 fest_num += 1
@@ -1264,12 +1264,12 @@ class Panchangam(common.JsonObject):
                         if festival_rules[festival_name]['angam_number'] == 1 and festival_rules[festival_name]['month_number'] == 1:
                             # Assigned day may be less by one, since prathama may have started after sunrise
                             # Still assume assigned_day >= lunar_y_start_d!
-                            fest_num = assigned_day_year + 3100 - fest_start_year + 1
+                            fest_num = period_start_year + 3100 - fest_start_year + 1
                             for start_day in lunar_y_start_d:
                                 if assigned_day >= start_day:
                                     fest_num += 1
                         else:
-                            fest_num = assigned_day_year + 3100 - fest_start_year + 1
+                            fest_num = period_start_year + 3100 - fest_start_year + 1
                             for start_day in lunar_y_start_d:
                                 if assigned_day >= start_day:
                                     fest_num += 1
@@ -1334,9 +1334,9 @@ class Panchangam(common.JsonObject):
                 elif len(matched_festivals) > 1:
                     logging.error('Relative festival %s not in fest_days! Found more than one approximate match: %s' % (rel_festival_name, str(matched_festivals)))
                 else:
-                    self.fest_days[festival_name] = [self.fest_days[matched_festivals[0]][-1] + offset]
+                    self.fest_days[festival_name] = [x + offset for x in self.fest_days[matched_festivals[0]]]
             else:
-                self.fest_days[festival_name] = [self.fest_days[rel_festival_name][-1] + offset]
+                self.fest_days[festival_name] = [x + offset for x in self.fest_days[rel_festival_name]]
 
         for festival_name in self.fest_days:
             for j in range(0, len(self.fest_days[festival_name])):
