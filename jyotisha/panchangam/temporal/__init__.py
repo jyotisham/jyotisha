@@ -355,7 +355,7 @@ def get_angam_span(jd1, jd2, angam_type, target, ayanamsha_id=swe.SIDM_LAHIRI, d
 
         if debug:
             logging.debug((jd_now, revjul(jd_now), angam_now, get_angam_float(jd_now, angam_type, ayanamsha_id=ayanamsha_id)))
-        if angam_now < target:
+        if angam_now < target or (target == 1 and angam_now == num_angas):
             if debug:
                 logging.debug(('jd_bracket_L ', jd_now))
             jd_bracket_L = jd_now
