@@ -200,8 +200,8 @@ class Panchangam(common.JsonObject):
             self.jd_start_utc - self.tithi_sunrise[1] - 2, self.jd_start_utc - self.tithi_sunrise[1] + 2, temporal.TITHI, 30, ayanamsha_id=self.ayanamsha_id)
         this_new_moon_start, this_new_moon_end = temporal.get_angam_span(last_new_moon_start + 24, last_new_moon_start + 32, temporal.TITHI, 30, ayanamsha_id=self.ayanamsha_id)
         # Check if current mAsa is adhika here
-        isAdhika = temporal.get_solar_rashi(last_new_moon_end, ayanamsha_id=self.ayanamsha_id) == \
-                   temporal.get_solar_rashi(this_new_moon_end, ayanamsha_id=self.ayanamsha_id)
+        isAdhika = temporal.get_solar_rashi(last_new_moon_end, ayanamsha_id=self.ayanamsha_id) ==\
+            temporal.get_solar_rashi(this_new_moon_end, ayanamsha_id=self.ayanamsha_id)
 
         while last_new_moon_start < self.jd_start_utc + self.duration + 1:
             next_new_moon_start, next_new_moon_end = temporal.get_angam_span(this_new_moon_start + 24, this_new_moon_start + 32, temporal.TITHI, 30, ayanamsha_id=self.ayanamsha_id)
@@ -216,8 +216,8 @@ class Panchangam(common.JsonObject):
                 else:
                     self.lunar_month[i] = last_solar_month
 
-            isAdhika = temporal.get_solar_rashi(this_new_moon_end, ayanamsha_id=self.ayanamsha_id) == \
-                       temporal.get_solar_rashi(next_new_moon_end, ayanamsha_id=self.ayanamsha_id)
+            isAdhika = temporal.get_solar_rashi(this_new_moon_end, ayanamsha_id=self.ayanamsha_id) ==\
+                temporal.get_solar_rashi(next_new_moon_end, ayanamsha_id=self.ayanamsha_id)
             last_new_moon_start = this_new_moon_start
             last_new_moon_end = this_new_moon_end
             this_new_moon_start = next_new_moon_start
