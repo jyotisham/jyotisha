@@ -42,7 +42,7 @@ class Panchangam(common.JsonObject):
         self.jd_start_utc = swe.julday(self.start_date[0], self.start_date[1], self.start_date[2], 0)
         self.jd_end_utc = swe.julday(self.end_date[0], self.end_date[1], self.end_date[2], 0)
 
-        self.duration = int(self.jd_end_utc - self.jd_start_utc)
+        self.duration = int(self.jd_end_utc - self.jd_start_utc) + 1
         self.len = int(self.duration + 4)  # some buffer, for various look-ahead calculations
 
         self.weekday_start = swe.day_of_week(self.jd_start_utc) + 1
