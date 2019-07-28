@@ -1235,6 +1235,14 @@ class Panchangam(common.JsonObject):
                 self.add_festival('paJcAGga-paThanam', d, debug_festivals)
 
         # Update festival numbers if they exist
+        solar_y_start_d = []
+        lunar_y_start_d = []
+        for d in range(1, self.duration + 1):
+            if self.solar_month[d] == 1 and self.solar_month[d - 1] != 1:
+                solar_y_start_d.append(d)
+            if self.lunar_month[d] == 1 and self.lunar_month[d - 1] != 1:
+                lunar_y_start_d.append(d)
+
         for festival_name in festival_rules:
             if festival_name in self.fest_days and 'year_start' in festival_rules[festival_name]:
                 fest_start_year = festival_rules[festival_name]['year_start']
@@ -1246,22 +1254,25 @@ class Panchangam(common.JsonObject):
                         # In fact they will be roughly 354 days apart, again!
                         logging.warning('Multiple occurrences of festival %s within year. Check?: %s' % (festival_name, str(self.fest_days[festival_name])))
                 for assigned_day in self.fest_days[festival_name]:
+                    assigned_day_year = swe.revjul(self.jd_midnight[assigned_day])[0]
                     if month_type == 'solar_month':
-                        if self.solar_month.count(1) == 0:
-                            # fest_num = y + 3100 + (assigned_day >= self.solar_month.index(1)) - fest_start_year + 1
-                            fest_num = y + 3100 + (1) - fest_start_year + 1
-                        else:
-                            fest_num = y + 3100 + (assigned_day >= self.solar_month.index(1)) - fest_start_year + 1
+                        fest_num = assigned_day_year + 3100 - fest_start_year + 1
+                        for start_day in solar_y_start_d:
+                            if assigned_day >= start_day:
+                                fest_num += 1
                     elif month_type == 'lunar_month':
                         if festival_rules[festival_name]['angam_number'] == 1 and festival_rules[festival_name]['month_number'] == 1:
                             # Assigned day may be less by one, since prathama may have started after sunrise
-                            # Still assume assigned_day >= self.lunar_month.index(1)!
-                            fest_num = y + 3100 + (1) - fest_start_year + 1
+                            # Still assume assigned_day >= lunar_y_start_d!
+                            fest_num = assigned_day_year + 3100 - fest_start_year + 1
+                            for start_day in lunar_y_start_d:
+                                if assigned_day >= start_day:
+                                    fest_num += 1
                         else:
-                            if self.lunar_month.count(1) == 0:
-                                fest_num = y + 3100 + (1) - fest_start_year + 1
-                            else:
-                                fest_num = y + 3100 + (assigned_day >= self.lunar_month.index(1)) - fest_start_year + 1
+                            fest_num = assigned_day_year + 3100 - fest_start_year + 1
+                            for start_day in lunar_y_start_d:
+                                if assigned_day >= start_day:
+                                    fest_num += 1
 
                     if fest_num <= 0:
                         logging.warning('Festival %s is only in the future!' % festival_name)
