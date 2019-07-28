@@ -393,24 +393,31 @@ class Panchangam(common.JsonObject):
                     ekadashi_paksha = 'krishna'
                 else:
                     ekadashi_paksha = 'shukla'
-                if ekadashi_tithi_days in [[10, 11, 12], [11, 11, 12], [10, 12, 12]]:
+                if ekadashi_tithi_days in [[11, 11, 12], [10, 12, 12]]:
                     smaarta_ekadashi_fday = d + 1
                     tithi_arunodayam = temporal.get_tithi(self.jd_sunrise[d + 1] - (1 / 15.0) * (self.jd_sunrise[d + 1] - self.jd_sunrise[d]), ayanamsha_id=self.ayanamsha_id)
-                    if tithi_arunodayam == 10:
+                    if tithi_arunodayam % 15 == 10:
                         vaishnava_ekadashi_fday = d + 2
                     else:
                         vaishnava_ekadashi_fday = d + 1
-                elif ekadashi_tithi_days in [[10, 12, 13], [11, 12, 13], [11, 12, 12]]:
+                elif ekadashi_tithi_days in [[10, 12, 13], [11, 12, 13], [11, 12, 12], [11, 12, 14]]:
                     smaarta_ekadashi_fday = d
                     tithi_arunodayam = temporal.get_tithi(self.jd_sunrise[d] - (1 / 15.0) * (self.jd_sunrise[d] - self.jd_sunrise[d - 1]), ayanamsha_id=self.ayanamsha_id)
-                    if tithi_arunodayam == 10:
-                        vaishnava_ekadashi_fday = d + 1
-                    else:
+                    if tithi_arunodayam % 15 == 11 and ekadashi_tithi_days in [[11, 12, 13], [11, 12, 14]]:
                         vaishnava_ekadashi_fday = d
+                    else:
+                        vaishnava_ekadashi_fday = d + 1
                 elif ekadashi_tithi_days in [[10, 11, 13], [11, 11, 13]]:
                     smaarta_ekadashi_fday = d
                     vaishnava_ekadashi_fday = d + 1
                     yati_ekadashi_fday = d + 1
+                else:
+                    pass
+                    # These combinations are taken care of, either in the past or future.
+                    # if ekadashi_tithi_days == [10, 11, 12]:
+                    #     logging.debug('Not assigning. Maybe tomorrow?')
+                    # else:
+                    #     logging.debug(('!!', d, ekadashi_tithi_days))
 
                 if yati_ekadashi_fday == smaarta_ekadashi_fday == vaishnava_ekadashi_fday is None:
                     # Must have already assigned
