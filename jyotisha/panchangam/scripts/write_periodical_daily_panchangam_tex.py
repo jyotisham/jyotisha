@@ -50,7 +50,6 @@ def writeDailyTeX(panchangam, template_file, compute_lagnams=True, output_stream
     print('\\mbox{}', file=output_stream)
     print('\\renewcommand{\\yearname}{%d}' % panchangam.start_date[0], file=output_stream)
     print('\\begin{center}', file=output_stream)
-    logging.debug((panchangam.start_date + panchangam.end_date))
     print('{\\sffamily \\fontsize{60}{60}\\selectfont  %4d-%02d-%02d–%4d-%02d-%02d\\\\[0.5cm]}' % (panchangam.start_date[0], panchangam.start_date[1], panchangam.start_date[2], panchangam.end_date[0], panchangam.end_date[1], panchangam.end_date[2]), file=output_stream)
     print('\\mbox{\\fontsize{48}{48}\\selectfont %s–%s}\\\\'
           % (samvatsara_names[0], samvatsara_names[-1]), file=output_stream)
@@ -191,10 +190,7 @@ def writeDailyTeX(panchangam, template_file, compute_lagnams=True, output_stream
 
         if panchangam.solar_month[d] == 1 and panchangam.solar_month[d - 1] == 12:
             # Move to next year
-            logging.debug(samvatsara_names)
-            logging.debug(yname)
             yname = samvatsara_names[samvatsara_names.index(yname) + 1]
-            logging.debug(yname)
 
         # Assign samvatsara, ayana, rtu #
         sar_data = '{%s}{%s}{%s}' % (yname,
