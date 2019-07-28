@@ -1334,12 +1334,6 @@ class Panchangam(common.JsonObject):
             else:
                 self.fest_days[festival_name] = [self.fest_days[rel_festival_name][-1] + offset]
 
-        # self.fest_days['ta:kapAlI veLLi bhUta vAhan2am'] = [panguni_uttaram - 6]
-        # self.fest_days['ta:kapAlI bhikSATan2ar'] = [panguni_uttaram - 1]
-
-        # if debugFestivals:
-        #     print('%', self.fest_days)
-
         for festival_name in self.fest_days:
             for j in range(0, len(self.fest_days[festival_name])):
                 self.festivals[self.fest_days[festival_name][j]].append(festival_name)
