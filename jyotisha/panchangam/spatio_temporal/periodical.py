@@ -1364,6 +1364,116 @@ class Panchangam(common.JsonObject):
             for j in range(0, len(self.fest_days[festival_name])):
                 self.festivals[self.fest_days[festival_name][j]].append(festival_name)
 
+    def assign_shraddha_tithi(self, debug_shraddha_tithi=True):
+        def _assign(self, fday, tithi):
+            if self.shraddha_tithi[fday] == [None] or self.shraddha_tithi[fday] == [tithi]:
+                self.shraddha_tithi[fday] = [tithi]
+            else:
+                self.shraddha_tithi[fday].append(tithi)
+                if self.shraddha_tithi[fday - 1].count(tithi) == 1:
+                    self.shraddha_tithi[fday - 1].remove(tithi)
+
+        nDays = self.len
+        self.shraddha_tithi = [[None] for _x in range(nDays)]
+        for d in range(1, self.duration + 1):
+            [y, m, dt, t] = swe.revjul(self.jd_start_utc + d - 1)
+
+            angams = self.get_angams_for_kaalas(d, temporal.get_tithi, 'aparaahna')
+            angam_start = angams[0]
+            next_angam = (angam_start % 30) + 1
+            nnext_angam = (next_angam % 30) + 1
+
+            # Calc vyaaptis
+            t_start_d, t_end_d = temporal.get_kaalas(self.jd_sunrise[d], self.jd_sunset[d], 3, 5)
+            vyapti_1 = t_end_d - t_start_d
+            vyapti_2 = 0
+            for [tithi, tithi_end] in self.tithi_data[d]:
+                if tithi_end is None:
+                    pass
+                elif t_start_d < tithi_end < t_end_d:
+                    vyapti_1 = tithi_end - t_start_d
+                    vyapti_2 = t_end_d - tithi_end
+
+            t_start_d1, t_end_d1 = temporal.get_kaalas(self.jd_sunrise[d + 1], self.jd_sunset[d + 1], 3, 5)
+            vyapti_3 = t_end_d1 - t_start_d1
+            for [tithi, tithi_end] in self.tithi_data[d + 1]:
+                if tithi_end is None:
+                    pass
+                elif t_start_d1 < tithi_end < t_end_d1:
+                    vyapti_3 = tithi_end - t_start_d1
+
+            # Combinations
+            # <a> 1 1 1 1 - d + 1: 1
+            # <b> 1 1 2 2 - d: 1
+            # <f> 1 1 2 3 - d: 1, d+1: 2
+            # <e> 1 1 1 2 - d, or vyApti (just in case next day aparahna is slightly longer): 1
+            # <d> 1 1 3 3 - d: 1, d + 1: 2
+            # <h> 1 2 3 3 - d: 2
+            # <c> 1 2 2 2 - d + 1: 2
+            # <g> 1 2 2 3 - vyApti: 2
+            fday = -1
+            reason = '?'
+            # if angams[1] == angam_start:
+            #     logging.debug('Pre-emptively assign %2d to %3d, can be removed tomorrow if need be.' % (angam_start, d))
+            #     _assign(self, d, angam_start)
+            if angams[3] == angam_start:  # <a>
+                # Full aparaahnas on both days, so second day
+                fday = d + 1
+                s_tithi = angam_start
+                reason = '%2d incident on consecutive days; paraviddhA' % s_tithi
+            elif (angams[1] == angam_start) and (angams[2] == next_angam):  # <b>/<f>
+                fday = d
+                s_tithi = angams[0]
+                reason = '%2d not incident on %3d' % (s_tithi, d + 1)
+                if angams[3] == nnext_angam:  # <f>
+                    logging.debug('%03d [%4d-%02d-%02d]: %s' % (d, y, m, dt, 'Need to assign %2d to %3d as it is present only at start of aparAhna tomorrow!)' % (next_angam, d + 1)))
+                    _assign(self, d + 1, next_angam)
+            elif angams[2] == angam_start:  # <e>
+                if vyapti_1 > vyapti_3:
+                    # Most likely
+                    fday = d
+                    s_tithi = angams[2]
+                    reason = '%2d has more vyApti on day %3d (%f ghatikAs; full?) compared to day %3d (%f ghatikAs)' % (s_tithi, d, vyapti_1 * 60, d + 1, vyapti_3 * 60)
+                else:
+                    fday = d + 1
+                    s_tithi = angams[2]
+                    reason = '%2d has more vyApti on day %3d (%f ghatikAs) compared to day %3d (%f ghatikAs) --- unusual!' % (s_tithi, d + 1, vyapti_3 * 60, d, vyapti_1 * 60)
+            elif angams[2] == nnext_angam:  # <d>/<h>
+                if angams[1] == next_angam:  # <h>
+                    fday = d
+                    s_tithi = angams[1]
+                    reason = '%2d has some vyApti on day %3d; not incident on day %3d at all' % (s_tithi, d, d + 1)
+                else:  # <d>
+                    s_tithi = angam_start
+                    fday = d
+                    reason = '%2d is incident fully at aparAhna today (%3d), and not incident tomorrow (%3d)!' % (s_tithi, d, d + 1)
+                    logging.debug('%03d [%4d-%02d-%02d]: %s' % (d, y, m, dt, '%2d not incident at aparAhna on either day (%3d/%3d); picking second day %3d!' % (next_angam, d, d + 1, d + 1)))
+                    _assign(self, d + 1, next_angam)
+                    # logging.debug(reason)
+            elif angams[1] == angams[2] == angams[3] == next_angam:  # <c>
+                s_tithi = next_angam
+                fday = d + 1
+                reason = '%2d has more vyApti on %3d (full) compared to %3d (part)' % (s_tithi, d + 1, d)
+            elif angams[1] == angams[2] == next_angam:  # <g>
+                s_tithi = angams[2]
+                if vyapti_2 > vyapti_3:
+                    # Most likely
+                    fday = d
+                    reason = '%2d has more vyApti on day %3d (%f ghatikAs) compared to day %3d (%f ghatikAs)' % (s_tithi, d, vyapti_2 * 60, d + 1, vyapti_3 * 60)
+                else:
+                    fday = d + 1
+                    reason = '%2d has more vyApti on day %3d (%f ghatikAs) compared to day %3d (%f ghatikAs)' % (s_tithi, d + 1, vyapti_3 * 60, d, vyapti_2 * 60)            # Examine for greater vyApti
+            else:
+                logging.error('Should not reach here ever! %s' % str(angams))
+                reason = '?'
+            if debug_shraddha_tithi:
+                logging.debug('%03d [%4d-%02d-%02d]: Assigning tithi %2d to %3d (%s).' % (d, y, m, dt, s_tithi, fday, reason))
+                _assign(self, fday, s_tithi)
+            else:
+                logging.debug('%03d [%4d-%02d-%02d]: ???' % (d, y, m, dt))
+
+        logging.debug(self.shraddha_tithi)
+
     def compute_solar_eclipses(self):
         # Set location
         swe.set_topo(lon=self.city.longitude, lat=self.city.latitude, alt=0.0)
