@@ -1370,7 +1370,7 @@ class Panchangam(common.JsonObject):
             for j in range(0, len(self.fest_days[festival_name])):
                 self.festivals[self.fest_days[festival_name][j]].append(festival_name)
 
-    def assign_shraddha_tithi(self, debug_shraddha_tithi=True):
+    def assign_shraddha_tithi(self, debug_shraddha_tithi=False):
         def _assign(self, fday, tithi):
             if self.shraddha_tithi[fday] == [None] or self.shraddha_tithi[fday] == [tithi]:
                 self.shraddha_tithi[fday] = [tithi]
@@ -1378,7 +1378,6 @@ class Panchangam(common.JsonObject):
                 self.shraddha_tithi[fday].append(tithi)
                 if self.shraddha_tithi[fday - 1].count(tithi) == 1:
                     self.shraddha_tithi[fday - 1].remove(tithi)
-
         nDays = self.len
         self.shraddha_tithi = [[None] for _x in range(nDays)]
         for d in range(1, self.duration + 1):
@@ -1432,7 +1431,8 @@ class Panchangam(common.JsonObject):
                 s_tithi = angams[0]
                 reason = '%2d not incident on %3d' % (s_tithi, d + 1)
                 if angams[3] == nnext_angam:  # <f>
-                    logging.debug('%03d [%4d-%02d-%02d]: %s' % (d, y, m, dt, 'Need to assign %2d to %3d as it is present only at start of aparAhna tomorrow!)' % (next_angam, d + 1)))
+                    if debug_shraddha_tithi:
+                        logging.debug('%03d [%4d-%02d-%02d]: %s' % (d, y, m, dt, 'Need to assign %2d to %3d as it is present only at start of aparAhna tomorrow!)' % (next_angam, d + 1)))
                     _assign(self, d + 1, next_angam)
             elif angams[2] == angam_start:  # <e>
                 if vyapti_1 > vyapti_3:
@@ -1453,7 +1453,8 @@ class Panchangam(common.JsonObject):
                     s_tithi = angam_start
                     fday = d
                     reason = '%2d is incident fully at aparAhna today (%3d), and not incident tomorrow (%3d)!' % (s_tithi, d, d + 1)
-                    logging.debug('%03d [%4d-%02d-%02d]: %s' % (d, y, m, dt, '%2d not incident at aparAhna on either day (%3d/%3d); picking second day %3d!' % (next_angam, d, d + 1, d + 1)))
+                    if debug_shraddha_tithi:
+                        logging.debug('%03d [%4d-%02d-%02d]: %s' % (d, y, m, dt, '%2d not incident at aparAhna on either day (%3d/%3d); picking second day %3d!' % (next_angam, d, d + 1, d + 1)))
                     _assign(self, d + 1, next_angam)
                     # logging.debug(reason)
             elif angams[1] == angams[2] == angams[3] == next_angam:  # <c>
@@ -1474,9 +1475,7 @@ class Panchangam(common.JsonObject):
                 reason = '?'
             if debug_shraddha_tithi:
                 logging.debug('%03d [%4d-%02d-%02d]: Assigning tithi %2d to %3d (%s).' % (d, y, m, dt, s_tithi, fday, reason))
-                _assign(self, fday, s_tithi)
-            else:
-                logging.debug('%03d [%4d-%02d-%02d]: ???' % (d, y, m, dt))
+            _assign(self, fday, s_tithi)
 
         logging.debug(self.shraddha_tithi)
 
