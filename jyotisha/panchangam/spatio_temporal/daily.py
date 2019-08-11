@@ -163,7 +163,7 @@ class DailyPanchanga(common.JsonObject):
         if not hasattr(self, "jd_sunrise") or self.jd_sunrise is None:
             self.compute_sun_moon_transitions()
         self.solar_month = get_angam(self.jd_sunset, SOLAR_MONTH, ayanamsha_id=self.ayanamsha_id)
-        target = floor(get_angam_float(self.jd_sunset, SOLAR_MONTH, ayanamsha_id=self.ayanamsha_id))
+        target = ((floor(get_angam_float(self.jd_sunset, SOLAR_MONTH, ayanamsha_id=self.ayanamsha_id)) - 1) % 12) + 1
 
         # logging.debug(jd_start)
         # logging.debug(jd_sunset)
