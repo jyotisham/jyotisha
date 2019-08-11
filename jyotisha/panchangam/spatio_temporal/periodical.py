@@ -742,6 +742,7 @@ class Panchangam(common.JsonObject):
 
             # AGNI NAKSHATRAM
             # Arbitrarily checking after Mesha 10! Agni Nakshatram can't start earlier...
+            agni_jd_start = agni_jd_end = None
             if self.solar_month[d] == 1 and self.solar_month_day[d] == 10:
                 agni_jd_start, dummy = temporal.get_angam_span(
                     self.jd_sunrise[d], self.jd_sunrise[d] + 30,
@@ -749,13 +750,16 @@ class Panchangam(common.JsonObject):
                 dummy, agni_jd_end = temporal.get_angam_span(
                     agni_jd_start, agni_jd_start + 30,
                     temporal.SOLAR_NAKSH_PADA, 13, ayanamsha_id=self.ayanamsha_id)
+                logging.debug((d, agni_jd_start, agni_jd_end))
 
             if self.solar_month[d] == 1 and self.solar_month_day[d] > 10:
-                if self.jd_sunset[d] < agni_jd_start < self.jd_sunset[d + 1]:
-                    self.add_festival('agninakSatra-ArambhaH', d + 1, debug_festivals)
+                if agni_jd_start is not None:
+                    if self.jd_sunset[d] < agni_jd_start < self.jd_sunset[d + 1]:
+                        self.add_festival('agninakSatra-ArambhaH', d + 1, debug_festivals)
             if self.solar_month[d] == 2 and self.solar_month_day[d] > 10:
-                if self.jd_sunset[d] < agni_jd_end < self.jd_sunset[d + 1]:
-                    self.add_festival('agninakSatra-samApanam', d + 1, debug_festivals)
+                if agni_jd_end is not None:
+                    if self.jd_sunset[d] < agni_jd_end < self.jd_sunset[d + 1]:
+                        self.add_festival('agninakSatra-samApanam', d + 1, debug_festivals)
 
             # GAJACHHAYA YOGA
             if self.solar_month[d] == 6 and self.solar_month_day[d] == 1:
