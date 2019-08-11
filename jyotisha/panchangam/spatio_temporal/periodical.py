@@ -96,7 +96,9 @@ class Panchangam(common.JsonObject):
         self.solar_month[1] = daily_panchangam_start.solar_month
         solar_month_day = daily_panchangam_start.solar_month_day
 
-        month_start_after_sunset = False
+        solar_month_today_sunset = temporal.get_angam(daily_panchangam_start.jd_sunset, temporal.SOLAR_MONTH, ayanamsha_id=self.ayanamsha_id)
+        solar_month_tmrw_sunrise = temporal.get_angam(daily_panchangam_start.jd_sunrise + 1, temporal.SOLAR_MONTH, ayanamsha_id=self.ayanamsha_id)
+        month_start_after_sunset = solar_month_today_sunset != solar_month_tmrw_sunrise
 
         #############################################################
         # Compute all parameters -- sun/moon latitude/longitude etc #
