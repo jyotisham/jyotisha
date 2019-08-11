@@ -752,7 +752,6 @@ class Panchangam(common.JsonObject):
                 dummy, agni_jd_end = temporal.get_angam_span(
                     agni_jd_start, agni_jd_start + 30,
                     temporal.SOLAR_NAKSH_PADA, 13, ayanamsha_id=self.ayanamsha_id)
-                logging.debug((d, agni_jd_start, agni_jd_end))
 
             if self.solar_month[d] == 1 and self.solar_month_day[d] > 10:
                 if agni_jd_start is not None:
