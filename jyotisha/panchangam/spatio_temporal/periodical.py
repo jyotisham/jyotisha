@@ -744,7 +744,7 @@ class Panchangam(common.JsonObject):
 
             # AGNI NAKSHATRAM
             # Arbitrarily checking after Mesha 10! Agni Nakshatram can't start earlier...
-            agni_jd_start = agni_jd_end = None
+            # agni_jd_start = agni_jd_end = None
             if self.solar_month[d] == 1 and self.solar_month_day[d] == 10:
                 agni_jd_start, dummy = temporal.get_angam_span(
                     self.jd_sunrise[d], self.jd_sunrise[d] + 30,
@@ -1267,8 +1267,6 @@ class Panchangam(common.JsonObject):
                 solar_y_start_d.append(d)
             if self.lunar_month[d] == 1 and self.lunar_month[d - 1] != 1:
                 lunar_y_start_d.append(d)
-        logging.debug(solar_y_start_d)
-        logging.debug(lunar_y_start_d)
 
         period_start_year = swe.revjul(self.jd_midnight[1])[0]
         for festival_name in festival_rules:
