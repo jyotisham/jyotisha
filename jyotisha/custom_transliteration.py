@@ -66,7 +66,10 @@ def tr(text, scr, titled=True):
                 if scr == sanscript.DEVANAGARI:
                     scr = sanscript.TAMIL
                 t = t[3:]
-                transliterated_text.append(sanscript.transliterate(data=t, _from=sanscript.HK, _to=scr).replace('C', 'Ch').replace('c', 'ch').strip("{}").title())
+                if scr == sanscript.TAMIL:
+                    transliterated_text.append('\\tamil{%s}' % sanscript.transliterate(data=t, _from=sanscript.HK, _to=scr).replace('C', 'Ch').replace('c', 'ch'))
+                else:
+                    transliterated_text.append(sanscript.transliterate(data=t, _from=sanscript.HK, _to=scr).replace('C', 'Ch').replace('c', 'ch').strip("{}"))
             else:
                 if t.find('RIGHTarrow') == -1:
                     transliterated_text.append(sanscript.transliterate(data=t, _from=sanscript.HK, _to=scr))
