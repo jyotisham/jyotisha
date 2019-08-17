@@ -1369,7 +1369,45 @@ class Panchangam(common.JsonObject):
             for j in range(0, len(self.fest_days[festival_name])):
                 self.festivals[self.fest_days[festival_name][j]].append(festival_name)
 
-    def assign_shraddha_tithi(self, debug_shraddha_tithi=False):
+    def calc_nakshatra_tyajyam(self, debug_tyajyam=False):
+        self.tyajyam_data = [[] for _x in range(self.duration + 1)]
+        if self.nakshatram_data[0] is None:
+            self.nakshatram_data[0] = temporal.get_angam_data(self.jd_sunrise[0], self.jd_sunrise[1], temporal.NAKSHATRAM, ayanamsha_id=self.ayanamsha_id)
+        for d in range(1, self.duration + 1):
+            [y, m, dt, t] = swe.revjul(self.jd_start_utc + d - 1)
+            jd = self.jd_midnight[d]
+            t_start = self.nakshatram_data[d - 1][-1][1]
+            if t_start is not None:
+                n, t_end = self.nakshatram_data[d][0]
+                if t_end is None:
+                    t_end = self.nakshatram_data[d + 1][0][1]
+                tyajyam_start = t_start + (t_end - t_start) / 60 * (temporal.TYAJYAM_SPANS_REL[n - 1] - 1)
+                tyajyam_end = t_start + (t_end - t_start) / 60 * (temporal.TYAJYAM_SPANS_REL[n - 1] + 3)
+                if tyajyam_start < self.jd_sunrise[d]:
+                    self.tyajyam_data[d - 1] += [(tyajyam_start, tyajyam_end)]
+                    logging.debug('![%3d]%04d-%02d-%02d: %s (>>%s), %s–%s' % (d - 1, y, m, dt - 1, temporal.NAMES['NAKSHATRAM_NAMES']['hk'][n],
+                                                                        jyotisha.panchangam.temporal.Time(24 * (t_end - self.jd_midnight[d - 1])).toString(format='hh:mm*'),
+                                                                        jyotisha.panchangam.temporal.Time(24 * (tyajyam_start - self.jd_midnight[d - 1])).toString(format='hh:mm*'),
+                                                                        jyotisha.panchangam.temporal.Time(24 * (tyajyam_end - self.jd_midnight[d - 1])).toString(format='hh:mm*')))
+                else:
+                    self.tyajyam_data[d] = [(tyajyam_start, tyajyam_end)]
+                    logging.debug(' [%3d]%04d-%02d-%02d: %s (>>%s), %s–%s' % (d, y, m, dt, temporal.NAMES['NAKSHATRAM_NAMES']['hk'][n],
+                                                                        jyotisha.panchangam.temporal.Time(24 * (t_end - jd)).toString(format='hh:mm*'),
+                                                                        jyotisha.panchangam.temporal.Time(24 * (tyajyam_start - jd)).toString(format='hh:mm*'),
+                                                                        jyotisha.panchangam.temporal.Time(24 * (tyajyam_end - jd)).toString(format='hh:mm*')))
+
+            if len(self.nakshatram_data[d]) == 2:
+                t_start = t_end
+                n2, t_end = self.nakshatram_data[d][1]
+                tyajyam_start = t_start + (t_end - t_start) / 60 * (temporal.TYAJYAM_SPANS_REL[n2 - 1] - 1)
+                tyajyam_end = t_start + (t_end - t_start) / 60 * (temporal.TYAJYAM_SPANS_REL[n2 - 1] + 3)
+                self.tyajyam_data[d] += [(tyajyam_start, tyajyam_end)]
+                logging.debug(' [%3d]            %s (>>%s), %s–%s' % (d, temporal.NAMES['NAKSHATRAM_NAMES']['hk'][n2],
+                                                                jyotisha.panchangam.temporal.Time(24 * (t_end - jd)).toString(format='hh:mm*'),
+                                                                jyotisha.panchangam.temporal.Time(24 * (tyajyam_start - jd)).toString(format='hh:mm*'),
+                                                                jyotisha.panchangam.temporal.Time(24 * (tyajyam_end - jd)).toString(format='hh:mm*')))
+
+    def assign_shraddha_tithi(self, debug_shraddha_tithi=True):
         def _assign(self, fday, tithi):
             if self.shraddha_tithi[fday] == [None] or self.shraddha_tithi[fday] == [tithi]:
                 self.shraddha_tithi[fday] = [tithi]
@@ -1411,7 +1449,7 @@ class Panchangam(common.JsonObject):
             # <b> 1 1 2 2 - d: 1
             # <f> 1 1 2 3 - d: 1, d+1: 2
             # <e> 1 1 1 2 - d, or vyApti (just in case next day aparahna is slightly longer): 1
-            # <d> 1 1 3 3 - d: 1, d + 1: 2
+            # <d> 1 1 3 3 - d: 1, 2
             # <h> 1 2 3 3 - d: 2
             # <c> 1 2 2 2 - d + 1: 2
             # <g> 1 2 2 3 - vyApti: 2
@@ -1453,8 +1491,8 @@ class Panchangam(common.JsonObject):
                     fday = d
                     reason = '%2d is incident fully at aparAhna today (%3d), and not incident tomorrow (%3d)!' % (s_tithi, d, d + 1)
                     if debug_shraddha_tithi:
-                        logging.debug('%03d [%4d-%02d-%02d]: %s' % (d, y, m, dt, '%2d not incident at aparAhna on either day (%3d/%3d); picking second day %3d!' % (next_angam, d, d + 1, d + 1)))
-                    _assign(self, d + 1, next_angam)
+                        logging.debug('%03d [%4d-%02d-%02d]: %s' % (d, y, m, dt, '%2d not incident at aparAhna on either day (%3d/%3d); picking first day %3d!' % (next_angam, d, d + 1, d)))
+                    _assign(self, d, next_angam)
                     # logging.debug(reason)
             elif angams[1] == angams[2] == angams[3] == next_angam:  # <c>
                 s_tithi = next_angam
