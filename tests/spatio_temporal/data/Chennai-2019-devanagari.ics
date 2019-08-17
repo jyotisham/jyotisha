@@ -10989,22 +10989,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ऋग्वेद-उपाकर्म
-DTSTART;VALUE=DATE:20190814
-DTEND;VALUE=DATE:20190815
-DESCRIPTION:Observed on Śravaṇam nakṣhatram day of Śrāvaṇaḥ (lu
- nar) month (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>https
- ://github.com/sanskrit-coders/adyatithi/tree/master/data/lunar_month/naksh
- atram/05/22#ṛgveda-upākarma<br/><br/>#CommonFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:वेङ्कटाचले पूर्णिमा गरु
  ड-सेवा
 DTSTART;VALUE=DATE:20190814
@@ -11016,6 +11000,22 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of every lunar month (moonris
  r/>https://github.com/sanskrit-coders/adyatithi/tree/master/data/lunar_mon
  th/tithi/00/15#veṅkaṭāchale-pūrṇimā-garuḍa-sevā<br/><br/>#Andh
  raTempleFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ऋग्वेद-उपाकर्म
+DTSTART;VALUE=DATE:20190815
+DTEND;VALUE=DATE:20190816
+DESCRIPTION:Observed on Śravaṇam nakṣhatram day of Śrāvaṇaḥ (lu
+ nar) month (sunrise (default)/paraviddha).<br/><br/><br/>https://github.co
+ m/sanskrit-coders/adyatithi/tree/master/data/lunar_month/nakshatram/05/22#
+ ṛgveda-upākarma<br/><br/>#CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11121,13 +11121,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:राखी-पूर्णिमा
+SUMMARY:रक्षाबन्धन-पूर्णिमा
 DTSTART;VALUE=DATE:20190815
 DTEND;VALUE=DATE:20190816
 DESCRIPTION:Observed on Paurṇamāsī tithi of Śrāvaṇaḥ (lunar) mon
  th (sunrise (default)/puurvaviddha (default)).<br/>Rakshabandhanam<br/><br
  />https://github.com/sanskrit-coders/adyatithi/tree/master/data/lunar_mont
- h/tithi/05/15#rākhī-pūrṇimā<br/><br/>#PurnimaDays #CommonFestivals
+ h/tithi/05/15#rakṣābandhana-pūrṇimā<br/><br/>#PurnimaDays #CommonFe
+ stivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11325,13 +11326,13 @@ SUMMARY:श्री राघवेन्द्र स्वामी आ
 DTSTART;VALUE=DATE:20190817
 DTEND;VALUE=DATE:20190818
 DESCRIPTION:Observed on Kṛṣṇa-Dvitīyā tithi of Śrāvaṇaḥ (lun
- ar) month (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>पु
+ ar) month (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>पू
  ज्याय राघवेन्द्राय सत्यधर्
- मरताय च।<br/>भजतां कलवृक्षाय न
- मतां कामधेनवे॥<br/><br/><br/><br/>https://github
- .com/sanskrit-coders/adyatithi/tree/master/data/lunar_month/tithi/05/17#ś
- rī-rāghavendra-svāmī-ārādhanā<br/><br/>#MahapurushaEvents #CommonFe
- stivals
+ मरताय च।<br/>भजतां कल्पवृक्षा
+ य नमतां कामधेनवे॥<br/><br/><br/><br/>https:/
+ /github.com/sanskrit-coders/adyatithi/tree/master/data/lunar_month/tithi/0
+ 5/17#śrī-rāghavendra-svāmī-ārādhanā<br/><br/>#MahapurushaEvents #C
+ ommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13158,12 +13159,10 @@ SUMMARY:उमा-महेश्वर-व्रतम्
 DTSTART;VALUE=DATE:20190914
 DTEND;VALUE=DATE:20190915
 DESCRIPTION:Observed on Paurṇamāsī tithi of Bhādrapadaḥ (lunar) mon
- th (sunrise/puurvaviddha).<br/><br/>### References<br/>* V<br/>* r<br/>* a
- <br/>* t<br/>* a<br/>* N<br/>* i<br/>* r<br/>* n<br/>* a<br/>* y<br/>* a<b
- r/>* K<br/>* a<br/>* l<br/>* p<br/>* a<br/>* v<br/>* a<br/>* l<br/>* l<br/
- >* i<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/maste
- r/data/lunar_month/tithi/06/15#umā-maheśvara-vratam<br/><br/>#SpecialVra
- tam #CommonFestivals
+ th (sunrise/puurvaviddha).<br/><br/>### References<br/>* VrataNirnayaKalpa
+ valli<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/mast
+ er/data/lunar_month/tithi/06/15#umā-maheśvara-vratam<br/><br/>#SpecialVr
+ atam #CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
