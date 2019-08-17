@@ -33,6 +33,9 @@ KARANAM = {'id': 'KARANAM', 'arc_len': 360.0 / 60.0, 'w_moon': 1, 'w_sun': -1}
 SOLAR_MONTH = {'id': 'SOLAR_MONTH', 'arc_len': 360.0 / 12.0, 'w_moon': 0, 'w_sun': 1}
 SOLAR_NAKSH = {'id': 'SOLAR_NAKSH', 'arc_len': 360.0 / 27.0, 'w_moon': 0, 'w_sun': 1}
 SOLAR_NAKSH_PADA = {'id': 'SOLAR_NAKSH_PADA', 'arc_len': 360.0 / 108.0, 'w_moon': 0, 'w_sun': 1}
+TYAJYAM_SPANS_REL = [51, 25, 31, 41, 15, 22, 31, 21, 33,
+                     31, 21, 19, 22, 21, 15, 15, 11, 15,
+                     57, 25, 21, 11, 11, 19, 17, 25, 31]
 
 
 class Time(JsonObject):
