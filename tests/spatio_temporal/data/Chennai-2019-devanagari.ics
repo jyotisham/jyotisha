@@ -4540,10 +4540,10 @@ BEGIN:VEVENT
 SUMMARY:விஷுக்கனி
 DTSTART;VALUE=DATE:20190414
 DTEND;VALUE=DATE:20190415
-DESCRIPTION:Observed on day 1 of Meṣaḥ (solar) month (sunrise (default
- )/puurvaviddha (default)).<br/><br/><br/>https://github.com/sanskrit-coder
- s/adyatithi/tree/master/data/solar_month/day/01/01#viṣukkani<br/><br/>#C
- ommonFestivals #SunSankranti
+DESCRIPTION:Observed on day 1 of Meṣaḥ (solar) month (arunodaya/puurva
+ viddha (default)).<br/><br/><br/>https://github.com/sanskrit-coders/adyati
+ thi/tree/master/data/solar_month/day/01/01#viṣukkani<br/><br/>#CommonFes
+ tivals #SunSankranti
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17316,8 +17316,8 @@ DTSTART;VALUE=DATE:20191116
 DTEND;VALUE=DATE:20191117
 DESCRIPTION:End of Tula Kaveri Snanam. Also known as கடைமுகம
  ்.<br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/master/dat
- a/relative_event/ta:muDavan2 muzhukku/offset__-1#tulā-kāverī-snāna-sam
- āpanam<br/><br/>#TamilnaduTempleFestivals
+ a/relative_event/kRttikA-maNDala-pArAyaNam/offset__-1#tulā-kāverī-snān
+ a-samāpanam<br/><br/>#TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17332,8 +17332,8 @@ DTSTART;VALUE=DATE:20191018
 DTEND;VALUE=DATE:20191117
 DESCRIPTION:End of Tula Kaveri Snanam. Also known as கடைமுகம
  ்.<br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/master/dat
- a/relative_event/ta:muDavan2 muzhukku/offset__-1#tulā-kāverī-snāna-sam
- āpanam<br/><br/>#TamilnaduTempleFestivals
+ a/relative_event/kRttikA-maNDala-pArAyaNam/offset__-1#tulā-kāverī-snān
+ a-samāpanam<br/><br/>#TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17379,16 +17379,16 @@ BEGIN:VEVENT
 SUMMARY:முடவன் முழுக்கு
 DTSTART;VALUE=DATE:20191117
 DTEND;VALUE=DATE:20191118
-DESCRIPTION:Observed on day 1 of Vṛścikaḥ (solar) month (sunrise (def
- ault)/puurvaviddha (default)).<br/>Nadha Sharma (முடவன்\, i.e.
-  lame man) and his wife Anavidyambikai came to Mayavaram in order to perfo
- rm a तुला स्नानम् in Kaveri. However\, by the time t
- hey arrived\, it was the last day of तुला मास and they could
-  not complete the स्नानम्. They were disappointed yet spent 
- their time doing Puja of the Lord\, who appeared in their dreams and asked
-  them to take a ...<br/><br/><br/>https://github.com/sanskrit-coders/adyat
- ithi/tree/master/data/solar_month/day/08/01#muḍavan-muḷukku<br/><br/>#
- CommonFestivals
+DESCRIPTION:Observed on day 1 of Vṛścikaḥ (solar) month (arunodaya/pu
+ urvaviddha (default)).<br/>Nadha Sharma (முடவன்\, i.e. lame ma
+ n) and his wife Anavidyambikai came to Mayavaram in order to perform a त
+ ुला स्नानम् in Kaveri. However\, by the time they arri
+ ved\, it was the last day of तुला मास and they could not com
+ plete the स्नानम्. They were disappointed yet spent their ti
+ me doing Puja of the Lord\, who appeared in their dreams and asked them to
+  take a bath next ...<br/><br/><br/>https://github.com/sanskrit-coders/ady
+ atithi/tree/master/data/solar_month/day/08/01#muḍavan-muḷukku<br/><br/
+ >#CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE

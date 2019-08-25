@@ -1125,7 +1125,14 @@ class Panchangam(common.JsonObject):
 
                 if angam_type == 'day' and month_type == 'solar_month' and self.solar_month[d] == month_num:
                     if self.solar_month_day[d] == angam_num:
-                        self.fest_days[festival_name] = [d]
+                        if kaala == 'arunodaya':
+                            angams = self.get_angams_for_kaalas(d, temporal.get_solar_rashi, kaala)
+                            if angams[1] == month_num:
+                                self.fest_days[festival_name] = [d]
+                            elif angams[2] == month_num:
+                                self.fest_days[festival_name] = [d + 1]
+                        else:
+                            self.fest_days[festival_name] = [d]
                 elif (month_type == 'lunar_month' and ((self.lunar_month[d] == month_num or month_num == 0) or ((self.lunar_month[d + 1] == month_num and angam_num == 1)))) or \
                         (month_type == 'solar_month' and (self.solar_month[d] == month_num or month_num == 0)):
                     # Using 0 as a special tag to denote every month!
