@@ -71,11 +71,11 @@ BEGIN:VEVENT
 SUMMARY:पक्षवर्धिनी महाद्वादशी
 DTSTART;VALUE=DATE:20190102
 DTEND;VALUE=DATE:20190103
-DESCRIPTION:Dvadashi tithi\, which is followed by an अमावस्य
- ा or पौर्णमासी that touches two consecutive days at su
- nrise.<br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/master/d
- ata/other/rare-days/combinations/special-vratam#pakṣavardhinī-mahādvā
- daśī<br/><br/>#RareDays #Combinations #SpecialVratam
+DESCRIPTION:Dvadashi tithi\, which is followed by an अमावास्
+ या or पौर्णमासी that touches two consecutive days at
+  sunrise.<br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/maste
+ r/data/other/rare-days/combinations/special-vratam#pakṣavardhinī-mahād
+ vādaśī<br/><br/>#RareDays #Combinations #SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -200,11 +200,11 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:मार्गशीर्ष-अमावस्या
+SUMMARY:मार्गशीर्ष-अमावास्या
 DTSTART;VALUE=DATE:20190105
 DTEND;VALUE=DATE:20190106
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- other/amavasya-days#mārgaśīrṣa-amāvasyā<br/><br/>#AmavasyaDays
+ other/amavasya-days#mārgaśīrṣa-amāvāsyā<br/><br/>#AmavasyaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1284,13 +1284,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:मौनि (पौष/मकर) अमावस्या (अ
- लभ्यम्–पुष्कला)
+SUMMARY:मौनि (पौष/मकर) अमावास्या (
+ अलभ्यम्–पुष्कला)
 DTSTART;VALUE=DATE:20190204
 DTEND;VALUE=DATE:20190205
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- other/amavasya-days#mauni-(pauṣa/makara)-amāvasyā<br/><br/>#AmavasyaDa
- ys
+ other/amavasya-days#mauni-(pauṣa/makara)-amāvāsyā<br/><br/>#AmavasyaD
+ ays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1300,25 +1300,25 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:सोमवती अमावस्या
+SUMMARY:सोमवती अमावास्या
 DTSTART;VALUE=DATE:20190204
 DTEND;VALUE=DATE:20190205
-DESCRIPTION:अमावस्या on a Monday is as sacred as a solar e
- clipse. Particularly good for performing pradakshinam of Pippala tree.<br/
- ><br/>अमावस्या तु सोमेन सप्तमी 
- भानुना सह।<br/>चतुर्थी भूमिपु
- त्रेण सोमपुत्रेण चाष्टमी।<br
- />चतस्रस्तिथयस्त्वेताः सूर
- ्यग्रहणसन्निभाः॥<br/><br/>मूलतो 
- ब्रह्मरूपाय मध्यतो विष्णुर
- ूपिणे।<br/>अग्रतः शिवरूपाय वृ
- क्षराजाय ते नमः॥<br/>अक्षिस्प
- न्दं भुजस्पन्दं दुःस्वप्नं
-  दुर्विचिन्तनम्।<br/>शत्रूना
- म् च समुत्पन्नम् अश्वत्थ शम
- यस्व मे॥<br/><br/><br/><br/>https://github.com/sanskrit-code
- rs/adyatithi/tree/master/data/other/rare-days/combinations/amavasya-days#s
- omavatī-amāvasyā<br/><br/>#RareDays #Combinations #AmavasyaDays
+DESCRIPTION:अमावास्या on a Monday is as sacred as a sola
+ r eclipse. Particularly good for performing pradakshinam of Pippala tree.<
+ br/><br/>अमावस्या तु सोमेन सप्तम
+ ी भानुना सह।<br/>चतुर्थी भूमिप
+ ुत्रेण सोमपुत्रेण चाष्टमी।
+ <br/>चतस्रस्तिथयस्त्वेताः सू
+ र्यग्रहणसन्निभाः॥<br/><br/>मूलत
+ ो ब्रह्मरूपाय मध्यतो विष्ण
+ ुरूपिणे।<br/>अग्रतः शिवरूपाय 
+ वृक्षराजाय ते नमः॥<br/>अक्षिस
+ ्पन्दं भुजस्पन्दं दुःस्वप्
+ नं दुर्विचिन्तनम्।<br/>शत्रू
+ नाम् च समुत्पन्नम् अश्वत्थ 
+ शमयस्व मे॥<br/><br/><br/><br/>https://github.com/sanskri
+ t-coders/adyatithi/tree/master/data/other/rare-days/combinations/amavasya-
+ days#somavatī-amāvāsyā<br/><br/>#RareDays #Combinations #AmavasyaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2739,12 +2739,12 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:माघ-अमावस्या (अलभ्यम्–शत
- भिषक्)
+SUMMARY:माघ-अमावास्या (अलभ्यम्–श
+ तभिषक्)
 DTSTART;VALUE=DATE:20190306
 DTEND;VALUE=DATE:20190307
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- other/amavasya-days#māgha-amāvasyā<br/><br/>#AmavasyaDays
+ other/amavasya-days#māgha-amāvāsyā<br/><br/>#AmavasyaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3930,11 +3930,11 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:फाल्गुन-अमावस्या
+SUMMARY:फाल्गुन-अमावास्या
 DTSTART;VALUE=DATE:20190405
 DTEND;VALUE=DATE:20190406
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- other/amavasya-days#phālguna-amāvasyā<br/><br/>#AmavasyaDays
+ other/amavasya-days#phālguna-amāvāsyā<br/><br/>#AmavasyaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5409,7 +5409,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:चैत्र-अमावस्या
+SUMMARY:चैत्र-अमावास्या
 DTSTART;VALUE=DATE:20190504
 DTEND;VALUE=DATE:20190505
 DESCRIPTION:On Chaitra Amavasya\, who gives a pot filled with पानक
@@ -5428,7 +5428,7 @@ DESCRIPTION:On Chaitra Amavasya\, who gives a pot filled with पानक
   वैशाखमाहात्म्ये तृतीये अध
  ्याये<br/><br/><br/>### References<br/>* Skanda Puranam<br/><br/
  ><br/>https://github.com/sanskrit-coders/adyatithi/tree/master/data/other/
- amavasya-days#chaitra-amāvasyā<br/><br/>#AmavasyaDays
+ amavasya-days#chaitra-amāvāsyā<br/><br/>#AmavasyaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -7091,25 +7091,25 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:सोमवती अमावस्या
+SUMMARY:सोमवती अमावास्या
 DTSTART;VALUE=DATE:20190603
 DTEND;VALUE=DATE:20190604
-DESCRIPTION:अमावस्या on a Monday is as sacred as a solar e
- clipse. Particularly good for performing pradakshinam of Pippala tree.<br/
- ><br/>अमावस्या तु सोमेन सप्तमी 
- भानुना सह।<br/>चतुर्थी भूमिपु
- त्रेण सोमपुत्रेण चाष्टमी।<br
- />चतस्रस्तिथयस्त्वेताः सूर
- ्यग्रहणसन्निभाः॥<br/><br/>मूलतो 
- ब्रह्मरूपाय मध्यतो विष्णुर
- ूपिणे।<br/>अग्रतः शिवरूपाय वृ
- क्षराजाय ते नमः॥<br/>अक्षिस्प
- न्दं भुजस्पन्दं दुःस्वप्नं
-  दुर्विचिन्तनम्।<br/>शत्रूना
- म् च समुत्पन्नम् अश्वत्थ शम
- यस्व मे॥<br/><br/><br/><br/>https://github.com/sanskrit-code
- rs/adyatithi/tree/master/data/other/rare-days/combinations/amavasya-days#s
- omavatī-amāvasyā<br/><br/>#RareDays #Combinations #AmavasyaDays
+DESCRIPTION:अमावास्या on a Monday is as sacred as a sola
+ r eclipse. Particularly good for performing pradakshinam of Pippala tree.<
+ br/><br/>अमावस्या तु सोमेन सप्तम
+ ी भानुना सह।<br/>चतुर्थी भूमिप
+ ुत्रेण सोमपुत्रेण चाष्टमी।
+ <br/>चतस्रस्तिथयस्त्वेताः सू
+ र्यग्रहणसन्निभाः॥<br/><br/>मूलत
+ ो ब्रह्मरूपाय मध्यतो विष्ण
+ ुरूपिणे।<br/>अग्रतः शिवरूपाय 
+ वृक्षराजाय ते नमः॥<br/>अक्षिस
+ ्पन्दं भुजस्पन्दं दुःस्वप्
+ नं दुर्विचिन्तनम्।<br/>शत्रू
+ नाम् च समुत्पन्नम् अश्वत्थ 
+ शमयस्व मे॥<br/><br/><br/><br/>https://github.com/sanskri
+ t-coders/adyatithi/tree/master/data/other/rare-days/combinations/amavasya-
+ days#somavatī-amāvāsyā<br/><br/>#RareDays #Combinations #AmavasyaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -7119,12 +7119,12 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:वैशाख-अमावस्या (अलभ्यम्–
- पुष्कला)
+SUMMARY:वैशाख-अमावास्या (अलभ्यम्
+ –पुष्कला)
 DTSTART;VALUE=DATE:20190603
 DTEND;VALUE=DATE:20190604
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- other/amavasya-days#vaiśākha-amāvasyā<br/><br/>#AmavasyaDays
+ other/amavasya-days#vaiśākha-amāvāsyā<br/><br/>#AmavasyaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8665,12 +8665,12 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ज्यैष्ठ-अमावस्या (अलभ्यम
- ्–आर्द्रा\, पुष्कला)
+SUMMARY:ज्यैष्ठ-अमावास्या (अलभ्य
+ म्–आर्द्रा\, पुष्कला)
 DTSTART;VALUE=DATE:20190702
 DTEND;VALUE=DATE:20190703
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- other/amavasya-days#jyaiṣṭha-amāvasyā<br/><br/>#AmavasyaDays
+ other/amavasya-days#jyaiṣṭha-amāvāsyā<br/><br/>#AmavasyaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10057,13 +10057,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:आषाढ (कटक) अमावस्या (अलभ्य
- म्–पुनर्वसुः)
+SUMMARY:आषाढ (कटक) अमावास्या (अलभ्
+ यम्–पुनर्वसुः)
 DTSTART;VALUE=DATE:20190731
 DTEND;VALUE=DATE:20190801
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- other/amavasya-days#āṣāḍha-(kaṭaka)-amāvasyā<br/><br/>#AmavasyaD
- ays
+ other/amavasya-days#āṣāḍha-(kaṭaka)-amāvāsyā<br/><br/>#Amavasya
+ Days
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12061,11 +12061,11 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:श्रावण-अमावस्या
+SUMMARY:श्रावण-अमावास्या
 DTSTART;VALUE=DATE:20190830
 DTEND;VALUE=DATE:20190831
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- other/amavasya-days#śrāvaṇa-amāvasyā<br/><br/>#AmavasyaDays
+ other/amavasya-days#śrāvaṇa-amāvāsyā<br/><br/>#AmavasyaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13923,12 +13923,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:(भाद्रपद) महालय अमावस्या
+SUMMARY:(भाद्रपद) महालय अमावास्य
+ ा
 DTSTART;VALUE=DATE:20190928
 DTEND;VALUE=DATE:20190929
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- other/amavasya-days#(bhādrapada)-mahālaya-amāvasyā<br/><br/>#AmavasyaD
- ays
+ other/amavasya-days#(bhādrapada)-mahālaya-amāvāsyā<br/><br/>#Amavasya
+ Days
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13980,7 +13981,7 @@ SUMMARY:महालय-पक्ष-समापनम्
 DTSTART;VALUE=DATE:20190928
 DTEND;VALUE=DATE:20190929
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- relative_event/(bhAdrapada) mahAlaya amAvasyA/offset__00#mahālaya-pakṣa
+ relative_event/(bhAdrapada) mahAlaya amAvAsyA/offset__00#mahālaya-pakṣa
  -samāpanam<br/><br/>#SpecialPeriodEnd #CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -13995,7 +13996,7 @@ SUMMARY:महालय-पक्षः
 DTSTART;VALUE=DATE:20190914
 DTEND;VALUE=DATE:20190929
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- relative_event/(bhAdrapada) mahAlaya amAvasyA/offset__00#mahālaya-pakṣa
+ relative_event/(bhAdrapada) mahAlaya amAvAsyA/offset__00#mahālaya-pakṣa
  -samāpanam<br/><br/>#SpecialPeriodEnd #CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -15811,11 +15812,11 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:आश्वयुज-अमावस्या
+SUMMARY:आश्वयुज-अमावास्या
 DTSTART;VALUE=DATE:20191027
 DTEND;VALUE=DATE:20191028
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- other/amavasya-days#āśvayuja-amāvasyā<br/><br/>#AmavasyaDays
+ other/amavasya-days#āśvayuja-amāvāsyā<br/><br/>#AmavasyaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15906,7 +15907,7 @@ SUMMARY:सप्तम-अपरपक्ष-समापनम्
 DTSTART;VALUE=DATE:20191027
 DTEND;VALUE=DATE:20191028
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- relative_event/Azvayuja-amAvasyA/offset__00#saptama-aparapakṣa-samāpana
+ relative_event/Azvayuja-amAvAsyA/offset__00#saptama-aparapakṣa-samāpana
  m<br/><br/>#SpecialPeriodEnd
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -15921,7 +15922,7 @@ SUMMARY:सप्तम-अपरपक्षः
 DTSTART;VALUE=DATE:20191014
 DTEND;VALUE=DATE:20191028
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- relative_event/Azvayuja-amAvasyA/offset__00#saptama-aparapakṣa-samāpana
+ relative_event/Azvayuja-amAvAsyA/offset__00#saptama-aparapakṣa-samāpana
  m<br/><br/>#SpecialPeriodEnd
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -16022,25 +16023,25 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:सोमवती अमावस्या
+SUMMARY:सोमवती अमावास्या
 DTSTART;VALUE=DATE:20191028
 DTEND;VALUE=DATE:20191029
-DESCRIPTION:अमावस्या on a Monday is as sacred as a solar e
- clipse. Particularly good for performing pradakshinam of Pippala tree.<br/
- ><br/>अमावस्या तु सोमेन सप्तमी 
- भानुना सह।<br/>चतुर्थी भूमिपु
- त्रेण सोमपुत्रेण चाष्टमी।<br
- />चतस्रस्तिथयस्त्वेताः सूर
- ्यग्रहणसन्निभाः॥<br/><br/>मूलतो 
- ब्रह्मरूपाय मध्यतो विष्णुर
- ूपिणे।<br/>अग्रतः शिवरूपाय वृ
- क्षराजाय ते नमः॥<br/>अक्षिस्प
- न्दं भुजस्पन्दं दुःस्वप्नं
-  दुर्विचिन्तनम्।<br/>शत्रूना
- म् च समुत्पन्नम् अश्वत्थ शम
- यस्व मे॥<br/><br/><br/><br/>https://github.com/sanskrit-code
- rs/adyatithi/tree/master/data/other/rare-days/combinations/amavasya-days#s
- omavatī-amāvasyā<br/><br/>#RareDays #Combinations #AmavasyaDays
+DESCRIPTION:अमावास्या on a Monday is as sacred as a sola
+ r eclipse. Particularly good for performing pradakshinam of Pippala tree.<
+ br/><br/>अमावस्या तु सोमेन सप्तम
+ ी भानुना सह।<br/>चतुर्थी भूमिप
+ ुत्रेण सोमपुत्रेण चाष्टमी।
+ <br/>चतस्रस्तिथयस्त्वेताः सू
+ र्यग्रहणसन्निभाः॥<br/><br/>मूलत
+ ो ब्रह्मरूपाय मध्यतो विष्ण
+ ुरूपिणे।<br/>अग्रतः शिवरूपाय 
+ वृक्षराजाय ते नमः॥<br/>अक्षिस
+ ्पन्दं भुजस्पन्दं दुःस्वप्
+ नं दुर्विचिन्तनम्।<br/>शत्रू
+ नाम् च समुत्पन्नम् अश्वत्थ 
+ शमयस्व मे॥<br/><br/><br/><br/>https://github.com/sanskri
+ t-coders/adyatithi/tree/master/data/other/rare-days/combinations/amavasya-
+ days#somavatī-amāvāsyā<br/><br/>#RareDays #Combinations #AmavasyaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17801,12 +17802,12 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:कार्त्तिक-अमावस्या (अलभ्
- यम्–अनूराधा\, पुष्कला)
+SUMMARY:कार्त्तिक-अमावास्या (अलभ
+ ्यम्–अनूराधा\, पुष्कला)
 DTSTART;VALUE=DATE:20191126
 DTEND;VALUE=DATE:20191127
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- other/amavasya-days#kārttika-amāvasyā<br/><br/>#AmavasyaDays
+ other/amavasya-days#kārttika-amāvāsyā<br/><br/>#AmavasyaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17836,7 +17837,7 @@ SUMMARY:नवम-अपरपक्ष-समापनम्
 DTSTART;VALUE=DATE:20191126
 DTEND;VALUE=DATE:20191127
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- relative_event/kArttika-amAvasyA/offset__00#navama-aparapakṣa-samāpanam
+ relative_event/kArttika-amAvAsyA/offset__00#navama-aparapakṣa-samāpanam
  <br/><br/>#SpecialPeriodEnd
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -17851,7 +17852,7 @@ SUMMARY:नवम-अपरपक्षः
 DTSTART;VALUE=DATE:20191113
 DTEND;VALUE=DATE:20191127
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- relative_event/kArttika-amAvasyA/offset__00#navama-aparapakṣa-samāpanam
+ relative_event/kArttika-amAvAsyA/offset__00#navama-aparapakṣa-samāpanam
  <br/><br/>#SpecialPeriodEnd
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -19115,11 +19116,11 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:मार्गशीर्ष-अमावस्या
+SUMMARY:मार्गशीर्ष-अमावास्या
 DTSTART;VALUE=DATE:20191225
 DTEND;VALUE=DATE:20191226
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- other/amavasya-days#mārgaśīrṣa-amāvasyā<br/><br/>#AmavasyaDays
+ other/amavasya-days#mārgaśīrṣa-amāvāsyā<br/><br/>#AmavasyaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
