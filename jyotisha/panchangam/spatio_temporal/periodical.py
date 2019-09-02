@@ -1405,12 +1405,37 @@ class Panchangam(common.JsonObject):
                                        jyotisha.panchangam.temporal.Time(24 * (tyajyam_start - jd)).toString(format='hh:mm*'),
                                        jyotisha.panchangam.temporal.Time(24 * (tyajyam_end - jd)).toString(format='hh:mm*')))
 
+                if n == 19:  # MULA Nakshatram has two tyajyams!
+                    tyajyam_start = t_start + (t_end - t_start) / 60 * (56)
+                    tyajyam_end = t_end
+                    if tyajyam_start < self.jd_sunrise[d]:
+                        self.tyajyam_data[d - 1] += [(tyajyam_start, tyajyam_end)]
+                        if debug_tyajyam:
+                            logging.debug('![%3d]%04d-%02d-%02d: %s (>>%s), %s–%s' %
+                                          (d - 1, y, m, dt - 1, temporal.NAMES['NAKSHATRAM_NAMES']['hk'][n],
+                                           jyotisha.panchangam.temporal.Time(24 * (t_end - self.jd_midnight[d - 1])).toString(format='hh:mm*'),
+                                           jyotisha.panchangam.temporal.Time(24 * (tyajyam_start - self.jd_midnight[d - 1])).toString(format='hh:mm*'),
+                                           jyotisha.panchangam.temporal.Time(24 * (tyajyam_end - self.jd_midnight[d - 1])).toString(format='hh:mm*')))
+                    else:
+                        self.tyajyam_data[d] += [(tyajyam_start, tyajyam_end)]
+                        if debug_tyajyam:
+                            logging.debug(' [%3d]%04d-%02d-%02d: %s (>>%s), %s–%s' %
+                                          (d, y, m, dt, temporal.NAMES['NAKSHATRAM_NAMES']['hk'][n],
+                                           jyotisha.panchangam.temporal.Time(24 * (t_end - jd)).toString(format='hh:mm*'),
+                                           jyotisha.panchangam.temporal.Time(24 * (tyajyam_start - jd)).toString(format='hh:mm*'),
+                                           jyotisha.panchangam.temporal.Time(24 * (tyajyam_end - jd)).toString(format='hh:mm*')))
+
             if len(self.nakshatram_data[d]) == 2:
                 t_start = t_end
                 n2, t_end = self.nakshatram_data[d][1]
                 tyajyam_start = t_start + (t_end - t_start) / 60 * (temporal.TYAJYAM_SPANS_REL[n2 - 1] - 1)
                 tyajyam_end = t_start + (t_end - t_start) / 60 * (temporal.TYAJYAM_SPANS_REL[n2 - 1] + 3)
                 self.tyajyam_data[d] += [(tyajyam_start, tyajyam_end)]
+                if n2 == 19:  # MULA Nakshatram has two tyajyams!
+                    tyajyam_start = t_start + (t_end - t_start) / 60 * (56)
+                    tyajyam_end = t_end
+                    self.tyajyam_data[d] += [(tyajyam_start, tyajyam_end)]
+
                 if debug_tyajyam:
                     logging.debug(' [%3d]            %s (>>%s), %s–%s' %
                                   (d, temporal.NAMES['NAKSHATRAM_NAMES']['hk'][n2],
