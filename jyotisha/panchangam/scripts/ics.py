@@ -184,6 +184,7 @@ def compute_calendar(panchangam, all_tags=True, brief=False):
                         event_summary_text = stext
                         REPLACEMENTS = {'samApanam': '',
                                         'rAtri-': 'rAtriH',
+                                        'rAtra-': 'rAtraH',
                                         'nakSatra-': 'nakSatram',
                                         'pakSa-': 'pakSaH',
                                         'puSkara-': 'puSkaram',

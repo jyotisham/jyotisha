@@ -1378,14 +1378,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:श्यामळानवरात्रि-आरम्भः
+SUMMARY:श्यामळानवरात्र-आरम्भः
 DTSTART;VALUE=DATE:20190205
 DTEND;VALUE=DATE:20190206
 DESCRIPTION:Observed on Śukla-Prathamā tithi of Māghaḥ (lunar) month 
  (sunrise (default)/puurvaviddha (default)).<br/>Shyamala Devi specially bl
  esses musicians\; honour musicians in this period.<br/>### References<br/>
  * Vaidikasri Feb 2016<br/><br/><br/>https://github.com/sanskrit-coders/ady
- atithi/tree/master/data/lunar_month/tithi/11/01#śyāmaḻānavarātri-ār
+ atithi/tree/master/data/lunar_month/tithi/11/01#śyāmaḻānavarātra-ār
  ambhaḥ<br/><br/>#Navaratri #SpecialPeriodStart
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -1970,14 +1970,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:श्यामळानवरात्रि-समापनम
- ्
+SUMMARY:श्यामळानवरात्र-समापनम्
 DTSTART;VALUE=DATE:20190214
 DTEND;VALUE=DATE:20190215
 DESCRIPTION:Observed on Śukla-Navamī tithi of Māghaḥ (lunar) month (s
  unrise (default)/puurvaviddha (default)).<br/><br/><br/>https://github.com
  /sanskrit-coders/adyatithi/tree/master/data/lunar_month/tithi/11/09#śyām
- aḻānavarātri-samāpanam<br/><br/>#Navaratri #SpecialPeriodEnd
+ aḻānavarātra-samāpanam<br/><br/>#Navaratri #SpecialPeriodEnd
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1987,13 +1986,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:श्यामळानवरात्रिः
+SUMMARY:श्यामळानवरात्रः
 DTSTART;VALUE=DATE:20190205
 DTEND;VALUE=DATE:20190215
 DESCRIPTION:Observed on Śukla-Navamī tithi of Māghaḥ (lunar) month (s
  unrise (default)/puurvaviddha (default)).<br/><br/><br/>https://github.com
  /sanskrit-coders/adyatithi/tree/master/data/lunar_month/tithi/11/09#śyām
- aḻānavarātri-samāpanam<br/><br/>#Navaratri #SpecialPeriodEnd
+ aḻānavarātra-samāpanam<br/><br/>#Navaratri #SpecialPeriodEnd
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4054,13 +4053,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:वसन्तनवरात्रि-आरम्भः
+SUMMARY:वसन्तनवरात्र-आरम्भः
 DTSTART;VALUE=DATE:20190406
 DTEND;VALUE=DATE:20190407
 DESCRIPTION:Observed on Śukla-Prathamā tithi of Caitraḥ (lunar) month 
  (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>https://github.c
  om/sanskrit-coders/adyatithi/tree/master/data/lunar_month/tithi/01/01#vasa
- ntanavarātri-ārambhaḥ<br/><br/>#CommonFestivals #Navaratri #SpecialPer
+ ntanavarātra-ārambhaḥ<br/><br/>#CommonFestivals #Navaratri #SpecialPer
  iodStart
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -4553,13 +4552,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:वसन्तनवरात्रि-समापनम्
+SUMMARY:वसन्तनवरात्र-समापनम्
 DTSTART;VALUE=DATE:20190414
 DTEND;VALUE=DATE:20190415
 DESCRIPTION:Observed on Śukla-Navamī tithi of Caitraḥ (lunar) month (s
  unrise (default)/puurvaviddha (default)).<br/><br/><br/>https://github.com
  /sanskrit-coders/adyatithi/tree/master/data/lunar_month/tithi/01/09#vasant
- anavarātri-samāpanam<br/><br/>#CommonFestivals #Navaratri #SpecialPeriod
+ anavarātra-samāpanam<br/><br/>#CommonFestivals #Navaratri #SpecialPeriod
  End
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -4570,13 +4569,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:वसन्तनवरात्रिः
+SUMMARY:वसन्तनवरात्रः
 DTSTART;VALUE=DATE:20190406
 DTEND;VALUE=DATE:20190415
 DESCRIPTION:Observed on Śukla-Navamī tithi of Caitraḥ (lunar) month (s
  unrise (default)/puurvaviddha (default)).<br/><br/><br/>https://github.com
  /sanskrit-coders/adyatithi/tree/master/data/lunar_month/tithi/01/09#vasant
- anavarātri-samāpanam<br/><br/>#CommonFestivals #Navaratri #SpecialPeriod
+ anavarātra-samāpanam<br/><br/>#CommonFestivals #Navaratri #SpecialPeriod
  End
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -8720,13 +8719,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:वाराही-नवरात्रि-आरम्भः
+SUMMARY:वाराही-नवरात्र-आरम्भः
 DTSTART;VALUE=DATE:20190703
 DTEND;VALUE=DATE:20190704
 DESCRIPTION:Observed on Śukla-Prathamā tithi of Āṣāḍhaḥ (lunar) 
  month (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>https://gi
  thub.com/sanskrit-coders/adyatithi/tree/master/data/lunar_month/tithi/04/0
- 1#vārāhī-navarātri-ārambhaḥ<br/><br/>#Navaratri #SpecialPeriodStart
+ 1#vārāhī-navarātra-ārambhaḥ<br/><br/>#Navaratri #SpecialPeriodStart
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9163,13 +9162,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:वाराही-नवरात्रि-समापनम्
+SUMMARY:वाराही-नवरात्र-समापनम्
 DTSTART;VALUE=DATE:20190710
 DTEND;VALUE=DATE:20190711
 DESCRIPTION:Observed on Śukla-Navamī tithi of Āṣāḍhaḥ (lunar) mo
  nth (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>https://gith
  ub.com/sanskrit-coders/adyatithi/tree/master/data/lunar_month/tithi/04/09#
- vārāhī-navarātri-samāpanam<br/><br/>#Navaratri #SpecialPeriodEnd
+ vārāhī-navarātra-samāpanam<br/><br/>#Navaratri #SpecialPeriodEnd
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9179,13 +9178,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:वाराही-नवरात्रिः
+SUMMARY:वाराही-नवरात्रः
 DTSTART;VALUE=DATE:20190703
 DTEND;VALUE=DATE:20190711
 DESCRIPTION:Observed on Śukla-Navamī tithi of Āṣāḍhaḥ (lunar) mo
  nth (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>https://gith
  ub.com/sanskrit-coders/adyatithi/tree/master/data/lunar_month/tithi/04/09#
- vārāhī-navarātri-samāpanam<br/><br/>#Navaratri #SpecialPeriodEnd
+ vārāhī-navarātra-samāpanam<br/><br/>#Navaratri #SpecialPeriodEnd
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13738,17 +13737,17 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:सुमङ्गली नवमी
+SUMMARY:सुमङ्गला नवमी
 DTSTART;VALUE=DATE:20190923
 DTEND;VALUE=DATE:20190924
 DESCRIPTION:Observed on Kṛṣṇa-Navamī tithi of Bhādrapadaḥ (lunar
  ) month (sunrise (default)/puurvaviddha (default)).<br/>In honour of Suman
- galis (in the family)\, by holding a feast for Suvasinis and Kanyas.<br/><
+ galas (in the family)\, by holding a feast for Suvasinis and Kanyas.<br/><
  br/>भर्तुरग्रे मृता नारी सहदा
  हेन वा मृता।<br/>तस्याः स्थाने
   नियुञ्जीत विप्रैः सह सुवास
  िनीम्॥<br/><br/><br/><br/>https://github.com/sanskrit-coders/a
- dyatithi/tree/master/data/lunar_month/tithi/06/24#sumaṅgalī-navamī<br/
+ dyatithi/tree/master/data/lunar_month/tithi/06/24#sumaṅgalā-navamī<br/
  ><br/>#SpecialPuja #CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -13768,6 +13767,22 @@ DESCRIPTION:The Krishna-paksha Ekadashi of भाद्रपद month is
  /github.com/sanskrit-coders/adyatithi/tree/master/data/other/monthly-vrata
  m/ekadashi-vratam#indirā-ekādaśī<br/><br/>#MonthlyVratam #EkadashiVrat
  am
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:यति-महालयम्
+DTSTART;VALUE=DATE:20190925
+DTEND;VALUE=DATE:20190926
+DESCRIPTION:Observed on Kṛṣṇa-Dvādaśī tithi of Bhādrapadaḥ (lu
+ nar) month (aparaahna/paraviddha).<br/><br/><br/>https://github.com/sanskr
+ it-coders/adyatithi/tree/master/data/lunar_month/tithi/06/27#yati-mahālay
+ am<br/><br/>#SpecialPuja #CommonFestivals #CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13826,41 +13841,6 @@ DTEND;VALUE=DATE:20190927
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
  other/monthly-vratam/pradosha-vratam#pradoṣa-vratam<br/><br/>#MonthlyVra
  tam #PradoshaVratam
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:यति-महालयम्
-DTSTART;VALUE=DATE:20190926
-DTEND;VALUE=DATE:20190927
-DESCRIPTION:Observed on Kṛṣṇa-Dvādaśī tithi of Bhādrapadaḥ (lu
- nar) month (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>https
- ://github.com/sanskrit-coders/adyatithi/tree/master/data/lunar_month/tithi
- /06/27#yati-mahālayam<br/><br/>#SpecialPuja #CommonFestivals #CommonFesti
- vals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:श्री बोधेन्द्र सरस्वती आ
- राधना
-DTSTART;VALUE=DATE:20190926
-DTEND;VALUE=DATE:20190927
-DESCRIPTION:Observed on Kṛṣṇa-Dvādaśī tithi of Bhādrapadaḥ (lu
- nar) month (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>https
- ://github.com/sanskrit-coders/adyatithi/tree/master/data/lunar_month/tithi
- /06/27#śrī-bodhendra-sarasvatī-ārādhanā<br/><br/>#MahapurushaEvents 
- #CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -14142,13 +14122,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:शरन्नवरात्रि-आरम्भः
+SUMMARY:शरन्नवरात्र-आरम्भः
 DTSTART;VALUE=DATE:20190929
 DTEND;VALUE=DATE:20190930
 DESCRIPTION:Observed on Śukla-Prathamā tithi of Āśvayujaḥ (lunar) mo
  nth (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>https://gith
  ub.com/sanskrit-coders/adyatithi/tree/master/data/lunar_month/tithi/07/01#
- śarannavarātri-ārambhaḥ<br/><br/>#Navaratri #SpecialPeriodStart #Comm
+ śarannavarātra-ārambhaḥ<br/><br/>#Navaratri #SpecialPeriodStart #Comm
  onFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -14550,13 +14530,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:शरन्नवरात्रि-समापनम्
+SUMMARY:शरन्नवरात्र-समापनम्
 DTSTART;VALUE=DATE:20191007
 DTEND;VALUE=DATE:20191008
 DESCRIPTION:Observed on Śukla-Navamī tithi of Āśvayujaḥ (lunar) mont
  h (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>https://github
  .com/sanskrit-coders/adyatithi/tree/master/data/lunar_month/tithi/07/09#ś
- arannavarātri-samāpanam<br/><br/>#Navaratri #SpecialPeriodEnd #CommonFes
+ arannavarātra-samāpanam<br/><br/>#Navaratri #SpecialPeriodEnd #CommonFes
  tivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -14567,13 +14547,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:शरन्नवरात्रिः
+SUMMARY:शरन्नवरात्रः
 DTSTART;VALUE=DATE:20190929
 DTEND;VALUE=DATE:20191008
 DESCRIPTION:Observed on Śukla-Navamī tithi of Āśvayujaḥ (lunar) mont
  h (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>https://github
  .com/sanskrit-coders/adyatithi/tree/master/data/lunar_month/tithi/07/09#ś
- arannavarātri-samāpanam<br/><br/>#Navaratri #SpecialPeriodEnd #CommonFes
+ arannavarātra-samāpanam<br/><br/>#Navaratri #SpecialPeriodEnd #CommonFes
  tivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -17959,15 +17939,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:वनदुर्गानवरात्रि-आरम्भ
- ः
+SUMMARY:वनदुर्गानवरात्र-आरम्भः
 DTSTART;VALUE=DATE:20191127
 DTEND;VALUE=DATE:20191128
 DESCRIPTION:Observed on Śukla-Prathamā tithi of Mārgaśīrṣaḥ (luna
  r) month (sunrise (default)/puurvaviddha (default)).<br/>Vanadurga Navarat
  ri. Specially celebrated in Karthiramangalam.<br/><br/>https://github.com/
  sanskrit-coders/adyatithi/tree/master/data/lunar_month/tithi/09/01#vanadur
- gānavarātri-ārambhaḥ<br/><br/>#Navaratri #SpecialPeriodStart
+ gānavarātra-ārambhaḥ<br/><br/>#Navaratri #SpecialPeriodStart
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18280,15 +18259,15 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:वनदुर्गानवरात्रि-समापन
- म्
+SUMMARY:वनदुर्गानवरात्र-समापनम
+ ्
 DTSTART;VALUE=DATE:20191205
 DTEND;VALUE=DATE:20191206
 DESCRIPTION:Observed on Śukla-Navamī tithi of Mārgaśīrṣaḥ (lunar)
   month (sunrise (default)/puurvaviddha (default)).<br/>Vanadurga Navaratri
  . Specially celebrated in Karthiramangalam.<br/><br/>https://github.com/sa
  nskrit-coders/adyatithi/tree/master/data/lunar_month/tithi/09/09#vanadurg
- ānavarātri-samāpanam<br/><br/>#Navaratri #SpecialPeriodEnd
+ ānavarātra-samāpanam<br/><br/>#Navaratri #SpecialPeriodEnd
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18298,14 +18277,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:वनदुर्गानवरात्रिः
+SUMMARY:वनदुर्गानवरात्रः
 DTSTART;VALUE=DATE:20191127
 DTEND;VALUE=DATE:20191206
 DESCRIPTION:Observed on Śukla-Navamī tithi of Mārgaśīrṣaḥ (lunar)
   month (sunrise (default)/puurvaviddha (default)).<br/>Vanadurga Navaratri
  . Specially celebrated in Karthiramangalam.<br/><br/>https://github.com/sa
  nskrit-coders/adyatithi/tree/master/data/lunar_month/tithi/09/09#vanadurg
- ānavarātri-samāpanam<br/><br/>#Navaratri #SpecialPeriodEnd
+ ānavarātra-samāpanam<br/><br/>#Navaratri #SpecialPeriodEnd
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
