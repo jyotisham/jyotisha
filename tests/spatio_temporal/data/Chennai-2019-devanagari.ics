@@ -16794,16 +16794,18 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:कार्तिक-मास-अन्तिमत्रयत
- िथि-व्रत-आरम्भः
+SUMMARY:कार्त्तिक-मास-अन्तिमत्र
+ यतिथि-व्रत-आरम्भः
 DTSTART;VALUE=DATE:20191110
 DTEND;VALUE=DATE:20191111
 DESCRIPTION:Observed on Śukla-Trayodaśī tithi of Kārttikaḥ (lunar) m
- onth (sunrise (default)/puurvaviddha (default)).<br/><br/>### References<b
- r/>* skAnda mahApurANe vaiSNavakhaNDE SaDtriMzO.adhyAyaH<br/><br/><br/>htt
- ps://github.com/sanskrit-coders/adyatithi/tree/master/data/lunar_month/tit
- hi/08/13#kārtika-māsa-antimatrayatithi-vrata-ārambhaḥ<br/><br/>#LessC
- ommonFestivals
+ onth (sunrise (default)/puurvaviddha (default)).<br/>Last three days of 
+ कार्त्तिक-मासः. अनन्तफलदम्! 
+ Perform Shiva/Vishnu Puja\, Bhagavata Parayanam\, BhagavadGita Parayanam\,
+  Vishnu Sahasranama Parayanam etc.<br/>### References<br/>* skAnda mahApur
+ ANe vaiSNavakhaNDE SaDtriMzO.adhyAyaH<br/><br/><br/>https://github.com/san
+ skrit-coders/adyatithi/tree/master/data/lunar_month/tithi/08/13#kārttika-
+ māsa-antimatrayatithi-vrata-ārambhaḥ<br/><br/>#LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -16985,16 +16987,18 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:कार्तिक-मास-अन्तिमत्रयत
- िथि-व्रत-समापनम्
+SUMMARY:कार्त्तिक-मास-अन्तिमत्र
+ यतिथि-व्रत-समापनम्
 DTSTART;VALUE=DATE:20191112
 DTEND;VALUE=DATE:20191113
 DESCRIPTION:Observed on Paurṇamāsī tithi of Kārttikaḥ (lunar) month
-  (sunrise (default)/puurvaviddha (default)).<br/><br/>### References<br/>*
-  skAnda mahApurANe vaiSNavakhaNDE SaDtriMzO.adhyAyaH<br/><br/><br/>https:/
- /github.com/sanskrit-coders/adyatithi/tree/master/data/lunar_month/tithi/0
- 8/15#kārtika-māsa-antimatrayatithi-vrata-samāpanam<br/><br/>#LessCommon
- Festivals
+  (sunrise (default)/puurvaviddha (default)).<br/>Last three days of का
+ र्त्तिक-मासः. अनन्तफलदम्! Perfor
+ m Shiva/Vishnu Puja\, Bhagavata Parayanam\, BhagavadGita Parayanam\, Vishn
+ u Sahasranama Parayanam etc.<br/>### References<br/>* skAnda mahApurANe va
+ iSNavakhaNDE SaDtriMzO.adhyAyaH<br/><br/><br/>https://github.com/sanskrit-
+ coders/adyatithi/tree/master/data/lunar_month/tithi/08/15#kārttika-māsa-
+ antimatrayatithi-vrata-samāpanam<br/><br/>#LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17004,16 +17008,18 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:कार्तिक-मास-अन्तिमत्रयत
- िथि-व्रतम्
+SUMMARY:कार्त्तिक-मास-अन्तिमत्र
+ यतिथि-व्रतम्
 DTSTART;VALUE=DATE:20191110
 DTEND;VALUE=DATE:20191113
 DESCRIPTION:Observed on Paurṇamāsī tithi of Kārttikaḥ (lunar) month
-  (sunrise (default)/puurvaviddha (default)).<br/><br/>### References<br/>*
-  skAnda mahApurANe vaiSNavakhaNDE SaDtriMzO.adhyAyaH<br/><br/><br/>https:/
- /github.com/sanskrit-coders/adyatithi/tree/master/data/lunar_month/tithi/0
- 8/15#kārtika-māsa-antimatrayatithi-vrata-samāpanam<br/><br/>#LessCommon
- Festivals
+  (sunrise (default)/puurvaviddha (default)).<br/>Last three days of का
+ र्त्तिक-मासः. अनन्तफलदम्! Perfor
+ m Shiva/Vishnu Puja\, Bhagavata Parayanam\, BhagavadGita Parayanam\, Vishn
+ u Sahasranama Parayanam etc.<br/>### References<br/>* skAnda mahApurANe va
+ iSNavakhaNDE SaDtriMzO.adhyAyaH<br/><br/><br/>https://github.com/sanskrit-
+ coders/adyatithi/tree/master/data/lunar_month/tithi/08/15#kārttika-māsa-
+ antimatrayatithi-vrata-samāpanam<br/><br/>#LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
