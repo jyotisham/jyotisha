@@ -454,12 +454,12 @@ class Panchangam(common.JsonObject):
                                 self.add_festival('vaiSNava-vaikuNTha-EkAdazI', vaishnava_ekadashi_fday, debug_festivals)
                 else:
                     self.add_festival('smArta-' + temporal.get_ekadashi_name(ekadashi_paksha, self.lunar_month[d]) + ' (gRhastha)', smaarta_ekadashi_fday, debug_festivals)
-                    self.add_festival('smArta-' + temporal.get_ekadashi_name(ekadashi_paksha, self.lunar_month[d]) + ' (sannyastha)', yati_ekadashi_fday, debug_festivals)
+                    self.add_festival('smArta-' + temporal.get_ekadashi_name(ekadashi_paksha, self.lunar_month[d]) + ' (sannyasta)', yati_ekadashi_fday, debug_festivals)
                     self.add_festival('vaiSNava-' + temporal.get_ekadashi_name(ekadashi_paksha, self.lunar_month[d]), vaishnava_ekadashi_fday, debug_festivals)
                     if self.solar_month[d] == 9:
                         if ekadashi_paksha == 'shukla':
                             self.add_festival('smArta-vaikuNTha-EkAdazI (gRhastha)', smaarta_ekadashi_fday, debug_festivals)
-                            self.add_festival('smArta-vaikuNTha-EkAdazI (sannyastha)', yati_ekadashi_fday, debug_festivals)
+                            self.add_festival('smArta-vaikuNTha-EkAdazI (sannyasta)', yati_ekadashi_fday, debug_festivals)
                             self.add_festival('vaiSNava-vaikuNTha-EkAdazI', vaishnava_ekadashi_fday, debug_festivals)
 
                 if yati_ekadashi_fday == smaarta_ekadashi_fday == vaishnava_ekadashi_fday is None:
