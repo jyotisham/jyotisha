@@ -71,6 +71,7 @@ class Panchangam(common.JsonObject):
         self.yoga_sunrise = [None] * temporal.MAX_SZ
         self.karanam_data = [None] * temporal.MAX_SZ
         self.rashi_data = [None] * temporal.MAX_SZ
+        self.kaalas = [None] * temporal.MAX_SZ
 
         if compute_lagnams:
             self.lagna_data = [None] * temporal.MAX_SZ
@@ -180,6 +181,7 @@ class Panchangam(common.JsonObject):
             self.yoga_sunrise[d] = daily_panchaangas[d].yoga_at_sunrise
             self.karanam_data[d] = daily_panchaangas[d].karanam_data
             self.rashi_data[d] = daily_panchaangas[d].rashi_data
+            self.kaalas[d] = daily_panchaangas[d].get_kaalas()
             if compute_lagnams:
                 self.lagna_data[d] = daily_panchaangas[d].get_lagna_data()
 

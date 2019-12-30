@@ -79,6 +79,7 @@ class Panchangam(common.JsonObject):
         self.yoga_sunrise = [None] * nDays
         self.karanam_data = [None] * nDays
         self.rashi_data = [None] * nDays
+        self.kaalas = [None] * temporal.MAX_SZ
 
         if compute_lagnams:
             self.lagna_data = [None] * nDays
