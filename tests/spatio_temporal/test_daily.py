@@ -24,9 +24,9 @@ def test_sunrise_mtv():
   panchangam.compute_sun_moon_transitions()
   numpy.testing.assert_approx_equal(panchangam.jd_sunrise, 2458434.11)
 
-def test_tb_muhuurta_mtv():
-  city = City.from_address_and_timezone('Cupertino, CA', "America/Los_Angeles")
-  panchangam = daily.DailyPanchanga(city=city, year=2018, month=11, day=11)
+def test_tb_muhuurta_blr():
+  city = City.from_address_and_timezone('Bangalore', "Asia/Calcutta")
+  panchangam = daily.DailyPanchanga(city=city, year=2019, month=9, day=10)
   panchangam.compute_tb_muhuurtas()
   assert len(panchangam.tb_muhuurtas) == 15
   assert panchangam.tb_muhuurtas[0].jd_start == panchangam.jd_sunrise

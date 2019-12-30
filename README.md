@@ -4,9 +4,11 @@ JyotiSha tools and data
 For detailed examples and help, please see individual module files in this package.
 
 ## Installation or upgrade:
-* `sudo pip install jyotisha -U`
-* `sudo pip install git+https://github.com/sanskrit-coders/jyotisha/@master -U`
-* [Web](https://pypi.python.org/pypi/jyotisha).
+- Install the pyswisseph library specially as described below.
+- Install the jyotisha package
+  - `sudo pip install jyotisha -U`
+  - `sudo pip install git+https://github.com/sanskrit-coders/jyotisha/@master -U`
+- [Web](https://pypi.python.org/pypi/jyotisha).
 
 ## Usage
 - REST API/ swagger web interface - at [vedavaapi](http://api.vedavaapi.org/jyotisha).
