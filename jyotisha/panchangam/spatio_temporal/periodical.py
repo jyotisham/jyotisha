@@ -23,7 +23,7 @@ from jyotisha.panchangam.spatio_temporal import CODE_ROOT, daily, CALC_RISE, CAL
 
 
 class Panchangam(common.JsonObject):
-    """This class enables the construction of a panchangam
+    """This class enables the construction of a panchangam for arbitrary days, with festivals.
       """
 
     def __init__(self, city, start_date, end_date, script=sanscript.DEVANAGARI, fmt='hh:mm', ayanamsha_id=swe.SIDM_LAHIRI,
