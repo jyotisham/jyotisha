@@ -119,8 +119,6 @@ def writeDailyICS(panchangam, compute_lagnams=True):
     # print(' \\sffamily \\fontsize 23  23 \\selectfont   %s \\\\[0.2cm] '
     #       % jyotisha.custom_transliteration.print_lat_lon(panchangam.city.latitude, panchangam.city.longitude), file=output_stream)
 
-    panchangam.get_kaalas()
-
     ics_calendar = Calendar()
 
     alarm = Alarm()

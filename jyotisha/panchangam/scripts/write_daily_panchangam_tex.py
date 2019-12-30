@@ -64,8 +64,6 @@ def writeDailyTeX(panchangam, template_file, compute_lagnams=True, output_stream
     print('\\end{center}', file=output_stream)
     print('\\clearpage\\pagestyle{fancy}', file=output_stream)
 
-    panchangam.get_kaalas()
-
     for d in range(1, jyotisha.panchangam.temporal.MAX_SZ - 1):
 
         [y, m, dt, t] = swe.revjul(panchangam.jd_start_utc + d - 1)

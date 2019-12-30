@@ -166,35 +166,9 @@ class Panchangam(common.JsonObject):
             self.yoga_sunrise[d] = daily_panchaangas[d].yoga_at_sunrise
             self.karanam_data[d] = daily_panchaangas[d].karanam_data
             self.rashi_data[d] = daily_panchaangas[d].rashi_data
+            self.kaalas[d] = daily_panchaangas[d].get_kaalas()
             if compute_lagnams:
                 self.lagna_data[d] = daily_panchaangas[d].get_lagna_data()
-
-    def get_kaalas(self):
-        YAMAGANDA_OCTETS = [4, 3, 2, 1, 0, 6, 5]
-        RAHUKALA_OCTETS = [7, 1, 6, 4, 5, 3, 2]
-        GULIKAKALA_OCTETS = [6, 5, 4, 3, 2, 1, 0]
-        self.kaalas = [dict() for _x in range(self.len)]
-        for d in range(1, self.duration + 1):
-            self.kaalas[d] = {
-                'braahma': temporal.get_kaalas(self.jd_sunset[d - 1], self.jd_sunrise[d], 13, 15),
-                'prAtaH sandhyA': temporal.get_kaalas(self.jd_sunset[d - 1], self.jd_sunrise[d], 14, 15),
-                'prAtaH sandhyA end': temporal.get_kaalas(self.jd_sunrise[d], self.jd_sunset[d], 4, 15),
-                'prAtah': temporal.get_kaalas(self.jd_sunrise[d], self.jd_sunset[d], 0, 5),
-                'saGgava': temporal.get_kaalas(self.jd_sunrise[d], self.jd_sunset[d], 1, 5),
-                'madhyAhna': temporal.get_kaalas(self.jd_sunrise[d], self.jd_sunset[d], 2, 5),
-                'mAdhyAhnika sandhyA': temporal.get_kaalas(self.jd_sunrise[d], self.jd_sunset[d], 5, 15),
-                'mAdhyAhnika sandhyA end': temporal.get_kaalas(self.jd_sunrise[d], self.jd_sunset[d], 13, 15),
-                'aparAhna': temporal.get_kaalas(self.jd_sunrise[d], self.jd_sunset[d], 3, 5),
-                'sAyAhna': temporal.get_kaalas(self.jd_sunrise[d], self.jd_sunset[d], 4, 5),
-                'sAyaM sandhyA': temporal.get_kaalas(self.jd_sunrise[d], self.jd_sunset[d], 14, 15),
-                'sAyaM sandhyA end': temporal.get_kaalas(self.jd_sunset[d], self.jd_sunrise[d + 1], 1, 15),
-                'rAtri yAma 1': temporal.get_kaalas(self.jd_sunset[d], self.jd_sunrise[d + 1], 1, 4),
-                'zayana': temporal.get_kaalas(self.jd_sunset[d], self.jd_sunrise[d + 1], 3, 8),
-                'dinAnta': temporal.get_kaalas(self.jd_sunset[d], self.jd_sunrise[d + 1], 5, 8),
-                'rahu': temporal.get_kaalas(self.jd_sunrise[d], self.jd_sunset[d], RAHUKALA_OCTETS[self.weekday[d]], 8),
-                'yama': temporal.get_kaalas(self.jd_sunrise[d], self.jd_sunset[d], YAMAGANDA_OCTETS[self.weekday[d]], 8),
-                'gulika': temporal.get_kaalas(self.jd_sunrise[d], self.jd_sunset[d], GULIKAKALA_OCTETS[self.weekday[d]], 8)
-            }
 
     def assignLunarMonths(self):
         last_d_assigned = 0

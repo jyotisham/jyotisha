@@ -63,6 +63,8 @@ class DailyPanchanga(common.JsonObject):
         self.karanam_data = None
         self.rashi_data = None
 
+        self.festivals = []
+
     def compute_sun_moon_transitions(self, previous_day_panchangam=None, force_recomputation=False):
         """
 
@@ -297,6 +299,8 @@ class DailyPanchanga(common.JsonObject):
         }
         return self.kaalas
 
+    def update_festival_details(self):
+        pass
 
 # Essential for depickling to work.
 common.update_json_class_index(sys.modules[__name__])

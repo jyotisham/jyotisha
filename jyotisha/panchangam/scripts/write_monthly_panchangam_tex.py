@@ -71,8 +71,6 @@ def writeMonthlyTeX(panchangam, template_file):
     print('\\begin{supertabular}' +
           '{>{\\sffamily}r>{\\sffamily}r>{\\sffamily}c>{\\hangindent=2ex}p{8cm}}')
 
-    panchangam.get_kaalas()
-
     mlast = 1
     for d in range(1, jyotisha.panchangam.temporal.MAX_SZ - 1):
         [y, m, dt, t] = swe.revjul(panchangam.jd_start_utc + d - 1)

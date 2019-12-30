@@ -110,8 +110,6 @@ def writeDailyText(panchangam, compute_lagnams=True, output_file_stream=sys.stdo
     # print(' \\sffamily \\fontsize 23  23 \\selectfont   %s \\\\[0.2cm] '
     #       % jyotisha.custom_transliteration.print_lat_lon(panchangam.city.latitude, panchangam.city.longitude), file=output_stream)
 
-    panchangam.get_kaalas()
-
     for d in range(1, jyotisha.panchangam.temporal.MAX_SZ - 1):
 
         [y, m, dt, t] = swe.revjul(panchangam.jd_start_utc + d - 1)
