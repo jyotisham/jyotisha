@@ -26,7 +26,7 @@ def test_panchanga_chennai_18():
   if panchangam.__str__(floating_point_precision=4) != panchangam_expected_chennai_18.__str__(floating_point_precision=4):
     panchangam.dump_to_file(filename=os.path.join(TEST_DATA_PATH, 'Chennai-2018-actual.json.local'), floating_point_precision=4)
     panchangam_expected_chennai_18.dump_to_file(filename=os.path.join(TEST_DATA_PATH, 'Chennai-2018-expected.json.local'), floating_point_precision=4)
-  assert str(panchangam) == str(panchangam_expected_chennai_18)
+  assert panchangam.__str__(floating_point_precision=4) == panchangam_expected_chennai_18.__str__(floating_point_precision=4)
 
 
 def test_panchanga_chennai_19():

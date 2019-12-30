@@ -47,7 +47,8 @@ def tr(text, scr, titled=True):
                     scr = sanscript.TAMIL
                 t = t[3:]
                 if scr == sanscript.TAMIL:
-                    transliterated_text.append('\\tamil{%s}' % sanscript.transliterate(data=t, _from=sanscript.HK, _to=scr).replace('C', 'Ch').replace('c', 'ch').title())
+                    tamil_text = sanscript.SCHEMES[sanscript.TAMIL].apply_roman_numerals(sanscript.transliterate(data=t, _from=sanscript.HK, _to=scr))
+                    transliterated_text.append('\\tamil{%s}' % tamil_text.replace('C', 'Ch').replace('c', 'ch').title())
                 else:
                     transliterated_text.append(sanscript.transliterate(data=t, _from=sanscript.HK, _to=scr).replace('C', 'Ch').replace('c', 'ch').title())
 
