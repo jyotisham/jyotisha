@@ -174,7 +174,7 @@ class Panchangam(common.JsonObject):
     def assignLunarMonths(self):
         last_d_assigned = 0
         last_new_moon_start, last_new_moon_end = temporal.get_angam_span(
-            self.jd_start_utc - self.tithi_sunrise[1] - 2, self.jd_start_utc - self.tithi_sunrise[1] + 2, temporal.TITHI, 30, ayanamsha_id=self.ayanamsha_id)
+            self.jd_start_utc - self.tithi_sunrise[1] - 3, self.jd_start_utc - self.tithi_sunrise[1] + 3, temporal.TITHI, 30, ayanamsha_id=self.ayanamsha_id)
         this_new_moon_start, this_new_moon_end = temporal.get_angam_span(last_new_moon_start + 24, last_new_moon_start + 32, temporal.TITHI, 30, ayanamsha_id=self.ayanamsha_id)
         # Check if current mAsa is adhika here
         isAdhika = temporal.get_solar_rashi(last_new_moon_end, ayanamsha_id=self.ayanamsha_id) ==\
