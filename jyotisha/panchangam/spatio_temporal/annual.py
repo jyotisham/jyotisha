@@ -1618,7 +1618,7 @@ common.update_json_class_index(sys.modules[__name__])
 # logging.debug(common.json_class_index)
 
 
-def get_panchangam(city, year, script, fmt='hh:mm', compute_lagnams=False, precomputed_json_dir="~/Documents", ayanamsha_id=swe.SIDM_LAHIRI, allow_precomputed=True):
+def get_panchangam(city, year, script, fmt='hh:mm', compute_lagnams=False, precomputed_json_dir="~/Documents", ayanamsha_id=swe.SIDM_TRUE_CITRA, allow_precomputed=True):
     fname_det = os.path.expanduser('%s/%s-%s-detailed.json' % (precomputed_json_dir, city.name, year))
     fname = os.path.expanduser('%s/%s-%s.json' % (precomputed_json_dir, city.name, year))
 
@@ -1650,4 +1650,4 @@ def get_panchangam(city, year, script, fmt='hh:mm', compute_lagnams=False, preco
 
 if __name__ == '__main__':
     city = spatio_temporal.City('Chennai', "13:05:24", "80:16:12", "Asia/Calcutta")
-    panchangam = Panchangam(city=city, start_date='2019-01-01', end_date='2019-12-31', script=sanscript.DEVANAGARI, ayanamsha_id=swe.SIDM_LAHIRI, fmt='hh:mm', compute_lagnams=False)
+    panchangam = Panchangam(city=city, start_date='2019-01-01', end_date='2019-12-31', script=sanscript.DEVANAGARI, ayanamsha_id=swe.SIDM_TRUE_CITRA, fmt='hh:mm', compute_lagnams=False)
