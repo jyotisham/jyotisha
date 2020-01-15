@@ -140,7 +140,7 @@ DTEND;VALUE=DATE:20190105
 DESCRIPTION:Observed on Jyeṣṭhā nakṣhatram day of Dhanuḥ (solar) 
  month (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-code
  rs/adyatithi/tree/master/data/solar_month/nakshatram/09/18#tôṇḍaraḍ
- ippôḍiyāḷvār-tirunakṣattiram<br/><br/>#MahapurushaEvents #AzhwarJ
+ ippôḍiyāḽvār-tirunakṣattiram<br/><br/>#MahapurushaEvents #AzhwarJ
  ayanti
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -373,8 +373,8 @@ SUMMARY:போகி
 DTSTART;VALUE=DATE:20190114
 DTEND;VALUE=DATE:20190115
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- relative_event/makara-saGkrAntiH__uttarAyaNa-puNyakAlaH/offset__-1#bhogi<b
- r/><br/>#CommonFestivals
+ relative_event/makara-saGkrAntiH/offset__-1#bhogi<br/><br/>#CommonFestival
+ s
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -435,14 +435,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:मकर-सङ्क्रान्तिः/उत्तरा
- यण-पुण्यकालः
+SUMMARY:मकर-सङ्क्रान्तिः
 DTSTART;VALUE=DATE:20190115
 DTEND;VALUE=DATE:20190116
 DESCRIPTION:Observed on day 1 of Makaraḥ (solar) month (sunrise (default
  )/puurvaviddha (default)).<br/><br/><br/>https://github.com/sanskrit-coder
- s/adyatithi/tree/master/data/solar_month/day/10/01#makara-saṅkrāntiḥ/
- uttarāyaṇa-puṇyakālaḥ<br/><br/>#CommonFestivals #SunSankranti
+ s/adyatithi/tree/master/data/solar_month/day/10/01#makara-saṅkrāntiḥ<
+ br/><br/>#CommonFestivals #SunSankranti
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -458,9 +457,8 @@ SUMMARY:மதுரை மீனாக்ஷீ கோயிலில்
 DTSTART;VALUE=DATE:20190115
 DTEND;VALUE=DATE:20190116
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- relative_event/makara-saGkrAntiH__uttarAyaNa-puNyakAlaH/offset__00#madhura
- i-mīnākṣī-koyilil-kal-yānaikku-karumbu-koḍutta-līlai<br/><br/>#Ta
- milnaduTempleFestivals
+ relative_event/makara-saGkrAntiH/offset__00#madhurai-mīnākṣī-koyilil-
+ kal-yānaikku-karumbu-koḍutta-līlai<br/><br/>#TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -493,8 +491,8 @@ SUMMARY:इन्द्र-पूजा/गो-पूजा
 DTSTART;VALUE=DATE:20190116
 DTEND;VALUE=DATE:20190117
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- relative_event/makara-saGkrAntiH__uttarAyaNa-puNyakAlaH/offset__01#indra-p
- ūjā/go-pūjā<br/><br/>#SpecialPuja
+ relative_event/makara-saGkrAntiH/offset__01#indra-pūjā/go-pūjā<br/><br
+ />#SpecialPuja
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -527,8 +525,8 @@ SUMMARY:கனுப் பொங்கல்
 DTSTART;VALUE=DATE:20190116
 DTEND;VALUE=DATE:20190117
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- relative_event/makara-saGkrAntiH__uttarAyaNa-puNyakAlaH/offset__01#kanup-p
- ôṅgal<br/><br/>#CommonFestivals
+ relative_event/makara-saGkrAntiH/offset__01#kanup-pôṅgal<br/><br/>#Comm
+ onFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -664,7 +662,7 @@ SUMMARY:தை வெள்ளிக்கிழமை
 DTSTART;VALUE=DATE:20190118
 DTEND;VALUE=DATE:20190119
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- other/month-weekday-festivals#tai-vêḻḻikkiḷamai<br/><br/>#MonthWeek
+ other/month-weekday-festivals#tai-vêḻḻikkiḽamai<br/><br/>#MonthWeek
  dayFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -984,7 +982,7 @@ DTSTART;VALUE=DATE:20190123
 DTEND;VALUE=DATE:20190124
 DESCRIPTION:Observed on Maghā nakṣhatram day of Makaraḥ (solar) month
   (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-coders/ad
- yatithi/tree/master/data/solar_month/nakshatram/10/10#tirumaḷichaiyāḷ
+ yatithi/tree/master/data/solar_month/nakshatram/10/10#tirumaḽichaiyāḽ
  vār-tirunakṣattiram<br/><br/>#MahapurushaEvents #AzhwarJayanti
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -1032,7 +1030,7 @@ SUMMARY:தை வெள்ளிக்கிழமை
 DTSTART;VALUE=DATE:20190125
 DTEND;VALUE=DATE:20190126
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- other/month-weekday-festivals#tai-vêḻḻikkiḷamai<br/><br/>#MonthWeek
+ other/month-weekday-festivals#tai-vêḻḻikkiḽamai<br/><br/>#MonthWeek
  dayFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -1226,7 +1224,7 @@ SUMMARY:தை வெள்ளிக்கிழமை
 DTSTART;VALUE=DATE:20190201
 DTEND;VALUE=DATE:20190202
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- other/month-weekday-festivals#tai-vêḻḻikkiḷamai<br/><br/>#MonthWeek
+ other/month-weekday-festivals#tai-vêḻḻikkiḽamai<br/><br/>#MonthWeek
  dayFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -1351,7 +1349,7 @@ DTEND;VALUE=DATE:20190205
 DESCRIPTION:Observed on Amāvāsyā tithi of Makaraḥ (solar) month (sunr
  ise (default)/puurvaviddha (default)).<br/><br/><br/>https://github.com/sa
  nskrit-coders/adyatithi/tree/master/data/solar_month/tithi/10/30#tirunêlv
- eli-nêllaiyappar-patra-dīpa-tiruviḷā<br/><br/>#TamilnaduTempleFestiva
+ eli-nêllaiyappar-patra-dīpa-tiruviḽā<br/><br/>#TamilnaduTempleFestiva
  ls
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -1437,7 +1435,7 @@ SUMMARY:தை வெள்ளிக்கிழமை
 DTSTART;VALUE=DATE:20190208
 DTEND;VALUE=DATE:20190209
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- other/month-weekday-festivals#tai-vêḻḻikkiḷamai<br/><br/>#MonthWeek
+ other/month-weekday-festivals#tai-vêḻḻikkiḽamai<br/><br/>#MonthWeek
  dayFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -1454,7 +1452,7 @@ DTSTART;VALUE=DATE:20190208
 DTEND;VALUE=DATE:20190209
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
  relative_event/ta:tiruccendUr mAcit tiruvizhA nir2aivu/offset__-11#tiruchc
- hêndūr-murugan-māchit-tiruviḷā-tôḍakkam<br/><br/>#TamilnaduTemple
+ hêndūr-murugan-māchit-tiruviḽā-tôḍakkam<br/><br/>#TamilnaduTemple
  Festivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -1508,7 +1506,7 @@ DTSTART;VALUE=DATE:20190209
 DTEND;VALUE=DATE:20190210
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
  relative_event/ta:tiruccendUr mAcit tiruvizhA nir2aivu/offset__-10#tiruchc
- hêndūr-murugan-māchit-tiruviḷā-2m-nāḻ<br/><br/>#TamilnaduTempleFe
+ hêndūr-murugan-māchit-tiruviḽā-2m-nāḻ<br/><br/>#TamilnaduTempleFe
  stivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -1577,7 +1575,7 @@ DTSTART;VALUE=DATE:20190210
 DTEND;VALUE=DATE:20190211
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
  relative_event/ta:tiruccendUr mAcit tiruvizhA nir2aivu/offset__-9#tiruchch
- êndūr-murugan-māchit-tiruviḷā-3m-nāḻ—murugan-bhavani<br/><br/>#
+ êndūr-murugan-māchit-tiruviḽā-3m-nāḻ—murugan-bhavani<br/><br/>#
  TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -1648,7 +1646,7 @@ DTSTART;VALUE=DATE:20190211
 DTEND;VALUE=DATE:20190212
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
  relative_event/ta:tiruccendUr mAcit tiruvizhA nir2aivu/offset__-8#tiruchch
- êndūr-murugan-māchit-tiruviḷā-4m-nāḻ<br/><br/>#TamilnaduTempleFes
+ êndūr-murugan-māchit-tiruviḽā-4m-nāḻ<br/><br/>#TamilnaduTempleFes
  tivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -1771,7 +1769,7 @@ DTSTART;VALUE=DATE:20190212
 DTEND;VALUE=DATE:20190213
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
  relative_event/ta:tiruccendUr mAcit tiruvizhA nir2aivu/offset__-7#tiruchch
- êndūr-murugan-māchit-tiruviḷā-5m-nāḻ<br/><br/>#TamilnaduTempleFes
+ êndūr-murugan-māchit-tiruviḽā-5m-nāḻ<br/><br/>#TamilnaduTempleFes
  tivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -1865,7 +1863,7 @@ DTSTART;VALUE=DATE:20190213
 DTEND;VALUE=DATE:20190214
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
  relative_event/ta:tiruccendUr mAcit tiruvizhA nir2aivu/offset__-6#tiruchch
- êndūr-murugan-māchit-tiruviḷā-6m-nāḻ—vêḻḻit-ter-bhavani<br
+ êndūr-murugan-māchit-tiruviḽā-6m-nāḻ—vêḻḻit-ter-bhavani<br
  /><br/>#TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -1943,7 +1941,7 @@ DTSTART;VALUE=DATE:20190214
 DTEND;VALUE=DATE:20190215
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
  relative_event/ta:tiruccendUr mAcit tiruvizhA nir2aivu/offset__-5#tiruchch
- êndūr-murugan-māchit-tiruviḷā-7m-nāḻ—urugu-chattach-chevai/chig
+ êndūr-murugan-māchit-tiruviḽā-7m-nāḻ—urugu-chattach-chevai/chig
  appu-chātti-alaṅkāram<br/><br/>#TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -2029,7 +2027,7 @@ DTSTART;VALUE=DATE:20190215
 DTEND;VALUE=DATE:20190216
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
  relative_event/ta:tiruccendUr mAcit tiruvizhA nir2aivu/offset__-4#tiruchch
- êndūr-murugan-māchit-tiruviḷā-8m-nāḻ—pachchai-chātti-alaṅkā
+ êndūr-murugan-māchit-tiruviḽā-8m-nāḻ—pachchai-chātti-alaṅkā
  ram<br/><br/>#TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -2063,7 +2061,7 @@ DTSTART;VALUE=DATE:20190216
 DTEND;VALUE=DATE:20190217
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
  relative_event/ta:tiruccendUr mAcit tiruvizhA nir2aivu/offset__-3#tiruchch
- êndūr-murugan-māchit-tiruviḷā-9m-nāḻ—taṅga-kailācha-vāhanam
+ êndūr-murugan-māchit-tiruviḽā-9m-nāḻ—taṅga-kailācha-vāhanam
  <br/><br/>#TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -2143,7 +2141,7 @@ DTEND;VALUE=DATE:20190218
 DESCRIPTION:Observed on Punarvasuḥ nakṣhatram day of Kumbhaḥ (solar)
   month (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-cod
  ers/adyatithi/tree/master/data/solar_month/nakshatram/11/07#kulaśekhara-
- āḷvār-tirunakṣattiram<br/><br/>#MahapurushaEvents #AzhwarJayanti
+ āḽvār-tirunakṣattiram<br/><br/>#MahapurushaEvents #AzhwarJayanti
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2160,7 +2158,7 @@ DTSTART;VALUE=DATE:20190217
 DTEND;VALUE=DATE:20190218
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
  relative_event/ta:tiruccendUr mAcit tiruvizhA nir2aivu/offset__-2#tiruchch
- êndūr-murugan-māchit-tiruviḷā-10m-nāḻ—ter<br/><br/>#TamilnaduTe
+ êndūr-murugan-māchit-tiruviḽā-10m-nāḻ—ter<br/><br/>#TamilnaduTe
  mpleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -2338,7 +2336,7 @@ DTEND;VALUE=DATE:20190220
 DESCRIPTION:Observed on Paurṇamāsī tithi of Kumbhaḥ (solar) month (s
  unrise (default)/puurvaviddha (default)).<br/><br/><br/>https://github.com
  /sanskrit-coders/adyatithi/tree/master/data/solar_month/tithi/11/15#tiruch
- chêndūr-māchit-tiruviḷā-nir̂aivu<br/><br/>#TamilnaduTempleFestivals
+ chêndūr-māchit-tiruviḽā-nir̂aivu<br/><br/>#TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2797,7 +2795,7 @@ DTEND;VALUE=DATE:20190307
 DESCRIPTION:Observed on Śatabhiṣak nakṣhatram day of Kumbhaḥ (solar
  ) month (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-co
  ders/adyatithi/tree/master/data/solar_month/nakshatram/11/24#kôchchêṅg
- aṭ-choḷa-nāyanār-59-gurupūjai<br/><br/>#NayanarGurupujai
+ aṭ-choḽa-nāyanār-59-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3152,7 +3150,7 @@ DTSTART;VALUE=DATE:20190316
 DTEND;VALUE=DATE:20190317
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
  relative_event/ta:kar2pagAmbAL–kapAlIzvarar tirukkalyANam/offset__-4#kap
- ālī-pallakku-viḷā<br/><br/>#TamilnaduTempleFestivals
+ ālī-pallakku-viḽā<br/><br/>#TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4536,22 +4534,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:விஷுக்கனி
-DTSTART;VALUE=DATE:20190414
-DTEND;VALUE=DATE:20190415
-DESCRIPTION:Observed on day 1 of Meṣaḥ (solar) month (arunodaya/puurva
- viddha (default)).<br/><br/><br/>https://github.com/sanskrit-coders/adyati
- thi/tree/master/data/solar_month/day/01/01#viṣukkani<br/><br/>#CommonFes
- tivals #SunSankranti
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:वसन्तनवरात्र-समापनम्
 DTSTART;VALUE=DATE:20190414
 DTEND;VALUE=DATE:20190415
@@ -4628,6 +4610,22 @@ DESCRIPTION:The Shukla-paksha Ekadashi of चैत्र month is known a
  s कामदा-एकादशी.<br/><br/>https://github.com/sanskrit
  -coders/adyatithi/tree/master/data/other/monthly-vratam/ekadashi-vratam#k
  āmadā-ekādaśī<br/><br/>#MonthlyVratam #EkadashiVratam
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:விஷுக்கனி
+DTSTART;VALUE=DATE:20190415
+DTEND;VALUE=DATE:20190416
+DESCRIPTION:Observed on day 1 of Meṣaḥ (solar) month (arunodaya/puurva
+ viddha (default)).<br/><br/><br/>https://github.com/sanskrit-coders/adyati
+ thi/tree/master/data/solar_month/day/01/01#viṣukkani<br/><br/>#CommonFes
+ tivals #SunSankranti
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5037,7 +5035,7 @@ DTSTART;VALUE=DATE:20190419
 DTEND;VALUE=DATE:20190420
 DESCRIPTION:Observed on Citrā nakṣhatram day of Meṣaḥ (solar) month
   (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-coders/ad
- yatithi/tree/master/data/solar_month/nakshatram/01/14#madhurakavi-āḷvā
+ yatithi/tree/master/data/solar_month/nakshatram/01/14#madhurakavi-āḽvā
  r-tirunakṣattiram<br/><br/>#MahapurushaEvents #AzhwarJayanti
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -6522,7 +6520,7 @@ DTSTART;VALUE=DATE:20190518
 DTEND;VALUE=DATE:20190519
 DESCRIPTION:Observed on Viśākhā nakṣhatram day of Vṛṣabhaḥ (sol
  ar) month (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-
- coders/adyatithi/tree/master/data/solar_month/nakshatram/02/16#nammāḷv
+ coders/adyatithi/tree/master/data/solar_month/nakshatram/02/16#nammāḽv
  ār-tirunakṣattiram<br/><br/>#MahapurushaEvents #AzhwarJayanti
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -6713,7 +6711,7 @@ DTEND;VALUE=DATE:20190522
 DESCRIPTION:Observed on Mūlā nakṣhatram day of Vṛṣabhaḥ (solar) 
  month (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-code
  rs/adyatithi/tree/master/data/solar_month/nakshatram/02/19#tirunīlakaṇ
- ṭha-yāḷppāṇa-nāyanār-60-gurupūjai<br/><br/>#NayanarGurupujai
+ ṭha-yāḽppāṇa-nāyanār-60-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -7035,7 +7033,7 @@ DTSTART;VALUE=DATE:20190601
 DTEND;VALUE=DATE:20190602
 DESCRIPTION:Observed on Apabharaṇī nakṣhatram day of Vṛṣabhaḥ (
  solar) month (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskr
- it-coders/adyatithi/tree/master/data/solar_month/nakshatram/02/02#kaḷar
+ it-coders/adyatithi/tree/master/data/solar_month/nakshatram/02/02#kaḽar
  ̂chiṅga-nāyanār-51-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -8840,7 +8838,7 @@ DTSTART;VALUE=DATE:20190705
 DTEND;VALUE=DATE:20190706
 DESCRIPTION:Observed on Āśreṣā nakṣhatram day of Mithunam (solar) m
  onth (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-coder
- s/adyatithi/tree/master/data/solar_month/nakshatram/03/09#pugaḷttuṇai-
+ s/adyatithi/tree/master/data/solar_month/nakshatram/03/09#pugaḽttuṇai-
  nāyanār-54-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -9295,7 +9293,7 @@ DTSTART;VALUE=DATE:20190711
 DTEND;VALUE=DATE:20190712
 DESCRIPTION:Observed on Svātī nakṣhatram day of Mithunam (solar) month
   (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-coders/ad
- yatithi/tree/master/data/solar_month/nakshatram/03/15#pêriyāḷvār-tiru
+ yatithi/tree/master/data/solar_month/nakshatram/03/15#pêriyāḽvār-tiru
  nakṣattiram<br/><br/>#MahapurushaEvents #AzhwarJayanti
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -9838,7 +9836,7 @@ SUMMARY:ஆடி வெள்ளிக்கிழமை
 DTSTART;VALUE=DATE:20190719
 DTEND;VALUE=DATE:20190720
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- other/month-weekday-festivals#āḍi-vêḻḻikkiḷamai<br/><br/>#MonthW
+ other/month-weekday-festivals#āḍi-vêḻḻikkiḽamai<br/><br/>#MonthW
  eekdayFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -9894,7 +9892,7 @@ SUMMARY:ஆடி வெள்ளிக்கிழமை
 DTSTART;VALUE=DATE:20190726
 DTEND;VALUE=DATE:20190727
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- other/month-weekday-festivals#āḍi-vêḻḻikkiḷamai<br/><br/>#MonthW
+ other/month-weekday-festivals#āḍi-vêḻḻikkiḽamai<br/><br/>#MonthW
  eekdayFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -9964,8 +9962,8 @@ DTSTART;VALUE=DATE:20190727
 DTEND;VALUE=DATE:20190728
 DESCRIPTION:Observed on Kṛttikā nakṣhatram day of Kaṭakaḥ (solar)
   month (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-cod
- ers/adyatithi/tree/master/data/solar_month/nakshatram/04/03#pugaḷchcho
- ḷa-nāyanār-39-gurupūjai<br/><br/>#NayanarGurupujai
+ ers/adyatithi/tree/master/data/solar_month/nakshatram/04/03#pugaḽchcho
+ ḽa-nāyanār-39-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9998,7 +9996,7 @@ DTEND;VALUE=DATE:20190729
 DESCRIPTION:Observed on Rohiṇī nakṣhatram day of Kaṭakaḥ (solar) 
  month (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-code
  rs/adyatithi/tree/master/data/solar_month/nakshatram/04/04#tiruppāṇā
- ḷvār-tirunakṣattiram<br/><br/>#MahapurushaEvents #AzhwarJayanti
+ ḽvār-tirunakṣattiram<br/><br/>#MahapurushaEvents #AzhwarJayanti
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10289,7 +10287,7 @@ SUMMARY:ஆடி வெள்ளிக்கிழமை
 DTSTART;VALUE=DATE:20190802
 DTEND;VALUE=DATE:20190803
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- other/month-weekday-festivals#āḍi-vêḻḻikkiḷamai<br/><br/>#MonthW
+ other/month-weekday-festivals#āḍi-vêḻḻikkiḽamai<br/><br/>#MonthW
  eekdayFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -10513,7 +10511,7 @@ DTSTART;VALUE=DATE:20190806
 DTEND;VALUE=DATE:20190807
 DESCRIPTION:Observed on Citrā nakṣhatram day of Kaṭakaḥ (solar) mon
  th (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-coders/
- adyatithi/tree/master/data/solar_month/nakshatram/04/14#pêrumiḷalaik-ku
+ adyatithi/tree/master/data/solar_month/nakshatram/04/14#pêrumiḽalaik-ku
  r̂umba-nāyanār-22-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -10613,7 +10611,7 @@ DTSTART;VALUE=DATE:20190807
 DTEND;VALUE=DATE:20190808
 DESCRIPTION:Observed on Svātī nakṣhatram day of Kaṭakaḥ (solar) mo
  nth (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-coders
- /adyatithi/tree/master/data/solar_month/nakshatram/04/15#kaḷar̂ir̂r̂a
+ /adyatithi/tree/master/data/solar_month/nakshatram/04/15#kaḽar̂ir̂r̂a
  r̂ivār/cheramān-pêrumāḻ-nāyanār-36-gurupūjai<br/><br/>#NayanarGu
  rupujai
 TRANSP:TRANSPARENT
@@ -10738,7 +10736,7 @@ SUMMARY:ஆடி வெள்ளிக்கிழமை
 DTSTART;VALUE=DATE:20190809
 DTEND;VALUE=DATE:20190810
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- other/month-weekday-festivals#āḍi-vêḻḻikkiḷamai<br/><br/>#MonthW
+ other/month-weekday-festivals#āḍi-vêḻḻikkiḽamai<br/><br/>#MonthW
  eekdayFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -11240,7 +11238,7 @@ SUMMARY:ஆடி வெள்ளிக்கிழமை
 DTSTART;VALUE=DATE:20190816
 DTEND;VALUE=DATE:20190817
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- other/month-weekday-festivals#āḍi-vêḻḻikkiḷamai<br/><br/>#MonthW
+ other/month-weekday-festivals#āḍi-vêḻḻikkiḽamai<br/><br/>#MonthW
  eekdayFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -11362,7 +11360,7 @@ DTSTART;VALUE=DATE:20190818
 DTEND;VALUE=DATE:20190819
 DESCRIPTION:Do puja to Surya/Suryanamaskaram.<br/><br/>https://github.com/
  sanskrit-coders/adyatithi/tree/master/data/other/month-weekday-festivals#
- āvaṇi-ñāyir̂r̂ukkiḷamai<br/><br/>#MonthWeekdayFestivals
+ āvaṇi-ñāyir̂r̂ukkiḽamai<br/><br/>#MonthWeekdayFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11586,7 +11584,7 @@ DTSTART;VALUE=DATE:20190824
 DTEND;VALUE=DATE:20190825
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
  relative_event/ta:tiruccendUr AvaNit tiruvizhA nir2aivu/offset__-11#tiruch
- chêndūr-murugan-āvaṇit-tiruviḷā-tôḍakkam/kôḍiyer̂r̂am<br/>
+ chêndūr-murugan-āvaṇit-tiruviḽā-tôḍakkam/kôḍiyer̂r̂am<br/>
  <br/>#TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -11715,7 +11713,7 @@ DTSTART;VALUE=DATE:20190825
 DTEND;VALUE=DATE:20190826
 DESCRIPTION:Do puja to Surya/Suryanamaskaram.<br/><br/>https://github.com/
  sanskrit-coders/adyatithi/tree/master/data/other/month-weekday-festivals#
- āvaṇi-ñāyir̂r̂ukkiḷamai<br/><br/>#MonthWeekdayFestivals
+ āvaṇi-ñāyir̂r̂ukkiḽamai<br/><br/>#MonthWeekdayFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11731,7 +11729,7 @@ DTSTART;VALUE=DATE:20190825
 DTEND;VALUE=DATE:20190826
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
  relative_event/ta:tiruccendUr AvaNit tiruvizhA nir2aivu/offset__-10#tiruch
- chêndūr-murugan-āvaṇit-tiruviḷā-2m-nāḻ<br/><br/>#TamilnaduTempl
+ chêndūr-murugan-āvaṇit-tiruviḽā-2m-nāḻ<br/><br/>#TamilnaduTempl
  eFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -11766,7 +11764,7 @@ DTSTART;VALUE=DATE:20190826
 DTEND;VALUE=DATE:20190827
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
  relative_event/ta:tiruccendUr AvaNit tiruvizhA nir2aivu/offset__-9#tiruchc
- hêndūr-murugan-āvaṇit-tiruviḷā-3m-nāḻ—murugan-bhavani<br/><br
+ hêndūr-murugan-āvaṇit-tiruviḽā-3m-nāḻ—murugan-bhavani<br/><br
  />#TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -11816,7 +11814,7 @@ DTSTART;VALUE=DATE:20190827
 DTEND;VALUE=DATE:20190828
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
  relative_event/ta:tiruccendUr AvaNit tiruvizhA nir2aivu/offset__-8#tiruchc
- hêndūr-murugan-āvaṇit-tiruviḷā-4m-nāḻ—yānai-vāhanattil-muru
+ hêndūr-murugan-āvaṇit-tiruviḽā-4m-nāḻ—yānai-vāhanattil-muru
  gan-ambāḻ-bhavani<br/><br/>#TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -11914,7 +11912,7 @@ DTSTART;VALUE=DATE:20190828
 DTEND;VALUE=DATE:20190829
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
  relative_event/ta:tiruccendUr AvaNit tiruvizhA nir2aivu/offset__-7#tiruchc
- hêndūr-murugan-āvaṇit-tiruviḷā-5m-nāḻ<br/><br/>#TamilnaduTemple
+ hêndūr-murugan-āvaṇit-tiruviḽā-5m-nāḻ<br/><br/>#TamilnaduTemple
  Festivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -11965,7 +11963,7 @@ DTSTART;VALUE=DATE:20190829
 DTEND;VALUE=DATE:20190830
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
  relative_event/ta:tiruccendUr AvaNit tiruvizhA nir2aivu/offset__-6#tiruchc
- hêndūr-murugan-āvaṇit-tiruviḷā-6m-nāḻ—vêḻḻit-ter-bhavani
+ hêndūr-murugan-āvaṇit-tiruviḽā-6m-nāḻ—vêḻḻit-ter-bhavani
  <br/><br/>#TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -12032,7 +12030,7 @@ DTSTART;VALUE=DATE:20190830
 DTEND;VALUE=DATE:20190831
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
  relative_event/ta:tiruccendUr AvaNit tiruvizhA nir2aivu/offset__-5#tiruchc
- hêndūr-murugan-āvaṇit-tiruviḷā-7m-nāḻ—chigappu-chātti-alaṅ
+ hêndūr-murugan-āvaṇit-tiruviḽā-7m-nāḻ—chigappu-chātti-alaṅ
  kāram<br/><br/>#TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -12117,7 +12115,7 @@ DTSTART;VALUE=DATE:20190831
 DTEND;VALUE=DATE:20190901
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
  relative_event/ta:tiruccendUr AvaNit tiruvizhA nir2aivu/offset__-4#tiruchc
- hêndūr-murugan-āvaṇit-tiruviḷā-8m-nāḻ—pachchai-chātti-alaṅ
+ hêndūr-murugan-āvaṇit-tiruviḽā-8m-nāḻ—pachchai-chātti-alaṅ
  kāram<br/><br/>#TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -12201,7 +12199,7 @@ DTSTART;VALUE=DATE:20190901
 DTEND;VALUE=DATE:20190902
 DESCRIPTION:Do puja to Surya/Suryanamaskaram.<br/><br/>https://github.com/
  sanskrit-coders/adyatithi/tree/master/data/other/month-weekday-festivals#
- āvaṇi-ñāyir̂r̂ukkiḷamai<br/><br/>#MonthWeekdayFestivals
+ āvaṇi-ñāyir̂r̂ukkiḽamai<br/><br/>#MonthWeekdayFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12217,7 +12215,7 @@ DTSTART;VALUE=DATE:20190901
 DTEND;VALUE=DATE:20190902
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
  relative_event/ta:tiruccendUr AvaNit tiruvizhA nir2aivu/offset__-3#tiruchc
- hêndūr-murugan-āvaṇit-tiruviḷā-9m-nāḻ<br/><br/>#TamilnaduTemple
+ hêndūr-murugan-āvaṇit-tiruviḽā-9m-nāḻ<br/><br/>#TamilnaduTemple
  Festivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -12283,7 +12281,7 @@ DTSTART;VALUE=DATE:20190902
 DTEND;VALUE=DATE:20190903
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
  relative_event/ta:tiruccendUr AvaNit tiruvizhA nir2aivu/offset__-2#tiruchc
- hêndūr-murugan-āvaṇit-tiruviḷā-10m-nāḻ—ter<br/><br/>#Tamilnad
+ hêndūr-murugan-āvaṇit-tiruviḽā-10m-nāḻ—ter<br/><br/>#Tamilnad
  uTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -12332,7 +12330,7 @@ DTSTART;VALUE=DATE:20190903
 DTEND;VALUE=DATE:20190904
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
  relative_event/ta:tiruccendUr AvaNit tiruvizhA nir2aivu/offset__-1#tiruchc
- hêndūr-murugan-āvaṇit-tiruviḷā-11m-nāḻ<br/><br/>#TamilnaduTempl
+ hêndūr-murugan-āvaṇit-tiruviḽā-11m-nāḻ<br/><br/>#TamilnaduTempl
  eFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -12439,7 +12437,7 @@ DTEND;VALUE=DATE:20190905
 DESCRIPTION:Observed on Viśākhā nakṣhatram day of Siṃhaḥ (solar) 
  month (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-code
  rs/adyatithi/tree/master/data/solar_month/nakshatram/05/16#tiruchchêndūr
- -āvaṇit-tiruviḷā-nir̂aivu<br/><br/>#TamilnaduTempleFestivals
+ -āvaṇit-tiruviḽā-nir̂aivu<br/><br/>#TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12732,7 +12730,7 @@ DTSTART;VALUE=DATE:20190908
 DTEND;VALUE=DATE:20190909
 DESCRIPTION:Do puja to Surya/Suryanamaskaram.<br/><br/>https://github.com/
  sanskrit-coders/adyatithi/tree/master/data/other/month-weekday-festivals#
- āvaṇi-ñāyir̂r̂ukkiḷamai<br/><br/>#MonthWeekdayFestivals
+ āvaṇi-ñāyir̂r̂ukkiḽamai<br/><br/>#MonthWeekdayFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13261,7 +13259,7 @@ DTSTART;VALUE=DATE:20190915
 DTEND;VALUE=DATE:20190916
 DESCRIPTION:Do puja to Surya/Suryanamaskaram.<br/><br/>https://github.com/
  sanskrit-coders/adyatithi/tree/master/data/other/month-weekday-festivals#
- āvaṇi-ñāyir̂r̂ukkiḷamai<br/><br/>#MonthWeekdayFestivals
+ āvaṇi-ñāyir̂r̂ukkiḽamai<br/><br/>#MonthWeekdayFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13572,7 +13570,7 @@ DTEND;VALUE=DATE:20190922
 DESCRIPTION:Perform special puja and naivedyam (e.g. तिलान्न
  म्) to Lord Venkateshwara.<br/><br/>https://github.com/sanskrit-coders
  /adyatithi/tree/master/data/other/month-weekday-festivals#puraṭṭāchi-
- chanikkiḷamai<br/><br/>#MonthWeekdayFestivals
+ chanikkiḽamai<br/><br/>#MonthWeekdayFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -14009,7 +14007,7 @@ DTEND;VALUE=DATE:20190929
 DESCRIPTION:Perform special puja and naivedyam (e.g. तिलान्न
  म्) to Lord Venkateshwara.<br/><br/>https://github.com/sanskrit-coders
  /adyatithi/tree/master/data/other/month-weekday-festivals#puraṭṭāchi-
- chanikkiḷamai<br/><br/>#MonthWeekdayFestivals
+ chanikkiḽamai<br/><br/>#MonthWeekdayFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -14364,7 +14362,7 @@ DTEND;VALUE=DATE:20191006
 DESCRIPTION:Perform special puja and naivedyam (e.g. तिलान्न
  म्) to Lord Venkateshwara.<br/><br/>https://github.com/sanskrit-coders
  /adyatithi/tree/master/data/other/month-weekday-festivals#puraṭṭāchi-
- chanikkiḷamai<br/><br/>#MonthWeekdayFestivals
+ chanikkiḽamai<br/><br/>#MonthWeekdayFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -14862,7 +14860,7 @@ DTEND;VALUE=DATE:20191013
 DESCRIPTION:Perform special puja and naivedyam (e.g. तिलान्न
  म्) to Lord Venkateshwara.<br/><br/>https://github.com/sanskrit-coders
  /adyatithi/tree/master/data/other/month-weekday-festivals#puraṭṭāchi-
- chanikkiḷamai<br/><br/>#MonthWeekdayFestivals
+ chanikkiḽamai<br/><br/>#MonthWeekdayFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -16393,7 +16391,7 @@ DTSTART;VALUE=DATE:20191104
 DTEND;VALUE=DATE:20191105
 DESCRIPTION:Observed on Śravaṇam nakṣhatram day of Tulā (solar) mont
  h (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-coders/a
- dyatithi/tree/master/data/solar_month/nakshatram/07/22#pôygaiyāḷvār-t
+ dyatithi/tree/master/data/solar_month/nakshatram/07/22#pôygaiyāḽvār-t
  irunakṣattiram<br/><br/>#MahapurushaEvents #AzhwarJayanti
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -16525,7 +16523,7 @@ DTSTART;VALUE=DATE:20191105
 DTEND;VALUE=DATE:20191106
 DESCRIPTION:Observed on Śraviṣṭhā nakṣhatram day of Tulā (solar) 
  month (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-code
- rs/adyatithi/tree/master/data/solar_month/nakshatram/07/23#bhūtattāḷv
+ rs/adyatithi/tree/master/data/solar_month/nakshatram/07/23#bhūtattāḽv
  ār-tirunakṣattiram<br/><br/>#MahapurushaEvents #AzhwarJayanti
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -16560,7 +16558,7 @@ DTSTART;VALUE=DATE:20191107
 DTEND;VALUE=DATE:20191108
 DESCRIPTION:Observed on Śatabhiṣak nakṣhatram day of Tulā (solar) mo
  nth (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-coders
- /adyatithi/tree/master/data/solar_month/nakshatram/07/24#peyāḷvār-tiru
+ /adyatithi/tree/master/data/solar_month/nakshatram/07/24#peyāḽvār-tiru
  nakṣattiram<br/><br/>#MahapurushaEvents #AzhwarJayanti
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -17204,7 +17202,7 @@ DTSTART;VALUE=DATE:20191113
 DTEND;VALUE=DATE:20191114
 DESCRIPTION:Observed on Kṛttikā nakṣhatram day of Tulā (solar) month
   (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-coders/ad
- yatithi/tree/master/data/solar_month/nakshatram/07/03#iḍaṅkaḷi-nāya
+ yatithi/tree/master/data/solar_month/nakshatram/07/03#iḍaṅkaḽi-nāya
  nār-52-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -17414,7 +17412,7 @@ DTSTART;VALUE=DATE:20191117
 DTEND;VALUE=DATE:20191118
 DESCRIPTION:Do puja to Surya/Suryanamaskaram.<br/><br/>https://github.com/
  sanskrit-coders/adyatithi/tree/master/data/other/month-weekday-festivals#k
- ārttigai-ñāyir̂r̂ukkiḷamai<br/><br/>#MonthWeekdayFestivals
+ ārttigai-ñāyir̂r̂ukkiḽamai<br/><br/>#MonthWeekdayFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17435,7 +17433,7 @@ DESCRIPTION:Observed on day 1 of Vṛścikaḥ (solar) month (arunodaya/pu
  plete the स्नानम्. They were disappointed yet spent their ti
  me doing Puja of the Lord\, who appeared in their dreams and asked them to
   take a bath next ...<br/><br/><br/>https://github.com/sanskrit-coders/ady
- atithi/tree/master/data/solar_month/day/08/01#muḍavan-muḷukku<br/><br/
+ atithi/tree/master/data/solar_month/day/08/01#muḍavan-muḽukku<br/><br/
  >#CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -17806,7 +17804,7 @@ DTSTART;VALUE=DATE:20191124
 DTEND;VALUE=DATE:20191125
 DESCRIPTION:Do puja to Surya/Suryanamaskaram.<br/><br/>https://github.com/
  sanskrit-coders/adyatithi/tree/master/data/other/month-weekday-festivals#k
- ārttigai-ñāyir̂r̂ukkiḷamai<br/><br/>#MonthWeekdayFestivals
+ ārttigai-ñāyir̂r̂ukkiḽamai<br/><br/>#MonthWeekdayFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18043,14 +18041,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:மூர்க நாயனார் (31) குருபூஜ
- ை
+SUMMARY:மூர்க்க நாயனார் (31) குருப
+ ூஜை
 DTSTART;VALUE=DATE:20191128
 DTEND;VALUE=DATE:20191129
 DESCRIPTION:Observed on Mūlā nakṣhatram day of Vṛścikaḥ (solar) m
  onth (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-coder
- s/adyatithi/tree/master/data/solar_month/nakshatram/08/19#mūrkha-nāyanā
- r-31-gurupūjai<br/><br/>#NayanarGurupujai
+ s/adyatithi/tree/master/data/solar_month/nakshatram/08/19#mūrkkha-nāyan
+ ār-31-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18076,14 +18074,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:சிரப்புலி நாயனார் (34) குர
+SUMMARY:சிறப்புலி நாயனார் (34) குர
  ுபூஜை
 DTSTART;VALUE=DATE:20191129
 DTEND;VALUE=DATE:20191130
 DESCRIPTION:Observed on Pūrvāṣāḍhā nakṣhatram day of Vṛścika
  ḥ (solar) month (praatah/paraviddha).<br/><br/><br/>https://github.com/s
  anskrit-coders/adyatithi/tree/master/data/solar_month/nakshatram/08/20#chi
- rappuli-nāyanār-34-gurupūjai<br/><br/>#NayanarGurupujai
+ r̂appuli-nāyanār-34-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18115,7 +18113,7 @@ DTSTART;VALUE=DATE:20191201
 DTEND;VALUE=DATE:20191202
 DESCRIPTION:Do puja to Surya/Suryanamaskaram.<br/><br/>https://github.com/
  sanskrit-coders/adyatithi/tree/master/data/other/month-weekday-festivals#k
- ārttigai-ñāyir̂r̂ukkiḷamai<br/><br/>#MonthWeekdayFestivals
+ ārttigai-ñāyir̂r̂ukkiḽamai<br/><br/>#MonthWeekdayFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18471,7 +18469,7 @@ DTSTART;VALUE=DATE:20191208
 DTEND;VALUE=DATE:20191209
 DESCRIPTION:Do puja to Surya/Suryanamaskaram.<br/><br/>https://github.com/
  sanskrit-coders/adyatithi/tree/master/data/other/month-weekday-festivals#k
- ārttigai-ñāyir̂r̂ukkiḷamai<br/><br/>#MonthWeekdayFestivals
+ ārttigai-ñāyir̂r̂ukkiḽamai<br/><br/>#MonthWeekdayFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18603,7 +18601,7 @@ DTEND;VALUE=DATE:20191211
 DESCRIPTION:Observed on Kṛttikā nakṣhatram day of Vṛścikaḥ (sola
  r) month (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-c
  oders/adyatithi/tree/master/data/solar_month/nakshatram/08/03#tirumaṅgai
- yāḷvār-tirunakṣattiram<br/><br/>#MahapurushaEvents #AzhwarJayanti
+ yāḽvār-tirunakṣattiram<br/><br/>#MahapurushaEvents #AzhwarJayanti
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18876,7 +18874,7 @@ DTSTART;VALUE=DATE:20191215
 DTEND;VALUE=DATE:20191216
 DESCRIPTION:Do puja to Surya/Suryanamaskaram.<br/><br/>https://github.com/
  sanskrit-coders/adyatithi/tree/master/data/other/month-weekday-festivals#k
- ārttigai-ñāyir̂r̂ukkiḷamai<br/><br/>#MonthWeekdayFestivals
+ ārttigai-ñāyir̂r̂ukkiḽamai<br/><br/>#MonthWeekdayFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18961,14 +18959,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:இயர்பகை நாயனார் (2) குருபூ
+SUMMARY:இயற்பகை நாயனார் (2) குருபூ
  ஜை
 DTSTART;VALUE=DATE:20191219
 DTEND;VALUE=DATE:20191220
 DESCRIPTION:Observed on Uttaraphalgunī nakṣhatram day of Dhanuḥ (sola
  r) month (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-c
- oders/adyatithi/tree/master/data/solar_month/nakshatram/09/12#iyarpagai-n
- āyanār-2-gurupūjai<br/><br/>#NayanarGurupujai
+ oders/adyatithi/tree/master/data/solar_month/nakshatram/09/12#iyar̂pagai-
+ nāyanār-2-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -19183,7 +19181,7 @@ DTEND;VALUE=DATE:20191226
 DESCRIPTION:Observed on Jyeṣṭhā nakṣhatram day of Dhanuḥ (solar) 
  month (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-code
  rs/adyatithi/tree/master/data/solar_month/nakshatram/09/18#tôṇḍaraḍ
- ippôḍiyāḷvār-tirunakṣattiram<br/><br/>#MahapurushaEvents #AzhwarJ
+ ippôḍiyāḽvār-tirunakṣattiram<br/><br/>#MahapurushaEvents #AzhwarJ
  ayanti
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
