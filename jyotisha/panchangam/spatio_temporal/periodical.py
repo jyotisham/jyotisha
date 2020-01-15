@@ -1250,7 +1250,7 @@ class Panchangam(common.JsonObject):
             if self.lunar_month[d] == 1 and self.lunar_month[d - 1] != 1:
                 lunar_y_start_d.append(d)
 
-        period_start_year = swe.revjul(self.jd_midnight[1])[0]
+        period_start_year = self.start_date[0]
         for festival_name in festival_rules:
             if festival_name in self.fest_days and 'year_start' in festival_rules[festival_name]:
                 fest_start_year = festival_rules[festival_name]['year_start']
