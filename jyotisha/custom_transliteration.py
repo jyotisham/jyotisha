@@ -16,7 +16,7 @@ logging.basicConfig(
 
 def romanise(iast_text):
     swapTable = {'ā': 'a', 'Ā': 'A', 'ī': 'i', 'ū': 'u', 'ê': 'e', 'ṅ': 'n', 'ṇ': 'n',
-                 'ḍ': 'd', 'ṭ': 't', 'ṃ': 'm', 'ñ': 'n', 'ṛ': 'ri', 'ś': 'sh',
+                 'ḍ': 'd', 'ṭ': 't', 'ṃ': 'm', 'ñ': 'n', 'ṉ': 'n', 'ṛ': 'ri', 'ś': 'sh',
                  'Ś': 'Sh', 'ṣ': 'sh', 'Ṣ': 'Sh', 'ḥ': '', '-': '-', ' ': '-'}
 
     roman_text = ''
@@ -69,7 +69,7 @@ def tr(text, scr, titled=True):
                 t = t[3:]
                 tamil_text = sanscript.SCHEMES[sanscript.TAMIL].apply_roman_numerals(sanscript.transliterate(data=t, _from=sanscript.HK, _to=scr))
                 transliterated_text.append(tamil_text.replace('C', 'Ch').replace('c', 'ch').strip("{}").title())
-                logging.debug(transliterated_text)
+                # logging.debug(transliterated_text)
             else:
                 if t.find('RIGHTarrow') == -1:
                     transliterated_text.append(sanscript.transliterate(data=t, _from=sanscript.HK, _to=scr))
@@ -80,6 +80,8 @@ def tr(text, scr, titled=True):
     output_text = '|'.join(transliterated_text)
     if scr == 'tamil':
         output_text = sanscript.SCHEMES[sanscript.TAMIL].apply_roman_numerals(output_text)
+    if scr == 'iast':
+        output_text = output_text.replace('ṉ', 'n')
     return output_text
 
 
