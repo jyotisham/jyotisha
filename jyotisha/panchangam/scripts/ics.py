@@ -71,7 +71,7 @@ def compute_calendar(panchangam, all_tags=True, brief=False):
                         stext_chk = stext
                     if stext_chk in festival_rules:
                         tag_list = (festival_rules[stext_chk]['tags'].split(','))
-                        incl_tags = ['CommonFestivals', 'MonthlyVratams', 'RareDays', 'AmavasyaDays', 'Dashavataram', 'SunSankranti']
+                        incl_tags = ['CommonFestivals', 'MonthlyVratam', 'RareDays', 'AmavasyaDays', 'Dashavataram', 'SunSankranti']
                         if set(tag_list).isdisjoint(set(incl_tags)):
                             continue
 
