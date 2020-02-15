@@ -68,6 +68,21 @@ class DailyCalendarHandler(Resource):
 
 
 # noinspection PyUnresolvedReferences
+@api.route('/kaalas/coordinates/<string:latitude>/<string:longitude>/years/<string:year>/months/<int:month>/days/<int:day>/')
+class KaalaHandler(Resource):
+  get_parser = reqparse.RequestParser()
+  get_parser.add_argument('timezone', type=str, default='Asia/Calcutta', help='Example: Asia/Calcutta', location='args', required=True)
+  get_parser.add_argument('encoding', type=str, default='devanagari', help='Example: iast, devanagari, kannada, tamil', location='args',
+                          required=True)
+  @api.expect(get_parser)
+  def get(self, latitude, longitude, year, month, day):
+    args = self.get_parser.parse_args()
+    city = City("", latitude, longitude, args['timezone'])
+    panchangam = jyotisha.panchangam.spatio_temporal.daily.DailyPanchanga(city=city, year=int(year), month=int(month), day=int(day), script=args['encoding'])
+    return panchangam.get_kaalas().to_json_map()
+
+
+# noinspection PyUnresolvedReferences
 @api.route('/events/<string:id>')
 class EventFinder(Resource):
   def get(self, id):
