@@ -23,7 +23,7 @@ api_blueprint = Blueprint(
 )
 
 api = flask_restplus.Api(app=api_blueprint, version='1.0', title='jyotisha panchanga API',
-                         description='For detailed intro and to report issues: see <a href="https://github.com/sanskrit_coders/jyotisha">here</a>. '
+                         description='For detailed intro and to report issues: see <a href="https://github.com/sanskrit-coders/jyotisha">here</a>. '
                                      'A list of REST and non-REST API routes avalilable on this server: <a href="../sitemap">sitemap</a>.',
                          default_label=api_blueprint.name,
                          prefix=URL_PREFIX, doc='/docs')
