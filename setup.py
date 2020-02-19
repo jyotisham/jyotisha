@@ -83,7 +83,9 @@ setup(
     'icalendar',
     'pytz',
     'geocoder', 'geopy', 
-    'numpy', 'flask', 'jsonpickle'
+    'numpy', 
+    'flask', 'flask_restplus', 'flask_cors',
+    'jsonpickle'
   ],
 
   # List additional groups of dependencies here (e.g. development

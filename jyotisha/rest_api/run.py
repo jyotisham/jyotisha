@@ -23,7 +23,7 @@ CONFIG_PATH = os.path.join(os.path.dirname(__file__), 'config_local.json')
 config = {'port': 9000,}
 with open(CONFIG_PATH) as config_file:
   # noinspection PyRedeclaration
-  config = json.loads(config_file.read())
+  config.update(json.loads(config_file.read()))
 
 
 def setup_app():
