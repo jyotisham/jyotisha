@@ -75,12 +75,13 @@ class KaalaHandler(Resource):
   get_parser.add_argument('timezone', type=str, default='Asia/Calcutta', help='Example: Asia/Calcutta', location='args', required=True)
   get_parser.add_argument('encoding', type=str, default='devanagari', help='Example: iast, devanagari, kannada, tamil', location='args',
                           required=True)
+  get_parser.add_argument('format', type=str, default='hh:mm:ss*', help='Example: hh:mm:ss*, hh:mm', location='args', required=True)
   @api.expect(get_parser)
   def get(self, latitude, longitude, year, month, day):
     args = self.get_parser.parse_args()
     city = City("", latitude, longitude, args['timezone'])
     panchangam = jyotisha.panchangam.spatio_temporal.daily.DailyPanchanga(city=city, year=int(year), month=int(month), day=int(day), script=args['encoding'])
-    return panchangam.get_kaalas()
+    return panchangam.get_kaalas_local_time(format=format)
 
 
 # noinspection PyUnresolvedReferences
