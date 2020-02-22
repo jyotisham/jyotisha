@@ -41,22 +41,25 @@ def writeDailyTeX(panchangam, template_file, compute_lagnams=True, output_stream
     for i in range(len(template_lines)):
         print(template_lines[i][:-1], file=output_stream)
 
-    samvatsara_id = (panchangam.year - 1568) % 60 + 1  # distance from prabhava
+    year = panchangam.start_date[0]
+    logging.debug(year)
+
+    samvatsara_id = (year - 1568) % 60 + 1  # distance from prabhava
     samvatsara_names = (jyotisha.panchangam.temporal.NAMES['SAMVATSARA_NAMES'][panchangam.script][samvatsara_id],
                         jyotisha.panchangam.temporal.NAMES['SAMVATSARA_NAMES'][panchangam.script][(samvatsara_id % 60) + 1])
 
     yname = samvatsara_names[0]  # Assign year name until Mesha Sankranti
 
     print('\\mbox{}', file=output_stream)
-    print('\\renewcommand{\\yearname}{%d}' % panchangam.year, file=output_stream)
+    print('\\renewcommand{\\yearname}{%d}' % year, file=output_stream)
     print('\\begin{center}', file=output_stream)
-    print('{\\sffamily \\fontsize{80}{80}\\selectfont  %d\\\\[0.5cm]}' % panchangam.year, file=output_stream)
+    print('{\\sffamily \\fontsize{80}{80}\\selectfont  %d\\\\[0.5cm]}' % year, file=output_stream)
     print('\\mbox{\\fontsize{48}{48}\\selectfont %s–%s}\\\\'
           % samvatsara_names, file=output_stream)
     print('\\mbox{\\fontsize{32}{32}\\selectfont %s } %%'
           % jyotisha.custom_transliteration.tr('kali', panchangam.script), file=output_stream)
     print('{\\sffamily \\fontsize{43}{43}\\selectfont  %d–%d\\\\[0.5cm]}\n\\hrule\n\\vspace{0.2cm}'
-          % (panchangam.year + 3100, panchangam.year + 3101), file=output_stream)
+          % (year + 3100, year + 3101), file=output_stream)
     print('{\\sffamily \\fontsize{50}{50}\\selectfont  \\uppercase{%s}\\\\[0.2cm]}' % panchangam.city.name, file=output_stream)
     print('{\\sffamily \\fontsize{23}{23}\\selectfont  {%s}\\\\[0.2cm]}'
           % jyotisha.custom_transliteration.print_lat_lon(panchangam.city.latitude, panchangam.city.longitude), file=output_stream)
