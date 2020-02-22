@@ -81,7 +81,7 @@ class KaalaHandler(Resource):
     args = self.get_parser.parse_args()
     city = City("", latitude, longitude, args['timezone'])
     panchangam = jyotisha.panchangam.spatio_temporal.daily.DailyPanchanga(city=city, year=int(year), month=int(month), day=int(day), script=args['encoding'])
-    return panchangam.get_kaalas_local_time(format=format)
+    return panchangam.get_kaalas_local_time(format=args['format'])
 
 
 # noinspection PyUnresolvedReferences
