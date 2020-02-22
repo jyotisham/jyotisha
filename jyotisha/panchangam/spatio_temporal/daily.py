@@ -33,7 +33,7 @@ class DailyPanchanga(common.JsonObject):
         super(DailyPanchanga, self).__init__()
         self.city = city
         (self.year, self.month, self.day) = (year, month, day)
-        self.julian_day_start = self.city.local_time_to_julian_day(year=self.year, month=self.month, day=self.day, hours=0, minutes=0, seconds=1)
+        self.julian_day_start = self.city.local_time_to_julian_day(year=self.year, month=self.month, day=self.day, hours=0, minutes=0, seconds=0)
 
         self.weekday = datetime.date(year=self.year, month=self.month, day=self.day).isoweekday() % 7
         self.ayanamsha_id = ayanamsha_id
