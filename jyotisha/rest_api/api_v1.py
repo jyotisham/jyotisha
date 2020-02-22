@@ -7,6 +7,7 @@ from flask_restplus import Resource
 from flask_restplus import reqparse
 
 import jyotisha.panchangam.spatio_temporal.annual
+import jyotisha.panchangam.spatio_temporal.daily
 from jyotisha.panchangam import scripts
 from jyotisha.panchangam.spatio_temporal import City
 from jyotisha.panchangam.temporal import festival
@@ -79,7 +80,7 @@ class KaalaHandler(Resource):
     args = self.get_parser.parse_args()
     city = City("", latitude, longitude, args['timezone'])
     panchangam = jyotisha.panchangam.spatio_temporal.daily.DailyPanchanga(city=city, year=int(year), month=int(month), day=int(day), script=args['encoding'])
-    return panchangam.get_kaalas().to_json_map()
+    return panchangam.get_kaalas()
 
 
 # noinspection PyUnresolvedReferences
