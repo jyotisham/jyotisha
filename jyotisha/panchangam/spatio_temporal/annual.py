@@ -1650,4 +1650,4 @@ def get_panchangam(city, year, script, fmt='hh:mm', compute_lagnams=False, preco
 
 if __name__ == '__main__':
     city = spatio_temporal.City('Chennai', "13:05:24", "80:16:12", "Asia/Calcutta")
-    panchangam = Panchangam(city=city, start_date='2019-01-01', end_date='2019-12-31', script=sanscript.DEVANAGARI, ayanamsha_id=swe.SIDM_TRUE_CITRA, fmt='hh:mm', compute_lagnams=False)
+    panchangam = periodical.Panchangam(city=city, start_date='2019-01-01', end_date='2019-12-31', script=sanscript.DEVANAGARI, ayanamsha_id=swe.SIDM_TRUE_CITRA, fmt='hh:mm', compute_lagnams=False)
