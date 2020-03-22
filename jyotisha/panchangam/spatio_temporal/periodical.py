@@ -1520,9 +1520,10 @@ class Panchangam(common.JsonObject):
                     s_tithi = angam_start
                     fday = d
                     reason = '%2d is incident fully at aparAhna today (%3d), and not incident tomorrow (%3d)!' % (s_tithi, d, d + 1)
+                    # Need to check vyApti of next_angam in sAyaMkAla: if it's nearly entire sAyaMkAla ie 5-59-30 or more!
                     if debug_shraaddha_tithi:
-                        logging.debug('%03d [%4d-%02d-%02d]: %s' % (d, y, m, dt, '%2d not incident at aparAhna on either day (%3d/%3d); picking first day %3d!' % (next_angam, d, d + 1, d)))
-                    _assign(self, d, next_angam)
+                        logging.debug('%03d [%4d-%02d-%02d]: %s' % (d, y, m, dt, '%2d not incident at aparAhna on either day (%3d/%3d); picking second day %3d!' % (next_angam, d, d + 1, d + 1)))
+                    _assign(self, d + 1, next_angam)
                     # logging.debug(reason)
             elif angams[1] == angams[2] == angams[3] == next_angam:  # <c>
                 s_tithi = next_angam
