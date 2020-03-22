@@ -1,7 +1,7 @@
 % !Tex program = xelatex
 \documentclass[12pt]{article}
 \usepackage[dvipsnames]{xcolor} 
-\usepackage[paperwidth=126mm,paperheight=168mm,left=2mm,right=2mm,top=8mm,bottom=2mm]{geometry}
+\usepackage[paperwidth=135mm,paperheight=180mm,left=4mm,right=4mm,top=8mm,bottom=8mm]{geometry}
 \usepackage[xetex]{graphicx}
 \usepackage{array}
 \usepackage{setspace}
@@ -74,7 +74,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% END MOONPHASE CODE
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\setlength{\footskip}{2mm}
+% \setlength{\footskip}{2mm}
 % PDF SETUP
 % ---- FILL IN HERE THE DOC TITLE AND AUTHOR
 \defaultfontfeatures{Scale=MatchLowercase,Mapping=tex-text}
@@ -86,7 +86,7 @@
 \newcount\tempone \newcount\temptwo
 \newcommand{\devanumber}[1]{%
 \num=#1\devanumberrecurse}
-% \setlength{\textheight}{158mm}
+\setlength{\textheight}{150mm}
 \newcommand{\devanumberrecurse}{%
 {\tempone=\num
 %  \showthe\tempone\ %
@@ -132,7 +132,8 @@
 \renewcommand{\rtuName}{#9}
 }
 \newcommand{\tamil}[1]{%
-{\fontspec[Scale=0.8,FakeStretch=0.9,Path=../fonts/]{NotoSansTamil-Regular.ttf} \footnotesize #1}}
+{\fontspec[Scale=0.8,FakeStretch=0.9,Path=../fonts/]{NotoSansTamil-Regular.ttf} \footnotesize #1}%
+}
 \newcommand{\kalas}[1]{%
 \setsepchar{ }
 \readlist\arg{#1}
@@ -151,22 +152,32 @@
 #5
  }
 \newcommand{\tnykdata}[6]{\large%\fontsize{13pt}{16pt}\selectfont
-{#1}\\[-3pt]%Tithi
-{नक्षत्रम्–#2\hspace{2ex}\parbox[c][2em][c]{10mm}{\scriptsize(#3)}}\\[-3pt]%Nakshatram and Rashi
+{#1}\\%Tithi
+{नक्षत्रम्–#2}\\%Nakshatram and Rashi
 {\setstretch{0.55}
 \begin{tabular}{@{}r@{}p{108mm}@{}}
-योगः–&#4\\[2pt]%Yogam
-करणम्–&#5\\%Karanam
+योगः–&#3\\[2pt]%Yogam
+करणम्–&#4\\%Karanam
 \end{tabular}}\mbox{}\\[3pt]
-\parbox[c][2ex][c]{0.9\linewidth}{\scriptsize #6}%Lagna, if required
+\parbox[c][2ex][c]{0.9\linewidth}{\footnotesize #5}%Lagna, if required
 }
-\newcommand{\rygdata}[3]{%
+\newcommand{\avamA}{
+    \raisebox{1.5pt}{\fcolorbox{white}{gray!40}{\scriptsize अवमा}}
+}
+\newcommand{\tridina}{
+    \raisebox{1.5pt}{\fcolorbox{white}{gray!40}{\scriptsize त्रिदिनस्पृक्}}
+}
+\newcommand{\rygdata}[1]{%
+\setsepchar{,}
+\readlist\arg{#1}
+श्राद्ध-तिथिः—\arg[1]\hfil{}अमृतादि-योगाः—\arg[2]\\[-3pt]
 \begin{minipage}{\linewidth}
 \centering
-\rule[-1ex]{0.7\textwidth}{.4pt}
-\small राहु॰~\textsf{#1}~~यम॰~\textsf{#2}~~गुलिक॰~\textsf{#3}%Rahu Yama Gulika
-\end{minipage}
-}
+\rule[-1ex]{0.95\textwidth}{.4pt}
+\small राहु॰~\textsf{\arg[3]}\hspace{3ex}यम॰~\textsf{\arg[4]}\hspace{3ex}गुलिक॰~\textsf{\arg[5]}\hfil\arg[8]\\%Rahu Yama Gulika
+त्याज्यं~\textsf{\arg[6]}\hfil{}अमृतकालः~\textsf{\arg[7]}\\
+\arg[9]\hfil\arg[10]
+\end{minipage}}
 \newcommand{\caldata}[7]{%
 \clearpage
 \begin{minipage}{\linewidth}
@@ -186,9 +197,9 @@
 \end{tabular}
 }\mbox{}\\[-4pt]
 #4\\[0.5em]%Sun rise, kalas etc
-#5\\[1em]%Tithi, Nakshatram, Varam, Yogam
-\vspace{\fill}
-{\parbox[b][70pt]{0.95\linewidth}{\centering\normalsize\textcolor{RoyalBlue}{#6}}}%Festivals
+#5\mbox{}\\[1em]%Tithi, Nakshatram, Varam, Yogam
+% \vspace{\fill}
+{\parbox[b]{0.95\linewidth}{\centering\normalsize\textcolor{RoyalBlue}{#6}}}%Festivals
 \end{minipage}
 }
 
