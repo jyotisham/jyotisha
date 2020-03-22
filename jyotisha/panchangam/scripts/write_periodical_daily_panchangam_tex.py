@@ -45,8 +45,6 @@ def writeDailyTeX(panchangam, template_file, compute_lagnams=True, output_stream
     samvatsara_id_1 = (kali_year_start + 12) % 60 + 1  # Aligning to prabhava cycle from Kali start 
     samvatsara_id_2 = (kali_year_end + 12) % 60 + 1
     samvatsara_names = [jyotisha.panchangam.temporal.NAMES['SAMVATSARA_NAMES'][panchangam.script][(_x + 12) % 60 + 1] for _x in list(range(kali_year_start, kali_year_end + 1))]
-    logging.debug(samvatsara_names)
-
     yname = samvatsara_names[0]  # Assign year name until Mesha Sankranti
 
     print('\\mbox{}', file=output_stream)
