@@ -1073,6 +1073,16 @@ class Panchangam(common.JsonObject):
             if self.solar_month[d] == 9 and self.solar_month_day[d] <= 7 and self.weekday[d] == 3:
                 self.fest_days['kucEla-dinam'] = [d]
 
+            # MESHA SANKRANTI
+            if self.solar_month[d] == 1 and self.solar_month[d - 1] == 12:
+                # distance from prabhava
+                samvatsara_id = (y - 1568) % 60 + 1
+                new_yr = 'mESa-saGkrAntiH' + '~(' + temporal.NAMES['SAMVATSARA_NAMES']['hk'][(samvatsara_id % 60) + 1] + \
+                         '-' + 'saMvatsaraH' + ')'
+                # self.fest_days[new_yr] = [d]
+                self.add_festival(new_yr, d, debug_festivals)
+                self.add_festival('paJcAGga-paThanam', d, debug_festivals)
+
     def assign_ayushman_bava_saumya_yoga(self, debug_festivals=False):
         for d in range(1, self.duration + 1):
             [y, m, dt, t] = swe.revjul(self.jd_start_utc + d - 1)
@@ -1335,13 +1345,6 @@ class Panchangam(common.JsonObject):
                                 else:
                                     logging.warning('Not adding festival %s on %d fday (month = %d instead of %d)' % (festival_name, fday, self.lunar_month[fday], month_num))
 
-            if self.solar_month[d] == 1 and self.solar_month[d - 1] == 12:
-                # distance from prabhava
-                samvatsara_id = (y - 1568) % 60 + 1
-                new_yr = 'mESa-saGkrAntiH' + '~(' + temporal.NAMES['SAMVATSARA_NAMES']['hk'][(samvatsara_id % 60) + 1] + \
-                         '-' + 'saMvatsaraH' + ')'
-                self.fest_days[new_yr] = [d]
-                self.add_festival('paJcAGga-paThanam', d, debug_festivals)
 
         # Update festival numbers if they exist
         solar_y_start_d = []
