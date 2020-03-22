@@ -39,22 +39,28 @@ def writeDailyTeX(panchangam, template_file, compute_lagnams=True, output_stream
     for i in range(len(template_lines)):
         print(template_lines[i][:-1], file=output_stream)
 
-    samvatsara_id_1 = (panchangam.start_date[0] - 1568) % 60 + 1  # distance from prabhava
-    samvatsara_id_2 = (panchangam.end_date[0] - 1568) % 60 + 2  # distance from prabhava
-    samvatsara_names = (jyotisha.panchangam.temporal.NAMES['SAMVATSARA_NAMES'][panchangam.script][samvatsara_id_1:samvatsara_id_2 + 1])
+    kali_year_start = panchangam.start_date[0] + 3100 + (panchangam.solar_month[1] == 1)
+    kali_year_end = panchangam.end_date[0] + 3100 + (panchangam.solar_month[panchangam.duration] == 1)
+    logging.debug((kali_year_start, kali_year_end))
+    samvatsara_id_1 = (kali_year_start + 12) % 60 + 1  # Aligning to prabhava cycle from Kali start 
+    samvatsara_id_2 = (kali_year_end + 12) % 60 + 1
+    samvatsara_names = [jyotisha.panchangam.temporal.NAMES['SAMVATSARA_NAMES'][panchangam.script][(_x + 12) % 60 + 1] for _x in list(range(kali_year_start, kali_year_end + 1))]
+    logging.debug(samvatsara_names)
 
     yname = samvatsara_names[0]  # Assign year name until Mesha Sankranti
 
     print('\\mbox{}', file=output_stream)
     print('\\renewcommand{\\yearname}{%d}' % panchangam.start_date[0], file=output_stream)
     print('\\begin{center}', file=output_stream)
-    print('{\\sffamily \\fontsize{60}{60}\\selectfont  %4d-%02d-%02d–%4d-%02d-%02d\\\\[0.5cm]}' % (panchangam.start_date[0], panchangam.start_date[1], panchangam.start_date[2], panchangam.end_date[0], panchangam.end_date[1], panchangam.end_date[2]), file=output_stream)
-    print('\\mbox{\\fontsize{48}{48}\\selectfont %s–%s}\\\\'
-          % (samvatsara_names[0], samvatsara_names[-1]), file=output_stream)
+    print('{\\sffamily \\fontsize{20}{20}\\selectfont  %4d-%02d-%02d–%4d-%02d-%02d\\\\[0.5cm]}'
+          % (panchangam.start_date[0], panchangam.start_date[1], panchangam.start_date[2], panchangam.end_date[0], panchangam.end_date[1], panchangam.end_date[2]), file=output_stream)
+    
+    print('\\mbox{\\fontsize{48}{48}\\selectfont %s}\\\\'
+          % ('–'.join(list(set(samvatsara_names[:2])))), file=output_stream)
     print('\\mbox{\\fontsize{32}{32}\\selectfont %s } %%'
           % jyotisha.custom_transliteration.tr('kali', panchangam.script), file=output_stream)
-    print('{\\sffamily \\fontsize{43}{43}\\selectfont  %d–%d\\\\[0.5cm]}\n\\hrule\n\\vspace{0.2cm}'
-          % (panchangam.start_date[0] + 3100, panchangam.end_date[0] + 3101), file=output_stream)
+    print('{\\sffamily \\fontsize{43}{43}\\selectfont  %s\\\\[0.5cm]}\n\\hrule\n\\vspace{0.2cm}'
+          % '–'.join([str(_y) for _y in set([kali_year_start, kali_year_end])]), file=output_stream)
     print('{\\sffamily \\fontsize{50}{50}\\selectfont  \\uppercase{%s}\\\\[0.2cm]}' % panchangam.city.name, file=output_stream)
     print('{\\sffamily \\fontsize{23}{23}\\selectfont  {%s}\\\\[0.2cm]}'
           % jyotisha.custom_transliteration.print_lat_lon(panchangam.city.latitude, panchangam.city.longitude), file=output_stream)
@@ -245,7 +251,7 @@ def writeDailyTeX(panchangam, template_file, compute_lagnams=True, output_stream
             jyotisha.panchangam.temporal.Time(24 * (panchangam.kaalas[d]['gulika'][0] - jd)).toString(format=panchangam.fmt),
             jyotisha.panchangam.temporal.Time(24 * (panchangam.kaalas[d]['gulika'][1] - jd)).toString(format=panchangam.fmt))
 
-        if panchangam.solar_month[d] == 1 and panchangam.solar_month[d - 1] == 12:
+        if panchangam.solar_month[d] == 1 and panchangam.solar_month[d - 1] == 12 and d > 1:
             # Move to next year
             yname = samvatsara_names[samvatsara_names.index(yname) + 1]
 
