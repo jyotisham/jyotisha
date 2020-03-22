@@ -19,3 +19,4 @@ config_local.json
 *.local
 jyotisha/panchangam/data/festival_rules_test.json
 tests/update_test_json.py
+*.swp
