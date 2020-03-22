@@ -41,9 +41,7 @@ def writeDailyTeX(panchangam, template_file, compute_lagnams=True, output_stream
 
     kali_year_start = panchangam.start_date[0] + 3100 + (panchangam.solar_month[1] == 1)
     kali_year_end = panchangam.end_date[0] + 3100 + (panchangam.solar_month[panchangam.duration] == 1)
-    logging.debug((kali_year_start, kali_year_end))
-    samvatsara_id_1 = (kali_year_start + 12) % 60 + 1  # Aligning to prabhava cycle from Kali start 
-    samvatsara_id_2 = (kali_year_end + 12) % 60 + 1
+    # Aligning to prabhava cycle from Kali start (+12 below)
     samvatsara_names = [jyotisha.panchangam.temporal.NAMES['SAMVATSARA_NAMES'][panchangam.script][(_x + 12) % 60 + 1] for _x in list(range(kali_year_start, kali_year_end + 1))]
     yname = samvatsara_names[0]  # Assign year name until Mesha Sankranti
 
@@ -52,7 +50,7 @@ def writeDailyTeX(panchangam, template_file, compute_lagnams=True, output_stream
     print('\\begin{center}', file=output_stream)
     print('{\\sffamily \\fontsize{20}{20}\\selectfont  %4d-%02d-%02d–%4d-%02d-%02d\\\\[0.5cm]}'
           % (panchangam.start_date[0], panchangam.start_date[1], panchangam.start_date[2], panchangam.end_date[0], panchangam.end_date[1], panchangam.end_date[2]), file=output_stream)
-    
+
     print('\\mbox{\\fontsize{48}{48}\\selectfont %s}\\\\'
           % ('–'.join(list(set(samvatsara_names[:2])))), file=output_stream)
     print('\\mbox{\\fontsize{32}{32}\\selectfont %s } %%'
@@ -66,7 +64,6 @@ def writeDailyTeX(panchangam, template_file, compute_lagnams=True, output_stream
     print('\\end{center}', file=output_stream)
     print('\\clearpage\\pagestyle{fancy}', file=output_stream)
 
-    panchangam.assign_shraaddha_tithi(False)
     panchangam.calc_nakshatra_tyajyam(False)
     panchangam.calc_nakshatra_amrita(False)
 
@@ -343,7 +340,6 @@ def main():
 
     daily_template_file = open(os.path.join(CODE_ROOT, 'data/templates/daily_cal_template.tex'))
     writeDailyTeX(panchangam, daily_template_file, compute_lagnams)
-    # panchangam.writeDebugLog()
 
 
 if __name__ == '__main__':
