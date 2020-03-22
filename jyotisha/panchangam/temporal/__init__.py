@@ -618,8 +618,7 @@ def sanitize_time(year_in, month_in, day_in, hour_in, minute_in, second_in):
         month = ((month - 1) % 12) + 1
     return (year, month, day, hour, minute, second)
 
+
 # Essential for depickling to work.
 common.update_json_class_index(sys.modules[__name__])
 # logging.debug(common.json_class_index)
-
-
