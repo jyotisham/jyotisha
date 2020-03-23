@@ -1103,6 +1103,21 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:पौष-अष्टका-पूर्वेद्युः
+DTSTART;VALUE=DATE:20190127
+DTEND;VALUE=DATE:20190128
+DESCRIPTION:Shannavati Shraddham Day.<br/><br/>https://github.com/sanskrit
+ -coders/adyatithi/tree/master/data/relative_event/pauSa-aSTakA-zrAddham/of
+ fset__-1#pauṣa-aṣṭakā-pūrvedyuḥ<br/><br/>#ShannavatiTarpanaDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:विवेकानन्द जयन्ती #१५७
 DTSTART;VALUE=DATE:20190127
 DTEND;VALUE=DATE:20190128
@@ -1110,6 +1125,22 @@ DESCRIPTION:Observed on Kṛṣṇa-Saptamī tithi of Pauṣaḥ (lunar) m
  onth (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>https://git
  hub.com/sanskrit-coders/adyatithi/tree/master/data/lunar_month/tithi/10/22
  #vivekānanda-jayantī<br/><br/>#MahapurushaEvents #CommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:पौष-अष्टका-श्राद्धम्
+DTSTART;VALUE=DATE:20190128
+DTEND;VALUE=DATE:20190129
+DESCRIPTION:Observed on Kṛṣṇa-Aṣṭamī tithi of Pauṣaḥ (lunar
+ ) month (aparaahna/vyaapti).<br/><br/><br/>https://github.com/sanskrit-cod
+ ers/adyatithi/tree/master/data/lunar_month/tithi/10/23#pauṣa-aṣṭakā
+ -śrāddham<br/><br/>#ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1127,6 +1158,21 @@ DESCRIPTION:Observed on Kṛṣṇa-Navamī tithi of Pauṣaḥ (lunar) mo
  />* http://hindupad.com/bhishma-pitamaha-jayanti/<br/><br/><br/>https://gi
  thub.com/sanskrit-coders/adyatithi/tree/master/data/lunar_month/tithi/10/2
  4#bhīṣma-jayantī<br/><br/>#MahapurushaEvents
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:पौष-अन्वष्टका-श्राद्धम्
+DTSTART;VALUE=DATE:20190129
+DTEND;VALUE=DATE:20190130
+DESCRIPTION:Shannavati Shraddham Day.<br/><br/>https://github.com/sanskrit
+ -coders/adyatithi/tree/master/data/relative_event/pauSa-aSTakA-zrAddham/of
+ fset__01#pauṣa-anvaṣṭakā-śrāddham<br/><br/>#ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2464,6 +2510,21 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:माघ-अष्टका-पूर्वेद्युः
+DTSTART;VALUE=DATE:20190225
+DTEND;VALUE=DATE:20190226
+DESCRIPTION:Shannavati Shraddham Day.<br/><br/>https://github.com/sanskrit
+ -coders/adyatithi/tree/master/data/relative_event/mAgha-aSTakA-zrAddham/of
+ fset__-1#māgha-aṣṭakā-pūrvedyuḥ<br/><br/>#ShannavatiTarpanaDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:निक्षुभार्क-सप्तमी
 DTSTART;VALUE=DATE:20190225
 DTEND;VALUE=DATE:20190226
@@ -2522,6 +2583,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:माघ-अष्टका-श्राद्धम्
+DTSTART;VALUE=DATE:20190226
+DTEND;VALUE=DATE:20190227
+DESCRIPTION:Observed on Kṛṣṇa-Aṣṭamī tithi of Māghaḥ (lunar)
+  month (aparaahna/vyaapti).<br/><br/><br/>https://github.com/sanskrit-code
+ rs/adyatithi/tree/master/data/lunar_month/tithi/11/23#māgha-aṣṭakā-
+ śrāddham<br/><br/>#ShannavatiTarpanaDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:மாசி செவ்வாய்
 DTSTART;VALUE=DATE:20190226
 DTEND;VALUE=DATE:20190227
@@ -2529,6 +2606,21 @@ DESCRIPTION:Do उपवासम् (at least do not take salt) and pray
  to Lord Shiva (Vaidyanatha Swami).<br/><br/>https://github.com/sanskrit-co
  ders/adyatithi/tree/master/data/other/month-weekday-festivals#māchi-chêv
  vāy<br/><br/>#MonthWeekdayFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:माघ-अन्वष्टका-श्राद्धम्
+DTSTART;VALUE=DATE:20190227
+DTEND;VALUE=DATE:20190228
+DESCRIPTION:Shannavati Shraddham Day.<br/><br/>https://github.com/sanskrit
+ -coders/adyatithi/tree/master/data/relative_event/mAgha-aSTakA-zrAddham/of
+ fset__01#māgha-anvaṣṭakā-śrāddham<br/><br/>#ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3708,6 +3800,23 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:फाल्गुन-अष्टका-पूर्वेद्
+ युः
+DTSTART;VALUE=DATE:20190327
+DTEND;VALUE=DATE:20190328
+DESCRIPTION:Shannavati Shraddham Day.<br/><br/>https://github.com/sanskrit
+ -coders/adyatithi/tree/master/data/relative_event/phAlguna-aSTakA-zrAddham
+ /offset__-1#phālguna-aṣṭakā-pūrvedyuḥ<br/><br/>#ShannavatiTarpana
+ Days
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:व्यतीपात-श्राद्धम्
 DTSTART;VALUE=DATE:20190327
 DTEND;VALUE=DATE:20190328
@@ -3724,12 +3833,46 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:फाल्गुन-अष्टका-श्राद्धम
+ ्
+DTSTART;VALUE=DATE:20190328
+DTEND;VALUE=DATE:20190329
+DESCRIPTION:Observed on Kṛṣṇa-Aṣṭamī tithi of Phālgunaḥ (lun
+ ar) month (aparaahna/vyaapti).<br/><br/><br/>https://github.com/sanskrit-c
+ oders/adyatithi/tree/master/data/lunar_month/tithi/12/23#phālguna-aṣṭ
+ akā-śrāddham<br/><br/>#ShannavatiTarpanaDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:गुरु-सङ्क्रान्तिः (वृश्च
  िकः▶धनुः)
 DTSTART;VALUE=DATE:20190329
 DTEND;VALUE=DATE:20190330
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
  other/sankranti#guru-saṅkrāntiḥ<br/><br/>#Sankranti
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:फाल्गुन-अन्वष्टका-श्राद
+ ्धम्
+DTSTART;VALUE=DATE:20190329
+DTEND;VALUE=DATE:20190330
+DESCRIPTION:Shannavati Shraddham Day.<br/><br/>https://github.com/sanskrit
+ -coders/adyatithi/tree/master/data/relative_event/phAlguna-aSTakA-zrAddham
+ /offset__01#phālguna-anvaṣṭakā-śrāddham<br/><br/>#ShannavatiTarpan
+ aDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18932,6 +19075,23 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:मार्गशीर्ष-अष्टका-पूर्व
+ ेद्युः
+DTSTART;VALUE=DATE:20191218
+DTEND;VALUE=DATE:20191219
+DESCRIPTION:Shannavati Shraddham Day.<br/><br/>https://github.com/sanskrit
+ -coders/adyatithi/tree/master/data/relative_event/mArgazIrSa-aSTakA-zrAddh
+ am/offset__-1#mārgaśīrṣa-aṣṭakā-pūrvedyuḥ<br/><br/>#Shannavat
+ iTarpanaDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:काञ्ची ४ जगद्गुरु श्री स
  त्यबोधेन्द्र सरस्वती आराधन
  ा #२२८७
@@ -18957,6 +19117,23 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:मार्गशीर्ष-अष्टका-श्राद
+ ्धम्
+DTSTART;VALUE=DATE:20191219
+DTEND;VALUE=DATE:20191220
+DESCRIPTION:Observed on Kṛṣṇa-Aṣṭamī tithi of Mārgaśīrṣa
+ ḥ (lunar) month (aparaahna/vyaapti).<br/><br/><br/>https://github.com/sa
+ nskrit-coders/adyatithi/tree/master/data/lunar_month/tithi/09/23#mārgaś
+ īrṣa-aṣṭakā-śrāddham<br/><br/>#ShannavatiTarpanaDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:இயற்பகை நாயனார் (2) குருபூ
  ஜை
 DTSTART;VALUE=DATE:20191219
@@ -18965,6 +19142,23 @@ DESCRIPTION:Observed on Uttaraphalgunī nakṣhatram day of Dhanuḥ (sola
  r) month (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-c
  oders/adyatithi/tree/master/data/solar_month/nakshatram/09/12#iyar̂pagai-
  nāyanār-2-gurupūjai<br/><br/>#NayanarGurupujai
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:मार्गशीर्ष-अन्वष्टका-श्
+ राद्धम्
+DTSTART;VALUE=DATE:20191220
+DTEND;VALUE=DATE:20191221
+DESCRIPTION:Shannavati Shraddham Day.<br/><br/>https://github.com/sanskrit
+ -coders/adyatithi/tree/master/data/relative_event/mArgazIrSa-aSTakA-zrAddh
+ am/offset__01#mārgaśīrṣa-anvaṣṭakā-śrāddham<br/><br/>#Shannava
+ tiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
