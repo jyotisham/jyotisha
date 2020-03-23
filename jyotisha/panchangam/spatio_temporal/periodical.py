@@ -347,51 +347,6 @@ class Panchangam(common.JsonObject):
                 elif tithi_sunset_tmrw == 2:
                     self.festivals[d + 1].append('candra-darzanam')
 
-    def assign_shasthi_vratam(self, debug_festivals=False):
-        for d in range(1, self.duration + 1):
-            [y, m, dt, t] = swe.revjul(self.jd_start_utc + d - 1)
-            # # SHASHTHI Vratam
-            # Check only for Adhika maasa here...
-            festival_name = 'SaSThI-vratam'
-            if self.lunar_month[d] == 8:
-                festival_name = 'skanda' + festival_name
-            elif self.lunar_month[d] == 4:
-                festival_name = 'kumAra-' + festival_name
-            elif self.lunar_month[d] == 6:
-                festival_name = 'SaSThIdEvI-' + festival_name
-            elif self.lunar_month[d] == 9:
-                festival_name = 'subrahmaNya-' + festival_name
-
-            if self.tithi_sunrise[d] == 5 or self.tithi_sunrise[d] == 6:
-                angams = self.get_angams_for_kaalas(d, temporal.get_tithi, 'madhyaahna')
-                if angams[0] == 6 or angams[1] == 6:
-                    if festival_name in self.fest_days:
-                        # Check if yesterday was assigned already
-                        # to this puurvaviddha festival!
-                        if self.fest_days[festival_name].count(d - 1) == 0:
-                            self.add_festival(festival_name, d, debug_festivals)
-                    else:
-                        self.add_festival(festival_name, d, debug_festivals)
-                elif angams[2] == 6 or angams[3] == 6:
-                    self.add_festival(festival_name, d + 1, debug_festivals)
-                else:
-                    # This means that the correct angam did not
-                    # touch the kaala on either day!
-                    # sys.stderr.write('Could not assign puurvaviddha day for %s!\
-                    # Please check for unusual cases.\n' % festival_name)
-                    if angams[2] == 6 + 1 or angams[3] == 6 + 1:
-                        # Need to assign a day to the festival here
-                        # since the angam did not touch kaala on either day
-                        # BUT ONLY IF YESTERDAY WASN'T ALREADY ASSIGNED,
-                        # THIS BEING PURVAVIDDHA
-                        # Perhaps just need better checking of
-                        # conditions instead of this fix
-                        if festival_name in self.fest_days:
-                            if self.fest_days[festival_name].count(d - 1) == 0:
-                                self.add_festival(festival_name, d, debug_festivals)
-                        else:
-                            self.add_festival(festival_name, d, debug_festivals)
-
     def assign_chaturthi_vratam(self, debug_festivals=False):
         for d in range(1, self.duration + 1):
             [y, m, dt, t] = swe.revjul(self.jd_start_utc + d - 1)
@@ -438,6 +393,143 @@ class Panchangam(common.JsonObject):
                             if self.lunar_month[d] == 5:
                                 chaturthi_name = '%s%s' % ('aGgArakI~' if self.weekday[d] == 2 else '', chaturthi_name)
                                 self.festivals[d][-1] = chaturthi_name + 'mahAsaGkaTahara-caturthI-vratam'
+
+    def assign_shasthi_vratam(self, debug_festivals=False):
+        for d in range(1, self.duration + 1):
+            [y, m, dt, t] = swe.revjul(self.jd_start_utc + d - 1)
+            # # SHASHTHI Vratam
+            # Check only for Adhika maasa here...
+            festival_name = 'SaSThI-vratam'
+            if self.lunar_month[d] == 8:
+                festival_name = 'skanda' + festival_name
+            elif self.lunar_month[d] == 4:
+                festival_name = 'kumAra-' + festival_name
+            elif self.lunar_month[d] == 6:
+                festival_name = 'SaSThIdEvI-' + festival_name
+            elif self.lunar_month[d] == 9:
+                festival_name = 'subrahmaNya-' + festival_name
+
+            if self.tithi_sunrise[d] == 5 or self.tithi_sunrise[d] == 6:
+                angams = self.get_angams_for_kaalas(d, temporal.get_tithi, 'madhyaahna')
+                if angams[0] == 6 or angams[1] == 6:
+                    if festival_name in self.fest_days:
+                        # Check if yesterday was assigned already
+                        # to this puurvaviddha festival!
+                        if self.fest_days[festival_name].count(d - 1) == 0:
+                            self.add_festival(festival_name, d, debug_festivals)
+                    else:
+                        self.add_festival(festival_name, d, debug_festivals)
+                elif angams[2] == 6 or angams[3] == 6:
+                    self.add_festival(festival_name, d + 1, debug_festivals)
+                else:
+                    # This means that the correct angam did not
+                    # touch the kaala on either day!
+                    # sys.stderr.write('Could not assign puurvaviddha day for %s!\
+                    # Please check for unusual cases.\n' % festival_name)
+                    if angams[2] == 6 + 1 or angams[3] == 6 + 1:
+                        # Need to assign a day to the festival here
+                        # since the angam did not touch kaala on either day
+                        # BUT ONLY IF YESTERDAY WASN'T ALREADY ASSIGNED,
+                        # THIS BEING PURVAVIDDHA
+                        # Perhaps just need better checking of
+                        # conditions instead of this fix
+                        if festival_name in self.fest_days:
+                            if self.fest_days[festival_name].count(d - 1) == 0:
+                                self.add_festival(festival_name, d, debug_festivals)
+                        else:
+                            self.add_festival(festival_name, d, debug_festivals)
+
+    def assign_ekadashi_vratam(self, debug_festivals=False):
+        for d in range(1, self.duration + 1):
+            [y, m, dt, t] = swe.revjul(self.jd_start_utc + d - 1)
+
+            # checking @ 6am local - can we do any better?
+            local_time = tz(self.city.timezone).localize(datetime(y, m, dt, 6, 0, 0))
+            # compute offset from UTC in hours
+            tz_off = (datetime.utcoffset(local_time).days * 86400 +
+                      datetime.utcoffset(local_time).seconds) / 3600.0
+
+            # EKADASHI Vratam
+            # One of two consecutive tithis must appear @ sunrise!
+
+            if (self.tithi_sunrise[d] % 15) == 10 or (self.tithi_sunrise[d] % 15) == 11:
+                yati_ekadashi_fday = smaarta_ekadashi_fday = vaishnava_ekadashi_fday = None
+                ekadashi_tithi_days = [x % 15 for x in self.tithi_sunrise[d:d + 3]]
+                if self.tithi_sunrise[d] > 15:
+                    ekadashi_paksha = 'krishna'
+                else:
+                    ekadashi_paksha = 'shukla'
+                if ekadashi_tithi_days in [[11, 11, 12], [10, 12, 12]]:
+                    smaarta_ekadashi_fday = d + 1
+                    tithi_arunodayam = temporal.get_tithi(self.jd_sunrise[d + 1] - (1 / 15.0) * (self.jd_sunrise[d + 1] - self.jd_sunrise[d]), ayanamsha_id=self.ayanamsha_id)
+                    if tithi_arunodayam % 15 == 10:
+                        vaishnava_ekadashi_fday = d + 2
+                    else:
+                        vaishnava_ekadashi_fday = d + 1
+                elif ekadashi_tithi_days in [[10, 12, 13], [11, 12, 13], [11, 12, 12], [11, 12, 14]]:
+                    smaarta_ekadashi_fday = d
+                    tithi_arunodayam = temporal.get_tithi(self.jd_sunrise[d] - (1 / 15.0) * (self.jd_sunrise[d] - self.jd_sunrise[d - 1]), ayanamsha_id=self.ayanamsha_id)
+                    if tithi_arunodayam % 15 == 11 and ekadashi_tithi_days in [[11, 12, 13], [11, 12, 14]]:
+                        vaishnava_ekadashi_fday = d
+                    else:
+                        vaishnava_ekadashi_fday = d + 1
+                elif ekadashi_tithi_days in [[10, 11, 13], [11, 11, 13]]:
+                    smaarta_ekadashi_fday = d
+                    vaishnava_ekadashi_fday = d + 1
+                    yati_ekadashi_fday = d + 1
+                else:
+                    pass
+                    # These combinations are taken care of, either in the past or future.
+                    # if ekadashi_tithi_days == [10, 11, 12]:
+                    #     logging.debug('Not assigning. Maybe tomorrow?')
+                    # else:
+                    #     logging.debug(('!!', d, ekadashi_tithi_days))
+
+                if yati_ekadashi_fday == smaarta_ekadashi_fday == vaishnava_ekadashi_fday is None:
+                    # Must have already assigned
+                    pass
+                elif yati_ekadashi_fday is None:
+                    if smaarta_ekadashi_fday == vaishnava_ekadashi_fday:
+                        # It's sarva ekadashi
+                        self.add_festival('sarva-' + temporal.get_ekadashi_name(ekadashi_paksha, self.lunar_month[d]), smaarta_ekadashi_fday, debug_festivals)
+                        if ekadashi_paksha == 'shukla':
+                            if self.solar_month[d] == 9:
+                                self.add_festival('sarva-vaikuNTha-EkAdazI', smaarta_ekadashi_fday, debug_festivals)
+                    else:
+                        self.add_festival('smArta-' + temporal.get_ekadashi_name(ekadashi_paksha, self.lunar_month[d]), smaarta_ekadashi_fday, debug_festivals)
+                        self.add_festival('vaiSNava-' + temporal.get_ekadashi_name(ekadashi_paksha, self.lunar_month[d]), vaishnava_ekadashi_fday, debug_festivals)
+                        if ekadashi_paksha == 'shukla':
+                            if self.solar_month[d] == 9:
+                                self.add_festival('smArta-vaikuNTha-EkAdazI', smaarta_ekadashi_fday, debug_festivals)
+                                self.add_festival('vaiSNava-vaikuNTha-EkAdazI', vaishnava_ekadashi_fday, debug_festivals)
+                else:
+                    self.add_festival('smArta-' + temporal.get_ekadashi_name(ekadashi_paksha, self.lunar_month[d]) + ' (gRhastha)', smaarta_ekadashi_fday, debug_festivals)
+                    self.add_festival('smArta-' + temporal.get_ekadashi_name(ekadashi_paksha, self.lunar_month[d]) + ' (sannyasta)', yati_ekadashi_fday, debug_festivals)
+                    self.add_festival('vaiSNava-' + temporal.get_ekadashi_name(ekadashi_paksha, self.lunar_month[d]), vaishnava_ekadashi_fday, debug_festivals)
+                    if self.solar_month[d] == 9:
+                        if ekadashi_paksha == 'shukla':
+                            self.add_festival('smArta-vaikuNTha-EkAdazI (gRhastha)', smaarta_ekadashi_fday, debug_festivals)
+                            self.add_festival('smArta-vaikuNTha-EkAdazI (sannyasta)', yati_ekadashi_fday, debug_festivals)
+                            self.add_festival('vaiSNava-vaikuNTha-EkAdazI', vaishnava_ekadashi_fday, debug_festivals)
+
+                if yati_ekadashi_fday == smaarta_ekadashi_fday == vaishnava_ekadashi_fday is None:
+                    # Must have already assigned
+                    pass
+                else:
+                    if self.solar_month[d] == 8 and ekadashi_paksha == 'shukla':
+                            # self.add_festival('guruvAyupura-EkAdazI', smaarta_ekadashi_fday, debug_festivals)
+                            self.add_festival('guruvAyupura-EkAdazI', vaishnava_ekadashi_fday, debug_festivals)
+                            self.add_festival('kaizika-EkAdazI', vaishnava_ekadashi_fday, debug_festivals)
+
+                    # Harivasara Computation
+                    if ekadashi_paksha == 'shukla':
+                        harivasara_end = brentq(temporal.get_angam_float, self.jd_sunrise[smaarta_ekadashi_fday] - 2, self.jd_sunrise[smaarta_ekadashi_fday] + 2, args=(temporal.TITHI_PADA, -45, self.ayanamsha_id, False))
+                    else:
+                        harivasara_end = brentq(temporal.get_angam_float, self.jd_sunrise[smaarta_ekadashi_fday] - 2, self.jd_sunrise[smaarta_ekadashi_fday] + 2, args=(temporal.TITHI_PADA, -105, self.ayanamsha_id, False))
+                    [_y, _m, _d, _t] = swe.revjul(harivasara_end + (tz_off / 24.0))
+                    hariv_end_time = temporal.Time(swe.revjul(harivasara_end + (tz_off / 24.0))[3]).toString(format=self.fmt)
+                    fday_hv = swe.julday(_y, _m, _d, 0) - self.jd_start_utc + 1
+                    self.festivals[int(fday_hv)].append('harivAsaraH\\textsf{%s}{\\RIGHTarrow}\\textsf{%s}' % ('', hariv_end_time))
 
     def assign_pradosha_vratam(self, debug_festivals=False):
         for d in range(1, self.duration + 1):
@@ -571,98 +663,6 @@ class Panchangam(common.JsonObject):
                                    '-\\textsf{' + t1 + '}{\\RIGHTarrow}\\textsf{' +
                                    t2 + '}'] = [gc_30_d]
                     gc_30 = False
-
-    def assign_ekadashi_vratam(self, debug_festivals=False):
-        for d in range(1, self.duration + 1):
-            [y, m, dt, t] = swe.revjul(self.jd_start_utc + d - 1)
-
-            # checking @ 6am local - can we do any better?
-            local_time = tz(self.city.timezone).localize(datetime(y, m, dt, 6, 0, 0))
-            # compute offset from UTC in hours
-            tz_off = (datetime.utcoffset(local_time).days * 86400 +
-                      datetime.utcoffset(local_time).seconds) / 3600.0
-
-            # EKADASHI Vratam
-            # One of two consecutive tithis must appear @ sunrise!
-
-            if (self.tithi_sunrise[d] % 15) == 10 or (self.tithi_sunrise[d] % 15) == 11:
-                yati_ekadashi_fday = smaarta_ekadashi_fday = vaishnava_ekadashi_fday = None
-                ekadashi_tithi_days = [x % 15 for x in self.tithi_sunrise[d:d + 3]]
-                if self.tithi_sunrise[d] > 15:
-                    ekadashi_paksha = 'krishna'
-                else:
-                    ekadashi_paksha = 'shukla'
-                if ekadashi_tithi_days in [[11, 11, 12], [10, 12, 12]]:
-                    smaarta_ekadashi_fday = d + 1
-                    tithi_arunodayam = temporal.get_tithi(self.jd_sunrise[d + 1] - (1 / 15.0) * (self.jd_sunrise[d + 1] - self.jd_sunrise[d]), ayanamsha_id=self.ayanamsha_id)
-                    if tithi_arunodayam % 15 == 10:
-                        vaishnava_ekadashi_fday = d + 2
-                    else:
-                        vaishnava_ekadashi_fday = d + 1
-                elif ekadashi_tithi_days in [[10, 12, 13], [11, 12, 13], [11, 12, 12], [11, 12, 14]]:
-                    smaarta_ekadashi_fday = d
-                    tithi_arunodayam = temporal.get_tithi(self.jd_sunrise[d] - (1 / 15.0) * (self.jd_sunrise[d] - self.jd_sunrise[d - 1]), ayanamsha_id=self.ayanamsha_id)
-                    if tithi_arunodayam % 15 == 11 and ekadashi_tithi_days in [[11, 12, 13], [11, 12, 14]]:
-                        vaishnava_ekadashi_fday = d
-                    else:
-                        vaishnava_ekadashi_fday = d + 1
-                elif ekadashi_tithi_days in [[10, 11, 13], [11, 11, 13]]:
-                    smaarta_ekadashi_fday = d
-                    vaishnava_ekadashi_fday = d + 1
-                    yati_ekadashi_fday = d + 1
-                else:
-                    pass
-                    # These combinations are taken care of, either in the past or future.
-                    # if ekadashi_tithi_days == [10, 11, 12]:
-                    #     logging.debug('Not assigning. Maybe tomorrow?')
-                    # else:
-                    #     logging.debug(('!!', d, ekadashi_tithi_days))
-
-                if yati_ekadashi_fday == smaarta_ekadashi_fday == vaishnava_ekadashi_fday is None:
-                    # Must have already assigned
-                    pass
-                elif yati_ekadashi_fday is None:
-                    if smaarta_ekadashi_fday == vaishnava_ekadashi_fday:
-                        # It's sarva ekadashi
-                        self.add_festival('sarva-' + temporal.get_ekadashi_name(ekadashi_paksha, self.lunar_month[d]), smaarta_ekadashi_fday, debug_festivals)
-                        if ekadashi_paksha == 'shukla':
-                            if self.solar_month[d] == 9:
-                                self.add_festival('sarva-vaikuNTha-EkAdazI', smaarta_ekadashi_fday, debug_festivals)
-                    else:
-                        self.add_festival('smArta-' + temporal.get_ekadashi_name(ekadashi_paksha, self.lunar_month[d]), smaarta_ekadashi_fday, debug_festivals)
-                        self.add_festival('vaiSNava-' + temporal.get_ekadashi_name(ekadashi_paksha, self.lunar_month[d]), vaishnava_ekadashi_fday, debug_festivals)
-                        if ekadashi_paksha == 'shukla':
-                            if self.solar_month[d] == 9:
-                                self.add_festival('smArta-vaikuNTha-EkAdazI', smaarta_ekadashi_fday, debug_festivals)
-                                self.add_festival('vaiSNava-vaikuNTha-EkAdazI', vaishnava_ekadashi_fday, debug_festivals)
-                else:
-                    self.add_festival('smArta-' + temporal.get_ekadashi_name(ekadashi_paksha, self.lunar_month[d]) + ' (gRhastha)', smaarta_ekadashi_fday, debug_festivals)
-                    self.add_festival('smArta-' + temporal.get_ekadashi_name(ekadashi_paksha, self.lunar_month[d]) + ' (sannyasta)', yati_ekadashi_fday, debug_festivals)
-                    self.add_festival('vaiSNava-' + temporal.get_ekadashi_name(ekadashi_paksha, self.lunar_month[d]), vaishnava_ekadashi_fday, debug_festivals)
-                    if self.solar_month[d] == 9:
-                        if ekadashi_paksha == 'shukla':
-                            self.add_festival('smArta-vaikuNTha-EkAdazI (gRhastha)', smaarta_ekadashi_fday, debug_festivals)
-                            self.add_festival('smArta-vaikuNTha-EkAdazI (sannyasta)', yati_ekadashi_fday, debug_festivals)
-                            self.add_festival('vaiSNava-vaikuNTha-EkAdazI', vaishnava_ekadashi_fday, debug_festivals)
-
-                if yati_ekadashi_fday == smaarta_ekadashi_fday == vaishnava_ekadashi_fday is None:
-                    # Must have already assigned
-                    pass
-                else:
-                    if self.solar_month[d] == 8 and ekadashi_paksha == 'shukla':
-                            # self.add_festival('guruvAyupura-EkAdazI', smaarta_ekadashi_fday, debug_festivals)
-                            self.add_festival('guruvAyupura-EkAdazI', vaishnava_ekadashi_fday, debug_festivals)
-                            self.add_festival('kaizika-EkAdazI', vaishnava_ekadashi_fday, debug_festivals)
-
-                    # Harivasara Computation
-                    if ekadashi_paksha == 'shukla':
-                        harivasara_end = brentq(temporal.get_angam_float, self.jd_sunrise[smaarta_ekadashi_fday] - 2, self.jd_sunrise[smaarta_ekadashi_fday] + 2, args=(temporal.TITHI_PADA, -45, self.ayanamsha_id, False))
-                    else:
-                        harivasara_end = brentq(temporal.get_angam_float, self.jd_sunrise[smaarta_ekadashi_fday] - 2, self.jd_sunrise[smaarta_ekadashi_fday] + 2, args=(temporal.TITHI_PADA, -105, self.ayanamsha_id, False))
-                    [_y, _m, _d, _t] = swe.revjul(harivasara_end + (tz_off / 24.0))
-                    hariv_end_time = temporal.Time(swe.revjul(harivasara_end + (tz_off / 24.0))[3]).toString(format=self.fmt)
-                    fday_hv = swe.julday(_y, _m, _d, 0) - self.jd_start_utc + 1
-                    self.festivals[int(fday_hv)].append('harivAsaraH\\textsf{%s}{\\RIGHTarrow}\\textsf{%s}' % ('', hariv_end_time))
 
     def assign_agni_nakshatram(self, debug_festivals=False):
         for d in range(1, self.duration + 1):
