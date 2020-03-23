@@ -325,7 +325,7 @@ class Panchangam(common.JsonObject):
                 # Gregorian calendar year
                 if (d - 1) in self.fest_days[festival_name]:
                     # No festival occurs on consecutive days; paraviddha assigned twice
-                    logging.debug('%s occurring on two consecutive days (%d, %d). Removing! paraviddha assigned twice?' % (festival_name, d - 1, d))
+                    logging.warning('%s occurring on two consecutive days (%d, %d). Removing! paraviddha assigned twice?' % (festival_name, d - 1, d))
                     self.fest_days[festival_name].remove(d - 1)
                 self.fest_days[festival_name].append(d)
         else:
@@ -1382,9 +1382,7 @@ class Panchangam(common.JsonObject):
             logging.error('tripurOtsavaH not in self.fest_days!')
         else:
             if self.fest_days['tripurOtsavaH'] != self.fest_days['mahA~kArttikI']:
-                logging.debug(self.fest_days['tripurOtsavaH'])
-                logging.debug(self.fest_days['mahA~kArttikI'])
-                logging.warning('Removing mahA~kArttikI')
+                logging.warning('Removing mahA~kArttikI (%d) since it does not coincide with tripurOtsavaH (%d)' % (self.fest_days['tripurOtsavaH'][0], self.fest_days['mahA~kArttikI'][0]))
                 del self.fest_days['mahA~kArttikI']
                 # An error here implies the festivals were not assigned: adhika
                 # mAsa calc errors??
