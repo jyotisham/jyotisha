@@ -1054,7 +1054,7 @@ class Panchangam(common.JsonObject):
                 self.festivals[int(fday_nirayana)].append('%s\\textsf{%s}{\\RIGHTarrow}\\textsf{%s}' % (
                     temporal.NAMES['NIRAYANA_NAMES'][self.script][self.solar_month[d]], '', ayana_time))
 
-    def assign_simple_festivals(self, debug_festivals=False):
+    def assign_month_day_festivals(self, debug_festivals=False):
         for d in range(1, self.duration + 1):
             [y, m, dt, t] = swe.revjul(self.jd_start_utc + d - 1)
             ####################
@@ -1118,36 +1118,9 @@ class Panchangam(common.JsonObject):
                 else:
                     self.add_festival(festival_name, d, debug_festivals)
 
-    def compute_festivals(self, debug_festivals=False):
-        self.assign_ekadashi_vratam(debug_festivals=debug_festivals)
-        self.assign_pradosha_vratam(debug_festivals=debug_festivals)
-        self.assign_chaturthi_vratam(debug_festivals=debug_festivals)
-        self.assign_shasthi_vratam(debug_festivals=debug_festivals)
-        self.assign_chandra_darshanam(debug_festivals=debug_festivals)
-        self.assign_amavasya(debug_festivals=debug_festivals)
-        self.assign_gajachhaya_yoga(debug_festivals=debug_festivals)
-        self.assign_agni_nakshatram(debug_festivals=debug_festivals)
-        self.assign_mahadwadashi(debug_festivals=debug_festivals)
-        self.assign_vishesha_saptami(debug_festivals=debug_festivals)
-        self.assign_vishesha_trayodashi(debug_festivals=debug_festivals)
-        self.assign_mahodaya_ardhodaya(debug_festivals=debug_festivals)
-        self.assign_amavasya_yoga(debug_festivals=debug_festivals)
-        self.assign_tithi_vara_yoga(debug_festivals=debug_festivals)
-        self.assign_bhriguvara_subrahmanya_vratam(debug_festivals=debug_festivals)
-        self.assign_masa_vara_yoga_vratam(debug_festivals=debug_festivals)
-        self.assign_nakshatra_vara_yoga_vratam(debug_festivals=debug_festivals)
-        self.assign_ayanam(debug_festivals=debug_festivals)
-        self.assign_simple_festivals(debug_festivals=debug_festivals)
-        self.assign_ayushman_bava_saumya_yoga(debug_festivals=debug_festivals)
-        self.assign_vishesha_vyatipata(debug_festivals=debug_festivals)
-
+    def assign_festivals_from_rules(self, festival_rules, debug_festivals=False):
         for d in range(1, self.duration + 1):
             [y, m, dt, t] = swe.revjul(self.jd_start_utc + d - 1)
-
-            # ASSIGN ALL FESTIVALS FROM adyatithi submodule
-            # festival_rules = read_old_festival_rules_dict(os.path.join(CODE_ROOT, 'panchangam/data/festival_rules_test.json'))
-            festival_rules = read_old_festival_rules_dict(os.path.join(CODE_ROOT, 'panchangam/temporal/festival/legacy/festival_rules.json'))
-            assert "tripurOtsavaH" in festival_rules
 
             for festival_name in festival_rules:
                 if 'month_type' in festival_rules[festival_name]:
@@ -1345,7 +1318,7 @@ class Panchangam(common.JsonObject):
                                 else:
                                     logging.warning('Not adding festival %s on %d fday (month = %d instead of %d)' % (festival_name, fday, self.lunar_month[fday], month_num))
 
-
+    def assign_festival_numbers(self, festival_rules, debug_festivals=False):
         # Update festival numbers if they exist
         solar_y_start_d = []
         lunar_y_start_d = []
@@ -1401,6 +1374,7 @@ class Panchangam(common.JsonObject):
                             self.fest_days[festival_name_updated] = [assigned_day]
                 del(self.fest_days[festival_name])
 
+    def cleanup_festivals(self, debug_festivals=False):
         # If tripurotsava coincides with maha kArttikI (kRttikA nakShatram)
         # only then it is mahAkArttikI
         # else it is only tripurotsava
@@ -1414,6 +1388,37 @@ class Panchangam(common.JsonObject):
                 del self.fest_days['mahA~kArttikI']
                 # An error here implies the festivals were not assigned: adhika
                 # mAsa calc errors??
+
+    def compute_festivals(self, debug_festivals=False):
+        self.assign_ekadashi_vratam(debug_festivals=debug_festivals)
+        self.assign_pradosha_vratam(debug_festivals=debug_festivals)
+        self.assign_chaturthi_vratam(debug_festivals=debug_festivals)
+        self.assign_shasthi_vratam(debug_festivals=debug_festivals)
+        self.assign_chandra_darshanam(debug_festivals=debug_festivals)
+        self.assign_amavasya(debug_festivals=debug_festivals)
+        self.assign_gajachhaya_yoga(debug_festivals=debug_festivals)
+        self.assign_agni_nakshatram(debug_festivals=debug_festivals)
+        self.assign_mahadwadashi(debug_festivals=debug_festivals)
+        self.assign_vishesha_saptami(debug_festivals=debug_festivals)
+        self.assign_vishesha_trayodashi(debug_festivals=debug_festivals)
+        self.assign_mahodaya_ardhodaya(debug_festivals=debug_festivals)
+        self.assign_amavasya_yoga(debug_festivals=debug_festivals)
+        self.assign_tithi_vara_yoga(debug_festivals=debug_festivals)
+        self.assign_bhriguvara_subrahmanya_vratam(debug_festivals=debug_festivals)
+        self.assign_masa_vara_yoga_vratam(debug_festivals=debug_festivals)
+        self.assign_nakshatra_vara_yoga_vratam(debug_festivals=debug_festivals)
+        self.assign_ayanam(debug_festivals=debug_festivals)
+        self.assign_month_day_festivals(debug_festivals=debug_festivals)
+        self.assign_ayushman_bava_saumya_yoga(debug_festivals=debug_festivals)
+        self.assign_vishesha_vyatipata(debug_festivals=debug_festivals)
+
+        # ASSIGN ALL FESTIVALS FROM adyatithi submodule
+        # festival_rules = read_old_festival_rules_dict(os.path.join(CODE_ROOT, 'panchangam/data/festival_rules_test.json'))
+        festival_rules = read_old_festival_rules_dict(os.path.join(CODE_ROOT, 'panchangam/temporal/festival/legacy/festival_rules.json'))
+        assert "tripurOtsavaH" in festival_rules
+        self.assign_festivals_from_rules(festival_rules, debug_festivals=debug_festivals)
+        self.assign_festival_numbers(festival_rules, debug_festivals=debug_festivals)
+        self.cleanup_festivals(debug_festivals=debug_festivals)
 
     def assign_relative_festivals(self):
         # Add "RELATIVE" festivals --- festivals that happen before or
