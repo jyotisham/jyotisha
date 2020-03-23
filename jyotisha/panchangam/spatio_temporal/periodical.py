@@ -1187,14 +1187,17 @@ class Panchangam(common.JsonObject):
                     # Using 0 as a special tag to denote every month!
                     if angam_type == 'tithi':
                         angam_sunrise = self.tithi_sunrise
+                        angam_data = self.tithi_data
                         get_angam_func = temporal.get_tithi
                         num_angams = 30
                     elif angam_type == 'nakshatram':
                         angam_sunrise = self.nakshatram_sunrise
+                        angam_data = self.nakshatram_data
                         get_angam_func = temporal.get_nakshatram
                         num_angams = 27
                     elif angam_type == 'yoga':
                         angam_sunrise = self.yoga_sunrise
+                        angam_data = self.yoga_data
                         get_angam_func = temporal.get_yoga
                         num_angams = 27
                     else:
@@ -1205,6 +1208,7 @@ class Panchangam(common.JsonObject):
                     else:
                         prev_angam = angam_num - 1
                     next_angam = (angam_num % num_angams) + 1
+                    nnext_angam = (next_angam % 30) + 1
 
                     fday = None
 
@@ -1297,6 +1301,49 @@ class Panchangam(common.JsonObject):
                                     if festival_name not in self.fest_days and angams != [prev_angam] * 4:
                                         logging.debug('Special case: %s; angams = %s' % (festival_name, str(angams)))
 
+                        elif priority == 'vyaapti':
+                            if kaala == 'aparaahna':
+                                t_start_d, t_end_d = temporal.get_kaalas(self.jd_sunrise[d], self.jd_sunset[d], 3, 5)
+                            else:
+                                logging.error('Unknown kaala: %s.' % festival_name)
+
+                            if kaala == 'aparaahna':
+                                t_start_d1, t_end_d1 = temporal.get_kaalas(self.jd_sunrise[d + 1], self.jd_sunset[d + 1], 3, 5)
+                            else:
+                                logging.error('Unknown kaala: %s.' % festival_name)
+
+                            # Combinations
+                            # <a> 0 0 1 1: d + 1
+                            # <d> 0 1 1 1: d + 1
+                            # <g> 1 1 1 1: d + 1
+                            # <b> 0 0 1 2: d + 1
+                            # <c> 0 0 2 2: d + 1
+                            # <e> 0 1 1 2: vyApti
+                            # <f> 0 1 2 2: d
+                            # <h> 1 1 1 2: d
+                            # <i> 1 1 2 2: d
+                            p, q, r = prev_angam, angam_num, next_angam  # short-hand
+                            if angams in ([p, p, q, q], [p, q, q, q], [q, q, q, q], [p, p, q, r], [p, p, r, r]):
+                                fday = d + 1
+                            elif angams in ([p, q, r, r], [q, q, q, r], [q, q, r, r]):
+                                fday = d
+                            elif angams == [p, q, q, r]:
+                                angam, angam_end = angam_data[d][0]
+                                assert t_start_d < angam_end < t_end_d
+                                vyapti_1 = t_end_d - angam_end
+                                angam_d1, angam_end_d1 = angam_data[d + 1][0]
+                                assert t_start_d1 < angam_end_d1 < t_end_d1
+                                vyapti_2 = angam_end - t_start_d1
+                                for [angam, angam_end] in angam_data[d + 1]:
+                                    if angam_end is None:
+                                        pass
+                                    elif t_start_d1 < angam_end < t_end_d1:
+                                        vyapti_2 = angam_end - t_start_d1
+
+                                if vyapti_2 > vyapti_1:
+                                    fday = d + 1
+                                else:
+                                    fday = d
                         else:
                             logging.error('Unknown priority "%s" for %s! Check the rules!' % (priority, festival_name))
 
