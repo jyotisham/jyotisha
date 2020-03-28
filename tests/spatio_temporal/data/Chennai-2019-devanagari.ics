@@ -561,14 +561,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:मन्वादि (चाक्षुषः [६])
+SUMMARY:मन्वादिः (चाक्षुषः [६])
 DTSTART;VALUE=DATE:20190117
 DTEND;VALUE=DATE:20190118
 DESCRIPTION:Observed on Śukla-Ekādaśī tithi of Pauṣaḥ (lunar) mont
  h (aparaahna/vyaapti).<br/><br/>### References<br/>* Vaidyanātha-Dīkṣi
  tīyam<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/mas
- ter/data/lunar_month/tithi/10/11#manvādi-chākṣuṣaḥ-[6]<br/><br/>#M
- anvadiDays
+ ter/data/lunar_month/tithi/10/11#manvādiḥ-chākṣuṣaḥ-[6]<br/><br/
+ >#ManvadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1759,14 +1759,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:मन्वादि (सावर्णिः [८])
+SUMMARY:मन्वादिः (सावर्णिः [८])
 DTSTART;VALUE=DATE:20190212
 DTEND;VALUE=DATE:20190213
 DESCRIPTION:Observed on Śukla-Saptamī tithi of Māghaḥ (lunar) month (
  aparaahna/vyaapti).<br/><br/>### References<br/>* Vaidyanātha-Dīkṣitī
  yam<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/master
- /data/lunar_month/tithi/11/07#manvādi-sāvarṇiḥ-[8]<br/><br/>#Manvadi
- Days
+ /data/lunar_month/tithi/11/07#manvādiḥ-sāvarṇiḥ-[8]<br/><br/>#Manv
+ adiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2149,13 +2149,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:कल्पादि
+SUMMARY:कल्पादिः
 DTSTART;VALUE=DATE:20190217
 DTEND;VALUE=DATE:20190218
 DESCRIPTION:Observed on Śukla-Trayodaśī tithi of Māghaḥ (lunar) mont
  h (aparaahna/vyaapti).<br/>Kalpadi<br/><br/>https://github.com/sanskrit-co
- ders/adyatithi/tree/master/data/lunar_month/tithi/11/13#kalpādi<br/><br/>
- #KalpadiDays
+ ders/adyatithi/tree/master/data/lunar_month/tithi/11/13#kalpādiḥ<br/><b
+ r/>#KalpadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2810,14 +2810,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:कलियुगादि
+SUMMARY:कलियुगादिः
 DTSTART;VALUE=DATE:20190306
 DTEND;VALUE=DATE:20190307
 DESCRIPTION:Observed on Amāvāsyā tithi of Māghaḥ (lunar) month (apar
  aahna/vyaapti).<br/>Perform समुद्रस्नानम् and 
  श्राद्धम्.<br/>### References<br/>* Vaidyanātha-Dīkṣ
  itīyam<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/ma
- ster/data/lunar_month/tithi/11/30#kaliyugādi<br/><br/>#YugadiDays
+ ster/data/lunar_month/tithi/11/30#kaliyugādiḥ<br/><br/>#YugadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3491,14 +3491,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:मन्वादि (रुद्रः [१२])
+SUMMARY:मन्वादिः (रुद्रः [१२])
 DTSTART;VALUE=DATE:20190320
 DTEND;VALUE=DATE:20190321
 DESCRIPTION:Observed on Paurṇamāsī tithi of Phālgunaḥ (lunar) month
   (aparaahna/vyaapti).<br/><br/>### References<br/>* Vaidyanātha-Dīkṣit
  īyam<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/mast
- er/data/lunar_month/tithi/12/15#manvādi-rudraḥ-[12]<br/><br/>#ManvadiDa
- ys
+ er/data/lunar_month/tithi/12/15#manvādiḥ-rudraḥ-[12]<br/><br/>#Manvad
+ iDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3709,13 +3709,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ब्रह्म-कल्पादि
+SUMMARY:ब्रह्म-कल्पादिः
 DTSTART;VALUE=DATE:20190323
 DTEND;VALUE=DATE:20190324
 DESCRIPTION:Observed on Kṛṣṇa-Tṛtīyā tithi of Phālgunaḥ (luna
  r) month (aparaahna/vyaapti).<br/>Brahma Kalpadi<br/><br/>https://github.c
  om/sanskrit-coders/adyatithi/tree/master/data/lunar_month/tithi/12/18#brah
- ma-kalpādi<br/><br/>#KalpadiDays
+ ma-kalpādiḥ<br/><br/>#KalpadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4020,13 +4020,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:मन्वादि (रैवतः [५])
+SUMMARY:मन्वादिः (रैवतः [५])
 DTSTART;VALUE=DATE:20190404
 DTEND;VALUE=DATE:20190405
 DESCRIPTION:Observed on Amāvāsyā tithi of Phālgunaḥ (lunar) month (a
  paraahna/vyaapti).<br/><br/>### References<br/>* Vaidyanātha-Dīkṣitīy
  am<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/master/
- data/lunar_month/tithi/12/30#manvādi-raivataḥ-[5]<br/><br/>#ManvadiDays
+ data/lunar_month/tithi/12/30#manvādiḥ-raivataḥ-[5]<br/><br/>#ManvadiD
+ ays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4161,13 +4162,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:कल्पादि
+SUMMARY:कल्पादिः
 DTSTART;VALUE=DATE:20190406
 DTEND;VALUE=DATE:20190407
 DESCRIPTION:Observed on Śukla-Prathamā tithi of Caitraḥ (lunar) month 
  (aparaahna/vyaapti).<br/>Kalpadi<br/><br/>https://github.com/sanskrit-code
- rs/adyatithi/tree/master/data/lunar_month/tithi/01/01#kalpādi<br/><br/>#K
- alpadiDays
+ rs/adyatithi/tree/master/data/lunar_month/tithi/01/01#kalpādiḥ<br/><br/
+ >#KalpadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4210,13 +4211,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:युगादि
+SUMMARY:युगादिः
 DTSTART;VALUE=DATE:20190406
 DTEND;VALUE=DATE:20190407
 DESCRIPTION:Observed on Śukla-Prathamā tithi of Caitraḥ (lunar) month 
  (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>https://github.c
  om/sanskrit-coders/adyatithi/tree/master/data/lunar_month/tithi/01/01#yug
- ādi<br/><br/>#Yugadi #CommonFestivals
+ ādiḥ<br/><br/>#Yugadi #CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4313,14 +4314,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:मन्वादि (उत्तमः [३])
+SUMMARY:मन्वादिः (उत्तमः [३])
 DTSTART;VALUE=DATE:20190408
 DTEND;VALUE=DATE:20190409
 DESCRIPTION:Observed on Śukla-Tṛtīyā tithi of Caitraḥ (lunar) month
   (aparaahna/vyaapti).<br/><br/>### References<br/>* Vaidyanātha-Dīkṣit
  īyam<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/mast
- er/data/lunar_month/tithi/01/03#manvādi-uttamaḥ-[3]<br/><br/>#ManvadiDa
- ys
+ er/data/lunar_month/tithi/01/03#manvādiḥ-uttamaḥ-[3]<br/><br/>#Manvad
+ iDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4396,13 +4397,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:कल्पादि
+SUMMARY:कल्पादिः
 DTSTART;VALUE=DATE:20190410
 DTEND;VALUE=DATE:20190411
 DESCRIPTION:Observed on Śukla-Pañcamī tithi of Caitraḥ (lunar) month 
  (aparaahna/vyaapti).<br/>Kalpadi<br/><br/>https://github.com/sanskrit-code
- rs/adyatithi/tree/master/data/lunar_month/tithi/01/05#kalpādi<br/><br/>#K
- alpadiDays
+ rs/adyatithi/tree/master/data/lunar_month/tithi/01/05#kalpādiḥ<br/><br/
+ >#KalpadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5120,14 +5121,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:मन्वादि (रौच्यः [१३])
+SUMMARY:मन्वादिः (रौच्यः [१३])
 DTSTART;VALUE=DATE:20190419
 DTEND;VALUE=DATE:20190420
 DESCRIPTION:Observed on Paurṇamāsī tithi of Caitraḥ (lunar) month (a
  paraahna/vyaapti).<br/><br/>### References<br/>* Vaidyanātha-Dīkṣitīy
  am<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/master/
- data/lunar_month/tithi/01/15#manvādi-rauchyaḥ-[13]<br/><br/>#ManvadiDay
- s
+ data/lunar_month/tithi/01/15#manvādiḥ-rauchyaḥ-[13]<br/><br/>#Manvadi
+ Days
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5794,15 +5795,15 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:कृतयुगादि
+SUMMARY:कृतयुगादिः
 DTSTART;VALUE=DATE:20190507
 DTEND;VALUE=DATE:20190508
 DESCRIPTION:Observed on Śukla-Tṛtīyā tithi of Vaiśākhaḥ (lunar) m
  onth (aparaahna/vyaapti).<br/>Perform समुद्रस्नानम
  ् and श्राद्धम्.<br/>### References<br/>* Vaidyanātha
  -Dīkṣitīyam<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi
- /tree/master/data/lunar_month/tithi/02/03#kṛtayugādi<br/><br/>#YugadiDa
- ys
+ /tree/master/data/lunar_month/tithi/02/03#kṛtayugādiḥ<br/><br/>#Yugad
+ iDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5812,13 +5813,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:कल्पादि
+SUMMARY:कल्पादिः
 DTSTART;VALUE=DATE:20190507
 DTEND;VALUE=DATE:20190508
 DESCRIPTION:Observed on Śukla-Tṛtīyā tithi of Vaiśākhaḥ (lunar) m
  onth (aparaahna/vyaapti).<br/>Kalpadi<br/><br/>https://github.com/sanskrit
- -coders/adyatithi/tree/master/data/lunar_month/tithi/02/03#kalpādi<br/><b
- r/>#KalpadiDays
+ -coders/adyatithi/tree/master/data/lunar_month/tithi/02/03#kalpādiḥ<br/
+ ><br/>#KalpadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8312,14 +8313,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:मन्वादि (भौत्यः [१४])
+SUMMARY:मन्वादिः (भौत्यः [१४])
 DTSTART;VALUE=DATE:20190616
 DTEND;VALUE=DATE:20190617
 DESCRIPTION:Observed on Paurṇamāsī tithi of Jyaiṣṭhaḥ (lunar) mo
  nth (aparaahna/vyaapti).<br/><br/>### References<br/>* Vaidyanātha-Dīk
  ṣitīyam<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree
- /master/data/lunar_month/tithi/03/15#manvādi-bhautyaḥ-[14]<br/><br/>#Ma
- nvadiDays
+ /master/data/lunar_month/tithi/03/15#manvādiḥ-bhautyaḥ-[14]<br/><br/>
+ #ManvadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8519,6 +8520,19 @@ DESCRIPTION:Special vrata day for Ganesha. In this month\, Ganesha is wors
  atithi/tree/master/data/other/monthly-vratam/sankatahara-chaturthi-vratam#
  kṛṣṇapiṅgala-mahāgaṇapati-saṅkaṭahara-chaturthī-vratam<br/
  ><br/>#MonthlyVratam #SankataharaChaturthiVratam
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:दक्षिणायन-पुण्यकालः
+DTSTART;VALUE=DATE:20190621
+DTEND;VALUE=DATE:20190622
+DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9413,14 +9427,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:मन्वादि (वैवस्वतः [७])
+SUMMARY:मन्वादिः (वैवस्वतः [७])
 DTSTART;VALUE=DATE:20190711
 DTEND;VALUE=DATE:20190712
 DESCRIPTION:Observed on Śukla-Daśamī tithi of Āṣāḍhaḥ (lunar) m
  onth (aparaahna/vyaapti).<br/><br/>### References<br/>* Vaidyanātha-Dīk
  ṣitīyam<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree
- /master/data/lunar_month/tithi/04/10#manvādi-vaivasvataḥ-[7]<br/><br/>#
- ManvadiDays
+ /master/data/lunar_month/tithi/04/10#manvādiḥ-vaivasvataḥ-[7]<br/><br
+ />#ManvadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9744,14 +9758,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:मन्वादि (ब्रह्मः [१०])
+SUMMARY:मन्वादिः (ब्रह्मः [१०])
 DTSTART;VALUE=DATE:20190716
 DTEND;VALUE=DATE:20190717
 DESCRIPTION:Observed on Paurṇamāsī tithi of Āṣāḍhaḥ (lunar) mo
  nth (aparaahna/vyaapti).<br/><br/>### References<br/>* Vaidyanātha-Dīk
  ṣitīyam<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree
- /master/data/lunar_month/tithi/04/15#manvādi-brahmaḥ-[10]<br/><br/>#Man
- vadiDays
+ /master/data/lunar_month/tithi/04/15#manvādiḥ-brahmaḥ-[10]<br/><br/>#
+ ManvadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9848,22 +9862,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:दक्षिणायन-पुण्यकालः
-DTSTART;VALUE=DATE:20190717
-DTEND;VALUE=DATE:20190718
-DESCRIPTION:Observed on day 1 of Kaṭakaḥ (solar) month (sunrise (defau
- lt)/puurvaviddha (default)).<br/><br/><br/>https://github.com/sanskrit-cod
- ers/adyatithi/tree/master/data/solar_month/day/04/01#dakṣiṇāyana-pu
- ṇyakālaḥ<br/><br/>#SunSankranti #CommonFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:काञ्ची ५४ जगद्गुरु श्री 
  व्यासाचल महादेवेन्द्र सरस्
  वती आराधना #५१३
@@ -9880,6 +9878,22 @@ DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of Āṣāḍhaḥ (lu
  /sanskrit-coders/adyatithi/tree/master/data/lunar_month/tithi/04/16#kāñc
  hī-54-jagadguru-śrī-vyāsāchala-mahādevendra-sarasvatī-ārādhanā<b
  r/><br/>#KanchiAradhanaDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:कटक-सङ्क्रान्तिः
+DTSTART;VALUE=DATE:20190717
+DTEND;VALUE=DATE:20190718
+DESCRIPTION:Observed on day 1 of Kaṭakaḥ (solar) month (sunrise (defau
+ lt)/puurvaviddha (default)).<br/><br/><br/>https://github.com/sanskrit-cod
+ ers/adyatithi/tree/master/data/solar_month/day/04/01#kaṭaka-saṅkrānti
+ ḥ<br/><br/>#SunSankranti #CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11646,14 +11660,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:मन्वादि (दक्षः [९])
+SUMMARY:मन्वादिः (दक्षः [९])
 DTSTART;VALUE=DATE:20190823
 DTEND;VALUE=DATE:20190824
 DESCRIPTION:Observed on Kṛṣṇa-Aṣṭamī tithi of Śrāvaṇaḥ (l
  unar) month (aparaahna/vyaapti).<br/><br/>### References<br/>* Vaidyanāth
  a-Dīkṣitīyam<br/><br/><br/>https://github.com/sanskrit-coders/adyatith
- i/tree/master/data/lunar_month/tithi/05/23#manvādi-dakṣaḥ-[9]<br/><br
- />#ManvadiDays
+ i/tree/master/data/lunar_month/tithi/05/23#manvādiḥ-dakṣaḥ-[9]<br/>
+ <br/>#ManvadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12319,14 +12333,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:मन्वादि (तामसः [४])
+SUMMARY:मन्वादिः (तामसः [४])
 DTSTART;VALUE=DATE:20190901
 DTEND;VALUE=DATE:20190902
 DESCRIPTION:Observed on Śukla-Tṛtīyā tithi of Bhādrapadaḥ (lunar) 
  month (aparaahna/vyaapti).<br/><br/>### References<br/>* Vaidyanātha-Dīk
  ṣitīyam<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree
- /master/data/lunar_month/tithi/06/03#manvādi-tāmasaḥ-[4]<br/><br/>#Man
- vadiDays
+ /master/data/lunar_month/tithi/06/03#manvādiḥ-tāmasaḥ-[4]<br/><br/>#
+ ManvadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13932,15 +13946,15 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:द्वापरयुगादि
+SUMMARY:द्वापरयुगादिः
 DTSTART;VALUE=DATE:20190926
 DTEND;VALUE=DATE:20190927
 DESCRIPTION:Observed on Kṛṣṇa-Trayodaśī tithi of Bhādrapadaḥ (l
  unar) month (aparaahna/vyaapti).<br/>Perform समुद्रस्न
  ानम् and श्राद्धम्.<br/>### References<br/>* Vai
  dyanātha-Dīkṣitīyam<br/><br/><br/>https://github.com/sanskrit-coders/
- adyatithi/tree/master/data/lunar_month/tithi/06/28#dvāparayugādi<br/><br
- />#YugadiDays
+ adyatithi/tree/master/data/lunar_month/tithi/06/28#dvāparayugādiḥ<br/>
+ <br/>#YugadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -16368,13 +16382,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:कल्पादि
+SUMMARY:कल्पादिः
 DTSTART;VALUE=DATE:20191103
 DTEND;VALUE=DATE:20191104
 DESCRIPTION:Observed on Śukla-Saptamī tithi of Kārttikaḥ (lunar) mont
  h (aparaahna/vyaapti).<br/>Kalpadi<br/><br/>https://github.com/sanskrit-co
- ders/adyatithi/tree/master/data/lunar_month/tithi/08/07#kalpādi<br/><br/>
- #KalpadiDays
+ ders/adyatithi/tree/master/data/lunar_month/tithi/08/07#kalpādiḥ<br/><b
+ r/>#KalpadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -16619,14 +16633,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:मन्वादि (स्वायम्भुवः [१])
+SUMMARY:मन्वादिः (स्वायम्भुवः [१])
 DTSTART;VALUE=DATE:20191105
 DTEND;VALUE=DATE:20191106
 DESCRIPTION:Observed on Śukla-Navamī tithi of Kārttikaḥ (lunar) month
   (aparaahna/vyaapti).<br/><br/>### References<br/>* Vaidyanātha-Dīkṣit
  īyam<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/mast
- er/data/lunar_month/tithi/08/09#manvādi-svāyambhuvaḥ-[1]<br/><br/>#Man
- vadiDays
+ er/data/lunar_month/tithi/08/09#manvādiḥ-svāyambhuvaḥ-[1]<br/><br/>#
+ ManvadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -16676,14 +16690,15 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:त्रेतायुगादि
+SUMMARY:त्रेतायुगादिः
 DTSTART;VALUE=DATE:20191105
 DTEND;VALUE=DATE:20191106
 DESCRIPTION:Observed on Śukla-Navamī tithi of Kārttikaḥ (lunar) month
   (sangava/paraviddha).<br/>Perform समुद्रस्नानम्
   and श्राद्धम्.<br/>### References<br/>* Vaidyanātha-D
  īkṣitīyam<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/t
- ree/master/data/lunar_month/tithi/08/09#tretāyugādi<br/><br/>#YugadiDays
+ ree/master/data/lunar_month/tithi/08/09#tretāyugādiḥ<br/><br/>#YugadiD
+ ays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -16765,14 +16780,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:मन्वादि (स्वारोचिषः [२])
+SUMMARY:मन्वादिः (स्वारोचिषः [२])
 DTSTART;VALUE=DATE:20191108
 DTEND;VALUE=DATE:20191109
 DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Kārttikaḥ (lunar) mo
  nth (aparaahna/vyaapti).<br/><br/>### References<br/>* Vaidyanātha-Dīk
  ṣitīyam<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree
- /master/data/lunar_month/tithi/08/12#manvādi-svārochiṣaḥ-[2]<br/><br
- />#ManvadiDays
+ /master/data/lunar_month/tithi/08/12#manvādiḥ-svārochiṣaḥ-[2]<br/>
+ <br/>#ManvadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18466,13 +18481,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:कल्पादि
+SUMMARY:कल्पादिः
 DTSTART;VALUE=DATE:20191205
 DTEND;VALUE=DATE:20191206
 DESCRIPTION:Observed on Śukla-Navamī tithi of Mārgaśīrṣaḥ (lunar)
   month (aparaahna/vyaapti).<br/>Kalpadi<br/><br/>https://github.com/sanskr
- it-coders/adyatithi/tree/master/data/lunar_month/tithi/09/09#kalpādi<br/>
- <br/>#KalpadiDays
+ it-coders/adyatithi/tree/master/data/lunar_month/tithi/09/09#kalpādiḥ<b
+ r/><br/>#KalpadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18772,14 +18787,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:मन्वादि (धर्मः [११])
+SUMMARY:मन्वादिः (धर्मः [११])
 DTSTART;VALUE=DATE:20191211
 DTEND;VALUE=DATE:20191212
 DESCRIPTION:Observed on Paurṇamāsī tithi of Mārgaśīrṣaḥ (lunar)
   month (aparaahna/vyaapti).<br/><br/>### References<br/>* Vaidyanātha-Dī
  kṣitīyam<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tre
- e/master/data/lunar_month/tithi/09/15#manvādi-dharmaḥ-[11]<br/><br/>#Ma
- nvadiDays
+ e/master/data/lunar_month/tithi/09/15#manvādiḥ-dharmaḥ-[11]<br/><br/>
+ #ManvadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -19189,22 +19204,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:मकरायण-पुण्यकालः/मित्रो
- त्सवः
-DTSTART;VALUE=DATE:20191222
-DTEND;VALUE=DATE:20191223
-DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- other/sun-sankranti#makarāyaṇa-puṇyakālaḥ/mitrotsavaḥ<br/><br/>#
- SunSankranti
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:सर्व-सफला-एकादशी
 DTSTART;VALUE=DATE:20191222
 DTEND;VALUE=DATE:20191223
@@ -19229,6 +19228,20 @@ DESCRIPTION:Observed on Svātī nakṣhatram day of Dhanuḥ (solar) month
   (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-coders/ad
  yatithi/tree/master/data/solar_month/nakshatram/09/15#mānakkañchār̂a-n
  āyanār-11-gurupūjai<br/><br/>#NayanarGurupujai
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:उत्तरायण-पुण्यकालः/मित्
+ रोत्सवः
+DTSTART;VALUE=DATE:20191222
+DTEND;VALUE=DATE:20191223
+DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
