@@ -946,17 +946,6 @@ class Panchangam(common.JsonObject):
             tz_off = (datetime.utcoffset(local_time).days * 86400 +
                       datetime.utcoffset(local_time).seconds) / 3600.0
 
-            # What is the jd at 00:00 local time today?
-            # jd = self.jd_start - (tz_off / 24.0) + d - 1
-            # MAKARAYANAM
-            if self.solar_month[d] == 9 and self.solar_month_day[d] == 1:
-                makara_jd_start = brentq(jyotisha.zodiac.get_nirayana_sun_lon, self.jd_sunrise[d],
-                                         self.jd_sunrise[d] + 15, args=(-270, False))
-
-            if self.solar_month[d] == 9 and 3 < self.solar_month_day[d] < 10:
-                if self.jd_sunset[d] < makara_jd_start < self.jd_sunset[d + 1]:
-                    self.fest_days['makarAyaNa-puNyakAlaH/mitrOtsavaH'] = [d + 1]
-
             # NIRAYANA AYANAMS
             if self.solar_month_day[d] == 1:
                 ayana_jd_start = brentq(jyotisha.zodiac.get_nirayana_sun_lon, self.jd_sunrise[d],
@@ -966,6 +955,16 @@ class Panchangam(common.JsonObject):
                 fday_nirayana = swe.julday(_y, _m, _d, 0) - self.jd_start_utc + 1
                 self.festivals[int(fday_nirayana)].append('%s\\textsf{%s}{\\RIGHTarrow}\\textsf{%s}' % (
                     temporal.NAMES['NIRAYANA_NAMES'][self.script][self.solar_month[d]], '', ayana_time))
+                if self.solar_month[d] == 3:
+                    if self.jd_sunset[int(fday_nirayana)] < ayana_jd_start < self.jd_sunset[int(fday_nirayana) + 1]:
+                        self.festivals[int(fday_nirayana)].append('dakSiNAyana-puNyakAlaH')
+                    else:
+                        self.festivals[int(fday_nirayana) - 1].append('dakSiNAyana-puNyakAlaH')
+                if self.solar_month[d] == 9:
+                    if self.jd_sunset[int(fday_nirayana)] < ayana_jd_start < self.jd_sunset[int(fday_nirayana) + 1]:
+                        self.festivals[int(fday_nirayana) + 1].append('uttarAyaNa-puNyakAlaH/mitrOtsavaH')
+                    else:
+                        self.festivals[int(fday_nirayana)].append('uttarAyaNa-puNyakAlaH/mitrOtsavaH')
 
     def assign_month_day_festivals(self, debug_festivals=False):
         for d in range(1, self.duration + 1):
