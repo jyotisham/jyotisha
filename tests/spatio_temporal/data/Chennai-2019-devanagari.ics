@@ -9385,23 +9385,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:दधि-व्रतम् (महालक्ष्मी)
-DTSTART;VALUE=DATE:20190711
-DTEND;VALUE=DATE:20190712
-DESCRIPTION:Observed on Śukla-Daśamī tithi of Āṣāḍhaḥ (lunar) m
- onth (sunrise (default)/puurvaviddha (default)).<br/>Do danam of curd (but
-  do not consume\, on this day)<br/><br/>https://github.com/sanskrit-coders
- /adyatithi/tree/master/data/lunar_month/tithi/04/10#dadhi-vratam-mahālak
- ṣmī<br/><br/>#SpecialVratam
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:काञ्ची ४८ जगद्गुरु श्री 
  अद्वैतानन्दबोधेन्द्र सरस्
  वती आराधना #८२०
@@ -9461,43 +9444,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:शाक-व्रतम् (महालक्ष्मी)
-DTSTART;VALUE=DATE:20190711
-DTEND;VALUE=DATE:20190712
-DESCRIPTION:Observed on Śukla-Daśamī tithi of Āṣāḍhaḥ (lunar) m
- onth (sunrise (default)/puurvaviddha (default)).<br/>Do danam of leafy veg
- etables (but do not consume\, on this day)<br/><br/>https://github.com/san
- skrit-coders/adyatithi/tree/master/data/lunar_month/tithi/04/10#śāka-vra
- tam-mahālakṣmī<br/><br/>#SpecialVratam
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:शाकव्रत-आरम्भः
-DTSTART;VALUE=DATE:20190711
-DTEND;VALUE=DATE:20190712
-DESCRIPTION:Observed on Śukla-Daśamī tithi of Āṣāḍhaḥ (lunar) m
- onth (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>वास
- ुदेव शुचौ मासे शाकव्रतमनुत
- ्तमम्।<br/>त्वत्प्रीत्यर्थं 
- करिष्येऽहं निर्विघ्नं कुरु
-  माधव॥<br/><br/><br/><br/>https://github.com/sanskrit-coders/ady
- atithi/tree/master/data/lunar_month/tithi/04/10#śākavrata-ārambhaḥ<br
- /><br/>#VratamStart #SpecialPeriodStart #CommonFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:गोपद्म-व्रत-आरम्भः
 DTSTART;VALUE=DATE:20190712
 DTEND;VALUE=DATE:20190713
@@ -9525,15 +9471,15 @@ DTSTART;VALUE=DATE:20190712
 DTEND;VALUE=DATE:20190713
 DESCRIPTION:The Shukla-paksha Ekadashi of आषाढ month is known as 
  शयन-एकादशी. Lord Vishnu goes to sleep for four months be
- ginning today.<br/><br/>वासुदेव जगद्योने प
- ्राप्तेयं द्वादशी तव।<br/>भुज
- ङ्गशयनेऽब्धौ च सुखं स्वपिह
- ि माधव॥<br/>इयं तु द्वादशी देव 
- शयनार्थं विनिर्मित।<br/>अस्य
- ां सुप्ते जगन्नाथे जगत्सुप
- ्तं भवेदिदम्॥<br/>विबुद्धे त्
- वयि बुद्ध्येत सर्वमेतच्चरा
- चरम्॥<br/><br/><br/><br/>https://github.com/sanskrit-coders/adya
+ ginning today.<br/><br/>त्वयि सुप्ते जगन्न
+ ाथे जगत्सुप्तं भवेदिदम्॥<br/>
+ विबुद्धे त्वयि बुद्ध्येत स
+ र्वमेतच्चराचरम्॥<br/>वासुदेव
+  जगद्योने प्राप्तेयं द्वाद
+ शी तव।<br/>भुजङ्गशयनेऽब्धौ च स
+ ुखं स्वपिहि माधव॥<br/>इयं तु द
+ ्वादशी देव शयनार्थं विनिर्
+ मिता।<br/><br/><br/><br/>https://github.com/sanskrit-coders/adya
  tithi/tree/master/data/other/monthly-vratam/ekadashi-vratam#śayana-ekāda
  śī<br/><br/>#MonthlyVratam #EkadashiVratam
 TRANSP:TRANSPARENT
@@ -9604,6 +9550,26 @@ DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Āṣāḍhaḥ (lunar)
   month (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>https://g
  ithub.com/sanskrit-coders/adyatithi/tree/master/data/lunar_month/tithi/04/
  12#vāsudeva-dvādaśī<br/><br/>#SpecialVratam
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:शाकव्रत-आरम्भः
+DTSTART;VALUE=DATE:20190713
+DTEND;VALUE=DATE:20190714
+DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Āṣāḍhaḥ (lunar)
+  month (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>वास
+ ुदेव शुचौ मासे शाकव्रतमनुत
+ ्तमम्।<br/>त्वत्प्रीत्यर्थं 
+ करिष्येऽहं निर्विघ्नं कुरु
+  माधव॥<br/><br/><br/><br/>https://github.com/sanskrit-coders/ady
+ atithi/tree/master/data/lunar_month/tithi/04/12#śākavrata-ārambhaḥ<br
+ /><br/>#VratamStart #SpecialPeriodStart #CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11087,7 +11053,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:शाकव्रतम्
-DTSTART;VALUE=DATE:20190711
+DTSTART;VALUE=DATE:20190713
 DTEND;VALUE=DATE:20190813
 DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Śrāvaṇaḥ (lunar) 
  month (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>वास
@@ -11257,14 +11223,17 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:रक्षाबन्धन-पूर्णिमा
+SUMMARY:रक्षाबन्धनम्
 DTSTART;VALUE=DATE:20190815
 DTEND;VALUE=DATE:20190816
 DESCRIPTION:Observed on Paurṇamāsī tithi of Śrāvaṇaḥ (lunar) mon
  th (sunrise (default)/puurvaviddha (default)).<br/>Rakshabandhanam<br/><br
- />https://github.com/sanskrit-coders/adyatithi/tree/master/data/lunar_mont
- h/tithi/05/15#rakṣābandhana-pūrṇimā<br/><br/>#PurnimaDays #CommonFe
- stivals
+ />येन बद्धो बली राजा दानवेन्
+ द्रो महाबलः।<br/>तेन त्वामभिब
+ ध्नामि रक्षे मा चल मा चल॥<br/><br/
+ ><br/>### References<br/>* Dharma Sindhu 56<br/><br/><br/>https://github.c
+ om/sanskrit-coders/adyatithi/tree/master/data/lunar_month/tithi/05/15#rak
+ ṣābandhanam<br/><br/>#PurnimaDays #CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
