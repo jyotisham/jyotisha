@@ -68,9 +68,9 @@ class DailyPanchanga(common.JsonObject):
     def compute_sun_moon_transitions(self, previous_day_panchangam=None, force_recomputation=False):
         """
 
-        :param previous_day_panchangam: Panchangam for previous day, to avoid unnecessary calculations. (rise_trans calculations can be time consuming.) 
-        :param force_recomputation: Boolean indicating if the transitions should be recomputed. (rise_trans calculations can be time consuming.) 
-        :return: 
+        :param previous_day_panchangam: Panchangam for previous day, to avoid unnecessary calculations. (rise_trans calculations can be time consuming.)
+        :param force_recomputation: Boolean indicating if the transitions should be recomputed. (rise_trans calculations can be time consuming.)
+        :return:
         """
         if force_recomputation or self.jd_sunrise is None:
             if previous_day_panchangam is not None and previous_day_panchangam.jd_next_sunrise is not None:
@@ -306,6 +306,7 @@ class DailyPanchanga(common.JsonObject):
 
     def update_festival_details(self):
         pass
+
 
 # Essential for depickling to work.
 common.update_json_class_index(sys.modules[__name__])
