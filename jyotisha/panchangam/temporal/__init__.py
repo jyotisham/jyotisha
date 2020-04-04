@@ -2,7 +2,7 @@ import logging
 import swisseph as swe
 import sys
 import traceback
-from math import floor
+from math import floor, modf
 
 from sanskrit_data.schema import common
 from sanskrit_data.schema.common import JsonObject
@@ -63,11 +63,19 @@ class Time(JsonObject):
         else:
             raise(TypeError('Input to time class must be int or float!'))
 
-    def toString(self, default_suffix='', format='hh:mm'):
+    def toString(self, default_suffix='', format='hh:mm', rounding=False):
         if self.t < 0:
           logging.error('t<0! %s ' % self.t)
           logging.error(traceback.print_stack())
-        secs = round(self.t * 3600)  # round to nearest second
+
+        msec, secs = modf(self.t * 3600)
+        msec = round(msec * 1000)
+        if msec == 1000:
+          msec = 0
+          secs += 1
+
+        logging.debug([self.t, secs, round(self.t * 3600)])
+
         hour = secs // 3600
         secs = secs % 3600
 
@@ -80,14 +88,18 @@ class Time(JsonObject):
               hour -= 24
               suffix = '(+1)'  # Default notation for times > 23:59
 
-        minute = secs // 60  # Warning: This rounds down. 20:00:59 also becomes 20:00
+        minute = secs // 60
         secs = secs % 60
         second = secs
 
         if format in ('hh:mm', 'hh:mm*'):
-          return '%02d:%02d%s' % (hour, minute, suffix)
+          # Rounding done if 30 seconds have elapsed
+          return '%02d:%02d%s' % (hour, minute + ((secs + (msec >= 500)) >= 30) * rounding, suffix)
         elif format in ('hh:mm:ss', 'hh:mm:ss*'):
-          return '%02d:%02d:%02d%s' % (hour, minute, second, suffix)
+          # Rounding done if 500 milliseconds have elapsed
+          return '%02d:%02d:%02d%s' % (hour, minute, second + (msec >= 500) * rounding, suffix)
+        elif format in ('hh:mm:ss.sss', 'hh:mm:ss.sss*'):
+          return '%02d:%02d:%02d.%03d%s' % (hour, minute, second, msec, suffix)
         elif format == 'gg-pp':  # ghatika-pal
           secs = round(self.t * 3600)
           gg = secs // 1440
