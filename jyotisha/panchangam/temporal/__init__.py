@@ -74,8 +74,6 @@ class Time(JsonObject):
           msec = 0
           secs += 1
 
-        logging.debug([self.t, secs, round(self.t * 3600)])
-
         hour = secs // 3600
         secs = secs % 3600
 
