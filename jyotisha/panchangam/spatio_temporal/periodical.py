@@ -620,39 +620,19 @@ class Panchangam(common.JsonObject):
             # compute offset from UTC in hours
             # PRADOSHA Vratam
             pref = ''
-            if self.tithi_sunrise[d] == 12 or self.tithi_sunrise[d] == 13:
-                tithi_sunset = temporal.get_tithi(self.jd_sunset[d], ayanamsha_id=self.ayanamsha_id)
+            if self.tithi_sunrise[d] in (12, 13, 27, 28):
+                tithi_sunset = temporal.get_tithi(self.jd_sunset[d], ayanamsha_id=self.ayanamsha_id) % 15
                 tithi_sunset_tmrw = temporal.get_tithi(self.jd_sunset[d + 1],
-                                                       ayanamsha_id=self.ayanamsha_id)
+                                                       ayanamsha_id=self.ayanamsha_id) % 15
                 if tithi_sunset <= 13 and tithi_sunset_tmrw != 13:
-                    if self.weekday[d] == 1:
-                        pref = 'sOma-'
-                    elif self.weekday[d] == 6:
-                        pref = 'zani-'
-                    self.festivals[d].append(pref + 'pradOSa-vratam')
+                    fday = d
                 elif tithi_sunset_tmrw == 13:
-                    if self.weekday[d + 1] == 1:
-                        pref = 'sOma-'
-                    elif self.weekday[d + 1] == 6:
-                        pref = 'zani-'
-                    self.festivals[d + 1].append(pref + 'pradOSa-vratam')
-
-            if self.tithi_sunrise[d] == 27 or self.tithi_sunrise[d] == 28:
-                tithi_sunset = temporal.get_tithi(self.jd_sunset[d], ayanamsha_id=self.ayanamsha_id)
-                tithi_sunset_tmrw = temporal.get_tithi(self.jd_sunset[d + 1],
-                                                       ayanamsha_id=self.ayanamsha_id)
-                if tithi_sunset <= 28 and tithi_sunset_tmrw != 28:
-                    if self.weekday[d] == 1:
-                        pref = 'sOma-'
-                    elif self.weekday[d] == 6:
-                        pref = 'zani-'
-                    self.festivals[d].append(pref + 'pradOSa-vratam')
-                elif tithi_sunset_tmrw == 28:
-                    if self.weekday[d + 1] == 1:
-                        pref = 'sOma-'
-                    elif self.weekday[d + 1] == 6:
-                        pref = 'zani-'
-                    self.festivals[d + 1].append(pref + 'pradOSa-vratam')
+                    fday = d + 1
+                if self.weekday[fday] == 1:
+                    pref = 'sOma-'
+                elif self.weekday[fday] == 6:
+                    pref = 'zani-'
+                self.add_festival(pref + 'pradOSa-vratam', fday, debug_festivals)
 
     def assign_vishesha_trayodashi(self, debug_festivals=False):
         for d in range(1, self.duration + 1):
