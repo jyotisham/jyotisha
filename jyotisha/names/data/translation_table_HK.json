@@ -29,6 +29,9 @@
   "TITHI_NAMES": {
     "hk": ["zukla-prathamA", "zukla-dvitIyA", "zukla-tRtIyA", "zukla-caturthI", "zukla-paJcamI", "zukla-SaSThI", "zukla-saptamI", "zukla-aSTamI", "zukla-navamI", "zukla-dazamI", "zukla-EkAdazI", "zukla-dvAdazI", "zukla-trayOdazI", "zukla-caturdazI", "paurNamAsI", "kRSNa-prathamA", "kRSNa-dvitIyA", "kRSNa-tRtIyA", "kRSNa-caturthI", "kRSNa-paJcamI", "kRSNa-SaSThI", "kRSNa-saptamI", "kRSNa-aSTamI", "kRSNa-navamI", "kRSNa-dazamI", "kRSNa-EkAdazI", "kRSNa-dvAdazI", "kRSNa-trayOdazI", "kRSNa-caturdazI", "amAvAsyA"]
   },
+  "TITHI_NAMES_ABBR": {
+    "hk": ["zu-prathamA", "zu-dvitIyA", "zu-tRtIyA", "zu-caturthI", "zu-paJcamI", "zu-SaSThI", "zu-saptamI", "zu-aSTamI", "zu-navamI", "zu-dazamI", "zu-EkAdazI", "zu-dvAdazI", "zu-trayOdazI", "zu-caturdazI", "paurNamAsI", "kR-prathamA", "kR-dvitIyA", "kR-tRtIyA", "kR-caturthI", "kR-paJcamI", "kR-SaSThI", "kR-saptamI", "kR-aSTamI", "kR-navamI", "kR-dazamI", "kR-EkAdazI", "kR-dvAdazI", "kR-trayOdazI", "kR-caturdazI", "amAvAsyA"]
+  },
   "VARA_NAMES": {
     "hk": ["bhAnuH" , "induH" , "bhaumaH" , "saumyaH" , "guruH" , "bhRguH" , "sthiraH"]
   },
