@@ -7,6 +7,7 @@ import traceback
 from datetime import datetime
 from math import floor
 from typing import List
+from itertools import filterfalse
 
 from indic_transliteration import xsanscript as sanscript
 from pytz import timezone as tz
@@ -1395,6 +1396,35 @@ class Panchangam(common.JsonObject):
         for festival_name in self.fest_days:
             for j in range(0, len(self.fest_days[festival_name])):
                 self.festivals[self.fest_days[festival_name][j]].append(festival_name)
+
+    def filter_festivals(self, incl_tags=['CommonFestivals', 'MonthlyVratam', 'RareDays', 'AmavasyaDays', 'Dashavataram', 'SunSankranti']):
+        festival_rules_main = read_old_festival_rules_dict(os.path.join(CODE_ROOT, 'panchangam/temporal/festival/legacy/festival_rules.json'))
+        festival_rules_rel = read_old_festival_rules_dict(os.path.join(CODE_ROOT, 'panchangam/temporal/festival/legacy/relative_festival_rules.json'))
+        festival_rules_desc_only = read_old_festival_rules_dict(os.path.join(CODE_ROOT, 'panchangam/temporal/festival/legacy/festival_rules_desc_only.json'))
+
+        festival_rules = {**festival_rules_main, **festival_rules_rel, **festival_rules_desc_only}
+
+        for d in range(1, len(self.festivals)):
+            if len(self.festivals[d]) > 0:
+                # Eliminate repeat festivals on the same day, and keep the list arbitrarily sorted
+                self.festivals[d] = sorted(list(set(self.festivals[d])))
+
+                def chk_fest(fest_title):
+                    fest_num_loc = fest_title.find('~\#')
+                    if fest_num_loc != -1:
+                        fest_text_itle = fest_title[:fest_num_loc]
+                    else:
+                        fest_text_itle = fest_title
+                    if fest_text_itle in festival_rules:
+                        tag_list = (festival_rules[fest_text_itle]['tags'].split(','))
+                        if set(tag_list).isdisjoint(set(incl_tags)):
+                            return True
+                        else:
+                            return False
+                    else:
+                        return False
+
+                self.festivals[d][:] = filterfalse(chk_fest, self.festivals[d])
 
     def calc_nakshatra_tyajyam(self, debug_tyajyam=False):
         self.tyajyam_data = [[] for _x in range(self.duration + 1)]
