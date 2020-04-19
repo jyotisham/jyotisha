@@ -5619,6 +5619,21 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अग्निनक्षत्र-आरम्भः
+DTSTART;VALUE=DATE:20190505
+DTEND;VALUE=DATE:20190506
+DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
+ other/special-period-start#agninakṣatra-ārambhaḥ<br/><br/>#SpecialPer
+ iodStart
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:कृत्तिका-व्रतम्
 DTSTART;VALUE=DATE:20190505
 DTEND;VALUE=DATE:20190506
@@ -7061,6 +7076,36 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अग्निनक्षत्र-समापनम्
+DTSTART;VALUE=DATE:20190529
+DTEND;VALUE=DATE:20190530
+DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
+ other/special-period-end#agninakṣatra-samāpanam<br/><br/>#SpecialPeriod
+ End
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:अग्निनक्षत्रम्
+DTSTART;VALUE=DATE:20190505
+DTEND;VALUE=DATE:20190530
+DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
+ other/special-period-end#agninakṣatra-samāpanam<br/><br/>#SpecialPeriod
+ End
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:भद्रकाळी जयन्ती
 DTSTART;VALUE=DATE:20190530
 DTEND;VALUE=DATE:20190531
@@ -8364,8 +8409,8 @@ DTEND;VALUE=DATE:20190618
 DESCRIPTION:Observed on Paurṇamāsī tithi of Jyaiṣṭhaḥ (lunar) mo
  nth (sunrise (default)/puurvaviddha (default)).<br/>Danam of Padma Puranam
  <br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/master/data/lu
- nar_month/tithi/03/15#êruvaka-pūrṇimā<br/><br/>#PurnimaDays #LessComm
- onFestivals #DanamDays
+ nar_month/tithi/03/15#êruvaka-pūrṇimā<br/><br/>#LessCommonFestivals #
+ DanamDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8432,7 +8477,7 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of Jyaiṣṭhaḥ (lunar) mo
  nth (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>https://gith
  ub.com/sanskrit-coders/adyatithi/tree/master/data/lunar_month/tithi/03/15#
  veṅkaṭāchale-jyeṣṭha-abhidyeyakābhiṣekaḥ-svarṇa-kavacham<b
- r/><br/>#PurnimaDays #LessCommonFestivals #DanamDays
+ r/><br/>#LessCommonFestivals #DanamDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8612,14 +8657,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:எயர்கோன் கலிக்காம நாயனா
+SUMMARY:ஏயர்கோன் கலிக்காம நாயனா
  ர் (28) குருபூஜை
 DTSTART;VALUE=DATE:20190626
 DTEND;VALUE=DATE:20190627
 DESCRIPTION:Observed on Revatī nakṣhatram day of Mithunam (solar) month
   (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-coders/ad
- yatithi/tree/master/data/solar_month/nakshatram/03/27#êyarkon-kalikkāma-
- nāyanār-28-gurupūjai<br/><br/>#NayanarGurupujai
+ yatithi/tree/master/data/solar_month/nakshatram/03/27#eyarkon-kalikkāma-n
+ āyanār-28-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11188,7 +11233,7 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of Śrāvaṇaḥ (lunar) mon
  ध्नामि रक्षे मा चल मा चल॥<br/><br/
  ><br/>### References<br/>* Dharma Sindhu 56<br/><br/><br/>https://github.c
  om/sanskrit-coders/adyatithi/tree/master/data/lunar_month/tithi/05/15#rak
- ṣābandhanam<br/><br/>#PurnimaDays #CommonFestivals
+ ṣābandhanam<br/><br/>#CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
