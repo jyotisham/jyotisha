@@ -3744,8 +3744,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:काञ्ची जगद्गुरु श्री जये
- न्द्र सरस्वती पीठारोहण जयन
- ्ती #६६
+ न्द्र सरस्वती आश्रम-स्वीका
+ र-जयन्ती #६६
 DTSTART;VALUE=DATE:20190323
 DTEND;VALUE=DATE:20190324
 DESCRIPTION:Observed on Svātī nakṣhatram day of Mīnaḥ (solar) month
@@ -3756,8 +3756,8 @@ DESCRIPTION:Observed on Svātī nakṣhatram day of Mīnaḥ (solar) month
  ा सोमवासरः चित्रा उपरि स्वा
  ती नक्षत्रम्.<br/><br/>https://github.com/sanskrit-c
  oders/adyatithi/tree/master/data/solar_month/nakshatram/12/15#kāñchī-ja
- gadguru-śrī-jayendra-sarasvatī-pīṭhārohaṇa-jayantī<br/><br/>#Mah
- apurushaEvents #CommonFestivals
+ gadguru-śrī-jayendra-sarasvatī-āśrama-svīkāra-jayantī<br/><br/>#Ma
+ hapurushaEvents #CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5619,21 +5619,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:अग्निनक्षत्र-आरम्भः
-DTSTART;VALUE=DATE:20190505
-DTEND;VALUE=DATE:20190506
-DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- other/special-period-start#agninakṣatra-ārambhaḥ<br/><br/>#SpecialPer
- iodStart
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:कृत्तिका-व्रतम्
 DTSTART;VALUE=DATE:20190505
 DTEND;VALUE=DATE:20190506
@@ -6790,8 +6775,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:काञ्ची जगद्गुरु श्री शङ्
- कर विजयेन्द्र सरस्वती पीठा
- रोहण जयन्ती #३७
+ कर विजयेन्द्र सरस्वती आश्र
+ म-स्वीकार-जयन्ती #३७
 DTSTART;VALUE=DATE:20190521
 DTEND;VALUE=DATE:20190522
 DESCRIPTION:Observed on Mūlā nakṣhatram day of Vṛṣabhaḥ (solar) 
@@ -6802,8 +6787,8 @@ DESCRIPTION:Observed on Mūlā nakṣhatram day of Vṛṣabhaḥ (solar)
  ास कृष्ण तृतीया भानुवासरः म
  ूला नक्षत्रम्.<br/><br/>https://github.com/sanskri
  t-coders/adyatithi/tree/master/data/solar_month/nakshatram/02/19#kāñchī
- -jagadguru-śrī-śaṅkara-vijayendra-sarasvatī-pīṭhārohaṇa-jayant
- ī<br/><br/>#MahapurushaEvents #CommonFestivals
+ -jagadguru-śrī-śaṅkara-vijayendra-sarasvatī-āśrama-svīkāra-jayan
+ tī<br/><br/>#MahapurushaEvents #CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -7067,36 +7052,6 @@ DESCRIPTION:A rare combination of आयुष्मान् योग\,
   Maha Periva / Deivattin Kural<br/><br/><br/>https://github.com/sanskrit-c
  oders/adyatithi/tree/master/data/other/rare-days/combinations#āyuṣmān-
  bava-saumya<br/><br/>#RareDays #Combinations
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:अग्निनक्षत्र-समापनम्
-DTSTART;VALUE=DATE:20190529
-DTEND;VALUE=DATE:20190530
-DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- other/special-period-end#agninakṣatra-samāpanam<br/><br/>#SpecialPeriod
- End
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:अग्निनक्षत्रम्
-DTSTART;VALUE=DATE:20190505
-DTEND;VALUE=DATE:20190530
-DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- other/special-period-end#agninakṣatra-samāpanam<br/><br/>#SpecialPeriod
- End
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
