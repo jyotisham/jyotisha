@@ -17861,7 +17861,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:स्मार्त-उत्पन्ना-एकादशी 
- (सन्न्यस्त)
+ (सन्न्यस्थ)
 DTSTART;VALUE=DATE:20191123
 DTEND;VALUE=DATE:20191124
 DESCRIPTION:The Krishna-paksha Ekadashi of कार्त्तिक mon

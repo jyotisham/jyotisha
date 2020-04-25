@@ -252,8 +252,8 @@ def writeDailyTeX(panchangam, template_file, compute_lagnams=True, output_stream
 
         # Assign samvatsara, ayana, rtu #
         sar_data = '{%s}{%s}{%s}' % (yname,
-                                     jyotisha.panchangam.temporal.NAMES['AYANA_NAMES'][panchangam.script][panchangam.solar_month[d]],
-                                     jyotisha.panchangam.temporal.NAMES['RTU_NAMES'][panchangam.script][panchangam.solar_month[d]])
+                                     jyotisha.panchangam.temporal.NAMES['AYANA_NAMES'][panchangam.script][panchangam.tropical_month[d]],
+                                     jyotisha.panchangam.temporal.NAMES['RTU_NAMES'][panchangam.script][panchangam.tropical_month[d]])
 
         if panchangam.solar_month_end_time[d] is None:
             month_end_str = ''

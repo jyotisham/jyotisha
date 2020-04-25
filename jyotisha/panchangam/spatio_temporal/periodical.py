@@ -68,6 +68,8 @@ class Panchangam(common.JsonObject):
         self.solar_month = [None] * nDays
         self.solar_month_end_time = [None] * nDays
         self.solar_month_day = [None] * nDays
+        self.tropical_month = [None] * nDays
+        self.tropical_month_end_time = [None] * nDays
 
         solar_month_sunrise = [None] * nDays
 
@@ -918,7 +920,9 @@ class Panchangam(common.JsonObject):
                         self.add_festival(nwd_fest_name, d, debug_festivals)
 
     def assign_ayanam(self, debug_festivals=False):
+        last_d_assigned = 0
         for d in range(1, self.duration + 1):
+
             [y, m, dt, t] = swe.revjul(self.jd_start_utc + d - 1)
 
             # checking @ 6am local - can we do any better?
@@ -927,25 +931,36 @@ class Panchangam(common.JsonObject):
             tz_off = (datetime.utcoffset(local_time).days * 86400 +
                       datetime.utcoffset(local_time).seconds) / 3600.0
 
-            # NIRAYANA AYANAMS
+            # TROPICAL AYANAMS
             if self.solar_month_day[d] == 1:
                 ayana_jd_start = brentq(jyotisha.zodiac.get_nirayana_sun_lon, self.jd_sunrise[d],
                                         self.jd_sunrise[d] + 15, args=(-30 * self.solar_month[d], False))
                 [_y, _m, _d, _t] = swe.revjul(ayana_jd_start + (tz_off / 24.0))
-                ayana_time = temporal.Time(swe.revjul(ayana_jd_start + (tz_off / 24.0))[3]).toString(format=self.fmt)
-                fday_nirayana = swe.julday(_y, _m, _d, 0) - self.jd_start_utc + 1
-                self.festivals[int(fday_nirayana)].append('%s\\textsf{%s}{\\RIGHTarrow}\\textsf{%s}' % (
-                    temporal.NAMES['NIRAYANA_NAMES'][self.script][self.solar_month[d]], '', ayana_time))
+                # Reduce fday by 1 if ayana time precedes sunrise and change increment _t by 24
+                fday_nirayana = int(swe.julday(_y, _m, _d, 0) - self.jd_start_utc + 1)
+                if ayana_jd_start < self.jd_sunrise[fday_nirayana]:
+                    fday_nirayana -= 1
+                    _t += 24
+                ayana_time = temporal.Time(_t).toString(format=self.fmt)
+
+                self.festivals[fday_nirayana].append('%s\\textsf{%s}{\\RIGHTarrow}\\textsf{%s}' % (
+                    temporal.NAMES['RTU_MASA_NAMES'][self.script][self.solar_month[d]], '', ayana_time))
+                self.tropical_month_end_time[fday_nirayana] = ayana_jd_start
+                for i in range(last_d_assigned + 1, fday_nirayana + 1):
+                    self.tropical_month[i] = self.solar_month[d]
+                last_d_assigned = fday_nirayana
                 if self.solar_month[d] == 3:
-                    if self.jd_sunset[int(fday_nirayana)] < ayana_jd_start < self.jd_sunset[int(fday_nirayana) + 1]:
-                        self.festivals[int(fday_nirayana)].append('dakSiNAyana-puNyakAlaH')
+                    if self.jd_sunset[fday_nirayana] < ayana_jd_start < self.jd_sunset[fday_nirayana + 1]:
+                        self.festivals[fday_nirayana].append('dakSiNAyana-puNyakAlaH')
                     else:
-                        self.festivals[int(fday_nirayana) - 1].append('dakSiNAyana-puNyakAlaH')
+                        self.festivals[fday_nirayana - 1].append('dakSiNAyana-puNyakAlaH')
                 if self.solar_month[d] == 9:
-                    if self.jd_sunset[int(fday_nirayana)] < ayana_jd_start < self.jd_sunset[int(fday_nirayana) + 1]:
-                        self.festivals[int(fday_nirayana) + 1].append('uttarAyaNa-puNyakAlaH/mitrOtsavaH')
+                    if self.jd_sunset[fday_nirayana] < ayana_jd_start < self.jd_sunset[fday_nirayana + 1]:
+                        self.festivals[fday_nirayana + 1].append('uttarAyaNa-puNyakAlaH/mitrOtsavaH')
                     else:
-                        self.festivals[int(fday_nirayana)].append('uttarAyaNa-puNyakAlaH/mitrOtsavaH')
+                        self.festivals[fday_nirayana].append('uttarAyaNa-puNyakAlaH/mitrOtsavaH')
+        for i in range(last_d_assigned + 1, self.duration + 1):
+            self.tropical_month[i] = (self.solar_month[last_d_assigned] % 12) + 1
 
     def assign_month_day_festivals(self, debug_festivals=False):
         for d in range(1, self.duration + 1):
