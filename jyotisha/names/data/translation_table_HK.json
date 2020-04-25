@@ -44,10 +44,10 @@
   "AYANA_NAMES": {
     "hk": ["uttarAyaNam", "uttarAyaNam", "uttarAyaNam", "dakSiNAyanam", "dakSiNAyanam", "dakSiNAyanam", "dakSiNAyanam", "dakSiNAyanam", "dakSiNAyanam", "uttarAyaNam", "uttarAyaNam", "uttarAyaNam"]
   },
-  "NIRAYANA_NAMES": {
-    "hk": ["mESAyanam", "vRSabhAyanam", "mithunAyanam", "kaTakAyanam", "siMhAyanam", "kanyAyanam", "tulAyanam", "vRzcikAyanam", "dhanurayaNam", "makarAyaNam", "kumbhAyanam", "mInAyanam"]
+  "RTU_MASA_NAMES": {
+    "hk": ["madhu-mAsaH", "mAdhava-mAsaH/vasantaRtuH", "zukra-mAsaH/uttarAyaNam", "zuci-mAsaH/grISmaRtuH", "nabhO-mAsaH", "nabhasya-mAsaH/varSARtuH", "iSa-mAsaH", "Urja-mAsaH/zaradRtuH", "sahO-mAsaH/dakSiNAyanam", "sahasya-mAsaH/hEmantaRtuH", "tapO-mAsaH", "tapasya-mAsaH/ziziraRtuH"]
   },
   "RTU_NAMES": {
-    "hk": ["vasanta-RtuH", "vasanta-RtuH", "grISma-RtuH", "grISma-RtuH", "varSa-RtuH", "varSa-RtuH", "zarad-RtuH", "zarad-RtuH", "hEmanta-RtuH", "hEmanta-RtuH", "zizira-RtuH", "zizira-RtuH"]
+    "hk": ["vasantaRtuH", "vasantaRtuH", "grISmaRtuH", "grISmaRtuH", "varSARtuH", "varSARtuH", "zaradRtuH", "zaradRtuH", "hEmantaRtuH", "hEmantaRtuH", "ziziraRtuH", "ziziraRtuH"]
   }
 }
