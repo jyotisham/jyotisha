@@ -938,6 +938,8 @@ class Panchangam(common.JsonObject):
                 [_y, _m, _d, _t] = swe.revjul(ayana_jd_start + (tz_off / 24.0))
                 # Reduce fday by 1 if ayana time precedes sunrise and change increment _t by 24
                 fday_nirayana = int(swe.julday(_y, _m, _d, 0) - self.jd_start_utc + 1)
+                if fday_nirayana > self.duration:
+                    continue
                 if ayana_jd_start < self.jd_sunrise[fday_nirayana]:
                     fday_nirayana -= 1
                     _t += 24
