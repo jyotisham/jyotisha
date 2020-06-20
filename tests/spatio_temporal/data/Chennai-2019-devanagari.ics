@@ -16,15 +16,10 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:बुधानूराधा-पुण्यकालः
+SUMMARY:बुधानुराधा-पुण्यकालः
 DTSTART;VALUE=DATE:20190102
 DTEND;VALUE=DATE:20190103
-DESCRIPTION:When अनूराधा nakshatram falls on a Wednesday\, i
- t is a special पुण्यकालः for performing दानम्.
-  One can do दानं of दध्योदनम् in Vishnu temples 
- on this day.<br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/ma
- ster/data/other/rare-days/combinations#budhānūrādhā-puṇyakālaḥ<br
- /><br/>#RareDays #Combinations
+DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1199,15 +1194,10 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:बुधानूराधा-पुण्यकालः
+SUMMARY:बुधानुराधा-पुण्यकालः
 DTSTART;VALUE=DATE:20190130
 DTEND;VALUE=DATE:20190131
-DESCRIPTION:When अनूराधा nakshatram falls on a Wednesday\, i
- t is a special पुण्यकालः for performing दानम्.
-  One can do दानं of दध्योदनम् in Vishnu temples 
- on this day.<br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/ma
- ster/data/other/rare-days/combinations#budhānūrādhā-puṇyakālaḥ<br
- /><br/>#RareDays #Combinations
+DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2171,6 +2161,22 @@ DTEND;VALUE=DATE:20190218
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
  other/monthly-vratam/pradosha-vratam#pradoṣa-vratam<br/><br/>#MonthlyVra
  tam #PradoshaVratam
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:रविपुष्ययोग-पुण्यकालः
+DTSTART;VALUE=DATE:20190217
+DTEND;VALUE=DATE:20190218
+DESCRIPTION:When Pushya nakshatram falls on a Sunday\, it is a special प
+ ुण्यकालः.<br/><br/>https://github.com/sanskrit-coders/adya
+ tithi/tree/master/data/other/rare-days/combinations#ravipuṣyayoga-puṇy
+ akālaḥ<br/><br/>#RareDays #Combinations
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8788,6 +8794,19 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:सोममृगशीर्ष-पुण्यकालः
+DTSTART;VALUE=DATE:20190701
+DTEND;VALUE=DATE:20190702
+DESCRIPTION:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:भोगशायि-पूजा
 DTSTART;VALUE=DATE:20190702
 DTEND;VALUE=DATE:20190703
@@ -8795,6 +8814,19 @@ DESCRIPTION:Observed on Amāvāsyā tithi of Jyaiṣṭhaḥ (lunar) month
   (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>https://github.
  com/sanskrit-coders/adyatithi/tree/master/data/lunar_month/tithi/03/30#bho
  gaśāyi-pūjā<br/><br/>#SpecialPuja
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:भौमार्द्रा-पुण्यकालः
+DTSTART;VALUE=DATE:20190702
+DTEND;VALUE=DATE:20190703
+DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10135,6 +10167,32 @@ DTEND;VALUE=DATE:20190730
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
  other/monthly-vratam/pradosha-vratam#soma-pradoṣa-vratam<br/><br/>#Month
  lyVratam #PradoshaVratam
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:सोममृगशीर्ष-पुण्यकालः
+DTSTART;VALUE=DATE:20190729
+DTEND;VALUE=DATE:20190730
+DESCRIPTION:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:भौमार्द्रा-पुण्यकालः
+DTSTART;VALUE=DATE:20190730
+DTEND;VALUE=DATE:20190731
+DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -14314,15 +14372,10 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:बुधानूराधा-पुण्यकालः
+SUMMARY:बुधानुराधा-पुण्यकालः
 DTSTART;VALUE=DATE:20191002
 DTEND;VALUE=DATE:20191003
-DESCRIPTION:When अनूराधा nakshatram falls on a Wednesday\, i
- t is a special पुण्यकालः for performing दानम्.
-  One can do दानं of दध्योदनम् in Vishnu temples 
- on this day.<br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/ma
- ster/data/other/rare-days/combinations#budhānūrādhā-puṇyakālaḥ<br
- /><br/>#RareDays #Combinations
+DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -14586,6 +14639,23 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:मन्वादिः (स्वायम्भुवः [१])
+DTSTART;VALUE=DATE:20191006
+DTEND;VALUE=DATE:20191007
+DESCRIPTION:Observed on Śukla-Navamī tithi of Āśvayujaḥ (lunar) mont
+ h (aparaahna/vyaapti).<br/><br/>### References<br/>* Vaidyanātha-Dīkṣi
+ tīyam<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/mas
+ ter/data/lunar_month/tithi/07/09#manvādiḥ-svāyambhuvaḥ-[1]<br/><br/>
+ #ManvadiDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:भद्रकाळी-व्रतम्
 DTSTART;VALUE=DATE:20191007
 DTEND;VALUE=DATE:20191008
@@ -14627,6 +14697,22 @@ DESCRIPTION:Observed on Śukla-Navamī tithi of Āśvayujaḥ (lunar) mont
  \, Shourya-Vratam\, Mahaaphala Vratam\, PradeeptaNavami<br/><br/>https://g
  ithub.com/sanskrit-coders/adyatithi/tree/master/data/lunar_month/tithi/07/
  09#mahānavamī/sarasvatī-pūjā<br/><br/>#CommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:सोमश्रावणी-पुण्यकालः
+DTSTART;VALUE=DATE:20191007
+DTEND;VALUE=DATE:20191008
+DESCRIPTION:When Shravana nakshatram falls on a Monday\, it is a special 
+ पुण्यकालः.<br/><br/>https://github.com/sanskrit-coders/a
+ dyatithi/tree/master/data/other/rare-days/combinations#somaśrāvaṇī-pu
+ ṇyakālaḥ<br/><br/>#RareDays #Combinations
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -16223,15 +16309,10 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:बुधानूराधा-पुण्यकालः
+SUMMARY:बुधानुराधा-पुण्यकालः
 DTSTART;VALUE=DATE:20191030
 DTEND;VALUE=DATE:20191031
-DESCRIPTION:When अनूराधा nakshatram falls on a Wednesday\, i
- t is a special पुण्यकालः for performing दानम्.
-  One can do दानं of दध्योदनम् in Vishnu temples 
- on this day.<br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/ma
- ster/data/other/rare-days/combinations#budhānūrādhā-puṇyakālaḥ<br
- /><br/>#RareDays #Combinations
+DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -16593,23 +16674,6 @@ DESCRIPTION:Observed on Śukla-Navamī tithi of Kārttikaḥ (lunar) month
  br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/master/dat
  a/lunar_month/tithi/08/09#kāñchī-22-jagadguru-śrī-paripūrṇabodhend
  ra-sarasvatī-ārādhanā<br/><br/>#KanchiAradhanaDays
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:मन्वादिः (स्वायम्भुवः [१])
-DTSTART;VALUE=DATE:20191105
-DTEND;VALUE=DATE:20191106
-DESCRIPTION:Observed on Śukla-Navamī tithi of Kārttikaḥ (lunar) month
-  (aparaahna/vyaapti).<br/><br/>### References<br/>* Vaidyanātha-Dīkṣit
- īyam<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/mast
- er/data/lunar_month/tithi/08/09#manvādiḥ-svāyambhuvaḥ-[1]<br/><br/>#
- ManvadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17216,6 +17280,23 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of Tulā (solar) month (sunse
  t/puurvaviddha).<br/><br/><br/>https://github.com/sanskrit-coders/adyatith
  i/tree/master/data/solar_month/tithi/07/15#mahā-annābhiṣekaḥ<br/><br
  />#TamilnaduTempleFestivals #CommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:मन्वादिः (धर्मः [११])
+DTSTART;VALUE=DATE:20191112
+DTEND;VALUE=DATE:20191113
+DESCRIPTION:Observed on Paurṇamāsī tithi of Kārttikaḥ (lunar) month
+  (aparaahna/vyaapti).<br/><br/>### References<br/>* Vaidyanātha-Dīkṣit
+ īyam<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/mast
+ er/data/lunar_month/tithi/08/15#manvādiḥ-dharmaḥ-[11]<br/><br/>#Manva
+ diDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18122,15 +18203,10 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:बुधानूराधा-पुण्यकालः
+SUMMARY:बुधानुराधा-पुण्यकालः
 DTSTART;VALUE=DATE:20191127
 DTEND;VALUE=DATE:20191128
-DESCRIPTION:When अनूराधा nakshatram falls on a Wednesday\, i
- t is a special पुण्यकालः for performing दानम्.
-  One can do दानं of दध्योदनम् in Vishnu temples 
- on this day.<br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/ma
- ster/data/other/rare-days/combinations#budhānūrādhā-puṇyakālaḥ<br
- /><br/>#RareDays #Combinations
+DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18747,23 +18823,6 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of Mārgaśīrṣaḥ (lunar)
  <br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/master/da
  ta/lunar_month/tithi/09/15#dattātreya-jayantī<br/><br/>#OtherAvatarams #
  CommonFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:मन्वादिः (धर्मः [११])
-DTSTART;VALUE=DATE:20191211
-DTEND;VALUE=DATE:20191212
-DESCRIPTION:Observed on Paurṇamāsī tithi of Mārgaśīrṣaḥ (lunar)
-  month (aparaahna/vyaapti).<br/><br/>### References<br/>* Vaidyanātha-Dī
- kṣitīyam<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tre
- e/master/data/lunar_month/tithi/09/15#manvādiḥ-dharmaḥ-[11]<br/><br/>
- #ManvadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
