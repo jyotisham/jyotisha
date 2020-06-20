@@ -289,6 +289,14 @@ class Panchangam(common.JsonObject):
                                (jd_sunrise_datmrw - jd_sunset_tmrw) * (7.0 / 15.0), ayanamsha_id=self.ayanamsha_id),
                 get_angam_func(jd_sunset_tmrw +
                                (jd_sunrise_datmrw - jd_sunset_tmrw) * (8.0 / 15.0), ayanamsha_id=self.ayanamsha_id)]
+        elif kaala_type == 'dinamaana':
+            angams = [
+                get_angam_func(jd_sunrise + (jd_sunset - jd_sunrise) * (0.0 / 5.0), ayanamsha_id=self.ayanamsha_id),
+                get_angam_func(jd_sunrise + (jd_sunset - jd_sunrise) * (5.0 / 5.0), ayanamsha_id=self.ayanamsha_id),
+                get_angam_func(jd_sunrise_tmrw +
+                               (jd_sunset_tmrw - jd_sunrise_tmrw) * (0.0 / 5.0), ayanamsha_id=self.ayanamsha_id),
+                get_angam_func(jd_sunrise_tmrw + (jd_sunset_tmrw -
+                                                  jd_sunrise_tmrw) * (5.0 / 5.0), ayanamsha_id=self.ayanamsha_id)]
         elif kaala_type == 'raatrimaana':
             angams = [
                 get_angam_func(jd_sunset + (jd_sunrise_tmrw - jd_sunset) * (0.0 / 15.0),
@@ -906,8 +914,10 @@ class Panchangam(common.JsonObject):
             for (nwd_fest_n, nwd_fest_wd, nwd_fest_name) in ((13, 0, 'Adityahasta-puNyakAlaH'),
                                                              (8, 0, 'ravipuSyayOga-puNyakAlaH'),
                                                              (22, 1, 'sOmazrAvaNI-puNyakAlaH'),
+                                                             (5, 1, 'sOmamRgazIrSa-puNyakAlaH'),
                                                              (1, 2, 'bhaumAzvinI-puNyakAlaH'),
-                                                             (17, 3, 'budhAnUrAdhA-puNyakAlaH'),
+                                                             (6, 2, 'bhaumArdrA-puNyakAlaH'),
+                                                             (17, 3, 'budhAnurAdhA-puNyakAlaH'),
                                                              (8, 4, 'gurupuSya-puNyakAlaH'),
                                                              (27, 5, 'bhRgurEvatI-puNyakAlaH'),
                                                              (4, 6, 'zanirOhiNI-puNyakAlaH'),
@@ -915,7 +925,7 @@ class Panchangam(common.JsonObject):
                 n_prev = ((nwd_fest_n - 2) % 27) + 1
                 if (self.nakshatram_sunrise[d] == nwd_fest_n or self.nakshatram_sunrise[d] == n_prev) and self.weekday[d] == nwd_fest_wd:
                     # Is it necessarily only at sunrise?
-                    angams = self.get_angams_for_kaalas(d, temporal.get_nakshatram, 'madhyaahna')
+                    angams = self.get_angams_for_kaalas(d, temporal.get_nakshatram, 'dinamaana')
                     if any(x == nwd_fest_n for x in [self.nakshatram_sunrise[d], angams[0], angams[1]]):
                         self.add_festival(nwd_fest_name, d, debug_festivals)
 
