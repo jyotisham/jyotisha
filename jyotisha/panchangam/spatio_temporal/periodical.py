@@ -1971,11 +1971,15 @@ def get_panchangam(city, start_date, end_date, script, fmt='hh:mm', compute_lagn
 
     if os.path.isfile(fname) and not compute_lagnams:
         sys.stderr.write('Loaded pre-computed panchangam from %s.\n' % fname)
-        return JsonObject.read_from_file(filename=fname)
+        p = JsonObject.read_from_file(filename=fname)
+        p.script = script  # Need to force script, in case saved file script is different
+        return p
     elif os.path.isfile(fname_det):
         # Load pickle, do not compute!
         sys.stderr.write('Loaded pre-computed panchangam from %s.\n' % fname)
-        return JsonObject.read_from_file(filename=fname_det)
+        p = JsonObject.read_from_file(filename=fname_det)
+        p.script = script  # Need to force script, in case saved file script is different
+        return p
     else:
         sys.stderr.write('No precomputed data available. Computing panchangam...\n')
         panchangam = Panchangam(city=city, start_date=start_date, end_date=end_date, script=script, fmt=fmt, compute_lagnams=compute_lagnams, ayanamsha_id=ayanamsha_id)
