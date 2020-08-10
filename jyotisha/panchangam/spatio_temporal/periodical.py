@@ -1021,23 +1021,6 @@ class Panchangam(common.JsonObject):
                                       ayanamsha_id=self.ayanamsha_id) in list(range(2, 52, 7)):
                     self.add_festival('AyuSmAn-bava-saumya', d, debug_festivals)
 
-    def assign_vishesha_vyatipata(self, debug_festivals=False):
-        for d in range(1, self.duration + 1):
-            [y, m, dt, t] = swe.revjul(self.jd_start_utc + d - 1)
-
-            # VYATIPATAM
-            if temporal.get_yoga(self.jd_sunrise[d], ayanamsha_id=self.ayanamsha_id) == 17 and \
-                    self.solar_month[d] in [6, 9]:
-                yogas_yest = self.get_angams_for_kaalas(d - 1, temporal.get_yoga, 'madhyaahna')
-                if self.solar_month[d] == 9:
-                    festival_name = 'mahAdhanurvyatIpAtam'
-                elif self.solar_month[d] == 6:
-                    festival_name = 'mahAvyatIpAtam'
-                if yogas_yest[0] == 17 or yogas_yest[1] == 17:
-                    self.add_festival(festival_name, d - 1, debug_festivals)
-                else:
-                    self.add_festival(festival_name, d, debug_festivals)
-
     def assign_festivals_from_rules(self, festival_rules, debug_festivals=False):
         for d in range(1, self.duration + 1):
             [y, m, dt, t] = swe.revjul(self.jd_start_utc + d - 1)
@@ -1285,6 +1268,18 @@ class Panchangam(common.JsonObject):
                                 else:
                                     logging.warning('Not adding festival %s on %d fday (month = %d instead of %d)' % (festival_name, fday, self.lunar_month[fday], month_num))
 
+    def assign_vishesha_vyatipata(self, debug_festivals=False):
+        vs_list = self.fest_days['vyatIpAta-zrAddham']
+        for d in vs_list:
+            if self.solar_month[d] == 9:
+                self.fest_days['vyatIpAta-zrAddham'].remove(d)
+                festival_name = 'mahAdhanurvyatIpAta-zrAddham'
+                self.add_festival(festival_name, d, debug_festivals)
+            elif self.solar_month[d] == 6:
+                self.fest_days['vyatIpAta-zrAddham'].remove(d)
+                festival_name = 'mahAvyatIpAta-zrAddham'
+                self.add_festival(festival_name, d, debug_festivals)
+
     def assign_festival_numbers(self, festival_rules, debug_festivals=False):
         # Update festival numbers if they exist
         solar_y_start_d = []
@@ -1373,13 +1368,13 @@ class Panchangam(common.JsonObject):
         self.assign_ayanam(debug_festivals=debug_festivals)
         self.assign_month_day_festivals(debug_festivals=debug_festivals)
         self.assign_ayushman_bava_saumya_yoga(debug_festivals=debug_festivals)
-        self.assign_vishesha_vyatipata(debug_festivals=debug_festivals)
 
         # ASSIGN ALL FESTIVALS FROM adyatithi submodule
         # festival_rules = read_old_festival_rules_dict(os.path.join(CODE_ROOT, 'panchangam/data/festival_rules_test.json'))
         festival_rules = read_old_festival_rules_dict(os.path.join(CODE_ROOT, 'panchangam/temporal/festival/legacy/festival_rules.json'))
         assert "tripurOtsavaH" in festival_rules
         self.assign_festivals_from_rules(festival_rules, debug_festivals=debug_festivals)
+        self.assign_vishesha_vyatipata(debug_festivals=debug_festivals)
         self.assign_festival_numbers(festival_rules, debug_festivals=debug_festivals)
         self.assign_amavasya_yoga(debug_festivals=debug_festivals)
         self.cleanup_festivals(debug_festivals=debug_festivals)
