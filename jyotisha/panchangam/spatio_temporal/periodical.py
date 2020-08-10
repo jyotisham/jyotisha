@@ -350,7 +350,8 @@ class Panchangam(common.JsonObject):
                 tithi_sunset = temporal.get_tithi(self.jd_sunset[d], ayanamsha_id=self.ayanamsha_id)
                 tithi_sunset_tmrw = temporal.get_tithi(self.jd_sunset[d + 1],
                                                        ayanamsha_id=self.ayanamsha_id)
-                if tithi_sunset <= 2 and tithi_sunset_tmrw != 2:
+                # if tithi_sunset <= 2 and tithi_sunset_tmrw != 2:
+                if tithi_sunset <= 2:
                     if tithi_sunset == 1:
                         self.festivals[d + 1].append('candra-darzanam')
                     else:
@@ -364,12 +365,9 @@ class Panchangam(common.JsonObject):
 
             # SANKATAHARA chaturthi
             if self.tithi_sunrise[d] == 18 or self.tithi_sunrise[d] == 19:
-                ldiff_moonrise_yest = (swe.calc_ut(self.jd_moonrise[d - 1], swe.MOON)[0] -
-                                       swe.calc_ut(self.jd_moonrise[d - 1], swe.SUN)[0]) % 360
-                ldiff_moonrise = (swe.calc_ut(self.jd_moonrise[d], swe.MOON)[0] -
-                                  swe.calc_ut(self.jd_moonrise[d], swe.SUN)[0]) % 360
-                ldiff_moonrise_tmrw = (swe.calc_ut(self.jd_moonrise[d + 1], swe.MOON)[0] -
-                                       swe.calc_ut(self.jd_moonrise[d + 1], swe.SUN)[0]) % 360
+                ldiff_moonrise_yest = (swe.calc_ut(self.jd_moonrise[d - 1], swe.MOON)[0] - swe.calc_ut(self.jd_moonrise[d - 1], swe.SUN)[0]) % 360
+                ldiff_moonrise = (swe.calc_ut(self.jd_moonrise[d], swe.MOON)[0] - swe.calc_ut(self.jd_moonrise[d], swe.SUN)[0]) % 360
+                ldiff_moonrise_tmrw = (swe.calc_ut(self.jd_moonrise[d + 1], swe.MOON)[0] - swe.calc_ut(self.jd_moonrise[d + 1], swe.SUN)[0]) % 360
                 tithi_moonrise_yest = int(1 + floor(ldiff_moonrise_yest / 12.0))
                 tithi_moonrise = int(1 + floor(ldiff_moonrise / 12.0))
                 tithi_moonrise_tmrw = int(1 + floor(ldiff_moonrise_tmrw / 12.0))
@@ -398,12 +396,13 @@ class Panchangam(common.JsonObject):
                 else:
                     if tithi_moonrise_yest != 19:
                         if tithi_moonrise == 18 and tithi_moonrise_tmrw == 20:
-                            chaturthi_name = '%s%s' % ('aGgArakI~' if self.weekday[d] == 2 else '', chaturthi_name)
-                            self.festivals[d].append(chaturthi_name + 'saGkaTahara-caturthI-vratam')
+                            # No vyApti on either day -- pick parA, i.e. next day.
+                            chaturthi_name = '%s%s' % ('aGgArakI~' if self.weekday[d + 1] == 2 else '', chaturthi_name)
+                            self.festivals[d + 1].append(chaturthi_name + 'saGkaTahara-caturthI-vratam')
                             # shravana krishna chaturthi
                             if self.lunar_month[d] == 5:
-                                chaturthi_name = '%s%s' % ('aGgArakI~' if self.weekday[d] == 2 else '', chaturthi_name)
-                                self.festivals[d][-1] = chaturthi_name + 'mahAsaGkaTahara-caturthI-vratam'
+                                chaturthi_name = '%s%s' % ('aGgArakI~' if self.weekday[d + 1] == 2 else '', chaturthi_name)
+                                self.festivals[d + 1][-1] = chaturthi_name + 'mahAsaGkaTahara-caturthI-vratam'
 
     def assign_shasthi_vratam(self, debug_festivals=False):
         for d in range(1, self.duration + 1):
