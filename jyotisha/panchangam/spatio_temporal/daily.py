@@ -244,7 +244,7 @@ class DailyPanchanga(common.JsonObject):
             self.compute_sun_moon_transitions()
         lagna_sunrise = 1 + floor(self.get_lagna_float(self.jd_sunrise))
 
-        lagna_list = [(x + lagna_sunrise - 1) % 12 + 1 for x in range(12)]
+        lagna_list = [(x + lagna_sunrise - 1) % 12 + 1 for x in range(13)]
 
         lbrack = self.jd_sunrise - 3 / 24
         rbrack = self.jd_sunrise + 3 / 24
@@ -260,7 +260,8 @@ class DailyPanchanga(common.JsonObject):
                                     args=(-lagna, debug))
             lbrack = lagna_end_time + 1 / 24
             rbrack = lagna_end_time + 3 / 24
-            self.lagna_data.append((lagna, lagna_end_time))
+            if lagna_end_time < self.jd_next_sunrise:
+                self.lagna_data.append((lagna, lagna_end_time))
         return self.lagna_data
 
     def get_kaalas(self):
