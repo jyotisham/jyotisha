@@ -336,7 +336,7 @@ def get_all_angas(jd, ayanamsha_id=swe.SIDM_LAHIRI):
 
 def get_all_angas_x_ayanamshas(jd):
   # swe.SIDM_TRUE_REVATI leads to a segfault.
-  ayanamshas = [swe.SIDM_LAHIRI, swe.SIDM_ARYABHATA, swe.SIDM_ARYABHATA_MSUN, swe.SIDM_KRISHNAMURTI, swe.SIDM_JN_BHASIN, swe.SIDM_RAMAN, swe.SIDM_SS_CITRA, swe.SIDM_SS_REVATI, swe.SIDM_SURYASIDDHANTA, swe.SIDM_SURYASIDDHANTA_MSUN, swe.SIDM_USHASHASHI, swe.SIDM_YUKTESHWAR, swe.SIDM_TRUE_CITRA, names.SIDM_TRUE_MULA, names.SIDM_TRUE_PUSHYA]
+  ayanamshas = [swe.SIDM_LAHIRI, swe.SIDM_ARYABHATA, swe.SIDM_ARYABHATA_MSUN, swe.SIDM_KRISHNAMURTI, swe.SIDM_JN_BHASIN, swe.SIDM_RAMAN, swe.SIDM_SS_CITRA, swe.SIDM_SS_REVATI, swe.SIDM_SURYASIDDHANTA, swe.SIDM_SURYASIDDHANTA_MSUN, swe.SIDM_USHASHASHI, swe.SIDM_YUKTESHWAR, swe.SIDM_LAHIRI, names.SIDM_TRUE_MULA, names.SIDM_TRUE_PUSHYA]
 
   ayanamsha_names = list(map(lambda ayanamsha: names.get_ayanamsha_name(ayanamsha), ayanamshas))
   return dict(zip(ayanamsha_names, map(lambda ayanamsha_id: get_all_angas(jd=jd, ayanamsha_id=ayanamsha_id), ayanamshas)))

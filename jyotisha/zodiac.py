@@ -28,8 +28,8 @@ class NakshatraDivision(object):
   def get_nakshatra(self, body_id, julday=None):
     if julday is not None:
       self.set_time(julday=julday)
-
-    return ((swe.calc_ut(self.julday, body_id)[0] - swe.get_ayanamsa(self.julday)) % 360) / (360.0 / 27.0)
+    logging.debug(swe.get_ayanamsa(self.julday))
+    return ((swe.calc_ut(self.julday, body_id)[0][0] - swe.get_ayanamsa(self.julday)) % 360) / (360.0 / 27.0)
 
   def __str__(self):
     return str(self.__dict__)
@@ -66,16 +66,6 @@ class NakshatraDivision(object):
           sector_id_1=(index % 27 + 1),
           sector_id_2=((index + 1) % 27 + 1)
         ))
-
-
-if __name__ == '__main__':
-  # lahiri_nakshatra_division = NakshatraDivision(julday=swe.utc_to_jd(year=2017, month=8, day=19, hour=11, minutes=10, seconds=0, flag=1)[0])
-  lahiri_nakshatra_division = NakshatraDivision(
-    julday=swe.utc_to_jd(year=1982, month=2, day=19, hour=11, minutes=10, seconds=0, flag=1)[0])
-  logging.info(lahiri_nakshatra_division.get_nakshatra(body_id=swe.MOON))
-  # logging.info(lahiri_nakshatra_division)
-  # logging.debug(swe.cotrans(lon=20, lat=-90, dist=9999999, obliquity=23.437404))
-  lahiri_nakshatra_division.get_stellarium_nakshatra_boundaries()
 
 
 def get_nirayana_sun_lon(jd, offset=0, debug=False):
@@ -118,3 +108,13 @@ def get_planet_lon(jd, planet, offset=0, ayanamsha_id=swe.SIDM_LAHIRI):
     swe.set_sid_mode(ayanamsha_id)
     lon = (swe.calc_ut(jd, planet)[0] - swe.get_ayanamsa(jd)) % 360
     return lon + offset
+
+
+if __name__ == '__main__':
+    # lahiri_nakshatra_division = NakshatraDivision(julday=swe.utc_to_jd(year=2017, month=8, day=19, hour=11, minutes=10, seconds=0, flag=1)[0])
+    lahiri_nakshatra_division = NakshatraDivision(
+        julday=swe.utc_to_jd(year=1982, month=2, day=19, hour=11, minutes=10, seconds=0, flag=1)[0])
+    logging.info(lahiri_nakshatra_division.get_nakshatra(body_id=swe.MOON))
+    # logging.info(lahiri_nakshatra_division)
+    # logging.debug(swe.cotrans(lon=20, lat=-90, dist=9999999, obliquity=23.437404))
+    lahiri_nakshatra_division.get_stellarium_nakshatra_boundaries()
