@@ -150,7 +150,3 @@ def print_lat_lon(lat, lon):
         lon_suffix = 'E'
 
     return '%.6f°%s, %.6f°%s' % (lat, lat_suffix, lon, lon_suffix)
-
-
-def longitudeToRightAscension(longitude):
-    return (360 - longitude) / 360 * 24

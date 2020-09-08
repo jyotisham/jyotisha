@@ -15,6 +15,8 @@ from jyotisha.panchangam.temporal.hour import Hour
 
 from sanskrit_data.schema import common
 
+from jyotisha.panchangam.temporal.zodiac import Ayanamsha
+
 logging.basicConfig(level=logging.DEBUG,
                     format="%(levelname)s: %(asctime)s {%(filename)s:%(lineno)d}: %(message)s ")
 
@@ -38,7 +40,7 @@ class DailyPanchanga(common.JsonObject):
 
         self.weekday = datetime.date(year=self.year, month=self.month, day=self.day).isoweekday() % 7
         self.ayanamsha_id = ayanamsha_id
-        swe.set_sid_mode(ayanamsha_id)
+        
 
         self.jd_sunrise = None
         self.jd_sunset = None
@@ -130,9 +132,9 @@ class DailyPanchanga(common.JsonObject):
     def compute_solar_month(self):
         if not hasattr(self, "jd_sunrise") or self.jd_sunrise is None:
             self.compute_sun_moon_transitions()
-        swe.set_sid_mode(self.ayanamsha_id)
-        self.longitude_sun_sunrise = swe.calc_ut(self.jd_sunrise, swe.SUN)[0] - swe.get_ayanamsa(self.jd_sunrise)
-        self.longitude_sun_sunset = swe.calc_ut(self.jd_sunset, swe.SUN)[0] - swe.get_ayanamsa(self.jd_sunset)
+        
+        self.longitude_sun_sunrise = swe.calc_ut(self.jd_sunrise, swe.SUN)[0] - Ayanamsha(self.ayanamsha_id).get_offset(self.jd_sunrise)
+        self.longitude_sun_sunset = swe.calc_ut(self.jd_sunset, swe.SUN)[0] - Ayanamsha(self.ayanamsha_id).get_offset(self.jd_sunset)
 
         # Each solar month has 30 days. So, divide the longitude by 30 to get the solar month.
         self.solar_month_sunset = int(1 + floor((self.longitude_sun_sunset % 360) / 30.0))
@@ -204,7 +206,7 @@ class DailyPanchanga(common.JsonObject):
           Returns:
             float lagna
         """
-        swe.set_sid_mode(self.ayanamsha_id)
+        
         lcalc = swe.houses_ex(jd, self.city.latitude, self.city.longitude)[1][0] - swe.get_ayanamsa_ut(jd)
         lcalc = lcalc % 360
 

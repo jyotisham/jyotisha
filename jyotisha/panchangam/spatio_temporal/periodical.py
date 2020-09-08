@@ -15,12 +15,13 @@ from sanskrit_data.schema.common import JsonObject
 
 import jyotisha.panchangam.temporal.hour
 from jyotisha.panchangam import temporal, spatio_temporal
+from jyotisha.panchangam.temporal import zodiac
 from jyotisha.panchangam.temporal.festival import read_old_festival_rules_dict
 from sanskrit_data.schema import common
 from scipy.optimize import brentq
 
 import jyotisha.panchangam
-import jyotisha.zodiac
+import jyotisha.panchangam.temporal.zodiac
 from jyotisha.panchangam.spatio_temporal import CODE_ROOT, daily, CALC_RISE, CALC_SET
 
 
@@ -51,7 +52,7 @@ class Panchangam(common.JsonObject):
         # swe has Mon = 0, non-intuitively!
 
         self.ayanamsha_id = ayanamsha_id
-        swe.set_sid_mode(ayanamsha_id)
+        
         self.add_details(compute_lagnams=compute_lagnams)
 
     def compute_angams(self, compute_lagnams=True):
@@ -1920,7 +1921,7 @@ class Panchangam(common.JsonObject):
         for d in range(1, self.len - 1):
             jd = self.jd_start_utc - 1 + d
             [y, m, dt, t] = temporal.jd_to_utc_gregorian(jd)
-            longitude_sun_sunset = swe.calc_ut(self.jd_sunset[d], swe.SUN)[0] - swe.get_ayanamsa(self.jd_sunset[d])
+            longitude_sun_sunset = swe.calc_ut(self.jd_sunset[d], swe.SUN)[0] - zodiac.Ayanamsha(self.ayanamsha_id).get_offset(self.jd_sunset[d])
             log_data = '%02d-%02d-%4d\t[%3d]\tsun_rashi=%8.3f\ttithi=%8.3f\tsolar_month\
         =%2d\tlunar_month=%4.1f\n' % (dt, m, y, d, (longitude_sun_sunset % 360) / 30.0,
                                       temporal.get_angam_float(self.jd_sunrise[d],

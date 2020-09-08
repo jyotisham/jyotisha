@@ -11,7 +11,7 @@ from jyotisha import names
 from jyotisha.custom_transliteration import tr
 from jyotisha.names.init_names_auto import init_names_auto
 from jyotisha.panchangam.temporal import hour
-from jyotisha.zodiac import get_planet_lon
+from jyotisha.panchangam.temporal.zodiac import get_planet_lon, Ayanamsha
 
 logging.basicConfig(
     level=logging.DEBUG,
@@ -143,7 +143,7 @@ def get_angam_float(jd, angam_type, offset=0, ayanamsha_id=swe.SIDM_LAHIRI, debu
         >>> get_angam_float(2444961.7125,NAKSHATRAM)
         15.967801358055189
     """
-    swe.set_sid_mode(ayanamsha_id)
+    
     w_moon = angam_type['w_moon']
     w_sun = angam_type['w_sun']
     arc_len = angam_type['arc_len']
@@ -151,11 +151,11 @@ def get_angam_float(jd, angam_type, offset=0, ayanamsha_id=swe.SIDM_LAHIRI, debu
     lcalc = 0  # computing weighted longitudes
     if debug:
         logging.debug('## get_angam_float(): jd=%f', jd)
-        logging.debug("Ayanamsha: %f", swe.get_ayanamsa(jd))
+        logging.debug("Ayanamsha: %f", Ayanamsha(ayanamsha_id).get_offset(jd))
 
     #  Get the lunar longitude, starting at the ayanaamsha point in the ecliptic.
     if w_moon != 0:
-        lmoon = (swe.calc_ut(jd, swe.MOON)[0] - swe.get_ayanamsa(jd)) % 360
+        lmoon = (swe.calc_ut(jd, swe.MOON)[0] - Ayanamsha(ayanamsha_id).get_offset(jd)) % 360
         if (debug):
             logging.debug("Moon longitude: %f", swe.calc_ut(jd, swe.MOON)[0])
             logging.debug('## get_angam_float(): lmoon=%f', lmoon)
@@ -163,7 +163,7 @@ def get_angam_float(jd, angam_type, offset=0, ayanamsha_id=swe.SIDM_LAHIRI, debu
 
     #  Get the solar longitude, starting at the ayanaamsha point in the ecliptic.
     if w_sun != 0:
-        lsun = (swe.calc_ut(jd, swe.SUN)[0] - swe.get_ayanamsa(jd)) % 360
+        lsun = (swe.calc_ut(jd, swe.SUN)[0] - Ayanamsha(ayanamsha_id).get_offset(jd)) % 360
         if(debug):
             logging.debug('## get_angam_float(): lsun=%f', lsun)
         lcalc += w_sun * lsun
@@ -199,7 +199,7 @@ def get_planet_next_transit(jd_start, jd_end, planet, ayanamsha_id=swe.SIDM_LAHI
       >>> get_planet_next_transit(2457755, 2458120, swe.JUPITER)
       [(2458008.5710764076, 6, 7)]
     """
-    swe.set_sid_mode(ayanamsha_id)
+    
 
     transits = []
     MIN_JUMP = 15  # Random check for a transit every 15 days!
@@ -261,7 +261,7 @@ def get_angam(jd, angam_type, ayanamsha_id=swe.SIDM_LAHIRI):
       >>> get_angam(2444961.7125,KARANAM)
       55
     """
-    swe.set_sid_mode(ayanamsha_id)
+    
 
     return int(1 + floor(get_angam_float(jd, angam_type, ayanamsha_id=ayanamsha_id)))
 
@@ -398,7 +398,7 @@ def get_angam_data(jd_sunrise, jd_sunrise_tmrw, angam_type, ayanamsha_id=swe.SID
       >>> get_angam_data(2444961.54042,2444962.54076,KARANAM)
       [(54, 2444961.599213231), (55, 2444962.15444546)]
     """
-    swe.set_sid_mode(ayanamsha_id)
+    
 
     w_moon = angam_type['w_moon']
     w_sun = angam_type['w_sun']
@@ -418,15 +418,15 @@ def get_angam_data(jd_sunrise, jd_sunrise_tmrw, angam_type, ayanamsha_id=swe.SID
         # The angam does not change until sunrise tomorrow
         return [(angam_now, None)]
     else:
-        lmoon = (swe.calc_ut(jd_sunrise, swe.MOON)[0] - swe.get_ayanamsa(jd_sunrise)) % 360
+        lmoon = (swe.calc_ut(jd_sunrise, swe.MOON)[0] - Ayanamsha(ayanamsha_id).get_offset(jd_sunrise)) % 360
 
-        lsun = (swe.calc_ut(jd_sunrise, swe.SUN)[0] - swe.get_ayanamsa(jd_sunrise)) % 360
+        lsun = (swe.calc_ut(jd_sunrise, swe.SUN)[0] - Ayanamsha(ayanamsha_id).get_offset(jd_sunrise)) % 360
 
         lmoon_tmrw = (swe.calc_ut(jd_sunrise_tmrw, swe.MOON)[0] -
-                      swe.get_ayanamsa(jd_sunrise_tmrw)) % 360
+                      Ayanamsha(ayanamsha_id).get_offset(jd_sunrise_tmrw)) % 360
 
         lsun_tmrw = (swe.calc_ut(jd_sunrise_tmrw, swe.SUN)[0] -
-                     swe.get_ayanamsa(jd_sunrise_tmrw)) % 360
+                     Ayanamsha(ayanamsha_id).get_offset(jd_sunrise_tmrw)) % 360
 
         for i in range(num_angas_today):
             angam_remaining = arc_len * (i + 1) - (((lmoon * w_moon +
