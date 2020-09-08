@@ -99,7 +99,7 @@ class NakshatraFinder(Resource):
   def get(self, body, offset, year, month, day, hour, minute, second):
     from jyotisha import zodiac
     (utc_year, utc_month, utc_day, utc_hour, utc_minute, utc_second) = swe.utc_time_zone(year, month, day, hour, minute, second, float(offset))
-    julday = swe.utc_to_jd(year=utc_year, month=utc_month, day=utc_day, hour=utc_hour, minutes=utc_minute, seconds=utc_second, flag=swe.GREG_CAL)[0]
+    julday = temporal.utc_to_jd(year=utc_year, month=utc_month, day=utc_day, hour=utc_hour, minutes=utc_minute, seconds=utc_second, flag=swe.GREG_CAL)[0]
     lahiri_nakshatra_division = zodiac.NakshatraDivision(julday=julday)
     body_id = get_body_id(body_name=body)
     if body == "moon":
@@ -116,7 +116,7 @@ class NakshatraFinder(Resource):
 class RaashiFinder(Resource):
   def get(self, offset, year, month, day, hour, minute, second):
     (utc_year, utc_month, utc_day, utc_hour, utc_minute, utc_second) = swe.utc_time_zone(year, month, day, hour, minute, second, float(offset))
-    julday = swe.utc_to_jd(year=utc_year, month=utc_month, day=utc_day, hour=utc_hour, minutes=utc_minute, seconds=utc_second, flag=swe.GREG_CAL)[0]
+    julday = temporal.utc_to_jd(year=utc_year, month=utc_month, day=utc_day, hour=utc_hour, minutes=utc_minute, seconds=utc_second, flag=swe.GREG_CAL)[0]
     from jyotisha.panchangam import temporal
     raashi = temporal.get_solar_rashi(jd=julday)
     logging.info(raashi)
@@ -130,7 +130,7 @@ class RaashiTransitionFinder(Resource):
   def get(self, offset, year, month, day, hour, minute, second, body):
     from jyotisha import zodiac
     (utc_year, utc_month, utc_day, utc_hour, utc_minute, utc_second) = swe.utc_time_zone(year=year, month=month, day=day, hour=hour, minutes=minute, seconds=second, offset=float(offset))
-    julday = swe.utc_to_jd(year=utc_year, month=utc_month, day=utc_day, hour=utc_hour, minutes=utc_minute, seconds=utc_second, flag=swe.GREG_CAL)[0]
+    julday = temporal.utc_to_jd(year=utc_year, month=utc_month, day=utc_day, hour=utc_hour, minutes=utc_minute, seconds=utc_second, flag=swe.GREG_CAL)[0]
     body_id = get_body_id(body_name=body)
     from jyotisha.panchangam import temporal
     transits = temporal.get_planet_next_transit(jd_start=julday, jd_end = julday + 100, planet=body_id)
