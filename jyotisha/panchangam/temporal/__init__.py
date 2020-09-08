@@ -8,7 +8,7 @@ from sanskrit_data.schema import common
 from scipy.optimize import brentq
 
 from jyotisha import names
-from jyotisha.custom_transliteration import revjul, tr
+from jyotisha.custom_transliteration import tr
 from jyotisha.names.init_names_auto import init_names_auto
 from jyotisha.panchangam.temporal import hour
 from jyotisha.zodiac import get_planet_lon
@@ -319,7 +319,7 @@ def get_angam_span(jd1, jd2, angam_type, target, ayanamsha_id=swe.SIDM_LAHIRI, d
         angam_now = get_angam(jd_now, angam_type, ayanamsha_id=ayanamsha_id)
 
         if debug:
-            logging.debug((jd_now, revjul(jd_now), angam_now, get_angam_float(jd_now, angam_type, ayanamsha_id=ayanamsha_id)))
+            logging.debug((jd_now, Time(jd_now, "jd").to_value('iso'), angam_now, get_angam_float(jd_now, angam_type, ayanamsha_id=ayanamsha_id)))
         if angam_now < target or (target == 1 and angam_now == num_angas):
             if debug:
                 logging.debug(('jd_bracket_L ', jd_now))
@@ -346,7 +346,7 @@ def get_angam_span(jd1, jd2, angam_type, target, ayanamsha_id=swe.SIDM_LAHIRI, d
         angam_now = get_angam(jd_now, angam_type, ayanamsha_id=ayanamsha_id)
 
         if debug:
-            logging.debug((jd_now, revjul(jd_now), angam_now, get_angam_float(jd_now, angam_type, ayanamsha_id=ayanamsha_id)))
+            logging.debug((jd_now, Time(jd_now, "jd").to_value('iso'), angam_now, get_angam_float(jd_now, angam_type, ayanamsha_id=ayanamsha_id)))
         if target == num_angas:
             # Wait till we land at the next anga!
             if angam_now == 1:
