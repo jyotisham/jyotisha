@@ -4,7 +4,6 @@
 import logging
 import os
 import re
-import swisseph as swe
 import sys
 from datetime import datetime, date, timedelta
 
@@ -16,6 +15,7 @@ import jyotisha.custom_transliteration
 import jyotisha.panchangam.spatio_temporal.annual
 import jyotisha.panchangam.temporal
 # from jyotisha.panchangam import scripts
+from jyotisha.panchangam import temporal
 from jyotisha.panchangam.spatio_temporal import City
 from jyotisha.panchangam.temporal import festival
 from jyotisha.panchangam.temporal.festival import read_old_festival_rules_dict
@@ -49,10 +49,10 @@ def compute_calendar(panchangam, all_tags=True, brief=False):
     alarm.add('action', 'DISPLAY')
     alarm.add('trigger', timedelta(hours=-4))  # default alarm, with a 4 hour reminder
 
-    year_start = swe.revjul(panchangam.jd_start_utc + 1)[0]  # 1 helps ignore local time etc.
+    year_start = temporal.jd_to_utc(panchangam.jd_start_utc + 1)[0]  # 1 helps ignore local time etc.
 
     for d in range(1, len(panchangam.festivals)):
-        [y, m, dt, t] = swe.revjul(panchangam.jd_start_utc + d - 1)
+        [y, m, dt, t] = temporal.jd_to_utc(panchangam.jd_start_utc + d - 1)
 
         if len(panchangam.festivals[d]) > 0:
             # Eliminate repeat festivals on the same day, and keep the list arbitrarily sorted

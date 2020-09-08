@@ -4,9 +4,10 @@
 import logging
 import os
 import os.path
-import swisseph as swe
 import sys
+from math import ceil
 
+import swisseph as swe
 from indic_transliteration import xsanscript as sanscript
 
 import jyotisha
@@ -14,8 +15,8 @@ import jyotisha.custom_transliteration
 import jyotisha.panchangam.spatio_temporal.periodical
 import jyotisha.panchangam.temporal
 import jyotisha.panchangam.temporal.hour
+from jyotisha.panchangam import temporal
 from jyotisha.panchangam.spatio_temporal import City
-from math import ceil
 
 logging.basicConfig(
     level=logging.DEBUG,
@@ -70,7 +71,7 @@ def writeDailyTeX(panchangam, template_file, compute_lagnams=True, output_stream
 
     for d in range(1, panchangam.duration + 1):
 
-        [y, m, dt, t] = swe.revjul(panchangam.jd_start_utc + d - 1)
+        [y, m, dt, t] = temporal.jd_to_utc(panchangam.jd_start_utc + d - 1)
 
         if m == 1 and dt == 1:
             print('\\renewcommand{\\yearname}{%d}' % y, file=output_stream)

@@ -3,6 +3,7 @@ import swisseph as swe
 import sys
 from math import floor
 
+from astropy.time import Time
 from sanskrit_data.schema import common
 from scipy.optimize import brentq
 
@@ -47,6 +48,12 @@ AMRITADI_YOGA = [[None, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 0, 0, 1, 1, 2, 2, 2, 0,
 AMRITADI_YOGA_NAMES = {1: 'siddha', 0: 'amRta', 2: 'maraNa'}
 for i in range(7):
   AMRITADI_YOGA[i] = [AMRITADI_YOGA_NAMES.get(n, n) for n in AMRITADI_YOGA[i]]
+
+
+def jd_to_utc(jd):
+    tm = Time(jd, format='jd')
+    tm.format = "ymdhms"
+    return [tm.value["year"], tm.value["month"], tm.value["day"], tm.value["hour"] + tm.value["minute"] / 60.0 + tm.value["second"] / 3600.0]
 
 
 def get_nakshatram(jd, ayanamsha_id=swe.SIDM_LAHIRI):

@@ -1,12 +1,12 @@
 #!/usr/bin/python3
 #  -*- coding: utf-8 -*-
 
-import re
-import swisseph as swe
+import logging
 from math import floor
 
 from indic_transliteration import xsanscript as sanscript
-import logging
+
+from jyotisha.panchangam import temporal
 
 logging.basicConfig(
     level=logging.DEBUG,
@@ -139,7 +139,7 @@ def revjul(jd, formatstr='%4d-%02d-%02d %02d:%02d:%02d', tz_off=0):
     if jd is None:
         return None
 
-    year, month, day, h_float = swe.revjul(jd + tz_off / 24.0)
+    year, month, day, h_float = temporal.jd_to_utc(jd + tz_off / 24.0)
 
     hour = floor(h_float)
     h_float = (h_float - hour) * 60
@@ -156,7 +156,7 @@ def revjul(jd, formatstr='%4d-%02d-%02d %02d:%02d:%02d', tz_off=0):
             hour += 1
             minute = 0
             if hour == 24:
-                year, month, day, _h = swe.revjul(jd + (tz_off + 1) / 24.0)
+                year, month, day, _h = temporal.jd_to_utc(jd + (tz_off + 1) / 24.0)
 
     if formatstr is None:
         return (year, month, day, hour, minute, second)

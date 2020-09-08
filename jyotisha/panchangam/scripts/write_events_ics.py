@@ -2,15 +2,15 @@
 import json
 import logging
 import os.path
-import re
 import sys
 from datetime import datetime, date, timedelta
+
 from icalendar import Calendar, Event, Alarm
 from pytz import timezone as tz
 
 import jyotisha.panchangam.spatio_temporal.annual
-from jyotisha.panchangam import scripts
-from jyotisha.panchangam.spatio_temporal import swe, City
+from jyotisha.panchangam import temporal
+from jyotisha.panchangam.spatio_temporal import City
 from jyotisha.panchangam.temporal import get_nakshatram, get_tithi, MAX_SZ
 
 logging.basicConfig(
@@ -24,7 +24,7 @@ CODE_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
 def compute_events(p, json_file):
     p.fest_days = {}  # Resetting it
     for d in range(1, MAX_SZ):
-        [y, m, dt, t] = swe.revjul(p.jd_start + d - 1)
+        [y, m, dt, t] = temporal.jd_to_utc(p.jd_start + d - 1)
 
         debugEvents = False
 
@@ -217,7 +217,7 @@ def compute_events(p, json_file):
 def computeIcsCalendar(P, ics_file_name):
     P.ics_calendar = Calendar()
     for d in range(1, MAX_SZ - 1):
-        [y, m, dt, t] = swe.revjul(P.jd_start + d - 1)
+        [y, m, dt, t] = temporal.jd_to_utc(P.jd_start + d - 1)
 
         if len(P.festivals[d]) > 0:
             # Eliminate repeat festivals on the same day, and keep the list arbitrarily sorted

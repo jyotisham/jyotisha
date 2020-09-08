@@ -3,7 +3,6 @@
 import logging
 import os
 import os.path
-import swisseph as swe
 import sys
 from datetime import datetime
 
@@ -15,7 +14,6 @@ import jyotisha.custom_transliteration
 import jyotisha.panchangam.spatio_temporal.annual
 import jyotisha.panchangam.temporal
 import jyotisha.panchangam.temporal.hour
-from jyotisha.panchangam import scripts
 from jyotisha.panchangam.spatio_temporal import City
 
 logging.basicConfig(
@@ -28,7 +26,7 @@ logging.basicConfig(
 CODE_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
 
 
-def writeMonthlyTeX(panchangam, template_file):
+def writeMonthlyTeX(panchangam, template_file, temporal=None):
     """Write out the panchangam TeX using a specified template
     """
     day_colours = {0: 'blue', 1: 'blue', 2: 'blue',
@@ -74,7 +72,7 @@ def writeMonthlyTeX(panchangam, template_file):
 
     mlast = 1
     for d in range(1, jyotisha.panchangam.temporal.MAX_SZ - 1):
-        [y, m, dt, t] = swe.revjul(panchangam.jd_start_utc + d - 1)
+        [y, m, dt, t] = temporal.jd_to_utc(panchangam.jd_start_utc + d - 1)
 
         # checking @ 6am local - can we do any better?
         local_time = tz(panchangam.city.timezone).localize(datetime(y, m, dt, 6, 0, 0))
@@ -108,7 +106,7 @@ def writeMonthlyTeX(panchangam, template_file):
     month_text = ''
     W6D1 = W6D2 = ''
     for d in range(1, jyotisha.panchangam.temporal.MAX_SZ - 1):
-        [y, m, dt, t] = swe.revjul(panchangam.jd_start_utc + d - 1)
+        [y, m, dt, t] = temporal.jd_to_utc(panchangam.jd_start_utc + d - 1)
 
         # checking @ 6am local - can we do any better?
         local_time = tz(panchangam.city.timezone).localize(datetime(y, m, dt, 6, 0, 0))

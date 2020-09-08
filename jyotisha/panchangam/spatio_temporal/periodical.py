@@ -95,7 +95,7 @@ class Panchangam(common.JsonObject):
         # rather than Jan 1, since we have an always increment
         # solar_month_day at the start of the loop across every day in
         # year
-        [prev_day_yy, prev_day_mm, prev_day_dd] = swe.revjul(self.jd_start_utc - 1)[:3]
+        [prev_day_yy, prev_day_mm, prev_day_dd] = temporal.jd_to_utc(self.jd_start_utc - 1)[:3]
         daily_panchangam_start = daily.DailyPanchanga(city=self.city, year=prev_day_yy, month=prev_day_mm, day=prev_day_dd, ayanamsha_id=self.ayanamsha_id)
         daily_panchangam_start.compute_solar_day()
         self.solar_month[1] = daily_panchangam_start.solar_month
@@ -115,7 +115,7 @@ class Panchangam(common.JsonObject):
         for d in range(-1, nDays - 1):
             # TODO: Eventually, we are shifting to an array of daily panchangas. Reason: Better modularity.
             # The below block is temporary code to make the transition seamless.
-            (year_d, month_d, day_d, _) = swe.revjul(self.jd_start_utc + d)
+            (year_d, month_d, day_d, _) = temporal.jd_to_utc(self.jd_start_utc + d)
             daily_panchaangas[d + 1] = daily.DailyPanchanga(city=self.city, year=year_d, month=month_d, day=day_d, ayanamsha_id=self.ayanamsha_id, previous_day_panchangam=daily_panchaangas[d])
             daily_panchaangas[d + 1].compute_sun_moon_transitions(previous_day_panchangam=daily_panchaangas[d])
             daily_panchaangas[d + 1].compute_solar_month()
@@ -345,7 +345,7 @@ class Panchangam(common.JsonObject):
 
     def assign_chandra_darshanam(self, debug_festivals=False):
         for d in range(1, self.duration + 1):
-            [y, m, dt, t] = swe.revjul(self.jd_start_utc + d - 1)
+            [y, m, dt, t] = temporal.jd_to_utc(self.jd_start_utc + d - 1)
             # Chandra Darshanam
             if self.tithi_sunrise[d] == 1 or self.tithi_sunrise[d] == 2:
                 tithi_sunset = temporal.get_tithi(self.jd_sunset[d], ayanamsha_id=self.ayanamsha_id)
@@ -362,7 +362,7 @@ class Panchangam(common.JsonObject):
 
     def assign_chaturthi_vratam(self, debug_festivals=False):
         for d in range(1, self.duration + 1):
-            [y, m, dt, t] = swe.revjul(self.jd_start_utc + d - 1)
+            [y, m, dt, t] = temporal.jd_to_utc(self.jd_start_utc + d - 1)
 
             # SANKATAHARA chaturthi
             if self.tithi_sunrise[d] == 18 or self.tithi_sunrise[d] == 19:
@@ -407,7 +407,7 @@ class Panchangam(common.JsonObject):
 
     def assign_shasthi_vratam(self, debug_festivals=False):
         for d in range(1, self.duration + 1):
-            [y, m, dt, t] = swe.revjul(self.jd_start_utc + d - 1)
+            [y, m, dt, t] = temporal.jd_to_utc(self.jd_start_utc + d - 1)
             # # SHASHTHI Vratam
             # Check only for Adhika maasa here...
             festival_name = 'SaSThI-vratam'
@@ -452,7 +452,7 @@ class Panchangam(common.JsonObject):
 
     def assign_vishesha_saptami(self, debug_festivals=False):
         for d in range(1, self.duration + 1):
-            [y, m, dt, t] = swe.revjul(self.jd_start_utc + d - 1)
+            [y, m, dt, t] = temporal.jd_to_utc(self.jd_start_utc + d - 1)
 
             # SPECIAL SAPTAMIs
             if self.weekday[d] == 0 and (self.tithi_sunrise[d] % 15) == 7:
@@ -476,7 +476,7 @@ class Panchangam(common.JsonObject):
 
     def assign_ekadashi_vratam(self, debug_festivals=False):
         for d in range(1, self.duration + 1):
-            [y, m, dt, t] = swe.revjul(self.jd_start_utc + d - 1)
+            [y, m, dt, t] = temporal.jd_to_utc(self.jd_start_utc + d - 1)
 
             # checking @ 6am local - can we do any better?
             local_time = tz(self.city.timezone).localize(datetime(y, m, dt, 6, 0, 0))
@@ -561,14 +561,14 @@ class Panchangam(common.JsonObject):
                         harivasara_end = brentq(temporal.get_angam_float, self.jd_sunrise[smaarta_ekadashi_fday] - 2, self.jd_sunrise[smaarta_ekadashi_fday] + 2, args=(temporal.TITHI_PADA, -45, self.ayanamsha_id, False))
                     else:
                         harivasara_end = brentq(temporal.get_angam_float, self.jd_sunrise[smaarta_ekadashi_fday] - 2, self.jd_sunrise[smaarta_ekadashi_fday] + 2, args=(temporal.TITHI_PADA, -105, self.ayanamsha_id, False))
-                    [_y, _m, _d, _t] = swe.revjul(harivasara_end + (tz_off / 24.0))
-                    hariv_end_time = jyotisha.panchangam.temporal.hour.Hour(swe.revjul(harivasara_end + (tz_off / 24.0))[3]).toString(format=self.fmt)
+                    [_y, _m, _d, _t] = temporal.jd_to_utc(harivasara_end + (tz_off / 24.0))
+                    hariv_end_time = jyotisha.panchangam.temporal.hour.Hour(temporal.jd_to_utc(harivasara_end + (tz_off / 24.0))[3]).toString(format=self.fmt)
                     fday_hv = swe.julday(_y, _m, _d, 0) - self.jd_start_utc + 1
                     self.festivals[int(fday_hv)].append('harivAsaraH\\textsf{%s}{\\RIGHTarrow}\\textsf{%s}' % ('', hariv_end_time))
 
     def assign_mahadwadashi(self, debug_festivals=False):
         for d in range(1, self.duration + 1):
-            [y, m, dt, t] = swe.revjul(self.jd_start_utc + d - 1)
+            [y, m, dt, t] = temporal.jd_to_utc(self.jd_start_utc + d - 1)
             # 8 MAHA DWADASHIS
             if (self.tithi_sunrise[d] % 15) == 11 and (self.tithi_sunrise[d + 1] % 15) == 11:
                 self.add_festival('unmIlanI~mahAdvAdazI', d + 1, debug_festivals)
@@ -627,7 +627,7 @@ class Panchangam(common.JsonObject):
 
     def assign_pradosha_vratam(self, debug_festivals=False):
         for d in range(1, self.duration + 1):
-            [y, m, dt, t] = swe.revjul(self.jd_start_utc + d - 1)
+            [y, m, dt, t] = temporal.jd_to_utc(self.jd_start_utc + d - 1)
             # compute offset from UTC in hours
             # PRADOSHA Vratam
             pref = ''
@@ -647,7 +647,7 @@ class Panchangam(common.JsonObject):
 
     def assign_vishesha_trayodashi(self, debug_festivals=False):
         for d in range(1, self.duration + 1):
-            [y, m, dt, t] = swe.revjul(self.jd_start_utc + d - 1)
+            [y, m, dt, t] = temporal.jd_to_utc(self.jd_start_utc + d - 1)
             # VARUNI TRAYODASHI
             if self.lunar_month[d] == 12 and self.tithi_sunrise[d] == 28:
                 if temporal.get_angam(self.jd_sunrise[d], temporal.NAKSHATRAM,
@@ -697,7 +697,7 @@ class Panchangam(common.JsonObject):
         del self.fest_days['amAvAsyA']
 
         for d in range(1, self.duration + 1):
-            [y, m, dt, t] = swe.revjul(self.jd_start_utc + d - 1)
+            [y, m, dt, t] = temporal.jd_to_utc(self.jd_start_utc + d - 1)
 
             # SOMAMAVASYA
             if self.tithi_sunrise[d] == 30 and self.weekday[d] == 1:
@@ -721,7 +721,7 @@ class Panchangam(common.JsonObject):
 
     def assign_gajachhaya_yoga(self, debug_festivals=False):
         for d in range(1, self.duration + 1):
-            [y, m, dt, t] = swe.revjul(self.jd_start_utc + d - 1)
+            [y, m, dt, t] = temporal.jd_to_utc(self.jd_start_utc + d - 1)
 
             # checking @ 6am local - can we do any better?
             local_time = tz(self.city.timezone).localize(datetime(y, m, dt, 6, 0, 0))
@@ -779,14 +779,14 @@ class Panchangam(common.JsonObject):
                     gc_28_end += tz_off / 24.0
                     # sys.stderr.write('28: (%f, %f)\n' % (gc_28_start, gc_28_end))
                     gc_28_d = 1 + floor(gc_28_start - self.jd_start_utc)
-                    t1 = jyotisha.panchangam.temporal.hour.Hour(swe.revjul(gc_28_start)[3]).toString(format=self.fmt)
+                    t1 = jyotisha.panchangam.temporal.hour.Hour(temporal.jd_to_utc(gc_28_start)[3]).toString(format=self.fmt)
 
                     if floor(gc_28_end - 0.5) != floor(gc_28_start - 0.5):
                         # -0.5 is for the fact that julday is zero at noon always, not midnight!
                         offset = 24
                     else:
                         offset = 0
-                    t2 = jyotisha.panchangam.temporal.hour.Hour(swe.revjul(gc_28_end)[3] + offset).toString(format=self.fmt)
+                    t2 = jyotisha.panchangam.temporal.hour.Hour(temporal.jd_to_utc(gc_28_end)[3] + offset).toString(format=self.fmt)
                     # sys.stderr.write('gajacchhaya %d\n' % gc_28_d)
 
                     self.fest_days['gajacchAyA-yOgaH' +
@@ -798,13 +798,13 @@ class Panchangam(common.JsonObject):
                     gc_30_end += tz_off / 24.0
                     # sys.stderr.write('30: (%f, %f)\n' % (gc_30_start, gc_30_end))
                     gc_30_d = 1 + floor(gc_30_start - self.jd_start_utc)
-                    t1 = jyotisha.panchangam.temporal.hour.Hour(swe.revjul(gc_30_start)[3]).toString(format=self.fmt)
+                    t1 = jyotisha.panchangam.temporal.hour.Hour(temporal.jd_to_utc(gc_30_start)[3]).toString(format=self.fmt)
 
                     if floor(gc_30_end - 0.5) != floor(gc_30_start - 0.5):
                         offset = 24
                     else:
                         offset = 0
-                    t2 = jyotisha.panchangam.temporal.hour.Hour(swe.revjul(gc_30_end)[3] + offset).toString(format=self.fmt)
+                    t2 = jyotisha.panchangam.temporal.hour.Hour(temporal.jd_to_utc(gc_30_end)[3] + offset).toString(format=self.fmt)
                     # sys.stderr.write('gajacchhaya %d\n' % gc_30_d)
 
                     self.fest_days['gajacchAyA-yOgaH' +
@@ -814,7 +814,7 @@ class Panchangam(common.JsonObject):
 
     def assign_mahodaya_ardhodaya(self, debug_festivals=False):
         for d in range(1, self.duration + 1):
-            [y, m, dt, t] = swe.revjul(self.jd_start_utc + d - 1)
+            [y, m, dt, t] = temporal.jd_to_utc(self.jd_start_utc + d - 1)
 
             # MAHODAYAM
             # Can also refer youtube video https://youtu.be/0DBIwb7iaLE?list=PL_H2LUtMCKPjh63PRk5FA3zdoEhtBjhzj&t=6747
@@ -835,7 +835,7 @@ class Panchangam(common.JsonObject):
     def assign_agni_nakshatram(self, debug_festivals=False):
         agni_jd_start = agni_jd_end = None
         for d in range(1, self.duration + 1):
-            [y, m, dt, t] = swe.revjul(self.jd_start_utc + d - 1)
+            [y, m, dt, t] = temporal.jd_to_utc(self.jd_start_utc + d - 1)
 
            # AGNI NAKSHATRAM
             # Arbitrarily checking after Mesha 10! Agni Nakshatram can't start earlier...
@@ -858,7 +858,7 @@ class Panchangam(common.JsonObject):
 
     def assign_tithi_vara_yoga(self, debug_festivals=False):
         for d in range(1, self.duration + 1):
-            [y, m, dt, t] = swe.revjul(self.jd_start_utc + d - 1)
+            [y, m, dt, t] = temporal.jd_to_utc(self.jd_start_utc + d - 1)
 
             # MANGALA-CHATURTHI
             if self.weekday[d] == 2 and (self.tithi_sunrise[d] % 15) == 4:
@@ -878,7 +878,7 @@ class Panchangam(common.JsonObject):
 
     def assign_bhriguvara_subrahmanya_vratam(self, debug_festivals=False):
         for d in range(1, self.duration + 1):
-            [y, m, dt, t] = swe.revjul(self.jd_start_utc + d - 1)
+            [y, m, dt, t] = temporal.jd_to_utc(self.jd_start_utc + d - 1)
 
             # BHRGUVARA SUBRAHMANYA VRATAM
             if self.solar_month[d] == 7 and self.weekday[d] == 5:
@@ -890,7 +890,7 @@ class Panchangam(common.JsonObject):
 
     def assign_masa_vara_yoga_vratam(self, debug_festivals=False):
         for d in range(1, self.duration + 1):
-            [y, m, dt, t] = swe.revjul(self.jd_start_utc + d - 1)
+            [y, m, dt, t] = temporal.jd_to_utc(self.jd_start_utc + d - 1)
 
             # KRTTIKA SOMAVASARA
             if self.lunar_month[d] == 8 and self.weekday[d] == 1:
@@ -908,7 +908,7 @@ class Panchangam(common.JsonObject):
 
     def assign_nakshatra_vara_yoga_vratam(self, debug_festivals=False):
         for d in range(1, self.duration + 1):
-            [y, m, dt, t] = swe.revjul(self.jd_start_utc + d - 1)
+            [y, m, dt, t] = temporal.jd_to_utc(self.jd_start_utc + d - 1)
 
             # NAKSHATRA-WEEKDAY FESTIVALS
             for (nwd_fest_n, nwd_fest_wd, nwd_fest_name) in ((13, 0, 'Adityahasta-puNyakAlaH'),
@@ -933,7 +933,7 @@ class Panchangam(common.JsonObject):
         last_d_assigned = 0
         for d in range(1, self.duration + 1):
 
-            [y, m, dt, t] = swe.revjul(self.jd_start_utc + d - 1)
+            [y, m, dt, t] = temporal.jd_to_utc(self.jd_start_utc + d - 1)
 
             # checking @ 6am local - can we do any better?
             local_time = tz(self.city.timezone).localize(datetime(y, m, dt, 6, 0, 0))
@@ -945,7 +945,7 @@ class Panchangam(common.JsonObject):
             if self.solar_month_day[d] == 1:
                 ayana_jd_start = brentq(jyotisha.zodiac.get_nirayana_sun_lon, self.jd_sunrise[d],
                                         self.jd_sunrise[d] + 15, args=(-30 * self.solar_month[d], False))
-                [_y, _m, _d, _t] = swe.revjul(ayana_jd_start + (tz_off / 24.0))
+                [_y, _m, _d, _t] = temporal.jd_to_utc(ayana_jd_start + (tz_off / 24.0))
                 # Reduce fday by 1 if ayana time precedes sunrise and change increment _t by 24
                 fday_nirayana = int(swe.julday(_y, _m, _d, 0) - self.jd_start_utc + 1)
                 if fday_nirayana > self.duration:
@@ -976,7 +976,7 @@ class Panchangam(common.JsonObject):
 
     def assign_month_day_festivals(self, debug_festivals=False):
         for d in range(1, self.duration + 1):
-            [y, m, dt, t] = swe.revjul(self.jd_start_utc + d - 1)
+            [y, m, dt, t] = temporal.jd_to_utc(self.jd_start_utc + d - 1)
             ####################
             # Festival details #
             ####################
@@ -1005,7 +1005,7 @@ class Panchangam(common.JsonObject):
 
     def assign_ayushman_bava_saumya_yoga(self, debug_festivals=False):
         for d in range(1, self.duration + 1):
-            [y, m, dt, t] = swe.revjul(self.jd_start_utc + d - 1)
+            [y, m, dt, t] = temporal.jd_to_utc(self.jd_start_utc + d - 1)
 
             # AYUSHMAN BAVA SAUMYA
             if self.weekday[d] == 3 and temporal.get_angam(self.jd_sunrise[d],
@@ -1023,7 +1023,7 @@ class Panchangam(common.JsonObject):
 
     def assign_festivals_from_rules(self, festival_rules, debug_festivals=False):
         for d in range(1, self.duration + 1):
-            [y, m, dt, t] = swe.revjul(self.jd_start_utc + d - 1)
+            [y, m, dt, t] = temporal.jd_to_utc(self.jd_start_utc + d - 1)
 
             for festival_name in festival_rules:
                 if 'month_type' in festival_rules[festival_name]:
@@ -1453,7 +1453,7 @@ class Panchangam(common.JsonObject):
         if self.nakshatram_data[0] is None:
             self.nakshatram_data[0] = temporal.get_angam_data(self.jd_sunrise[0], self.jd_sunrise[1], temporal.NAKSHATRAM, ayanamsha_id=self.ayanamsha_id)
         for d in range(1, self.duration + 1):
-            [y, m, dt, t] = swe.revjul(self.jd_start_utc + d - 1)
+            [y, m, dt, t] = temporal.jd_to_utc(self.jd_start_utc + d - 1)
             jd = self.jd_midnight[d]
             t_start = self.nakshatram_data[d - 1][-1][1]
             if t_start is not None:
@@ -1497,7 +1497,7 @@ class Panchangam(common.JsonObject):
         if self.nakshatram_data[0] is None:
             self.nakshatram_data[0] = temporal.get_angam_data(self.jd_sunrise[0], self.jd_sunrise[1], temporal.NAKSHATRAM, ayanamsha_id=self.ayanamsha_id)
         for d in range(1, self.duration + 1):
-            [y, m, dt, t] = swe.revjul(self.jd_start_utc + d - 1)
+            [y, m, dt, t] = temporal.jd_to_utc(self.jd_start_utc + d - 1)
             jd = self.jd_midnight[d]
             t_start = self.nakshatram_data[d - 1][-1][1]
             if t_start is not None:
@@ -1547,7 +1547,7 @@ class Panchangam(common.JsonObject):
         nDays = self.len
         self.shraaddha_tithi = [[None] for _x in range(nDays)]
         for d in range(1, self.duration + 1):
-            [y, m, dt, t] = swe.revjul(self.jd_start_utc + d - 1)
+            [y, m, dt, t] = temporal.jd_to_utc(self.jd_start_utc + d - 1)
 
             angams = self.get_angams_for_kaalas(d, temporal.get_tithi, 'aparaahna')
             angam_start = angams[0]
@@ -1757,7 +1757,7 @@ class Panchangam(common.JsonObject):
         jd = self.jd_start_utc
         while 1:
             next_eclipse_sol = swe.sol_eclipse_when_loc(julday=jd, lon=self.city.longitude, lat=self.city.latitude)
-            [y, m, dt, t] = swe.revjul(next_eclipse_sol[1][0])
+            [y, m, dt, t] = temporal.jd_to_utc(next_eclipse_sol[1][0])
             local_time = tz(self.city.timezone).localize(datetime(y, m, dt, 6, 0, 0))
             # checking @ 6am local - can we do any better?
             tz_off = (datetime.utcoffset(local_time).days * 86400 +
@@ -1773,8 +1773,8 @@ class Panchangam(common.JsonObject):
                 fday = int(floor(jd) - floor(self.jd_start_utc) + 1)
                 if (jd < (self.jd_sunrise[fday] + tz_off / 24.0)):
                     fday -= 1
-                eclipse_solar_start = swe.revjul(jd_eclipse_solar_start)[3]
-                eclipse_solar_end = swe.revjul(jd_eclipse_solar_end)[3]
+                eclipse_solar_start = temporal.jd_to_utc(jd_eclipse_solar_start)[3]
+                eclipse_solar_end = temporal.jd_to_utc(jd_eclipse_solar_end)[3]
                 if (jd_eclipse_solar_start - (tz_off / 24.0)) == 0.0 or \
                         (jd_eclipse_solar_end - (tz_off / 24.0)) == 0.0:
                     # Move towards the next eclipse... at least the next new
@@ -1783,8 +1783,8 @@ class Panchangam(common.JsonObject):
                     continue
                 if eclipse_solar_end < eclipse_solar_start:
                     eclipse_solar_end += 24
-                sunrise_eclipse_day = swe.revjul(self.jd_sunrise[fday] + (tz_off / 24.0))[3]
-                sunset_eclipse_day = swe.revjul(self.jd_sunset[fday] + (tz_off / 24.0))[3]
+                sunrise_eclipse_day = temporal.jd_to_utc(self.jd_sunrise[fday] + (tz_off / 24.0))[3]
+                sunset_eclipse_day = temporal.jd_to_utc(self.jd_sunset[fday] + (tz_off / 24.0))[3]
                 if eclipse_solar_start < sunrise_eclipse_day:
                     eclipse_solar_start = sunrise_eclipse_day
                 if eclipse_solar_end > sunset_eclipse_day:
@@ -1803,7 +1803,7 @@ class Panchangam(common.JsonObject):
         jd = self.jd_start_utc
         while 1:
             next_eclipse_lun = swe.lun_eclipse_when(jd)
-            [y, m, dt, t] = swe.revjul(next_eclipse_lun[1][0])
+            [y, m, dt, t] = temporal.jd_to_utc(next_eclipse_lun[1][0])
             local_time = tz(self.city.timezone).localize(datetime(y, m, dt, 6, 0, 0))
             # checking @ 6am local - can we do any better? This is crucial,
             # since DST changes before 6 am
@@ -1817,8 +1817,8 @@ class Panchangam(common.JsonObject):
             if jd_eclipse_lunar_start > self.jd_end_utc:
                 break
             else:
-                eclipse_lunar_start = swe.revjul(jd_eclipse_lunar_start)[3]
-                eclipse_lunar_end = swe.revjul(jd_eclipse_lunar_end)[3]
+                eclipse_lunar_start = temporal.jd_to_utc(jd_eclipse_lunar_start)[3]
+                eclipse_lunar_end = temporal.jd_to_utc(jd_eclipse_lunar_end)[3]
                 if (jd_eclipse_lunar_start - (tz_off / 24.0)) == 0.0 or \
                         (jd_eclipse_lunar_end - (tz_off / 24.0)) == 0.0:
                     # Move towards the next eclipse... at least the next full
@@ -1830,7 +1830,7 @@ class Panchangam(common.JsonObject):
                 # self.jd_sunrise[fday-1]
                 if (jd < (self.jd_sunrise[fday] + tz_off / 24.0)):
                     fday -= 1
-                if eclipse_lunar_start < swe.revjul(self.jd_sunrise[fday + 1] + tz_off / 24.0)[3]:
+                if eclipse_lunar_start < temporal.jd_to_utc(self.jd_sunrise[fday + 1] + tz_off / 24.0)[3]:
                     eclipse_lunar_start += 24
                 # print '%%', jd, fday, self.jd_sunrise[fday],
                 # self.jd_sunrise[fday-1], eclipse_lunar_start,
@@ -1852,8 +1852,8 @@ class Panchangam(common.JsonObject):
                     jd += temporal.MIN_DAYS_NEXT_ECLIPSE
                     continue
 
-                moonrise_eclipse_day = swe.revjul(jd_moonrise_eclipse_day)[3]
-                moonset_eclipse_day = swe.revjul(jd_moonset_eclipse_day)[3]
+                moonrise_eclipse_day = temporal.jd_to_utc(jd_moonrise_eclipse_day)[3]
+                moonset_eclipse_day = temporal.jd_to_utc(jd_moonset_eclipse_day)[3]
 
                 if jd_eclipse_lunar_start < jd_moonrise_eclipse_day:
                     eclipse_lunar_start = moonrise_eclipse_day
@@ -1919,7 +1919,7 @@ class Panchangam(common.JsonObject):
         log_file = open('cal-%4d-%s-log.txt' % (self.year, self.city.name), 'w')
         for d in range(1, self.len - 1):
             jd = self.jd_start_utc - 1 + d
-            [y, m, dt, t] = swe.revjul(jd)
+            [y, m, dt, t] = temporal.jd_to_utc(jd)
             longitude_sun_sunset = swe.calc_ut(self.jd_sunset[d], swe.SUN)[0] - swe.get_ayanamsa(self.jd_sunset[d])
             log_data = '%02d-%02d-%4d\t[%3d]\tsun_rashi=%8.3f\ttithi=%8.3f\tsolar_month\
         =%2d\tlunar_month=%4.1f\n' % (dt, m, y, d, (longitude_sun_sunset % 360) / 30.0,

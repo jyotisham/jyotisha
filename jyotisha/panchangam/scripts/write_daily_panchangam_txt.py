@@ -2,12 +2,12 @@
 # -*- coding: utf-8 -*-
 
 import logging
-from io import StringIO
 import os
 import os.path
 import re
-import swisseph as swe
 import sys
+from io import StringIO
+from math import ceil
 
 from indic_transliteration import xsanscript as sanscript
 
@@ -16,8 +16,8 @@ import jyotisha.custom_transliteration
 import jyotisha.panchangam.spatio_temporal.annual
 import jyotisha.panchangam.temporal
 import jyotisha.panchangam.temporal.hour
+from jyotisha.panchangam import temporal
 from jyotisha.panchangam.spatio_temporal import City
-from math import ceil
 
 logging.basicConfig(
     level=logging.DEBUG,
@@ -113,7 +113,7 @@ def writeDailyText(panchangam, compute_lagnams=True, output_file_stream=sys.stdo
 
     for d in range(1, jyotisha.panchangam.temporal.MAX_SZ - 1):
 
-        [y, m, dt, t] = swe.revjul(panchangam.jd_start_utc + d - 1)
+        [y, m, dt, t] = temporal.jd_to_utc(panchangam.jd_start_utc + d - 1)
 
         print('## %02d-%s-%4d' % (dt, month[m], y), file=output_stream)
 
