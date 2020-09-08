@@ -1,7 +1,7 @@
 import logging
 import swisseph as swe
 import sys
-from math import floor
+from math import floor, modf
 
 from astropy.time import Time
 from sanskrit_data.schema import common
@@ -54,6 +54,14 @@ def jd_to_utc(jd):
     tm = Time(jd, format='jd')
     tm.format = "ymdhms"
     return [tm.value["year"], tm.value["month"], tm.value["day"], tm.value["hour"] + tm.value["minute"] / 60.0 + tm.value["second"] / 3600.0]
+
+
+def utc_to_jd(year, month, day, hour):
+    minutes, _ = modf(hour * 60)
+    seconds, minutes = modf(minutes * 60)
+    tm = Time({"year": year, "month": month, "day": day, "hour": int(hour), "minute": int(minutes), "second": seconds}, format='ymdhms')
+    tm.format = "jd"
+    return tm.value
 
 
 def get_nakshatram(jd, ayanamsha_id=swe.SIDM_LAHIRI):

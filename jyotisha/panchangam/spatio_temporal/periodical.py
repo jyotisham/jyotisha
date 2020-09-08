@@ -41,8 +41,8 @@ class Panchangam(common.JsonObject):
         self.script = script
         self.fmt = fmt
 
-        self.jd_start_utc = swe.julday(self.start_date[0], self.start_date[1], self.start_date[2], 0)
-        self.jd_end_utc = swe.julday(self.end_date[0], self.end_date[1], self.end_date[2], 0)
+        self.jd_start_utc = temporal.utc_to_jd(self.start_date[0], self.start_date[1], self.start_date[2], 0)
+        self.jd_end_utc = temporal.utc_to_jd(self.end_date[0], self.end_date[1], self.end_date[2], 0)
 
         self.duration = int(self.jd_end_utc - self.jd_start_utc) + 1
         self.len = int(self.duration + 4)  # some buffer, for various look-ahead calculations
@@ -563,7 +563,7 @@ class Panchangam(common.JsonObject):
                         harivasara_end = brentq(temporal.get_angam_float, self.jd_sunrise[smaarta_ekadashi_fday] - 2, self.jd_sunrise[smaarta_ekadashi_fday] + 2, args=(temporal.TITHI_PADA, -105, self.ayanamsha_id, False))
                     [_y, _m, _d, _t] = temporal.jd_to_utc(harivasara_end + (tz_off / 24.0))
                     hariv_end_time = jyotisha.panchangam.temporal.hour.Hour(temporal.jd_to_utc(harivasara_end + (tz_off / 24.0))[3]).toString(format=self.fmt)
-                    fday_hv = swe.julday(_y, _m, _d, 0) - self.jd_start_utc + 1
+                    fday_hv = temporal.utc_to_jd(_y, _m, _d, 0) - self.jd_start_utc + 1
                     self.festivals[int(fday_hv)].append('harivAsaraH\\textsf{%s}{\\RIGHTarrow}\\textsf{%s}' % ('', hariv_end_time))
 
     def assign_mahadwadashi(self, debug_festivals=False):
@@ -947,7 +947,7 @@ class Panchangam(common.JsonObject):
                                         self.jd_sunrise[d] + 15, args=(-30 * self.solar_month[d], False))
                 [_y, _m, _d, _t] = temporal.jd_to_utc(ayana_jd_start + (tz_off / 24.0))
                 # Reduce fday by 1 if ayana time precedes sunrise and change increment _t by 24
-                fday_nirayana = int(swe.julday(_y, _m, _d, 0) - self.jd_start_utc + 1)
+                fday_nirayana = int(temporal.utc_to_jd(_y, _m, _d, 0) - self.jd_start_utc + 1)
                 if fday_nirayana > self.duration:
                     continue
                 if ayana_jd_start < self.jd_sunrise[fday_nirayana]:
