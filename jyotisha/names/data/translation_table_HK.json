@@ -36,7 +36,7 @@
     "hk": ["bhAnuH" , "induH" , "bhaumaH" , "saumyaH" , "guruH" , "bhRguH" , "sthiraH"]
   },
   "SAMVATSARA_NAMES": {
-    "hk": ["prabhavaH", "vibhavaH", "zuklaH", "pramOdaH", "prajApatiH", "aGgirAH", "zrImukhaH", "bhAvaH", "yuvA", "dhAtA", "IzvaraH", "bahudhAnyaH", "pramAthI", "vikramaH", "vRSaH", "citrabhAnuH", "subhAnuH", "tAraNaH", "pArthivaH", "vyayaH", "sarvajit", "sarvadhArI", "virodhI", "vikRtiH", "kharaH", "nandanaH", "vijayaH", "jayaH", "manmathaH", "durmukhaH", "hemalambaH", "vilambaH", "vikArI", "zArvarI", "plavaH", "zubhakRt", "zobhanaH", "krodhI", "vizvAvasuH", "parAbhavaH", "plavaGgaH", "kIlakaH", "saumyaH", "sAdhAraNaH", "virodhikRt", "paritApI", "pramAdI", "AnandaH", "rAkSasaH", "nalaH", "piGgalaH", "kAlayuktiH", "siddhArthI", "raudraH", "durmatiH", "dundubhiH", "rudhirodgArI", "raktAkSaH", "krodhanaH", "kSayaH"]
+    "hk": ["prabhavaH", "vibhavaH", "zuklaH", "pramOdaH", "prajApatiH", "aGgirAH", "zrImukhaH", "bhAvaH", "yuvA", "dhAtA", "IzvaraH", "bahudhAnyaH", "pramAthI", "vikramaH", "vRSaH", "citrabhAnuH", "subhAnuH", "tAraNaH", "pArthivaH", "vyayaH", "sarvajit", "sarvadhArI", "virOdhI", "vikRtiH", "kharaH", "nandanaH", "vijayaH", "jayaH", "manmathaH", "durmukhaH", "hEmalambaH", "vilambaH", "vikArI", "zArvarI", "plavaH", "zubhakRt", "zObhanaH", "krOdhI", "vizvAvasuH", "parAbhavaH", "plavaGgaH", "kIlakaH", "saumyaH", "sAdhAraNaH", "virOdhikRt", "paritApI", "pramAdI", "AnandaH", "rAkSasaH", "nalaH", "piGgalaH", "kAlayuktiH", "siddhArthI", "raudraH", "durmatiH", "dundubhiH", "rudhirOdgArI", "raktAkSaH", "krOdhanaH", "kSayaH"]
   },
   "YOGA_NAMES": {
     "hk": ["viSkambhaH", "prItiH", "AyuSmAn", "saubhAgyaH", "zObhanaH", "atigaNDaH", "sukarma", "dhRtiH", "zUlaH", "gaNDaH", "vRddhiH", "dhruvaH", "vyAghAtaH", "harSaNaH", "vajram", "siddhiH", "vyatIpAtaH", "varIyAn", "parighaH", "zivaH", "siddhaH", "sAdhyaH", "zubhaH", "zuklaH", "brahma", "indraH", "vaidhRtiH"]
@@ -45,9 +45,9 @@
     "hk": ["uttarAyaNam", "uttarAyaNam", "uttarAyaNam", "dakSiNAyanam", "dakSiNAyanam", "dakSiNAyanam", "dakSiNAyanam", "dakSiNAyanam", "dakSiNAyanam", "uttarAyaNam", "uttarAyaNam", "uttarAyaNam"]
   },
   "RTU_MASA_NAMES": {
-    "hk": ["madhu-mAsaH", "mAdhava-mAsaH/vasantaRtuH", "zukra-mAsaH/uttarAyaNam", "zuci-mAsaH/grISmaRtuH", "nabhO-mAsaH", "nabhasya-mAsaH/varSARtuH", "iSa-mAsaH", "Urja-mAsaH/zaradRtuH", "sahO-mAsaH/dakSiNAyanam", "sahasya-mAsaH/hEmantaRtuH", "tapO-mAsaH", "tapasya-mAsaH/ziziraRtuH"]
+    "hk": ["madhu-mAsaH", "mAdhava-mAsaH/vasantaRtuH", "zukra-mAsaH/uttarAyaNam", "zuci-mAsaH/grISmaRtuH", "nabhO-mAsaH", "nabhasya-mAsaH/varSaRtuH", "iSa-mAsaH", "Urja-mAsaH/zaradRtuH", "sahO-mAsaH/dakSiNAyanam", "sahasya-mAsaH/hEmantaRtuH", "tapO-mAsaH", "tapasya-mAsaH/ziziraRtuH"]
   },
   "RTU_NAMES": {
-    "hk": ["vasantaRtuH", "vasantaRtuH", "grISmaRtuH", "grISmaRtuH", "varSARtuH", "varSARtuH", "zaradRtuH", "zaradRtuH", "hEmantaRtuH", "hEmantaRtuH", "ziziraRtuH", "ziziraRtuH"]
+    "hk": ["vasantaRtuH", "vasantaRtuH", "grISmaRtuH", "grISmaRtuH", "varSaRtuH", "varSaRtuH", "zaradRtuH", "zaradRtuH", "hEmantaRtuH", "hEmantaRtuH", "ziziraRtuH", "ziziraRtuH"]
   }
 }

@@ -289,6 +289,14 @@ class Panchangam(common.JsonObject):
                                (jd_sunrise_datmrw - jd_sunset_tmrw) * (7.0 / 15.0), ayanamsha_id=self.ayanamsha_id),
                 get_angam_func(jd_sunset_tmrw +
                                (jd_sunrise_datmrw - jd_sunset_tmrw) * (8.0 / 15.0), ayanamsha_id=self.ayanamsha_id)]
+        elif kaala_type == 'dinamaana':
+            angams = [
+                get_angam_func(jd_sunrise + (jd_sunset - jd_sunrise) * (0.0 / 5.0), ayanamsha_id=self.ayanamsha_id),
+                get_angam_func(jd_sunrise + (jd_sunset - jd_sunrise) * (5.0 / 5.0), ayanamsha_id=self.ayanamsha_id),
+                get_angam_func(jd_sunrise_tmrw +
+                               (jd_sunset_tmrw - jd_sunrise_tmrw) * (0.0 / 5.0), ayanamsha_id=self.ayanamsha_id),
+                get_angam_func(jd_sunrise_tmrw + (jd_sunset_tmrw -
+                                                  jd_sunrise_tmrw) * (5.0 / 5.0), ayanamsha_id=self.ayanamsha_id)]
         elif kaala_type == 'raatrimaana':
             angams = [
                 get_angam_func(jd_sunset + (jd_sunrise_tmrw - jd_sunset) * (0.0 / 15.0),
@@ -342,7 +350,8 @@ class Panchangam(common.JsonObject):
                 tithi_sunset = temporal.get_tithi(self.jd_sunset[d], ayanamsha_id=self.ayanamsha_id)
                 tithi_sunset_tmrw = temporal.get_tithi(self.jd_sunset[d + 1],
                                                        ayanamsha_id=self.ayanamsha_id)
-                if tithi_sunset <= 2 and tithi_sunset_tmrw != 2:
+                # if tithi_sunset <= 2 and tithi_sunset_tmrw != 2:
+                if tithi_sunset <= 2:
                     if tithi_sunset == 1:
                         self.festivals[d + 1].append('candra-darzanam')
                     else:
@@ -356,12 +365,9 @@ class Panchangam(common.JsonObject):
 
             # SANKATAHARA chaturthi
             if self.tithi_sunrise[d] == 18 or self.tithi_sunrise[d] == 19:
-                ldiff_moonrise_yest = (swe.calc_ut(self.jd_moonrise[d - 1], swe.MOON)[0] -
-                                       swe.calc_ut(self.jd_moonrise[d - 1], swe.SUN)[0]) % 360
-                ldiff_moonrise = (swe.calc_ut(self.jd_moonrise[d], swe.MOON)[0] -
-                                  swe.calc_ut(self.jd_moonrise[d], swe.SUN)[0]) % 360
-                ldiff_moonrise_tmrw = (swe.calc_ut(self.jd_moonrise[d + 1], swe.MOON)[0] -
-                                       swe.calc_ut(self.jd_moonrise[d + 1], swe.SUN)[0]) % 360
+                ldiff_moonrise_yest = (swe.calc_ut(self.jd_moonrise[d - 1], swe.MOON)[0] - swe.calc_ut(self.jd_moonrise[d - 1], swe.SUN)[0]) % 360
+                ldiff_moonrise = (swe.calc_ut(self.jd_moonrise[d], swe.MOON)[0] - swe.calc_ut(self.jd_moonrise[d], swe.SUN)[0]) % 360
+                ldiff_moonrise_tmrw = (swe.calc_ut(self.jd_moonrise[d + 1], swe.MOON)[0] - swe.calc_ut(self.jd_moonrise[d + 1], swe.SUN)[0]) % 360
                 tithi_moonrise_yest = int(1 + floor(ldiff_moonrise_yest / 12.0))
                 tithi_moonrise = int(1 + floor(ldiff_moonrise / 12.0))
                 tithi_moonrise_tmrw = int(1 + floor(ldiff_moonrise_tmrw / 12.0))
@@ -390,12 +396,13 @@ class Panchangam(common.JsonObject):
                 else:
                     if tithi_moonrise_yest != 19:
                         if tithi_moonrise == 18 and tithi_moonrise_tmrw == 20:
-                            chaturthi_name = '%s%s' % ('aGgArakI~' if self.weekday[d] == 2 else '', chaturthi_name)
-                            self.festivals[d].append(chaturthi_name + 'saGkaTahara-caturthI-vratam')
+                            # No vyApti on either day -- pick parA, i.e. next day.
+                            chaturthi_name = '%s%s' % ('aGgArakI~' if self.weekday[d + 1] == 2 else '', chaturthi_name)
+                            self.festivals[d + 1].append(chaturthi_name + 'saGkaTahara-caturthI-vratam')
                             # shravana krishna chaturthi
                             if self.lunar_month[d] == 5:
-                                chaturthi_name = '%s%s' % ('aGgArakI~' if self.weekday[d] == 2 else '', chaturthi_name)
-                                self.festivals[d][-1] = chaturthi_name + 'mahAsaGkaTahara-caturthI-vratam'
+                                chaturthi_name = '%s%s' % ('aGgArakI~' if self.weekday[d + 1] == 2 else '', chaturthi_name)
+                                self.festivals[d + 1][-1] = chaturthi_name + 'mahAsaGkaTahara-caturthI-vratam'
 
     def assign_shasthi_vratam(self, debug_festivals=False):
         for d in range(1, self.duration + 1):
@@ -906,8 +913,10 @@ class Panchangam(common.JsonObject):
             for (nwd_fest_n, nwd_fest_wd, nwd_fest_name) in ((13, 0, 'Adityahasta-puNyakAlaH'),
                                                              (8, 0, 'ravipuSyayOga-puNyakAlaH'),
                                                              (22, 1, 'sOmazrAvaNI-puNyakAlaH'),
+                                                             (5, 1, 'sOmamRgazIrSa-puNyakAlaH'),
                                                              (1, 2, 'bhaumAzvinI-puNyakAlaH'),
-                                                             (17, 3, 'budhAnUrAdhA-puNyakAlaH'),
+                                                             (6, 2, 'bhaumArdrA-puNyakAlaH'),
+                                                             (17, 3, 'budhAnurAdhA-puNyakAlaH'),
                                                              (8, 4, 'gurupuSya-puNyakAlaH'),
                                                              (27, 5, 'bhRgurEvatI-puNyakAlaH'),
                                                              (4, 6, 'zanirOhiNI-puNyakAlaH'),
@@ -915,7 +924,7 @@ class Panchangam(common.JsonObject):
                 n_prev = ((nwd_fest_n - 2) % 27) + 1
                 if (self.nakshatram_sunrise[d] == nwd_fest_n or self.nakshatram_sunrise[d] == n_prev) and self.weekday[d] == nwd_fest_wd:
                     # Is it necessarily only at sunrise?
-                    angams = self.get_angams_for_kaalas(d, temporal.get_nakshatram, 'madhyaahna')
+                    angams = self.get_angams_for_kaalas(d, temporal.get_nakshatram, 'dinamaana')
                     if any(x == nwd_fest_n for x in [self.nakshatram_sunrise[d], angams[0], angams[1]]):
                         self.add_festival(nwd_fest_name, d, debug_festivals)
 
@@ -1010,23 +1019,6 @@ class Panchangam(common.JsonObject):
                 if temporal.get_angam(self.jd_sunset[d], temporal.KARANAM,
                                       ayanamsha_id=self.ayanamsha_id) in list(range(2, 52, 7)):
                     self.add_festival('AyuSmAn-bava-saumya', d, debug_festivals)
-
-    def assign_vishesha_vyatipata(self, debug_festivals=False):
-        for d in range(1, self.duration + 1):
-            [y, m, dt, t] = swe.revjul(self.jd_start_utc + d - 1)
-
-            # VYATIPATAM
-            if temporal.get_yoga(self.jd_sunrise[d], ayanamsha_id=self.ayanamsha_id) == 17 and \
-                    self.solar_month[d] in [6, 9]:
-                yogas_yest = self.get_angams_for_kaalas(d - 1, temporal.get_yoga, 'madhyaahna')
-                if self.solar_month[d] == 9:
-                    festival_name = 'mahAdhanurvyatIpAtam'
-                elif self.solar_month[d] == 6:
-                    festival_name = 'mahAvyatIpAtam'
-                if yogas_yest[0] == 17 or yogas_yest[1] == 17:
-                    self.add_festival(festival_name, d - 1, debug_festivals)
-                else:
-                    self.add_festival(festival_name, d, debug_festivals)
 
     def assign_festivals_from_rules(self, festival_rules, debug_festivals=False):
         for d in range(1, self.duration + 1):
@@ -1275,6 +1267,18 @@ class Panchangam(common.JsonObject):
                                 else:
                                     logging.warning('Not adding festival %s on %d fday (month = %d instead of %d)' % (festival_name, fday, self.lunar_month[fday], month_num))
 
+    def assign_vishesha_vyatipata(self, debug_festivals=False):
+        vs_list = self.fest_days['vyatIpAta-zrAddham']
+        for d in vs_list:
+            if self.solar_month[d] == 9:
+                self.fest_days['vyatIpAta-zrAddham'].remove(d)
+                festival_name = 'mahAdhanurvyatIpAta-zrAddham'
+                self.add_festival(festival_name, d, debug_festivals)
+            elif self.solar_month[d] == 6:
+                self.fest_days['vyatIpAta-zrAddham'].remove(d)
+                festival_name = 'mahAvyatIpAta-zrAddham'
+                self.add_festival(festival_name, d, debug_festivals)
+
     def assign_festival_numbers(self, festival_rules, debug_festivals=False):
         # Update festival numbers if they exist
         solar_y_start_d = []
@@ -1363,13 +1367,13 @@ class Panchangam(common.JsonObject):
         self.assign_ayanam(debug_festivals=debug_festivals)
         self.assign_month_day_festivals(debug_festivals=debug_festivals)
         self.assign_ayushman_bava_saumya_yoga(debug_festivals=debug_festivals)
-        self.assign_vishesha_vyatipata(debug_festivals=debug_festivals)
 
         # ASSIGN ALL FESTIVALS FROM adyatithi submodule
         # festival_rules = read_old_festival_rules_dict(os.path.join(CODE_ROOT, 'panchangam/data/festival_rules_test.json'))
         festival_rules = read_old_festival_rules_dict(os.path.join(CODE_ROOT, 'panchangam/temporal/festival/legacy/festival_rules.json'))
         assert "tripurOtsavaH" in festival_rules
         self.assign_festivals_from_rules(festival_rules, debug_festivals=debug_festivals)
+        self.assign_vishesha_vyatipata(debug_festivals=debug_festivals)
         self.assign_festival_numbers(festival_rules, debug_festivals=debug_festivals)
         self.assign_amavasya_yoga(debug_festivals=debug_festivals)
         self.cleanup_festivals(debug_festivals=debug_festivals)
@@ -1961,11 +1965,15 @@ def get_panchangam(city, start_date, end_date, script, fmt='hh:mm', compute_lagn
 
     if os.path.isfile(fname) and not compute_lagnams:
         sys.stderr.write('Loaded pre-computed panchangam from %s.\n' % fname)
-        return JsonObject.read_from_file(filename=fname)
+        p = JsonObject.read_from_file(filename=fname)
+        p.script = script  # Need to force script, in case saved file script is different
+        return p
     elif os.path.isfile(fname_det):
         # Load pickle, do not compute!
         sys.stderr.write('Loaded pre-computed panchangam from %s.\n' % fname)
-        return JsonObject.read_from_file(filename=fname_det)
+        p = JsonObject.read_from_file(filename=fname_det)
+        p.script = script  # Need to force script, in case saved file script is different
+        return p
     else:
         sys.stderr.write('No precomputed data available. Computing panchangam...\n')
         panchangam = Panchangam(city=city, start_date=start_date, end_date=end_date, script=script, fmt=fmt, compute_lagnams=compute_lagnams, ayanamsha_id=ayanamsha_id)

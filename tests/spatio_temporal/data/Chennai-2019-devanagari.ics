@@ -16,15 +16,10 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:बुधानूराधा-पुण्यकालः
+SUMMARY:बुधानुराधा-पुण्यकालः
 DTSTART;VALUE=DATE:20190102
 DTEND;VALUE=DATE:20190103
-DESCRIPTION:When अनूराधा nakshatram falls on a Wednesday\, i
- t is a special पुण्यकालः for performing दानम्.
-  One can do दानं of दध्योदनम् in Vishnu temples 
- on this day.<br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/ma
- ster/data/other/rare-days/combinations#budhānūrādhā-puṇyakālaḥ<br
- /><br/>#RareDays #Combinations
+DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -267,11 +262,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:महाधनुर्व्यतीपातम्
-DTSTART;VALUE=DATE:20190110
-DTEND;VALUE=DATE:20190111
-DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- other/shraddha-days#mahādhanurvyatīpātam<br/><br/>#ShraddhaDays
+SUMMARY:श्रवण-व्रतम्
+DTSTART;VALUE=DATE:20190108
+DTEND;VALUE=DATE:20190109
+DESCRIPTION:Observed on Śravaṇam nakṣhatram day of every solar month 
+ (sangava/puurvaviddha (default)).<br/><br/><br/>https://github.com/sanskri
+ t-coders/adyatithi/tree/master/data/solar_month/nakshatram/00/22#śravaṇ
+ a-vratam<br/><br/>#SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -281,13 +278,29 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:व्यतीपात-श्राद्धम्
+SUMMARY:महाधनुर्व्यतीपात-स्नान
+ म्
 DTSTART;VALUE=DATE:20190110
 DTEND;VALUE=DATE:20190111
-DESCRIPTION:Observed on  of every solar month (aparaahna/vyaapti).<br/>Vya
- tipata Shraddha day.<br/><br/>https://github.com/sanskrit-coders/adyatithi
- /tree/master/data/solar_month/yoga/00/17#vyatīpāta-śrāddham<br/><br/>#
- MonthlyShraddhaDays #ShannavatiTarpanaDays
+DESCRIPTION:Observed on  of Dhanuḥ (solar) month (arunodaya/puurvaviddha
+ ).<br/>Special स्नानम् on account of महाधनुर
+ ्व्यतीपातम्.<br/><br/>https://github.com/sanskrit-co
+ ders/adyatithi/tree/master/data/solar_month/yoga/09/17#mahādhanurvyatīp
+ āta-snānam<br/><br/>#SpecialSnanam
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:महाधनुर्व्यतीपात-श्राद
+ ्धम्
+DTSTART;VALUE=DATE:20190110
+DTEND;VALUE=DATE:20190111
+DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -953,10 +966,27 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:लम्बोदर-महागणपति सङ्कटह
- र-चतुर्थी-व्रतम्
+SUMMARY:திருமழிசையாழ்வார் திரு
+ நக்ஷத்திரம்
 DTSTART;VALUE=DATE:20190123
 DTEND;VALUE=DATE:20190124
+DESCRIPTION:Observed on Maghā nakṣhatram day of Makaraḥ (solar) month
+  (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-coders/ad
+ yatithi/tree/master/data/solar_month/nakshatram/10/10#tirumaḽichaiyāḽ
+ vār-tirunakṣattiram<br/><br/>#MahapurushaEvents #AzhwarJayanti
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:लम्बोदर-महागणपति सङ्कटह
+ र-चतुर्थी-व्रतम्
+DTSTART;VALUE=DATE:20190124
+DTEND;VALUE=DATE:20190125
 DESCRIPTION:Special vrata day for Ganesha. In this month\, Ganesha is wors
  hipped as लम्बोदर-महागणपतिः. Fast during t
  he day and pray to Ganesha after moonrise\, as follows:<br/><br/>गणा
@@ -967,23 +997,6 @@ DESCRIPTION:Special vrata day for Ganesha. In this month\, Ganesha is wors
  aster/data/other/monthly-vratam/sankatahara-chaturthi-vratam#lambodara-mah
  āgaṇapati-saṅkaṭahara-chaturthī-vratam<br/><br/>#MonthlyVratam #Sa
  nkataharaChaturthiVratam
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:திருமழிசையாழ்வார் திரு
- நக்ஷத்திரம்
-DTSTART;VALUE=DATE:20190123
-DTEND;VALUE=DATE:20190124
-DESCRIPTION:Observed on Maghā nakṣhatram day of Makaraḥ (solar) month
-  (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-coders/ad
- yatithi/tree/master/data/solar_month/nakshatram/10/10#tirumaḽichaiyāḽ
- vār-tirunakṣattiram<br/><br/>#MahapurushaEvents #AzhwarJayanti
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1199,15 +1212,10 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:बुधानूराधा-पुण्यकालः
+SUMMARY:बुधानुराधा-पुण्यकालः
 DTSTART;VALUE=DATE:20190130
 DTEND;VALUE=DATE:20190131
-DESCRIPTION:When अनूराधा nakshatram falls on a Wednesday\, i
- t is a special पुण्यकालः for performing दानम्.
-  One can do दानं of दध्योदनम् in Vishnu temples 
- on this day.<br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/ma
- ster/data/other/rare-days/combinations#budhānūrādhā-puṇyakālaḥ<br
- /><br/>#RareDays #Combinations
+DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1413,6 +1421,22 @@ DESCRIPTION:Observed on  of every solar month (aparaahna/vyaapti).<br/>Vya
  tipata Shraddha day.<br/><br/>https://github.com/sanskrit-coders/adyatithi
  /tree/master/data/solar_month/yoga/00/17#vyatīpāta-śrāddham<br/><br/>#
  MonthlyShraddhaDays #ShannavatiTarpanaDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:श्रवण-व्रतम्
+DTSTART;VALUE=DATE:20190204
+DTEND;VALUE=DATE:20190205
+DESCRIPTION:Observed on Śravaṇam nakṣhatram day of every solar month 
+ (sangava/puurvaviddha (default)).<br/><br/><br/>https://github.com/sanskri
+ t-coders/adyatithi/tree/master/data/solar_month/nakshatram/00/22#śravaṇ
+ a-vratam<br/><br/>#SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2149,13 +2173,12 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:कल्पादिः
+SUMMARY:प्रदोष-व्रतम्
 DTSTART;VALUE=DATE:20190217
 DTEND;VALUE=DATE:20190218
-DESCRIPTION:Observed on Śukla-Trayodaśī tithi of Māghaḥ (lunar) mont
- h (aparaahna/vyaapti).<br/>Kalpadi<br/><br/>https://github.com/sanskrit-co
- ders/adyatithi/tree/master/data/lunar_month/tithi/11/13#kalpādiḥ<br/><b
- r/>#KalpadiDays
+DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
+ other/monthly-vratam/pradosha-vratam#pradoṣa-vratam<br/><br/>#MonthlyVra
+ tam #PradoshaVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2165,12 +2188,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:प्रदोष-व्रतम्
+SUMMARY:रविपुष्ययोग-पुण्यकालः
 DTSTART;VALUE=DATE:20190217
 DTEND;VALUE=DATE:20190218
-DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- other/monthly-vratam/pradosha-vratam#pradoṣa-vratam<br/><br/>#MonthlyVra
- tam #PradoshaVratam
+DESCRIPTION:When Pushya nakshatram falls on a Sunday\, it is a special प
+ ुण्यकालः.<br/><br/>https://github.com/sanskrit-coders/adya
+ tithi/tree/master/data/other/rare-days/combinations#ravipuṣyayoga-puṇy
+ akālaḥ<br/><br/>#RareDays #Combinations
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2247,6 +2271,22 @@ DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Māghaḥ (lunar) month
   (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>https://github.
  com/sanskrit-coders/adyatithi/tree/master/data/lunar_month/tithi/11/12#var
  āha-dvādaśī<br/><br/>#Dashavataram
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:वराह-कल्पादिः
+DTSTART;VALUE=DATE:20190217
+DTEND;VALUE=DATE:20190218
+DESCRIPTION:Observed on Śukla-Trayodaśī tithi of Māghaḥ (lunar) mont
+ h (aparaahna/vyaapti).<br/>Kalpadi<br/><br/>https://github.com/sanskrit-co
+ ders/adyatithi/tree/master/data/lunar_month/tithi/11/13#varāha-kalpādi
+ ḥ<br/><br/>#KalpadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2728,6 +2768,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:श्रवण-व्रतम्
+DTSTART;VALUE=DATE:20190303
+DTEND;VALUE=DATE:20190304
+DESCRIPTION:Observed on Śravaṇam nakṣhatram day of every solar month 
+ (sangava/puurvaviddha (default)).<br/><br/><br/>https://github.com/sanskri
+ t-coders/adyatithi/tree/master/data/solar_month/nakshatram/00/22#śravaṇ
+ a-vratam<br/><br/>#SpecialVratam
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:मासशिवरात्रिः
 DTSTART;VALUE=DATE:20190304
 DTEND;VALUE=DATE:20190305
@@ -2912,6 +2968,27 @@ DESCRIPTION:Observed on Śukla-Prathamā tithi of Phālgunaḥ (lunar) mon
  thi/tree/master/data/lunar_month/tithi/12/01#kāñchī-67-jagadguru-śrī-
  mahādevendra-sarasvatī-5-ārādhanā<br/><br/>#KanchiAradhanaDays #Commo
  nFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:पयोव्रत-आरम्भः
+DTSTART;VALUE=DATE:20190307
+DTEND;VALUE=DATE:20190308
+DESCRIPTION:Observed on Śukla-Prathamā tithi of Phālgunaḥ (lunar) mon
+ th (sunrise (default)/puurvaviddha (default)).<br/>पयोव्रत
+ म् observed by Aditi Devi begins today.<br/><br/>फाल्गुन
+ स्यामले पक्षे द्वादशाहं पय
+ ोव्रतम्। अर्चयेदरविन्दाक्
+ षं भक्त्या परमया।अ।अन्वितः
+ ॥<br/><br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/m
+ aster/data/lunar_month/tithi/12/01#payovrata-ārambhaḥ<br/><br/>#VratamS
+ tart #SpecialPeriodStart
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3381,6 +3458,48 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:पयोव्रत-समापनम्
+DTSTART;VALUE=DATE:20190318
+DTEND;VALUE=DATE:20190319
+DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Phālgunaḥ (lunar) mo
+ nth (sunrise (default)/puurvaviddha (default)).<br/>पयोव्रत
+ म् observed by Aditi Devi ends today.<br/><br/>फाल्गुन
+ स्यामले पक्षे द्वादशाहं पय
+ ोव्रतम्। अर्चयेदरविन्दाक्
+ षं भक्त्या परमया।अ।अन्वितः
+ ॥<br/><br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/m
+ aster/data/lunar_month/tithi/12/12#payovrata-samāpanam<br/><br/>#VratamEn
+ d #SpecialPeriodEnd
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:पयोव्रतम्
+DTSTART;VALUE=DATE:20190307
+DTEND;VALUE=DATE:20190319
+DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Phālgunaḥ (lunar) mo
+ nth (sunrise (default)/puurvaviddha (default)).<br/>पयोव्रत
+ म् observed by Aditi Devi ends today.<br/><br/>फाल्गुन
+ स्यामले पक्षे द्वादशाहं पय
+ ोव्रतम्। अर्चयेदरविन्दाक्
+ षं भक्त्या परमया।अ।अन्वितः
+ ॥<br/><br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/m
+ aster/data/lunar_month/tithi/12/12#payovrata-samāpanam<br/><br/>#VratamEn
+ d #SpecialPeriodEnd
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:सोम-प्रदोष-व्रतम्
 DTSTART;VALUE=DATE:20190318
 DTEND;VALUE=DATE:20190319
@@ -3686,29 +3805,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:भालचन्द्र-महागणपति सङ्क
- टहर-चतुर्थी-व्रतम्
-DTSTART;VALUE=DATE:20190323
-DTEND;VALUE=DATE:20190324
-DESCRIPTION:Special vrata day for Ganesha. In this month\, Ganesha is wors
- hipped as भालचन्द्र-महागणपतिः. Fast du
- ring the day and pray to Ganesha after moonrise\, as follows:<br/><br/>ग
- णाधिपस्त्वं देवेश चतुर्थ्य
- ां पूजितो मया।<br/>कष्टान्मां 
- मोचयेशान सर्वमिष्टं च देहि 
- मे॥<br/><br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/
- tree/master/data/other/monthly-vratam/sankatahara-chaturthi-vratam#bhālac
- handra-mahāgaṇapati-saṅkaṭahara-chaturthī-vratam<br/><br/>#Monthly
- Vratam #SankataharaChaturthiVratam
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:ब्रह्म-कल्पादिः
 DTSTART;VALUE=DATE:20190323
 DTEND;VALUE=DATE:20190324
@@ -3775,6 +3871,29 @@ DESCRIPTION:Observed on Svātī nakṣhatram day of Mīnaḥ (solar) month
   (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-coders/ad
  yatithi/tree/master/data/solar_month/nakshatram/12/15#kāraikkāl-ammaiyā
  r-23-gurupūjai<br/><br/>#NayanarGurupujai
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:भालचन्द्र-महागणपति सङ्क
+ टहर-चतुर्थी-व्रतम्
+DTSTART;VALUE=DATE:20190324
+DTEND;VALUE=DATE:20190325
+DESCRIPTION:Special vrata day for Ganesha. In this month\, Ganesha is wors
+ hipped as भालचन्द्र-महागणपतिः. Fast du
+ ring the day and pray to Ganesha after moonrise\, as follows:<br/><br/>ग
+ णाधिपस्त्वं देवेश चतुर्थ्य
+ ां पूजितो मया।<br/>कष्टान्मां 
+ मोचयेशान सर्वमिष्टं च देहि 
+ मे॥<br/><br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/
+ tree/master/data/other/monthly-vratam/sankatahara-chaturthi-vratam#bhālac
+ handra-mahāgaṇapati-saṅkaṭahara-chaturthī-vratam<br/><br/>#Monthly
+ Vratam #SankataharaChaturthiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3905,6 +4024,22 @@ DTEND;VALUE=DATE:20190401
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
  relative_event/ta:kar2pagAmbAL–kapAlIzvarar tirukkalyANam/offset__11#kap
  ālī-viḍaiyār̂r̂i-nir̂aivu<br/><br/>#TamilnaduTempleFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:श्रवण-व्रतम्
+DTSTART;VALUE=DATE:20190331
+DTEND;VALUE=DATE:20190401
+DESCRIPTION:Observed on Śravaṇam nakṣhatram day of every solar month 
+ (sangava/puurvaviddha (default)).<br/><br/><br/>https://github.com/sanskri
+ t-coders/adyatithi/tree/master/data/solar_month/nakshatram/00/22#śravaṇ
+ a-vratam<br/><br/>#SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4162,22 +4297,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:कल्पादिः
-DTSTART;VALUE=DATE:20190406
-DTEND;VALUE=DATE:20190407
-DESCRIPTION:Observed on Śukla-Prathamā tithi of Caitraḥ (lunar) month 
- (aparaahna/vyaapti).<br/>Kalpadi<br/><br/>https://github.com/sanskrit-code
- rs/adyatithi/tree/master/data/lunar_month/tithi/01/01#kalpādiḥ<br/><br/
- >#KalpadiDays
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:वैधृति-श्राद्धम्
 DTSTART;VALUE=DATE:20190406
 DTEND;VALUE=DATE:20190407
@@ -4218,6 +4337,22 @@ DESCRIPTION:Observed on Śukla-Prathamā tithi of Caitraḥ (lunar) month
  (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>https://github.c
  om/sanskrit-coders/adyatithi/tree/master/data/lunar_month/tithi/01/01#yug
  ādiḥ<br/><br/>#Yugadi #CommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:श्वेत-कल्पादिः
+DTSTART;VALUE=DATE:20190406
+DTEND;VALUE=DATE:20190407
+DESCRIPTION:Observed on Śukla-Prathamā tithi of Caitraḥ (lunar) month 
+ (aparaahna/vyaapti).<br/>Kalpadi<br/><br/>https://github.com/sanskrit-code
+ rs/adyatithi/tree/master/data/lunar_month/tithi/01/01#śveta-kalpādiḥ<b
+ r/><br/>#KalpadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4331,22 +4466,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:मत्स्य जयन्ती
-DTSTART;VALUE=DATE:20190408
-DTEND;VALUE=DATE:20190409
-DESCRIPTION:Observed on Śukla-Tṛtīyā tithi of Caitraḥ (lunar) month
-  (aparaahna/puurvaviddha).<br/><br/>### References<br/>* Kielhorn (1897)<b
- r/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/master/data
- /lunar_month/tithi/01/03#matsya-jayantī<br/><br/>#Dashavataram
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:मुत्तुस्वामी दीक्षित जय
  न्ती #२४५
 DTSTART;VALUE=DATE:20190409
@@ -4397,13 +4516,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:कल्पादिः
+SUMMARY:कूर्म-कल्पादिः
 DTSTART;VALUE=DATE:20190410
 DTEND;VALUE=DATE:20190411
 DESCRIPTION:Observed on Śukla-Pañcamī tithi of Caitraḥ (lunar) month 
  (aparaahna/vyaapti).<br/>Kalpadi<br/><br/>https://github.com/sanskrit-code
- rs/adyatithi/tree/master/data/lunar_month/tithi/01/05#kalpādiḥ<br/><br/
- >#KalpadiDays
+ rs/adyatithi/tree/master/data/lunar_month/tithi/01/05#kūrma-kalpādiḥ<b
+ r/><br/>#KalpadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5377,9 +5496,25 @@ SUMMARY:நடராஜர் சித்திரை ஓணம் மஹ
 DTSTART;VALUE=DATE:20190427
 DTEND;VALUE=DATE:20190428
 DESCRIPTION:Observed on Śravaṇam nakṣhatram day of Meṣaḥ (solar) 
- month (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-code
- rs/adyatithi/tree/master/data/solar_month/nakshatram/01/22#naṭarājar-ch
- ittirai-oṇam-mahābhiṣekam<br/><br/>#TamilnaduTempleFestivals
+ month (pradosha/paraviddha).<br/><br/><br/>https://github.com/sanskrit-cod
+ ers/adyatithi/tree/master/data/solar_month/nakshatram/01/22#naṭarājar-c
+ hittirai-oṇam-mahābhiṣekam<br/><br/>#TamilnaduTempleFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:श्रवण-व्रतम्
+DTSTART;VALUE=DATE:20190427
+DTEND;VALUE=DATE:20190428
+DESCRIPTION:Observed on Śravaṇam nakṣhatram day of every solar month 
+ (sangava/puurvaviddha (default)).<br/><br/><br/>https://github.com/sanskri
+ t-coders/adyatithi/tree/master/data/solar_month/nakshatram/00/22#śravaṇ
+ a-vratam<br/><br/>#SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5445,6 +5580,22 @@ DESCRIPTION:Observed on  of every solar month (aparaahna/vyaapti).<br/>Vai
  dhrti Shraddha day.<br/><br/>https://github.com/sanskrit-coders/adyatithi/
  tree/master/data/solar_month/yoga/00/27#vaidhṛti-śrāddham<br/><br/>#Mo
  nthlyShraddhaDays #ShannavatiTarpanaDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:मत्स्य जयन्ती
+DTSTART;VALUE=DATE:20190502
+DTEND;VALUE=DATE:20190503
+DESCRIPTION:Observed on Kṛṣṇa-Trayodaśī tithi of Caitraḥ (lunar)
+  month (aparaahna/puurvaviddha).<br/><br/>### References<br/>* Kielhorn (1
+ 897)<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/maste
+ r/data/lunar_month/tithi/01/28#matsya-jayantī<br/><br/>#Dashavataram
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5813,13 +5964,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:कल्पादिः
+SUMMARY:पार्थिव-कल्पादिः
 DTSTART;VALUE=DATE:20190507
 DTEND;VALUE=DATE:20190508
 DESCRIPTION:Observed on Śukla-Tṛtīyā tithi of Vaiśākhaḥ (lunar) m
  onth (aparaahna/vyaapti).<br/>Kalpadi<br/><br/>https://github.com/sanskrit
- -coders/adyatithi/tree/master/data/lunar_month/tithi/02/03#kalpādiḥ<br/
- ><br/>#KalpadiDays
+ -coders/adyatithi/tree/master/data/lunar_month/tithi/02/03#pārthiva-kalp
+ ādiḥ<br/><br/>#KalpadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5969,6 +6120,24 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:ராமாநுஜர் திருநக்ஷத்தி
+ ரம் #1003
+DTSTART;VALUE=DATE:20190509
+DTEND;VALUE=DATE:20190510
+DESCRIPTION:Observed on Ārdrā nakṣhatram day of Meṣaḥ (solar) mont
+ h (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>https://github
+ .com/sanskrit-coders/adyatithi/tree/master/data/solar_month/nakshatram/01/
+ 06#rāmānujar-tirunakṣattiram<br/><br/>#MahapurushaEvents #CommonFestiv
+ als
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:விறன்மிண்ட நாயனார் (5) குர
  ுபூஜை
 DTSTART;VALUE=DATE:20190509
@@ -5990,10 +6159,9 @@ SUMMARY:शङ्कर जयन्ती #२५२८
 DTSTART;VALUE=DATE:20190509
 DTEND;VALUE=DATE:20190510
 DESCRIPTION:Observed on Śukla-Pañcamī tithi of Vaiśākhaḥ (lunar) mo
- nth (sunrise (default)/puurvaviddha (default)).<br/>Nandana year<br/><br/>
- https://github.com/sanskrit-coders/adyatithi/tree/master/data/lunar_month/
- tithi/02/05#śaṅkara-jayantī<br/><br/>#CommonFestivals #AdiShankaraHist
- ory #MahapurushaEvents
+ nth (praatah/paraviddha).<br/>Nandana year<br/><br/>https://github.com/san
+ skrit-coders/adyatithi/tree/master/data/lunar_month/tithi/02/05#śaṅkara
+ -jayantī<br/><br/>#CommonFestivals #AdiShankaraHistory #MahapurushaEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6064,10 +6232,10 @@ SUMMARY:गङ्गा-सप्तमी
 DTSTART;VALUE=DATE:20190511
 DTEND;VALUE=DATE:20190512
 DESCRIPTION:Observed on Śukla-Saptamī tithi of Vaiśākhaḥ (lunar) mon
- th (sunrise (default)/puurvaviddha (default)).<br/>Ganga came out of Jahnu
-  Maharshi and became Jahnavi\; perform Parjanya Pooja<br/><br/>https://git
- hub.com/sanskrit-coders/adyatithi/tree/master/data/lunar_month/tithi/02/07
- #gaṅgā-saptamī<br/><br/>#PuranaEvents #SpecialPuja #CommonFestivals
+ th (madhyaahna/puurvaviddha).<br/>Ganga came out of Jahnu Maharshi and bec
+ ame Jahnavi\; perform Parjanya Pooja<br/><br/>https://github.com/sanskrit-
+ coders/adyatithi/tree/master/data/lunar_month/tithi/02/07#gaṅgā-saptam
+ ī<br/><br/>#PuranaEvents #SpecialPuja #CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6607,23 +6775,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:कूर्म जयन्ती
-DTSTART;VALUE=DATE:20190518
-DTEND;VALUE=DATE:20190519
-DESCRIPTION:Observed on Paurṇamāsī tithi of Vaiśākhaḥ (lunar) mont
- h (saayaahna/puurvaviddha).<br/>Danam of Brahma puranam<br/>### References
- <br/>* Kielhorn (1897)<br/><br/><br/>https://github.com/sanskrit-coders/ad
- yatithi/tree/master/data/lunar_month/tithi/02/15#kūrma-jayantī<br/><br/>
- #Dashavataram #LessCommonFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:पूर्णिमा व्रतम्
 DTSTART;VALUE=DATE:20190518
 DTEND;VALUE=DATE:20190519
@@ -6988,6 +7139,22 @@ DESCRIPTION:Observed on Kṛṣṇa-Pañcamī tithi of Vaiśākhaḥ (luna
  es<br/>* http://hindupad.com/kashyap-rishi-jayanti/<br/><br/><br/>https://
  github.com/sanskrit-coders/adyatithi/tree/master/data/lunar_month/tithi/02
  /20#kaśyapa-maharṣi-jayantī<br/><br/>#MahapurushaEvents
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:श्रवण-व्रतम्
+DTSTART;VALUE=DATE:20190524
+DTEND;VALUE=DATE:20190525
+DESCRIPTION:Observed on Śravaṇam nakṣhatram day of every solar month 
+ (sangava/puurvaviddha (default)).<br/><br/><br/>https://github.com/sanskri
+ t-coders/adyatithi/tree/master/data/solar_month/nakshatram/00/22#śravaṇ
+ a-vratam<br/><br/>#SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8561,10 +8728,10 @@ BEGIN:VEVENT
 SUMMARY:श्रवण-व्रतम्
 DTSTART;VALUE=DATE:20190621
 DTEND;VALUE=DATE:20190622
-DESCRIPTION:Observed on Kṛṣṇa-Caturthī tithi of Jyaiṣṭhaḥ (lu
- nar) month (sangava/puurvaviddha (default)).<br/><br/><br/>https://github.
- com/sanskrit-coders/adyatithi/tree/master/data/lunar_month/tithi/03/19#śr
- avaṇa-vratam<br/><br/>#LessCommonFestivals
+DESCRIPTION:Observed on Śravaṇam nakṣhatram day of every solar month 
+ (sangava/puurvaviddha (default)).<br/><br/><br/>https://github.com/sanskri
+ t-coders/adyatithi/tree/master/data/solar_month/nakshatram/00/22#śravaṇ
+ a-vratam<br/><br/>#SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8709,6 +8876,23 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:कूर्म जयन्ती
+DTSTART;VALUE=DATE:20190629
+DTEND;VALUE=DATE:20190630
+DESCRIPTION:Observed on Kṛṣṇa-Dvādaśī tithi of Jyaiṣṭhaḥ (l
+ unar) month (saayaahna/puurvaviddha).<br/>Danam of Brahma puranam<br/>### 
+ References<br/>* Kielhorn (1897)<br/><br/><br/>https://github.com/sanskrit
+ -coders/adyatithi/tree/master/data/lunar_month/tithi/03/27#kūrma-jayantī
+ <br/><br/>#Dashavataram #LessCommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:सर्व-योगिनी-एकादशी
 DTSTART;VALUE=DATE:20190629
 DTEND;VALUE=DATE:20190630
@@ -8788,6 +8972,19 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:सोममृगशीर्ष-पुण्यकालः
+DTSTART;VALUE=DATE:20190701
+DTEND;VALUE=DATE:20190702
+DESCRIPTION:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:भोगशायि-पूजा
 DTSTART;VALUE=DATE:20190702
 DTEND;VALUE=DATE:20190703
@@ -8795,6 +8992,19 @@ DESCRIPTION:Observed on Amāvāsyā tithi of Jyaiṣṭhaḥ (lunar) month
   (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>https://github.
  com/sanskrit-coders/adyatithi/tree/master/data/lunar_month/tithi/03/30#bho
  gaśāyi-pūjā<br/><br/>#SpecialPuja
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:भौमार्द्रा-पुण्यकालः
+DTSTART;VALUE=DATE:20190702
+DTEND;VALUE=DATE:20190703
+DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9665,10 +9875,10 @@ DTSTART;VALUE=DATE:20190716
 DTEND;VALUE=DATE:20190717
 DESCRIPTION:Observed on Paurṇamāsī tithi of Āṣāḍhaḥ (lunar) mo
  nth (sunrise (default)/puurvaviddha (default)).<br/>Puja of Veda Vyasa / G
- urus\; Danam of Vishnu Puran is good on this day.<br/><br/>अचतुर
- ्वदनो ब्रह्मा द्विबाहुरपरो
-  हरिः।<br/>अफाललोचनो शम्भुर्भ
- गवान् बादारायणः॥<br/><br/><br/><br/>https://
+ urus\; Danam of Vishnu Puranam is good on this day.<br/><br/>अचतु
+ र्वदनो ब्रह्मा द्विबाहुरपर
+ ो हरिः।<br/>अफाललोचनो शम्भुर्
+ भगवान् बादरायणः॥<br/><br/><br/><br/>https://
  github.com/sanskrit-coders/adyatithi/tree/master/data/lunar_month/tithi/04
  /15#guru-pūrṇimā/vyāsa-pūjā<br/><br/>#PurnimaDays #SpecialPuja #Com
  monFestivals
@@ -9939,6 +10149,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:श्रवण-व्रतम्
+DTSTART;VALUE=DATE:20190718
+DTEND;VALUE=DATE:20190719
+DESCRIPTION:Observed on Śravaṇam nakṣhatram day of every solar month 
+ (sangava/puurvaviddha (default)).<br/><br/><br/>https://github.com/sanskri
+ t-coders/adyatithi/tree/master/data/solar_month/nakshatram/00/22#śravaṇ
+ a-vratam<br/><br/>#SpecialVratam
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:सर्वनदी-रजस्वला
 DTSTART;VALUE=DATE:20190719
 DTEND;VALUE=DATE:20190720
@@ -10135,6 +10361,32 @@ DTEND;VALUE=DATE:20190730
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
  other/monthly-vratam/pradosha-vratam#soma-pradoṣa-vratam<br/><br/>#Month
  lyVratam #PradoshaVratam
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:सोममृगशीर्ष-पुण्यकालः
+DTSTART;VALUE=DATE:20190729
+DTEND;VALUE=DATE:20190730
+DESCRIPTION:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:भौमार्द्रा-पुण्यकालः
+DTSTART;VALUE=DATE:20190730
+DTEND;VALUE=DATE:20190731
+DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10611,13 +10863,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:सूपोदन-व्रतम्
+SUMMARY:सूपौदन-व्रतम्
 DTSTART;VALUE=DATE:20190806
 DTEND;VALUE=DATE:20190807
 DESCRIPTION:Observed on Śukla-Ṣaṣṭhī tithi of Śrāvaṇaḥ (luna
  r) month (sunrise (default)/puurvaviddha (default)).<br/>Shiva Puja<br/><b
  r/>https://github.com/sanskrit-coders/adyatithi/tree/master/data/lunar_mon
- th/tithi/05/06#sūpodana-vratam<br/><br/>#SpecialVratam
+ th/tithi/05/06#sūpaudana-vratam<br/><br/>#SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11102,6 +11354,22 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of every lunar month (moonris
  r/>https://github.com/sanskrit-coders/adyatithi/tree/master/data/lunar_mon
  th/tithi/00/15#veṅkaṭāchale-pūrṇimā-garuḍa-sevā<br/><br/>#Andh
  raTempleFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:श्रवण-व्रतम्
+DTSTART;VALUE=DATE:20190814
+DTEND;VALUE=DATE:20190815
+DESCRIPTION:Observed on Śravaṇam nakṣhatram day of every solar month 
+ (sangava/puurvaviddha (default)).<br/><br/><br/>https://github.com/sanskri
+ t-coders/adyatithi/tree/master/data/solar_month/nakshatram/00/22#śravaṇ
+ a-vratam<br/><br/>#SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12657,10 +12925,10 @@ SUMMARY:दूर्वाष्टमी
 DTSTART;VALUE=DATE:20190906
 DTEND;VALUE=DATE:20190907
 DESCRIPTION:Observed on Śukla-Aṣṭamī tithi of Bhādrapadaḥ (lunar)
-  month (sunrise (default)/puurvaviddha (default)).<br/>Do पूजा *of
- * दूर्व!<br/><br/>https://github.com/sanskrit-coders/adyatithi/t
- ree/master/data/lunar_month/tithi/06/08#dūrvāṣṭamī<br/><br/>#LessCo
- mmonFestivals
+  month (aparaahna/puurvaviddha (default)).<br/>Do पूजा *of* दू
+ र्व!<br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/mast
+ er/data/lunar_month/tithi/06/08#dūrvāṣṭamī<br/><br/>#LessCommonFest
+ ivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13016,27 +13284,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:पयोव्रत-आरम्भः
-DTSTART;VALUE=DATE:20190910
-DTEND;VALUE=DATE:20190911
-DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Bhādrapadaḥ (lunar) 
- month (sunrise (default)/puurvaviddha (default)).<br/>पयोव्र
- तम् in chaturmasyam begins today.<br/><br/>प्रद्युम
- ्न तव तुष्ट्यर्थं प्रोष्टप
- द्यां तृतीयके।<br/>निर्विघ्न
- ं कुरु देवेश करिष्येऽहं पयो
- व्रतम्॥<br/><br/><br/><br/>https://github.com/sanskrit-coder
- s/adyatithi/tree/master/data/lunar_month/tithi/06/12#payovrata-ārambhaḥ
- <br/><br/>#VratamStart #SpecialPeriodStart #CommonFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:वामन जयन्ती
 DTSTART;VALUE=DATE:20190910
 DTEND;VALUE=DATE:20190911
@@ -13124,6 +13371,22 @@ DESCRIPTION:Observed on Śravaṇam nakṣhatram day of Siṃhaḥ (solar)
   month (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-cod
  ers/adyatithi/tree/master/data/solar_month/nakshatram/05/22#oṇam<br/><br
  />#CommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:श्रवण-व्रतम्
+DTSTART;VALUE=DATE:20190911
+DTEND;VALUE=DATE:20190912
+DESCRIPTION:Observed on Śravaṇam nakṣhatram day of every solar month 
+ (sangava/puurvaviddha (default)).<br/><br/><br/>https://github.com/sanskri
+ t-coders/adyatithi/tree/master/data/solar_month/nakshatram/00/22#śravaṇ
+ a-vratam<br/><br/>#SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13813,27 +14076,10 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:महाव्यतीपातम्
+SUMMARY:महाव्यतीपात-श्राद्धम्
 DTSTART;VALUE=DATE:20190922
 DTEND;VALUE=DATE:20190923
-DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- other/shraddha-days#mahāvyatīpātam<br/><br/>#ShraddhaDays
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:व्यतीपात-श्राद्धम्
-DTSTART;VALUE=DATE:20190922
-DTEND;VALUE=DATE:20190923
-DESCRIPTION:Observed on  of every solar month (aparaahna/vyaapti).<br/>Vya
- tipata Shraddha day.<br/><br/>https://github.com/sanskrit-coders/adyatithi
- /tree/master/data/solar_month/yoga/00/17#vyatīpāta-śrāddham<br/><br/>#
- MonthlyShraddhaDays #ShannavatiTarpanaDays
+DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -14314,15 +14560,10 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:बुधानूराधा-पुण्यकालः
+SUMMARY:बुधानुराधा-पुण्यकालः
 DTSTART;VALUE=DATE:20191002
 DTEND;VALUE=DATE:20191003
-DESCRIPTION:When अनूराधा nakshatram falls on a Wednesday\, i
- t is a special पुण्यकालः for performing दानम्.
-  One can do दानं of दध्योदनम् in Vishnu temples 
- on this day.<br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/ma
- ster/data/other/rare-days/combinations#budhānūrādhā-puṇyakālaḥ<br
- /><br/>#RareDays #Combinations
+DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -14586,6 +14827,23 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:मन्वादिः (स्वायम्भुवः [१])
+DTSTART;VALUE=DATE:20191006
+DTEND;VALUE=DATE:20191007
+DESCRIPTION:Observed on Śukla-Navamī tithi of Āśvayujaḥ (lunar) mont
+ h (aparaahna/vyaapti).<br/><br/>### References<br/>* Vaidyanātha-Dīkṣi
+ tīyam<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/mas
+ ter/data/lunar_month/tithi/07/09#manvādiḥ-svāyambhuvaḥ-[1]<br/><br/>
+ #ManvadiDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:भद्रकाळी-व्रतम्
 DTSTART;VALUE=DATE:20191007
 DTEND;VALUE=DATE:20191008
@@ -14627,6 +14885,22 @@ DESCRIPTION:Observed on Śukla-Navamī tithi of Āśvayujaḥ (lunar) mont
  \, Shourya-Vratam\, Mahaaphala Vratam\, PradeeptaNavami<br/><br/>https://g
  ithub.com/sanskrit-coders/adyatithi/tree/master/data/lunar_month/tithi/07/
  09#mahānavamī/sarasvatī-pūjā<br/><br/>#CommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:सोमश्रावणी-पुण्यकालः
+DTSTART;VALUE=DATE:20191007
+DTEND;VALUE=DATE:20191008
+DESCRIPTION:When Shravana nakshatram falls on a Monday\, it is a special 
+ पुण्यकालः.<br/><br/>https://github.com/sanskrit-coders/a
+ dyatithi/tree/master/data/other/rare-days/combinations#somaśrāvaṇī-pu
+ ṇyakālaḥ<br/><br/>#RareDays #Combinations
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -14846,6 +15120,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:श्रवण-व्रतम्
+DTSTART;VALUE=DATE:20191008
+DTEND;VALUE=DATE:20191009
+DESCRIPTION:Observed on Śravaṇam nakṣhatram day of every solar month 
+ (sangava/puurvaviddha (default)).<br/><br/><br/>https://github.com/sanskri
+ t-coders/adyatithi/tree/master/data/solar_month/nakshatram/00/22#śravaṇ
+ a-vratam<br/><br/>#SpecialVratam
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:सर्व-पापाङ्कुशा-एकादशी
 DTSTART;VALUE=DATE:20191009
 DTEND;VALUE=DATE:20191010
@@ -14874,54 +15164,6 @@ DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Āśvayujaḥ (lunar) m
  भो॥<br/><br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/
  tree/master/data/lunar_month/tithi/07/12#dvidala-vrata-ārambhaḥ<br/><br
  />#VratamStart #SpecialPeriodStart #CommonFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:पयोव्रत-समापनम्
-DTSTART;VALUE=DATE:20191010
-DTEND;VALUE=DATE:20191011
-DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Āśvayujaḥ (lunar) m
- onth (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>श्र
- ीप्रद्युम्न नमस्तुभ्यं मास
- मारभ्य यत्कृतम्।<br/>इष्टदो भ
- व सर्वेश गृहीत्वा तु पयोव्र
- तम्॥<br/>इदं व्रतं मया देव कृत
- ं प्रीत्यै तव प्रभो।<br/>न्यून
- ं सम्पूर्णतां यातु त्वत्प्
- रसादाज्जनार्दन॥<br/><br/><br/><br/>https://g
- ithub.com/sanskrit-coders/adyatithi/tree/master/data/lunar_month/tithi/07/
- 12#payovrata-samāpanam<br/><br/>#VratamEnd #SpecialPeriodEnd #CommonFesti
- vals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:पयोव्रतम्
-DTSTART;VALUE=DATE:20190910
-DTEND;VALUE=DATE:20191011
-DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Āśvayujaḥ (lunar) m
- onth (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>श्र
- ीप्रद्युम्न नमस्तुभ्यं मास
- मारभ्य यत्कृतम्।<br/>इष्टदो भ
- व सर्वेश गृहीत्वा तु पयोव्र
- तम्॥<br/>इदं व्रतं मया देव कृत
- ं प्रीत्यै तव प्रभो।<br/>न्यून
- ं सम्पूर्णतां यातु त्वत्प्
- रसादाज्जनार्दन॥<br/><br/><br/><br/>https://g
- ithub.com/sanskrit-coders/adyatithi/tree/master/data/lunar_month/tithi/07/
- 12#payovrata-samāpanam<br/><br/>#VratamEnd #SpecialPeriodEnd #CommonFesti
- vals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15374,20 +15616,6 @@ DESCRIPTION:Observed on Kṛṣṇa-Caturthī tithi of Āśvayujaḥ (luna
  r) month (moonrise/puurvaviddha).<br/><br/>### References<br/>* Kielhorn (
  1897)<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/mast
  er/data/lunar_month/tithi/07/19#karaka-chaturthī<br/><br/>#SpecialPuja
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:महाव्यतीपातम्
-DTSTART;VALUE=DATE:20191017
-DTEND;VALUE=DATE:20191018
-DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- other/shraddha-days#mahāvyatīpātam<br/><br/>#ShraddhaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -16223,15 +16451,10 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:बुधानूराधा-पुण्यकालः
+SUMMARY:बुधानुराधा-पुण्यकालः
 DTSTART;VALUE=DATE:20191030
 DTEND;VALUE=DATE:20191031
-DESCRIPTION:When अनूराधा nakshatram falls on a Wednesday\, i
- t is a special पुण्यकालः for performing दानम्.
-  One can do दानं of दध्योदनम् in Vishnu temples 
- on this day.<br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/ma
- ster/data/other/rare-days/combinations#budhānūrādhā-puṇyakālaḥ<br
- /><br/>#RareDays #Combinations
+DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -16351,13 +16574,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:कल्पादिः
+SUMMARY:सावित्र्य-कल्पादिः
 DTSTART;VALUE=DATE:20191103
 DTEND;VALUE=DATE:20191104
 DESCRIPTION:Observed on Śukla-Saptamī tithi of Kārttikaḥ (lunar) mont
  h (aparaahna/vyaapti).<br/>Kalpadi<br/><br/>https://github.com/sanskrit-co
- ders/adyatithi/tree/master/data/lunar_month/tithi/08/07#kalpādiḥ<br/><b
- r/>#KalpadiDays
+ ders/adyatithi/tree/master/data/lunar_month/tithi/08/07#sāvitrya-kalpādi
+ ḥ<br/><br/>#KalpadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -16527,6 +16750,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:श्रवण-व्रतम्
+DTSTART;VALUE=DATE:20191104
+DTEND;VALUE=DATE:20191105
+DESCRIPTION:Observed on Śravaṇam nakṣhatram day of every solar month 
+ (sangava/puurvaviddha (default)).<br/><br/><br/>https://github.com/sanskri
+ t-coders/adyatithi/tree/master/data/solar_month/nakshatram/00/22#śravaṇ
+ a-vratam<br/><br/>#SpecialVratam
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:अक्षया नवमी
 DTSTART;VALUE=DATE:20191105
 DTEND;VALUE=DATE:20191106
@@ -16593,23 +16832,6 @@ DESCRIPTION:Observed on Śukla-Navamī tithi of Kārttikaḥ (lunar) month
  br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/master/dat
  a/lunar_month/tithi/08/09#kāñchī-22-jagadguru-śrī-paripūrṇabodhend
  ra-sarasvatī-ārādhanā<br/><br/>#KanchiAradhanaDays
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:मन्वादिः (स्वायम्भुवः [१])
-DTSTART;VALUE=DATE:20191105
-DTEND;VALUE=DATE:20191106
-DESCRIPTION:Observed on Śukla-Navamī tithi of Kārttikaḥ (lunar) month
-  (aparaahna/vyaapti).<br/><br/>### References<br/>* Vaidyanātha-Dīkṣit
- īyam<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/mast
- er/data/lunar_month/tithi/08/09#manvādiḥ-svāyambhuvaḥ-[1]<br/><br/>#
- ManvadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17216,6 +17438,23 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of Tulā (solar) month (sunse
  t/puurvaviddha).<br/><br/><br/>https://github.com/sanskrit-coders/adyatith
  i/tree/master/data/solar_month/tithi/07/15#mahā-annābhiṣekaḥ<br/><br
  />#TamilnaduTempleFestivals #CommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:मन्वादिः (धर्मः [११])
+DTSTART;VALUE=DATE:20191112
+DTEND;VALUE=DATE:20191113
+DESCRIPTION:Observed on Paurṇamāsī tithi of Kārttikaḥ (lunar) month
+  (aparaahna/vyaapti).<br/><br/>### References<br/>* Vaidyanātha-Dīkṣit
+ īyam<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/mast
+ er/data/lunar_month/tithi/08/15#manvādiḥ-dharmaḥ-[11]<br/><br/>#Manva
+ diDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18122,15 +18361,10 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:बुधानूराधा-पुण्यकालः
+SUMMARY:बुधानुराधा-पुण्यकालः
 DTSTART;VALUE=DATE:20191127
 DTEND;VALUE=DATE:20191128
-DESCRIPTION:When अनूराधा nakshatram falls on a Wednesday\, i
- t is a special पुण्यकालः for performing दानम्.
-  One can do दानं of दध्योदनम् in Vishnu temples 
- on this day.<br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/ma
- ster/data/other/rare-days/combinations#budhānūrādhā-puṇyakālaḥ<br
- /><br/>#RareDays #Combinations
+DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18274,6 +18508,22 @@ DTEND;VALUE=DATE:20191202
 DESCRIPTION:Do puja to Surya/Suryanamaskaram.<br/><br/>https://github.com/
  sanskrit-coders/adyatithi/tree/master/data/other/month-weekday-festivals#k
  ārttigai-ñāyir̂r̂ukkiḽamai<br/><br/>#MonthWeekdayFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:श्रवण-व्रतम्
+DTSTART;VALUE=DATE:20191201
+DTEND;VALUE=DATE:20191202
+DESCRIPTION:Observed on Śravaṇam nakṣhatram day of every solar month 
+ (sangava/puurvaviddha (default)).<br/><br/><br/>https://github.com/sanskri
+ t-coders/adyatithi/tree/master/data/solar_month/nakshatram/00/22#śravaṇ
+ a-vratam<br/><br/>#SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18450,13 +18700,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:कल्पादिः
+SUMMARY:प्रलय-कल्पादिः
 DTSTART;VALUE=DATE:20191205
 DTEND;VALUE=DATE:20191206
 DESCRIPTION:Observed on Śukla-Navamī tithi of Mārgaśīrṣaḥ (lunar)
   month (aparaahna/vyaapti).<br/>Kalpadi<br/><br/>https://github.com/sanskr
- it-coders/adyatithi/tree/master/data/lunar_month/tithi/09/09#kalpādiḥ<b
- r/><br/>#KalpadiDays
+ it-coders/adyatithi/tree/master/data/lunar_month/tithi/09/09#pralaya-kalp
+ ādiḥ<br/><br/>#KalpadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18747,23 +18997,6 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of Mārgaśīrṣaḥ (lunar)
  <br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/master/da
  ta/lunar_month/tithi/09/15#dattātreya-jayantī<br/><br/>#OtherAvatarams #
  CommonFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:मन्वादिः (धर्मः [११])
-DTSTART;VALUE=DATE:20191211
-DTEND;VALUE=DATE:20191212
-DESCRIPTION:Observed on Paurṇamāsī tithi of Mārgaśīrṣaḥ (lunar)
-  month (aparaahna/vyaapti).<br/><br/>### References<br/>* Vaidyanātha-Dī
- kṣitīyam<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tre
- e/master/data/lunar_month/tithi/09/15#manvādiḥ-dharmaḥ-[11]<br/><br/>
- #ManvadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -19421,6 +19654,22 @@ DESCRIPTION:Observed on Pūrvāṣāḍhā nakṣhatram day of Dhanuḥ (s
  olar) month (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskri
  t-coders/adyatithi/tree/master/data/solar_month/nakshatram/09/20#chākkiya
  -nāyanār-33-gurupūjai<br/><br/>#NayanarGurupujai
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:श्रवण-व्रतम्
+DTSTART;VALUE=DATE:20191229
+DTEND;VALUE=DATE:20191230
+DESCRIPTION:Observed on Śravaṇam nakṣhatram day of every solar month 
+ (sangava/puurvaviddha (default)).<br/><br/><br/>https://github.com/sanskri
+ t-coders/adyatithi/tree/master/data/solar_month/nakshatram/00/22#śravaṇ
+ a-vratam<br/><br/>#SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
