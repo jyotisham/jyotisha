@@ -9,7 +9,7 @@ from flask_restplus import reqparse
 import jyotisha.panchangam.spatio_temporal.annual
 import jyotisha.panchangam.spatio_temporal.daily
 from jyotisha.panchangam import scripts
-from jyotisha.panchangam.spatio_temporal import City
+from jyotisha.panchangam.spatio_temporal import City, Timezone
 from jyotisha.panchangam.temporal import festival
 
 logging.basicConfig(
@@ -94,12 +94,11 @@ class EventFinder(Resource):
 
 
 # noinspection PyUnresolvedReferences
-@api.route('/times/utc_offsets/<string:offset>/years/<int:year>/months/<int:month>/days/<int:day>/hours/<int:hour>/minutes/<int:minute>/seconds/<int:second>/bodies/<string:body>/nakshatra')
+@api.route('/timezones/<string:timezone>/times/years/<int:year>/months/<int:month>/days/<int:day>/hours/<int:hour>/minutes/<int:minute>/seconds/<int:second>/bodies/<string:body>/nakshatra')
 class NakshatraFinder(Resource):
-  def get(self, body, offset, year, month, day, hour, minute, second):
+  def get(self, body, timezone, year, month, day, hour, minute, second):
     from jyotisha import zodiac
-    (utc_year, utc_month, utc_day, utc_hour, utc_minute, utc_second) = swe.utc_time_zone(year, month, day, hour, minute, second, float(offset))
-    julday = temporal.utc_gregorian_to_jd(year=utc_year, month=utc_month, day=utc_day, fractional_hour=utc_hour, minutes=utc_minute, seconds=utc_second, flag=swe.GREG_CAL)[0]
+    julday = Timezone(timezone).local_time_to_julian_day(year, month, day, hour, minute, second)
     lahiri_nakshatra_division = zodiac.NakshatraDivision(julday=julday)
     body_id = get_body_id(body_name=body)
     if body == "moon":
@@ -112,11 +111,10 @@ class NakshatraFinder(Resource):
 
 
 # noinspection PyUnresolvedReferences
-@api.route('/times/utc_offsets/<string:offset>/years/<int:year>/months/<int:month>/days/<int:day>/hours/<int:hour>/minutes/<int:minute>/seconds/<int:second>/raashi')
+@api.route('/timezones/<string:timezone>/times/years/<int:year>/months/<int:month>/days/<int:day>/hours/<int:hour>/minutes/<int:minute>/seconds/<int:second>/raashi')
 class RaashiFinder(Resource):
-  def get(self, offset, year, month, day, hour, minute, second):
-    (utc_year, utc_month, utc_day, utc_hour, utc_minute, utc_second) = swe.utc_time_zone(year, month, day, hour, minute, second, float(offset))
-    julday = temporal.utc_gregorian_to_jd(year=utc_year, month=utc_month, day=utc_day, fractional_hour=utc_hour, minutes=utc_minute, seconds=utc_second, flag=swe.GREG_CAL)[0]
+  def get(self, timezone, year, month, day, hour, minute, second):
+    julday = Timezone(timezone).local_time_to_julian_day(year, month, day, hour, minute, second)
     from jyotisha.panchangam import temporal
     raashi = temporal.get_solar_rashi(jd=julday)
     logging.info(raashi)
@@ -125,12 +123,11 @@ class RaashiFinder(Resource):
 
 
 # noinspection PyUnresolvedReferences
-@api.route('/times/utc_offsets/<string:offset>/years/<int:year>/months/<int:month>/days/<int:day>/hours/<int:hour>/minutes/<int:minute>/seconds/<int:second>/bodies/<string:body>/raashi_transition_100_days')
+@api.route('/timezones/<string:timezone>/times/years/<int:year>/months/<int:month>/days/<int:day>/hours/<int:hour>/minutes/<int:minute>/seconds/<int:second>/bodies/<string:body>/raashi_transition_100_days')
 class RaashiTransitionFinder(Resource):
-  def get(self, offset, year, month, day, hour, minute, second, body):
+  def get(self, timezone, year, month, day, hour, minute, second, body):
     from jyotisha import zodiac
-    (utc_year, utc_month, utc_day, utc_hour, utc_minute, utc_second) = swe.utc_time_zone(year=year, month=month, day=day, hour=hour, minutes=minute, seconds=second, offset=float(offset))
-    julday = temporal.utc_gregorian_to_jd(year=utc_year, month=utc_month, day=utc_day, fractional_hour=utc_hour, minutes=utc_minute, seconds=utc_second, flag=swe.GREG_CAL)[0]
+    julday = Timezone(timezone).local_time_to_julian_day(year, month, day, hour, minute, second)
     body_id = get_body_id(body_name=body)
     from jyotisha.panchangam import temporal
     transits = temporal.get_planet_next_transit(jd_start=julday, jd_end = julday + 100, planet=body_id)
@@ -138,5 +135,3 @@ class RaashiTransitionFinder(Resource):
     transits_utc = [(swe.jdut1_to_utc(ut=transit[0], flag=swe.GREG_CAL), transit[1], transit[2]) for transit in transits]
     transits_local = [(swe.utc_time_zone(year=transit[0][0], month=transit[0][1], day=transit[0][2], hour=transit[0][3], minutes=transit[0][4], seconds=int(transit[0][5]), offset=-float(offset)), transit[1], transit[2]) for transit in transits_utc]
     return str(transits_local)
-
-

@@ -9,7 +9,7 @@ from math import floor
 from scipy.optimize import brentq
 
 from jyotisha.panchangam import temporal
-from jyotisha.panchangam.spatio_temporal import City, CALC_RISE, CALC_SET
+from jyotisha.panchangam.spatio_temporal import City, CALC_RISE, CALC_SET, Timezone
 from jyotisha.panchangam.temporal import SOLAR_MONTH, get_angam, get_angam_float
 from jyotisha.panchangam.temporal.hour import Hour
 
@@ -25,7 +25,7 @@ class DailyPanchanga(common.JsonObject):
       """
     @classmethod
     def from_city_and_julian_day(cls, city, julian_day, ayanamsha_id=swe.SIDM_LAHIRI):
-        (year, month, day, hours, minutes, seconds) = city.julian_day_to_local_time(julian_day)
+        (year, month, day, hours, minutes, seconds) = Timezone(city.timezone).julian_day_to_local_time(julian_day)
         return DailyPanchanga(city=city, year=year, month=month, day=day, ayanamsha_id=ayanamsha_id)
 
     def __init__(self, city: City, year: int, month: int, day: int, ayanamsha_id: int = swe.SIDM_LAHIRI, previous_day_panchangam=None) -> None:
