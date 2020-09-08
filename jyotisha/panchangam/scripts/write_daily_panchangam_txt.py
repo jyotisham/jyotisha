@@ -386,7 +386,8 @@ def main():
     panchangam.update_festival_details()
 
     city_name_en = jyotisha.custom_transliteration.romanise(jyotisha.custom_transliteration.tr(city.name, sanscript.IAST)).title()
-    output_file = os.path.expanduser('%s/%s-%d-%s-daily%s.md' % ("../txt/daily", city_name_en, year, script, lagnasuff))
+    output_file = os.path.expanduser('%s/%s-%d-%s-daily%s.md' % ("~/Documents/jyotisha/txt/daily", city_name_en, year, script, lagnasuff))
+    os.makedirs(os.path.dirname(output_file), exist_ok=True)
     writeDailyText(panchangam, compute_lagnams, open(output_file, 'w'))
 
 

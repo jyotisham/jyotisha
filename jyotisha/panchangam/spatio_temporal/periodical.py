@@ -695,7 +695,8 @@ class Panchangam(common.JsonObject):
                     else:
                         suff = suff.replace(')', ', puSkalA)')
                 self.add_festival(pref + 'amAvAsyA' + suff, d, debug_festivals)
-        del self.fest_days['amAvAsyA']
+        if 'amAvAsyA' in self.fest_days:
+            del self.fest_days['amAvAsyA']
 
         for d in range(1, self.duration + 1):
             [y, m, dt, t] = temporal.jd_to_utc_gregorian(self.jd_start_utc + d - 1)
