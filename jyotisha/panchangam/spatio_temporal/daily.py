@@ -10,7 +10,8 @@ from scipy.optimize import brentq
 
 from jyotisha.panchangam import temporal
 from jyotisha.panchangam.spatio_temporal import City, CALC_RISE, CALC_SET
-from jyotisha.panchangam.temporal import SOLAR_MONTH, get_angam, get_angam_float, Time
+from jyotisha.panchangam.temporal import SOLAR_MONTH, get_angam, get_angam_float
+from jyotisha.panchangam.temporal.hour import Hour
 
 from sanskrit_data.schema import common
 
@@ -302,8 +303,8 @@ class DailyPanchanga(common.JsonObject):
 
     def get_kaalas_local_time(self, format='hh:mm*'):
         kaalas = self.get_kaalas()
-        return {x: (Time((kaalas[x][0] - self.julian_day_start) * 24).toString(format=format),
-                    Time((kaalas[x][1] - self.julian_day_start) * 24).toString(format=format)) for x in kaalas}
+        return {x: (Hour((kaalas[x][0] - self.julian_day_start) * 24).toString(format=format),
+                    Hour((kaalas[x][1] - self.julian_day_start) * 24).toString(format=format)) for x in kaalas}
 
     def update_festival_details(self):
         pass

@@ -13,6 +13,7 @@ from indic_transliteration import xsanscript as sanscript
 from pytz import timezone as tz
 from sanskrit_data.schema.common import JsonObject
 
+import jyotisha.panchangam.temporal.hour
 from jyotisha.panchangam import temporal, spatio_temporal
 from jyotisha.panchangam.temporal.festival import read_old_festival_rules_dict
 from sanskrit_data.schema import common
@@ -561,7 +562,7 @@ class Panchangam(common.JsonObject):
                     else:
                         harivasara_end = brentq(temporal.get_angam_float, self.jd_sunrise[smaarta_ekadashi_fday] - 2, self.jd_sunrise[smaarta_ekadashi_fday] + 2, args=(temporal.TITHI_PADA, -105, self.ayanamsha_id, False))
                     [_y, _m, _d, _t] = swe.revjul(harivasara_end + (tz_off / 24.0))
-                    hariv_end_time = temporal.Time(swe.revjul(harivasara_end + (tz_off / 24.0))[3]).toString(format=self.fmt)
+                    hariv_end_time = jyotisha.panchangam.temporal.hour.Hour(swe.revjul(harivasara_end + (tz_off / 24.0))[3]).toString(format=self.fmt)
                     fday_hv = swe.julday(_y, _m, _d, 0) - self.jd_start_utc + 1
                     self.festivals[int(fday_hv)].append('harivAsaraH\\textsf{%s}{\\RIGHTarrow}\\textsf{%s}' % ('', hariv_end_time))
 
@@ -778,14 +779,14 @@ class Panchangam(common.JsonObject):
                     gc_28_end += tz_off / 24.0
                     # sys.stderr.write('28: (%f, %f)\n' % (gc_28_start, gc_28_end))
                     gc_28_d = 1 + floor(gc_28_start - self.jd_start_utc)
-                    t1 = temporal.Time(swe.revjul(gc_28_start)[3]).toString(format=self.fmt)
+                    t1 = jyotisha.panchangam.temporal.hour.Hour(swe.revjul(gc_28_start)[3]).toString(format=self.fmt)
 
                     if floor(gc_28_end - 0.5) != floor(gc_28_start - 0.5):
                         # -0.5 is for the fact that julday is zero at noon always, not midnight!
                         offset = 24
                     else:
                         offset = 0
-                    t2 = temporal.Time(swe.revjul(gc_28_end)[3] + offset).toString(format=self.fmt)
+                    t2 = jyotisha.panchangam.temporal.hour.Hour(swe.revjul(gc_28_end)[3] + offset).toString(format=self.fmt)
                     # sys.stderr.write('gajacchhaya %d\n' % gc_28_d)
 
                     self.fest_days['gajacchAyA-yOgaH' +
@@ -797,13 +798,13 @@ class Panchangam(common.JsonObject):
                     gc_30_end += tz_off / 24.0
                     # sys.stderr.write('30: (%f, %f)\n' % (gc_30_start, gc_30_end))
                     gc_30_d = 1 + floor(gc_30_start - self.jd_start_utc)
-                    t1 = temporal.Time(swe.revjul(gc_30_start)[3]).toString(format=self.fmt)
+                    t1 = jyotisha.panchangam.temporal.hour.Hour(swe.revjul(gc_30_start)[3]).toString(format=self.fmt)
 
                     if floor(gc_30_end - 0.5) != floor(gc_30_start - 0.5):
                         offset = 24
                     else:
                         offset = 0
-                    t2 = temporal.Time(swe.revjul(gc_30_end)[3] + offset).toString(format=self.fmt)
+                    t2 = jyotisha.panchangam.temporal.hour.Hour(swe.revjul(gc_30_end)[3] + offset).toString(format=self.fmt)
                     # sys.stderr.write('gajacchhaya %d\n' % gc_30_d)
 
                     self.fest_days['gajacchAyA-yOgaH' +
@@ -952,7 +953,7 @@ class Panchangam(common.JsonObject):
                 if ayana_jd_start < self.jd_sunrise[fday_nirayana]:
                     fday_nirayana -= 1
                     _t += 24
-                ayana_time = temporal.Time(_t).toString(format=self.fmt)
+                ayana_time = jyotisha.panchangam.temporal.hour.Hour(_t).toString(format=self.fmt)
 
                 self.festivals[fday_nirayana].append('%s\\textsf{%s}{\\RIGHTarrow}\\textsf{%s}' % (
                     temporal.NAMES['RTU_MASA_NAMES'][self.script][self.solar_month[d]], '', ayana_time))
@@ -1466,17 +1467,17 @@ class Panchangam(common.JsonObject):
                     if debug_tyajyam:
                         logging.debug('![%3d]%04d-%02d-%02d: %s (>>%s), %s–%s' %
                                       (d - 1, y, m, dt - 1, temporal.NAMES['NAKSHATRAM_NAMES']['hk'][n],
-                                       jyotisha.panchangam.temporal.Time(24 * (t_end - self.jd_midnight[d - 1])).toString(format='hh:mm*'),
-                                       jyotisha.panchangam.temporal.Time(24 * (tyajyam_start - self.jd_midnight[d - 1])).toString(format='hh:mm*'),
-                                       jyotisha.panchangam.temporal.Time(24 * (tyajyam_end - self.jd_midnight[d - 1])).toString(format='hh:mm*')))
+                                       jyotisha.panchangam.temporal.hour.Hour(24 * (t_end - self.jd_midnight[d - 1])).toString(format='hh:mm*'),
+                                       jyotisha.panchangam.temporal.hour.Hour(24 * (tyajyam_start - self.jd_midnight[d - 1])).toString(format='hh:mm*'),
+                                       jyotisha.panchangam.temporal.hour.Hour(24 * (tyajyam_end - self.jd_midnight[d - 1])).toString(format='hh:mm*')))
                 else:
                     self.tyajyam_data[d] = [(tyajyam_start, tyajyam_end)]
                     if debug_tyajyam:
                         logging.debug(' [%3d]%04d-%02d-%02d: %s (>>%s), %s–%s' %
                                       (d, y, m, dt, temporal.NAMES['NAKSHATRAM_NAMES']['hk'][n],
-                                       jyotisha.panchangam.temporal.Time(24 * (t_end - jd)).toString(format='hh:mm*'),
-                                       jyotisha.panchangam.temporal.Time(24 * (tyajyam_start - jd)).toString(format='hh:mm*'),
-                                       jyotisha.panchangam.temporal.Time(24 * (tyajyam_end - jd)).toString(format='hh:mm*')))
+                                       jyotisha.panchangam.temporal.hour.Hour(24 * (t_end - jd)).toString(format='hh:mm*'),
+                                       jyotisha.panchangam.temporal.hour.Hour(24 * (tyajyam_start - jd)).toString(format='hh:mm*'),
+                                       jyotisha.panchangam.temporal.hour.Hour(24 * (tyajyam_end - jd)).toString(format='hh:mm*')))
 
             if len(self.nakshatram_data[d]) == 2:
                 t_start = t_end
@@ -1487,9 +1488,9 @@ class Panchangam(common.JsonObject):
                 if debug_tyajyam:
                     logging.debug(' [%3d]            %s (>>%s), %s–%s' %
                                   (d, temporal.NAMES['NAKSHATRAM_NAMES']['hk'][n2],
-                                   jyotisha.panchangam.temporal.Time(24 * (t_end - jd)).toString(format='hh:mm*'),
-                                   jyotisha.panchangam.temporal.Time(24 * (tyajyam_start - jd)).toString(format='hh:mm*'),
-                                   jyotisha.panchangam.temporal.Time(24 * (tyajyam_end - jd)).toString(format='hh:mm*')))
+                                   jyotisha.panchangam.temporal.hour.Hour(24 * (t_end - jd)).toString(format='hh:mm*'),
+                                   jyotisha.panchangam.temporal.hour.Hour(24 * (tyajyam_start - jd)).toString(format='hh:mm*'),
+                                   jyotisha.panchangam.temporal.hour.Hour(24 * (tyajyam_end - jd)).toString(format='hh:mm*')))
 
     def calc_nakshatra_amrita(self, debug_amrita=False):
         self.amrita_data = [[] for _x in range(self.duration + 1)]
@@ -1510,17 +1511,17 @@ class Panchangam(common.JsonObject):
                     if debug_amrita:
                         logging.debug('![%3d]%04d-%02d-%02d: %s (>>%s), %s–%s' %
                                       (d - 1, y, m, dt - 1, temporal.NAMES['NAKSHATRAM_NAMES']['hk'][n],
-                                       jyotisha.panchangam.temporal.Time(24 * (t_end - self.jd_midnight[d - 1])).toString(format='hh:mm*'),
-                                       jyotisha.panchangam.temporal.Time(24 * (amrita_start - self.jd_midnight[d - 1])).toString(format='hh:mm*'),
-                                       jyotisha.panchangam.temporal.Time(24 * (amrita_end - self.jd_midnight[d - 1])).toString(format='hh:mm*')))
+                                       jyotisha.panchangam.temporal.hour.Hour(24 * (t_end - self.jd_midnight[d - 1])).toString(format='hh:mm*'),
+                                       jyotisha.panchangam.temporal.hour.Hour(24 * (amrita_start - self.jd_midnight[d - 1])).toString(format='hh:mm*'),
+                                       jyotisha.panchangam.temporal.hour.Hour(24 * (amrita_end - self.jd_midnight[d - 1])).toString(format='hh:mm*')))
                 else:
                     self.amrita_data[d] = [(amrita_start, amrita_end)]
                     if debug_amrita:
                         logging.debug(' [%3d]%04d-%02d-%02d: %s (>>%s), %s–%s' %
                                       (d, y, m, dt, temporal.NAMES['NAKSHATRAM_NAMES']['hk'][n],
-                                       jyotisha.panchangam.temporal.Time(24 * (t_end - jd)).toString(format='hh:mm*'),
-                                       jyotisha.panchangam.temporal.Time(24 * (amrita_start - jd)).toString(format='hh:mm*'),
-                                       jyotisha.panchangam.temporal.Time(24 * (amrita_end - jd)).toString(format='hh:mm*')))
+                                       jyotisha.panchangam.temporal.hour.Hour(24 * (t_end - jd)).toString(format='hh:mm*'),
+                                       jyotisha.panchangam.temporal.hour.Hour(24 * (amrita_start - jd)).toString(format='hh:mm*'),
+                                       jyotisha.panchangam.temporal.hour.Hour(24 * (amrita_end - jd)).toString(format='hh:mm*')))
 
             if len(self.nakshatram_data[d]) == 2:
                 t_start = t_end
@@ -1531,9 +1532,9 @@ class Panchangam(common.JsonObject):
                 if debug_amrita:
                     logging.debug(' [%3d]            %s (>>%s), %s–%s' %
                                   (d, temporal.NAMES['NAKSHATRAM_NAMES']['hk'][n2],
-                                   jyotisha.panchangam.temporal.Time(24 * (t_end - jd)).toString(format='hh:mm*'),
-                                   jyotisha.panchangam.temporal.Time(24 * (amrita_start - jd)).toString(format='hh:mm*'),
-                                   jyotisha.panchangam.temporal.Time(24 * (amrita_end - jd)).toString(format='hh:mm*')))
+                                   jyotisha.panchangam.temporal.hour.Hour(24 * (t_end - jd)).toString(format='hh:mm*'),
+                                   jyotisha.panchangam.temporal.hour.Hour(24 * (amrita_start - jd)).toString(format='hh:mm*'),
+                                   jyotisha.panchangam.temporal.hour.Hour(24 * (amrita_end - jd)).toString(format='hh:mm*')))
 
     def assign_shraaddha_tithi(self, debug_shraaddha_tithi=False):
         def _assign(self, fday, tithi):
@@ -1789,8 +1790,8 @@ class Panchangam(common.JsonObject):
                 if eclipse_solar_end > sunset_eclipse_day:
                     eclipse_solar_end = sunset_eclipse_day
                 solar_eclipse_str = 'sUrya-grahaNam' + \
-                                    '~\\textsf{' + temporal.Time(eclipse_solar_start).toString(format=self.fmt) + \
-                                    '}{\\RIGHTarrow}\\textsf{' + temporal.Time(eclipse_solar_end).toString(format=self.fmt) + '}'
+                                    '~\\textsf{' + jyotisha.panchangam.temporal.hour.Hour(eclipse_solar_start).toString(format=self.fmt) + \
+                                    '}{\\RIGHTarrow}\\textsf{' + jyotisha.panchangam.temporal.hour.Hour(eclipse_solar_end).toString(format=self.fmt) + '}'
                 if self.weekday[fday] == 0:
                     solar_eclipse_str = '★cUDAmaNi-' + solar_eclipse_str
                 self.festivals[fday].append(solar_eclipse_str)
@@ -1865,8 +1866,8 @@ class Panchangam(common.JsonObject):
                     grasta = 'kEtugrasta'
 
                 lunar_eclipse_str = 'candra-grahaNam~(' + grasta + ')' + \
-                                    '~\\textsf{' + temporal.Time(eclipse_lunar_start).toString(format=self.fmt) + \
-                                    '}{\\RIGHTarrow}\\textsf{' + temporal.Time(eclipse_lunar_end).toString(format=self.fmt) + '}'
+                                    '~\\textsf{' + jyotisha.panchangam.temporal.hour.Hour(eclipse_lunar_start).toString(format=self.fmt) + \
+                                    '}{\\RIGHTarrow}\\textsf{' + jyotisha.panchangam.temporal.hour.Hour(eclipse_lunar_end).toString(format=self.fmt) + '}'
                 if self.weekday[fday] == 1:
                     lunar_eclipse_str = '★cUDAmaNi-' + lunar_eclipse_str
 
