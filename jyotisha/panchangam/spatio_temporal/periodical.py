@@ -29,7 +29,7 @@ class Panchangam(common.JsonObject):
     """This class enables the construction of a panchangam for arbitrary periods, with festivals.
       """
 
-    def __init__(self, city, start_date, end_date, script=sanscript.DEVANAGARI, fmt='hh:mm', ayanamsha_id=swe.SIDM_LAHIRI,
+    def __init__(self, city, start_date, end_date, script=sanscript.DEVANAGARI, fmt='hh:mm', ayanamsha_id=zodiac.Ayanamsha.CHITRA_AT_180,
                  compute_lagnams=False):
         """Constructor for the panchangam.
         :param compute_lagnams:
@@ -367,9 +367,9 @@ class Panchangam(common.JsonObject):
 
             # SANKATAHARA chaturthi
             if self.tithi_sunrise[d] == 18 or self.tithi_sunrise[d] == 19:
-                ldiff_moonrise_yest = (swe.calc_ut(self.jd_moonrise[d - 1], swe.MOON)[0] - swe.calc_ut(self.jd_moonrise[d - 1], swe.SUN)[0]) % 360
-                ldiff_moonrise = (swe.calc_ut(self.jd_moonrise[d], swe.MOON)[0] - swe.calc_ut(self.jd_moonrise[d], swe.SUN)[0]) % 360
-                ldiff_moonrise_tmrw = (swe.calc_ut(self.jd_moonrise[d + 1], swe.MOON)[0] - swe.calc_ut(self.jd_moonrise[d + 1], swe.SUN)[0]) % 360
+                ldiff_moonrise_yest = (swe.calc_ut(self.jd_moonrise[d - 1], swe.MOON)[0][0] - swe.calc_ut(self.jd_moonrise[d - 1], swe.SUN)[0][0]) % 360
+                ldiff_moonrise = (swe.calc_ut(self.jd_moonrise[d], swe.MOON)[0][0] - swe.calc_ut(self.jd_moonrise[d], swe.SUN)[0][0]) % 360
+                ldiff_moonrise_tmrw = (swe.calc_ut(self.jd_moonrise[d + 1], swe.MOON)[0][0] - swe.calc_ut(self.jd_moonrise[d + 1], swe.SUN)[0][0]) % 360
                 tithi_moonrise_yest = int(1 + floor(ldiff_moonrise_yest / 12.0))
                 tithi_moonrise = int(1 + floor(ldiff_moonrise / 12.0))
                 tithi_moonrise_tmrw = int(1 + floor(ldiff_moonrise_tmrw / 12.0))
@@ -944,7 +944,7 @@ class Panchangam(common.JsonObject):
 
             # TROPICAL AYANAMS
             if self.solar_month_day[d] == 1:
-                ayana_jd_start = brentq(jyotisha.zodiac.get_nirayana_sun_lon, self.jd_sunrise[d],
+                ayana_jd_start = brentq(zodiac.get_nirayana_sun_lon, self.jd_sunrise[d],
                                         self.jd_sunrise[d] + 15, args=(-30 * self.solar_month[d], False))
                 [_y, _m, _d, _t] = temporal.jd_to_utc_gregorian(ayana_jd_start + (tz_off / 24.0))
                 # Reduce fday by 1 if ayana time precedes sunrise and change increment _t by 24
@@ -1861,7 +1861,7 @@ class Panchangam(common.JsonObject):
                 if jd_eclipse_lunar_end > jd_moonset_eclipse_day:
                     eclipse_lunar_end = moonset_eclipse_day
 
-                if swe.calc_ut(jd_eclipse_lunar_end, swe.MOON)[0] < swe.calc_ut(jd_eclipse_lunar_end, swe.SUN)[0]:
+                if swe.calc_ut(jd_eclipse_lunar_end, swe.MOON)[0][0] < swe.calc_ut(jd_eclipse_lunar_end, swe.SUN)[0][0]:
                     grasta = 'rAhugrasta'
                 else:
                     grasta = 'kEtugrasta'
@@ -1921,7 +1921,7 @@ class Panchangam(common.JsonObject):
         for d in range(1, self.len - 1):
             jd = self.jd_start_utc - 1 + d
             [y, m, dt, t] = temporal.jd_to_utc_gregorian(jd)
-            longitude_sun_sunset = swe.calc_ut(self.jd_sunset[d], swe.SUN)[0] - zodiac.Ayanamsha(self.ayanamsha_id).get_offset(self.jd_sunset[d])
+            longitude_sun_sunset = swe.calc_ut(self.jd_sunset[d], swe.SUN)[0][0] - zodiac.Ayanamsha(self.ayanamsha_id).get_offset(self.jd_sunset[d])
             log_data = '%02d-%02d-%4d\t[%3d]\tsun_rashi=%8.3f\ttithi=%8.3f\tsolar_month\
         =%2d\tlunar_month=%4.1f\n' % (dt, m, y, d, (longitude_sun_sunset % 360) / 30.0,
                                       temporal.get_angam_float(self.jd_sunrise[d],
@@ -1961,7 +1961,7 @@ common.update_json_class_index(sys.modules[__name__])
 # logging.debug(common.json_class_index)
 
 
-def get_panchangam(city, start_date, end_date, script, fmt='hh:mm', compute_lagnams=False, precomputed_json_dir="~/Documents", ayanamsha_id=swe.SIDM_LAHIRI):
+def get_panchangam(city, start_date, end_date, script, fmt='hh:mm', compute_lagnams=False, precomputed_json_dir="~/Documents", ayanamsha_id=zodiac.Ayanamsha.CHITRA_AT_180):
     fname_det = os.path.expanduser('%s/%s-%s-%s-detailed.json' % (precomputed_json_dir, city.name, start_date, end_date))
     fname = os.path.expanduser('%s/%s-%s-%s.json' % (precomputed_json_dir, city.name, start_date, end_date))
 
@@ -1997,4 +1997,4 @@ def get_panchangam(city, start_date, end_date, script, fmt='hh:mm', compute_lagn
 
 if __name__ == '__main__':
     city = spatio_temporal.City('Chennai', "13:05:24", "80:16:12", "Asia/Calcutta")
-    panchangam = Panchangam(city=city, start_date='2019-04-14', end_date='2020-04-13', script=sanscript.DEVANAGARI, ayanamsha_id=swe.SIDM_LAHIRI, fmt='hh:mm', compute_lagnams=False)
+    panchangam = Panchangam(city=city, start_date='2019-04-14', end_date='2020-04-13', script=sanscript.DEVANAGARI, ayanamsha_id=zodiac.Ayanamsha.CHITRA_AT_180, fmt='hh:mm', compute_lagnams=False)

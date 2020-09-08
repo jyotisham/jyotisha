@@ -11,11 +11,12 @@ from indic_transliteration import xsanscript as sanscript
 
 from jyotisha.panchangam import spatio_temporal
 from jyotisha.panchangam.spatio_temporal import periodical
+from jyotisha.panchangam.temporal import zodiac
 
 common.update_json_class_index(sys.modules[__name__])
 
 
-def get_panchangam(city, year, script, fmt='hh:mm', compute_lagnams=False, precomputed_json_dir="~/Documents", ayanamsha_id=swe.SIDM_LAHIRI, allow_precomputed=True):
+def get_panchangam(city, year, script, fmt='hh:mm', compute_lagnams=False, precomputed_json_dir="~/Documents", ayanamsha_id=zodiac.Ayanamsha.CHITRA_AT_180, allow_precomputed=True):
     fname_det = os.path.expanduser('%s/%s-%s-detailed.json' % (precomputed_json_dir, city.name, year))
     fname = os.path.expanduser('%s/%s-%s.json' % (precomputed_json_dir, city.name, year))
 
@@ -48,4 +49,4 @@ def get_panchangam(city, year, script, fmt='hh:mm', compute_lagnams=False, preco
 
 if __name__ == '__main__':
     city = spatio_temporal.City('Chennai', "13:05:24", "80:16:12", "Asia/Calcutta")
-    panchangam = periodical.Panchangam(city=city, start_date='2019-01-01', end_date='2019-12-31', script=sanscript.DEVANAGARI, ayanamsha_id=swe.SIDM_LAHIRI, fmt='hh:mm', compute_lagnams=False)
+    panchangam = periodical.Panchangam(city=city, start_date='2019-01-01', end_date='2019-12-31', script=sanscript.DEVANAGARI, ayanamsha_id=zodiac.Ayanamsha.CHITRA_AT_180, fmt='hh:mm', compute_lagnams=False)

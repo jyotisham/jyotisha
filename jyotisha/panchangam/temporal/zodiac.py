@@ -25,12 +25,13 @@ class Ayanamsha(object):
             # return (lat-180)
             swe.set_sid_mode(swe.SIDM_LAHIRI)
             return swe.get_ayanamsa(jd)
+        raise Exception("Bad ayamasha_id")
 
 
 class NakshatraDivision(object):
   """Nakshatra division at a certain time, according to a certain ayanaamsha."""
 
-  def __init__(self, julday, ayanamsha_id=swe.SIDM_LAHIRI):
+  def __init__(self, julday, ayanamsha_id=Ayanamsha.CHITRA_AT_180):
     self.ayanamsha_id = ayanamsha_id
     
     self.set_time(julday=julday)
@@ -94,7 +95,7 @@ def get_nirayana_sun_lon(jd, offset=0, debug=False):
 
       Examples:
     """
-    lsun = (swe.calc_ut(jd, swe.SUN)[0]) % 360
+    lsun = (swe.calc_ut(jd, swe.SUN)[0][0]) % 360
 
     if debug:
         print('## get_angam_float(): lsun (nirayana) =', lsun)
@@ -106,7 +107,7 @@ def get_nirayana_sun_lon(jd, offset=0, debug=False):
         return lsun + offset
 
 
-def get_planet_lon(jd, planet, offset=0, ayanamsha_id=swe.SIDM_LAHIRI):
+def get_planet_lon(jd, planet, offset=0, ayanamsha_id=Ayanamsha.CHITRA_AT_180):
     """Returns the longitude of the given planet e.g. swe.JUPITER
 
       Args:
@@ -121,7 +122,7 @@ def get_planet_lon(jd, planet, offset=0, ayanamsha_id=swe.SIDM_LAHIRI):
       180.00174875784376
     """
     
-    lon = (swe.calc_ut(jd, planet)[0] - Ayanamsha(ayanamsha_id).get_offset(jd)) % 360
+    lon = (swe.calc_ut(jd, planet)[0][0] - Ayanamsha(ayanamsha_id).get_offset(jd)) % 360
     return lon + offset
 
 

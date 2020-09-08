@@ -102,11 +102,10 @@ class Timezone:
     tm = Time(julian_day, format='jd')
     tm.format = "datetime"
     local_datetime = pytz.timezone(self.timezone_id).fromutc(tm.value)
-    local_time = (local_datetime.year, local_datetime.month, local_datetime.day, local_datetime.hour, local_datetime.minute, local_datetime.second + local_datetime.microsecond * 1000000)
+    local_time = (local_datetime.year, local_datetime.month, local_datetime.day, local_datetime.hour, local_datetime.minute, local_datetime.second + local_datetime.microsecond / 1000000.0)
     if round_seconds:
       (y, m, dt, hours, minutes, seconds) = local_time
-      local_time = (y, m, dt, hours, minutes, int(round(seconds)))
-      local_time = temporal.sanitize_time(*local_time)
+      local_time = temporal.sanitize_time(y, m, dt, hours, minutes, int(round(seconds)))
     return local_time
 
   def local_time_to_julian_day(self, year, month, day, hours, minutes, seconds):
@@ -133,7 +132,7 @@ class TbSayanaMuhuurta(JsonObject):
     self.is_nirviirya = self.muhuurta_id in (2,3, 5,6, 8,9, 11,12)
 
   def to_localized_string(self):
-    return "muhUrta %d (nirvIrya: %s) starts from %s to %s" % (self.muhuurta_id, str(self.is_nirviirya),  self.city.julian_day_to_local_time(julian_day=self.jd_start, round_seconds=True), self.city.julian_day_to_local_time(julian_day=self.jd_end, round_seconds=True))
+    return "muhUrta %d (nirvIrya: %s) starts from %s to %s" % (self.muhuurta_id, str(self.is_nirviirya),  Timezone(self.city.timezone).julian_day_to_local_time(julian_day=self.jd_start, round_seconds=True), Timezone(self.city.timezone).julian_day_to_local_time(julian_day=self.jd_end, round_seconds=True))
 
 
 # Essential for depickling to work.

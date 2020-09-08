@@ -26,17 +26,17 @@ class DailyPanchanga(common.JsonObject):
     """This class enables the construction of a panchangam
       """
     @classmethod
-    def from_city_and_julian_day(cls, city, julian_day, ayanamsha_id=swe.SIDM_LAHIRI):
+    def from_city_and_julian_day(cls, city, julian_day, ayanamsha_id=Ayanamsha.CHITRA_AT_180):
         (year, month, day, hours, minutes, seconds) = Timezone(city.timezone).julian_day_to_local_time(julian_day)
         return DailyPanchanga(city=city, year=year, month=month, day=day, ayanamsha_id=ayanamsha_id)
 
-    def __init__(self, city: City, year: int, month: int, day: int, ayanamsha_id: int = swe.SIDM_LAHIRI, previous_day_panchangam=None) -> None:
+    def __init__(self, city: City, year: int, month: int, day: int, ayanamsha_id: int = Ayanamsha.CHITRA_AT_180, previous_day_panchangam=None) -> None:
         """Constructor for the panchangam.
         """
         super(DailyPanchanga, self).__init__()
         self.city = city
         (self.year, self.month, self.day) = (year, month, day)
-        self.julian_day_start = self.city.local_time_to_julian_day(year=self.year, month=self.month, day=self.day, hours=0, minutes=0, seconds=0)
+        self.julian_day_start = Timezone(self.city.timezone).local_time_to_julian_day(year=self.year, month=self.month, day=self.day, hours=0, minutes=0, seconds=0)
 
         self.weekday = datetime.date(year=self.year, month=self.month, day=self.day).isoweekday() % 7
         self.ayanamsha_id = ayanamsha_id
@@ -133,8 +133,8 @@ class DailyPanchanga(common.JsonObject):
         if not hasattr(self, "jd_sunrise") or self.jd_sunrise is None:
             self.compute_sun_moon_transitions()
         
-        self.longitude_sun_sunrise = swe.calc_ut(self.jd_sunrise, swe.SUN)[0] - Ayanamsha(self.ayanamsha_id).get_offset(self.jd_sunrise)
-        self.longitude_sun_sunset = swe.calc_ut(self.jd_sunset, swe.SUN)[0] - Ayanamsha(self.ayanamsha_id).get_offset(self.jd_sunset)
+        self.longitude_sun_sunrise = swe.calc_ut(self.jd_sunrise, swe.SUN)[0][0] - Ayanamsha(self.ayanamsha_id).get_offset(self.jd_sunrise)
+        self.longitude_sun_sunset = swe.calc_ut(self.jd_sunset, swe.SUN)[0][0] - Ayanamsha(self.ayanamsha_id).get_offset(self.jd_sunset)
 
         # Each solar month has 30 days. So, divide the longitude by 30 to get the solar month.
         self.solar_month_sunset = int(1 + floor((self.longitude_sun_sunset % 360) / 30.0))

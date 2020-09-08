@@ -13,9 +13,12 @@ class Hour(JsonObject):
 
     def __init__(self, hour):
         super().__init__()
-        if type(hour) == float or type(hour) == int:
+        import numpy
+        if type(hour) == float or type(hour) == numpy.float64 or type(hour) == int:
             self.hour = hour
         else:
+            logging.error(type(hour))
+            logging.error(hour)
             raise(TypeError('Input to time class must be int or float!'))
 
     def toString(self, default_suffix='', format='hh:mm', rounding=False):

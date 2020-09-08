@@ -17,6 +17,7 @@ import jyotisha.panchangam.temporal
 import jyotisha.panchangam.temporal.hour
 from jyotisha.panchangam import temporal
 from jyotisha.panchangam.spatio_temporal import City
+from jyotisha.panchangam.temporal import zodiac
 
 logging.basicConfig(
     level=logging.DEBUG,
@@ -336,7 +337,7 @@ def main():
 
     city = City(city_name, latitude, longitude, tz)
 
-    panchangam = jyotisha.panchangam.spatio_temporal.periodical.get_panchangam(city=city, start_date=start_date, end_date=end_date, script=script, fmt=fmt, compute_lagnams=compute_lagnams, ayanamsha_id=swe.SIDM_LAHIRI)
+    panchangam = jyotisha.panchangam.spatio_temporal.periodical.get_panchangam(city=city, start_date=start_date, end_date=end_date, script=script, fmt=fmt, compute_lagnams=compute_lagnams, ayanamsha_id=zodiac.Ayanamsha.CHITRA_AT_180)
     panchangam.script = script  # Force script irrespective of what was obtained from saved file
     panchangam.fmt = fmt  # Force fmt
 

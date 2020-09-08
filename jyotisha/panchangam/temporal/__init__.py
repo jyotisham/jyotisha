@@ -64,7 +64,7 @@ def utc_gregorian_to_jd(year, month, day, fractional_hour):
     return tm.value
 
 
-def get_nakshatram(jd, ayanamsha_id=swe.SIDM_LAHIRI):
+def get_nakshatram(jd, ayanamsha_id=Ayanamsha.CHITRA_AT_180):
     """Returns the nakshatram prevailing at a given moment
 
     Nakshatram is computed based on the longitude of the Moon; in
@@ -86,7 +86,7 @@ def get_nakshatram(jd, ayanamsha_id=swe.SIDM_LAHIRI):
     return get_angam(jd, NAKSHATRAM, ayanamsha_id=ayanamsha_id)
 
 
-def get_yoga(jd, ayanamsha_id=swe.SIDM_LAHIRI):
+def get_yoga(jd, ayanamsha_id=Ayanamsha.CHITRA_AT_180):
     """Returns the yoha prevailing at a given moment
 
     Yoga is computed based on the longitude of the Moon and longitude of
@@ -107,7 +107,7 @@ def get_yoga(jd, ayanamsha_id=swe.SIDM_LAHIRI):
     return get_angam(jd, YOGA, ayanamsha_id=ayanamsha_id)
 
 
-def get_solar_rashi(jd, ayanamsha_id=swe.SIDM_LAHIRI):
+def get_solar_rashi(jd, ayanamsha_id=Ayanamsha.CHITRA_AT_180):
     """Returns the solar rashi prevailing at a given moment
 
     Solar month is computed based on the longitude of the sun; in
@@ -128,7 +128,7 @@ def get_solar_rashi(jd, ayanamsha_id=swe.SIDM_LAHIRI):
     return get_angam(jd, SOLAR_MONTH, ayanamsha_id=ayanamsha_id)
 
 
-def get_angam_float(jd, angam_type, offset=0, ayanamsha_id=swe.SIDM_LAHIRI, debug=False):
+def get_angam_float(jd, angam_type, offset=0, ayanamsha_id=Ayanamsha.CHITRA_AT_180, debug=False):
     """Returns the angam
 
       Args:
@@ -155,15 +155,15 @@ def get_angam_float(jd, angam_type, offset=0, ayanamsha_id=swe.SIDM_LAHIRI, debu
 
     #  Get the lunar longitude, starting at the ayanaamsha point in the ecliptic.
     if w_moon != 0:
-        lmoon = (swe.calc_ut(jd, swe.MOON)[0] - Ayanamsha(ayanamsha_id).get_offset(jd)) % 360
+        lmoon = (swe.calc_ut(jd, swe.MOON)[0][0] - Ayanamsha(ayanamsha_id).get_offset(jd)) % 360
         if (debug):
-            logging.debug("Moon longitude: %f", swe.calc_ut(jd, swe.MOON)[0])
+            logging.debug("Moon longitude: %f", swe.calc_ut(jd, swe.MOON)[0][0])
             logging.debug('## get_angam_float(): lmoon=%f', lmoon)
         lcalc += w_moon * lmoon
 
     #  Get the solar longitude, starting at the ayanaamsha point in the ecliptic.
     if w_sun != 0:
-        lsun = (swe.calc_ut(jd, swe.SUN)[0] - Ayanamsha(ayanamsha_id).get_offset(jd)) % 360
+        lsun = (swe.calc_ut(jd, swe.SUN)[0][0] - Ayanamsha(ayanamsha_id).get_offset(jd)) % 360
         if(debug):
             logging.debug('## get_angam_float(): lsun=%f', lsun)
         lcalc += w_sun * lsun
@@ -185,7 +185,7 @@ def get_angam_float(jd, angam_type, offset=0, ayanamsha_id=swe.SIDM_LAHIRI, debu
         return (lcalc / arc_len) + offset
 
 
-def get_planet_next_transit(jd_start, jd_end, planet, ayanamsha_id=swe.SIDM_LAHIRI):
+def get_planet_next_transit(jd_start, jd_end, planet, ayanamsha_id=Ayanamsha.CHITRA_AT_180):
     """Returns the next transit of the given planet e.g. swe.JUPITER
 
       Args:
@@ -238,7 +238,7 @@ def get_planet_next_transit(jd_start, jd_end, planet, ayanamsha_id=swe.SIDM_LAHI
     return transits
 
 
-def get_angam(jd, angam_type, ayanamsha_id=swe.SIDM_LAHIRI):
+def get_angam(jd, angam_type, ayanamsha_id=Ayanamsha.CHITRA_AT_180):
     """Returns the angam prevailing at a particular time
 
       Args:
@@ -266,7 +266,7 @@ def get_angam(jd, angam_type, ayanamsha_id=swe.SIDM_LAHIRI):
     return int(1 + floor(get_angam_float(jd, angam_type, ayanamsha_id=ayanamsha_id)))
 
 
-def get_all_angas(jd, ayanamsha_id=swe.SIDM_LAHIRI):
+def get_all_angas(jd, ayanamsha_id=Ayanamsha.CHITRA_AT_180):
   anga_objects = [TITHI, TITHI_PADA, NAKSHATRAM, NAKSHATRA_PADA, RASHI, SOLAR_MONTH, SOLAR_NAKSH, YOGA, KARANAM]
   angas = list(map(lambda anga_object: get_angam(jd=jd, angam_type=anga_object, ayanamsha_id=ayanamsha_id), anga_objects))
   anga_ids = list(map(lambda anga_obj: anga_obj["id"], anga_objects))
@@ -275,7 +275,7 @@ def get_all_angas(jd, ayanamsha_id=swe.SIDM_LAHIRI):
 
 def get_all_angas_x_ayanamshas(jd):
   # swe.SIDM_TRUE_REVATI leads to a segfault.
-  ayanamshas = [swe.SIDM_LAHIRI, swe.SIDM_ARYABHATA, swe.SIDM_ARYABHATA_MSUN, swe.SIDM_KRISHNAMURTI, swe.SIDM_JN_BHASIN, swe.SIDM_RAMAN, swe.SIDM_SS_CITRA, swe.SIDM_SS_REVATI, swe.SIDM_SURYASIDDHANTA, swe.SIDM_SURYASIDDHANTA_MSUN, swe.SIDM_USHASHASHI, swe.SIDM_YUKTESHWAR, swe.SIDM_LAHIRI, names.SIDM_TRUE_MULA, names.SIDM_TRUE_PUSHYA]
+  ayanamshas = [Ayanamsha.CHITRA_AT_180, swe.SIDM_ARYABHATA, swe.SIDM_ARYABHATA_MSUN, swe.SIDM_KRISHNAMURTI, swe.SIDM_JN_BHASIN, swe.SIDM_RAMAN, swe.SIDM_SS_CITRA, swe.SIDM_SS_REVATI, swe.SIDM_SURYASIDDHANTA, swe.SIDM_SURYASIDDHANTA_MSUN, swe.SIDM_USHASHASHI, swe.SIDM_YUKTESHWAR, Ayanamsha.CHITRA_AT_180, names.SIDM_TRUE_MULA, names.SIDM_TRUE_PUSHYA]
 
   ayanamsha_names = list(map(lambda ayanamsha: names.get_ayanamsha_name(ayanamsha), ayanamshas))
   return dict(zip(ayanamsha_names, map(lambda ayanamsha_id: get_all_angas(jd=jd, ayanamsha_id=ayanamsha_id), ayanamshas)))
@@ -288,7 +288,7 @@ def print_angas_x_ayanamshas(jd):
   print(angas_df.to_csv(sep="\t"))
 
 
-def get_angam_span(jd1, jd2, angam_type, target, ayanamsha_id=swe.SIDM_LAHIRI, debug=False):
+def get_angam_span(jd1, jd2, angam_type, target, ayanamsha_id=Ayanamsha.CHITRA_AT_180, debug=False):
     """Computes angam spans for angams such as tithi, nakshatram, yoga
         and karanam.
 
@@ -374,7 +374,7 @@ def get_angam_span(jd1, jd2, angam_type, target, ayanamsha_id=swe.SIDM_LAHIRI, d
     return (angam_start, angam_end)
 
 
-def get_angam_data(jd_sunrise, jd_sunrise_tmrw, angam_type, ayanamsha_id=swe.SIDM_LAHIRI):
+def get_angam_data(jd_sunrise, jd_sunrise_tmrw, angam_type, ayanamsha_id=Ayanamsha.CHITRA_AT_180):
     """Computes angam data for angams such as tithi, nakshatram, yoga
     and karanam.
 
@@ -418,14 +418,14 @@ def get_angam_data(jd_sunrise, jd_sunrise_tmrw, angam_type, ayanamsha_id=swe.SID
         # The angam does not change until sunrise tomorrow
         return [(angam_now, None)]
     else:
-        lmoon = (swe.calc_ut(jd_sunrise, swe.MOON)[0] - Ayanamsha(ayanamsha_id).get_offset(jd_sunrise)) % 360
+        lmoon = (swe.calc_ut(jd_sunrise, swe.MOON)[0][0] - Ayanamsha(ayanamsha_id).get_offset(jd_sunrise)) % 360
 
-        lsun = (swe.calc_ut(jd_sunrise, swe.SUN)[0] - Ayanamsha(ayanamsha_id).get_offset(jd_sunrise)) % 360
+        lsun = (swe.calc_ut(jd_sunrise, swe.SUN)[0][0] - Ayanamsha(ayanamsha_id).get_offset(jd_sunrise)) % 360
 
-        lmoon_tmrw = (swe.calc_ut(jd_sunrise_tmrw, swe.MOON)[0] -
+        lmoon_tmrw = (swe.calc_ut(jd_sunrise_tmrw, swe.MOON)[0][0] -
                       Ayanamsha(ayanamsha_id).get_offset(jd_sunrise_tmrw)) % 360
 
-        lsun_tmrw = (swe.calc_ut(jd_sunrise_tmrw, swe.SUN)[0] -
+        lsun_tmrw = (swe.calc_ut(jd_sunrise_tmrw, swe.SUN)[0][0] -
                      Ayanamsha(ayanamsha_id).get_offset(jd_sunrise_tmrw)) % 360
 
         for i in range(num_angas_today):
@@ -498,7 +498,7 @@ def get_chandra_masa(month, NAMES, script, visarga=True):
           return '%s-(%s)' % (NAMES['CHANDRA_MASA_NAMES'][script][int(month) + 1][:-1], tr('adhika', script, titled=False))
 
 
-def get_tithi(jd, ayanamsha_id=swe.SIDM_LAHIRI):
+def get_tithi(jd, ayanamsha_id=Ayanamsha.CHITRA_AT_180):
     """Returns the tithi prevailing at a given moment
 
     Tithi is computed as the difference in the longitudes of the moon
