@@ -100,7 +100,7 @@ class City(JsonObject):
             datetime.utcoffset(local_time).seconds) / 3600.0
 
   def julian_day_to_local_time(self, julian_day, round_seconds=False):
-    [y, m, dt, time_in_hours] = temporal.jd_to_utc(julian_day)
+    [y, m, dt, time_in_hours] = temporal.jd_to_utc_gregorian(julian_day)
     (hours, minutes, seconds) = decypher_fractional_hours(time_in_hours=time_in_hours)
     local_time = swe.utc_time_zone(y, m, dt, hours, minutes, seconds, -self.get_timezone_offset_hours_from_date(y, m, dt, hours, minutes, seconds))
     if round_seconds:
@@ -112,7 +112,7 @@ class City(JsonObject):
   def local_time_to_julian_day(self, year, month, day, hours, minutes, seconds):
     offset_hours = self.get_timezone_offset_hours_from_date(year=year, month=month, day=day, hour=hours, minute=minutes, seconds=seconds)
     (year_utc, month_utc, day_utc, hours_utc, minutes_utc, seconds_utc) = swe.utc_time_zone(year, month, day, hours, minutes, seconds, offset_hours)
-    julian_dates = temporal.utc_to_jd(year_utc, month_utc, day_utc, hours_utc, minutes_utc, seconds_utc, 1)
+    julian_dates = temporal.utc_gregorian_to_jd(year_utc, month_utc, day_utc, hours_utc, minutes_utc, seconds_utc, 1)
     return julian_dates[1]
 
 

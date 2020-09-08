@@ -113,7 +113,7 @@ def writeDailyText(panchangam, compute_lagnams=True, output_file_stream=sys.stdo
 
     for d in range(1, jyotisha.panchangam.temporal.MAX_SZ - 1):
 
-        [y, m, dt, t] = temporal.jd_to_utc(panchangam.jd_start_utc + d - 1)
+        [y, m, dt, t] = temporal.jd_to_utc_gregorian(panchangam.jd_start_utc + d - 1)
 
         print('## %02d-%s-%4d' % (dt, month[m], y), file=output_stream)
 

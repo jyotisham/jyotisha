@@ -71,7 +71,7 @@ def writeDailyTeX(panchangam, template_file, compute_lagnams=True, output_stream
 
     for d in range(1, panchangam.duration + 1):
 
-        [y, m, dt, t] = temporal.jd_to_utc(panchangam.jd_start_utc + d - 1)
+        [y, m, dt, t] = temporal.jd_to_utc_gregorian(panchangam.jd_start_utc + d - 1)
 
         if m == 1 and dt == 1:
             print('\\renewcommand{\\yearname}{%d}' % y, file=output_stream)

@@ -50,13 +50,13 @@ for i in range(7):
   AMRITADI_YOGA[i] = [AMRITADI_YOGA_NAMES.get(n, n) for n in AMRITADI_YOGA[i]]
 
 
-def jd_to_utc(jd):
+def jd_to_utc_gregorian(jd):
     tm = Time(jd, format='jd')
     tm.format = "ymdhms"
     return [tm.value["year"], tm.value["month"], tm.value["day"], tm.value["hour"] + tm.value["minute"] / 60.0 + tm.value["second"] / 3600.0]
 
 
-def utc_to_jd(year, month, day, hour):
+def utc_gregorian_to_jd(year, month, day, hour):
     minutes, _ = modf(hour * 60)
     seconds, minutes = modf(minutes * 60)
     tm = Time({"year": year, "month": month, "day": day, "hour": int(hour), "minute": int(minutes), "second": seconds}, format='ymdhms')
