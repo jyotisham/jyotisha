@@ -1,4 +1,5 @@
 import logging
+import math
 import traceback
 from math import modf
 
@@ -77,3 +78,9 @@ class Hour(JsonObject):
 
     def __str__(self):
         return self.toString(format='hh:mm:ss')
+
+
+def decypher_fractional_hours(time_in_hours):
+    minutes, _ = modf(time_in_hours * 60)
+    seconds, minutes = modf(minutes * 60)
+    return (int(time_in_hours), int(minutes), seconds)

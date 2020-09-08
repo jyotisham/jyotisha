@@ -2,7 +2,6 @@
 #  -*- coding: utf-8 -*-
 
 import logging
-import math
 import os
 import swisseph as swe
 import sys
@@ -15,6 +14,7 @@ from sanskrit_data.schema.common import JsonObject
 
 from jyotisha.custom_transliteration import sexastr2deci
 from jyotisha.panchangam import temporal
+from jyotisha.panchangam.temporal.hour import decypher_fractional_hours
 
 logging.basicConfig(level=logging.DEBUG,
                     format="%(levelname)s: %(asctime)s {%(filename)s:%(lineno)d}: %(message)s ")
@@ -44,13 +44,6 @@ CODE_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
 
 CALC_RISE = 897  # 512 + 256 + 128 + 1
 CALC_SET = 898   # 512 + 256 + 128 + 2
-
-
-def decypher_fractional_hours(time_in_hours):
-  hours = math.floor(time_in_hours)
-  minutes = math.floor((time_in_hours - hours) * 60)
-  seconds = math.floor((time_in_hours - hours - minutes / 60.0) * 3600)
-  return (hours, minutes, seconds)
 
 
 class City(JsonObject):

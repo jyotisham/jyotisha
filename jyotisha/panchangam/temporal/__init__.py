@@ -10,6 +10,7 @@ from scipy.optimize import brentq
 from jyotisha import names
 from jyotisha.custom_transliteration import revjul, tr
 from jyotisha.names.init_names_auto import init_names_auto
+from jyotisha.panchangam.temporal import hour
 from jyotisha.zodiac import get_planet_lon
 
 logging.basicConfig(
@@ -56,10 +57,9 @@ def jd_to_utc_gregorian(jd):
     return [tm.value["year"], tm.value["month"], tm.value["day"], tm.value["hour"] + tm.value["minute"] / 60.0 + tm.value["second"] / 3600.0]
 
 
-def utc_gregorian_to_jd(year, month, day, hour):
-    minutes, _ = modf(hour * 60)
-    seconds, minutes = modf(minutes * 60)
-    tm = Time({"year": year, "month": month, "day": day, "hour": int(hour), "minute": int(minutes), "second": seconds}, format='ymdhms')
+def utc_gregorian_to_jd(year, month, day, fractional_hour):
+    (hours, minutes, seconds) = hour.decypher_fractional_hours(fractional_hour) 
+    tm = Time({"year": year, "month": month, "day": day, "hour": int(fractional_hour), "minute": int(minutes), "second": seconds}, format='ymdhms')
     tm.format = "jd"
     return tm.value
 
