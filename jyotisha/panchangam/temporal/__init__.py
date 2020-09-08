@@ -56,19 +56,19 @@ class Time(JsonObject):
     """This  class is a time class with methods for printing, conversion etc.
     """
 
-    def __init__(self, t):
+    def __init__(self, hour):
         super().__init__()
-        if type(t) == float or type(t) == int:
-            self.t = t
+        if type(hour) == float or type(hour) == int:
+            self.hour = hour
         else:
             raise(TypeError('Input to time class must be int or float!'))
 
     def toString(self, default_suffix='', format='hh:mm', rounding=False):
-        if self.t < 0:
-          logging.error('t<0! %s ' % self.t)
+        if self.hour < 0:
+          logging.error('t<0! %s ' % self.hour)
           logging.error(traceback.print_stack())
 
-        msec, secs = modf(self.t * 3600)
+        msec, secs = modf(self.hour * 3600)
         msec = round(msec * 1000)
         if msec == 1000:
           msec = 0
@@ -99,13 +99,13 @@ class Time(JsonObject):
         elif format in ('hh:mm:ss.sss', 'hh:mm:ss.sss*'):
           return '%02d:%02d:%02d.%03d%s' % (hour, minute, second, msec, suffix)
         elif format == 'gg-pp':  # ghatika-pal
-          secs = round(self.t * 3600)
+          secs = round(self.hour * 3600)
           gg = secs // 1440
           secs = secs % 1440
           pp = secs // 24
           return ('%d-%d' % (gg, pp))
         elif format == 'gg-pp-vv':  # ghatika-pal-vipal
-          vv_tot = round(self.t * 3600 / 0.4)
+          vv_tot = round(self.hour * 3600 / 0.4)
           logging.debug(vv_tot)
           vv = vv_tot % 60
           logging.debug(vv)
