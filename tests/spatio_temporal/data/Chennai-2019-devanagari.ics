@@ -3969,12 +3969,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:गुरु-सङ्क्रान्तिः (वृश्च
- िकः▶धनुः)
+SUMMARY:फाल्गुन-अन्वष्टका-श्राद
+ ्धम्
 DTSTART;VALUE=DATE:20190329
 DTEND;VALUE=DATE:20190330
-DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- other/sankranti#guru-saṅkrāntiḥ<br/><br/>#Sankranti
+DESCRIPTION:Shannavati Shraddham Day.<br/><br/>https://github.com/sanskrit
+ -coders/adyatithi/tree/master/data/relative_event/phAlguna-aSTakA-zrAddham
+ /offset__01#phālguna-anvaṣṭakā-śrāddham<br/><br/>#ShannavatiTarpan
+ aDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3984,14 +3986,12 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:फाल्गुन-अन्वष्टका-श्राद
- ्धम्
-DTSTART;VALUE=DATE:20190329
-DTEND;VALUE=DATE:20190330
-DESCRIPTION:Shannavati Shraddham Day.<br/><br/>https://github.com/sanskrit
- -coders/adyatithi/tree/master/data/relative_event/phAlguna-aSTakA-zrAddham
- /offset__01#phālguna-anvaṣṭakā-śrāddham<br/><br/>#ShannavatiTarpan
- aDays
+SUMMARY:गुरु-सङ्क्रान्तिः (वृश्च
+ िकः▶धनुः)
+DTSTART;VALUE=DATE:20190330
+DTEND;VALUE=DATE:20190331
+DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
+ other/sankranti#guru-saṅkrāntiḥ<br/><br/>#Sankranti
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -14306,7 +14306,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:गजच्छाया-योगः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190928T220000
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190928T220200
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190928T235600
 DESCRIPTION:A very special yOga\, for doing Pitru Shraddha during Mahalaya
   Paksham. A man that performs a sraddha in the conjunction called Gajaccha

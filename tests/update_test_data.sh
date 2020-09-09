@@ -19,3 +19,4 @@ python3 -m jyotisha.panchangam.scripts.write_daily_panchangam_tex  Orinda 37:51:
 cp ~/Documents/Orinda-2018.json spatio_temporal/data/
 
 python3 -m jyotisha.panchangam.scripts.ics Chennai 13:05:24 80:16:12 'Asia/Calcutta' 2019 devanagari && mv ~/Documents/Chennai-2019-devanagari.ics spatio_temporal/data/ -v
+
