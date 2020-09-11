@@ -1,3 +1,6 @@
 [submodule "jyotisha/panchangam/temporal/festival"]
 	path = jyotisha/panchangam/temporal/festival
 	url = https://github.com/sanskrit-coders/adyatithi
+[submodule "jyotisha/panchangam/temporal/festival/data"]
+	path = jyotisha/panchangam/temporal/festival/data
+	url = https://github.com/sanskrit-coders/adyatithi.git
