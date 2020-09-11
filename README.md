@@ -6,8 +6,8 @@ For detailed examples and help, please see individual module files in this packa
 ## Installation or upgrade:
 - Install the pyswisseph library specially as described below.
 - Install the jyotisha package
+  -  (Prefer this to get the latest code:)`sudo pip install git+https://github.com/sanskrit-coders/jyotisha/@master -U`
   - `sudo pip install jyotisha -U`
-  - `sudo pip install git+https://github.com/sanskrit-coders/jyotisha/@master -U`
 - [Web](https://pypi.python.org/pypi/jyotisha).
 
 ## Usage
