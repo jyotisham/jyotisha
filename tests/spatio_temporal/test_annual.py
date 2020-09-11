@@ -1,13 +1,10 @@
-import json
 import logging
 import os
-import swisseph as swe
-from indic_transliteration import xsanscript as sanscript
 
+from indic_transliteration import xsanscript as sanscript
 from sanskrit_data.schema.common import JsonObject
 
 from jyotisha.panchangam.spatio_temporal import City, annual
-
 # from jyotisha.panchangam import scripts
 # from jyotisha.panchangam.spatio_temporal import annual
 from jyotisha.panchangam.temporal import zodiac
@@ -25,10 +22,11 @@ def test_panchanga_chennai_18():
   panchangam_expected_chennai_18.update_festival_details()
   city = City('Chennai', "13:05:24", "80:16:12", "Asia/Calcutta")
   panchangam = annual.get_panchangam(city=city, year=2018, script=sanscript.DEVANAGARI, ayanamsha_id=zodiac.Ayanamsha.CHITRA_AT_180, compute_lagnams=False, allow_precomputed=False)
-  if panchangam.__str__(floating_point_precision=4) != panchangam_expected_chennai_18.__str__(floating_point_precision=4):
-    panchangam.dump_to_file(filename=os.path.join(TEST_DATA_PATH, 'Chennai-2018-actual.json.local'), floating_point_precision=4)
-    panchangam_expected_chennai_18.dump_to_file(filename=os.path.join(TEST_DATA_PATH, 'Chennai-2018-expected.json.local'), floating_point_precision=4)
-  assert panchangam.__str__(floating_point_precision=4) == panchangam_expected_chennai_18.__str__(floating_point_precision=4)
+
+  if panchangam.to_json_map(floating_point_precision=4) != panchangam_expected_chennai_18.to_json_map(floating_point_precision=4):
+    panchangam.dump_to_file(filename=os.path.join(TEST_DATA_PATH, 'Chennai-2018-actual.json.local'), floating_point_precision=4, sort_keys=False)
+    panchangam_expected_chennai_18.dump_to_file(filename=os.path.join(TEST_DATA_PATH, 'Chennai-2018-expected.json.local'), floating_point_precision=4, sort_keys=False)
+  assert panchangam.to_json_map(floating_point_precision=4) == panchangam_expected_chennai_18.to_json_map(floating_point_precision=4)
 
 
 def test_panchanga_chennai_19():
