@@ -1373,7 +1373,7 @@ class Panchangam(common.JsonObject):
 
         # ASSIGN ALL FESTIVALS FROM adyatithi submodule
         # festival_rules = read_old_festival_rules_dict(os.path.join(CODE_ROOT, 'panchangam/data/festival_rules_test.json'))
-        festival_rules = read_old_festival_rules_dict(os.path.join(CODE_ROOT, 'panchangam/temporal/festival/legacy/festival_rules.json'))
+        festival_rules = read_old_festival_rules_dict(os.path.join(CODE_ROOT, 'panchangam/temporal/festival/data/legacy/festival_rules.json'))
         assert "tripurOtsavaH" in festival_rules
         self.assign_festivals_from_rules(festival_rules, debug_festivals=debug_festivals)
         self.assign_vishesha_vyatipata(debug_festivals=debug_festivals)
@@ -1397,7 +1397,7 @@ class Panchangam(common.JsonObject):
             #                                            0] - 5) % 7)]
 
         relative_festival_rules = read_old_festival_rules_dict(
-            os.path.join(CODE_ROOT, 'panchangam/temporal/festival/legacy/relative_festival_rules.json'))
+            os.path.join(CODE_ROOT, 'panchangam/temporal/festival/data/legacy/relative_festival_rules.json'))
 
         for festival_name in relative_festival_rules:
             offset = int(relative_festival_rules[festival_name]['offset'])
@@ -1422,9 +1422,9 @@ class Panchangam(common.JsonObject):
                 self.festivals[self.fest_days[festival_name][j]].append(festival_name)
 
     def filter_festivals(self, incl_tags=['CommonFestivals', 'MonthlyVratam', 'RareDays', 'AmavasyaDays', 'Dashavataram', 'SunSankranti']):
-        festival_rules_main = read_old_festival_rules_dict(os.path.join(CODE_ROOT, 'panchangam/temporal/festival/legacy/festival_rules.json'))
-        festival_rules_rel = read_old_festival_rules_dict(os.path.join(CODE_ROOT, 'panchangam/temporal/festival/legacy/relative_festival_rules.json'))
-        festival_rules_desc_only = read_old_festival_rules_dict(os.path.join(CODE_ROOT, 'panchangam/temporal/festival/legacy/festival_rules_desc_only.json'))
+        festival_rules_main = read_old_festival_rules_dict(os.path.join(CODE_ROOT, 'panchangam/temporal/festival/data/legacy/festival_rules.json'))
+        festival_rules_rel = read_old_festival_rules_dict(os.path.join(CODE_ROOT, 'panchangam/temporal/festival/data/legacy/relative_festival_rules.json'))
+        festival_rules_desc_only = read_old_festival_rules_dict(os.path.join(CODE_ROOT, 'panchangam/temporal/festival/data/legacy/festival_rules_desc_only.json'))
 
         festival_rules = {**festival_rules_main, **festival_rules_rel, **festival_rules_desc_only}
 

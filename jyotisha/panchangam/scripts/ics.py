@@ -36,9 +36,9 @@ def write_to_file(ics_calendar, fname):
 
 
 def compute_calendar(panchangam, all_tags=True, brief=False):
-    festival_rules_main = read_old_festival_rules_dict(os.path.join(CODE_ROOT, 'panchangam/temporal/festival/legacy/festival_rules.json'))
-    festival_rules_rel = read_old_festival_rules_dict(os.path.join(CODE_ROOT, 'panchangam/temporal/festival/legacy/relative_festival_rules.json'))
-    festival_rules_desc_only = read_old_festival_rules_dict(os.path.join(CODE_ROOT, 'panchangam/temporal/festival/legacy/festival_rules_desc_only.json'))
+    festival_rules_main = read_old_festival_rules_dict(os.path.join(CODE_ROOT, 'panchangam/temporal/festival/data/legacy/festival_rules.json'))
+    festival_rules_rel = read_old_festival_rules_dict(os.path.join(CODE_ROOT, 'panchangam/temporal/festival/data/legacy/relative_festival_rules.json'))
+    festival_rules_desc_only = read_old_festival_rules_dict(os.path.join(CODE_ROOT, 'panchangam/temporal/festival/data/legacy/festival_rules_desc_only.json'))
 
     festival_rules = {**festival_rules_main, **festival_rules_rel, **festival_rules_desc_only}
 
