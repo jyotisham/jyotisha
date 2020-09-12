@@ -30,6 +30,11 @@ python setup.py bdist_wheel
 twine upload dist/* --skip-existing
 ```
 
+Test installation with :
+```
+pip install git+https://github.com/sanskrit-coders/jyotisha/@master --target=./test_installation.local -vU
+```
+
 ## Document generation
 - Sphynx html docs can be generated with `cd docs; make html` Current errors:
   - Can't find xsanscript. indic_transliteration package must be updated.
