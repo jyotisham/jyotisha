@@ -2,4 +2,6 @@
 include LICENSE.txt
 
 # Include the data files
-# recursive-include data *
+recursive-include jyotisha/panchangam/temporal/festival/data *
+recursive-include jyotisha/names/data *
+recursive-include jyotisha/panchangam/data *
