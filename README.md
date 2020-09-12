@@ -30,9 +30,10 @@ python setup.py bdist_wheel
 twine upload dist/* --skip-existing
 ```
 
-Test installation with :
+Test installation with one of these:
 ```
-pip install git+https://github.com/sanskrit-coders/jyotisha/@master --target=./test_installation.local -vU
+pip install . --target=./test_installation.local -U
+pip install git+https://github.com/sanskrit-coders/jyotisha/@master --target=./test_installation.local -U
 ```
 
 ## Document generation
