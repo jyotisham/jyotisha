@@ -1840,12 +1840,9 @@ class Panchangam(common.JsonObject):
                 # print '%%', jd, fday, self.jd_sunrise[fday],
                 # self.jd_sunrise[fday-1], eclipse_lunar_start,
                 # eclipse_lunar_end
-                jd_moonrise_eclipse_day = swe.rise_trans(
-                    jd_start=self.jd_sunrise[fday], body=swe.MOON, lon=self.city.longitude,
-                    lat=self.city.latitude, rsmi=CALC_RISE)[1][0] + (tz_off / 24.0)
-                jd_moonset_eclipse_day = swe.rise_trans(
-                    jd_start=jd_moonrise_eclipse_day, body=swe.MOON, lon=self.city.longitude,
-                    lat=self.city.latitude, rsmi=CALC_SET)[1][0] + (tz_off / 24.0)
+                jd_moonrise_eclipse_day = self.city.get_rising_time(julian_day_start=self.jd_sunrise[fday], body=Graha.MOON) + (tz_off / 24.0)
+
+                jd_moonset_eclipse_day = self.city.get_rising_time(julian_day_start=jd_moonrise_eclipse_day, body=Graha.MOON) + (tz_off / 24.0)
 
                 if eclipse_lunar_end < eclipse_lunar_start:
                     eclipse_lunar_end += 24

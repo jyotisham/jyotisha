@@ -79,28 +79,16 @@ class DailyPanchanga(common.JsonObject):
             if previous_day_panchangam is not None and previous_day_panchangam.jd_next_sunrise is not None:
                 self.jd_sunrise = previous_day_panchangam.jd_next_sunrise
             else:
-                self.jd_sunrise = swe.rise_trans(
-                    jd_start=self.julian_day_start, body=swe.SUN,
-                    lon=self.city.longitude, lat=self.city.latitude,
-                    rsmi=CALC_RISE)[1][0]
+                self.jd_sunrise = self.city.get_rising_time(julian_day_start=self.julian_day_start, body=Graha.SUN)
         if force_recomputation or self.jd_sunset is None:
-            self.jd_sunset = swe.rise_trans(
-                jd_start=self.jd_sunrise, body=swe.SUN,
-                lon=self.city.longitude, lat=self.city.latitude,
-                rsmi=CALC_SET)[1][0]
+            self.jd_sunset = self.city.get_setting_time(julian_day_start=self.jd_sunrise, body=Graha.SUN)
         if force_recomputation or self.jd_previous_sunset is None:
             if previous_day_panchangam is not None and previous_day_panchangam.jd_sunset is not None:
                 self.jd_previous_sunset = previous_day_panchangam.jd_sunset
             else:
-                self.jd_previous_sunset = swe.rise_trans(
-                    jd_start=self.jd_sunrise - 1, body=swe.SUN,
-                    lon=self.city.longitude, lat=self.city.latitude,
-                    rsmi=CALC_SET)[1][0]
+                self.jd_previous_sunset = self.city.get_setting_time(julian_day_start=self.jd_sunrise-1, body=Graha.SUN)
         if force_recomputation or self.jd_next_sunrise is None:
-            self.jd_next_sunrise = swe.rise_trans(
-                jd_start=self.jd_sunset, body=swe.SUN,
-                lon=self.city.longitude, lat=self.city.latitude,
-                rsmi=CALC_RISE)[1][0]
+            self.jd_next_sunrise = self.city.get_rising_time(julian_day_start=self.jd_sunset, body=Graha.SUN)
         if self.jd_sunset == 0.0:
             logging.error('No sunset was computed!')
             raise (ValueError(
@@ -109,16 +97,9 @@ class DailyPanchanga(common.JsonObject):
             #                              lat=city.latitude, rsmi=CALC_SET))
 
         if force_recomputation or self.jd_moonrise is None:
-            self.jd_moonrise = swe.rise_trans(
-                jd_start=self.jd_sunrise,
-                body=swe.MOON, lon=self.city.longitude,
-                lat=self.city.latitude,
-                rsmi=CALC_RISE)[1][0]
+            self.jd_moonrise = self.city.get_rising_time(julian_day_start=self.jd_sunrise, body=Graha.MOON)
         if force_recomputation or self.jd_moonset is None:
-            self.jd_moonset = swe.rise_trans(
-                jd_start=self.jd_sunrise, body=swe.MOON,
-                lon=self.city.longitude, lat=self.city.latitude,
-                rsmi=CALC_SET)[1][0]
+            self.jd_moonset = self.city.get_setting_time(julian_day_start=self.jd_sunrise, body=Graha.MOON)
 
         self.tithi_data = temporal.get_angam_data(self.jd_sunrise, self.jd_next_sunrise, temporal.TITHI, ayanamsha_id=self.ayanamsha_id)
         self.tithi_at_sunrise = self.tithi_data[0][0]
@@ -178,13 +159,9 @@ class DailyPanchanga(common.JsonObject):
         jd_masa_transit = brentq(get_angam_float, self.jd_sunrise - 34, self.jd_sunset,
                                  args=(SOLAR_MONTH, -target, self.ayanamsha_id, False))
 
-        jd_sunset_after_masa_transit = swe.rise_trans(jd_start=jd_masa_transit, body=swe.SUN,
-                                                      lon=self.city.longitude, lat=self.city.latitude,
-                                                      rsmi=CALC_SET)[1][0]
+        jd_sunset_after_masa_transit = self.city.get_setting_time(julian_day_start=jd_masa_transit, body=Graha.SUN)
 
-        jd_sunrise_after_masa_transit = swe.rise_trans(jd_start=jd_masa_transit, body=swe.SUN,
-                                                       lon=self.city.longitude, lat=self.city.latitude,
-                                                       rsmi=CALC_RISE)[1][0]
+        jd_sunrise_after_masa_transit = self.city.get_rising_time(julian_day_start=jd_masa_transit, body=Graha.SUN)
 
         if jd_sunset_after_masa_transit > jd_sunrise_after_masa_transit:
             # Masa begins after sunset and before sunrise

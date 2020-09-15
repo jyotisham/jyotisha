@@ -83,6 +83,22 @@ class City(JsonObject):
     city = City(name=address, latitude=location.latitude, longitude=location.longitude, timezone=timezone_str)
     return city
 
+  def get_rising_time(self, julian_day_start, body):
+    from jyotisha.panchangam.temporal import Graha
+    graha = Graha(body)
+    return swe.rise_trans(
+      jd_start=julian_day_start, body=graha._get_swisseph_id(),
+      lon=self.longitude, lat=self.latitude,
+      rsmi=CALC_RISE)[1][0]
+
+  def get_setting_time(self, julian_day_start, body):
+    from jyotisha.panchangam.temporal import Graha
+    graha = Graha(body)
+    return swe.rise_trans(
+      jd_start=julian_day_start, body=graha._get_swisseph_id(),
+      lon=self.longitude, lat=self.latitude,
+      rsmi=CALC_SET)[1][0]
+
 
 class Timezone:
   def __init__(self, timezone_id):
