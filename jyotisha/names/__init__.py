@@ -13,20 +13,30 @@ def get_ayanamsha_name(ayanamsha_id):
   return swe.get_ayanamsa_name(ayanamsha_id)
 
 
-def get_swisseph_body_id(body_name):
-  body_id = -1
-  if body_name == "sun":
-    body_id = swe.SUN
-  elif body_name == "moon":
-    body_id = swe.MOON
-  elif body_name == "jupiter":
-    body_id = swe.JUPITER
-  elif body_name == "venus":
-    body_id = swe.VENUS
-  elif body_name == "mercury":
-    body_id = swe.MERCURY
-  elif body_name == "mars":
-    body_id = swe.MARS
-  elif body_name == "saturn":
-    body_id = swe.SATURN
-  return body_id
+class Graha(object):
+  SUN = "sun"
+  MOON = "moon"
+  JUPITER = "jupiter"
+  VENUS = "venus"
+  MERCURY = "mercury"
+  MARS = "mars"
+  SATURN = "saturn"
+
+  @classmethod
+  def get_swisseph_id(cls, body_name):
+    body_id = -1
+    if body_name == cls.SUN:
+      body_id = swe.SUN
+    elif body_name == cls.MOON:
+      body_id = swe.MOON
+    elif body_name == cls.JUPITER:
+      body_id = swe.JUPITER
+    elif body_name == cls.VENUS:
+      body_id = swe.VENUS
+    elif body_name == cls.MERCURY:
+      body_id = swe.MERCURY
+    elif body_name == cls.MARS:
+      body_id = swe.MARS
+    elif body_name == "saturn":
+      body_id = swe.SATURN
+    return body_id

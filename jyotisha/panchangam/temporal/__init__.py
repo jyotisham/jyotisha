@@ -64,6 +64,10 @@ def utc_gregorian_to_jd(year, month, day, fractional_hour):
     return tm.value
 
 
+def get_position(jd, body):
+    return swe.calc_ut(jd, names.Graha.get_swisseph_body_id(body_name=body))[0][0]
+
+
 def get_nakshatram(jd, ayanamsha_id=Ayanamsha.CHITRA_AT_180):
     """Returns the nakshatram prevailing at a given moment
 
