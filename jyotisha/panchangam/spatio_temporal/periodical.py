@@ -10,6 +10,9 @@ from typing import List
 from itertools import filterfalse
 
 from indic_transliteration import xsanscript as sanscript
+
+import jyotisha.panchangam.temporal
+from jyotisha.panchangam.temporal.graha import Graha
 from pytz import timezone as tz
 from sanskrit_data.schema.common import JsonObject
 
@@ -367,9 +370,9 @@ class Panchangam(common.JsonObject):
 
             # SANKATAHARA chaturthi
             if self.tithi_sunrise[d] == 18 or self.tithi_sunrise[d] == 19:
-                ldiff_moonrise_yest = (swe.calc_ut(self.jd_moonrise[d - 1], swe.MOON)[0][0] - swe.calc_ut(self.jd_moonrise[d - 1], swe.SUN)[0][0]) % 360
-                ldiff_moonrise = (swe.calc_ut(self.jd_moonrise[d], swe.MOON)[0][0] - swe.calc_ut(self.jd_moonrise[d], swe.SUN)[0][0]) % 360
-                ldiff_moonrise_tmrw = (swe.calc_ut(self.jd_moonrise[d + 1], swe.MOON)[0][0] - swe.calc_ut(self.jd_moonrise[d + 1], swe.SUN)[0][0]) % 360
+                ldiff_moonrise_yest = (Graha(Graha.MOON).get_longitude(self.jd_moonrise[d - 1]) - Graha(Graha.SUN).get_longitude(self.jd_moonrise[d - 1])) % 360
+                ldiff_moonrise = (Graha(Graha.MOON).get_longitude(self.jd_moonrise[d]) - Graha(Graha.SUN).get_longitude(self.jd_moonrise[d])) % 360
+                ldiff_moonrise_tmrw = (Graha(Graha.MOON).get_longitude(self.jd_moonrise[d + 1]) - Graha(Graha.SUN).get_longitude(self.jd_moonrise[d + 1])) % 360
                 tithi_moonrise_yest = int(1 + floor(ldiff_moonrise_yest / 12.0))
                 tithi_moonrise = int(1 + floor(ldiff_moonrise / 12.0))
                 tithi_moonrise_tmrw = int(1 + floor(ldiff_moonrise_tmrw / 12.0))
@@ -1862,7 +1865,7 @@ class Panchangam(common.JsonObject):
                 if jd_eclipse_lunar_end > jd_moonset_eclipse_day:
                     eclipse_lunar_end = moonset_eclipse_day
 
-                if swe.calc_ut(jd_eclipse_lunar_end, swe.MOON)[0][0] < swe.calc_ut(jd_eclipse_lunar_end, swe.SUN)[0][0]:
+                if Graha(Graha.MOON).get_longitude(jd_eclipse_lunar_end) < Graha(Graha.SUN).get_longitude(jd_eclipse_lunar_end):
                     grasta = 'rAhugrasta'
                 else:
                     grasta = 'kEtugrasta'
@@ -1881,7 +1884,7 @@ class Panchangam(common.JsonObject):
         check_window = 400  # Max t between two Jupiter transits is ~396 (checked across 180y)
         # Let's check for transitions in a relatively large window
         # to finalise what is the FINAL transition post retrograde movements
-        transits = temporal.get_planet_next_transit(self.jd_start_utc, jd_end + check_window, "jupiter", ayanamsha_id=self.ayanamsha_id)
+        transits = temporal.get_planet_next_transit(self.jd_start_utc, jd_end + check_window, Graha.JUPITER, ayanamsha_id=self.ayanamsha_id)
         if len(transits) > 0:
             for i, (jd_transit, rashi1, rashi2) in enumerate(transits):
                 if self.jd_start_utc < jd_transit < jd_end:
@@ -1921,7 +1924,7 @@ class Panchangam(common.JsonObject):
         for d in range(1, self.len - 1):
             jd = self.jd_start_utc - 1 + d
             [y, m, dt, t] = temporal.jd_to_utc_gregorian(jd)
-            longitude_sun_sunset = swe.calc_ut(self.jd_sunset[d], swe.SUN)[0][0] - zodiac.Ayanamsha(self.ayanamsha_id).get_offset(self.jd_sunset[d])
+            longitude_sun_sunset = Graha(Graha.SUN).get_longitude(self.jd_sunset[d]) - zodiac.Ayanamsha(self.ayanamsha_id).get_offset(self.jd_sunset[d])
             log_data = '%02d-%02d-%4d\t[%3d]\tsun_rashi=%8.3f\ttithi=%8.3f\tsolar_month\
         =%2d\tlunar_month=%4.1f\n' % (dt, m, y, d, (longitude_sun_sunset % 360) / 30.0,
                                       temporal.get_angam_float(self.jd_sunrise[d],

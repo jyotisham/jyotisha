@@ -2,20 +2,20 @@
 #  -*- coding: utf-8 -*-
 import datetime
 import logging
-import swisseph as swe
 import sys
 from math import floor
 
+import swisseph as swe
 from scipy.optimize import brentq
+from jyotisha.panchangam.temporal.graha import Graha
 
+import jyotisha.panchangam.temporal
 from jyotisha.panchangam import temporal
 from jyotisha.panchangam.spatio_temporal import City, CALC_RISE, CALC_SET, Timezone
 from jyotisha.panchangam.temporal import SOLAR_MONTH, get_angam, get_angam_float
 from jyotisha.panchangam.temporal.hour import Hour
-
-from sanskrit_data.schema import common
-
 from jyotisha.panchangam.temporal.zodiac import Ayanamsha
+from sanskrit_data.schema import common
 
 logging.basicConfig(level=logging.DEBUG,
                     format="%(levelname)s: %(asctime)s {%(filename)s:%(lineno)d}: %(message)s ")
@@ -133,8 +133,8 @@ class DailyPanchanga(common.JsonObject):
         if not hasattr(self, "jd_sunrise") or self.jd_sunrise is None:
             self.compute_sun_moon_transitions()
         
-        self.longitude_sun_sunrise = swe.calc_ut(self.jd_sunrise, swe.SUN)[0][0] - Ayanamsha(self.ayanamsha_id).get_offset(self.jd_sunrise)
-        self.longitude_sun_sunset = swe.calc_ut(self.jd_sunset, swe.SUN)[0][0] - Ayanamsha(self.ayanamsha_id).get_offset(self.jd_sunset)
+        self.longitude_sun_sunrise = Graha(Graha.SUN).get_longitude(self.jd_sunrise) - Ayanamsha(self.ayanamsha_id).get_offset(self.jd_sunrise)
+        self.longitude_sun_sunset = Graha(Graha.SUN).get_longitude(self.jd_sunset) - Ayanamsha(self.ayanamsha_id).get_offset(self.jd_sunset)
 
         # Each solar month has 30 days. So, divide the longitude by 30 to get the solar month.
         self.solar_month_sunset = int(1 + floor((self.longitude_sun_sunset % 360) / 30.0))

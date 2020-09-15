@@ -1,17 +1,18 @@
 import logging
-import swisseph as swe
 import sys
-from math import floor, modf
+from math import floor
 
+import swisseph as swe
 from astropy.time import Time
-from sanskrit_data.schema import common
 from scipy.optimize import brentq
 
 from jyotisha import names
 from jyotisha.custom_transliteration import tr
 from jyotisha.names.init_names_auto import init_names_auto
 from jyotisha.panchangam.temporal import hour
+from jyotisha.panchangam.temporal.graha import Graha
 from jyotisha.panchangam.temporal.zodiac import get_planet_lon, Ayanamsha
+from sanskrit_data.schema import common
 
 logging.basicConfig(
     level=logging.DEBUG,
@@ -62,10 +63,6 @@ def utc_gregorian_to_jd(year, month, day, fractional_hour):
     tm = Time({"year": year, "month": month, "day": day, "hour": int(fractional_hour), "minute": int(minutes), "second": seconds}, format='ymdhms')
     tm.format = "jd"
     return tm.value
-
-
-def get_position(jd, body):
-    return swe.calc_ut(jd, names.Graha.get_swisseph_body_id(body_name=body))[0][0]
 
 
 def get_nakshatram(jd, ayanamsha_id=Ayanamsha.CHITRA_AT_180):
@@ -159,15 +156,15 @@ def get_angam_float(jd, angam_type, offset=0, ayanamsha_id=Ayanamsha.CHITRA_AT_1
 
     #  Get the lunar longitude, starting at the ayanaamsha point in the ecliptic.
     if w_moon != 0:
-        lmoon = (swe.calc_ut(jd, swe.MOON)[0][0] - Ayanamsha(ayanamsha_id).get_offset(jd)) % 360
+        lmoon = (Graha(Graha.MOON).get_longitude(jd) - Ayanamsha(ayanamsha_id).get_offset(jd)) % 360
         if (debug):
-            logging.debug("Moon longitude: %f", swe.calc_ut(jd, swe.MOON)[0][0])
+            logging.debug("Moon longitude: %f", Graha(Graha.MOON).get_longitude(jd))
             logging.debug('## get_angam_float(): lmoon=%f', lmoon)
         lcalc += w_moon * lmoon
 
     #  Get the solar longitude, starting at the ayanaamsha point in the ecliptic.
     if w_sun != 0:
-        lsun = (swe.calc_ut(jd, swe.SUN)[0][0] - Ayanamsha(ayanamsha_id).get_offset(jd)) % 360
+        lsun = (Graha(Graha.SUN).get_longitude(jd) - Ayanamsha(ayanamsha_id).get_offset(jd)) % 360
         if(debug):
             logging.debug('## get_angam_float(): lsun=%f', lsun)
         lcalc += w_sun * lsun
@@ -200,7 +197,7 @@ def get_planet_next_transit(jd_start, jd_end, planet, ayanamsha_id=Ayanamsha.CHI
         List of tuples [(float jd_transit, int old_rashi, int new_rashi)]
 
       Examples:
-      >>> get_planet_next_transit(2457755, 2458120, jupiter)
+      >>> get_planet_next_transit(2457755, 2458120, JUPITER)
       [(2458008.5710764076, 6, 7)]
     """
     
@@ -422,14 +419,14 @@ def get_angam_data(jd_sunrise, jd_sunrise_tmrw, angam_type, ayanamsha_id=Ayanams
         # The angam does not change until sunrise tomorrow
         return [(angam_now, None)]
     else:
-        lmoon = (swe.calc_ut(jd_sunrise, swe.MOON)[0][0] - Ayanamsha(ayanamsha_id).get_offset(jd_sunrise)) % 360
+        lmoon = (Graha(Graha.MOON).get_longitude(jd_sunrise) - Ayanamsha(ayanamsha_id).get_offset(jd_sunrise)) % 360
 
-        lsun = (swe.calc_ut(jd_sunrise, swe.SUN)[0][0] - Ayanamsha(ayanamsha_id).get_offset(jd_sunrise)) % 360
+        lsun = (Graha(Graha.SUN).get_longitude(jd_sunrise) - Ayanamsha(ayanamsha_id).get_offset(jd_sunrise)) % 360
 
-        lmoon_tmrw = (swe.calc_ut(jd_sunrise_tmrw, swe.MOON)[0][0] -
+        lmoon_tmrw = (Graha(Graha.MOON).get_longitude(jd_sunrise_tmrw) -
                       Ayanamsha(ayanamsha_id).get_offset(jd_sunrise_tmrw)) % 360
 
-        lsun_tmrw = (swe.calc_ut(jd_sunrise_tmrw, swe.SUN)[0][0] -
+        lsun_tmrw = (Graha(Graha.SUN).get_longitude(jd_sunrise_tmrw) -
                      Ayanamsha(ayanamsha_id).get_offset(jd_sunrise_tmrw)) % 360
 
         for i in range(num_angas_today):

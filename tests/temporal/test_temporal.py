@@ -1,5 +1,6 @@
 import logging
 
+import jyotisha.panchangam.temporal.graha
 from jyotisha.panchangam import temporal
 
 logging.basicConfig(
@@ -18,3 +19,7 @@ def test_jd_to_utc():
 
 def test_utc_to_jd():
     assert abs(temporal.utc_gregorian_to_jd(2018, 11, 11, 13.99999802559611) - 2458434.083333251) < .001
+
+
+def test_get_longitude():
+    assert jyotisha.panchangam.temporal.graha.Graha(jyotisha.panchangam.temporal.graha.Graha.SUN).get_longitude(jd=2458434.083333251) == 229.12286985575702

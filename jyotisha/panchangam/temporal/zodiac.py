@@ -1,10 +1,9 @@
-import swisseph as swe
-import numpy
 import logging
 
-from jyotisha.panchangam import temporal
+import numpy
+import swisseph as swe
 
-from jyotisha import custom_transliteration, names
+from jyotisha.panchangam.temporal.graha import Graha
 
 logging.basicConfig(
   level=logging.DEBUG,
@@ -41,11 +40,11 @@ class NakshatraDivision(object):
     self.julday = julday
     self.right_boundaries = ((numpy.arange(27) + 1) * (360.0 / 27.0) + Ayanamsha(self.ayanamsha_id).get_offset(julday)) % 360
 
-  def get_nakshatra(self, body_id, julday=None):
+  def get_nakshatra(self, body, julday=None):
     if julday is not None:
       self.set_time(julday=julday)
     logging.debug(Ayanamsha(self.ayanamsha_id).get_offset(self.julday))
-    return ((swe.calc_ut(self.julday, body_id)[0][0] - Ayanamsha(self.ayanamsha_id).get_offset(self.julday)) % 360) / (360.0 / 27.0)
+    return ((Graha(body).get_longitude(self.julday) - Ayanamsha(self.ayanamsha_id).get_offset(self.julday)) % 360) / (360.0 / 27.0)
 
   def __str__(self):
     return str(self.__dict__)
@@ -95,7 +94,7 @@ def get_nirayana_sun_lon(jd, offset=0, debug=False):
 
       Examples:
     """
-    lsun = (swe.calc_ut(jd, swe.SUN)[0][0]) % 360
+    lsun = (Graha(Graha.SUN).get_longitude(jd)) % 360
 
     if debug:
         print('## get_angam_float(): lsun (nirayana) =', lsun)
@@ -122,15 +121,16 @@ def get_planet_lon(jd, planet, offset=0, ayanamsha_id=Ayanamsha.CHITRA_AT_180):
       180.00174875784376
     """
     
-    lon = (swe.calc_ut(jd, names.Graha.get_swisseph_body_id(planet))[0][0] - Ayanamsha(ayanamsha_id).get_offset(jd)) % 360
+    lon = (Graha(planet).get_longitude(jd) - Ayanamsha(ayanamsha_id).get_offset(jd)) % 360
     return lon + offset
 
 
 if __name__ == '__main__':
     # lahiri_nakshatra_division = NakshatraDivision(julday=temporal.utc_to_jd(year=2017, month=8, day=19, hour=11, minutes=10, seconds=0, flag=1)[0])
+    import temporal
     lahiri_nakshatra_division = NakshatraDivision(
         julday=temporal.utc_gregorian_to_jd(year=1982, month=2, day=19, fractional_hour=11, minutes=10, seconds=0, flag=1)[0])
-    logging.info(lahiri_nakshatra_division.get_nakshatra(body_id=swe.MOON))
+    logging.info(lahiri_nakshatra_division.get_nakshatra(body=Graha.MOON))
     # logging.info(lahiri_nakshatra_division)
     # logging.debug(swe.cotrans(lon=20, lat=-90, dist=9999999, obliquity=23.437404))
     lahiri_nakshatra_division.get_stellarium_nakshatra_boundaries()
