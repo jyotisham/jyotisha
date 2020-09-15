@@ -51,23 +51,14 @@ class NakshatraDivision(object):
 
   def get_equatorial_boundary_coordinates(self):
     """Get equatorial coordinates for the points where the ecliptic nakShatra boundary longitude intersects the ecliptic."""
-    equatorial_boundary_coordinates = [swe.cotrans(lon=longitude, lat=0, dist=9999999, obliquity=23.437404) for
-                                       longitude in self.right_boundaries]
-    # swe.cotrans returns the right ascension longitude in degrees, rather than hours.
-    equatorial_boundary_coordinates_with_ra = [
-      (longitudeToRightAscension(longitude), declination) for (longitude, declination, distance)
-      in equatorial_boundary_coordinates]
-    return equatorial_boundary_coordinates_with_ra
+    equatorial_boundary_coordinates = [ecliptic_to_equatorial(longitude=longitude, latitude=0) for longitude in self.right_boundaries]
+    return equatorial_boundary_coordinates
 
   def get_stellarium_nakshatra_boundaries(self):
     equatorial_boundary_coordinates_with_ra = self.get_equatorial_boundary_coordinates()
-    ecliptic_north_pole = swe.cotrans(lon=20, lat=90, dist=9999999, obliquity=23.437404)
-    ecliptic_north_pole_with_ra = (
-    longitudeToRightAscension(ecliptic_north_pole[0]), ecliptic_north_pole[1])
+    ecliptic_north_pole_with_ra = ecliptic_to_equatorial(longitude=20, latitude=90)
     # logging.debug(ecliptic_north_pole_with_ra)
-    ecliptic_south_pole = swe.cotrans(lon=20, lat=-90, dist=9999999, obliquity=23.437404)
-    ecliptic_south_pole_with_ra = (
-    longitudeToRightAscension(ecliptic_south_pole[0]), ecliptic_south_pole[1])
+    ecliptic_south_pole_with_ra = ecliptic_to_equatorial(longitude=20, latitude=-90)
     # logging.debug(ecliptic_south_pole_with_ra)
     for index, (boundary_ra, boundary_declination) in enumerate(equatorial_boundary_coordinates_with_ra):
       print(
@@ -132,9 +123,15 @@ if __name__ == '__main__':
         julday=temporal.utc_gregorian_to_jd(year=1982, month=2, day=19, fractional_hour=11, minutes=10, seconds=0, flag=1)[0])
     logging.info(lahiri_nakshatra_division.get_nakshatra(body=Graha.MOON))
     # logging.info(lahiri_nakshatra_division)
-    # logging.debug(swe.cotrans(lon=20, lat=-90, dist=9999999, obliquity=23.437404))
     lahiri_nakshatra_division.get_stellarium_nakshatra_boundaries()
 
 
 def longitudeToRightAscension(longitude):
     return (360 - longitude) / 360 * 24
+
+def ecliptic_to_equatorial(longitude, latitude):
+    coordinates = swe.cotrans(lon=longitude, lat=latitude, dist=9999999, obliquity=23.437404)
+    # swe.cotrans returns the right ascension longitude in degrees, rather than hours.
+    return (
+        longitudeToRightAscension(coordinates[0]), coordinates[1])
+    

@@ -1,31 +1,27 @@
 import logging
 import os
-import swisseph as swe
 import sys
 import traceback
-
 from datetime import datetime
+from itertools import filterfalse
 from math import floor
 from typing import List
-from itertools import filterfalse
 
 from indic_transliteration import xsanscript as sanscript
-
-import jyotisha.panchangam.temporal
-from jyotisha.panchangam.temporal.graha import Graha
 from pytz import timezone as tz
-from sanskrit_data.schema.common import JsonObject
-
-import jyotisha.panchangam.temporal.hour
-from jyotisha.panchangam import temporal, spatio_temporal
-from jyotisha.panchangam.temporal import zodiac
-from jyotisha.panchangam.temporal.festival import read_old_festival_rules_dict
-from sanskrit_data.schema import common
 from scipy.optimize import brentq
 
 import jyotisha.panchangam
+import jyotisha.panchangam.temporal
+import jyotisha.panchangam.temporal.hour
 import jyotisha.panchangam.temporal.zodiac
-from jyotisha.panchangam.spatio_temporal import CODE_ROOT, daily, CALC_RISE, CALC_SET
+from jyotisha.panchangam import temporal, spatio_temporal
+from jyotisha.panchangam.spatio_temporal import CODE_ROOT, daily
+from jyotisha.panchangam.temporal import zodiac
+from jyotisha.panchangam.temporal.festival import read_old_festival_rules_dict
+from jyotisha.panchangam.temporal.graha import Graha
+from sanskrit_data.schema import common
+from sanskrit_data.schema.common import JsonObject
 
 
 class Panchangam(common.JsonObject):
@@ -51,8 +47,7 @@ class Panchangam(common.JsonObject):
         self.duration = int(self.jd_end_utc - self.jd_start_utc) + 1
         self.len = int(self.duration + 4)  # some buffer, for various look-ahead calculations
 
-        self.weekday_start = swe.day_of_week(self.jd_start_utc) + 1
-        # swe has Mon = 0, non-intuitively!
+        self.weekday_start = temporal.get_weekday(self.jd_start_utc)
 
         self.ayanamsha_id = ayanamsha_id
         
@@ -1757,11 +1752,9 @@ class Panchangam(common.JsonObject):
                 logging.debug(self.tithi_days)
 
     def compute_solar_eclipses(self):
-        # Set location
-        swe.set_topo(lon=self.city.longitude, lat=self.city.latitude, alt=0.0)
         jd = self.jd_start_utc
         while 1:
-            next_eclipse_sol = swe.sol_eclipse_when_loc(julday=jd, lon=self.city.longitude, lat=self.city.latitude)
+            next_eclipse_sol = self.city.get_solar_eclipse_time(jd_start=jd)
             [y, m, dt, t] = temporal.jd_to_utc_gregorian(next_eclipse_sol[1][0])
             local_time = tz(self.city.timezone).localize(datetime(y, m, dt, 6, 0, 0))
             # checking @ 6am local - can we do any better?
@@ -1804,10 +1797,9 @@ class Panchangam(common.JsonObject):
 
     def compute_lunar_eclipses(self):
         # Set location
-        swe.set_topo(lon=self.city.longitude, lat=self.city.latitude, alt=0.0)
         jd = self.jd_start_utc
         while 1:
-            next_eclipse_lun = swe.lun_eclipse_when(jd)
+            next_eclipse_lun = self.city.get_lunar_eclipse_time(jd)
             [y, m, dt, t] = temporal.jd_to_utc_gregorian(next_eclipse_lun[1][0])
             local_time = tz(self.city.timezone).localize(datetime(y, m, dt, 6, 0, 0))
             # checking @ 6am local - can we do any better? This is crucial,

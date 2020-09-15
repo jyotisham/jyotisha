@@ -101,6 +101,14 @@ class City(JsonObject):
       lon=self.longitude, lat=self.latitude,
       rsmi=CALC_SET)[1][0]
 
+  def get_solar_eclipse_time(self, jd_start):
+    return  swe.sol_eclipse_when_loc(julday=jd_start, lon=self.longitude, lat=self.latitude)
+
+  def get_lunar_eclipse_time(self, jd_start):
+    return swe.lun_eclipse_when_loc(jd_start, lon=self.longitude, lat=self.latitude)
+
+  def get_house_cusps(self, jd):
+    return swe.houses_ex(jd, self.latitude, self.longitude)[1][0]
 
 class Timezone:
   def __init__(self, timezone_id):

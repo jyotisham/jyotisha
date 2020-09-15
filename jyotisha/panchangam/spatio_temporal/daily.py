@@ -12,7 +12,7 @@ from jyotisha.panchangam.temporal.graha import Graha
 import jyotisha.panchangam.temporal
 from jyotisha.panchangam import temporal
 from jyotisha.panchangam.spatio_temporal import City, CALC_RISE, CALC_SET, Timezone
-from jyotisha.panchangam.temporal import SOLAR_MONTH, get_angam, get_angam_float
+from jyotisha.panchangam.temporal import SOLAR_MONTH, get_angam, get_angam_float, zodiac
 from jyotisha.panchangam.temporal.hour import Hour
 from jyotisha.panchangam.temporal.zodiac import Ayanamsha
 from sanskrit_data.schema import common
@@ -93,8 +93,6 @@ class DailyPanchanga(common.JsonObject):
             logging.error('No sunset was computed!')
             raise (ValueError(
                 'No sunset was computed. Perhaps the co-ordinates are beyond the polar circle (most likely a LAT-LONG swap! Please check your inputs.'))
-            # logging.debug(swe.rise_trans(jd_start=jd_start, body=swe.SUN, lon=city.longitude,
-            #                              lat=city.latitude, rsmi=CALC_SET))
 
         if force_recomputation or self.jd_moonrise is None:
             self.jd_moonrise = self.city.get_rising_time(julian_day_start=self.jd_sunrise, body=Graha.MOON)
@@ -172,7 +170,7 @@ class DailyPanchanga(common.JsonObject):
             solar_month_day = round(self.jd_sunset - jd_sunset_after_masa_transit) + 1
         self.solar_month_day = solar_month_day
 
-    def get_lagna_float(self, jd, offset=0, debug=False):
+    def get_lagna_float(self, jd, offset=0, ayanamsha_id=zodiac.Ayanamsha.CHITRA_AT_180, debug=False):
         """Returns the angam
 
           Args:
@@ -184,7 +182,7 @@ class DailyPanchanga(common.JsonObject):
             float lagna
         """
         
-        lcalc = swe.houses_ex(jd, self.city.latitude, self.city.longitude)[1][0] - swe.get_ayanamsa_ut(jd)
+        lcalc = self.city.get_house_cusps(jd=jd) - Ayanamsha(ayanamsha_id=ayanamsha_id).get_offset(jd=jd)
         lcalc = lcalc % 360
 
         if offset == 0:
@@ -206,7 +204,7 @@ class DailyPanchanga(common.JsonObject):
             else:
                 return (lcalc / 30) + offset
 
-    def get_lagna_data(self, debug=False):
+    def get_lagna_data(self, ayanamsha_id=zodiac.Ayanamsha.CHITRA_AT_180, debug=False):
         """Returns the lagna data
 
             Args:
@@ -222,7 +220,7 @@ class DailyPanchanga(common.JsonObject):
         self.lagna_data = []
         if not hasattr(self, "jd_sunrise") or self.jd_sunrise is None:
             self.compute_sun_moon_transitions()
-        lagna_sunrise = 1 + floor(self.get_lagna_float(self.jd_sunrise))
+        lagna_sunrise = 1 + floor(self.get_lagna_float(self.jd_sunrise, ayanamsha_id=ayanamsha_id))
 
         lagna_list = [(x + lagna_sunrise - 1) % 12 + 1 for x in range(13)]
 
@@ -232,12 +230,12 @@ class DailyPanchanga(common.JsonObject):
         for lagna in lagna_list:
             # print('---\n', lagna)
             if (debug):
-                logging.debug(('lagna sunrise', self.get_lagna_float(self.jd_sunrise)))
-                logging.debug(('lbrack', self.get_lagna_float(lbrack, int(-lagna))))
-                logging.debug(('rbrack', self.get_lagna_float(rbrack, int(-lagna))))
+                logging.debug(('lagna sunrise', self.get_lagna_float(self.jd_sunrise, ayanamsha_id=ayanamsha_id)))
+                logging.debug(('lbrack', self.get_lagna_float(lbrack, int(-lagna), ayanamsha_id=ayanamsha_id)))
+                logging.debug(('rbrack', self.get_lagna_float(rbrack, int(-lagna), ayanamsha_id=ayanamsha_id)))
 
             lagna_end_time = brentq(self.get_lagna_float, lbrack, rbrack,
-                                    args=(-lagna, debug))
+                                    args=(-lagna, 0, ayanamsha_id, debug))
             lbrack = lagna_end_time + 1 / 24
             rbrack = lagna_end_time + 3 / 24
             if lagna_end_time < self.jd_next_sunrise:

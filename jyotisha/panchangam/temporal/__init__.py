@@ -65,6 +65,13 @@ def utc_gregorian_to_jd(year, month, day, fractional_hour):
     return tm.value
 
 
+def get_weekday(jd):
+    tm = Time(jd, format='jd')
+    tm.format = "datetime"
+    # 6 would be Friday.
+    return tm.value.get_weekday()
+
+
 def get_nakshatram(jd, ayanamsha_id=Ayanamsha.CHITRA_AT_180):
     """Returns the nakshatram prevailing at a given moment
 
