@@ -1,5 +1,4 @@
 import logging
-import swisseph as swe
 
 import flask_restplus
 from flask import Blueprint
@@ -8,7 +7,7 @@ from flask_restplus import reqparse
 
 import jyotisha.panchangam.spatio_temporal.annual
 import jyotisha.panchangam.spatio_temporal.daily
-from jyotisha.panchangam import scripts
+from jyotisha.names import get_swisseph_body_id
 from jyotisha.panchangam.spatio_temporal import City, Timezone
 from jyotisha.panchangam.temporal import festival
 
@@ -28,25 +27,6 @@ api = flask_restplus.Api(app=api_blueprint, version='1.0', title='jyotisha panch
                                      'A list of REST and non-REST API routes avalilable on this server: <a href="../sitemap">sitemap</a>.',
                          default_label=api_blueprint.name,
                          prefix=URL_PREFIX, doc='/docs')
-
-
-def get_body_id(body_name):
-  body_id = -1
-  if body_name == "sun":
-    body_id = swe.SUN
-  elif body_name == "moon":
-    body_id = swe.MOON
-  elif body_name == "jupiter":
-    body_id = swe.JUPITER
-  elif body_name == "venus":
-    body_id = swe.VENUS
-  elif body_name == "mercury":
-    body_id = swe.MERCURY
-  elif body_name == "mars":
-    body_id = swe.MARS
-  elif body_name == "saturn":
-    body_id = swe.SATURN
-  return body_id
 
 
 # noinspection PyUnresolvedReferences
@@ -100,7 +80,7 @@ class NakshatraFinder(Resource):
     from jyotisha import zodiac
     julday = Timezone(timezone).local_time_to_julian_day(year, month, day, hour, minute, second)
     lahiri_nakshatra_division = zodiac.NakshatraDivision(julday=julday)
-    body_id = get_body_id(body_name=body)
+    body_id = get_swisseph_body_id(body_name=body)
     if body == "moon":
       from jyotisha.panchangam import temporal
       logging.debug(temporal.get_nakshatram(julday))
@@ -128,10 +108,8 @@ class RaashiTransitionFinder(Resource):
   def get(self, timezone, year, month, day, hour, minute, second, body):
     from jyotisha import zodiac
     julday = Timezone(timezone).local_time_to_julian_day(year, month, day, hour, minute, second)
-    body_id = get_body_id(body_name=body)
     from jyotisha.panchangam import temporal
-    transits = temporal.get_planet_next_transit(jd_start=julday, jd_end = julday + 100, planet=body_id)
+    transits = temporal.get_planet_next_transit(jd_start=julday, jd_end = julday + 100, planet=body)
     # logging.debug(transits)
-    transits_utc = [(swe.jdut1_to_utc(ut=transit[0], flag=swe.GREG_CAL), transit[1], transit[2]) for transit in transits]
-    transits_local = [(swe.utc_time_zone(year=transit[0][0], month=transit[0][1], day=transit[0][2], hour=transit[0][3], minutes=transit[0][4], seconds=int(transit[0][5]), offset=-float(offset)), transit[1], transit[2]) for transit in transits_utc]
+    transits_local = [(Timezone(timezone).julian_day_to_local_time(transit[0]), transit[1], transit[2]) for transit in transits]
     return str(transits_local)

@@ -4,7 +4,7 @@ import logging
 
 from jyotisha.panchangam import temporal
 
-from jyotisha import custom_transliteration
+from jyotisha import custom_transliteration, names
 
 logging.basicConfig(
   level=logging.DEBUG,
@@ -112,17 +112,17 @@ def get_planet_lon(jd, planet, offset=0, ayanamsha_id=Ayanamsha.CHITRA_AT_180):
 
       Args:
         float jd: The Julian Day at which the longitude is to be computed
-        int planet  - e.g. swe.SUN, swe.JUPITER, ...
+        int planet  - sun, jupiter, ...
 
       Returns:
         float longitude
 
       Examples:
-      >>> get_planet_lon(2458008.58, swe.JUPITER)
+      >>> get_planet_lon(2458008.58, "jupiter")
       180.00174875784376
     """
     
-    lon = (swe.calc_ut(jd, planet)[0][0] - Ayanamsha(ayanamsha_id).get_offset(jd)) % 360
+    lon = (swe.calc_ut(jd, names.get_swisseph_body_id(planet))[0][0] - Ayanamsha(ayanamsha_id).get_offset(jd)) % 360
     return lon + offset
 
 

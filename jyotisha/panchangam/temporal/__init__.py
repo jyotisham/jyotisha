@@ -186,17 +186,17 @@ def get_angam_float(jd, angam_type, offset=0, ayanamsha_id=Ayanamsha.CHITRA_AT_1
 
 
 def get_planet_next_transit(jd_start, jd_end, planet, ayanamsha_id=Ayanamsha.CHITRA_AT_180):
-    """Returns the next transit of the given planet e.g. swe.JUPITER
+    """Returns the next transit of the given planet e.g. jupiter
 
       Args:
         float jd_start, jd_end: The Julian Days between which transits must be computed
-        int planet  - e.g. swe.SUN, swe.JUPITER, ...
+        int planet  - e.g. sun, jupiter, ...
 
       Returns:
         List of tuples [(float jd_transit, int old_rashi, int new_rashi)]
 
       Examples:
-      >>> get_planet_next_transit(2457755, 2458120, swe.JUPITER)
+      >>> get_planet_next_transit(2457755, 2458120, jupiter)
       [(2458008.5710764076, 6, 7)]
     """
     
