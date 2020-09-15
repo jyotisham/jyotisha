@@ -23,7 +23,7 @@ class Ayanamsha(object):
             # (_, lat, _, _, _, _) = swe.fixstar_ut("Spica", jd)
             # return (lat-180)
             swe.set_sid_mode(swe.SIDM_LAHIRI)
-            return swe.get_ayanamsa(jd)
+            return swe.get_ayanamsa_ut(jd)
         raise Exception("Bad ayamasha_id")
 
 
