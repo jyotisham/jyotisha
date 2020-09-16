@@ -235,7 +235,7 @@ class DailyPanchanga(common.JsonObject):
                 logging.debug(('rbrack', self.get_lagna_float(rbrack, int(-lagna), ayanamsha_id=ayanamsha_id)))
 
             lagna_end_time = brentq(self.get_lagna_float, lbrack, rbrack,
-                                    args=(-lagna, 0, ayanamsha_id, debug))
+                                    args=(-lagna, ayanamsha_id, debug))
             lbrack = lagna_end_time + 1 / 24
             rbrack = lagna_end_time + 3 / 24
             if lagna_end_time < self.jd_next_sunrise:
