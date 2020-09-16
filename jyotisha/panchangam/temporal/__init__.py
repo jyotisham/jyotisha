@@ -68,8 +68,8 @@ def utc_gregorian_to_jd(year, month, day, fractional_hour):
 def get_weekday(jd):
     tm = Time(jd, format='jd')
     tm.format = "datetime"
-    # Sunday should be 1.
-    return tm.value.isocalendar()[2] + 1
+    # Sunday should be 0.
+    return tm.value.isocalendar()[2] % 7
 
 
 def get_nakshatram(jd, ayanamsha_id=Ayanamsha.CHITRA_AT_180):

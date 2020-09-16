@@ -1,6 +1,6 @@
 import logging
 
-import jyotisha.panchangam.temporal.graha
+from jyotisha.panchangam.temporal.graha import Graha
 from jyotisha.panchangam import temporal
 
 logging.basicConfig(
@@ -22,4 +22,9 @@ def test_utc_to_jd():
 
 
 def test_get_longitude():
-    assert jyotisha.panchangam.temporal.graha.Graha(jyotisha.panchangam.temporal.graha.Graha.SUN).get_longitude(jd=2458434.083333251) == 229.12286985575702
+    assert Graha(Graha.SUN).get_longitude(jd=2458434.083333251) == 229.12286985575702
+
+
+def test_get_weekday():
+    # 2018, 11, 11 was sunday
+    assert temporal.get_weekday(2458434.083333251) == 0
