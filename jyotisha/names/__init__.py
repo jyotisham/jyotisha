@@ -17,33 +17,33 @@ def get_ayanamsha_name(ayanamsha_id):
 
 
 def get_ekadashi_name(paksha, lmonth):
-    """Return the name of an ekadashi
-    """
-    if paksha == 'shukla':
-        if lmonth == int(lmonth):
-            return '%s-EkAdazI' % NAMES['SHUKLA_EKADASHI_NAMES']['hk'][lmonth]
-        else:
-            # adhika mAsam
-            return '%s-EkAdazI' % NAMES['SHUKLA_EKADASHI_NAMES']['hk'][13]
-    elif paksha == 'krishna':
-        if lmonth == int(lmonth):
-            return '%s-EkAdazI' % NAMES['KRISHNA_EKADASHI_NAMES']['hk'][lmonth]
-        else:
-            # adhika mAsam
-            return '%s-EkAdazI' % NAMES['KRISHNA_EKADASHI_NAMES']['hk'][13]
+  """Return the name of an ekadashi
+  """
+  if paksha == 'shukla':
+    if lmonth == int(lmonth):
+      return '%s-EkAdazI' % NAMES['SHUKLA_EKADASHI_NAMES']['hk'][lmonth]
+    else:
+      # adhika mAsam
+      return '%s-EkAdazI' % NAMES['SHUKLA_EKADASHI_NAMES']['hk'][13]
+  elif paksha == 'krishna':
+    if lmonth == int(lmonth):
+      return '%s-EkAdazI' % NAMES['KRISHNA_EKADASHI_NAMES']['hk'][lmonth]
+    else:
+      # adhika mAsam
+      return '%s-EkAdazI' % NAMES['KRISHNA_EKADASHI_NAMES']['hk'][13]
 
 
 def get_chandra_masa(month, NAMES, script, visarga=True):
-    if visarga:
-      if month == int(month):
-          return NAMES['CHANDRA_MASA_NAMES'][script][month]
-      else:
-          return '%s-(%s)' % (NAMES['CHANDRA_MASA_NAMES'][script][int(month) + 1], tr('adhikaH', script, titled=False))
+  if visarga:
+    if month == int(month):
+      return NAMES['CHANDRA_MASA_NAMES'][script][month]
     else:
-      if month == int(month):
-          return NAMES['CHANDRA_MASA_NAMES'][script][month][:-1]
-      else:
-          return '%s-(%s)' % (NAMES['CHANDRA_MASA_NAMES'][script][int(month) + 1][:-1], tr('adhika', script, titled=False))
+      return '%s-(%s)' % (NAMES['CHANDRA_MASA_NAMES'][script][int(month) + 1], tr('adhikaH', script, titled=False))
+  else:
+    if month == int(month):
+      return NAMES['CHANDRA_MASA_NAMES'][script][month][:-1]
+    else:
+      return '%s-(%s)' % (NAMES['CHANDRA_MASA_NAMES'][script][int(month) + 1][:-1], tr('adhika', script, titled=False))
 
 
 NAMES = init_names_auto()

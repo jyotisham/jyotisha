@@ -4,7 +4,6 @@ from base64 import b64encode
 
 import flask
 import jsonpickle
-from flask import url_for
 from flask_cors import CORS
 
 logging.basicConfig(

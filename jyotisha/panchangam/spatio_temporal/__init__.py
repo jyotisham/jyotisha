@@ -3,20 +3,21 @@
 
 import logging
 import os
-import swisseph as swe
 import sys
 from datetime import datetime
 from math import modf
 
+import pytz
+import swisseph as swe
+
+from jyotisha.custom_transliteration import sexastr2deci
+from jyotisha.panchangam import temporal
 from jyotisha.panchangam.temporal import Time
 from jyotisha.panchangam.temporal.zodiac import Ayanamsha
 from sanskrit_data.schema import common
 from sanskrit_data.schema.common import JsonObject
-# from scipy.optimize import brentq
 
-from jyotisha.custom_transliteration import sexastr2deci
-from jyotisha.panchangam import temporal
-import pytz
+# from scipy.optimize import brentq
 
 logging.basicConfig(level=logging.DEBUG,
                     format="%(levelname)s: %(asctime)s {%(filename)s:%(lineno)d}: %(message)s ")
@@ -45,7 +46,7 @@ CODE_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
 #                                                                      /* risings according to Hindu astrology */
 
 CALC_RISE = 897  # 512 + 256 + 128 + 1
-CALC_SET = 898   # 512 + 256 + 128 + 2
+CALC_SET = 898  # 512 + 256 + 128 + 2
 
 
 class City(JsonObject):
@@ -72,7 +73,8 @@ class City(JsonObject):
     from geopy import geocoders
     geolocator = geocoders.GoogleV3(api_key=api_key, timeout=timeout)
     location = geolocator.geocode(address)
-    city = City(name=address, latitude=location.latitude, longitude=location.longitude, timezone=location.timezone().zone)
+    city = City(name=address, latitude=location.latitude, longitude=location.longitude,
+                timezone=location.timezone().zone)
     return city
 
   @classmethod
@@ -102,7 +104,7 @@ class City(JsonObject):
       rsmi=CALC_SET)[1][0]
 
   def get_solar_eclipse_time(self, jd_start):
-    return  swe.sol_eclipse_when_loc(julday=jd_start, lon=self.longitude, lat=self.latitude)
+    return swe.sol_eclipse_when_loc(julday=jd_start, lon=self.longitude, lat=self.latitude)
 
   def get_lunar_eclipse_time(self, jd_start):
     return swe.lun_eclipse_when_loc(jd_start, lon=self.longitude, lat=self.latitude)
@@ -153,7 +155,7 @@ class City(JsonObject):
 class Timezone:
   def __init__(self, timezone_id):
     self.timezone_id = timezone_id
-    
+
   def get_timezone_offset_hours_from_date(self, year, month, day, hour=6, minute=0, seconds=0):
     """Get timezone offset in hours east of UTC (negative west of UTC)
 
@@ -168,7 +170,9 @@ class Timezone:
     tm = Time(julian_day, format='jd')
     tm.format = "datetime"
     local_datetime = pytz.timezone(self.timezone_id).fromutc(tm.value)
-    local_time = (local_datetime.year, local_datetime.month, local_datetime.day, local_datetime.hour, local_datetime.minute, local_datetime.second + local_datetime.microsecond / 1000000.0)
+    local_time = (
+    local_datetime.year, local_datetime.month, local_datetime.day, local_datetime.hour, local_datetime.minute,
+    local_datetime.second + local_datetime.microsecond / 1000000.0)
     if round_seconds:
       (y, m, dt, hours, minutes, seconds) = local_time
       local_time = temporal.sanitize_time(y, m, dt, hours, minutes, int(round(seconds)))
@@ -176,7 +180,8 @@ class Timezone:
 
   def local_time_to_julian_day(self, year, month, day, hours, minutes, seconds):
     microseconds, _ = modf(seconds * 1000000)
-    local_datetime = pytz.timezone(self.timezone_id).localize(datetime(year, month, day, hours, minutes, int(seconds), int(microseconds)))
+    local_datetime = pytz.timezone(self.timezone_id).localize(
+      datetime(year, month, day, hours, minutes, int(seconds), int(microseconds)))
     tm = Time(local_datetime, format="datetime")
     tm.format = "jd"
     return tm.value
@@ -188,4 +193,5 @@ common.update_json_class_index(sys.modules[__name__])
 
 if __name__ == '__main__':
   import doctest
+
   doctest.testmod(verbose=True)

@@ -2,13 +2,14 @@ import json
 import logging
 import os
 
-from sanskrit_data.schema.common import JsonObject
+from indic_transliteration import xsanscript as sanscript
+
 from jyotisha import custom_transliteration
+from jyotisha.names import get_chandra_masa, NAMES
 from jyotisha.panchangam.spatio_temporal import CODE_ROOT
 # from jyotisha.panchangam.temporal import festival
 from jyotisha.panchangam.temporal.festival import HinduCalendarEventOld, HinduCalendarEvent
-from jyotisha.names import get_chandra_masa, NAMES
-from indic_transliteration import xsanscript as sanscript
+from sanskrit_data.schema.common import JsonObject
 
 logging.basicConfig(
   level=logging.DEBUG,
@@ -49,96 +50,104 @@ def migrate_db(old_db_file, only_descriptions=False):
 # Should this be moved to another file?
 # Should be called as event.write_README()??
 def write_event_README(event, event_file_name):
-    with open(event_file_name) as event_data:
-      readme_file_name = os.path.join(os.path.dirname(event_file_name), 'data/README.md')
-      # # Clear the README first.
-      # with open(readme_file_name, 'w') as readme_file:
-      #   readme_file.write("")
-      event_dict = json.load(event_data)
-      with open(readme_file_name, 'a+') as readme_file:
-        headline = custom_transliteration.tr(event_dict["id"], sanscript.IAST).replace('Ta__', '').replace('~', ' ').strip('{}')
-        # Replace letter following r̂/r̂r̂ with lowercase
-        for sep in ['r̂']:
-          if headline[1:].find(sep) != -1:
-            headline = sep.join([word[0].lower() + word[1:] for word in headline.split(sep)])
-            headline = headline[0].upper() + headline[1:]
-        for sep in ['r̂r̂']:
-          if headline[1:].find(sep) != -1:
-            headline = sep.join([word[0].lower() + word[1:] for word in headline.split(sep)])
-            headline = headline[0].upper() + headline[1:]
-        readme_file.write('## %s\n' % headline)
+  with open(event_file_name) as event_data:
+    readme_file_name = os.path.join(os.path.dirname(event_file_name), 'data/README.md')
+    # # Clear the README first.
+    # with open(readme_file_name, 'w') as readme_file:
+    #   readme_file.write("")
+    event_dict = json.load(event_data)
+    with open(readme_file_name, 'a+') as readme_file:
+      headline = custom_transliteration.tr(event_dict["id"], sanscript.IAST).replace('Ta__', '').replace('~',
+                                                                                                         ' ').strip(
+        '{}')
+      # Replace letter following r̂/r̂r̂ with lowercase
+      for sep in ['r̂']:
+        if headline[1:].find(sep) != -1:
+          headline = sep.join([word[0].lower() + word[1:] for word in headline.split(sep)])
+          headline = headline[0].upper() + headline[1:]
+      for sep in ['r̂r̂']:
+        if headline[1:].find(sep) != -1:
+          headline = sep.join([word[0].lower() + word[1:] for word in headline.split(sep)])
+          headline = headline[0].upper() + headline[1:]
+      readme_file.write('## %s\n' % headline)
 
-        blurb = ''
-        month = ''
-        angam = ''
-        if 'month_type' in event_dict['timing']:
-            if event_dict['timing']['month_type'] == 'lunar_month':
-              if event_dict['timing']['month_number'] == 0:
-                month = ' of every lunar month'
-              else:
-                month = ' of ' + get_chandra_masa(event_dict['timing']['month_number'], NAMES, sanscript.IAST) + ' (lunar) month'
-            elif event_dict['timing']['month_type'] == 'solar_month':
-              if event_dict['timing']['month_number'] == 0:
-                month = ' of every solar month'
-              else:
-                month = ' of ' + NAMES['RASHI_NAMES'][sanscript.IAST][event_dict['timing']['month_number']] + ' (solar) month'
-        if 'angam_type' in event_dict['timing']:
-            logging.debug(event_dict["id"])
-            if event_dict["id"][:4] == "ta__":
-              angam = custom_transliteration.tr(event_dict["id"][4:], sanscript.TAMIL).replace("~", " ").strip("{}") + ' is observed on '
-            else:
-              angam = custom_transliteration.tr(event_dict["id"], sanscript.DEVANAGARI).replace("~", " ") + ' is observed on '
+      blurb = ''
+      month = ''
+      angam = ''
+      if 'month_type' in event_dict['timing']:
+        if event_dict['timing']['month_type'] == 'lunar_month':
+          if event_dict['timing']['month_number'] == 0:
+            month = ' of every lunar month'
+          else:
+            month = ' of ' + get_chandra_masa(event_dict['timing']['month_number'], NAMES,
+                                              sanscript.IAST) + ' (lunar) month'
+        elif event_dict['timing']['month_type'] == 'solar_month':
+          if event_dict['timing']['month_number'] == 0:
+            month = ' of every solar month'
+          else:
+            month = ' of ' + NAMES['RASHI_NAMES'][sanscript.IAST][
+              event_dict['timing']['month_number']] + ' (solar) month'
+      if 'angam_type' in event_dict['timing']:
+        logging.debug(event_dict["id"])
+        if event_dict["id"][:4] == "ta__":
+          angam = custom_transliteration.tr(event_dict["id"][4:], sanscript.TAMIL).replace("~", " ").strip(
+            "{}") + ' is observed on '
+        else:
+          angam = custom_transliteration.tr(event_dict["id"], sanscript.DEVANAGARI).replace("~",
+                                                                                            " ") + ' is observed on '
 
-            if event_dict['timing']['angam_type'] == 'tithi':
-                angam += NAMES['TITHI_NAMES'][sanscript.IAST][event_dict['timing']['angam_number']] + ' tithi'
-            elif event_dict['timing']['angam_type'] == 'nakshatram':
-                angam += NAMES['NAKSHATRAM_NAMES'][sanscript.IAST][event_dict['timing']['angam_number']] + ' nakṣhatram day'
-            elif event_dict['timing']['angam_type'] == 'day':
-                angam += 'day %d' % event_dict['timing']['angam_number']
-        else:
-          logging.debug('No angam_type in %s', event_dict['id'])
-        if 'kaala' in event_dict['timing']:
-          kaala = event_dict["timing"]["kaala"]
-        else:
-          kaala = "sunrise (default)"
-        if 'priority' in event_dict:
-          priority = event_dict["priority"]
-        else:
-          priority = 'puurvaviddha (default)'
-        if angam is not None:
-            blurb += angam
-        if month is not None:
-            blurb += month
-        if blurb != '':
-            blurb += ' (%s/%s).\n\n' % (kaala, priority)
-        readme_file.write(blurb)
-        description_string = ""
-        if "image" in event_dict:
-          description_string = '![](https://github.com/sanskrit-coders/adyatithi/blob/master/images/%s)\n\n' % event_dict['image']
+        if event_dict['timing']['angam_type'] == 'tithi':
+          angam += NAMES['TITHI_NAMES'][sanscript.IAST][event_dict['timing']['angam_number']] + ' tithi'
+        elif event_dict['timing']['angam_type'] == 'nakshatram':
+          angam += NAMES['NAKSHATRAM_NAMES'][sanscript.IAST][event_dict['timing']['angam_number']] + ' nakṣhatram day'
+        elif event_dict['timing']['angam_type'] == 'day':
+          angam += 'day %d' % event_dict['timing']['angam_number']
+      else:
+        logging.debug('No angam_type in %s', event_dict['id'])
+      if 'kaala' in event_dict['timing']:
+        kaala = event_dict["timing"]["kaala"]
+      else:
+        kaala = "sunrise (default)"
+      if 'priority' in event_dict:
+        priority = event_dict["priority"]
+      else:
+        priority = 'puurvaviddha (default)'
+      if angam is not None:
+        blurb += angam
+      if month is not None:
+        blurb += month
+      if blurb != '':
+        blurb += ' (%s/%s).\n\n' % (kaala, priority)
+      readme_file.write(blurb)
+      description_string = ""
+      if "image" in event_dict:
+        description_string = '![](https://github.com/sanskrit-coders/adyatithi/blob/master/images/%s)\n\n' % event_dict[
+          'image']
 
-        if "description" in event_dict:
-          # description_string = json.dumps(event_dict.description)
-          # description_string = '_' + event_dict["description"]["en"] + '_'
-          description_string = description_string + '_' + event.get_description_string(script=sanscript.DEVANAGARI) + '_'
-        if "shlokas" in event_dict:
-          description_string = description_string + '\n\n```\n' + \
-                               custom_transliteration.tr(", ".join(event_dict["shlokas"]),
-                                                         sanscript.DEVANAGARI, False) + '\n```'
-        readme_file.write(description_string)
-        if "references_primary" in event_dict or "references_secondary" in event_dict:
-          readme_file.write('\n')
-          readme_file.write('### References\n')
-          if "references_primary" in event_dict:
-            for ref in event_dict["references_primary"]:
-              readme_file.write('* %s\n' % transliterate_quoted_text(ref, sanscript.IAST))
-          if "references_secondary" in event_dict:
-            for ref in event_dict["references_secondary"]:
-              readme_file.write('* %s\n' % transliterate_quoted_text(ref, sanscript.IAST))
-        readme_file.write('\n\n---\n')
+      if "description" in event_dict:
+        # description_string = json.dumps(event_dict.description)
+        # description_string = '_' + event_dict["description"]["en"] + '_'
+        description_string = description_string + '_' + event.get_description_string(script=sanscript.DEVANAGARI) + '_'
+      if "shlokas" in event_dict:
+        description_string = description_string + '\n\n```\n' + \
+                             custom_transliteration.tr(", ".join(event_dict["shlokas"]),
+                                                       sanscript.DEVANAGARI, False) + '\n```'
+      readme_file.write(description_string)
+      if "references_primary" in event_dict or "references_secondary" in event_dict:
+        readme_file.write('\n')
+        readme_file.write('### References\n')
+        if "references_primary" in event_dict:
+          for ref in event_dict["references_primary"]:
+            readme_file.write('* %s\n' % transliterate_quoted_text(ref, sanscript.IAST))
+        if "references_secondary" in event_dict:
+          for ref in event_dict["references_secondary"]:
+            readme_file.write('* %s\n' % transliterate_quoted_text(ref, sanscript.IAST))
+      readme_file.write('\n\n---\n')
 
 
 def migrate_relative_db():
-  old_style_events = HinduCalendarEventOld.read_from_file(os.path.join(CODE_ROOT, 'panchangam/temporal/festival/data/legacy/relative_festival_rules.json'))
+  old_style_events = HinduCalendarEventOld.read_from_file(
+    os.path.join(CODE_ROOT, 'panchangam/temporal/festival/data/legacy/relative_festival_rules.json'))
   for old_style_event in old_style_events:
     event = HinduCalendarEvent.from_old_style_event(old_style_event=old_style_event)
     logging.debug(str(event))
@@ -162,8 +171,10 @@ def legacy_dict_to_HinduCalendarEventOld_list(old_db_file, new_db_file):
 
 if __name__ == '__main__':
   import shutil
+
   shutil.rmtree(os.path.join(CODE_ROOT, 'panchangam/temporal/festival/data'))
   migrate_db(os.path.join(CODE_ROOT, 'panchangam/temporal/festival/data/legacy/festival_rules.json'))
-  migrate_db(os.path.join(CODE_ROOT, 'panchangam/temporal/festival/data/legacy/festival_rules_desc_only.json'), only_descriptions=True)
+  migrate_db(os.path.join(CODE_ROOT, 'panchangam/temporal/festival/data/legacy/festival_rules_desc_only.json'),
+             only_descriptions=True)
   migrate_relative_db()
   pass

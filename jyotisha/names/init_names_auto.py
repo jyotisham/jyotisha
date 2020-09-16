@@ -1,8 +1,9 @@
 #!/usr/bin/python3
 #  -*- coding: utf-8 -*-
 
-import os
 import logging
+import os
+
 from indic_transliteration import xsanscript as sanscript
 
 logging.basicConfig(level=logging.DEBUG,
@@ -27,5 +28,6 @@ def init_names_auto(fname=os.path.join(CODE_ROOT, 'names/data/translation_table_
         names_dict[dictionary]['hk'].insert(0, 'aspaShTam')
 
       for scr in scripts:
-        names_dict[dictionary][scr] = [sanscript.transliterate(name, 'hk', scr).title() for name in names_dict[dictionary]['hk']]
+        names_dict[dictionary][scr] = [sanscript.transliterate(name, 'hk', scr).title() for name in
+                                       names_dict[dictionary]['hk']]
     return names_dict

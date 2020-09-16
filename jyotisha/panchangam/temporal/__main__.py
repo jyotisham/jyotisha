@@ -1,5 +1,4 @@
 import logging
-import swisseph as swe
 
 from jyotisha.panchangam import temporal
 from jyotisha.panchangam.spatio_temporal import City, Timezone

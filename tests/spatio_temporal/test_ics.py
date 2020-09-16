@@ -1,19 +1,20 @@
 import logging
 import os
-# import swisseph as swe
-# from indic_transliteration import xsanscript as sanscript
-
-from sanskrit_data.schema.common import JsonObject
 
 # from jyotisha.panchangam.spatio_temporal import City, annual
 # from jyotisha.panchangam.scripts.write_daily_panchangam_tex import writeDailyTeX
 from jyotisha.panchangam.scripts.ics import compute_calendar, write_to_file
+from sanskrit_data.schema.common import JsonObject
+
+# import swisseph as swe
+# from indic_transliteration import xsanscript as sanscript
+
 # from jyotisha.panchangam import scripts
 # from jyotisha.panchangam.spatio_temporal import annual
 
 logging.basicConfig(
-    level=logging.DEBUG,
-    format="%(levelname)s: %(asctime)s {%(filename)s:%(lineno)d}: %(message)s "
+  level=logging.DEBUG,
+  format="%(levelname)s: %(asctime)s {%(filename)s:%(lineno)d}: %(message)s "
 )
 
 TEST_DATA_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'data')
