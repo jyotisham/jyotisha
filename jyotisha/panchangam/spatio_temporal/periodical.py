@@ -182,38 +182,40 @@ class Panchangam(common.JsonObject):
 
   def assignLunarMonths(self):
     last_d_assigned = 0
-    last_new_moon_start, last_new_moon_end = AngaSpan.find(
+    # tithi_sunrise[1] gives a rough indication of the number of days since last new moon. We now find a more precise interval below.
+    last_new_moon = AngaSpan.find(
       self.jd_start_utc - self.tithi_sunrise[1] - 3, self.jd_start_utc - self.tithi_sunrise[1] + 3,
-      zodiac.TITHI, 30, ayanamsha_id=self.ayanamsha_id).to_tuple()
-    this_new_moon_start, this_new_moon_end = AngaSpan.find(
-      last_new_moon_start + 24, last_new_moon_start + 32,
-      zodiac.TITHI, 30, ayanamsha_id=self.ayanamsha_id).to_tuple()
-    # Check if current mAsa is adhika here
-    isAdhika = NakshatraDivision(last_new_moon_end, ayanamsha_id=self.ayanamsha_id).get_solar_rashi() == \
-               NakshatraDivision(this_new_moon_end, ayanamsha_id=self.ayanamsha_id).get_solar_rashi()
+      zodiac.TITHI, 30, ayanamsha_id=self.ayanamsha_id)
+    this_new_moon = AngaSpan.find(
+      last_new_moon.jd_start + 24, last_new_moon.jd_start + 32,
+      zodiac.TITHI, 30, ayanamsha_id=self.ayanamsha_id)
 
-    while last_new_moon_start < self.jd_start_utc + self.duration + 1:
+    # Check if current mAsa is adhika here
+    is_adhika = NakshatraDivision(last_new_moon.jd_end, ayanamsha_id=self.ayanamsha_id).get_solar_rashi() == \
+               NakshatraDivision(this_new_moon.jd_end, ayanamsha_id=self.ayanamsha_id).get_solar_rashi()
+
+    while last_new_moon.jd_start < self.jd_start_utc + self.duration + 1:
       next_new_moon_start, next_new_moon_end = AngaSpan.find(
-        this_new_moon_start + 24, this_new_moon_start + 32,
+        this_new_moon.jd_start + 24, this_new_moon.jd_start + 32,
         zodiac.TITHI, 30, ayanamsha_id=self.ayanamsha_id).to_tuple()
       for i in range(last_d_assigned + 1, last_d_assigned + 32):
-        last_solar_month = NakshatraDivision(this_new_moon_end,
+        last_solar_month = NakshatraDivision(this_new_moon.jd_end,
                                              ayanamsha_id=self.ayanamsha_id).get_solar_rashi()
 
-        if i > self.duration + 1 or self.jd_sunrise[i] > this_new_moon_end:
+        if i > self.duration + 1 or self.jd_sunrise[i] > this_new_moon.jd_end:
           last_d_assigned = i - 1
           break
-        if isAdhika:
+        if is_adhika:
           self.lunar_month[i] = (last_solar_month % 12) + .5
         else:
           self.lunar_month[i] = last_solar_month
 
-      isAdhika = NakshatraDivision(this_new_moon_end, ayanamsha_id=self.ayanamsha_id).get_solar_rashi() == \
+      is_adhika = NakshatraDivision(this_new_moon.jd_end, ayanamsha_id=self.ayanamsha_id).get_solar_rashi() == \
                  NakshatraDivision(next_new_moon_end, ayanamsha_id=self.ayanamsha_id).get_solar_rashi()
-      last_new_moon_start = this_new_moon_start
-      last_new_moon_end = this_new_moon_end
-      this_new_moon_start = next_new_moon_start
-      this_new_moon_end = next_new_moon_end
+      last_new_moon.jd_start = this_new_moon.jd_start
+      last_new_moon.jd_end = this_new_moon.jd_end
+      this_new_moon.jd_start = next_new_moon_start
+      this_new_moon.jd_end = next_new_moon_end
 
   def get_angams_for_kaalas(self, d, get_angam_func, kaala_type):
     jd_sunrise = self.jd_sunrise[d]
