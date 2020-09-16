@@ -54,6 +54,15 @@ def get_weekday(jd):
     return tm.value.isocalendar()[2] % 7
 
 
+class Interval(common.JsonObject):
+    def __init__(self, start_jd, end_jd):
+        self.start_jd = start_jd
+        self.end_jd = end_jd
+
+    def to_tuple(self):
+        return (self.start_jd, self.end_jd)
+
+
 def get_interval(start_jd, end_jd, part_index, num_parts):
     """Get start and end time of a given interval in a given span with specified fractions
 
@@ -75,7 +84,7 @@ def get_interval(start_jd, end_jd, part_index, num_parts):
     start_time = start_jd + (end_jd - start_jd) * start_fraction
     end_time = start_jd + (end_jd - start_jd) * end_fraction
 
-    return (start_time, end_time)
+    return Interval(start_time, end_time)
 
 
 def sanitize_time(year_in, month_in, day_in, hour_in, minute_in, second_in):

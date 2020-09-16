@@ -1276,13 +1276,13 @@ class Panchangam(common.JsonObject):
 
                         elif priority == 'vyaapti':
                             if kaala == 'aparaahna':
-                                t_start_d, t_end_d = temporal.get_interval(self.jd_sunrise[d], self.jd_sunset[d], 3, 5)
+                                t_start_d, t_end_d = temporal.get_interval(self.jd_sunrise[d], self.jd_sunset[d], 3, 5).to_tuple()
                             else:
                                 logging.error('Unknown kaala: %s.' % festival_name)
 
                             if kaala == 'aparaahna':
                                 t_start_d1, t_end_d1 = temporal.get_interval(self.jd_sunrise[d + 1],
-                                                                             self.jd_sunset[d + 1], 3, 5)
+                                                                             self.jd_sunset[d + 1], 3, 5).to_tuple()
                             else:
                                 logging.error('Unknown kaala: %s.' % festival_name)
 
@@ -1649,7 +1649,7 @@ class Panchangam(common.JsonObject):
             nnext_angam = (next_angam % 30) + 1
 
             # Calc vyaaptis
-            t_start_d, t_end_d = temporal.get_interval(self.jd_sunrise[d], self.jd_sunset[d], 3, 5)
+            t_start_d, t_end_d = temporal.get_interval(self.jd_sunrise[d], self.jd_sunset[d], 3, 5).to_tuple()
             vyapti_1 = t_end_d - t_start_d
             vyapti_2 = 0
             for [tithi, tithi_end] in self.tithi_data[d]:
@@ -1659,7 +1659,7 @@ class Panchangam(common.JsonObject):
                     vyapti_1 = tithi_end - t_start_d
                     vyapti_2 = t_end_d - tithi_end
 
-            t_start_d1, t_end_d1 = temporal.get_interval(self.jd_sunrise[d + 1], self.jd_sunset[d + 1], 3, 5)
+            t_start_d1, t_end_d1 = temporal.get_interval(self.jd_sunrise[d + 1], self.jd_sunset[d + 1], 3, 5).to_tuple()
             vyapti_3 = t_end_d1 - t_start_d1
             for [tithi, tithi_end] in self.tithi_data[d + 1]:
                 if tithi_end is None:
@@ -1767,7 +1767,7 @@ class Panchangam(common.JsonObject):
                 if self.solar_month_end_time[d] is not None:
                     if debug_shraaddha_tithi:
                         logging.debug((d, self.solar_month_end_time[d]))
-                    aparaahna_start, aparaahna_end = temporal.get_interval(self.jd_sunrise[d], self.jd_sunset[d], 3, 5)
+                    aparaahna_start, aparaahna_end = temporal.get_interval(self.jd_sunrise[d], self.jd_sunset[d], 3, 5).to_tuple()
                     m1 = self.solar_month[d - 1]  # Previous month
                     m2 = self.solar_month[d]  # Current month
                     if aparaahna_start < self.solar_month_end_time[d] < aparaahna_end:
@@ -1997,7 +1997,7 @@ class Panchangam(common.JsonObject):
                         # Considering only non-retrograde transits for pushkara computations
                         # logging.debug('Non-retrograde transit; we have a pushkaram!')
                         (madhyanha_start, madhyaahna_end) = temporal.get_interval(self.jd_sunrise[fday],
-                                                                                  self.jd_sunset[fday], 2, 5)
+                                                                                  self.jd_sunset[fday], 2, 5).to_tuple()
                         if jd_transit < madhyaahna_end:
                             fday_pushkara = fday
                         else:
