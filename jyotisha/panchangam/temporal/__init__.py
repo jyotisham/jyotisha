@@ -139,9 +139,12 @@ def get_angam_float(jd, angam_type, offset=0, ayanamsha_id=Ayanamsha.CHITRA_AT_1
     """Returns the angam
 
       Args:
-        float jd: The Julian Day at which the angam is to be computed
-        angam_type: One of the pre-defined constants in the panchangam
+        :param jd: float: The Julian Day at which the angam is to be computed
+        :param angam_type: One of the pre-defined tuple-valued constants in the panchangam
         class, such as TITHI, NAKSHATRAM, YOGA, KARANAM or SOLAR_MONTH
+        :param offset: 
+        :param ayanamsha_id: 
+        :param debug: Unused
 
       Returns:
         float angam
@@ -149,6 +152,7 @@ def get_angam_float(jd, angam_type, offset=0, ayanamsha_id=Ayanamsha.CHITRA_AT_1
       Examples:
         >>> get_angam_float(2444961.7125,NAKSHATRAM)
         15.967801358055189
+        
     """
     
     w_moon = angam_type['w_moon']
@@ -156,34 +160,18 @@ def get_angam_float(jd, angam_type, offset=0, ayanamsha_id=Ayanamsha.CHITRA_AT_1
     arc_len = angam_type['arc_len']
 
     lcalc = 0  # computing weighted longitudes
-    if debug:
-        logging.debug('## get_angam_float(): jd=%f', jd)
-        logging.debug("Ayanamsha: %f", Ayanamsha(ayanamsha_id).get_offset(jd))
 
     #  Get the lunar longitude, starting at the ayanaamsha point in the ecliptic.
     if w_moon != 0:
         lmoon = (Graha(Graha.MOON).get_longitude(jd) - Ayanamsha(ayanamsha_id).get_offset(jd)) % 360
-        if (debug):
-            logging.debug("Moon longitude: %f", Graha(Graha.MOON).get_longitude(jd))
-            logging.debug('## get_angam_float(): lmoon=%f', lmoon)
         lcalc += w_moon * lmoon
 
     #  Get the solar longitude, starting at the ayanaamsha point in the ecliptic.
     if w_sun != 0:
         lsun = (Graha(Graha.SUN).get_longitude(jd) - Ayanamsha(ayanamsha_id).get_offset(jd)) % 360
-        if(debug):
-            logging.debug('## get_angam_float(): lsun=%f', lsun)
         lcalc += w_sun * lsun
 
-    if debug:
-        logging.debug('## get_angam_float(): lcalc=%f', lcalc)
-
     lcalc = lcalc % 360
-
-    if debug:
-        logging.debug('## get_angam_float(): lcalc %% 360=%f', lcalc)
-        logging.debug("offset: %f", offset)
-        logging.debug(offset + int(360.0 / arc_len))
 
     if offset + int(360.0 / arc_len) == 0 and lcalc < arc_len:
         # Angam 1 -- needs different treatment, because of 'discontinuity'
