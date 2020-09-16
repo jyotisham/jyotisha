@@ -8,7 +8,7 @@ import sys
 from datetime import datetime
 from math import floor, modf
 
-from jyotisha.panchangam.temporal import Time
+from jyotisha.panchangam.temporal import Time, Ayanamsha
 from sanskrit_data.schema import common
 from sanskrit_data.schema.common import JsonObject
 # from scipy.optimize import brentq
@@ -109,6 +109,40 @@ class City(JsonObject):
 
   def get_house_cusps(self, jd):
     return swe.houses_ex(jd, self.latitude, self.longitude)[1][0]
+
+  def get_lagna_float(self, jd, offset=0, ayanamsha_id=Ayanamsha.CHITRA_AT_180, debug=False):
+    """Returns the rising rAshi at a given location.
+
+      Args:
+        :param jd: The Julian Day at which the lagnam is to be computed
+        :param offset: Used by internal functions for bracketing
+        :param debug
+
+      Returns:
+        float lagna
+    """
+
+    lcalc = self.get_house_cusps(jd=jd) - Ayanamsha(ayanamsha_id=ayanamsha_id).get_offset(jd=jd)
+    lcalc = lcalc % 360
+
+    if offset == 0:
+      return lcalc / 30
+
+    else:
+      if debug:
+        logging.debug(debug)
+        logging.debug(('offset:', offset))
+        logging.debug(('lcalc/30', lcalc / 30))
+        logging.debug(('lcalc/30 + offset = ', lcalc / 30 + offset))
+
+      # The max expected value is somewhere between 2 and -2, with bracketing
+
+      if (lcalc / 30 + offset) >= 3:
+        return (lcalc / 30) + offset - 12
+      elif (lcalc / 30 + offset) <= -3:
+        return (lcalc / 30)
+      else:
+        return (lcalc / 30) + offset
 
 
 class Timezone:
