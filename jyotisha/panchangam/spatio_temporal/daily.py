@@ -7,6 +7,7 @@ from math import floor
 
 from scipy.optimize import brentq
 
+import jyotisha.panchangam.temporal
 from jyotisha.panchangam import temporal
 from jyotisha.panchangam.spatio_temporal import City, Timezone
 from jyotisha.panchangam.temporal import zodiac
@@ -142,7 +143,7 @@ class DailyPanchanga(common.JsonObject):
         self.tb_muhuurtas = []
         for muhuurta_id in range(0, 15):
             (jd_start, jd_end) = temporal.get_interval(start_jd=self.jd_sunrise, end_jd=self.jd_sunset, part_index=muhuurta_id, num_parts=15).to_tuple()
-            self.tb_muhuurtas.append(spatio_temporal.TbSayanaMuhuurta(
+            self.tb_muhuurtas.append(jyotisha.panchangam.temporal.TbSayanaMuhuurta(
             city=self.city, jd_start=jd_start, jd_end=jd_end,
             muhuurta_id=muhuurta_id))
 

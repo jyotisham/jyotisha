@@ -1,12 +1,15 @@
 import logging
 import sys
+from math import floor
 
 from astropy.time import Time
 
+from jyotisha.panchangam.spatio_temporal import Timezone
 from jyotisha.panchangam.temporal import hour
 from jyotisha.panchangam.temporal.body import Graha
 from jyotisha.panchangam.temporal.zodiac import Ayanamsha
 from sanskrit_data.schema import common
+from sanskrit_data.schema.common import JsonObject
 
 logging.basicConfig(
     level=logging.DEBUG,
@@ -55,12 +58,28 @@ def get_weekday(jd):
 
 
 class Interval(common.JsonObject):
-    def __init__(self, start_jd, end_jd):
-        self.start_jd = start_jd
-        self.end_jd = end_jd
+    def __init__(self, jd_start, jd_end):
+        self.jd_start = jd_start
+        self.jd_end = jd_end
 
     def to_tuple(self):
-        return (self.start_jd, self.end_jd)
+        return (self.jd_start, self.jd_end)
+
+
+class TbSayanaMuhuurta(Interval):
+    """ A muhUrta as defined by SayaNa's commentary to TB 5.3
+    
+    Refer https://archive.org/stream/Anandashram_Samskrita_Granthavali_Anandashram_Sanskrit_Series/ASS_037_Taittiriya_Brahmanam_with_Sayanabhashya_Part_1_-_Narayanasastri_Godbole_1934#page/n239/mode/2up .
+    """
+    def __init__(self, jd_start, jd_end, muhuurta_id):
+        super().__init__(jd_start, jd_end)
+        self.muhuurta_id = muhuurta_id
+        self.ahna = floor(self.muhuurta_id/3)
+        self.ahna_part = self.muhuurta_id % 3
+        self.is_nirviirya = self.muhuurta_id in (2,3, 5,6, 8,9, 11,12)
+
+    def to_localized_string(self, city):
+        return "muhUrta %d (nirvIrya: %s) starts from %s to %s" % (self.muhuurta_id, str(self.is_nirviirya),  Timezone(city.timezone).julian_day_to_local_time(julian_day=self.jd_start, round_seconds=True), Timezone(city.timezone).julian_day_to_local_time(julian_day=self.jd_end, round_seconds=True))
 
 
 def get_interval(start_jd, end_jd, part_index, num_parts):

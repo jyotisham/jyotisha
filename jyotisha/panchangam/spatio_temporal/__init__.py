@@ -6,7 +6,7 @@ import os
 import swisseph as swe
 import sys
 from datetime import datetime
-from math import floor, modf
+from math import modf
 
 from jyotisha.panchangam.temporal import Time, Ayanamsha
 from sanskrit_data.schema import common
@@ -15,7 +15,6 @@ from sanskrit_data.schema.common import JsonObject
 
 from jyotisha.custom_transliteration import sexastr2deci
 from jyotisha.panchangam import temporal
-from jyotisha.panchangam.temporal.hour import decypher_fractional_hours
 import pytz
 
 logging.basicConfig(level=logging.DEBUG,
@@ -175,24 +174,6 @@ class Timezone:
     tm = Time(local_datetime, format="datetime")
     tm.format = "jd"
     return tm.value
-
-
-class TbSayanaMuhuurta(JsonObject):
-  """ A muhUrta as defined by SayaNa's commentary to TB 5.3
-  
-  Refer https://archive.org/stream/Anandashram_Samskrita_Granthavali_Anandashram_Sanskrit_Series/ASS_037_Taittiriya_Brahmanam_with_Sayanabhashya_Part_1_-_Narayanasastri_Godbole_1934#page/n239/mode/2up .
-  """
-  def __init__(self, jd_start, jd_end, muhuurta_id):
-    super().__init__()
-    self.muhuurta_id = muhuurta_id
-    self.jd_start = jd_start
-    self.jd_end = jd_end
-    self.ahna = floor(self.muhuurta_id/3)
-    self.ahna_part = self.muhuurta_id % 3
-    self.is_nirviirya = self.muhuurta_id in (2,3, 5,6, 8,9, 11,12)
-
-  def to_localized_string(self, city):
-    return "muhUrta %d (nirvIrya: %s) starts from %s to %s" % (self.muhuurta_id, str(self.is_nirviirya),  Timezone(city.timezone).julian_day_to_local_time(julian_day=self.jd_start, round_seconds=True), Timezone(city.timezone).julian_day_to_local_time(julian_day=self.jd_end, round_seconds=True))
 
 
 # Essential for depickling to work.
