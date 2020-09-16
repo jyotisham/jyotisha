@@ -49,7 +49,7 @@ class NakshatraDivision(common.JsonObject):
         self.julday = julday
         self.right_boundaries = ((numpy.arange(27) + 1) * (360.0 / 27.0) + Ayanamsha(self.ayanamsha_id).get_offset(julday)) % 360
     
-    def get_nakshatra(self, body):
+    def get_nakshatra_for_body(self, body):
         if self.julday is not None:
           self.set_time(julday=self.julday)
         logging.debug(Ayanamsha(self.ayanamsha_id).get_offset(self.julday))
@@ -128,7 +128,7 @@ class NakshatraDivision(common.JsonObject):
     
     
     def get_angam(self, angam_type):
-        """Returns the angam prevailing at a particular time
+        """Returns the angam prevailing at a particular time. Computed based on lunar and solar longitudes, division of a circle into a certain number of degrees (arc_len).
     
           Args:
             float jd: The Julian Day at which the angam is to be computed
@@ -142,6 +142,8 @@ class NakshatraDivision(common.JsonObject):
         return int(1 + floor(self.get_angam_float(angam_type)))
     
     def get_all_angas(self):
+        """Compute various properties of the time based on lunar and solar longitudes, division of a circle into a certain number of degrees (arc_len).
+        """
         anga_objects = [TITHI, TITHI_PADA, NAKSHATRAM, NAKSHATRA_PADA, RASHI, SOLAR_MONTH, SOLAR_NAKSH, YOGA, KARANAM]
         angas = list(map(lambda anga_object: self.get_angam(jd=self.julday, angam_type=anga_object), anga_objects))
         anga_ids = list(map(lambda anga_obj: anga_obj["id"], anga_objects))

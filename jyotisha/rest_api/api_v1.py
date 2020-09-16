@@ -84,7 +84,7 @@ class NakshatraFinder(Resource):
     lahiri_nakshatra_division = zodiac.NakshatraDivision(julday=julday)
     if body == "moon":
       from jyotisha.panchangam import temporal
-    nakshatra = lahiri_nakshatra_division.get_nakshatra(body=body)
+    nakshatra = lahiri_nakshatra_division.get_nakshatra_for_body(body=body)
     logging.info(nakshatra)
     return str(nakshatra)
     # return "haha"
