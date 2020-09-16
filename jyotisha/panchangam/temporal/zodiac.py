@@ -377,7 +377,7 @@ class AngaSpan(Interval):
         return jd_end
     
     @classmethod
-    def get_angam_span(cls, jd1, jd2, angam_type, target_anga_id, ayanamsha_id, debug=False):
+    def find(cls, jd1, jd2, angam_type, target_anga_id, ayanamsha_id, debug=False):
         """Computes angam spans for angams such as tithi, nakshatram, yoga
             and karanam.
     
@@ -399,7 +399,7 @@ class AngaSpan(Interval):
         if anga_interval.jd_start is None:
             return AngaSpan(None, None)  # If it doesn't start, we don't care if it ends!
 
-        anga_interval.jd_end = cls._find_anga_end(jd1=jd1, jd2=jd2, target_anga_id=target_anga_id, angam_type=angam_type, ayanamsha_id=ayanamsha_id)
+        anga_interval.jd_end = cls._find_anga_end(jd_start=anga_interval.jd_start, jd2=jd2, target_anga_id=target_anga_id, angam_type=angam_type, ayanamsha_id=ayanamsha_id)
 
 
         if debug:

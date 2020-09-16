@@ -18,7 +18,7 @@ from jyotisha.panchangam.temporal import zodiac
 from jyotisha.panchangam.temporal.body import Graha
 from jyotisha.panchangam.temporal.festival import read_old_festival_rules_dict
 from jyotisha.panchangam.temporal.hour import Hour
-from jyotisha.panchangam.temporal.zodiac import NakshatraDivision
+from jyotisha.panchangam.temporal.zodiac import NakshatraDivision, AngaSpan
 from sanskrit_data.schema import common
 from sanskrit_data.schema.common import JsonObject
 
@@ -182,10 +182,10 @@ class Panchangam(common.JsonObject):
 
     def assignLunarMonths(self):
         last_d_assigned = 0
-        last_new_moon_start, last_new_moon_end = zodiac.get_angam_span(
+        last_new_moon_start, last_new_moon_end = AngaSpan.find(
             self.jd_start_utc - self.tithi_sunrise[1] - 3, self.jd_start_utc - self.tithi_sunrise[1] + 3,
             zodiac.TITHI, 30, ayanamsha_id=self.ayanamsha_id).to_tuple()
-        this_new_moon_start, this_new_moon_end = zodiac.get_angam_span(
+        this_new_moon_start, this_new_moon_end = AngaSpan.find(
             last_new_moon_start + 24, last_new_moon_start + 32,
             zodiac.TITHI, 30, ayanamsha_id=self.ayanamsha_id).to_tuple()
         # Check if current mAsa is adhika here
@@ -193,7 +193,7 @@ class Panchangam(common.JsonObject):
                    NakshatraDivision(this_new_moon_end, ayanamsha_id=self.ayanamsha_id).get_solar_rashi()
 
         while last_new_moon_start < self.jd_start_utc + self.duration + 1:
-            next_new_moon_start, next_new_moon_end = zodiac.get_angam_span(
+            next_new_moon_start, next_new_moon_end = AngaSpan.find(
                 this_new_moon_start + 24, this_new_moon_start + 32,
                 zodiac.TITHI, 30, ayanamsha_id=self.ayanamsha_id).to_tuple()
             for i in range(last_d_assigned + 1, last_d_assigned + 32):
@@ -785,23 +785,23 @@ class Panchangam(common.JsonObject):
                 moon_hasta_jd_start = moon_hasta_jd_start = t30_start = None
                 moon_hasta_jd_end = moon_hasta_jd_end = t30_end = None
 
-                sun_hasta_jd_start, sun_hasta_jd_end = zodiac.get_angam_span(
+                sun_hasta_jd_start, sun_hasta_jd_end = AngaSpan.find(
                     self.jd_sunrise[d], self.jd_sunrise[d] + 30, zodiac.SOLAR_NAKSH, 13,
                     ayanamsha_id=self.ayanamsha_id).to_tuple()
 
-                moon_magha_jd_start, moon_magha_jd_end = zodiac.get_angam_span(
+                moon_magha_jd_start, moon_magha_jd_end = AngaSpan.find(
                     sun_hasta_jd_start - 2, sun_hasta_jd_end + 2, zodiac.NAKSHATRAM, 10,
                     ayanamsha_id=self.ayanamsha_id).to_tuple()
                 if all([moon_magha_jd_start, moon_magha_jd_end]):
-                    t28_start, t28_end = zodiac.get_angam_span(
+                    t28_start, t28_end = AngaSpan.find(
                         moon_magha_jd_start - 3, moon_magha_jd_end + 3, zodiac.TITHI, 28,
                         ayanamsha_id=self.ayanamsha_id).to_tuple()
 
-                moon_hasta_jd_start, moon_hasta_jd_end = zodiac.get_angam_span(
+                moon_hasta_jd_start, moon_hasta_jd_end = AngaSpan.find(
                     sun_hasta_jd_start - 1, sun_hasta_jd_end + 1, zodiac.NAKSHATRAM, 13,
                     ayanamsha_id=self.ayanamsha_id).to_tuple()
                 if all([moon_hasta_jd_start, moon_hasta_jd_end]):
-                    t30_start, t30_end = zodiac.get_angam_span(
+                    t30_start, t30_end = AngaSpan.find(
                         sun_hasta_jd_start - 1, sun_hasta_jd_end + 1, zodiac.TITHI, 30,
                         ayanamsha_id=self.ayanamsha_id).to_tuple()
 
@@ -894,10 +894,10 @@ class Panchangam(common.JsonObject):
             # AGNI NAKSHATRAM
             # Arbitrarily checking after Mesha 10! Agni Nakshatram can't start earlier...
             if self.solar_month[d] == 1 and self.solar_month_day[d] == 10:
-                agni_jd_start, dummy = zodiac.get_angam_span(
+                agni_jd_start, dummy = AngaSpan.find(
                     self.jd_sunrise[d], self.jd_sunrise[d] + 30,
                     zodiac.SOLAR_NAKSH_PADA, 7, ayanamsha_id=self.ayanamsha_id).to_tuple()
-                dummy, agni_jd_end = zodiac.get_angam_span(
+                dummy, agni_jd_end = AngaSpan.find(
                     agni_jd_start, agni_jd_start + 30,
                     zodiac.SOLAR_NAKSH_PADA, 13, ayanamsha_id=self.ayanamsha_id).to_tuple()
 

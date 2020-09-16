@@ -1,7 +1,7 @@
 import logging
 
 from jyotisha.panchangam.temporal import zodiac
-from jyotisha.panchangam.temporal.zodiac import NakshatraDivision, Ayanamsha
+from jyotisha.panchangam.temporal.zodiac import NakshatraDivision, Ayanamsha, AngaSpan
 
 
 def test_get_ayanamsha():
@@ -31,3 +31,6 @@ def test_get_angam_data():
     assert zodiac.get_angam_data(2444961.54042,2444962.54076, zodiac.NAKSHATRAM, ayanamsha_id=Ayanamsha.CHITRA_AT_180) == [(16, 2444961.746925843)]
     assert zodiac.get_angam_data(2444961.54042,2444962.54076, zodiac.YOGA, ayanamsha_id=Ayanamsha.CHITRA_AT_180) == [(8, 2444962.18276057)]
     assert zodiac.get_angam_data(2444961.54042,2444962.54076, zodiac.KARANAM, ayanamsha_id=Ayanamsha.CHITRA_AT_180) == [(54, 2444961.5992132244), (55, 2444962.1544454526)]
+
+def test_get_angam_span():
+    assert AngaSpan.find(jd1=2444959.54042,jd2=2444963.54076, angam_type=zodiac.TITHI, target_anga_id=27, ayanamsha_id=Ayanamsha.CHITRA_AT_180).to_tuple() == (2444960.4924699212, 2444961.599213224)
