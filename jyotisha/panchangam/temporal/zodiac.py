@@ -50,10 +50,15 @@ class NakshatraDivision(common.JsonObject):
         self.right_boundaries = ((numpy.arange(27) + 1) * (360.0 / 27.0) + Ayanamsha(self.ayanamsha_id).get_offset(julday)) % 360
     
     def get_nakshatra_for_body(self, body):
+        """
+        
+        :param body: graha ID.
+        :return: 1.x for AshvinI and so on.
+        """
         if self.julday is not None:
           self.set_time(julday=self.julday)
         logging.debug(Ayanamsha(self.ayanamsha_id).get_offset(self.julday))
-        return ((Graha(body).get_longitude(self.julday) - Ayanamsha(self.ayanamsha_id).get_offset(self.julday)) % 360) / (360.0 / 27.0)
+        return Graha(body).get_longitude_offset(self.julday, ayanamsha_id=self.ayanamsha_id) / (360.0 / 27.0) + 1
     
     def __str__(self):
         return str(self.__dict__)
@@ -199,10 +204,6 @@ class NakshatraDivision(common.JsonObject):
     
         Returns:
           int rashi, where 1 stands for mESa, ..., 12 stands for mIna
-    
-        Examples:
-          >>> get_solar_rashi(2444961.7125)
-          9
         """
     
         return self.get_angam(SOLAR_MONTH)
@@ -236,24 +237,16 @@ def get_angam_data(jd_sunrise, jd_sunrise_tmrw, angam_type, ayanamsha_id):
     and karanam.
 
     Args:
-      angam_type: TITHI, NAKSHATRAM, YOGA, KARANAM, SOLAR_MONTH, SOLAR_NAKSH
-
+        :param jd_sunrise: 
+        :param jd_sunrise_tmrw: 
+        :param angam_type: TITHI, NAKSHATRAM, YOGA, KARANAM, SOLAR_MONTH, SOLAR_NAKSH
+        :param ayanamsha_id: 
 
     Returns:
       tuple: A tuple comprising
         angam_sunrise: The angam that prevails as sunrise
         angam_data: a list of (int, float) tuples detailing the angams
         for the day and their end-times (Julian day)
-
-    Examples:
-      >>> get_angam_data(2444961.54042,2444962.54076,TITHI)
-      [(27, 2444961.599213231)]
-      >>> get_angam_data(2444961.54042,2444962.54076,NAKSHATRAM)
-      [(16, 2444961.7487953394)]
-      >>> get_angam_data(2444961.54042,2444962.54076,YOGA)
-      [(8, 2444962.1861976916)]
-      >>> get_angam_data(2444961.54042,2444962.54076,KARANAM)
-      [(54, 2444961.599213231), (55, 2444962.15444546)]
     """
     w_moon = angam_type['w_moon']
     w_sun = angam_type['w_sun']
@@ -322,14 +315,16 @@ def get_angam_data(jd_sunrise, jd_sunrise_tmrw, angam_type, ayanamsha_id):
     return angams_list
 
 
-def get_angam_span(jd1, jd2, angam_type, target, ayanamsha_id, debug=False):
+def get_angam_span(jd1, jd2, angam_type, target_anga_id, ayanamsha_id, debug=False):
     """Computes angam spans for angams such as tithi, nakshatram, yoga
         and karanam.
 
         Args:
-          jd1: return the first span that starts after this date
-          jd2: return the first span that ends before this date
-          angam_type: TITHI, NAKSHATRAM, YOGA, KARANAM, SOLAR_MONTH, SOLAR_NAKSH
+          :param jd1: return the first span that starts after this date
+          :param jd2: return the first span that ends before this date
+          :param angam_type: TITHI, NAKSHATRAM, YOGA, KARANAM, SOLAR_MONTH, SOLAR_NAKSH
+          :param ayanamsha_id
+          :param debug
 
         Returns:
           tuple: A tuple of start and end times that lies within jd1 and jd2
@@ -342,30 +337,30 @@ def get_angam_span(jd1, jd2, angam_type, target, ayanamsha_id, debug=False):
     jd_bracket_L = jd1
     jd_bracket_R = jd2
 
-    h = 0.5   # Min Step for moving
+    min_step = 0.5   # Min Step for moving
 
     jd_now = jd1
     while jd_now < jd2 and angam_start is None:
         angam_now = NakshatraDivision(jd_now, ayanamsha_id=ayanamsha_id).get_angam(angam_type)
 
-        if angam_now < target or (target == 1 and angam_now == num_angas):
+        if angam_now < target_anga_id or (target_anga_id == 1 and angam_now == num_angas):
             if debug:
                 logging.debug(('jd_bracket_L ', jd_now))
             jd_bracket_L = jd_now
-        if angam_now == target:
+        if angam_now == target_anga_id:
             try:
                 def f(x):
-                    return NakshatraDivision(x, ayanamsha_id=ayanamsha_id).get_angam_float(angam_type=angam_type, offset_angas=-target + 1, debug=False)
+                    return NakshatraDivision(x, ayanamsha_id=ayanamsha_id).get_angam_float(angam_type=angam_type, offset_angas=-target_anga_id + 1, debug=False)
                 angam_start = brentq(f, jd_bracket_L, jd_now)
             except ValueError:
-                logging.error('Unable to bracket %s->%f between jd = (%f, %f), starting with (%f, %f)' % (str(angam_type), -target + 1, jd_bracket_L, jd_now, jd1, jd2))
+                logging.error('Unable to bracket %s->%f between jd = (%f, %f), starting with (%f, %f)' % (str(angam_type), -target_anga_id + 1, jd_bracket_L, jd_now, jd1, jd2))
                 angam_start = None
             if debug:
                 logging.debug(('angam_start', angam_start))
         # if angam_now > target and angam_start is not None:
         #     angam_end = brentq(get_angam_float, angam_start, jd_now,
         #                        args=(angam_type, -target, False))
-        jd_now += h
+        jd_now += min_step
 
     if angam_start is None:
         return (None, None)  # If it doesn't start, we don't care if it ends!
@@ -374,7 +369,7 @@ def get_angam_span(jd1, jd2, angam_type, target, ayanamsha_id, debug=False):
     while jd_now < jd2 and angam_end is None:
         angam_now = NakshatraDivision(jd_now, ayanamsha_id=ayanamsha_id).get_angam(angam_type)
 
-        if target == num_angas:
+        if target_anga_id == num_angas:
             # Wait till we land at the next anga!
             if angam_now == 1:
                 jd_bracket_R = jd_now
@@ -382,19 +377,19 @@ def get_angam_span(jd1, jd2, angam_type, target, ayanamsha_id, debug=False):
                     logging.debug(('jd_bracket_R ', jd_now))
                 break
         else:
-            if angam_now > target:
+            if angam_now > target_anga_id:
                 jd_bracket_R = jd_now
                 if debug:
                     logging.debug(('jd_bracket_R ', jd_now))
                 break
-        jd_now += h
+        jd_now += min_step
 
     try:
         def f(x):
-            return NakshatraDivision(x, ayanamsha_id=ayanamsha_id).get_angam_float(angam_type=angam_type, offset_angas=-target, debug=False)
+            return NakshatraDivision(x, ayanamsha_id=ayanamsha_id).get_angam_float(angam_type=angam_type, offset_angas=-target_anga_id, debug=False)
         angam_end = brentq(f, angam_start, jd_bracket_R)
     except ValueError:
-        logging.error('Unable to compute angam_end (%s->%d); possibly could not bracket correctly!\n' % (str(angam_type), target))
+        logging.error('Unable to compute angam_end (%s->%d); possibly could not bracket correctly!\n' % (str(angam_type), target_anga_id))
 
     if debug:
         logging.debug(('angam_end', angam_end))

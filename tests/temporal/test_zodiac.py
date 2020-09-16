@@ -24,3 +24,10 @@ def test_get_angam():
     assert nd.get_angam(zodiac.YOGA) == 8
     assert nd.get_angam(zodiac.KARANAM) == 55
     assert nd.get_solar_rashi() == 9
+
+
+def test_get_angam_data():
+    assert zodiac.get_angam_data(2444961.54042,2444962.54076, zodiac.TITHI, ayanamsha_id=Ayanamsha.CHITRA_AT_180) == [(27, 2444961.5992132244)]
+    assert zodiac.get_angam_data(2444961.54042,2444962.54076, zodiac.NAKSHATRAM, ayanamsha_id=Ayanamsha.CHITRA_AT_180) == [(16, 2444961.746925843)]
+    assert zodiac.get_angam_data(2444961.54042,2444962.54076, zodiac.YOGA, ayanamsha_id=Ayanamsha.CHITRA_AT_180) == [(8, 2444962.18276057)]
+    assert zodiac.get_angam_data(2444961.54042,2444962.54076, zodiac.KARANAM, ayanamsha_id=Ayanamsha.CHITRA_AT_180) == [(54, 2444961.5992132244), (55, 2444962.1544454526)]

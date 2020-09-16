@@ -5,9 +5,7 @@ from flask import Blueprint
 from flask_restplus import Resource
 from flask_restplus import reqparse
 
-import jyotisha.panchangam.spatio_temporal.annual
-import jyotisha.panchangam.spatio_temporal.daily
-from jyotisha.panchangam.temporal.zodiac import NakshatraDivision
+from jyotisha.panchangam.temporal.zodiac import NakshatraDivision, Ayanamsha
 from jyotisha import names
 from jyotisha.panchangam.spatio_temporal import City, Timezone
 from jyotisha.panchangam.temporal import festival
@@ -81,10 +79,10 @@ class NakshatraFinder(Resource):
   def get(self, body, timezone, year, month, day, hour, minute, second):
     from jyotisha import zodiac
     julday = Timezone(timezone).local_time_to_julian_day(year, month, day, hour, minute, second)
-    lahiri_nakshatra_division = zodiac.NakshatraDivision(julday=julday)
+    nd = NakshatraDivision(julday=julday, ayanamsha_id=Ayanamsha.CHITRA_AT_180)
     if body == "moon":
       from jyotisha.panchangam import temporal
-    nakshatra = lahiri_nakshatra_division.get_nakshatra_for_body(body=body)
+    nakshatra = nd.get_nakshatra_for_body(body=body)
     logging.info(nakshatra)
     return str(nakshatra)
     # return "haha"
