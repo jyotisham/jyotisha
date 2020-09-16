@@ -7,7 +7,6 @@ from astropy.time import Time
 from scipy.optimize import brentq
 
 from jyotisha import names
-from jyotisha.custom_transliteration import tr
 from jyotisha.names.init_names_auto import init_names_auto
 from jyotisha.panchangam.temporal import hour
 from jyotisha.panchangam.temporal.body import Graha
@@ -228,21 +227,6 @@ def get_all_angas(jd, ayanamsha_id=Ayanamsha.CHITRA_AT_180):
   return dict(list(zip(anga_ids, angas)))
 
 
-def get_all_angas_x_ayanamshas(jd):
-  # swe.SIDM_TRUE_REVATI leads to a segfault.
-  ayanamshas = [Ayanamsha.CHITRA_AT_180, swe.SIDM_ARYABHATA, swe.SIDM_ARYABHATA_MSUN, swe.SIDM_KRISHNAMURTI, swe.SIDM_JN_BHASIN, swe.SIDM_RAMAN, swe.SIDM_SS_CITRA, swe.SIDM_SS_REVATI, swe.SIDM_SURYASIDDHANTA, swe.SIDM_SURYASIDDHANTA_MSUN, swe.SIDM_USHASHASHI, swe.SIDM_YUKTESHWAR, Ayanamsha.CHITRA_AT_180, names.SIDM_TRUE_MULA, names.SIDM_TRUE_PUSHYA]
-
-  ayanamsha_names = list(map(lambda ayanamsha: names.get_ayanamsha_name(ayanamsha), ayanamshas))
-  return dict(zip(ayanamsha_names, map(lambda ayanamsha_id: get_all_angas(jd=jd, ayanamsha_id=ayanamsha_id), ayanamshas)))
-
-
-def print_angas_x_ayanamshas(jd):
-  anga_x_ayanamsha = get_all_angas_x_ayanamshas(jd=jd)
-  import pandas
-  angas_df = pandas.DataFrame(anga_x_ayanamsha)
-  print(angas_df.to_csv(sep="\t"))
-
-
 def get_angam_span(jd1, jd2, angam_type, target, ayanamsha_id=Ayanamsha.CHITRA_AT_180, debug=False):
     """Computes angam spans for angams such as tithi, nakshatram, yoga
         and karanam.
@@ -421,36 +405,6 @@ def get_angam_data(jd_sunrise, jd_sunrise_tmrw, angam_type, ayanamsha_id=Ayanams
               t_act = approx_end
             angams_list.extend([((angam_now + i - 1) % num_angas + 1, t_act)])
     return angams_list
-
-
-def get_ekadashi_name(paksha, lmonth):
-    """Return the name of an ekadashi
-    """
-    if paksha == 'shukla':
-        if lmonth == int(lmonth):
-            return '%s-EkAdazI' % NAMES['SHUKLA_EKADASHI_NAMES']['hk'][lmonth]
-        else:
-            # adhika mAsam
-            return '%s-EkAdazI' % NAMES['SHUKLA_EKADASHI_NAMES']['hk'][13]
-    elif paksha == 'krishna':
-        if lmonth == int(lmonth):
-            return '%s-EkAdazI' % NAMES['KRISHNA_EKADASHI_NAMES']['hk'][lmonth]
-        else:
-            # adhika mAsam
-            return '%s-EkAdazI' % NAMES['KRISHNA_EKADASHI_NAMES']['hk'][13]
-
-
-def get_chandra_masa(month, NAMES, script, visarga=True):
-    if visarga:
-      if month == int(month):
-          return NAMES['CHANDRA_MASA_NAMES'][script][month]
-      else:
-          return '%s-(%s)' % (NAMES['CHANDRA_MASA_NAMES'][script][int(month) + 1], tr('adhikaH', script, titled=False))
-    else:
-      if month == int(month):
-          return NAMES['CHANDRA_MASA_NAMES'][script][month][:-1]
-      else:
-          return '%s-(%s)' % (NAMES['CHANDRA_MASA_NAMES'][script][int(month) + 1][:-1], tr('adhika', script, titled=False))
 
 
 def get_tithi(jd, ayanamsha_id=Ayanamsha.CHITRA_AT_180):

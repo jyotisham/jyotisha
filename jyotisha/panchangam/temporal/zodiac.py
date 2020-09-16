@@ -97,6 +97,18 @@ def get_nirayana_sun_lon(jd, offset=0, debug=False):
         return lsun + offset
 
 
+
+def longitudeToRightAscension(longitude):
+    return (360 - longitude) / 360 * 24
+
+
+def ecliptic_to_equatorial(longitude, latitude):
+    coordinates = swe.cotrans(lon=longitude, lat=latitude, dist=9999999, obliquity=23.437404)
+    # swe.cotrans returns the right ascension longitude in degrees, rather than hours.
+    return (
+        longitudeToRightAscension(coordinates[0]), coordinates[1])
+
+
 if __name__ == '__main__':
     # lahiri_nakshatra_division = NakshatraDivision(julday=temporal.utc_to_jd(year=2017, month=8, day=19, hour=11, minutes=10, seconds=0, flag=1)[0])
     import temporal
@@ -105,14 +117,3 @@ if __name__ == '__main__':
     logging.info(lahiri_nakshatra_division.get_nakshatra(body=Graha.MOON))
     # logging.info(lahiri_nakshatra_division)
     lahiri_nakshatra_division.get_stellarium_nakshatra_boundaries()
-
-
-def longitudeToRightAscension(longitude):
-    return (360 - longitude) / 360 * 24
-
-def ecliptic_to_equatorial(longitude, latitude):
-    coordinates = swe.cotrans(lon=longitude, lat=latitude, dist=9999999, obliquity=23.437404)
-    # swe.cotrans returns the right ascension longitude in degrees, rather than hours.
-    return (
-        longitudeToRightAscension(coordinates[0]), coordinates[1])
-    

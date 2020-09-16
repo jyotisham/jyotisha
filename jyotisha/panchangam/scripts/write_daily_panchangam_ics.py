@@ -16,6 +16,7 @@ from datetime import datetime, date, timedelta
 
 import jyotisha
 import jyotisha.custom_transliteration
+import jyotisha.names
 import jyotisha.panchangam.spatio_temporal.annual
 import jyotisha.panchangam.temporal
 import jyotisha.panchangam.temporal.hour
@@ -294,7 +295,7 @@ def writeDailyICS(panchangam, compute_lagnams=True):
           print('*' + getName('ayanam', panchangam.script) + '*—%s' % ayanam, file=output_stream)
         if rtu_lunar != rtu_solar:
           print('*' + getName('RtuH', panchangam.script) + '*—%s' % rtu_lunar, file=output_stream)
-        print('*' + getName('mAsaH', panchangam.script) + '*—%s' % jyotisha.panchangam.temporal.get_chandra_masa(panchangam.lunar_month[d], jyotisha.panchangam.temporal.NAMES, panchangam.script), file=output_stream)
+        print('*' + getName('mAsaH', panchangam.script) + '*—%s' % jyotisha.names.get_chandra_masa(panchangam.lunar_month[d], jyotisha.panchangam.temporal.NAMES, panchangam.script), file=output_stream)
         print('°' * 25, file=output_stream)
         # braahma
         # pratahsandhya, pratahsandhya_end

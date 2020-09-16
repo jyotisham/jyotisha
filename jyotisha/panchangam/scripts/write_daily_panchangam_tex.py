@@ -13,6 +13,7 @@ from pytz import timezone as tz
 
 import jyotisha
 import jyotisha.custom_transliteration
+import jyotisha.names
 import jyotisha.panchangam.spatio_temporal.annual
 import jyotisha.panchangam.temporal
 import jyotisha.panchangam.temporal.hour
@@ -217,8 +218,8 @@ def writeDailyTeX(panchangam, template_file, compute_lagnams=True, output_stream
 
         print('\\caldata{%s}{%s}{%s{%s}{%s}{%s}%s}' %
               (month[m], dt, month_data,
-               jyotisha.panchangam.temporal.get_chandra_masa(panchangam.lunar_month[d],
-                                                             jyotisha.panchangam.temporal.NAMES, panchangam.script),
+               jyotisha.names.get_chandra_masa(panchangam.lunar_month[d],
+                                               jyotisha.panchangam.temporal.NAMES, panchangam.script),
                jyotisha.panchangam.temporal.NAMES['RTU_NAMES'][panchangam.script][int(ceil(panchangam.lunar_month[d]))],
                jyotisha.panchangam.temporal.NAMES['VARA_NAMES'][panchangam.script][panchangam.weekday[d]], sar_data), file=output_stream)
 

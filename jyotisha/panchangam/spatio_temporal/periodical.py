@@ -11,6 +11,7 @@ from indic_transliteration import xsanscript as sanscript
 from pytz import timezone as tz
 from scipy.optimize import brentq
 
+import jyotisha.names
 import jyotisha.panchangam
 import jyotisha.panchangam.temporal
 import jyotisha.panchangam.temporal.hour
@@ -525,21 +526,21 @@ class Panchangam(common.JsonObject):
                 elif yati_ekadashi_fday is None:
                     if smaarta_ekadashi_fday == vaishnava_ekadashi_fday:
                         # It's sarva ekadashi
-                        self.add_festival('sarva-' + temporal.get_ekadashi_name(ekadashi_paksha, self.lunar_month[d]), smaarta_ekadashi_fday, debug_festivals)
+                        self.add_festival('sarva-' + jyotisha.names.get_ekadashi_name(ekadashi_paksha, self.lunar_month[d]), smaarta_ekadashi_fday, debug_festivals)
                         if ekadashi_paksha == 'shukla':
                             if self.solar_month[d] == 9:
                                 self.add_festival('sarva-vaikuNTha-EkAdazI', smaarta_ekadashi_fday, debug_festivals)
                     else:
-                        self.add_festival('smArta-' + temporal.get_ekadashi_name(ekadashi_paksha, self.lunar_month[d]), smaarta_ekadashi_fday, debug_festivals)
-                        self.add_festival('vaiSNava-' + temporal.get_ekadashi_name(ekadashi_paksha, self.lunar_month[d]), vaishnava_ekadashi_fday, debug_festivals)
+                        self.add_festival('smArta-' + jyotisha.names.get_ekadashi_name(ekadashi_paksha, self.lunar_month[d]), smaarta_ekadashi_fday, debug_festivals)
+                        self.add_festival('vaiSNava-' + jyotisha.names.get_ekadashi_name(ekadashi_paksha, self.lunar_month[d]), vaishnava_ekadashi_fday, debug_festivals)
                         if ekadashi_paksha == 'shukla':
                             if self.solar_month[d] == 9:
                                 self.add_festival('smArta-vaikuNTha-EkAdazI', smaarta_ekadashi_fday, debug_festivals)
                                 self.add_festival('vaiSNava-vaikuNTha-EkAdazI', vaishnava_ekadashi_fday, debug_festivals)
                 else:
-                    self.add_festival('smArta-' + temporal.get_ekadashi_name(ekadashi_paksha, self.lunar_month[d]) + ' (gRhastha)', smaarta_ekadashi_fday, debug_festivals)
-                    self.add_festival('smArta-' + temporal.get_ekadashi_name(ekadashi_paksha, self.lunar_month[d]) + ' (sannyastha)', yati_ekadashi_fday, debug_festivals)
-                    self.add_festival('vaiSNava-' + temporal.get_ekadashi_name(ekadashi_paksha, self.lunar_month[d]), vaishnava_ekadashi_fday, debug_festivals)
+                    self.add_festival('smArta-' + jyotisha.names.get_ekadashi_name(ekadashi_paksha, self.lunar_month[d]) + ' (gRhastha)', smaarta_ekadashi_fday, debug_festivals)
+                    self.add_festival('smArta-' + jyotisha.names.get_ekadashi_name(ekadashi_paksha, self.lunar_month[d]) + ' (sannyastha)', yati_ekadashi_fday, debug_festivals)
+                    self.add_festival('vaiSNava-' + jyotisha.names.get_ekadashi_name(ekadashi_paksha, self.lunar_month[d]), vaishnava_ekadashi_fday, debug_festivals)
                     if self.solar_month[d] == 9:
                         if ekadashi_paksha == 'shukla':
                             self.add_festival('smArta-vaikuNTha-EkAdazI (gRhastha)', smaarta_ekadashi_fday, debug_festivals)
@@ -668,13 +669,16 @@ class Panchangam(common.JsonObject):
             for d in ama_days:
                 # Get Name
                 if self.lunar_month[d] == 6:
-                    pref = '(%s) mahAlaya ' % (temporal.get_chandra_masa(self.lunar_month[d], temporal.NAMES, 'hk', visarga=False))
+                    pref = '(%s) mahAlaya ' % (
+                        jyotisha.names.get_chandra_masa(self.lunar_month[d], temporal.NAMES, 'hk', visarga=False))
                 elif self.solar_month[d] == 4:
-                    pref = '%s (kaTaka) ' % (temporal.get_chandra_masa(self.lunar_month[d], temporal.NAMES, 'hk', visarga=False))
+                    pref = '%s (kaTaka) ' % (
+                        jyotisha.names.get_chandra_masa(self.lunar_month[d], temporal.NAMES, 'hk', visarga=False))
                 elif self.solar_month[d] == 10:
-                    pref = 'mauni (%s/makara) ' % (temporal.get_chandra_masa(self.lunar_month[d], temporal.NAMES, 'hk', visarga=False))
+                    pref = 'mauni (%s/makara) ' % (
+                        jyotisha.names.get_chandra_masa(self.lunar_month[d], temporal.NAMES, 'hk', visarga=False))
                 else:
-                    pref = temporal.get_chandra_masa(self.lunar_month[d], temporal.NAMES, 'hk', visarga=False) + '-'
+                    pref = jyotisha.names.get_chandra_masa(self.lunar_month[d], temporal.NAMES, 'hk', visarga=False) + '-'
 
                 ama_nakshatram_today = self.get_angams_for_kaalas(d, temporal.get_nakshatram, 'aparaahna')[:2]
                 suff = ''
