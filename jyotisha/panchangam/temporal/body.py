@@ -40,7 +40,9 @@ class Graha(object):
 
     def get_longitude_offset(self, jd, offset, ayanamsha_id):
         from jyotisha.panchangam.temporal import Ayanamsha
-        return self.get_longitude(jd=jd) - Ayanamsha(ayanamsha_id).get_offset(jd) + offset
+        adjusted_longitude = (self.get_longitude(jd=jd) - Ayanamsha(ayanamsha_id).get_offset(jd)) % 360
+        # Not doing modulo arithmetic below - we want to allow the offset longitude to be negative, for use with brentq.
+        return adjusted_longitude + offset
 
     def get_next_raashi_transit(self, jd_start, jd_end, ayanamsha_id):
         """Returns the next transit of the given planet e.g. jupiter
@@ -79,9 +81,11 @@ class Graha(object):
                     # retrograde transit
                     target = L_rashi
                 try:
+                    def get_longitude_offset_partially_applied(jd):
+                        return self.get_longitude_offset(jd=jd, offset=(-target + 1) * 30, ayanamsha_id=ayanamsha_id)
                     jd_transit = \
-                        brentq(self.get_longitude_offset, curr_L_bracket, curr_R_bracket,
-                                        args=((-target + 1) * 30, ayanamsha_id))
+                        brentq(get_longitude_offset_partially_applied, 
+                               curr_L_bracket, curr_R_bracket)
                     transits += [(jd_transit, L_rashi, R_rashi)]
                     curr_R_bracket += MIN_JUMP
                     curr_L_bracket = jd_transit + MIN_JUMP

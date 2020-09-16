@@ -2,7 +2,7 @@ import swisseph as swe
 
 # These are present in http://www.astro.com/swisseph/swephprg.htm#_Toc471829094 but not in the swe python module.
 from jyotisha.custom_transliteration import tr
-from jyotisha.panchangam.temporal import NAMES
+from jyotisha.names.init_names_auto import init_names_auto
 
 SIDM_TRUE_PUSHYA = 29
 SIDM_TRUE_MULA = 35
@@ -44,3 +44,6 @@ def get_chandra_masa(month, NAMES, script, visarga=True):
           return NAMES['CHANDRA_MASA_NAMES'][script][month][:-1]
       else:
           return '%s-(%s)' % (NAMES['CHANDRA_MASA_NAMES'][script][int(month) + 1][:-1], tr('adhika', script, titled=False))
+
+
+NAMES = init_names_auto()

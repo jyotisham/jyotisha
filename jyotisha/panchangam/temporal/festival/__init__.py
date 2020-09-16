@@ -10,8 +10,7 @@ from jyotisha import custom_transliteration
 from jyotisha.panchangam.spatio_temporal import CODE_ROOT
 from sanskrit_data.schema import common
 from indic_transliteration import xsanscript as sanscript
-from jyotisha.panchangam.temporal import NAMES
-from jyotisha.names import get_chandra_masa
+from jyotisha.names import get_chandra_masa, NAMES
 
 logging.basicConfig(
   level=logging.DEBUG,

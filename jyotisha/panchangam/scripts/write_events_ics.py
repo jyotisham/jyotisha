@@ -11,7 +11,8 @@ from pytz import timezone as tz
 import jyotisha.panchangam.spatio_temporal.annual
 from jyotisha.panchangam import temporal
 from jyotisha.panchangam.spatio_temporal import City
-from jyotisha.panchangam.temporal import get_nakshatram, get_tithi, MAX_SZ
+from jyotisha.panchangam.temporal import MAX_SZ
+from jyotisha.panchangam.temporal.zodiac import get_nakshatram, get_tithi
 
 logging.basicConfig(
     level=logging.DEBUG,

@@ -101,8 +101,10 @@ class Panchangam(common.JsonObject):
         self.solar_month[1] = daily_panchangam_start.solar_month
         solar_month_day = daily_panchangam_start.solar_month_day
 
-        solar_month_today_sunset = temporal.get_angam(daily_panchangam_start.jd_sunset, temporal.SOLAR_MONTH, ayanamsha_id=self.ayanamsha_id)
-        solar_month_tmrw_sunrise = temporal.get_angam(daily_panchangam_start.jd_sunrise + 1, temporal.SOLAR_MONTH, ayanamsha_id=self.ayanamsha_id)
+        solar_month_today_sunset = jyotisha.panchangam.temporal.zodiac.get_angam(daily_panchangam_start.jd_sunset,
+                                                                                 jyotisha.panchangam.temporal.zodiac.SOLAR_MONTH, ayanamsha_id=self.ayanamsha_id)
+        solar_month_tmrw_sunrise = jyotisha.panchangam.temporal.zodiac.get_angam(daily_panchangam_start.jd_sunrise + 1,
+                                                                                 jyotisha.panchangam.temporal.zodiac.SOLAR_MONTH, ayanamsha_id=self.ayanamsha_id)
         month_start_after_sunset = solar_month_today_sunset != solar_month_tmrw_sunrise
 
         #############################################################
@@ -144,15 +146,15 @@ class Panchangam(common.JsonObject):
                 solar_month_day = solar_month_day + 1
                 if self.solar_month[d] != solar_month_sunrise[d + 1]:
                     month_start_after_sunset = True
-                    [_m, solar_month_end_jd] = temporal.get_angam_data(
-                        self.jd_sunrise[d], self.jd_sunrise[d + 1], temporal.SOLAR_MONTH,
+                    [_m, solar_month_end_jd] = jyotisha.panchangam.temporal.zodiac.get_angam_data(
+                        self.jd_sunrise[d], self.jd_sunrise[d + 1], jyotisha.panchangam.temporal.zodiac.SOLAR_MONTH,
                         ayanamsha_id=self.ayanamsha_id)[0]
             elif solar_month_sunrise[d] != self.solar_month[d]:
                 # sankrAnti!
                 # sun moves into next rAshi before sunset
                 solar_month_day = 1
-                [_m, solar_month_end_jd] = temporal.get_angam_data(
-                    self.jd_sunrise[d], self.jd_sunrise[d + 1], temporal.SOLAR_MONTH,
+                [_m, solar_month_end_jd] = jyotisha.panchangam.temporal.zodiac.get_angam_data(
+                    self.jd_sunrise[d], self.jd_sunrise[d + 1], jyotisha.panchangam.temporal.zodiac.SOLAR_MONTH,
                     ayanamsha_id=self.ayanamsha_id)[0]
             else:
                 solar_month_day = solar_month_day + 1
@@ -177,17 +179,20 @@ class Panchangam(common.JsonObject):
 
     def assignLunarMonths(self):
         last_d_assigned = 0
-        last_new_moon_start, last_new_moon_end = temporal.get_angam_span(
-            self.jd_start_utc - self.tithi_sunrise[1] - 3, self.jd_start_utc - self.tithi_sunrise[1] + 3, temporal.TITHI, 30, ayanamsha_id=self.ayanamsha_id)
-        this_new_moon_start, this_new_moon_end = temporal.get_angam_span(last_new_moon_start + 24, last_new_moon_start + 32, temporal.TITHI, 30, ayanamsha_id=self.ayanamsha_id)
+        last_new_moon_start, last_new_moon_end = jyotisha.panchangam.temporal.zodiac.get_angam_span(
+            self.jd_start_utc - self.tithi_sunrise[1] - 3, self.jd_start_utc - self.tithi_sunrise[1] + 3,
+            jyotisha.panchangam.temporal.zodiac.TITHI, 30, ayanamsha_id=self.ayanamsha_id)
+        this_new_moon_start, this_new_moon_end = jyotisha.panchangam.temporal.zodiac.get_angam_span(last_new_moon_start + 24, last_new_moon_start + 32,
+                                                                                                    jyotisha.panchangam.temporal.zodiac.TITHI, 30, ayanamsha_id=self.ayanamsha_id)
         # Check if current mAsa is adhika here
-        isAdhika = temporal.get_solar_rashi(last_new_moon_end, ayanamsha_id=self.ayanamsha_id) ==\
-            temporal.get_solar_rashi(this_new_moon_end, ayanamsha_id=self.ayanamsha_id)
+        isAdhika = jyotisha.panchangam.temporal.zodiac.get_solar_rashi(last_new_moon_end, ayanamsha_id=self.ayanamsha_id) == \
+                   jyotisha.panchangam.temporal.zodiac.get_solar_rashi(this_new_moon_end, ayanamsha_id=self.ayanamsha_id)
 
         while last_new_moon_start < self.jd_start_utc + self.duration + 1:
-            next_new_moon_start, next_new_moon_end = temporal.get_angam_span(this_new_moon_start + 24, this_new_moon_start + 32, temporal.TITHI, 30, ayanamsha_id=self.ayanamsha_id)
+            next_new_moon_start, next_new_moon_end = jyotisha.panchangam.temporal.zodiac.get_angam_span(this_new_moon_start + 24, this_new_moon_start + 32,
+                                                                                                        jyotisha.panchangam.temporal.zodiac.TITHI, 30, ayanamsha_id=self.ayanamsha_id)
             for i in range(last_d_assigned + 1, last_d_assigned + 32):
-                last_solar_month = temporal.get_solar_rashi(this_new_moon_end, ayanamsha_id=self.ayanamsha_id)
+                last_solar_month = jyotisha.panchangam.temporal.zodiac.get_solar_rashi(this_new_moon_end, ayanamsha_id=self.ayanamsha_id)
 
                 if i > self.duration + 1 or self.jd_sunrise[i] > this_new_moon_end:
                     last_d_assigned = i - 1
@@ -197,8 +202,8 @@ class Panchangam(common.JsonObject):
                 else:
                     self.lunar_month[i] = last_solar_month
 
-            isAdhika = temporal.get_solar_rashi(this_new_moon_end, ayanamsha_id=self.ayanamsha_id) ==\
-                temporal.get_solar_rashi(next_new_moon_end, ayanamsha_id=self.ayanamsha_id)
+            isAdhika = jyotisha.panchangam.temporal.zodiac.get_solar_rashi(this_new_moon_end, ayanamsha_id=self.ayanamsha_id) == \
+                       jyotisha.panchangam.temporal.zodiac.get_solar_rashi(next_new_moon_end, ayanamsha_id=self.ayanamsha_id)
             last_new_moon_start = this_new_moon_start
             last_new_moon_end = this_new_moon_end
             this_new_moon_start = next_new_moon_start
@@ -348,9 +353,9 @@ class Panchangam(common.JsonObject):
             [y, m, dt, t] = temporal.jd_to_utc_gregorian(self.jd_start_utc + d - 1)
             # Chandra Darshanam
             if self.tithi_sunrise[d] == 1 or self.tithi_sunrise[d] == 2:
-                tithi_sunset = temporal.get_tithi(self.jd_sunset[d], ayanamsha_id=self.ayanamsha_id)
-                tithi_sunset_tmrw = temporal.get_tithi(self.jd_sunset[d + 1],
-                                                       ayanamsha_id=self.ayanamsha_id)
+                tithi_sunset = jyotisha.panchangam.temporal.zodiac.get_tithi(self.jd_sunset[d], ayanamsha_id=self.ayanamsha_id)
+                tithi_sunset_tmrw = jyotisha.panchangam.temporal.zodiac.get_tithi(self.jd_sunset[d + 1],
+                                                                                  ayanamsha_id=self.ayanamsha_id)
                 # if tithi_sunset <= 2 and tithi_sunset_tmrw != 2:
                 if tithi_sunset <= 2:
                     if tithi_sunset == 1:
@@ -376,7 +381,7 @@ class Panchangam(common.JsonObject):
                 _m = self.lunar_month[d]
                 if floor(_m) != _m:
                     _m = 13  # Adhika masa
-                chaturthi_name = temporal.NAMES['SANKATAHARA_CHATURTHI_NAMES']['hk'][_m] + '-mahAgaNapati '
+                chaturthi_name = jyotisha.names.NAMES['SANKATAHARA_CHATURTHI_NAMES']['hk'][_m] + '-mahAgaNapati '
 
                 if tithi_moonrise == 19:
                     # otherwise yesterday would have already been assigned
@@ -421,7 +426,7 @@ class Panchangam(common.JsonObject):
                 festival_name = 'subrahmaNya-' + festival_name
 
             if self.tithi_sunrise[d] == 5 or self.tithi_sunrise[d] == 6:
-                angams = self.get_angams_for_kaalas(d, temporal.get_tithi, 'madhyaahna')
+                angams = self.get_angams_for_kaalas(d, jyotisha.panchangam.temporal.zodiac.get_tithi, 'madhyaahna')
                 if angams[0] == 6 or angams[1] == 6:
                     if festival_name in self.fest_days:
                         # Check if yesterday was assigned already
@@ -464,8 +469,9 @@ class Panchangam(common.JsonObject):
                     festival_name += '★'
                 self.add_festival(festival_name, d, debug_festivals)
 
-            if temporal.get_angam(self.jd_sunrise[d], temporal.NAKSHATRA_PADA,
-                                  ayanamsha_id=self.ayanamsha_id) == 49 and \
+            if jyotisha.panchangam.temporal.zodiac.get_angam(self.jd_sunrise[d],
+                                                             jyotisha.panchangam.temporal.zodiac.NAKSHATRA_PADA,
+                                                             ayanamsha_id=self.ayanamsha_id) == 49 and \
                     self.tithi_sunrise[d] == 7:
                 self.add_festival('bhadrA~saptamI', d, debug_festivals)
 
@@ -496,14 +502,14 @@ class Panchangam(common.JsonObject):
                     ekadashi_paksha = 'shukla'
                 if ekadashi_tithi_days in [[11, 11, 12], [10, 12, 12]]:
                     smaarta_ekadashi_fday = d + 1
-                    tithi_arunodayam = temporal.get_tithi(self.jd_sunrise[d + 1] - (1 / 15.0) * (self.jd_sunrise[d + 1] - self.jd_sunrise[d]), ayanamsha_id=self.ayanamsha_id)
+                    tithi_arunodayam = jyotisha.panchangam.temporal.zodiac.get_tithi(self.jd_sunrise[d + 1] - (1 / 15.0) * (self.jd_sunrise[d + 1] - self.jd_sunrise[d]), ayanamsha_id=self.ayanamsha_id)
                     if tithi_arunodayam % 15 == 10:
                         vaishnava_ekadashi_fday = d + 2
                     else:
                         vaishnava_ekadashi_fday = d + 1
                 elif ekadashi_tithi_days in [[10, 12, 13], [11, 12, 13], [11, 12, 12], [11, 12, 14]]:
                     smaarta_ekadashi_fday = d
-                    tithi_arunodayam = temporal.get_tithi(self.jd_sunrise[d] - (1 / 15.0) * (self.jd_sunrise[d] - self.jd_sunrise[d - 1]), ayanamsha_id=self.ayanamsha_id)
+                    tithi_arunodayam = jyotisha.panchangam.temporal.zodiac.get_tithi(self.jd_sunrise[d] - (1 / 15.0) * (self.jd_sunrise[d] - self.jd_sunrise[d - 1]), ayanamsha_id=self.ayanamsha_id)
                     if tithi_arunodayam % 15 == 11 and ekadashi_tithi_days in [[11, 12, 13], [11, 12, 14]]:
                         vaishnava_ekadashi_fday = d
                     else:
@@ -558,9 +564,11 @@ class Panchangam(common.JsonObject):
 
                     # Harivasara Computation
                     if ekadashi_paksha == 'shukla':
-                        harivasara_end = brentq(temporal.get_angam_float, self.jd_sunrise[smaarta_ekadashi_fday] - 2, self.jd_sunrise[smaarta_ekadashi_fday] + 2, args=(temporal.TITHI_PADA, -45, self.ayanamsha_id, False))
+                        harivasara_end = brentq(jyotisha.panchangam.temporal.zodiac.get_angam_float, self.jd_sunrise[smaarta_ekadashi_fday] - 2, self.jd_sunrise[smaarta_ekadashi_fday] + 2, args=(
+                        jyotisha.panchangam.temporal.zodiac.TITHI_PADA, -45, self.ayanamsha_id, False))
                     else:
-                        harivasara_end = brentq(temporal.get_angam_float, self.jd_sunrise[smaarta_ekadashi_fday] - 2, self.jd_sunrise[smaarta_ekadashi_fday] + 2, args=(temporal.TITHI_PADA, -105, self.ayanamsha_id, False))
+                        harivasara_end = brentq(jyotisha.panchangam.temporal.zodiac.get_angam_float, self.jd_sunrise[smaarta_ekadashi_fday] - 2, self.jd_sunrise[smaarta_ekadashi_fday] + 2, args=(
+                        jyotisha.panchangam.temporal.zodiac.TITHI_PADA, -105, self.ayanamsha_id, False))
                     [_y, _m, _d, _t] = temporal.jd_to_utc_gregorian(harivasara_end + (tz_off / 24.0))
                     hariv_end_time = jyotisha.panchangam.temporal.hour.Hour(temporal.jd_to_utc_gregorian(harivasara_end + (tz_off / 24.0))[3]).toString(format=self.fmt)
                     fday_hv = temporal.utc_gregorian_to_jd(_y, _m, _d, 0) - self.jd_start_utc + 1
@@ -606,7 +614,8 @@ class Panchangam(common.JsonObject):
                         if t12_end is None:
                             continue
                         if (t12 % 15) == 11:
-                            if temporal.get_angam(t12_end, temporal.NAKSHATRAM, ayanamsha_id=self.ayanamsha_id) == 22:
+                            if jyotisha.panchangam.temporal.zodiac.get_angam(t12_end,
+                                                                             jyotisha.panchangam.temporal.zodiac.NAKSHATRAM, ayanamsha_id=self.ayanamsha_id) == 22:
                                 if (self.tithi_sunrise[d] % 15) == 12 and (self.tithi_sunrise[d + 1] % 15) == 12:
                                     self.add_festival('vijayA/zravaNa-mahAdvAdazI', d, debug_festivals)
                                 elif (self.tithi_sunrise[d] % 15) == 12:
@@ -614,7 +623,8 @@ class Panchangam(common.JsonObject):
                                 elif (self.tithi_sunrise[d + 1] % 15) == 12:
                                     self.add_festival('vijayA/zravaNa-mahAdvAdazI', d + 1, debug_festivals)
                         if (t12 % 15) == 12:
-                            if temporal.get_angam(t12_end, temporal.NAKSHATRAM, ayanamsha_id=self.ayanamsha_id) == 22:
+                            if jyotisha.panchangam.temporal.zodiac.get_angam(t12_end,
+                                                                             jyotisha.panchangam.temporal.zodiac.NAKSHATRAM, ayanamsha_id=self.ayanamsha_id) == 22:
                                 if (self.tithi_sunrise[d] % 15) == 12 and (self.tithi_sunrise[d + 1] % 15) == 12:
                                     self.add_festival('vijayA/zravaNa-mahAdvAdazI', d, debug_festivals)
                                 elif (self.tithi_sunrise[d] % 15) == 12:
@@ -632,9 +642,9 @@ class Panchangam(common.JsonObject):
             # PRADOSHA Vratam
             pref = ''
             if self.tithi_sunrise[d] in (12, 13, 27, 28):
-                tithi_sunset = temporal.get_tithi(self.jd_sunset[d], ayanamsha_id=self.ayanamsha_id) % 15
-                tithi_sunset_tmrw = temporal.get_tithi(self.jd_sunset[d + 1],
-                                                       ayanamsha_id=self.ayanamsha_id) % 15
+                tithi_sunset = jyotisha.panchangam.temporal.zodiac.get_tithi(self.jd_sunset[d], ayanamsha_id=self.ayanamsha_id) % 15
+                tithi_sunset_tmrw = jyotisha.panchangam.temporal.zodiac.get_tithi(self.jd_sunset[d + 1],
+                                                                                  ayanamsha_id=self.ayanamsha_id) % 15
                 if tithi_sunset <= 13 and tithi_sunset_tmrw != 13:
                     fday = d
                 elif tithi_sunset_tmrw == 13:
@@ -650,14 +660,15 @@ class Panchangam(common.JsonObject):
             [y, m, dt, t] = temporal.jd_to_utc_gregorian(self.jd_start_utc + d - 1)
             # VARUNI TRAYODASHI
             if self.lunar_month[d] == 12 and self.tithi_sunrise[d] == 28:
-                if temporal.get_angam(self.jd_sunrise[d], temporal.NAKSHATRAM,
-                                      ayanamsha_id=self.ayanamsha_id) == 24:
+                if jyotisha.panchangam.temporal.zodiac.get_angam(self.jd_sunrise[d],
+                                                                 jyotisha.panchangam.temporal.zodiac.NAKSHATRAM,
+                                                                 ayanamsha_id=self.ayanamsha_id) == 24:
                     vtr_name = 'vAruNI~trayOdazI'
                     if self.weekday[d] == 6:
                         vtr_name = 'mahA' + vtr_name
-                        if temporal.get_angam(self.jd_sunrise[d],
-                                              temporal.YOGA,
-                                              ayanamsha_id=self.ayanamsha_id) == 23:
+                        if jyotisha.panchangam.temporal.zodiac.get_angam(self.jd_sunrise[d],
+                                                                         jyotisha.panchangam.temporal.zodiac.YOGA,
+                                                                         ayanamsha_id=self.ayanamsha_id) == 23:
                             vtr_name = 'mahA' + vtr_name
                     self.add_festival(vtr_name, d, debug_festivals)
 
@@ -670,17 +681,17 @@ class Panchangam(common.JsonObject):
                 # Get Name
                 if self.lunar_month[d] == 6:
                     pref = '(%s) mahAlaya ' % (
-                        jyotisha.names.get_chandra_masa(self.lunar_month[d], temporal.NAMES, 'hk', visarga=False))
+                        jyotisha.names.get_chandra_masa(self.lunar_month[d], jyotisha.names.NAMES, 'hk', visarga=False))
                 elif self.solar_month[d] == 4:
                     pref = '%s (kaTaka) ' % (
-                        jyotisha.names.get_chandra_masa(self.lunar_month[d], temporal.NAMES, 'hk', visarga=False))
+                        jyotisha.names.get_chandra_masa(self.lunar_month[d], jyotisha.names.NAMES, 'hk', visarga=False))
                 elif self.solar_month[d] == 10:
                     pref = 'mauni (%s/makara) ' % (
-                        jyotisha.names.get_chandra_masa(self.lunar_month[d], temporal.NAMES, 'hk', visarga=False))
+                        jyotisha.names.get_chandra_masa(self.lunar_month[d], jyotisha.names.NAMES, 'hk', visarga=False))
                 else:
-                    pref = jyotisha.names.get_chandra_masa(self.lunar_month[d], temporal.NAMES, 'hk', visarga=False) + '-'
+                    pref = jyotisha.names.get_chandra_masa(self.lunar_month[d], jyotisha.names.NAMES, 'hk', visarga=False) + '-'
 
-                ama_nakshatram_today = self.get_angams_for_kaalas(d, temporal.get_nakshatram, 'aparaahna')[:2]
+                ama_nakshatram_today = self.get_angams_for_kaalas(d, jyotisha.panchangam.temporal.zodiac.get_nakshatram, 'aparaahna')[:2]
                 suff = ''
                 # Assign
                 if 23 in ama_nakshatram_today and self.lunar_month[d] == 10:
@@ -688,9 +699,9 @@ class Panchangam(common.JsonObject):
                 elif 24 in ama_nakshatram_today and self.lunar_month[d] == 10:
                     suff = ' (alabhyam–zatabhiSak)'
                 elif ama_nakshatram_today[0] in [15, 16, 17, 6, 7, 8, 23, 24, 25]:
-                    suff = ' (alabhyam–%s)' % jyotisha.panchangam.temporal.NAMES['NAKSHATRAM_NAMES']['hk'][ama_nakshatram_today[0]]
+                    suff = ' (alabhyam–%s)' % jyotisha.names.NAMES['NAKSHATRAM_NAMES']['hk'][ama_nakshatram_today[0]]
                 elif ama_nakshatram_today[1] in [15, 16, 17, 6, 7, 8, 23, 24, 25]:
-                    suff = ' (alabhyam–%s)' % jyotisha.panchangam.temporal.NAMES['NAKSHATRAM_NAMES']['hk'][ama_nakshatram_today[1]]
+                    suff = ' (alabhyam–%s)' % jyotisha.names.NAMES['NAKSHATRAM_NAMES']['hk'][ama_nakshatram_today[1]]
                 if self.weekday[d] in [1, 2, 4]:
                     if suff == '':
                         suff = ' (alabhyam–puSkalA)'
@@ -714,11 +725,13 @@ class Panchangam(common.JsonObject):
             # “In Mahabharata, if on a Sunday, Amavasya and one of the stars –
             # Sravanam, Asvini, Avittam, Tiruvadirai or Ayilyam, occurs, then it is called ‘Vyatipatam’.
             # This Vyatipata yoga is equal to a hundred Surya grahanas in merit.”
-            tithi_sunset = temporal.get_angam(self.jd_sunset[d], temporal.TITHI, ayanamsha_id=self.ayanamsha_id)
+            tithi_sunset = jyotisha.panchangam.temporal.zodiac.get_angam(self.jd_sunset[d],
+                                                                         jyotisha.panchangam.temporal.zodiac.TITHI, ayanamsha_id=self.ayanamsha_id)
             if self.weekday[d] == 0 and (self.tithi_sunrise[d] == 30 or tithi_sunset == 30):
                 # AMAVASYA on a Sunday
                 if (self.nakshatram_sunrise[d] in [1, 6, 9, 22, 23] and self.tithi_sunrise[d] == 30) or\
-                   (tithi_sunset == 30 and temporal.get_angam(self.jd_sunset[d], temporal.NAKSHATRAM, ayanamsha_id=self.ayanamsha_id) in [1, 6, 9, 22, 23]):
+                   (tithi_sunset == 30 and jyotisha.panchangam.temporal.zodiac.get_angam(self.jd_sunset[d],
+                                                                                         jyotisha.panchangam.temporal.zodiac.NAKSHATRAM, ayanamsha_id=self.ayanamsha_id) in [1, 6, 9, 22, 23]):
                     festival_name = 'vyatIpAta-yOgaH (alabhyam)'
                     self.add_festival(festival_name, d, debug_festivals)
                     logging.debug('* %d-%02d-%02d> %s!' % (y, m, dt, festival_name))
@@ -739,24 +752,24 @@ class Panchangam(common.JsonObject):
                 moon_hasta_jd_start = moon_hasta_jd_start = t30_start = None
                 moon_hasta_jd_end = moon_hasta_jd_end = t30_end = None
 
-                sun_hasta_jd_start, sun_hasta_jd_end = temporal.get_angam_span(
-                    self.jd_sunrise[d], self.jd_sunrise[d] + 30, temporal.SOLAR_NAKSH, 13,
+                sun_hasta_jd_start, sun_hasta_jd_end = jyotisha.panchangam.temporal.zodiac.get_angam_span(
+                    self.jd_sunrise[d], self.jd_sunrise[d] + 30, jyotisha.panchangam.temporal.zodiac.SOLAR_NAKSH, 13,
                     ayanamsha_id=self.ayanamsha_id)
 
-                moon_magha_jd_start, moon_magha_jd_end = temporal.get_angam_span(
-                    sun_hasta_jd_start - 2, sun_hasta_jd_end + 2, temporal.NAKSHATRAM, 10,
+                moon_magha_jd_start, moon_magha_jd_end = jyotisha.panchangam.temporal.zodiac.get_angam_span(
+                    sun_hasta_jd_start - 2, sun_hasta_jd_end + 2, jyotisha.panchangam.temporal.zodiac.NAKSHATRAM, 10,
                     ayanamsha_id=self.ayanamsha_id)
                 if all([moon_magha_jd_start, moon_magha_jd_end]):
-                    t28_start, t28_end = temporal.get_angam_span(
-                        moon_magha_jd_start - 3, moon_magha_jd_end + 3, temporal.TITHI, 28,
+                    t28_start, t28_end = jyotisha.panchangam.temporal.zodiac.get_angam_span(
+                        moon_magha_jd_start - 3, moon_magha_jd_end + 3, jyotisha.panchangam.temporal.zodiac.TITHI, 28,
                         ayanamsha_id=self.ayanamsha_id)
 
-                moon_hasta_jd_start, moon_hasta_jd_end = temporal.get_angam_span(
-                    sun_hasta_jd_start - 1, sun_hasta_jd_end + 1, temporal.NAKSHATRAM, 13,
+                moon_hasta_jd_start, moon_hasta_jd_end = jyotisha.panchangam.temporal.zodiac.get_angam_span(
+                    sun_hasta_jd_start - 1, sun_hasta_jd_end + 1, jyotisha.panchangam.temporal.zodiac.NAKSHATRAM, 13,
                     ayanamsha_id=self.ayanamsha_id)
                 if all([moon_hasta_jd_start, moon_hasta_jd_end]):
-                    t30_start, t30_end = temporal.get_angam_span(
-                        sun_hasta_jd_start - 1, sun_hasta_jd_end + 1, temporal.TITHI, 30,
+                    t30_start, t30_end = jyotisha.panchangam.temporal.zodiac.get_angam_span(
+                        sun_hasta_jd_start - 1, sun_hasta_jd_end + 1, jyotisha.panchangam.temporal.zodiac.TITHI, 30,
                         ayanamsha_id=self.ayanamsha_id)
 
                 gc_28 = gc_30 = False
@@ -824,9 +837,13 @@ class Panchangam(common.JsonObject):
             # Can also refer youtube video https://youtu.be/0DBIwb7iaLE?list=PL_H2LUtMCKPjh63PRk5FA3zdoEhtBjhzj&t=6747
             # 4th pada of vyatipatam, 1st pada of Amavasya, 2nd pada of Shravana, Suryodaya, Bhanuvasara = Ardhodayam
             # 4th pada of vyatipatam, 1st pada of Amavasya, 2nd pada of Shravana, Suryodaya, Somavasara = Mahodayam
-            if self.lunar_month[d] in [10, 11] and self.tithi_sunrise[d] == 30 or temporal.get_tithi(self.jd_sunset[d], ayanamsha_id=self.ayanamsha_id) == 30:
-                if (temporal.get_angam(self.jd_sunrise[d], temporal.YOGA, ayanamsha_id=self.ayanamsha_id) == 17 or temporal.get_angam(self.jd_sunset[d], temporal.YOGA, ayanamsha_id=self.ayanamsha_id) == 17) and \
-                        (temporal.get_angam(self.jd_sunrise[d], temporal.NAKSHATRAM, ayanamsha_id=self.ayanamsha_id) == 22 or temporal.get_angam(self.jd_sunset[d], temporal.NAKSHATRAM, ayanamsha_id=self.ayanamsha_id) == 22):
+            if self.lunar_month[d] in [10, 11] and self.tithi_sunrise[d] == 30 or jyotisha.panchangam.temporal.zodiac.get_tithi(self.jd_sunset[d], ayanamsha_id=self.ayanamsha_id) == 30:
+                if (jyotisha.panchangam.temporal.zodiac.get_angam(self.jd_sunrise[d],
+                                                                  jyotisha.panchangam.temporal.zodiac.YOGA, ayanamsha_id=self.ayanamsha_id) == 17 or jyotisha.panchangam.temporal.zodiac.get_angam(self.jd_sunset[d],
+                                                                                                                                                                                                   jyotisha.panchangam.temporal.zodiac.YOGA, ayanamsha_id=self.ayanamsha_id) == 17) and \
+                        (jyotisha.panchangam.temporal.zodiac.get_angam(self.jd_sunrise[d],
+                                                                       jyotisha.panchangam.temporal.zodiac.NAKSHATRAM, ayanamsha_id=self.ayanamsha_id) == 22 or jyotisha.panchangam.temporal.zodiac.get_angam(self.jd_sunset[d],
+                                                                                                                                                                                                              jyotisha.panchangam.temporal.zodiac.NAKSHATRAM, ayanamsha_id=self.ayanamsha_id) == 22):
                     if self.weekday[d] == 1:
                         festival_name = 'mahOdaya-puNyakAlaH'
                         self.add_festival(festival_name, d, debug_festivals)
@@ -844,12 +861,12 @@ class Panchangam(common.JsonObject):
            # AGNI NAKSHATRAM
             # Arbitrarily checking after Mesha 10! Agni Nakshatram can't start earlier...
             if self.solar_month[d] == 1 and self.solar_month_day[d] == 10:
-                agni_jd_start, dummy = temporal.get_angam_span(
+                agni_jd_start, dummy = jyotisha.panchangam.temporal.zodiac.get_angam_span(
                     self.jd_sunrise[d], self.jd_sunrise[d] + 30,
-                    temporal.SOLAR_NAKSH_PADA, 7, ayanamsha_id=self.ayanamsha_id)
-                dummy, agni_jd_end = temporal.get_angam_span(
+                    jyotisha.panchangam.temporal.zodiac.SOLAR_NAKSH_PADA, 7, ayanamsha_id=self.ayanamsha_id)
+                dummy, agni_jd_end = jyotisha.panchangam.temporal.zodiac.get_angam_span(
                     agni_jd_start, agni_jd_start + 30,
-                    temporal.SOLAR_NAKSH_PADA, 13, ayanamsha_id=self.ayanamsha_id)
+                    jyotisha.panchangam.temporal.zodiac.SOLAR_NAKSH_PADA, 13, ayanamsha_id=self.ayanamsha_id)
 
             if self.solar_month[d] == 1 and self.solar_month_day[d] > 10:
                 if agni_jd_start is not None:
@@ -929,7 +946,7 @@ class Panchangam(common.JsonObject):
                 n_prev = ((nwd_fest_n - 2) % 27) + 1
                 if (self.nakshatram_sunrise[d] == nwd_fest_n or self.nakshatram_sunrise[d] == n_prev) and self.weekday[d] == nwd_fest_wd:
                     # Is it necessarily only at sunrise?
-                    angams = self.get_angams_for_kaalas(d, temporal.get_nakshatram, 'dinamaana')
+                    angams = self.get_angams_for_kaalas(d, jyotisha.panchangam.temporal.zodiac.get_nakshatram, 'dinamaana')
                     if any(x == nwd_fest_n for x in [self.nakshatram_sunrise[d], angams[0], angams[1]]):
                         self.add_festival(nwd_fest_name, d, debug_festivals)
 
@@ -960,7 +977,7 @@ class Panchangam(common.JsonObject):
                 ayana_time = jyotisha.panchangam.temporal.hour.Hour(_t).toString(format=self.fmt)
 
                 self.festivals[fday_nirayana].append('%s\\textsf{%s}{\\RIGHTarrow}\\textsf{%s}' % (
-                    temporal.NAMES['RTU_MASA_NAMES'][self.script][self.solar_month[d]], '', ayana_time))
+                    jyotisha.names.NAMES['RTU_MASA_NAMES'][self.script][self.solar_month[d]], '', ayana_time))
                 self.tropical_month_end_time[fday_nirayana] = ayana_jd_start
                 for i in range(last_d_assigned + 1, fday_nirayana + 1):
                     self.tropical_month[i] = self.solar_month[d]
@@ -987,7 +1004,7 @@ class Panchangam(common.JsonObject):
 
             # KARADAIYAN NOMBU
             if self.solar_month[d] == 12 and self.solar_month_day[d] == 1:
-                if temporal.get_solar_rashi(self.jd_sunrise[d] - (1 / 15.0) * (self.jd_sunrise[d] - self.jd_sunrise[d - 1])) == 12:
+                if jyotisha.panchangam.temporal.zodiac.get_solar_rashi(self.jd_sunrise[d] - (1 / 15.0) * (self.jd_sunrise[d] - self.jd_sunrise[d - 1])) == 12:
                     # If kumbha prevails two ghatikAs before sunrise, nombu can be done in the early morning itself, else, previous night.
                     self.fest_days['ta:kAraDaiyAn2 nOn2bu'] = [d - 1]
                 else:
@@ -1001,7 +1018,7 @@ class Panchangam(common.JsonObject):
             if self.solar_month[d] == 1 and self.solar_month[d - 1] == 12:
                 # distance from prabhava
                 samvatsara_id = (y - 1568) % 60 + 1
-                new_yr = 'mESa-saGkrAntiH' + '~(' + temporal.NAMES['SAMVATSARA_NAMES']['hk'][(samvatsara_id % 60) + 1] + \
+                new_yr = 'mESa-saGkrAntiH' + '~(' + jyotisha.names.NAMES['SAMVATSARA_NAMES']['hk'][(samvatsara_id % 60) + 1] + \
                          '-' + 'saMvatsaraH' + ')'
                 # self.fest_days[new_yr] = [d]
                 self.add_festival(new_yr, d, debug_festivals)
@@ -1012,17 +1029,19 @@ class Panchangam(common.JsonObject):
             [y, m, dt, t] = temporal.jd_to_utc_gregorian(self.jd_start_utc + d - 1)
 
             # AYUSHMAN BAVA SAUMYA
-            if self.weekday[d] == 3 and temporal.get_angam(self.jd_sunrise[d],
-                                                           temporal.YOGA,
-                                                           ayanamsha_id=self.ayanamsha_id) == 3:
-                if temporal.get_angam(self.jd_sunrise[d], temporal.KARANAM,
-                                      ayanamsha_id=self.ayanamsha_id) in list(range(2, 52, 7)):
+            if self.weekday[d] == 3 and jyotisha.panchangam.temporal.zodiac.get_angam(self.jd_sunrise[d],
+                                                                                      jyotisha.panchangam.temporal.zodiac.YOGA,
+                                                                                      ayanamsha_id=self.ayanamsha_id) == 3:
+                if jyotisha.panchangam.temporal.zodiac.get_angam(self.jd_sunrise[d],
+                                                                 jyotisha.panchangam.temporal.zodiac.KARANAM,
+                                                                 ayanamsha_id=self.ayanamsha_id) in list(range(2, 52, 7)):
                     self.add_festival('AyuSmAn-bava-saumya', d, debug_festivals)
-            if self.weekday[d] == 3 and temporal.get_angam(self.jd_sunset[d],
-                                                           temporal.YOGA,
-                                                           ayanamsha_id=self.ayanamsha_id) == 3:
-                if temporal.get_angam(self.jd_sunset[d], temporal.KARANAM,
-                                      ayanamsha_id=self.ayanamsha_id) in list(range(2, 52, 7)):
+            if self.weekday[d] == 3 and jyotisha.panchangam.temporal.zodiac.get_angam(self.jd_sunset[d],
+                                                                                      jyotisha.panchangam.temporal.zodiac.YOGA,
+                                                                                      ayanamsha_id=self.ayanamsha_id) == 3:
+                if jyotisha.panchangam.temporal.zodiac.get_angam(self.jd_sunset[d],
+                                                                 jyotisha.panchangam.temporal.zodiac.KARANAM,
+                                                                 ayanamsha_id=self.ayanamsha_id) in list(range(2, 52, 7)):
                     self.add_festival('AyuSmAn-bava-saumya', d, debug_festivals)
 
     def assign_festivals_from_rules(self, festival_rules, debug_festivals=False):
@@ -1082,7 +1101,8 @@ class Panchangam(common.JsonObject):
                 if angam_type == 'day' and month_type == 'solar_month' and self.solar_month[d] == month_num:
                     if self.solar_month_day[d] == angam_num:
                         if kaala == 'arunodaya':
-                            angams = self.get_angams_for_kaalas(d - 1, temporal.get_solar_rashi, kaala)
+                            angams = self.get_angams_for_kaalas(d - 1,
+                                                                jyotisha.panchangam.temporal.zodiac.get_solar_rashi, kaala)
                             if angams[1] == month_num:
                                 self.add_festival(festival_name, d, debug_festivals)
                             elif angams[2] == month_num:
@@ -1095,17 +1115,17 @@ class Panchangam(common.JsonObject):
                     if angam_type == 'tithi':
                         angam_sunrise = self.tithi_sunrise
                         angam_data = self.tithi_data
-                        get_angam_func = temporal.get_tithi
+                        get_angam_func = jyotisha.panchangam.temporal.zodiac.get_tithi
                         num_angams = 30
                     elif angam_type == 'nakshatram':
                         angam_sunrise = self.nakshatram_sunrise
                         angam_data = self.nakshatram_data
-                        get_angam_func = temporal.get_nakshatram
+                        get_angam_func = jyotisha.panchangam.temporal.zodiac.get_nakshatram
                         num_angams = 27
                     elif angam_type == 'yoga':
                         angam_sunrise = self.yoga_sunrise
                         angam_data = self.yoga_data
-                        get_angam_func = temporal.get_yoga
+                        get_angam_func = jyotisha.panchangam.temporal.zodiac.get_yoga
                         num_angams = 27
                     else:
                         raise ValueError('Error; unknown string in rule: "%s"' % (angam_type))
@@ -1455,7 +1475,8 @@ class Panchangam(common.JsonObject):
     def calc_nakshatra_tyajyam(self, debug_tyajyam=False):
         self.tyajyam_data = [[] for _x in range(self.duration + 1)]
         if self.nakshatram_data[0] is None:
-            self.nakshatram_data[0] = temporal.get_angam_data(self.jd_sunrise[0], self.jd_sunrise[1], temporal.NAKSHATRAM, ayanamsha_id=self.ayanamsha_id)
+            self.nakshatram_data[0] = jyotisha.panchangam.temporal.zodiac.get_angam_data(self.jd_sunrise[0], self.jd_sunrise[1],
+                                                                                         jyotisha.panchangam.temporal.zodiac.NAKSHATRAM, ayanamsha_id=self.ayanamsha_id)
         for d in range(1, self.duration + 1):
             [y, m, dt, t] = temporal.jd_to_utc_gregorian(self.jd_start_utc + d - 1)
             jd = self.jd_midnight[d]
@@ -1470,7 +1491,7 @@ class Panchangam(common.JsonObject):
                     self.tyajyam_data[d - 1] += [(tyajyam_start, tyajyam_end)]
                     if debug_tyajyam:
                         logging.debug('![%3d]%04d-%02d-%02d: %s (>>%s), %s–%s' %
-                                      (d - 1, y, m, dt - 1, temporal.NAMES['NAKSHATRAM_NAMES']['hk'][n],
+                                      (d - 1, y, m, dt - 1, jyotisha.names.NAMES['NAKSHATRAM_NAMES']['hk'][n],
                                        jyotisha.panchangam.temporal.hour.Hour(24 * (t_end - self.jd_midnight[d - 1])).toString(format='hh:mm*'),
                                        jyotisha.panchangam.temporal.hour.Hour(24 * (tyajyam_start - self.jd_midnight[d - 1])).toString(format='hh:mm*'),
                                        jyotisha.panchangam.temporal.hour.Hour(24 * (tyajyam_end - self.jd_midnight[d - 1])).toString(format='hh:mm*')))
@@ -1478,7 +1499,7 @@ class Panchangam(common.JsonObject):
                     self.tyajyam_data[d] = [(tyajyam_start, tyajyam_end)]
                     if debug_tyajyam:
                         logging.debug(' [%3d]%04d-%02d-%02d: %s (>>%s), %s–%s' %
-                                      (d, y, m, dt, temporal.NAMES['NAKSHATRAM_NAMES']['hk'][n],
+                                      (d, y, m, dt, jyotisha.names.NAMES['NAKSHATRAM_NAMES']['hk'][n],
                                        jyotisha.panchangam.temporal.hour.Hour(24 * (t_end - jd)).toString(format='hh:mm*'),
                                        jyotisha.panchangam.temporal.hour.Hour(24 * (tyajyam_start - jd)).toString(format='hh:mm*'),
                                        jyotisha.panchangam.temporal.hour.Hour(24 * (tyajyam_end - jd)).toString(format='hh:mm*')))
@@ -1491,7 +1512,7 @@ class Panchangam(common.JsonObject):
                 self.tyajyam_data[d] += [(tyajyam_start, tyajyam_end)]
                 if debug_tyajyam:
                     logging.debug(' [%3d]            %s (>>%s), %s–%s' %
-                                  (d, temporal.NAMES['NAKSHATRAM_NAMES']['hk'][n2],
+                                  (d, jyotisha.names.NAMES['NAKSHATRAM_NAMES']['hk'][n2],
                                    jyotisha.panchangam.temporal.hour.Hour(24 * (t_end - jd)).toString(format='hh:mm*'),
                                    jyotisha.panchangam.temporal.hour.Hour(24 * (tyajyam_start - jd)).toString(format='hh:mm*'),
                                    jyotisha.panchangam.temporal.hour.Hour(24 * (tyajyam_end - jd)).toString(format='hh:mm*')))
@@ -1499,7 +1520,8 @@ class Panchangam(common.JsonObject):
     def calc_nakshatra_amrita(self, debug_amrita=False):
         self.amrita_data = [[] for _x in range(self.duration + 1)]
         if self.nakshatram_data[0] is None:
-            self.nakshatram_data[0] = temporal.get_angam_data(self.jd_sunrise[0], self.jd_sunrise[1], temporal.NAKSHATRAM, ayanamsha_id=self.ayanamsha_id)
+            self.nakshatram_data[0] = jyotisha.panchangam.temporal.zodiac.get_angam_data(self.jd_sunrise[0], self.jd_sunrise[1],
+                                                                                         jyotisha.panchangam.temporal.zodiac.NAKSHATRAM, ayanamsha_id=self.ayanamsha_id)
         for d in range(1, self.duration + 1):
             [y, m, dt, t] = temporal.jd_to_utc_gregorian(self.jd_start_utc + d - 1)
             jd = self.jd_midnight[d]
@@ -1514,7 +1536,7 @@ class Panchangam(common.JsonObject):
                     self.amrita_data[d - 1] += [(amrita_start, amrita_end)]
                     if debug_amrita:
                         logging.debug('![%3d]%04d-%02d-%02d: %s (>>%s), %s–%s' %
-                                      (d - 1, y, m, dt - 1, temporal.NAMES['NAKSHATRAM_NAMES']['hk'][n],
+                                      (d - 1, y, m, dt - 1, jyotisha.names.NAMES['NAKSHATRAM_NAMES']['hk'][n],
                                        jyotisha.panchangam.temporal.hour.Hour(24 * (t_end - self.jd_midnight[d - 1])).toString(format='hh:mm*'),
                                        jyotisha.panchangam.temporal.hour.Hour(24 * (amrita_start - self.jd_midnight[d - 1])).toString(format='hh:mm*'),
                                        jyotisha.panchangam.temporal.hour.Hour(24 * (amrita_end - self.jd_midnight[d - 1])).toString(format='hh:mm*')))
@@ -1522,7 +1544,7 @@ class Panchangam(common.JsonObject):
                     self.amrita_data[d] = [(amrita_start, amrita_end)]
                     if debug_amrita:
                         logging.debug(' [%3d]%04d-%02d-%02d: %s (>>%s), %s–%s' %
-                                      (d, y, m, dt, temporal.NAMES['NAKSHATRAM_NAMES']['hk'][n],
+                                      (d, y, m, dt, jyotisha.names.NAMES['NAKSHATRAM_NAMES']['hk'][n],
                                        jyotisha.panchangam.temporal.hour.Hour(24 * (t_end - jd)).toString(format='hh:mm*'),
                                        jyotisha.panchangam.temporal.hour.Hour(24 * (amrita_start - jd)).toString(format='hh:mm*'),
                                        jyotisha.panchangam.temporal.hour.Hour(24 * (amrita_end - jd)).toString(format='hh:mm*')))
@@ -1535,7 +1557,7 @@ class Panchangam(common.JsonObject):
                 self.amrita_data[d] += [(amrita_start, amrita_end)]
                 if debug_amrita:
                     logging.debug(' [%3d]            %s (>>%s), %s–%s' %
-                                  (d, temporal.NAMES['NAKSHATRAM_NAMES']['hk'][n2],
+                                  (d, jyotisha.names.NAMES['NAKSHATRAM_NAMES']['hk'][n2],
                                    jyotisha.panchangam.temporal.hour.Hour(24 * (t_end - jd)).toString(format='hh:mm*'),
                                    jyotisha.panchangam.temporal.hour.Hour(24 * (amrita_start - jd)).toString(format='hh:mm*'),
                                    jyotisha.panchangam.temporal.hour.Hour(24 * (amrita_end - jd)).toString(format='hh:mm*')))
@@ -1553,7 +1575,7 @@ class Panchangam(common.JsonObject):
         for d in range(1, self.duration + 1):
             [y, m, dt, t] = temporal.jd_to_utc_gregorian(self.jd_start_utc + d - 1)
 
-            angams = self.get_angams_for_kaalas(d, temporal.get_tithi, 'aparaahna')
+            angams = self.get_angams_for_kaalas(d, jyotisha.panchangam.temporal.zodiac.get_tithi, 'aparaahna')
             angam_start = angams[0]
             next_angam = (angam_start % 30) + 1
             nnext_angam = (next_angam % 30) + 1
@@ -1883,8 +1905,8 @@ class Panchangam(common.JsonObject):
                 if self.jd_start_utc < jd_transit < jd_end:
                     fday = int(floor(jd_transit) - floor(self.jd_start_utc) + 1)
                     self.festivals[fday].append('guru-saGkrAntiH~(%s##\\To{}##%s)' %
-                                                (temporal.NAMES['RASHI_NAMES']['hk'][rashi1],
-                                                 temporal.NAMES['RASHI_NAMES']['hk'][rashi2]))
+                                                (jyotisha.names.NAMES['RASHI_NAMES']['hk'][rashi1],
+                                                 jyotisha.names.NAMES['RASHI_NAMES']['hk'][rashi2]))
                     if rashi1 < rashi2 and transits[i + 1][1] < transits[i + 1][2]:
                         # Considering only non-retrograde transits for pushkara computations
                         # logging.debug('Non-retrograde transit; we have a pushkaram!')
@@ -1894,13 +1916,13 @@ class Panchangam(common.JsonObject):
                             fday_pushkara = fday
                         else:
                             fday_pushkara = fday + 1
-                        self.add_festival('%s-Adi-puSkara-ArambhaH' % temporal.NAMES['PUSHKARA_NAMES']['hk'][rashi2],
+                        self.add_festival('%s-Adi-puSkara-ArambhaH' % jyotisha.names.NAMES['PUSHKARA_NAMES']['hk'][rashi2],
                                           fday_pushkara, debug=False)
-                        self.add_festival('%s-Adi-puSkara-samApanam' % temporal.NAMES['PUSHKARA_NAMES']['hk'][rashi2],
+                        self.add_festival('%s-Adi-puSkara-samApanam' % jyotisha.names.NAMES['PUSHKARA_NAMES']['hk'][rashi2],
                                           fday_pushkara + 11, debug=False)
-                        self.add_festival('%s-antya-puSkara-samApanam' % temporal.NAMES['PUSHKARA_NAMES']['hk'][rashi1],
+                        self.add_festival('%s-antya-puSkara-samApanam' % jyotisha.names.NAMES['PUSHKARA_NAMES']['hk'][rashi1],
                                           fday_pushkara - 1, debug=False)
-                        self.add_festival('%s-antya-puSkara-ArambhaH' % temporal.NAMES['PUSHKARA_NAMES']['hk'][rashi1],
+                        self.add_festival('%s-antya-puSkara-ArambhaH' % jyotisha.names.NAMES['PUSHKARA_NAMES']['hk'][rashi1],
                                           fday_pushkara - 12, debug=False)
 
     def write_debug_log(self):
@@ -1911,9 +1933,9 @@ class Panchangam(common.JsonObject):
             longitude_sun_sunset = Graha(Graha.SUN).get_longitude(self.jd_sunset[d]) - zodiac.Ayanamsha(self.ayanamsha_id).get_offset(self.jd_sunset[d])
             log_data = '%02d-%02d-%4d\t[%3d]\tsun_rashi=%8.3f\ttithi=%8.3f\tsolar_month\
         =%2d\tlunar_month=%4.1f\n' % (dt, m, y, d, (longitude_sun_sunset % 360) / 30.0,
-                                      temporal.get_angam_float(self.jd_sunrise[d],
-                                                               temporal.TITHI,
-                                                               ayanamsha_id=self.ayanamsha_id),
+                                      jyotisha.panchangam.temporal.zodiac.get_angam_float(self.jd_sunrise[d],
+                                                                                          jyotisha.panchangam.temporal.zodiac.TITHI,
+                                                                                          ayanamsha_id=self.ayanamsha_id),
                                       self.solar_month[d], self.lunar_month[d])
             log_file.write(log_data)
 

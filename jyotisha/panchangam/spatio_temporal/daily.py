@@ -7,14 +7,16 @@ from math import floor
 
 import swisseph as swe
 from scipy.optimize import brentq
+
+import jyotisha.panchangam.temporal.zodiac
 from jyotisha.panchangam.temporal.body import Graha
 
 import jyotisha.panchangam.temporal
 from jyotisha.panchangam import temporal
 from jyotisha.panchangam.spatio_temporal import City, CALC_RISE, CALC_SET, Timezone
-from jyotisha.panchangam.temporal import SOLAR_MONTH, get_angam, get_angam_float, zodiac
+from jyotisha.panchangam.temporal import zodiac
 from jyotisha.panchangam.temporal.hour import Hour
-from jyotisha.panchangam.temporal.zodiac import Ayanamsha
+from jyotisha.panchangam.temporal.zodiac import Ayanamsha, SOLAR_MONTH, get_angam_float, get_angam
 from sanskrit_data.schema import common
 
 logging.basicConfig(level=logging.DEBUG,
@@ -99,14 +101,19 @@ class DailyPanchanga(common.JsonObject):
         if force_recomputation or self.jd_moonset is None:
             self.jd_moonset = self.city.get_setting_time(julian_day_start=self.jd_sunrise, body=Graha.MOON)
 
-        self.tithi_data = temporal.get_angam_data(self.jd_sunrise, self.jd_next_sunrise, temporal.TITHI, ayanamsha_id=self.ayanamsha_id)
+        self.tithi_data = jyotisha.panchangam.temporal.zodiac.get_angam_data(self.jd_sunrise, self.jd_next_sunrise,
+                                                                             jyotisha.panchangam.temporal.zodiac.TITHI, ayanamsha_id=self.ayanamsha_id)
         self.tithi_at_sunrise = self.tithi_data[0][0]
-        self.nakshatram_data = temporal.get_angam_data(self.jd_sunrise, self.jd_next_sunrise, temporal.NAKSHATRAM, ayanamsha_id=self.ayanamsha_id)
+        self.nakshatram_data = jyotisha.panchangam.temporal.zodiac.get_angam_data(self.jd_sunrise, self.jd_next_sunrise,
+                                                                                  jyotisha.panchangam.temporal.zodiac.NAKSHATRAM, ayanamsha_id=self.ayanamsha_id)
         self.nakshatram_at_sunrise = self.nakshatram_data[0][0]
-        self.yoga_data = temporal.get_angam_data(self.jd_sunrise, self.jd_next_sunrise, temporal.YOGA, ayanamsha_id=self.ayanamsha_id)
+        self.yoga_data = jyotisha.panchangam.temporal.zodiac.get_angam_data(self.jd_sunrise, self.jd_next_sunrise,
+                                                                            jyotisha.panchangam.temporal.zodiac.YOGA, ayanamsha_id=self.ayanamsha_id)
         self.yoga_at_sunrise = self.yoga_data[0][0]
-        self.karanam_data = temporal.get_angam_data(self.jd_sunrise, self.jd_next_sunrise, temporal.KARANAM, ayanamsha_id=self.ayanamsha_id)
-        self.rashi_data = temporal.get_angam_data(self.jd_sunrise, self.jd_next_sunrise, temporal.RASHI, ayanamsha_id=self.ayanamsha_id)
+        self.karanam_data = jyotisha.panchangam.temporal.zodiac.get_angam_data(self.jd_sunrise, self.jd_next_sunrise,
+                                                                               jyotisha.panchangam.temporal.zodiac.KARANAM, ayanamsha_id=self.ayanamsha_id)
+        self.rashi_data = jyotisha.panchangam.temporal.zodiac.get_angam_data(self.jd_sunrise, self.jd_next_sunrise,
+                                                                             jyotisha.panchangam.temporal.zodiac.RASHI, ayanamsha_id=self.ayanamsha_id)
 
     def compute_solar_month(self):
         if not hasattr(self, "jd_sunrise") or self.jd_sunrise is None:

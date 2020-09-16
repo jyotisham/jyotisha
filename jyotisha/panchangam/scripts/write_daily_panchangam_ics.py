@@ -111,8 +111,8 @@ def writeDailyICS(panchangam, compute_lagnams=True):
               ('prAcI dik', 8, 'dadhi')]
 
     samvatsara_id = (panchangam.year - 1568) % 60 + 1  # distance from prabhava
-    samvatsara_names = (jyotisha.panchangam.temporal.NAMES['SAMVATSARA_NAMES'][panchangam.script][samvatsara_id],
-                        jyotisha.panchangam.temporal.NAMES['SAMVATSARA_NAMES'][panchangam.script][(samvatsara_id % 60) + 1])
+    samvatsara_names = (jyotisha.names.NAMES['SAMVATSARA_NAMES'][panchangam.script][samvatsara_id],
+                        jyotisha.names.NAMES['SAMVATSARA_NAMES'][panchangam.script][(samvatsara_id % 60) + 1])
 
     yname_solar = samvatsara_names[0]  # Assign year name until Mesha Sankranti
     yname_lunar = samvatsara_names[0]  # Assign year name until Mesha Sankranti
@@ -141,7 +141,7 @@ def writeDailyICS(panchangam, compute_lagnams=True):
         paksha_data_str = ''
         tithi_data_str = ''
         for tithi_ID, tithi_end_jd in panchangam.tithi_data[d]:
-            tithi = jyotisha.panchangam.temporal.NAMES['TITHI_NAMES'][panchangam.script][tithi_ID].split('-')[-1]
+            tithi = jyotisha.names.NAMES['TITHI_NAMES'][panchangam.script][tithi_ID].split('-')[-1]
             paksha = jyotisha.custom_transliteration.tr('zuklapakSaH' if tithi_ID <= 15 else 'kRSNapakSaH', panchangam.script)
             if tithi_end_jd is None:
                 tithi_data_str = '%s; %s►%s' % \
@@ -156,7 +156,7 @@ def writeDailyICS(panchangam, compute_lagnams=True):
 
         nakshatram_data_str = ''
         for nakshatram_ID, nakshatram_end_jd in panchangam.nakshatram_data[d]:
-            nakshatram = jyotisha.panchangam.temporal.NAMES['NAKSHATRAM_NAMES'][panchangam.script][nakshatram_ID]
+            nakshatram = jyotisha.names.NAMES['NAKSHATRAM_NAMES'][panchangam.script][nakshatram_ID]
             if nakshatram_end_jd is None:
                 nakshatram_data_str = '%s; %s►%s' % \
                                       (nakshatram_data_str, nakshatram,
@@ -170,18 +170,20 @@ def writeDailyICS(panchangam, compute_lagnams=True):
 
         chandrashtama_rashi_data_str = ''
         for rashi_ID, rashi_end_jd in panchangam.rashi_data[d]:
-            rashi = jyotisha.panchangam.temporal.NAMES['RASHI_SUFFIXED_NAMES'][panchangam.script][rashi_ID]
+            rashi = jyotisha.names.NAMES['RASHI_SUFFIXED_NAMES'][panchangam.script][rashi_ID]
             if rashi_end_jd is None:
                 rashi_data_str = '%s' % (rashi)
-                chandrashtama_rashi_data_str = '*' + getName('candrASTama-rAziH', panchangam.script) + '*—%s' % (jyotisha.panchangam.temporal.NAMES['RASHI_NAMES'][panchangam.script][((rashi_ID - 8) % 12) + 1])
+                chandrashtama_rashi_data_str = '*' + getName('candrASTama-rAziH', panchangam.script) + '*—%s' % (
+                jyotisha.names.NAMES['RASHI_NAMES'][panchangam.script][((rashi_ID - 8) % 12) + 1])
             else:
                 rashi_data_str = '%s►%s' % (rashi, jyotisha.panchangam.temporal.hour.Hour(24 * (rashi_end_jd - jd)).toString(format=panchangam.fmt))
-                chandrashtama_rashi_data_str = '*' + getName('candrASTama-rAziH', panchangam.script) + '*—%s►%s; %s ➥' % (jyotisha.panchangam.temporal.NAMES['RASHI_NAMES'][panchangam.script][((rashi_ID - 8) % 12) + 1], jyotisha.panchangam.temporal.hour.Hour(24 * (rashi_end_jd - jd)).toString(format=panchangam.fmt), jyotisha.panchangam.temporal.NAMES['RASHI_NAMES'][panchangam.script][((rashi_ID - 7) % 12) + 1])
+                chandrashtama_rashi_data_str = '*' + getName('candrASTama-rAziH', panchangam.script) + '*—%s►%s; %s ➥' % (
+                jyotisha.names.NAMES['RASHI_NAMES'][panchangam.script][((rashi_ID - 8) % 12) + 1], jyotisha.panchangam.temporal.hour.Hour(24 * (rashi_end_jd - jd)).toString(format=panchangam.fmt), jyotisha.names.NAMES['RASHI_NAMES'][panchangam.script][((rashi_ID - 7) % 12) + 1])
 
         if compute_lagnams:
             lagna_data_str = ''
             for lagna_ID, lagna_end_jd in panchangam.lagna_data[d]:
-                lagna = jyotisha.panchangam.temporal.NAMES['RASHI_NAMES'][panchangam.script][lagna_ID]
+                lagna = jyotisha.names.NAMES['RASHI_NAMES'][panchangam.script][lagna_ID]
                 lagna_data_str = '%s; %s►%s' % \
                                  (lagna_data_str, lagna,
                                   jyotisha.panchangam.temporal.hour.Hour(24 * (lagna_end_jd - jd)).toString(format=panchangam.fmt))
@@ -191,20 +193,20 @@ def writeDailyICS(panchangam, compute_lagnams=True):
         for yoga_ID, yoga_end_jd in panchangam.yoga_data[d]:
             # if yoga_data_str != '':
             #     yoga_data_str += ' '
-            yoga = jyotisha.panchangam.temporal.NAMES['YOGA_NAMES'][panchangam.script][yoga_ID]
+            yoga = jyotisha.names.NAMES['YOGA_NAMES'][panchangam.script][yoga_ID]
             if yoga_end_jd is None:
                 yoga_data_str = '%s; %s►%s' % (yoga_data_str, yoga, jyotisha.custom_transliteration.tr('ahOrAtram', panchangam.script))
             else:
                 yoga_data_str = '%s; %s►%s' % (yoga_data_str, yoga, jyotisha.panchangam.temporal.hour.Hour(24 * (yoga_end_jd - jd)).toString(format=panchangam.fmt))
         if yoga_end_jd is not None:
-            yoga_data_str += '; %s ➥' % (jyotisha.panchangam.temporal.NAMES['YOGA_NAMES'][panchangam.script][(yoga_ID % 27) + 1])
+            yoga_data_str += '; %s ➥' % (jyotisha.names.NAMES['YOGA_NAMES'][panchangam.script][(yoga_ID % 27) + 1])
         yoga_data_str = '*' + getName('yOgaH', panchangam.script) + '*—' + yoga_data_str[2:]
 
         karanam_data_str = ''
         for numKaranam, (karanam_ID, karanam_end_jd) in enumerate(panchangam.karanam_data[d]):
             # if numKaranam == 1:
             #     karanam_data_str += ' '
-            karanam = jyotisha.panchangam.temporal.NAMES['KARANAM_NAMES'][panchangam.script][karanam_ID]
+            karanam = jyotisha.names.NAMES['KARANAM_NAMES'][panchangam.script][karanam_ID]
             if karanam_end_jd is None:
                 karanam_data_str = '%s; %s►%s' % \
                                    (karanam_data_str, karanam, jyotisha.custom_transliteration.tr('ahOrAtram', panchangam.script))
@@ -213,7 +215,8 @@ def writeDailyICS(panchangam, compute_lagnams=True):
                                    (karanam_data_str, karanam,
                                     jyotisha.panchangam.temporal.hour.Hour(24 * (karanam_end_jd - jd)).toString(format=panchangam.fmt))
         if karanam_end_jd is not None:
-            karanam_data_str += '; %s ➥' % (jyotisha.panchangam.temporal.NAMES['KARANAM_NAMES'][panchangam.script][(karanam_ID % 60) + 1])
+            karanam_data_str += '; %s ➥' % (
+            jyotisha.names.NAMES['KARANAM_NAMES'][panchangam.script][(karanam_ID % 60) + 1])
         karanam_data_str = '*' + getName('karaNam', panchangam.script) + '*—' + karanam_data_str[2:]
 
         sunrise = jyotisha.panchangam.temporal.hour.Hour(24 * (panchangam.jd_sunrise[d] - jd)).toString(format=panchangam.fmt)
@@ -254,24 +257,25 @@ def writeDailyICS(panchangam, compute_lagnams=True):
             yname_lunar = samvatsara_names[1]
 
         # Assign samvatsara, ayana, rtu #
-        ayanam = jyotisha.panchangam.temporal.NAMES['AYANA_NAMES'][panchangam.script][panchangam.solar_month[d]]
-        rtu_solar = jyotisha.panchangam.temporal.NAMES['RTU_NAMES'][panchangam.script][panchangam.solar_month[d]]
-        rtu_lunar = jyotisha.panchangam.temporal.NAMES['RTU_NAMES'][panchangam.script][int(ceil(panchangam.lunar_month[d]))]
+        ayanam = jyotisha.names.NAMES['AYANA_NAMES'][panchangam.script][panchangam.solar_month[d]]
+        rtu_solar = jyotisha.names.NAMES['RTU_NAMES'][panchangam.script][panchangam.solar_month[d]]
+        rtu_lunar = jyotisha.names.NAMES['RTU_NAMES'][panchangam.script][int(ceil(panchangam.lunar_month[d]))]
 
         if panchangam.solar_month_end_time[d] is None:
             month_end_str = ''
         else:
             _m = panchangam.solar_month[d - 1]
             if panchangam.solar_month_end_time[d] >= panchangam.jd_sunrise[d + 1]:
-                month_end_str = '%s►%s' % (jyotisha.panchangam.temporal.NAMES['RASHI_NAMES'][panchangam.script][_m], jyotisha.panchangam.temporal.hour.Hour(24 * (panchangam.solar_month_end_time[d] - panchangam.jd_midnight[d + 1])).toString(format=panchangam.fmt))
+                month_end_str = '%s►%s' % (jyotisha.names.NAMES['RASHI_NAMES'][panchangam.script][_m], jyotisha.panchangam.temporal.hour.Hour(24 * (panchangam.solar_month_end_time[d] - panchangam.jd_midnight[d + 1])).toString(format=panchangam.fmt))
             else:
-                month_end_str = '%s►%s' % (jyotisha.panchangam.temporal.NAMES['RASHI_NAMES'][panchangam.script][_m], jyotisha.panchangam.temporal.hour.Hour(24 * (panchangam.solar_month_end_time[d] - panchangam.jd_midnight[d])).toString(format=panchangam.fmt))
+                month_end_str = '%s►%s' % (jyotisha.names.NAMES['RASHI_NAMES'][panchangam.script][_m], jyotisha.panchangam.temporal.hour.Hour(24 * (panchangam.solar_month_end_time[d] - panchangam.jd_midnight[d])).toString(format=panchangam.fmt))
         if month_end_str == '':
-          month_data = '%s (%s %d)' % (jyotisha.panchangam.temporal.NAMES['RASHI_NAMES'][panchangam.script][panchangam.solar_month[d]], getName('dinaM', panchangam.script), panchangam.solar_month_day[d])
+          month_data = '%s (%s %d)' % (jyotisha.names.NAMES['RASHI_NAMES'][panchangam.script][panchangam.solar_month[d]], getName('dinaM', panchangam.script), panchangam.solar_month_day[d])
         else:
-          month_data = '%s (%s %d); %s' % (jyotisha.panchangam.temporal.NAMES['RASHI_NAMES'][panchangam.script][panchangam.solar_month[d]], getName('dinaM', panchangam.script), panchangam.solar_month_day[d], month_end_str)
+          month_data = '%s (%s %d); %s' % (
+          jyotisha.names.NAMES['RASHI_NAMES'][panchangam.script][panchangam.solar_month[d]], getName('dinaM', panchangam.script), panchangam.solar_month_day[d], month_end_str)
 
-        vara = jyotisha.panchangam.temporal.NAMES['VARA_NAMES'][panchangam.script][panchangam.weekday[d]]
+        vara = jyotisha.names.NAMES['VARA_NAMES'][panchangam.script][panchangam.weekday[d]]
 
         if yname_lunar == yname_solar:
           print('*' + getName('saMvatsaraH', panchangam.script) + '*—%s' % yname_lunar, file=output_stream)
@@ -295,7 +299,8 @@ def writeDailyICS(panchangam, compute_lagnams=True):
           print('*' + getName('ayanam', panchangam.script) + '*—%s' % ayanam, file=output_stream)
         if rtu_lunar != rtu_solar:
           print('*' + getName('RtuH', panchangam.script) + '*—%s' % rtu_lunar, file=output_stream)
-        print('*' + getName('mAsaH', panchangam.script) + '*—%s' % jyotisha.names.get_chandra_masa(panchangam.lunar_month[d], jyotisha.panchangam.temporal.NAMES, panchangam.script), file=output_stream)
+        print('*' + getName('mAsaH', panchangam.script) + '*—%s' % jyotisha.names.get_chandra_masa(panchangam.lunar_month[d],
+                                                                                                   jyotisha.names.NAMES, panchangam.script), file=output_stream)
         print('°' * 25, file=output_stream)
         # braahma
         # pratahsandhya, pratahsandhya_end
