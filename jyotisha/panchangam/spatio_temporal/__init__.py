@@ -8,7 +8,8 @@ import sys
 from datetime import datetime
 from math import modf
 
-from jyotisha.panchangam.temporal import Time, Ayanamsha
+from jyotisha.panchangam.temporal import Time
+from jyotisha.panchangam.temporal.zodiac import Ayanamsha
 from sanskrit_data.schema import common
 from sanskrit_data.schema.common import JsonObject
 # from scipy.optimize import brentq

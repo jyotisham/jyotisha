@@ -594,7 +594,7 @@ class Panchangam(common.JsonObject):
                     else:
                         harivasara_end = brentq(
                             lambda x: NakshatraDivision(x, ayanamsha_id=self.ayanamsha_id).get_angam_float(
-                                angam_type=zodiac.TITHI_PADA, offset=-105, debug=False),
+                                angam_type=zodiac.TITHI_PADA, offset_angas=-105, debug=False),
                             self.jd_sunrise[smaarta_ekadashi_fday] - 2,
                             self.jd_sunrise[smaarta_ekadashi_fday] + 2)
                     [_y, _m, _d, _t] = temporal.jd_to_utc_gregorian(harivasara_end + (tz_off / 24.0))

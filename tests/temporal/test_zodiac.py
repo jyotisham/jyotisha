@@ -18,7 +18,9 @@ def disabled_test_swe_ayanamsha_api():
 
 
 def test_get_angam():
-    assert NakshatraDivision(2444961.7125, ayanamsha_id=Ayanamsha.CHITRA_AT_180).get_angam(zodiac.NAKSHATRAM) == 16
-    assert NakshatraDivision(2444961.7125, ayanamsha_id=Ayanamsha.CHITRA_AT_180).get_angam(zodiac.TITHI) == 28
-    assert NakshatraDivision(2444961.7125, ayanamsha_id=Ayanamsha.CHITRA_AT_180).get_angam(zodiac.YOGA) == 8
-    assert NakshatraDivision(2444961.7125, ayanamsha_id=Ayanamsha.CHITRA_AT_180).get_angam(zodiac.KARANAM) == 55
+    nd = NakshatraDivision(2444961.7125, ayanamsha_id=Ayanamsha.CHITRA_AT_180)
+    assert nd.get_angam(zodiac.NAKSHATRAM) == 16
+    assert nd.get_angam(zodiac.TITHI) == 28
+    assert nd.get_angam(zodiac.YOGA) == 8
+    assert nd.get_angam(zodiac.KARANAM) == 55
+    assert nd.get_solar_rashi() == 9

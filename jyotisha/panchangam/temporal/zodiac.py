@@ -82,24 +82,19 @@ class NakshatraDivision(common.JsonObject):
               sector_id_2=((index + 1) % 27 + 1)
             ))
     
-    def get_angam_float(self, angam_type, offset=0, debug=False):
+    def get_angam_float(self, angam_type, offset_angas=0, debug=False):
         """Returns the angam. Computed based on lunar and solar longitudes, division of a circle into a certain number of degrees (arc_len).
     
           Args:
             :param jd: float: The Julian Day at which the angam is to be computed
             :param angam_type: One of the pre-defined tuple-valued constants in the panchangam
             class, such as TITHI, NAKSHATRAM, YOGA, KARANAM or SOLAR_MONTH
-            :param offset: 
+            :param offset_angas: 
             :param ayanamsha_id: 
             :param debug: Unused
     
           Returns:
             float angam
-    
-          Examples:
-            >>> get_angam_float(NAKSHATRAM)
-            15.967801358055189
-            
         """
     
         w_moon = angam_type['w_moon']
@@ -120,18 +115,17 @@ class NakshatraDivision(common.JsonObject):
     
         lcalc = lcalc % 360
     
-        if offset + int(360.0 / arc_len) == 0 and lcalc < arc_len:
+        if offset_angas + int(360.0 / arc_len) == 0 and lcalc < arc_len:
             # Angam 1 -- needs different treatment, because of 'discontinuity'
             return (lcalc / arc_len)
         else:
-            return (lcalc / arc_len) + offset
+            return (lcalc / arc_len) + offset_angas
     
     
     def get_angam(self, angam_type):
         """Returns the angam prevailing at a particular time. Computed based on lunar and solar longitudes, division of a circle into a certain number of degrees (arc_len).
     
           Args:
-            float jd: The Julian Day at which the angam is to be computed
             float arc_len: The arc_len for the corresponding angam
     
           Returns:
@@ -157,17 +151,11 @@ class NakshatraDivision(common.JsonObject):
         and sun at any given point of time. Therefore, even the ayanamsha
         does not matter, as it gets cancelled out.
     
-        Args:
-          float jd, the Julian day
-    
         Returns:
           int tithi, where 1 stands for ShuklapakshaPrathama, ..., 15 stands
           for Paurnamasi, ..., 23 stands for KrishnapakshaAshtami, 30 stands
           for Amavasya
     
-        Examples:
-          >>> get_tithi(2444961.7125)
-          28
         """
     
         return self.get_angam(TITHI)
@@ -179,16 +167,10 @@ class NakshatraDivision(common.JsonObject):
         addition, to obtain the absolute value of the longitude, the
         ayanamsa is required to be subtracted.
     
-        Args:
-          float jd, the Julian day
-    
         Returns:
           int nakShatram, where 1 stands for Ashwini, ..., 14 stands
           for Chitra, ..., 27 stands for Revati
     
-        Examples:
-          >>> get_nakshatram(2444961.7125)
-          16
         """
     
         return self.get_angam(NAKSHATRAM)
@@ -201,15 +183,8 @@ class NakshatraDivision(common.JsonObject):
         the Sun; in addition, to obtain the absolute value of the longitude, the
         ayanamsa is required to be subtracted (for each).
     
-        Args:
-          float jd, the Julian day
-    
         Returns:
           int yoga, where 1 stands for Vishkambha and 27 stands for Vaidhrti
-    
-        Examples:
-          >>> get_yoga(2444961.7125)
-          8
         """
     
         return self.get_angam(YOGA)
@@ -221,9 +196,6 @@ class NakshatraDivision(common.JsonObject):
         Solar month is computed based on the longitude of the sun; in
         addition, to obtain the absolute value of the longitude, the
         ayanamsa is required to be subtracted.
-    
-        Args:
-          float jd, the Julian day
     
         Returns:
           int rashi, where 1 stands for mESa, ..., 12 stands for mIna
@@ -340,7 +312,7 @@ def get_angam_data(jd_sunrise, jd_sunrise_tmrw, angam_type, ayanamsha_id):
             TDELTA = 0.05
             try:
                 def f(x):
-                    return NakshatraDivision(x, ayanamsha_id=ayanamsha_id).get_angam_float(angam_type=angam_type, offset=-target, debug=False)
+                    return NakshatraDivision(x, ayanamsha_id=ayanamsha_id).get_angam_float(angam_type=angam_type, offset_angas=-target, debug=False)
                 t_act = brentq(f, x0 - TDELTA, x0 + TDELTA)
             except ValueError:
                 logging.warning('Unable to bracket! Using approximate t_end itself.')
@@ -348,6 +320,7 @@ def get_angam_data(jd_sunrise, jd_sunrise_tmrw, angam_type, ayanamsha_id):
                 t_act = approx_end
             angams_list.extend([((angam_now + i - 1) % num_angas + 1, t_act)])
     return angams_list
+
 
 def get_angam_span(jd1, jd2, angam_type, target, ayanamsha_id, debug=False):
     """Computes angam spans for angams such as tithi, nakshatram, yoga
@@ -382,7 +355,7 @@ def get_angam_span(jd1, jd2, angam_type, target, ayanamsha_id, debug=False):
         if angam_now == target:
             try:
                 def f(x):
-                    return NakshatraDivision(x, ayanamsha_id=ayanamsha_id).get_angam_float(angam_type=angam_type, offset=-target + 1, debug=False)
+                    return NakshatraDivision(x, ayanamsha_id=ayanamsha_id).get_angam_float(angam_type=angam_type, offset_angas=-target + 1, debug=False)
                 angam_start = brentq(f, jd_bracket_L, jd_now)
             except ValueError:
                 logging.error('Unable to bracket %s->%f between jd = (%f, %f), starting with (%f, %f)' % (str(angam_type), -target + 1, jd_bracket_L, jd_now, jd1, jd2))
@@ -418,7 +391,7 @@ def get_angam_span(jd1, jd2, angam_type, target, ayanamsha_id, debug=False):
 
     try:
         def f(x):
-            return NakshatraDivision(x, ayanamsha_id=ayanamsha_id).get_angam_float(angam_type=angam_type, offset=-target, debug=False)
+            return NakshatraDivision(x, ayanamsha_id=ayanamsha_id).get_angam_float(angam_type=angam_type, offset_angas=-target, debug=False)
         angam_end = brentq(f, angam_start, jd_bracket_R)
     except ValueError:
         logging.error('Unable to compute angam_end (%s->%d); possibly could not bracket correctly!\n' % (str(angam_type), target))
