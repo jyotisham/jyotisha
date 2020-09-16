@@ -20,10 +20,10 @@ class Ayanamsha(object):
     def get_offset(self, jd):
         if self.ayanamsha_id == Ayanamsha.CHITRA_AT_180:
             # TODO: The below fails due to https://github.com/astrorigin/pyswisseph/issues/35
-            # (_, lat, _, _, _, _) = swe.fixstar_ut("Spica", jd)
-            # return (lat-180)
-            swe.set_sid_mode(swe.SIDM_LAHIRI)
-            return swe.get_ayanamsa_ut(jd)
+            from jyotisha.panchangam.temporal import body
+            return (body.get_star_longitude(star="Spica", jd=jd)-180)
+            # swe.set_sid_mode(swe.SIDM_LAHIRI)
+            # return swe.get_ayanamsa_ut(jd)
         raise Exception("Bad ayamasha_id")
 
 
