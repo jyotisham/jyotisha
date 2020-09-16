@@ -316,86 +316,96 @@ def get_angam_data(jd_sunrise, jd_sunrise_tmrw, angam_type, ayanamsha_id):
     return angams_list
 
 
-def get_angam_span(jd1, jd2, angam_type, target_anga_id, ayanamsha_id, debug=False):
-    """Computes angam spans for angams such as tithi, nakshatram, yoga
-        and karanam.
+class AngaSpan(Interval):
+    @classmethod
+    def _find_anga_start_between(cls, jd1, jd2, angam_type, target_anga_id, ayanamsha_id):
+        jd_start = None
+        num_angas = int(360.0 / angam_type['arc_len'])
+        min_step = 0.5   # Min Step for moving
+        jd_bracket_L = jd1
+        jd_now = jd1
+        while jd_now < jd2 and jd_start is None:
+            angam_now = NakshatraDivision(jd_now, ayanamsha_id=ayanamsha_id).get_angam(angam_type)
+    
+            if angam_now < target_anga_id or (target_anga_id == 1 and angam_now == num_angas):
+                # So, jd_now will be lower than jd_start
+                jd_bracket_L = jd_now
+            if angam_now == target_anga_id:
+                # In this branch, angam_now will have overshot the jd_start of the required interval.
+                try:
+                    def f(x):
+                        return NakshatraDivision(x, ayanamsha_id=ayanamsha_id).get_angam_float(angam_type=angam_type, offset_angas=-target_anga_id + 1, debug=False)
+                    jd_start = brentq(f, jd_bracket_L, jd_now)
+                    return jd_start
+                except ValueError:
+                    logging.error('Unable to bracket %s->%f between jd = (%f, %f), starting with (%f, %f)' % (str(angam_type), -target_anga_id + 1, jd_bracket_L, jd_now, jd1, jd2))
+                    jd_start = None
+            jd_now += min_step
+        return jd_start
 
-        Args:
-          :param jd1: return the first span that starts after this date
-          :param jd2: return the first span that ends before this date
-          :param angam_type: TITHI, NAKSHATRAM, YOGA, KARANAM, SOLAR_MONTH, SOLAR_NAKSH
-          :param ayanamsha_id
-          :param debug
 
-        Returns:
-          tuple: A tuple of start and end times that lies within jd1 and jd2
-    """
+    @classmethod
+    def _find_anga_end(cls, jd_start, jd2, angam_type, target_anga_id, ayanamsha_id):
+        jd_end = None
+        num_angas = int(360.0 / angam_type['arc_len'])
+    
+        jd_bracket_R = jd2
+    
+        min_step = 0.5   # Min Step for moving
+        jd_now = jd_start
+    
+        while jd_now < jd2 and jd_end is None:
+            angam_now = NakshatraDivision(jd_now, ayanamsha_id=ayanamsha_id).get_angam(angam_type)
+    
+            if target_anga_id == num_angas:
+                # Wait till we land at the next anga!
+                if angam_now == 1:
+                    jd_bracket_R = jd_now
+                    break
+            else:
+                if angam_now > target_anga_id:
+                    jd_bracket_R = jd_now
+                    break
+            jd_now += min_step
+    
+        try:
+            def f(x):
+                return NakshatraDivision(x, ayanamsha_id=ayanamsha_id).get_angam_float(angam_type=angam_type, offset_angas=-target_anga_id, debug=False)
+            jd_end = brentq(f, jd_start, jd_bracket_R)
+        except ValueError:
+            logging.error('Unable to compute anga_interval.jd_end (%s->%d); possibly could not bracket correctly!\n' % (str(angam_type), target_anga_id))
+        return jd_end
+    
+    @classmethod
+    def get_angam_span(cls, jd1, jd2, angam_type, target_anga_id, ayanamsha_id, debug=False):
+        """Computes angam spans for angams such as tithi, nakshatram, yoga
+            and karanam.
+    
+            Args:
+              :param jd1: return the first span that starts after this date
+              :param jd2: return the first span that ends before this date
+              :param angam_type: TITHI, NAKSHATRAM, YOGA, KARANAM, SOLAR_MONTH, SOLAR_NAKSH
+              :param ayanamsha_id
+              :param debug
+    
+            Returns:
+              tuple: A tuple of start and end times that lies within jd1 and jd2
+        """
+    
+        anga_interval = AngaSpan(None, None)
+    
+        anga_interval.jd_start = cls._find_anga_start_between(jd1=jd1, jd2=jd2, target_anga_id=target_anga_id, angam_type=angam_type, ayanamsha_id=ayanamsha_id)
+    
+        if anga_interval.jd_start is None:
+            return AngaSpan(None, None)  # If it doesn't start, we don't care if it ends!
 
-    angam_start = angam_end = None
+        anga_interval.jd_end = cls._find_anga_end(jd1=jd1, jd2=jd2, target_anga_id=target_anga_id, angam_type=angam_type, ayanamsha_id=ayanamsha_id)
 
-    num_angas = int(360.0 / angam_type['arc_len'])
 
-    jd_bracket_L = jd1
-    jd_bracket_R = jd2
-
-    min_step = 0.5   # Min Step for moving
-
-    jd_now = jd1
-    while jd_now < jd2 and angam_start is None:
-        angam_now = NakshatraDivision(jd_now, ayanamsha_id=ayanamsha_id).get_angam(angam_type)
-
-        if angam_now < target_anga_id or (target_anga_id == 1 and angam_now == num_angas):
-            if debug:
-                logging.debug(('jd_bracket_L ', jd_now))
-            jd_bracket_L = jd_now
-        if angam_now == target_anga_id:
-            try:
-                def f(x):
-                    return NakshatraDivision(x, ayanamsha_id=ayanamsha_id).get_angam_float(angam_type=angam_type, offset_angas=-target_anga_id + 1, debug=False)
-                angam_start = brentq(f, jd_bracket_L, jd_now)
-            except ValueError:
-                logging.error('Unable to bracket %s->%f between jd = (%f, %f), starting with (%f, %f)' % (str(angam_type), -target_anga_id + 1, jd_bracket_L, jd_now, jd1, jd2))
-                angam_start = None
-            if debug:
-                logging.debug(('angam_start', angam_start))
-        # if angam_now > target and angam_start is not None:
-        #     angam_end = brentq(get_angam_float, angam_start, jd_now,
-        #                        args=(angam_type, -target, False))
-        jd_now += min_step
-
-    if angam_start is None:
-        return (None, None)  # If it doesn't start, we don't care if it ends!
-    jd_now = angam_start
-
-    while jd_now < jd2 and angam_end is None:
-        angam_now = NakshatraDivision(jd_now, ayanamsha_id=ayanamsha_id).get_angam(angam_type)
-
-        if target_anga_id == num_angas:
-            # Wait till we land at the next anga!
-            if angam_now == 1:
-                jd_bracket_R = jd_now
-                if debug:
-                    logging.debug(('jd_bracket_R ', jd_now))
-                break
-        else:
-            if angam_now > target_anga_id:
-                jd_bracket_R = jd_now
-                if debug:
-                    logging.debug(('jd_bracket_R ', jd_now))
-                break
-        jd_now += min_step
-
-    try:
-        def f(x):
-            return NakshatraDivision(x, ayanamsha_id=ayanamsha_id).get_angam_float(angam_type=angam_type, offset_angas=-target_anga_id, debug=False)
-        angam_end = brentq(f, angam_start, jd_bracket_R)
-    except ValueError:
-        logging.error('Unable to compute angam_end (%s->%d); possibly could not bracket correctly!\n' % (str(angam_type), target_anga_id))
-
-    if debug:
-        logging.debug(('angam_end', angam_end))
-
-    return Interval(angam_start, angam_end)
+        if debug:
+            logging.debug(('anga_interval.jd_end', anga_interval.jd_end))
+    
+        return anga_interval
 
 
 if __name__ == '__main__':
