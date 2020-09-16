@@ -188,19 +188,6 @@ def get_angam(jd, angam_type, ayanamsha_id=Ayanamsha.CHITRA_AT_180):
 
       Returns:
         int angam
-
-      Examples:
-      >>> get_angam(2444961.7125,NAKSHATRAM)
-      16
-
-      >>> get_angam(2444961.7125,TITHI)
-      28
-
-      >>> get_angam(2444961.7125,YOGA)
-      8
-
-      >>> get_angam(2444961.7125,KARANAM)
-      55
     """
     
 
