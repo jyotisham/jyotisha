@@ -96,7 +96,7 @@ class RaashiFinder(Resource):
   def get(self, timezone, year, month, day, hour, minute, second):
     julday = Timezone(timezone).local_time_to_julian_day(year, month, day, hour, minute, second)
     from jyotisha.panchangam import temporal
-    raashi = NakshatraDivision(julday).get_solar_raashi()
+    raashi = NakshatraDivision(julday,  ayanamsha_id=Ayanamsha.CHITRA_AT_180).get_solar_raashi()
     logging.info(raashi)
     return str(raashi)
     # return "haha"

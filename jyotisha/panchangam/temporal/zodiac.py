@@ -39,7 +39,7 @@ class Ayanamsha(common.JsonObject):
 class NakshatraDivision(common.JsonObject):
     """Nakshatra division at a certain time, according to a certain ayanaamsha."""
     
-    def __init__(self, julday, ayanamsha_id=Ayanamsha.CHITRA_AT_180):
+    def __init__(self, julday, ayanamsha_id):
         self.ayanamsha_id = ayanamsha_id
         
         self.set_time(julday=julday)
