@@ -16,6 +16,8 @@ logging.basicConfig(
 
 class Ayanamsha(object):
     CHITRA_AT_180 = "CHITRA_AT_180"
+    ASHVINI_STARTING_0 = "ASHVINI_STARTING_0"
+    RASHTRIYA_PANCHANGA_NAKSHATRA_TRACKING = "RASHTRIYA_PANCHANGA_NAKSHATRA_TRACKING"
     
     def __init__(self, ayanamsha_id):
         self.ayanamsha_id = ayanamsha_id
@@ -25,8 +27,11 @@ class Ayanamsha(object):
             # TODO: The below fails due to https://github.com/astrorigin/pyswisseph/issues/35
             from jyotisha.panchangam.temporal import body
             return (body.get_star_longitude(star="Spica", jd=jd)-180)
-            # swe.set_sid_mode(swe.SIDM_LAHIRI)
-            # return swe.get_ayanamsa_ut(jd)
+        elif self.ayanamsha_id == Ayanamsha.ASHVINI_STARTING_0:
+            return 0
+        elif self.ayanamsha_id == Ayanamsha.RASHTRIYA_PANCHANGA_NAKSHATRA_TRACKING:
+            swe.set_sid_mode(swe.SIDM_LAHIRI)
+            return swe.get_ayanamsa_ut(jd)
         raise Exception("Bad ayamasha_id")
 
 
@@ -77,29 +82,6 @@ class NakshatraDivision(object):
         ))
 
 
-def get_nirayana_sun_lon(jd, offset=0, debug=False):
-    """Returns the nirayana longitude of the sun
-
-      Args:
-        float jd: The Julian Day at which the angam is to be computed
-
-      Returns:
-        float longitude
-
-      Examples:
-    """
-    lsun = (Graha(Graha.SUN).get_longitude(jd)) % 360
-
-    if debug:
-        print('## get_angam_float(): lsun (nirayana) =', lsun)
-
-    if offset + 360 == 0 and lsun < 30:
-        # Angam 1 -- needs different treatment, because of 'discontinuity'
-        return lsun
-    else:
-        return lsun + offset
-
-
 
 def longitudeToRightAscension(longitude):
     return (360 - longitude) / 360 * 24
@@ -135,7 +117,7 @@ SOLAR_NAKSH_PADA = {'id': 'SOLAR_NAKSH_PADA', 'arc_len': 360.0 / 108.0, 'w_moon'
 
 
 def get_angam_float(jd, angam_type, offset=0, ayanamsha_id=Ayanamsha.CHITRA_AT_180, debug=False):
-    """Returns the angam
+    """Returns the angam. Computed based on lunar and solar longitudes, division of a circle into a certain number of degrees (arc_len).
 
       Args:
         :param jd: float: The Julian Day at which the angam is to be computed
