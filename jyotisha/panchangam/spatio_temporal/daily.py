@@ -254,27 +254,27 @@ class DailyPanchanga(common.JsonObject):
         RAHUKALA_OCTETS = [7, 1, 6, 4, 5, 3, 2]
         GULIKAKALA_OCTETS = [6, 5, 4, 3, 2, 1, 0]
         self.kaalas = {
-            'braahma': temporal.get_kaalas(self.jd_previous_sunset, self.jd_sunrise, 13, 15),
-            'prAtaH sandhyA': temporal.get_kaalas(self.jd_previous_sunset, self.jd_sunrise, 14, 15),
-            'prAtaH sandhyA end': temporal.get_kaalas(self.jd_sunrise, self.jd_sunset, 4, 15),
-            'prAtah': temporal.get_kaalas(self.jd_sunrise, self.jd_sunset, 0, 5),
-            'saGgava': temporal.get_kaalas(self.jd_sunrise, self.jd_sunset, 1, 5),
-            'madhyAhna': temporal.get_kaalas(self.jd_sunrise, self.jd_sunset, 2, 5),
-            'mAdhyAhnika sandhyA': temporal.get_kaalas(self.jd_sunrise, self.jd_sunset, 5, 15),
-            'mAdhyAhnika sandhyA end': temporal.get_kaalas(self.jd_sunrise, self.jd_sunset, 13, 15),
-            'aparAhna': temporal.get_kaalas(self.jd_sunrise, self.jd_sunset, 3, 5),
-            'sAyAhna': temporal.get_kaalas(self.jd_sunrise, self.jd_sunset, 4, 5),
-            'sAyaM sandhyA': temporal.get_kaalas(self.jd_sunrise, self.jd_sunset, 14, 15),
-            'sAyaM sandhyA end': temporal.get_kaalas(self.jd_sunset, self.jd_next_sunrise, 1, 15),
-            'rAtri yAma 1': temporal.get_kaalas(self.jd_sunset, self.jd_next_sunrise, 1, 4),
-            'zayana': temporal.get_kaalas(self.jd_sunset, self.jd_next_sunrise, 3, 8),
-            'dinAnta': temporal.get_kaalas(self.jd_sunset, self.jd_next_sunrise, 5, 8),
-            'rahu': temporal.get_kaalas(self.jd_sunrise, self.jd_sunset,
-                                        RAHUKALA_OCTETS[self.weekday], 8),
-            'yama': temporal.get_kaalas(self.jd_sunrise, self.jd_sunset,
-                                        YAMAGANDA_OCTETS[self.weekday], 8),
-            'gulika': temporal.get_kaalas(self.jd_sunrise, self.jd_sunset,
-                                          GULIKAKALA_OCTETS[self.weekday], 8)
+            'braahma': temporal.get_interval(self.jd_previous_sunset, self.jd_sunrise, 13, 15),
+            'prAtaH sandhyA': temporal.get_interval(self.jd_previous_sunset, self.jd_sunrise, 14, 15),
+            'prAtaH sandhyA end': temporal.get_interval(self.jd_sunrise, self.jd_sunset, 4, 15),
+            'prAtah': temporal.get_interval(self.jd_sunrise, self.jd_sunset, 0, 5),
+            'saGgava': temporal.get_interval(self.jd_sunrise, self.jd_sunset, 1, 5),
+            'madhyAhna': temporal.get_interval(self.jd_sunrise, self.jd_sunset, 2, 5),
+            'mAdhyAhnika sandhyA': temporal.get_interval(self.jd_sunrise, self.jd_sunset, 5, 15),
+            'mAdhyAhnika sandhyA end': temporal.get_interval(self.jd_sunrise, self.jd_sunset, 13, 15),
+            'aparAhna': temporal.get_interval(self.jd_sunrise, self.jd_sunset, 3, 5),
+            'sAyAhna': temporal.get_interval(self.jd_sunrise, self.jd_sunset, 4, 5),
+            'sAyaM sandhyA': temporal.get_interval(self.jd_sunrise, self.jd_sunset, 14, 15),
+            'sAyaM sandhyA end': temporal.get_interval(self.jd_sunset, self.jd_next_sunrise, 1, 15),
+            'rAtri yAma 1': temporal.get_interval(self.jd_sunset, self.jd_next_sunrise, 1, 4),
+            'zayana': temporal.get_interval(self.jd_sunset, self.jd_next_sunrise, 3, 8),
+            'dinAnta': temporal.get_interval(self.jd_sunset, self.jd_next_sunrise, 5, 8),
+            'rahu': temporal.get_interval(self.jd_sunrise, self.jd_sunset,
+                                          RAHUKALA_OCTETS[self.weekday], 8),
+            'yama': temporal.get_interval(self.jd_sunrise, self.jd_sunset,
+                                          YAMAGANDA_OCTETS[self.weekday], 8),
+            'gulika': temporal.get_interval(self.jd_sunrise, self.jd_sunset,
+                                            GULIKAKALA_OCTETS[self.weekday], 8)
         }
         return self.kaalas
 

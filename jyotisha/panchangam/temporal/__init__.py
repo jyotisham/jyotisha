@@ -529,14 +529,14 @@ def get_tithi(jd, ayanamsha_id=Ayanamsha.CHITRA_AT_180):
     return get_angam(jd, TITHI, ayanamsha_id=ayanamsha_id)
 
 
-def get_kaalas(start_span, end_span, part_start, num_parts):
-    """Compute kaalas in a given span with specified fractions
+def get_interval(start_jd, end_jd, part_index, num_parts):
+    """Get start and end time of a given interval in a given span with specified fractions
 
     Args:
-      :param start_span float (jd)
-      :param end_span float (jd)
-      int part_start
-      int num_parts
+      :param start_jd float (jd)
+      :param end_jd float (jd)
+      :param part_index int, minimum/ start value 0
+      :param num_parts
 
     Returns:
        tuple (start_time_jd, end_time_jd)
@@ -544,11 +544,11 @@ def get_kaalas(start_span, end_span, part_start, num_parts):
     Examples:
 
     """
-    start_fraction = part_start / num_parts
-    end_fraction = (part_start + 1) / num_parts
+    start_fraction = part_index / num_parts
+    end_fraction = (part_index + 1) / num_parts
 
-    start_time = start_span + (end_span - start_span) * start_fraction
-    end_time = start_span + (end_span - start_span) * end_fraction
+    start_time = start_jd + (end_jd - start_jd) * start_fraction
+    end_time = start_jd + (end_jd - start_jd) * end_fraction
 
     return (start_time, end_time)
 

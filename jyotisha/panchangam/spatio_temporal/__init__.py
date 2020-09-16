@@ -110,6 +110,7 @@ class City(JsonObject):
   def get_house_cusps(self, jd):
     return swe.houses_ex(jd, self.latitude, self.longitude)[1][0]
 
+
 class Timezone:
   def __init__(self, timezone_id):
     self.timezone_id = timezone_id
