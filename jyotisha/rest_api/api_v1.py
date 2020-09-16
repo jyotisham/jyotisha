@@ -7,7 +7,7 @@ from flask_restplus import reqparse
 
 import jyotisha.panchangam.spatio_temporal.annual
 import jyotisha.panchangam.spatio_temporal.daily
-import jyotisha.panchangam.temporal.zodiac
+from jyotisha.panchangam.temporal.zodiac import NakshatraDivision
 from jyotisha import names
 from jyotisha.panchangam.spatio_temporal import City, Timezone
 from jyotisha.panchangam.temporal import festival
@@ -84,7 +84,6 @@ class NakshatraFinder(Resource):
     lahiri_nakshatra_division = zodiac.NakshatraDivision(julday=julday)
     if body == "moon":
       from jyotisha.panchangam import temporal
-      logging.debug(jyotisha.panchangam.temporal.zodiac.get_nakshatram(julday))
     nakshatra = lahiri_nakshatra_division.get_nakshatra(body=body)
     logging.info(nakshatra)
     return str(nakshatra)
@@ -97,7 +96,7 @@ class RaashiFinder(Resource):
   def get(self, timezone, year, month, day, hour, minute, second):
     julday = Timezone(timezone).local_time_to_julian_day(year, month, day, hour, minute, second)
     from jyotisha.panchangam import temporal
-    raashi = jyotisha.panchangam.temporal.zodiac.get_solar_rashi(jd=julday)
+    raashi = NakshatraDivision(julday).get_solar_raashi()
     logging.info(raashi)
     return str(raashi)
     # return "haha"

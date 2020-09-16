@@ -16,7 +16,7 @@ from jyotisha.panchangam import temporal
 from jyotisha.panchangam.spatio_temporal import City, CALC_RISE, CALC_SET, Timezone
 from jyotisha.panchangam.temporal import zodiac
 from jyotisha.panchangam.temporal.hour import Hour
-from jyotisha.panchangam.temporal.zodiac import Ayanamsha, SOLAR_MONTH, get_angam_float, get_angam
+from jyotisha.panchangam.temporal.zodiac import Ayanamsha, SOLAR_MONTH, NakshatraDivision
 from sanskrit_data.schema import common
 
 logging.basicConfig(level=logging.DEBUG,
@@ -153,16 +153,16 @@ class DailyPanchanga(common.JsonObject):
         # If solar transition happens before the current sunset but after the previous sunset, then that is taken to be solar day 1. Number of sunsets since the past solar month transition gives the solar day number.
         if not hasattr(self, "jd_sunrise") or self.jd_sunrise is None:
             self.compute_sun_moon_transitions()
-        self.solar_month = get_angam(self.jd_sunset, SOLAR_MONTH, ayanamsha_id=self.ayanamsha_id)
-        target = ((floor(get_angam_float(self.jd_sunset, SOLAR_MONTH, ayanamsha_id=self.ayanamsha_id)) - 1) % 12) + 1
+        self.solar_month = NakshatraDivision(self.jd_sunset, ayanamsha_id=self.ayanamsha_id).get_angam(SOLAR_MONTH)
+        target = ((floor(NakshatraDivision(self.jd_sunset, ayanamsha_id=self.ayanamsha_id).get_angam_float(SOLAR_MONTH)) - 1) % 12) + 1
 
         # logging.debug(jd_start)
         # logging.debug(jd_sunset)
         # logging.debug(target)
         # logging.debug(get_angam_float(jd_sunset - 34, SOLAR_MONTH, -target, ayanamsha_id, False))
         # logging.debug(get_angam_float(jd_sunset + 1, SOLAR_MONTH, -target, ayanamsha_id, False))
-        jd_masa_transit = brentq(get_angam_float, self.jd_sunrise - 34, self.jd_sunset,
-                                 args=(SOLAR_MONTH, -target, self.ayanamsha_id, False))
+        
+        jd_masa_transit = brentq(lambda x: NakshatraDivision(x, ayanamsha_id=self.ayanamsha_id).get_angam_float(SOLAR_MONTH, -target, False), self.jd_sunrise - 34, self.jd_sunset)
 
         jd_sunset_after_masa_transit = self.city.get_setting_time(julian_day_start=jd_masa_transit, body=Graha.SUN)
 

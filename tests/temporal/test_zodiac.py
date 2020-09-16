@@ -1,6 +1,7 @@
 import logging
 
 from jyotisha.panchangam.temporal import zodiac
+from jyotisha.panchangam.temporal.zodiac import NakshatraDivision
 
 
 def test_get_ayanamsha():
@@ -17,7 +18,7 @@ def disabled_test_swe_ayanamsha_api():
 
 
 def test_get_angam():
-    assert zodiac.get_angam(2444961.7125, zodiac.NAKSHATRAM) == 16
-    assert zodiac.get_angam(2444961.7125, zodiac.TITHI) == 28
-    assert zodiac.get_angam(2444961.7125, zodiac.YOGA) == 8
-    assert zodiac.get_angam(2444961.7125, zodiac.KARANAM) == 55
+    assert NakshatraDivision(2444961.7125).get_angam(zodiac.NAKSHATRAM) == 16
+    assert NakshatraDivision(2444961.7125).get_angam(zodiac.TITHI) == 28
+    assert NakshatraDivision(2444961.7125).get_angam(zodiac.YOGA) == 8
+    assert NakshatraDivision(2444961.7125).get_angam(zodiac.KARANAM) == 55
