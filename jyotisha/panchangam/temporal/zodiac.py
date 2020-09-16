@@ -6,6 +6,7 @@ import swisseph as swe
 from astropy.time import Time
 from scipy.optimize import brentq
 
+from jyotisha.panchangam.temporal import Interval
 from jyotisha.panchangam.temporal.body import Graha
 from sanskrit_data.schema import common
 
@@ -394,7 +395,7 @@ def get_angam_span(jd1, jd2, angam_type, target_anga_id, ayanamsha_id, debug=Fal
     if debug:
         logging.debug(('angam_end', angam_end))
 
-    return (angam_start, angam_end)
+    return Interval(angam_start, angam_end)
 
 
 if __name__ == '__main__':

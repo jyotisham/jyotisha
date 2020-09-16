@@ -2,12 +2,12 @@ import logging
 import os
 
 from indic_transliteration import xsanscript as sanscript
-from sanskrit_data.schema.common import JsonObject
 
 from jyotisha.panchangam.spatio_temporal import City, annual
 # from jyotisha.panchangam import scripts
 # from jyotisha.panchangam.spatio_temporal import annual
 from jyotisha.panchangam.temporal import zodiac
+from sanskrit_data.schema.common import JsonObject
 
 logging.basicConfig(
   level=logging.DEBUG,

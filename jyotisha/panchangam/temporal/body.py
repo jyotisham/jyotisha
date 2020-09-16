@@ -39,7 +39,7 @@ class Graha(object):
         return swe.calc_ut(jd, self._get_swisseph_id())[0][0]
 
     def get_longitude_offset(self, jd, offset, ayanamsha_id):
-        from jyotisha.panchangam.temporal import Ayanamsha
+        from jyotisha.panchangam.temporal.zodiac import Ayanamsha
         adjusted_longitude = (self.get_longitude(jd=jd) - Ayanamsha(ayanamsha_id).get_offset(jd)) % 360
         # Not doing modulo arithmetic below - we want to allow the offset longitude to be negative, for use with brentq.
         return adjusted_longitude + offset

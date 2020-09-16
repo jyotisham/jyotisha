@@ -184,10 +184,10 @@ class Panchangam(common.JsonObject):
         last_d_assigned = 0
         last_new_moon_start, last_new_moon_end = zodiac.get_angam_span(
             self.jd_start_utc - self.tithi_sunrise[1] - 3, self.jd_start_utc - self.tithi_sunrise[1] + 3,
-            zodiac.TITHI, 30, ayanamsha_id=self.ayanamsha_id)
+            zodiac.TITHI, 30, ayanamsha_id=self.ayanamsha_id).to_tuple()
         this_new_moon_start, this_new_moon_end = zodiac.get_angam_span(
             last_new_moon_start + 24, last_new_moon_start + 32,
-            zodiac.TITHI, 30, ayanamsha_id=self.ayanamsha_id)
+            zodiac.TITHI, 30, ayanamsha_id=self.ayanamsha_id).to_tuple()
         # Check if current mAsa is adhika here
         isAdhika = NakshatraDivision(last_new_moon_end, ayanamsha_id=self.ayanamsha_id).get_solar_rashi() == \
                    NakshatraDivision(this_new_moon_end, ayanamsha_id=self.ayanamsha_id).get_solar_rashi()
@@ -195,7 +195,7 @@ class Panchangam(common.JsonObject):
         while last_new_moon_start < self.jd_start_utc + self.duration + 1:
             next_new_moon_start, next_new_moon_end = zodiac.get_angam_span(
                 this_new_moon_start + 24, this_new_moon_start + 32,
-                zodiac.TITHI, 30, ayanamsha_id=self.ayanamsha_id)
+                zodiac.TITHI, 30, ayanamsha_id=self.ayanamsha_id).to_tuple()
             for i in range(last_d_assigned + 1, last_d_assigned + 32):
                 last_solar_month = NakshatraDivision(this_new_moon_end,
                                                      ayanamsha_id=self.ayanamsha_id).get_solar_rashi()
@@ -787,23 +787,23 @@ class Panchangam(common.JsonObject):
 
                 sun_hasta_jd_start, sun_hasta_jd_end = zodiac.get_angam_span(
                     self.jd_sunrise[d], self.jd_sunrise[d] + 30, zodiac.SOLAR_NAKSH, 13,
-                    ayanamsha_id=self.ayanamsha_id)
+                    ayanamsha_id=self.ayanamsha_id).to_tuple()
 
                 moon_magha_jd_start, moon_magha_jd_end = zodiac.get_angam_span(
                     sun_hasta_jd_start - 2, sun_hasta_jd_end + 2, zodiac.NAKSHATRAM, 10,
-                    ayanamsha_id=self.ayanamsha_id)
+                    ayanamsha_id=self.ayanamsha_id).to_tuple()
                 if all([moon_magha_jd_start, moon_magha_jd_end]):
                     t28_start, t28_end = zodiac.get_angam_span(
                         moon_magha_jd_start - 3, moon_magha_jd_end + 3, zodiac.TITHI, 28,
-                        ayanamsha_id=self.ayanamsha_id)
+                        ayanamsha_id=self.ayanamsha_id).to_tuple()
 
                 moon_hasta_jd_start, moon_hasta_jd_end = zodiac.get_angam_span(
                     sun_hasta_jd_start - 1, sun_hasta_jd_end + 1, zodiac.NAKSHATRAM, 13,
-                    ayanamsha_id=self.ayanamsha_id)
+                    ayanamsha_id=self.ayanamsha_id).to_tuple()
                 if all([moon_hasta_jd_start, moon_hasta_jd_end]):
                     t30_start, t30_end = zodiac.get_angam_span(
                         sun_hasta_jd_start - 1, sun_hasta_jd_end + 1, zodiac.TITHI, 30,
-                        ayanamsha_id=self.ayanamsha_id)
+                        ayanamsha_id=self.ayanamsha_id).to_tuple()
 
                 gc_28 = gc_30 = False
 
@@ -896,10 +896,10 @@ class Panchangam(common.JsonObject):
             if self.solar_month[d] == 1 and self.solar_month_day[d] == 10:
                 agni_jd_start, dummy = zodiac.get_angam_span(
                     self.jd_sunrise[d], self.jd_sunrise[d] + 30,
-                    zodiac.SOLAR_NAKSH_PADA, 7, ayanamsha_id=self.ayanamsha_id)
+                    zodiac.SOLAR_NAKSH_PADA, 7, ayanamsha_id=self.ayanamsha_id).to_tuple()
                 dummy, agni_jd_end = zodiac.get_angam_span(
                     agni_jd_start, agni_jd_start + 30,
-                    zodiac.SOLAR_NAKSH_PADA, 13, ayanamsha_id=self.ayanamsha_id)
+                    zodiac.SOLAR_NAKSH_PADA, 13, ayanamsha_id=self.ayanamsha_id).to_tuple()
 
             if self.solar_month[d] == 1 and self.solar_month_day[d] > 10:
                 if agni_jd_start is not None:

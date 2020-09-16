@@ -84,7 +84,7 @@ class City(JsonObject):
     return city
 
   def get_rising_time(self, julian_day_start, body):
-    from jyotisha.panchangam.temporal import Graha
+    from jyotisha.panchangam.temporal.body import Graha
     graha = Graha(body)
     # rise_trans expects UT time
     return swe.rise_trans(
@@ -93,7 +93,7 @@ class City(JsonObject):
       rsmi=CALC_RISE)[1][0]
 
   def get_setting_time(self, julian_day_start, body):
-    from jyotisha.panchangam.temporal import Graha
+    from jyotisha.panchangam.temporal.body import Graha
     graha = Graha(body)
     # rise_trans expects UT time
     return swe.rise_trans(
@@ -107,7 +107,12 @@ class City(JsonObject):
   def get_lunar_eclipse_time(self, jd_start):
     return swe.lun_eclipse_when_loc(jd_start, lon=self.longitude, lat=self.latitude)
 
-  def get_house_cusps(self, jd):
+  def get_zodiac_longitude_eastern_horizon(self, jd):
+    """ Get the ID of the raashi what is currently rising.
+    
+    :param jd: 
+    :return: 
+    """
     return swe.houses_ex(jd, self.latitude, self.longitude)[1][0]
 
   def get_lagna_float(self, jd, offset=0, ayanamsha_id=Ayanamsha.CHITRA_AT_180, debug=False):
@@ -122,7 +127,7 @@ class City(JsonObject):
         float lagna
     """
 
-    lcalc = self.get_house_cusps(jd=jd) - Ayanamsha(ayanamsha_id=ayanamsha_id).get_offset(jd=jd)
+    lcalc = self.get_zodiac_longitude_eastern_horizon(jd=jd) - Ayanamsha(ayanamsha_id=ayanamsha_id).get_offset(jd=jd)
     lcalc = lcalc % 360
 
     if offset == 0:
