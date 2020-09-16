@@ -33,3 +33,11 @@ class Graha(object):
 
   def get_longitude(self, jd):
       return swe.calc_ut(jd, self._get_swisseph_id())[0][0]
+
+
+def get_star_longitude(star, jd):
+  from jyotisha.panchangam import data
+  import os
+  swe.set_ephe_path(os.path.dirname(data.__file__))
+  (long, lat, _, _, _, _) = swe.fixstar_ut(star, jd)[0]
+  return long
