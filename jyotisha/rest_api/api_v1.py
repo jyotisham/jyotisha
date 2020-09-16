@@ -10,6 +10,7 @@ import jyotisha.panchangam.spatio_temporal.daily
 from jyotisha import names
 from jyotisha.panchangam.spatio_temporal import City, Timezone
 from jyotisha.panchangam.temporal import festival
+from jyotisha.panchangam.temporal.body import Graha
 
 logging.basicConfig(
   level=logging.DEBUG,
@@ -108,7 +109,7 @@ class RaashiTransitionFinder(Resource):
     from jyotisha import zodiac
     julday = Timezone(timezone).local_time_to_julian_day(year, month, day, hour, minute, second)
     from jyotisha.panchangam import temporal
-    transits = temporal.get_planet_next_transit(jd_start=julday, jd_end = julday + 100, planet=body)
+    transits = Graha(body).get_next_raashi_transit(jd_start=julday, jd_end = julday + 100, ayanamsha_id=Ayanamsha.CHITRA_AT_180)
     # logging.debug(transits)
     transits_local = [(Timezone(timezone).julian_day_to_local_time(transit[0]), transit[1], transit[2]) for transit in transits]
     return str(transits_local)

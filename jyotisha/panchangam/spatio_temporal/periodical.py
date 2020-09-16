@@ -1873,7 +1873,7 @@ class Panchangam(common.JsonObject):
         check_window = 400  # Max t between two Jupiter transits is ~396 (checked across 180y)
         # Let's check for transitions in a relatively large window
         # to finalise what is the FINAL transition post retrograde movements
-        transits = temporal.get_planet_next_transit(self.jd_start_utc, jd_end + check_window, Graha.JUPITER, ayanamsha_id=self.ayanamsha_id)
+        transits = Graha(Graha.JUPITER).get_next_raashi_transit(self.jd_start_utc, jd_end + check_window, ayanamsha_id=self.ayanamsha_id)
         if len(transits) > 0:
             for i, (jd_transit, rashi1, rashi2) in enumerate(transits):
                 if self.jd_start_utc < jd_transit < jd_end:
@@ -1898,15 +1898,6 @@ class Panchangam(common.JsonObject):
                                           fday_pushkara - 1, debug=False)
                         self.add_festival('%s-antya-puSkara-ArambhaH' % temporal.NAMES['PUSHKARA_NAMES']['hk'][rashi1],
                                           fday_pushkara - 12, debug=False)
-
-        # transits = temporal.get_planet_next_transit(self.jd_start, jd_end,
-        #                                    swe.SATURN, ayanamsha_id=self.ayanamsha_id)
-        # if len(transits) > 0:
-        #     for jd_transit, rashi1, rashi2 in transits:
-        #         fday = int(floor(jd_transit) - floor(self.jd_start) + 1)
-        #         self.festivals[fday].append('zani-saGkrAntiH~(%s##\\To{}##%s)' %
-        #                                     (temporal.NAMES['RASHI']['hk'][rashi1],
-        #                                     temporal.NAMES['RASHI']['hk'][rashi2]))
 
     def write_debug_log(self):
         log_file = open('cal-%4d-%s-log.txt' % (self.year, self.city.name), 'w')

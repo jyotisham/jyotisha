@@ -97,25 +97,6 @@ def get_nirayana_sun_lon(jd, offset=0, debug=False):
         return lsun + offset
 
 
-def get_planet_lon(jd, planet, offset=0, ayanamsha_id=Ayanamsha.CHITRA_AT_180):
-    """Returns the longitude of the given planet e.g. swe.JUPITER
-
-      Args:
-        float jd: The Julian Day at which the longitude is to be computed
-        int planet  - sun, jupiter, ...
-
-      Returns:
-        float longitude
-
-      Examples:
-      >>> get_planet_lon(2458008.58, "jupiter")
-      180.00174875784376
-    """
-    
-    lon = (Graha(planet).get_longitude(jd) - Ayanamsha(ayanamsha_id).get_offset(jd)) % 360
-    return lon + offset
-
-
 if __name__ == '__main__':
     # lahiri_nakshatra_division = NakshatraDivision(julday=temporal.utc_to_jd(year=2017, month=8, day=19, hour=11, minutes=10, seconds=0, flag=1)[0])
     import temporal
