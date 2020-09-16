@@ -1,6 +1,6 @@
 import logging
 
-from jyotisha.panchangam.temporal.graha import Graha
+from jyotisha.panchangam.temporal.body import Graha
 from jyotisha.panchangam import temporal
 
 logging.basicConfig(

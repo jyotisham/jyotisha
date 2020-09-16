@@ -7,7 +7,7 @@ from math import floor
 
 import swisseph as swe
 from scipy.optimize import brentq
-from jyotisha.panchangam.temporal.graha import Graha
+from jyotisha.panchangam.temporal.body import Graha
 
 import jyotisha.panchangam.temporal
 from jyotisha.panchangam import temporal

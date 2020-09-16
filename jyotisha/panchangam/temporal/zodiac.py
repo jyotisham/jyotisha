@@ -3,7 +3,7 @@ import logging
 import numpy
 import swisseph as swe
 
-from jyotisha.panchangam.temporal.graha import Graha
+from jyotisha.panchangam.temporal.body import Graha
 
 logging.basicConfig(
   level=logging.DEBUG,

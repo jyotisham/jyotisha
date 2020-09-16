@@ -19,7 +19,7 @@ from jyotisha.panchangam import temporal, spatio_temporal
 from jyotisha.panchangam.spatio_temporal import CODE_ROOT, daily
 from jyotisha.panchangam.temporal import zodiac
 from jyotisha.panchangam.temporal.festival import read_old_festival_rules_dict
-from jyotisha.panchangam.temporal.graha import Graha
+from jyotisha.panchangam.temporal.body import Graha
 from sanskrit_data.schema import common
 from sanskrit_data.schema.common import JsonObject
 

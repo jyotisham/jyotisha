@@ -10,7 +10,7 @@ from jyotisha import names
 from jyotisha.custom_transliteration import tr
 from jyotisha.names.init_names_auto import init_names_auto
 from jyotisha.panchangam.temporal import hour
-from jyotisha.panchangam.temporal.graha import Graha
+from jyotisha.panchangam.temporal.body import Graha
 from jyotisha.panchangam.temporal.zodiac import get_planet_lon, Ayanamsha
 from sanskrit_data.schema import common
 
