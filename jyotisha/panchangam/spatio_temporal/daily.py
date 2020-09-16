@@ -138,16 +138,13 @@ class DailyPanchanga(common.JsonObject):
         """
         if not hasattr(self, "jd_sunrise") or self.jd_sunrise is None:
             self.compute_sun_moon_transitions()
-        day_length_jd = self.jd_sunset - self.jd_sunrise
-        muhuurta_length_jd = day_length_jd / (5 * 3)
-        import numpy
-        # 15 muhUrta-s in a day.
-        muhuurta_starts = numpy.arange(self.jd_sunrise, self.jd_sunset, muhuurta_length_jd)[0:15]
         from jyotisha.panchangam import spatio_temporal
-        self.tb_muhuurtas = [spatio_temporal.TbSayanaMuhuurta(
-            city=self.city, jd_start=jd_start, jd_end=jd_start + muhuurta_length_jd,
-            muhuurta_id=int((jd_start - self.jd_sunrise + muhuurta_length_jd / 10) / muhuurta_length_jd))
-            for jd_start in muhuurta_starts]
+        self.tb_muhuurtas = []
+        for muhuurta_id in range(0, 15):
+            (jd_start, jd_end) = temporal.get_interval(start_jd=self.jd_sunrise, end_jd=self.jd_sunset, part_index=muhuurta_id, num_parts=15)
+            self.tb_muhuurtas.append(spatio_temporal.TbSayanaMuhuurta(
+            city=self.city, jd_start=jd_start, jd_end=jd_end,
+            muhuurta_id=muhuurta_id))
 
     def compute_solar_day(self):
         """Compute the solar month and day for a given Julian day
