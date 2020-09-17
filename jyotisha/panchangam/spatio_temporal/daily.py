@@ -8,6 +8,7 @@ from math import floor
 from scipy.optimize import brentq
 
 import jyotisha.panchangam.temporal
+from jyotisha.panchangam.temporal import interval
 from jyotisha.panchangam import temporal
 from jyotisha.panchangam.spatio_temporal import City, Timezone
 from jyotisha.panchangam.temporal import zodiac
@@ -142,9 +143,9 @@ class DailyPanchanga(common.JsonObject):
     from jyotisha.panchangam import spatio_temporal
     self.tb_muhuurtas = []
     for muhuurta_id in range(0, 15):
-      (jd_start, jd_end) = temporal.get_interval(start_jd=self.jd_sunrise, end_jd=self.jd_sunset,
-                                                 part_index=muhuurta_id, num_parts=15).to_tuple()
-      self.tb_muhuurtas.append(jyotisha.panchangam.temporal.TbSayanaMuhuurta(
+      (jd_start, jd_end) = interval.get_interval(start_jd=self.jd_sunrise, end_jd=self.jd_sunset,
+                                                                              part_index=muhuurta_id, num_parts=15).to_tuple()
+      self.tb_muhuurtas.append(jyotisha.panchangam.temporal.interval.TbSayanaMuhuurta(
         city=self.city, jd_start=jd_start, jd_end=jd_end,
         muhuurta_id=muhuurta_id))
 
@@ -231,27 +232,27 @@ class DailyPanchanga(common.JsonObject):
     RAHUKALA_OCTETS = [7, 1, 6, 4, 5, 3, 2]
     GULIKAKALA_OCTETS = [6, 5, 4, 3, 2, 1, 0]
     self.kaalas = {
-      'braahma': temporal.get_interval(self.jd_previous_sunset, self.jd_sunrise, 13, 15).to_tuple(),
-      'prAtaH sandhyA': temporal.get_interval(self.jd_previous_sunset, self.jd_sunrise, 14, 15).to_tuple(),
-      'prAtaH sandhyA end': temporal.get_interval(self.jd_sunrise, self.jd_sunset, 4, 15).to_tuple(),
-      'prAtah': temporal.get_interval(self.jd_sunrise, self.jd_sunset, 0, 5).to_tuple(),
-      'saGgava': temporal.get_interval(self.jd_sunrise, self.jd_sunset, 1, 5).to_tuple(),
-      'madhyAhna': temporal.get_interval(self.jd_sunrise, self.jd_sunset, 2, 5).to_tuple(),
-      'mAdhyAhnika sandhyA': temporal.get_interval(self.jd_sunrise, self.jd_sunset, 5, 15).to_tuple(),
-      'mAdhyAhnika sandhyA end': temporal.get_interval(self.jd_sunrise, self.jd_sunset, 13, 15).to_tuple(),
-      'aparAhna': temporal.get_interval(self.jd_sunrise, self.jd_sunset, 3, 5).to_tuple(),
-      'sAyAhna': temporal.get_interval(self.jd_sunrise, self.jd_sunset, 4, 5).to_tuple(),
-      'sAyaM sandhyA': temporal.get_interval(self.jd_sunrise, self.jd_sunset, 14, 15).to_tuple(),
-      'sAyaM sandhyA end': temporal.get_interval(self.jd_sunset, self.jd_next_sunrise, 1, 15).to_tuple(),
-      'rAtri yAma 1': temporal.get_interval(self.jd_sunset, self.jd_next_sunrise, 1, 4).to_tuple(),
-      'zayana': temporal.get_interval(self.jd_sunset, self.jd_next_sunrise, 3, 8).to_tuple(),
-      'dinAnta': temporal.get_interval(self.jd_sunset, self.jd_next_sunrise, 5, 8).to_tuple(),
-      'rahu': temporal.get_interval(self.jd_sunrise, self.jd_sunset,
-                                    RAHUKALA_OCTETS[self.weekday], 8).to_tuple(),
-      'yama': temporal.get_interval(self.jd_sunrise, self.jd_sunset,
-                                    YAMAGANDA_OCTETS[self.weekday], 8).to_tuple(),
-      'gulika': temporal.get_interval(self.jd_sunrise, self.jd_sunset,
-                                      GULIKAKALA_OCTETS[self.weekday], 8).to_tuple()
+      'braahma': interval.get_interval(self.jd_previous_sunset, self.jd_sunrise, 13, 15).to_tuple(),
+      'prAtaH sandhyA': interval.get_interval(self.jd_previous_sunset, self.jd_sunrise, 14, 15).to_tuple(),
+      'prAtaH sandhyA end': interval.get_interval(self.jd_sunrise, self.jd_sunset, 4, 15).to_tuple(),
+      'prAtah': interval.get_interval(self.jd_sunrise, self.jd_sunset, 0, 5).to_tuple(),
+      'saGgava': interval.get_interval(self.jd_sunrise, self.jd_sunset, 1, 5).to_tuple(),
+      'madhyAhna': interval.get_interval(self.jd_sunrise, self.jd_sunset, 2, 5).to_tuple(),
+      'mAdhyAhnika sandhyA': interval.get_interval(self.jd_sunrise, self.jd_sunset, 5, 15).to_tuple(),
+      'mAdhyAhnika sandhyA end': interval.get_interval(self.jd_sunrise, self.jd_sunset, 13, 15).to_tuple(),
+      'aparAhna': interval.get_interval(self.jd_sunrise, self.jd_sunset, 3, 5).to_tuple(),
+      'sAyAhna': interval.get_interval(self.jd_sunrise, self.jd_sunset, 4, 5).to_tuple(),
+      'sAyaM sandhyA': interval.get_interval(self.jd_sunrise, self.jd_sunset, 14, 15).to_tuple(),
+      'sAyaM sandhyA end': interval.get_interval(self.jd_sunset, self.jd_next_sunrise, 1, 15).to_tuple(),
+      'rAtri yAma 1': interval.get_interval(self.jd_sunset, self.jd_next_sunrise, 1, 4).to_tuple(),
+      'zayana': interval.get_interval(self.jd_sunset, self.jd_next_sunrise, 3, 8).to_tuple(),
+      'dinAnta': interval.get_interval(self.jd_sunset, self.jd_next_sunrise, 5, 8).to_tuple(),
+      'rahu': interval.get_interval(self.jd_sunrise, self.jd_sunset,
+                                                                 RAHUKALA_OCTETS[self.weekday], 8).to_tuple(),
+      'yama': interval.get_interval(self.jd_sunrise, self.jd_sunset,
+                                                                 YAMAGANDA_OCTETS[self.weekday], 8).to_tuple(),
+      'gulika': interval.get_interval(self.jd_sunrise, self.jd_sunset,
+                                                                   GULIKAKALA_OCTETS[self.weekday], 8).to_tuple()
     }
     return self.kaalas
 

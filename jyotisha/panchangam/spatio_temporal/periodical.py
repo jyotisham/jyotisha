@@ -14,6 +14,7 @@ import jyotisha.panchangam.temporal.festival.applier.ecliptic
 import jyotisha.panchangam.temporal.festival.applier.solar
 import jyotisha.panchangam.temporal.festival.applier.tithi
 import jyotisha.panchangam.temporal.festival.applier.vaara
+from jyotisha.panchangam.temporal import interval
 from jyotisha import names
 from jyotisha.panchangam import temporal, spatio_temporal
 from jyotisha.panchangam.spatio_temporal import CODE_ROOT, daily
@@ -55,11 +56,11 @@ class Panchangam(common.JsonObject):
 
     self.ayanamsha_id = ayanamsha_id
 
-    self.compute_angams(compute_lagnams=compute_lagnams)
+    self.compute_angas(compute_lagnams=compute_lagnams)
     lunar_month_assigner = MonthAssigner.get_assigner(assigner_id=lunar_month_assigner_type, panchaanga=self)
     lunar_month_assigner.assign()
 
-  def compute_angams(self, compute_lagnams=True):
+  def compute_angas(self, compute_lagnams=True):
     """Compute the entire panchangam
     """
 
@@ -426,7 +427,7 @@ class Panchangam(common.JsonObject):
       nnext_anga = (next_anga % 30) + 1
 
       # Calc vyaaptis
-      t_start_d, t_end_d = temporal.get_interval(self.jd_sunrise[d], self.jd_sunset[d], 3, 5).to_tuple()
+      t_start_d, t_end_d = interval.get_interval(self.jd_sunrise[d], self.jd_sunset[d], 3, 5).to_tuple()
       vyapti_1 = t_end_d - t_start_d
       vyapti_2 = 0
       for [tithi, tithi_end] in self.tithi_data[d]:
@@ -436,7 +437,7 @@ class Panchangam(common.JsonObject):
           vyapti_1 = tithi_end - t_start_d
           vyapti_2 = t_end_d - tithi_end
 
-      t_start_d1, t_end_d1 = temporal.get_interval(self.jd_sunrise[d + 1], self.jd_sunset[d + 1], 3, 5).to_tuple()
+      t_start_d1, t_end_d1 = interval.get_interval(self.jd_sunrise[d + 1], self.jd_sunset[d + 1], 3, 5).to_tuple()
       vyapti_3 = t_end_d1 - t_start_d1
       for [tithi, tithi_end] in self.tithi_data[d + 1]:
         if tithi_end is None:
@@ -544,7 +545,7 @@ class Panchangam(common.JsonObject):
         if self.solar_month_end_time[d] is not None:
           if debug_shraaddha_tithi:
             logging.debug((d, self.solar_month_end_time[d]))
-          aparaahna_start, aparaahna_end = temporal.get_interval(self.jd_sunrise[d], self.jd_sunset[d], 3, 5).to_tuple()
+          aparaahna_start, aparaahna_end = interval.get_interval(self.jd_sunrise[d], self.jd_sunset[d], 3, 5).to_tuple()
           m1 = self.solar_month[d - 1]  # Previous month
           m2 = self.solar_month[d]  # Current month
           if aparaahna_start < self.solar_month_end_time[d] < aparaahna_end:

@@ -3,6 +3,7 @@ from math import floor
 
 from pytz import timezone as tz
 
+from jyotisha.panchangam.temporal import interval
 from jyotisha import names
 from jyotisha.panchangam import temporal
 from jyotisha.panchangam.temporal.body import Graha
@@ -153,8 +154,8 @@ class EclipticFestivalAssigner(FestivalAssigner):
           if rashi1 < rashi2 and transits[i + 1][1] < transits[i + 1][2]:
             # Considering only non-retrograde transits for pushkara computations
             # logging.debug('Non-retrograde transit; we have a pushkaram!')
-            (madhyanha_start, madhyaahna_end) = temporal.get_interval(self.panchaanga.jd_sunrise[fday],
-                                                                      self.panchaanga.jd_sunset[fday], 2, 5).to_tuple()
+            (madhyanha_start, madhyaahna_end) = interval.get_interval(self.panchaanga.jd_sunrise[fday],
+                                                                                                   self.panchaanga.jd_sunset[fday], 2, 5).to_tuple()
             if jd_transit < madhyaahna_end:
               fday_pushkara = fday
             else:

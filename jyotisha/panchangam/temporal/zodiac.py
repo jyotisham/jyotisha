@@ -5,7 +5,7 @@ import numpy
 import swisseph as swe
 from scipy.optimize import brentq
 
-from jyotisha.panchangam.temporal import Interval
+from jyotisha.panchangam.temporal.interval import Interval
 from jyotisha.panchangam.temporal.body import Graha
 from sanskrit_data.schema import common
 

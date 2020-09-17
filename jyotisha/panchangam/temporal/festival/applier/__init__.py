@@ -2,6 +2,7 @@ import logging
 import os
 from itertools import filterfalse
 
+from jyotisha.panchangam.temporal import interval
 from jyotisha.panchangam import temporal
 from jyotisha.panchangam.temporal import festival
 from jyotisha.panchangam.temporal import zodiac
@@ -267,13 +268,13 @@ class FestivalAssigner(JsonObject):
 
             elif priority == 'vyaapti':
               if kaala == 'aparaahna':
-                t_start_d, t_end_d = temporal.get_interval(self.panchaanga.jd_sunrise[d], self.panchaanga.jd_sunset[d], 3, 5).to_tuple()
+                t_start_d, t_end_d = interval.get_interval(self.panchaanga.jd_sunrise[d], self.panchaanga.jd_sunset[d], 3, 5).to_tuple()
               else:
                 logging.error('Unknown kaala: %s.' % festival_name)
 
               if kaala == 'aparaahna':
-                t_start_d1, t_end_d1 = temporal.get_interval(self.panchaanga.jd_sunrise[d + 1],
-                                                             self.panchaanga.jd_sunset[d + 1], 3, 5).to_tuple()
+                t_start_d1, t_end_d1 = interval.get_interval(self.panchaanga.jd_sunrise[d + 1],
+                                                                                          self.panchaanga.jd_sunset[d + 1], 3, 5).to_tuple()
               else:
                 logging.error('Unknown kaala: %s.' % festival_name)
 
