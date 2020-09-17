@@ -85,7 +85,7 @@ class VaraFestivalAssigner(FestivalAssigner):
           d] == nwd_fest_wd:
           # Is it necessarily only at sunrise?
           angams = self.panchaanga.get_angams_for_kaalas(d, lambda x: NakshatraDivision(x,
-                                                                             ayanamsha_id=self.panchaanga.ayanamsha_id).get_nakshatram(),
+                                                                             ayanamsha_id=self.panchaanga.ayanamsha_id).get_nakshatra(),
                                               'dinamaana')
           if any(x == nwd_fest_n for x in [self.panchaanga.nakshatram_sunrise[d], angams[0], angams[1]]):
             self.add_festival(nwd_fest_name, d, debug_festivals)
@@ -96,13 +96,13 @@ class VaraFestivalAssigner(FestivalAssigner):
       [y, m, dt, t] = temporal.jd_to_utc_gregorian(self.panchaanga.jd_start_utc + d - 1)
 
       # AYUSHMAN BAVA SAUMYA
-      if self.panchaanga.weekday[d] == 3 and NakshatraDivision(self.panchaanga.jd_sunrise[d], ayanamsha_id=self.panchaanga.ayanamsha_id).get_angam(
+      if self.panchaanga.weekday[d] == 3 and NakshatraDivision(self.panchaanga.jd_sunrise[d], ayanamsha_id=self.panchaanga.ayanamsha_id).get_anga(
           zodiac.YOGA) == 3:
-        if NakshatraDivision(self.panchaanga.jd_sunrise[d], ayanamsha_id=self.panchaanga.ayanamsha_id).get_angam(
+        if NakshatraDivision(self.panchaanga.jd_sunrise[d], ayanamsha_id=self.panchaanga.ayanamsha_id).get_anga(
             zodiac.KARANAM) in list(range(2, 52, 7)):
           self.add_festival('AyuSmAn-bava-saumya', d, debug_festivals)
-      if self.panchaanga.weekday[d] == 3 and NakshatraDivision(self.panchaanga.jd_sunset[d], ayanamsha_id=self.panchaanga.ayanamsha_id).get_angam(
+      if self.panchaanga.weekday[d] == 3 and NakshatraDivision(self.panchaanga.jd_sunset[d], ayanamsha_id=self.panchaanga.ayanamsha_id).get_anga(
           zodiac.YOGA) == 3:
-        if NakshatraDivision(self.panchaanga.jd_sunset[d], ayanamsha_id=self.panchaanga.ayanamsha_id).get_angam(
+        if NakshatraDivision(self.panchaanga.jd_sunset[d], ayanamsha_id=self.panchaanga.ayanamsha_id).get_anga(
             zodiac.KARANAM) in list(range(2, 52, 7)):
           self.add_festival('AyuSmAn-bava-saumya', d, debug_festivals)

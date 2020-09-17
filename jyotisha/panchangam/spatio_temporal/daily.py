@@ -154,8 +154,8 @@ class DailyPanchanga(common.JsonObject):
     # If solar transition happens before the current sunset but after the previous sunset, then that is taken to be solar day 1. Number of sunsets since the past solar month transition gives the solar day number.
     if not hasattr(self, "jd_sunrise") or self.jd_sunrise is None:
       self.compute_sun_moon_transitions()
-    self.solar_month = NakshatraDivision(self.jd_sunset, ayanamsha_id=self.ayanamsha_id).get_angam(SOLAR_MONTH)
-    target = ((floor(NakshatraDivision(self.jd_sunset, ayanamsha_id=self.ayanamsha_id).get_angam_float(
+    self.solar_month = NakshatraDivision(self.jd_sunset, ayanamsha_id=self.ayanamsha_id).get_anga(SOLAR_MONTH)
+    target = ((floor(NakshatraDivision(self.jd_sunset, ayanamsha_id=self.ayanamsha_id).get_anga_float(
       SOLAR_MONTH)) - 1) % 12) + 1
 
     # logging.debug(jd_start)
@@ -165,7 +165,7 @@ class DailyPanchanga(common.JsonObject):
     # logging.debug(get_angam_float(jd_sunset + 1, SOLAR_MONTH, -target, ayanamsha_id, False))
 
     jd_masa_transit = brentq(
-      lambda x: NakshatraDivision(x, ayanamsha_id=self.ayanamsha_id).get_angam_float(SOLAR_MONTH, -target, False),
+      lambda x: NakshatraDivision(x, ayanamsha_id=self.ayanamsha_id).get_anga_float(SOLAR_MONTH, -target, False),
       self.jd_sunrise - 34, self.jd_sunset)
 
     jd_sunset_after_masa_transit = self.city.get_setting_time(julian_day_start=jd_masa_transit, body=Graha.SUN)

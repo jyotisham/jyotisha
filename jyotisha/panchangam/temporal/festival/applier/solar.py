@@ -77,7 +77,7 @@ class SolarFestivalAssigner(FestivalAssigner):
       # KARADAIYAN NOMBU
       if self.panchaanga.solar_month[d] == 12 and self.panchaanga.solar_month_day[d] == 1:
         if NakshatraDivision(self.panchaanga.jd_sunrise[d] - (1 / 15.0) * (self.panchaanga.jd_sunrise[d] - self.panchaanga.jd_sunrise[d - 1]),
-                             ayanamsha_id=self.panchaanga.ayanamsha_id).get_solar_rashi() == 12:
+                             ayanamsha_id=self.panchaanga.ayanamsha_id).get_solar_raashi() == 12:
           # If kumbha prevails two ghatikAs before sunrise, nombu can be done in the early morning itself, else, previous night.
           self.panchaanga.fest_days['ta:kAraDaiyAn2 nOn2bu'] = [d - 1]
         else:
@@ -214,10 +214,10 @@ class SolarFestivalAssigner(FestivalAssigner):
       sunrise_zodiac = NakshatraDivision(self.panchaanga.jd_sunrise[d], ayanamsha_id=self.panchaanga.ayanamsha_id)
       sunset_zodiac = NakshatraDivision(self.panchaanga.jd_sunset[d], ayanamsha_id=self.panchaanga.ayanamsha_id)
       if self.panchaanga.lunar_month[d] in [10, 11] and self.panchaanga.tithi_sunrise[d] == 30 or sunrise_zodiac.get_tithi() == 30:
-        if sunrise_zodiac.get_angam(zodiac.YOGA) == 17 or \
-            sunset_zodiac.get_angam(zodiac.YOGA) == 17 and \
-            sunrise_zodiac.get_angam(zodiac.NAKSHATRAM) == 22 or \
-            sunset_zodiac.get_angam(zodiac.NAKSHATRAM) == 22:
+        if sunrise_zodiac.get_anga(zodiac.YOGA) == 17 or \
+            sunset_zodiac.get_anga(zodiac.YOGA) == 17 and \
+            sunrise_zodiac.get_anga(zodiac.NAKSHATRAM) == 22 or \
+            sunset_zodiac.get_anga(zodiac.NAKSHATRAM) == 22:
           if self.panchaanga.weekday[d] == 1:
             festival_name = 'mahOdaya-puNyakAlaH'
             self.add_festival(festival_name, d, debug_festivals)

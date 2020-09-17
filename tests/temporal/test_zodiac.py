@@ -17,11 +17,11 @@ def disabled_test_swe_ayanamsha_api():
 
 def test_get_angam():
   nd = NakshatraDivision(2444961.7125, ayanamsha_id=Ayanamsha.CHITRA_AT_180)
-  assert nd.get_angam(zodiac.NAKSHATRAM) == 16
-  assert nd.get_angam(zodiac.TITHI) == 28
-  assert nd.get_angam(zodiac.YOGA) == 8
-  assert nd.get_angam(zodiac.KARANAM) == 55
-  assert nd.get_solar_rashi() == 9
+  assert nd.get_anga(zodiac.NAKSHATRAM) == 16
+  assert nd.get_anga(zodiac.TITHI) == 28
+  assert nd.get_anga(zodiac.YOGA) == 8
+  assert nd.get_anga(zodiac.KARANAM) == 55
+  assert nd.get_solar_raashi() == 9
 
 
 def test_get_angam_data():

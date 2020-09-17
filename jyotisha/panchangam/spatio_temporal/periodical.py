@@ -108,10 +108,10 @@ class Panchangam(common.JsonObject):
     solar_month_day = daily_panchangam_start.solar_month_day
 
     solar_month_today_sunset = NakshatraDivision(daily_panchangam_start.jd_sunset,
-                                                 ayanamsha_id=self.ayanamsha_id).get_angam(
+                                                 ayanamsha_id=self.ayanamsha_id).get_anga(
       zodiac.SOLAR_MONTH)
     solar_month_tmrw_sunrise = NakshatraDivision(daily_panchangam_start.jd_sunrise + 1,
-                                                 ayanamsha_id=self.ayanamsha_id).get_angam(
+                                                 ayanamsha_id=self.ayanamsha_id).get_anga(
       zodiac.SOLAR_MONTH)
     month_start_after_sunset = solar_month_today_sunset != solar_month_tmrw_sunrise
 
@@ -646,7 +646,7 @@ class Panchangam(common.JsonObject):
       log_data = '%02d-%02d-%4d\t[%3d]\tsun_rashi=%8.3f\ttithi=%8.3f\tsolar_month\
         =%2d\tlunar_month=%4.1f\n' % (dt, m, y, d, (longitude_sun_sunset % 360) / 30.0,
                                       NakshatraDivision(self.jd_sunrise[d],
-                                                        ayanamsha_id=self.ayanamsha_id).get_angam_float(zodiac.TITHI),
+                                                        ayanamsha_id=self.ayanamsha_id).get_anga_float(zodiac.TITHI),
                                       self.solar_month[d], self.lunar_month[d])
       log_file.write(log_data)
 

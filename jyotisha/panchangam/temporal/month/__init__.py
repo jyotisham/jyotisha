@@ -37,8 +37,8 @@ class SiderialSolarBasedAssigner(MonthAssigner):
       zodiac.TITHI, 30, ayanamsha_id=self.panchaanga.ayanamsha_id)
 
     # Check if current mAsa is adhika here
-    is_adhika = NakshatraDivision(last_new_moon.jd_end, ayanamsha_id=self.panchaanga.ayanamsha_id).get_solar_rashi() == \
-                NakshatraDivision(this_new_moon.jd_end, ayanamsha_id=self.panchaanga.ayanamsha_id).get_solar_rashi()
+    is_adhika = NakshatraDivision(last_new_moon.jd_end, ayanamsha_id=self.panchaanga.ayanamsha_id).get_solar_raashi() == \
+                NakshatraDivision(this_new_moon.jd_end, ayanamsha_id=self.panchaanga.ayanamsha_id).get_solar_raashi()
 
     # Keep on finding new moons in the period.
     last_d_assigned = 0
@@ -51,7 +51,7 @@ class SiderialSolarBasedAssigner(MonthAssigner):
       unassigned_days = range(last_d_assigned + 1, last_d_assigned + 32)
       for i in unassigned_days:
         last_solar_month = NakshatraDivision(this_new_moon.jd_end,
-                                             ayanamsha_id=self.panchaanga.ayanamsha_id).get_solar_rashi()
+                                             ayanamsha_id=self.panchaanga.ayanamsha_id).get_solar_raashi()
 
         if i > self.panchaanga.duration + 1 or self.panchaanga.jd_sunrise[i] > this_new_moon.jd_end:
           last_d_assigned = i - 1
@@ -62,8 +62,8 @@ class SiderialSolarBasedAssigner(MonthAssigner):
         else:
           self.panchaanga.lunar_month[i] = last_solar_month
 
-      is_adhika = NakshatraDivision(this_new_moon.jd_end, ayanamsha_id=self.panchaanga.ayanamsha_id).get_solar_rashi() == \
-                  NakshatraDivision(next_new_moon.jd_end, ayanamsha_id=self.panchaanga.ayanamsha_id).get_solar_rashi()
+      is_adhika = NakshatraDivision(this_new_moon.jd_end, ayanamsha_id=self.panchaanga.ayanamsha_id).get_solar_raashi() == \
+                  NakshatraDivision(next_new_moon.jd_end, ayanamsha_id=self.panchaanga.ayanamsha_id).get_solar_raashi()
       last_new_moon.jd_start = this_new_moon.jd_start
       last_new_moon.jd_end = this_new_moon.jd_end
       this_new_moon.jd_start = next_new_moon.jd_start

@@ -89,8 +89,8 @@ class NakshatraDivision(common.JsonObject):
           sector_id_2=((index + 1) % 27 + 1)
         ))
 
-  def get_angam_float(self, angam_type, offset_angas=0, debug=False):
-    """Returns the angam. Computed based on lunar and solar longitudes, division of a circle into a certain number of degrees (arc_len).
+  def get_anga_float(self, angam_type, offset_angas=0, debug=False):
+    """Returns the angam/ temporal property. Computed based on lunar and solar longitudes, division of a circle into a certain number of degrees (arc_len).
 
       Args:
         :param jd: float: The Julian Day at which the angam is to be computed
@@ -128,7 +128,7 @@ class NakshatraDivision(common.JsonObject):
     else:
       return (lcalc / arc_len) + offset_angas
 
-  def get_angam(self, angam_type):
+  def get_anga(self, angam_type):
     """Returns the angam prevailing at a particular time. Computed based on lunar and solar longitudes, division of a circle into a certain number of degrees (arc_len).
 
       Args:
@@ -138,13 +138,13 @@ class NakshatraDivision(common.JsonObject):
         int angam
     """
 
-    return int(1 + floor(self.get_angam_float(angam_type)))
+    return int(1 + floor(self.get_anga_float(angam_type)))
 
   def get_all_angas(self):
     """Compute various properties of the time based on lunar and solar longitudes, division of a circle into a certain number of degrees (arc_len).
     """
     anga_objects = [TITHI, TITHI_PADA, NAKSHATRAM, NAKSHATRA_PADA, RASHI, SOLAR_MONTH, SOLAR_NAKSH, YOGA, KARANAM]
-    angas = list(map(lambda anga_object: self.get_angam(jd=self.julday, angam_type=anga_object), anga_objects))
+    angas = list(map(lambda anga_object: self.get_anga(jd=self.julday, angam_type=anga_object), anga_objects))
     anga_ids = list(map(lambda anga_obj: anga_obj["id"], anga_objects))
     return dict(list(zip(anga_ids, angas)))
 
@@ -162,9 +162,9 @@ class NakshatraDivision(common.JsonObject):
 
     """
 
-    return self.get_angam(TITHI)
+    return self.get_anga(TITHI)
 
-  def get_nakshatram(self):
+  def get_nakshatra(self):
     """Returns the nakshatram prevailing at a given moment
 
     Nakshatram is computed based on the longitude of the Moon; in
@@ -177,7 +177,7 @@ class NakshatraDivision(common.JsonObject):
 
     """
 
-    return self.get_angam(NAKSHATRAM)
+    return self.get_anga(NAKSHATRAM)
 
   def get_yoga(self):
     """Returns the yoha prevailing at a given moment
@@ -190,9 +190,9 @@ class NakshatraDivision(common.JsonObject):
       int yoga, where 1 stands for Vishkambha and 27 stands for Vaidhrti
     """
 
-    return self.get_angam(YOGA)
+    return self.get_anga(YOGA)
 
-  def get_solar_rashi(self):
+  def get_solar_raashi(self):
     """Returns the solar rashi prevailing at a given moment
 
     Solar month is computed based on the longitude of the sun; in
@@ -203,7 +203,7 @@ class NakshatraDivision(common.JsonObject):
       int rashi, where 1 stands for mESa, ..., 12 stands for mIna
     """
 
-    return self.get_angam(SOLAR_MONTH)
+    return self.get_anga(SOLAR_MONTH)
 
 
 def longitudeToRightAscension(longitude):
@@ -252,8 +252,8 @@ def get_angam_data(jd_sunrise, jd_sunrise_tmrw, angam_type, ayanamsha_id):
   num_angas = int(360.0 / arc_len)
 
   # Compute angam details
-  angam_now = NakshatraDivision(jd_sunrise, ayanamsha_id=ayanamsha_id).get_angam(angam_type)
-  angam_tmrw = NakshatraDivision(jd_sunrise_tmrw, ayanamsha_id=ayanamsha_id).get_angam(angam_type)
+  angam_now = NakshatraDivision(jd_sunrise, ayanamsha_id=ayanamsha_id).get_anga(angam_type)
+  angam_tmrw = NakshatraDivision(jd_sunrise_tmrw, ayanamsha_id=ayanamsha_id).get_anga(angam_type)
 
   angams_list = []
 
@@ -302,8 +302,8 @@ def get_angam_data(jd_sunrise, jd_sunrise_tmrw, angam_type, ayanamsha_id):
       TDELTA = 0.05
       try:
         def f(x):
-          return NakshatraDivision(x, ayanamsha_id=ayanamsha_id).get_angam_float(angam_type=angam_type,
-                                                                                 offset_angas=-target, debug=False)
+          return NakshatraDivision(x, ayanamsha_id=ayanamsha_id).get_anga_float(angam_type=angam_type,
+                                                                                offset_angas=-target, debug=False)
 
         t_act = brentq(f, x0 - TDELTA, x0 + TDELTA)
       except ValueError:
@@ -323,7 +323,7 @@ class AngaSpan(Interval):
     jd_bracket_L = jd1
     jd_now = jd1
     while jd_now < jd2 and jd_start is None:
-      angam_now = NakshatraDivision(jd_now, ayanamsha_id=ayanamsha_id).get_angam(angam_type)
+      angam_now = NakshatraDivision(jd_now, ayanamsha_id=ayanamsha_id).get_anga(angam_type)
 
       if angam_now < target_anga_id or (target_anga_id == 1 and angam_now == num_angas):
         # So, jd_now will be lower than jd_start
@@ -332,9 +332,9 @@ class AngaSpan(Interval):
         # In this branch, angam_now will have overshot the jd_start of the required interval.
         try:
           def f(x):
-            return NakshatraDivision(x, ayanamsha_id=ayanamsha_id).get_angam_float(angam_type=angam_type,
-                                                                                   offset_angas=-target_anga_id + 1,
-                                                                                   debug=False)
+            return NakshatraDivision(x, ayanamsha_id=ayanamsha_id).get_anga_float(angam_type=angam_type,
+                                                                                  offset_angas=-target_anga_id + 1,
+                                                                                  debug=False)
 
           jd_start = brentq(f, jd_bracket_L, jd_now)
           return jd_start
@@ -356,7 +356,7 @@ class AngaSpan(Interval):
     jd_now = jd_start
 
     while jd_now < jd2 and jd_end is None:
-      angam_now = NakshatraDivision(jd_now, ayanamsha_id=ayanamsha_id).get_angam(angam_type)
+      angam_now = NakshatraDivision(jd_now, ayanamsha_id=ayanamsha_id).get_anga(angam_type)
 
       if target_anga_id == num_angas:
         # Wait till we land at the next anga!
@@ -371,9 +371,9 @@ class AngaSpan(Interval):
 
     try:
       def f(x):
-        return NakshatraDivision(x, ayanamsha_id=ayanamsha_id).get_angam_float(angam_type=angam_type,
-                                                                               offset_angas=-target_anga_id,
-                                                                               debug=False)
+        return NakshatraDivision(x, ayanamsha_id=ayanamsha_id).get_anga_float(angam_type=angam_type,
+                                                                              offset_angas=-target_anga_id,
+                                                                              debug=False)
 
       jd_end = brentq(f, jd_start, jd_bracket_R)
     except ValueError:

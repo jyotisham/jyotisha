@@ -129,9 +129,9 @@ class FestivalAssigner(JsonObject):
           if self.panchaanga.solar_month_day[d] == angam_num:
             if kaala == 'arunodaya':
               angams = self.panchaanga.get_angams_for_kaalas(d - 1,
-                                                  lambda x: NakshatraDivision(x,
-                                                                              ayanamsha_id=self.panchaanga.ayanamsha_id).get_solar_rashi(),
-                                                  kaala)
+                                                             lambda x: NakshatraDivision(x,
+                                                                              ayanamsha_id=self.panchaanga.ayanamsha_id).get_solar_raashi(),
+                                                             kaala)
               if angams[1] == month_num:
                 self.add_festival(festival_name, d, debug_festivals)
               elif angams[2] == month_num:
@@ -150,7 +150,7 @@ class FestivalAssigner(JsonObject):
           elif angam_type == 'nakshatram':
             angam_sunrise = self.panchaanga.nakshatram_sunrise
             angam_data = self.panchaanga.nakshatram_data
-            get_angam_func = lambda x: NakshatraDivision(x, ayanamsha_id=self.panchaanga.ayanamsha_id).get_nakshatram()
+            get_angam_func = lambda x: NakshatraDivision(x, ayanamsha_id=self.panchaanga.ayanamsha_id).get_nakshatra()
             num_angams = 27
           elif angam_type == 'yoga':
             angam_sunrise = self.panchaanga.yoga_sunrise
