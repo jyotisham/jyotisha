@@ -368,19 +368,19 @@ class TithiFestivalAssigner(FestivalAssigner):
           pref = names.get_chandra_masa(self.panchaanga.lunar_month[d], names.NAMES, 'hk',
                                         visarga=False) + '-'
 
-        ama_nakshatram_today = self.panchaanga.get_angas_for_interval_boundaries(d, lambda x: NakshatraDivision(x,
+        ama_nakshatra_today = self.panchaanga.get_angas_for_interval_boundaries(d, lambda x: NakshatraDivision(x,
                                                                                                                 ayanamsha_id=self.panchaanga.ayanamsha_id).get_nakshatra(),
                                                           'aparaahna')[:2]
         suff = ''
         # Assign
-        if 23 in ama_nakshatram_today and self.panchaanga.lunar_month[d] == 10:
+        if 23 in ama_nakshatra_today and self.panchaanga.lunar_month[d] == 10:
           suff = ' (alabhyam–zraviSThA)'
-        elif 24 in ama_nakshatram_today and self.panchaanga.lunar_month[d] == 10:
+        elif 24 in ama_nakshatra_today and self.panchaanga.lunar_month[d] == 10:
           suff = ' (alabhyam–zatabhiSak)'
-        elif ama_nakshatram_today[0] in [15, 16, 17, 6, 7, 8, 23, 24, 25]:
-          suff = ' (alabhyam–%s)' % names.NAMES['NAKSHATRAM_NAMES']['hk'][ama_nakshatram_today[0]]
-        elif ama_nakshatram_today[1] in [15, 16, 17, 6, 7, 8, 23, 24, 25]:
-          suff = ' (alabhyam–%s)' % names.NAMES['NAKSHATRAM_NAMES']['hk'][ama_nakshatram_today[1]]
+        elif ama_nakshatra_today[0] in [15, 16, 17, 6, 7, 8, 23, 24, 25]:
+          suff = ' (alabhyam–%s)' % names.NAMES['NAKSHATRAM_NAMES']['hk'][ama_nakshatra_today[0]]
+        elif ama_nakshatra_today[1] in [15, 16, 17, 6, 7, 8, 23, 24, 25]:
+          suff = ' (alabhyam–%s)' % names.NAMES['NAKSHATRAM_NAMES']['hk'][ama_nakshatra_today[1]]
         if self.panchaanga.weekday[d] in [1, 2, 4]:
           if suff == '':
             suff = ' (alabhyam–puSkalA)'

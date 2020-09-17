@@ -323,7 +323,7 @@ class Panchangam(common.JsonObject):
     Festival data may be updated more frequently and a precomputed panchangam may go out of sync. Hence we keep this method separate.
     :return:
     """
-    self.reset_festivals()
+    self._reset_festivals()
     TithiAssigner(self).assign_shraaddha_tithi()
     from jyotisha.panchangam.temporal.festival import applier
     applier.MiscFestivalAssigner(panchaanga=self).assign_all(debug=debug)
@@ -334,7 +334,7 @@ class Panchangam(common.JsonObject):
     applier.MiscFestivalAssigner(panchaanga=self).cleanup_festivals(debug=debug)
     applier.MiscFestivalAssigner(panchaanga=self).assign_relative_festivals()
 
-  def reset_festivals(self, compute_lagnams=False):
+  def _reset_festivals(self, compute_lagnams=False):
     self.fest_days = {}
     # Pushkaram starting on 31 Jan might not get over till 12 days later
     self.festivals = [[] for _x in range(self.len + 15)]
