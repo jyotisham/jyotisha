@@ -55,9 +55,9 @@ class Panchangam(common.JsonObject):
 
     self.ayanamsha_id = ayanamsha_id
 
+    self.compute_angams(compute_lagnams=compute_lagnams)
     lunar_month_assigner = MonthAssigner.get_assigner(assigner_id=lunar_month_assigner_type, panchaanga=self)
     lunar_month_assigner.assign()
-    self.compute_angams(compute_lagnams=compute_lagnams)
 
   def compute_angams(self, compute_lagnams=True):
     """Compute the entire panchangam
