@@ -2,7 +2,7 @@ import logging
 import os
 from itertools import filterfalse
 
-from jyotisha.panchangam.temporal import interval
+from jyotisha.panchangam.temporal import interval, PanchaangaApplier
 from jyotisha.panchangam import temporal
 from jyotisha.panchangam.temporal import festival
 from jyotisha.panchangam.temporal import zodiac
@@ -13,13 +13,7 @@ from sanskrit_data.schema.common import JsonObject
 DATA_ROOT = os.path.join(os.path.dirname(festival.__file__), "data")
 
 
-class FestivalAssigner(JsonObject):
-  def __init__(self, panchaanga):
-    self.panchaanga = panchaanga
-
-  def assign_all(self, debug_festivals=False):
-    pass
-
+class FestivalAssigner(PanchaangaApplier):
   def filter_festivals(self,
                        incl_tags=['CommonFestivals', 'MonthlyVratam', 'RareDays', 'AmavasyaDays', 'Dashavataram',
                                   'SunSankranti']):
@@ -415,15 +409,15 @@ class MiscFestivalAssigner(FestivalAssigner):
   def __init__(self, panchaanga):
     super(MiscFestivalAssigner, self).__init__(panchaanga=panchaanga)
   
-  def assign_all(self, debug_festivals=False):
-    self.assign_agni_nakshatram(debug_festivals=debug_festivals)
+  def assign_all(self, debug=False):
+    self.assign_agni_nakshatram(debug_festivals=debug)
     # ASSIGN ALL FESTIVALS FROM adyatithi submodule
     # festival_rules = read_old_festival_rules_dict(os.path.join(CODE_ROOT, 'panchangam/data/festival_rules_test.json'))
     festival_rules = read_old_festival_rules_dict(
       os.path.join(DATA_ROOT, 'legacy/festival_rules.json'))
     assert "tripurOtsavaH" in festival_rules
-    self.assign_festivals_from_rules(festival_rules, debug_festivals=debug_festivals)
-    self.assign_festival_numbers(festival_rules, debug_festivals=debug_festivals)
+    self.assign_festivals_from_rules(festival_rules, debug_festivals=debug)
+    self.assign_festival_numbers(festival_rules, debug_festivals=debug)
     
 
   def assign_agni_nakshatram(self, debug_festivals=False):

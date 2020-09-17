@@ -5,12 +5,12 @@ from jyotisha.panchangam.temporal.zodiac import NakshatraDivision
 
 
 class VaraFestivalAssigner(FestivalAssigner):
-  def assign_all(self, debug_festivals=False):
-    self.assign_bhriguvara_subrahmanya_vratam(debug_festivals=debug_festivals)
-    self.assign_masa_vara_yoga_vratam(debug_festivals=debug_festivals)
-    self.assign_nakshatra_vara_yoga_vratam(debug_festivals=debug_festivals)
-    self.assign_ayushman_bava_saumya_yoga(debug_festivals=debug_festivals)
-    self.assign_tithi_vara_yoga(debug_festivals=debug_festivals)
+  def assign_all(self, debug=False):
+    self.assign_bhriguvara_subrahmanya_vratam(debug_festivals=debug)
+    self.assign_masa_vara_yoga_vratam(debug_festivals=debug)
+    self.assign_nakshatra_vara_yoga_vratam(debug_festivals=debug)
+    self.assign_ayushman_bava_saumya_yoga(debug_festivals=debug)
+    self.assign_tithi_vara_yoga(debug_festivals=debug)
 
 
   def assign_bhriguvara_subrahmanya_vratam(self, debug_festivals=False):

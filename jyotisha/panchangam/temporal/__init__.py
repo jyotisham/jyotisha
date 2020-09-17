@@ -5,6 +5,7 @@ from astropy.time import Time
 
 from jyotisha.panchangam.temporal import hour
 from sanskrit_data.schema import common
+from sanskrit_data.schema.common import JsonObject
 
 logging.basicConfig(
   level=logging.DEBUG,
@@ -76,6 +77,17 @@ def sanitize_time(year_in, month_in, day_in, hour_in, minute_in, second_in):
     year = year + (month - 1) / 12
     month = ((month - 1) % 12) + 1
   return (year, month, day, hour, minute, second)
+
+
+class PanchaangaApplier(JsonObject):
+  """Objects of this type apply various temporal attributes to panchAnga-s."""
+  def __init__(self, panchaanga):
+    self.panchaanga = panchaanga
+
+  def assign_all(self, debug=False):
+    pass
+
+
 
 
 # Essential for depickling to work.

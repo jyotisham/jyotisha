@@ -12,7 +12,7 @@ from jyotisha.panchangam.temporal.hour import Hour
 
 
 class EclipticFestivalAssigner(FestivalAssigner):
-  def assign_all(self, debug_festivals=False):
+  def assign_all(self, debug=False):
     self.computeTransits()
     self.compute_solar_eclipses()
     self.compute_lunar_eclipses()

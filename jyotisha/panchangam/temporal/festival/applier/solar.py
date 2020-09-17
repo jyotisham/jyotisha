@@ -13,12 +13,12 @@ from jyotisha.panchangam.temporal.zodiac import NakshatraDivision, AngaSpan
 
 
 class SolarFestivalAssigner(FestivalAssigner):
-  def assign_all(self, debug_festivals=False):
-    self.assign_gajachhaya_yoga(debug_festivals=debug_festivals)
-    self.assign_mahodaya_ardhodaya(debug_festivals=debug_festivals)
-    self.assign_month_day_festivals(debug_festivals=debug_festivals)
-    self.assign_ayanam(debug_festivals=debug_festivals)
-    self.assign_vishesha_vyatipata(debug_festivals=debug_festivals)
+  def assign_all(self, debug=False):
+    self.assign_gajachhaya_yoga(debug_festivals=debug)
+    self.assign_mahodaya_ardhodaya(debug_festivals=debug)
+    self.assign_month_day_festivals(debug_festivals=debug)
+    self.assign_ayanam(debug_festivals=debug)
+    self.assign_vishesha_vyatipata(debug_festivals=debug)
 
   def assign_ayanam(self, debug_festivals=False):
     last_d_assigned = 0

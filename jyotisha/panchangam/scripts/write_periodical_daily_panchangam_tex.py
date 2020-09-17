@@ -18,6 +18,7 @@ import jyotisha.panchangam.temporal.hour
 from jyotisha.panchangam import temporal
 from jyotisha.panchangam.spatio_temporal import City
 from jyotisha.panchangam.temporal import zodiac
+from jyotisha.panchangam.temporal.nakshatra import NakshatraAssigner
 
 logging.basicConfig(
   level=logging.DEBUG,
@@ -70,8 +71,9 @@ def writeDailyTeX(panchangam, template_file, compute_lagnams=True, output_stream
   print('\\end{center}', file=output_stream)
   print('\\clearpage\\pagestyle{fancy}', file=output_stream)
 
-  panchangam.calc_nakshatra_tyaajya(False)
-  panchangam.calc_nakshatra_amrta(False)
+  nakshatra_assigner = NakshatraAssigner(panchangam)
+  nakshatra_assigner.calc_nakshatra_tyaajya(False)
+  nakshatra_assigner.calc_nakshatra_amrta(False)
 
   for d in range(1, panchangam.duration + 1):
 

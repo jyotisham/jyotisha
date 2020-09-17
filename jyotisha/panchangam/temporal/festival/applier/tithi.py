@@ -15,16 +15,16 @@ from jyotisha.panchangam.temporal.zodiac import NakshatraDivision
 
 
 class TithiFestivalAssigner(FestivalAssigner):
-  def assign_all(self, debug_festivals=False):
-    self.assign_chandra_darshanam(debug_festivals=debug_festivals)
-    self.assign_chaturthi_vratam(debug_festivals=debug_festivals)
-    self.assign_shasthi_vratam(debug_festivals=debug_festivals)
-    self.assign_vishesha_saptami(debug_festivals=debug_festivals)
-    self.assign_ekadashi_vratam(debug_festivals=debug_festivals)
-    self.assign_mahadwadashi(debug_festivals=debug_festivals)
-    self.assign_pradosha_vratam(debug_festivals=debug_festivals)
-    self.assign_vishesha_trayodashi(debug_festivals=debug_festivals)
-    self.assign_amavasya_yoga(debug_festivals=debug_festivals)
+  def assign_all(self, debug=False):
+    self.assign_chandra_darshanam(debug_festivals=debug)
+    self.assign_chaturthi_vratam(debug_festivals=debug)
+    self.assign_shasthi_vratam(debug_festivals=debug)
+    self.assign_vishesha_saptami(debug_festivals=debug)
+    self.assign_ekadashi_vratam(debug_festivals=debug)
+    self.assign_mahadwadashi(debug_festivals=debug)
+    self.assign_pradosha_vratam(debug_festivals=debug)
+    self.assign_vishesha_trayodashi(debug_festivals=debug)
+    self.assign_amavasya_yoga(debug_festivals=debug)
   
   def assign_chaturthi_vratam(self, debug_festivals=False):
     for d in range(1, self.panchaanga.duration + 1):

@@ -303,103 +303,13 @@ class Panchangam(common.JsonObject):
       raise ValueError('Unkown kaala "%s" input!' % interval_type)
     return angas
 
-  def calc_nakshatra_tyaajya(self, debug_tyajyam=False):
-    self.tyajyam_data = [[] for _x in range(self.duration + 1)]
-    if self.nakshatram_data[0] is None:
-      self.nakshatram_data[0] = zodiac.get_angam_data(self.jd_sunrise[0], self.jd_sunrise[1],
-                                                      zodiac.NAKSHATRAM, ayanamsha_id=self.ayanamsha_id)
-    for d in range(1, self.duration + 1):
-      [y, m, dt, t] = temporal.jd_to_utc_gregorian(self.jd_start_utc + d - 1)
-      jd = self.jd_midnight[d]
-      t_start = self.nakshatram_data[d - 1][-1][1]
-      if t_start is not None:
-        n, t_end = self.nakshatram_data[d][0]
-        if t_end is None:
-          t_end = self.nakshatram_data[d + 1][0][1]
-        tyaajya_start = t_start + (t_end - t_start) / 60 * (temporal.TYAJYAM_SPANS_REL[n - 1] - 1)
-        tyaajya_end = t_start + (t_end - t_start) / 60 * (temporal.TYAJYAM_SPANS_REL[n - 1] + 3)
-        if tyaajya_start < self.jd_sunrise[d]:
-          self.tyajyam_data[d - 1] += [(tyaajya_start, tyaajya_end)]
-          if debug_tyajyam:
-            logging.debug('![%3d]%04d-%02d-%02d: %s (>>%s), %s–%s' %
-                          (d - 1, y, m, dt - 1, names.NAMES['NAKSHATRAM_NAMES']['hk'][n],
-                           Hour(24 * (t_end - self.jd_midnight[d - 1])).toString(format='hh:mm*'),
-                           Hour(24 * (tyaajya_start - self.jd_midnight[d - 1])).toString(format='hh:mm*'),
-                           Hour(24 * (tyaajya_end - self.jd_midnight[d - 1])).toString(format='hh:mm*')))
-        else:
-          self.tyajyam_data[d] = [(tyaajya_start, tyaajya_end)]
-          if debug_tyajyam:
-            logging.debug(' [%3d]%04d-%02d-%02d: %s (>>%s), %s–%s' %
-                          (d, y, m, dt, names.NAMES['NAKSHATRAM_NAMES']['hk'][n],
-                           Hour(24 * (t_end - jd)).toString(format='hh:mm*'),
-                           Hour(24 * (tyaajya_start - jd)).toString(format='hh:mm*'),
-                           Hour(24 * (tyaajya_end - jd)).toString(format='hh:mm*')))
-
-      if len(self.nakshatram_data[d]) == 2:
-        t_start = t_end
-        n2, t_end = self.nakshatram_data[d][1]
-        tyaajya_start = t_start + (t_end - t_start) / 60 * (temporal.TYAJYAM_SPANS_REL[n2 - 1] - 1)
-        tyaajya_end = t_start + (t_end - t_start) / 60 * (temporal.TYAJYAM_SPANS_REL[n2 - 1] + 3)
-        self.tyajyam_data[d] += [(tyaajya_start, tyaajya_end)]
-        if debug_tyajyam:
-          logging.debug(' [%3d]            %s (>>%s), %s–%s' %
-                        (d, names.NAMES['NAKSHATRAM_NAMES']['hk'][n2],
-                         Hour(24 * (t_end - jd)).toString(format='hh:mm*'),
-                         Hour(24 * (tyaajya_start - jd)).toString(format='hh:mm*'),
-                         Hour(24 * (tyaajya_end - jd)).toString(format='hh:mm*')))
-
-  def calc_nakshatra_amrta(self, debug_amrita=False):
-    self.amrita_data = [[] for _x in range(self.duration + 1)]
-    if self.nakshatram_data[0] is None:
-      self.nakshatram_data[0] = zodiac.get_angam_data(self.jd_sunrise[0], self.jd_sunrise[1],
-                                                      zodiac.NAKSHATRAM, ayanamsha_id=self.ayanamsha_id)
-    for d in range(1, self.duration + 1):
-      [y, m, dt, t] = temporal.jd_to_utc_gregorian(self.jd_start_utc + d - 1)
-      jd = self.jd_midnight[d]
-      t_start = self.nakshatram_data[d - 1][-1][1]
-      if t_start is not None:
-        n, t_end = self.nakshatram_data[d][0]
-        if t_end is None:
-          t_end = self.nakshatram_data[d + 1][0][1]
-        amrita_start = t_start + (t_end - t_start) / 60 * (temporal.AMRITA_SPANS_REL[n - 1] - 1)
-        amrita_end = t_start + (t_end - t_start) / 60 * (temporal.AMRITA_SPANS_REL[n - 1] + 3)
-        if amrita_start < self.jd_sunrise[d]:
-          self.amrita_data[d - 1] += [(amrita_start, amrita_end)]
-          if debug_amrita:
-            logging.debug('![%3d]%04d-%02d-%02d: %s (>>%s), %s–%s' %
-                          (d - 1, y, m, dt - 1, names.NAMES['NAKSHATRAM_NAMES']['hk'][n],
-                           Hour(24 * (t_end - self.jd_midnight[d - 1])).toString(format='hh:mm*'),
-                           Hour(24 * (amrita_start - self.jd_midnight[d - 1])).toString(format='hh:mm*'),
-                           Hour(24 * (amrita_end - self.jd_midnight[d - 1])).toString(format='hh:mm*')))
-        else:
-          self.amrita_data[d] = [(amrita_start, amrita_end)]
-          if debug_amrita:
-            logging.debug(' [%3d]%04d-%02d-%02d: %s (>>%s), %s–%s' %
-                          (d, y, m, dt, names.NAMES['NAKSHATRAM_NAMES']['hk'][n],
-                           Hour(24 * (t_end - jd)).toString(format='hh:mm*'),
-                           Hour(24 * (amrita_start - jd)).toString(format='hh:mm*'),
-                           Hour(24 * (amrita_end - jd)).toString(format='hh:mm*')))
-
-      if len(self.nakshatram_data[d]) == 2:
-        t_start = t_end
-        n2, t_end = self.nakshatram_data[d][1]
-        amrita_start = t_start + (t_end - t_start) / 60 * (temporal.AMRITA_SPANS_REL[n2 - 1] - 1)
-        amrita_end = t_start + (t_end - t_start) / 60 * (temporal.AMRITA_SPANS_REL[n2 - 1] + 3)
-        self.amrita_data[d] += [(amrita_start, amrita_end)]
-        if debug_amrita:
-          logging.debug(' [%3d]            %s (>>%s), %s–%s' %
-                        (d, names.NAMES['NAKSHATRAM_NAMES']['hk'][n2],
-                         Hour(24 * (t_end - jd)).toString(format='hh:mm*'),
-                         Hour(24 * (amrita_start - jd)).toString(format='hh:mm*'),
-                         Hour(24 * (amrita_end - jd)).toString(format='hh:mm*')))
-
   def compute_festivals(self, debug_festivals=False):
     from jyotisha.panchangam.temporal.festival import applier
-    applier.MiscFestivalAssigner(panchaanga=self).assign_all(debug_festivals=debug_festivals)
-    applier.ecliptic.EclipticFestivalAssigner(panchaanga=self).assign_all(debug_festivals=debug_festivals)
-    applier.tithi.TithiFestivalAssigner(panchaanga=self).assign_all(debug_festivals=debug_festivals)
-    applier.solar.SolarFestivalAssigner(panchaanga=self).assign_all(debug_festivals=debug_festivals)
-    applier.vaara.VaraFestivalAssigner(panchaanga=self).assign_all(debug_festivals=debug_festivals)
+    applier.MiscFestivalAssigner(panchaanga=self).assign_all(debug=debug_festivals)
+    applier.ecliptic.EclipticFestivalAssigner(panchaanga=self).assign_all(debug=debug_festivals)
+    applier.tithi.TithiFestivalAssigner(panchaanga=self).assign_all(debug=debug_festivals)
+    applier.solar.SolarFestivalAssigner(panchaanga=self).assign_all(debug=debug_festivals)
+    applier.vaara.VaraFestivalAssigner(panchaanga=self).assign_all(debug=debug_festivals)
     applier.MiscFestivalAssigner(panchaanga=self).cleanup_festivals(debug_festivals=debug_festivals)
     applier.MiscFestivalAssigner(panchaanga=self).assign_relative_festivals()
 
