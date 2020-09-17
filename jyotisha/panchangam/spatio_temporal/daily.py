@@ -31,7 +31,7 @@ class DailyPanchanga(common.JsonObject):
     return DailyPanchanga(city=city, year=year, month=month, day=day, ayanamsha_id=ayanamsha_id)
 
   def __init__(self, city: City, year: int, month: int, day: int, ayanamsha_id: str = Ayanamsha.CHITRA_AT_180,
-               previous_day_panchangam=None) -> None:
+               previous_day_panchaanga=None) -> None:
     """Constructor for the panchangam.
     """
     super(DailyPanchanga, self).__init__()
@@ -50,7 +50,7 @@ class DailyPanchanga(common.JsonObject):
     self.jd_next_sunrise = None
     self.jd_moonrise = None
     self.jd_moonset = None
-    self.compute_sun_moon_transitions(previous_day_panchangam=previous_day_panchangam)
+    self.compute_sun_moon_transitions(previous_day_panchaanga=previous_day_panchaanga)
 
     self.tb_muhuurtas = None
     self.lagna_data = None
@@ -70,23 +70,23 @@ class DailyPanchanga(common.JsonObject):
 
     self.festivals = []
 
-  def compute_sun_moon_transitions(self, previous_day_panchangam=None, force_recomputation=False):
+  def compute_sun_moon_transitions(self, previous_day_panchaanga=None, force_recomputation=False):
     """
 
-    :param previous_day_panchangam: Panchangam for previous day, to avoid unnecessary calculations. (rise_trans calculations can be time consuming.)
+    :param previous_day_panchaanga: Panchangam for previous day, to avoid unnecessary calculations. (rise_trans calculations can be time consuming.)
     :param force_recomputation: Boolean indicating if the transitions should be recomputed. (rise_trans calculations can be time consuming.)
     :return:
     """
     if force_recomputation or self.jd_sunrise is None:
-      if previous_day_panchangam is not None and previous_day_panchangam.jd_next_sunrise is not None:
-        self.jd_sunrise = previous_day_panchangam.jd_next_sunrise
+      if previous_day_panchaanga is not None and previous_day_panchaanga.jd_next_sunrise is not None:
+        self.jd_sunrise = previous_day_panchaanga.jd_next_sunrise
       else:
         self.jd_sunrise = self.city.get_rising_time(julian_day_start=self.julian_day_start, body=Graha.SUN)
     if force_recomputation or self.jd_sunset is None:
       self.jd_sunset = self.city.get_setting_time(julian_day_start=self.jd_sunrise, body=Graha.SUN)
     if force_recomputation or self.jd_previous_sunset is None:
-      if previous_day_panchangam is not None and previous_day_panchangam.jd_sunset is not None:
-        self.jd_previous_sunset = previous_day_panchangam.jd_sunset
+      if previous_day_panchaanga is not None and previous_day_panchaanga.jd_sunset is not None:
+        self.jd_previous_sunset = previous_day_panchaanga.jd_sunset
       else:
         self.jd_previous_sunset = self.city.get_setting_time(julian_day_start=self.jd_sunrise - 1,
                                                              body=Graha.SUN)
