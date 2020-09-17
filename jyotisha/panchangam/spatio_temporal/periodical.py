@@ -187,7 +187,7 @@ class Panchangam(common.JsonObject):
         self.lagna_data[d] = daily_panchaangas[d].get_lagna_data()
 
 
-  def get_angams_for_kaalas(self, d, get_anga_func, kaala_type):
+  def get_angas_for_intervals(self, d, get_anga_func, interval_type):
     jd_sunrise = self.jd_sunrise[d]
     jd_sunrise_tmrw = self.jd_sunrise[d + 1]
     jd_sunrise_datmrw = self.jd_sunrise[d + 2]
@@ -195,112 +195,113 @@ class Panchangam(common.JsonObject):
     jd_sunset_tmrw = self.jd_sunset[d + 1]
     jd_moonrise = self.jd_moonrise[d]
     jd_moonrise_tmrw = self.jd_moonrise[d + 1]
-    if kaala_type == 'sunrise':
-      angams = [get_anga_func(jd_sunrise),
+    if interval_type == 'sunrise':
+      angas = [get_anga_func(jd_sunrise),
                 get_anga_func(jd_sunrise),
                 get_anga_func(jd_sunrise_tmrw),
                 get_anga_func(jd_sunrise_tmrw)]
-    elif kaala_type == 'sunset':
-      angams = [get_anga_func(jd_sunset),
+    elif interval_type == 'sunset':
+      angas = [get_anga_func(jd_sunset),
                 get_anga_func(jd_sunset),
                 get_anga_func(jd_sunset_tmrw),
                 get_anga_func(jd_sunset_tmrw)]
-    elif kaala_type == 'praatah':
-      angams = [get_anga_func(jd_sunrise),  # praatah1 start
+    elif interval_type == 'praatah':
+      angas = [get_anga_func(jd_sunrise),  # praatah1 start
                 # praatah1 end
                 get_anga_func(jd_sunrise + (jd_sunset - jd_sunrise) * (1.0 / 5.0)),
                 get_anga_func(jd_sunrise_tmrw),  # praatah2 start
                 # praatah2 end
                 get_anga_func(jd_sunrise_tmrw + \
                               (jd_sunset_tmrw - jd_sunrise_tmrw) * (1.0 / 5.0))]
-    elif kaala_type == 'sangava':
-      angams = [
+    elif interval_type == 'sangava':
+      angas = [
         get_anga_func(jd_sunrise + (jd_sunset - jd_sunrise) * (1.0 / 5.0)),
         get_anga_func(jd_sunrise + (jd_sunset - jd_sunrise) * (2.0 / 5.0)),
         get_anga_func(jd_sunrise_tmrw +
                       (jd_sunset_tmrw - jd_sunrise_tmrw) * (1.0 / 5.0)),
         get_anga_func(jd_sunrise_tmrw +
                       (jd_sunset_tmrw - jd_sunrise_tmrw) * (2.0 / 5.0))]
-    elif kaala_type == 'madhyaahna':
-      angams = [
+    elif interval_type == 'madhyaahna':
+      angas = [
         get_anga_func(jd_sunrise + (jd_sunset - jd_sunrise) * (2.0 / 5.0)),
         get_anga_func(jd_sunrise + (jd_sunset - jd_sunrise) * (3.0 / 5.0)),
         get_anga_func(jd_sunrise_tmrw +
                       (jd_sunset_tmrw - jd_sunrise_tmrw) * (2.0 / 5.0)),
         get_anga_func(jd_sunrise_tmrw + (jd_sunset_tmrw -
                                          jd_sunrise_tmrw) * (3.0 / 5.0))]
-    elif kaala_type == 'aparaahna':
-      angams = [
+    elif interval_type == 'aparaahna':
+      angas = [
         get_anga_func(jd_sunrise + (jd_sunset - jd_sunrise) * (3.0 / 5.0)),
         get_anga_func(jd_sunrise + (jd_sunset - jd_sunrise) * (4.0 / 5.0)),
         get_anga_func(jd_sunrise_tmrw +
                       (jd_sunset_tmrw - jd_sunrise_tmrw) * (3.0 / 5.0)),
         get_anga_func(jd_sunrise_tmrw +
                       (jd_sunset_tmrw - jd_sunrise_tmrw) * (4.0 / 5.0))]
-    elif kaala_type == 'saayaahna':
-      angams = [
+    elif interval_type == 'saayaahna':
+      angas = [
         get_anga_func(jd_sunrise + (jd_sunset - jd_sunrise) * (4.0 / 5.0)),
         get_anga_func(jd_sunrise + (jd_sunset - jd_sunrise) * (5.0 / 5.0)),
         get_anga_func(jd_sunrise_tmrw +
                       (jd_sunset_tmrw - jd_sunrise_tmrw) * (4.0 / 5.0)),
         get_anga_func(jd_sunrise_tmrw +
                       (jd_sunset_tmrw - jd_sunrise_tmrw) * (5.0 / 5.0))]
-    elif kaala_type == 'madhyaraatri':
-      angams = [
+    elif interval_type == 'madhyaraatri':
+      angas = [
         get_anga_func(jd_sunset + (jd_sunrise_tmrw - jd_sunset) * (2.0 / 5.0)),
         get_anga_func(jd_sunset + (jd_sunrise_tmrw - jd_sunset) * (3.0 / 5.0)),
         get_anga_func(jd_sunset_tmrw +
                       (jd_sunrise_datmrw - jd_sunset_tmrw) * (2.0 / 5.0)),
         get_anga_func(jd_sunset_tmrw +
                       (jd_sunrise_datmrw - jd_sunset_tmrw) * (3.0 / 5.0))]
-    elif kaala_type == 'pradosha':
+    elif interval_type == 'pradosha':
       # pradOSo.astamayAdUrdhvaM ghaTikAdvayamiShyatE (tithyAdi tattvam, Vrat Parichay p. 25 Gita Press)
-      angams = [get_anga_func(jd_sunset),
+      angas = [get_anga_func(jd_sunset),
                 get_anga_func(jd_sunset + (jd_sunrise_tmrw - jd_sunset) * (1.0 / 15.0)),
                 get_anga_func(jd_sunset_tmrw),
                 get_anga_func(jd_sunset_tmrw +
                               (jd_sunrise_datmrw - jd_sunset_tmrw) * (1.0 / 15.0))]
-    elif kaala_type == 'nishita':
-      angams = [
+    elif interval_type == 'nishita':
+      angas = [
         get_anga_func(jd_sunset + (jd_sunrise_tmrw - jd_sunset) * (7.0 / 15.0)),
         get_anga_func(jd_sunset + (jd_sunrise_tmrw - jd_sunset) * (8.0 / 15.0)),
         get_anga_func(jd_sunset_tmrw +
                       (jd_sunrise_datmrw - jd_sunset_tmrw) * (7.0 / 15.0)),
         get_anga_func(jd_sunset_tmrw +
                       (jd_sunrise_datmrw - jd_sunset_tmrw) * (8.0 / 15.0))]
-    elif kaala_type == 'dinamaana':
-      angams = [
+    elif interval_type == 'dinamaana':
+      angas = [
         get_anga_func(jd_sunrise + (jd_sunset - jd_sunrise) * (0.0 / 5.0)),
         get_anga_func(jd_sunrise + (jd_sunset - jd_sunrise) * (5.0 / 5.0)),
         get_anga_func(jd_sunrise_tmrw +
                       (jd_sunset_tmrw - jd_sunrise_tmrw) * (0.0 / 5.0)),
         get_anga_func(jd_sunrise_tmrw + (jd_sunset_tmrw -
                                          jd_sunrise_tmrw) * (5.0 / 5.0))]
-    elif kaala_type == 'raatrimaana':
-      angams = [
+    elif interval_type == 'raatrimaana':
+      angas = [
         get_anga_func(jd_sunset + (jd_sunrise_tmrw - jd_sunset) * (0.0 / 15.0)),
         get_anga_func(jd_sunset + (jd_sunrise_tmrw - jd_sunset) * (15.0 / 15.0)),
         get_anga_func(jd_sunset_tmrw +
                       (jd_sunrise_datmrw - jd_sunset_tmrw) * (0.0 / 15.0)),
         get_anga_func(jd_sunset_tmrw +
                       (jd_sunrise_datmrw - jd_sunset_tmrw) * (15.0 / 15.0))]
-    elif kaala_type == 'arunodaya':  # deliberately not simplifying expressions involving 15/15
-      angams = [
+    elif interval_type == 'arunodaya':  
+      # deliberately not simplifying expressions involving 15/15
+      angas = [
         get_anga_func(jd_sunset + (jd_sunrise_tmrw - jd_sunset) * (13.0 / 15.0)),
         get_anga_func(jd_sunset + (jd_sunrise_tmrw - jd_sunset) * (15.0 / 15.0)),
         get_anga_func(jd_sunset_tmrw +
                       (jd_sunrise_datmrw - jd_sunset_tmrw) * (13.0 / 15.0)),
         get_anga_func(jd_sunset_tmrw +
                       (jd_sunrise_datmrw - jd_sunset_tmrw) * (15.0 / 15.0))]
-    elif kaala_type == 'moonrise':
-      angams = [get_anga_func(jd_moonrise),
+    elif interval_type == 'moonrise':
+      angas = [get_anga_func(jd_moonrise),
                 get_anga_func(jd_moonrise),
                 get_anga_func(jd_moonrise_tmrw),
                 get_anga_func(jd_moonrise_tmrw)]
     else:
       # Error!
-      raise ValueError('Unkown kaala "%s" input!' % kaala_type)
-    return angams
+      raise ValueError('Unkown kaala "%s" input!' % interval_type)
+    return angas
 
   def calc_nakshatra_tyaajya(self, debug_tyajyam=False):
     self.tyajyam_data = [[] for _x in range(self.duration + 1)]
@@ -420,10 +421,10 @@ class Panchangam(common.JsonObject):
       def f(x):
         return NakshatraDivision(x, ayanamsha_id=self.ayanamsha_id).get_tithi()
 
-      angams = self.get_angams_for_kaalas(d, f, 'aparaahna')
-      angam_start = angams[0]
-      next_angam = (angam_start % 30) + 1
-      nnext_angam = (next_angam % 30) + 1
+      angas = self.get_angas_for_intervals(d, f, 'aparaahna')
+      angam_start = angas[0]
+      next_anga = (angam_start % 30) + 1
+      nnext_anga = (next_anga % 30) + 1
 
       # Calc vyaaptis
       t_start_d, t_end_d = temporal.get_interval(self.jd_sunrise[d], self.jd_sunset[d], 3, 5).to_tuple()
@@ -455,59 +456,59 @@ class Panchangam(common.JsonObject):
       # <g> 1 2 2 3 - vyApti: 2
       fday = -1
       reason = '?'
-      # if angams[1] == angam_start:
+      # if angas[1] == angam_start:
       #     logging.debug('Pre-emptively assign %2d to %3d, can be removed tomorrow if need be.' % (angam_start, d))
       #     _assign(self, d, angam_start)
-      if angams[3] == angam_start:  # <a>
+      if angas[3] == angam_start:  # <a>
         # Full aparaahnas on both days, so second day
         fday = d + 1
         s_tithi = angam_start
         reason = '%2d incident on consecutive days; paraviddhA' % s_tithi
-      elif (angams[1] == angam_start) and (angams[2] == next_angam):  # <b>/<f>
+      elif (angas[1] == angam_start) and (angas[2] == next_anga):  # <b>/<f>
         fday = d
-        s_tithi = angams[0]
+        s_tithi = angas[0]
         reason = '%2d not incident on %3d' % (s_tithi, d + 1)
-        if angams[3] == nnext_angam:  # <f>
+        if angas[3] == nnext_anga:  # <f>
           if debug_shraaddha_tithi:
             logging.debug('%03d [%4d-%02d-%02d]: %s' % (d, y, m, dt,
                                                         'Need to assign %2d to %3d as it is present only at start of aparAhna tomorrow!)' % (
-                                                          next_angam, d + 1)))
-          _assign(self, d + 1, next_angam)
-      elif angams[2] == angam_start:  # <e>
+                                                          next_anga, d + 1)))
+          _assign(self, d + 1, next_anga)
+      elif angas[2] == angam_start:  # <e>
         if vyapti_1 > vyapti_3:
           # Most likely
           fday = d
-          s_tithi = angams[2]
+          s_tithi = angas[2]
           reason = '%2d has more vyApti on day %3d (%f ghatikAs; full?) compared to day %3d (%f ghatikAs)' % (
             s_tithi, d, vyapti_1 * 60, d + 1, vyapti_3 * 60)
         else:
           fday = d + 1
-          s_tithi = angams[2]
+          s_tithi = angas[2]
           reason = '%2d has more vyApti on day %3d (%f ghatikAs) compared to day %3d (%f ghatikAs) --- unusual!' % (
             s_tithi, d + 1, vyapti_3 * 60, d, vyapti_1 * 60)
-      elif angams[2] == nnext_angam:  # <d>/<h>
-        if angams[1] == next_angam:  # <h>
+      elif angas[2] == nnext_anga:  # <d>/<h>
+        if angas[1] == next_anga:  # <h>
           fday = d
-          s_tithi = angams[1]
+          s_tithi = angas[1]
           reason = '%2d has some vyApti on day %3d; not incident on day %3d at all' % (s_tithi, d, d + 1)
         else:  # <d>
           s_tithi = angam_start
           fday = d
           reason = '%2d is incident fully at aparAhna today (%3d), and not incident tomorrow (%3d)!' % (
             s_tithi, d, d + 1)
-          # Need to check vyApti of next_angam in sAyaMkAla: if it's nearly entire sAyaMkAla ie 5-59-30 or more!
+          # Need to check vyApti of next_anga in sAyaMkAla: if it's nearly entire sAyaMkAla ie 5-59-30 or more!
           if debug_shraaddha_tithi:
             logging.debug('%03d [%4d-%02d-%02d]: %s' % (d, y, m, dt,
                                                         '%2d not incident at aparAhna on either day (%3d/%3d); picking second day %3d!' % (
-                                                          next_angam, d, d + 1, d + 1)))
-          _assign(self, d + 1, next_angam)
+                                                          next_anga, d, d + 1, d + 1)))
+          _assign(self, d + 1, next_anga)
           # logging.debug(reason)
-      elif angams[1] == angams[2] == angams[3] == next_angam:  # <c>
-        s_tithi = next_angam
+      elif angas[1] == angas[2] == angas[3] == next_anga:  # <c>
+        s_tithi = next_anga
         fday = d + 1
         reason = '%2d has more vyApti on %3d (full) compared to %3d (part)' % (s_tithi, d + 1, d)
-      elif angams[1] == angams[2] == next_angam:  # <g>
-        s_tithi = angams[2]
+      elif angas[1] == angas[2] == next_anga:  # <g>
+        s_tithi = angas[2]
         if vyapti_2 > vyapti_3:
           # Most likely
           fday = d
@@ -518,7 +519,7 @@ class Panchangam(common.JsonObject):
           reason = '%2d has more vyApti on day %3d (%f ghatikAs) compared to day %3d (%f ghatikAs)' % (
             s_tithi, d + 1, vyapti_3 * 60, d, vyapti_2 * 60)  # Examine for greater vyApti
       else:
-        logging.error('Should not reach here ever! %s' % str(angams))
+        logging.error('Should not reach here ever! %s' % str(angas))
         reason = '?'
       if debug_shraaddha_tithi:
         logging.debug(
