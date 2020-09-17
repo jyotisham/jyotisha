@@ -22,7 +22,7 @@ from jyotisha.panchangam.temporal import zodiac
 from jyotisha.panchangam.temporal.body import Graha
 from jyotisha.panchangam.temporal.festival import read_old_festival_rules_dict
 from jyotisha.panchangam.temporal.hour import Hour
-from jyotisha.panchangam.temporal.month import SiderialSolarBasedAssigner, MonthAssigner
+from jyotisha.panchangam.temporal.month import SiderialSolarBasedAssigner, LunarMonthAssigner
 from jyotisha.panchangam.temporal.tithi import TithiAssigner
 from jyotisha.panchangam.temporal.zodiac import NakshatraDivision, AngaSpan
 from sanskrit_data.schema import common
@@ -33,7 +33,7 @@ class Panchangam(common.JsonObject):
   """This class enables the construction of a panchangam for arbitrary periods, with festivals.
     """
 
-  def __init__(self, city, start_date, end_date, lunar_month_assigner_type=MonthAssigner.SIDERIAL_SOLAR_BASED, script=sanscript.DEVANAGARI, fmt='hh:mm',
+  def __init__(self, city, start_date, end_date, lunar_month_assigner_type=LunarMonthAssigner.SIDERIAL_SOLAR_BASED, script=sanscript.DEVANAGARI, fmt='hh:mm',
                ayanamsha_id=zodiac.Ayanamsha.CHITRA_AT_180,
                compute_lagnams=False):
     """Constructor for the panchangam.
@@ -58,7 +58,7 @@ class Panchangam(common.JsonObject):
     self.ayanamsha_id = ayanamsha_id
 
     self.compute_angas(compute_lagnams=compute_lagnams)
-    lunar_month_assigner = MonthAssigner.get_assigner(assigner_id=lunar_month_assigner_type, panchaanga=self)
+    lunar_month_assigner = LunarMonthAssigner.get_assigner(assigner_id=lunar_month_assigner_type, panchaanga=self)
     lunar_month_assigner.assign()
 
   def compute_angas(self, compute_lagnams=True):
@@ -304,16 +304,6 @@ class Panchangam(common.JsonObject):
       raise ValueError('Unkown kaala "%s" input!' % interval_type)
     return angas
 
-  def compute_festivals(self, debug_festivals=False):
-    from jyotisha.panchangam.temporal.festival import applier
-    applier.MiscFestivalAssigner(panchaanga=self).assign_all(debug=debug_festivals)
-    applier.ecliptic.EclipticFestivalAssigner(panchaanga=self).assign_all(debug=debug_festivals)
-    applier.tithi.TithiFestivalAssigner(panchaanga=self).assign_all(debug=debug_festivals)
-    applier.solar.SolarFestivalAssigner(panchaanga=self).assign_all(debug=debug_festivals)
-    applier.vaara.VaraFestivalAssigner(panchaanga=self).assign_all(debug=debug_festivals)
-    applier.MiscFestivalAssigner(panchaanga=self).cleanup_festivals(debug_festivals=debug_festivals)
-    applier.MiscFestivalAssigner(panchaanga=self).assign_relative_festivals()
-
 
   def write_debug_log(self):
     log_file = open('cal-%4d-%s-log.txt' % (self.year, self.city.name), 'w')
@@ -329,7 +319,7 @@ class Panchangam(common.JsonObject):
                                       self.solar_month[d], self.lunar_month[d])
       log_file.write(log_data)
 
-  def update_festival_details(self):
+  def update_festival_details(self,debug=False):
     """
 
     Festival data may be updated more frequently and a precomputed panchangam may go out of sync. Hence we keep this method separate.
@@ -337,7 +327,14 @@ class Panchangam(common.JsonObject):
     """
     self.reset_festivals()
     TithiAssigner(self).assign_shraaddha_tithi()
-    self.compute_festivals()
+    from jyotisha.panchangam.temporal.festival import applier
+    applier.MiscFestivalAssigner(panchaanga=self).assign_all(debug=debug)
+    applier.ecliptic.EclipticFestivalAssigner(panchaanga=self).assign_all(debug=debug)
+    applier.tithi.TithiFestivalAssigner(panchaanga=self).assign_all(debug=debug)
+    applier.solar.SolarFestivalAssigner(panchaanga=self).assign_all(debug=debug)
+    applier.vaara.VaraFestivalAssigner(panchaanga=self).assign_all(debug=debug)
+    applier.MiscFestivalAssigner(panchaanga=self).cleanup_festivals(debug=debug)
+    applier.MiscFestivalAssigner(panchaanga=self).assign_relative_festivals()
 
   def reset_festivals(self, compute_lagnams=False):
     self.fest_days = {}

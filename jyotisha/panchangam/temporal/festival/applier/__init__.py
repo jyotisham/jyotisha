@@ -390,7 +390,7 @@ class FestivalAssigner(PanchaangaApplier):
               self.panchaanga.fest_days[festival_name_updated] = [assigned_day]
         del (self.panchaanga.fest_days[festival_name])
 
-  def cleanup_festivals(self, debug_festivals=False):
+  def cleanup_festivals(self, debug=False):
     # If tripurotsava coincides with maha kArttikI (kRttikA nakShatram)
     # only then it is mahAkArttikI
     # else it is only tripurotsava

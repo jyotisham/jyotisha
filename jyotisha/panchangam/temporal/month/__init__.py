@@ -3,7 +3,7 @@ from jyotisha.panchangam.temporal.zodiac import AngaSpan, NakshatraDivision
 from sanskrit_data.schema.common import JsonObject
 
 
-class MonthAssigner(JsonObject):
+class LunarMonthAssigner(JsonObject):
   SIDERIAL_SOLAR_BASED = "SiderialSolarBasedAssigner"
   
   def __init__(self, panchaanga):
@@ -14,13 +14,13 @@ class MonthAssigner(JsonObject):
 
   @classmethod
   def get_assigner(cls, assigner_id, panchaanga):
-    if assigner_id == MonthAssigner.SIDERIAL_SOLAR_BASED:
+    if assigner_id == LunarMonthAssigner.SIDERIAL_SOLAR_BASED:
       return SiderialSolarBasedAssigner(panchaanga=panchaanga)
     else:
       raise ValueError("Invalid assigner_id " + assigner_id)
 
 
-class SiderialSolarBasedAssigner(MonthAssigner):
+class SiderialSolarBasedAssigner(LunarMonthAssigner):
   def assign(self):
     """ Assigns Lunar months to days in the period
     
