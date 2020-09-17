@@ -21,6 +21,7 @@ from jyotisha.panchangam.temporal import zodiac
 from jyotisha.panchangam.temporal.body import Graha
 from jyotisha.panchangam.temporal.festival import read_old_festival_rules_dict
 from jyotisha.panchangam.temporal.hour import Hour
+from jyotisha.panchangam.temporal.month import SiderialSolarBasedAssigner, MonthAssigner
 from jyotisha.panchangam.temporal.zodiac import NakshatraDivision, AngaSpan
 from sanskrit_data.schema import common
 from sanskrit_data.schema.common import JsonObject
@@ -30,7 +31,7 @@ class Panchangam(common.JsonObject):
   """This class enables the construction of a panchangam for arbitrary periods, with festivals.
     """
 
-  def __init__(self, city, start_date, end_date, script=sanscript.DEVANAGARI, fmt='hh:mm',
+  def __init__(self, city, start_date, end_date, lunar_month_assigner_type=MonthAssigner.SIDERIAL_SOLAR_BASED, script=sanscript.DEVANAGARI, fmt='hh:mm',
                ayanamsha_id=zodiac.Ayanamsha.CHITRA_AT_180,
                compute_lagnams=False):
     """Constructor for the panchangam.
@@ -54,7 +55,9 @@ class Panchangam(common.JsonObject):
 
     self.ayanamsha_id = ayanamsha_id
 
-    self.add_details(compute_lagnams=compute_lagnams)
+    lunar_month_assigner = MonthAssigner.get_assigner(assigner_id=lunar_month_assigner_type, panchaanga=self)
+    lunar_month_assigner.assign()
+    self.compute_angams(compute_lagnams=compute_lagnams)
 
   def compute_angams(self, compute_lagnams=True):
     """Compute the entire panchangam
@@ -183,53 +186,6 @@ class Panchangam(common.JsonObject):
       if compute_lagnams:
         self.lagna_data[d] = daily_panchaangas[d].get_lagna_data()
 
-  def assignLunarMonths(self):
-    """ Assigns Lunar months to days in the period
-    
-    Implementation note: Works by looking at solar months and new moons (which makes it easy to deduce adhika-mAsa-s.)
-    
-    :return: 
-    """
-    # tithi_sunrise[1] gives a rough indication of the number of days since last new moon. We now find a more precise interval below.
-    last_new_moon = AngaSpan.find(
-      self.jd_start_utc - self.tithi_sunrise[1] - 3, self.jd_start_utc - self.tithi_sunrise[1] + 3,
-      zodiac.TITHI, 30, ayanamsha_id=self.ayanamsha_id)
-    this_new_moon = AngaSpan.find(
-      last_new_moon.jd_start + 24, last_new_moon.jd_start + 32,
-      zodiac.TITHI, 30, ayanamsha_id=self.ayanamsha_id)
-
-    # Check if current mAsa is adhika here
-    is_adhika = NakshatraDivision(last_new_moon.jd_end, ayanamsha_id=self.ayanamsha_id).get_solar_rashi() == \
-               NakshatraDivision(this_new_moon.jd_end, ayanamsha_id=self.ayanamsha_id).get_solar_rashi()
-
-    # Keep on finding new moons in the period.
-    last_d_assigned = 0
-    while last_new_moon.jd_start < self.jd_start_utc + self.duration + 1:
-      next_new_moon = AngaSpan.find(
-        this_new_moon.jd_start + 24, this_new_moon.jd_start + 32,
-        zodiac.TITHI, 30, ayanamsha_id=self.ayanamsha_id)
-
-      # Loop over a month starting from this_new_moon.jd_end
-      unassigned_days = range(last_d_assigned + 1, last_d_assigned + 32)
-      for i in unassigned_days:
-        last_solar_month = NakshatraDivision(this_new_moon.jd_end,
-                                             ayanamsha_id=self.ayanamsha_id).get_solar_rashi()
-
-        if i > self.duration + 1 or self.jd_sunrise[i] > this_new_moon.jd_end:
-          last_d_assigned = i - 1
-          break # out of unassigned days loop.
-
-        if is_adhika:
-          self.lunar_month[i] = (last_solar_month % 12) + .5
-        else:
-          self.lunar_month[i] = last_solar_month
-
-      is_adhika = NakshatraDivision(this_new_moon.jd_end, ayanamsha_id=self.ayanamsha_id).get_solar_rashi() == \
-                 NakshatraDivision(next_new_moon.jd_end, ayanamsha_id=self.ayanamsha_id).get_solar_rashi()
-      last_new_moon.jd_start = this_new_moon.jd_start
-      last_new_moon.jd_end = this_new_moon.jd_end
-      this_new_moon.jd_start = next_new_moon.jd_start
-      this_new_moon.jd_end = next_new_moon.jd_end
 
   def get_angams_for_kaalas(self, d, get_angam_func, kaala_type):
     jd_sunrise = self.jd_sunrise[d]
@@ -703,11 +659,6 @@ class Panchangam(common.JsonObject):
     self.reset_festivals()
     self.assign_shraaddha_tithi()
     self.compute_festivals()
-
-  def add_details(self, compute_lagnams=False):
-    self.compute_angams(compute_lagnams=compute_lagnams)
-    self.assignLunarMonths()
-    # self.update_festival_details()
 
   def reset_festivals(self, compute_lagnams=False):
     self.fest_days = {}
