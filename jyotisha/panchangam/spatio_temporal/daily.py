@@ -207,11 +207,11 @@ class DailyPanchanga(common.JsonObject):
     for lagna in lagna_list:
       # print('---\n', lagna)
       if (debug):
-        logging.debug(('lagna sunrise', self.get_lagna_float(self.jd_sunrise, ayanamsha_id=ayanamsha_id)))
-        logging.debug(('lbrack', self.get_lagna_float(lbrack, int(-lagna), ayanamsha_id=ayanamsha_id)))
-        logging.debug(('rbrack', self.get_lagna_float(rbrack, int(-lagna), ayanamsha_id=ayanamsha_id)))
+        logging.debug(('lagna sunrise', self.city.get_lagna_float(self.jd_sunrise, ayanamsha_id=ayanamsha_id)))
+        logging.debug(('lbrack', self.city.get_lagna_float(lbrack, int(-lagna), ayanamsha_id=ayanamsha_id)))
+        logging.debug(('rbrack', self.city.get_lagna_float(rbrack, int(-lagna), ayanamsha_id=ayanamsha_id)))
 
-      lagna_end_time = brentq(self.get_lagna_float, lbrack, rbrack,
+      lagna_end_time = brentq(self.city.get_lagna_float, lbrack, rbrack,
                               args=(-lagna, ayanamsha_id, debug))
       lbrack = lagna_end_time + 1 / 24
       rbrack = lagna_end_time + 3 / 24
