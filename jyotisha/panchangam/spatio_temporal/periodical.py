@@ -186,8 +186,7 @@ class Panchangam(common.JsonObject):
       if compute_lagnams:
         self.lagna_data[d] = daily_panchaangas[d].get_lagna_data()
 
-
-  def get_angas_for_intervals(self, d, get_anga_func, interval_type):
+  def get_angas_for_interval_boundaries(self, d, get_anga_func, interval_type):
     jd_sunrise = self.jd_sunrise[d]
     jd_sunrise_tmrw = self.jd_sunrise[d + 1]
     jd_sunrise_datmrw = self.jd_sunrise[d + 2]
@@ -421,7 +420,7 @@ class Panchangam(common.JsonObject):
       def f(x):
         return NakshatraDivision(x, ayanamsha_id=self.ayanamsha_id).get_tithi()
 
-      angas = self.get_angas_for_intervals(d, f, 'aparaahna')
+      angas = self.get_angas_for_interval_boundaries(d, f, 'aparaahna')
       angam_start = angas[0]
       next_anga = (angam_start % 30) + 1
       nnext_anga = (next_anga % 30) + 1

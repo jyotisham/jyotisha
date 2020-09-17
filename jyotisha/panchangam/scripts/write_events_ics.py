@@ -123,7 +123,7 @@ def compute_events(p, json_file):
           event_name += '-#%d' % event_num
 
         if angam_sunrise[d] == angam_num_pred or angam_sunrise[d] == angam_num:
-          angams = p.get_angas_for_intervals(d, get_angam_func, kaala)
+          angams = p.get_angas_for_interval_boundaries(d, get_angam_func, kaala)
           if angams is None:
             sys.stderr.write('No angams returned! Skipping festival %s'
                              % event_name)
@@ -154,7 +154,7 @@ def compute_events(p, json_file):
               sys.stderr.write('Assigned paraviddha day for %s!' %
                                event_name + ' Ignore future warnings!\n')
           elif priority == 'puurvaviddha':
-            angams_yest = p.get_angas_for_intervals(d - 1, get_angam_func, kaala)
+            angams_yest = p.get_angas_for_interval_boundaries(d - 1, get_angam_func, kaala)
             if debugEvents:
               logging.debug("Angams yest & today: %s" % angams_yest)
             if angams[0] == angam_num or angams[1] == angam_num:

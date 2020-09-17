@@ -91,8 +91,8 @@ class TithiFestivalAssigner(FestivalAssigner):
         festival_name = 'subrahmaNya-' + festival_name
 
       if self.panchaanga.tithi_sunrise[d] == 5 or self.panchaanga.tithi_sunrise[d] == 6:
-        angams = self.panchaanga.get_angas_for_intervals(d, lambda x: NakshatraDivision(x,
-                                                                                        ayanamsha_id=self.panchaanga.ayanamsha_id).get_tithi(),
+        angams = self.panchaanga.get_angas_for_interval_boundaries(d, lambda x: NakshatraDivision(x,
+                                                                                                  ayanamsha_id=self.panchaanga.ayanamsha_id).get_tithi(),
                                             'madhyaahna')
         if angams[0] == 6 or angams[1] == 6:
           if festival_name in self.panchaanga.fest_days:
@@ -368,8 +368,8 @@ class TithiFestivalAssigner(FestivalAssigner):
           pref = names.get_chandra_masa(self.panchaanga.lunar_month[d], names.NAMES, 'hk',
                                         visarga=False) + '-'
 
-        ama_nakshatram_today = self.panchaanga.get_angas_for_intervals(d, lambda x: NakshatraDivision(x,
-                                                                                                      ayanamsha_id=self.panchaanga.ayanamsha_id).get_nakshatra(),
+        ama_nakshatram_today = self.panchaanga.get_angas_for_interval_boundaries(d, lambda x: NakshatraDivision(x,
+                                                                                                                ayanamsha_id=self.panchaanga.ayanamsha_id).get_nakshatra(),
                                                           'aparaahna')[:2]
         suff = ''
         # Assign

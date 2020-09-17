@@ -128,10 +128,10 @@ class FestivalAssigner(JsonObject):
         if angam_type == 'day' and month_type == 'solar_month' and self.panchaanga.solar_month[d] == month_num:
           if self.panchaanga.solar_month_day[d] == angam_num:
             if kaala == 'arunodaya':
-              angams = self.panchaanga.get_angas_for_intervals(d - 1,
-                                                               lambda x: NakshatraDivision(x,
+              angams = self.panchaanga.get_angas_for_interval_boundaries(d - 1,
+                                                                         lambda x: NakshatraDivision(x,
                                                                               ayanamsha_id=self.panchaanga.ayanamsha_id).get_solar_raashi(),
-                                                               kaala)
+                                                                         kaala)
               if angams[1] == month_num:
                 self.add_festival(festival_name, d, debug_festivals)
               elif angams[2] == month_num:
@@ -172,9 +172,9 @@ class FestivalAssigner(JsonObject):
           if angam_sunrise[d] == prev_angam or angam_sunrise[d] == angam_num:
             if kaala == 'arunodaya':
               # We want for arunodaya *preceding* today's sunrise; therefore, use d - 1
-              angams = self.panchaanga.get_angas_for_intervals(d - 1, get_angam_func, kaala)
+              angams = self.panchaanga.get_angas_for_interval_boundaries(d - 1, get_angam_func, kaala)
             else:
-              angams = self.panchaanga.get_angas_for_intervals(d, get_angam_func, kaala)
+              angams = self.panchaanga.get_angas_for_interval_boundaries(d, get_angam_func, kaala)
 
             if angams is None:
               logging.error('No angams returned! Skipping festival %s' % festival_name)

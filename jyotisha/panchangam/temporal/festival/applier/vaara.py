@@ -84,8 +84,8 @@ class VaraFestivalAssigner(FestivalAssigner):
         if (self.panchaanga.nakshatram_sunrise[d] == nwd_fest_n or self.panchaanga.nakshatram_sunrise[d] == n_prev) and self.panchaanga.weekday[
           d] == nwd_fest_wd:
           # Is it necessarily only at sunrise?
-          angams = self.panchaanga.get_angas_for_intervals(d, lambda x: NakshatraDivision(x,
-                                                                                          ayanamsha_id=self.panchaanga.ayanamsha_id).get_nakshatra(),
+          angams = self.panchaanga.get_angas_for_interval_boundaries(d, lambda x: NakshatraDivision(x,
+                                                                                                    ayanamsha_id=self.panchaanga.ayanamsha_id).get_nakshatra(),
                                               'dinamaana')
           if any(x == nwd_fest_n for x in [self.panchaanga.nakshatram_sunrise[d], angams[0], angams[1]]):
             self.add_festival(nwd_fest_name, d, debug_festivals)
