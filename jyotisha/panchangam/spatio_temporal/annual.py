@@ -14,12 +14,12 @@ from sanskrit_data.schema.common import JsonObject
 common.update_json_class_index(sys.modules[__name__])
 
 
-def get_panchaanga(city, year, script, fmt='hh:mm', compute_lagnams=False, precomputed_json_dir="~/Documents",
+def get_panchaanga(city, year, script, fmt='hh:mm', compute_lagnas=False, precomputed_json_dir="~/Documents",
                    ayanamsha_id=zodiac.Ayanamsha.CHITRA_AT_180, allow_precomputed=True):
   fname_det = os.path.expanduser('%s/%s-%s-detailed.json' % (precomputed_json_dir, city.name, year))
   fname = os.path.expanduser('%s/%s-%s.json' % (precomputed_json_dir, city.name, year))
 
-  if os.path.isfile(fname) and not compute_lagnams and allow_precomputed:
+  if os.path.isfile(fname) and not compute_lagnas and allow_precomputed:
     sys.stderr.write('Loaded pre-computed panchangam from %s.\n' % fname)
     return JsonObject.read_from_file(filename=fname)
   elif os.path.isfile(fname_det) and allow_precomputed:
@@ -29,13 +29,13 @@ def get_panchaanga(city, year, script, fmt='hh:mm', compute_lagnams=False, preco
   else:
     sys.stderr.write('No precomputed data available. Computing panchangam...\n')
     panchangam = periodical.Panchangam(city=city, start_date='%d-01-01' % year, end_date='%d-12-31' % year,
-                                       script=script, fmt=fmt, compute_lagnams=compute_lagnams,
+                                       script=script, fmt=fmt, compute_lagnas=compute_lagnas,
                                        ayanamsha_id=ayanamsha_id)
     panchangam.year = year
     sys.stderr.write('Writing computed panchangam to %s...\n' % fname)
 
     try:
-      if compute_lagnams:
+      if compute_lagnas:
         panchangam.dump_to_file(filename=fname_det)
       else:
         panchangam.dump_to_file(filename=fname)
@@ -52,4 +52,4 @@ if __name__ == '__main__':
   city = spatio_temporal.City('Chennai', "13:05:24", "80:16:12", "Asia/Calcutta")
   panchangam = periodical.Panchangam(city=city, start_date='2019-01-01', end_date='2019-12-31',
                                      script=sanscript.DEVANAGARI, ayanamsha_id=zodiac.Ayanamsha.CHITRA_AT_180,
-                                     fmt='hh:mm', compute_lagnams=False)
+                                     fmt='hh:mm', compute_lagnas=False)

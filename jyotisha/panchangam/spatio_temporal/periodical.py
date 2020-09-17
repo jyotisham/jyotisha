@@ -35,10 +35,8 @@ class Panchangam(common.JsonObject):
 
   def __init__(self, city, start_date, end_date, lunar_month_assigner_type=LunarMonthAssigner.SIDERIAL_SOLAR_BASED, script=sanscript.DEVANAGARI, fmt='hh:mm',
                ayanamsha_id=zodiac.Ayanamsha.CHITRA_AT_180,
-               compute_lagnams=False):
+               compute_lagnas=False):
     """Constructor for the panchangam.
-    :param compute_lagnams:
-    :param compute_lagnams:
         """
     super(Panchangam, self).__init__()
     self.city = city
@@ -57,11 +55,11 @@ class Panchangam(common.JsonObject):
 
     self.ayanamsha_id = ayanamsha_id
 
-    self.compute_angas(compute_lagnams=compute_lagnams)
+    self.compute_angas(compute_lagnas=compute_lagnas)
     lunar_month_assigner = LunarMonthAssigner.get_assigner(assigner_id=lunar_month_assigner_type, panchaanga=self)
     lunar_month_assigner.assign()
 
-  def compute_angas(self, compute_lagnams=True):
+  def compute_angas(self, compute_lagnas=True):
     """Compute the entire panchangam
     """
 
@@ -92,7 +90,7 @@ class Panchangam(common.JsonObject):
     self.rashi_data = [None] * nDays
     self.kaalas = [None] * nDays
 
-    if compute_lagnams:
+    if compute_lagnas:
       self.lagna_data = [None] * nDays
 
     self.weekday = [None] * nDays
@@ -185,7 +183,7 @@ class Panchangam(common.JsonObject):
       self.karanam_data[d] = daily_panchaangas[d].karana_data
       self.rashi_data[d] = daily_panchaangas[d].raashi_data
       self.kaalas[d] = daily_panchaangas[d].get_kaalas()
-      if compute_lagnams:
+      if compute_lagnas:
         self.lagna_data[d] = daily_panchaangas[d].get_lagna_data()
 
   def get_angas_for_interval_boundaries(self, d, get_anga_func, interval_type):
@@ -369,7 +367,7 @@ def get_panchaanga(city, start_date, end_date, script, fmt='hh:mm', compute_lagn
   else:
     sys.stderr.write('No precomputed data available. Computing panchaanga...\n')
     panchaanga = Panchangam(city=city, start_date=start_date, end_date=end_date, script=script, fmt=fmt,
-                            compute_lagnams=compute_lagnams, ayanamsha_id=ayanamsha_id)
+                            compute_lagnas=compute_lagnams, ayanamsha_id=ayanamsha_id)
     sys.stderr.write('Writing computed panchaanga to %s...\n' % fname)
 
     try:
@@ -389,4 +387,4 @@ def get_panchaanga(city, start_date, end_date, script, fmt='hh:mm', compute_lagn
 if __name__ == '__main__':
   city = spatio_temporal.City('Chennai', "13:05:24", "80:16:12", "Asia/Calcutta")
   panchangam = Panchangam(city=city, start_date='2019-04-14', end_date='2020-04-13', script=sanscript.DEVANAGARI,
-                          ayanamsha_id=zodiac.Ayanamsha.CHITRA_AT_180, fmt='hh:mm', compute_lagnams=False)
+                          ayanamsha_id=zodiac.Ayanamsha.CHITRA_AT_180, fmt='hh:mm', compute_lagnas=False)
