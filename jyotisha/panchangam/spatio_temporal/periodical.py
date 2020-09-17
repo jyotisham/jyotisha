@@ -9,6 +9,11 @@ from typing import List
 from indic_transliteration import xsanscript as sanscript
 from pytz import timezone as tz
 
+import jyotisha.panchangam.temporal.festival.applier
+import jyotisha.panchangam.temporal.festival.applier.ecliptic
+import jyotisha.panchangam.temporal.festival.applier.solar
+import jyotisha.panchangam.temporal.festival.applier.tithi
+import jyotisha.panchangam.temporal.festival.applier.vaara
 from jyotisha import names
 from jyotisha.panchangam import temporal, spatio_temporal
 from jyotisha.panchangam.spatio_temporal import CODE_ROOT, daily
@@ -432,14 +437,14 @@ class Panchangam(common.JsonObject):
                          Hour(24 * (amrita_end - jd)).toString(format='hh:mm*')))
 
   def compute_festivals(self, debug_festivals=False):
-    from jyotisha.panchangam.spatio_temporal import festival
-    festival.MiscFestivalAssigner(panchaanga=self).assign_all(debug_festivals=debug_festivals)
-    festival.EclipticFestivalAssigner(panchaanga=self).assign_all(debug_festivals=debug_festivals)
-    festival.TithiFestivalAssigner(panchaanga=self).assign_all(debug_festivals=debug_festivals)
-    festival.SolarFestivalAssigner(panchaanga=self).assign_all(debug_festivals=debug_festivals)
-    festival.VaraFestivalAssigner(panchaanga=self).assign_all(debug_festivals=debug_festivals)
-    festival.MiscFestivalAssigner(panchaanga=self).cleanup_festivals(debug_festivals=debug_festivals)
-    festival.MiscFestivalAssigner(panchaanga=self).assign_relative_festivals()
+    from jyotisha.panchangam.temporal.festival import applier
+    applier.MiscFestivalAssigner(panchaanga=self).assign_all(debug_festivals=debug_festivals)
+    applier.ecliptic.EclipticFestivalAssigner(panchaanga=self).assign_all(debug_festivals=debug_festivals)
+    applier.tithi.TithiFestivalAssigner(panchaanga=self).assign_all(debug_festivals=debug_festivals)
+    applier.solar.SolarFestivalAssigner(panchaanga=self).assign_all(debug_festivals=debug_festivals)
+    applier.vaara.VaraFestivalAssigner(panchaanga=self).assign_all(debug_festivals=debug_festivals)
+    applier.MiscFestivalAssigner(panchaanga=self).cleanup_festivals(debug_festivals=debug_festivals)
+    applier.MiscFestivalAssigner(panchaanga=self).assign_relative_festivals()
 
 
   def assign_shraaddha_tithi(self, debug_shraaddha_tithi=False):
