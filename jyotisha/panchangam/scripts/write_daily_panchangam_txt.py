@@ -440,7 +440,7 @@ def main():
 
   city = City(city_name, latitude, longitude, tz)
 
-  panchangam = jyotisha.panchangam.spatio_temporal.annual.get_panchangam(city=city, year=year, script=script, fmt=fmt,
+  panchangam = jyotisha.panchangam.spatio_temporal.annual.get_panchaanga(city=city, year=year, script=script, fmt=fmt,
                                                                          compute_lagnams=compute_lagnams)
   panchangam.script = script  # Force script irrespective of what was obtained from saved file
   panchangam.fmt = fmt  # Force fmt

@@ -274,7 +274,7 @@ def main():
 
   city = City(city_name, latitude, longitude, tz)
 
-  panchangam = jyotisha.panchangam.spatio_temporal.annual.get_panchangam(city=city, year=year, script=script)
+  panchangam = jyotisha.panchangam.spatio_temporal.annual.get_panchaanga(city=city, year=year, script=script)
   # panchangam.add_details()
 
   compute_events(panchangam, json_file)

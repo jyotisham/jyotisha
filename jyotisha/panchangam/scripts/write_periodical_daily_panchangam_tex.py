@@ -396,7 +396,7 @@ def main():
 
   city = City(city_name, latitude, longitude, tz)
 
-  panchangam = jyotisha.panchangam.spatio_temporal.periodical.get_panchangam(city=city, start_date=start_date,
+  panchangam = jyotisha.panchangam.spatio_temporal.periodical.get_panchaanga(city=city, start_date=start_date,
                                                                              end_date=end_date, script=script, fmt=fmt,
                                                                              compute_lagnams=compute_lagnams,
                                                                              ayanamsha_id=zodiac.Ayanamsha.CHITRA_AT_180)

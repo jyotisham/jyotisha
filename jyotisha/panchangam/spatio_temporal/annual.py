@@ -14,7 +14,7 @@ from sanskrit_data.schema.common import JsonObject
 common.update_json_class_index(sys.modules[__name__])
 
 
-def get_panchangam(city, year, script, fmt='hh:mm', compute_lagnams=False, precomputed_json_dir="~/Documents",
+def get_panchaanga(city, year, script, fmt='hh:mm', compute_lagnams=False, precomputed_json_dir="~/Documents",
                    ayanamsha_id=zodiac.Ayanamsha.CHITRA_AT_180, allow_precomputed=True):
   fname_det = os.path.expanduser('%s/%s-%s-detailed.json' % (precomputed_json_dir, city.name, year))
   fname = os.path.expanduser('%s/%s-%s.json' % (precomputed_json_dir, city.name, year))

@@ -44,7 +44,7 @@ class DailyCalendarHandler(Resource):
   def get(self, latitude, longitude, year):
     args = self.get_parser.parse_args()
     city = City("", latitude, longitude, args['timezone'])
-    panchangam = jyotisha.panchangam.spatio_temporal.annual.get_panchangam(city=city, year=int(year),
+    panchangam = jyotisha.panchangam.spatio_temporal.annual.get_panchaanga(city=city, year=int(year),
                                                                            script=args['encoding'])
 
     return panchangam.to_json_map()

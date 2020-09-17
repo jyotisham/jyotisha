@@ -61,12 +61,12 @@ class DailyPanchanga(common.JsonObject):
 
     self.tithi_data = None
     self.tithi_at_sunrise = None
-    self.nakshatram_data = None
-    self.nakshatram_at_sunrise = None
+    self.nakshatra_data = None
+    self.nakshatra_at_sunrise = None
     self.yoga_data = None
     self.yoga_at_sunrise = None
-    self.karanam_data = None
-    self.rashi_data = None
+    self.karana_data = None
+    self.raashi_data = None
 
     self.festivals = []
 
@@ -105,16 +105,16 @@ class DailyPanchanga(common.JsonObject):
     self.tithi_data = zodiac.get_angam_data(self.jd_sunrise, self.jd_next_sunrise,
                                             zodiac.TITHI, ayanamsha_id=self.ayanamsha_id)
     self.tithi_at_sunrise = self.tithi_data[0][0]
-    self.nakshatram_data = zodiac.get_angam_data(self.jd_sunrise, self.jd_next_sunrise,
-                                                 zodiac.NAKSHATRAM, ayanamsha_id=self.ayanamsha_id)
-    self.nakshatram_at_sunrise = self.nakshatram_data[0][0]
+    self.nakshatra_data = zodiac.get_angam_data(self.jd_sunrise, self.jd_next_sunrise,
+                                                zodiac.NAKSHATRAM, ayanamsha_id=self.ayanamsha_id)
+    self.nakshatra_at_sunrise = self.nakshatra_data[0][0]
     self.yoga_data = zodiac.get_angam_data(self.jd_sunrise, self.jd_next_sunrise,
                                            zodiac.YOGA, ayanamsha_id=self.ayanamsha_id)
     self.yoga_at_sunrise = self.yoga_data[0][0]
-    self.karanam_data = zodiac.get_angam_data(self.jd_sunrise, self.jd_next_sunrise,
-                                              zodiac.KARANAM, ayanamsha_id=self.ayanamsha_id)
-    self.rashi_data = zodiac.get_angam_data(self.jd_sunrise, self.jd_next_sunrise,
-                                            zodiac.RASHI, ayanamsha_id=self.ayanamsha_id)
+    self.karana_data = zodiac.get_angam_data(self.jd_sunrise, self.jd_next_sunrise,
+                                             zodiac.KARANAM, ayanamsha_id=self.ayanamsha_id)
+    self.raashi_data = zodiac.get_angam_data(self.jd_sunrise, self.jd_next_sunrise,
+                                             zodiac.RASHI, ayanamsha_id=self.ayanamsha_id)
 
   def compute_solar_month(self):
     if not hasattr(self, "jd_sunrise") or self.jd_sunrise is None:

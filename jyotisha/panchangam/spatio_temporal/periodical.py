@@ -176,12 +176,12 @@ class Panchangam(common.JsonObject):
       # Compute all the anga datas
       self.tithi_data[d] = daily_panchaangas[d].tithi_data
       self.tithi_sunrise[d] = daily_panchaangas[d].tithi_at_sunrise
-      self.nakshatram_data[d] = daily_panchaangas[d].nakshatram_data
-      self.nakshatram_sunrise[d] = daily_panchaangas[d].nakshatram_at_sunrise
+      self.nakshatram_data[d] = daily_panchaangas[d].nakshatra_data
+      self.nakshatram_sunrise[d] = daily_panchaangas[d].nakshatra_at_sunrise
       self.yoga_data[d] = daily_panchaangas[d].yoga_data
       self.yoga_sunrise[d] = daily_panchaangas[d].yoga_at_sunrise
-      self.karanam_data[d] = daily_panchaangas[d].karanam_data
-      self.rashi_data[d] = daily_panchaangas[d].rashi_data
+      self.karanam_data[d] = daily_panchaangas[d].karana_data
+      self.rashi_data[d] = daily_panchaangas[d].raashi_data
       self.kaalas[d] = daily_panchaangas[d].get_kaalas()
       if compute_lagnams:
         self.lagna_data[d] = daily_panchaangas[d].get_lagna_data()
@@ -673,7 +673,7 @@ common.update_json_class_index(sys.modules[__name__])
 # logging.debug(common.json_class_index)
 
 
-def get_panchangam(city, start_date, end_date, script, fmt='hh:mm', compute_lagnams=False,
+def get_panchaanga(city, start_date, end_date, script, fmt='hh:mm', compute_lagnams=False,
                    precomputed_json_dir="~/Documents", ayanamsha_id=zodiac.Ayanamsha.CHITRA_AT_180):
   fname_det = os.path.expanduser(
     '%s/%s-%s-%s-detailed.json' % (precomputed_json_dir, city.name, start_date, end_date))

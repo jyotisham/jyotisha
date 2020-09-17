@@ -21,7 +21,7 @@ def test_panchanga_chennai_18():
   panchangam_expected_chennai_18 = JsonObject.read_from_file(filename=os.path.join(TEST_DATA_PATH, 'Chennai-2018.json'))
   panchangam_expected_chennai_18.update_festival_details()
   city = City('Chennai', "13:05:24", "80:16:12", "Asia/Calcutta")
-  panchangam = annual.get_panchangam(city=city, year=2018, script=sanscript.DEVANAGARI,
+  panchangam = annual.get_panchaanga(city=city, year=2018, script=sanscript.DEVANAGARI,
                                      ayanamsha_id=zodiac.Ayanamsha.CHITRA_AT_180, compute_lagnams=False,
                                      allow_precomputed=False)
 
@@ -40,7 +40,7 @@ def test_panchanga_chennai_19():
   panchangam_expected_chennai_19 = JsonObject.read_from_file(filename=os.path.join(TEST_DATA_PATH, 'Chennai-2019.json'))
   panchangam_expected_chennai_19.update_festival_details()
   city = City('Chennai', "13:05:24", "80:16:12", "Asia/Calcutta")
-  panchangam = annual.get_panchangam(city=city, year=2019, script=sanscript.DEVANAGARI,
+  panchangam = annual.get_panchaanga(city=city, year=2019, script=sanscript.DEVANAGARI,
                                      ayanamsha_id=zodiac.Ayanamsha.CHITRA_AT_180, compute_lagnams=False,
                                      allow_precomputed=False)
 
@@ -58,7 +58,7 @@ def test_panchanga_orinda():
   panchangam_expected_orinda_19 = JsonObject.read_from_file(filename=os.path.join(TEST_DATA_PATH, 'Orinda-2019.json'))
   panchangam_expected_orinda_19.update_festival_details()
   city = City('Orinda', '37:51:38', '-122:10:59', 'America/Los_Angeles')
-  panchangam = annual.get_panchangam(city=city, year=2019, script=sanscript.DEVANAGARI,
+  panchangam = annual.get_panchaanga(city=city, year=2019, script=sanscript.DEVANAGARI,
                                      ayanamsha_id=zodiac.Ayanamsha.CHITRA_AT_180, compute_lagnams=False,
                                      allow_precomputed=False)
 
@@ -80,7 +80,7 @@ def test_adhika_maasa_computations():
 
 def test_adhika_maasa_computations_2009():
   city = City('Chennai', "13:05:24", "80:16:12", "Asia/Calcutta")
-  panchangam_2009 = annual.get_panchangam(city=city, year=2009, script=sanscript.DEVANAGARI,
+  panchangam_2009 = annual.get_panchaanga(city=city, year=2009, script=sanscript.DEVANAGARI,
                                           ayanamsha_id=zodiac.Ayanamsha.CHITRA_AT_180, compute_lagnams=False,
                                           allow_precomputed=False)
   panchangam_2009.assignLunarMonths()
@@ -91,7 +91,7 @@ def test_adhika_maasa_computations_2009():
 
 def test_adhika_maasa_computations_2010():
   city = City('Chennai', "13:05:24", "80:16:12", "Asia/Calcutta")
-  panchangam_2010 = annual.get_panchangam(city=city, year=2010, script=sanscript.DEVANAGARI,
+  panchangam_2010 = annual.get_panchaanga(city=city, year=2010, script=sanscript.DEVANAGARI,
                                           ayanamsha_id=zodiac.Ayanamsha.CHITRA_AT_180, compute_lagnams=False,
                                           allow_precomputed=False)
   panchangam_2010.assignLunarMonths()
@@ -102,7 +102,7 @@ def test_adhika_maasa_computations_2010():
 
 def test_adhika_maasa_computations_2018():
   city = City('Chennai', "13:05:24", "80:16:12", "Asia/Calcutta")
-  panchangam_2018 = annual.get_panchangam(city=city, year=2018, script=sanscript.DEVANAGARI,
+  panchangam_2018 = annual.get_panchaanga(city=city, year=2018, script=sanscript.DEVANAGARI,
                                           ayanamsha_id=zodiac.Ayanamsha.CHITRA_AT_180, compute_lagnams=False,
                                           allow_precomputed=False)
   panchangam_2018.assignLunarMonths()
@@ -113,7 +113,7 @@ def test_adhika_maasa_computations_2018():
 
 def test_orinda_ca_dst_2019():
   city = City('Orinda', '37:51:38', '-122:10:59', 'America/Los_Angeles')
-  panchangam = annual.get_panchangam(city=city, year=2019, script=sanscript.DEVANAGARI,
+  panchangam = annual.get_panchaanga(city=city, year=2019, script=sanscript.DEVANAGARI,
                                      ayanamsha_id=zodiac.Ayanamsha.CHITRA_AT_180, compute_lagnams=False,
                                      allow_precomputed=False)
   # March 10 is the 69th day of the year (70th in leap years) in the Gregorian calendar.
