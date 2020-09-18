@@ -221,14 +221,14 @@ class AngaTypes(JsonObject):
   SOLAR_NAKSH_PADA = {'id': 'SOLAR_NAKSH_PADA', 'arc_len': 360.0 / 108.0, 'w_moon': 0, 'w_sun': 1}
 
 
-def get_angam_data(jd_sunrise, jd_sunrise_tmrw, angam_type, ayanamsha_id):
+def get_angam_data(jd_sunrise, jd_sunrise_tmrw, anga_type, ayanamsha_id):
   """Computes angam data for angams such as tithi, nakshatram, yoga
   and karanam.
 
   Args:
       :param jd_sunrise: 
       :param jd_sunrise_tmrw: 
-      :param angam_type: TITHI, NAKSHATRAM, YOGA, KARANAM, SOLAR_MONTH, SOLAR_NAKSH
+      :param anga_type: TITHI, NAKSHATRAM, YOGA, KARANAM, SOLAR_MONTH, SOLAR_NAKSH
       :param ayanamsha_id: 
 
   Returns:
@@ -237,15 +237,15 @@ def get_angam_data(jd_sunrise, jd_sunrise_tmrw, angam_type, ayanamsha_id):
       angam_data: a list of (int, float) tuples detailing the angams
       for the day and their end-times (Julian day)
   """
-  w_moon = angam_type['w_moon']
-  w_sun = angam_type['w_sun']
-  arc_len = angam_type['arc_len']
+  w_moon = anga_type['w_moon']
+  w_sun = anga_type['w_sun']
+  arc_len = anga_type['arc_len']
 
   num_angas = int(360.0 / arc_len)
 
   # Compute angam details
-  angam_now = NakshatraDivision(jd_sunrise, ayanamsha_id=ayanamsha_id).get_anga(angam_type)
-  angam_tmrw = NakshatraDivision(jd_sunrise_tmrw, ayanamsha_id=ayanamsha_id).get_anga(angam_type)
+  angam_now = NakshatraDivision(jd_sunrise, ayanamsha_id=ayanamsha_id).get_anga(anga_type)
+  angam_tmrw = NakshatraDivision(jd_sunrise_tmrw, ayanamsha_id=ayanamsha_id).get_anga(anga_type)
 
   angams_list = []
 
@@ -294,7 +294,7 @@ def get_angam_data(jd_sunrise, jd_sunrise_tmrw, angam_type, ayanamsha_id):
       TDELTA = 0.05
       try:
         def f(x):
-          return NakshatraDivision(x, ayanamsha_id=ayanamsha_id).get_anga_float(anga_type=angam_type,
+          return NakshatraDivision(x, ayanamsha_id=ayanamsha_id).get_anga_float(anga_type=anga_type,
                                                                                 offset_angas=-target, debug=False)
 
         t_act = brentq(f, x0 - TDELTA, x0 + TDELTA)
@@ -404,7 +404,6 @@ class AngaSpan(Interval):
       logging.debug(('anga_interval.jd_end', anga_interval.jd_end))
 
     return anga_interval
-
 
 
 if __name__ == '__main__':
