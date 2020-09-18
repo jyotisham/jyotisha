@@ -109,10 +109,10 @@ class Panchangam(common.JsonObject):
 
     solar_month_today_sunset = NakshatraDivision(daily_panchaanga_start.jd_sunset,
                                                  ayanamsha_id=self.ayanamsha_id).get_anga(
-      zodiac.SOLAR_MONTH)
+      zodiac.AngaTypes.SOLAR_MONTH)
     solar_month_tmrw_sunrise = NakshatraDivision(daily_panchaanga_start.jd_sunrise + 1,
                                                  ayanamsha_id=self.ayanamsha_id).get_anga(
-      zodiac.SOLAR_MONTH)
+      zodiac.AngaTypes.SOLAR_MONTH)
     month_start_after_sunset = solar_month_today_sunset != solar_month_tmrw_sunrise
 
     #############################################################
@@ -157,14 +157,14 @@ class Panchangam(common.JsonObject):
         if self.solar_month[d] != solar_month_sunrise[d + 1]:
           month_start_after_sunset = True
           [_m, solar_month_end_jd] = zodiac.get_angam_data(
-            self.jd_sunrise[d], self.jd_sunrise[d + 1], zodiac.SOLAR_MONTH, ayanamsha_id=self.ayanamsha_id)[
+            self.jd_sunrise[d], self.jd_sunrise[d + 1], zodiac.AngaTypes.SOLAR_MONTH, ayanamsha_id=self.ayanamsha_id)[
             0]
       elif solar_month_sunrise[d] != self.solar_month[d]:
         # sankrAnti!
         # sun moves into next rAshi before sunset
         solar_month_day = 1
         [_m, solar_month_end_jd] = zodiac.get_angam_data(
-          self.jd_sunrise[d], self.jd_sunrise[d + 1], zodiac.SOLAR_MONTH, ayanamsha_id=self.ayanamsha_id)[0]
+          self.jd_sunrise[d], self.jd_sunrise[d + 1], zodiac.AngaTypes.SOLAR_MONTH, ayanamsha_id=self.ayanamsha_id)[0]
       else:
         solar_month_day = solar_month_day + 1
         solar_month_end_jd = None
@@ -313,7 +313,7 @@ class Panchangam(common.JsonObject):
       log_data = '%02d-%02d-%4d\t[%3d]\tsun_rashi=%8.3f\ttithi=%8.3f\tsolar_month\
         =%2d\tlunar_month=%4.1f\n' % (dt, m, y, d, (longitude_sun_sunset % 360) / 30.0,
                                       NakshatraDivision(self.jd_sunrise[d],
-                                                        ayanamsha_id=self.ayanamsha_id).get_anga_float(zodiac.TITHI),
+                                                        ayanamsha_id=self.ayanamsha_id).get_anga_float(zodiac.AngaTypes.TITHI),
                                       self.solar_month[d], self.lunar_month[d])
       log_file.write(log_data)
 

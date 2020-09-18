@@ -8,6 +8,7 @@ from scipy.optimize import brentq
 from jyotisha.panchangam.temporal.interval import Interval
 from jyotisha.panchangam.temporal.body import Graha
 from sanskrit_data.schema import common
+from sanskrit_data.schema.common import JsonObject
 
 logging.basicConfig(
   level=logging.DEBUG,
@@ -106,7 +107,7 @@ class NakshatraDivision(common.JsonObject):
       Returns:
         float angam
     """
-    if anga_type == TITHI:
+    if anga_type == AngaTypes.TITHI:
       # For efficiency - avoid lookups.
       ayanamsha_id = Ayanamsha.VERNAL_EQUINOX_AT_0
 
@@ -149,7 +150,7 @@ class NakshatraDivision(common.JsonObject):
   def get_all_angas(self):
     """Compute various properties of the time based on lunar and solar longitudes, division of a circle into a certain number of degrees (arc_len).
     """
-    anga_objects = [TITHI, TITHI_PADA, NAKSHATRAM, NAKSHATRA_PADA, RASHI, SOLAR_MONTH, SOLAR_NAKSH, YOGA, KARANAM]
+    anga_objects = [AngaTypes.TITHI, AngaTypes.TITHI_PADA, AngaTypes.NAKSHATRAM, AngaTypes.NAKSHATRA_PADA, AngaTypes.RASHI, AngaTypes.SOLAR_MONTH, AngaTypes.SOLAR_NAKSH, AngaTypes.YOGA, AngaTypes.KARANAM]
     angas = list(map(lambda anga_object: self.get_anga(jd=self.julday, angam_type=anga_object), anga_objects))
     anga_ids = list(map(lambda anga_obj: anga_obj["id"], anga_objects))
     return dict(list(zip(anga_ids, angas)))
@@ -167,7 +168,7 @@ class NakshatraDivision(common.JsonObject):
 
     """
 
-    return self.get_anga(NAKSHATRAM)
+    return self.get_anga(AngaTypes.NAKSHATRAM)
 
   def get_yoga(self):
     """Returns the yoha prevailing at a given moment
@@ -180,7 +181,7 @@ class NakshatraDivision(common.JsonObject):
       int yoga, where 1 stands for Vishkambha and 27 stands for Vaidhrti
     """
 
-    return self.get_anga(YOGA)
+    return self.get_anga(AngaTypes.YOGA)
 
   def get_solar_raashi(self):
     """Returns the solar rashi prevailing at a given moment
@@ -193,7 +194,7 @@ class NakshatraDivision(common.JsonObject):
       int rashi, where 1 stands for mESa, ..., 12 stands for mIna
     """
 
-    return self.get_anga(SOLAR_MONTH)
+    return self.get_anga(AngaTypes.SOLAR_MONTH)
 
 
 def longitude_to_right_ascension(longitude):
@@ -207,16 +208,17 @@ def ecliptic_to_equatorial(longitude, latitude):
     longitude_to_right_ascension(coordinates[0]), coordinates[1])
 
 
-TITHI = {'id': 'TITHI', 'arc_len': 360.0 / 30.0, 'w_moon': 1, 'w_sun': -1}
-TITHI_PADA = {'id': 'TITHI_PADA', 'arc_len': 360.0 / 120.0, 'w_moon': 1, 'w_sun': -1}
-NAKSHATRAM = {'id': 'NAKSHATRAM', 'arc_len': 360.0 / 27.0, 'w_moon': 1, 'w_sun': 0}
-NAKSHATRA_PADA = {'id': 'NAKSHATRA_PADA', 'arc_len': 360.0 / 108.0, 'w_moon': 1, 'w_sun': 0}
-RASHI = {'id': 'RASHI', 'arc_len': 360.0 / 12.0, 'w_moon': 1, 'w_sun': 0}
-YOGA = {'id': 'YOGA', 'arc_len': 360.0 / 27.0, 'w_moon': 1, 'w_sun': 1}
-KARANAM = {'id': 'KARANAM', 'arc_len': 360.0 / 60.0, 'w_moon': 1, 'w_sun': -1}
-SOLAR_MONTH = {'id': 'SOLAR_MONTH', 'arc_len': 360.0 / 12.0, 'w_moon': 0, 'w_sun': 1}
-SOLAR_NAKSH = {'id': 'SOLAR_NAKSH', 'arc_len': 360.0 / 27.0, 'w_moon': 0, 'w_sun': 1}
-SOLAR_NAKSH_PADA = {'id': 'SOLAR_NAKSH_PADA', 'arc_len': 360.0 / 108.0, 'w_moon': 0, 'w_sun': 1}
+class AngaTypes(JsonObject):
+  TITHI = {'id': 'TITHI', 'arc_len': 360.0 / 30.0, 'w_moon': 1, 'w_sun': -1}
+  TITHI_PADA = {'id': 'TITHI_PADA', 'arc_len': 360.0 / 120.0, 'w_moon': 1, 'w_sun': -1}
+  NAKSHATRA = {'id': 'NAKSHATRAM', 'arc_len': 360.0 / 27.0, 'w_moon': 1, 'w_sun': 0}
+  NAKSHATRA_PADA = {'id': 'NAKSHATRA_PADA', 'arc_len': 360.0 / 108.0, 'w_moon': 1, 'w_sun': 0}
+  RASHI = {'id': 'RASHI', 'arc_len': 360.0 / 12.0, 'w_moon': 1, 'w_sun': 0}
+  YOGA = {'id': 'YOGA', 'arc_len': 360.0 / 27.0, 'w_moon': 1, 'w_sun': 1}
+  KARANAM = {'id': 'KARANAM', 'arc_len': 360.0 / 60.0, 'w_moon': 1, 'w_sun': -1}
+  SOLAR_MONTH = {'id': 'SOLAR_MONTH', 'arc_len': 360.0 / 12.0, 'w_moon': 0, 'w_sun': 1}
+  SOLAR_NAKSH = {'id': 'SOLAR_NAKSH', 'arc_len': 360.0 / 27.0, 'w_moon': 0, 'w_sun': 1}
+  SOLAR_NAKSH_PADA = {'id': 'SOLAR_NAKSH_PADA', 'arc_len': 360.0 / 108.0, 'w_moon': 0, 'w_sun': 1}
 
 
 def get_angam_data(jd_sunrise, jd_sunrise_tmrw, angam_type, ayanamsha_id):
