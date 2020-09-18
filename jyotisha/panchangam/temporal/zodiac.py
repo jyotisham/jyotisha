@@ -158,7 +158,7 @@ class NakshatraDivision(common.JsonObject):
   def get_all_angas(self):
     """Compute various properties of the time based on lunar and solar longitudes, division of a circle into a certain number of degrees (arc_len).
     """
-    anga_objects = [AngaTypes.TITHI, AngaTypes.TITHI_PADA, AngaTypes.NAKSHATRA, AngaTypes.NAKSHATRA_PADA, AngaTypes.RASHI, AngaTypes.SOLAR_MONTH, AngaTypes.SOLAR_NAKSH, AngaTypes.YOGA, AngaTypes.KARANAM]
+    anga_objects = [AngaTypes.TITHI, AngaTypes.TITHI_PADA, AngaTypes.NAKSHATRA, AngaTypes.NAKSHATRA_PADA, AngaTypes.RASHI, AngaTypes.SOLAR_MONTH, AngaTypes.SOLAR_NAKSH, AngaTypes.YOGA, AngaTypes.KARANA]
     angas = list(map(lambda anga_object: self.get_anga(jd=self.julday, angam_type=anga_object), anga_objects))
     anga_ids = list(map(lambda anga_obj: anga_obj["id"], anga_objects))
     return dict(list(zip(anga_ids, angas)))
@@ -223,7 +223,7 @@ class AngaTypes(JsonObject):
   NAKSHATRA_PADA = {'id': 'NAKSHATRA_PADA', 'arc_len': 360.0 / 108.0, 'w_moon': 1, 'w_sun': 0}
   RASHI = {'id': 'RASHI', 'arc_len': 360.0 / 12.0, 'w_moon': 1, 'w_sun': 0}
   YOGA = {'id': 'YOGA', 'arc_len': 360.0 / 27.0, 'w_moon': 1, 'w_sun': 1}
-  KARANAM = {'id': 'KARANAM', 'arc_len': 360.0 / 60.0, 'w_moon': 1, 'w_sun': -1}
+  KARANA = {'id': 'KARANAM', 'arc_len': 360.0 / 60.0, 'w_moon': 1, 'w_sun': -1}
   SOLAR_MONTH = {'id': 'SOLAR_MONTH', 'arc_len': 360.0 / 12.0, 'w_moon': 0, 'w_sun': 1}
   SOLAR_NAKSH = {'id': 'SOLAR_NAKSH', 'arc_len': 360.0 / 27.0, 'w_moon': 0, 'w_sun': 1}
   SOLAR_NAKSH_PADA = {'id': 'SOLAR_NAKSH_PADA', 'arc_len': 360.0 / 108.0, 'w_moon': 0, 'w_sun': 1}

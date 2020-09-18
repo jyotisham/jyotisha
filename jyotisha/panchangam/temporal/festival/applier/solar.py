@@ -6,6 +6,7 @@ from pytz import timezone as tz
 from jyotisha import names
 from jyotisha.panchangam import temporal
 from jyotisha.panchangam.temporal import zodiac, tithi
+from jyotisha.panchangam.temporal.body import Graha
 from jyotisha.panchangam.temporal.festival.applier import FestivalAssigner
 from jyotisha.panchangam.temporal.hour import Hour
 from jyotisha.panchangam.temporal.zodiac import NakshatraDivision, AngaSpan
@@ -13,7 +14,7 @@ from jyotisha.panchangam.temporal.zodiac import NakshatraDivision, AngaSpan
 
 class SolarFestivalAssigner(FestivalAssigner):
   def assign_all(self, debug=False):
-    self.assign_gajachhaya_yoga(debug_festivals=debug)
+    # self.assign_gajachhaya_yoga(debug_festivals=debug)
     self.assign_mahodaya_ardhodaya(debug_festivals=debug)
     self.assign_month_day_festivals(debug_festivals=debug)
     self.assign_vishesha_vyatipata(debug_festivals=debug)

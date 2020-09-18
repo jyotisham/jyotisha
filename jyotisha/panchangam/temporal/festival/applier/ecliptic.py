@@ -17,7 +17,7 @@ class EclipticFestivalAssigner(FestivalAssigner):
     self.computeTransits()
     self.compute_solar_eclipses()
     self.compute_lunar_eclipses()
-    self.assign_ayanam()
+    # self.assign_ayanam()
 
   def assign_ayanam(self):
     last_d_assigned = 0
@@ -33,10 +33,11 @@ class EclipticFestivalAssigner(FestivalAssigner):
 
       # TROPICAL AYANAMS
       if self.panchaanga.solar_month_day[d] == 1:
-        ayana_jd_start = \
+        transits = \
           Graha.singleton(Graha.SUN).get_next_raashi_transit(jd_start=self.panchaanga.jd_sunrise[d],
                                                    jd_end=self.panchaanga.jd_sunrise[d] + 15,
-                                                   ayanamsha_id=self.panchaanga.ayanamsha_id)[0][0]
+                                                   ayanamsha_id=self.panchaanga.ayanamsha_id)
+        ayana_jd_start = transits[0][0]
         [_y, _m, _d, _t] = temporal.jd_to_utc_gregorian(ayana_jd_start + (tz_off / 24.0))
         # Reduce fday by 1 if ayana time precedes sunrise and change increment _t by 24
         fday_nirayana = int(temporal.utc_gregorian_to_jd(_y, _m, _d, 0) - self.panchaanga.jd_start_utc + 1)
