@@ -87,7 +87,7 @@ class City(JsonObject):
 
   def get_rising_time(self, julian_day_start, body):
     from jyotisha.panchangam.temporal.body import Graha
-    graha = Graha(body)
+    graha = Graha.singleton(body)
     # rise_trans expects UT time
     return swe.rise_trans(
       jd_start=julian_day_start, body=graha._get_swisseph_id(),
@@ -96,7 +96,7 @@ class City(JsonObject):
 
   def get_setting_time(self, julian_day_start, body):
     from jyotisha.panchangam.temporal.body import Graha
-    graha = Graha(body)
+    graha = Graha.singleton(body)
     # rise_trans expects UT time
     return swe.rise_trans(
       jd_start=julian_day_start, body=graha._get_swisseph_id(),
@@ -129,7 +129,7 @@ class City(JsonObject):
         float lagna
     """
 
-    lcalc = self.get_zodiac_longitude_eastern_horizon(jd=jd) - Ayanamsha.factory(ayanamsha_id=ayanamsha_id).get_offset(jd=jd)
+    lcalc = self.get_zodiac_longitude_eastern_horizon(jd=jd) - Ayanamsha.singleton(ayanamsha_id=ayanamsha_id).get_offset(jd=jd)
     lcalc = lcalc % 360
 
     if offset == 0:

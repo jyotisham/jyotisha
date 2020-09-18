@@ -1,11 +1,14 @@
 import logging
 import math
 
+import methodtools
 import swisseph as swe
 from scipy.optimize import brentq
 
+from sanskrit_data.schema.common import JsonObject
 
-class Graha(object):
+
+class Graha(JsonObject):
   SUN = "sun"
   MOON = "moon"
   JUPITER = "jupiter"
@@ -13,6 +16,11 @@ class Graha(object):
   MERCURY = "mercury"
   MARS = "mars"
   SATURN = "saturn"
+
+  @methodtools.lru_cache(maxsize=None)
+  @classmethod
+  def singleton(cls, body_name):
+    return cls(body_name=body_name)
 
   def __init__(self, body_name):
     self.body_name = body_name
@@ -40,7 +48,7 @@ class Graha(object):
 
   def get_longitude_offset(self, jd, offset, ayanamsha_id):
     from jyotisha.panchangam.temporal.zodiac import Ayanamsha
-    adjusted_longitude = (self.get_longitude(jd=jd) - Ayanamsha.factory(ayanamsha_id).get_offset(jd)) % 360
+    adjusted_longitude = (self.get_longitude(jd=jd) - Ayanamsha.singleton(ayanamsha_id).get_offset(jd)) % 360
     # Not doing modulo arithmetic below - we want to allow the offset longitude to be negative, for use with brentq.
     return adjusted_longitude + offset
 
@@ -95,17 +103,6 @@ class Graha(object):
           return (None, None, None)
 
     return transits
-
-  # def find_0deg_jd(self, jd_start, jd_end):
-  #   def f(jd):
-  #     self.get_longitude_offset()
-  #     x = x_in % 360
-  #     if (x >= 180 and x <= 360):
-  #       return -x
-  #     else:
-  #       return x
-  #   
-  #   self.get_next_raashi_transit(jd_start=jd_start, jd_end=jd_end)
 
 
 def get_star_longitude(star, jd):

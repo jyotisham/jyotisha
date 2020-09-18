@@ -25,7 +25,7 @@ class Ayanamsha(common.JsonObject):
 
   @methodtools.lru_cache(maxsize=None)
   @classmethod
-  def factory(cls, ayanamsha_id):
+  def singleton(cls, ayanamsha_id):
     return cls(ayanamsha_id=ayanamsha_id)
 
   def __init__(self, ayanamsha_id):
@@ -57,7 +57,7 @@ class NakshatraDivision(common.JsonObject):
   # noinspection PyAttributeOutsideInit
   def set_time(self, julday):
     self.julday = julday
-    self.right_boundaries = ((numpy.arange(27) + 1) * (360.0 / 27.0) + Ayanamsha.factory(self.ayanamsha_id).get_offset(
+    self.right_boundaries = ((numpy.arange(27) + 1) * (360.0 / 27.0) + Ayanamsha.singleton(self.ayanamsha_id).get_offset(
       julday)) % 360
 
   def get_nakshatra_for_body(self, body):
@@ -68,8 +68,8 @@ class NakshatraDivision(common.JsonObject):
     """
     if self.julday is not None:
       self.set_time(julday=self.julday)
-    logging.debug(Ayanamsha.factory(self.ayanamsha_id).get_offset(self.julday))
-    return Graha(body).get_longitude_offset(self.julday, ayanamsha_id=self.ayanamsha_id) / (360.0 / 27.0) + 1
+    logging.debug(Ayanamsha.singleton(self.ayanamsha_id).get_offset(self.julday))
+    return Graha.singleton(body).get_longitude_offset(self.julday, ayanamsha_id=self.ayanamsha_id) / (360.0 / 27.0) + 1
 
   def __str__(self):
     return str(self.__dict__)
@@ -127,12 +127,12 @@ class NakshatraDivision(common.JsonObject):
 
     #  Get the lunar longitude, starting at the ayanaamsha point in the ecliptic.
     if w_moon != 0:
-      lmoon = Graha(Graha.MOON).get_longitude_offset(self.julday, offset=0, ayanamsha_id=ayanamsha_id)
+      lmoon = Graha.singleton(Graha.MOON).get_longitude_offset(self.julday, offset=0, ayanamsha_id=ayanamsha_id)
       lcalc += w_moon * lmoon
 
     #  Get the solar longitude, starting at the ayanaamsha point in the ecliptic.
     if w_sun != 0:
-      lsun = Graha(Graha.SUN).get_longitude_offset(self.julday, offset=0, ayanamsha_id=ayanamsha_id)
+      lsun = Graha.singleton(Graha.SUN).get_longitude_offset(self.julday, offset=0, ayanamsha_id=ayanamsha_id)
       lcalc += w_sun * lsun
 
     lcalc = lcalc % 360
@@ -263,13 +263,13 @@ def get_angam_data(jd_sunrise, jd_sunrise_tmrw, anga_type, ayanamsha_id):
     # The angam does not change until sunrise tomorrow
     return [(angam_now, None)]
   else:
-    lmoon = Graha(Graha.MOON).get_longitude_offset(jd_sunrise, offset=0, ayanamsha_id=ayanamsha_id)
+    lmoon = Graha.singleton(Graha.MOON).get_longitude_offset(jd_sunrise, offset=0, ayanamsha_id=ayanamsha_id)
 
-    lsun = Graha(Graha.SUN).get_longitude_offset(jd_sunrise, offset=0, ayanamsha_id=ayanamsha_id)
+    lsun = Graha.singleton(Graha.SUN).get_longitude_offset(jd_sunrise, offset=0, ayanamsha_id=ayanamsha_id)
 
-    lmoon_tmrw = Graha(Graha.MOON).get_longitude_offset(jd_sunrise_tmrw, offset=0, ayanamsha_id=ayanamsha_id)
+    lmoon_tmrw = Graha.singleton(Graha.MOON).get_longitude_offset(jd_sunrise_tmrw, offset=0, ayanamsha_id=ayanamsha_id)
 
-    lsun_tmrw = Graha(Graha.SUN).get_longitude_offset(jd_sunrise_tmrw, offset=0, ayanamsha_id=ayanamsha_id)
+    lsun_tmrw = Graha.singleton(Graha.SUN).get_longitude_offset(jd_sunrise_tmrw, offset=0, ayanamsha_id=ayanamsha_id)
 
     for i in range(num_angas_today):
       angam_remaining = arc_len * (i + 1) - (((lmoon * w_moon +

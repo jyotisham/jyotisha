@@ -3,7 +3,7 @@ from jyotisha.panchangam.temporal.zodiac import NakshatraDivision, Ayanamsha, An
 
 
 def test_get_ayanamsha():
-  ayanamsha = zodiac.Ayanamsha.factory(ayanamsha_id=zodiac.Ayanamsha.CHITRA_AT_180)
+  ayanamsha = zodiac.Ayanamsha.singleton(ayanamsha_id=zodiac.Ayanamsha.CHITRA_AT_180)
   assert ayanamsha.get_offset(2458434.083333251) == 24.094859396693067
 
 

@@ -308,7 +308,7 @@ class Panchangam(common.JsonObject):
     for d in range(1, self.len - 1):
       jd = self.jd_start_utc - 1 + d
       [y, m, dt, t] = temporal.jd_to_utc_gregorian(jd)
-      longitude_sun_sunset = Graha(Graha.SUN).get_longitude(self.jd_sunset[d]) - zodiac.Ayanamsha.factory(
+      longitude_sun_sunset = Graha.singleton(Graha.SUN).get_longitude(self.jd_sunset[d]) - zodiac.Ayanamsha.singleton(
         self.ayanamsha_id).get_offset(self.jd_sunset[d])
       log_data = '%02d-%02d-%4d\t[%3d]\tsun_rashi=%8.3f\ttithi=%8.3f\tsolar_month\
         =%2d\tlunar_month=%4.1f\n' % (dt, m, y, d, (longitude_sun_sunset % 360) / 30.0,

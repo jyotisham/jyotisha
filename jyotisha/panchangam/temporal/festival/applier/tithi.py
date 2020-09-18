@@ -32,11 +32,11 @@ class TithiFestivalAssigner(FestivalAssigner):
 
       # SANKATAHARA chaturthi
       if self.panchaanga.tithi_sunrise[d] == 18 or self.panchaanga.tithi_sunrise[d] == 19:
-        ldiff_moonrise_yest = (Graha(Graha.MOON).get_longitude(self.panchaanga.jd_moonrise[d - 1]) - Graha(
+        ldiff_moonrise_yest = (Graha.singleton(Graha.MOON).get_longitude(self.panchaanga.jd_moonrise[d - 1]) - Graha.singleton(
           Graha.SUN).get_longitude(self.panchaanga.jd_moonrise[d - 1])) % 360
-        ldiff_moonrise = (Graha(Graha.MOON).get_longitude(self.panchaanga.jd_moonrise[d]) - Graha(Graha.SUN).get_longitude(
+        ldiff_moonrise = (Graha.singleton(Graha.MOON).get_longitude(self.panchaanga.jd_moonrise[d]) - Graha.singleton(Graha.SUN).get_longitude(
           self.panchaanga.jd_moonrise[d])) % 360
-        ldiff_moonrise_tmrw = (Graha(Graha.MOON).get_longitude(self.panchaanga.jd_moonrise[d + 1]) - Graha(
+        ldiff_moonrise_tmrw = (Graha.singleton(Graha.MOON).get_longitude(self.panchaanga.jd_moonrise[d + 1]) - Graha.singleton(
           Graha.SUN).get_longitude(self.panchaanga.jd_moonrise[d + 1])) % 360
         tithi_moonrise_yest = int(1 + floor(ldiff_moonrise_yest / 12.0))
         tithi_moonrise = int(1 + floor(ldiff_moonrise / 12.0))
