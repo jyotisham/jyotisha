@@ -1,12 +1,25 @@
 
 import logging
 
-from jyotisha import names
-
 from jyotisha.panchangam import temporal
-from jyotisha.panchangam.temporal import zodiac, PanchaangaApplier, interval
-from jyotisha.panchangam.temporal.hour import Hour
-from jyotisha.panchangam.temporal.zodiac import NakshatraDivision
+from jyotisha.panchangam.temporal import PanchaangaApplier, interval
+
+
+def get_tithi(jd):
+  """Returns the tithi prevailing at a given moment
+
+  Tithi is computed as the difference in the longitudes of the moon
+  and sun at any given point of time. Therefore, even the ayanamsha
+  does not matter, as it gets cancelled out.
+
+  Returns:
+    int tithi, where 1 stands for ShuklapakshaPrathama, ..., 15 stands
+    for Paurnamasi, ..., 23 stands for KrishnapakshaAshtami, 30 stands
+    for Amavasya
+
+  """
+  from jyotisha.panchangam.temporal.zodiac import NakshatraDivision, Ayanamsha, TITHI
+  return NakshatraDivision(jd=jd, ayanamsha_id=Ayanamsha.VERNAL_EQUINOX_AT_0).get_anga(TITHI)
 
 
 class TithiAssigner(PanchaangaApplier):
@@ -24,10 +37,7 @@ class TithiAssigner(PanchaangaApplier):
     for d in range(1, self.panchaanga.duration + 1):
       [y, m, dt, t] = temporal.jd_to_utc_gregorian(self.panchaanga.jd_start_utc + d - 1)
   
-      def f(x):
-        return NakshatraDivision(x, ayanamsha_id=self.panchaanga.ayanamsha_id).get_tithi()
-  
-      angas = self.panchaanga.get_angas_for_interval_boundaries(d, f, 'aparaahna')
+      angas = self.panchaanga.get_angas_for_interval_boundaries(d, get_tithi, 'aparaahna')
       angam_start = angas[0]
       next_anga = (angam_start % 30) + 1
       nnext_anga = (next_anga % 30) + 1

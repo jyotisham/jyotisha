@@ -91,8 +91,7 @@ class TithiFestivalAssigner(FestivalAssigner):
         festival_name = 'subrahmaNya-' + festival_name
 
       if self.panchaanga.tithi_sunrise[d] == 5 or self.panchaanga.tithi_sunrise[d] == 6:
-        angams = self.panchaanga.get_angas_for_interval_boundaries(d, lambda x: NakshatraDivision(x,
-                                                                                                  ayanamsha_id=self.panchaanga.ayanamsha_id).get_tithi(),
+        angams = self.panchaanga.get_angas_for_interval_boundaries(d, lambda x: temporal.tithi.get_tithi(x),
                                             'madhyaahna')
         if angams[0] == 6 or angams[1] == 6:
           if festival_name in self.panchaanga.fest_days:
@@ -335,9 +334,8 @@ class TithiFestivalAssigner(FestivalAssigner):
       # PRADOSHA Vratam
       pref = ''
       if self.panchaanga.tithi_sunrise[d] in (12, 13, 27, 28):
-        tithi_sunset = NakshatraDivision(self.panchaanga.jd_sunset[d], ayanamsha_id=self.panchaanga.ayanamsha_id).get_tithi() % 15
-        tithi_sunset_tmrw = NakshatraDivision(self.panchaanga.jd_sunset[d + 1],
-                                              ayanamsha_id=self.panchaanga.ayanamsha_id).get_tithi() % 15
+        tithi_sunset = temporal.tithi.get_tithi(self.panchaanga.jd_sunset[d]) % 15
+        tithi_sunset_tmrw = temporal.tithi.get_tithi(self.panchaanga.jd_sunset[d + 1]) % 15
         if tithi_sunset <= 13 and tithi_sunset_tmrw != 13:
           fday = d
         elif tithi_sunset_tmrw == 13:
@@ -422,8 +420,8 @@ class TithiFestivalAssigner(FestivalAssigner):
       [y, m, dt, t] = temporal.jd_to_utc_gregorian(self.panchaanga.jd_start_utc + d - 1)
       # Chandra Darshanam
       if self.panchaanga.tithi_sunrise[d] == 1 or self.panchaanga.tithi_sunrise[d] == 2:
-        tithi_sunset = NakshatraDivision(self.panchaanga.jd_sunset[d], ayanamsha_id=self.panchaanga.ayanamsha_id).get_tithi()
-        tithi_sunset_tmrw = NakshatraDivision(self.panchaanga.jd_sunset[d + 1], ayanamsha_id=self.panchaanga.ayanamsha_id).get_tithi()
+        tithi_sunset = temporal.tithi.get_tithi(self.panchaanga.jd_sunset[d])
+        tithi_sunset_tmrw = temporal.tithi.get_tithi(self.panchaanga.jd_sunset[d + 1])
         # if tithi_sunset <= 2 and tithi_sunset_tmrw != 2:
         if tithi_sunset <= 2:
           if tithi_sunset == 1:

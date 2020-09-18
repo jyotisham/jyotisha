@@ -16,6 +16,7 @@ logging.basicConfig(
 
 
 class Ayanamsha(common.JsonObject):
+  VERNAL_EQUINOX_AT_0 = "VERNAL_EQUINOX_AT_0"
   CHITRA_AT_180 = "CHITRA_AT_180"
   ASHVINI_STARTING_0 = "ASHVINI_STARTING_0"
   RASHTRIYA_PANCHANGA_NAKSHATRA_TRACKING = "RASHTRIYA_PANCHANGA_NAKSHATRA_TRACKING"
@@ -24,7 +25,9 @@ class Ayanamsha(common.JsonObject):
     self.ayanamsha_id = ayanamsha_id
 
   def get_offset(self, jd):
-    if self.ayanamsha_id == Ayanamsha.CHITRA_AT_180:
+    if self.ayanamsha_id == Ayanamsha.VERNAL_EQUINOX_AT_0:
+      return 0
+    elif self.ayanamsha_id == Ayanamsha.CHITRA_AT_180:
       # TODO: The below fails due to https://github.com/astrorigin/pyswisseph/issues/35
       from jyotisha.panchangam.temporal import body
       return (body.get_star_longitude(star="Spica", jd=jd) - 180)
@@ -103,6 +106,9 @@ class NakshatraDivision(common.JsonObject):
       Returns:
         float angam
     """
+    if anga_type == TITHI:
+      # For efficiency - avoid lookups.
+      ayanamsha_id = Ayanamsha.VERNAL_EQUINOX_AT_0
 
     w_moon = anga_type['w_moon']
     w_sun = anga_type['w_sun']
@@ -112,12 +118,12 @@ class NakshatraDivision(common.JsonObject):
 
     #  Get the lunar longitude, starting at the ayanaamsha point in the ecliptic.
     if w_moon != 0:
-      lmoon = Graha(Graha.MOON).get_longitude_offset(self.julday, offset=0, ayanamsha_id=self.ayanamsha_id)
+      lmoon = Graha(Graha.MOON).get_longitude_offset(self.julday, offset=0, ayanamsha_id=ayanamsha_id)
       lcalc += w_moon * lmoon
 
     #  Get the solar longitude, starting at the ayanaamsha point in the ecliptic.
     if w_sun != 0:
-      lsun = Graha(Graha.SUN).get_longitude_offset(self.julday, offset=0, ayanamsha_id=self.ayanamsha_id)
+      lsun = Graha(Graha.SUN).get_longitude_offset(self.julday, offset=0, ayanamsha_id=ayanamsha_id)
       lcalc += w_sun * lsun
 
     lcalc = lcalc % 360
@@ -147,22 +153,6 @@ class NakshatraDivision(common.JsonObject):
     angas = list(map(lambda anga_object: self.get_anga(jd=self.julday, angam_type=anga_object), anga_objects))
     anga_ids = list(map(lambda anga_obj: anga_obj["id"], anga_objects))
     return dict(list(zip(anga_ids, angas)))
-
-  def get_tithi(self):
-    """Returns the tithi prevailing at a given moment
-
-    Tithi is computed as the difference in the longitudes of the moon
-    and sun at any given point of time. Therefore, even the ayanamsha
-    does not matter, as it gets cancelled out.
-
-    Returns:
-      int tithi, where 1 stands for ShuklapakshaPrathama, ..., 15 stands
-      for Paurnamasi, ..., 23 stands for KrishnapakshaAshtami, 30 stands
-      for Amavasya
-
-    """
-
-    return self.get_anga(TITHI)
 
   def get_nakshatra(self):
     """Returns the nakshatram prevailing at a given moment
@@ -412,6 +402,7 @@ class AngaSpan(Interval):
       logging.debug(('anga_interval.jd_end', anga_interval.jd_end))
 
     return anga_interval
+
 
 
 if __name__ == '__main__':

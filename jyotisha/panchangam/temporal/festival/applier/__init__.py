@@ -2,7 +2,7 @@ import logging
 import os
 from itertools import filterfalse
 
-from jyotisha.panchangam.temporal import interval, PanchaangaApplier
+from jyotisha.panchangam.temporal import interval, PanchaangaApplier, tithi
 from jyotisha.panchangam import temporal
 from jyotisha.panchangam.temporal import festival
 from jyotisha.panchangam.temporal import zodiac
@@ -140,7 +140,7 @@ class FestivalAssigner(PanchaangaApplier):
           if angam_type == 'tithi':
             angam_sunrise = self.panchaanga.tithi_sunrise
             angam_data = self.panchaanga.tithi_data
-            get_angam_func = lambda x: NakshatraDivision(x, ayanamsha_id=self.panchaanga.ayanamsha_id).get_tithi()
+            get_angam_func = lambda x: tithi.get_tithi(x)
             num_angams = 30
           elif angam_type == 'nakshatram':
             angam_sunrise = self.panchaanga.nakshatram_sunrise
