@@ -120,9 +120,9 @@ class DailyPanchanga(common.JsonObject):
     if not hasattr(self, "jd_sunrise") or self.jd_sunrise is None:
       self.compute_sun_moon_transitions()
 
-    self.longitude_sun_sunrise = Graha(Graha.SUN).get_longitude(self.jd_sunrise) - Ayanamsha(
+    self.longitude_sun_sunrise = Graha(Graha.SUN).get_longitude(self.jd_sunrise) - Ayanamsha.factory(
       self.ayanamsha_id).get_offset(self.jd_sunrise)
-    self.longitude_sun_sunset = Graha(Graha.SUN).get_longitude(self.jd_sunset) - Ayanamsha(
+    self.longitude_sun_sunset = Graha(Graha.SUN).get_longitude(self.jd_sunset) - Ayanamsha.factory(
       self.ayanamsha_id).get_offset(self.jd_sunset)
 
     # Each solar month has 30 days. So, divide the longitude by 30 to get the solar month.

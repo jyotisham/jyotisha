@@ -129,7 +129,7 @@ class City(JsonObject):
         float lagna
     """
 
-    lcalc = self.get_zodiac_longitude_eastern_horizon(jd=jd) - Ayanamsha(ayanamsha_id=ayanamsha_id).get_offset(jd=jd)
+    lcalc = self.get_zodiac_longitude_eastern_horizon(jd=jd) - Ayanamsha.factory(ayanamsha_id=ayanamsha_id).get_offset(jd=jd)
     lcalc = lcalc % 360
 
     if offset == 0:

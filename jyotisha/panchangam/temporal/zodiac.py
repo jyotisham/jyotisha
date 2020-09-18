@@ -1,13 +1,13 @@
-import functools
 import logging
 from math import floor
 
+import methodtools
 import numpy
 import swisseph as swe
 from scipy.optimize import brentq
 
-from jyotisha.panchangam.temporal.interval import Interval
 from jyotisha.panchangam.temporal.body import Graha
+from jyotisha.panchangam.temporal.interval import Interval
 from sanskrit_data.schema import common
 from sanskrit_data.schema.common import JsonObject
 
@@ -23,7 +23,11 @@ class Ayanamsha(common.JsonObject):
   ASHVINI_STARTING_0 = "ASHVINI_STARTING_0"
   RASHTRIYA_PANCHANGA_NAKSHATRA_TRACKING = "RASHTRIYA_PANCHANGA_NAKSHATRA_TRACKING"
 
-  @functools.lru_cache(maxsize=None)
+  @methodtools.lru_cache(maxsize=None)
+  @classmethod
+  def factory(cls, ayanamsha_id):
+    return cls(ayanamsha_id=ayanamsha_id)
+
   def __init__(self, ayanamsha_id):
     self.ayanamsha_id = ayanamsha_id
 
@@ -53,7 +57,7 @@ class NakshatraDivision(common.JsonObject):
   # noinspection PyAttributeOutsideInit
   def set_time(self, julday):
     self.julday = julday
-    self.right_boundaries = ((numpy.arange(27) + 1) * (360.0 / 27.0) + Ayanamsha(self.ayanamsha_id).get_offset(
+    self.right_boundaries = ((numpy.arange(27) + 1) * (360.0 / 27.0) + Ayanamsha.factory(self.ayanamsha_id).get_offset(
       julday)) % 360
 
   def get_nakshatra_for_body(self, body):
@@ -64,7 +68,7 @@ class NakshatraDivision(common.JsonObject):
     """
     if self.julday is not None:
       self.set_time(julday=self.julday)
-    logging.debug(Ayanamsha(self.ayanamsha_id).get_offset(self.julday))
+    logging.debug(Ayanamsha.factory(self.ayanamsha_id).get_offset(self.julday))
     return Graha(body).get_longitude_offset(self.julday, ayanamsha_id=self.ayanamsha_id) / (360.0 / 27.0) + 1
 
   def __str__(self):
