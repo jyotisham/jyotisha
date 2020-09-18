@@ -17,55 +17,7 @@ class SolarFestivalAssigner(FestivalAssigner):
     self.assign_gajachhaya_yoga(debug_festivals=debug)
     self.assign_mahodaya_ardhodaya(debug_festivals=debug)
     self.assign_month_day_festivals(debug_festivals=debug)
-    self.assign_ayanam(debug_festivals=debug)
     self.assign_vishesha_vyatipata(debug_festivals=debug)
-
-  def assign_ayanam(self, debug_festivals=False):
-    last_d_assigned = 0
-    for d in range(1, self.panchaanga.duration + 1):
-
-      [y, m, dt, t] = temporal.jd_to_utc_gregorian(self.panchaanga.jd_start_utc + d - 1)
-
-      # checking @ 6am local - can we do any better?
-      local_time = tz(self.panchaanga.city.timezone).localize(datetime(y, m, dt, 6, 0, 0))
-      # compute offset from UTC in hours
-      tz_off = (datetime.utcoffset(local_time).days * 86400 +
-                datetime.utcoffset(local_time).seconds) / 3600.0
-
-      # TROPICAL AYANAMS
-      if self.panchaanga.solar_month_day[d] == 1:
-        ayana_jd_start = \
-          Graha(Graha.SUN).get_next_raashi_transit(jd_start=self.panchaanga.jd_sunrise[d],
-                                                   jd_end=self.panchaanga.jd_sunrise[d] + 15,
-                                                   ayanamsha_id=zodiac.Ayanamsha.ASHVINI_STARTING_0)[0][0]
-        [_y, _m, _d, _t] = temporal.jd_to_utc_gregorian(ayana_jd_start + (tz_off / 24.0))
-        # Reduce fday by 1 if ayana time precedes sunrise and change increment _t by 24
-        fday_nirayana = int(temporal.utc_gregorian_to_jd(_y, _m, _d, 0) - self.panchaanga.jd_start_utc + 1)
-        if fday_nirayana > self.panchaanga.duration:
-          continue
-        if ayana_jd_start < self.panchaanga.jd_sunrise[fday_nirayana]:
-          fday_nirayana -= 1
-          _t += 24
-        ayana_time = Hour(_t).toString(format=self.panchaanga.fmt)
-
-        self.panchaanga.festivals[fday_nirayana].append('%s\\textsf{%s}{\\RIGHTarrow}\\textsf{%s}' % (
-          names.NAMES['RTU_MASA_NAMES'][self.panchaanga.script][self.panchaanga.solar_month[d]], '', ayana_time))
-        self.panchaanga.tropical_month_end_time[fday_nirayana] = ayana_jd_start
-        for i in range(last_d_assigned + 1, fday_nirayana + 1):
-          self.panchaanga.tropical_month[i] = self.panchaanga.solar_month[d]
-        last_d_assigned = fday_nirayana
-        if self.panchaanga.solar_month[d] == 3:
-          if self.panchaanga.jd_sunset[fday_nirayana] < ayana_jd_start < self.panchaanga.jd_sunset[fday_nirayana + 1]:
-            self.panchaanga.festivals[fday_nirayana].append('dakSiNAyana-puNyakAlaH')
-          else:
-            self.panchaanga.festivals[fday_nirayana - 1].append('dakSiNAyana-puNyakAlaH')
-        if self.panchaanga.solar_month[d] == 9:
-          if self.panchaanga.jd_sunset[fday_nirayana] < ayana_jd_start < self.panchaanga.jd_sunset[fday_nirayana + 1]:
-            self.panchaanga.festivals[fday_nirayana + 1].append('uttarAyaNa-puNyakAlaH/mitrOtsavaH')
-          else:
-            self.panchaanga.festivals[fday_nirayana].append('uttarAyaNa-puNyakAlaH/mitrOtsavaH')
-    for i in range(last_d_assigned + 1, self.panchaanga.duration + 1):
-      self.panchaanga.tropical_month[i] = (self.panchaanga.solar_month[last_d_assigned] % 12) + 1
 
   def assign_month_day_festivals(self, debug_festivals=False):
     for d in range(1, self.panchaanga.duration + 1):
