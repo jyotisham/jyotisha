@@ -88,7 +88,8 @@ setup(
     'geocoder', 'geopy', 
     'numpy', 
     'flask', 'flask_restplus', 'flask_cors',
-    'jsonpickle'
+    'jsonpickle',
+    'methodtools'
   ],
 
   # List additional groups of dependencies here (e.g. development

@@ -7,7 +7,7 @@ from scipy.optimize import brentq
 
 from jyotisha import names
 from jyotisha.panchangam import temporal
-from jyotisha.panchangam.temporal import zodiac
+from jyotisha.panchangam.temporal import zodiac, tithi
 from jyotisha.panchangam.temporal.body import Graha
 from jyotisha.panchangam.temporal.festival.applier import FestivalAssigner
 from jyotisha.panchangam.temporal.hour import Hour
@@ -167,18 +167,14 @@ class TithiFestivalAssigner(FestivalAssigner):
           ekadashi_paksha = 'shukla'
         if ekadashi_tithi_days in [[11, 11, 12], [10, 12, 12]]:
           smaarta_ekadashi_fday = d + 1
-          tithi_arunodayam = NakshatraDivision(
-            self.panchaanga.jd_sunrise[d + 1] - (1 / 15.0) * (self.panchaanga.jd_sunrise[d + 1] - self.panchaanga.jd_sunrise[d]),
-            ayanamsha_id=self.panchaanga.ayanamsha_id).get_tithi()
+          tithi_arunodayam = tithi.get_tithi(self.panchaanga.jd_sunrise[d + 1] - (1 / 15.0) * (self.panchaanga.jd_sunrise[d + 1] - self.panchaanga.jd_sunrise[d]))
           if tithi_arunodayam % 15 == 10:
             vaishnava_ekadashi_fday = d + 2
           else:
             vaishnava_ekadashi_fday = d + 1
         elif ekadashi_tithi_days in [[10, 12, 13], [11, 12, 13], [11, 12, 12], [11, 12, 14]]:
           smaarta_ekadashi_fday = d
-          tithi_arunodayam = NakshatraDivision(
-            self.panchaanga.jd_sunrise[d] - (1 / 15.0) * (self.panchaanga.jd_sunrise[d] - self.panchaanga.jd_sunrise[d - 1]),
-            ayanamsha_id=self.panchaanga.ayanamsha_id).get_tithi()
+          tithi_arunodayam = temporal.tithi.get_tithi(self.panchaanga.jd_sunrise[d] - (1 / 15.0) * (self.panchaanga.jd_sunrise[d] - self.panchaanga.jd_sunrise[d - 1]))
           if tithi_arunodayam % 15 == 11 and ekadashi_tithi_days in [[11, 12, 13], [11, 12, 14]]:
             vaishnava_ekadashi_fday = d
           else:

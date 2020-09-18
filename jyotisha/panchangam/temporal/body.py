@@ -58,7 +58,7 @@ class Graha(object):
 """
 
     transits = []
-    MIN_JUMP = 15  # Random check for a transit every 15 days!
+    MIN_JUMP = min(15, jd_end-jd_start)  # Random check for a transit every 15 days!
     # Could be tweaked based on planet using a dict?
 
     curr_L_bracket = jd_start
@@ -72,7 +72,6 @@ class Graha(object):
 
       if L_rashi == R_rashi:
         curr_R_bracket += MIN_JUMP
-        continue
       else:
         # We have bracketed a transit!
         if L_rashi < R_rashi:

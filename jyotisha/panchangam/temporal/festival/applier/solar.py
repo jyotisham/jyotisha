@@ -5,8 +5,7 @@ from pytz import timezone as tz
 
 from jyotisha import names
 from jyotisha.panchangam import temporal
-from jyotisha.panchangam.temporal import zodiac
-from jyotisha.panchangam.temporal.body import Graha
+from jyotisha.panchangam.temporal import zodiac, tithi
 from jyotisha.panchangam.temporal.festival.applier import FestivalAssigner
 from jyotisha.panchangam.temporal.hour import Hour
 from jyotisha.panchangam.temporal.zodiac import NakshatraDivision, AngaSpan
@@ -165,7 +164,7 @@ class SolarFestivalAssigner(FestivalAssigner):
       # 4th pada of vyatipatam, 1st pada of Amavasya, 2nd pada of Shravana, Suryodaya, Somavasara = Mahodayam
       sunrise_zodiac = NakshatraDivision(self.panchaanga.jd_sunrise[d], ayanamsha_id=self.panchaanga.ayanamsha_id)
       sunset_zodiac = NakshatraDivision(self.panchaanga.jd_sunset[d], ayanamsha_id=self.panchaanga.ayanamsha_id)
-      if self.panchaanga.lunar_month[d] in [10, 11] and self.panchaanga.tithi_sunrise[d] == 30 or sunrise_zodiac.get_tithi() == 30:
+      if self.panchaanga.lunar_month[d] in [10, 11] and self.panchaanga.tithi_sunrise[d] == 30 or tithi.get_tithi(self.panchaanga.jd_sunrise[d]) == 30:
         if sunrise_zodiac.get_anga(zodiac.AngaTypes.NAKSHATRA) == 17 or \
             sunset_zodiac.get_anga(zodiac.AngaTypes.NAKSHATRA) == 17 and \
             sunrise_zodiac.get_anga(zodiac.AngaTypes.NAKSHATRA) == 22 or \

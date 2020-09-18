@@ -9,6 +9,7 @@ from jyotisha.panchangam import temporal
 from jyotisha.panchangam.temporal.body import Graha
 from jyotisha.panchangam.temporal.festival.applier import FestivalAssigner
 from jyotisha.panchangam.temporal.hour import Hour
+from jyotisha.panchangam.temporal.zodiac import Ayanamsha
 
 
 class EclipticFestivalAssigner(FestivalAssigner):
