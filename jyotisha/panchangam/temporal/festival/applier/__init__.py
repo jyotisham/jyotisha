@@ -140,7 +140,7 @@ class FestivalAssigner(PanchaangaApplier):
           if angam_type == 'tithi':
             angam_sunrise = self.panchaanga.tithi_sunrise
             angam_data = self.panchaanga.tithi_data
-            get_angam_func = lambda x: tithi.get_tithi(x)
+            get_angam_func = lambda x: temporal.tithi.get_tithi(x)
             num_angams = 30
           elif angam_type == 'nakshatram':
             angam_sunrise = self.panchaanga.nakshatram_sunrise
@@ -430,10 +430,10 @@ class MiscFestivalAssigner(FestivalAssigner):
       if self.panchaanga.solar_month[d] == 1 and self.panchaanga.solar_month_day[d] == 10:
         agni_jd_start, dummy = AngaSpan.find(
           self.panchaanga.jd_sunrise[d], self.panchaanga.jd_sunrise[d] + 30,
-          zodiac.AngaTypes.SOLAR_MONTH_PADA, 7, ayanamsha_id=self.panchaanga.ayanamsha_id).to_tuple()
+          zodiac.AngaTypes.SOLAR_NAKSH_PADA, 7, ayanamsha_id=self.panchaanga.ayanamsha_id).to_tuple()
         dummy, agni_jd_end = AngaSpan.find(
           agni_jd_start, agni_jd_start + 30,
-          zodiac.AngaTypes.SOLAR_MONTH_PADA, 13, ayanamsha_id=self.panchaanga.ayanamsha_id).to_tuple()
+          zodiac.AngaTypes.SOLAR_NAKSH_PADA, 13, ayanamsha_id=self.panchaanga.ayanamsha_id).to_tuple()
 
       if self.panchaanga.solar_month[d] == 1 and self.panchaanga.solar_month_day[d] > 10:
         if agni_jd_start is not None:

@@ -18,8 +18,8 @@ def get_tithi(jd):
     for Amavasya
 
   """
-  from jyotisha.panchangam.temporal.zodiac import NakshatraDivision, Ayanamsha, TITHI
-  return NakshatraDivision(jd=jd, ayanamsha_id=Ayanamsha.VERNAL_EQUINOX_AT_0).get_anga(TITHI)
+  from jyotisha.panchangam.temporal.zodiac import NakshatraDivision, Ayanamsha, AngaTypes
+  return NakshatraDivision(julday=jd, ayanamsha_id=Ayanamsha.VERNAL_EQUINOX_AT_0).get_anga(AngaTypes.TITHI)
 
 
 class TithiAssigner(PanchaangaApplier):

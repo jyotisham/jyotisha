@@ -97,6 +97,17 @@ class Graha(object):
 
     return transits
 
+  # def find_0deg_jd(self, jd_start, jd_end):
+  #   def f(jd):
+  #     self.get_longitude_offset()
+  #     x = x_in % 360
+  #     if (x >= 180 and x <= 360):
+  #       return -x
+  #     else:
+  #       return x
+  #   
+  #   self.get_next_raashi_transit(jd_start=jd_start, jd_end=jd_end)
+
 
 def get_star_longitude(star, jd):
   from jyotisha.panchangam import data

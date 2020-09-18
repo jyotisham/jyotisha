@@ -1,3 +1,4 @@
+import functools
 import logging
 from math import floor
 
@@ -22,6 +23,7 @@ class Ayanamsha(common.JsonObject):
   ASHVINI_STARTING_0 = "ASHVINI_STARTING_0"
   RASHTRIYA_PANCHANGA_NAKSHATRA_TRACKING = "RASHTRIYA_PANCHANGA_NAKSHATRA_TRACKING"
 
+  @functools.lru_cache(maxsize=None)
   def __init__(self, ayanamsha_id):
     self.ayanamsha_id = ayanamsha_id
 
@@ -110,6 +112,8 @@ class NakshatraDivision(common.JsonObject):
     if anga_type == AngaTypes.TITHI:
       # For efficiency - avoid lookups.
       ayanamsha_id = Ayanamsha.VERNAL_EQUINOX_AT_0
+    else:
+      ayanamsha_id = self.ayanamsha_id
 
     w_moon = anga_type['w_moon']
     w_sun = anga_type['w_sun']
@@ -150,7 +154,7 @@ class NakshatraDivision(common.JsonObject):
   def get_all_angas(self):
     """Compute various properties of the time based on lunar and solar longitudes, division of a circle into a certain number of degrees (arc_len).
     """
-    anga_objects = [AngaTypes.TITHI, AngaTypes.TITHI_PADA, AngaTypes.NAKSHATRAM, AngaTypes.NAKSHATRA_PADA, AngaTypes.RASHI, AngaTypes.SOLAR_MONTH, AngaTypes.SOLAR_NAKSH, AngaTypes.YOGA, AngaTypes.KARANAM]
+    anga_objects = [AngaTypes.TITHI, AngaTypes.TITHI_PADA, AngaTypes.NAKSHATRA, AngaTypes.NAKSHATRA_PADA, AngaTypes.RASHI, AngaTypes.SOLAR_MONTH, AngaTypes.SOLAR_NAKSH, AngaTypes.YOGA, AngaTypes.KARANAM]
     angas = list(map(lambda anga_object: self.get_anga(jd=self.julday, angam_type=anga_object), anga_objects))
     anga_ids = list(map(lambda anga_obj: anga_obj["id"], anga_objects))
     return dict(list(zip(anga_ids, angas)))
@@ -168,7 +172,7 @@ class NakshatraDivision(common.JsonObject):
 
     """
 
-    return self.get_anga(AngaTypes.NAKSHATRAM)
+    return self.get_anga(AngaTypes.NAKSHATRA)
 
   def get_yoga(self):
     """Returns the yoha prevailing at a given moment
