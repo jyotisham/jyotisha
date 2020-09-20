@@ -95,20 +95,18 @@ class Timezone:
   def __init__(self, timezone_id):
     self.timezone_id = timezone_id
 
-  def get_timezone_offset_hours_from_date(self, year, month, day, hour=6, minute=0, seconds=0):
+  def get_timezone_offset_hours_from_jd(self, jd):
     """Get timezone offset in hours east of UTC (negative west of UTC)
 
     Timezone offset is dependent both on place and time (yes- time, not just date) - due to Daylight savings time.
     compute offset from UTC in hours
     """
-    local_time = pytz.timezone(self.timezone_id).localize(datetime(year, month, day, hour, minute, seconds))
-    return (datetime.utcoffset(local_time).days * 86400 +
-            datetime.utcoffset(local_time).seconds) / 3600.0
+    local_datetime = self.julian_day_to_local_datetime(jd=jd)
+    return (datetime.utcoffset(local_datetime).days * 86400 +
+            datetime.utcoffset(local_datetime).seconds) / 3600.0
 
   def julian_day_to_local_time(self, julian_day, round_seconds=False):
-    tm = Time(julian_day, format='jd')
-    tm.format = "datetime"
-    local_datetime = pytz.timezone(self.timezone_id).fromutc(tm.value)
+    local_datetime = self.julian_day_to_local_datetime(jd=julian_day)
     local_time = (
     local_datetime.year, local_datetime.month, local_datetime.day, local_datetime.hour, local_datetime.minute,
     local_datetime.second + local_datetime.microsecond / 1000000.0)
@@ -116,6 +114,11 @@ class Timezone:
       (y, m, dt, hours, minutes, seconds) = local_time
       local_time = sanitize_time(y, m, dt, hours, minutes, int(round(seconds)))
     return local_time
+
+  def julian_day_to_local_datetime(self, jd):
+    tm = Time(jd, format='jd')
+    tm.format = "datetime"
+    return pytz.timezone(self.timezone_id).fromutc(tm.value)
 
   def local_time_to_julian_day(self, year, month, day, hours, minutes, seconds):
     microseconds, _ = modf(seconds * 1000000)

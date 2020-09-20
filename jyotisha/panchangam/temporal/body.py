@@ -104,7 +104,7 @@ class Graha(JsonObject):
 
     if len(transits) == 0:
       from jyotisha.panchangam.temporal import ist_timezone
-      logging.info("Could not find a transit of %s between %s and %s", self.body_name, ist_timezone.julian_day_to_local_time_str(jd_start), ist_timezone.julian_day_to_local_time_str(jd_end))
+      logging.info("Could not find a transit of %s between %s (%f) and %s (%f)", self.body_name, ist_timezone.julian_day_to_local_time_str(jd_start), jd_start, ist_timezone.julian_day_to_local_time_str(jd_end), jd_end)
     return transits
 
 

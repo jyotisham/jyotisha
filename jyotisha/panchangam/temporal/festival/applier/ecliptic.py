@@ -17,7 +17,7 @@ class EclipticFestivalAssigner(FestivalAssigner):
     self.computeTransits()
     self.compute_solar_eclipses()
     self.compute_lunar_eclipses()
-    # self.assign_ayanam()
+    self.assign_ayanam()
 
   def assign_ayanam(self):
     last_d_assigned = 0
