@@ -102,6 +102,9 @@ class Graha(JsonObject):
                                    possibly could not bracket correctly!\n')
           return (None, None, None)
 
+    if len(transits) == 0:
+      from jyotisha.panchangam.temporal import ist_timezone
+      logging.info("Could not find a transit of %s between %s and %s", self.body_name, ist_timezone.julian_day_to_local_time_str(jd_start), ist_timezone.julian_day_to_local_time_str(jd_end))
     return transits
 
 

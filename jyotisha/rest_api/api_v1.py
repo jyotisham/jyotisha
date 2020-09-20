@@ -5,8 +5,8 @@ from flask import Blueprint
 from flask_restplus import Resource
 from flask_restplus import reqparse
 
-from jyotisha.panchangam.spatio_temporal import City, Timezone
-from jyotisha.panchangam.temporal import festival
+from jyotisha.panchangam.spatio_temporal import City
+from jyotisha.panchangam.temporal import festival, Timezone
 from jyotisha.panchangam.temporal.body import Graha
 from jyotisha.panchangam.temporal.zodiac import NakshatraDivision, Ayanamsha
 

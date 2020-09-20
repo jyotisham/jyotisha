@@ -8,8 +8,8 @@ from math import floor
 from scipy.optimize import brentq
 
 import jyotisha.panchangam.temporal
-from jyotisha.panchangam.spatio_temporal import City, Timezone
-from jyotisha.panchangam.temporal import interval
+from jyotisha.panchangam.spatio_temporal import City
+from jyotisha.panchangam.temporal import interval, Timezone
 from jyotisha.panchangam.temporal import zodiac
 from jyotisha.panchangam.temporal.body import Graha
 from jyotisha.panchangam.temporal.hour import Hour

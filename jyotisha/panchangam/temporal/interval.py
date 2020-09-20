@@ -26,7 +26,7 @@ class TbSayanaMuhuurta(Interval):
     self.is_nirviirya = self.muhuurta_id in (2, 3, 5, 6, 8, 9, 11, 12)
 
   def to_localized_string(self, city):
-    from jyotisha.panchangam.spatio_temporal import Timezone
+    from jyotisha.panchangam.temporal import Timezone
     return "muhUrta %d (nirvIrya: %s) starts from %s to %s" % (self.muhuurta_id, str(self.is_nirviirya),
                                                                Timezone(city.timezone).julian_day_to_local_time(
                                                                  julian_day=self.jd_start, round_seconds=True),

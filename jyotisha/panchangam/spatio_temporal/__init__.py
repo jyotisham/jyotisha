@@ -4,15 +4,10 @@
 import logging
 import os
 import sys
-from datetime import datetime
-from math import modf
 
-import pytz
 import swisseph as swe
 
 from jyotisha.custom_transliteration import sexastr2deci
-from jyotisha.panchangam import temporal
-from jyotisha.panchangam.temporal import Time
 from jyotisha.panchangam.temporal.zodiac import Ayanamsha
 from sanskrit_data.schema import common
 from sanskrit_data.schema.common import JsonObject
@@ -150,41 +145,6 @@ class City(JsonObject):
         return (lcalc / 30)
       else:
         return (lcalc / 30) + offset
-
-
-class Timezone:
-  def __init__(self, timezone_id):
-    self.timezone_id = timezone_id
-
-  def get_timezone_offset_hours_from_date(self, year, month, day, hour=6, minute=0, seconds=0):
-    """Get timezone offset in hours east of UTC (negative west of UTC)
-
-    Timezone offset is dependent both on place and time (yes- time, not just date) - due to Daylight savings time.
-    compute offset from UTC in hours
-    """
-    local_time = pytz.timezone(self.timezone_id).localize(datetime(year, month, day, hour, minute, seconds))
-    return (datetime.utcoffset(local_time).days * 86400 +
-            datetime.utcoffset(local_time).seconds) / 3600.0
-
-  def julian_day_to_local_time(self, julian_day, round_seconds=False):
-    tm = Time(julian_day, format='jd')
-    tm.format = "datetime"
-    local_datetime = pytz.timezone(self.timezone_id).fromutc(tm.value)
-    local_time = (
-    local_datetime.year, local_datetime.month, local_datetime.day, local_datetime.hour, local_datetime.minute,
-    local_datetime.second + local_datetime.microsecond / 1000000.0)
-    if round_seconds:
-      (y, m, dt, hours, minutes, seconds) = local_time
-      local_time = temporal.sanitize_time(y, m, dt, hours, minutes, int(round(seconds)))
-    return local_time
-
-  def local_time_to_julian_day(self, year, month, day, hours, minutes, seconds):
-    microseconds, _ = modf(seconds * 1000000)
-    local_datetime = pytz.timezone(self.timezone_id).localize(
-      datetime(year, month, day, hours, minutes, int(seconds), int(microseconds)))
-    tm = Time(local_datetime, format="datetime")
-    tm.format = "jd"
-    return tm.value
 
 
 # Essential for depickling to work.

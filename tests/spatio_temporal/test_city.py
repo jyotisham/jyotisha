@@ -1,6 +1,7 @@
 import logging
 
-from jyotisha.panchangam.spatio_temporal import City, Timezone
+from jyotisha.panchangam.spatio_temporal import City
+from jyotisha.panchangam.temporal import Timezone
 
 
 def test_get_timezone_offset_hours_from_date():
