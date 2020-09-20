@@ -10,14 +10,15 @@ logging.basicConfig(
 
 
 def test_graha_get_longitude():
-  assert Graha(Graha.SUN).get_longitude(jd=2458434.083333251) == 229.12286985575702
+  assert Graha.singleton(Graha.SUN).get_longitude(jd=2458434.083333251) == 229.12286985575702
 
 
 def test_graha_get_next_raashi_transit():
   from jyotisha.panchangam.temporal.zodiac import Ayanamsha
-  assert Graha(Graha.JUPITER).get_next_raashi_transit(jd_start=2457755, jd_end=2458120,
+  assert Graha.singleton(Graha.JUPITER).get_next_raashi_transit(jd_start=2457755, jd_end=2458120,
                                                       ayanamsha_id=Ayanamsha.CHITRA_AT_180) == [
            (2458008.4510242934, 6, 7)]
+  assert Graha.singleton(Graha.SUN).get_next_raashi_transit(jd_start=2458162.545722, jd_end=2458177.545722, ayanamsha_id=Ayanamsha.CHITRA_AT_180) == []
 
 
 def test_get_star_longitude():

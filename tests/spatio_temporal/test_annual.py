@@ -17,7 +17,8 @@ logging.basicConfig(
 TEST_DATA_PATH = os.path.join(os.path.dirname(__file__), 'data')
 
 
-def test_panchanga_chennai_18():
+def test_panchanga_chennai_18(caplog):
+  caplog.set_level(logging.INFO)
   panchangam_expected_chennai_18 = JsonObject.read_from_file(filename=os.path.join(TEST_DATA_PATH, 'Chennai-2018.json'))
   panchangam_expected_chennai_18.update_festival_details()
   city = City('Chennai', "13:05:24", "80:16:12", "Asia/Calcutta")

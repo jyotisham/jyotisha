@@ -12,7 +12,7 @@ class NakshatraAssigner(PanchaangaApplier):
     self.panchaanga.tyajyam_data = [[] for _x in range(self.panchaanga.duration + 1)]
     if self.panchaanga.nakshatram_data[0] is None:
       self.panchaanga.nakshatram_data[0] = zodiac.get_angam_data(self.panchaanga.jd_sunrise[0], self.panchaanga.jd_sunrise[1],
-                                                      zodiac.NAKSHATRAM, ayanamsha_id=self.panchaanga.ayanamsha_id)
+                                                      zodiac.AngaTypes.NAKSHATRA, ayanamsha_id=self.panchaanga.ayanamsha_id)
     for d in range(1, self.panchaanga.duration + 1):
       [y, m, dt, t] = temporal.jd_to_utc_gregorian(self.panchaanga.jd_start_utc + d - 1)
       jd = self.panchaanga.jd_midnight[d]
@@ -57,7 +57,7 @@ class NakshatraAssigner(PanchaangaApplier):
     self.panchaanga.amrita_data = [[] for _x in range(self.panchaanga.duration + 1)]
     if self.panchaanga.nakshatram_data[0] is None:
       self.panchaanga.nakshatram_data[0] = zodiac.get_angam_data(self.panchaanga.jd_sunrise[0], self.panchaanga.jd_sunrise[1],
-                                                      zodiac.NAKSHATRAM, ayanamsha_id=self.panchaanga.ayanamsha_id)
+                                                      zodiac.AngaTypes.NAKSHATRA, ayanamsha_id=self.panchaanga.ayanamsha_id)
     for d in range(1, self.panchaanga.duration + 1):
       [y, m, dt, t] = temporal.jd_to_utc_gregorian(self.panchaanga.jd_start_utc + d - 1)
       jd = self.panchaanga.jd_midnight[d]

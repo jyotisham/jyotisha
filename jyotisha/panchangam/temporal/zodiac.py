@@ -1,13 +1,15 @@
 import logging
 from math import floor
 
+import methodtools
 import numpy
 import swisseph as swe
 from scipy.optimize import brentq
 
-from jyotisha.panchangam.temporal.interval import Interval
 from jyotisha.panchangam.temporal.body import Graha
+from jyotisha.panchangam.temporal.interval import Interval
 from sanskrit_data.schema import common
+from sanskrit_data.schema.common import JsonObject
 
 logging.basicConfig(
   level=logging.DEBUG,
@@ -16,15 +18,23 @@ logging.basicConfig(
 
 
 class Ayanamsha(common.JsonObject):
+  VERNAL_EQUINOX_AT_0 = "VERNAL_EQUINOX_AT_0"
   CHITRA_AT_180 = "CHITRA_AT_180"
   ASHVINI_STARTING_0 = "ASHVINI_STARTING_0"
   RASHTRIYA_PANCHANGA_NAKSHATRA_TRACKING = "RASHTRIYA_PANCHANGA_NAKSHATRA_TRACKING"
+
+  @methodtools.lru_cache(maxsize=None)
+  @classmethod
+  def singleton(cls, ayanamsha_id):
+    return cls(ayanamsha_id=ayanamsha_id)
 
   def __init__(self, ayanamsha_id):
     self.ayanamsha_id = ayanamsha_id
 
   def get_offset(self, jd):
-    if self.ayanamsha_id == Ayanamsha.CHITRA_AT_180:
+    if self.ayanamsha_id == Ayanamsha.VERNAL_EQUINOX_AT_0:
+      return 0
+    elif self.ayanamsha_id == Ayanamsha.CHITRA_AT_180:
       # TODO: The below fails due to https://github.com/astrorigin/pyswisseph/issues/35
       from jyotisha.panchangam.temporal import body
       return (body.get_star_longitude(star="Spica", jd=jd) - 180)
@@ -47,7 +57,7 @@ class NakshatraDivision(common.JsonObject):
   # noinspection PyAttributeOutsideInit
   def set_time(self, julday):
     self.julday = julday
-    self.right_boundaries = ((numpy.arange(27) + 1) * (360.0 / 27.0) + Ayanamsha(self.ayanamsha_id).get_offset(
+    self.right_boundaries = ((numpy.arange(27) + 1) * (360.0 / 27.0) + Ayanamsha.singleton(self.ayanamsha_id).get_offset(
       julday)) % 360
 
   def get_nakshatra_for_body(self, body):
@@ -58,8 +68,8 @@ class NakshatraDivision(common.JsonObject):
     """
     if self.julday is not None:
       self.set_time(julday=self.julday)
-    logging.debug(Ayanamsha(self.ayanamsha_id).get_offset(self.julday))
-    return Graha(body).get_longitude_offset(self.julday, ayanamsha_id=self.ayanamsha_id) / (360.0 / 27.0) + 1
+    logging.debug(Ayanamsha.singleton(self.ayanamsha_id).get_offset(self.julday))
+    return Graha.singleton(body).get_longitude_offset(self.julday, ayanamsha_id=self.ayanamsha_id) / (360.0 / 27.0) + 1
 
   def __str__(self):
     return str(self.__dict__)
@@ -103,6 +113,11 @@ class NakshatraDivision(common.JsonObject):
       Returns:
         float angam
     """
+    if anga_type == AngaTypes.TITHI:
+      # For efficiency - avoid lookups.
+      ayanamsha_id = Ayanamsha.VERNAL_EQUINOX_AT_0
+    else:
+      ayanamsha_id = self.ayanamsha_id
 
     w_moon = anga_type['w_moon']
     w_sun = anga_type['w_sun']
@@ -112,12 +127,12 @@ class NakshatraDivision(common.JsonObject):
 
     #  Get the lunar longitude, starting at the ayanaamsha point in the ecliptic.
     if w_moon != 0:
-      lmoon = Graha(Graha.MOON).get_longitude_offset(self.julday, offset=0, ayanamsha_id=self.ayanamsha_id)
+      lmoon = Graha.singleton(Graha.MOON).get_longitude_offset(self.julday, offset=0, ayanamsha_id=ayanamsha_id)
       lcalc += w_moon * lmoon
 
     #  Get the solar longitude, starting at the ayanaamsha point in the ecliptic.
     if w_sun != 0:
-      lsun = Graha(Graha.SUN).get_longitude_offset(self.julday, offset=0, ayanamsha_id=self.ayanamsha_id)
+      lsun = Graha.singleton(Graha.SUN).get_longitude_offset(self.julday, offset=0, ayanamsha_id=ayanamsha_id)
       lcalc += w_sun * lsun
 
     lcalc = lcalc % 360
@@ -143,26 +158,10 @@ class NakshatraDivision(common.JsonObject):
   def get_all_angas(self):
     """Compute various properties of the time based on lunar and solar longitudes, division of a circle into a certain number of degrees (arc_len).
     """
-    anga_objects = [TITHI, TITHI_PADA, NAKSHATRAM, NAKSHATRA_PADA, RASHI, SOLAR_MONTH, SOLAR_NAKSH, YOGA, KARANAM]
+    anga_objects = [AngaTypes.TITHI, AngaTypes.TITHI_PADA, AngaTypes.NAKSHATRA, AngaTypes.NAKSHATRA_PADA, AngaTypes.RASHI, AngaTypes.SOLAR_MONTH, AngaTypes.SOLAR_NAKSH, AngaTypes.YOGA, AngaTypes.KARANA]
     angas = list(map(lambda anga_object: self.get_anga(jd=self.julday, angam_type=anga_object), anga_objects))
     anga_ids = list(map(lambda anga_obj: anga_obj["id"], anga_objects))
     return dict(list(zip(anga_ids, angas)))
-
-  def get_tithi(self):
-    """Returns the tithi prevailing at a given moment
-
-    Tithi is computed as the difference in the longitudes of the moon
-    and sun at any given point of time. Therefore, even the ayanamsha
-    does not matter, as it gets cancelled out.
-
-    Returns:
-      int tithi, where 1 stands for ShuklapakshaPrathama, ..., 15 stands
-      for Paurnamasi, ..., 23 stands for KrishnapakshaAshtami, 30 stands
-      for Amavasya
-
-    """
-
-    return self.get_anga(TITHI)
 
   def get_nakshatra(self):
     """Returns the nakshatram prevailing at a given moment
@@ -177,7 +176,7 @@ class NakshatraDivision(common.JsonObject):
 
     """
 
-    return self.get_anga(NAKSHATRAM)
+    return self.get_anga(AngaTypes.NAKSHATRA)
 
   def get_yoga(self):
     """Returns the yoha prevailing at a given moment
@@ -190,7 +189,7 @@ class NakshatraDivision(common.JsonObject):
       int yoga, where 1 stands for Vishkambha and 27 stands for Vaidhrti
     """
 
-    return self.get_anga(YOGA)
+    return self.get_anga(AngaTypes.YOGA)
 
   def get_solar_raashi(self):
     """Returns the solar rashi prevailing at a given moment
@@ -203,7 +202,7 @@ class NakshatraDivision(common.JsonObject):
       int rashi, where 1 stands for mESa, ..., 12 stands for mIna
     """
 
-    return self.get_anga(SOLAR_MONTH)
+    return self.get_anga(AngaTypes.SOLAR_MONTH)
 
 
 def longitude_to_right_ascension(longitude):
@@ -217,26 +216,27 @@ def ecliptic_to_equatorial(longitude, latitude):
     longitude_to_right_ascension(coordinates[0]), coordinates[1])
 
 
-TITHI = {'id': 'TITHI', 'arc_len': 360.0 / 30.0, 'w_moon': 1, 'w_sun': -1}
-TITHI_PADA = {'id': 'TITHI_PADA', 'arc_len': 360.0 / 120.0, 'w_moon': 1, 'w_sun': -1}
-NAKSHATRAM = {'id': 'NAKSHATRAM', 'arc_len': 360.0 / 27.0, 'w_moon': 1, 'w_sun': 0}
-NAKSHATRA_PADA = {'id': 'NAKSHATRA_PADA', 'arc_len': 360.0 / 108.0, 'w_moon': 1, 'w_sun': 0}
-RASHI = {'id': 'RASHI', 'arc_len': 360.0 / 12.0, 'w_moon': 1, 'w_sun': 0}
-YOGA = {'id': 'YOGA', 'arc_len': 360.0 / 27.0, 'w_moon': 1, 'w_sun': 1}
-KARANAM = {'id': 'KARANAM', 'arc_len': 360.0 / 60.0, 'w_moon': 1, 'w_sun': -1}
-SOLAR_MONTH = {'id': 'SOLAR_MONTH', 'arc_len': 360.0 / 12.0, 'w_moon': 0, 'w_sun': 1}
-SOLAR_NAKSH = {'id': 'SOLAR_NAKSH', 'arc_len': 360.0 / 27.0, 'w_moon': 0, 'w_sun': 1}
-SOLAR_NAKSH_PADA = {'id': 'SOLAR_NAKSH_PADA', 'arc_len': 360.0 / 108.0, 'w_moon': 0, 'w_sun': 1}
+class AngaTypes(JsonObject):
+  TITHI = {'id': 'TITHI', 'arc_len': 360.0 / 30.0, 'w_moon': 1, 'w_sun': -1}
+  TITHI_PADA = {'id': 'TITHI_PADA', 'arc_len': 360.0 / 120.0, 'w_moon': 1, 'w_sun': -1}
+  NAKSHATRA = {'id': 'NAKSHATRAM', 'arc_len': 360.0 / 27.0, 'w_moon': 1, 'w_sun': 0}
+  NAKSHATRA_PADA = {'id': 'NAKSHATRA_PADA', 'arc_len': 360.0 / 108.0, 'w_moon': 1, 'w_sun': 0}
+  RASHI = {'id': 'RASHI', 'arc_len': 360.0 / 12.0, 'w_moon': 1, 'w_sun': 0}
+  YOGA = {'id': 'YOGA', 'arc_len': 360.0 / 27.0, 'w_moon': 1, 'w_sun': 1}
+  KARANA = {'id': 'KARANAM', 'arc_len': 360.0 / 60.0, 'w_moon': 1, 'w_sun': -1}
+  SOLAR_MONTH = {'id': 'SOLAR_MONTH', 'arc_len': 360.0 / 12.0, 'w_moon': 0, 'w_sun': 1}
+  SOLAR_NAKSH = {'id': 'SOLAR_NAKSH', 'arc_len': 360.0 / 27.0, 'w_moon': 0, 'w_sun': 1}
+  SOLAR_NAKSH_PADA = {'id': 'SOLAR_NAKSH_PADA', 'arc_len': 360.0 / 108.0, 'w_moon': 0, 'w_sun': 1}
 
 
-def get_angam_data(jd_sunrise, jd_sunrise_tmrw, angam_type, ayanamsha_id):
+def get_angam_data(jd_sunrise, jd_sunrise_tmrw, anga_type, ayanamsha_id):
   """Computes angam data for angams such as tithi, nakshatram, yoga
   and karanam.
 
   Args:
       :param jd_sunrise: 
       :param jd_sunrise_tmrw: 
-      :param angam_type: TITHI, NAKSHATRAM, YOGA, KARANAM, SOLAR_MONTH, SOLAR_NAKSH
+      :param anga_type: TITHI, NAKSHATRAM, YOGA, KARANAM, SOLAR_MONTH, SOLAR_NAKSH
       :param ayanamsha_id: 
 
   Returns:
@@ -245,15 +245,15 @@ def get_angam_data(jd_sunrise, jd_sunrise_tmrw, angam_type, ayanamsha_id):
       angam_data: a list of (int, float) tuples detailing the angams
       for the day and their end-times (Julian day)
   """
-  w_moon = angam_type['w_moon']
-  w_sun = angam_type['w_sun']
-  arc_len = angam_type['arc_len']
+  w_moon = anga_type['w_moon']
+  w_sun = anga_type['w_sun']
+  arc_len = anga_type['arc_len']
 
   num_angas = int(360.0 / arc_len)
 
   # Compute angam details
-  angam_now = NakshatraDivision(jd_sunrise, ayanamsha_id=ayanamsha_id).get_anga(angam_type)
-  angam_tmrw = NakshatraDivision(jd_sunrise_tmrw, ayanamsha_id=ayanamsha_id).get_anga(angam_type)
+  angam_now = NakshatraDivision(jd_sunrise, ayanamsha_id=ayanamsha_id).get_anga(anga_type)
+  angam_tmrw = NakshatraDivision(jd_sunrise_tmrw, ayanamsha_id=ayanamsha_id).get_anga(anga_type)
 
   angams_list = []
 
@@ -263,13 +263,13 @@ def get_angam_data(jd_sunrise, jd_sunrise_tmrw, angam_type, ayanamsha_id):
     # The angam does not change until sunrise tomorrow
     return [(angam_now, None)]
   else:
-    lmoon = Graha(Graha.MOON).get_longitude_offset(jd_sunrise, offset=0, ayanamsha_id=ayanamsha_id)
+    lmoon = Graha.singleton(Graha.MOON).get_longitude_offset(jd_sunrise, offset=0, ayanamsha_id=ayanamsha_id)
 
-    lsun = Graha(Graha.SUN).get_longitude_offset(jd_sunrise, offset=0, ayanamsha_id=ayanamsha_id)
+    lsun = Graha.singleton(Graha.SUN).get_longitude_offset(jd_sunrise, offset=0, ayanamsha_id=ayanamsha_id)
 
-    lmoon_tmrw = Graha(Graha.MOON).get_longitude_offset(jd_sunrise_tmrw, offset=0, ayanamsha_id=ayanamsha_id)
+    lmoon_tmrw = Graha.singleton(Graha.MOON).get_longitude_offset(jd_sunrise_tmrw, offset=0, ayanamsha_id=ayanamsha_id)
 
-    lsun_tmrw = Graha(Graha.SUN).get_longitude_offset(jd_sunrise_tmrw, offset=0, ayanamsha_id=ayanamsha_id)
+    lsun_tmrw = Graha.singleton(Graha.SUN).get_longitude_offset(jd_sunrise_tmrw, offset=0, ayanamsha_id=ayanamsha_id)
 
     for i in range(num_angas_today):
       angam_remaining = arc_len * (i + 1) - (((lmoon * w_moon +
@@ -302,7 +302,7 @@ def get_angam_data(jd_sunrise, jd_sunrise_tmrw, angam_type, ayanamsha_id):
       TDELTA = 0.05
       try:
         def f(x):
-          return NakshatraDivision(x, ayanamsha_id=ayanamsha_id).get_anga_float(anga_type=angam_type,
+          return NakshatraDivision(x, ayanamsha_id=ayanamsha_id).get_anga_float(anga_type=anga_type,
                                                                                 offset_angas=-target, debug=False)
 
         t_act = brentq(f, x0 - TDELTA, x0 + TDELTA)

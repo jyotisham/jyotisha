@@ -11,7 +11,7 @@ from pytz import timezone as tz
 import jyotisha.panchangam.spatio_temporal.annual
 from jyotisha.panchangam import temporal
 from jyotisha.panchangam.spatio_temporal import City
-from jyotisha.panchangam.temporal import MAX_SZ
+from jyotisha.panchangam.temporal import MAX_SZ, tithi
 from jyotisha.panchangam.temporal.zodiac import NakshatraDivision, Ayanamsha
 
 logging.basicConfig(
@@ -95,7 +95,7 @@ def compute_events(p, json_file):
           (month_type == 'solar_month' and p.solar_month[d] == month_num):
         if angam_type == 'tithi':
           angam_sunrise = p.tithi_sunrise
-          get_angam_func = lambda x: NakshatraDivision(x, ayanamsha_id=Ayanamsha.CHITRA_AT_180).get_tithi()
+          get_angam_func = lambda x: tithi.get_tithi(x)
           angam_num_pred = (angam_num - 2) % 30 + 1
           angam_num_succ = (angam_num % 30) + 1
         elif angam_type == 'nakshatram':

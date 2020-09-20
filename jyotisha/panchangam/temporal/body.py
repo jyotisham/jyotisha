@@ -1,11 +1,14 @@
 import logging
 import math
 
+import methodtools
 import swisseph as swe
 from scipy.optimize import brentq
 
+from sanskrit_data.schema.common import JsonObject
 
-class Graha(object):
+
+class Graha(JsonObject):
   SUN = "sun"
   MOON = "moon"
   JUPITER = "jupiter"
@@ -13,6 +16,11 @@ class Graha(object):
   MERCURY = "mercury"
   MARS = "mars"
   SATURN = "saturn"
+
+  @methodtools.lru_cache(maxsize=None)
+  @classmethod
+  def singleton(cls, body_name):
+    return cls(body_name=body_name)
 
   def __init__(self, body_name):
     self.body_name = body_name
@@ -40,7 +48,7 @@ class Graha(object):
 
   def get_longitude_offset(self, jd, offset, ayanamsha_id):
     from jyotisha.panchangam.temporal.zodiac import Ayanamsha
-    adjusted_longitude = (self.get_longitude(jd=jd) - Ayanamsha(ayanamsha_id).get_offset(jd)) % 360
+    adjusted_longitude = (self.get_longitude(jd=jd) - Ayanamsha.singleton(ayanamsha_id).get_offset(jd)) % 360
     # Not doing modulo arithmetic below - we want to allow the offset longitude to be negative, for use with brentq.
     return adjusted_longitude + offset
 
@@ -58,7 +66,7 @@ class Graha(object):
 """
 
     transits = []
-    MIN_JUMP = 15  # Random check for a transit every 15 days!
+    MIN_JUMP = min(15, jd_end-jd_start)  # Random check for a transit every 15 days!
     # Could be tweaked based on planet using a dict?
 
     curr_L_bracket = jd_start
@@ -72,7 +80,6 @@ class Graha(object):
 
       if L_rashi == R_rashi:
         curr_R_bracket += MIN_JUMP
-        continue
       else:
         # We have bracketed a transit!
         if L_rashi < R_rashi:
@@ -95,6 +102,9 @@ class Graha(object):
                                    possibly could not bracket correctly!\n')
           return (None, None, None)
 
+    if len(transits) == 0:
+      from jyotisha.panchangam.temporal import ist_timezone
+      logging.info("Could not find a transit of %s between %s (%f) and %s (%f)", self.body_name, ist_timezone.julian_day_to_local_time_str(jd_start), jd_start, ist_timezone.julian_day_to_local_time_str(jd_end), jd_end)
     return transits
 
 

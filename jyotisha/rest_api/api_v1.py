@@ -5,8 +5,8 @@ from flask import Blueprint
 from flask_restplus import Resource
 from flask_restplus import reqparse
 
-from jyotisha.panchangam.spatio_temporal import City, Timezone
-from jyotisha.panchangam.temporal import festival
+from jyotisha.panchangam.spatio_temporal import City
+from jyotisha.panchangam.temporal import festival, Timezone
 from jyotisha.panchangam.temporal.body import Graha
 from jyotisha.panchangam.temporal.zodiac import NakshatraDivision, Ayanamsha
 
@@ -118,7 +118,7 @@ class RaashiTransitionFinder(Resource):
     from jyotisha import zodiac
     julday = Timezone(timezone).local_time_to_julian_day(year, month, day, hour, minute, second)
     from jyotisha.panchangam import temporal
-    transits = Graha(body).get_next_raashi_transit(jd_start=julday, jd_end=julday + 100,
+    transits = Graha.singleton(body).get_next_raashi_transit(jd_start=julday, jd_end=julday + 100,
                                                    ayanamsha_id=Ayanamsha.CHITRA_AT_180)
     # logging.debug(transits)
     transits_local = [(Timezone(timezone).julian_day_to_local_time(transit[0]), transit[1], transit[2]) for transit in
