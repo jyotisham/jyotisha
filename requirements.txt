@@ -1,0 +1,16 @@
+pyswisseph
+astropy
+scipy
+pandas
+sanskrit_data
+indic_transliteration
+icalendar
+pytz
+geocoder
+geopy
+numpy
+flask
+flask_restplus
+flask_cors
+jsonpickle
+methodtools
