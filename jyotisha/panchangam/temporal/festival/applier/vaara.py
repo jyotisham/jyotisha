@@ -100,9 +100,9 @@ class VaraFestivalAssigner(FestivalAssigner):
           zodiac.AngaTypes.NAKSHATRA) == 3:
         if NakshatraDivision(self.panchaanga.jd_sunrise[d], ayanamsha_id=self.panchaanga.ayanamsha_id).get_anga(
             zodiac.AngaTypes.KARANA) in list(range(2, 52, 7)):
-          self.add_festival('AyuSmAn-bhava-saumya', d, debug_festivals)
+          self.add_festival('AyuSmad-bava-saumya-saMyogaH', d, debug_festivals)
       if self.panchaanga.weekday[d] == 3 and NakshatraDivision(self.panchaanga.jd_sunset[d], ayanamsha_id=self.panchaanga.ayanamsha_id).get_anga(
           zodiac.AngaTypes.NAKSHATRA) == 3:
         if NakshatraDivision(self.panchaanga.jd_sunset[d], ayanamsha_id=self.panchaanga.ayanamsha_id).get_anga(
             zodiac.AngaTypes.KARANA) in list(range(2, 52, 7)):
-          self.add_festival('AyuSmAn-bhava-saumya', d, debug_festivals)
+          self.add_festival('AyuSmad-bava-saumya-saMyogaH', d, debug_festivals)
