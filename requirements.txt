@@ -1,5 +1,7 @@
 pyswisseph
 astropy
+# Required by astropy. Related https://github.com/astropy/astropy/issues/10246
+extension_helpers
 scipy
 pandas
 sanskrit_data
