@@ -7,8 +7,23 @@ JyotiSha tools and data
 ## Intro
 A package to do various panchaanga (traditional vedic astronomical / astrological) calculations, produce calendars.
 
+For a survey of similar software, see [here](https://sanskrit-coders.github.io/astronomy/).
+
+### Accuracy status
+It is very important to note that this is an *approximate* panchangam,
+automatically generated, without the careful oversight of learned
+scholars who have the depth of knowledge to resolve the exact dates for
+occurrences of different festivals. The best use of this panchangam is as an
+approximate guide (95% of the events are also probably spot on) — when
+in doubt, consult only your own panchangam!
+
+Kartik has primarily restricted my example testing
+to Chennai, Mumbai, London and Palo Alto. Please let me know of any bugs
+or errors that you encounter by raising an issue and I’ll do my best to
+fix them.
+
 ## For users
-For detailed examples and help, please see individual module files in this package.
+For detailed examples and help, please see individual module files - especially test files in this package.
 
 ### Installation or upgrade:
 - Install the pyswisseph library specially as described below.
@@ -18,12 +33,12 @@ For detailed examples and help, please see individual module files in this packa
 - [Web](https://pypi.python.org/pypi/jyotisha).
 
 ### Usage
-- REST API/ swagger web interface 
-    - Deployments at [vedavaapi](http://api.vedavaapi.org/jyotisha).
-- Please see the generated python sphynx docs in one of the following places:
+- Please see the generated python sphynx docs in one of the following places (jyotisha.panchanga.scripts package docs may be particularly relevant):
     - http://jyotisha.readthedocs.io [Broken as of 20170828.]
-    - [project page](https://sanskrit-coders.github.io/jyotisha/build/html/jyotisha.html).
+    - Rarely updated [project page](https://sanskrit-coders.github.io/jyotisha/build/html/jyotisha.html).
     - under docs/_build/html/index.html
+- REST API/ swagger web interface 
+    - Deployments at [vedavaapi](http://api.vedavaapi.org/jyotisha) - obsolete and unmaintained as of 2020.
 - Command line usage - See [this issue](https://github.com/sanskrit-coders/jyotisha/issues/10).
 
 ## For contributors
@@ -66,3 +81,17 @@ Pyswisseph is a thin wrapper around the C++ code.
 
 ### Deployment
 - [api.vedavaapi.org/jyotisha](http://api.vedavaapi.org/jyotisha)
+
+
+## Credits
+
+Sincere thanks to the creators of pyswisseph, without which I could not
+have attempted this. Many thanks are due to [Ajit Krishnan][] for so
+clearly explaining the panchangam process, and example festivals, which
+was sort of the inspiration for integrating a number of festivals. Many
+thanks to Saketha Nath for getting details of hundreds of festivals from
+obscure sources, and to the [Vaidikasri magazine][], which is another
+veritable treasure house of these festivals.
+
+  [Ajit Krishnan]: http://aupasana.com/
+  [Vaidikasri magazine]: http://vaithikasri.com/
