@@ -39,7 +39,7 @@ jobs:
 #The below is disabled pending https://github.com/sanskrit-coders/jyotisha/runs/1142973750
     - name: Build package
       run: |
-        python -m setup.py install
+        python -m pip install .
     - name: Build test
       run: |
         python -c "import jyotisha"
