@@ -1,5 +1,10 @@
 JyotiSha tools and data
 =======================
+[![Actions Status](https://github.com/sanskrit-coders/jyotisha/workflows/Python%20package/badge.svg)](https://github.com/sanskrit-coders/jyotisha/actions)
+
+## Intro
+A package to do various panchaanga (traditional vedic astronomical / astrological) calculations, produce calendars.
+
 ## For users
 For detailed examples and help, please see individual module files in this package.
 
