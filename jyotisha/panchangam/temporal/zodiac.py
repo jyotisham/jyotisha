@@ -60,7 +60,8 @@ class NakshatraDivision(common.JsonObject):
   # noinspection PyAttributeOutsideInit
   def set_time(self, julday):
     self.julday = julday
-    self.right_boundaries = ((numpy.arange(27) + 1) * (360.0 / 27.0) + Ayanamsha.singleton(self.ayanamsha_id).get_offset(
+    self.right_boundaries = ((numpy.arange(27) + 1) * (360.0 / 27.0) + Ayanamsha.singleton(
+      self.ayanamsha_id).get_offset(
       julday)) % 360
 
   def get_nakshatra_for_body(self, body):
@@ -137,7 +138,7 @@ class NakshatraDivision(common.JsonObject):
 
     if offset_angas + int(360.0 / arc_len) == 0 and lcalc < arc_len:
       # Angam 1 -- needs different treatment, because of 'discontinuity'
-      return (lcalc / arc_len)
+      return lcalc / arc_len
     else:
       return (lcalc / arc_len) + offset_angas
 
@@ -156,7 +157,8 @@ class NakshatraDivision(common.JsonObject):
   def get_all_angas(self):
     """Compute various properties of the time based on lunar and solar longitudes, division of a circle into a certain number of degrees (arc_len).
     """
-    anga_objects = [AngaType.TITHI, AngaType.TITHI_PADA, AngaType.NAKSHATRA, AngaType.NAKSHATRA_PADA, AngaType.RASHI, AngaType.SOLAR_MONTH, AngaType.SOLAR_NAKSH, AngaType.YOGA, AngaType.KARANA]
+    anga_objects = [AngaType.TITHI, AngaType.TITHI_PADA, AngaType.NAKSHATRA, AngaType.NAKSHATRA_PADA, AngaType.RASHI,
+                    AngaType.SOLAR_MONTH, AngaType.SOLAR_NAKSH, AngaType.YOGA, AngaType.KARANA]
     angas = list(map(lambda anga_object: self.get_anga(angam_type=anga_object), anga_objects))
     anga_ids = list(map(lambda anga_obj: anga_obj.name, anga_objects))
     return dict(list(zip(anga_ids, angas)))
@@ -226,7 +228,7 @@ class AngaType(JsonObject):
   SOLAR_MONTH = None
   SOLAR_NAKSH = None
   SOLAR_NAKSH_PADA = None
-  
+
   def __init__(self, name, arc_length, weight_moon, weight_sun):
     super(AngaType, self).__init__()
     self.name = name
@@ -252,10 +254,10 @@ def get_angam_data(jd_sunrise, jd_sunrise_tmrw, anga_type, ayanamsha_id):
   and karanam.
 
   Args:
-      :param jd_sunrise: 
-      :param jd_sunrise_tmrw: 
+      :param jd_sunrise:
+      :param jd_sunrise_tmrw:
       :param anga_type: TITHI, NAKSHATRAM, YOGA, KARANAM, SOLAR_MONTH, SOLAR_NAKSH
-      :param ayanamsha_id: 
+      :param ayanamsha_id:
 
   Returns:
     tuple: A tuple comprising
@@ -360,7 +362,7 @@ class AngaSpan(Interval):
           return jd_start
         except ValueError:
           logging.error('Unable to bracket %s->%f between jd = (%f, %f), starting with (%f, %f)' % (
-          str(angam_type), -target_anga_id + 1, jd_bracket_L, jd_now, jd1, jd2))
+            str(angam_type), -target_anga_id + 1, jd_bracket_L, jd_now, jd1, jd2))
           jd_start = None
       jd_now += min_step
     return jd_start
@@ -399,7 +401,7 @@ class AngaSpan(Interval):
       jd_end = brentq(f, jd_start, jd_bracket_R)
     except ValueError:
       logging.error('Unable to compute anga_interval.jd_end (%s->%d); possibly could not bracket correctly!\n' % (
-      str(angam_type), target_anga_id))
+        str(angam_type), target_anga_id))
     return jd_end
 
   @classmethod
