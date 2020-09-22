@@ -31,10 +31,10 @@ class SiderialSolarBasedAssigner(LunarMonthAssigner):
     # tithi_sunrise[1] gives a rough indication of the number of days since last new moon. We now find a more precise interval below.
     last_new_moon = AngaSpan.find(
       self.panchaanga.jd_start_utc - self.panchaanga.tithi_sunrise[1] - 3, self.panchaanga.jd_start_utc - self.panchaanga.tithi_sunrise[1] + 3,
-      zodiac.AngaTypes.TITHI, 30, ayanamsha_id=self.panchaanga.ayanamsha_id)
+      zodiac.AngaType.TITHI, 30, ayanamsha_id=self.panchaanga.ayanamsha_id)
     this_new_moon = AngaSpan.find(
       last_new_moon.jd_start + 24, last_new_moon.jd_start + 32,
-      zodiac.AngaTypes.TITHI, 30, ayanamsha_id=self.panchaanga.ayanamsha_id)
+      zodiac.AngaType.TITHI, 30, ayanamsha_id=self.panchaanga.ayanamsha_id)
 
     # Check if current mAsa is adhika here
     is_adhika = NakshatraDivision(last_new_moon.jd_end, ayanamsha_id=self.panchaanga.ayanamsha_id).get_solar_raashi() == \
@@ -45,7 +45,7 @@ class SiderialSolarBasedAssigner(LunarMonthAssigner):
     while last_new_moon.jd_start < self.panchaanga.jd_start_utc + self.panchaanga.duration + 1:
       next_new_moon = AngaSpan.find(
         this_new_moon.jd_start + 24, this_new_moon.jd_start + 32,
-        zodiac.AngaTypes.TITHI, 30, ayanamsha_id=self.panchaanga.ayanamsha_id)
+        zodiac.AngaType.TITHI, 30, ayanamsha_id=self.panchaanga.ayanamsha_id)
 
       # Loop over a month starting from this_new_moon.jd_end
       unassigned_days = range(last_d_assigned + 1, last_d_assigned + 32)

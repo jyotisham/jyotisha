@@ -105,8 +105,8 @@ class Graha(JsonObject):
           jd_transit = \
             brentq(get_longitude_offset_partially_applied,
                    curr_L_bracket, curr_R_bracket)
-          from jyotisha.panchangam.temporal.zodiac import AngaTypes
-          transits += [Transit(body=self.body_name, jd=jd_transit, anga_type=AngaTypes.RASHI["id"], value_1=L_rashi, value_2=R_rashi)]
+          from jyotisha.panchangam.temporal.zodiac import AngaType
+          transits += [Transit(body=self.body_name, jd=jd_transit, anga_type=AngaType.RASHI["id"], value_1=L_rashi, value_2=R_rashi)]
           curr_R_bracket += MIN_JUMP
           curr_L_bracket = jd_transit + MIN_JUMP
         except ValueError:

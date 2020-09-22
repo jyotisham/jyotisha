@@ -113,7 +113,7 @@ class NakshatraDivision(common.JsonObject):
       Returns:
         float angam
     """
-    if anga_type == AngaTypes.TITHI:
+    if anga_type == AngaType.TITHI:
       # For efficiency - avoid lookups.
       ayanamsha_id = Ayanamsha.VERNAL_EQUINOX_AT_0
     else:
@@ -158,7 +158,7 @@ class NakshatraDivision(common.JsonObject):
   def get_all_angas(self):
     """Compute various properties of the time based on lunar and solar longitudes, division of a circle into a certain number of degrees (arc_len).
     """
-    anga_objects = [AngaTypes.TITHI, AngaTypes.TITHI_PADA, AngaTypes.NAKSHATRA, AngaTypes.NAKSHATRA_PADA, AngaTypes.RASHI, AngaTypes.SOLAR_MONTH, AngaTypes.SOLAR_NAKSH, AngaTypes.YOGA, AngaTypes.KARANA]
+    anga_objects = [AngaType.TITHI, AngaType.TITHI_PADA, AngaType.NAKSHATRA, AngaType.NAKSHATRA_PADA, AngaType.RASHI, AngaType.SOLAR_MONTH, AngaType.SOLAR_NAKSH, AngaType.YOGA, AngaType.KARANA]
     angas = list(map(lambda anga_object: self.get_anga(jd=self.julday, angam_type=anga_object), anga_objects))
     anga_ids = list(map(lambda anga_obj: anga_obj["id"], anga_objects))
     return dict(list(zip(anga_ids, angas)))
@@ -176,7 +176,7 @@ class NakshatraDivision(common.JsonObject):
 
     """
 
-    return self.get_anga(AngaTypes.NAKSHATRA)
+    return self.get_anga(AngaType.NAKSHATRA)
 
   def get_yoga(self):
     """Returns the yoha prevailing at a given moment
@@ -189,7 +189,7 @@ class NakshatraDivision(common.JsonObject):
       int yoga, where 1 stands for Vishkambha and 27 stands for Vaidhrti
     """
 
-    return self.get_anga(AngaTypes.YOGA)
+    return self.get_anga(AngaType.YOGA)
 
   def get_solar_raashi(self):
     """Returns the solar rashi prevailing at a given moment
@@ -202,7 +202,7 @@ class NakshatraDivision(common.JsonObject):
       int rashi, where 1 stands for mESa, ..., 12 stands for mIna
     """
 
-    return self.get_anga(AngaTypes.SOLAR_MONTH)
+    return self.get_anga(AngaType.SOLAR_MONTH)
 
 
 def longitude_to_right_ascension(longitude):
@@ -216,7 +216,7 @@ def ecliptic_to_equatorial(longitude, latitude):
     longitude_to_right_ascension(coordinates[0]), coordinates[1])
 
 
-class AngaTypes(JsonObject):
+class AngaType(JsonObject):
   TITHI = {'id': 'TITHI', 'arc_len': 360.0 / 30.0, 'w_moon': 1, 'w_sun': -1}
   TITHI_PADA = {'id': 'TITHI_PADA', 'arc_len': 360.0 / 120.0, 'w_moon': 1, 'w_sun': -1}
   NAKSHATRA = {'id': 'NAKSHATRAM', 'arc_len': 360.0 / 27.0, 'w_moon': 1, 'w_sun': 0}

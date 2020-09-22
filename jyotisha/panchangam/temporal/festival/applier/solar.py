@@ -79,23 +79,23 @@ class SolarFestivalAssigner(FestivalAssigner):
         moon_hasta_jd_end = moon_hasta_jd_end = t30_end = None
 
         sun_hasta_jd_start, sun_hasta_jd_end = AngaSpan.find(
-          self.panchaanga.jd_sunrise[d], self.panchaanga.jd_sunrise[d] + 30, zodiac.AngaTypes.SOLAR_MONTH, 13,
+          self.panchaanga.jd_sunrise[d], self.panchaanga.jd_sunrise[d] + 30, zodiac.AngaType.SOLAR_MONTH, 13,
           ayanamsha_id=self.panchaanga.ayanamsha_id).to_tuple()
 
         moon_magha_jd_start, moon_magha_jd_end = AngaSpan.find(
-          sun_hasta_jd_start - 2, sun_hasta_jd_end + 2, zodiac.AngaTypes.NAKSHATRA, 10,
+          sun_hasta_jd_start - 2, sun_hasta_jd_end + 2, zodiac.AngaType.NAKSHATRA, 10,
           ayanamsha_id=self.panchaanga.ayanamsha_id).to_tuple()
         if all([moon_magha_jd_start, moon_magha_jd_end]):
           t28_start, t28_end = AngaSpan.find(
-            moon_magha_jd_start - 3, moon_magha_jd_end + 3, zodiac.AngaTypes.TITHI, 28,
+            moon_magha_jd_start - 3, moon_magha_jd_end + 3, zodiac.AngaType.TITHI, 28,
             ayanamsha_id=self.panchaanga.ayanamsha_id).to_tuple()
 
         moon_hasta_jd_start, moon_hasta_jd_end = AngaSpan.find(
-          sun_hasta_jd_start - 1, sun_hasta_jd_end + 1, zodiac.AngaTypes.NAKSHATRA, 13,
+          sun_hasta_jd_start - 1, sun_hasta_jd_end + 1, zodiac.AngaType.NAKSHATRA, 13,
           ayanamsha_id=self.panchaanga.ayanamsha_id).to_tuple()
         if all([moon_hasta_jd_start, moon_hasta_jd_end]):
           t30_start, t30_end = AngaSpan.find(
-            sun_hasta_jd_start - 1, sun_hasta_jd_end + 1, zodiac.AngaTypes.TITHI, 30,
+            sun_hasta_jd_start - 1, sun_hasta_jd_end + 1, zodiac.AngaType.TITHI, 30,
             ayanamsha_id=self.panchaanga.ayanamsha_id).to_tuple()
 
         gc_28 = gc_30 = False
@@ -166,10 +166,10 @@ class SolarFestivalAssigner(FestivalAssigner):
       sunrise_zodiac = NakshatraDivision(self.panchaanga.jd_sunrise[d], ayanamsha_id=self.panchaanga.ayanamsha_id)
       sunset_zodiac = NakshatraDivision(self.panchaanga.jd_sunset[d], ayanamsha_id=self.panchaanga.ayanamsha_id)
       if self.panchaanga.lunar_month[d] in [10, 11] and self.panchaanga.tithi_sunrise[d] == 30 or tithi.get_tithi(self.panchaanga.jd_sunrise[d]) == 30:
-        if sunrise_zodiac.get_anga(zodiac.AngaTypes.NAKSHATRA) == 17 or \
-            sunset_zodiac.get_anga(zodiac.AngaTypes.NAKSHATRA) == 17 and \
-            sunrise_zodiac.get_anga(zodiac.AngaTypes.NAKSHATRA) == 22 or \
-            sunset_zodiac.get_anga(zodiac.AngaTypes.NAKSHATRA) == 22:
+        if sunrise_zodiac.get_anga(zodiac.AngaType.NAKSHATRA) == 17 or \
+            sunset_zodiac.get_anga(zodiac.AngaType.NAKSHATRA) == 17 and \
+            sunrise_zodiac.get_anga(zodiac.AngaType.NAKSHATRA) == 22 or \
+            sunset_zodiac.get_anga(zodiac.AngaType.NAKSHATRA) == 22:
           if self.panchaanga.weekday[d] == 1:
             festival_name = 'mahOdaya-puNyakAlaH'
             self.add_festival(festival_name, d, debug_festivals)
