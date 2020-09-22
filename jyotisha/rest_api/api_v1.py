@@ -121,6 +121,6 @@ class RaashiTransitionFinder(Resource):
     transits = Graha.singleton(body).get_next_raashi_transit(jd_start=julday, jd_end=julday + 100,
                                                    ayanamsha_id=Ayanamsha.CHITRA_AT_180)
     # logging.debug(transits)
-    transits_local = [(Timezone(timezone).julian_day_to_local_time(transit[0]), transit[1], transit[2]) for transit in
+    transits_local = [(Timezone(timezone).julian_day_to_local_time(transit.jd), transit.value_1, transit.value_2) for transit in
                       transits]
     return str(transits_local)

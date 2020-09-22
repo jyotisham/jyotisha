@@ -8,6 +8,16 @@ from scipy.optimize import brentq
 from sanskrit_data.schema.common import JsonObject
 
 
+class Transit(JsonObject):
+  def __init__(self, body, jd, anga_type, value_1, value_2):
+    super().__init__()
+    self.body = body
+    self.jd = jd
+    self.anga_type = anga_type
+    self.value_1 = value_1
+    self.value_2 = value_2
+
+
 class Graha(JsonObject):
   SUN = "sun"
   MOON = "moon"
@@ -23,6 +33,7 @@ class Graha(JsonObject):
     return cls(body_name=body_name)
 
   def __init__(self, body_name):
+    super().__init__()
     self.body_name = body_name
 
   def _get_swisseph_id(self):
@@ -94,18 +105,21 @@ class Graha(JsonObject):
           jd_transit = \
             brentq(get_longitude_offset_partially_applied,
                    curr_L_bracket, curr_R_bracket)
-          transits += [(jd_transit, L_rashi, R_rashi)]
+          from jyotisha.panchangam.temporal.zodiac import AngaTypes
+          transits += [Transit(body=self.body_name, jd=jd_transit, anga_type=AngaTypes.RASHI["id"], value_1=L_rashi, value_2=R_rashi)]
           curr_R_bracket += MIN_JUMP
           curr_L_bracket = jd_transit + MIN_JUMP
         except ValueError:
           logging.error('Unable to compute transit of planet;\
                                    possibly could not bracket correctly!\n')
-          return (None, None, None)
+          return None
 
     if len(transits) == 0:
       from jyotisha.panchangam.temporal import ist_timezone
       logging.info("Could not find a transit of %s between %s (%f) and %s (%f)", self.body_name, ist_timezone.julian_day_to_local_time_str(jd_start), jd_start, ist_timezone.julian_day_to_local_time_str(jd_end), jd_end)
     return transits
+
+
 
 
 def get_star_longitude(star, jd):

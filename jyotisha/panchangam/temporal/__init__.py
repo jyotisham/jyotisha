@@ -85,6 +85,7 @@ def sanitize_time(year_in, month_in, day_in, hour_in, minute_in, second_in):
 class PanchaangaApplier(JsonObject):
   """Objects of this type apply various temporal attributes to panchAnga-s."""
   def __init__(self, panchaanga):
+    super().__init__()
     self.panchaanga = panchaanga
 
   def assign_all(self, debug=False):
