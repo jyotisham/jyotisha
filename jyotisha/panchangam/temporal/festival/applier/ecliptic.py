@@ -17,7 +17,7 @@ class EclipticFestivalAssigner(FestivalAssigner):
     self.computeTransits()
     self.compute_solar_eclipses()
     self.compute_lunar_eclipses()
-    self.assign_ayanam()
+    # self.assign_ayanam()
 
   def assign_ayanam(self):
     last_d_assigned = 0
@@ -93,7 +93,7 @@ class EclipticFestivalAssigner(FestivalAssigner):
             (jd_eclipse_solar_end - (tz_off / 24.0)) == 0.0:
           # Move towards the next eclipse... at least the next new
           # moon (>=25 days away)
-          jd += temporal.MIN_DAYS_NEXT_ECLIPSE
+          jd += MIN_DAYS_NEXT_ECLIPSE
           continue
         if eclipse_solar_end < eclipse_solar_start:
           eclipse_solar_end += 24
@@ -109,7 +109,7 @@ class EclipticFestivalAssigner(FestivalAssigner):
         if self.panchaanga.weekday[fday] == 0:
           solar_eclipse_str = '★cUDAmaNi-' + solar_eclipse_str
         self.panchaanga.festivals[fday].append(solar_eclipse_str)
-      jd = jd + temporal.MIN_DAYS_NEXT_ECLIPSE
+      jd = jd + MIN_DAYS_NEXT_ECLIPSE
 
   def compute_lunar_eclipses(self):
     # Set location
@@ -136,7 +136,7 @@ class EclipticFestivalAssigner(FestivalAssigner):
             (jd_eclipse_lunar_end - (tz_off / 24.0)) == 0.0:
           # Move towards the next eclipse... at least the next full
           # moon (>=25 days away)
-          jd += temporal.MIN_DAYS_NEXT_ECLIPSE
+          jd += MIN_DAYS_NEXT_ECLIPSE
           continue
         fday = int(floor(jd_eclipse_lunar_start) - floor(self.panchaanga.jd_start_utc) + 1)
         # print '%%', jd, fday, self.panchaanga.jd_sunrise[fday],
@@ -161,7 +161,7 @@ class EclipticFestivalAssigner(FestivalAssigner):
             jd_eclipse_lunar_start > jd_moonset_eclipse_day:
           # Move towards the next eclipse... at least the next full
           # moon (>=25 days away)
-          jd += temporal.MIN_DAYS_NEXT_ECLIPSE
+          jd += MIN_DAYS_NEXT_ECLIPSE
           continue
 
         moonrise_eclipse_day = temporal.jd_to_utc_gregorian(jd_moonrise_eclipse_day)[3]
@@ -185,7 +185,7 @@ class EclipticFestivalAssigner(FestivalAssigner):
           lunar_eclipse_str = '★cUDAmaNi-' + lunar_eclipse_str
 
         self.panchaanga.festivals[fday].append(lunar_eclipse_str)
-      jd += temporal.MIN_DAYS_NEXT_ECLIPSE
+      jd += MIN_DAYS_NEXT_ECLIPSE
 
   def computeTransits(self):
     jd_end = self.panchaanga.jd_start_utc + self.panchaanga.duration
@@ -202,7 +202,7 @@ class EclipticFestivalAssigner(FestivalAssigner):
           self.panchaanga.festivals[fday].append('guru-saGkrAntiH~(%s##\\To{}##%s)' %
                                       (names.NAMES['RASHI_NAMES']['hk'][rashi1],
                                        names.NAMES['RASHI_NAMES']['hk'][rashi2]))
-          if rashi1 < rashi2 and transits[i + 1][1] < transits[i + 1][2]:
+          if rashi1 < rashi2 and transits[i + 1].value_1 < transits[i + 1].value_2:
             # Considering only non-retrograde transits for pushkara computations
             # logging.debug('Non-retrograde transit; we have a pushkaram!')
             (madhyanha_start, madhyaahna_end) = interval.get_interval(self.panchaanga.jd_sunrise[fday],
@@ -223,3 +223,6 @@ class EclipticFestivalAssigner(FestivalAssigner):
             self.add_festival(
               '%s-antya-puSkara-ArambhaH' % names.NAMES['PUSHKARA_NAMES']['hk'][rashi1],
               fday_pushkara - 12, debug=False)
+
+
+MIN_DAYS_NEXT_ECLIPSE = 25

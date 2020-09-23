@@ -4,7 +4,7 @@ from datetime import datetime
 from math import modf
 
 import pytz
-from astropy.time import Time, TimezoneInfo
+from astropy.time import Time
 
 from jyotisha.panchangam.temporal import hour
 from sanskrit_data.schema import common
@@ -17,23 +17,6 @@ logging.basicConfig(
 
 MAX_DAYS_PER_YEAR = 366
 MAX_SZ = MAX_DAYS_PER_YEAR + 6  # plus one and minus one are usually necessary
-MIN_DAYS_NEXT_ECLIPSE = 25
-TYAJYAM_SPANS_REL = [51, 25, 31, 41, 15, 22, 31, 21, 33,
-                     31, 21, 19, 22, 21, 15, 15, 11, 15,
-                     57, 25, 21, 11, 11, 19, 17, 25, 31]
-AMRITA_SPANS_REL = [43, 49, 55, 53, 39, 36, 55, 45, 57,
-                    55, 45, 43, 46, 45, 39, 39, 35, 39,
-                    45, 49, 45, 35, 35, 43, 41, 49, 55]
-AMRITADI_YOGA = [[None, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 0, 0, 1, 1, 2, 2, 2, 0, 1, 0, 0, 2, 1, 1, 0, 0],
-                 [None, 1, 1, 2, 0, 0, 1, 0, 1, 1, 2, 1, 1, 1, 1, 0, 2, 1, 1, 1, 1, 2, 0, 1, 1, 2, 1, 1],
-                 [None, 1, 1, 1, 0, 1, 2, 1, 1, 1, 1, 1, 0, 1, 1, 1, 2, 1, 1, 0, 1, 1, 1, 1, 2, 2, 0, 1],
-                 [None, 2, 1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 2, 1, 1, 1, 1, 1, 2, 0, 0, 1, 2, 1, 0, 1, 2],
-                 [None, 0, 1, 2, 2, 2, 2, 0, 0, 1, 0, 1, 2, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1],
-                 [None, 0, 1, 1, 2, 1, 1, 1, 2, 2, 2, 1, 1, 0, 1, 1, 1, 1, 2, 0, 1, 1, 2, 1, 1, 1, 1, 0],
-                 [None, 1, 1, 0, 0, 1, 1, 1, 1, 2, 0, 1, 2, 2, 2, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 2, 1, 2]]
-AMRITADI_YOGA_NAMES = {1: 'siddha', 0: 'amRta', 2: 'maraNa'}
-for i in range(7):
-  AMRITADI_YOGA[i] = [AMRITADI_YOGA_NAMES.get(n, n) for n in AMRITADI_YOGA[i]]
 
 
 def jd_to_utc_gregorian(jd):

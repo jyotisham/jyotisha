@@ -15,6 +15,7 @@ import jyotisha.names
 import jyotisha.panchangam.spatio_temporal.periodical
 import jyotisha.panchangam.temporal
 import jyotisha.panchangam.temporal.hour
+import jyotisha.panchangam.temporal.nakshatra
 from jyotisha.panchangam import temporal
 from jyotisha.panchangam.spatio_temporal import City
 from jyotisha.panchangam.temporal import zodiac
@@ -111,13 +112,14 @@ def writeDailyTeX(panchangam, template_file, compute_lagnams=True, output_stream
         nakshatram_data_str += '\\hspace{1ex}'
       nakshatram = jyotisha.names.NAMES['NAKSHATRAM_NAMES'][panchangam.script][nakshatram_ID]
       if len(amritadi_yoga_list) == 0:  # Otherwise, we would have already added in the previous run of this for loop
-        amritadi_yoga_list.append(jyotisha.panchangam.temporal.AMRITADI_YOGA[panchangam.weekday[d]][nakshatram_ID])
+        amritadi_yoga_list.append(
+          jyotisha.panchangam.temporal.nakshatra.AMRITADI_YOGA[panchangam.weekday[d]][nakshatram_ID])
       if nakshatram_end_jd is None:
         nakshatram_data_str = '%s\\mbox{%s\\To{}%s}' % \
                               (nakshatram_data_str, nakshatram,
                                jyotisha.custom_transliteration.tr('ahOrAtram', panchangam.script))
       else:
-        next_yoga = jyotisha.panchangam.temporal.AMRITADI_YOGA[panchangam.weekday[d]][(nakshatram_ID % 27) + 1]
+        next_yoga = jyotisha.panchangam.temporal.nakshatra.AMRITADI_YOGA[panchangam.weekday[d]][(nakshatram_ID % 27) + 1]
         if amritadi_yoga_list[-1] != next_yoga:
           amritadi_yoga_list.append(next_yoga)
         nakshatram_data_str = '%s\\mbox{%s\\To{}\\textsf{%s (%s)}}' % \

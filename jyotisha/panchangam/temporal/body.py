@@ -121,8 +121,6 @@ class Graha(JsonObject):
     return transits
 
 
-
-
 def get_star_longitude(star, jd):
   from jyotisha.panchangam import data
   import os

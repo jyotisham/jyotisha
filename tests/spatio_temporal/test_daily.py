@@ -35,7 +35,7 @@ def test_tb_muhuurta_blr():
   assert len(panchangam.tb_muhuurtas) == 15
   assert panchangam.tb_muhuurtas[0].jd_start == panchangam.jd_sunrise
   for muhurta in panchangam.tb_muhuurtas:
-    logging.info(muhurta.to_localized_string())
+    logging.info(muhurta.to_localized_string(city=city))
 
 
 def test_jd_start_orinda_ca():
@@ -48,19 +48,21 @@ def test_jd_start_orinda_ca():
 
 def test_get_lagna_float():
   city = City('X', 13.08784, 80.27847, 'Asia/Calcutta')
-  assert math.isclose(
-    daily.DailyPanchanga.from_city_and_julian_day(city=city, julian_day=2458222.5208333335).get_lagna_float(
-      2444961.7125), 10.353595502472984, abs_tol=10 ** -5)
+  numpy.testing.assert_allclose(
+    city.get_lagna_float(
+      2444961.7125), 10.353595502472984, rtol=1e-4)
 
 
 def test_get_lagna_data():
   city = City('X', 13.08784, 80.27847, 'Asia/Calcutta')
   from jyotisha.panchangam.temporal import zodiac
-  assert daily.DailyPanchanga.from_city_and_julian_day(city=city, julian_day=2458222.5208333335).get_lagna_data(
-    ayanamsha_id=zodiac.Ayanamsha.CHITRA_AT_180) == [(12, 2458222.5214310056), (1, 2458222.596420153),
-                                                     (2, 2458222.6812926503), (3, 2458222.772619788),
-                                                     (4, 2458222.8624254186), (5, 2458222.9478168003),
-                                                     (6, 2458223.0322211445), (7, 2458223.1202004547),
-                                                     (8, 2458223.211770839), (9, 2458223.3000455885),
-                                                     (10, 2458223.3787625884), (11, 2458223.4494649624),
-                                                     (12, 2458223.518700759)]
+  actual = daily.DailyPanchanga.from_city_and_julian_day(city=city, julian_day=2458222.5208333335).get_lagna_data(
+    ayanamsha_id=zodiac.Ayanamsha.CHITRA_AT_180)
+  expected = [(12, 2458222.5214310056), (1, 2458222.596420153),
+              (2, 2458222.6812926503), (3, 2458222.772619788),
+              (4, 2458222.8624254186), (5, 2458222.9478168003),
+              (6, 2458223.0322211445), (7, 2458223.1202004547),
+              (8, 2458223.211770839), (9, 2458223.3000455885),
+              (10, 2458223.3787625884), (11, 2458223.4494649624),
+              (12, 2458223.518700759)]
+  numpy.testing.assert_allclose(actual, expected, rtol=1e-4) 

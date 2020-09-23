@@ -144,8 +144,9 @@ class DailyPanchanga(common.JsonObject):
     for muhuurta_id in range(0, 15):
       (jd_start, jd_end) = interval.get_interval(start_jd=self.jd_sunrise, end_jd=self.jd_sunset,
                                                                               part_index=muhuurta_id, num_parts=15).to_tuple()
-      self.tb_muhuurtas.append(jyotisha.panchangam.temporal.interval.TbSayanaMuhuurta(
-        city=self.city, jd_start=jd_start, jd_end=jd_end,
+      from jyotisha.panchangam.temporal.interval import TbSayanaMuhuurta
+      self.tb_muhuurtas.append(TbSayanaMuhuurta(
+        jd_start=jd_start, jd_end=jd_end,
         muhuurta_id=muhuurta_id))
 
   def compute_solar_day(self):
