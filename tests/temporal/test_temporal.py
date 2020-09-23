@@ -1,7 +1,7 @@
 import logging
 
-from jyotisha.panchangam import temporal
-from jyotisha.panchangam.temporal import Timezone
+from jyotisha.panchaanga import temporal
+from jyotisha.panchaanga.temporal import Timezone
 
 logging.basicConfig(
   level=logging.DEBUG,

@@ -5,10 +5,10 @@ from flask import Blueprint
 from flask_restplus import Resource
 from flask_restplus import reqparse
 
-from jyotisha.panchangam.spatio_temporal import City
-from jyotisha.panchangam.temporal import festival, Timezone
-from jyotisha.panchangam.temporal.body import Graha
-from jyotisha.panchangam.temporal.zodiac import NakshatraDivision, Ayanamsha
+from jyotisha.panchaanga.spatio_temporal import City
+from jyotisha.panchaanga.temporal import festival, Timezone
+from jyotisha.panchaanga.temporal.body import Graha
+from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision, Ayanamsha
 
 logging.basicConfig(
   level=logging.DEBUG,
@@ -44,10 +44,10 @@ class DailyCalendarHandler(Resource):
   def get(self, latitude, longitude, year):
     args = self.get_parser.parse_args()
     city = City("", latitude, longitude, args['timezone'])
-    panchangam = jyotisha.panchangam.spatio_temporal.annual.get_panchaanga(city=city, year=int(year),
+    panchaanga = jyotisha.panchaanga.spatio_temporal.annual.get_panchaanga(city=city, year=int(year),
                                                                            script=args['encoding'])
 
-    return panchangam.to_json_map()
+    return panchaanga.to_json_map()
 
 
 # noinspection PyUnresolvedReferences
@@ -67,9 +67,9 @@ class KaalaHandler(Resource):
   def get(self, latitude, longitude, year, month, day):
     args = self.get_parser.parse_args()
     city = City("", latitude, longitude, args['timezone'])
-    panchangam = jyotisha.panchangam.spatio_temporal.daily.DailyPanchanga(city=city, year=int(year), month=int(month),
+    panchaanga = jyotisha.panchaanga.spatio_temporal.daily.DailyPanchanga(city=city, year=int(year), month=int(month),
                                                                           day=int(day))
-    return panchangam.get_kaalas_local_time(format=args['format'])
+    return panchaanga.get_kaalas_local_time(format=args['format'])
 
 
 # noinspection PyUnresolvedReferences
@@ -90,7 +90,7 @@ class NakshatraFinder(Resource):
     julday = Timezone(timezone).local_time_to_julian_day(year, month, day, hour, minute, second)
     nd = NakshatraDivision(julday=julday, ayanamsha_id=Ayanamsha.CHITRA_AT_180)
     if body == "moon":
-      from jyotisha.panchangam import temporal
+      from jyotisha.panchaanga import temporal
     nakshatra = nd.get_nakshatra_for_body(body=body)
     logging.info(nakshatra)
     return str(nakshatra)
@@ -103,7 +103,7 @@ class NakshatraFinder(Resource):
 class RaashiFinder(Resource):
   def get(self, timezone, year, month, day, hour, minute, second):
     julday = Timezone(timezone).local_time_to_julian_day(year, month, day, hour, minute, second)
-    from jyotisha.panchangam import temporal
+    from jyotisha.panchaanga import temporal
     raashi = NakshatraDivision(julday, ayanamsha_id=Ayanamsha.CHITRA_AT_180).get_solar_raashi()
     logging.info(raashi)
     return str(raashi)
@@ -117,7 +117,7 @@ class RaashiTransitionFinder(Resource):
   def get(self, timezone, year, month, day, hour, minute, second, body):
     from jyotisha import zodiac
     julday = Timezone(timezone).local_time_to_julian_day(year, month, day, hour, minute, second)
-    from jyotisha.panchangam import temporal
+    from jyotisha.panchaanga import temporal
     transits = Graha.singleton(body).get_next_raashi_transit(jd_start=julday, jd_end=julday + 100,
                                                    ayanamsha_id=Ayanamsha.CHITRA_AT_180)
     # logging.debug(transits)

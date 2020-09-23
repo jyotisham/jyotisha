@@ -3,8 +3,8 @@ import math
 
 import numpy.testing
 
-from jyotisha.panchangam.spatio_temporal import City
-from jyotisha.panchangam.spatio_temporal import daily
+from jyotisha.panchaanga.spatio_temporal import City
+from jyotisha.panchaanga.spatio_temporal import daily
 
 logging.basicConfig(
   level=logging.DEBUG,
@@ -13,28 +13,28 @@ logging.basicConfig(
 
 
 def test_solar_day():
-  panchangam = daily.DailyPanchanga.from_city_and_julian_day(
+  panchaanga = daily.DailyPanchanga.from_city_and_julian_day(
     city=City('Chennai', '13:05:24', '80:16:12', 'Asia/Calcutta'), julian_day=2457023.27)
-  panchangam.compute_solar_day()
-  logging.debug(str(panchangam))
-  assert panchangam.solar_month_day == 16
-  assert panchangam.solar_month == 9
+  panchaanga.compute_solar_day()
+  logging.debug(str(panchaanga))
+  assert panchaanga.solar_month_day == 16
+  assert panchaanga.solar_month == 9
 
 
 def test_sunrise_mtv():
   city = City.from_address_and_timezone('Cupertino, CA', "America/Los_Angeles")
-  panchangam = daily.DailyPanchanga(city=city, year=2018, month=11, day=11)
-  panchangam.compute_sun_moon_transitions()
-  numpy.testing.assert_approx_equal(panchangam.jd_sunrise, 2458434.11)
+  panchaanga = daily.DailyPanchanga(city=city, year=2018, month=11, day=11)
+  panchaanga.compute_sun_moon_transitions()
+  numpy.testing.assert_approx_equal(panchaanga.jd_sunrise, 2458434.11)
 
 
 def test_tb_muhuurta_blr():
   city = City.from_address_and_timezone('Bangalore', "Asia/Calcutta")
-  panchangam = daily.DailyPanchanga(city=city, year=2019, month=9, day=10)
-  panchangam.compute_tb_muhuurtas()
-  assert len(panchangam.tb_muhuurtas) == 15
-  assert panchangam.tb_muhuurtas[0].jd_start == panchangam.jd_sunrise
-  for muhurta in panchangam.tb_muhuurtas:
+  panchaanga = daily.DailyPanchanga(city=city, year=2019, month=9, day=10)
+  panchaanga.compute_tb_muhuurtas()
+  assert len(panchaanga.tb_muhuurtas) == 15
+  assert panchaanga.tb_muhuurtas[0].jd_start == panchaanga.jd_sunrise
+  for muhurta in panchaanga.tb_muhuurtas:
     logging.info(muhurta.to_localized_string(city=city))
 
 
@@ -55,7 +55,7 @@ def test_get_lagna_float():
 
 def test_get_lagna_data():
   city = City('X', 13.08784, 80.27847, 'Asia/Calcutta')
-  from jyotisha.panchangam.temporal import zodiac
+  from jyotisha.panchaanga.temporal import zodiac
   actual = daily.DailyPanchanga.from_city_and_julian_day(city=city, julian_day=2458222.5208333335).get_lagna_data(
     ayanamsha_id=zodiac.Ayanamsha.CHITRA_AT_180)
   expected = [(12, 2458222.5214310056), (1, 2458222.596420153),

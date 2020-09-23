@@ -1,16 +1,16 @@
 import logging
 import os
 
-# from jyotisha.panchangam.spatio_temporal import City, annual
-# from jyotisha.panchangam.scripts.write_daily_panchangam_tex import writeDailyTeX
-from jyotisha.panchangam.scripts.ics import compute_calendar, write_to_file
+# from jyotisha.panchaanga.spatio_temporal import City, annual
+# from jyotisha.panchaanga.scripts.write_daily_panchaanga_tex import writeDailyTeX
+from jyotisha.panchaanga.scripts.ics import compute_calendar, write_to_file
 from sanskrit_data.schema.common import JsonObject
 
 # import swisseph as swe
 # from indic_transliteration import xsanscript as sanscript
 
-# from jyotisha.panchangam import scripts
-# from jyotisha.panchangam.spatio_temporal import annual
+# from jyotisha.panchaanga import scripts
+# from jyotisha.panchaanga.spatio_temporal import annual
 
 logging.basicConfig(
   level=logging.DEBUG,
@@ -22,11 +22,11 @@ CODE_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__fi
 
 
 def test_panchanga_chennai_2019():
-  panchangam_2019 = JsonObject.read_from_file(filename=os.path.join(TEST_DATA_PATH, 'Chennai-2019.json'))
-  panchangam_2019.update_festival_details()
+  panchaanga_2019 = JsonObject.read_from_file(filename=os.path.join(TEST_DATA_PATH, 'Chennai-2019.json'))
+  panchaanga_2019.update_festival_details()
   orig_ics_file = os.path.join(TEST_DATA_PATH, 'Chennai-2019-devanagari.ics')
   current_ics_output = os.path.join(TEST_DATA_PATH, 'Chennai-2019-devanagari.ics.local')
-  ics_calendar = compute_calendar(panchangam_2019, all_tags=True)
+  ics_calendar = compute_calendar(panchaanga_2019, all_tags=True)
   write_to_file(ics_calendar, current_ics_output)
 
   with open(orig_ics_file) as orig_tex:

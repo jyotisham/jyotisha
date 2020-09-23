@@ -10,12 +10,12 @@ A package to do various panchaanga (traditional vedic astronomical / astrologica
 For a survey of similar software, see [here](https://sanskrit-coders.github.io/astronomy/).
 
 ### Accuracy status
-It is very important to note that this is an *approximate* panchangam,
+It is very important to note that this is an *approximate* panchaanga,
 automatically generated, without the careful oversight of learned
 scholars who have the depth of knowledge to resolve the exact dates for
-occurrences of different festivals. The best use of this panchangam is as an
+occurrences of different festivals. The best use of this panchaanga is as an
 approximate guide (95% of the events are also probably spot on) — when
-in doubt, consult only your own panchangam!
+in doubt, consult only your own panchaanga!
 
 Kartik has primarily restricted my example testing
 to Chennai, Mumbai, London and Palo Alto. Please let me know of any bugs
@@ -87,7 +87,7 @@ Pyswisseph is a thin wrapper around the C++ code.
 
 Sincere thanks to the creators of pyswisseph, without which I could not
 have attempted this. Many thanks are due to [Ajit Krishnan][] for so
-clearly explaining the panchangam process, and example festivals, which
+clearly explaining the panchaanga process, and example festivals, which
 was sort of the inspiration for integrating a number of festivals. Many
 thanks to Saketha Nath for getting details of hundreds of festivals from
 obscure sources, and to the [Vaidikasri magazine][], which is another

@@ -75,7 +75,7 @@ setup(
   ],
 
   # What does your project relate to?
-  keywords='indic vedic sanskrit astronomy astrology jyotisa jyotish jyotis, panchanga, panchangam tithi',
+  keywords='indic vedic sanskrit astronomy astrology jyotisa jyotish jyotis, panchanga, panchaanga tithi',
 
   # You can just specify the packages manually here if your project is
   # simple. Or you can use find_packages().

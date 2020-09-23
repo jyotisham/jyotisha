@@ -1,5 +1,5 @@
-from jyotisha.panchangam.temporal import zodiac
-from jyotisha.panchangam.temporal.zodiac import NakshatraDivision, Ayanamsha, AngaSpan, AngaType
+from jyotisha.panchaanga.temporal import zodiac
+from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision, Ayanamsha, AngaSpan, AngaType
 
 
 def test_get_ayanamsha():
