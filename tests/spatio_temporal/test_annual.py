@@ -1,13 +1,17 @@
+import json
 import logging
 import math
 import os
+import traceback
 
 from indic_transliteration import xsanscript as sanscript
 
+import sanskrit_data.collection_helper
 from jyotisha.panchaanga.spatio_temporal import City, annual
 # from jyotisha.panchaanga import scripts
 # from jyotisha.panchaanga.spatio_temporal import annual
 from jyotisha.panchaanga.temporal import zodiac
+from sanskrit_data.schema import common
 from sanskrit_data.schema.common import JsonObject
 
 logging.basicConfig(
@@ -30,7 +34,6 @@ def test_panchanga_chennai_18(caplog):
   #                         floating_point_precision=4, sort_keys=False)
 
   panchaanga_expected_chennai_18 = JsonObject.read_from_file(filename=os.path.join(TEST_DATA_PATH, 'Chennai-2018.json'))
-  panchaanga_expected_chennai_18.update_festival_details()
 
   if panchaanga.to_json_map(floating_point_precision=4) != panchaanga_expected_chennai_18.to_json_map(
       floating_point_precision=4):
@@ -52,7 +55,6 @@ def test_panchanga_chennai_19():
   # panchaanga.dump_to_file(filename=os.path.join(TEST_DATA_PATH, 'Chennai-2019.json'),
   #                         floating_point_precision=4, sort_keys=False)
   panchaanga_expected_chennai_19 = JsonObject.read_from_file(filename=os.path.join(TEST_DATA_PATH, 'Chennai-2019.json'))
-  panchaanga_expected_chennai_19.update_festival_details()
 
   if panchaanga.to_json_map(floating_point_precision=4) != panchaanga_expected_chennai_19.to_json_map(
       floating_point_precision=4):
@@ -64,17 +66,17 @@ def test_panchanga_chennai_19():
     floating_point_precision=4)
 
 
-def test_panchanga_orinda():
+def test_panchanga_orinda(caplog):
+  caplog.set_level(logging.INFO)
   city = City('Orinda', '37:51:38', '-122:10:59', 'America/Los_Angeles')
   panchaanga = annual.get_panchaanga(city=city, year=2019, script=sanscript.DEVANAGARI,
                                      ayanamsha_id=zodiac.Ayanamsha.CHITRA_AT_180, compute_lagnas=False,
                                      allow_precomputed=False)
   # Set the initial panchaanga. SHould be generally commented out.
   # panchaanga.dump_to_file(filename=os.path.join(TEST_DATA_PATH, 'Orinda-2019.json'),
-  #                         floating_point_precision=4, sort_keys=False)
+                          # floating_point_precision=4, sort_keys=False)
 
   panchaanga_expected_orinda_19 = JsonObject.read_from_file(filename=os.path.join(TEST_DATA_PATH, 'Orinda-2019.json'))
-  panchaanga_expected_orinda_19.update_festival_details()
 
   if panchaanga.to_json_map(floating_point_precision=4) != panchaanga_expected_orinda_19.to_json_map(
       floating_point_precision=4):
@@ -82,8 +84,14 @@ def test_panchanga_orinda():
                             floating_point_precision=4, sort_keys=False)
     panchaanga_expected_orinda_19.dump_to_file(filename=os.path.join(TEST_DATA_PATH, 'Orinda-2019-expected.json.local'),
                                                floating_point_precision=4, sort_keys=False)
-  assert panchaanga.to_json_map(floating_point_precision=4) == panchaanga_expected_orinda_19.to_json_map(
-    floating_point_precision=4)
+  # assert json.dumps(panchaanga.to_flat_json_map(floating_point_precision=4), sort_keys=True) == json.dumps(panchaanga_expected_orinda_19.to_flat_json_map(
+  #   floating_point_precision=4), sort_keys=True)
+    try:
+      sanskrit_data.collection_helper.assert_dict_equality(x=panchaanga.to_json_map(), y=panchaanga_expected_orinda_19.to_json_map(), floating_point_precision=4)
+    except:
+      traceback.print_exc() 
+      raise 
+    # assert panchaanga.to_flat_json_map(floating_point_precision=4) == panchaanga_expected_orinda_19.to_flat_json_map(floating_point_precision=4)
 
 
 def test_adhika_maasa_computations_2009():

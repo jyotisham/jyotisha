@@ -25,7 +25,7 @@ def get_panchaanga(city, year, script, fmt='hh:mm', compute_lagnas=False, precom
     panchaanga = JsonObject.read_from_file(filename=fname, name_to_json_class_index_extra={"Panchangam": periodical.Panchaanga})
     if not hasattr(panchaanga, 'version') or panchaanga.version != periodical.Panchaanga.LATEST_VERSION:
       logging.warning("Precomputed Panchanga obsolete.")
-      panchaanga = get_panchaanga(city=city, year=year, script=year, fmt=fmt, compute_lagnas=compute_lagnas, precomputed_json_dir=precomputed_json_dir,
+      return get_panchaanga(city=city, year=year, script=year, fmt=fmt, compute_lagnas=compute_lagnas, precomputed_json_dir=precomputed_json_dir,
                                   ayanamsha_id=ayanamsha_id, allow_precomputed=False)
     else:
       return panchaanga
