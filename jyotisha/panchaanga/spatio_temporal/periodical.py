@@ -43,7 +43,7 @@ class Panchaanga(common.JsonObject):
 
     # some buffer, for various look-ahead calculations
     # Pushkaram starting on 31 Jan might not get over till 12 days later
-    self.len = int(self.duration + 16)  
+    self.duration_to_calculate = int(self.duration + 16)  
 
     self.weekday_start = time.get_weekday(self.jd_start)
     self.ayanamsha_id = ayanamsha_id
@@ -56,7 +56,7 @@ class Panchaanga(common.JsonObject):
     """Compute the entire panchaanga
     """
 
-    nDays = self.len
+    nDays = self.duration_to_calculate
 
     # INITIALISE VARIABLES
     self.solar_month_end_time = [None] * nDays
@@ -258,7 +258,7 @@ class Panchaanga(common.JsonObject):
 
   def write_debug_log(self):
     log_file = open('cal-%4d-%s-log.txt' % (self.year, self.city.name), 'w')
-    for d in range(1, self.len - 1):
+    for d in range(1, self.duration_to_calculate - 1):
       jd = self.jd_start - 1 + d
       [y, m, dt, t] = time.jd_to_utc_gregorian(jd).to_date_fractional_hour_tuple()
       longitude_sun_sunset = Graha.singleton(Graha.SUN).get_longitude(
