@@ -59,7 +59,6 @@ class Panchaanga(common.JsonObject):
     nDays = self.len
 
     # INITIALISE VARIABLES
-    self.solar_month = [None] * nDays
     self.solar_month_end_time = [None] * nDays
     self.solar_month_day = [None] * nDays
     self.tropical_month = [None] * nDays

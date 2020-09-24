@@ -111,7 +111,7 @@ def compute_events(p, json_file):
         event_num = None
         if event_start_year is not None and month_type is not None:
           if month_type == 'solar_month':
-            event_num = p.year + 3100 + (d >= p.solar_month.index(1)) - event_start_year + 1
+            event_num = p.year + 3100 + (d >= p.daily_panchaangas.index(1).solar_month) - event_start_year + 1
           elif month_type == 'lunar_month':
             event_num = p.year + 3100 + (d >= p.lunar_month.index(1)) - event_start_year + 1
 
