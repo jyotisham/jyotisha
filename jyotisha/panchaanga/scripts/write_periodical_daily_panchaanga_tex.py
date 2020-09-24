@@ -13,7 +13,7 @@ import jyotisha
 import jyotisha.custom_transliteration
 import jyotisha.names
 from jyotisha.panchaanga.spatio_temporal import City
-from jyotisha.panchaanga.temporal import zodiac
+from jyotisha.panchaanga.temporal import zodiac, time
 from jyotisha.panchaanga.temporal.nakshatra import NakshatraAssigner
 
 logging.basicConfig(
