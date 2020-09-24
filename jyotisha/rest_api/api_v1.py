@@ -5,7 +5,7 @@ from flask import Blueprint
 from flask_restplus import Resource
 from flask_restplus import reqparse
 
-from jyotisha.panchaanga.spatio_temporal import City
+from jyotisha.panchaanga.spatio_temporal import City, daily, annual
 from jyotisha.panchaanga.temporal import festival, Timezone
 from jyotisha.panchaanga.temporal.body import Graha
 from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision, Ayanamsha
@@ -44,7 +44,7 @@ class DailyCalendarHandler(Resource):
   def get(self, latitude, longitude, year):
     args = self.get_parser.parse_args()
     city = City("", latitude, longitude, args['timezone'])
-    panchaanga = jyotisha.panchaanga.spatio_temporal.annual.get_panchaanga(city=city, year=int(year),
+    panchaanga = annual.get_panchaanga(city=city, year=int(year),
                                                                            script=args['encoding'])
 
     return panchaanga.to_json_map()
@@ -67,7 +67,7 @@ class KaalaHandler(Resource):
   def get(self, latitude, longitude, year, month, day):
     args = self.get_parser.parse_args()
     city = City("", latitude, longitude, args['timezone'])
-    panchaanga = jyotisha.panchaanga.spatio_temporal.daily.DailyPanchanga(city=city, year=int(year), month=int(month),
+    panchaanga = daily.DailyPanchanga(city=city, year=int(year), month=int(month),
                                                                           day=int(day))
     return panchaanga.get_kaalas_local_time(format=args['format'])
 

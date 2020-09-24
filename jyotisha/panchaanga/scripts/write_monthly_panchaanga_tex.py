@@ -117,6 +117,7 @@ def writeMonthlyTeX(panchaanga, template_file, temporal=None):
     jd = panchaanga.jd_midnight[d]
 
     if dt == 1:
+      currWeek = 1
       if m > 1:
         month_text = month_text.replace('W6D1', W6D1)
         month_text = month_text.replace('W6D2', W6D2)
@@ -130,7 +131,6 @@ def writeMonthlyTeX(panchaanga, template_file, temporal=None):
         print('\\end{tabular}')
         print('\n\n')
 
-      currWeek = 1
       # Begin tabular
       print('\\begin{tabular}{|c|c|c|c|c|c|c|}')
       print('\\multicolumn{7}{c}{\\Large \\bfseries \\sffamily %s %s}\\\\[3mm]' % (
