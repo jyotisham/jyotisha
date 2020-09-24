@@ -5,6 +5,7 @@ import numpy.testing
 
 from jyotisha.panchaanga.spatio_temporal import City
 from jyotisha.panchaanga.spatio_temporal import daily
+from jyotisha.panchaanga.temporal.time import Date
 
 logging.basicConfig(
   level=logging.DEBUG,
@@ -23,14 +24,14 @@ def test_solar_day():
 
 def test_sunrise_mtv():
   city = City.from_address_and_timezone('Cupertino, CA', "America/Los_Angeles")
-  panchaanga = daily.DailyPanchanga(city=city, year=2018, month=11, day=11)
+  panchaanga = daily.DailyPanchanga(city=city, date=Date(year=2018, month=11, day=11))
   panchaanga.compute_sun_moon_transitions()
   numpy.testing.assert_approx_equal(panchaanga.jd_sunrise, 2458434.11)
 
 
 def test_tb_muhuurta_blr():
   city = City.from_address_and_timezone('Bangalore', "Asia/Calcutta")
-  panchaanga = daily.DailyPanchanga(city=city, year=2019, month=9, day=10)
+  panchaanga = daily.DailyPanchanga(city=city, date=Date(year=2019, month=9, day=10))
   panchaanga.compute_tb_muhuurtas()
   assert len(panchaanga.tb_muhuurtas) == 15
   assert panchaanga.tb_muhuurtas[0].jd_start == panchaanga.jd_sunrise

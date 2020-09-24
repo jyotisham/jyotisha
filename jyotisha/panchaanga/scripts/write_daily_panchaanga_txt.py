@@ -14,11 +14,8 @@ from indic_transliteration import xsanscript as sanscript
 import jyotisha
 import jyotisha.custom_transliteration
 import jyotisha.names
-import jyotisha.panchaanga.spatio_temporal.annual
-import jyotisha.panchaanga.temporal
-import jyotisha.panchaanga.temporal.hour
 from jyotisha.panchaanga import temporal
-from jyotisha.panchaanga.spatio_temporal import City
+from jyotisha.panchaanga.spatio_temporal import City, annual
 
 logging.basicConfig(
   level=logging.DEBUG,
@@ -115,7 +112,7 @@ def writeDailyText(panchaanga, compute_lagnams=True, output_file_stream=sys.stdo
 
   for d in range(1, jyotisha.panchaanga.temporal.MAX_SZ - 1):
 
-    [y, m, dt, t] = temporal.jd_to_utc_gregorian(panchaanga.jd_start + d - 1)
+    [y, m, dt, t] = time.jd_to_utc_gregorian(panchaanga.jd_start + d - 1)
 
     print('## %02d-%s-%4d' % (dt, month[m], y), file=output_stream)
 
@@ -440,7 +437,7 @@ def main():
 
   city = City(city_name, latitude, longitude, tz)
 
-  panchaanga = jyotisha.panchaanga.spatio_temporal.annual.get_panchaanga(city=city, year=year, script=script, fmt=fmt,
+  panchaanga = annual.get_panchaanga(city=city, year=year, script=script, fmt=fmt,
                                                                          compute_lagnas=compute_lagnams)
   panchaanga.script = script  # Force script irrespective of what was obtained from saved file
   panchaanga.fmt = fmt  # Force fmt

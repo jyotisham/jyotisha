@@ -9,6 +9,7 @@ from icalendar import Calendar, Event, Alarm
 from pytz import timezone as tz
 
 import jyotisha.panchaanga.spatio_temporal.annual
+from jyotisha.panchaanga.temporal import time
 from jyotisha.panchaanga import temporal
 from jyotisha.panchaanga.spatio_temporal import City
 from jyotisha.panchaanga.temporal import MAX_SZ, tithi
@@ -25,7 +26,7 @@ CODE_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
 def compute_events(p, json_file):
   p.fest_days = {}  # Resetting it
   for d in range(1, MAX_SZ):
-    [y, m, dt, t] = temporal.jd_to_utc_gregorian(p.jd_start + d - 1)
+    [y, m, dt, t] = time.jd_to_utc_gregorian(p.jd_start + d - 1)
 
     debugEvents = False
 
@@ -218,7 +219,7 @@ def compute_events(p, json_file):
 def computeIcsCalendar(P, ics_file_name):
   P.ics_calendar = Calendar()
   for d in range(1, MAX_SZ - 1):
-    [y, m, dt, t] = temporal.jd_to_utc_gregorian(P.jd_start + d - 1)
+    [y, m, dt, t] = time.jd_to_utc_gregorian(P.jd_start + d - 1)
 
     if len(P.festivals[d]) > 0:
       # Eliminate repeat festivals on the same day, and keep the list arbitrarily sorted

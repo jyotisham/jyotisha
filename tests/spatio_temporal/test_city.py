@@ -1,7 +1,7 @@
 import logging
 
 from jyotisha.panchaanga.spatio_temporal import City
-from jyotisha.panchaanga.temporal import Timezone
+from jyotisha.panchaanga.temporal.time import Timezone
 
 
 def test_moonrise_time():

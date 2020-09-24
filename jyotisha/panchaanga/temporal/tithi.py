@@ -1,6 +1,7 @@
 
 import logging
 
+from jyotisha.panchaanga.temporal import time
 from jyotisha.panchaanga import temporal
 from jyotisha.panchaanga.temporal import PanchaangaApplier, interval
 
@@ -27,15 +28,15 @@ class TithiAssigner(PanchaangaApplier):
     tithi_days = [{z: [] for z in range(0, 32)} for _x in range(13)]
     lunar_tithi_days = {}
     def _assign(self, fday, tithi):
-      if self.panchaanga.shraaddha_tithi[fday] == [None] or self.panchaanga.shraaddha_tithi[fday] == [tithi]:
-        self.panchaanga.shraaddha_tithi[fday] = [tithi]
+      if self.panchaanga.daily_panchaangas[fday].shraaddha_tithi == [None] or self.panchaanga.daily_panchaangas[fday].shraaddha_tithi == [tithi]:
+        self.panchaanga.daily_panchaangas[fday].shraaddha_tithi = [tithi]
       else:
-        self.panchaanga.shraaddha_tithi[fday].append(tithi)
-        if self.panchaanga.shraaddha_tithi[fday - 1].count(tithi) == 1:
-          self.panchaanga.shraaddha_tithi[fday - 1].remove(tithi)
+        self.panchaanga.daily_panchaangas[fday].shraaddha_tithi.append(tithi)
+        if self.panchaanga.daily_panchaangas[fday - 1].shraaddha_tithi.count(tithi) == 1:
+          self.panchaanga.daily_panchaangas[fday - 1].shraaddha_tithi.remove(tithi)
   
     for d in range(1, self.panchaanga.duration + 1):
-      [y, m, dt, t] = temporal.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1)
+      [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1)
   
       angas = self.panchaanga.get_angas_for_interval_boundaries(d, get_tithi, 'aparaahna')
       angam_start = angas[0]
@@ -149,14 +150,14 @@ class TithiAssigner(PanchaangaApplier):
     for z in set(self.panchaanga.lunar_month):
       lunar_tithi_days[z] = {}
     for d in range(1, self.panchaanga.duration + 1):
-      for t in self.panchaanga.shraaddha_tithi[d]:
+      for t in self.panchaanga.daily_panchaangas[d].shraaddha_tithi:
         lunar_tithi_days[self.panchaanga.lunar_month[d]][t] = d
   
     # Following this primary assignment, we must now "clean" for Sankranti, and repetitions
     # If there are two tithis, take second. However, if the second has sankrAnti dushtam, take
     # first. If both have sankrAnti dushtam, take second.
     for d in range(1, self.panchaanga.duration + 1):
-      if self.panchaanga.shraaddha_tithi[d] != [None]:
+      if self.panchaanga.daily_panchaangas[d].shraaddha_tithi != [None]:
         if self.panchaanga.solar_month_end_time[d] is not None:
           if debug_shraaddha_tithi:
             logging.debug((d, self.panchaanga.solar_month_end_time[d]))
@@ -167,7 +168,7 @@ class TithiAssigner(PanchaangaApplier):
             if debug_shraaddha_tithi:
               logging.debug('Sankranti in aparaahna! Assigning to both months!')
             assert self.panchaanga.solar_month_day[d] == 1
-            for t in self.panchaanga.shraaddha_tithi[d]:
+            for t in self.panchaanga.daily_panchaangas[d].shraaddha_tithi:
               # Assigning to both months --- should get eliminated because of a second occurrence
               tithi_days[m1][t].extend([d, '*'])
               tithi_days[m2][t].extend([d, '*'])
@@ -175,17 +176,17 @@ class TithiAssigner(PanchaangaApplier):
             if debug_shraaddha_tithi:
               logging.debug('Sankranti before aparaahna!')
             assert self.panchaanga.solar_month_day[d] == 1
-            for t in self.panchaanga.shraaddha_tithi[d]:
+            for t in self.panchaanga.daily_panchaangas[d].shraaddha_tithi:
               tithi_days[m2][t].extend([d, '*'])
           if aparaahna_end < self.panchaanga.solar_month_end_time[d]:
             if debug_shraaddha_tithi:
               logging.debug('Sankranti after aparaahna!')
             # Depending on whether sankranti is before or after sunset, m2 may or may not be equal to m1
             # In any case, we wish to assign this tithi to the previous month, where it really occurs.
-            for t in self.panchaanga.shraaddha_tithi[d]:
+            for t in self.panchaanga.daily_panchaangas[d].shraaddha_tithi:
               tithi_days[m1][t].extend([d, '*'])
         else:
-          for t in self.panchaanga.shraaddha_tithi[d]:
+          for t in self.panchaanga.daily_panchaangas[d].shraaddha_tithi:
             tithi_days[self.panchaanga.solar_month[d]][t].append(d)
   
     # We have now assigned all tithis. Now, remove duplicates based on the above-mentioned rules.
@@ -205,7 +206,7 @@ class TithiAssigner(PanchaangaApplier):
             if debug_shraaddha_tithi:
               logging.debug('Note %s' % str(tithi_days[m][t]))
           else:
-            self.panchaanga.shraaddha_tithi[tithi_days[m][t][0]] = [0]  # Shunya
+            self.panchaanga.daily_panchaangas[tithi_days[m][t][0]].shraaddha_tithi = [0]  # Shunya
             if debug_shraaddha_tithi:
               logging.debug('Removed %d' % tithi_days[m][t][0])
             del tithi_days[m][t][0]
@@ -216,12 +217,12 @@ class TithiAssigner(PanchaangaApplier):
           if debug_shraaddha_tithi:
             logging.debug('Two %2d tithis in month %2d: %s' % (t, m, str(tithi_days[m][t])))
           if tithi_days[m][t][1] == '*':
-            self.panchaanga.shraaddha_tithi[tithi_days[m][t][0]] = [0]  # Shunya
+            self.panchaanga.daily_panchaangas[tithi_days[m][t][0]].shraaddha_tithi = [0]  # Shunya
             if debug_shraaddha_tithi:
               logging.debug('Removed %d' % tithi_days[m][t][0])
             del tithi_days[m][t][:2]
           elif tithi_days[m][t][2] == '*':
-            self.panchaanga.shraaddha_tithi[tithi_days[m][t][1]] = [0]  # Shunya
+            self.panchaanga.daily_panchaangas[tithi_days[m][t][1]].shraaddha_tithi = [0]  # Shunya
             if debug_shraaddha_tithi:
               logging.debug('Removed %d' % tithi_days[m][t][1])
             del tithi_days[m][t][1:]
@@ -230,7 +231,7 @@ class TithiAssigner(PanchaangaApplier):
         elif len(tithi_days[m][t]) == 4:
           if debug_shraaddha_tithi:
             logging.debug('Two dushta %2d tithis in month %2d: %s' % (t, m, str(tithi_days[m][t])))
-          self.panchaanga.shraaddha_tithi[tithi_days[m][t][0]] = [0]  # Shunya
+          self.panchaanga.daily_panchaangas[tithi_days[m][t][0]].shraaddha_tithi = [0]  # Shunya
           if debug_shraaddha_tithi:
             logging.debug('Removed %d' % tithi_days[m][t][0])
           tithi_days[m][t][3] = str(m)

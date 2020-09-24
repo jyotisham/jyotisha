@@ -12,9 +12,6 @@ from pytz import timezone as tz
 import jyotisha
 import jyotisha.custom_transliteration
 import jyotisha.names
-import jyotisha.panchaanga.spatio_temporal.annual
-import jyotisha.panchaanga.temporal
-import jyotisha.panchaanga.temporal.hour
 from jyotisha.panchaanga.spatio_temporal import City
 
 logging.basicConfig(
@@ -71,7 +68,7 @@ def writeMonthlyTeX(panchaanga, template_file, temporal=None):
 
   mlast = 1
   for d in range(1, jyotisha.panchaanga.temporal.MAX_SZ - 1):
-    [y, m, dt, t] = temporal.jd_to_utc_gregorian(panchaanga.jd_start + d - 1)
+    [y, m, dt, t] = time.jd_to_utc_gregorian(panchaanga.jd_start + d - 1)
 
     # checking @ 6am local - can we do any better?
     local_time = tz(panchaanga.city.timezone).localize(datetime(y, m, dt, 6, 0, 0))
@@ -105,7 +102,7 @@ def writeMonthlyTeX(panchaanga, template_file, temporal=None):
   month_text = ''
   W6D1 = W6D2 = ''
   for d in range(1, jyotisha.panchaanga.temporal.MAX_SZ - 1):
-    [y, m, dt, t] = temporal.jd_to_utc_gregorian(panchaanga.jd_start + d - 1)
+    [y, m, dt, t] = time.jd_to_utc_gregorian(panchaanga.jd_start + d - 1)
 
     # checking @ 6am local - can we do any better?
     local_time = tz(panchaanga.city.timezone).localize(datetime(y, m, dt, 6, 0, 0))

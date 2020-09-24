@@ -6,12 +6,9 @@ from typing import List
 
 from indic_transliteration import xsanscript as sanscript
 
-import jyotisha.panchaanga.temporal.festival.applier.ecliptic
-import jyotisha.panchaanga.temporal.festival.applier.solar
-import jyotisha.panchaanga.temporal.festival.applier.vaara
-from jyotisha.panchaanga import temporal, spatio_temporal
+from jyotisha.panchaanga import spatio_temporal
 from jyotisha.panchaanga.spatio_temporal import daily
-from jyotisha.panchaanga.temporal import zodiac
+from jyotisha.panchaanga.temporal import zodiac, time
 from jyotisha.panchaanga.temporal.body import Graha
 from jyotisha.panchaanga.temporal.month import LunarMonthAssigner
 from jyotisha.panchaanga.temporal.tithi import TithiAssigner
@@ -25,7 +22,8 @@ class Panchaanga(common.JsonObject):
     """
   LATEST_VERSION = "0.0.2"
 
-  def __init__(self, city, start_date, end_date, lunar_month_assigner_type=LunarMonthAssigner.SIDERIAL_SOLAR_BASED, script=sanscript.DEVANAGARI, fmt='hh:mm',
+  def __init__(self, city, start_date, end_date, lunar_month_assigner_type=LunarMonthAssigner.SIDERIAL_SOLAR_BASED,
+               script=sanscript.DEVANAGARI, fmt='hh:mm',
                ayanamsha_id=zodiac.Ayanamsha.CHITRA_AT_180,
                compute_lagnas=False):
     """Constructor for the panchaanga.
@@ -38,13 +36,13 @@ class Panchaanga(common.JsonObject):
     self.script = script
     self.fmt = fmt
 
-    self.jd_start = temporal.utc_gregorian_to_jd(self.start_date[0], self.start_date[1], self.start_date[2], 0)
-    self.jd_end = temporal.utc_gregorian_to_jd(self.end_date[0], self.end_date[1], self.end_date[2], 0)
+    self.jd_start = time.utc_gregorian_to_jd(self.start_date[0], self.start_date[1], self.start_date[2], 0)
+    self.jd_end = time.utc_gregorian_to_jd(self.end_date[0], self.end_date[1], self.end_date[2], 0)
 
     self.duration = int(self.jd_end - self.jd_start) + 1
     self.len = int(self.duration + 4)  # some buffer, for various look-ahead calculations
 
-    self.weekday_start = temporal.get_weekday(self.jd_start)
+    self.weekday_start = time.get_weekday(self.jd_start)
     self.ayanamsha_id = ayanamsha_id
 
     self.compute_angas(compute_lagnas=compute_lagnas)
@@ -58,7 +56,6 @@ class Panchaanga(common.JsonObject):
     nDays = self.len
 
     # INITIALISE VARIABLES
-    self.shraaddha_tithi = [[None] for _x in range(nDays)]
     self.solar_month = [None] * nDays
     self.solar_month_end_time = [None] * nDays
     self.solar_month_day = [None] * nDays
@@ -80,9 +77,9 @@ class Panchaanga(common.JsonObject):
     # rather than Jan 1, since we have an always increment
     # solar_month_day at the start of the loop across every day in
     # year
-    [prev_day_yy, prev_day_mm, prev_day_dd] = temporal.jd_to_utc_gregorian(self.jd_start - 1)[:3]
-    daily_panchaanga_start = daily.DailyPanchanga(city=self.city, year=prev_day_yy, month=prev_day_mm,
-                                                  day=prev_day_dd, ayanamsha_id=self.ayanamsha_id)
+    [prev_day_yy, prev_day_mm, prev_day_dd] = time.jd_to_utc_gregorian(self.jd_start - 1)[:3]
+    daily_panchaanga_start = daily.DailyPanchanga(city=self.city, date=time.Date(year=prev_day_yy, month=prev_day_mm,
+                                                                       day=prev_day_dd), ayanamsha_id=self.ayanamsha_id)
     daily_panchaanga_start.compute_solar_day()
     self.solar_month[1] = daily_panchaanga_start.solar_month
     solar_month_day = daily_panchaanga_start.solar_month_day
@@ -105,10 +102,10 @@ class Panchaanga(common.JsonObject):
     for d in range(-1, nDays - 1):
       # TODO: Eventually, we are shifting to an array of daily panchangas. Reason: Better modularity.
       # The below block is temporary code to make the transition seamless.
-      (year_d, month_d, day_d, _) = temporal.jd_to_utc_gregorian(self.jd_start + d)
-      self.daily_panchaangas[d + 1] = daily.DailyPanchanga(city=self.city, year=year_d, month=month_d, day=day_d,
-                                                      ayanamsha_id=self.ayanamsha_id,
-                                                      previous_day_panchaanga=self.daily_panchaangas[d])
+      (year_d, month_d, day_d, _) = time.jd_to_utc_gregorian(self.jd_start + d)
+      self.daily_panchaangas[d + 1] = daily.DailyPanchanga(city=self.city, date=time.Date(year=year_d, month=month_d, day=day_d),
+                                                           ayanamsha_id=self.ayanamsha_id,
+                                                           previous_day_panchaanga=self.daily_panchaangas[d])
       self.daily_panchaangas[d + 1].compute_sun_moon_transitions(previous_day_panchaanga=self.daily_panchaangas[d])
       self.daily_panchaangas[d + 1].compute_solar_month()
       self.solar_month[d + 1] = self.daily_panchaangas[d + 1].solar_month_sunset
@@ -132,14 +129,16 @@ class Panchaanga(common.JsonObject):
         if self.solar_month[d] != solar_month_sunrise[d + 1]:
           month_start_after_sunset = True
           [_m, solar_month_end_jd] = zodiac.get_angam_data(
-            self.daily_panchaangas[d].jd_sunrise, self.daily_panchaangas[d + 1].jd_sunrise, zodiac.AngaType.SOLAR_MONTH, ayanamsha_id=self.ayanamsha_id)[
+            self.daily_panchaangas[d].jd_sunrise, self.daily_panchaangas[d + 1].jd_sunrise, zodiac.AngaType.SOLAR_MONTH,
+            ayanamsha_id=self.ayanamsha_id)[
             0]
       elif solar_month_sunrise[d] != self.solar_month[d]:
         # sankrAnti!
         # sun moves into next rAshi before sunset
         solar_month_day = 1
         [_m, solar_month_end_jd] = zodiac.get_angam_data(
-          self.daily_panchaangas[d].jd_sunrise, self.daily_panchaangas[d + 1].jd_sunrise, zodiac.AngaType.SOLAR_MONTH, ayanamsha_id=self.ayanamsha_id)[0]
+          self.daily_panchaangas[d].jd_sunrise, self.daily_panchaangas[d + 1].jd_sunrise, zodiac.AngaType.SOLAR_MONTH,
+          ayanamsha_id=self.ayanamsha_id)[0]
       else:
         solar_month_day = solar_month_day + 1
         solar_month_end_jd = None
@@ -163,22 +162,22 @@ class Panchaanga(common.JsonObject):
     jd_moonrise_tmrw = self.daily_panchaangas[d + 1].jd_moonrise
     if interval_type == 'sunrise':
       angas = [get_anga_func(jd_sunrise),
-                get_anga_func(jd_sunrise),
-                get_anga_func(jd_sunrise_tmrw),
-                get_anga_func(jd_sunrise_tmrw)]
+               get_anga_func(jd_sunrise),
+               get_anga_func(jd_sunrise_tmrw),
+               get_anga_func(jd_sunrise_tmrw)]
     elif interval_type == 'sunset':
       angas = [get_anga_func(jd_sunset),
-                get_anga_func(jd_sunset),
-                get_anga_func(jd_sunset_tmrw),
-                get_anga_func(jd_sunset_tmrw)]
+               get_anga_func(jd_sunset),
+               get_anga_func(jd_sunset_tmrw),
+               get_anga_func(jd_sunset_tmrw)]
     elif interval_type == 'praatah':
       angas = [get_anga_func(jd_sunrise),  # praatah1 start
-                # praatah1 end
-                get_anga_func(jd_sunrise + (jd_sunset - jd_sunrise) * (1.0 / 5.0)),
-                get_anga_func(jd_sunrise_tmrw),  # praatah2 start
-                # praatah2 end
-                get_anga_func(jd_sunrise_tmrw + \
-                              (jd_sunset_tmrw - jd_sunrise_tmrw) * (1.0 / 5.0))]
+               # praatah1 end
+               get_anga_func(jd_sunrise + (jd_sunset - jd_sunrise) * (1.0 / 5.0)),
+               get_anga_func(jd_sunrise_tmrw),  # praatah2 start
+               # praatah2 end
+               get_anga_func(jd_sunrise_tmrw + \
+                             (jd_sunset_tmrw - jd_sunrise_tmrw) * (1.0 / 5.0))]
     elif interval_type == 'sangava':
       angas = [
         get_anga_func(jd_sunrise + (jd_sunset - jd_sunrise) * (1.0 / 5.0)),
@@ -222,10 +221,10 @@ class Panchaanga(common.JsonObject):
     elif interval_type == 'pradosha':
       # pradOSo.astamayAdUrdhvaM ghaTikAdvayamiShyatE (tithyAdi tattvam, Vrat Parichay p. 25 Gita Press)
       angas = [get_anga_func(jd_sunset),
-                get_anga_func(jd_sunset + (jd_sunrise_tmrw - jd_sunset) * (1.0 / 15.0)),
-                get_anga_func(jd_sunset_tmrw),
-                get_anga_func(jd_sunset_tmrw +
-                              (jd_sunrise_datmrw - jd_sunset_tmrw) * (1.0 / 15.0))]
+               get_anga_func(jd_sunset + (jd_sunrise_tmrw - jd_sunset) * (1.0 / 15.0)),
+               get_anga_func(jd_sunset_tmrw),
+               get_anga_func(jd_sunset_tmrw +
+                             (jd_sunrise_datmrw - jd_sunset_tmrw) * (1.0 / 15.0))]
     elif interval_type == 'nishita':
       angas = [
         get_anga_func(jd_sunset + (jd_sunrise_tmrw - jd_sunset) * (7.0 / 15.0)),
@@ -250,7 +249,7 @@ class Panchaanga(common.JsonObject):
                       (jd_sunrise_datmrw - jd_sunset_tmrw) * (0.0 / 15.0)),
         get_anga_func(jd_sunset_tmrw +
                       (jd_sunrise_datmrw - jd_sunset_tmrw) * (15.0 / 15.0))]
-    elif interval_type == 'arunodaya':  
+    elif interval_type == 'arunodaya':
       # deliberately not simplifying expressions involving 15/15
       angas = [
         get_anga_func(jd_sunset + (jd_sunrise_tmrw - jd_sunset) * (13.0 / 15.0)),
@@ -261,30 +260,31 @@ class Panchaanga(common.JsonObject):
                       (jd_sunrise_datmrw - jd_sunset_tmrw) * (15.0 / 15.0))]
     elif interval_type == 'moonrise':
       angas = [get_anga_func(jd_moonrise),
-                get_anga_func(jd_moonrise),
-                get_anga_func(jd_moonrise_tmrw),
-                get_anga_func(jd_moonrise_tmrw)]
+               get_anga_func(jd_moonrise),
+               get_anga_func(jd_moonrise_tmrw),
+               get_anga_func(jd_moonrise_tmrw)]
     else:
       # Error!
       raise ValueError('Unkown kaala "%s" input!' % interval_type)
     return angas
 
-
   def write_debug_log(self):
     log_file = open('cal-%4d-%s-log.txt' % (self.year, self.city.name), 'w')
     for d in range(1, self.len - 1):
       jd = self.jd_start - 1 + d
-      [y, m, dt, t] = temporal.jd_to_utc_gregorian(jd)
-      longitude_sun_sunset = Graha.singleton(Graha.SUN).get_longitude(self.daily_panchaangas[d].jd_sunset) - zodiac.Ayanamsha.singleton(
+      [y, m, dt, t] = time.jd_to_utc_gregorian(jd)
+      longitude_sun_sunset = Graha.singleton(Graha.SUN).get_longitude(
+        self.daily_panchaangas[d].jd_sunset) - zodiac.Ayanamsha.singleton(
         self.ayanamsha_id).get_offset(self.daily_panchaangas[d].jd_sunset)
       log_data = '%02d-%02d-%4d\t[%3d]\tsun_rashi=%8.3f\ttithi=%8.3f\tsolar_month\
         =%2d\tlunar_month=%4.1f\n' % (dt, m, y, d, (longitude_sun_sunset % 360) / 30.0,
                                       NakshatraDivision(self.daily_panchaangas[d].jd_sunrise,
-                                                        ayanamsha_id=self.ayanamsha_id).get_anga_float(zodiac.AngaType.TITHI),
+                                                        ayanamsha_id=self.ayanamsha_id).get_anga_float(
+                                        zodiac.AngaType.TITHI),
                                       self.solar_month[d], self.lunar_month[d])
       log_file.write(log_data)
 
-  def update_festival_details(self,debug=False):
+  def update_festival_details(self, debug=False):
     """
 
     Festival data may be updated more frequently and a precomputed panchaanga may go out of sync. Hence we keep this method separate.
@@ -293,12 +293,12 @@ class Panchaanga(common.JsonObject):
     self._reset_festivals()
     TithiAssigner(self).assign_shraaddha_tithi()
     from jyotisha.panchaanga.temporal.festival import applier
-    from jyotisha.panchaanga.temporal.festival.applier import tithi_festival
+    from jyotisha.panchaanga.temporal.festival.applier import tithi_festival, ecliptic, solar, vaara
     applier.MiscFestivalAssigner(panchaanga=self).assign_all(debug=debug)
-    applier.ecliptic.EclipticFestivalAssigner(panchaanga=self).assign_all(debug=debug)
+    ecliptic.EclipticFestivalAssigner(panchaanga=self).assign_all(debug=debug)
     tithi_festival.TithiFestivalAssigner(panchaanga=self).assign_all(debug=debug)
-    applier.solar.SolarFestivalAssigner(panchaanga=self).assign_all(debug=debug)
-    applier.vaara.VaraFestivalAssigner(panchaanga=self).assign_all(debug=debug)
+    solar.SolarFestivalAssigner(panchaanga=self).assign_all(debug=debug)
+    vaara.VaraFestivalAssigner(panchaanga=self).assign_all(debug=debug)
     applier.MiscFestivalAssigner(panchaanga=self).cleanup_festivals(debug=debug)
     applier.MiscFestivalAssigner(panchaanga=self).assign_relative_festivals()
 

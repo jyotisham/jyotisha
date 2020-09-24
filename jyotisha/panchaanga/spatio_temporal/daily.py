@@ -1,18 +1,16 @@
 #!/usr/bin/python3
 #  -*- coding: utf-8 -*-
-import datetime
 import logging
 import sys
 from math import floor
 
 from scipy.optimize import brentq
 
-import jyotisha.panchaanga.temporal
 from jyotisha.panchaanga.spatio_temporal import City
-from jyotisha.panchaanga.temporal import interval, Timezone
+from jyotisha.panchaanga.temporal import interval
 from jyotisha.panchaanga.temporal import zodiac
 from jyotisha.panchaanga.temporal.body import Graha
-from jyotisha.panchaanga.temporal.hour import Hour
+from jyotisha.panchaanga.temporal.time import Timezone, Hour, Date
 from jyotisha.panchaanga.temporal.zodiac import Ayanamsha, NakshatraDivision, AngaType
 from sanskrit_data.schema import common
 
@@ -27,21 +25,18 @@ class DailyPanchanga(common.JsonObject):
 
   @classmethod
   def from_city_and_julian_day(cls, city, julian_day, ayanamsha_id=Ayanamsha.CHITRA_AT_180):
-    (year, month, day, hours, minutes, seconds) = Timezone(city.timezone).julian_day_to_local_time(julian_day)
-    return DailyPanchanga(city=city, year=year, month=month, day=day, ayanamsha_id=ayanamsha_id)
+    date = Timezone(city.timezone).julian_day_to_local_time(julian_day)
+    return DailyPanchanga(city=city, date=date, ayanamsha_id=ayanamsha_id)
 
-  def __init__(self, city: City, year: int, month: int, day: int, ayanamsha_id: str = Ayanamsha.CHITRA_AT_180,
+  def __init__(self, city: City, date: Date, ayanamsha_id: str = Ayanamsha.CHITRA_AT_180,
                previous_day_panchaanga=None) -> None:
     """Constructor for the panchaanga.
     """
     super(DailyPanchanga, self).__init__()
     self.city = city
-    (self.year, self.month, self.day) = (int(year), int(month), int(day))
-    self.julian_day_start = Timezone(self.city.timezone).local_time_to_julian_day(year=self.year, month=self.month,
-                                                                                  day=self.day, hours=0, minutes=0,
-                                                                                  seconds=0)
-
-    self.weekday = datetime.date(year=self.year, month=self.month, day=self.day).isoweekday() % 7
+    self.date = date
+    date.set_time_to_day_start()
+    self.julian_day_start = Timezone(self.city.timezone).local_time_to_julian_day(date=self.date)
     self.ayanamsha_id = ayanamsha_id
 
     self.jd_sunrise = None
@@ -67,7 +62,7 @@ class DailyPanchanga(common.JsonObject):
     self.yoga_at_sunrise = None
     self.karana_data = None
     self.raashi_data = None
-
+    self.shraaddha_tithi = [None]
     self.festivals = []
 
   def compute_sun_moon_transitions(self, previous_day_panchaanga=None, force_recomputation=False):
@@ -139,7 +134,6 @@ class DailyPanchanga(common.JsonObject):
     """
     if not hasattr(self, "jd_sunrise") or self.jd_sunrise is None:
       self.compute_sun_moon_transitions()
-    from jyotisha.panchaanga import spatio_temporal
     self.tb_muhuurtas = []
     for muhuurta_id in range(0, 15):
       (jd_start, jd_end) = interval.get_interval(start_jd=self.jd_sunrise, end_jd=self.jd_sunset,
@@ -231,6 +225,7 @@ class DailyPanchanga(common.JsonObject):
     YAMAGANDA_OCTETS = [4, 3, 2, 1, 0, 6, 5]
     RAHUKALA_OCTETS = [7, 1, 6, 4, 5, 3, 2]
     GULIKAKALA_OCTETS = [6, 5, 4, 3, 2, 1, 0]
+    weekday = self.date.get_weekday()
     self.kaalas = {
       'braahma': interval.get_interval(self.jd_previous_sunset, self.jd_sunrise, 13, 15).to_tuple(),
       'prAtaH sandhyA': interval.get_interval(self.jd_previous_sunset, self.jd_sunrise, 14, 15).to_tuple(),
@@ -248,11 +243,11 @@ class DailyPanchanga(common.JsonObject):
       'zayana': interval.get_interval(self.jd_sunset, self.jd_next_sunrise, 3, 8).to_tuple(),
       'dinAnta': interval.get_interval(self.jd_sunset, self.jd_next_sunrise, 5, 8).to_tuple(),
       'rahu': interval.get_interval(self.jd_sunrise, self.jd_sunset,
-                                                                 RAHUKALA_OCTETS[self.weekday], 8).to_tuple(),
+                                                                 RAHUKALA_OCTETS[weekday], 8).to_tuple(),
       'yama': interval.get_interval(self.jd_sunrise, self.jd_sunset,
-                                                                 YAMAGANDA_OCTETS[self.weekday], 8).to_tuple(),
+                                                                 YAMAGANDA_OCTETS[weekday], 8).to_tuple(),
       'gulika': interval.get_interval(self.jd_sunrise, self.jd_sunset,
-                                                                   GULIKAKALA_OCTETS[self.weekday], 8).to_tuple()
+                                                                   GULIKAKALA_OCTETS[weekday], 8).to_tuple()
     }
     return self.kaalas
 

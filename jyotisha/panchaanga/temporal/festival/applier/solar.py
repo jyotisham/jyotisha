@@ -3,12 +3,13 @@ from math import floor
 
 from pytz import timezone as tz
 
+from jyotisha.panchaanga.temporal import time
 from jyotisha import names
 from jyotisha.panchaanga import temporal
 from jyotisha.panchaanga.temporal import zodiac, tithi
 from jyotisha.panchaanga.temporal.body import Graha
 from jyotisha.panchaanga.temporal.festival.applier import FestivalAssigner
-from jyotisha.panchaanga.temporal.hour import Hour
+from jyotisha.panchaanga.temporal.time import Hour
 from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision, AngaSpan
 
 
@@ -21,7 +22,7 @@ class SolarFestivalAssigner(FestivalAssigner):
 
   def assign_month_day_festivals(self, debug_festivals=False):
     for d in range(1, self.panchaanga.duration + 1):
-      [y, m, dt, t] = temporal.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1)
+      [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1)
       ####################
       # Festival details #
       ####################
@@ -64,7 +65,7 @@ class SolarFestivalAssigner(FestivalAssigner):
 
   def assign_gajachhaya_yoga(self, debug_festivals=False):
     for d in range(1, self.panchaanga.duration + 1):
-      [y, m, dt, t] = temporal.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1)
+      [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1)
 
       # checking @ 6am local - can we do any better?
       local_time = tz(self.panchaanga.city.timezone).localize(datetime(y, m, dt, 6, 0, 0))
@@ -122,14 +123,14 @@ class SolarFestivalAssigner(FestivalAssigner):
           gc_28_end += tz_off / 24.0
           # sys.stderr.write('28: (%f, %f)\n' % (gc_28_start, gc_28_end))
           gc_28_d = 1 + floor(gc_28_start - self.panchaanga.jd_start)
-          t1 = Hour(temporal.jd_to_utc_gregorian(gc_28_start)[3]).toString(format=self.panchaanga.fmt)
+          t1 = Hour(time.jd_to_utc_gregorian(gc_28_start)[3]).toString(format=self.panchaanga.fmt)
 
           if floor(gc_28_end - 0.5) != floor(gc_28_start - 0.5):
             # -0.5 is for the fact that julday is zero at noon always, not midnight!
             offset = 24
           else:
             offset = 0
-          t2 = Hour(temporal.jd_to_utc_gregorian(gc_28_end)[3] + offset).toString(format=self.panchaanga.fmt)
+          t2 = Hour(time.jd_to_utc_gregorian(gc_28_end)[3] + offset).toString(format=self.panchaanga.fmt)
           # sys.stderr.write('gajacchhaya %d\n' % gc_28_d)
 
           self.panchaanga.fest_days['gajacchAyA-yOgaH' +
@@ -141,13 +142,13 @@ class SolarFestivalAssigner(FestivalAssigner):
           gc_30_end += tz_off / 24.0
           # sys.stderr.write('30: (%f, %f)\n' % (gc_30_start, gc_30_end))
           gc_30_d = 1 + floor(gc_30_start - self.panchaanga.jd_start)
-          t1 = Hour(temporal.jd_to_utc_gregorian(gc_30_start)[3]).toString(format=self.panchaanga.fmt)
+          t1 = Hour(time.jd_to_utc_gregorian(gc_30_start)[3]).toString(format=self.panchaanga.fmt)
 
           if floor(gc_30_end - 0.5) != floor(gc_30_start - 0.5):
             offset = 24
           else:
             offset = 0
-          t2 = Hour(temporal.jd_to_utc_gregorian(gc_30_end)[3] + offset).toString(format=self.panchaanga.fmt)
+          t2 = Hour(time.jd_to_utc_gregorian(gc_30_end)[3] + offset).toString(format=self.panchaanga.fmt)
           # sys.stderr.write('gajacchhaya %d\n' % gc_30_d)
 
           self.panchaanga.fest_days['gajacchAyA-yOgaH' +
@@ -157,7 +158,7 @@ class SolarFestivalAssigner(FestivalAssigner):
 
   def assign_mahodaya_ardhodaya(self, debug_festivals=False):
     for d in range(1, self.panchaanga.duration + 1):
-      [y, m, dt, t] = temporal.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1)
+      [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1)
 
       # MAHODAYAM
       # Can also refer youtube video https://youtu.be/0DBIwb7iaLE?list=PL_H2LUtMCKPjh63PRk5FA3zdoEhtBjhzj&t=6747

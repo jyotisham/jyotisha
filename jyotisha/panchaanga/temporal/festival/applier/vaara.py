@@ -1,3 +1,4 @@
+from jyotisha.panchaanga.temporal import time
 from jyotisha.panchaanga import temporal
 from jyotisha.panchaanga.temporal import zodiac
 from jyotisha.panchaanga.temporal.festival.applier import FestivalAssigner
@@ -15,7 +16,7 @@ class VaraFestivalAssigner(FestivalAssigner):
 
   def assign_bhriguvara_subrahmanya_vratam(self, debug_festivals=False):
     for d in range(1, self.panchaanga.duration + 1):
-      [y, m, dt, t] = temporal.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1)
+      [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1)
 
       # BHRGUVARA SUBRAHMANYA VRATAM
       if self.panchaanga.solar_month[d] == 7 and self.panchaanga.weekday[d] == 5:
@@ -27,7 +28,6 @@ class VaraFestivalAssigner(FestivalAssigner):
 
   def assign_masa_vara_yoga_vratam(self, debug_festivals=False):
     for d in range(1, self.panchaanga.duration + 1):
-      [y, m, dt, t] = temporal.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1)
 
       # KRTTIKA SOMAVASARA
       if self.panchaanga.lunar_month[d] == 8 and self.panchaanga.weekday[d] == 1:
@@ -45,7 +45,7 @@ class VaraFestivalAssigner(FestivalAssigner):
 
   def assign_tithi_vara_yoga(self, debug_festivals=False):
     for d in range(1, self.panchaanga.duration + 1):
-      [y, m, dt, t] = temporal.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1)
+      [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1)
 
       # MANGALA-CHATURTHI
       if self.panchaanga.weekday[d] == 2 and (self.panchaanga.daily_panchaangas[d].tithi_at_sunrise % 15) == 4:
@@ -66,7 +66,7 @@ class VaraFestivalAssigner(FestivalAssigner):
 
   def assign_nakshatra_vara_yoga_vratam(self, debug_festivals=False):
     for d in range(1, self.panchaanga.duration + 1):
-      [y, m, dt, t] = temporal.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1)
+      [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1)
 
       # NAKSHATRA-WEEKDAY FESTIVALS
       for (nwd_fest_n, nwd_fest_wd, nwd_fest_name) in ((13, 0, 'Adityahasta-puNyakAlaH'),
@@ -93,7 +93,7 @@ class VaraFestivalAssigner(FestivalAssigner):
 
   def assign_ayushman_bava_saumya_yoga(self, debug_festivals=False):
     for d in range(1, self.panchaanga.duration + 1):
-      [y, m, dt, t] = temporal.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1)
+      [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1)
 
       # AYUSHMAN BHAVA SAUMYA
       if self.panchaanga.weekday[d] == 3 and NakshatraDivision(self.panchaanga.daily_panchaangas[d].jd_sunrise, ayanamsha_id=self.panchaanga.ayanamsha_id).get_anga(

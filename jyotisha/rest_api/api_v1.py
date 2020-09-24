@@ -6,7 +6,8 @@ from flask_restplus import Resource
 from flask_restplus import reqparse
 
 from jyotisha.panchaanga.spatio_temporal import City, daily, annual
-from jyotisha.panchaanga.temporal import festival, Timezone
+from jyotisha.panchaanga.temporal import festival
+from jyotisha.panchaanga.temporal.time import Timezone, Date
 from jyotisha.panchaanga.temporal.body import Graha
 from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision, Ayanamsha
 
@@ -87,7 +88,7 @@ class EventFinder(Resource):
 class NakshatraFinder(Resource):
   def get(self, body, timezone, year, month, day, hour, minute, second):
     from jyotisha import zodiac
-    julday = Timezone(timezone).local_time_to_julian_day(year, month, day, hour, minute, second)
+    julday = Timezone(timezone).local_time_to_julian_day(Date(year, month, day, hour, minute, second))
     nd = NakshatraDivision(julday=julday, ayanamsha_id=Ayanamsha.CHITRA_AT_180)
     if body == "moon":
       from jyotisha.panchaanga import temporal
@@ -102,7 +103,7 @@ class NakshatraFinder(Resource):
   '/timezones/<string:timezone>/times/years/<int:year>/months/<int:month>/days/<int:day>/hours/<int:hour>/minutes/<int:minute>/seconds/<int:second>/raashi')
 class RaashiFinder(Resource):
   def get(self, timezone, year, month, day, hour, minute, second):
-    julday = Timezone(timezone).local_time_to_julian_day(year, month, day, hour, minute, second)
+    julday = Timezone(timezone).local_time_to_julian_day(Date(year, month, day, hour, minute, second))
     from jyotisha.panchaanga import temporal
     raashi = NakshatraDivision(julday, ayanamsha_id=Ayanamsha.CHITRA_AT_180).get_solar_raashi()
     logging.info(raashi)
@@ -116,7 +117,7 @@ class RaashiFinder(Resource):
 class RaashiTransitionFinder(Resource):
   def get(self, timezone, year, month, day, hour, minute, second, body):
     from jyotisha import zodiac
-    julday = Timezone(timezone).local_time_to_julian_day(year, month, day, hour, minute, second)
+    julday = Timezone(timezone).local_time_to_julian_day(Date(year, month, day, hour, minute, second))
     from jyotisha.panchaanga import temporal
     transits = Graha.singleton(body).get_next_raashi_transit(jd_start=julday, jd_end=julday + 100,
                                                    ayanamsha_id=Ayanamsha.CHITRA_AT_180)

@@ -116,7 +116,7 @@ class Graha(JsonObject):
           return None
 
     if len(transits) == 0:
-      from jyotisha.panchaanga.temporal import ist_timezone
+      from jyotisha.panchaanga.temporal.time import ist_timezone
       logging.info("Could not find a transit of %s between %s (%f) and %s (%f)", self.body_name, ist_timezone.julian_day_to_local_time_str(jd_start), jd_start, ist_timezone.julian_day_to_local_time_str(jd_end), jd_end)
     return transits
 

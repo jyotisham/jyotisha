@@ -12,11 +12,6 @@ from indic_transliteration import xsanscript as sanscript
 import jyotisha
 import jyotisha.custom_transliteration
 import jyotisha.names
-import jyotisha.panchaanga.spatio_temporal.periodical
-import jyotisha.panchaanga.temporal
-import jyotisha.panchaanga.temporal.hour
-import jyotisha.panchaanga.temporal.nakshatra
-from jyotisha.panchaanga import temporal
 from jyotisha.panchaanga.spatio_temporal import City
 from jyotisha.panchaanga.temporal import zodiac
 from jyotisha.panchaanga.temporal.nakshatra import NakshatraAssigner
@@ -78,7 +73,7 @@ def writeDailyTeX(panchaanga, template_file, compute_lagnams=True, output_stream
 
   for d in range(1, panchaanga.duration + 1):
 
-    [y, m, dt, t] = temporal.jd_to_utc_gregorian(panchaanga.jd_start + d - 1)
+    [y, m, dt, t] = time.jd_to_utc_gregorian(panchaanga.jd_start + d - 1)
 
     if m == 1 and dt == 1:
       print('\\renewcommand{\\yearname}{%d}' % y, file=output_stream)
@@ -235,15 +230,15 @@ def writeDailyTeX(panchaanga, template_file, compute_lagnams=True, output_stream
       karanam_data_str += '\\mbox{%s\\Too{}}' % (
         jyotisha.names.NAMES['KARANAM_NAMES'][panchaanga.script][(karanam_ID % 60) + 1])
 
-    if panchaanga.shraaddha_tithi[d] == [None]:
+    if panchaanga.daily_panchaangas[d].shraaddha_tithi == [None]:
       stithi_data_str = '---'
     else:
-      if panchaanga.shraaddha_tithi[d][0] == 0:
+      if panchaanga.daily_panchaangas[d].shraaddha_tithi[0] == 0:
         stithi_data_str = jyotisha.custom_transliteration.tr('zUnyatithiH', panchaanga.script)
       else:
-        t1 = jyotisha.names.NAMES['TITHI_NAMES'][panchaanga.script][panchaanga.shraaddha_tithi[d][0]]
-        if len(panchaanga.shraaddha_tithi[d]) == 2:
-          t2 = jyotisha.names.NAMES['TITHI_NAMES'][panchaanga.script][panchaanga.shraaddha_tithi[d][1]]
+        t1 = jyotisha.names.NAMES['TITHI_NAMES'][panchaanga.script][panchaanga.daily_panchaangas[d].shraaddha_tithi[0]]
+        if len(panchaanga.daily_panchaangas[d].shraaddha_tithi) == 2:
+          t2 = jyotisha.names.NAMES['TITHI_NAMES'][panchaanga.script][panchaanga.daily_panchaangas[d].shraaddha_tithi[1]]
           stithi_data_str = '%s/%s (%s)' % \
                             (t1.split('-')[-1], t2.split('-')[-1],
                              jyotisha.custom_transliteration.tr('tithidvayam', panchaanga.script))

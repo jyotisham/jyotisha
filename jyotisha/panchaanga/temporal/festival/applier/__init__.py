@@ -2,13 +2,13 @@ import logging
 import os
 from itertools import filterfalse
 
-from jyotisha.panchaanga.temporal import interval, PanchaangaApplier, tithi
 from jyotisha.panchaanga import temporal
 from jyotisha.panchaanga.temporal import festival
+from jyotisha.panchaanga.temporal import interval, PanchaangaApplier, tithi
+from jyotisha.panchaanga.temporal import time
 from jyotisha.panchaanga.temporal import zodiac
 from jyotisha.panchaanga.temporal.festival import read_old_festival_rules_dict
 from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision, AngaSpan
-from sanskrit_data.schema.common import JsonObject
 
 DATA_ROOT = os.path.join(os.path.dirname(festival.__file__), "data")
 
@@ -68,7 +68,7 @@ class FestivalAssigner(PanchaangaApplier):
 
   def assign_festivals_from_rules(self, festival_rules, debug_festivals=False):
     for d in range(1, self.panchaanga.duration + 1):
-      [y, m, dt, t] = temporal.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1)
+      [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1)
 
       for festival_name in festival_rules:
         if 'month_type' in festival_rules[festival_name]:
@@ -420,7 +420,7 @@ class MiscFestivalAssigner(FestivalAssigner):
   def assign_agni_nakshatram(self, debug_festivals=False):
     agni_jd_start = agni_jd_end = None
     for d in range(1, self.panchaanga.duration + 1):
-      [y, m, dt, t] = temporal.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1)
+      [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1)
 
       # AGNI NAKSHATRAM
       # Arbitrarily checking after Mesha 10! Agni Nakshatram can't start earlier...

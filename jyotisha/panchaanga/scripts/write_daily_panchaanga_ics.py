@@ -18,7 +18,8 @@ import jyotisha.custom_transliteration
 import jyotisha.names
 import jyotisha.panchaanga.spatio_temporal.annual
 import jyotisha.panchaanga.temporal
-import jyotisha.panchaanga.temporal.hour
+
+from jyotisha.panchaanga.temporal import time
 from jyotisha.panchaanga import temporal
 from jyotisha.panchaanga.spatio_temporal import City
 
@@ -129,7 +130,7 @@ def writeDailyICS(panchaanga, compute_lagnams=True):
 
   for d in range(1, jyotisha.panchaanga.temporal.MAX_SZ - 1):
 
-    [y, m, dt, t] = temporal.jd_to_utc_gregorian(panchaanga.jd_start + d - 1)
+    [y, m, dt, t] = time.jd_to_utc_gregorian(panchaanga.jd_start + d - 1)
 
     print('*%02d-%s-%4d*' % (dt, month[m], y), file=output_stream)
     event = Event()
