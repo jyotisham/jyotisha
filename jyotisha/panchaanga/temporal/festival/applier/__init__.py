@@ -27,9 +27,9 @@ class FestivalAssigner(PanchaangaApplier):
     festival_rules = {**festival_rules_main, **festival_rules_rel, **festival_rules_desc_only}
 
     for d in range(1, len(self.panchaanga.festivals)):
-      if len(self.panchaanga.festivals[d]) > 0:
+      if len(self.panchaanga.daily_panchaangas[d].festivals) > 0:
         # Eliminate repeat festivals on the same day, and keep the list arbitrarily sorted
-        self.panchaanga.festivals[d] = sorted(list(set(self.panchaanga.festivals[d])))
+        self.panchaanga.daily_panchaangas[d].festivals = sorted(list(set(self.panchaanga.daily_panchaangas[d].festivals)))
 
         def chk_fest(fest_title):
           fest_num_loc = fest_title.find('~#')
@@ -46,7 +46,7 @@ class FestivalAssigner(PanchaangaApplier):
           else:
             return False
 
-        self.panchaanga.festivals[d][:] = filterfalse(chk_fest, self.panchaanga.festivals[d])
+        self.panchaanga.daily_panchaangas[d].festivals[:] = filterfalse(chk_fest, self.panchaanga.daily_panchaangas[d].festivals)
 
 
   def add_festival(self, festival_name, d, debug=False):
@@ -479,4 +479,4 @@ class MiscFestivalAssigner(FestivalAssigner):
 
     for festival_name in self.panchaanga.fest_days:
       for j in range(0, len(self.panchaanga.fest_days[festival_name])):
-        self.panchaanga.festivals[self.panchaanga.fest_days[festival_name][j]].append(festival_name)
+        self.panchaanga.daily_panchaangas[self.panchaanga.fest_days[festival_name][j]].festivals.append(festival_name)

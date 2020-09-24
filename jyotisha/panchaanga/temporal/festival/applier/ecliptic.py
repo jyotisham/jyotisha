@@ -48,7 +48,7 @@ class EclipticFestivalAssigner(FestivalAssigner):
           _t += 24
         ayana_time = Hour(_t).toString(format=self.panchaanga.fmt)
 
-        self.panchaanga.festivals[fday_nirayana].append('%s\\textsf{%s}{\\RIGHTarrow}\\textsf{%s}' % (
+        self.panchaanga.daily_panchaangas[fday_nirayana].festivals.append('%s\\textsf{%s}{\\RIGHTarrow}\\textsf{%s}' % (
           names.NAMES['RTU_MASA_NAMES'][self.panchaanga.script][self.panchaanga.solar_month[d]], '', ayana_time))
         self.panchaanga.tropical_month_end_time[fday_nirayana] = ayana_jd_start
         for i in range(last_d_assigned + 1, fday_nirayana + 1):
@@ -56,14 +56,14 @@ class EclipticFestivalAssigner(FestivalAssigner):
         last_d_assigned = fday_nirayana
         if self.panchaanga.solar_month[d] == 3:
           if self.panchaanga.daily_panchaangas[fday_nirayana].jd_sunset < ayana_jd_start < self.panchaanga.daily_panchaangas[fday_nirayana + 1].jd_sunset:
-            self.panchaanga.festivals[fday_nirayana].append('dakSiNAyana-puNyakAlaH')
+            self.panchaanga.daily_panchaangas[fday_nirayana].append('dakSiNAyana-puNyakAlaH')
           else:
-            self.panchaanga.festivals[fday_nirayana - 1].append('dakSiNAyana-puNyakAlaH')
+            self.panchaanga.daily_panchaangas[fday_nirayana - 1].append('dakSiNAyana-puNyakAlaH')
         if self.panchaanga.solar_month[d] == 9:
           if self.panchaanga.daily_panchaangas[fday_nirayana].jd_sunset < ayana_jd_start < self.panchaanga.daily_panchaangas[fday_nirayana + 1].jd_sunset:
-            self.panchaanga.festivals[fday_nirayana + 1].append('uttarAyaNa-puNyakAlaH/mitrOtsavaH')
+            self.panchaanga.daily_panchaangas[fday_nirayana + 1].append('uttarAyaNa-puNyakAlaH/mitrOtsavaH')
           else:
-            self.panchaanga.festivals[fday_nirayana].append('uttarAyaNa-puNyakAlaH/mitrOtsavaH')
+            self.panchaanga.daily_panchaangas[fday_nirayana].append('uttarAyaNa-puNyakAlaH/mitrOtsavaH')
     for i in range(last_d_assigned + 1, self.panchaanga.duration + 1):
       self.panchaanga.tropical_month[i] = (self.panchaanga.solar_month[last_d_assigned] % 12) + 1
 
@@ -108,7 +108,7 @@ class EclipticFestivalAssigner(FestivalAssigner):
                             '}{\\RIGHTarrow}\\textsf{' + Hour(eclipse_solar_end).toString(format=self.panchaanga.fmt) + '}'
         if self.panchaanga.weekday[fday] == 0:
           solar_eclipse_str = '★cUDAmaNi-' + solar_eclipse_str
-        self.panchaanga.festivals[fday].append(solar_eclipse_str)
+        self.panchaanga.daily_panchaangas[fday].festivals.append(solar_eclipse_str)
       jd = jd + MIN_DAYS_NEXT_ECLIPSE
 
   def compute_lunar_eclipses(self):
@@ -184,7 +184,7 @@ class EclipticFestivalAssigner(FestivalAssigner):
         if self.panchaanga.weekday[fday] == 1:
           lunar_eclipse_str = '★cUDAmaNi-' + lunar_eclipse_str
 
-        self.panchaanga.festivals[fday].append(lunar_eclipse_str)
+        self.panchaanga.daily_panchaangas[fday].festivals.append(lunar_eclipse_str)
       jd += MIN_DAYS_NEXT_ECLIPSE
 
   def computeTransits(self):
@@ -199,7 +199,7 @@ class EclipticFestivalAssigner(FestivalAssigner):
         (jd_transit, rashi1, rashi2) = (transit.jd, transit.value_1, transit.value_2)
         if self.panchaanga.jd_start < jd_transit < jd_end:
           fday = int(floor(jd_transit) - floor(self.panchaanga.jd_start) + 1)
-          self.panchaanga.festivals[fday].append('guru-saGkrAntiH~(%s##\\To{}##%s)' %
+          self.panchaanga.daily_panchaangas[fday].festivals.append('guru-saGkrAntiH~(%s##\\To{}##%s)' %
                                       (names.NAMES['RASHI_NAMES']['hk'][rashi1],
                                        names.NAMES['RASHI_NAMES']['hk'][rashi2]))
           if rashi1 < rashi2 and transits[i + 1].value_1 < transits[i + 1].value_2:

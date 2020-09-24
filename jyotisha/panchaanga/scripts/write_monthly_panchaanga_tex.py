@@ -13,6 +13,7 @@ import jyotisha
 import jyotisha.custom_transliteration
 import jyotisha.names
 from jyotisha.panchaanga.spatio_temporal import City
+from jyotisha.panchaanga.temporal import time
 
 logging.basicConfig(
   level=logging.DEBUG,
@@ -79,7 +80,7 @@ def writeMonthlyTeX(panchaanga, template_file, temporal=None):
     # What is the jd at 00:00 local time today?
     jd = panchaanga.jd_start - tz_off / 24.0 + d - 1
 
-    if len(panchaanga.festivals[d]) != 0:
+    if len(panchaanga.daily_panchaangas[d].festivals) != 0:
       if m != mlast:
         mlast = m
         print('\\\\')
@@ -87,7 +88,7 @@ def writeMonthlyTeX(panchaanga, template_file, temporal=None):
       print('%s & %s & %s & {\\raggedright %s} \\\\' %
             (MON[m], dt, WDAY[panchaanga.weekday[d]],
              '\\\\'.join([jyotisha.custom_transliteration.tr(f, panchaanga.script).replace('★', '$^\\star$')
-                          for f in sorted(set(panchaanga.festivals[d]))])))
+                          for f in sorted(set(panchaanga.daily_panchaangas[d].festivals))])))
 
     if m == 12 and dt == 31:
       break
@@ -258,7 +259,7 @@ def writeMonthlyTeX(panchaanga, template_file, temporal=None):
       # festival to the same day again!
       month_text += '\n' + ('{%s}' % '\\eventsep '.join(
         [jyotisha.custom_transliteration.tr(f, panchaanga.script).replace('★', '$^\\star$') for f in
-         sorted(set(panchaanga.festivals[d]))]))
+         sorted(set(panchaanga.daily_panchaangas[d].festivals))]))
     else:
       if panchaanga.weekday[d] == 0:
         W6D1 = '\n' + ('\\caldata{\\textcolor{%s}{%s}}{%s{%s}}%%' %
@@ -273,7 +274,7 @@ def writeMonthlyTeX(panchaanga, template_file, temporal=None):
         # Using set as an ugly workaround since we may have sometimes assigned the same
         # festival to the same day again!
         W6D1 += '\n' + ('{%s}' % '\\eventsep '.join(
-          [jyotisha.custom_transliteration.tr(f, panchaanga.script) for f in sorted(set(panchaanga.festivals[d]))]))
+          [jyotisha.custom_transliteration.tr(f, panchaanga.script) for f in sorted(set(panchaanga.daily_panchaangas[d].festivals))]))
       elif panchaanga.weekday[d] == 1:
         W6D2 = '\n' + ('\\caldata{\\textcolor{%s}{%s}}{%s{%s}}%%' %
                        (day_colours[panchaanga.weekday[d]], dt, month_data,
@@ -287,7 +288,7 @@ def writeMonthlyTeX(panchaanga, template_file, temporal=None):
         # Using set as an ugly workaround since we may have sometimes assigned the same
         # festival to the same day again!
         W6D2 += '\n' + ('{%s}' % '\\eventsep '.join(
-          [jyotisha.custom_transliteration.tr(f, panchaanga.script) for f in sorted(set(panchaanga.festivals[d]))]))
+          [jyotisha.custom_transliteration.tr(f, panchaanga.script) for f in sorted(set(panchaanga.daily_panchaangas[d].festivals))]))
       else:
         # Cannot be here, since we cannot have more than 2 days in week 6 of any month!
         pass

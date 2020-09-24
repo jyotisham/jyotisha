@@ -386,7 +386,7 @@ def writeDailyText(panchaanga, compute_lagnams=True, output_file_stream=sys.stdo
     # Using set as an ugly workaround since we may have sometimes assigned the same
     # festival to the same day again!
     fest_list = []
-    for f in sorted(set(panchaanga.festivals[d])):
+    for f in sorted(set(panchaanga.daily_panchaangas[d].festivals)):
       fest_name_cleaned = jyotisha.custom_transliteration.tr(f, panchaanga.script).replace('~', ' ').replace('tamil',
                                                                                                              '')
       fest_name_cleaned = re.sub('[{}]', '', fest_name_cleaned).replace('\\', '').replace('textsf', '').replace('To',

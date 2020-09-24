@@ -54,20 +54,20 @@ def compute_calendar(panchaanga, all_tags=True, brief=False):
 
   year_start = time.jd_to_utc_gregorian(panchaanga.jd_start + 1).to_date_fractional_hour_tuple()[0]  # 1 helps ignore local time etc.
 
-  for d in range(1, len(panchaanga.festivals)):
+  for d in range(1, panchaanga.duration):
     [y, m, dt, t] = time.jd_to_utc_gregorian(panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
 
-    if len(panchaanga.festivals[d]) > 0:
+    if len(panchaanga.daily_panchaangas[d].festivals) > 0:
       # Eliminate repeat festivals on the same day, and keep the list arbitrarily sorted
-      panchaanga.festivals[d] = sorted(list(set(panchaanga.festivals[d])))
-      summary_text = panchaanga.festivals[d]
+      panchaanga.daily_panchaangas[d].festivals = sorted(list(set(panchaanga.daily_panchaangas[d].festivals)))
+      summary_text = panchaanga.daily_panchaangas[d].festivals
       # this will work whether we have one or more events on the same day
       for stext in sorted(summary_text):
         desc = ''
         event = Event()
 
         if not all_tags:
-          fest_num_loc = stext.find('~\#')
+          fest_num_loc = stext.find('~\\#')
           if fest_num_loc != -1:
             stext_chk = stext[:fest_num_loc]
           else:
@@ -80,7 +80,7 @@ def compute_calendar(panchaanga, all_tags=True, brief=False):
 
         if stext == 'kRttikA-maNDala-pArAyaNam':
           event.add('summary', jyotisha.custom_transliteration.tr(stext.replace('-', ' '), panchaanga.script))
-          fest_num_loc = stext.find('~\#')
+          fest_num_loc = stext.find('~\\#')
           if fest_num_loc != -1:
             stext = stext[:fest_num_loc]
           event.add('dtstart', date(y, m, dt))
@@ -169,7 +169,7 @@ def compute_calendar(panchaanga, all_tags=True, brief=False):
           start_d = None
           while check_d > 1:
             check_d -= 1
-            if stext_start in panchaanga.festivals[check_d]:
+            if stext_start in panchaanga.daily_panchaangas[check_d].festivals:
               start_d = check_d
               break
 
@@ -178,7 +178,7 @@ def compute_calendar(panchaanga, all_tags=True, brief=False):
             check_d = d
             while check_d > 1:
               check_d -= 1
-              for fest_key in panchaanga.festivals[check_d]:
+              for fest_key in panchaanga.daily_panchaangas[check_d].festivals:
                 if fest_key.startswith(stext_start):
                   logging.debug('Found approx match for %s: %s' % (stext_start, fest_key))
                   start_d = check_d
@@ -216,11 +216,11 @@ def compute_calendar(panchaanga, all_tags=True, brief=False):
           if y != year_start:
             continue
           summary = jyotisha.custom_transliteration.tr(
-            stext.replace('~', ' ').replace('\#', '#').replace('\\To{}', '▶'), panchaanga.script)
+            stext.replace('~', ' ').replace('\\#', '#').replace('\\To{}', '▶'), panchaanga.script)
           summary = re.sub('.tamil{(.*)}', '\\1', summary)
           summary = re.sub('{(.*)}', '\\1', summary)  # strip braces around numbers
           event.add('summary', summary)
-          fest_num_loc = stext.find('~\#')
+          fest_num_loc = stext.find('~\\#')
           if fest_num_loc != -1:
             stext = stext[:fest_num_loc]
           event.add('dtstart', date(y, m, dt))

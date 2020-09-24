@@ -295,7 +295,7 @@ def writeDailyTeX(panchaanga, template_file, compute_lagnams=True, output_stream
     # festival to the same day again!
     print('{%s}' % '\\eventsep '.join(
       [jyotisha.custom_transliteration.tr(f, panchaanga.script).replace('★', '$^\\star$') for f in
-       sorted(set(panchaanga.festivals[d]))]), file=output_stream)
+       sorted(set(panchaanga.daily_panchaangas[d].festivals))]), file=output_stream)
 
     print('{%s} ' % WDAY[panchaanga.weekday[d]], file=output_stream)
     print('\\cfoot{\\rygdata{%s}{%s}{%s}}' % (rahu, yama, gulika), file=output_stream)

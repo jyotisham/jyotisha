@@ -212,7 +212,7 @@ def compute_events(p, json_file):
 
   for festival_name in p.fest_days:
     for j in range(0, len(p.fest_days[festival_name])):
-      p.festivals[p.fest_days[festival_name][j]].append(festival_name)
+      p.daily_panchaangas[p.fest_days[festival_name][j]].festivals.append(festival_name)
 
 
 def computeIcsCalendar(P, ics_file_name):
@@ -220,11 +220,11 @@ def computeIcsCalendar(P, ics_file_name):
   for d in range(1, MAX_SZ - 1):
     [y, m, dt, t] = time.jd_to_utc_gregorian(P.jd_start + d - 1).to_date_fractional_hour_tuple()
 
-    if len(P.festivals[d]) > 0:
+    if len(P.daily_panchaangas[d].festivals) > 0:
       # Eliminate repeat festivals on the same day, and keep the list arbitrarily sorted
-      P.festivals[d] = sorted(list(set(P.festivals[d])))
+      P.daily_panchaangas[d].festivals = sorted(list(set(P.daily_panchaangas[d].festivals)))
 
-      summary_text = P.festivals[d]
+      summary_text = P.daily_panchaangas[d].festivals
       # this will work whether we have one or more events on the same day
       for stext in summary_text:
         if not stext.find('>>') == -1:

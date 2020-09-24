@@ -20,7 +20,7 @@ from sanskrit_data.schema.common import JsonObject
 class Panchaanga(common.JsonObject):
   """This class enables the construction of a panchaanga for arbitrary periods, with festivals.
     """
-  LATEST_VERSION = "0.0.2"
+  LATEST_VERSION = "0.0.3"
 
   def __init__(self, city, start_date, end_date, lunar_month_assigner_type=LunarMonthAssigner.SIDERIAL_SOLAR_BASED,
                script=sanscript.DEVANAGARI, fmt='hh:mm',
@@ -40,7 +40,10 @@ class Panchaanga(common.JsonObject):
     self.jd_end = time.utc_gregorian_to_jd(self.end_date[0], self.end_date[1], self.end_date[2], 0)
 
     self.duration = int(self.jd_end - self.jd_start) + 1
-    self.len = int(self.duration + 4)  # some buffer, for various look-ahead calculations
+
+    # some buffer, for various look-ahead calculations
+    # Pushkaram starting on 31 Jan might not get over till 12 days later
+    self.len = int(self.duration + 16)  
 
     self.weekday_start = time.get_weekday(self.jd_start)
     self.ayanamsha_id = ayanamsha_id
@@ -61,8 +64,6 @@ class Panchaanga(common.JsonObject):
     self.solar_month_day = [None] * nDays
     self.tropical_month = [None] * nDays
     self.tropical_month_end_time = [None] * nDays
-
-    solar_month_sunrise = [None] * nDays
 
     self.lunar_month = [None] * nDays
     self.kaalas = [None] * nDays
@@ -110,8 +111,6 @@ class Panchaanga(common.JsonObject):
       self.daily_panchaangas[d + 1].compute_solar_month()
       self.solar_month[d + 1] = self.daily_panchaangas[d + 1].solar_month_sunset
 
-      solar_month_sunrise[d + 1] = self.daily_panchaangas[d + 1].solar_month_sunrise
-
       if (d <= 0):
         continue
         # This is just to initialise, since for a lot of calculations,
@@ -126,13 +125,13 @@ class Panchaanga(common.JsonObject):
       solar_month_end_jd = None
       if self.solar_month[d] != self.solar_month[d + 1]:
         solar_month_day = solar_month_day + 1
-        if self.solar_month[d] != solar_month_sunrise[d + 1]:
+        if self.solar_month[d] != self.daily_panchaangas[d + 1].solar_month_sunrise:
           month_start_after_sunset = True
           [_m, solar_month_end_jd] = zodiac.get_angam_data(
             self.daily_panchaangas[d].jd_sunrise, self.daily_panchaangas[d + 1].jd_sunrise, zodiac.AngaType.SOLAR_MONTH,
             ayanamsha_id=self.ayanamsha_id)[
             0]
-      elif solar_month_sunrise[d] != self.solar_month[d]:
+      elif self.daily_panchaangas[d].solar_month_sunrise != self.solar_month[d]:
         # sankrAnti!
         # sun moves into next rAshi before sunset
         solar_month_day = 1
@@ -304,8 +303,8 @@ class Panchaanga(common.JsonObject):
 
   def _reset_festivals(self, compute_lagnams=False):
     self.fest_days = {}
-    # Pushkaram starting on 31 Jan might not get over till 12 days later
-    self.festivals = [[] for _x in range(self.len + 15)]
+    for daily_panchaanga in self.daily_panchaangas:
+      daily_panchaanga.festivals = []
 
 
 # Essential for depickling to work.
