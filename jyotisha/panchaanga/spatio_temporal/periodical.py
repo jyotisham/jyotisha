@@ -77,7 +77,7 @@ class Panchaanga(common.JsonObject):
     # rather than Jan 1, since we have an always increment
     # solar_month_day at the start of the loop across every day in
     # year
-    [prev_day_yy, prev_day_mm, prev_day_dd] = time.jd_to_utc_gregorian(self.jd_start - 1)[:3]
+    [prev_day_yy, prev_day_mm, prev_day_dd] = time.jd_to_utc_gregorian(self.jd_start - 1).to_date_fractional_hour_tuple()[:3]
     daily_panchaanga_start = daily.DailyPanchanga(city=self.city, date=time.Date(year=prev_day_yy, month=prev_day_mm,
                                                                        day=prev_day_dd), ayanamsha_id=self.ayanamsha_id)
     daily_panchaanga_start.compute_solar_day()
@@ -102,7 +102,7 @@ class Panchaanga(common.JsonObject):
     for d in range(-1, nDays - 1):
       # TODO: Eventually, we are shifting to an array of daily panchangas. Reason: Better modularity.
       # The below block is temporary code to make the transition seamless.
-      (year_d, month_d, day_d, _) = time.jd_to_utc_gregorian(self.jd_start + d)
+      (year_d, month_d, day_d, _) = time.jd_to_utc_gregorian(self.jd_start + d).to_date_fractional_hour_tuple()
       self.daily_panchaangas[d + 1] = daily.DailyPanchanga(city=self.city, date=time.Date(year=year_d, month=month_d, day=day_d),
                                                            ayanamsha_id=self.ayanamsha_id,
                                                            previous_day_panchaanga=self.daily_panchaangas[d])
@@ -272,7 +272,7 @@ class Panchaanga(common.JsonObject):
     log_file = open('cal-%4d-%s-log.txt' % (self.year, self.city.name), 'w')
     for d in range(1, self.len - 1):
       jd = self.jd_start - 1 + d
-      [y, m, dt, t] = time.jd_to_utc_gregorian(jd)
+      [y, m, dt, t] = time.jd_to_utc_gregorian(jd).to_date_fractional_hour_tuple()
       longitude_sun_sunset = Graha.singleton(Graha.SUN).get_longitude(
         self.daily_panchaangas[d].jd_sunset) - zodiac.Ayanamsha.singleton(
         self.ayanamsha_id).get_offset(self.daily_panchaangas[d].jd_sunset)

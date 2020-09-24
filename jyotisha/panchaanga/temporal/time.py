@@ -1,11 +1,10 @@
+import datetime as dt_module
 import logging
 import sys
 import traceback
-import datetime as dt_module
 from datetime import datetime
 from math import modf
 
-import methodtools
 import pytz
 from astropy.time import Time
 
@@ -147,7 +146,7 @@ def jd_to_utc_gregorian(jd):
   tm = Time(jd, format='jd')
   tm.format = "ymdhms"
   return Date(year=tm.value["year"], month=tm.value["month"], day=tm.value["day"],
-              hour=tm.value["hour"], minute=tm.value["minute"], second=tm.value["second"]).to_date_fractional_hour_tuple()
+              hour=tm.value["hour"], minute=tm.value["minute"], second=tm.value["second"])
 
 
 def utc_gregorian_to_jd(year, month, day, fractional_hour):

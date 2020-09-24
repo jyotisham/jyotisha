@@ -36,7 +36,7 @@ class TithiAssigner(PanchaangaApplier):
           self.panchaanga.daily_panchaangas[fday - 1].shraaddha_tithi.remove(tithi)
   
     for d in range(1, self.panchaanga.duration + 1):
-      [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1)
+      [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
   
       angas = self.panchaanga.get_angas_for_interval_boundaries(d, get_tithi, 'aparaahna')
       angam_start = angas[0]

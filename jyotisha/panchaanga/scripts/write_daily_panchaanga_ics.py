@@ -130,7 +130,7 @@ def writeDailyICS(panchaanga, compute_lagnams=True):
 
   for d in range(1, jyotisha.panchaanga.temporal.MAX_SZ - 1):
 
-    [y, m, dt, t] = time.jd_to_utc_gregorian(panchaanga.jd_start + d - 1)
+    [y, m, dt, t] = time.jd_to_utc_gregorian(panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
 
     print('*%02d-%s-%4d*' % (dt, month[m], y), file=output_stream)
     event = Event()

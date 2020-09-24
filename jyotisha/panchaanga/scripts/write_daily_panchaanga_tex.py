@@ -72,7 +72,7 @@ def writeDailyTeX(panchaanga, template_file, compute_lagnams=True, output_stream
 
   for d in range(1, jyotisha.panchaanga.temporal.MAX_SZ - 1):
 
-    [y, m, dt, t] = time.jd_to_utc_gregorian(panchaanga.jd_start + d - 1)
+    [y, m, dt, t] = time.jd_to_utc_gregorian(panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
 
     # checking @ 6am local - can we do any better?
     local_time = tz(panchaanga.city.timezone).localize(datetime(y, m, dt, 6, 0, 0))

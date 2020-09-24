@@ -68,7 +68,7 @@ class FestivalAssigner(PanchaangaApplier):
 
   def assign_festivals_from_rules(self, festival_rules, debug_festivals=False):
     for d in range(1, self.panchaanga.duration + 1):
-      [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1)
+      [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
 
       for festival_name in festival_rules:
         if 'month_type' in festival_rules[festival_name]:
@@ -420,7 +420,7 @@ class MiscFestivalAssigner(FestivalAssigner):
   def assign_agni_nakshatram(self, debug_festivals=False):
     agni_jd_start = agni_jd_end = None
     for d in range(1, self.panchaanga.duration + 1):
-      [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1)
+      [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
 
       # AGNI NAKSHATRAM
       # Arbitrarily checking after Mesha 10! Agni Nakshatram can't start earlier...

@@ -15,7 +15,7 @@ def test_sanitize_time():
 
 
 def test_jd_to_utc():
-  assert time.jd_to_utc_gregorian(2458434.083333251) == [2018, 11, 11, 13.99999802559611]
+  assert time.jd_to_utc_gregorian(2458434.083333251).to_date_fractional_hour_tuple() == [2018, 11, 11, 13.99999802559611]
 
 
 def test_utc_to_jd():

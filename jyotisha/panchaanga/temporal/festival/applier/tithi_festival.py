@@ -29,7 +29,7 @@ class TithiFestivalAssigner(FestivalAssigner):
   
   def assign_chaturthi_vratam(self, debug_festivals=False):
     for d in range(1, self.panchaanga.duration + 1):
-      [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1)
+      [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
 
       # SANKATAHARA chaturthi
       if self.panchaanga.daily_panchaangas[d].tithi_at_sunrise == 18 or self.panchaanga.daily_panchaangas[d].tithi_at_sunrise == 19:
@@ -78,7 +78,7 @@ class TithiFestivalAssigner(FestivalAssigner):
 
   def assign_shasthi_vratam(self, debug_festivals=False):
     for d in range(1, self.panchaanga.duration + 1):
-      [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1)
+      [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
       # # SHASHTHI Vratam
       # Check only for Adhika maasa here...
       festival_name = 'SaSThI-vratam'
@@ -124,7 +124,7 @@ class TithiFestivalAssigner(FestivalAssigner):
 
   def assign_vishesha_saptami(self, debug_festivals=False):
     for d in range(1, self.panchaanga.duration + 1):
-      [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1)
+      [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
 
       # SPECIAL SAPTAMIs
       if self.panchaanga.weekday[d] == 0 and (self.panchaanga.daily_panchaangas[d].tithi_at_sunrise % 15) == 7:
@@ -148,7 +148,7 @@ class TithiFestivalAssigner(FestivalAssigner):
 
   def assign_ekadashi_vratam(self, debug_festivals=False):
     for d in range(1, self.panchaanga.duration + 1):
-      [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1)
+      [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
 
       # checking @ 6am local - can we do any better?
       local_time = tz(self.panchaanga.city.timezone).localize(datetime(y, m, dt, 6, 0, 0))
@@ -256,9 +256,9 @@ class TithiFestivalAssigner(FestivalAssigner):
                 anga_type=zodiac.AngaType.TITHI_PADA, offset_angas=-105, debug=False),
               self.panchaanga.daily_panchaangas[smaarta_ekadashi_fday].jd_sunrise - 2,
               self.panchaanga.daily_panchaangas[smaarta_ekadashi_fday].jd_sunrise + 2)
-          [_y, _m, _d, _t] = time.jd_to_utc_gregorian(harivasara_end + (tz_off / 24.0))
+          [_y, _m, _d, _t] = time.jd_to_utc_gregorian(harivasara_end + (tz_off / 24.0)).to_date_fractional_hour_tuple()
           hariv_end_time = Hour(
-            time.jd_to_utc_gregorian(harivasara_end + (tz_off / 24.0))[3]).toString(
+            time.jd_to_utc_gregorian(harivasara_end + (tz_off / 24.0)).to_date_fractional_hour_tuple()[3]).toString(
             format=self.panchaanga.fmt)
           fday_hv = time.utc_gregorian_to_jd(_y, _m, _d, 0) - self.panchaanga.jd_start + 1
           self.panchaanga.festivals[int(fday_hv)].append(
@@ -266,7 +266,7 @@ class TithiFestivalAssigner(FestivalAssigner):
 
   def assign_mahadwadashi(self, debug_festivals=False):
     for d in range(1, self.panchaanga.duration + 1):
-      [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1)
+      [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
       # 8 MAHA DWADASHIS
       if (self.panchaanga.daily_panchaangas[d].tithi_at_sunrise % 15) == 11 and (self.panchaanga.daily_panchaangas[d + 1].tithi_at_sunrise % 15) == 11:
         self.add_festival('unmIlanI~mahAdvAdazI', d + 1, debug_festivals)
@@ -327,7 +327,7 @@ class TithiFestivalAssigner(FestivalAssigner):
 
   def assign_pradosha_vratam(self, debug_festivals=False):
     for d in range(1, self.panchaanga.duration + 1):
-      [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1)
+      [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
       # compute offset from UTC in hours
       # PRADOSHA Vratam
       pref = ''
@@ -387,7 +387,7 @@ class TithiFestivalAssigner(FestivalAssigner):
       del self.panchaanga.fest_days['amAvAsyA']
 
     for d in range(1, self.panchaanga.duration + 1):
-      [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1)
+      [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
 
       # SOMAMAVASYA
       if self.panchaanga.daily_panchaangas[d].tithi_at_sunrise == 30 and self.panchaanga.weekday[d] == 1:
@@ -415,7 +415,7 @@ class TithiFestivalAssigner(FestivalAssigner):
 
   def assign_chandra_darshanam(self, debug_festivals=False):
     for d in range(1, self.panchaanga.duration + 1):
-      [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1)
+      [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
       # Chandra Darshanam
       if self.panchaanga.daily_panchaangas[d].tithi_at_sunrise == 1 or self.panchaanga.daily_panchaangas[d].tithi_at_sunrise == 2:
         tithi_sunset = temporal.tithi.get_tithi(self.panchaanga.daily_panchaangas[d].jd_sunset)
@@ -431,7 +431,7 @@ class TithiFestivalAssigner(FestivalAssigner):
 
   def assign_vishesha_trayodashi(self, debug_festivals=False):
     for d in range(1, self.panchaanga.duration + 1):
-      [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1)
+      [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
       # VARUNI TRAYODASHI
       if self.panchaanga.lunar_month[d] == 12 and self.panchaanga.daily_panchaangas[d].tithi_at_sunrise == 28:
         if NakshatraDivision(self.panchaanga.daily_panchaangas[d].jd_sunrise, ayanamsha_id=self.panchaanga.ayanamsha_id).get_anga(

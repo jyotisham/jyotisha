@@ -22,7 +22,7 @@ class EclipticFestivalAssigner(FestivalAssigner):
     last_d_assigned = 0
     for d in range(1, self.panchaanga.duration + 1):
 
-      [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1)
+      [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
 
       # checking @ 6am local - can we do any better?
       local_time = tz(self.panchaanga.city.timezone).localize(datetime(y, m, dt, 6, 0, 0))
@@ -37,7 +37,7 @@ class EclipticFestivalAssigner(FestivalAssigner):
                                                    jd_end=self.panchaanga.daily_panchaangas[d].jd_sunrise + 15,
                                                    ayanamsha_id=self.panchaanga.ayanamsha_id)
         ayana_jd_start = transits[0].jd
-        [_y, _m, _d, _t] = time.jd_to_utc_gregorian(ayana_jd_start + (tz_off / 24.0))
+        [_y, _m, _d, _t] = time.jd_to_utc_gregorian(ayana_jd_start + (tz_off / 24.0)).to_date_fractional_hour_tuple()
         # Reduce fday by 1 if ayana time precedes sunrise and change increment _t by 24
         fday_nirayana = int(
           time.utc_gregorian_to_jd(_y, _m, _d, 0) - self.panchaanga.jd_start + 1)
@@ -71,7 +71,7 @@ class EclipticFestivalAssigner(FestivalAssigner):
     jd = self.panchaanga.jd_start
     while 1:
       next_eclipse_sol = self.panchaanga.city.get_solar_eclipse_time(jd_start=jd)
-      [y, m, dt, t] = time.jd_to_utc_gregorian(next_eclipse_sol[1][0])
+      [y, m, dt, t] = time.jd_to_utc_gregorian(next_eclipse_sol[1][0]).to_date_fractional_hour_tuple()
       local_time = tz(self.panchaanga.city.timezone).localize(datetime(y, m, dt, 6, 0, 0))
       # checking @ 6am local - can we do any better?
       tz_off = (datetime.utcoffset(local_time).days * 86400 +
@@ -87,8 +87,8 @@ class EclipticFestivalAssigner(FestivalAssigner):
         fday = int(floor(jd) - floor(self.panchaanga.jd_start) + 1)
         if (jd < (self.panchaanga.daily_panchaangas[fday].jd_sunrise + tz_off / 24.0)):
           fday -= 1
-        eclipse_solar_start = time.jd_to_utc_gregorian(jd_eclipse_solar_start)[3]
-        eclipse_solar_end = time.jd_to_utc_gregorian(jd_eclipse_solar_end)[3]
+        eclipse_solar_start = time.jd_to_utc_gregorian(jd_eclipse_solar_start).to_date_fractional_hour_tuple()[3]
+        eclipse_solar_end = time.jd_to_utc_gregorian(jd_eclipse_solar_end).to_date_fractional_hour_tuple()[3]
         if (jd_eclipse_solar_start - (tz_off / 24.0)) == 0.0 or \
             (jd_eclipse_solar_end - (tz_off / 24.0)) == 0.0:
           # Move towards the next eclipse... at least the next new
@@ -97,8 +97,8 @@ class EclipticFestivalAssigner(FestivalAssigner):
           continue
         if eclipse_solar_end < eclipse_solar_start:
           eclipse_solar_end += 24
-        sunrise_eclipse_day = time.jd_to_utc_gregorian(self.panchaanga.daily_panchaangas[fday].jd_sunrise + (tz_off / 24.0))[3]
-        sunset_eclipse_day = time.jd_to_utc_gregorian(self.panchaanga.daily_panchaangas[fday].jd_sunset + (tz_off / 24.0))[3]
+        sunrise_eclipse_day = time.jd_to_utc_gregorian(self.panchaanga.daily_panchaangas[fday].jd_sunrise + (tz_off / 24.0)).to_date_fractional_hour_tuple()[3]
+        sunset_eclipse_day = time.jd_to_utc_gregorian(self.panchaanga.daily_panchaangas[fday].jd_sunset + (tz_off / 24.0)).to_date_fractional_hour_tuple()[3]
         if eclipse_solar_start < sunrise_eclipse_day:
           eclipse_solar_start = sunrise_eclipse_day
         if eclipse_solar_end > sunset_eclipse_day:
@@ -116,7 +116,7 @@ class EclipticFestivalAssigner(FestivalAssigner):
     jd = self.panchaanga.jd_start
     while 1:
       next_eclipse_lun = self.panchaanga.city.get_lunar_eclipse_time(jd)
-      [y, m, dt, t] = time.jd_to_utc_gregorian(next_eclipse_lun[1][0])
+      [y, m, dt, t] = time.jd_to_utc_gregorian(next_eclipse_lun[1][0]).to_date_fractional_hour_tuple()
       local_time = tz(self.panchaanga.city.timezone).localize(datetime(y, m, dt, 6, 0, 0))
       # checking @ 6am local - can we do any better? This is crucial,
       # since DST changes before 6 am
@@ -130,8 +130,8 @@ class EclipticFestivalAssigner(FestivalAssigner):
       if jd_eclipse_lunar_start > self.panchaanga.jd_end:
         break
       else:
-        eclipse_lunar_start = time.jd_to_utc_gregorian(jd_eclipse_lunar_start)[3]
-        eclipse_lunar_end = time.jd_to_utc_gregorian(jd_eclipse_lunar_end)[3]
+        eclipse_lunar_start = time.jd_to_utc_gregorian(jd_eclipse_lunar_start).to_date_fractional_hour_tuple()[3]
+        eclipse_lunar_end = time.jd_to_utc_gregorian(jd_eclipse_lunar_end).to_date_fractional_hour_tuple()[3]
         if (jd_eclipse_lunar_start - (tz_off / 24.0)) == 0.0 or \
             (jd_eclipse_lunar_end - (tz_off / 24.0)) == 0.0:
           # Move towards the next eclipse... at least the next full
@@ -143,7 +143,7 @@ class EclipticFestivalAssigner(FestivalAssigner):
         # self.panchaanga.daily_panchaangas[fday-1].jd_sunrise
         if (jd < (self.panchaanga.daily_panchaangas[fday].jd_sunrise + tz_off / 24.0)):
           fday -= 1
-        if eclipse_lunar_start < time.jd_to_utc_gregorian(self.panchaanga.daily_panchaangas[fday + 1].jd_sunrise + tz_off / 24.0)[3]:
+        if eclipse_lunar_start < time.jd_to_utc_gregorian(self.panchaanga.daily_panchaangas[fday + 1].jd_sunrise + tz_off / 24.0).to_date_fractional_hour_tuple()[3]:
           eclipse_lunar_start += 24
         # print '%%', jd, fday, self.panchaanga.daily_panchaangas[fday].jd_sunrise,
         # self.panchaanga.daily_panchaangas[fday-1].jd_sunrise, eclipse_lunar_start,
@@ -164,8 +164,8 @@ class EclipticFestivalAssigner(FestivalAssigner):
           jd += MIN_DAYS_NEXT_ECLIPSE
           continue
 
-        moonrise_eclipse_day = time.jd_to_utc_gregorian(jd_moonrise_eclipse_day)[3]
-        moonset_eclipse_day = time.jd_to_utc_gregorian(jd_moonset_eclipse_day)[3]
+        moonrise_eclipse_day = time.jd_to_utc_gregorian(jd_moonrise_eclipse_day).to_date_fractional_hour_tuple()[3]
+        moonset_eclipse_day = time.jd_to_utc_gregorian(jd_moonset_eclipse_day).to_date_fractional_hour_tuple()[3]
 
         if jd_eclipse_lunar_start < jd_moonrise_eclipse_day:
           eclipse_lunar_start = moonrise_eclipse_day

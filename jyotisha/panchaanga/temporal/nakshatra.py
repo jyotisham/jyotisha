@@ -33,7 +33,7 @@ class NakshatraAssigner(PanchaangaApplier):
       self.panchaanga.daily_panchaangas[0].nakshatra_data = zodiac.get_angam_data(self.panchaanga.daily_panchaangas[0].jd_sunrise, self.panchaanga.daily_panchaangas[1].jd_sunrise,
                                                                 zodiac.AngaType.NAKSHATRA, ayanamsha_id=self.panchaanga.ayanamsha_id)
     for d in range(1, self.panchaanga.duration + 1):
-      [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1)
+      [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
       jd = self.panchaanga.daily_panchaangas[d].julian_day_start
       t_start = self.panchaanga.daily_panchaangas[d - 1].nakshatra_data[-1][1]
       if t_start is not None:
@@ -78,7 +78,7 @@ class NakshatraAssigner(PanchaangaApplier):
       self.panchaanga.daily_panchaangas[0].nakshatra_data = zodiac.get_angam_data(self.panchaanga.daily_panchaangas[0].jd_sunrise, self.panchaanga.daily_panchaangas[1].jd_sunrise,
                                                                 zodiac.AngaType.NAKSHATRA, ayanamsha_id=self.panchaanga.ayanamsha_id)
     for d in range(1, self.panchaanga.duration + 1):
-      [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1)
+      [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
       jd = self.panchaanga.daily_panchaangas[d].julian_day_start
       t_start = self.panchaanga.daily_panchaangas[d - 1].nakshatra_data[-1][1]
       if t_start is not None:

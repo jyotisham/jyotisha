@@ -52,10 +52,10 @@ def compute_calendar(panchaanga, all_tags=True, brief=False):
   alarm.add('action', 'DISPLAY')
   alarm.add('trigger', timedelta(hours=-4))  # default alarm, with a 4 hour reminder
 
-  year_start = time.jd_to_utc_gregorian(panchaanga.jd_start + 1)[0]  # 1 helps ignore local time etc.
+  year_start = time.jd_to_utc_gregorian(panchaanga.jd_start + 1).to_date_fractional_hour_tuple()[0]  # 1 helps ignore local time etc.
 
   for d in range(1, len(panchaanga.festivals)):
-    [y, m, dt, t] = time.jd_to_utc_gregorian(panchaanga.jd_start + d - 1)
+    [y, m, dt, t] = time.jd_to_utc_gregorian(panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
 
     if len(panchaanga.festivals[d]) > 0:
       # Eliminate repeat festivals on the same day, and keep the list arbitrarily sorted
