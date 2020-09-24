@@ -22,76 +22,45 @@ logging.basicConfig(
 TEST_DATA_PATH = os.path.join(os.path.dirname(__file__), 'data')
 
 
+def panchaanga_json_comparer(city, year):
+  expected_content_path=os.path.join(TEST_DATA_PATH, '%s-%d.json' % (city.name, year))
+  panchaanga = annual.get_panchaanga(city=city, year=year, script=sanscript.DEVANAGARI,
+                                     ayanamsha_id=zodiac.Ayanamsha.CHITRA_AT_180, compute_lagnas=False,
+                                     allow_precomputed=False)
+  if not os.path.exists(expected_content_path):
+    logging.warning("File must have been deliberately deleted as obsolete. So, will dump a new file for future tests.")
+    panchaanga.dump_to_file(filename=expected_content_path,
+                            floating_point_precision=4)
+  panchaanga_expected = JsonObject.read_from_file(filename=expected_content_path)
+
+  if panchaanga.to_json_map(floating_point_precision=4) != panchaanga_expected.to_json_map(
+      floating_point_precision=4):
+    panchaanga.dump_to_file(filename=expected_content_path.replace(".json", "_actual.json"),
+                            floating_point_precision=4, sort_keys=False)
+    panchaanga_expected.dump_to_file(
+      filename=expected_content_path.replace(".json", "_expected.json"), floating_point_precision=4, sort_keys=False)
+  try:
+    sanskrit_data.collection_helper.assert_dict_equality(x=panchaanga.to_json_map(), y=panchaanga_expected.to_json_map(), floating_point_precision=4)
+  except:
+    traceback.print_exc()
+    raise
+
 def test_panchanga_chennai_18(caplog):
   caplog.set_level(logging.INFO)
 
   city = City('Chennai', "13:05:24", "80:16:12", "Asia/Calcutta")
-  panchaanga = annual.get_panchaanga(city=city, year=2018, script=sanscript.DEVANAGARI,
-                                     ayanamsha_id=zodiac.Ayanamsha.CHITRA_AT_180, compute_lagnas=False,
-                                     allow_precomputed=False)
-  # Set the initial panchaanga. Should be generally commented out.
-  # panchaanga.dump_to_file(filename=os.path.join(TEST_DATA_PATH, 'Chennai-2018.json'),
-  #                         floating_point_precision=4, sort_keys=False)
-
-  panchaanga_expected_chennai_18 = JsonObject.read_from_file(filename=os.path.join(TEST_DATA_PATH, 'Chennai-2018.json'))
-
-  if panchaanga.to_json_map(floating_point_precision=4) != panchaanga_expected_chennai_18.to_json_map(
-      floating_point_precision=4):
-    panchaanga.dump_to_file(filename=os.path.join(TEST_DATA_PATH, 'Chennai-2018-actual.json.local'),
-                            floating_point_precision=4, sort_keys=False)
-    panchaanga_expected_chennai_18.dump_to_file(
-      filename=os.path.join(TEST_DATA_PATH, 'Chennai-2018-expected.json.local'), floating_point_precision=4,
-      sort_keys=False)
-  assert panchaanga.to_json_map(floating_point_precision=4) == panchaanga_expected_chennai_18.to_json_map(
-    floating_point_precision=4)
+  panchaanga_json_comparer(city=city, year=2018)
 
 
 def test_panchanga_chennai_19():
   city = City('Chennai', "13:05:24", "80:16:12", "Asia/Calcutta")
-  panchaanga = annual.get_panchaanga(city=city, year=2019, script=sanscript.DEVANAGARI,
-                                     ayanamsha_id=zodiac.Ayanamsha.CHITRA_AT_180, compute_lagnas=False,
-                                     allow_precomputed=False)
-  # Set the initial panchaanga. SHould be generally commented out.
-  # panchaanga.dump_to_file(filename=os.path.join(TEST_DATA_PATH, 'Chennai-2019.json'),
-  #                         floating_point_precision=4, sort_keys=False)
-  panchaanga_expected_chennai_19 = JsonObject.read_from_file(filename=os.path.join(TEST_DATA_PATH, 'Chennai-2019.json'))
-
-  if panchaanga.to_json_map(floating_point_precision=4) != panchaanga_expected_chennai_19.to_json_map(
-      floating_point_precision=4):
-    panchaanga.dump_to_file(filename=os.path.join(TEST_DATA_PATH, 'Chennai-2019-actual.json.local'),
-                            floating_point_precision=4, sort_keys=False)
-    panchaanga_expected_chennai_19.dump_to_file(
-      filename=os.path.join(TEST_DATA_PATH, 'Chennai-2019-expected.json.local'), floating_point_precision=4, sort_keys=False)
-  assert panchaanga.to_json_map(floating_point_precision=4) == panchaanga_expected_chennai_19.to_json_map(
-    floating_point_precision=4)
+  panchaanga_json_comparer(city=city, year=2019)
 
 
 def test_panchanga_orinda(caplog):
   caplog.set_level(logging.INFO)
   city = City('Orinda', '37:51:38', '-122:10:59', 'America/Los_Angeles')
-  panchaanga = annual.get_panchaanga(city=city, year=2019, script=sanscript.DEVANAGARI,
-                                     ayanamsha_id=zodiac.Ayanamsha.CHITRA_AT_180, compute_lagnas=False,
-                                     allow_precomputed=False)
-  # Set the initial panchaanga. SHould be generally commented out.
-  # panchaanga.dump_to_file(filename=os.path.join(TEST_DATA_PATH, 'Orinda-2019.json'),
-                          # floating_point_precision=4, sort_keys=False)
-
-  panchaanga_expected_orinda_19 = JsonObject.read_from_file(filename=os.path.join(TEST_DATA_PATH, 'Orinda-2019.json'))
-
-  if panchaanga.to_json_map(floating_point_precision=4) != panchaanga_expected_orinda_19.to_json_map(
-      floating_point_precision=4):
-    panchaanga.dump_to_file(filename=os.path.join(TEST_DATA_PATH, 'Orinda-2019-actual.json.local'),
-                            floating_point_precision=4, sort_keys=False)
-    panchaanga_expected_orinda_19.dump_to_file(filename=os.path.join(TEST_DATA_PATH, 'Orinda-2019-expected.json.local'),
-                                               floating_point_precision=4, sort_keys=False)
-  # assert json.dumps(panchaanga.to_flat_json_map(floating_point_precision=4), sort_keys=True) == json.dumps(panchaanga_expected_orinda_19.to_flat_json_map(
-  #   floating_point_precision=4), sort_keys=True)
-    try:
-      sanskrit_data.collection_helper.assert_dict_equality(x=panchaanga.to_json_map(), y=panchaanga_expected_orinda_19.to_json_map(), floating_point_precision=4)
-    except:
-      traceback.print_exc() 
-      raise 
-    # assert panchaanga.to_flat_json_map(floating_point_precision=4) == panchaanga_expected_orinda_19.to_flat_json_map(floating_point_precision=4)
+  panchaanga_json_comparer(city=city, year=2019)
 
 
 def test_adhika_maasa_computations_2009():
@@ -129,4 +98,4 @@ def test_orinda_ca_dst_2019():
   # March 10 is the 69th day of the year (70th in leap years) in the Gregorian calendar.
   # Sunrise on that day is around 7:27 AM according to Google, which is JD 2458553.14375 according to https://ssd.jpl.nasa.gov/tc.cgi#top .
   # We use the index 70 below as the annual panchanga object seems to use the index d + 1.
-  assert round(panchaanga.jd_sunrise[70], ndigits=4) == round(2458554.104348237, ndigits=4)  # 2019-Mar-10 07:30:15.68
+  assert round(panchaanga.daily_panchaangas[70].jd_sunrise, ndigits=4) == round(2458554.104348237, ndigits=4)  # 2019-Mar-10 07:30:15.68

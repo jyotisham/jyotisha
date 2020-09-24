@@ -114,7 +114,7 @@ def writeMonthlyTeX(panchaanga, template_file, temporal=None):
               datetime.utcoffset(local_time).seconds) / 3600.0
 
     # What is the jd at 00:00 local time today?
-    jd = panchaanga.jd_midnight[d]
+    jd = panchaanga.daily_panchaangas[d].julian_day_start
 
     if dt == 1:
       currWeek = 1
@@ -214,9 +214,9 @@ def writeMonthlyTeX(panchaanga, template_file, temporal=None):
                                                                          jd)).toString(format=panchaanga.fmt),
                             '\\hspace{2ex}')
 
-    sunrise = jyotisha.panchaanga.temporal.hour.Hour(24 * (panchaanga.jd_sunrise[d] - jd)).toString(
+    sunrise = jyotisha.panchaanga.temporal.hour.Hour(24 * (panchaanga.daily_panchaangas[d].jd_sunrise - jd)).toString(
       format=panchaanga.fmt)
-    sunset = jyotisha.panchaanga.temporal.hour.Hour(24 * (panchaanga.jd_sunset[d] - jd)).toString(format=panchaanga.fmt)
+    sunset = jyotisha.panchaanga.temporal.hour.Hour(24 * (panchaanga.daily_panchaangas[d].jd_sunset - jd)).toString(format=panchaanga.fmt)
     sangava = jyotisha.panchaanga.temporal.hour.Hour(24 * (panchaanga.kaalas[d]['saGgava'][0] - jd)).toString(
       format=panchaanga.fmt)
     rahu = '%s--%s' % (
@@ -234,14 +234,14 @@ def writeMonthlyTeX(panchaanga, template_file, temporal=None):
       month_end_str = ''
     else:
       _m = panchaanga.solar_month[d - 1]
-      if panchaanga.solar_month_end_time[d] >= panchaanga.jd_sunrise[d + 1]:
+      if panchaanga.solar_month_end_time[d] >= panchaanga.daily_panchaangas[d + 1].jd_sunrise:
         month_end_str = '\\mbox{%s{\\tiny\\RIGHTarrow}\\textsf{%s}}' % (
           jyotisha.names.NAMES['RASHI_NAMES'][panchaanga.script][_m], jyotisha.panchaanga.temporal.hour.Hour(
-            24 * (panchaanga.solar_month_end_time[d] - panchaanga.jd_midnight[d + 1])).toString(format=panchaanga.fmt))
+            24 * (panchaanga.solar_month_end_time[d] - panchaanga.daily_panchaangas[d + 1].julian_day_start)).toString(format=panchaanga.fmt))
       else:
         month_end_str = '\\mbox{%s{\\tiny\\RIGHTarrow}\\textsf{%s}}' % (
           jyotisha.names.NAMES['RASHI_NAMES'][panchaanga.script][_m], jyotisha.panchaanga.temporal.hour.Hour(
-            24 * (panchaanga.solar_month_end_time[d] - panchaanga.jd_midnight[d])).toString(format=panchaanga.fmt))
+            24 * (panchaanga.solar_month_end_time[d] - panchaanga.daily_panchaangas[d].julian_day_start)).toString(format=panchaanga.fmt))
 
     month_data = '\\sunmonth{%s}{%d}{%s}' % (
       jyotisha.names.NAMES['RASHI_NAMES'][panchaanga.script][panchaanga.solar_month[d]], panchaanga.solar_month_day[d],

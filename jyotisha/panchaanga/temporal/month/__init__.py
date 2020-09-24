@@ -53,7 +53,7 @@ class SiderialSolarBasedAssigner(LunarMonthAssigner):
         last_solar_month = NakshatraDivision(this_new_moon.jd_end,
                                              ayanamsha_id=self.panchaanga.ayanamsha_id).get_solar_raashi()
 
-        if i > self.panchaanga.duration + 1 or self.panchaanga.jd_sunrise[i] > this_new_moon.jd_end:
+        if i > self.panchaanga.duration + 1 or self.panchaanga.daily_panchaangas[i].jd_sunrise > this_new_moon.jd_end:
           last_d_assigned = i - 1
           break # out of unassigned days loop.
 

@@ -36,7 +36,7 @@ class DailyPanchanga(common.JsonObject):
     """
     super(DailyPanchanga, self).__init__()
     self.city = city
-    (self.year, self.month, self.day) = (year, month, day)
+    (self.year, self.month, self.day) = (int(year), int(month), int(day))
     self.julian_day_start = Timezone(self.city.timezone).local_time_to_julian_day(year=self.year, month=self.month,
                                                                                   day=self.day, hours=0, minutes=0,
                                                                                   seconds=0)

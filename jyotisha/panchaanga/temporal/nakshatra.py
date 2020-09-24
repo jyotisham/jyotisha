@@ -29,11 +29,11 @@ class NakshatraAssigner(PanchaangaApplier):
   def calc_nakshatra_tyaajya(self, debug=False):
     self.panchaanga.tyajyam_data = [[] for _x in range(self.panchaanga.duration + 1)]
     if self.panchaanga.nakshatram_data[0] is None:
-      self.panchaanga.nakshatram_data[0] = zodiac.get_angam_data(self.panchaanga.jd_sunrise[0], self.panchaanga.jd_sunrise[1],
+      self.panchaanga.nakshatram_data[0] = zodiac.get_angam_data(self.panchaanga.daily_panchaangas[0].jd_sunrise, self.panchaanga.daily_panchaangas[1].jd_sunrise,
                                                                  zodiac.AngaType.NAKSHATRA, ayanamsha_id=self.panchaanga.ayanamsha_id)
     for d in range(1, self.panchaanga.duration + 1):
       [y, m, dt, t] = temporal.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1)
-      jd = self.panchaanga.jd_midnight[d]
+      jd = self.panchaanga.daily_panchaangas[d].julian_day_start
       t_start = self.panchaanga.nakshatram_data[d - 1][-1][1]
       if t_start is not None:
         n, t_end = self.panchaanga.nakshatram_data[d][0]
@@ -41,14 +41,14 @@ class NakshatraAssigner(PanchaangaApplier):
           t_end = self.panchaanga.nakshatram_data[d + 1][0][1]
         tyaajya_start = t_start + (t_end - t_start) / 60 * (TYAJYA_SPANS_REL[n - 1] - 1)
         tyaajya_end = t_start + (t_end - t_start) / 60 * (TYAJYA_SPANS_REL[n - 1] + 3)
-        if tyaajya_start < self.panchaanga.jd_sunrise[d]:
+        if tyaajya_start < self.panchaanga.daily_panchaangas[d].jd_sunrise:
           self.panchaanga.tyajyam_data[d - 1] += [(tyaajya_start, tyaajya_end)]
           if debug:
             logging.debug('![%3d]%04d-%02d-%02d: %s (>>%s), %s–%s' %
                           (d - 1, y, m, dt - 1, names.NAMES['NAKSHATRAM_NAMES']['hk'][n],
-                           Hour(24 * (t_end - self.panchaanga.jd_midnight[d - 1])).toString(format='hh:mm*'),
-                           Hour(24 * (tyaajya_start - self.panchaanga.jd_midnight[d - 1])).toString(format='hh:mm*'),
-                           Hour(24 * (tyaajya_end - self.panchaanga.jd_midnight[d - 1])).toString(format='hh:mm*')))
+                           Hour(24 * (t_end - self.panchaanga.daily_panchaangas[d - 1].julian_day_start)).toString(format='hh:mm*'),
+                           Hour(24 * (tyaajya_start - self.panchaanga.daily_panchaangas[d - 1].julian_day_start)).toString(format='hh:mm*'),
+                           Hour(24 * (tyaajya_end - self.panchaanga.daily_panchaangas[d - 1].julian_day_start)).toString(format='hh:mm*')))
         else:
           self.panchaanga.tyajyam_data[d] = [(tyaajya_start, tyaajya_end)]
           if debug:
@@ -74,11 +74,11 @@ class NakshatraAssigner(PanchaangaApplier):
   def calc_nakshatra_amrta(self, debug=False):
     self.panchaanga.amrita_data = [[] for _x in range(self.panchaanga.duration + 1)]
     if self.panchaanga.nakshatram_data[0] is None:
-      self.panchaanga.nakshatram_data[0] = zodiac.get_angam_data(self.panchaanga.jd_sunrise[0], self.panchaanga.jd_sunrise[1],
+      self.panchaanga.nakshatram_data[0] = zodiac.get_angam_data(self.panchaanga.daily_panchaangas[0].jd_sunrise, self.panchaanga.daily_panchaangas[1].jd_sunrise,
                                                                  zodiac.AngaType.NAKSHATRA, ayanamsha_id=self.panchaanga.ayanamsha_id)
     for d in range(1, self.panchaanga.duration + 1):
       [y, m, dt, t] = temporal.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1)
-      jd = self.panchaanga.jd_midnight[d]
+      jd = self.panchaanga.daily_panchaangas[d].julian_day_start
       t_start = self.panchaanga.nakshatram_data[d - 1][-1][1]
       if t_start is not None:
         n, t_end = self.panchaanga.nakshatram_data[d][0]
@@ -86,14 +86,14 @@ class NakshatraAssigner(PanchaangaApplier):
           t_end = self.panchaanga.nakshatram_data[d + 1][0][1]
         amrita_start = t_start + (t_end - t_start) / 60 * (AMRITA_SPANS_REL[n - 1] - 1)
         amrita_end = t_start + (t_end - t_start) / 60 * (AMRITA_SPANS_REL[n - 1] + 3)
-        if amrita_start < self.panchaanga.jd_sunrise[d]:
+        if amrita_start < self.panchaanga.daily_panchaangas[d].jd_sunrise:
           self.panchaanga.amrita_data[d - 1] += [(amrita_start, amrita_end)]
           if debug:
             logging.debug('![%3d]%04d-%02d-%02d: %s (>>%s), %s–%s' %
                           (d - 1, y, m, dt - 1, names.NAMES['NAKSHATRAM_NAMES']['hk'][n],
-                           Hour(24 * (t_end - self.panchaanga.jd_midnight[d - 1])).toString(format='hh:mm*'),
-                           Hour(24 * (amrita_start - self.panchaanga.jd_midnight[d - 1])).toString(format='hh:mm*'),
-                           Hour(24 * (amrita_end - self.panchaanga.jd_midnight[d - 1])).toString(format='hh:mm*')))
+                           Hour(24 * (t_end - self.panchaanga.daily_panchaangas[d - 1].julian_day_start)).toString(format='hh:mm*'),
+                           Hour(24 * (amrita_start - self.panchaanga.daily_panchaangas[d - 1].julian_day_start)).toString(format='hh:mm*'),
+                           Hour(24 * (amrita_end - self.panchaanga.daily_panchaangas[d - 1].julian_day_start)).toString(format='hh:mm*')))
         else:
           self.panchaanga.amrita_data[d] = [(amrita_start, amrita_end)]
           if debug:

@@ -96,13 +96,13 @@ class VaraFestivalAssigner(FestivalAssigner):
       [y, m, dt, t] = temporal.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1)
 
       # AYUSHMAN BHAVA SAUMYA
-      if self.panchaanga.weekday[d] == 3 and NakshatraDivision(self.panchaanga.jd_sunrise[d], ayanamsha_id=self.panchaanga.ayanamsha_id).get_anga(
+      if self.panchaanga.weekday[d] == 3 and NakshatraDivision(self.panchaanga.daily_panchaangas[d].jd_sunrise, ayanamsha_id=self.panchaanga.ayanamsha_id).get_anga(
           zodiac.AngaType.NAKSHATRA) == 3:
-        if NakshatraDivision(self.panchaanga.jd_sunrise[d], ayanamsha_id=self.panchaanga.ayanamsha_id).get_anga(
+        if NakshatraDivision(self.panchaanga.daily_panchaangas[d].jd_sunrise, ayanamsha_id=self.panchaanga.ayanamsha_id).get_anga(
             zodiac.AngaType.KARANA) in list(range(2, 52, 7)):
           self.add_festival('AyuSmad-bava-saumya-saMyogaH', d, debug_festivals)
-      if self.panchaanga.weekday[d] == 3 and NakshatraDivision(self.panchaanga.jd_sunset[d], ayanamsha_id=self.panchaanga.ayanamsha_id).get_anga(
+      if self.panchaanga.weekday[d] == 3 and NakshatraDivision(self.panchaanga.daily_panchaangas[d].jd_sunset, ayanamsha_id=self.panchaanga.ayanamsha_id).get_anga(
           zodiac.AngaType.NAKSHATRA) == 3:
-        if NakshatraDivision(self.panchaanga.jd_sunset[d], ayanamsha_id=self.panchaanga.ayanamsha_id).get_anga(
+        if NakshatraDivision(self.panchaanga.daily_panchaangas[d].jd_sunset, ayanamsha_id=self.panchaanga.ayanamsha_id).get_anga(
             zodiac.AngaType.KARANA) in list(range(2, 52, 7)):
           self.add_festival('AyuSmad-bava-saumya-saMyogaH', d, debug_festivals)

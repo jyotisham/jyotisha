@@ -28,7 +28,7 @@ class SolarFestivalAssigner(FestivalAssigner):
 
       # KARADAIYAN NOMBU
       if self.panchaanga.solar_month[d] == 12 and self.panchaanga.solar_month_day[d] == 1:
-        if NakshatraDivision(self.panchaanga.jd_sunrise[d] - (1 / 15.0) * (self.panchaanga.jd_sunrise[d] - self.panchaanga.jd_sunrise[d - 1]),
+        if NakshatraDivision(self.panchaanga.daily_panchaangas[d].jd_sunrise - (1 / 15.0) * (self.panchaanga.daily_panchaangas[d].jd_sunrise - self.panchaanga.daily_panchaangas[d - 1].jd_sunrise),
                              ayanamsha_id=self.panchaanga.ayanamsha_id).get_solar_raashi() == 12:
           # If kumbha prevails two ghatikAs before sunrise, nombu can be done in the early morning itself, else, previous night.
           self.panchaanga.fest_days['ta:kAraDaiyAn2 nOn2bu'] = [d - 1]
@@ -79,7 +79,7 @@ class SolarFestivalAssigner(FestivalAssigner):
         moon_hasta_jd_end = moon_hasta_jd_end = t30_end = None
 
         sun_hasta_jd_start, sun_hasta_jd_end = AngaSpan.find(
-          self.panchaanga.jd_sunrise[d], self.panchaanga.jd_sunrise[d] + 30, zodiac.AngaType.SOLAR_MONTH, 13,
+          self.panchaanga.daily_panchaangas[d].jd_sunrise, self.panchaanga.daily_panchaangas[d].jd_sunrise + 30, zodiac.AngaType.SOLAR_MONTH, 13,
           ayanamsha_id=self.panchaanga.ayanamsha_id).to_tuple()
 
         moon_magha_jd_start, moon_magha_jd_end = AngaSpan.find(
@@ -163,9 +163,9 @@ class SolarFestivalAssigner(FestivalAssigner):
       # Can also refer youtube video https://youtu.be/0DBIwb7iaLE?list=PL_H2LUtMCKPjh63PRk5FA3zdoEhtBjhzj&t=6747
       # 4th pada of vyatipatam, 1st pada of Amavasya, 2nd pada of Shravana, Suryodaya, Bhanuvasara = Ardhodayam
       # 4th pada of vyatipatam, 1st pada of Amavasya, 2nd pada of Shravana, Suryodaya, Somavasara = Mahodayam
-      sunrise_zodiac = NakshatraDivision(self.panchaanga.jd_sunrise[d], ayanamsha_id=self.panchaanga.ayanamsha_id)
-      sunset_zodiac = NakshatraDivision(self.panchaanga.jd_sunset[d], ayanamsha_id=self.panchaanga.ayanamsha_id)
-      if self.panchaanga.lunar_month[d] in [10, 11] and self.panchaanga.tithi_sunrise[d] == 30 or tithi.get_tithi(self.panchaanga.jd_sunrise[d]) == 30:
+      sunrise_zodiac = NakshatraDivision(self.panchaanga.daily_panchaangas[d].jd_sunrise, ayanamsha_id=self.panchaanga.ayanamsha_id)
+      sunset_zodiac = NakshatraDivision(self.panchaanga.daily_panchaangas[d].jd_sunset, ayanamsha_id=self.panchaanga.ayanamsha_id)
+      if self.panchaanga.lunar_month[d] in [10, 11] and self.panchaanga.tithi_sunrise[d] == 30 or tithi.get_tithi(self.panchaanga.daily_panchaangas[d].jd_sunrise) == 30:
         if sunrise_zodiac.get_anga(zodiac.AngaType.NAKSHATRA) == 17 or \
             sunset_zodiac.get_anga(zodiac.AngaType.NAKSHATRA) == 17 and \
             sunrise_zodiac.get_anga(zodiac.AngaType.NAKSHATRA) == 22 or \

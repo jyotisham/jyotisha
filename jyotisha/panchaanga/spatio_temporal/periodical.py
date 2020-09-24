@@ -2,29 +2,20 @@ import logging
 import os
 import sys
 import traceback
-from datetime import datetime
-from math import floor
 from typing import List
 
 from indic_transliteration import xsanscript as sanscript
-from pytz import timezone as tz
 
-import jyotisha.panchaanga.temporal.festival.applier
 import jyotisha.panchaanga.temporal.festival.applier.ecliptic
 import jyotisha.panchaanga.temporal.festival.applier.solar
-import jyotisha.panchaanga.temporal.festival.applier.tithi
 import jyotisha.panchaanga.temporal.festival.applier.vaara
-from jyotisha.panchaanga.temporal import interval
-from jyotisha import names
 from jyotisha.panchaanga import temporal, spatio_temporal
-from jyotisha.panchaanga.spatio_temporal import CODE_ROOT, daily
+from jyotisha.panchaanga.spatio_temporal import daily
 from jyotisha.panchaanga.temporal import zodiac
 from jyotisha.panchaanga.temporal.body import Graha
-from jyotisha.panchaanga.temporal.festival import read_old_festival_rules_dict
-from jyotisha.panchaanga.temporal.hour import Hour
-from jyotisha.panchaanga.temporal.month import SiderialSolarBasedAssigner, LunarMonthAssigner
+from jyotisha.panchaanga.temporal.month import LunarMonthAssigner
 from jyotisha.panchaanga.temporal.tithi import TithiAssigner
-from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision, AngaSpan
+from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision
 from sanskrit_data.schema import common
 from sanskrit_data.schema.common import JsonObject
 
@@ -32,7 +23,7 @@ from sanskrit_data.schema.common import JsonObject
 class Panchaanga(common.JsonObject):
   """This class enables the construction of a panchaanga for arbitrary periods, with festivals.
     """
-  LATEST_VERSION = "0.0.1"
+  LATEST_VERSION = "0.0.2"
 
   def __init__(self, city, start_date, end_date, lunar_month_assigner_type=LunarMonthAssigner.SIDERIAL_SOLAR_BASED, script=sanscript.DEVANAGARI, fmt='hh:mm',
                ayanamsha_id=zodiac.Ayanamsha.CHITRA_AT_180,
@@ -68,11 +59,6 @@ class Panchaanga(common.JsonObject):
     nDays = self.len
 
     # INITIALISE VARIABLES
-    self.jd_midnight = [None] * nDays
-    self.jd_sunrise = [None] * nDays
-    self.jd_sunset = [None] * nDays
-    self.jd_moonrise = [None] * nDays
-    self.jd_moonset = [None] * nDays
     self.solar_month = [None] * nDays
     self.solar_month_end_time = [None] * nDays
     self.solar_month_day = [None] * nDays
@@ -96,7 +82,7 @@ class Panchaanga(common.JsonObject):
       self.lagna_data = [None] * nDays
 
     self.weekday = [None] * nDays
-    daily_panchaangas: List[daily.DailyPanchanga] = [None] * nDays
+    self.daily_panchaangas: List[daily.DailyPanchanga] = [None] * nDays
 
     # Computing solar month details for Dec 31
     # rather than Jan 1, since we have an always increment
@@ -128,19 +114,14 @@ class Panchaanga(common.JsonObject):
       # TODO: Eventually, we are shifting to an array of daily panchangas. Reason: Better modularity.
       # The below block is temporary code to make the transition seamless.
       (year_d, month_d, day_d, _) = temporal.jd_to_utc_gregorian(self.jd_start + d)
-      daily_panchaangas[d + 1] = daily.DailyPanchanga(city=self.city, year=year_d, month=month_d, day=day_d,
+      self.daily_panchaangas[d + 1] = daily.DailyPanchanga(city=self.city, year=year_d, month=month_d, day=day_d,
                                                       ayanamsha_id=self.ayanamsha_id,
-                                                      previous_day_panchaanga=daily_panchaangas[d])
-      daily_panchaangas[d + 1].compute_sun_moon_transitions(previous_day_panchaanga=daily_panchaangas[d])
-      daily_panchaangas[d + 1].compute_solar_month()
-      self.jd_midnight[d + 1] = daily_panchaangas[d + 1].julian_day_start
-      self.jd_sunrise[d + 1] = daily_panchaangas[d + 1].jd_sunrise
-      self.jd_sunset[d + 1] = daily_panchaangas[d + 1].jd_sunset
-      self.jd_moonrise[d + 1] = daily_panchaangas[d + 1].jd_moonrise
-      self.jd_moonset[d + 1] = daily_panchaangas[d + 1].jd_moonset
-      self.solar_month[d + 1] = daily_panchaangas[d + 1].solar_month_sunset
+                                                      previous_day_panchaanga=self.daily_panchaangas[d])
+      self.daily_panchaangas[d + 1].compute_sun_moon_transitions(previous_day_panchaanga=self.daily_panchaangas[d])
+      self.daily_panchaangas[d + 1].compute_solar_month()
+      self.solar_month[d + 1] = self.daily_panchaangas[d + 1].solar_month_sunset
 
-      solar_month_sunrise[d + 1] = daily_panchaangas[d + 1].solar_month_sunrise
+      solar_month_sunrise[d + 1] = self.daily_panchaangas[d + 1].solar_month_sunrise
 
       if (d <= 0):
         continue
@@ -159,14 +140,14 @@ class Panchaanga(common.JsonObject):
         if self.solar_month[d] != solar_month_sunrise[d + 1]:
           month_start_after_sunset = True
           [_m, solar_month_end_jd] = zodiac.get_angam_data(
-            self.jd_sunrise[d], self.jd_sunrise[d + 1], zodiac.AngaType.SOLAR_MONTH, ayanamsha_id=self.ayanamsha_id)[
+            self.daily_panchaangas[d].jd_sunrise, self.daily_panchaangas[d + 1].jd_sunrise, zodiac.AngaType.SOLAR_MONTH, ayanamsha_id=self.ayanamsha_id)[
             0]
       elif solar_month_sunrise[d] != self.solar_month[d]:
         # sankrAnti!
         # sun moves into next rAshi before sunset
         solar_month_day = 1
         [_m, solar_month_end_jd] = zodiac.get_angam_data(
-          self.jd_sunrise[d], self.jd_sunrise[d + 1], zodiac.AngaType.SOLAR_MONTH, ayanamsha_id=self.ayanamsha_id)[0]
+          self.daily_panchaangas[d].jd_sunrise, self.daily_panchaangas[d + 1].jd_sunrise, zodiac.AngaType.SOLAR_MONTH, ayanamsha_id=self.ayanamsha_id)[0]
       else:
         solar_month_day = solar_month_day + 1
         solar_month_end_jd = None
@@ -176,26 +157,26 @@ class Panchaanga(common.JsonObject):
       self.solar_month_day[d] = solar_month_day
 
       # Compute all the anga datas
-      self.tithi_data[d] = daily_panchaangas[d].tithi_data
-      self.tithi_sunrise[d] = daily_panchaangas[d].tithi_at_sunrise
-      self.nakshatram_data[d] = daily_panchaangas[d].nakshatra_data
-      self.nakshatram_sunrise[d] = daily_panchaangas[d].nakshatra_at_sunrise
-      self.yoga_data[d] = daily_panchaangas[d].yoga_data
-      self.yoga_sunrise[d] = daily_panchaangas[d].yoga_at_sunrise
-      self.karanam_data[d] = daily_panchaangas[d].karana_data
-      self.rashi_data[d] = daily_panchaangas[d].raashi_data
-      self.kaalas[d] = daily_panchaangas[d].get_kaalas()
+      self.tithi_data[d] = self.daily_panchaangas[d].tithi_data
+      self.tithi_sunrise[d] = self.daily_panchaangas[d].tithi_at_sunrise
+      self.nakshatram_data[d] = self.daily_panchaangas[d].nakshatra_data
+      self.nakshatram_sunrise[d] = self.daily_panchaangas[d].nakshatra_at_sunrise
+      self.yoga_data[d] = self.daily_panchaangas[d].yoga_data
+      self.yoga_sunrise[d] = self.daily_panchaangas[d].yoga_at_sunrise
+      self.karanam_data[d] = self.daily_panchaangas[d].karana_data
+      self.rashi_data[d] = self.daily_panchaangas[d].raashi_data
+      self.kaalas[d] = self.daily_panchaangas[d].get_kaalas()
       if compute_lagnas:
-        self.lagna_data[d] = daily_panchaangas[d].get_lagna_data()
+        self.lagna_data[d] = self.daily_panchaangas[d].get_lagna_data()
 
   def get_angas_for_interval_boundaries(self, d, get_anga_func, interval_type):
-    jd_sunrise = self.jd_sunrise[d]
-    jd_sunrise_tmrw = self.jd_sunrise[d + 1]
-    jd_sunrise_datmrw = self.jd_sunrise[d + 2]
-    jd_sunset = self.jd_sunset[d]
-    jd_sunset_tmrw = self.jd_sunset[d + 1]
-    jd_moonrise = self.jd_moonrise[d]
-    jd_moonrise_tmrw = self.jd_moonrise[d + 1]
+    jd_sunrise = self.daily_panchaangas[d].jd_sunrise
+    jd_sunrise_tmrw = self.daily_panchaangas[d + 1].jd_sunrise
+    jd_sunrise_datmrw = self.daily_panchaangas[d + 2].jd_sunrise
+    jd_sunset = self.daily_panchaangas[d].jd_sunset
+    jd_sunset_tmrw = self.daily_panchaangas[d + 1].jd_sunset
+    jd_moonrise = self.daily_panchaangas[d].jd_moonrise
+    jd_moonrise_tmrw = self.daily_panchaangas[d + 1].jd_moonrise
     if interval_type == 'sunrise':
       angas = [get_anga_func(jd_sunrise),
                 get_anga_func(jd_sunrise),
@@ -310,11 +291,11 @@ class Panchaanga(common.JsonObject):
     for d in range(1, self.len - 1):
       jd = self.jd_start - 1 + d
       [y, m, dt, t] = temporal.jd_to_utc_gregorian(jd)
-      longitude_sun_sunset = Graha.singleton(Graha.SUN).get_longitude(self.jd_sunset[d]) - zodiac.Ayanamsha.singleton(
-        self.ayanamsha_id).get_offset(self.jd_sunset[d])
+      longitude_sun_sunset = Graha.singleton(Graha.SUN).get_longitude(self.daily_panchaangas[d].jd_sunset) - zodiac.Ayanamsha.singleton(
+        self.ayanamsha_id).get_offset(self.daily_panchaangas[d].jd_sunset)
       log_data = '%02d-%02d-%4d\t[%3d]\tsun_rashi=%8.3f\ttithi=%8.3f\tsolar_month\
         =%2d\tlunar_month=%4.1f\n' % (dt, m, y, d, (longitude_sun_sunset % 360) / 30.0,
-                                      NakshatraDivision(self.jd_sunrise[d],
+                                      NakshatraDivision(self.daily_panchaangas[d].jd_sunrise,
                                                         ayanamsha_id=self.ayanamsha_id).get_anga_float(zodiac.AngaType.TITHI),
                                       self.solar_month[d], self.lunar_month[d])
       log_file.write(log_data)
@@ -328,9 +309,10 @@ class Panchaanga(common.JsonObject):
     self._reset_festivals()
     TithiAssigner(self).assign_shraaddha_tithi()
     from jyotisha.panchaanga.temporal.festival import applier
+    from jyotisha.panchaanga.temporal.festival.applier import tithi_festival
     applier.MiscFestivalAssigner(panchaanga=self).assign_all(debug=debug)
     applier.ecliptic.EclipticFestivalAssigner(panchaanga=self).assign_all(debug=debug)
-    applier.tithi.TithiFestivalAssigner(panchaanga=self).assign_all(debug=debug)
+    tithi_festival.TithiFestivalAssigner(panchaanga=self).assign_all(debug=debug)
     applier.solar.SolarFestivalAssigner(panchaanga=self).assign_all(debug=debug)
     applier.vaara.VaraFestivalAssigner(panchaanga=self).assign_all(debug=debug)
     applier.MiscFestivalAssigner(panchaanga=self).cleanup_festivals(debug=debug)

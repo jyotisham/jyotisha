@@ -34,8 +34,8 @@ class EclipticFestivalAssigner(FestivalAssigner):
       # TROPICAL AYANAMS
       if self.panchaanga.solar_month_day[d] == 1:
         transits = \
-          Graha.singleton(Graha.SUN).get_next_raashi_transit(jd_start=self.panchaanga.jd_sunrise[d],
-                                                   jd_end=self.panchaanga.jd_sunrise[d] + 15,
+          Graha.singleton(Graha.SUN).get_next_raashi_transit(jd_start=self.panchaanga.daily_panchaangas[d].jd_sunrise,
+                                                   jd_end=self.panchaanga.daily_panchaangas[d].jd_sunrise + 15,
                                                    ayanamsha_id=self.panchaanga.ayanamsha_id)
         ayana_jd_start = transits[0].jd
         [_y, _m, _d, _t] = temporal.jd_to_utc_gregorian(ayana_jd_start + (tz_off / 24.0))
@@ -43,7 +43,7 @@ class EclipticFestivalAssigner(FestivalAssigner):
         fday_nirayana = int(temporal.utc_gregorian_to_jd(_y, _m, _d, 0) - self.panchaanga.jd_start + 1)
         if fday_nirayana > self.panchaanga.duration:
           continue
-        if ayana_jd_start < self.panchaanga.jd_sunrise[fday_nirayana]:
+        if ayana_jd_start < self.panchaanga.daily_panchaangas[fday_nirayana].jd_sunrise:
           fday_nirayana -= 1
           _t += 24
         ayana_time = Hour(_t).toString(format=self.panchaanga.fmt)
@@ -55,12 +55,12 @@ class EclipticFestivalAssigner(FestivalAssigner):
           self.panchaanga.tropical_month[i] = self.panchaanga.solar_month[d]
         last_d_assigned = fday_nirayana
         if self.panchaanga.solar_month[d] == 3:
-          if self.panchaanga.jd_sunset[fday_nirayana] < ayana_jd_start < self.panchaanga.jd_sunset[fday_nirayana + 1]:
+          if self.panchaanga.daily_panchaangas[fday_nirayana].jd_sunset < ayana_jd_start < self.panchaanga.daily_panchaangas[fday_nirayana + 1].jd_sunset:
             self.panchaanga.festivals[fday_nirayana].append('dakSiNAyana-puNyakAlaH')
           else:
             self.panchaanga.festivals[fday_nirayana - 1].append('dakSiNAyana-puNyakAlaH')
         if self.panchaanga.solar_month[d] == 9:
-          if self.panchaanga.jd_sunset[fday_nirayana] < ayana_jd_start < self.panchaanga.jd_sunset[fday_nirayana + 1]:
+          if self.panchaanga.daily_panchaangas[fday_nirayana].jd_sunset < ayana_jd_start < self.panchaanga.daily_panchaangas[fday_nirayana + 1].jd_sunset:
             self.panchaanga.festivals[fday_nirayana + 1].append('uttarAyaNa-puNyakAlaH/mitrOtsavaH')
           else:
             self.panchaanga.festivals[fday_nirayana].append('uttarAyaNa-puNyakAlaH/mitrOtsavaH')
@@ -85,7 +85,7 @@ class EclipticFestivalAssigner(FestivalAssigner):
         break
       else:
         fday = int(floor(jd) - floor(self.panchaanga.jd_start) + 1)
-        if (jd < (self.panchaanga.jd_sunrise[fday] + tz_off / 24.0)):
+        if (jd < (self.panchaanga.daily_panchaangas[fday].jd_sunrise + tz_off / 24.0)):
           fday -= 1
         eclipse_solar_start = temporal.jd_to_utc_gregorian(jd_eclipse_solar_start)[3]
         eclipse_solar_end = temporal.jd_to_utc_gregorian(jd_eclipse_solar_end)[3]
@@ -97,8 +97,8 @@ class EclipticFestivalAssigner(FestivalAssigner):
           continue
         if eclipse_solar_end < eclipse_solar_start:
           eclipse_solar_end += 24
-        sunrise_eclipse_day = temporal.jd_to_utc_gregorian(self.panchaanga.jd_sunrise[fday] + (tz_off / 24.0))[3]
-        sunset_eclipse_day = temporal.jd_to_utc_gregorian(self.panchaanga.jd_sunset[fday] + (tz_off / 24.0))[3]
+        sunrise_eclipse_day = temporal.jd_to_utc_gregorian(self.panchaanga.daily_panchaangas[fday].jd_sunrise + (tz_off / 24.0))[3]
+        sunset_eclipse_day = temporal.jd_to_utc_gregorian(self.panchaanga.daily_panchaangas[fday].jd_sunset + (tz_off / 24.0))[3]
         if eclipse_solar_start < sunrise_eclipse_day:
           eclipse_solar_start = sunrise_eclipse_day
         if eclipse_solar_end > sunset_eclipse_day:
@@ -139,16 +139,16 @@ class EclipticFestivalAssigner(FestivalAssigner):
           jd += MIN_DAYS_NEXT_ECLIPSE
           continue
         fday = int(floor(jd_eclipse_lunar_start) - floor(self.panchaanga.jd_start) + 1)
-        # print '%%', jd, fday, self.panchaanga.jd_sunrise[fday],
-        # self.panchaanga.jd_sunrise[fday-1]
-        if (jd < (self.panchaanga.jd_sunrise[fday] + tz_off / 24.0)):
+        # print '%%', jd, fday, self.panchaanga.daily_panchaangas[fday].jd_sunrise,
+        # self.panchaanga.daily_panchaangas[fday-1].jd_sunrise
+        if (jd < (self.panchaanga.daily_panchaangas[fday].jd_sunrise + tz_off / 24.0)):
           fday -= 1
-        if eclipse_lunar_start < temporal.jd_to_utc_gregorian(self.panchaanga.jd_sunrise[fday + 1] + tz_off / 24.0)[3]:
+        if eclipse_lunar_start < temporal.jd_to_utc_gregorian(self.panchaanga.daily_panchaangas[fday + 1].jd_sunrise + tz_off / 24.0)[3]:
           eclipse_lunar_start += 24
-        # print '%%', jd, fday, self.panchaanga.jd_sunrise[fday],
-        # self.panchaanga.jd_sunrise[fday-1], eclipse_lunar_start,
+        # print '%%', jd, fday, self.panchaanga.daily_panchaangas[fday].jd_sunrise,
+        # self.panchaanga.daily_panchaangas[fday-1].jd_sunrise, eclipse_lunar_start,
         # eclipse_lunar_end
-        jd_moonrise_eclipse_day = self.panchaanga.city.get_rising_time(julian_day_start=self.panchaanga.jd_sunrise[fday],
+        jd_moonrise_eclipse_day = self.panchaanga.city.get_rising_time(julian_day_start=self.panchaanga.daily_panchaangas[fday].jd_sunrise,
                                                             body=Graha.MOON) + (tz_off / 24.0)
 
         jd_moonset_eclipse_day = self.panchaanga.city.get_rising_time(julian_day_start=jd_moonrise_eclipse_day,
@@ -205,8 +205,8 @@ class EclipticFestivalAssigner(FestivalAssigner):
           if rashi1 < rashi2 and transits[i + 1].value_1 < transits[i + 1].value_2:
             # Considering only non-retrograde transits for pushkara computations
             # logging.debug('Non-retrograde transit; we have a pushkaram!')
-            (madhyanha_start, madhyaahna_end) = interval.get_interval(self.panchaanga.jd_sunrise[fday],
-                                                                                                   self.panchaanga.jd_sunset[fday], 2, 5).to_tuple()
+            (madhyanha_start, madhyaahna_end) = interval.get_interval(self.panchaanga.daily_panchaangas[fday].jd_sunrise,
+                                                                                                   self.panchaanga.daily_panchaangas[fday].jd_sunset, 2, 5).to_tuple()
             if jd_transit < madhyaahna_end:
               fday_pushkara = fday
             else:

@@ -262,13 +262,13 @@ class FestivalAssigner(PanchaangaApplier):
 
             elif priority == 'vyaapti':
               if kaala == 'aparaahna':
-                t_start_d, t_end_d = interval.get_interval(self.panchaanga.jd_sunrise[d], self.panchaanga.jd_sunset[d], 3, 5).to_tuple()
+                t_start_d, t_end_d = interval.get_interval(self.panchaanga.daily_panchaangas[d].jd_sunrise, self.panchaanga.daily_panchaangas[d].jd_sunset, 3, 5).to_tuple()
               else:
                 logging.error('Unknown kaala: %s.' % festival_name)
 
               if kaala == 'aparaahna':
-                t_start_d1, t_end_d1 = interval.get_interval(self.panchaanga.jd_sunrise[d + 1],
-                                                                                          self.panchaanga.jd_sunset[d + 1], 3, 5).to_tuple()
+                t_start_d1, t_end_d1 = interval.get_interval(self.panchaanga.daily_panchaangas[d + 1].jd_sunrise,
+                                                                                          self.panchaanga.daily_panchaangas[d + 1].jd_sunset, 3, 5).to_tuple()
               else:
                 logging.error('Unknown kaala: %s.' % festival_name)
 
@@ -426,7 +426,7 @@ class MiscFestivalAssigner(FestivalAssigner):
       # Arbitrarily checking after Mesha 10! Agni Nakshatram can't start earlier...
       if self.panchaanga.solar_month[d] == 1 and self.panchaanga.solar_month_day[d] == 10:
         agni_jd_start, dummy = AngaSpan.find(
-          self.panchaanga.jd_sunrise[d], self.panchaanga.jd_sunrise[d] + 30,
+          self.panchaanga.daily_panchaangas[d].jd_sunrise, self.panchaanga.daily_panchaangas[d].jd_sunrise + 30,
           zodiac.AngaType.SOLAR_NAKSH_PADA, 7, ayanamsha_id=self.panchaanga.ayanamsha_id).to_tuple()
         dummy, agni_jd_end = AngaSpan.find(
           agni_jd_start, agni_jd_start + 30,
@@ -434,11 +434,11 @@ class MiscFestivalAssigner(FestivalAssigner):
 
       if self.panchaanga.solar_month[d] == 1 and self.panchaanga.solar_month_day[d] > 10:
         if agni_jd_start is not None:
-          if self.panchaanga.jd_sunset[d] < agni_jd_start < self.panchaanga.jd_sunset[d + 1]:
+          if self.panchaanga.daily_panchaangas[d].jd_sunset < agni_jd_start < self.panchaanga.daily_panchaangas[d + 1].jd_sunset:
             self.add_festival('agninakSatra-ArambhaH', d + 1, debug_festivals)
       if self.panchaanga.solar_month[d] == 2 and self.panchaanga.solar_month_day[d] > 10:
         if agni_jd_end is not None:
-          if self.panchaanga.jd_sunset[d] < agni_jd_end < self.panchaanga.jd_sunset[d + 1]:
+          if self.panchaanga.daily_panchaangas[d].jd_sunset < agni_jd_end < self.panchaanga.daily_panchaangas[d + 1].jd_sunset:
             self.add_festival('agninakSatra-samApanam', d + 1, debug_festivals)
 
   def assign_relative_festivals(self):

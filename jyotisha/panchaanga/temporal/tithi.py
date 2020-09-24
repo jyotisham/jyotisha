@@ -43,7 +43,7 @@ class TithiAssigner(PanchaangaApplier):
       nnext_anga = (next_anga % 30) + 1
   
       # Calc vyaaptis
-      t_start_d, t_end_d = interval.get_interval(self.panchaanga.jd_sunrise[d], self.panchaanga.jd_sunset[d], 3, 5).to_tuple()
+      t_start_d, t_end_d = interval.get_interval(self.panchaanga.daily_panchaangas[d].jd_sunrise, self.panchaanga.daily_panchaangas[d].jd_sunset, 3, 5).to_tuple()
       span_1 = t_end_d - t_start_d
       span_2 = 0
       for [tithi, tithi_end] in self.panchaanga.tithi_data[d]:
@@ -53,7 +53,7 @@ class TithiAssigner(PanchaangaApplier):
           span_1 = tithi_end - t_start_d
           span_2 = t_end_d - tithi_end
   
-      t_start_d1, t_end_d1 = interval.get_interval(self.panchaanga.jd_sunrise[d + 1], self.panchaanga.jd_sunset[d + 1], 3, 5).to_tuple()
+      t_start_d1, t_end_d1 = interval.get_interval(self.panchaanga.daily_panchaangas[d + 1].jd_sunrise, self.panchaanga.daily_panchaangas[d + 1].jd_sunset, 3, 5).to_tuple()
       vyapti_3 = t_end_d1 - t_start_d1
       for [tithi, tithi_end] in self.panchaanga.tithi_data[d + 1]:
         if tithi_end is None:
@@ -161,7 +161,7 @@ class TithiAssigner(PanchaangaApplier):
         if self.panchaanga.solar_month_end_time[d] is not None:
           if debug_shraaddha_tithi:
             logging.debug((d, self.panchaanga.solar_month_end_time[d]))
-          aparaahna_start, aparaahna_end = interval.get_interval(self.panchaanga.jd_sunrise[d], self.panchaanga.jd_sunset[d], 3, 5).to_tuple()
+          aparaahna_start, aparaahna_end = interval.get_interval(self.panchaanga.daily_panchaangas[d].jd_sunrise, self.panchaanga.daily_panchaangas[d].jd_sunset, 3, 5).to_tuple()
           m1 = self.panchaanga.solar_month[d - 1]  # Previous month
           m2 = self.panchaanga.solar_month[d]  # Current month
           if aparaahna_start < self.panchaanga.solar_month_end_time[d] < aparaahna_end:
