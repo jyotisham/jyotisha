@@ -85,10 +85,10 @@ def writeDailyTeX(panchaanga, template_file, compute_lagnams=True, output_stream
     jd = panchaanga.daily_panchaangas[d].julian_day_start
 
     tithi_data_str = ''
-    for tithi_ID, tithi_end_jd in panchaanga.tithi_data[d]:
+    for tithi_ID, tithi_end_jd in panchaanga.daily_panchaangas[d].tithi_data:
       # if tithi_data_str != '':
       #     tithi_data_str += '\\hspace{1ex}'
-      tithi = '\\raisebox{-1pt}{\moon[scale=0.8]{%d}}\\hspace{2pt}' % (tithi_ID) + \
+      tithi = '\\raisebox{-1pt}{\\moon[scale=0.8]{%d}}\\hspace{2pt}' % (tithi_ID) + \
               jyotisha.names.NAMES['TITHI_NAMES'][panchaanga.script][tithi_ID]
       if tithi_end_jd is None:
         tithi_data_str = '%s\\mbox{%s\\To{}%s}' % \
@@ -103,7 +103,7 @@ def writeDailyTeX(panchaanga, template_file, compute_lagnams=True, output_stream
                             format=panchaanga.fmt))
 
     nakshatram_data_str = ''
-    for nakshatram_ID, nakshatram_end_jd in panchaanga.nakshatram_data[d]:
+    for nakshatram_ID, nakshatram_end_jd in panchaanga.daily_panchaangas[d].nakshatra_data:
       if nakshatram_data_str != '':
         nakshatram_data_str += '\\hspace{1ex}'
       nakshatram = jyotisha.names.NAMES['NAKSHATRAM_NAMES'][panchaanga.script][nakshatram_ID]
@@ -120,7 +120,7 @@ def writeDailyTeX(panchaanga, template_file, compute_lagnams=True, output_stream
                                  format=panchaanga.fmt))
 
     rashi_data_str = ''
-    for rashi_ID, rashi_end_jd in panchaanga.rashi_data[d]:
+    for rashi_ID, rashi_end_jd in panchaanga.daily_panchaangas[d].raashi_data:
       # if rashi_data_str != '':
       #     rashi_data_str += '\\hspace{1ex}'
       rashi = jyotisha.names.NAMES['RASHI_SUFFIXED_NAMES'][panchaanga.script][rashi_ID]
@@ -141,7 +141,7 @@ def writeDailyTeX(panchaanga, template_file, compute_lagnams=True, output_stream
                             format=panchaanga.fmt))
 
     yoga_data_str = ''
-    for yoga_ID, yoga_end_jd in panchaanga.yoga_data[d]:
+    for yoga_ID, yoga_end_jd in panchaanga.daily_panchaangas[d].yoga_data:
       # if yoga_data_str != '':
       #     yoga_data_str += '\\hspace{1ex}'
       yoga = jyotisha.names.NAMES['YOGA_NAMES'][panchaanga.script][yoga_ID]
@@ -160,7 +160,7 @@ def writeDailyTeX(panchaanga, template_file, compute_lagnams=True, output_stream
         jyotisha.names.NAMES['YOGA_NAMES'][panchaanga.script][(yoga_ID % 27) + 1])
 
     karanam_data_str = ''
-    for numKaranam, (karanam_ID, karanam_end_jd) in enumerate(panchaanga.karanam_data[d]):
+    for numKaranam, (karanam_ID, karanam_end_jd) in enumerate(panchaanga.daily_panchaangas[d].karana_data):
       # if numKaranam == 1:
       #     karanam_data_str += '\\hspace{1ex}'
       karanam = jyotisha.names.NAMES['KARANAM_NAMES'][panchaanga.script][karanam_ID]
@@ -276,7 +276,7 @@ def writeDailyTeX(panchaanga, template_file, compute_lagnams=True, output_stream
       print('{\\sunmoonsrdata{%s}{%s}{%s}{%s}' % (sunrise, sunset, moonrise, moonset), file=output_stream)
 
     print(
-      '{\kalas{%s %s %s %s %s %s %s %s %s %s %s %s %s %s}}}' % (braahma_start, pratahsandhya_start, pratahsandhya_end,
+      '{\\kalas{%s %s %s %s %s %s %s %s %s %s %s %s %s %s}}}' % (braahma_start, pratahsandhya_start, pratahsandhya_end,
                                                                 sangava,
                                                                 madhyahnika_sandhya_start, madhyahnika_sandhya_end,
                                                                 madhyaahna, aparahna, sayahna,

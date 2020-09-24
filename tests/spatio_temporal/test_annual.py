@@ -35,10 +35,10 @@ def panchaanga_json_comparer(city, year):
 
   if panchaanga.to_json_map(floating_point_precision=4) != panchaanga_expected.to_json_map(
       floating_point_precision=4):
-    panchaanga.dump_to_file(filename=expected_content_path.replace(".json", "_actual.json"),
+    panchaanga.dump_to_file(filename=expected_content_path.replace(".json", "_actual.local.json"),
                             floating_point_precision=4, sort_keys=False)
     panchaanga_expected.dump_to_file(
-      filename=expected_content_path.replace(".json", "_expected.json"), floating_point_precision=4, sort_keys=False)
+      filename=expected_content_path.replace(".json", "_expected.local.json"), floating_point_precision=4, sort_keys=False)
   try:
     sanskrit_data.collection_helper.assert_dict_equality(x=panchaanga.to_json_map(), y=panchaanga_expected.to_json_map(), floating_point_precision=4)
   except:

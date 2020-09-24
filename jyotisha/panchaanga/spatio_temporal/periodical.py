@@ -45,7 +45,6 @@ class Panchaanga(common.JsonObject):
     self.len = int(self.duration + 4)  # some buffer, for various look-ahead calculations
 
     self.weekday_start = temporal.get_weekday(self.jd_start)
-
     self.ayanamsha_id = ayanamsha_id
 
     self.compute_angas(compute_lagnas=compute_lagnas)
@@ -59,6 +58,7 @@ class Panchaanga(common.JsonObject):
     nDays = self.len
 
     # INITIALISE VARIABLES
+    self.shraaddha_tithi = [[None] for _x in range(nDays)]
     self.solar_month = [None] * nDays
     self.solar_month_end_time = [None] * nDays
     self.solar_month_day = [None] * nDays
@@ -68,14 +68,6 @@ class Panchaanga(common.JsonObject):
     solar_month_sunrise = [None] * nDays
 
     self.lunar_month = [None] * nDays
-    self.tithi_data = [None] * nDays
-    self.tithi_sunrise = [None] * nDays
-    self.nakshatram_data = [None] * nDays
-    self.nakshatram_sunrise = [None] * nDays
-    self.yoga_data = [None] * nDays
-    self.yoga_sunrise = [None] * nDays
-    self.karanam_data = [None] * nDays
-    self.rashi_data = [None] * nDays
     self.kaalas = [None] * nDays
 
     if compute_lagnas:
@@ -157,14 +149,6 @@ class Panchaanga(common.JsonObject):
       self.solar_month_day[d] = solar_month_day
 
       # Compute all the anga datas
-      self.tithi_data[d] = self.daily_panchaangas[d].tithi_data
-      self.tithi_sunrise[d] = self.daily_panchaangas[d].tithi_at_sunrise
-      self.nakshatram_data[d] = self.daily_panchaangas[d].nakshatra_data
-      self.nakshatram_sunrise[d] = self.daily_panchaangas[d].nakshatra_at_sunrise
-      self.yoga_data[d] = self.daily_panchaangas[d].yoga_data
-      self.yoga_sunrise[d] = self.daily_panchaangas[d].yoga_at_sunrise
-      self.karanam_data[d] = self.daily_panchaangas[d].karana_data
-      self.rashi_data[d] = self.daily_panchaangas[d].raashi_data
       self.kaalas[d] = self.daily_panchaangas[d].get_kaalas()
       if compute_lagnas:
         self.lagna_data[d] = self.daily_panchaangas[d].get_lagna_data()

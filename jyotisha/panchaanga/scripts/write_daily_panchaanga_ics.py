@@ -140,7 +140,7 @@ def writeDailyICS(panchaanga, compute_lagnams=True):
 
     paksha_data_str = ''
     tithi_data_str = ''
-    for tithi_ID, tithi_end_jd in panchaanga.tithi_data[d]:
+    for tithi_ID, tithi_end_jd in panchaanga.daily_panchaangas[d].tithi_data:
       tithi = jyotisha.names.NAMES['TITHI_NAMES'][panchaanga.script][tithi_ID].split('-')[-1]
       paksha = jyotisha.custom_transliteration.tr('zuklapakSaH' if tithi_ID <= 15 else 'kRSNapakSaH', panchaanga.script)
       if tithi_end_jd is None:
@@ -157,7 +157,7 @@ def writeDailyICS(panchaanga, compute_lagnams=True):
     paksha_data_str = '*' + getName('pakSaH', panchaanga.script) + '*—' + paksha
 
     nakshatram_data_str = ''
-    for nakshatram_ID, nakshatram_end_jd in panchaanga.nakshatram_data[d]:
+    for nakshatram_ID, nakshatram_end_jd in panchaanga.daily_panchaangas[d].nakshatra_data:
       nakshatram = jyotisha.names.NAMES['NAKSHATRAM_NAMES'][panchaanga.script][nakshatram_ID]
       if nakshatram_end_jd is None:
         nakshatram_data_str = '%s; %s►%s' % \
@@ -171,7 +171,7 @@ def writeDailyICS(panchaanga, compute_lagnams=True):
     nakshatram_data_str = '*' + getName('nakSatram', panchaanga.script) + '*—' + nakshatram_data_str[2:]
 
     chandrashtama_rashi_data_str = ''
-    for rashi_ID, rashi_end_jd in panchaanga.rashi_data[d]:
+    for rashi_ID, rashi_end_jd in panchaanga.daily_panchaangas[d].raashi_data:
       rashi = jyotisha.names.NAMES['RASHI_SUFFIXED_NAMES'][panchaanga.script][rashi_ID]
       if rashi_end_jd is None:
         rashi_data_str = '%s' % (rashi)
@@ -196,7 +196,7 @@ def writeDailyICS(panchaanga, compute_lagnams=True):
       lagna_data_str = '*' + getName('lagnam', panchaanga.script) + '*—' + lagna_data_str[2:]
 
     yoga_data_str = ''
-    for yoga_ID, yoga_end_jd in panchaanga.yoga_data[d]:
+    for yoga_ID, yoga_end_jd in panchaanga.daily_panchaangas[d].yoga_data:
       # if yoga_data_str != '':
       #     yoga_data_str += ' '
       yoga = jyotisha.names.NAMES['YOGA_NAMES'][panchaanga.script][yoga_ID]
@@ -212,7 +212,7 @@ def writeDailyICS(panchaanga, compute_lagnams=True):
     yoga_data_str = '*' + getName('yOgaH', panchaanga.script) + '*—' + yoga_data_str[2:]
 
     karanam_data_str = ''
-    for numKaranam, (karanam_ID, karanam_end_jd) in enumerate(panchaanga.karanam_data[d]):
+    for numKaranam, (karanam_ID, karanam_end_jd) in enumerate(panchaanga.daily_panchaangas[d].karana_data):
       # if numKaranam == 1:
       #     karanam_data_str += ' '
       karanam = jyotisha.names.NAMES['KARANAM_NAMES'][panchaanga.script][karanam_ID]

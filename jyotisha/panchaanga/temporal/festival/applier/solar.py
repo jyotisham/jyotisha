@@ -165,7 +165,7 @@ class SolarFestivalAssigner(FestivalAssigner):
       # 4th pada of vyatipatam, 1st pada of Amavasya, 2nd pada of Shravana, Suryodaya, Somavasara = Mahodayam
       sunrise_zodiac = NakshatraDivision(self.panchaanga.daily_panchaangas[d].jd_sunrise, ayanamsha_id=self.panchaanga.ayanamsha_id)
       sunset_zodiac = NakshatraDivision(self.panchaanga.daily_panchaangas[d].jd_sunset, ayanamsha_id=self.panchaanga.ayanamsha_id)
-      if self.panchaanga.lunar_month[d] in [10, 11] and self.panchaanga.tithi_sunrise[d] == 30 or tithi.get_tithi(self.panchaanga.daily_panchaangas[d].jd_sunrise) == 30:
+      if self.panchaanga.lunar_month[d] in [10, 11] and self.panchaanga.daily_panchaangas[d].tithi_at_sunrise == 30 or tithi.get_tithi(self.panchaanga.daily_panchaangas[d].jd_sunrise) == 30:
         if sunrise_zodiac.get_anga(zodiac.AngaType.NAKSHATRA) == 17 or \
             sunset_zodiac.get_anga(zodiac.AngaType.NAKSHATRA) == 17 and \
             sunrise_zodiac.get_anga(zodiac.AngaType.NAKSHATRA) == 22 or \

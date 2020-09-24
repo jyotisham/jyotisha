@@ -16,7 +16,7 @@ config_local.json
 .tox
 .cache
 *.iml
-*.local
+*.local*
 jyotisha/panchaanga/data/festival_rules_test.json
 tests/update_test_json.py
 *.swp
