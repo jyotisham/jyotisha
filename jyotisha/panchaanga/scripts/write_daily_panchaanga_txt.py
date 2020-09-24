@@ -16,6 +16,7 @@ import jyotisha.custom_transliteration
 import jyotisha.names
 from jyotisha.panchaanga import temporal
 from jyotisha.panchaanga.spatio_temporal import City, annual
+from jyotisha.panchaanga.temporal import time
 
 logging.basicConfig(
   level=logging.DEBUG,
