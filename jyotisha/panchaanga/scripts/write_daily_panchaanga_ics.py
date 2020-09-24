@@ -273,7 +273,7 @@ def writeDailyICS(panchaanga, compute_lagnams=True):
       jyotisha.panchaanga.temporal.hour.Hour(24 * (panchaanga.daily_panchaangas[d].kaalas['gulika'][1] - jd)).toString(
         format=panchaanga.fmt))
 
-    if panchaanga.solar_month[d] == 1:
+    if panchaanga.daily_panchaangas[d].solar_month_sunset == 1:
       # Flip the year name for the remaining days
       yname_solar = samvatsara_names[1]
     if panchaanga.lunar_month[d] == 1:
@@ -281,14 +281,14 @@ def writeDailyICS(panchaanga, compute_lagnams=True):
       yname_lunar = samvatsara_names[1]
 
     # Assign samvatsara, ayana, rtu #
-    ayanam = jyotisha.names.NAMES['AYANA_NAMES'][panchaanga.script][panchaanga.solar_month[d]]
-    rtu_solar = jyotisha.names.NAMES['RTU_NAMES'][panchaanga.script][panchaanga.solar_month[d]]
+    ayanam = jyotisha.names.NAMES['AYANA_NAMES'][panchaanga.script][panchaanga.daily_panchaangas[d].solar_month_sunset]
+    rtu_solar = jyotisha.names.NAMES['RTU_NAMES'][panchaanga.script][panchaanga.daily_panchaangas[d].solar_month_sunset]
     rtu_lunar = jyotisha.names.NAMES['RTU_NAMES'][panchaanga.script][int(ceil(panchaanga.lunar_month[d]))]
 
     if panchaanga.solar_month_end_time[d] is None:
       month_end_str = ''
     else:
-      _m = panchaanga.solar_month[d - 1]
+      _m = panchaanga.daily_panchaangas[d - 1].solar_month_sunset
       if panchaanga.solar_month_end_time[d] >= panchaanga.daily_panchaangas[d + 1].jd_sunrise:
         month_end_str = '%s►%s' % (jyotisha.names.NAMES['RASHI_NAMES'][panchaanga.script][_m],
                                    jyotisha.panchaanga.temporal.hour.Hour(24 * (
@@ -300,11 +300,11 @@ def writeDailyICS(panchaanga, compute_lagnams=True):
                                      24 * (panchaanga.solar_month_end_time[d] - panchaanga.daily_panchaangas[d].julian_day_start)).toString(
                                      format=panchaanga.fmt))
     if month_end_str == '':
-      month_data = '%s (%s %d)' % (jyotisha.names.NAMES['RASHI_NAMES'][panchaanga.script][panchaanga.solar_month[d]],
+      month_data = '%s (%s %d)' % (jyotisha.names.NAMES['RASHI_NAMES'][panchaanga.script][panchaanga.daily_panchaangas[d].solar_month_sunset],
                                    getName('dinaM', panchaanga.script), panchaanga.solar_month_day[d])
     else:
       month_data = '%s (%s %d); %s' % (
-        jyotisha.names.NAMES['RASHI_NAMES'][panchaanga.script][panchaanga.solar_month[d]],
+        jyotisha.names.NAMES['RASHI_NAMES'][panchaanga.script][panchaanga.daily_panchaangas[d].solar_month_sunset],
         getName('dinaM', panchaanga.script), panchaanga.solar_month_day[d], month_end_str)
 
     vara = jyotisha.names.NAMES['VARA_NAMES'][panchaanga.script][panchaanga.daily_panchaangas[d].date.get_weekday()]

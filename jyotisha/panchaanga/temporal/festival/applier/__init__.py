@@ -120,7 +120,7 @@ class FestivalAssigner(PanchaangaApplier):
             self.add_festival(festival_name, d, debug_festivals)
             continue
 
-        if angam_type == 'day' and month_type == 'solar_month' and self.panchaanga.solar_month[d] == month_num:
+        if angam_type == 'day' and month_type == 'solar_month' and self.panchaanga.daily_panchaangas[d].solar_month_sunset == month_num:
           if self.panchaanga.solar_month_day[d] == angam_num:
             if kaala == 'arunodaya':
               angams = self.panchaanga.get_angas_for_interval_boundaries(d - 1,
@@ -135,7 +135,7 @@ class FestivalAssigner(PanchaangaApplier):
               self.add_festival(festival_name, d, debug_festivals)
         elif (month_type == 'lunar_month' and ((self.panchaanga.lunar_month[d] == month_num or month_num == 0) or (
             (self.panchaanga.lunar_month[d + 1] == month_num and angam_num == 1)))) or \
-            (month_type == 'solar_month' and (self.panchaanga.solar_month[d] == month_num or month_num == 0)):
+            (month_type == 'solar_month' and (self.panchaanga.daily_panchaangas[d].solar_month_sunset == month_num or month_num == 0)):
           # Using 0 as a special tag to denote every month!
           if angam_type == 'tithi':
             angam_sunrise = [d.tithi_at_sunrise for d in self.panchaanga.daily_panchaangas]
@@ -308,7 +308,7 @@ class FestivalAssigner(PanchaangaApplier):
             if (month_type == 'lunar_month' and ((self.panchaanga.lunar_month[d] == month_num or month_num == 0) or (
                 (self.panchaanga.lunar_month[d + 1] == month_num and angam_num == 1)))) or \
                 (month_type == 'solar_month' and (
-                    self.panchaanga.solar_month[fday] == month_num or month_num == 0)):
+                    self.panchaanga.daily_panchaangas[fday].solar_month_sunset == month_num or month_num == 0)):
               # If month on fday is incorrect, we ignore and move.
               if month_type == 'lunar_month' and angam_num == 1 and self.panchaanga.lunar_month[
                 fday + 1] != month_num:
@@ -322,7 +322,7 @@ class FestivalAssigner(PanchaangaApplier):
               if debug_festivals:
                 if month_type == 'solar_month':
                   logging.warning('Not adding festival %s on %d fday (month = %d instead of %d)' % (
-                    festival_name, fday, self.panchaanga.solar_month[fday], month_num))
+                    festival_name, fday, self.panchaanga.daily_panchaangas[fday].solar_month_sunset, month_num))
                 else:
                   logging.warning('Not adding festival %s on %d fday (month = %d instead of %d)' % (
                     festival_name, fday, self.panchaanga.lunar_month[fday], month_num))
@@ -332,7 +332,7 @@ class FestivalAssigner(PanchaangaApplier):
     solar_y_start_d = []
     lunar_y_start_d = []
     for d in range(1, self.panchaanga.duration + 1):
-      if self.panchaanga.solar_month[d] == 1 and self.panchaanga.solar_month[d - 1] != 1:
+      if self.panchaanga.daily_panchaangas[d].solar_month_sunset == 1 and self.panchaanga.daily_panchaangas[d - 1].solar_month_sunset != 1:
         solar_y_start_d.append(d)
       if self.panchaanga.lunar_month[d] == 1 and self.panchaanga.lunar_month[d - 1] != 1:
         lunar_y_start_d.append(d)
@@ -424,7 +424,7 @@ class MiscFestivalAssigner(FestivalAssigner):
 
       # AGNI NAKSHATRAM
       # Arbitrarily checking after Mesha 10! Agni Nakshatram can't start earlier...
-      if self.panchaanga.solar_month[d] == 1 and self.panchaanga.solar_month_day[d] == 10:
+      if self.panchaanga.daily_panchaangas[d].solar_month_sunset == 1 and self.panchaanga.solar_month_day[d] == 10:
         agni_jd_start, dummy = AngaSpan.find(
           self.panchaanga.daily_panchaangas[d].jd_sunrise, self.panchaanga.daily_panchaangas[d].jd_sunrise + 30,
           zodiac.AngaType.SOLAR_NAKSH_PADA, 7, ayanamsha_id=self.panchaanga.ayanamsha_id).to_tuple()
@@ -432,11 +432,11 @@ class MiscFestivalAssigner(FestivalAssigner):
           agni_jd_start, agni_jd_start + 30,
           zodiac.AngaType.SOLAR_NAKSH_PADA, 13, ayanamsha_id=self.panchaanga.ayanamsha_id).to_tuple()
 
-      if self.panchaanga.solar_month[d] == 1 and self.panchaanga.solar_month_day[d] > 10:
+      if self.panchaanga.daily_panchaangas[d].solar_month_sunset == 1 and self.panchaanga.solar_month_day[d] > 10:
         if agni_jd_start is not None:
           if self.panchaanga.daily_panchaangas[d].jd_sunset < agni_jd_start < self.panchaanga.daily_panchaangas[d + 1].jd_sunset:
             self.add_festival('agninakSatra-ArambhaH', d + 1, debug_festivals)
-      if self.panchaanga.solar_month[d] == 2 and self.panchaanga.solar_month_day[d] > 10:
+      if self.panchaanga.daily_panchaangas[d].solar_month_sunset == 2 and self.panchaanga.solar_month_day[d] > 10:
         if agni_jd_end is not None:
           if self.panchaanga.daily_panchaangas[d].jd_sunset < agni_jd_end < self.panchaanga.daily_panchaangas[d + 1].jd_sunset:
             self.add_festival('agninakSatra-samApanam', d + 1, debug_festivals)

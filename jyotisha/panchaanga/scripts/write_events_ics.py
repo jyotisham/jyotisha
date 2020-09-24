@@ -88,11 +88,11 @@ def compute_events(p, json_file):
           continue
 
       if angam_type == 'day' and month_type == 'solar_month' \
-          and p.solar_month[d] == month_num:
+          and p.daily_panchaangas[d].solar_month_sunset == month_num:
         if p.solar_month_day[d] == angam_num:
           p.fest_days[event_name] = [d]
       elif (month_type == 'lunar_month' and p.lunar_month[d] == month_num) or \
-          (month_type == 'solar_month' and p.solar_month[d] == month_num):
+          (month_type == 'solar_month' and p.daily_panchaangas[d].solar_month_sunset == month_num):
         if angam_type == 'tithi':
           angam_sunrise = p.tithi_at_sunrise
           get_angam_func = lambda x: tithi.get_tithi(x)
@@ -181,7 +181,7 @@ def compute_events(p, json_file):
                 logging.debug('Assigned fday = %d' % d)
             elif angams[2] == angam_num or angams[3] == angam_num:
               if (month_type == 'lunar_month' and p.lunar_month[d + 1] == month_num) or \
-                  (month_type == 'solar_month' and p.solar_month[d + 1] == month_num):
+                  (month_type == 'solar_month' and p.daily_panchaangas[d + 1].solar_month_sunset == month_num):
                 fday = d + 1
                 logging.debug('Assigned fday = %d' % (d + 1))
             else:

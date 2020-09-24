@@ -38,8 +38,8 @@ def writeDailyTeX(panchaanga, template_file, compute_lagnams=True, output_stream
   for i in range(len(template_lines)):
     print(template_lines[i][:-1], file=output_stream)
 
-  kali_year_start = panchaanga.start_date[0] + 3100 + (panchaanga.solar_month[1] == 1)
-  kali_year_end = panchaanga.end_date[0] + 3100 + (panchaanga.solar_month[panchaanga.duration] == 1)
+  kali_year_start = panchaanga.start_date[0] + 3100 + (panchaanga.daily_panchaangas[1].solar_month_sunset == 1)
+  kali_year_end = panchaanga.end_date[0] + 3100 + (panchaanga.daily_panchaangas[panchaanga.duration].solar_month_sunset == 1)
   # Aligning to prabhava cycle from Kali start (+12 below)
   samvatsara_names = [jyotisha.names.NAMES['SAMVATSARA_NAMES'][panchaanga.script][(_x + 12) % 60 + 1] for _x in
                       list(range(kali_year_start, kali_year_end + 1))]
@@ -298,7 +298,7 @@ def writeDailyTeX(panchaanga, template_file, compute_lagnams=True, output_stream
       jyotisha.panchaanga.temporal.hour.Hour(24 * (panchaanga.daily_panchaangas[d].kaalas['gulika'][1] - jd)).toString(
         format=panchaanga.fmt))
 
-    if panchaanga.solar_month[d] == 1 and panchaanga.solar_month[d - 1] == 12 and d > 1:
+    if panchaanga.daily_panchaangas[d].solar_month_sunset == 1 and panchaanga.daily_panchaangas[d - 1].solar_month_sunset == 12 and d > 1:
       # Move to next year
       yname = samvatsara_names[samvatsara_names.index(yname) + 1]
 
@@ -310,7 +310,7 @@ def writeDailyTeX(panchaanga, template_file, compute_lagnams=True, output_stream
     if panchaanga.solar_month_end_time[d] is None:
       month_end_str = ''
     else:
-      _m = panchaanga.solar_month[d - 1]
+      _m = panchaanga.daily_panchaangas[d - 1].solar_month_sunset
       if panchaanga.solar_month_end_time[d] >= panchaanga.daily_panchaangas[d + 1].jd_sunrise:
         month_end_str = '\\mbox{%s{\\tiny\\RIGHTarrow}\\textsf{%s}}' % (
           jyotisha.names.NAMES['RASHI_NAMES'][panchaanga.script][_m], jyotisha.panchaanga.temporal.hour.Hour(
@@ -321,7 +321,7 @@ def writeDailyTeX(panchaanga, template_file, compute_lagnams=True, output_stream
             24 * (panchaanga.solar_month_end_time[d] - panchaanga.daily_panchaangas[d].julian_day_start)).toString(format=panchaanga.fmt))
 
     month_data = '\\sunmonth{%s}{%d}{%s}' % (
-      jyotisha.names.NAMES['RASHI_NAMES'][panchaanga.script][panchaanga.solar_month[d]], panchaanga.solar_month_day[d],
+      jyotisha.names.NAMES['RASHI_NAMES'][panchaanga.script][panchaanga.daily_panchaangas[d].solar_month_sunset], panchaanga.solar_month_day[d],
       month_end_str)
 
     print('\\caldata{%s}{%s}{%s{%s}{%s}{%s}%s}' %

@@ -77,7 +77,6 @@ class Panchaanga(common.JsonObject):
     daily_panchaanga_start = daily.DailyPanchanga(city=self.city, date=time.Date(year=prev_day_yy, month=prev_day_mm,
                                                                        day=prev_day_dd), ayanamsha_id=self.ayanamsha_id)
     daily_panchaanga_start.compute_solar_day()
-    self.solar_month[1] = daily_panchaanga_start.solar_month
     solar_month_day = daily_panchaanga_start.solar_month_day
 
     solar_month_today_sunset = NakshatraDivision(daily_panchaanga_start.jd_sunset,
@@ -101,7 +100,6 @@ class Panchaanga(common.JsonObject):
                                                            previous_day_panchaanga=self.daily_panchaangas[d])
       self.daily_panchaangas[d + 1].compute_sun_moon_transitions(previous_day_panchaanga=self.daily_panchaangas[d])
       self.daily_panchaangas[d + 1].compute_solar_month()
-      self.solar_month[d + 1] = self.daily_panchaangas[d + 1].solar_month_sunset
 
       if (d <= 0):
         continue
@@ -115,15 +113,15 @@ class Panchaanga(common.JsonObject):
         month_start_after_sunset = False
 
       solar_month_end_jd = None
-      if self.solar_month[d] != self.solar_month[d + 1]:
+      if self.daily_panchaangas[d].solar_month_sunset != self.daily_panchaangas[d + 1].solar_month_sunset:
         solar_month_day = solar_month_day + 1
-        if self.solar_month[d] != self.daily_panchaangas[d + 1].solar_month_sunrise:
+        if self.daily_panchaangas[d].solar_month_sunset != self.daily_panchaangas[d + 1].solar_month_sunrise:
           month_start_after_sunset = True
           [_m, solar_month_end_jd] = zodiac.get_angam_data(
             self.daily_panchaangas[d].jd_sunrise, self.daily_panchaangas[d + 1].jd_sunrise, zodiac.AngaType.SOLAR_MONTH,
             ayanamsha_id=self.ayanamsha_id)[
             0]
-      elif self.daily_panchaangas[d].solar_month_sunrise != self.solar_month[d]:
+      elif self.daily_panchaangas[d].solar_month_sunrise != self.daily_panchaangas[d].solar_month_sunset:
         # sankrAnti!
         # sun moves into next rAshi before sunset
         solar_month_day = 1
@@ -272,7 +270,7 @@ class Panchaanga(common.JsonObject):
                                       NakshatraDivision(self.daily_panchaangas[d].jd_sunrise,
                                                         ayanamsha_id=self.ayanamsha_id).get_anga_float(
                                         zodiac.AngaType.TITHI),
-                                      self.solar_month[d], self.lunar_month[d])
+                                      self.daily_panchaangas[d].solar_month_sunset, self.lunar_month[d])
       log_file.write(log_data)
 
   def update_festival_details(self, debug=False):

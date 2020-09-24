@@ -231,19 +231,19 @@ def writeDailyTeX(panchaanga, template_file, compute_lagnams=True, output_stream
       time.Hour(24 * (panchaanga.daily_panchaangas[d].kaalas['gulika'][1] - jd)).toString(
         format=panchaanga.fmt))
 
-    if panchaanga.solar_month[d] == 1:
+    if panchaanga.daily_panchaangas[d].solar_month_sunset == 1:
       # Flip the year name for the remaining days
       yname = samvatsara_names[1]
 
     # Assign samvatsara, ayana, rtu #
     sar_data = '{%s}{%s}{%s}' % (yname,
-                                 jyotisha.names.NAMES['AYANA_NAMES'][panchaanga.script][panchaanga.solar_month[d]],
-                                 jyotisha.names.NAMES['RTU_NAMES'][panchaanga.script][panchaanga.solar_month[d]])
+                                 jyotisha.names.NAMES['AYANA_NAMES'][panchaanga.script][panchaanga.daily_panchaangas[d].solar_month_sunset],
+                                 jyotisha.names.NAMES['RTU_NAMES'][panchaanga.script][panchaanga.daily_panchaangas[d].solar_month_sunset])
 
     if panchaanga.solar_month_end_time[d] is None:
       month_end_str = ''
     else:
-      _m = panchaanga.solar_month[d - 1]
+      _m = panchaanga.daily_panchaangas[d - 1].solar_month_sunset
       if panchaanga.solar_month_end_time[d] >= panchaanga.daily_panchaangas[d + 1].jd_sunrise:
         month_end_str = '\\mbox{%s{\\tiny\\RIGHTarrow}\\textsf{%s}}' % (
           jyotisha.names.NAMES['RASHI_NAMES'][panchaanga.script][_m], time.Hour(
@@ -254,7 +254,7 @@ def writeDailyTeX(panchaanga, template_file, compute_lagnams=True, output_stream
             24 * (panchaanga.solar_month_end_time[d] - panchaanga.daily_panchaangas[d].julian_day_start)).toString(format=panchaanga.fmt))
 
     month_data = '\\sunmonth{%s}{%d}{%s}' % (
-      jyotisha.names.NAMES['RASHI_NAMES'][panchaanga.script][panchaanga.solar_month[d]], panchaanga.solar_month_day[d],
+      jyotisha.names.NAMES['RASHI_NAMES'][panchaanga.script][panchaanga.daily_panchaangas[d].solar_month_sunset], panchaanga.solar_month_day[d],
       month_end_str)
 
     print('\\caldata{%s}{%s}{%s{%s}{%s}{%s}%s}' %

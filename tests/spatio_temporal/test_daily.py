@@ -16,10 +16,11 @@ logging.basicConfig(
 def test_solar_day():
   panchaanga = daily.DailyPanchanga.from_city_and_julian_day(
     city=City('Chennai', '13:05:24', '80:16:12', 'Asia/Calcutta'), julian_day=2457023.27)
+  panchaanga.compute_solar_month()
   panchaanga.compute_solar_day()
   logging.debug(str(panchaanga))
   assert panchaanga.solar_month_day == 16
-  assert panchaanga.solar_month == 9
+  assert panchaanga.solar_month_sunset == 9
 
 
 def test_sunrise_mtv():

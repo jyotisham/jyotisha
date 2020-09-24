@@ -51,8 +51,9 @@ class DailyPanchanga(common.JsonObject):
     self.lagna_data = None
     self.kaalas = None
 
+    self.solar_month_sunrise = None
+    self.solar_month_sunset = None
     self.solar_month_day = None
-    self.solar_month_end_jd = None
 
     self.tithi_data = None
     self.tithi_at_sunrise = None
@@ -115,14 +116,14 @@ class DailyPanchanga(common.JsonObject):
     if not hasattr(self, "jd_sunrise") or self.jd_sunrise is None:
       self.compute_sun_moon_transitions()
 
-    self.longitude_sun_sunrise = Graha.singleton(Graha.SUN).get_longitude(self.jd_sunrise) - Ayanamsha.singleton(
+    longitude_sun_sunrise = Graha.singleton(Graha.SUN).get_longitude(self.jd_sunrise) - Ayanamsha.singleton(
       self.ayanamsha_id).get_offset(self.jd_sunrise)
-    self.longitude_sun_sunset = Graha.singleton(Graha.SUN).get_longitude(self.jd_sunset) - Ayanamsha.singleton(
+    longitude_sun_sunset = Graha.singleton(Graha.SUN).get_longitude(self.jd_sunset) - Ayanamsha.singleton(
       self.ayanamsha_id).get_offset(self.jd_sunset)
 
     # Each solar month has 30 days. So, divide the longitude by 30 to get the solar month.
-    self.solar_month_sunset = int(1 + floor((self.longitude_sun_sunset % 360) / 30.0))
-    self.solar_month_sunrise = int(1 + floor(((self.longitude_sun_sunrise) % 360) / 30.0))
+    self.solar_month_sunset = int(1 + floor((longitude_sun_sunset % 360) / 30.0))
+    self.solar_month_sunrise = int(1 + floor(((longitude_sun_sunrise) % 360) / 30.0))
     # if self.solar_month_sunset != self.solar_month_sunrise:
     #   # sankrAnti.
     #   [_m, self.solar_month_end_jd] = temporal.get_angam_data(
@@ -149,7 +150,6 @@ class DailyPanchanga(common.JsonObject):
     # If solar transition happens before the current sunset but after the previous sunset, then that is taken to be solar day 1. Number of sunsets since the past solar month transition gives the solar day number.
     if not hasattr(self, "jd_sunrise") or self.jd_sunrise is None:
       self.compute_sun_moon_transitions()
-    self.solar_month = NakshatraDivision(self.jd_sunset, ayanamsha_id=self.ayanamsha_id).get_anga(AngaType.SOLAR_MONTH)
     target = ((floor(NakshatraDivision(self.jd_sunset, ayanamsha_id=self.ayanamsha_id).get_anga_float(
       AngaType.SOLAR_MONTH)) - 1) % 12) + 1
 

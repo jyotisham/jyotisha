@@ -202,7 +202,7 @@ class TithiFestivalAssigner(FestivalAssigner):
               'sarva-' + names.get_ekadashi_name(ekadashi_paksha, self.panchaanga.lunar_month[d]),
               smaarta_ekadashi_fday, debug_festivals)
             if ekadashi_paksha == 'shukla':
-              if self.panchaanga.solar_month[d] == 9:
+              if self.panchaanga.daily_panchaangas[d].solar_month_sunset == 9:
                 self.add_festival('sarva-vaikuNTha-EkAdazI', smaarta_ekadashi_fday, debug_festivals)
           else:
             self.add_festival(
@@ -212,7 +212,7 @@ class TithiFestivalAssigner(FestivalAssigner):
               'vaiSNava-' + names.get_ekadashi_name(ekadashi_paksha, self.panchaanga.lunar_month[d]),
               vaishnava_ekadashi_fday, debug_festivals)
             if ekadashi_paksha == 'shukla':
-              if self.panchaanga.solar_month[d] == 9:
+              if self.panchaanga.daily_panchaangas[d].solar_month_sunset == 9:
                 self.add_festival('smArta-vaikuNTha-EkAdazI', smaarta_ekadashi_fday, debug_festivals)
                 self.add_festival('vaiSNava-vaikuNTha-EkAdazI', vaishnava_ekadashi_fday,
                                   debug_festivals)
@@ -225,7 +225,7 @@ class TithiFestivalAssigner(FestivalAssigner):
           self.add_festival(
             'vaiSNava-' + names.get_ekadashi_name(ekadashi_paksha, self.panchaanga.lunar_month[d]),
             vaishnava_ekadashi_fday, debug_festivals)
-          if self.panchaanga.solar_month[d] == 9:
+          if self.panchaanga.daily_panchaangas[d].solar_month_sunset == 9:
             if ekadashi_paksha == 'shukla':
               self.add_festival('smArta-vaikuNTha-EkAdazI (gRhastha)', smaarta_ekadashi_fday,
                                 debug_festivals)
@@ -237,7 +237,7 @@ class TithiFestivalAssigner(FestivalAssigner):
           # Must have already assigned
           pass
         else:
-          if self.panchaanga.solar_month[d] == 8 and ekadashi_paksha == 'shukla':
+          if self.panchaanga.daily_panchaangas[d].solar_month_sunset == 8 and ekadashi_paksha == 'shukla':
             # self.add_festival('guruvAyupura-EkAdazI', smaarta_ekadashi_fday, debug_festivals)
             self.add_festival('guruvAyupura-EkAdazI', vaishnava_ekadashi_fday, debug_festivals)
             self.add_festival('kaizika-EkAdazI', vaishnava_ekadashi_fday, debug_festivals)
@@ -354,10 +354,10 @@ class TithiFestivalAssigner(FestivalAssigner):
         if self.panchaanga.lunar_month[d] == 6:
           pref = '(%s) mahAlaya ' % (
             names.get_chandra_masa(self.panchaanga.lunar_month[d], names.NAMES, 'hk', visarga=False))
-        elif self.panchaanga.solar_month[d] == 4:
+        elif self.panchaanga.daily_panchaangas[d].solar_month_sunset == 4:
           pref = '%s (kaTaka) ' % (
             names.get_chandra_masa(self.panchaanga.lunar_month[d], names.NAMES, 'hk', visarga=False))
-        elif self.panchaanga.solar_month[d] == 10:
+        elif self.panchaanga.daily_panchaangas[d].solar_month_sunset == 10:
           pref = 'mauni (%s/makara) ' % (
             names.get_chandra_masa(self.panchaanga.lunar_month[d], names.NAMES, 'hk', visarga=False))
         else:

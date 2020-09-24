@@ -162,8 +162,8 @@ class TithiAssigner(PanchaangaApplier):
           if debug_shraaddha_tithi:
             logging.debug((d, self.panchaanga.solar_month_end_time[d]))
           aparaahna_start, aparaahna_end = interval.get_interval(self.panchaanga.daily_panchaangas[d].jd_sunrise, self.panchaanga.daily_panchaangas[d].jd_sunset, 3, 5).to_tuple()
-          m1 = self.panchaanga.solar_month[d - 1]  # Previous month
-          m2 = self.panchaanga.solar_month[d]  # Current month
+          m1 = self.panchaanga.daily_panchaangas[d - 1].solar_month_sunset  # Previous month
+          m2 = self.panchaanga.daily_panchaangas[d].solar_month_sunset  # Current month
           if aparaahna_start < self.panchaanga.solar_month_end_time[d] < aparaahna_end:
             if debug_shraaddha_tithi:
               logging.debug('Sankranti in aparaahna! Assigning to both months!')
@@ -187,7 +187,7 @@ class TithiAssigner(PanchaangaApplier):
               tithi_days[m1][t].extend([d, '*'])
         else:
           for t in self.panchaanga.daily_panchaangas[d].shraaddha_tithi:
-            tithi_days[self.panchaanga.solar_month[d]][t].append(d)
+            tithi_days[self.panchaanga.daily_panchaangas[d].solar_month_sunset][t].append(d)
   
     # We have now assigned all tithis. Now, remove duplicates based on the above-mentioned rules.
     # TODO: This is not the best way to clean. Need to examine one month at a time.

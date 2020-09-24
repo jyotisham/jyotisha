@@ -231,7 +231,7 @@ def writeMonthlyTeX(panchaanga, template_file, temporal=None):
     if panchaanga.solar_month_end_time[d] is None:
       month_end_str = ''
     else:
-      _m = panchaanga.solar_month[d - 1]
+      _m = panchaanga.daily_panchaangas[d - 1].solar_month_sunset
       if panchaanga.solar_month_end_time[d] >= panchaanga.daily_panchaangas[d + 1].jd_sunrise:
         month_end_str = '\\mbox{%s{\\tiny\\RIGHTarrow}\\textsf{%s}}' % (
           jyotisha.names.NAMES['RASHI_NAMES'][panchaanga.script][_m], jyotisha.panchaanga.temporal.hour.Hour(
@@ -242,7 +242,7 @@ def writeMonthlyTeX(panchaanga, template_file, temporal=None):
             24 * (panchaanga.solar_month_end_time[d] - panchaanga.daily_panchaangas[d].julian_day_start)).toString(format=panchaanga.fmt))
 
     month_data = '\\sunmonth{%s}{%d}{%s}' % (
-      jyotisha.names.NAMES['RASHI_NAMES'][panchaanga.script][panchaanga.solar_month[d]], panchaanga.solar_month_day[d],
+      jyotisha.names.NAMES['RASHI_NAMES'][panchaanga.script][panchaanga.daily_panchaangas[d].solar_month_sunset], panchaanga.solar_month_day[d],
       month_end_str)
 
     if currWeek < 6:
