@@ -132,7 +132,7 @@ def writeDailyTeX(panchaanga, template_file, compute_lagnams=True, output_stream
                             format=panchaanga.fmt))
     if compute_lagnams:
       lagna_data_str = 'लग्नम्–'
-      for lagna_ID, lagna_end_jd in panchaanga.lagna_data[d]:
+      for lagna_ID, lagna_end_jd in panchaanga.daily_panchaangas[d].lagna_data:
         lagna = jyotisha.names.NAMES['RASHI_NAMES'][panchaanga.script][lagna_ID]
         lagna_data_str = '%s\\mbox{%s\\RIGHTarrow\\textsf{%s}} ' % \
                          (lagna_data_str, lagna,
@@ -186,49 +186,49 @@ def writeDailyTeX(panchaanga, template_file, compute_lagnams=True, output_stream
     moonset = time.Hour(24 * (panchaanga.daily_panchaangas[d].jd_moonset - jd)).toString(
       format=panchaanga.fmt)
 
-    braahma_start = time.Hour(24 * (panchaanga.kaalas[d]['braahma'][0] - jd)).toString(
+    braahma_start = time.Hour(24 * (panchaanga.daily_panchaangas[d].kaalas['braahma'][0] - jd)).toString(
       format=panchaanga.fmt)
     pratahsandhya_start = time.Hour(
-      24 * (panchaanga.kaalas[d]['prAtaH sandhyA'][0] - jd)).toString(format=panchaanga.fmt)
+      24 * (panchaanga.daily_panchaangas[d].kaalas['prAtaH sandhyA'][0] - jd)).toString(format=panchaanga.fmt)
     pratahsandhya_end = time.Hour(
-      24 * (panchaanga.kaalas[d]['prAtaH sandhyA end'][0] - jd)).toString(format=panchaanga.fmt)
-    sangava = time.Hour(24 * (panchaanga.kaalas[d]['saGgava'][0] - jd)).toString(
+      24 * (panchaanga.daily_panchaangas[d].kaalas['prAtaH sandhyA end'][0] - jd)).toString(format=panchaanga.fmt)
+    sangava = time.Hour(24 * (panchaanga.daily_panchaangas[d].kaalas['saGgava'][0] - jd)).toString(
       format=panchaanga.fmt)
-    madhyaahna = time.Hour(24 * (panchaanga.kaalas[d]['madhyAhna'][0] - jd)).toString(
+    madhyaahna = time.Hour(24 * (panchaanga.daily_panchaangas[d].kaalas['madhyAhna'][0] - jd)).toString(
       format=panchaanga.fmt)
     madhyahnika_sandhya_start = time.Hour(
-      24 * (panchaanga.kaalas[d]['mAdhyAhnika sandhyA'][0] - jd)).toString(format=panchaanga.fmt)
+      24 * (panchaanga.daily_panchaangas[d].kaalas['mAdhyAhnika sandhyA'][0] - jd)).toString(format=panchaanga.fmt)
     madhyahnika_sandhya_end = time.Hour(
-      24 * (panchaanga.kaalas[d]['mAdhyAhnika sandhyA end'][0] - jd)).toString(format=panchaanga.fmt)
-    aparahna = time.Hour(24 * (panchaanga.kaalas[d]['aparAhna'][0] - jd)).toString(
+      24 * (panchaanga.daily_panchaangas[d].kaalas['mAdhyAhnika sandhyA end'][0] - jd)).toString(format=panchaanga.fmt)
+    aparahna = time.Hour(24 * (panchaanga.daily_panchaangas[d].kaalas['aparAhna'][0] - jd)).toString(
       format=panchaanga.fmt)
-    sayahna = time.Hour(24 * (panchaanga.kaalas[d]['sAyAhna'][0] - jd)).toString(
+    sayahna = time.Hour(24 * (panchaanga.daily_panchaangas[d].kaalas['sAyAhna'][0] - jd)).toString(
       format=panchaanga.fmt)
     sayamsandhya_start = time.Hour(
-      24 * (panchaanga.kaalas[d]['sAyaM sandhyA'][0] - jd)).toString(format=panchaanga.fmt)
+      24 * (panchaanga.daily_panchaangas[d].kaalas['sAyaM sandhyA'][0] - jd)).toString(format=panchaanga.fmt)
     sayamsandhya_end = time.Hour(
-      24 * (panchaanga.kaalas[d]['sAyaM sandhyA end'][0] - jd)).toString(format=panchaanga.fmt)
-    ratriyama1 = time.Hour(24 * (panchaanga.kaalas[d]['rAtri yAma 1'][0] - jd)).toString(
+      24 * (panchaanga.daily_panchaangas[d].kaalas['sAyaM sandhyA end'][0] - jd)).toString(format=panchaanga.fmt)
+    ratriyama1 = time.Hour(24 * (panchaanga.daily_panchaangas[d].kaalas['rAtri yAma 1'][0] - jd)).toString(
       format=panchaanga.fmt)
-    shayana_time_end = time.Hour(24 * (panchaanga.kaalas[d]['zayana'][0] - jd)).toString(
+    shayana_time_end = time.Hour(24 * (panchaanga.daily_panchaangas[d].kaalas['zayana'][0] - jd)).toString(
       format=panchaanga.fmt)
-    dinanta = time.Hour(24 * (panchaanga.kaalas[d]['dinAnta'][0] - jd)).toString(
+    dinanta = time.Hour(24 * (panchaanga.daily_panchaangas[d].kaalas['dinAnta'][0] - jd)).toString(
       format=panchaanga.fmt)
 
     rahu = '%s--%s' % (
-      time.Hour(24 * (panchaanga.kaalas[d]['rahu'][0] - jd)).toString(
+      time.Hour(24 * (panchaanga.daily_panchaangas[d].kaalas['rahu'][0] - jd)).toString(
         format=panchaanga.fmt),
-      time.Hour(24 * (panchaanga.kaalas[d]['rahu'][1] - jd)).toString(
+      time.Hour(24 * (panchaanga.daily_panchaangas[d].kaalas['rahu'][1] - jd)).toString(
         format=panchaanga.fmt))
     yama = '%s--%s' % (
-      time.Hour(24 * (panchaanga.kaalas[d]['yama'][0] - jd)).toString(
+      time.Hour(24 * (panchaanga.daily_panchaangas[d].kaalas['yama'][0] - jd)).toString(
         format=panchaanga.fmt),
-      time.Hour(24 * (panchaanga.kaalas[d]['yama'][1] - jd)).toString(
+      time.Hour(24 * (panchaanga.daily_panchaangas[d].kaalas['yama'][1] - jd)).toString(
         format=panchaanga.fmt))
     gulika = '%s--%s' % (
-      time.Hour(24 * (panchaanga.kaalas[d]['gulika'][0] - jd)).toString(
+      time.Hour(24 * (panchaanga.daily_panchaangas[d].kaalas['gulika'][0] - jd)).toString(
         format=panchaanga.fmt),
-      time.Hour(24 * (panchaanga.kaalas[d]['gulika'][1] - jd)).toString(
+      time.Hour(24 * (panchaanga.daily_panchaangas[d].kaalas['gulika'][1] - jd)).toString(
         format=panchaanga.fmt))
 
     if panchaanga.solar_month[d] == 1:
@@ -262,7 +262,7 @@ def writeDailyTeX(panchaanga, template_file, compute_lagnams=True, output_stream
            jyotisha.names.get_chandra_masa(panchaanga.lunar_month[d],
                                            jyotisha.names.NAMES, panchaanga.script),
            jyotisha.names.NAMES['RTU_NAMES'][panchaanga.script][int(ceil(panchaanga.lunar_month[d]))],
-           jyotisha.names.NAMES['VARA_NAMES'][panchaanga.script][panchaanga.weekday[d]], sar_data), file=output_stream)
+           jyotisha.names.NAMES['VARA_NAMES'][panchaanga.script][panchaanga.daily_panchaangas[d].date.get_weekday()], sar_data), file=output_stream)
 
     if panchaanga.daily_panchaangas[d].jd_moonrise > panchaanga.daily_panchaangas[d + 1].jd_sunrise:
       moonrise = '---'
@@ -297,7 +297,7 @@ def writeDailyTeX(panchaanga, template_file, compute_lagnams=True, output_stream
       [jyotisha.custom_transliteration.tr(f, panchaanga.script).replace('★', '$^\\star$') for f in
        sorted(set(panchaanga.daily_panchaangas[d].festivals))]), file=output_stream)
 
-    print('{%s} ' % WDAY[panchaanga.weekday[d]], file=output_stream)
+    print('{%s} ' % WDAY[panchaanga.daily_panchaangas[d].date.get_weekday()], file=output_stream)
     print('\\cfoot{\\rygdata{%s}{%s}{%s}}' % (rahu, yama, gulika), file=output_stream)
 
     if m == 12 and dt == 31:

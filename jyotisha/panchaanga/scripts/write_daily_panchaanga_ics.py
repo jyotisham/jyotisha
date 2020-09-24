@@ -188,7 +188,7 @@ def writeDailyICS(panchaanga, compute_lagnams=True):
 
     if compute_lagnams:
       lagna_data_str = ''
-      for lagna_ID, lagna_end_jd in panchaanga.lagna_data[d]:
+      for lagna_ID, lagna_end_jd in panchaanga.daily_panchaangas[d].lagna_data:
         lagna = jyotisha.names.NAMES['RASHI_NAMES'][panchaanga.script][lagna_ID]
         lagna_data_str = '%s; %s►%s' % \
                          (lagna_data_str, lagna,
@@ -239,38 +239,38 @@ def writeDailyICS(panchaanga, compute_lagnams=True):
     moonset = jyotisha.panchaanga.temporal.hour.Hour(24 * (panchaanga.daily_panchaangas[d].jd_moonset - jd)).toString(
       format=panchaanga.fmt)
 
-    # braahma = jyotisha.panchaanga.temporal.Time(24 * (panchaanga.kaalas[d]['braahma'][0] - jd)).toString(format=panchaanga.fmt)
-    # pratahsandhya = jyotisha.panchaanga.temporal.Time(24 * (panchaanga.kaalas[d]['prAtaH sandhyA'][0] - jd)).toString(format=panchaanga.fmt)
-    # pratahsandhya_end = jyotisha.panchaanga.temporal.Time(24 * (panchaanga.kaalas[d]['prAtaH sandhyA end'][0] - jd)).toString(format=panchaanga.fmt)
-    # sangava = jyotisha.panchaanga.temporal.Time(24 * (panchaanga.kaalas[d]['saGgava'][0] - jd)).toString(format=panchaanga.fmt)
-    # madhyaahna = jyotisha.panchaanga.temporal.Time(24 * (panchaanga.kaalas[d]['madhyAhna'][0] - jd)).toString(format=panchaanga.fmt)
-    # madhyahnika_sandhya = jyotisha.panchaanga.temporal.Time(24 * (panchaanga.kaalas[d]['mAdhyAhnika sandhyA'][0] - jd)).toString(format=panchaanga.fmt)
-    # madhyahnika_sandhya_end = jyotisha.panchaanga.temporal.Time(24 * (panchaanga.kaalas[d]['mAdhyAhnika sandhyA end'][0] - jd)).toString(format=panchaanga.fmt)
-    aparahna = jyotisha.panchaanga.temporal.hour.Hour(24 * (panchaanga.kaalas[d]['aparAhna'][0] - jd)).toString(
+    # braahma = jyotisha.panchaanga.temporal.Time(24 * (panchaanga.daily_panchaangas[d].kaalas['braahma'][0] - jd)).toString(format=panchaanga.fmt)
+    # pratahsandhya = jyotisha.panchaanga.temporal.Time(24 * (panchaanga.daily_panchaangas[d].kaalas['prAtaH sandhyA'][0] - jd)).toString(format=panchaanga.fmt)
+    # pratahsandhya_end = jyotisha.panchaanga.temporal.Time(24 * (panchaanga.daily_panchaangas[d].kaalas['prAtaH sandhyA end'][0] - jd)).toString(format=panchaanga.fmt)
+    # sangava = jyotisha.panchaanga.temporal.Time(24 * (panchaanga.daily_panchaangas[d].kaalas['saGgava'][0] - jd)).toString(format=panchaanga.fmt)
+    # madhyaahna = jyotisha.panchaanga.temporal.Time(24 * (panchaanga.daily_panchaangas[d].kaalas['madhyAhna'][0] - jd)).toString(format=panchaanga.fmt)
+    # madhyahnika_sandhya = jyotisha.panchaanga.temporal.Time(24 * (panchaanga.daily_panchaangas[d].kaalas['mAdhyAhnika sandhyA'][0] - jd)).toString(format=panchaanga.fmt)
+    # madhyahnika_sandhya_end = jyotisha.panchaanga.temporal.Time(24 * (panchaanga.daily_panchaangas[d].kaalas['mAdhyAhnika sandhyA end'][0] - jd)).toString(format=panchaanga.fmt)
+    aparahna = jyotisha.panchaanga.temporal.hour.Hour(24 * (panchaanga.daily_panchaangas[d].kaalas['aparAhna'][0] - jd)).toString(
       format=panchaanga.fmt)
-    sayahna = jyotisha.panchaanga.temporal.hour.Hour(24 * (panchaanga.kaalas[d]['sAyAhna'][0] - jd)).toString(
+    sayahna = jyotisha.panchaanga.temporal.hour.Hour(24 * (panchaanga.daily_panchaangas[d].kaalas['sAyAhna'][0] - jd)).toString(
       format=panchaanga.fmt)
-    # sayamsandhya = jyotisha.panchaanga.temporal.Time(24 * (panchaanga.kaalas[d]['sAyaM sandhyA'][0] - jd)).toString(format=panchaanga.fmt)
-    # sayamsandhya_end = jyotisha.panchaanga.temporal.Time(24 * (panchaanga.kaalas[d]['sAyaM sandhyA end'][0] - jd)).toString(format=panchaanga.fmt)
-    # ratriyama1 = jyotisha.panchaanga.temporal.Time(24 * (panchaanga.kaalas[d]['rAtri yAma 1'][0] - jd)).toString(format=panchaanga.fmt)
-    # sayana_time = jyotisha.panchaanga.temporal.Time(24 * (panchaanga.kaalas[d]['zayana'][0] - jd)).toString(format=panchaanga.fmt)
-    dinanta = jyotisha.panchaanga.temporal.hour.Hour(24 * (panchaanga.kaalas[d]['dinAnta'][0] - jd)).toString(
+    # sayamsandhya = jyotisha.panchaanga.temporal.Time(24 * (panchaanga.daily_panchaangas[d].kaalas['sAyaM sandhyA'][0] - jd)).toString(format=panchaanga.fmt)
+    # sayamsandhya_end = jyotisha.panchaanga.temporal.Time(24 * (panchaanga.daily_panchaangas[d].kaalas['sAyaM sandhyA end'][0] - jd)).toString(format=panchaanga.fmt)
+    # ratriyama1 = jyotisha.panchaanga.temporal.Time(24 * (panchaanga.daily_panchaangas[d].kaalas['rAtri yAma 1'][0] - jd)).toString(format=panchaanga.fmt)
+    # sayana_time = jyotisha.panchaanga.temporal.Time(24 * (panchaanga.daily_panchaangas[d].kaalas['zayana'][0] - jd)).toString(format=panchaanga.fmt)
+    dinanta = jyotisha.panchaanga.temporal.hour.Hour(24 * (panchaanga.daily_panchaangas[d].kaalas['dinAnta'][0] - jd)).toString(
       format=panchaanga.fmt)
 
     rahu = '%s–%s' % (
-      jyotisha.panchaanga.temporal.hour.Hour(24 * (panchaanga.kaalas[d]['rahu'][0] - jd)).toString(
+      jyotisha.panchaanga.temporal.hour.Hour(24 * (panchaanga.daily_panchaangas[d].kaalas['rahu'][0] - jd)).toString(
         format=panchaanga.fmt),
-      jyotisha.panchaanga.temporal.hour.Hour(24 * (panchaanga.kaalas[d]['rahu'][1] - jd)).toString(
+      jyotisha.panchaanga.temporal.hour.Hour(24 * (panchaanga.daily_panchaangas[d].kaalas['rahu'][1] - jd)).toString(
         format=panchaanga.fmt))
     yama = '%s–%s' % (
-      jyotisha.panchaanga.temporal.hour.Hour(24 * (panchaanga.kaalas[d]['yama'][0] - jd)).toString(
+      jyotisha.panchaanga.temporal.hour.Hour(24 * (panchaanga.daily_panchaangas[d].kaalas['yama'][0] - jd)).toString(
         format=panchaanga.fmt),
-      jyotisha.panchaanga.temporal.hour.Hour(24 * (panchaanga.kaalas[d]['yama'][1] - jd)).toString(
+      jyotisha.panchaanga.temporal.hour.Hour(24 * (panchaanga.daily_panchaangas[d].kaalas['yama'][1] - jd)).toString(
         format=panchaanga.fmt))
     gulika = '%s–%s' % (
-      jyotisha.panchaanga.temporal.hour.Hour(24 * (panchaanga.kaalas[d]['gulika'][0] - jd)).toString(
+      jyotisha.panchaanga.temporal.hour.Hour(24 * (panchaanga.daily_panchaangas[d].kaalas['gulika'][0] - jd)).toString(
         format=panchaanga.fmt),
-      jyotisha.panchaanga.temporal.hour.Hour(24 * (panchaanga.kaalas[d]['gulika'][1] - jd)).toString(
+      jyotisha.panchaanga.temporal.hour.Hour(24 * (panchaanga.daily_panchaangas[d].kaalas['gulika'][1] - jd)).toString(
         format=panchaanga.fmt))
 
     if panchaanga.solar_month[d] == 1:
@@ -307,7 +307,7 @@ def writeDailyICS(panchaanga, compute_lagnams=True):
         jyotisha.names.NAMES['RASHI_NAMES'][panchaanga.script][panchaanga.solar_month[d]],
         getName('dinaM', panchaanga.script), panchaanga.solar_month_day[d], month_end_str)
 
-    vara = jyotisha.names.NAMES['VARA_NAMES'][panchaanga.script][panchaanga.weekday[d]]
+    vara = jyotisha.names.NAMES['VARA_NAMES'][panchaanga.script][panchaanga.daily_panchaangas[d].date.get_weekday()]
 
     if yname_lunar == yname_solar:
       print('*' + getName('saMvatsaraH', panchaanga.script) + '*—%s' % yname_lunar, file=output_stream)
@@ -388,11 +388,11 @@ def writeDailyICS(panchaanga, compute_lagnams=True):
                                            getName('gulikakAlaH', panchaanga.script), gulika), file=output_stream)
 
     shulam_end_jd = panchaanga.daily_panchaangas[d].jd_sunrise + (panchaanga.daily_panchaangas[d].jd_sunset - panchaanga.daily_panchaangas[d].jd_sunrise) * (
-          SHULAM[panchaanga.weekday[d]][1] / 30)
+          SHULAM[panchaanga.daily_panchaangas[d].date.get_weekday()][1] / 30)
     print('*%s*—%s (►%s); *%s*–%s' % (
-    getName('zUlam', panchaanga.script), getName(SHULAM[panchaanga.weekday[d]][0], panchaanga.script),
+    getName('zUlam', panchaanga.script), getName(SHULAM[panchaanga.daily_panchaangas[d].date.get_weekday()][0], panchaanga.script),
     jyotisha.panchaanga.temporal.hour.Hour(24 * (shulam_end_jd - jd)).toString(format=panchaanga.fmt),
-    getName('parihAraH', panchaanga.script), getName(SHULAM[panchaanga.weekday[d]][2], panchaanga.script)),
+    getName('parihAraH', panchaanga.script), getName(SHULAM[panchaanga.daily_panchaangas[d].date.get_weekday()][2], panchaanga.script)),
           file=output_stream)
     # Using set as an ugly workaround since we may have sometimes assigned the same
     # festival to the same day again!

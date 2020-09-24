@@ -37,7 +37,7 @@ class SolarFestivalAssigner(FestivalAssigner):
           self.panchaanga.fest_days['ta:kAraDaiyAn2 nOn2bu'] = [d]
 
       # KUCHELA DINAM
-      if self.panchaanga.solar_month[d] == 9 and self.panchaanga.solar_month_day[d] <= 7 and self.panchaanga.weekday[d] == 3:
+      if self.panchaanga.solar_month[d] == 9 and self.panchaanga.solar_month_day[d] <= 7 and self.panchaanga.daily_panchaangas[d].date.get_weekday() == 3:
         self.panchaanga.fest_days['kucEla-dinam'] = [d]
 
       # MESHA SANKRANTI
@@ -171,11 +171,11 @@ class SolarFestivalAssigner(FestivalAssigner):
             sunset_zodiac.get_anga(zodiac.AngaType.NAKSHATRA) == 17 and \
             sunrise_zodiac.get_anga(zodiac.AngaType.NAKSHATRA) == 22 or \
             sunset_zodiac.get_anga(zodiac.AngaType.NAKSHATRA) == 22:
-          if self.panchaanga.weekday[d] == 1:
+          if self.panchaanga.daily_panchaangas[d].date.get_weekday() == 1:
             festival_name = 'mahOdaya-puNyakAlaH'
             self.add_festival(festival_name, d, debug_festivals)
             # logging.debug('* %d-%02d-%02d> %s!' % (y, m, dt, festival_name))
-          elif self.panchaanga.weekday[d] == 0:
+          elif self.panchaanga.daily_panchaangas[d].date.get_weekday() == 0:
             festival_name = 'ardhOdaya-puNyakAlaH'
             self.add_festival(festival_name, d, debug_festivals)
             # logging.debug('* %d-%02d-%02d> %s!' % (y, m, dt, festival_name))

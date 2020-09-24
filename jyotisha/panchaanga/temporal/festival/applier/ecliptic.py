@@ -106,7 +106,7 @@ class EclipticFestivalAssigner(FestivalAssigner):
         solar_eclipse_str = 'sUrya-grahaNam' + \
                             '~\\textsf{' + Hour(eclipse_solar_start).toString(format=self.panchaanga.fmt) + \
                             '}{\\RIGHTarrow}\\textsf{' + Hour(eclipse_solar_end).toString(format=self.panchaanga.fmt) + '}'
-        if self.panchaanga.weekday[fday] == 0:
+        if self.panchaanga.daily_panchaangas[fday].date.get_weekday() == 0:
           solar_eclipse_str = '★cUDAmaNi-' + solar_eclipse_str
         self.panchaanga.daily_panchaangas[fday].festivals.append(solar_eclipse_str)
       jd = jd + MIN_DAYS_NEXT_ECLIPSE
@@ -181,7 +181,7 @@ class EclipticFestivalAssigner(FestivalAssigner):
         lunar_eclipse_str = 'candra-grahaNam~(' + grasta + ')' + \
                             '~\\textsf{' + Hour(eclipse_lunar_start).toString(format=self.panchaanga.fmt) + \
                             '}{\\RIGHTarrow}\\textsf{' + Hour(eclipse_lunar_end).toString(format=self.panchaanga.fmt) + '}'
-        if self.panchaanga.weekday[fday] == 1:
+        if self.panchaanga.daily_panchaangas[fday].date.get_weekday() == 1:
           lunar_eclipse_str = '★cUDAmaNi-' + lunar_eclipse_str
 
         self.panchaanga.daily_panchaangas[fday].festivals.append(lunar_eclipse_str)

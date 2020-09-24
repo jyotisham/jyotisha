@@ -102,6 +102,7 @@ class Date(JsonObject):
     self.hour = hour
     self.minute = minute
     self.second = second
+    self.weekday = None
   
   def set_time_to_day_start(self):
     self.hour = 0
@@ -116,7 +117,9 @@ class Date(JsonObject):
     return [self.year, self.month, self.day, fractional_hour]
 
   def get_weekday(self):
-    return dt_module.date(year=self.year, month=self.month, day=self.day).isoweekday() % 7
+    if self.weekday is None:
+      self.weekday = dt_module.date(year=self.year, month=self.month, day=self.day).isoweekday() % 7
+    return self.weekday
 
   def sanitize(self):
     (year, month, day, hour, minute, second) = (self.year, self.month, self.day, self.hour, self.minute, self.second)

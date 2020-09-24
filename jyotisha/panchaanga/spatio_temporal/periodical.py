@@ -66,12 +66,7 @@ class Panchaanga(common.JsonObject):
     self.tropical_month_end_time = [None] * nDays
 
     self.lunar_month = [None] * nDays
-    self.kaalas = [None] * nDays
 
-    if compute_lagnas:
-      self.lagna_data = [None] * nDays
-
-    self.weekday = [None] * nDays
     self.daily_panchaangas: List[daily.DailyPanchanga] = [None] * nDays
 
     # Computing solar month details for Dec 31
@@ -96,9 +91,6 @@ class Panchaanga(common.JsonObject):
     #############################################################
     # Compute all parameters -- sun/moon latitude/longitude etc #
     #############################################################
-
-    for d in range(nDays):
-      self.weekday[d] = (self.weekday_start + d - 1) % 7
 
     for d in range(-1, nDays - 1):
       # TODO: Eventually, we are shifting to an array of daily panchangas. Reason: Better modularity.
@@ -147,9 +139,9 @@ class Panchaanga(common.JsonObject):
       self.solar_month_day[d] = solar_month_day
 
       # Compute all the anga datas
-      self.kaalas[d] = self.daily_panchaangas[d].get_kaalas()
+      self.daily_panchaangas[d].get_kaalas()
       if compute_lagnas:
-        self.lagna_data[d] = self.daily_panchaangas[d].get_lagna_data()
+        self.daily_panchaangas[d].get_lagna_data()
 
   def get_angas_for_interval_boundaries(self, d, get_anga_func, interval_type):
     jd_sunrise = self.daily_panchaangas[d].jd_sunrise

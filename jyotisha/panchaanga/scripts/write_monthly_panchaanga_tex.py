@@ -86,7 +86,7 @@ def writeMonthlyTeX(panchaanga, template_file, temporal=None):
         print('\\\\')
 
       print('%s & %s & %s & {\\raggedright %s} \\\\' %
-            (MON[m], dt, WDAY[panchaanga.weekday[d]],
+            (MON[m], dt, WDAY[panchaanga.daily_panchaangas[d].date.get_weekday()],
              '\\\\'.join([jyotisha.custom_transliteration.tr(f, panchaanga.script).replace('★', '$^\\star$')
                           for f in sorted(set(panchaanga.daily_panchaangas[d].festivals))])))
 
@@ -122,8 +122,8 @@ def writeMonthlyTeX(panchaanga, template_file, temporal=None):
         print(month_text)
         month_text = W6D1 = W6D2 = ''
         if currWeek < 6:
-          if panchaanga.weekday[d] != 0:  # Space till Sunday
-            for i in range(panchaanga.weekday[d], 6):
+          if panchaanga.daily_panchaangas[d].date.get_weekday() != 0:  # Space till Sunday
+            for i in range(panchaanga.daily_panchaangas[d].date.get_weekday(), 6):
               print("\\mbox{}  & %% %d" % currWeek)
             print("\\\\ \\hline")
         print('\\end{tabular}')
@@ -139,7 +139,7 @@ def writeMonthlyTeX(panchaanga, template_file, temporal=None):
                         _day for _day in WDAY_NAMES]) + ' \\\\ \\hline')
 
       # Blanks for previous weekdays
-      for i in range(0, panchaanga.weekday[d]):
+      for i in range(0, panchaanga.daily_panchaangas[d].date.get_weekday()):
         if i == 0:
           month_text += '\n' + ("{W6D1}  &")
         elif i == 1:
@@ -215,17 +215,17 @@ def writeMonthlyTeX(panchaanga, template_file, temporal=None):
     sunrise = jyotisha.panchaanga.temporal.hour.Hour(24 * (panchaanga.daily_panchaangas[d].jd_sunrise - jd)).toString(
       format=panchaanga.fmt)
     sunset = jyotisha.panchaanga.temporal.hour.Hour(24 * (panchaanga.daily_panchaangas[d].jd_sunset - jd)).toString(format=panchaanga.fmt)
-    sangava = jyotisha.panchaanga.temporal.hour.Hour(24 * (panchaanga.kaalas[d]['saGgava'][0] - jd)).toString(
+    sangava = jyotisha.panchaanga.temporal.hour.Hour(24 * (panchaanga.daily_panchaangas[d].kaalas['saGgava'][0] - jd)).toString(
       format=panchaanga.fmt)
     rahu = '%s--%s' % (
-      jyotisha.panchaanga.temporal.hour.Hour(24 * (panchaanga.kaalas[d]['rahu'][0] - jd)).toString(
+      jyotisha.panchaanga.temporal.hour.Hour(24 * (panchaanga.daily_panchaangas[d].kaalas['rahu'][0] - jd)).toString(
         format=panchaanga.fmt),
-      jyotisha.panchaanga.temporal.hour.Hour(24 * (panchaanga.kaalas[d]['rahu'][1] - jd)).toString(
+      jyotisha.panchaanga.temporal.hour.Hour(24 * (panchaanga.daily_panchaangas[d].kaalas['rahu'][1] - jd)).toString(
         format=panchaanga.fmt))
     yama = '%s--%s' % (
-      jyotisha.panchaanga.temporal.hour.Hour(24 * (panchaanga.kaalas[d]['yama'][0] - jd)).toString(
+      jyotisha.panchaanga.temporal.hour.Hour(24 * (panchaanga.daily_panchaangas[d].kaalas['yama'][0] - jd)).toString(
         format=panchaanga.fmt),
-      jyotisha.panchaanga.temporal.hour.Hour(24 * (panchaanga.kaalas[d]['yama'][1] - jd)).toString(
+      jyotisha.panchaanga.temporal.hour.Hour(24 * (panchaanga.daily_panchaangas[d].kaalas['yama'][1] - jd)).toString(
         format=panchaanga.fmt))
 
     if panchaanga.solar_month_end_time[d] is None:
@@ -247,7 +247,7 @@ def writeMonthlyTeX(panchaanga, template_file, temporal=None):
 
     if currWeek < 6:
       month_text += '\n' + ('\\caldata{\\textcolor{%s}{%s}}{%s{%s}}%%' %
-                            (day_colours[panchaanga.weekday[d]], dt, month_data,
+                            (day_colours[panchaanga.daily_panchaangas[d].date.get_weekday()], dt, month_data,
                              jyotisha.names.get_chandra_masa(panchaanga.lunar_month[d],
                                                              jyotisha.names.NAMES, panchaanga.script)))
       month_text += '\n' + ('{\\sundata{%s}{%s}{%s}}%%' % (sunrise, sunset, sangava))
@@ -261,9 +261,9 @@ def writeMonthlyTeX(panchaanga, template_file, temporal=None):
         [jyotisha.custom_transliteration.tr(f, panchaanga.script).replace('★', '$^\\star$') for f in
          sorted(set(panchaanga.daily_panchaangas[d].festivals))]))
     else:
-      if panchaanga.weekday[d] == 0:
+      if panchaanga.daily_panchaangas[d].date.get_weekday() == 0:
         W6D1 = '\n' + ('\\caldata{\\textcolor{%s}{%s}}{%s{%s}}%%' %
-                       (day_colours[panchaanga.weekday[d]], dt, month_data,
+                       (day_colours[panchaanga.daily_panchaangas[d].date.get_weekday()], dt, month_data,
                         jyotisha.names.get_chandra_masa(panchaanga.lunar_month[d],
                                                         jyotisha.names.NAMES, panchaanga.script)))
         W6D1 += '\n' + ('{\\sundata{%s}{%s}{%s}}%%' % (sunrise, sunset, sangava))
@@ -275,9 +275,9 @@ def writeMonthlyTeX(panchaanga, template_file, temporal=None):
         # festival to the same day again!
         W6D1 += '\n' + ('{%s}' % '\\eventsep '.join(
           [jyotisha.custom_transliteration.tr(f, panchaanga.script) for f in sorted(set(panchaanga.daily_panchaangas[d].festivals))]))
-      elif panchaanga.weekday[d] == 1:
+      elif panchaanga.daily_panchaangas[d].date.get_weekday() == 1:
         W6D2 = '\n' + ('\\caldata{\\textcolor{%s}{%s}}{%s{%s}}%%' %
-                       (day_colours[panchaanga.weekday[d]], dt, month_data,
+                       (day_colours[panchaanga.daily_panchaangas[d].date.get_weekday()], dt, month_data,
                         jyotisha.names.get_chandra_masa(panchaanga.lunar_month[d],
                                                         jyotisha.names.NAMES, panchaanga.script)))
         W6D2 += '\n' + ('{\\sundata{%s}{%s}{%s}}%%' % (sunrise, sunset, sangava))
@@ -293,7 +293,7 @@ def writeMonthlyTeX(panchaanga, template_file, temporal=None):
         # Cannot be here, since we cannot have more than 2 days in week 6 of any month!
         pass
 
-    if panchaanga.weekday[d] == 6:
+    if panchaanga.daily_panchaangas[d].date.get_weekday() == 6:
       month_text += '\n' + ("\\\\ \\hline %%END OF WEEK %d" % (currWeek))
       currWeek += 1
     else:
@@ -308,9 +308,9 @@ def writeMonthlyTeX(panchaanga, template_file, temporal=None):
   print(month_text)
 
   if currWeek < 6:
-    for i in range(panchaanga.weekday[d] + 1, 6):
+    for i in range(panchaanga.daily_panchaangas[d].date.get_weekday() + 1, 6):
       print("{}  &")
-    if panchaanga.weekday[d] != 6:
+    if panchaanga.daily_panchaangas[d].date.get_weekday() != 6:
       print("\\\\ \\hline")
   print('\\end{tabular}')
   print('\n\n')
