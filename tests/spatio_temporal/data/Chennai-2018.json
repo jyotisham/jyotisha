@@ -55581,11 +55581,16 @@
   ],
   "duration": 365,
   "duration_to_calculate": 381,
-  "end_date": [
-    2018,
-    12,
-    31
-  ],
+  "end_date": {
+    "day": 31,
+    "hour": 0,
+    "jsonClass": "Date",
+    "minute": 0,
+    "month": 12,
+    "second": 0,
+    "weekday": null,
+    "year": 2018
+  },
   "fest_days": {
     "(bhAdrapada) mahAlaya amAvAsyA (alabhyam\u2013puSkalA)": [
       281
@@ -59477,11 +59482,16 @@
     2458498.0825,
     null
   ],
-  "start_date": [
-    2018,
-    1,
-    1
-  ],
+  "start_date": {
+    "day": 1,
+    "hour": 0,
+    "jsonClass": "Date",
+    "minute": 0,
+    "month": 1,
+    "second": 0,
+    "weekday": null,
+    "year": 2018
+  },
   "tropical_month": [
     null,
     null,
