@@ -28,7 +28,7 @@ logging.basicConfig(
 CODE_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
 
 
-def writeDailyTeX(panchaanga, template_file, time_format="hh:mm", compute_lagnams=True, output_stream=None):
+def writeDailyTeX(panchaanga, template_file, time_format="hh:mm", script=sanscript.DEVANAGARI, compute_lagnams=True, output_stream=None):
   """Write out the panchaanga TeX using a specified template
   """
   # day_colours = {0: 'blue', 1: 'blue', 2: 'blue',
@@ -46,8 +46,8 @@ def writeDailyTeX(panchaanga, template_file, time_format="hh:mm", compute_lagnam
   logging.debug(year)
 
   samvatsara_id = (year - 1568) % 60 + 1  # distance from prabhava
-  samvatsara_names = (jyotisha.names.NAMES['SAMVATSARA_NAMES'][panchaanga.script][samvatsara_id],
-                      jyotisha.names.NAMES['SAMVATSARA_NAMES'][panchaanga.script][(samvatsara_id % 60) + 1])
+  samvatsara_names = (jyotisha.names.NAMES['SAMVATSARA_NAMES'][script][samvatsara_id],
+                      jyotisha.names.NAMES['SAMVATSARA_NAMES'][script][(samvatsara_id % 60) + 1])
 
   yname = samvatsara_names[0]  # Assign year name until Mesha Sankranti
 
@@ -58,7 +58,7 @@ def writeDailyTeX(panchaanga, template_file, time_format="hh:mm", compute_lagnam
   print('\\mbox{\\fontsize{48}{48}\\selectfont %s–%s}\\\\'
         % samvatsara_names, file=output_stream)
   print('\\mbox{\\fontsize{32}{32}\\selectfont %s } %%'
-        % jyotisha.custom_transliteration.tr('kali', panchaanga.script), file=output_stream)
+        % jyotisha.custom_transliteration.tr('kali', script), file=output_stream)
   print('{\\sffamily \\fontsize{43}{43}\\selectfont  %d–%d\\\\[0.5cm]}\n\\hrule\n\\vspace{0.2cm}'
         % (year + 3100, year + 3101), file=output_stream)
   print('{\\sffamily \\fontsize{50}{50}\\selectfont  \\uppercase{%s}\\\\[0.2cm]}' % panchaanga.city.name,
@@ -88,11 +88,11 @@ def writeDailyTeX(panchaanga, template_file, time_format="hh:mm", compute_lagnam
       # if tithi_data_str != '':
       #     tithi_data_str += '\\hspace{1ex}'
       tithi = '\\raisebox{-1pt}{\\moon[scale=0.8]{%d}}\\hspace{2pt}' % (tithi_ID) + \
-              jyotisha.names.NAMES['TITHI_NAMES'][panchaanga.script][tithi_ID]
+              jyotisha.names.NAMES['TITHI_NAMES'][script][tithi_ID]
       if tithi_end_jd is None:
         tithi_data_str = '%s\\mbox{%s\\To{}%s}' % \
                          (tithi_data_str, tithi,
-                          jyotisha.custom_transliteration.tr('ahOrAtram (tridinaspRk)', panchaanga.script))
+                          jyotisha.custom_transliteration.tr('ahOrAtram (tridinaspRk)', script))
       else:
         tithi_data_str = '%s\\mbox{%s\\To{}\\textsf{%s (%s)}}\\hspace{1ex}' % \
                          (tithi_data_str, tithi,
@@ -105,11 +105,11 @@ def writeDailyTeX(panchaanga, template_file, time_format="hh:mm", compute_lagnam
     for nakshatram_ID, nakshatram_end_jd in panchaanga.daily_panchaangas[d].nakshatra_data:
       if nakshatram_data_str != '':
         nakshatram_data_str += '\\hspace{1ex}'
-      nakshatram = jyotisha.names.NAMES['NAKSHATRAM_NAMES'][panchaanga.script][nakshatram_ID]
+      nakshatram = jyotisha.names.NAMES['NAKSHATRAM_NAMES'][script][nakshatram_ID]
       if nakshatram_end_jd is None:
         nakshatram_data_str = '%s\\mbox{%s\\To{}%s}' % \
                               (nakshatram_data_str, nakshatram,
-                               jyotisha.custom_transliteration.tr('ahOrAtram', panchaanga.script))
+                               jyotisha.custom_transliteration.tr('ahOrAtram', script))
       else:
         nakshatram_data_str = '%s\\mbox{%s\\To{}\\textsf{%s (%s)}}' % \
                               (nakshatram_data_str, nakshatram,
@@ -122,7 +122,7 @@ def writeDailyTeX(panchaanga, template_file, time_format="hh:mm", compute_lagnam
     for rashi_ID, rashi_end_jd in panchaanga.daily_panchaangas[d].raashi_data:
       # if rashi_data_str != '':
       #     rashi_data_str += '\\hspace{1ex}'
-      rashi = jyotisha.names.NAMES['RASHI_SUFFIXED_NAMES'][panchaanga.script][rashi_ID]
+      rashi = jyotisha.names.NAMES['RASHI_SUFFIXED_NAMES'][script][rashi_ID]
       if rashi_end_jd is None:
         rashi_data_str = '%s\\mbox{%s}' % (rashi_data_str, rashi)
       else:
@@ -133,7 +133,7 @@ def writeDailyTeX(panchaanga, template_file, time_format="hh:mm", compute_lagnam
     if compute_lagnams:
       lagna_data_str = 'लग्नम्–'
       for lagna_ID, lagna_end_jd in panchaanga.daily_panchaangas[d].lagna_data:
-        lagna = jyotisha.names.NAMES['RASHI_NAMES'][panchaanga.script][lagna_ID]
+        lagna = jyotisha.names.NAMES['RASHI_NAMES'][script][lagna_ID]
         lagna_data_str = '%s\\mbox{%s\\RIGHTarrow\\textsf{%s}} ' % \
                          (lagna_data_str, lagna,
                           time.Hour(24 * (lagna_end_jd - jd)).toString(
@@ -143,10 +143,10 @@ def writeDailyTeX(panchaanga, template_file, time_format="hh:mm", compute_lagnam
     for yoga_ID, yoga_end_jd in panchaanga.daily_panchaangas[d].yoga_data:
       # if yoga_data_str != '':
       #     yoga_data_str += '\\hspace{1ex}'
-      yoga = jyotisha.names.NAMES['YOGA_NAMES'][panchaanga.script][yoga_ID]
+      yoga = jyotisha.names.NAMES['YOGA_NAMES'][script][yoga_ID]
       if yoga_end_jd is None:
         yoga_data_str = '%s\\mbox{%s\\To{}%s}' % \
-                        (yoga_data_str, yoga, jyotisha.custom_transliteration.tr('ahOrAtram', panchaanga.script))
+                        (yoga_data_str, yoga, jyotisha.custom_transliteration.tr('ahOrAtram', script))
       else:
         yoga_data_str = '%s\\mbox{%s\\To{}\\textsf{%s (%s)}}\\hspace{1ex}' % \
                         (yoga_data_str, yoga,
@@ -156,17 +156,17 @@ def writeDailyTeX(panchaanga, template_file, time_format="hh:mm", compute_lagnam
                            format=time_format))
     if yoga_end_jd is not None:
       yoga_data_str += '\\mbox{%s\\Too{}}' % (
-        jyotisha.names.NAMES['YOGA_NAMES'][panchaanga.script][(yoga_ID % 27) + 1])
+        jyotisha.names.NAMES['YOGA_NAMES'][script][(yoga_ID % 27) + 1])
 
     karanam_data_str = ''
     for numKaranam, (karanam_ID, karanam_end_jd) in enumerate(panchaanga.daily_panchaangas[d].karana_data):
       # if numKaranam == 1:
       #     karanam_data_str += '\\hspace{1ex}'
-      karanam = jyotisha.names.NAMES['KARANAM_NAMES'][panchaanga.script][karanam_ID]
+      karanam = jyotisha.names.NAMES['KARANAM_NAMES'][script][karanam_ID]
       if karanam_end_jd is None:
         karanam_data_str = '%s\\mbox{%s\\To{}%s}' % \
                            (karanam_data_str, karanam,
-                            jyotisha.custom_transliteration.tr('ahOrAtram', panchaanga.script))
+                            jyotisha.custom_transliteration.tr('ahOrAtram', script))
       else:
         karanam_data_str = '%s\\mbox{%s\\To{}\\textsf{%s (%s)}}\\hspace{1ex}' % \
                            (karanam_data_str, karanam,
@@ -176,7 +176,7 @@ def writeDailyTeX(panchaanga, template_file, time_format="hh:mm", compute_lagnam
                               format=time_format))
     if karanam_end_jd is not None:
       karanam_data_str += '\\mbox{%s\\Too{}}' % (
-        jyotisha.names.NAMES['KARANAM_NAMES'][panchaanga.script][(karanam_ID % 60) + 1])
+        jyotisha.names.NAMES['KARANAM_NAMES'][script][(karanam_ID % 60) + 1])
 
     sunrise = time.Hour(24 * (panchaanga.daily_panchaangas[d].jd_sunrise - jd)).toString(
       format=time_format)
@@ -237,8 +237,8 @@ def writeDailyTeX(panchaanga, template_file, time_format="hh:mm", compute_lagnam
 
     # Assign samvatsara, ayana, rtu #
     sar_data = '{%s}{%s}{%s}' % (yname,
-                                 jyotisha.names.NAMES['AYANA_NAMES'][panchaanga.script][panchaanga.daily_panchaangas[d].solar_month_sunset],
-                                 jyotisha.names.NAMES['RTU_NAMES'][panchaanga.script][panchaanga.daily_panchaangas[d].solar_month_sunset])
+                                 jyotisha.names.NAMES['AYANA_NAMES'][script][panchaanga.daily_panchaangas[d].solar_month_sunset],
+                                 jyotisha.names.NAMES['RTU_NAMES'][script][panchaanga.daily_panchaangas[d].solar_month_sunset])
 
     if panchaanga.solar_month_end_time[d] is None:
       month_end_str = ''
@@ -246,23 +246,23 @@ def writeDailyTeX(panchaanga, template_file, time_format="hh:mm", compute_lagnam
       _m = panchaanga.daily_panchaangas[d - 1].solar_month_sunset
       if panchaanga.solar_month_end_time[d] >= panchaanga.daily_panchaangas[d + 1].jd_sunrise:
         month_end_str = '\\mbox{%s{\\tiny\\RIGHTarrow}\\textsf{%s}}' % (
-          jyotisha.names.NAMES['RASHI_NAMES'][panchaanga.script][_m], time.Hour(
+          jyotisha.names.NAMES['RASHI_NAMES'][script][_m], time.Hour(
             24 * (panchaanga.solar_month_end_time[d] - panchaanga.daily_panchaangas[d + 1].julian_day_start)).toString(format=time_format))
       else:
         month_end_str = '\\mbox{%s{\\tiny\\RIGHTarrow}\\textsf{%s}}' % (
-          jyotisha.names.NAMES['RASHI_NAMES'][panchaanga.script][_m], time.Hour(
+          jyotisha.names.NAMES['RASHI_NAMES'][script][_m], time.Hour(
             24 * (panchaanga.solar_month_end_time[d] - panchaanga.daily_panchaangas[d].julian_day_start)).toString(format=time_format))
 
     month_data = '\\sunmonth{%s}{%d}{%s}' % (
-      jyotisha.names.NAMES['RASHI_NAMES'][panchaanga.script][panchaanga.daily_panchaangas[d].solar_month_sunset], panchaanga.solar_month_day[d],
+      jyotisha.names.NAMES['RASHI_NAMES'][script][panchaanga.daily_panchaangas[d].solar_month_sunset], panchaanga.solar_month_day[d],
       month_end_str)
 
     print('\\caldata{%s}{%s}{%s{%s}{%s}{%s}%s}' %
           (month[m], dt, month_data,
            jyotisha.names.get_chandra_masa(panchaanga.lunar_month[d],
-                                           jyotisha.names.NAMES, panchaanga.script),
-           jyotisha.names.NAMES['RTU_NAMES'][panchaanga.script][int(ceil(panchaanga.lunar_month[d]))],
-           jyotisha.names.NAMES['VARA_NAMES'][panchaanga.script][panchaanga.daily_panchaangas[d].date.get_weekday()], sar_data), file=output_stream)
+                                           jyotisha.names.NAMES, script),
+           jyotisha.names.NAMES['RTU_NAMES'][script][int(ceil(panchaanga.lunar_month[d]))],
+           jyotisha.names.NAMES['VARA_NAMES'][script][panchaanga.daily_panchaangas[d].date.get_weekday()], sar_data), file=output_stream)
 
     if panchaanga.daily_panchaangas[d].jd_moonrise > panchaanga.daily_panchaangas[d + 1].jd_sunrise:
       moonrise = '---'
@@ -294,7 +294,7 @@ def writeDailyTeX(panchaanga, template_file, time_format="hh:mm", compute_lagnam
     # Using set as an ugly workaround since we may have sometimes assigned the same
     # festival to the same day again!
     print('{%s}' % '\\eventsep '.join(
-      [jyotisha.custom_transliteration.tr(f, panchaanga.script).replace('★', '$^\\star$') for f in
+      [jyotisha.custom_transliteration.tr(f, script).replace('★', '$^\\star$') for f in
        sorted(set(panchaanga.daily_panchaangas[d].festivals))]), file=output_stream)
 
     print('{%s} ' % WDAY[panchaanga.daily_panchaangas[d].date.get_weekday()], file=output_stream)
@@ -328,10 +328,10 @@ def main():
 
   city = City(city_name, latitude, longitude, tz)
 
-  panchaanga = jyotisha.panchaanga.spatio_temporal.annual.get_panchaanga(city=city, year=year, script=script, 
+  panchaanga = jyotisha.panchaanga.spatio_temporal.annual.get_panchaanga(city=city, year=year, 
                                                                          compute_lagnas=compute_lagnams,
                                                                          ayanaamsha_id=zodiac.Ayanamsha.CHITRA_AT_180)
-  panchaanga.script = script  # Force script irrespective of what was obtained from saved file
+  script = script  # Force script irrespective of what was obtained from saved file
   time_format = fmt  # Force fmt
 
   panchaanga.update_festival_details()

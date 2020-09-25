@@ -49,7 +49,7 @@ class EclipticFestivalAssigner(FestivalAssigner):
         ayana_time = Hour(_t).toString()
 
         self.panchaanga.daily_panchaangas[fday_nirayana].festivals.append('%s\\textsf{%s}{\\RIGHTarrow}\\textsf{%s}' % (
-          names.NAMES['RTU_MASA_NAMES'][self.panchaanga.script][self.panchaanga.daily_panchaangas[d].solar_month_sunset], '', ayana_time))
+          names.NAMES['RTU_MASA_NAMES']["hk"][self.panchaanga.daily_panchaangas[d].solar_month_sunset], '', ayana_time))
         self.panchaanga.tropical_month_end_time[fday_nirayana] = ayana_jd_start
         for i in range(last_d_assigned + 1, fday_nirayana + 1):
           self.panchaanga.tropical_month[i] = self.panchaanga.daily_panchaangas[d].solar_month_sunset

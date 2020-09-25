@@ -23,7 +23,6 @@ class Panchaanga(common.JsonObject):
   LATEST_VERSION = "0.0.3"
 
   def __init__(self, city, start_date, end_date, lunar_month_assigner_type=LunarMonthAssigner.SIDERIAL_SOLAR_BASED,
-               script=sanscript.DEVANAGARI,
                ayanaamsha_id=zodiac.Ayanamsha.CHITRA_AT_180,
                compute_lagnas=False):
     """Constructor for the panchaanga.
@@ -34,7 +33,6 @@ class Panchaanga(common.JsonObject):
     self.start_date = tuple([int(x) for x in start_date.split('-')])  # (tuple of (yyyy, mm, dd))
     self.end_date = tuple([int(x) for x in end_date.split('-')])  # (tuple of (yyyy, mm, dd))
     self.computation_system = temporal.ComputationSystem(lunar_month_assigner_type=lunar_month_assigner_type, ayanaamsha_id=ayanaamsha_id)
-    self.script = script
 
     self.jd_start = time.utc_gregorian_to_jd(self.start_date[0], self.start_date[1], self.start_date[2], 0)
     self.jd_end = time.utc_gregorian_to_jd(self.end_date[0], self.end_date[1], self.end_date[2], 0)
@@ -328,7 +326,7 @@ common.update_json_class_index(sys.modules[__name__])
 # logging.debug(common.json_class_index)
 
 
-def get_panchaanga(city, start_date, end_date, script, compute_lagnams=False,
+def get_panchaanga(city, start_date, end_date, compute_lagnams=False,
                    precomputed_json_dir="~/Documents", ayanaamsha_id=zodiac.Ayanamsha.CHITRA_AT_180):
   fname_det = os.path.expanduser(
     '%s/%s-%s-%s-detailed.json' % (precomputed_json_dir, city.name, start_date, end_date))
@@ -337,18 +335,15 @@ def get_panchaanga(city, start_date, end_date, script, compute_lagnams=False,
   if os.path.isfile(fname) and not compute_lagnams:
     sys.stderr.write('Loaded pre-computed panchaanga from %s.\n' % fname)
     p = Panchaanga.read_from_file(filename=fname)
-    p.script = script  # Need to force script, in case saved file script is different
     return p
   elif os.path.isfile(fname_det):
     # Load pickle, do not compute!
     sys.stderr.write('Loaded pre-computed panchaanga from %s.\n' % fname)
     p = Panchaanga.read_from_file(filename=fname_det)
-    p.script = script  # Need to force script, in case saved file script is different
     return p
   else:
     sys.stderr.write('No precomputed data available. Computing panchaanga...\n')
-    panchaanga = Panchaanga(city=city, start_date=start_date, end_date=end_date, script=script, 
-                            compute_lagnas=compute_lagnams, ayanaamsha_id=ayanaamsha_id)
+    panchaanga = Panchaanga(city=city, start_date=start_date, end_date=end_date,                             compute_lagnas=compute_lagnams, ayanaamsha_id=ayanaamsha_id)
     sys.stderr.write('Writing computed panchaanga to %s...\n' % fname)
 
     try:
@@ -367,5 +362,4 @@ def get_panchaanga(city, start_date, end_date, script, compute_lagnams=False,
 
 if __name__ == '__main__':
   city = spatio_temporal.City('Chennai', "13:05:24", "80:16:12", "Asia/Calcutta")
-  panchaanga = Panchaanga(city=city, start_date='2019-04-14', end_date='2020-04-13', script=sanscript.DEVANAGARI,
-                          ayanaamsha_id=zodiac.Ayanamsha.CHITRA_AT_180, compute_lagnas=False)
+  panchaanga = Panchaanga(city=city, start_date='2019-04-14', end_date='2020-04-13',                           ayanaamsha_id=zodiac.Ayanamsha.CHITRA_AT_180, compute_lagnas=False)
