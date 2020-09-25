@@ -258,8 +258,7 @@ class TithiFestivalAssigner(FestivalAssigner):
               self.panchaanga.daily_panchaangas[smaarta_ekadashi_fday].jd_sunrise + 2)
           [_y, _m, _d, _t] = time.jd_to_utc_gregorian(harivasara_end + (tz_off / 24.0)).to_date_fractional_hour_tuple()
           hariv_end_time = Hour(
-            time.jd_to_utc_gregorian(harivasara_end + (tz_off / 24.0)).to_date_fractional_hour_tuple()[3]).toString(
-            format=self.panchaanga.fmt)
+            time.jd_to_utc_gregorian(harivasara_end + (tz_off / 24.0)).to_date_fractional_hour_tuple()[3]).toString()
           fday_hv = time.utc_gregorian_to_jd(_y, _m, _d, 0) - self.panchaanga.jd_start + 1
           self.panchaanga.daily_panchaangas[int(fday_hv)].festivals.append(
             'harivAsaraH\\textsf{%s}{\\RIGHTarrow}\\textsf{%s}' % ('', hariv_end_time))

@@ -46,7 +46,7 @@ class EclipticFestivalAssigner(FestivalAssigner):
         if ayana_jd_start < self.panchaanga.daily_panchaangas[fday_nirayana].jd_sunrise:
           fday_nirayana -= 1
           _t += 24
-        ayana_time = Hour(_t).toString(format=self.panchaanga.fmt)
+        ayana_time = Hour(_t).toString()
 
         self.panchaanga.daily_panchaangas[fday_nirayana].festivals.append('%s\\textsf{%s}{\\RIGHTarrow}\\textsf{%s}' % (
           names.NAMES['RTU_MASA_NAMES'][self.panchaanga.script][self.panchaanga.daily_panchaangas[d].solar_month_sunset], '', ayana_time))
@@ -104,8 +104,8 @@ class EclipticFestivalAssigner(FestivalAssigner):
         if eclipse_solar_end > sunset_eclipse_day:
           eclipse_solar_end = sunset_eclipse_day
         solar_eclipse_str = 'sUrya-grahaNam' + \
-                            '~\\textsf{' + Hour(eclipse_solar_start).toString(format=self.panchaanga.fmt) + \
-                            '}{\\RIGHTarrow}\\textsf{' + Hour(eclipse_solar_end).toString(format=self.panchaanga.fmt) + '}'
+                            '~\\textsf{' + Hour(eclipse_solar_start).toString() + \
+                            '}{\\RIGHTarrow}\\textsf{' + Hour(eclipse_solar_end).toString() + '}'
         if self.panchaanga.daily_panchaangas[fday].date.get_weekday() == 0:
           solar_eclipse_str = '★cUDAmaNi-' + solar_eclipse_str
         self.panchaanga.daily_panchaangas[fday].festivals.append(solar_eclipse_str)
@@ -179,8 +179,8 @@ class EclipticFestivalAssigner(FestivalAssigner):
           grasta = 'kEtugrasta'
 
         lunar_eclipse_str = 'candra-grahaNam~(' + grasta + ')' + \
-                            '~\\textsf{' + Hour(eclipse_lunar_start).toString(format=self.panchaanga.fmt) + \
-                            '}{\\RIGHTarrow}\\textsf{' + Hour(eclipse_lunar_end).toString(format=self.panchaanga.fmt) + '}'
+                            '~\\textsf{' + Hour(eclipse_lunar_start).toString() + \
+                            '}{\\RIGHTarrow}\\textsf{' + Hour(eclipse_lunar_end).toString() + '}'
         if self.panchaanga.daily_panchaangas[fday].date.get_weekday() == 1:
           lunar_eclipse_str = '★cUDAmaNi-' + lunar_eclipse_str
 

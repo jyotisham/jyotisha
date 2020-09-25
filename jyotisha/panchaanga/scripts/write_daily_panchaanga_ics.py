@@ -460,7 +460,7 @@ def main():
 
   city = City(city_name, latitude, longitude, tz)
 
-  panchaanga = jyotisha.panchaanga.spatio_temporal.annual.get_panchaanga(city=city, year=year, script=script, fmt=fmt,
+  panchaanga = jyotisha.panchaanga.spatio_temporal.annual.get_panchaanga(city=city, year=year, script=script, 
                                                                          compute_lagnas=compute_lagnams)
   panchaanga.script = script  # Force script irrespective of what was obtained from saved file
   panchaanga.fmt = fmt  # Force fmt

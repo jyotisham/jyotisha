@@ -23,7 +23,7 @@ class Panchaanga(common.JsonObject):
   LATEST_VERSION = "0.0.3"
 
   def __init__(self, city, start_date, end_date, lunar_month_assigner_type=LunarMonthAssigner.SIDERIAL_SOLAR_BASED,
-               script=sanscript.DEVANAGARI, fmt='hh:mm',
+               script=sanscript.DEVANAGARI,
                ayanaamsha_id=zodiac.Ayanamsha.CHITRA_AT_180,
                compute_lagnas=False):
     """Constructor for the panchaanga.
@@ -35,7 +35,6 @@ class Panchaanga(common.JsonObject):
     self.end_date = tuple([int(x) for x in end_date.split('-')])  # (tuple of (yyyy, mm, dd))
     self.computation_system = temporal.ComputationSystem(lunar_month_assigner_type=lunar_month_assigner_type, ayanaamsha_id=ayanaamsha_id)
     self.script = script
-    self.fmt = fmt
 
     self.jd_start = time.utc_gregorian_to_jd(self.start_date[0], self.start_date[1], self.start_date[2], 0)
     self.jd_end = time.utc_gregorian_to_jd(self.end_date[0], self.end_date[1], self.end_date[2], 0)
@@ -297,11 +296,14 @@ class Panchaanga(common.JsonObject):
       daily_panchaanga.festivals = []
 
   def _refill_daily_panchaangas(self):
-    """Avoids duplication for memory efficiency."""
-    for daily_panchaanga in panchaanga.daily_panchaangas:
-      daily_panchaanga.city = panchaanga.city
+    """Avoids duplication for memory efficiency.
+    
+    Inverse of _force_non_redundancy_in_daily_panchaangas
+    """
+    for daily_panchaanga in self.daily_panchaangas:
+      daily_panchaanga.city = self.city
 
-  def _deduplicate_daily_panchaangas(self):
+  def _force_non_redundancy_in_daily_panchaangas(self):
     """Avoids duplication for memory efficiency."""
     for daily_panchaanga in self.daily_panchaangas:
       daily_panchaanga.city = None
@@ -311,11 +313,11 @@ class Panchaanga(common.JsonObject):
     panchaanga = JsonObject.read_from_file(filename=filename, name_to_json_class_index_extra=name_to_json_class_index_extra)
     panchaanga._refill_daily_panchaangas()
     return panchaanga
-
+  
   def dump_to_file(self, filename, floating_point_precision=None, sort_keys=True):
-    self._deduplicate_daily_panchaangas()
+    self._force_non_redundancy_in_daily_panchaangas()
     super(Panchaanga, self).dump_to_file(filename=filename, floating_point_precision=floating_point_precision, sort_keys=sort_keys)
-    panchaanga._refill_daily_panchaangas()
+    self._refill_daily_panchaangas()
 
 
 
@@ -326,7 +328,7 @@ common.update_json_class_index(sys.modules[__name__])
 # logging.debug(common.json_class_index)
 
 
-def get_panchaanga(city, start_date, end_date, script, fmt='hh:mm', compute_lagnams=False,
+def get_panchaanga(city, start_date, end_date, script, compute_lagnams=False,
                    precomputed_json_dir="~/Documents", ayanaamsha_id=zodiac.Ayanamsha.CHITRA_AT_180):
   fname_det = os.path.expanduser(
     '%s/%s-%s-%s-detailed.json' % (precomputed_json_dir, city.name, start_date, end_date))
@@ -345,7 +347,7 @@ def get_panchaanga(city, start_date, end_date, script, fmt='hh:mm', compute_lagn
     return p
   else:
     sys.stderr.write('No precomputed data available. Computing panchaanga...\n')
-    panchaanga = Panchaanga(city=city, start_date=start_date, end_date=end_date, script=script, fmt=fmt,
+    panchaanga = Panchaanga(city=city, start_date=start_date, end_date=end_date, script=script, 
                             compute_lagnas=compute_lagnams, ayanaamsha_id=ayanaamsha_id)
     sys.stderr.write('Writing computed panchaanga to %s...\n' % fname)
 
@@ -366,4 +368,4 @@ def get_panchaanga(city, start_date, end_date, script, fmt='hh:mm', compute_lagn
 if __name__ == '__main__':
   city = spatio_temporal.City('Chennai', "13:05:24", "80:16:12", "Asia/Calcutta")
   panchaanga = Panchaanga(city=city, start_date='2019-04-14', end_date='2020-04-13', script=sanscript.DEVANAGARI,
-                          ayanaamsha_id=zodiac.Ayanamsha.CHITRA_AT_180, fmt='hh:mm', compute_lagnas=False)
+                          ayanaamsha_id=zodiac.Ayanamsha.CHITRA_AT_180, compute_lagnas=False)

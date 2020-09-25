@@ -123,14 +123,14 @@ class SolarFestivalAssigner(FestivalAssigner):
           gc_28_end += tz_off / 24.0
           # sys.stderr.write('28: (%f, %f)\n' % (gc_28_start, gc_28_end))
           gc_28_d = 1 + floor(gc_28_start - self.panchaanga.jd_start)
-          t1 = Hour(time.jd_to_utc_gregorian(gc_28_start).to_date_fractional_hour_tuple()[3]).toString(format=self.panchaanga.fmt)
+          t1 = Hour(time.jd_to_utc_gregorian(gc_28_start).to_date_fractional_hour_tuple()[3]).toString()
 
           if floor(gc_28_end - 0.5) != floor(gc_28_start - 0.5):
             # -0.5 is for the fact that julday is zero at noon always, not midnight!
             offset = 24
           else:
             offset = 0
-          t2 = Hour(time.jd_to_utc_gregorian(gc_28_end).to_date_fractional_hour_tuple()[3] + offset).toString(format=self.panchaanga.fmt)
+          t2 = Hour(time.jd_to_utc_gregorian(gc_28_end).to_date_fractional_hour_tuple()[3] + offset).toString()
           # sys.stderr.write('gajacchhaya %d\n' % gc_28_d)
 
           self.panchaanga.fest_days['gajacchAyA-yOgaH' +
@@ -142,13 +142,13 @@ class SolarFestivalAssigner(FestivalAssigner):
           gc_30_end += tz_off / 24.0
           # sys.stderr.write('30: (%f, %f)\n' % (gc_30_start, gc_30_end))
           gc_30_d = 1 + floor(gc_30_start - self.panchaanga.jd_start)
-          t1 = Hour(time.jd_to_utc_gregorian(gc_30_start).to_date_fractional_hour_tuple()[3]).toString(format=self.panchaanga.fmt)
+          t1 = Hour(time.jd_to_utc_gregorian(gc_30_start).to_date_fractional_hour_tuple()[3]).toString()
 
           if floor(gc_30_end - 0.5) != floor(gc_30_start - 0.5):
             offset = 24
           else:
             offset = 0
-          t2 = Hour(time.jd_to_utc_gregorian(gc_30_end).to_date_fractional_hour_tuple()[3] + offset).toString(format=self.panchaanga.fmt)
+          t2 = Hour(time.jd_to_utc_gregorian(gc_30_end).to_date_fractional_hour_tuple()[3] + offset).toString()
           # sys.stderr.write('gajacchhaya %d\n' % gc_30_d)
 
           self.panchaanga.fest_days['gajacchAyA-yOgaH' +
