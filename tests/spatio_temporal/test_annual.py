@@ -40,6 +40,7 @@ def panchaanga_json_comparer(city, year):
     traceback.print_exc()
     raise
 
+
 def test_panchanga_chennai_18(caplog):
   caplog.set_level(logging.INFO)
 

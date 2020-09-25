@@ -42,7 +42,7 @@ def writeDailyTeX(panchaanga, template_file, time_format="hh:mm", script=sanscri
   for i in range(len(template_lines)):
     print(template_lines[i][:-1], file=output_stream)
 
-  year = panchaanga.start_date[0]
+  year = panchaanga.start_date.year
   logging.debug(year)
 
   samvatsara_id = (year - 1568) % 60 + 1  # distance from prabhava

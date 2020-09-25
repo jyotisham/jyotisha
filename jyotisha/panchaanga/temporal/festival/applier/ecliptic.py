@@ -8,7 +8,7 @@ from jyotisha.panchaanga.temporal import interval
 from jyotisha.panchaanga.temporal import time
 from jyotisha.panchaanga.temporal.body import Graha
 from jyotisha.panchaanga.temporal.festival.applier import FestivalAssigner
-from jyotisha.panchaanga.temporal.time import Hour
+from jyotisha.panchaanga.temporal.time import Hour, Date
 
 
 class EclipticFestivalAssigner(FestivalAssigner):
@@ -40,7 +40,7 @@ class EclipticFestivalAssigner(FestivalAssigner):
         [_y, _m, _d, _t] = time.jd_to_utc_gregorian(ayana_jd_start + (tz_off / 24.0)).to_date_fractional_hour_tuple()
         # Reduce fday by 1 if ayana time precedes sunrise and change increment _t by 24
         fday_nirayana = int(
-          time.utc_gregorian_to_jd(_y, _m, _d, 0) - self.panchaanga.jd_start + 1)
+          time.utc_gregorian_to_jd(Date(_y, _m, _d)) - self.panchaanga.jd_start + 1)
         if fday_nirayana > self.panchaanga.duration:
           continue
         if ayana_jd_start < self.panchaanga.daily_panchaangas[fday_nirayana].jd_sunrise:

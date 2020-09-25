@@ -11,6 +11,7 @@ from jyotisha.panchaanga.spatio_temporal import daily
 from jyotisha.panchaanga.temporal import zodiac, time
 from jyotisha.panchaanga.temporal.body import Graha
 from jyotisha.panchaanga.temporal.month import LunarMonthAssigner
+from jyotisha.panchaanga.temporal.time import Date
 from jyotisha.panchaanga.temporal.tithi import TithiAssigner
 from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision
 from sanskrit_data.schema import common
@@ -30,12 +31,15 @@ class Panchaanga(common.JsonObject):
     super(Panchaanga, self).__init__()
     self.version = Panchaanga.LATEST_VERSION
     self.city = city
-    self.start_date = tuple([int(x) for x in start_date.split('-')])  # (tuple of (yyyy, mm, dd))
-    self.end_date = tuple([int(x) for x in end_date.split('-')])  # (tuple of (yyyy, mm, dd))
+    self.start_date = Date(*([int(x) for x in start_date.split('-')]))
+    self.start_date.set_time_to_day_start()
+    self.end_date = Date(*([int(x) for x in end_date.split('-')]))
+    self.end_date.set_time_to_day_start()
+    
     self.computation_system = temporal.ComputationSystem(lunar_month_assigner_type=lunar_month_assigner_type, ayanaamsha_id=ayanaamsha_id)
 
-    self.jd_start = time.utc_gregorian_to_jd(self.start_date[0], self.start_date[1], self.start_date[2], 0)
-    self.jd_end = time.utc_gregorian_to_jd(self.end_date[0], self.end_date[1], self.end_date[2], 0)
+    self.jd_start = time.utc_gregorian_to_jd(self.start_date)
+    self.jd_end = time.utc_gregorian_to_jd(self.end_date)
 
     self.duration = int(self.jd_end - self.jd_start) + 1
 

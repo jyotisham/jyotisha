@@ -20,7 +20,7 @@ def test_jd_to_utc():
 
 def test_utc_to_jd():
   assert abs(
-    time.utc_gregorian_to_jd(2018, 11, 11, 13.99999802559611) - 2458434.083333251) < .001
+    time.utc_gregorian_to_jd(Date(2018, 11, 11, 14, 0, 0)) - 2458434.083333251) < .001
 
 
 

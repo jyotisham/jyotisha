@@ -112,8 +112,11 @@ class Date(JsonObject):
   def as_tuple(self):
     return (self.year, self.month, self.day, self.hour, self.minute, self.second)
 
+  def get_fractional_hour(self):
+    return self.hour + self.minute/ 60.0 + self.second  / 3600.0
+  
   def to_date_fractional_hour_tuple(self):
-    fractional_hour = self.hour + self.minute/ 60.0 + self.second  / 3600.0
+    fractional_hour = self.get_fractional_hour()
     return [self.year, self.month, self.day, fractional_hour]
 
   def get_weekday(self):
@@ -152,10 +155,9 @@ def jd_to_utc_gregorian(jd):
               hour=tm.value["hour"], minute=tm.value["minute"], second=tm.value["second"])
 
 
-def utc_gregorian_to_jd(year, month, day, fractional_hour):
-  (hours, minutes, seconds) = decypher_fractional_hours(fractional_hour)
+def utc_gregorian_to_jd(date):
   tm = Time(
-    {"year": year, "month": month, "day": day, "hour": int(fractional_hour), "minute": int(minutes), "second": seconds},
+    {"year": date.year, "month": date.month, "day": date.day, "hour": date.hour, "minute": date.minute, "second": date.second},
     format='ymdhms')
   tm.format = "jd"
   return tm.value
