@@ -296,19 +296,26 @@ class Panchaanga(common.JsonObject):
     for daily_panchaanga in self.daily_panchaangas:
       daily_panchaanga.festivals = []
 
+  def _refill_daily_panchaangas(self):
+    """Avoids duplication for memory efficiency."""
+    for daily_panchaanga in panchaanga.daily_panchaangas:
+      daily_panchaanga.city = panchaanga.city
+
+  def _deduplicate_daily_panchaangas(self):
+    """Avoids duplication for memory efficiency."""
+    for daily_panchaanga in self.daily_panchaangas:
+      daily_panchaanga.city = None
+
   @classmethod
   def read_from_file(cls, filename, name_to_json_class_index_extra=None):
     panchaanga = JsonObject.read_from_file(filename=filename, name_to_json_class_index_extra=name_to_json_class_index_extra)
-    # The below avoids duplication for memory efficiency.
-    for daily_panchaanga in panchaanga.daily_panchaangas:
-      daily_panchaanga.city = panchaanga.city
+    panchaanga._refill_daily_panchaangas()
     return panchaanga
 
   def dump_to_file(self, filename, floating_point_precision=None, sort_keys=True):
-    # The below avoids duplication for memory efficiency.
-    for daily_panchaanga in self.daily_panchaangas:
-      daily_panchaanga.city = None
+    self._deduplicate_daily_panchaangas()
     super(Panchaanga, self).dump_to_file(filename=filename, floating_point_precision=floating_point_precision, sort_keys=sort_keys)
+    panchaanga._refill_daily_panchaangas()
 
 
 
