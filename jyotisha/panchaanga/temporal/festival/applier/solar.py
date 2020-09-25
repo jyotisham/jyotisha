@@ -28,16 +28,16 @@ class SolarFestivalAssigner(FestivalAssigner):
       ####################
 
       # KARADAIYAN NOMBU
-      if self.panchaanga.daily_panchaangas[d].solar_month_sunset == 12 and self.panchaanga.solar_month_day[d] == 1:
+      if self.panchaanga.daily_panchaangas[d].solar_month_sunset == 12 and self.panchaanga.daily_panchaangas[d].solar_sidereal_month_day_sunset == 1:
         if NakshatraDivision(self.panchaanga.daily_panchaangas[d].jd_sunrise - (1 / 15.0) * (self.panchaanga.daily_panchaangas[d].jd_sunrise - self.panchaanga.daily_panchaangas[d - 1].jd_sunrise),
-                             ayanaamsha_id=self.panchaanga.ayanaamsha_id).get_solar_raashi() == 12:
+                             ayanaamsha_id=self.ayanaamsha_id).get_solar_raashi() == 12:
           # If kumbha prevails two ghatikAs before sunrise, nombu can be done in the early morning itself, else, previous night.
           self.panchaanga.fest_days['ta:kAraDaiyAn2 nOn2bu'] = [d - 1]
         else:
           self.panchaanga.fest_days['ta:kAraDaiyAn2 nOn2bu'] = [d]
 
       # KUCHELA DINAM
-      if self.panchaanga.daily_panchaangas[d].solar_month_sunset == 9 and self.panchaanga.solar_month_day[d] <= 7 and self.panchaanga.daily_panchaangas[d].date.get_weekday() == 3:
+      if self.panchaanga.daily_panchaangas[d].solar_month_sunset == 9 and self.panchaanga.daily_panchaangas[d].solar_sidereal_month_day_sunset <= 7 and self.panchaanga.daily_panchaangas[d].date.get_weekday() == 3:
         self.panchaanga.fest_days['kucEla-dinam'] = [d]
 
       # MESHA SANKRANTI
@@ -73,7 +73,7 @@ class SolarFestivalAssigner(FestivalAssigner):
       tz_off = (datetime.utcoffset(local_time).days * 86400 +
                 datetime.utcoffset(local_time).seconds) / 3600.0
       # GAJACHHAYA YOGA
-      if self.panchaanga.daily_panchaangas[d].solar_month_sunset == 6 and self.panchaanga.solar_month_day[d] == 1:
+      if self.panchaanga.daily_panchaangas[d].solar_month_sunset == 6 and self.panchaanga.daily_panchaangas[d].solar_sidereal_month_day_sunset == 1:
         moon_magha_jd_start = moon_magha_jd_start = t28_start = None
         moon_magha_jd_end = moon_magha_jd_end = t28_end = None
         moon_hasta_jd_start = moon_hasta_jd_start = t30_start = None
@@ -81,23 +81,23 @@ class SolarFestivalAssigner(FestivalAssigner):
 
         sun_hasta_jd_start, sun_hasta_jd_end = AngaSpan.find(
           self.panchaanga.daily_panchaangas[d].jd_sunrise, self.panchaanga.daily_panchaangas[d].jd_sunrise + 30, zodiac.AngaType.SOLAR_MONTH, 13,
-          ayanaamsha_id=self.panchaanga.ayanaamsha_id).to_tuple()
+          ayanaamsha_id=self.ayanaamsha_id).to_tuple()
 
         moon_magha_jd_start, moon_magha_jd_end = AngaSpan.find(
           sun_hasta_jd_start - 2, sun_hasta_jd_end + 2, zodiac.AngaType.NAKSHATRA, 10,
-          ayanaamsha_id=self.panchaanga.ayanaamsha_id).to_tuple()
+          ayanaamsha_id=self.ayanaamsha_id).to_tuple()
         if all([moon_magha_jd_start, moon_magha_jd_end]):
           t28_start, t28_end = AngaSpan.find(
             moon_magha_jd_start - 3, moon_magha_jd_end + 3, zodiac.AngaType.TITHI, 28,
-            ayanaamsha_id=self.panchaanga.ayanaamsha_id).to_tuple()
+            ayanaamsha_id=self.ayanaamsha_id).to_tuple()
 
         moon_hasta_jd_start, moon_hasta_jd_end = AngaSpan.find(
           sun_hasta_jd_start - 1, sun_hasta_jd_end + 1, zodiac.AngaType.NAKSHATRA, 13,
-          ayanaamsha_id=self.panchaanga.ayanaamsha_id).to_tuple()
+          ayanaamsha_id=self.ayanaamsha_id).to_tuple()
         if all([moon_hasta_jd_start, moon_hasta_jd_end]):
           t30_start, t30_end = AngaSpan.find(
             sun_hasta_jd_start - 1, sun_hasta_jd_end + 1, zodiac.AngaType.TITHI, 30,
-            ayanaamsha_id=self.panchaanga.ayanaamsha_id).to_tuple()
+            ayanaamsha_id=self.ayanaamsha_id).to_tuple()
 
         gc_28 = gc_30 = False
 
@@ -164,9 +164,9 @@ class SolarFestivalAssigner(FestivalAssigner):
       # Can also refer youtube video https://youtu.be/0DBIwb7iaLE?list=PL_H2LUtMCKPjh63PRk5FA3zdoEhtBjhzj&t=6747
       # 4th pada of vyatipatam, 1st pada of Amavasya, 2nd pada of Shravana, Suryodaya, Bhanuvasara = Ardhodayam
       # 4th pada of vyatipatam, 1st pada of Amavasya, 2nd pada of Shravana, Suryodaya, Somavasara = Mahodayam
-      sunrise_zodiac = NakshatraDivision(self.panchaanga.daily_panchaangas[d].jd_sunrise, ayanaamsha_id=self.panchaanga.ayanaamsha_id)
-      sunset_zodiac = NakshatraDivision(self.panchaanga.daily_panchaangas[d].jd_sunset, ayanaamsha_id=self.panchaanga.ayanaamsha_id)
-      if self.panchaanga.lunar_month[d] in [10, 11] and self.panchaanga.daily_panchaangas[d].tithi_at_sunrise == 30 or tithi.get_tithi(self.panchaanga.daily_panchaangas[d].jd_sunrise) == 30:
+      sunrise_zodiac = NakshatraDivision(self.panchaanga.daily_panchaangas[d].jd_sunrise, ayanaamsha_id=self.ayanaamsha_id)
+      sunset_zodiac = NakshatraDivision(self.panchaanga.daily_panchaangas[d].jd_sunset, ayanaamsha_id=self.ayanaamsha_id)
+      if self.panchaanga.daily_panchaangas[d].lunar_month in [10, 11] and self.panchaanga.daily_panchaangas[d].tithi_at_sunrise == 30 or tithi.get_tithi(self.panchaanga.daily_panchaangas[d].jd_sunrise) == 30:
         if sunrise_zodiac.get_anga(zodiac.AngaType.NAKSHATRA) == 17 or \
             sunset_zodiac.get_anga(zodiac.AngaType.NAKSHATRA) == 17 and \
             sunrise_zodiac.get_anga(zodiac.AngaType.NAKSHATRA) == 22 or \

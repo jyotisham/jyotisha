@@ -31,7 +31,7 @@ def panchaanga_json_comparer(city, year):
   if panchaanga.to_json_map(floating_point_precision=4) != panchaanga_expected.to_json_map(
       floating_point_precision=4):
     panchaanga.dump_to_file(filename=expected_content_path.replace(".json", "_actual.local.json"),
-                            floating_point_precision=4, sort_keys=False)
+                            floating_point_precision=4)
     panchaanga_expected.dump_to_file(
       filename=expected_content_path.replace(".json", "_expected.local.json"), floating_point_precision=4, sort_keys=False)
   try:
@@ -65,7 +65,7 @@ def test_adhika_maasa_computations_2009():
                                           ayanaamsha_id=zodiac.Ayanamsha.CHITRA_AT_180, compute_lagnas=False,
                                           allow_precomputed=False)
   expected_lunar_months_2009 = [7] + [8] * 29 + [9] * 30 + [10] * 15
-  assert expected_lunar_months_2009 == panchaanga_2009.lunar_month[291:366]
+  assert expected_lunar_months_2009 == [x.lunar_month for x in panchaanga_2009.daily_panchaangas[291:366]]
 
 
 def test_adhika_maasa_computations_2010():
@@ -74,7 +74,7 @@ def test_adhika_maasa_computations_2010():
                                           ayanaamsha_id=zodiac.Ayanamsha.CHITRA_AT_180, compute_lagnas=False,
                                           allow_precomputed=False)
   expected_lunar_months_2010 = [10] * 15 + [11] * 30 + [12] * 29 + [1] * 30 + [1.5] * 30 + [2] * 29 + [3]
-  assert expected_lunar_months_2010 == panchaanga_2010.lunar_month[1:165]
+  assert expected_lunar_months_2010 == [x.lunar_month for x in panchaanga_2010.daily_panchaangas[1:165]]
 
 
 def test_adhika_maasa_computations_2018():
@@ -83,7 +83,7 @@ def test_adhika_maasa_computations_2018():
                                           ayanaamsha_id=zodiac.Ayanamsha.CHITRA_AT_180, compute_lagnas=False,
                                           allow_precomputed=False)
   expected_lunar_months_2018 = [2] + [2.5] * 29 + [3] * 30 + [4]
-  assert expected_lunar_months_2018 == panchaanga_2018.lunar_month[135:196]
+  assert expected_lunar_months_2018 == [x.lunar_month for x in panchaanga_2018.daily_panchaangas[135:196]]
 
 
 def test_orinda_ca_dst_2019():

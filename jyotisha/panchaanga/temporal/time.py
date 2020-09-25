@@ -156,6 +156,8 @@ def jd_to_utc_gregorian(jd):
 
 
 def utc_gregorian_to_jd(date):
+  if date.hour is None:
+    date.set_time_to_day_start()
   tm = Time(
     {"year": date.year, "month": date.month, "day": date.day, "hour": date.hour, "minute": date.minute, "second": date.second},
     format='ymdhms')

@@ -18,6 +18,7 @@ class PanchaangaApplier(JsonObject):
   def __init__(self, panchaanga):
     super().__init__()
     self.panchaanga = panchaanga
+    self.ayanaamsha_id = panchaanga.computation_system.ayanaamsha_id
 
   def assign_all(self, debug=False):
     pass

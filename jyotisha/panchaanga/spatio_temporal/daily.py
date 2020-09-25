@@ -45,7 +45,6 @@ class DailyPanchanga(common.JsonObject):
     self.jd_next_sunrise = None
     self.jd_moonrise = None
     self.jd_moonset = None
-    self.compute_sun_moon_transitions(previous_day_panchaanga=previous_day_panchaanga)
 
     self.tb_muhuurtas = None
     self.lagna_data = None
@@ -53,7 +52,15 @@ class DailyPanchanga(common.JsonObject):
 
     self.solar_month_sunrise = None
     self.solar_month_sunset = None
-    self.solar_month_day = None
+    self.solar_sidereal_month_day_sunset = None
+    self.solar_month_end_time = None
+    self.solar_sidereal_month_end_jd = None
+
+    self.tropical_month = None
+    self.tropical_month_end_time = None
+
+    self.lunar_month = None
+
 
     self.tithi_data = None
     self.tithi_at_sunrise = None
@@ -65,6 +72,9 @@ class DailyPanchanga(common.JsonObject):
     self.raashi_data = None
     self.shraaddha_tithi = [None]
     self.festivals = []
+
+    self.compute_sun_moon_transitions(previous_day_panchaanga=previous_day_panchaanga)
+    self.compute_solar_day_sunset(previous_day_panchaanga=previous_day_panchaanga)
 
   def compute_sun_moon_transitions(self, previous_day_panchaanga=None, force_recomputation=False):
     """
@@ -98,37 +108,20 @@ class DailyPanchanga(common.JsonObject):
     if force_recomputation or self.jd_moonset is None:
       self.jd_moonset = self.city.get_setting_time(julian_day_start=self.jd_sunrise, body=Graha.MOON)
 
-    self.tithi_data = zodiac.get_angam_data(self.jd_sunrise, self.jd_next_sunrise,
-                                            zodiac.AngaType.TITHI, ayanaamsha_id=self.ayanaamsha_id)
-    self.tithi_at_sunrise = self.tithi_data[0][0]
-    self.nakshatra_data = zodiac.get_angam_data(self.jd_sunrise, self.jd_next_sunrise,
-                                                zodiac.AngaType.NAKSHATRA, ayanaamsha_id=self.ayanaamsha_id)
-    self.nakshatra_at_sunrise = self.nakshatra_data[0][0]
-    self.yoga_data = zodiac.get_angam_data(self.jd_sunrise, self.jd_next_sunrise,
-                                           zodiac.AngaType.NAKSHATRA, ayanaamsha_id=self.ayanaamsha_id)
-    self.yoga_at_sunrise = self.yoga_data[0][0]
-    self.karana_data = zodiac.get_angam_data(self.jd_sunrise, self.jd_next_sunrise,
-                                             zodiac.AngaType.KARANA, ayanaamsha_id=self.ayanaamsha_id)
-    self.raashi_data = zodiac.get_angam_data(self.jd_sunrise, self.jd_next_sunrise,
-                                             zodiac.AngaType.RASHI, ayanaamsha_id=self.ayanaamsha_id)
-
-  def compute_solar_month(self):
-    if not hasattr(self, "jd_sunrise") or self.jd_sunrise is None:
-      self.compute_sun_moon_transitions()
-
-    longitude_sun_sunrise = Graha.singleton(Graha.SUN).get_longitude(self.jd_sunrise) - Ayanamsha.singleton(
-      self.ayanaamsha_id).get_offset(self.jd_sunrise)
-    longitude_sun_sunset = Graha.singleton(Graha.SUN).get_longitude(self.jd_sunset) - Ayanamsha.singleton(
-      self.ayanaamsha_id).get_offset(self.jd_sunset)
-
-    # Each solar month has 30 days. So, divide the longitude by 30 to get the solar month.
-    self.solar_month_sunset = int(1 + floor((longitude_sun_sunset % 360) / 30.0))
-    self.solar_month_sunrise = int(1 + floor(((longitude_sun_sunrise) % 360) / 30.0))
-    # if self.solar_month_sunset != self.solar_month_sunrise:
-    #   # sankrAnti.
-    #   [_m, self.solar_month_end_jd] = temporal.get_angam_data(
-    #     self.jd_sunrise, self.jd_next_sunrise, temporal.SOLAR_MONTH,
-    #     ayanaamsha_id=self.ayanaamsha_id)[0]
+    if force_recomputation or self.tithi_data is None:
+      self.tithi_data = zodiac.get_angam_data(self.jd_sunrise, self.jd_next_sunrise,
+                                              zodiac.AngaType.TITHI, ayanaamsha_id=self.ayanaamsha_id)
+      self.tithi_at_sunrise = self.tithi_data[0][0]
+      self.nakshatra_data = zodiac.get_angam_data(self.jd_sunrise, self.jd_next_sunrise,
+                                                  zodiac.AngaType.NAKSHATRA, ayanaamsha_id=self.ayanaamsha_id)
+      self.nakshatra_at_sunrise = self.nakshatra_data[0][0]
+      self.yoga_data = zodiac.get_angam_data(self.jd_sunrise, self.jd_next_sunrise,
+                                             zodiac.AngaType.NAKSHATRA, ayanaamsha_id=self.ayanaamsha_id)
+      self.yoga_at_sunrise = self.yoga_data[0][0]
+      self.karana_data = zodiac.get_angam_data(self.jd_sunrise, self.jd_next_sunrise,
+                                               zodiac.AngaType.KARANA, ayanaamsha_id=self.ayanaamsha_id)
+      self.raashi_data = zodiac.get_angam_data(self.jd_sunrise, self.jd_next_sunrise,
+                                               zodiac.AngaType.RASHI, ayanaamsha_id=self.ayanaamsha_id)
 
   def compute_tb_muhuurtas(self):
     """ Computes muhuurta-s according to taittiriiya brAhmaNa.
@@ -144,37 +137,25 @@ class DailyPanchanga(common.JsonObject):
         jd_start=jd_start, jd_end=jd_end,
         muhuurta_id=muhuurta_id))
 
-  def compute_solar_day(self):
-    """Compute the solar month and day for a given Julian day
+  def compute_solar_day_sunset(self, previous_day_panchaanga=None):
+    """Compute the solar month and day for a given Julian day at sunset.
     """
-    # If solar transition happens before the current sunset but after the previous sunset, then that is taken to be solar day 1. Number of sunsets since the past solar month transition gives the solar day number.
-    if not hasattr(self, "jd_sunrise") or self.jd_sunrise is None:
-      self.compute_sun_moon_transitions()
-    target = ((floor(NakshatraDivision(self.jd_sunset, ayanaamsha_id=self.ayanaamsha_id).get_anga_float(
-      AngaType.SOLAR_MONTH)) - 1) % 12) + 1
+    # If solar transition happens before the current sunset but after the previous sunset, then that is taken to be solar day 1.
+    self.compute_sun_moon_transitions(previous_day_panchaanga=previous_day_panchaanga)
+    self.solar_month_sunset = NakshatraDivision(julday=self.jd_sunset, ayanaamsha_id=self.ayanaamsha_id).get_anga(
+      anga_type=AngaType.SOLAR_MONTH)
+    self.solar_month_sunrise = NakshatraDivision(julday=self.jd_sunrise, ayanaamsha_id=self.ayanaamsha_id).get_anga(
+      anga_type=AngaType.SOLAR_MONTH)
 
-    # logging.debug(jd_start)
-    # logging.debug(jd_sunset)
-    # logging.debug(target)
-    # logging.debug(get_angam_float(jd_sunset - 34, SOLAR_MONTH, -target, ayanaamsha_id, False))
-    # logging.debug(get_angam_float(jd_sunset + 1, SOLAR_MONTH, -target, ayanaamsha_id, False))
-
-    jd_masa_transit = brentq(
-      lambda x: NakshatraDivision(x, ayanaamsha_id=self.ayanaamsha_id).get_anga_float(AngaType.SOLAR_MONTH, -target, False),
-      self.jd_sunrise - 34, self.jd_sunset)
-
-    jd_sunset_after_masa_transit = self.city.get_setting_time(julian_day_start=jd_masa_transit, body=Graha.SUN)
-
-    jd_sunrise_after_masa_transit = self.city.get_rising_time(julian_day_start=jd_masa_transit, body=Graha.SUN)
-
-    if jd_sunset_after_masa_transit > jd_sunrise_after_masa_transit:
-      # Masa begins after sunset and before sunrise
-      # Therefore Masa 1 is on the day when the sun rises next
-      solar_month_day = floor(self.jd_sunset - jd_sunrise_after_masa_transit) + 1
+    if previous_day_panchaanga is None or previous_day_panchaanga.solar_sidereal_month_day_sunset > 28 :
+      solar_month_sunset_span = zodiac.AngaSpan.find(jd1=self.jd_sunset - 32, jd2=self.jd_sunset + 5, target_anga_id=self.solar_month_sunset, anga_type=AngaType.SOLAR_MONTH, ayanaamsha_id=self.ayanaamsha_id)
+      self.solar_sidereal_month_day_sunset = len(self.city.get_sunsets_in_period(jd_start=solar_month_sunset_span.jd_start, jd_end=self.jd_sunset + 1/48.0))
+      # if self.solar_sidereal_month_day_sunset == 1 and solar_month_sunset_span.jd_start > self.jd_sunrise:
+      #   self.solar_sidereal_month_end_jd = solar_month_sunset_span.jd_start
+      # elif self.solar_sidereal_month_day_sunset == 30 and solar_month_sunset_span.jd_end < self.jd_next_sunrise:
+      #   self.solar_sidereal_month_end_jd = solar_month_sunset_span.jd_end
     else:
-      # Masa has started before sunset
-      solar_month_day = round(self.jd_sunset - jd_sunset_after_masa_transit) + 1
-    self.solar_month_day = solar_month_day
+      self.solar_sidereal_month_day_sunset = previous_day_panchaanga.solar_sidereal_month_day_sunset + 1
 
   def get_lagna_data(self, ayanaamsha_id=zodiac.Ayanamsha.CHITRA_AT_180, debug=False):
     """Returns the lagna data

@@ -100,14 +100,12 @@ class NakshatraDivision(common.JsonObject):
           sector_id_2=((index + 1) % 27 + 1)
         ))
 
-  def get_anga_float(self, anga_type, offset_angas=0, debug=False):
+  def get_anga_float(self, anga_type):
     """Returns the angam/ temporal property. Computed based on lunar and solar longitudes, division of a circle into a certain number of degrees (arc_len).
 
       Args:
         :param anga_type: One of the pre-defined tuple-valued constants in the panchaanga
         class, such as TITHI, NAKSHATRAM, YOGA, KARANAM or SOLAR_MONTH
-        :param offset_angas: 
-        :param debug: Unused
 
       Returns:
         float angam
@@ -136,13 +134,9 @@ class NakshatraDivision(common.JsonObject):
 
     lcalc = lcalc % 360
 
-    if offset_angas + int(360.0 / arc_len) == 0 and lcalc < arc_len:
-      # Angam 1 -- needs different treatment, because of 'discontinuity'
-      return lcalc / arc_len
-    else:
-      return (lcalc / arc_len) + offset_angas
+    return lcalc / arc_len
 
-  def get_anga(self, angam_type):
+  def get_anga(self, anga_type):
     """Returns the angam prevailing at a particular time. Computed based on lunar and solar longitudes, division of a circle into a certain number of degrees (arc_len).
 
       Args:
@@ -152,14 +146,14 @@ class NakshatraDivision(common.JsonObject):
         int angam
     """
 
-    return int(1 + floor(self.get_anga_float(angam_type)))
+    return int(1 + floor(self.get_anga_float(anga_type)))
 
   def get_all_angas(self):
     """Compute various properties of the time based on lunar and solar longitudes, division of a circle into a certain number of degrees (arc_len).
     """
     anga_objects = [AngaType.TITHI, AngaType.TITHI_PADA, AngaType.NAKSHATRA, AngaType.NAKSHATRA_PADA, AngaType.RASHI,
                     AngaType.SOLAR_MONTH, AngaType.SOLAR_NAKSH, AngaType.YOGA, AngaType.KARANA]
-    angas = list(map(lambda anga_object: self.get_anga(angam_type=anga_object), anga_objects))
+    angas = list(map(lambda anga_object: self.get_anga(anga_type=anga_object), anga_objects))
     anga_ids = list(map(lambda anga_obj: anga_obj.name, anga_objects))
     return dict(list(zip(anga_ids, angas)))
 
@@ -322,8 +316,7 @@ def get_angam_data(jd_sunrise, jd_sunrise_tmrw, anga_type, ayanaamsha_id):
       TDELTA = 0.05
       try:
         def f(x):
-          return NakshatraDivision(x, ayanaamsha_id=ayanaamsha_id).get_anga_float(anga_type=anga_type,
-                                                                                offset_angas=-target, debug=False)
+          return NakshatraDivision(x, ayanaamsha_id=ayanaamsha_id).get_anga_float(anga_type=anga_type) - target
 
         # noinspection PyTypeChecker
         t_act = brentq(f, x0 - TDELTA, x0 + TDELTA)
@@ -335,77 +328,51 @@ def get_angam_data(jd_sunrise, jd_sunrise_tmrw, anga_type, ayanaamsha_id):
   return angams_list
 
 
-class AngaSpan(Interval):
-  @classmethod
-  def _find_anga_start_between(cls, jd1, jd2, angam_type, target_anga_id, ayanaamsha_id):
+class AngaSpanFinder(JsonObject):
+  def __init__(self, ayanaamsha_id, anga_type):
+    self.ayanaamsha_id = ayanaamsha_id
+    self.anga_type = anga_type
+
+  def _get_anga(self, jd):
+    return NakshatraDivision(jd, ayanaamsha_id=self.ayanaamsha_id).get_anga( anga_type=self.anga_type)
+
+  def _get_anga_float_offset(self, jd, target_anga_id):
+    anga_float = NakshatraDivision(jd, ayanaamsha_id=self.ayanaamsha_id).get_anga_float(anga_type=self.anga_type)
+    num_angas = int(360.0 / self.anga_type.arc_length)
+    if anga_float > target_anga_id:
+      return anga_float - num_angas # A negative number
+    else:
+      return anga_float - (target_anga_id-1)
+
+  def _interpolate_for_start(self, jd1, jd2, target_anga_id):
+    try:
+      # noinspection PyTypeChecker
+      return brentq(lambda x: self._get_anga_float_offset(jd=x, target_anga_id=target_anga_id), jd1, jd2)
+    except ValueError:
+      return None
+
+  def find_anga_start_between(self, jd1, jd2, target_anga_id):
     jd_start = None
-    num_angas = int(360.0 / angam_type.arc_length)
+    num_angas = int(360.0 / self.anga_type.arc_length)
     min_step = 0.5  # Min Step for moving
     jd_bracket_L = jd1
     jd_now = jd1
-    while jd_now < jd2 and jd_start is None:
-      angam_now = NakshatraDivision(jd_now, ayanaamsha_id=ayanaamsha_id).get_anga(angam_type)
+    while jd_now <= jd2 and jd_start is None:
+      anga_now = self._get_anga(jd=jd_now)
 
-      if angam_now < target_anga_id or (target_anga_id == 1 and angam_now == num_angas):
+      if anga_now < target_anga_id or (target_anga_id == 1 and anga_now == num_angas):
         # So, jd_now will be lower than jd_start
         jd_bracket_L = jd_now
-      if angam_now == target_anga_id:
-        # In this branch, angam_now will have overshot the jd_start of the required interval.
-        try:
-          def f(x):
-            return NakshatraDivision(x, ayanaamsha_id=ayanaamsha_id).get_anga_float(anga_type=angam_type,
-                                                                                  offset_angas=-target_anga_id + 1,
-                                                                                  debug=False)
-
-          # noinspection PyTypeChecker
-          jd_start = brentq(f, jd_bracket_L, jd_now)
-          return jd_start
-        except ValueError:
-          logging.error('Unable to bracket %s->%f between jd = (%f, %f), starting with (%f, %f)' % (
-            str(angam_type), -target_anga_id + 1, jd_bracket_L, jd_now, jd1, jd2))
-          jd_start = None
-      jd_now += min_step
+      if anga_now == target_anga_id:
+        # In this branch, anga_now will have overshot the jd_start of the required interval.
+        jd_start = self._interpolate_for_start(jd1=jd_bracket_L, jd2=jd_now, target_anga_id=target_anga_id)
+      if jd_now == jd2:
+        # Prevent infinite loop
+        break
+      jd_now = min(jd_now + min_step, jd2)
     return jd_start
 
-  @classmethod
-  def _find_anga_end(cls, jd_start, jd2, angam_type, target_anga_id, ayanaamsha_id):
-    jd_end = None
-    num_angas = int(360.0 / angam_type.arc_length)
-
-    jd_bracket_R = jd2
-
-    min_step = 0.5  # Min Step for moving
-    jd_now = jd_start
-
-    while jd_now < jd2 and jd_end is None:
-      angam_now = NakshatraDivision(jd_now, ayanaamsha_id=ayanaamsha_id).get_anga(angam_type)
-
-      if target_anga_id == num_angas:
-        # Wait till we land at the next anga!
-        if angam_now == 1:
-          jd_bracket_R = jd_now
-          break
-      else:
-        if angam_now > target_anga_id:
-          jd_bracket_R = jd_now
-          break
-      jd_now += min_step
-
-    try:
-      def f(x):
-        return NakshatraDivision(x, ayanaamsha_id=ayanaamsha_id).get_anga_float(anga_type=angam_type,
-                                                                              offset_angas=-target_anga_id,
-                                                                              debug=False)
-
-      # noinspection PyTypeChecker
-      jd_end = brentq(f, jd_start, jd_bracket_R)
-    except ValueError:
-      logging.error('Unable to compute anga_interval.jd_end (%s->%d); possibly could not bracket correctly!\n' % (
-        str(angam_type), target_anga_id))
-    return jd_end
-
-  @classmethod
-  def find(cls, jd1, jd2, angam_type, target_anga_id, ayanaamsha_id, debug=False):
+  def find(self, jd1: float, jd2: float, target_anga_id: int):
     """Computes angam spans for angams such as tithi, nakshatram, yoga
         and karanam.
 
@@ -419,22 +386,40 @@ class AngaSpan(Interval):
         Returns:
           tuple: A tuple of start and end times that lies within jd1 and jd2
     """
+    num_angas = int(360.0 / self.anga_type.arc_length)
+    if target_anga_id > num_angas or target_anga_id < 1:
+      raise ValueError
 
     anga_interval = AngaSpan(None, None)
 
-    anga_interval.jd_start = cls._find_anga_start_between(jd1=jd1, jd2=jd2, target_anga_id=target_anga_id,
-                                                          angam_type=angam_type, ayanaamsha_id=ayanaamsha_id)
+    anga_interval.jd_start = self.find_anga_start_between(jd1=jd1, jd2=jd2, target_anga_id=target_anga_id)
 
     if anga_interval.jd_start is None:
       return AngaSpan(None, None)  # If it doesn't start, we don't care if it ends!
 
-    anga_interval.jd_end = cls._find_anga_end(jd_start=anga_interval.jd_start, jd2=jd2, target_anga_id=target_anga_id,
-                                              angam_type=angam_type, ayanaamsha_id=ayanaamsha_id)
-
-    if debug:
-      logging.debug(('anga_interval.jd_end', anga_interval.jd_end))
-
+    anga_id_after_target = (target_anga_id % 30) + 1
+    anga_interval.jd_end = self.find_anga_start_between(jd1=anga_interval.jd_start, jd2=jd2, target_anga_id=anga_id_after_target)
     return anga_interval
+
+
+class AngaSpan(Interval):
+  @classmethod
+  def find(cls, jd1: float, jd2: float, anga_type: AngaType, target_anga_id: int, ayanaamsha_id: str, debug: bool = False):
+    """Computes angam spans for angams such as tithi, nakshatram, yoga
+        and karanam.
+
+        Args:
+          :param jd1: return the first span that starts after this date
+          :param jd2: return the first span that ends before this date
+          :param anga_type: TITHI, NAKSHATRAM, YOGA, KARANAM, SOLAR_MONTH, SOLAR_NAKSH
+          :param ayanaamsha_id
+          :param debug
+
+        Returns:
+          tuple: A tuple of start and end times that lies within jd1 and jd2
+    """
+    anga_span_finder = AngaSpanFinder(ayanaamsha_id=ayanaamsha_id, anga_type=anga_type)
+    return anga_span_finder.find(jd1=jd1, jd2=jd2, target_anga_id=target_anga_id)
 
 
 if __name__ == '__main__':

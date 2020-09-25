@@ -146,6 +146,20 @@ class City(JsonObject):
       else:
         return (lcalc / 30) + offset
 
+  def get_sunsets_in_period(self, jd_start, jd_end):
+    if jd_start > jd_end:
+      raise ValueError((jd_start, jd_end))
+    jd = jd_start
+    sunset_jds = []
+    while jd < jd_end:
+      from jyotisha.panchaanga.temporal.body import Graha
+      jd_setting = self.get_setting_time(julian_day_start=jd, body=Graha.SUN)
+      if jd_setting < jd_end:
+        sunset_jds.append(jd_setting)
+      # Assume that night lasts atleast 30 minutes!
+      jd = jd_setting + 1/48.0
+    return sunset_jds
+
 
 # Essential for depickling to work.
 common.update_json_class_index(sys.modules[__name__])

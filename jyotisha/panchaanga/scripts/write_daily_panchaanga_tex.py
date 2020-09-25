@@ -240,28 +240,28 @@ def writeDailyTeX(panchaanga, template_file, time_format="hh:mm", script=sanscri
                                  jyotisha.names.NAMES['AYANA_NAMES'][script][panchaanga.daily_panchaangas[d].solar_month_sunset],
                                  jyotisha.names.NAMES['RTU_NAMES'][script][panchaanga.daily_panchaangas[d].solar_month_sunset])
 
-    if panchaanga.solar_month_end_time[d] is None:
+    if panchaanga.daily_panchaangas[d].solar_month_end_time is None:
       month_end_str = ''
     else:
       _m = panchaanga.daily_panchaangas[d - 1].solar_month_sunset
-      if panchaanga.solar_month_end_time[d] >= panchaanga.daily_panchaangas[d + 1].jd_sunrise:
+      if panchaanga.daily_panchaangas[d].solar_month_end_time >= panchaanga.daily_panchaangas[d + 1].jd_sunrise:
         month_end_str = '\\mbox{%s{\\tiny\\RIGHTarrow}\\textsf{%s}}' % (
           jyotisha.names.NAMES['RASHI_NAMES'][script][_m], time.Hour(
-            24 * (panchaanga.solar_month_end_time[d] - panchaanga.daily_panchaangas[d + 1].julian_day_start)).toString(format=time_format))
+            24 * (panchaanga.daily_panchaangas[d].solar_month_end_time - panchaanga.daily_panchaangas[d + 1].julian_day_start)).toString(format=time_format))
       else:
         month_end_str = '\\mbox{%s{\\tiny\\RIGHTarrow}\\textsf{%s}}' % (
           jyotisha.names.NAMES['RASHI_NAMES'][script][_m], time.Hour(
-            24 * (panchaanga.solar_month_end_time[d] - panchaanga.daily_panchaangas[d].julian_day_start)).toString(format=time_format))
+            24 * (panchaanga.daily_panchaangas[d].solar_month_end_time - panchaanga.daily_panchaangas[d].julian_day_start)).toString(format=time_format))
 
     month_data = '\\sunmonth{%s}{%d}{%s}' % (
-      jyotisha.names.NAMES['RASHI_NAMES'][script][panchaanga.daily_panchaangas[d].solar_month_sunset], panchaanga.solar_month_day[d],
+      jyotisha.names.NAMES['RASHI_NAMES'][script][panchaanga.daily_panchaangas[d].solar_month_sunset], panchaanga.daily_panchaangas[d].solar_sidereal_month_day_sunset,
       month_end_str)
 
     print('\\caldata{%s}{%s}{%s{%s}{%s}{%s}%s}' %
           (month[m], dt, month_data,
-           jyotisha.names.get_chandra_masa(panchaanga.lunar_month[d],
+           jyotisha.names.get_chandra_masa(panchaanga.daily_panchaangas[d].lunar_month,
                                            jyotisha.names.NAMES, script),
-           jyotisha.names.NAMES['RTU_NAMES'][script][int(ceil(panchaanga.lunar_month[d]))],
+           jyotisha.names.NAMES['RTU_NAMES'][script][int(ceil(panchaanga.daily_panchaangas[d].lunar_month))],
            jyotisha.names.NAMES['VARA_NAMES'][script][panchaanga.daily_panchaangas[d].date.get_weekday()], sar_data), file=output_stream)
 
     if panchaanga.daily_panchaangas[d].jd_moonrise > panchaanga.daily_panchaangas[d + 1].jd_sunrise:

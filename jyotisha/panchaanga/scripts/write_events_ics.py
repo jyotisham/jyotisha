@@ -68,7 +68,7 @@ def compute_events(p, json_file):
         # does not touch sunrise on either day (the regular check won't work, because
         # the month itself is different the previous day!)
         if p.tithi_at_sunrise[d] == 30 and p.tithi_at_sunrise[d + 1] == 2 and \
-            p.lunar_month[d + 1] == month_num:
+            p.daily_panchaangas[d + 1].lunar_month == month_num:
           # Only in this case, we have a problem
 
           event_num = None
@@ -89,9 +89,9 @@ def compute_events(p, json_file):
 
       if angam_type == 'day' and month_type == 'solar_month' \
           and p.daily_panchaangas[d].solar_month_sunset == month_num:
-        if p.solar_month_day[d] == angam_num:
+        if p.daily_panchaangas[d].solar_sidereal_month_day_sunset == angam_num:
           p.fest_days[event_name] = [d]
-      elif (month_type == 'lunar_month' and p.lunar_month[d] == month_num) or \
+      elif (month_type == 'lunar_month' and p.daily_panchaangas[d].lunar_month == month_num) or \
           (month_type == 'solar_month' and p.daily_panchaangas[d].solar_month_sunset == month_num):
         if angam_type == 'tithi':
           angam_sunrise = p.tithi_at_sunrise
@@ -163,7 +163,7 @@ def compute_events(p, json_file):
                 # to this puurvaviddha festival!
                 if angam_num == 1:
                   # Need to check if tomorrow is still the same month, unlikely!
-                  if p.lunar_month[d + 1] == month_num:
+                  if p.daily_panchaangas[d + 1].lunar_month == month_num:
                     if p.fest_days[event_name].count(d - 1) == 0:
                       fday = d
                       if debugEvents:
@@ -180,7 +180,7 @@ def compute_events(p, json_file):
                 fday = d
                 logging.debug('Assigned fday = %d' % d)
             elif angams[2] == angam_num or angams[3] == angam_num:
-              if (month_type == 'lunar_month' and p.lunar_month[d + 1] == month_num) or \
+              if (month_type == 'lunar_month' and p.daily_panchaangas[d + 1].lunar_month == month_num) or \
                   (month_type == 'solar_month' and p.daily_panchaangas[d + 1].solar_month_sunset == month_num):
                 fday = d + 1
                 logging.debug('Assigned fday = %d' % (d + 1))

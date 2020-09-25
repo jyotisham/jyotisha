@@ -31,11 +31,11 @@ class EclipticFestivalAssigner(FestivalAssigner):
                 datetime.utcoffset(local_time).seconds) / 3600.0
 
       # TROPICAL AYANAMS
-      if self.panchaanga.solar_month_day[d] == 1:
+      if self.panchaanga.daily_panchaangas[d].solar_sidereal_month_day_sunset == 1:
         transits = \
           Graha.singleton(Graha.SUN).get_next_raashi_transit(jd_start=self.panchaanga.daily_panchaangas[d].jd_sunrise,
                                                    jd_end=self.panchaanga.daily_panchaangas[d].jd_sunrise + 15,
-                                                   ayanaamsha_id=self.panchaanga.ayanaamsha_id)
+                                                   ayanaamsha_id=self.ayanaamsha_id)
         ayana_jd_start = transits[0].jd
         [_y, _m, _d, _t] = time.jd_to_utc_gregorian(ayana_jd_start + (tz_off / 24.0)).to_date_fractional_hour_tuple()
         # Reduce fday by 1 if ayana time precedes sunrise and change increment _t by 24
@@ -50,9 +50,9 @@ class EclipticFestivalAssigner(FestivalAssigner):
 
         self.panchaanga.daily_panchaangas[fday_nirayana].festivals.append('%s\\textsf{%s}{\\RIGHTarrow}\\textsf{%s}' % (
           names.NAMES['RTU_MASA_NAMES']["hk"][self.panchaanga.daily_panchaangas[d].solar_month_sunset], '', ayana_time))
-        self.panchaanga.tropical_month_end_time[fday_nirayana] = ayana_jd_start
+        self.panchaanga.daily_panchaangas[fday_nirayana].tropical_month_end_time = ayana_jd_start
         for i in range(last_d_assigned + 1, fday_nirayana + 1):
-          self.panchaanga.tropical_month[i] = self.panchaanga.daily_panchaangas[d].solar_month_sunset
+          self.panchaanga.daily_panchaangas[i].tropical_month = self.panchaanga.daily_panchaangas[d].solar_month_sunset
         last_d_assigned = fday_nirayana
         if self.panchaanga.daily_panchaangas[d].solar_month_sunset == 3:
           if self.panchaanga.daily_panchaangas[fday_nirayana].jd_sunset < ayana_jd_start < self.panchaanga.daily_panchaangas[fday_nirayana + 1].jd_sunset:
@@ -65,7 +65,7 @@ class EclipticFestivalAssigner(FestivalAssigner):
           else:
             self.panchaanga.daily_panchaangas[fday_nirayana].append('uttarAyaNa-puNyakAlaH/mitrOtsavaH')
     for i in range(last_d_assigned + 1, self.panchaanga.duration + 1):
-      self.panchaanga.tropical_month[i] = (self.panchaanga.daily_panchaangas[last_d_assigned].solar_month_sunset % 12) + 1
+      self.panchaanga.daily_panchaangas[i].tropical_month = (self.panchaanga.daily_panchaangas[last_d_assigned].solar_month_sunset % 12) + 1
 
   def compute_solar_eclipses(self):
     jd = self.panchaanga.jd_start
@@ -193,7 +193,7 @@ class EclipticFestivalAssigner(FestivalAssigner):
     # Let's check for transitions in a relatively large window
     # to finalise what is the FINAL transition post retrograde movements
     transits = Graha.singleton(Graha.JUPITER).get_next_raashi_transit(self.panchaanga.jd_start, jd_end + check_window,
-                                                                      ayanaamsha_id=self.panchaanga.ayanaamsha_id)
+                                                                      ayanaamsha_id=self.ayanaamsha_id)
     if len(transits) > 0:
       for i, transit in enumerate(transits):
         (jd_transit, rashi1, rashi2) = (transit.jd, transit.value_1, transit.value_2)

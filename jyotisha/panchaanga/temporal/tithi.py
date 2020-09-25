@@ -147,38 +147,38 @@ class TithiAssigner(PanchaangaApplier):
       logging.debug(self.panchaanga.shraaddha_tithi)
   
     
-    for z in set(self.panchaanga.lunar_month):
+    for z in set([x.lunar_month for x in self.panchaanga.daily_panchaangas]):
       lunar_tithi_days[z] = {}
     for d in range(1, self.panchaanga.duration + 1):
       for t in self.panchaanga.daily_panchaangas[d].shraaddha_tithi:
-        lunar_tithi_days[self.panchaanga.lunar_month[d]][t] = d
+        lunar_tithi_days[self.panchaanga.daily_panchaangas[d].lunar_month][t] = d
   
     # Following this primary assignment, we must now "clean" for Sankranti, and repetitions
     # If there are two tithis, take second. However, if the second has sankrAnti dushtam, take
     # first. If both have sankrAnti dushtam, take second.
     for d in range(1, self.panchaanga.duration + 1):
       if self.panchaanga.daily_panchaangas[d].shraaddha_tithi != [None]:
-        if self.panchaanga.solar_month_end_time[d] is not None:
+        if self.panchaanga.daily_panchaangas[d].solar_month_end_time is not None:
           if debug_shraaddha_tithi:
-            logging.debug((d, self.panchaanga.solar_month_end_time[d]))
+            logging.debug((d, self.panchaanga.daily_panchaangas[d].solar_month_end_time))
           aparaahna_start, aparaahna_end = interval.get_interval(self.panchaanga.daily_panchaangas[d].jd_sunrise, self.panchaanga.daily_panchaangas[d].jd_sunset, 3, 5).to_tuple()
           m1 = self.panchaanga.daily_panchaangas[d - 1].solar_month_sunset  # Previous month
           m2 = self.panchaanga.daily_panchaangas[d].solar_month_sunset  # Current month
-          if aparaahna_start < self.panchaanga.solar_month_end_time[d] < aparaahna_end:
+          if aparaahna_start < self.panchaanga.daily_panchaangas[d].solar_month_end_time < aparaahna_end:
             if debug_shraaddha_tithi:
               logging.debug('Sankranti in aparaahna! Assigning to both months!')
-            assert self.panchaanga.solar_month_day[d] == 1
+            assert self.panchaanga.daily_panchaangas[d].solar_sidereal_month_day_sunset == 1
             for t in self.panchaanga.daily_panchaangas[d].shraaddha_tithi:
               # Assigning to both months --- should get eliminated because of a second occurrence
               tithi_days[m1][t].extend([d, '*'])
               tithi_days[m2][t].extend([d, '*'])
-          if self.panchaanga.solar_month_end_time[d] < aparaahna_start:
+          if self.panchaanga.daily_panchaangas[d].solar_month_end_time < aparaahna_start:
             if debug_shraaddha_tithi:
               logging.debug('Sankranti before aparaahna!')
-            assert self.panchaanga.solar_month_day[d] == 1
+            assert self.panchaanga.daily_panchaangas[d].solar_sidereal_month_day_sunset == 1
             for t in self.panchaanga.daily_panchaangas[d].shraaddha_tithi:
               tithi_days[m2][t].extend([d, '*'])
-          if aparaahna_end < self.panchaanga.solar_month_end_time[d]:
+          if aparaahna_end < self.panchaanga.daily_panchaangas[d].solar_month_end_time:
             if debug_shraaddha_tithi:
               logging.debug('Sankranti after aparaahna!')
             # Depending on whether sankranti is before or after sunset, m2 may or may not be equal to m1

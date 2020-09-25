@@ -3,8 +3,10 @@ import math
 
 import numpy.testing
 
+import tests.spatio_temporal
 from jyotisha.panchaanga.spatio_temporal import City
 from jyotisha.panchaanga.spatio_temporal import daily
+from jyotisha.panchaanga.temporal import time
 from jyotisha.panchaanga.temporal.time import Date
 
 logging.basicConfig(
@@ -14,12 +16,26 @@ logging.basicConfig(
 
 
 def test_solar_day():
+
   panchaanga = daily.DailyPanchanga.from_city_and_julian_day(
-    city=City('Chennai', '13:05:24', '80:16:12', 'Asia/Calcutta'), julian_day=2457023.27)
-  panchaanga.compute_solar_month()
-  panchaanga.compute_solar_day()
+    city=tests.spatio_temporal.chennai, julian_day=time.utc_gregorian_to_jd(Date(2018, 1, 14)))
+  assert panchaanga.solar_sidereal_month_day_sunset == 1
+  assert panchaanga.solar_month_sunset == 10
+
+  panchaanga = daily.DailyPanchanga.from_city_and_julian_day(
+    city=tests.spatio_temporal.chennai, julian_day=time.utc_gregorian_to_jd(Date(2017, 12, 16)))
+  assert panchaanga.solar_sidereal_month_day_sunset == 1
+  assert panchaanga.solar_month_sunset == 9
+
+  panchaanga = daily.DailyPanchanga.from_city_and_julian_day(
+    city=tests.spatio_temporal.chennai, julian_day=2457023.27)
   logging.debug(str(panchaanga))
-  assert panchaanga.solar_month_day == 16
+  assert panchaanga.solar_sidereal_month_day_sunset == 16
+  assert panchaanga.solar_month_sunset == 9
+
+  panchaanga = daily.DailyPanchanga.from_city_and_julian_day(
+    city=tests.spatio_temporal.chennai, julian_day=time.utc_gregorian_to_jd(Date(2017, 12, 31)))
+  assert panchaanga.solar_sidereal_month_day_sunset == 16
   assert panchaanga.solar_month_sunset == 9
 
 

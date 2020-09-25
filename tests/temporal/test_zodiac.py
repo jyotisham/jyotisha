@@ -1,5 +1,5 @@
 from jyotisha.panchaanga.temporal import zodiac
-from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision, Ayanamsha, AngaSpan, AngaType
+from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision, Ayanamsha, AngaSpan, AngaType, AngaSpanFinder
 
 
 def test_get_ayanaamsha():
@@ -35,6 +35,19 @@ def test_get_angam_data():
     (54, 2444961.5992132244), (55, 2444962.1544454526)]
 
 
-def test_get_angam_span():
-  assert AngaSpan.find(jd1=2444959.54042, jd2=2444963.54076, angam_type=AngaType.TITHI, target_anga_id=27,
-                       ayanaamsha_id=Ayanamsha.CHITRA_AT_180).to_tuple() == (2444960.4924699212, 2444961.599213224)
+def test_get_anga_span_solar_month():
+  from jyotisha.panchaanga.temporal import time
+  span_finder = AngaSpanFinder(anga_type=AngaType.SOLAR_MONTH, ayanaamsha_id=Ayanamsha.CHITRA_AT_180)
+
+  jd2 = time.utc_gregorian_to_jd(time.Date(2020, 4, 16))
+  assert span_finder.find(jd1=jd2-32, jd2=jd2, target_anga_id=1).to_tuple() == (2458953.1096598045, None)
+
+  assert span_finder.find(jd1=2458133.0189002366-32, jd2=2458133.0189002366, target_anga_id=10,).to_tuple() == (2458132.8291680976, None)
+
+
+def test_get_anga_span_tithi():
+  span_finder = AngaSpanFinder(anga_type=AngaType.TITHI, ayanaamsha_id=Ayanamsha.CHITRA_AT_180)
+
+  assert span_finder.find(jd1=2458102.5, jd2=2458108.5, target_anga_id=30).to_tuple() == (2458104.6663699686, 2458105.771125107)
+  
+  assert span_finder.find(jd1=2444959.54042, jd2=2444963.54076, target_anga_id=27).to_tuple() == (2444960.4924699212, 2444961.599213224)

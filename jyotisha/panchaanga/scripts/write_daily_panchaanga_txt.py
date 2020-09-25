@@ -267,36 +267,36 @@ def writeDailyText(panchaanga, time_format="hh:mm", script=sanscript.DEVANAGARI,
     if panchaanga.daily_panchaangas[d].solar_month_sunset == 1:
       # Flip the year name for the remaining days
       yname_solar = samvatsara_names[1]
-    if panchaanga.lunar_month[d] == 1:
+    if panchaanga.daily_panchaangas[d].lunar_month == 1:
       # Flip the year name for the remaining days
       yname_lunar = samvatsara_names[1]
 
     # Assign samvatsara, ayana, rtu #
     ayanam = jyotisha.names.NAMES['AYANA_NAMES'][script][panchaanga.daily_panchaangas[d].solar_month_sunset]
     rtu_solar = jyotisha.names.NAMES['RTU_NAMES'][script][panchaanga.daily_panchaangas[d].solar_month_sunset]
-    rtu_lunar = jyotisha.names.NAMES['RTU_NAMES'][script][int(ceil(panchaanga.lunar_month[d]))]
+    rtu_lunar = jyotisha.names.NAMES['RTU_NAMES'][script][int(ceil(panchaanga.daily_panchaangas[d].lunar_month))]
 
-    if panchaanga.solar_month_end_time[d] is None:
+    if panchaanga.daily_panchaangas[d].solar_month_end_time is None:
       month_end_str = ''
     else:
       _m = panchaanga.daily_panchaangas[d - 1].solar_month_sunset
-      if panchaanga.solar_month_end_time[d] >= panchaanga.daily_panchaangas[d + 1].jd_sunrise:
+      if panchaanga.daily_panchaangas[d].solar_month_end_time >= panchaanga.daily_panchaangas[d + 1].jd_sunrise:
         month_end_str = '%s►%s' % (jyotisha.names.NAMES['RASHI_NAMES'][script][_m],
                                    jyotisha.panchaanga.temporal.hour.Hour(24 * (
-                                         panchaanga.solar_month_end_time[d] - panchaanga.daily_panchaangas[d + 1].julian_day_start)).toString(
+                                         panchaanga.daily_panchaangas[d].solar_month_end_time - panchaanga.daily_panchaangas[d + 1].julian_day_start)).toString(
                                      format=time_format))
       else:
         month_end_str = '%s►%s' % (jyotisha.names.NAMES['RASHI_NAMES'][script][_m],
                                    jyotisha.panchaanga.temporal.hour.Hour(
-                                     24 * (panchaanga.solar_month_end_time[d] - panchaanga.daily_panchaangas[d].julian_day_start)).toString(
+                                     24 * (panchaanga.daily_panchaangas[d].solar_month_end_time - panchaanga.daily_panchaangas[d].julian_day_start)).toString(
                                      format=time_format))
     if month_end_str == '':
       month_data = '%s (%s %d)' % (jyotisha.names.NAMES['RASHI_NAMES'][script][panchaanga.daily_panchaangas[d].solar_month_sunset],
-                                   getName('dinaM', script), panchaanga.solar_month_day[d])
+                                   getName('dinaM', script), panchaanga.daily_panchaangas[d].solar_sidereal_month_day_sunset)
     else:
       month_data = '%s (%s %d); %s' % (
         jyotisha.names.NAMES['RASHI_NAMES'][script][panchaanga.daily_panchaangas[d].solar_month_sunset],
-        getName('dinaM', script), panchaanga.solar_month_day[d], month_end_str)
+        getName('dinaM', script), panchaanga.daily_panchaangas[d].solar_sidereal_month_day_sunset, month_end_str)
 
     vara = jyotisha.names.NAMES['VARA_NAMES'][script][panchaanga.daily_panchaangas[d].date.get_weekday()]
 
@@ -322,7 +322,7 @@ def writeDailyText(panchaanga, time_format="hh:mm", script=sanscript.DEVANAGARI,
       print(getName('ayanam', script) + '—%s' % ayanam, file=output_stream)
     if rtu_lunar != rtu_solar:
       print(getName('RtuH', script) + '—%s' % rtu_lunar, file=output_stream)
-    print(getName('mAsaH', script) + '—%s' % jyotisha.names.get_chandra_masa(panchaanga.lunar_month[d],
+    print(getName('mAsaH', script) + '—%s' % jyotisha.names.get_chandra_masa(panchaanga.daily_panchaangas[d].lunar_month,
                                                                                         jyotisha.names.NAMES,
                                                                                         script),
           file=output_stream)
