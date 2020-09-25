@@ -31,7 +31,7 @@ class NakshatraAssigner(PanchaangaApplier):
     self.panchaanga.tyajyam_data = [[] for _x in range(self.panchaanga.duration + 1)]
     if self.panchaanga.daily_panchaangas[0].nakshatra_data is None:
       self.panchaanga.daily_panchaangas[0].nakshatra_data = zodiac.get_angam_data(self.panchaanga.daily_panchaangas[0].jd_sunrise, self.panchaanga.daily_panchaangas[1].jd_sunrise,
-                                                                zodiac.AngaType.NAKSHATRA, ayanamsha_id=self.panchaanga.ayanamsha_id)
+                                                                zodiac.AngaType.NAKSHATRA, ayanaamsha_id=self.panchaanga.ayanaamsha_id)
     for d in range(1, self.panchaanga.duration + 1):
       [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
       jd = self.panchaanga.daily_panchaangas[d].julian_day_start
@@ -76,7 +76,7 @@ class NakshatraAssigner(PanchaangaApplier):
     self.panchaanga.amrita_data = [[] for _x in range(self.panchaanga.duration + 1)]
     if self.panchaanga.daily_panchaangas[0].nakshatra_data is None:
       self.panchaanga.daily_panchaangas[0].nakshatra_data = zodiac.get_angam_data(self.panchaanga.daily_panchaangas[0].jd_sunrise, self.panchaanga.daily_panchaangas[1].jd_sunrise,
-                                                                zodiac.AngaType.NAKSHATRA, ayanamsha_id=self.panchaanga.ayanamsha_id)
+                                                                zodiac.AngaType.NAKSHATRA, ayanaamsha_id=self.panchaanga.ayanaamsha_id)
     for d in range(1, self.panchaanga.duration + 1):
       [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
       jd = self.panchaanga.daily_panchaangas[d].julian_day_start

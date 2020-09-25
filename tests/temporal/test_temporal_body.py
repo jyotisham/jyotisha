@@ -17,9 +17,9 @@ def test_graha_get_next_raashi_transit():
   from jyotisha.panchaanga.temporal.zodiac import Ayanamsha
   from jyotisha.panchaanga.temporal.zodiac import AngaType
   assert Graha.singleton(Graha.JUPITER).get_next_raashi_transit(jd_start=2457755, jd_end=2458120,
-                                                      ayanamsha_id=Ayanamsha.CHITRA_AT_180) == [
+                                                      ayanaamsha_id=Ayanamsha.CHITRA_AT_180) == [
            Transit(body=Graha.JUPITER, jd=2458008.4510242934, anga_type=AngaType.RASHI.name, value_1=6, value_2=7)]
-  assert Graha.singleton(Graha.SUN).get_next_raashi_transit(jd_start=2458162.545722, jd_end=2458177.545722, ayanamsha_id=Ayanamsha.CHITRA_AT_180) == []
+  assert Graha.singleton(Graha.SUN).get_next_raashi_transit(jd_start=2458162.545722, jd_end=2458177.545722, ayanaamsha_id=Ayanamsha.CHITRA_AT_180) == []
 
 
 def test_get_star_longitude():

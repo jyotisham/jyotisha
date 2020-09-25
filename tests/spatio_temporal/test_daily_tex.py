@@ -3,6 +3,7 @@ import os
 
 # from jyotisha.panchaanga.spatio_temporal import City, annual
 from jyotisha.panchaanga.scripts.write_daily_panchaanga_tex import writeDailyTeX
+from jyotisha.panchaanga.spatio_temporal.periodical import Panchaanga
 from sanskrit_data.schema.common import JsonObject
 
 # import swisseph as swe
@@ -21,7 +22,7 @@ CODE_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__fi
 
 
 def daily_tex_comparer(city_name, year):
-  panchaanga = JsonObject.read_from_file(filename=os.path.join(TEST_DATA_PATH, '%s-%s.json' % (city_name, year)))
+  panchaanga = Panchaanga.read_from_file(filename=os.path.join(TEST_DATA_PATH, '%s-%s.json' % (city_name, year)))
   panchaanga.update_festival_details()
   orig_tex_file = os.path.join(TEST_DATA_PATH, 'daily-cal-%s-%s-deva.tex' % (year, city_name))
   daily_template_file = open(os.path.join(CODE_ROOT, 'jyotisha/panchaanga/data/templates/daily_cal_template.tex'))

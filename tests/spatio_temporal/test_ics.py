@@ -4,6 +4,7 @@ import os
 # from jyotisha.panchaanga.spatio_temporal import City, annual
 # from jyotisha.panchaanga.scripts.write_daily_panchaanga_tex import writeDailyTeX
 from jyotisha.panchaanga.scripts.ics import compute_calendar, write_to_file
+from jyotisha.panchaanga.spatio_temporal.periodical import Panchaanga
 from sanskrit_data.schema.common import JsonObject
 
 # import swisseph as swe
@@ -22,7 +23,7 @@ CODE_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__fi
 
 
 def test_panchanga_chennai_2019():
-  panchaanga_2019 = JsonObject.read_from_file(filename=os.path.join(TEST_DATA_PATH, 'Chennai-2019.json'))
+  panchaanga_2019 = Panchaanga.read_from_file(filename=os.path.join(TEST_DATA_PATH, 'Chennai-2019.json'))
   panchaanga_2019.update_festival_details()
   orig_ics_file = os.path.join(TEST_DATA_PATH, 'Chennai-2019-devanagari.ics')
   current_ics_output = os.path.join(TEST_DATA_PATH, 'Chennai-2019-devanagari.ics.local')

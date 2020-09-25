@@ -23,6 +23,12 @@ class PanchaangaApplier(JsonObject):
     pass
 
 
+class ComputationSystem(JsonObject):
+  def __init__(self, lunar_month_assigner_type, ayanaamsha_id):
+    self.lunar_month_assigner_type = lunar_month_assigner_type
+    self.ayanaamsha_id = ayanaamsha_id
+
+
 
 # Essential for depickling to work.
 common.update_json_class_index(sys.modules[__name__])

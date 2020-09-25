@@ -112,7 +112,7 @@ class City(JsonObject):
     """
     return swe.houses_ex(jd, self.latitude, self.longitude)[1][0]
 
-  def get_lagna_float(self, jd, offset=0, ayanamsha_id=Ayanamsha.CHITRA_AT_180, debug=False):
+  def get_lagna_float(self, jd, offset=0, ayanaamsha_id=Ayanamsha.CHITRA_AT_180, debug=False):
     """Returns the rising rAshi at a given location.
 
       Args:
@@ -124,7 +124,7 @@ class City(JsonObject):
         float lagna
     """
 
-    lcalc = self.get_zodiac_longitude_eastern_horizon(jd=jd) - Ayanamsha.singleton(ayanamsha_id=ayanamsha_id).get_offset(jd=jd)
+    lcalc = self.get_zodiac_longitude_eastern_horizon(jd=jd) - Ayanamsha.singleton(ayanaamsha_id=ayanaamsha_id).get_offset(jd=jd)
     lcalc = lcalc % 360
 
     if offset == 0:

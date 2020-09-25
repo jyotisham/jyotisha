@@ -10,7 +10,7 @@ def get_tithi(jd):
   """Returns the tithi prevailing at a given moment
 
   Tithi is computed as the difference in the longitudes of the moon
-  and sun at any given point of time. Therefore, even the ayanamsha
+  and sun at any given point of time. Therefore, even the ayanaamsha
   does not matter, as it gets cancelled out.
 
   Returns:
@@ -20,7 +20,7 @@ def get_tithi(jd):
 
   """
   from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision, Ayanamsha, AngaType
-  return NakshatraDivision(julday=jd, ayanamsha_id=Ayanamsha.VERNAL_EQUINOX_AT_0).get_anga(AngaType.TITHI)
+  return NakshatraDivision(julday=jd, ayanaamsha_id=Ayanamsha.VERNAL_EQUINOX_AT_0).get_anga(AngaType.TITHI)
 
 
 class TithiAssigner(PanchaangaApplier):

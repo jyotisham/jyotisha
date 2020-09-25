@@ -6,7 +6,7 @@ from typing import List
 
 from indic_transliteration import xsanscript as sanscript
 
-from jyotisha.panchaanga import spatio_temporal
+from jyotisha.panchaanga import spatio_temporal, temporal
 from jyotisha.panchaanga.spatio_temporal import daily
 from jyotisha.panchaanga.temporal import zodiac, time
 from jyotisha.panchaanga.temporal.body import Graha
@@ -24,7 +24,7 @@ class Panchaanga(common.JsonObject):
 
   def __init__(self, city, start_date, end_date, lunar_month_assigner_type=LunarMonthAssigner.SIDERIAL_SOLAR_BASED,
                script=sanscript.DEVANAGARI, fmt='hh:mm',
-               ayanamsha_id=zodiac.Ayanamsha.CHITRA_AT_180,
+               ayanaamsha_id=zodiac.Ayanamsha.CHITRA_AT_180,
                compute_lagnas=False):
     """Constructor for the panchaanga.
         """
@@ -33,6 +33,7 @@ class Panchaanga(common.JsonObject):
     self.city = city
     self.start_date = tuple([int(x) for x in start_date.split('-')])  # (tuple of (yyyy, mm, dd))
     self.end_date = tuple([int(x) for x in end_date.split('-')])  # (tuple of (yyyy, mm, dd))
+    self.computation_system = temporal.ComputationSystem(lunar_month_assigner_type=lunar_month_assigner_type, ayanaamsha_id=ayanaamsha_id)
     self.script = script
     self.fmt = fmt
 
@@ -46,7 +47,7 @@ class Panchaanga(common.JsonObject):
     self.duration_to_calculate = int(self.duration + 16)  
 
     self.weekday_start = time.get_weekday(self.jd_start)
-    self.ayanamsha_id = ayanamsha_id
+    self.ayanaamsha_id = ayanaamsha_id
 
     self.compute_angas(compute_lagnas=compute_lagnas)
     lunar_month_assigner = LunarMonthAssigner.get_assigner(assigner_id=lunar_month_assigner_type, panchaanga=self)
@@ -74,15 +75,15 @@ class Panchaanga(common.JsonObject):
     # year
     [prev_day_yy, prev_day_mm, prev_day_dd] = time.jd_to_utc_gregorian(self.jd_start - 1).to_date_fractional_hour_tuple()[:3]
     daily_panchaanga_start = daily.DailyPanchanga(city=self.city, date=time.Date(year=prev_day_yy, month=prev_day_mm,
-                                                                       day=prev_day_dd), ayanamsha_id=self.ayanamsha_id)
+                                                                       day=prev_day_dd), ayanaamsha_id=self.ayanaamsha_id)
     daily_panchaanga_start.compute_solar_day()
     solar_month_day = daily_panchaanga_start.solar_month_day
 
     solar_month_today_sunset = NakshatraDivision(daily_panchaanga_start.jd_sunset,
-                                                 ayanamsha_id=self.ayanamsha_id).get_anga(
+                                                 ayanaamsha_id=self.ayanaamsha_id).get_anga(
       zodiac.AngaType.SOLAR_MONTH)
     solar_month_tmrw_sunrise = NakshatraDivision(daily_panchaanga_start.jd_sunrise + 1,
-                                                 ayanamsha_id=self.ayanamsha_id).get_anga(
+                                                 ayanaamsha_id=self.ayanaamsha_id).get_anga(
       zodiac.AngaType.SOLAR_MONTH)
     month_start_after_sunset = solar_month_today_sunset != solar_month_tmrw_sunrise
 
@@ -95,7 +96,7 @@ class Panchaanga(common.JsonObject):
       # The below block is temporary code to make the transition seamless.
       (year_d, month_d, day_d, _) = time.jd_to_utc_gregorian(self.jd_start + d).to_date_fractional_hour_tuple()
       self.daily_panchaangas[d + 1] = daily.DailyPanchanga(city=self.city, date=time.Date(year=year_d, month=month_d, day=day_d),
-                                                           ayanamsha_id=self.ayanamsha_id,
+                                                           ayanaamsha_id=self.ayanaamsha_id,
                                                            previous_day_panchaanga=self.daily_panchaangas[d])
       self.daily_panchaangas[d + 1].compute_sun_moon_transitions(previous_day_panchaanga=self.daily_panchaangas[d])
       self.daily_panchaangas[d + 1].compute_solar_month()
@@ -118,7 +119,7 @@ class Panchaanga(common.JsonObject):
           month_start_after_sunset = True
           [_m, solar_month_end_jd] = zodiac.get_angam_data(
             self.daily_panchaangas[d].jd_sunrise, self.daily_panchaangas[d + 1].jd_sunrise, zodiac.AngaType.SOLAR_MONTH,
-            ayanamsha_id=self.ayanamsha_id)[
+            ayanaamsha_id=self.ayanaamsha_id)[
             0]
       elif self.daily_panchaangas[d].solar_month_sunrise != self.daily_panchaangas[d].solar_month_sunset:
         # sankrAnti!
@@ -126,7 +127,7 @@ class Panchaanga(common.JsonObject):
         solar_month_day = 1
         [_m, solar_month_end_jd] = zodiac.get_angam_data(
           self.daily_panchaangas[d].jd_sunrise, self.daily_panchaangas[d + 1].jd_sunrise, zodiac.AngaType.SOLAR_MONTH,
-          ayanamsha_id=self.ayanamsha_id)[0]
+          ayanaamsha_id=self.ayanaamsha_id)[0]
       else:
         solar_month_day = solar_month_day + 1
         solar_month_end_jd = None
@@ -263,11 +264,11 @@ class Panchaanga(common.JsonObject):
       [y, m, dt, t] = time.jd_to_utc_gregorian(jd).to_date_fractional_hour_tuple()
       longitude_sun_sunset = Graha.singleton(Graha.SUN).get_longitude(
         self.daily_panchaangas[d].jd_sunset) - zodiac.Ayanamsha.singleton(
-        self.ayanamsha_id).get_offset(self.daily_panchaangas[d].jd_sunset)
+        self.ayanaamsha_id).get_offset(self.daily_panchaangas[d].jd_sunset)
       log_data = '%02d-%02d-%4d\t[%3d]\tsun_rashi=%8.3f\ttithi=%8.3f\tsolar_month\
         =%2d\tlunar_month=%4.1f\n' % (dt, m, y, d, (longitude_sun_sunset % 360) / 30.0,
                                       NakshatraDivision(self.daily_panchaangas[d].jd_sunrise,
-                                                        ayanamsha_id=self.ayanamsha_id).get_anga_float(
+                                                        ayanaamsha_id=self.ayanaamsha_id).get_anga_float(
                                         zodiac.AngaType.TITHI),
                                       self.daily_panchaangas[d].solar_month_sunset, self.lunar_month[d])
       log_file.write(log_data)
@@ -295,6 +296,21 @@ class Panchaanga(common.JsonObject):
     for daily_panchaanga in self.daily_panchaangas:
       daily_panchaanga.festivals = []
 
+  @classmethod
+  def read_from_file(cls, filename, name_to_json_class_index_extra=None):
+    panchaanga = JsonObject.read_from_file(filename=filename, name_to_json_class_index_extra=name_to_json_class_index_extra)
+    # The below avoids duplication for memory efficiency.
+    for daily_panchaanga in panchaanga.daily_panchaangas:
+      daily_panchaanga.city = panchaanga.city
+    return panchaanga
+
+  def dump_to_file(self, filename, floating_point_precision=None, sort_keys=True):
+    # The below avoids duplication for memory efficiency.
+    for daily_panchaanga in self.daily_panchaangas:
+      daily_panchaanga.city = None
+    super(Panchaanga, self).dump_to_file(filename=filename, floating_point_precision=floating_point_precision, sort_keys=sort_keys)
+
+
 
 # Essential for depickling to work.
 common.update_json_class_index(sys.modules[__name__])
@@ -304,26 +320,26 @@ common.update_json_class_index(sys.modules[__name__])
 
 
 def get_panchaanga(city, start_date, end_date, script, fmt='hh:mm', compute_lagnams=False,
-                   precomputed_json_dir="~/Documents", ayanamsha_id=zodiac.Ayanamsha.CHITRA_AT_180):
+                   precomputed_json_dir="~/Documents", ayanaamsha_id=zodiac.Ayanamsha.CHITRA_AT_180):
   fname_det = os.path.expanduser(
     '%s/%s-%s-%s-detailed.json' % (precomputed_json_dir, city.name, start_date, end_date))
   fname = os.path.expanduser('%s/%s-%s-%s.json' % (precomputed_json_dir, city.name, start_date, end_date))
 
   if os.path.isfile(fname) and not compute_lagnams:
     sys.stderr.write('Loaded pre-computed panchaanga from %s.\n' % fname)
-    p = JsonObject.read_from_file(filename=fname)
+    p = Panchaanga.read_from_file(filename=fname)
     p.script = script  # Need to force script, in case saved file script is different
     return p
   elif os.path.isfile(fname_det):
     # Load pickle, do not compute!
     sys.stderr.write('Loaded pre-computed panchaanga from %s.\n' % fname)
-    p = JsonObject.read_from_file(filename=fname_det)
+    p = Panchaanga.read_from_file(filename=fname_det)
     p.script = script  # Need to force script, in case saved file script is different
     return p
   else:
     sys.stderr.write('No precomputed data available. Computing panchaanga...\n')
     panchaanga = Panchaanga(city=city, start_date=start_date, end_date=end_date, script=script, fmt=fmt,
-                            compute_lagnas=compute_lagnams, ayanamsha_id=ayanamsha_id)
+                            compute_lagnas=compute_lagnams, ayanaamsha_id=ayanaamsha_id)
     sys.stderr.write('Writing computed panchaanga to %s...\n' % fname)
 
     try:
@@ -343,4 +359,4 @@ def get_panchaanga(city, start_date, end_date, script, fmt='hh:mm', compute_lagn
 if __name__ == '__main__':
   city = spatio_temporal.City('Chennai', "13:05:24", "80:16:12", "Asia/Calcutta")
   panchaanga = Panchaanga(city=city, start_date='2019-04-14', end_date='2020-04-13', script=sanscript.DEVANAGARI,
-                          ayanamsha_id=zodiac.Ayanamsha.CHITRA_AT_180, fmt='hh:mm', compute_lagnas=False)
+                          ayanaamsha_id=zodiac.Ayanamsha.CHITRA_AT_180, fmt='hh:mm', compute_lagnas=False)

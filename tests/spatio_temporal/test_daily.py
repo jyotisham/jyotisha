@@ -59,7 +59,7 @@ def test_get_lagna_data():
   city = City('X', 13.08784, 80.27847, 'Asia/Calcutta')
   from jyotisha.panchaanga.temporal import zodiac
   actual = daily.DailyPanchanga.from_city_and_julian_day(city=city, julian_day=2458222.5208333335).get_lagna_data(
-    ayanamsha_id=zodiac.Ayanamsha.CHITRA_AT_180)
+    ayanaamsha_id=zodiac.Ayanamsha.CHITRA_AT_180)
   expected = [(12, 2458222.5214310056), (1, 2458222.596420153),
               (2, 2458222.6812926503), (3, 2458222.772619788),
               (4, 2458222.8624254186), (5, 2458222.9478168003),

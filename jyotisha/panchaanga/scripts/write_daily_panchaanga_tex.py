@@ -330,7 +330,7 @@ def main():
 
   panchaanga = jyotisha.panchaanga.spatio_temporal.annual.get_panchaanga(city=city, year=year, script=script, fmt=fmt,
                                                                          compute_lagnas=compute_lagnams,
-                                                                         ayanamsha_id=zodiac.Ayanamsha.CHITRA_AT_180)
+                                                                         ayanaamsha_id=zodiac.Ayanamsha.CHITRA_AT_180)
   panchaanga.script = script  # Force script irrespective of what was obtained from saved file
   panchaanga.fmt = fmt  # Force fmt
 

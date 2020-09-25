@@ -100,7 +100,7 @@ def compute_events(p, json_file):
           angam_num_succ = (angam_num % 30) + 1
         elif angam_type == 'nakshatram':
           angam_sunrise = p.nakshatra_at_sunrise
-          get_angam_func = lambda x: NakshatraDivision(x, ayanamsha_id=Ayanamsha.CHITRA_AT_180).get_nakshatra()
+          get_angam_func = lambda x: NakshatraDivision(x, ayanaamsha_id=Ayanamsha.CHITRA_AT_180).get_nakshatra()
           angam_num_pred = (angam_num - 2) % 27 + 1
           angam_num_succ = (angam_num % 27) + 1
         else:

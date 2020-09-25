@@ -125,7 +125,7 @@ class FestivalAssigner(PanchaangaApplier):
             if kaala == 'arunodaya':
               angams = self.panchaanga.get_angas_for_interval_boundaries(d - 1,
                                                                          lambda x: NakshatraDivision(x,
-                                                                              ayanamsha_id=self.panchaanga.ayanamsha_id).get_solar_raashi(),
+                                                                              ayanaamsha_id=self.panchaanga.ayanaamsha_id).get_solar_raashi(),
                                                                          kaala)
               if angams[1] == month_num:
                 self.add_festival(festival_name, d, debug_festivals)
@@ -145,12 +145,12 @@ class FestivalAssigner(PanchaangaApplier):
           elif angam_type == 'nakshatram':
             angam_sunrise = [d.nakshatra_at_sunrise for d in self.panchaanga.daily_panchaangas]
             angam_data = [d.nakshatra_data for d in self.panchaanga.daily_panchaangas]
-            get_angam_func = lambda x: NakshatraDivision(x, ayanamsha_id=self.panchaanga.ayanamsha_id).get_nakshatra()
+            get_angam_func = lambda x: NakshatraDivision(x, ayanaamsha_id=self.panchaanga.ayanaamsha_id).get_nakshatra()
             num_angams = 27
           elif angam_type == 'yoga':
             angam_sunrise = [d.yoga_at_sunrise for d in self.panchaanga.daily_panchaangas]
             angam_data = [d.yoga_data for d in self.panchaanga.daily_panchaangas]
-            get_angam_func = lambda x: NakshatraDivision(x, ayanamsha_id=self.panchaanga.ayanamsha_id).get_yoga()
+            get_angam_func = lambda x: NakshatraDivision(x, ayanaamsha_id=self.panchaanga.ayanaamsha_id).get_yoga()
             num_angams = 27
           else:
             raise ValueError('Error; unknown string in rule: "%s"' % (angam_type))
@@ -427,10 +427,10 @@ class MiscFestivalAssigner(FestivalAssigner):
       if self.panchaanga.daily_panchaangas[d].solar_month_sunset == 1 and self.panchaanga.solar_month_day[d] == 10:
         agni_jd_start, dummy = AngaSpan.find(
           self.panchaanga.daily_panchaangas[d].jd_sunrise, self.panchaanga.daily_panchaangas[d].jd_sunrise + 30,
-          zodiac.AngaType.SOLAR_NAKSH_PADA, 7, ayanamsha_id=self.panchaanga.ayanamsha_id).to_tuple()
+          zodiac.AngaType.SOLAR_NAKSH_PADA, 7, ayanaamsha_id=self.panchaanga.ayanaamsha_id).to_tuple()
         dummy, agni_jd_end = AngaSpan.find(
           agni_jd_start, agni_jd_start + 30,
-          zodiac.AngaType.SOLAR_NAKSH_PADA, 13, ayanamsha_id=self.panchaanga.ayanamsha_id).to_tuple()
+          zodiac.AngaType.SOLAR_NAKSH_PADA, 13, ayanaamsha_id=self.panchaanga.ayanaamsha_id).to_tuple()
 
       if self.panchaanga.daily_panchaangas[d].solar_month_sunset == 1 and self.panchaanga.solar_month_day[d] > 10:
         if agni_jd_start is not None:

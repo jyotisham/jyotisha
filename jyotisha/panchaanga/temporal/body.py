@@ -57,13 +57,13 @@ class Graha(JsonObject):
   def get_longitude(self, jd):
     return swe.calc_ut(jd, self._get_swisseph_id())[0][0]
 
-  def get_longitude_offset(self, jd, offset, ayanamsha_id):
+  def get_longitude_offset(self, jd, offset, ayanaamsha_id):
     from jyotisha.panchaanga.temporal.zodiac import Ayanamsha
-    adjusted_longitude = (self.get_longitude(jd=jd) - Ayanamsha.singleton(ayanamsha_id).get_offset(jd)) % 360
+    adjusted_longitude = (self.get_longitude(jd=jd) - Ayanamsha.singleton(ayanaamsha_id).get_offset(jd)) % 360
     # Not doing modulo arithmetic below - we want to allow the offset longitude to be negative, for use with brentq.
     return adjusted_longitude + offset
 
-  def get_next_raashi_transit(self, jd_start, jd_end, ayanamsha_id):
+  def get_next_raashi_transit(self, jd_start, jd_end, ayanaamsha_id):
     """Returns the next transit of the given planet e.g. jupiter
 
   Args:
@@ -85,9 +85,9 @@ class Graha(JsonObject):
 
     while curr_R_bracket <= jd_end:
       L_rashi = math.floor(self.get_longitude_offset(curr_L_bracket, offset=0,
-                                                     ayanamsha_id=ayanamsha_id) / 30) + 1
+                                                     ayanaamsha_id=ayanaamsha_id) / 30) + 1
       R_rashi = math.floor(self.get_longitude_offset(curr_R_bracket, offset=0,
-                                                     ayanamsha_id=ayanamsha_id) / 30) + 1
+                                                     ayanaamsha_id=ayanaamsha_id) / 30) + 1
 
       if L_rashi == R_rashi:
         curr_R_bracket += MIN_JUMP
@@ -100,7 +100,7 @@ class Graha(JsonObject):
           target = L_rashi
         try:
           def get_longitude_offset_partially_applied(jd):
-            return self.get_longitude_offset(jd=jd, offset=(-target + 1) * 30, ayanamsha_id=ayanamsha_id)
+            return self.get_longitude_offset(jd=jd, offset=(-target + 1) * 30, ayanaamsha_id=ayanaamsha_id)
 
           # noinspection PyTypeChecker
           jd_transit = \

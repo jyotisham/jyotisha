@@ -26,23 +26,23 @@ class Ayanamsha(common.JsonObject):
 
   @methodtools.lru_cache(maxsize=None)
   @classmethod
-  def singleton(cls, ayanamsha_id):
-    return cls(ayanamsha_id=ayanamsha_id)
+  def singleton(cls, ayanaamsha_id):
+    return cls(ayanaamsha_id=ayanaamsha_id)
 
-  def __init__(self, ayanamsha_id):
+  def __init__(self, ayanaamsha_id):
     super().__init__()
-    self.ayanamsha_id = ayanamsha_id
+    self.ayanaamsha_id = ayanaamsha_id
 
   def get_offset(self, jd):
-    if self.ayanamsha_id == Ayanamsha.VERNAL_EQUINOX_AT_0:
+    if self.ayanaamsha_id == Ayanamsha.VERNAL_EQUINOX_AT_0:
       return 0
-    elif self.ayanamsha_id == Ayanamsha.CHITRA_AT_180:
+    elif self.ayanaamsha_id == Ayanamsha.CHITRA_AT_180:
       # TODO: The below fails due to https://github.com/astrorigin/pyswisseph/issues/35
       from jyotisha.panchaanga.temporal import body
       return body.get_star_longitude(star="Spica", jd=jd) - 180
-    elif self.ayanamsha_id == Ayanamsha.ASHVINI_STARTING_0:
+    elif self.ayanaamsha_id == Ayanamsha.ASHVINI_STARTING_0:
       return 0
-    elif self.ayanamsha_id == Ayanamsha.RASHTRIYA_PANCHANGA_NAKSHATRA_TRACKING:
+    elif self.ayanaamsha_id == Ayanamsha.RASHTRIYA_PANCHANGA_NAKSHATRA_TRACKING:
       swe.set_sid_mode(swe.SIDM_LAHIRI)
       return swe.get_ayanamsa_ut(jd)
     raise Exception("Bad ayamasha_id")
@@ -51,9 +51,9 @@ class Ayanamsha(common.JsonObject):
 class NakshatraDivision(common.JsonObject):
   """Nakshatra division at a certain time, according to a certain ayanaamsha."""
 
-  def __init__(self, julday, ayanamsha_id):
+  def __init__(self, julday, ayanaamsha_id):
     super().__init__()
-    self.ayanamsha_id = ayanamsha_id
+    self.ayanaamsha_id = ayanaamsha_id
 
     self.set_time(julday=julday)
 
@@ -61,7 +61,7 @@ class NakshatraDivision(common.JsonObject):
   def set_time(self, julday):
     self.julday = julday
     self.right_boundaries = ((numpy.arange(27) + 1) * (360.0 / 27.0) + Ayanamsha.singleton(
-      self.ayanamsha_id).get_offset(
+      self.ayanaamsha_id).get_offset(
       julday)) % 360
 
   def get_nakshatra_for_body(self, body):
@@ -72,8 +72,8 @@ class NakshatraDivision(common.JsonObject):
     """
     if self.julday is not None:
       self.set_time(julday=self.julday)
-    logging.debug(Ayanamsha.singleton(self.ayanamsha_id).get_offset(self.julday))
-    return Graha.singleton(body).get_longitude_offset(self.julday, ayanamsha_id=self.ayanamsha_id) / (360.0 / 27.0) + 1
+    logging.debug(Ayanamsha.singleton(self.ayanaamsha_id).get_offset(self.julday))
+    return Graha.singleton(body).get_longitude_offset(self.julday, ayanaamsha_id=self.ayanaamsha_id) / (360.0 / 27.0) + 1
 
   def get_equatorial_boundary_coordinates(self):
     """Get equatorial coordinates for the points where the ecliptic nakShatra boundary longitude intersects the ecliptic."""
@@ -114,9 +114,9 @@ class NakshatraDivision(common.JsonObject):
     """
     if anga_type == AngaType.TITHI:
       # For efficiency - avoid lookups.
-      ayanamsha_id = Ayanamsha.VERNAL_EQUINOX_AT_0
+      ayanaamsha_id = Ayanamsha.VERNAL_EQUINOX_AT_0
     else:
-      ayanamsha_id = self.ayanamsha_id
+      ayanaamsha_id = self.ayanaamsha_id
 
     w_moon = anga_type.weight_moon
     w_sun = anga_type.weight_sun
@@ -126,12 +126,12 @@ class NakshatraDivision(common.JsonObject):
 
     #  Get the lunar longitude, starting at the ayanaamsha point in the ecliptic.
     if w_moon != 0:
-      lmoon = Graha.singleton(Graha.MOON).get_longitude_offset(self.julday, offset=0, ayanamsha_id=ayanamsha_id)
+      lmoon = Graha.singleton(Graha.MOON).get_longitude_offset(self.julday, offset=0, ayanaamsha_id=ayanaamsha_id)
       lcalc += w_moon * lmoon
 
     #  Get the solar longitude, starting at the ayanaamsha point in the ecliptic.
     if w_sun != 0:
-      lsun = Graha.singleton(Graha.SUN).get_longitude_offset(self.julday, offset=0, ayanamsha_id=ayanamsha_id)
+      lsun = Graha.singleton(Graha.SUN).get_longitude_offset(self.julday, offset=0, ayanaamsha_id=ayanaamsha_id)
       lcalc += w_sun * lsun
 
     lcalc = lcalc % 360
@@ -249,7 +249,7 @@ AngaType.SOLAR_NAKSH = AngaType(name='SOLAR_NAKSH', arc_length=360.0 / 27.0, wei
 AngaType.SOLAR_NAKSH_PADA = AngaType(name='SOLAR_NAKSH_PADA', arc_length=360.0 / 108.0, weight_moon=0, weight_sun=1)
 
 
-def get_angam_data(jd_sunrise, jd_sunrise_tmrw, anga_type, ayanamsha_id):
+def get_angam_data(jd_sunrise, jd_sunrise_tmrw, anga_type, ayanaamsha_id):
   """Computes angam data for angams such as tithi, nakshatram, yoga
   and karanam.
 
@@ -257,7 +257,7 @@ def get_angam_data(jd_sunrise, jd_sunrise_tmrw, anga_type, ayanamsha_id):
       :param jd_sunrise:
       :param jd_sunrise_tmrw:
       :param anga_type: TITHI, NAKSHATRAM, YOGA, KARANAM, SOLAR_MONTH, SOLAR_NAKSH
-      :param ayanamsha_id:
+      :param ayanaamsha_id:
 
   Returns:
     tuple: A tuple comprising
@@ -272,8 +272,8 @@ def get_angam_data(jd_sunrise, jd_sunrise_tmrw, anga_type, ayanamsha_id):
   num_angas = int(360.0 / arc_len)
 
   # Compute angam details
-  angam_now = NakshatraDivision(jd_sunrise, ayanamsha_id=ayanamsha_id).get_anga(anga_type)
-  angam_tmrw = NakshatraDivision(jd_sunrise_tmrw, ayanamsha_id=ayanamsha_id).get_anga(anga_type)
+  angam_now = NakshatraDivision(jd_sunrise, ayanaamsha_id=ayanaamsha_id).get_anga(anga_type)
+  angam_tmrw = NakshatraDivision(jd_sunrise_tmrw, ayanaamsha_id=ayanaamsha_id).get_anga(anga_type)
 
   angams_list = []
 
@@ -283,13 +283,13 @@ def get_angam_data(jd_sunrise, jd_sunrise_tmrw, anga_type, ayanamsha_id):
     # The angam does not change until sunrise tomorrow
     return [(angam_now, None)]
   else:
-    lmoon = Graha.singleton(Graha.MOON).get_longitude_offset(jd_sunrise, offset=0, ayanamsha_id=ayanamsha_id)
+    lmoon = Graha.singleton(Graha.MOON).get_longitude_offset(jd_sunrise, offset=0, ayanaamsha_id=ayanaamsha_id)
 
-    lsun = Graha.singleton(Graha.SUN).get_longitude_offset(jd_sunrise, offset=0, ayanamsha_id=ayanamsha_id)
+    lsun = Graha.singleton(Graha.SUN).get_longitude_offset(jd_sunrise, offset=0, ayanaamsha_id=ayanaamsha_id)
 
-    lmoon_tmrw = Graha.singleton(Graha.MOON).get_longitude_offset(jd_sunrise_tmrw, offset=0, ayanamsha_id=ayanamsha_id)
+    lmoon_tmrw = Graha.singleton(Graha.MOON).get_longitude_offset(jd_sunrise_tmrw, offset=0, ayanaamsha_id=ayanaamsha_id)
 
-    lsun_tmrw = Graha.singleton(Graha.SUN).get_longitude_offset(jd_sunrise_tmrw, offset=0, ayanamsha_id=ayanamsha_id)
+    lsun_tmrw = Graha.singleton(Graha.SUN).get_longitude_offset(jd_sunrise_tmrw, offset=0, ayanaamsha_id=ayanaamsha_id)
 
     for i in range(num_angas_today):
       angam_remaining = arc_len * (i + 1) - (((lmoon * w_moon +
@@ -322,7 +322,7 @@ def get_angam_data(jd_sunrise, jd_sunrise_tmrw, anga_type, ayanamsha_id):
       TDELTA = 0.05
       try:
         def f(x):
-          return NakshatraDivision(x, ayanamsha_id=ayanamsha_id).get_anga_float(anga_type=anga_type,
+          return NakshatraDivision(x, ayanaamsha_id=ayanaamsha_id).get_anga_float(anga_type=anga_type,
                                                                                 offset_angas=-target, debug=False)
 
         # noinspection PyTypeChecker
@@ -337,14 +337,14 @@ def get_angam_data(jd_sunrise, jd_sunrise_tmrw, anga_type, ayanamsha_id):
 
 class AngaSpan(Interval):
   @classmethod
-  def _find_anga_start_between(cls, jd1, jd2, angam_type, target_anga_id, ayanamsha_id):
+  def _find_anga_start_between(cls, jd1, jd2, angam_type, target_anga_id, ayanaamsha_id):
     jd_start = None
     num_angas = int(360.0 / angam_type.arc_length)
     min_step = 0.5  # Min Step for moving
     jd_bracket_L = jd1
     jd_now = jd1
     while jd_now < jd2 and jd_start is None:
-      angam_now = NakshatraDivision(jd_now, ayanamsha_id=ayanamsha_id).get_anga(angam_type)
+      angam_now = NakshatraDivision(jd_now, ayanaamsha_id=ayanaamsha_id).get_anga(angam_type)
 
       if angam_now < target_anga_id or (target_anga_id == 1 and angam_now == num_angas):
         # So, jd_now will be lower than jd_start
@@ -353,7 +353,7 @@ class AngaSpan(Interval):
         # In this branch, angam_now will have overshot the jd_start of the required interval.
         try:
           def f(x):
-            return NakshatraDivision(x, ayanamsha_id=ayanamsha_id).get_anga_float(anga_type=angam_type,
+            return NakshatraDivision(x, ayanaamsha_id=ayanaamsha_id).get_anga_float(anga_type=angam_type,
                                                                                   offset_angas=-target_anga_id + 1,
                                                                                   debug=False)
 
@@ -368,7 +368,7 @@ class AngaSpan(Interval):
     return jd_start
 
   @classmethod
-  def _find_anga_end(cls, jd_start, jd2, angam_type, target_anga_id, ayanamsha_id):
+  def _find_anga_end(cls, jd_start, jd2, angam_type, target_anga_id, ayanaamsha_id):
     jd_end = None
     num_angas = int(360.0 / angam_type.arc_length)
 
@@ -378,7 +378,7 @@ class AngaSpan(Interval):
     jd_now = jd_start
 
     while jd_now < jd2 and jd_end is None:
-      angam_now = NakshatraDivision(jd_now, ayanamsha_id=ayanamsha_id).get_anga(angam_type)
+      angam_now = NakshatraDivision(jd_now, ayanaamsha_id=ayanaamsha_id).get_anga(angam_type)
 
       if target_anga_id == num_angas:
         # Wait till we land at the next anga!
@@ -393,7 +393,7 @@ class AngaSpan(Interval):
 
     try:
       def f(x):
-        return NakshatraDivision(x, ayanamsha_id=ayanamsha_id).get_anga_float(anga_type=angam_type,
+        return NakshatraDivision(x, ayanaamsha_id=ayanaamsha_id).get_anga_float(anga_type=angam_type,
                                                                               offset_angas=-target_anga_id,
                                                                               debug=False)
 
@@ -405,7 +405,7 @@ class AngaSpan(Interval):
     return jd_end
 
   @classmethod
-  def find(cls, jd1, jd2, angam_type, target_anga_id, ayanamsha_id, debug=False):
+  def find(cls, jd1, jd2, angam_type, target_anga_id, ayanaamsha_id, debug=False):
     """Computes angam spans for angams such as tithi, nakshatram, yoga
         and karanam.
 
@@ -413,7 +413,7 @@ class AngaSpan(Interval):
           :param jd1: return the first span that starts after this date
           :param jd2: return the first span that ends before this date
           :param angam_type: TITHI, NAKSHATRAM, YOGA, KARANAM, SOLAR_MONTH, SOLAR_NAKSH
-          :param ayanamsha_id
+          :param ayanaamsha_id
           :param debug
 
         Returns:
@@ -423,13 +423,13 @@ class AngaSpan(Interval):
     anga_interval = AngaSpan(None, None)
 
     anga_interval.jd_start = cls._find_anga_start_between(jd1=jd1, jd2=jd2, target_anga_id=target_anga_id,
-                                                          angam_type=angam_type, ayanamsha_id=ayanamsha_id)
+                                                          angam_type=angam_type, ayanaamsha_id=ayanaamsha_id)
 
     if anga_interval.jd_start is None:
       return AngaSpan(None, None)  # If it doesn't start, we don't care if it ends!
 
     anga_interval.jd_end = cls._find_anga_end(jd_start=anga_interval.jd_start, jd2=jd2, target_anga_id=target_anga_id,
-                                              angam_type=angam_type, ayanamsha_id=ayanamsha_id)
+                                              angam_type=angam_type, ayanaamsha_id=ayanaamsha_id)
 
     if debug:
       logging.debug(('anga_interval.jd_end', anga_interval.jd_end))

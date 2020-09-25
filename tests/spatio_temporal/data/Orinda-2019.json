@@ -1,5 +1,5 @@
 {
-  "ayanamsha_id": "CHITRA_AT_180",
+  "ayanaamsha_id": "CHITRA_AT_180",
   "city": {
     "jsonClass": "City",
     "latitude": 37.8606,
@@ -7,16 +7,15 @@
     "name": "Orinda",
     "timezone": "America/Los_Angeles"
   },
+  "computation_system": {
+    "ayanaamsha_id": "CHITRA_AT_180",
+    "jsonClass": "ComputationSystem",
+    "lunar_month_assigner_type": "SiderialSolarBasedAssigner"
+  },
   "daily_panchaangas": [
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 31,
         "hour": 0,
@@ -84,14 +83,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 1,
         "hour": 0,
@@ -236,14 +229,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 2,
         "hour": 0,
@@ -388,14 +375,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 3,
         "hour": 0,
@@ -539,14 +520,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 4,
         "hour": 0,
@@ -687,14 +662,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 5,
         "hour": 0,
@@ -841,14 +810,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 6,
         "hour": 0,
@@ -985,14 +948,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 7,
         "hour": 0,
@@ -1138,14 +1095,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 8,
         "hour": 0,
@@ -1286,14 +1237,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 9,
         "hour": 0,
@@ -1434,14 +1379,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 10,
         "hour": 0,
@@ -1582,14 +1521,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 11,
         "hour": 0,
@@ -1729,14 +1662,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 12,
         "hour": 0,
@@ -1879,14 +1806,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 13,
         "hour": 0,
@@ -2032,14 +1953,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 14,
         "hour": 0,
@@ -2185,14 +2100,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 15,
         "hour": 0,
@@ -2336,14 +2245,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 16,
         "hour": 0,
@@ -2490,14 +2393,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 17,
         "hour": 0,
@@ -2652,14 +2549,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 18,
         "hour": 0,
@@ -2804,14 +2695,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 19,
         "hour": 0,
@@ -2956,14 +2841,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 20,
         "hour": 0,
@@ -3113,14 +2992,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 21,
         "hour": 0,
@@ -3267,14 +3140,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 22,
         "hour": 0,
@@ -3428,14 +3295,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 23,
         "hour": 0,
@@ -3578,14 +3439,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 24,
         "hour": 0,
@@ -3738,14 +3593,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 25,
         "hour": 0,
@@ -3889,14 +3738,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 26,
         "hour": 0,
@@ -4040,14 +3883,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 27,
         "hour": 0,
@@ -4190,14 +4027,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 28,
         "hour": 0,
@@ -4342,14 +4173,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 29,
         "hour": 0,
@@ -4492,14 +4317,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 30,
         "hour": 0,
@@ -4642,14 +4461,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 31,
         "hour": 0,
@@ -4793,14 +4606,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 1,
         "hour": 0,
@@ -4940,14 +4747,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 2,
         "hour": 0,
@@ -5090,14 +4891,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 3,
         "hour": 0,
@@ -5241,14 +5036,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 4,
         "hour": 0,
@@ -5394,14 +5183,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 5,
         "hour": 0,
@@ -5545,14 +5328,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 6,
         "hour": 0,
@@ -5692,14 +5469,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 7,
         "hour": 0,
@@ -5840,14 +5611,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 8,
         "hour": 0,
@@ -5993,14 +5758,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 9,
         "hour": 0,
@@ -6148,14 +5907,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 10,
         "hour": 0,
@@ -6300,14 +6053,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 11,
         "hour": 0,
@@ -6455,14 +6202,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 12,
         "hour": 0,
@@ -6608,14 +6349,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 13,
         "hour": 0,
@@ -6761,14 +6496,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 14,
         "hour": 0,
@@ -6913,14 +6642,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 15,
         "hour": 0,
@@ -7072,14 +6795,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 16,
         "hour": 0,
@@ -7233,14 +6950,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 17,
         "hour": 0,
@@ -7387,14 +7098,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 18,
         "hour": 0,
@@ -7538,14 +7243,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 19,
         "hour": 0,
@@ -7703,14 +7402,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 20,
         "hour": 0,
@@ -7851,14 +7544,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 21,
         "hour": 0,
@@ -7999,14 +7686,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 22,
         "hour": 0,
@@ -8154,14 +7835,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 23,
         "hour": 0,
@@ -8302,14 +7977,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 24,
         "hour": 0,
@@ -8452,14 +8121,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 25,
         "hour": 0,
@@ -8604,14 +8267,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 26,
         "hour": 0,
@@ -8756,14 +8413,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 27,
         "hour": 0,
@@ -8906,14 +8557,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 28,
         "hour": 0,
@@ -9050,14 +8695,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 1,
         "hour": 0,
@@ -9201,14 +8840,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 2,
         "hour": 0,
@@ -9354,14 +8987,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 3,
         "hour": 0,
@@ -9505,14 +9132,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 4,
         "hour": 0,
@@ -9656,14 +9277,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 5,
         "hour": 0,
@@ -9807,14 +9422,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 6,
         "hour": 0,
@@ -9957,14 +9566,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 7,
         "hour": 0,
@@ -10108,14 +9711,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 8,
         "hour": 0,
@@ -10260,14 +9857,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 9,
         "hour": 0,
@@ -10408,14 +9999,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 10,
         "hour": 0,
@@ -10559,14 +10144,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 11,
         "hour": 0,
@@ -10710,14 +10289,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 12,
         "hour": 0,
@@ -10863,14 +10436,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 13,
         "hour": 0,
@@ -11015,14 +10582,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 14,
         "hour": 0,
@@ -11168,14 +10729,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 15,
         "hour": 0,
@@ -11320,14 +10875,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 16,
         "hour": 0,
@@ -11472,14 +11021,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 17,
         "hour": 0,
@@ -11640,14 +11183,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 18,
         "hour": 0,
@@ -11800,14 +11337,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 19,
         "hour": 0,
@@ -11953,14 +11484,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 20,
         "hour": 0,
@@ -12114,14 +11639,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 21,
         "hour": 0,
@@ -12263,14 +11782,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 22,
         "hour": 0,
@@ -12413,14 +11926,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 23,
         "hour": 0,
@@ -12566,14 +12073,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 24,
         "hour": 0,
@@ -12716,14 +12217,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 25,
         "hour": 0,
@@ -12864,14 +12359,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 26,
         "hour": 0,
@@ -13015,14 +12504,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 27,
         "hour": 0,
@@ -13165,14 +12648,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 28,
         "hour": 0,
@@ -13315,14 +12792,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 29,
         "hour": 0,
@@ -13465,14 +12936,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 30,
         "hour": 0,
@@ -13616,14 +13081,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 31,
         "hour": 0,
@@ -13766,14 +13225,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 1,
         "hour": 0,
@@ -13912,14 +13365,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 2,
         "hour": 0,
@@ -14065,14 +13512,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 3,
         "hour": 0,
@@ -14213,14 +13654,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 4,
         "hour": 0,
@@ -14365,14 +13800,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 5,
         "hour": 0,
@@ -14522,14 +13951,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 6,
         "hour": 0,
@@ -14676,14 +14099,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 7,
         "hour": 0,
@@ -14827,14 +14244,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 8,
         "hour": 0,
@@ -14978,14 +14389,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 9,
         "hour": 0,
@@ -15132,14 +14537,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 10,
         "hour": 0,
@@ -15283,14 +14682,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 11,
         "hour": 0,
@@ -15433,14 +14826,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 12,
         "hour": 0,
@@ -15584,14 +14971,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 13,
         "hour": 0,
@@ -15738,14 +15119,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 14,
         "hour": 0,
@@ -15895,14 +15270,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 15,
         "hour": 0,
@@ -16048,14 +15417,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 16,
         "hour": 0,
@@ -16203,14 +15566,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 17,
         "hour": 0,
@@ -16355,14 +15712,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 18,
         "hour": 0,
@@ -16525,14 +15876,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 19,
         "hour": 0,
@@ -16683,14 +16028,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 20,
         "hour": 0,
@@ -16833,14 +16172,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 21,
         "hour": 0,
@@ -16983,14 +16316,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 22,
         "hour": 0,
@@ -17133,14 +16460,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 23,
         "hour": 0,
@@ -17284,14 +16605,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 24,
         "hour": 0,
@@ -17432,14 +16747,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 25,
         "hour": 0,
@@ -17580,14 +16889,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 26,
         "hour": 0,
@@ -17732,14 +17035,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 27,
         "hour": 0,
@@ -17876,14 +17173,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 28,
         "hour": 0,
@@ -18024,14 +17315,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 29,
         "hour": 0,
@@ -18174,14 +17459,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 30,
         "hour": 0,
@@ -18326,14 +17605,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 1,
         "hour": 0,
@@ -18478,14 +17751,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 2,
         "hour": 0,
@@ -18628,14 +17895,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 3,
         "hour": 0,
@@ -18780,14 +18041,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 4,
         "hour": 0,
@@ -18933,14 +18188,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 5,
         "hour": 0,
@@ -19087,14 +18336,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 6,
         "hour": 0,
@@ -19240,14 +18483,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 7,
         "hour": 0,
@@ -19393,14 +18630,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 8,
         "hour": 0,
@@ -19545,14 +18776,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 9,
         "hour": 0,
@@ -19700,14 +18925,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 10,
         "hour": 0,
@@ -19851,14 +19070,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 11,
         "hour": 0,
@@ -20012,14 +19225,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 12,
         "hour": 0,
@@ -20166,14 +19373,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 13,
         "hour": 0,
@@ -20319,14 +19520,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 14,
         "hour": 0,
@@ -20472,14 +19667,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 15,
         "hour": 0,
@@ -20627,14 +19816,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 16,
         "hour": 0,
@@ -20781,14 +19964,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 17,
         "hour": 0,
@@ -20933,14 +20110,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 18,
         "hour": 0,
@@ -21092,14 +20263,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 19,
         "hour": 0,
@@ -21242,14 +20407,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 20,
         "hour": 0,
@@ -21392,14 +20551,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 21,
         "hour": 0,
@@ -21548,14 +20701,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 22,
         "hour": 0,
@@ -21700,14 +20847,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 23,
         "hour": 0,
@@ -21850,14 +20991,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 24,
         "hour": 0,
@@ -21996,14 +21131,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 25,
         "hour": 0,
@@ -22144,14 +21273,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 26,
         "hour": 0,
@@ -22292,14 +21415,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 27,
         "hour": 0,
@@ -22442,14 +21559,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 28,
         "hour": 0,
@@ -22592,14 +21703,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 29,
         "hour": 0,
@@ -22743,14 +21848,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 30,
         "hour": 0,
@@ -22893,14 +21992,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 31,
         "hour": 0,
@@ -23043,14 +22136,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 1,
         "hour": 0,
@@ -23196,14 +22283,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 2,
         "hour": 0,
@@ -23350,14 +22431,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 3,
         "hour": 0,
@@ -23503,14 +22578,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 4,
         "hour": 0,
@@ -23656,14 +22725,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 5,
         "hour": 0,
@@ -23806,14 +22869,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 6,
         "hour": 0,
@@ -23959,14 +23016,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 7,
         "hour": 0,
@@ -24125,14 +23176,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 8,
         "hour": 0,
@@ -24279,14 +23324,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 9,
         "hour": 0,
@@ -24432,14 +23471,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 10,
         "hour": 0,
@@ -24584,14 +23617,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 11,
         "hour": 0,
@@ -24738,14 +23765,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 12,
         "hour": 0,
@@ -24899,14 +23920,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 13,
         "hour": 0,
@@ -25055,14 +24070,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 14,
         "hour": 0,
@@ -25212,14 +24221,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 15,
         "hour": 0,
@@ -25364,14 +24367,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 16,
         "hour": 0,
@@ -25522,14 +24519,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 17,
         "hour": 0,
@@ -25670,14 +24661,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 18,
         "hour": 0,
@@ -25818,14 +24803,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 19,
         "hour": 0,
@@ -25966,14 +24945,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 20,
         "hour": 0,
@@ -26114,14 +25087,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 21,
         "hour": 0,
@@ -26262,14 +25229,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 22,
         "hour": 0,
@@ -26410,14 +25371,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 23,
         "hour": 0,
@@ -26558,14 +25513,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 24,
         "hour": 0,
@@ -26706,14 +25655,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 25,
         "hour": 0,
@@ -26859,14 +25802,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 26,
         "hour": 0,
@@ -27010,14 +25947,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 27,
         "hour": 0,
@@ -27154,14 +26085,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 28,
         "hour": 0,
@@ -27306,14 +26231,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 29,
         "hour": 0,
@@ -27463,14 +26382,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 30,
         "hour": 0,
@@ -27615,14 +26528,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 1,
         "hour": 0,
@@ -27767,14 +26674,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 2,
         "hour": 0,
@@ -27920,14 +26821,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 3,
         "hour": 0,
@@ -28072,14 +26967,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 4,
         "hour": 0,
@@ -28233,14 +27122,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 5,
         "hour": 0,
@@ -28384,14 +27267,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 6,
         "hour": 0,
@@ -28538,14 +27415,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 7,
         "hour": 0,
@@ -28691,14 +27562,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 8,
         "hour": 0,
@@ -28855,14 +27720,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 9,
         "hour": 0,
@@ -29007,14 +27866,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 10,
         "hour": 0,
@@ -29162,14 +28015,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 11,
         "hour": 0,
@@ -29313,14 +28160,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 12,
         "hour": 0,
@@ -29467,14 +28308,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 13,
         "hour": 0,
@@ -29620,14 +28455,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 14,
         "hour": 0,
@@ -29768,14 +28597,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 15,
         "hour": 0,
@@ -29922,14 +28745,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 16,
         "hour": 0,
@@ -30079,14 +28896,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 17,
         "hour": 0,
@@ -30231,14 +29042,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 18,
         "hour": 0,
@@ -30378,14 +29183,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 19,
         "hour": 0,
@@ -30529,14 +29328,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 20,
         "hour": 0,
@@ -30677,14 +29470,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 21,
         "hour": 0,
@@ -30825,14 +29612,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 22,
         "hour": 0,
@@ -30973,14 +29754,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 23,
         "hour": 0,
@@ -31123,14 +29898,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 24,
         "hour": 0,
@@ -31269,14 +30038,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 25,
         "hour": 0,
@@ -31417,14 +30180,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 26,
         "hour": 0,
@@ -31570,14 +30327,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 27,
         "hour": 0,
@@ -31723,14 +30474,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 28,
         "hour": 0,
@@ -31892,14 +30637,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 29,
         "hour": 0,
@@ -32044,14 +30783,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 30,
         "hour": 0,
@@ -32194,14 +30927,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 31,
         "hour": 0,
@@ -32349,14 +31076,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 1,
         "hour": 0,
@@ -32505,14 +31226,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 2,
         "hour": 0,
@@ -32658,14 +31373,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 3,
         "hour": 0,
@@ -32821,14 +31530,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 4,
         "hour": 0,
@@ -32973,14 +31676,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 5,
         "hour": 0,
@@ -33125,14 +31822,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 6,
         "hour": 0,
@@ -33282,14 +31973,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 7,
         "hour": 0,
@@ -33433,14 +32118,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 8,
         "hour": 0,
@@ -33583,14 +32262,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 9,
         "hour": 0,
@@ -33737,14 +32410,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 10,
         "hour": 0,
@@ -33890,14 +32557,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 11,
         "hour": 0,
@@ -34043,14 +32704,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 12,
         "hour": 0,
@@ -34194,14 +32849,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 13,
         "hour": 0,
@@ -34342,14 +32991,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 14,
         "hour": 0,
@@ -34504,14 +33147,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 15,
         "hour": 0,
@@ -34651,14 +33288,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 16,
         "hour": 0,
@@ -34802,14 +33433,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 17,
         "hour": 0,
@@ -34955,14 +33580,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 18,
         "hour": 0,
@@ -35109,14 +33728,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 19,
         "hour": 0,
@@ -35257,14 +33870,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 20,
         "hour": 0,
@@ -35408,14 +34015,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 21,
         "hour": 0,
@@ -35554,14 +34155,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 22,
         "hour": 0,
@@ -35706,14 +34301,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 23,
         "hour": 0,
@@ -35861,14 +34450,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 24,
         "hour": 0,
@@ -36016,14 +34599,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 25,
         "hour": 0,
@@ -36171,14 +34748,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 26,
         "hour": 0,
@@ -36324,14 +34895,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 27,
         "hour": 0,
@@ -36477,14 +35042,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 28,
         "hour": 0,
@@ -36630,14 +35189,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 29,
         "hour": 0,
@@ -36802,14 +35355,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 30,
         "hour": 0,
@@ -36953,14 +35500,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 31,
         "hour": 0,
@@ -37110,14 +35651,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 1,
         "hour": 0,
@@ -37268,14 +35803,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 2,
         "hour": 0,
@@ -37420,14 +35949,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 3,
         "hour": 0,
@@ -37571,14 +36094,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 4,
         "hour": 0,
@@ -37727,14 +36244,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 5,
         "hour": 0,
@@ -37880,14 +36391,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 6,
         "hour": 0,
@@ -38031,14 +36536,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 7,
         "hour": 0,
@@ -38188,14 +36687,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 8,
         "hour": 0,
@@ -38340,14 +36833,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 9,
         "hour": 0,
@@ -38493,14 +36980,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 10,
         "hour": 0,
@@ -38649,14 +37130,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 11,
         "hour": 0,
@@ -38801,14 +37276,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 12,
         "hour": 0,
@@ -38948,14 +37417,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 13,
         "hour": 0,
@@ -39105,14 +37568,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 14,
         "hour": 0,
@@ -39255,14 +37712,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 15,
         "hour": 0,
@@ -39406,14 +37857,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 16,
         "hour": 0,
@@ -39557,14 +38002,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 17,
         "hour": 0,
@@ -39714,14 +38153,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 18,
         "hour": 0,
@@ -39866,14 +38299,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 19,
         "hour": 0,
@@ -40015,14 +38442,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 20,
         "hour": 0,
@@ -40166,14 +38587,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 21,
         "hour": 0,
@@ -40317,14 +38732,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 22,
         "hour": 0,
@@ -40479,14 +38888,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 23,
         "hour": 0,
@@ -40627,14 +39030,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 24,
         "hour": 0,
@@ -40777,14 +39174,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 25,
         "hour": 0,
@@ -40928,14 +39319,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 26,
         "hour": 0,
@@ -41085,14 +39470,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 27,
         "hour": 0,
@@ -41240,14 +39619,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 28,
         "hour": 0,
@@ -41400,14 +39773,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 29,
         "hour": 0,
@@ -41563,14 +39930,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 30,
         "hour": 0,
@@ -41713,14 +40074,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 1,
         "hour": 0,
@@ -41864,14 +40219,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 2,
         "hour": 0,
@@ -42017,14 +40366,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 3,
         "hour": 0,
@@ -42167,14 +40510,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 4,
         "hour": 0,
@@ -42320,14 +40657,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 5,
         "hour": 0,
@@ -42473,14 +40804,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 6,
         "hour": 0,
@@ -42628,14 +40953,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 7,
         "hour": 0,
@@ -42789,14 +41108,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 8,
         "hour": 0,
@@ -42939,14 +41252,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 9,
         "hour": 0,
@@ -43088,14 +41395,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 10,
         "hour": 0,
@@ -43239,14 +41540,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 11,
         "hour": 0,
@@ -43389,14 +41684,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 12,
         "hour": 0,
@@ -43542,14 +41831,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 13,
         "hour": 0,
@@ -43700,14 +41983,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 14,
         "hour": 0,
@@ -43853,14 +42130,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 15,
         "hour": 0,
@@ -44003,14 +42274,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 16,
         "hour": 0,
@@ -44158,14 +42423,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 17,
         "hour": 0,
@@ -44310,14 +42569,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 18,
         "hour": 0,
@@ -44461,14 +42714,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 19,
         "hour": 0,
@@ -44611,14 +42858,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 20,
         "hour": 0,
@@ -44761,14 +43002,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 21,
         "hour": 0,
@@ -44915,14 +43150,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 22,
         "hour": 0,
@@ -45066,14 +43295,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 23,
         "hour": 0,
@@ -45216,14 +43439,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 24,
         "hour": 0,
@@ -45383,14 +43600,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 25,
         "hour": 0,
@@ -45538,14 +43749,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 26,
         "hour": 0,
@@ -45691,14 +43896,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 27,
         "hour": 0,
@@ -45852,14 +44051,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 28,
         "hour": 0,
@@ -46004,14 +44197,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 29,
         "hour": 0,
@@ -46156,14 +44343,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 30,
         "hour": 0,
@@ -46306,14 +44487,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 31,
         "hour": 0,
@@ -46458,14 +44633,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 1,
         "hour": 0,
@@ -46609,14 +44778,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 2,
         "hour": 0,
@@ -46759,14 +44922,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 3,
         "hour": 0,
@@ -46909,14 +45066,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 4,
         "hour": 0,
@@ -47065,14 +45216,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 5,
         "hour": 0,
@@ -47217,14 +45362,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 6,
         "hour": 0,
@@ -47368,14 +45507,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 7,
         "hour": 0,
@@ -47520,14 +45653,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 8,
         "hour": 0,
@@ -47677,14 +45804,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 9,
         "hour": 0,
@@ -47828,14 +45949,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 10,
         "hour": 0,
@@ -47979,14 +46094,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 11,
         "hour": 0,
@@ -48141,14 +46250,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 12,
         "hour": 0,
@@ -48294,14 +46397,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 13,
         "hour": 0,
@@ -48442,14 +46539,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 14,
         "hour": 0,
@@ -48593,14 +46684,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 15,
         "hour": 0,
@@ -48746,14 +46831,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 16,
         "hour": 0,
@@ -48899,14 +46978,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 17,
         "hour": 0,
@@ -49051,14 +47124,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 18,
         "hour": 0,
@@ -49201,14 +47268,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 19,
         "hour": 0,
@@ -49363,14 +47424,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 20,
         "hour": 0,
@@ -49511,14 +47566,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 21,
         "hour": 0,
@@ -49666,14 +47715,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 22,
         "hour": 0,
@@ -49818,14 +47861,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 23,
         "hour": 0,
@@ -49969,14 +48006,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 24,
         "hour": 0,
@@ -50120,14 +48151,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 25,
         "hour": 0,
@@ -50273,14 +48298,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 26,
         "hour": 0,
@@ -50434,14 +48453,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 27,
         "hour": 0,
@@ -50585,14 +48598,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 28,
         "hour": 0,
@@ -50735,14 +48742,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 29,
         "hour": 0,
@@ -50886,14 +48887,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 30,
         "hour": 0,
@@ -51034,14 +49029,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 1,
         "hour": 0,
@@ -51184,14 +49173,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 2,
         "hour": 0,
@@ -51336,14 +49319,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 3,
         "hour": 0,
@@ -51484,14 +49461,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 4,
         "hour": 0,
@@ -51635,14 +49606,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 5,
         "hour": 0,
@@ -51785,14 +49750,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 6,
         "hour": 0,
@@ -51935,14 +49894,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 7,
         "hour": 0,
@@ -52084,14 +50037,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 8,
         "hour": 0,
@@ -52236,14 +50183,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 9,
         "hour": 0,
@@ -52390,14 +50331,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 10,
         "hour": 0,
@@ -52542,14 +50477,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 11,
         "hour": 0,
@@ -52699,14 +50628,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 12,
         "hour": 0,
@@ -52849,14 +50772,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 13,
         "hour": 0,
@@ -53003,14 +50920,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 14,
         "hour": 0,
@@ -53153,14 +51064,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 15,
         "hour": 0,
@@ -53304,14 +51209,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 16,
         "hour": 0,
@@ -53455,14 +51354,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 17,
         "hour": 0,
@@ -53605,14 +51498,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 18,
         "hour": 0,
@@ -53758,14 +51645,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 19,
         "hour": 0,
@@ -53917,14 +51798,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 20,
         "hour": 0,
@@ -54073,14 +51948,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 21,
         "hour": 0,
@@ -54224,14 +52093,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 22,
         "hour": 0,
@@ -54375,14 +52238,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 23,
         "hour": 0,
@@ -54526,14 +52383,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 24,
         "hour": 0,
@@ -54677,14 +52528,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 25,
         "hour": 0,
@@ -54830,14 +52675,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 26,
         "hour": 0,
@@ -54980,14 +52819,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 27,
         "hour": 0,
@@ -55131,14 +52964,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 28,
         "hour": 0,
@@ -55281,14 +53108,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 29,
         "hour": 0,
@@ -55429,14 +53250,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 30,
         "hour": 0,
@@ -55577,14 +53392,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 31,
         "hour": 0,
@@ -55727,14 +53536,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 1,
         "hour": 0,
@@ -55871,14 +53674,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 2,
         "hour": 0,
@@ -56019,14 +53816,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 3,
         "hour": 0,
@@ -56167,14 +53958,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 4,
         "hour": 0,
@@ -56315,14 +54100,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 5,
         "hour": 0,
@@ -56463,14 +54242,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 6,
         "hour": 0,
@@ -56611,14 +54384,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 7,
         "hour": 0,
@@ -56759,14 +54526,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 8,
         "hour": 0,
@@ -56907,14 +54668,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 9,
         "hour": 0,
@@ -57055,14 +54810,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 10,
         "hour": 0,
@@ -57203,14 +54952,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 11,
         "hour": 0,
@@ -57359,14 +55102,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 12,
         "hour": 0,
@@ -57507,14 +55244,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 13,
         "hour": 0,
@@ -57655,14 +55386,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 14,
         "hour": 0,
@@ -57803,14 +55528,8 @@
       ]
     },
     {
-      "ayanamsha_id": "CHITRA_AT_180",
-      "city": {
-        "jsonClass": "City",
-        "latitude": 37.8606,
-        "longitude": -122.1831,
-        "name": "Orinda",
-        "timezone": "America/Los_Angeles"
-      },
+      "ayanaamsha_id": "CHITRA_AT_180",
+      "city": null,
       "date": {
         "day": 15,
         "hour": 0,
