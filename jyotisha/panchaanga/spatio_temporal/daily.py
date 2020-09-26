@@ -78,14 +78,14 @@ class DailyPanchanga(common.JsonObject):
     self.lunar_month = None
 
     
-    self.tithi_data = None
+    self.tithis_with_ends = None
     self.tithi_at_sunrise = None
-    self.nakshatra_data = None
+    self.nakshatras_with_ends = None
     self.nakshatra_at_sunrise = None
-    self.yoga_data = None
+    self.yogas_with_ends = None
     self.yoga_at_sunrise = None
-    self.karana_data = None
-    self.raashi_data = None
+    self.karanas_with_ends = None
+    self.raashis_with_ends = None
     self.shraaddha_tithi = [None]
     self.festivals = []
 
@@ -125,15 +125,15 @@ class DailyPanchanga(common.JsonObject):
     if force_recomputation or self.jd_moonset is None:
       self.jd_moonset = self.city.get_setting_time(julian_day_start=self.jd_sunrise, body=Graha.MOON)
 
-    if force_recomputation or self.tithi_data is None:
-      self.tithi_data = self.get_angas_today(zodiac.AngaType.TITHI)
-      self.tithi_at_sunrise = self.tithi_data[0][0]
-      self.nakshatra_data = self.get_angas_today(zodiac.AngaType.NAKSHATRA)
-      self.nakshatra_at_sunrise = self.nakshatra_data[0][0]
-      self.yoga_data = self.get_angas_today(zodiac.AngaType.NAKSHATRA)
-      self.yoga_at_sunrise = self.yoga_data[0][0]
-      self.karana_data = self.get_angas_today(zodiac.AngaType.KARANA)
-      self.raashi_data = self.get_angas_today(zodiac.AngaType.RASHI)
+    if force_recomputation or self.tithis_with_ends is None:
+      self.tithis_with_ends = self.get_angas_today(zodiac.AngaType.TITHI)
+      self.tithi_at_sunrise = self.tithis_with_ends[0][0]
+      self.nakshatras_with_ends = self.get_angas_today(zodiac.AngaType.NAKSHATRA)
+      self.nakshatra_at_sunrise = self.nakshatras_with_ends[0][0]
+      self.yogas_with_ends = self.get_angas_today(zodiac.AngaType.NAKSHATRA)
+      self.yoga_at_sunrise = self.yogas_with_ends[0][0]
+      self.karanas_with_ends = self.get_angas_today(zodiac.AngaType.KARANA)
+      self.raashis_with_ends = self.get_angas_today(zodiac.AngaType.RASHI)
 
   def compute_tb_muhuurtas(self):
     """ Computes muhuurta-s according to taittiriiya brAhmaNa.
@@ -326,8 +326,8 @@ class DailyPanchanga(common.JsonObject):
           # noinspection PyTypeChecker
           t_act = brentq(f, x0 - TDELTA, x0 + TDELTA)
         except ValueError:
-          logging.warning('Unable to bracket! Using approximate t_end itself.')
-          logging.warning(locals())
+          logging.debug('Unable to bracket! Using approximate t_end itself.')
+          # logging.warning(locals())
           t_act = approx_end
         angas_list.extend([((anga_now + i - 1) % num_angas + 1, t_act)])
     return angas_list

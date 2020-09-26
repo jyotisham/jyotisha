@@ -141,17 +141,17 @@ class FestivalAssigner(PanchaangaApplier):
           # Using 0 as a special tag to denote every month!
           if angam_type == 'tithi':
             angam_sunrise = [d.tithi_at_sunrise for d in self.panchaanga.daily_panchaangas]
-            angam_data = [d.tithi_data for d in self.panchaanga.daily_panchaangas]
+            angam_data = [d.tithis_with_ends for d in self.panchaanga.daily_panchaangas]
             get_angam_func = lambda x: temporal.tithi.get_tithi(x)
             num_angams = 30
           elif angam_type == 'nakshatram':
             angam_sunrise = [d.nakshatra_at_sunrise for d in self.panchaanga.daily_panchaangas]
-            angam_data = [d.nakshatra_data for d in self.panchaanga.daily_panchaangas]
+            angam_data = [d.nakshatras_with_ends for d in self.panchaanga.daily_panchaangas]
             get_angam_func = lambda x: NakshatraDivision(x, ayanaamsha_id=self.ayanaamsha_id).get_nakshatra()
             num_angams = 27
           elif angam_type == 'yoga':
             angam_sunrise = [d.yoga_at_sunrise for d in self.panchaanga.daily_panchaangas]
-            angam_data = [d.yoga_data for d in self.panchaanga.daily_panchaangas]
+            angam_data = [d.yogas_with_ends for d in self.panchaanga.daily_panchaangas]
             get_angam_func = lambda x: NakshatraDivision(x, ayanaamsha_id=self.ayanaamsha_id).get_yoga()
             num_angams = 27
           else:

@@ -98,6 +98,9 @@ previous_day_panchaanga=self.daily_panchaangas[d])
         self.daily_panchaangas[d].get_lagna_data()
 
   def get_angas_for_interval_boundaries(self, d, get_anga_func, interval_type):
+    """Get anga data at various points.
+    
+    Useful for festival assignments."""
     jd_sunrise = self.daily_panchaangas[d].jd_sunrise
     jd_sunrise_tmrw = self.daily_panchaangas[d + 1].jd_sunrise
     jd_sunrise_datmrw = self.daily_panchaangas[d + 2].jd_sunrise

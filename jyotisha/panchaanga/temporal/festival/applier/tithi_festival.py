@@ -306,7 +306,7 @@ class TithiFestivalAssigner(FestivalAssigner):
       if (self.panchaanga.daily_panchaangas[d].tithi_at_sunrise % 15) == 12:
         if self.panchaanga.daily_panchaangas[d].nakshatra_at_sunrise in [21, 22, 23]:
           # We have a dwadashi near shravana, check for Shravana sparsha
-          for td in [x.tithi_data for x in self.panchaanga.daily_panchaangas[d:d + 2]]:
+          for td in [x.tithis_with_ends for x in self.panchaanga.daily_panchaangas[d:d + 2]]:
             (t12, t12_end) = td[0]
             if t12_end is None:
               continue

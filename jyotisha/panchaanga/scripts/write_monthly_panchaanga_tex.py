@@ -148,7 +148,7 @@ def writeMonthlyTeX(panchaanga, template_file, script=sanscript.DEVANAGARI, temp
           month_text += '\n' + ("{}  &")
 
     tithi_data_str = ''
-    for tithi_ID, tithi_end_jd in panchaanga.daily_panchaangas[d].tithi_data:
+    for tithi_ID, tithi_end_jd in panchaanga.daily_panchaangas[d].tithis_with_ends:
       # if tithi_data_str != '':
       #     tithi_data_str += '\\hspace{2ex}'
       tithi = '\\moon[scale=0.6]{%d}\\hspace{2pt}' % (tithi_ID) + \
@@ -164,7 +164,7 @@ def writeMonthlyTeX(panchaanga, template_file, script=sanscript.DEVANAGARI, temp
                           '\\hspace{2ex}')
 
     nakshatram_data_str = ''
-    for nakshatram_ID, nakshatram_end_jd in panchaanga.daily_panchaangas[d].nakshatra_data:
+    for nakshatram_ID, nakshatram_end_jd in panchaanga.daily_panchaangas[d].nakshatras_with_ends:
       # if nakshatram_data_str != '':
       #     nakshatram_data_str += '\\hspace{2ex}'
       nakshatram = jyotisha.names.NAMES['NAKSHATRAM_NAMES'][script][nakshatram_ID]
@@ -180,7 +180,7 @@ def writeMonthlyTeX(panchaanga, template_file, script=sanscript.DEVANAGARI, temp
                                '\\hspace{2ex}')
 
     yoga_data_str = ''
-    for yoga_ID, yoga_end_jd in panchaanga.daily_panchaangas[d].yoga_data:
+    for yoga_ID, yoga_end_jd in panchaanga.daily_panchaangas[d].yogas_with_ends:
       # if yoga_data_str != '':
       #     yoga_data_str += '\\hspace{2ex}'
       yoga = jyotisha.names.NAMES['YOGA_NAMES'][script][yoga_ID]
@@ -195,7 +195,7 @@ def writeMonthlyTeX(panchaanga, template_file, script=sanscript.DEVANAGARI, temp
                          '\\hspace{2ex}')
 
     karanam_data_str = ''
-    for numKaranam, (karanam_ID, karanam_end_jd) in enumerate(panchaanga.daily_panchaangas[d].karana_data):
+    for numKaranam, (karanam_ID, karanam_end_jd) in enumerate(panchaanga.daily_panchaangas[d].karanas_with_ends):
       # if numKaranam == 1:
       #     karanam_data_str += '\\hspace{2ex}'
       if numKaranam == 2:
