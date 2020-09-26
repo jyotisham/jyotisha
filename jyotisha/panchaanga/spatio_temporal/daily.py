@@ -248,8 +248,8 @@ class DailyPanchanga(common.JsonObject):
 
   def get_kaalas_local_time(self, format='hh:mm*'):
     kaalas = self.get_day_length_based_periods()
-    return {x: (Hour((kaalas[x][0] - self.julian_day_start) * 24).toString(format=format),
-                Hour((kaalas[x][1] - self.julian_day_start) * 24).toString(format=format)) for x in kaalas}
+    return {x: (Hour((kaalas[x].jd_start - self.julian_day_start) * 24).toString(format=format),
+                Hour((kaalas[x].jd_end - self.julian_day_start) * 24).toString(format=format)) for x in kaalas.__dict__}
 
   def get_angas_today(self, anga_type):
     """Computes anga data for angas such as tithi, nakshatram, yoga
