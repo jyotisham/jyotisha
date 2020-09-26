@@ -50,7 +50,7 @@ class TithiAssigner(PanchaangaApplier):
       t_start_d, t_end_d = interval.get_interval(self.panchaanga.daily_panchaangas[d].jd_sunrise, self.panchaanga.daily_panchaangas[d].jd_sunset, 3, 5).to_tuple()
       span_1 = t_end_d - t_start_d
       span_2 = 0
-      for [tithi, tithi_end] in self.panchaanga.daily_panchaangas[d].tithis_with_ends:
+      for [tithi, tithi_end] in self.panchaanga.daily_panchaangas[d].angas.tithis_with_ends:
         if tithi_end is None:
           pass
         elif t_start_d < tithi_end < t_end_d:
@@ -59,7 +59,7 @@ class TithiAssigner(PanchaangaApplier):
   
       t_start_d1, t_end_d1 = interval.get_interval(self.panchaanga.daily_panchaangas[d + 1].jd_sunrise, self.panchaanga.daily_panchaangas[d + 1].jd_sunset, 3, 5).to_tuple()
       vyapti_3 = t_end_d1 - t_start_d1
-      for [tithi, tithi_end] in self.panchaanga.daily_panchaangas[d + 1].tithis_with_ends:
+      for [tithi, tithi_end] in self.panchaanga.daily_panchaangas[d + 1].angas.tithis_with_ends:
         if tithi_end is None:
           pass
         elif t_start_d1 < tithi_end < t_end_d1:

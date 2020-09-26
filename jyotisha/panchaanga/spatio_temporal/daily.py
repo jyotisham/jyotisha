@@ -40,6 +40,18 @@ class DayLengthBasedPeriods(common.JsonObject):
     self.tb_muhuurtas = None
 
 
+class DayAngas(common.JsonObject):
+  def __init__(self):
+    self.tithis_with_ends = None
+    self.tithi_at_sunrise = None
+    self.nakshatras_with_ends = None
+    self.nakshatra_at_sunrise = None
+    self.yogas_with_ends = None
+    self.yoga_at_sunrise = None
+    self.karanas_with_ends = None
+    self.raashis_with_ends = None
+
+
 # This class is not named Panchangam in order to be able to disambiguate from annual.Panchangam in serialized objects.
 class DailyPanchanga(common.JsonObject):
   """This class enables the construction of a panchaanga
@@ -70,6 +82,7 @@ class DailyPanchanga(common.JsonObject):
 
     self.lagna_data = None
     self.day_length_based_periods = None
+    self.angas = None
 
     self.solar_sidereal_date_sunset = None
 
@@ -78,14 +91,6 @@ class DailyPanchanga(common.JsonObject):
     self.lunar_month = None
 
     
-    self.tithis_with_ends = None
-    self.tithi_at_sunrise = None
-    self.nakshatras_with_ends = None
-    self.nakshatra_at_sunrise = None
-    self.yogas_with_ends = None
-    self.yoga_at_sunrise = None
-    self.karanas_with_ends = None
-    self.raashis_with_ends = None
     self.shraaddha_tithi = [None]
     self.festivals = []
 
@@ -125,15 +130,16 @@ class DailyPanchanga(common.JsonObject):
     if force_recomputation or self.jd_moonset is None:
       self.jd_moonset = self.city.get_setting_time(julian_day_start=self.jd_sunrise, body=Graha.MOON)
 
-    if force_recomputation or self.tithis_with_ends is None:
-      self.tithis_with_ends = self.get_angas_today(zodiac.AngaType.TITHI)
-      self.tithi_at_sunrise = self.tithis_with_ends[0][0]
-      self.nakshatras_with_ends = self.get_angas_today(zodiac.AngaType.NAKSHATRA)
-      self.nakshatra_at_sunrise = self.nakshatras_with_ends[0][0]
-      self.yogas_with_ends = self.get_angas_today(zodiac.AngaType.NAKSHATRA)
-      self.yoga_at_sunrise = self.yogas_with_ends[0][0]
-      self.karanas_with_ends = self.get_angas_today(zodiac.AngaType.KARANA)
-      self.raashis_with_ends = self.get_angas_today(zodiac.AngaType.RASHI)
+    if force_recomputation or self.angas is None:
+      self.angas = DayAngas()
+      self.angas.tithis_with_ends = self.get_angas_today(zodiac.AngaType.TITHI)
+      self.angas.tithi_at_sunrise = self.angas.tithis_with_ends[0][0]
+      self.angas.nakshatras_with_ends = self.get_angas_today(zodiac.AngaType.NAKSHATRA)
+      self.nakshatra_at_sunrise = self.angas.nakshatras_with_ends[0][0]
+      self.angas.yogas_with_ends = self.get_angas_today(zodiac.AngaType.NAKSHATRA)
+      self.angas.yoga_at_sunrise = self.angas.yogas_with_ends[0][0]
+      self.angas.karanas_with_ends = self.get_angas_today(zodiac.AngaType.KARANA)
+      self.angas.raashis_with_ends = self.get_angas_today(zodiac.AngaType.RASHI)
 
   def compute_tb_muhuurtas(self):
     """ Computes muhuurta-s according to taittiriiya brAhmaNa.

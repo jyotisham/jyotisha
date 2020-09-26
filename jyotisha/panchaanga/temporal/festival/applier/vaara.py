@@ -51,19 +51,19 @@ class VaraFestivalAssigner(FestivalAssigner):
       [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
 
       # MANGALA-CHATURTHI
-      if self.panchaanga.daily_panchaangas[d].date.get_weekday() == 2 and (self.panchaanga.daily_panchaangas[d].tithi_at_sunrise % 15) == 4:
+      if self.panchaanga.daily_panchaangas[d].date.get_weekday() == 2 and (self.panchaanga.daily_panchaangas[d].angas.tithi_at_sunrise % 15) == 4:
         festival_name = 'aGgAraka-caturthI'
-        if self.panchaanga.daily_panchaangas[d].tithi_at_sunrise == 4:
+        if self.panchaanga.daily_panchaangas[d].angas.tithi_at_sunrise == 4:
           festival_name = 'sukhA' + '~' + festival_name
         self.add_festival(festival_name, d, debug_festivals)
 
       # KRISHNA ANGARAKA CHATURDASHI
-      if self.panchaanga.daily_panchaangas[d].date.get_weekday() == 2 and self.panchaanga.daily_panchaangas[d].tithi_at_sunrise == 29:
+      if self.panchaanga.daily_panchaangas[d].date.get_weekday() == 2 and self.panchaanga.daily_panchaangas[d].angas.tithi_at_sunrise == 29:
         # Double-check rule. When should the vyApti be?
         self.add_festival('kRSNAGgAraka-caturdazI-puNyakAlaH/yamatarpaNam', d, debug_festivals)
 
       # BUDHASHTAMI
-      if self.panchaanga.daily_panchaangas[d].date.get_weekday() == 3 and (self.panchaanga.daily_panchaangas[d].tithi_at_sunrise % 15) == 8:
+      if self.panchaanga.daily_panchaangas[d].date.get_weekday() == 3 and (self.panchaanga.daily_panchaangas[d].angas.tithi_at_sunrise % 15) == 8:
         self.add_festival('budhASTamI', d, debug_festivals)
 
 

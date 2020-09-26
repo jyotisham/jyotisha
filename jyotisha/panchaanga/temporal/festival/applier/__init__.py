@@ -116,7 +116,7 @@ class FestivalAssigner(PanchaangaApplier):
           # Shukla prathama tithis need to be dealt carefully, if e.g. the prathama tithi
           # does not touch sunrise on either day (the regular check won't work, because
           # the month itself is different the previous day!)
-          if self.panchaanga.daily_panchaangas[d].tithi_at_sunrise == 30 and self.panchaanga.daily_panchaangas[d + 1].tithi_at_sunrise == 2 and \
+          if self.panchaanga.daily_panchaangas[d].angas.tithi_at_sunrise == 30 and self.panchaanga.daily_panchaangas[d + 1].angas.tithi_at_sunrise == 2 and \
               self.panchaanga.daily_panchaangas[d + 1].lunar_month == month_num:
             # Only in this case, we have a problem
             self.add_festival(festival_name, d, debug_festivals)
@@ -140,18 +140,18 @@ class FestivalAssigner(PanchaangaApplier):
             (month_type == 'solar_month' and (self.panchaanga.daily_panchaangas[d].solar_sidereal_date_sunset.month == month_num or month_num == 0)):
           # Using 0 as a special tag to denote every month!
           if angam_type == 'tithi':
-            angam_sunrise = [d.tithi_at_sunrise for d in self.panchaanga.daily_panchaangas]
-            angam_data = [d.tithis_with_ends for d in self.panchaanga.daily_panchaangas]
+            angam_sunrise = [d.angas.tithi_at_sunrise for d in self.panchaanga.daily_panchaangas]
+            angam_data = [d.angas.tithis_with_ends for d in self.panchaanga.daily_panchaangas]
             get_angam_func = lambda x: temporal.tithi.get_tithi(x)
             num_angams = 30
           elif angam_type == 'nakshatram':
             angam_sunrise = [d.nakshatra_at_sunrise for d in self.panchaanga.daily_panchaangas]
-            angam_data = [d.nakshatras_with_ends for d in self.panchaanga.daily_panchaangas]
+            angam_data = [d.angas.nakshatras_with_ends for d in self.panchaanga.daily_panchaangas]
             get_angam_func = lambda x: NakshatraDivision(x, ayanaamsha_id=self.ayanaamsha_id).get_nakshatra()
             num_angams = 27
           elif angam_type == 'yoga':
-            angam_sunrise = [d.yoga_at_sunrise for d in self.panchaanga.daily_panchaangas]
-            angam_data = [d.yogas_with_ends for d in self.panchaanga.daily_panchaangas]
+            angam_sunrise = [d.angas.yoga_at_sunrise for d in self.panchaanga.daily_panchaangas]
+            angam_data = [d.angas.yogas_with_ends for d in self.panchaanga.daily_panchaangas]
             get_angam_func = lambda x: NakshatraDivision(x, ayanaamsha_id=self.ayanaamsha_id).get_yoga()
             num_angams = 27
           else:

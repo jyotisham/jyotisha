@@ -67,7 +67,7 @@ def compute_events(p, json_file):
         # Shukla prathama tithis need to be dealt carefully, if e.g. the prathama tithi
         # does not touch sunrise on either day (the regular check won't work, because
         # the month itself is different the previous day!)
-        if p.tithi_at_sunrise[d] == 30 and p.tithi_at_sunrise[d + 1] == 2 and \
+        if p.daily_panchaangas[d].angas.tithi_at_sunrise == 30 and p.daily_panchaangas[d + 1].angas.tithi_at_sunrise == 2 and \
             p.daily_panchaangas[d + 1].lunar_month == month_num:
           # Only in this case, we have a problem
 
@@ -94,12 +94,12 @@ def compute_events(p, json_file):
       elif (month_type == 'lunar_month' and p.daily_panchaangas[d].lunar_month == month_num) or \
           (month_type == 'solar_month' and p.daily_panchaangas[d].solar_sidereal_date_sunset.month == month_num):
         if angam_type == 'tithi':
-          angam_sunrise = p.tithi_at_sunrise
+          angam_sunrise = p.daily_panchaangas[d].angas.tithi_at_sunrise
           get_angam_func = lambda x: tithi.get_tithi(x)
           angam_num_pred = (angam_num - 2) % 30 + 1
           angam_num_succ = (angam_num % 30) + 1
         elif angam_type == 'nakshatram':
-          angam_sunrise = p.nakshatra_at_sunrise
+          angam_sunrise = p.daily_panchaangas[d].angas.nakshatra_at_sunrise
           get_angam_func = lambda x: NakshatraDivision(x, ayanaamsha_id=Ayanamsha.CHITRA_AT_180).get_nakshatra()
           angam_num_pred = (angam_num - 2) % 27 + 1
           angam_num_succ = (angam_num % 27) + 1

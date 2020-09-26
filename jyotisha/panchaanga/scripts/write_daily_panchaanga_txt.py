@@ -120,7 +120,7 @@ def writeDailyText(panchaanga, time_format="hh:mm", script=sanscript.DEVANAGARI,
     jd = panchaanga.daily_panchaangas[d].julian_day_start
 
     tithi_data_str = ''
-    for tithi_ID, tithi_end_jd in panchaanga.daily_panchaangas[d].tithis_with_ends:
+    for tithi_ID, tithi_end_jd in panchaanga.daily_panchaangas[d].angas.tithis_with_ends:
       tithi = jyotisha.names.NAMES['TITHI_NAMES'][script][tithi_ID].split('-')[-1]
       paksha = jyotisha.custom_transliteration.tr('zuklapakSaH' if tithi_ID <= 15 else 'kRSNapakSaH', script)
       if tithi_end_jd is None:
@@ -142,7 +142,7 @@ def writeDailyText(panchaanga, time_format="hh:mm", script=sanscript.DEVANAGARI,
     paksha_data_str = getName('pakSaH', script) + '—' + paksha
 
     nakshatram_data_str = ''
-    for nakshatram_ID, nakshatram_end_jd in panchaanga.daily_panchaangas[d].nakshatras_with_ends:
+    for nakshatram_ID, nakshatram_end_jd in panchaanga.daily_panchaangas[d].angas.nakshatras_with_ends:
       nakshatram = jyotisha.names.NAMES['NAKSHATRAM_NAMES'][script][nakshatram_ID]
       if nakshatram_end_jd is None:
         nakshatram_data_str = '%s; %s►%s' % \
@@ -159,7 +159,7 @@ def writeDailyText(panchaanga, time_format="hh:mm", script=sanscript.DEVANAGARI,
     nakshatram_data_str = getName('nakSatram', script) + '—' + nakshatram_data_str[2:]
 
     chandrashtama_rashi_data_str = ''
-    for rashi_ID, rashi_end_jd in panchaanga.daily_panchaangas[d].raashis_with_ends:
+    for rashi_ID, rashi_end_jd in panchaanga.daily_panchaangas[d].angas.raashis_with_ends:
       rashi = jyotisha.names.NAMES['RASHI_SUFFIXED_NAMES'][script][rashi_ID]
       if rashi_end_jd is None:
         rashi_data_str = '%s' % (rashi)
@@ -184,7 +184,7 @@ def writeDailyText(panchaanga, time_format="hh:mm", script=sanscript.DEVANAGARI,
       lagna_data_str = getName('lagnam', script) + '—' + lagna_data_str[2:]
 
     yoga_data_str = ''
-    for yoga_ID, yoga_end_jd in panchaanga.daily_panchaangas[d].yogas_with_ends:
+    for yoga_ID, yoga_end_jd in panchaanga.daily_panchaangas[d].angas.yogas_with_ends:
       # if yoga_data_str != '':
       #     yoga_data_str += ' '
       yoga = jyotisha.names.NAMES['YOGA_NAMES'][script][yoga_ID]
@@ -202,7 +202,7 @@ def writeDailyText(panchaanga, time_format="hh:mm", script=sanscript.DEVANAGARI,
     yoga_data_str = getName('yOgaH', script) + '—' + yoga_data_str[2:]
 
     karanam_data_str = ''
-    for numKaranam, (karanam_ID, karanam_end_jd) in enumerate(panchaanga.daily_panchaangas[d].karanas_with_ends):
+    for numKaranam, (karanam_ID, karanam_end_jd) in enumerate(panchaanga.daily_panchaangas[d].angas.karanas_with_ends):
       # if numKaranam == 1:
       #     karanam_data_str += ' '
       karanam = jyotisha.names.NAMES['KARANAM_NAMES'][script][karanam_ID]
