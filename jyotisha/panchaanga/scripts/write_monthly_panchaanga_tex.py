@@ -228,21 +228,21 @@ def writeMonthlyTeX(panchaanga, template_file, script=sanscript.DEVANAGARI, temp
       jyotisha.panchaanga.temporal.hour.Hour(24 * (panchaanga.daily_panchaangas[d].kaalas['yama'][1] - jd)).toString(
         format=panchaanga.fmt))
 
-    if panchaanga.daily_panchaangas[d].solar_month_end_time is None:
+    if panchaanga.daily_panchaangas[d].solar_sidereal_date_sunset.month_transition is None:
       month_end_str = ''
     else:
-      _m = panchaanga.daily_panchaangas[d - 1].solar_month_sunset
-      if panchaanga.daily_panchaangas[d].solar_month_end_time >= panchaanga.daily_panchaangas[d + 1].jd_sunrise:
+      _m = panchaanga.daily_panchaangas[d - 1].solar_sidereal_date_sunset.month
+      if panchaanga.daily_panchaangas[d].solar_sidereal_date_sunset.month_transition >= panchaanga.daily_panchaangas[d + 1].jd_sunrise:
         month_end_str = '\\mbox{%s{\\tiny\\RIGHTarrow}\\textsf{%s}}' % (
           jyotisha.names.NAMES['RASHI_NAMES'][script][_m], jyotisha.panchaanga.temporal.hour.Hour(
-            24 * (panchaanga.daily_panchaangas[d].solar_month_end_time - panchaanga.daily_panchaangas[d + 1].julian_day_start)).toString(format=panchaanga.fmt))
+            24 * (panchaanga.daily_panchaangas[d].solar_sidereal_date_sunset.month_transition - panchaanga.daily_panchaangas[d + 1].julian_day_start)).toString(format=panchaanga.fmt))
       else:
         month_end_str = '\\mbox{%s{\\tiny\\RIGHTarrow}\\textsf{%s}}' % (
           jyotisha.names.NAMES['RASHI_NAMES'][script][_m], jyotisha.panchaanga.temporal.hour.Hour(
-            24 * (panchaanga.daily_panchaangas[d].solar_month_end_time - panchaanga.daily_panchaangas[d].julian_day_start)).toString(format=panchaanga.fmt))
+            24 * (panchaanga.daily_panchaangas[d].solar_sidereal_date_sunset.month_transition - panchaanga.daily_panchaangas[d].julian_day_start)).toString(format=panchaanga.fmt))
 
     month_data = '\\sunmonth{%s}{%d}{%s}' % (
-      jyotisha.names.NAMES['RASHI_NAMES'][script][panchaanga.daily_panchaangas[d].solar_month_sunset], panchaanga.daily_panchaangas[d].solar_sidereal_month_day_sunset,
+      jyotisha.names.NAMES['RASHI_NAMES'][script][panchaanga.daily_panchaangas[d].solar_sidereal_date_sunset.month], panchaanga.daily_panchaangas[d].solar_sidereal_date_sunset.day,
       month_end_str)
 
     if currWeek < 6:

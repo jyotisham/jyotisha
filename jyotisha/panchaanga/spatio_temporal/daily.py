@@ -50,18 +50,13 @@ class DailyPanchanga(common.JsonObject):
     self.lagna_data = None
     self.kaalas = None
 
-    self.solar_month_sunrise = None
-    self.solar_month_sunset = None
-    self.solar_sidereal_month_day_sunset = None
-    self.solar_month_end_time = None
-    self.solar_sidereal_month_end_jd = None
+    self.solar_sidereal_date_sunset = None
 
-    self.tropical_month = None
-    self.tropical_month_end_time = None
+    self.tropical_date = None
 
     self.lunar_month = None
 
-
+    
     self.tithi_data = None
     self.tithi_at_sunrise = None
     self.nakshatra_data = None
@@ -75,6 +70,7 @@ class DailyPanchanga(common.JsonObject):
 
     self.compute_sun_moon_transitions(previous_day_panchaanga=previous_day_panchaanga)
     self.compute_solar_day_sunset(previous_day_panchaanga=previous_day_panchaanga)
+    self.get_kaalas()
 
   def compute_sun_moon_transitions(self, previous_day_panchaanga=None, force_recomputation=False):
     """
@@ -142,20 +138,22 @@ class DailyPanchanga(common.JsonObject):
     """
     # If solar transition happens before the current sunset but after the previous sunset, then that is taken to be solar day 1.
     self.compute_sun_moon_transitions(previous_day_panchaanga=previous_day_panchaanga)
-    self.solar_month_sunset = NakshatraDivision(julday=self.jd_sunset, ayanaamsha_id=self.ayanaamsha_id).get_anga(
-      anga_type=AngaType.SOLAR_MONTH)
-    self.solar_month_sunrise = NakshatraDivision(julday=self.jd_sunrise, ayanaamsha_id=self.ayanaamsha_id).get_anga(
+    solar_month_sunset = NakshatraDivision(julday=self.jd_sunset, ayanaamsha_id=self.ayanaamsha_id).get_anga(
       anga_type=AngaType.SOLAR_MONTH)
 
-    if previous_day_panchaanga is None or previous_day_panchaanga.solar_sidereal_month_day_sunset > 28 :
-      solar_month_sunset_span = zodiac.AngaSpan.find(jd1=self.jd_sunset - 32, jd2=self.jd_sunset + 5, target_anga_id=self.solar_month_sunset, anga_type=AngaType.SOLAR_MONTH, ayanaamsha_id=self.ayanaamsha_id)
-      self.solar_sidereal_month_day_sunset = len(self.city.get_sunsets_in_period(jd_start=solar_month_sunset_span.jd_start, jd_end=self.jd_sunset + 1/48.0))
-      # if self.solar_sidereal_month_day_sunset == 1 and solar_month_sunset_span.jd_start > self.jd_sunrise:
-      #   self.solar_sidereal_month_end_jd = solar_month_sunset_span.jd_start
-      # elif self.solar_sidereal_month_day_sunset == 30 and solar_month_sunset_span.jd_end < self.jd_next_sunrise:
-      #   self.solar_sidereal_month_end_jd = solar_month_sunset_span.jd_end
+    solar_sidereal_month_end_jd = None
+    solar_sidereal_month_day_sunset = None
+    if previous_day_panchaanga is None or previous_day_panchaanga.solar_sidereal_date_sunset.day > 28 :
+      solar_month_sunset_span = zodiac.AngaSpan.find(jd1=self.jd_sunset - 32, jd2=self.jd_sunset + 5, target_anga_id=solar_month_sunset, anga_type=AngaType.SOLAR_MONTH, ayanaamsha_id=self.ayanaamsha_id)
+      solar_sidereal_month_day_sunset = len(self.city.get_sunsets_in_period(jd_start=solar_month_sunset_span.jd_start, jd_end=self.jd_sunset + 1/48.0))
+      if solar_sidereal_month_day_sunset == 1 and solar_month_sunset_span.jd_start > self.jd_sunrise:
+        solar_sidereal_month_end_jd = solar_month_sunset_span.jd_start
+      elif solar_sidereal_month_day_sunset == 30 and solar_month_sunset_span.jd_end < self.jd_next_sunrise:
+        solar_sidereal_month_end_jd = solar_month_sunset_span.jd_end
     else:
-      self.solar_sidereal_month_day_sunset = previous_day_panchaanga.solar_sidereal_month_day_sunset + 1
+      solar_sidereal_month_day_sunset = previous_day_panchaanga.solar_sidereal_date_sunset.day + 1
+    from jyotisha.panchaanga.temporal import time
+    self.solar_sidereal_date_sunset = time.BasicDateWithTransitions(month=solar_month_sunset, day=solar_sidereal_month_day_sunset, month_transition=solar_sidereal_month_end_jd)
 
   def get_lagna_data(self, ayanaamsha_id=zodiac.Ayanamsha.CHITRA_AT_180, debug=False):
     """Returns the lagna data

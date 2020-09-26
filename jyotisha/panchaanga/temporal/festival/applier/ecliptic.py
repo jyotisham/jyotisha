@@ -31,7 +31,7 @@ class EclipticFestivalAssigner(FestivalAssigner):
                 datetime.utcoffset(local_time).seconds) / 3600.0
 
       # TROPICAL AYANAMS
-      if self.panchaanga.daily_panchaangas[d].solar_sidereal_month_day_sunset == 1:
+      if self.panchaanga.daily_panchaangas[d].solar_sidereal_date_sunset.day == 1:
         transits = \
           Graha.singleton(Graha.SUN).get_next_raashi_transit(jd_start=self.panchaanga.daily_panchaangas[d].jd_sunrise,
                                                    jd_end=self.panchaanga.daily_panchaangas[d].jd_sunrise + 15,
@@ -49,23 +49,23 @@ class EclipticFestivalAssigner(FestivalAssigner):
         ayana_time = Hour(_t).toString()
 
         self.panchaanga.daily_panchaangas[fday_nirayana].festivals.append('%s\\textsf{%s}{\\RIGHTarrow}\\textsf{%s}' % (
-          names.NAMES['RTU_MASA_NAMES']["hk"][self.panchaanga.daily_panchaangas[d].solar_month_sunset], '', ayana_time))
-        self.panchaanga.daily_panchaangas[fday_nirayana].tropical_month_end_time = ayana_jd_start
+          names.NAMES['RTU_MASA_NAMES']["hk"][self.panchaanga.daily_panchaangas[d].solar_sidereal_date_sunset.month], '', ayana_time))
+        self.panchaanga.daily_panchaangas[fday_nirayana].tropical_date.month_end_time = ayana_jd_start
         for i in range(last_d_assigned + 1, fday_nirayana + 1):
-          self.panchaanga.daily_panchaangas[i].tropical_month = self.panchaanga.daily_panchaangas[d].solar_month_sunset
+          self.panchaanga.daily_panchaangas[i].tropical_date.month = self.panchaanga.daily_panchaangas[d].solar_sidereal_date_sunset.month
         last_d_assigned = fday_nirayana
-        if self.panchaanga.daily_panchaangas[d].solar_month_sunset == 3:
+        if self.panchaanga.daily_panchaangas[d].solar_sidereal_date_sunset.month == 3:
           if self.panchaanga.daily_panchaangas[fday_nirayana].jd_sunset < ayana_jd_start < self.panchaanga.daily_panchaangas[fday_nirayana + 1].jd_sunset:
             self.panchaanga.daily_panchaangas[fday_nirayana].append('dakSiNAyana-puNyakAlaH')
           else:
             self.panchaanga.daily_panchaangas[fday_nirayana - 1].append('dakSiNAyana-puNyakAlaH')
-        if self.panchaanga.daily_panchaangas[d].solar_month_sunset == 9:
+        if self.panchaanga.daily_panchaangas[d].solar_sidereal_date_sunset.month == 9:
           if self.panchaanga.daily_panchaangas[fday_nirayana].jd_sunset < ayana_jd_start < self.panchaanga.daily_panchaangas[fday_nirayana + 1].jd_sunset:
             self.panchaanga.daily_panchaangas[fday_nirayana + 1].append('uttarAyaNa-puNyakAlaH/mitrOtsavaH')
           else:
             self.panchaanga.daily_panchaangas[fday_nirayana].append('uttarAyaNa-puNyakAlaH/mitrOtsavaH')
     for i in range(last_d_assigned + 1, self.panchaanga.duration + 1):
-      self.panchaanga.daily_panchaangas[i].tropical_month = (self.panchaanga.daily_panchaangas[last_d_assigned].solar_month_sunset % 12) + 1
+      self.panchaanga.daily_panchaangas[i].tropical_date.month = (self.panchaanga.daily_panchaangas[last_d_assigned].solar_sidereal_date_sunset.month % 12) + 1
 
   def compute_solar_eclipses(self):
     jd = self.panchaanga.jd_start

@@ -18,25 +18,39 @@ logging.basicConfig(
 def test_solar_day():
 
   panchaanga = daily.DailyPanchanga.from_city_and_julian_day(
+    city=tests.spatio_temporal.chennai, julian_day=time.utc_gregorian_to_jd(Date(2018, 12, 31)))
+  assert panchaanga.solar_sidereal_date_sunset.month_transition is None
+
+  panchaanga = daily.DailyPanchanga.from_city_and_julian_day(
     city=tests.spatio_temporal.chennai, julian_day=time.utc_gregorian_to_jd(Date(2018, 1, 14)))
-  assert panchaanga.solar_sidereal_month_day_sunset == 1
-  assert panchaanga.solar_month_sunset == 10
+  assert panchaanga.solar_sidereal_date_sunset.day == 1
+  assert panchaanga.solar_sidereal_date_sunset.month == 10
+  assert panchaanga.solar_sidereal_date_sunset.month_transition == 2458132.8291680976
+
+  panchaanga = daily.DailyPanchanga.from_city_and_julian_day(
+    city=tests.spatio_temporal.chennai, julian_day=time.utc_gregorian_to_jd(Date(2018, 2, 12)))
+  numpy.testing.assert_approx_equal(panchaanga.solar_sidereal_date_sunset.month_transition, 2458162.3747)
+
+
+  panchaanga = daily.DailyPanchanga.from_city_and_julian_day(
+    city=tests.spatio_temporal.chennai, julian_day=time.utc_gregorian_to_jd(Date(2018, 4, 13)))
+  assert panchaanga.solar_sidereal_date_sunset.month_transition is None
 
   panchaanga = daily.DailyPanchanga.from_city_and_julian_day(
     city=tests.spatio_temporal.chennai, julian_day=time.utc_gregorian_to_jd(Date(2017, 12, 16)))
-  assert panchaanga.solar_sidereal_month_day_sunset == 1
-  assert panchaanga.solar_month_sunset == 9
+  assert panchaanga.solar_sidereal_date_sunset.day == 1
+  assert panchaanga.solar_sidereal_date_sunset.month == 9
 
   panchaanga = daily.DailyPanchanga.from_city_and_julian_day(
     city=tests.spatio_temporal.chennai, julian_day=2457023.27)
   logging.debug(str(panchaanga))
-  assert panchaanga.solar_sidereal_month_day_sunset == 16
-  assert panchaanga.solar_month_sunset == 9
+  assert panchaanga.solar_sidereal_date_sunset.day == 16
+  assert panchaanga.solar_sidereal_date_sunset.month == 9
 
   panchaanga = daily.DailyPanchanga.from_city_and_julian_day(
     city=tests.spatio_temporal.chennai, julian_day=time.utc_gregorian_to_jd(Date(2017, 12, 31)))
-  assert panchaanga.solar_sidereal_month_day_sunset == 16
-  assert panchaanga.solar_month_sunset == 9
+  assert panchaanga.solar_sidereal_date_sunset.day == 16
+  assert panchaanga.solar_sidereal_date_sunset.month == 9
 
 
 def test_sunrise_mtv():

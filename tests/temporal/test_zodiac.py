@@ -39,6 +39,8 @@ def test_get_anga_span_solar_month():
   from jyotisha.panchaanga.temporal import time
   span_finder = AngaSpanFinder(anga_type=AngaType.SOLAR_MONTH, ayanaamsha_id=Ayanamsha.CHITRA_AT_180)
 
+  assert span_finder.find(jd1=2458222.0333434483-32, jd2=2458222.0333434483 + 4, target_anga_id=12,).to_tuple() == (2458192.24785228, 2458222.6026552585)
+
   jd2 = time.utc_gregorian_to_jd(time.Date(2020, 4, 16))
   assert span_finder.find(jd1=jd2-32, jd2=jd2, target_anga_id=1).to_tuple() == (2458953.1096598045, None)
 

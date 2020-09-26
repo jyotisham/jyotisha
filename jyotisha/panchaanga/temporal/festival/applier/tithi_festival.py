@@ -141,7 +141,7 @@ class TithiFestivalAssigner(FestivalAssigner):
           self.panchaanga.daily_panchaangas[d].tithi_at_sunrise == 7:
         self.add_festival('bhadrA~saptamI', d, debug_festivals)
 
-      if self.panchaanga.daily_panchaangas[d].solar_month_end_time is not None:
+      if self.panchaanga.daily_panchaangas[d].solar_sidereal_date_sunset.month_transition is not None:
         # we have a Sankranti!
         if self.panchaanga.daily_panchaangas[d].tithi_at_sunrise == 7:
           self.add_festival('mahAjayA~saptamI', d, debug_festivals)
@@ -202,7 +202,7 @@ class TithiFestivalAssigner(FestivalAssigner):
               'sarva-' + names.get_ekadashi_name(ekadashi_paksha, self.panchaanga.daily_panchaangas[d].lunar_month),
               smaarta_ekadashi_fday, debug_festivals)
             if ekadashi_paksha == 'shukla':
-              if self.panchaanga.daily_panchaangas[d].solar_month_sunset == 9:
+              if self.panchaanga.daily_panchaangas[d].solar_sidereal_date_sunset.month == 9:
                 self.add_festival('sarva-vaikuNTha-EkAdazI', smaarta_ekadashi_fday, debug_festivals)
           else:
             self.add_festival(
@@ -212,7 +212,7 @@ class TithiFestivalAssigner(FestivalAssigner):
               'vaiSNava-' + names.get_ekadashi_name(ekadashi_paksha, self.panchaanga.daily_panchaangas[d].lunar_month),
               vaishnava_ekadashi_fday, debug_festivals)
             if ekadashi_paksha == 'shukla':
-              if self.panchaanga.daily_panchaangas[d].solar_month_sunset == 9:
+              if self.panchaanga.daily_panchaangas[d].solar_sidereal_date_sunset.month == 9:
                 self.add_festival('smArta-vaikuNTha-EkAdazI', smaarta_ekadashi_fday, debug_festivals)
                 self.add_festival('vaiSNava-vaikuNTha-EkAdazI', vaishnava_ekadashi_fday,
                                   debug_festivals)
@@ -225,7 +225,7 @@ class TithiFestivalAssigner(FestivalAssigner):
           self.add_festival(
             'vaiSNava-' + names.get_ekadashi_name(ekadashi_paksha, self.panchaanga.daily_panchaangas[d].lunar_month),
             vaishnava_ekadashi_fday, debug_festivals)
-          if self.panchaanga.daily_panchaangas[d].solar_month_sunset == 9:
+          if self.panchaanga.daily_panchaangas[d].solar_sidereal_date_sunset.month == 9:
             if ekadashi_paksha == 'shukla':
               self.add_festival('smArta-vaikuNTha-EkAdazI (gRhastha)', smaarta_ekadashi_fday,
                                 debug_festivals)
@@ -237,7 +237,7 @@ class TithiFestivalAssigner(FestivalAssigner):
           # Must have already assigned
           pass
         else:
-          if self.panchaanga.daily_panchaangas[d].solar_month_sunset == 8 and ekadashi_paksha == 'shukla':
+          if self.panchaanga.daily_panchaangas[d].solar_sidereal_date_sunset.month == 8 and ekadashi_paksha == 'shukla':
             # self.add_festival('guruvAyupura-EkAdazI', smaarta_ekadashi_fday, debug_festivals)
             self.add_festival('guruvAyupura-EkAdazI', vaishnava_ekadashi_fday, debug_festivals)
             self.add_festival('kaizika-EkAdazI', vaishnava_ekadashi_fday, debug_festivals)
@@ -359,10 +359,10 @@ class TithiFestivalAssigner(FestivalAssigner):
         if self.panchaanga.daily_panchaangas[d].lunar_month == 6:
           pref = '(%s) mahAlaya ' % (
             names.get_chandra_masa(self.panchaanga.daily_panchaangas[d].lunar_month, names.NAMES, 'hk', visarga=False))
-        elif self.panchaanga.daily_panchaangas[d].solar_month_sunset == 4:
+        elif self.panchaanga.daily_panchaangas[d].solar_sidereal_date_sunset.month == 4:
           pref = '%s (kaTaka) ' % (
             names.get_chandra_masa(self.panchaanga.daily_panchaangas[d].lunar_month, names.NAMES, 'hk', visarga=False))
-        elif self.panchaanga.daily_panchaangas[d].solar_month_sunset == 10:
+        elif self.panchaanga.daily_panchaangas[d].solar_sidereal_date_sunset.month == 10:
           pref = 'mauni (%s/makara) ' % (
             names.get_chandra_masa(self.panchaanga.daily_panchaangas[d].lunar_month, names.NAMES, 'hk', visarga=False))
         else:

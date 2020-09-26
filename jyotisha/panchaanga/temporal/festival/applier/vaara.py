@@ -19,7 +19,7 @@ class VaraFestivalAssigner(FestivalAssigner):
       [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
 
       # BHRGUVARA SUBRAHMANYA VRATAM
-      if self.panchaanga.daily_panchaangas[d].solar_month_sunset == 7 and self.panchaanga.daily_panchaangas[d].date.get_weekday() == 5:
+      if self.panchaanga.daily_panchaangas[d].solar_sidereal_date_sunset.month == 7 and self.panchaanga.daily_panchaangas[d].date.get_weekday() == 5:
         festival_name = 'bhRguvAra-subrahmaNya-vratam'
         if festival_name not in self.panchaanga.fest_days:
           # only the first bhRguvAra of tulA mAsa is considered (skAnda purANam)
@@ -40,7 +40,7 @@ class VaraFestivalAssigner(FestivalAssigner):
                                                        (4, 5, 'ta:ADi~veLLikkizhamai'),
                                                        (10, 5, 'ta:tai~veLLikkizhamai'),
                                                        (11, 2, 'ta:mAci~cevvAy')):
-        if self.panchaanga.daily_panchaangas[d].solar_month_sunset == mwd_fest_m and self.panchaanga.daily_panchaangas[d].date.get_weekday() == mwd_fest_wd:
+        if self.panchaanga.daily_panchaangas[d].solar_sidereal_date_sunset.month == mwd_fest_m and self.panchaanga.daily_panchaangas[d].date.get_weekday() == mwd_fest_wd:
           self.add_festival(mwd_fest_name, d, debug_festivals)
 
   def assign_tithi_vara_yoga(self, debug_festivals=False):

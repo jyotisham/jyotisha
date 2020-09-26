@@ -94,11 +94,26 @@ def decypher_fractional_hours(time_in_hours):
   return (int(time_in_hours), int(minutes), seconds)
 
 
-class Date(JsonObject):
-  def __init__(self, year, month, day, hour=None, minute=None, second=None):
-    self.year = int(year)
+class BasicDate(JsonObject):
+  def __init__(self, month, day, year=None):
+    self.year = year
     self.month = int(month)
     self.day = int(day)
+
+
+class BasicDateWithTransitions(BasicDate):
+  def __init__(self, month, day, year=None, month_transition=None, day_transition=None):
+    super(BasicDateWithTransitions, self).__init__(year=year, month=month, day=day)
+    self.day_transition = day_transition
+    self.month_transition = month_transition
+    
+  def set_transitions(self, day_transition, month_transition):
+    self.day_transition = day_transition
+    self.month_transition = month_transition
+
+class Date(BasicDate):
+  def __init__(self, year, month, day, hour=None, minute=None, second=None):
+    super(Date, self).__init__(year=year, month=month, day=day)
     self.hour = hour
     self.minute = minute
     self.second = second
@@ -151,8 +166,8 @@ class Date(JsonObject):
 def jd_to_utc_gregorian(jd):
   tm = Time(jd, format='jd')
   tm.format = "ymdhms"
-  return Date(year=tm.value["year"], month=tm.value["month"], day=tm.value["day"],
-              hour=tm.value["hour"], minute=tm.value["minute"], second=tm.value["second"])
+  return Date(year=int(tm.value["year"]), month=int(tm.value["month"]), day=int(tm.value["day"]),
+              hour=int(tm.value["hour"]), minute=int(tm.value["minute"]), second=tm.value["second"])
 
 
 def utc_gregorian_to_jd(date):
@@ -214,6 +229,7 @@ class Timezone:
     tm.format = "datetime"
     local_datetime = pytz.timezone(self.timezone_id).fromutc(tm.value)
     return str(local_datetime)
+
 
 
 # A timezone frequently used for debugging (as most developers are located there.)
