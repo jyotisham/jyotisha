@@ -53,7 +53,7 @@ class DailyCalendarHandler(Resource):
 
 # noinspection PyUnresolvedReferences
 @api.route(
-  '/kaalas/coordinates/<string:latitude>/<string:longitude>/years/<string:year>/months/<int:month>/days/<int:day>/')
+  '/day_length_based_periods/coordinates/<string:latitude>/<string:longitude>/years/<string:year>/months/<int:month>/days/<int:day>/')
 class KaalaHandler(Resource):
   get_parser = reqparse.RequestParser()
   get_parser.add_argument('timezone', type=str, default='Asia/Calcutta', help='Example: Asia/Calcutta', location='args',

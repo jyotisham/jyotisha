@@ -186,49 +186,49 @@ def writeDailyTeX(panchaanga, template_file, time_format="hh:mm", script=sanscri
     moonset = time.Hour(24 * (panchaanga.daily_panchaangas[d].jd_moonset - jd)).toString(
       format=time_format)
 
-    braahma_start = time.Hour(24 * (panchaanga.daily_panchaangas[d].kaalas['braahma'][0] - jd)).toString(
+    braahma_start = time.Hour(24 * (panchaanga.daily_panchaangas[d].day_length_based_periods['braahma'][0] - jd)).toString(
       format=time_format)
     pratahsandhya_start = time.Hour(
-      24 * (panchaanga.daily_panchaangas[d].kaalas['prAtaH sandhyA'][0] - jd)).toString(format=time_format)
+      24 * (panchaanga.daily_panchaangas[d].day_length_based_periods['prAtaH sandhyA'][0] - jd)).toString(format=time_format)
     pratahsandhya_end = time.Hour(
-      24 * (panchaanga.daily_panchaangas[d].kaalas['prAtaH sandhyA end'][0] - jd)).toString(format=time_format)
-    sangava = time.Hour(24 * (panchaanga.daily_panchaangas[d].kaalas['saGgava'][0] - jd)).toString(
+      24 * (panchaanga.daily_panchaangas[d].day_length_based_periods['prAtaH sandhyA end'][0] - jd)).toString(format=time_format)
+    sangava = time.Hour(24 * (panchaanga.daily_panchaangas[d].day_length_based_periods['saGgava'][0] - jd)).toString(
       format=time_format)
-    madhyaahna = time.Hour(24 * (panchaanga.daily_panchaangas[d].kaalas['madhyAhna'][0] - jd)).toString(
+    madhyaahna = time.Hour(24 * (panchaanga.daily_panchaangas[d].day_length_based_periods['madhyAhna'][0] - jd)).toString(
       format=time_format)
     madhyahnika_sandhya_start = time.Hour(
-      24 * (panchaanga.daily_panchaangas[d].kaalas['mAdhyAhnika sandhyA'][0] - jd)).toString(format=time_format)
+      24 * (panchaanga.daily_panchaangas[d].day_length_based_periods['mAdhyAhnika sandhyA'][0] - jd)).toString(format=time_format)
     madhyahnika_sandhya_end = time.Hour(
-      24 * (panchaanga.daily_panchaangas[d].kaalas['mAdhyAhnika sandhyA end'][0] - jd)).toString(format=time_format)
-    aparahna = time.Hour(24 * (panchaanga.daily_panchaangas[d].kaalas['aparAhna'][0] - jd)).toString(
+      24 * (panchaanga.daily_panchaangas[d].day_length_based_periods['mAdhyAhnika sandhyA end'][0] - jd)).toString(format=time_format)
+    aparahna = time.Hour(24 * (panchaanga.daily_panchaangas[d].day_length_based_periods['aparAhna'][0] - jd)).toString(
       format=time_format)
-    sayahna = time.Hour(24 * (panchaanga.daily_panchaangas[d].kaalas['sAyAhna'][0] - jd)).toString(
+    sayahna = time.Hour(24 * (panchaanga.daily_panchaangas[d].day_length_based_periods['sAyAhna'][0] - jd)).toString(
       format=time_format)
     sayamsandhya_start = time.Hour(
-      24 * (panchaanga.daily_panchaangas[d].kaalas['sAyaM sandhyA'][0] - jd)).toString(format=time_format)
+      24 * (panchaanga.daily_panchaangas[d].day_length_based_periods['sAyaM sandhyA'][0] - jd)).toString(format=time_format)
     sayamsandhya_end = time.Hour(
-      24 * (panchaanga.daily_panchaangas[d].kaalas['sAyaM sandhyA end'][0] - jd)).toString(format=time_format)
-    ratriyama1 = time.Hour(24 * (panchaanga.daily_panchaangas[d].kaalas['rAtri yAma 1'][0] - jd)).toString(
+      24 * (panchaanga.daily_panchaangas[d].day_length_based_periods['sAyaM sandhyA end'][0] - jd)).toString(format=time_format)
+    ratriyama1 = time.Hour(24 * (panchaanga.daily_panchaangas[d].day_length_based_periods['rAtri yAma 1'][0] - jd)).toString(
       format=time_format)
-    shayana_time_end = time.Hour(24 * (panchaanga.daily_panchaangas[d].kaalas['zayana'][0] - jd)).toString(
+    shayana_time_end = time.Hour(24 * (panchaanga.daily_panchaangas[d].day_length_based_periods['zayana'][0] - jd)).toString(
       format=time_format)
-    dinanta = time.Hour(24 * (panchaanga.daily_panchaangas[d].kaalas['dinAnta'][0] - jd)).toString(
+    dinanta = time.Hour(24 * (panchaanga.daily_panchaangas[d].day_length_based_periods['dinAnta'][0] - jd)).toString(
       format=time_format)
 
     rahu = '%s--%s' % (
-      time.Hour(24 * (panchaanga.daily_panchaangas[d].kaalas['rahu'][0] - jd)).toString(
+      time.Hour(24 * (panchaanga.daily_panchaangas[d].day_length_based_periods['rahu'][0] - jd)).toString(
         format=time_format),
-      time.Hour(24 * (panchaanga.daily_panchaangas[d].kaalas['rahu'][1] - jd)).toString(
+      time.Hour(24 * (panchaanga.daily_panchaangas[d].day_length_based_periods['rahu'][1] - jd)).toString(
         format=time_format))
     yama = '%s--%s' % (
-      time.Hour(24 * (panchaanga.daily_panchaangas[d].kaalas['yama'][0] - jd)).toString(
+      time.Hour(24 * (panchaanga.daily_panchaangas[d].day_length_based_periods['yama'][0] - jd)).toString(
         format=time_format),
-      time.Hour(24 * (panchaanga.daily_panchaangas[d].kaalas['yama'][1] - jd)).toString(
+      time.Hour(24 * (panchaanga.daily_panchaangas[d].day_length_based_periods['yama'][1] - jd)).toString(
         format=time_format))
     gulika = '%s--%s' % (
-      time.Hour(24 * (panchaanga.daily_panchaangas[d].kaalas['gulika'][0] - jd)).toString(
+      time.Hour(24 * (panchaanga.daily_panchaangas[d].day_length_based_periods['gulika'][0] - jd)).toString(
         format=time_format),
-      time.Hour(24 * (panchaanga.daily_panchaangas[d].kaalas['gulika'][1] - jd)).toString(
+      time.Hour(24 * (panchaanga.daily_panchaangas[d].day_length_based_periods['gulika'][1] - jd)).toString(
         format=time_format))
 
     if panchaanga.daily_panchaangas[d].solar_sidereal_date_sunset.month == 1:

@@ -48,7 +48,7 @@ class DailyPanchanga(common.JsonObject):
 
     self.tb_muhuurtas = None
     self.lagna_data = None
-    self.kaalas = None
+    self.day_length_based_periods = None
 
     self.solar_sidereal_date_sunset = None
 
@@ -70,7 +70,7 @@ class DailyPanchanga(common.JsonObject):
 
     self.compute_sun_moon_transitions(previous_day_panchaanga=previous_day_panchaanga)
     self.compute_solar_day_sunset(previous_day_panchaanga=previous_day_panchaanga)
-    self.get_kaalas()
+    self.get_day_length_based_periods()
 
   def compute_sun_moon_transitions(self, previous_day_panchaanga=None, force_recomputation=False):
     """
@@ -188,11 +188,11 @@ class DailyPanchanga(common.JsonObject):
         self.lagna_data.append((lagna, lagna_end_time))
     return self.lagna_data
 
-  def get_kaalas(self):
-    # Compute the various kaalas
+  def get_day_length_based_periods(self):
+    # Compute the various day_length_based_periods
     # Sunrise/sunset and related stuff (like rahu, yama)
-    if self.kaalas is not None:
-      return self.kaalas
+    if self.day_length_based_periods is not None:
+      return self.day_length_based_periods
 
     if not hasattr(self, "jd_sunrise") or self.jd_sunrise is None:
       self.compute_sun_moon_transitions()
@@ -200,7 +200,7 @@ class DailyPanchanga(common.JsonObject):
     RAHUKALA_OCTETS = [7, 1, 6, 4, 5, 3, 2]
     GULIKAKALA_OCTETS = [6, 5, 4, 3, 2, 1, 0]
     weekday = self.date.get_weekday()
-    self.kaalas = {
+    self.day_length_based_periods = {
       'braahma': interval.get_interval(self.jd_previous_sunset, self.jd_sunrise, 13, 15).to_tuple(),
       'prAtaH sandhyA': interval.get_interval(self.jd_previous_sunset, self.jd_sunrise, 14, 15).to_tuple(),
       'prAtaH sandhyA end': interval.get_interval(self.jd_sunrise, self.jd_sunset, 4, 15).to_tuple(),
@@ -223,10 +223,10 @@ class DailyPanchanga(common.JsonObject):
       'gulika': interval.get_interval(self.jd_sunrise, self.jd_sunset,
                                                                    GULIKAKALA_OCTETS[weekday], 8).to_tuple()
     }
-    return self.kaalas
+    return self.day_length_based_periods
 
   def get_kaalas_local_time(self, format='hh:mm*'):
-    kaalas = self.get_kaalas()
+    kaalas = self.get_day_length_based_periods()
     return {x: (Hour((kaalas[x][0] - self.julian_day_start) * 24).toString(format=format),
                 Hour((kaalas[x][1] - self.julian_day_start) * 24).toString(format=format)) for x in kaalas}
 

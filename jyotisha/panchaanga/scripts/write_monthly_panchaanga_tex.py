@@ -215,17 +215,17 @@ def writeMonthlyTeX(panchaanga, template_file, script=sanscript.DEVANAGARI, temp
     sunrise = jyotisha.panchaanga.temporal.hour.Hour(24 * (panchaanga.daily_panchaangas[d].jd_sunrise - jd)).toString(
       format=panchaanga.fmt)
     sunset = jyotisha.panchaanga.temporal.hour.Hour(24 * (panchaanga.daily_panchaangas[d].jd_sunset - jd)).toString(format=panchaanga.fmt)
-    sangava = jyotisha.panchaanga.temporal.hour.Hour(24 * (panchaanga.daily_panchaangas[d].kaalas['saGgava'][0] - jd)).toString(
+    sangava = jyotisha.panchaanga.temporal.hour.Hour(24 * (panchaanga.daily_panchaangas[d].day_length_based_periods['saGgava'][0] - jd)).toString(
       format=panchaanga.fmt)
     rahu = '%s--%s' % (
-      jyotisha.panchaanga.temporal.hour.Hour(24 * (panchaanga.daily_panchaangas[d].kaalas['rahu'][0] - jd)).toString(
+      jyotisha.panchaanga.temporal.hour.Hour(24 * (panchaanga.daily_panchaangas[d].day_length_based_periods['rahu'][0] - jd)).toString(
         format=panchaanga.fmt),
-      jyotisha.panchaanga.temporal.hour.Hour(24 * (panchaanga.daily_panchaangas[d].kaalas['rahu'][1] - jd)).toString(
+      jyotisha.panchaanga.temporal.hour.Hour(24 * (panchaanga.daily_panchaangas[d].day_length_based_periods['rahu'][1] - jd)).toString(
         format=panchaanga.fmt))
     yama = '%s--%s' % (
-      jyotisha.panchaanga.temporal.hour.Hour(24 * (panchaanga.daily_panchaangas[d].kaalas['yama'][0] - jd)).toString(
+      jyotisha.panchaanga.temporal.hour.Hour(24 * (panchaanga.daily_panchaangas[d].day_length_based_periods['yama'][0] - jd)).toString(
         format=panchaanga.fmt),
-      jyotisha.panchaanga.temporal.hour.Hour(24 * (panchaanga.daily_panchaangas[d].kaalas['yama'][1] - jd)).toString(
+      jyotisha.panchaanga.temporal.hour.Hour(24 * (panchaanga.daily_panchaangas[d].day_length_based_periods['yama'][1] - jd)).toString(
         format=panchaanga.fmt))
 
     if panchaanga.daily_panchaangas[d].solar_sidereal_date_sunset.month_transition is None:
