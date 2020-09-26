@@ -58424,2772 +58424,5382 @@
     "weekday": null,
     "year": 2019
   },
-  "fest_days": {
-    "(bhAdrapada) mahAlaya amAvAsyA": [
-      270
-    ],
-    "(yama)-dIpa-trayOdazI": [
-      298
-    ],
-    "64 yOginI-pUjA": [
-      241
-    ],
-    "ASADha (kaTaka) amAvAsyA (alabhyam\u2013puSyaH)": [
-      212
-    ],
-    "ASADha-pUrNimA-snAnam": [
-      197
-    ],
-    "ASADha-snAnapUrtiH": [
-      212
-    ],
-    "Adi-zaGkara mAnasika-sannyAsa-dinam": [
-      311
-    ],
-    "Adityahasta-puNyakAlaH": [
-      216,
-      244
-    ],
-    "AgrayaNa~hOmaH~1": [
-      315
-    ],
-    "AgrayaNa~hOmaH~2": [
-      300
-    ],
-    "AgrayaNa~hOmaH~3": [
-      345
-    ],
-    "AgrayaNa~hOmaH~4": [
-      330
-    ],
-    "AkAzadIpa-ArambhaH": [
-      290
-    ],
-    "AkAzadIpa-samApanam": [
-      319
-    ],
-    "AndOlana~tRtIyA": [
-      96
-    ],
-    "AraNya-gaurI-vratam": [
-      159
-    ],
-    "AyuSmad-bava-saumya-saMyogaH": [
-      289
-    ],
-    "AzA~dazamI": [
-      192
-    ],
-    "Azvayuja-amAvAsyA (alabhyam\u2013svAtI)": [
-      300
-    ],
-    "RSi-paJcamI-vratam": [
-      245
-    ],
-    "RgvEda-upAkarma": [
-      226
-    ],
-    "SaDazIti-dhanurraviH": [
-      350
-    ],
-    "SaDazIti-kanyAraviH": [
-      260
-    ],
-    "SaDazIti-mInaraviH": [
-      73
-    ],
-    "SaDazIti-mithunaraviH": [
-      166
-    ],
-    "SaSThI-vratam": [
-      11,
-      41,
-      71,
-      100,
-      129,
-      159,
-      217,
-      276,
-      365
-    ],
-    "SaSThIdEvI-SaSThI-vratam": [
-      246
-    ],
-    "aGgAraka-caturthI": [
-      260
-    ],
-    "aGgAraka~jayantI": [
-      243
-    ],
-    "aSTanAga-pUjA": [
-      199
-    ],
-    "acalA~saptamI-vratam": [
-      42
-    ],
-    "aduHkhanavamI": [
-      250
-    ],
-    "aghOra-caturdazI": [
-      241
-    ],
-    "agninakSatra-ArambhaH": [
-      124
-    ],
-    "agninakSatra-samApanam": [
-      148
-    ],
-    "agrasEna~mahArAja~jayantI": [
-      272
-    ],
-    "aindrI-durgA-pUjA": [
-      191
-    ],
-    "akSayA~navamI": [
-      309
-    ],
-    "akSayya-tRtIyA": [
-      126
-    ],
-    "alarmElmaGgApurE plavOtsava-ArambhaH": [
-      163
-    ],
-    "alarmElmaGgApurE plavOtsava-samApanam": [
-      167
-    ],
-    "alarmElmaGgApurE plavOtsavaH~2": [
-      164
-    ],
-    "alarmElmaGgApurE plavOtsavaH~3": [
-      165
-    ],
-    "alarmElmaGgApurE plavOtsavaH~4": [
-      166
-    ],
-    "amRtalakSmI-vratam": [
-      185
-    ],
-    "amuktAbharaNa-saptamI": [
-      247
-    ],
-    "anaGga-trayOdazI": [
-      224
-    ],
-    "ananta-caturdazI": [
-      255
-    ],
-    "ananta-dvAdazI": [
-      253
-    ],
-    "ananta-padmanAbha-vratam": [
-      255
-    ],
-    "anantaphala-saptamI": [
-      248
-    ],
-    "annamAcArya~jayantI": [
-      138
-    ],
-    "annapUrNA~jayantI": [
-      345
-    ],
-    "appayya-dIkSita-jayantI~\\#{501}": [
-      287
-    ],
-    "aravinda~jayantI": [
-      236
-    ],
-    "ardhanArIzvara-vratam": [
-      138
-    ],
-    "arundhatI-vrata-ArambhaH": [
-      96
-    ],
-    "avyaGga-saptamI": [
-      218
-    ],
-    "azOkASTamI": [
-      102
-    ],
-    "azOkASTamI-vrata-ArambhaH": [
-      265
-    ],
-    "azUnyazayana-vratam~1": [
-      198
-    ],
-    "azUnyazayana-vratam~2": [
-      228
-    ],
-    "azUnyazayana-vratam~3": [
-      258
-    ],
-    "azUnyazayana-vratam~4": [
-      287
-    ],
-    "azvazirO-dEva-pUjA": [
-      271
-    ],
-    "bRhatI-vRkSaka-pUjA": [
-      229
-    ],
-    "bRndAvana-dvAdazI": [
-      312
-    ],
-    "badarI jyOtirmaTha-pratiSThApana~jayantI~\\#{2504}": [
-      20
-    ],
-    "badarI-gaurI-vratam": [
-      333
-    ],
-    "bagalAmukhI~jayantI": [
-      127
-    ],
-    "bahulA~caturthI": [
-      230
-    ],
-    "bahula-paJcamI": [
-      24
-    ],
-    "balarAma~jayantI": [
-      127
-    ],
-    "bhAnusaptamI": [
-      293
-    ],
-    "bhArgava-rAma-pUjA": [
-      124
-    ],
-    "bhISmASTamI": [
-      43
-    ],
-    "bhISma-dvAdazI": [
-      47
-    ],
-    "bhISma-paJcaka-vrata-ArambhaH": [
-      311
-    ],
-    "bhISma-paJcaka-vrata-samApanam": [
-      315
-    ],
-    "bhISma~jayantI": [
-      28
-    ],
-    "bhImasEna~jayantI": [
-      295
-    ],
-    "bhIma~caNDI~jayantI": [
-      229
-    ],
-    "bhOgazAyi-pUjA": [
-      183
-    ],
-    "bhRgurEvatI-puNyakAlaH": [
-      67,
-      95,
-      340
-    ],
-    "bhRguvAra-subrahmaNya-vratam": [
-      291
-    ],
-    "bhadra-catuSTaya-vratam": [
-      154
-    ],
-    "bhadrakALI-pUjA": [
-      278
-    ],
-    "bhadrakALI-vratam": [
-      279
-    ],
-    "bhadrakALI~jayantI": [
-      149
-    ],
-    "bhaumArdrA-puNyakAlaH": [
-      155,
-      183
-    ],
-    "bhaumAzvinI-puNyakAlaH": [
-      232,
-      260
-    ],
-    "bhavAnyutpattiH": [
-      102
-    ],
-    "bhrAtRprApti-vrata-ArambhaH": [
-      106
-    ],
-    "bhuvanEzvarI~jayantI": [
-      253
-    ],
-    "brahmANI-pUjA": [
-      162
-    ],
-    "brahma-kalpAdiH": [
-      81
-    ],
-    "buddha~jayantI": [
-      280
-    ],
-    "budhASTamI": [
-      205,
-      219,
-      338
-    ],
-    "budhAnurAdhA-puNyakAlaH": [
-      2,
-      247,
-      275,
-      303
-    ],
-    "budha~jayantI": [
-      134
-    ],
-    "cAmuNDEzvarI~jayantI": [
-      204
-    ],
-    "cAturmAsyavrata-ArambhaH": [
-      192
-    ],
-    "cAturmAsyavrata-samApanam": [
-      315
-    ],
-    "caNDikA-pUjA": [
-      236
-    ],
-    "caitanya-mahAprabhu~jayantI~\\#{534}": [
-      79
-    ],
-    "caitra-amAvAsyA": [
-      123
-    ],
-    "caitra-pUrNimA": [
-      108
-    ],
-    "campaka-dvAdazI": [
-      164
-    ],
-    "candrOdaya-gaurI-vratam": [
-      288
-    ],
-    "candra-SaSThI": [
-      262
-    ],
-    "chatrapati-zivAjI~jayantI~\\#{390}": [
-      82
-    ],
-    "chatrapati~zivAjI~rAjyAbhiSEkaH": [
-      165
-    ],
-    "chinnamastA~jayantI": [
-      138
-    ],
-    "cidambarE bhikSATana svarNarathaH": [
-      186
-    ],
-    "cidambarE dhvajArOhaNam/paJcamUrti rathOtsavaH": [
-      179
-    ],
-    "cidambarE kailAsa vAhanam": [
-      185
-    ],
-    "cidambarE muttuppallakku": [
-      189
-    ],
-    "cidambarE naTarAjasya rAjasabhAyAM mahAbhiSEkaH": [
-      188
-    ],
-    "cidambarE rajata RSabha vAhanam": [
-      183
-    ],
-    "cidambarE rajata bhUta vAhanam": [
-      182
-    ],
-    "cidambarE rajata candraprabha vAhanam": [
-      180
-    ],
-    "cidambarE rajata-gajavAhanam": [
-      184
-    ],
-    "cidambarE rathOtsavaH": [
-      187
-    ],
-    "cidambarE svarNa-sUryaprabha vAhanam": [
-      181
-    ],
-    "citragupta-vratam": [
-      108
-    ],
-    "dAmOdara-dvAdazI": [
-      223
-    ],
-    "dEvasEnA~paJcamI": [
-      304
-    ],
-    "dEvatA-suvAsinI-pUjA": [
-      274
-    ],
-    "dIpAvalI/lakSmI-kubEra-pUjA": [
-      300
-    ],
-    "dIpOtsava-caturdazI/yama-tarpaNam": [
-      299
-    ],
-    "dIpa-pUjA": [
-      212
-    ],
-    "dUrvA-gaNapati-vratam": [
-      215
-    ],
-    "dUrvASTamI": [
-      248
-    ],
-    "dUrva-tri-vratam": [
-      254
-    ],
-    "dadhIci~maharSi~jayanti": [
-      249
-    ],
-    "dadhi-vrata-ArambhaH": [
-      223
-    ],
-    "dadhi-vrata-samApanam": [
-      253
-    ],
-    "damanakArOpaNa-dvAdazI": [
-      106
-    ],
-    "damanaka-cOrI-utsavaH": [
-      107
-    ],
-    "damanaka-caturdazI": [
-      108
-    ],
-    "darbha-saGgrahaH": [
-      241
-    ],
-    "dattAtrEya~jayantI": [
-      345
-    ],
-    "dauhitra-pratipat": [
-      272
-    ],
-    "dazAvatAra-vratam": [
-      251
-    ],
-    "dazaharA": [
-      280
-    ],
-    "dazaharA/gaGgAvataraNam/dazapApaharA~dazamI": [
-      163
-    ],
-    "dhUmAvatI~jayantI": [
-      161
-    ],
-    "dhana-trayOdazI": [
-      298
-    ],
-    "dhanvantari~jayantI": [
-      298
-    ],
-    "dharmarAja-dazamI": [
-      104
-    ],
-    "dikpAla-pUjA~1": [
-      256
-    ],
-    "dikpAla-pUjA~2": [
-      260
-    ],
-    "durgA-pUjA": [
-      280
-    ],
-    "durgA-svApanam": [
-      177
-    ],
-    "durgA-vrata-ArambhaH": [
-      219
-    ],
-    "durgA/gaurI-pUjA": [
-      265
-    ],
-    "durgASTamI": [
-      278
-    ],
-    "durgandha-daurbhAgya-nAzaka-trayOdazI": [
-      165
-    ],
-    "dvAdaza-saptamI": [
-      218
-    ],
-    "dvAparayugAdiH": [
-      269
-    ],
-    "dvArakA-maTha-pratiSThApana~jayantI~\\#{2509}": [
-      42
-    ],
-    "dvidala-vrata-ArambhaH": [
-      282
-    ],
-    "dvidala-vrata-samApanam": [
-      312
-    ],
-    "eruvaka-pUrNimA": [
-      167
-    ],
-    "gAyatrI-japaH": [
-      227
-    ],
-    "gAyatrI~jayantI": [
-      226
-    ],
-    "gItA~jayantI": [
-      341
-    ],
-    "gO-trirAtri-vratam~1": [
-      254
-    ],
-    "gO-trirAtri-vratam~2": [
-      298
-    ],
-    "gOdhUmA~navamI": [
-      250
-    ],
-    "gOpASTamI": [
-      308
-    ],
-    "gOpadma-vrata-ArambhaH": [
-      193
-    ],
-    "gOpadma-vrata-samApanam": [
-      312
-    ],
-    "gOvardhana-pUjA": [
-      301
-    ],
-    "gOvatsa-dvAdazI": [
-      297
-    ],
-    "gRhadEvI-pUjA": [
-      272
-    ],
-    "gaGgA-saptamI": [
-      130
-    ],
-    "gaGgA-snAnam": [
-      123
-    ],
-    "gaGgAvataraNam": [
-      280
-    ],
-    "gajEndra-mOkSaH~1": [
-      108
-    ],
-    "gajEndra-mOkSaH~2": [
-      250
-    ],
-    "garuDa-paJcamI": [
-      216
-    ],
-    "gaurI-vratam": [
-      259
-    ],
-    "gaurI~tRtIyA/saubhAgya-gaurI-vratam": [
-      97
-    ],
-    "gavAmayana-dvAdazI": [
-      164
-    ],
-    "ghOTaka-paJcamI": [
-      291
-    ],
-    "girijA-kalyANam": [
-      135
-    ],
-    "guru-pUrNimA/vyAsa-pUjA": [
-      197
-    ],
-    "gurupuSya-puNyakAlaH": [
-      157,
-      185
-    ],
-    "guruvAyupura-EkAdazI": [
-      341
-    ],
-    "hOli": [
-      79
-    ],
-    "hOlikA-pUrNimA": [
-      78
-    ],
-    "hala-SaSThI": [
-      233
-    ],
-    "haritAlikA-vratam": [
-      244
-    ],
-    "hariyAlI~tRtIyA": [
-      215
-    ],
-    "haya-pUjA": [
-      99
-    ],
-    "hayagrIva~jayantI": [
-      226
-    ],
-    "indra-pUjA/gO-pUjA": [
-      15
-    ],
-    "jImUtavAhana-pUjA~1": [
-      265
-    ],
-    "jImUtavAhana-pUjA~2": [
-      294
-    ],
-    "jIvaputrikASTamI": [
-      294
-    ],
-    "jagaddhAtrI-pUjA": [
-      309
-    ],
-    "jagannAtha-ratha-yAtrA": [
-      185
-    ],
-    "jayAvApti-vratam": [
-      287
-    ],
-    "jayantI~mahAdvAdazI": [
-      47,
-      239
-    ],
-    "jhUlElAla~jayantI": [
-      96
-    ],
-    "jyESThASTamI": [
-      161
-    ],
-    "jyaiSTha-amAvAsyA (alabhyam\u2013puSkalA)": [
-      182
-    ],
-    "kAJcI 1 jagadguru zrI~Adi-zaGkara bhagavatpAda ArAdhanA~\\#{2495}": [
-      163
-    ],
-    "kAJcI 10 jagadguru zrI~surEzvarEndra sarasvatI ArAdhanA~\\#{1893}": [
-      196
-    ],
-    "kAJcI 11 jagadguru zrI~zivAnanda cidghanEndra sarasvatI ArAdhanA~\\#{1847}": [
-      45
-    ],
-    "kAJcI 12 jagadguru zrI~candrazEkharEndra sarasvatI ArAdhanA~\\#{1785}": [
-      190
-    ],
-    "kAJcI 13 jagadguru zrI~saccidghanEndra sarasvatI ArAdhanA~\\#{1748}": [
-      346
-    ],
-    "kAJcI 14 jagadguru zrI~vidyAghanEndra sarasvatI ArAdhanA~\\#{1702}": [
-      5
-    ],
-    "kAJcI 14 jagadguru zrI~vidyAghanEndra sarasvatI ArAdhanA~\\#{1703}": [
-      359
-    ],
-    "kAJcI 15 jagadguru zrI~gaGgAdharEndra sarasvatI ArAdhanA~\\#{1691}": [
-      95
-    ],
-    "kAJcI 16 jagadguru zrI~ujjvala zaGkarEndra sarasvatI ArAdhanA~\\#{1653}": [
-      160
-    ],
-    "kAJcI 17 jagadguru zrI~sadAzivEndra sarasvatI ArAdhanA~\\#{1645}": [
-      162
-    ],
-    "kAJcI 18 jagadguru zrI~yOgatilaka surEndra sarasvatI ArAdhanA~\\#{1635}": [
-      330
-    ],
-    "kAJcI 19 jagadguru zrI~mArtANDa vidyAghanEndra sarasvatI ArAdhanA~\\#{1622}": [
-      279
-    ],
-    "kAJcI 2 jagadguru zrI~surEzvarAcArya ArAdhanA~\\#{2425}": [
-      164
-    ],
-    "kAJcI 20 jagadguru zrI~mUkazaGkarEndra sarasvatI ArAdhanA~\\#{1583}": [
-      226
-    ],
-    "kAJcI 21 jagadguru zrI~sArvabhaumaguruH candracUDEndra sarasvatI ArAdhanA~\\#{1573}": [
-      235
-    ],
-    "kAJcI 22 jagadguru zrI~paripUrNabOdhEndra sarasvatI ArAdhanA~\\#{1539}": [
-      309
-    ],
-    "kAJcI 23 jagadguru zrI~saccitsukhEndra sarasvatI ArAdhanA~\\#{1508}": [
-      159
-    ],
-    "kAJcI 24 jagadguru zrI~citsukhEndra sarasvatI ArAdhanA~\\#{1493}": [
-      236
-    ],
-    "kAJcI 25 jagadguru zrI~saccidAnandaghanEndra sarasvatI ArAdhanA~\\#{1472}": [
-      183
-    ],
-    "kAJcI 26 jagadguru zrI~prajJAghanEndra sarasvatI ArAdhanA~\\#{1456}": [
-      131
-    ],
-    "kAJcI 27 jagadguru zrI~cidvilAsEndra sarasvatI ArAdhanA~\\#{1443}": [
-      95
-    ],
-    "kAJcI 28 jagadguru zrI~mahAdEvEndra sarasvatI 1 ArAdhanA~\\#{1419}": [
-      325
-    ],
-    "kAJcI 29 jagadguru zrI~pUrNabOdhEndra sarasvatI ArAdhanA~\\#{1402}": [
-      222
-    ],
-    "kAJcI 3 jagadguru zrI~sarvajJAtmEndra sarasvatI ArAdhanA~\\#{2383}": [
-      152
-    ],
-    "kAJcI 30 jagadguru zrI~bOdhEndra sarasvatI 2 ArAdhanA~\\#{1365}": [
-      141
-    ],
-    "kAJcI 31 jagadguru zrI~brahmAnandaghanEndra sarasvatI ArAdhanA~\\#{1352}": [
-      193
-    ],
-    "kAJcI 32 jagadguru zrI~cidAnandaghanEndra sarasvatI ArAdhanA~\\#{1348}": [
-      335
-    ],
-    "kAJcI 33 jagadguru zrI~saccidAnandaghanEndra sarasvatI 2 ArAdhanA~\\#{1328}": [
-      262
-    ],
-    "kAJcI 34 jagadguru zrI~candrazEkharEndra sarasvatI 2 ArAdhanA~\\#{1309}": [
-      5
-    ],
-    "kAJcI 34 jagadguru zrI~candrazEkharEndra sarasvatI 2 ArAdhanA~\\#{1310}": [
-      359
-    ],
-    "kAJcI 35 jagadguru zrI~citsukhEndra sarasvatI ArAdhanA~\\#{1283}": [
-      188
-    ],
-    "kAJcI 36 jagadguru zrI~citsukhAnandEndra sarasvatI ArAdhanA~\\#{1262}": [
-      285
-    ],
-    "kAJcI 37 jagadguru zrI~vidyAghanEndra sarasvatI 3 ArAdhanA~\\#{1231}": [
-      22
-    ],
-    "kAJcI 38 jagadguru zrI~abhinavazaGkarEndra sarasvatI ArAdhanA~\\#{1180}": [
-      212
-    ],
-    "kAJcI 39 jagadguru zrI~saccidvilAsEndra sarasvatI ArAdhanA~\\#{1147}": [
-      137
-    ],
-    "kAJcI 4 jagadguru zrI~satyabOdhEndra sarasvatI ArAdhanA~\\#{2287}": [
-      352
-    ],
-    "kAJcI 40 jagadguru zrI~mahAdEvEndra sarasvatI 2 ArAdhanA~\\#{1105}": [
-      129
-    ],
-    "kAJcI 41 jagadguru zrI~gaGgAdharEndra sarasvatI 2 ArAdhanA~\\#{1070}": [
-      213
-    ],
-    "kAJcI 42 jagadguru zrI~brahmAnandaghanEndra sarasvatI 2 ArAdhanA~\\#{1042}": [
-      323
-    ],
-    "kAJcI 43 jagadguru zrI~AnandaghanEndra sarasvatI ArAdhanA~\\#{1006}": [
-      103
-    ],
-    "kAJcI 44 jagadguru zrI~pUrNabOdhEndra sarasvatI 2 ArAdhanA~\\#{980}": [
-      269
-    ],
-    "kAJcI 45 jagadguru zrI~paramazivEndra sarasvatI 1 ArAdhanA~\\#{959}": [
-      277
-    ],
-    "kAJcI 46 jagadguru zrI~sAndrAnandabOdhEndra sarasvatI ArAdhanA~\\#{922}": [
-      212
-    ],
-    "kAJcI 47 jagadguru zrI~candrazEkharEndra sarasvatI 3 ArAdhanA~\\#{854}": [
-      123
-    ],
-    "kAJcI 48 jagadguru zrI~advaitAnandabOdhEndra sarasvatI ArAdhanA~\\#{820}": [
-      191
-    ],
-    "kAJcI 49 jagadguru zrI~mahAdEvEndra sarasvatI 3 ArAdhanA~\\#{773}": [
-      323
-    ],
-    "kAJcI 5 jagadguru zrI~jJAnAnandEndra sarasvatI ArAdhanA~\\#{2224}": [
-      336
-    ],
-    "kAJcI 50 jagadguru zrI~candracUDEndra sarasvatI 2 ArAdhanA~\\#{723}": [
-      158
-    ],
-    "kAJcI 51 jagadguru zrI~vidyAtIrthEndra sarasvatI ArAdhanA~\\#{634}": [
-      50
-    ],
-    "kAJcI 52 jagadguru zrI~zaGkarAnandEndra sarasvatI ArAdhanA~\\#{603}": [
-      95
-    ],
-    "kAJcI 53 jagadguru zrI~pUrNAnanda sadAzivEndra sarasvatI ArAdhanA~\\#{522}": [
-      162
-    ],
-    "kAJcI 54 jagadguru zrI~vyAsAcala mahAdEvEndra sarasvatI ArAdhanA~\\#{513}": [
-      197
-    ],
-    "kAJcI 55 jagadguru zrI~candracUDEndra sarasvatI 3 ArAdhanA~\\#{495}": [
-      16
-    ],
-    "kAJcI 56 jagadguru zrI~sarvajJa sadAziva bOdhEndra sarasvatI ArAdhanA~\\#{481}": [
-      116
-    ],
-    "kAJcI 57 jagadguru zrI~paramazivEndra sarasvatI 2 ArAdhanA~\\#{434}": [
-      221
-    ],
-    "kAJcI 58 jagadguru zrI~AtmabOdhEndra sarasvatI ArAdhanA~\\#{382}": [
-      323
-    ],
-    "kAJcI 59 jagadguru zrI~bhagavannAma bOdhEndra sarasvatI ArAdhanA~\\#{328}": [
-      256
-    ],
-    "kAJcI 6 jagadguru zrI~zuddhAnandEndra sarasvatI ArAdhanA~\\#{2143}": [
-      158
-    ],
-    "kAJcI 60 jagadguru zrI~advaitAtmaprakAzEndra sarasvatI ArAdhanA~\\#{316}": [
-      110
-    ],
-    "kAJcI 61 jagadguru zrI~mahAdEvEndra sarasvatI 4 ArAdhanA~\\#{274}": [
-      161
-    ],
-    "kAJcI 62 jagadguru zrI~candrazEkharEndra sarasvatI 4 ArAdhanA~\\#{236}": [
-      22
-    ],
-    "kAJcI 63 jagadguru zrI~mahAdEvEndra sarasvatI 5 ArAdhanA~\\#{206}": [
-      193
-    ],
-    "kAJcI 64 jagadguru zrI~candrazEkharEndra sarasvatI 5 ArAdhanA~\\#{169}": [
-      316
-    ],
-    "kAJcI 65 jagadguru zrI~sudarzana mahAdEvEndra sarasvatI ArAdhanA~\\#{129}": [
-      94
-    ],
-    "kAJcI 66 jagadguru zrI~candrazEkharEndra sarasvatI 6 ArAdhanA~\\#{112}": [
-      57
-    ],
-    "kAJcI 67 jagadguru zrI~mahAdEvEndra sarasvatI 5 ArAdhanA~\\#{112}": [
-      65
-    ],
-    "kAJcI 68 jagadguru zrI~candrazEkharEndra sarasvatI 7 ArAdhanA~\\#{25}": [
-      1
-    ],
-    "kAJcI 68 jagadguru zrI~candrazEkharEndra sarasvatI 7 ArAdhanA~\\#{26}": [
-      356
-    ],
-    "kAJcI 69 jagadguru zrI~jayEndra sarasvatI ArAdhanA~\\#{1}": [
-      77
-    ],
-    "kAJcI 7 jagadguru zrI~AnandajJAnEndra sarasvatI ArAdhanA~\\#{2074}": [
-      147
-    ],
-    "kAJcI 8 jagadguru zrI~kaivalyAnandayOgEndra sarasvatI ArAdhanA~\\#{1990}": [
-      19
-    ],
-    "kAJcI 9 jagadguru zrI~kRpAzaGkarEndra sarasvatI ArAdhanA~\\#{1951}": [
-      318
-    ],
-    "kAJcI jagadguru zrI~candrazEkharEndra sarasvatI 7 jayantI~\\#{126}": [
-      139
-    ],
-    "kAJcI jagadguru zrI~jayEndra sarasvatI Azrama-svIkAra-jayantI~\\#{66}": [
-      82
-    ],
-    "kAJcI jagadguru zrI~jayEndra sarasvatI jayantI~\\#{85}": [
-      227
-    ],
-    "kAJcI jagadguru zrI~zaGkara vijayEndra sarasvatI Azrama-svIkAra-jayantI~\\#{37}": [
-      141
-    ],
-    "kAJcI jagadguru zrI~zaGkara vijayEndra sarasvatI jayantI~\\#{51}": [
-      61
-    ],
-    "kAJcI kAmakOTi-maTha-pratiSThApana~jayantI~\\#{2501}": [
-      138
-    ],
-    "kAlASTamI": [
-      294
-    ],
-    "kAla-trirAtri-vratam": [
-      278
-    ],
-    "kAlabhairavASTamI": [
-      323
-    ],
-    "kAma-dahanam": [
-      79
-    ],
-    "kArtavIryArjuna~jayantI": [
-      308
-    ],
-    "kArttika-amAvAsyA (alabhyam\u2013vizAkhA, puSkalA)": [
-      329
-    ],
-    "kArttika-mAsa-antimatrayatithi-vrata-ArambhaH": [
-      313
-    ],
-    "kArttika-mAsa-antimatrayatithi-vrata-samApanam": [
-      315
-    ],
-    "kArttika-pUrNimA-snAnam": [
-      315
-    ],
-    "kArttika-snAnapUrtiH": [
-      330
-    ],
-    "kAtyAyanI~jayantI": [
-      270
-    ],
-    "kEdAra-gaurI-vratam": [
-      300
-    ],
-    "kO-jAgarti-vratam": [
-      285
-    ],
-    "kOkila-vratam": [
-      196
-    ],
-    "kRSNAGgAraka-caturdazI-puNyakAlaH/yamatarpaNam": [
-      211,
-      358
-    ],
-    "kRtayugAdiH": [
-      126
-    ],
-    "kRttikA-maNDala-pArAyaNam": [
-      320
-    ],
-    "kRttikA-vratam": [
-      16,
-      43,
-      70,
-      98,
-      125,
-      152,
-      180,
-      207,
-      234,
-      262,
-      289,
-      316,
-      343
-    ],
-    "kRttikA~sOmavAsaraH": [
-      301,
-      308,
-      315,
-      322,
-      329
-    ],
-    "kUSmANDa-dazamI": [
-      280
-    ],
-    "kUrma-kalpAdiH": [
-      99
-    ],
-    "kUrma~jayantI": [
-      179
-    ],
-    "kaMsa-vadhaH": [
-      310
-    ],
-    "kaTadAnOtsavaH": [
-      252
-    ],
-    "kaTaka-saGkrAntiH": [
-      197
-    ],
-    "kabIradAsa~jayantI": [
-      167
-    ],
-    "kadalI-gaurI-vratam/pUjA": [
-      157
-    ],
-    "kaizika-EkAdazI": [
-      341
-    ],
-    "kaizika-dvAdazI": [
-      342
-    ],
-    "kajarI~tRtIyA": [
-      259
-    ],
-    "kajjalI~tRtIyA": [
-      230
-    ],
-    "kaliyugAdiH": [
-      64
-    ],
-    "kalki~jayantI": [
-      217
-    ],
-    "kamalA~jayantI": [
-      300
-    ],
-    "kanaka-gaNEza-vratam": [
-      289
-    ],
-    "kapila-SaSThI": [
-      262
-    ],
-    "karaka-caturthI": [
-      289
-    ],
-    "karavIra-vratam": [
-      154
-    ],
-    "kaumArI-pUjA": [
-      220
-    ],
-    "kaumAra-pUjA": [
-      236
-    ],
-    "kaumudI-utsavaH": [
-      286
-    ],
-    "kazyapa~maharSi~jayantI": [
-      143
-    ],
-    "khODiyAra~mAtA~jayantI": [
-      43
-    ],
-    "kucEla-dinam": [
-      352
-    ],
-    "kukkuTI-vratam": [
-      248
-    ],
-    "kumAra-SaSThI-vratam": [
-      188
-    ],
-    "kumAra-pUrNimA/mahA-azvinI": [
-      286
-    ],
-    "kumArikA-svapanam": [
-      247
-    ],
-    "kuntI~(pArvatI)-vratam": [
-      286
-    ],
-    "lAvaNya-gaurI-vratam": [
-      129
-    ],
-    "lakSmI-indra-kubEra-pUjA": [
-      286
-    ],
-    "lakSmI-paJcamI": [
-      99
-    ],
-    "lakSmI-varAha~jayantI": [
-      113
-    ],
-    "lalitA-SaSThI": [
-      247
-    ],
-    "lalitA-gaurI-vratam": [
-      289
-    ],
-    "lalitA-paJcamI": [
-      275
-    ],
-    "lalitA~jayantI": [
-      50
-    ],
-    "mAghI~sarasvatI-pUjA": [
-      40
-    ],
-    "mAgha-aSTakA-pUrvEdyuH": [
-      56
-    ],
-    "mAgha-aSTakA-zrAddham": [
-      57
-    ],
-    "mAgha-amAvAsyA (alabhyam\u2013zatabhiSak, puSkalA)": [
-      64
-    ],
-    "mAgha-anvaSTakA-zrAddham": [
-      58
-    ],
-    "mAgha-pUrNimA": [
-      50
-    ],
-    "mAgha-pUrNimA-snAnam": [
-      50
-    ],
-    "mAgha-snAnapUrtiH": [
-      64
-    ],
-    "mArgazIrSa-aSTakA-pUrvEdyuH": [
-      351
-    ],
-    "mArgazIrSa-aSTakA-zrAddham": [
-      352
-    ],
-    "mArgazIrSa-amAvAsyA": [
-      5,
-      359
-    ],
-    "mArgazIrSa-anvaSTakA-zrAddham": [
-      353
-    ],
-    "mArgazIrSa-pUrNimA": [
-      345
-    ],
-    "mArgazIrSa-zivaliGga-SaSThI": [
-      335
-    ],
-    "mArkaNDEya~jayantI": [
-      39
-    ],
-    "mAsazivarAtriH": [
-      3,
-      33,
-      63,
-      92,
-      122,
-      152,
-      181,
-      210,
-      240,
-      269,
-      298,
-      328,
-      357
-    ],
-    "mESa-saGkrAntiH~(vikArI-saMvatsaraH)": [
-      104
-    ],
-    "mEghapAlIya-tRtIyA": [
-      273
-    ],
-    "mIrAbAI~jayantI~\\#{522}": [
-      286
-    ],
-    "mRgazIrSa-vratam": [
-      242
-    ],
-    "maGgala-vratam": [
-      294
-    ],
-    "maNikarNikA-snAnam/vaikuNTha-caturdazI": [
-      314
-    ],
-    "madana-caturdazI": [
-      108
-    ],
-    "madana-trayOdazI": [
-      107
-    ],
-    "madhuzrAvaNi-vratam": [
-      215
-    ],
-    "madhvAcArya~jayantI~\\#{782}": [
-      280
-    ],
-    "madhva-navamI": [
-      44
-    ],
-    "madhyASTamI": [
-      265
-    ],
-    "mahAbharaNI": [
-      261
-    ],
-    "mahAdEvASTamI": [
-      323
-    ],
-    "mahAkAlI~jayantI": [
-      234
-    ],
-    "mahAlakSmI-vrata-ArambhaH": [
-      250
-    ],
-    "mahAlakSmI-vrata-samApanam": [
-      264
-    ],
-    "mahAlakSmI-vratam": [
-      294
-    ],
-    "mahAlaya-pakSa-ArambhaH": [
-      257
-    ],
-    "mahAlaya-pakSa-samApanam": [
-      270
-    ],
-    "mahAnavamI/sarasvatI-pUjA": [
-      279
-    ],
-    "mahAtArA~jayantI": [
-      103
-    ],
-    "mahAzivarAtriH": [
-      63
-    ],
-    "mahA~annAbhiSEkaH": [
-      315
-    ],
-    "mahEza-navamI": [
-      162
-    ],
-    "mahiSaghnI-pUjA": [
-      190
-    ],
-    "makara-jyOtiH": [
-      14
-    ],
-    "makara-saGkrAntiH": [
-      14
-    ],
-    "manOratha-dvitIyA": [
-      214
-    ],
-    "manthana-SaSThI": [
-      247
-    ],
-    "manvAdiH~(bhautyaH~[14])": [
-      167
-    ],
-    "manvAdiH~(brahmaH~[10])": [
-      196
-    ],
-    "manvAdiH~(cAkSuSaH~[6])": [
-      16
-    ],
-    "manvAdiH~(dakSaH~[9])": [
-      235
-    ],
-    "manvAdiH~(dharmaH~[11])": [
-      315
-    ],
-    "manvAdiH~(raivataH~[5])": [
-      94
-    ],
-    "manvAdiH~(raucyaH~[13])": [
-      108
-    ],
-    "manvAdiH~(rudraH~[12])": [
-      79
-    ],
-    "manvAdiH~(sAvarNiH~[8])": [
-      42
-    ],
-    "manvAdiH~(svArOciSaH~[2])": [
-      312
-    ],
-    "manvAdiH~(svAyambhuvaH~[1])": [
-      279
-    ],
-    "manvAdiH~(tAmasaH~[4])": [
-      244
-    ],
-    "manvAdiH~(uttamaH~[3])": [
-      97
-    ],
-    "manvAdiH~(vaivasvataH~[7])": [
-      191
-    ],
-    "matsya~jayantI": [
-      121
-    ],
-    "mauni (pauSa/makara) amAvAsyA": [
-      34
-    ],
-    "mitra-saptamI": [
-      336
-    ],
-    "muttusvAmI~dIkSita~jayantI~\\#{245}": [
-      98
-    ],
-    "nAga-pUjA": [
-      261
-    ],
-    "nAga-paJcamI": [
-      216
-    ],
-    "nArAyaNIyaM~jayantI~\\#{434}": [
-      347
-    ],
-    "nArada~jayantI": [
-      140
-    ],
-    "nArikEla-pUrNimA": [
-      226
-    ],
-    "nRsiMha~jayantI": [
-      136
-    ],
-    "nandA-saptamI~1": [
-      336
-    ],
-    "nandA-saptamI~2": [
-      72
-    ],
-    "nandA~navamI": [
-      250
-    ],
-    "nandOtsavaH": [
-      235
-    ],
-    "naraka-caturdazI": [
-      299
-    ],
-    "narasiMha-dvAdazI": [
-      76
-    ],
-    "narmadA~jayantI": [
-      42
-    ],
-    "navama-aparapakSa-ArambhaH": [
-      316
-    ],
-    "navama-aparapakSa-samApanam": [
-      329
-    ],
-    "nerUr~zrI~sadAziva~brahmEndra~ArAdhanA~\\#{105}": [
-      133
-    ],
-    "nikSubhArka-saptamI": [
-      56
-    ],
-    "nimiSAmbA~jayantI": [
-      133
-    ],
-    "pANDava~(lAbha)-paJcamI": [
-      304
-    ],
-    "pApanAzanI~saptamI": [
-      218
-    ],
-    "pArthiva-kalpAdiH": [
-      126
-    ],
-    "pArvatI~pavitrArOpaNam": [
-      215
-    ],
-    "pUntAnaM~jayantI~\\#{472}": [
-      69
-    ],
-    "pUrNimA~vratam": [
-      20,
-      50,
-      79,
-      108,
-      138,
-      167,
-      197,
-      226,
-      256,
-      286,
-      315,
-      345
-    ],
-    "paJcAGga-paThanam": [
-      104
-    ],
-    "pakSavardhinI~mahAdvAdazI": [
-      61
-    ],
-    "parAzara~maharSi~jayantI": [
-      125
-    ],
-    "parazurAma-dvAdazI": [
-      135
-    ],
-    "parazurAma~jayantI": [
-      127
-    ],
-    "pati-saJjIvanI-vratam": [
-      212
-    ],
-    "patrikA-pravEza-pUjA": [
-      277
-    ],
-    "pauSa-aSTakA-pUrvEdyuH": [
-      26
-    ],
-    "pauSa-aSTakA-zrAddham": [
-      27
-    ],
-    "pauSa-anvaSTakA-zrAddham": [
-      28
-    ],
-    "pavitra-caturdazI": [
-      196
-    ],
-    "payOvrata-ArambhaH": [
-      66
-    ],
-    "payOvrata-samApanam": [
-      76
-    ],
-    "phAlguna-aSTakA-pUrvEdyuH": [
-      85
-    ],
-    "phAlguna-aSTakA-zrAddham": [
-      86
-    ],
-    "phAlguna-amAvAsyA (alabhyam\u2013puSkalA)": [
-      94
-    ],
-    "phAlguna-anvaSTakA-zrAddham": [
-      87
-    ],
-    "phUlErA~dUj": [
-      67
-    ],
-    "prEta-caturdazI": [
-      299
-    ],
-    "prabOdhOtsavaH": [
-      312
-    ],
-    "pradOSa-vratam": [
-      2,
-      18,
-      32,
-      62,
-      92,
-      106,
-      121,
-      135,
-      151,
-      165,
-      239,
-      253,
-      269,
-      283,
-      298
-    ],
-    "pralaya-kalpAdiH": [
-      338
-    ],
-    "punnAga-gaurI-vratam": [
-      154
-    ],
-    "purI gOvardhana-maTha-pratiSThApana~jayantI~\\#{2504}": [
-      132
-    ],
-    "purandaradAsa-ArAdhanA~\\#{455}": [
-      64
-    ],
-    "rAdhASTamI": [
-      249
-    ],
-    "rAja-mAtaGgI~jayantI": [
-      127
-    ],
-    "rAmAnuja~jayantI~\\#{1003}": [
-      130
-    ],
-    "rAmakRSNa-paramahaMsa~jayantI~\\#{184}": [
-      67
-    ],
-    "rAmalakSmaNa-dvAdazI": [
-      164
-    ],
-    "rOhiNI~dvAdazI": [
-      239
-    ],
-    "raGga-paJcamI": [
-      83
-    ],
-    "raMgabharI EkAdazI": [
-      76
-    ],
-    "rakSAbandhanam": [
-      226
-    ],
-    "rakSA~paJcamI": [
-      232
-    ],
-    "ramaNa~maharSi~ArAdhanA~\\#{69}": [
-      121
-    ],
-    "rambhA~tRtIyA": [
-      156
-    ],
-    "ratha-saptamI": [
-      42
-    ],
-    "ravipuSyayOga-puNyakAlaH": [
-      20,
-      48,
-      76,
-      321,
-      349
-    ],
-    "rukmiNI-dvAdazI": [
-      135
-    ],
-    "sAmavEda-upAkarma": [
-      244
-    ],
-    "sAmba-dazamI (sUryapUjA)": [
-      45
-    ],
-    "sAvitrI-vratam": [
-      142
-    ],
-    "sAvitrya-kalpAdiH": [
-      306
-    ],
-    "sEGgAlipuram anantarAma-dIkSita-ArAdhanA~\\#{50}": [
-      292
-    ],
-    "sEGgAlipuram anantarAma-dIkSita-jayantI~\\#{117}": [
-      221
-    ],
-    "sEGgAlipuram~muttaNNAvAL~ArAdhanA~\\#{126}": [
-      31
-    ],
-    "sItAnavamI": [
-      132
-    ],
-    "sOma-pradOSa-vratam": [
-      77,
-      210,
-      224,
-      343,
-      357
-    ],
-    "sOmamRgazIrSa-puNyakAlaH": [
-      154,
-      182
-    ],
-    "sOmavatI amAvAsyA": [
-      35
-    ],
-    "sOmazrAvaNI-puNyakAlaH": [
-      7,
-      35,
-      280,
-      308
-    ],
-    "sUpaudana-vratam": [
-      217
-    ],
-    "sUradAsa~jayantI~\\#{542}": [
-      129
-    ],
-    "sUrya-SaSThI": [
-      247
-    ],
-    "saMskRta-divasaH": [
-      226
-    ],
-    "sampat-gaurI-vratam": [
-      138
-    ],
-    "samudra-manthanam": [
-      105
-    ],
-    "saptama-aparapakSa-ArambhaH": [
-      286
-    ],
-    "saptama-aparapakSa-samApanam": [
-      300
-    ],
-    "saptarSi-pUjA/arghyam": [
-      261
-    ],
-    "sarasvatI-AvAhanam": [
-      277
-    ],
-    "sarpa-bali-utsarjanam": [
-      345
-    ],
-    "sarpa-baliH": [
-      226
-    ],
-    "sarpa-pUjA": [
-      40
-    ],
-    "sarpa-pUjA~1": [
-      129
-    ],
-    "sarpa-pUjA~2": [
-      305
-    ],
-    "sarva-SaTtilA-EkAdazI": [
-      30
-    ],
-    "sarva-ajA-EkAdazI": [
-      238
-    ],
-    "sarva-aparA-EkAdazI": [
-      149
-    ],
-    "sarva-indirA-EkAdazI": [
-      267
-    ],
-    "sarva-jayA/bhaimI-EkAdazI": [
-      46
-    ],
-    "sarva-kAmadA-EkAdazI": [
-      105
-    ],
-    "sarva-mOhinI-EkAdazI": [
-      134
-    ],
-    "sarva-mOkSadA-EkAdazI": [
-      341
-    ],
-    "sarva-pApamOcanI-EkAdazI": [
-      90
-    ],
-    "sarva-parivartinI-EkAdazI": [
-      252
-    ],
-    "sarva-pavitrOpAna-EkAdazI": [
-      222
-    ],
-    "sarva-saphalA-EkAdazI": [
-      1,
-      355
-    ],
-    "sarva-utpannA-EkAdazI": [
-      326
-    ],
-    "sarva-utthAna-EkAdazI": [
-      311
-    ],
-    "sarva-varUthinI-EkAdazI": [
-      120
-    ],
-    "sarva-vijayA-EkAdazI": [
-      60
-    ],
-    "sarva-yOginI-EkAdazI": [
-      179
-    ],
-    "sarva-zayana-EkAdazI": [
-      193
-    ],
-    "sarvanadI-rajasvalA~1": [
-      197
-    ],
-    "sarvanadI-rajasvalA~2": [
-      198
-    ],
-    "sarvanadI-rajasvalA~3": [
-      199
-    ],
-    "satI~anasUyA~jayantI": [
-      142
-    ],
-    "satyanArAyaNa~jayantI": [
-      214
-    ],
-    "saubhAgya-sundarI-vratam": [
-      318
-    ],
-    "siMhAcalaM-candana-mahOtsavaH": [
-      132
-    ],
-    "sindhu-Adi-puSkara-ArambhaH": [
-      309
-    ],
-    "sindhu-Adi-puSkara-samApanam": [
-      320
-    ],
-    "skanda-paJcamI": [
-      187
-    ],
-    "skandaSaSThI-vratam": [
-      305
-    ],
-    "smArta-AmalakI-EkAdazI (gRhastha)": [
-      75
-    ],
-    "smArta-AmalakI-EkAdazI (sannyastha)": [
-      76
-    ],
-    "smArta-kAmikA-EkAdazI (gRhastha)": [
-      208
-    ],
-    "smArta-kAmikA-EkAdazI (sannyastha)": [
-      209
-    ],
-    "smArta-pANDava-nirjalA-EkAdazI": [
-      163
-    ],
-    "smArta-pApAGkuzA-EkAdazI": [
-      281
-    ],
-    "smArta-putradA-EkAdazI (gRhastha)": [
-      16
-    ],
-    "smArta-putradA-EkAdazI (sannyastha)": [
-      17
-    ],
-    "smArta-ramA-EkAdazI (gRhastha)": [
-      296
-    ],
-    "smArta-ramA-EkAdazI (sannyastha)": [
-      297
-    ],
-    "stanavRddhi-gaurI-vratam": [
-      272
-    ],
-    "subrahmaNya-SaSThI-vratam": [
-      335
-    ],
-    "sudarzana~jayantI": [
-      190
-    ],
-    "sujanmaprApti-vratam": [
-      271
-    ],
-    "sukhA~aGgAraka-caturthI": [
-      274
-    ],
-    "sumaGgalA~navamI": [
-      265
-    ],
-    "svarNa-gaurI-vratam": [
-      215
-    ],
-    "tAlanavamI": [
-      250
-    ],
-    "tAmraparNI-antya-puSkara-ArambhaH": [
-      297
-    ],
-    "tAmraparNI-antya-puSkara-samApanam": [
-      308
-    ],
-    "ta:ADik~kiruttikai": [
-      208
-    ],
-    "ta:ADip~perukku": [
-      214
-    ],
-    "ta:ADi~veLLikkizhamai": [
-      200,
-      207,
-      214,
-      221,
-      228
-    ],
-    "ta:An2Aya nAyan2Ar (13) gurupUjai": [
-      326
-    ],
-    "ta:AvaNi~JAyir2r2ukkizhamai": [
-      230,
-      237,
-      244,
-      251,
-      258
-    ],
-    "ta:Ayudha~pUjai": [
-      280
-    ],
-    "ta:En2AdinAtha nAyan2Ar (8) gurupUjai": [
-      279
-    ],
-    "ta:EyarkOn2 kalikkAma nAyan2Ar (28) gurupUjai": [
-      177
-    ],
-    "ta:ONam": [
-      253
-    ],
-    "ta:aiyaDigaL kADavarkOn2 nAyan2Ar (45) gurupUjai": [
-      304
-    ],
-    "ta:amaranIti nAyan2Ar (6) gurupUjai": [
-      187
-    ],
-    "ta:appUdiyaDigaL nAyan2Ar (24) gurupUjai": [
-      37
-    ],
-    "ta:arivATTAya nAyan2Ar (12) gurupUjai": [
-      19
-    ],
-    "ta:atipatta nAyan2Ar (41) gurupUjai": [
-      240
-    ],
-    "ta:bhOgi": [
-      13
-    ],
-    "ta:bhUtattAzhvAr tirunakSattiram": [
-      309
-    ],
-    "ta:bharaNI~dIpam": [
-      343
-    ],
-    "ta:cAkkiya nAyan2Ar (33) gurupUjai": [
-      5,
-      360
-    ],
-    "ta:caNDEzvara nAyan2Ar (19) gurupUjai": [
-      24
-    ],
-    "ta:catti nAyan2Ar (44) gurupUjai": [
-      297
-    ],
-    "ta:ceruttuNai nAyan2Ar (53) gurupUjai": [
-      240
-    ],
-    "ta:cir2appuli nAyan2Ar (34) gurupUjai": [
-      333
-    ],
-    "ta:cir2uttoNDa nAyan2Ar (35) gurupUjai": [
-      124
-    ],
-    "ta:citrA~pUrNimA/citragupta~pUjai": [
-      108
-    ],
-    "ta:cundaramUrtti nAyan2Ar (63) gurupUjai": [
-      218
-    ],
-    "ta:daNDiyaDigaL nAyan2Ar (30) gurupUjai": [
-      92
-    ],
-    "ta:er2ipatta nAyan2Ar (7) gurupUjai": [
-      53
-    ],
-    "ta:gaNanAtha nAyan2Ar (37) gurupUjai": [
-      74,
-      101
-    ],
-    "ta:iDaGkazhi nAyan2Ar (52) gurupUjai": [
-      316
-    ],
-    "ta:iLaiyAn2kuDi mAr2a nAyan2Ar (3) gurupUjai": [
-      241
-    ],
-    "ta:icaiJAn2iyAr nAyan2Ar (62) gurupUjai": [
-      108
-    ],
-    "ta:iyar2pagai nAyan2Ar (2) gurupUjai": [
-      352
-    ],
-    "ta:jyESThAbhiSEkam": [
-      167,
-      194
-    ],
-    "ta:kAraDaiyAn2 nOn2bu": [
-      73
-    ],
-    "ta:kAraikkAl ammaiyAr (23) gurupUjai": [
-      82
-    ],
-    "ta:kAri nAyan2Ar (47) gurupUjai": [
-      60
-    ],
-    "ta:kArttigai": [
-      343
-    ],
-    "ta:kArttigai~JAyir2r2ukkizhamai": [
-      321,
-      328,
-      335,
-      342,
-      349
-    ],
-    "ta:kOTpuli nAyan2Ar (55) gurupUjai": [
-      222
-    ],
-    "ta:kUDAravallI": [
-      11
-    ],
-    "ta:kUr2r2uva nAyan2Ar (38) gurupUjai": [
-      210
-    ],
-    "ta:kaNNappa nAyan2Ar (9) gurupUjai": [
-      18
-    ],
-    "ta:kaNampulla nAyan2Ar (46) gurupUjai": [
-      344
-    ],
-    "ta:kalikkamba nAyan2Ar (42) gurupUjai": [
-      40
-    ],
-    "ta:kaliya nAyan2Ar (43) gurupUjai": [
-      222
-    ],
-    "ta:kan2up~poGgal": [
-      15
-    ],
-    "ta:kapAlI adhikAra nandi": [
-      71
-    ],
-    "ta:kapAlI ar2upattu mUvar": [
-      76
-    ],
-    "ta:kapAlI bhUtaN bhUtakI": [
-      71
-    ],
-    "ta:kapAlI cavuDal vimAn2am": [
-      73
-    ],
-    "ta:kapAlI dvajArOhaNam": [
-      69
-    ],
-    "ta:kapAlI pallakku vizhA": [
-      74
-    ],
-    "ta:kapAlI riSabha vAhan2am": [
-      73
-    ],
-    "ta:kapAlI sUrya~candra~vaTTam": [
-      70
-    ],
-    "ta:kapAlI tEr": [
-      75
-    ],
-    "ta:kapAlI teppOtsavam~1": [
-      19
-    ],
-    "ta:kapAlI teppOtsavam~2": [
-      20
-    ],
-    "ta:kapAlI teppOtsavam~3": [
-      21
-    ],
-    "ta:kapAlI umA-mahEzvara darican2am": [
-      79
-    ],
-    "ta:kapAlI viDaiyAr2r2i nir2aivu": [
-      89
-    ],
-    "ta:kapAlI viDaiyAr2r2i toDakkam": [
-      79
-    ],
-    "ta:kar2avaigaL pin2cen2r2u": [
-      12
-    ],
-    "ta:kar2pagAmbAL\u2013kapAlIzvarar tirukkalyANam": [
-      78
-    ],
-    "ta:kazhar2ciGga nAyan2Ar (51) gurupUjai": [
-      152
-    ],
-    "ta:kazhar2ir2r2ar2ivAr/cEramAn2 perumAL nAyan2Ar (36) gurupUjai": [
-      218
-    ],
-    "ta:kocceGgaT cOzha nAyan2Ar (59) gurupUjai": [
-      64
-    ],
-    "ta:kuGgiliyakkalaya nAyan2Ar (10) gurupUjai": [
-      250
-    ],
-    "ta:kulaccirai nAyan2Ar (21) gurupUjai": [
-      248
-    ],
-    "ta:kulazEkhara AzhvAr tirunakSattiram": [
-      47
-    ],
-    "ta:mANikkavAcakar gurupUjai": [
-      187
-    ],
-    "ta:mAci~cevvAy": [
-      50,
-      57,
-      64,
-      71
-    ],
-    "ta:mAci~magham": [
-      50
-    ],
-    "ta:mAn2akkaJcAr2a nAyan2Ar (11) gurupUjai": [
-      355
-    ],
-    "ta:mIn2AkSI tirukkalyANam": [
-      106,
-      134
-    ],
-    "ta:mUrkkha nAyan2Ar (31) gurupUjai": [
-      332
-    ],
-    "ta:mUrtti nAyan2Ar (15) gurupUjai": [
-      207
-    ],
-    "ta:maGgaiyarkkaraciyAr nAyan2Ar (57) gurupUjai": [
-      126
-    ],
-    "ta:madhurai mIn2AkSI kOyilil kal yAn2aikku karumbu kODutta lIlai": [
-      14
-    ],
-    "ta:madhurakavi AzhvAr tirunakSattiram": [
-      108
-    ],
-    "ta:mayilai~veLLIzvarar~brahmOtsavam": [
-      142
-    ],
-    "ta:meypporuL nAyan2Ar (4) gurupUjai": [
-      325
-    ],
-    "ta:muDavan2 muzhukku": [
-      321
-    ],
-    "ta:mun2aiyaDuvAr nAyan2Ar (50) gurupUjai": [
-      76,
-      103
-    ],
-    "ta:muruga nAyan2Ar (15) gurupUjai": [
-      141
-    ],
-    "ta:nEca nAyan2Ar (58) gurupUjai": [
-      99
-    ],
-    "ta:naTarAjar An2i tirumaJcan2am": [
-      188
-    ],
-    "ta:naTarAjar cittirai ONam mahAbhiSEkam": [
-      116
-    ],
-    "ta:naTarAjar mahAbhiSEkam~2": [
-      254
-    ],
-    "ta:naTarAjar mahAbhiSEkam~3": [
-      284
-    ],
-    "ta:naTarAjar mahAbhiSEkam~6": [
-      48
-    ],
-    "ta:naminandiyaDigaL nAyan2Ar (26) gurupUjai": [
-      157
-    ],
-    "ta:nammAzhvAr tirunakSattiram": [
-      138,
-      165
-    ],
-    "ta:naraciGgamun2aiyaraiya nAyan2Ar (40) gurupUjai": [
-      283
-    ],
-    "ta:nin2r2acIr neDumAr2a nAyan2Ar (48) gurupUjai": [
-      315
-    ],
-    "ta:pEyAzhvAr tirunakSattiram": [
-      310
-    ],
-    "ta:pUcalAr nAyan2Ar (56) gurupUjai": [
-      302
-    ],
-    "ta:paGgun2i~uttiram": [
-      79
-    ],
-    "ta:periyAzhvAr tirunakSattiram": [
-      191
-    ],
-    "ta:perumizhalaik kur2umba nAyan2Ar (22) gurupUjai": [
-      218
-    ],
-    "ta:piTTukku maN cumanda lIlai": [
-      250
-    ],
-    "ta:poygaiyAzhvAr tirunakSattiram": [
-      308
-    ],
-    "ta:pugazhccOzha nAyan2Ar (39) gurupUjai": [
-      207
-    ],
-    "ta:pugazhttuNai nAyan2Ar (54) gurupUjai": [
-      186
-    ],
-    "ta:puraTTAci~can2ikkizhamai": [
-      264,
-      271,
-      278,
-      285
-    ],
-    "ta:rAmAnujar~tirunakSattiram~\\#{1003}": [
-      128
-    ],
-    "ta:rudra~pazupati nAyan2Ar (16) gurupUjai": [
-      260,
-      287
-    ],
-    "ta:sOmAsimAra nAyan2Ar (32) gurupUjai": [
-      158
-    ],
-    "ta:sarvAlaya~dIpam": [
-      344
-    ],
-    "ta:tai kiruttikai": [
-      16
-    ],
-    "ta:taippUcam": [
-      20
-    ],
-    "ta:tai~veLLikkizhamai": [
-      18,
-      25,
-      32,
-      39
-    ],
-    "ta:tiruJAn2asambandhamUrtti nAyan2Ar (27) gurupUjai": [
-      141
-    ],
-    "ta:tiruccendUr AvaNit tiruvizhA nir2aivu": [
-      247
-    ],
-    "ta:tiruccendUr mAcit tiruvizhA nir2aivu": [
-      50
-    ],
-    "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##10##m nAL\u2014tEr": [
-      245
-    ],
-    "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##11##m nAL": [
-      246
-    ],
-    "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##2##m nAL": [
-      237
-    ],
-    "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##3##m nAL\u2014murugan2 bhavan2i": [
-      238
-    ],
-    "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##4##m nAL\u2014yAn2ai vAhanattil murugan2-ambAL bhavan2i": [
-      239
-    ],
-    "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##5##m nAL": [
-      240
-    ],
-    "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##6##m nAL\u2014veLLit tEr bhavan2i": [
-      241
-    ],
-    "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##7##m nAL\u2014cigappu cAtti alaGkAram": [
-      242
-    ],
-    "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##8##m nAL\u2014paccai cAtti alaGkAram": [
-      243
-    ],
-    "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##9##m nAL": [
-      244
-    ],
-    "ta:tiruccendUr murugan2 AvaNit tiruvizhA toDakkam/koDiyEr2r2am": [
-      236
-    ],
-    "ta:tiruccendUr murugan2 mAcit tiruvizhA ##10##m nAL\u2014tEr": [
-      48
-    ],
-    "ta:tiruccendUr murugan2 mAcit tiruvizhA ##2##m nAL": [
-      40
-    ],
-    "ta:tiruccendUr murugan2 mAcit tiruvizhA ##3##m nAL\u2014murugan2 bhavan2i": [
-      41
-    ],
-    "ta:tiruccendUr murugan2 mAcit tiruvizhA ##4##m nAL": [
-      42
-    ],
-    "ta:tiruccendUr murugan2 mAcit tiruvizhA ##5##m nAL": [
-      43
-    ],
-    "ta:tiruccendUr murugan2 mAcit tiruvizhA ##6##m nAL\u2014veLLit tEr bhavan2i": [
-      44
-    ],
-    "ta:tiruccendUr murugan2 mAcit tiruvizhA ##7##m nAL\u2014urugu cattac cEvai/cigappu cAtti alaGkAram": [
-      45
-    ],
-    "ta:tiruccendUr murugan2 mAcit tiruvizhA ##8##m nAL\u2014paccai cAtti alaGkAram": [
-      46
-    ],
-    "ta:tiruccendUr murugan2 mAcit tiruvizhA ##9##m nAL\u2014taGga kailAca vAhan2am": [
-      47
-    ],
-    "ta:tiruccendUr murugan2 mAcit tiruvizhA toDakkam": [
-      39
-    ],
-    "ta:tiruccendUr murugan2 teppam": [
-      49
-    ],
-    "ta:tirukkur2ipput toNDa nAyan2Ar (18) gurupUjai": [
-      109
-    ],
-    "ta:tirumUla nAyan2Ar (29) gurupUjai": [
-      314
-    ],
-    "ta:tirumaGgaiyAzhvAr tirunakSattiram": [
-      344
-    ],
-    "ta:tirumazhicaiyAzhvAr tirunakSattiram": [
-      22
-    ],
-    "ta:tirunALaippOvAr nAyan2Ar (17) gurupUjai": [
-      263
-    ],
-    "ta:tirunAvukkaracha nAyan2Ar (20) gurupUjai": [
-      119
-    ],
-    "ta:tirunIlakaNTha nAyan2Ar (1) gurupUjai": [
-      28
-    ],
-    "ta:tirunIlakaNTha yAzhppANa nAyan2Ar (60) gurupUjai": [
-      141
-    ],
-    "ta:tirunIlanakka nAyan2Ar (25) gurupUjai": [
-      141
-    ],
-    "ta:tirunelvEli nellaiyappar nellukku vEli kaTTiya lIlai": [
-      14,
-      41
-    ],
-    "ta:tirunelvEli nellaiyappar patra dIpa tiruvizhA": [
-      35
-    ],
-    "ta:tiruppANAzhvAr tirunakSattiram": [
-      208
-    ],
-    "ta:tiruvADippUram": [
-      215
-    ],
-    "ta:tiruvaNNAmalai~dIpam": [
-      343
-    ],
-    "ta:toNDaraDippoDiyAzhvAr tirunakSattiram": [
-      3,
-      358
-    ],
-    "ta:undu~madakkaLir2r2an2{}": [
-      2
-    ],
-    "ta:vAyilAr nAyan2Ar (49) gurupUjai": [
-      13
-    ],
-    "ta:vaikAci~vizAkham": [
-      138,
-      165
-    ],
-    "ta:varagUr ur2iyaDi utsavam": [
-      235
-    ],
-    "ta:viSukkan2i": [
-      104
-    ],
-    "ta:vir2an2miNDa nAyan2Ar (5) gurupUjai": [
-      128
-    ],
-    "ta:zrI~jayantI": [
-      235
-    ],
-    "tilapadma-dvAdazI/tilOtpatti": [
-      47
-    ],
-    "tindukASTamI": [
-      176
-    ],
-    "tintriNI-gaurI-vratam": [
-      331
-    ],
-    "tiruvizalUr gaGgAkarSaNa-mahOtsava-ArambhaH": [
-      320
-    ],
-    "tiruvizalUr gaGgAkarSaNa-mahOtsava-samApanam": [
-      329
-    ],
-    "trEtAyugAdiH": [
-      309
-    ],
-    "trailOkya-gaurI-vratam": [
-      29
-    ],
-    "trailaGga-svAmI~jayantI": [
-      17
-    ],
-    "trilOcanASTamI": [
-      176
-    ],
-    "tripurOtsavaH": [
-      315
-    ],
-    "tripura~bhairavI~jayantI": [
-      345
-    ],
-    "trisparzA~mahAdvAdazI": [
-      17,
-      76,
-      209,
-      297
-    ],
-    "tuSTi-prApti-tRtIyA": [
-      230
-    ],
-    "tulA-kAvErI-snAna-ArambhaH": [
-      290
-    ],
-    "tulA-kAvErI-snAna-samApanam": [
-      319
-    ],
-    "tulA-puNyakAlaH": [
-      290
-    ],
-    "tulasI-jananaM~kSIrasAgarataH": [
-      106
-    ],
-    "tulasI-vivAhaH": [
-      312
-    ],
-    "tulasIdAsa~jayantI": [
-      218
-    ],
-    "tyAgarAja-ArAdhanA~\\#{172}": [
-      24
-    ],
-    "tyAgarAja~jayantI~\\#{253}": [
-      131
-    ],
-    "umA-avatAraH": [
-      157
-    ],
-    "umA-mahEzvara-vratam": [
-      256
-    ],
-    "upAGga-lalitA-gaurI-vratam": [
-      256
-    ],
-    "upAGga-lalitA-vratam": [
-      275
-    ],
-    "upEndra-navamI": [
-      191
-    ],
-    "vAlmIki~maharSi~jayantI": [
-      286
-    ],
-    "vAmana~jayantI": [
-      252
-    ],
-    "vArAhI-navarAtra-ArambhaH": [
-      184
-    ],
-    "vArAhI-navarAtra-samApanam": [
-      191
-    ],
-    "vArtA-gaurI-vratam": [
-      128
-    ],
-    "vAruNI~trayOdazI": [
-      92
-    ],
-    "vAsudEva-dvAdazI": [
-      194
-    ],
-    "vEGkaTAcalE jyESTha-abhidyEyakAbhiSEkaH (mutyala-kavacam)": [
-      166
-    ],
-    "vEGkaTAcalE jyESTha-abhidyEyakAbhiSEkaH (svarNa-kavacam)": [
-      167
-    ],
-    "vEGkaTAcalE jyESTha-abhidyEyakAbhiSEkaH (vajra-kavacam)": [
-      165
-    ],
-    "vEGkaTAcalE pUrNimA~garuDa-sEvA": [
-      20,
-      49,
-      78,
-      108,
-      137,
-      167,
-      196,
-      226,
-      256,
-      285,
-      315,
-      345
-    ],
-    "vEGkaTAcalE padmAvatI-pariNayOtsava-ArambhaH (gaja-vAhanam)": [
-      132
-    ],
-    "vEGkaTAcalE padmAvatI-pariNayOtsava-samApanam (garuDa-vAhanam)": [
-      134
-    ],
-    "vEGkaTAcalE padmAvatI-pariNayam (azva-vAhanam)": [
-      133
-    ],
-    "vEGkaTAcalE plavOtsava-ArambhaH": [
-      74
-    ],
-    "vEGkaTAcalE plavOtsava-samApanam": [
-      78
-    ],
-    "vEGkaTAcalE plavOtsavaH~2": [
-      75
-    ],
-    "vEGkaTAcalE plavOtsavaH~3": [
-      76
-    ],
-    "vEGkaTAcalE plavOtsavaH~4": [
-      77
-    ],
-    "vEGkaTAcalE vasantOtsava-ArambhaH": [
-      106
-    ],
-    "vEGkaTAcalE vasantOtsava-samApanam": [
-      108
-    ],
-    "vEGkaTAcalE vasantOtsavaH": [
-      107
-    ],
-    "vEda/dadhi-vrata-ArambhaH": [
-      221
-    ],
-    "vRSabha-pUjA": [
-      241
-    ],
-    "vaTa-pUrNimA/vaTa-sAvitrI-vratam": [
-      167
-    ],
-    "vahni-vratam": [
-      124
-    ],
-    "vaiSNava-AmalakI-EkAdazI": [
-      76
-    ],
-    "vaiSNava-kAmikA-EkAdazI": [
-      209
-    ],
-    "vaiSNava-pANDava-nirjalA-EkAdazI": [
-      164
-    ],
-    "vaiSNava-pApAGkuzA-EkAdazI": [
-      282
-    ],
-    "vaiSNava-putradA-EkAdazI": [
-      17
-    ],
-    "vaiSNava-ramA-EkAdazI": [
-      297
-    ],
-    "vaidhRti-zrAddham": [
-      95
-    ],
-    "vaikhAnasa~maharSi~jayantI": [
-      226
-    ],
-    "vaivasvata-saptamI": [
-      189
-    ],
-    "vaizAkha-amAvAsyA": [
-      153
-    ],
-    "vaizAkha-mAsa-ArambhaH": [
-      125
-    ],
-    "vaizAkha-mAsa-samApanam": [
-      153
-    ],
-    "vaizAkha-pUrNimA-snAnam": [
-      138
-    ],
-    "vaizAkha-snAnapUrtiH": [
-      153
-    ],
-    "vallabhAcArya~jayantI~\\#{541}": [
-      120
-    ],
-    "vanadurgAnavarAtra-ArambhaH": [
-      330
-    ],
-    "vanadurgAnavarAtra-samApanam": [
-      339
-    ],
-    "varAha-dvAdazI": [
-      47
-    ],
-    "varAha-kalpAdiH": [
-      48
-    ],
-    "varAha~jayantI": [
-      244
-    ],
-    "varakunda-caturthI": [
-      39
-    ],
-    "varalakSmI-vratam": [
-      221
-    ],
-    "varuNa-pUjA": [
-      160
-    ],
-    "vasanta-zrI-paJcamI": [
-      40
-    ],
-    "vasantanavarAtra-ArambhaH": [
-      95
-    ],
-    "vasantanavarAtra-samApanam": [
-      103
-    ],
-    "vasiSTha~maharSi~jayantI": [
-      132
-    ],
-    "vasudEva-pUjA": [
-      297
-    ],
-    "viSNupadI-kumbharaviH": [
-      44
-    ],
-    "viSNupadI-siMharaviH": [
-      229
-    ],
-    "viSNupadI-vRSabharaviH": [
-      135
-    ],
-    "viSNupadI-vRzcikaraviH": [
-      320
-    ],
-    "vidyAraNya-svAmI~jayantI": [
-      131
-    ],
-    "vidyAraNya~svAmI~ArAdhanA~\\#{628}": [
-      165
-    ],
-    "vijayA/zravaNa-mahAdvAdazI": [
-      61,
-      253
-    ],
-    "vijayA~bhAnusaptamI": [
-      160,
-      307
-    ],
-    "vijayA~bhAnusaptamI\u2605": [
-      13
-    ],
-    "vijayadazamI": [
-      280
-    ],
-    "vikramAditya-paTTAbhiSEkaH": [
-      300
-    ],
-    "vinAyakASTamI": [
-      176
-    ],
-    "vindhyAvAsinI-dEvI-pUjA": [
-      159
-    ],
-    "vipattAra-gaurI-vratam": [
-      244
-    ],
-    "vitastOtsavaH": [
-      251
-    ],
-    "vivEkAnanda~jayantI~\\#{157}": [
-      26
-    ],
-    "vizvakarmA~jayantI": [
-      260
-    ],
-    "vizvarUpa-yAtrA": [
-      256
-    ],
-    "vyAghra-dvAdazI": [
-      297
-    ],
-    "vyaJjulI~mahAdvAdazI": [
-      282
-    ],
-    "vyatIpAta-yOgaH (alabhyam)": [
-      34
-    ],
-    "vyatIpAta-zrAddham": [
-      85,
-      111
-    ],
-    "yAjJavalkya~jayantI": [
-      312
-    ],
-    "yajurvEda-upAkarma": [
-      226
-    ],
-    "yama/bhrAtR-dvitIyA": [
-      302
-    ],
-    "yamunA~jayantI": [
-      100
-    ],
-    "yati-mahAlayam": [
-      268
-    ],
-    "yaticAturmAsyavrata-ArambhaH": [
-      197
-    ],
-    "yaticAturmAsyavrata-samApanam": [
-      256
-    ],
-    "yazOdA~jayantI": [
-      55
-    ],
-    "yuddhadEvatA-ArAdhanA": [
-      280
-    ],
-    "yugAdiH": [
-      95
-    ],
-    "zAkambharI~jayantI": [
-      20
-    ],
-    "zAkavrata-ArambhaH": [
-      194
-    ],
-    "zAkavrata-samApanam": [
-      223
-    ],
-    "zAlihOtra-vrata-ArambhaH": [
-      99
-    ],
-    "zAnti-paJcamI-vratam": [
-      275
-    ],
-    "zItalASTamI": [
-      176
-    ],
-    "zItalA~saptamI": [
-      218
-    ],
-    "zRGgErI 32 jagadguru zrI~nRsiMha bhAratI ArAdhanA": [
-      155
-    ],
-    "zRGgErI 34 jagadguru zrI~candrazEkhara bhAratI ArAdhanA": [
-      270
-    ],
-    "zRGgErI 34 jagadguru zrI~candrazEkhara bhAratI~3 jayantI": [
-      297
-    ],
-    "zRGgErI 35 jagadguru zrI~abhinava vidyAtIrtha mahAsvAmI ArAdhanA": [
-      263
-    ],
-    "zRGgErI 35 jagadguru zrI~abhinava vidyAtIrtha mahAsvAmI jayantI": [
-      299
-    ],
-    "zRGgErI zAradAmaTha-pratiSThApana~jayantI~\\#{2502}": [
-      20
-    ],
-    "zaGkara~jayantI~\\#{2528}": [
-      129
-    ],
-    "zabarI~jayantI": [
-      56
-    ],
-    "zamI-gaurI-vratam": [
-      187
-    ],
-    "zamI-pUjA": [
-      280
-    ],
-    "zani-pradOSa-vratam": [
-      47,
-      180,
-      194,
-      313,
-      327
-    ],
-    "zanirOhiNI-puNyakAlaH": [
-      208,
-      236
-    ],
-    "zani~jayantI": [
-      153
-    ],
-    "zarabha~jayantI": [
-      138
-    ],
-    "zarad-pUrNimA": [
-      286
-    ],
-    "zarannavarAtra-ArambhaH": [
-      272
-    ],
-    "zarannavarAtra-samApanam": [
-      279
-    ],
-    "zarkarA-saptamI": [
-      131
-    ],
-    "zastrahatacaturdazI": [
-      270
-    ],
-    "ziva-zayanOtsavaH": [
-      197
-    ],
-    "zrAvaNa-amAvAsyA (alabhyam\u2013puSkalA)": [
-      241
-    ],
-    "zrIkRSNadEvarAya-rAjyAbhiSEkaH": [
-      235
-    ],
-    "zrIkRSNajanmASTamI": [
-      234
-    ],
-    "zrInivAsamaGgApurE sAkSAtkAra-vaibhavOtsava-ArambhaH": [
-      158
-    ],
-    "zrInivAsamaGgApurE sAkSAtkAra-vaibhavOtsava-samApanam": [
-      160
-    ],
-    "zrInivAsamaGgApurE sAkSAtkAra-vaibhavOtsavaH": [
-      159
-    ],
-    "zrIrAma-paTTAbhiSEkaH": [
-      300
-    ],
-    "zrIrAma-vanavAsa-gamanam": [
-      40
-    ],
-    "zrIrAmanavamI": [
-      103
-    ],
-    "zrIvinAyaka-caturthI": [
-      245
-    ],
-    "zrI~gOvinda bhagavatpAda ArAdhanA": [
-      315
-    ],
-    "zrI~hanUmat~jayantI~1": [
-      5,
-      359
-    ],
-    "zrI~hanUmat~jayantI~2": [
-      108
-    ],
-    "zrI~rAghavEndra-svAmI~jayantI~\\#{425}": [
-      72
-    ],
-    "zrI~rAghavEndra~svAmI~ArAdhanA~\\#{348}": [
-      229
-    ],
-    "zrI~vAsavI~jayantI": [
-      133
-    ],
-    "zrI~zESAdri-svAmI~ArAdhanA~\\#{91}": [
-      353
-    ],
-    "zrI~zESAdri-svAmI~jayantI~\\#{150}": [
-      25
-    ],
-    "zravaNa-vratam": [
-      7,
-      35,
-      62,
-      89,
-      116,
-      144,
-      171,
-      198,
-      226,
-      253,
-      280,
-      308,
-      335,
-      362
-    ],
-    "zubha-saptamI": [
-      277
-    ],
-    "zuka~maharSi~jayantI": [
-      153
-    ],
-    "zukla-dEvI-pUjA": [
-      162
-    ],
-    "zvEta-kalpAdiH": [
-      95
-    ],
-    "zyAmA~zAstrI~jayantI~\\#{258}": [
-      125
-    ],
-    "zyAmaLAnavarAtra-ArambhaH": [
-      36
-    ],
-    "zyAmaLAnavarAtra-samApanam": [
-      44
-    ]
+  "festival_id_to_instance": {
+    "(bhAdrapada) mahAlaya amAvAsyA": {
+      "days": [
+        270
+      ],
+      "name": "(bhAdrapada) mahAlaya amAvAsyA"
+    },
+    "(yama)-dIpa-trayOdazI": {
+      "days": [
+        298
+      ],
+      "name": "(yama)-dIpa-trayOdazI"
+    },
+    "64 yOginI-pUjA": {
+      "days": [
+        241
+      ],
+      "name": "64 yOginI-pUjA"
+    },
+    "ASADha (kaTaka) amAvAsyA (alabhyam\u2013puSyaH)": {
+      "days": [
+        212
+      ],
+      "name": "ASADha (kaTaka) amAvAsyA (alabhyam\u2013puSyaH)"
+    },
+    "ASADha-pUrNimA-snAnam": {
+      "days": [
+        197
+      ],
+      "name": "ASADha-pUrNimA-snAnam"
+    },
+    "ASADha-snAnapUrtiH": {
+      "days": [
+        212
+      ],
+      "name": "ASADha-snAnapUrtiH"
+    },
+    "Adi-zaGkara mAnasika-sannyAsa-dinam": {
+      "days": [
+        311
+      ],
+      "name": "Adi-zaGkara mAnasika-sannyAsa-dinam"
+    },
+    "Adityahasta-puNyakAlaH": {
+      "days": [
+        216,
+        244
+      ],
+      "name": "Adityahasta-puNyakAlaH"
+    },
+    "AgrayaNa~hOmaH~1": {
+      "days": [
+        315
+      ],
+      "name": "AgrayaNa~hOmaH~1"
+    },
+    "AgrayaNa~hOmaH~2": {
+      "days": [
+        300
+      ],
+      "name": "AgrayaNa~hOmaH~2"
+    },
+    "AgrayaNa~hOmaH~3": {
+      "days": [
+        345
+      ],
+      "name": "AgrayaNa~hOmaH~3"
+    },
+    "AgrayaNa~hOmaH~4": {
+      "days": [
+        330
+      ],
+      "name": "AgrayaNa~hOmaH~4"
+    },
+    "AkAzadIpa-ArambhaH": {
+      "days": [
+        290
+      ],
+      "name": "AkAzadIpa-ArambhaH"
+    },
+    "AkAzadIpa-samApanam": {
+      "days": [
+        319
+      ],
+      "name": "AkAzadIpa-samApanam"
+    },
+    "AndOlana~tRtIyA": {
+      "days": [
+        96
+      ],
+      "name": "AndOlana~tRtIyA"
+    },
+    "AraNya-gaurI-vratam": {
+      "days": [
+        159
+      ],
+      "name": "AraNya-gaurI-vratam"
+    },
+    "AyuSmad-bava-saumya-saMyogaH": {
+      "days": [
+        289
+      ],
+      "name": "AyuSmad-bava-saumya-saMyogaH"
+    },
+    "AzA~dazamI": {
+      "days": [
+        192
+      ],
+      "name": "AzA~dazamI"
+    },
+    "Azvayuja-amAvAsyA (alabhyam\u2013svAtI)": {
+      "days": [
+        300
+      ],
+      "name": "Azvayuja-amAvAsyA (alabhyam\u2013svAtI)"
+    },
+    "RSi-paJcamI-vratam": {
+      "days": [
+        245
+      ],
+      "name": "RSi-paJcamI-vratam"
+    },
+    "RgvEda-upAkarma": {
+      "days": [
+        226
+      ],
+      "name": "RgvEda-upAkarma"
+    },
+    "SaDazIti-dhanurraviH": {
+      "days": [
+        350
+      ],
+      "name": "SaDazIti-dhanurraviH"
+    },
+    "SaDazIti-kanyAraviH": {
+      "days": [
+        260
+      ],
+      "name": "SaDazIti-kanyAraviH"
+    },
+    "SaDazIti-mInaraviH": {
+      "days": [
+        73
+      ],
+      "name": "SaDazIti-mInaraviH"
+    },
+    "SaDazIti-mithunaraviH": {
+      "days": [
+        166
+      ],
+      "name": "SaDazIti-mithunaraviH"
+    },
+    "SaSThI-vratam": {
+      "days": [
+        11,
+        41,
+        71,
+        100,
+        129,
+        159,
+        217,
+        276,
+        365
+      ],
+      "name": "SaSThI-vratam"
+    },
+    "SaSThIdEvI-SaSThI-vratam": {
+      "days": [
+        246
+      ],
+      "name": "SaSThIdEvI-SaSThI-vratam"
+    },
+    "aGgAraka-caturthI": {
+      "days": [
+        260
+      ],
+      "name": "aGgAraka-caturthI"
+    },
+    "aGgAraka~jayantI": {
+      "days": [
+        243
+      ],
+      "name": "aGgAraka~jayantI"
+    },
+    "aSTanAga-pUjA": {
+      "days": [
+        199
+      ],
+      "name": "aSTanAga-pUjA"
+    },
+    "acalA~saptamI-vratam": {
+      "days": [
+        42
+      ],
+      "name": "acalA~saptamI-vratam"
+    },
+    "aduHkhanavamI": {
+      "days": [
+        250
+      ],
+      "name": "aduHkhanavamI"
+    },
+    "aghOra-caturdazI": {
+      "days": [
+        241
+      ],
+      "name": "aghOra-caturdazI"
+    },
+    "agninakSatra-ArambhaH": {
+      "days": [
+        124
+      ],
+      "name": "agninakSatra-ArambhaH"
+    },
+    "agninakSatra-samApanam": {
+      "days": [
+        148
+      ],
+      "name": "agninakSatra-samApanam"
+    },
+    "agrasEna~mahArAja~jayantI": {
+      "days": [
+        272
+      ],
+      "name": "agrasEna~mahArAja~jayantI"
+    },
+    "aindrI-durgA-pUjA": {
+      "days": [
+        191
+      ],
+      "name": "aindrI-durgA-pUjA"
+    },
+    "akSayA~navamI": {
+      "days": [
+        309
+      ],
+      "name": "akSayA~navamI"
+    },
+    "akSayya-tRtIyA": {
+      "days": [
+        126
+      ],
+      "name": "akSayya-tRtIyA"
+    },
+    "alarmElmaGgApurE plavOtsava-ArambhaH": {
+      "days": [
+        163
+      ],
+      "name": "alarmElmaGgApurE plavOtsava-ArambhaH"
+    },
+    "alarmElmaGgApurE plavOtsava-samApanam": {
+      "days": [
+        167
+      ],
+      "name": "alarmElmaGgApurE plavOtsava-samApanam"
+    },
+    "alarmElmaGgApurE plavOtsavaH~2": {
+      "days": [
+        164
+      ],
+      "name": "alarmElmaGgApurE plavOtsavaH~2"
+    },
+    "alarmElmaGgApurE plavOtsavaH~3": {
+      "days": [
+        165
+      ],
+      "name": "alarmElmaGgApurE plavOtsavaH~3"
+    },
+    "alarmElmaGgApurE plavOtsavaH~4": {
+      "days": [
+        166
+      ],
+      "name": "alarmElmaGgApurE plavOtsavaH~4"
+    },
+    "amRtalakSmI-vratam": {
+      "days": [
+        185
+      ],
+      "name": "amRtalakSmI-vratam"
+    },
+    "amuktAbharaNa-saptamI": {
+      "days": [
+        247
+      ],
+      "name": "amuktAbharaNa-saptamI"
+    },
+    "anaGga-trayOdazI": {
+      "days": [
+        224
+      ],
+      "name": "anaGga-trayOdazI"
+    },
+    "ananta-caturdazI": {
+      "days": [
+        255
+      ],
+      "name": "ananta-caturdazI"
+    },
+    "ananta-dvAdazI": {
+      "days": [
+        253
+      ],
+      "name": "ananta-dvAdazI"
+    },
+    "ananta-padmanAbha-vratam": {
+      "days": [
+        255
+      ],
+      "name": "ananta-padmanAbha-vratam"
+    },
+    "anantaphala-saptamI": {
+      "days": [
+        248
+      ],
+      "name": "anantaphala-saptamI"
+    },
+    "annamAcArya~jayantI": {
+      "days": [
+        138
+      ],
+      "name": "annamAcArya~jayantI"
+    },
+    "annapUrNA~jayantI": {
+      "days": [
+        345
+      ],
+      "name": "annapUrNA~jayantI"
+    },
+    "appayya-dIkSita-jayantI~\\#{501}": {
+      "days": [
+        287
+      ],
+      "name": "appayya-dIkSita-jayantI~\\#{501}"
+    },
+    "aravinda~jayantI": {
+      "days": [
+        236
+      ],
+      "name": "aravinda~jayantI"
+    },
+    "ardhanArIzvara-vratam": {
+      "days": [
+        138
+      ],
+      "name": "ardhanArIzvara-vratam"
+    },
+    "arundhatI-vrata-ArambhaH": {
+      "days": [
+        96
+      ],
+      "name": "arundhatI-vrata-ArambhaH"
+    },
+    "avyaGga-saptamI": {
+      "days": [
+        218
+      ],
+      "name": "avyaGga-saptamI"
+    },
+    "azOkASTamI": {
+      "days": [
+        102
+      ],
+      "name": "azOkASTamI"
+    },
+    "azOkASTamI-vrata-ArambhaH": {
+      "days": [
+        265
+      ],
+      "name": "azOkASTamI-vrata-ArambhaH"
+    },
+    "azUnyazayana-vratam~1": {
+      "days": [
+        198
+      ],
+      "name": "azUnyazayana-vratam~1"
+    },
+    "azUnyazayana-vratam~2": {
+      "days": [
+        228
+      ],
+      "name": "azUnyazayana-vratam~2"
+    },
+    "azUnyazayana-vratam~3": {
+      "days": [
+        258
+      ],
+      "name": "azUnyazayana-vratam~3"
+    },
+    "azUnyazayana-vratam~4": {
+      "days": [
+        287
+      ],
+      "name": "azUnyazayana-vratam~4"
+    },
+    "azvazirO-dEva-pUjA": {
+      "days": [
+        271
+      ],
+      "name": "azvazirO-dEva-pUjA"
+    },
+    "bRhatI-vRkSaka-pUjA": {
+      "days": [
+        229
+      ],
+      "name": "bRhatI-vRkSaka-pUjA"
+    },
+    "bRndAvana-dvAdazI": {
+      "days": [
+        312
+      ],
+      "name": "bRndAvana-dvAdazI"
+    },
+    "badarI jyOtirmaTha-pratiSThApana~jayantI~\\#{2504}": {
+      "days": [
+        20
+      ],
+      "name": "badarI jyOtirmaTha-pratiSThApana~jayantI~\\#{2504}"
+    },
+    "badarI-gaurI-vratam": {
+      "days": [
+        333
+      ],
+      "name": "badarI-gaurI-vratam"
+    },
+    "bagalAmukhI~jayantI": {
+      "days": [
+        127
+      ],
+      "name": "bagalAmukhI~jayantI"
+    },
+    "bahulA~caturthI": {
+      "days": [
+        230
+      ],
+      "name": "bahulA~caturthI"
+    },
+    "bahula-paJcamI": {
+      "days": [
+        24
+      ],
+      "name": "bahula-paJcamI"
+    },
+    "balarAma~jayantI": {
+      "days": [
+        127
+      ],
+      "name": "balarAma~jayantI"
+    },
+    "bhAnusaptamI": {
+      "days": [
+        293
+      ],
+      "name": "bhAnusaptamI"
+    },
+    "bhArgava-rAma-pUjA": {
+      "days": [
+        124
+      ],
+      "name": "bhArgava-rAma-pUjA"
+    },
+    "bhISmASTamI": {
+      "days": [
+        43
+      ],
+      "name": "bhISmASTamI"
+    },
+    "bhISma-dvAdazI": {
+      "days": [
+        47
+      ],
+      "name": "bhISma-dvAdazI"
+    },
+    "bhISma-paJcaka-vrata-ArambhaH": {
+      "days": [
+        311
+      ],
+      "name": "bhISma-paJcaka-vrata-ArambhaH"
+    },
+    "bhISma-paJcaka-vrata-samApanam": {
+      "days": [
+        315
+      ],
+      "name": "bhISma-paJcaka-vrata-samApanam"
+    },
+    "bhISma~jayantI": {
+      "days": [
+        28
+      ],
+      "name": "bhISma~jayantI"
+    },
+    "bhImasEna~jayantI": {
+      "days": [
+        295
+      ],
+      "name": "bhImasEna~jayantI"
+    },
+    "bhIma~caNDI~jayantI": {
+      "days": [
+        229
+      ],
+      "name": "bhIma~caNDI~jayantI"
+    },
+    "bhOgazAyi-pUjA": {
+      "days": [
+        183
+      ],
+      "name": "bhOgazAyi-pUjA"
+    },
+    "bhRgurEvatI-puNyakAlaH": {
+      "days": [
+        67,
+        95,
+        340
+      ],
+      "name": "bhRgurEvatI-puNyakAlaH"
+    },
+    "bhRguvAra-subrahmaNya-vratam": {
+      "days": [
+        291
+      ],
+      "name": "bhRguvAra-subrahmaNya-vratam"
+    },
+    "bhadra-catuSTaya-vratam": {
+      "days": [
+        154
+      ],
+      "name": "bhadra-catuSTaya-vratam"
+    },
+    "bhadrakALI-pUjA": {
+      "days": [
+        278
+      ],
+      "name": "bhadrakALI-pUjA"
+    },
+    "bhadrakALI-vratam": {
+      "days": [
+        279
+      ],
+      "name": "bhadrakALI-vratam"
+    },
+    "bhadrakALI~jayantI": {
+      "days": [
+        149
+      ],
+      "name": "bhadrakALI~jayantI"
+    },
+    "bhaumArdrA-puNyakAlaH": {
+      "days": [
+        155,
+        183
+      ],
+      "name": "bhaumArdrA-puNyakAlaH"
+    },
+    "bhaumAzvinI-puNyakAlaH": {
+      "days": [
+        232,
+        260
+      ],
+      "name": "bhaumAzvinI-puNyakAlaH"
+    },
+    "bhavAnyutpattiH": {
+      "days": [
+        102
+      ],
+      "name": "bhavAnyutpattiH"
+    },
+    "bhrAtRprApti-vrata-ArambhaH": {
+      "days": [
+        106
+      ],
+      "name": "bhrAtRprApti-vrata-ArambhaH"
+    },
+    "bhuvanEzvarI~jayantI": {
+      "days": [
+        253
+      ],
+      "name": "bhuvanEzvarI~jayantI"
+    },
+    "brahmANI-pUjA": {
+      "days": [
+        162
+      ],
+      "name": "brahmANI-pUjA"
+    },
+    "brahma-kalpAdiH": {
+      "days": [
+        81
+      ],
+      "name": "brahma-kalpAdiH"
+    },
+    "buddha~jayantI": {
+      "days": [
+        280
+      ],
+      "name": "buddha~jayantI"
+    },
+    "budhASTamI": {
+      "days": [
+        205,
+        219,
+        338
+      ],
+      "name": "budhASTamI"
+    },
+    "budhAnurAdhA-puNyakAlaH": {
+      "days": [
+        2,
+        247,
+        275,
+        303
+      ],
+      "name": "budhAnurAdhA-puNyakAlaH"
+    },
+    "budha~jayantI": {
+      "days": [
+        134
+      ],
+      "name": "budha~jayantI"
+    },
+    "cAmuNDEzvarI~jayantI": {
+      "days": [
+        204
+      ],
+      "name": "cAmuNDEzvarI~jayantI"
+    },
+    "cAturmAsyavrata-ArambhaH": {
+      "days": [
+        192
+      ],
+      "name": "cAturmAsyavrata-ArambhaH"
+    },
+    "cAturmAsyavrata-samApanam": {
+      "days": [
+        315
+      ],
+      "name": "cAturmAsyavrata-samApanam"
+    },
+    "caNDikA-pUjA": {
+      "days": [
+        236
+      ],
+      "name": "caNDikA-pUjA"
+    },
+    "caitanya-mahAprabhu~jayantI~\\#{534}": {
+      "days": [
+        79
+      ],
+      "name": "caitanya-mahAprabhu~jayantI~\\#{534}"
+    },
+    "caitra-amAvAsyA": {
+      "days": [
+        123
+      ],
+      "name": "caitra-amAvAsyA"
+    },
+    "caitra-pUrNimA": {
+      "days": [
+        108
+      ],
+      "name": "caitra-pUrNimA"
+    },
+    "campaka-dvAdazI": {
+      "days": [
+        164
+      ],
+      "name": "campaka-dvAdazI"
+    },
+    "candrOdaya-gaurI-vratam": {
+      "days": [
+        288
+      ],
+      "name": "candrOdaya-gaurI-vratam"
+    },
+    "candra-SaSThI": {
+      "days": [
+        262
+      ],
+      "name": "candra-SaSThI"
+    },
+    "chatrapati-zivAjI~jayantI~\\#{390}": {
+      "days": [
+        82
+      ],
+      "name": "chatrapati-zivAjI~jayantI~\\#{390}"
+    },
+    "chatrapati~zivAjI~rAjyAbhiSEkaH": {
+      "days": [
+        165
+      ],
+      "name": "chatrapati~zivAjI~rAjyAbhiSEkaH"
+    },
+    "chinnamastA~jayantI": {
+      "days": [
+        138
+      ],
+      "name": "chinnamastA~jayantI"
+    },
+    "cidambarE bhikSATana svarNarathaH": {
+      "days": [
+        186
+      ],
+      "name": "cidambarE bhikSATana svarNarathaH"
+    },
+    "cidambarE dhvajArOhaNam/paJcamUrti rathOtsavaH": {
+      "days": [
+        179
+      ],
+      "name": "cidambarE dhvajArOhaNam/paJcamUrti rathOtsavaH"
+    },
+    "cidambarE kailAsa vAhanam": {
+      "days": [
+        185
+      ],
+      "name": "cidambarE kailAsa vAhanam"
+    },
+    "cidambarE muttuppallakku": {
+      "days": [
+        189
+      ],
+      "name": "cidambarE muttuppallakku"
+    },
+    "cidambarE naTarAjasya rAjasabhAyAM mahAbhiSEkaH": {
+      "days": [
+        188
+      ],
+      "name": "cidambarE naTarAjasya rAjasabhAyAM mahAbhiSEkaH"
+    },
+    "cidambarE rajata RSabha vAhanam": {
+      "days": [
+        183
+      ],
+      "name": "cidambarE rajata RSabha vAhanam"
+    },
+    "cidambarE rajata bhUta vAhanam": {
+      "days": [
+        182
+      ],
+      "name": "cidambarE rajata bhUta vAhanam"
+    },
+    "cidambarE rajata candraprabha vAhanam": {
+      "days": [
+        180
+      ],
+      "name": "cidambarE rajata candraprabha vAhanam"
+    },
+    "cidambarE rajata-gajavAhanam": {
+      "days": [
+        184
+      ],
+      "name": "cidambarE rajata-gajavAhanam"
+    },
+    "cidambarE rathOtsavaH": {
+      "days": [
+        187
+      ],
+      "name": "cidambarE rathOtsavaH"
+    },
+    "cidambarE svarNa-sUryaprabha vAhanam": {
+      "days": [
+        181
+      ],
+      "name": "cidambarE svarNa-sUryaprabha vAhanam"
+    },
+    "citragupta-vratam": {
+      "days": [
+        108
+      ],
+      "name": "citragupta-vratam"
+    },
+    "dAmOdara-dvAdazI": {
+      "days": [
+        223
+      ],
+      "name": "dAmOdara-dvAdazI"
+    },
+    "dEvasEnA~paJcamI": {
+      "days": [
+        304
+      ],
+      "name": "dEvasEnA~paJcamI"
+    },
+    "dEvatA-suvAsinI-pUjA": {
+      "days": [
+        274
+      ],
+      "name": "dEvatA-suvAsinI-pUjA"
+    },
+    "dIpAvalI/lakSmI-kubEra-pUjA": {
+      "days": [
+        300
+      ],
+      "name": "dIpAvalI/lakSmI-kubEra-pUjA"
+    },
+    "dIpOtsava-caturdazI/yama-tarpaNam": {
+      "days": [
+        299
+      ],
+      "name": "dIpOtsava-caturdazI/yama-tarpaNam"
+    },
+    "dIpa-pUjA": {
+      "days": [
+        212
+      ],
+      "name": "dIpa-pUjA"
+    },
+    "dUrvA-gaNapati-vratam": {
+      "days": [
+        215
+      ],
+      "name": "dUrvA-gaNapati-vratam"
+    },
+    "dUrvASTamI": {
+      "days": [
+        248
+      ],
+      "name": "dUrvASTamI"
+    },
+    "dUrva-tri-vratam": {
+      "days": [
+        254
+      ],
+      "name": "dUrva-tri-vratam"
+    },
+    "dadhIci~maharSi~jayanti": {
+      "days": [
+        249
+      ],
+      "name": "dadhIci~maharSi~jayanti"
+    },
+    "dadhi-vrata-ArambhaH": {
+      "days": [
+        223
+      ],
+      "name": "dadhi-vrata-ArambhaH"
+    },
+    "dadhi-vrata-samApanam": {
+      "days": [
+        253
+      ],
+      "name": "dadhi-vrata-samApanam"
+    },
+    "damanakArOpaNa-dvAdazI": {
+      "days": [
+        106
+      ],
+      "name": "damanakArOpaNa-dvAdazI"
+    },
+    "damanaka-cOrI-utsavaH": {
+      "days": [
+        107
+      ],
+      "name": "damanaka-cOrI-utsavaH"
+    },
+    "damanaka-caturdazI": {
+      "days": [
+        108
+      ],
+      "name": "damanaka-caturdazI"
+    },
+    "darbha-saGgrahaH": {
+      "days": [
+        241
+      ],
+      "name": "darbha-saGgrahaH"
+    },
+    "dattAtrEya~jayantI": {
+      "days": [
+        345
+      ],
+      "name": "dattAtrEya~jayantI"
+    },
+    "dauhitra-pratipat": {
+      "days": [
+        272
+      ],
+      "name": "dauhitra-pratipat"
+    },
+    "dazAvatAra-vratam": {
+      "days": [
+        251
+      ],
+      "name": "dazAvatAra-vratam"
+    },
+    "dazaharA": {
+      "days": [
+        280
+      ],
+      "name": "dazaharA"
+    },
+    "dazaharA/gaGgAvataraNam/dazapApaharA~dazamI": {
+      "days": [
+        163
+      ],
+      "name": "dazaharA/gaGgAvataraNam/dazapApaharA~dazamI"
+    },
+    "dhUmAvatI~jayantI": {
+      "days": [
+        161
+      ],
+      "name": "dhUmAvatI~jayantI"
+    },
+    "dhana-trayOdazI": {
+      "days": [
+        298
+      ],
+      "name": "dhana-trayOdazI"
+    },
+    "dhanvantari~jayantI": {
+      "days": [
+        298
+      ],
+      "name": "dhanvantari~jayantI"
+    },
+    "dharmarAja-dazamI": {
+      "days": [
+        104
+      ],
+      "name": "dharmarAja-dazamI"
+    },
+    "dikpAla-pUjA~1": {
+      "days": [
+        256
+      ],
+      "name": "dikpAla-pUjA~1"
+    },
+    "dikpAla-pUjA~2": {
+      "days": [
+        260
+      ],
+      "name": "dikpAla-pUjA~2"
+    },
+    "durgA-pUjA": {
+      "days": [
+        280
+      ],
+      "name": "durgA-pUjA"
+    },
+    "durgA-svApanam": {
+      "days": [
+        177
+      ],
+      "name": "durgA-svApanam"
+    },
+    "durgA-vrata-ArambhaH": {
+      "days": [
+        219
+      ],
+      "name": "durgA-vrata-ArambhaH"
+    },
+    "durgA/gaurI-pUjA": {
+      "days": [
+        265
+      ],
+      "name": "durgA/gaurI-pUjA"
+    },
+    "durgASTamI": {
+      "days": [
+        278
+      ],
+      "name": "durgASTamI"
+    },
+    "durgandha-daurbhAgya-nAzaka-trayOdazI": {
+      "days": [
+        165
+      ],
+      "name": "durgandha-daurbhAgya-nAzaka-trayOdazI"
+    },
+    "dvAdaza-saptamI": {
+      "days": [
+        218
+      ],
+      "name": "dvAdaza-saptamI"
+    },
+    "dvAparayugAdiH": {
+      "days": [
+        269
+      ],
+      "name": "dvAparayugAdiH"
+    },
+    "dvArakA-maTha-pratiSThApana~jayantI~\\#{2509}": {
+      "days": [
+        42
+      ],
+      "name": "dvArakA-maTha-pratiSThApana~jayantI~\\#{2509}"
+    },
+    "dvidala-vrata-ArambhaH": {
+      "days": [
+        282
+      ],
+      "name": "dvidala-vrata-ArambhaH"
+    },
+    "dvidala-vrata-samApanam": {
+      "days": [
+        312
+      ],
+      "name": "dvidala-vrata-samApanam"
+    },
+    "eruvaka-pUrNimA": {
+      "days": [
+        167
+      ],
+      "name": "eruvaka-pUrNimA"
+    },
+    "gAyatrI-japaH": {
+      "days": [
+        227
+      ],
+      "name": "gAyatrI-japaH"
+    },
+    "gAyatrI~jayantI": {
+      "days": [
+        226
+      ],
+      "name": "gAyatrI~jayantI"
+    },
+    "gItA~jayantI": {
+      "days": [
+        341
+      ],
+      "name": "gItA~jayantI"
+    },
+    "gO-trirAtri-vratam~1": {
+      "days": [
+        254
+      ],
+      "name": "gO-trirAtri-vratam~1"
+    },
+    "gO-trirAtri-vratam~2": {
+      "days": [
+        298
+      ],
+      "name": "gO-trirAtri-vratam~2"
+    },
+    "gOdhUmA~navamI": {
+      "days": [
+        250
+      ],
+      "name": "gOdhUmA~navamI"
+    },
+    "gOpASTamI": {
+      "days": [
+        308
+      ],
+      "name": "gOpASTamI"
+    },
+    "gOpadma-vrata-ArambhaH": {
+      "days": [
+        193
+      ],
+      "name": "gOpadma-vrata-ArambhaH"
+    },
+    "gOpadma-vrata-samApanam": {
+      "days": [
+        312
+      ],
+      "name": "gOpadma-vrata-samApanam"
+    },
+    "gOvardhana-pUjA": {
+      "days": [
+        301
+      ],
+      "name": "gOvardhana-pUjA"
+    },
+    "gOvatsa-dvAdazI": {
+      "days": [
+        297
+      ],
+      "name": "gOvatsa-dvAdazI"
+    },
+    "gRhadEvI-pUjA": {
+      "days": [
+        272
+      ],
+      "name": "gRhadEvI-pUjA"
+    },
+    "gaGgA-saptamI": {
+      "days": [
+        130
+      ],
+      "name": "gaGgA-saptamI"
+    },
+    "gaGgA-snAnam": {
+      "days": [
+        123
+      ],
+      "name": "gaGgA-snAnam"
+    },
+    "gaGgAvataraNam": {
+      "days": [
+        280
+      ],
+      "name": "gaGgAvataraNam"
+    },
+    "gajEndra-mOkSaH~1": {
+      "days": [
+        108
+      ],
+      "name": "gajEndra-mOkSaH~1"
+    },
+    "gajEndra-mOkSaH~2": {
+      "days": [
+        250
+      ],
+      "name": "gajEndra-mOkSaH~2"
+    },
+    "garuDa-paJcamI": {
+      "days": [
+        216
+      ],
+      "name": "garuDa-paJcamI"
+    },
+    "gaurI-vratam": {
+      "days": [
+        259
+      ],
+      "name": "gaurI-vratam"
+    },
+    "gaurI~tRtIyA/saubhAgya-gaurI-vratam": {
+      "days": [
+        97
+      ],
+      "name": "gaurI~tRtIyA/saubhAgya-gaurI-vratam"
+    },
+    "gavAmayana-dvAdazI": {
+      "days": [
+        164
+      ],
+      "name": "gavAmayana-dvAdazI"
+    },
+    "ghOTaka-paJcamI": {
+      "days": [
+        291
+      ],
+      "name": "ghOTaka-paJcamI"
+    },
+    "girijA-kalyANam": {
+      "days": [
+        135
+      ],
+      "name": "girijA-kalyANam"
+    },
+    "guru-pUrNimA/vyAsa-pUjA": {
+      "days": [
+        197
+      ],
+      "name": "guru-pUrNimA/vyAsa-pUjA"
+    },
+    "gurupuSya-puNyakAlaH": {
+      "days": [
+        157,
+        185
+      ],
+      "name": "gurupuSya-puNyakAlaH"
+    },
+    "guruvAyupura-EkAdazI": {
+      "days": [
+        341
+      ],
+      "name": "guruvAyupura-EkAdazI"
+    },
+    "hOli": {
+      "days": [
+        79
+      ],
+      "name": "hOli"
+    },
+    "hOlikA-pUrNimA": {
+      "days": [
+        78
+      ],
+      "name": "hOlikA-pUrNimA"
+    },
+    "hala-SaSThI": {
+      "days": [
+        233
+      ],
+      "name": "hala-SaSThI"
+    },
+    "haritAlikA-vratam": {
+      "days": [
+        244
+      ],
+      "name": "haritAlikA-vratam"
+    },
+    "hariyAlI~tRtIyA": {
+      "days": [
+        215
+      ],
+      "name": "hariyAlI~tRtIyA"
+    },
+    "haya-pUjA": {
+      "days": [
+        99
+      ],
+      "name": "haya-pUjA"
+    },
+    "hayagrIva~jayantI": {
+      "days": [
+        226
+      ],
+      "name": "hayagrIva~jayantI"
+    },
+    "indra-pUjA/gO-pUjA": {
+      "days": [
+        15
+      ],
+      "name": "indra-pUjA/gO-pUjA"
+    },
+    "jImUtavAhana-pUjA~1": {
+      "days": [
+        265
+      ],
+      "name": "jImUtavAhana-pUjA~1"
+    },
+    "jImUtavAhana-pUjA~2": {
+      "days": [
+        294
+      ],
+      "name": "jImUtavAhana-pUjA~2"
+    },
+    "jIvaputrikASTamI": {
+      "days": [
+        294
+      ],
+      "name": "jIvaputrikASTamI"
+    },
+    "jagaddhAtrI-pUjA": {
+      "days": [
+        309
+      ],
+      "name": "jagaddhAtrI-pUjA"
+    },
+    "jagannAtha-ratha-yAtrA": {
+      "days": [
+        185
+      ],
+      "name": "jagannAtha-ratha-yAtrA"
+    },
+    "jayAvApti-vratam": {
+      "days": [
+        287
+      ],
+      "name": "jayAvApti-vratam"
+    },
+    "jayantI~mahAdvAdazI": {
+      "days": [
+        47,
+        239
+      ],
+      "name": "jayantI~mahAdvAdazI"
+    },
+    "jhUlElAla~jayantI": {
+      "days": [
+        96
+      ],
+      "name": "jhUlElAla~jayantI"
+    },
+    "jyESThASTamI": {
+      "days": [
+        161
+      ],
+      "name": "jyESThASTamI"
+    },
+    "jyaiSTha-amAvAsyA (alabhyam\u2013puSkalA)": {
+      "days": [
+        182
+      ],
+      "name": "jyaiSTha-amAvAsyA (alabhyam\u2013puSkalA)"
+    },
+    "kAJcI 1 jagadguru zrI~Adi-zaGkara bhagavatpAda ArAdhanA~\\#{2495}": {
+      "days": [
+        163
+      ],
+      "name": "kAJcI 1 jagadguru zrI~Adi-zaGkara bhagavatpAda ArAdhanA~\\#{2495}"
+    },
+    "kAJcI 10 jagadguru zrI~surEzvarEndra sarasvatI ArAdhanA~\\#{1893}": {
+      "days": [
+        196
+      ],
+      "name": "kAJcI 10 jagadguru zrI~surEzvarEndra sarasvatI ArAdhanA~\\#{1893}"
+    },
+    "kAJcI 11 jagadguru zrI~zivAnanda cidghanEndra sarasvatI ArAdhanA~\\#{1847}": {
+      "days": [
+        45
+      ],
+      "name": "kAJcI 11 jagadguru zrI~zivAnanda cidghanEndra sarasvatI ArAdhanA~\\#{1847}"
+    },
+    "kAJcI 12 jagadguru zrI~candrazEkharEndra sarasvatI ArAdhanA~\\#{1785}": {
+      "days": [
+        190
+      ],
+      "name": "kAJcI 12 jagadguru zrI~candrazEkharEndra sarasvatI ArAdhanA~\\#{1785}"
+    },
+    "kAJcI 13 jagadguru zrI~saccidghanEndra sarasvatI ArAdhanA~\\#{1748}": {
+      "days": [
+        346
+      ],
+      "name": "kAJcI 13 jagadguru zrI~saccidghanEndra sarasvatI ArAdhanA~\\#{1748}"
+    },
+    "kAJcI 14 jagadguru zrI~vidyAghanEndra sarasvatI ArAdhanA~\\#{1702}": {
+      "days": [
+        5
+      ],
+      "name": "kAJcI 14 jagadguru zrI~vidyAghanEndra sarasvatI ArAdhanA~\\#{1702}"
+    },
+    "kAJcI 14 jagadguru zrI~vidyAghanEndra sarasvatI ArAdhanA~\\#{1703}": {
+      "days": [
+        359
+      ],
+      "name": "kAJcI 14 jagadguru zrI~vidyAghanEndra sarasvatI ArAdhanA~\\#{1703}"
+    },
+    "kAJcI 15 jagadguru zrI~gaGgAdharEndra sarasvatI ArAdhanA~\\#{1691}": {
+      "days": [
+        95
+      ],
+      "name": "kAJcI 15 jagadguru zrI~gaGgAdharEndra sarasvatI ArAdhanA~\\#{1691}"
+    },
+    "kAJcI 16 jagadguru zrI~ujjvala zaGkarEndra sarasvatI ArAdhanA~\\#{1653}": {
+      "days": [
+        160
+      ],
+      "name": "kAJcI 16 jagadguru zrI~ujjvala zaGkarEndra sarasvatI ArAdhanA~\\#{1653}"
+    },
+    "kAJcI 17 jagadguru zrI~sadAzivEndra sarasvatI ArAdhanA~\\#{1645}": {
+      "days": [
+        162
+      ],
+      "name": "kAJcI 17 jagadguru zrI~sadAzivEndra sarasvatI ArAdhanA~\\#{1645}"
+    },
+    "kAJcI 18 jagadguru zrI~yOgatilaka surEndra sarasvatI ArAdhanA~\\#{1635}": {
+      "days": [
+        330
+      ],
+      "name": "kAJcI 18 jagadguru zrI~yOgatilaka surEndra sarasvatI ArAdhanA~\\#{1635}"
+    },
+    "kAJcI 19 jagadguru zrI~mArtANDa vidyAghanEndra sarasvatI ArAdhanA~\\#{1622}": {
+      "days": [
+        279
+      ],
+      "name": "kAJcI 19 jagadguru zrI~mArtANDa vidyAghanEndra sarasvatI ArAdhanA~\\#{1622}"
+    },
+    "kAJcI 2 jagadguru zrI~surEzvarAcArya ArAdhanA~\\#{2425}": {
+      "days": [
+        164
+      ],
+      "name": "kAJcI 2 jagadguru zrI~surEzvarAcArya ArAdhanA~\\#{2425}"
+    },
+    "kAJcI 20 jagadguru zrI~mUkazaGkarEndra sarasvatI ArAdhanA~\\#{1583}": {
+      "days": [
+        226
+      ],
+      "name": "kAJcI 20 jagadguru zrI~mUkazaGkarEndra sarasvatI ArAdhanA~\\#{1583}"
+    },
+    "kAJcI 21 jagadguru zrI~sArvabhaumaguruH candracUDEndra sarasvatI ArAdhanA~\\#{1573}": {
+      "days": [
+        235
+      ],
+      "name": "kAJcI 21 jagadguru zrI~sArvabhaumaguruH candracUDEndra sarasvatI ArAdhanA~\\#{1573}"
+    },
+    "kAJcI 22 jagadguru zrI~paripUrNabOdhEndra sarasvatI ArAdhanA~\\#{1539}": {
+      "days": [
+        309
+      ],
+      "name": "kAJcI 22 jagadguru zrI~paripUrNabOdhEndra sarasvatI ArAdhanA~\\#{1539}"
+    },
+    "kAJcI 23 jagadguru zrI~saccitsukhEndra sarasvatI ArAdhanA~\\#{1508}": {
+      "days": [
+        159
+      ],
+      "name": "kAJcI 23 jagadguru zrI~saccitsukhEndra sarasvatI ArAdhanA~\\#{1508}"
+    },
+    "kAJcI 24 jagadguru zrI~citsukhEndra sarasvatI ArAdhanA~\\#{1493}": {
+      "days": [
+        236
+      ],
+      "name": "kAJcI 24 jagadguru zrI~citsukhEndra sarasvatI ArAdhanA~\\#{1493}"
+    },
+    "kAJcI 25 jagadguru zrI~saccidAnandaghanEndra sarasvatI ArAdhanA~\\#{1472}": {
+      "days": [
+        183
+      ],
+      "name": "kAJcI 25 jagadguru zrI~saccidAnandaghanEndra sarasvatI ArAdhanA~\\#{1472}"
+    },
+    "kAJcI 26 jagadguru zrI~prajJAghanEndra sarasvatI ArAdhanA~\\#{1456}": {
+      "days": [
+        131
+      ],
+      "name": "kAJcI 26 jagadguru zrI~prajJAghanEndra sarasvatI ArAdhanA~\\#{1456}"
+    },
+    "kAJcI 27 jagadguru zrI~cidvilAsEndra sarasvatI ArAdhanA~\\#{1443}": {
+      "days": [
+        95
+      ],
+      "name": "kAJcI 27 jagadguru zrI~cidvilAsEndra sarasvatI ArAdhanA~\\#{1443}"
+    },
+    "kAJcI 28 jagadguru zrI~mahAdEvEndra sarasvatI 1 ArAdhanA~\\#{1419}": {
+      "days": [
+        325
+      ],
+      "name": "kAJcI 28 jagadguru zrI~mahAdEvEndra sarasvatI 1 ArAdhanA~\\#{1419}"
+    },
+    "kAJcI 29 jagadguru zrI~pUrNabOdhEndra sarasvatI ArAdhanA~\\#{1402}": {
+      "days": [
+        222
+      ],
+      "name": "kAJcI 29 jagadguru zrI~pUrNabOdhEndra sarasvatI ArAdhanA~\\#{1402}"
+    },
+    "kAJcI 3 jagadguru zrI~sarvajJAtmEndra sarasvatI ArAdhanA~\\#{2383}": {
+      "days": [
+        152
+      ],
+      "name": "kAJcI 3 jagadguru zrI~sarvajJAtmEndra sarasvatI ArAdhanA~\\#{2383}"
+    },
+    "kAJcI 30 jagadguru zrI~bOdhEndra sarasvatI 2 ArAdhanA~\\#{1365}": {
+      "days": [
+        141
+      ],
+      "name": "kAJcI 30 jagadguru zrI~bOdhEndra sarasvatI 2 ArAdhanA~\\#{1365}"
+    },
+    "kAJcI 31 jagadguru zrI~brahmAnandaghanEndra sarasvatI ArAdhanA~\\#{1352}": {
+      "days": [
+        193
+      ],
+      "name": "kAJcI 31 jagadguru zrI~brahmAnandaghanEndra sarasvatI ArAdhanA~\\#{1352}"
+    },
+    "kAJcI 32 jagadguru zrI~cidAnandaghanEndra sarasvatI ArAdhanA~\\#{1348}": {
+      "days": [
+        335
+      ],
+      "name": "kAJcI 32 jagadguru zrI~cidAnandaghanEndra sarasvatI ArAdhanA~\\#{1348}"
+    },
+    "kAJcI 33 jagadguru zrI~saccidAnandaghanEndra sarasvatI 2 ArAdhanA~\\#{1328}": {
+      "days": [
+        262
+      ],
+      "name": "kAJcI 33 jagadguru zrI~saccidAnandaghanEndra sarasvatI 2 ArAdhanA~\\#{1328}"
+    },
+    "kAJcI 34 jagadguru zrI~candrazEkharEndra sarasvatI 2 ArAdhanA~\\#{1309}": {
+      "days": [
+        5
+      ],
+      "name": "kAJcI 34 jagadguru zrI~candrazEkharEndra sarasvatI 2 ArAdhanA~\\#{1309}"
+    },
+    "kAJcI 34 jagadguru zrI~candrazEkharEndra sarasvatI 2 ArAdhanA~\\#{1310}": {
+      "days": [
+        359
+      ],
+      "name": "kAJcI 34 jagadguru zrI~candrazEkharEndra sarasvatI 2 ArAdhanA~\\#{1310}"
+    },
+    "kAJcI 35 jagadguru zrI~citsukhEndra sarasvatI ArAdhanA~\\#{1283}": {
+      "days": [
+        188
+      ],
+      "name": "kAJcI 35 jagadguru zrI~citsukhEndra sarasvatI ArAdhanA~\\#{1283}"
+    },
+    "kAJcI 36 jagadguru zrI~citsukhAnandEndra sarasvatI ArAdhanA~\\#{1262}": {
+      "days": [
+        285
+      ],
+      "name": "kAJcI 36 jagadguru zrI~citsukhAnandEndra sarasvatI ArAdhanA~\\#{1262}"
+    },
+    "kAJcI 37 jagadguru zrI~vidyAghanEndra sarasvatI 3 ArAdhanA~\\#{1231}": {
+      "days": [
+        22
+      ],
+      "name": "kAJcI 37 jagadguru zrI~vidyAghanEndra sarasvatI 3 ArAdhanA~\\#{1231}"
+    },
+    "kAJcI 38 jagadguru zrI~abhinavazaGkarEndra sarasvatI ArAdhanA~\\#{1180}": {
+      "days": [
+        212
+      ],
+      "name": "kAJcI 38 jagadguru zrI~abhinavazaGkarEndra sarasvatI ArAdhanA~\\#{1180}"
+    },
+    "kAJcI 39 jagadguru zrI~saccidvilAsEndra sarasvatI ArAdhanA~\\#{1147}": {
+      "days": [
+        137
+      ],
+      "name": "kAJcI 39 jagadguru zrI~saccidvilAsEndra sarasvatI ArAdhanA~\\#{1147}"
+    },
+    "kAJcI 4 jagadguru zrI~satyabOdhEndra sarasvatI ArAdhanA~\\#{2287}": {
+      "days": [
+        352
+      ],
+      "name": "kAJcI 4 jagadguru zrI~satyabOdhEndra sarasvatI ArAdhanA~\\#{2287}"
+    },
+    "kAJcI 40 jagadguru zrI~mahAdEvEndra sarasvatI 2 ArAdhanA~\\#{1105}": {
+      "days": [
+        129
+      ],
+      "name": "kAJcI 40 jagadguru zrI~mahAdEvEndra sarasvatI 2 ArAdhanA~\\#{1105}"
+    },
+    "kAJcI 41 jagadguru zrI~gaGgAdharEndra sarasvatI 2 ArAdhanA~\\#{1070}": {
+      "days": [
+        213
+      ],
+      "name": "kAJcI 41 jagadguru zrI~gaGgAdharEndra sarasvatI 2 ArAdhanA~\\#{1070}"
+    },
+    "kAJcI 42 jagadguru zrI~brahmAnandaghanEndra sarasvatI 2 ArAdhanA~\\#{1042}": {
+      "days": [
+        323
+      ],
+      "name": "kAJcI 42 jagadguru zrI~brahmAnandaghanEndra sarasvatI 2 ArAdhanA~\\#{1042}"
+    },
+    "kAJcI 43 jagadguru zrI~AnandaghanEndra sarasvatI ArAdhanA~\\#{1006}": {
+      "days": [
+        103
+      ],
+      "name": "kAJcI 43 jagadguru zrI~AnandaghanEndra sarasvatI ArAdhanA~\\#{1006}"
+    },
+    "kAJcI 44 jagadguru zrI~pUrNabOdhEndra sarasvatI 2 ArAdhanA~\\#{980}": {
+      "days": [
+        269
+      ],
+      "name": "kAJcI 44 jagadguru zrI~pUrNabOdhEndra sarasvatI 2 ArAdhanA~\\#{980}"
+    },
+    "kAJcI 45 jagadguru zrI~paramazivEndra sarasvatI 1 ArAdhanA~\\#{959}": {
+      "days": [
+        277
+      ],
+      "name": "kAJcI 45 jagadguru zrI~paramazivEndra sarasvatI 1 ArAdhanA~\\#{959}"
+    },
+    "kAJcI 46 jagadguru zrI~sAndrAnandabOdhEndra sarasvatI ArAdhanA~\\#{922}": {
+      "days": [
+        212
+      ],
+      "name": "kAJcI 46 jagadguru zrI~sAndrAnandabOdhEndra sarasvatI ArAdhanA~\\#{922}"
+    },
+    "kAJcI 47 jagadguru zrI~candrazEkharEndra sarasvatI 3 ArAdhanA~\\#{854}": {
+      "days": [
+        123
+      ],
+      "name": "kAJcI 47 jagadguru zrI~candrazEkharEndra sarasvatI 3 ArAdhanA~\\#{854}"
+    },
+    "kAJcI 48 jagadguru zrI~advaitAnandabOdhEndra sarasvatI ArAdhanA~\\#{820}": {
+      "days": [
+        191
+      ],
+      "name": "kAJcI 48 jagadguru zrI~advaitAnandabOdhEndra sarasvatI ArAdhanA~\\#{820}"
+    },
+    "kAJcI 49 jagadguru zrI~mahAdEvEndra sarasvatI 3 ArAdhanA~\\#{773}": {
+      "days": [
+        323
+      ],
+      "name": "kAJcI 49 jagadguru zrI~mahAdEvEndra sarasvatI 3 ArAdhanA~\\#{773}"
+    },
+    "kAJcI 5 jagadguru zrI~jJAnAnandEndra sarasvatI ArAdhanA~\\#{2224}": {
+      "days": [
+        336
+      ],
+      "name": "kAJcI 5 jagadguru zrI~jJAnAnandEndra sarasvatI ArAdhanA~\\#{2224}"
+    },
+    "kAJcI 50 jagadguru zrI~candracUDEndra sarasvatI 2 ArAdhanA~\\#{723}": {
+      "days": [
+        158
+      ],
+      "name": "kAJcI 50 jagadguru zrI~candracUDEndra sarasvatI 2 ArAdhanA~\\#{723}"
+    },
+    "kAJcI 51 jagadguru zrI~vidyAtIrthEndra sarasvatI ArAdhanA~\\#{634}": {
+      "days": [
+        50
+      ],
+      "name": "kAJcI 51 jagadguru zrI~vidyAtIrthEndra sarasvatI ArAdhanA~\\#{634}"
+    },
+    "kAJcI 52 jagadguru zrI~zaGkarAnandEndra sarasvatI ArAdhanA~\\#{603}": {
+      "days": [
+        95
+      ],
+      "name": "kAJcI 52 jagadguru zrI~zaGkarAnandEndra sarasvatI ArAdhanA~\\#{603}"
+    },
+    "kAJcI 53 jagadguru zrI~pUrNAnanda sadAzivEndra sarasvatI ArAdhanA~\\#{522}": {
+      "days": [
+        162
+      ],
+      "name": "kAJcI 53 jagadguru zrI~pUrNAnanda sadAzivEndra sarasvatI ArAdhanA~\\#{522}"
+    },
+    "kAJcI 54 jagadguru zrI~vyAsAcala mahAdEvEndra sarasvatI ArAdhanA~\\#{513}": {
+      "days": [
+        197
+      ],
+      "name": "kAJcI 54 jagadguru zrI~vyAsAcala mahAdEvEndra sarasvatI ArAdhanA~\\#{513}"
+    },
+    "kAJcI 55 jagadguru zrI~candracUDEndra sarasvatI 3 ArAdhanA~\\#{495}": {
+      "days": [
+        16
+      ],
+      "name": "kAJcI 55 jagadguru zrI~candracUDEndra sarasvatI 3 ArAdhanA~\\#{495}"
+    },
+    "kAJcI 56 jagadguru zrI~sarvajJa sadAziva bOdhEndra sarasvatI ArAdhanA~\\#{481}": {
+      "days": [
+        116
+      ],
+      "name": "kAJcI 56 jagadguru zrI~sarvajJa sadAziva bOdhEndra sarasvatI ArAdhanA~\\#{481}"
+    },
+    "kAJcI 57 jagadguru zrI~paramazivEndra sarasvatI 2 ArAdhanA~\\#{434}": {
+      "days": [
+        221
+      ],
+      "name": "kAJcI 57 jagadguru zrI~paramazivEndra sarasvatI 2 ArAdhanA~\\#{434}"
+    },
+    "kAJcI 58 jagadguru zrI~AtmabOdhEndra sarasvatI ArAdhanA~\\#{382}": {
+      "days": [
+        323
+      ],
+      "name": "kAJcI 58 jagadguru zrI~AtmabOdhEndra sarasvatI ArAdhanA~\\#{382}"
+    },
+    "kAJcI 59 jagadguru zrI~bhagavannAma bOdhEndra sarasvatI ArAdhanA~\\#{328}": {
+      "days": [
+        256
+      ],
+      "name": "kAJcI 59 jagadguru zrI~bhagavannAma bOdhEndra sarasvatI ArAdhanA~\\#{328}"
+    },
+    "kAJcI 6 jagadguru zrI~zuddhAnandEndra sarasvatI ArAdhanA~\\#{2143}": {
+      "days": [
+        158
+      ],
+      "name": "kAJcI 6 jagadguru zrI~zuddhAnandEndra sarasvatI ArAdhanA~\\#{2143}"
+    },
+    "kAJcI 60 jagadguru zrI~advaitAtmaprakAzEndra sarasvatI ArAdhanA~\\#{316}": {
+      "days": [
+        110
+      ],
+      "name": "kAJcI 60 jagadguru zrI~advaitAtmaprakAzEndra sarasvatI ArAdhanA~\\#{316}"
+    },
+    "kAJcI 61 jagadguru zrI~mahAdEvEndra sarasvatI 4 ArAdhanA~\\#{274}": {
+      "days": [
+        161
+      ],
+      "name": "kAJcI 61 jagadguru zrI~mahAdEvEndra sarasvatI 4 ArAdhanA~\\#{274}"
+    },
+    "kAJcI 62 jagadguru zrI~candrazEkharEndra sarasvatI 4 ArAdhanA~\\#{236}": {
+      "days": [
+        22
+      ],
+      "name": "kAJcI 62 jagadguru zrI~candrazEkharEndra sarasvatI 4 ArAdhanA~\\#{236}"
+    },
+    "kAJcI 63 jagadguru zrI~mahAdEvEndra sarasvatI 5 ArAdhanA~\\#{206}": {
+      "days": [
+        193
+      ],
+      "name": "kAJcI 63 jagadguru zrI~mahAdEvEndra sarasvatI 5 ArAdhanA~\\#{206}"
+    },
+    "kAJcI 64 jagadguru zrI~candrazEkharEndra sarasvatI 5 ArAdhanA~\\#{169}": {
+      "days": [
+        316
+      ],
+      "name": "kAJcI 64 jagadguru zrI~candrazEkharEndra sarasvatI 5 ArAdhanA~\\#{169}"
+    },
+    "kAJcI 65 jagadguru zrI~sudarzana mahAdEvEndra sarasvatI ArAdhanA~\\#{129}": {
+      "days": [
+        94
+      ],
+      "name": "kAJcI 65 jagadguru zrI~sudarzana mahAdEvEndra sarasvatI ArAdhanA~\\#{129}"
+    },
+    "kAJcI 66 jagadguru zrI~candrazEkharEndra sarasvatI 6 ArAdhanA~\\#{112}": {
+      "days": [
+        57
+      ],
+      "name": "kAJcI 66 jagadguru zrI~candrazEkharEndra sarasvatI 6 ArAdhanA~\\#{112}"
+    },
+    "kAJcI 67 jagadguru zrI~mahAdEvEndra sarasvatI 5 ArAdhanA~\\#{112}": {
+      "days": [
+        65
+      ],
+      "name": "kAJcI 67 jagadguru zrI~mahAdEvEndra sarasvatI 5 ArAdhanA~\\#{112}"
+    },
+    "kAJcI 68 jagadguru zrI~candrazEkharEndra sarasvatI 7 ArAdhanA~\\#{25}": {
+      "days": [
+        1
+      ],
+      "name": "kAJcI 68 jagadguru zrI~candrazEkharEndra sarasvatI 7 ArAdhanA~\\#{25}"
+    },
+    "kAJcI 68 jagadguru zrI~candrazEkharEndra sarasvatI 7 ArAdhanA~\\#{26}": {
+      "days": [
+        356
+      ],
+      "name": "kAJcI 68 jagadguru zrI~candrazEkharEndra sarasvatI 7 ArAdhanA~\\#{26}"
+    },
+    "kAJcI 69 jagadguru zrI~jayEndra sarasvatI ArAdhanA~\\#{1}": {
+      "days": [
+        77
+      ],
+      "name": "kAJcI 69 jagadguru zrI~jayEndra sarasvatI ArAdhanA~\\#{1}"
+    },
+    "kAJcI 7 jagadguru zrI~AnandajJAnEndra sarasvatI ArAdhanA~\\#{2074}": {
+      "days": [
+        147
+      ],
+      "name": "kAJcI 7 jagadguru zrI~AnandajJAnEndra sarasvatI ArAdhanA~\\#{2074}"
+    },
+    "kAJcI 8 jagadguru zrI~kaivalyAnandayOgEndra sarasvatI ArAdhanA~\\#{1990}": {
+      "days": [
+        19
+      ],
+      "name": "kAJcI 8 jagadguru zrI~kaivalyAnandayOgEndra sarasvatI ArAdhanA~\\#{1990}"
+    },
+    "kAJcI 9 jagadguru zrI~kRpAzaGkarEndra sarasvatI ArAdhanA~\\#{1951}": {
+      "days": [
+        318
+      ],
+      "name": "kAJcI 9 jagadguru zrI~kRpAzaGkarEndra sarasvatI ArAdhanA~\\#{1951}"
+    },
+    "kAJcI jagadguru zrI~candrazEkharEndra sarasvatI 7 jayantI~\\#{126}": {
+      "days": [
+        139
+      ],
+      "name": "kAJcI jagadguru zrI~candrazEkharEndra sarasvatI 7 jayantI~\\#{126}"
+    },
+    "kAJcI jagadguru zrI~jayEndra sarasvatI Azrama-svIkAra-jayantI~\\#{66}": {
+      "days": [
+        82
+      ],
+      "name": "kAJcI jagadguru zrI~jayEndra sarasvatI Azrama-svIkAra-jayantI~\\#{66}"
+    },
+    "kAJcI jagadguru zrI~jayEndra sarasvatI jayantI~\\#{85}": {
+      "days": [
+        227
+      ],
+      "name": "kAJcI jagadguru zrI~jayEndra sarasvatI jayantI~\\#{85}"
+    },
+    "kAJcI jagadguru zrI~zaGkara vijayEndra sarasvatI Azrama-svIkAra-jayantI~\\#{37}": {
+      "days": [
+        141
+      ],
+      "name": "kAJcI jagadguru zrI~zaGkara vijayEndra sarasvatI Azrama-svIkAra-jayantI~\\#{37}"
+    },
+    "kAJcI jagadguru zrI~zaGkara vijayEndra sarasvatI jayantI~\\#{51}": {
+      "days": [
+        61
+      ],
+      "name": "kAJcI jagadguru zrI~zaGkara vijayEndra sarasvatI jayantI~\\#{51}"
+    },
+    "kAJcI kAmakOTi-maTha-pratiSThApana~jayantI~\\#{2501}": {
+      "days": [
+        138
+      ],
+      "name": "kAJcI kAmakOTi-maTha-pratiSThApana~jayantI~\\#{2501}"
+    },
+    "kAlASTamI": {
+      "days": [
+        294
+      ],
+      "name": "kAlASTamI"
+    },
+    "kAla-trirAtri-vratam": {
+      "days": [
+        278
+      ],
+      "name": "kAla-trirAtri-vratam"
+    },
+    "kAlabhairavASTamI": {
+      "days": [
+        323
+      ],
+      "name": "kAlabhairavASTamI"
+    },
+    "kAma-dahanam": {
+      "days": [
+        79
+      ],
+      "name": "kAma-dahanam"
+    },
+    "kArtavIryArjuna~jayantI": {
+      "days": [
+        308
+      ],
+      "name": "kArtavIryArjuna~jayantI"
+    },
+    "kArttika-amAvAsyA (alabhyam\u2013vizAkhA, puSkalA)": {
+      "days": [
+        329
+      ],
+      "name": "kArttika-amAvAsyA (alabhyam\u2013vizAkhA, puSkalA)"
+    },
+    "kArttika-mAsa-antimatrayatithi-vrata-ArambhaH": {
+      "days": [
+        313
+      ],
+      "name": "kArttika-mAsa-antimatrayatithi-vrata-ArambhaH"
+    },
+    "kArttika-mAsa-antimatrayatithi-vrata-samApanam": {
+      "days": [
+        315
+      ],
+      "name": "kArttika-mAsa-antimatrayatithi-vrata-samApanam"
+    },
+    "kArttika-pUrNimA-snAnam": {
+      "days": [
+        315
+      ],
+      "name": "kArttika-pUrNimA-snAnam"
+    },
+    "kArttika-snAnapUrtiH": {
+      "days": [
+        330
+      ],
+      "name": "kArttika-snAnapUrtiH"
+    },
+    "kAtyAyanI~jayantI": {
+      "days": [
+        270
+      ],
+      "name": "kAtyAyanI~jayantI"
+    },
+    "kEdAra-gaurI-vratam": {
+      "days": [
+        300
+      ],
+      "name": "kEdAra-gaurI-vratam"
+    },
+    "kO-jAgarti-vratam": {
+      "days": [
+        285
+      ],
+      "name": "kO-jAgarti-vratam"
+    },
+    "kOkila-vratam": {
+      "days": [
+        196
+      ],
+      "name": "kOkila-vratam"
+    },
+    "kRSNAGgAraka-caturdazI-puNyakAlaH/yamatarpaNam": {
+      "days": [
+        211,
+        358
+      ],
+      "name": "kRSNAGgAraka-caturdazI-puNyakAlaH/yamatarpaNam"
+    },
+    "kRtayugAdiH": {
+      "days": [
+        126
+      ],
+      "name": "kRtayugAdiH"
+    },
+    "kRttikA-maNDala-pArAyaNam": {
+      "days": [
+        320
+      ],
+      "name": "kRttikA-maNDala-pArAyaNam"
+    },
+    "kRttikA-vratam": {
+      "days": [
+        16,
+        43,
+        70,
+        98,
+        125,
+        152,
+        180,
+        207,
+        234,
+        262,
+        289,
+        316,
+        343
+      ],
+      "name": "kRttikA-vratam"
+    },
+    "kRttikA~sOmavAsaraH": {
+      "days": [
+        301,
+        308,
+        315,
+        322,
+        329
+      ],
+      "name": "kRttikA~sOmavAsaraH"
+    },
+    "kUSmANDa-dazamI": {
+      "days": [
+        280
+      ],
+      "name": "kUSmANDa-dazamI"
+    },
+    "kUrma-kalpAdiH": {
+      "days": [
+        99
+      ],
+      "name": "kUrma-kalpAdiH"
+    },
+    "kUrma~jayantI": {
+      "days": [
+        179
+      ],
+      "name": "kUrma~jayantI"
+    },
+    "kaMsa-vadhaH": {
+      "days": [
+        310
+      ],
+      "name": "kaMsa-vadhaH"
+    },
+    "kaTadAnOtsavaH": {
+      "days": [
+        252
+      ],
+      "name": "kaTadAnOtsavaH"
+    },
+    "kaTaka-saGkrAntiH": {
+      "days": [
+        197
+      ],
+      "name": "kaTaka-saGkrAntiH"
+    },
+    "kabIradAsa~jayantI": {
+      "days": [
+        167
+      ],
+      "name": "kabIradAsa~jayantI"
+    },
+    "kadalI-gaurI-vratam/pUjA": {
+      "days": [
+        157
+      ],
+      "name": "kadalI-gaurI-vratam/pUjA"
+    },
+    "kaizika-EkAdazI": {
+      "days": [
+        341
+      ],
+      "name": "kaizika-EkAdazI"
+    },
+    "kaizika-dvAdazI": {
+      "days": [
+        342
+      ],
+      "name": "kaizika-dvAdazI"
+    },
+    "kajarI~tRtIyA": {
+      "days": [
+        259
+      ],
+      "name": "kajarI~tRtIyA"
+    },
+    "kajjalI~tRtIyA": {
+      "days": [
+        230
+      ],
+      "name": "kajjalI~tRtIyA"
+    },
+    "kaliyugAdiH": {
+      "days": [
+        64
+      ],
+      "name": "kaliyugAdiH"
+    },
+    "kalki~jayantI": {
+      "days": [
+        217
+      ],
+      "name": "kalki~jayantI"
+    },
+    "kamalA~jayantI": {
+      "days": [
+        300
+      ],
+      "name": "kamalA~jayantI"
+    },
+    "kanaka-gaNEza-vratam": {
+      "days": [
+        289
+      ],
+      "name": "kanaka-gaNEza-vratam"
+    },
+    "kapila-SaSThI": {
+      "days": [
+        262
+      ],
+      "name": "kapila-SaSThI"
+    },
+    "karaka-caturthI": {
+      "days": [
+        289
+      ],
+      "name": "karaka-caturthI"
+    },
+    "karavIra-vratam": {
+      "days": [
+        154
+      ],
+      "name": "karavIra-vratam"
+    },
+    "kaumArI-pUjA": {
+      "days": [
+        220
+      ],
+      "name": "kaumArI-pUjA"
+    },
+    "kaumAra-pUjA": {
+      "days": [
+        236
+      ],
+      "name": "kaumAra-pUjA"
+    },
+    "kaumudI-utsavaH": {
+      "days": [
+        286
+      ],
+      "name": "kaumudI-utsavaH"
+    },
+    "kazyapa~maharSi~jayantI": {
+      "days": [
+        143
+      ],
+      "name": "kazyapa~maharSi~jayantI"
+    },
+    "khODiyAra~mAtA~jayantI": {
+      "days": [
+        43
+      ],
+      "name": "khODiyAra~mAtA~jayantI"
+    },
+    "kucEla-dinam": {
+      "days": [
+        352
+      ],
+      "name": "kucEla-dinam"
+    },
+    "kukkuTI-vratam": {
+      "days": [
+        248
+      ],
+      "name": "kukkuTI-vratam"
+    },
+    "kumAra-SaSThI-vratam": {
+      "days": [
+        188
+      ],
+      "name": "kumAra-SaSThI-vratam"
+    },
+    "kumAra-pUrNimA/mahA-azvinI": {
+      "days": [
+        286
+      ],
+      "name": "kumAra-pUrNimA/mahA-azvinI"
+    },
+    "kumArikA-svapanam": {
+      "days": [
+        247
+      ],
+      "name": "kumArikA-svapanam"
+    },
+    "kuntI~(pArvatI)-vratam": {
+      "days": [
+        286
+      ],
+      "name": "kuntI~(pArvatI)-vratam"
+    },
+    "lAvaNya-gaurI-vratam": {
+      "days": [
+        129
+      ],
+      "name": "lAvaNya-gaurI-vratam"
+    },
+    "lakSmI-indra-kubEra-pUjA": {
+      "days": [
+        286
+      ],
+      "name": "lakSmI-indra-kubEra-pUjA"
+    },
+    "lakSmI-paJcamI": {
+      "days": [
+        99
+      ],
+      "name": "lakSmI-paJcamI"
+    },
+    "lakSmI-varAha~jayantI": {
+      "days": [
+        113
+      ],
+      "name": "lakSmI-varAha~jayantI"
+    },
+    "lalitA-SaSThI": {
+      "days": [
+        247
+      ],
+      "name": "lalitA-SaSThI"
+    },
+    "lalitA-gaurI-vratam": {
+      "days": [
+        289
+      ],
+      "name": "lalitA-gaurI-vratam"
+    },
+    "lalitA-paJcamI": {
+      "days": [
+        275
+      ],
+      "name": "lalitA-paJcamI"
+    },
+    "lalitA~jayantI": {
+      "days": [
+        50
+      ],
+      "name": "lalitA~jayantI"
+    },
+    "mAghI~sarasvatI-pUjA": {
+      "days": [
+        40
+      ],
+      "name": "mAghI~sarasvatI-pUjA"
+    },
+    "mAgha-aSTakA-pUrvEdyuH": {
+      "days": [
+        56
+      ],
+      "name": "mAgha-aSTakA-pUrvEdyuH"
+    },
+    "mAgha-aSTakA-zrAddham": {
+      "days": [
+        57
+      ],
+      "name": "mAgha-aSTakA-zrAddham"
+    },
+    "mAgha-amAvAsyA (alabhyam\u2013zatabhiSak, puSkalA)": {
+      "days": [
+        64
+      ],
+      "name": "mAgha-amAvAsyA (alabhyam\u2013zatabhiSak, puSkalA)"
+    },
+    "mAgha-anvaSTakA-zrAddham": {
+      "days": [
+        58
+      ],
+      "name": "mAgha-anvaSTakA-zrAddham"
+    },
+    "mAgha-pUrNimA": {
+      "days": [
+        50
+      ],
+      "name": "mAgha-pUrNimA"
+    },
+    "mAgha-pUrNimA-snAnam": {
+      "days": [
+        50
+      ],
+      "name": "mAgha-pUrNimA-snAnam"
+    },
+    "mAgha-snAnapUrtiH": {
+      "days": [
+        64
+      ],
+      "name": "mAgha-snAnapUrtiH"
+    },
+    "mArgazIrSa-aSTakA-pUrvEdyuH": {
+      "days": [
+        351
+      ],
+      "name": "mArgazIrSa-aSTakA-pUrvEdyuH"
+    },
+    "mArgazIrSa-aSTakA-zrAddham": {
+      "days": [
+        352
+      ],
+      "name": "mArgazIrSa-aSTakA-zrAddham"
+    },
+    "mArgazIrSa-amAvAsyA": {
+      "days": [
+        5,
+        359
+      ],
+      "name": "mArgazIrSa-amAvAsyA"
+    },
+    "mArgazIrSa-anvaSTakA-zrAddham": {
+      "days": [
+        353
+      ],
+      "name": "mArgazIrSa-anvaSTakA-zrAddham"
+    },
+    "mArgazIrSa-pUrNimA": {
+      "days": [
+        345
+      ],
+      "name": "mArgazIrSa-pUrNimA"
+    },
+    "mArgazIrSa-zivaliGga-SaSThI": {
+      "days": [
+        335
+      ],
+      "name": "mArgazIrSa-zivaliGga-SaSThI"
+    },
+    "mArkaNDEya~jayantI": {
+      "days": [
+        39
+      ],
+      "name": "mArkaNDEya~jayantI"
+    },
+    "mAsazivarAtriH": {
+      "days": [
+        3,
+        33,
+        63,
+        92,
+        122,
+        152,
+        181,
+        210,
+        240,
+        269,
+        298,
+        328,
+        357
+      ],
+      "name": "mAsazivarAtriH"
+    },
+    "mESa-saGkrAntiH~(vikArI-saMvatsaraH)": {
+      "days": [
+        104
+      ],
+      "name": "mESa-saGkrAntiH~(vikArI-saMvatsaraH)"
+    },
+    "mEghapAlIya-tRtIyA": {
+      "days": [
+        273
+      ],
+      "name": "mEghapAlIya-tRtIyA"
+    },
+    "mIrAbAI~jayantI~\\#{522}": {
+      "days": [
+        286
+      ],
+      "name": "mIrAbAI~jayantI~\\#{522}"
+    },
+    "mRgazIrSa-vratam": {
+      "days": [
+        242
+      ],
+      "name": "mRgazIrSa-vratam"
+    },
+    "maGgala-vratam": {
+      "days": [
+        294
+      ],
+      "name": "maGgala-vratam"
+    },
+    "maNikarNikA-snAnam/vaikuNTha-caturdazI": {
+      "days": [
+        314
+      ],
+      "name": "maNikarNikA-snAnam/vaikuNTha-caturdazI"
+    },
+    "madana-caturdazI": {
+      "days": [
+        108
+      ],
+      "name": "madana-caturdazI"
+    },
+    "madana-trayOdazI": {
+      "days": [
+        107
+      ],
+      "name": "madana-trayOdazI"
+    },
+    "madhuzrAvaNi-vratam": {
+      "days": [
+        215
+      ],
+      "name": "madhuzrAvaNi-vratam"
+    },
+    "madhvAcArya~jayantI~\\#{782}": {
+      "days": [
+        280
+      ],
+      "name": "madhvAcArya~jayantI~\\#{782}"
+    },
+    "madhva-navamI": {
+      "days": [
+        44
+      ],
+      "name": "madhva-navamI"
+    },
+    "madhyASTamI": {
+      "days": [
+        265
+      ],
+      "name": "madhyASTamI"
+    },
+    "mahAbharaNI": {
+      "days": [
+        261
+      ],
+      "name": "mahAbharaNI"
+    },
+    "mahAdEvASTamI": {
+      "days": [
+        323
+      ],
+      "name": "mahAdEvASTamI"
+    },
+    "mahAkAlI~jayantI": {
+      "days": [
+        234
+      ],
+      "name": "mahAkAlI~jayantI"
+    },
+    "mahAlakSmI-vrata-ArambhaH": {
+      "days": [
+        250
+      ],
+      "name": "mahAlakSmI-vrata-ArambhaH"
+    },
+    "mahAlakSmI-vrata-samApanam": {
+      "days": [
+        264
+      ],
+      "name": "mahAlakSmI-vrata-samApanam"
+    },
+    "mahAlakSmI-vratam": {
+      "days": [
+        294
+      ],
+      "name": "mahAlakSmI-vratam"
+    },
+    "mahAlaya-pakSa-ArambhaH": {
+      "days": [
+        257
+      ],
+      "name": "mahAlaya-pakSa-ArambhaH"
+    },
+    "mahAlaya-pakSa-samApanam": {
+      "days": [
+        270
+      ],
+      "name": "mahAlaya-pakSa-samApanam"
+    },
+    "mahAnavamI/sarasvatI-pUjA": {
+      "days": [
+        279
+      ],
+      "name": "mahAnavamI/sarasvatI-pUjA"
+    },
+    "mahAtArA~jayantI": {
+      "days": [
+        103
+      ],
+      "name": "mahAtArA~jayantI"
+    },
+    "mahAzivarAtriH": {
+      "days": [
+        63
+      ],
+      "name": "mahAzivarAtriH"
+    },
+    "mahA~annAbhiSEkaH": {
+      "days": [
+        315
+      ],
+      "name": "mahA~annAbhiSEkaH"
+    },
+    "mahEza-navamI": {
+      "days": [
+        162
+      ],
+      "name": "mahEza-navamI"
+    },
+    "mahiSaghnI-pUjA": {
+      "days": [
+        190
+      ],
+      "name": "mahiSaghnI-pUjA"
+    },
+    "makara-jyOtiH": {
+      "days": [
+        14
+      ],
+      "name": "makara-jyOtiH"
+    },
+    "makara-saGkrAntiH": {
+      "days": [
+        14
+      ],
+      "name": "makara-saGkrAntiH"
+    },
+    "manOratha-dvitIyA": {
+      "days": [
+        214
+      ],
+      "name": "manOratha-dvitIyA"
+    },
+    "manthana-SaSThI": {
+      "days": [
+        247
+      ],
+      "name": "manthana-SaSThI"
+    },
+    "manvAdiH~(bhautyaH~[14])": {
+      "days": [
+        167
+      ],
+      "name": "manvAdiH~(bhautyaH~[14])"
+    },
+    "manvAdiH~(brahmaH~[10])": {
+      "days": [
+        196
+      ],
+      "name": "manvAdiH~(brahmaH~[10])"
+    },
+    "manvAdiH~(cAkSuSaH~[6])": {
+      "days": [
+        16
+      ],
+      "name": "manvAdiH~(cAkSuSaH~[6])"
+    },
+    "manvAdiH~(dakSaH~[9])": {
+      "days": [
+        235
+      ],
+      "name": "manvAdiH~(dakSaH~[9])"
+    },
+    "manvAdiH~(dharmaH~[11])": {
+      "days": [
+        315
+      ],
+      "name": "manvAdiH~(dharmaH~[11])"
+    },
+    "manvAdiH~(raivataH~[5])": {
+      "days": [
+        94
+      ],
+      "name": "manvAdiH~(raivataH~[5])"
+    },
+    "manvAdiH~(raucyaH~[13])": {
+      "days": [
+        108
+      ],
+      "name": "manvAdiH~(raucyaH~[13])"
+    },
+    "manvAdiH~(rudraH~[12])": {
+      "days": [
+        79
+      ],
+      "name": "manvAdiH~(rudraH~[12])"
+    },
+    "manvAdiH~(sAvarNiH~[8])": {
+      "days": [
+        42
+      ],
+      "name": "manvAdiH~(sAvarNiH~[8])"
+    },
+    "manvAdiH~(svArOciSaH~[2])": {
+      "days": [
+        312
+      ],
+      "name": "manvAdiH~(svArOciSaH~[2])"
+    },
+    "manvAdiH~(svAyambhuvaH~[1])": {
+      "days": [
+        279
+      ],
+      "name": "manvAdiH~(svAyambhuvaH~[1])"
+    },
+    "manvAdiH~(tAmasaH~[4])": {
+      "days": [
+        244
+      ],
+      "name": "manvAdiH~(tAmasaH~[4])"
+    },
+    "manvAdiH~(uttamaH~[3])": {
+      "days": [
+        97
+      ],
+      "name": "manvAdiH~(uttamaH~[3])"
+    },
+    "manvAdiH~(vaivasvataH~[7])": {
+      "days": [
+        191
+      ],
+      "name": "manvAdiH~(vaivasvataH~[7])"
+    },
+    "matsya~jayantI": {
+      "days": [
+        121
+      ],
+      "name": "matsya~jayantI"
+    },
+    "mauni (pauSa/makara) amAvAsyA": {
+      "days": [
+        34
+      ],
+      "name": "mauni (pauSa/makara) amAvAsyA"
+    },
+    "mitra-saptamI": {
+      "days": [
+        336
+      ],
+      "name": "mitra-saptamI"
+    },
+    "muttusvAmI~dIkSita~jayantI~\\#{245}": {
+      "days": [
+        98
+      ],
+      "name": "muttusvAmI~dIkSita~jayantI~\\#{245}"
+    },
+    "nAga-pUjA": {
+      "days": [
+        261
+      ],
+      "name": "nAga-pUjA"
+    },
+    "nAga-paJcamI": {
+      "days": [
+        216
+      ],
+      "name": "nAga-paJcamI"
+    },
+    "nArAyaNIyaM~jayantI~\\#{434}": {
+      "days": [
+        347
+      ],
+      "name": "nArAyaNIyaM~jayantI~\\#{434}"
+    },
+    "nArada~jayantI": {
+      "days": [
+        140
+      ],
+      "name": "nArada~jayantI"
+    },
+    "nArikEla-pUrNimA": {
+      "days": [
+        226
+      ],
+      "name": "nArikEla-pUrNimA"
+    },
+    "nRsiMha~jayantI": {
+      "days": [
+        136
+      ],
+      "name": "nRsiMha~jayantI"
+    },
+    "nandA-saptamI~1": {
+      "days": [
+        336
+      ],
+      "name": "nandA-saptamI~1"
+    },
+    "nandA-saptamI~2": {
+      "days": [
+        72
+      ],
+      "name": "nandA-saptamI~2"
+    },
+    "nandA~navamI": {
+      "days": [
+        250
+      ],
+      "name": "nandA~navamI"
+    },
+    "nandOtsavaH": {
+      "days": [
+        235
+      ],
+      "name": "nandOtsavaH"
+    },
+    "naraka-caturdazI": {
+      "days": [
+        299
+      ],
+      "name": "naraka-caturdazI"
+    },
+    "narasiMha-dvAdazI": {
+      "days": [
+        76
+      ],
+      "name": "narasiMha-dvAdazI"
+    },
+    "narmadA~jayantI": {
+      "days": [
+        42
+      ],
+      "name": "narmadA~jayantI"
+    },
+    "navama-aparapakSa-ArambhaH": {
+      "days": [
+        316
+      ],
+      "name": "navama-aparapakSa-ArambhaH"
+    },
+    "navama-aparapakSa-samApanam": {
+      "days": [
+        329
+      ],
+      "name": "navama-aparapakSa-samApanam"
+    },
+    "nerUr~zrI~sadAziva~brahmEndra~ArAdhanA~\\#{105}": {
+      "days": [
+        133
+      ],
+      "name": "nerUr~zrI~sadAziva~brahmEndra~ArAdhanA~\\#{105}"
+    },
+    "nikSubhArka-saptamI": {
+      "days": [
+        56
+      ],
+      "name": "nikSubhArka-saptamI"
+    },
+    "nimiSAmbA~jayantI": {
+      "days": [
+        133
+      ],
+      "name": "nimiSAmbA~jayantI"
+    },
+    "pANDava~(lAbha)-paJcamI": {
+      "days": [
+        304
+      ],
+      "name": "pANDava~(lAbha)-paJcamI"
+    },
+    "pApanAzanI~saptamI": {
+      "days": [
+        218
+      ],
+      "name": "pApanAzanI~saptamI"
+    },
+    "pArthiva-kalpAdiH": {
+      "days": [
+        126
+      ],
+      "name": "pArthiva-kalpAdiH"
+    },
+    "pArvatI~pavitrArOpaNam": {
+      "days": [
+        215
+      ],
+      "name": "pArvatI~pavitrArOpaNam"
+    },
+    "pUntAnaM~jayantI~\\#{472}": {
+      "days": [
+        69
+      ],
+      "name": "pUntAnaM~jayantI~\\#{472}"
+    },
+    "pUrNimA~vratam": {
+      "days": [
+        20,
+        50,
+        79,
+        108,
+        138,
+        167,
+        197,
+        226,
+        256,
+        286,
+        315,
+        345
+      ],
+      "name": "pUrNimA~vratam"
+    },
+    "paJcAGga-paThanam": {
+      "days": [
+        104
+      ],
+      "name": "paJcAGga-paThanam"
+    },
+    "pakSavardhinI~mahAdvAdazI": {
+      "days": [
+        61
+      ],
+      "name": "pakSavardhinI~mahAdvAdazI"
+    },
+    "parAzara~maharSi~jayantI": {
+      "days": [
+        125
+      ],
+      "name": "parAzara~maharSi~jayantI"
+    },
+    "parazurAma-dvAdazI": {
+      "days": [
+        135
+      ],
+      "name": "parazurAma-dvAdazI"
+    },
+    "parazurAma~jayantI": {
+      "days": [
+        127
+      ],
+      "name": "parazurAma~jayantI"
+    },
+    "pati-saJjIvanI-vratam": {
+      "days": [
+        212
+      ],
+      "name": "pati-saJjIvanI-vratam"
+    },
+    "patrikA-pravEza-pUjA": {
+      "days": [
+        277
+      ],
+      "name": "patrikA-pravEza-pUjA"
+    },
+    "pauSa-aSTakA-pUrvEdyuH": {
+      "days": [
+        26
+      ],
+      "name": "pauSa-aSTakA-pUrvEdyuH"
+    },
+    "pauSa-aSTakA-zrAddham": {
+      "days": [
+        27
+      ],
+      "name": "pauSa-aSTakA-zrAddham"
+    },
+    "pauSa-anvaSTakA-zrAddham": {
+      "days": [
+        28
+      ],
+      "name": "pauSa-anvaSTakA-zrAddham"
+    },
+    "pavitra-caturdazI": {
+      "days": [
+        196
+      ],
+      "name": "pavitra-caturdazI"
+    },
+    "payOvrata-ArambhaH": {
+      "days": [
+        66
+      ],
+      "name": "payOvrata-ArambhaH"
+    },
+    "payOvrata-samApanam": {
+      "days": [
+        76
+      ],
+      "name": "payOvrata-samApanam"
+    },
+    "phAlguna-aSTakA-pUrvEdyuH": {
+      "days": [
+        85
+      ],
+      "name": "phAlguna-aSTakA-pUrvEdyuH"
+    },
+    "phAlguna-aSTakA-zrAddham": {
+      "days": [
+        86
+      ],
+      "name": "phAlguna-aSTakA-zrAddham"
+    },
+    "phAlguna-amAvAsyA (alabhyam\u2013puSkalA)": {
+      "days": [
+        94
+      ],
+      "name": "phAlguna-amAvAsyA (alabhyam\u2013puSkalA)"
+    },
+    "phAlguna-anvaSTakA-zrAddham": {
+      "days": [
+        87
+      ],
+      "name": "phAlguna-anvaSTakA-zrAddham"
+    },
+    "phUlErA~dUj": {
+      "days": [
+        67
+      ],
+      "name": "phUlErA~dUj"
+    },
+    "prEta-caturdazI": {
+      "days": [
+        299
+      ],
+      "name": "prEta-caturdazI"
+    },
+    "prabOdhOtsavaH": {
+      "days": [
+        312
+      ],
+      "name": "prabOdhOtsavaH"
+    },
+    "pradOSa-vratam": {
+      "days": [
+        2,
+        18,
+        32,
+        62,
+        92,
+        106,
+        121,
+        135,
+        151,
+        165,
+        239,
+        253,
+        269,
+        283,
+        298
+      ],
+      "name": "pradOSa-vratam"
+    },
+    "pralaya-kalpAdiH": {
+      "days": [
+        338
+      ],
+      "name": "pralaya-kalpAdiH"
+    },
+    "punnAga-gaurI-vratam": {
+      "days": [
+        154
+      ],
+      "name": "punnAga-gaurI-vratam"
+    },
+    "purI gOvardhana-maTha-pratiSThApana~jayantI~\\#{2504}": {
+      "days": [
+        132
+      ],
+      "name": "purI gOvardhana-maTha-pratiSThApana~jayantI~\\#{2504}"
+    },
+    "purandaradAsa-ArAdhanA~\\#{455}": {
+      "days": [
+        64
+      ],
+      "name": "purandaradAsa-ArAdhanA~\\#{455}"
+    },
+    "rAdhASTamI": {
+      "days": [
+        249
+      ],
+      "name": "rAdhASTamI"
+    },
+    "rAja-mAtaGgI~jayantI": {
+      "days": [
+        127
+      ],
+      "name": "rAja-mAtaGgI~jayantI"
+    },
+    "rAmAnuja~jayantI~\\#{1003}": {
+      "days": [
+        130
+      ],
+      "name": "rAmAnuja~jayantI~\\#{1003}"
+    },
+    "rAmakRSNa-paramahaMsa~jayantI~\\#{184}": {
+      "days": [
+        67
+      ],
+      "name": "rAmakRSNa-paramahaMsa~jayantI~\\#{184}"
+    },
+    "rAmalakSmaNa-dvAdazI": {
+      "days": [
+        164
+      ],
+      "name": "rAmalakSmaNa-dvAdazI"
+    },
+    "rOhiNI~dvAdazI": {
+      "days": [
+        239
+      ],
+      "name": "rOhiNI~dvAdazI"
+    },
+    "raGga-paJcamI": {
+      "days": [
+        83
+      ],
+      "name": "raGga-paJcamI"
+    },
+    "raMgabharI EkAdazI": {
+      "days": [
+        76
+      ],
+      "name": "raMgabharI EkAdazI"
+    },
+    "rakSAbandhanam": {
+      "days": [
+        226
+      ],
+      "name": "rakSAbandhanam"
+    },
+    "rakSA~paJcamI": {
+      "days": [
+        232
+      ],
+      "name": "rakSA~paJcamI"
+    },
+    "ramaNa~maharSi~ArAdhanA~\\#{69}": {
+      "days": [
+        121
+      ],
+      "name": "ramaNa~maharSi~ArAdhanA~\\#{69}"
+    },
+    "rambhA~tRtIyA": {
+      "days": [
+        156
+      ],
+      "name": "rambhA~tRtIyA"
+    },
+    "ratha-saptamI": {
+      "days": [
+        42
+      ],
+      "name": "ratha-saptamI"
+    },
+    "ravipuSyayOga-puNyakAlaH": {
+      "days": [
+        20,
+        48,
+        76,
+        321,
+        349
+      ],
+      "name": "ravipuSyayOga-puNyakAlaH"
+    },
+    "rukmiNI-dvAdazI": {
+      "days": [
+        135
+      ],
+      "name": "rukmiNI-dvAdazI"
+    },
+    "sAmavEda-upAkarma": {
+      "days": [
+        244
+      ],
+      "name": "sAmavEda-upAkarma"
+    },
+    "sAmba-dazamI (sUryapUjA)": {
+      "days": [
+        45
+      ],
+      "name": "sAmba-dazamI (sUryapUjA)"
+    },
+    "sAvitrI-vratam": {
+      "days": [
+        142
+      ],
+      "name": "sAvitrI-vratam"
+    },
+    "sAvitrya-kalpAdiH": {
+      "days": [
+        306
+      ],
+      "name": "sAvitrya-kalpAdiH"
+    },
+    "sEGgAlipuram anantarAma-dIkSita-ArAdhanA~\\#{50}": {
+      "days": [
+        292
+      ],
+      "name": "sEGgAlipuram anantarAma-dIkSita-ArAdhanA~\\#{50}"
+    },
+    "sEGgAlipuram anantarAma-dIkSita-jayantI~\\#{117}": {
+      "days": [
+        221
+      ],
+      "name": "sEGgAlipuram anantarAma-dIkSita-jayantI~\\#{117}"
+    },
+    "sEGgAlipuram~muttaNNAvAL~ArAdhanA~\\#{126}": {
+      "days": [
+        31
+      ],
+      "name": "sEGgAlipuram~muttaNNAvAL~ArAdhanA~\\#{126}"
+    },
+    "sItAnavamI": {
+      "days": [
+        132
+      ],
+      "name": "sItAnavamI"
+    },
+    "sOma-pradOSa-vratam": {
+      "days": [
+        77,
+        210,
+        224,
+        343,
+        357
+      ],
+      "name": "sOma-pradOSa-vratam"
+    },
+    "sOmamRgazIrSa-puNyakAlaH": {
+      "days": [
+        154,
+        182
+      ],
+      "name": "sOmamRgazIrSa-puNyakAlaH"
+    },
+    "sOmavatI amAvAsyA": {
+      "days": [
+        35
+      ],
+      "name": "sOmavatI amAvAsyA"
+    },
+    "sOmazrAvaNI-puNyakAlaH": {
+      "days": [
+        7,
+        35,
+        280,
+        308
+      ],
+      "name": "sOmazrAvaNI-puNyakAlaH"
+    },
+    "sUpaudana-vratam": {
+      "days": [
+        217
+      ],
+      "name": "sUpaudana-vratam"
+    },
+    "sUradAsa~jayantI~\\#{542}": {
+      "days": [
+        129
+      ],
+      "name": "sUradAsa~jayantI~\\#{542}"
+    },
+    "sUrya-SaSThI": {
+      "days": [
+        247
+      ],
+      "name": "sUrya-SaSThI"
+    },
+    "saMskRta-divasaH": {
+      "days": [
+        226
+      ],
+      "name": "saMskRta-divasaH"
+    },
+    "sampat-gaurI-vratam": {
+      "days": [
+        138
+      ],
+      "name": "sampat-gaurI-vratam"
+    },
+    "samudra-manthanam": {
+      "days": [
+        105
+      ],
+      "name": "samudra-manthanam"
+    },
+    "saptama-aparapakSa-ArambhaH": {
+      "days": [
+        286
+      ],
+      "name": "saptama-aparapakSa-ArambhaH"
+    },
+    "saptama-aparapakSa-samApanam": {
+      "days": [
+        300
+      ],
+      "name": "saptama-aparapakSa-samApanam"
+    },
+    "saptarSi-pUjA/arghyam": {
+      "days": [
+        261
+      ],
+      "name": "saptarSi-pUjA/arghyam"
+    },
+    "sarasvatI-AvAhanam": {
+      "days": [
+        277
+      ],
+      "name": "sarasvatI-AvAhanam"
+    },
+    "sarpa-bali-utsarjanam": {
+      "days": [
+        345
+      ],
+      "name": "sarpa-bali-utsarjanam"
+    },
+    "sarpa-baliH": {
+      "days": [
+        226
+      ],
+      "name": "sarpa-baliH"
+    },
+    "sarpa-pUjA": {
+      "days": [
+        40
+      ],
+      "name": "sarpa-pUjA"
+    },
+    "sarpa-pUjA~1": {
+      "days": [
+        129
+      ],
+      "name": "sarpa-pUjA~1"
+    },
+    "sarpa-pUjA~2": {
+      "days": [
+        305
+      ],
+      "name": "sarpa-pUjA~2"
+    },
+    "sarva-SaTtilA-EkAdazI": {
+      "days": [
+        30
+      ],
+      "name": "sarva-SaTtilA-EkAdazI"
+    },
+    "sarva-ajA-EkAdazI": {
+      "days": [
+        238
+      ],
+      "name": "sarva-ajA-EkAdazI"
+    },
+    "sarva-aparA-EkAdazI": {
+      "days": [
+        149
+      ],
+      "name": "sarva-aparA-EkAdazI"
+    },
+    "sarva-indirA-EkAdazI": {
+      "days": [
+        267
+      ],
+      "name": "sarva-indirA-EkAdazI"
+    },
+    "sarva-jayA/bhaimI-EkAdazI": {
+      "days": [
+        46
+      ],
+      "name": "sarva-jayA/bhaimI-EkAdazI"
+    },
+    "sarva-kAmadA-EkAdazI": {
+      "days": [
+        105
+      ],
+      "name": "sarva-kAmadA-EkAdazI"
+    },
+    "sarva-mOhinI-EkAdazI": {
+      "days": [
+        134
+      ],
+      "name": "sarva-mOhinI-EkAdazI"
+    },
+    "sarva-mOkSadA-EkAdazI": {
+      "days": [
+        341
+      ],
+      "name": "sarva-mOkSadA-EkAdazI"
+    },
+    "sarva-pApamOcanI-EkAdazI": {
+      "days": [
+        90
+      ],
+      "name": "sarva-pApamOcanI-EkAdazI"
+    },
+    "sarva-parivartinI-EkAdazI": {
+      "days": [
+        252
+      ],
+      "name": "sarva-parivartinI-EkAdazI"
+    },
+    "sarva-pavitrOpAna-EkAdazI": {
+      "days": [
+        222
+      ],
+      "name": "sarva-pavitrOpAna-EkAdazI"
+    },
+    "sarva-saphalA-EkAdazI": {
+      "days": [
+        1,
+        355
+      ],
+      "name": "sarva-saphalA-EkAdazI"
+    },
+    "sarva-utpannA-EkAdazI": {
+      "days": [
+        326
+      ],
+      "name": "sarva-utpannA-EkAdazI"
+    },
+    "sarva-utthAna-EkAdazI": {
+      "days": [
+        311
+      ],
+      "name": "sarva-utthAna-EkAdazI"
+    },
+    "sarva-varUthinI-EkAdazI": {
+      "days": [
+        120
+      ],
+      "name": "sarva-varUthinI-EkAdazI"
+    },
+    "sarva-vijayA-EkAdazI": {
+      "days": [
+        60
+      ],
+      "name": "sarva-vijayA-EkAdazI"
+    },
+    "sarva-yOginI-EkAdazI": {
+      "days": [
+        179
+      ],
+      "name": "sarva-yOginI-EkAdazI"
+    },
+    "sarva-zayana-EkAdazI": {
+      "days": [
+        193
+      ],
+      "name": "sarva-zayana-EkAdazI"
+    },
+    "sarvanadI-rajasvalA~1": {
+      "days": [
+        197
+      ],
+      "name": "sarvanadI-rajasvalA~1"
+    },
+    "sarvanadI-rajasvalA~2": {
+      "days": [
+        198
+      ],
+      "name": "sarvanadI-rajasvalA~2"
+    },
+    "sarvanadI-rajasvalA~3": {
+      "days": [
+        199
+      ],
+      "name": "sarvanadI-rajasvalA~3"
+    },
+    "satI~anasUyA~jayantI": {
+      "days": [
+        142
+      ],
+      "name": "satI~anasUyA~jayantI"
+    },
+    "satyanArAyaNa~jayantI": {
+      "days": [
+        214
+      ],
+      "name": "satyanArAyaNa~jayantI"
+    },
+    "saubhAgya-sundarI-vratam": {
+      "days": [
+        318
+      ],
+      "name": "saubhAgya-sundarI-vratam"
+    },
+    "siMhAcalaM-candana-mahOtsavaH": {
+      "days": [
+        132
+      ],
+      "name": "siMhAcalaM-candana-mahOtsavaH"
+    },
+    "sindhu-Adi-puSkara-ArambhaH": {
+      "days": [
+        309
+      ],
+      "name": "sindhu-Adi-puSkara-ArambhaH"
+    },
+    "sindhu-Adi-puSkara-samApanam": {
+      "days": [
+        320
+      ],
+      "name": "sindhu-Adi-puSkara-samApanam"
+    },
+    "skanda-paJcamI": {
+      "days": [
+        187
+      ],
+      "name": "skanda-paJcamI"
+    },
+    "skandaSaSThI-vratam": {
+      "days": [
+        305
+      ],
+      "name": "skandaSaSThI-vratam"
+    },
+    "smArta-AmalakI-EkAdazI (gRhastha)": {
+      "days": [
+        75
+      ],
+      "name": "smArta-AmalakI-EkAdazI (gRhastha)"
+    },
+    "smArta-AmalakI-EkAdazI (sannyastha)": {
+      "days": [
+        76
+      ],
+      "name": "smArta-AmalakI-EkAdazI (sannyastha)"
+    },
+    "smArta-kAmikA-EkAdazI (gRhastha)": {
+      "days": [
+        208
+      ],
+      "name": "smArta-kAmikA-EkAdazI (gRhastha)"
+    },
+    "smArta-kAmikA-EkAdazI (sannyastha)": {
+      "days": [
+        209
+      ],
+      "name": "smArta-kAmikA-EkAdazI (sannyastha)"
+    },
+    "smArta-pANDava-nirjalA-EkAdazI": {
+      "days": [
+        163
+      ],
+      "name": "smArta-pANDava-nirjalA-EkAdazI"
+    },
+    "smArta-pApAGkuzA-EkAdazI": {
+      "days": [
+        281
+      ],
+      "name": "smArta-pApAGkuzA-EkAdazI"
+    },
+    "smArta-putradA-EkAdazI (gRhastha)": {
+      "days": [
+        16
+      ],
+      "name": "smArta-putradA-EkAdazI (gRhastha)"
+    },
+    "smArta-putradA-EkAdazI (sannyastha)": {
+      "days": [
+        17
+      ],
+      "name": "smArta-putradA-EkAdazI (sannyastha)"
+    },
+    "smArta-ramA-EkAdazI (gRhastha)": {
+      "days": [
+        296
+      ],
+      "name": "smArta-ramA-EkAdazI (gRhastha)"
+    },
+    "smArta-ramA-EkAdazI (sannyastha)": {
+      "days": [
+        297
+      ],
+      "name": "smArta-ramA-EkAdazI (sannyastha)"
+    },
+    "stanavRddhi-gaurI-vratam": {
+      "days": [
+        272
+      ],
+      "name": "stanavRddhi-gaurI-vratam"
+    },
+    "subrahmaNya-SaSThI-vratam": {
+      "days": [
+        335
+      ],
+      "name": "subrahmaNya-SaSThI-vratam"
+    },
+    "sudarzana~jayantI": {
+      "days": [
+        190
+      ],
+      "name": "sudarzana~jayantI"
+    },
+    "sujanmaprApti-vratam": {
+      "days": [
+        271
+      ],
+      "name": "sujanmaprApti-vratam"
+    },
+    "sukhA~aGgAraka-caturthI": {
+      "days": [
+        274
+      ],
+      "name": "sukhA~aGgAraka-caturthI"
+    },
+    "sumaGgalA~navamI": {
+      "days": [
+        265
+      ],
+      "name": "sumaGgalA~navamI"
+    },
+    "svarNa-gaurI-vratam": {
+      "days": [
+        215
+      ],
+      "name": "svarNa-gaurI-vratam"
+    },
+    "tAlanavamI": {
+      "days": [
+        250
+      ],
+      "name": "tAlanavamI"
+    },
+    "tAmraparNI-antya-puSkara-ArambhaH": {
+      "days": [
+        297
+      ],
+      "name": "tAmraparNI-antya-puSkara-ArambhaH"
+    },
+    "tAmraparNI-antya-puSkara-samApanam": {
+      "days": [
+        308
+      ],
+      "name": "tAmraparNI-antya-puSkara-samApanam"
+    },
+    "ta:ADik~kiruttikai": {
+      "days": [
+        208
+      ],
+      "name": "ta:ADik~kiruttikai"
+    },
+    "ta:ADip~perukku": {
+      "days": [
+        214
+      ],
+      "name": "ta:ADip~perukku"
+    },
+    "ta:ADi~veLLikkizhamai": {
+      "days": [
+        200,
+        207,
+        214,
+        221,
+        228
+      ],
+      "name": "ta:ADi~veLLikkizhamai"
+    },
+    "ta:An2Aya nAyan2Ar (13) gurupUjai": {
+      "days": [
+        326
+      ],
+      "name": "ta:An2Aya nAyan2Ar (13) gurupUjai"
+    },
+    "ta:AvaNi~JAyir2r2ukkizhamai": {
+      "days": [
+        230,
+        237,
+        244,
+        251,
+        258
+      ],
+      "name": "ta:AvaNi~JAyir2r2ukkizhamai"
+    },
+    "ta:Ayudha~pUjai": {
+      "days": [
+        280
+      ],
+      "name": "ta:Ayudha~pUjai"
+    },
+    "ta:En2AdinAtha nAyan2Ar (8) gurupUjai": {
+      "days": [
+        279
+      ],
+      "name": "ta:En2AdinAtha nAyan2Ar (8) gurupUjai"
+    },
+    "ta:EyarkOn2 kalikkAma nAyan2Ar (28) gurupUjai": {
+      "days": [
+        177
+      ],
+      "name": "ta:EyarkOn2 kalikkAma nAyan2Ar (28) gurupUjai"
+    },
+    "ta:ONam": {
+      "days": [
+        253
+      ],
+      "name": "ta:ONam"
+    },
+    "ta:aiyaDigaL kADavarkOn2 nAyan2Ar (45) gurupUjai": {
+      "days": [
+        304
+      ],
+      "name": "ta:aiyaDigaL kADavarkOn2 nAyan2Ar (45) gurupUjai"
+    },
+    "ta:amaranIti nAyan2Ar (6) gurupUjai": {
+      "days": [
+        187
+      ],
+      "name": "ta:amaranIti nAyan2Ar (6) gurupUjai"
+    },
+    "ta:appUdiyaDigaL nAyan2Ar (24) gurupUjai": {
+      "days": [
+        37
+      ],
+      "name": "ta:appUdiyaDigaL nAyan2Ar (24) gurupUjai"
+    },
+    "ta:arivATTAya nAyan2Ar (12) gurupUjai": {
+      "days": [
+        19
+      ],
+      "name": "ta:arivATTAya nAyan2Ar (12) gurupUjai"
+    },
+    "ta:atipatta nAyan2Ar (41) gurupUjai": {
+      "days": [
+        240
+      ],
+      "name": "ta:atipatta nAyan2Ar (41) gurupUjai"
+    },
+    "ta:bhOgi": {
+      "days": [
+        13
+      ],
+      "name": "ta:bhOgi"
+    },
+    "ta:bhUtattAzhvAr tirunakSattiram": {
+      "days": [
+        309
+      ],
+      "name": "ta:bhUtattAzhvAr tirunakSattiram"
+    },
+    "ta:bharaNI~dIpam": {
+      "days": [
+        343
+      ],
+      "name": "ta:bharaNI~dIpam"
+    },
+    "ta:cAkkiya nAyan2Ar (33) gurupUjai": {
+      "days": [
+        5,
+        360
+      ],
+      "name": "ta:cAkkiya nAyan2Ar (33) gurupUjai"
+    },
+    "ta:caNDEzvara nAyan2Ar (19) gurupUjai": {
+      "days": [
+        24
+      ],
+      "name": "ta:caNDEzvara nAyan2Ar (19) gurupUjai"
+    },
+    "ta:catti nAyan2Ar (44) gurupUjai": {
+      "days": [
+        297
+      ],
+      "name": "ta:catti nAyan2Ar (44) gurupUjai"
+    },
+    "ta:ceruttuNai nAyan2Ar (53) gurupUjai": {
+      "days": [
+        240
+      ],
+      "name": "ta:ceruttuNai nAyan2Ar (53) gurupUjai"
+    },
+    "ta:cir2appuli nAyan2Ar (34) gurupUjai": {
+      "days": [
+        333
+      ],
+      "name": "ta:cir2appuli nAyan2Ar (34) gurupUjai"
+    },
+    "ta:cir2uttoNDa nAyan2Ar (35) gurupUjai": {
+      "days": [
+        124
+      ],
+      "name": "ta:cir2uttoNDa nAyan2Ar (35) gurupUjai"
+    },
+    "ta:citrA~pUrNimA/citragupta~pUjai": {
+      "days": [
+        108
+      ],
+      "name": "ta:citrA~pUrNimA/citragupta~pUjai"
+    },
+    "ta:cundaramUrtti nAyan2Ar (63) gurupUjai": {
+      "days": [
+        218
+      ],
+      "name": "ta:cundaramUrtti nAyan2Ar (63) gurupUjai"
+    },
+    "ta:daNDiyaDigaL nAyan2Ar (30) gurupUjai": {
+      "days": [
+        92
+      ],
+      "name": "ta:daNDiyaDigaL nAyan2Ar (30) gurupUjai"
+    },
+    "ta:er2ipatta nAyan2Ar (7) gurupUjai": {
+      "days": [
+        53
+      ],
+      "name": "ta:er2ipatta nAyan2Ar (7) gurupUjai"
+    },
+    "ta:gaNanAtha nAyan2Ar (37) gurupUjai": {
+      "days": [
+        74,
+        101
+      ],
+      "name": "ta:gaNanAtha nAyan2Ar (37) gurupUjai"
+    },
+    "ta:iDaGkazhi nAyan2Ar (52) gurupUjai": {
+      "days": [
+        316
+      ],
+      "name": "ta:iDaGkazhi nAyan2Ar (52) gurupUjai"
+    },
+    "ta:iLaiyAn2kuDi mAr2a nAyan2Ar (3) gurupUjai": {
+      "days": [
+        241
+      ],
+      "name": "ta:iLaiyAn2kuDi mAr2a nAyan2Ar (3) gurupUjai"
+    },
+    "ta:icaiJAn2iyAr nAyan2Ar (62) gurupUjai": {
+      "days": [
+        108
+      ],
+      "name": "ta:icaiJAn2iyAr nAyan2Ar (62) gurupUjai"
+    },
+    "ta:iyar2pagai nAyan2Ar (2) gurupUjai": {
+      "days": [
+        352
+      ],
+      "name": "ta:iyar2pagai nAyan2Ar (2) gurupUjai"
+    },
+    "ta:jyESThAbhiSEkam": {
+      "days": [
+        167,
+        194
+      ],
+      "name": "ta:jyESThAbhiSEkam"
+    },
+    "ta:kAraDaiyAn2 nOn2bu": {
+      "days": [
+        73
+      ],
+      "name": "ta:kAraDaiyAn2 nOn2bu"
+    },
+    "ta:kAraikkAl ammaiyAr (23) gurupUjai": {
+      "days": [
+        82
+      ],
+      "name": "ta:kAraikkAl ammaiyAr (23) gurupUjai"
+    },
+    "ta:kAri nAyan2Ar (47) gurupUjai": {
+      "days": [
+        60
+      ],
+      "name": "ta:kAri nAyan2Ar (47) gurupUjai"
+    },
+    "ta:kArttigai": {
+      "days": [
+        343
+      ],
+      "name": "ta:kArttigai"
+    },
+    "ta:kArttigai~JAyir2r2ukkizhamai": {
+      "days": [
+        321,
+        328,
+        335,
+        342,
+        349
+      ],
+      "name": "ta:kArttigai~JAyir2r2ukkizhamai"
+    },
+    "ta:kOTpuli nAyan2Ar (55) gurupUjai": {
+      "days": [
+        222
+      ],
+      "name": "ta:kOTpuli nAyan2Ar (55) gurupUjai"
+    },
+    "ta:kUDAravallI": {
+      "days": [
+        11
+      ],
+      "name": "ta:kUDAravallI"
+    },
+    "ta:kUr2r2uva nAyan2Ar (38) gurupUjai": {
+      "days": [
+        210
+      ],
+      "name": "ta:kUr2r2uva nAyan2Ar (38) gurupUjai"
+    },
+    "ta:kaNNappa nAyan2Ar (9) gurupUjai": {
+      "days": [
+        18
+      ],
+      "name": "ta:kaNNappa nAyan2Ar (9) gurupUjai"
+    },
+    "ta:kaNampulla nAyan2Ar (46) gurupUjai": {
+      "days": [
+        344
+      ],
+      "name": "ta:kaNampulla nAyan2Ar (46) gurupUjai"
+    },
+    "ta:kalikkamba nAyan2Ar (42) gurupUjai": {
+      "days": [
+        40
+      ],
+      "name": "ta:kalikkamba nAyan2Ar (42) gurupUjai"
+    },
+    "ta:kaliya nAyan2Ar (43) gurupUjai": {
+      "days": [
+        222
+      ],
+      "name": "ta:kaliya nAyan2Ar (43) gurupUjai"
+    },
+    "ta:kan2up~poGgal": {
+      "days": [
+        15
+      ],
+      "name": "ta:kan2up~poGgal"
+    },
+    "ta:kapAlI adhikAra nandi": {
+      "days": [
+        71
+      ],
+      "name": "ta:kapAlI adhikAra nandi"
+    },
+    "ta:kapAlI ar2upattu mUvar": {
+      "days": [
+        76
+      ],
+      "name": "ta:kapAlI ar2upattu mUvar"
+    },
+    "ta:kapAlI bhUtaN bhUtakI": {
+      "days": [
+        71
+      ],
+      "name": "ta:kapAlI bhUtaN bhUtakI"
+    },
+    "ta:kapAlI cavuDal vimAn2am": {
+      "days": [
+        73
+      ],
+      "name": "ta:kapAlI cavuDal vimAn2am"
+    },
+    "ta:kapAlI dvajArOhaNam": {
+      "days": [
+        69
+      ],
+      "name": "ta:kapAlI dvajArOhaNam"
+    },
+    "ta:kapAlI pallakku vizhA": {
+      "days": [
+        74
+      ],
+      "name": "ta:kapAlI pallakku vizhA"
+    },
+    "ta:kapAlI riSabha vAhan2am": {
+      "days": [
+        73
+      ],
+      "name": "ta:kapAlI riSabha vAhan2am"
+    },
+    "ta:kapAlI sUrya~candra~vaTTam": {
+      "days": [
+        70
+      ],
+      "name": "ta:kapAlI sUrya~candra~vaTTam"
+    },
+    "ta:kapAlI tEr": {
+      "days": [
+        75
+      ],
+      "name": "ta:kapAlI tEr"
+    },
+    "ta:kapAlI teppOtsavam~1": {
+      "days": [
+        19
+      ],
+      "name": "ta:kapAlI teppOtsavam~1"
+    },
+    "ta:kapAlI teppOtsavam~2": {
+      "days": [
+        20
+      ],
+      "name": "ta:kapAlI teppOtsavam~2"
+    },
+    "ta:kapAlI teppOtsavam~3": {
+      "days": [
+        21
+      ],
+      "name": "ta:kapAlI teppOtsavam~3"
+    },
+    "ta:kapAlI umA-mahEzvara darican2am": {
+      "days": [
+        79
+      ],
+      "name": "ta:kapAlI umA-mahEzvara darican2am"
+    },
+    "ta:kapAlI viDaiyAr2r2i nir2aivu": {
+      "days": [
+        89
+      ],
+      "name": "ta:kapAlI viDaiyAr2r2i nir2aivu"
+    },
+    "ta:kapAlI viDaiyAr2r2i toDakkam": {
+      "days": [
+        79
+      ],
+      "name": "ta:kapAlI viDaiyAr2r2i toDakkam"
+    },
+    "ta:kar2avaigaL pin2cen2r2u": {
+      "days": [
+        12
+      ],
+      "name": "ta:kar2avaigaL pin2cen2r2u"
+    },
+    "ta:kar2pagAmbAL\u2013kapAlIzvarar tirukkalyANam": {
+      "days": [
+        78
+      ],
+      "name": "ta:kar2pagAmbAL\u2013kapAlIzvarar tirukkalyANam"
+    },
+    "ta:kazhar2ciGga nAyan2Ar (51) gurupUjai": {
+      "days": [
+        152
+      ],
+      "name": "ta:kazhar2ciGga nAyan2Ar (51) gurupUjai"
+    },
+    "ta:kazhar2ir2r2ar2ivAr/cEramAn2 perumAL nAyan2Ar (36) gurupUjai": {
+      "days": [
+        218
+      ],
+      "name": "ta:kazhar2ir2r2ar2ivAr/cEramAn2 perumAL nAyan2Ar (36) gurupUjai"
+    },
+    "ta:kocceGgaT cOzha nAyan2Ar (59) gurupUjai": {
+      "days": [
+        64
+      ],
+      "name": "ta:kocceGgaT cOzha nAyan2Ar (59) gurupUjai"
+    },
+    "ta:kuGgiliyakkalaya nAyan2Ar (10) gurupUjai": {
+      "days": [
+        250
+      ],
+      "name": "ta:kuGgiliyakkalaya nAyan2Ar (10) gurupUjai"
+    },
+    "ta:kulaccirai nAyan2Ar (21) gurupUjai": {
+      "days": [
+        248
+      ],
+      "name": "ta:kulaccirai nAyan2Ar (21) gurupUjai"
+    },
+    "ta:kulazEkhara AzhvAr tirunakSattiram": {
+      "days": [
+        47
+      ],
+      "name": "ta:kulazEkhara AzhvAr tirunakSattiram"
+    },
+    "ta:mANikkavAcakar gurupUjai": {
+      "days": [
+        187
+      ],
+      "name": "ta:mANikkavAcakar gurupUjai"
+    },
+    "ta:mAci~cevvAy": {
+      "days": [
+        50,
+        57,
+        64,
+        71
+      ],
+      "name": "ta:mAci~cevvAy"
+    },
+    "ta:mAci~magham": {
+      "days": [
+        50
+      ],
+      "name": "ta:mAci~magham"
+    },
+    "ta:mAn2akkaJcAr2a nAyan2Ar (11) gurupUjai": {
+      "days": [
+        355
+      ],
+      "name": "ta:mAn2akkaJcAr2a nAyan2Ar (11) gurupUjai"
+    },
+    "ta:mIn2AkSI tirukkalyANam": {
+      "days": [
+        106,
+        134
+      ],
+      "name": "ta:mIn2AkSI tirukkalyANam"
+    },
+    "ta:mUrkkha nAyan2Ar (31) gurupUjai": {
+      "days": [
+        332
+      ],
+      "name": "ta:mUrkkha nAyan2Ar (31) gurupUjai"
+    },
+    "ta:mUrtti nAyan2Ar (15) gurupUjai": {
+      "days": [
+        207
+      ],
+      "name": "ta:mUrtti nAyan2Ar (15) gurupUjai"
+    },
+    "ta:maGgaiyarkkaraciyAr nAyan2Ar (57) gurupUjai": {
+      "days": [
+        126
+      ],
+      "name": "ta:maGgaiyarkkaraciyAr nAyan2Ar (57) gurupUjai"
+    },
+    "ta:madhurai mIn2AkSI kOyilil kal yAn2aikku karumbu kODutta lIlai": {
+      "days": [
+        14
+      ],
+      "name": "ta:madhurai mIn2AkSI kOyilil kal yAn2aikku karumbu kODutta lIlai"
+    },
+    "ta:madhurakavi AzhvAr tirunakSattiram": {
+      "days": [
+        108
+      ],
+      "name": "ta:madhurakavi AzhvAr tirunakSattiram"
+    },
+    "ta:mayilai~veLLIzvarar~brahmOtsavam": {
+      "days": [
+        142
+      ],
+      "name": "ta:mayilai~veLLIzvarar~brahmOtsavam"
+    },
+    "ta:meypporuL nAyan2Ar (4) gurupUjai": {
+      "days": [
+        325
+      ],
+      "name": "ta:meypporuL nAyan2Ar (4) gurupUjai"
+    },
+    "ta:muDavan2 muzhukku": {
+      "days": [
+        321
+      ],
+      "name": "ta:muDavan2 muzhukku"
+    },
+    "ta:mun2aiyaDuvAr nAyan2Ar (50) gurupUjai": {
+      "days": [
+        76,
+        103
+      ],
+      "name": "ta:mun2aiyaDuvAr nAyan2Ar (50) gurupUjai"
+    },
+    "ta:muruga nAyan2Ar (15) gurupUjai": {
+      "days": [
+        141
+      ],
+      "name": "ta:muruga nAyan2Ar (15) gurupUjai"
+    },
+    "ta:nEca nAyan2Ar (58) gurupUjai": {
+      "days": [
+        99
+      ],
+      "name": "ta:nEca nAyan2Ar (58) gurupUjai"
+    },
+    "ta:naTarAjar An2i tirumaJcan2am": {
+      "days": [
+        188
+      ],
+      "name": "ta:naTarAjar An2i tirumaJcan2am"
+    },
+    "ta:naTarAjar cittirai ONam mahAbhiSEkam": {
+      "days": [
+        116
+      ],
+      "name": "ta:naTarAjar cittirai ONam mahAbhiSEkam"
+    },
+    "ta:naTarAjar mahAbhiSEkam~2": {
+      "days": [
+        254
+      ],
+      "name": "ta:naTarAjar mahAbhiSEkam~2"
+    },
+    "ta:naTarAjar mahAbhiSEkam~3": {
+      "days": [
+        284
+      ],
+      "name": "ta:naTarAjar mahAbhiSEkam~3"
+    },
+    "ta:naTarAjar mahAbhiSEkam~6": {
+      "days": [
+        48
+      ],
+      "name": "ta:naTarAjar mahAbhiSEkam~6"
+    },
+    "ta:naminandiyaDigaL nAyan2Ar (26) gurupUjai": {
+      "days": [
+        157
+      ],
+      "name": "ta:naminandiyaDigaL nAyan2Ar (26) gurupUjai"
+    },
+    "ta:nammAzhvAr tirunakSattiram": {
+      "days": [
+        138,
+        165
+      ],
+      "name": "ta:nammAzhvAr tirunakSattiram"
+    },
+    "ta:naraciGgamun2aiyaraiya nAyan2Ar (40) gurupUjai": {
+      "days": [
+        283
+      ],
+      "name": "ta:naraciGgamun2aiyaraiya nAyan2Ar (40) gurupUjai"
+    },
+    "ta:nin2r2acIr neDumAr2a nAyan2Ar (48) gurupUjai": {
+      "days": [
+        315
+      ],
+      "name": "ta:nin2r2acIr neDumAr2a nAyan2Ar (48) gurupUjai"
+    },
+    "ta:pEyAzhvAr tirunakSattiram": {
+      "days": [
+        310
+      ],
+      "name": "ta:pEyAzhvAr tirunakSattiram"
+    },
+    "ta:pUcalAr nAyan2Ar (56) gurupUjai": {
+      "days": [
+        302
+      ],
+      "name": "ta:pUcalAr nAyan2Ar (56) gurupUjai"
+    },
+    "ta:paGgun2i~uttiram": {
+      "days": [
+        79
+      ],
+      "name": "ta:paGgun2i~uttiram"
+    },
+    "ta:periyAzhvAr tirunakSattiram": {
+      "days": [
+        191
+      ],
+      "name": "ta:periyAzhvAr tirunakSattiram"
+    },
+    "ta:perumizhalaik kur2umba nAyan2Ar (22) gurupUjai": {
+      "days": [
+        218
+      ],
+      "name": "ta:perumizhalaik kur2umba nAyan2Ar (22) gurupUjai"
+    },
+    "ta:piTTukku maN cumanda lIlai": {
+      "days": [
+        250
+      ],
+      "name": "ta:piTTukku maN cumanda lIlai"
+    },
+    "ta:poygaiyAzhvAr tirunakSattiram": {
+      "days": [
+        308
+      ],
+      "name": "ta:poygaiyAzhvAr tirunakSattiram"
+    },
+    "ta:pugazhccOzha nAyan2Ar (39) gurupUjai": {
+      "days": [
+        207
+      ],
+      "name": "ta:pugazhccOzha nAyan2Ar (39) gurupUjai"
+    },
+    "ta:pugazhttuNai nAyan2Ar (54) gurupUjai": {
+      "days": [
+        186
+      ],
+      "name": "ta:pugazhttuNai nAyan2Ar (54) gurupUjai"
+    },
+    "ta:puraTTAci~can2ikkizhamai": {
+      "days": [
+        264,
+        271,
+        278,
+        285
+      ],
+      "name": "ta:puraTTAci~can2ikkizhamai"
+    },
+    "ta:rAmAnujar~tirunakSattiram~\\#{1003}": {
+      "days": [
+        128
+      ],
+      "name": "ta:rAmAnujar~tirunakSattiram~\\#{1003}"
+    },
+    "ta:rudra~pazupati nAyan2Ar (16) gurupUjai": {
+      "days": [
+        260,
+        287
+      ],
+      "name": "ta:rudra~pazupati nAyan2Ar (16) gurupUjai"
+    },
+    "ta:sOmAsimAra nAyan2Ar (32) gurupUjai": {
+      "days": [
+        158
+      ],
+      "name": "ta:sOmAsimAra nAyan2Ar (32) gurupUjai"
+    },
+    "ta:sarvAlaya~dIpam": {
+      "days": [
+        344
+      ],
+      "name": "ta:sarvAlaya~dIpam"
+    },
+    "ta:tai kiruttikai": {
+      "days": [
+        16
+      ],
+      "name": "ta:tai kiruttikai"
+    },
+    "ta:taippUcam": {
+      "days": [
+        20
+      ],
+      "name": "ta:taippUcam"
+    },
+    "ta:tai~veLLikkizhamai": {
+      "days": [
+        18,
+        25,
+        32,
+        39
+      ],
+      "name": "ta:tai~veLLikkizhamai"
+    },
+    "ta:tiruJAn2asambandhamUrtti nAyan2Ar (27) gurupUjai": {
+      "days": [
+        141
+      ],
+      "name": "ta:tiruJAn2asambandhamUrtti nAyan2Ar (27) gurupUjai"
+    },
+    "ta:tiruccendUr AvaNit tiruvizhA nir2aivu": {
+      "days": [
+        247
+      ],
+      "name": "ta:tiruccendUr AvaNit tiruvizhA nir2aivu"
+    },
+    "ta:tiruccendUr mAcit tiruvizhA nir2aivu": {
+      "days": [
+        50
+      ],
+      "name": "ta:tiruccendUr mAcit tiruvizhA nir2aivu"
+    },
+    "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##10##m nAL\u2014tEr": {
+      "days": [
+        245
+      ],
+      "name": "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##10##m nAL\u2014tEr"
+    },
+    "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##11##m nAL": {
+      "days": [
+        246
+      ],
+      "name": "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##11##m nAL"
+    },
+    "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##2##m nAL": {
+      "days": [
+        237
+      ],
+      "name": "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##2##m nAL"
+    },
+    "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##3##m nAL\u2014murugan2 bhavan2i": {
+      "days": [
+        238
+      ],
+      "name": "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##3##m nAL\u2014murugan2 bhavan2i"
+    },
+    "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##4##m nAL\u2014yAn2ai vAhanattil murugan2-ambAL bhavan2i": {
+      "days": [
+        239
+      ],
+      "name": "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##4##m nAL\u2014yAn2ai vAhanattil murugan2-ambAL bhavan2i"
+    },
+    "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##5##m nAL": {
+      "days": [
+        240
+      ],
+      "name": "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##5##m nAL"
+    },
+    "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##6##m nAL\u2014veLLit tEr bhavan2i": {
+      "days": [
+        241
+      ],
+      "name": "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##6##m nAL\u2014veLLit tEr bhavan2i"
+    },
+    "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##7##m nAL\u2014cigappu cAtti alaGkAram": {
+      "days": [
+        242
+      ],
+      "name": "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##7##m nAL\u2014cigappu cAtti alaGkAram"
+    },
+    "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##8##m nAL\u2014paccai cAtti alaGkAram": {
+      "days": [
+        243
+      ],
+      "name": "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##8##m nAL\u2014paccai cAtti alaGkAram"
+    },
+    "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##9##m nAL": {
+      "days": [
+        244
+      ],
+      "name": "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##9##m nAL"
+    },
+    "ta:tiruccendUr murugan2 AvaNit tiruvizhA toDakkam/koDiyEr2r2am": {
+      "days": [
+        236
+      ],
+      "name": "ta:tiruccendUr murugan2 AvaNit tiruvizhA toDakkam/koDiyEr2r2am"
+    },
+    "ta:tiruccendUr murugan2 mAcit tiruvizhA ##10##m nAL\u2014tEr": {
+      "days": [
+        48
+      ],
+      "name": "ta:tiruccendUr murugan2 mAcit tiruvizhA ##10##m nAL\u2014tEr"
+    },
+    "ta:tiruccendUr murugan2 mAcit tiruvizhA ##2##m nAL": {
+      "days": [
+        40
+      ],
+      "name": "ta:tiruccendUr murugan2 mAcit tiruvizhA ##2##m nAL"
+    },
+    "ta:tiruccendUr murugan2 mAcit tiruvizhA ##3##m nAL\u2014murugan2 bhavan2i": {
+      "days": [
+        41
+      ],
+      "name": "ta:tiruccendUr murugan2 mAcit tiruvizhA ##3##m nAL\u2014murugan2 bhavan2i"
+    },
+    "ta:tiruccendUr murugan2 mAcit tiruvizhA ##4##m nAL": {
+      "days": [
+        42
+      ],
+      "name": "ta:tiruccendUr murugan2 mAcit tiruvizhA ##4##m nAL"
+    },
+    "ta:tiruccendUr murugan2 mAcit tiruvizhA ##5##m nAL": {
+      "days": [
+        43
+      ],
+      "name": "ta:tiruccendUr murugan2 mAcit tiruvizhA ##5##m nAL"
+    },
+    "ta:tiruccendUr murugan2 mAcit tiruvizhA ##6##m nAL\u2014veLLit tEr bhavan2i": {
+      "days": [
+        44
+      ],
+      "name": "ta:tiruccendUr murugan2 mAcit tiruvizhA ##6##m nAL\u2014veLLit tEr bhavan2i"
+    },
+    "ta:tiruccendUr murugan2 mAcit tiruvizhA ##7##m nAL\u2014urugu cattac cEvai/cigappu cAtti alaGkAram": {
+      "days": [
+        45
+      ],
+      "name": "ta:tiruccendUr murugan2 mAcit tiruvizhA ##7##m nAL\u2014urugu cattac cEvai/cigappu cAtti alaGkAram"
+    },
+    "ta:tiruccendUr murugan2 mAcit tiruvizhA ##8##m nAL\u2014paccai cAtti alaGkAram": {
+      "days": [
+        46
+      ],
+      "name": "ta:tiruccendUr murugan2 mAcit tiruvizhA ##8##m nAL\u2014paccai cAtti alaGkAram"
+    },
+    "ta:tiruccendUr murugan2 mAcit tiruvizhA ##9##m nAL\u2014taGga kailAca vAhan2am": {
+      "days": [
+        47
+      ],
+      "name": "ta:tiruccendUr murugan2 mAcit tiruvizhA ##9##m nAL\u2014taGga kailAca vAhan2am"
+    },
+    "ta:tiruccendUr murugan2 mAcit tiruvizhA toDakkam": {
+      "days": [
+        39
+      ],
+      "name": "ta:tiruccendUr murugan2 mAcit tiruvizhA toDakkam"
+    },
+    "ta:tiruccendUr murugan2 teppam": {
+      "days": [
+        49
+      ],
+      "name": "ta:tiruccendUr murugan2 teppam"
+    },
+    "ta:tirukkur2ipput toNDa nAyan2Ar (18) gurupUjai": {
+      "days": [
+        109
+      ],
+      "name": "ta:tirukkur2ipput toNDa nAyan2Ar (18) gurupUjai"
+    },
+    "ta:tirumUla nAyan2Ar (29) gurupUjai": {
+      "days": [
+        314
+      ],
+      "name": "ta:tirumUla nAyan2Ar (29) gurupUjai"
+    },
+    "ta:tirumaGgaiyAzhvAr tirunakSattiram": {
+      "days": [
+        344
+      ],
+      "name": "ta:tirumaGgaiyAzhvAr tirunakSattiram"
+    },
+    "ta:tirumazhicaiyAzhvAr tirunakSattiram": {
+      "days": [
+        22
+      ],
+      "name": "ta:tirumazhicaiyAzhvAr tirunakSattiram"
+    },
+    "ta:tirunALaippOvAr nAyan2Ar (17) gurupUjai": {
+      "days": [
+        263
+      ],
+      "name": "ta:tirunALaippOvAr nAyan2Ar (17) gurupUjai"
+    },
+    "ta:tirunAvukkaracha nAyan2Ar (20) gurupUjai": {
+      "days": [
+        119
+      ],
+      "name": "ta:tirunAvukkaracha nAyan2Ar (20) gurupUjai"
+    },
+    "ta:tirunIlakaNTha nAyan2Ar (1) gurupUjai": {
+      "days": [
+        28
+      ],
+      "name": "ta:tirunIlakaNTha nAyan2Ar (1) gurupUjai"
+    },
+    "ta:tirunIlakaNTha yAzhppANa nAyan2Ar (60) gurupUjai": {
+      "days": [
+        141
+      ],
+      "name": "ta:tirunIlakaNTha yAzhppANa nAyan2Ar (60) gurupUjai"
+    },
+    "ta:tirunIlanakka nAyan2Ar (25) gurupUjai": {
+      "days": [
+        141
+      ],
+      "name": "ta:tirunIlanakka nAyan2Ar (25) gurupUjai"
+    },
+    "ta:tirunelvEli nellaiyappar nellukku vEli kaTTiya lIlai": {
+      "days": [
+        14,
+        41
+      ],
+      "name": "ta:tirunelvEli nellaiyappar nellukku vEli kaTTiya lIlai"
+    },
+    "ta:tirunelvEli nellaiyappar patra dIpa tiruvizhA": {
+      "days": [
+        35
+      ],
+      "name": "ta:tirunelvEli nellaiyappar patra dIpa tiruvizhA"
+    },
+    "ta:tiruppANAzhvAr tirunakSattiram": {
+      "days": [
+        208
+      ],
+      "name": "ta:tiruppANAzhvAr tirunakSattiram"
+    },
+    "ta:tiruvADippUram": {
+      "days": [
+        215
+      ],
+      "name": "ta:tiruvADippUram"
+    },
+    "ta:tiruvaNNAmalai~dIpam": {
+      "days": [
+        343
+      ],
+      "name": "ta:tiruvaNNAmalai~dIpam"
+    },
+    "ta:toNDaraDippoDiyAzhvAr tirunakSattiram": {
+      "days": [
+        3,
+        358
+      ],
+      "name": "ta:toNDaraDippoDiyAzhvAr tirunakSattiram"
+    },
+    "ta:undu~madakkaLir2r2an2{}": {
+      "days": [
+        2
+      ],
+      "name": "ta:undu~madakkaLir2r2an2{}"
+    },
+    "ta:vAyilAr nAyan2Ar (49) gurupUjai": {
+      "days": [
+        13
+      ],
+      "name": "ta:vAyilAr nAyan2Ar (49) gurupUjai"
+    },
+    "ta:vaikAci~vizAkham": {
+      "days": [
+        138,
+        165
+      ],
+      "name": "ta:vaikAci~vizAkham"
+    },
+    "ta:varagUr ur2iyaDi utsavam": {
+      "days": [
+        235
+      ],
+      "name": "ta:varagUr ur2iyaDi utsavam"
+    },
+    "ta:viSukkan2i": {
+      "days": [
+        104
+      ],
+      "name": "ta:viSukkan2i"
+    },
+    "ta:vir2an2miNDa nAyan2Ar (5) gurupUjai": {
+      "days": [
+        128
+      ],
+      "name": "ta:vir2an2miNDa nAyan2Ar (5) gurupUjai"
+    },
+    "ta:zrI~jayantI": {
+      "days": [
+        235
+      ],
+      "name": "ta:zrI~jayantI"
+    },
+    "tilapadma-dvAdazI/tilOtpatti": {
+      "days": [
+        47
+      ],
+      "name": "tilapadma-dvAdazI/tilOtpatti"
+    },
+    "tindukASTamI": {
+      "days": [
+        176
+      ],
+      "name": "tindukASTamI"
+    },
+    "tintriNI-gaurI-vratam": {
+      "days": [
+        331
+      ],
+      "name": "tintriNI-gaurI-vratam"
+    },
+    "tiruvizalUr gaGgAkarSaNa-mahOtsava-ArambhaH": {
+      "days": [
+        320
+      ],
+      "name": "tiruvizalUr gaGgAkarSaNa-mahOtsava-ArambhaH"
+    },
+    "tiruvizalUr gaGgAkarSaNa-mahOtsava-samApanam": {
+      "days": [
+        329
+      ],
+      "name": "tiruvizalUr gaGgAkarSaNa-mahOtsava-samApanam"
+    },
+    "trEtAyugAdiH": {
+      "days": [
+        309
+      ],
+      "name": "trEtAyugAdiH"
+    },
+    "trailOkya-gaurI-vratam": {
+      "days": [
+        29
+      ],
+      "name": "trailOkya-gaurI-vratam"
+    },
+    "trailaGga-svAmI~jayantI": {
+      "days": [
+        17
+      ],
+      "name": "trailaGga-svAmI~jayantI"
+    },
+    "trilOcanASTamI": {
+      "days": [
+        176
+      ],
+      "name": "trilOcanASTamI"
+    },
+    "tripurOtsavaH": {
+      "days": [
+        315
+      ],
+      "name": "tripurOtsavaH"
+    },
+    "tripura~bhairavI~jayantI": {
+      "days": [
+        345
+      ],
+      "name": "tripura~bhairavI~jayantI"
+    },
+    "trisparzA~mahAdvAdazI": {
+      "days": [
+        17,
+        76,
+        209,
+        297
+      ],
+      "name": "trisparzA~mahAdvAdazI"
+    },
+    "tuSTi-prApti-tRtIyA": {
+      "days": [
+        230
+      ],
+      "name": "tuSTi-prApti-tRtIyA"
+    },
+    "tulA-kAvErI-snAna-ArambhaH": {
+      "days": [
+        290
+      ],
+      "name": "tulA-kAvErI-snAna-ArambhaH"
+    },
+    "tulA-kAvErI-snAna-samApanam": {
+      "days": [
+        319
+      ],
+      "name": "tulA-kAvErI-snAna-samApanam"
+    },
+    "tulA-puNyakAlaH": {
+      "days": [
+        290
+      ],
+      "name": "tulA-puNyakAlaH"
+    },
+    "tulasI-jananaM~kSIrasAgarataH": {
+      "days": [
+        106
+      ],
+      "name": "tulasI-jananaM~kSIrasAgarataH"
+    },
+    "tulasI-vivAhaH": {
+      "days": [
+        312
+      ],
+      "name": "tulasI-vivAhaH"
+    },
+    "tulasIdAsa~jayantI": {
+      "days": [
+        218
+      ],
+      "name": "tulasIdAsa~jayantI"
+    },
+    "tyAgarAja-ArAdhanA~\\#{172}": {
+      "days": [
+        24
+      ],
+      "name": "tyAgarAja-ArAdhanA~\\#{172}"
+    },
+    "tyAgarAja~jayantI~\\#{253}": {
+      "days": [
+        131
+      ],
+      "name": "tyAgarAja~jayantI~\\#{253}"
+    },
+    "umA-avatAraH": {
+      "days": [
+        157
+      ],
+      "name": "umA-avatAraH"
+    },
+    "umA-mahEzvara-vratam": {
+      "days": [
+        256
+      ],
+      "name": "umA-mahEzvara-vratam"
+    },
+    "upAGga-lalitA-gaurI-vratam": {
+      "days": [
+        256
+      ],
+      "name": "upAGga-lalitA-gaurI-vratam"
+    },
+    "upAGga-lalitA-vratam": {
+      "days": [
+        275
+      ],
+      "name": "upAGga-lalitA-vratam"
+    },
+    "upEndra-navamI": {
+      "days": [
+        191
+      ],
+      "name": "upEndra-navamI"
+    },
+    "vAlmIki~maharSi~jayantI": {
+      "days": [
+        286
+      ],
+      "name": "vAlmIki~maharSi~jayantI"
+    },
+    "vAmana~jayantI": {
+      "days": [
+        252
+      ],
+      "name": "vAmana~jayantI"
+    },
+    "vArAhI-navarAtra-ArambhaH": {
+      "days": [
+        184
+      ],
+      "name": "vArAhI-navarAtra-ArambhaH"
+    },
+    "vArAhI-navarAtra-samApanam": {
+      "days": [
+        191
+      ],
+      "name": "vArAhI-navarAtra-samApanam"
+    },
+    "vArtA-gaurI-vratam": {
+      "days": [
+        128
+      ],
+      "name": "vArtA-gaurI-vratam"
+    },
+    "vAruNI~trayOdazI": {
+      "days": [
+        92
+      ],
+      "name": "vAruNI~trayOdazI"
+    },
+    "vAsudEva-dvAdazI": {
+      "days": [
+        194
+      ],
+      "name": "vAsudEva-dvAdazI"
+    },
+    "vEGkaTAcalE jyESTha-abhidyEyakAbhiSEkaH (mutyala-kavacam)": {
+      "days": [
+        166
+      ],
+      "name": "vEGkaTAcalE jyESTha-abhidyEyakAbhiSEkaH (mutyala-kavacam)"
+    },
+    "vEGkaTAcalE jyESTha-abhidyEyakAbhiSEkaH (svarNa-kavacam)": {
+      "days": [
+        167
+      ],
+      "name": "vEGkaTAcalE jyESTha-abhidyEyakAbhiSEkaH (svarNa-kavacam)"
+    },
+    "vEGkaTAcalE jyESTha-abhidyEyakAbhiSEkaH (vajra-kavacam)": {
+      "days": [
+        165
+      ],
+      "name": "vEGkaTAcalE jyESTha-abhidyEyakAbhiSEkaH (vajra-kavacam)"
+    },
+    "vEGkaTAcalE pUrNimA~garuDa-sEvA": {
+      "days": [
+        20,
+        49,
+        78,
+        108,
+        137,
+        167,
+        196,
+        226,
+        256,
+        285,
+        315,
+        345
+      ],
+      "name": "vEGkaTAcalE pUrNimA~garuDa-sEvA"
+    },
+    "vEGkaTAcalE padmAvatI-pariNayOtsava-ArambhaH (gaja-vAhanam)": {
+      "days": [
+        132
+      ],
+      "name": "vEGkaTAcalE padmAvatI-pariNayOtsava-ArambhaH (gaja-vAhanam)"
+    },
+    "vEGkaTAcalE padmAvatI-pariNayOtsava-samApanam (garuDa-vAhanam)": {
+      "days": [
+        134
+      ],
+      "name": "vEGkaTAcalE padmAvatI-pariNayOtsava-samApanam (garuDa-vAhanam)"
+    },
+    "vEGkaTAcalE padmAvatI-pariNayam (azva-vAhanam)": {
+      "days": [
+        133
+      ],
+      "name": "vEGkaTAcalE padmAvatI-pariNayam (azva-vAhanam)"
+    },
+    "vEGkaTAcalE plavOtsava-ArambhaH": {
+      "days": [
+        74
+      ],
+      "name": "vEGkaTAcalE plavOtsava-ArambhaH"
+    },
+    "vEGkaTAcalE plavOtsava-samApanam": {
+      "days": [
+        78
+      ],
+      "name": "vEGkaTAcalE plavOtsava-samApanam"
+    },
+    "vEGkaTAcalE plavOtsavaH~2": {
+      "days": [
+        75
+      ],
+      "name": "vEGkaTAcalE plavOtsavaH~2"
+    },
+    "vEGkaTAcalE plavOtsavaH~3": {
+      "days": [
+        76
+      ],
+      "name": "vEGkaTAcalE plavOtsavaH~3"
+    },
+    "vEGkaTAcalE plavOtsavaH~4": {
+      "days": [
+        77
+      ],
+      "name": "vEGkaTAcalE plavOtsavaH~4"
+    },
+    "vEGkaTAcalE vasantOtsava-ArambhaH": {
+      "days": [
+        106
+      ],
+      "name": "vEGkaTAcalE vasantOtsava-ArambhaH"
+    },
+    "vEGkaTAcalE vasantOtsava-samApanam": {
+      "days": [
+        108
+      ],
+      "name": "vEGkaTAcalE vasantOtsava-samApanam"
+    },
+    "vEGkaTAcalE vasantOtsavaH": {
+      "days": [
+        107
+      ],
+      "name": "vEGkaTAcalE vasantOtsavaH"
+    },
+    "vEda/dadhi-vrata-ArambhaH": {
+      "days": [
+        221
+      ],
+      "name": "vEda/dadhi-vrata-ArambhaH"
+    },
+    "vRSabha-pUjA": {
+      "days": [
+        241
+      ],
+      "name": "vRSabha-pUjA"
+    },
+    "vaTa-pUrNimA/vaTa-sAvitrI-vratam": {
+      "days": [
+        167
+      ],
+      "name": "vaTa-pUrNimA/vaTa-sAvitrI-vratam"
+    },
+    "vahni-vratam": {
+      "days": [
+        124
+      ],
+      "name": "vahni-vratam"
+    },
+    "vaiSNava-AmalakI-EkAdazI": {
+      "days": [
+        76
+      ],
+      "name": "vaiSNava-AmalakI-EkAdazI"
+    },
+    "vaiSNava-kAmikA-EkAdazI": {
+      "days": [
+        209
+      ],
+      "name": "vaiSNava-kAmikA-EkAdazI"
+    },
+    "vaiSNava-pANDava-nirjalA-EkAdazI": {
+      "days": [
+        164
+      ],
+      "name": "vaiSNava-pANDava-nirjalA-EkAdazI"
+    },
+    "vaiSNava-pApAGkuzA-EkAdazI": {
+      "days": [
+        282
+      ],
+      "name": "vaiSNava-pApAGkuzA-EkAdazI"
+    },
+    "vaiSNava-putradA-EkAdazI": {
+      "days": [
+        17
+      ],
+      "name": "vaiSNava-putradA-EkAdazI"
+    },
+    "vaiSNava-ramA-EkAdazI": {
+      "days": [
+        297
+      ],
+      "name": "vaiSNava-ramA-EkAdazI"
+    },
+    "vaidhRti-zrAddham": {
+      "days": [
+        95
+      ],
+      "name": "vaidhRti-zrAddham"
+    },
+    "vaikhAnasa~maharSi~jayantI": {
+      "days": [
+        226
+      ],
+      "name": "vaikhAnasa~maharSi~jayantI"
+    },
+    "vaivasvata-saptamI": {
+      "days": [
+        189
+      ],
+      "name": "vaivasvata-saptamI"
+    },
+    "vaizAkha-amAvAsyA": {
+      "days": [
+        153
+      ],
+      "name": "vaizAkha-amAvAsyA"
+    },
+    "vaizAkha-mAsa-ArambhaH": {
+      "days": [
+        125
+      ],
+      "name": "vaizAkha-mAsa-ArambhaH"
+    },
+    "vaizAkha-mAsa-samApanam": {
+      "days": [
+        153
+      ],
+      "name": "vaizAkha-mAsa-samApanam"
+    },
+    "vaizAkha-pUrNimA-snAnam": {
+      "days": [
+        138
+      ],
+      "name": "vaizAkha-pUrNimA-snAnam"
+    },
+    "vaizAkha-snAnapUrtiH": {
+      "days": [
+        153
+      ],
+      "name": "vaizAkha-snAnapUrtiH"
+    },
+    "vallabhAcArya~jayantI~\\#{541}": {
+      "days": [
+        120
+      ],
+      "name": "vallabhAcArya~jayantI~\\#{541}"
+    },
+    "vanadurgAnavarAtra-ArambhaH": {
+      "days": [
+        330
+      ],
+      "name": "vanadurgAnavarAtra-ArambhaH"
+    },
+    "vanadurgAnavarAtra-samApanam": {
+      "days": [
+        339
+      ],
+      "name": "vanadurgAnavarAtra-samApanam"
+    },
+    "varAha-dvAdazI": {
+      "days": [
+        47
+      ],
+      "name": "varAha-dvAdazI"
+    },
+    "varAha-kalpAdiH": {
+      "days": [
+        48
+      ],
+      "name": "varAha-kalpAdiH"
+    },
+    "varAha~jayantI": {
+      "days": [
+        244
+      ],
+      "name": "varAha~jayantI"
+    },
+    "varakunda-caturthI": {
+      "days": [
+        39
+      ],
+      "name": "varakunda-caturthI"
+    },
+    "varalakSmI-vratam": {
+      "days": [
+        221
+      ],
+      "name": "varalakSmI-vratam"
+    },
+    "varuNa-pUjA": {
+      "days": [
+        160
+      ],
+      "name": "varuNa-pUjA"
+    },
+    "vasanta-zrI-paJcamI": {
+      "days": [
+        40
+      ],
+      "name": "vasanta-zrI-paJcamI"
+    },
+    "vasantanavarAtra-ArambhaH": {
+      "days": [
+        95
+      ],
+      "name": "vasantanavarAtra-ArambhaH"
+    },
+    "vasantanavarAtra-samApanam": {
+      "days": [
+        103
+      ],
+      "name": "vasantanavarAtra-samApanam"
+    },
+    "vasiSTha~maharSi~jayantI": {
+      "days": [
+        132
+      ],
+      "name": "vasiSTha~maharSi~jayantI"
+    },
+    "vasudEva-pUjA": {
+      "days": [
+        297
+      ],
+      "name": "vasudEva-pUjA"
+    },
+    "viSNupadI-kumbharaviH": {
+      "days": [
+        44
+      ],
+      "name": "viSNupadI-kumbharaviH"
+    },
+    "viSNupadI-siMharaviH": {
+      "days": [
+        229
+      ],
+      "name": "viSNupadI-siMharaviH"
+    },
+    "viSNupadI-vRSabharaviH": {
+      "days": [
+        135
+      ],
+      "name": "viSNupadI-vRSabharaviH"
+    },
+    "viSNupadI-vRzcikaraviH": {
+      "days": [
+        320
+      ],
+      "name": "viSNupadI-vRzcikaraviH"
+    },
+    "vidyAraNya-svAmI~jayantI": {
+      "days": [
+        131
+      ],
+      "name": "vidyAraNya-svAmI~jayantI"
+    },
+    "vidyAraNya~svAmI~ArAdhanA~\\#{628}": {
+      "days": [
+        165
+      ],
+      "name": "vidyAraNya~svAmI~ArAdhanA~\\#{628}"
+    },
+    "vijayA/zravaNa-mahAdvAdazI": {
+      "days": [
+        61,
+        253
+      ],
+      "name": "vijayA/zravaNa-mahAdvAdazI"
+    },
+    "vijayA~bhAnusaptamI": {
+      "days": [
+        160,
+        307
+      ],
+      "name": "vijayA~bhAnusaptamI"
+    },
+    "vijayA~bhAnusaptamI\u2605": {
+      "days": [
+        13
+      ],
+      "name": "vijayA~bhAnusaptamI\u2605"
+    },
+    "vijayadazamI": {
+      "days": [
+        280
+      ],
+      "name": "vijayadazamI"
+    },
+    "vikramAditya-paTTAbhiSEkaH": {
+      "days": [
+        300
+      ],
+      "name": "vikramAditya-paTTAbhiSEkaH"
+    },
+    "vinAyakASTamI": {
+      "days": [
+        176
+      ],
+      "name": "vinAyakASTamI"
+    },
+    "vindhyAvAsinI-dEvI-pUjA": {
+      "days": [
+        159
+      ],
+      "name": "vindhyAvAsinI-dEvI-pUjA"
+    },
+    "vipattAra-gaurI-vratam": {
+      "days": [
+        244
+      ],
+      "name": "vipattAra-gaurI-vratam"
+    },
+    "vitastOtsavaH": {
+      "days": [
+        251
+      ],
+      "name": "vitastOtsavaH"
+    },
+    "vivEkAnanda~jayantI~\\#{157}": {
+      "days": [
+        26
+      ],
+      "name": "vivEkAnanda~jayantI~\\#{157}"
+    },
+    "vizvakarmA~jayantI": {
+      "days": [
+        260
+      ],
+      "name": "vizvakarmA~jayantI"
+    },
+    "vizvarUpa-yAtrA": {
+      "days": [
+        256
+      ],
+      "name": "vizvarUpa-yAtrA"
+    },
+    "vyAghra-dvAdazI": {
+      "days": [
+        297
+      ],
+      "name": "vyAghra-dvAdazI"
+    },
+    "vyaJjulI~mahAdvAdazI": {
+      "days": [
+        282
+      ],
+      "name": "vyaJjulI~mahAdvAdazI"
+    },
+    "vyatIpAta-yOgaH (alabhyam)": {
+      "days": [
+        34
+      ],
+      "name": "vyatIpAta-yOgaH (alabhyam)"
+    },
+    "vyatIpAta-zrAddham": {
+      "days": [
+        85,
+        111
+      ],
+      "name": "vyatIpAta-zrAddham"
+    },
+    "yAjJavalkya~jayantI": {
+      "days": [
+        312
+      ],
+      "name": "yAjJavalkya~jayantI"
+    },
+    "yajurvEda-upAkarma": {
+      "days": [
+        226
+      ],
+      "name": "yajurvEda-upAkarma"
+    },
+    "yama/bhrAtR-dvitIyA": {
+      "days": [
+        302
+      ],
+      "name": "yama/bhrAtR-dvitIyA"
+    },
+    "yamunA~jayantI": {
+      "days": [
+        100
+      ],
+      "name": "yamunA~jayantI"
+    },
+    "yati-mahAlayam": {
+      "days": [
+        268
+      ],
+      "name": "yati-mahAlayam"
+    },
+    "yaticAturmAsyavrata-ArambhaH": {
+      "days": [
+        197
+      ],
+      "name": "yaticAturmAsyavrata-ArambhaH"
+    },
+    "yaticAturmAsyavrata-samApanam": {
+      "days": [
+        256
+      ],
+      "name": "yaticAturmAsyavrata-samApanam"
+    },
+    "yazOdA~jayantI": {
+      "days": [
+        55
+      ],
+      "name": "yazOdA~jayantI"
+    },
+    "yuddhadEvatA-ArAdhanA": {
+      "days": [
+        280
+      ],
+      "name": "yuddhadEvatA-ArAdhanA"
+    },
+    "yugAdiH": {
+      "days": [
+        95
+      ],
+      "name": "yugAdiH"
+    },
+    "zAkambharI~jayantI": {
+      "days": [
+        20
+      ],
+      "name": "zAkambharI~jayantI"
+    },
+    "zAkavrata-ArambhaH": {
+      "days": [
+        194
+      ],
+      "name": "zAkavrata-ArambhaH"
+    },
+    "zAkavrata-samApanam": {
+      "days": [
+        223
+      ],
+      "name": "zAkavrata-samApanam"
+    },
+    "zAlihOtra-vrata-ArambhaH": {
+      "days": [
+        99
+      ],
+      "name": "zAlihOtra-vrata-ArambhaH"
+    },
+    "zAnti-paJcamI-vratam": {
+      "days": [
+        275
+      ],
+      "name": "zAnti-paJcamI-vratam"
+    },
+    "zItalASTamI": {
+      "days": [
+        176
+      ],
+      "name": "zItalASTamI"
+    },
+    "zItalA~saptamI": {
+      "days": [
+        218
+      ],
+      "name": "zItalA~saptamI"
+    },
+    "zRGgErI 32 jagadguru zrI~nRsiMha bhAratI ArAdhanA": {
+      "days": [
+        155
+      ],
+      "name": "zRGgErI 32 jagadguru zrI~nRsiMha bhAratI ArAdhanA"
+    },
+    "zRGgErI 34 jagadguru zrI~candrazEkhara bhAratI ArAdhanA": {
+      "days": [
+        270
+      ],
+      "name": "zRGgErI 34 jagadguru zrI~candrazEkhara bhAratI ArAdhanA"
+    },
+    "zRGgErI 34 jagadguru zrI~candrazEkhara bhAratI~3 jayantI": {
+      "days": [
+        297
+      ],
+      "name": "zRGgErI 34 jagadguru zrI~candrazEkhara bhAratI~3 jayantI"
+    },
+    "zRGgErI 35 jagadguru zrI~abhinava vidyAtIrtha mahAsvAmI ArAdhanA": {
+      "days": [
+        263
+      ],
+      "name": "zRGgErI 35 jagadguru zrI~abhinava vidyAtIrtha mahAsvAmI ArAdhanA"
+    },
+    "zRGgErI 35 jagadguru zrI~abhinava vidyAtIrtha mahAsvAmI jayantI": {
+      "days": [
+        299
+      ],
+      "name": "zRGgErI 35 jagadguru zrI~abhinava vidyAtIrtha mahAsvAmI jayantI"
+    },
+    "zRGgErI zAradAmaTha-pratiSThApana~jayantI~\\#{2502}": {
+      "days": [
+        20
+      ],
+      "name": "zRGgErI zAradAmaTha-pratiSThApana~jayantI~\\#{2502}"
+    },
+    "zaGkara~jayantI~\\#{2528}": {
+      "days": [
+        129
+      ],
+      "name": "zaGkara~jayantI~\\#{2528}"
+    },
+    "zabarI~jayantI": {
+      "days": [
+        56
+      ],
+      "name": "zabarI~jayantI"
+    },
+    "zamI-gaurI-vratam": {
+      "days": [
+        187
+      ],
+      "name": "zamI-gaurI-vratam"
+    },
+    "zamI-pUjA": {
+      "days": [
+        280
+      ],
+      "name": "zamI-pUjA"
+    },
+    "zani-pradOSa-vratam": {
+      "days": [
+        47,
+        180,
+        194,
+        313,
+        327
+      ],
+      "name": "zani-pradOSa-vratam"
+    },
+    "zanirOhiNI-puNyakAlaH": {
+      "days": [
+        208,
+        236
+      ],
+      "name": "zanirOhiNI-puNyakAlaH"
+    },
+    "zani~jayantI": {
+      "days": [
+        153
+      ],
+      "name": "zani~jayantI"
+    },
+    "zarabha~jayantI": {
+      "days": [
+        138
+      ],
+      "name": "zarabha~jayantI"
+    },
+    "zarad-pUrNimA": {
+      "days": [
+        286
+      ],
+      "name": "zarad-pUrNimA"
+    },
+    "zarannavarAtra-ArambhaH": {
+      "days": [
+        272
+      ],
+      "name": "zarannavarAtra-ArambhaH"
+    },
+    "zarannavarAtra-samApanam": {
+      "days": [
+        279
+      ],
+      "name": "zarannavarAtra-samApanam"
+    },
+    "zarkarA-saptamI": {
+      "days": [
+        131
+      ],
+      "name": "zarkarA-saptamI"
+    },
+    "zastrahatacaturdazI": {
+      "days": [
+        270
+      ],
+      "name": "zastrahatacaturdazI"
+    },
+    "ziva-zayanOtsavaH": {
+      "days": [
+        197
+      ],
+      "name": "ziva-zayanOtsavaH"
+    },
+    "zrAvaNa-amAvAsyA (alabhyam\u2013puSkalA)": {
+      "days": [
+        241
+      ],
+      "name": "zrAvaNa-amAvAsyA (alabhyam\u2013puSkalA)"
+    },
+    "zrIkRSNadEvarAya-rAjyAbhiSEkaH": {
+      "days": [
+        235
+      ],
+      "name": "zrIkRSNadEvarAya-rAjyAbhiSEkaH"
+    },
+    "zrIkRSNajanmASTamI": {
+      "days": [
+        234
+      ],
+      "name": "zrIkRSNajanmASTamI"
+    },
+    "zrInivAsamaGgApurE sAkSAtkAra-vaibhavOtsava-ArambhaH": {
+      "days": [
+        158
+      ],
+      "name": "zrInivAsamaGgApurE sAkSAtkAra-vaibhavOtsava-ArambhaH"
+    },
+    "zrInivAsamaGgApurE sAkSAtkAra-vaibhavOtsava-samApanam": {
+      "days": [
+        160
+      ],
+      "name": "zrInivAsamaGgApurE sAkSAtkAra-vaibhavOtsava-samApanam"
+    },
+    "zrInivAsamaGgApurE sAkSAtkAra-vaibhavOtsavaH": {
+      "days": [
+        159
+      ],
+      "name": "zrInivAsamaGgApurE sAkSAtkAra-vaibhavOtsavaH"
+    },
+    "zrIrAma-paTTAbhiSEkaH": {
+      "days": [
+        300
+      ],
+      "name": "zrIrAma-paTTAbhiSEkaH"
+    },
+    "zrIrAma-vanavAsa-gamanam": {
+      "days": [
+        40
+      ],
+      "name": "zrIrAma-vanavAsa-gamanam"
+    },
+    "zrIrAmanavamI": {
+      "days": [
+        103
+      ],
+      "name": "zrIrAmanavamI"
+    },
+    "zrIvinAyaka-caturthI": {
+      "days": [
+        245
+      ],
+      "name": "zrIvinAyaka-caturthI"
+    },
+    "zrI~gOvinda bhagavatpAda ArAdhanA": {
+      "days": [
+        315
+      ],
+      "name": "zrI~gOvinda bhagavatpAda ArAdhanA"
+    },
+    "zrI~hanUmat~jayantI~1": {
+      "days": [
+        5,
+        359
+      ],
+      "name": "zrI~hanUmat~jayantI~1"
+    },
+    "zrI~hanUmat~jayantI~2": {
+      "days": [
+        108
+      ],
+      "name": "zrI~hanUmat~jayantI~2"
+    },
+    "zrI~rAghavEndra-svAmI~jayantI~\\#{425}": {
+      "days": [
+        72
+      ],
+      "name": "zrI~rAghavEndra-svAmI~jayantI~\\#{425}"
+    },
+    "zrI~rAghavEndra~svAmI~ArAdhanA~\\#{348}": {
+      "days": [
+        229
+      ],
+      "name": "zrI~rAghavEndra~svAmI~ArAdhanA~\\#{348}"
+    },
+    "zrI~vAsavI~jayantI": {
+      "days": [
+        133
+      ],
+      "name": "zrI~vAsavI~jayantI"
+    },
+    "zrI~zESAdri-svAmI~ArAdhanA~\\#{91}": {
+      "days": [
+        353
+      ],
+      "name": "zrI~zESAdri-svAmI~ArAdhanA~\\#{91}"
+    },
+    "zrI~zESAdri-svAmI~jayantI~\\#{150}": {
+      "days": [
+        25
+      ],
+      "name": "zrI~zESAdri-svAmI~jayantI~\\#{150}"
+    },
+    "zravaNa-vratam": {
+      "days": [
+        7,
+        35,
+        62,
+        89,
+        116,
+        144,
+        171,
+        198,
+        226,
+        253,
+        280,
+        308,
+        335,
+        362
+      ],
+      "name": "zravaNa-vratam"
+    },
+    "zubha-saptamI": {
+      "days": [
+        277
+      ],
+      "name": "zubha-saptamI"
+    },
+    "zuka~maharSi~jayantI": {
+      "days": [
+        153
+      ],
+      "name": "zuka~maharSi~jayantI"
+    },
+    "zukla-dEvI-pUjA": {
+      "days": [
+        162
+      ],
+      "name": "zukla-dEvI-pUjA"
+    },
+    "zvEta-kalpAdiH": {
+      "days": [
+        95
+      ],
+      "name": "zvEta-kalpAdiH"
+    },
+    "zyAmA~zAstrI~jayantI~\\#{258}": {
+      "days": [
+        125
+      ],
+      "name": "zyAmA~zAstrI~jayantI~\\#{258}"
+    },
+    "zyAmaLAnavarAtra-ArambhaH": {
+      "days": [
+        36
+      ],
+      "name": "zyAmaLAnavarAtra-ArambhaH"
+    },
+    "zyAmaLAnavarAtra-samApanam": {
+      "days": [
+        44
+      ],
+      "name": "zyAmaLAnavarAtra-samApanam"
+    }
   },
   "jd_end": 2458848.5,
   "jd_start": 2458484.5,

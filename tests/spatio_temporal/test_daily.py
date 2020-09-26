@@ -8,6 +8,7 @@ from jyotisha.panchaanga.spatio_temporal import City
 from jyotisha.panchaanga.spatio_temporal import daily
 from jyotisha.panchaanga.temporal import time
 from jyotisha.panchaanga.temporal.time import Date
+from jyotisha.panchaanga.temporal.zodiac import AngaType
 
 logging.basicConfig(
   level=logging.DEBUG,
@@ -83,6 +84,18 @@ def test_get_lagna_float():
   numpy.testing.assert_allclose(
     city.get_lagna_float(
       2444961.7125), 10.353595502472984, rtol=1e-4)
+
+
+def test_get_anga_data():
+  panchaanga = daily.DailyPanchanga.from_city_and_julian_day(
+    city=tests.spatio_temporal.chennai, julian_day=2444961.54042)
+  assert panchaanga.get_angas_today(AngaType.TITHI) == [
+    (27, 2444961.5992132244)]
+  assert panchaanga.get_angas_today(AngaType.NAKSHATRA) == [(16, 2444961.746925843)]
+  assert panchaanga.get_angas_today(AngaType.YOGA) == [
+    (8, 2444962.18276057)]
+  assert panchaanga.get_angas_today(AngaType.KARANA) == [
+    (54, 2444961.5992132244), (55, 2444962.1544454526)]
 
 
 def test_get_lagna_data():

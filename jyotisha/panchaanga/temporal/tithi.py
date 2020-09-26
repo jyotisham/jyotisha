@@ -20,6 +20,7 @@ def get_tithi(jd):
 
   """
   from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision, Ayanamsha, AngaType
+  # VERNAL_EQUINOX_AT_0 does not involve lookups, hence sending it - though ayanAmsha does not matter.
   return NakshatraDivision(julday=jd, ayanaamsha_id=Ayanamsha.VERNAL_EQUINOX_AT_0).get_anga(AngaType.TITHI)
 
 

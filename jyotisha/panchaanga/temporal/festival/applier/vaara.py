@@ -21,7 +21,7 @@ class VaraFestivalAssigner(FestivalAssigner):
       # BHRGUVARA SUBRAHMANYA VRATAM
       if self.panchaanga.daily_panchaangas[d].solar_sidereal_date_sunset.month == 7 and self.panchaanga.daily_panchaangas[d].date.get_weekday() == 5:
         festival_name = 'bhRguvAra-subrahmaNya-vratam'
-        if festival_name not in self.panchaanga.fest_days:
+        if festival_name not in self.panchaanga.festival_id_to_instance:
           # only the first bhRguvAra of tulA mAsa is considered (skAnda purANam)
           # https://youtu.be/rgXwyo0L3i8?t=222
           self.add_festival(festival_name, d, debug_festivals)

@@ -24,17 +24,6 @@ def test_get_angam():
   assert nd.get_solar_raashi() == 9
 
 
-def test_get_angam_data():
-  assert zodiac.get_angam_data(2444961.54042, 2444962.54076, AngaType.TITHI, ayanaamsha_id=Ayanamsha.CHITRA_AT_180) == [
-    (27, 2444961.5992132244)]
-  assert zodiac.get_angam_data(2444961.54042, 2444962.54076, AngaType.NAKSHATRA,
-                               ayanaamsha_id=Ayanamsha.CHITRA_AT_180) == [(16, 2444961.746925843)]
-  assert zodiac.get_angam_data(2444961.54042, 2444962.54076, AngaType.YOGA, ayanaamsha_id=Ayanamsha.CHITRA_AT_180) == [
-    (8, 2444962.18276057)]
-  assert zodiac.get_angam_data(2444961.54042, 2444962.54076, AngaType.KARANA, ayanaamsha_id=Ayanamsha.CHITRA_AT_180) == [
-    (54, 2444961.5992132244), (55, 2444962.1544454526)]
-
-
 def test_get_anga_span_solar_month():
   from jyotisha.panchaanga.temporal import time
   span_finder = AngaSpanFinder(anga_type=AngaType.SOLAR_MONTH, ayanaamsha_id=Ayanamsha.CHITRA_AT_180)

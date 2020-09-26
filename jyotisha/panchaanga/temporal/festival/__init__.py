@@ -310,6 +310,15 @@ class HinduCalendarEventOld(common.JsonObject):
     return final_description_string
 
 
+class FestivalInstance(common.JsonObject):
+  def __init__(self, name, days=None):
+    self.name = name
+    self.days = [] if days is None else days
+
+  def tex_code(self):
+    return self.name
+
+
 # noinspection PyUnresolvedReferences
 class HinduCalendarEvent(common.JsonObject):
   schema = common.recursively_merge_json_schemas(common.JsonObject.schema, ({

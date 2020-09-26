@@ -249,7 +249,7 @@ previous_day_panchaanga=self.daily_panchaangas[d])
     applier.MiscFestivalAssigner(panchaanga=self).assign_relative_festivals()
 
   def _reset_festivals(self, compute_lagnams=False):
-    self.fest_days = {}
+    self.festival_id_to_instance = {}
     for daily_panchaanga in self.daily_panchaangas:
       daily_panchaanga.festivals = []
 

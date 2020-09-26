@@ -101,14 +101,14 @@ class NakshatraDivision(common.JsonObject):
         ))
 
   def get_anga_float(self, anga_type):
-    """Returns the angam/ temporal property. Computed based on lunar and solar longitudes, division of a circle into a certain number of degrees (arc_len).
+    """Returns the anga/ temporal property. Computed based on lunar and solar longitudes, division of a circle into a certain number of degrees (arc_len).
 
       Args:
         :param anga_type: One of the pre-defined tuple-valued constants in the panchaanga
         class, such as TITHI, NAKSHATRAM, YOGA, KARANAM or SOLAR_MONTH
 
       Returns:
-        float angam
+        float anga
     """
     if anga_type == AngaType.TITHI:
       # For efficiency - avoid lookups.
@@ -137,13 +137,13 @@ class NakshatraDivision(common.JsonObject):
     return lcalc / arc_len
 
   def get_anga(self, anga_type):
-    """Returns the angam prevailing at a particular time. Computed based on lunar and solar longitudes, division of a circle into a certain number of degrees (arc_len).
+    """Returns the anga prevailing at a particular time. Computed based on lunar and solar longitudes, division of a circle into a certain number of degrees (arc_len).
 
       Args:
-        float arc_len: The arc_len for the corresponding angam
+        float arc_len: The arc_len for the corresponding anga
 
       Returns:
-        int angam
+        int anga
     """
 
     return int(1 + floor(self.get_anga_float(anga_type)))
@@ -243,91 +243,6 @@ AngaType.SOLAR_NAKSH = AngaType(name='SOLAR_NAKSH', arc_length=360.0 / 27.0, wei
 AngaType.SOLAR_NAKSH_PADA = AngaType(name='SOLAR_NAKSH_PADA', arc_length=360.0 / 108.0, weight_moon=0, weight_sun=1)
 
 
-def get_angam_data(jd_sunrise, jd_sunrise_tmrw, anga_type, ayanaamsha_id):
-  """Computes angam data for angams such as tithi, nakshatram, yoga
-  and karanam.
-
-  Args:
-      :param jd_sunrise:
-      :param jd_sunrise_tmrw:
-      :param anga_type: TITHI, NAKSHATRAM, YOGA, KARANAM, SOLAR_MONTH, SOLAR_NAKSH
-      :param ayanaamsha_id:
-
-  Returns:
-    tuple: A tuple comprising
-      angam_sunrise: The angam that prevails as sunrise
-      angam_data: a list of (int, float) tuples detailing the angams
-      for the day and their end-times (Julian day)
-  """
-  w_moon = anga_type.weight_moon
-  w_sun = anga_type.weight_sun
-  arc_len = anga_type.arc_length
-
-  num_angas = int(360.0 / arc_len)
-
-  # Compute angam details
-  angam_now = NakshatraDivision(jd_sunrise, ayanaamsha_id=ayanaamsha_id).get_anga(anga_type)
-  angam_tmrw = NakshatraDivision(jd_sunrise_tmrw, ayanaamsha_id=ayanaamsha_id).get_anga(anga_type)
-
-  angams_list = []
-
-  num_angas_today = (angam_tmrw - angam_now) % num_angas
-
-  if num_angas_today == 0:
-    # The angam does not change until sunrise tomorrow
-    return [(angam_now, None)]
-  else:
-    lmoon = Graha.singleton(Graha.MOON).get_longitude_offset(jd_sunrise, offset=0, ayanaamsha_id=ayanaamsha_id)
-
-    lsun = Graha.singleton(Graha.SUN).get_longitude_offset(jd_sunrise, offset=0, ayanaamsha_id=ayanaamsha_id)
-
-    lmoon_tmrw = Graha.singleton(Graha.MOON).get_longitude_offset(jd_sunrise_tmrw, offset=0, ayanaamsha_id=ayanaamsha_id)
-
-    lsun_tmrw = Graha.singleton(Graha.SUN).get_longitude_offset(jd_sunrise_tmrw, offset=0, ayanaamsha_id=ayanaamsha_id)
-
-    for i in range(num_angas_today):
-      angam_remaining = arc_len * (i + 1) - (((lmoon * w_moon +
-                                               lsun * w_sun) % 360) % arc_len)
-
-      # First compute approximate end time by essentially assuming
-      # the speed of the moon and the sun to be constant
-      # throughout the day. Therefore, angam_remaining is computed
-      # just based on the difference in longitudes for sun and
-      # moon today and tomorrow.
-      approx_end = jd_sunrise + angam_remaining / (((lmoon_tmrw - lmoon) % 360) * w_moon +
-                                                   ((lsun_tmrw - lsun) % 360) * w_sun)
-
-      # Initial guess value for the exact end time of the angam
-      x0 = approx_end
-
-      # What is the target (next) angam? It is needed to be passed
-      # to get_angam_float for zero-finding. If the target angam
-      # is say, 12, then we need to subtract 12 from the value
-      # returned by get_angam_float, so that this function can be
-      # passed as is to a zero-finding method like brentq or
-      # newton. Since we have a good x0 guess, it is easy to
-      # bracket the function in an interval where the function
-      # changes sign. Therefore, brenth can be used, as suggested
-      # in the scipy documentation.
-      target = (angam_now + i - 1) % num_angas + 1
-
-      # Approximate error in calculation of end time -- arbitrary
-      # used to bracket the root, for brenth
-      TDELTA = 0.05
-      try:
-        def f(x):
-          return NakshatraDivision(x, ayanaamsha_id=ayanaamsha_id).get_anga_float(anga_type=anga_type) - target
-
-        # noinspection PyTypeChecker
-        t_act = brentq(f, x0 - TDELTA, x0 + TDELTA)
-      except ValueError:
-        logging.warning('Unable to bracket! Using approximate t_end itself.')
-        logging.warning(locals())
-        t_act = approx_end
-      angams_list.extend([((angam_now + i - 1) % num_angas + 1, t_act)])
-  return angams_list
-
-
 class AngaSpanFinder(JsonObject):
   def __init__(self, ayanaamsha_id, anga_type):
     self.ayanaamsha_id = ayanaamsha_id
@@ -373,13 +288,13 @@ class AngaSpanFinder(JsonObject):
     return jd_start
 
   def find(self, jd1: float, jd2: float, target_anga_id: int):
-    """Computes angam spans for angams such as tithi, nakshatram, yoga
+    """Computes anga spans for angas such as tithi, nakshatram, yoga
         and karanam.
 
         Args:
           :param jd1: return the first span that starts after this date
           :param jd2: return the first span that ends before this date
-          :param angam_type: TITHI, NAKSHATRAM, YOGA, KARANAM, SOLAR_MONTH, SOLAR_NAKSH
+          :param anga_type: TITHI, NAKSHATRAM, YOGA, KARANAM, SOLAR_MONTH, SOLAR_NAKSH
           :param ayanaamsha_id
           :param debug
 
@@ -405,7 +320,7 @@ class AngaSpanFinder(JsonObject):
 class AngaSpan(Interval):
   @classmethod
   def find(cls, jd1: float, jd2: float, anga_type: AngaType, target_anga_id: int, ayanaamsha_id: str, debug: bool = False):
-    """Computes angam spans for angams such as tithi, nakshatram, yoga
+    """Computes anga spans for angas such as tithi, nakshatram, yoga
         and karanam.
 
         Args:

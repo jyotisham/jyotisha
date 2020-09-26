@@ -3,7 +3,7 @@ from math import floor
 
 from pytz import timezone as tz
 
-from jyotisha.panchaanga.temporal import time
+from jyotisha.panchaanga.temporal import time, festival
 from jyotisha import names
 from jyotisha.panchaanga import temporal
 from jyotisha.panchaanga.temporal import zodiac, tithi
@@ -29,16 +29,17 @@ class SolarFestivalAssigner(FestivalAssigner):
 
       # KARADAIYAN NOMBU
       if self.panchaanga.daily_panchaangas[d].solar_sidereal_date_sunset.month == 12 and self.panchaanga.daily_panchaangas[d].solar_sidereal_date_sunset.day == 1:
+        festival_name = 'ta:kAraDaiyAn2 nOn2bu'
         if NakshatraDivision(self.panchaanga.daily_panchaangas[d].jd_sunrise - (1 / 15.0) * (self.panchaanga.daily_panchaangas[d].jd_sunrise - self.panchaanga.daily_panchaangas[d - 1].jd_sunrise),
                              ayanaamsha_id=self.ayanaamsha_id).get_solar_raashi() == 12:
           # If kumbha prevails two ghatikAs before sunrise, nombu can be done in the early morning itself, else, previous night.
-          self.panchaanga.fest_days['ta:kAraDaiyAn2 nOn2bu'] = [d - 1]
+          self.panchaanga.festival_id_to_instance[festival_name] =  festival.FestivalInstance(name=festival_name, days=[d-1])
         else:
-          self.panchaanga.fest_days['ta:kAraDaiyAn2 nOn2bu'] = [d]
+          self.panchaanga.festival_id_to_instance[festival_name] = festival.FestivalInstance(name=festival_name, days=[d])
 
       # KUCHELA DINAM
       if self.panchaanga.daily_panchaangas[d].solar_sidereal_date_sunset.month == 9 and self.panchaanga.daily_panchaangas[d].solar_sidereal_date_sunset.day <= 7 and self.panchaanga.daily_panchaangas[d].date.get_weekday() == 3:
-        self.panchaanga.fest_days['kucEla-dinam'] = [d]
+        self.panchaanga.festival_id_to_instance['kucEla-dinam'] = festival.FestivalInstance(name='kucEla-dinam', days=[d])
 
       # MESHA SANKRANTI
       if self.panchaanga.daily_panchaangas[d].solar_sidereal_date_sunset.month == 1 and self.panchaanga.daily_panchaangas[d - 1].solar_sidereal_date_sunset.month == 12:
@@ -47,19 +48,19 @@ class SolarFestivalAssigner(FestivalAssigner):
         new_yr = 'mESa-saGkrAntiH' + '~(' + names.NAMES['SAMVATSARA_NAMES']['hk'][
           (samvatsara_id % 60) + 1] + \
                  '-' + 'saMvatsaraH' + ')'
-        # self.panchaanga.fest_days[new_yr] = [d]
+        # self.panchaanga.festival_id_to_instance[new_yr].days = [d]
         self.add_festival(new_yr, d, debug_festivals)
         self.add_festival('paJcAGga-paThanam', d, debug_festivals)
 
   def assign_vishesha_vyatipata(self, debug_festivals=False):
-    vs_list = self.panchaanga.fest_days['vyatIpAta-zrAddham']
+    vs_list = self.panchaanga.festival_id_to_instance['vyatIpAta-zrAddham'].days
     for d in vs_list:
       if self.panchaanga.daily_panchaangas[d].solar_sidereal_date_sunset.month == 9:
-        self.panchaanga.fest_days['vyatIpAta-zrAddham'].remove(d)
+        self.panchaanga.festival_id_to_instance['vyatIpAta-zrAddham'].days.remove(d)
         festival_name = 'mahAdhanurvyatIpAta-zrAddham'
         self.add_festival(festival_name, d, debug_festivals)
       elif self.panchaanga.daily_panchaangas[d].solar_sidereal_date_sunset.month == 6:
-        self.panchaanga.fest_days['vyatIpAta-zrAddham'].remove(d)
+        self.panchaanga.festival_id_to_instance['vyatIpAta-zrAddham'].days.remove(d)
         festival_name = 'mahAvyatIpAta-zrAddham'
         self.add_festival(festival_name, d, debug_festivals)
 
@@ -133,9 +134,9 @@ class SolarFestivalAssigner(FestivalAssigner):
           t2 = Hour(time.jd_to_utc_gregorian(gc_28_end).to_date_fractional_hour_tuple()[3] + offset).toString()
           # sys.stderr.write('gajacchhaya %d\n' % gc_28_d)
 
-          self.panchaanga.fest_days['gajacchAyA-yOgaH' +
+          self.panchaanga.festival_id_to_instance['gajacchAyA-yOgaH' +
                          '-\\textsf{' + t1 + '}{\\RIGHTarrow}\\textsf{' +
-                         t2 + '}'] = [gc_28_d]
+                                                  t2 + '}'].days = [gc_28_d]
           gc_28 = False
         if gc_30:
           gc_30_start += tz_off / 24.0
@@ -151,9 +152,9 @@ class SolarFestivalAssigner(FestivalAssigner):
           t2 = Hour(time.jd_to_utc_gregorian(gc_30_end).to_date_fractional_hour_tuple()[3] + offset).toString()
           # sys.stderr.write('gajacchhaya %d\n' % gc_30_d)
 
-          self.panchaanga.fest_days['gajacchAyA-yOgaH' +
+          self.panchaanga.festival_id_to_instance['gajacchAyA-yOgaH' +
                          '-\\textsf{' + t1 + '}{\\RIGHTarrow}\\textsf{' +
-                         t2 + '}'] = [gc_30_d]
+                                                  t2 + '}'].days = [gc_30_d]
           gc_30 = False
 
   def assign_mahodaya_ardhodaya(self, debug_festivals=False):

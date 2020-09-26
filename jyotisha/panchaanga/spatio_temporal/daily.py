@@ -105,19 +105,14 @@ class DailyPanchanga(common.JsonObject):
       self.jd_moonset = self.city.get_setting_time(julian_day_start=self.jd_sunrise, body=Graha.MOON)
 
     if force_recomputation or self.tithi_data is None:
-      self.tithi_data = zodiac.get_angam_data(self.jd_sunrise, self.jd_next_sunrise,
-                                              zodiac.AngaType.TITHI, ayanaamsha_id=self.ayanaamsha_id)
+      self.tithi_data = self.get_angas_today(zodiac.AngaType.TITHI)
       self.tithi_at_sunrise = self.tithi_data[0][0]
-      self.nakshatra_data = zodiac.get_angam_data(self.jd_sunrise, self.jd_next_sunrise,
-                                                  zodiac.AngaType.NAKSHATRA, ayanaamsha_id=self.ayanaamsha_id)
+      self.nakshatra_data = self.get_angas_today(zodiac.AngaType.NAKSHATRA)
       self.nakshatra_at_sunrise = self.nakshatra_data[0][0]
-      self.yoga_data = zodiac.get_angam_data(self.jd_sunrise, self.jd_next_sunrise,
-                                             zodiac.AngaType.NAKSHATRA, ayanaamsha_id=self.ayanaamsha_id)
+      self.yoga_data = self.get_angas_today(zodiac.AngaType.NAKSHATRA)
       self.yoga_at_sunrise = self.yoga_data[0][0]
-      self.karana_data = zodiac.get_angam_data(self.jd_sunrise, self.jd_next_sunrise,
-                                               zodiac.AngaType.KARANA, ayanaamsha_id=self.ayanaamsha_id)
-      self.raashi_data = zodiac.get_angam_data(self.jd_sunrise, self.jd_next_sunrise,
-                                               zodiac.AngaType.RASHI, ayanaamsha_id=self.ayanaamsha_id)
+      self.karana_data = self.get_angas_today(zodiac.AngaType.KARANA)
+      self.raashi_data = self.get_angas_today(zodiac.AngaType.RASHI)
 
   def compute_tb_muhuurtas(self):
     """ Computes muhuurta-s according to taittiriiya brAhmaNa.
@@ -235,8 +230,86 @@ class DailyPanchanga(common.JsonObject):
     return {x: (Hour((kaalas[x][0] - self.julian_day_start) * 24).toString(format=format),
                 Hour((kaalas[x][1] - self.julian_day_start) * 24).toString(format=format)) for x in kaalas}
 
-  def update_festival_details(self):
-    pass
+  def get_angas_today(self, anga_type):
+    """Computes anga data for angas such as tithi, nakshatram, yoga
+    and karanam.
+  
+    Args:
+        :param anga_type: TITHI, NAKSHATRAM, YOGA, KARANAM, SOLAR_MONTH, SOLAR_NAKSH
+  
+    Returns:
+      tuple: A tuple comprising
+        anga_sunrise: The anga that prevails as sunrise
+        anga_data: a list of (int, float) tuples detailing the angas
+        for the day and their end-times (Julian day)
+    """
+    w_moon = anga_type.weight_moon
+    w_sun = anga_type.weight_sun
+    arc_len = anga_type.arc_length
+  
+    num_angas = int(360.0 / arc_len)
+  
+    # Compute anga details
+    anga_now = NakshatraDivision(self.jd_sunrise, ayanaamsha_id=self.ayanaamsha_id).get_anga(anga_type)
+    anga_tmrw = NakshatraDivision(self.jd_next_sunrise, ayanaamsha_id=self.ayanaamsha_id).get_anga(anga_type)
+  
+    angas_list = []
+  
+    num_angas_today = (anga_tmrw - anga_now) % num_angas
+  
+    if num_angas_today == 0:
+      # The anga does not change until sunrise tomorrow
+      return [(anga_now, None)]
+    else:
+      lmoon = Graha.singleton(Graha.MOON).get_longitude_offset(self.jd_sunrise, offset=0, ayanaamsha_id=self.ayanaamsha_id)
+  
+      lsun = Graha.singleton(Graha.SUN).get_longitude_offset(self.jd_sunrise, offset=0, ayanaamsha_id=self.ayanaamsha_id)
+  
+      lmoon_tmrw = Graha.singleton(Graha.MOON).get_longitude_offset(self.jd_next_sunrise, offset=0, ayanaamsha_id=self.ayanaamsha_id)
+  
+      lsun_tmrw = Graha.singleton(Graha.SUN).get_longitude_offset(self.jd_next_sunrise, offset=0, ayanaamsha_id=self.ayanaamsha_id)
+  
+      for i in range(num_angas_today):
+        anga_remaining = arc_len * (i + 1) - (((lmoon * w_moon +
+                                                lsun * w_sun) % 360) % arc_len)
+  
+        # First compute approximate end time by essentially assuming
+        # the speed of the moon and the sun to be constant
+        # throughout the day. Therefore, anga_remaining is computed
+        # just based on the difference in longitudes for sun and
+        # moon today and tomorrow.
+        approx_end = self.jd_sunrise + anga_remaining / (((lmoon_tmrw - lmoon) % 360) * w_moon +
+                                                    ((lsun_tmrw - lsun) % 360) * w_sun)
+  
+        # Initial guess value for the exact end time of the anga
+        x0 = approx_end
+  
+        # What is the target (next) anga? It is needed to be passed
+        # to get_anga_float for zero-finding. If the target anga
+        # is say, 12, then we need to subtract 12 from the value
+        # returned by get_anga_float, so that this function can be
+        # passed as is to a zero-finding method like brentq or
+        # newton. Since we have a good x0 guess, it is easy to
+        # bracket the function in an interval where the function
+        # changes sign. Therefore, brenth can be used, as suggested
+        # in the scipy documentation.
+        target = (anga_now + i - 1) % num_angas + 1
+  
+        # Approximate error in calculation of end time -- arbitrary
+        # used to bracket the root, for brenth
+        TDELTA = 0.05
+        try:
+          def f(x):
+            return NakshatraDivision(x, ayanaamsha_id=self.ayanaamsha_id).get_anga_float(anga_type=anga_type) - target
+  
+          # noinspection PyTypeChecker
+          t_act = brentq(f, x0 - TDELTA, x0 + TDELTA)
+        except ValueError:
+          logging.warning('Unable to bracket! Using approximate t_end itself.')
+          logging.warning(locals())
+          t_act = approx_end
+        angas_list.extend([((anga_now + i - 1) % num_angas + 1, t_act)])
+    return angas_list
 
 
 # Essential for depickling to work.
