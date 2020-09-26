@@ -65,9 +65,9 @@ def test_tb_muhuurta_blr():
   city = City.from_address_and_timezone('Bangalore', "Asia/Calcutta")
   panchaanga = daily.DailyPanchanga(city=city, date=Date(year=2019, month=9, day=10))
   panchaanga.compute_tb_muhuurtas()
-  assert len(panchaanga.tb_muhuurtas) == 15
-  assert panchaanga.tb_muhuurtas[0].jd_start == panchaanga.jd_sunrise
-  for muhurta in panchaanga.tb_muhuurtas:
+  assert len(panchaanga.day_length_based_periods.tb_muhuurtas) == 15
+  assert panchaanga.day_length_based_periods.tb_muhuurtas[0].jd_start == panchaanga.jd_sunrise
+  for muhurta in panchaanga.day_length_based_periods.tb_muhuurtas:
     logging.info(muhurta.to_localized_string(city=city))
 
 

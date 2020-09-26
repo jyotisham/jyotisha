@@ -18,6 +18,28 @@ logging.basicConfig(level=logging.DEBUG,
                     format="%(levelname)s: %(asctime)s {%(filename)s:%(lineno)d}: %(message)s ")
 
 
+class DayLengthBasedPeriods(common.JsonObject):
+  def __init__(self):
+    self.braahma = None
+    self.praatas_sandhyaa = None
+    self.praatas_sandhyaa_end = None
+    self.praataH = None
+    self.sangava = None
+    self.madhyaahna = None
+    self.maadhyaahnika_sandhyaa = None
+    self.maadhyaahnika_sandhyaa_end = None
+    self.aparaahNa = None
+    self.saayaahna = None
+    self.saayaM_sandhyaa = None
+    self.saayaM_sandhyaa_end = None
+    self.raatri_yaama_1 = None
+    self.dinaanta = None
+    self.shayana = None
+    self.yama = None
+    self.gulika = None
+    self.tb_muhuurtas = None
+
+
 # This class is not named Panchangam in order to be able to disambiguate from annual.Panchangam in serialized objects.
 class DailyPanchanga(common.JsonObject):
   """This class enables the construction of a panchaanga
@@ -46,7 +68,6 @@ class DailyPanchanga(common.JsonObject):
     self.jd_moonrise = None
     self.jd_moonset = None
 
-    self.tb_muhuurtas = None
     self.lagna_data = None
     self.day_length_based_periods = None
 
@@ -119,14 +140,15 @@ class DailyPanchanga(common.JsonObject):
     """
     if not hasattr(self, "jd_sunrise") or self.jd_sunrise is None:
       self.compute_sun_moon_transitions()
-    self.tb_muhuurtas = []
+    tb_muhuurtas = []
     for muhuurta_id in range(0, 15):
       (jd_start, jd_end) = interval.get_interval(start_jd=self.jd_sunrise, end_jd=self.jd_sunset,
                                                                               part_index=muhuurta_id, num_parts=15).to_tuple()
       from jyotisha.panchaanga.temporal.interval import TbSayanaMuhuurta
-      self.tb_muhuurtas.append(TbSayanaMuhuurta(
+      tb_muhuurtas.append(TbSayanaMuhuurta(
         jd_start=jd_start, jd_end=jd_end,
         muhuurta_id=muhuurta_id))
+    self.day_length_based_periods.tb_muhuurtas = tb_muhuurtas
 
   def compute_solar_day_sunset(self, previous_day_panchaanga=None):
     """Compute the solar month and day for a given Julian day at sunset.
@@ -200,29 +222,28 @@ class DailyPanchanga(common.JsonObject):
     RAHUKALA_OCTETS = [7, 1, 6, 4, 5, 3, 2]
     GULIKAKALA_OCTETS = [6, 5, 4, 3, 2, 1, 0]
     weekday = self.date.get_weekday()
-    self.day_length_based_periods = {
-      'braahma': interval.get_interval(self.jd_previous_sunset, self.jd_sunrise, 13, 15).to_tuple(),
-      'prAtaH sandhyA': interval.get_interval(self.jd_previous_sunset, self.jd_sunrise, 14, 15).to_tuple(),
-      'prAtaH sandhyA end': interval.get_interval(self.jd_sunrise, self.jd_sunset, 4, 15).to_tuple(),
-      'prAtah': interval.get_interval(self.jd_sunrise, self.jd_sunset, 0, 5).to_tuple(),
-      'saGgava': interval.get_interval(self.jd_sunrise, self.jd_sunset, 1, 5).to_tuple(),
-      'madhyAhna': interval.get_interval(self.jd_sunrise, self.jd_sunset, 2, 5).to_tuple(),
-      'mAdhyAhnika sandhyA': interval.get_interval(self.jd_sunrise, self.jd_sunset, 5, 15).to_tuple(),
-      'mAdhyAhnika sandhyA end': interval.get_interval(self.jd_sunrise, self.jd_sunset, 13, 15).to_tuple(),
-      'aparAhna': interval.get_interval(self.jd_sunrise, self.jd_sunset, 3, 5).to_tuple(),
-      'sAyAhna': interval.get_interval(self.jd_sunrise, self.jd_sunset, 4, 5).to_tuple(),
-      'sAyaM sandhyA': interval.get_interval(self.jd_sunrise, self.jd_sunset, 14, 15).to_tuple(),
-      'sAyaM sandhyA end': interval.get_interval(self.jd_sunset, self.jd_next_sunrise, 1, 15).to_tuple(),
-      'rAtri yAma 1': interval.get_interval(self.jd_sunset, self.jd_next_sunrise, 1, 4).to_tuple(),
-      'zayana': interval.get_interval(self.jd_sunset, self.jd_next_sunrise, 3, 8).to_tuple(),
-      'dinAnta': interval.get_interval(self.jd_sunset, self.jd_next_sunrise, 5, 8).to_tuple(),
-      'rahu': interval.get_interval(self.jd_sunrise, self.jd_sunset,
-                                                                 RAHUKALA_OCTETS[weekday], 8).to_tuple(),
-      'yama': interval.get_interval(self.jd_sunrise, self.jd_sunset,
-                                                                 YAMAGANDA_OCTETS[weekday], 8).to_tuple(),
-      'gulika': interval.get_interval(self.jd_sunrise, self.jd_sunset,
-                                                                   GULIKAKALA_OCTETS[weekday], 8).to_tuple()
-    }
+    self.day_length_based_periods = DayLengthBasedPeriods()
+    self.day_length_based_periods.braahma = interval.get_interval(self.jd_previous_sunset, self.jd_sunrise, 13, 15)
+    self.day_length_based_periods.praatas_sandhyaa = interval.get_interval(self.jd_previous_sunset, self.jd_sunrise, 14, 15)
+    self.day_length_based_periods.praatas_sandhyaa_end = interval.get_interval(self.jd_sunrise, self.jd_sunset, 4, 15)
+    self.day_length_based_periods.praataH = interval.get_interval(self.jd_sunrise, self.jd_sunset, 0, 5)
+    self.day_length_based_periods.saangava = interval.get_interval(self.jd_sunrise, self.jd_sunset, 1, 5)
+    self.day_length_based_periods.madhyaahna = interval.get_interval(self.jd_sunrise, self.jd_sunset, 2, 5)
+    self.day_length_based_periods.maadhyaahnika_sandhyaa = interval.get_interval(self.jd_sunrise, self.jd_sunset, 5, 15)
+    self.day_length_based_periods.maadhyaahnika_sandhyaa_end = interval.get_interval(self.jd_sunrise, self.jd_sunset, 13, 15)
+    self.day_length_based_periods.aparaahnNa = interval.get_interval(self.jd_sunrise, self.jd_sunset, 3, 5)
+    self.day_length_based_periods.saayaahna = interval.get_interval(self.jd_sunrise, self.jd_sunset, 4, 5)
+    self.day_length_based_periods.saayaM_sandhyaa = interval.get_interval(self.jd_sunrise, self.jd_sunset, 14, 15)
+    self.day_length_based_periods.saayaM_sandhyaa_end = interval.get_interval(self.jd_sunset, self.jd_next_sunrise, 1, 15)
+    self.day_length_based_periods.raatri_yaama_1 = interval.get_interval(self.jd_sunset, self.jd_next_sunrise, 1, 4)
+    self.day_length_based_periods.shayana = interval.get_interval(self.jd_sunset, self.jd_next_sunrise, 3, 8)
+    self.day_length_based_periods.dinaanta = interval.get_interval(self.jd_sunset, self.jd_next_sunrise, 5, 8)
+    self.day_length_based_periods.raahu = interval.get_interval(self.jd_sunrise, self.jd_sunset,
+                                                               RAHUKALA_OCTETS[weekday], 8)
+    self.day_length_based_periods.yama = interval.get_interval(self.jd_sunrise, self.jd_sunset,
+                                                               YAMAGANDA_OCTETS[weekday], 8)
+    self.day_length_based_periods.gulika = interval.get_interval(self.jd_sunrise, self.jd_sunset,
+                                                                 GULIKAKALA_OCTETS[weekday], 8)
     return self.day_length_based_periods
 
   def get_kaalas_local_time(self, format='hh:mm*'):

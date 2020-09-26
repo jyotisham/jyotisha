@@ -94,7 +94,6 @@ previous_day_panchaanga=self.daily_panchaangas[d])
         continue
       
       # Compute all the anga datas
-      self.daily_panchaangas[d].get_day_length_based_periods()
       if compute_lagnas:
         self.daily_panchaangas[d].get_lagna_data()
 
