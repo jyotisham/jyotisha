@@ -9,7 +9,7 @@ from icalendar import Calendar, Event, Alarm
 from pytz import timezone as tz
 
 import jyotisha.panchaanga.spatio_temporal.annual
-from jyotisha.panchaanga.temporal import time
+from jyotisha.panchaanga.temporal import time, festival
 from jyotisha.panchaanga import temporal
 from jyotisha.panchaanga.spatio_temporal import City
 from jyotisha.panchaanga.temporal import MAX_SZ, tithi

@@ -4,9 +4,10 @@ from sanskrit_data.schema import common
 
 
 class Interval(common.JsonObject):
-  def __init__(self, jd_start, jd_end):
+  def __init__(self, jd_start, jd_end, name=None):
     self.jd_start = jd_start
     self.jd_end = jd_end
+    self.name = name
 
   def to_tuple(self):
     return (self.jd_start, self.jd_end)
@@ -19,7 +20,7 @@ class TbSayanaMuhuurta(Interval):
   """
 
   def __init__(self, jd_start, jd_end, muhuurta_id):
-    super().__init__(jd_start, jd_end)
+    super().__init__(jd_start=jd_start, jd_end=jd_end, name=muhuurta_id)
     self.muhuurta_id = muhuurta_id
     self.ahna = floor(self.muhuurta_id / 3)
     self.ahna_part = self.muhuurta_id % 3

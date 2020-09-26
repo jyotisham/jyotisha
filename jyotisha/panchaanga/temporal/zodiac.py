@@ -305,12 +305,12 @@ class AngaSpanFinder(JsonObject):
     if target_anga_id > num_angas or target_anga_id < 1:
       raise ValueError
 
-    anga_interval = AngaSpan(None, None)
+    anga_interval = AngaSpan(jd_start=None, jd_end=None, name=target_anga_id)
 
     anga_interval.jd_start = self.find_anga_start_between(jd1=jd1, jd2=jd2, target_anga_id=target_anga_id)
 
     if anga_interval.jd_start is None:
-      return AngaSpan(None, None)  # If it doesn't start, we don't care if it ends!
+      return AngaSpan(jd_start=None, jd_end=None, name=target_anga_id)  # If it doesn't start, we don't care if it ends!
 
     anga_id_after_target = (target_anga_id % num_angas) + 1
     anga_interval.jd_end = self.find_anga_start_between(jd1=anga_interval.jd_start, jd2=jd2, target_anga_id=anga_id_after_target)
