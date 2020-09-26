@@ -74792,42 +74792,49 @@
       "days": [
         281
       ],
+      "jsonClass": "FestivalInstance",
       "name": "(bhAdrapada) mahAlaya amAvAsyA (alabhyam\u2013puSkalA)"
     },
     "(yama)-dIpa-trayOdazI": {
       "days": [
         309
       ],
+      "jsonClass": "FestivalInstance",
       "name": "(yama)-dIpa-trayOdazI"
     },
     "64 yOginI-pUjA": {
       "days": [
         252
       ],
+      "jsonClass": "FestivalInstance",
       "name": "64 yOginI-pUjA"
     },
     "ASADha (kaTaka) amAvAsyA": {
       "days": [
         223
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ASADha (kaTaka) amAvAsyA"
     },
     "ASADha-pUrNimA-snAnam": {
       "days": [
         208
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ASADha-pUrNimA-snAnam"
     },
     "ASADha-snAnapUrtiH": {
       "days": [
         223
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ASADha-snAnapUrtiH"
     },
     "Adi-zaGkara mAnasika-sannyAsa-dinam": {
       "days": [
         323
       ],
+      "jsonClass": "FestivalInstance",
       "name": "Adi-zaGkara mAnasika-sannyAsa-dinam"
     },
     "Adityahasta-puNyakAlaH": {
@@ -74837,108 +74844,126 @@
         336,
         364
       ],
+      "jsonClass": "FestivalInstance",
       "name": "Adityahasta-puNyakAlaH"
     },
     "AgrayaNa~hOmaH~1": {
       "days": [
         297
       ],
+      "jsonClass": "FestivalInstance",
       "name": "AgrayaNa~hOmaH~1"
     },
     "AgrayaNa~hOmaH~2": {
       "days": [
         311
       ],
+      "jsonClass": "FestivalInstance",
       "name": "AgrayaNa~hOmaH~2"
     },
     "AgrayaNa~hOmaH~3": {
       "days": [
         327
       ],
+      "jsonClass": "FestivalInstance",
       "name": "AgrayaNa~hOmaH~3"
     },
     "AgrayaNa~hOmaH~4": {
       "days": [
         341
       ],
+      "jsonClass": "FestivalInstance",
       "name": "AgrayaNa~hOmaH~4"
     },
     "AkAzadIpa-ArambhaH": {
       "days": [
         291
       ],
+      "jsonClass": "FestivalInstance",
       "name": "AkAzadIpa-ArambhaH"
     },
     "AkAzadIpa-samApanam": {
       "days": [
         320
       ],
+      "jsonClass": "FestivalInstance",
       "name": "AkAzadIpa-samApanam"
     },
     "AndOlana~tRtIyA": {
       "days": [
         78
       ],
+      "jsonClass": "FestivalInstance",
       "name": "AndOlana~tRtIyA"
     },
     "AraNya-gaurI-vratam": {
       "days": [
         170
       ],
+      "jsonClass": "FestivalInstance",
       "name": "AraNya-gaurI-vratam"
     },
     "AyuSmad-bava-saumya-saMyogaH": {
       "days": [
         136
       ],
+      "jsonClass": "FestivalInstance",
       "name": "AyuSmad-bava-saumya-saMyogaH"
     },
     "AzA~dazamI": {
       "days": [
         203
       ],
+      "jsonClass": "FestivalInstance",
       "name": "AzA~dazamI"
     },
     "Azvayuja-amAvAsyA (alabhyam\u2013svAtI)": {
       "days": [
         311
       ],
+      "jsonClass": "FestivalInstance",
       "name": "Azvayuja-amAvAsyA (alabhyam\u2013svAtI)"
     },
     "RSi-paJcamI-vratam": {
       "days": [
         257
       ],
+      "jsonClass": "FestivalInstance",
       "name": "RSi-paJcamI-vratam"
     },
     "RgvEda-upAkarma": {
       "days": [
         237
       ],
+      "jsonClass": "FestivalInstance",
       "name": "RgvEda-upAkarma"
     },
     "SaDazIti-dhanurraviH": {
       "days": [
         350
       ],
+      "jsonClass": "FestivalInstance",
       "name": "SaDazIti-dhanurraviH"
     },
     "SaDazIti-kanyAraviH": {
       "days": [
         260
       ],
+      "jsonClass": "FestivalInstance",
       "name": "SaDazIti-kanyAraviH"
     },
     "SaDazIti-mInaraviH": {
       "days": [
         74
       ],
+      "jsonClass": "FestivalInstance",
       "name": "SaDazIti-mInaraviH"
     },
     "SaDazIti-mithunaraviH": {
       "days": [
         166
       ],
+      "jsonClass": "FestivalInstance",
       "name": "SaDazIti-mithunaraviH"
     },
     "SaSThI-vratam": {
@@ -74952,150 +74977,175 @@
         228,
         287
       ],
+      "jsonClass": "FestivalInstance",
       "name": "SaSThI-vratam"
     },
     "SaSThIdEvI-SaSThI-vratam": {
       "days": [
         258
       ],
+      "jsonClass": "FestivalInstance",
       "name": "SaSThIdEvI-SaSThI-vratam"
     },
     "aGgAraka~jayantI": {
       "days": [
         254
       ],
+      "jsonClass": "FestivalInstance",
       "name": "aGgAraka~jayantI"
     },
     "aSTanAga-pUjA": {
       "days": [
         210
       ],
+      "jsonClass": "FestivalInstance",
       "name": "aSTanAga-pUjA"
     },
     "acalA~saptamI-vratam": {
       "days": [
         24
       ],
+      "jsonClass": "FestivalInstance",
       "name": "acalA~saptamI-vratam"
     },
     "aduHkhanavamI": {
       "days": [
         261
       ],
+      "jsonClass": "FestivalInstance",
       "name": "aduHkhanavamI"
     },
     "aghOra-caturdazI": {
       "days": [
         251
       ],
+      "jsonClass": "FestivalInstance",
       "name": "aghOra-caturdazI"
     },
     "agninakSatra-ArambhaH": {
       "days": [
         125
       ],
+      "jsonClass": "FestivalInstance",
       "name": "agninakSatra-ArambhaH"
     },
     "agninakSatra-samApanam": {
       "days": [
         149
       ],
+      "jsonClass": "FestivalInstance",
       "name": "agninakSatra-samApanam"
     },
     "agrasEna~mahArAja~jayantI": {
       "days": [
         283
       ],
+      "jsonClass": "FestivalInstance",
       "name": "agrasEna~mahArAja~jayantI"
     },
     "aindrI-durgA-pUjA": {
       "days": [
         202
       ],
+      "jsonClass": "FestivalInstance",
       "name": "aindrI-durgA-pUjA"
     },
     "akSayA~navamI": {
       "days": [
         321
       ],
+      "jsonClass": "FestivalInstance",
       "name": "akSayA~navamI"
     },
     "akSayya-tRtIyA": {
       "days": [
         108
       ],
+      "jsonClass": "FestivalInstance",
       "name": "akSayya-tRtIyA"
     },
     "alarmElmaGgApurE plavOtsava-ArambhaH": {
       "days": [
         175
       ],
+      "jsonClass": "FestivalInstance",
       "name": "alarmElmaGgApurE plavOtsava-ArambhaH"
     },
     "alarmElmaGgApurE plavOtsava-samApanam": {
       "days": [
         179
       ],
+      "jsonClass": "FestivalInstance",
       "name": "alarmElmaGgApurE plavOtsava-samApanam"
     },
     "alarmElmaGgApurE plavOtsavaH~2": {
       "days": [
         176
       ],
+      "jsonClass": "FestivalInstance",
       "name": "alarmElmaGgApurE plavOtsavaH~2"
     },
     "alarmElmaGgApurE plavOtsavaH~3": {
       "days": [
         177
       ],
+      "jsonClass": "FestivalInstance",
       "name": "alarmElmaGgApurE plavOtsavaH~3"
     },
     "alarmElmaGgApurE plavOtsavaH~4": {
       "days": [
         178
       ],
+      "jsonClass": "FestivalInstance",
       "name": "alarmElmaGgApurE plavOtsavaH~4"
     },
     "amRtalakSmI-vratam": {
       "days": [
         195
       ],
+      "jsonClass": "FestivalInstance",
       "name": "amRtalakSmI-vratam"
     },
     "amuktAbharaNa-saptamI": {
       "days": [
         259
       ],
+      "jsonClass": "FestivalInstance",
       "name": "amuktAbharaNa-saptamI"
     },
     "anaGga-trayOdazI": {
       "days": [
         236
       ],
+      "jsonClass": "FestivalInstance",
       "name": "anaGga-trayOdazI"
     },
     "ananta-caturdazI": {
       "days": [
         266
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ananta-caturdazI"
     },
     "ananta-dvAdazI": {
       "days": [
         264
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ananta-dvAdazI"
     },
     "ananta-padmanAbha-vratam": {
       "days": [
         266
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ananta-padmanAbha-vratam"
     },
     "anantaphala-saptamI": {
       "days": [
         259
       ],
+      "jsonClass": "FestivalInstance",
       "name": "anantaphala-saptamI"
     },
     "andhakAsura-vadhaH": {
@@ -75103,198 +75153,231 @@
         1,
         356
       ],
+      "jsonClass": "FestivalInstance",
       "name": "andhakAsura-vadhaH"
     },
     "annamAcArya~jayantI": {
       "days": [
         120
       ],
+      "jsonClass": "FestivalInstance",
       "name": "annamAcArya~jayantI"
     },
     "annapUrNA~jayantI": {
       "days": [
         356
       ],
+      "jsonClass": "FestivalInstance",
       "name": "annapUrNA~jayantI"
     },
     "appayya-dIkSita-jayantI~\\#{500}": {
       "days": [
         269
       ],
+      "jsonClass": "FestivalInstance",
       "name": "appayya-dIkSita-jayantI~\\#{500}"
     },
     "aravinda~jayantI": {
       "days": [
         247
       ],
+      "jsonClass": "FestivalInstance",
       "name": "aravinda~jayantI"
     },
     "ardhanArIzvara-vratam": {
       "days": [
         120
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ardhanArIzvara-vratam"
     },
     "arundhatI-vrata-ArambhaH": {
       "days": [
         78
       ],
+      "jsonClass": "FestivalInstance",
       "name": "arundhatI-vrata-ArambhaH"
     },
     "avyaGga-saptamI": {
       "days": [
         229
       ],
+      "jsonClass": "FestivalInstance",
       "name": "avyaGga-saptamI"
     },
     "azOkASTamI": {
       "days": [
         84
       ],
+      "jsonClass": "FestivalInstance",
       "name": "azOkASTamI"
     },
     "azOkASTamI-vrata-ArambhaH": {
       "days": [
         275
       ],
+      "jsonClass": "FestivalInstance",
       "name": "azOkASTamI-vrata-ArambhaH"
     },
     "azUnyazayana-vratam~1": {
       "days": [
         210
       ],
+      "jsonClass": "FestivalInstance",
       "name": "azUnyazayana-vratam~1"
     },
     "azUnyazayana-vratam~2": {
       "days": [
         240
       ],
+      "jsonClass": "FestivalInstance",
       "name": "azUnyazayana-vratam~2"
     },
     "azUnyazayana-vratam~3": {
       "days": [
         269
       ],
+      "jsonClass": "FestivalInstance",
       "name": "azUnyazayana-vratam~3"
     },
     "azUnyazayana-vratam~4": {
       "days": [
         299
       ],
+      "jsonClass": "FestivalInstance",
       "name": "azUnyazayana-vratam~4"
     },
     "azvazirO-dEva-pUjA": {
       "days": [
         282
       ],
+      "jsonClass": "FestivalInstance",
       "name": "azvazirO-dEva-pUjA"
     },
     "bRhatI-vRkSaka-pUjA": {
       "days": [
         240
       ],
+      "jsonClass": "FestivalInstance",
       "name": "bRhatI-vRkSaka-pUjA"
     },
     "bRndAvana-dvAdazI": {
       "days": [
         324
       ],
+      "jsonClass": "FestivalInstance",
       "name": "bRndAvana-dvAdazI"
     },
     "badarI jyOtirmaTha-pratiSThApana~jayantI~\\#{2503}": {
       "days": [
         2
       ],
+      "jsonClass": "FestivalInstance",
       "name": "badarI jyOtirmaTha-pratiSThApana~jayantI~\\#{2503}"
     },
     "badarI-gaurI-vratam": {
       "days": [
         345
       ],
+      "jsonClass": "FestivalInstance",
       "name": "badarI-gaurI-vratam"
     },
     "bagalAmukhI~jayantI": {
       "days": [
         109
       ],
+      "jsonClass": "FestivalInstance",
       "name": "bagalAmukhI~jayantI"
     },
     "bahulA~caturthI": {
       "days": [
         242
       ],
+      "jsonClass": "FestivalInstance",
       "name": "bahulA~caturthI"
     },
     "bahula-paJcamI": {
       "days": [
         6
       ],
+      "jsonClass": "FestivalInstance",
       "name": "bahula-paJcamI"
     },
     "balarAma~jayantI": {
       "days": [
         108
       ],
+      "jsonClass": "FestivalInstance",
       "name": "balarAma~jayantI"
     },
     "bhAnusaptamI": {
       "days": [
         245
       ],
+      "jsonClass": "FestivalInstance",
       "name": "bhAnusaptamI"
     },
     "bhArgava-rAma-pUjA": {
       "days": [
         106
       ],
+      "jsonClass": "FestivalInstance",
       "name": "bhArgava-rAma-pUjA"
     },
     "bhISmASTamI": {
       "days": [
         25
       ],
+      "jsonClass": "FestivalInstance",
       "name": "bhISmASTamI"
     },
     "bhISma-dvAdazI": {
       "days": [
         28
       ],
+      "jsonClass": "FestivalInstance",
       "name": "bhISma-dvAdazI"
     },
     "bhISma-paJcaka-vrata-ArambhaH": {
       "days": [
         323
       ],
+      "jsonClass": "FestivalInstance",
       "name": "bhISma-paJcaka-vrata-ArambhaH"
     },
     "bhISma-paJcaka-vrata-samApanam": {
       "days": [
         327
       ],
+      "jsonClass": "FestivalInstance",
       "name": "bhISma-paJcaka-vrata-samApanam"
     },
     "bhISma~jayantI": {
       "days": [
         10
       ],
+      "jsonClass": "FestivalInstance",
       "name": "bhISma~jayantI"
     },
     "bhImasEna~jayantI": {
       "days": [
         306
       ],
+      "jsonClass": "FestivalInstance",
       "name": "bhImasEna~jayantI"
     },
     "bhIma~caNDI~jayantI": {
       "days": [
         240
       ],
+      "jsonClass": "FestivalInstance",
       "name": "bhIma~caNDI~jayantI"
     },
     "bhOgazAyi-pUjA": {
       "days": [
         194
       ],
+      "jsonClass": "FestivalInstance",
       "name": "bhOgazAyi-pUjA"
     },
     "bhRgurEvatI-puNyakAlaH": {
@@ -75302,36 +75385,42 @@
         187,
         215
       ],
+      "jsonClass": "FestivalInstance",
       "name": "bhRgurEvatI-puNyakAlaH"
     },
     "bhRguvAra-subrahmaNya-vratam": {
       "days": [
         292
       ],
+      "jsonClass": "FestivalInstance",
       "name": "bhRguvAra-subrahmaNya-vratam"
     },
     "bhadra-catuSTaya-vratam": {
       "days": [
         165
       ],
+      "jsonClass": "FestivalInstance",
       "name": "bhadra-catuSTaya-vratam"
     },
     "bhadrakALI-pUjA": {
       "days": [
         290
       ],
+      "jsonClass": "FestivalInstance",
       "name": "bhadrakALI-pUjA"
     },
     "bhadrakALI-vratam": {
       "days": [
         291
       ],
+      "jsonClass": "FestivalInstance",
       "name": "bhadrakALI-vratam"
     },
     "bhadrakALI~jayantI": {
       "days": [
         131
       ],
+      "jsonClass": "FestivalInstance",
       "name": "bhadrakALI~jayantI"
     },
     "bhaumArdrA-puNyakAlaH": {
@@ -75339,6 +75428,7 @@
         2,
         275
       ],
+      "jsonClass": "FestivalInstance",
       "name": "bhaumArdrA-puNyakAlaH"
     },
     "bhaumAzvinI-puNyakAlaH": {
@@ -75347,42 +75437,49 @@
         79,
         352
       ],
+      "jsonClass": "FestivalInstance",
       "name": "bhaumAzvinI-puNyakAlaH"
     },
     "bhavAnyutpattiH": {
       "days": [
         84
       ],
+      "jsonClass": "FestivalInstance",
       "name": "bhavAnyutpattiH"
     },
     "bhrAtRprApti-vrata-ArambhaH": {
       "days": [
         87
       ],
+      "jsonClass": "FestivalInstance",
       "name": "bhrAtRprApti-vrata-ArambhaH"
     },
     "bhuvanEzvarI~jayantI": {
       "days": [
         264
       ],
+      "jsonClass": "FestivalInstance",
       "name": "bhuvanEzvarI~jayantI"
     },
     "brahmANI-pUjA": {
       "days": [
         172
       ],
+      "jsonClass": "FestivalInstance",
       "name": "brahmANI-pUjA"
     },
     "brahma-kalpAdiH": {
       "days": [
         63
       ],
+      "jsonClass": "FestivalInstance",
       "name": "brahma-kalpAdiH"
     },
     "buddha~jayantI": {
       "days": [
         291
       ],
+      "jsonClass": "FestivalInstance",
       "name": "buddha~jayantI"
     },
     "budhASTamI": {
@@ -75390,6 +75487,7 @@
         171,
         290
       ],
+      "jsonClass": "FestivalInstance",
       "name": "budhASTamI"
     },
     "budhAnurAdhA-puNyakAlaH": {
@@ -75397,546 +75495,637 @@
         94,
         122
       ],
+      "jsonClass": "FestivalInstance",
       "name": "budhAnurAdhA-puNyakAlaH"
     },
     "budha~jayantI": {
       "days": [
         116
       ],
+      "jsonClass": "FestivalInstance",
       "name": "budha~jayantI"
     },
     "cAmuNDEzvarI~jayantI": {
       "days": [
         216
       ],
+      "jsonClass": "FestivalInstance",
       "name": "cAmuNDEzvarI~jayantI"
     },
     "cAturmAsyavrata-ArambhaH": {
       "days": [
         203
       ],
+      "jsonClass": "FestivalInstance",
       "name": "cAturmAsyavrata-ArambhaH"
     },
     "cAturmAsyavrata-samApanam": {
       "days": [
         327
       ],
+      "jsonClass": "FestivalInstance",
       "name": "cAturmAsyavrata-samApanam"
     },
     "caNDikA-pUjA": {
       "days": [
         247
       ],
+      "jsonClass": "FestivalInstance",
       "name": "caNDikA-pUjA"
     },
     "caitanya-mahAprabhu~jayantI~\\#{533}": {
       "days": [
         60
       ],
+      "jsonClass": "FestivalInstance",
       "name": "caitanya-mahAprabhu~jayantI~\\#{533}"
     },
     "caitra-amAvAsyA": {
       "days": [
         105
       ],
+      "jsonClass": "FestivalInstance",
       "name": "caitra-amAvAsyA"
     },
     "caitra-pUrNimA": {
       "days": [
         90
       ],
+      "jsonClass": "FestivalInstance",
       "name": "caitra-pUrNimA"
     },
     "campaka-dvAdazI": {
       "days": [
         175
       ],
+      "jsonClass": "FestivalInstance",
       "name": "campaka-dvAdazI"
     },
     "candrOdaya-gaurI-vratam": {
       "days": [
         299
       ],
+      "jsonClass": "FestivalInstance",
       "name": "candrOdaya-gaurI-vratam"
     },
     "candra-SaSThI": {
       "days": [
         273
       ],
+      "jsonClass": "FestivalInstance",
       "name": "candra-SaSThI"
     },
     "chatrapati-zivAjI~jayantI~\\#{389}": {
       "days": [
         63
       ],
+      "jsonClass": "FestivalInstance",
       "name": "chatrapati-zivAjI~jayantI~\\#{389}"
     },
     "chatrapati~zivAjI~rAjyAbhiSEkaH": {
       "days": [
         176
       ],
+      "jsonClass": "FestivalInstance",
       "name": "chatrapati~zivAjI~rAjyAbhiSEkaH"
     },
     "chinnamastA~jayantI": {
       "days": [
         120
       ],
+      "jsonClass": "FestivalInstance",
       "name": "chinnamastA~jayantI"
     },
     "cidambarE bhikSATana svarNarathaH": {
       "days": [
         169
       ],
+      "jsonClass": "FestivalInstance",
       "name": "cidambarE bhikSATana svarNarathaH"
     },
     "cidambarE dhvajArOhaNam/paJcamUrti rathOtsavaH": {
       "days": [
         162
       ],
+      "jsonClass": "FestivalInstance",
       "name": "cidambarE dhvajArOhaNam/paJcamUrti rathOtsavaH"
     },
     "cidambarE kailAsa vAhanam": {
       "days": [
         168
       ],
+      "jsonClass": "FestivalInstance",
       "name": "cidambarE kailAsa vAhanam"
     },
     "cidambarE muttuppallakku": {
       "days": [
         172
       ],
+      "jsonClass": "FestivalInstance",
       "name": "cidambarE muttuppallakku"
     },
     "cidambarE naTarAjasya rAjasabhAyAM mahAbhiSEkaH": {
       "days": [
         171
       ],
+      "jsonClass": "FestivalInstance",
       "name": "cidambarE naTarAjasya rAjasabhAyAM mahAbhiSEkaH"
     },
     "cidambarE rajata RSabha vAhanam": {
       "days": [
         166
       ],
+      "jsonClass": "FestivalInstance",
       "name": "cidambarE rajata RSabha vAhanam"
     },
     "cidambarE rajata bhUta vAhanam": {
       "days": [
         165
       ],
+      "jsonClass": "FestivalInstance",
       "name": "cidambarE rajata bhUta vAhanam"
     },
     "cidambarE rajata candraprabha vAhanam": {
       "days": [
         163
       ],
+      "jsonClass": "FestivalInstance",
       "name": "cidambarE rajata candraprabha vAhanam"
     },
     "cidambarE rajata-gajavAhanam": {
       "days": [
         167
       ],
+      "jsonClass": "FestivalInstance",
       "name": "cidambarE rajata-gajavAhanam"
     },
     "cidambarE rathOtsavaH": {
       "days": [
         170
       ],
+      "jsonClass": "FestivalInstance",
       "name": "cidambarE rathOtsavaH"
     },
     "cidambarE svarNa-sUryaprabha vAhanam": {
       "days": [
         164
       ],
+      "jsonClass": "FestivalInstance",
       "name": "cidambarE svarNa-sUryaprabha vAhanam"
     },
     "citragupta-vratam": {
       "days": [
         90
       ],
+      "jsonClass": "FestivalInstance",
       "name": "citragupta-vratam"
     },
     "dAmOdara-dvAdazI": {
       "days": [
         235
       ],
+      "jsonClass": "FestivalInstance",
       "name": "dAmOdara-dvAdazI"
     },
     "dEvasEnA~paJcamI": {
       "days": [
         316
       ],
+      "jsonClass": "FestivalInstance",
       "name": "dEvasEnA~paJcamI"
     },
     "dEvatA-suvAsinI-pUjA": {
       "days": [
         285
       ],
+      "jsonClass": "FestivalInstance",
       "name": "dEvatA-suvAsinI-pUjA"
     },
     "dIpAvalI/lakSmI-kubEra-pUjA": {
       "days": [
         311
       ],
+      "jsonClass": "FestivalInstance",
       "name": "dIpAvalI/lakSmI-kubEra-pUjA"
     },
     "dIpOtsava-caturdazI/yama-tarpaNam": {
       "days": [
         310
       ],
+      "jsonClass": "FestivalInstance",
       "name": "dIpOtsava-caturdazI/yama-tarpaNam"
     },
     "dIpa-pUjA": {
       "days": [
         223
       ],
+      "jsonClass": "FestivalInstance",
       "name": "dIpa-pUjA"
     },
     "dUrvA-gaNapati-vratam": {
       "days": [
         226
       ],
+      "jsonClass": "FestivalInstance",
       "name": "dUrvA-gaNapati-vratam"
     },
     "dUrvASTamI": {
       "days": [
         260
       ],
+      "jsonClass": "FestivalInstance",
       "name": "dUrvASTamI"
     },
     "dUrva-tri-vratam": {
       "days": [
         265
       ],
+      "jsonClass": "FestivalInstance",
       "name": "dUrva-tri-vratam"
     },
     "dadhIci~maharSi~jayanti": {
       "days": [
         260
       ],
+      "jsonClass": "FestivalInstance",
       "name": "dadhIci~maharSi~jayanti"
     },
     "dadhi-vrata-ArambhaH": {
       "days": [
         235
       ],
+      "jsonClass": "FestivalInstance",
       "name": "dadhi-vrata-ArambhaH"
     },
     "dadhi-vrata-samApanam": {
       "days": [
         264
       ],
+      "jsonClass": "FestivalInstance",
       "name": "dadhi-vrata-samApanam"
     },
     "damanakArOpaNa-dvAdazI": {
       "days": [
         87
       ],
+      "jsonClass": "FestivalInstance",
       "name": "damanakArOpaNa-dvAdazI"
     },
     "damanaka-cOrI-utsavaH": {
       "days": [
         88
       ],
+      "jsonClass": "FestivalInstance",
       "name": "damanaka-cOrI-utsavaH"
     },
     "damanaka-caturdazI": {
       "days": [
         89
       ],
+      "jsonClass": "FestivalInstance",
       "name": "damanaka-caturdazI"
     },
     "darbha-saGgrahaH": {
       "days": [
         252
       ],
+      "jsonClass": "FestivalInstance",
       "name": "darbha-saGgrahaH"
     },
     "dattAtrEya~jayantI": {
       "days": [
         356
       ],
+      "jsonClass": "FestivalInstance",
       "name": "dattAtrEya~jayantI"
     },
     "dauhitra-pratipat": {
       "days": [
         283
       ],
+      "jsonClass": "FestivalInstance",
       "name": "dauhitra-pratipat"
     },
     "dazAvatAra-vratam": {
       "days": [
         262
       ],
+      "jsonClass": "FestivalInstance",
       "name": "dazAvatAra-vratam"
     },
     "dazaharA": {
       "days": [
         292
       ],
+      "jsonClass": "FestivalInstance",
       "name": "dazaharA"
     },
     "dazaharA/gaGgAvataraNam/dazapApaharA~dazamI": {
       "days": [
         173
       ],
+      "jsonClass": "FestivalInstance",
       "name": "dazaharA/gaGgAvataraNam/dazapApaharA~dazamI"
     },
     "dhUmAvatI~jayantI": {
       "days": [
         171
       ],
+      "jsonClass": "FestivalInstance",
       "name": "dhUmAvatI~jayantI"
     },
     "dhana-trayOdazI": {
       "days": [
         309
       ],
+      "jsonClass": "FestivalInstance",
       "name": "dhana-trayOdazI"
     },
     "dhanvantari~jayantI": {
       "days": [
         309
       ],
+      "jsonClass": "FestivalInstance",
       "name": "dhanvantari~jayantI"
     },
     "dharmarAja-dazamI": {
       "days": [
         85
       ],
+      "jsonClass": "FestivalInstance",
       "name": "dharmarAja-dazamI"
     },
     "dikpAla-pUjA~1": {
       "days": [
         268
       ],
+      "jsonClass": "FestivalInstance",
       "name": "dikpAla-pUjA~1"
     },
     "dikpAla-pUjA~2": {
       "days": [
         272
       ],
+      "jsonClass": "FestivalInstance",
       "name": "dikpAla-pUjA~2"
     },
     "durgA-pUjA": {
       "days": [
         292
       ],
+      "jsonClass": "FestivalInstance",
       "name": "durgA-pUjA"
     },
     "durgA-svApanam": {
       "days": [
         188
       ],
+      "jsonClass": "FestivalInstance",
       "name": "durgA-svApanam"
     },
     "durgA-vrata-ArambhaH": {
       "days": [
         230
       ],
+      "jsonClass": "FestivalInstance",
       "name": "durgA-vrata-ArambhaH"
     },
     "durgA/gaurI-pUjA": {
       "days": [
         276
       ],
+      "jsonClass": "FestivalInstance",
       "name": "durgA/gaurI-pUjA"
     },
     "durgASTamI": {
       "days": [
         290
       ],
+      "jsonClass": "FestivalInstance",
       "name": "durgASTamI"
     },
     "durgandha-daurbhAgya-nAzaka-trayOdazI": {
       "days": [
         176
       ],
+      "jsonClass": "FestivalInstance",
       "name": "durgandha-daurbhAgya-nAzaka-trayOdazI"
     },
     "dvAdaza-saptamI": {
       "days": [
         229
       ],
+      "jsonClass": "FestivalInstance",
       "name": "dvAdaza-saptamI"
     },
     "dvAparayugAdiH": {
       "days": [
         280
       ],
+      "jsonClass": "FestivalInstance",
       "name": "dvAparayugAdiH"
     },
     "dvArakA-maTha-pratiSThApana~jayantI~\\#{2508}": {
       "days": [
         24
       ],
+      "jsonClass": "FestivalInstance",
       "name": "dvArakA-maTha-pratiSThApana~jayantI~\\#{2508}"
     },
     "dvidala-vrata-ArambhaH": {
       "days": [
         294
       ],
+      "jsonClass": "FestivalInstance",
       "name": "dvidala-vrata-ArambhaH"
     },
     "dvidala-vrata-samApanam": {
       "days": [
         324
       ],
+      "jsonClass": "FestivalInstance",
       "name": "dvidala-vrata-samApanam"
     },
     "eruvaka-pUrNimA": {
       "days": [
         179
       ],
+      "jsonClass": "FestivalInstance",
       "name": "eruvaka-pUrNimA"
     },
     "gAyatrI-japaH": {
       "days": [
         239
       ],
+      "jsonClass": "FestivalInstance",
       "name": "gAyatrI-japaH"
     },
     "gAyatrI~jayantI": {
       "days": [
         238
       ],
+      "jsonClass": "FestivalInstance",
       "name": "gAyatrI~jayantI"
     },
     "gItA~jayantI": {
       "days": [
         353
       ],
+      "jsonClass": "FestivalInstance",
       "name": "gItA~jayantI"
     },
     "gO-trirAtri-vratam~1": {
       "days": [
         265
       ],
+      "jsonClass": "FestivalInstance",
       "name": "gO-trirAtri-vratam~1"
     },
     "gO-trirAtri-vratam~2": {
       "days": [
         309
       ],
+      "jsonClass": "FestivalInstance",
       "name": "gO-trirAtri-vratam~2"
     },
     "gOdhUmA~navamI": {
       "days": [
         261
       ],
+      "jsonClass": "FestivalInstance",
       "name": "gOdhUmA~navamI"
     },
     "gOpASTamI": {
       "days": [
         319
       ],
+      "jsonClass": "FestivalInstance",
       "name": "gOpASTamI"
     },
     "gOpadma-vrata-ArambhaH": {
       "days": [
         204
       ],
+      "jsonClass": "FestivalInstance",
       "name": "gOpadma-vrata-ArambhaH"
     },
     "gOpadma-vrata-samApanam": {
       "days": [
         324
       ],
+      "jsonClass": "FestivalInstance",
       "name": "gOpadma-vrata-samApanam"
     },
     "gOvardhana-pUjA": {
       "days": [
         312
       ],
+      "jsonClass": "FestivalInstance",
       "name": "gOvardhana-pUjA"
     },
     "gOvatsa-dvAdazI": {
       "days": [
         308
       ],
+      "jsonClass": "FestivalInstance",
       "name": "gOvatsa-dvAdazI"
     },
     "gOvinda~mahAdvAdazI": {
       "days": [
         58
       ],
+      "jsonClass": "FestivalInstance",
       "name": "gOvinda~mahAdvAdazI"
     },
     "gRhadEvI-pUjA": {
       "days": [
         283
       ],
+      "jsonClass": "FestivalInstance",
       "name": "gRhadEvI-pUjA"
     },
     "gaGgA-saptamI": {
       "days": [
         112
       ],
+      "jsonClass": "FestivalInstance",
       "name": "gaGgA-saptamI"
     },
     "gaGgA-snAnam": {
       "days": [
         105
       ],
+      "jsonClass": "FestivalInstance",
       "name": "gaGgA-snAnam"
     },
     "gaGgAvataraNam": {
       "days": [
         292
       ],
+      "jsonClass": "FestivalInstance",
       "name": "gaGgAvataraNam"
     },
     "gajEndra-mOkSaH~1": {
       "days": [
         90
       ],
+      "jsonClass": "FestivalInstance",
       "name": "gajEndra-mOkSaH~1"
     },
     "gajEndra-mOkSaH~2": {
       "days": [
         233
       ],
+      "jsonClass": "FestivalInstance",
       "name": "gajEndra-mOkSaH~2"
     },
     "garuDa-paJcamI": {
       "days": [
         227
       ],
+      "jsonClass": "FestivalInstance",
       "name": "garuDa-paJcamI"
     },
     "gaurI-vratam": {
       "days": [
         271
       ],
+      "jsonClass": "FestivalInstance",
       "name": "gaurI-vratam"
     },
     "gaurI~tRtIyA/saubhAgya-gaurI-vratam": {
       "days": [
         79
       ],
+      "jsonClass": "FestivalInstance",
       "name": "gaurI~tRtIyA/saubhAgya-gaurI-vratam"
     },
     "gavAmayana-dvAdazI": {
       "days": [
         175
       ],
+      "jsonClass": "FestivalInstance",
       "name": "gavAmayana-dvAdazI"
     },
     "ghOTaka-paJcamI": {
       "days": [
         302
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ghOTaka-paJcamI"
     },
     "girijA-kalyANam": {
       "days": [
         117
       ],
+      "jsonClass": "FestivalInstance",
       "name": "girijA-kalyANam"
     },
     "guru-pUrNimA/vyAsa-pUjA": {
       "days": [
         208
       ],
+      "jsonClass": "FestivalInstance",
       "name": "guru-pUrNimA/vyAsa-pUjA"
     },
     "gurupuSya-puNyakAlaH": {
@@ -75944,96 +76133,112 @@
         249,
         277
       ],
+      "jsonClass": "FestivalInstance",
       "name": "gurupuSya-puNyakAlaH"
     },
     "guruvAyupura-EkAdazI": {
       "days": [
         323
       ],
+      "jsonClass": "FestivalInstance",
       "name": "guruvAyupura-EkAdazI"
     },
     "hOli": {
       "days": [
         61
       ],
+      "jsonClass": "FestivalInstance",
       "name": "hOli"
     },
     "hOlikA-pUrNimA": {
       "days": [
         60
       ],
+      "jsonClass": "FestivalInstance",
       "name": "hOlikA-pUrNimA"
     },
     "hala-SaSThI": {
       "days": [
         244
       ],
+      "jsonClass": "FestivalInstance",
       "name": "hala-SaSThI"
     },
     "haritAlikA-vratam": {
       "days": [
         255
       ],
+      "jsonClass": "FestivalInstance",
       "name": "haritAlikA-vratam"
     },
     "hariyAlI~tRtIyA": {
       "days": [
         225
       ],
+      "jsonClass": "FestivalInstance",
       "name": "hariyAlI~tRtIyA"
     },
     "haya-pUjA": {
       "days": [
         81
       ],
+      "jsonClass": "FestivalInstance",
       "name": "haya-pUjA"
     },
     "hayagrIva~jayantI": {
       "days": [
         238
       ],
+      "jsonClass": "FestivalInstance",
       "name": "hayagrIva~jayantI"
     },
     "indra-pUjA/gO-pUjA": {
       "days": [
         15
       ],
+      "jsonClass": "FestivalInstance",
       "name": "indra-pUjA/gO-pUjA"
     },
     "jImUtavAhana-pUjA~1": {
       "days": [
         275
       ],
+      "jsonClass": "FestivalInstance",
       "name": "jImUtavAhana-pUjA~1"
     },
     "jImUtavAhana-pUjA~2": {
       "days": [
         305
       ],
+      "jsonClass": "FestivalInstance",
       "name": "jImUtavAhana-pUjA~2"
     },
     "jIvaputrikASTamI": {
       "days": [
         305
       ],
+      "jsonClass": "FestivalInstance",
       "name": "jIvaputrikASTamI"
     },
     "jagaddhAtrI-pUjA": {
       "days": [
         321
       ],
+      "jsonClass": "FestivalInstance",
       "name": "jagaddhAtrI-pUjA"
     },
     "jagannAtha-ratha-yAtrA": {
       "days": [
         195
       ],
+      "jsonClass": "FestivalInstance",
       "name": "jagannAtha-ratha-yAtrA"
     },
     "jayAvApti-vratam": {
       "days": [
         298
       ],
+      "jsonClass": "FestivalInstance",
       "name": "jayAvApti-vratam"
     },
     "jayA~mahAdvAdazI": {
@@ -76041,558 +76246,651 @@
         58,
         250
       ],
+      "jsonClass": "FestivalInstance",
       "name": "jayA~mahAdvAdazI"
     },
     "jhUlElAla~jayantI": {
       "days": [
         78
       ],
+      "jsonClass": "FestivalInstance",
       "name": "jhUlElAla~jayantI"
     },
     "jyESThASTamI": {
       "days": [
         171
       ],
+      "jsonClass": "FestivalInstance",
       "name": "jyESThASTamI"
     },
     "jyaiSTha-(adhika)-amAvAsyA": {
       "days": [
         164
       ],
+      "jsonClass": "FestivalInstance",
       "name": "jyaiSTha-(adhika)-amAvAsyA"
     },
     "jyaiSTha-amAvAsyA (alabhyam\u2013ArdrA, puSkalA)": {
       "days": [
         193
       ],
+      "jsonClass": "FestivalInstance",
       "name": "jyaiSTha-amAvAsyA (alabhyam\u2013ArdrA, puSkalA)"
     },
     "kAJcI 1 jagadguru zrI~Adi-zaGkara bhagavatpAda ArAdhanA~\\#{2494}": {
       "days": [
         145
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAJcI 1 jagadguru zrI~Adi-zaGkara bhagavatpAda ArAdhanA~\\#{2494}"
     },
     "kAJcI 10 jagadguru zrI~surEzvarEndra sarasvatI ArAdhanA~\\#{1892}": {
       "days": [
         208
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAJcI 10 jagadguru zrI~surEzvarEndra sarasvatI ArAdhanA~\\#{1892}"
     },
     "kAJcI 11 jagadguru zrI~zivAnanda cidghanEndra sarasvatI ArAdhanA~\\#{1846}": {
       "days": [
         26
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAJcI 11 jagadguru zrI~zivAnanda cidghanEndra sarasvatI ArAdhanA~\\#{1846}"
     },
     "kAJcI 12 jagadguru zrI~candrazEkharEndra sarasvatI ArAdhanA~\\#{1784}": {
       "days": [
         201
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAJcI 12 jagadguru zrI~candrazEkharEndra sarasvatI ArAdhanA~\\#{1784}"
     },
     "kAJcI 13 jagadguru zrI~saccidghanEndra sarasvatI ArAdhanA~\\#{1747}": {
       "days": [
         357
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAJcI 13 jagadguru zrI~saccidghanEndra sarasvatI ArAdhanA~\\#{1747}"
     },
     "kAJcI 15 jagadguru zrI~gaGgAdharEndra sarasvatI ArAdhanA~\\#{1690}": {
       "days": [
         77
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAJcI 15 jagadguru zrI~gaGgAdharEndra sarasvatI ArAdhanA~\\#{1690}"
     },
     "kAJcI 16 jagadguru zrI~ujjvala zaGkarEndra sarasvatI ArAdhanA~\\#{1652}": {
       "days": [
         171
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAJcI 16 jagadguru zrI~ujjvala zaGkarEndra sarasvatI ArAdhanA~\\#{1652}"
     },
     "kAJcI 17 jagadguru zrI~sadAzivEndra sarasvatI ArAdhanA~\\#{1644}": {
       "days": [
         173
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAJcI 17 jagadguru zrI~sadAzivEndra sarasvatI ArAdhanA~\\#{1644}"
     },
     "kAJcI 18 jagadguru zrI~yOgatilaka surEndra sarasvatI ArAdhanA~\\#{1634}": {
       "days": [
         341
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAJcI 18 jagadguru zrI~yOgatilaka surEndra sarasvatI ArAdhanA~\\#{1634}"
     },
     "kAJcI 19 jagadguru zrI~mArtANDa vidyAghanEndra sarasvatI ArAdhanA~\\#{1621}": {
       "days": [
         291
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAJcI 19 jagadguru zrI~mArtANDa vidyAghanEndra sarasvatI ArAdhanA~\\#{1621}"
     },
     "kAJcI 2 jagadguru zrI~surEzvarAcArya ArAdhanA~\\#{2424}": {
       "days": [
         175
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAJcI 2 jagadguru zrI~surEzvarAcArya ArAdhanA~\\#{2424}"
     },
     "kAJcI 20 jagadguru zrI~mUkazaGkarEndra sarasvatI ArAdhanA~\\#{1582}": {
       "days": [
         238
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAJcI 20 jagadguru zrI~mUkazaGkarEndra sarasvatI ArAdhanA~\\#{1582}"
     },
     "kAJcI 21 jagadguru zrI~sArvabhaumaguruH candracUDEndra sarasvatI ArAdhanA~\\#{1572}": {
       "days": [
         246
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAJcI 21 jagadguru zrI~sArvabhaumaguruH candracUDEndra sarasvatI ArAdhanA~\\#{1572}"
     },
     "kAJcI 22 jagadguru zrI~paripUrNabOdhEndra sarasvatI ArAdhanA~\\#{1538}": {
       "days": [
         320
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAJcI 22 jagadguru zrI~paripUrNabOdhEndra sarasvatI ArAdhanA~\\#{1538}"
     },
     "kAJcI 23 jagadguru zrI~saccitsukhEndra sarasvatI ArAdhanA~\\#{1507}": {
       "days": [
         170
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAJcI 23 jagadguru zrI~saccitsukhEndra sarasvatI ArAdhanA~\\#{1507}"
     },
     "kAJcI 24 jagadguru zrI~citsukhEndra sarasvatI ArAdhanA~\\#{1492}": {
       "days": [
         247
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAJcI 24 jagadguru zrI~citsukhEndra sarasvatI ArAdhanA~\\#{1492}"
     },
     "kAJcI 25 jagadguru zrI~saccidAnandaghanEndra sarasvatI ArAdhanA~\\#{1471}": {
       "days": [
         194
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAJcI 25 jagadguru zrI~saccidAnandaghanEndra sarasvatI ArAdhanA~\\#{1471}"
     },
     "kAJcI 26 jagadguru zrI~prajJAghanEndra sarasvatI ArAdhanA~\\#{1455}": {
       "days": [
         113
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAJcI 26 jagadguru zrI~prajJAghanEndra sarasvatI ArAdhanA~\\#{1455}"
     },
     "kAJcI 27 jagadguru zrI~cidvilAsEndra sarasvatI ArAdhanA~\\#{1442}": {
       "days": [
         77
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAJcI 27 jagadguru zrI~cidvilAsEndra sarasvatI ArAdhanA~\\#{1442}"
     },
     "kAJcI 28 jagadguru zrI~mahAdEvEndra sarasvatI 1 ArAdhanA~\\#{1418}": {
       "days": [
         336
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAJcI 28 jagadguru zrI~mahAdEvEndra sarasvatI 1 ArAdhanA~\\#{1418}"
     },
     "kAJcI 29 jagadguru zrI~pUrNabOdhEndra sarasvatI ArAdhanA~\\#{1401}": {
       "days": [
         233
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAJcI 29 jagadguru zrI~pUrNabOdhEndra sarasvatI ArAdhanA~\\#{1401}"
     },
     "kAJcI 3 jagadguru zrI~sarvajJAtmEndra sarasvatI ArAdhanA~\\#{2382}": {
       "days": [
         134
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAJcI 3 jagadguru zrI~sarvajJAtmEndra sarasvatI ArAdhanA~\\#{2382}"
     },
     "kAJcI 30 jagadguru zrI~bOdhEndra sarasvatI 2 ArAdhanA~\\#{1364}": {
       "days": [
         123
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAJcI 30 jagadguru zrI~bOdhEndra sarasvatI 2 ArAdhanA~\\#{1364}"
     },
     "kAJcI 31 jagadguru zrI~brahmAnandaghanEndra sarasvatI ArAdhanA~\\#{1351}": {
       "days": [
         205
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAJcI 31 jagadguru zrI~brahmAnandaghanEndra sarasvatI ArAdhanA~\\#{1351}"
     },
     "kAJcI 32 jagadguru zrI~cidAnandaghanEndra sarasvatI ArAdhanA~\\#{1347}": {
       "days": [
         347
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAJcI 32 jagadguru zrI~cidAnandaghanEndra sarasvatI ArAdhanA~\\#{1347}"
     },
     "kAJcI 33 jagadguru zrI~saccidAnandaghanEndra sarasvatI 2 ArAdhanA~\\#{1327}": {
       "days": [
         273
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAJcI 33 jagadguru zrI~saccidAnandaghanEndra sarasvatI 2 ArAdhanA~\\#{1327}"
     },
     "kAJcI 35 jagadguru zrI~citsukhEndra sarasvatI ArAdhanA~\\#{1282}": {
       "days": [
         199
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAJcI 35 jagadguru zrI~citsukhEndra sarasvatI ArAdhanA~\\#{1282}"
     },
     "kAJcI 36 jagadguru zrI~citsukhAnandEndra sarasvatI ArAdhanA~\\#{1261}": {
       "days": [
         297
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAJcI 36 jagadguru zrI~citsukhAnandEndra sarasvatI ArAdhanA~\\#{1261}"
     },
     "kAJcI 37 jagadguru zrI~vidyAghanEndra sarasvatI 3 ArAdhanA~\\#{1230}": {
       "days": [
         3
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAJcI 37 jagadguru zrI~vidyAghanEndra sarasvatI 3 ArAdhanA~\\#{1230}"
     },
     "kAJcI 38 jagadguru zrI~abhinavazaGkarEndra sarasvatI ArAdhanA~\\#{1179}": {
       "days": [
         223
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAJcI 38 jagadguru zrI~abhinavazaGkarEndra sarasvatI ArAdhanA~\\#{1179}"
     },
     "kAJcI 39 jagadguru zrI~saccidvilAsEndra sarasvatI ArAdhanA~\\#{1146}": {
       "days": [
         118
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAJcI 39 jagadguru zrI~saccidvilAsEndra sarasvatI ArAdhanA~\\#{1146}"
     },
     "kAJcI 4 jagadguru zrI~satyabOdhEndra sarasvatI ArAdhanA~\\#{2286}": {
       "days": [
         363
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAJcI 4 jagadguru zrI~satyabOdhEndra sarasvatI ArAdhanA~\\#{2286}"
     },
     "kAJcI 40 jagadguru zrI~mahAdEvEndra sarasvatI 2 ArAdhanA~\\#{1104}": {
       "days": [
         111
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAJcI 40 jagadguru zrI~mahAdEvEndra sarasvatI 2 ArAdhanA~\\#{1104}"
     },
     "kAJcI 41 jagadguru zrI~gaGgAdharEndra sarasvatI 2 ArAdhanA~\\#{1069}": {
       "days": [
         223
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAJcI 41 jagadguru zrI~gaGgAdharEndra sarasvatI 2 ArAdhanA~\\#{1069}"
     },
     "kAJcI 42 jagadguru zrI~brahmAnandaghanEndra sarasvatI 2 ArAdhanA~\\#{1041}": {
       "days": [
         334
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAJcI 42 jagadguru zrI~brahmAnandaghanEndra sarasvatI 2 ArAdhanA~\\#{1041}"
     },
     "kAJcI 43 jagadguru zrI~AnandaghanEndra sarasvatI ArAdhanA~\\#{1005}": {
       "days": [
         84
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAJcI 43 jagadguru zrI~AnandaghanEndra sarasvatI ArAdhanA~\\#{1005}"
     },
     "kAJcI 44 jagadguru zrI~pUrNabOdhEndra sarasvatI 2 ArAdhanA~\\#{979}": {
       "days": [
         280
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAJcI 44 jagadguru zrI~pUrNabOdhEndra sarasvatI 2 ArAdhanA~\\#{979}"
     },
     "kAJcI 45 jagadguru zrI~paramazivEndra sarasvatI 1 ArAdhanA~\\#{958}": {
       "days": [
         288
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAJcI 45 jagadguru zrI~paramazivEndra sarasvatI 1 ArAdhanA~\\#{958}"
     },
     "kAJcI 46 jagadguru zrI~sAndrAnandabOdhEndra sarasvatI ArAdhanA~\\#{921}": {
       "days": [
         223
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAJcI 46 jagadguru zrI~sAndrAnandabOdhEndra sarasvatI ArAdhanA~\\#{921}"
     },
     "kAJcI 47 jagadguru zrI~candrazEkharEndra sarasvatI 3 ArAdhanA~\\#{853}": {
       "days": [
         105
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAJcI 47 jagadguru zrI~candrazEkharEndra sarasvatI 3 ArAdhanA~\\#{853}"
     },
     "kAJcI 48 jagadguru zrI~advaitAnandabOdhEndra sarasvatI ArAdhanA~\\#{819}": {
       "days": [
         202
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAJcI 48 jagadguru zrI~advaitAnandabOdhEndra sarasvatI ArAdhanA~\\#{819}"
     },
     "kAJcI 49 jagadguru zrI~mahAdEvEndra sarasvatI 3 ArAdhanA~\\#{772}": {
       "days": [
         334
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAJcI 49 jagadguru zrI~mahAdEvEndra sarasvatI 3 ArAdhanA~\\#{772}"
     },
     "kAJcI 5 jagadguru zrI~jJAnAnandEndra sarasvatI ArAdhanA~\\#{2223}": {
       "days": [
         348
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAJcI 5 jagadguru zrI~jJAnAnandEndra sarasvatI ArAdhanA~\\#{2223}"
     },
     "kAJcI 50 jagadguru zrI~candracUDEndra sarasvatI 2 ArAdhanA~\\#{722}": {
       "days": [
         169
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAJcI 50 jagadguru zrI~candracUDEndra sarasvatI 2 ArAdhanA~\\#{722}"
     },
     "kAJcI 51 jagadguru zrI~vidyAtIrthEndra sarasvatI ArAdhanA~\\#{633}": {
       "days": [
         32
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAJcI 51 jagadguru zrI~vidyAtIrthEndra sarasvatI ArAdhanA~\\#{633}"
     },
     "kAJcI 52 jagadguru zrI~zaGkarAnandEndra sarasvatI ArAdhanA~\\#{602}": {
       "days": [
         77
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAJcI 52 jagadguru zrI~zaGkarAnandEndra sarasvatI ArAdhanA~\\#{602}"
     },
     "kAJcI 53 jagadguru zrI~pUrNAnanda sadAzivEndra sarasvatI ArAdhanA~\\#{521}": {
       "days": [
         173
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAJcI 53 jagadguru zrI~pUrNAnanda sadAzivEndra sarasvatI ArAdhanA~\\#{521}"
     },
     "kAJcI 54 jagadguru zrI~vyAsAcala mahAdEvEndra sarasvatI ArAdhanA~\\#{512}": {
       "days": [
         209
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAJcI 54 jagadguru zrI~vyAsAcala mahAdEvEndra sarasvatI ArAdhanA~\\#{512}"
     },
     "kAJcI 56 jagadguru zrI~sarvajJa sadAziva bOdhEndra sarasvatI ArAdhanA~\\#{480}": {
       "days": [
         98
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAJcI 56 jagadguru zrI~sarvajJa sadAziva bOdhEndra sarasvatI ArAdhanA~\\#{480}"
     },
     "kAJcI 57 jagadguru zrI~paramazivEndra sarasvatI 2 ArAdhanA~\\#{433}": {
       "days": [
         232
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAJcI 57 jagadguru zrI~paramazivEndra sarasvatI 2 ArAdhanA~\\#{433}"
     },
     "kAJcI 58 jagadguru zrI~AtmabOdhEndra sarasvatI ArAdhanA~\\#{381}": {
       "days": [
         334
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAJcI 58 jagadguru zrI~AtmabOdhEndra sarasvatI ArAdhanA~\\#{381}"
     },
     "kAJcI 59 jagadguru zrI~bhagavannAma bOdhEndra sarasvatI ArAdhanA~\\#{327}": {
       "days": [
         267
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAJcI 59 jagadguru zrI~bhagavannAma bOdhEndra sarasvatI ArAdhanA~\\#{327}"
     },
     "kAJcI 6 jagadguru zrI~zuddhAnandEndra sarasvatI ArAdhanA~\\#{2142}": {
       "days": [
         169
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAJcI 6 jagadguru zrI~zuddhAnandEndra sarasvatI ArAdhanA~\\#{2142}"
     },
     "kAJcI 60 jagadguru zrI~advaitAtmaprakAzEndra sarasvatI ArAdhanA~\\#{315}": {
       "days": [
         92
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAJcI 60 jagadguru zrI~advaitAtmaprakAzEndra sarasvatI ArAdhanA~\\#{315}"
     },
     "kAJcI 61 jagadguru zrI~mahAdEvEndra sarasvatI 4 ArAdhanA~\\#{273}": {
       "days": [
         172
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAJcI 61 jagadguru zrI~mahAdEvEndra sarasvatI 4 ArAdhanA~\\#{273}"
     },
     "kAJcI 62 jagadguru zrI~candrazEkharEndra sarasvatI 4 ArAdhanA~\\#{235}": {
       "days": [
         3
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAJcI 62 jagadguru zrI~candrazEkharEndra sarasvatI 4 ArAdhanA~\\#{235}"
     },
     "kAJcI 63 jagadguru zrI~mahAdEvEndra sarasvatI 5 ArAdhanA~\\#{205}": {
       "days": [
         205
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAJcI 63 jagadguru zrI~mahAdEvEndra sarasvatI 5 ArAdhanA~\\#{205}"
     },
     "kAJcI 64 jagadguru zrI~candrazEkharEndra sarasvatI 5 ArAdhanA~\\#{168}": {
       "days": [
         327
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAJcI 64 jagadguru zrI~candrazEkharEndra sarasvatI 5 ArAdhanA~\\#{168}"
     },
     "kAJcI 65 jagadguru zrI~sudarzana mahAdEvEndra sarasvatI ArAdhanA~\\#{128}": {
       "days": [
         76
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAJcI 65 jagadguru zrI~sudarzana mahAdEvEndra sarasvatI ArAdhanA~\\#{128}"
     },
     "kAJcI 66 jagadguru zrI~candrazEkharEndra sarasvatI 6 ArAdhanA~\\#{111}": {
       "days": [
         38
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAJcI 66 jagadguru zrI~candrazEkharEndra sarasvatI 6 ArAdhanA~\\#{111}"
     },
     "kAJcI 67 jagadguru zrI~mahAdEvEndra sarasvatI 5 ArAdhanA~\\#{111}": {
       "days": [
         47
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAJcI 67 jagadguru zrI~mahAdEvEndra sarasvatI 5 ArAdhanA~\\#{111}"
     },
     "kAJcI 7 jagadguru zrI~AnandajJAnEndra sarasvatI ArAdhanA~\\#{2073}": {
       "days": [
         129
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAJcI 7 jagadguru zrI~AnandajJAnEndra sarasvatI ArAdhanA~\\#{2073}"
     },
     "kAJcI 9 jagadguru zrI~kRpAzaGkarEndra sarasvatI ArAdhanA~\\#{1950}": {
       "days": [
         329
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAJcI 9 jagadguru zrI~kRpAzaGkarEndra sarasvatI ArAdhanA~\\#{1950}"
     },
     "kAJcI jagadguru zrI~candrazEkharEndra sarasvatI 7 jayantI~\\#{125}": {
       "days": [
         149
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAJcI jagadguru zrI~candrazEkharEndra sarasvatI 7 jayantI~\\#{125}"
     },
     "kAJcI jagadguru zrI~jayEndra sarasvatI Azrama-svIkAra-jayantI~\\#{65}": {
       "days": [
         92
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAJcI jagadguru zrI~jayEndra sarasvatI Azrama-svIkAra-jayantI~\\#{65}"
     },
     "kAJcI jagadguru zrI~jayEndra sarasvatI jayantI~\\#{84}": {
       "days": [
         210
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAJcI jagadguru zrI~jayEndra sarasvatI jayantI~\\#{84}"
     },
     "kAJcI jagadguru zrI~zaGkara vijayEndra sarasvatI Azrama-svIkAra-jayantI~\\#{36}": {
       "days": [
         151
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAJcI jagadguru zrI~zaGkara vijayEndra sarasvatI Azrama-svIkAra-jayantI~\\#{36}"
     },
     "kAJcI jagadguru zrI~zaGkara vijayEndra sarasvatI jayantI~\\#{50}": {
       "days": [
         72
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAJcI jagadguru zrI~zaGkara vijayEndra sarasvatI jayantI~\\#{50}"
     },
     "kAJcI kAmakOTi-maTha-pratiSThApana~jayantI~\\#{2500}": {
       "days": [
         120
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAJcI kAmakOTi-maTha-pratiSThApana~jayantI~\\#{2500}"
     },
     "kAlASTamI": {
       "days": [
         305
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAlASTamI"
     },
     "kAla-trirAtri-vratam": {
       "days": [
         290
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAla-trirAtri-vratam"
     },
     "kAlabhairavASTamI": {
       "days": [
         334
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAlabhairavASTamI"
     },
     "kAma-dahanam": {
       "days": [
         60
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAma-dahanam"
     },
     "kArtavIryArjuna~jayantI": {
       "days": [
         320
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kArtavIryArjuna~jayantI"
     },
     "kArttika-amAvAsyA (alabhyam\u2013anUrAdhA, puSkalA)": {
       "days": [
         340
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kArttika-amAvAsyA (alabhyam\u2013anUrAdhA, puSkalA)"
     },
     "kArttika-mAsa-antimatrayatithi-vrata-ArambhaH": {
       "days": [
         325
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kArttika-mAsa-antimatrayatithi-vrata-ArambhaH"
     },
     "kArttika-mAsa-antimatrayatithi-vrata-samApanam": {
       "days": [
         327
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kArttika-mAsa-antimatrayatithi-vrata-samApanam"
     },
     "kArttika-pUrNimA-snAnam": {
       "days": [
         327
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kArttika-pUrNimA-snAnam"
     },
     "kArttika-snAnapUrtiH": {
       "days": [
         341
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kArttika-snAnapUrtiH"
     },
     "kAtyAyanI~jayantI": {
       "days": [
         281
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAtyAyanI~jayantI"
     },
     "kAvErI-antya-puSkara-ArambhaH": {
       "days": [
         273
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAvErI-antya-puSkara-ArambhaH"
     },
     "kAvErI-antya-puSkara-samApanam": {
       "days": [
         284
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kAvErI-antya-puSkara-samApanam"
     },
     "kEdAra-gaurI-vratam": {
       "days": [
         311
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kEdAra-gaurI-vratam"
     },
     "kO-jAgarti-vratam": {
       "days": [
         296
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kO-jAgarti-vratam"
     },
     "kOkila-vratam": {
       "days": [
         208
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kOkila-vratam"
     },
     "kRSNAGgAraka-caturdazI-puNyakAlaH/yamatarpaNam": {
       "days": [
         310
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kRSNAGgAraka-caturdazI-puNyakAlaH/yamatarpaNam"
     },
     "kRtayugAdiH": {
       "days": [
         108
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kRtayugAdiH"
     },
     "kRttikA-maNDala-pArAyaNam": {
       "days": [
         321
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kRttikA-maNDala-pArAyaNam"
     },
     "kRttikA-vratam": {
@@ -76611,6 +76909,7 @@
         327,
         354
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kRttikA-vratam"
     },
     "kRttikA~sOmavAsaraH": {
@@ -76620,318 +76919,371 @@
         330,
         337
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kRttikA~sOmavAsaraH"
     },
     "kUSmANDa-dazamI": {
       "days": [
         292
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kUSmANDa-dazamI"
     },
     "kUrma-kalpAdiH": {
       "days": [
         80
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kUrma-kalpAdiH"
     },
     "kUrma~jayantI": {
       "days": [
         191
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kUrma~jayantI"
     },
     "kaMsa-vadhaH": {
       "days": [
         322
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kaMsa-vadhaH"
     },
     "kaTadAnOtsavaH": {
       "days": [
         263
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kaTadAnOtsavaH"
     },
     "kaTaka-saGkrAntiH": {
       "days": [
         198
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kaTaka-saGkrAntiH"
     },
     "kabIradAsa~jayantI": {
       "days": [
         179
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kabIradAsa~jayantI"
     },
     "kadalI-gaurI-vratam/pUjA": {
       "days": [
         168
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kadalI-gaurI-vratam/pUjA"
     },
     "kaizika-EkAdazI": {
       "days": [
         323
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kaizika-EkAdazI"
     },
     "kaizika-dvAdazI": {
       "days": [
         324
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kaizika-dvAdazI"
     },
     "kajarI~tRtIyA": {
       "days": [
         271
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kajarI~tRtIyA"
     },
     "kajjalI~tRtIyA": {
       "days": [
         241
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kajjalI~tRtIyA"
     },
     "kaliyugAdiH": {
       "days": [
         46
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kaliyugAdiH"
     },
     "kalki~jayantI": {
       "days": [
         228
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kalki~jayantI"
     },
     "kamalA~jayantI": {
       "days": [
         311
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kamalA~jayantI"
     },
     "kanaka-gaNEza-vratam": {
       "days": [
         300
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kanaka-gaNEza-vratam"
     },
     "kapila-SaSThI": {
       "days": [
         273
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kapila-SaSThI"
     },
     "karaka-caturthI": {
       "days": [
         300
       ],
+      "jsonClass": "FestivalInstance",
       "name": "karaka-caturthI"
     },
     "karavIra-vratam": {
       "days": [
         165
       ],
+      "jsonClass": "FestivalInstance",
       "name": "karavIra-vratam"
     },
     "kaumArI-pUjA": {
       "days": [
         231
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kaumArI-pUjA"
     },
     "kaumAra-pUjA": {
       "days": [
         247
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kaumAra-pUjA"
     },
     "kaumudI-utsavaH": {
       "days": [
         297
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kaumudI-utsavaH"
     },
     "kazyapa~maharSi~jayantI": {
       "days": [
         125
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kazyapa~maharSi~jayantI"
     },
     "khODiyAra~mAtA~jayantI": {
       "days": [
         25
       ],
+      "jsonClass": "FestivalInstance",
       "name": "khODiyAra~mAtA~jayantI"
     },
     "kucEla-dinam": {
       "days": [
         353
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kucEla-dinam"
     },
     "kukkuTI-vratam": {
       "days": [
         259
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kukkuTI-vratam"
     },
     "kumAra-SaSThI-vratam": {
       "days": [
         199
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kumAra-SaSThI-vratam"
     },
     "kumAra-pUrNimA/mahA-azvinI": {
       "days": [
         297
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kumAra-pUrNimA/mahA-azvinI"
     },
     "kumArikA-svapanam": {
       "days": [
         258
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kumArikA-svapanam"
     },
     "kuntI~(pArvatI)-vratam": {
       "days": [
         297
       ],
+      "jsonClass": "FestivalInstance",
       "name": "kuntI~(pArvatI)-vratam"
     },
     "lAvaNya-gaurI-vratam": {
       "days": [
         110
       ],
+      "jsonClass": "FestivalInstance",
       "name": "lAvaNya-gaurI-vratam"
     },
     "lakSmI-indra-kubEra-pUjA": {
       "days": [
         297
       ],
+      "jsonClass": "FestivalInstance",
       "name": "lakSmI-indra-kubEra-pUjA"
     },
     "lakSmI-paJcamI": {
       "days": [
         81
       ],
+      "jsonClass": "FestivalInstance",
       "name": "lakSmI-paJcamI"
     },
     "lakSmI-varAha~jayantI": {
       "days": [
         95
       ],
+      "jsonClass": "FestivalInstance",
       "name": "lakSmI-varAha~jayantI"
     },
     "lalitA-SaSThI": {
       "days": [
         258
       ],
+      "jsonClass": "FestivalInstance",
       "name": "lalitA-SaSThI"
     },
     "lalitA-gaurI-vratam": {
       "days": [
         300
       ],
+      "jsonClass": "FestivalInstance",
       "name": "lalitA-gaurI-vratam"
     },
     "lalitA-paJcamI": {
       "days": [
         286
       ],
+      "jsonClass": "FestivalInstance",
       "name": "lalitA-paJcamI"
     },
     "lalitA~jayantI": {
       "days": [
         31
       ],
+      "jsonClass": "FestivalInstance",
       "name": "lalitA~jayantI"
     },
     "mAghI~sarasvatI-pUjA": {
       "days": [
         22
       ],
+      "jsonClass": "FestivalInstance",
       "name": "mAghI~sarasvatI-pUjA"
     },
     "mAgha-aSTakA-pUrvEdyuH": {
       "days": [
         37
       ],
+      "jsonClass": "FestivalInstance",
       "name": "mAgha-aSTakA-pUrvEdyuH"
     },
     "mAgha-aSTakA-zrAddham": {
       "days": [
         38
       ],
+      "jsonClass": "FestivalInstance",
       "name": "mAgha-aSTakA-zrAddham"
     },
     "mAgha-amAvAsyA (alabhyam\u2013zraviSThA, puSkalA)": {
       "days": [
         46
       ],
+      "jsonClass": "FestivalInstance",
       "name": "mAgha-amAvAsyA (alabhyam\u2013zraviSThA, puSkalA)"
     },
     "mAgha-anvaSTakA-zrAddham": {
       "days": [
         39
       ],
+      "jsonClass": "FestivalInstance",
       "name": "mAgha-anvaSTakA-zrAddham"
     },
     "mAgha-pUrNimA": {
       "days": [
         31
       ],
+      "jsonClass": "FestivalInstance",
       "name": "mAgha-pUrNimA"
     },
     "mAgha-pUrNimA-snAnam": {
       "days": [
         31
       ],
+      "jsonClass": "FestivalInstance",
       "name": "mAgha-pUrNimA-snAnam"
     },
     "mAgha-snAnapUrtiH": {
       "days": [
         46
       ],
+      "jsonClass": "FestivalInstance",
       "name": "mAgha-snAnapUrtiH"
     },
     "mArgazIrSa-aSTakA-pUrvEdyuH": {
       "days": [
         362
       ],
+      "jsonClass": "FestivalInstance",
       "name": "mArgazIrSa-aSTakA-pUrvEdyuH"
     },
     "mArgazIrSa-aSTakA-zrAddham": {
       "days": [
         363
       ],
+      "jsonClass": "FestivalInstance",
       "name": "mArgazIrSa-aSTakA-zrAddham"
     },
     "mArgazIrSa-anvaSTakA-zrAddham": {
       "days": [
         364
       ],
+      "jsonClass": "FestivalInstance",
       "name": "mArgazIrSa-anvaSTakA-zrAddham"
     },
     "mArgazIrSa-pUrNimA": {
       "days": [
         356
       ],
+      "jsonClass": "FestivalInstance",
       "name": "mArgazIrSa-pUrNimA"
     },
     "mArgazIrSa-zivaliGga-SaSThI": {
       "days": [
         347
       ],
+      "jsonClass": "FestivalInstance",
       "name": "mArgazIrSa-zivaliGga-SaSThI"
     },
     "mArkaNDEya~jayantI": {
       "days": [
         21
       ],
+      "jsonClass": "FestivalInstance",
       "name": "mArkaNDEya~jayantI"
     },
     "mAsazivarAtriH": {
@@ -76949,438 +77301,511 @@
         309,
         339
       ],
+      "jsonClass": "FestivalInstance",
       "name": "mAsazivarAtriH"
     },
     "mESa-saGkrAntiH~(vilambaH-saMvatsaraH)": {
       "days": [
         104
       ],
+      "jsonClass": "FestivalInstance",
       "name": "mESa-saGkrAntiH~(vilambaH-saMvatsaraH)"
     },
     "mEghapAlIya-tRtIyA": {
       "days": [
         284
       ],
+      "jsonClass": "FestivalInstance",
       "name": "mEghapAlIya-tRtIyA"
     },
     "mIrAbAI~jayantI~\\#{521}": {
       "days": [
         297
       ],
+      "jsonClass": "FestivalInstance",
       "name": "mIrAbAI~jayantI~\\#{521}"
     },
     "mRgazIrSa-vratam": {
       "days": [
         253
       ],
+      "jsonClass": "FestivalInstance",
       "name": "mRgazIrSa-vratam"
     },
     "maGgala-vratam": {
       "days": [
         305
       ],
+      "jsonClass": "FestivalInstance",
       "name": "maGgala-vratam"
     },
     "maNikarNikA-snAnam/vaikuNTha-caturdazI": {
       "days": [
         326
       ],
+      "jsonClass": "FestivalInstance",
       "name": "maNikarNikA-snAnam/vaikuNTha-caturdazI"
     },
     "madana-caturdazI": {
       "days": [
         89
       ],
+      "jsonClass": "FestivalInstance",
       "name": "madana-caturdazI"
     },
     "madana-trayOdazI": {
       "days": [
         88
       ],
+      "jsonClass": "FestivalInstance",
       "name": "madana-trayOdazI"
     },
     "madhuzrAvaNi-vratam": {
       "days": [
         225
       ],
+      "jsonClass": "FestivalInstance",
       "name": "madhuzrAvaNi-vratam"
     },
     "madhvAcArya~jayantI~\\#{781}": {
       "days": [
         292
       ],
+      "jsonClass": "FestivalInstance",
       "name": "madhvAcArya~jayantI~\\#{781}"
     },
     "madhva-navamI": {
       "days": [
         26
       ],
+      "jsonClass": "FestivalInstance",
       "name": "madhva-navamI"
     },
     "madhyASTamI": {
       "days": [
         275
       ],
+      "jsonClass": "FestivalInstance",
       "name": "madhyASTamI"
     },
     "mahAbharaNI": {
       "days": [
         271
       ],
+      "jsonClass": "FestivalInstance",
       "name": "mahAbharaNI"
     },
     "mahAdEvASTamI": {
       "days": [
         334
       ],
+      "jsonClass": "FestivalInstance",
       "name": "mahAdEvASTamI"
     },
     "mahAjayA~saptamI": {
       "days": [
         229
       ],
+      "jsonClass": "FestivalInstance",
       "name": "mahAjayA~saptamI"
     },
     "mahAkAlI~jayantI": {
       "days": [
         245
       ],
+      "jsonClass": "FestivalInstance",
       "name": "mahAkAlI~jayantI"
     },
     "mahAlakSmI-vrata-ArambhaH": {
       "days": [
         261
       ],
+      "jsonClass": "FestivalInstance",
       "name": "mahAlakSmI-vrata-ArambhaH"
     },
     "mahAlakSmI-vrata-samApanam": {
       "days": [
         274
       ],
+      "jsonClass": "FestivalInstance",
       "name": "mahAlakSmI-vrata-samApanam"
     },
     "mahAlakSmI-vratam": {
       "days": [
         305
       ],
+      "jsonClass": "FestivalInstance",
       "name": "mahAlakSmI-vratam"
     },
     "mahAlaya-pakSa-ArambhaH": {
       "days": [
         268
       ],
+      "jsonClass": "FestivalInstance",
       "name": "mahAlaya-pakSa-ArambhaH"
     },
     "mahAlaya-pakSa-samApanam": {
       "days": [
         281
       ],
+      "jsonClass": "FestivalInstance",
       "name": "mahAlaya-pakSa-samApanam"
     },
     "mahAnavamI/sarasvatI-pUjA": {
       "days": [
         291
       ],
+      "jsonClass": "FestivalInstance",
       "name": "mahAnavamI/sarasvatI-pUjA"
     },
     "mahAtArA~jayantI": {
       "days": [
         84
       ],
+      "jsonClass": "FestivalInstance",
       "name": "mahAtArA~jayantI"
     },
     "mahAzivarAtriH": {
       "days": [
         44
       ],
+      "jsonClass": "FestivalInstance",
       "name": "mahAzivarAtriH"
     },
     "mahA~annAbhiSEkaH": {
       "days": [
         297
       ],
+      "jsonClass": "FestivalInstance",
       "name": "mahA~annAbhiSEkaH"
     },
     "mahEza-navamI": {
       "days": [
         172
       ],
+      "jsonClass": "FestivalInstance",
       "name": "mahEza-navamI"
     },
     "mahiSaghnI-pUjA": {
       "days": [
         201
       ],
+      "jsonClass": "FestivalInstance",
       "name": "mahiSaghnI-pUjA"
     },
     "makara-jyOtiH": {
       "days": [
         14
       ],
+      "jsonClass": "FestivalInstance",
       "name": "makara-jyOtiH"
     },
     "makara-saGkrAntiH": {
       "days": [
         14
       ],
+      "jsonClass": "FestivalInstance",
       "name": "makara-saGkrAntiH"
     },
     "manOratha-dvitIyA": {
       "days": [
         225
       ],
+      "jsonClass": "FestivalInstance",
       "name": "manOratha-dvitIyA"
     },
     "manthana-SaSThI": {
       "days": [
         258
       ],
+      "jsonClass": "FestivalInstance",
       "name": "manthana-SaSThI"
     },
     "manvAdiH~(bhautyaH~[14])": {
       "days": [
         178
       ],
+      "jsonClass": "FestivalInstance",
       "name": "manvAdiH~(bhautyaH~[14])"
     },
     "manvAdiH~(brahmaH~[10])": {
       "days": [
         208
       ],
+      "jsonClass": "FestivalInstance",
       "name": "manvAdiH~(brahmaH~[10])"
     },
     "manvAdiH~(dakSaH~[9])": {
       "days": [
         246
       ],
+      "jsonClass": "FestivalInstance",
       "name": "manvAdiH~(dakSaH~[9])"
     },
     "manvAdiH~(dharmaH~[11])": {
       "days": [
         326
       ],
+      "jsonClass": "FestivalInstance",
       "name": "manvAdiH~(dharmaH~[11])"
     },
     "manvAdiH~(raivataH~[5])": {
       "days": [
         76
       ],
+      "jsonClass": "FestivalInstance",
       "name": "manvAdiH~(raivataH~[5])"
     },
     "manvAdiH~(raucyaH~[13])": {
       "days": [
         90
       ],
+      "jsonClass": "FestivalInstance",
       "name": "manvAdiH~(raucyaH~[13])"
     },
     "manvAdiH~(rudraH~[12])": {
       "days": [
         60
       ],
+      "jsonClass": "FestivalInstance",
       "name": "manvAdiH~(rudraH~[12])"
     },
     "manvAdiH~(sAvarNiH~[8])": {
       "days": [
         24
       ],
+      "jsonClass": "FestivalInstance",
       "name": "manvAdiH~(sAvarNiH~[8])"
     },
     "manvAdiH~(svArOciSaH~[2])": {
       "days": [
         324
       ],
+      "jsonClass": "FestivalInstance",
       "name": "manvAdiH~(svArOciSaH~[2])"
     },
     "manvAdiH~(svAyambhuvaH~[1])": {
       "days": [
         291
       ],
+      "jsonClass": "FestivalInstance",
       "name": "manvAdiH~(svAyambhuvaH~[1])"
     },
     "manvAdiH~(tAmasaH~[4])": {
       "days": [
         255
       ],
+      "jsonClass": "FestivalInstance",
       "name": "manvAdiH~(tAmasaH~[4])"
     },
     "manvAdiH~(uttamaH~[3])": {
       "days": [
         79
       ],
+      "jsonClass": "FestivalInstance",
       "name": "manvAdiH~(uttamaH~[3])"
     },
     "manvAdiH~(vaivasvataH~[7])": {
       "days": [
         202
       ],
+      "jsonClass": "FestivalInstance",
       "name": "manvAdiH~(vaivasvataH~[7])"
     },
     "matsya~jayantI": {
       "days": [
         103
       ],
+      "jsonClass": "FestivalInstance",
       "name": "matsya~jayantI"
     },
     "mauni (pauSa/makara) amAvAsyA (alabhyam\u2013puSkalA)": {
       "days": [
         16
       ],
+      "jsonClass": "FestivalInstance",
       "name": "mauni (pauSa/makara) amAvAsyA (alabhyam\u2013puSkalA)"
     },
     "mitra-saptamI": {
       "days": [
         348
       ],
+      "jsonClass": "FestivalInstance",
       "name": "mitra-saptamI"
     },
     "muttusvAmI~dIkSita~jayantI~\\#{244}": {
       "days": [
         81
       ],
+      "jsonClass": "FestivalInstance",
       "name": "muttusvAmI~dIkSita~jayantI~\\#{244}"
     },
     "nAga-pUjA": {
       "days": [
         273
       ],
+      "jsonClass": "FestivalInstance",
       "name": "nAga-pUjA"
     },
     "nAga-paJcamI": {
       "days": [
         227
       ],
+      "jsonClass": "FestivalInstance",
       "name": "nAga-paJcamI"
     },
     "nArAyaNIyaM~jayantI~\\#{433}": {
       "days": [
         348
       ],
+      "jsonClass": "FestivalInstance",
       "name": "nArAyaNIyaM~jayantI~\\#{433}"
     },
     "nArada~jayantI": {
       "days": [
         122
       ],
+      "jsonClass": "FestivalInstance",
       "name": "nArada~jayantI"
     },
     "nArikEla-pUrNimA": {
       "days": [
         238
       ],
+      "jsonClass": "FestivalInstance",
       "name": "nArikEla-pUrNimA"
     },
     "nRsiMha~jayantI": {
       "days": [
         118
       ],
+      "jsonClass": "FestivalInstance",
       "name": "nRsiMha~jayantI"
     },
     "nandA-saptamI~1": {
       "days": [
         348
       ],
+      "jsonClass": "FestivalInstance",
       "name": "nandA-saptamI~1"
     },
     "nandA-saptamI~2": {
       "days": [
         53
       ],
+      "jsonClass": "FestivalInstance",
       "name": "nandA-saptamI~2"
     },
     "nandA~navamI": {
       "days": [
         261
       ],
+      "jsonClass": "FestivalInstance",
       "name": "nandA~navamI"
     },
     "nandOtsavaH": {
       "days": [
         246
       ],
+      "jsonClass": "FestivalInstance",
       "name": "nandOtsavaH"
     },
     "naraka-caturdazI": {
       "days": [
         310
       ],
+      "jsonClass": "FestivalInstance",
       "name": "naraka-caturdazI"
     },
     "narasiMha-dvAdazI": {
       "days": [
         58
       ],
+      "jsonClass": "FestivalInstance",
       "name": "narasiMha-dvAdazI"
     },
     "narmadA~jayantI": {
       "days": [
         24
       ],
+      "jsonClass": "FestivalInstance",
       "name": "narmadA~jayantI"
     },
     "navama-aparapakSa-ArambhaH": {
       "days": [
         327
       ],
+      "jsonClass": "FestivalInstance",
       "name": "navama-aparapakSa-ArambhaH"
     },
     "navama-aparapakSa-samApanam": {
       "days": [
         340
       ],
+      "jsonClass": "FestivalInstance",
       "name": "navama-aparapakSa-samApanam"
     },
     "nerUr~zrI~sadAziva~brahmEndra~ArAdhanA~\\#{104}": {
       "days": [
         114
       ],
+      "jsonClass": "FestivalInstance",
       "name": "nerUr~zrI~sadAziva~brahmEndra~ArAdhanA~\\#{104}"
     },
     "nikSubhArka-saptamI": {
       "days": [
         37
       ],
+      "jsonClass": "FestivalInstance",
       "name": "nikSubhArka-saptamI"
     },
     "nimiSAmbA~jayantI": {
       "days": [
         115
       ],
+      "jsonClass": "FestivalInstance",
       "name": "nimiSAmbA~jayantI"
     },
     "pANDava~(lAbha)-paJcamI": {
       "days": [
         316
       ],
+      "jsonClass": "FestivalInstance",
       "name": "pANDava~(lAbha)-paJcamI"
     },
     "pApanAzanI~saptamI": {
       "days": [
         229
       ],
+      "jsonClass": "FestivalInstance",
       "name": "pApanAzanI~saptamI"
     },
     "pApanAzinI~mahAdvAdazI": {
       "days": [
         191
       ],
+      "jsonClass": "FestivalInstance",
       "name": "pApanAzinI~mahAdvAdazI"
     },
     "pArthiva-kalpAdiH": {
       "days": [
         108
       ],
+      "jsonClass": "FestivalInstance",
       "name": "pArthiva-kalpAdiH"
     },
     "pArvatI~pavitrArOpaNam": {
       "days": [
         225
       ],
+      "jsonClass": "FestivalInstance",
       "name": "pArvatI~pavitrArOpaNam"
     },
     "pUntAnaM~jayantI~\\#{471}": {
       "days": [
         52
       ],
+      "jsonClass": "FestivalInstance",
       "name": "pUntAnaM~jayantI~\\#{471}"
     },
     "pUrNimA~vratam": {
@@ -77399,126 +77824,147 @@
         327,
         356
       ],
+      "jsonClass": "FestivalInstance",
       "name": "pUrNimA~vratam"
     },
     "paJcAGga-paThanam": {
       "days": [
         104
       ],
+      "jsonClass": "FestivalInstance",
       "name": "paJcAGga-paThanam"
     },
     "pakSavardhinI~mahAdvAdazI": {
       "days": [
         13
       ],
+      "jsonClass": "FestivalInstance",
       "name": "pakSavardhinI~mahAdvAdazI"
     },
     "parAzara~maharSi~jayantI": {
       "days": [
         106
       ],
+      "jsonClass": "FestivalInstance",
       "name": "parAzara~maharSi~jayantI"
     },
     "parazurAma-dvAdazI": {
       "days": [
         117
       ],
+      "jsonClass": "FestivalInstance",
       "name": "parazurAma-dvAdazI"
     },
     "parazurAma~jayantI": {
       "days": [
         108
       ],
+      "jsonClass": "FestivalInstance",
       "name": "parazurAma~jayantI"
     },
     "pati-saJjIvanI-vratam": {
       "days": [
         223
       ],
+      "jsonClass": "FestivalInstance",
       "name": "pati-saJjIvanI-vratam"
     },
     "patrikA-pravEza-pUjA": {
       "days": [
         289
       ],
+      "jsonClass": "FestivalInstance",
       "name": "patrikA-pravEza-pUjA"
     },
     "pauSa-aSTakA-pUrvEdyuH": {
       "days": [
         8
       ],
+      "jsonClass": "FestivalInstance",
       "name": "pauSa-aSTakA-pUrvEdyuH"
     },
     "pauSa-aSTakA-zrAddham": {
       "days": [
         9
       ],
+      "jsonClass": "FestivalInstance",
       "name": "pauSa-aSTakA-zrAddham"
     },
     "pauSa-anvaSTakA-zrAddham": {
       "days": [
         10
       ],
+      "jsonClass": "FestivalInstance",
       "name": "pauSa-anvaSTakA-zrAddham"
     },
     "pavitra-caturdazI": {
       "days": [
         207
       ],
+      "jsonClass": "FestivalInstance",
       "name": "pavitra-caturdazI"
     },
     "payOvrata-ArambhaH": {
       "days": [
         47
       ],
+      "jsonClass": "FestivalInstance",
       "name": "payOvrata-ArambhaH"
     },
     "payOvrata-samApanam": {
       "days": [
         58
       ],
+      "jsonClass": "FestivalInstance",
       "name": "payOvrata-samApanam"
     },
     "phAlguna-aSTakA-pUrvEdyuH": {
       "days": [
         67
       ],
+      "jsonClass": "FestivalInstance",
       "name": "phAlguna-aSTakA-pUrvEdyuH"
     },
     "phAlguna-aSTakA-zrAddham": {
       "days": [
         68
       ],
+      "jsonClass": "FestivalInstance",
       "name": "phAlguna-aSTakA-zrAddham"
     },
     "phAlguna-amAvAsyA (alabhyam\u2013pUrvaprOSThapadA)": {
       "days": [
         76
       ],
+      "jsonClass": "FestivalInstance",
       "name": "phAlguna-amAvAsyA (alabhyam\u2013pUrvaprOSThapadA)"
     },
     "phAlguna-anvaSTakA-zrAddham": {
       "days": [
         69
       ],
+      "jsonClass": "FestivalInstance",
       "name": "phAlguna-anvaSTakA-zrAddham"
     },
     "phUlErA~dUj": {
       "days": [
         48
       ],
+      "jsonClass": "FestivalInstance",
       "name": "phUlErA~dUj"
     },
     "prEta-caturdazI": {
       "days": [
         310
       ],
+      "jsonClass": "FestivalInstance",
       "name": "prEta-caturdazI"
     },
     "prabOdhOtsavaH": {
       "days": [
         324
       ],
+      "jsonClass": "FestivalInstance",
       "name": "prabOdhOtsavaH"
     },
     "pradOSa-vratam": {
@@ -77540,120 +77986,140 @@
         338,
         354
       ],
+      "jsonClass": "FestivalInstance",
       "name": "pradOSa-vratam"
     },
     "pralaya-kalpAdiH": {
       "days": [
         350
       ],
+      "jsonClass": "FestivalInstance",
       "name": "pralaya-kalpAdiH"
     },
     "punnAga-gaurI-vratam": {
       "days": [
         165
       ],
+      "jsonClass": "FestivalInstance",
       "name": "punnAga-gaurI-vratam"
     },
     "purI gOvardhana-maTha-pratiSThApana~jayantI~\\#{2503}": {
       "days": [
         114
       ],
+      "jsonClass": "FestivalInstance",
       "name": "purI gOvardhana-maTha-pratiSThApana~jayantI~\\#{2503}"
     },
     "purandaradAsa-ArAdhanA~\\#{454}": {
       "days": [
         46
       ],
+      "jsonClass": "FestivalInstance",
       "name": "purandaradAsa-ArAdhanA~\\#{454}"
     },
     "rAdhASTamI": {
       "days": [
         260
       ],
+      "jsonClass": "FestivalInstance",
       "name": "rAdhASTamI"
     },
     "rAja-mAtaGgI~jayantI": {
       "days": [
         108
       ],
+      "jsonClass": "FestivalInstance",
       "name": "rAja-mAtaGgI~jayantI"
     },
     "rAmAnuja~jayantI~\\#{1002}": {
       "days": [
         111
       ],
+      "jsonClass": "FestivalInstance",
       "name": "rAmAnuja~jayantI~\\#{1002}"
     },
     "rAmakRSNa-paramahaMsa~jayantI~\\#{183}": {
       "days": [
         48
       ],
+      "jsonClass": "FestivalInstance",
       "name": "rAmakRSNa-paramahaMsa~jayantI~\\#{183}"
     },
     "rAmalakSmaNa-dvAdazI": {
       "days": [
         175
       ],
+      "jsonClass": "FestivalInstance",
       "name": "rAmalakSmaNa-dvAdazI"
     },
     "rOhiNI~dvAdazI": {
       "days": [
         250
       ],
+      "jsonClass": "FestivalInstance",
       "name": "rOhiNI~dvAdazI"
     },
     "raGga-paJcamI": {
       "days": [
         65
       ],
+      "jsonClass": "FestivalInstance",
       "name": "raGga-paJcamI"
     },
     "raMgabharI EkAdazI": {
       "days": [
         57
       ],
+      "jsonClass": "FestivalInstance",
       "name": "raMgabharI EkAdazI"
     },
     "rakSAbandhanam": {
       "days": [
         238
       ],
+      "jsonClass": "FestivalInstance",
       "name": "rakSAbandhanam"
     },
     "rakSA~paJcamI": {
       "days": [
         243
       ],
+      "jsonClass": "FestivalInstance",
       "name": "rakSA~paJcamI"
     },
     "ramaNa~maharSi~ArAdhanA~\\#{68}": {
       "days": [
         133
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ramaNa~maharSi~ArAdhanA~\\#{68}"
     },
     "ramaNa~maharSi~jayantI~\\#{139}": {
       "days": [
         2
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ramaNa~maharSi~jayantI~\\#{139}"
     },
     "ramaNa~maharSi~jayantI~\\#{140}": {
       "days": [
         358
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ramaNa~maharSi~jayantI~\\#{140}"
     },
     "rambhA~tRtIyA": {
       "days": [
         167
       ],
+      "jsonClass": "FestivalInstance",
       "name": "rambhA~tRtIyA"
     },
     "ratha-saptamI": {
       "days": [
         24
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ratha-saptamI"
     },
     "ravipuSyayOga-puNyakAlaH": {
@@ -77662,60 +78128,70 @@
         140,
         168
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ravipuSyayOga-puNyakAlaH"
     },
     "rukmiNI-dvAdazI": {
       "days": [
         117
       ],
+      "jsonClass": "FestivalInstance",
       "name": "rukmiNI-dvAdazI"
     },
     "sAmavEda-upAkarma": {
       "days": [
         254
       ],
+      "jsonClass": "FestivalInstance",
       "name": "sAmavEda-upAkarma"
     },
     "sAmba-dazamI (sUryapUjA)": {
       "days": [
         27
       ],
+      "jsonClass": "FestivalInstance",
       "name": "sAmba-dazamI (sUryapUjA)"
     },
     "sAvitrI-vratam": {
       "days": [
         124
       ],
+      "jsonClass": "FestivalInstance",
       "name": "sAvitrI-vratam"
     },
     "sAvitrya-kalpAdiH": {
       "days": [
         318
       ],
+      "jsonClass": "FestivalInstance",
       "name": "sAvitrya-kalpAdiH"
     },
     "sEGgAlipuram anantarAma-dIkSita-ArAdhanA~\\#{49}": {
       "days": [
         302
       ],
+      "jsonClass": "FestivalInstance",
       "name": "sEGgAlipuram anantarAma-dIkSita-ArAdhanA~\\#{49}"
     },
     "sEGgAlipuram anantarAma-dIkSita-jayantI~\\#{116}": {
       "days": [
         204
       ],
+      "jsonClass": "FestivalInstance",
       "name": "sEGgAlipuram anantarAma-dIkSita-jayantI~\\#{116}"
     },
     "sEGgAlipuram~muttaNNAvAL~ArAdhanA~\\#{125}": {
       "days": [
         43
       ],
+      "jsonClass": "FestivalInstance",
       "name": "sEGgAlipuram~muttaNNAvAL~ArAdhanA~\\#{125}"
     },
     "sItAnavamI": {
       "days": [
         114
       ],
+      "jsonClass": "FestivalInstance",
       "name": "sItAnavamI"
     },
     "sOma-pradOSa-vratam": {
@@ -77726,6 +78202,7 @@
         295,
         309
       ],
+      "jsonClass": "FestivalInstance",
       "name": "sOma-pradOSa-vratam"
     },
     "sOmamRgazIrSa-puNyakAlaH": {
@@ -77734,12 +78211,14 @@
         274,
         302
       ],
+      "jsonClass": "FestivalInstance",
       "name": "sOmamRgazIrSa-puNyakAlaH"
     },
     "sOmavatI amAvAsyA": {
       "days": [
         106
       ],
+      "jsonClass": "FestivalInstance",
       "name": "sOmavatI amAvAsyA"
     },
     "sOmazrAvaNI-puNyakAlaH": {
@@ -77747,342 +78226,399 @@
         127,
         155
       ],
+      "jsonClass": "FestivalInstance",
       "name": "sOmazrAvaNI-puNyakAlaH"
     },
     "sUpaudana-vratam": {
       "days": [
         228
       ],
+      "jsonClass": "FestivalInstance",
       "name": "sUpaudana-vratam"
     },
     "sUradAsa~jayantI~\\#{541}": {
       "days": [
         110
       ],
+      "jsonClass": "FestivalInstance",
       "name": "sUradAsa~jayantI~\\#{541}"
     },
     "sUrya-SaSThI": {
       "days": [
         258
       ],
+      "jsonClass": "FestivalInstance",
       "name": "sUrya-SaSThI"
     },
     "saMskRta-divasaH": {
       "days": [
         238
       ],
+      "jsonClass": "FestivalInstance",
       "name": "saMskRta-divasaH"
     },
     "sampat-gaurI-vratam": {
       "days": [
         120
       ],
+      "jsonClass": "FestivalInstance",
       "name": "sampat-gaurI-vratam"
     },
     "samudra-manthanam": {
       "days": [
         86
       ],
+      "jsonClass": "FestivalInstance",
       "name": "samudra-manthanam"
     },
     "saptama-aparapakSa-ArambhaH": {
       "days": [
         298
       ],
+      "jsonClass": "FestivalInstance",
       "name": "saptama-aparapakSa-ArambhaH"
     },
     "saptama-aparapakSa-samApanam": {
       "days": [
         311
       ],
+      "jsonClass": "FestivalInstance",
       "name": "saptama-aparapakSa-samApanam"
     },
     "saptarSi-pUjA/arghyam": {
       "days": [
         273
       ],
+      "jsonClass": "FestivalInstance",
       "name": "saptarSi-pUjA/arghyam"
     },
     "sarasvatI-AvAhanam": {
       "days": [
         288
       ],
+      "jsonClass": "FestivalInstance",
       "name": "sarasvatI-AvAhanam"
     },
     "sarpa-bali-utsarjanam": {
       "days": [
         356
       ],
+      "jsonClass": "FestivalInstance",
       "name": "sarpa-bali-utsarjanam"
     },
     "sarpa-baliH": {
       "days": [
         238
       ],
+      "jsonClass": "FestivalInstance",
       "name": "sarpa-baliH"
     },
     "sarpa-pUjA": {
       "days": [
         22
       ],
+      "jsonClass": "FestivalInstance",
       "name": "sarpa-pUjA"
     },
     "sarpa-pUjA~1": {
       "days": [
         110
       ],
+      "jsonClass": "FestivalInstance",
       "name": "sarpa-pUjA~1"
     },
     "sarpa-pUjA~2": {
       "days": [
         316
       ],
+      "jsonClass": "FestivalInstance",
       "name": "sarpa-pUjA~2"
     },
     "sarva-AmalakI-EkAdazI": {
       "days": [
         57
       ],
+      "jsonClass": "FestivalInstance",
       "name": "sarva-AmalakI-EkAdazI"
     },
     "sarva-SaTtilA-EkAdazI": {
       "days": [
         12
       ],
+      "jsonClass": "FestivalInstance",
       "name": "sarva-SaTtilA-EkAdazI"
     },
     "sarva-ajA-EkAdazI": {
       "days": [
         249
       ],
+      "jsonClass": "FestivalInstance",
       "name": "sarva-ajA-EkAdazI"
     },
     "sarva-aparA-EkAdazI": {
       "days": [
         131
       ],
+      "jsonClass": "FestivalInstance",
       "name": "sarva-aparA-EkAdazI"
     },
     "sarva-indirA-EkAdazI": {
       "days": [
         278
       ],
+      "jsonClass": "FestivalInstance",
       "name": "sarva-indirA-EkAdazI"
     },
     "sarva-kAmadA-EkAdazI": {
       "days": [
         86
       ],
+      "jsonClass": "FestivalInstance",
       "name": "sarva-kAmadA-EkAdazI"
     },
     "sarva-mOhinI-EkAdazI": {
       "days": [
         116
       ],
+      "jsonClass": "FestivalInstance",
       "name": "sarva-mOhinI-EkAdazI"
     },
     "sarva-pANDava-nirjalA-EkAdazI": {
       "days": [
         174
       ],
+      "jsonClass": "FestivalInstance",
       "name": "sarva-pANDava-nirjalA-EkAdazI"
     },
     "sarva-pApAGkuzA-EkAdazI": {
       "days": [
         293
       ],
+      "jsonClass": "FestivalInstance",
       "name": "sarva-pApAGkuzA-EkAdazI"
     },
     "sarva-pApamOcanI-EkAdazI": {
       "days": [
         72
       ],
+      "jsonClass": "FestivalInstance",
       "name": "sarva-pApamOcanI-EkAdazI"
     },
     "sarva-padminI-EkAdazI": {
       "days": [
         145
       ],
+      "jsonClass": "FestivalInstance",
       "name": "sarva-padminI-EkAdazI"
     },
     "sarva-paramA-EkAdazI": {
       "days": [
         161
       ],
+      "jsonClass": "FestivalInstance",
       "name": "sarva-paramA-EkAdazI"
     },
     "sarva-parivartinI-EkAdazI": {
       "days": [
         263
       ],
+      "jsonClass": "FestivalInstance",
       "name": "sarva-parivartinI-EkAdazI"
     },
     "sarva-pavitrOpAna-EkAdazI": {
       "days": [
         234
       ],
+      "jsonClass": "FestivalInstance",
       "name": "sarva-pavitrOpAna-EkAdazI"
     },
     "sarva-utpannA-EkAdazI": {
       "days": [
         337
       ],
+      "jsonClass": "FestivalInstance",
       "name": "sarva-utpannA-EkAdazI"
     },
     "sarva-utthAna-EkAdazI": {
       "days": [
         323
       ],
+      "jsonClass": "FestivalInstance",
       "name": "sarva-utthAna-EkAdazI"
     },
     "sarva-varUthinI-EkAdazI": {
       "days": [
         102
       ],
+      "jsonClass": "FestivalInstance",
       "name": "sarva-varUthinI-EkAdazI"
     },
     "sarva-vijayA-EkAdazI": {
       "days": [
         42
       ],
+      "jsonClass": "FestivalInstance",
       "name": "sarva-vijayA-EkAdazI"
     },
     "sarva-yOginI-EkAdazI": {
       "days": [
         190
       ],
+      "jsonClass": "FestivalInstance",
       "name": "sarva-yOginI-EkAdazI"
     },
     "sarva-zayana-EkAdazI": {
       "days": [
         204
       ],
+      "jsonClass": "FestivalInstance",
       "name": "sarva-zayana-EkAdazI"
     },
     "sarvanadI-rajasvalA~1": {
       "days": [
         198
       ],
+      "jsonClass": "FestivalInstance",
       "name": "sarvanadI-rajasvalA~1"
     },
     "sarvanadI-rajasvalA~2": {
       "days": [
         199
       ],
+      "jsonClass": "FestivalInstance",
       "name": "sarvanadI-rajasvalA~2"
     },
     "sarvanadI-rajasvalA~3": {
       "days": [
         200
       ],
+      "jsonClass": "FestivalInstance",
       "name": "sarvanadI-rajasvalA~3"
     },
     "satI~anasUyA~jayantI": {
       "days": [
         124
       ],
+      "jsonClass": "FestivalInstance",
       "name": "satI~anasUyA~jayantI"
     },
     "satyanArAyaNa~jayantI": {
       "days": [
         225
       ],
+      "jsonClass": "FestivalInstance",
       "name": "satyanArAyaNa~jayantI"
     },
     "saubhAgya-sundarI-vratam": {
       "days": [
         329
       ],
+      "jsonClass": "FestivalInstance",
       "name": "saubhAgya-sundarI-vratam"
     },
     "siMhAcalaM-candana-mahOtsavaH": {
       "days": [
         114
       ],
+      "jsonClass": "FestivalInstance",
       "name": "siMhAcalaM-candana-mahOtsavaH"
     },
     "skanda-paJcamI": {
       "days": [
         198
       ],
+      "jsonClass": "FestivalInstance",
       "name": "skanda-paJcamI"
     },
     "skandaSaSThI-vratam": {
       "days": [
         317
       ],
+      "jsonClass": "FestivalInstance",
       "name": "skandaSaSThI-vratam"
     },
     "smArta-jayA/bhaimI-EkAdazI (gRhastha)": {
       "days": [
         27
       ],
+      "jsonClass": "FestivalInstance",
       "name": "smArta-jayA/bhaimI-EkAdazI (gRhastha)"
     },
     "smArta-jayA/bhaimI-EkAdazI (sannyastha)": {
       "days": [
         28
       ],
+      "jsonClass": "FestivalInstance",
       "name": "smArta-jayA/bhaimI-EkAdazI (sannyastha)"
     },
     "smArta-kAmikA-EkAdazI": {
       "days": [
         219
       ],
+      "jsonClass": "FestivalInstance",
       "name": "smArta-kAmikA-EkAdazI"
     },
     "smArta-mOkSadA-EkAdazI (gRhastha)": {
       "days": [
         352
       ],
+      "jsonClass": "FestivalInstance",
       "name": "smArta-mOkSadA-EkAdazI (gRhastha)"
     },
     "smArta-mOkSadA-EkAdazI (sannyastha)": {
       "days": [
         353
       ],
+      "jsonClass": "FestivalInstance",
       "name": "smArta-mOkSadA-EkAdazI (sannyastha)"
     },
     "smArta-ramA-EkAdazI": {
       "days": [
         307
       ],
+      "jsonClass": "FestivalInstance",
       "name": "smArta-ramA-EkAdazI"
     },
     "smArta-vaikuNTha-EkAdazI (gRhastha)": {
       "days": [
         352
       ],
+      "jsonClass": "FestivalInstance",
       "name": "smArta-vaikuNTha-EkAdazI (gRhastha)"
     },
     "smArta-vaikuNTha-EkAdazI (sannyastha)": {
       "days": [
         353
       ],
+      "jsonClass": "FestivalInstance",
       "name": "smArta-vaikuNTha-EkAdazI (sannyastha)"
     },
     "stanavRddhi-gaurI-vratam": {
       "days": [
         283
       ],
+      "jsonClass": "FestivalInstance",
       "name": "stanavRddhi-gaurI-vratam"
     },
     "subrahmaNya-SaSThI-vratam": {
       "days": [
         347
       ],
+      "jsonClass": "FestivalInstance",
       "name": "subrahmaNya-SaSThI-vratam"
     },
     "sudarzana~jayantI": {
       "days": [
         173
       ],
+      "jsonClass": "FestivalInstance",
       "name": "sudarzana~jayantI"
     },
     "sujanmaprApti-vratam": {
       "days": [
         282
       ],
+      "jsonClass": "FestivalInstance",
       "name": "sujanmaprApti-vratam"
     },
     "sukhA~aGgAraka-caturthI": {
@@ -78090,48 +78626,56 @@
         226,
         345
       ],
+      "jsonClass": "FestivalInstance",
       "name": "sukhA~aGgAraka-caturthI"
     },
     "sumaGgalA~navamI": {
       "days": [
         276
       ],
+      "jsonClass": "FestivalInstance",
       "name": "sumaGgalA~navamI"
     },
     "svarNa-gaurI-vratam": {
       "days": [
         225
       ],
+      "jsonClass": "FestivalInstance",
       "name": "svarNa-gaurI-vratam"
     },
     "tAlanavamI": {
       "days": [
         261
       ],
+      "jsonClass": "FestivalInstance",
       "name": "tAlanavamI"
     },
     "tAmraparNI-Adi-puSkara-ArambhaH": {
       "days": [
         285
       ],
+      "jsonClass": "FestivalInstance",
       "name": "tAmraparNI-Adi-puSkara-ArambhaH"
     },
     "tAmraparNI-Adi-puSkara-samApanam": {
       "days": [
         296
       ],
+      "jsonClass": "FestivalInstance",
       "name": "tAmraparNI-Adi-puSkara-samApanam"
     },
     "ta:ADik~kiruttikai": {
       "days": [
         218
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:ADik~kiruttikai"
     },
     "ta:ADip~perukku": {
       "days": [
         215
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:ADip~perukku"
     },
     "ta:ADi~veLLikkizhamai": {
@@ -78141,12 +78685,14 @@
         215,
         222
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:ADi~veLLikkizhamai"
     },
     "ta:An2Aya nAyan2Ar (13) gurupUjai": {
       "days": [
         336
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:An2Aya nAyan2Ar (13) gurupUjai"
     },
     "ta:ArudrA~darican2am/naTarAjar mahAbhiSEkam": {
@@ -78154,6 +78700,7 @@
         2,
         357
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:ArudrA~darican2am/naTarAjar mahAbhiSEkam"
     },
     "ta:AvaNi~JAyir2r2ukkizhamai": {
@@ -78164,12 +78711,14 @@
         252,
         259
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:AvaNi~JAyir2r2ukkizhamai"
     },
     "ta:Ayudha~pUjai": {
       "days": [
         292
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:Ayudha~pUjai"
     },
     "ta:En2AdinAtha nAyan2Ar (8) gurupUjai": {
@@ -78177,54 +78726,63 @@
         263,
         290
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:En2AdinAtha nAyan2Ar (8) gurupUjai"
     },
     "ta:EyarkOn2 kalikkAma nAyan2Ar (28) gurupUjai": {
       "days": [
         187
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:EyarkOn2 kalikkAma nAyan2Ar (28) gurupUjai"
     },
     "ta:ONam": {
       "days": [
         237
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:ONam"
     },
     "ta:aiyaDigaL kADavarkOn2 nAyan2Ar (45) gurupUjai": {
       "days": [
         315
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:aiyaDigaL kADavarkOn2 nAyan2Ar (45) gurupUjai"
     },
     "ta:amaranIti nAyan2Ar (6) gurupUjai": {
       "days": [
         170
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:amaranIti nAyan2Ar (6) gurupUjai"
     },
     "ta:appUdiyaDigaL nAyan2Ar (24) gurupUjai": {
       "days": [
         20
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:appUdiyaDigaL nAyan2Ar (24) gurupUjai"
     },
     "ta:arivATTAya nAyan2Ar (12) gurupUjai": {
       "days": [
         29
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:arivATTAya nAyan2Ar (12) gurupUjai"
     },
     "ta:atipatta nAyan2Ar (41) gurupUjai": {
       "days": [
         251
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:atipatta nAyan2Ar (41) gurupUjai"
     },
     "ta:bhOgi": {
       "days": [
         13
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:bhOgi"
     },
     "ta:bhUtattAzhvAr tirunakSattiram": {
@@ -78232,12 +78790,14 @@
         292,
         320
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:bhUtattAzhvAr tirunakSattiram"
     },
     "ta:bharaNI~dIpam": {
       "days": [
         326
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:bharaNI~dIpam"
     },
     "ta:caDaiya nAyan2Ar (61) gurupUjai": {
@@ -78245,48 +78805,56 @@
         2,
         357
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:caDaiya nAyan2Ar (61) gurupUjai"
     },
     "ta:caNDEzvara nAyan2Ar (19) gurupUjai": {
       "days": [
         35
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:caNDEzvara nAyan2Ar (19) gurupUjai"
     },
     "ta:catti nAyan2Ar (44) gurupUjai": {
       "days": [
         307
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:catti nAyan2Ar (44) gurupUjai"
     },
     "ta:ceruttuNai nAyan2Ar (53) gurupUjai": {
       "days": [
         250
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:ceruttuNai nAyan2Ar (53) gurupUjai"
     },
     "ta:cir2appuli nAyan2Ar (34) gurupUjai": {
       "days": [
         344
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:cir2appuli nAyan2Ar (34) gurupUjai"
     },
     "ta:cir2uttoNDa nAyan2Ar (35) gurupUjai": {
       "days": [
         107
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:cir2uttoNDa nAyan2Ar (35) gurupUjai"
     },
     "ta:citrA~pUrNimA/citragupta~pUjai": {
       "days": [
         119
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:citrA~pUrNimA/citragupta~pUjai"
     },
     "ta:cundaramUrtti nAyan2Ar (63) gurupUjai": {
       "days": [
         202
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:cundaramUrtti nAyan2Ar (63) gurupUjai"
     },
     "ta:daNDiyaDigaL nAyan2Ar (30) gurupUjai": {
@@ -78294,36 +78862,42 @@
         75,
         102
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:daNDiyaDigaL nAyan2Ar (30) gurupUjai"
     },
     "ta:er2ipatta nAyan2Ar (7) gurupUjai": {
       "days": [
         63
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:er2ipatta nAyan2Ar (7) gurupUjai"
     },
     "ta:gaNanAtha nAyan2Ar (37) gurupUjai": {
       "days": [
         84
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:gaNanAtha nAyan2Ar (37) gurupUjai"
     },
     "ta:iDaGkazhi nAyan2Ar (52) gurupUjai": {
       "days": [
         299
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:iDaGkazhi nAyan2Ar (52) gurupUjai"
     },
     "ta:iLaiyAn2kuDi mAr2a nAyan2Ar (3) gurupUjai": {
       "days": [
         251
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:iLaiyAn2kuDi mAr2a nAyan2Ar (3) gurupUjai"
     },
     "ta:icaiJAn2iyAr nAyan2Ar (62) gurupUjai": {
       "days": [
         119
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:icaiJAn2iyAr nAyan2Ar (62) gurupUjai"
     },
     "ta:iyar2pagai nAyan2Ar (2) gurupUjai": {
@@ -78331,36 +78905,42 @@
         7,
         363
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:iyar2pagai nAyan2Ar (2) gurupUjai"
     },
     "ta:jyESThAbhiSEkam": {
       "days": [
         178
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:jyESThAbhiSEkam"
     },
     "ta:kAraDaiyAn2 nOn2bu": {
       "days": [
         73
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:kAraDaiyAn2 nOn2bu"
     },
     "ta:kAraikkAl ammaiyAr (23) gurupUjai": {
       "days": [
         92
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:kAraikkAl ammaiyAr (23) gurupUjai"
     },
     "ta:kAri nAyan2Ar (47) gurupUjai": {
       "days": [
         71
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:kAri nAyan2Ar (47) gurupUjai"
     },
     "ta:kArttigai": {
       "days": [
         326
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:kArttigai"
     },
     "ta:kArttigai~JAyir2r2ukkizhamai": {
@@ -78370,156 +78950,182 @@
         336,
         343
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:kArttigai~JAyir2r2ukkizhamai"
     },
     "ta:kOTpuli nAyan2Ar (55) gurupUjai": {
       "days": [
         205
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:kOTpuli nAyan2Ar (55) gurupUjai"
     },
     "ta:kUDAravallI": {
       "days": [
         11
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:kUDAravallI"
     },
     "ta:kUr2r2uva nAyan2Ar (38) gurupUjai": {
       "days": [
         220
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:kUr2r2uva nAyan2Ar (38) gurupUjai"
     },
     "ta:kaNNappa nAyan2Ar (9) gurupUjai": {
       "days": [
         28
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:kaNNappa nAyan2Ar (9) gurupUjai"
     },
     "ta:kaNampulla nAyan2Ar (46) gurupUjai": {
       "days": [
         327
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:kaNampulla nAyan2Ar (46) gurupUjai"
     },
     "ta:kalikkamba nAyan2Ar (42) gurupUjai": {
       "days": [
         23
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:kalikkamba nAyan2Ar (42) gurupUjai"
     },
     "ta:kaliya nAyan2Ar (43) gurupUjai": {
       "days": [
         205
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:kaliya nAyan2Ar (43) gurupUjai"
     },
     "ta:kan2up~poGgal": {
       "days": [
         15
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:kan2up~poGgal"
     },
     "ta:kapAlI adhikAra nandi": {
       "days": [
         82
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:kapAlI adhikAra nandi"
     },
     "ta:kapAlI ar2upattu mUvar": {
       "days": [
         87
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:kapAlI ar2upattu mUvar"
     },
     "ta:kapAlI bhUtaN bhUtakI": {
       "days": [
         82
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:kapAlI bhUtaN bhUtakI"
     },
     "ta:kapAlI cavuDal vimAn2am": {
       "days": [
         84
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:kapAlI cavuDal vimAn2am"
     },
     "ta:kapAlI dvajArOhaNam": {
       "days": [
         80
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:kapAlI dvajArOhaNam"
     },
     "ta:kapAlI pallakku vizhA": {
       "days": [
         85
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:kapAlI pallakku vizhA"
     },
     "ta:kapAlI riSabha vAhan2am": {
       "days": [
         84
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:kapAlI riSabha vAhan2am"
     },
     "ta:kapAlI sUrya~candra~vaTTam": {
       "days": [
         81
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:kapAlI sUrya~candra~vaTTam"
     },
     "ta:kapAlI tEr": {
       "days": [
         86
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:kapAlI tEr"
     },
     "ta:kapAlI teppOtsavam~1": {
       "days": [
         29
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:kapAlI teppOtsavam~1"
     },
     "ta:kapAlI teppOtsavam~2": {
       "days": [
         30
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:kapAlI teppOtsavam~2"
     },
     "ta:kapAlI teppOtsavam~3": {
       "days": [
         31
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:kapAlI teppOtsavam~3"
     },
     "ta:kapAlI umA-mahEzvara darican2am": {
       "days": [
         90
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:kapAlI umA-mahEzvara darican2am"
     },
     "ta:kapAlI viDaiyAr2r2i nir2aivu": {
       "days": [
         100
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:kapAlI viDaiyAr2r2i nir2aivu"
     },
     "ta:kapAlI viDaiyAr2r2i toDakkam": {
       "days": [
         90
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:kapAlI viDaiyAr2r2i toDakkam"
     },
     "ta:kar2avaigaL pin2cen2r2u": {
       "days": [
         12
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:kar2avaigaL pin2cen2r2u"
     },
     "ta:kar2pagAmbAL\u2013kapAlIzvarar tirukkalyANam": {
       "days": [
         89
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:kar2pagAmbAL\u2013kapAlIzvarar tirukkalyANam"
     },
     "ta:kazhar2ciGga nAyan2Ar (51) gurupUjai": {
@@ -78527,24 +79133,28 @@
         135,
         162
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:kazhar2ciGga nAyan2Ar (51) gurupUjai"
     },
     "ta:kazhar2ir2r2ar2ivAr/cEramAn2 perumAL nAyan2Ar (36) gurupUjai": {
       "days": [
         202
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:kazhar2ir2r2ar2ivAr/cEramAn2 perumAL nAyan2Ar (36) gurupUjai"
     },
     "ta:kocceGgaT cOzha nAyan2Ar (59) gurupUjai": {
       "days": [
         48
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:kocceGgaT cOzha nAyan2Ar (59) gurupUjai"
     },
     "ta:kuGgiliyakkalaya nAyan2Ar (10) gurupUjai": {
       "days": [
         233
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:kuGgiliyakkalaya nAyan2Ar (10) gurupUjai"
     },
     "ta:kulaccirai nAyan2Ar (21) gurupUjai": {
@@ -78552,12 +79162,14 @@
         231,
         258
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:kulaccirai nAyan2Ar (21) gurupUjai"
     },
     "ta:kulazEkhara AzhvAr tirunakSattiram": {
       "days": [
         57
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:kulazEkhara AzhvAr tirunakSattiram"
     },
     "ta:mANikkavAcakar gurupUjai": {
@@ -78565,6 +79177,7 @@
         169,
         197
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:mANikkavAcakar gurupUjai"
     },
     "ta:mAci~cevvAy": {
@@ -78575,12 +79188,14 @@
         65,
         72
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:mAci~cevvAy"
     },
     "ta:mAci~magham": {
       "days": [
         60
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:mAci~magham"
     },
     "ta:mAn2akkaJcAr2a nAyan2Ar (11) gurupUjai": {
@@ -78588,156 +79203,182 @@
         10,
         365
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:mAn2akkaJcAr2a nAyan2Ar (11) gurupUjai"
     },
     "ta:mIn2AkSI tirukkalyANam": {
       "days": [
         117
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:mIn2AkSI tirukkalyANam"
     },
     "ta:mUrkkha nAyan2Ar (31) gurupUjai": {
       "days": [
         342
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:mUrkkha nAyan2Ar (31) gurupUjai"
     },
     "ta:mUrtti nAyan2Ar (15) gurupUjai": {
       "days": [
         218
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:mUrtti nAyan2Ar (15) gurupUjai"
     },
     "ta:maGgaiyarkkaraciyAr nAyan2Ar (57) gurupUjai": {
       "days": [
         109
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:maGgaiyarkkaraciyAr nAyan2Ar (57) gurupUjai"
     },
     "ta:madhurai mIn2AkSI kOyilil kal yAn2aikku karumbu kODutta lIlai": {
       "days": [
         14
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:madhurai mIn2AkSI kOyilil kal yAn2aikku karumbu kODutta lIlai"
     },
     "ta:madhurakavi AzhvAr tirunakSattiram": {
       "days": [
         119
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:madhurakavi AzhvAr tirunakSattiram"
     },
     "ta:mayilai~veLLIzvarar~brahmOtsavam": {
       "days": [
         142
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:mayilai~veLLIzvarar~brahmOtsavam"
     },
     "ta:meypporuL nAyan2Ar (4) gurupUjai": {
       "days": [
         335
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:meypporuL nAyan2Ar (4) gurupUjai"
     },
     "ta:muDavan2 muzhukku": {
       "days": [
         321
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:muDavan2 muzhukku"
     },
     "ta:mun2aiyaDuvAr nAyan2Ar (50) gurupUjai": {
       "days": [
         86
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:mun2aiyaDuvAr nAyan2Ar (50) gurupUjai"
     },
     "ta:muruga nAyan2Ar (15) gurupUjai": {
       "days": [
         151
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:muruga nAyan2Ar (15) gurupUjai"
     },
     "ta:nEca nAyan2Ar (58) gurupUjai": {
       "days": [
         82
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:nEca nAyan2Ar (58) gurupUjai"
     },
     "ta:naTarAjar An2i tirumaJcan2am": {
       "days": [
         171
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:naTarAjar An2i tirumaJcan2am"
     },
     "ta:naTarAjar cittirai ONam mahAbhiSEkam": {
       "days": [
         127
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:naTarAjar cittirai ONam mahAbhiSEkam"
     },
     "ta:naTarAjar mahAbhiSEkam~2": {
       "days": [
         236
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:naTarAjar mahAbhiSEkam~2"
     },
     "ta:naTarAjar mahAbhiSEkam~3": {
       "days": [
         266
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:naTarAjar mahAbhiSEkam~3"
     },
     "ta:naTarAjar mahAbhiSEkam~6": {
       "days": [
         59
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:naTarAjar mahAbhiSEkam~6"
     },
     "ta:naminandiyaDigaL nAyan2Ar (26) gurupUjai": {
       "days": [
         140
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:naminandiyaDigaL nAyan2Ar (26) gurupUjai"
     },
     "ta:nammAzhvAr tirunakSattiram": {
       "days": [
         148
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:nammAzhvAr tirunakSattiram"
     },
     "ta:naraciGgamun2aiyaraiya nAyan2Ar (40) gurupUjai": {
       "days": [
         266
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:naraciGgamun2aiyaraiya nAyan2Ar (40) gurupUjai"
     },
     "ta:nin2r2acIr neDumAr2a nAyan2Ar (48) gurupUjai": {
       "days": [
         299
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:nin2r2acIr neDumAr2a nAyan2Ar (48) gurupUjai"
     },
     "ta:pEyAzhvAr tirunakSattiram": {
       "days": [
         293
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:pEyAzhvAr tirunakSattiram"
     },
     "ta:pUcalAr nAyan2Ar (56) gurupUjai": {
       "days": [
         313
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:pUcalAr nAyan2Ar (56) gurupUjai"
     },
     "ta:paGgun2i~uttiram": {
       "days": [
         89
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:paGgun2i~uttiram"
     },
     "ta:periyAzhvAr tirunakSattiram": {
       "days": [
         174
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:periyAzhvAr tirunakSattiram"
     },
     "ta:perumizhalaik kur2umba nAyan2Ar (22) gurupUjai": {
@@ -78745,12 +79386,14 @@
         200,
         228
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:perumizhalaik kur2umba nAyan2Ar (22) gurupUjai"
     },
     "ta:piTTukku maN cumanda lIlai": {
       "days": [
         233
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:piTTukku maN cumanda lIlai"
     },
     "ta:poygaiyAzhvAr tirunakSattiram": {
@@ -78758,12 +79401,14 @@
         291,
         319
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:poygaiyAzhvAr tirunakSattiram"
     },
     "ta:pugazhccOzha nAyan2Ar (39) gurupUjai": {
       "days": [
         218
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:pugazhccOzha nAyan2Ar (39) gurupUjai"
     },
     "ta:pugazhttuNai nAyan2Ar (54) gurupUjai": {
@@ -78771,6 +79416,7 @@
         168,
         196
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:pugazhttuNai nAyan2Ar (54) gurupUjai"
     },
     "ta:puraTTAci~can2ikkizhamai": {
@@ -78780,42 +79426,49 @@
         279,
         286
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:puraTTAci~can2ikkizhamai"
     },
     "ta:rAmAnujar~tirunakSattiram~\\#{1002}": {
       "days": [
         111
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:rAmAnujar~tirunakSattiram~\\#{1002}"
     },
     "ta:rudra~pazupati nAyan2Ar (16) gurupUjai": {
       "days": [
         270
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:rudra~pazupati nAyan2Ar (16) gurupUjai"
     },
     "ta:sOmAsimAra nAyan2Ar (32) gurupUjai": {
       "days": [
         141
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:sOmAsimAra nAyan2Ar (32) gurupUjai"
     },
     "ta:sarvAlaya~dIpam": {
       "days": [
         326
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:sarvAlaya~dIpam"
     },
     "ta:tai kiruttikai": {
       "days": [
         26
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:tai kiruttikai"
     },
     "ta:taippUcam": {
       "days": [
         30
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:taippUcam"
     },
     "ta:tai~veLLikkizhamai": {
@@ -78825,12 +79478,14 @@
         33,
         40
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:tai~veLLikkizhamai"
     },
     "ta:tiruJAn2asambandhamUrtti nAyan2Ar (27) gurupUjai": {
       "days": [
         151
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:tiruJAn2asambandhamUrtti nAyan2Ar (27) gurupUjai"
     },
     "ta:tiruccendUr AvaNit tiruvizhA nir2aivu": {
@@ -78838,12 +79493,14 @@
         230,
         257
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:tiruccendUr AvaNit tiruvizhA nir2aivu"
     },
     "ta:tiruccendUr mAcit tiruvizhA nir2aivu": {
       "days": [
         60
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:tiruccendUr mAcit tiruvizhA nir2aivu"
     },
     "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##10##m nAL\u2014tEr": {
@@ -78851,6 +79508,7 @@
         228,
         255
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##10##m nAL\u2014tEr"
     },
     "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##11##m nAL": {
@@ -78858,6 +79516,7 @@
         229,
         256
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##11##m nAL"
     },
     "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##2##m nAL": {
@@ -78865,6 +79524,7 @@
         220,
         247
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##2##m nAL"
     },
     "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##3##m nAL\u2014murugan2 bhavan2i": {
@@ -78872,6 +79532,7 @@
         221,
         248
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##3##m nAL\u2014murugan2 bhavan2i"
     },
     "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##4##m nAL\u2014yAn2ai vAhanattil murugan2-ambAL bhavan2i": {
@@ -78879,6 +79540,7 @@
         222,
         249
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##4##m nAL\u2014yAn2ai vAhanattil murugan2-ambAL bhavan2i"
     },
     "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##5##m nAL": {
@@ -78886,6 +79548,7 @@
         223,
         250
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##5##m nAL"
     },
     "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##6##m nAL\u2014veLLit tEr bhavan2i": {
@@ -78893,6 +79556,7 @@
         224,
         251
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##6##m nAL\u2014veLLit tEr bhavan2i"
     },
     "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##7##m nAL\u2014cigappu cAtti alaGkAram": {
@@ -78900,6 +79564,7 @@
         225,
         252
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##7##m nAL\u2014cigappu cAtti alaGkAram"
     },
     "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##8##m nAL\u2014paccai cAtti alaGkAram": {
@@ -78907,6 +79572,7 @@
         226,
         253
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##8##m nAL\u2014paccai cAtti alaGkAram"
     },
     "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##9##m nAL": {
@@ -78914,6 +79580,7 @@
         227,
         254
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:tiruccendUr murugan2 AvaNit tiruvizhA ##9##m nAL"
     },
     "ta:tiruccendUr murugan2 AvaNit tiruvizhA toDakkam/koDiyEr2r2am": {
@@ -78921,144 +79588,168 @@
         219,
         246
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:tiruccendUr murugan2 AvaNit tiruvizhA toDakkam/koDiyEr2r2am"
     },
     "ta:tiruccendUr murugan2 mAcit tiruvizhA ##10##m nAL\u2014tEr": {
       "days": [
         58
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:tiruccendUr murugan2 mAcit tiruvizhA ##10##m nAL\u2014tEr"
     },
     "ta:tiruccendUr murugan2 mAcit tiruvizhA ##2##m nAL": {
       "days": [
         50
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:tiruccendUr murugan2 mAcit tiruvizhA ##2##m nAL"
     },
     "ta:tiruccendUr murugan2 mAcit tiruvizhA ##3##m nAL\u2014murugan2 bhavan2i": {
       "days": [
         51
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:tiruccendUr murugan2 mAcit tiruvizhA ##3##m nAL\u2014murugan2 bhavan2i"
     },
     "ta:tiruccendUr murugan2 mAcit tiruvizhA ##4##m nAL": {
       "days": [
         52
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:tiruccendUr murugan2 mAcit tiruvizhA ##4##m nAL"
     },
     "ta:tiruccendUr murugan2 mAcit tiruvizhA ##5##m nAL": {
       "days": [
         53
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:tiruccendUr murugan2 mAcit tiruvizhA ##5##m nAL"
     },
     "ta:tiruccendUr murugan2 mAcit tiruvizhA ##6##m nAL\u2014veLLit tEr bhavan2i": {
       "days": [
         54
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:tiruccendUr murugan2 mAcit tiruvizhA ##6##m nAL\u2014veLLit tEr bhavan2i"
     },
     "ta:tiruccendUr murugan2 mAcit tiruvizhA ##7##m nAL\u2014urugu cattac cEvai/cigappu cAtti alaGkAram": {
       "days": [
         55
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:tiruccendUr murugan2 mAcit tiruvizhA ##7##m nAL\u2014urugu cattac cEvai/cigappu cAtti alaGkAram"
     },
     "ta:tiruccendUr murugan2 mAcit tiruvizhA ##8##m nAL\u2014paccai cAtti alaGkAram": {
       "days": [
         56
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:tiruccendUr murugan2 mAcit tiruvizhA ##8##m nAL\u2014paccai cAtti alaGkAram"
     },
     "ta:tiruccendUr murugan2 mAcit tiruvizhA ##9##m nAL\u2014taGga kailAca vAhan2am": {
       "days": [
         57
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:tiruccendUr murugan2 mAcit tiruvizhA ##9##m nAL\u2014taGga kailAca vAhan2am"
     },
     "ta:tiruccendUr murugan2 mAcit tiruvizhA toDakkam": {
       "days": [
         49
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:tiruccendUr murugan2 mAcit tiruvizhA toDakkam"
     },
     "ta:tiruccendUr murugan2 teppam": {
       "days": [
         59
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:tiruccendUr murugan2 teppam"
     },
     "ta:tirukkur2ipput toNDa nAyan2Ar (18) gurupUjai": {
       "days": [
         120
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:tirukkur2ipput toNDa nAyan2Ar (18) gurupUjai"
     },
     "ta:tirumUla nAyan2Ar (29) gurupUjai": {
       "days": [
         298
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:tirumUla nAyan2Ar (29) gurupUjai"
     },
     "ta:tirumaGgaiyAzhvAr tirunakSattiram": {
       "days": [
         327
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:tirumaGgaiyAzhvAr tirunakSattiram"
     },
     "ta:tirumazhicaiyAzhvAr tirunakSattiram": {
       "days": [
         33
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:tirumazhicaiyAzhvAr tirunakSattiram"
     },
     "ta:tirunALaippOvAr nAyan2Ar (17) gurupUjai": {
       "days": [
         273
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:tirunALaippOvAr nAyan2Ar (17) gurupUjai"
     },
     "ta:tirunAvukkaracha nAyan2Ar (20) gurupUjai": {
       "days": [
         130
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:tirunAvukkaracha nAyan2Ar (20) gurupUjai"
     },
     "ta:tirunIlakaNTha nAyan2Ar (1) gurupUjai": {
       "days": [
         39
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:tirunIlakaNTha nAyan2Ar (1) gurupUjai"
     },
     "ta:tirunIlakaNTha yAzhppANa nAyan2Ar (60) gurupUjai": {
       "days": [
         151
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:tirunIlakaNTha yAzhppANa nAyan2Ar (60) gurupUjai"
     },
     "ta:tirunIlanakka nAyan2Ar (25) gurupUjai": {
       "days": [
         151
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:tirunIlanakka nAyan2Ar (25) gurupUjai"
     },
     "ta:tirunelvEli nellaiyappar nellukku vEli kaTTiya lIlai": {
       "days": [
         25
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:tirunelvEli nellaiyappar nellukku vEli kaTTiya lIlai"
     },
     "ta:tirunelvEli nellaiyappar patra dIpa tiruvizhA": {
       "days": [
         16
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:tirunelvEli nellaiyappar patra dIpa tiruvizhA"
     },
     "ta:tiruppANAzhvAr tirunakSattiram": {
       "days": [
         219
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:tiruppANAzhvAr tirunakSattiram"
     },
     "ta:tiruvADippUram": {
@@ -79066,114 +79757,133 @@
         198,
         225
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:tiruvADippUram"
     },
     "ta:tiruvaNNAmalai~dIpam": {
       "days": [
         326
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:tiruvaNNAmalai~dIpam"
     },
     "ta:undu~madakkaLir2r2an2{}": {
       "days": [
         2
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:undu~madakkaLir2r2an2{}"
     },
     "ta:vAyilAr nAyan2Ar (49) gurupUjai": {
       "days": [
         351
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:vAyilAr nAyan2Ar (49) gurupUjai"
     },
     "ta:vaikAci~vizAkham": {
       "days": [
         148
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:vaikAci~vizAkham"
     },
     "ta:varagUr ur2iyaDi utsavam": {
       "days": [
         246
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:varagUr ur2iyaDi utsavam"
     },
     "ta:viSukkan2i": {
       "days": [
         105
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:viSukkan2i"
     },
     "ta:vir2an2miNDa nAyan2Ar (5) gurupUjai": {
       "days": [
         111
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:vir2an2miNDa nAyan2Ar (5) gurupUjai"
     },
     "ta:zrI~jayantI": {
       "days": [
         245
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ta:zrI~jayantI"
     },
     "tilapadma-dvAdazI/tilOtpatti": {
       "days": [
         28
       ],
+      "jsonClass": "FestivalInstance",
       "name": "tilapadma-dvAdazI/tilOtpatti"
     },
     "tindukASTamI": {
       "days": [
         187
       ],
+      "jsonClass": "FestivalInstance",
       "name": "tindukASTamI"
     },
     "tintriNI-gaurI-vratam": {
       "days": [
         343
       ],
+      "jsonClass": "FestivalInstance",
       "name": "tintriNI-gaurI-vratam"
     },
     "tiruvizalUr gaGgAkarSaNa-mahOtsava-ArambhaH": {
       "days": [
         331
       ],
+      "jsonClass": "FestivalInstance",
       "name": "tiruvizalUr gaGgAkarSaNa-mahOtsava-ArambhaH"
     },
     "tiruvizalUr gaGgAkarSaNa-mahOtsava-samApanam": {
       "days": [
         340
       ],
+      "jsonClass": "FestivalInstance",
       "name": "tiruvizalUr gaGgAkarSaNa-mahOtsava-samApanam"
     },
     "trEtAyugAdiH": {
       "days": [
         321
       ],
+      "jsonClass": "FestivalInstance",
       "name": "trEtAyugAdiH"
     },
     "trailOkya-gaurI-vratam": {
       "days": [
         11
       ],
+      "jsonClass": "FestivalInstance",
       "name": "trailOkya-gaurI-vratam"
     },
     "trilOcanASTamI": {
       "days": [
         187
       ],
+      "jsonClass": "FestivalInstance",
       "name": "trilOcanASTamI"
     },
     "tripurOtsavaH": {
       "days": [
         326
       ],
+      "jsonClass": "FestivalInstance",
       "name": "tripurOtsavaH"
     },
     "tripura~bhairavI~jayantI": {
       "days": [
         356
       ],
+      "jsonClass": "FestivalInstance",
       "name": "tripura~bhairavI~jayantI"
     },
     "trisparzA~mahAdvAdazI": {
@@ -79181,150 +79891,175 @@
         28,
         353
       ],
+      "jsonClass": "FestivalInstance",
       "name": "trisparzA~mahAdvAdazI"
     },
     "tuSTi-prApti-tRtIyA": {
       "days": [
         241
       ],
+      "jsonClass": "FestivalInstance",
       "name": "tuSTi-prApti-tRtIyA"
     },
     "tulA-kAvErI-snAna-ArambhaH": {
       "days": [
         291
       ],
+      "jsonClass": "FestivalInstance",
       "name": "tulA-kAvErI-snAna-ArambhaH"
     },
     "tulA-kAvErI-snAna-samApanam": {
       "days": [
         320
       ],
+      "jsonClass": "FestivalInstance",
       "name": "tulA-kAvErI-snAna-samApanam"
     },
     "tulA-puNyakAlaH": {
       "days": [
         291
       ],
+      "jsonClass": "FestivalInstance",
       "name": "tulA-puNyakAlaH"
     },
     "tulasI-jananaM~kSIrasAgarataH": {
       "days": [
         87
       ],
+      "jsonClass": "FestivalInstance",
       "name": "tulasI-jananaM~kSIrasAgarataH"
     },
     "tulasI-vivAhaH": {
       "days": [
         324
       ],
+      "jsonClass": "FestivalInstance",
       "name": "tulasI-vivAhaH"
     },
     "tulasIdAsa~jayantI": {
       "days": [
         229
       ],
+      "jsonClass": "FestivalInstance",
       "name": "tulasIdAsa~jayantI"
     },
     "tyAgarAja-ArAdhanA~\\#{171}": {
       "days": [
         6
       ],
+      "jsonClass": "FestivalInstance",
       "name": "tyAgarAja-ArAdhanA~\\#{171}"
     },
     "tyAgarAja~jayantI~\\#{252}": {
       "days": [
         112
       ],
+      "jsonClass": "FestivalInstance",
       "name": "tyAgarAja~jayantI~\\#{252}"
     },
     "umA-avatAraH": {
       "days": [
         168
       ],
+      "jsonClass": "FestivalInstance",
       "name": "umA-avatAraH"
     },
     "umA-mahEzvara-vratam": {
       "days": [
         268
       ],
+      "jsonClass": "FestivalInstance",
       "name": "umA-mahEzvara-vratam"
     },
     "unmIlanI~mahAdvAdazI": {
       "days": [
         234
       ],
+      "jsonClass": "FestivalInstance",
       "name": "unmIlanI~mahAdvAdazI"
     },
     "upAGga-lalitA-gaurI-vratam": {
       "days": [
         268
       ],
+      "jsonClass": "FestivalInstance",
       "name": "upAGga-lalitA-gaurI-vratam"
     },
     "upAGga-lalitA-vratam": {
       "days": [
         286
       ],
+      "jsonClass": "FestivalInstance",
       "name": "upAGga-lalitA-vratam"
     },
     "upEndra-navamI": {
       "days": [
         202
       ],
+      "jsonClass": "FestivalInstance",
       "name": "upEndra-navamI"
     },
     "vAlmIki~maharSi~jayantI": {
       "days": [
         297
       ],
+      "jsonClass": "FestivalInstance",
       "name": "vAlmIki~maharSi~jayantI"
     },
     "vAmana~jayantI": {
       "days": [
         264
       ],
+      "jsonClass": "FestivalInstance",
       "name": "vAmana~jayantI"
     },
     "vArAhI-navarAtra-ArambhaH": {
       "days": [
         194
       ],
+      "jsonClass": "FestivalInstance",
       "name": "vArAhI-navarAtra-ArambhaH"
     },
     "vArAhI-navarAtra-samApanam": {
       "days": [
         202
       ],
+      "jsonClass": "FestivalInstance",
       "name": "vArAhI-navarAtra-samApanam"
     },
     "vArtA-gaurI-vratam": {
       "days": [
         109
       ],
+      "jsonClass": "FestivalInstance",
       "name": "vArtA-gaurI-vratam"
     },
     "vAsudEva-dvAdazI": {
       "days": [
         205
       ],
+      "jsonClass": "FestivalInstance",
       "name": "vAsudEva-dvAdazI"
     },
     "vEGkaTAcalE jyESTha-abhidyEyakAbhiSEkaH (mutyala-kavacam)": {
       "days": [
         178
       ],
+      "jsonClass": "FestivalInstance",
       "name": "vEGkaTAcalE jyESTha-abhidyEyakAbhiSEkaH (mutyala-kavacam)"
     },
     "vEGkaTAcalE jyESTha-abhidyEyakAbhiSEkaH (svarNa-kavacam)": {
       "days": [
         179
       ],
+      "jsonClass": "FestivalInstance",
       "name": "vEGkaTAcalE jyESTha-abhidyEyakAbhiSEkaH (svarNa-kavacam)"
     },
     "vEGkaTAcalE jyESTha-abhidyEyakAbhiSEkaH (vajra-kavacam)": {
       "days": [
         177
       ],
+      "jsonClass": "FestivalInstance",
       "name": "vEGkaTAcalE jyESTha-abhidyEyakAbhiSEkaH (vajra-kavacam)"
     },
     "vEGkaTAcalE pUrNimA~garuDa-sEvA": {
@@ -79343,294 +80078,343 @@
         326,
         356
       ],
+      "jsonClass": "FestivalInstance",
       "name": "vEGkaTAcalE pUrNimA~garuDa-sEvA"
     },
     "vEGkaTAcalE padmAvatI-pariNayOtsava-ArambhaH (gaja-vAhanam)": {
       "days": [
         114
       ],
+      "jsonClass": "FestivalInstance",
       "name": "vEGkaTAcalE padmAvatI-pariNayOtsava-ArambhaH (gaja-vAhanam)"
     },
     "vEGkaTAcalE padmAvatI-pariNayOtsava-samApanam (garuDa-vAhanam)": {
       "days": [
         116
       ],
+      "jsonClass": "FestivalInstance",
       "name": "vEGkaTAcalE padmAvatI-pariNayOtsava-samApanam (garuDa-vAhanam)"
     },
     "vEGkaTAcalE padmAvatI-pariNayam (azva-vAhanam)": {
       "days": [
         115
       ],
+      "jsonClass": "FestivalInstance",
       "name": "vEGkaTAcalE padmAvatI-pariNayam (azva-vAhanam)"
     },
     "vEGkaTAcalE plavOtsava-ArambhaH": {
       "days": [
         56
       ],
+      "jsonClass": "FestivalInstance",
       "name": "vEGkaTAcalE plavOtsava-ArambhaH"
     },
     "vEGkaTAcalE plavOtsava-samApanam": {
       "days": [
         60
       ],
+      "jsonClass": "FestivalInstance",
       "name": "vEGkaTAcalE plavOtsava-samApanam"
     },
     "vEGkaTAcalE plavOtsavaH~2": {
       "days": [
         57
       ],
+      "jsonClass": "FestivalInstance",
       "name": "vEGkaTAcalE plavOtsavaH~2"
     },
     "vEGkaTAcalE plavOtsavaH~3": {
       "days": [
         58
       ],
+      "jsonClass": "FestivalInstance",
       "name": "vEGkaTAcalE plavOtsavaH~3"
     },
     "vEGkaTAcalE plavOtsavaH~4": {
       "days": [
         59
       ],
+      "jsonClass": "FestivalInstance",
       "name": "vEGkaTAcalE plavOtsavaH~4"
     },
     "vEGkaTAcalE vasantOtsava-ArambhaH": {
       "days": [
         87
       ],
+      "jsonClass": "FestivalInstance",
       "name": "vEGkaTAcalE vasantOtsava-ArambhaH"
     },
     "vEGkaTAcalE vasantOtsava-samApanam": {
       "days": [
         89
       ],
+      "jsonClass": "FestivalInstance",
       "name": "vEGkaTAcalE vasantOtsava-samApanam"
     },
     "vEGkaTAcalE vasantOtsavaH": {
       "days": [
         88
       ],
+      "jsonClass": "FestivalInstance",
       "name": "vEGkaTAcalE vasantOtsavaH"
     },
     "vEda/dadhi-vrata-ArambhaH": {
       "days": [
         232
       ],
+      "jsonClass": "FestivalInstance",
       "name": "vEda/dadhi-vrata-ArambhaH"
     },
     "vRSabha-pUjA": {
       "days": [
         252
       ],
+      "jsonClass": "FestivalInstance",
       "name": "vRSabha-pUjA"
     },
     "vaTa-pUrNimA/vaTa-sAvitrI-vratam": {
       "days": [
         179
       ],
+      "jsonClass": "FestivalInstance",
       "name": "vaTa-pUrNimA/vaTa-sAvitrI-vratam"
     },
     "vahni-vratam": {
       "days": [
         106
       ],
+      "jsonClass": "FestivalInstance",
       "name": "vahni-vratam"
     },
     "vaiSNava-jayA/bhaimI-EkAdazI": {
       "days": [
         28
       ],
+      "jsonClass": "FestivalInstance",
       "name": "vaiSNava-jayA/bhaimI-EkAdazI"
     },
     "vaiSNava-kAmikA-EkAdazI": {
       "days": [
         220
       ],
+      "jsonClass": "FestivalInstance",
       "name": "vaiSNava-kAmikA-EkAdazI"
     },
     "vaiSNava-mOkSadA-EkAdazI": {
       "days": [
         353
       ],
+      "jsonClass": "FestivalInstance",
       "name": "vaiSNava-mOkSadA-EkAdazI"
     },
     "vaiSNava-ramA-EkAdazI": {
       "days": [
         308
       ],
+      "jsonClass": "FestivalInstance",
       "name": "vaiSNava-ramA-EkAdazI"
     },
     "vaiSNava-vaikuNTha-EkAdazI": {
       "days": [
         353
       ],
+      "jsonClass": "FestivalInstance",
       "name": "vaiSNava-vaikuNTha-EkAdazI"
     },
     "vaidhRti-zrAddham": {
       "days": [
         105
       ],
+      "jsonClass": "FestivalInstance",
       "name": "vaidhRti-zrAddham"
     },
     "vaikhAnasa~maharSi~jayantI": {
       "days": [
         238
       ],
+      "jsonClass": "FestivalInstance",
       "name": "vaikhAnasa~maharSi~jayantI"
     },
     "vaivasvata-saptamI": {
       "days": [
         200
       ],
+      "jsonClass": "FestivalInstance",
       "name": "vaivasvata-saptamI"
     },
     "vaizAkha-amAvAsyA (alabhyam\u2013puSkalA)": {
       "days": [
         135
       ],
+      "jsonClass": "FestivalInstance",
       "name": "vaizAkha-amAvAsyA (alabhyam\u2013puSkalA)"
     },
     "vaizAkha-mAsa-ArambhaH": {
       "days": [
         106
       ],
+      "jsonClass": "FestivalInstance",
       "name": "vaizAkha-mAsa-ArambhaH"
     },
     "vaizAkha-mAsa-samApanam": {
       "days": [
         135
       ],
+      "jsonClass": "FestivalInstance",
       "name": "vaizAkha-mAsa-samApanam"
     },
     "vaizAkha-pUrNimA-snAnam": {
       "days": [
         120
       ],
+      "jsonClass": "FestivalInstance",
       "name": "vaizAkha-pUrNimA-snAnam"
     },
     "vaizAkha-snAnapUrtiH": {
       "days": [
         135
       ],
+      "jsonClass": "FestivalInstance",
       "name": "vaizAkha-snAnapUrtiH"
     },
     "vallabhAcArya~jayantI~\\#{540}": {
       "days": [
         102
       ],
+      "jsonClass": "FestivalInstance",
       "name": "vallabhAcArya~jayantI~\\#{540}"
     },
     "vanadurgAnavarAtra-ArambhaH": {
       "days": [
         342
       ],
+      "jsonClass": "FestivalInstance",
       "name": "vanadurgAnavarAtra-ArambhaH"
     },
     "vanadurgAnavarAtra-samApanam": {
       "days": [
         350
       ],
+      "jsonClass": "FestivalInstance",
       "name": "vanadurgAnavarAtra-samApanam"
     },
     "varAha-dvAdazI": {
       "days": [
         28
       ],
+      "jsonClass": "FestivalInstance",
       "name": "varAha-dvAdazI"
     },
     "varAha-kalpAdiH": {
       "days": [
         29
       ],
+      "jsonClass": "FestivalInstance",
       "name": "varAha-kalpAdiH"
     },
     "varAha~jayantI": {
       "days": [
         255
       ],
+      "jsonClass": "FestivalInstance",
       "name": "varAha~jayantI"
     },
     "varakunda-caturthI": {
       "days": [
         20
       ],
+      "jsonClass": "FestivalInstance",
       "name": "varakunda-caturthI"
     },
     "varalakSmI-vratam": {
       "days": [
         236
       ],
+      "jsonClass": "FestivalInstance",
       "name": "varalakSmI-vratam"
     },
     "varuNa-pUjA": {
       "days": [
         170
       ],
+      "jsonClass": "FestivalInstance",
       "name": "varuNa-pUjA"
     },
     "vasanta-zrI-paJcamI": {
       "days": [
         22
       ],
+      "jsonClass": "FestivalInstance",
       "name": "vasanta-zrI-paJcamI"
     },
     "vasantanavarAtra-ArambhaH": {
       "days": [
         77
       ],
+      "jsonClass": "FestivalInstance",
       "name": "vasantanavarAtra-ArambhaH"
     },
     "vasantanavarAtra-samApanam": {
       "days": [
         84
       ],
+      "jsonClass": "FestivalInstance",
       "name": "vasantanavarAtra-samApanam"
     },
     "vasiSTha~maharSi~jayantI": {
       "days": [
         114
       ],
+      "jsonClass": "FestivalInstance",
       "name": "vasiSTha~maharSi~jayantI"
     },
     "vasudEva-pUjA": {
       "days": [
         308
       ],
+      "jsonClass": "FestivalInstance",
       "name": "vasudEva-pUjA"
     },
     "viSNupadI-kumbharaviH": {
       "days": [
         44
       ],
+      "jsonClass": "FestivalInstance",
       "name": "viSNupadI-kumbharaviH"
     },
     "viSNupadI-siMharaviH": {
       "days": [
         229
       ],
+      "jsonClass": "FestivalInstance",
       "name": "viSNupadI-siMharaviH"
     },
     "viSNupadI-vRSabharaviH": {
       "days": [
         135
       ],
+      "jsonClass": "FestivalInstance",
       "name": "viSNupadI-vRSabharaviH"
     },
     "viSNupadI-vRzcikaraviH": {
       "days": [
         321
       ],
+      "jsonClass": "FestivalInstance",
       "name": "viSNupadI-vRzcikaraviH"
     },
     "vidyAraNya-svAmI~jayantI": {
       "days": [
         112
       ],
+      "jsonClass": "FestivalInstance",
       "name": "vidyAraNya-svAmI~jayantI"
     },
     "vidyAraNya~svAmI~ArAdhanA~\\#{627}": {
       "days": [
         176
       ],
+      "jsonClass": "FestivalInstance",
       "name": "vidyAraNya~svAmI~ArAdhanA~\\#{627}"
     },
     "vijayA/zravaNa-mahAdvAdazI": {
@@ -79638,6 +80422,7 @@
         73,
         264
       ],
+      "jsonClass": "FestivalInstance",
       "name": "vijayA/zravaNa-mahAdvAdazI"
     },
     "vijayA~bhAnusaptamI": {
@@ -79645,234 +80430,273 @@
         112,
         259
       ],
+      "jsonClass": "FestivalInstance",
       "name": "vijayA~bhAnusaptamI"
     },
     "vijayadazamI": {
       "days": [
         292
       ],
+      "jsonClass": "FestivalInstance",
       "name": "vijayadazamI"
     },
     "vikramAditya-paTTAbhiSEkaH": {
       "days": [
         311
       ],
+      "jsonClass": "FestivalInstance",
       "name": "vikramAditya-paTTAbhiSEkaH"
     },
     "vinAyakASTamI": {
       "days": [
         187
       ],
+      "jsonClass": "FestivalInstance",
       "name": "vinAyakASTamI"
     },
     "vindhyAvAsinI-dEvI-pUjA": {
       "days": [
         170
       ],
+      "jsonClass": "FestivalInstance",
       "name": "vindhyAvAsinI-dEvI-pUjA"
     },
     "vipattAra-gaurI-vratam": {
       "days": [
         255
       ],
+      "jsonClass": "FestivalInstance",
       "name": "vipattAra-gaurI-vratam"
     },
     "vitastOtsavaH": {
       "days": [
         262
       ],
+      "jsonClass": "FestivalInstance",
       "name": "vitastOtsavaH"
     },
     "vivEkAnanda~jayantI~\\#{156}": {
       "days": [
         8
       ],
+      "jsonClass": "FestivalInstance",
       "name": "vivEkAnanda~jayantI~\\#{156}"
     },
     "vizvakarmA~jayantI": {
       "days": [
         260
       ],
+      "jsonClass": "FestivalInstance",
       "name": "vizvakarmA~jayantI"
     },
     "vizvarUpa-yAtrA": {
       "days": [
         268
       ],
+      "jsonClass": "FestivalInstance",
       "name": "vizvarUpa-yAtrA"
     },
     "vyAghra-dvAdazI": {
       "days": [
         308
       ],
+      "jsonClass": "FestivalInstance",
       "name": "vyAghra-dvAdazI"
     },
     "vyatIpAta-zrAddham": {
       "days": [
         95
       ],
+      "jsonClass": "FestivalInstance",
       "name": "vyatIpAta-zrAddham"
     },
     "yAjJavalkya~jayantI": {
       "days": [
         324
       ],
+      "jsonClass": "FestivalInstance",
       "name": "yAjJavalkya~jayantI"
     },
     "yajurvEda-upAkarma": {
       "days": [
         238
       ],
+      "jsonClass": "FestivalInstance",
       "name": "yajurvEda-upAkarma"
     },
     "yama/bhrAtR-dvitIyA": {
       "days": [
         313
       ],
+      "jsonClass": "FestivalInstance",
       "name": "yama/bhrAtR-dvitIyA"
     },
     "yamunA~jayantI": {
       "days": [
         82
       ],
+      "jsonClass": "FestivalInstance",
       "name": "yamunA~jayantI"
     },
     "yati-mahAlayam": {
       "days": [
         279
       ],
+      "jsonClass": "FestivalInstance",
       "name": "yati-mahAlayam"
     },
     "yaticAturmAsyavrata-ArambhaH": {
       "days": [
         208
       ],
+      "jsonClass": "FestivalInstance",
       "name": "yaticAturmAsyavrata-ArambhaH"
     },
     "yaticAturmAsyavrata-samApanam": {
       "days": [
         268
       ],
+      "jsonClass": "FestivalInstance",
       "name": "yaticAturmAsyavrata-samApanam"
     },
     "yazOdA~jayantI": {
       "days": [
         37
       ],
+      "jsonClass": "FestivalInstance",
       "name": "yazOdA~jayantI"
     },
     "yuddhadEvatA-ArAdhanA": {
       "days": [
         292
       ],
+      "jsonClass": "FestivalInstance",
       "name": "yuddhadEvatA-ArAdhanA"
     },
     "yugAdiH": {
       "days": [
         77
       ],
+      "jsonClass": "FestivalInstance",
       "name": "yugAdiH"
     },
     "zAkambharI~jayantI": {
       "days": [
         2
       ],
+      "jsonClass": "FestivalInstance",
       "name": "zAkambharI~jayantI"
     },
     "zAkavrata-ArambhaH": {
       "days": [
         205
       ],
+      "jsonClass": "FestivalInstance",
       "name": "zAkavrata-ArambhaH"
     },
     "zAkavrata-samApanam": {
       "days": [
         235
       ],
+      "jsonClass": "FestivalInstance",
       "name": "zAkavrata-samApanam"
     },
     "zAlihOtra-vrata-ArambhaH": {
       "days": [
         81
       ],
+      "jsonClass": "FestivalInstance",
       "name": "zAlihOtra-vrata-ArambhaH"
     },
     "zAnti-paJcamI-vratam": {
       "days": [
         286
       ],
+      "jsonClass": "FestivalInstance",
       "name": "zAnti-paJcamI-vratam"
     },
     "zItalASTamI": {
       "days": [
         187
       ],
+      "jsonClass": "FestivalInstance",
       "name": "zItalASTamI"
     },
     "zItalA~saptamI": {
       "days": [
         229
       ],
+      "jsonClass": "FestivalInstance",
       "name": "zItalA~saptamI"
     },
     "zRGgErI 32 jagadguru zrI~nRsiMha bhAratI ArAdhanA": {
       "days": [
         166
       ],
+      "jsonClass": "FestivalInstance",
       "name": "zRGgErI 32 jagadguru zrI~nRsiMha bhAratI ArAdhanA"
     },
     "zRGgErI 34 jagadguru zrI~candrazEkhara bhAratI ArAdhanA": {
       "days": [
         281
       ],
+      "jsonClass": "FestivalInstance",
       "name": "zRGgErI 34 jagadguru zrI~candrazEkhara bhAratI ArAdhanA"
     },
     "zRGgErI 34 jagadguru zrI~candrazEkhara bhAratI~3 jayantI": {
       "days": [
         307
       ],
+      "jsonClass": "FestivalInstance",
       "name": "zRGgErI 34 jagadguru zrI~candrazEkhara bhAratI~3 jayantI"
     },
     "zRGgErI 35 jagadguru zrI~abhinava vidyAtIrtha mahAsvAmI ArAdhanA": {
       "days": [
         274
       ],
+      "jsonClass": "FestivalInstance",
       "name": "zRGgErI 35 jagadguru zrI~abhinava vidyAtIrtha mahAsvAmI ArAdhanA"
     },
     "zRGgErI 35 jagadguru zrI~abhinava vidyAtIrtha mahAsvAmI jayantI": {
       "days": [
         310
       ],
+      "jsonClass": "FestivalInstance",
       "name": "zRGgErI 35 jagadguru zrI~abhinava vidyAtIrtha mahAsvAmI jayantI"
     },
     "zRGgErI zAradAmaTha-pratiSThApana~jayantI~\\#{2501}": {
       "days": [
         2
       ],
+      "jsonClass": "FestivalInstance",
       "name": "zRGgErI zAradAmaTha-pratiSThApana~jayantI~\\#{2501}"
     },
     "zaGkara~jayantI~\\#{2527}": {
       "days": [
         110
       ],
+      "jsonClass": "FestivalInstance",
       "name": "zaGkara~jayantI~\\#{2527}"
     },
     "zabarI~jayantI": {
       "days": [
         38
       ],
+      "jsonClass": "FestivalInstance",
       "name": "zabarI~jayantI"
     },
     "zamI-gaurI-vratam": {
       "days": [
         198
       ],
+      "jsonClass": "FestivalInstance",
       "name": "zamI-gaurI-vratam"
     },
     "zamI-pUjA": {
       "days": [
         292
       ],
+      "jsonClass": "FestivalInstance",
       "name": "zamI-pUjA"
     },
     "zani-pradOSa-vratam": {
@@ -79881,6 +80705,7 @@
         265,
         279
       ],
+      "jsonClass": "FestivalInstance",
       "name": "zani-pradOSa-vratam"
     },
     "zanirOhiNI-puNyakAlaH": {
@@ -79890,156 +80715,182 @@
         300,
         328
       ],
+      "jsonClass": "FestivalInstance",
       "name": "zanirOhiNI-puNyakAlaH"
     },
     "zani~jayantI": {
       "days": [
         135
       ],
+      "jsonClass": "FestivalInstance",
       "name": "zani~jayantI"
     },
     "zarabha~jayantI": {
       "days": [
         120
       ],
+      "jsonClass": "FestivalInstance",
       "name": "zarabha~jayantI"
     },
     "zarad-pUrNimA": {
       "days": [
         297
       ],
+      "jsonClass": "FestivalInstance",
       "name": "zarad-pUrNimA"
     },
     "zarannavarAtra-ArambhaH": {
       "days": [
         283
       ],
+      "jsonClass": "FestivalInstance",
       "name": "zarannavarAtra-ArambhaH"
     },
     "zarannavarAtra-samApanam": {
       "days": [
         291
       ],
+      "jsonClass": "FestivalInstance",
       "name": "zarannavarAtra-samApanam"
     },
     "zarkarA-saptamI": {
       "days": [
         112
       ],
+      "jsonClass": "FestivalInstance",
       "name": "zarkarA-saptamI"
     },
     "zastrahatacaturdazI": {
       "days": [
         280
       ],
+      "jsonClass": "FestivalInstance",
       "name": "zastrahatacaturdazI"
     },
     "ziva-zayanOtsavaH": {
       "days": [
         208
       ],
+      "jsonClass": "FestivalInstance",
       "name": "ziva-zayanOtsavaH"
     },
     "zrAvaNa-amAvAsyA": {
       "days": [
         252
       ],
+      "jsonClass": "FestivalInstance",
       "name": "zrAvaNa-amAvAsyA"
     },
     "zrIkRSNadEvarAya-rAjyAbhiSEkaH": {
       "days": [
         246
       ],
+      "jsonClass": "FestivalInstance",
       "name": "zrIkRSNadEvarAya-rAjyAbhiSEkaH"
     },
     "zrIkRSNajanmASTamI": {
       "days": [
         245
       ],
+      "jsonClass": "FestivalInstance",
       "name": "zrIkRSNajanmASTamI"
     },
     "zrInivAsamaGgApurE sAkSAtkAra-vaibhavOtsava-ArambhaH": {
       "days": [
         169
       ],
+      "jsonClass": "FestivalInstance",
       "name": "zrInivAsamaGgApurE sAkSAtkAra-vaibhavOtsava-ArambhaH"
     },
     "zrInivAsamaGgApurE sAkSAtkAra-vaibhavOtsava-samApanam": {
       "days": [
         171
       ],
+      "jsonClass": "FestivalInstance",
       "name": "zrInivAsamaGgApurE sAkSAtkAra-vaibhavOtsava-samApanam"
     },
     "zrInivAsamaGgApurE sAkSAtkAra-vaibhavOtsavaH": {
       "days": [
         170
       ],
+      "jsonClass": "FestivalInstance",
       "name": "zrInivAsamaGgApurE sAkSAtkAra-vaibhavOtsavaH"
     },
     "zrIrAma-paTTAbhiSEkaH": {
       "days": [
         311
       ],
+      "jsonClass": "FestivalInstance",
       "name": "zrIrAma-paTTAbhiSEkaH"
     },
     "zrIrAma-vanavAsa-gamanam": {
       "days": [
         22
       ],
+      "jsonClass": "FestivalInstance",
       "name": "zrIrAma-vanavAsa-gamanam"
     },
     "zrIrAmanavamI": {
       "days": [
         84
       ],
+      "jsonClass": "FestivalInstance",
       "name": "zrIrAmanavamI"
     },
     "zrIvinAyaka-caturthI": {
       "days": [
         256
       ],
+      "jsonClass": "FestivalInstance",
       "name": "zrIvinAyaka-caturthI"
     },
     "zrI~gOvinda bhagavatpAda ArAdhanA": {
       "days": [
         326
       ],
+      "jsonClass": "FestivalInstance",
       "name": "zrI~gOvinda bhagavatpAda ArAdhanA"
     },
     "zrI~hanUmat~jayantI~2": {
       "days": [
         90
       ],
+      "jsonClass": "FestivalInstance",
       "name": "zrI~hanUmat~jayantI~2"
     },
     "zrI~rAghavEndra-svAmI~jayantI~\\#{424}": {
       "days": [
         53
       ],
+      "jsonClass": "FestivalInstance",
       "name": "zrI~rAghavEndra-svAmI~jayantI~\\#{424}"
     },
     "zrI~rAghavEndra~svAmI~ArAdhanA~\\#{347}": {
       "days": [
         240
       ],
+      "jsonClass": "FestivalInstance",
       "name": "zrI~rAghavEndra~svAmI~ArAdhanA~\\#{347}"
     },
     "zrI~vAsavI~jayantI": {
       "days": [
         115
       ],
+      "jsonClass": "FestivalInstance",
       "name": "zrI~vAsavI~jayantI"
     },
     "zrI~zESAdri-svAmI~ArAdhanA~\\#{90}": {
       "days": [
         364
       ],
+      "jsonClass": "FestivalInstance",
       "name": "zrI~zESAdri-svAmI~ArAdhanA~\\#{90}"
     },
     "zrI~zESAdri-svAmI~jayantI~\\#{149}": {
       "days": [
         36
       ],
+      "jsonClass": "FestivalInstance",
       "name": "zrI~zESAdri-svAmI~jayantI~\\#{149}"
     },
     "zravaNa-vratam": {
@@ -80058,48 +80909,56 @@
         318,
         346
       ],
+      "jsonClass": "FestivalInstance",
       "name": "zravaNa-vratam"
     },
     "zubha-saptamI": {
       "days": [
         289
       ],
+      "jsonClass": "FestivalInstance",
       "name": "zubha-saptamI"
     },
     "zuka~maharSi~jayantI": {
       "days": [
         135
       ],
+      "jsonClass": "FestivalInstance",
       "name": "zuka~maharSi~jayantI"
     },
     "zukla-dEvI-pUjA": {
       "days": [
         172
       ],
+      "jsonClass": "FestivalInstance",
       "name": "zukla-dEvI-pUjA"
     },
     "zvEta-kalpAdiH": {
       "days": [
         77
       ],
+      "jsonClass": "FestivalInstance",
       "name": "zvEta-kalpAdiH"
     },
     "zyAmA~zAstrI~jayantI~\\#{257}": {
       "days": [
         108
       ],
+      "jsonClass": "FestivalInstance",
       "name": "zyAmA~zAstrI~jayantI~\\#{257}"
     },
     "zyAmaLAnavarAtra-ArambhaH": {
       "days": [
         18
       ],
+      "jsonClass": "FestivalInstance",
       "name": "zyAmaLAnavarAtra-ArambhaH"
     },
     "zyAmaLAnavarAtra-samApanam": {
       "days": [
         26
       ],
+      "jsonClass": "FestivalInstance",
       "name": "zyAmaLAnavarAtra-samApanam"
     }
   },
