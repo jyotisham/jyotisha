@@ -1,10 +1,12 @@
 import logging
 import math
+import sys
 
 import methodtools
 import swisseph as swe
 from scipy.optimize import brentq
 
+from sanskrit_data.schema import common
 from sanskrit_data.schema.common import JsonObject
 
 
@@ -127,3 +129,6 @@ def get_star_longitude(star, jd):
   swe.set_ephe_path(os.path.dirname(data.__file__))
   (long, lat, _, _, _, _) = swe.fixstar_ut(star, jd)[0]
   return long
+
+# Essential for depickling to work.
+common.update_json_class_index(sys.modules[__name__])

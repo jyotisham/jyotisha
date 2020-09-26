@@ -1,4 +1,5 @@
 import logging
+import sys
 
 from jyotisha.panchaanga.temporal import time
 from jyotisha import names
@@ -6,7 +7,7 @@ from jyotisha import names
 from jyotisha.panchaanga import temporal
 from jyotisha.panchaanga.temporal import zodiac, PanchaangaApplier
 from jyotisha.panchaanga.temporal.time import Hour
-
+from sanskrit_data.schema import common
 
 TYAJYA_SPANS_REL = [51, 25, 31, 41, 15, 22, 31, 21, 33,
                     31, 21, 19, 22, 21, 15, 15, 11, 15,
@@ -112,3 +113,5 @@ class NakshatraAssigner(PanchaangaApplier):
                          Hour(24 * (amrita_end - jd)).toString(format='hh:mm*')))
 
 
+# Essential for depickling to work.
+common.update_json_class_index(sys.modules[__name__])

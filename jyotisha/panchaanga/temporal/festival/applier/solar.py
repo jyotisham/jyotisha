@@ -1,3 +1,4 @@
+import sys
 from datetime import datetime
 from math import floor
 
@@ -11,6 +12,7 @@ from jyotisha.panchaanga.temporal.body import Graha
 from jyotisha.panchaanga.temporal.festival.applier import FestivalAssigner
 from jyotisha.panchaanga.temporal.time import Hour
 from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision, AngaSpan
+from sanskrit_data.schema import common
 
 
 class SolarFestivalAssigner(FestivalAssigner):
@@ -180,3 +182,7 @@ class SolarFestivalAssigner(FestivalAssigner):
             festival_name = 'ardhOdaya-puNyakAlaH'
             self.add_festival(festival_name, d, debug_festivals)
             # logging.debug('* %d-%02d-%02d> %s!' % (y, m, dt, festival_name))
+
+
+# Essential for depickling to work.
+common.update_json_class_index(sys.modules[__name__])

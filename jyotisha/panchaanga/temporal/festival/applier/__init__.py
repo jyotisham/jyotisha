@@ -1,5 +1,6 @@
 import logging
 import os
+import sys
 from itertools import filterfalse
 
 from jyotisha.panchaanga import temporal
@@ -9,6 +10,7 @@ from jyotisha.panchaanga.temporal import time
 from jyotisha.panchaanga.temporal import zodiac
 from jyotisha.panchaanga.temporal.festival import read_old_festival_rules_dict
 from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision, AngaSpan
+from sanskrit_data.schema import common
 
 DATA_ROOT = os.path.join(os.path.dirname(festival.__file__), "data")
 
@@ -480,3 +482,7 @@ class MiscFestivalAssigner(FestivalAssigner):
     for festival_name in self.panchaanga.festival_id_to_instance:
       for j in range(0, len(self.panchaanga.festival_id_to_instance[festival_name].days)):
         self.panchaanga.daily_panchaangas[self.panchaanga.festival_id_to_instance[festival_name].days[j]].festivals.append(festival_name)
+
+
+# Essential for depickling to work.
+common.update_json_class_index(sys.modules[__name__])

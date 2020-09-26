@@ -1,3 +1,4 @@
+import sys
 from math import floor
 
 from sanskrit_data.schema import common
@@ -57,3 +58,7 @@ def get_interval(start_jd, end_jd, part_index, num_parts):
   end_time = start_jd + (end_jd - start_jd) * end_fraction
 
   return Interval(start_time, end_time)
+
+
+# Essential for depickling to work.
+common.update_json_class_index(sys.modules[__name__])

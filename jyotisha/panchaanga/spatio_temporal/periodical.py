@@ -280,13 +280,6 @@ previous_day_panchaanga=self.daily_panchaangas[d])
     self._refill_daily_panchaangas()
 
 
-# Essential for depickling to work.
-common.update_json_class_index(sys.modules[__name__])
-
-
-# logging.debug(common.json_class_index)
-
-
 def get_panchaanga(city, start_date, end_date, compute_lagnams=False,
                    precomputed_json_dir="~/Documents", ayanaamsha_id=zodiac.Ayanamsha.CHITRA_AT_180):
   fname_det = os.path.expanduser(
@@ -321,6 +314,9 @@ def get_panchaanga(city, start_date, end_date, compute_lagnams=False,
     panchaanga.update_festival_details()
     return panchaanga
 
+
+# Essential for depickling to work.
+common.update_json_class_index(sys.modules[__name__])
 
 if __name__ == '__main__':
   city = spatio_temporal.City('Chennai', "13:05:24", "80:16:12", "Asia/Calcutta")

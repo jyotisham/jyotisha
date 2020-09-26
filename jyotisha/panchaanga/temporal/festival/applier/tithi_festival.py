@@ -1,4 +1,5 @@
 import logging
+import sys
 from datetime import datetime
 from math import floor
 
@@ -13,6 +14,7 @@ from jyotisha.panchaanga.temporal.body import Graha
 from jyotisha.panchaanga.temporal.festival.applier import FestivalAssigner
 from jyotisha.panchaanga.temporal.time import Hour, Date
 from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision
+from sanskrit_data.schema import common
 
 
 class TithiFestivalAssigner(FestivalAssigner):
@@ -448,3 +450,7 @@ class TithiFestivalAssigner(FestivalAssigner):
                 zodiac.AngaType.NAKSHATRA) == 23:
               vtr_name = 'mahA' + vtr_name
           self.add_festival(vtr_name, d, debug_festivals)
+
+
+# Essential for depickling to work.
+common.update_json_class_index(sys.modules[__name__])

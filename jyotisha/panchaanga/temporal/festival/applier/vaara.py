@@ -1,8 +1,11 @@
+import sys
+
 from jyotisha.panchaanga.temporal import time
 from jyotisha.panchaanga import temporal
 from jyotisha.panchaanga.temporal import zodiac
 from jyotisha.panchaanga.temporal.festival.applier import FestivalAssigner
 from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision
+from sanskrit_data.schema import common
 
 
 class VaraFestivalAssigner(FestivalAssigner):
@@ -106,3 +109,7 @@ class VaraFestivalAssigner(FestivalAssigner):
         if NakshatraDivision(self.panchaanga.daily_panchaangas[d].jd_sunset, ayanaamsha_id=self.ayanaamsha_id).get_anga(
             zodiac.AngaType.KARANA) in list(range(2, 52, 7)):
           self.add_festival('AyuSmad-bava-saumya-saMyogaH', d, debug_festivals)
+
+
+# Essential for depickling to work.
+common.update_json_class_index(sys.modules[__name__])

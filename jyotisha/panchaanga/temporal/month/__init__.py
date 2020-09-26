@@ -1,5 +1,8 @@
+import sys
+
 from jyotisha.panchaanga.temporal import zodiac
 from jyotisha.panchaanga.temporal.zodiac import AngaSpan, NakshatraDivision
+from sanskrit_data.schema import common
 from sanskrit_data.schema.common import JsonObject
 
 
@@ -69,4 +72,7 @@ class SiderialSolarBasedAssigner(LunarMonthAssigner):
       last_new_moon.jd_end = this_new_moon.jd_end
       this_new_moon.jd_start = next_new_moon.jd_start
       this_new_moon.jd_end = next_new_moon.jd_end
-  
+
+
+# Essential for depickling to work.
+common.update_json_class_index(sys.modules[__name__])

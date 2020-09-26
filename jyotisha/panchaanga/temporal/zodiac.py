@@ -1,4 +1,5 @@
 import logging
+import sys
 from math import floor
 
 import methodtools
@@ -335,6 +336,10 @@ class AngaSpan(Interval):
     """
     anga_span_finder = AngaSpanFinder(ayanaamsha_id=ayanaamsha_id, anga_type=anga_type)
     return anga_span_finder.find(jd1=jd1, jd2=jd2, target_anga_id=target_anga_id)
+
+
+# Essential for depickling to work.
+common.update_json_class_index(sys.modules[__name__])
 
 
 if __name__ == '__main__':

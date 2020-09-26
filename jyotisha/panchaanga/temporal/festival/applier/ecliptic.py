@@ -1,3 +1,4 @@
+import sys
 from datetime import datetime
 from math import floor
 
@@ -9,6 +10,7 @@ from jyotisha.panchaanga.temporal import time
 from jyotisha.panchaanga.temporal.body import Graha
 from jyotisha.panchaanga.temporal.festival.applier import FestivalAssigner
 from jyotisha.panchaanga.temporal.time import Hour, Date
+from sanskrit_data.schema import common
 
 
 class EclipticFestivalAssigner(FestivalAssigner):
@@ -226,3 +228,6 @@ class EclipticFestivalAssigner(FestivalAssigner):
 
 
 MIN_DAYS_NEXT_ECLIPSE = 25
+
+# Essential for depickling to work.
+common.update_json_class_index(sys.modules[__name__])
