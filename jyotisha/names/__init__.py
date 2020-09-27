@@ -16,8 +16,8 @@ def get_ayanaamsha_name(ayanaamsha_id):
   return swe.get_ayanamsa_name(ayanaamsha_id)
 
 
-def get_ekadashi_name(paksha, lmonth):
-  """Return the name of an ekadashi
+def get_ekaadashii_name(paksha, lmonth):
+  """Return the name of an ekaadashii
   """
   if paksha == 'shukla':
     if lmonth == int(lmonth):

@@ -266,7 +266,7 @@ def compute_calendar(panchaanga, script=sanscript.DEVANAGARI, all_tags=True, bri
               logging.warning('No description found for festival %s!' % planet_trans)
           else:
             # logging.debug(stext)
-            # Handle ekadashi descriptions differently
+            # Handle ekaadashii descriptions differently
             ekad = '-'.join(stext.split('-')[1:])  # get rid of sarva etc. prefix!
             ekad_suff_pos = ekad.find(' (')
             if ekad_suff_pos != -1:
