@@ -244,7 +244,7 @@ class HinduCalendarEvent(common.JsonObject):
 
     # Get the URL
     if include_url:
-      base_url = 'https://github.com/sanskrit-coders/adyatithi/tree/master/'
+      base_url = 'https://github.com/sanskrit-coders/adyatithi/tree/master'
       if self.timing is not None and self.timing.angam_type is not None:
         url = "%(base_dir)s/%(month_type)s/%(angam_type)s/%(month_number)02d/%(angam_number)02d#%(id)s" % dict(
           base_dir=base_url,
