@@ -600,7 +600,7 @@ class HinduCalendarEvent(common.JsonObject):
 
   def get_storage_file_name(self, base_dir, only_descriptions=False):
     if getattr(self.timing, "anchor_festival_id", None) is not None:
-      return "%(base_dir)s/relative_event/%(anchor_festival_id)s/offset__%(offset)02d/%(id)s__info.json" % dict(
+      return "%(base_dir)s/relative_event/%(anchor_festival_id)s/offset__%(offset)02d/%(id)s__info.toml" % dict(
         base_dir=base_dir,
         anchor_festival_id=self.timing.anchor_festival_id.replace('/', '__'),
         offset=self.timing.offset,
@@ -609,13 +609,13 @@ class HinduCalendarEvent(common.JsonObject):
     else:
       if only_descriptions:
         tag_list = '/'.join([re.sub('([a-z])([A-Z])', r'\1-\2', t).lower() for t in self.tags])
-        return "%(base_dir)s/other/%(tags)s/%(id)s__info.json" % dict(
+        return "%(base_dir)s/other/%(tags)s/%(id)s__info.toml" % dict(
           base_dir=base_dir,
           tags=tag_list,
           id=self.id.replace('/', '__').strip('{}')
         )
       else:
-        return "%(base_dir)s/%(month_type)s/%(angam_type)s/%(month_number)02d/%(angam_number)02d/%(id)s__info.json" % dict(
+        return "%(base_dir)s/%(month_type)s/%(angam_type)s/%(month_number)02d/%(angam_number)02d/%(id)s__info.toml" % dict(
           base_dir=base_dir,
           month_type=self.timing.month_type,
           angam_type=self.timing.angam_type,
