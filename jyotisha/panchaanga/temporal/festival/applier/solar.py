@@ -9,7 +9,9 @@ from jyotisha import names
 from jyotisha.panchaanga import temporal
 from jyotisha.panchaanga.temporal import zodiac, tithi
 from jyotisha.panchaanga.temporal.body import Graha
+from jyotisha.panchaanga.temporal.festival import FestivalInstance
 from jyotisha.panchaanga.temporal.festival.applier import FestivalAssigner
+from jyotisha.panchaanga.temporal.interval import Interval
 from jyotisha.panchaanga.temporal.time import Hour
 from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision, AngaSpan
 from sanskrit_data.schema import common
@@ -122,41 +124,16 @@ class SolarFestivalAssigner(FestivalAssigner):
 
       if self.panchaanga.daily_panchaangas[d].solar_sidereal_date_sunset.month == 6 and (gc_28 or gc_30):
         if gc_28:
-          gc_28_start += tz_off / 24.0
-          gc_28_end += tz_off / 24.0
-          # sys.stderr.write('28: (%f, %f)\n' % (gc_28_start, gc_28_end))
           gc_28_d = 1 + floor(gc_28_start - self.panchaanga.jd_start)
-          t1 = Hour(time.jd_to_utc_gregorian(gc_28_start).to_date_fractional_hour_tuple()[3]).toString()
-
-          if floor(gc_28_end - 0.5) != floor(gc_28_start - 0.5):
-            # -0.5 is for the fact that julday is zero at noon always, not midnight!
-            offset = 24
-          else:
-            offset = 0
-          t2 = Hour(time.jd_to_utc_gregorian(gc_28_end).to_date_fractional_hour_tuple()[3] + offset).toString()
           # sys.stderr.write('gajacchhaya %d\n' % gc_28_d)
-
-          self.panchaanga.festival_id_to_instance['gajacchAyA-yOgaH' +
-                         '-\\textsf{' + t1 + '}{\\RIGHTarrow}\\textsf{' +
-                                                  t2 + '}'].days = [gc_28_d]
+          gajacchaayaa_fest = FestivalInstance(name='gajacchAyA-yOgaH', interval=Interval(jd_start=gc_28_start, jd_end=gc_28_end), days=[gc_28_d])
+          self.panchaanga.festival_id_to_instance[gajacchaayaa_fest.name] = gajacchaayaa_fest
           gc_28 = False
         if gc_30:
-          gc_30_start += tz_off / 24.0
-          gc_30_end += tz_off / 24.0
           # sys.stderr.write('30: (%f, %f)\n' % (gc_30_start, gc_30_end))
           gc_30_d = 1 + floor(gc_30_start - self.panchaanga.jd_start)
-          t1 = Hour(time.jd_to_utc_gregorian(gc_30_start).to_date_fractional_hour_tuple()[3]).toString()
-
-          if floor(gc_30_end - 0.5) != floor(gc_30_start - 0.5):
-            offset = 24
-          else:
-            offset = 0
-          t2 = Hour(time.jd_to_utc_gregorian(gc_30_end).to_date_fractional_hour_tuple()[3] + offset).toString()
-          # sys.stderr.write('gajacchhaya %d\n' % gc_30_d)
-
-          self.panchaanga.festival_id_to_instance['gajacchAyA-yOgaH' +
-                         '-\\textsf{' + t1 + '}{\\RIGHTarrow}\\textsf{' +
-                                                  t2 + '}'].days = [gc_30_d]
+          gajacchaayaa_fest = FestivalInstance(name='gajacchAyA-yOgaH', interval=Interval(jd_start=gc_30_start, jd_end=gc_30_end), days=[gc_30_d])
+          self.panchaanga.festival_id_to_instance[gajacchaayaa_fest.name] = gajacchaayaa_fest
           gc_30 = False
 
   def assign_mahodaya_ardhodaya(self, debug_festivals=False):

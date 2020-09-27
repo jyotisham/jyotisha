@@ -13,6 +13,7 @@ from jyotisha.panchaanga.temporal import zodiac, tithi
 from jyotisha.panchaanga.temporal.body import Graha
 from jyotisha.panchaanga.temporal.festival import FestivalInstance
 from jyotisha.panchaanga.temporal.festival.applier import FestivalAssigner
+from jyotisha.panchaanga.temporal.interval import Interval
 from jyotisha.panchaanga.temporal.time import Hour, Date
 from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision
 from sanskrit_data.schema import common
@@ -266,11 +267,9 @@ class TithiFestivalAssigner(FestivalAssigner):
               self.panchaanga.daily_panchaangas[smaarta_ekadashi_fday].jd_sunrise + 2)
           _date = time.jd_to_utc_gregorian(harivasara_end + (tz_off / 24.0))
           _date.set_time_to_day_start()
-          hariv_end_time = Hour(
-            time.jd_to_utc_gregorian(harivasara_end + (tz_off / 24.0)).to_date_fractional_hour_tuple()[3]).toString()
           fday_hv = time.utc_gregorian_to_jd(_date) - self.panchaanga.jd_start + 1
           self.panchaanga.daily_panchaangas[int(fday_hv)].festivals.append(
-            FestivalInstance(name='harivAsaraH\\textsf{%s}{\\RIGHTarrow}\\textsf{%s}' % ('', hariv_end_time)))
+            FestivalInstance(name='harivAsaraH', interval=Interval(jd_start=None, jd_end=harivasara_end)))
 
   def assign_mahadwadashi(self, debug_festivals=False):
     for d in range(1, self.panchaanga.duration + 1):

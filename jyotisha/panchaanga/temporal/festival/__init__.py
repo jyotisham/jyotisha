@@ -316,12 +316,16 @@ class FestivalInstance(common.JsonObject):
     self.days = [] if days is None else days
     self.interval = interval
 
-  def tex_code(self):
+  def tex_code(self, script, timezone):
+    name = custom_transliteration.tr(text=self.name, scr=script).replace('★', '$^\\star$')
+
     if self.interval is None:
-      return self.name
+      return name
     else:
-      # start_time_str = 
-      return "%s" % self.name
+      from jyotisha.panchaanga.temporal.time import Hour
+      start_time_str = "" if self.interval.jd_start is None else Hour(timezone.julian_day_to_local_time(self.interval.jd_start).get_fractional_hour()).toString()
+      end_time_str = "" if self.interval.jd_end is None else Hour(timezone.julian_day_to_local_time(self.interval.jd_end).get_fractional_hour()).toString()
+      return custom_transliteration.tr("%s\\textsf{%s}{\\RIGHTarrow}\\textsf{%s}" % (name, start_time_str, end_time_str), scr=script)
 
   def __lt__(self, other):
     return self.name < other.name

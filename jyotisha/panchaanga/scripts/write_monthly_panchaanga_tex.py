@@ -87,7 +87,7 @@ def writeMonthlyTeX(panchaanga, template_file, script=sanscript.DEVANAGARI, temp
 
       print('%s & %s & %s & {\\raggedright %s} \\\\' %
             (MON[m], dt, WDAY[panchaanga.daily_panchaangas[d].date.get_weekday()],
-             '\\\\'.join([jyotisha.custom_transliteration.tr(f.tex_code(), script).replace('★', '$^\\star$')
+             '\\\\'.join([f.tex_code(script=script, timezone=panchaanga.city.timezone)
                           for f in sorted(set(panchaanga.daily_panchaangas[d].festivals))])))
 
     if m == 12 and dt == 31:
@@ -258,7 +258,7 @@ def writeMonthlyTeX(panchaanga, template_file, script=sanscript.DEVANAGARI, temp
       # Using set as an ugly workaround since we may have sometimes assigned the same
       # festival to the same day again!
       month_text += '\n' + ('{%s}' % '\\eventsep '.join(
-        [jyotisha.custom_transliteration.tr(f.tex_code(), script).replace('★', '$^\\star$') for f in
+        [f.tex_code(script=script, timezone=panchaanga.city.timezone) for f in
          sorted(set(panchaanga.daily_panchaangas[d].festivals))]))
     else:
       if panchaanga.daily_panchaangas[d].date.get_weekday() == 0:
@@ -288,7 +288,7 @@ def writeMonthlyTeX(panchaanga, template_file, script=sanscript.DEVANAGARI, temp
         # Using set as an ugly workaround since we may have sometimes assigned the same
         # festival to the same day again!
         W6D2 += '\n' + ('{%s}' % '\\eventsep '.join(
-          [jyotisha.custom_transliteration.tr(f.tex_code(), script) for f in sorted(set(panchaanga.daily_panchaangas[d].festivals))]))
+          [f.tex_code(script=script, timezone=panchaanga.city.timezone) for f in sorted(set(panchaanga.daily_panchaangas[d].festivals))]))
       else:
         # Cannot be here, since we cannot have more than 2 days in week 6 of any month!
         pass
