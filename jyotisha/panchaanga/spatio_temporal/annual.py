@@ -24,7 +24,7 @@ def get_panchaanga(city, year, compute_lagnas=False, precomputed_json_dir="~/Doc
   if os.path.isfile(fname) and allow_precomputed:
     sys.stderr.write('Loaded pre-computed panchaanga from %s.\n' % fname)
     panchaanga = Panchaanga.read_from_file(filename=fname, name_to_json_class_index_extra={"Panchangam": periodical.Panchaanga})
-    if not hasattr(panchaanga, 'version') or panchaanga.version != periodical.Panchaanga.LATEST_VERSION:
+    if getattr(panchaanga, 'version', None) is None or panchaanga.version != periodical.Panchaanga.LATEST_VERSION:
       logging.warning("Precomputed Panchanga obsolete.")
       return get_panchaanga(city=city, year=year, compute_lagnas=compute_lagnas, precomputed_json_dir=precomputed_json_dir,
                                   ayanaamsha_id=ayanaamsha_id, allow_precomputed=False)

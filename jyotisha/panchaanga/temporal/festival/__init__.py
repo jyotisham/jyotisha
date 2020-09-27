@@ -93,22 +93,22 @@ class HinduCalendarEventTiming(common.JsonObject):
   @classmethod
   def from_old_style_event(cls, old_style_event):
     timing = HinduCalendarEventTiming()
-    if hasattr(old_style_event, "month_type"):
+    if getattr(old_style_event, "month_type", None) is not None:
       timing.month_type = old_style_event.month_type
-    if hasattr(old_style_event, "month_number"):
+    if getattr(old_style_event, "month_number", None) is not None:
       timing.month_number = old_style_event.month_number
-    if hasattr(old_style_event, "angam_type"):
+    if getattr(old_style_event, "angam_type", None) is not None:
       timing.angam_type = old_style_event.angam_type
-    if hasattr(old_style_event, "angam_number"):
+    if getattr(old_style_event, "angam_number", None) is not None:
       timing.angam_number = old_style_event.angam_number
-    if hasattr(old_style_event, "kaala"):
+    if getattr(old_style_event, "kaala", None) is not None:
       timing.kaala = old_style_event.kaala
-    if hasattr(old_style_event, "year_start"):
+    if getattr(old_style_event, "year_start", None) is not None:
       timing.year_start = old_style_event.year_start
-    if hasattr(old_style_event, "anchor_festival_id"):
+    if getattr(old_style_event, "anchor_festival_id", None) is not None:
       import regex
       timing.anchor_festival_id = regex.sub(":", "__", old_style_event.anchor_festival_id)
-    if hasattr(old_style_event, "offset"):
+    if getattr(old_style_event, "offset", None) is not None:
       timing.offset = old_style_event.offset
     timing.validate_schema()
     return timing
@@ -163,7 +163,7 @@ class HinduCalendarEventOld(common.JsonObject):
     blurb = ''
     month = ''
     angam = ''
-    if hasattr(self, "month_type"):
+    if getattr(self, "month_type", None) is not None:
       if self.month_type == 'lunar_month':
         if self.month_number == 0:
           month = ' of every lunar month'
@@ -174,7 +174,7 @@ class HinduCalendarEventOld(common.JsonObject):
           month = ' of every solar month'
         else:
           month = ' of ' + NAMES['RASHI_NAMES'][sanscript.IAST][self.month_number] + ' (solar) month'
-    if hasattr(self, "angam_type"):
+    if getattr(self, "angam_type", None) is not None:
       # logging.debug(self.id)
       # if self.id.startswith("ta:"):
       #   angam = custom_transliteration.tr(self.id[3:], sanscript.TAMIL).replace("~", " ").strip("{}") + ' is observed on '
@@ -189,13 +189,13 @@ class HinduCalendarEventOld(common.JsonObject):
       elif self.angam_type == 'day':
         angam += 'day %d' % self.angam_number
     else:
-      if not hasattr(self, "description"):
+      if getattr(self, "description", None) is None:
         logging.debug("No angam_type in %s or description even!!", self.id)
-    if hasattr(self, "kaala"):
+    if getattr(self, "kaala", None) is not None:
       kaala = self.kaala
     else:
       kaala = "sunrise (default)"
-    if hasattr(self, "priority"):
+    if getattr(self, "priority", None) is not None:
       priority = self.priority
     else:
       priority = 'puurvaviddha (default)'
@@ -210,7 +210,7 @@ class HinduCalendarEventOld(common.JsonObject):
     # Get the URL
     if include_url:
       base_url = 'https://github.com/sanskrit-coders/adyatithi/tree/master/data'
-      if hasattr(self, "angam_type"):
+      if getattr(self, "angam_type", None) is not None:
         url = "%(base_dir)s/%(month_type)s/%(angam_type)s/%(month_number)02d/%(angam_number)02d#%(id)s" % dict(
           base_dir=base_url,
           month_type=self.month_type,
@@ -220,7 +220,7 @@ class HinduCalendarEventOld(common.JsonObject):
           id=custom_transliteration.tr(self.id, sanscript.IAST).replace('Ta__', '').replace('~', ' ').replace(' ',
                                                                                                               '-').replace(
             '(', '').replace(')', '').strip('{}').lower())
-      elif hasattr(self, "anchor_festival_id"):
+      elif getattr(self, "anchor_festival_id", None) is not None:
         url = "%(base_dir)s/relative_event/%(anchor_festival_id)s/offset__%(offset)02d#%(id)s" % dict(
           base_dir=base_url,
           anchor_festival_id=self.anchor_festival_id.replace('/', '__'),
@@ -239,7 +239,7 @@ class HinduCalendarEventOld(common.JsonObject):
 
     # Get the description
     description_string = ''
-    if hasattr(self, "description"):
+    if getattr(self, "description", None) is not None:
       # description_string = json.dumps(self.description)
       description_string += self.description["en"]
       pieces = description_string.split('`')
@@ -253,7 +253,7 @@ class HinduCalendarEventOld(common.JsonObject):
         else:
           logging.warning('Unmatched backquotes in description string: %s' % description_string)
 
-    if hasattr(self, "shlokas") and include_shlokas:
+    if getattr(self, "shlokas", None) is not None and include_shlokas:
       if use_markup:
         description_string = description_string + '\n\n```\n' + custom_transliteration.tr(", ".join(self.shlokas),
                                                                                           script, False) + '\n```'
@@ -262,16 +262,16 @@ class HinduCalendarEventOld(common.JsonObject):
                                                                                      False) + '\n\n'
 
     if include_images:
-      if hasattr(self, "image"):
+      if getattr(self, "image", None) is not None:
         image_string = '![](https://github.com/sanskrit-coders/adyatithi/blob/master/images/%s)\n\n' % self.image
 
     ref_list = ''
-    if hasattr(self, "references_primary") or hasattr(self, "references_secondary"):
+    if getattr(self, "references_primary", None) is not None or getattr(self, "references_secondary", None) is not None:
       ref_list = '\n### References\n'
-      if hasattr(self, "references_primary"):
+      if getattr(self, "references_primary", None) is not None:
         for ref in self.references_primary:
           ref_list += '* %s\n' % transliterate_quoted_text(ref, sanscript.IAST)
-      elif hasattr(self, "references_secondary"):
+      elif getattr(self, "references_secondary", None) is not None:
         for ref in self.references_secondary:
           ref_list += '* %s\n' % transliterate_quoted_text(ref, sanscript.IAST)
 
@@ -311,12 +311,17 @@ class HinduCalendarEventOld(common.JsonObject):
 
 
 class FestivalInstance(common.JsonObject):
-  def __init__(self, name, days=None):
+  def __init__(self, name, days=None, interval=None):
     self.name = name
     self.days = [] if days is None else days
+    self.interval = interval
 
   def tex_code(self):
-    return self.name
+    if self.interval is None:
+      return self.name
+    else:
+      # start_time_str = 
+      return "%s" % self.name
 
 
 # noinspection PyUnresolvedReferences
@@ -382,28 +387,28 @@ class HinduCalendarEvent(common.JsonObject):
   def from_old_style_event(cls, old_style_event):
     event = HinduCalendarEvent()
     event.timing = HinduCalendarEventTiming.from_old_style_event(old_style_event=old_style_event)
-    if hasattr(old_style_event, "id"):
+    if getattr(old_style_event, "id", None) is not None:
       import regex
       event.id = regex.sub(":", "__", old_style_event.id)
-    if hasattr(old_style_event, "tags") and old_style_event.tags is not None:
+    if getattr(old_style_event, "tags", None) is not None and old_style_event.tags is not None:
       event.tags = [x.strip() for x in old_style_event.tags.split(",")]
-    if hasattr(old_style_event, "titles") and old_style_event.titles is not None:
+    if getattr(old_style_event, "titles", None) is not None and old_style_event.titles is not None:
       event.titles = [x.strip() for x in old_style_event.titles.split(";")]
-    if hasattr(old_style_event, "shlokas"):
+    if getattr(old_style_event, "shlokas", None) is not None:
       event.shlokas = old_style_event.shlokas
-    if hasattr(old_style_event, "priority"):
+    if getattr(old_style_event, "priority", None) is not None:
       event.priority = old_style_event.priority
-    if hasattr(old_style_event, "comments"):
+    if getattr(old_style_event, "comments", None) is not None:
       event.comments = old_style_event.comments
-    if hasattr(old_style_event, "image"):
+    if getattr(old_style_event, "image", None) is not None:
       event.image = old_style_event.image
-    if hasattr(old_style_event, "references_primary"):
+    if getattr(old_style_event, "references_primary", None) is not None:
       event.references_primary = old_style_event.references_primary
-    if hasattr(old_style_event, "references_secondary"):
+    if getattr(old_style_event, "references_secondary", None) is not None:
       event.references_secondary = old_style_event.references_secondary
-    if hasattr(old_style_event, "description_short"):
+    if getattr(old_style_event, "description_short", None) is not None:
       event.description_short = old_style_event.description_short
-    if hasattr(old_style_event, "description"):
+    if getattr(old_style_event, "description", None) is not None:
       event.description = old_style_event.description
 
     event.validate_schema()
@@ -415,7 +420,7 @@ class HinduCalendarEvent(common.JsonObject):
     blurb = ''
     month = ''
     angam = ''
-    if hasattr(self, "month_type"):
+    if getattr(self, "month_type", None) is not None:
       if self.month_type == 'lunar_month':
         if self.month_number == 0:
           month = ' of every lunar month'
@@ -426,7 +431,7 @@ class HinduCalendarEvent(common.JsonObject):
           month = ' of every solar month'
         else:
           month = ' of ' + NAMES['RASHI_NAMES'][sanscript.IAST][self.month_number] + ' (solar) month'
-    if hasattr(self, "angam_type"):
+    if getattr(self, "angam_type", None) is not None:
       logging.debug(self.id)
       if self.id[:4] == "ta__":
         angam = custom_transliteration.tr(self.id[4:], sanscript.TAMIL).replace("~", " ").strip(
@@ -441,13 +446,13 @@ class HinduCalendarEvent(common.JsonObject):
       elif self.angam_type == 'day':
         angam += 'day %d' % self.angam_number
     else:
-      if not hasattr(self, "description"):
+      if getattr(self, "description", None) is None:
         logging.debug("No angam_type in %s or description even!!", self.id)
-    if hasattr(self, "kaala"):
+    if getattr(self, "kaala", None) is not None:
       kaala = self.kaala
     else:
       kaala = "sunrise (default)"
-    if hasattr(self, "priority"):
+    if getattr(self, "priority", None) is not None:
       priority = self.priority
     else:
       priority = 'puurvaviddha (default)'
@@ -461,7 +466,7 @@ class HinduCalendarEvent(common.JsonObject):
     # Get the URL
     if include_url:
       base_url = 'https://github.com/sanskrit-coders/adyatithi/tree/master/data'
-      if hasattr(self, "angam_type"):
+      if getattr(self, "angam_type", None) is not None:
         url = "%(base_dir)s/%(month_type)s/%(angam_type)s/%(month_number)02d/%(angam_number)02d#%(id)s" % dict(
           base_dir=base_url,
           month_type=self.month_type,
@@ -471,7 +476,7 @@ class HinduCalendarEvent(common.JsonObject):
           id=custom_transliteration.tr(self.id, sanscript.IAST).replace('Ta__', '').replace('~', ' ').replace(' ',
                                                                                                               '-').replace(
             '(', '').replace(')', '').strip('{}').lower())
-      elif hasattr(self, "anchor_festival_id"):
+      elif getattr(self, "anchor_festival_id", None) is not None:
         url = "%(base_dir)s/relative_event/%(anchor_festival_id)s/offset__%(offset)02d#%(id)s" % dict(
           base_dir=base_url,
           anchor_festival_id=self.anchor_festival_id.replace('/', '__'),
@@ -490,7 +495,7 @@ class HinduCalendarEvent(common.JsonObject):
 
     # Get the description
     description_string = ''
-    if hasattr(self, "description"):
+    if getattr(self, "description", None) is not None:
       # description_string = json.dumps(self.description)
       description_string += self.description["en"]
       pieces = description_string.split('`')
@@ -504,7 +509,7 @@ class HinduCalendarEvent(common.JsonObject):
         else:
           logging.warning('Unmatched backquotes in description string: %s' % description_string)
 
-    if hasattr(self, "shlokas") and include_shlokas:
+    if getattr(self, "shlokas", None) is not None and include_shlokas:
       if use_markup:
         description_string = description_string + '\n\n```\n' + custom_transliteration.tr(", ".join(self.shlokas),
                                                                                           script, False) + '\n```'
@@ -513,15 +518,15 @@ class HinduCalendarEvent(common.JsonObject):
                                                                                      False) + '\n\n'
 
     if include_images:
-      if hasattr(self, "image"):
+      if getattr(self, "image", None) is not None:
         image_string = '![](https://github.com/sanskrit-coders/adyatithi/blob/master/images/%s)\n\n' % self.image
 
-    if hasattr(self, "references_primary") or hasattr(self, "references_secondary"):
+    if getattr(self, "references_primary", None) is not None or getattr(self, "references_secondary", None) is not None:
       ref_list = '### References\n'
-      if hasattr(self, "references_primary"):
+      if getattr(self, "references_primary", None) is not None:
         for ref in self.references_primary:
           ref_list += '* %s\n' % transliterate_quoted_text(ref, sanscript.IAST)
-      elif hasattr(self, "references_secondary"):
+      elif getattr(self, "references_secondary", None) is not None:
         for ref in self.references_secondary:
           ref_list += '* %s\n' % transliterate_quoted_text(ref, sanscript.IAST)
 
@@ -556,7 +561,7 @@ class HinduCalendarEvent(common.JsonObject):
   #   # When used for ICS generation, shloka can be included right here
   #   description_string = ""
   #   logging.debug('get_description_string')
-  #   if hasattr(self, "description"):
+  #   if getattr(self, "description", None) is not None:
   #     # description_string = json.dumps(self.description)
   #     description_string = self.description["en"]
   #     pieces = description_string.split('`')
@@ -569,13 +574,13 @@ class HinduCalendarEvent(common.JsonObject):
   #         description_string = ''.join(pieces)
   #       else:
   #         logging.warning('Unmatched backquotes in description string: %s' % description_string)
-  #   if includeShloka and hasattr(self, "shlokas"):
+  #   if includeShloka and getattr(self, "shlokas", None) is not None:
   #     description_string = description_string + '\n\n' + \
   #                          custom_transliteration.tr(", ".join(self.shlokas), script, False) + '\n\n'
   #   return description_string
 
   def get_storage_file_name(self, base_dir, only_descriptions=False):
-    if hasattr(self.timing, "anchor_festival_id"):
+    if getattr(self.timing, "anchor_festival_id", None) is not None:
       return "%(base_dir)s/relative_event/%(anchor_festival_id)s/offset__%(offset)02d/%(id)s__info.json" % dict(
         base_dir=base_dir,
         anchor_festival_id=self.timing.anchor_festival_id.replace('/', '__'),

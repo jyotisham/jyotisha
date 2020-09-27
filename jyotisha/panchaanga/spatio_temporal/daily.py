@@ -144,7 +144,7 @@ class DailyPanchanga(common.JsonObject):
   def compute_tb_muhuurtas(self):
     """ Computes muhuurta-s according to taittiriiya brAhmaNa.
     """
-    if not hasattr(self, "jd_sunrise") or self.jd_sunrise is None:
+    if getattr(self, "jd_sunrise", None) is None:
       self.compute_sun_moon_transitions()
     tb_muhuurtas = []
     for muhuurta_id in range(0, 15):
@@ -192,7 +192,7 @@ class DailyPanchanga(common.JsonObject):
       return self.lagna_data
 
     self.lagna_data = []
-    if not hasattr(self, "jd_sunrise") or self.jd_sunrise is None:
+    if getattr(self, "jd_sunrise", None) is None or self.jd_sunrise is None:
       self.compute_sun_moon_transitions()
     lagna_sunrise = 1 + floor(self.city.get_lagna_float(self.jd_sunrise, ayanaamsha_id=ayanaamsha_id))
 
@@ -222,7 +222,7 @@ class DailyPanchanga(common.JsonObject):
     if self.day_length_based_periods is not None:
       return self.day_length_based_periods
 
-    if not hasattr(self, "jd_sunrise") or self.jd_sunrise is None:
+    if getattr(self, "jd_sunrise", None) is None or self.jd_sunrise is None:
       self.compute_sun_moon_transitions()
     YAMAGANDA_OCTETS = [4, 3, 2, 1, 0, 6, 5]
     RAHUKALA_OCTETS = [7, 1, 6, 4, 5, 3, 2]
