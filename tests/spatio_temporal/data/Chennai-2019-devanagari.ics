@@ -744,8 +744,8 @@ SUMMARY:கபாலீ தெப்போத்ஸவம்
 DTSTART;VALUE=DATE:20190120
 DTEND;VALUE=DATE:20190121
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- relative_event/ta:taippUcam/offset__-1#kapālī-têppotsavam<br/><br/>#Tam
- ilnaduTempleFestivals
+ relative_event/ta__taippUcam/offset__-1#kapālī-têppotsavam<br/><br/>#Ta
+ milnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -815,8 +815,8 @@ SUMMARY:கபாலீ தெப்போத்ஸவம்
 DTSTART;VALUE=DATE:20190121
 DTEND;VALUE=DATE:20190122
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- relative_event/ta:taippUcam/offset__00#kapālī-têppotsavam<br/><br/>#Tam
- ilnaduTempleFestivals
+ relative_event/ta__taippUcam/offset__00#kapālī-têppotsavam<br/><br/>#Ta
+ milnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -933,8 +933,8 @@ SUMMARY:கபாலீ தெப்போத்ஸவம்
 DTSTART;VALUE=DATE:20190122
 DTEND;VALUE=DATE:20190123
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- relative_event/ta:taippUcam/offset__01#kapālī-têppotsavam<br/><br/>#Tam
- ilnaduTempleFestivals
+ relative_event/ta__taippUcam/offset__01#kapālī-têppotsavam<br/><br/>#Ta
+ milnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1496,9 +1496,9 @@ SUMMARY:திருச்செந்தூர் முருகன்
 DTSTART;VALUE=DATE:20190208
 DTEND;VALUE=DATE:20190209
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- relative_event/ta:tiruccendUr mAcit tiruvizhA nir2aivu/offset__-11#tiruchc
- hêndūr-murugan-māchit-tiruviḽā-tôḍakkam<br/><br/>#TamilnaduTemple
- Festivals
+ relative_event/ta__tiruccendUr mAcit tiruvizhA nir2aivu/offset__-11#tiruch
+ chêndūr-murugan-māchit-tiruviḽā-tôḍakkam<br/><br/>#TamilnaduTempl
+ eFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1550,9 +1550,9 @@ SUMMARY:திருச்செந்தூர் முருகன்
 DTSTART;VALUE=DATE:20190209
 DTEND;VALUE=DATE:20190210
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- relative_event/ta:tiruccendUr mAcit tiruvizhA nir2aivu/offset__-10#tiruchc
- hêndūr-murugan-māchit-tiruviḽā-2m-nāḻ<br/><br/>#TamilnaduTempleFe
- stivals
+ relative_event/ta__tiruccendUr mAcit tiruvizhA nir2aivu/offset__-10#tiruch
+ chêndūr-murugan-māchit-tiruviḽā-2m-nāḻ<br/><br/>#TamilnaduTempleF
+ estivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1619,9 +1619,9 @@ SUMMARY:திருச்செந்தூர் முருகன்
 DTSTART;VALUE=DATE:20190210
 DTEND;VALUE=DATE:20190211
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- relative_event/ta:tiruccendUr mAcit tiruvizhA nir2aivu/offset__-9#tiruchch
- êndūr-murugan-māchit-tiruviḽā-3m-nāḻ—murugan-bhavani<br/><br/>#
- TamilnaduTempleFestivals
+ relative_event/ta__tiruccendUr mAcit tiruvizhA nir2aivu/offset__-9#tiruchc
+ hêndūr-murugan-māchit-tiruviḽā-3m-nāḻ—murugan-bhavani<br/><br/>
+ #TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1690,9 +1690,9 @@ SUMMARY:திருச்செந்தூர் முருகன்
 DTSTART;VALUE=DATE:20190211
 DTEND;VALUE=DATE:20190212
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- relative_event/ta:tiruccendUr mAcit tiruvizhA nir2aivu/offset__-8#tiruchch
- êndūr-murugan-māchit-tiruviḽā-4m-nāḻ<br/><br/>#TamilnaduTempleFes
- tivals
+ relative_event/ta__tiruccendUr mAcit tiruvizhA nir2aivu/offset__-8#tiruchc
+ hêndūr-murugan-māchit-tiruviḽā-4m-nāḻ<br/><br/>#TamilnaduTempleFe
+ stivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1813,9 +1813,9 @@ SUMMARY:திருச்செந்தூர் முருகன்
 DTSTART;VALUE=DATE:20190212
 DTEND;VALUE=DATE:20190213
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- relative_event/ta:tiruccendUr mAcit tiruvizhA nir2aivu/offset__-7#tiruchch
- êndūr-murugan-māchit-tiruviḽā-5m-nāḻ<br/><br/>#TamilnaduTempleFes
- tivals
+ relative_event/ta__tiruccendUr mAcit tiruvizhA nir2aivu/offset__-7#tiruchc
+ hêndūr-murugan-māchit-tiruviḽā-5m-nāḻ<br/><br/>#TamilnaduTempleFe
+ stivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1924,9 +1924,9 @@ SUMMARY:திருச்செந்தூர் முருகன்
 DTSTART;VALUE=DATE:20190213
 DTEND;VALUE=DATE:20190214
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- relative_event/ta:tiruccendUr mAcit tiruvizhA nir2aivu/offset__-6#tiruchch
- êndūr-murugan-māchit-tiruviḽā-6m-nāḻ—vêḻḻit-ter-bhavani<br
- /><br/>#TamilnaduTempleFestivals
+ relative_event/ta__tiruccendUr mAcit tiruvizhA nir2aivu/offset__-6#tiruchc
+ hêndūr-murugan-māchit-tiruviḽā-6m-nāḻ—vêḻḻit-ter-bhavani<b
+ r/><br/>#TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2002,9 +2002,9 @@ SUMMARY:திருச்செந்தூர் முருகன்
 DTSTART;VALUE=DATE:20190214
 DTEND;VALUE=DATE:20190215
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- relative_event/ta:tiruccendUr mAcit tiruvizhA nir2aivu/offset__-5#tiruchch
- êndūr-murugan-māchit-tiruviḽā-7m-nāḻ—urugu-chattach-chevai/chig
- appu-chātti-alaṅkāram<br/><br/>#TamilnaduTempleFestivals
+ relative_event/ta__tiruccendUr mAcit tiruvizhA nir2aivu/offset__-5#tiruchc
+ hêndūr-murugan-māchit-tiruviḽā-7m-nāḻ—urugu-chattach-chevai/chi
+ gappu-chātti-alaṅkāram<br/><br/>#TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2072,9 +2072,9 @@ SUMMARY:திருச்செந்தூர் முருகன்
 DTSTART;VALUE=DATE:20190215
 DTEND;VALUE=DATE:20190216
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- relative_event/ta:tiruccendUr mAcit tiruvizhA nir2aivu/offset__-4#tiruchch
- êndūr-murugan-māchit-tiruviḽā-8m-nāḻ—pachchai-chātti-alaṅkā
- ram<br/><br/>#TamilnaduTempleFestivals
+ relative_event/ta__tiruccendUr mAcit tiruvizhA nir2aivu/offset__-4#tiruchc
+ hêndūr-murugan-māchit-tiruviḽā-8m-nāḻ—pachchai-chātti-alaṅk
+ āram<br/><br/>#TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2119,9 +2119,9 @@ SUMMARY:திருச்செந்தூர் முருகன்
 DTSTART;VALUE=DATE:20190216
 DTEND;VALUE=DATE:20190217
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- relative_event/ta:tiruccendUr mAcit tiruvizhA nir2aivu/offset__-3#tiruchch
- êndūr-murugan-māchit-tiruviḽā-9m-nāḻ—taṅga-kailācha-vāhanam
- <br/><br/>#TamilnaduTempleFestivals
+ relative_event/ta__tiruccendUr mAcit tiruvizhA nir2aivu/offset__-3#tiruchc
+ hêndūr-murugan-māchit-tiruviḽā-9m-nāḻ—taṅga-kailācha-vāhana
+ m<br/><br/>#TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2216,9 +2216,9 @@ SUMMARY:திருச்செந்தூர் முருகன்
 DTSTART;VALUE=DATE:20190217
 DTEND;VALUE=DATE:20190218
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- relative_event/ta:tiruccendUr mAcit tiruvizhA nir2aivu/offset__-2#tiruchch
- êndūr-murugan-māchit-tiruviḽā-10m-nāḻ—ter<br/><br/>#TamilnaduTe
- mpleFestivals
+ relative_event/ta__tiruccendUr mAcit tiruvizhA nir2aivu/offset__-2#tiruchc
+ hêndūr-murugan-māchit-tiruviḽā-10m-nāḻ—ter<br/><br/>#TamilnaduT
+ empleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2306,8 +2306,8 @@ SUMMARY:திருச்செந்தூர் முருகன்
 DTSTART;VALUE=DATE:20190218
 DTEND;VALUE=DATE:20190219
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- relative_event/ta:tiruccendUr mAcit tiruvizhA nir2aivu/offset__-1#tiruchch
- êndūr-murugan-têppam<br/><br/>#TamilnaduTempleFestivals
+ relative_event/ta__tiruccendUr mAcit tiruvizhA nir2aivu/offset__-1#tiruchc
+ hêndūr-murugan-têppam<br/><br/>#TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3063,8 +3063,8 @@ SUMMARY:கபாலீ த்வஜாரோஹணம்
 DTSTART;VALUE=DATE:20190311
 DTEND;VALUE=DATE:20190312
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- relative_event/ta:kar2pagAmbAL–kapAlIzvarar tirukkalyANam/offset__-9#kap
- ālī-dvajārohaṇam<br/><br/>#TamilnaduTempleFestivals
+ relative_event/ta__kar2pagAmbAL–kapAlIzvarar tirukkalyANam/offset__-9#ka
+ pālī-dvajārohaṇam<br/><br/>#TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3114,8 +3114,8 @@ SUMMARY:கபாலீ ஸூர்ய சந்த்ர வட்டம
 DTSTART;VALUE=DATE:20190312
 DTEND;VALUE=DATE:20190313
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- relative_event/ta:kar2pagAmbAL–kapAlIzvarar tirukkalyANam/offset__-8#kap
- ālī-sūrya-chandra-vaṭṭam<br/><br/>#TamilnaduTempleFestivals
+ relative_event/ta__kar2pagAmbAL–kapAlIzvarar tirukkalyANam/offset__-8#ka
+ pālī-sūrya-chandra-vaṭṭam<br/><br/>#TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3161,8 +3161,8 @@ SUMMARY:கபாலீ அதிகார நந்தி
 DTSTART;VALUE=DATE:20190313
 DTEND;VALUE=DATE:20190314
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- relative_event/ta:kar2pagAmbAL–kapAlIzvarar tirukkalyANam/offset__-7#kap
- ālī-adhikāra-nandi<br/><br/>#TamilnaduTempleFestivals
+ relative_event/ta__kar2pagAmbAL–kapAlIzvarar tirukkalyANam/offset__-7#ka
+ pālī-adhikāra-nandi<br/><br/>#TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3176,8 +3176,8 @@ SUMMARY:கபாலீ பூதண் பூதகீ
 DTSTART;VALUE=DATE:20190313
 DTEND;VALUE=DATE:20190314
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- relative_event/ta:kar2pagAmbAL–kapAlIzvarar tirukkalyANam/offset__-7#kap
- ālī-bhūtaṇ-bhūtakī<br/><br/>#TamilnaduTempleFestivals
+ relative_event/ta__kar2pagAmbAL–kapAlIzvarar tirukkalyANam/offset__-7#ka
+ pālī-bhūtaṇ-bhūtakī<br/><br/>#TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3257,8 +3257,8 @@ SUMMARY:கபாலீ சவுடல் விமானம்
 DTSTART;VALUE=DATE:20190315
 DTEND;VALUE=DATE:20190316
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- relative_event/ta:kar2pagAmbAL–kapAlIzvarar tirukkalyANam/offset__-5#kap
- ālī-chavuḍal-vimānam<br/><br/>#TamilnaduTempleFestivals
+ relative_event/ta__kar2pagAmbAL–kapAlIzvarar tirukkalyANam/offset__-5#ka
+ pālī-chavuḍal-vimānam<br/><br/>#TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3272,8 +3272,8 @@ SUMMARY:கபாலீ ரிஷப வாஹனம்
 DTSTART;VALUE=DATE:20190315
 DTEND;VALUE=DATE:20190316
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- relative_event/ta:kar2pagAmbAL–kapAlIzvarar tirukkalyANam/offset__-5#kap
- ālī-riṣabha-vāhanam<br/><br/>#TamilnaduTempleFestivals
+ relative_event/ta__kar2pagAmbAL–kapAlIzvarar tirukkalyANam/offset__-5#ka
+ pālī-riṣabha-vāhanam<br/><br/>#TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3287,8 +3287,8 @@ SUMMARY:கபாலீ பல்லக்கு விழா
 DTSTART;VALUE=DATE:20190316
 DTEND;VALUE=DATE:20190317
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- relative_event/ta:kar2pagAmbAL–kapAlIzvarar tirukkalyANam/offset__-4#kap
- ālī-pallakku-viḽā<br/><br/>#TamilnaduTempleFestivals
+ relative_event/ta__kar2pagAmbAL–kapAlIzvarar tirukkalyANam/offset__-4#ka
+ pālī-pallakku-viḽā<br/><br/>#TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3369,8 +3369,8 @@ SUMMARY:கபாலீ தேர்
 DTSTART;VALUE=DATE:20190317
 DTEND;VALUE=DATE:20190318
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- relative_event/ta:kar2pagAmbAL–kapAlIzvarar tirukkalyANam/offset__-3#kap
- ālī-ter<br/><br/>#TamilnaduTempleFestivals
+ relative_event/ta__kar2pagAmbAL–kapAlIzvarar tirukkalyANam/offset__-3#ka
+ pālī-ter<br/><br/>#TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3502,8 +3502,8 @@ SUMMARY:கபாலீ அறுபத்து மூவர்
 DTSTART;VALUE=DATE:20190318
 DTEND;VALUE=DATE:20190319
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- relative_event/ta:kar2pagAmbAL–kapAlIzvarar tirukkalyANam/offset__-2#kap
- ālī-ar̂upattu-mūvar<br/><br/>#TamilnaduTempleFestivals
+ relative_event/ta__kar2pagAmbAL–kapAlIzvarar tirukkalyANam/offset__-2#ka
+ pālī-ar̂upattu-mūvar<br/><br/>#TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3745,8 +3745,8 @@ SUMMARY:கபாலீ உமா-மஹேஶ்வர தரிசனம
 DTSTART;VALUE=DATE:20190321
 DTEND;VALUE=DATE:20190322
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- relative_event/ta:kar2pagAmbAL–kapAlIzvarar tirukkalyANam/offset__01#kap
- ālī-umā-maheśvara-darichanam<br/><br/>#TamilnaduTempleFestivals
+ relative_event/ta__kar2pagAmbAL–kapAlIzvarar tirukkalyANam/offset__01#ka
+ pālī-umā-maheśvara-darichanam<br/><br/>#TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3761,8 +3761,8 @@ SUMMARY:கபாலீ விடையாற்றி தொடக்க
 DTSTART;VALUE=DATE:20190321
 DTEND;VALUE=DATE:20190322
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- relative_event/ta:kar2pagAmbAL–kapAlIzvarar tirukkalyANam/offset__01#kap
- ālī-viḍaiyār̂r̂i-tôḍakkam<br/><br/>#TamilnaduTempleFestivals
+ relative_event/ta__kar2pagAmbAL–kapAlIzvarar tirukkalyANam/offset__01#ka
+ pālī-viḍaiyār̂r̂i-tôḍakkam<br/><br/>#TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4004,8 +4004,8 @@ SUMMARY:கபாலீ விடையாற்றி நிறைவு
 DTSTART;VALUE=DATE:20190331
 DTEND;VALUE=DATE:20190401
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- relative_event/ta:kar2pagAmbAL–kapAlIzvarar tirukkalyANam/offset__11#kap
- ālī-viḍaiyār̂r̂i-nir̂aivu<br/><br/>#TamilnaduTempleFestivals
+ relative_event/ta__kar2pagAmbAL–kapAlIzvarar tirukkalyANam/offset__11#ka
+ pālī-viḍaiyār̂r̂i-nir̂aivu<br/><br/>#TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8795,8 +8795,9 @@ SUMMARY:चिदम्बरे ध्वजारोहणम्/पञ
 DTSTART;VALUE=DATE:20190629
 DTEND;VALUE=DATE:20190630
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- relative_event/ta:naTarAjar An2i tirumaJcan2am/offset__-9#chidambare-dhvaj
- ārohaṇam/pañchamūrti-rathotsavaḥ<br/><br/>#TamilnaduTempleFestivals
+ relative_event/ta__naTarAjar An2i tirumaJcan2am/offset__-9#chidambare-dhva
+ jārohaṇam/pañchamūrti-rathotsavaḥ<br/><br/>#TamilnaduTempleFestival
+ s
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8876,8 +8877,8 @@ SUMMARY:चिदम्बरे रजत चन्द्रप्रभ
 DTSTART;VALUE=DATE:20190630
 DTEND;VALUE=DATE:20190701
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- relative_event/ta:naTarAjar An2i tirumaJcan2am/offset__-8#chidambare-rajat
- a-chandraprabha-vāhanam<br/><br/>#TamilnaduTempleFestivals
+ relative_event/ta__naTarAjar An2i tirumaJcan2am/offset__-8#chidambare-raja
+ ta-chandraprabha-vāhanam<br/><br/>#TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8907,7 +8908,7 @@ SUMMARY:चिदम्बरे स्वर्ण-सूर्यप्
 DTSTART;VALUE=DATE:20190701
 DTEND;VALUE=DATE:20190702
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- relative_event/ta:naTarAjar An2i tirumaJcan2am/offset__-7#chidambare-svar
+ relative_event/ta__naTarAjar An2i tirumaJcan2am/offset__-7#chidambare-svar
  ṇa-sūryaprabha-vāhanam<br/><br/>#TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -8980,8 +8981,8 @@ SUMMARY:चिदम्बरे रजत भूत वाहनम्
 DTSTART;VALUE=DATE:20190702
 DTEND;VALUE=DATE:20190703
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- relative_event/ta:naTarAjar An2i tirumaJcan2am/offset__-6#chidambare-rajat
- a-bhūta-vāhanam<br/><br/>#TamilnaduTempleFestivals
+ relative_event/ta__naTarAjar An2i tirumaJcan2am/offset__-6#chidambare-raja
+ ta-bhūta-vāhanam<br/><br/>#TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9010,8 +9011,8 @@ SUMMARY:चिदम्बरे रजत ऋषभ वाहनम्
 DTSTART;VALUE=DATE:20190703
 DTEND;VALUE=DATE:20190704
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- relative_event/ta:naTarAjar An2i tirumaJcan2am/offset__-5#chidambare-rajat
- a-ṛṣabha-vāhanam<br/><br/>#TamilnaduTempleFestivals
+ relative_event/ta__naTarAjar An2i tirumaJcan2am/offset__-5#chidambare-raja
+ ta-ṛṣabha-vāhanam<br/><br/>#TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9102,8 +9103,8 @@ SUMMARY:चिदम्बरे रजत-गजवाहनम्
 DTSTART;VALUE=DATE:20190704
 DTEND;VALUE=DATE:20190705
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- relative_event/ta:naTarAjar An2i tirumaJcan2am/offset__-4#chidambare-rajat
- a-gajavāhanam<br/><br/>#TamilnaduTempleFestivals
+ relative_event/ta__naTarAjar An2i tirumaJcan2am/offset__-4#chidambare-raja
+ ta-gajavāhanam<br/><br/>#TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9150,7 +9151,7 @@ SUMMARY:चिदम्बरे कैलास वाहनम्
 DTSTART;VALUE=DATE:20190705
 DTEND;VALUE=DATE:20190706
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- relative_event/ta:naTarAjar An2i tirumaJcan2am/offset__-3#chidambare-kail
+ relative_event/ta__naTarAjar An2i tirumaJcan2am/offset__-3#chidambare-kail
  āsa-vāhanam<br/><br/>#TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -9183,7 +9184,7 @@ SUMMARY:चिदम्बरे भिक्षाटन स्वर्
 DTSTART;VALUE=DATE:20190706
 DTEND;VALUE=DATE:20190707
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- relative_event/ta:naTarAjar An2i tirumaJcan2am/offset__-2#chidambare-bhik
+ relative_event/ta__naTarAjar An2i tirumaJcan2am/offset__-2#chidambare-bhik
  ṣāṭana-svarṇarathaḥ<br/><br/>#TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -9214,8 +9215,8 @@ SUMMARY:चिदम्बरे रथोत्सवः
 DTSTART;VALUE=DATE:20190707
 DTEND;VALUE=DATE:20190708
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- relative_event/ta:naTarAjar An2i tirumaJcan2am/offset__-1#chidambare-ratho
- tsavaḥ<br/><br/>#TamilnaduTempleFestivals
+ relative_event/ta__naTarAjar An2i tirumaJcan2am/offset__-1#chidambare-rath
+ otsavaḥ<br/><br/>#TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9324,9 +9325,9 @@ SUMMARY:चिदम्बरे नटराजस्य राजसभ
 DTSTART;VALUE=DATE:20190708
 DTEND;VALUE=DATE:20190709
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- relative_event/ta:naTarAjar An2i tirumaJcan2am/offset__00#chidambare-naṭ
- arājasya-rājasabhāyāṃ-mahābhiṣekaḥ<br/><br/>#TamilnaduTempleFes
- tivals
+ relative_event/ta__naTarAjar An2i tirumaJcan2am/offset__00#chidambare-na
+ ṭarājasya-rājasabhāyāṃ-mahābhiṣekaḥ<br/><br/>#TamilnaduTemple
+ Festivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9373,8 +9374,8 @@ SUMMARY:चिदम्बरे मुत्तुप्पल्लक
 DTSTART;VALUE=DATE:20190709
 DTEND;VALUE=DATE:20190710
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- relative_event/ta:naTarAjar An2i tirumaJcan2am/offset__01#chidambare-muttu
- ppallakku<br/><br/>#TamilnaduTempleFestivals
+ relative_event/ta__naTarAjar An2i tirumaJcan2am/offset__01#chidambare-mutt
+ uppallakku<br/><br/>#TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11916,9 +11917,9 @@ SUMMARY:திருச்செந்தூர் முருகன்
 DTSTART;VALUE=DATE:20190824
 DTEND;VALUE=DATE:20190825
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- relative_event/ta:tiruccendUr AvaNit tiruvizhA nir2aivu/offset__-11#tiruch
- chêndūr-murugan-āvaṇit-tiruviḽā-tôḍakkam/kôḍiyer̂r̂am<br/>
- <br/>#TamilnaduTempleFestivals
+ relative_event/ta__tiruccendUr AvaNit tiruvizhA nir2aivu/offset__-11#tiruc
+ hchêndūr-murugan-āvaṇit-tiruviḽā-tôḍakkam/kôḍiyer̂r̂am<br/
+ ><br/>#TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12061,9 +12062,9 @@ SUMMARY:திருச்செந்தூர் முருகன்
 DTSTART;VALUE=DATE:20190825
 DTEND;VALUE=DATE:20190826
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- relative_event/ta:tiruccendUr AvaNit tiruvizhA nir2aivu/offset__-10#tiruch
- chêndūr-murugan-āvaṇit-tiruviḽā-2m-nāḻ<br/><br/>#TamilnaduTempl
- eFestivals
+ relative_event/ta__tiruccendUr AvaNit tiruvizhA nir2aivu/offset__-10#tiruc
+ hchêndūr-murugan-āvaṇit-tiruviḽā-2m-nāḻ<br/><br/>#TamilnaduTemp
+ leFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12096,9 +12097,9 @@ SUMMARY:திருச்செந்தூர் முருகன்
 DTSTART;VALUE=DATE:20190826
 DTEND;VALUE=DATE:20190827
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- relative_event/ta:tiruccendUr AvaNit tiruvizhA nir2aivu/offset__-9#tiruchc
- hêndūr-murugan-āvaṇit-tiruviḽā-3m-nāḻ—murugan-bhavani<br/><br
- />#TamilnaduTempleFestivals
+ relative_event/ta__tiruccendUr AvaNit tiruvizhA nir2aivu/offset__-9#tiruch
+ chêndūr-murugan-āvaṇit-tiruviḽā-3m-nāḻ—murugan-bhavani<br/><b
+ r/>#TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12159,9 +12160,9 @@ SUMMARY:திருச்செந்தூர் முருகன்
 DTSTART;VALUE=DATE:20190827
 DTEND;VALUE=DATE:20190828
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- relative_event/ta:tiruccendUr AvaNit tiruvizhA nir2aivu/offset__-8#tiruchc
- hêndūr-murugan-āvaṇit-tiruviḽā-4m-nāḻ—yānai-vāhanattil-muru
- gan-ambāḻ-bhavani<br/><br/>#TamilnaduTempleFestivals
+ relative_event/ta__tiruccendUr AvaNit tiruvizhA nir2aivu/offset__-8#tiruch
+ chêndūr-murugan-āvaṇit-tiruviḽā-4m-nāḻ—yānai-vāhanattil-mur
+ ugan-ambāḻ-bhavani<br/><br/>#TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12241,9 +12242,9 @@ SUMMARY:திருச்செந்தூர் முருகன்
 DTSTART;VALUE=DATE:20190828
 DTEND;VALUE=DATE:20190829
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- relative_event/ta:tiruccendUr AvaNit tiruvizhA nir2aivu/offset__-7#tiruchc
- hêndūr-murugan-āvaṇit-tiruviḽā-5m-nāḻ<br/><br/>#TamilnaduTemple
- Festivals
+ relative_event/ta__tiruccendUr AvaNit tiruvizhA nir2aivu/offset__-7#tiruch
+ chêndūr-murugan-āvaṇit-tiruviḽā-5m-nāḻ<br/><br/>#TamilnaduTempl
+ eFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12292,9 +12293,9 @@ SUMMARY:திருச்செந்தூர் முருகன்
 DTSTART;VALUE=DATE:20190829
 DTEND;VALUE=DATE:20190830
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- relative_event/ta:tiruccendUr AvaNit tiruvizhA nir2aivu/offset__-6#tiruchc
- hêndūr-murugan-āvaṇit-tiruviḽā-6m-nāḻ—vêḻḻit-ter-bhavani
- <br/><br/>#TamilnaduTempleFestivals
+ relative_event/ta__tiruccendUr AvaNit tiruvizhA nir2aivu/offset__-6#tiruch
+ chêndūr-murugan-āvaṇit-tiruviḽā-6m-nāḻ—vêḻḻit-ter-bhavan
+ i<br/><br/>#TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12359,9 +12360,9 @@ SUMMARY:திருச்செந்தூர் முருகன்
 DTSTART;VALUE=DATE:20190830
 DTEND;VALUE=DATE:20190831
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- relative_event/ta:tiruccendUr AvaNit tiruvizhA nir2aivu/offset__-5#tiruchc
- hêndūr-murugan-āvaṇit-tiruviḽā-7m-nāḻ—chigappu-chātti-alaṅ
- kāram<br/><br/>#TamilnaduTempleFestivals
+ relative_event/ta__tiruccendUr AvaNit tiruvizhA nir2aivu/offset__-5#tiruch
+ chêndūr-murugan-āvaṇit-tiruviḽā-7m-nāḻ—chigappu-chātti-ala
+ ṅkāram<br/><br/>#TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12444,9 +12445,9 @@ SUMMARY:திருச்செந்தூர் முருகன்
 DTSTART;VALUE=DATE:20190831
 DTEND;VALUE=DATE:20190901
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- relative_event/ta:tiruccendUr AvaNit tiruvizhA nir2aivu/offset__-4#tiruchc
- hêndūr-murugan-āvaṇit-tiruviḽā-8m-nāḻ—pachchai-chātti-alaṅ
- kāram<br/><br/>#TamilnaduTempleFestivals
+ relative_event/ta__tiruccendUr AvaNit tiruvizhA nir2aivu/offset__-4#tiruch
+ chêndūr-murugan-āvaṇit-tiruviḽā-8m-nāḻ—pachchai-chātti-ala
+ ṅkāram<br/><br/>#TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12544,9 +12545,9 @@ SUMMARY:திருச்செந்தூர் முருகன்
 DTSTART;VALUE=DATE:20190901
 DTEND;VALUE=DATE:20190902
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- relative_event/ta:tiruccendUr AvaNit tiruvizhA nir2aivu/offset__-3#tiruchc
- hêndūr-murugan-āvaṇit-tiruviḽā-9m-nāḻ<br/><br/>#TamilnaduTemple
- Festivals
+ relative_event/ta__tiruccendUr AvaNit tiruvizhA nir2aivu/offset__-3#tiruch
+ chêndūr-murugan-āvaṇit-tiruviḽā-9m-nāḻ<br/><br/>#TamilnaduTempl
+ eFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12610,9 +12611,9 @@ SUMMARY:திருச்செந்தூர் முருகன்
 DTSTART;VALUE=DATE:20190902
 DTEND;VALUE=DATE:20190903
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- relative_event/ta:tiruccendUr AvaNit tiruvizhA nir2aivu/offset__-2#tiruchc
- hêndūr-murugan-āvaṇit-tiruviḽā-10m-nāḻ—ter<br/><br/>#Tamilnad
- uTempleFestivals
+ relative_event/ta__tiruccendUr AvaNit tiruvizhA nir2aivu/offset__-2#tiruch
+ chêndūr-murugan-āvaṇit-tiruviḽā-10m-nāḻ—ter<br/><br/>#Tamilna
+ duTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12659,9 +12660,9 @@ SUMMARY:திருச்செந்தூர் முருகன்
 DTSTART;VALUE=DATE:20190903
 DTEND;VALUE=DATE:20190904
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
- relative_event/ta:tiruccendUr AvaNit tiruvizhA nir2aivu/offset__-1#tiruchc
- hêndūr-murugan-āvaṇit-tiruviḽā-11m-nāḻ<br/><br/>#TamilnaduTempl
- eFestivals
+ relative_event/ta__tiruccendUr AvaNit tiruvizhA nir2aivu/offset__-1#tiruch
+ chêndūr-murugan-āvaṇit-tiruviḽā-11m-nāḻ<br/><br/>#TamilnaduTemp
+ leFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -16508,14 +16509,14 @@ DTSTART;VALUE=DATE:20191104
 DTEND;VALUE=DATE:20191105
 DESCRIPTION:Observed on Śukla-Aṣṭamī tithi of Kārttikaḥ (lunar) m
  onth (madhyaahna/puurvaviddha).<br/>Perform पूजा of cow with calf\
- , and offer அகத்திகீரை and grass/water\, and perform 1
- 6 प्रदक्षिणम्.<br/><br/>कार्त्तिक
- े  याऽष्टमी  शुक्ला  ज्ञेया  ग
- ोपाष्टमी  बुधैः।<br/>तत्र  कुर
- ्याद्गवां  पूजां  गोग्रासं  
- गोप्रदक्षिणम्॥<br/><br/><br/><br/>https://gith
- ub.com/sanskrit-coders/adyatithi/tree/master/data/lunar_month/tithi/08/08#
- gopāṣṭamī<br/><br/>#LessCommonFestivals
+ , and offer त:अगत्तिकीरै and grass/water\, and perfo
+ rm 16 प्रदक्षिणम्.<br/><br/>कार्त्ति
+ के  याऽष्टमी  शुक्ला  ज्ञेया  
+ गोपाष्टमी  बुधैः।<br/>तत्र  कु
+ र्याद्गवां  पूजां  गोग्रासं 
+  गोप्रदक्षिणम्॥<br/><br/><br/><br/>https://git
+ hub.com/sanskrit-coders/adyatithi/tree/master/data/lunar_month/tithi/08/08
+ #gopāṣṭamī<br/><br/>#LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17646,10 +17647,10 @@ SUMMARY:तुला-कावेरी-स्नान-समापनम
  ्
 DTSTART;VALUE=DATE:20191116
 DTEND;VALUE=DATE:20191117
-DESCRIPTION:End of Tula Kaveri Snanam. Also known as கடைமுகம
- ்.<br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/master/dat
- a/relative_event/kRttikA-maNDala-pArAyaNam/offset__-1#tulā-kāverī-snān
- a-samāpanam<br/><br/>#TamilnaduTempleFestivals
+DESCRIPTION:End of Tula Kaveri Snanam. Also known as त:कडैमु
+ गम्.<br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/mast
+ er/data/relative_event/kRttikA-maNDala-pArAyaNam/offset__-1#tulā-kāverī
+ -snāna-samāpanam<br/><br/>#TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17662,10 +17663,10 @@ BEGIN:VEVENT
 SUMMARY:तुला-कावेरी-स्नानम्
 DTSTART;VALUE=DATE:20191018
 DTEND;VALUE=DATE:20191117
-DESCRIPTION:End of Tula Kaveri Snanam. Also known as கடைமுகம
- ்.<br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/master/dat
- a/relative_event/kRttikA-maNDala-pArAyaNam/offset__-1#tulā-kāverī-snān
- a-samāpanam<br/><br/>#TamilnaduTempleFestivals
+DESCRIPTION:End of Tula Kaveri Snanam. Also known as त:कडैमु
+ गम्.<br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/mast
+ er/data/relative_event/kRttikA-maNDala-pArAyaNam/offset__-1#tulā-kāverī
+ -snāna-samāpanam<br/><br/>#TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17712,15 +17713,15 @@ SUMMARY:முடவன் முழுக்கு
 DTSTART;VALUE=DATE:20191117
 DTEND;VALUE=DATE:20191118
 DESCRIPTION:Observed on day 1 of Vṛścikaḥ (solar) month (arunodaya/pu
- urvaviddha (default)).<br/>Nadha Sharma (முடவன்\, i.e. lame ma
- n) and his wife Anavidyambikai came to Mayavaram in order to perform a त
- ुला स्नानम् in Kaveri. However\, by the time they arri
- ved\, it was the last day of तुला मास and they could not com
- plete the स्नानम्. They were disappointed yet spent their ti
- me doing Puja of the Lord\, who appeared in their dreams and asked them to
-  take a bath next ...<br/><br/><br/>https://github.com/sanskrit-coders/ady
- atithi/tree/master/data/solar_month/day/08/01#muḍavan-muḽukku<br/><br/
- >#CommonFestivals
+ urvaviddha (default)).<br/>Nadha Sharma (त:मुडवऩ्{}\, i.e. l
+ ame man) and his wife Anavidyambikai came to Mayavaram in order to perform
+  a तुला स्नानम् in Kaveri. However\, by the time the
+ y arrived\, it was the last day of तुला मास and they could n
+ ot complete the स्नानम्. They were disappointed yet spent th
+ eir time doing Puja of the Lord\, who appeared in their dreams and asked t
+ hem to take a bath ...<br/><br/><br/>https://github.com/sanskrit-coders/ad
+ yatithi/tree/master/data/solar_month/day/08/01#muḍavan-muḽukku<br/><br
+ />#CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18686,13 +18687,13 @@ DTSTART;VALUE=DATE:20191208
 DTEND;VALUE=DATE:20191209
 DESCRIPTION:The Shukla-paksha Ekadashi of वृश्चिकमास i
  s also celebrated as कैशिक-एकादशी. Kaisika Puranam\,
-  consisting of 82 shlokas describes the story of நம்பாடுவ
- ாந் and a राक्षस who attained mukti by नामसङ
- ्कीर्तनम् and the fruits of நம்பாடுவா
- ந்'s नामसङ्कीर्तनम्\, respectively!<br/><b
- r/>https://github.com/sanskrit-coders/adyatithi/tree/master/data/other/mon
- thly-vratam/ekadashi-vratam#kaiśika-ekādaśī<br/><br/>#MonthlyVratam #E
- kadashiVratam
+  consisting of 82 shlokas describes the story of त:नम्पाडु
+ वान् and a राक्षस who attained mukti by नामस
+ ङ्कीर्तनम् and the fruits of त:नम्पाडु
+ वान्'s नामसङ्कीर्तनम्\, respectively!<
+ br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/master/data/oth
+ er/monthly-vratam/ekadashi-vratam#kaiśika-ekādaśī<br/><br/>#MonthlyVra
+ tam #EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
