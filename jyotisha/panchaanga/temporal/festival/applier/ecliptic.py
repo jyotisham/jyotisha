@@ -8,6 +8,7 @@ from jyotisha import names
 from jyotisha.panchaanga.temporal import interval
 from jyotisha.panchaanga.temporal import time
 from jyotisha.panchaanga.temporal.body import Graha
+from jyotisha.panchaanga.temporal.festival import FestivalInstance
 from jyotisha.panchaanga.temporal.festival.applier import FestivalAssigner
 from jyotisha.panchaanga.temporal.time import Hour, Date
 from sanskrit_data.schema import common
@@ -50,8 +51,8 @@ class EclipticFestivalAssigner(FestivalAssigner):
           _t += 24
         ayana_time = Hour(_t).toString()
 
-        self.panchaanga.daily_panchaangas[fday_nirayana].festivals.append('%s\\textsf{%s}{\\RIGHTarrow}\\textsf{%s}' % (
-          names.NAMES['RTU_MASA_NAMES']["hk"][self.panchaanga.daily_panchaangas[d].solar_sidereal_date_sunset.month], '', ayana_time))
+        self.panchaanga.daily_panchaangas[fday_nirayana].festivals.append(FestivalInstance(name='%s\\textsf{%s}{\\RIGHTarrow}\\textsf{%s}' % (
+          names.NAMES['RTU_MASA_NAMES']["hk"][self.panchaanga.daily_panchaangas[d].solar_sidereal_date_sunset.month], '', ayana_time)))
         self.panchaanga.daily_panchaangas[fday_nirayana].tropical_date.month_end_time = ayana_jd_start
         for i in range(last_d_assigned + 1, fday_nirayana + 1):
           self.panchaanga.daily_panchaangas[i].tropical_date.month = self.panchaanga.daily_panchaangas[d].solar_sidereal_date_sunset.month
@@ -110,7 +111,7 @@ class EclipticFestivalAssigner(FestivalAssigner):
                             '}{\\RIGHTarrow}\\textsf{' + Hour(eclipse_solar_end).toString() + '}'
         if self.panchaanga.daily_panchaangas[fday].date.get_weekday() == 0:
           solar_eclipse_str = '★cUDAmaNi-' + solar_eclipse_str
-        self.panchaanga.daily_panchaangas[fday].festivals.append(solar_eclipse_str)
+        self.panchaanga.daily_panchaangas[fday]. festivals.append(FestivalInstance(name=solar_eclipse_str))
       jd = jd + MIN_DAYS_NEXT_ECLIPSE
 
   def compute_lunar_eclipses(self):
@@ -186,7 +187,7 @@ class EclipticFestivalAssigner(FestivalAssigner):
         if self.panchaanga.daily_panchaangas[fday].date.get_weekday() == 1:
           lunar_eclipse_str = '★cUDAmaNi-' + lunar_eclipse_str
 
-        self.panchaanga.daily_panchaangas[fday].festivals.append(lunar_eclipse_str)
+        self.panchaanga.daily_panchaangas[fday].festivals.append(FestivalInstance(name=lunar_eclipse_str))
       jd += MIN_DAYS_NEXT_ECLIPSE
 
   def computeTransits(self):
@@ -201,9 +202,9 @@ class EclipticFestivalAssigner(FestivalAssigner):
         (jd_transit, rashi1, rashi2) = (transit.jd, transit.value_1, transit.value_2)
         if self.panchaanga.jd_start < jd_transit < jd_end:
           fday = int(floor(jd_transit) - floor(self.panchaanga.jd_start) + 1)
-          self.panchaanga.daily_panchaangas[fday].festivals.append('guru-saGkrAntiH~(%s##\\To{}##%s)' %
+          self.panchaanga.daily_panchaangas[fday].festivals.append(FestivalInstance(name='guru-saGkrAntiH~(%s##\\To{}##%s)' %
                                       (names.NAMES['RASHI_NAMES']['hk'][rashi1],
-                                       names.NAMES['RASHI_NAMES']['hk'][rashi2]))
+                                       names.NAMES['RASHI_NAMES']['hk'][rashi2])))
           if rashi1 < rashi2 and transits[i + 1].value_1 < transits[i + 1].value_2:
             # Considering only non-retrograde transits for pushkara computations
             # logging.debug('Non-retrograde transit; we have a pushkaram!')

@@ -60,7 +60,7 @@ def compute_calendar(panchaanga, script=sanscript.DEVANAGARI, all_tags=True, bri
     if len(panchaanga.daily_panchaangas[d].festivals) > 0:
       # Eliminate repeat festivals on the same day, and keep the list arbitrarily sorted
       panchaanga.daily_panchaangas[d].festivals = sorted(list(set(panchaanga.daily_panchaangas[d].festivals)))
-      summary_text = panchaanga.daily_panchaangas[d].festivals
+      summary_text = [x.name for x in panchaanga.daily_panchaangas[d].festivals]
       # this will work whether we have one or more events on the same day
       for stext in sorted(summary_text):
         desc = ''
@@ -169,7 +169,7 @@ def compute_calendar(panchaanga, script=sanscript.DEVANAGARI, all_tags=True, bri
           start_d = None
           while check_d > 1:
             check_d -= 1
-            if stext_start in panchaanga.daily_panchaangas[check_d].festivals:
+            if stext_start in [x.name for x in panchaanga.daily_panchaangas[check_d].festivals]:
               start_d = check_d
               break
 
@@ -178,7 +178,7 @@ def compute_calendar(panchaanga, script=sanscript.DEVANAGARI, all_tags=True, bri
             check_d = d
             while check_d > 1:
               check_d -= 1
-              for fest_key in panchaanga.daily_panchaangas[check_d].festivals:
+              for fest_key in [x.name for x in panchaanga.daily_panchaangas[check_d].festivals]:
                 if fest_key.startswith(stext_start):
                   logging.debug('Found approx match for %s: %s' % (stext_start, fest_key))
                   start_d = check_d

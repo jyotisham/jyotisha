@@ -323,6 +323,12 @@ class FestivalInstance(common.JsonObject):
       # start_time_str = 
       return "%s" % self.name
 
+  def __lt__(self, other):
+    return self.name < other.name
+
+  def __hash__(self):
+    return hash(self.name)
+
 
 # noinspection PyUnresolvedReferences
 class HinduCalendarEvent(common.JsonObject):

@@ -8,7 +8,7 @@ from jyotisha.panchaanga.temporal import festival
 from jyotisha.panchaanga.temporal import interval, PanchaangaApplier, tithi
 from jyotisha.panchaanga.temporal import time
 from jyotisha.panchaanga.temporal import zodiac
-from jyotisha.panchaanga.temporal.festival import read_old_festival_rules_dict
+from jyotisha.panchaanga.temporal.festival import read_old_festival_rules_dict, FestivalInstance
 from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision, AngaSpan
 from sanskrit_data.schema import common
 
@@ -33,7 +33,8 @@ class FestivalAssigner(PanchaangaApplier):
         # Eliminate repeat festivals on the same day, and keep the list arbitrarily sorted
         self.panchaanga.daily_panchaangas[d].festivals = sorted(list(set(self.panchaanga.daily_panchaangas[d].festivals)))
 
-        def chk_fest(fest_title):
+        def chk_fest(fest):
+          fest_title = fest.name
           fest_num_loc = fest_title.find('~#')
           if fest_num_loc != -1:
             fest_text_itle = fest_title[:fest_num_loc]
@@ -479,9 +480,9 @@ class MiscFestivalAssigner(FestivalAssigner):
       else:
         self.panchaanga.festival_id_to_instance[festival_name] = festival.FestivalInstance(name=festival_name, days=[x + offset for x in self.panchaanga.festival_id_to_instance[rel_festival_name].days])
 
-    for festival_name in self.panchaanga.festival_id_to_instance:
-      for j in range(0, len(self.panchaanga.festival_id_to_instance[festival_name].days)):
-        self.panchaanga.daily_panchaangas[self.panchaanga.festival_id_to_instance[festival_name].days[j]].festivals.append(festival_name)
+    for _, fest in self.panchaanga.festival_id_to_instance.items():
+      for fest_day in fest.days:
+        self.panchaanga.daily_panchaangas[fest_day].festivals.append(fest)
 
 
 # Essential for depickling to work.

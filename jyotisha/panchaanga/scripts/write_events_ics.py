@@ -13,6 +13,7 @@ from jyotisha.panchaanga.temporal import time, festival
 from jyotisha.panchaanga import temporal
 from jyotisha.panchaanga.spatio_temporal import City
 from jyotisha.panchaanga.temporal import MAX_SZ, tithi
+from jyotisha.panchaanga.temporal.festival import FestivalInstance
 from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision, Ayanamsha
 
 logging.basicConfig(
@@ -212,7 +213,7 @@ def compute_events(p, json_file):
 
   for festival_name in p.festival_id_to_instance:
     for j in range(0, len(p.festival_id_to_instance[festival_name])):
-      p.daily_panchaangas[p.festival_id_to_instance[festival_name].days[j]].festivals.append(festival_name)
+      p.daily_panchaangas[p.festival_id_to_instance[festival_name].days[j]].festivals.append(FestivalInstance(name=festival_name))
 
 
 def computeIcsCalendar(P, ics_file_name):
