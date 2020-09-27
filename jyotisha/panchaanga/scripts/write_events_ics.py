@@ -35,31 +35,31 @@ def compute_events(p, json_file):
 
     for event_name in event_rules:
       if 'month_type' in event_rules[event_name]:
-        month_type = event_rules[event_name]['month_type']
+        month_type = event_rules[event_name]['timing']['month_type']
       else:
-        raise (ValueError, "No month_type mentioned for %s" % event_name)
+        raise ValueError("No month_type mentioned for %s" % event_name)
       if 'month_number' in event_rules[event_name]:
-        month_num = event_rules[event_name]['month_number']
+        month_num = event_rules[event_name]['timing']['month_number']
       else:
-        raise (ValueError, "No month_num mentioned for %s" % event_name)
+        raise ValueError("No month_num mentioned for %s" % event_name)
       if 'angam_type' in event_rules[event_name]:
-        angam_type = event_rules[event_name]['angam_type']
+        angam_type = event_rules[event_name]['timing']['angam_type']
       else:
-        raise (ValueError, "No angam_type mentioned for %s" % event_name)
+        raise ValueError("No angam_type mentioned for %s" % event_name)
       if 'angam_number' in event_rules[event_name]:
-        angam_num = event_rules[event_name]['angam_number']
+        angam_num = event_rules[event_name]['timing']['angam_number']
       else:
-        raise (ValueError, "No angam_num mentioned for %s" % event_name)
+        raise ValueError("No angam_num mentioned for %s" % event_name)
       if 'kaala' in event_rules[event_name]:
-        kaala = event_rules[event_name]['kaala']
+        kaala = event_rules[event_name]['timing']['kaala']
       else:
         kaala = 'sunrise'
       if 'priority' in event_rules[event_name]:
-        priority = event_rules[event_name]['priority']
+        priority = event_rules[event_name]['timing']['priority']
       else:
         priority = 'puurvaviddha'
       if 'year_start' in event_rules[event_name]:
-        event_start_year = event_rules[event_name]['year_start']
+        event_start_year = event_rules[event_name]['timing']['year_start']
       else:
         event_start_year = None
 

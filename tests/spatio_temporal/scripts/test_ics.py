@@ -5,7 +5,6 @@ import os
 # from jyotisha.panchaanga.scripts.write_daily_panchaanga_tex import writeDailyTeX
 from jyotisha.panchaanga.scripts.ics import compute_calendar, write_to_file
 from jyotisha.panchaanga.spatio_temporal.periodical import Panchaanga
-from sanskrit_data.schema.common import JsonObject
 
 # import swisseph as swe
 # from indic_transliteration import xsanscript as sanscript
@@ -32,7 +31,7 @@ def test_panchanga_chennai_2019():
 
   with open(orig_ics_file) as orig_tex:
     with open(current_ics_output) as current_tex:
-      assert orig_tex.read() == current_tex.read()
+      assert current_tex.read() == orig_tex.read()
 
 
 if __name__ == '__main__':

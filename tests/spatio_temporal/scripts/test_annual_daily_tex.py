@@ -32,7 +32,7 @@ def daily_tex_comparer(city_name, year):
 
   with open(orig_tex_file) as orig_tex:
     with open(current_tex_output) as current_tex:
-      assert orig_tex.read() == current_tex.read()
+      assert current_tex.read() == orig_tex.read()
 
 
 def test_panchanga_chennai_2019():

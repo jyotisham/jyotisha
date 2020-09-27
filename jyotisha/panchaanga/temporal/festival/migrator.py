@@ -7,7 +7,7 @@ from indic_transliteration import xsanscript as sanscript
 from jyotisha import custom_transliteration
 from jyotisha.names import get_chandra_masa, NAMES
 # from jyotisha.panchaanga.temporal import festival
-from jyotisha.panchaanga.temporal.festival import HinduCalendarEventOld, HinduCalendarEvent
+from jyotisha.panchaanga.temporal.festival.rules import HinduCalendarEvent, HinduCalendarEventOld
 from sanskrit_data.schema.common import JsonObject
 
 logging.basicConfig(
@@ -73,18 +73,18 @@ def append_to_event_group_README(event, event_file_name):
     month = ''
     angam = ''
     if 'month_type' in event_dict['timing']:
-      if event_dict['timing']['month_type'] == 'lunar_month':
-        if event_dict['timing']['month_number'] == 0:
+      if event_dict['timing']['timing']['month_type'] == 'lunar_month':
+        if event_dict['timing']['timing']['month_number'] == 0:
           month = ' of every lunar month'
         else:
-          month = ' of ' + get_chandra_masa(event_dict['timing']['month_number'], NAMES,
+          month = ' of ' + get_chandra_masa(event_dict['timing']['timing']['month_number'], NAMES,
                                             sanscript.IAST) + ' (lunar) month'
-      elif event_dict['timing']['month_type'] == 'solar_month':
-        if event_dict['timing']['month_number'] == 0:
+      elif event_dict['timing']['timing']['month_type'] == 'solar_month':
+        if event_dict['timing']['timing']['month_number'] == 0:
           month = ' of every solar month'
         else:
           month = ' of ' + NAMES['RASHI_NAMES'][sanscript.IAST][
-            event_dict['timing']['month_number']] + ' (solar) month'
+            event_dict['timing']['timing']['month_number']] + ' (solar) month'
     if 'angam_type' in event_dict['timing']:
       logging.debug(event_dict["id"])
       if event_dict["id"][:4] == "ta__":
@@ -94,11 +94,11 @@ def append_to_event_group_README(event, event_file_name):
         angam = custom_transliteration.tr(event_dict["id"], sanscript.DEVANAGARI).replace("~",
                                                                                           " ") + ' is observed on '
 
-      if event_dict['timing']['angam_type'] == 'tithi':
+      if event_dict['timing']['timing']['angam_type'] == 'tithi':
         angam += NAMES['TITHI_NAMES'][sanscript.IAST][event_dict['timing']['angam_number']] + ' tithi'
-      elif event_dict['timing']['angam_type'] == 'nakshatram':
+      elif event_dict['timing']['timing']['angam_type'] == 'nakshatram':
         angam += NAMES['NAKSHATRAM_NAMES'][sanscript.IAST][event_dict['timing']['angam_number']] + ' nakṣhatram day'
-      elif event_dict['timing']['angam_type'] == 'day':
+      elif event_dict['timing']['timing']['angam_type'] == 'day':
         angam += 'day %d' % event_dict['timing']['angam_number']
     else:
       logging.debug('No angam_type in %s', event_dict['id'])

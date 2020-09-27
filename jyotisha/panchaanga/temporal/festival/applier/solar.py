@@ -33,7 +33,7 @@ class SolarFestivalAssigner(FestivalAssigner):
 
       # KARADAIYAN NOMBU
       if self.panchaanga.daily_panchaangas[d].solar_sidereal_date_sunset.month == 12 and self.panchaanga.daily_panchaangas[d].solar_sidereal_date_sunset.day == 1:
-        festival_name = 'ta:kAraDaiyAn2 nOn2bu'
+        festival_name = 'ta__kAraDaiyAn2 nOn2bu'
         if NakshatraDivision(self.panchaanga.daily_panchaangas[d].jd_sunrise - (1 / 15.0) * (self.panchaanga.daily_panchaangas[d].jd_sunrise - self.panchaanga.daily_panchaangas[d - 1].jd_sunrise),
                              ayanaamsha_id=self.ayanaamsha_id).get_solar_raashi() == 12:
           # If kumbha prevails two ghatikAs before sunrise, nombu can be done in the early morning itself, else, previous night.

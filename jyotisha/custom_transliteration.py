@@ -38,11 +38,11 @@ def tr(text, scr, titled=True):
   if titled:
     for t in text_bits:
       t = t.rstrip('#~0123456789 ')
-      if t[:3] == 'ta:':
+      if t.split("__")[0] == 'ta':
         # Force Tamil!
         if scr == sanscript.DEVANAGARI:
           scr = sanscript.TAMIL
-        t = t[3:]
+        t = t.split("__")[1]
         if scr == sanscript.TAMIL:
           tamil_text = sanscript.SCHEMES[sanscript.TAMIL].apply_roman_numerals(
             sanscript.transliterate(data=t, _from=sanscript.HK, _to=scr))
@@ -63,11 +63,11 @@ def tr(text, scr, titled=True):
   else:
     for t in text_bits:
       t = t.rstrip('~0123456789 ')
-      if t[:3] == 'ta:':
+      if t.split("__")[0] == 'ta':
         # Force Tamil!
         if scr == sanscript.DEVANAGARI:
           scr = sanscript.TAMIL
-        t = t[3:]
+        t = t.split("__")[1]
         tamil_text = sanscript.SCHEMES[sanscript.TAMIL].apply_roman_numerals(
           sanscript.transliterate(data=t, _from=sanscript.HK, _to=scr))
         transliterated_text.append(tamil_text.replace('C', 'Ch').replace('c', 'ch').strip("{}").title())

@@ -74,15 +74,6 @@ class KaalaHandler(Resource):
 
 
 # noinspection PyUnresolvedReferences
-@api.route('/events/<string:id>')
-class EventFinder(Resource):
-  def get(self, id):
-    festival.fill_festival_id_to_json()
-    festival_data = festival.festival_id_to_json.get(id)
-    return festival_data
-
-
-# noinspection PyUnresolvedReferences
 @api.route(
   '/timezones/<string:timezone>/times/years/<int:year>/months/<int:month>/days/<int:day>/hours/<int:hour>/minutes/<int:minute>/seconds/<int:second>/bodies/<string:body>/nakshatra')
 class NakshatraFinder(Resource):

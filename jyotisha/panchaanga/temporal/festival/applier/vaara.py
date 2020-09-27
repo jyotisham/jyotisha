@@ -37,12 +37,12 @@ class VaraFestivalAssigner(FestivalAssigner):
         self.add_festival('kRttikA~sOmavAsaraH', d, debug_festivals)
 
       # SOLAR MONTH-WEEKDAY FESTIVALS
-      for (mwd_fest_m, mwd_fest_wd, mwd_fest_name) in ((5, 0, 'ta:AvaNi~JAyir2r2ukkizhamai'),
-                                                       (6, 6, 'ta:puraTTAci~can2ikkizhamai'),
-                                                       (8, 0, 'ta:kArttigai~JAyir2r2ukkizhamai'),
-                                                       (4, 5, 'ta:ADi~veLLikkizhamai'),
-                                                       (10, 5, 'ta:tai~veLLikkizhamai'),
-                                                       (11, 2, 'ta:mAci~cevvAy')):
+      for (mwd_fest_m, mwd_fest_wd, mwd_fest_name) in ((5, 0, 'ta__AvaNi~JAyir2r2ukkizhamai'),
+                                                       (6, 6, 'ta__puraTTAci~can2ikkizhamai'),
+                                                       (8, 0, 'ta__kArttigai~JAyir2r2ukkizhamai'),
+                                                       (4, 5, 'ta__ADi~veLLikkizhamai'),
+                                                       (10, 5, 'ta__tai~veLLikkizhamai'),
+                                                       (11, 2, 'ta__mAci~cevvAy')):
         if self.panchaanga.daily_panchaangas[d].solar_sidereal_date_sunset.month == mwd_fest_m and self.panchaanga.daily_panchaangas[d].date.get_weekday() == mwd_fest_wd:
           self.add_festival(mwd_fest_name, d, debug_festivals)
 
