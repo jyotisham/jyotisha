@@ -8,7 +8,7 @@ from jyotisha import names
 from jyotisha.panchaanga.temporal import interval
 from jyotisha.panchaanga.temporal import time
 from jyotisha.panchaanga.temporal.body import Graha
-from jyotisha.panchaanga.temporal.festival import FestivalInstance
+from jyotisha.panchaanga.temporal.festival import FestivalInstance, TransitionFestivalInstance
 from jyotisha.panchaanga.temporal.festival.applier import FestivalAssigner
 from jyotisha.panchaanga.temporal.interval import Interval
 from jyotisha.panchaanga.temporal.time import Hour, Date
@@ -168,9 +168,7 @@ class EclipticFestivalAssigner(FestivalAssigner):
         (jd_transit, rashi1, rashi2) = (transit.jd, transit.value_1, transit.value_2)
         if self.panchaanga.jd_start < jd_transit < jd_end:
           fday = int(floor(jd_transit) - floor(self.panchaanga.jd_start) + 1)
-          self.panchaanga.daily_panchaangas[fday].festivals.append(FestivalInstance(name='guru-saGkrAntiH~(%s##\\To{}##%s)' %
-                                      (names.NAMES['RASHI_NAMES']['hk'][rashi1],
-                                       names.NAMES['RASHI_NAMES']['hk'][rashi2])))
+          self.panchaanga.daily_panchaangas[fday].festivals.append(TransitionFestivalInstance(name='guru-saGkrAntiH', status_1_hk=names.NAMES['RASHI_NAMES']['hk'][rashi1], status_2_hk=names.NAMES['RASHI_NAMES']['hk'][rashi2]))
           if rashi1 < rashi2 and transits[i + 1].value_1 < transits[i + 1].value_2:
             # Considering only non-retrograde transits for pushkara computations
             # logging.debug('Non-retrograde transit; we have a pushkaram!')

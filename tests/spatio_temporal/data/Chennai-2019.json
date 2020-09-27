@@ -16734,8 +16734,10 @@
       "festivals": [
         {
           "days": [],
-          "jsonClass": "FestivalInstance",
-          "name": "guru-saGkrAntiH~(vRzcikaH##\\To{}##dhanuH)"
+          "jsonClass": "TransitionFestivalInstance",
+          "name": "guru-saGkrAntiH",
+          "status_1_hk": "vRzcikaH",
+          "status_2_hk": "dhanuH"
         },
         {
           "days": [
@@ -21576,8 +21578,10 @@
       "festivals": [
         {
           "days": [],
-          "jsonClass": "FestivalInstance",
-          "name": "guru-saGkrAntiH~(dhanuH##\\To{}##vRzcikaH)"
+          "jsonClass": "TransitionFestivalInstance",
+          "name": "guru-saGkrAntiH",
+          "status_1_hk": "dhanuH",
+          "status_2_hk": "vRzcikaH"
         },
         {
           "days": [
@@ -59306,8 +59310,10 @@
       "festivals": [
         {
           "days": [],
-          "jsonClass": "FestivalInstance",
-          "name": "guru-saGkrAntiH~(vRzcikaH##\\To{}##dhanuH)"
+          "jsonClass": "TransitionFestivalInstance",
+          "name": "guru-saGkrAntiH",
+          "status_1_hk": "vRzcikaH",
+          "status_2_hk": "dhanuH"
         },
         {
           "days": [

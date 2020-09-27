@@ -334,6 +334,15 @@ class FestivalInstance(common.JsonObject):
     return hash(self.name)
 
 
+class TransitionFestivalInstance(FestivalInstance):
+  def __init__(self, name, status_1_hk, status_2_hk):
+    super(TransitionFestivalInstance, self).__init__(name=name)
+    self.status_1_hk = status_1_hk
+    self.status_2_hk = status_2_hk
+
+  def tex_code(self, script, timezone=None):
+    return custom_transliteration.tr("%s~%s##\\To{}##%s" % (self.name, self.status_1_hk, self.status_2_hk), scr=script)
+
 # noinspection PyUnresolvedReferences
 class HinduCalendarEvent(common.JsonObject):
   schema = common.recursively_merge_json_schemas(common.JsonObject.schema, ({

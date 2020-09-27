@@ -54202,8 +54202,10 @@
       "festivals": [
         {
           "days": [],
-          "jsonClass": "FestivalInstance",
-          "name": "guru-saGkrAntiH~(tulA##\\To{}##vRzcikaH)"
+          "jsonClass": "TransitionFestivalInstance",
+          "name": "guru-saGkrAntiH",
+          "status_1_hk": "tulA",
+          "status_2_hk": "vRzcikaH"
         },
         {
           "days": [

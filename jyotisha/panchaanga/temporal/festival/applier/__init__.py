@@ -184,7 +184,7 @@ class FestivalAssigner(PanchaangaApplier):
                 logging.debug(("%%angams today & tmrw:", angams))
               except KeyError:
                 logging.debug(
-                  ('%', festival_name, ': ', festival_rules[festival_name.split('\\')[0][:-1]]))
+                  ('%', festival_name, ': ', festival_rules[festival_name]))
                 logging.debug(("%%angams today & tmrw:", angams))
 
             if priority == 'paraviddha':

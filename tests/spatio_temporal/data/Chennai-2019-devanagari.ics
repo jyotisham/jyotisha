@@ -3952,8 +3952,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:गुरु-सङ्क्रान्तिः (वृश्च
- िकः▶धनुः)
+SUMMARY:गुरु-सङ्क्रान्तिः
 DTSTART;VALUE=DATE:20190329
 DTEND;VALUE=DATE:20190330
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
@@ -5437,8 +5436,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:गुरु-सङ्क्रान्तिः (धनुः▶
- वृश्चिकः)
+SUMMARY:गुरु-सङ्क्रान्तिः
 DTSTART;VALUE=DATE:20190423
 DTEND;VALUE=DATE:20190424
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/
@@ -16675,8 +16673,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:गुरु-सङ्क्रान्तिः (वृश्च
- िकः▶धनुः)
+SUMMARY:गुरु-सङ्क्रान्तिः
 DTSTART;VALUE=DATE:20191105
 DTEND;VALUE=DATE:20191106
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/data/

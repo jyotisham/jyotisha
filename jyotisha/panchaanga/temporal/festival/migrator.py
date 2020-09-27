@@ -166,7 +166,7 @@ def legacy_dict_to_HinduCalendarEventOld_list(old_db_file, new_db_file):
     old_style_events.append(event_old_style)
   json_map_list = JsonObject.get_json_map_list(old_style_events)
   with open(new_db_file, 'w') as f:
-    json.dump(json_map_list, f, indent=4, sort_keys=True)
+    json.dump(json_map_list, f, indent=2, sort_keys=True)
 
 
 if __name__ == '__main__':
