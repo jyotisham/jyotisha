@@ -10,8 +10,21 @@ from sanskrit_data.schema import common
 
 from jyotisha import custom_transliteration
 from jyotisha.names import get_chandra_masa, NAMES
-from jyotisha.panchaanga.temporal.festival import transliterate_quoted_text
 
+
+def transliterate_quoted_text(text, script):
+  transliterated_text = text
+  pieces = transliterated_text.split('`')
+  if len(pieces) > 1:
+    if len(pieces) % 2 == 1:
+      # We much have matching backquotes, the contents of which can be neatly transliterated
+      for i, piece in enumerate(pieces):
+        if (i % 2) == 1:
+          pieces[i] = custom_transliteration.tr(piece, script, titled=True)
+      transliterated_text = ''.join(pieces)
+    else:
+      logging.warning('Unmatched backquotes in string: %s' % transliterated_text)
+  return transliterated_text
 
 
 
