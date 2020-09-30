@@ -65,7 +65,7 @@ def test_adhika_maasa_computations_2009():
                                           ayanaamsha_id=zodiac.Ayanamsha.CHITRA_AT_180, compute_lagnas=False,
                                           allow_precomputed=False)
   expected_lunar_months_2009 = [7] + [8] * 29 + [9] * 30 + [10] * 15
-  assert expected_lunar_months_2009 == [x.lunar_month for x in panchaanga_2009.daily_panchaangas[291:366]]
+  assert expected_lunar_months_2009 == [x.lunar_month for x in panchaanga_2009.daily_panchaangas_sorted()[291:366]]
 
 
 def test_adhika_maasa_computations_2010():
@@ -74,7 +74,7 @@ def test_adhika_maasa_computations_2010():
                                           ayanaamsha_id=zodiac.Ayanamsha.CHITRA_AT_180, compute_lagnas=False,
                                           allow_precomputed=False)
   expected_lunar_months_2010 = [10] * 15 + [11] * 30 + [12] * 29 + [1] * 30 + [1.5] * 30 + [2] * 29 + [3]
-  assert expected_lunar_months_2010 == [x.lunar_month for x in panchaanga_2010.daily_panchaangas[1:165]]
+  assert expected_lunar_months_2010 == [x.lunar_month for x in panchaanga_2010.daily_panchaangas_sorted()[1:165]]
 
 
 def test_adhika_maasa_computations_2018():
@@ -83,7 +83,7 @@ def test_adhika_maasa_computations_2018():
                                           ayanaamsha_id=zodiac.Ayanamsha.CHITRA_AT_180, compute_lagnas=False,
                                           allow_precomputed=False)
   expected_lunar_months_2018 = [2] + [2.5] * 29 + [3] * 30 + [4]
-  assert expected_lunar_months_2018 == [x.lunar_month for x in panchaanga_2018.daily_panchaangas[135:196]]
+  assert expected_lunar_months_2018 == [x.lunar_month for x in panchaanga_2018.daily_panchaangas_sorted()[135:196]]
 
 
 def test_orinda_ca_dst_2019():
@@ -94,4 +94,4 @@ def test_orinda_ca_dst_2019():
   # March 10 is the 69th day of the year (70th in leap years) in the Gregorian calendar.
   # Sunrise on that day is around 7:27 AM according to Google, which is JD 2458553.14375 according to https://ssd.jpl.nasa.gov/tc.cgi#top .
   # We use the index 70 below as the annual panchanga object seems to use the index d + 1.
-  assert round(panchaanga.daily_panchaangas[70].jd_sunrise, ndigits=4) == round(2458554.104348237, ndigits=4)  # 2019-Mar-10 07:30:15.68
+  assert round(panchaanga.daily_panchaangas_sorted()[70].jd_sunrise, ndigits=4) == round(2458554.104348237, ndigits=4)  # 2019-Mar-10 07:30:15.68

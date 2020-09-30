@@ -2,7 +2,10 @@ import logging
 import os
 import sys
 import traceback
+from collections import OrderedDict
 from typing import List
+
+import methodtools
 
 from jyotisha.panchaanga import spatio_temporal, temporal
 from jyotisha.panchaanga.spatio_temporal import daily
@@ -19,7 +22,7 @@ from sanskrit_data.schema.common import JsonObject
 class Panchaanga(common.JsonObject):
   """This class enables the construction of a panchaanga for arbitrary periods, with festivals.
     """
-  LATEST_VERSION = "0.0.3"
+  LATEST_VERSION = "0.0.4"
 
   def __init__(self, city, start_date, end_date, lunar_month_assigner_type=LunarMonthAssigner.SIDERIAL_SOLAR_BASED,
                ayanaamsha_id=zodiac.Ayanamsha.CHITRA_AT_180,
@@ -60,7 +63,7 @@ class Panchaanga(common.JsonObject):
     nDays = self.duration_to_calculate
 
     # INITIALISE VARIABLES
-    self.daily_panchaangas: List[daily.DailyPanchanga] = [None] * nDays
+    self.daily_panchaangas: OrderedDict[daily.DailyPanchanga] = {}
 
     # Computing solar month details for Dec 31
     # rather than Jan 1, since we have an always increment
@@ -68,7 +71,6 @@ class Panchaanga(common.JsonObject):
     # year
     previous_day = time.jd_to_utc_gregorian(self.jd_start - 1)
     daily_panchaanga_start = daily.DailyPanchanga(city=self.city, date=previous_day, ayanaamsha_id=self.ayanaamsha_id)
-    solar_month_day = daily_panchaanga_start.solar_sidereal_date_sunset.day
 
     solar_month_today_sunset = NakshatraDivision(daily_panchaanga_start.jd_sunset,
                                                  ayanaamsha_id=self.ayanaamsha_id).get_anga(
@@ -86,28 +88,31 @@ class Panchaanga(common.JsonObject):
       # TODO: Eventually, we are shifting to an array of daily panchangas. Reason: Better modularity.
       # The below block is temporary code to make the transition seamless.
       date_d = time.jd_to_utc_gregorian(self.jd_start + d)
-      self.daily_panchaangas[d + 1] = daily.DailyPanchanga(city=self.city, date=date_d,
+      date_d.set_time_to_day_start()
+      previous_daily_panchaanga = self.daily_panchaangas.get(date_d.offset_date(days=-1).get_date_str(), None)
+      daily_panchaanga = daily.DailyPanchanga(city=self.city, date=date_d,
                                                            ayanaamsha_id=self.ayanaamsha_id,
-previous_day_panchaanga=self.daily_panchaangas[d])
-
-      if (d <= 0):
-        continue
-      
-      # Compute all the anga datas
+previous_day_panchaanga=previous_daily_panchaanga)
       if compute_lagnas:
-        self.daily_panchaangas[d].get_lagna_data()
+        daily_panchaanga.get_lagna_data()
+      self.daily_panchaangas[date_d.get_date_str()] = daily_panchaanga
+
+  @methodtools.lru_cache(maxsize=10)
+  def daily_panchaangas_sorted(self):
+    return sorted(self.daily_panchaangas.values())
 
   def get_angas_for_interval_boundaries(self, d, get_anga_func, interval_type):
     """Get anga data at various points.
     
     Useful for festival assignments."""
-    jd_sunrise = self.daily_panchaangas[d].jd_sunrise
-    jd_sunrise_tmrw = self.daily_panchaangas[d + 1].jd_sunrise
-    jd_sunrise_datmrw = self.daily_panchaangas[d + 2].jd_sunrise
-    jd_sunset = self.daily_panchaangas[d].jd_sunset
-    jd_sunset_tmrw = self.daily_panchaangas[d + 1].jd_sunset
-    jd_moonrise = self.daily_panchaangas[d].jd_moonrise
-    jd_moonrise_tmrw = self.daily_panchaangas[d + 1].jd_moonrise
+    daily_panchaangas = self.daily_panchaangas_sorted()
+    jd_sunrise = daily_panchaangas[d].jd_sunrise
+    jd_sunrise_tmrw = daily_panchaangas[d + 1].jd_sunrise
+    jd_sunrise_datmrw = daily_panchaangas[d + 2].jd_sunrise
+    jd_sunset = daily_panchaangas[d].jd_sunset
+    jd_sunset_tmrw = daily_panchaangas[d + 1].jd_sunset
+    jd_moonrise = daily_panchaangas[d].jd_moonrise
+    jd_moonrise_tmrw = daily_panchaangas[d + 1].jd_moonrise
     if interval_type == 'sunrise':
       angas = [get_anga_func(jd_sunrise),
                get_anga_func(jd_sunrise),
@@ -167,7 +172,7 @@ previous_day_panchaanga=self.daily_panchaangas[d])
         get_anga_func(jd_sunset_tmrw +
                       (jd_sunrise_datmrw - jd_sunset_tmrw) * (3.0 / 5.0))]
     elif interval_type == 'pradosha':
-      # pradOSo.astamayAdUrdhvaM ghaTikAdvayamiShyatE (tithyAdi tattvam, Vrat Parichay p. 25 Gita Press)
+      # pradOSo.astamayAdUrdhvaM ghaTikAdvayamiShyatE (tithyAdi tattvam, Vrat Parichay panchaanga. 25 Gita Press)
       angas = [get_anga_func(jd_sunset),
                get_anga_func(jd_sunset + (jd_sunrise_tmrw - jd_sunset) * (1.0 / 15.0)),
                get_anga_func(jd_sunset_tmrw),
@@ -216,22 +221,6 @@ previous_day_panchaanga=self.daily_panchaangas[d])
       raise ValueError('Unkown kaala "%s" input!' % interval_type)
     return angas
 
-  def write_debug_log(self):
-    log_file = open('cal-%4d-%s-log.txt' % (self.year, self.city.name), 'w')
-    for d in range(1, self.duration_to_calculate - 1):
-      jd = self.jd_start - 1 + d
-      [y, m, dt, t] = time.jd_to_utc_gregorian(jd).to_date_fractional_hour_tuple()
-      longitude_sun_sunset = Graha.singleton(Graha.SUN).get_longitude(
-        self.daily_panchaangas[d].jd_sunset) - zodiac.Ayanamsha.singleton(
-        self.ayanaamsha_id).get_offset(self.daily_panchaangas[d].jd_sunset)
-      log_data = '%02d-%02d-%4d\t[%3d]\tsun_rashi=%8.3f\ttithi=%8.3f\tsolar_month\
-        =%2d\tlunar_month=%4.1f\n' % (dt, m, y, d, (longitude_sun_sunset % 360) / 30.0,
-                                      NakshatraDivision(self.daily_panchaangas[d].jd_sunrise,
-                                                        ayanaamsha_id=self.ayanaamsha_id).get_anga_float(
-                                        zodiac.AngaType.TITHI),
-                                      self.daily_panchaangas[d].solar_sidereal_date_sunset.month, self.daily_panchaangas[d].lunar_month)
-      log_file.write(log_data)
-
   def update_festival_details(self, debug=False):
     """
 
@@ -252,7 +241,7 @@ previous_day_panchaanga=self.daily_panchaangas[d])
 
   def _reset_festivals(self, compute_lagnams=False):
     self.festival_id_to_instance = {}
-    for daily_panchaanga in self.daily_panchaangas:
+    for daily_panchaanga in self.daily_panchaangas.values():
       daily_panchaanga.festivals = []
 
   def _refill_daily_panchaangas(self):
@@ -260,12 +249,12 @@ previous_day_panchaanga=self.daily_panchaangas[d])
     
     Inverse of _force_non_redundancy_in_daily_panchaangas
     """
-    for daily_panchaanga in self.daily_panchaangas:
+    for daily_panchaanga in self.daily_panchaangas.values():
       daily_panchaanga.city = self.city
 
   def _force_non_redundancy_in_daily_panchaangas(self):
     """Avoids duplication for memory efficiency."""
-    for daily_panchaanga in self.daily_panchaangas:
+    for daily_panchaanga in self.daily_panchaangas.values():
       daily_panchaanga.city = None
 
   @classmethod

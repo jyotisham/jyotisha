@@ -13,8 +13,8 @@
     "jsonClass": "ComputationSystem",
     "lunar_month_assigner_type": "SiderialSolarBasedAssigner"
   },
-  "daily_panchaangas": [
-    {
+  "daily_panchaangas": {
+    "2018-12-31": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -178,7 +178,7 @@
         "month": 9
       }
     },
-    {
+    "2019-01-01": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -368,7 +368,7 @@
         "month": 9
       }
     },
-    {
+    "2019-01-02": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -572,7 +572,7 @@
         "month": 9
       }
     },
-    {
+    "2019-01-03": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -765,7 +765,7 @@
         "month": 9
       }
     },
-    {
+    "2019-01-04": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -930,7 +930,7 @@
         "month": 9
       }
     },
-    {
+    "2019-01-05": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -1134,7 +1134,7 @@
         "month": 9
       }
     },
-    {
+    "2019-01-06": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -1295,7 +1295,7 @@
         "month": 9
       }
     },
-    {
+    "2019-01-07": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -1501,7 +1501,7 @@
         "month": 9
       }
     },
-    {
+    "2019-01-08": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -1666,7 +1666,7 @@
         "month": 9
       }
     },
-    {
+    "2019-01-09": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -1831,7 +1831,7 @@
         "month": 9
       }
     },
-    {
+    "2019-01-10": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -1996,7 +1996,7 @@
         "month": 9
       }
     },
-    {
+    "2019-01-11": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -2180,7 +2180,7 @@
         "month": 9
       }
     },
-    {
+    "2019-01-12": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -2353,7 +2353,7 @@
         "month": 9
       }
     },
-    {
+    "2019-01-13": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -2540,7 +2540,7 @@
         "month": 9
       }
     },
-    {
+    "2019-01-14": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -2735,7 +2735,7 @@
         "month": 10
       }
     },
-    {
+    "2019-01-15": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -2915,7 +2915,7 @@
         "month": 10
       }
     },
-    {
+    "2019-01-16": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -3128,7 +3128,7 @@
         "month": 10
       }
     },
-    {
+    "2019-01-17": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -3342,7 +3342,7 @@
         "month": 10
       }
     },
-    {
+    "2019-01-18": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -3546,7 +3546,7 @@
         "month": 10
       }
     },
-    {
+    "2019-01-19": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -3733,7 +3733,7 @@
         "month": 10
       }
     },
-    {
+    "2019-01-20": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -3981,7 +3981,7 @@
         "month": 10
       }
     },
-    {
+    "2019-01-21": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -4158,7 +4158,7 @@
         "month": 10
       }
     },
-    {
+    "2019-01-22": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -4354,7 +4354,7 @@
         "month": 10
       }
     },
-    {
+    "2019-01-23": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -4525,7 +4525,7 @@
         "month": 10
       }
     },
-    {
+    "2019-01-24": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -4720,7 +4720,7 @@
         "month": 10
       }
     },
-    {
+    "2019-01-25": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -4903,7 +4903,7 @@
         "month": 10
       }
     },
-    {
+    "2019-01-26": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -5083,7 +5083,7 @@
         "month": 10
       }
     },
-    {
+    "2019-01-27": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -5256,7 +5256,7 @@
         "month": 10
       }
     },
-    {
+    "2019-01-28": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -5443,7 +5443,7 @@
         "month": 10
       }
     },
-    {
+    "2019-01-29": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -5616,7 +5616,7 @@
         "month": 10
       }
     },
-    {
+    "2019-01-30": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -5789,7 +5789,7 @@
         "month": 10
       }
     },
-    {
+    "2019-01-31": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -5971,7 +5971,7 @@
         "month": 10
       }
     },
-    {
+    "2019-02-01": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -6164,7 +6164,7 @@
         "month": 10
       }
     },
-    {
+    "2019-02-02": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -6349,7 +6349,7 @@
         "month": 10
       }
     },
-    {
+    "2019-02-03": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -6529,7 +6529,7 @@
         "month": 10
       }
     },
-    {
+    "2019-02-04": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -6739,7 +6739,7 @@
         "month": 10
       }
     },
-    {
+    "2019-02-05": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -6917,7 +6917,7 @@
         "month": 10
       }
     },
-    {
+    "2019-02-06": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -7091,7 +7091,7 @@
         "month": 10
       }
     },
-    {
+    "2019-02-07": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -7256,7 +7256,7 @@
         "month": 10
       }
     },
-    {
+    "2019-02-08": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -7453,7 +7453,7 @@
         "month": 10
       }
     },
-    {
+    "2019-02-09": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -7661,7 +7661,7 @@
         "month": 10
       }
     },
-    {
+    "2019-02-10": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -7857,7 +7857,7 @@
         "month": 10
       }
     },
-    {
+    "2019-02-11": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -8065,7 +8065,7 @@
         "month": 10
       }
     },
-    {
+    "2019-02-12": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -8272,7 +8272,7 @@
         "month_transition": 2458527.625
       }
     },
-    {
+    "2019-02-13": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -8466,7 +8466,7 @@
         "month": 11
       }
     },
-    {
+    "2019-02-14": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -8653,7 +8653,7 @@
         "month": 11
       }
     },
-    {
+    "2019-02-15": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -8841,7 +8841,7 @@
         "month": 11
       }
     },
-    {
+    "2019-02-16": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -9074,7 +9074,7 @@
         "month": 11
       }
     },
-    {
+    "2019-02-17": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -9273,7 +9273,7 @@
         "month": 11
       }
     },
-    {
+    "2019-02-18": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -9464,7 +9464,7 @@
         "month": 11
       }
     },
-    {
+    "2019-02-19": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -9708,7 +9708,7 @@
         "month": 11
       }
     },
-    {
+    "2019-02-20": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -9873,7 +9873,7 @@
         "month": 11
       }
     },
-    {
+    "2019-02-21": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -10038,7 +10038,7 @@
         "month": 11
       }
     },
-    {
+    "2019-02-22": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -10220,7 +10220,7 @@
         "month": 11
       }
     },
-    {
+    "2019-02-23": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -10385,7 +10385,7 @@
         "month": 11
       }
     },
-    {
+    "2019-02-24": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -10558,7 +10558,7 @@
         "month": 11
       }
     },
-    {
+    "2019-02-25": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -10745,7 +10745,7 @@
         "month": 11
       }
     },
-    {
+    "2019-02-26": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -10935,7 +10935,7 @@
         "month": 11
       }
     },
-    {
+    "2019-02-27": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -11108,7 +11108,7 @@
         "month": 11
       }
     },
-    {
+    "2019-02-28": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -11269,7 +11269,7 @@
         "month": 11
       }
     },
-    {
+    "2019-03-01": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -11449,7 +11449,7 @@
         "month": 11
       }
     },
-    {
+    "2019-03-02": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -11646,7 +11646,7 @@
         "month": 11
       }
     },
-    {
+    "2019-03-03": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -11853,7 +11853,7 @@
         "month": 11
       }
     },
-    {
+    "2019-03-04": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -12045,7 +12045,7 @@
         "month": 11
       }
     },
-    {
+    "2019-03-05": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -12252,7 +12252,7 @@
         "month": 11
       }
     },
-    {
+    "2019-03-06": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -12425,7 +12425,7 @@
         "month": 11
       }
     },
-    {
+    "2019-03-07": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -12603,7 +12603,7 @@
         "month": 11
       }
     },
-    {
+    "2019-03-08": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -12792,7 +12792,7 @@
         "month": 11
       }
     },
-    {
+    "2019-03-09": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -12957,7 +12957,7 @@
         "month": 11
       }
     },
-    {
+    "2019-03-10": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -13137,7 +13137,7 @@
         "month": 11
       }
     },
-    {
+    "2019-03-11": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -13329,7 +13329,7 @@
         "month": 11
       }
     },
-    {
+    "2019-03-12": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -13534,7 +13534,7 @@
         "month": 11
       }
     },
-    {
+    "2019-03-13": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -13715,7 +13715,7 @@
         "month": 11
       }
     },
-    {
+    "2019-03-14": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -13910,7 +13910,7 @@
         "month_transition": 2458557.4958
       }
     },
-    {
+    "2019-03-15": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -14098,7 +14098,7 @@
         "month": 12
       }
     },
-    {
+    "2019-03-16": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -14285,7 +14285,7 @@
         "month": 12
       }
     },
-    {
+    "2019-03-17": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -14546,7 +14546,7 @@
         "month": 12
       }
     },
-    {
+    "2019-03-18": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -14745,7 +14745,7 @@
         "month": 12
       }
     },
-    {
+    "2019-03-19": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -14950,7 +14950,7 @@
         "month": 12
       }
     },
-    {
+    "2019-03-20": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -15187,7 +15187,7 @@
         "month": 12
       }
     },
-    {
+    "2019-03-21": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -15353,7 +15353,7 @@
         "month": 12
       }
     },
-    {
+    "2019-03-22": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -15526,7 +15526,7 @@
         "month": 12
       }
     },
-    {
+    "2019-03-23": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -15718,7 +15718,7 @@
         "month": 12
       }
     },
-    {
+    "2019-03-24": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -15891,7 +15891,7 @@
         "month": 12
       }
     },
-    {
+    "2019-03-25": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -16056,7 +16056,7 @@
         "month": 12
       }
     },
-    {
+    "2019-03-26": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -16237,7 +16237,7 @@
         "month": 12
       }
     },
-    {
+    "2019-03-27": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -16410,7 +16410,7 @@
         "month": 12
       }
     },
-    {
+    "2019-03-28": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -16583,7 +16583,7 @@
         "month": 12
       }
     },
-    {
+    "2019-03-29": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -16756,7 +16756,7 @@
         "month": 12
       }
     },
-    {
+    "2019-03-30": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -16949,7 +16949,7 @@
         "month": 12
       }
     },
-    {
+    "2019-03-31": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -17122,7 +17122,7 @@
         "month": 12
       }
     },
-    {
+    "2019-04-01": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -17293,7 +17293,7 @@
         "month": 12
       }
     },
-    {
+    "2019-04-02": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -17513,7 +17513,7 @@
         "month": 12
       }
     },
-    {
+    "2019-04-03": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -17678,7 +17678,7 @@
         "month": 12
       }
     },
-    {
+    "2019-04-04": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -17865,7 +17865,7 @@
         "month": 12
       }
     },
-    {
+    "2019-04-05": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -18089,7 +18089,7 @@
         "month": 12
       }
     },
-    {
+    "2019-04-06": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -18286,7 +18286,7 @@
         "month": 12
       }
     },
-    {
+    "2019-04-07": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -18466,7 +18466,7 @@
         "month": 12
       }
     },
-    {
+    "2019-04-08": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -18658,7 +18658,7 @@
         "month": 12
       }
     },
-    {
+    "2019-04-09": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -18859,7 +18859,7 @@
         "month": 12
       }
     },
-    {
+    "2019-04-10": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -19047,7 +19047,7 @@
         "month": 12
       }
     },
-    {
+    "2019-04-11": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -19221,7 +19221,7 @@
         "month": 12
       }
     },
-    {
+    "2019-04-12": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -19401,7 +19401,7 @@
         "month": 12
       }
     },
-    {
+    "2019-04-13": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -19603,7 +19603,7 @@
         "month": 12
       }
     },
-    {
+    "2019-04-14": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -19801,7 +19801,7 @@
         "month": 1
       }
     },
-    {
+    "2019-04-15": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -19990,7 +19990,7 @@
         "month": 1
       }
     },
-    {
+    "2019-04-16": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -20213,7 +20213,7 @@
         "month": 1
       }
     },
-    {
+    "2019-04-17": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -20400,7 +20400,7 @@
         "month": 1
       }
     },
-    {
+    "2019-04-18": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -20687,7 +20687,7 @@
         "month": 1
       }
     },
-    {
+    "2019-04-19": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -20868,7 +20868,7 @@
         "month": 1
       }
     },
-    {
+    "2019-04-20": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -21041,7 +21041,7 @@
         "month": 1
       }
     },
-    {
+    "2019-04-21": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -21215,7 +21215,7 @@
         "month": 1
       }
     },
-    {
+    "2019-04-22": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -21386,7 +21386,7 @@
         "month": 1
       }
     },
-    {
+    "2019-04-23": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -21566,7 +21566,7 @@
         "month": 1
       }
     },
-    {
+    "2019-04-24": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -21731,7 +21731,7 @@
         "month": 1
       }
     },
-    {
+    "2019-04-25": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -21896,7 +21896,7 @@
         "month": 1
       }
     },
-    {
+    "2019-04-26": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -22096,7 +22096,7 @@
         "month": 1
       }
     },
-    {
+    "2019-04-27": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -22257,7 +22257,7 @@
         "month": 1
       }
     },
-    {
+    "2019-04-28": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -22422,7 +22422,7 @@
         "month": 1
       }
     },
-    {
+    "2019-04-29": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -22595,7 +22595,7 @@
         "month": 1
       }
     },
-    {
+    "2019-04-30": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -22784,7 +22784,7 @@
         "month": 1
       }
     },
-    {
+    "2019-05-01": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -22985,7 +22985,7 @@
         "month": 1
       }
     },
-    {
+    "2019-05-02": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -23170,7 +23170,7 @@
         "month": 1
       }
     },
-    {
+    "2019-05-03": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -23357,7 +23357,7 @@
         "month": 1
       }
     },
-    {
+    "2019-05-04": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -23551,7 +23551,7 @@
         "month": 1
       }
     },
-    {
+    "2019-05-05": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -23762,7 +23762,7 @@
         "month": 1
       }
     },
-    {
+    "2019-05-06": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -23956,7 +23956,7 @@
         "month": 1
       }
     },
-    {
+    "2019-05-07": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -24150,7 +24150,7 @@
         "month": 1
       }
     },
-    {
+    "2019-05-08": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -24337,7 +24337,7 @@
         "month": 1
       }
     },
-    {
+    "2019-05-09": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -24553,7 +24553,7 @@
         "month": 1
       }
     },
-    {
+    "2019-05-10": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -24733,7 +24733,7 @@
         "month": 1
       }
     },
-    {
+    "2019-05-11": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -24935,7 +24935,7 @@
         "month": 1
       }
     },
-    {
+    "2019-05-12": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -25136,7 +25136,7 @@
         "month": 1
       }
     },
-    {
+    "2019-05-13": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -25330,7 +25330,7 @@
         "month": 1
       }
     },
-    {
+    "2019-05-14": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -25525,7 +25525,7 @@
         "month": 1
       }
     },
-    {
+    "2019-05-15": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -25749,7 +25749,7 @@
         "month": 2
       }
     },
-    {
+    "2019-05-16": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -25926,7 +25926,7 @@
         "month": 2
       }
     },
-    {
+    "2019-05-17": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -26118,7 +26118,7 @@
         "month": 2
       }
     },
-    {
+    "2019-05-18": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -26367,7 +26367,7 @@
         "month": 2
       }
     },
-    {
+    "2019-05-19": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -26540,7 +26540,7 @@
         "month": 2
       }
     },
-    {
+    "2019-05-20": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -26713,7 +26713,7 @@
         "month": 2
       }
     },
-    {
+    "2019-05-21": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -26926,7 +26926,7 @@
         "month": 2
       }
     },
-    {
+    "2019-05-22": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -27113,7 +27113,7 @@
         "month": 2
       }
     },
-    {
+    "2019-05-23": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -27286,7 +27286,7 @@
         "month": 2
       }
     },
-    {
+    "2019-05-24": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -27468,7 +27468,7 @@
         "month": 2
       }
     },
-    {
+    "2019-05-25": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -27633,7 +27633,7 @@
         "month": 2
       }
     },
-    {
+    "2019-05-26": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -27798,7 +27798,7 @@
         "month": 2
       }
     },
-    {
+    "2019-05-27": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -27971,7 +27971,7 @@
         "month": 2
       }
     },
-    {
+    "2019-05-28": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -28144,7 +28144,7 @@
         "month": 2
       }
     },
-    {
+    "2019-05-29": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -28324,7 +28324,7 @@
         "month": 2
       }
     },
-    {
+    "2019-05-30": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -28499,7 +28499,7 @@
         "month": 2
       }
     },
-    {
+    "2019-05-31": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -28686,7 +28686,7 @@
         "month": 2
       }
     },
-    {
+    "2019-06-01": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -28904,7 +28904,7 @@
         "month": 2
       }
     },
-    {
+    "2019-06-02": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -29105,7 +29105,7 @@
         "month": 2
       }
     },
-    {
+    "2019-06-03": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -29300,7 +29300,7 @@
         "month": 2
       }
     },
-    {
+    "2019-06-04": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -29491,7 +29491,7 @@
         "month": 2
       }
     },
-    {
+    "2019-06-05": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -29664,7 +29664,7 @@
         "month": 2
       }
     },
-    {
+    "2019-06-06": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -29859,7 +29859,7 @@
         "month": 2
       }
     },
-    {
+    "2019-06-07": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -30066,7 +30066,7 @@
         "month": 2
       }
     },
-    {
+    "2019-06-08": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -30275,7 +30275,7 @@
         "month": 2
       }
     },
-    {
+    "2019-06-09": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -30470,7 +30470,7 @@
         "month": 2
       }
     },
-    {
+    "2019-06-10": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -30657,7 +30657,7 @@
         "month": 2
       }
     },
-    {
+    "2019-06-11": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -30858,7 +30858,7 @@
         "month": 2
       }
     },
-    {
+    "2019-06-12": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -31060,7 +31060,7 @@
         "month": 2
       }
     },
-    {
+    "2019-06-13": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -31277,7 +31277,7 @@
         "month": 2
       }
     },
-    {
+    "2019-06-14": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -31515,7 +31515,7 @@
         "month": 2
       }
     },
-    {
+    "2019-06-15": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -31702,7 +31702,7 @@
         "month": 3
       }
     },
-    {
+    "2019-06-16": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -31954,7 +31954,7 @@
         "month": 3
       }
     },
-    {
+    "2019-06-17": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -32119,7 +32119,7 @@
         "month": 3
       }
     },
-    {
+    "2019-06-18": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -32284,7 +32284,7 @@
         "month": 3
       }
     },
-    {
+    "2019-06-19": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -32449,7 +32449,7 @@
         "month": 3
       }
     },
-    {
+    "2019-06-20": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -32641,7 +32641,7 @@
         "month": 3
       }
     },
-    {
+    "2019-06-21": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -32806,7 +32806,7 @@
         "month": 3
       }
     },
-    {
+    "2019-06-22": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -32971,7 +32971,7 @@
         "month": 3
       }
     },
-    {
+    "2019-06-23": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -33136,7 +33136,7 @@
         "month": 3
       }
     },
-    {
+    "2019-06-24": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -33301,7 +33301,7 @@
         "month": 3
       }
     },
-    {
+    "2019-06-25": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -33495,7 +33495,7 @@
         "month": 3
       }
     },
-    {
+    "2019-06-26": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -33675,7 +33675,7 @@
         "month": 3
       }
     },
-    {
+    "2019-06-27": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -33836,7 +33836,7 @@
         "month": 3
       }
     },
-    {
+    "2019-06-28": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -34023,7 +34023,7 @@
         "month": 3
       }
     },
-    {
+    "2019-06-29": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -34239,7 +34239,7 @@
         "month": 3
       }
     },
-    {
+    "2019-06-30": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -34432,7 +34432,7 @@
         "month": 3
       }
     },
-    {
+    "2019-07-01": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -34620,7 +34620,7 @@
         "month": 3
       }
     },
-    {
+    "2019-07-02": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -34815,7 +34815,7 @@
         "month": 3
       }
     },
-    {
+    "2019-07-03": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -35000,7 +35000,7 @@
         "month": 3
       }
     },
-    {
+    "2019-07-04": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -35203,7 +35203,7 @@
         "month": 3
       }
     },
-    {
+    "2019-07-05": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -35383,7 +35383,7 @@
         "month": 3
       }
     },
-    {
+    "2019-07-06": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -35584,7 +35584,7 @@
         "month": 3
       }
     },
-    {
+    "2019-07-07": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -35778,7 +35778,7 @@
         "month": 3
       }
     },
-    {
+    "2019-07-08": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -35971,7 +35971,7 @@
         "month": 3
       }
     },
-    {
+    "2019-07-09": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -36158,7 +36158,7 @@
         "month": 3
       }
     },
-    {
+    "2019-07-10": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -36366,7 +36366,7 @@
         "month": 3
       }
     },
-    {
+    "2019-07-11": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -36546,7 +36546,7 @@
         "month": 3
       }
     },
-    {
+    "2019-07-12": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -36749,7 +36749,7 @@
         "month": 3
       }
     },
-    {
+    "2019-07-13": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -36948,7 +36948,7 @@
         "month": 3
       }
     },
-    {
+    "2019-07-14": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -37113,7 +37113,7 @@
         "month": 3
       }
     },
-    {
+    "2019-07-15": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -37325,7 +37325,7 @@
         "month": 3
       }
     },
-    {
+    "2019-07-16": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -37559,7 +37559,7 @@
         "month_transition": 2458681.4441
       }
     },
-    {
+    "2019-07-17": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -37759,7 +37759,7 @@
         "month": 4
       }
     },
-    {
+    "2019-07-18": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -37935,7 +37935,7 @@
         "month": 4
       }
     },
-    {
+    "2019-07-19": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -38117,7 +38117,7 @@
         "month": 4
       }
     },
-    {
+    "2019-07-20": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -38282,7 +38282,7 @@
         "month": 4
       }
     },
-    {
+    "2019-07-21": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -38447,7 +38447,7 @@
         "month": 4
       }
     },
-    {
+    "2019-07-22": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -38612,7 +38612,7 @@
         "month": 4
       }
     },
-    {
+    "2019-07-23": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -38785,7 +38785,7 @@
         "month": 4
       }
     },
-    {
+    "2019-07-24": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -38956,7 +38956,7 @@
         "month": 4
       }
     },
-    {
+    "2019-07-25": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -39121,7 +39121,7 @@
         "month": 4
       }
     },
-    {
+    "2019-07-26": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -39331,7 +39331,7 @@
         "month": 4
       }
     },
-    {
+    "2019-07-27": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -39526,7 +39526,7 @@
         "month": 4
       }
     },
-    {
+    "2019-07-28": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -39741,7 +39741,7 @@
         "month": 4
       }
     },
-    {
+    "2019-07-29": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -39944,7 +39944,7 @@
         "month": 4
       }
     },
-    {
+    "2019-07-30": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -40118,7 +40118,7 @@
         "month": 4
       }
     },
-    {
+    "2019-07-31": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -40326,7 +40326,7 @@
         "month": 4
       }
     },
-    {
+    "2019-08-01": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -40509,7 +40509,7 @@
         "month": 4
       }
     },
-    {
+    "2019-08-02": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -40707,7 +40707,7 @@
         "month": 4
       }
     },
-    {
+    "2019-08-03": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -40923,7 +40923,7 @@
         "month": 4
       }
     },
-    {
+    "2019-08-04": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -41111,7 +41111,7 @@
         "month": 4
       }
     },
-    {
+    "2019-08-05": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -41306,7 +41306,7 @@
         "month": 4
       }
     },
-    {
+    "2019-08-06": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -41528,7 +41528,7 @@
         "month": 4
       }
     },
-    {
+    "2019-08-07": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -41710,7 +41710,7 @@
         "month": 4
       }
     },
-    {
+    "2019-08-08": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -41883,7 +41883,7 @@
         "month": 4
       }
     },
-    {
+    "2019-08-09": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -42088,7 +42088,7 @@
         "month": 4
       }
     },
-    {
+    "2019-08-10": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -42282,7 +42282,7 @@
         "month": 4
       }
     },
-    {
+    "2019-08-11": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -42478,7 +42478,7 @@
         "month": 4
       }
     },
-    {
+    "2019-08-12": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -42662,7 +42662,7 @@
         "month": 4
       }
     },
-    {
+    "2019-08-13": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -42827,7 +42827,7 @@
         "month": 4
       }
     },
-    {
+    "2019-08-14": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -43119,7 +43119,7 @@
         "month": 4
       }
     },
-    {
+    "2019-08-15": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -43295,7 +43295,7 @@
         "month": 4
       }
     },
-    {
+    "2019-08-16": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -43479,7 +43479,7 @@
         "month": 4
       }
     },
-    {
+    "2019-08-17": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -43673,7 +43673,7 @@
         "month": 5
       }
     },
-    {
+    "2019-08-18": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -43876,7 +43876,7 @@
         "month": 5
       }
     },
-    {
+    "2019-08-19": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -44041,7 +44041,7 @@
         "month": 5
       }
     },
-    {
+    "2019-08-20": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -44222,7 +44222,7 @@
         "month": 5
       }
     },
-    {
+    "2019-08-21": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -44391,7 +44391,7 @@
         "month": 5
       }
     },
-    {
+    "2019-08-22": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -44590,7 +44590,7 @@
         "month": 5
       }
     },
-    {
+    "2019-08-23": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -44798,7 +44798,7 @@
         "month": 5
       }
     },
-    {
+    "2019-08-24": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -45007,7 +45007,7 @@
         "month": 5
       }
     },
-    {
+    "2019-08-25": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -45195,7 +45195,7 @@
         "month": 5
       }
     },
-    {
+    "2019-08-26": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -45385,7 +45385,7 @@
         "month": 5
       }
     },
-    {
+    "2019-08-27": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -45594,7 +45594,7 @@
         "month": 5
       }
     },
-    {
+    "2019-08-28": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -45800,7 +45800,7 @@
         "month": 5
       }
     },
-    {
+    "2019-08-29": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -46031,7 +46031,7 @@
         "month": 5
       }
     },
-    {
+    "2019-08-30": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -46211,7 +46211,7 @@
         "month": 5
       }
     },
-    {
+    "2019-08-31": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -46405,7 +46405,7 @@
         "month": 5
       }
     },
-    {
+    "2019-09-01": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -46633,7 +46633,7 @@
         "month": 5
       }
     },
-    {
+    "2019-09-02": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -46820,7 +46820,7 @@
         "month": 5
       }
     },
-    {
+    "2019-09-03": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -47000,7 +47000,7 @@
         "month": 5
       }
     },
-    {
+    "2019-09-04": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -47218,7 +47218,7 @@
         "month": 5
       }
     },
-    {
+    "2019-09-05": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -47412,7 +47412,7 @@
         "month": 5
       }
     },
-    {
+    "2019-09-06": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -47592,7 +47592,7 @@
         "month": 5
       }
     },
-    {
+    "2019-09-07": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -47814,7 +47814,7 @@
         "month": 5
       }
     },
-    {
+    "2019-09-08": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -48005,7 +48005,7 @@
         "month": 5
       }
     },
-    {
+    "2019-09-09": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -48201,7 +48201,7 @@
         "month": 5
       }
     },
-    {
+    "2019-09-10": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -48444,7 +48444,7 @@
         "month": 5
       }
     },
-    {
+    "2019-09-11": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -48631,7 +48631,7 @@
         "month": 5
       }
     },
-    {
+    "2019-09-12": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -48807,7 +48807,7 @@
         "month": 5
       }
     },
-    {
+    "2019-09-13": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -49051,7 +49051,7 @@
         "month": 5
       }
     },
-    {
+    "2019-09-14": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -49224,7 +49224,7 @@
         "month": 5
       }
     },
-    {
+    "2019-09-15": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -49408,7 +49408,7 @@
         "month": 5
       }
     },
-    {
+    "2019-09-16": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -49588,7 +49588,7 @@
         "month": 5
       }
     },
-    {
+    "2019-09-17": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -49808,7 +49808,7 @@
         "month": 6
       }
     },
-    {
+    "2019-09-18": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -49995,7 +49995,7 @@
         "month": 6
       }
     },
-    {
+    "2019-09-19": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -50197,7 +50197,7 @@
         "month": 6
       }
     },
-    {
+    "2019-09-20": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -50377,7 +50377,7 @@
         "month": 6
       }
     },
-    {
+    "2019-09-21": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -50560,7 +50560,7 @@
         "month": 6
       }
     },
-    {
+    "2019-09-22": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -50769,7 +50769,7 @@
         "month": 6
       }
     },
-    {
+    "2019-09-23": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -50934,7 +50934,7 @@
         "month": 6
       }
     },
-    {
+    "2019-09-24": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -51107,7 +51107,7 @@
         "month": 6
       }
     },
-    {
+    "2019-09-25": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -51289,7 +51289,7 @@
         "month": 6
       }
     },
-    {
+    "2019-09-26": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -51513,7 +51513,7 @@
         "month": 6
       }
     },
-    {
+    "2019-09-27": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -51715,7 +51715,7 @@
         "month": 6
       }
     },
-    {
+    "2019-09-28": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -51913,7 +51913,7 @@
         "month": 6
       }
     },
-    {
+    "2019-09-29": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -52127,7 +52127,7 @@
         "month": 6
       }
     },
-    {
+    "2019-09-30": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -52300,7 +52300,7 @@
         "month": 6
       }
     },
-    {
+    "2019-10-01": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -52480,7 +52480,7 @@
         "month": 6
       }
     },
-    {
+    "2019-10-02": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -52677,7 +52677,7 @@
         "month": 6
       }
     },
-    {
+    "2019-10-03": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -52858,7 +52858,7 @@
         "month": 6
       }
     },
-    {
+    "2019-10-04": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -53052,7 +53052,7 @@
         "month": 6
       }
     },
-    {
+    "2019-10-05": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -53249,7 +53249,7 @@
         "month": 6
       }
     },
-    {
+    "2019-10-06": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -53457,7 +53457,7 @@
         "month": 6
       }
     },
-    {
+    "2019-10-07": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -53723,7 +53723,7 @@
         "month": 6
       }
     },
-    {
+    "2019-10-08": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -53896,7 +53896,7 @@
         "month": 6
       }
     },
-    {
+    "2019-10-09": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -54088,7 +54088,7 @@
         "month": 6
       }
     },
-    {
+    "2019-10-10": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -54282,7 +54282,7 @@
         "month": 6
       }
     },
-    {
+    "2019-10-11": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -54455,7 +54455,7 @@
         "month": 6
       }
     },
-    {
+    "2019-10-12": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -54663,7 +54663,7 @@
         "month": 6
       }
     },
-    {
+    "2019-10-13": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -54903,7 +54903,7 @@
         "month": 6
       }
     },
-    {
+    "2019-10-14": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -55098,7 +55098,7 @@
         "month": 6
       }
     },
-    {
+    "2019-10-15": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -55271,7 +55271,7 @@
         "month": 6
       }
     },
-    {
+    "2019-10-16": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -55489,7 +55489,7 @@
         "month": 6
       }
     },
-    {
+    "2019-10-17": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -55677,7 +55677,7 @@
         "month_transition": 2458774.2926
       }
     },
-    {
+    "2019-10-18": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -55857,7 +55857,7 @@
         "month": 7
       }
     },
-    {
+    "2019-10-19": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -56030,7 +56030,7 @@
         "month": 7
       }
     },
-    {
+    "2019-10-20": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -56203,7 +56203,7 @@
         "month": 7
       }
     },
-    {
+    "2019-10-21": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -56404,7 +56404,7 @@
         "month": 7
       }
     },
-    {
+    "2019-10-22": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -56578,7 +56578,7 @@
         "month": 7
       }
     },
-    {
+    "2019-10-23": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -56751,7 +56751,7 @@
         "month": 7
       }
     },
-    {
+    "2019-10-24": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -57000,7 +57000,7 @@
         "month": 7
       }
     },
-    {
+    "2019-10-25": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -57234,7 +57234,7 @@
         "month": 7
       }
     },
-    {
+    "2019-10-26": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -57428,7 +57428,7 @@
         "month": 7
       }
     },
-    {
+    "2019-10-27": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -57654,7 +57654,7 @@
         "month": 7
       }
     },
-    {
+    "2019-10-28": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -57843,7 +57843,7 @@
         "month": 7
       }
     },
-    {
+    "2019-10-29": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -58024,7 +58024,7 @@
         "month": 7
       }
     },
-    {
+    "2019-10-30": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -58200,7 +58200,7 @@
         "month": 7
       }
     },
-    {
+    "2019-10-31": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -58387,7 +58387,7 @@
         "month": 7
       }
     },
-    {
+    "2019-11-01": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -58567,7 +58567,7 @@
         "month": 7
       }
     },
-    {
+    "2019-11-02": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -58740,7 +58740,7 @@
         "month": 7
       }
     },
-    {
+    "2019-11-03": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -58914,7 +58914,7 @@
         "month": 7
       }
     },
-    {
+    "2019-11-04": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -59149,7 +59149,7 @@
         "month": 7
       }
     },
-    {
+    "2019-11-05": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -59360,7 +59360,7 @@
         "month": 7
       }
     },
-    {
+    "2019-11-06": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -59540,7 +59540,7 @@
         "month": 7
       }
     },
-    {
+    "2019-11-07": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -59727,7 +59727,7 @@
         "month": 7
       }
     },
-    {
+    "2019-11-08": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -59951,7 +59951,7 @@
         "month": 7
       }
     },
-    {
+    "2019-11-09": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -60135,7 +60135,7 @@
         "month": 7
       }
     },
-    {
+    "2019-11-10": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -60315,7 +60315,7 @@
         "month": 7
       }
     },
-    {
+    "2019-11-11": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -60598,7 +60598,7 @@
         "month": 7
       }
     },
-    {
+    "2019-11-12": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -60804,7 +60804,7 @@
         "month": 7
       }
     },
-    {
+    "2019-11-13": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -60969,7 +60969,7 @@
         "month": 7
       }
     },
-    {
+    "2019-11-14": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -61149,7 +61149,7 @@
         "month": 7
       }
     },
-    {
+    "2019-11-15": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -61339,7 +61339,7 @@
         "month": 7
       }
     },
-    {
+    "2019-11-16": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -61534,7 +61534,7 @@
         "month_transition": 2458804.2856
       }
     },
-    {
+    "2019-11-17": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -61729,7 +61729,7 @@
         "month": 8
       }
     },
-    {
+    "2019-11-18": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -61906,7 +61906,7 @@
         "month": 8
       }
     },
-    {
+    "2019-11-19": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -62115,7 +62115,7 @@
         "month": 8
       }
     },
-    {
+    "2019-11-20": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -62280,7 +62280,7 @@
         "month": 8
       }
     },
-    {
+    "2019-11-21": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -62464,7 +62464,7 @@
         "month": 8
       }
     },
-    {
+    "2019-11-22": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -62653,7 +62653,7 @@
         "month": 8
       }
     },
-    {
+    "2019-11-23": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -62831,7 +62831,7 @@
         "month": 8
       }
     },
-    {
+    "2019-11-24": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -63027,7 +63027,7 @@
         "month": 8
       }
     },
-    {
+    "2019-11-25": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -63225,7 +63225,7 @@
         "month": 8
       }
     },
-    {
+    "2019-11-26": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -63427,7 +63427,7 @@
         "month": 8
       }
     },
-    {
+    "2019-11-27": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -63605,7 +63605,7 @@
         "month": 8
       }
     },
-    {
+    "2019-11-28": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -63778,7 +63778,7 @@
         "month": 8
       }
     },
-    {
+    "2019-11-29": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -63958,7 +63958,7 @@
         "month": 8
       }
     },
-    {
+    "2019-11-30": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -64123,7 +64123,7 @@
         "month": 8
       }
     },
-    {
+    "2019-12-01": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -64337,7 +64337,7 @@
         "month": 8
       }
     },
-    {
+    "2019-12-02": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -64524,7 +64524,7 @@
         "month": 8
       }
     },
-    {
+    "2019-12-03": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -64689,7 +64689,7 @@
         "month": 8
       }
     },
-    {
+    "2019-12-04": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -64871,7 +64871,7 @@
         "month": 8
       }
     },
-    {
+    "2019-12-05": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -65044,7 +65044,7 @@
         "month": 8
       }
     },
-    {
+    "2019-12-06": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -65219,7 +65219,7 @@
         "month": 8
       }
     },
-    {
+    "2019-12-07": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -65409,7 +65409,7 @@
         "month": 8
       }
     },
-    {
+    "2019-12-08": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -65602,7 +65602,7 @@
         "month": 8
       }
     },
-    {
+    "2019-12-09": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -65819,7 +65819,7 @@
         "month": 8
       }
     },
-    {
+    "2019-12-10": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -66006,7 +66006,7 @@
         "month": 8
       }
     },
-    {
+    "2019-12-11": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -66250,7 +66250,7 @@
         "month": 8
       }
     },
-    {
+    "2019-12-12": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -66423,7 +66423,7 @@
         "month": 8
       }
     },
-    {
+    "2019-12-13": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -66600,7 +66600,7 @@
         "month": 8
       }
     },
-    {
+    "2019-12-14": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -66771,7 +66771,7 @@
         "month": 8
       }
     },
-    {
+    "2019-12-15": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -66960,7 +66960,7 @@
         "month_transition": 2458833.8966
       }
     },
-    {
+    "2019-12-16": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -67134,7 +67134,7 @@
         "month": 9
       }
     },
-    {
+    "2019-12-17": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -67307,7 +67307,7 @@
         "month": 9
       }
     },
-    {
+    "2019-12-18": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -67501,7 +67501,7 @@
         "month": 9
       }
     },
-    {
+    "2019-12-19": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -67689,7 +67689,7 @@
         "month": 9
       }
     },
-    {
+    "2019-12-20": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -67862,7 +67862,7 @@
         "month": 9
       }
     },
-    {
+    "2019-12-21": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -68043,7 +68043,7 @@
         "month": 9
       }
     },
-    {
+    "2019-12-22": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -68225,7 +68225,7 @@
         "month": 9
       }
     },
-    {
+    "2019-12-23": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -68421,7 +68421,7 @@
         "month": 9
       }
     },
-    {
+    "2019-12-24": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -68603,7 +68603,7 @@
         "month": 9
       }
     },
-    {
+    "2019-12-25": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -68799,7 +68799,7 @@
         "month": 9
       }
     },
-    {
+    "2019-12-26": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -68973,7 +68973,7 @@
         "month": 9
       }
     },
-    {
+    "2019-12-27": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -69149,7 +69149,7 @@
         "month": 9
       }
     },
-    {
+    "2019-12-28": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -69335,7 +69335,7 @@
         "month": 9
       }
     },
-    {
+    "2019-12-29": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -69500,7 +69500,7 @@
         "month": 9
       }
     },
-    {
+    "2019-12-30": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -69665,7 +69665,7 @@
         "month": 9
       }
     },
-    {
+    "2019-12-31": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -69846,7 +69846,7 @@
         "month": 9
       }
     },
-    {
+    "2020-01-01": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -70007,7 +70007,7 @@
         "month": 9
       }
     },
-    {
+    "2020-01-02": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -70171,7 +70171,7 @@
         "month": 9
       }
     },
-    {
+    "2020-01-03": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -70335,7 +70335,7 @@
         "month": 9
       }
     },
-    {
+    "2020-01-04": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -70499,7 +70499,7 @@
         "month": 9
       }
     },
-    {
+    "2020-01-05": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -70663,7 +70663,7 @@
         "month": 9
       }
     },
-    {
+    "2020-01-06": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -70827,7 +70827,7 @@
         "month": 9
       }
     },
-    {
+    "2020-01-07": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -70991,7 +70991,7 @@
         "month": 9
       }
     },
-    {
+    "2020-01-08": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -71155,7 +71155,7 @@
         "month": 9
       }
     },
-    {
+    "2020-01-09": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -71319,7 +71319,7 @@
         "month": 9
       }
     },
-    {
+    "2020-01-10": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -71483,7 +71483,7 @@
         "month": 9
       }
     },
-    {
+    "2020-01-11": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -71655,7 +71655,7 @@
         "month": 9
       }
     },
-    {
+    "2020-01-12": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -71819,7 +71819,7 @@
         "month": 9
       }
     },
-    {
+    "2020-01-13": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -71983,7 +71983,7 @@
         "month": 9
       }
     },
-    {
+    "2020-01-14": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -72148,7 +72148,7 @@
         "month_transition": 2458863.3441
       }
     },
-    {
+    "2020-01-15": {
       "angas": {
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
@@ -72316,7 +72316,7 @@
         "month": 10
       }
     }
-  ],
+  },
   "default_to_none": true,
   "duration": 365,
   "duration_to_calculate": 381,
@@ -78588,7 +78588,7 @@
     "second": 0,
     "year": 2019
   },
-  "version": "0.0.3",
+  "version": "0.0.4",
   "weekday_start": 2,
   "year": 2019
 }

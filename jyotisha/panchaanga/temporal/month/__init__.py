@@ -33,8 +33,9 @@ class SiderialSolarBasedAssigner(LunarMonthAssigner):
     :return: 
     """
     # tithi_sunrise[1] gives a rough indication of the number of days since last new moon. We now find a more precise interval below.
+    daily_panchaangas = self.panchaanga.daily_panchaangas_sorted()
     last_new_moon = AngaSpan.find(
-      self.panchaanga.jd_start - self.panchaanga.daily_panchaangas[1].angas.tithi_at_sunrise - 3, self.panchaanga.jd_start - self.panchaanga.daily_panchaangas[1].angas.tithi_at_sunrise + 3,
+      self.panchaanga.jd_start - daily_panchaangas[1].angas.tithi_at_sunrise - 3, self.panchaanga.jd_start - daily_panchaangas[1].angas.tithi_at_sunrise + 3,
       zodiac.AngaType.TITHI, 30, ayanaamsha_id=self.ayanaamsha_id)
     this_new_moon = AngaSpan.find(
       last_new_moon.jd_start + 24, last_new_moon.jd_start + 32,
@@ -57,14 +58,14 @@ class SiderialSolarBasedAssigner(LunarMonthAssigner):
         last_solar_month = NakshatraDivision(this_new_moon.jd_end,
                                              ayanaamsha_id=self.ayanaamsha_id).get_solar_raashi()
 
-        if i > self.panchaanga.duration + 1 or self.panchaanga.daily_panchaangas[i].jd_sunrise > this_new_moon.jd_end:
+        if i > self.panchaanga.duration + 1 or daily_panchaangas[i].jd_sunrise > this_new_moon.jd_end:
           last_d_assigned = i - 1
           break # out of unassigned days loop.
 
         if is_adhika:
-          self.panchaanga.daily_panchaangas[i].lunar_month = (last_solar_month % 12) + .5
+          daily_panchaangas[i].lunar_month = (last_solar_month % 12) + .5
         else:
-          self.panchaanga.daily_panchaangas[i].lunar_month = last_solar_month
+          daily_panchaangas[i].lunar_month = last_solar_month
 
       is_adhika = NakshatraDivision(this_new_moon.jd_end, ayanaamsha_id=self.ayanaamsha_id).get_solar_raashi() == \
                   NakshatraDivision(next_new_moon.jd_end, ayanaamsha_id=self.ayanaamsha_id).get_solar_raashi()

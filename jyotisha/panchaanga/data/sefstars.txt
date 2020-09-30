@@ -11,7 +11,7 @@ Spica      ,alVir,ICRS,13,25,11.57937,-11,09,40.7501,-42.35,-30.67,1,13.06,0.97,
 Trappist-1 ,Trappist-1,ICRS,23,06,29.36,-05,02,29.2,922.1,-471.9,-54,82.58,18.798,0,0
 # Gal. Center (SgrA*) according to Simbad database,
 # speed of SgrA* according to Reid (2004), "The Proper Motion of Sagittarius
-# A*", p. 873: -3.151 +- 0.018 mas/yr, -5.547 +- 0.026 mas/yr. Component in 
+# A*", panchaanga. 873: -3.151 +- 0.018 mas/yr, -5.547 +- 0.026 mas/yr. Component in 
 # RA must be multiplied with cos(decl).
 Galactic Center,SgrA*,ICRS,17,45,40.03599,-29,00,28.1699,-2.755718425, -5.547,  0.0,0.125,999.99,  0,    0
 Gal. Center,SgrA*,ICRS,17,45,40.03599,-29,00,28.1699,-2.755718425, -5.547,  0.0,0.125,999.99,  0,    0
@@ -1544,14 +1544,14 @@ Anser        ,alVul,ICRS,19,28,42.32996,+24,39,53.6525,-126.13,-107.44,-85.53,10
              ,12Vul,ICRS,19,51,04.10821,+22,36,36.1732,23.02,-15.88,-24.9,5.18,4.96,0,0
 # Galactic Center according to: 
 # Liu/Zhu/Zhang, „Reconsidering the galactic coordinate system“, 
-# Astronomy & Astrophysics No. AA2010, Oct. 2010, p. 8
+# Astronomy & Astrophysics No. AA2010, Oct. 2010, panchaanga. 8
 GCLiu,GCLiu,ICRS,17,45,40.0400,-29,00,28.138,-2.755718425, -5.547,  0.0,0.125,999.99,  0,    0
 #
 # Galactic Pole acc. to Liu/Zhu/Zhang, op.cit.
 # It is defined relative to a plane that contains the galactic center and the Sun 
 # and approximates the galactic plane.
 Gal.Pole,GPol,ICRS,12,51,36.7151981,27,06,11.193172,0.0,0.0,0.0,0.0,0.0,0,0
-# Old Galactic Pole IAU 1958 relative to ICRS according to the same publication p. 7
+# Old Galactic Pole IAU 1958 relative to ICRS according to the same publication panchaanga. 7
 Gal.Pole IAU1958,GP1958,ICRS,12,51,26.27469,27,07,41.7087,0.0,0.0,0.0,0.0,0.0,0,0
 # Original definition of old Galactic Pole
 #Gal.Pole IAU1958,GP1958,1950,12,49,0.0,27,24,0.0,0.0,0.0,0.0,0.0,0.0,0,0

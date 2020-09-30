@@ -24,8 +24,9 @@ logging.basicConfig(
 CODE_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
 
 
-def compute_events(p, json_file):
-  p.festival_id_to_instance = {}  # Resetting it
+def compute_events(panchaanga, json_file):
+  panchaanga.festival_id_to_instance = {}  # Resetting it
+  daily_panchaangas = panchaanga.daily_panchaangas_sorted()
   for d in range(1, MAX_SZ):
 
     debugEvents = False
@@ -63,19 +64,20 @@ def compute_events(p, json_file):
       else:
         event_start_year = None
 
+      daily_panchaanga = daily_panchaangas[d]
       if angam_type == 'tithi' and month_type == 'lunar_month' and \
           angam_num == 1:
         # Shukla prathama tithis need to be dealt carefully, if e.g. the prathama tithi
         # does not touch sunrise on either day (the regular check won't work, because
         # the month itself is different the previous day!)
-        if p.daily_panchaangas[d].angas.tithi_at_sunrise == 30 and p.daily_panchaangas[d + 1].angas.tithi_at_sunrise == 2 and \
-            p.daily_panchaangas[d + 1].lunar_month == month_num:
+        if daily_panchaanga.angas.tithi_at_sunrise == 30 and daily_panchaangas[d + 1].angas.tithi_at_sunrise == 2 and \
+            daily_panchaangas[d + 1].lunar_month == month_num:
           # Only in this case, we have a problem
 
           event_num = None
           if event_start_year is not None:
             if month_type == 'lunar_month':
-              event_num = p.year + 3100 + (d >= p.lunar_month.index(1)) - event_start_year + 1
+              event_num = panchaanga.year + 3100 + (d >= panchaanga.lunar_month.index(1)) - event_start_year + 1
 
           if event_num is not None and event_num < 0:
             logging.debug('Festival %s is only in the future!' % event_name)
@@ -85,22 +87,22 @@ def compute_events(p, json_file):
             event_name += '-#%d' % event_num
 
           logging.debug('Assigned fday = %d' % d)
-          p.add_festival(event_name, d, debugEvents)
+          panchaanga.add_festival(event_name, d, debugEvents)
           continue
 
       if angam_type == 'day' and month_type == 'solar_month' \
-          and p.daily_panchaangas[d].solar_sidereal_date_sunset.month == month_num:
-        if p.daily_panchaangas[d].solar_sidereal_date_sunset.day == angam_num:
-          p.festival_id_to_instance[event_name] = festival.FestivalInstance(name=event_name, days=[d])
-      elif (month_type == 'lunar_month' and p.daily_panchaangas[d].lunar_month == month_num) or \
-          (month_type == 'solar_month' and p.daily_panchaangas[d].solar_sidereal_date_sunset.month == month_num):
+          and daily_panchaanga.solar_sidereal_date_sunset.month == month_num:
+        if daily_panchaanga.solar_sidereal_date_sunset.day == angam_num:
+          panchaanga.festival_id_to_instance[event_name] = festival.FestivalInstance(name=event_name, days=[d])
+      elif (month_type == 'lunar_month' and daily_panchaanga.lunar_month == month_num) or \
+          (month_type == 'solar_month' and daily_panchaanga.solar_sidereal_date_sunset.month == month_num):
         if angam_type == 'tithi':
-          angam_sunrise = p.daily_panchaangas[d].angas.tithi_at_sunrise
+          angam_sunrise = daily_panchaanga.angas.tithi_at_sunrise
           get_angam_func = lambda x: tithi.get_tithi(x)
           angam_num_pred = (angam_num - 2) % 30 + 1
           angam_num_succ = (angam_num % 30) + 1
         elif angam_type == 'nakshatram':
-          angam_sunrise = p.daily_panchaangas[d].angas.nakshatra_at_sunrise
+          angam_sunrise = daily_panchaanga.angas.nakshatra_at_sunrise
           get_angam_func = lambda x: NakshatraDivision(x, ayanaamsha_id=Ayanamsha.CHITRA_AT_180).get_nakshatra()
           angam_num_pred = (angam_num - 2) % 27 + 1
           angam_num_succ = (angam_num % 27) + 1
@@ -112,9 +114,9 @@ def compute_events(p, json_file):
         event_num = None
         if event_start_year is not None and month_type is not None:
           if month_type == 'solar_month':
-            event_num = p.year + 3100 + (d >= p.daily_panchaangas.index(1).solar_month) - event_start_year + 1
+            event_num = panchaanga.year + 3100 + (d >= daily_panchaangas.index(1).solar_month) - event_start_year + 1
           elif month_type == 'lunar_month':
-            event_num = p.year + 3100 + (d >= p.lunar_month.index(1)) - event_start_year + 1
+            event_num = panchaanga.year + 3100 + (d >= panchaanga.lunar_month.index(1)) - event_start_year + 1
 
         if event_num is not None and event_num < 0:
           logging.debug('Festival %s is only in the future!' % event_name)
@@ -124,7 +126,7 @@ def compute_events(p, json_file):
           event_name += '-#%d' % event_num
 
         if angam_sunrise[d] == angam_num_pred or angam_sunrise[d] == angam_num:
-          angams = p.get_angas_for_interval_boundaries(d, get_angam_func, kaala)
+          angams = panchaanga.get_angas_for_interval_boundaries(d, get_angam_func, kaala)
           if angams is None:
             sys.stderr.write('No angams returned! Skipping festival %s'
                              % event_name)
@@ -155,17 +157,17 @@ def compute_events(p, json_file):
               sys.stderr.write('Assigned paraviddha day for %s!' %
                                event_name + ' Ignore future warnings!\n')
           elif priority == 'puurvaviddha':
-            angams_yest = p.get_angas_for_interval_boundaries(d - 1, get_angam_func, kaala)
+            angams_yest = panchaanga.get_angas_for_interval_boundaries(d - 1, get_angam_func, kaala)
             if debugEvents:
               logging.debug("Angams yest & today: %s" % angams_yest)
             if angams[0] == angam_num or angams[1] == angam_num:
-              if event_name in p.festival_id_to_instance:
+              if event_name in panchaanga.festival_id_to_instance:
                 # Check if yesterday was assigned already
                 # to this puurvaviddha festival!
                 if angam_num == 1:
                   # Need to check if tomorrow is still the same month, unlikely!
-                  if p.daily_panchaangas[d + 1].lunar_month == month_num:
-                    if p.festival_id_to_instance[event_name].days.count(d - 1) == 0:
+                  if daily_panchaangas[d + 1].lunar_month == month_num:
+                    if panchaanga.festival_id_to_instance[event_name].days.count(d - 1) == 0:
                       fday = d
                       if debugEvents:
                         logging.debug('Assigned fday = %d' % d)
@@ -173,7 +175,7 @@ def compute_events(p, json_file):
                     continue
 
                 else:
-                  if p.festival_id_to_instance[event_name].days.count(d - 1) == 0:
+                  if panchaanga.festival_id_to_instance[event_name].days.count(d - 1) == 0:
                     fday = d
                     if debugEvents:
                       logging.debug('Assigned fday = %d' % d)
@@ -181,8 +183,8 @@ def compute_events(p, json_file):
                 fday = d
                 logging.debug('Assigned fday = %d' % d)
             elif angams[2] == angam_num or angams[3] == angam_num:
-              if (month_type == 'lunar_month' and p.daily_panchaangas[d + 1].lunar_month == month_num) or \
-                  (month_type == 'solar_month' and p.daily_panchaangas[d + 1].solar_sidereal_date_sunset.month == month_num):
+              if (month_type == 'lunar_month' and daily_panchaangas[d + 1].lunar_month == month_num) or \
+                  (month_type == 'solar_month' and daily_panchaangas[d + 1].solar_sidereal_date_sunset.month == month_num):
                 fday = d + 1
                 logging.debug('Assigned fday = %d' % (d + 1))
             else:
@@ -197,8 +199,8 @@ def compute_events(p, json_file):
                 # THIS BEING PURVAVIDDHA
                 # Perhaps just need better checking of
                 # conditions instead of this fix
-                if event_name in p.festival_id_to_instance:
-                  if p.festival_id_to_instance[event_name].days.count(d - 1) == 0:
+                if event_name in panchaanga.festival_id_to_instance:
+                  if panchaanga.festival_id_to_instance[event_name].days.count(d - 1) == 0:
                     fday = d
                     logging.debug('Assigned fday = %d' % d)
                 else:
@@ -207,25 +209,27 @@ def compute_events(p, json_file):
           else:
             sys.stderr.write('Unknown priority "%s" for %s! Check the rules!' %
                              (priority, event_name))
-        # logging.debug (P.festival_id_to_instance.days)
+        # logging.debug (panchaanga.festival_id_to_instance.days)
         if fday is not None:
-          p.add_festival(event_name, fday, debugEvents)
+          panchaanga.add_festival(event_name, fday, debugEvents)
 
-  for festival_name in p.festival_id_to_instance:
-    for j in range(0, len(p.festival_id_to_instance[festival_name])):
-      p.daily_panchaangas[p.festival_id_to_instance[festival_name].days[j]].festivals.append(FestivalInstance(name=festival_name))
+  for festival_name in panchaanga.festival_id_to_instance:
+    for j in range(0, len(panchaanga.festival_id_to_instance[festival_name])):
+      daily_panchaangas[panchaanga.festival_id_to_instance[festival_name].days[j]].festivals.append(FestivalInstance(name=festival_name))
 
 
-def computeIcsCalendar(P, ics_file_name):
-  P.ics_calendar = Calendar()
+def computeIcsCalendar(panchaanga, ics_file_name):
+  panchaanga.ics_calendar = Calendar()
+  daily_panchaangas = panchaanga.daily_panchaangas_sorted()
   for d in range(1, MAX_SZ - 1):
-    [y, m, dt, t] = time.jd_to_utc_gregorian(P.jd_start + d - 1).to_date_fractional_hour_tuple()
+    daily_panchaanga = daily_panchaangas[d]
+    [y, m, dt, t] = time.jd_to_utc_gregorian(panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
 
-    if len(P.daily_panchaangas[d].festivals) > 0:
+    if len(daily_panchaanga.festivals) > 0:
       # Eliminate repeat festivals on the same day, and keep the list arbitrarily sorted
-      P.daily_panchaangas[d].festivals = sorted(list(set(P.daily_panchaangas[d].festivals)))
+      daily_panchaanga.festivals = sorted(list(set(daily_panchaanga.festivals)))
 
-      summary_text = P.daily_panchaangas[d].festivals
+      summary_text = daily_panchaanga.festivals
       # this will work whether we have one or more events on the same day
       for stext in summary_text:
         if not stext.find('>>') == -1:
@@ -235,9 +239,9 @@ def computeIcsCalendar(P, ics_file_name):
           event.add('summary', stext.split('|')[-1].replace('-', ' ').strip())
           h1, m1 = t1.split(':')
           h2, m2 = t2.split(':')
-          event.add('dtstart', datetime(y, m, dt, int(h1), int(m1), tzinfo=tz(P.city.timezone)))
-          event.add('dtend', datetime(y, m, dt, int(h2), int(m2), tzinfo=tz(P.city.timezone)))
-          P.ics_calendar.add_component(event)
+          event.add('dtstart', datetime(y, m, dt, int(h1), int(m1), tzinfo=tz(panchaanga.city.timezone)))
+          event.add('dtend', datetime(y, m, dt, int(h2), int(m2), tzinfo=tz(panchaanga.city.timezone)))
+          panchaanga.ics_calendar.add_component(event)
         else:
           event = Event()
           # summary = re.sub('{(.*)}','\\1', )  # strip braces around numbers
@@ -252,13 +256,13 @@ def computeIcsCalendar(P, ics_file_name):
           event['TRANSP'] = 'TRANSPARENT'
           event['X-MICROSOFT-CDO-BUSYSTATUS'] = 'FREE'
 
-          P.ics_calendar.add_component(event)
+          panchaanga.ics_calendar.add_component(event)
 
     if m == 12 and dt == 31:
       break
 
   with open(ics_file_name, 'wb') as ics_calendar_file:
-    ics_calendar_file.write(P.ics_calendar.to_ical())
+    ics_calendar_file.write(panchaanga.ics_calendar.to_ical())
 
 
 def main():

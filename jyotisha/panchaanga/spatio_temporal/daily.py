@@ -98,6 +98,9 @@ class DailyPanchanga(common.JsonObject):
     self.compute_solar_day_sunset(previous_day_panchaanga=previous_day_panchaanga)
     self.get_day_length_based_periods()
 
+  def __lt__(self, other):
+    return self.date.get_date_str() < self.date.get_date_str()
+
   def compute_sun_moon_transitions(self, previous_day_panchaanga=None, force_recomputation=False):
     """
 

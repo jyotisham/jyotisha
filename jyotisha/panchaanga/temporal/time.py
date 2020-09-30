@@ -2,12 +2,13 @@ import datetime as dt_module
 import logging
 import sys
 import traceback
-from datetime import datetime
+import datetime
 from math import modf
 
 import pytz
 from astropy.time import Time
 
+from jyotisha.util import zero_if_none
 from sanskrit_data.schema import common
 from sanskrit_data.schema.common import JsonObject
 
@@ -124,12 +125,28 @@ class Date(BasicDate):
     self.minute = 0
     self.second = 0
 
+  def to_datetime(self):
+    return datetime.datetime(year=self.year, month=self.month, day=self.day, hour=zero_if_none(self.hour), minute=zero_if_none(self.minute), second=zero_if_none(self.second), microsecond=self.get_microseconds())
+
+  @classmethod
+  def from_datetime(cls, dt):
+    return Date(year=dt.year, month=dt.month, day=dt.day, hour=dt.hour, minute=dt.minute, second=dt.second + dt.microsecond / float(1e6))
+
+  def offset_date(self, **kwargs):
+    dt = self.to_datetime()
+    offset_dt = dt + datetime.timedelta(**kwargs)
+    offset_date = Date.from_datetime(dt=offset_dt)
+    return offset_date
+
   def as_tuple(self):
     return (self.year, self.month, self.day, self.hour, self.minute, self.second)
 
   def get_fractional_hour(self):
     return self.hour + self.minute/ 60.0 + self.second  / 3600.0
-  
+
+  def get_microseconds(self):  
+    return int(self.second * 1e6 % 1e6)
+
   def to_date_fractional_hour_tuple(self):
     fractional_hour = self.get_fractional_hour()
     return [self.year, self.month, self.day, fractional_hour]
@@ -161,6 +178,9 @@ class Date(BasicDate):
       month = ((month - 1) % 12) + 1
     (self.year, self.month, self.day, self.hour, self.minute, self.second) = (year, month, day, hour, minute, second)
     return self.as_tuple()
+
+  def get_date_str(self):
+    return "%04d-%02d-%02d" % (self.year, self.month, self.day)
 
 
 def jd_to_utc_gregorian(jd):
@@ -198,8 +218,8 @@ class Timezone:
     compute offset from UTC in hours
     """
     local_datetime = self.julian_day_to_local_datetime(jd=jd)
-    return (datetime.utcoffset(local_datetime).days * 86400 +
-            datetime.utcoffset(local_datetime).seconds) / 3600.0
+    return (datetime.datetime.utcoffset(local_datetime).days * 86400 +
+            datetime.datetime.utcoffset(local_datetime).seconds) / 3600.0
 
   def julian_day_to_local_time(self, julian_day: float, round_seconds: bool = False) -> Date:
     local_datetime = self.julian_day_to_local_datetime(jd=julian_day)
@@ -219,7 +239,7 @@ class Timezone:
   def local_time_to_julian_day(self, date):
     microseconds, _ = modf(date.second * 1000000)
     local_datetime = pytz.timezone(self.timezone_id).localize(
-      datetime(date.year, date.month, date.day, date.hour, date.minute, int(date.second), int(microseconds)))
+      datetime.datetime(date.year, date.month, date.day, date.hour, date.minute, int(date.second), int(microseconds)))
     tm = Time(local_datetime, format="datetime")
     tm.format = "jd"
     return tm.value
