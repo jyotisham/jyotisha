@@ -56,39 +56,44 @@ class Graha(JsonObject):
       body_id = swe.SATURN
     return body_id
 
-  def get_longitude(self, jd):
-    return swe.calc_ut(jd, self._get_swisseph_id())[0][0]
-
-  def get_longitude_offset(self, jd, offset, ayanaamsha_id):
-    from jyotisha.panchaanga.temporal.zodiac import Ayanamsha
-    adjusted_longitude = (self.get_longitude(jd=jd) - Ayanamsha.singleton(ayanaamsha_id).get_offset(jd)) % 360
-    # Not doing modulo arithmetic below - we want to allow the offset longitude to be negative, for use with brentq.
-    return adjusted_longitude + offset
+  def get_longitude(self, jd, ayanaamsha_id=None):
+    """
+    
+    :param jd: 
+    :param ayanaamsha_id: 
+    Default value of ayanaamsha_id here is deliberately None.
+    :return: 
+    """
+    if ayanaamsha_id is not None:
+      from jyotisha.panchaanga.temporal.zodiac import Ayanamsha
+      return (self.get_longitude(jd=jd) - Ayanamsha.singleton(ayanaamsha_id).get_offset(jd)) % 360
+    else:
+      return swe.calc_ut(jd, self._get_swisseph_id())[0][0]
 
   def get_next_raashi_transit(self, jd_start, jd_end, ayanaamsha_id):
     """Returns the next transit of the given planet e.g. jupiter
 
-  Args:
-    float jd_start, jd_end: The Julian Days between which transits must be computed
-    int planet  - e.g. sun, jupiter, ...
-
-  Returns:
-    List of tuples [(float jd_transit, int old_rashi, int new_rashi)]
-
-  
-"""
+      Args:
+        float jd_start, jd_end: The Julian Days between which transits must be computed
+        int planet  - e.g. sun, jupiter, ...
+    
+      Returns:
+        List of tuples [(float jd_transit, int old_rashi, int new_rashi)]
+    
+      
+    """
 
     transits = []
     MIN_JUMP = min(15, jd_end-jd_start)  # Random check for a transit every 15 days!
-    # Could be tweaked based on planet using a dict?
+    # TODO: Could be tweaked based on planet using a dict?
 
     curr_L_bracket = jd_start
     curr_R_bracket = jd_start + MIN_JUMP
 
     while curr_R_bracket <= jd_end:
-      L_rashi = math.floor(self.get_longitude_offset(curr_L_bracket, offset=0,
+      L_rashi = math.floor(self.get_longitude(curr_L_bracket,
                                                      ayanaamsha_id=ayanaamsha_id) / 30) + 1
-      R_rashi = math.floor(self.get_longitude_offset(curr_R_bracket, offset=0,
+      R_rashi = math.floor(self.get_longitude(curr_R_bracket,
                                                      ayanaamsha_id=ayanaamsha_id) / 30) + 1
 
       if L_rashi == R_rashi:
@@ -101,12 +106,12 @@ class Graha(JsonObject):
           # retrograde transit
           target = L_rashi
         try:
-          def get_longitude_offset_partially_applied(jd):
-            return self.get_longitude_offset(jd=jd, offset=(-target + 1) * 30, ayanaamsha_id=ayanaamsha_id)
+          def get_longitude_offset(jd):
+            return self.get_longitude(jd=jd, ayanaamsha_id=ayanaamsha_id) + (-target + 1) * 30
 
           # noinspection PyTypeChecker
           jd_transit = \
-            brentq(get_longitude_offset_partially_applied,
+            brentq(get_longitude_offset,
                    curr_L_bracket, curr_R_bracket)
           from jyotisha.panchaanga.temporal.zodiac import AngaType
           transits += [Transit(body=self.body_name, jd=jd_transit, anga_type=AngaType.RASHI.name, value_1=L_rashi, value_2=R_rashi)]

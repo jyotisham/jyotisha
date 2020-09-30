@@ -74,7 +74,7 @@ class NakshatraDivision(common.JsonObject):
     if self.julday is not None:
       self.set_time(julday=self.julday)
     logging.debug(Ayanamsha.singleton(self.ayanaamsha_id).get_offset(self.julday))
-    return Graha.singleton(body).get_longitude_offset(self.julday, ayanaamsha_id=self.ayanaamsha_id) / (360.0 / 27.0) + 1
+    return Graha.singleton(body).get_longitude(self.julday, ayanaamsha_id=self.ayanaamsha_id) / (360.0 / 27.0) + 1
 
   def get_equatorial_boundary_coordinates(self):
     """Get equatorial coordinates for the points where the ecliptic nakShatra boundary longitude intersects the ecliptic."""
@@ -125,12 +125,12 @@ class NakshatraDivision(common.JsonObject):
 
     #  Get the lunar longitude, starting at the ayanaamsha point in the ecliptic.
     if w_moon != 0:
-      lmoon = Graha.singleton(Graha.MOON).get_longitude_offset(self.julday, offset=0, ayanaamsha_id=ayanaamsha_id)
+      lmoon = Graha.singleton(Graha.MOON).get_longitude(self.julday, ayanaamsha_id=ayanaamsha_id)
       lcalc += w_moon * lmoon
 
     #  Get the solar longitude, starting at the ayanaamsha point in the ecliptic.
     if w_sun != 0:
-      lsun = Graha.singleton(Graha.SUN).get_longitude_offset(self.julday, offset=0, ayanaamsha_id=ayanaamsha_id)
+      lsun = Graha.singleton(Graha.SUN).get_longitude(self.julday, ayanaamsha_id=ayanaamsha_id)
       lcalc += w_sun * lsun
 
     lcalc = lcalc % 360

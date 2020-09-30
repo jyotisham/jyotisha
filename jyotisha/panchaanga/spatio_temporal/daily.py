@@ -288,13 +288,13 @@ class DailyPanchanga(common.JsonObject):
       # The anga does not change until sunrise tomorrow
       return [(anga_now, None)]
     else:
-      lmoon = Graha.singleton(Graha.MOON).get_longitude_offset(self.jd_sunrise, offset=0, ayanaamsha_id=self.ayanaamsha_id)
+      lmoon = Graha.singleton(Graha.MOON).get_longitude(self.jd_sunrise, ayanaamsha_id=self.ayanaamsha_id)
   
-      lsun = Graha.singleton(Graha.SUN).get_longitude_offset(self.jd_sunrise, offset=0, ayanaamsha_id=self.ayanaamsha_id)
+      lsun = Graha.singleton(Graha.SUN).get_longitude(self.jd_sunrise, ayanaamsha_id=self.ayanaamsha_id)
   
-      lmoon_tmrw = Graha.singleton(Graha.MOON).get_longitude_offset(self.jd_next_sunrise, offset=0, ayanaamsha_id=self.ayanaamsha_id)
+      lmoon_tmrw = Graha.singleton(Graha.MOON).get_longitude(self.jd_next_sunrise, ayanaamsha_id=self.ayanaamsha_id)
   
-      lsun_tmrw = Graha.singleton(Graha.SUN).get_longitude_offset(self.jd_next_sunrise, offset=0, ayanaamsha_id=self.ayanaamsha_id)
+      lsun_tmrw = Graha.singleton(Graha.SUN).get_longitude(self.jd_next_sunrise, ayanaamsha_id=self.ayanaamsha_id)
   
       for i in range(num_angas_today):
         anga_remaining = arc_len * (i + 1) - (((lmoon * w_moon +
