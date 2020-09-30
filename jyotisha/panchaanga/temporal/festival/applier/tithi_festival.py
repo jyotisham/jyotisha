@@ -101,7 +101,7 @@ class TithiFestivalAssigner(FestivalAssigner):
           if festival_name in self.panchaanga.festival_id_to_instance:
             # Check if yesterday was assigned already
             # to this puurvaviddha festival!
-            if self.panchaanga.festival_id_to_instance[festival_name].days.count(d - 1) == 0:
+            if self.panchaanga.festival_id_to_instance[festival_name].days.count(self.daily_panchaangas[d - 1].date) == 0:
               self.add_festival(festival_name, d, debug_festivals)
           else:
             self.add_festival(festival_name, d, debug_festivals)
@@ -120,7 +120,7 @@ class TithiFestivalAssigner(FestivalAssigner):
             # Perhaps just need better checking of
             # conditions instead of this fix
             if festival_name in self.panchaanga.festival_id_to_instance:
-              if self.panchaanga.festival_id_to_instance[festival_name].days.count(d - 1) == 0:
+              if self.panchaanga.festival_id_to_instance[festival_name].days.count(self.daily_panchaangas[d - 1].date) == 0:
                 self.add_festival(festival_name, d, debug_festivals)
             else:
               self.add_festival(festival_name, d, debug_festivals)
@@ -355,7 +355,8 @@ class TithiFestivalAssigner(FestivalAssigner):
       logging.error('Must compute amAvAsyA before coming here!')
     else:
       ama_days = self.panchaanga.festival_id_to_instance['amAvAsyA'].days
-      for d in ama_days:
+      for ama_day in ama_days:
+        d = int(ama_day - self.daily_panchaangas[0].date)
         # Get Name
         if self.daily_panchaangas[d].lunar_month == 6:
           pref = '(%s) mahAlaya ' % (

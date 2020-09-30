@@ -51,18 +51,18 @@ class FestivalAssigner(PanchaangaApplier):
     if debug:
       logging.debug('%03d: %s ' % (d, festival_name))
     if festival_name in self.panchaanga.festival_id_to_instance:
-      if d not in self.panchaanga.festival_id_to_instance[festival_name].days:
+      if self.daily_panchaangas[d].date not in self.panchaanga.festival_id_to_instance[festival_name].days:
         # Second occurrence of a festival within a
         # Gregorian calendar year
-        if (d - 1) in self.panchaanga.festival_id_to_instance[festival_name].days:
+        if self.daily_panchaangas[d-1].date in self.panchaanga.festival_id_to_instance[festival_name].days:
           # No festival occurs on consecutive days; paraviddha assigned twice
           logging.warning(
             '%s occurring on two consecutive days (%d, %d). Removing! paraviddha assigned twice?' % (
               festival_name, d - 1, d))
-          self.panchaanga.festival_id_to_instance[festival_name].days.remove(d - 1)
-        self.panchaanga.festival_id_to_instance[festival_name].days.append(d)
+          self.panchaanga.festival_id_to_instance[festival_name].days.remove(self.daily_panchaangas[d-1].date)
+        self.panchaanga.festival_id_to_instance[festival_name].days.append(self.daily_panchaangas[d].date)
     else:
-      self.panchaanga.festival_id_to_instance[festival_name] = festival.FestivalInstance(name=festival_name, days=[d])
+      self.panchaanga.festival_id_to_instance[festival_name] = festival.FestivalInstance(name=festival_name, days=[self.daily_panchaangas[d].date])
 
   def assign_festivals_from_rules(self, festival_rules, debug_festivals=False):
     for d in range(1, self.panchaanga.duration + 1):
@@ -226,7 +226,7 @@ class FestivalAssigner(PanchaangaApplier):
                 if festival_name in self.panchaanga.festival_id_to_instance:
                   # Check if yesterday was assigned already
                   # to this puurvaviddha festival!
-                  if self.panchaanga.festival_id_to_instance[festival_name].days.count(d - 1) == 0:
+                  if self.panchaanga.festival_id_to_instance[festival_name].days.count(self.daily_panchaangas[d-1].date) == 0:
                     fday = d
                 else:
                   fday = d
@@ -250,7 +250,8 @@ class FestivalAssigner(PanchaangaApplier):
                   # Perhaps just need better checking of
                   # conditions instead of this fix
                   if festival_name in self.panchaanga.festival_id_to_instance:
-                    if self.panchaanga.festival_id_to_instance[festival_name].days.count(d - 1 + d_offset) == 0:
+                    offset_date = self.daily_panchaangas[d - 1 + d_offset].date
+                    if self.panchaanga.festival_id_to_instance[festival_name].days.count(offset_date) == 0:
                       fday = d + d_offset
                   else:
                     fday = d + d_offset
@@ -348,10 +349,11 @@ class FestivalAssigner(PanchaangaApplier):
             logging.warning('Multiple occurrences of festival %s within year. Check?: %s' % (
               festival_name, str(self.panchaanga.festival_id_to_instance[festival_name].days)))
         for assigned_day in self.panchaanga.festival_id_to_instance[festival_name].days:
+          assigned_day_index = int(assigned_day - self.daily_panchaangas[0].date)
           if month_type == 'solar_month':
             fest_num = period_start_year + 3100 - fest_start_year + 1
             for start_day in solar_y_start_d:
-              if assigned_day >= start_day:
+              if assigned_day_index >= start_day:
                 fest_num += 1
           elif month_type == 'lunar_month':
             if festival_rules[festival_name]['timing']['angam_number'] == 1 and festival_rules[festival_name]['timing'][
@@ -360,12 +362,12 @@ class FestivalAssigner(PanchaangaApplier):
               # Still assume assigned_day >= lunar_y_start_d!
               fest_num = period_start_year + 3100 - fest_start_year + 1
               for start_day in lunar_y_start_d:
-                if assigned_day >= start_day:
+                if assigned_day_index >= start_day:
                   fest_num += 1
             else:
               fest_num = period_start_year + 3100 - fest_start_year + 1
               for start_day in lunar_y_start_d:
-                if assigned_day >= start_day:
+                if assigned_day_index >= start_day:
                   fest_num += 1
 
           if fest_num <= 0:
@@ -378,7 +380,7 @@ class FestivalAssigner(PanchaangaApplier):
             festival_name_updated = festival_name + '~\\#{%d}' % fest_num
             # logging.debug('Changing %s to %s' % (festival_name, festival_name_updated))
             if festival_name_updated in self.panchaanga.festival_id_to_instance:
-              logging.warning('Overwriting festival day for %s %d with %d.' % (
+              logging.warning('Overwriting festival day for %s %s with %s.' % (
                 festival_name_updated, self.panchaanga.festival_id_to_instance[festival_name_updated].days[0], assigned_day))
               self.panchaanga.festival_id_to_instance[festival_name_updated] = festival.FestivalInstance(name=festival_name_updated, days=[assigned_day])
             else:
@@ -393,7 +395,7 @@ class FestivalAssigner(PanchaangaApplier):
       logging.error('tripurOtsavaH not in self.panchaanga.festival_id_to_instance!')
     else:
       if self.panchaanga.festival_id_to_instance['tripurOtsavaH'].days != self.panchaanga.festival_id_to_instance['mahA~kArttikI'].days:
-        logging.warning('Removing mahA~kArttikI (%d) since it does not coincide with tripurOtsavaH (%d)' % (
+        logging.warning('Removing mahA~kArttikI (%s) since it does not coincide with tripurOtsavaH (%s)' % (
           self.panchaanga.festival_id_to_instance['tripurOtsavaH'].days[0], self.panchaanga.festival_id_to_instance['mahA~kArttikI'].days[0]))
         del self.panchaanga.festival_id_to_instance['mahA~kArttikI']
         # An error here implies the festivals were not assigned: adhika
@@ -448,7 +450,7 @@ class MiscFestivalAssigner(FestivalAssigner):
       # Extended for longer calendars where more than one upAkarma may be there
       self.panchaanga.festival_id_to_instance['varalakSmI-vratam'] = festival.FestivalInstance(name='varalakSmI-vratam', days=[])
       for d in self.panchaanga.festival_id_to_instance['yajurvEda-upAkarma'].days:
-        self.panchaanga.festival_id_to_instance['varalakSmI-vratam'].days.append(d - ((self.panchaanga.weekday_start - 1 + d - 5) % 7))
+        self.panchaanga.festival_id_to_instance['varalakSmI-vratam'].days.append(d - ((d.get_weekday() - 5) % 7))
       # self.panchaanga.festival_id_to_instance['varalakSmI-vratam'].days = [self.panchaanga.festival_id_to_instance['yajurvEda-upAkarma'].days[0] -
       #                                        ((self.panchaanga.weekday_start - 1 + self.panchaanga.festival_id_to_instance['yajurvEda-upAkarma'].days[
       #                                            0] - 5) % 7)]
@@ -476,7 +478,7 @@ class MiscFestivalAssigner(FestivalAssigner):
 
     for _, fest in self.panchaanga.festival_id_to_instance.items():
       for fest_day in fest.days:
-        self.daily_panchaangas[fest_day].festivals.append(fest)
+        self.panchaanga.daily_panchaangas[fest_day.get_date_str()].festivals.append(fest)
 
 
 # Essential for depickling to work.

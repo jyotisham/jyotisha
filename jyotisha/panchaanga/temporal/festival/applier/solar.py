@@ -37,13 +37,13 @@ class SolarFestivalAssigner(FestivalAssigner):
         if NakshatraDivision(self.daily_panchaangas[d].jd_sunrise - (1 / 15.0) * (self.daily_panchaangas[d].jd_sunrise - self.daily_panchaangas[d - 1].jd_sunrise),
                              ayanaamsha_id=self.ayanaamsha_id).get_solar_raashi() == 12:
           # If kumbha prevails two ghatikAs before sunrise, nombu can be done in the early morning itself, else, previous night.
-          self.panchaanga.festival_id_to_instance[festival_name] =  festival.FestivalInstance(name=festival_name, days=[d-1])
+          self.panchaanga.festival_id_to_instance[festival_name] =  festival.FestivalInstance(name=festival_name, days=[self.daily_panchaangas[d-1].date])
         else:
-          self.panchaanga.festival_id_to_instance[festival_name] = festival.FestivalInstance(name=festival_name, days=[d])
+          self.panchaanga.festival_id_to_instance[festival_name] = festival.FestivalInstance(name=festival_name, days=[self.daily_panchaangas[d].date])
 
       # KUCHELA DINAM
       if self.daily_panchaangas[d].solar_sidereal_date_sunset.month == 9 and self.daily_panchaangas[d].solar_sidereal_date_sunset.day <= 7 and self.daily_panchaangas[d].date.get_weekday() == 3:
-        self.panchaanga.festival_id_to_instance['kucEla-dinam'] = festival.FestivalInstance(name='kucEla-dinam', days=[d])
+        self.panchaanga.festival_id_to_instance['kucEla-dinam'] = festival.FestivalInstance(name='kucEla-dinam', days=[self.daily_panchaangas[d].date])
 
       # MESHA SANKRANTI
       if self.daily_panchaangas[d].solar_sidereal_date_sunset.month == 1 and self.daily_panchaangas[d - 1].solar_sidereal_date_sunset.month == 12:
@@ -58,7 +58,8 @@ class SolarFestivalAssigner(FestivalAssigner):
 
   def assign_vishesha_vyatipata(self, debug_festivals=False):
     vs_list = self.panchaanga.festival_id_to_instance['vyatIpAta-zrAddham'].days
-    for d in vs_list:
+    for date in vs_list:
+      d = int(date - self.daily_panchaangas[0].date)
       if self.daily_panchaangas[d].solar_sidereal_date_sunset.month == 9:
         self.panchaanga.festival_id_to_instance['vyatIpAta-zrAddham'].days.remove(d)
         festival_name = 'mahAdhanurvyatIpAta-zrAddham'
@@ -126,13 +127,13 @@ class SolarFestivalAssigner(FestivalAssigner):
         if gc_28:
           gc_28_d = 1 + floor(gc_28_start - self.panchaanga.jd_start)
           # sys.stderr.write('gajacchhaya %d\n' % gc_28_d)
-          gajacchaayaa_fest = FestivalInstance(name='gajacchAyA-yOgaH', interval=Interval(jd_start=gc_28_start, jd_end=gc_28_end), days=[gc_28_d])
+          gajacchaayaa_fest = FestivalInstance(name='gajacchAyA-yOgaH', interval=Interval(jd_start=gc_28_start, jd_end=gc_28_end), days=[self.daily_panchaangas[gc_28_d].date])
           self.panchaanga.festival_id_to_instance[gajacchaayaa_fest.name] = gajacchaayaa_fest
           gc_28 = False
         if gc_30:
           # sys.stderr.write('30: (%f, %f)\n' % (gc_30_start, gc_30_end))
           gc_30_d = 1 + floor(gc_30_start - self.panchaanga.jd_start)
-          gajacchaayaa_fest = FestivalInstance(name='gajacchAyA-yOgaH', interval=Interval(jd_start=gc_30_start, jd_end=gc_30_end), days=[gc_30_d])
+          gajacchaayaa_fest = FestivalInstance(name='gajacchAyA-yOgaH', interval=Interval(jd_start=gc_30_start, jd_end=gc_30_end), days=[self.daily_panchaangas[gc_30_d].date])
           self.panchaanga.festival_id_to_instance[gajacchaayaa_fest.name] = gajacchaayaa_fest
           gc_30 = False
 

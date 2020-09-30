@@ -4,6 +4,7 @@ import sys
 import traceback
 import datetime
 from math import modf
+from numbers import Number
 
 import pytz
 from astropy.time import Time
@@ -127,6 +128,18 @@ class Date(BasicDate):
 
   def to_datetime(self):
     return datetime.datetime(year=self.year, month=self.month, day=self.day, hour=zero_if_none(self.hour), minute=zero_if_none(self.minute), second=zero_if_none(self.second), microsecond=self.get_microseconds())
+
+  def __sub__(self, other):
+    if isinstance(other, Date):
+      dt_diff = self.to_datetime() - other.to_datetime()
+      return dt_diff.days + dt_diff.seconds / 3600.0 + dt_diff.microseconds / 60.0 / 1e6
+    elif isinstance(other, Number):
+      return self.offset_date(days=-other)
+
+  def __add__(self, other):
+    if isinstance(other, Number):
+      return self.offset_date(days=other)
+
 
   @classmethod
   def from_datetime(cls, dt):
