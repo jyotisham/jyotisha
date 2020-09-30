@@ -37,9 +37,9 @@ class EclipticFestivalAssigner(FestivalAssigner):
       # TROPICAL AYANAMS
       if self.panchaanga.daily_panchaangas[d].solar_sidereal_date_sunset.day == 1:
         transits = \
-          Graha.singleton(Graha.SUN).get_next_raashi_transit(jd_start=self.panchaanga.daily_panchaangas[d].jd_sunrise,
-                                                   jd_end=self.panchaanga.daily_panchaangas[d].jd_sunrise + 15,
-                                                   ayanaamsha_id=self.ayanaamsha_id)
+          Graha.singleton(Graha.SUN).get_raashi_transits(jd_start=self.panchaanga.daily_panchaangas[d].jd_sunrise,
+                                                         jd_end=self.panchaanga.daily_panchaangas[d].jd_sunrise + 15,
+                                                         ayanaamsha_id=self.ayanaamsha_id)
         ayana_jd_start = transits[0].jd
         # Reduce fday by 1 if ayana time precedes sunrise and change increment _t by 24
         fday_nirayana = int(ayana_jd_start - self.panchaanga.jd_start + 1)
@@ -161,8 +161,8 @@ class EclipticFestivalAssigner(FestivalAssigner):
     check_window = 400  # Max t between two Jupiter transits is ~396 (checked across 180y)
     # Let's check for transitions in a relatively large window
     # to finalise what is the FINAL transition post retrograde movements
-    transits = Graha.singleton(Graha.JUPITER).get_next_raashi_transit(self.panchaanga.jd_start, jd_end + check_window,
-                                                                      ayanaamsha_id=self.ayanaamsha_id)
+    transits = Graha.singleton(Graha.JUPITER).get_raashi_transits(self.panchaanga.jd_start, jd_end + check_window,
+                                                                  ayanaamsha_id=self.ayanaamsha_id)
     if len(transits) > 0:
       for i, transit in enumerate(transits):
         (jd_transit, rashi1, rashi2) = (transit.jd, transit.value_1, transit.value_2)

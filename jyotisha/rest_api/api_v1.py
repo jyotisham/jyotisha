@@ -110,8 +110,8 @@ class RaashiTransitionFinder(Resource):
     from jyotisha import zodiac
     julday = Timezone(timezone).local_time_to_julian_day(Date(year, month, day, hour, minute, second))
     from jyotisha.panchaanga import temporal
-    transits = Graha.singleton(body).get_next_raashi_transit(jd_start=julday, jd_end=julday + 100,
-                                                   ayanaamsha_id=Ayanamsha.CHITRA_AT_180)
+    transits = Graha.singleton(body).get_raashi_transits(jd_start=julday, jd_end=julday + 100,
+                                                         ayanaamsha_id=Ayanamsha.CHITRA_AT_180)
     # logging.debug(transits)
     transits_local = [(Timezone(timezone).julian_day_to_local_time(transit.jd), transit.value_1, transit.value_2) for transit in
                       transits]

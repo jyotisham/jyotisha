@@ -70,7 +70,7 @@ class Graha(JsonObject):
     else:
       return swe.calc_ut(jd, self._get_swisseph_id())[0][0]
 
-  def get_next_raashi_transit(self, jd_start, jd_end, ayanaamsha_id):
+  def get_raashi_transits(self, jd_start, jd_end, ayanaamsha_id):
     """Returns the next transit of the given planet e.g. jupiter
 
       Args:
