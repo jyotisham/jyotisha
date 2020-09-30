@@ -70,7 +70,7 @@ class Graha(JsonObject):
     else:
       return swe.calc_ut(jd, self._get_swisseph_id())[0][0]
 
-  def get_raashi_transits(self, jd_start, jd_end, ayanaamsha_id):
+  def get_transits(self, jd_start: float, jd_end: float, ayanaamsha_id: str, anga_type: object) -> [Transit]:
     """Returns the next transit of the given planet e.g. jupiter
 
       Args:
@@ -84,37 +84,37 @@ class Graha(JsonObject):
     """
 
     transits = []
-    MIN_JUMP = min(15, jd_end-jd_start)  # Random check for a transit every 15 days!
+    arc_length = anga_type.arc_length
+    MIN_JUMP = min(1, jd_end-jd_start)
     # TODO: Could be tweaked based on planet using a dict?
 
     curr_L_bracket = jd_start
     curr_R_bracket = jd_start + MIN_JUMP
 
     while curr_R_bracket <= jd_end:
-      L_rashi = math.floor(self.get_longitude(curr_L_bracket,
-                                                     ayanaamsha_id=ayanaamsha_id) / 30) + 1
-      R_rashi = math.floor(self.get_longitude(curr_R_bracket,
-                                                     ayanaamsha_id=ayanaamsha_id) / 30) + 1
+      L_division = math.floor(self.get_longitude(curr_L_bracket,
+                                                     ayanaamsha_id=ayanaamsha_id) / arc_length) + 1
+      R_division = math.floor(self.get_longitude(curr_R_bracket,
+                                                     ayanaamsha_id=ayanaamsha_id) / arc_length) + 1
 
-      if L_rashi == R_rashi:
+      if L_division == R_division:
         curr_R_bracket += MIN_JUMP
       else:
         # We have bracketed a transit!
-        if L_rashi < R_rashi:
-          target = R_rashi
+        if L_division < R_division:
+          target = R_division
         else:
           # retrograde transit
-          target = L_rashi
+          target = L_division
         try:
           def get_longitude_offset(jd):
-            return self.get_longitude(jd=jd, ayanaamsha_id=ayanaamsha_id) + (-target + 1) * 30
+            return self.get_longitude(jd=jd, ayanaamsha_id=ayanaamsha_id) + (-target + 1) * arc_length
 
           # noinspection PyTypeChecker
           jd_transit = \
             brentq(get_longitude_offset,
                    curr_L_bracket, curr_R_bracket)
-          from jyotisha.panchaanga.temporal.zodiac import AngaType
-          transits += [Transit(body=self.body_name, jd=jd_transit, anga_type=AngaType.RASHI.name, value_1=L_rashi, value_2=R_rashi)]
+          transits += [Transit(body=self.body_name, jd=jd_transit, anga_type=anga_type.name, value_1=L_division, value_2=R_division)]
           curr_R_bracket += MIN_JUMP
           curr_L_bracket = jd_transit + MIN_JUMP
         except ValueError:

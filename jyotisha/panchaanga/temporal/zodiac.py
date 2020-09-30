@@ -55,31 +55,23 @@ class NakshatraDivision(common.JsonObject):
   def __init__(self, julday, ayanaamsha_id):
     super().__init__()
     self.ayanaamsha_id = ayanaamsha_id
-
-    self.set_time(julday=julday)
-
-  # noinspection PyAttributeOutsideInit
-  def set_time(self, julday):
     self.julday = julday
-    self.right_boundaries = ((numpy.arange(27) + 1) * (360.0 / 27.0) + Ayanamsha.singleton(
-      self.ayanaamsha_id).get_offset(
-      julday)) % 360
 
-  def get_nakshatra_for_body(self, body):
+  def get_fractional_division_for_body(self, body, anga_type):
     """
     
     :param body: graha ID.
-    :return: 1.x for AshvinI and so on.
+    :return: 0.x for AshvinI and so on.
     """
-    if self.julday is not None:
-      self.set_time(julday=self.julday)
-    logging.debug(Ayanamsha.singleton(self.ayanaamsha_id).get_offset(self.julday))
-    return Graha.singleton(body).get_longitude(self.julday, ayanaamsha_id=self.ayanaamsha_id) / (360.0 / 27.0) + 1
+    longitude = body.get_longitude(self.julday, ayanaamsha_id=self.ayanaamsha_id)
+    return self.longitude_to_fractional_division(longitude=longitude, anga_type=anga_type)
 
   def get_equatorial_boundary_coordinates(self):
     """Get equatorial coordinates for the points where the ecliptic nakShatra boundary longitude intersects the ecliptic."""
-    equatorial_boundary_coordinates = [ecliptic_to_equatorial(longitude=longitude, latitude=0) for longitude in
-                                       self.right_boundaries]
+    nakShatra_ends = ((numpy.arange(27) + 1) * (360.0 / 27.0) + Ayanamsha.singleton(
+      self.ayanaamsha_id).get_offset(
+      self.julday)) % 360
+    equatorial_boundary_coordinates = [ecliptic_to_equatorial(longitude=longitude, latitude=0) for longitude in nakShatra_ends]
     return equatorial_boundary_coordinates
 
   def get_stellarium_nakshatra_boundaries(self):
@@ -100,6 +92,9 @@ class NakshatraDivision(common.JsonObject):
           sector_id_1=(index % 27 + 1),
           sector_id_2=((index + 1) % 27 + 1)
         ))
+
+  def longitude_to_fractional_division(self, longitude, anga_type):
+    return (longitude % 360) / anga_type.arc_length
 
   def get_anga_float(self, anga_type):
     """Returns the anga/ temporal property. Computed based on lunar and solar longitudes, division of a circle into a certain number of degrees (arc_len).
@@ -133,9 +128,7 @@ class NakshatraDivision(common.JsonObject):
       lsun = Graha.singleton(Graha.SUN).get_longitude(self.julday, ayanaamsha_id=ayanaamsha_id)
       lcalc += w_sun * lsun
 
-    lcalc = lcalc % 360
-
-    return lcalc / arc_len
+    return self.longitude_to_fractional_division(longitude=lcalc, anga_type=anga_type)
 
   def get_anga(self, anga_type):
     """Returns the anga prevailing at a particular time. Computed based on lunar and solar longitudes, division of a circle into a certain number of degrees (arc_len).
@@ -159,9 +152,9 @@ class NakshatraDivision(common.JsonObject):
     return dict(list(zip(anga_ids, angas)))
 
   def get_nakshatra(self):
-    """Returns the nakshatram prevailing at a given moment
+    """Returns the nakshatra prevailing at a given moment
 
-    Nakshatram is computed based on the longitude of the Moon; in
+    Nakshatra is computed based on the longitude of the Moon; in
     addition, to obtain the absolute value of the longitude, the
     ayanamsa is required to be subtracted.
 
