@@ -129,6 +129,12 @@ class Graha(JsonObject):
 
 
 def get_star_longitude(star, jd):
+  """ Calculate star longitude based on sefstars.txt.
+  
+  :param star: Example: Spica. 
+  :param jd: 
+  :return: 
+  """
   from jyotisha.panchaanga import data
   import os
   swe.set_ephe_path(os.path.dirname(data.__file__))
