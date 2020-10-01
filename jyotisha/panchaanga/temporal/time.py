@@ -102,6 +102,18 @@ class BasicDate(JsonObject):
     self.month = int(month)
     self.day = int(day)
 
+  def __str__(self):
+    if self.year is None:
+      return "%02d-%02d" % (self.month, self.day) 
+    else:
+      return "%04d-%02d-%02d" % (self.year, self.month, self.day)
+
+  def __lt__(self, other):
+    return str(self) < str(other)
+
+  def __hash__(self):
+    return hash(str(self))
+
 
 class BasicDateWithTransitions(BasicDate):
   def __init__(self, month, day, year=None, month_transition=None, day_transition=None):
@@ -112,6 +124,7 @@ class BasicDateWithTransitions(BasicDate):
   def set_transitions(self, day_transition, month_transition):
     self.day_transition = day_transition
     self.month_transition = month_transition
+
 
 class Date(BasicDate):
   def __init__(self, year, month, day, hour=None, minute=None, second=None):
