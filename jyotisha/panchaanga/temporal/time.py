@@ -122,9 +122,9 @@ class Date(BasicDate):
     self.weekday = None
   
   def set_time_to_day_start(self):
-    self.hour = 0
-    self.minute = 0
-    self.second = 0
+    self.hour = None
+    self.minute = None
+    self.second = None
 
   def to_datetime(self):
     return datetime.datetime(year=self.year, month=self.month, day=self.day, hour=zero_if_none(self.hour), minute=zero_if_none(self.minute), second=zero_if_none(self.second), microsecond=self.get_microseconds())
@@ -155,10 +155,10 @@ class Date(BasicDate):
     return (self.year, self.month, self.day, self.hour, self.minute, self.second)
 
   def get_fractional_hour(self):
-    return self.hour + self.minute/ 60.0 + self.second  / 3600.0
+    return zero_if_none(self.hour) + zero_if_none(self.minute)/ 60.0 + zero_if_none(self.second)  / 3600.0
 
   def get_microseconds(self):  
-    return int(self.second * 1e6 % 1e6)
+    return int(zero_if_none(self.second) * 1e6 % 1e6)
 
   def to_date_fractional_hour_tuple(self):
     fractional_hour = self.get_fractional_hour()
@@ -207,7 +207,7 @@ def utc_gregorian_to_jd(date):
   if date.hour is None:
     date.set_time_to_day_start()
   tm = Time(
-    {"year": date.year, "month": date.month, "day": date.day, "hour": date.hour, "minute": date.minute, "second": date.second},
+    {"year": date.year, "month": date.month, "day": date.day, "hour": zero_if_none(date.hour), "minute": zero_if_none(date.minute), "second": zero_if_none(date.second)},
     format='ymdhms')
   tm.format = "jd"
   return tm.value
@@ -250,9 +250,9 @@ class Timezone:
     return pytz.timezone(self.timezone_id).fromutc(tm.value)
 
   def local_time_to_julian_day(self, date):
-    microseconds, _ = modf(date.second * 1000000)
+    microseconds, _ = modf(zero_if_none(date.second) * 1000000)
     local_datetime = pytz.timezone(self.timezone_id).localize(
-      datetime.datetime(date.year, date.month, date.day, date.hour, date.minute, int(date.second), int(microseconds)))
+      datetime.datetime(date.year, date.month, date.day, zero_if_none(date.hour), zero_if_none(date.minute), int(zero_if_none(date.second)), int(microseconds)))
     tm = Time(local_datetime, format="datetime")
     tm.format = "jd"
     return tm.value
