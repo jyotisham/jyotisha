@@ -2,12 +2,12 @@
 #  -*- coding: utf-8 -*-
 import logging
 import sys
-from math import floor
+from math import floor, modf
 
 from scipy.optimize import brentq
 
 from jyotisha.panchaanga.spatio_temporal import City
-from jyotisha.panchaanga.temporal import interval
+from jyotisha.panchaanga.temporal import interval, time
 from jyotisha.panchaanga.temporal import zodiac
 from jyotisha.panchaanga.temporal.body import Graha
 from jyotisha.panchaanga.temporal.time import Timezone, Hour, Date
@@ -86,7 +86,7 @@ class DailyPanchanga(common.JsonObject):
 
     self.solar_sidereal_date_sunset = None
 
-    self.tropical_date = None
+    self.tropical_date_sunset = None
 
     self.lunar_month = None
 
@@ -96,6 +96,7 @@ class DailyPanchanga(common.JsonObject):
 
     self.compute_sun_moon_transitions(previous_day_panchaanga=previous_day_panchaanga)
     self.compute_solar_day_sunset(previous_day_panchaanga=previous_day_panchaanga)
+    self.set_tropical_date_sunset(previous_day_panchaanga=previous_day_panchaanga)
     self.get_day_length_based_periods()
 
   def __lt__(self, other):
@@ -168,7 +169,6 @@ class DailyPanchanga(common.JsonObject):
       anga_type=AngaType.SOLAR_MONTH)
 
     solar_sidereal_month_end_jd = None
-    solar_sidereal_month_day_sunset = None
     if previous_day_panchaanga is None or previous_day_panchaanga.solar_sidereal_date_sunset.day > 28 :
       solar_month_sunset_span = zodiac.AngaSpan.find(jd1=self.jd_sunset - 32, jd2=self.jd_sunset + 5, target_anga_id=solar_month_sunset, anga_type=AngaType.SOLAR_MONTH, ayanaamsha_id=self.ayanaamsha_id)
       solar_sidereal_month_day_sunset = len(self.city.get_sunsets_in_period(jd_start=solar_month_sunset_span.jd_start, jd_end=self.jd_sunset + 1/48.0))
@@ -180,6 +180,25 @@ class DailyPanchanga(common.JsonObject):
       solar_sidereal_month_day_sunset = previous_day_panchaanga.solar_sidereal_date_sunset.day + 1
     from jyotisha.panchaanga.temporal import time
     self.solar_sidereal_date_sunset = time.BasicDateWithTransitions(month=solar_month_sunset, day=solar_sidereal_month_day_sunset, month_transition=solar_sidereal_month_end_jd)
+
+  def set_tropical_date_sunset(self, previous_day_panchaanga=None):
+    month_transition_jd = None
+    if previous_day_panchaanga is not None:
+      tropical_date_sunset_day = previous_day_panchaanga.tropical_date_sunset.day + 1
+      tropical_date_sunset_month = previous_day_panchaanga.tropical_date_sunset.month
+    if previous_day_panchaanga is None or previous_day_panchaanga.tropical_date_sunset.day > 28 :
+      nd = zodiac.NakshatraDivision(julday=self.jd_sunset, ayanaamsha_id=Ayanamsha.ASHVINI_STARTING_0)
+      fractional_month = nd.get_fractional_division_for_body(body=Graha.singleton(Graha.SUN), anga_type=AngaType.RASHI)
+      (month_fraction, _) = modf(fractional_month)
+      approx_day = month_fraction*30
+      month_transitions = Graha.singleton(Graha.SUN).get_transits(jd_start=self.jd_sunset-approx_day-5, jd_end=self.jd_sunset + 4, anga_type=AngaType.RASHI, ayanaamsha_id=Ayanamsha.ASHVINI_STARTING_0)
+      if month_transitions[-1].jd > self.jd_previous_sunset and month_transitions[-1].jd <= self.jd_sunset:
+        tropical_date_sunset_day = 1
+        tropical_date_sunset_month = month_transitions[-1].value_2
+      else:
+        tropical_date_sunset_day = len(self.city.get_sunsets_in_period(jd_start=month_transitions[0].jd, jd_end=self.jd_sunset + 1/48.0))
+        tropical_date_sunset_month = month_transitions[0].value_2
+    self.tropical_date_sunset = time.BasicDateWithTransitions(month=tropical_date_sunset_month, day=tropical_date_sunset_day, month_transition=month_transition_jd)
 
   def get_lagna_data(self, ayanaamsha_id=zodiac.Ayanamsha.CHITRA_AT_180, debug=False):
     """Returns the lagna data

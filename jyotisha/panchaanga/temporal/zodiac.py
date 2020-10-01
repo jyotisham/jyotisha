@@ -49,6 +49,41 @@ class Ayanamsha(common.JsonObject):
     raise Exception("Bad ayamasha_id")
 
 
+
+
+class AngaType(JsonObject):
+  # The below class variables are declared here, but instantiated later.
+  TITHI = None
+  TITHI_PADA = None
+  NAKSHATRA = None
+  NAKSHATRA_PADA = None
+  RASHI = None
+  YOGA = None
+  KARANA = None
+  SOLAR_MONTH = None
+  SOLAR_NAKSH = None
+  SOLAR_NAKSH_PADA = None
+
+  def __init__(self, name, arc_length, weight_moon, weight_sun):
+    super(AngaType, self).__init__()
+    self.name = name
+    self.arc_length = arc_length
+    self.weight_moon = weight_moon
+    self.weight_sun = weight_sun
+
+
+AngaType.TITHI = AngaType(name='TITHI', arc_length=360.0 / 30.0, weight_moon=1, weight_sun=-1)
+AngaType.TITHI_PADA = AngaType(name='TITHI_PADA', arc_length=360.0 / 120.0, weight_moon=1, weight_sun=-1)
+AngaType.NAKSHATRA = AngaType(name='NAKSHATRAM', arc_length=360.0 / 27.0, weight_moon=1, weight_sun=0)
+AngaType.NAKSHATRA_PADA = AngaType(name='NAKSHATRA_PADA', arc_length=360.0 / 108.0, weight_moon=1, weight_sun=0)
+AngaType.RASHI = AngaType(name='RASHI', arc_length=360.0 / 12.0, weight_moon=1, weight_sun=0)
+AngaType.YOGA = AngaType(name='YOGA', arc_length=360.0 / 27.0, weight_moon=1, weight_sun=1)
+AngaType.KARANA = AngaType(name='KARANAM', arc_length=360.0 / 60.0, weight_moon=1, weight_sun=-1)
+AngaType.SOLAR_MONTH = AngaType(name='SOLAR_MONTH', arc_length=360.0 / 12.0, weight_moon=0, weight_sun=1)
+AngaType.SOLAR_NAKSH = AngaType(name='SOLAR_NAKSH', arc_length=360.0 / 27.0, weight_moon=0, weight_sun=1)
+AngaType.SOLAR_NAKSH_PADA = AngaType(name='SOLAR_NAKSH_PADA', arc_length=360.0 / 108.0, weight_moon=0, weight_sun=1)
+
+
 class NakshatraDivision(common.JsonObject):
   """Nakshatra division at a certain time, according to a certain ayanaamsha."""
 
@@ -57,7 +92,7 @@ class NakshatraDivision(common.JsonObject):
     self.ayanaamsha_id = ayanaamsha_id
     self.julday = julday
 
-  def get_fractional_division_for_body(self, body, anga_type):
+  def get_fractional_division_for_body(self, body: Graha, anga_type: AngaType) -> float:
     """
     
     :param body: graha ID.
@@ -202,39 +237,6 @@ def ecliptic_to_equatorial(longitude, latitude):
   # swe.cotrans returns the right ascension longitude in degrees, rather than hours.
   return (
     longitude_to_right_ascension(coordinates[0]), coordinates[1])
-
-
-class AngaType(JsonObject):
-  # The below class variables are declared here, but instantiated later.
-  TITHI = None
-  TITHI_PADA = None
-  NAKSHATRA = None
-  NAKSHATRA_PADA = None
-  RASHI = None
-  YOGA = None
-  KARANA = None
-  SOLAR_MONTH = None
-  SOLAR_NAKSH = None
-  SOLAR_NAKSH_PADA = None
-
-  def __init__(self, name, arc_length, weight_moon, weight_sun):
-    super(AngaType, self).__init__()
-    self.name = name
-    self.arc_length = arc_length
-    self.weight_moon = weight_moon
-    self.weight_sun = weight_sun
-
-
-AngaType.TITHI = AngaType(name='TITHI', arc_length=360.0 / 30.0, weight_moon=1, weight_sun=-1)
-AngaType.TITHI_PADA = AngaType(name='TITHI_PADA', arc_length=360.0 / 120.0, weight_moon=1, weight_sun=-1)
-AngaType.NAKSHATRA = AngaType(name='NAKSHATRAM', arc_length=360.0 / 27.0, weight_moon=1, weight_sun=0)
-AngaType.NAKSHATRA_PADA = AngaType(name='NAKSHATRA_PADA', arc_length=360.0 / 108.0, weight_moon=1, weight_sun=0)
-AngaType.RASHI = AngaType(name='RASHI', arc_length=360.0 / 12.0, weight_moon=1, weight_sun=0)
-AngaType.YOGA = AngaType(name='YOGA', arc_length=360.0 / 27.0, weight_moon=1, weight_sun=1)
-AngaType.KARANA = AngaType(name='KARANAM', arc_length=360.0 / 60.0, weight_moon=1, weight_sun=-1)
-AngaType.SOLAR_MONTH = AngaType(name='SOLAR_MONTH', arc_length=360.0 / 12.0, weight_moon=0, weight_sun=1)
-AngaType.SOLAR_NAKSH = AngaType(name='SOLAR_NAKSH', arc_length=360.0 / 27.0, weight_moon=0, weight_sun=1)
-AngaType.SOLAR_NAKSH_PADA = AngaType(name='SOLAR_NAKSH_PADA', arc_length=360.0 / 108.0, weight_moon=0, weight_sun=1)
 
 
 class AngaSpanFinder(JsonObject):

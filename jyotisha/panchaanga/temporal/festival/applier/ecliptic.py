@@ -23,47 +23,14 @@ class EclipticFestivalAssigner(FestivalAssigner):
     self.compute_lunar_eclipses()
     # self.assign_ayanam()
 
-  def assign_tropical_months(self):
-    last_d_assigned = 0
-    transits = Graha.singleton(Graha.SUN).get_transits(self.panchaanga.jd_start, self.panchaanga.jd_end, anga_type=AngaType.RASHI, ayanaamsha_id=Ayanamsha.ASHVINI_STARTING_0)
-    timezone = self.panchaanga.city.timezone
-    month_1_start_date =  self.daily_panchaangas[0].date
-    month_end_date =  self.daily_panchaangas[-1].date
-    for i, transit in enumerate(transits):
-      fest = FestivalInstance(name=names.NAMES['RTU_MASA_NAMES']["hk"][transit.value_2], interval=Interval(jd_start=transit.jd, jd_end=None))
-
-      month_2_start_panchaanga = self.panchaanga.pre_sunset_daily_panchaanga_for_jd(julian_day=transit.jd)
-      month_1_end_date = month_2_start_panchaanga.date - 1 if month_2_start_panchaanga is None else  self.daily_panchaangas[-1].date
-      if month_2_start_panchaanga is None:
-        month_2_start_panchaanga = self.daily_panchaangas[-1]
-      # month_end_date_actual
-      # month_end_date_actual.set_time_to_day_start()
-      # if month_end_date_actual <= month_end_date:
-      #   month_end_date = month_end_date_actual
-      # else:
-      #   month_end_date =  self.daily_panchaangas[-1].date
-      # if self.panchaanga.daily_panchaangas[month_end_day.get_date_str()]
-      # if transit.value_1 == 3:
-      #   time.jd_to_utc_gregorian()
-      # # Reduce fday by 1 if ayana time precedes sunrise and change increment _t by 24
-      # fday_nirayana = int(ayana_jd_start - self.panchaanga.jd_start + 1)
-      # if fday_nirayana > self.panchaanga.duration:
-      #   continue
-      # 
-      # self.daily_panchaangas[fday_nirayana].tropical_date.month_end_time = ayana_jd_start
-      # for i in range(last_d_assigned + 1, fday_nirayana + 1):
-      #   self.daily_panchaangas[i].tropical_date.month = self.daily_panchaangas[d].solar_sidereal_date_sunset.month
-      # last_d_assigned = fday_nirayana
-      # if self.daily_panchaangas[d].solar_sidereal_date_sunset.month == 3:
-      #   if self.daily_panchaangas[fday_nirayana].jd_sunset < ayana_jd_start < self.daily_panchaangas[fday_nirayana + 1].jd_sunset:
+  def assign_tropical_fests(self):
+    pass
+    # TODO: Move logic for below fests to JSON.
+      # fest = FestivalInstance(name=names.NAMES['RTU_MASA_NAMES']["hk"][transit.value_2], interval=Interval(jd_start=transit.jd, jd_end=None))
       #     self.daily_panchaangas[fday_nirayana].append('dakSiNAyana-puNyakAlaH')
       #   else:
       #     self.daily_panchaangas[fday_nirayana - 1].append('dakSiNAyana-puNyakAlaH')
-      # if self.daily_panchaangas[d].solar_sidereal_date_sunset.month == 9:
-      #   if self.daily_panchaangas[fday_nirayana].jd_sunset < ayana_jd_start < self.daily_panchaangas[fday_nirayana + 1].jd_sunset:
       #     self.daily_panchaangas[fday_nirayana + 1].append('uttarAyaNa-puNyakAlaH/mitrOtsavaH')
-      #   else:
-      #     self.daily_panchaangas[fday_nirayana].append('uttarAyaNa-puNyakAlaH/mitrOtsavaH')
 
   def compute_solar_eclipses(self):
     jd = self.panchaanga.jd_start
