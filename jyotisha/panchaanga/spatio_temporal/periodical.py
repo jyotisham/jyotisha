@@ -101,6 +101,30 @@ previous_day_panchaanga=previous_daily_panchaanga)
   def daily_panchaangas_sorted(self):
     return sorted(self.daily_panchaangas.values())
 
+  def daily_panchaanga_for_jd(self, jd):
+    date = self.city.timezone.julian_day_to_local_time(julian_day=jd)
+    return self.daily_panchaanga_for_date(date=date)
+
+  def daily_panchaanga_for_date(self, date):
+    from copy import deepcopy
+    date_alt = deepcopy(date)
+    date_alt.set_time_to_day_start()
+    return self.daily_panchaangas.get(date_alt.get_date_str(), None)
+
+  def pre_sunset_daily_panchaanga_for_jd(self, jd):
+    panchaanga = self.daily_panchaanga_for_jd(jd=jd)
+    if panchaanga.jd_sunset >= jd:
+      return panchaanga
+    else:
+      return self.daily_panchaanga_for_date(date=panchaanga.date + 1)
+
+  def post_sunrise_daily_panchaanga_for_jd(self, jd):
+    panchaanga = self.daily_panchaanga_for_jd(jd=jd)
+    if panchaanga.jd_sunrise <= jd:
+      return panchaanga
+    else:
+      return self.daily_panchaanga_for_date(date=panchaanga.date - 1)
+
   def get_angas_for_interval_boundaries(self, d, get_anga_func, interval_type):
     """Get anga data at various points.
     

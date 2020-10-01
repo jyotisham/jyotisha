@@ -9,7 +9,6 @@ from jyotisha.panchaanga.temporal import interval, PanchaangaApplier, tithi
 from jyotisha.panchaanga.temporal import time
 from jyotisha.panchaanga.temporal import zodiac
 from jyotisha.panchaanga.temporal.festival import rules
-from jyotisha.panchaanga.temporal.festival.rules import get_festival_rules_dict
 from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision, AngaSpan
 from sanskrit_data.schema import common
 
