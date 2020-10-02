@@ -63,7 +63,7 @@ class TithiFestivalAssigner(FestivalAssigner):
         elif tithi_moonrise_tmrw == 19:
           chaturthi_name = '%s%s' % ('aGgArakI~' if self.daily_panchaangas[d + 1].date.get_weekday() == 2 else '', chaturthi_name)
           self.daily_panchaangas[d + 1]. festivals.append(FestivalInstance(name=chaturthi_name + 'saGkaTahara-caturthI-vratam'))
-          # self.daily_panchaangas[d].lunar_month and[d + 1] are same, so checking [d] is enough
+          # self.date_str_to_panchaanga[d].lunar_month and[d + 1] are same, so checking [d] is enough
           if self.daily_panchaangas[d].lunar_month == 5:
             chaturthi_name = '%s%s' % ('aGgArakI~' if self.daily_panchaangas[d].date.get_weekday() == 2 else '', chaturthi_name)
             self.daily_panchaangas[d + 1].festivals[-1] = FestivalInstance(name=chaturthi_name + 'mahAsaGkaTahara-caturthI-vratam')

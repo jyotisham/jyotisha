@@ -13,7 +13,7 @@
     "jsonClass": "ComputationSystem",
     "lunar_month_assigner_type": "SiderialSolarBasedAssigner"
   },
-  "daily_panchaangas": {
+  "date_str_to_panchaanga": {
     "2017-12-31": {
       "angas": {
         "jsonClass": "DayAngas",

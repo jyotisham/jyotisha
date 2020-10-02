@@ -215,7 +215,7 @@ def compute_events(panchaanga, json_file):
 
   for festival_name in panchaanga.festival_id_to_instance:
     for j in range(0, len(panchaanga.festival_id_to_instance[festival_name])):
-      panchaanga.daily_panchaangas[panchaanga.festival_id_to_instance[festival_name].days[j].get_date_str()].festivals.append(FestivalInstance(name=festival_name))
+      panchaanga.date_str_to_panchaanga[panchaanga.festival_id_to_instance[festival_name].days[j].get_date_str()].festivals.append(FestivalInstance(name=festival_name))
 
 
 def computeIcsCalendar(panchaanga, ics_file_name):

@@ -63,7 +63,7 @@ class Panchaanga(common.JsonObject):
     nDays = self.duration_to_calculate
 
     # INITIALISE VARIABLES
-    self.daily_panchaangas: dict[str, daily.DailyPanchanga] = {}
+    self.date_str_to_panchaanga: dict[str, daily.DailyPanchanga] = {}
 
     # Computing solar month details for Dec 31
     # rather than Jan 1, since we have an always increment
@@ -89,17 +89,17 @@ class Panchaanga(common.JsonObject):
       # The below block is temporary code to make the transition seamless.
       date_d = time.jd_to_utc_gregorian(self.jd_start + d)
       date_d.set_time_to_day_start()
-      previous_daily_panchaanga = self.daily_panchaangas.get(date_d.offset_date(days=-1).get_date_str(), None)
+      previous_daily_panchaanga = self.date_str_to_panchaanga.get(date_d.offset_date(days=-1).get_date_str(), None)
       daily_panchaanga = daily.DailyPanchanga(city=self.city, date=date_d,
                                                            ayanaamsha_id=self.ayanaamsha_id,
 previous_day_panchaanga=previous_daily_panchaanga)
       if compute_lagnas:
         daily_panchaanga.get_lagna_data()
-      self.daily_panchaangas[date_d.get_date_str()] = daily_panchaanga
+      self.date_str_to_panchaanga[date_d.get_date_str()] = daily_panchaanga
 
   @methodtools.lru_cache(maxsize=10)
   def daily_panchaangas_sorted(self):
-    return sorted(self.daily_panchaangas.values())
+    return sorted(self.date_str_to_panchaanga.values())
 
   def daily_panchaanga_for_jd(self, jd):
     date = self.city.timezone.julian_day_to_local_time(julian_day=jd)
@@ -109,7 +109,7 @@ previous_day_panchaanga=previous_daily_panchaanga)
     from copy import deepcopy
     date_alt = deepcopy(date)
     date_alt.set_time_to_day_start()
-    return self.daily_panchaangas.get(date_alt.get_date_str(), None)
+    return self.date_str_to_panchaanga.get(date_alt.get_date_str(), None)
 
   def pre_sunset_daily_panchaanga_for_jd(self, jd):
     panchaanga = self.daily_panchaanga_for_jd(jd=jd)
@@ -265,7 +265,7 @@ previous_day_panchaanga=previous_daily_panchaanga)
 
   def _reset_festivals(self, compute_lagnams=False):
     self.festival_id_to_instance = {}
-    for daily_panchaanga in self.daily_panchaangas.values():
+    for daily_panchaanga in self.date_str_to_panchaanga.values():
       daily_panchaanga.festivals = []
 
   def _refill_daily_panchaangas(self):
@@ -273,12 +273,12 @@ previous_day_panchaanga=previous_daily_panchaanga)
     
     Inverse of _force_non_redundancy_in_daily_panchaangas
     """
-    for daily_panchaanga in self.daily_panchaangas.values():
+    for daily_panchaanga in self.date_str_to_panchaanga.values():
       daily_panchaanga.city = self.city
 
   def _force_non_redundancy_in_daily_panchaangas(self):
     """Avoids duplication for memory efficiency."""
-    for daily_panchaanga in self.daily_panchaangas.values():
+    for daily_panchaanga in self.date_str_to_panchaanga.values():
       daily_panchaanga.city = None
 
   @classmethod

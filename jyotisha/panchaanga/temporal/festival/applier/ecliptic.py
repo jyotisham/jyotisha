@@ -27,10 +27,10 @@ class EclipticFestivalAssigner(FestivalAssigner):
     pass
     # TODO: Move logic for below fests to JSON.
       # fest = FestivalInstance(name=names.NAMES['RTU_MASA_NAMES']["hk"][transit.value_2], interval=Interval(jd_start=transit.jd, jd_end=None))
-      #     self.daily_panchaangas[fday_nirayana].append('dakSiNAyana-puNyakAlaH')
+      #     self.date_str_to_panchaanga[fday_nirayana].append('dakSiNAyana-puNyakAlaH')
       #   else:
-      #     self.daily_panchaangas[fday_nirayana - 1].append('dakSiNAyana-puNyakAlaH')
-      #     self.daily_panchaangas[fday_nirayana + 1].append('uttarAyaNa-puNyakAlaH/mitrOtsavaH')
+      #     self.date_str_to_panchaanga[fday_nirayana - 1].append('dakSiNAyana-puNyakAlaH')
+      #     self.date_str_to_panchaanga[fday_nirayana + 1].append('uttarAyaNa-puNyakAlaH/mitrOtsavaH')
 
   def compute_solar_eclipses(self):
     jd = self.panchaanga.jd_start
@@ -91,12 +91,12 @@ class EclipticFestivalAssigner(FestivalAssigner):
           jd += MIN_DAYS_NEXT_ECLIPSE
           continue
         fday = int(floor(jd_eclipse_lunar_start) - floor(self.panchaanga.jd_start) + 1)
-        # print '%%', jd, fday, self.daily_panchaangas[fday].jd_sunrise,
-        # self.daily_panchaangas[fday-1].jd_sunrise
+        # print '%%', jd, fday, self.date_str_to_panchaanga[fday].jd_sunrise,
+        # self.date_str_to_panchaanga[fday-1].jd_sunrise
         if (jd < (self.daily_panchaangas[fday].jd_sunrise + tz_off / 24.0)):
           fday -= 1
-        # print '%%', jd, fday, self.daily_panchaangas[fday].jd_sunrise,
-        # self.daily_panchaangas[fday-1].jd_sunrise, eclipse_lunar_start,
+        # print '%%', jd, fday, self.date_str_to_panchaanga[fday].jd_sunrise,
+        # self.date_str_to_panchaanga[fday-1].jd_sunrise, eclipse_lunar_start,
         # eclipse_lunar_end
         jd_moonrise_eclipse_day = self.panchaanga.city.get_rising_time(julian_day_start=self.daily_panchaangas[fday].jd_sunrise,
                                                             body=Graha.MOON) + (tz_off / 24.0)

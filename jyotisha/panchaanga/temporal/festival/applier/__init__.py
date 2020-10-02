@@ -477,7 +477,7 @@ class MiscFestivalAssigner(FestivalAssigner):
 
     for _, fest in self.panchaanga.festival_id_to_instance.items():
       for fest_day in fest.days:
-        self.panchaanga.daily_panchaangas[fest_day.get_date_str()].festivals.append(fest)
+        self.panchaanga.date_str_to_panchaanga[fest_day.get_date_str()].festivals.append(fest)
 
 
 # Essential for depickling to work.
