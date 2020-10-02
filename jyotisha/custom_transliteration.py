@@ -26,6 +26,7 @@ def romanise(iast_text):
 
 
 def tr(text, script, titled=True):
+  # TODO: Fix this ill designed horrendous long function which is used for both tex and non tex transliteration. Tex code should not even be transliterated, and should rather be built with transliterated text.
   # titled = True seems to be primarily for NOT TitleCasing IAST Shlokas...
   if script == 'hk':
     script = sanscript.HK
