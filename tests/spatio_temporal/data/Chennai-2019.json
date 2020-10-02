@@ -54617,7 +54617,7 @@
             }
           ],
           "jsonClass": "FestivalInstance",
-          "name": "ta__zrI~jayantI"
+          "name": "zrI-jayantI"
         },
         {
           "days": [
@@ -97870,19 +97870,6 @@
       "jsonClass": "FestivalInstance",
       "name": "ta__vir2an2miNDa nAyan2Ar (5) gurupUjai"
     },
-    "ta__zrI~jayantI": {
-      "days": [
-        {
-          "day": 24,
-          "jsonClass": "Date",
-          "month": 8,
-          "weekday": 6,
-          "year": 2019
-        }
-      ],
-      "jsonClass": "FestivalInstance",
-      "name": "ta__zrI~jayantI"
-    },
     "tilapadma-dvAdazI/tilOtpatti": {
       "days": [
         {
@@ -99782,6 +99769,19 @@
       ],
       "jsonClass": "FestivalInstance",
       "name": "zrAvaNa-amAvAsyA"
+    },
+    "zrI-jayantI": {
+      "days": [
+        {
+          "day": 24,
+          "jsonClass": "Date",
+          "month": 8,
+          "weekday": 6,
+          "year": 2019
+        }
+      ],
+      "jsonClass": "FestivalInstance",
+      "name": "zrI-jayantI"
     },
     "zrIkRSNadEvarAya-rAjyAbhiSEkaH": {
       "days": [

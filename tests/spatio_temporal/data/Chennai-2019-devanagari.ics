@@ -1310,10 +1310,10 @@ BEGIN:VEVENT
 SUMMARY:महोदय-पुण्यकालः
 DTSTART;VALUE=DATE:20190204
 DTEND;VALUE=DATE:20190205
-DESCRIPTION:A rare combination of Pausha masa\, Shravana nakshatra\, Vyat
- ipata yoga and Monday.<br/><br/>https://github.com/sanskrit-coders/adyati
- thi/tree/master/other/rare-days/combinations#mahodaya-puṇyakālaḥ<br/>
- <br/>#RareDays #Combinations
+DESCRIPTION:A rare combination of Pausha masa\, Shravana nakshatra\, Vyati
+ pata yoga and Monday.<br/><br/>https://github.com/sanskrit-coders/adyatith
+ i/tree/master/other/rare-days/combinations#mahodaya-puṇyakālaḥ<br/><b
+ r/>#RareDays #Combinations
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11908,13 +11908,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ஶ்ரீ ஜயந்தீ
+SUMMARY:शनिरोहिणी-पुण्यकालः
 DTSTART;VALUE=DATE:20190824
 DTEND;VALUE=DATE:20190825
-DESCRIPTION:Observed on Rohiṇī nakṣhatram day of Siṃhaḥ (solar) m
- onth (nishita/puurvaviddha (default)).<br/><br/><br/>https://github.com/sa
- nskrit-coders/adyatithi/tree/master/sidereal_solar_month/nakshatra/05/04#
- śrī-jayantī<br/><br/>#Dashavataram #CommonFestivals
+DESCRIPTION:When Rohini nakshatra falls on a Saturday\, it is a special 
+ पुण्यकालः.<br/><br/>https://github.com/sanskrit-coders/a
+ dyatithi/tree/master/other/rare-days/combinations#śanirohiṇī-puṇyak
+ ālaḥ<br/><br/>#RareDays #Combinations
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11924,13 +11924,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:शनिरोहिणी-पुण्यकालः
+SUMMARY:श्री-जयन्ती
 DTSTART;VALUE=DATE:20190824
 DTEND;VALUE=DATE:20190825
-DESCRIPTION:When Rohini nakshatra falls on a Saturday\, it is a special 
- पुण्यकालः.<br/><br/>https://github.com/sanskrit-coders/a
- dyatithi/tree/master/other/rare-days/combinations#śanirohiṇī-puṇyak
- ālaḥ<br/><br/>#RareDays #Combinations
+DESCRIPTION:Observed on Rohiṇī nakṣhatram day of Siṃhaḥ (solar) m
+ onth (nishita/puurvaviddha (default)).<br/><br/><br/>https://github.com/sa
+ nskrit-coders/adyatithi/tree/master/sidereal_solar_month/nakshatra/05/04#
+ śrī-jayantī<br/><br/>#Dashavataram #CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
