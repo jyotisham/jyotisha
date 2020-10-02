@@ -93,7 +93,7 @@ def compute_events(panchaanga, json_file):
       if anga_type == 'day' and month_type == 'sidereal_solar_month' \
           and daily_panchaanga.solar_sidereal_date_sunset.month == month_num:
         if daily_panchaanga.solar_sidereal_date_sunset.day == angam_num:
-          panchaanga.festival_id_to_instance[event_name] = festival.FestivalInstance(name=event_name, days=[daily_panchaangas[d].date])
+          panchaanga.festival_id_to_instance[event_name] = festival.FestivalInstance(id=event_name, days=[daily_panchaangas[d].date])
       elif (month_type == 'lunar_month' and daily_panchaanga.lunar_month == month_num) or \
           (month_type == 'sidereal_solar_month' and daily_panchaanga.solar_sidereal_date_sunset.month == month_num):
         if anga_type == 'tithi':
@@ -215,7 +215,8 @@ def compute_events(panchaanga, json_file):
 
   for festival_name in panchaanga.festival_id_to_instance:
     for j in range(0, len(panchaanga.festival_id_to_instance[festival_name])):
-      panchaanga.date_str_to_panchaanga[panchaanga.festival_id_to_instance[festival_name].days[j].get_date_str()].festivals.append(FestivalInstance(name=festival_name))
+      panchaanga.date_str_to_panchaanga[panchaanga.festival_id_to_instance[festival_name].days[j].get_date_str()].festivals.append(FestivalInstance(
+        id=festival_name))
 
 
 def computeIcsCalendar(panchaanga, ics_file_name):

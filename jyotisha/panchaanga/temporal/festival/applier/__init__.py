@@ -58,7 +58,7 @@ class FestivalAssigner(PanchaangaApplier):
           self.panchaanga.festival_id_to_instance[festival_name].days.remove(self.daily_panchaangas[d-1].date)
         self.panchaanga.festival_id_to_instance[festival_name].days.append(self.daily_panchaangas[d].date)
     else:
-      self.panchaanga.festival_id_to_instance[festival_name] = festival.FestivalInstance(name=festival_name, days=[self.daily_panchaangas[d].date])
+      self.panchaanga.festival_id_to_instance[festival_name] = festival.FestivalInstance(id=festival_name, days=[self.daily_panchaangas[d].date])
 
   def assign_festivals_from_rules(self, festival_rules, debug_festivals=False):
     for d in range(1, self.panchaanga.duration + 1):
@@ -377,9 +377,11 @@ class FestivalAssigner(PanchaangaApplier):
             if festival_name_updated in self.panchaanga.festival_id_to_instance:
               logging.warning('Overwriting festival day for %s %s with %s.' % (
                 festival_name_updated, self.panchaanga.festival_id_to_instance[festival_name_updated].days[0], assigned_day))
-              self.panchaanga.festival_id_to_instance[festival_name_updated] = festival.FestivalInstance(name=festival_name_updated, days=[assigned_day])
+              self.panchaanga.festival_id_to_instance[festival_name_updated] = festival.FestivalInstance(
+                id=festival_name_updated, days=[assigned_day])
             else:
-              self.panchaanga.festival_id_to_instance[festival_name_updated] = festival.FestivalInstance(name=festival_name_updated, days=[assigned_day])
+              self.panchaanga.festival_id_to_instance[festival_name_updated] = festival.FestivalInstance(
+                id=festival_name_updated, days=[assigned_day])
         del (self.panchaanga.festival_id_to_instance[festival_name])
 
   def cleanup_festivals(self, debug=False):
@@ -443,7 +445,7 @@ class MiscFestivalAssigner(FestivalAssigner):
       logging.error('yajurvEda-upAkarma not in festivals!')
     else:
       # Extended for longer calendars where more than one upAkarma may be there
-      self.panchaanga.festival_id_to_instance['varalakSmI-vratam'] = festival.FestivalInstance(name='varalakSmI-vratam', days=[])
+      self.panchaanga.festival_id_to_instance['varalakSmI-vratam'] = festival.FestivalInstance(id='varalakSmI-vratam', days=[])
       for d in self.panchaanga.festival_id_to_instance['yajurvEda-upAkarma'].days:
         self.panchaanga.festival_id_to_instance['varalakSmI-vratam'].days.append(d - ((d.get_weekday() - 5) % 7))
       # self.panchaanga.festival_id_to_instance['varalakSmI-vratam'].days = [self.panchaanga.festival_id_to_instance['yajurvEda-upAkarma'].days[0] -
@@ -467,9 +469,9 @@ class MiscFestivalAssigner(FestivalAssigner):
           logging.error('Relative festival %s not in festival_id_to_instance! Found more than one approximate match: %s' % (
             rel_festival_name, str(matched_festivals)))
         else:
-          self.panchaanga.festival_id_to_instance[festival_name] = festival.FestivalInstance(name=festival_name, days=[x + offset for x in self.panchaanga.festival_id_to_instance[matched_festivals[0]].days])
+          self.panchaanga.festival_id_to_instance[festival_name] = festival.FestivalInstance(id=festival_name, days=[x + offset for x in self.panchaanga.festival_id_to_instance[matched_festivals[0]].days])
       else:
-        self.panchaanga.festival_id_to_instance[festival_name] = festival.FestivalInstance(name=festival_name, days=[x + offset for x in self.panchaanga.festival_id_to_instance[rel_festival_name].days])
+        self.panchaanga.festival_id_to_instance[festival_name] = festival.FestivalInstance(id=festival_name, days=[x + offset for x in self.panchaanga.festival_id_to_instance[rel_festival_name].days])
 
     for _, fest in self.panchaanga.festival_id_to_instance.items():
       for fest_day in fest.days:

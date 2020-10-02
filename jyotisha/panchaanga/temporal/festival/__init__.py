@@ -1,7 +1,7 @@
 import logging
 import sys
 
-from indic_transliteration import sanscript
+from indic_transliteration import sanscript, language_code_to_script
 
 from jyotisha import custom_transliteration
 from sanskrit_data.schema import common
@@ -16,38 +16,33 @@ festival_id_to_json = {}
 
 
 class FestivalInstance(common.JsonObject):
-  def __init__(self, name, days=None, interval=None):
-    self.name = name
+  def __init__(self, id, days=None, interval=None):
+    self.name = id
     # A single festival may span multiple days.
     self.days = [] if days is None else days
     self.interval = interval
 
-  def transliterate_names(self, scripts):
-    # TODO: Not perfect. Misses corner cases, not general.
+  def get_names(self):
     from jyotisha.panchaanga.temporal.festival import rules
     festival_rules = rules.festival_rules_all
     fest_details = festival_rules.get(self.name, rules.HinduCalendarEvent())
     if fest_details.names is None:
       fest_details.names = {"sa": [self.name]}
-    def get_best_transliteration(language, name):
-      if language == "ta" and sanscript.TAMIL in scripts:
-        return custom_transliteration.tr(text=name, script=sanscript.TAMIL)
-      if language == "sa" and sanscript.DEVANAGARI in scripts:
-        return custom_transliteration.tr(text=name, script=sanscript.DEVANAGARI)
-      return custom_transliteration.tr(text=name, script=scripts[0])
-
     import copy
     names = copy.deepcopy(fest_details.names)
-    for language in names:
-      names[language] = [get_best_transliteration(language=language, name=name) for name in names[language]]
     return names
 
   def get_best_transliterated_name(self, scripts):
-    names = self.transliterate_names(scripts=scripts)
-    if "ta" in names and sanscript.TAMIL in scripts:
-      return {"script": sanscript.TAMIL, "text": names["ta"][0]}
-    else:
-      return {"script": scripts[0], "text": names["sa"][0]}
+    names = self.get_names()
+    languages = list(names.keys())
+    language_scripts = [language_code_to_script.get(language, scripts[0]) for language in languages]
+    for script in scripts:
+      try:
+        i = language_scripts.index(script)
+        return {"script": script, "text": custom_transliteration.tr(text=names[languages[i]][0], script=script)}
+      except ValueError:
+        continue
+    return None
 
   def tex_code(self, scripts, timezone):
     name_details = self.get_best_transliterated_name(scripts=scripts)
@@ -79,13 +74,18 @@ class FestivalInstance(common.JsonObject):
 
 
 class TransitionFestivalInstance(FestivalInstance):
-  def __init__(self, name, status_1_hk, status_2_hk):
-    super(TransitionFestivalInstance, self).__init__(name=name)
+  def __init__(self, id, status_1_hk, status_2_hk):
+    super(TransitionFestivalInstance, self).__init__(id=id)
     self.status_1_hk = status_1_hk
     self.status_2_hk = status_2_hk
 
   def tex_code(self, scripts, timezone=None):
-    return custom_transliteration.tr("%s~%s##\\To{}##%s" % (self.name, self.status_1_hk, self.status_2_hk), script=scripts[0])
+    name_details = self.get_best_transliterated_name(scripts=scripts)
+    if name_details["script"] == sanscript.TAMIL:
+      name = '\\tamil{%s}' % name_details["text"]
+    else:
+      name = name_details["text"]
+    return custom_transliteration.tr("%s~%s##\\To{}##%s" % (name, self.status_1_hk, self.status_2_hk), script=scripts[0])
 
 # Essential for depickling to work.
 common.update_json_class_index(sys.modules[__name__])
