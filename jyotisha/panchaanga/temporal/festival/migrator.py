@@ -96,8 +96,8 @@ def append_to_event_group_README(event, event_file_name):
 
       if event_dict['timing']['timing']['anga_type'] == 'tithi':
         angam += NAMES['TITHI_NAMES'][sanscript.IAST][event_dict['timing']['anga_number']] + ' tithi'
-      elif event_dict['timing']['timing']['anga_type'] == 'nakshatram':
-        angam += NAMES['NAKSHATRAM_NAMES'][sanscript.IAST][event_dict['timing']['anga_number']] + ' nakṣhatram day'
+      elif event_dict['timing']['timing']['anga_type'] == 'nakshatra':
+        angam += NAMES['NAKSHATRA_NAMES'][sanscript.IAST][event_dict['timing']['anga_number']] + ' nakṣhatram day'
       elif event_dict['timing']['timing']['anga_type'] == 'day':
         angam += 'day %d' % event_dict['timing']['anga_number']
     else:

@@ -44,7 +44,7 @@ class NakshatraAssigner(PanchaangaApplier):
           self.panchaanga.tyajyam_data[d - 1] += [(tyaajya_start, tyaajya_end)]
           if debug:
             logging.debug('![%3d]%04d-%02d-%02d: %s (>>%s), %s–%s' %
-                          (d - 1, y, m, dt - 1, names.NAMES['NAKSHATRAM_NAMES']['hk'][n],
+                          (d - 1, y, m, dt - 1, names.NAMES['NAKSHATRA_NAMES']['hk'][n],
                            Hour(24 * (t_end - self.daily_panchaangas[d - 1].julian_day_start)).toString(format='hh:mm*'),
                            Hour(24 * (tyaajya_start - self.daily_panchaangas[d - 1].julian_day_start)).toString(format='hh:mm*'),
                            Hour(24 * (tyaajya_end - self.daily_panchaangas[d - 1].julian_day_start)).toString(format='hh:mm*')))
@@ -52,7 +52,7 @@ class NakshatraAssigner(PanchaangaApplier):
           self.panchaanga.tyajyam_data[d] = [(tyaajya_start, tyaajya_end)]
           if debug:
             logging.debug(' [%3d]%04d-%02d-%02d: %s (>>%s), %s–%s' %
-                          (d, y, m, dt, names.NAMES['NAKSHATRAM_NAMES']['hk'][n],
+                          (d, y, m, dt, names.NAMES['NAKSHATRA_NAMES']['hk'][n],
                            Hour(24 * (t_end - jd)).toString(format='hh:mm*'),
                            Hour(24 * (tyaajya_start - jd)).toString(format='hh:mm*'),
                            Hour(24 * (tyaajya_end - jd)).toString(format='hh:mm*')))
@@ -65,7 +65,7 @@ class NakshatraAssigner(PanchaangaApplier):
         self.panchaanga.tyajyam_data[d] += [(tyaajya_start, tyaajya_end)]
         if debug:
           logging.debug(' [%3d]            %s (>>%s), %s–%s' %
-                        (d, names.NAMES['NAKSHATRAM_NAMES']['hk'][n2],
+                        (d, names.NAMES['NAKSHATRA_NAMES']['hk'][n2],
                          Hour(24 * (t_end - jd)).toString(format='hh:mm*'),
                          Hour(24 * (tyaajya_start - jd)).toString(format='hh:mm*'),
                          Hour(24 * (tyaajya_end - jd)).toString(format='hh:mm*')))
@@ -86,7 +86,7 @@ class NakshatraAssigner(PanchaangaApplier):
           self.panchaanga.amrita_data[d - 1] += [(amrita_start, amrita_end)]
           if debug:
             logging.debug('![%3d]%04d-%02d-%02d: %s (>>%s), %s–%s' %
-                          (d - 1, y, m, dt - 1, names.NAMES['NAKSHATRAM_NAMES']['hk'][n],
+                          (d - 1, y, m, dt - 1, names.NAMES['NAKSHATRA_NAMES']['hk'][n],
                            Hour(24 * (t_end - self.daily_panchaangas[d - 1].julian_day_start)).toString(format='hh:mm*'),
                            Hour(24 * (amrita_start - self.daily_panchaangas[d - 1].julian_day_start)).toString(format='hh:mm*'),
                            Hour(24 * (amrita_end - self.daily_panchaangas[d - 1].julian_day_start)).toString(format='hh:mm*')))
@@ -94,7 +94,7 @@ class NakshatraAssigner(PanchaangaApplier):
           self.panchaanga.amrita_data[d] = [(amrita_start, amrita_end)]
           if debug:
             logging.debug(' [%3d]%04d-%02d-%02d: %s (>>%s), %s–%s' %
-                          (d, y, m, dt, names.NAMES['NAKSHATRAM_NAMES']['hk'][n],
+                          (d, y, m, dt, names.NAMES['NAKSHATRA_NAMES']['hk'][n],
                            Hour(24 * (t_end - jd)).toString(format='hh:mm*'),
                            Hour(24 * (amrita_start - jd)).toString(format='hh:mm*'),
                            Hour(24 * (amrita_end - jd)).toString(format='hh:mm*')))
@@ -107,7 +107,7 @@ class NakshatraAssigner(PanchaangaApplier):
         self.panchaanga.amrita_data[d] += [(amrita_start, amrita_end)]
         if debug:
           logging.debug(' [%3d]            %s (>>%s), %s–%s' %
-                        (d, names.NAMES['NAKSHATRAM_NAMES']['hk'][n2],
+                        (d, names.NAMES['NAKSHATRA_NAMES']['hk'][n2],
                          Hour(24 * (t_end - jd)).toString(format='hh:mm*'),
                          Hour(24 * (amrita_start - jd)).toString(format='hh:mm*'),
                          Hour(24 * (amrita_end - jd)).toString(format='hh:mm*')))

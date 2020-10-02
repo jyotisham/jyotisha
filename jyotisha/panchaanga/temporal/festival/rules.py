@@ -46,7 +46,7 @@ class HinduCalendarEventTiming(common.JsonObject):
       },
       "anga_type": {
         "type": "string",
-        "enum": ["tithi", "nakshatram", "yoga", "day"],
+        "enum": ["tithi", "nakshatra", "yoga", "day"],
         "description": "",
       },
       "anga_number": {
@@ -232,8 +232,8 @@ class HinduCalendarEvent(common.JsonObject):
 
       if self.timing.anga_type == 'tithi':
         angam += NAMES['TITHI_NAMES'][sanscript.IAST][self.timing.anga_number] + ' tithi'
-      elif self.timing.anga_type == 'nakshatram':
-        angam += NAMES['NAKSHATRAM_NAMES'][sanscript.IAST][self.timing.anga_number] + ' nakṣhatram day'
+      elif self.timing.anga_type == 'nakshatra':
+        angam += NAMES['NAKSHATRA_NAMES'][sanscript.IAST][self.timing.anga_number] + ' nakṣhatram day'
       elif self.timing.anga_type == 'day':
         angam += 'day %d' % self.timing.anga_number
     else:

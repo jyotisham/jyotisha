@@ -1,4 +1,4 @@
-## KARANAM_NAMES
+## KARANA_NAMES
 (as initialised from `init_names_auto.py`)
 
 | # | devanagari | hk | iast |

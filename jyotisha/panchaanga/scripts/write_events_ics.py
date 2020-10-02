@@ -101,7 +101,7 @@ def compute_events(panchaanga, json_file):
           get_angam_func = lambda x: tithi.get_tithi(x)
           angam_num_pred = (angam_num - 2) % 30 + 1
           angam_num_succ = (angam_num % 30) + 1
-        elif anga_type == 'nakshatram':
+        elif anga_type == 'nakshatra':
           angam_sunrise = daily_panchaanga.angas.nakshatra_at_sunrise
           get_angam_func = lambda x: NakshatraDivision(x, ayanaamsha_id=Ayanamsha.CHITRA_AT_180).get_nakshatra()
           angam_num_pred = (angam_num - 2) % 27 + 1

@@ -51,7 +51,7 @@
 | 6 | स्थिरः | sthiraH | sthiraḥ | ஸ்திரஃ | స్థిరః |
 
 
-## KARANAM_NAMES
+## KARANA_NAMES
 (as initialised from `init_names_auto.py`)
 
 | # | devanagari | hk | iast | tamil | telugu |
@@ -261,7 +261,7 @@
 | 30 | अमावास्या | amAvAsyA | amāvāsyā | அமாவாஸ்யா | అమావాస్యా |
 
 
-## YOGAM_NAMES
+## YOGA_NAMES
 (as initialised from `init_names_auto.py`)
 
 | # | devanagari | hk | iast | tamil | telugu |
@@ -353,7 +353,7 @@
 | 12 | उत्तरायणम् | uttarAyaNam | uttarāyaṇam | உத்தராயணம் | ఉత్తరాయణమ్ |
 
 
-## NAKSHATRAM_NAMES
+## NAKSHATRA_NAMES
 (as initialised from `init_names_auto.py`)
 
 | # | devanagari | hk | iast | tamil | telugu |

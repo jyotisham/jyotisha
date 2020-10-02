@@ -102,21 +102,21 @@ def writeDailyTeX(panchaanga, template_file, time_format="hh:mm", script=sanscri
                           time.Hour(24 * (tithi_end_jd - jd)).toString(
                             format=time_format))
 
-    nakshatram_data_str = ''
-    for nakshatram_ID, nakshatram_end_jd in daily_panchaanga.angas.nakshatras_with_ends:
-      if nakshatram_data_str != '':
-        nakshatram_data_str += '\\hspace{1ex}'
-      nakshatram = jyotisha.names.NAMES['NAKSHATRAM_NAMES'][script][nakshatram_ID]
-      if nakshatram_end_jd is None:
-        nakshatram_data_str = '%s\\mbox{%s\\To{}%s}' % \
-                              (nakshatram_data_str, nakshatram,
+    nakshatra_data_str = ''
+    for nakshatra_ID, nakshatra_end_jd in daily_panchaanga.angas.nakshatras_with_ends:
+      if nakshatra_data_str != '':
+        nakshatra_data_str += '\\hspace{1ex}'
+      nakshatra = jyotisha.names.NAMES['NAKSHATRA_NAMES'][script][nakshatra_ID]
+      if nakshatra_end_jd is None:
+        nakshatra_data_str = '%s\\mbox{%s\\To{}%s}' % \
+                              (nakshatra_data_str, nakshatra,
                                jyotisha.custom_transliteration.tr('ahOrAtram', script))
       else:
-        nakshatram_data_str = '%s\\mbox{%s\\To{}\\textsf{%s (%s)}}' % \
-                              (nakshatram_data_str, nakshatram,
+        nakshatra_data_str = '%s\\mbox{%s\\To{}\\textsf{%s (%s)}}' % \
+                              (nakshatra_data_str, nakshatra,
                                time.Hour(
-                                 24 * (nakshatram_end_jd - daily_panchaanga.jd_sunrise)).toString(format='gg-pp'),
-                               time.Hour(24 * (nakshatram_end_jd - jd)).toString(
+                                 24 * (nakshatra_end_jd - daily_panchaanga.jd_sunrise)).toString(format='gg-pp'),
+                               time.Hour(24 * (nakshatra_end_jd - jd)).toString(
                                  format=time_format))
 
     rashi_data_str = ''
@@ -163,7 +163,7 @@ def writeDailyTeX(panchaanga, template_file, time_format="hh:mm", script=sanscri
     for numKaranam, (karanam_ID, karanam_end_jd) in enumerate(daily_panchaanga.angas.karanas_with_ends):
       # if numKaranam == 1:
       #     karanam_data_str += '\\hspace{1ex}'
-      karanam = jyotisha.names.NAMES['KARANAM_NAMES'][script][karanam_ID]
+      karanam = jyotisha.names.NAMES['KARANA_NAMES'][script][karanam_ID]
       if karanam_end_jd is None:
         karanam_data_str = '%s\\mbox{%s\\To{}%s}' % \
                            (karanam_data_str, karanam,
@@ -177,7 +177,7 @@ def writeDailyTeX(panchaanga, template_file, time_format="hh:mm", script=sanscri
                               format=time_format))
     if karanam_end_jd is not None:
       karanam_data_str += '\\mbox{%s\\Too{}}' % (
-        jyotisha.names.NAMES['KARANAM_NAMES'][script][(karanam_ID % 60) + 1])
+        jyotisha.names.NAMES['KARANA_NAMES'][script][(karanam_ID % 60) + 1])
 
     sunrise = time.Hour(24 * (daily_panchaanga.jd_sunrise - jd)).toString(
       format=time_format)
@@ -285,11 +285,11 @@ def writeDailyTeX(panchaanga, template_file, time_format="hh:mm", script=sanscri
       file=output_stream)
     if compute_lagnams:
       print('{\\tnykdata{%s}%%\n{%s}{%s}%%\n{%s}%%\n{%s}{%s}\n}'
-            % (tithi_data_str, nakshatram_data_str, rashi_data_str, yoga_data_str,
+            % (tithi_data_str, nakshatra_data_str, rashi_data_str, yoga_data_str,
                karanam_data_str, lagna_data_str), file=output_stream)
     else:
       print('{\\tnykdata{%s}%%\n{%s}{%s}%%\n{%s}%%\n{%s}{\\scriptsize %s}\n}'
-            % (tithi_data_str, nakshatram_data_str, rashi_data_str, yoga_data_str,
+            % (tithi_data_str, nakshatra_data_str, rashi_data_str, yoga_data_str,
                karanam_data_str, ''), file=output_stream)
 
     # Using set as an ugly workaround since we may have sometimes assigned the same

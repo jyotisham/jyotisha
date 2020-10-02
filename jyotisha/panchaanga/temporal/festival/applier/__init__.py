@@ -139,7 +139,7 @@ class FestivalAssigner(PanchaangaApplier):
             angam_data = [d.angas.tithis_with_ends for d in self.daily_panchaangas]
             get_angam_func = lambda x: temporal.tithi.get_tithi(x)
             num_angams = 30
-          elif anga_type == 'nakshatram':
+          elif anga_type == 'nakshatra':
             angam_sunrise = [d.nakshatra_at_sunrise for d in self.daily_panchaangas]
             angam_data = [d.angas.nakshatras_with_ends for d in self.daily_panchaangas]
             get_angam_func = lambda x: NakshatraDivision(x, ayanaamsha_id=self.ayanaamsha_id).get_nakshatra()
@@ -406,7 +406,7 @@ class MiscFestivalAssigner(FestivalAssigner):
     super(MiscFestivalAssigner, self).__init__(panchaanga=panchaanga)
   
   def assign_all(self, debug=False):
-    self.assign_agni_nakshatram(debug_festivals=debug)
+    self.assign_agni_nakshatra(debug_festivals=debug)
     # ASSIGN ALL FESTIVALS FROM adyatithi submodule
     # festival_rules = get_festival_rules_dict(os.path.join(CODE_ROOT, 'panchaanga/data/festival_rules_test.json'))
     festival_rules = {**rules.festival_rules_solar, **rules.festival_rules_lunar}
@@ -416,12 +416,12 @@ class MiscFestivalAssigner(FestivalAssigner):
     self.assign_festival_numbers(festival_rules, debug_festivals=debug)
     
 
-  def assign_agni_nakshatram(self, debug_festivals=False):
+  def assign_agni_nakshatra(self, debug_festivals=False):
     agni_jd_start = agni_jd_end = None
     for d in range(1, self.panchaanga.duration + 1):
       [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
 
-      # AGNI NAKSHATRAM
+      # AGNI nakshatra
       # Arbitrarily checking after Mesha 10! Agni Nakshatram can't start earlier...
       if self.daily_panchaangas[d].solar_sidereal_date_sunset.month == 1 and self.daily_panchaangas[d].solar_sidereal_date_sunset.day == 10:
         agni_jd_start, dummy = AngaSpan.find(

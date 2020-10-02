@@ -74,11 +74,11 @@ class AngaType(JsonObject):
 
 AngaType.TITHI = AngaType(name='TITHI', arc_length=360.0 / 30.0, weight_moon=1, weight_sun=-1)
 AngaType.TITHI_PADA = AngaType(name='TITHI_PADA', arc_length=360.0 / 120.0, weight_moon=1, weight_sun=-1)
-AngaType.NAKSHATRA = AngaType(name='NAKSHATRAM', arc_length=360.0 / 27.0, weight_moon=1, weight_sun=0)
+AngaType.NAKSHATRA = AngaType(name='nakshatra', arc_length=360.0 / 27.0, weight_moon=1, weight_sun=0)
 AngaType.NAKSHATRA_PADA = AngaType(name='NAKSHATRA_PADA', arc_length=360.0 / 108.0, weight_moon=1, weight_sun=0)
 AngaType.RASHI = AngaType(name='RASHI', arc_length=360.0 / 12.0, weight_moon=1, weight_sun=0)
 AngaType.YOGA = AngaType(name='YOGA', arc_length=360.0 / 27.0, weight_moon=1, weight_sun=1)
-AngaType.KARANA = AngaType(name='KARANAM', arc_length=360.0 / 60.0, weight_moon=1, weight_sun=-1)
+AngaType.KARANA = AngaType(name='KARANA', arc_length=360.0 / 60.0, weight_moon=1, weight_sun=-1)
 AngaType.SOLAR_MONTH = AngaType(name='SOLAR_MONTH', arc_length=360.0 / 12.0, weight_moon=0, weight_sun=1)
 AngaType.SOLAR_NAKSH = AngaType(name='SOLAR_NAKSH', arc_length=360.0 / 27.0, weight_moon=0, weight_sun=1)
 AngaType.SOLAR_NAKSH_PADA = AngaType(name='SOLAR_NAKSH_PADA', arc_length=360.0 / 108.0, weight_moon=0, weight_sun=1)
@@ -136,7 +136,7 @@ class NakshatraDivision(common.JsonObject):
 
       Args:
         :param anga_type: One of the pre-defined tuple-valued constants in the panchaanga
-        class, such as TITHI, NAKSHATRAM, YOGA, KARANAM or SOLAR_MONTH
+        class, such as TITHI, nakshatra, YOGA, KARANA or SOLAR_MONTH
 
       Returns:
         float anga
@@ -284,13 +284,13 @@ class AngaSpanFinder(JsonObject):
     return jd_start
 
   def find(self, jd1: float, jd2: float, target_anga_id: int):
-    """Computes anga spans for angas such as tithi, nakshatram, yoga
+    """Computes anga spans for angas such as tithi, nakshatra, yoga
         and karanam.
 
         Args:
           :param jd1: return the first span that starts after this date
           :param jd2: return the first span that ends before this date
-          :param anga_type: TITHI, NAKSHATRAM, YOGA, KARANAM, SOLAR_MONTH, SOLAR_NAKSH
+          :param anga_type: TITHI, nakshatra, YOGA, KARANA, SOLAR_MONTH, SOLAR_NAKSH
           :param ayanaamsha_id
           :param debug
 
@@ -316,13 +316,13 @@ class AngaSpanFinder(JsonObject):
 class AngaSpan(Interval):
   @classmethod
   def find(cls, jd1: float, jd2: float, anga_type: AngaType, target_anga_id: int, ayanaamsha_id: str, debug: bool = False):
-    """Computes anga spans for angas such as tithi, nakshatram, yoga
+    """Computes anga spans for angas such as tithi, nakshatra, yoga
         and karanam.
 
         Args:
           :param jd1: return the first span that starts after this date
           :param jd2: return the first span that ends before this date
-          :param anga_type: TITHI, NAKSHATRAM, YOGA, KARANAM, SOLAR_MONTH, SOLAR_NAKSH
+          :param anga_type: TITHI, nakshatra, YOGA, KARANA, SOLAR_MONTH, SOLAR_NAKSH
           :param ayanaamsha_id
           :param debug
 

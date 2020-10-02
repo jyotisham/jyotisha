@@ -1,4 +1,4 @@
-## YOGAM_NAMES
+## YOGA_NAMES
 (as initialised from `init_names_auto.py`)
 
 | # | devanagari | hk | iast |

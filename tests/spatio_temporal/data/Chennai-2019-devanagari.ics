@@ -147,9 +147,9 @@ DTSTART;VALUE=DATE:20190104
 DTEND;VALUE=DATE:20190105
 DESCRIPTION:Observed on Jyeṣṭhā nakṣhatram day of Dhanuḥ (solar) 
  month (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-code
- rs/adyatithi/tree/master/sidereal_solar_month/nakshatram/09/18#tôṇḍar
- aḍippôḍiyāḽvār-tirunakṣattiram<br/><br/>#MahapurushaEvents #Azh
- warJayanti
+ rs/adyatithi/tree/master/sidereal_solar_month/nakshatra/09/18#tôṇḍara
+ ḍippôḍiyāḽvār-tirunakṣattiram<br/><br/>#MahapurushaEvents #Azhw
+ arJayanti
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -243,8 +243,8 @@ DTSTART;VALUE=DATE:20190106
 DTEND;VALUE=DATE:20190107
 DESCRIPTION:Observed on Pūrvāṣāḍhā nakṣhatram day of Dhanuḥ (s
  olar) month (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskri
- t-coders/adyatithi/tree/master/sidereal_solar_month/nakshatram/09/20#chāk
- kiya-nāyanār-33-gurupūjai<br/><br/>#NayanarGurupujai
+ t-coders/adyatithi/tree/master/sidereal_solar_month/nakshatra/09/20#chākk
+ iya-nāyanār-33-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -279,8 +279,8 @@ DTSTART;VALUE=DATE:20190108
 DTEND;VALUE=DATE:20190109
 DESCRIPTION:Observed on Śravaṇam nakṣhatram day of every solar month 
  (sangava/puurvaviddha (default)).<br/><br/><br/>https://github.com/sanskri
- t-coders/adyatithi/tree/master/sidereal_solar_month/nakshatram/00/22#śrav
- aṇa-vratam<br/><br/>#SpecialVratam
+ t-coders/adyatithi/tree/master/sidereal_solar_month/nakshatra/00/22#śrava
+ ṇa-vratam<br/><br/>#SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -381,7 +381,7 @@ DTSTART;VALUE=DATE:20190114
 DTEND;VALUE=DATE:20190115
 DESCRIPTION:Observed on Revatī nakṣhatram day of Dhanuḥ (solar) month
   (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-coders/ad
- yatithi/tree/master/sidereal_solar_month/nakshatram/09/27#vāyilār-nāyan
+ yatithi/tree/master/sidereal_solar_month/nakshatra/09/27#vāyilār-nāyan
  ār-49-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -395,7 +395,7 @@ BEGIN:VEVENT
 SUMMARY:भौमाश्विनी-पुण्यकालः
 DTSTART;VALUE=DATE:20190115
 DTEND;VALUE=DATE:20190116
-DESCRIPTION:When Ashwini nakshatram falls on a Tuesday\, it is a special 
+DESCRIPTION:When Ashwini nakshatra falls on a Tuesday\, it is a special 
  पुण्यकालः. Do उपासना of Lakshmi Narasimha.<b
  r/><br/>https://github.com/sanskrit-coders/adyatithi/tree/master/other/rar
  e-days/combinations#bhaumāśvinī-puṇyakālaḥ<br/><br/>#RareDays #Com
@@ -466,9 +466,9 @@ DTSTART;VALUE=DATE:20190115
 DTEND;VALUE=DATE:20190116
 DESCRIPTION:Observed on Aśvinī nakṣhatram day of Makaraḥ (solar) mon
  th (sunrise/puurvaviddha).<br/><br/><br/>https://github.com/sanskrit-coder
- s/adyatithi/tree/master/sidereal_solar_month/nakshatram/10/01#tirunêlveli
- -nêllaiyappar-nêllukku-veli-kaṭṭiya-līlai<br/><br/>#TamilnaduTemple
- Festivals
+ s/adyatithi/tree/master/sidereal_solar_month/nakshatra/10/01#tirunêlveli-
+ nêllaiyappar-nêllukku-veli-kaṭṭiya-līlai<br/><br/>#TamilnaduTempleF
+ estivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -501,8 +501,8 @@ DESCRIPTION:Observed on Kṛttikā nakṣhatram day of every solar month (
  म् for Lord Subrahmanya. Observe fast for the entire day\, and obtain 
  blessings of all the कृत्तिका-स्त्रियः who
   raised स्कन्द after His birth.<br/><br/>https://github.com/sa
- nskrit-coders/adyatithi/tree/master/sidereal_solar_month/nakshatram/00/03#
- kṛttikā-vratam<br/><br/>#SpecialVratam
+ nskrit-coders/adyatithi/tree/master/sidereal_solar_month/nakshatra/00/03#k
+ ṛttikā-vratam<br/><br/>#SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -590,8 +590,8 @@ DTSTART;VALUE=DATE:20190117
 DTEND;VALUE=DATE:20190118
 DESCRIPTION:Observed on Kṛttikā nakṣhatram day of Makaraḥ (solar) m
  onth (sunrise/puurvaviddha).<br/><br/><br/>https://github.com/sanskrit-cod
- ers/adyatithi/tree/master/sidereal_solar_month/nakshatram/10/03#tai-kirutt
- ikai<br/><br/>#TamilnaduTempleFestivals
+ ers/adyatithi/tree/master/sidereal_solar_month/nakshatra/10/03#tai-kirutti
+ kai<br/><br/>#TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -634,9 +634,9 @@ BEGIN:VEVENT
 SUMMARY:पापनाशिनी महाद्वादशी
 DTSTART;VALUE=DATE:20190118
 DTEND;VALUE=DATE:20190119
-DESCRIPTION:Dvadashi tithi\, combined with Rohini nakshatram.<br/><br/>htt
- ps://github.com/sanskrit-coders/adyatithi/tree/master/other/rare-days/comb
- inations#pāpanāśinī-mahādvādaśī<br/><br/>#RareDays #Combinations
+DESCRIPTION:Dvadashi tithi\, combined with Rohini nakshatra.<br/><br/>http
+ s://github.com/sanskrit-coders/adyatithi/tree/master/other/rare-days/combi
+ nations#pāpanāśinī-mahādvādaśī<br/><br/>#RareDays #Combinations
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -682,8 +682,8 @@ DTSTART;VALUE=DATE:20190119
 DTEND;VALUE=DATE:20190120
 DESCRIPTION:Observed on Ārdrā nakṣhatram day of Makaraḥ (solar) mont
  h (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-coders/a
- dyatithi/tree/master/sidereal_solar_month/nakshatram/10/06#arivāṭṭāy
- a-nāyanār-12-gurupūjai<br/><br/>#NayanarGurupujai
+ dyatithi/tree/master/sidereal_solar_month/nakshatra/10/06#arivāṭṭāya
+ -nāyanār-12-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -699,7 +699,7 @@ DTSTART;VALUE=DATE:20190119
 DTEND;VALUE=DATE:20190120
 DESCRIPTION:Observed on Mṛgaśīrṣam nakṣhatram day of Makaraḥ (so
  lar) month (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit
- -coders/adyatithi/tree/master/sidereal_solar_month/nakshatram/10/05#kaṇ
+ -coders/adyatithi/tree/master/sidereal_solar_month/nakshatra/10/05#kaṇ
  ṇappa-nāyanār-9-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -827,8 +827,8 @@ DTSTART;VALUE=DATE:20190121
 DTEND;VALUE=DATE:20190122
 DESCRIPTION:Observed on Puṣyaḥ nakṣhatram day of Makaraḥ (solar) m
  onth (raatrimaana/puurvaviddha).<br/><br/><br/>https://github.com/sanskrit
- -coders/adyatithi/tree/master/sidereal_solar_month/nakshatram/10/08#taipp
- ūcham<br/><br/>#TamilnaduTempleFestivals #CommonFestivals
+ -coders/adyatithi/tree/master/sidereal_solar_month/nakshatra/10/08#taippū
+ cham<br/><br/>#TamilnaduTempleFestivals #CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -946,8 +946,8 @@ DTSTART;VALUE=DATE:20190123
 DTEND;VALUE=DATE:20190124
 DESCRIPTION:Observed on Maghā nakṣhatram day of Makaraḥ (solar) month
   (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-coders/ad
- yatithi/tree/master/sidereal_solar_month/nakshatram/10/10#tirumaḽichaiy
- āḽvār-tirunakṣattiram<br/><br/>#MahapurushaEvents #AzhwarJayanti
+ yatithi/tree/master/sidereal_solar_month/nakshatra/10/10#tirumaḽichaiyā
+ ḽvār-tirunakṣattiram<br/><br/>#MahapurushaEvents #AzhwarJayanti
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1002,7 +1002,7 @@ DTSTART;VALUE=DATE:20190125
 DTEND;VALUE=DATE:20190126
 DESCRIPTION:Observed on Uttaraphalgunī nakṣhatram day of Makaraḥ (sol
  ar) month (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-
- coders/adyatithi/tree/master/sidereal_solar_month/nakshatram/10/12#chaṇ
+ coders/adyatithi/tree/master/sidereal_solar_month/nakshatra/10/12#chaṇ
  ḍeśvara-nāyanār-19-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -1058,8 +1058,8 @@ DESCRIPTION:Observed on Hastaḥ nakṣhatram day of Makaraḥ (solar) mon
  ्रीशेषाद्रिगुरुं वन्दे ब्र
  ह्मीभूतं तपोनिधिम्॥<br/><br/><br/><br/
  >https://github.com/sanskrit-coders/adyatithi/tree/master/sidereal_solar_m
- onth/nakshatram/10/13#śrī-śeṣādri-svāmī-jayantī<br/><br/>#Mahapur
- ushaEvents
+ onth/nakshatra/10/13#śrī-śeṣādri-svāmī-jayantī<br/><br/>#Mahapuru
+ shaEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1175,7 +1175,7 @@ DTSTART;VALUE=DATE:20190129
 DTEND;VALUE=DATE:20190130
 DESCRIPTION:Observed on Viśākhā nakṣhatram day of Makaraḥ (solar) m
  onth (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-coder
- s/adyatithi/tree/master/sidereal_solar_month/nakshatram/10/16#tirunīlaka
+ s/adyatithi/tree/master/sidereal_solar_month/nakshatra/10/16#tirunīlaka
  ṇṭha-nāyanār-1-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -1310,10 +1310,10 @@ BEGIN:VEVENT
 SUMMARY:महोदय-पुण्यकालः
 DTSTART;VALUE=DATE:20190204
 DTEND;VALUE=DATE:20190205
-DESCRIPTION:A rare combination of Pausha masam\, Shravana nakshatram\, Vya
- tipata yogam and Monday.<br/><br/>https://github.com/sanskrit-coders/adyat
- ithi/tree/master/other/rare-days/combinations#mahodaya-puṇyakālaḥ<br/
- ><br/>#RareDays #Combinations
+DESCRIPTION:A rare combination of Pausha masam\, Shravana nakshatra\, Vyat
+ ipata yogam and Monday.<br/><br/>https://github.com/sanskrit-coders/adyati
+ thi/tree/master/other/rare-days/combinations#mahodaya-puṇyakālaḥ<br/>
+ <br/>#RareDays #Combinations
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1369,7 +1369,7 @@ BEGIN:VEVENT
 SUMMARY:सोमश्रावणी-पुण्यकालः
 DTSTART;VALUE=DATE:20190204
 DTEND;VALUE=DATE:20190205
-DESCRIPTION:When Shravana nakshatram falls on a Monday\, it is a special 
+DESCRIPTION:When Shravana nakshatra falls on a Monday\, it is a special 
  पुण्यकालः.<br/><br/>https://github.com/sanskrit-coders/a
  dyatithi/tree/master/other/rare-days/combinations#somaśrāvaṇī-puṇya
  kālaḥ<br/><br/>#RareDays #Combinations
@@ -1405,8 +1405,8 @@ DTSTART;VALUE=DATE:20190204
 DTEND;VALUE=DATE:20190205
 DESCRIPTION:Observed on Śravaṇam nakṣhatram day of every solar month 
  (sangava/puurvaviddha (default)).<br/><br/><br/>https://github.com/sanskri
- t-coders/adyatithi/tree/master/sidereal_solar_month/nakshatram/00/22#śrav
- aṇa-vratam<br/><br/>#SpecialVratam
+ t-coders/adyatithi/tree/master/sidereal_solar_month/nakshatra/00/22#śrava
+ ṇa-vratam<br/><br/>#SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1460,7 +1460,7 @@ DTSTART;VALUE=DATE:20190207
 DTEND;VALUE=DATE:20190208
 DESCRIPTION:Observed on Śatabhiṣak nakṣhatram day of Makaraḥ (solar
  ) month (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-co
- ders/adyatithi/tree/master/sidereal_solar_month/nakshatram/10/24#appūdiya
+ ders/adyatithi/tree/master/sidereal_solar_month/nakshatra/10/24#appūdiya
  ḍigaḻ-nāyanār-24-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -1597,8 +1597,8 @@ DTSTART;VALUE=DATE:20190210
 DTEND;VALUE=DATE:20190211
 DESCRIPTION:Observed on Revatī nakṣhatram day of Makaraḥ (solar) mont
  h (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-coders/a
- dyatithi/tree/master/sidereal_solar_month/nakshatram/10/27#kalikkamba-nāy
- anār-42-gurupūjai<br/><br/>#NayanarGurupujai
+ dyatithi/tree/master/sidereal_solar_month/nakshatra/10/27#kalikkamba-nāya
+ nār-42-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1703,9 +1703,9 @@ DTSTART;VALUE=DATE:20190211
 DTEND;VALUE=DATE:20190212
 DESCRIPTION:Observed on Aśvinī nakṣhatram day of Makaraḥ (solar) mon
  th (sunrise/puurvaviddha).<br/><br/><br/>https://github.com/sanskrit-coder
- s/adyatithi/tree/master/sidereal_solar_month/nakshatram/10/01#tirunêlveli
- -nêllaiyappar-nêllukku-veli-kaṭṭiya-līlai<br/><br/>#TamilnaduTemple
- Festivals
+ s/adyatithi/tree/master/sidereal_solar_month/nakshatra/10/01#tirunêlveli-
+ nêllaiyappar-nêllukku-veli-kaṭṭiya-līlai<br/><br/>#TamilnaduTempleF
+ estivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1882,8 +1882,8 @@ DESCRIPTION:Observed on Kṛttikā nakṣhatram day of every solar month (
  म् for Lord Subrahmanya. Observe fast for the entire day\, and obtain 
  blessings of all the कृत्तिका-स्त्रियः who
   raised स्कन्द after His birth.<br/><br/>https://github.com/sa
- nskrit-coders/adyatithi/tree/master/sidereal_solar_month/nakshatram/00/03#
- kṛttikā-vratam<br/><br/>#SpecialVratam
+ nskrit-coders/adyatithi/tree/master/sidereal_solar_month/nakshatra/00/03#k
+ ṛttikā-vratam<br/><br/>#SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2142,9 +2142,9 @@ BEGIN:VEVENT
 SUMMARY:जयन्ती महाद्वादशी
 DTSTART;VALUE=DATE:20190217
 DTEND;VALUE=DATE:20190218
-DESCRIPTION:Dvadashi tithi\, combined with Punarvasu nakshatram.<br/><br/>
- https://github.com/sanskrit-coders/adyatithi/tree/master/other/rare-days/c
- ombinations#jayantī-mahādvādaśī<br/><br/>#RareDays #Combinations
+DESCRIPTION:Dvadashi tithi\, combined with Punarvasu nakshatra.<br/><br/>h
+ ttps://github.com/sanskrit-coders/adyatithi/tree/master/other/rare-days/co
+ mbinations#jayantī-mahādvādaśī<br/><br/>#RareDays #Combinations
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2172,7 +2172,7 @@ BEGIN:VEVENT
 SUMMARY:रविपुष्ययोग-पुण्यकालः
 DTSTART;VALUE=DATE:20190217
 DTEND;VALUE=DATE:20190218
-DESCRIPTION:When Pushya nakshatram falls on a Sunday\, it is a special प
+DESCRIPTION:When Pushya nakshatra falls on a Sunday\, it is a special प
  ुण्यकालः.<br/><br/>https://github.com/sanskrit-coders/adya
  tithi/tree/master/other/rare-days/combinations#ravipuṣyayoga-puṇyakāl
  aḥ<br/><br/>#RareDays #Combinations
@@ -2191,8 +2191,8 @@ DTSTART;VALUE=DATE:20190217
 DTEND;VALUE=DATE:20190218
 DESCRIPTION:Observed on Punarvasuḥ nakṣhatram day of Kumbhaḥ (solar)
   month (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-cod
- ers/adyatithi/tree/master/sidereal_solar_month/nakshatram/11/07#kulaśekha
- ra-āḽvār-tirunakṣattiram<br/><br/>#MahapurushaEvents #AzhwarJayanti
+ ers/adyatithi/tree/master/sidereal_solar_month/nakshatra/11/07#kulaśekhar
+ a-āḽvār-tirunakṣattiram<br/><br/>#MahapurushaEvents #AzhwarJayanti
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2464,8 +2464,8 @@ DTSTART;VALUE=DATE:20190220
 DTEND;VALUE=DATE:20190221
 DESCRIPTION:Observed on Maghā nakṣhatram day of Kumbhaḥ (solar) month
   (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>https://github.
- com/sanskrit-coders/adyatithi/tree/master/sidereal_solar_month/nakshatram/
- 11/10#māchi-magham<br/><br/>#TamilnaduTempleFestivals #CommonFestivals
+ com/sanskrit-coders/adyatithi/tree/master/sidereal_solar_month/nakshatra/1
+ 1/10#māchi-magham<br/><br/>#TamilnaduTempleFestivals #CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2504,8 +2504,8 @@ DTSTART;VALUE=DATE:20190222
 DTEND;VALUE=DATE:20190223
 DESCRIPTION:Observed on Hastaḥ nakṣhatram day of Kumbhaḥ (solar) mon
  th (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-coders/
- adyatithi/tree/master/sidereal_solar_month/nakshatram/11/13#êr̂ipatta-n
- āyanār-7-gurupūjai<br/><br/>#NayanarGurupujai
+ adyatithi/tree/master/sidereal_solar_month/nakshatra/11/13#êr̂ipatta-nā
+ yanār-7-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2657,8 +2657,8 @@ DTSTART;VALUE=DATE:20190301
 DTEND;VALUE=DATE:20190302
 DESCRIPTION:Observed on Pūrvāṣāḍhā nakṣhatram day of Kumbhaḥ (
  solar) month (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskr
- it-coders/adyatithi/tree/master/sidereal_solar_month/nakshatram/11/20#kār
- i-nāyanār-47-gurupūjai<br/><br/>#NayanarGurupujai
+ it-coders/adyatithi/tree/master/sidereal_solar_month/nakshatra/11/20#kāri
+ -nāyanār-47-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2704,9 +2704,9 @@ DTSTART;VALUE=DATE:20190303
 DTEND;VALUE=DATE:20190304
 DESCRIPTION:Observed on Uttarāṣāḍhā nakṣhatram day of Kumbhaḥ (
  solar) month (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskr
- it-coders/adyatithi/tree/master/sidereal_solar_month/nakshatram/11/21#kā
- ñchī-jagadguru-śrī-śaṅkara-vijayendra-sarasvatī-jayantī<br/><br/>
- #MahapurushaEvents #CommonFestivals
+ it-coders/adyatithi/tree/master/sidereal_solar_month/nakshatra/11/21#kāñ
+ chī-jagadguru-śrī-śaṅkara-vijayendra-sarasvatī-jayantī<br/><br/>#M
+ ahapurushaEvents #CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2734,10 +2734,10 @@ BEGIN:VEVENT
 SUMMARY:विजया/श्रवण-महाद्वादशी
 DTSTART;VALUE=DATE:20190303
 DTEND;VALUE=DATE:20190304
-DESCRIPTION:Dvadashi tithi\, combined with Shravana nakshatram.<br/><br/>h
- ttps://github.com/sanskrit-coders/adyatithi/tree/master/other/rare-days/co
- mbinations/special-vratam#vijayā/śravaṇa-mahādvādaśī<br/><br/>#Rar
- eDays #Combinations #SpecialVratam
+DESCRIPTION:Dvadashi tithi\, combined with Shravana nakshatra.<br/><br/>ht
+ tps://github.com/sanskrit-coders/adyatithi/tree/master/other/rare-days/com
+ binations/special-vratam#vijayā/śravaṇa-mahādvādaśī<br/><br/>#Rare
+ Days #Combinations #SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2752,8 +2752,8 @@ DTSTART;VALUE=DATE:20190303
 DTEND;VALUE=DATE:20190304
 DESCRIPTION:Observed on Śravaṇam nakṣhatram day of every solar month 
  (sangava/puurvaviddha (default)).<br/><br/><br/>https://github.com/sanskri
- t-coders/adyatithi/tree/master/sidereal_solar_month/nakshatram/00/22#śrav
- aṇa-vratam<br/><br/>#SpecialVratam
+ t-coders/adyatithi/tree/master/sidereal_solar_month/nakshatra/00/22#śrava
+ ṇa-vratam<br/><br/>#SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2798,7 +2798,7 @@ BEGIN:VEVENT
 SUMMARY:सोमश्रावणी-पुण्यकालः
 DTSTART;VALUE=DATE:20190304
 DTEND;VALUE=DATE:20190305
-DESCRIPTION:When Shravana nakshatram falls on a Monday\, it is a special 
+DESCRIPTION:When Shravana nakshatra falls on a Monday\, it is a special 
  पुण्यकालः.<br/><br/>https://github.com/sanskrit-coders/a
  dyatithi/tree/master/other/rare-days/combinations#somaśrāvaṇī-puṇya
  kālaḥ<br/><br/>#RareDays #Combinations
@@ -2920,7 +2920,7 @@ DTSTART;VALUE=DATE:20190306
 DTEND;VALUE=DATE:20190307
 DESCRIPTION:Observed on Śatabhiṣak nakṣhatram day of Kumbhaḥ (solar
  ) month (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-co
- ders/adyatithi/tree/master/sidereal_solar_month/nakshatram/11/24#kôchchê
+ ders/adyatithi/tree/master/sidereal_solar_month/nakshatra/11/24#kôchchê
  ṅgaṭ-choḽa-nāyanār-59-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -3042,7 +3042,7 @@ DESCRIPTION:Observed on Aśvinī nakṣhatram day of Kumbhaḥ (solar) mon
  mes. On this day\, recital of Poonthanam's works and debate takes place. A
   one week literary festival is conducted at Poonthanam illam.<br/><br/>htt
  ps://github.com/sanskrit-coders/adyatithi/tree/master/sidereal_solar_month
- /nakshatram/11/01#pūntānaṃ-jayantī<br/><br/>#MahapurushaEvents
+ /nakshatra/11/01#pūntānaṃ-jayantī<br/><br/>#MahapurushaEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3090,8 +3090,8 @@ DESCRIPTION:Observed on Kṛttikā nakṣhatram day of every solar month (
  म् for Lord Subrahmanya. Observe fast for the entire day\, and obtain 
  blessings of all the कृत्तिका-स्त्रियः who
   raised स्कन्द after His birth.<br/><br/>https://github.com/sa
- nskrit-coders/adyatithi/tree/master/sidereal_solar_month/nakshatram/00/03#
- kṛttikā-vratam<br/><br/>#SpecialVratam
+ nskrit-coders/adyatithi/tree/master/sidereal_solar_month/nakshatra/00/03#k
+ ṛttikā-vratam<br/><br/>#SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3218,8 +3218,8 @@ DTSTART;VALUE=DATE:20190315
 DTEND;VALUE=DATE:20190316
 DESCRIPTION:Observed on Ārdrā nakṣhatram day of Mīnaḥ (solar) month
   (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-coders/ad
- yatithi/tree/master/sidereal_solar_month/nakshatram/12/06#gaṇanātha-nā
- yanār-37-gurupūjai<br/><br/>#NayanarGurupujai
+ yatithi/tree/master/sidereal_solar_month/nakshatra/12/06#gaṇanātha-nāy
+ anār-37-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3327,7 +3327,7 @@ BEGIN:VEVENT
 SUMMARY:रविपुष्ययोग-पुण्यकालः
 DTSTART;VALUE=DATE:20190317
 DTEND;VALUE=DATE:20190318
-DESCRIPTION:When Pushya nakshatram falls on a Sunday\, it is a special प
+DESCRIPTION:When Pushya nakshatra falls on a Sunday\, it is a special प
  ुण्यकालः.<br/><br/>https://github.com/sanskrit-coders/adya
  tithi/tree/master/other/rare-days/combinations#ravipuṣyayoga-puṇyakāl
  aḥ<br/><br/>#RareDays #Combinations
@@ -3377,8 +3377,8 @@ DTSTART;VALUE=DATE:20190317
 DTEND;VALUE=DATE:20190318
 DESCRIPTION:Observed on Puṣyaḥ nakṣhatram day of Mīnaḥ (solar) mo
  nth (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-coders
- /adyatithi/tree/master/sidereal_solar_month/nakshatram/12/08#munaiyaḍuv
- ār-nāyanār-50-gurupūjai<br/><br/>#NayanarGurupujai
+ /adyatithi/tree/master/sidereal_solar_month/nakshatra/12/08#munaiyaḍuvā
+ r-nāyanār-50-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3767,8 +3767,8 @@ DTSTART;VALUE=DATE:20190321
 DTEND;VALUE=DATE:20190322
 DESCRIPTION:Observed on Uttaraphalgunī nakṣhatram day of Mīnaḥ (sola
  r) month (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-c
- oders/adyatithi/tree/master/sidereal_solar_month/nakshatram/12/12#paṅgun
- i-uttiram<br/><br/>#TamilnaduTempleFestivals #CommonFestivals
+ oders/adyatithi/tree/master/sidereal_solar_month/nakshatra/12/12#paṅguni
+ -uttiram<br/><br/>#TamilnaduTempleFestivals #CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3824,9 +3824,9 @@ DESCRIPTION:Observed on Svātī nakṣhatram day of Mīnaḥ (solar) month
  न/फाल्गुन मास कृष्ण द्वितीय
  ा सोमवासरः चित्रा उपरि स्वा
  ती नक्षत्रम्.<br/><br/>https://github.com/sanskrit-c
- oders/adyatithi/tree/master/sidereal_solar_month/nakshatram/12/15#kāñch
- ī-jagadguru-śrī-jayendra-sarasvatī-āśrama-svīkāra-jayantī<br/><br
- />#MahapurushaEvents #CommonFestivals
+ oders/adyatithi/tree/master/sidereal_solar_month/nakshatra/12/15#kāñchī
+ -jagadguru-śrī-jayendra-sarasvatī-āśrama-svīkāra-jayantī<br/><br/>
+ #MahapurushaEvents #CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3842,8 +3842,8 @@ DTSTART;VALUE=DATE:20190323
 DTEND;VALUE=DATE:20190324
 DESCRIPTION:Observed on Svātī nakṣhatram day of Mīnaḥ (solar) month
   (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-coders/ad
- yatithi/tree/master/sidereal_solar_month/nakshatram/12/15#kāraikkāl-amma
- iyār-23-gurupūjai<br/><br/>#NayanarGurupujai
+ yatithi/tree/master/sidereal_solar_month/nakshatra/12/15#kāraikkāl-ammai
+ yār-23-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4007,8 +4007,8 @@ DTSTART;VALUE=DATE:20190331
 DTEND;VALUE=DATE:20190401
 DESCRIPTION:Observed on Śravaṇam nakṣhatram day of every solar month 
  (sangava/puurvaviddha (default)).<br/><br/><br/>https://github.com/sanskri
- t-coders/adyatithi/tree/master/sidereal_solar_month/nakshatram/00/22#śrav
- aṇa-vratam<br/><br/>#SpecialVratam
+ t-coders/adyatithi/tree/master/sidereal_solar_month/nakshatra/00/22#śrava
+ ṇa-vratam<br/><br/>#SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4084,8 +4084,8 @@ DTSTART;VALUE=DATE:20190402
 DTEND;VALUE=DATE:20190403
 DESCRIPTION:Observed on Śatabhiṣak nakṣhatram day of Mīnaḥ (solar)
   month (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-cod
- ers/adyatithi/tree/master/sidereal_solar_month/nakshatram/12/24#daṇḍiy
- aḍigaḻ-nāyanār-30-gurupūjai<br/><br/>#NayanarGurupujai
+ ers/adyatithi/tree/master/sidereal_solar_month/nakshatra/12/24#daṇḍiya
+ ḍigaḻ-nāyanār-30-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4170,7 +4170,7 @@ BEGIN:VEVENT
 SUMMARY:भृगुरेवती-पुण्यकालः
 DTSTART;VALUE=DATE:20190405
 DTEND;VALUE=DATE:20190406
-DESCRIPTION:When Revati nakshatram falls on a Friday\, it is a special प
+DESCRIPTION:When Revati nakshatra falls on a Friday\, it is a special प
  ुण्यकालः.<br/><br/>https://github.com/sanskrit-coders/adya
  tithi/tree/master/other/rare-days/combinations#bhṛgurevatī-puṇyakāla
  ḥ<br/><br/>#RareDays #Combinations
@@ -4416,8 +4416,8 @@ DESCRIPTION:Observed on Kṛttikā nakṣhatram day of every solar month (
  म् for Lord Subrahmanya. Observe fast for the entire day\, and obtain 
  blessings of all the कृत्तिका-स्त्रियः who
   raised स्कन्द after His birth.<br/><br/>https://github.com/sa
- nskrit-coders/adyatithi/tree/master/sidereal_solar_month/nakshatram/00/03#
- kṛttikā-vratam<br/><br/>#SpecialVratam
+ nskrit-coders/adyatithi/tree/master/sidereal_solar_month/nakshatra/00/03#k
+ ṛttikā-vratam<br/><br/>#SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4449,8 +4449,8 @@ DTSTART;VALUE=DATE:20190409
 DTEND;VALUE=DATE:20190410
 DESCRIPTION:Observed on Kṛttikā nakṣhatram day of Mīnaḥ (solar) mo
  nth (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-coders
- /adyatithi/tree/master/sidereal_solar_month/nakshatram/12/03#muttusvāmī-
- dīkṣita-jayantī<br/><br/>#MahapurushaEvents #CommonFestivals
+ /adyatithi/tree/master/sidereal_solar_month/nakshatra/12/03#muttusvāmī-d
+ īkṣita-jayantī<br/><br/>#MahapurushaEvents #CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4537,8 +4537,8 @@ DTSTART;VALUE=DATE:20190410
 DTEND;VALUE=DATE:20190411
 DESCRIPTION:Observed on Rohiṇī nakṣhatram day of Mīnaḥ (solar) mon
  th (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-coders/
- adyatithi/tree/master/sidereal_solar_month/nakshatram/12/04#necha-nāyanā
- r-58-gurupūjai<br/><br/>#NayanarGurupujai
+ adyatithi/tree/master/sidereal_solar_month/nakshatra/12/04#necha-nāyanār
+ -58-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4602,8 +4602,8 @@ DTSTART;VALUE=DATE:20190412
 DTEND;VALUE=DATE:20190413
 DESCRIPTION:Observed on Ārdrā nakṣhatram day of Mīnaḥ (solar) month
   (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-coders/ad
- yatithi/tree/master/sidereal_solar_month/nakshatram/12/06#gaṇanātha-nā
- yanār-37-gurupūjai<br/><br/>#NayanarGurupujai
+ yatithi/tree/master/sidereal_solar_month/nakshatra/12/06#gaṇanātha-nāy
+ anār-37-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4695,8 +4695,8 @@ DTSTART;VALUE=DATE:20190413
 DTEND;VALUE=DATE:20190414
 DESCRIPTION:Observed on Puṣyaḥ nakṣhatram day of Mīnaḥ (solar) mo
  nth (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-coders
- /adyatithi/tree/master/sidereal_solar_month/nakshatram/12/08#munaiyaḍuv
- ār-nāyanār-50-gurupūjai<br/><br/>#NayanarGurupujai
+ /adyatithi/tree/master/sidereal_solar_month/nakshatra/12/08#munaiyaḍuvā
+ r-nāyanār-50-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4759,7 +4759,7 @@ BEGIN:VEVENT
 SUMMARY:रविपुष्ययोग-पुण्यकालः
 DTSTART;VALUE=DATE:20190414
 DTEND;VALUE=DATE:20190415
-DESCRIPTION:When Pushya nakshatram falls on a Sunday\, it is a special प
+DESCRIPTION:When Pushya nakshatra falls on a Sunday\, it is a special प
  ुण्यकालः.<br/><br/>https://github.com/sanskrit-coders/adya
  tithi/tree/master/other/rare-days/combinations#ravipuṣyayoga-puṇyakāl
  aḥ<br/><br/>#RareDays #Combinations
@@ -5029,8 +5029,8 @@ DTEND;VALUE=DATE:20190418
 DESCRIPTION:Observed on Uttaraphalgunī nakṣhatram day of Meṣaḥ (sol
  ar) month (madhyaahna/puurvaviddha (default)).<br/><br/><br/>https://githu
  b.com/sanskrit-coders/adyatithi/tree/master/sidereal_solar_month/nakshatra
- m/01/12#mīnākṣī-tirukkalyāṇam<br/><br/>#TamilnaduTempleFestivals #
- CommonFestivals
+ /01/12#mīnākṣī-tirukkalyāṇam<br/><br/>#TamilnaduTempleFestivals #C
+ ommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5265,8 +5265,8 @@ DTSTART;VALUE=DATE:20190419
 DTEND;VALUE=DATE:20190420
 DESCRIPTION:Observed on Citrā nakṣhatram day of Meṣaḥ (solar) month
   (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-coders/ad
- yatithi/tree/master/sidereal_solar_month/nakshatram/01/14#ichaiñāniyār-
- nāyanār-62-gurupūjai<br/><br/>#NayanarGurupujai
+ yatithi/tree/master/sidereal_solar_month/nakshatra/01/14#ichaiñāniyār-n
+ āyanār-62-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5282,8 +5282,8 @@ DTSTART;VALUE=DATE:20190419
 DTEND;VALUE=DATE:20190420
 DESCRIPTION:Observed on Citrā nakṣhatram day of Meṣaḥ (solar) month
   (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-coders/ad
- yatithi/tree/master/sidereal_solar_month/nakshatram/01/14#madhurakavi-ā
- ḽvār-tirunakṣattiram<br/><br/>#MahapurushaEvents #AzhwarJayanti
+ yatithi/tree/master/sidereal_solar_month/nakshatra/01/14#madhurakavi-āḽ
+ vār-tirunakṣattiram<br/><br/>#MahapurushaEvents #AzhwarJayanti
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5341,8 +5341,8 @@ DTSTART;VALUE=DATE:20190420
 DTEND;VALUE=DATE:20190421
 DESCRIPTION:Observed on Svātī nakṣhatram day of Meṣaḥ (solar) mont
  h (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-coders/a
- dyatithi/tree/master/sidereal_solar_month/nakshatram/01/15#tirukkur̂ipput
- -tôṇḍa-nāyanār-18-gurupūjai<br/><br/>#NayanarGurupujai
+ dyatithi/tree/master/sidereal_solar_month/nakshatra/01/15#tirukkur̂ipput-
+ tôṇḍa-nāyanār-18-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5481,8 +5481,8 @@ DTSTART;VALUE=DATE:20190427
 DTEND;VALUE=DATE:20190428
 DESCRIPTION:Observed on Śravaṇam nakṣhatram day of Meṣaḥ (solar) 
  month (pradosha/paraviddha).<br/><br/><br/>https://github.com/sanskrit-cod
- ers/adyatithi/tree/master/sidereal_solar_month/nakshatram/01/22#naṭarāj
- ar-chittirai-oṇam-mahābhiṣekam<br/><br/>#TamilnaduTempleFestivals
+ ers/adyatithi/tree/master/sidereal_solar_month/nakshatra/01/22#naṭarāja
+ r-chittirai-oṇam-mahābhiṣekam<br/><br/>#TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5497,8 +5497,8 @@ DTSTART;VALUE=DATE:20190427
 DTEND;VALUE=DATE:20190428
 DESCRIPTION:Observed on Śravaṇam nakṣhatram day of every solar month 
  (sangava/puurvaviddha (default)).<br/><br/><br/>https://github.com/sanskri
- t-coders/adyatithi/tree/master/sidereal_solar_month/nakshatram/00/22#śrav
- aṇa-vratam<br/><br/>#SpecialVratam
+ t-coders/adyatithi/tree/master/sidereal_solar_month/nakshatra/00/22#śrava
+ ṇa-vratam<br/><br/>#SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5514,8 +5514,8 @@ DTSTART;VALUE=DATE:20190429
 DTEND;VALUE=DATE:20190430
 DESCRIPTION:Observed on Śatabhiṣak nakṣhatram day of Meṣaḥ (solar
  ) month (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-co
- ders/adyatithi/tree/master/sidereal_solar_month/nakshatram/01/24#tirunāvu
- kkarachha-nāyanār-20-gurupūjai<br/><br/>#NayanarGurupujai
+ ders/adyatithi/tree/master/sidereal_solar_month/nakshatra/01/24#tirunāvuk
+ karachha-nāyanār-20-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5620,7 +5620,7 @@ BEGIN:VEVENT
 SUMMARY:भृगुरेवती-पुण्यकालः
 DTSTART;VALUE=DATE:20190503
 DTEND;VALUE=DATE:20190504
-DESCRIPTION:When Revati nakshatram falls on a Friday\, it is a special प
+DESCRIPTION:When Revati nakshatra falls on a Friday\, it is a special प
  ुण्यकालः.<br/><br/>https://github.com/sanskrit-coders/adya
  tithi/tree/master/other/rare-days/combinations#bhṛgurevatī-puṇyakāla
  ḥ<br/><br/>#RareDays #Combinations
@@ -5774,8 +5774,8 @@ DESCRIPTION:Observed on Kṛttikā nakṣhatram day of every solar month (
  म् for Lord Subrahmanya. Observe fast for the entire day\, and obtain 
  blessings of all the कृत्तिका-स्त्रियः who
   raised स्कन्द after His birth.<br/><br/>https://github.com/sa
- nskrit-coders/adyatithi/tree/master/sidereal_solar_month/nakshatram/00/03#
- kṛttikā-vratam<br/><br/>#SpecialVratam
+ nskrit-coders/adyatithi/tree/master/sidereal_solar_month/nakshatra/00/03#k
+ ṛttikā-vratam<br/><br/>#SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5808,7 +5808,7 @@ DTSTART;VALUE=DATE:20190505
 DTEND;VALUE=DATE:20190506
 DESCRIPTION:Observed on Apabharaṇī nakṣhatram day of Meṣaḥ (solar
  ) month (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-co
- ders/adyatithi/tree/master/sidereal_solar_month/nakshatram/01/02#chir̂utt
+ ders/adyatithi/tree/master/sidereal_solar_month/nakshatra/01/02#chir̂utt
  ôṇḍa-nāyanār-35-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -5872,8 +5872,8 @@ DTSTART;VALUE=DATE:20190506
 DTEND;VALUE=DATE:20190507
 DESCRIPTION:Observed on Kṛttikā nakṣhatram day of Meṣaḥ (solar) m
  onth (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-coder
- s/adyatithi/tree/master/sidereal_solar_month/nakshatram/01/03#śyāmā-ś
- āstrī-jayantī<br/><br/>#MahapurushaEvents #CommonFestivals
+ s/adyatithi/tree/master/sidereal_solar_month/nakshatra/01/03#śyāmā-śā
+ strī-jayantī<br/><br/>#MahapurushaEvents #CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6007,8 +6007,8 @@ DTSTART;VALUE=DATE:20190507
 DTEND;VALUE=DATE:20190508
 DESCRIPTION:Observed on Rohiṇī nakṣhatram day of Meṣaḥ (solar) mo
  nth (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-coders
- /adyatithi/tree/master/sidereal_solar_month/nakshatram/01/04#maṅgaiyarkk
- arachiyār-nāyanār-57-gurupūjai<br/><br/>#NayanarGurupujai
+ /adyatithi/tree/master/sidereal_solar_month/nakshatra/01/04#maṅgaiyarkka
+ rachiyār-nāyanār-57-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6106,9 +6106,9 @@ DTSTART;VALUE=DATE:20190509
 DTEND;VALUE=DATE:20190510
 DESCRIPTION:Observed on Ārdrā nakṣhatram day of Meṣaḥ (solar) mont
  h (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>https://github
- .com/sanskrit-coders/adyatithi/tree/master/sidereal_solar_month/nakshatram
- /01/06#rāmānujar-tirunakṣattiram<br/><br/>#MahapurushaEvents #CommonFe
- stivals
+ .com/sanskrit-coders/adyatithi/tree/master/sidereal_solar_month/nakshatra/
+ 01/06#rāmānujar-tirunakṣattiram<br/><br/>#MahapurushaEvents #CommonFes
+ tivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6124,8 +6124,8 @@ DTSTART;VALUE=DATE:20190509
 DTEND;VALUE=DATE:20190510
 DESCRIPTION:Observed on Ārdrā nakṣhatram day of Meṣaḥ (solar) mont
  h (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-coders/a
- dyatithi/tree/master/sidereal_solar_month/nakshatram/01/06#vir̂anmiṇḍ
- a-nāyanār-5-gurupūjai<br/><br/>#NayanarGurupujai
+ dyatithi/tree/master/sidereal_solar_month/nakshatra/01/06#vir̂anmiṇḍa
+ -nāyanār-5-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6434,8 +6434,8 @@ DTEND;VALUE=DATE:20190515
 DESCRIPTION:Observed on Uttaraphalgunī nakṣhatram day of Meṣaḥ (sol
  ar) month (madhyaahna/puurvaviddha (default)).<br/><br/><br/>https://githu
  b.com/sanskrit-coders/adyatithi/tree/master/sidereal_solar_month/nakshatra
- m/01/12#mīnākṣī-tirukkalyāṇam<br/><br/>#TamilnaduTempleFestivals #
- CommonFestivals
+ /01/12#mīnākṣī-tirukkalyāṇam<br/><br/>#TamilnaduTempleFestivals #C
+ ommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6786,7 +6786,7 @@ DTSTART;VALUE=DATE:20190518
 DTEND;VALUE=DATE:20190519
 DESCRIPTION:Observed on Viśākhā nakṣhatram day of Vṛṣabhaḥ (sol
  ar) month (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-
- coders/adyatithi/tree/master/sidereal_solar_month/nakshatram/02/16#nammā
+ coders/adyatithi/tree/master/sidereal_solar_month/nakshatra/02/16#nammā
  ḽvār-tirunakṣattiram<br/><br/>#MahapurushaEvents #AzhwarJayanti
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -6804,8 +6804,8 @@ DESCRIPTION:Observed on Viśākhā nakṣhatram day of Vṛṣabhaḥ (sol
  ar) month (sunrise (default)/puurvaviddha (default)).<br/>Special puja for
   Subrahmanya Swami in temples. Birth of Subrahmanya Swami. Worship Him wit
  h red flowers.<br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/
- master/sidereal_solar_month/nakshatram/02/16#vaikāchi-viśākham<br/><br/
- >#TamilnaduTempleFestivals #CommonFestivals
+ master/sidereal_solar_month/nakshatra/02/16#vaikāchi-viśākham<br/><br/>
+ #TamilnaduTempleFestivals #CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6883,9 +6883,9 @@ DTSTART;VALUE=DATE:20190519
 DTEND;VALUE=DATE:20190520
 DESCRIPTION:Observed on Anūrādhā nakṣhatram day of Vṛṣabhaḥ (so
  lar) month (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit
- -coders/adyatithi/tree/master/sidereal_solar_month/nakshatram/02/17#kāñc
- hī-jagadguru-śrī-chandraśekharendra-sarasvatī-7-jayantī<br/><br/>#Ma
- hapurushaEvents #CommonFestivals
+ -coders/adyatithi/tree/master/sidereal_solar_month/nakshatra/02/17#kāñch
+ ī-jagadguru-śrī-chandraśekharendra-sarasvatī-7-jayantī<br/><br/>#Mah
+ apurushaEvents #CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6924,9 +6924,9 @@ DESCRIPTION:Observed on Mūlā nakṣhatram day of Vṛṣabhaḥ (solar)
  ुधिरोद्गारी year\, वृषभ/वैशाख म
  ास कृष्ण तृतीया भानुवासरः म
  ूला नक्षत्रम्.<br/><br/>https://github.com/sanskri
- t-coders/adyatithi/tree/master/sidereal_solar_month/nakshatram/02/19#kāñ
- chī-jagadguru-śrī-śaṅkara-vijayendra-sarasvatī-āśrama-svīkāra-j
- ayantī<br/><br/>#MahapurushaEvents #CommonFestivals
+ t-coders/adyatithi/tree/master/sidereal_solar_month/nakshatra/02/19#kāñc
+ hī-jagadguru-śrī-śaṅkara-vijayendra-sarasvatī-āśrama-svīkāra-ja
+ yantī<br/><br/>#MahapurushaEvents #CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6942,8 +6942,8 @@ DTSTART;VALUE=DATE:20190521
 DTEND;VALUE=DATE:20190522
 DESCRIPTION:Observed on Mūlā nakṣhatram day of Vṛṣabhaḥ (solar) 
  month (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-code
- rs/adyatithi/tree/master/sidereal_solar_month/nakshatram/02/19#muruga-nāy
- anār-15-gurupūjai<br/><br/>#NayanarGurupujai
+ rs/adyatithi/tree/master/sidereal_solar_month/nakshatra/02/19#muruga-nāya
+ nār-15-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6959,8 +6959,8 @@ DTSTART;VALUE=DATE:20190521
 DTEND;VALUE=DATE:20190522
 DESCRIPTION:Observed on Mūlā nakṣhatram day of Vṛṣabhaḥ (solar) 
  month (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-code
- rs/adyatithi/tree/master/sidereal_solar_month/nakshatram/02/19#tiruñānas
- ambandhamūrtti-nāyanār-27-gurupūjai<br/><br/>#NayanarGurupujai
+ rs/adyatithi/tree/master/sidereal_solar_month/nakshatra/02/19#tiruñānasa
+ mbandhamūrtti-nāyanār-27-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6976,7 +6976,7 @@ DTSTART;VALUE=DATE:20190521
 DTEND;VALUE=DATE:20190522
 DESCRIPTION:Observed on Mūlā nakṣhatram day of Vṛṣabhaḥ (solar) 
  month (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-code
- rs/adyatithi/tree/master/sidereal_solar_month/nakshatram/02/19#tirunīlaka
+ rs/adyatithi/tree/master/sidereal_solar_month/nakshatra/02/19#tirunīlaka
  ṇṭha-yāḽppāṇa-nāyanār-60-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -6993,8 +6993,8 @@ DTSTART;VALUE=DATE:20190521
 DTEND;VALUE=DATE:20190522
 DESCRIPTION:Observed on Mūlā nakṣhatram day of Vṛṣabhaḥ (solar) 
  month (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-code
- rs/adyatithi/tree/master/sidereal_solar_month/nakshatram/02/19#tirunīlana
- kka-nāyanār-25-gurupūjai<br/><br/>#NayanarGurupujai
+ rs/adyatithi/tree/master/sidereal_solar_month/nakshatra/02/19#tirunīlanak
+ ka-nāyanār-25-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -7125,8 +7125,8 @@ DTSTART;VALUE=DATE:20190524
 DTEND;VALUE=DATE:20190525
 DESCRIPTION:Observed on Śravaṇam nakṣhatram day of every solar month 
  (sangava/puurvaviddha (default)).<br/><br/><br/>https://github.com/sanskri
- t-coders/adyatithi/tree/master/sidereal_solar_month/nakshatram/00/22#śrav
- aṇa-vratam<br/><br/>#SpecialVratam
+ t-coders/adyatithi/tree/master/sidereal_solar_month/nakshatra/00/22#śrava
+ ṇa-vratam<br/><br/>#SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -7293,8 +7293,8 @@ DTSTART;VALUE=DATE:20190601
 DTEND;VALUE=DATE:20190602
 DESCRIPTION:Observed on Apabharaṇī nakṣhatram day of Vṛṣabhaḥ (
  solar) month (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskr
- it-coders/adyatithi/tree/master/sidereal_solar_month/nakshatram/02/02#ka
- ḽar̂chiṅga-nāyanār-51-gurupūjai<br/><br/>#NayanarGurupujai
+ it-coders/adyatithi/tree/master/sidereal_solar_month/nakshatra/02/02#kaḽ
+ ar̂chiṅga-nāyanār-51-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -7337,8 +7337,8 @@ DESCRIPTION:Observed on Kṛttikā nakṣhatram day of every solar month (
  म् for Lord Subrahmanya. Observe fast for the entire day\, and obtain 
  blessings of all the कृत्तिका-स्त्रियः who
   raised स्कन्द after His birth.<br/><br/>https://github.com/sa
- nskrit-coders/adyatithi/tree/master/sidereal_solar_month/nakshatram/00/03#
- kṛttikā-vratam<br/><br/>#SpecialVratam
+ nskrit-coders/adyatithi/tree/master/sidereal_solar_month/nakshatra/00/03#k
+ ṛttikā-vratam<br/><br/>#SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -7627,8 +7627,8 @@ DTSTART;VALUE=DATE:20190607
 DTEND;VALUE=DATE:20190608
 DESCRIPTION:Observed on Puṣyaḥ nakṣhatram day of Vṛṣabhaḥ (sol
  ar) month (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-
- coders/adyatithi/tree/master/sidereal_solar_month/nakshatram/02/08#naminan
- diyaḍigaḻ-nāyanār-26-gurupūjai<br/><br/>#NayanarGurupujai
+ coders/adyatithi/tree/master/sidereal_solar_month/nakshatra/02/08#naminand
+ iyaḍigaḻ-nāyanār-26-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -7765,8 +7765,8 @@ DTSTART;VALUE=DATE:20190608
 DTEND;VALUE=DATE:20190609
 DESCRIPTION:Observed on Āśreṣā nakṣhatram day of Vṛṣabhaḥ (so
  lar) month (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit
- -coders/adyatithi/tree/master/sidereal_solar_month/nakshatram/02/09#somās
- imāra-nāyanār-32-gurupūjai<br/><br/>#NayanarGurupujai
+ -coders/adyatithi/tree/master/sidereal_solar_month/nakshatra/02/09#somāsi
+ māra-nāyanār-32-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8570,7 +8570,7 @@ DTEND;VALUE=DATE:20190618
 DESCRIPTION:Observed on Jyeṣṭhā nakṣhatram day of Mithunam (solar) 
  month (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>https://gi
  thub.com/sanskrit-coders/adyatithi/tree/master/sidereal_solar_month/naksha
- tram/03/18#jyeṣṭhābhiṣekam<br/><br/>#TamilnaduTempleFestivals
+ tra/03/18#jyeṣṭhābhiṣekam<br/><br/>#TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8645,8 +8645,8 @@ DTSTART;VALUE=DATE:20190621
 DTEND;VALUE=DATE:20190622
 DESCRIPTION:Observed on Śravaṇam nakṣhatram day of every solar month 
  (sangava/puurvaviddha (default)).<br/><br/><br/>https://github.com/sanskri
- t-coders/adyatithi/tree/master/sidereal_solar_month/nakshatram/00/22#śrav
- aṇa-vratam<br/><br/>#SpecialVratam
+ t-coders/adyatithi/tree/master/sidereal_solar_month/nakshatra/00/22#śrava
+ ṇa-vratam<br/><br/>#SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8745,8 +8745,8 @@ DTSTART;VALUE=DATE:20190626
 DTEND;VALUE=DATE:20190627
 DESCRIPTION:Observed on Revatī nakṣhatram day of Mithunam (solar) month
   (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-coders/ad
- yatithi/tree/master/sidereal_solar_month/nakshatram/03/27#eyarkon-kalikkā
- ma-nāyanār-28-gurupūjai<br/><br/>#NayanarGurupujai
+ yatithi/tree/master/sidereal_solar_month/nakshatra/03/27#eyarkon-kalikkām
+ a-nāyanār-28-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8793,8 +8793,8 @@ DESCRIPTION:Observed on Kṛttikā nakṣhatram day of every solar month (
  म् for Lord Subrahmanya. Observe fast for the entire day\, and obtain 
  blessings of all the कृत्तिका-स्त्रियः who
   raised स्कन्द after His birth.<br/><br/>https://github.com/sa
- nskrit-coders/adyatithi/tree/master/sidereal_solar_month/nakshatram/00/03#
- kṛttikā-vratam<br/><br/>#SpecialVratam
+ nskrit-coders/adyatithi/tree/master/sidereal_solar_month/nakshatra/00/03#k
+ ṛttikā-vratam<br/><br/>#SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9082,7 +9082,7 @@ BEGIN:VEVENT
 SUMMARY:गुरुपुष्य-पुण्यकालः
 DTSTART;VALUE=DATE:20190704
 DTEND;VALUE=DATE:20190705
-DESCRIPTION:When Pushya nakshatram falls on a Thursday\, it is a special 
+DESCRIPTION:When Pushya nakshatra falls on a Thursday\, it is a special 
  पुण्यकालः.<br/><br/>https://github.com/sanskrit-coders/a
  dyatithi/tree/master/other/rare-days/combinations#gurupuṣya-puṇyakāla
  ḥ<br/><br/>#RareDays #Combinations
@@ -9132,8 +9132,8 @@ DTSTART;VALUE=DATE:20190705
 DTEND;VALUE=DATE:20190706
 DESCRIPTION:Observed on Āśreṣā nakṣhatram day of Mithunam (solar) m
  onth (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-coder
- s/adyatithi/tree/master/sidereal_solar_month/nakshatram/03/09#pugaḽttu
- ṇai-nāyanār-54-gurupūjai<br/><br/>#NayanarGurupujai
+ s/adyatithi/tree/master/sidereal_solar_month/nakshatra/03/09#pugaḽttuṇ
+ ai-nāyanār-54-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9164,8 +9164,8 @@ DTSTART;VALUE=DATE:20190706
 DTEND;VALUE=DATE:20190707
 DESCRIPTION:Observed on Maghā nakṣhatram day of Mithunam (solar) month 
  (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-coders/ady
- atithi/tree/master/sidereal_solar_month/nakshatram/03/10#māṇikkavāchak
- ar-gurupūjai<br/><br/>#NayanarGurupujai
+ atithi/tree/master/sidereal_solar_month/nakshatra/03/10#māṇikkavāchaka
+ r-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9257,8 +9257,8 @@ DTSTART;VALUE=DATE:20190707
 DTEND;VALUE=DATE:20190708
 DESCRIPTION:Observed on Pūrvaphalgunī nakṣhatram day of Mithunam (sola
  r) month (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-c
- oders/adyatithi/tree/master/sidereal_solar_month/nakshatram/03/11#amaranī
- ti-nāyanār-6-gurupūjai<br/><br/>#NayanarGurupujai
+ oders/adyatithi/tree/master/sidereal_solar_month/nakshatra/03/11#amaranīt
+ i-nāyanār-6-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9306,8 +9306,8 @@ DTSTART;VALUE=DATE:20190708
 DTEND;VALUE=DATE:20190709
 DESCRIPTION:Observed on Uttaraphalgunī nakṣhatram day of Mithunam (sola
  r) month (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-c
- oders/adyatithi/tree/master/sidereal_solar_month/nakshatram/03/12#naṭar
- ājar-āni-tirumañchanam<br/><br/>#TamilnaduTempleFestivals
+ oders/adyatithi/tree/master/sidereal_solar_month/nakshatra/03/12#naṭarā
+ jar-āni-tirumañchanam<br/><br/>#TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9411,7 +9411,7 @@ DTSTART;VALUE=DATE:20190710
 DTEND;VALUE=DATE:20190711
 DESCRIPTION:Observed on Citrā nakṣhatram day of Mithunam (solar) month 
  (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-coders/ady
- atithi/tree/master/sidereal_solar_month/nakshatram/03/14#sudarśana-jayant
+ atithi/tree/master/sidereal_solar_month/nakshatra/03/14#sudarśana-jayant
  ī<br/><br/>#CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -9554,8 +9554,8 @@ DTSTART;VALUE=DATE:20190711
 DTEND;VALUE=DATE:20190712
 DESCRIPTION:Observed on Svātī nakṣhatram day of Mithunam (solar) month
   (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-coders/ad
- yatithi/tree/master/sidereal_solar_month/nakshatram/03/15#pêriyāḽvār-
- tirunakṣattiram<br/><br/>#MahapurushaEvents #AzhwarJayanti
+ yatithi/tree/master/sidereal_solar_month/nakshatra/03/15#pêriyāḽvār-t
+ irunakṣattiram<br/><br/>#MahapurushaEvents #AzhwarJayanti
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9734,7 +9734,7 @@ DTEND;VALUE=DATE:20190715
 DESCRIPTION:Observed on Jyeṣṭhā nakṣhatram day of Mithunam (solar) 
  month (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>https://gi
  thub.com/sanskrit-coders/adyatithi/tree/master/sidereal_solar_month/naksha
- tram/03/18#jyeṣṭhābhiṣekam<br/><br/>#TamilnaduTempleFestivals
+ tra/03/18#jyeṣṭhābhiṣekam<br/><br/>#TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10067,8 +10067,8 @@ DTSTART;VALUE=DATE:20190718
 DTEND;VALUE=DATE:20190719
 DESCRIPTION:Observed on Śravaṇam nakṣhatram day of every solar month 
  (sangava/puurvaviddha (default)).<br/><br/><br/>https://github.com/sanskri
- t-coders/adyatithi/tree/master/sidereal_solar_month/nakshatram/00/22#śrav
- aṇa-vratam<br/><br/>#SpecialVratam
+ t-coders/adyatithi/tree/master/sidereal_solar_month/nakshatra/00/22#śrava
+ ṇa-vratam<br/><br/>#SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10174,8 +10174,8 @@ DESCRIPTION:Observed on Kṛttikā nakṣhatram day of every solar month (
  म् for Lord Subrahmanya. Observe fast for the entire day\, and obtain 
  blessings of all the कृत्तिका-स्त्रियः who
   raised स्कन्द after His birth.<br/><br/>https://github.com/sa
- nskrit-coders/adyatithi/tree/master/sidereal_solar_month/nakshatram/00/03#
- kṛttikā-vratam<br/><br/>#SpecialVratam
+ nskrit-coders/adyatithi/tree/master/sidereal_solar_month/nakshatra/00/03#k
+ ṛttikā-vratam<br/><br/>#SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10191,8 +10191,8 @@ DTEND;VALUE=DATE:20190728
 DESCRIPTION:Observed on Kṛttikā nakṣhatram day of Kaṭakaḥ (solar)
   month (sunrise (default)/puurvaviddha (default)).<br/>Special puja for Su
  brahmanya Swami in temples.<br/><br/>https://github.com/sanskrit-coders/ad
- yatithi/tree/master/sidereal_solar_month/nakshatram/04/03#āḍik-kiruttik
- ai<br/><br/>#TamilnaduTempleFestivals #CommonFestivals
+ yatithi/tree/master/sidereal_solar_month/nakshatra/04/03#āḍik-kiruttika
+ i<br/><br/>#TamilnaduTempleFestivals #CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10208,8 +10208,8 @@ DTSTART;VALUE=DATE:20190727
 DTEND;VALUE=DATE:20190728
 DESCRIPTION:Observed on Kṛttikā nakṣhatram day of Kaṭakaḥ (solar)
   month (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-cod
- ers/adyatithi/tree/master/sidereal_solar_month/nakshatram/04/03#mūrtti-n
- āyanār-15-gurupūjai<br/><br/>#NayanarGurupujai
+ ers/adyatithi/tree/master/sidereal_solar_month/nakshatra/04/03#mūrtti-nā
+ yanār-15-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10225,8 +10225,8 @@ DTSTART;VALUE=DATE:20190727
 DTEND;VALUE=DATE:20190728
 DESCRIPTION:Observed on Kṛttikā nakṣhatram day of Kaṭakaḥ (solar)
   month (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-cod
- ers/adyatithi/tree/master/sidereal_solar_month/nakshatram/04/03#pugaḽchc
- hoḽa-nāyanār-39-gurupūjai<br/><br/>#NayanarGurupujai
+ ers/adyatithi/tree/master/sidereal_solar_month/nakshatra/04/03#pugaḽchch
+ oḽa-nāyanār-39-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10258,7 +10258,7 @@ DTSTART;VALUE=DATE:20190728
 DTEND;VALUE=DATE:20190729
 DESCRIPTION:Observed on Rohiṇī nakṣhatram day of Kaṭakaḥ (solar) 
  month (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-code
- rs/adyatithi/tree/master/sidereal_solar_month/nakshatram/04/04#tiruppāṇ
+ rs/adyatithi/tree/master/sidereal_solar_month/nakshatra/04/04#tiruppāṇ
  āḽvār-tirunakṣattiram<br/><br/>#MahapurushaEvents #AzhwarJayanti
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -10345,8 +10345,8 @@ DTSTART;VALUE=DATE:20190730
 DTEND;VALUE=DATE:20190731
 DESCRIPTION:Observed on Ārdrā nakṣhatram day of Kaṭakaḥ (solar) mo
  nth (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-coders
- /adyatithi/tree/master/sidereal_solar_month/nakshatram/04/06#kūr̂r̂uva-
- nāyanār-38-gurupūjai<br/><br/>#NayanarGurupujai
+ /adyatithi/tree/master/sidereal_solar_month/nakshatra/04/06#kūr̂r̂uva-n
+ āyanār-38-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10455,7 +10455,7 @@ BEGIN:VEVENT
 SUMMARY:गुरुपुष्य-पुण्यकालः
 DTSTART;VALUE=DATE:20190801
 DTEND;VALUE=DATE:20190802
-DESCRIPTION:When Pushya nakshatram falls on a Thursday\, it is a special 
+DESCRIPTION:When Pushya nakshatra falls on a Thursday\, it is a special 
  पुण्यकालः.<br/><br/>https://github.com/sanskrit-coders/a
  dyatithi/tree/master/other/rare-days/combinations#gurupuṣya-puṇyakāla
  ḥ<br/><br/>#RareDays #Combinations
@@ -10674,8 +10674,8 @@ DESCRIPTION:Observed on Pūrvaphalgunī nakṣhatram day of Kaṭakaḥ (s
  ्षमां करुणया कमलामिवान्यां
  <br/>गोदाम् अनन्यशरणः शरणं प्र
  पद्ये॥<br/><br/><br/><br/>https://github.com/sanskrit-coders/a
- dyatithi/tree/master/sidereal_solar_month/nakshatram/04/11#tiruvāḍippū
- ram<br/><br/>#CommonFestivals #AzhwarJayanti
+ dyatithi/tree/master/sidereal_solar_month/nakshatra/04/11#tiruvāḍippūr
+ am<br/><br/>#CommonFestivals #AzhwarJayanti
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10794,8 +10794,8 @@ DTSTART;VALUE=DATE:20190806
 DTEND;VALUE=DATE:20190807
 DESCRIPTION:Observed on Citrā nakṣhatram day of Kaṭakaḥ (solar) mon
  th (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-coders/
- adyatithi/tree/master/sidereal_solar_month/nakshatram/04/14#pêrumiḽalai
- k-kur̂umba-nāyanār-22-gurupūjai<br/><br/>#NayanarGurupujai
+ adyatithi/tree/master/sidereal_solar_month/nakshatra/04/14#pêrumiḽalaik
+ -kur̂umba-nāyanār-22-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10860,8 +10860,8 @@ DTSTART;VALUE=DATE:20190807
 DTEND;VALUE=DATE:20190808
 DESCRIPTION:Observed on Svātī nakṣhatram day of Kaṭakaḥ (solar) mo
  nth (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-coders
- /adyatithi/tree/master/sidereal_solar_month/nakshatram/04/15#chundaramūrt
- ti-nāyanār-63-gurupūjai<br/><br/>#NayanarGurupujai
+ /adyatithi/tree/master/sidereal_solar_month/nakshatra/04/15#chundaramūrtt
+ i-nāyanār-63-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10877,9 +10877,9 @@ DTSTART;VALUE=DATE:20190807
 DTEND;VALUE=DATE:20190808
 DESCRIPTION:Observed on Svātī nakṣhatram day of Kaṭakaḥ (solar) mo
  nth (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-coders
- /adyatithi/tree/master/sidereal_solar_month/nakshatram/04/15#kaḽar̂ir̂
- r̂ar̂ivār/cheramān-pêrumāḻ-nāyanār-36-gurupūjai<br/><br/>#Nayan
- arGurupujai
+ /adyatithi/tree/master/sidereal_solar_month/nakshatra/04/15#kaḽar̂ir̂r
+ ̂ar̂ivār/cheramān-pêrumāḻ-nāyanār-36-gurupūjai<br/><br/>#Nayana
+ rGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10986,9 +10986,9 @@ DTEND;VALUE=DATE:20190810
 DESCRIPTION:Observed on Anūrādhā nakṣhatram day of Kaṭakaḥ (solar
  ) month (praatah/paraviddha).<br/>Jayanti Day of Sri Anantarama Dikshitar.
  <br/>### References<br/>* Vaidikasri Nov 2009<br/><br/><br/>https://github
- .com/sanskrit-coders/adyatithi/tree/master/sidereal_solar_month/nakshatram
- /04/17#seṅgālipuram-anantarāma-dīkṣita-jayantī<br/><br/>#Mahapurus
- haEvents #CommonFestivals
+ .com/sanskrit-coders/adyatithi/tree/master/sidereal_solar_month/nakshatra/
+ 04/17#seṅgālipuram-anantarāma-dīkṣita-jayantī<br/><br/>#Mahapurush
+ aEvents #CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11061,8 +11061,8 @@ DTSTART;VALUE=DATE:20190810
 DTEND;VALUE=DATE:20190811
 DESCRIPTION:Observed on Jyeṣṭhā nakṣhatram day of Kaṭakaḥ (sola
  r) month (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-c
- oders/adyatithi/tree/master/sidereal_solar_month/nakshatram/04/18#koṭpul
- i-nāyanār-55-gurupūjai<br/><br/>#NayanarGurupujai
+ oders/adyatithi/tree/master/sidereal_solar_month/nakshatra/04/18#koṭpuli
+ -nāyanār-55-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11077,7 +11077,7 @@ DTSTART;VALUE=DATE:20190810
 DTEND;VALUE=DATE:20190811
 DESCRIPTION:Observed on Jyeṣṭhā nakṣhatram day of Kaṭakaḥ (sola
  r) month (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-c
- oders/adyatithi/tree/master/sidereal_solar_month/nakshatram/04/18#kaliya-n
+ oders/adyatithi/tree/master/sidereal_solar_month/nakshatra/04/18#kaliya-n
  āyanār-43-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -11273,8 +11273,8 @@ DTSTART;VALUE=DATE:20190814
 DTEND;VALUE=DATE:20190815
 DESCRIPTION:Observed on Śravaṇam nakṣhatram day of every solar month 
  (sangava/puurvaviddha (default)).<br/><br/><br/>https://github.com/sanskri
- t-coders/adyatithi/tree/master/sidereal_solar_month/nakshatram/00/22#śrav
- aṇa-vratam<br/><br/>#SpecialVratam
+ t-coders/adyatithi/tree/master/sidereal_solar_month/nakshatra/00/22#śrava
+ ṇa-vratam<br/><br/>#SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11289,8 +11289,8 @@ DTSTART;VALUE=DATE:20190815
 DTEND;VALUE=DATE:20190816
 DESCRIPTION:Observed on Śravaṇam nakṣhatram day of Śrāvaṇaḥ (lu
  nar) month (sunrise (default)/paraviddha).<br/><br/><br/>https://github.co
- m/sanskrit-coders/adyatithi/tree/master/lunar_month/nakshatram/05/22#ṛgv
- eda-upākarma<br/><br/>#CommonFestivals
+ m/sanskrit-coders/adyatithi/tree/master/lunar_month/nakshatra/05/22#ṛgve
+ da-upākarma<br/><br/>#CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11503,9 +11503,9 @@ DTSTART;VALUE=DATE:20190816
 DTEND;VALUE=DATE:20190817
 DESCRIPTION:Observed on Śraviṣṭhā nakṣhatram day of Kaṭakaḥ (s
  olar) month (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskri
- t-coders/adyatithi/tree/master/sidereal_solar_month/nakshatram/04/23#kāñ
- chī-jagadguru-śrī-jayendra-sarasvatī-jayantī<br/><br/>#MahapurushaEve
- nts #CommonFestivals
+ t-coders/adyatithi/tree/master/sidereal_solar_month/nakshatra/04/23#kāñc
+ hī-jagadguru-śrī-jayendra-sarasvatī-jayantī<br/><br/>#MahapurushaEven
+ ts #CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11774,8 +11774,8 @@ DESCRIPTION:Observed on Kṛttikā nakṣhatram day of every solar month (
  म् for Lord Subrahmanya. Observe fast for the entire day\, and obtain 
  blessings of all the कृत्तिका-स्त्रियः who
   raised स्कन्द after His birth.<br/><br/>https://github.com/sa
- nskrit-coders/adyatithi/tree/master/sidereal_solar_month/nakshatram/00/03#
- kṛttikā-vratam<br/><br/>#SpecialVratam
+ nskrit-coders/adyatithi/tree/master/sidereal_solar_month/nakshatra/00/03#k
+ ṛttikā-vratam<br/><br/>#SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11913,7 +11913,7 @@ DTSTART;VALUE=DATE:20190824
 DTEND;VALUE=DATE:20190825
 DESCRIPTION:Observed on Rohiṇī nakṣhatram day of Siṃhaḥ (solar) m
  onth (nishita/puurvaviddha (default)).<br/><br/><br/>https://github.com/sa
- nskrit-coders/adyatithi/tree/master/sidereal_solar_month/nakshatram/05/04#
+ nskrit-coders/adyatithi/tree/master/sidereal_solar_month/nakshatra/05/04#
  śrī-jayantī<br/><br/>#Dashavataram #CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -11927,7 +11927,7 @@ BEGIN:VEVENT
 SUMMARY:शनिरोहिणी-पुण्यकालः
 DTSTART;VALUE=DATE:20190824
 DTEND;VALUE=DATE:20190825
-DESCRIPTION:When Rohini nakshatram falls on a Saturday\, it is a special 
+DESCRIPTION:When Rohini nakshatra falls on a Saturday\, it is a special 
  पुण्यकालः.<br/><br/>https://github.com/sanskrit-coders/a
  dyatithi/tree/master/other/rare-days/combinations#śanirohiṇī-puṇyak
  ālaḥ<br/><br/>#RareDays #Combinations
@@ -12089,9 +12089,9 @@ BEGIN:VEVENT
 SUMMARY:जयन्ती महाद्वादशी
 DTSTART;VALUE=DATE:20190827
 DTEND;VALUE=DATE:20190828
-DESCRIPTION:Dvadashi tithi\, combined with Punarvasu nakshatram.<br/><br/>
- https://github.com/sanskrit-coders/adyatithi/tree/master/other/rare-days/c
- ombinations#jayantī-mahādvādaśī<br/><br/>#RareDays #Combinations
+DESCRIPTION:Dvadashi tithi\, combined with Punarvasu nakshatra.<br/><br/>h
+ ttps://github.com/sanskrit-coders/adyatithi/tree/master/other/rare-days/co
+ mbinations#jayantī-mahādvādaśī<br/><br/>#RareDays #Combinations
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12190,8 +12190,8 @@ DTSTART;VALUE=DATE:20190828
 DTEND;VALUE=DATE:20190829
 DESCRIPTION:Observed on Puṣyaḥ nakṣhatram day of Siṃhaḥ (solar) 
  month (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-code
- rs/adyatithi/tree/master/sidereal_solar_month/nakshatram/05/08#chêruttu
- ṇai-nāyanār-53-gurupūjai<br/><br/>#NayanarGurupujai
+ rs/adyatithi/tree/master/sidereal_solar_month/nakshatra/05/08#chêruttuṇ
+ ai-nāyanār-53-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12240,7 +12240,7 @@ DTSTART;VALUE=DATE:20190829
 DTEND;VALUE=DATE:20190830
 DESCRIPTION:Observed on Āśreṣā nakṣhatram day of Siṃhaḥ (solar)
   month (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-cod
- ers/adyatithi/tree/master/sidereal_solar_month/nakshatram/05/09#atipatta-n
+ ers/adyatithi/tree/master/sidereal_solar_month/nakshatra/05/09#atipatta-n
  āyanār-41-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -12307,8 +12307,8 @@ DTSTART;VALUE=DATE:20190830
 DTEND;VALUE=DATE:20190831
 DESCRIPTION:Observed on Maghā nakṣhatram day of Siṃhaḥ (solar) mont
  h (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-coders/a
- dyatithi/tree/master/sidereal_solar_month/nakshatram/05/10#iḻaiyānkuḍ
- i-mār̂a-nāyanār-3-gurupūjai<br/><br/>#NayanarGurupujai
+ dyatithi/tree/master/sidereal_solar_month/nakshatra/05/10#iḻaiyānkuḍi
+ -mār̂a-nāyanār-3-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12424,7 +12424,7 @@ BEGIN:VEVENT
 SUMMARY:आदित्यहस्त-पुण्यकालः
 DTSTART;VALUE=DATE:20190901
 DTEND;VALUE=DATE:20190902
-DESCRIPTION:When Hasta nakshatram falls on a Sunday\, it is a special प
+DESCRIPTION:When Hasta nakshatra falls on a Sunday\, it is a special प
  ुण्यकालः.<br/><br/>https://github.com/sanskrit-coders/adya
  tithi/tree/master/other/rare-days/combinations#ādityahasta-puṇyakāla
  ḥ<br/><br/>#RareDays #Combinations
@@ -12559,7 +12559,7 @@ DTEND;VALUE=DATE:20190903
 DESCRIPTION:Observed on Hastaḥ nakṣhatram day of Siṃhaḥ (solar) mo
  nth (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>https://gith
  ub.com/sanskrit-coders/adyatithi/tree/master/sidereal_solar_month/nakshatr
- am/05/13#sāmaveda-upākarma<br/><br/>#CommonFestivals
+ a/05/13#sāmaveda-upākarma<br/><br/>#CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12731,8 +12731,8 @@ DTSTART;VALUE=DATE:20190904
 DTEND;VALUE=DATE:20190905
 DESCRIPTION:Observed on Viśākhā nakṣhatram day of Siṃhaḥ (solar) 
  month (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-code
- rs/adyatithi/tree/master/sidereal_solar_month/nakshatram/05/16#tiruchchên
- dūr-āvaṇit-tiruviḽā-nir̂aivu<br/><br/>#TamilnaduTempleFestivals
+ rs/adyatithi/tree/master/sidereal_solar_month/nakshatra/05/16#tiruchchênd
+ ūr-āvaṇit-tiruviḽā-nir̂aivu<br/><br/>#TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12796,8 +12796,8 @@ DTSTART;VALUE=DATE:20190905
 DTEND;VALUE=DATE:20190906
 DESCRIPTION:Observed on Anūrādhā nakṣhatram day of Siṃhaḥ (solar)
   month (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-cod
- ers/adyatithi/tree/master/sidereal_solar_month/nakshatram/05/17#kulachchir
- ai-nāyanār-21-gurupūjai<br/><br/>#NayanarGurupujai
+ ers/adyatithi/tree/master/sidereal_solar_month/nakshatra/05/17#kulachchira
+ i-nāyanār-21-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12893,8 +12893,8 @@ DTSTART;VALUE=DATE:20190907
 DTEND;VALUE=DATE:20190908
 DESCRIPTION:Observed on Mūlā nakṣhatram day of Siṃhaḥ (solar) mont
  h (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-coders/a
- dyatithi/tree/master/sidereal_solar_month/nakshatram/05/19#gajendra-mokṣ
- aḥ<br/><br/>#PuranaEvents
+ dyatithi/tree/master/sidereal_solar_month/nakshatra/05/19#gajendra-mokṣa
+ ḥ<br/><br/>#PuranaEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12959,8 +12959,8 @@ DTSTART;VALUE=DATE:20190907
 DTEND;VALUE=DATE:20190908
 DESCRIPTION:Observed on Mūlā nakṣhatram day of Siṃhaḥ (solar) mont
  h (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-coders/a
- dyatithi/tree/master/sidereal_solar_month/nakshatram/05/19#kuṅgiliyakkal
- aya-nāyanār-10-gurupūjai<br/><br/>#NayanarGurupujai
+ dyatithi/tree/master/sidereal_solar_month/nakshatra/05/19#kuṅgiliyakkala
+ ya-nāyanār-10-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12976,7 +12976,7 @@ DTSTART;VALUE=DATE:20190907
 DTEND;VALUE=DATE:20190908
 DESCRIPTION:Observed on Mūlā nakṣhatram day of Siṃhaḥ (solar) mont
  h (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-coders/a
- dyatithi/tree/master/sidereal_solar_month/nakshatram/05/19#piṭṭukku-ma
+ dyatithi/tree/master/sidereal_solar_month/nakshatra/05/19#piṭṭukku-ma
  ṇ-chumanda-līlai<br/><br/>#PuranaEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -13202,10 +13202,10 @@ BEGIN:VEVENT
 SUMMARY:विजया/श्रवण-महाद्वादशी
 DTSTART;VALUE=DATE:20190910
 DTEND;VALUE=DATE:20190911
-DESCRIPTION:Dvadashi tithi\, combined with Shravana nakshatram.<br/><br/>h
- ttps://github.com/sanskrit-coders/adyatithi/tree/master/other/rare-days/co
- mbinations/special-vratam#vijayā/śravaṇa-mahādvādaśī<br/><br/>#Rar
- eDays #Combinations #SpecialVratam
+DESCRIPTION:Dvadashi tithi\, combined with Shravana nakshatra.<br/><br/>ht
+ tps://github.com/sanskrit-coders/adyatithi/tree/master/other/rare-days/com
+ binations/special-vratam#vijayā/śravaṇa-mahādvādaśī<br/><br/>#Rare
+ Days #Combinations #SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13267,8 +13267,8 @@ DTSTART;VALUE=DATE:20190911
 DTEND;VALUE=DATE:20190912
 DESCRIPTION:Observed on Śravaṇam nakṣhatram day of Siṃhaḥ (solar)
   month (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-cod
- ers/adyatithi/tree/master/sidereal_solar_month/nakshatram/05/22#oṇam<br/
- ><br/>#CommonFestivals
+ ers/adyatithi/tree/master/sidereal_solar_month/nakshatra/05/22#oṇam<br/>
+ <br/>#CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13283,8 +13283,8 @@ DTSTART;VALUE=DATE:20190911
 DTEND;VALUE=DATE:20190912
 DESCRIPTION:Observed on Śravaṇam nakṣhatram day of every solar month 
  (sangava/puurvaviddha (default)).<br/><br/><br/>https://github.com/sanskri
- t-coders/adyatithi/tree/master/sidereal_solar_month/nakshatram/00/22#śrav
- aṇa-vratam<br/><br/>#SpecialVratam
+ t-coders/adyatithi/tree/master/sidereal_solar_month/nakshatra/00/22#śrava
+ ṇa-vratam<br/><br/>#SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13591,7 +13591,7 @@ BEGIN:VEVENT
 SUMMARY:भौमाश्विनी-पुण्यकालः
 DTSTART;VALUE=DATE:20190917
 DTEND;VALUE=DATE:20190918
-DESCRIPTION:When Ashwini nakshatram falls on a Tuesday\, it is a special 
+DESCRIPTION:When Ashwini nakshatra falls on a Tuesday\, it is a special 
  पुण्यकालः. Do उपासना of Lakshmi Narasimha.<b
  r/><br/>https://github.com/sanskrit-coders/adyatithi/tree/master/other/rar
  e-days/combinations#bhaumāśvinī-puṇyakālaḥ<br/><br/>#RareDays #Com
@@ -13643,7 +13643,7 @@ DTSTART;VALUE=DATE:20190917
 DTEND;VALUE=DATE:20190918
 DESCRIPTION:Observed on Aśvinī nakṣhatram day of Kanyā (solar) month 
  (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-coders/ady
- atithi/tree/master/sidereal_solar_month/nakshatram/06/01#rudra-paśupati-n
+ atithi/tree/master/sidereal_solar_month/nakshatra/06/01#rudra-paśupati-n
  āyanār-16-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -13692,8 +13692,8 @@ DTSTART;VALUE=DATE:20190918
 DTEND;VALUE=DATE:20190919
 DESCRIPTION:Observed on Apabharaṇī nakṣhatram day of Bhādrapadaḥ (
  lunar) month (aparaahna/vyaapti).<br/><br/><br/>https://github.com/sanskri
- t-coders/adyatithi/tree/master/lunar_month/nakshatram/06/02#mahābharaṇ
- ī<br/><br/>#SpecialPuja #CommonFestivals
+ t-coders/adyatithi/tree/master/lunar_month/nakshatra/06/02#mahābharaṇī
+ <br/><br/>#SpecialPuja #CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13728,8 +13728,8 @@ DESCRIPTION:Observed on Kṛttikā nakṣhatram day of every solar month (
  म् for Lord Subrahmanya. Observe fast for the entire day\, and obtain 
  blessings of all the कृत्तिका-स्त्रियः who
   raised स्कन्द after His birth.<br/><br/>https://github.com/sa
- nskrit-coders/adyatithi/tree/master/sidereal_solar_month/nakshatram/00/03#
- kṛttikā-vratam<br/><br/>#SpecialVratam
+ nskrit-coders/adyatithi/tree/master/sidereal_solar_month/nakshatra/00/03#k
+ ṛttikā-vratam<br/><br/>#SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13870,7 +13870,7 @@ DTSTART;VALUE=DATE:20190921
 DTEND;VALUE=DATE:20190922
 DESCRIPTION:Observed on Rohiṇī nakṣhatram day of Kanyā (solar) month
   (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-coders/ad
- yatithi/tree/master/sidereal_solar_month/nakshatram/06/04#tirunāḻaippov
+ yatithi/tree/master/sidereal_solar_month/nakshatra/06/04#tirunāḻaippov
  ār-nāyanār-17-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -13907,7 +13907,7 @@ BEGIN:VEVENT
 SUMMARY:शनिरोहिणी-पुण्यकालः
 DTSTART;VALUE=DATE:20190921
 DTEND;VALUE=DATE:20190922
-DESCRIPTION:When Rohini nakshatram falls on a Saturday\, it is a special 
+DESCRIPTION:When Rohini nakshatra falls on a Saturday\, it is a special 
  पुण्यकालः.<br/><br/>https://github.com/sanskrit-coders/a
  dyatithi/tree/master/other/rare-days/combinations#śanirohiṇī-puṇyak
  ālaḥ<br/><br/>#RareDays #Combinations
@@ -14285,7 +14285,7 @@ BEGIN:VEVENT
 SUMMARY:आदित्यहस्त-पुण्यकालः
 DTSTART;VALUE=DATE:20190929
 DTEND;VALUE=DATE:20190930
-DESCRIPTION:When Hasta nakshatram falls on a Sunday\, it is a special प
+DESCRIPTION:When Hasta nakshatra falls on a Sunday\, it is a special प
  ुण्यकालः.<br/><br/>https://github.com/sanskrit-coders/adya
  tithi/tree/master/other/rare-days/combinations#ādityahasta-puṇyakāla
  ḥ<br/><br/>#RareDays #Combinations
@@ -14539,18 +14539,18 @@ SUMMARY:सरस्वती-आवाहनम्
 DTSTART;VALUE=DATE:20191004
 DTEND;VALUE=DATE:20191005
 DESCRIPTION:Observed on Mūlā nakṣhatram day of Āśvayujaḥ (lunar) m
- onth (madhyaahna/puurvaviddha).<br/>Being मूला nakshatram\, it is 
- another ideal day to begin Saraswati Puja. If not\, at least perform on Na
- vami. During the Saraswati Puja days\, those desirous of obtaining knowled
- ge must not teach\, learn or write anything!<br/><br/>अथवा  मू
+ onth (madhyaahna/puurvaviddha).<br/>Being मूला nakshatra\, it is a
+ nother ideal day to begin Saraswati Puja. If not\, at least perform on Nav
+ ami. During the Saraswati Puja days\, those desirous of obtaining knowledg
+ e must not teach\, learn or write anything!<br/><br/>अथवा  मू
  लनक्षत्रे  समारभ्य  प्रपूजय
  ेत्।<br/>तत्राप्यशक्तो  विप्र
  ेन्द्रो  नवम्यां  तु  प्रपूज
  येत्॥<br/>नाऽध्यापयेन्न  च  लि
  खेन्नाऽधीयीत  कदाचन।<br/>पुस्
  तके  ...<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/
- tree/master/lunar_month/nakshatram/07/19#sarasvatī-āvāhanam<br/><br/>#C
- ommonFestivals
+ tree/master/lunar_month/nakshatra/07/19#sarasvatī-āvāhanam<br/><br/>#Co
+ mmonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -14752,7 +14752,7 @@ BEGIN:VEVENT
 SUMMARY:सोमश्रावणी-पुण्यकालः
 DTSTART;VALUE=DATE:20191007
 DTEND;VALUE=DATE:20191008
-DESCRIPTION:When Shravana nakshatram falls on a Monday\, it is a special 
+DESCRIPTION:When Shravana nakshatra falls on a Monday\, it is a special 
  पुण्यकालः.<br/><br/>https://github.com/sanskrit-coders/a
  dyatithi/tree/master/other/rare-days/combinations#somaśrāvaṇī-puṇya
  kālaḥ<br/><br/>#RareDays #Combinations
@@ -14771,7 +14771,7 @@ DTSTART;VALUE=DATE:20191007
 DTEND;VALUE=DATE:20191008
 DESCRIPTION:Observed on Uttarāṣāḍhā nakṣhatram day of Kanyā (sol
  ar) month (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-
- coders/adyatithi/tree/master/sidereal_solar_month/nakshatram/06/21#enādin
+ coders/adyatithi/tree/master/sidereal_solar_month/nakshatra/06/21#enādin
  ātha-nāyanār-8-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -14979,8 +14979,8 @@ DTSTART;VALUE=DATE:20191008
 DTEND;VALUE=DATE:20191009
 DESCRIPTION:Observed on Śravaṇam nakṣhatram day of every solar month 
  (sangava/puurvaviddha (default)).<br/><br/><br/>https://github.com/sanskri
- t-coders/adyatithi/tree/master/sidereal_solar_month/nakshatram/00/22#śrav
- aṇa-vratam<br/><br/>#SpecialVratam
+ t-coders/adyatithi/tree/master/sidereal_solar_month/nakshatra/00/22#śrava
+ ṇa-vratam<br/><br/>#SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15046,8 +15046,8 @@ DTSTART;VALUE=DATE:20191010
 DTEND;VALUE=DATE:20191011
 DESCRIPTION:Observed on Śatabhiṣak nakṣhatram day of Kanyā (solar) m
  onth (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-coder
- s/adyatithi/tree/master/sidereal_solar_month/nakshatram/06/24#narachiṅga
- munaiyaraiya-nāyanār-40-gurupūjai<br/><br/>#NayanarGurupujai
+ s/adyatithi/tree/master/sidereal_solar_month/nakshatra/06/24#narachiṅgam
+ unaiyaraiya-nāyanār-40-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15377,7 +15377,7 @@ BEGIN:VEVENT
 SUMMARY:भौमाश्विनी-पुण्यकालः
 DTSTART;VALUE=DATE:20191015
 DTEND;VALUE=DATE:20191016
-DESCRIPTION:When Ashwini nakshatram falls on a Tuesday\, it is a special 
+DESCRIPTION:When Ashwini nakshatra falls on a Tuesday\, it is a special 
  पुण्यकालः. Do उपासना of Lakshmi Narasimha.<b
  r/><br/>https://github.com/sanskrit-coders/adyatithi/tree/master/other/rar
  e-days/combinations#bhaumāśvinī-puṇyakālaḥ<br/><br/>#RareDays #Com
@@ -15397,7 +15397,7 @@ DTSTART;VALUE=DATE:20191015
 DTEND;VALUE=DATE:20191016
 DESCRIPTION:Observed on Aśvinī nakṣhatram day of Kanyā (solar) month 
  (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-coders/ady
- atithi/tree/master/sidereal_solar_month/nakshatram/06/01#rudra-paśupati-n
+ atithi/tree/master/sidereal_solar_month/nakshatra/06/01#rudra-paśupati-n
  āyanār-16-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -15433,8 +15433,8 @@ DESCRIPTION:Observed on Kṛttikā nakṣhatram day of every solar month (
  म् for Lord Subrahmanya. Observe fast for the entire day\, and obtain 
  blessings of all the कृत्तिका-स्त्रियः who
   raised स्कन्द after His birth.<br/><br/>https://github.com/sa
- nskrit-coders/adyatithi/tree/master/sidereal_solar_month/nakshatram/00/03#
- kṛttikā-vratam<br/><br/>#SpecialVratam
+ nskrit-coders/adyatithi/tree/master/sidereal_solar_month/nakshatra/00/03#k
+ ṛttikā-vratam<br/><br/>#SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15855,8 +15855,8 @@ DTSTART;VALUE=DATE:20191025
 DTEND;VALUE=DATE:20191026
 DESCRIPTION:Observed on Pūrvaphalgunī nakṣhatram day of Tulā (solar) 
  month (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-code
- rs/adyatithi/tree/master/sidereal_solar_month/nakshatram/07/11#chatti-nāy
- anār-44-gurupūjai<br/><br/>#NayanarGurupujai
+ rs/adyatithi/tree/master/sidereal_solar_month/nakshatra/07/11#chatti-nāya
+ nār-44-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -16317,8 +16317,8 @@ DTSTART;VALUE=DATE:20191030
 DTEND;VALUE=DATE:20191031
 DESCRIPTION:Observed on Anūrādhā nakṣhatram day of Tulā (solar) mont
  h (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-coders/a
- dyatithi/tree/master/sidereal_solar_month/nakshatram/07/17#pūchalār-nāy
- anār-56-gurupūjai<br/><br/>#NayanarGurupujai
+ dyatithi/tree/master/sidereal_solar_month/nakshatra/07/17#pūchalār-nāya
+ nār-56-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -16384,8 +16384,8 @@ DTSTART;VALUE=DATE:20191101
 DTEND;VALUE=DATE:20191102
 DESCRIPTION:Observed on Mūlā nakṣhatram day of Tulā (solar) month (pr
  aatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-coders/adyati
- thi/tree/master/sidereal_solar_month/nakshatram/07/19#aiyaḍigaḻ-kāḍ
- avarkon-nāyanār-45-gurupūjai<br/><br/>#NayanarGurupujai
+ thi/tree/master/sidereal_solar_month/nakshatra/07/19#aiyaḍigaḻ-kāḍa
+ varkon-nāyanār-45-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -16519,7 +16519,7 @@ BEGIN:VEVENT
 SUMMARY:सोमश्रावणी-पुण्यकालः
 DTSTART;VALUE=DATE:20191104
 DTEND;VALUE=DATE:20191105
-DESCRIPTION:When Shravana nakshatram falls on a Monday\, it is a special 
+DESCRIPTION:When Shravana nakshatra falls on a Monday\, it is a special 
  पुण्यकालः.<br/><br/>https://github.com/sanskrit-coders/a
  dyatithi/tree/master/other/rare-days/combinations#somaśrāvaṇī-puṇya
  kālaḥ<br/><br/>#RareDays #Combinations
@@ -16586,8 +16586,8 @@ DTSTART;VALUE=DATE:20191104
 DTEND;VALUE=DATE:20191105
 DESCRIPTION:Observed on Śravaṇam nakṣhatram day of Tulā (solar) mont
  h (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-coders/a
- dyatithi/tree/master/sidereal_solar_month/nakshatram/07/22#pôygaiyāḽv
- ār-tirunakṣattiram<br/><br/>#MahapurushaEvents #AzhwarJayanti
+ dyatithi/tree/master/sidereal_solar_month/nakshatra/07/22#pôygaiyāḽvā
+ r-tirunakṣattiram<br/><br/>#MahapurushaEvents #AzhwarJayanti
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -16602,8 +16602,8 @@ DTSTART;VALUE=DATE:20191104
 DTEND;VALUE=DATE:20191105
 DESCRIPTION:Observed on Śravaṇam nakṣhatram day of every solar month 
  (sangava/puurvaviddha (default)).<br/><br/><br/>https://github.com/sanskri
- t-coders/adyatithi/tree/master/sidereal_solar_month/nakshatram/00/22#śrav
- aṇa-vratam<br/><br/>#SpecialVratam
+ t-coders/adyatithi/tree/master/sidereal_solar_month/nakshatra/00/22#śrava
+ ṇa-vratam<br/><br/>#SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -16716,7 +16716,7 @@ DTSTART;VALUE=DATE:20191105
 DTEND;VALUE=DATE:20191106
 DESCRIPTION:Observed on Śraviṣṭhā nakṣhatram day of Tulā (solar) 
  month (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-code
- rs/adyatithi/tree/master/sidereal_solar_month/nakshatram/07/23#bhūtattā
+ rs/adyatithi/tree/master/sidereal_solar_month/nakshatra/07/23#bhūtattā
  ḽvār-tirunakṣattiram<br/><br/>#MahapurushaEvents #AzhwarJayanti
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -16767,8 +16767,8 @@ DTSTART;VALUE=DATE:20191107
 DTEND;VALUE=DATE:20191108
 DESCRIPTION:Observed on Śatabhiṣak nakṣhatram day of Tulā (solar) mo
  nth (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-coders
- /adyatithi/tree/master/sidereal_solar_month/nakshatram/07/24#peyāḽvār-
- tirunakṣattiram<br/><br/>#MahapurushaEvents #AzhwarJayanti
+ /adyatithi/tree/master/sidereal_solar_month/nakshatra/07/24#peyāḽvār-t
+ irunakṣattiram<br/><br/>#MahapurushaEvents #AzhwarJayanti
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17095,8 +17095,8 @@ DTSTART;VALUE=DATE:20191111
 DTEND;VALUE=DATE:20191112
 DESCRIPTION:Observed on Aśvinī nakṣhatram day of Tulā (solar) month (
  praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-coders/adya
- tithi/tree/master/sidereal_solar_month/nakshatram/07/01#tirumūla-nāyanā
- r-29-gurupūjai<br/><br/>#NayanarGurupujai
+ tithi/tree/master/sidereal_solar_month/nakshatra/07/01#tirumūla-nāyanār
+ -29-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17328,8 +17328,8 @@ DTSTART;VALUE=DATE:20191112
 DTEND;VALUE=DATE:20191113
 DESCRIPTION:Observed on Apabharaṇī nakṣhatram day of Tulā (solar) mo
  nth (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-coders
- /adyatithi/tree/master/sidereal_solar_month/nakshatram/07/02#ninr̂achīr-
- nêḍumār̂a-nāyanār-48-gurupūjai<br/><br/>#NayanarGurupujai
+ /adyatithi/tree/master/sidereal_solar_month/nakshatra/07/02#ninr̂achīr-n
+ êḍumār̂a-nāyanār-48-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17409,8 +17409,8 @@ DESCRIPTION:Observed on Kṛttikā nakṣhatram day of every solar month (
  म् for Lord Subrahmanya. Observe fast for the entire day\, and obtain 
  blessings of all the कृत्तिका-स्त्रियः who
   raised स्कन्द after His birth.<br/><br/>https://github.com/sa
- nskrit-coders/adyatithi/tree/master/sidereal_solar_month/nakshatram/00/03#
- kṛttikā-vratam<br/><br/>#SpecialVratam
+ nskrit-coders/adyatithi/tree/master/sidereal_solar_month/nakshatra/00/03#k
+ ṛttikā-vratam<br/><br/>#SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17442,7 +17442,7 @@ DTSTART;VALUE=DATE:20191113
 DTEND;VALUE=DATE:20191114
 DESCRIPTION:Observed on Kṛttikā nakṣhatram day of Tulā (solar) month
   (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-coders/ad
- yatithi/tree/master/sidereal_solar_month/nakshatram/07/03#iḍaṅkaḽi-n
+ yatithi/tree/master/sidereal_solar_month/nakshatra/07/03#iḍaṅkaḽi-n
  āyanār-52-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -17911,8 +17911,8 @@ DTSTART;VALUE=DATE:20191122
 DTEND;VALUE=DATE:20191123
 DESCRIPTION:Observed on Uttaraphalgunī nakṣhatram day of Vṛścikaḥ 
  (solar) month (praatah/paraviddha).<br/><br/><br/>https://github.com/sansk
- rit-coders/adyatithi/tree/master/sidereal_solar_month/nakshatram/08/12#mê
- yppôruḻ-nāyanār-4-gurupūjai<br/><br/>#NayanarGurupujai
+ rit-coders/adyatithi/tree/master/sidereal_solar_month/nakshatra/08/12#mêy
+ ppôruḻ-nāyanār-4-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17957,8 +17957,8 @@ DTSTART;VALUE=DATE:20191123
 DTEND;VALUE=DATE:20191124
 DESCRIPTION:Observed on Hastaḥ nakṣhatram day of Vṛścikaḥ (solar)
   month (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-cod
- ers/adyatithi/tree/master/sidereal_solar_month/nakshatram/08/13#ānāya-n
- āyanār-13-gurupūjai<br/><br/>#NayanarGurupujai
+ ers/adyatithi/tree/master/sidereal_solar_month/nakshatra/08/13#ānāya-nā
+ yanār-13-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18275,8 +18275,8 @@ DTSTART;VALUE=DATE:20191128
 DTEND;VALUE=DATE:20191129
 DESCRIPTION:Observed on Mūlā nakṣhatram day of Vṛścikaḥ (solar) m
  onth (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-coder
- s/adyatithi/tree/master/sidereal_solar_month/nakshatram/08/19#mūrkkha-nā
- yanār-31-gurupūjai<br/><br/>#NayanarGurupujai
+ s/adyatithi/tree/master/sidereal_solar_month/nakshatra/08/19#mūrkkha-nāy
+ anār-31-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18308,8 +18308,8 @@ DTSTART;VALUE=DATE:20191129
 DTEND;VALUE=DATE:20191130
 DESCRIPTION:Observed on Pūrvāṣāḍhā nakṣhatram day of Vṛścika
  ḥ (solar) month (praatah/paraviddha).<br/><br/><br/>https://github.com/s
- anskrit-coders/adyatithi/tree/master/sidereal_solar_month/nakshatram/08/20
- #chir̂appuli-nāyanār-34-gurupūjai<br/><br/>#NayanarGurupujai
+ anskrit-coders/adyatithi/tree/master/sidereal_solar_month/nakshatra/08/20#
+ chir̂appuli-nāyanār-34-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18356,8 +18356,8 @@ DTSTART;VALUE=DATE:20191201
 DTEND;VALUE=DATE:20191202
 DESCRIPTION:Observed on Śravaṇam nakṣhatram day of every solar month 
  (sangava/puurvaviddha (default)).<br/><br/><br/>https://github.com/sanskri
- t-coders/adyatithi/tree/master/sidereal_solar_month/nakshatram/00/22#śrav
- aṇa-vratam<br/><br/>#SpecialVratam
+ t-coders/adyatithi/tree/master/sidereal_solar_month/nakshatra/00/22#śrava
+ ṇa-vratam<br/><br/>#SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18417,7 +18417,7 @@ BEGIN:VEVENT
 SUMMARY:सोमश्रावणी-पुण्यकालः
 DTSTART;VALUE=DATE:20191202
 DTEND;VALUE=DATE:20191203
-DESCRIPTION:When Shravana nakshatram falls on a Monday\, it is a special 
+DESCRIPTION:When Shravana nakshatra falls on a Monday\, it is a special 
  पुण्यकालः.<br/><br/>https://github.com/sanskrit-coders/a
  dyatithi/tree/master/other/rare-days/combinations#somaśrāvaṇī-puṇya
  kālaḥ<br/><br/>#RareDays #Combinations
@@ -18720,7 +18720,7 @@ DTSTART;VALUE=DATE:20191209
 DTEND;VALUE=DATE:20191210
 DESCRIPTION:Observed on Apabharaṇī nakṣhatram day of Vṛścikaḥ (s
  olar) month (sunrise/paraviddha).<br/><br/><br/>https://github.com/sanskri
- t-coders/adyatithi/tree/master/sidereal_solar_month/nakshatram/08/02#bhara
+ t-coders/adyatithi/tree/master/sidereal_solar_month/nakshatra/08/02#bhara
  ṇī-dīpam<br/><br/>#CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -18736,8 +18736,8 @@ DTSTART;VALUE=DATE:20191209
 DTEND;VALUE=DATE:20191210
 DESCRIPTION:Observed on Kṛttikā nakṣhatram day of Vṛścikaḥ (sola
  r) month (raatrimaana/puurvaviddha).<br/><br/><br/>https://github.com/sans
- krit-coders/adyatithi/tree/master/sidereal_solar_month/nakshatram/08/03#k
- ārttigai<br/><br/>#CommonFestivals
+ krit-coders/adyatithi/tree/master/sidereal_solar_month/nakshatra/08/03#kā
+ rttigai<br/><br/>#CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18752,8 +18752,8 @@ DTSTART;VALUE=DATE:20191209
 DTEND;VALUE=DATE:20191210
 DESCRIPTION:Observed on Kṛttikā nakṣhatram day of Vṛścikaḥ (sola
  r) month (raatrimaana/puurvaviddha).<br/><br/><br/>https://github.com/sans
- krit-coders/adyatithi/tree/master/sidereal_solar_month/nakshatram/08/03#ti
- ruvaṇṇāmalai-dīpam<br/><br/>#CommonFestivals
+ krit-coders/adyatithi/tree/master/sidereal_solar_month/nakshatra/08/03#tir
+ uvaṇṇāmalai-dīpam<br/><br/>#CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18771,8 +18771,8 @@ DESCRIPTION:Observed on Kṛttikā nakṣhatram day of every solar month (
  म् for Lord Subrahmanya. Observe fast for the entire day\, and obtain 
  blessings of all the कृत्तिका-स्त्रियः who
   raised स्कन्द after His birth.<br/><br/>https://github.com/sa
- nskrit-coders/adyatithi/tree/master/sidereal_solar_month/nakshatram/00/03#
- kṛttikā-vratam<br/><br/>#SpecialVratam
+ nskrit-coders/adyatithi/tree/master/sidereal_solar_month/nakshatra/00/03#k
+ ṛttikā-vratam<br/><br/>#SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18788,8 +18788,8 @@ DTSTART;VALUE=DATE:20191210
 DTEND;VALUE=DATE:20191211
 DESCRIPTION:Observed on Kṛttikā nakṣhatram day of Vṛścikaḥ (sola
  r) month (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-c
- oders/adyatithi/tree/master/sidereal_solar_month/nakshatram/08/03#kaṇamp
- ulla-nāyanār-46-gurupūjai<br/><br/>#NayanarGurupujai
+ oders/adyatithi/tree/master/sidereal_solar_month/nakshatra/08/03#kaṇampu
+ lla-nāyanār-46-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18805,9 +18805,8 @@ DTSTART;VALUE=DATE:20191210
 DTEND;VALUE=DATE:20191211
 DESCRIPTION:Observed on Kṛttikā nakṣhatram day of Vṛścikaḥ (sola
  r) month (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-c
- oders/adyatithi/tree/master/sidereal_solar_month/nakshatram/08/03#tiruma
- ṅgaiyāḽvār-tirunakṣattiram<br/><br/>#MahapurushaEvents #AzhwarJaya
- nti
+ oders/adyatithi/tree/master/sidereal_solar_month/nakshatra/08/03#tirumaṅ
+ gaiyāḽvār-tirunakṣattiram<br/><br/>#MahapurushaEvents #AzhwarJayanti
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -19043,7 +19042,7 @@ BEGIN:VEVENT
 SUMMARY:रविपुष्ययोग-पुण्यकालः
 DTSTART;VALUE=DATE:20191215
 DTEND;VALUE=DATE:20191216
-DESCRIPTION:When Pushya nakshatram falls on a Sunday\, it is a special प
+DESCRIPTION:When Pushya nakshatra falls on a Sunday\, it is a special प
  ुण्यकालः.<br/><br/>https://github.com/sanskrit-coders/adya
  tithi/tree/master/other/rare-days/combinations#ravipuṣyayoga-puṇyakāl
  aḥ<br/><br/>#RareDays #Combinations
@@ -19171,8 +19170,8 @@ DTSTART;VALUE=DATE:20191219
 DTEND;VALUE=DATE:20191220
 DESCRIPTION:Observed on Uttaraphalgunī nakṣhatram day of Dhanuḥ (sola
  r) month (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-c
- oders/adyatithi/tree/master/sidereal_solar_month/nakshatram/09/12#iyar̂pa
- gai-nāyanār-2-gurupūjai<br/><br/>#NayanarGurupujai
+ oders/adyatithi/tree/master/sidereal_solar_month/nakshatra/09/12#iyar̂pag
+ ai-nāyanār-2-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -19255,8 +19254,8 @@ DTSTART;VALUE=DATE:20191222
 DTEND;VALUE=DATE:20191223
 DESCRIPTION:Observed on Svātī nakṣhatram day of Dhanuḥ (solar) month
   (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-coders/ad
- yatithi/tree/master/sidereal_solar_month/nakshatram/09/15#mānakkañchār
- ̂a-nāyanār-11-gurupūjai<br/><br/>#NayanarGurupujai
+ yatithi/tree/master/sidereal_solar_month/nakshatra/09/15#mānakkañchār̂
+ a-nāyanār-11-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -19399,9 +19398,9 @@ DTSTART;VALUE=DATE:20191225
 DTEND;VALUE=DATE:20191226
 DESCRIPTION:Observed on Jyeṣṭhā nakṣhatram day of Dhanuḥ (solar) 
  month (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskrit-code
- rs/adyatithi/tree/master/sidereal_solar_month/nakshatram/09/18#tôṇḍar
- aḍippôḍiyāḽvār-tirunakṣattiram<br/><br/>#MahapurushaEvents #Azh
- warJayanti
+ rs/adyatithi/tree/master/sidereal_solar_month/nakshatra/09/18#tôṇḍara
+ ḍippôḍiyāḽvār-tirunakṣattiram<br/><br/>#MahapurushaEvents #Azhw
+ arJayanti
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -19467,8 +19466,8 @@ DTSTART;VALUE=DATE:20191227
 DTEND;VALUE=DATE:20191228
 DESCRIPTION:Observed on Pūrvāṣāḍhā nakṣhatram day of Dhanuḥ (s
  olar) month (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskri
- t-coders/adyatithi/tree/master/sidereal_solar_month/nakshatram/09/20#chāk
- kiya-nāyanār-33-gurupūjai<br/><br/>#NayanarGurupujai
+ t-coders/adyatithi/tree/master/sidereal_solar_month/nakshatra/09/20#chākk
+ iya-nāyanār-33-gurupūjai<br/><br/>#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -19483,8 +19482,8 @@ DTSTART;VALUE=DATE:20191229
 DTEND;VALUE=DATE:20191230
 DESCRIPTION:Observed on Śravaṇam nakṣhatram day of every solar month 
  (sangava/puurvaviddha (default)).<br/><br/><br/>https://github.com/sanskri
- t-coders/adyatithi/tree/master/sidereal_solar_month/nakshatram/00/22#śrav
- aṇa-vratam<br/><br/>#SpecialVratam
+ t-coders/adyatithi/tree/master/sidereal_solar_month/nakshatra/00/22#śrava
+ ṇa-vratam<br/><br/>#SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE

@@ -280,11 +280,11 @@ class DailyPanchanga(common.JsonObject):
                 Hour((kaalas[x].jd_end - self.julian_day_start) * 24).toString(format=format)) for x in kaalas.__dict__}
 
   def get_angas_today(self, anga_type):
-    """Computes anga data for angas such as tithi, nakshatram, yoga
+    """Computes anga data for angas such as tithi, nakshatra, yoga
     and karanam.
   
     Args:
-        :param anga_type: TITHI, NAKSHATRAM, YOGA, KARANAM, SOLAR_MONTH, SOLAR_NAKSH
+        :param anga_type: TITHI, nakshatra, YOGA, KARANA, SOLAR_MONTH, SOLAR_NAKSH
   
     Returns:
       tuple: A tuple comprising
