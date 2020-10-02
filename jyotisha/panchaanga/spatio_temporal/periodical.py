@@ -2,15 +2,14 @@ import logging
 import os
 import sys
 import traceback
-from collections import OrderedDict
-from typing import List
 
 import methodtools
 
 from jyotisha.panchaanga import spatio_temporal, temporal
 from jyotisha.panchaanga.spatio_temporal import daily
 from jyotisha.panchaanga.temporal import zodiac, time
-from jyotisha.panchaanga.temporal.body import Graha
+from jyotisha.panchaanga.temporal.festival import applier
+from jyotisha.panchaanga.temporal.festival.applier import tithi_festival, ecliptic, solar, vaara
 from jyotisha.panchaanga.temporal.month import LunarMonthAssigner
 from jyotisha.panchaanga.temporal.time import Date
 from jyotisha.panchaanga.temporal.tithi import TithiAssigner
@@ -253,8 +252,6 @@ previous_day_panchaanga=previous_daily_panchaanga)
     """
     self._reset_festivals()
     TithiAssigner(self).assign_shraaddha_tithi()
-    from jyotisha.panchaanga.temporal.festival import applier
-    from jyotisha.panchaanga.temporal.festival.applier import tithi_festival, ecliptic, solar, vaara
     applier.MiscFestivalAssigner(panchaanga=self).assign_all(debug=debug)
     ecliptic.EclipticFestivalAssigner(panchaanga=self).assign_all(debug=debug)
     tithi_festival.TithiFestivalAssigner(panchaanga=self).assign_all(debug=debug)

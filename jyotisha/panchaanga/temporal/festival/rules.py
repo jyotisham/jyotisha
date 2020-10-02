@@ -134,23 +134,17 @@ class HinduCalendarEvent(common.JsonObject):
         "type": "string",
         "description": "",
       },
-      "script_priority": {
-        "type": "string",
-        "description": "",
-      },
       "image": {
         "type": "string",
         "description": "",
       },
-      "description_short": {
+      "description": {
         "type": "object",
-        "description": "",
+        "description": "Language code to text mapping.",
       },
-      "titles": {
-        "type": "array",
-        "items": {
-          "type": "string"
-        }
+      "names": {
+        "type": "object",
+        "description": "Language code to text array mapping.",
       },
       "shlokas": {
         "type": "array",
@@ -204,6 +198,32 @@ class HinduCalendarEvent(common.JsonObject):
 
     event.validate_schema()
     return event
+
+  def get_storage_file_name(self, base_dir, only_descriptions=False):
+    if self.timing.anchor_festival_id is not None:
+      return "%(base_dir)s/relative_event/%(anchor_festival_id)s/offset__%(offset)02d/%(id)s__info.toml" % dict(
+        base_dir=base_dir,
+        anchor_festival_id=self.timing.anchor_festival_id.replace('/','__'),
+        offset=self.timing.offset,
+        id=self.id.replace('/','__').strip('{}')
+      )
+    else:
+      if only_descriptions:
+        tag_list = '/'.join(self.tags)
+        return "%(base_dir)s/other/%(tags)s/%(id)s__info.toml" % dict(
+          base_dir=base_dir,
+          tags=tag_list,
+          id=self.id.replace('/','__').strip('{}')
+        )
+      else:
+        return "%(base_dir)s/%(month_type)s/%(anga_type)s/%(month_number)02d/%(anga_number)02d/%(id)s__info.toml" % dict(
+          base_dir=base_dir,
+          month_type=self.timing.month_type,
+          anga_type=self.timing.anga_type,
+          month_number=self.timing.month_number,
+          anga_number=self.timing.anga_number,
+          id=self.id.replace('/','__').strip('{}')
+        )
 
   def get_description_string(self, script, include_url=False, include_images=False, use_markup=False,
                              include_shlokas=False, is_brief=False, truncate=False):
@@ -437,5 +457,5 @@ festival_rules_rel = get_festival_rules_map(
   os.path.join(DATA_ROOT, 'relative_event'))
 festival_rules_desc_only = get_festival_rules_map(
   os.path.join(DATA_ROOT, 'other'))
-
+festival_rules_all = {**festival_rules_solar, **festival_rules_lunar, **festival_rules_rel, **festival_rules_desc_only}
 

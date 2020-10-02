@@ -9,6 +9,7 @@ from jyotisha.names import get_chandra_masa, NAMES
 # from jyotisha.panchaanga.temporal import festival
 from jyotisha.panchaanga.temporal.festival import rules
 from jyotisha.panchaanga.temporal.festival.rules import HinduCalendarEvent, HinduCalendarEventOld
+from jyotisha.util import default_if_none
 from sanskrit_data.schema.common import JsonObject
 
 logging.basicConfig(
@@ -32,13 +33,34 @@ def transliterate_quoted_text(text, script):
   return transliterated_text
 
 
-def migrate_db(dir_path):
-  festival_rules_dict = rules.get_festival_rules_dict(dir_path)
+def migrate_db(dir_path, only_descriptions=False):
+  festival_rules_dict = rules.get_festival_rules_map(dir_path)
   output_dir = os.path.join(os.path.dirname(__file__), 'data/migrated')
   # import shutil
   # shutil.rmtree(output_dir)
   for event in festival_rules_dict.values():
-    event_file_name = event.get_storage_file_name(base_dir=output_dir)
+    logging.info("Migrating %s", event.id)
+    event.names = default_if_none(x=event.names, default={})
+    sa_names = event.names.get("sa", [])
+    ta_names = event.names.get("ta", [])
+    if event.id.startswith("ta__"):
+      event.id = event.id.replace("ta__", "")
+      ta_names = [event.id] + ta_names
+    else:
+      sa_names = [event.id] + sa_names
+    if event.timing is not None and event.timing.anchor_festival_id is not None and event.timing.anchor_festival_id.startswith("ta__"):
+      event.timing.anchor_festival_id = event.timing.anchor_festival_id.replace("ta__", "")
+    if event.titles is not None:
+      sa_names = sa_names + event.titles
+      event.titles = None
+    if len(sa_names) > 0:
+      event.names["sa"] = sa_names
+    if len(ta_names) > 0:
+      event.names["ta"] = ta_names
+    for language in event.names:
+      event.names[language] = [name.rstrip('~0123456789 ') for name in event.names[language]]
+    event.script_priority = None
+    event_file_name = event.get_storage_file_name(base_dir=output_dir, only_descriptions=only_descriptions)
     logging.debug(event_file_name)
     event.dump_to_file(filename=event_file_name)
     # append_to_event_group_README(event, event_file_name)
@@ -142,18 +164,6 @@ def append_to_event_group_README(event, event_file_name):
     readme_file.write('\n\n---\n')
 
 
-def migrate_relative_db():
-  old_style_events = HinduCalendarEventOld.read_from_file(
-    filename = os.path.join(os.path.dirname(__file__), 'data/legacy/relative_festival_rules.json'))
-  for old_style_event in old_style_events:
-    event = HinduCalendarEvent.from_old_style_event(old_style_event=old_style_event)
-    logging.debug(str(event))
-    event_file_name = event.get_storage_file_name(base_dir=os.path.join(os.path.dirname(__file__), 'data'))
-    logging.debug(event_file_name)
-    event.dump_to_file(filename=event_file_name)
-    # append_to_event_group_README(event, event_file_name)
-
-
 def legacy_dict_to_HinduCalendarEventOld_list(old_db_file, new_db_file):
   with open(old_db_file, 'r') as f:
     legacy_event_dict = json.load(f)
@@ -169,12 +179,13 @@ def legacy_dict_to_HinduCalendarEventOld_list(old_db_file, new_db_file):
 def clear_output_dirs():
   import shutil
   for dir in ["lunar_month", "other", "relative_event", "sidereal_solar_month"]:
-    shutil.rmtree(os.path.join(os.path.dirname(__file__), 'data', dir), ignore_errors=True)
+    shutil.rmtree(os.path.join(os.path.dirname(__file__), 'data/migrated', dir), ignore_errors=True)
 
 
 if __name__ == '__main__':
   clear_output_dirs()
-  migrate_db(os.path.join(os.path.dirname(__file__), 'data/legacy/festival_rules.json'))
-  migrate_db(os.path.join(os.path.dirname(__file__), 'data/legacy/festival_rules_desc_only.json'), only_descriptions=True)
-  migrate_relative_db()
+  migrate_db(os.path.join(os.path.dirname(__file__), 'data/lunar_month'))
+  migrate_db(os.path.join(os.path.dirname(__file__), 'data/other'), only_descriptions=True)
+  migrate_db(os.path.join(os.path.dirname(__file__), 'data/sidereal_solar_month'))
+  migrate_db(os.path.join(os.path.dirname(__file__), 'data/relative_event'))
   pass

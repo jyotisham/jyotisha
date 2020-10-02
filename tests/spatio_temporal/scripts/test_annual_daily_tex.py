@@ -2,6 +2,8 @@ import logging
 import os
 
 # from jyotisha.panchaanga.spatio_temporal import City, annual
+from sanskrit_util.transliterate import sanscript
+
 from jyotisha.panchaanga.scripts.write_daily_panchaanga_tex import writeDailyTeX
 from jyotisha.panchaanga.spatio_temporal.periodical import Panchaanga
 from sanskrit_data.schema.common import JsonObject
@@ -28,7 +30,7 @@ def daily_tex_comparer(city_name, year):
   daily_template_file = open(os.path.join(CODE_ROOT, 'jyotisha/panchaanga/data/templates/daily_cal_template.tex'))
   current_tex_output = os.path.join(TEST_DATA_PATH, 'daily-cal-%s-%s-deva.tex.local' % (year, city_name))
   writeDailyTeX(panchaanga, daily_template_file, compute_lagnams=False,
-                output_stream=open(current_tex_output, 'w'))
+                output_stream=open(current_tex_output, 'w'), scripts=[sanscript.DEVANAGARI, sanscript.TAMIL])
 
   with open(orig_tex_file) as orig_tex:
     with open(current_tex_output) as current_tex:

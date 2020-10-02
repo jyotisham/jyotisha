@@ -20,8 +20,7 @@ class FestivalAssigner(PanchaangaApplier):
                        incl_tags=['CommonFestivals', 'MonthlyVratam', 'RareDays', 'AmavasyaDays', 'Dashavataram',
                                   'SunSankranti']):
 
-    festival_rules = {**rules.festival_rules_solar, **rules.festival_rules_lunar, **rules.festival_rules_rel, **rules.festival_rules_desc_only}
-
+    festival_rules = rules.festival_rules_all
     for d in range(1, len(self.panchaanga.festivals)):
       if len(self.daily_panchaangas[d].festivals) > 0:
         # Eliminate repeat festivals on the same day, and keep the list arbitrarily sorted
@@ -46,9 +45,7 @@ class FestivalAssigner(PanchaangaApplier):
         self.daily_panchaangas[d].festivals[:] = filterfalse(chk_fest, self.daily_panchaangas[d].festivals)
 
 
-  def add_festival(self, festival_name, d, debug=False):
-    if debug:
-      logging.debug('%03d: %s ' % (d, festival_name))
+  def add_festival(self, festival_name, d):
     if festival_name in self.panchaanga.festival_id_to_instance:
       if self.daily_panchaangas[d].date not in self.panchaanga.festival_id_to_instance[festival_name].days:
         # Second occurrence of a festival within a
@@ -114,7 +111,7 @@ class FestivalAssigner(PanchaangaApplier):
           if self.daily_panchaangas[d].angas.tithi_at_sunrise == 30 and self.daily_panchaangas[d + 1].angas.tithi_at_sunrise == 2 and \
               self.daily_panchaangas[d + 1].lunar_month == month_num:
             # Only in this case, we have a problem
-            self.add_festival(festival_name, d, debug_festivals)
+            self.add_festival(festival_name, d)
             continue
 
         if anga_type == 'day' and month_type == 'sidereal_solar_month' and self.daily_panchaangas[d].solar_sidereal_date_sunset.month == month_num:
@@ -125,11 +122,11 @@ class FestivalAssigner(PanchaangaApplier):
                                                                               ayanaamsha_id=self.ayanaamsha_id).get_solar_raashi(),
                                                                          kaala)
               if angams[1] == month_num:
-                self.add_festival(festival_name, d, debug_festivals)
+                self.add_festival(festival_name, d)
               elif angams[2] == month_num:
-                self.add_festival(festival_name, d + 1, debug_festivals)
+                self.add_festival(festival_name, d + 1)
             else:
-              self.add_festival(festival_name, d, debug_festivals)
+              self.add_festival(festival_name, d)
         elif (month_type == 'lunar_month' and ((self.daily_panchaangas[d].lunar_month == month_num or month_num == 0) or (
             (self.daily_panchaangas[d + 1].lunar_month == month_num and angam_num == 1)))) or \
             (month_type == 'sidereal_solar_month' and (self.daily_panchaangas[d].solar_sidereal_date_sunset.month == month_num or month_num == 0)):
@@ -315,7 +312,7 @@ class FestivalAssigner(PanchaangaApplier):
               #         'kaala' in festival_rules[festival_name] and \
               #         festival_rules[festival_name].timing.kaala == 'arunodaya':
               #     fday += 1
-              self.add_festival(festival_name, fday, debug_festivals)
+              self.add_festival(festival_name, fday)
             else:
               if debug_festivals:
                 if month_type == 'sidereal_solar_month':
@@ -433,11 +430,11 @@ class MiscFestivalAssigner(FestivalAssigner):
       if self.daily_panchaangas[d].solar_sidereal_date_sunset.month == 1 and self.daily_panchaangas[d].solar_sidereal_date_sunset.day > 10:
         if agni_jd_start is not None:
           if self.daily_panchaangas[d].jd_sunset < agni_jd_start < self.daily_panchaangas[d + 1].jd_sunset:
-            self.add_festival('agninakSatra-ArambhaH', d + 1, debug_festivals)
+            self.add_festival('agninakSatra-ArambhaH', d + 1)
       if self.daily_panchaangas[d].solar_sidereal_date_sunset.month == 2 and self.daily_panchaangas[d].solar_sidereal_date_sunset.day > 10:
         if agni_jd_end is not None:
           if self.daily_panchaangas[d].jd_sunset < agni_jd_end < self.daily_panchaangas[d + 1].jd_sunset:
-            self.add_festival('agninakSatra-samApanam', d + 1, debug_festivals)
+            self.add_festival('agninakSatra-samApanam', d + 1)
 
   def assign_relative_festivals(self):
     # Add "RELATIVE" festivals --- festivals that happen before or

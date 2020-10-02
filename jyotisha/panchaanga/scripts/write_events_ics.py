@@ -87,7 +87,7 @@ def compute_events(panchaanga, json_file):
             event_name += '-#%d' % event_num
 
           logging.debug('Assigned fday = %d' % d)
-          panchaanga.add_festival(event_name, d, debugEvents)
+          panchaanga.add_festival(event_name, d)
           continue
 
       if anga_type == 'day' and month_type == 'sidereal_solar_month' \
@@ -211,7 +211,7 @@ def compute_events(panchaanga, json_file):
                              (priority, event_name))
         # logging.debug (panchaanga.festival_id_to_instance.days)
         if fday is not None:
-          panchaanga.add_festival(event_name, fday, debugEvents)
+          panchaanga.add_festival(event_name, fday)
 
   for festival_name in panchaanga.festival_id_to_instance:
     for j in range(0, len(panchaanga.festival_id_to_instance[festival_name])):

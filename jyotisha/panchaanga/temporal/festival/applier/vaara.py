@@ -27,24 +27,24 @@ class VaraFestivalAssigner(FestivalAssigner):
         if festival_name not in self.panchaanga.festival_id_to_instance:
           # only the first bhRguvAra of tulA mAsa is considered (skAnda purANam)
           # https://youtu.be/rgXwyo0L3i8?t=222
-          self.add_festival(festival_name, d, debug_festivals)
+          self.add_festival(festival_name, d)
 
   def assign_masa_vara_yoga_vratam(self, debug_festivals=False):
     for d in range(1, self.panchaanga.duration + 1):
 
       # KRTTIKA SOMAVASARA
       if self.daily_panchaangas[d].lunar_month == 8 and self.daily_panchaangas[d].date.get_weekday() == 1:
-        self.add_festival('kRttikA~sOmavAsaraH', d, debug_festivals)
+        self.add_festival('kRttikA~sOmavAsaraH', d)
 
       # SOLAR MONTH-WEEKDAY FESTIVALS
-      for (mwd_fest_m, mwd_fest_wd, mwd_fest_name) in ((5, 0, 'ta__AvaNi~JAyir2r2ukkizhamai'),
-                                                       (6, 6, 'ta__puraTTAci~can2ikkizhamai'),
-                                                       (8, 0, 'ta__kArttigai~JAyir2r2ukkizhamai'),
-                                                       (4, 5, 'ta__ADi~veLLikkizhamai'),
-                                                       (10, 5, 'ta__tai~veLLikkizhamai'),
-                                                       (11, 2, 'ta__mAci~cevvAy')):
+      for (mwd_fest_m, mwd_fest_wd, mwd_fest_name) in ((5, 0, 'AvaNi~JAyir2r2ukkizhamai'),
+                                                       (6, 6, 'puraTTAci~can2ikkizhamai'),
+                                                       (8, 0, 'kArttigai~JAyir2r2ukkizhamai'),
+                                                       (4, 5, 'ADi~veLLikkizhamai'),
+                                                       (10, 5, 'tai~veLLikkizhamai'),
+                                                       (11, 2, 'mAci~cevvAy')):
         if self.daily_panchaangas[d].solar_sidereal_date_sunset.month == mwd_fest_m and self.daily_panchaangas[d].date.get_weekday() == mwd_fest_wd:
-          self.add_festival(mwd_fest_name, d, debug_festivals)
+          self.add_festival(mwd_fest_name, d)
 
   def assign_tithi_vara_yoga(self, debug_festivals=False):
     for d in range(1, self.panchaanga.duration + 1):
@@ -55,16 +55,16 @@ class VaraFestivalAssigner(FestivalAssigner):
         festival_name = 'aGgAraka-caturthI'
         if self.daily_panchaangas[d].angas.tithi_at_sunrise == 4:
           festival_name = 'sukhA' + '~' + festival_name
-        self.add_festival(festival_name, d, debug_festivals)
+        self.add_festival(festival_name, d)
 
       # KRISHNA ANGARAKA CHATURDASHI
       if self.daily_panchaangas[d].date.get_weekday() == 2 and self.daily_panchaangas[d].angas.tithi_at_sunrise == 29:
         # Double-check rule. When should the vyApti be?
-        self.add_festival('kRSNAGgAraka-caturdazI-puNyakAlaH/yamatarpaNam', d, debug_festivals)
+        self.add_festival('kRSNAGgAraka-caturdazI-puNyakAlaH/yamatarpaNam', d)
 
       # BUDHASHTAMI
       if self.daily_panchaangas[d].date.get_weekday() == 3 and (self.daily_panchaangas[d].angas.tithi_at_sunrise % 15) == 8:
-        self.add_festival('budhASTamI', d, debug_festivals)
+        self.add_festival('budhASTamI', d)
 
 
   def assign_nakshatra_vara_yoga_vratam(self, debug_festivals=False):
@@ -91,7 +91,7 @@ class VaraFestivalAssigner(FestivalAssigner):
                                                                                                     ayanaamsha_id=self.ayanaamsha_id).get_nakshatra(),
                                               'dinamaana')
           if any(x == nwd_fest_n for x in [self.daily_panchaangas[d].nakshatra_at_sunrise, angams[0], angams[1]]):
-            self.add_festival(nwd_fest_name, d, debug_festivals)
+            self.add_festival(nwd_fest_name, d)
 
 
   def assign_ayushman_bava_saumya_yoga(self, debug_festivals=False):
@@ -103,12 +103,12 @@ class VaraFestivalAssigner(FestivalAssigner):
           zodiac.AngaType.NAKSHATRA) == 3:
         if NakshatraDivision(self.daily_panchaangas[d].jd_sunrise, ayanaamsha_id=self.ayanaamsha_id).get_anga(
             zodiac.AngaType.KARANA) in list(range(2, 52, 7)):
-          self.add_festival('AyuSmad-bava-saumya-saMyogaH', d, debug_festivals)
+          self.add_festival('AyuSmad-bava-saumya-saMyogaH', d)
       if self.daily_panchaangas[d].date.get_weekday() == 3 and NakshatraDivision(self.daily_panchaangas[d].jd_sunset, ayanaamsha_id=self.ayanaamsha_id).get_anga(
           zodiac.AngaType.NAKSHATRA) == 3:
         if NakshatraDivision(self.daily_panchaangas[d].jd_sunset, ayanaamsha_id=self.ayanaamsha_id).get_anga(
             zodiac.AngaType.KARANA) in list(range(2, 52, 7)):
-          self.add_festival('AyuSmad-bava-saumya-saMyogaH', d, debug_festivals)
+          self.add_festival('AyuSmad-bava-saumya-saMyogaH', d)
 
 
 # Essential for depickling to work.

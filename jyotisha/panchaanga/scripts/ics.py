@@ -36,10 +36,10 @@ def write_to_file(ics_calendar, fname):
   ics_calendar_file.close()
 
 
-def compute_calendar(panchaanga, script=sanscript.DEVANAGARI, all_tags=True, brief=False):
+def compute_calendar(panchaanga, scripts=[sanscript.DEVANAGARI], all_tags=True, brief=False):
   DATA_ROOT = os.path.join(os.path.dirname(festival.__file__), "data")
 
-  festival_rules = {**rules.festival_rules_solar, **rules.festival_rules_lunar, **rules.festival_rules_rel, **rules.festival_rules_desc_only}
+  festival_rules = rules.festival_rules_all
 
   ics_calendar = Calendar()
   # uid_list = []
@@ -77,7 +77,7 @@ def compute_calendar(panchaanga, script=sanscript.DEVANAGARI, all_tags=True, bri
               continue
 
         if stext == 'kRttikA-maNDala-pArAyaNam':
-          event.add('summary', jyotisha.custom_transliteration.tr(stext.replace('-', ' '), script))
+          event.add('summary', jyotisha.custom_transliteration.tr(stext.replace('-', ' '), scripts[0]))
           fest_num_loc = stext.find('~\\#')
           if fest_num_loc != -1:
             stext = stext[:fest_num_loc]
@@ -86,7 +86,7 @@ def compute_calendar(panchaanga, script=sanscript.DEVANAGARI, all_tags=True, bri
 
           if stext in festival_rules:
             desc = festival_rules[stext].get_description_string(
-              script=script, include_url=True, include_shlokas=True, truncate=True)
+              script=scripts[0], include_url=True, include_shlokas=True, truncate=True)
           else:
             logging.warning('No description found for festival %s!' % stext)
 
@@ -105,7 +105,7 @@ def compute_calendar(panchaanga, script=sanscript.DEVANAGARI, all_tags=True, bri
             continue
           [stext, t1, arrow, t2] = stext.split('\\')
           stext = stext.strip('-~')
-          event.add('summary', jyotisha.custom_transliteration.tr(stext, script))
+          event.add('summary', jyotisha.custom_transliteration.tr(stext, scripts[0]))
           # we know that t1 is something like 'textsf{hh:mm(+1)}{'
           # so we know the exact positions of min and hour
           if t1[12] in '(':  # (+1), next day
@@ -132,7 +132,7 @@ def compute_calendar(panchaanga, script=sanscript.DEVANAGARI, all_tags=True, bri
 
           if stext in festival_rules:
             festival_event = festival_rules[stext]
-            desc = festival_event.get_description_string(script=script, include_url=True,
+            desc = festival_event.get_description_string(script=scripts[0], include_url=True,
                                                          include_shlokas=True, truncate=True)
           else:
             logging.warning('No description found for festival %s!\n' % stext)
@@ -141,13 +141,13 @@ def compute_calendar(panchaanga, script=sanscript.DEVANAGARI, all_tags=True, bri
           ics_calendar.add_component(event)
         elif stext.find('samApanam') != -1:
           # It's an ending event
-          event.add('summary', jyotisha.custom_transliteration.tr(stext, script))
+          event.add('summary', jyotisha.custom_transliteration.tr(stext, scripts[0]))
           event.add('dtstart', date(y, m, dt))
           event.add('dtend', (datetime(y, m, dt) + timedelta(1)).date())
 
           if stext in festival_rules:
             festival_event = festival_rules[stext]
-            desc = festival_event.get_description_string(script=script, include_url=True,
+            desc = festival_event.get_description_string(script=scripts[0], include_url=True,
                                                          include_shlokas=True, truncate=True)
           else:
             logging.warning('No description found for festival %s!' % stext)
@@ -199,7 +199,7 @@ def compute_calendar(panchaanga, script=sanscript.DEVANAGARI, all_tags=True, bri
                             'vrata-': 'vratam'}
             for _orig, _repl in REPLACEMENTS.items():
               event_summary_text = event_summary_text.replace(_orig, _repl)
-            event.add('summary', jyotisha.custom_transliteration.tr(event_summary_text, script))
+            event.add('summary', jyotisha.custom_transliteration.tr(event_summary_text, scripts[0]))
             event.add('dtstart', (datetime(y, m, dt) - timedelta(d - start_d)).date())
             event.add('dtend', (datetime(y, m, dt) + timedelta(1)).date())
 
@@ -214,7 +214,7 @@ def compute_calendar(panchaanga, script=sanscript.DEVANAGARI, all_tags=True, bri
           if y != year_start:
             continue
           summary = jyotisha.custom_transliteration.tr(
-            stext.replace('~', ' ').replace('\\#', '#').replace('\\To{}', '▶'), script)
+            stext.replace('~', ' ').replace('\\#', '#').replace('\\To{}', '▶'), scripts[0])
           summary = re.sub('.tamil{(.*)}', '\\1', summary)
           summary = re.sub('{(.*)}', '\\1', summary)  # strip braces around numbers
           event.add('summary', summary)
@@ -227,13 +227,13 @@ def compute_calendar(panchaanga, script=sanscript.DEVANAGARI, all_tags=True, bri
           if re.match('.*-.*-EkAdazI', stext) is None and stext.find('saGkrAntiH') == -1:
             if stext in festival_rules:
               desc = festival_rules[stext].get_description_string(
-                script=script, include_url=True, include_shlokas=True, truncate=True, include_images=False)
+                script=scripts[0], include_url=True, include_shlokas=True, truncate=True, include_images=False)
             else:
               if re.match('aGgArakI.*saGkaTahara-caturthI-vratam', stext):
                 stext = stext.replace('aGgArakI~', '')
                 if stext in festival_rules:
                   desc = festival_rules[stext].get_description_string(
-                    script=script)
+                    script=scripts[0])
                   desc += 'When `caturthI` occurs on a Tuesday, it is known as `aGgArakI` and is even more sacred.'
                 else:
                   logging.warning('No description found for caturthI festival %s!' % stext)
@@ -249,7 +249,7 @@ def compute_calendar(panchaanga, script=sanscript.DEVANAGARI, all_tags=True, bri
                   logging.warning('No exact match found for festival %s! Found more than one approximate match: %s' % (
                   stext, str(matched_festivals)))
                 else:
-                  desc = festival_rules[matched_festivals[0]].get_description_string(script=script,
+                  desc = festival_rules[matched_festivals[0]].get_description_string(script=scripts[0],
                                                                                  include_url=True, include_shlokas=True,
                                                                                  truncate=True)
 
@@ -258,7 +258,7 @@ def compute_calendar(panchaanga, script=sanscript.DEVANAGARI, all_tags=True, bri
             planet_trans = stext.split('~')[0]  # get rid of ~(rAshi name) etc.
             if planet_trans in festival_rules:
               desc = festival_rules[planet_trans].get_description_string(
-                script=script, include_url=True, include_shlokas=True, truncate=True)
+                script=scripts[0], include_url=True, include_shlokas=True, truncate=True)
             else:
               logging.warning('No description found for festival %s!' % planet_trans)
           else:
@@ -271,7 +271,7 @@ def compute_calendar(panchaanga, script=sanscript.DEVANAGARI, all_tags=True, bri
               ekad = ekad[:ekad_suff_pos]
             if ekad in festival_rules:
               desc = festival_rules[ekad].get_description_string(
-                script=script, include_url=True, include_shlokas=True, truncate=True)
+                script=scripts[0], include_url=True, include_shlokas=True, truncate=True)
             else:
               logging.warning('No description found for Ekadashi festival %s (%s)!' % (ekad, stext))
           event.add_component(alarm)
@@ -297,18 +297,17 @@ def main():
     all_tags = True  # Default assume detailed ICS with all tags
 
   if len(sys.argv) >= 7:
-    script = sys.argv[6]
+    scripts = sys.argv[6].split(",")
   else:
-    script = sanscript.IAST  # Default script is IAST for writing calendar
+    scripts = [sanscript.IAST]  # Default script is IAST for writing calendar
 
   city = City(city_name, latitude, longitude, tz)
 
   panchaanga = jyotisha.panchaanga.spatio_temporal.annual.get_panchaanga(city=city, year=year)
-  script = script  # Force script
   panchaanga.update_festival_details()
 
   ics_calendar = compute_calendar(panchaanga, all_tags)
-  output_file = os.path.expanduser('%s/%s-%d-%s.ics' % ("~/Documents", city.name, year, script))
+  output_file = os.path.expanduser('%s/%s-%d-%s.ics' % ("~/Documents", city.name, year, scripts))
   write_to_file(ics_calendar, output_file)
 
 

@@ -148,16 +148,16 @@ class EclipticFestivalAssigner(FestivalAssigner):
               fday_pushkara = fday + 1
             self.add_festival(
               '%s-Adi-puSkara-ArambhaH' % names.NAMES['PUSHKARA_NAMES']['hk'][rashi2],
-              fday_pushkara, debug=False)
+              fday_pushkara)
             self.add_festival(
               '%s-Adi-puSkara-samApanam' % names.NAMES['PUSHKARA_NAMES']['hk'][rashi2],
-              fday_pushkara + 11, debug=False)
+              fday_pushkara + 11)
             self.add_festival(
               '%s-antya-puSkara-samApanam' % names.NAMES['PUSHKARA_NAMES']['hk'][rashi1],
-              fday_pushkara - 1, debug=False)
+              fday_pushkara - 1)
             self.add_festival(
               '%s-antya-puSkara-ArambhaH' % names.NAMES['PUSHKARA_NAMES']['hk'][rashi1],
-              fday_pushkara - 12, debug=False)
+              fday_pushkara - 12)
 
 
 MIN_DAYS_NEXT_ECLIPSE = 25
