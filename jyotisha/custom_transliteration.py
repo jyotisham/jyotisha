@@ -25,10 +25,10 @@ def romanise(iast_text):
   return roman_text.lower()
 
 
-def tr(text, scr, titled=True):
+def tr(text, script, titled=True):
   # titled = True seems to be primarily for NOT TitleCasing IAST Shlokas...
-  if scr == 'hk':
-    scr = sanscript.HK
+  if script == 'hk':
+    script = sanscript.HK
   if text == '':
     return ''
   text = text.replace('~', '##~##')  # Simple fix to prevent transliteration of ~
@@ -40,24 +40,24 @@ def tr(text, scr, titled=True):
       t = t.rstrip('#~0123456789 ')
       if t.split("__")[0] == 'ta':
         # Force Tamil!
-        if scr == sanscript.DEVANAGARI:
-          scr = sanscript.TAMIL
+        if script == sanscript.DEVANAGARI:
+          script = sanscript.TAMIL
         t = t.split("__")[1]
-        if scr == sanscript.TAMIL:
+        if script == sanscript.TAMIL:
           tamil_text = sanscript.SCHEMES[sanscript.TAMIL].apply_roman_numerals(
-            sanscript.transliterate(data=t, _from=sanscript.HK, _to=scr))
+            sanscript.transliterate(data=t, _from=sanscript.HK, _to=script))
           transliterated_text.append('\\tamil{%s}' % tamil_text.replace('C', 'Ch').replace('c', 'ch').title())
         else:
           transliterated_text.append(
-            sanscript.transliterate(data=t, _from=sanscript.HK, _to=scr).replace('C', 'Ch').replace('c', 'ch').title())
+            sanscript.transliterate(data=t, _from=sanscript.HK, _to=script).replace('C', 'Ch').replace('c', 'ch').title())
 
       else:
         if t.find('RIGHTarrow') == -1:
           transliterated_text.append(
-            sanscript.transliterate(data=t, _from=sanscript.HK, _to=scr).replace('C', 'Ch').replace('c', 'ch').title())
+            sanscript.transliterate(data=t, _from=sanscript.HK, _to=script).replace('C', 'Ch').replace('c', 'ch').title())
         else:
           [txt, t1, arrow, t2] = t.split('\\')
-          transliterated_text.append('\\'.join([sanscript.transliterate(data=txt, _from=sanscript.HK, _to=scr).replace(
+          transliterated_text.append('\\'.join([sanscript.transliterate(data=txt, _from=sanscript.HK, _to=script).replace(
             'C', 'Ch').replace('c', 'ch').title(),
                                                 t1, arrow, t2]))
   else:
@@ -65,25 +65,25 @@ def tr(text, scr, titled=True):
       t = t.rstrip('~0123456789 ')
       if t.split("__")[0] == 'ta':
         # Force Tamil!
-        if scr == sanscript.DEVANAGARI:
-          scr = sanscript.TAMIL
+        if script == sanscript.DEVANAGARI:
+          script = sanscript.TAMIL
         t = t.split("__")[1]
         tamil_text = sanscript.SCHEMES[sanscript.TAMIL].apply_roman_numerals(
-          sanscript.transliterate(data=t, _from=sanscript.HK, _to=scr))
+          sanscript.transliterate(data=t, _from=sanscript.HK, _to=script))
         transliterated_text.append(tamil_text.replace('C', 'Ch').replace('c', 'ch').strip("{}").title())
         # logging.debug(transliterated_text)
       else:
         if t.find('RIGHTarrow') == -1:
-          transliterated_text.append(sanscript.transliterate(data=t, _from=sanscript.HK, _to=scr))
+          transliterated_text.append(sanscript.transliterate(data=t, _from=sanscript.HK, _to=script))
         else:
           [txt, t1, arrow, t2] = t.split('\\')
           transliterated_text.append(
-            '\\'.join([sanscript.transliterate(txt, _from=sanscript.HK, _to=scr), t1, arrow, t2]))
+            '\\'.join([sanscript.transliterate(txt, _from=sanscript.HK, _to=script), t1, arrow, t2]))
 
   output_text = '|'.join(transliterated_text)
-  if scr == 'tamil':
+  if script == 'tamil':
     output_text = sanscript.SCHEMES[sanscript.TAMIL].apply_roman_numerals(output_text)
-  if scr == 'iast':
+  if script == 'iast':
     output_text = output_text.replace('ṉ', 'n')
   return output_text
 

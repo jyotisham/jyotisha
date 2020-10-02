@@ -29454,7 +29454,7 @@
             }
           ],
           "jsonClass": "FestivalInstance",
-          "name": "ta__rAmAnujar~tirunakSattiram~\\#{1003}"
+          "name": "rAmAnuja-janma-nakSatram~\\#{1003}"
         }
       ],
       "jd_moonrise": 2458612.1685,
@@ -93828,6 +93828,19 @@
       "jsonClass": "FestivalInstance",
       "name": "rAja-mAtaGgI~jayantI"
     },
+    "rAmAnuja-janma-nakSatram~\\#{1003}": {
+      "days": [
+        {
+          "day": 8,
+          "jsonClass": "Date",
+          "month": 5,
+          "weekday": 3,
+          "year": 2019
+        }
+      ],
+      "jsonClass": "FestivalInstance",
+      "name": "rAmAnuja-janma-nakSatram~\\#{1003}"
+    },
     "rAmAnuja~jayantI~\\#{1003}": {
       "days": [
         {
@@ -96633,19 +96646,6 @@
       ],
       "jsonClass": "FestivalInstance",
       "name": "ta__puraTTAci~can2ikkizhamai"
-    },
-    "ta__rAmAnujar~tirunakSattiram~\\#{1003}": {
-      "days": [
-        {
-          "day": 8,
-          "jsonClass": "Date",
-          "month": 5,
-          "weekday": 3,
-          "year": 2019
-        }
-      ],
-      "jsonClass": "FestivalInstance",
-      "name": "ta__rAmAnujar~tirunakSattiram~\\#{1003}"
     },
     "ta__rudra~pazupati nAyan2Ar (16) gurupUjai": {
       "days": [

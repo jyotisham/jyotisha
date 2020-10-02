@@ -6067,6 +6067,24 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:रामानुज-जन्म-नक्षत्रम् #
+ १००३
+DTSTART;VALUE=DATE:20190509
+DTEND;VALUE=DATE:20190510
+DESCRIPTION:Observed on Ārdrā nakṣhatram day of Meṣaḥ (solar) mont
+ h (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>https://github
+ .com/sanskrit-coders/adyatithi/tree/master/sidereal_solar_month/nakshatra/
+ 01/06#rāmānuja-janma-nakṣatram<br/><br/>#MahapurushaEvents #CommonFest
+ ivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:सूरदास जयन्ती #५४२
 DTSTART;VALUE=DATE:20190509
 DTEND;VALUE=DATE:20190510
@@ -6091,24 +6109,6 @@ DESCRIPTION:Observed on Śukla-Pañcamī tithi of Vaiśākhaḥ (lunar) mo
  sha that humans will worship on this day<br/><br/>https://github.com/sansk
  rit-coders/adyatithi/tree/master/lunar_month/tithi/02/05#sarpa-pūjā<br/>
  <br/>#SpecialPuja #PuranaEvents
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:ராமாநுஜர் திருநக்ஷத்தி
- ரம் #1003
-DTSTART;VALUE=DATE:20190509
-DTEND;VALUE=DATE:20190510
-DESCRIPTION:Observed on Ārdrā nakṣhatram day of Meṣaḥ (solar) mont
- h (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>https://github
- .com/sanskrit-coders/adyatithi/tree/master/sidereal_solar_month/nakshatra/
- 01/06#rāmānujar-tirunakṣattiram<br/><br/>#MahapurushaEvents #CommonFes
- tivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE

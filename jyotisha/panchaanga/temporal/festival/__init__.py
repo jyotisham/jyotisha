@@ -20,7 +20,7 @@ class FestivalInstance(common.JsonObject):
     self.interval = interval
 
   def tex_code(self, script, timezone):
-    name = custom_transliteration.tr(text=self.name, scr=script).replace('★', '$^\\star$')
+    name = custom_transliteration.tr(text=self.name, script=script).replace('★', '$^\\star$')
 
     if self.interval is None:
       return name
@@ -28,7 +28,7 @@ class FestivalInstance(common.JsonObject):
       from jyotisha.panchaanga.temporal.time import Hour
       start_time_str = "" if self.interval.jd_start is None else Hour(timezone.julian_day_to_local_time(self.interval.jd_start).get_fractional_hour()).toString()
       end_time_str = "" if self.interval.jd_end is None else Hour(timezone.julian_day_to_local_time(self.interval.jd_end).get_fractional_hour()).toString()
-      return custom_transliteration.tr("%s\\textsf{%s}{\\RIGHTarrow}\\textsf{%s}" % (name, start_time_str, end_time_str), scr=script)
+      return custom_transliteration.tr("%s\\textsf{%s}{\\RIGHTarrow}\\textsf{%s}" % (name, start_time_str, end_time_str), script=script)
 
   def __lt__(self, other):
     return self.name < other.name
@@ -44,7 +44,7 @@ class TransitionFestivalInstance(FestivalInstance):
     self.status_2_hk = status_2_hk
 
   def tex_code(self, script, timezone=None):
-    return custom_transliteration.tr("%s~%s##\\To{}##%s" % (self.name, self.status_1_hk, self.status_2_hk), scr=script)
+    return custom_transliteration.tr("%s~%s##\\To{}##%s" % (self.name, self.status_1_hk, self.status_2_hk), script=script)
 
 # Essential for depickling to work.
 common.update_json_class_index(sys.modules[__name__])
