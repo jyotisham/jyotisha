@@ -35,7 +35,7 @@ class FestivalAssigner(PanchaangaApplier):
           else:
             fest_text_itle = fest_title
           if fest_text_itle in festival_rules:
-            tag_list = (festival_rules[fest_text_itle]['tags'].split(','))
+            tag_list = (festival_rules[fest_text_itle].tags.split(','))
             if set(tag_list).isdisjoint(set(incl_tags)):
               return True
             else:
@@ -68,44 +68,44 @@ class FestivalAssigner(PanchaangaApplier):
       [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
 
       for festival_name in festival_rules:
-        if 'month_type' in festival_rules[festival_name]['timing']:
-          month_type = festival_rules[festival_name]['timing']['month_type']
+        if festival_rules[festival_name].timing.month_type is not None:
+          month_type = festival_rules[festival_name].timing.month_type
         else:
           # Maybe only description of the festival is given, as computation has been
           # done in computeFestivals(), without using a rule in festival_rules.json!
-          if 'description_short' in festival_rules[festival_name]:
+          if festival_rules[festival_name].description_short is not None:
             continue
           raise ValueError("No month_type mentioned for %s" % festival_name)
-        if 'month_number' in festival_rules[festival_name]['timing']:
-          month_num = festival_rules[festival_name]['timing']['month_number']
+        if festival_rules[festival_name].timing.month_number is not None:
+          month_num = festival_rules[festival_name].timing.month_number
         else:
           raise ValueError("No month_num mentioned for %s" % festival_name)
-        if 'anga_type' in festival_rules[festival_name]['timing']:
-          anga_type = festival_rules[festival_name]['timing']['anga_type']
+        if festival_rules[festival_name].timing.anga_type is not None:
+          anga_type = festival_rules[festival_name].timing.anga_type
         else:
           raise ValueError("No anga_type mentioned for %s" % festival_name)
-        if 'anga_number' in festival_rules[festival_name]['timing']:
-          angam_num = festival_rules[festival_name]['timing']['anga_number']
+        if festival_rules[festival_name].timing.anga_number is not None:
+          angam_num = festival_rules[festival_name].timing.anga_number
         else:
           raise ValueError("No angam_num mentioned for %s" % festival_name)
-        if 'kaala' in festival_rules[festival_name]['timing']:
-          kaala = festival_rules[festival_name]['timing']['kaala']
+        if festival_rules[festival_name].timing.kaala is not None:
+          kaala = festival_rules[festival_name].timing.kaala
         else:
           kaala = 'sunrise'  # default!
-        if 'priority' in festival_rules[festival_name]['timing']:
-          priority = festival_rules[festival_name]['timing']['priority']
+        if festival_rules[festival_name].timing.priority is not None:
+          priority = festival_rules[festival_name].timing.priority
         else:
           priority = 'puurvaviddha'
-        # if 'titles' in festival_rules[festival_name]:
-        #     fest_other_names = festival_rules[festival_name]['titles']
-        # if 'Nirnaya' in festival_rules[festival_name]:
-        #     fest_nirnaya = festival_rules[festival_name]['Nirnaya']
-        # if 'references_primary' in festival_rules[festival_name]:
-        #     fest_ref1 = festival_rules[festival_name]['references_primary']
-        # if 'references_secondary' in festival_rules[festival_name]:
-        #     fest_ref2 = festival_rules[festival_name]['references_secondary']
-        # if 'comments' in festival_rules[festival_name]:
-        #     fest_comments = festival_rules[festival_name]['comments']
+        # if festival_rules[festival_name].titles is not None:
+        #     fest_other_names = festival_rules[festival_name].titles
+        # if festival_rules[festival_name].Nirnaya is not None:
+        #     fest_nirnaya = festival_rules[festival_name].Nirnaya
+        # if festival_rules[festival_name].references_primary is not None:
+        #     fest_ref1 = festival_rules[festival_name].references_primary
+        # if festival_rules[festival_name].references_secondary is not None:
+        #     fest_ref2 = festival_rules[festival_name].references_secondary
+        # if festival_rules[festival_name].comments is not None:
+        #     fest_comments = festival_rules[festival_name].comments
 
         if anga_type == 'tithi' and month_type == 'lunar_month' and angam_num == 1:
           # Shukla prathama tithis need to be dealt carefully, if e.g. the prathama tithi
@@ -313,7 +313,7 @@ class FestivalAssigner(PanchaangaApplier):
                 continue
               # if festival_name.find('\\') == -1 and \
               #         'kaala' in festival_rules[festival_name] and \
-              #         festival_rules[festival_name]['timing']['kaala'] == 'arunodaya':
+              #         festival_rules[festival_name].timing.kaala == 'arunodaya':
               #     fday += 1
               self.add_festival(festival_name, fday, debug_festivals)
             else:
@@ -337,9 +337,9 @@ class FestivalAssigner(PanchaangaApplier):
 
     period_start_year = self.panchaanga.start_date.year
     for festival_name in festival_rules:
-      if festival_name in self.panchaanga.festival_id_to_instance and 'year_start' in festival_rules[festival_name]['timing']:
-        fest_start_year = festival_rules[festival_name]['timing']['year_start']
-        month_type = festival_rules[festival_name]['timing']['month_type']
+      if festival_name in self.panchaanga.festival_id_to_instance and festival_rules[festival_name].timing.year_start is not None:
+        fest_start_year = festival_rules[festival_name].timing.year_start
+        month_type = festival_rules[festival_name].timing.month_type
         if len(self.panchaanga.festival_id_to_instance[festival_name].days) > 1:
           if self.panchaanga.festival_id_to_instance[festival_name].days[1] - self.panchaanga.festival_id_to_instance[festival_name].days[0] < 300:
             # Lunar festivals can repeat after 354 days; Solar festivals "can" repeat after 330 days
@@ -355,8 +355,7 @@ class FestivalAssigner(PanchaangaApplier):
               if assigned_day_index >= start_day:
                 fest_num += 1
           elif month_type == 'lunar_month':
-            if festival_rules[festival_name]['timing']['anga_number'] == 1 and festival_rules[festival_name]['timing'][
-              'month_number'] == 1:
+            if festival_rules[festival_name].timing.anga_number == 1 and festival_rules[festival_name].timing.month_number == 1:
               # Assigned day may be less by one, since prathama may have started after sunrise
               # Still assume assigned_day >= lunar_y_start_d!
               fest_num = period_start_year + 3100 - fest_start_year + 1
@@ -457,8 +456,8 @@ class MiscFestivalAssigner(FestivalAssigner):
     relative_festival_rules = rules.festival_rules_rel
 
     for festival_name in relative_festival_rules:
-      offset = int(relative_festival_rules[festival_name]['timing']['offset'])
-      rel_festival_name = relative_festival_rules[festival_name]['timing']['anchor_festival_id']
+      offset = int(relative_festival_rules[festival_name].timing.offset)
+      rel_festival_name = relative_festival_rules[festival_name].timing.anchor_festival_id
       if rel_festival_name not in self.panchaanga.festival_id_to_instance:
         # Check approx. match
         matched_festivals = []

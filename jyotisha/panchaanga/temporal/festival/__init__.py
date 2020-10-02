@@ -16,6 +16,7 @@ festival_id_to_json = {}
 class FestivalInstance(common.JsonObject):
   def __init__(self, name, days=None, interval=None):
     self.name = name
+    # A single festival may span multiple days.
     self.days = [] if days is None else days
     self.interval = interval
 

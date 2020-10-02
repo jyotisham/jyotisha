@@ -36,31 +36,31 @@ def compute_events(panchaanga, json_file):
 
     for event_name in event_rules:
       if 'month_type' in event_rules[event_name]:
-        month_type = event_rules[event_name]['timing']['month_type']
+        month_type = event_rules[event_name].timing.month_type
       else:
         raise ValueError("No month_type mentioned for %s" % event_name)
       if 'month_number' in event_rules[event_name]:
-        month_num = event_rules[event_name]['timing']['month_number']
+        month_num = event_rules[event_name].timing.month_number
       else:
         raise ValueError("No month_num mentioned for %s" % event_name)
       if 'anga_type' in event_rules[event_name]:
-        anga_type = event_rules[event_name]['timing']['anga_type']
+        anga_type = event_rules[event_name].timing.anga_type
       else:
         raise ValueError("No anga_type mentioned for %s" % event_name)
       if 'anga_number' in event_rules[event_name]:
-        angam_num = event_rules[event_name]['timing']['anga_number']
+        angam_num = event_rules[event_name].timing.anga_number
       else:
         raise ValueError("No angam_num mentioned for %s" % event_name)
       if 'kaala' in event_rules[event_name]:
-        kaala = event_rules[event_name]['timing']['kaala']
+        kaala = event_rules[event_name].timing.kaala
       else:
         kaala = 'sunrise'
       if 'priority' in event_rules[event_name]:
-        priority = event_rules[event_name]['timing']['priority']
+        priority = event_rules[event_name].timing.priority
       else:
         priority = 'puurvaviddha'
       if 'year_start' in event_rules[event_name]:
-        event_start_year = event_rules[event_name]['timing']['year_start']
+        event_start_year = event_rules[event_name].timing.year_start
       else:
         event_start_year = None
 

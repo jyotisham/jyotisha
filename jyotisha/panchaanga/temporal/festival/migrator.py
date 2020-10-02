@@ -7,6 +7,7 @@ from indic_transliteration import xsanscript as sanscript
 from jyotisha import custom_transliteration
 from jyotisha.names import get_chandra_masa, NAMES
 # from jyotisha.panchaanga.temporal import festival
+from jyotisha.panchaanga.temporal.festival import rules
 from jyotisha.panchaanga.temporal.festival.rules import HinduCalendarEvent, HinduCalendarEventOld
 from sanskrit_data.schema.common import JsonObject
 
@@ -31,15 +32,13 @@ def transliterate_quoted_text(text, script):
   return transliterated_text
 
 
-def migrate_db(old_db_file, only_descriptions=False):
-  old_style_events = HinduCalendarEventOld.read_from_file(old_db_file)
-  output_dir = os.path.join(os.path.dirname(__file__), 'data')
+def migrate_db(dir_path):
+  festival_rules_dict = rules.get_festival_rules_dict(dir_path)
+  output_dir = os.path.join(os.path.dirname(__file__), 'data/migrated')
   # import shutil
   # shutil.rmtree(output_dir)
-  for old_style_event in old_style_events:
-    event = HinduCalendarEvent.from_old_style_event(old_style_event=old_style_event)
-    logging.debug(str(event))
-    event_file_name = event.get_storage_file_name(base_dir=output_dir, only_descriptions=only_descriptions)
+  for event in festival_rules_dict.values():
+    event_file_name = event.get_storage_file_name(base_dir=output_dir)
     logging.debug(event_file_name)
     event.dump_to_file(filename=event_file_name)
     # append_to_event_group_README(event, event_file_name)
@@ -55,7 +54,7 @@ def append_to_event_group_README(event, event_file_name):
   # with open(readme_file_name, 'w') as readme_file:
   #   readme_file.write("")
   with open(readme_file_name, 'a') as readme_file:
-    headline = custom_transliteration.tr(event_dict["id"], sanscript.IAST).replace('Ta__', '').replace('~',
+    headline = custom_transliteration.tr(event_dict.id, sanscript.IAST).replace('Ta__', '').replace('~',
                                                                                                        ' ').strip(
       '{}')
     # Replace letter following r̂/r̂r̂ with lowercase
@@ -72,37 +71,37 @@ def append_to_event_group_README(event, event_file_name):
     blurb = ''
     month = ''
     angam = ''
-    if 'month_type' in event_dict['timing']:
-      if event_dict['timing']['timing']['month_type'] == 'lunar_month':
-        if event_dict['timing']['timing']['month_number'] == 0:
+    if event_dict.timing.month_type is not None:
+      if event_dict.timing.month_type == 'lunar_month':
+        if event_dict.timing.month_number == 0:
           month = ' of every lunar month'
         else:
-          month = ' of ' + get_chandra_masa(event_dict['timing']['timing']['month_number'], NAMES,
+          month = ' of ' + get_chandra_masa(event_dict.timing.month_number, NAMES,
                                             sanscript.IAST) + ' (lunar) month'
-      elif event_dict['timing']['timing']['month_type'] == 'sidereal_solar_month':
-        if event_dict['timing']['timing']['month_number'] == 0:
+      elif event_dict.timing.month_type == 'sidereal_solar_month':
+        if event_dict.timing.month_number == 0:
           month = ' of every solar month'
         else:
           month = ' of ' + NAMES['RASHI_NAMES'][sanscript.IAST][
-            event_dict['timing']['timing']['month_number']] + ' (solar) month'
-    if 'anga_type' in event_dict['timing']:
-      logging.debug(event_dict["id"])
-      if event_dict["id"][:4] == "ta__":
-        angam = custom_transliteration.tr(event_dict["id"][4:], sanscript.TAMIL).replace("~", " ").strip(
+            event_dict.timing.month_number] + ' (solar) month'
+    if 'anga_type' in event_dict.timing:
+      logging.debug(event_dict.id)
+      if event_dict.id[:4] == "ta__":
+        angam = custom_transliteration.tr(event_dict.id[4:], sanscript.TAMIL).replace("~", " ").strip(
           "{}") + ' is observed on '
       else:
-        angam = custom_transliteration.tr(event_dict["id"], sanscript.DEVANAGARI).replace("~",
+        angam = custom_transliteration.tr(event_dict.id, sanscript.DEVANAGARI).replace("~",
                                                                                           " ") + ' is observed on '
 
-      if event_dict['timing']['timing']['anga_type'] == 'tithi':
-        angam += NAMES['TITHI_NAMES'][sanscript.IAST][event_dict['timing']['anga_number']] + ' tithi'
-      elif event_dict['timing']['timing']['anga_type'] == 'nakshatra':
-        angam += NAMES['NAKSHATRA_NAMES'][sanscript.IAST][event_dict['timing']['anga_number']] + ' nakṣhatram day'
-      elif event_dict['timing']['timing']['anga_type'] == 'day':
-        angam += 'day %d' % event_dict['timing']['anga_number']
+      if event_dict.timing.anga_type == 'tithi':
+        angam += NAMES['TITHI_NAMES'][sanscript.IAST][event_dict.timing.anga_number] + ' tithi'
+      elif event_dict.timing.anga_type == 'nakshatra':
+        angam += NAMES['NAKSHATRA_NAMES'][sanscript.IAST][event_dict.timing.anga_number] + ' nakṣhatram day'
+      elif event_dict.timing.anga_type == 'day':
+        angam += 'day %d' % event_dict.timing.anga_number
     else:
       logging.debug('No anga_type in %s', event_dict['id'])
-    if 'kaala' in event_dict['timing']:
+    if 'kaala' in event_dict.timing:
       kaala = event_dict["timing"]["kaala"]
     else:
       kaala = "sunrise (default)"

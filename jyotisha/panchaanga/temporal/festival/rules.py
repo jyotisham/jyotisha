@@ -37,7 +37,7 @@ class HinduCalendarEventTiming(common.JsonObject):
       },
       "month_type": {
         "type": "string",
-        "enum": ["lunar_month", "sidereal_solar_month"],
+        "enum": ["lunar_month", "sidereal_solar_month", "tropical_month"],
         "description": "",
       },
       "month_number": {
@@ -359,14 +359,14 @@ class HinduCalendarEvent(common.JsonObject):
 
 
 
-def get_festival_rules_dict(dir_path):
+def get_festival_rules_map(dir_path):
   toml_file_paths = sorted(Path(dir_path).glob("**/*.toml"))
   if len(toml_file_paths) == 0:
     raise ValueError
   festival_rules = {}
   for file_path in toml_file_paths:
-    event = HinduCalendarEvent.read_from_file(filename=str(file_path)).to_json_map()
-    festival_rules[event["id"]] = event
+    event = HinduCalendarEvent.read_from_file(filename=str(file_path))
+    festival_rules[event.id] = event
   return festival_rules
 
 
@@ -375,7 +375,7 @@ def read_old_festival_rules_dict(file_name):
     festival_rules_dict = json.load(festivals_data)
     for festival_rule in festival_rules_dict:
       festival_rules = {}
-      festival_rules[festival_rule["id"]] = festival_rule
+      festival_rules[festival_rule.id] = festival_rule
     return festival_rules
 
 
@@ -429,13 +429,13 @@ common.update_json_class_index(sys.modules[__name__])
 
 
 DATA_ROOT = os.path.join(os.path.dirname(__file__), "data")
-festival_rules_lunar = get_festival_rules_dict(
+festival_rules_lunar = get_festival_rules_map(
   os.path.join(DATA_ROOT, 'lunar_month'))
-festival_rules_solar = get_festival_rules_dict(
+festival_rules_solar = get_festival_rules_map(
   os.path.join(DATA_ROOT, 'sidereal_solar_month'))
-festival_rules_rel = get_festival_rules_dict(
+festival_rules_rel = get_festival_rules_map(
   os.path.join(DATA_ROOT, 'relative_event'))
-festival_rules_desc_only = get_festival_rules_dict(
+festival_rules_desc_only = get_festival_rules_map(
   os.path.join(DATA_ROOT, 'other'))
 
 
