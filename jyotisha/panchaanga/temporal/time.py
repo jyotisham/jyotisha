@@ -206,7 +206,7 @@ class Date(BasicDate):
     return self.as_tuple()
 
   def get_date_str(self):
-    return "%04d-%02d-%02d" % (self.year, self.month, self.day)
+    return super(Date, self).__str__()
 
 
 def jd_to_utc_gregorian(jd):

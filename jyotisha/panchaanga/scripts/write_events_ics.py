@@ -90,12 +90,12 @@ def compute_events(panchaanga, json_file):
           panchaanga.add_festival(event_name, d, debugEvents)
           continue
 
-      if angam_type == 'day' and month_type == 'solar_month' \
+      if angam_type == 'day' and month_type == 'sidereal_solar_month' \
           and daily_panchaanga.solar_sidereal_date_sunset.month == month_num:
         if daily_panchaanga.solar_sidereal_date_sunset.day == angam_num:
           panchaanga.festival_id_to_instance[event_name] = festival.FestivalInstance(name=event_name, days=[daily_panchaangas[d].date])
       elif (month_type == 'lunar_month' and daily_panchaanga.lunar_month == month_num) or \
-          (month_type == 'solar_month' and daily_panchaanga.solar_sidereal_date_sunset.month == month_num):
+          (month_type == 'sidereal_solar_month' and daily_panchaanga.solar_sidereal_date_sunset.month == month_num):
         if angam_type == 'tithi':
           angam_sunrise = daily_panchaanga.angas.tithi_at_sunrise
           get_angam_func = lambda x: tithi.get_tithi(x)
@@ -113,7 +113,7 @@ def compute_events(panchaanga, json_file):
         fday = None
         event_num = None
         if event_start_year is not None and month_type is not None:
-          if month_type == 'solar_month':
+          if month_type == 'sidereal_solar_month':
             event_num = panchaanga.year + 3100 + (d >= daily_panchaangas.index(1).solar_month) - event_start_year + 1
           elif month_type == 'lunar_month':
             event_num = panchaanga.year + 3100 + (d >= panchaanga.lunar_month.index(1)) - event_start_year + 1
@@ -184,7 +184,7 @@ def compute_events(panchaanga, json_file):
                 logging.debug('Assigned fday = %d' % d)
             elif angams[2] == angam_num or angams[3] == angam_num:
               if (month_type == 'lunar_month' and daily_panchaangas[d + 1].lunar_month == month_num) or \
-                  (month_type == 'solar_month' and daily_panchaangas[d + 1].solar_sidereal_date_sunset.month == month_num):
+                  (month_type == 'sidereal_solar_month' and daily_panchaangas[d + 1].solar_sidereal_date_sunset.month == month_num):
                 fday = d + 1
                 logging.debug('Assigned fday = %d' % (d + 1))
             else:

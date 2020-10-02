@@ -37,7 +37,7 @@ class HinduCalendarEventTiming(common.JsonObject):
       },
       "month_type": {
         "type": "string",
-        "enum": ["lunar_month", "solar_month"],
+        "enum": ["lunar_month", "sidereal_solar_month"],
         "description": "",
       },
       "month_number": {
@@ -217,7 +217,7 @@ class HinduCalendarEvent(common.JsonObject):
           month = ' of every lunar month'
         else:
           month = ' of ' + get_chandra_masa(self.timing.month_number, NAMES, sanscript.IAST) + ' (lunar) month'
-      elif self.timing.month_type == 'solar_month':
+      elif self.timing.month_type == 'sidereal_solar_month':
         if self.timing.month_number == 0:
           month = ' of every solar month'
         else:
@@ -432,7 +432,7 @@ DATA_ROOT = os.path.join(os.path.dirname(__file__), "data")
 festival_rules_lunar = get_festival_rules_dict(
   os.path.join(DATA_ROOT, 'lunar_month'))
 festival_rules_solar = get_festival_rules_dict(
-  os.path.join(DATA_ROOT, 'solar_month'))
+  os.path.join(DATA_ROOT, 'sidereal_solar_month'))
 festival_rules_rel = get_festival_rules_dict(
   os.path.join(DATA_ROOT, 'relative_event'))
 festival_rules_desc_only = get_festival_rules_dict(

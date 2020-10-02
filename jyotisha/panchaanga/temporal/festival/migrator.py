@@ -79,7 +79,7 @@ def append_to_event_group_README(event, event_file_name):
         else:
           month = ' of ' + get_chandra_masa(event_dict['timing']['timing']['month_number'], NAMES,
                                             sanscript.IAST) + ' (lunar) month'
-      elif event_dict['timing']['timing']['month_type'] == 'solar_month':
+      elif event_dict['timing']['timing']['month_type'] == 'sidereal_solar_month':
         if event_dict['timing']['timing']['month_number'] == 0:
           month = ' of every solar month'
         else:
@@ -169,7 +169,7 @@ def legacy_dict_to_HinduCalendarEventOld_list(old_db_file, new_db_file):
 
 def clear_output_dirs():
   import shutil
-  for dir in ["lunar_month", "other", "relative_event", "solar_month"]:
+  for dir in ["lunar_month", "other", "relative_event", "sidereal_solar_month"]:
     shutil.rmtree(os.path.join(os.path.dirname(__file__), 'data', dir), ignore_errors=True)
 
 
