@@ -21,7 +21,7 @@ class FestivalInstance(common.JsonObject):
 
   def tex_code(self, script, timezone):
     name = custom_transliteration.tr(text=self.name, script=script).replace('★', '$^\\star$')
-K
+
     if self.interval is None:
       return name
     else:
