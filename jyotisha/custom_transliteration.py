@@ -26,6 +26,9 @@ def romanise(iast_text):
 
 
 def tr(text, script, titled=True):
+  """
+  
+  NOTE: Please don't put your custom tex/ md/ ics whatever code here and pollute core library functions. Wrap this in your own functions if you must. Functions should be atomic."""
   # titled = True seems to be primarily for NOT TitleCasing IAST Shlokas...
   if script == 'hk':
     script = sanscript.HK
