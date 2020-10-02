@@ -108,13 +108,13 @@ class TithiFestivalAssigner(FestivalAssigner):
         elif angams[2] == 6 or angams[3] == 6:
           self.add_festival(festival_name, d + 1, debug_festivals)
         else:
-          # This means that the correct angam did not
+          # This means that the correct anga did not
           # touch the kaala on either day!
           # sys.stderr.write('Could not assign puurvaviddha day for %s!\
           # Please check for unusual cases.\n' % festival_name)
           if angams[2] == 6 + 1 or angams[3] == 6 + 1:
             # Need to assign a day to the festival here
-            # since the angam did not touch kaala on either day
+            # since the anga did not touch kaala on either day
             # BUT ONLY IF YESTERDAY WASN'T ALREADY ASSIGNED,
             # THIS BEING PURVAVIDDHA
             # Perhaps just need better checking of

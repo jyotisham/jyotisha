@@ -225,9 +225,9 @@ class HinduCalendarEvent(common.JsonObject):
     if self.timing is not None and self.timing.anga_type is not None:
       # logging.debug(self.id)
       # if self.id.startswith("ta:"):
-      #   angam = custom_transliteration.tr(self.id[3:], sanscript.TAMIL).replace("~", " ").strip("{}") + ' is observed on '
+      #   anga = custom_transliteration.tr(self.id[3:], sanscript.TAMIL).replace("~", " ").strip("{}") + ' is observed on '
       # else:
-      #   angam = custom_transliteration.tr(self.id, sanscript.DEVANAGARI).replace("~", " ") + ' is observed on '
+      #   anga = custom_transliteration.tr(self.id, sanscript.DEVANAGARI).replace("~", " ") + ' is observed on '
       angam = 'Observed on '
 
       if self.timing.anga_type == 'tithi':

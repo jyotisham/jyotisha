@@ -159,25 +159,25 @@ def writeDailyTeX(panchaanga, template_file, time_format="hh:mm", script=sanscri
       yoga_data_str += '\\mbox{%s\\Too{}}' % (
         jyotisha.names.NAMES['YOGA_NAMES'][script][(yoga_ID % 27) + 1])
 
-    karanam_data_str = ''
-    for numKaranam, (karanam_ID, karanam_end_jd) in enumerate(daily_panchaanga.angas.karanas_with_ends):
+    karana_data_str = ''
+    for numKaranam, (karana_ID, karana_end_jd) in enumerate(daily_panchaanga.angas.karanas_with_ends):
       # if numKaranam == 1:
-      #     karanam_data_str += '\\hspace{1ex}'
-      karanam = jyotisha.names.NAMES['KARANA_NAMES'][script][karanam_ID]
-      if karanam_end_jd is None:
-        karanam_data_str = '%s\\mbox{%s\\To{}%s}' % \
-                           (karanam_data_str, karanam,
+      #     karana_data_str += '\\hspace{1ex}'
+      karana = jyotisha.names.NAMES['KARANA_NAMES'][script][karana_ID]
+      if karana_end_jd is None:
+        karana_data_str = '%s\\mbox{%s\\To{}%s}' % \
+                           (karana_data_str, karana,
                             jyotisha.custom_transliteration.tr('ahOrAtram', script))
       else:
-        karanam_data_str = '%s\\mbox{%s\\To{}\\textsf{%s (%s)}}\\hspace{1ex}' % \
-                           (karanam_data_str, karanam,
+        karana_data_str = '%s\\mbox{%s\\To{}\\textsf{%s (%s)}}\\hspace{1ex}' % \
+                           (karana_data_str, karana,
                             time.Hour(
-                              24 * (karanam_end_jd - daily_panchaanga.jd_sunrise)).toString(format='gg-pp'),
-                            time.Hour(24 * (karanam_end_jd - jd)).toString(
+                              24 * (karana_end_jd - daily_panchaanga.jd_sunrise)).toString(format='gg-pp'),
+                            time.Hour(24 * (karana_end_jd - jd)).toString(
                               format=time_format))
-    if karanam_end_jd is not None:
-      karanam_data_str += '\\mbox{%s\\Too{}}' % (
-        jyotisha.names.NAMES['KARANA_NAMES'][script][(karanam_ID % 60) + 1])
+    if karana_end_jd is not None:
+      karana_data_str += '\\mbox{%s\\Too{}}' % (
+        jyotisha.names.NAMES['KARANA_NAMES'][script][(karana_ID % 60) + 1])
 
     sunrise = time.Hour(24 * (daily_panchaanga.jd_sunrise - jd)).toString(
       format=time_format)
@@ -286,11 +286,11 @@ def writeDailyTeX(panchaanga, template_file, time_format="hh:mm", script=sanscri
     if compute_lagnams:
       print('{\\tnykdata{%s}%%\n{%s}{%s}%%\n{%s}%%\n{%s}{%s}\n}'
             % (tithi_data_str, nakshatra_data_str, rashi_data_str, yoga_data_str,
-               karanam_data_str, lagna_data_str), file=output_stream)
+               karana_data_str, lagna_data_str), file=output_stream)
     else:
       print('{\\tnykdata{%s}%%\n{%s}{%s}%%\n{%s}%%\n{%s}{\\scriptsize %s}\n}'
             % (tithi_data_str, nakshatra_data_str, rashi_data_str, yoga_data_str,
-               karanam_data_str, ''), file=output_stream)
+               karana_data_str, ''), file=output_stream)
 
     # Using set as an ugly workaround since we may have sometimes assigned the same
     # festival to the same day again!

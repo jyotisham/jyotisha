@@ -281,7 +281,7 @@ class DailyPanchanga(common.JsonObject):
 
   def get_angas_today(self, anga_type):
     """Computes anga data for angas such as tithi, nakshatra, yoga
-    and karanam.
+    and karana.
   
     Args:
         :param anga_type: TITHI, nakshatra, YOGA, KARANA, SOLAR_MONTH, SOLAR_NAKSH

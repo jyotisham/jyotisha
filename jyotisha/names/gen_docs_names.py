@@ -16,19 +16,19 @@ if __name__ == '__main__':
 
   # TODO: Verify the below.
   with open('README.md', 'w') as f:
-    for angam in NAMES:
-      f.write('## ' + angam + '\n')
+    for anga in NAMES:
+      f.write('## ' + anga + '\n')
       f.write('(as initialised from `init_names_auto.py`)\n\n')
-      f.write('| # | ' + ' | '.join(sorted(list(NAMES[angam].keys()))) + ' |\n')
+      f.write('| # | ' + ' | '.join(sorted(list(NAMES[anga].keys()))) + ' |\n')
       f.write('|---| ' + ' | '.join(['-' * len(scr)
-                                     for scr in sorted(list(NAMES[angam].keys()))]) + ' |\n')
-      if angam == 'VARA_NAMES':
+                                     for scr in sorted(list(NAMES[anga].keys()))]) + ' |\n')
+      if anga == 'VARA_NAMES':
         amin = 0  # min anga for VARA alone is 0, rest 1
       else:
         amin = 1
-      for num in range(amin, len(NAMES[angam]['hk'])):
+      for num in range(amin, len(NAMES[anga]['hk'])):
         line = '| %d' % (num)
-        for script in sorted(list(NAMES[angam].keys())):
-          line += ' | ' + sanscript.transliterate(NAMES[angam]['hk'][num], sanscript.HK, script)
+        for script in sorted(list(NAMES[anga].keys())):
+          line += ' | ' + sanscript.transliterate(NAMES[anga]['hk'][num], sanscript.HK, script)
         f.write(line + ' |\n')
       f.write('\n\n')

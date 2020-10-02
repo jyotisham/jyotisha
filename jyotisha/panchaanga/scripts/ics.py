@@ -101,7 +101,7 @@ def compute_calendar(panchaanga, script=sanscript.DEVANAGARI, all_tags=True, bri
         elif stext.find('RIGHTarrow') != -1:
           if y != year_start:
             continue
-          # It's a grahanam/yogam, with a start and end time
+          # It's a grahanam/yoga, with a start and end time
           if stext.find('{}') != -1:
             # Starting or ending time is empty, e.g. harivasara, so no ICS entry
             continue

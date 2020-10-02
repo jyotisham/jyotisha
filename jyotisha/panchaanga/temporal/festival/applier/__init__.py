@@ -232,7 +232,7 @@ class FestivalAssigner(PanchaangaApplier):
               elif angams[2] == angam_num or angams[3] == angam_num:
                 fday = d + 1
               else:
-                # This means that the correct angam did not
+                # This means that the correct anga did not
                 # touch the kaala on either day!
                 if angams == [prev_angam, prev_angam, next_angam, next_angam]:
                   # d_offset = {'sunrise': 0, 'aparaahna': 1, 'moonrise': 1, 'madhyaahna': 1, 'sunset': 1}[kaala]
@@ -243,7 +243,7 @@ class FestivalAssigner(PanchaangaApplier):
                       (y, m, dt, festival_name, anga_type, angam_num, kaala, str(angams),
                        d_offset))
                   # Need to assign a day to the festival here
-                  # since the angam did not touch kaala on either day
+                  # since the anga did not touch kaala on either day
                   # BUT ONLY IF YESTERDAY WASN'T ALREADY ASSIGNED,
                   # THIS BEING PURVAVIDDHA
                   # Perhaps just need better checking of

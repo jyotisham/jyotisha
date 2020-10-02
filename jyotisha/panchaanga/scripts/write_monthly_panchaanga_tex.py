@@ -187,21 +187,21 @@ def writeMonthlyTeX(panchaanga, template_file, script=sanscript.DEVANAGARI, temp
                            format=panchaanga.fmt),
                          '\\hspace{2ex}')
 
-    karanam_data_str = ''
-    for numKaranam, (karanam_ID, karanam_end_jd) in enumerate(daily_panchaanga.angas.karanas_with_ends):
+    karana_data_str = ''
+    for numKaranam, (karana_ID, karana_end_jd) in enumerate(daily_panchaanga.angas.karanas_with_ends):
       # if numKaranam == 1:
-      #     karanam_data_str += '\\hspace{2ex}'
+      #     karana_data_str += '\\hspace{2ex}'
       if numKaranam == 2:
-        karanam_data_str = karanam_data_str + '\\\\'
-      karanam = jyotisha.names.NAMES['KARANA_NAMES'][script][karanam_ID]
-      if karanam_end_jd is None:
-        karanam_data_str = '%s\\mbox{%s\\To{}%s}' % \
-                           (karanam_data_str, karanam,
+        karana_data_str = karana_data_str + '\\\\'
+      karana = jyotisha.names.NAMES['KARANA_NAMES'][script][karana_ID]
+      if karana_end_jd is None:
+        karana_data_str = '%s\\mbox{%s\\To{}%s}' % \
+                           (karana_data_str, karana,
                             jyotisha.custom_transliteration.tr('ahOrAtram', script))
       else:
-        karanam_data_str = '%s\\mbox{%s\\To{}\\textsf{%s%s}}' % \
-                           (karanam_data_str, karanam,
-                            jyotisha.panchaanga.temporal.hour.Hour(24 * (karanam_end_jd -
+        karana_data_str = '%s\\mbox{%s\\To{}\\textsf{%s%s}}' % \
+                           (karana_data_str, karana,
+                            jyotisha.panchaanga.temporal.hour.Hour(24 * (karana_end_jd -
                                                                          jd)).toString(format=panchaanga.fmt),
                             '\\hspace{2ex}')
 
@@ -245,7 +245,7 @@ def writeMonthlyTeX(panchaanga, template_file, script=sanscript.DEVANAGARI, temp
                                                              jyotisha.names.NAMES, script)))
       month_text += '\n' + ('{\\sundata{%s}{%s}{%s}}%%' % (sunrise, sunset, sangava))
       month_text += '\n' + ('{\\tnyk{%s}%%\n{%s}%%\n{%s}%%\n{%s}}%%' % (tithi_data_str, nakshatra_data_str,
-                                                                        yoga_data_str, karanam_data_str))
+                                                                        yoga_data_str, karana_data_str))
       month_text += '\n' + ('{\\rahuyama{%s}{%s}}%%' % (rahu, yama))
 
       # Using set as an ugly workaround since we may have sometimes assigned the same
@@ -261,7 +261,7 @@ def writeMonthlyTeX(panchaanga, template_file, script=sanscript.DEVANAGARI, temp
                                                         jyotisha.names.NAMES, script)))
         W6D1 += '\n' + ('{\\sundata{%s}{%s}{%s}}%%' % (sunrise, sunset, sangava))
         W6D1 += '\n' + ('{\\tnyk{%s}%%\n{%s}%%\n{%s}%%\n{%s}}%%' % (tithi_data_str, nakshatra_data_str,
-                                                                    yoga_data_str, karanam_data_str))
+                                                                    yoga_data_str, karana_data_str))
         W6D1 += '\n' + ('{\\rahuyama{%s}{%s}}%%' % (rahu, yama))
 
         # Using set as an ugly workaround since we may have sometimes assigned the same
@@ -275,7 +275,7 @@ def writeMonthlyTeX(panchaanga, template_file, script=sanscript.DEVANAGARI, temp
                                                         jyotisha.names.NAMES, script)))
         W6D2 += '\n' + ('{\\sundata{%s}{%s}{%s}}%%' % (sunrise, sunset, sangava))
         W6D2 += '\n' + ('{\\tnyk{%s}%%\n{%s}%%\n{%s}%%\n{%s}}%%' % (tithi_data_str, nakshatra_data_str,
-                                                                    yoga_data_str, karanam_data_str))
+                                                                    yoga_data_str, karana_data_str))
         W6D2 += '\n' + ('{\\rahuyama{%s}{%s}}%%' % (rahu, yama))
 
         # Using set as an ugly workaround since we may have sometimes assigned the same

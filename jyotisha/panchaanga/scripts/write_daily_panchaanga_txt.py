@@ -201,26 +201,26 @@ def writeDailyText(panchaanga, time_format="hh:mm", script=sanscript.DEVANAGARI,
       yoga_data_str += '; %s ➥' % (jyotisha.names.NAMES['YOGA_NAMES'][script][(yoga_ID % 27) + 1])
     yoga_data_str = getName('yOgaH', script) + '—' + yoga_data_str[2:]
 
-    karanam_data_str = ''
-    for numKaranam, (karanam_ID, karanam_end_jd) in enumerate(daily_panchaanga.angas.karanas_with_ends):
+    karana_data_str = ''
+    for numKaranam, (karana_ID, karana_end_jd) in enumerate(daily_panchaanga.angas.karanas_with_ends):
       # if numKaranam == 1:
-      #     karanam_data_str += ' '
-      karanam = jyotisha.names.NAMES['KARANA_NAMES'][script][karanam_ID]
-      if karanam_end_jd is None:
-        karanam_data_str = '%s; %s►%s' % \
-                           (karanam_data_str, karanam,
+      #     karana_data_str += ' '
+      karana = jyotisha.names.NAMES['KARANA_NAMES'][script][karana_ID]
+      if karana_end_jd is None:
+        karana_data_str = '%s; %s►%s' % \
+                           (karana_data_str, karana,
                             jyotisha.custom_transliteration.tr('ahOrAtram', script))
       else:
-        karanam_data_str = '%s; %s►%s (%s)' % \
-                           (karanam_data_str, karanam,
+        karana_data_str = '%s; %s►%s (%s)' % \
+                           (karana_data_str, karana,
                             jyotisha.panchaanga.temporal.hour.Hour(
-                              24 * (karanam_end_jd - daily_panchaanga.jd_sunrise)).toString(format='gg-pp'),
-                            jyotisha.panchaanga.temporal.hour.Hour(24 * (karanam_end_jd - jd)).toString(
+                              24 * (karana_end_jd - daily_panchaanga.jd_sunrise)).toString(format='gg-pp'),
+                            jyotisha.panchaanga.temporal.hour.Hour(24 * (karana_end_jd - jd)).toString(
                               format=time_format))
-    if karanam_end_jd is not None:
-      karanam_data_str += '; %s ➥' % (
-        jyotisha.names.NAMES['KARANA_NAMES'][script][(karanam_ID % 60) + 1])
-    karanam_data_str = getName('karaNam', script) + '—' + karanam_data_str[2:]
+    if karana_end_jd is not None:
+      karana_data_str += '; %s ➥' % (
+        jyotisha.names.NAMES['KARANA_NAMES'][script][(karana_ID % 60) + 1])
+    karana_data_str = getName('karaNam', script) + '—' + karana_data_str[2:]
 
     sunrise = jyotisha.panchaanga.temporal.hour.Hour(24 * (daily_panchaanga.jd_sunrise - jd)).toString(
       format=time_format)
@@ -341,7 +341,7 @@ def writeDailyText(panchaanga, time_format="hh:mm", script=sanscript.DEVANAGARI,
     print('%s—%s' % (getName('vAsaraH', script), vara), file=output_stream)
     print('%s (%s)' % (nakshatra_data_str, rashi_data_str), file=output_stream)
     print('%s' % (yoga_data_str), file=output_stream)
-    print('%s' % (karanam_data_str), file=output_stream)
+    print('%s' % (karana_data_str), file=output_stream)
     print('%s' % (chandrashtama_rashi_data_str), file=output_stream)
 
     if daily_panchaanga.jd_moonrise > daily_panchaangas[d + 1].jd_sunrise:
