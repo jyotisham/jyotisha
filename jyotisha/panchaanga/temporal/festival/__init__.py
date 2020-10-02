@@ -1,7 +1,7 @@
 import logging
 import sys
 
-from sanskrit_util.transliterate import sanscript
+from indic_transliteration import sanscript
 
 from jyotisha import custom_transliteration
 from sanskrit_data.schema import common

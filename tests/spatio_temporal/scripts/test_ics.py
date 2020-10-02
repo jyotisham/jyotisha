@@ -3,7 +3,7 @@ import os
 
 # from jyotisha.panchaanga.spatio_temporal import City, annual
 # from jyotisha.panchaanga.scripts.write_daily_panchaanga_tex import writeDailyTeX
-from sanskrit_util.transliterate import sanscript
+from indic_transliteration import sanscript
 
 from jyotisha.panchaanga.scripts.ics import compute_calendar, write_to_file
 from jyotisha.panchaanga.spatio_temporal.periodical import Panchaanga
