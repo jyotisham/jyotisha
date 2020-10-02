@@ -43,12 +43,12 @@ def compute_events(panchaanga, json_file):
         month_num = event_rules[event_name]['timing']['month_number']
       else:
         raise ValueError("No month_num mentioned for %s" % event_name)
-      if 'angam_type' in event_rules[event_name]:
-        angam_type = event_rules[event_name]['timing']['angam_type']
+      if 'anga_type' in event_rules[event_name]:
+        anga_type = event_rules[event_name]['timing']['anga_type']
       else:
-        raise ValueError("No angam_type mentioned for %s" % event_name)
-      if 'angam_number' in event_rules[event_name]:
-        angam_num = event_rules[event_name]['timing']['angam_number']
+        raise ValueError("No anga_type mentioned for %s" % event_name)
+      if 'anga_number' in event_rules[event_name]:
+        angam_num = event_rules[event_name]['timing']['anga_number']
       else:
         raise ValueError("No angam_num mentioned for %s" % event_name)
       if 'kaala' in event_rules[event_name]:
@@ -65,7 +65,7 @@ def compute_events(panchaanga, json_file):
         event_start_year = None
 
       daily_panchaanga = daily_panchaangas[d]
-      if angam_type == 'tithi' and month_type == 'lunar_month' and \
+      if anga_type == 'tithi' and month_type == 'lunar_month' and \
           angam_num == 1:
         # Shukla prathama tithis need to be dealt carefully, if e.g. the prathama tithi
         # does not touch sunrise on either day (the regular check won't work, because
@@ -90,24 +90,24 @@ def compute_events(panchaanga, json_file):
           panchaanga.add_festival(event_name, d, debugEvents)
           continue
 
-      if angam_type == 'day' and month_type == 'sidereal_solar_month' \
+      if anga_type == 'day' and month_type == 'sidereal_solar_month' \
           and daily_panchaanga.solar_sidereal_date_sunset.month == month_num:
         if daily_panchaanga.solar_sidereal_date_sunset.day == angam_num:
           panchaanga.festival_id_to_instance[event_name] = festival.FestivalInstance(name=event_name, days=[daily_panchaangas[d].date])
       elif (month_type == 'lunar_month' and daily_panchaanga.lunar_month == month_num) or \
           (month_type == 'sidereal_solar_month' and daily_panchaanga.solar_sidereal_date_sunset.month == month_num):
-        if angam_type == 'tithi':
+        if anga_type == 'tithi':
           angam_sunrise = daily_panchaanga.angas.tithi_at_sunrise
           get_angam_func = lambda x: tithi.get_tithi(x)
           angam_num_pred = (angam_num - 2) % 30 + 1
           angam_num_succ = (angam_num % 30) + 1
-        elif angam_type == 'nakshatram':
+        elif anga_type == 'nakshatram':
           angam_sunrise = daily_panchaanga.angas.nakshatra_at_sunrise
           get_angam_func = lambda x: NakshatraDivision(x, ayanaamsha_id=Ayanamsha.CHITRA_AT_180).get_nakshatra()
           angam_num_pred = (angam_num - 2) % 27 + 1
           angam_num_succ = (angam_num % 27) + 1
         else:
-          raise ValueError('Error; unknown string in rule: "%s"' % (angam_type))
+          raise ValueError('Error; unknown string in rule: "%s"' % (anga_type))
           return
 
         fday = None

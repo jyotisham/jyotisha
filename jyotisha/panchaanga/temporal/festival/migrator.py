@@ -85,7 +85,7 @@ def append_to_event_group_README(event, event_file_name):
         else:
           month = ' of ' + NAMES['RASHI_NAMES'][sanscript.IAST][
             event_dict['timing']['timing']['month_number']] + ' (solar) month'
-    if 'angam_type' in event_dict['timing']:
+    if 'anga_type' in event_dict['timing']:
       logging.debug(event_dict["id"])
       if event_dict["id"][:4] == "ta__":
         angam = custom_transliteration.tr(event_dict["id"][4:], sanscript.TAMIL).replace("~", " ").strip(
@@ -94,14 +94,14 @@ def append_to_event_group_README(event, event_file_name):
         angam = custom_transliteration.tr(event_dict["id"], sanscript.DEVANAGARI).replace("~",
                                                                                           " ") + ' is observed on '
 
-      if event_dict['timing']['timing']['angam_type'] == 'tithi':
-        angam += NAMES['TITHI_NAMES'][sanscript.IAST][event_dict['timing']['angam_number']] + ' tithi'
-      elif event_dict['timing']['timing']['angam_type'] == 'nakshatram':
-        angam += NAMES['NAKSHATRAM_NAMES'][sanscript.IAST][event_dict['timing']['angam_number']] + ' nakṣhatram day'
-      elif event_dict['timing']['timing']['angam_type'] == 'day':
-        angam += 'day %d' % event_dict['timing']['angam_number']
+      if event_dict['timing']['timing']['anga_type'] == 'tithi':
+        angam += NAMES['TITHI_NAMES'][sanscript.IAST][event_dict['timing']['anga_number']] + ' tithi'
+      elif event_dict['timing']['timing']['anga_type'] == 'nakshatram':
+        angam += NAMES['NAKSHATRAM_NAMES'][sanscript.IAST][event_dict['timing']['anga_number']] + ' nakṣhatram day'
+      elif event_dict['timing']['timing']['anga_type'] == 'day':
+        angam += 'day %d' % event_dict['timing']['anga_number']
     else:
-      logging.debug('No angam_type in %s', event_dict['id'])
+      logging.debug('No anga_type in %s', event_dict['id'])
     if 'kaala' in event_dict['timing']:
       kaala = event_dict["timing"]["kaala"]
     else:

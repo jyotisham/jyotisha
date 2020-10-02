@@ -44,12 +44,12 @@ class HinduCalendarEventTiming(common.JsonObject):
         "type": "integer",
         "description": "",
       },
-      "angam_type": {
+      "anga_type": {
         "type": "string",
         "enum": ["tithi", "nakshatram", "yoga", "day"],
         "description": "",
       },
-      "angam_number": {
+      "anga_number": {
         "type": "integer",
         "description": "",
       },
@@ -77,12 +77,12 @@ class HinduCalendarEventTiming(common.JsonObject):
   }))
 
   @classmethod
-  def from_details(cls, month_type, month_number, angam_type, angam_number, kaala, year_start):
+  def from_details(cls, month_type, month_number, anga_type, anga_number, kaala, year_start):
     timing = HinduCalendarEventTiming()
     timing.month_type = month_type
     timing.month_number = month_number
-    timing.angam_type = angam_type
-    timing.angam_number = angam_number
+    timing.anga_type = anga_type
+    timing.anga_number = anga_number
     timing.kaala = kaala
     timing.year_start = year_start
     timing.validate_schema()
@@ -97,10 +97,10 @@ class HinduCalendarEventTiming(common.JsonObject):
       timing.priority = old_style_event.priority
     if getattr(old_style_event, "month_number", None) is not None:
       timing.month_number = old_style_event.month_number
-    if getattr(old_style_event, "angam_type", None) is not None:
-      timing.angam_type = old_style_event.angam_type
-    if getattr(old_style_event, "angam_number", None) is not None:
-      timing.angam_number = old_style_event.angam_number
+    if getattr(old_style_event, "anga_type", None) is not None:
+      timing.anga_type = old_style_event.anga_type
+    if getattr(old_style_event, "anga_number", None) is not None:
+      timing.anga_number = old_style_event.anga_number
     if getattr(old_style_event, "kaala", None) is not None:
       timing.kaala = old_style_event.kaala
     if getattr(old_style_event, "year_start", None) is not None:
@@ -222,7 +222,7 @@ class HinduCalendarEvent(common.JsonObject):
           month = ' of every solar month'
         else:
           month = ' of ' + NAMES['RASHI_NAMES'][sanscript.IAST][self.timing.month_number] + ' (solar) month'
-    if self.timing is not None and self.timing.angam_type is not None:
+    if self.timing is not None and self.timing.anga_type is not None:
       # logging.debug(self.id)
       # if self.id.startswith("ta:"):
       #   angam = custom_transliteration.tr(self.id[3:], sanscript.TAMIL).replace("~", " ").strip("{}") + ' is observed on '
@@ -230,15 +230,15 @@ class HinduCalendarEvent(common.JsonObject):
       #   angam = custom_transliteration.tr(self.id, sanscript.DEVANAGARI).replace("~", " ") + ' is observed on '
       angam = 'Observed on '
 
-      if self.timing.angam_type == 'tithi':
-        angam += NAMES['TITHI_NAMES'][sanscript.IAST][self.timing.angam_number] + ' tithi'
-      elif self.timing.angam_type == 'nakshatram':
-        angam += NAMES['NAKSHATRAM_NAMES'][sanscript.IAST][self.timing.angam_number] + ' nakṣhatram day'
-      elif self.timing.angam_type == 'day':
-        angam += 'day %d' % self.timing.angam_number
+      if self.timing.anga_type == 'tithi':
+        angam += NAMES['TITHI_NAMES'][sanscript.IAST][self.timing.anga_number] + ' tithi'
+      elif self.timing.anga_type == 'nakshatram':
+        angam += NAMES['NAKSHATRAM_NAMES'][sanscript.IAST][self.timing.anga_number] + ' nakṣhatram day'
+      elif self.timing.anga_type == 'day':
+        angam += 'day %d' % self.timing.anga_number
     else:
       if self.description is None:
-        logging.debug("No angam_type in %s or description even!!", self.id)
+        logging.debug("No anga_type in %s or description even!!", self.id)
     if self.timing is not None and self.timing.kaala is not None:
       kaala = self.timing.kaala
     else:
@@ -258,13 +258,13 @@ class HinduCalendarEvent(common.JsonObject):
     # Get the URL
     if include_url:
       base_url = 'https://github.com/sanskrit-coders/adyatithi/tree/master'
-      if self.timing is not None and self.timing.angam_type is not None:
-        url = "%(base_dir)s/%(month_type)s/%(angam_type)s/%(month_number)02d/%(angam_number)02d#%(id)s" % dict(
+      if self.timing is not None and self.timing.anga_type is not None:
+        url = "%(base_dir)s/%(month_type)s/%(anga_type)s/%(month_number)02d/%(anga_number)02d#%(id)s" % dict(
           base_dir=base_url,
           month_type=self.timing.month_type,
-          angam_type=self.timing.angam_type,
+          anga_type=self.timing.anga_type,
           month_number=self.timing.month_number,
-          angam_number=self.timing.angam_number,
+          anga_number=self.timing.anga_number,
           id=custom_transliteration.tr(self.id, sanscript.IAST).replace('Ta__', '').replace('~', ' ').replace(' ',
                                                                                                               '-').replace(
             '(', '').replace(')', '').strip('{}').lower())
@@ -391,9 +391,9 @@ class HinduCalendarEventOld(common.JsonObject):
     if (legacy_event_dict.get("Month Number", "") != ""):
       event.month_number = legacy_event_dict["Month Number"]
     if (legacy_event_dict.get("Angam Type", "") != ""):
-      event.angam_type = legacy_event_dict["Angam Type"]
+      event.anga_type = legacy_event_dict["Angam Type"]
     if (legacy_event_dict.get("Angam Number", "") != ""):
-      event.angam_number = legacy_event_dict["Angam Number"]
+      event.anga_number = legacy_event_dict["Angam Number"]
     if (legacy_event_dict.get("Tags", "") != ""):
       event.tags = legacy_event_dict["Tags"]
     if (legacy_event_dict.get("Short Description", "") != ""):

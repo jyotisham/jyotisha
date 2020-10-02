@@ -80,12 +80,12 @@ class FestivalAssigner(PanchaangaApplier):
           month_num = festival_rules[festival_name]['timing']['month_number']
         else:
           raise ValueError("No month_num mentioned for %s" % festival_name)
-        if 'angam_type' in festival_rules[festival_name]['timing']:
-          angam_type = festival_rules[festival_name]['timing']['angam_type']
+        if 'anga_type' in festival_rules[festival_name]['timing']:
+          anga_type = festival_rules[festival_name]['timing']['anga_type']
         else:
-          raise ValueError("No angam_type mentioned for %s" % festival_name)
-        if 'angam_number' in festival_rules[festival_name]['timing']:
-          angam_num = festival_rules[festival_name]['timing']['angam_number']
+          raise ValueError("No anga_type mentioned for %s" % festival_name)
+        if 'anga_number' in festival_rules[festival_name]['timing']:
+          angam_num = festival_rules[festival_name]['timing']['anga_number']
         else:
           raise ValueError("No angam_num mentioned for %s" % festival_name)
         if 'kaala' in festival_rules[festival_name]['timing']:
@@ -107,7 +107,7 @@ class FestivalAssigner(PanchaangaApplier):
         # if 'comments' in festival_rules[festival_name]:
         #     fest_comments = festival_rules[festival_name]['comments']
 
-        if angam_type == 'tithi' and month_type == 'lunar_month' and angam_num == 1:
+        if anga_type == 'tithi' and month_type == 'lunar_month' and angam_num == 1:
           # Shukla prathama tithis need to be dealt carefully, if e.g. the prathama tithi
           # does not touch sunrise on either day (the regular check won't work, because
           # the month itself is different the previous day!)
@@ -117,7 +117,7 @@ class FestivalAssigner(PanchaangaApplier):
             self.add_festival(festival_name, d, debug_festivals)
             continue
 
-        if angam_type == 'day' and month_type == 'sidereal_solar_month' and self.daily_panchaangas[d].solar_sidereal_date_sunset.month == month_num:
+        if anga_type == 'day' and month_type == 'sidereal_solar_month' and self.daily_panchaangas[d].solar_sidereal_date_sunset.month == month_num:
           if self.daily_panchaangas[d].solar_sidereal_date_sunset.day == angam_num:
             if kaala == 'arunodaya':
               angams = self.panchaanga.get_angas_for_interval_boundaries(d - 1,
@@ -134,23 +134,23 @@ class FestivalAssigner(PanchaangaApplier):
             (self.daily_panchaangas[d + 1].lunar_month == month_num and angam_num == 1)))) or \
             (month_type == 'sidereal_solar_month' and (self.daily_panchaangas[d].solar_sidereal_date_sunset.month == month_num or month_num == 0)):
           # Using 0 as a special tag to denote every month!
-          if angam_type == 'tithi':
+          if anga_type == 'tithi':
             angam_sunrise = [d.angas.tithi_at_sunrise for d in self.daily_panchaangas]
             angam_data = [d.angas.tithis_with_ends for d in self.daily_panchaangas]
             get_angam_func = lambda x: temporal.tithi.get_tithi(x)
             num_angams = 30
-          elif angam_type == 'nakshatram':
+          elif anga_type == 'nakshatram':
             angam_sunrise = [d.nakshatra_at_sunrise for d in self.daily_panchaangas]
             angam_data = [d.angas.nakshatras_with_ends for d in self.daily_panchaangas]
             get_angam_func = lambda x: NakshatraDivision(x, ayanaamsha_id=self.ayanaamsha_id).get_nakshatra()
             num_angams = 27
-          elif angam_type == 'yoga':
+          elif anga_type == 'yoga':
             angam_sunrise = [d.angas.yoga_at_sunrise for d in self.daily_panchaangas]
             angam_data = [d.angas.yogas_with_ends for d in self.daily_panchaangas]
             get_angam_func = lambda x: NakshatraDivision(x, ayanaamsha_id=self.ayanaamsha_id).get_yoga()
             num_angams = 27
           else:
-            raise ValueError('Error; unknown string in rule: "%s"' % (angam_type))
+            raise ValueError('Error; unknown string in rule: "%s"' % (anga_type))
 
           if angam_num == 1:
             prev_angam = num_angams
@@ -194,14 +194,14 @@ class FestivalAssigner(PanchaangaApplier):
                 if debug_festivals:
                   logging.warning('%s %d did not touch start of %s kaala on d=%d or %d,\
                                         but incident at end of kaala at d=%d. Assigning %d for %s; angams: %s' %
-                                  (angam_type, angam_num, kaala, d, d + 1, d, fday, festival_name,
+                                  (anga_type, angam_num, kaala, d, d + 1, d, fday, festival_name,
                                    str(angams)))
               elif angams[2] == angam_num:
                 fday = d
                 if debug_festivals:
                   logging.warning(
                     '%s %d present only at start of %s kaala on d=%d. Assigning %d for %s; angams: %s' %
-                    (angam_type, angam_num, kaala, d + 1, d, festival_name, str(angams)))
+                    (anga_type, angam_num, kaala, d + 1, d, festival_name, str(angams)))
               elif angams[0] == angam_num and angams[1] == next_angam:
                 if kaala == 'aparaahna':
                   fday = d
@@ -211,7 +211,7 @@ class FestivalAssigner(PanchaangaApplier):
                 fday = d
                 logging.warning(
                   '%s %d did not touch %s kaala on d=%d or %d. Assigning %d for %s; angams: %s' %
-                  (angam_type, angam_num, kaala, d, d + 1, fday, festival_name, str(angams)))
+                  (anga_type, angam_num, kaala, d, d + 1, fday, festival_name, str(angams)))
               else:
                 if festival_name not in self.panchaanga.festival_id_to_instance and angams[3] > angam_num:
                   logging.debug((angams, angam_num))
@@ -240,7 +240,7 @@ class FestivalAssigner(PanchaangaApplier):
                   if debug_festivals:
                     logging.warning(
                       '%d-%02d-%02d> %s: %s %d did not touch %s on either day: %s. Assigning today + %d' %
-                      (y, m, dt, festival_name, angam_type, angam_num, kaala, str(angams),
+                      (y, m, dt, festival_name, anga_type, angam_num, kaala, str(angams),
                        d_offset))
                   # Need to assign a day to the festival here
                   # since the angam did not touch kaala on either day
@@ -355,7 +355,7 @@ class FestivalAssigner(PanchaangaApplier):
               if assigned_day_index >= start_day:
                 fest_num += 1
           elif month_type == 'lunar_month':
-            if festival_rules[festival_name]['timing']['angam_number'] == 1 and festival_rules[festival_name]['timing'][
+            if festival_rules[festival_name]['timing']['anga_number'] == 1 and festival_rules[festival_name]['timing'][
               'month_number'] == 1:
               # Assigned day may be less by one, since prathama may have started after sunrise
               # Still assume assigned_day >= lunar_y_start_d!
