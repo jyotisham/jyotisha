@@ -443,15 +443,15 @@ def main():
 
   city = City(city_name, latitude, longitude, tz)
 
-  panchaanga = annual.get_panchaanga(city=city, year=year, 
-                                                                         compute_lagnas=compute_lagnams)
+  panchaanga = annual.get_panchaanga_for_civil_year(city=city, year=year,
+                                                    compute_lagnas=compute_lagnams)
 
   panchaanga.update_festival_details()
 
   city_name_en = jyotisha.custom_transliteration.romanise(
     jyotisha.custom_transliteration.tr(city.name, sanscript.IAST)).title()
   output_file = os.path.expanduser(
-    '%s/%s-%d-%s-daily%s.md' % ("~/Documents/jyotisha/txt/daily", city_name_en, year, script, lagnasuff))
+    '%s/%s-%d-%s-daily%s.md' % ("~/Documents/jyotisha/jyotisha/txt/daily", city_name_en, year, script, lagnasuff))
   os.makedirs(os.path.dirname(output_file), exist_ok=True)
   writeDailyText(panchaanga, compute_lagnams, open(output_file, 'w'))
 

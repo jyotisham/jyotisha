@@ -303,11 +303,11 @@ def main():
 
   city = City(city_name, latitude, longitude, tz)
 
-  panchaanga = jyotisha.panchaanga.spatio_temporal.annual.get_panchaanga(city=city, year=year)
+  panchaanga = jyotisha.panchaanga.spatio_temporal.annual.get_panchaanga_for_civil_year(city=city, year=year)
   panchaanga.update_festival_details()
 
   ics_calendar = compute_calendar(panchaanga, all_tags)
-  output_file = os.path.expanduser('%s/%s-%d-%s.ics' % ("~/Documents", city.name, year, scripts))
+  output_file = os.path.expanduser('%s/%s-%d-%s.ics' % ("~/Documents/jyotisha", city.name, year, scripts))
   write_to_file(ics_calendar, output_file)
 
 

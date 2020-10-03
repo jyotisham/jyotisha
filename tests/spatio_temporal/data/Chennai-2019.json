@@ -146,9 +146,7 @@
       "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458483.2708,
       "lunar_month_sunrise": 9,
-      "shraaddha_tithi": [
-        null
-      ],
+      "shraaddha_tithi": [],
       "solar_sidereal_date_sunset": {
         "day": 16,
         "jsonClass": "BasicDateWithTransitions",
@@ -2243,9 +2241,7 @@
       "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458492.2708,
       "lunar_month_sunrise": 10,
-      "shraaddha_tithi": [
-        null
-      ],
+      "shraaddha_tithi": [],
       "solar_sidereal_date_sunset": {
         "day": 25,
         "jsonClass": "BasicDateWithTransitions",
@@ -7038,9 +7034,7 @@
       "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458512.2708,
       "lunar_month_sunrise": 10,
-      "shraaddha_tithi": [
-        null
-      ],
+      "shraaddha_tithi": [],
       "solar_sidereal_date_sunset": {
         "day": 15,
         "jsonClass": "BasicDateWithTransitions",
@@ -9840,9 +9834,7 @@
       "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458524.2708,
       "lunar_month_sunrise": 11,
-      "shraaddha_tithi": [
-        null
-      ],
+      "shraaddha_tithi": [],
       "solar_sidereal_date_sunset": {
         "day": 27,
         "jsonClass": "BasicDateWithTransitions",
@@ -15220,9 +15212,7 @@
       "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458545.2708,
       "lunar_month_sunrise": 11,
-      "shraaddha_tithi": [
-        null
-      ],
+      "shraaddha_tithi": [],
       "solar_sidereal_date_sunset": {
         "day": 19,
         "jsonClass": "BasicDateWithTransitions",
@@ -22993,9 +22983,7 @@
       "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458578.2708,
       "lunar_month_sunrise": 12,
-      "shraaddha_tithi": [
-        null
-      ],
+      "shraaddha_tithi": [],
       "solar_sidereal_date_sunset": {
         "day": 22,
         "jsonClass": "BasicDateWithTransitions",
@@ -28143,9 +28131,7 @@
       "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458599.2708,
       "lunar_month_sunrise": 1,
-      "shraaddha_tithi": [
-        null
-      ],
+      "shraaddha_tithi": [],
       "solar_sidereal_date_sunset": {
         "day": 13,
         "jsonClass": "BasicDateWithTransitions",
@@ -36199,9 +36185,7 @@
       "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458632.2708,
       "lunar_month_sunrise": 2,
-      "shraaddha_tithi": [
-        null
-      ],
+      "shraaddha_tithi": [],
       "solar_sidereal_date_sunset": {
         "day": 15,
         "jsonClass": "BasicDateWithTransitions",
@@ -41350,9 +41334,7 @@
       "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458652.2708,
       "lunar_month_sunrise": 3,
-      "shraaddha_tithi": [
-        null
-      ],
+      "shraaddha_tithi": [],
       "solar_sidereal_date_sunset": {
         "day": 4,
         "jsonClass": "BasicDateWithTransitions",
@@ -49419,9 +49401,7 @@
       "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458686.2708,
       "lunar_month_sunrise": 4,
-      "shraaddha_tithi": [
-        null
-      ],
+      "shraaddha_tithi": [],
       "solar_sidereal_date_sunset": {
         "day": 6,
         "jsonClass": "BasicDateWithTransitions",
@@ -54626,9 +54606,7 @@
       "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458708.2708,
       "lunar_month_sunrise": 5,
-      "shraaddha_tithi": [
-        null
-      ],
+      "shraaddha_tithi": [],
       "solar_sidereal_date_sunset": {
         "day": 28,
         "jsonClass": "BasicDateWithTransitions",
@@ -63521,9 +63499,7 @@
       "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458742.2708,
       "lunar_month_sunrise": 6,
-      "shraaddha_tithi": [
-        null
-      ],
+      "shraaddha_tithi": [],
       "solar_sidereal_date_sunset": {
         "day": 31,
         "jsonClass": "BasicDateWithTransitions",
@@ -69073,9 +69049,7 @@
       "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458764.2708,
       "lunar_month_sunrise": 7,
-      "shraaddha_tithi": [
-        null
-      ],
+      "shraaddha_tithi": [],
       "solar_sidereal_date_sunset": {
         "day": 22,
         "jsonClass": "BasicDateWithTransitions",
@@ -76993,9 +76967,7 @@
       "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458796.2708,
       "lunar_month_sunrise": 8,
-      "shraaddha_tithi": [
-        null
-      ],
+      "shraaddha_tithi": [],
       "solar_sidereal_date_sunset": {
         "day": 23,
         "jsonClass": "BasicDateWithTransitions",
@@ -89172,9 +89144,7 @@
       "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458847.2708,
       "lunar_month_sunrise": 10,
-      "shraaddha_tithi": [
-        null
-      ],
+      "shraaddha_tithi": [],
       "solar_sidereal_date_sunset": {
         "day": 15,
         "jsonClass": "BasicDateWithTransitions",
@@ -89625,9 +89595,7 @@
       "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458849.2708,
       "lunar_month_sunrise": 10,
-      "shraaddha_tithi": [
-        null
-      ],
+      "shraaddha_tithi": [],
       "solar_sidereal_date_sunset": {
         "day": 17,
         "jsonClass": "BasicDateWithTransitions",
@@ -89792,9 +89760,7 @@
       "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458850.2708,
       "lunar_month_sunrise": 10,
-      "shraaddha_tithi": [
-        null
-      ],
+      "shraaddha_tithi": [],
       "solar_sidereal_date_sunset": {
         "day": 18,
         "jsonClass": "BasicDateWithTransitions",
@@ -89962,9 +89928,7 @@
       "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458851.2708,
       "lunar_month_sunrise": 10,
-      "shraaddha_tithi": [
-        null
-      ],
+      "shraaddha_tithi": [],
       "solar_sidereal_date_sunset": {
         "day": 19,
         "jsonClass": "BasicDateWithTransitions",
@@ -90133,9 +90097,7 @@
       "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458852.2708,
       "lunar_month_sunrise": 10,
-      "shraaddha_tithi": [
-        null
-      ],
+      "shraaddha_tithi": [],
       "solar_sidereal_date_sunset": {
         "day": 20,
         "jsonClass": "BasicDateWithTransitions",
@@ -90305,9 +90267,7 @@
       "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458853.2708,
       "lunar_month_sunrise": 10,
-      "shraaddha_tithi": [
-        null
-      ],
+      "shraaddha_tithi": [],
       "solar_sidereal_date_sunset": {
         "day": 21,
         "jsonClass": "BasicDateWithTransitions",
@@ -90476,9 +90436,7 @@
       "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458854.2708,
       "lunar_month_sunrise": 10,
-      "shraaddha_tithi": [
-        null
-      ],
+      "shraaddha_tithi": [],
       "solar_sidereal_date_sunset": {
         "day": 22,
         "jsonClass": "BasicDateWithTransitions",
@@ -90648,9 +90606,7 @@
       "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458855.2708,
       "lunar_month_sunrise": 10,
-      "shraaddha_tithi": [
-        null
-      ],
+      "shraaddha_tithi": [],
       "solar_sidereal_date_sunset": {
         "day": 23,
         "jsonClass": "BasicDateWithTransitions",
@@ -90819,9 +90775,7 @@
       "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458856.2708,
       "lunar_month_sunrise": 10,
-      "shraaddha_tithi": [
-        null
-      ],
+      "shraaddha_tithi": [],
       "solar_sidereal_date_sunset": {
         "day": 24,
         "jsonClass": "BasicDateWithTransitions",
@@ -90991,9 +90945,7 @@
       "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458857.2708,
       "lunar_month_sunrise": 10,
-      "shraaddha_tithi": [
-        null
-      ],
+      "shraaddha_tithi": [],
       "solar_sidereal_date_sunset": {
         "day": 25,
         "jsonClass": "BasicDateWithTransitions",
@@ -91162,9 +91114,7 @@
       "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458858.2708,
       "lunar_month_sunrise": 10,
-      "shraaddha_tithi": [
-        null
-      ],
+      "shraaddha_tithi": [],
       "solar_sidereal_date_sunset": {
         "day": 26,
         "jsonClass": "BasicDateWithTransitions",
@@ -91333,9 +91283,7 @@
       "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458859.2708,
       "lunar_month_sunrise": 10,
-      "shraaddha_tithi": [
-        null
-      ],
+      "shraaddha_tithi": [],
       "solar_sidereal_date_sunset": {
         "day": 27,
         "jsonClass": "BasicDateWithTransitions",
@@ -91505,9 +91453,7 @@
       "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458860.2708,
       "lunar_month_sunrise": 10,
-      "shraaddha_tithi": [
-        null
-      ],
+      "shraaddha_tithi": [],
       "solar_sidereal_date_sunset": {
         "day": 28,
         "jsonClass": "BasicDateWithTransitions",
@@ -91676,9 +91622,7 @@
       "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458861.2708,
       "lunar_month_sunrise": 10,
-      "shraaddha_tithi": [
-        null
-      ],
+      "shraaddha_tithi": [],
       "solar_sidereal_date_sunset": {
         "day": 29,
         "jsonClass": "BasicDateWithTransitions",
@@ -91858,9 +91802,7 @@
       "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458862.2708,
       "lunar_month_sunrise": 10,
-      "shraaddha_tithi": [
-        null
-      ],
+      "shraaddha_tithi": [],
       "solar_sidereal_date_sunset": {
         "day": 30,
         "jsonClass": "BasicDateWithTransitions",
@@ -92035,9 +91977,7 @@
       "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458863.2708,
       "lunar_month_sunrise": 10,
-      "shraaddha_tithi": [
-        null
-      ],
+      "shraaddha_tithi": [],
       "solar_sidereal_date_sunset": {
         "day": 1,
         "jsonClass": "BasicDateWithTransitions",

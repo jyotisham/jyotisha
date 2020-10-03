@@ -31,9 +31,9 @@ class Panchaanga(common.JsonObject):
     super(Panchaanga, self).__init__()
     self.version = Panchaanga.LATEST_VERSION
     self.city = city
-    self.start_date = Date(*([int(x) for x in start_date.split('-')]))
+    self.start_date = Date(*([int(x) for x in start_date.split('-')])) if isinstance(start_date, str) else start_date
     self.start_date.set_time_to_day_start()
-    self.end_date = Date(*([int(x) for x in end_date.split('-')]))
+    self.end_date = Date(*([int(x) for x in end_date.split('-')])) if isinstance(end_date, str) else end_date
     self.end_date.set_time_to_day_start()
 
     self.computation_system = computation_system
@@ -291,7 +291,7 @@ class Panchaanga(common.JsonObject):
 
 
 def get_panchaanga(city, start_date, end_date, compute_lagnams=False,
-                   precomputed_json_dir="~/Documents", ayanaamsha_id=zodiac.Ayanamsha.CHITRA_AT_180):
+                   precomputed_json_dir="~/Documents/jyotisha", ayanaamsha_id=zodiac.Ayanamsha.CHITRA_AT_180):
   fname_det = os.path.expanduser(
     '%s/%s-%s-%s-detailed.json' % (precomputed_json_dir, city.name, start_date, end_date))
   fname = os.path.expanduser('%s/%s-%s-%s.json' % (precomputed_json_dir, city.name, start_date, end_date))

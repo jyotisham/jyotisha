@@ -280,7 +280,7 @@ def main():
 
   city = City(city_name, latitude, longitude, tz)
 
-  panchaanga = jyotisha.panchaanga.spatio_temporal.annual.get_panchaanga(city=city, year=year)
+  panchaanga = jyotisha.panchaanga.spatio_temporal.annual.get_panchaanga_for_civil_year(city=city, year=year)
   # panchaanga.add_details()
 
   compute_events(panchaanga, json_file)

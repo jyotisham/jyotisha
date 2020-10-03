@@ -45,8 +45,8 @@ class DailyCalendarHandler(Resource):
   def get(self, latitude, longitude, year):
     args = self.get_parser.parse_args()
     city = City("", latitude, longitude, args['timezone'])
-    panchaanga = annual.get_panchaanga(city=city, year=int(year),
-                                                                           script=args['encoding'])
+    panchaanga = annual.get_panchaanga_for_civil_year(city=city, year=int(year),
+                                                      script=args['encoding'])
 
     return panchaanga.to_json_map()
 

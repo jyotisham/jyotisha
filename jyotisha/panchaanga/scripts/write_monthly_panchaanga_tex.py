@@ -12,7 +12,7 @@ from pytz import timezone as tz
 import jyotisha
 import jyotisha.custom_transliteration
 import jyotisha.names
-from jyotisha.panchaanga.spatio_temporal import City
+from jyotisha.panchaanga.spatio_temporal import City, annual
 from jyotisha.panchaanga.temporal import time
 
 logging.basicConfig(
@@ -23,7 +23,7 @@ logging.basicConfig(
 CODE_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
 
 
-def writeMonthlyTeX(panchaanga, template_file, scripts=[sanscript.DEVANAGARI], temporal=None):
+def write_monthly_tex(panchaanga, template_file, scripts=[sanscript.DEVANAGARI], temporal=None):
   """Write out the panchaanga TeX using a specified template
   """
   day_colours = {0: 'blue', 1: 'blue', 2: 'blue',
@@ -328,12 +328,12 @@ def main():
   # logging.debug(script)
 
   city = City(city_name, latitude, longitude, tz)
-  panchaanga = jyotisha.panchaanga.spatio_temporal.annual.get_panchaanga(city=city, year=year, scripts=scripts)
+  panchaanga = annual.get_panchaanga_for_civil_year(city=city, year=year, scripts=scripts)
 
   panchaanga.update_festival_details()
 
   monthly_template_file = open(os.path.join(CODE_ROOT, 'panchaanga/data/templates/monthly_cal_template.tex'))
-  writeMonthlyTeX(panchaanga, monthly_template_file)
+  write_monthly_tex(panchaanga, monthly_template_file)
   # panchaanga.writeDebugLog()
 
 

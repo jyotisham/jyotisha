@@ -165,6 +165,10 @@ class City(JsonObject):
 common.update_json_class_index(sys.modules[__name__])
 # logging.debug(common.json_class_index)
 
+# Some common cities
+chennai = City('Chennai', '13:05:24', '80:16:12', 'Asia/Calcutta')
+bengaluru_snagar = City('bengaLUru', '13:03:48.9', '77:34:45.7', 'Asia/Calcutta')
+
 if __name__ == '__main__':
   import doctest
 

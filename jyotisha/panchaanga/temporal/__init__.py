@@ -30,6 +30,9 @@ class ComputationSystem(JsonObject):
     self.lunar_month_assigner_type = lunar_month_assigner_type
     self.ayanaamsha_id = ayanaamsha_id
 
+  def __str__(self):
+    return "%s__%s" % (self.lunar_month_assigner_type, self.ayanaamsha_id)
+
 
 def set_constants():
   from jyotisha.panchaanga.temporal.month import LunarMonthAssigner

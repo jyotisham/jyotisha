@@ -29,7 +29,7 @@ logging.basicConfig(
 CODE_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
 
 
-def writeDailyTeX(panchaanga, template_file, time_format="hh:mm", scripts=[sanscript.DEVANAGARI], compute_lagnams=True, output_stream=None):
+def emit(panchaanga, template_file, time_format="hh:mm", scripts=[sanscript.DEVANAGARI], compute_lagnams=True, output_stream=None):
   """Write out the panchaanga TeX using a specified template
   """
   # day_colours = {0: 'blue', 1: 'blue', 2: 'blue',
@@ -335,13 +335,11 @@ def main():
 
   city = City(city_name, latitude, longitude, tz)
 
-  panchaanga = jyotisha.panchaanga.spatio_temporal.annual.get_panchaanga(city=city, year=year, 
-                                                                         compute_lagnas=compute_lagnams)
-
-  panchaanga.update_festival_details()
+  panchaanga = jyotisha.panchaanga.spatio_temporal.annual.get_panchaanga_for_civil_year(city=city, year=year,
+                                                                                        compute_lagnas=compute_lagnams)
 
   daily_template_file = open(os.path.join(CODE_ROOT, 'panchaanga/data/templates/daily_cal_template.tex'))
-  writeDailyTeX(panchaanga, daily_template_file, compute_lagnams, scripts=scripts)
+  emit(panchaanga, daily_template_file, compute_lagnams, scripts=scripts)
   # panchaanga.writeDebugLog()
 
 

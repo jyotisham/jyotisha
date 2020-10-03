@@ -112,7 +112,7 @@ class DailyPanchaanga(common.JsonObject):
     self.lunar_month_sunrise = None
 
     
-    self.shraaddha_tithi = [None]
+    self.shraaddha_tithi = []
     self.festivals = []
 
     self.compute_sun_moon_transitions(previous_day_panchaanga=previous_day_panchaanga)
