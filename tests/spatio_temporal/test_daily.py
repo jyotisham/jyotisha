@@ -7,8 +7,9 @@ import tests.spatio_temporal
 from jyotisha.panchaanga.spatio_temporal import City
 from jyotisha.panchaanga.spatio_temporal import daily
 from jyotisha.panchaanga.temporal import time
+from jyotisha.panchaanga.temporal.interval import Interval
 from jyotisha.panchaanga.temporal.time import Date
-from jyotisha.panchaanga.temporal.zodiac import AngaType, AngaSpan
+from jyotisha.panchaanga.temporal.zodiac import AngaType
 
 logging.basicConfig(
   level=logging.DEBUG,
@@ -110,12 +111,12 @@ def test_get_anga_data():
   panchaanga = daily.DailyPanchaanga.from_city_and_julian_day(
     city=tests.spatio_temporal.chennai, julian_day=2444961.54042)
   assert panchaanga.get_sunrise_day_anga_spans(AngaType.TITHI) == [
-    AngaSpan(name=27, jd_end=2444961.5992132244, jd_start=None)]
-  assert panchaanga.get_sunrise_day_anga_spans(AngaType.NAKSHATRA) == [AngaSpan(name=16, jd_end=2444961.746925843, jd_start=None)]
+    Interval(name=27, jd_end=2444961.5992132244, jd_start=None)]
+  assert panchaanga.get_sunrise_day_anga_spans(AngaType.NAKSHATRA) == [Interval(name=16, jd_end=2444961.746925843, jd_start=None)]
   assert panchaanga.get_sunrise_day_anga_spans(AngaType.YOGA) == [
-    AngaSpan(name=8, jd_end=2444962.18276057, jd_start=None)]
+    Interval(name=8, jd_end=2444962.18276057, jd_start=None)]
   assert panchaanga.get_sunrise_day_anga_spans(AngaType.KARANA) == [
-    AngaSpan(name=54, jd_end=2444961.5992132244, jd_start=None), AngaSpan(name=55, jd_end=2444962.1544454526, jd_start=None)]
+    Interval(name=54, jd_end=2444961.5992132244, jd_start=None), Interval(name=55, jd_end=2444962.1544454526, jd_start=None)]
 
 
 def test_get_lagna_data():

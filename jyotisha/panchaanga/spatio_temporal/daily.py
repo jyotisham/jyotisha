@@ -10,9 +10,10 @@ from jyotisha.panchaanga.spatio_temporal import City
 from jyotisha.panchaanga.temporal import interval, time, ComputationSystem, set_constants
 from jyotisha.panchaanga.temporal import zodiac
 from jyotisha.panchaanga.temporal.body import Graha
+from jyotisha.panchaanga.temporal.interval import Interval
 from jyotisha.panchaanga.temporal.month import LunarMonthAssigner
 from jyotisha.panchaanga.temporal.time import Timezone, Hour, Date
-from jyotisha.panchaanga.temporal.zodiac import Ayanamsha, NakshatraDivision, AngaType, AngaSpan, AngaSpanFinder
+from jyotisha.panchaanga.temporal.zodiac import Ayanamsha, NakshatraDivision, AngaType, AngaSpanFinder
 from sanskrit_data.schema import common
 
 logging.basicConfig(level=logging.DEBUG,
@@ -193,7 +194,8 @@ class DailyPanchaanga(common.JsonObject):
 
     solar_sidereal_month_end_jd = None
     if previous_day_panchaanga is None or previous_day_panchaanga.solar_sidereal_date_sunset.day > 28 :
-      solar_month_sunset_span = zodiac.AngaSpan.find(jd1=self.jd_sunset - 32, jd2=self.jd_sunset + 5, target_anga_id=solar_month_sunset, anga_type=AngaType.SOLAR_MONTH, ayanaamsha_id=self.computation_system.ayanaamsha_id)
+      anga_finder = zodiac.AngaSpanFinder(ayanaamsha_id=self.computation_system.ayanaamsha_id, anga_type=AngaType.SOLAR_MONTH)
+      solar_month_sunset_span = anga_finder.find(jd1=self.jd_sunset - 32, jd2=self.jd_sunset + 5, target_anga_id=solar_month_sunset)
       solar_sidereal_month_day_sunset = len(self.city.get_sunsets_in_period(jd_start=solar_month_sunset_span.jd_start, jd_end=self.jd_sunset + 1/48.0))
       if solar_sidereal_month_day_sunset == 1 and solar_month_sunset_span.jd_start > self.jd_sunrise:
         solar_sidereal_month_end_jd = solar_month_sunset_span.jd_start
@@ -340,7 +342,7 @@ class DailyPanchaanga(common.JsonObject):
   
     if num_angas_today == 0:
       # The anga does not change until sunrise tomorrow
-      return [AngaSpan(name=anga_now, jd_end=None, jd_start=None)]
+      return [Interval(name=anga_now, jd_end=None, jd_start=None)]
     else:
       lmoon = Graha.singleton(Graha.MOON).get_longitude(self.jd_sunrise, ayanaamsha_id=self.computation_system.ayanaamsha_id)
   
@@ -389,7 +391,7 @@ class DailyPanchaanga(common.JsonObject):
           logging.debug('Unable to bracket! Using approximate t_end itself.')
           # logging.warning(locals())
           t_act = approx_end
-        angas_list.extend([AngaSpan(name=(anga_now + i - 1) % num_angas + 1, jd_end=t_act, jd_start=None)])
+        angas_list.extend([Interval(name=(anga_now + i - 1) % num_angas + 1, jd_end=t_act, jd_start=None)])
     return angas_list
 
 

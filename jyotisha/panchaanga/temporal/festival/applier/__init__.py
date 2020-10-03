@@ -9,7 +9,7 @@ from jyotisha.panchaanga.temporal import interval, PanchaangaApplier, tithi
 from jyotisha.panchaanga.temporal import time
 from jyotisha.panchaanga.temporal import zodiac
 from jyotisha.panchaanga.temporal.festival import rules
-from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision, AngaSpan
+from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision
 from sanskrit_data.schema import common
 
 DATA_ROOT = os.path.join(os.path.dirname(festival.__file__), "data")
@@ -424,12 +424,13 @@ class MiscFestivalAssigner(FestivalAssigner):
       # AGNI nakshatra
       # Arbitrarily checking after Mesha 10! Agni Nakshatram can't start earlier...
       if self.daily_panchaangas[d].solar_sidereal_date_sunset.month == 1 and self.daily_panchaangas[d].solar_sidereal_date_sunset.day == 10:
-        agni_jd_start, dummy = AngaSpan.find(
-          self.daily_panchaangas[d].jd_sunrise, self.daily_panchaangas[d].jd_sunrise + 30,
-          zodiac.AngaType.SOLAR_NAKSH_PADA, 7, ayanaamsha_id=self.ayanaamsha_id).to_tuple()
-        dummy, agni_jd_end = AngaSpan.find(
-          agni_jd_start, agni_jd_start + 30,
-          zodiac.AngaType.SOLAR_NAKSH_PADA, 13, ayanaamsha_id=self.ayanaamsha_id).to_tuple()
+        anga_finder = zodiac.AngaSpanFinder(ayanaamsha_id=self.ayanaamsha_id, anga_type=zodiac.AngaType.SOLAR_NAKSH_PADA)
+        agni_jd_start, dummy = anga_finder.find(
+          jd1=self.daily_panchaangas[d].jd_sunrise, jd2=self.daily_panchaangas[d].jd_sunrise + 30,
+          target_anga_id=7).to_tuple()
+        dummy, agni_jd_end = anga_finder.find(
+          jd1=agni_jd_start, jd2=agni_jd_start + 30,
+          target_anga_id=13).to_tuple()
 
       if self.daily_panchaangas[d].solar_sidereal_date_sunset.month == 1 and self.daily_panchaangas[d].solar_sidereal_date_sunset.day > 10:
         if agni_jd_start is not None:

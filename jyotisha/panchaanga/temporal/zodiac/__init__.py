@@ -295,46 +295,46 @@ class AngaSpanFinder(JsonObject):
           :param debug
 
         Returns:
-          AngaSpan
+          Interval
     """
     num_angas = int(360.0 / self.anga_type.arc_length)
     if target_anga_id > num_angas or target_anga_id < 1:
       raise ValueError
 
-    anga_interval = AngaSpan(jd_start=None, jd_end=None, name=target_anga_id)
+    anga_interval = Interval(jd_start=None, jd_end=None, name=target_anga_id)
 
     anga_interval.jd_start = self.find_anga_start_between(jd1=jd1, jd2=jd2, target_anga_id=target_anga_id)
 
     if anga_interval.jd_start is None:
-      return AngaSpan(jd_start=None, jd_end=None, name=target_anga_id)  # If it doesn't start, we don't care if it ends!
+      return Interval(jd_start=None, jd_end=None, name=target_anga_id)  # If it doesn't start, we don't care if it ends!
 
     anga_id_after_target = (target_anga_id % num_angas) + 1
     anga_interval.jd_end = self.find_anga_start_between(jd1=anga_interval.jd_start, jd2=jd2, target_anga_id=anga_id_after_target)
     return anga_interval
 
 
-class AngaSpan(Interval):
-  @classmethod
-  def find(cls, jd1: float, jd2: float, anga_type: AngaType, target_anga_id: int, ayanaamsha_id: str, debug: bool = False):
-    """Computes anga spans for sunrise_day_angas such as tithi, nakshatra, yoga
-        and karana.
-
-        Args:
-          :param jd1: return the first span that starts after this date
-          :param jd2: return the first span that ends before this date
-          :param anga_type: TITHI, nakshatra, YOGA, KARANA, SOLAR_MONTH, SOLAR_NAKSH
-          :param ayanaamsha_id
-          :param debug
-
-        Returns:
-          tuple: A tuple of start and end times that lies within jd1 and jd2
-    """
-    anga_span_finder = AngaSpanFinder(ayanaamsha_id=ayanaamsha_id, anga_type=anga_type)
-    return anga_span_finder.find(jd1=jd1, jd2=jd2, target_anga_id=target_anga_id)
-
-
 # Essential for depickling to work.
 common.update_json_class_index(sys.modules[__name__])
+
+
+def get_new_moons_in_period(jd_start, jd_end):
+  if jd_start > jd_end:
+    raise ValueError((jd_start, jd_end))
+  jd = jd_start
+  anga_finder = AngaSpanFinder(ayanaamsha_id=Ayanamsha.ASHVINI_STARTING_0, anga_type=AngaType.TITHI)
+  new_moon_jds = []
+  while jd < jd_end:
+    new_moon = anga_finder.find(
+      jd1=jd, jd2=jd + 30,
+      target_anga_id=30)
+    if new_moon is None:
+      raise Exception("Could not find a new moon between %f and %f" % (jd, jd+30))
+    if new_moon.jd_start < jd_end:
+      new_moon_jds.append(new_moon.jd_start)
+    jd = new_moon.jd_start + 28
+  return new_moon_jds
+
+
 
 
 if __name__ == '__main__':

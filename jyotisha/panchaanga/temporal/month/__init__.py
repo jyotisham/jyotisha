@@ -1,7 +1,7 @@
 import sys
 
 from jyotisha.panchaanga.temporal import zodiac
-from jyotisha.panchaanga.temporal.zodiac import AngaSpan, NakshatraDivision
+from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision
 from sanskrit_data.schema import common
 from sanskrit_data.schema.common import JsonObject
 
@@ -39,12 +39,13 @@ class MultiNewmoonSolarMonthAdhikaAssigner(LunarMonthAssigner):
     :return: 
     """
     # tithi_at_sunrise gives a rough indication of the number of days since last new moon. We now find a more precise interval below.
-    last_new_moon = AngaSpan.find(
-      daily_panchaanga.jd_sunrise - daily_panchaanga.sunrise_day_angas.tithi_at_sunrise - 3, daily_panchaanga.jd_sunrise - daily_panchaanga.sunrise_day_angas.tithi_at_sunrise + 3,
-      zodiac.AngaType.TITHI, 30, ayanaamsha_id=self.ayanaamsha_id)
-    this_new_moon = AngaSpan.find(
-      last_new_moon.jd_start + 24, last_new_moon.jd_start + 32,
-      zodiac.AngaType.TITHI, 30, ayanaamsha_id=self.ayanaamsha_id)
+    anga_finder = zodiac.AngaSpanFinder(ayanaamsha_id=self.ayanaamsha_id, anga_type=zodiac.AngaType.TITHI)
+
+    last_new_moon = anga_finder.find(
+      jd1=daily_panchaanga.jd_sunrise - daily_panchaanga.sunrise_day_angas.tithi_at_sunrise - 3, jd2=daily_panchaanga.jd_sunrise - daily_panchaanga.sunrise_day_angas.tithi_at_sunrise + 3, target_anga_id=30)
+    this_new_moon = anga_finder.find(
+      jd1=last_new_moon.jd_start + 24, jd2=last_new_moon.jd_start + 32,
+      target_anga_id=30)
     last_new_moon_solar_raashi = NakshatraDivision(last_new_moon.jd_end, ayanaamsha_id=self.ayanaamsha_id).get_solar_raashi()
     this_new_moon_solar_raashi = NakshatraDivision(this_new_moon.jd_end, ayanaamsha_id=self.ayanaamsha_id).get_solar_raashi()
     is_adhika = last_new_moon_solar_raashi == this_new_moon_solar_raashi
