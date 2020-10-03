@@ -46,7 +46,7 @@ def test_get_anga_span_tithi():
 
 
 def test_get_new_moons_in_period():
-  new_moon_jds = zodiac.get_new_moons_in_period(jd_start=time.utc_gregorian_to_jd(Date(year=2020, month=1, day=1)), jd_end=time.utc_gregorian_to_jd(Date(year=2020, month=6, day=30)))
+  new_moon_jds = zodiac.get_tithis_in_period(jd_start=time.utc_gregorian_to_jd(Date(year=2020, month=1, day=1)), jd_end=time.utc_gregorian_to_jd(Date(year=2020, month=6, day=30)))
   assert new_moon_jds == [2458872.36655025,
                           2458902.0647052005,
                           2458931.792117506,

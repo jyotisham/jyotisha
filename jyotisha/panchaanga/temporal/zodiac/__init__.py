@@ -317,7 +317,7 @@ class AngaSpanFinder(JsonObject):
 common.update_json_class_index(sys.modules[__name__])
 
 
-def get_new_moons_in_period(jd_start, jd_end):
+def get_tithis_in_period(jd_start, jd_end, tithi):
   if jd_start > jd_end:
     raise ValueError((jd_start, jd_end))
   jd = jd_start
@@ -326,7 +326,7 @@ def get_new_moons_in_period(jd_start, jd_end):
   while jd < jd_end:
     new_moon = anga_finder.find(
       jd1=jd, jd2=jd + 30,
-      target_anga_id=30)
+      target_anga_id=tithi)
     if new_moon is None:
       raise Exception("Could not find a new moon between %f and %f" % (jd, jd+30))
     if new_moon.jd_start < jd_end:

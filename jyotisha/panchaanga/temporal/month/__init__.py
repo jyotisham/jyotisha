@@ -1,6 +1,7 @@
+import math
 import sys
 
-from jyotisha.panchaanga.temporal import zodiac
+from jyotisha.panchaanga.temporal import zodiac, tithi
 from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision
 from sanskrit_data.schema import common
 from sanskrit_data.schema.common import JsonObject
@@ -8,7 +9,7 @@ from sanskrit_data.schema.common import JsonObject
 
 class LunarMonthAssigner(JsonObject):
   MULTI_NEW_MOON_SOLAR_MONTH_ADHIKA = "MULTI_NEW_MOON_SOLAR_MONTH_ADHIKA"
-  SOLSTICE_POST_DARK_10_ASHIKA = "SOLSTICE_POST_DARK_10_ASHIKA"
+  SOLSTICE_POST_DARK_10_ADHIKA = "SOLSTICE_POST_DARK_10_ADHIKA"
   
   def __init__(self, ayanaamsha_id):
     self.ayanaamsha_id = ayanaamsha_id
@@ -20,7 +21,7 @@ class LunarMonthAssigner(JsonObject):
   def get_assigner(cls, computation_system):
     if computation_system.lunar_month_assigner_type == LunarMonthAssigner.MULTI_NEW_MOON_SOLAR_MONTH_ADHIKA:
       return MultiNewmoonSolarMonthAdhikaAssigner(ayanaamsha_id=computation_system.ayanaamsha_id)
-    elif computation_system.lunar_month_assigner_type == LunarMonthAssigner.SOLSTICE_POST_DARK_10_ASHIKA:
+    elif computation_system.lunar_month_assigner_type == LunarMonthAssigner.SOLSTICE_POST_DARK_10_ADHIKA:
       return SolsticePostDark10AdhikaAssigner(ayanaamsha_id=computation_system.ayanaamsha_id)
     else:
       raise ValueError("Invalid assigner_id " + computation_system.lunar_month_assigner_type)
@@ -72,17 +73,20 @@ class SolsticePostDark10AdhikaAssigner(LunarMonthAssigner):
     :return: 
     """
     # tithi_at_sunrise gives a rough indication of the number of days since last new moon. We now find a more precise interval below.
-    solstice_solar_month = daily_panchaanga.get_previous_solstice()
-    from jyotisha.panchaanga.spatio_temporal.daily import DailyPanchaanga
-    solstice_day_panchaanga = DailyPanchaanga.from_city_and_julian_day(
-      city=daily_panchaanga.city, julian_day=solstice_solar_month.jd_start, computation_system=daily_panchaanga.computation_system)
-    if solstice_day_panchaanga.sunrise_day_angas.tithi_at_sunrise > 15 + 9:
-      is_adhika_maasa = True
+    solstice_tropical_month_span = daily_panchaanga.get_previous_solstice()
+
+    solstice_tithi = tithi.get_tithi(jd=solstice_tropical_month_span.jd_start)
+    if solstice_tithi > 15 + 9:
+      solstice_in_adhika_maasa = True
     else:
-      is_adhika_maasa = False
-    solstice_lunar_month = solstice_solar_month if not is_adhika_maasa else solstice_solar_month - 0.5
-    
-    pass
+      solstice_in_adhika_maasa = False
+    solstice_lunar_month = solstice_tropical_month_span.name if not solstice_in_adhika_maasa else solstice_tropical_month_span.name + 0.5
+    tithi_1_jds = zodiac.get_tithis_in_period(jd_start=solstice_tropical_month_span.jd_start, jd_end=daily_panchaanga.jd_sunrise, tithi=1)
+    if solstice_in_adhika_maasa:
+      lunar_month = solstice_lunar_month + max(0, len(tithi_1_jds) - 0.5)
+    else:
+      lunar_month = solstice_lunar_month + len(tithi_1_jds)
+    return lunar_month
 
 
 # Essential for depickling to work.

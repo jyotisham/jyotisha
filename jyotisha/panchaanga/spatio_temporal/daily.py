@@ -119,8 +119,10 @@ class DailyPanchaanga(common.JsonObject):
     self.compute_solar_day_sunset(previous_day_panchaanga=previous_day_panchaanga)
     self.set_tropical_date_sunset(previous_day_panchaanga=previous_day_panchaanga)
     self.get_day_length_based_periods()
-    lunar_month_assigner = LunarMonthAssigner.get_assigner(computation_system=computation_system)
-    self.set_lunar_month_sunrise(month_assigner=lunar_month_assigner, previous_day_panchaanga=previous_day_panchaanga)
+
+    if computation_system.lunar_month_assigner_type is not None:
+      lunar_month_assigner = LunarMonthAssigner.get_assigner(computation_system=computation_system)
+      self.set_lunar_month_sunrise(month_assigner=lunar_month_assigner, previous_day_panchaanga=previous_day_panchaanga)
 
 
   def __lt__(self, other):
@@ -228,15 +230,16 @@ class DailyPanchaanga(common.JsonObject):
   def set_lunar_month_sunrise(self, month_assigner, previous_day_panchaanga=None):
     if previous_day_panchaanga is not None:
       anga = previous_day_panchaanga.sunrise_day_angas.find_anga(anga_type=AngaType.TITHI, anga_id=1)
-      if anga is not None:
+      if anga is not None and month_assigner is not None:
         self.lunar_month_sunrise = month_assigner.get_month_sunrise(daily_panchaanga=self)
       else:
-        if self.sunrise_day_angas.tithi_at_sunrise == 1:
+        if self.sunrise_day_angas.tithi_at_sunrise == 1 and month_assigner is not None:
           self.lunar_month_sunrise = month_assigner.get_month_sunrise(daily_panchaanga=self)
         else:
           self.lunar_month_sunrise = previous_day_panchaanga.lunar_month_sunrise
     else:
-      self.lunar_month_sunrise = month_assigner.get_month_sunrise(daily_panchaanga=self)
+      if  month_assigner is not None:
+        self.lunar_month_sunrise = month_assigner.get_month_sunrise(daily_panchaanga=self)
     
 
   def get_lagna_data(self, ayanaamsha_id=zodiac.Ayanamsha.CHITRA_AT_180, debug=False):
