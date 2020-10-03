@@ -122,7 +122,7 @@
       "jd_previous_sunset": 2458118.013,
       "jd_sunrise": 2458118.5448,
       "jd_sunset": 2458119.0134,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458118.2708,
       "lunar_month_sunrise": 10,
       "shraaddha_tithi": [
@@ -439,7 +439,7 @@
       "jd_previous_sunset": 2458119.0134,
       "jd_sunrise": 2458119.5451,
       "jd_sunset": 2458120.0138,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458119.2708,
       "lunar_month_sunrise": 10,
       "shraaddha_tithi": [
@@ -838,7 +838,7 @@
       "jd_previous_sunset": 2458120.0138,
       "jd_sunrise": 2458120.5454,
       "jd_sunset": 2458121.0142,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458120.2708,
       "lunar_month_sunrise": 10,
       "shraaddha_tithi": [
@@ -1158,7 +1158,7 @@
       "jd_previous_sunset": 2458121.0142,
       "jd_sunrise": 2458121.5456,
       "jd_sunset": 2458122.0146,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458121.2708,
       "lunar_month_sunrise": 10,
       "shraaddha_tithi": [
@@ -1334,7 +1334,7 @@
       "jd_previous_sunset": 2458122.0146,
       "jd_sunrise": 2458122.5459,
       "jd_sunset": 2458123.015,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458122.2708,
       "lunar_month_sunrise": 10,
       "shraaddha_tithi": [
@@ -1512,7 +1512,7 @@
       "jd_previous_sunset": 2458123.015,
       "jd_sunrise": 2458123.5461,
       "jd_sunset": 2458124.0154,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458123.2708,
       "lunar_month_sunrise": 10,
       "shraaddha_tithi": [
@@ -1715,7 +1715,7 @@
       "jd_previous_sunset": 2458124.0154,
       "jd_sunrise": 2458124.5463,
       "jd_sunset": 2458125.0158,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458124.2708,
       "lunar_month_sunrise": 10,
       "shraaddha_tithi": [
@@ -1907,7 +1907,7 @@
       "jd_previous_sunset": 2458125.0158,
       "jd_sunrise": 2458125.5465,
       "jd_sunset": 2458126.0162,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458125.2708,
       "lunar_month_sunrise": 10,
       "shraaddha_tithi": [
@@ -2108,7 +2108,7 @@
       "jd_previous_sunset": 2458126.0162,
       "jd_sunrise": 2458126.5467,
       "jd_sunset": 2458127.0166,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458126.2708,
       "lunar_month_sunrise": 10,
       "shraaddha_tithi": [
@@ -2298,7 +2298,7 @@
       "jd_previous_sunset": 2458127.0166,
       "jd_sunrise": 2458127.5469,
       "jd_sunset": 2458128.0169,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458127.2708,
       "lunar_month_sunrise": 10,
       "shraaddha_tithi": [
@@ -2519,7 +2519,7 @@
       "jd_previous_sunset": 2458128.0169,
       "jd_sunrise": 2458128.5471,
       "jd_sunset": 2458129.0173,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458128.2708,
       "lunar_month_sunrise": 10,
       "shraaddha_tithi": [
@@ -2717,7 +2717,7 @@
       "jd_previous_sunset": 2458129.0173,
       "jd_sunrise": 2458129.5472,
       "jd_sunset": 2458130.0177,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458129.2708,
       "lunar_month_sunrise": 10,
       "shraaddha_tithi": [
@@ -2910,7 +2910,7 @@
       "jd_previous_sunset": 2458130.0177,
       "jd_sunrise": 2458130.5474,
       "jd_sunset": 2458131.0181,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458130.2708,
       "lunar_month_sunrise": 10,
       "shraaddha_tithi": [
@@ -3119,7 +3119,7 @@
       "jd_previous_sunset": 2458131.0181,
       "jd_sunrise": 2458131.5475,
       "jd_sunset": 2458132.0185,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458131.2708,
       "lunar_month_sunrise": 10,
       "shraaddha_tithi": [
@@ -3449,7 +3449,7 @@
       "jd_previous_sunset": 2458132.0185,
       "jd_sunrise": 2458132.5477,
       "jd_sunset": 2458133.0189,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458132.2708,
       "lunar_month_sunrise": 10,
       "shraaddha_tithi": [
@@ -3743,7 +3743,7 @@
       "jd_previous_sunset": 2458133.0189,
       "jd_sunrise": 2458133.5478,
       "jd_sunset": 2458134.0193,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458133.2708,
       "lunar_month_sunrise": 10,
       "shraaddha_tithi": [
@@ -3941,7 +3941,7 @@
       "jd_previous_sunset": 2458134.0193,
       "jd_sunrise": 2458134.5479,
       "jd_sunset": 2458135.0197,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458134.2708,
       "lunar_month_sunrise": 10,
       "shraaddha_tithi": [
@@ -4107,7 +4107,7 @@
       "jd_previous_sunset": 2458135.0197,
       "jd_sunrise": 2458135.548,
       "jd_sunset": 2458136.02,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458135.2708,
       "lunar_month_sunrise": 10,
       "shraaddha_tithi": [
@@ -4394,7 +4394,7 @@
       "jd_previous_sunset": 2458136.02,
       "jd_sunrise": 2458136.5481,
       "jd_sunset": 2458137.0204,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458136.2708,
       "lunar_month_sunrise": 11,
       "shraaddha_tithi": [
@@ -4690,7 +4690,7 @@
       "jd_previous_sunset": 2458137.0204,
       "jd_sunrise": 2458137.5481,
       "jd_sunset": 2458138.0208,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458137.2708,
       "lunar_month_sunrise": 11,
       "shraaddha_tithi": [
@@ -4889,7 +4889,7 @@
       "jd_previous_sunset": 2458138.0208,
       "jd_sunrise": 2458138.5482,
       "jd_sunset": 2458139.0212,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458138.2708,
       "lunar_month_sunrise": 11,
       "shraaddha_tithi": [
@@ -5074,7 +5074,7 @@
       "jd_previous_sunset": 2458139.0212,
       "jd_sunrise": 2458139.5482,
       "jd_sunset": 2458140.0215,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458139.2708,
       "lunar_month_sunrise": 11,
       "shraaddha_tithi": [
@@ -5298,7 +5298,7 @@
       "jd_previous_sunset": 2458140.0215,
       "jd_sunrise": 2458140.5483,
       "jd_sunset": 2458141.0219,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458140.2708,
       "lunar_month_sunrise": 11,
       "shraaddha_tithi": [
@@ -5545,7 +5545,7 @@
       "jd_previous_sunset": 2458141.0219,
       "jd_sunrise": 2458141.5483,
       "jd_sunset": 2458142.0222,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458141.2708,
       "lunar_month_sunrise": 11,
       "shraaddha_tithi": [
@@ -5782,7 +5782,7 @@
       "jd_previous_sunset": 2458142.0222,
       "jd_sunrise": 2458142.5483,
       "jd_sunset": 2458143.0226,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458142.2708,
       "lunar_month_sunrise": 11,
       "shraaddha_tithi": [
@@ -5994,7 +5994,7 @@
       "jd_previous_sunset": 2458143.0226,
       "jd_sunrise": 2458143.5483,
       "jd_sunset": 2458144.0229,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458143.2708,
       "lunar_month_sunrise": 11,
       "shraaddha_tithi": [
@@ -6355,7 +6355,7 @@
       "jd_previous_sunset": 2458144.0229,
       "jd_sunrise": 2458144.5483,
       "jd_sunset": 2458145.0232,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458144.2708,
       "lunar_month_sunrise": 11,
       "shraaddha_tithi": [
@@ -6593,7 +6593,7 @@
       "jd_previous_sunset": 2458145.0232,
       "jd_sunrise": 2458145.5482,
       "jd_sunset": 2458146.0236,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458145.2708,
       "lunar_month_sunrise": 11,
       "shraaddha_tithi": [
@@ -6872,7 +6872,7 @@
       "jd_previous_sunset": 2458146.0236,
       "jd_sunrise": 2458146.5482,
       "jd_sunset": 2458147.0239,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458146.2708,
       "lunar_month_sunrise": 11,
       "shraaddha_tithi": [
@@ -7248,7 +7248,7 @@
       "jd_previous_sunset": 2458147.0239,
       "jd_sunrise": 2458147.5481,
       "jd_sunset": 2458148.0242,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458147.2708,
       "lunar_month_sunrise": 11,
       "shraaddha_tithi": [
@@ -7448,7 +7448,7 @@
       "jd_previous_sunset": 2458148.0242,
       "jd_sunrise": 2458148.548,
       "jd_sunset": 2458149.0245,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458148.2708,
       "lunar_month_sunrise": 11,
       "shraaddha_tithi": [
@@ -7874,7 +7874,7 @@
       "jd_previous_sunset": 2458149.0245,
       "jd_sunrise": 2458149.5479,
       "jd_sunset": 2458150.0248,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458149.2708,
       "lunar_month_sunrise": 11,
       "shraaddha_tithi": [
@@ -8064,7 +8064,7 @@
       "jd_previous_sunset": 2458150.0248,
       "jd_sunrise": 2458150.5478,
       "jd_sunset": 2458151.0251,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458150.2708,
       "lunar_month_sunrise": 11,
       "shraaddha_tithi": [
@@ -8285,7 +8285,7 @@
       "jd_previous_sunset": 2458151.0251,
       "jd_sunrise": 2458151.5477,
       "jd_sunset": 2458152.0254,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458151.2708,
       "lunar_month_sunrise": 11,
       "shraaddha_tithi": [
@@ -8462,7 +8462,7 @@
       "jd_previous_sunset": 2458152.0254,
       "jd_sunrise": 2458152.5476,
       "jd_sunset": 2458153.0257,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458152.2708,
       "lunar_month_sunrise": 11,
       "shraaddha_tithi": [
@@ -8682,7 +8682,7 @@
       "jd_previous_sunset": 2458153.0257,
       "jd_sunrise": 2458153.5475,
       "jd_sunset": 2458154.026,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458153.2708,
       "lunar_month_sunrise": 11,
       "shraaddha_tithi": [
@@ -8867,7 +8867,7 @@
       "jd_previous_sunset": 2458154.026,
       "jd_sunrise": 2458154.5473,
       "jd_sunset": 2458155.0262,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458154.2708,
       "lunar_month_sunrise": 11,
       "shraaddha_tithi": [
@@ -9081,7 +9081,7 @@
       "jd_previous_sunset": 2458155.0262,
       "jd_sunrise": 2458155.5472,
       "jd_sunset": 2458156.0265,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458155.2708,
       "lunar_month_sunrise": 11,
       "shraaddha_tithi": [
@@ -9292,7 +9292,7 @@
       "jd_previous_sunset": 2458156.0265,
       "jd_sunrise": 2458156.547,
       "jd_sunset": 2458157.0267,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458156.2708,
       "lunar_month_sunrise": 11,
       "shraaddha_tithi": [
@@ -9492,7 +9492,7 @@
       "jd_previous_sunset": 2458157.0267,
       "jd_sunrise": 2458157.5468,
       "jd_sunset": 2458158.027,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458157.2708,
       "lunar_month_sunrise": 11,
       "shraaddha_tithi": [
@@ -9699,7 +9699,7 @@
       "jd_previous_sunset": 2458158.027,
       "jd_sunrise": 2458158.5466,
       "jd_sunset": 2458159.0272,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458158.2708,
       "lunar_month_sunrise": 11,
       "shraaddha_tithi": [
@@ -9870,7 +9870,7 @@
       "jd_previous_sunset": 2458159.0272,
       "jd_sunrise": 2458159.5464,
       "jd_sunset": 2458160.0275,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458159.2708,
       "lunar_month_sunrise": 11,
       "shraaddha_tithi": [
@@ -10056,7 +10056,7 @@
       "jd_previous_sunset": 2458160.0275,
       "jd_sunrise": 2458160.5462,
       "jd_sunset": 2458161.0277,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458160.2708,
       "lunar_month_sunrise": 11,
       "shraaddha_tithi": [
@@ -10245,7 +10245,7 @@
       "jd_previous_sunset": 2458161.0277,
       "jd_sunrise": 2458161.546,
       "jd_sunset": 2458162.0279,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458161.2708,
       "lunar_month_sunrise": 11,
       "shraaddha_tithi": [
@@ -10693,7 +10693,7 @@
       "jd_previous_sunset": 2458162.0279,
       "jd_sunrise": 2458162.5457,
       "jd_sunset": 2458163.0281,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458162.2708,
       "lunar_month_sunrise": 11,
       "shraaddha_tithi": [
@@ -11053,7 +11053,7 @@
       "jd_previous_sunset": 2458163.0281,
       "jd_sunrise": 2458163.5455,
       "jd_sunset": 2458164.0284,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458163.2708,
       "lunar_month_sunrise": 11,
       "shraaddha_tithi": [
@@ -11276,7 +11276,7 @@
       "jd_previous_sunset": 2458164.0284,
       "jd_sunrise": 2458164.5452,
       "jd_sunset": 2458165.0286,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458164.2708,
       "lunar_month_sunrise": 11,
       "shraaddha_tithi": [
@@ -11475,7 +11475,7 @@
       "jd_previous_sunset": 2458165.0286,
       "jd_sunrise": 2458165.5449,
       "jd_sunset": 2458166.0288,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458165.2708,
       "lunar_month_sunrise": 12,
       "shraaddha_tithi": [
@@ -11696,7 +11696,7 @@
       "jd_previous_sunset": 2458166.0288,
       "jd_sunrise": 2458166.5447,
       "jd_sunset": 2458167.0289,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458166.2708,
       "lunar_month_sunrise": 12,
       "shraaddha_tithi": [
@@ -11884,7 +11884,7 @@
       "jd_previous_sunset": 2458167.0289,
       "jd_sunrise": 2458167.5444,
       "jd_sunset": 2458168.0291,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458167.2708,
       "lunar_month_sunrise": 12,
       "shraaddha_tithi": [
@@ -12071,7 +12071,7 @@
       "jd_previous_sunset": 2458168.0291,
       "jd_sunrise": 2458168.5441,
       "jd_sunset": 2458169.0293,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458168.2708,
       "lunar_month_sunrise": 12,
       "shraaddha_tithi": [
@@ -12326,7 +12326,7 @@
       "jd_previous_sunset": 2458169.0293,
       "jd_sunrise": 2458169.5438,
       "jd_sunset": 2458170.0295,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458169.2708,
       "lunar_month_sunrise": 12,
       "shraaddha_tithi": [
@@ -12589,7 +12589,7 @@
       "jd_previous_sunset": 2458170.0295,
       "jd_sunrise": 2458170.5435,
       "jd_sunset": 2458171.0296,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458170.2708,
       "lunar_month_sunrise": 12,
       "shraaddha_tithi": [
@@ -12899,7 +12899,7 @@
       "jd_previous_sunset": 2458171.0296,
       "jd_sunrise": 2458171.5431,
       "jd_sunset": 2458172.0298,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458171.2708,
       "lunar_month_sunrise": 12,
       "shraaddha_tithi": [
@@ -13203,7 +13203,7 @@
       "jd_previous_sunset": 2458172.0298,
       "jd_sunrise": 2458172.5428,
       "jd_sunset": 2458173.0299,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458172.2708,
       "lunar_month_sunrise": 12,
       "shraaddha_tithi": [
@@ -13424,7 +13424,7 @@
       "jd_previous_sunset": 2458173.0299,
       "jd_sunrise": 2458173.5425,
       "jd_sunset": 2458174.0301,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458173.2708,
       "lunar_month_sunrise": 12,
       "shraaddha_tithi": [
@@ -13627,7 +13627,7 @@
       "jd_previous_sunset": 2458174.0301,
       "jd_sunrise": 2458174.5421,
       "jd_sunset": 2458175.0302,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458174.2708,
       "lunar_month_sunrise": 12,
       "shraaddha_tithi": [
@@ -13877,7 +13877,7 @@
       "jd_previous_sunset": 2458175.0302,
       "jd_sunrise": 2458175.5418,
       "jd_sunset": 2458176.0304,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458175.2708,
       "lunar_month_sunrise": 12,
       "shraaddha_tithi": [
@@ -14308,7 +14308,7 @@
       "jd_previous_sunset": 2458176.0304,
       "jd_sunrise": 2458176.5414,
       "jd_sunset": 2458177.0305,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458176.2708,
       "lunar_month_sunrise": 12,
       "shraaddha_tithi": [
@@ -14524,7 +14524,7 @@
       "jd_previous_sunset": 2458177.0305,
       "jd_sunrise": 2458177.541,
       "jd_sunset": 2458178.0306,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458177.2708,
       "lunar_month_sunrise": 12,
       "shraaddha_tithi": [
@@ -14982,7 +14982,7 @@
       "jd_previous_sunset": 2458178.0306,
       "jd_sunrise": 2458178.5406,
       "jd_sunset": 2458179.0307,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458178.2708,
       "lunar_month_sunrise": 12,
       "shraaddha_tithi": [
@@ -15184,7 +15184,7 @@
       "jd_previous_sunset": 2458179.0307,
       "jd_sunrise": 2458179.5402,
       "jd_sunset": 2458180.0308,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458179.2708,
       "lunar_month_sunrise": 12,
       "shraaddha_tithi": [
@@ -15356,7 +15356,7 @@
       "jd_previous_sunset": 2458180.0308,
       "jd_sunrise": 2458180.5399,
       "jd_sunset": 2458181.0309,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458180.2708,
       "lunar_month_sunrise": 12,
       "shraaddha_tithi": [
@@ -15601,7 +15601,7 @@
       "jd_previous_sunset": 2458181.0309,
       "jd_sunrise": 2458181.5395,
       "jd_sunset": 2458182.031,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458181.2708,
       "lunar_month_sunrise": 12,
       "shraaddha_tithi": [
@@ -15783,7 +15783,7 @@
       "jd_previous_sunset": 2458182.031,
       "jd_sunrise": 2458182.5391,
       "jd_sunset": 2458183.0311,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458182.2708,
       "lunar_month_sunrise": 12,
       "shraaddha_tithi": [
@@ -16010,7 +16010,7 @@
       "jd_previous_sunset": 2458183.0311,
       "jd_sunrise": 2458183.5386,
       "jd_sunset": 2458184.0312,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458183.2708,
       "lunar_month_sunrise": 12,
       "shraaddha_tithi": [
@@ -16181,7 +16181,7 @@
       "jd_previous_sunset": 2458184.0312,
       "jd_sunrise": 2458184.5382,
       "jd_sunset": 2458185.0313,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458184.2708,
       "lunar_month_sunrise": 12,
       "shraaddha_tithi": [
@@ -16369,7 +16369,7 @@
       "jd_previous_sunset": 2458185.0313,
       "jd_sunrise": 2458185.5378,
       "jd_sunset": 2458186.0314,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458185.2708,
       "lunar_month_sunrise": 12,
       "shraaddha_tithi": [
@@ -16554,7 +16554,7 @@
       "jd_previous_sunset": 2458186.0314,
       "jd_sunrise": 2458186.5374,
       "jd_sunset": 2458187.0315,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458186.2708,
       "lunar_month_sunrise": 12,
       "shraaddha_tithi": [
@@ -16742,7 +16742,7 @@
       "jd_previous_sunset": 2458187.0315,
       "jd_sunrise": 2458187.537,
       "jd_sunset": 2458188.0316,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458187.2708,
       "lunar_month_sunrise": 12,
       "shraaddha_tithi": [
@@ -16997,7 +16997,7 @@
       "jd_previous_sunset": 2458188.0316,
       "jd_sunrise": 2458188.5365,
       "jd_sunset": 2458189.0316,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458188.2708,
       "lunar_month_sunrise": 12,
       "shraaddha_tithi": [
@@ -17182,7 +17182,7 @@
       "jd_previous_sunset": 2458189.0316,
       "jd_sunrise": 2458189.5361,
       "jd_sunset": 2458190.0317,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458189.2708,
       "lunar_month_sunrise": 12,
       "shraaddha_tithi": [
@@ -17431,7 +17431,7 @@
       "jd_previous_sunset": 2458190.0317,
       "jd_sunrise": 2458190.5356,
       "jd_sunset": 2458191.0318,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458190.2708,
       "lunar_month_sunrise": 12,
       "shraaddha_tithi": [
@@ -17851,7 +17851,7 @@
       "jd_previous_sunset": 2458191.0318,
       "jd_sunrise": 2458191.5352,
       "jd_sunset": 2458192.0318,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458191.2708,
       "lunar_month_sunrise": 12,
       "shraaddha_tithi": [
@@ -18128,7 +18128,7 @@
       "jd_previous_sunset": 2458192.0318,
       "jd_sunrise": 2458192.5348,
       "jd_sunset": 2458193.0319,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458192.2708,
       "lunar_month_sunrise": 12,
       "shraaddha_tithi": [
@@ -18320,7 +18320,7 @@
       "jd_previous_sunset": 2458193.0319,
       "jd_sunrise": 2458193.5343,
       "jd_sunset": 2458194.032,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458193.2708,
       "lunar_month_sunrise": 12,
       "shraaddha_tithi": [
@@ -18526,7 +18526,7 @@
       "jd_previous_sunset": 2458194.032,
       "jd_sunrise": 2458194.5338,
       "jd_sunset": 2458195.032,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458194.2708,
       "lunar_month_sunrise": 12,
       "shraaddha_tithi": [
@@ -18777,7 +18777,7 @@
       "jd_previous_sunset": 2458195.032,
       "jd_sunrise": 2458195.5334,
       "jd_sunset": 2458196.0321,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458195.2708,
       "lunar_month_sunrise": 1,
       "shraaddha_tithi": [
@@ -18998,7 +18998,7 @@
       "jd_previous_sunset": 2458196.0321,
       "jd_sunrise": 2458196.5329,
       "jd_sunset": 2458197.0321,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458196.2708,
       "lunar_month_sunrise": 1,
       "shraaddha_tithi": [
@@ -19335,7 +19335,7 @@
       "jd_previous_sunset": 2458197.0321,
       "jd_sunrise": 2458197.5325,
       "jd_sunset": 2458198.0322,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458197.2708,
       "lunar_month_sunrise": 1,
       "shraaddha_tithi": [
@@ -19535,7 +19535,7 @@
       "jd_previous_sunset": 2458198.0322,
       "jd_sunrise": 2458198.532,
       "jd_sunset": 2458199.0322,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458198.2708,
       "lunar_month_sunrise": 1,
       "shraaddha_tithi": [
@@ -19873,7 +19873,7 @@
       "jd_previous_sunset": 2458199.0322,
       "jd_sunrise": 2458199.5316,
       "jd_sunset": 2458200.0323,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458199.2708,
       "lunar_month_sunrise": 1,
       "shraaddha_tithi": [
@@ -20163,7 +20163,7 @@
       "jd_previous_sunset": 2458200.0323,
       "jd_sunrise": 2458200.5311,
       "jd_sunset": 2458201.0323,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458200.2708,
       "lunar_month_sunrise": 1,
       "shraaddha_tithi": [
@@ -20340,7 +20340,7 @@
       "jd_previous_sunset": 2458201.0323,
       "jd_sunrise": 2458201.5306,
       "jd_sunset": 2458202.0324,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458201.2708,
       "lunar_month_sunrise": 1,
       "shraaddha_tithi": [
@@ -20633,7 +20633,7 @@
       "jd_previous_sunset": 2458202.0324,
       "jd_sunrise": 2458202.5302,
       "jd_sunset": 2458203.0324,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458202.2708,
       "lunar_month_sunrise": 1,
       "shraaddha_tithi": [
@@ -20843,7 +20843,7 @@
       "jd_previous_sunset": 2458203.0324,
       "jd_sunrise": 2458203.5297,
       "jd_sunset": 2458204.0325,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458203.2708,
       "lunar_month_sunrise": 1,
       "shraaddha_tithi": [
@@ -21070,7 +21070,7 @@
       "jd_previous_sunset": 2458204.0325,
       "jd_sunrise": 2458204.5292,
       "jd_sunset": 2458205.0325,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458204.2708,
       "lunar_month_sunrise": 1,
       "shraaddha_tithi": [
@@ -21320,7 +21320,7 @@
       "jd_previous_sunset": 2458205.0325,
       "jd_sunrise": 2458205.5288,
       "jd_sunset": 2458206.0325,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458205.2708,
       "lunar_month_sunrise": 1,
       "shraaddha_tithi": [
@@ -21652,7 +21652,7 @@
       "jd_previous_sunset": 2458206.0325,
       "jd_sunrise": 2458206.5283,
       "jd_sunset": 2458207.0326,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458206.2708,
       "lunar_month_sunrise": 1,
       "shraaddha_tithi": [
@@ -21986,7 +21986,7 @@
       "jd_previous_sunset": 2458207.0326,
       "jd_sunrise": 2458207.5279,
       "jd_sunset": 2458208.0326,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458207.2708,
       "lunar_month_sunrise": 1,
       "shraaddha_tithi": [
@@ -22351,7 +22351,7 @@
       "jd_previous_sunset": 2458208.0326,
       "jd_sunrise": 2458208.5274,
       "jd_sunset": 2458209.0327,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458208.2708,
       "lunar_month_sunrise": 1,
       "shraaddha_tithi": [
@@ -22537,7 +22537,7 @@
       "jd_previous_sunset": 2458209.0327,
       "jd_sunrise": 2458209.5269,
       "jd_sunset": 2458210.0327,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458209.2708,
       "lunar_month_sunrise": 1,
       "shraaddha_tithi": [
@@ -22749,7 +22749,7 @@
       "jd_previous_sunset": 2458210.0327,
       "jd_sunrise": 2458210.5265,
       "jd_sunset": 2458211.0328,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458210.2708,
       "lunar_month_sunrise": 1,
       "shraaddha_tithi": [
@@ -22925,7 +22925,7 @@
       "jd_previous_sunset": 2458211.0328,
       "jd_sunrise": 2458211.526,
       "jd_sunset": 2458212.0328,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458211.2708,
       "lunar_month_sunrise": 1,
       "shraaddha_tithi": [
@@ -23118,7 +23118,7 @@
       "jd_previous_sunset": 2458212.0328,
       "jd_sunrise": 2458212.5256,
       "jd_sunset": 2458213.0328,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458212.2708,
       "lunar_month_sunrise": 1,
       "shraaddha_tithi": [
@@ -23388,7 +23388,7 @@
       "jd_previous_sunset": 2458213.0328,
       "jd_sunrise": 2458213.5251,
       "jd_sunset": 2458214.0329,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458213.2708,
       "lunar_month_sunrise": 1,
       "shraaddha_tithi": [
@@ -23559,7 +23559,7 @@
       "jd_previous_sunset": 2458214.0329,
       "jd_sunrise": 2458214.5247,
       "jd_sunset": 2458215.0329,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458214.2708,
       "lunar_month_sunrise": 1,
       "shraaddha_tithi": [
@@ -23731,7 +23731,7 @@
       "jd_previous_sunset": 2458215.0329,
       "jd_sunrise": 2458215.5242,
       "jd_sunset": 2458216.033,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458215.2708,
       "lunar_month_sunrise": 1,
       "shraaddha_tithi": [
@@ -23916,7 +23916,7 @@
       "jd_previous_sunset": 2458216.033,
       "jd_sunrise": 2458216.5238,
       "jd_sunset": 2458217.033,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458216.2708,
       "lunar_month_sunrise": 1,
       "shraaddha_tithi": [
@@ -24088,7 +24088,7 @@
       "jd_previous_sunset": 2458217.033,
       "jd_sunrise": 2458217.5233,
       "jd_sunset": 2458218.0331,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458217.2708,
       "lunar_month_sunrise": 1,
       "shraaddha_tithi": [
@@ -24372,7 +24372,7 @@
       "jd_previous_sunset": 2458218.0331,
       "jd_sunrise": 2458218.5229,
       "jd_sunset": 2458219.0332,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458218.2708,
       "lunar_month_sunrise": 1,
       "shraaddha_tithi": [
@@ -24537,7 +24537,7 @@
       "jd_previous_sunset": 2458219.0332,
       "jd_sunrise": 2458219.5225,
       "jd_sunset": 2458220.0332,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458219.2708,
       "lunar_month_sunrise": 1,
       "shraaddha_tithi": [
@@ -24765,7 +24765,7 @@
       "jd_previous_sunset": 2458220.0332,
       "jd_sunrise": 2458220.5221,
       "jd_sunset": 2458221.0333,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458220.2708,
       "lunar_month_sunrise": 1,
       "shraaddha_tithi": [
@@ -25068,7 +25068,7 @@
       "jd_previous_sunset": 2458221.0333,
       "jd_sunrise": 2458221.5216,
       "jd_sunset": 2458222.0333,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458221.2708,
       "lunar_month_sunrise": 1,
       "shraaddha_tithi": [
@@ -25357,7 +25357,7 @@
       "jd_previous_sunset": 2458222.0333,
       "jd_sunrise": 2458222.5212,
       "jd_sunset": 2458223.0334,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458222.2708,
       "lunar_month_sunrise": 1,
       "shraaddha_tithi": [
@@ -25693,7 +25693,7 @@
       "jd_previous_sunset": 2458223.0334,
       "jd_sunrise": 2458223.5208,
       "jd_sunset": 2458224.0335,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458223.2708,
       "lunar_month_sunrise": 1,
       "shraaddha_tithi": [
@@ -25931,7 +25931,7 @@
       "jd_previous_sunset": 2458224.0335,
       "jd_sunrise": 2458224.5204,
       "jd_sunset": 2458225.0336,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458224.2708,
       "lunar_month_sunrise": 1,
       "shraaddha_tithi": [
@@ -26131,7 +26131,7 @@
       "jd_previous_sunset": 2458225.0336,
       "jd_sunrise": 2458225.52,
       "jd_sunset": 2458226.0336,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458225.2708,
       "lunar_month_sunrise": 2,
       "shraaddha_tithi": [
@@ -26491,7 +26491,7 @@
       "jd_previous_sunset": 2458226.0336,
       "jd_sunrise": 2458226.5196,
       "jd_sunset": 2458227.0337,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458226.2708,
       "lunar_month_sunrise": 2,
       "shraaddha_tithi": [
@@ -26703,7 +26703,7 @@
       "jd_previous_sunset": 2458227.0337,
       "jd_sunrise": 2458227.5192,
       "jd_sunset": 2458228.0338,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458227.2708,
       "lunar_month_sunrise": 2,
       "shraaddha_tithi": [
@@ -26927,7 +26927,7 @@
       "jd_previous_sunset": 2458228.0338,
       "jd_sunrise": 2458228.5189,
       "jd_sunset": 2458229.0339,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458228.2708,
       "lunar_month_sunrise": 2,
       "shraaddha_tithi": [
@@ -27214,7 +27214,7 @@
       "jd_previous_sunset": 2458229.0339,
       "jd_sunrise": 2458229.5185,
       "jd_sunset": 2458230.034,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458229.2708,
       "lunar_month_sunrise": 2,
       "shraaddha_tithi": [
@@ -27495,7 +27495,7 @@
       "jd_previous_sunset": 2458230.034,
       "jd_sunrise": 2458230.5181,
       "jd_sunset": 2458231.0341,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458230.2708,
       "lunar_month_sunrise": 2,
       "shraaddha_tithi": [
@@ -27681,7 +27681,7 @@
       "jd_previous_sunset": 2458231.0341,
       "jd_sunrise": 2458231.5178,
       "jd_sunset": 2458232.0341,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458231.2708,
       "lunar_month_sunrise": 2,
       "shraaddha_tithi": [
@@ -27934,7 +27934,7 @@
       "jd_previous_sunset": 2458232.0341,
       "jd_sunrise": 2458232.5174,
       "jd_sunset": 2458233.0342,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458232.2708,
       "lunar_month_sunrise": 2,
       "shraaddha_tithi": [
@@ -28146,7 +28146,7 @@
       "jd_previous_sunset": 2458233.0342,
       "jd_sunrise": 2458233.5171,
       "jd_sunset": 2458234.0343,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458233.2708,
       "lunar_month_sunrise": 2,
       "shraaddha_tithi": [
@@ -28368,7 +28368,7 @@
       "jd_previous_sunset": 2458234.0343,
       "jd_sunrise": 2458234.5167,
       "jd_sunset": 2458235.0345,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458234.2708,
       "lunar_month_sunrise": 2,
       "shraaddha_tithi": [
@@ -28711,7 +28711,7 @@
       "jd_previous_sunset": 2458235.0345,
       "jd_sunrise": 2458235.5164,
       "jd_sunset": 2458236.0346,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458235.2708,
       "lunar_month_sunrise": 2,
       "shraaddha_tithi": [
@@ -28909,7 +28909,7 @@
       "jd_previous_sunset": 2458236.0346,
       "jd_sunrise": 2458236.5161,
       "jd_sunset": 2458237.0347,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458236.2708,
       "lunar_month_sunrise": 2,
       "shraaddha_tithi": [
@@ -29218,7 +29218,7 @@
       "jd_previous_sunset": 2458237.0347,
       "jd_sunrise": 2458237.5157,
       "jd_sunset": 2458238.0348,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458237.2708,
       "lunar_month_sunrise": 2,
       "shraaddha_tithi": [
@@ -29681,7 +29681,7 @@
       "jd_previous_sunset": 2458238.0348,
       "jd_sunrise": 2458238.5154,
       "jd_sunset": 2458239.0349,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458238.2708,
       "lunar_month_sunrise": 2,
       "shraaddha_tithi": [
@@ -29852,7 +29852,7 @@
       "jd_previous_sunset": 2458239.0349,
       "jd_sunrise": 2458239.5151,
       "jd_sunset": 2458240.035,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458239.2708,
       "lunar_month_sunrise": 2,
       "shraaddha_tithi": [
@@ -30058,7 +30058,7 @@
       "jd_previous_sunset": 2458240.035,
       "jd_sunrise": 2458240.5148,
       "jd_sunset": 2458241.0352,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458240.2708,
       "lunar_month_sunrise": 2,
       "shraaddha_tithi": [
@@ -30248,7 +30248,7 @@
       "jd_previous_sunset": 2458241.0352,
       "jd_sunrise": 2458241.5146,
       "jd_sunset": 2458242.0353,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458241.2708,
       "lunar_month_sunrise": 2,
       "shraaddha_tithi": [
@@ -30447,7 +30447,7 @@
       "jd_previous_sunset": 2458242.0353,
       "jd_sunrise": 2458242.5143,
       "jd_sunset": 2458243.0354,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458242.2708,
       "lunar_month_sunrise": 2,
       "shraaddha_tithi": [
@@ -30645,7 +30645,7 @@
       "jd_previous_sunset": 2458243.0354,
       "jd_sunrise": 2458243.514,
       "jd_sunset": 2458244.0356,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458243.2708,
       "lunar_month_sunrise": 2,
       "shraaddha_tithi": [
@@ -30816,7 +30816,7 @@
       "jd_previous_sunset": 2458244.0356,
       "jd_sunrise": 2458244.5138,
       "jd_sunset": 2458245.0357,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458244.2708,
       "lunar_month_sunrise": 2,
       "shraaddha_tithi": [
@@ -31119,7 +31119,7 @@
       "jd_previous_sunset": 2458245.0357,
       "jd_sunrise": 2458245.5135,
       "jd_sunset": 2458246.0359,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458245.2708,
       "lunar_month_sunrise": 2,
       "shraaddha_tithi": [
@@ -31284,7 +31284,7 @@
       "jd_previous_sunset": 2458246.0359,
       "jd_sunrise": 2458246.5133,
       "jd_sunset": 2458247.036,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458246.2708,
       "lunar_month_sunrise": 2,
       "shraaddha_tithi": [
@@ -31470,7 +31470,7 @@
       "jd_previous_sunset": 2458247.036,
       "jd_sunrise": 2458247.513,
       "jd_sunset": 2458248.0362,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458247.2708,
       "lunar_month_sunrise": 2,
       "shraaddha_tithi": [
@@ -31766,7 +31766,7 @@
       "jd_previous_sunset": 2458248.0362,
       "jd_sunrise": 2458248.5128,
       "jd_sunset": 2458249.0363,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458248.2708,
       "lunar_month_sunrise": 2,
       "shraaddha_tithi": [
@@ -31964,7 +31964,7 @@
       "jd_previous_sunset": 2458249.0363,
       "jd_sunrise": 2458249.5126,
       "jd_sunset": 2458250.0365,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458249.2708,
       "lunar_month_sunrise": 2,
       "shraaddha_tithi": [
@@ -32146,7 +32146,7 @@
       "jd_previous_sunset": 2458250.0365,
       "jd_sunrise": 2458250.5124,
       "jd_sunset": 2458251.0367,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458250.2708,
       "lunar_month_sunrise": 2,
       "shraaddha_tithi": [
@@ -32539,7 +32539,7 @@
       "jd_previous_sunset": 2458251.0367,
       "jd_sunrise": 2458251.5122,
       "jd_sunset": 2458252.0368,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458251.2708,
       "lunar_month_sunrise": 2,
       "shraaddha_tithi": [
@@ -32725,7 +32725,7 @@
       "jd_previous_sunset": 2458252.0368,
       "jd_sunrise": 2458252.512,
       "jd_sunset": 2458253.037,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458252.2708,
       "lunar_month_sunrise": 2,
       "shraaddha_tithi": [
@@ -33097,7 +33097,7 @@
       "jd_previous_sunset": 2458253.037,
       "jd_sunrise": 2458253.5119,
       "jd_sunset": 2458254.0372,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458253.2708,
       "lunar_month_sunrise": 2,
       "shraaddha_tithi": [
@@ -33293,7 +33293,7 @@
       "jd_previous_sunset": 2458254.0372,
       "jd_sunrise": 2458254.5117,
       "jd_sunset": 2458255.0374,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458254.2708,
       "lunar_month_sunrise": 2.5,
       "shraaddha_tithi": [
@@ -33464,7 +33464,7 @@
       "jd_previous_sunset": 2458255.0374,
       "jd_sunrise": 2458255.5116,
       "jd_sunset": 2458256.0376,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458255.2708,
       "lunar_month_sunrise": 2.5,
       "shraaddha_tithi": [
@@ -33641,7 +33641,7 @@
       "jd_previous_sunset": 2458256.0376,
       "jd_sunrise": 2458256.5114,
       "jd_sunset": 2458257.0377,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458256.2708,
       "lunar_month_sunrise": 2.5,
       "shraaddha_tithi": [
@@ -33822,7 +33822,7 @@
       "jd_previous_sunset": 2458257.0377,
       "jd_sunrise": 2458257.5113,
       "jd_sunset": 2458258.0379,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458257.2708,
       "lunar_month_sunrise": 2.5,
       "shraaddha_tithi": [
@@ -34097,7 +34097,7 @@
       "jd_previous_sunset": 2458258.0379,
       "jd_sunrise": 2458258.5112,
       "jd_sunset": 2458259.0381,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458258.2708,
       "lunar_month_sunrise": 2.5,
       "shraaddha_tithi": [
@@ -34282,7 +34282,7 @@
       "jd_previous_sunset": 2458259.0381,
       "jd_sunrise": 2458259.5111,
       "jd_sunset": 2458260.0383,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458259.2708,
       "lunar_month_sunrise": 2.5,
       "shraaddha_tithi": [
@@ -34473,7 +34473,7 @@
       "jd_previous_sunset": 2458260.0383,
       "jd_sunrise": 2458260.511,
       "jd_sunset": 2458261.0385,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458260.2708,
       "lunar_month_sunrise": 2.5,
       "shraaddha_tithi": [
@@ -34644,7 +34644,7 @@
       "jd_previous_sunset": 2458261.0385,
       "jd_sunrise": 2458261.5109,
       "jd_sunset": 2458262.0387,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458261.2708,
       "lunar_month_sunrise": 2.5,
       "shraaddha_tithi": [
@@ -34816,7 +34816,7 @@
       "jd_previous_sunset": 2458262.0387,
       "jd_sunrise": 2458262.5108,
       "jd_sunset": 2458263.0389,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458262.2708,
       "lunar_month_sunrise": 2.5,
       "shraaddha_tithi": [
@@ -35023,7 +35023,7 @@
       "jd_previous_sunset": 2458263.0389,
       "jd_sunrise": 2458263.5107,
       "jd_sunset": 2458264.0391,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458263.2708,
       "lunar_month_sunrise": 2.5,
       "shraaddha_tithi": [
@@ -35317,7 +35317,7 @@
       "jd_previous_sunset": 2458264.0391,
       "jd_sunrise": 2458264.5106,
       "jd_sunset": 2458265.0393,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458264.2708,
       "lunar_month_sunrise": 2.5,
       "shraaddha_tithi": [
@@ -35484,7 +35484,7 @@
       "jd_previous_sunset": 2458265.0393,
       "jd_sunrise": 2458265.5106,
       "jd_sunset": 2458266.0395,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458265.2708,
       "lunar_month_sunrise": 2.5,
       "shraaddha_tithi": [
@@ -35682,7 +35682,7 @@
       "jd_previous_sunset": 2458266.0395,
       "jd_sunrise": 2458266.5106,
       "jd_sunset": 2458267.0397,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458266.2708,
       "lunar_month_sunrise": 2.5,
       "shraaddha_tithi": [
@@ -36075,7 +36075,7 @@
       "jd_previous_sunset": 2458267.0397,
       "jd_sunrise": 2458267.5105,
       "jd_sunset": 2458268.0399,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458267.2708,
       "lunar_month_sunrise": 2.5,
       "shraaddha_tithi": [
@@ -36246,7 +36246,7 @@
       "jd_previous_sunset": 2458268.0399,
       "jd_sunrise": 2458268.5105,
       "jd_sunset": 2458269.0401,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458268.2708,
       "lunar_month_sunrise": 2.5,
       "shraaddha_tithi": [
@@ -36484,7 +36484,7 @@
       "jd_previous_sunset": 2458269.0401,
       "jd_sunrise": 2458269.5105,
       "jd_sunset": 2458270.0404,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458269.2708,
       "lunar_month_sunrise": 2.5,
       "shraaddha_tithi": [
@@ -36654,7 +36654,7 @@
       "jd_previous_sunset": 2458270.0404,
       "jd_sunrise": 2458270.5105,
       "jd_sunset": 2458271.0406,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458270.2708,
       "lunar_month_sunrise": 2.5,
       "shraaddha_tithi": [
@@ -36836,7 +36836,7 @@
       "jd_previous_sunset": 2458271.0406,
       "jd_sunrise": 2458271.5105,
       "jd_sunset": 2458272.0408,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458271.2708,
       "lunar_month_sunrise": 2.5,
       "shraaddha_tithi": [
@@ -37008,7 +37008,7 @@
       "jd_previous_sunset": 2458272.0408,
       "jd_sunrise": 2458272.5105,
       "jd_sunset": 2458273.041,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458272.2708,
       "lunar_month_sunrise": 2.5,
       "shraaddha_tithi": [
@@ -37291,7 +37291,7 @@
       "jd_previous_sunset": 2458273.041,
       "jd_sunrise": 2458273.5105,
       "jd_sunset": 2458274.0412,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458273.2708,
       "lunar_month_sunrise": 2.5,
       "shraaddha_tithi": [
@@ -37575,7 +37575,7 @@
       "jd_previous_sunset": 2458274.0412,
       "jd_sunrise": 2458274.5106,
       "jd_sunset": 2458275.0414,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458274.2708,
       "lunar_month_sunrise": 2.5,
       "shraaddha_tithi": [
@@ -37746,7 +37746,7 @@
       "jd_previous_sunset": 2458275.0414,
       "jd_sunrise": 2458275.5106,
       "jd_sunset": 2458276.0416,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458275.2708,
       "lunar_month_sunrise": 2.5,
       "shraaddha_tithi": [
@@ -37917,7 +37917,7 @@
       "jd_previous_sunset": 2458276.0416,
       "jd_sunrise": 2458276.5106,
       "jd_sunset": 2458277.0418,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458276.2708,
       "lunar_month_sunrise": 2.5,
       "shraaddha_tithi": [
@@ -38089,7 +38089,7 @@
       "jd_previous_sunset": 2458277.0418,
       "jd_sunrise": 2458277.5107,
       "jd_sunset": 2458278.042,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458277.2708,
       "lunar_month_sunrise": 2.5,
       "shraaddha_tithi": [
@@ -38260,7 +38260,7 @@
       "jd_previous_sunset": 2458278.042,
       "jd_sunrise": 2458278.5108,
       "jd_sunset": 2458279.0422,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458278.2708,
       "lunar_month_sunrise": 2.5,
       "shraaddha_tithi": [
@@ -38455,7 +38455,7 @@
       "jd_previous_sunset": 2458279.0422,
       "jd_sunrise": 2458279.5108,
       "jd_sunset": 2458280.0424,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458279.2708,
       "lunar_month_sunrise": 2.5,
       "shraaddha_tithi": [
@@ -38703,7 +38703,7 @@
       "jd_previous_sunset": 2458280.0424,
       "jd_sunrise": 2458280.5109,
       "jd_sunset": 2458281.0426,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458280.2708,
       "lunar_month_sunrise": 2.5,
       "shraaddha_tithi": [
@@ -39078,7 +39078,7 @@
       "jd_previous_sunset": 2458281.0426,
       "jd_sunrise": 2458281.511,
       "jd_sunset": 2458282.0428,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458281.2708,
       "lunar_month_sunrise": 2.5,
       "shraaddha_tithi": [
@@ -39288,7 +39288,7 @@
       "jd_previous_sunset": 2458282.0428,
       "jd_sunrise": 2458282.5111,
       "jd_sunset": 2458283.043,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458282.2708,
       "lunar_month_sunrise": 2.5,
       "shraaddha_tithi": [
@@ -39520,7 +39520,7 @@
       "jd_previous_sunset": 2458283.043,
       "jd_sunrise": 2458283.5112,
       "jd_sunset": 2458284.0432,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458283.2708,
       "lunar_month_sunrise": 3,
       "shraaddha_tithi": [
@@ -39738,7 +39738,7 @@
       "jd_previous_sunset": 2458284.0432,
       "jd_sunrise": 2458284.5113,
       "jd_sunset": 2458285.0433,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458284.2708,
       "lunar_month_sunrise": 3,
       "shraaddha_tithi": [
@@ -39945,7 +39945,7 @@
       "jd_previous_sunset": 2458285.0433,
       "jd_sunrise": 2458285.5114,
       "jd_sunset": 2458286.0435,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458285.2708,
       "lunar_month_sunrise": 3,
       "shraaddha_tithi": [
@@ -40205,7 +40205,7 @@
       "jd_previous_sunset": 2458286.0435,
       "jd_sunrise": 2458286.5116,
       "jd_sunset": 2458287.0437,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458286.2708,
       "lunar_month_sunrise": 3,
       "shraaddha_tithi": [
@@ -40521,7 +40521,7 @@
       "jd_previous_sunset": 2458287.0437,
       "jd_sunrise": 2458287.5117,
       "jd_sunset": 2458288.0439,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458287.2708,
       "lunar_month_sunrise": 3,
       "shraaddha_tithi": [
@@ -40786,7 +40786,7 @@
       "jd_previous_sunset": 2458288.0439,
       "jd_sunrise": 2458288.5118,
       "jd_sunset": 2458289.044,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458288.2708,
       "lunar_month_sunrise": 3,
       "shraaddha_tithi": [
@@ -41165,7 +41165,7 @@
       "jd_previous_sunset": 2458289.044,
       "jd_sunrise": 2458289.512,
       "jd_sunset": 2458290.0442,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458289.2708,
       "lunar_month_sunrise": 3,
       "shraaddha_tithi": [
@@ -41405,7 +41405,7 @@
       "jd_previous_sunset": 2458290.0442,
       "jd_sunrise": 2458290.5121,
       "jd_sunset": 2458291.0443,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458290.2708,
       "lunar_month_sunrise": 3,
       "shraaddha_tithi": [
@@ -41629,7 +41629,7 @@
       "jd_previous_sunset": 2458291.0443,
       "jd_sunrise": 2458291.5123,
       "jd_sunset": 2458292.0445,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458291.2708,
       "lunar_month_sunrise": 3,
       "shraaddha_tithi": [
@@ -41828,7 +41828,7 @@
       "jd_previous_sunset": 2458292.0445,
       "jd_sunrise": 2458292.5124,
       "jd_sunset": 2458293.0446,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458292.2708,
       "lunar_month_sunrise": 3,
       "shraaddha_tithi": [
@@ -42076,7 +42076,7 @@
       "jd_previous_sunset": 2458293.0446,
       "jd_sunrise": 2458293.5126,
       "jd_sunset": 2458294.0448,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458293.2708,
       "lunar_month_sunrise": 3,
       "shraaddha_tithi": [
@@ -42344,7 +42344,7 @@
       "jd_previous_sunset": 2458294.0448,
       "jd_sunrise": 2458294.5128,
       "jd_sunset": 2458295.0449,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458294.2708,
       "lunar_month_sunrise": 3,
       "shraaddha_tithi": [
@@ -42539,7 +42539,7 @@
       "jd_previous_sunset": 2458295.0449,
       "jd_sunrise": 2458295.5129,
       "jd_sunset": 2458296.045,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458295.2708,
       "lunar_month_sunrise": 3,
       "shraaddha_tithi": [
@@ -42864,7 +42864,7 @@
       "jd_previous_sunset": 2458296.045,
       "jd_sunrise": 2458296.5131,
       "jd_sunset": 2458297.0451,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458296.2708,
       "lunar_month_sunrise": 3,
       "shraaddha_tithi": [
@@ -43199,7 +43199,7 @@
       "jd_previous_sunset": 2458297.0451,
       "jd_sunrise": 2458297.5133,
       "jd_sunset": 2458298.0452,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458297.2708,
       "lunar_month_sunrise": 3,
       "shraaddha_tithi": [
@@ -43370,7 +43370,7 @@
       "jd_previous_sunset": 2458298.0452,
       "jd_sunrise": 2458298.5135,
       "jd_sunset": 2458299.0453,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458298.2708,
       "lunar_month_sunrise": 3,
       "shraaddha_tithi": [
@@ -43654,7 +43654,7 @@
       "jd_previous_sunset": 2458299.0453,
       "jd_sunrise": 2458299.5136,
       "jd_sunset": 2458300.0454,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458299.2708,
       "lunar_month_sunrise": 3,
       "shraaddha_tithi": [
@@ -43928,7 +43928,7 @@
       "jd_previous_sunset": 2458300.0454,
       "jd_sunrise": 2458300.5138,
       "jd_sunset": 2458301.0455,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458300.2708,
       "lunar_month_sunrise": 3,
       "shraaddha_tithi": [
@@ -44094,7 +44094,7 @@
       "jd_previous_sunset": 2458301.0455,
       "jd_sunrise": 2458301.514,
       "jd_sunset": 2458302.0456,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458301.2708,
       "lunar_month_sunrise": 3,
       "shraaddha_tithi": [
@@ -44265,7 +44265,7 @@
       "jd_previous_sunset": 2458302.0456,
       "jd_sunrise": 2458302.5142,
       "jd_sunset": 2458303.0457,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458302.2708,
       "lunar_month_sunrise": 3,
       "shraaddha_tithi": [
@@ -44436,7 +44436,7 @@
       "jd_previous_sunset": 2458303.0457,
       "jd_sunrise": 2458303.5144,
       "jd_sunset": 2458304.0457,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458303.2708,
       "lunar_month_sunrise": 3,
       "shraaddha_tithi": [
@@ -44608,7 +44608,7 @@
       "jd_previous_sunset": 2458304.0457,
       "jd_sunrise": 2458304.5146,
       "jd_sunset": 2458305.0458,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458304.2708,
       "lunar_month_sunrise": 3,
       "shraaddha_tithi": [
@@ -44864,7 +44864,7 @@
       "jd_previous_sunset": 2458305.0458,
       "jd_sunrise": 2458305.5148,
       "jd_sunset": 2458306.0458,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458305.2708,
       "lunar_month_sunrise": 3,
       "shraaddha_tithi": [
@@ -45049,7 +45049,7 @@
       "jd_previous_sunset": 2458306.0458,
       "jd_sunrise": 2458306.515,
       "jd_sunset": 2458307.0458,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458306.2708,
       "lunar_month_sunrise": 3,
       "shraaddha_tithi": [
@@ -45226,7 +45226,7 @@
       "jd_previous_sunset": 2458307.0458,
       "jd_sunrise": 2458307.5152,
       "jd_sunset": 2458308.0459,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458307.2708,
       "lunar_month_sunrise": 3,
       "shraaddha_tithi": [
@@ -45508,7 +45508,7 @@
       "jd_previous_sunset": 2458308.0459,
       "jd_sunrise": 2458308.5153,
       "jd_sunset": 2458309.0459,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458308.2708,
       "lunar_month_sunrise": 3,
       "shraaddha_tithi": [
@@ -45839,7 +45839,7 @@
       "jd_previous_sunset": 2458309.0459,
       "jd_sunrise": 2458309.5155,
       "jd_sunset": 2458310.0459,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458309.2708,
       "lunar_month_sunrise": 3,
       "shraaddha_tithi": [
@@ -46106,7 +46106,7 @@
       "jd_previous_sunset": 2458310.0459,
       "jd_sunrise": 2458310.5157,
       "jd_sunset": 2458311.0459,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458310.2708,
       "lunar_month_sunrise": 3,
       "shraaddha_tithi": [
@@ -46293,7 +46293,7 @@
       "jd_previous_sunset": 2458311.0459,
       "jd_sunrise": 2458311.5159,
       "jd_sunset": 2458312.0459,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458311.2708,
       "lunar_month_sunrise": 3,
       "shraaddha_tithi": [
@@ -46504,7 +46504,7 @@
       "jd_previous_sunset": 2458312.0459,
       "jd_sunrise": 2458312.5161,
       "jd_sunset": 2458313.0458,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458312.2708,
       "lunar_month_sunrise": 3,
       "shraaddha_tithi": [
@@ -46723,7 +46723,7 @@
       "jd_previous_sunset": 2458313.0458,
       "jd_sunrise": 2458313.5163,
       "jd_sunset": 2458314.0458,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458313.2708,
       "lunar_month_sunrise": 4,
       "shraaddha_tithi": [
@@ -46915,7 +46915,7 @@
       "jd_previous_sunset": 2458314.0458,
       "jd_sunrise": 2458314.5165,
       "jd_sunset": 2458315.0458,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458314.2708,
       "lunar_month_sunrise": 4,
       "shraaddha_tithi": [
@@ -47198,7 +47198,7 @@
       "jd_previous_sunset": 2458315.0458,
       "jd_sunrise": 2458315.5167,
       "jd_sunset": 2458316.0457,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458315.2708,
       "lunar_month_sunrise": 4,
       "shraaddha_tithi": [
@@ -47447,7 +47447,7 @@
       "jd_previous_sunset": 2458316.0457,
       "jd_sunrise": 2458316.5169,
       "jd_sunset": 2458317.0456,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458316.2708,
       "lunar_month_sunrise": 4,
       "shraaddha_tithi": [
@@ -47659,7 +47659,7 @@
       "jd_previous_sunset": 2458317.0456,
       "jd_sunrise": 2458317.5171,
       "jd_sunset": 2458318.0456,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458317.2708,
       "lunar_month_sunrise": 4,
       "shraaddha_tithi": [
@@ -47877,7 +47877,7 @@
       "jd_previous_sunset": 2458318.0456,
       "jd_sunrise": 2458318.5173,
       "jd_sunset": 2458319.0455,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458318.2708,
       "lunar_month_sunrise": 4,
       "shraaddha_tithi": [
@@ -48110,7 +48110,7 @@
       "jd_previous_sunset": 2458319.0455,
       "jd_sunrise": 2458319.5174,
       "jd_sunset": 2458320.0454,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458319.2708,
       "lunar_month_sunrise": 4,
       "shraaddha_tithi": [
@@ -48373,7 +48373,7 @@
       "jd_previous_sunset": 2458320.0454,
       "jd_sunrise": 2458320.5176,
       "jd_sunset": 2458321.0453,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458320.2708,
       "lunar_month_sunrise": 4,
       "shraaddha_tithi": [
@@ -48572,7 +48572,7 @@
       "jd_previous_sunset": 2458321.0453,
       "jd_sunrise": 2458321.5178,
       "jd_sunset": 2458322.0452,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458321.2708,
       "lunar_month_sunrise": 4,
       "shraaddha_tithi": [
@@ -48792,7 +48792,7 @@
       "jd_previous_sunset": 2458322.0452,
       "jd_sunrise": 2458322.518,
       "jd_sunset": 2458323.045,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458322.2708,
       "lunar_month_sunrise": 4,
       "shraaddha_tithi": [
@@ -49042,7 +49042,7 @@
       "jd_previous_sunset": 2458323.045,
       "jd_sunrise": 2458323.5181,
       "jd_sunset": 2458324.0449,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458323.2708,
       "lunar_month_sunrise": 4,
       "shraaddha_tithi": [
@@ -49439,7 +49439,7 @@
       "jd_previous_sunset": 2458324.0449,
       "jd_sunrise": 2458324.5183,
       "jd_sunset": 2458325.0447,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458324.2708,
       "lunar_month_sunrise": 4,
       "shraaddha_tithi": [
@@ -49624,7 +49624,7 @@
       "jd_previous_sunset": 2458325.0447,
       "jd_sunrise": 2458325.5185,
       "jd_sunset": 2458326.0446,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458325.2708,
       "lunar_month_sunrise": 4,
       "shraaddha_tithi": [
@@ -50126,7 +50126,7 @@
       "jd_previous_sunset": 2458326.0446,
       "jd_sunrise": 2458326.5186,
       "jd_sunset": 2458327.0444,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458326.2708,
       "lunar_month_sunrise": 4,
       "shraaddha_tithi": [
@@ -50408,7 +50408,7 @@
       "jd_previous_sunset": 2458327.0444,
       "jd_sunrise": 2458327.5188,
       "jd_sunset": 2458328.0442,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458327.2708,
       "lunar_month_sunrise": 4,
       "shraaddha_tithi": [
@@ -50619,7 +50619,7 @@
       "jd_previous_sunset": 2458328.0442,
       "jd_sunrise": 2458328.5189,
       "jd_sunset": 2458329.044,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458328.2708,
       "lunar_month_sunrise": 4,
       "shraaddha_tithi": [
@@ -50784,7 +50784,7 @@
       "jd_previous_sunset": 2458329.044,
       "jd_sunrise": 2458329.5191,
       "jd_sunset": 2458330.0438,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458329.2708,
       "lunar_month_sunrise": 4,
       "shraaddha_tithi": [
@@ -50961,7 +50961,7 @@
       "jd_previous_sunset": 2458330.0438,
       "jd_sunrise": 2458330.5192,
       "jd_sunset": 2458331.0436,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458330.2708,
       "lunar_month_sunrise": 4,
       "shraaddha_tithi": [
@@ -51133,7 +51133,7 @@
       "jd_previous_sunset": 2458331.0436,
       "jd_sunrise": 2458331.5194,
       "jd_sunset": 2458332.0434,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458331.2708,
       "lunar_month_sunrise": 4,
       "shraaddha_tithi": [
@@ -51304,7 +51304,7 @@
       "jd_previous_sunset": 2458332.0434,
       "jd_sunrise": 2458332.5195,
       "jd_sunset": 2458333.0432,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458332.2708,
       "lunar_month_sunrise": 4,
       "shraaddha_tithi": [
@@ -51543,7 +51543,7 @@
       "jd_previous_sunset": 2458333.0432,
       "jd_sunrise": 2458333.5196,
       "jd_sunset": 2458334.0429,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458333.2708,
       "lunar_month_sunrise": 4,
       "shraaddha_tithi": [
@@ -51729,7 +51729,7 @@
       "jd_previous_sunset": 2458334.0429,
       "jd_sunrise": 2458334.5198,
       "jd_sunset": 2458335.0427,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458334.2708,
       "lunar_month_sunrise": 4,
       "shraaddha_tithi": [
@@ -51998,7 +51998,7 @@
       "jd_previous_sunset": 2458335.0427,
       "jd_sunrise": 2458335.5199,
       "jd_sunset": 2458336.0424,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458335.2708,
       "lunar_month_sunrise": 4,
       "shraaddha_tithi": [
@@ -52210,7 +52210,7 @@
       "jd_previous_sunset": 2458336.0424,
       "jd_sunrise": 2458336.52,
       "jd_sunset": 2458337.0422,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458336.2708,
       "lunar_month_sunrise": 4,
       "shraaddha_tithi": [
@@ -52432,7 +52432,7 @@
       "jd_previous_sunset": 2458337.0422,
       "jd_sunrise": 2458337.5201,
       "jd_sunset": 2458338.0419,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458337.2708,
       "lunar_month_sunrise": 4,
       "shraaddha_tithi": [
@@ -52679,7 +52679,7 @@
       "jd_previous_sunset": 2458338.0419,
       "jd_sunrise": 2458338.5202,
       "jd_sunset": 2458339.0416,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458338.2708,
       "lunar_month_sunrise": 4,
       "shraaddha_tithi": [
@@ -53083,7 +53083,7 @@
       "jd_previous_sunset": 2458339.0416,
       "jd_sunrise": 2458339.5203,
       "jd_sunset": 2458340.0413,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458339.2708,
       "lunar_month_sunrise": 4,
       "shraaddha_tithi": [
@@ -53409,7 +53409,7 @@
       "jd_previous_sunset": 2458340.0413,
       "jd_sunrise": 2458340.5204,
       "jd_sunset": 2458341.041,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458340.2708,
       "lunar_month_sunrise": 4,
       "shraaddha_tithi": [
@@ -53701,7 +53701,7 @@
       "jd_previous_sunset": 2458341.041,
       "jd_sunrise": 2458341.5205,
       "jd_sunset": 2458342.0407,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458341.2708,
       "lunar_month_sunrise": 4,
       "shraaddha_tithi": [
@@ -53904,7 +53904,7 @@
       "jd_previous_sunset": 2458342.0407,
       "jd_sunrise": 2458342.5206,
       "jd_sunset": 2458343.0404,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458342.2708,
       "lunar_month_sunrise": 5,
       "shraaddha_tithi": [
@@ -54203,7 +54203,7 @@
       "jd_previous_sunset": 2458343.0404,
       "jd_sunrise": 2458343.5207,
       "jd_sunset": 2458344.04,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458343.2708,
       "lunar_month_sunrise": 5,
       "shraaddha_tithi": [
@@ -54443,7 +54443,7 @@
       "jd_previous_sunset": 2458344.04,
       "jd_sunrise": 2458344.5208,
       "jd_sunset": 2458345.0397,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458344.2708,
       "lunar_month_sunrise": 5,
       "shraaddha_tithi": [
@@ -54665,7 +54665,7 @@
       "jd_previous_sunset": 2458345.0397,
       "jd_sunrise": 2458345.5209,
       "jd_sunset": 2458346.0393,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458345.2708,
       "lunar_month_sunrise": 5,
       "shraaddha_tithi": [
@@ -54970,7 +54970,7 @@
       "jd_previous_sunset": 2458346.0393,
       "jd_sunrise": 2458346.521,
       "jd_sunset": 2458347.039,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458346.2708,
       "lunar_month_sunrise": 5,
       "shraaddha_tithi": [
@@ -55257,7 +55257,7 @@
       "jd_previous_sunset": 2458347.039,
       "jd_sunrise": 2458347.521,
       "jd_sunset": 2458348.0386,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458347.2708,
       "lunar_month_sunrise": 5,
       "shraaddha_tithi": [
@@ -55463,7 +55463,7 @@
       "jd_previous_sunset": 2458348.0386,
       "jd_sunrise": 2458348.5211,
       "jd_sunset": 2458349.0383,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458348.2708,
       "lunar_month_sunrise": 5,
       "shraaddha_tithi": [
@@ -55710,7 +55710,7 @@
       "jd_previous_sunset": 2458349.0383,
       "jd_sunrise": 2458349.5212,
       "jd_sunset": 2458350.0379,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458349.2708,
       "lunar_month_sunrise": 5,
       "shraaddha_tithi": [
@@ -56019,7 +56019,7 @@
       "jd_previous_sunset": 2458350.0379,
       "jd_sunrise": 2458350.5212,
       "jd_sunset": 2458351.0375,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458350.2708,
       "lunar_month_sunrise": 5,
       "shraaddha_tithi": [
@@ -56244,7 +56244,7 @@
       "jd_previous_sunset": 2458351.0375,
       "jd_sunrise": 2458351.5213,
       "jd_sunset": 2458352.0371,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458351.2708,
       "lunar_month_sunrise": 5,
       "shraaddha_tithi": [
@@ -56454,7 +56454,7 @@
       "jd_previous_sunset": 2458352.0371,
       "jd_sunrise": 2458352.5214,
       "jd_sunset": 2458353.0367,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458352.2708,
       "lunar_month_sunrise": 5,
       "shraaddha_tithi": [
@@ -56783,7 +56783,7 @@
       "jd_previous_sunset": 2458353.0367,
       "jd_sunrise": 2458353.5214,
       "jd_sunset": 2458354.0363,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458353.2708,
       "lunar_month_sunrise": 5,
       "shraaddha_tithi": [
@@ -57093,7 +57093,7 @@
       "jd_previous_sunset": 2458354.0363,
       "jd_sunrise": 2458354.5214,
       "jd_sunset": 2458355.0359,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458354.2708,
       "lunar_month_sunrise": 5,
       "shraaddha_tithi": [
@@ -57388,7 +57388,7 @@
       "jd_previous_sunset": 2458355.0359,
       "jd_sunrise": 2458355.5215,
       "jd_sunset": 2458356.0354,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458355.2708,
       "lunar_month_sunrise": 5,
       "shraaddha_tithi": [
@@ -57816,7 +57816,7 @@
       "jd_previous_sunset": 2458356.0354,
       "jd_sunrise": 2458356.5215,
       "jd_sunset": 2458357.035,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458356.2708,
       "lunar_month_sunrise": 5,
       "shraaddha_tithi": [
@@ -57998,7 +57998,7 @@
       "jd_previous_sunset": 2458357.035,
       "jd_sunrise": 2458357.5216,
       "jd_sunset": 2458358.0346,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458357.2708,
       "lunar_month_sunrise": 5,
       "shraaddha_tithi": [
@@ -58222,7 +58222,7 @@
       "jd_previous_sunset": 2458358.0346,
       "jd_sunrise": 2458358.5216,
       "jd_sunset": 2458359.0341,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458358.2708,
       "lunar_month_sunrise": 5,
       "shraaddha_tithi": [
@@ -58421,7 +58421,7 @@
       "jd_previous_sunset": 2458359.0341,
       "jd_sunrise": 2458359.5216,
       "jd_sunset": 2458360.0337,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458359.2708,
       "lunar_month_sunrise": 5,
       "shraaddha_tithi": [
@@ -58616,7 +58616,7 @@
       "jd_previous_sunset": 2458360.0337,
       "jd_sunrise": 2458360.5216,
       "jd_sunset": 2458361.0333,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458360.2708,
       "lunar_month_sunrise": 5,
       "shraaddha_tithi": [
@@ -58802,7 +58802,7 @@
       "jd_previous_sunset": 2458361.0333,
       "jd_sunrise": 2458361.5217,
       "jd_sunset": 2458362.0328,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458361.2708,
       "lunar_month_sunrise": 5,
       "shraaddha_tithi": [
@@ -58987,7 +58987,7 @@
       "jd_previous_sunset": 2458362.0328,
       "jd_sunrise": 2458362.5217,
       "jd_sunset": 2458363.0323,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458362.2708,
       "lunar_month_sunrise": 5,
       "shraaddha_tithi": [
@@ -59350,7 +59350,7 @@
       "jd_previous_sunset": 2458363.0323,
       "jd_sunrise": 2458363.5217,
       "jd_sunset": 2458364.0319,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458363.2708,
       "lunar_month_sunrise": 5,
       "shraaddha_tithi": [
@@ -59615,7 +59615,7 @@
       "jd_previous_sunset": 2458364.0319,
       "jd_sunrise": 2458364.5217,
       "jd_sunset": 2458365.0314,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458364.2708,
       "lunar_month_sunrise": 5,
       "shraaddha_tithi": [
@@ -59863,7 +59863,7 @@
       "jd_previous_sunset": 2458365.0314,
       "jd_sunrise": 2458365.5217,
       "jd_sunset": 2458366.0309,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458365.2708,
       "lunar_month_sunrise": 5,
       "shraaddha_tithi": [
@@ -60155,7 +60155,7 @@
       "jd_previous_sunset": 2458366.0309,
       "jd_sunrise": 2458366.5218,
       "jd_sunset": 2458367.0305,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458366.2708,
       "lunar_month_sunrise": 5,
       "shraaddha_tithi": [
@@ -60399,7 +60399,7 @@
       "jd_previous_sunset": 2458367.0305,
       "jd_sunrise": 2458367.5218,
       "jd_sunset": 2458368.03,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458367.2708,
       "lunar_month_sunrise": 5,
       "shraaddha_tithi": [
@@ -60760,7 +60760,7 @@
       "jd_previous_sunset": 2458368.03,
       "jd_sunrise": 2458368.5218,
       "jd_sunset": 2458369.0295,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458368.2708,
       "lunar_month_sunrise": 5,
       "shraaddha_tithi": [
@@ -61095,7 +61095,7 @@
       "jd_previous_sunset": 2458369.0295,
       "jd_sunrise": 2458369.5218,
       "jd_sunset": 2458370.029,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458369.2708,
       "lunar_month_sunrise": 5,
       "shraaddha_tithi": [
@@ -61385,7 +61385,7 @@
       "jd_previous_sunset": 2458370.029,
       "jd_sunrise": 2458370.5218,
       "jd_sunset": 2458371.0285,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458370.2708,
       "lunar_month_sunrise": 5,
       "shraaddha_tithi": [
@@ -61599,7 +61599,7 @@
       "jd_previous_sunset": 2458371.0285,
       "jd_sunrise": 2458371.5218,
       "jd_sunset": 2458372.0281,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458371.2708,
       "lunar_month_sunrise": 6,
       "shraaddha_tithi": [
@@ -61827,7 +61827,7 @@
       "jd_previous_sunset": 2458372.0281,
       "jd_sunrise": 2458372.5218,
       "jd_sunset": 2458373.0276,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458372.2708,
       "lunar_month_sunrise": 6,
       "shraaddha_tithi": [
@@ -62085,7 +62085,7 @@
       "jd_previous_sunset": 2458373.0276,
       "jd_sunrise": 2458373.5218,
       "jd_sunset": 2458374.0271,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458373.2708,
       "lunar_month_sunrise": 6,
       "shraaddha_tithi": [
@@ -62295,7 +62295,7 @@
       "jd_previous_sunset": 2458374.0271,
       "jd_sunrise": 2458374.5218,
       "jd_sunset": 2458375.0266,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458374.2708,
       "lunar_month_sunrise": 6,
       "shraaddha_tithi": [
@@ -62611,7 +62611,7 @@
       "jd_previous_sunset": 2458375.0266,
       "jd_sunrise": 2458375.5218,
       "jd_sunset": 2458376.0261,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458375.2708,
       "lunar_month_sunrise": 6,
       "shraaddha_tithi": [
@@ -62869,7 +62869,7 @@
       "jd_previous_sunset": 2458376.0261,
       "jd_sunrise": 2458376.5218,
       "jd_sunset": 2458377.0256,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458376.2708,
       "lunar_month_sunrise": 6,
       "shraaddha_tithi": [
@@ -63141,7 +63141,7 @@
       "jd_previous_sunset": 2458377.0256,
       "jd_sunrise": 2458377.5218,
       "jd_sunset": 2458378.0251,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458377.2708,
       "lunar_month_sunrise": 6,
       "shraaddha_tithi": [
@@ -63379,7 +63379,7 @@
       "jd_previous_sunset": 2458378.0251,
       "jd_sunrise": 2458378.5218,
       "jd_sunset": 2458379.0246,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458378.2708,
       "lunar_month_sunrise": 6,
       "shraaddha_tithi": [
@@ -63611,7 +63611,7 @@
       "jd_previous_sunset": 2458379.0246,
       "jd_sunrise": 2458379.5218,
       "jd_sunset": 2458380.0241,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458379.2708,
       "lunar_month_sunrise": 6,
       "shraaddha_tithi": [
@@ -63809,7 +63809,7 @@
       "jd_previous_sunset": 2458380.0241,
       "jd_sunrise": 2458380.5218,
       "jd_sunset": 2458381.0236,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458380.2708,
       "lunar_month_sunrise": 6,
       "shraaddha_tithi": [
@@ -64028,7 +64028,7 @@
       "jd_previous_sunset": 2458381.0236,
       "jd_sunrise": 2458381.5218,
       "jd_sunset": 2458382.0231,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458381.2708,
       "lunar_month_sunrise": 6,
       "shraaddha_tithi": [
@@ -64378,7 +64378,7 @@
       "jd_previous_sunset": 2458382.0231,
       "jd_sunrise": 2458382.5218,
       "jd_sunset": 2458383.0226,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458382.2708,
       "lunar_month_sunrise": 6,
       "shraaddha_tithi": [
@@ -64637,7 +64637,7 @@
       "jd_previous_sunset": 2458383.0226,
       "jd_sunrise": 2458383.5218,
       "jd_sunset": 2458384.0221,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458383.2708,
       "lunar_month_sunrise": 6,
       "shraaddha_tithi": [
@@ -64862,7 +64862,7 @@
       "jd_previous_sunset": 2458384.0221,
       "jd_sunrise": 2458384.5218,
       "jd_sunset": 2458385.0216,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458384.2708,
       "lunar_month_sunrise": 6,
       "shraaddha_tithi": [
@@ -65138,7 +65138,7 @@
       "jd_previous_sunset": 2458385.0216,
       "jd_sunrise": 2458385.5218,
       "jd_sunset": 2458386.0211,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458385.2708,
       "lunar_month_sunrise": 6,
       "shraaddha_tithi": [
@@ -65486,7 +65486,7 @@
       "jd_previous_sunset": 2458386.0211,
       "jd_sunrise": 2458386.5218,
       "jd_sunset": 2458387.0206,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458386.2708,
       "lunar_month_sunrise": 6,
       "shraaddha_tithi": [
@@ -65684,7 +65684,7 @@
       "jd_previous_sunset": 2458387.0206,
       "jd_sunrise": 2458387.5219,
       "jd_sunset": 2458388.0201,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458387.2708,
       "lunar_month_sunrise": 6,
       "shraaddha_tithi": [
@@ -65870,7 +65870,7 @@
       "jd_previous_sunset": 2458388.0201,
       "jd_sunrise": 2458388.5219,
       "jd_sunset": 2458389.0196,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458388.2708,
       "lunar_month_sunrise": 6,
       "shraaddha_tithi": [
@@ -66086,7 +66086,7 @@
       "jd_previous_sunset": 2458389.0196,
       "jd_sunrise": 2458389.5219,
       "jd_sunset": 2458390.0192,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458389.2708,
       "lunar_month_sunrise": 6,
       "shraaddha_tithi": [
@@ -66402,7 +66402,7 @@
       "jd_previous_sunset": 2458390.0192,
       "jd_sunrise": 2458390.5219,
       "jd_sunset": 2458391.0187,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458390.2708,
       "lunar_month_sunrise": 6,
       "shraaddha_tithi": [
@@ -66666,7 +66666,7 @@
       "jd_previous_sunset": 2458391.0187,
       "jd_sunrise": 2458391.5219,
       "jd_sunset": 2458392.0182,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458391.2708,
       "lunar_month_sunrise": 6,
       "shraaddha_tithi": [
@@ -66914,7 +66914,7 @@
       "jd_previous_sunset": 2458392.0182,
       "jd_sunrise": 2458392.5219,
       "jd_sunset": 2458393.0177,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458392.2708,
       "lunar_month_sunrise": 6,
       "shraaddha_tithi": [
@@ -67146,7 +67146,7 @@
       "jd_previous_sunset": 2458393.0177,
       "jd_sunrise": 2458393.522,
       "jd_sunset": 2458394.0172,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458393.2708,
       "lunar_month_sunrise": 6,
       "shraaddha_tithi": [
@@ -67344,7 +67344,7 @@
       "jd_previous_sunset": 2458394.0172,
       "jd_sunrise": 2458394.522,
       "jd_sunset": 2458395.0168,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458394.2708,
       "lunar_month_sunrise": 6,
       "shraaddha_tithi": [
@@ -67537,7 +67537,7 @@
       "jd_previous_sunset": 2458395.0168,
       "jd_sunrise": 2458395.522,
       "jd_sunset": 2458396.0163,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458395.2708,
       "lunar_month_sunrise": 6,
       "shraaddha_tithi": [
@@ -67722,7 +67722,7 @@
       "jd_previous_sunset": 2458396.0163,
       "jd_sunrise": 2458396.5221,
       "jd_sunset": 2458397.0159,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458396.2708,
       "lunar_month_sunrise": 6,
       "shraaddha_tithi": [
@@ -67988,7 +67988,7 @@
       "jd_previous_sunset": 2458397.0159,
       "jd_sunrise": 2458397.5221,
       "jd_sunset": 2458398.0154,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458397.2708,
       "lunar_month_sunrise": 6,
       "shraaddha_tithi": [
@@ -68289,7 +68289,7 @@
       "jd_previous_sunset": 2458398.0154,
       "jd_sunrise": 2458398.5222,
       "jd_sunset": 2458399.0149,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458398.2708,
       "lunar_month_sunrise": 6,
       "shraaddha_tithi": [
@@ -68517,7 +68517,7 @@
       "jd_previous_sunset": 2458399.0149,
       "jd_sunrise": 2458399.5222,
       "jd_sunset": 2458400.0145,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458399.2708,
       "lunar_month_sunrise": 6,
       "shraaddha_tithi": [
@@ -68826,7 +68826,7 @@
       "jd_previous_sunset": 2458400.0145,
       "jd_sunrise": 2458400.5223,
       "jd_sunset": 2458401.0141,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458400.2708,
       "lunar_month_sunrise": 6,
       "shraaddha_tithi": [
@@ -69069,7 +69069,7 @@
       "jd_previous_sunset": 2458401.0141,
       "jd_sunrise": 2458401.5223,
       "jd_sunset": 2458402.0136,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458401.2708,
       "lunar_month_sunrise": 7,
       "shraaddha_tithi": [
@@ -69274,7 +69274,7 @@
       "jd_previous_sunset": 2458402.0136,
       "jd_sunrise": 2458402.5224,
       "jd_sunset": 2458403.0132,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458402.2708,
       "lunar_month_sunrise": 7,
       "shraaddha_tithi": [
@@ -69483,7 +69483,7 @@
       "jd_previous_sunset": 2458403.0132,
       "jd_sunrise": 2458403.5225,
       "jd_sunset": 2458404.0128,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458403.2708,
       "lunar_month_sunrise": 7,
       "shraaddha_tithi": [
@@ -69728,7 +69728,7 @@
       "jd_previous_sunset": 2458404.0128,
       "jd_sunrise": 2458404.5225,
       "jd_sunset": 2458405.0124,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458404.2708,
       "lunar_month_sunrise": 7,
       "shraaddha_tithi": [
@@ -69956,7 +69956,7 @@
       "jd_previous_sunset": 2458405.0124,
       "jd_sunrise": 2458405.5226,
       "jd_sunset": 2458406.012,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458405.2708,
       "lunar_month_sunrise": 7,
       "shraaddha_tithi": [
@@ -70155,7 +70155,7 @@
       "jd_previous_sunset": 2458406.012,
       "jd_sunrise": 2458406.5227,
       "jd_sunset": 2458407.0116,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458406.2708,
       "lunar_month_sunrise": 7,
       "shraaddha_tithi": [
@@ -70353,7 +70353,7 @@
       "jd_previous_sunset": 2458407.0116,
       "jd_sunrise": 2458407.5228,
       "jd_sunset": 2458408.0112,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458407.2708,
       "lunar_month_sunrise": 7,
       "shraaddha_tithi": [
@@ -70605,7 +70605,7 @@
       "jd_previous_sunset": 2458408.0112,
       "jd_sunrise": 2458408.5229,
       "jd_sunset": 2458409.0108,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458408.2708,
       "lunar_month_sunrise": 7,
       "shraaddha_tithi": [
@@ -71011,7 +71011,7 @@
       "jd_previous_sunset": 2458409.0108,
       "jd_sunrise": 2458409.523,
       "jd_sunset": 2458410.0104,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458409.2708,
       "lunar_month_sunrise": 7,
       "shraaddha_tithi": [
@@ -71333,7 +71333,7 @@
       "jd_previous_sunset": 2458410.0104,
       "jd_sunrise": 2458410.5231,
       "jd_sunset": 2458411.01,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458410.2708,
       "lunar_month_sunrise": 7,
       "shraaddha_tithi": [
@@ -71527,7 +71527,7 @@
       "jd_previous_sunset": 2458411.01,
       "jd_sunrise": 2458411.5232,
       "jd_sunset": 2458412.0097,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458411.2708,
       "lunar_month_sunrise": 7,
       "shraaddha_tithi": [
@@ -71721,7 +71721,7 @@
       "jd_previous_sunset": 2458412.0097,
       "jd_sunrise": 2458412.5233,
       "jd_sunset": 2458413.0093,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458412.2708,
       "lunar_month_sunrise": 7,
       "shraaddha_tithi": [
@@ -71934,7 +71934,7 @@
       "jd_previous_sunset": 2458413.0093,
       "jd_sunrise": 2458413.5235,
       "jd_sunset": 2458414.009,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458413.2708,
       "lunar_month_sunrise": 7,
       "shraaddha_tithi": [
@@ -72132,7 +72132,7 @@
       "jd_previous_sunset": 2458414.009,
       "jd_sunrise": 2458414.5236,
       "jd_sunset": 2458415.0086,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458414.2708,
       "lunar_month_sunrise": 7,
       "shraaddha_tithi": [
@@ -72628,7 +72628,7 @@
       "jd_previous_sunset": 2458415.0086,
       "jd_sunrise": 2458415.5237,
       "jd_sunset": 2458416.0083,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458415.2708,
       "lunar_month_sunrise": 7,
       "shraaddha_tithi": [
@@ -72840,7 +72840,7 @@
       "jd_previous_sunset": 2458416.0083,
       "jd_sunrise": 2458416.5239,
       "jd_sunset": 2458417.008,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458416.2708,
       "lunar_month_sunrise": 7,
       "shraaddha_tithi": [
@@ -73256,7 +73256,7 @@
       "jd_previous_sunset": 2458417.008,
       "jd_sunrise": 2458417.524,
       "jd_sunset": 2458418.0077,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458417.2708,
       "lunar_month_sunrise": 7,
       "shraaddha_tithi": [
@@ -73507,7 +73507,7 @@
       "jd_previous_sunset": 2458418.0077,
       "jd_sunrise": 2458418.5242,
       "jd_sunset": 2458419.0074,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458418.2708,
       "lunar_month_sunrise": 7,
       "shraaddha_tithi": [
@@ -73683,7 +73683,7 @@
       "jd_previous_sunset": 2458419.0074,
       "jd_sunrise": 2458419.5244,
       "jd_sunset": 2458420.0071,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458419.2708,
       "lunar_month_sunrise": 7,
       "shraaddha_tithi": [
@@ -73909,7 +73909,7 @@
       "jd_previous_sunset": 2458420.0071,
       "jd_sunrise": 2458420.5245,
       "jd_sunset": 2458421.0068,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458420.2708,
       "lunar_month_sunrise": 7,
       "shraaddha_tithi": [
@@ -74086,7 +74086,7 @@
       "jd_previous_sunset": 2458421.0068,
       "jd_sunrise": 2458421.5247,
       "jd_sunset": 2458422.0065,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458421.2708,
       "lunar_month_sunrise": 7,
       "shraaddha_tithi": [
@@ -74258,7 +74258,7 @@
       "jd_previous_sunset": 2458422.0065,
       "jd_sunrise": 2458422.5249,
       "jd_sunset": 2458423.0063,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458422.2708,
       "lunar_month_sunrise": 7,
       "shraaddha_tithi": [
@@ -74495,7 +74495,7 @@
       "jd_previous_sunset": 2458423.0063,
       "jd_sunrise": 2458423.5251,
       "jd_sunset": 2458424.006,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458423.2708,
       "lunar_month_sunrise": 7,
       "shraaddha_tithi": [
@@ -74681,7 +74681,7 @@
       "jd_previous_sunset": 2458424.006,
       "jd_sunrise": 2458424.5253,
       "jd_sunset": 2458425.0058,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458424.2708,
       "lunar_month_sunrise": 7,
       "shraaddha_tithi": [
@@ -74907,7 +74907,7 @@
       "jd_previous_sunset": 2458425.0058,
       "jd_sunrise": 2458425.5255,
       "jd_sunset": 2458426.0056,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458425.2708,
       "lunar_month_sunrise": 7,
       "shraaddha_tithi": [
@@ -75252,7 +75252,7 @@
       "jd_previous_sunset": 2458426.0056,
       "jd_sunrise": 2458426.5257,
       "jd_sunset": 2458427.0054,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458426.2708,
       "lunar_month_sunrise": 7,
       "shraaddha_tithi": [
@@ -75607,7 +75607,7 @@
       "jd_previous_sunset": 2458427.0054,
       "jd_sunrise": 2458427.526,
       "jd_sunset": 2458428.0052,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458427.2708,
       "lunar_month_sunrise": 7,
       "shraaddha_tithi": [
@@ -75844,7 +75844,7 @@
       "jd_previous_sunset": 2458428.0052,
       "jd_sunrise": 2458428.5262,
       "jd_sunset": 2458429.005,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458428.2708,
       "lunar_month_sunrise": 7,
       "shraaddha_tithi": [
@@ -76123,7 +76123,7 @@
       "jd_previous_sunset": 2458429.005,
       "jd_sunrise": 2458429.5264,
       "jd_sunset": 2458430.0048,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458429.2708,
       "lunar_month_sunrise": 7,
       "shraaddha_tithi": [
@@ -76308,7 +76308,7 @@
       "jd_previous_sunset": 2458430.0048,
       "jd_sunrise": 2458430.5267,
       "jd_sunset": 2458431.0047,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458430.2708,
       "lunar_month_sunrise": 8,
       "shraaddha_tithi": [
@@ -76517,7 +76517,7 @@
       "jd_previous_sunset": 2458431.0047,
       "jd_sunrise": 2458431.5269,
       "jd_sunset": 2458432.0045,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458431.2708,
       "lunar_month_sunrise": 8,
       "shraaddha_tithi": [
@@ -76688,7 +76688,7 @@
       "jd_previous_sunset": 2458432.0045,
       "jd_sunrise": 2458432.5272,
       "jd_sunset": 2458433.0044,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458432.2708,
       "lunar_month_sunrise": 8,
       "shraaddha_tithi": [
@@ -76874,7 +76874,7 @@
       "jd_previous_sunset": 2458433.0044,
       "jd_sunrise": 2458433.5275,
       "jd_sunset": 2458434.0043,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458433.2708,
       "lunar_month_sunrise": 8,
       "shraaddha_tithi": [
@@ -77119,7 +77119,7 @@
       "jd_previous_sunset": 2458434.0043,
       "jd_sunrise": 2458434.5277,
       "jd_sunset": 2458435.0042,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458434.2708,
       "lunar_month_sunrise": 8,
       "shraaddha_tithi": [
@@ -77304,7 +77304,7 @@
       "jd_previous_sunset": 2458435.0042,
       "jd_sunrise": 2458435.528,
       "jd_sunset": 2458436.0041,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458435.2708,
       "lunar_month_sunrise": 8,
       "shraaddha_tithi": [
@@ -77587,7 +77587,7 @@
       "jd_previous_sunset": 2458436.0041,
       "jd_sunrise": 2458436.5283,
       "jd_sunset": 2458437.004,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458436.2708,
       "lunar_month_sunrise": 8,
       "shraaddha_tithi": [
@@ -77785,7 +77785,7 @@
       "jd_previous_sunset": 2458437.004,
       "jd_sunrise": 2458437.5286,
       "jd_sunset": 2458438.0039,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458437.2708,
       "lunar_month_sunrise": 8,
       "shraaddha_tithi": [
@@ -78034,7 +78034,7 @@
       "jd_previous_sunset": 2458438.0039,
       "jd_sunrise": 2458438.5289,
       "jd_sunset": 2458439.0038,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458438.2708,
       "lunar_month_sunrise": 8,
       "shraaddha_tithi": [
@@ -78285,7 +78285,7 @@
       "jd_previous_sunset": 2458439.0038,
       "jd_sunrise": 2458439.5292,
       "jd_sunset": 2458440.0038,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458439.2708,
       "lunar_month_sunrise": 8,
       "shraaddha_tithi": [
@@ -78504,7 +78504,7 @@
       "jd_previous_sunset": 2458440.0038,
       "jd_sunrise": 2458440.5295,
       "jd_sunset": 2458441.0038,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458440.2708,
       "lunar_month_sunrise": 8,
       "shraaddha_tithi": [
@@ -78785,7 +78785,7 @@
       "jd_previous_sunset": 2458441.0038,
       "jd_sunrise": 2458441.5298,
       "jd_sunset": 2458442.0037,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458441.2708,
       "lunar_month_sunrise": 8,
       "shraaddha_tithi": [
@@ -79181,7 +79181,7 @@
       "jd_previous_sunset": 2458442.0037,
       "jd_sunrise": 2458442.5302,
       "jd_sunset": 2458443.0037,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458442.2708,
       "lunar_month_sunrise": 8,
       "shraaddha_tithi": [
@@ -79457,7 +79457,7 @@
       "jd_previous_sunset": 2458443.0037,
       "jd_sunrise": 2458443.5305,
       "jd_sunset": 2458444.0037,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458443.2708,
       "lunar_month_sunrise": 8,
       "shraaddha_tithi": [
@@ -79831,7 +79831,7 @@
       "jd_previous_sunset": 2458444.0037,
       "jd_sunrise": 2458444.5308,
       "jd_sunset": 2458445.0038,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458444.2708,
       "lunar_month_sunrise": 8,
       "shraaddha_tithi": [
@@ -80315,7 +80315,7 @@
       "jd_previous_sunset": 2458445.0038,
       "jd_sunrise": 2458445.5312,
       "jd_sunset": 2458446.0038,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458445.2708,
       "lunar_month_sunrise": 8,
       "shraaddha_tithi": [
@@ -80521,7 +80521,7 @@
       "jd_previous_sunset": 2458446.0038,
       "jd_sunrise": 2458446.5315,
       "jd_sunset": 2458447.0038,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458446.2708,
       "lunar_month_sunrise": 8,
       "shraaddha_tithi": [
@@ -80759,7 +80759,7 @@
       "jd_previous_sunset": 2458447.0038,
       "jd_sunrise": 2458447.5319,
       "jd_sunset": 2458448.0039,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458447.2708,
       "lunar_month_sunrise": 8,
       "shraaddha_tithi": [
@@ -80980,7 +80980,7 @@
       "jd_previous_sunset": 2458448.0039,
       "jd_sunrise": 2458448.5322,
       "jd_sunset": 2458449.004,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458448.2708,
       "lunar_month_sunrise": 8,
       "shraaddha_tithi": [
@@ -81168,7 +81168,7 @@
       "jd_previous_sunset": 2458449.004,
       "jd_sunrise": 2458449.5326,
       "jd_sunset": 2458450.0041,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458449.2708,
       "lunar_month_sunrise": 8,
       "shraaddha_tithi": [
@@ -81339,7 +81339,7 @@
       "jd_previous_sunset": 2458450.0041,
       "jd_sunrise": 2458450.5329,
       "jd_sunset": 2458451.0042,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458450.2708,
       "lunar_month_sunrise": 8,
       "shraaddha_tithi": [
@@ -81622,7 +81622,7 @@
       "jd_previous_sunset": 2458451.0042,
       "jd_sunrise": 2458451.5333,
       "jd_sunset": 2458452.0043,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458451.2708,
       "lunar_month_sunrise": 8,
       "shraaddha_tithi": [
@@ -81870,7 +81870,7 @@
       "jd_previous_sunset": 2458452.0043,
       "jd_sunrise": 2458452.5337,
       "jd_sunset": 2458453.0044,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458452.2708,
       "lunar_month_sunrise": 8,
       "shraaddha_tithi": [
@@ -82055,7 +82055,7 @@
       "jd_previous_sunset": 2458453.0044,
       "jd_sunrise": 2458453.5341,
       "jd_sunset": 2458454.0045,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458453.2708,
       "lunar_month_sunrise": 8,
       "shraaddha_tithi": [
@@ -82327,7 +82327,7 @@
       "jd_previous_sunset": 2458454.0045,
       "jd_sunrise": 2458454.5344,
       "jd_sunset": 2458455.0047,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458454.2708,
       "lunar_month_sunrise": 8,
       "shraaddha_tithi": [
@@ -82556,7 +82556,7 @@
       "jd_previous_sunset": 2458455.0047,
       "jd_sunrise": 2458455.5348,
       "jd_sunset": 2458456.0049,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458455.2708,
       "lunar_month_sunrise": 8,
       "shraaddha_tithi": [
@@ -82847,7 +82847,7 @@
       "jd_previous_sunset": 2458456.0049,
       "jd_sunrise": 2458456.5352,
       "jd_sunset": 2458457.005,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458456.2708,
       "lunar_month_sunrise": 8,
       "shraaddha_tithi": [
@@ -83109,7 +83109,7 @@
       "jd_previous_sunset": 2458457.005,
       "jd_sunrise": 2458457.5356,
       "jd_sunset": 2458458.0052,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458457.2708,
       "lunar_month_sunrise": 8,
       "shraaddha_tithi": [
@@ -83323,7 +83323,7 @@
       "jd_previous_sunset": 2458458.0052,
       "jd_sunrise": 2458458.536,
       "jd_sunset": 2458459.0054,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458458.2708,
       "lunar_month_sunrise": 8,
       "shraaddha_tithi": [
@@ -83534,7 +83534,7 @@
       "jd_previous_sunset": 2458459.0054,
       "jd_sunrise": 2458459.5363,
       "jd_sunset": 2458460.0056,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458459.2708,
       "lunar_month_sunrise": 8,
       "shraaddha_tithi": [
@@ -83738,7 +83738,7 @@
       "jd_previous_sunset": 2458460.0056,
       "jd_sunrise": 2458460.5367,
       "jd_sunset": 2458461.0058,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458460.2708,
       "lunar_month_sunrise": 9,
       "shraaddha_tithi": [
@@ -83956,7 +83956,7 @@
       "jd_previous_sunset": 2458461.0058,
       "jd_sunrise": 2458461.5371,
       "jd_sunset": 2458462.0061,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458461.2708,
       "lunar_month_sunrise": 9,
       "shraaddha_tithi": [
@@ -84141,7 +84141,7 @@
       "jd_previous_sunset": 2458462.0061,
       "jd_sunrise": 2458462.5375,
       "jd_sunset": 2458463.0063,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458462.2708,
       "lunar_month_sunrise": 9,
       "shraaddha_tithi": [
@@ -84342,7 +84342,7 @@
       "jd_previous_sunset": 2458463.0063,
       "jd_sunrise": 2458463.5379,
       "jd_sunset": 2458464.0066,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458463.2708,
       "lunar_month_sunrise": 9,
       "shraaddha_tithi": [
@@ -84611,7 +84611,7 @@
       "jd_previous_sunset": 2458464.0066,
       "jd_sunrise": 2458464.5383,
       "jd_sunset": 2458465.0068,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458464.2708,
       "lunar_month_sunrise": 9,
       "shraaddha_tithi": [
@@ -84823,7 +84823,7 @@
       "jd_previous_sunset": 2458465.0068,
       "jd_sunrise": 2458465.5386,
       "jd_sunset": 2458466.0071,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458465.2708,
       "lunar_month_sunrise": 9,
       "shraaddha_tithi": [
@@ -85047,7 +85047,7 @@
       "jd_previous_sunset": 2458466.0071,
       "jd_sunrise": 2458466.539,
       "jd_sunset": 2458467.0074,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458466.2708,
       "lunar_month_sunrise": 9,
       "shraaddha_tithi": [
@@ -85218,7 +85218,7 @@
       "jd_previous_sunset": 2458467.0074,
       "jd_sunrise": 2458467.5394,
       "jd_sunset": 2458468.0077,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458467.2708,
       "lunar_month_sunrise": 9,
       "shraaddha_tithi": [
@@ -85456,7 +85456,7 @@
       "jd_previous_sunset": 2458468.0077,
       "jd_sunrise": 2458468.5398,
       "jd_sunset": 2458469.008,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458468.2708,
       "lunar_month_sunrise": 9,
       "shraaddha_tithi": [
@@ -85636,7 +85636,7 @@
       "jd_previous_sunset": 2458469.008,
       "jd_sunrise": 2458469.5401,
       "jd_sunset": 2458470.0083,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458469.2708,
       "lunar_month_sunrise": 9,
       "shraaddha_tithi": [
@@ -85862,7 +85862,7 @@
       "jd_previous_sunset": 2458470.0083,
       "jd_sunrise": 2458470.5405,
       "jd_sunset": 2458471.0086,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458470.2708,
       "lunar_month_sunrise": 9,
       "shraaddha_tithi": [
@@ -86141,7 +86141,7 @@
       "jd_previous_sunset": 2458471.0086,
       "jd_sunrise": 2458471.5409,
       "jd_sunset": 2458472.0089,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458471.2708,
       "lunar_month_sunrise": 9,
       "shraaddha_tithi": [
@@ -86538,7 +86538,7 @@
       "jd_previous_sunset": 2458472.0089,
       "jd_sunrise": 2458472.5412,
       "jd_sunset": 2458473.0093,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458472.2708,
       "lunar_month_sunrise": 9,
       "shraaddha_tithi": [
@@ -86710,7 +86710,7 @@
       "jd_previous_sunset": 2458473.0093,
       "jd_sunrise": 2458473.5416,
       "jd_sunset": 2458474.0096,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458473.2708,
       "lunar_month_sunrise": 9,
       "shraaddha_tithi": [
@@ -87161,7 +87161,7 @@
       "jd_previous_sunset": 2458474.0096,
       "jd_sunrise": 2458474.5419,
       "jd_sunset": 2458475.01,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458474.2708,
       "lunar_month_sunrise": 9,
       "shraaddha_tithi": [
@@ -87387,7 +87387,7 @@
       "jd_previous_sunset": 2458475.01,
       "jd_sunrise": 2458475.5423,
       "jd_sunset": 2458476.0103,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458475.2708,
       "lunar_month_sunrise": 9,
       "shraaddha_tithi": [
@@ -87577,7 +87577,7 @@
       "jd_previous_sunset": 2458476.0103,
       "jd_sunrise": 2458476.5426,
       "jd_sunset": 2458477.0107,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458476.2708,
       "lunar_month_sunrise": 9,
       "shraaddha_tithi": [
@@ -87871,7 +87871,7 @@
       "jd_previous_sunset": 2458477.0107,
       "jd_sunrise": 2458477.5429,
       "jd_sunset": 2458478.011,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458477.2708,
       "lunar_month_sunrise": 9,
       "shraaddha_tithi": [
@@ -88043,7 +88043,7 @@
       "jd_previous_sunset": 2458478.011,
       "jd_sunrise": 2458478.5433,
       "jd_sunset": 2458479.0114,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458478.2708,
       "lunar_month_sunrise": 9,
       "shraaddha_tithi": [
@@ -88215,7 +88215,7 @@
       "jd_previous_sunset": 2458479.0114,
       "jd_sunrise": 2458479.5436,
       "jd_sunset": 2458480.0118,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458479.2708,
       "lunar_month_sunrise": 9,
       "shraaddha_tithi": [
@@ -88412,7 +88412,7 @@
       "jd_previous_sunset": 2458480.0118,
       "jd_sunrise": 2458480.5439,
       "jd_sunset": 2458481.0121,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458480.2708,
       "lunar_month_sunrise": 9,
       "shraaddha_tithi": [
@@ -88631,7 +88631,7 @@
       "jd_previous_sunset": 2458481.0121,
       "jd_sunrise": 2458481.5442,
       "jd_sunset": 2458482.0125,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458481.2708,
       "lunar_month_sunrise": 9,
       "shraaddha_tithi": [
@@ -88865,7 +88865,7 @@
       "jd_previous_sunset": 2458482.0125,
       "jd_sunrise": 2458482.5445,
       "jd_sunset": 2458483.0129,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458482.2708,
       "lunar_month_sunrise": 9,
       "shraaddha_tithi": [
@@ -89063,7 +89063,7 @@
       "jd_previous_sunset": 2458483.0129,
       "jd_sunrise": 2458483.5448,
       "jd_sunset": 2458484.0133,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458483.2708,
       "lunar_month_sunrise": 9,
       "shraaddha_tithi": [
@@ -89234,7 +89234,7 @@
       "jd_previous_sunset": 2458484.0133,
       "jd_sunrise": 2458484.545,
       "jd_sunset": 2458485.0137,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458484.2708,
       "lunar_month_sunrise": 9,
       "shraaddha_tithi": [
@@ -89406,7 +89406,7 @@
       "jd_previous_sunset": 2458485.0137,
       "jd_sunrise": 2458485.5453,
       "jd_sunset": 2458486.0141,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458485.2708,
       "lunar_month_sunrise": 9,
       "shraaddha_tithi": [
@@ -89577,7 +89577,7 @@
       "jd_previous_sunset": 2458486.0141,
       "jd_sunrise": 2458486.5455,
       "jd_sunset": 2458487.0145,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458486.2708,
       "lunar_month_sunrise": 9,
       "shraaddha_tithi": [
@@ -89748,7 +89748,7 @@
       "jd_previous_sunset": 2458487.0145,
       "jd_sunrise": 2458487.5458,
       "jd_sunset": 2458488.0149,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458487.2708,
       "lunar_month_sunrise": 9,
       "shraaddha_tithi": [
@@ -89920,7 +89920,7 @@
       "jd_previous_sunset": 2458488.0149,
       "jd_sunrise": 2458488.546,
       "jd_sunset": 2458489.0153,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458488.2708,
       "lunar_month_sunrise": 9,
       "shraaddha_tithi": [
@@ -90085,7 +90085,7 @@
       "jd_previous_sunset": 2458489.0153,
       "jd_sunrise": 2458489.5463,
       "jd_sunset": 2458490.0157,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458489.2708,
       "lunar_month_sunrise": 9,
       "shraaddha_tithi": [
@@ -90257,7 +90257,7 @@
       "jd_previous_sunset": 2458490.0157,
       "jd_sunrise": 2458490.5465,
       "jd_sunset": 2458491.0161,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458490.2708,
       "lunar_month_sunrise": 10,
       "shraaddha_tithi": [
@@ -90428,7 +90428,7 @@
       "jd_previous_sunset": 2458491.0161,
       "jd_sunrise": 2458491.5467,
       "jd_sunset": 2458492.0165,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458491.2708,
       "lunar_month_sunrise": 10,
       "shraaddha_tithi": [
@@ -90599,7 +90599,7 @@
       "jd_previous_sunset": 2458492.0165,
       "jd_sunrise": 2458492.5469,
       "jd_sunset": 2458493.0169,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458492.2708,
       "lunar_month_sunrise": 10,
       "shraaddha_tithi": [
@@ -90771,7 +90771,7 @@
       "jd_previous_sunset": 2458493.0169,
       "jd_sunrise": 2458493.547,
       "jd_sunset": 2458494.0173,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458493.2708,
       "lunar_month_sunrise": 10,
       "shraaddha_tithi": [
@@ -90937,7 +90937,7 @@
       "jd_previous_sunset": 2458494.0173,
       "jd_sunrise": 2458494.5472,
       "jd_sunset": 2458495.0176,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458494.2708,
       "lunar_month_sunrise": 10,
       "shraaddha_tithi": [
@@ -91107,7 +91107,7 @@
       "jd_previous_sunset": 2458495.0176,
       "jd_sunrise": 2458495.5474,
       "jd_sunset": 2458496.018,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458495.2708,
       "lunar_month_sunrise": 10,
       "shraaddha_tithi": [
@@ -91278,7 +91278,7 @@
       "jd_previous_sunset": 2458496.018,
       "jd_sunrise": 2458496.5475,
       "jd_sunset": 2458497.0184,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458496.2708,
       "lunar_month_sunrise": 10,
       "shraaddha_tithi": [
@@ -91449,7 +91449,7 @@
       "jd_previous_sunset": 2458497.0184,
       "jd_sunrise": 2458497.5477,
       "jd_sunset": 2458498.0188,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458497.2708,
       "lunar_month_sunrise": 10,
       "shraaddha_tithi": [
@@ -91622,7 +91622,7 @@
       "jd_previous_sunset": 2458498.0188,
       "jd_sunrise": 2458498.5478,
       "jd_sunset": 2458499.0192,
-      "jsonClass": "DailyPanchanga",
+      "jsonClass": "DailyPanchaanga",
       "julian_day_start": 2458498.2708,
       "lunar_month_sunrise": 10,
       "shraaddha_tithi": [

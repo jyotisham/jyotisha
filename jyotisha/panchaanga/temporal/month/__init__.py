@@ -71,7 +71,18 @@ class SolsticePostDark10AdhikaAssigner(LunarMonthAssigner):
     :return: 
     """
     # tithi_at_sunrise gives a rough indication of the number of days since last new moon. We now find a more precise interval below.
+    solstice_solar_month = daily_panchaanga.get_previous_solstice()
+    from jyotisha.panchaanga.spatio_temporal.daily import DailyPanchaanga
+    solstice_day_panchaanga = DailyPanchaanga.from_city_and_julian_day(
+      city=daily_panchaanga.city, julian_day=solstice_solar_month.jd_start, computation_system=daily_panchaanga.computation_system)
+    if solstice_day_panchaanga.sunrise_day_angas.tithi_at_sunrise > 15 + 9:
+      is_adhika_maasa = True
+    else:
+      is_adhika_maasa = False
+    solstice_lunar_month = solstice_solar_month if not is_adhika_maasa else solstice_solar_month - 0.5
+    
     pass
+
 
 # Essential for depickling to work.
 common.update_json_class_index(sys.modules[__name__])

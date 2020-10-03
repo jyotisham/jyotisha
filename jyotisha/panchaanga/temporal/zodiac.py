@@ -283,7 +283,7 @@ class AngaSpanFinder(JsonObject):
       jd_now = min(jd_now + min_step, jd2)
     return jd_start
 
-  def find(self, jd1: float, jd2: float, target_anga_id: int):
+  def find(self, jd1: float, jd2: float, target_anga_id: AngaType) -> Interval:
     """Computes anga spans for sunrise_day_angas such as tithi, nakshatra, yoga
         and karana.
 
@@ -295,7 +295,7 @@ class AngaSpanFinder(JsonObject):
           :param debug
 
         Returns:
-          tuple: A tuple of start and end times that lies within jd1 and jd2
+          AngaSpan
     """
     num_angas = int(360.0 / self.anga_type.arc_length)
     if target_anga_id > num_angas or target_anga_id < 1:

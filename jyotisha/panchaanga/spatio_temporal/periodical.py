@@ -58,14 +58,14 @@ class Panchaanga(common.JsonObject):
     nDays = self.duration_to_calculate
 
     # INITIALISE VARIABLES
-    self.date_str_to_panchaanga: dict[str, daily.DailyPanchanga] = {}
+    self.date_str_to_panchaanga: dict[str, daily.DailyPanchaanga] = {}
 
     # Computing solar month details for Dec 31
     # rather than Jan 1, since we have an always increment
     # solar_sidereal_month_day_sunset at the start of the loop across every day in
     # year
     previous_day = time.jd_to_utc_gregorian(self.jd_start - 1)
-    daily_panchaanga_start = daily.DailyPanchanga(city=self.city, date=previous_day, computation_system=self.computation_system)
+    daily_panchaanga_start = daily.DailyPanchaanga(city=self.city, date=previous_day, computation_system=self.computation_system)
 
     solar_month_today_sunset = NakshatraDivision(daily_panchaanga_start.jd_sunset,
                                                  ayanaamsha_id=self.computation_system.ayanaamsha_id).get_anga(
@@ -85,9 +85,9 @@ class Panchaanga(common.JsonObject):
       date_d = time.jd_to_utc_gregorian(self.jd_start + d)
       date_d.set_time_to_day_start()
       previous_daily_panchaanga = self.date_str_to_panchaanga.get(date_d.offset_date(days=-1).get_date_str(), None)
-      daily_panchaanga = daily.DailyPanchanga(city=self.city, date=date_d,
-                                                           computation_system=self.computation_system,
-previous_day_panchaanga=previous_daily_panchaanga)
+      daily_panchaanga = daily.DailyPanchaanga(city=self.city, date=date_d,
+                                               computation_system=self.computation_system,
+                                               previous_day_panchaanga=previous_daily_panchaanga)
       if compute_lagnas:
         daily_panchaanga.get_lagna_data()
       self.date_str_to_panchaanga[date_d.get_date_str()] = daily_panchaanga

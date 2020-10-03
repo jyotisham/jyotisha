@@ -68,8 +68,8 @@ class KaalaHandler(Resource):
   def get(self, latitude, longitude, year, month, day):
     args = self.get_parser.parse_args()
     city = City("", latitude, longitude, args['timezone'])
-    panchaanga = daily.DailyPanchanga(city=city, year=int(year), month=int(month),
-                                                                          day=int(day))
+    panchaanga = daily.DailyPanchaanga(city=city, year=int(year), month=int(month),
+                                       day=int(day))
     return panchaanga.day_length_based_periods.to_json_map()
 
 

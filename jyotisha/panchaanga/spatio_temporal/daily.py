@@ -73,20 +73,20 @@ class DayAngas(common.JsonObject):
 
 
 # This class is not named Panchangam in order to be able to disambiguate from annual.Panchangam in serialized objects.
-class DailyPanchanga(common.JsonObject):
+class DailyPanchaanga(common.JsonObject):
   """This class enables the construction of a panchaanga
     """
 
   @classmethod
   def from_city_and_julian_day(cls, city, julian_day, computation_system: ComputationSystem = ComputationSystem.MULTI_NEW_MOON_SOLAR_MONTH_ADHIKA__CHITRA_180):
     date = Timezone(city.timezone).julian_day_to_local_time(julian_day)
-    return DailyPanchanga(city=city, date=date, computation_system=computation_system)
+    return DailyPanchaanga(city=city, date=date, computation_system=computation_system)
 
   def __init__(self, city: City, date: Date, computation_system = ComputationSystem.MULTI_NEW_MOON_SOLAR_MONTH_ADHIKA__CHITRA_180,
                previous_day_panchaanga=None) -> None:
     """Constructor for the panchaanga.
     """
-    super(DailyPanchanga, self).__init__()
+    super(DailyPanchaanga, self).__init__()
     self.city = city
     self.date = date
     date.set_time_to_day_start()
@@ -412,7 +412,7 @@ common.update_json_class_index(sys.modules[__name__])
 
 
 if __name__ == '__main__':
-  panchaanga = DailyPanchanga.from_city_and_julian_day(city=City('Chennai', '13:05:24', '80:16:12', 'Asia/Calcutta'),
-                                                       julian_day=2457023.27)
+  panchaanga = DailyPanchaanga.from_city_and_julian_day(city=City('Chennai', '13:05:24', '80:16:12', 'Asia/Calcutta'),
+                                                        julian_day=2457023.27)
   panchaanga.compute_tb_muhuurtas()
   logging.debug(str(panchaanga))

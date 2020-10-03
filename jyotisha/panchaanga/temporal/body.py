@@ -128,6 +128,23 @@ class Graha(JsonObject):
     return transits
 
 
+def get_new_moons_in_period(jd_start, jd_end):
+  if jd_start > jd_end:
+    raise ValueError((jd_start, jd_end))
+  jd = jd_start
+  from jyotisha.panchaanga.temporal import zodiac
+  anga_finder = zodiac.AngaSpanFinder(ayanaamsha_id=zodiac.Ayanamsha.ASHVINI_STARTING_0, anga_type=zodiac.AngaType.TITHI)
+  new_moon_jds = []
+  while jd < jd_end:
+    new_moon = anga_finder.find(
+      jd1=jd_start, jd2=jd_start + 30,
+      target_anga_id=30)
+    if new_moon is not None and new_moon.jd_start < jd_end:
+      new_moon_jds.append(new_moon.jd_start)
+    jd = new_moon.jd_start + 28
+  return new_moon_jds
+
+
 def get_star_longitude(star, jd):
   """ Calculate star longitude based on sefstars.txt.
   
