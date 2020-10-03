@@ -141,7 +141,8 @@ def writeMonthlyTeX(panchaanga, template_file, scripts=[sanscript.DEVANAGARI], t
           month_text += '\n' + ("{}  &")
 
     tithi_data_str = ''
-    for tithi_ID, tithi_end_jd in daily_panchaanga.angas.tithis_with_ends:
+    for tithi_span in daily_panchaanga.angas.tithis_with_ends:
+      (tithi_ID, tithi_end_jd) = (tithi_span.name, tithi_span.jd_end)
       # if tithi_data_str != '':
       #     tithi_data_str += '\\hspace{2ex}'
       tithi = '\\moon[scale=0.6]{%d}\\hspace{2pt}' % (tithi_ID) + \
@@ -157,7 +158,8 @@ def writeMonthlyTeX(panchaanga, template_file, scripts=[sanscript.DEVANAGARI], t
                           '\\hspace{2ex}')
 
     nakshatra_data_str = ''
-    for nakshatra_ID, nakshatra_end_jd in daily_panchaanga.angas.nakshatras_with_ends:
+    for nakshatra_span in daily_panchaanga.angas.nakshatras_with_ends:
+      (nakshatra_ID, nakshatra_end_jd) = (nakshatra_span.name, nakshatra_span.jd_end)
       # if nakshatra_data_str != '':
       #     nakshatra_data_str += '\\hspace{2ex}'
       nakshatra = jyotisha.names.NAMES['NAKSHATRA_NAMES'][scripts[0]][nakshatra_ID]
@@ -173,7 +175,8 @@ def writeMonthlyTeX(panchaanga, template_file, scripts=[sanscript.DEVANAGARI], t
                                '\\hspace{2ex}')
 
     yoga_data_str = ''
-    for yoga_ID, yoga_end_jd in daily_panchaanga.angas.yogas_with_ends:
+    for yoga_span in daily_panchaanga.angas.yogas_with_ends:
+      (yoga_ID, yoga_end_jd) = (yoga_span.name, yoga_span.jd_end)
       # if yoga_data_str != '':
       #     yoga_data_str += '\\hspace{2ex}'
       yoga = jyotisha.names.NAMES['YOGA_NAMES'][scripts[0]][yoga_ID]
@@ -188,7 +191,8 @@ def writeMonthlyTeX(panchaanga, template_file, scripts=[sanscript.DEVANAGARI], t
                          '\\hspace{2ex}')
 
     karana_data_str = ''
-    for numKaranam, (karana_ID, karana_end_jd) in enumerate(daily_panchaanga.angas.karanas_with_ends):
+    for numKaranam, karaNa_span in enumerate(daily_panchaanga.angas.karanas_with_ends):
+      (karana_ID, karana_end_jd) = (karaNa_span.name, karaNa_span.jd_end)
       # if numKaranam == 1:
       #     karana_data_str += '\\hspace{2ex}'
       if numKaranam == 2:
@@ -241,7 +245,7 @@ def writeMonthlyTeX(panchaanga, template_file, scripts=[sanscript.DEVANAGARI], t
     if currWeek < 6:
       month_text += '\n' + ('\\caldata{\\textcolor{%s}{%s}}{%s{%s}}%%' %
                             (day_colours[daily_panchaanga.date.get_weekday()], dt, month_data,
-                             jyotisha.names.get_chandra_masa(daily_panchaanga.lunar_month,
+                             jyotisha.names.get_chandra_masa(daily_panchaanga.lunar_month_sunrise,
                                                              jyotisha.names.NAMES, scripts[0])))
       month_text += '\n' + ('{\\sundata{%s}{%s}{%s}}%%' % (sunrise, sunset, sangava))
       month_text += '\n' + ('{\\tnyk{%s}%%\n{%s}%%\n{%s}%%\n{%s}}%%' % (tithi_data_str, nakshatra_data_str,
@@ -257,7 +261,7 @@ def writeMonthlyTeX(panchaanga, template_file, scripts=[sanscript.DEVANAGARI], t
       if daily_panchaanga.date.get_weekday() == 0:
         W6D1 = '\n' + ('\\caldata{\\textcolor{%s}{%s}}{%s{%s}}%%' %
                        (day_colours[daily_panchaanga.date.get_weekday()], dt, month_data,
-                        jyotisha.names.get_chandra_masa(daily_panchaanga.lunar_month,
+                        jyotisha.names.get_chandra_masa(daily_panchaanga.lunar_month_sunrise,
                                                         jyotisha.names.NAMES, scripts[0])))
         W6D1 += '\n' + ('{\\sundata{%s}{%s}{%s}}%%' % (sunrise, sunset, sangava))
         W6D1 += '\n' + ('{\\tnyk{%s}%%\n{%s}%%\n{%s}%%\n{%s}}%%' % (tithi_data_str, nakshatra_data_str,
@@ -271,7 +275,7 @@ def writeMonthlyTeX(panchaanga, template_file, scripts=[sanscript.DEVANAGARI], t
       elif daily_panchaanga.date.get_weekday() == 1:
         W6D2 = '\n' + ('\\caldata{\\textcolor{%s}{%s}}{%s{%s}}%%' %
                        (day_colours[daily_panchaanga.date.get_weekday()], dt, month_data,
-                        jyotisha.names.get_chandra_masa(daily_panchaanga.lunar_month,
+                        jyotisha.names.get_chandra_masa(daily_panchaanga.lunar_month_sunrise,
                                                         jyotisha.names.NAMES, scripts[0])))
         W6D2 += '\n' + ('{\\sundata{%s}{%s}{%s}}%%' % (sunrise, sunset, sangava))
         W6D2 += '\n' + ('{\\tnyk{%s}%%\n{%s}%%\n{%s}%%\n{%s}}%%' % (tithi_data_str, nakshatra_data_str,

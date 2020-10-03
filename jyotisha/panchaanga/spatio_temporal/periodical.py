@@ -5,17 +5,18 @@ import traceback
 
 import methodtools
 
-from jyotisha.panchaanga import spatio_temporal, temporal
+from jyotisha.panchaanga import spatio_temporal
 from jyotisha.panchaanga.spatio_temporal import daily
-from jyotisha.panchaanga.temporal import zodiac, time
+from jyotisha.panchaanga.temporal import zodiac, time, set_constants, ComputationSystem
 from jyotisha.panchaanga.temporal.festival import applier
 from jyotisha.panchaanga.temporal.festival.applier import tithi_festival, ecliptic, solar, vaara
-from jyotisha.panchaanga.temporal.month import LunarMonthAssigner
 from jyotisha.panchaanga.temporal.time import Date
 from jyotisha.panchaanga.temporal.tithi import TithiAssigner
 from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision
 from sanskrit_data.schema import common
 from sanskrit_data.schema.common import JsonObject
+
+set_constants()
 
 
 class Panchaanga(common.JsonObject):
@@ -23,8 +24,7 @@ class Panchaanga(common.JsonObject):
     """
   LATEST_VERSION = "0.0.4"
 
-  def __init__(self, city, start_date, end_date, lunar_month_assigner_type=LunarMonthAssigner.SIDERIAL_SOLAR_BASED,
-               ayanaamsha_id=zodiac.Ayanamsha.CHITRA_AT_180,
+  def __init__(self, city, start_date, end_date, computation_system: ComputationSystem = ComputationSystem.MULTI_NEW_MOON_SOLAR_MONTH_ADHIKA__CHITRA_180,
                compute_lagnas=False):
     """Constructor for the panchaanga.
         """
@@ -36,8 +36,7 @@ class Panchaanga(common.JsonObject):
     self.end_date = Date(*([int(x) for x in end_date.split('-')]))
     self.end_date.set_time_to_day_start()
 
-    self.computation_system = temporal.ComputationSystem(lunar_month_assigner_type=lunar_month_assigner_type,
-                                                         ayanaamsha_id=ayanaamsha_id)
+    self.computation_system = computation_system
 
     self.jd_start = time.utc_gregorian_to_jd(self.start_date)
     self.jd_end = time.utc_gregorian_to_jd(self.end_date)
@@ -49,11 +48,8 @@ class Panchaanga(common.JsonObject):
     self.duration_to_calculate = int(self.duration + 16)
 
     self.weekday_start = time.get_weekday(self.jd_start)
-    self.ayanaamsha_id = ayanaamsha_id
 
     self.compute_angas(compute_lagnas=compute_lagnas)
-    lunar_month_assigner = LunarMonthAssigner.get_assigner(assigner_id=lunar_month_assigner_type, panchaanga=self)
-    lunar_month_assigner.assign()
 
   def compute_angas(self, compute_lagnas=True):
     """Compute the entire panchaanga
@@ -69,13 +65,13 @@ class Panchaanga(common.JsonObject):
     # solar_sidereal_month_day_sunset at the start of the loop across every day in
     # year
     previous_day = time.jd_to_utc_gregorian(self.jd_start - 1)
-    daily_panchaanga_start = daily.DailyPanchanga(city=self.city, date=previous_day, ayanaamsha_id=self.ayanaamsha_id)
+    daily_panchaanga_start = daily.DailyPanchanga(city=self.city, date=previous_day, computation_system=self.computation_system)
 
     solar_month_today_sunset = NakshatraDivision(daily_panchaanga_start.jd_sunset,
-                                                 ayanaamsha_id=self.ayanaamsha_id).get_anga(
+                                                 ayanaamsha_id=self.computation_system.ayanaamsha_id).get_anga(
       zodiac.AngaType.SOLAR_MONTH)
     solar_month_tmrw_sunrise = NakshatraDivision(daily_panchaanga_start.jd_sunrise + 1,
-                                                 ayanaamsha_id=self.ayanaamsha_id).get_anga(
+                                                 ayanaamsha_id=self.computation_system.ayanaamsha_id).get_anga(
       zodiac.AngaType.SOLAR_MONTH)
     month_start_after_sunset = solar_month_today_sunset != solar_month_tmrw_sunrise
 
@@ -90,7 +86,7 @@ class Panchaanga(common.JsonObject):
       date_d.set_time_to_day_start()
       previous_daily_panchaanga = self.date_str_to_panchaanga.get(date_d.offset_date(days=-1).get_date_str(), None)
       daily_panchaanga = daily.DailyPanchanga(city=self.city, date=date_d,
-                                                           ayanaamsha_id=self.ayanaamsha_id,
+                                                           computation_system=self.computation_system,
 previous_day_panchaanga=previous_daily_panchaanga)
       if compute_lagnas:
         daily_panchaanga.get_lagna_data()
@@ -272,11 +268,13 @@ previous_day_panchaanga=previous_daily_panchaanga)
     """
     for daily_panchaanga in self.date_str_to_panchaanga.values():
       daily_panchaanga.city = self.city
+      daily_panchaanga.computation_system = self.computation_system
 
   def _force_non_redundancy_in_daily_panchaangas(self):
     """Avoids duplication for memory efficiency."""
     for daily_panchaanga in self.date_str_to_panchaanga.values():
       daily_panchaanga.city = None
+      daily_panchaanga.computation_system = None
 
   @classmethod
   def read_from_file(cls, filename, name_to_json_class_index_extra=None):

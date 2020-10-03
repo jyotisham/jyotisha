@@ -143,7 +143,8 @@ def writeDailyICS(panchaanga, script=sanscript.DEVANAGARI, compute_lagnams=True)
 
     paksha_data_str = ''
     tithi_data_str = ''
-    for tithi_ID, tithi_end_jd in daily_panchaanga.angas.tithis_with_ends:
+    for tithi_span in daily_panchaanga.angas.tithis_with_ends:
+      (tithi_ID, tithi_end_jd) = (tithi_span.name, tithi_span.jd_end)
       tithi = jyotisha.names.NAMES['TITHI_NAMES'][script][tithi_ID].split('-')[-1]
       paksha = jyotisha.custom_transliteration.tr('zuklapakSaH' if tithi_ID <= 15 else 'kRSNapakSaH', script)
       if tithi_end_jd is None:
@@ -160,7 +161,8 @@ def writeDailyICS(panchaanga, script=sanscript.DEVANAGARI, compute_lagnams=True)
     paksha_data_str = '*' + getName('pakSaH', script) + '*—' + paksha
 
     nakshatra_data_str = ''
-    for nakshatra_ID, nakshatra_end_jd in daily_panchaanga.angas.nakshatras_with_ends:
+    for nakshatra_span in daily_panchaanga.angas.nakshatras_with_ends:
+      (nakshatra_ID, nakshatra_end_jd) = (nakshatra_span.name, nakshatra_span.jd_end)
       nakshatra = jyotisha.names.NAMES['NAKSHATRA_NAMES'][script][nakshatra_ID]
       if nakshatra_end_jd is None:
         nakshatra_data_str = '%s; %s►%s' % \
@@ -174,7 +176,8 @@ def writeDailyICS(panchaanga, script=sanscript.DEVANAGARI, compute_lagnams=True)
     nakshatra_data_str = '*' + getName('nakSatram', script) + '*—' + nakshatra_data_str[2:]
 
     chandrashtama_rashi_data_str = ''
-    for rashi_ID, rashi_end_jd in daily_panchaanga.angas.raashis_with_ends:
+    for raashi_span in daily_panchaanga.angas.raashis_with_ends:
+      (rashi_ID, rashi_end_jd) = (raashi_span.name, raashi_span.jd_end)
       rashi = jyotisha.names.NAMES['RASHI_SUFFIXED_NAMES'][script][rashi_ID]
       if rashi_end_jd is None:
         rashi_data_str = '%s' % (rashi)
@@ -199,7 +202,8 @@ def writeDailyICS(panchaanga, script=sanscript.DEVANAGARI, compute_lagnams=True)
       lagna_data_str = '*' + getName('lagnam', script) + '*—' + lagna_data_str[2:]
 
     yoga_data_str = ''
-    for yoga_ID, yoga_end_jd in daily_panchaanga.angas.yogas_with_ends:
+    for yoga_span in daily_panchaanga.angas.yogas_with_ends:
+      (yoga_ID, yoga_end_jd) = (yoga_span.name, yoga_span.jd_end)
       # if yoga_data_str != '':
       #     yoga_data_str += ' '
       yoga = jyotisha.names.NAMES['YOGA_NAMES'][script][yoga_ID]
@@ -215,7 +219,8 @@ def writeDailyICS(panchaanga, script=sanscript.DEVANAGARI, compute_lagnams=True)
     yoga_data_str = '*' + getName('yOgaH', script) + '*—' + yoga_data_str[2:]
 
     karana_data_str = ''
-    for numKaranam, (karana_ID, karana_end_jd) in enumerate(daily_panchaanga.angas.karanas_with_ends):
+    for numKaranam, karaNa_span in enumerate(daily_panchaanga.angas.karanas_with_ends):
+      (karana_ID, karana_end_jd) = (karaNa_span.name, karaNa_span.jd_end)
       # if numKaranam == 1:
       #     karana_data_str += ' '
       karana = jyotisha.names.NAMES['KARANA_NAMES'][script][karana_ID]
@@ -278,14 +283,14 @@ def writeDailyICS(panchaanga, script=sanscript.DEVANAGARI, compute_lagnams=True)
     if daily_panchaanga.solar_sidereal_date_sunset.month == 1:
       # Flip the year name for the remaining days
       yname_solar = samvatsara_names[1]
-    if daily_panchaanga.lunar_month == 1:
+    if daily_panchaanga.lunar_month_sunrise == 1:
       # Flip the year name for the remaining days
       yname_lunar = samvatsara_names[1]
 
     # Assign samvatsara, ayana, rtu #
     ayanam = jyotisha.names.NAMES['AYANA_NAMES'][script][daily_panchaanga.solar_sidereal_date_sunset.month]
     rtu_solar = jyotisha.names.NAMES['RTU_NAMES'][script][daily_panchaanga.solar_sidereal_date_sunset.month]
-    rtu_lunar = jyotisha.names.NAMES['RTU_NAMES'][script][int(ceil(daily_panchaanga.lunar_month))]
+    rtu_lunar = jyotisha.names.NAMES['RTU_NAMES'][script][int(ceil(daily_panchaanga.lunar_month_sunrise))]
 
     if daily_panchaanga.solar_sidereal_date_sunset.month_transition is None:
       month_end_str = ''
@@ -334,9 +339,9 @@ def writeDailyICS(panchaanga, script=sanscript.DEVANAGARI, compute_lagnams=True)
     if rtu_lunar != rtu_solar:
       print('*' + getName('RtuH', script) + '*—%s' % rtu_lunar, file=output_stream)
     print(
-      '*' + getName('mAsaH', script) + '*—%s' % jyotisha.names.get_chandra_masa(daily_panchaanga.lunar_month,
-                                                                                           jyotisha.names.NAMES,
-                                                                                           script),
+      '*' + getName('mAsaH', script) + '*—%s' % jyotisha.names.get_chandra_masa(daily_panchaanga.lunar_month_sunrise,
+                                                                                jyotisha.names.NAMES,
+                                                                                script),
       file=output_stream)
     print('°' * 25, file=output_stream)
     # braahma
@@ -464,8 +469,6 @@ def main():
 
   panchaanga = jyotisha.panchaanga.spatio_temporal.annual.get_panchaanga(city=city, year=year, 
                                                                          compute_lagnas=compute_lagnams)
-  script = script  # Force script irrespective of what was obtained from saved file
-  panchaanga.fmt = fmt  # Force fmt
 
   panchaanga.update_festival_details()
 

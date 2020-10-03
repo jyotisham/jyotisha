@@ -71,13 +71,13 @@ def compute_events(panchaanga, json_file):
         # does not touch sunrise on either day (the regular check won't work, because
         # the month itself is different the previous day!)
         if daily_panchaanga.angas.tithi_at_sunrise == 30 and daily_panchaangas[d + 1].angas.tithi_at_sunrise == 2 and \
-            daily_panchaangas[d + 1].lunar_month == month_num:
+            daily_panchaangas[d + 1].lunar_month_sunrise == month_num:
           # Only in this case, we have a problem
 
           event_num = None
           if event_start_year is not None:
             if month_type == 'lunar_month':
-              event_num = panchaanga.year + 3100 + (d >= panchaanga.lunar_month.index(1)) - event_start_year + 1
+              event_num = panchaanga.year + 3100 + (d >= panchaanga.lunar_month_sunrise.index(1)) - event_start_year + 1
 
           if event_num is not None and event_num < 0:
             logging.debug('Festival %s is only in the future!' % event_name)
@@ -94,7 +94,7 @@ def compute_events(panchaanga, json_file):
           and daily_panchaanga.solar_sidereal_date_sunset.month == month_num:
         if daily_panchaanga.solar_sidereal_date_sunset.day == angam_num:
           panchaanga.festival_id_to_instance[event_name] = festival.FestivalInstance(id=event_name, days=[daily_panchaangas[d].date])
-      elif (month_type == 'lunar_month' and daily_panchaanga.lunar_month == month_num) or \
+      elif (month_type == 'lunar_month' and daily_panchaanga.lunar_month_sunrise == month_num) or \
           (month_type == 'sidereal_solar_month' and daily_panchaanga.solar_sidereal_date_sunset.month == month_num):
         if anga_type == 'tithi':
           angam_sunrise = daily_panchaanga.angas.tithi_at_sunrise
@@ -116,7 +116,7 @@ def compute_events(panchaanga, json_file):
           if month_type == 'sidereal_solar_month':
             event_num = panchaanga.year + 3100 + (d >= daily_panchaangas.index(1).solar_month) - event_start_year + 1
           elif month_type == 'lunar_month':
-            event_num = panchaanga.year + 3100 + (d >= panchaanga.lunar_month.index(1)) - event_start_year + 1
+            event_num = panchaanga.year + 3100 + (d >= panchaanga.lunar_month_sunrise.index(1)) - event_start_year + 1
 
         if event_num is not None and event_num < 0:
           logging.debug('Festival %s is only in the future!' % event_name)
@@ -166,7 +166,7 @@ def compute_events(panchaanga, json_file):
                 # to this puurvaviddha festival!
                 if angam_num == 1:
                   # Need to check if tomorrow is still the same month, unlikely!
-                  if daily_panchaangas[d + 1].lunar_month == month_num:
+                  if daily_panchaangas[d + 1].lunar_month_sunrise == month_num:
                     if panchaanga.festival_id_to_instance[event_name].days.count(daily_panchaangas[d - 1].date) == 0:
                       fday = d
                       if debugEvents:
@@ -183,7 +183,7 @@ def compute_events(panchaanga, json_file):
                 fday = d
                 logging.debug('Assigned fday = %d' % d)
             elif angams[2] == angam_num or angams[3] == angam_num:
-              if (month_type == 'lunar_month' and daily_panchaangas[d + 1].lunar_month == month_num) or \
+              if (month_type == 'lunar_month' and daily_panchaangas[d + 1].lunar_month_sunrise == month_num) or \
                   (month_type == 'sidereal_solar_month' and daily_panchaangas[d + 1].solar_sidereal_date_sunset.month == month_num):
                 fday = d + 1
                 logging.debug('Assigned fday = %d' % (d + 1))

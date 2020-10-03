@@ -8,15 +8,17 @@ from indic_transliteration import xsanscript as sanscript
 from jyotisha.panchaanga import spatio_temporal
 from jyotisha.panchaanga.spatio_temporal import periodical
 from jyotisha.panchaanga.spatio_temporal.periodical import Panchaanga
-from jyotisha.panchaanga.temporal import zodiac
+from jyotisha.panchaanga.temporal import zodiac, ComputationSystem, set_constants
 from sanskrit_data.schema import common
 from sanskrit_data.schema.common import JsonObject
 
 common.update_json_class_index(sys.modules[__name__])
 
+set_constants()
+
 
 def get_panchaanga(city, year, compute_lagnas=False, precomputed_json_dir="~/Documents",
-                   ayanaamsha_id=zodiac.Ayanamsha.CHITRA_AT_180, allow_precomputed=True):
+                   computation_system: ComputationSystem = ComputationSystem.MULTI_NEW_MOON_SOLAR_MONTH_ADHIKA__CHITRA_180, allow_precomputed=True):
   fname_det = os.path.expanduser('%s/%s-%s-detailed.json' % (precomputed_json_dir, city.name, year))
   fname = os.path.expanduser('%s/%s-%s.json' % (precomputed_json_dir, city.name, year))
 
@@ -27,13 +29,12 @@ def get_panchaanga(city, year, compute_lagnas=False, precomputed_json_dir="~/Doc
     if getattr(panchaanga, 'version', None) is None or panchaanga.version != periodical.Panchaanga.LATEST_VERSION:
       logging.warning("Precomputed Panchanga obsolete.")
       return get_panchaanga(city=city, year=year, compute_lagnas=compute_lagnas, precomputed_json_dir=precomputed_json_dir,
-                                  ayanaamsha_id=ayanaamsha_id, allow_precomputed=False)
+                                  computation_system=computation_system, allow_precomputed=False)
     else:
       return panchaanga
   else:
     sys.stderr.write('No precomputed data available. Computing panchaanga...\n')
-    panchaanga = periodical.Panchaanga(city=city, start_date='%d-01-01' % year, end_date='%d-12-31' % year, compute_lagnas=compute_lagnas,
-                                       ayanaamsha_id=ayanaamsha_id)
+    panchaanga = periodical.Panchaanga(city=city, start_date='%d-01-01' % year, end_date='%d-12-31' % year, compute_lagnas=compute_lagnas)
     panchaanga.year = year
     sys.stderr.write('Writing computed panchaanga to %s...\n' % fname)
 

@@ -61,11 +61,11 @@ class SolarFestivalAssigner(FestivalAssigner):
     for date in vs_list:
       d = int(date - self.daily_panchaangas[0].date)
       if self.daily_panchaangas[d].solar_sidereal_date_sunset.month == 9:
-        self.panchaanga.festival_id_to_instance['vyatIpAta-zrAddham'].days.remove(d)
+        self.panchaanga.festival_id_to_instance['vyatIpAta-zrAddham'].days.remove(date)
         festival_name = 'mahAdhanurvyatIpAta-zrAddham'
         self.add_festival(festival_name, d)
       elif self.daily_panchaangas[d].solar_sidereal_date_sunset.month == 6:
-        self.panchaanga.festival_id_to_instance['vyatIpAta-zrAddham'].days.remove(d)
+        self.panchaanga.festival_id_to_instance['vyatIpAta-zrAddham'].days.remove(date)
         festival_name = 'mahAvyatIpAta-zrAddham'
         self.add_festival(festival_name, d)
 
@@ -147,7 +147,7 @@ class SolarFestivalAssigner(FestivalAssigner):
       # 4th pada of vyatipatam, 1st pada of Amavasya, 2nd pada of Shravana, Suryodaya, Somavasara = Mahodayam
       sunrise_zodiac = NakshatraDivision(self.daily_panchaangas[d].jd_sunrise, ayanaamsha_id=self.ayanaamsha_id)
       sunset_zodiac = NakshatraDivision(self.daily_panchaangas[d].jd_sunset, ayanaamsha_id=self.ayanaamsha_id)
-      if self.daily_panchaangas[d].lunar_month in [10, 11] and self.daily_panchaangas[d].angas.tithi_at_sunrise == 30 or tithi.get_tithi(self.daily_panchaangas[d].jd_sunrise) == 30:
+      if self.daily_panchaangas[d].lunar_month_sunrise in [10, 11] and self.daily_panchaangas[d].angas.tithi_at_sunrise == 30 or tithi.get_tithi(self.daily_panchaangas[d].jd_sunrise) == 30:
         if sunrise_zodiac.get_anga(zodiac.AngaType.NAKSHATRA) == 17 or \
             sunset_zodiac.get_anga(zodiac.AngaType.NAKSHATRA) == 17 and \
             sunrise_zodiac.get_anga(zodiac.AngaType.NAKSHATRA) == 22 or \

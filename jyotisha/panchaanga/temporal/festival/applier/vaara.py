@@ -33,7 +33,7 @@ class VaraFestivalAssigner(FestivalAssigner):
     for d in range(1, self.panchaanga.duration + 1):
 
       # KRTTIKA SOMAVASARA
-      if self.daily_panchaangas[d].lunar_month == 8 and self.daily_panchaangas[d].date.get_weekday() == 1:
+      if self.daily_panchaangas[d].lunar_month_sunrise == 8 and self.daily_panchaangas[d].date.get_weekday() == 1:
         self.add_festival('kRttikA~sOmavAsaraH', d)
 
       # SOLAR MONTH-WEEKDAY FESTIVALS
@@ -84,13 +84,13 @@ class VaraFestivalAssigner(FestivalAssigner):
                                                        (4, 6, 'zanirOhiNI-puNyakAlaH'),
                                                        ):
         n_prev = ((nwd_fest_n - 2) % 27) + 1
-        if (self.daily_panchaangas[d].nakshatra_at_sunrise == nwd_fest_n or self.daily_panchaangas[d].nakshatra_at_sunrise == n_prev) and self.daily_panchaangas[
+        if (self.daily_panchaangas[d].angas.nakshatra_at_sunrise == nwd_fest_n or self.daily_panchaangas[d].angas.nakshatra_at_sunrise == n_prev) and self.daily_panchaangas[
           d].date.get_weekday() == nwd_fest_wd:
           # Is it necessarily only at sunrise?
           angams = self.panchaanga.get_angas_for_interval_boundaries(d, lambda x: NakshatraDivision(x,
                                                                                                     ayanaamsha_id=self.ayanaamsha_id).get_nakshatra(),
                                               'dinamaana')
-          if any(x == nwd_fest_n for x in [self.daily_panchaangas[d].nakshatra_at_sunrise, angams[0], angams[1]]):
+          if any(x == nwd_fest_n for x in [self.daily_panchaangas[d].angas.nakshatra_at_sunrise, angams[0], angams[1]]):
             self.add_festival(nwd_fest_name, d)
 
 

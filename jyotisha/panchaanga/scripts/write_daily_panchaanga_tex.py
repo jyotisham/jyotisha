@@ -86,7 +86,8 @@ def writeDailyTeX(panchaanga, template_file, time_format="hh:mm", scripts=[sansc
     jd = daily_panchaanga.julian_day_start
 
     tithi_data_str = ''
-    for tithi_ID, tithi_end_jd in daily_panchaanga.angas.tithis_with_ends:
+    for tithi_span in daily_panchaanga.angas.tithis_with_ends:
+      (tithi_ID, tithi_end_jd) = (tithi_span.name, tithi_span.jd_end)
       # if tithi_data_str != '':
       #     tithi_data_str += '\\hspace{1ex}'
       tithi = '\\raisebox{-1pt}{\\moon[scale=0.8]{%d}}\\hspace{2pt}' % (tithi_ID) + \
@@ -104,7 +105,8 @@ def writeDailyTeX(panchaanga, template_file, time_format="hh:mm", scripts=[sansc
                             format=time_format))
 
     nakshatra_data_str = ''
-    for nakshatra_ID, nakshatra_end_jd in daily_panchaanga.angas.nakshatras_with_ends:
+    for nakshatra_span in daily_panchaanga.angas.nakshatras_with_ends:
+      (nakshatra_ID, nakshatra_end_jd) = (nakshatra_span.name, nakshatra_span.jd_end)
       if nakshatra_data_str != '':
         nakshatra_data_str += '\\hspace{1ex}'
       nakshatra = jyotisha.names.NAMES['NAKSHATRA_NAMES'][scripts[0]][nakshatra_ID]
@@ -121,7 +123,8 @@ def writeDailyTeX(panchaanga, template_file, time_format="hh:mm", scripts=[sansc
                                  format=time_format))
 
     rashi_data_str = ''
-    for rashi_ID, rashi_end_jd in daily_panchaanga.angas.raashis_with_ends:
+    for raashi_span in daily_panchaanga.angas.raashis_with_ends:
+      (rashi_ID, rashi_end_jd) = (raashi_span.name, raashi_span.jd_end)
       # if rashi_data_str != '':
       #     rashi_data_str += '\\hspace{1ex}'
       rashi = jyotisha.names.NAMES['RASHI_SUFFIXED_NAMES'][scripts[0]][rashi_ID]
@@ -142,7 +145,8 @@ def writeDailyTeX(panchaanga, template_file, time_format="hh:mm", scripts=[sansc
                             format=time_format))
 
     yoga_data_str = ''
-    for yoga_ID, yoga_end_jd in daily_panchaanga.angas.yogas_with_ends:
+    for yoga_span in daily_panchaanga.angas.yogas_with_ends:
+      (yoga_ID, yoga_end_jd) = (yoga_span.name, yoga_span.jd_end)
       # if yoga_data_str != '':
       #     yoga_data_str += '\\hspace{1ex}'
       yoga = jyotisha.names.NAMES['YOGA_NAMES'][scripts[0]][yoga_ID]
@@ -161,7 +165,8 @@ def writeDailyTeX(panchaanga, template_file, time_format="hh:mm", scripts=[sansc
         jyotisha.names.NAMES['YOGA_NAMES'][scripts[0]][(yoga_ID % 27) + 1])
 
     karana_data_str = ''
-    for numKaranam, (karana_ID, karana_end_jd) in enumerate(daily_panchaanga.angas.karanas_with_ends):
+    for numKaranam, karaNa_span in enumerate(daily_panchaanga.angas.karanas_with_ends):
+      (karana_ID, karana_end_jd) = (karaNa_span.name, karaNa_span.jd_end)
       # if numKaranam == 1:
       #     karana_data_str += '\\hspace{1ex}'
       karana = jyotisha.names.NAMES['KARANA_NAMES'][scripts[0]][karana_ID]
@@ -261,9 +266,9 @@ def writeDailyTeX(panchaanga, template_file, time_format="hh:mm", scripts=[sansc
 
     print('\\caldata{%s}{%s}{%s{%s}{%s}{%s}%s}' %
           (month[m], dt, month_data,
-           jyotisha.names.get_chandra_masa(daily_panchaanga.lunar_month,
+           jyotisha.names.get_chandra_masa(daily_panchaanga.lunar_month_sunrise,
                                            jyotisha.names.NAMES, scripts[0]),
-           jyotisha.names.NAMES['RTU_NAMES'][scripts[0]][int(ceil(daily_panchaanga.lunar_month))],
+           jyotisha.names.NAMES['RTU_NAMES'][scripts[0]][int(ceil(daily_panchaanga.lunar_month_sunrise))],
            jyotisha.names.NAMES['VARA_NAMES'][scripts[0]][daily_panchaanga.date.get_weekday()], sar_data), file=output_stream)
 
     if daily_panchaanga.jd_moonrise > daily_panchaangas[d + 1].jd_sunrise:
@@ -331,8 +336,7 @@ def main():
   city = City(city_name, latitude, longitude, tz)
 
   panchaanga = jyotisha.panchaanga.spatio_temporal.annual.get_panchaanga(city=city, year=year, 
-                                                                         compute_lagnas=compute_lagnams,
-                                                                         ayanaamsha_id=zodiac.Ayanamsha.CHITRA_AT_180)
+                                                                         compute_lagnas=compute_lagnams)
 
   panchaanga.update_festival_details()
 

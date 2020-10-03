@@ -52,7 +52,8 @@ class TithiAssigner(PanchaangaApplier):
       t_start_d, t_end_d = interval.get_interval(daily_panchaangas[d].jd_sunrise, daily_panchaangas[d].jd_sunset, 3, 5).to_tuple()
       span_1 = t_end_d - t_start_d
       span_2 = 0
-      for [tithi, tithi_end] in daily_panchaangas[d].angas.tithis_with_ends:
+      for tithi_span in daily_panchaangas[d].angas.tithis_with_ends:
+        tithi_end = tithi_span.jd_end
         if tithi_end is None:
           pass
         elif t_start_d < tithi_end < t_end_d:
@@ -61,7 +62,8 @@ class TithiAssigner(PanchaangaApplier):
   
       t_start_d1, t_end_d1 = interval.get_interval(daily_panchaangas[d + 1].jd_sunrise, daily_panchaangas[d + 1].jd_sunset, 3, 5).to_tuple()
       vyapti_3 = t_end_d1 - t_start_d1
-      for [tithi, tithi_end] in daily_panchaangas[d + 1].angas.tithis_with_ends:
+      for tithi_span in daily_panchaangas[d + 1].angas.tithis_with_ends:
+        tithi_end = tithi_span.jd_end
         if tithi_end is None:
           pass
         elif t_start_d1 < tithi_end < t_end_d1:
@@ -152,11 +154,11 @@ class TithiAssigner(PanchaangaApplier):
       logging.debug(self.panchaanga.shraaddha_tithi)
   
     
-    for z in set([x.lunar_month for x in self.daily_panchaangas]):
+    for z in set([x.lunar_month_sunrise for x in self.daily_panchaangas]):
       lunar_tithi_days[z] = {}
     for d in range(1, self.panchaanga.duration + 1):
       for t in daily_panchaangas[d].shraaddha_tithi:
-        lunar_tithi_days[daily_panchaangas[d].lunar_month][t] = d
+        lunar_tithi_days[daily_panchaangas[d].lunar_month_sunrise][t] = d
   
     # Following this primary assignment, we must now "clean" for Sankranti, and repetitions
     # If there are two tithis, take second. However, if the second has sankrAnti dushtam, take
