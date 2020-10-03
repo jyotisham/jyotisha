@@ -52,7 +52,7 @@ class TithiAssigner(PanchaangaApplier):
       t_start_d, t_end_d = interval.get_interval(daily_panchaangas[d].jd_sunrise, daily_panchaangas[d].jd_sunset, 3, 5).to_tuple()
       span_1 = t_end_d - t_start_d
       span_2 = 0
-      for tithi_span in daily_panchaangas[d].angas.tithis_with_ends:
+      for tithi_span in daily_panchaangas[d].sunrise_day_angas.tithis_with_ends:
         tithi_end = tithi_span.jd_end
         if tithi_end is None:
           pass
@@ -62,7 +62,7 @@ class TithiAssigner(PanchaangaApplier):
   
       t_start_d1, t_end_d1 = interval.get_interval(daily_panchaangas[d + 1].jd_sunrise, daily_panchaangas[d + 1].jd_sunset, 3, 5).to_tuple()
       vyapti_3 = t_end_d1 - t_start_d1
-      for tithi_span in daily_panchaangas[d + 1].angas.tithis_with_ends:
+      for tithi_span in daily_panchaangas[d + 1].sunrise_day_angas.tithis_with_ends:
         tithi_end = tithi_span.jd_end
         if tithi_end is None:
           pass
@@ -80,7 +80,7 @@ class TithiAssigner(PanchaangaApplier):
       # <g> 1 2 2 3 - vyApti: 2
       fday = -1
       reason = '?'
-      # if angas[1] == angam_start:
+      # if sunrise_day_angas[1] == angam_start:
       #     logging.debug('Pre-emptively assign %2d to %3d, can be removed tomorrow if need be.' % (angam_start, d))
       #     _assign(self, d, angam_start)
       if angas[3] == angam_start:  # <a>

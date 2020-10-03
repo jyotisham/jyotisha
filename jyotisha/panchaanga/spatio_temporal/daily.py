@@ -102,7 +102,7 @@ class DailyPanchanga(common.JsonObject):
 
     self.lagna_data = None
     self.day_length_based_periods = None
-    self.angas = None
+    self.sunrise_day_angas = None
 
     self.solar_sidereal_date_sunset = None
 
@@ -157,16 +157,16 @@ class DailyPanchanga(common.JsonObject):
     if force_recomputation or self.jd_moonset is None:
       self.jd_moonset = self.city.get_setting_time(julian_day_start=self.jd_sunrise, body=Graha.MOON)
 
-    if force_recomputation or self.angas is None:
-      self.angas = DayAngas()
-      self.angas.tithis_with_ends = self.get_sunrise_day_anga_spans(zodiac.AngaType.TITHI)
-      self.angas.tithi_at_sunrise = self.angas.tithis_with_ends[0].name
-      self.angas.nakshatras_with_ends = self.get_sunrise_day_anga_spans(zodiac.AngaType.NAKSHATRA)
-      self.angas.nakshatra_at_sunrise = self.angas.nakshatras_with_ends[0].name
-      self.angas.yogas_with_ends = self.get_sunrise_day_anga_spans(zodiac.AngaType.YOGA)
-      self.angas.yoga_at_sunrise = self.angas.yogas_with_ends[0].name
-      self.angas.karanas_with_ends = self.get_sunrise_day_anga_spans(zodiac.AngaType.KARANA)
-      self.angas.raashis_with_ends = self.get_sunrise_day_anga_spans(zodiac.AngaType.RASHI)
+    if force_recomputation or self.sunrise_day_angas is None:
+      self.sunrise_day_angas = DayAngas()
+      self.sunrise_day_angas.tithis_with_ends = self.get_sunrise_day_anga_spans(zodiac.AngaType.TITHI)
+      self.sunrise_day_angas.tithi_at_sunrise = self.sunrise_day_angas.tithis_with_ends[0].name
+      self.sunrise_day_angas.nakshatras_with_ends = self.get_sunrise_day_anga_spans(zodiac.AngaType.NAKSHATRA)
+      self.sunrise_day_angas.nakshatra_at_sunrise = self.sunrise_day_angas.nakshatras_with_ends[0].name
+      self.sunrise_day_angas.yogas_with_ends = self.get_sunrise_day_anga_spans(zodiac.AngaType.YOGA)
+      self.sunrise_day_angas.yoga_at_sunrise = self.sunrise_day_angas.yogas_with_ends[0].name
+      self.sunrise_day_angas.karanas_with_ends = self.get_sunrise_day_anga_spans(zodiac.AngaType.KARANA)
+      self.sunrise_day_angas.raashis_with_ends = self.get_sunrise_day_anga_spans(zodiac.AngaType.RASHI)
 
   def compute_tb_muhuurtas(self):
     """ Computes muhuurta-s according to taittiriiya brAhmaNa.
@@ -225,11 +225,11 @@ class DailyPanchanga(common.JsonObject):
 
   def set_lunar_month_sunrise(self, month_assigner, previous_day_panchaanga=None):
     if previous_day_panchaanga is not None:
-      anga = previous_day_panchaanga.angas.find_anga(anga_type=AngaType.TITHI, anga_id=1)
+      anga = previous_day_panchaanga.sunrise_day_angas.find_anga(anga_type=AngaType.TITHI, anga_id=1)
       if anga is not None:
         self.lunar_month_sunrise = month_assigner.get_month_sunrise(daily_panchaanga=self)
       else:
-        if self.angas.tithi_at_sunrise == 1:
+        if self.sunrise_day_angas.tithi_at_sunrise == 1:
           self.lunar_month_sunrise = month_assigner.get_month_sunrise(daily_panchaanga=self)
         else:
           self.lunar_month_sunrise = previous_day_panchaanga.lunar_month_sunrise
@@ -317,7 +317,7 @@ class DailyPanchanga(common.JsonObject):
                 Hour((kaalas[x].jd_end - self.julian_day_start) * 24).toString(format=format)) for x in kaalas.__dict__}
 
   def get_sunrise_day_anga_spans(self, anga_type):
-    """Computes anga data for angas such as tithi, nakshatra, yoga
+    """Computes anga data for sunrise_day_angas such as tithi, nakshatra, yoga
     and karana.
   
     Args:
@@ -326,7 +326,7 @@ class DailyPanchanga(common.JsonObject):
     Returns:
       tuple: A tuple comprising
         anga_sunrise: The anga that prevails as sunrise
-        anga_data: a list of (int, float) tuples detailing the angas
+        anga_data: a list of (int, float) tuples detailing the sunrise_day_angas
         for the day and their end-times (Julian day)
     """
     w_moon = anga_type.weight_moon

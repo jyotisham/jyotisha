@@ -141,7 +141,7 @@ def writeMonthlyTeX(panchaanga, template_file, scripts=[sanscript.DEVANAGARI], t
           month_text += '\n' + ("{}  &")
 
     tithi_data_str = ''
-    for tithi_span in daily_panchaanga.angas.tithis_with_ends:
+    for tithi_span in daily_panchaanga.sunrise_day_angas.tithis_with_ends:
       (tithi_ID, tithi_end_jd) = (tithi_span.name, tithi_span.jd_end)
       # if tithi_data_str != '':
       #     tithi_data_str += '\\hspace{2ex}'
@@ -158,7 +158,7 @@ def writeMonthlyTeX(panchaanga, template_file, scripts=[sanscript.DEVANAGARI], t
                           '\\hspace{2ex}')
 
     nakshatra_data_str = ''
-    for nakshatra_span in daily_panchaanga.angas.nakshatras_with_ends:
+    for nakshatra_span in daily_panchaanga.sunrise_day_angas.nakshatras_with_ends:
       (nakshatra_ID, nakshatra_end_jd) = (nakshatra_span.name, nakshatra_span.jd_end)
       # if nakshatra_data_str != '':
       #     nakshatra_data_str += '\\hspace{2ex}'
@@ -175,7 +175,7 @@ def writeMonthlyTeX(panchaanga, template_file, scripts=[sanscript.DEVANAGARI], t
                                '\\hspace{2ex}')
 
     yoga_data_str = ''
-    for yoga_span in daily_panchaanga.angas.yogas_with_ends:
+    for yoga_span in daily_panchaanga.sunrise_day_angas.yogas_with_ends:
       (yoga_ID, yoga_end_jd) = (yoga_span.name, yoga_span.jd_end)
       # if yoga_data_str != '':
       #     yoga_data_str += '\\hspace{2ex}'
@@ -191,7 +191,7 @@ def writeMonthlyTeX(panchaanga, template_file, scripts=[sanscript.DEVANAGARI], t
                          '\\hspace{2ex}')
 
     karana_data_str = ''
-    for numKaranam, karaNa_span in enumerate(daily_panchaanga.angas.karanas_with_ends):
+    for numKaranam, karaNa_span in enumerate(daily_panchaanga.sunrise_day_angas.karanas_with_ends):
       (karana_ID, karana_end_jd) = (karaNa_span.name, karaNa_span.jd_end)
       # if numKaranam == 1:
       #     karana_data_str += '\\hspace{2ex}'

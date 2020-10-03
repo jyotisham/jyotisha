@@ -33,12 +33,12 @@ class NakshatraAssigner(PanchaangaApplier):
     for d in range(1, self.panchaanga.duration + 1):
       [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
       jd = self.daily_panchaangas[d].julian_day_start
-      t_start = self.daily_panchaangas[d - 1].angas.nakshatras_with_ends[-1].jd_end
+      t_start = self.daily_panchaangas[d - 1].sunrise_day_angas.nakshatras_with_ends[-1].jd_end
       if t_start is not None:
-        nakshatra_span = self.daily_panchaangas[d].angas.nakshatras_with_ends[0]
+        nakshatra_span = self.daily_panchaangas[d].sunrise_day_angas.nakshatras_with_ends[0]
         (n, t_end) = (nakshatra_span.name, nakshatra_span.jd_end)
         if t_end is None:
-          t_end = self.daily_panchaangas[d + 1].angas.nakshatras_with_ends[0].jd_end
+          t_end = self.daily_panchaangas[d + 1].sunrise_day_angas.nakshatras_with_ends[0].jd_end
         tyaajya_start = t_start + (t_end - t_start) / 60 * (TYAJYA_SPANS_REL[n - 1] - 1)
         tyaajya_end = t_start + (t_end - t_start) / 60 * (TYAJYA_SPANS_REL[n - 1] + 3)
         if tyaajya_start < self.daily_panchaangas[d].jd_sunrise:
@@ -58,9 +58,9 @@ class NakshatraAssigner(PanchaangaApplier):
                            Hour(24 * (tyaajya_start - jd)).toString(format='hh:mm*'),
                            Hour(24 * (tyaajya_end - jd)).toString(format='hh:mm*')))
   
-      if len(self.daily_panchaangas[d].angas.nakshatras_with_ends) == 2:
+      if len(self.daily_panchaangas[d].sunrise_day_angas.nakshatras_with_ends) == 2:
         t_start = t_end
-        nakshatra_span = self.daily_panchaangas[d].angas.nakshatras_with_ends[1]
+        nakshatra_span = self.daily_panchaangas[d].sunrise_day_angas.nakshatras_with_ends[1]
         (n2, t_end) = (nakshatra_span.name, nakshatra_span.jd_end)
         
         tyaajya_start = t_start + (t_end - t_start) / 60 * (TYAJYA_SPANS_REL[n2 - 1] - 1)
@@ -78,12 +78,12 @@ class NakshatraAssigner(PanchaangaApplier):
     for d in range(1, self.panchaanga.duration + 1):
       [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
       jd = self.daily_panchaangas[d].julian_day_start
-      t_start = self.daily_panchaangas[d - 1].angas.nakshatras_with_ends[-1].jd_end
+      t_start = self.daily_panchaangas[d - 1].sunrise_day_angas.nakshatras_with_ends[-1].jd_end
       if t_start is not None:
-        nakshatra_span = self.daily_panchaangas[d].angas.nakshatras_with_ends[0]
+        nakshatra_span = self.daily_panchaangas[d].sunrise_day_angas.nakshatras_with_ends[0]
         (n, t_end) = (nakshatra_span.name, nakshatra_span.jd_end)
         if t_end is None:
-          t_end = self.daily_panchaangas[d + 1].angas.nakshatras_with_ends[0].jd_end
+          t_end = self.daily_panchaangas[d + 1].sunrise_day_angas.nakshatras_with_ends[0].jd_end
         amrita_start = t_start + (t_end - t_start) / 60 * (AMRITA_SPANS_REL[n - 1] - 1)
         amrita_end = t_start + (t_end - t_start) / 60 * (AMRITA_SPANS_REL[n - 1] + 3)
         if amrita_start < self.daily_panchaangas[d].jd_sunrise:
@@ -103,9 +103,9 @@ class NakshatraAssigner(PanchaangaApplier):
                            Hour(24 * (amrita_start - jd)).toString(format='hh:mm*'),
                            Hour(24 * (amrita_end - jd)).toString(format='hh:mm*')))
   
-      if len(self.daily_panchaangas[d].angas.nakshatras_with_ends) == 2:
+      if len(self.daily_panchaangas[d].sunrise_day_angas.nakshatras_with_ends) == 2:
         t_start = t_end
-        nakshatra_span = self.daily_panchaangas[d].angas.nakshatras_with_ends[1]
+        nakshatra_span = self.daily_panchaangas[d].sunrise_day_angas.nakshatras_with_ends[1]
         (n2, t_end) = (nakshatra_span.name, nakshatra_span.jd_end)
         amrita_start = t_start + (t_end - t_start) / 60 * (AMRITA_SPANS_REL[n2 - 1] - 1)
         amrita_end = t_start + (t_end - t_start) / 60 * (AMRITA_SPANS_REL[n2 - 1] + 3)

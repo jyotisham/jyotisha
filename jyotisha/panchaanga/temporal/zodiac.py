@@ -284,7 +284,7 @@ class AngaSpanFinder(JsonObject):
     return jd_start
 
   def find(self, jd1: float, jd2: float, target_anga_id: int):
-    """Computes anga spans for angas such as tithi, nakshatra, yoga
+    """Computes anga spans for sunrise_day_angas such as tithi, nakshatra, yoga
         and karana.
 
         Args:
@@ -316,7 +316,7 @@ class AngaSpanFinder(JsonObject):
 class AngaSpan(Interval):
   @classmethod
   def find(cls, jd1: float, jd2: float, anga_type: AngaType, target_anga_id: int, ayanaamsha_id: str, debug: bool = False):
-    """Computes anga spans for angas such as tithi, nakshatra, yoga
+    """Computes anga spans for sunrise_day_angas such as tithi, nakshatra, yoga
         and karana.
 
         Args:

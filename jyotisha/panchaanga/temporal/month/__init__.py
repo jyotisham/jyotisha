@@ -34,7 +34,7 @@ class SiderialSolarBasedAssigner(LunarMonthAssigner):
     """
     # tithi_at_sunrise gives a rough indication of the number of days since last new moon. We now find a more precise interval below.
     last_new_moon = AngaSpan.find(
-      daily_panchaanga.jd_sunrise - daily_panchaanga.angas.tithi_at_sunrise - 3, daily_panchaanga.jd_sunrise - daily_panchaanga.angas.tithi_at_sunrise + 3,
+      daily_panchaanga.jd_sunrise - daily_panchaanga.sunrise_day_angas.tithi_at_sunrise - 3, daily_panchaanga.jd_sunrise - daily_panchaanga.sunrise_day_angas.tithi_at_sunrise + 3,
       zodiac.AngaType.TITHI, 30, ayanaamsha_id=self.ayanaamsha_id)
     this_new_moon = AngaSpan.find(
       last_new_moon.jd_start + 24, last_new_moon.jd_start + 32,
