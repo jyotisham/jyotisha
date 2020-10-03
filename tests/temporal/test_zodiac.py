@@ -45,8 +45,8 @@ def test_get_anga_span_tithi():
   assert span_finder.find(jd1=2444959.54042, jd2=2444963.54076, target_anga_id=27).to_tuple() == (2444960.4924699212, 2444961.599213224)
 
 
-def test_get_new_moons_in_period():
-  new_moon_jds = zodiac.get_tithis_in_period(jd_start=time.utc_gregorian_to_jd(Date(year=2020, month=1, day=1)), jd_end=time.utc_gregorian_to_jd(Date(year=2020, month=6, day=30)))
+def test_get_tithis_in_period():
+  new_moon_jds = zodiac.get_tithis_in_period(jd_start=time.utc_gregorian_to_jd(Date(year=2020, month=1, day=1)), jd_end=time.utc_gregorian_to_jd(Date(year=2020, month=6, day=30)), tithi=30)
   assert new_moon_jds == [2458872.36655025,
                           2458902.0647052005,
                           2458931.792117506,
