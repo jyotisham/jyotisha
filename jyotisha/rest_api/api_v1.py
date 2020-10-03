@@ -70,7 +70,7 @@ class KaalaHandler(Resource):
     city = City("", latitude, longitude, args['timezone'])
     panchaanga = daily.DailyPanchanga(city=city, year=int(year), month=int(month),
                                                                           day=int(day))
-    return panchaanga.get_kaalas_local_time(format=args['format'])
+    return panchaanga.day_length_based_periods.to_json_map()
 
 
 # noinspection PyUnresolvedReferences

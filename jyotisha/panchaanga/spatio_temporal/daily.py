@@ -12,7 +12,7 @@ from jyotisha.panchaanga.temporal import zodiac
 from jyotisha.panchaanga.temporal.body import Graha
 from jyotisha.panchaanga.temporal.month import LunarMonthAssigner
 from jyotisha.panchaanga.temporal.time import Timezone, Hour, Date
-from jyotisha.panchaanga.temporal.zodiac import Ayanamsha, NakshatraDivision, AngaType, AngaSpan
+from jyotisha.panchaanga.temporal.zodiac import Ayanamsha, NakshatraDivision, AngaType, AngaSpan, AngaSpanFinder
 from sanskrit_data.schema import common
 
 logging.basicConfig(level=logging.DEBUG,
@@ -311,11 +311,6 @@ class DailyPanchanga(common.JsonObject):
                                                                  GULIKAKALA_OCTETS[weekday], 8)
     return self.day_length_based_periods
 
-  def get_kaalas_local_time(self, format='hh:mm*'):
-    kaalas = self.get_day_length_based_periods()
-    return {x: (Hour((kaalas[x].jd_start - self.julian_day_start) * 24).toString(format=format),
-                Hour((kaalas[x].jd_end - self.julian_day_start) * 24).toString(format=format)) for x in kaalas.__dict__}
-
   def get_sunrise_day_anga_spans(self, anga_type):
     """Computes anga data for sunrise_day_angas such as tithi, nakshatra, yoga
     and karana.
@@ -396,6 +391,19 @@ class DailyPanchanga(common.JsonObject):
           t_act = approx_end
         angas_list.extend([AngaSpan(name=(anga_now + i - 1) % num_angas + 1, jd_end=t_act, jd_start=None)])
     return angas_list
+
+
+  def get_previous_solstice(self):
+    if self.tropical_date_sunset.month >= 4 and self.tropical_date_sunset.month < 10:
+      target_month = 4
+    else:
+      target_month = 10
+    months_past_solstice = (self.tropical_date_sunset.month - target_month) % 12
+    jd1 = self.jd_sunset - (self.tropical_date_sunset.day + months_past_solstice * 30 + months_past_solstice + 5)
+    jd2 = self.jd_sunset - (self.tropical_date_sunset.day + months_past_solstice * 30 + months_past_solstice) + 30
+    anga_span_finder = AngaSpanFinder(ayanaamsha_id=Ayanamsha.ASHVINI_STARTING_0, anga_type=AngaType.SOLAR_MONTH)
+    return anga_span_finder.find(jd1=jd1, jd2=jd2, target_anga_id=target_month)
+
 
 
 # Essential for depickling to work.
