@@ -44,7 +44,7 @@ class DayLengthBasedPeriods(common.JsonObject):
     self.madhyaahna = get_interval(jd_sunrise, jd_sunset, 2, 5)
     self.maadhyaahnika_sandhyaa = get_interval(jd_sunrise, jd_sunset, 5, 15)
     self.maadhyaahnika_sandhyaa_end = get_interval(jd_sunrise, jd_sunset, 13, 15)
-    self.aparaahnNa = get_interval(jd_sunrise, jd_sunset, 3, 5)
+    self.aparaahna = get_interval(jd_sunrise, jd_sunset, 3, 5)
     self.saayaahna = get_interval(jd_sunrise, jd_sunset, 4, 5)
     self.saayaM_sandhyaa = get_interval(jd_sunrise, jd_sunset, 14, 15)
     self.dinamaana = get_interval(jd_sunrise, jd_sunset, 1, 1)
