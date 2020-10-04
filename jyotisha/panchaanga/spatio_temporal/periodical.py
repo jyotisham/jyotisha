@@ -194,7 +194,7 @@ class Panchaanga(common.JsonObject):
                get_anga_func(jd_sunset_tmrw),
                get_anga_func(jd_sunset_tmrw +
                              (jd_sunrise_datmrw - jd_sunset_tmrw) * (1.0 / 15.0))]
-    elif interval_type == 'nishita':
+    elif interval_type == 'nishiitha':
       angas = [
         get_anga_func(jd_sunset + (jd_sunrise_tmrw - jd_sunset) * (7.0 / 15.0)),
         get_anga_func(jd_sunset + (jd_sunrise_tmrw - jd_sunset) * (8.0 / 15.0)),

@@ -54,7 +54,7 @@ class DayLengthBasedPeriods(common.JsonObject):
     # pradOSo.astamayAdUrdhvaM ghaTikAdvayamiShyatE (tithyAdi tattvam, Vrat Parichay panchaanga. 25 Gita Press)
     self.pradosha = get_interval(jd_sunset, jd_next_sunrise, 1, 15)
     self.madhyaraatri = get_interval(jd_sunset, jd_next_sunrise, 2, 5)
-    self.nishita = get_interval(jd_sunset, jd_next_sunrise, 7, 15)
+    self.nishiitha = get_interval(jd_sunset, jd_next_sunrise, 7, 15)
     self.arunodaya = get_interval(jd_sunset, jd_next_sunrise, [13, 14], 15)
     self.saayaM_sandhyaa_end = get_interval(jd_sunset, jd_next_sunrise, 1, 15)
     self.raatri_yaama_1 = get_interval(jd_sunset, jd_next_sunrise, 1, 4)
