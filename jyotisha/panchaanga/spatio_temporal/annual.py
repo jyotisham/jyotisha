@@ -28,6 +28,7 @@ def load_panchaanga(fname, fallback_fn):
   else:
     # Festival data may be updated more frequently and a precomputed panchaanga may go out of sync. Hence we keep this method separate.
     panchaanga.update_festival_details()
+    panchaanga.dump_to_file(filename=fname)
     return panchaanga
   
 
@@ -48,6 +49,8 @@ def get_panchaanga_for_shaka_year(city, year, precomputed_json_dir="~/Documents/
     tz = Timezone(city.timezone)
     panchaanga = periodical.Panchaanga(city=city, start_date=tz.julian_day_to_local_time(julian_day=start_equinox.jd_start), end_date=tz.julian_day_to_local_time(julian_day=end_equinox.jd_start))
     panchaanga.year = year
+    # Festival data may be updated more frequently and a precomputed panchaanga may go out of sync. Hence we keep this method separate.
+    panchaanga.update_festival_details()
     logging.info('Writing computed panchaanga to %s...\n' % fname)
 
     try:
@@ -55,9 +58,6 @@ def get_panchaanga_for_shaka_year(city, year, precomputed_json_dir="~/Documents/
     except EnvironmentError:
       logging.warning("Not able to save.")
       logging.error(traceback.format_exc())
-    # Save without festival details
-    # Festival data may be updated more frequently and a precomputed panchaanga may go out of sync. Hence we keep this method separate.
-    panchaanga.update_festival_details()
     return panchaanga
 
 

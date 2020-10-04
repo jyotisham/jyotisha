@@ -4,7 +4,7 @@ import os
 # from jyotisha.panchaanga.spatio_temporal import City, annual
 from indic_transliteration import sanscript
 
-from jyotisha.panchaanga.scripts.write_daily_panchaanga_tex import emit
+from jyotisha.panchaanga.writer.tex.write_daily_panchaanga_tex import emit
 from jyotisha.panchaanga.spatio_temporal.periodical import Panchaanga
 from sanskrit_data.schema.common import JsonObject
 

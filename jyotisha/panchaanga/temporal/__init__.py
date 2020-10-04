@@ -25,10 +25,19 @@ class PanchaangaApplier(JsonObject):
     pass
 
 
+class ComputationOptions(JsonObject):
+  def __init__(self, lagnas=False, festivals=True, fest_ids=None):
+    self.lagnas = lagnas
+    self.festivals = festivals
+    self.fest_ids = fest_ids
+    
+
+
 class ComputationSystem(JsonObject):
-  def __init__(self, lunar_month_assigner_type, ayanaamsha_id):
+  def __init__(self, lunar_month_assigner_type, ayanaamsha_id, computation_options=ComputationOptions()):
     self.lunar_month_assigner_type = lunar_month_assigner_type
     self.ayanaamsha_id = ayanaamsha_id
+    self.computation_options = computation_options
 
   def __str__(self):
     return "%s__%s" % (self.lunar_month_assigner_type, self.ayanaamsha_id)
