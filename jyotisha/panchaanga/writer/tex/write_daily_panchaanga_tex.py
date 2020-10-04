@@ -29,7 +29,7 @@ logging.basicConfig(
 CODE_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
 
 
-def emit(panchaanga, template_file, time_format="hh:mm", scripts=[sanscript.DEVANAGARI], compute_lagnams=True, output_stream=None):
+def emit(panchaanga, time_format="hh:mm", scripts=[sanscript.DEVANAGARI], compute_lagnams=True, output_stream=None):
   """Write out the panchaanga TeX using a specified template
   """
   # day_colours = {0: 'blue', 1: 'blue', 2: 'blue',
@@ -38,6 +38,8 @@ def emit(panchaanga, template_file, time_format="hh:mm", scripts=[sanscript.DEVA
            5: 'MAY', 6: 'JUNE', 7: 'JULY', 8: 'AUGUST', 9: 'SEPTEMBER',
            10: 'OCTOBER', 11: 'NOVEMBER', 12: 'DECEMBER'}
   WDAY = {0: 'Sun', 1: 'Mon', 2: 'Tue', 3: 'Wed', 4: 'Thu', 5: 'Fri', 6: 'Sat'}
+
+  template_file = open(os.path.join(os.path.dirname(__file__), 'templates/daily_cal_template.tex'))
 
   template_lines = template_file.readlines()
   for i in range(len(template_lines)):
@@ -338,8 +340,7 @@ def main():
   panchaanga = jyotisha.panchaanga.spatio_temporal.annual.get_panchaanga_for_civil_year(city=city, year=year,
                                                                                         compute_lagnas=compute_lagnams)
 
-  daily_template_file = open(os.path.join(CODE_ROOT, 'panchaanga/data/templates/daily_cal_template.tex'))
-  emit(panchaanga, daily_template_file, compute_lagnams, scripts=scripts)
+  emit(panchaanga, compute_lagnams, scripts=scripts)
   # panchaanga.writeDebugLog()
 
 

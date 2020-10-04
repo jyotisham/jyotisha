@@ -135,7 +135,7 @@ def get_star_longitude(star, jd):
   :param jd: 
   :return: 
   """
-  from jyotisha.panchaanga import data
+  from jyotisha.panchaanga.temporal import data
   import os
   swe.set_ephe_path(os.path.dirname(data.__file__))
   (long, lat, _, _, _, _) = swe.fixstar_ut(star, jd)[0]

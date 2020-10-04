@@ -80,6 +80,13 @@ class City(JsonObject):
     city = City(name=address, latitude=location.latitude, longitude=location.longitude, timezone=timezone_str)
     return city
 
+  @classmethod
+  def get_city_from_db(cls, name):
+    import pandas
+    df = pandas.read_csv(os.path.join(os.path.dirname(__file__), "data", "places_lat_lon_tz_db.tsv"), sep="\t", index_col="Name")
+    city = City(name=name, latitude=df.at[name, "Lat"], longitude=df.at[name, "Long"], timezone=df.at[name, "Timezone"])
+    return city
+
   def get_rising_time(self, julian_day_start, body):
     from jyotisha.panchaanga.temporal.body import Graha
     graha = Graha.singleton(body)
@@ -165,9 +172,6 @@ class City(JsonObject):
 common.update_json_class_index(sys.modules[__name__])
 # logging.debug(common.json_class_index)
 
-# Some common cities
-chennai = City('Chennai', '13:05:24', '80:16:12', 'Asia/Calcutta')
-bengaluru_snagar = City('bengaLUru', '13:03:48.9', '77:34:45.7', 'Asia/Calcutta')
 
 if __name__ == '__main__':
   import doctest

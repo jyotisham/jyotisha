@@ -37,6 +37,8 @@ def write_monthly_tex(panchaanga, template_file, scripts=[sanscript.DEVANAGARI],
   WDAY = {0: 'Sun', 1: 'Mon', 2: 'Tue',
           3: 'Wed', 4: 'Thu', 5: 'Fri', 6: 'Sat'}
 
+  monthly_template_file = open(os.path.join(os.path.dirname(__file__), 'templates/monthly_cal_template.tex'))
+
   template_lines = template_file.readlines()
   for i in range(0, len(template_lines) - 3):
     print(template_lines[i][:-1])
@@ -332,8 +334,7 @@ def main():
 
   panchaanga.update_festival_details()
 
-  monthly_template_file = open(os.path.join(CODE_ROOT, 'panchaanga/data/templates/monthly_cal_template.tex'))
-  write_monthly_tex(panchaanga, monthly_template_file)
+  write_monthly_tex(panchaanga)
   # panchaanga.writeDebugLog()
 
 

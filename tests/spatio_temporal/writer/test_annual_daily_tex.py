@@ -27,9 +27,8 @@ def daily_tex_comparer(city_name, year):
   panchaanga = Panchaanga.read_from_file(filename=os.path.join(TEST_DATA_PATH, '%s-%s.json' % (city_name, year)))
   panchaanga.update_festival_details()
   orig_tex_file = os.path.join(TEST_DATA_PATH, 'daily-cal-%s-%s-deva.tex' % (year, city_name))
-  daily_template_file = open(os.path.join(CODE_ROOT, 'jyotisha/panchaanga/data/templates/daily_cal_template.tex'))
   current_tex_output = os.path.join(TEST_DATA_PATH, 'daily-cal-%s-%s-deva.tex.local' % (year, city_name))
-  emit(panchaanga, daily_template_file, compute_lagnams=False,
+  emit(panchaanga, compute_lagnams=False,
        output_stream=open(current_tex_output, 'w'), scripts=[sanscript.DEVANAGARI, sanscript.TAMIL])
 
   with open(orig_tex_file) as orig_tex:

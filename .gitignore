@@ -17,6 +17,6 @@ config_local.json
 .cache
 *.iml
 *.local*
-jyotisha/panchaanga/data/festival_rules_test.json
+jyotisha/panchaanga/temporal/data/festival_rules_test.json
 tests/update_test_json.py
 *.swp
