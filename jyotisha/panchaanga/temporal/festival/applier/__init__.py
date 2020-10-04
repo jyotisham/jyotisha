@@ -36,261 +36,213 @@ class FestivalAssigner(PeriodicPanchaangaApplier):
       [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
 
       for festival_name in festival_rules:
-        if festival_rules[festival_name].timing.month_type is not None:
-          month_type = festival_rules[festival_name].timing.month_type
-        else:
+        if festival_rules[festival_name].timing.month_type is None and festival_rules[festival_name].description_short is not None:
           # Maybe only description of the festival is given, as computation has been
           # done in computeFestivals(), without using a rule in festival_rules.json!
-          if festival_rules[festival_name].description_short is not None:
             continue
-          raise ValueError("No month_type mentioned for %s" % festival_name)
-        if festival_rules[festival_name].timing.month_number is not None:
-          month_num = festival_rules[festival_name].timing.month_number
         else:
-          raise ValueError("No month_num mentioned for %s" % festival_name)
-        if festival_rules[festival_name].timing.anga_type is not None:
-          anga_type = festival_rules[festival_name].timing.anga_type
-        else:
-          raise ValueError("No anga_type mentioned for %s" % festival_name)
-        if festival_rules[festival_name].timing.anga_number is not None:
-          anga_num = festival_rules[festival_name].timing.anga_number
-        else:
-          raise ValueError("No anga_num mentioned for %s" % festival_name)
-        if festival_rules[festival_name].timing.kaala is not None:
-          kaala = festival_rules[festival_name].timing.kaala
-        else:
-          kaala = 'sunrise'  # default!
-        if festival_rules[festival_name].timing.priority is not None:
-          priority = festival_rules[festival_name].timing.priority
-        else:
-          priority = 'puurvaviddha'
-        # if festival_rules[festival_name].titles is not None:
-        #     fest_other_names = festival_rules[festival_name].titles
-        # if festival_rules[festival_name].Nirnaya is not None:
-        #     fest_nirnaya = festival_rules[festival_name].Nirnaya
-        # if festival_rules[festival_name].references_primary is not None:
-        #     fest_ref1 = festival_rules[festival_name].references_primary
-        # if festival_rules[festival_name].references_secondary is not None:
-        #     fest_ref2 = festival_rules[festival_name].references_secondary
-        # if festival_rules[festival_name].comments is not None:
-        #     fest_comments = festival_rules[festival_name].comments
+          self.assign_festival(fest_rule=festival_rules[festival_name], d=d)
 
-        if anga_type == 'tithi' and month_type == 'lunar_month' and anga_num == 1:
-          # Shukla prathama tithis need to be dealt carefully, if e.g. the prathama tithi
-          # does not touch sunrise on either day (the regular check won't work, because
-          # the month itself is different the previous day!)
-          if self.daily_panchaangas[d].sunrise_day_angas.tithi_at_sunrise == 30 and self.daily_panchaangas[d + 1].sunrise_day_angas.tithi_at_sunrise == 2 and \
-              self.daily_panchaangas[d + 1].lunar_month_sunrise == month_num:
-            # Only in this case, we have a problem
+  def assign_festival(self, fest_rule, d):
+    festival_name = fest_rule.id
+    month_type = fest_rule.timing.month_type
+    month_num = fest_rule.timing.month_number
+    anga_type = fest_rule.timing.anga_type
+    anga_num = fest_rule.timing.anga_number
+    if month_type is None or month_num is None or anga_type is None or anga_num is None:
+      raise ValueError(str(fest_rule))
+    kaala = fest_rule.timing.kaala
+    if kaala is None:
+      kaala = 'sunrise'  # default!
+    priority = fest_rule.timing.priority
+    if priority is None:
+      priority = 'puurvaviddha'
+
+    if anga_type == 'tithi' and month_type == 'lunar_month' and anga_num == 1:
+      # Shukla prathama tithis need to be dealt carefully, if e.g. the prathama tithi
+      # does not touch sunrise on either day (the regular check won't work, because
+      # the month itself is different the previous day!)
+      if self.daily_panchaangas[d].sunrise_day_angas.tithi_at_sunrise == 30 and self.daily_panchaangas[d + 1].sunrise_day_angas.tithi_at_sunrise == 2 and \
+          self.daily_panchaangas[d + 1].lunar_month_sunrise == month_num:
+        # Only in this case, we have a problem
+        self.add_festival(festival_name, d)
+        return 
+
+    if anga_type == 'day' and month_type == 'sidereal_solar_month' and self.daily_panchaangas[d].solar_sidereal_date_sunset.month == month_num:
+      if self.daily_panchaangas[d].solar_sidereal_date_sunset.day == anga_num:
+        if kaala == 'arunodaya':
+          prev_angas = self.daily_panchaangas[d-1].day_length_based_periods.arunodaya.get_boundary_angas(anga_type=AngaType.SOLAR_MONTH, ayanaamsha_id=self.ayanaamsha_id)
+          current_angas = self.daily_panchaangas[d].day_length_based_periods.arunodaya.get_boundary_angas(anga_type=AngaType.SOLAR_MONTH, ayanaamsha_id=self.ayanaamsha_id)
+          if prev_angas[1] == month_num:
             self.add_festival(festival_name, d)
-            continue
+          elif current_angas[0] == month_num:
+            self.add_festival(festival_name, d + 1)
+        else:
+          self.add_festival(festival_name, d)
+    elif (month_type == 'lunar_month' and ((self.daily_panchaangas[d].lunar_month_sunrise == month_num or month_num == 0) or (
+        (self.daily_panchaangas[d + 1].lunar_month_sunrise == month_num and anga_num == 1)))) or \
+        (month_type == 'sidereal_solar_month' and (self.daily_panchaangas[d].solar_sidereal_date_sunset.month == month_num or month_num == 0)):
+      # Using 0 as a special tag to denote every month!
+      if anga_type == 'tithi':
+        anga_sunrise = [d.sunrise_day_angas.tithi_at_sunrise for d in self.daily_panchaangas]
+        anga_data = [d.sunrise_day_angas.tithis_with_ends for d in self.daily_panchaangas]
+        get_anga_func = lambda x: temporal.tithi.get_tithi(x)
+        num_angas = 30
+      elif anga_type == 'nakshatra':
+        anga_sunrise = [d.sunrise_day_angas.nakshatra_at_sunrise for d in self.daily_panchaangas]
+        anga_data = [d.sunrise_day_angas.nakshatras_with_ends for d in self.daily_panchaangas]
+        get_anga_func = lambda x: NakshatraDivision(x, ayanaamsha_id=self.ayanaamsha_id).get_nakshatra()
+        num_angas = 27
+      elif anga_type == 'yoga':
+        anga_sunrise = [d.sunrise_day_angas.yoga_at_sunrise for d in self.daily_panchaangas]
+        anga_data = [d.sunrise_day_angas.yogas_with_ends for d in self.daily_panchaangas]
+        get_anga_func = lambda x: NakshatraDivision(x, ayanaamsha_id=self.ayanaamsha_id).get_yoga()
+        num_angas = 27
+      else:
+        raise ValueError('Error; unknown string in rule: "%s"' % (anga_type))
 
-        if anga_type == 'day' and month_type == 'sidereal_solar_month' and self.daily_panchaangas[d].solar_sidereal_date_sunset.month == month_num:
-          if self.daily_panchaangas[d].solar_sidereal_date_sunset.day == anga_num:
-            if kaala == 'arunodaya':
-              prev_angas = self.daily_panchaangas[d-1].day_length_based_periods.arunodaya.get_boundary_angas(anga_type=AngaType.SOLAR_MONTH, ayanaamsha_id=self.ayanaamsha_id)
-              current_angas = self.daily_panchaangas[d].day_length_based_periods.arunodaya.get_boundary_angas(anga_type=AngaType.SOLAR_MONTH, ayanaamsha_id=self.ayanaamsha_id)
-              if prev_angas[1] == month_num:
-                self.add_festival(festival_name, d)
-              elif current_angas[0] == month_num:
-                self.add_festival(festival_name, d + 1)
+      if anga_num == 1:
+        prev_anga = num_angas
+      else:
+        prev_anga = anga_num - 1
+      next_anga = (anga_num % num_angas) + 1
+
+      fday = None
+
+      if anga_sunrise[d] == prev_anga or anga_sunrise[d] == anga_num:
+        if kaala == 'arunodaya':
+          # We want for arunodaya *preceding* today's sunrise; therefore, use d - 1
+          angas = self.panchaanga.get_2_day_interval_boundaries_angas(d - 1, get_anga_func, kaala)
+        else:
+          angas = self.panchaanga.get_2_day_interval_boundaries_angas(d, get_anga_func, kaala)
+
+        if angas is None:
+          logging.error('No angas returned! Skipping festival %s' % festival_name)
+          return 
+          # Some error, e.g. weird kaala, so skip festival
+        if priority == 'paraviddha':
+          if (angas[1] == anga_num and angas[3] == anga_num) or (
+              angas[2] == anga_num and angas[3] == anga_num):
+            # Incident at kaala on two consecutive days; so take second
+            fday = d + 1
+          elif angas[0] == anga_num and angas[1] == anga_num:
+            # Incident only on day 1, maybe just touching day 2
+            fday = d
+          elif angas[1] == anga_num:
+            fday = d
+          elif angas[2] == anga_num:
+            fday = d
+          elif angas[0] == anga_num and angas[1] == next_anga:
+            if kaala == 'aparaahna':
+              fday = d
             else:
-              self.add_festival(festival_name, d)
-        elif (month_type == 'lunar_month' and ((self.daily_panchaangas[d].lunar_month_sunrise == month_num or month_num == 0) or (
+              fday = d - 1
+          elif angas[1] == prev_anga and angas[2] == next_anga:
+            fday = d
+            logging.warning(
+              '%s %d did not touch %s kaala on d=%d or %d. Assigning %d for %s; angas: %s' %
+              (anga_type, anga_num, kaala, d, d + 1, fday, festival_name, str(angas)))
+          else:
+            if festival_name not in self.panchaanga.festival_id_to_days and angas[3] > anga_num:
+              logging.debug((angas, anga_num))
+              logging.warning(
+                'Could not assign paraviddha day for %s!  Please check for unusual cases.' % festival_name)
+        elif priority == 'puurvaviddha':
+          # angas_yest = self.panchaanga.get_angas_for_kaalas(d - 1, get_anga_func, kaala)
+          # if debug_festivals:
+          #     print("%angas yest & today:", angas_yest)
+          if angas[0] == anga_num or angas[1] == anga_num:
+            if festival_name in self.panchaanga.festival_id_to_days:
+              # Check if yesterday was assigned already
+              # to this puurvaviddha festival!
+              if self.panchaanga.festival_id_to_days[festival_name].count(self.daily_panchaangas[d-1].date) == 0:
+                fday = d
+            else:
+              fday = d
+          elif angas[2] == anga_num or angas[3] == anga_num:
+            fday = d + 1
+          else:
+            # This means that the correct anga did not
+            # touch the kaala on either day!
+            if angas == [prev_anga, prev_anga, next_anga, next_anga]:
+              # d_offset = {'sunrise': 0, 'aparaahna': 1, 'moonrise': 1, 'madhyaahna': 1, 'sunset': 1}[kaala]
+              d_offset = 0 if kaala in ['sunrise', 'moonrise'] else 1
+              # Need to assign a day to the festival here
+              # since the anga did not touch kaala on either day
+              # BUT ONLY IF YESTERDAY WASN'T ALREADY ASSIGNED,
+              # THIS BEING PURVAVIDDHA
+              # Perhaps just need better checking of
+              # conditions instead of this fix
+              if festival_name in self.panchaanga.festival_id_to_days:
+                offset_date = self.daily_panchaangas[d - 1 + d_offset].date
+                if self.panchaanga.festival_id_to_days[festival_name].count(offset_date) == 0:
+                  fday = d + d_offset
+              else:
+                fday = d + d_offset
+            else:
+              if festival_name not in self.panchaanga.festival_id_to_days and angas != [prev_anga] * 4:
+                logging.debug('Special case: %s; angas = %s' % (festival_name, str(angas)))
+
+        elif priority == 'vyaapti':
+          if kaala == 'aparaahna':
+            t_start_d, t_end_d = interval.get_interval(self.daily_panchaangas[d].jd_sunrise, self.daily_panchaangas[d].jd_sunset, 3, 5).to_tuple()
+          else:
+            logging.error('Unknown kaala: %s.' % festival_name)
+
+          if kaala == 'aparaahna':
+            t_start_d1, t_end_d1 = interval.get_interval(self.daily_panchaangas[d + 1].jd_sunrise,
+                                                                                      self.daily_panchaangas[d + 1].jd_sunset, 3, 5).to_tuple()
+          else:
+            logging.error('Unknown kaala: %s.' % festival_name)
+
+          # Combinations
+          # <a> 0 0 1 1: d + 1
+          # <d> 0 1 1 1: d + 1
+          # <g> 1 1 1 1: d + 1
+          # <b> 0 0 1 2: d + 1
+          # <c> 0 0 2 2: d + 1
+          # <e> 0 1 1 2: vyApti
+          # <f> 0 1 2 2: d
+          # <h> 1 1 1 2: d
+          # <i> 1 1 2 2: d
+          p, q, r = prev_anga, anga_num, next_anga  # short-hand
+          if angas in ([p, p, q, q], [p, q, q, q], [q, q, q, q], [p, p, q, r], [p, p, r, r]):
+            fday = d + 1
+          elif angas in ([p, q, r, r], [q, q, q, r], [q, q, r, r]):
+            fday = d
+          elif angas == [p, q, q, r]:
+            anga_span = anga_data[d][0]
+            (anga, anga_end) = (anga_span.name, anga_span.jd_end)
+            vyapti_1 = max(t_end_d - anga_end, 0)
+            vyapti_2 = max(anga_end - t_start_d1, 0)
+            for anga_span in anga_data[d + 1]:
+              anga_end = anga_span.jd_end
+              if anga_end is None:
+                pass
+              elif t_start_d1 < anga_end < t_end_d1:
+                vyapti_2 = anga_end - t_start_d1
+
+            if vyapti_2 > vyapti_1:
+              fday = d + 1
+            else:
+              fday = d
+        else:
+          logging.error('Unknown priority "%s" for %s! Check the rules!' % (priority, festival_name))
+
+      if fday is not None:
+        if (month_type == 'lunar_month' and ((self.daily_panchaangas[d].lunar_month_sunrise == month_num or month_num == 0) or (
             (self.daily_panchaangas[d + 1].lunar_month_sunrise == month_num and anga_num == 1)))) or \
-            (month_type == 'sidereal_solar_month' and (self.daily_panchaangas[d].solar_sidereal_date_sunset.month == month_num or month_num == 0)):
-          # Using 0 as a special tag to denote every month!
-          if anga_type == 'tithi':
-            anga_sunrise = [d.sunrise_day_angas.tithi_at_sunrise for d in self.daily_panchaangas]
-            anga_data = [d.sunrise_day_angas.tithis_with_ends for d in self.daily_panchaangas]
-            get_anga_func = lambda x: temporal.tithi.get_tithi(x)
-            num_angas = 30
-          elif anga_type == 'nakshatra':
-            anga_sunrise = [d.sunrise_day_angas.nakshatra_at_sunrise for d in self.daily_panchaangas]
-            anga_data = [d.sunrise_day_angas.nakshatras_with_ends for d in self.daily_panchaangas]
-            get_anga_func = lambda x: NakshatraDivision(x, ayanaamsha_id=self.ayanaamsha_id).get_nakshatra()
-            num_angas = 27
-          elif anga_type == 'yoga':
-            anga_sunrise = [d.sunrise_day_angas.yoga_at_sunrise for d in self.daily_panchaangas]
-            anga_data = [d.sunrise_day_angas.yogas_with_ends for d in self.daily_panchaangas]
-            get_anga_func = lambda x: NakshatraDivision(x, ayanaamsha_id=self.ayanaamsha_id).get_yoga()
-            num_angas = 27
-          else:
-            raise ValueError('Error; unknown string in rule: "%s"' % (anga_type))
-
-          if anga_num == 1:
-            prev_anga = num_angas
-          else:
-            prev_anga = anga_num - 1
-          next_anga = (anga_num % num_angas) + 1
-
-          fday = None
-
-          if anga_sunrise[d] == prev_anga or anga_sunrise[d] == anga_num:
-            if kaala == 'arunodaya':
-              # We want for arunodaya *preceding* today's sunrise; therefore, use d - 1
-              angas = self.panchaanga.get_2_day_interval_boundaries_angas(d - 1, get_anga_func, kaala)
-            else:
-              angas = self.panchaanga.get_2_day_interval_boundaries_angas(d, get_anga_func, kaala)
-
-            if angas is None:
-              logging.error('No angas returned! Skipping festival %s' % festival_name)
-              continue
-              # Some error, e.g. weird kaala, so skip festival
-            if debug_festivals:
-              try:
-                logging.debug(('%', festival_name, ': ', festival_rules[festival_name]))
-                logging.debug(("%%angas today & tmrw:", angas))
-              except KeyError:
-                logging.debug(
-                  ('%', festival_name, ': ', festival_rules[festival_name]))
-                logging.debug(("%%angas today & tmrw:", angas))
-
-            if priority == 'paraviddha':
-              if (angas[1] == anga_num and angas[3] == anga_num) or (
-                  angas[2] == anga_num and angas[3] == anga_num):
-                # Incident at kaala on two consecutive days; so take second
-                fday = d + 1
-              elif angas[0] == anga_num and angas[1] == anga_num:
-                # Incident only on day 1, maybe just touching day 2
-                fday = d
-              elif angas[1] == anga_num:
-                fday = d
-                if debug_festivals:
-                  logging.warning('%s %d did not touch start of %s kaala on d=%d or %d,\
-                                        but incident at end of kaala at d=%d. Assigning %d for %s; angas: %s' %
-                                  (anga_type, anga_num, kaala, d, d + 1, d, fday, festival_name,
-                                   str(angas)))
-              elif angas[2] == anga_num:
-                fday = d
-                if debug_festivals:
-                  logging.warning(
-                    '%s %d present only at start of %s kaala on d=%d. Assigning %d for %s; angas: %s' %
-                    (anga_type, anga_num, kaala, d + 1, d, festival_name, str(angas)))
-              elif angas[0] == anga_num and angas[1] == next_anga:
-                if kaala == 'aparaahna':
-                  fday = d
-                else:
-                  fday = d - 1
-              elif angas[1] == prev_anga and angas[2] == next_anga:
-                fday = d
-                logging.warning(
-                  '%s %d did not touch %s kaala on d=%d or %d. Assigning %d for %s; angas: %s' %
-                  (anga_type, anga_num, kaala, d, d + 1, fday, festival_name, str(angas)))
-              else:
-                if festival_name not in self.panchaanga.festival_id_to_days and angas[3] > anga_num:
-                  logging.debug((angas, anga_num))
-                  logging.warning(
-                    'Could not assign paraviddha day for %s!  Please check for unusual cases.' % festival_name)
-            elif priority == 'puurvaviddha':
-              # angas_yest = self.panchaanga.get_angas_for_kaalas(d - 1, get_anga_func, kaala)
-              # if debug_festivals:
-              #     print("%angas yest & today:", angas_yest)
-              if angas[0] == anga_num or angas[1] == anga_num:
-                if festival_name in self.panchaanga.festival_id_to_days:
-                  # Check if yesterday was assigned already
-                  # to this puurvaviddha festival!
-                  if self.panchaanga.festival_id_to_days[festival_name].count(self.daily_panchaangas[d-1].date) == 0:
-                    fday = d
-                else:
-                  fday = d
-              elif angas[2] == anga_num or angas[3] == anga_num:
-                fday = d + 1
-              else:
-                # This means that the correct anga did not
-                # touch the kaala on either day!
-                if angas == [prev_anga, prev_anga, next_anga, next_anga]:
-                  # d_offset = {'sunrise': 0, 'aparaahna': 1, 'moonrise': 1, 'madhyaahna': 1, 'sunset': 1}[kaala]
-                  d_offset = 0 if kaala in ['sunrise', 'moonrise'] else 1
-                  if debug_festivals:
-                    logging.warning(
-                      '%d-%02d-%02d> %s: %s %d did not touch %s on either day: %s. Assigning today + %d' %
-                      (y, m, dt, festival_name, anga_type, anga_num, kaala, str(angas),
-                       d_offset))
-                  # Need to assign a day to the festival here
-                  # since the anga did not touch kaala on either day
-                  # BUT ONLY IF YESTERDAY WASN'T ALREADY ASSIGNED,
-                  # THIS BEING PURVAVIDDHA
-                  # Perhaps just need better checking of
-                  # conditions instead of this fix
-                  if festival_name in self.panchaanga.festival_id_to_days:
-                    offset_date = self.daily_panchaangas[d - 1 + d_offset].date
-                    if self.panchaanga.festival_id_to_days[festival_name].count(offset_date) == 0:
-                      fday = d + d_offset
-                  else:
-                    fday = d + d_offset
-                else:
-                  if festival_name not in self.panchaanga.festival_id_to_days and angas != [prev_anga] * 4:
-                    logging.debug('Special case: %s; angas = %s' % (festival_name, str(angas)))
-
-            elif priority == 'vyaapti':
-              if kaala == 'aparaahna':
-                t_start_d, t_end_d = interval.get_interval(self.daily_panchaangas[d].jd_sunrise, self.daily_panchaangas[d].jd_sunset, 3, 5).to_tuple()
-              else:
-                logging.error('Unknown kaala: %s.' % festival_name)
-
-              if kaala == 'aparaahna':
-                t_start_d1, t_end_d1 = interval.get_interval(self.daily_panchaangas[d + 1].jd_sunrise,
-                                                                                          self.daily_panchaangas[d + 1].jd_sunset, 3, 5).to_tuple()
-              else:
-                logging.error('Unknown kaala: %s.' % festival_name)
-
-              # Combinations
-              # <a> 0 0 1 1: d + 1
-              # <d> 0 1 1 1: d + 1
-              # <g> 1 1 1 1: d + 1
-              # <b> 0 0 1 2: d + 1
-              # <c> 0 0 2 2: d + 1
-              # <e> 0 1 1 2: vyApti
-              # <f> 0 1 2 2: d
-              # <h> 1 1 1 2: d
-              # <i> 1 1 2 2: d
-              p, q, r = prev_anga, anga_num, next_anga  # short-hand
-              if angas in ([p, p, q, q], [p, q, q, q], [q, q, q, q], [p, p, q, r], [p, p, r, r]):
-                fday = d + 1
-              elif angas in ([p, q, r, r], [q, q, q, r], [q, q, r, r]):
-                fday = d
-              elif angas == [p, q, q, r]:
-                anga_span = anga_data[d][0]
-                (anga, anga_end) = (anga_span.name, anga_span.jd_end)
-                vyapti_1 = max(t_end_d - anga_end, 0)
-                vyapti_2 = max(anga_end - t_start_d1, 0)
-                for anga_span in anga_data[d + 1]:
-                  anga_end = anga_span.jd_end
-                  if anga_end is None:
-                    pass
-                  elif t_start_d1 < anga_end < t_end_d1:
-                    vyapti_2 = anga_end - t_start_d1
-
-                if vyapti_2 > vyapti_1:
-                  fday = d + 1
-                else:
-                  fday = d
-            else:
-              logging.error('Unknown priority "%s" for %s! Check the rules!' % (priority, festival_name))
-
-          if fday is not None:
-            if (month_type == 'lunar_month' and ((self.daily_panchaangas[d].lunar_month_sunrise == month_num or month_num == 0) or (
-                (self.daily_panchaangas[d + 1].lunar_month_sunrise == month_num and anga_num == 1)))) or \
-                (month_type == 'sidereal_solar_month' and (
-                    self.daily_panchaangas[fday].solar_sidereal_date_sunset.month == month_num or month_num == 0)):
-              # If month on fday is incorrect, we ignore and move.
-              if month_type == 'lunar_month' and anga_num == 1 and self.daily_panchaangas[
-                fday + 1].lunar_month_sunrise != month_num:
-                continue
-              # if festival_name.find('\\') == -1 and \
-              #         'kaala' in festival_rules[festival_name] and \
-              #         festival_rules[festival_name].timing.kaala == 'arunodaya':
-              #     fday += 1
-              self.add_festival(festival_name, fday)
-            else:
-              if debug_festivals:
-                if month_type == 'sidereal_solar_month':
-                  logging.warning('Not adding festival %s on %d fday (month = %d instead of %d)' % (
-                    festival_name, fday, self.daily_panchaangas[fday].solar_sidereal_date_sunset.month, month_num))
-                else:
-                  logging.warning('Not adding festival %s on %d fday (month = %d instead of %d)' % (
-                    festival_name, fday, self.daily_panchaangas[fday].lunar_month_sunrise, month_num))
+            (month_type == 'sidereal_solar_month' and (
+                self.daily_panchaangas[fday].solar_sidereal_date_sunset.month == month_num or month_num == 0)):
+          # If month on fday is incorrect, we ignore and move.
+          if month_type == 'lunar_month' and anga_num == 1 and self.daily_panchaangas[
+            fday + 1].lunar_month_sunrise != month_num:
+            return 
+          # if festival_name.find('\\') == -1 and \
+          #         'kaala' in fest_rule and \
+          #         festival_rules[festival_name].timing.kaala == 'arunodaya':
+          #     fday += 1
+          self.add_festival(festival_name, fday)
 
   def assign_festival_numbers(self):
     # Update festival numbers if they exist

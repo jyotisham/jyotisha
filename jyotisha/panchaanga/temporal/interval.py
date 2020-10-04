@@ -15,7 +15,7 @@ class Interval(common.JsonObject):
     return (self.jd_start, self.jd_end)
 
   def get_boundary_angas(self, anga_type, ayanaamsha_id):
-    from panchaanga.temporal.zodiac import NakshatraDivision
+    from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision
     f = lambda x: NakshatraDivision(x, ayanaamsha_id=ayanaamsha_id).get_anga(anga_type=anga_type)
     return (f(self.jd_start), f(self.jd_end))
 

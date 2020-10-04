@@ -167,38 +167,6 @@ class HinduCalendarEvent(common.JsonObject):
     }
   }))
 
-  @classmethod
-  def from_old_style_event(cls, old_style_event):
-    event = HinduCalendarEvent()
-    event.timing = HinduCalendarEventTiming.from_old_style_event(old_style_event=old_style_event)
-    if getattr(old_style_event, "name", None) is not None:
-      import regex
-      event.id = regex.sub(":", "__", old_style_event.id)
-      id_parts = event.id.split("__")
-      if len(id_parts) > 1:
-        event.script_priority = id_parts[0]
-    if getattr(old_style_event, "tags", None) is not None and old_style_event.tags is not None:
-      event.tags = [x.strip() for x in old_style_event.tags.split(",")]
-    if getattr(old_style_event, "titles", None) is not None and old_style_event.titles is not None:
-      event.titles = [x.strip() for x in old_style_event.titles.split(";")]
-    if getattr(old_style_event, "shlokas", None) is not None:
-      event.shlokas = old_style_event.shlokas
-    if getattr(old_style_event, "comments", None) is not None:
-      event.comments = old_style_event.comments
-    if getattr(old_style_event, "image", None) is not None:
-      event.image = old_style_event.image
-    if getattr(old_style_event, "references_primary", None) is not None:
-      event.references_primary = old_style_event.references_primary
-    if getattr(old_style_event, "references_secondary", None) is not None:
-      event.references_secondary = old_style_event.references_secondary
-    if getattr(old_style_event, "description_short", None) is not None:
-      event.description_short = old_style_event.description_short
-    if getattr(old_style_event, "description", None) is not None:
-      event.description = old_style_event.description
-
-    event.validate_schema()
-    return event
-
   def get_storage_file_name(self, base_dir, only_descriptions=False):
     if self.timing.anchor_festival_id is not None:
       return "%(base_dir)s/relative_event/%(anchor_festival_id)s/offset__%(offset)02d/%(id)s__info.toml" % dict(
