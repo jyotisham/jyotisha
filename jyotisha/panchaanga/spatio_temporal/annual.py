@@ -61,29 +61,22 @@ def get_panchaanga_for_shaka_year(city, year, precomputed_json_dir="~/Documents/
     return panchaanga
 
 
-def get_panchaanga_for_civil_year(city, year, compute_lagnas=False, precomputed_json_dir="~/Documents/jyotisha",
+def get_panchaanga_for_civil_year(city, year, precomputed_json_dir="~/Documents/jyotisha",
                                   computation_system: ComputationSystem = ComputationSystem.MULTI_NEW_MOON_SOLAR_MONTH_ADHIKA__CHITRA_180, allow_precomputed=True):
   fname_det = os.path.expanduser('%s/%s-%s-detailed.json' % (precomputed_json_dir, city.name, year))
   fname = os.path.expanduser('%s/%s-%s.json' % (precomputed_json_dir, city.name, year))
 
   if os.path.isfile(fname) and allow_precomputed:
-    fn = lambda: get_panchaanga_for_civil_year(city=city, year=year, compute_lagnas=compute_lagnas, precomputed_json_dir=precomputed_json_dir,
+    fn = lambda: get_panchaanga_for_civil_year(city=city, year=year, precomputed_json_dir=precomputed_json_dir,
                                             computation_system=computation_system, allow_precomputed=False)
     return load_panchaanga(fname=fname, fallback_fn=fn) 
   else:
     logging.info('No precomputed data available. Computing panchaanga...\n')
-    panchaanga = periodical.Panchaanga(city=city, start_date='%d-01-01' % year, end_date='%d-12-31' % year, compute_lagnas=compute_lagnas)
+    panchaanga = periodical.Panchaanga(city=city, start_date='%d-01-01' % year, end_date='%d-12-31' % year)
     panchaanga.year = year
     logging.info('Writing computed panchaanga to %s...\n' % fname)
 
-    try:
-      if compute_lagnas:
-        panchaanga.dump_to_file(filename=fname_det)
-      else:
-        panchaanga.dump_to_file(filename=fname)
-    except EnvironmentError:
-      logging.warning("Not able to save.")
-      logging.error(traceback.format_exc())
+    panchaanga.dump_to_file(filename=fname)
     # Save without festival details
     # Festival data may be updated more frequently and a precomputed panchaanga may go out of sync. Hence we keep this method separate.
     panchaanga.update_festival_details()

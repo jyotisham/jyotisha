@@ -1,7 +1,4 @@
-import logging
-import os
 import sys
-import traceback
 
 import methodtools
 
@@ -24,8 +21,7 @@ class Panchaanga(common.JsonObject):
     """
   LATEST_VERSION = "0.0.4"
 
-  def __init__(self, city, start_date, end_date, computation_system: ComputationSystem = ComputationSystem.MULTI_NEW_MOON_SOLAR_MONTH_ADHIKA__CHITRA_180,
-               compute_lagnas=False):
+  def __init__(self, city, start_date, end_date, computation_system: ComputationSystem = ComputationSystem.MULTI_NEW_MOON_SOLAR_MONTH_ADHIKA__CHITRA_180):
     """Constructor for the panchaanga.
         """
     super(Panchaanga, self).__init__()
@@ -49,7 +45,7 @@ class Panchaanga(common.JsonObject):
 
     self.weekday_start = time.get_weekday(self.jd_start)
 
-    self.compute_angas(compute_lagnas=compute_lagnas)
+    self.compute_angas(compute_lagnas=computation_system.options.lagnas)
 
   def compute_angas(self, compute_lagnas=True):
     """Compute the entire panchaanga
@@ -290,45 +286,10 @@ class Panchaanga(common.JsonObject):
     self._refill_daily_panchaangas()
 
 
-def get_panchaanga(city, start_date, end_date, compute_lagnams=False,
-                   precomputed_json_dir="~/Documents/jyotisha", ayanaamsha_id=zodiac.Ayanamsha.CHITRA_AT_180):
-  fname_det = os.path.expanduser(
-    '%s/%s-%s-%s-detailed.json' % (precomputed_json_dir, city.name, start_date, end_date))
-  fname = os.path.expanduser('%s/%s-%s-%s.json' % (precomputed_json_dir, city.name, start_date, end_date))
-
-  if os.path.isfile(fname) and not compute_lagnams:
-    sys.stderr.write('Loaded pre-computed panchaanga from %s.\n' % fname)
-    p = Panchaanga.read_from_file(filename=fname)
-    return p
-  elif os.path.isfile(fname_det):
-    # Load pickle, do not compute!
-    sys.stderr.write('Loaded pre-computed panchaanga from %s.\n' % fname)
-    p = Panchaanga.read_from_file(filename=fname_det)
-    return p
-  else:
-    sys.stderr.write('No precomputed data available. Computing panchaanga...\n')
-    panchaanga = Panchaanga(city=city, start_date=start_date, end_date=end_date, compute_lagnas=compute_lagnams,
-                            ayanaamsha_id=ayanaamsha_id)
-    sys.stderr.write('Writing computed panchaanga to %s...\n' % fname)
-
-    try:
-      if compute_lagnams:
-        panchaanga.dump_to_file(filename=fname_det)
-      else:
-        panchaanga.dump_to_file(filename=fname)
-    except EnvironmentError:
-      logging.warning("Not able to save.")
-      logging.error(traceback.format_exc())
-    # Save without festival details
-    # Festival data may be updated more frequently and a precomputed panchaanga may go out of sync. Hence we keep this method separate.
-    panchaanga.update_festival_details()
-    return panchaanga
-
-
 # Essential for depickling to work.
 common.update_json_class_index(sys.modules[__name__])
 
 if __name__ == '__main__':
   city = spatio_temporal.City('Chennai', "13:05:24", "80:16:12", "Asia/Calcutta")
   panchaanga = Panchaanga(city=city, start_date='2019-04-14', end_date='2020-04-13',
-                          ayanaamsha_id=zodiac.Ayanamsha.CHITRA_AT_180, compute_lagnas=False)
+                          ayanaamsha_id=zodiac.Ayanamsha.CHITRA_AT_180)

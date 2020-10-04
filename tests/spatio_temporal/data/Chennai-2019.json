@@ -9,13 +9,13 @@
   },
   "computation_system": {
     "ayanaamsha_id": "CHITRA_AT_180",
-    "computation_options": {
+    "jsonClass": "ComputationSystem",
+    "lunar_month_assigner_type": "MULTI_NEW_MOON_SOLAR_MONTH_ADHIKA",
+    "options": {
       "festivals": true,
       "jsonClass": "ComputationOptions",
       "lagnas": false
-    },
-    "jsonClass": "ComputationSystem",
-    "lunar_month_assigner_type": "MULTI_NEW_MOON_SOLAR_MONTH_ADHIKA"
+    }
   },
   "date_str_to_panchaanga": {
     "2018-12-31": {
