@@ -247,13 +247,13 @@ def writeDailyICS(panchaanga, script=sanscript.DEVANAGARI, compute_lagnams=True)
       format=panchaanga.fmt)
 
     # braahma = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.braahma.jd_start - jd)).toString(format=panchaanga.fmt)
-    # pratahsandhya = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.praatas_sandhyaa.jd_start - jd)).toString(format=panchaanga.fmt)
-    # pratahsandhya_end = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.praatas_sandhyaa_end.jd_start - jd)).toString(format=panchaanga.fmt)
+    # praatahsandhya = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.praatas_sandhyaa.jd_start - jd)).toString(format=panchaanga.fmt)
+    # praatahsandhya_end = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.praatas_sandhyaa_end.jd_start - jd)).toString(format=panchaanga.fmt)
     # saangava = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.saangava.jd_start - jd)).toString(format=panchaanga.fmt)
     # madhyaahna = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.madhyaahna.jd_start - jd)).toString(format=panchaanga.fmt)
     # madhyahnika_sandhya = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.maadhyaahnika_sandhyaa.jd_start - jd)).toString(format=panchaanga.fmt)
     # madhyahnika_sandhya_end = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.maadhyaahnika_sandhyaa_end.jd_start - jd)).toString(format=panchaanga.fmt)
-    aparahna = Hour(24 * (daily_panchaanga.day_length_based_periods.aparaahna.jd_start - jd)).toString(
+    aparaahna = Hour(24 * (daily_panchaanga.day_length_based_periods.aparaahna.jd_start - jd)).toString(
       format=panchaanga.fmt)
     sayahna = Hour(24 * (daily_panchaanga.day_length_based_periods.saayaahna.jd_start - jd)).toString(
       format=panchaanga.fmt)
@@ -261,7 +261,7 @@ def writeDailyICS(panchaanga, script=sanscript.DEVANAGARI, compute_lagnams=True)
     # sayamsandhya_end = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.saayam_sandhyaa_end.jd_start - jd)).toString(format=panchaanga.fmt)
     # ratriyama1 = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.raatri_yaama_1.jd_start - jd)).toString(format=panchaanga.fmt)
     # sayana_time = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.shayana.jd_start - jd)).toString(format=panchaanga.fmt)
-    dinanta = Hour(24 * (daily_panchaanga.day_length_based_periods.dinaanta.jd_start - jd)).toString(
+    dinaanta = Hour(24 * (daily_panchaanga.day_length_based_periods.dinaanta.jd_start - jd)).toString(
       format=panchaanga.fmt)
 
     rahu = '%s–%s' % (
@@ -345,14 +345,14 @@ def writeDailyICS(panchaanga, script=sanscript.DEVANAGARI, compute_lagnams=True)
       file=output_stream)
     print('°' * 25, file=output_stream)
     # braahma
-    # pratahsandhya, pratahsandhya_end
+    # praatahsandhya, praatahsandhya_end
     # saangava
     # madhyahnika_sandhya, madhyahnika_sandhya_end
     # madhyaahna
-    # aparahna
+    # aparaahna
     # sayahna
     # sayamsandhya, sayamsandhya_end
-    # dinanta
+    # dinaanta
     print('%s' % (paksha_data_str), file=output_stream)
     print('%s' % (tithi_data_str), file=output_stream)
     print('*%s*—%s' % (getName('vAsaraH', script), vara), file=output_stream)
@@ -388,8 +388,8 @@ def writeDailyICS(panchaanga, script=sanscript.DEVANAGARI, compute_lagnams=True)
       getName('candrAstamayaH', script), moonset, getName('candrOdayaH', script), moonrise),
             file=output_stream)
 
-    print('*%s*—%s►%s' % (getName('aparAhNa-kAlaH', script), aparahna, sayahna), file=output_stream)
-    print('*%s*—%s' % (getName('dinAntaH', script), dinanta), file=output_stream)
+    print('*%s*—%s►%s' % (getName('aparAhNa-kAlaH', script), aparaahna, sayahna), file=output_stream)
+    print('*%s*—%s' % (getName('dinAntaH', script), dinaanta), file=output_stream)
     print('*%s*—%s;\n*%s*—%s;\n*%s*—%s' % (getName('rAhukAlaH', script), rahu,
                                            getName('yamaghaNTaH', script), yama,
                                            getName('gulikakAlaH', script), gulika), file=output_stream)
@@ -418,11 +418,11 @@ def writeDailyICS(panchaanga, script=sanscript.DEVANAGARI, compute_lagnams=True)
       print('', file=output_stream)
 
     if panchaanga.fmt == 'hh:mm*':
-      dinanta_hh, dinanta_mm = dinanta.split(':')
-      dinanta_hh = int(dinanta_hh) - 24
-      dinanta_mm = int(dinanta_mm[:-1])
+      dinaanta_hh, dinaanta_mm = dinaanta.split(':')
+      dinaanta_hh = int(dinaanta_hh) - 24
+      dinaanta_mm = int(dinaanta_mm[:-1])
       footer_text = 'Note: All times are shown in 24h format. Times beyond midnight are shown as %s, meaning %02d:%02d am tomorrow.' % (
-      dinanta, dinanta_hh, dinanta_mm)
+      dinaanta, dinaanta_hh, dinaanta_mm)
       output_text = cleanTamilNa(output_stream.getvalue()) + '\n\n%s' % footer_text
     else:
       output_text = cleanTamilNa(output_stream.getvalue())

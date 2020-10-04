@@ -236,13 +236,13 @@ def writeDailyText(panchaanga, time_format="hh:mm", script=sanscript.DEVANAGARI,
       format=time_format)
 
     # braahma = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.braahma.jd_start - jd)).toString(format=time_format)
-    # pratahsandhya = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.praatas_sandhyaa.jd_start - jd)).toString(format=time_format)
-    # pratahsandhya_end = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.praatas_sandhyaa_end.jd_start - jd)).toString(format=time_format)
+    # praatahsandhya = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.praatas_sandhyaa.jd_start - jd)).toString(format=time_format)
+    # praatahsandhya_end = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.praatas_sandhyaa_end.jd_start - jd)).toString(format=time_format)
     # saangava = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.saangava.jd_start - jd)).toString(format=time_format)
     # madhyaahna = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.madhyaahna.jd_start - jd)).toString(format=time_format)
     # madhyahnika_sandhya = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.maadhyaahnika_sandhyaa.jd_start - jd)).toString(format=time_format)
     # madhyahnika_sandhya_end = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.maadhyaahnika_sandhyaa_end.jd_start - jd)).toString(format=time_format)
-    aparahna = jyotisha.panchaanga.temporal.hour.Hour(24 * (daily_panchaanga.day_length_based_periods.aparaahna.jd_start - jd)).toString(
+    aparaahna = jyotisha.panchaanga.temporal.hour.Hour(24 * (daily_panchaanga.day_length_based_periods.aparaahna.jd_start - jd)).toString(
       format=time_format)
     sayahna = jyotisha.panchaanga.temporal.hour.Hour(24 * (daily_panchaanga.day_length_based_periods.saayaahna.jd_start - jd)).toString(
       format=time_format)
@@ -250,7 +250,7 @@ def writeDailyText(panchaanga, time_format="hh:mm", script=sanscript.DEVANAGARI,
     # sayamsandhya_end = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.saayam_sandhyaa_end.jd_start - jd)).toString(format=time_format)
     # ratriyama1 = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.raatri_yaama_1.jd_start - jd)).toString(format=time_format)
     # sayana_time = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.shayana.jd_start - jd)).toString(format=time_format)
-    dinanta = jyotisha.panchaanga.temporal.hour.Hour(24 * (daily_panchaanga.day_length_based_periods.dinaanta.jd_start - jd)).toString(
+    dinaanta = jyotisha.panchaanga.temporal.hour.Hour(24 * (daily_panchaanga.day_length_based_periods.dinaanta.jd_start - jd)).toString(
       format=time_format)
 
     rahu = '%s–%s' % (
@@ -333,14 +333,14 @@ def writeDailyText(panchaanga, time_format="hh:mm", script=sanscript.DEVANAGARI,
           file=output_stream)
     print('°' * 25, file=output_stream)
     # braahma
-    # pratahsandhya, pratahsandhya_end
+    # praatahsandhya, praatahsandhya_end
     # saangava
     # madhyahnika_sandhya, madhyahnika_sandhya_end
     # madhyaahna
-    # aparahna
+    # aparaahna
     # sayahna
     # sayamsandhya, sayamsandhya_end
-    # dinanta
+    # dinaanta
     print('%s' % (paksha_data_str), file=output_stream)
     print('%s' % (tithi_data_str), file=output_stream)
     print('%s—%s' % (getName('vAsaraH', script), vara), file=output_stream)
@@ -376,8 +376,8 @@ def writeDailyText(panchaanga, time_format="hh:mm", script=sanscript.DEVANAGARI,
       getName('candrAstamayaH', script), moonset, getName('candrOdayaH', script), moonrise),
             file=output_stream)
 
-    print('%s—%s►%s' % (getName('aparAhNa-kAlaH', script), aparahna, sayahna), file=output_stream)
-    print('%s—%s' % (getName('dinAntaH', script), dinanta), file=output_stream)
+    print('%s—%s►%s' % (getName('aparAhNa-kAlaH', script), aparaahna, sayahna), file=output_stream)
+    print('%s—%s' % (getName('dinAntaH', script), dinaanta), file=output_stream)
     print('%s—%s\n%s—%s\n%s—%s' % (getName('rAhukAlaH', script), rahu,
                                    getName('yamaghaNTaH', script), yama,
                                    getName('gulikakAlaH', script), gulika), file=output_stream)

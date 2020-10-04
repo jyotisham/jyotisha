@@ -197,9 +197,9 @@ def emit(panchaanga, time_format="hh:mm", scripts=[sanscript.DEVANAGARI], comput
 
     braahma_start = time.Hour(24 * (daily_panchaanga.day_length_based_periods.braahma.jd_start - jd)).toString(
       format=time_format)
-    pratahsandhya_start = time.Hour(
+    praatahsandhya_start = time.Hour(
       24 * (daily_panchaanga.day_length_based_periods.praatas_sandhyaa.jd_start - jd)).toString(format=time_format)
-    pratahsandhya_end = time.Hour(
+    praatahsandhya_end = time.Hour(
       24 * (daily_panchaanga.day_length_based_periods.praatas_sandhyaa_end.jd_start - jd)).toString(format=time_format)
     saangava = time.Hour(24 * (daily_panchaanga.day_length_based_periods.saangava.jd_start - jd)).toString(
       format=time_format)
@@ -209,7 +209,7 @@ def emit(panchaanga, time_format="hh:mm", scripts=[sanscript.DEVANAGARI], comput
       24 * (daily_panchaanga.day_length_based_periods.maadhyaahnika_sandhyaa.jd_start - jd)).toString(format=time_format)
     madhyahnika_sandhya_end = time.Hour(
       24 * (daily_panchaanga.day_length_based_periods.maadhyaahnika_sandhyaa_end.jd_start - jd)).toString(format=time_format)
-    aparahna = time.Hour(24 * (daily_panchaanga.day_length_based_periods.aparaahna.jd_start - jd)).toString(
+    aparaahna = time.Hour(24 * (daily_panchaanga.day_length_based_periods.aparaahna.jd_start - jd)).toString(
       format=time_format)
     sayahna = time.Hour(24 * (daily_panchaanga.day_length_based_periods.saayaahna.jd_start - jd)).toString(
       format=time_format)
@@ -221,7 +221,7 @@ def emit(panchaanga, time_format="hh:mm", scripts=[sanscript.DEVANAGARI], comput
       format=time_format)
     shayana_time_end = time.Hour(24 * (daily_panchaanga.day_length_based_periods.shayana.jd_start - jd)).toString(
       format=time_format)
-    dinanta = time.Hour(24 * (daily_panchaanga.day_length_based_periods.dinaanta.jd_start - jd)).toString(
+    dinaanta = time.Hour(24 * (daily_panchaanga.day_length_based_periods.dinaanta.jd_start - jd)).toString(
       format=time_format)
 
     rahu = '%s--%s' % (
@@ -284,12 +284,12 @@ def emit(panchaanga, time_format="hh:mm", scripts=[sanscript.DEVANAGARI], comput
       print('{\\sunmoonsrdata{%s}{%s}{%s}{%s}' % (sunrise, sunset, moonrise, moonset), file=output_stream)
 
     print(
-      '{\\kalas{%s %s %s %s %s %s %s %s %s %s %s %s %s %s}}}' % (braahma_start, pratahsandhya_start, pratahsandhya_end,
+      '{\\kalas{%s %s %s %s %s %s %s %s %s %s %s %s %s %s}}}' % (braahma_start, praatahsandhya_start, praatahsandhya_end,
                                                                 saangava,
                                                                 madhyahnika_sandhya_start, madhyahnika_sandhya_end,
-                                                                madhyaahna, aparahna, sayahna,
+                                                                madhyaahna, aparaahna, sayahna,
                                                                 sayamsandhya_start, sayamsandhya_end,
-                                                                ratriyama1, shayana_time_end, dinanta),
+                                                                ratriyama1, shayana_time_end, dinaanta),
       file=output_stream)
     if compute_lagnams:
       print('{\\tnykdata{%s}%%\n{%s}{%s}%%\n{%s}%%\n{%s}{%s}\n}'

@@ -73,7 +73,7 @@ class TithiAssigner(PeriodicPanchaangaApplier):
       # <a> 1 1 1 1 - d + 1: 1
       # <b> 1 1 2 2 - d: 1
       # <f> 1 1 2 3 - d: 1, d+1: 2
-      # <e> 1 1 1 2 - d, or vyApti (just in case next day aparahna is slightly longer): 1
+      # <e> 1 1 1 2 - d, or vyApti (just in case next day aparaahna is slightly longer): 1
       # <d> 1 1 3 3 - d: 1, 2
       # <h> 1 2 3 3 - d: 2
       # <c> 1 2 2 2 - d + 1: 2
