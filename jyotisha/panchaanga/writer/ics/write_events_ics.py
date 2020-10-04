@@ -126,9 +126,9 @@ def compute_events(panchaanga, json_file):
           event_name += '-#%d' % event_num
 
         if angam_sunrise[d] == angam_num_pred or angam_sunrise[d] == angam_num:
-          angams = panchaanga.get_angas_for_interval_boundaries(d, get_angam_func, kaala)
-          if angams is None:
-            sys.stderr.write('No angams returned! Skipping festival %s'
+          angas = panchaanga.get_2_day_interval_boundaries_angas(d, get_angam_func, kaala)
+          if angas is None:
+            sys.stderr.write('No angas returned! Skipping festival %s'
                              % event_name)
             continue
             # Some error, e.g. weird kaala, so skip festival
@@ -136,20 +136,20 @@ def compute_events(panchaanga, json_file):
             logging.debug('%' * 80)
             try:
               logging.debug('%s: %s' % (event_name, event_rules[event_name]))
-              logging.debug("%%angams today & tmrw: %s" % angams)
+              logging.debug("%%angas today & tmrw: %s" % angas)
             except KeyError:
               logging.debug('%s: %s' % (event_name, event_rules[event_name.split('\\')[0][:-1]]))
-              logging.debug("%%angams today & tmrw: %s" % angams)
+              logging.debug("%%angas today & tmrw: %s" % angas)
           if priority == 'paraviddha':
-            if angams[0] == angam_num or angams[1] == angam_num:
+            if angas[0] == angam_num or angas[1] == angam_num:
               logging.debug('Assigned fday = %d' % d)
               fday = d
-            if angams[2] == angam_num or angams[3] == angam_num:
+            if angas[2] == angam_num or angas[3] == angam_num:
               logging.debug('Assigned fday = %d' % d + 1)
               fday = d + 1
             if fday is None:
               if debugEvents:
-                logging.debug('%s: %s' % (angams, angam_num))
+                logging.debug('%s: %s' % (angas, angam_num))
               sys.stderr.write('Could not assign paraviddha day for %s!' %
                                event_name +
                                ' Please check for unusual cases.\n')
@@ -157,10 +157,10 @@ def compute_events(panchaanga, json_file):
               sys.stderr.write('Assigned paraviddha day for %s!' %
                                event_name + ' Ignore future warnings!\n')
           elif priority == 'puurvaviddha':
-            angams_yest = panchaanga.get_angas_for_interval_boundaries(d - 1, get_angam_func, kaala)
+            angas_yest = panchaanga.get_2_day_interval_boundaries_angas(d - 1, get_angam_func, kaala)
             if debugEvents:
-              logging.debug("Angams yest & today: %s" % angams_yest)
-            if angams[0] == angam_num or angams[1] == angam_num:
+              logging.debug("Angams yest & today: %s" % angas_yest)
+            if angas[0] == angam_num or angas[1] == angam_num:
               if event_name in panchaanga.festival_id_to_days:
                 # Check if yesterday was assigned already
                 # to this puurvaviddha festival!
@@ -182,7 +182,7 @@ def compute_events(panchaanga, json_file):
               else:
                 fday = d
                 logging.debug('Assigned fday = %d' % d)
-            elif angams[2] == angam_num or angams[3] == angam_num:
+            elif angas[2] == angam_num or angas[3] == angam_num:
               if (month_type == 'lunar_month' and daily_panchaangas[d + 1].lunar_month_sunrise == month_num) or \
                   (month_type == 'sidereal_solar_month' and daily_panchaangas[d + 1].solar_sidereal_date_sunset.month == month_num):
                 fday = d + 1
@@ -192,7 +192,7 @@ def compute_events(panchaanga, json_file):
               # touch the kaala on either day!
               # sys.stderr.write('Could not assign puurvaviddha day for %s!\
               # Please check for unusual cases.\n' % event_name)
-              if angams[2] == angam_num_succ or angams[3] == angam_num_succ:
+              if angas[2] == angam_num_succ or angas[3] == angam_num_succ:
                 # Need to assign a day to the festival here
                 # since the anga did not touch kaala on either day
                 # BUT ONLY IF YESTERDAY WASN'T ALREADY ASSIGNED,

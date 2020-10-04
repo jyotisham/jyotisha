@@ -24,7 +24,7 @@ Dependencies
 Usage
 -----
 
-Helper scripts and Downloadable Panchangams (PDF/ICS)
+Helper scripts and Downloadable Panchangas (PDF/ICS)
 ~~~~~~~~~~~~~~
 See https://github.com/karthikraman/panchaanga repository.
 

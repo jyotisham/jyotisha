@@ -117,7 +117,7 @@ class Panchaanga(common.JsonObject):
     else:
       return self.daily_panchaanga_for_date(date=panchaanga.date - 1)
 
-  def get_angas_for_interval_boundaries(self, d, get_anga_func, interval_type):
+  def get_2_day_interval_boundaries_angas(self, d, get_anga_func, interval_type):
     """Get anga data at various points.
     
     Useful for festival assignments."""

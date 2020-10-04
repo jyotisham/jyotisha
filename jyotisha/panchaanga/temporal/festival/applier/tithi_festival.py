@@ -107,9 +107,9 @@ class TithiFestivalAssigner(FestivalAssigner):
         festival_name = 'subrahmaNya-' + festival_name
 
       if self.daily_panchaangas[d].sunrise_day_angas.tithi_at_sunrise == 5 or self.daily_panchaangas[d].sunrise_day_angas.tithi_at_sunrise == 6:
-        angams = self.panchaanga.get_angas_for_interval_boundaries(d, lambda x: temporal.tithi.get_tithi(x),
+        angas = self.panchaanga.get_2_day_interval_boundaries_angas(d, lambda x: temporal.tithi.get_tithi(x),
                                             'madhyaahna')
-        if angams[0] == 6 or angams[1] == 6:
+        if angas[0] == 6 or angas[1] == 6:
           if festival_name in self.panchaanga.festival_id_to_days:
             # Check if yesterday was assigned already
             # to this puurvaviddha festival!
@@ -117,14 +117,14 @@ class TithiFestivalAssigner(FestivalAssigner):
               self.add_festival(festival_name, d)
           else:
             self.add_festival(festival_name, d)
-        elif angams[2] == 6 or angams[3] == 6:
+        elif angas[2] == 6 or angas[3] == 6:
           self.add_festival(festival_name, d + 1)
         else:
           # This means that the correct anga did not
           # touch the kaala on either day!
           # sys.stderr.write('Could not assign puurvaviddha day for %s!\
           # Please check for unusual cases.\n' % festival_name)
-          if angams[2] == 6 + 1 or angams[3] == 6 + 1:
+          if angas[2] == 6 + 1 or angas[3] == 6 + 1:
             # Need to assign a day to the festival here
             # since the anga did not touch kaala on either day
             # BUT ONLY IF YESTERDAY WASN'T ALREADY ASSIGNED,
@@ -381,8 +381,8 @@ class TithiFestivalAssigner(FestivalAssigner):
           pref = names.get_chandra_masa(self.daily_panchaangas[d].lunar_month_sunrise, names.NAMES, 'hk',
                                         visarga=False) + '-'
 
-        ama_nakshatra_today = self.panchaanga.get_angas_for_interval_boundaries(d, lambda x: NakshatraDivision(x,
-                                                                                                                ayanaamsha_id=self.ayanaamsha_id).get_nakshatra(),
+        ama_nakshatra_today = self.panchaanga.get_2_day_interval_boundaries_angas(d, lambda x: NakshatraDivision(x,
+                                                                                                                 ayanaamsha_id=self.ayanaamsha_id).get_nakshatra(),
                                                           'aparaahna')[:2]
         suff = ''
         # Assign

@@ -10,7 +10,7 @@ from jyotisha.panchaanga.spatio_temporal import City
 from jyotisha.panchaanga.temporal import interval, time, ComputationSystem, set_constants
 from jyotisha.panchaanga.temporal import zodiac
 from jyotisha.panchaanga.temporal.body import Graha
-from jyotisha.panchaanga.temporal.interval import Interval
+from jyotisha.panchaanga.temporal.interval import Interval, DayLengthBasedPeriods
 from jyotisha.panchaanga.temporal.month import LunarMonthAssigner
 from jyotisha.panchaanga.temporal.time import Timezone, Hour, Date
 from jyotisha.panchaanga.temporal.zodiac import Ayanamsha, NakshatraDivision, AngaType, AngaSpanFinder
@@ -22,26 +22,6 @@ logging.basicConfig(level=logging.DEBUG,
 
 set_constants()
 
-class DayLengthBasedPeriods(common.JsonObject):
-  def __init__(self):
-    self.braahma = None
-    self.praatas_sandhyaa = None
-    self.praatas_sandhyaa_end = None
-    self.praataH = None
-    self.sangava = None
-    self.madhyaahna = None
-    self.maadhyaahnika_sandhyaa = None
-    self.maadhyaahnika_sandhyaa_end = None
-    self.aparaahNa = None
-    self.saayaahna = None
-    self.saayaM_sandhyaa = None
-    self.saayaM_sandhyaa_end = None
-    self.raatri_yaama_1 = None
-    self.dinaanta = None
-    self.shayana = None
-    self.yama = None
-    self.gulika = None
-    self.tb_muhuurtas = None
 
 
 class DayAngas(common.JsonObject):
@@ -102,7 +82,6 @@ class DailyPanchaanga(common.JsonObject):
     self.jd_moonset = None
 
     self.lagna_data = None
-    self.day_length_based_periods = None
     self.sunrise_day_angas = None
 
     self.solar_sidereal_date_sunset = None
@@ -118,7 +97,7 @@ class DailyPanchaanga(common.JsonObject):
     self.compute_sun_moon_transitions(previous_day_panchaanga=previous_day_panchaanga)
     self.compute_solar_day_sunset(previous_day_panchaanga=previous_day_panchaanga)
     self.set_tropical_date_sunset(previous_day_panchaanga=previous_day_panchaanga)
-    self.get_day_length_based_periods()
+    self.day_length_based_periods = DayLengthBasedPeriods(jd_previous_sunset=self.jd_previous_sunset, jd_sunrise=self.jd_sunrise, jd_sunset=self.jd_sunset, jd_next_sunrise=self.jd_next_sunrise, weekday=self.date.get_weekday())
 
     if computation_system.lunar_month_assigner_type is not None:
       lunar_month_assigner = LunarMonthAssigner.get_assigner(computation_system=computation_system)
@@ -279,42 +258,6 @@ class DailyPanchaanga(common.JsonObject):
       if lagna_end_time < self.jd_next_sunrise:
         self.lagna_data.append((lagna, lagna_end_time))
     return self.lagna_data
-
-  def get_day_length_based_periods(self):
-    # Compute the various day_length_based_periods
-    # Sunrise/sunset and related stuff (like rahu, yama)
-    if self.day_length_based_periods is not None:
-      return self.day_length_based_periods
-
-    if getattr(self, "jd_sunrise", None) is None or self.jd_sunrise is None:
-      self.compute_sun_moon_transitions()
-    YAMAGANDA_OCTETS = [4, 3, 2, 1, 0, 6, 5]
-    RAHUKALA_OCTETS = [7, 1, 6, 4, 5, 3, 2]
-    GULIKAKALA_OCTETS = [6, 5, 4, 3, 2, 1, 0]
-    weekday = self.date.get_weekday()
-    self.day_length_based_periods = DayLengthBasedPeriods()
-    self.day_length_based_periods.braahma = interval.get_interval(self.jd_previous_sunset, self.jd_sunrise, 13, 15)
-    self.day_length_based_periods.praatas_sandhyaa = interval.get_interval(self.jd_previous_sunset, self.jd_sunrise, 14, 15)
-    self.day_length_based_periods.praatas_sandhyaa_end = interval.get_interval(self.jd_sunrise, self.jd_sunset, 4, 15)
-    self.day_length_based_periods.praataH = interval.get_interval(self.jd_sunrise, self.jd_sunset, 0, 5)
-    self.day_length_based_periods.saangava = interval.get_interval(self.jd_sunrise, self.jd_sunset, 1, 5)
-    self.day_length_based_periods.madhyaahna = interval.get_interval(self.jd_sunrise, self.jd_sunset, 2, 5)
-    self.day_length_based_periods.maadhyaahnika_sandhyaa = interval.get_interval(self.jd_sunrise, self.jd_sunset, 5, 15)
-    self.day_length_based_periods.maadhyaahnika_sandhyaa_end = interval.get_interval(self.jd_sunrise, self.jd_sunset, 13, 15)
-    self.day_length_based_periods.aparaahnNa = interval.get_interval(self.jd_sunrise, self.jd_sunset, 3, 5)
-    self.day_length_based_periods.saayaahna = interval.get_interval(self.jd_sunrise, self.jd_sunset, 4, 5)
-    self.day_length_based_periods.saayaM_sandhyaa = interval.get_interval(self.jd_sunrise, self.jd_sunset, 14, 15)
-    self.day_length_based_periods.saayaM_sandhyaa_end = interval.get_interval(self.jd_sunset, self.jd_next_sunrise, 1, 15)
-    self.day_length_based_periods.raatri_yaama_1 = interval.get_interval(self.jd_sunset, self.jd_next_sunrise, 1, 4)
-    self.day_length_based_periods.shayana = interval.get_interval(self.jd_sunset, self.jd_next_sunrise, 3, 8)
-    self.day_length_based_periods.dinaanta = interval.get_interval(self.jd_sunset, self.jd_next_sunrise, 5, 8)
-    self.day_length_based_periods.raahu = interval.get_interval(self.jd_sunrise, self.jd_sunset,
-                                                               RAHUKALA_OCTETS[weekday], 8)
-    self.day_length_based_periods.yama = interval.get_interval(self.jd_sunrise, self.jd_sunset,
-                                                               YAMAGANDA_OCTETS[weekday], 8)
-    self.day_length_based_periods.gulika = interval.get_interval(self.jd_sunrise, self.jd_sunset,
-                                                                 GULIKAKALA_OCTETS[weekday], 8)
-    return self.day_length_based_periods
 
   def get_sunrise_day_anga_spans(self, anga_type):
     """Computes anga data for sunrise_day_angas such as tithi, nakshatra, yoga

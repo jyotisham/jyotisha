@@ -87,10 +87,10 @@ class VaraFestivalAssigner(FestivalAssigner):
         if (self.daily_panchaangas[d].sunrise_day_angas.nakshatra_at_sunrise == nwd_fest_n or self.daily_panchaangas[d].sunrise_day_angas.nakshatra_at_sunrise == n_prev) and self.daily_panchaangas[
           d].date.get_weekday() == nwd_fest_wd:
           # Is it necessarily only at sunrise?
-          angams = self.panchaanga.get_angas_for_interval_boundaries(d, lambda x: NakshatraDivision(x,
-                                                                                                    ayanaamsha_id=self.ayanaamsha_id).get_nakshatra(),
+          angas = self.panchaanga.get_2_day_interval_boundaries_angas(d, lambda x: NakshatraDivision(x,
+                                                                                                     ayanaamsha_id=self.ayanaamsha_id).get_nakshatra(),
                                               'dinamaana')
-          if any(x == nwd_fest_n for x in [self.daily_panchaangas[d].sunrise_day_angas.nakshatra_at_sunrise, angams[0], angams[1]]):
+          if any(x == nwd_fest_n for x in [self.daily_panchaangas[d].sunrise_day_angas.nakshatra_at_sunrise, angas[0], angas[1]]):
             self.add_festival(nwd_fest_name, d)
 
 
