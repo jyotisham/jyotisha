@@ -147,7 +147,7 @@ class Panchaanga(common.JsonObject):
                # praatah2 end
                get_anga_func(jd_sunrise_tmrw + \
                              (jd_sunset_tmrw - jd_sunrise_tmrw) * (1.0 / 5.0))]
-    elif interval_type == 'sangava':
+    elif interval_type == 'saangava':
       angas = [
         get_anga_func(jd_sunrise + (jd_sunset - jd_sunrise) * (1.0 / 5.0)),
         get_anga_func(jd_sunrise + (jd_sunset - jd_sunrise) * (2.0 / 5.0)),

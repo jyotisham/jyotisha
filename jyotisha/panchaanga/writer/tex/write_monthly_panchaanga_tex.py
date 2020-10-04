@@ -215,7 +215,7 @@ def write_monthly_tex(panchaanga, template_file, scripts=[sanscript.DEVANAGARI],
     sunrise = jyotisha.panchaanga.temporal.hour.Hour(24 * (daily_panchaanga.jd_sunrise - jd)).toString(
       format=panchaanga.fmt)
     sunset = jyotisha.panchaanga.temporal.hour.Hour(24 * (daily_panchaanga.jd_sunset - jd)).toString(format=panchaanga.fmt)
-    sangava = jyotisha.panchaanga.temporal.hour.Hour(24 * (daily_panchaanga.day_length_based_periods.saangava.jd_start - jd)).toString(
+    saangava = jyotisha.panchaanga.temporal.hour.Hour(24 * (daily_panchaanga.day_length_based_periods.saangava.jd_start - jd)).toString(
       format=panchaanga.fmt)
     rahu = '%s--%s' % (
       jyotisha.panchaanga.temporal.hour.Hour(24 * (daily_panchaanga.day_length_based_periods.raahu.jd_start - jd)).toString(
@@ -250,7 +250,7 @@ def write_monthly_tex(panchaanga, template_file, scripts=[sanscript.DEVANAGARI],
                             (day_colours[daily_panchaanga.date.get_weekday()], dt, month_data,
                              jyotisha.names.get_chandra_masa(daily_panchaanga.lunar_month_sunrise,
                                                              jyotisha.names.NAMES, scripts[0])))
-      month_text += '\n' + ('{\\sundata{%s}{%s}{%s}}%%' % (sunrise, sunset, sangava))
+      month_text += '\n' + ('{\\sundata{%s}{%s}{%s}}%%' % (sunrise, sunset, saangava))
       month_text += '\n' + ('{\\tnyk{%s}%%\n{%s}%%\n{%s}%%\n{%s}}%%' % (tithi_data_str, nakshatra_data_str,
                                                                         yoga_data_str, karana_data_str))
       month_text += '\n' + ('{\\rahuyama{%s}{%s}}%%' % (rahu, yama))
@@ -266,7 +266,7 @@ def write_monthly_tex(panchaanga, template_file, scripts=[sanscript.DEVANAGARI],
                        (day_colours[daily_panchaanga.date.get_weekday()], dt, month_data,
                         jyotisha.names.get_chandra_masa(daily_panchaanga.lunar_month_sunrise,
                                                         jyotisha.names.NAMES, scripts[0])))
-        W6D1 += '\n' + ('{\\sundata{%s}{%s}{%s}}%%' % (sunrise, sunset, sangava))
+        W6D1 += '\n' + ('{\\sundata{%s}{%s}{%s}}%%' % (sunrise, sunset, saangava))
         W6D1 += '\n' + ('{\\tnyk{%s}%%\n{%s}%%\n{%s}%%\n{%s}}%%' % (tithi_data_str, nakshatra_data_str,
                                                                     yoga_data_str, karana_data_str))
         W6D1 += '\n' + ('{\\rahuyama{%s}{%s}}%%' % (rahu, yama))
@@ -280,7 +280,7 @@ def write_monthly_tex(panchaanga, template_file, scripts=[sanscript.DEVANAGARI],
                        (day_colours[daily_panchaanga.date.get_weekday()], dt, month_data,
                         jyotisha.names.get_chandra_masa(daily_panchaanga.lunar_month_sunrise,
                                                         jyotisha.names.NAMES, scripts[0])))
-        W6D2 += '\n' + ('{\\sundata{%s}{%s}{%s}}%%' % (sunrise, sunset, sangava))
+        W6D2 += '\n' + ('{\\sundata{%s}{%s}{%s}}%%' % (sunrise, sunset, saangava))
         W6D2 += '\n' + ('{\\tnyk{%s}%%\n{%s}%%\n{%s}%%\n{%s}}%%' % (tithi_data_str, nakshatra_data_str,
                                                                     yoga_data_str, karana_data_str))
         W6D2 += '\n' + ('{\\rahuyama{%s}{%s}}%%' % (rahu, yama))

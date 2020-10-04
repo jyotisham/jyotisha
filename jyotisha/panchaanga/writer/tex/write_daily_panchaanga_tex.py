@@ -201,7 +201,7 @@ def emit(panchaanga, time_format="hh:mm", scripts=[sanscript.DEVANAGARI], comput
       24 * (daily_panchaanga.day_length_based_periods.praatas_sandhyaa.jd_start - jd)).toString(format=time_format)
     pratahsandhya_end = time.Hour(
       24 * (daily_panchaanga.day_length_based_periods.praatas_sandhyaa_end.jd_start - jd)).toString(format=time_format)
-    sangava = time.Hour(24 * (daily_panchaanga.day_length_based_periods.saangava.jd_start - jd)).toString(
+    saangava = time.Hour(24 * (daily_panchaanga.day_length_based_periods.saangava.jd_start - jd)).toString(
       format=time_format)
     madhyaahna = time.Hour(24 * (daily_panchaanga.day_length_based_periods.madhyaahna.jd_start - jd)).toString(
       format=time_format)
@@ -285,7 +285,7 @@ def emit(panchaanga, time_format="hh:mm", scripts=[sanscript.DEVANAGARI], comput
 
     print(
       '{\\kalas{%s %s %s %s %s %s %s %s %s %s %s %s %s %s}}}' % (braahma_start, pratahsandhya_start, pratahsandhya_end,
-                                                                sangava,
+                                                                saangava,
                                                                 madhyahnika_sandhya_start, madhyahnika_sandhya_end,
                                                                 madhyaahna, aparahna, sayahna,
                                                                 sayamsandhya_start, sayamsandhya_end,

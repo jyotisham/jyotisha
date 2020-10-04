@@ -249,7 +249,7 @@ def writeDailyICS(panchaanga, script=sanscript.DEVANAGARI, compute_lagnams=True)
     # braahma = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.braahma.jd_start - jd)).toString(format=panchaanga.fmt)
     # pratahsandhya = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.praatas_sandhyaa.jd_start - jd)).toString(format=panchaanga.fmt)
     # pratahsandhya_end = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.praatas_sandhyaa_end.jd_start - jd)).toString(format=panchaanga.fmt)
-    # sangava = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.saangava.jd_start - jd)).toString(format=panchaanga.fmt)
+    # saangava = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.saangava.jd_start - jd)).toString(format=panchaanga.fmt)
     # madhyaahna = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.madhyaahna.jd_start - jd)).toString(format=panchaanga.fmt)
     # madhyahnika_sandhya = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.maadhyaahnika_sandhyaa.jd_start - jd)).toString(format=panchaanga.fmt)
     # madhyahnika_sandhya_end = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.maadhyaahnika_sandhyaa_end.jd_start - jd)).toString(format=panchaanga.fmt)
@@ -346,7 +346,7 @@ def writeDailyICS(panchaanga, script=sanscript.DEVANAGARI, compute_lagnams=True)
     print('°' * 25, file=output_stream)
     # braahma
     # pratahsandhya, pratahsandhya_end
-    # sangava
+    # saangava
     # madhyahnika_sandhya, madhyahnika_sandhya_end
     # madhyaahna
     # aparahna
