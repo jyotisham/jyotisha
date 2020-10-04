@@ -2,18 +2,13 @@ import sys
 from datetime import datetime
 from math import floor
 
+from jyotisha import names
+from jyotisha.panchaanga.temporal import time
+from jyotisha.panchaanga.temporal import zodiac, tithi
+from jyotisha.panchaanga.temporal.festival.applier import FestivalAssigner
+from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision
 from pytz import timezone as tz
 
-from jyotisha.panchaanga.temporal import time, festival
-from jyotisha import names
-from jyotisha.panchaanga import temporal
-from jyotisha.panchaanga.temporal import zodiac, tithi
-from jyotisha.panchaanga.temporal.body import Graha
-from jyotisha.panchaanga.temporal.festival import FestivalInstance
-from jyotisha.panchaanga.temporal.festival.applier import FestivalAssigner
-from jyotisha.panchaanga.temporal.interval import Interval
-from jyotisha.panchaanga.temporal.time import Hour
-from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision
 from sanskrit_data.schema import common
 
 
@@ -126,13 +121,13 @@ class SolarFestivalAssigner(FestivalAssigner):
         if gc_28:
           gc_28_d = 1 + floor(gc_28_start - self.panchaanga.jd_start)
           # sys.stderr.write('gajacchhaya %d\n' % gc_28_d)
-          gajacchaayaa_fest = FestivalInstance(name='gajacchAyA-yOgaH', interval=Interval(jd_start=gc_28_start, jd_end=gc_28_end), days=[self.daily_panchaangas[gc_28_d].date])
-          self.panchaanga.festival_id_to_days[gajacchaayaa_fest.name] = gajacchaayaa_fest
+          # gajacchaayaa_fest = FestivalInstance(name='gajacchAyA-yOgaH', interval=Interval(jd_start=gc_28_start, jd_end=gc_28_end), days=[self.daily_panchaangas[gc_28_d].date])
+          # self.panchaanga.festival_id_to_days[gajacchaayaa_fest.name] = gajacchaayaa_fest
           gc_28 = False
         if gc_30:
           # sys.stderr.write('30: (%f, %f)\n' % (gc_30_start, gc_30_end))
           gc_30_d = 1 + floor(gc_30_start - self.panchaanga.jd_start)
-          gajacchaayaa_fest = FestivalInstance(name='gajacchAyA-yOgaH', interval=Interval(jd_start=gc_30_start, jd_end=gc_30_end), days=[self.daily_panchaangas[gc_30_d].date])
+          # gajacchaayaa_fest = FestivalInstance(name='gajacchAyA-yOgaH', interval=Interval(jd_start=gc_30_start, jd_end=gc_30_end), days=[self.daily_panchaangas[gc_30_d].date])
           # self.panchaanga.festival_id_to_days[gajacchaayaa_fest.name] = gajacchaayaa_fest
           gc_30 = False
 
