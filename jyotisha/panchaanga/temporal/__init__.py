@@ -13,11 +13,12 @@ MAX_DAYS_PER_YEAR = 366
 MAX_SZ = MAX_DAYS_PER_YEAR + 6  # plus one and minus one are usually necessary
 
 
-class PanchaangaApplier(JsonObject):
+class PeriodicPanchaangaApplier(JsonObject):
   """Objects of this type apply various temporal attributes to panchAnga-s."""
   def __init__(self, panchaanga):
     super().__init__()
     self.panchaanga = panchaanga
+    self.computation_system = panchaanga.computation_system
     self.daily_panchaangas = self.panchaanga.daily_panchaangas_sorted()
     self.ayanaamsha_id = panchaanga.computation_system.ayanaamsha_id
 
@@ -26,11 +27,12 @@ class PanchaangaApplier(JsonObject):
 
 
 class ComputationOptions(JsonObject):
-  def __init__(self, lagnas=False, festivals=True, fest_ids=None):
+  def __init__(self, lagnas=False, fest_ids_included=None, fest_ids_excluded=None, fest_tags_included=None, fest_tags_excluded=None):
     self.lagnas = lagnas
-    self.festivals = festivals
-    self.fest_ids = fest_ids
-    
+    self.fest_ids_excluded = fest_ids_excluded
+    self.fest_ids_included = fest_ids_excluded
+    self.fest_tags_excluded = fest_tags_excluded
+    self.fest_tags_included = fest_tags_included
 
 
 class ComputationSystem(JsonObject):

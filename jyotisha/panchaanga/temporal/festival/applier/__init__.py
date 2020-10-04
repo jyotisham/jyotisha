@@ -5,7 +5,7 @@ from itertools import filterfalse
 
 from jyotisha.panchaanga import temporal
 from jyotisha.panchaanga.temporal import festival
-from jyotisha.panchaanga.temporal import interval, PanchaangaApplier, tithi
+from jyotisha.panchaanga.temporal import interval, PeriodicPanchaangaApplier, tithi
 from jyotisha.panchaanga.temporal import time
 from jyotisha.panchaanga.temporal import zodiac
 from jyotisha.panchaanga.temporal.festival import rules
@@ -15,36 +15,7 @@ from sanskrit_data.schema import common
 DATA_ROOT = os.path.join(os.path.dirname(festival.__file__), "data")
 
 
-class FestivalAssigner(PanchaangaApplier):
-  def filter_festivals(self,
-                       incl_tags=['CommonFestivals', 'MonthlyVratam', 'RareDays', 'AmavasyaDays', 'Dashavataram',
-                                  'SunSankranti']):
-
-    festival_rules = rules.festival_rules_all
-    for d in range(1, len(self.panchaanga.festivals)):
-      if len(self.daily_panchaangas[d].festivals) > 0:
-        # Eliminate repeat festivals on the same day, and keep the list arbitrarily sorted
-        self.daily_panchaangas[d].festivals = sorted(list(set(self.daily_panchaangas[d].festivals)))
-
-        def chk_fest(fest):
-          fest_title = fest.name
-          fest_num_loc = fest_title.find('~#')
-          if fest_num_loc != -1:
-            fest_text_itle = fest_title[:fest_num_loc]
-          else:
-            fest_text_itle = fest_title
-          if fest_text_itle in festival_rules:
-            tag_list = (festival_rules[fest_text_itle].tags.split(','))
-            if set(tag_list).isdisjoint(set(incl_tags)):
-              return True
-            else:
-              return False
-          else:
-            return False
-
-        self.daily_panchaangas[d].festivals[:] = filterfalse(chk_fest, self.daily_panchaangas[d].festivals)
-
-
+class FestivalAssigner(PeriodicPanchaangaApplier):
   def add_festival(self, festival_name, d):
     if festival_name in self.panchaanga.festival_id_to_instance:
       if self.daily_panchaangas[d].date not in self.panchaanga.festival_id_to_instance[festival_name].days:

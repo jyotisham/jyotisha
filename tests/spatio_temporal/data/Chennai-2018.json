@@ -12,7 +12,6 @@
     "jsonClass": "ComputationSystem",
     "lunar_month_assigner_type": "MULTI_NEW_MOON_SOLAR_MONTH_ADHIKA",
     "options": {
-      "festivals": true,
       "jsonClass": "ComputationOptions",
       "lagnas": false
     }

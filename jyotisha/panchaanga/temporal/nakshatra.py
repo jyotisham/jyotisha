@@ -5,7 +5,7 @@ from jyotisha.panchaanga.temporal import time
 from jyotisha import names
 
 from jyotisha.panchaanga import temporal
-from jyotisha.panchaanga.temporal import zodiac, PanchaangaApplier
+from jyotisha.panchaanga.temporal import zodiac, PeriodicPanchaangaApplier
 from jyotisha.panchaanga.temporal.time import Hour
 from sanskrit_data.schema import common
 
@@ -27,7 +27,7 @@ for i in range(7):
   AMRITADI_YOGA[i] = [AMRITADI_YOGA_NAMES.get(n, n) for n in AMRITADI_YOGA[i]]
 
 
-class NakshatraAssigner(PanchaangaApplier):
+class NakshatraAssigner(PeriodicPanchaangaApplier):
   def calc_nakshatra_tyaajya(self, debug=False):
     self.panchaanga.tyajyam_data = [[] for _x in range(self.panchaanga.duration + 1)]
     for d in range(1, self.panchaanga.duration + 1):

@@ -4,7 +4,7 @@ import sys
 
 from jyotisha.panchaanga.temporal import time
 from jyotisha.panchaanga import temporal
-from jyotisha.panchaanga.temporal import PanchaangaApplier, interval
+from jyotisha.panchaanga.temporal import PeriodicPanchaangaApplier, interval
 from sanskrit_data.schema import common
 
 
@@ -26,7 +26,7 @@ def get_tithi(jd):
   return NakshatraDivision(julday=jd, ayanaamsha_id=Ayanamsha.VERNAL_EQUINOX_AT_0).get_anga(AngaType.TITHI)
 
 
-class TithiAssigner(PanchaangaApplier):
+class TithiAssigner(PeriodicPanchaangaApplier):
   def assign_shraaddha_tithi(self, debug_shraaddha_tithi=False):
     tithi_days = [{z: [] for z in range(0, 32)} for _x in range(13)]
     lunar_tithi_days = {}
