@@ -55,35 +55,35 @@ class TithiFestivalAssigner(FestivalAssigner):
           # otherwise yesterday would have already been assigned
           if tithi_moonrise_yest != 19:
             chaturthi_name = '%s%s' % ('aGgArakI~' if self.daily_panchaangas[d].date.get_weekday() == 2 else '', chaturthi_name)
-            self.daily_panchaangas[d]. festivals.append(FestivalInstance(
-              id=chaturthi_name + 'saGkaTahara-caturthI-vratam'))
+            self.daily_panchaangas[d].festivals.append(FestivalInstance(
+              name=chaturthi_name + 'saGkaTahara-caturthI-vratam'))
             # shravana krishna chaturthi
             if self.daily_panchaangas[d].lunar_month_sunrise == 5:
               chaturthi_name = '%s%s' % ('aGgArakI~' if self.daily_panchaangas[d].date.get_weekday() == 2 else '', chaturthi_name)
               self.daily_panchaangas[d].festivals[-1] = FestivalInstance(
-                id=chaturthi_name + 'mahAsaGkaTahara-caturthI-vratam')
+                name=chaturthi_name + 'mahAsaGkaTahara-caturthI-vratam')
         elif tithi_moonrise_tmrw == 19:
           chaturthi_name = '%s%s' % ('aGgArakI~' if self.daily_panchaangas[d + 1].date.get_weekday() == 2 else '', chaturthi_name)
-          self.daily_panchaangas[d + 1]. festivals.append(FestivalInstance(
-            id=chaturthi_name + 'saGkaTahara-caturthI-vratam'))
+          self.daily_panchaangas[d + 1].festivals.append(FestivalInstance(
+            name=chaturthi_name + 'saGkaTahara-caturthI-vratam'))
           # self.date_str_to_panchaanga[d].lunar_month_sunrise and[d + 1] are same, so checking [d] is enough
           if self.daily_panchaangas[d].lunar_month_sunrise == 5:
             chaturthi_name = '%s%s' % ('aGgArakI~' if self.daily_panchaangas[d].date.get_weekday() == 2 else '', chaturthi_name)
             self.daily_panchaangas[d + 1].festivals[-1] = FestivalInstance(
-              id=chaturthi_name + 'mahAsaGkaTahara-caturthI-vratam')
+              name=chaturthi_name + 'mahAsaGkaTahara-caturthI-vratam')
         else:
           if tithi_moonrise_yest != 19:
             if tithi_moonrise == 18 and tithi_moonrise_tmrw == 20:
               # No vyApti on either day -- pick parA, i.e. next day.
               chaturthi_name = '%s%s' % ('aGgArakI~' if self.daily_panchaangas[d + 1].date.get_weekday() == 2 else '', chaturthi_name)
-              self.daily_panchaangas[d + 1]. festivals.append(FestivalInstance(
-                id=chaturthi_name + 'saGkaTahara-caturthI-vratam'))
+              self.daily_panchaangas[d + 1].festivals.append(FestivalInstance(
+                name=chaturthi_name + 'saGkaTahara-caturthI-vratam'))
               # shravana krishna chaturthi
               if self.daily_panchaangas[d].lunar_month_sunrise == 5:
                 chaturthi_name = '%s%s' % (
                   'aGgArakI~' if self.daily_panchaangas[d + 1].date.get_weekday() == 2 else '', chaturthi_name)
                 self.daily_panchaangas[d + 1].festivals[-1] = FestivalInstance(
-                  id=chaturthi_name + 'mahAsaGkaTahara-caturthI-vratam')
+                  name=chaturthi_name + 'mahAsaGkaTahara-caturthI-vratam')
 
   def assign_shasthi_vratam(self, debug_festivals=False):
     for d in range(1, self.panchaanga.duration + 1):
@@ -104,10 +104,10 @@ class TithiFestivalAssigner(FestivalAssigner):
         angams = self.panchaanga.get_angas_for_interval_boundaries(d, lambda x: temporal.tithi.get_tithi(x),
                                             'madhyaahna')
         if angams[0] == 6 or angams[1] == 6:
-          if festival_name in self.panchaanga.festival_id_to_instance:
+          if festival_name in self.panchaanga.festival_id_to_days:
             # Check if yesterday was assigned already
             # to this puurvaviddha festival!
-            if self.panchaanga.festival_id_to_instance[festival_name].days.count(self.daily_panchaangas[d - 1].date) == 0:
+            if self.panchaanga.festival_id_to_days[festival_name].count(self.daily_panchaangas[d - 1].date) == 0:
               self.add_festival(festival_name, d)
           else:
             self.add_festival(festival_name, d)
@@ -125,8 +125,8 @@ class TithiFestivalAssigner(FestivalAssigner):
             # THIS BEING PURVAVIDDHA
             # Perhaps just need better checking of
             # conditions instead of this fix
-            if festival_name in self.panchaanga.festival_id_to_instance:
-              if self.panchaanga.festival_id_to_instance[festival_name].days.count(self.daily_panchaangas[d - 1].date) == 0:
+            if festival_name in self.panchaanga.festival_id_to_days:
+              if self.panchaanga.festival_id_to_days[festival_name].count(self.daily_panchaangas[d - 1].date) == 0:
                 self.add_festival(festival_name, d)
             else:
               self.add_festival(festival_name, d)
@@ -272,7 +272,7 @@ class TithiFestivalAssigner(FestivalAssigner):
           _date.set_time_to_day_start()
           fday_hv = time.utc_gregorian_to_jd(_date) - self.panchaanga.jd_start + 1
           self.daily_panchaangas[int(fday_hv)].festivals.append(
-            FestivalInstance(id='harivAsaraH', interval=Interval(jd_start=None, jd_end=harivasara_end)))
+            FestivalInstance(name='harivAsaraH', interval=Interval(jd_start=None, jd_end=harivasara_end)))
 
   def assign_mahaadvaadashii(self, debug_festivals=False):
     for d in range(1, self.panchaanga.duration + 1):
@@ -355,10 +355,10 @@ class TithiFestivalAssigner(FestivalAssigner):
         self.add_festival(pref + 'pradOSa-vratam', fday)
 
   def assign_amavasya_yoga(self, debug_festivals=False):
-    if 'amAvAsyA' not in self.panchaanga.festival_id_to_instance:
+    if 'amAvAsyA' not in self.panchaanga.festival_id_to_days:
       logging.error('Must compute amAvAsyA before coming here!')
     else:
-      ama_days = self.panchaanga.festival_id_to_instance['amAvAsyA'].days
+      ama_days = self.panchaanga.festival_id_to_days['amAvAsyA']
       for ama_day in ama_days:
         d = int(ama_day - self.daily_panchaangas[0].date)
         # Get Name
@@ -394,8 +394,8 @@ class TithiFestivalAssigner(FestivalAssigner):
           else:
             suff = suff.replace(')', ', puSkalA)')
         self.add_festival(pref + 'amAvAsyA' + suff, d)
-    if 'amAvAsyA' in self.panchaanga.festival_id_to_instance:
-      del self.panchaanga.festival_id_to_instance['amAvAsyA']
+    if 'amAvAsyA' in self.panchaanga.festival_id_to_days:
+      del self.panchaanga.festival_id_to_days['amAvAsyA']
 
     for d in range(1, self.panchaanga.duration + 1):
       [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
@@ -434,11 +434,11 @@ class TithiFestivalAssigner(FestivalAssigner):
         # if tithi_sunset <= 2 and tithi_sunset_tmrw != 2:
         if tithi_sunset <= 2:
           if tithi_sunset == 1:
-            self.daily_panchaangas[d + 1]. festivals.append(FestivalInstance(id='candra-darzanam'))
+            self.daily_panchaangas[d + 1].festivals.append(FestivalInstance(name='candra-darzanam'))
           else:
-            self.daily_panchaangas[d]. festivals.append(FestivalInstance(id='candra-darzanam'))
+            self.daily_panchaangas[d].festivals.append(FestivalInstance(name='candra-darzanam'))
         elif tithi_sunset_tmrw == 2:
-          self.daily_panchaangas[d + 1]. festivals.append(FestivalInstance(id='candra-darzanam'))
+          self.daily_panchaangas[d + 1].festivals.append(FestivalInstance(name='candra-darzanam'))
 
   def assign_vishesha_trayodashi(self, debug_festivals=False):
     for d in range(1, self.panchaanga.duration + 1):

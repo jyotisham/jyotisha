@@ -25,7 +25,7 @@ CODE_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
 
 
 def compute_events(panchaanga, json_file):
-  panchaanga.festival_id_to_instance = {}  # Resetting it
+  panchaanga.festival_id_to_days = {}  # Resetting it
   daily_panchaangas = panchaanga.daily_panchaangas_sorted()
   for d in range(1, MAX_SZ):
 
@@ -93,7 +93,7 @@ def compute_events(panchaanga, json_file):
       if anga_type == 'day' and month_type == 'sidereal_solar_month' \
           and daily_panchaanga.solar_sidereal_date_sunset.month == month_num:
         if daily_panchaanga.solar_sidereal_date_sunset.day == angam_num:
-          panchaanga.festival_id_to_instance[event_name] = festival.FestivalInstance(id=event_name, days=[daily_panchaangas[d].date])
+          panchaanga.festival_id_to_days[event_name] = [daily_panchaangas[d].date]
       elif (month_type == 'lunar_month' and daily_panchaanga.lunar_month_sunrise == month_num) or \
           (month_type == 'sidereal_solar_month' and daily_panchaanga.solar_sidereal_date_sunset.month == month_num):
         if anga_type == 'tithi':
@@ -161,13 +161,13 @@ def compute_events(panchaanga, json_file):
             if debugEvents:
               logging.debug("Angams yest & today: %s" % angams_yest)
             if angams[0] == angam_num or angams[1] == angam_num:
-              if event_name in panchaanga.festival_id_to_instance:
+              if event_name in panchaanga.festival_id_to_days:
                 # Check if yesterday was assigned already
                 # to this puurvaviddha festival!
                 if angam_num == 1:
                   # Need to check if tomorrow is still the same month, unlikely!
                   if daily_panchaangas[d + 1].lunar_month_sunrise == month_num:
-                    if panchaanga.festival_id_to_instance[event_name].days.count(daily_panchaangas[d - 1].date) == 0:
+                    if panchaanga.festival_id_to_days[event_name].count(daily_panchaangas[d - 1].date) == 0:
                       fday = d
                       if debugEvents:
                         logging.debug('Assigned fday = %d' % d)
@@ -175,7 +175,7 @@ def compute_events(panchaanga, json_file):
                     continue
 
                 else:
-                  if panchaanga.festival_id_to_instance[event_name].days.count(daily_panchaangas[d - 1].date) == 0:
+                  if panchaanga.festival_id_to_days[event_name].count(daily_panchaangas[d - 1].date) == 0:
                     fday = d
                     if debugEvents:
                       logging.debug('Assigned fday = %d' % d)
@@ -199,8 +199,8 @@ def compute_events(panchaanga, json_file):
                 # THIS BEING PURVAVIDDHA
                 # Perhaps just need better checking of
                 # conditions instead of this fix
-                if event_name in panchaanga.festival_id_to_instance:
-                  if panchaanga.festival_id_to_instance[event_name].days.count(daily_panchaangas[d - 1].date) == 0:
+                if event_name in panchaanga.festival_id_to_days:
+                  if panchaanga.festival_id_to_days[event_name].count(daily_panchaangas[d - 1].date) == 0:
                     fday = d
                     logging.debug('Assigned fday = %d' % d)
                 else:
@@ -209,14 +209,14 @@ def compute_events(panchaanga, json_file):
           else:
             sys.stderr.write('Unknown priority "%s" for %s! Check the rules!' %
                              (priority, event_name))
-        # logging.debug (panchaanga.festival_id_to_instance.days)
+        # logging.debug (panchaanga.festival_id_to_days.days)
         if fday is not None:
           panchaanga.add_festival(event_name, fday)
 
-  for festival_name in panchaanga.festival_id_to_instance:
-    for j in range(0, len(panchaanga.festival_id_to_instance[festival_name])):
-      panchaanga.date_str_to_panchaanga[panchaanga.festival_id_to_instance[festival_name].days[j].get_date_str()].festivals.append(FestivalInstance(
-        id=festival_name))
+  for festival_name in panchaanga.festival_id_to_days:
+    for j in range(0, len(panchaanga.festival_id_to_days[festival_name])):
+      panchaanga.date_str_to_panchaanga[panchaanga.festival_id_to_days[festival_name][j].get_date_str()].festivals.append(FestivalInstance(
+        name=festival_name))
 
 
 def computeIcsCalendar(panchaanga, ics_file_name):

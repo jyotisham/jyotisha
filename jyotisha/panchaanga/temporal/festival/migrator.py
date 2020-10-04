@@ -122,7 +122,7 @@ def append_to_event_group_README(event, event_file_name):
       elif event_dict.timing.anga_type == 'day':
         angam += 'day %d' % event_dict.timing.anga_number
     else:
-      logging.debug('No anga_type in %s', event_dict['id'])
+      logging.debug('No anga_type in %s', event_dict['name'])
     if 'kaala' in event_dict.timing:
       kaala = event_dict["timing"]["kaala"]
     else:

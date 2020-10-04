@@ -171,7 +171,7 @@ class HinduCalendarEvent(common.JsonObject):
   def from_old_style_event(cls, old_style_event):
     event = HinduCalendarEvent()
     event.timing = HinduCalendarEventTiming.from_old_style_event(old_style_event=old_style_event)
-    if getattr(old_style_event, "id", None) is not None:
+    if getattr(old_style_event, "name", None) is not None:
       import regex
       event.id = regex.sub(":", "__", old_style_event.id)
       id_parts = event.id.split("__")
@@ -243,11 +243,11 @@ class HinduCalendarEvent(common.JsonObject):
         else:
           month = ' of ' + NAMES['RASHI_NAMES'][sanscript.IAST][self.timing.month_number] + ' (solar) month'
     if self.timing is not None and self.timing.anga_type is not None:
-      # logging.debug(self.id)
-      # if self.id.startswith("ta:"):
-      #   anga = custom_transliteration.tr(self.id[3:], sanscript.TAMIL).replace("~", " ").strip("{}") + ' is observed on '
+      # logging.debug(self.name)
+      # if self.name.startswith("ta:"):
+      #   anga = custom_transliteration.tr(self.name[3:], sanscript.TAMIL).replace("~", " ").strip("{}") + ' is observed on '
       # else:
-      #   anga = custom_transliteration.tr(self.id, sanscript.DEVANAGARI).replace("~", " ") + ' is observed on '
+      #   anga = custom_transliteration.tr(self.name, sanscript.DEVANAGARI).replace("~", " ") + ' is observed on '
       angam = 'Observed on '
 
       if self.timing.anga_type == 'tithi':

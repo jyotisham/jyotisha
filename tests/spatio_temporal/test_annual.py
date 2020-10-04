@@ -29,10 +29,11 @@ def panchaanga_json_comparer(city, year):
 
   if panchaanga.to_json_map(floating_point_precision=4) != panchaanga_expected.to_json_map(
       floating_point_precision=4):
-    panchaanga.dump_to_file(filename=expected_content_path.replace(".json", "_actual.json.local"),
+    # firefox does not identify files not ending with .json as json. Hence not naming .json.local.
+    panchaanga.dump_to_file(filename=expected_content_path.replace(".json", "_actual.local.json"),
                             floating_point_precision=4)
     panchaanga_expected.dump_to_file(
-      filename=expected_content_path.replace(".json", "_expected.json.local"), floating_point_precision=4, sort_keys=True)
+      filename=expected_content_path.replace(".json", "_expected.local.json"), floating_point_precision=4, sort_keys=True)
   try:
     sanskrit_data.collection_helper.assert_dict_equality(x=panchaanga.to_json_map(), y=panchaanga_expected.to_json_map(), floating_point_precision=4)
   except:

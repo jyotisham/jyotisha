@@ -16,13 +16,13 @@ festival_id_to_json = {}
 
 
 class FestivalInstance(common.JsonObject):
-  def __init__(self, id, days=None, interval=None):
-    self.name = id
-    # A single festival may span multiple days.
+  def __init__(self, name, days=None, interval=None, exclude=None):
+    self.name = name
     self.days = [] if days is None else days
     self.interval = interval
+    self.exclude = exclude
 
-  def get_names(self):
+  def get_human_names(self):
     from jyotisha.panchaanga.temporal.festival import rules
     festival_rules = rules.festival_rules_all
     fest_details = festival_rules.get(self.name, rules.HinduCalendarEvent())
@@ -33,7 +33,7 @@ class FestivalInstance(common.JsonObject):
     return names
 
   def get_best_transliterated_name(self, scripts):
-    names = self.get_names()
+    names = self.get_human_names()
     languages = list(names.keys())
     language_scripts = [language_code_to_script.get(language, scripts[0]) for language in languages]
     for script in scripts:
@@ -74,8 +74,8 @@ class FestivalInstance(common.JsonObject):
 
 
 class TransitionFestivalInstance(FestivalInstance):
-  def __init__(self, id, status_1_hk, status_2_hk):
-    super(TransitionFestivalInstance, self).__init__(id=id)
+  def __init__(self, name, status_1_hk, status_2_hk):
+    super(TransitionFestivalInstance, self).__init__(name=name)
     self.status_1_hk = status_1_hk
     self.status_2_hk = status_2_hk
 

@@ -5,7 +5,7 @@ import methodtools
 from jyotisha.panchaanga import spatio_temporal
 from jyotisha.panchaanga.spatio_temporal import daily
 from jyotisha.panchaanga.temporal import zodiac, time, set_constants, ComputationSystem
-from jyotisha.panchaanga.temporal.festival import applier
+from jyotisha.panchaanga.temporal.festival import applier, FestivalInstance
 from jyotisha.panchaanga.temporal.festival.applier import tithi_festival, ecliptic, solar, vaara
 from jyotisha.panchaanga.temporal.time import Date
 from jyotisha.panchaanga.temporal.tithi import TithiAssigner
@@ -45,6 +45,7 @@ class Panchaanga(common.JsonObject):
 
     self.weekday_start = time.get_weekday(self.jd_start)
 
+    self.festival_id_to_days = {}
     self.compute_angas(compute_lagnas=computation_system.options.lagnas)
 
   def compute_angas(self, compute_lagnas=True):
@@ -251,9 +252,24 @@ class Panchaanga(common.JsonObject):
     vaara.VaraFestivalAssigner(panchaanga=self).assign_all(debug=debug)
     applier.MiscFestivalAssigner(panchaanga=self).cleanup_festivals(debug=debug)
     applier.MiscFestivalAssigner(panchaanga=self).assign_relative_festivals()
+    self._sync_festivals_dict_and_daily_festivals()
 
-  def _reset_festivals(self, compute_lagnams=False):
-    self.festival_id_to_instance = {}
+  def _sync_festivals_dict_and_daily_festivals(self):
+    for festival_id, days in self.festival_id_to_days.items():
+      for fest_day in days:
+        fest_day_str = fest_day.get_date_str()
+        if fest_day_str in self.date_str_to_panchaanga:
+          self.date_str_to_panchaanga[fest_day_str].festivals.append(FestivalInstance(name=festival_id))
+          
+    for dp in self.date_str_to_panchaanga.values():
+      for fest in dp.festivals:
+        days = self.festival_id_to_days.get(fest.name, [])
+        if dp.date not in days:
+          days.append(dp.date)
+        self.festival_id_to_days[fest.name] = days
+
+  def _reset_festivals(self):
+    self.festival_id_to_days = {}
     for daily_panchaanga in self.date_str_to_panchaanga.values():
       daily_panchaanga.festivals = []
 

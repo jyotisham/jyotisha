@@ -62,7 +62,7 @@ class EclipticFestivalAssigner(FestivalAssigner):
         solar_eclipse_str = 'sUrya-grahaNam'
         if self.daily_panchaangas[fday].date.get_weekday() == 0:
           solar_eclipse_str = '★cUDAmaNi-' + solar_eclipse_str
-        self.daily_panchaangas[fday]. festivals.append(FestivalInstance(id=solar_eclipse_str, interval=Interval(jd_start=jd_eclipse_solar_start, jd_end=jd_eclipse_solar_end)))
+        self.daily_panchaangas[fday]. festivals.append(FestivalInstance(name=solar_eclipse_str, interval=Interval(jd_start=jd_eclipse_solar_start, jd_end=jd_eclipse_solar_end)))
       jd = jd + MIN_DAYS_NEXT_ECLIPSE
 
   def compute_lunar_eclipses(self):
@@ -121,7 +121,7 @@ class EclipticFestivalAssigner(FestivalAssigner):
         if self.daily_panchaangas[fday].date.get_weekday() == 1:
           lunar_eclipse_str = '★cUDAmaNi-' + lunar_eclipse_str
 
-        self.daily_panchaangas[fday].festivals.append(FestivalInstance(id=lunar_eclipse_str, interval=Interval(jd_start=jd_eclipse_lunar_start, jd_end=jd_eclipse_lunar_end)))
+        self.daily_panchaangas[fday].festivals.append(FestivalInstance(name=lunar_eclipse_str, interval=Interval(jd_start=jd_eclipse_lunar_start, jd_end=jd_eclipse_lunar_end)))
       jd += MIN_DAYS_NEXT_ECLIPSE
 
   def set_jupiter_transits(self):
@@ -136,7 +136,7 @@ class EclipticFestivalAssigner(FestivalAssigner):
         (jd_transit, rashi1, rashi2) = (transit.jd, transit.value_1, transit.value_2)
         if self.panchaanga.jd_start < jd_transit < jd_end:
           fday = int(floor(jd_transit) - floor(self.panchaanga.jd_start) + 1)
-          self.daily_panchaangas[fday].festivals.append(TransitionFestivalInstance(id='guru-saGkrAntiH', status_1_hk=names.NAMES['RASHI_NAMES']['hk'][rashi1], status_2_hk=names.NAMES['RASHI_NAMES']['hk'][rashi2]))
+          self.daily_panchaangas[fday].festivals.append(TransitionFestivalInstance(name='guru-saGkrAntiH', status_1_hk=names.NAMES['RASHI_NAMES']['hk'][rashi1], status_2_hk=names.NAMES['RASHI_NAMES']['hk'][rashi2]))
           if rashi1 < rashi2 and transits[i + 1].value_1 < transits[i + 1].value_2:
             # Considering only non-retrograde transits for pushkara computations
             # logging.debug('Non-retrograde transit; we have a pushkaram!')
