@@ -20,7 +20,6 @@ import jyotisha.panchaanga.temporal
 from jyotisha.panchaanga.spatio_temporal import City
 from jyotisha.panchaanga.temporal import zodiac, time
 from jyotisha.panchaanga.temporal.time import Timezone
-from panchaanga.temporal.festival import FestivalInstance
 
 logging.basicConfig(
   level=logging.DEBUG,
