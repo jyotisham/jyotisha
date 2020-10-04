@@ -121,7 +121,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "mAn2akkaJcAr2a nAyan2Ar (11) gurupUjai"
         }
@@ -296,7 +295,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "sarva-saphalA-EkAdazI"
         }
@@ -474,7 +472,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "interval": {
             "jd_end": 2458485.5878,
             "jsonClass": "Interval"
@@ -483,22 +480,18 @@
           "name": "harivAsaraH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "undu~madakkaLir2r2an2{}"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 68 jagadguru zrI~candrazEkharEndra sarasvatI 7 ArAdhanA~\\#{25}"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "pakSavardhinI~mahAdvAdazI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "budhAnurAdhA-puNyakAlaH"
         }
@@ -675,7 +668,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "pradOSa-vratam"
         }
@@ -852,12 +844,10 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "toNDaraDippoDiyAzhvAr tirunakSattiram"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "mAsazivarAtriH"
         }
@@ -1035,22 +1025,18 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "zrI~hanUmat~jayantI~1"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 14 jagadguru zrI~vidyAghanEndra sarasvatI ArAdhanA~\\#{1702}"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 34 jagadguru zrI~candrazEkharEndra sarasvatI 2 ArAdhanA~\\#{1309}"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "mArgazIrSa-amAvAsyA"
         }
@@ -1221,7 +1207,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "cAkkiya nAyan2Ar (33) gurupUjai"
         }
@@ -1399,7 +1384,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "candra-darzanam"
         }
@@ -1576,7 +1560,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "zravaNa-vratam"
         }
@@ -1923,12 +1906,10 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "mahAdhanurvyatIpAta-snAnam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "mahAdhanurvyatIpAta-zrAddham"
         }
@@ -2100,7 +2081,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kUDAravallI"
         }
@@ -2276,12 +2256,10 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kar2avaigaL pin2cen2r2u"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "SaSThI-vratam"
         }
@@ -2458,7 +2436,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vijayA~bhAnusaptamI"
         }
@@ -2635,12 +2612,10 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vAyilAr nAyan2Ar (49) gurupUjai"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "bhOgi"
         }
@@ -2819,27 +2794,22 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "makara-jyOtiH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "makara-saGkrAntiH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "tirunelvEli nellaiyappar nellukku vEli kaTTiya lIlai"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "bhaumAzvinI-puNyakAlaH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "madhurai mIn2AkSI kOyilil kal yAn2aikku karumbu kODutta lIlai"
         }
@@ -3021,17 +2991,14 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kRttikA-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "indra-pUjA/gO-pUjA"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kan2up~poGgal"
         }
@@ -3209,27 +3176,22 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "tai kiruttikai"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "manvAdiH~(cAkSuSaH~[6])"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "trailaGga-svAmI~jayantI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 55 jagadguru zrI~candracUDEndra sarasvatI 3 ArAdhanA~\\#{495}"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "sarva-putradA-EkAdazI"
         }
@@ -3406,7 +3368,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "interval": {
             "jd_end": 2458501.4412,
             "jsonClass": "Interval"
@@ -3415,17 +3376,14 @@
           "name": "harivAsaraH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "pApanAzinI~mahAdvAdazI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "pradOSa-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "tai~veLLikkizhamai"
         }
@@ -3603,12 +3561,10 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kaNNappa nAyan2Ar (9) gurupUjai"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "arivATTAya nAyan2Ar (12) gurupUjai"
         }
@@ -3790,22 +3746,18 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vaidhRti-zrAddham"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vEGkaTAcalE pUrNimA~garuDa-sEvA"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 8 jagadguru zrI~kaivalyAnandayOgEndra sarasvatI ArAdhanA~\\#{1990}"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kapAlI teppOtsavam~1"
         }
@@ -3989,32 +3941,26 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "pUrNimA~vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "zAkambharI~jayantI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "taippUcam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "badarI jyOtirmaTha-pratiSThApana~jayantI~\\#{2504}"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "zRGgErI zAradAmaTha-pratiSThApana~jayantI~\\#{2502}"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kapAlI teppOtsavam~2"
         }
@@ -4196,17 +4142,14 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 37 jagadguru zrI~vidyAghanEndra sarasvatI 3 ArAdhanA~\\#{1231}"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 62 jagadguru zrI~candrazEkharEndra sarasvatI 4 ArAdhanA~\\#{236}"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kapAlI teppOtsavam~3"
         }
@@ -4394,7 +4337,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "tirumazhicaiyAzhvAr tirunakSattiram"
         }
@@ -4571,7 +4513,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "lambOdara-mahAgaNapati saGkaTahara-caturthI-vratam"
         }
@@ -4749,22 +4690,18 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "caNDEzvara nAyan2Ar (19) gurupUjai"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "bahula-paJcamI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "tyAgarAja-ArAdhanA~\\#{172}"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "tai~veLLikkizhamai"
         }
@@ -4946,7 +4883,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "zrI~zESAdri-svAmI~jayantI~\\#{150}"
         }
@@ -5124,17 +5060,14 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vivEkAnanda~jayantI~\\#{157}"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "bhAnusaptamI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "pauSa-aSTakA-pUrvEdyuH"
         }
@@ -5311,7 +5244,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "pauSa-aSTakA-zrAddham"
         }
@@ -5494,17 +5426,14 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "tirunIlakaNTha nAyan2Ar (1) gurupUjai"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "bhISma~jayantI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "pauSa-anvaSTakA-zrAddham"
         }
@@ -5680,12 +5609,10 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "trailOkya-gaurI-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "budhAnurAdhA-puNyakAlaH"
         }
@@ -5862,7 +5789,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "interval": {
             "jd_end": 2458515.2493,
             "jsonClass": "Interval"
@@ -5871,7 +5797,6 @@
           "name": "harivAsaraH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "sarva-SaTtilA-EkAdazI"
         }
@@ -6049,12 +5974,10 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "sEGgAlipuram~muttaNNAvAL~ArAdhanA~\\#{126}"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "tai~veLLikkizhamai"
         }
@@ -6226,12 +6149,10 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "mAsazivarAtriH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "zani-pradOSa-vratam"
         }
@@ -6579,37 +6500,30 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "zravaNa-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vyatIpAta-zrAddham"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "tirunelvEli nellaiyappar patra dIpa tiruvizhA"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "mauni (pauSa/makara) amAvAsyA (alabhyam\u2013puSkalA)"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "sOmavatI amAvAsyA"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "mahOdaya-puNyakAlaH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "sOmazrAvaNI-puNyakAlaH"
         }
@@ -6786,7 +6700,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "zyAmaLAnavarAtra-ArambhaH"
         }
@@ -6963,12 +6876,10 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "candra-darzanam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "candra-darzanam"
         }
@@ -7139,7 +7050,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "appUdiyaDigaL nAyan2Ar (24) gurupUjai"
         }
@@ -7316,17 +7226,14 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "varakunda-caturthI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "tai~veLLikkizhamai"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "tiruccendUr murugan2 mAcit tiruvizhA toDakkam"
         }
@@ -7504,12 +7411,10 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "mArkaNDEya~jayantI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "tiruccendUr murugan2 mAcit tiruvizhA ##2##m nAL"
         }
@@ -7686,32 +7591,26 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kalikkamba nAyan2Ar (42) gurupUjai"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "mAghI~sarasvatI-pUjA"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "sarpa-pUjA"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vasanta-zrI-paJcamI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "zrIrAma-vanavAsa-gamanam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "tiruccendUr murugan2 mAcit tiruvizhA ##3##m nAL\u2014murugan2 bhavan2i"
         }
@@ -7887,17 +7786,14 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "tirunelvEli nellaiyappar nellukku vEli kaTTiya lIlai"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "SaSThI-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "tiruccendUr murugan2 mAcit tiruvizhA ##4##m nAL"
         }
@@ -8074,32 +7970,26 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "acalA~saptamI-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "manvAdiH~(sAvarNiH~[8])"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "narmadA~jayantI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "ratha-saptamI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "dvArakA-maTha-pratiSThApana~jayantI~\\#{2509}"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "tiruccendUr murugan2 mAcit tiruvizhA ##5##m nAL"
         }
@@ -8277,37 +8167,30 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kRttikA-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "bhISmASTamI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "khODiyAra~mAtA~jayantI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "viSNupadI-kumbharaviH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "AyuSmad-bava-saumya-saMyogaH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "budhASTamI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "tiruccendUr murugan2 mAcit tiruvizhA ##6##m nAL\u2014veLLit tEr bhavan2i"
         }
@@ -8485,27 +8368,22 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vaidhRti-zrAddham"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "madhva-navamI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "zyAmaLAnavarAtra-samApanam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 11 jagadguru zrI~zivAnanda cidghanEndra sarasvatI ArAdhanA~\\#{1847}"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "tiruccendUr murugan2 mAcit tiruvizhA ##7##m nAL\u2014urugu cattac cEvai/cigappu cAtti alaGkAram"
         }
@@ -8688,12 +8566,10 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "sAmba-dazamI (sUryapUjA)"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "tiruccendUr murugan2 mAcit tiruvizhA ##8##m nAL\u2014paccai cAtti alaGkAram"
         }
@@ -8871,7 +8747,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "interval": {
             "jd_end": 2458530.9529,
             "jsonClass": "Interval"
@@ -8880,12 +8755,10 @@
           "name": "harivAsaraH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "sarva-jayA/bhaimI-EkAdazI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "tiruccendUr murugan2 mAcit tiruvizhA ##9##m nAL\u2014taGga kailAca vAhan2am"
         }
@@ -9062,47 +8935,38 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kulazEkhara AzhvAr tirunakSattiram"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "bhISma-dvAdazI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "tilapadma-dvAdazI/tilOtpatti"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "varAha-dvAdazI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "varAha-kalpAdiH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "jayantI~mahAdvAdazI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "pradOSa-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "ravipuSyayOga-puNyakAlaH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "tiruccendUr murugan2 mAcit tiruvizhA ##10##m nAL\u2014tEr"
         }
@@ -9290,12 +9154,10 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "naTarAjar mahAbhiSEkam~6"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "tiruccendUr murugan2 teppam"
         }
@@ -9472,37 +9334,30 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "pUrNimA~vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vEGkaTAcalE pUrNimA~garuDa-sEvA"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "tiruccendUr mAcit tiruvizhA nir2aivu"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "lalitA~jayantI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "mAgha-pUrNimA-snAnam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "mAgha-pUrNimA"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "mAci~cevvAy"
         }
@@ -9680,12 +9535,10 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "mAci~magham"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 51 jagadguru zrI~vidyAtIrthEndra sarasvatI ArAdhanA~\\#{634}"
         }
@@ -10050,12 +9903,10 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "dvijapriya-mahAgaNapati saGkaTahara-caturthI-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "er2ipatta nAyan2Ar (7) gurupUjai"
         }
@@ -10414,7 +10265,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "yazOdA~jayantI"
         }
@@ -10591,17 +10441,14 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "nikSubhArka-saptamI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "zabarI~jayantI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "mAgha-aSTakA-pUrvEdyuH"
         }
@@ -10779,17 +10626,14 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "mAgha-aSTakA-zrAddham"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 66 jagadguru zrI~candrazEkharEndra sarasvatI 6 ArAdhanA~\\#{112}"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "mAci~cevvAy"
         }
@@ -10966,7 +10810,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "mAgha-anvaSTakA-zrAddham"
         }
@@ -11309,12 +11152,10 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vyatIpAta-zrAddham"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAri nAyan2Ar (47) gurupUjai"
         }
@@ -11491,7 +11332,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "interval": {
             "jd_end": 2458545.0095,
             "jsonClass": "Interval"
@@ -11500,7 +11340,6 @@
           "name": "harivAsaraH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "sarva-vijayA-EkAdazI"
         }
@@ -11677,22 +11516,18 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "zravaNa-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI jagadguru zrI~zaGkara vijayEndra sarasvatI jayantI~\\#{51}"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vijayA/zravaNa-mahAdvAdazI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "pradOSa-vratam"
         }
@@ -11867,17 +11702,14 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "mAsazivarAtriH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "mahAzivarAtriH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "sOmazrAvaNI-puNyakAlaH"
         }
@@ -12055,12 +11887,10 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "mAci~cevvAy"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kRSNAGgAraka-caturdazI-puNyakAlaH/yamatarpaNam"
         }
@@ -12232,27 +12062,22 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kocceGgaT cOzha nAyan2Ar (59) gurupUjai"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kaliyugAdiH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "mAgha-snAnapUrtiH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "purandaradAsa-ArAdhanA~\\#{455}"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "mAgha-amAvAsyA (alabhyam\u2013zatabhiSak)"
         }
@@ -12429,12 +12254,10 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "payOvrata-ArambhaH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 67 jagadguru zrI~mahAdEvEndra sarasvatI 5 ArAdhanA~\\#{112}"
         }
@@ -12612,22 +12435,18 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "candra-darzanam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "candra-darzanam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "phUlErA~dUj"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "rAmakRSNa-paramahaMsa~jayantI~\\#{184}"
         }
@@ -12976,7 +12795,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "pUntAnaM~jayantI~\\#{472}"
         }
@@ -13153,7 +12971,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kapAlI dvajArOhaNam"
         }
@@ -13330,27 +13147,22 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kRttikA-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vaidhRti-zrAddham"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "SaSThI-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "mAci~cevvAy"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kapAlI sUrya~candra~vaTTam"
         }
@@ -13528,22 +13340,18 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "nandA-saptamI~2"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "zrI~rAghavEndra-svAmI~jayantI~\\#{425}"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kapAlI adhikAra nandi"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kapAlI bhUtaN bhUtakI"
         }
@@ -13893,27 +13701,22 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "SaDazIti-mInaraviH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "gaNanAtha nAyan2Ar (37) gurupUjai"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAraDaiyAn2 nOn2bu"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kapAlI cavuDal vimAn2am"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kapAlI riSabha vAhan2am"
         }
@@ -14090,12 +13893,10 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kapAlI pallakku vizhA"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vEGkaTAcalE plavOtsava-ArambhaH"
         }
@@ -14278,32 +14079,26 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "mun2aiyaDuvAr nAyan2Ar (50) gurupUjai"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "raMgabharI EkAdazI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "sarva-AmalakI-EkAdazI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "ravipuSyayOga-puNyakAlaH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kapAlI tEr"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vEGkaTAcalE plavOtsavaH~2"
         }
@@ -14480,7 +14275,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "interval": {
             "jd_end": 2458560.3585,
             "jsonClass": "Interval"
@@ -14489,27 +14283,22 @@
           "name": "harivAsaraH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "narasiMha-dvAdazI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "payOvrata-samApanam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "sOma-pradOSa-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kapAlI ar2upattu mUvar"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vEGkaTAcalE plavOtsavaH~3"
         }
@@ -14692,12 +14481,10 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 69 jagadguru zrI~jayEndra sarasvatI ArAdhanA~\\#{1}"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vEGkaTAcalE plavOtsavaH~4"
         }
@@ -14875,32 +14662,26 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vEGkaTAcalE pUrNimA~garuDa-sEvA"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kar2pagAmbAL\u2013kapAlIzvarar tirukkalyANam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "hOlikA-pUrNimA"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAma-dahanam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "manvAdiH~(rudraH~[12])"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vEGkaTAcalE plavOtsava-samApanam"
         }
@@ -15078,32 +14859,26 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "pUrNimA~vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "paGgun2i~uttiram"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "caitanya-mahAprabhu~jayantI~\\#{534}"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "hOli"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kapAlI umA-mahEzvara darican2am"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kapAlI viDaiyAr2r2i toDakkam"
         }
@@ -15467,22 +15242,18 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "brahma-kalpAdiH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAraikkAl ammaiyAr (23) gurupUjai"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI jagadguru zrI~jayEndra sarasvatI Azrama-svIkAra-jayantI~\\#{66}"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "chatrapati-zivAjI~jayantI~\\#{390}"
         }
@@ -15659,7 +15430,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "bhAlacandra-mahAgaNapati saGkaTahara-caturthI-vratam"
         }
@@ -15837,7 +15607,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "raGga-paJcamI"
         }
@@ -16185,12 +15954,10 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vyatIpAta-zrAddham"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "phAlguna-aSTakA-pUrvEdyuH"
         }
@@ -16368,7 +16135,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "phAlguna-aSTakA-zrAddham"
         }
@@ -16545,14 +16311,12 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "TransitionFestivalInstance",
           "name": "guru-saGkrAntiH",
           "status_1_hk": "vRzcikaH",
           "status_2_hk": "dhanuH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "phAlguna-anvaSTakA-zrAddham"
         }
@@ -16901,17 +16665,14 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "zravaNa-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "smArta-pApamOcanI-EkAdazI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kapAlI viDaiyAr2r2i nir2aivu"
         }
@@ -17088,7 +16849,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "interval": {
             "jd_end": 2458574.8014,
             "jsonClass": "Interval"
@@ -17097,12 +16857,10 @@
           "name": "harivAsaraH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vaiSNava-pApamOcanI-EkAdazI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vyaJjulI~mahAdvAdazI"
         }
@@ -17274,12 +17032,10 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "daNDiyaDigaL nAyan2Ar (30) gurupUjai"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "pradOSa-vratam"
         }
@@ -17456,7 +17212,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "mAsazivarAtriH"
         }
@@ -17634,17 +17389,14 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "manvAdiH~(raivataH~[5])"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 65 jagadguru zrI~sudarzana mahAdEvEndra sarasvatI ArAdhanA~\\#{129}"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "phAlguna-amAvAsyA (alabhyam\u2013puSkalA)"
         }
@@ -17821,7 +17573,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "bhRgurEvatI-puNyakAlaH"
         }
@@ -17995,42 +17746,34 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "candra-darzanam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vaidhRti-zrAddham"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vasantanavarAtra-ArambhaH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "yugAdiH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "zvEta-kalpAdiH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 15 jagadguru zrI~gaGgAdharEndra sarasvatI ArAdhanA~\\#{1691}"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 27 jagadguru zrI~cidvilAsEndra sarasvatI ArAdhanA~\\#{1443}"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 52 jagadguru zrI~zaGkarAnandEndra sarasvatI ArAdhanA~\\#{603}"
         }
@@ -18208,17 +17951,14 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "arundhatI-vrata-ArambhaH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "jhUlElAla~jayantI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "AndOlana~tRtIyA"
         }
@@ -18395,17 +18135,14 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kRttikA-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "gaurI~tRtIyA/saubhAgya-gaurI-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "manvAdiH~(uttamaH~[3])"
         }
@@ -18583,12 +18320,10 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "muttusvAmI~dIkSita~jayantI~\\#{245}"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "sukhA~aGgAraka-caturthI"
         }
@@ -18765,27 +18500,22 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "nEca nAyan2Ar (58) gurupUjai"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "haya-pUjA"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kUrma-kalpAdiH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "lakSmI-paJcamI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "zAlihOtra-vrata-ArambhaH"
         }
@@ -18963,12 +18693,10 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "yamunA~jayantI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "SaSThI-vratam"
         }
@@ -19146,7 +18874,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "gaNanAtha nAyan2Ar (37) gurupUjai"
         }
@@ -19324,32 +19051,26 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "mun2aiyaDuvAr nAyan2Ar (50) gurupUjai"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "azOkASTamI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "bhavAnyutpattiH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "mahAtArA~jayantI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "zrIrAmanavamI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 43 jagadguru zrI~AnandaghanEndra sarasvatI ArAdhanA~\\#{1006}"
         }
@@ -19526,22 +19247,18 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vasantanavarAtra-samApanam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "mESa-saGkrAntiH~(vikArI-saMvatsaraH)"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "paJcAGga-paThanam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "ravipuSyayOga-puNyakAlaH"
         }
@@ -19730,22 +19447,18 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "viSukkan2i"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "dharmarAja-dazamI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "samudra-manthanam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "smArta-kAmadA-EkAdazI"
         }
@@ -19932,7 +19645,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "interval": {
             "jd_end": 2458589.6735,
             "jsonClass": "Interval"
@@ -19941,27 +19653,22 @@
           "name": "harivAsaraH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "bhrAtRprApti-vrata-ArambhaH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "damanakArOpaNa-dvAdazI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "tulasI-jananaM~kSIrasAgarataH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vaiSNava-kAmadA-EkAdazI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vEGkaTAcalE vasantOtsava-ArambhaH"
         }
@@ -20138,27 +19845,22 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "mIn2AkSI tirukkalyANam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "damanaka-cOrI-utsavaH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "madana-trayOdazI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "pradOSa-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vEGkaTAcalE vasantOtsavaH"
         }
@@ -20336,27 +20038,22 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vEGkaTAcalE pUrNimA~garuDa-sEvA"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "damanaka-caturdazI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "madana-caturdazI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "citrA~pUrNimA/citragupta~pUjai"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vEGkaTAcalE vasantOtsava-samApanam"
         }
@@ -20533,42 +20230,34 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "pUrNimA~vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "icaiJAn2iyAr nAyan2Ar (62) gurupUjai"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "madhurakavi AzhvAr tirunakSattiram"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "caitra-pUrNimA"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "citragupta-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "gajEndra-mOkSaH~1"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "manvAdiH~(raucyaH~[13])"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "zrI~hanUmat~jayantI~2"
         }
@@ -20751,12 +20440,10 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "tirukkur2ipput toNDa nAyan2Ar (18) gurupUjai"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 60 jagadguru zrI~advaitAtmaprakAzEndra sarasvatI ArAdhanA~\\#{316}"
         }
@@ -20939,7 +20626,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vyatIpAta-zrAddham"
         }
@@ -21117,7 +20803,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vikaTa-mahAgaNapati saGkaTahara-caturthI-vratam"
         }
@@ -21294,14 +20979,12 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "TransitionFestivalInstance",
           "name": "guru-saGkrAntiH",
           "status_1_hk": "dhanuH",
           "status_2_hk": "vRzcikaH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "aGgAraka-caturthI"
         }
@@ -21479,7 +21162,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "lakSmI-varAha~jayantI"
         }
@@ -21997,17 +21679,14 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "zravaNa-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "naTarAjar cittirai ONam mahAbhiSEkam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 56 jagadguru zrI~sarvajJa sadAziva bOdhEndra sarasvatI ArAdhanA~\\#{481}"
         }
@@ -22351,7 +22030,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "tirunAvukkaracha nAyan2Ar (20) gurupUjai"
         }
@@ -22527,12 +22205,10 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vallabhAcArya~jayantI~\\#{541}"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "sarva-varUthinI-EkAdazI"
         }
@@ -22710,7 +22386,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "interval": {
             "jd_end": 2458604.5538,
             "jsonClass": "Interval"
@@ -22719,7 +22394,6 @@
           "name": "harivAsaraH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vaidhRti-zrAddham"
         }
@@ -22896,17 +22570,14 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "matsya~jayantI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "ramaNa~maharSi~ArAdhanA~\\#{69}"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "pradOSa-vratam"
         }
@@ -23083,17 +22754,14 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "mAsazivarAtriH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "gaGgA-snAnam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "bhRgurEvatI-puNyakAlaH"
         }
@@ -23271,22 +22939,18 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "bhArgava-rAma-pUjA"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vahni-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 47 jagadguru zrI~candrazEkharEndra sarasvatI 3 ArAdhanA~\\#{854}"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "caitra-amAvAsyA"
         }
@@ -23463,27 +23127,22 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "agninakSatra-ArambhaH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kRttikA-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "cir2uttoNDa nAyan2Ar (35) gurupUjai"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "parAzara~maharSi~jayantI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vaizAkha-mAsa-ArambhaH"
         }
@@ -23661,17 +23320,14 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "candra-darzanam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "candra-darzanam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "zyAmA~zAstrI~jayantI~\\#{258}"
         }
@@ -23848,37 +23504,30 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "maGgaiyarkkaraciyAr nAyan2Ar (57) gurupUjai"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "akSayya-tRtIyA"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "balarAma~jayantI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kRtayugAdiH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "pArthiva-kalpAdiH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "parazurAma~jayantI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "rAja-mAtaGgI~jayantI"
         }
@@ -24056,12 +23705,10 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "bagalAmukhI~jayantI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vArtA-gaurI-vratam"
         }
@@ -24238,32 +23885,26 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vir2an2miNDa nAyan2Ar (5) gurupUjai"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "lAvaNya-gaurI-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "sarpa-pUjA~1"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "rAmAnuja-janma-nakSatram~\\#{1003}"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "sUradAsa~jayantI~\\#{542}"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "zaGkara~jayantI~\\#{2528}"
         }
@@ -24440,17 +24081,14 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 40 jagadguru zrI~mahAdEvEndra sarasvatI 2 ArAdhanA~\\#{1105}"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "rAmAnuja~jayantI~\\#{1003}"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "SaSThI-vratam"
         }
@@ -24628,22 +24266,18 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "gaGgA-saptamI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vidyAraNya-svAmI~jayantI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "zarkarA-saptamI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "tyAgarAja~jayantI~\\#{253}"
         }
@@ -24820,7 +24454,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 26 jagadguru zrI~prajJAghanEndra sarasvatI ArAdhanA~\\#{1456}"
         }
@@ -25003,32 +24636,26 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "sItAnavamI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "siMhAcalaM-candana-mahOtsavaH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vasiSTha~maharSi~jayantI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "purI gOvardhana-maTha-pratiSThApana~jayantI~\\#{2504}"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "nerUr~zrI~sadAziva~brahmEndra~ArAdhanA~\\#{105}"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vEGkaTAcalE padmAvatI-pariNayOtsava-ArambhaH (gaja-vAhanam)"
         }
@@ -25211,22 +24838,18 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "mIn2AkSI tirukkalyANam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "nimiSAmbA~jayantI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vEGkaTAcalE padmAvatI-pariNayam (azva-vAhanam)"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "zrI~vAsavI~jayantI"
         }
@@ -25404,7 +25027,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "interval": {
             "jd_end": 2458618.9376,
             "jsonClass": "Interval"
@@ -25413,22 +25035,18 @@
           "name": "harivAsaraH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "budha~jayantI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "viSNupadI-vRSabharaviH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "sarva-mOhinI-EkAdazI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vEGkaTAcalE padmAvatI-pariNayOtsava-samApanam (garuDa-vAhanam)"
         }
@@ -25611,22 +25229,18 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "girijA-kalyANam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "parazurAma-dvAdazI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "rukmiNI-dvAdazI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "pradOSa-vratam"
         }
@@ -25804,17 +25418,14 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vyatIpAta-zrAddham"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "nRsiMha~jayantI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 39 jagadguru zrI~saccidvilAsEndra sarasvatI ArAdhanA~\\#{1147}"
         }
@@ -26001,57 +25612,46 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "pUrNimA~vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vEGkaTAcalE pUrNimA~garuDa-sEvA"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "nammAzhvAr tirunakSattiram"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vaikAci~vizAkham"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "annamAcArya~jayantI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "ardhanArIzvara-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "chinnamastA~jayantI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "sampat-gaurI-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vaizAkha-pUrNimA-snAnam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "zarabha~jayantI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI kAmakOTi-maTha-pratiSThApana~jayantI~\\#{2501}"
         }
@@ -26229,7 +25829,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI jagadguru zrI~candrazEkharEndra sarasvatI 7 jayantI~\\#{126}"
         }
@@ -26406,7 +26005,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "nArada~jayantI"
         }
@@ -26584,27 +26182,22 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "muruga nAyan2Ar (15) gurupUjai"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "tiruJAn2asambandhamUrtti nAyan2Ar (27) gurupUjai"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "tirunIlakaNTha yAzhppANa nAyan2Ar (60) gurupUjai"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "tirunIlanakka nAyan2Ar (25) gurupUjai"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI jagadguru zrI~zaGkara vijayEndra sarasvatI Azrama-svIkAra-jayantI~\\#{37}"
         }
@@ -26781,32 +26374,26 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "Ekadanta-mahAgaNapati saGkaTahara-caturthI-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "Ekadanta-mahAgaNapati saGkaTahara-caturthI-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "sAvitrI-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "satI~anasUyA~jayantI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "mayilai~veLLIzvarar~brahmOtsavam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 30 jagadguru zrI~bOdhEndra sarasvatI 2 ArAdhanA~\\#{1365}"
         }
@@ -26983,7 +26570,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kazyapa~maharSi~jayantI"
         }
@@ -27160,7 +26746,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "zravaNa-vratam"
         }
@@ -27503,12 +27088,10 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vaidhRti-zrAddham"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "bhAnusaptamI"
         }
@@ -27685,7 +27268,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 7 jagadguru zrI~AnandajJAnEndra sarasvatI ArAdhanA~\\#{2074}"
         }
@@ -28034,7 +27616,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "agninakSatra-samApanam"
         }
@@ -28209,7 +27790,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "interval": {
             "jd_end": 2458634.2234,
             "jsonClass": "Interval"
@@ -28218,12 +27798,10 @@
           "name": "harivAsaraH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "bhadrakALI~jayantI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "sarva-aparA-EkAdazI"
         }
@@ -28401,7 +27979,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "pradOSa-vratam"
         }
@@ -28578,12 +28155,10 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "mAsazivarAtriH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kazhar2ciGga nAyan2Ar (51) gurupUjai"
         }
@@ -28760,12 +28335,10 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kRttikA-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 3 jagadguru zrI~sarvajJAtmEndra sarasvatI ArAdhanA~\\#{2383}"
         }
@@ -28943,32 +28516,26 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vaizAkha-mAsa-samApanam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vaizAkha-snAnapUrtiH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "zani~jayantI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "zuka~maharSi~jayantI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vaizAkha-amAvAsyA (alabhyam\u2013puSkalA)"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "sOmavatI amAvAsyA"
         }
@@ -29145,27 +28712,22 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "candra-darzanam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "bhadra-catuSTaya-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "karavIra-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "punnAga-gaurI-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "zRGgErI 32 jagadguru zrI~nRsiMha bhAratI ArAdhanA"
         }
@@ -29520,7 +29082,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "rambhA~tRtIyA"
         }
@@ -29698,22 +29259,18 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "naminandiyaDigaL nAyan2Ar (26) gurupUjai"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kadalI-gaurI-vratam/pUjA"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "umA-avatAraH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "zrInivAsamaGgApurE sAkSAtkAra-vaibhavOtsava-ArambhaH"
         }
@@ -29900,37 +29457,30 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "sOmAsimAra nAyan2Ar (32) gurupUjai"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "AraNya-gaurI-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vindhyAvAsinI-dEvI-pUjA"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "zrInivAsamaGgApurE sAkSAtkAra-vaibhavOtsavaH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 50 jagadguru zrI~candracUDEndra sarasvatI 2 ArAdhanA~\\#{723}"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 6 jagadguru zrI~zuddhAnandEndra sarasvatI ArAdhanA~\\#{2143}"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "SaSThI-vratam"
         }
@@ -30108,22 +29658,18 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "varuNa-pUjA"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 23 jagadguru zrI~saccitsukhEndra sarasvatI ArAdhanA~\\#{1508}"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vijayA~bhAnusaptamI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "zrInivAsamaGgApurE sAkSAtkAra-vaibhavOtsava-samApanam"
         }
@@ -30300,17 +29846,14 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "dhUmAvatI~jayantI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "jyESThASTamI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 16 jagadguru zrI~ujjvala zaGkarEndra sarasvatI ArAdhanA~\\#{1653}"
         }
@@ -30488,27 +30031,22 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vyatIpAta-zrAddham"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "brahmANI-pUjA"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "mahEza-navamI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "zukla-dEvI-pUjA"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 61 jagadguru zrI~mahAdEvEndra sarasvatI 4 ArAdhanA~\\#{274}"
         }
@@ -30685,17 +30223,14 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "dazaharA/gaGgAvataraNam/dazapApaharA~dazamI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 17 jagadguru zrI~sadAzivEndra sarasvatI ArAdhanA~\\#{1645}"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 53 jagadguru zrI~pUrNAnanda sadAzivEndra sarasvatI ArAdhanA~\\#{522}"
         }
@@ -30883,7 +30418,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "interval": {
             "jd_end": 2458648.2069,
             "jsonClass": "Interval"
@@ -30892,17 +30426,14 @@
           "name": "harivAsaraH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 1 jagadguru zrI~Adi-zaGkara bhagavatpAda ArAdhanA~\\#{2495}"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "sarva-pANDava-nirjalA-EkAdazI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "alarmElmaGgApurE plavOtsava-ArambhaH"
         }
@@ -31079,32 +30610,26 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "campaka-dvAdazI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "gavAmayana-dvAdazI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "rAmalakSmaNa-dvAdazI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 2 jagadguru zrI~surEzvarAcArya ArAdhanA~\\#{2425}"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "pradOSa-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "alarmElmaGgApurE plavOtsavaH~2"
         }
@@ -31282,32 +30807,26 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "chatrapati~zivAjI~rAjyAbhiSEkaH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "durgandha-daurbhAgya-nAzaka-trayOdazI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "SaDazIti-mithunaraviH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vidyAraNya~svAmI~ArAdhanA~\\#{628}"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "alarmElmaGgApurE plavOtsavaH~3"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vEGkaTAcalE jyESTha-abhidyEyakAbhiSEkaH (vajra-kavacam)"
         }
@@ -31485,22 +31004,18 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vEGkaTAcalE pUrNimA~garuDa-sEvA"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "manvAdiH~(bhautyaH~[14])"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "alarmElmaGgApurE plavOtsavaH~4"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vEGkaTAcalE jyESTha-abhidyEyakAbhiSEkaH (mutyala-kavacam)"
         }
@@ -31677,37 +31192,30 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "pUrNimA~vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "jyESThAbhiSEkam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "alarmElmaGgApurE plavOtsava-samApanam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "eruvaka-pUrNimA"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kabIradAsa~jayantI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vEGkaTAcalE jyESTha-abhidyEyakAbhiSEkaH (svarNa-kavacam)"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vaTa-pUrNimA/vaTa-sAvitrI-vratam"
         }
@@ -32226,7 +31734,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kRSNapiGgala-mahAgaNapati saGkaTahara-caturthI-vratam"
         }
@@ -32398,12 +31905,10 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "zravaNa-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vaidhRti-zrAddham"
         }
@@ -33095,22 +32600,18 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "tindukASTamI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "trilOcanASTamI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vinAyakASTamI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "zItalASTamI"
         }
@@ -33287,12 +32788,10 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "EyarkOn2 kalikkAma nAyan2Ar (28) gurupUjai"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "durgA-svApanam"
         }
@@ -33805,7 +33304,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "interval": {
             "jd_end": 2458663.7995,
             "jsonClass": "Interval"
@@ -33814,22 +33312,18 @@
           "name": "harivAsaraH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kRttikA-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kUrma~jayantI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "sarva-yOginI-EkAdazI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "cidambarE dhvajArOhaNam/paJcamUrti rathOtsavaH"
         }
@@ -34007,12 +33501,10 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "pradOSa-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "cidambarE rajata candraprabha vAhanam"
         }
@@ -34199,17 +33691,14 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "mAsazivarAtriH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "sOmamRgazIrSa-puNyakAlaH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "cidambarE svarNa-sUryaprabha vAhanam"
         }
@@ -34387,22 +33876,18 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "bhOgazAyi-pUjA"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "jyaiSTha-amAvAsyA (alabhyam\u2013ArdrA, puSkalA)"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "bhaumArdrA-puNyakAlaH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "cidambarE rajata bhUta vAhanam"
         }
@@ -34579,17 +34064,14 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vArAhI-navarAtra-ArambhaH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 25 jagadguru zrI~saccidAnandaghanEndra sarasvatI ArAdhanA~\\#{1472}"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "cidambarE rajata RSabha vAhanam"
         }
@@ -34772,32 +34254,26 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "candra-darzanam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "candra-darzanam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "amRtalakSmI-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "jagannAtha-ratha-yAtrA"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "gurupuSya-puNyakAlaH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "cidambarE rajata-gajavAhanam"
         }
@@ -34984,12 +34460,10 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "pugazhttuNai nAyan2Ar (54) gurupUjai"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "cidambarE kailAsa vAhanam"
         }
@@ -35167,12 +34641,10 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "mANikkavAcakar gurupUjai"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "cidambarE bhikSATana svarNarathaH"
         }
@@ -35350,37 +34822,30 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vyatIpAta-zrAddham"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "amaranIti nAyan2Ar (6) gurupUjai"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "skanda-paJcamI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "zamI-gaurI-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 35 jagadguru zrI~citsukhEndra sarasvatI ArAdhanA~\\#{1283}"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kumAra-SaSThI-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "cidambarE rathOtsavaH"
         }
@@ -35558,17 +35023,14 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "naTarAjar An2i tirumaJcan2am"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vaivasvata-saptamI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "cidambarE naTarAjasya rAjasabhAyAM mahAbhiSEkaH"
         }
@@ -35755,12 +35217,10 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "mahiSaghnI-pUjA"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "cidambarE muttuppallakku"
         }
@@ -35938,27 +35398,22 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "sudarzana~jayantI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "aindrI-durgA-pUjA"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "upEndra-navamI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vArAhI-navarAtra-samApanam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 12 jagadguru zrI~candrazEkharEndra sarasvatI ArAdhanA~\\#{1785}"
         }
@@ -36135,27 +35590,22 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "periyAzhvAr tirunakSattiram"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "AzA~dazamI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "cAturmAsyavrata-ArambhaH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "manvAdiH~(vaivasvataH~[7])"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 48 jagadguru zrI~advaitAnandabOdhEndra sarasvatI ArAdhanA~\\#{820}"
         }
@@ -36332,12 +35782,10 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "gOpadma-vrata-ArambhaH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "sarva-zayana-EkAdazI"
         }
@@ -36520,7 +35968,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "interval": {
             "jd_end": 2458677.5402,
             "jsonClass": "Interval"
@@ -36529,22 +35976,18 @@
           "name": "harivAsaraH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vAsudEva-dvAdazI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "zAkavrata-ArambhaH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 31 jagadguru zrI~brahmAnandaghanEndra sarasvatI ArAdhanA~\\#{1352}"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 63 jagadguru zrI~mahAdEvEndra sarasvatI 5 ArAdhanA~\\#{206}"
         }
@@ -36721,12 +36164,10 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "jyESThAbhiSEkam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "pradOSa-vratam"
         }
@@ -36904,7 +36345,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "pavitra-caturdazI"
         }
@@ -37081,7 +36521,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "interval": {
             "jd_end": 2458681.6873,
             "jd_start": 2458681.5637,
@@ -37091,52 +36530,42 @@
           "name": "candra-grahaNam~(kEtugrasta)"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vaidhRti-zrAddham"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "pUrNimA~vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vEGkaTAcalE pUrNimA~garuDa-sEvA"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "ASADha-pUrNimA-snAnam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "guru-pUrNimA/vyAsa-pUjA"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kOkila-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "manvAdiH~(brahmaH~[10])"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "yaticAturmAsyavrata-ArambhaH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "ziva-zayanOtsavaH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 10 jagadguru zrI~surEzvarEndra sarasvatI ArAdhanA~\\#{1893}"
         }
@@ -37314,17 +36743,14 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kaTaka-saGkrAntiH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "sarvanadI-rajasvalA~1"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 54 jagadguru zrI~vyAsAcala mahAdEvEndra sarasvatI ArAdhanA~\\#{513}"
         }
@@ -37501,22 +36927,18 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "zravaNa-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "aSTanAga-pUjA"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "azUnyazayana-vratam~1"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "sarvanadI-rajasvalA~2"
         }
@@ -37687,12 +37109,10 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "sarvanadI-rajasvalA~3"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "ADi~veLLikkizhamai"
         }
@@ -37870,7 +37290,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "gajAnana-mahAgaNapati saGkaTahara-caturthI-vratam"
         }
@@ -38557,7 +37976,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "cAmuNDEzvarI~jayantI"
         }
@@ -38901,7 +38319,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "ADi~veLLikkizhamai"
         }
@@ -39079,22 +38496,18 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kRttikA-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "ADik~kiruttikai"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "mUrtti nAyan2Ar (15) gurupUjai"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "pugazhccOzha nAyan2Ar (39) gurupUjai"
         }
@@ -39271,12 +38684,10 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "tiruppANAzhvAr tirunakSattiram"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "sarva-kAmikA-EkAdazI"
         }
@@ -39458,7 +38869,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "interval": {
             "jd_end": 2458693.2908,
             "jsonClass": "Interval"
@@ -39467,12 +38877,10 @@
           "name": "harivAsaraH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "sOma-pradOSa-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "sOmamRgazIrSa-puNyakAlaH"
         }
@@ -39655,17 +39063,14 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "mAsazivarAtriH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kUr2r2uva nAyan2Ar (38) gurupUjai"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "bhaumArdrA-puNyakAlaH"
         }
@@ -39843,17 +39248,14 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 38 jagadguru zrI~abhinavazaGkarEndra sarasvatI ArAdhanA~\\#{1180}"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 46 jagadguru zrI~sAndrAnandabOdhEndra sarasvatI ArAdhanA~\\#{922}"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "ASADha (kaTaka) amAvAsyA (alabhyam\u2013punarvasuH)"
         }
@@ -40031,32 +39433,26 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vyatIpAta-zrAddham"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "ASADha-snAnapUrtiH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "dIpa-pUjA"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "pati-saJjIvanI-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 41 jagadguru zrI~gaGgAdharEndra sarasvatI 2 ArAdhanA~\\#{1070}"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "gurupuSya-puNyakAlaH"
         }
@@ -40243,22 +39639,18 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "candra-darzanam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "manOratha-dvitIyA"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "satyanArAyaNa~jayantI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "ADi~veLLikkizhamai"
         }
@@ -40436,32 +39828,26 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "hariyAlI~tRtIyA"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "madhuzrAvaNi-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "pArvatI~pavitrArOpaNam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "svarNa-gaurI-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "ADip~perukku"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "tiruvADippUram"
         }
@@ -40648,7 +40034,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "dUrvA-gaNapati-vratam"
         }
@@ -40831,17 +40216,14 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "garuDa-paJcamI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "nAga-paJcamI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kalki~jayantI"
         }
@@ -41019,17 +40401,14 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "perumizhalaik kur2umba nAyan2Ar (22) gurupUjai"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "sUpaudana-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "SaSThI-vratam"
         }
@@ -41207,37 +40586,30 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "cundaramUrtti nAyan2Ar (63) gurupUjai"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kazhar2ir2r2ar2ivAr/cEramAn2 perumAL nAyan2Ar (36) gurupUjai"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "avyaGga-saptamI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "dvAdaza-saptamI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "pApanAzanI~saptamI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "tulasIdAsa~jayantI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "zItalA~saptamI"
         }
@@ -41414,7 +40786,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "durgA-vrata-ArambhaH"
         }
@@ -41592,27 +40963,22 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kaumArI-pUjA"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "sEGgAlipuram anantarAma-dIkSita-jayantI~\\#{117}"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 57 jagadguru zrI~paramazivEndra sarasvatI 2 ArAdhanA~\\#{434}"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "ADi~veLLikkizhamai"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "varalakSmI-vratam"
         }
@@ -41789,27 +41155,22 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vaidhRti-zrAddham"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kOTpuli nAyan2Ar (55) gurupUjai"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kaliya nAyan2Ar (43) gurupUjai"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vEda/dadhi-vrata-ArambhaH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 29 jagadguru zrI~pUrNabOdhEndra sarasvatI ArAdhanA~\\#{1402}"
         }
@@ -41987,7 +41348,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "interval": {
             "jd_end": 2458706.985,
             "jsonClass": "Interval"
@@ -41996,7 +41356,6 @@
           "name": "harivAsaraH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "sarva-pavitrOpAna-EkAdazI"
         }
@@ -42173,22 +41532,18 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "dAmOdara-dvAdazI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "dadhi-vrata-ArambhaH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "zAkavrata-samApanam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "sOma-pradOSa-vratam"
         }
@@ -42365,7 +41720,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "anaGga-trayOdazI"
         }
@@ -42541,12 +41895,10 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "zravaNa-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vEGkaTAcalE pUrNimA~garuDa-sEvA"
         }
@@ -42722,57 +42074,46 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "pUrNimA~vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "RgvEda-upAkarma"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "gAyatrI~jayantI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "hayagrIva~jayantI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "nArikEla-pUrNimA"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "rakSAbandhanam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "saMskRta-divasaH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "sarpa-baliH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vaikhAnasa~maharSi~jayantI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "yajurvEda-upAkarma"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 20 jagadguru zrI~mUkazaGkarEndra sarasvatI ArAdhanA~\\#{1583}"
         }
@@ -42945,17 +42286,14 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI jagadguru zrI~jayEndra sarasvatI jayantI~\\#{85}"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "ADi~veLLikkizhamai"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "gAyatrI-japaH"
         }
@@ -43132,27 +42470,22 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "azUnyazayana-vratam~2"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "bRhatI-vRkSaka-pUjA"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "bhIma~caNDI~jayantI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "viSNupadI-siMharaviH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "zrI~rAghavEndra~svAmI~ArAdhanA~\\#{348}"
         }
@@ -43330,17 +42663,14 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kajjalI~tRtIyA"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "tuSTi-prApti-tRtIyA"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "AvaNi~JAyir2r2ukkizhamai"
         }
@@ -43518,17 +42848,14 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "hEramba-mahAgaNapati mahAsaGkaTahara-caturthI-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "hEramba-mahAgaNapati mahAsaGkaTahara-caturthI-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "bahulA~caturthI"
         }
@@ -43705,7 +43032,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "rakSA~paJcamI"
         }
@@ -43883,7 +43209,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "hala-SaSThI"
         }
@@ -44225,27 +43550,22 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kRttikA-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "mahAkAlI~jayantI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "manvAdiH~(dakSaH~[9])"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "zrIkRSNajanmASTamI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 21 jagadguru zrI~sArvabhaumaguruH candracUDEndra sarasvatI ArAdhanA~\\#{1573}"
         }
@@ -44423,37 +43743,30 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "zrI-jayantI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "zrIkRSNadEvarAya-rAjyAbhiSEkaH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 24 jagadguru zrI~citsukhEndra sarasvatI ArAdhanA~\\#{1493}"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "zanirOhiNI-puNyakAlaH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "tiruccendUr murugan2 AvaNit tiruvizhA toDakkam/koDiyEr2r2am"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "nandOtsavaH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "varagUr ur2iyaDi utsavam"
         }
@@ -44630,27 +43943,22 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "aravinda~jayantI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "caNDikA-pUjA"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kaumAra-pUjA"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "AvaNi~JAyir2r2ukkizhamai"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "tiruccendUr murugan2 AvaNit tiruvizhA ##2##m nAL"
         }
@@ -44828,12 +44136,10 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "smArta-ajA-EkAdazI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "tiruccendUr murugan2 AvaNit tiruvizhA ##3##m nAL\u2014murugan2 bhavan2i"
         }
@@ -45020,7 +44326,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "interval": {
             "jd_end": 2458722.7119,
             "jsonClass": "Interval"
@@ -45029,27 +44334,22 @@
           "name": "harivAsaraH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vyatIpAta-zrAddham"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "rOhiNI~dvAdazI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vaiSNava-ajA-EkAdazI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "jayantI~mahAdvAdazI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "tiruccendUr murugan2 AvaNit tiruvizhA ##4##m nAL\u2014yAn2ai vAhanattil murugan2-ambAL bhavan2i"
         }
@@ -45227,22 +44527,18 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "mAsazivarAtriH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "ceruttuNai nAyan2Ar (53) gurupUjai"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "pradOSa-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "tiruccendUr murugan2 AvaNit tiruvizhA ##5##m nAL"
         }
@@ -45424,17 +44720,14 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "atipatta nAyan2Ar (41) gurupUjai"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "aghOra-caturdazI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "tiruccendUr murugan2 AvaNit tiruvizhA ##6##m nAL\u2014veLLit tEr bhavan2i"
         }
@@ -45612,32 +44905,26 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "iLaiyAn2kuDi mAr2a nAyan2Ar (3) gurupUjai"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "darbha-saGgrahaH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "64 yOginI-pUjA"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vRSabha-pUjA"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "zrAvaNa-amAvAsyA"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "tiruccendUr murugan2 AvaNit tiruvizhA ##7##m nAL\u2014cigappu cAtti alaGkAram"
         }
@@ -45819,17 +45106,14 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "candra-darzanam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "mRgazIrSa-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "tiruccendUr murugan2 AvaNit tiruvizhA ##8##m nAL\u2014paccai cAtti alaGkAram"
         }
@@ -46008,42 +45292,34 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "aGgAraka~jayantI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "haritAlikA-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "manvAdiH~(tAmasaH~[4])"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "varAha~jayantI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vipattAra-gaurI-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "AvaNi~JAyir2r2ukkizhamai"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "Adityahasta-puNyakAlaH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "tiruccendUr murugan2 AvaNit tiruvizhA ##9##m nAL"
         }
@@ -46235,17 +45511,14 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "sAmavEda-upAkarma"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "zrIvinAyaka-caturthI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "tiruccendUr murugan2 AvaNit tiruvizhA ##10##m nAL\u2014tEr"
         }
@@ -46423,12 +45696,10 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "RSi-paJcamI-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "tiruccendUr murugan2 AvaNit tiruvizhA ##11##m nAL"
         }
@@ -46610,32 +45881,26 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kumArikA-svapanam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "lalitA-SaSThI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "manthana-SaSThI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "sUrya-SaSThI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "tiruccendUr AvaNit tiruvizhA nir2aivu"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "SaSThIdEvI-SaSThI-vratam"
         }
@@ -46813,27 +46078,22 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vaidhRti-zrAddham"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kulaccirai nAyan2Ar (21) gurupUjai"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "amuktAbharaNa-saptamI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "anantaphala-saptamI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kukkuTI-vratam"
         }
@@ -47010,17 +46270,14 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "dUrvASTamI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "dadhIci~maharSi~jayanti"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "rAdhASTamI"
         }
@@ -47198,42 +46455,34 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "gajEndra-mOkSaH~2"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kuGgiliyakkalaya nAyan2Ar (10) gurupUjai"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "piTTukku maN cumanda lIlai"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "aduHkhanavamI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "gOdhUmA~navamI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "mahAlakSmI-vrata-ArambhaH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "nandA~navamI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "tAlanavamI"
         }
@@ -47409,17 +46658,14 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "dazAvatAra-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vitastOtsavaH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "AvaNi~JAyir2r2ukkizhamai"
         }
@@ -47596,12 +46842,10 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kaTadAnOtsavaH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "sarva-parivartinI-EkAdazI"
         }
@@ -47779,7 +47023,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "interval": {
             "jd_end": 2458736.5641,
             "jsonClass": "Interval"
@@ -47788,27 +47031,22 @@
           "name": "harivAsaraH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "ananta-dvAdazI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "bhuvanEzvarI~jayantI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "dadhi-vrata-samApanam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vAmana~jayantI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vijayA/zravaNa-mahAdvAdazI"
         }
@@ -47985,27 +47223,22 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "zravaNa-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "ONam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "dUrva-tri-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "gO-trirAtri-vratam~1"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "pradOSa-vratam"
         }
@@ -48183,17 +47416,14 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "naTarAjar mahAbhiSEkam~2"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "ananta-caturdazI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "ananta-padmanAbha-vratam"
         }
@@ -48364,12 +47594,10 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vEGkaTAcalE pUrNimA~garuDa-sEvA"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 59 jagadguru zrI~bhagavannAma bOdhEndra sarasvatI ArAdhanA~\\#{328}"
         }
@@ -48546,37 +47774,30 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "pUrNimA~vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "dikpAla-pUjA~1"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "umA-mahEzvara-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "upAGga-lalitA-gaurI-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vizvarUpa-yAtrA"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "yaticAturmAsyavrata-samApanam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "mahAlaya-pakSa-ArambhaH"
         }
@@ -48754,12 +47975,10 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "azUnyazayana-vratam~3"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "AvaNi~JAyir2r2ukkizhamai"
         }
@@ -49106,37 +48325,30 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "aGgArakI~vighnarAja-mahAgaNapati saGkaTahara-caturthI-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "gaurI-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kajarI~tRtIyA"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "SaDazIti-kanyAraviH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vizvakarmA~jayantI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "rudra~pazupati nAyan2Ar (16) gurupUjai"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "bhaumAzvinI-puNyakAlaH"
         }
@@ -49313,12 +48525,10 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "mahAbharaNI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "dikpAla-pUjA~2"
         }
@@ -49490,22 +48700,18 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kRttikA-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "nAga-pUjA"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "saptarSi-pUjA/arghyam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "candra-SaSThI"
         }
@@ -49683,12 +48889,10 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kapila-SaSThI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 33 jagadguru zrI~saccidAnandaghanEndra sarasvatI 2 ArAdhanA~\\#{1328}"
         }
@@ -49865,27 +49069,22 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "tirunALaippOvAr nAyan2Ar (17) gurupUjai"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "mahAlakSmI-vrata-samApanam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "zRGgErI 35 jagadguru zrI~abhinava vidyAtIrtha mahAsvAmI ArAdhanA"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "puraTTAci~can2ikkizhamai"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "zanirOhiNI-puNyakAlaH"
         }
@@ -50063,22 +49262,18 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "azOkASTamI-vrata-ArambhaH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "jImUtavAhana-pUjA~1"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "madhyASTamI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "mahAvyatIpAta-zrAddham"
         }
@@ -50255,12 +49450,10 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "durgA/gaurI-pUjA"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "sumaGgalA~navamI"
         }
@@ -50614,7 +49807,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "interval": {
             "jd_end": 2458752.0801,
             "jsonClass": "Interval"
@@ -50623,12 +49815,10 @@
           "name": "harivAsaraH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "yati-mahAlayam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "sarva-indirA-EkAdazI"
         }
@@ -50806,17 +49996,14 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "dvAparayugAdiH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 44 jagadguru zrI~pUrNabOdhEndra sarasvatI 2 ArAdhanA~\\#{980}"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "pradOSa-vratam"
         }
@@ -51004,17 +50191,14 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "mAsazivarAtriH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAtyAyanI~jayantI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "zastrahatacaturdazI"
         }
@@ -51201,32 +50385,26 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "azvazirO-dEva-pUjA"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "sujanmaprApti-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "zRGgErI 34 jagadguru zrI~candrazEkhara bhAratI ArAdhanA"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "(bhAdrapada) mahAlaya amAvAsyA"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "puraTTAci~can2ikkizhamai"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "mahAlaya-pakSa-samApanam"
         }
@@ -51404,32 +50582,26 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "agrasEna~mahArAja~jayantI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "dauhitra-pratipat"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "gRhadEvI-pUjA"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "stanavRddhi-gaurI-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "zarannavarAtra-ArambhaH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "Adityahasta-puNyakAlaH"
         }
@@ -51607,12 +50779,10 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "candra-darzanam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vaidhRti-zrAddham"
         }
@@ -51794,7 +50964,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "mEghapAlIya-tRtIyA"
         }
@@ -51977,17 +51146,14 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "dEvatA-suvAsinI-pUjA"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "lalitA-paJcamI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "budhAnurAdhA-puNyakAlaH"
         }
@@ -52165,17 +51331,14 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "upAGga-lalitA-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "zAnti-paJcamI-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "SaSThI-vratam"
         }
@@ -52352,12 +51515,10 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "sarasvatI-AvAhanam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 45 jagadguru zrI~paramazivEndra sarasvatI 1 ArAdhanA~\\#{959}"
         }
@@ -52535,17 +51696,14 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "patrikA-pravEza-pUjA"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "zubha-saptamI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "puraTTAci~can2ikkizhamai"
         }
@@ -52722,27 +51880,22 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "bhadrakALI-pUjA"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "durgASTamI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAla-trirAtri-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "manvAdiH~(svAyambhuvaH~[1])"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 19 jagadguru zrI~mArtANDa vidyAghanEndra sarasvatI ArAdhanA~\\#{1622}"
         }
@@ -52920,32 +52073,26 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "En2AdinAtha nAyan2Ar (8) gurupUjai"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "bhadrakALI-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "mahAnavamI/sarasvatI-pUjA"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "zarannavarAtra-samApanam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "buddha~jayantI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "sOmazrAvaNI-puNyakAlaH"
         }
@@ -53122,52 +52269,42 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "zravaNa-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "Ayudha~pUjai"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "dazaharA"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "durgA-pUjA"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "gaGgAvataraNam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kUSmANDa-dazamI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vijayadazamI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "yuddhadEvatA-ArAdhanA"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "zamI-pUjA"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "madhvAcArya~jayantI~\\#{782}"
         }
@@ -53342,7 +52479,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "interval": {
             "jd_end": 2458766.2688,
             "jsonClass": "Interval"
@@ -53351,7 +52487,6 @@
           "name": "harivAsaraH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "sarva-pApAGkuzA-EkAdazI"
         }
@@ -53524,12 +52659,10 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "naraciGgamun2aiyaraiya nAyan2Ar (40) gurupUjai"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "dvidala-vrata-ArambhaH"
         }
@@ -53706,7 +52839,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "pradOSa-vratam"
         }
@@ -53884,12 +53016,10 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "naTarAjar mahAbhiSEkam~3"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "puraTTAci~can2ikkizhamai"
         }
@@ -54065,57 +53195,46 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "pUrNimA~vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vEGkaTAcalE pUrNimA~garuDa-sEvA"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kO-jAgarti-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kaumudI-utsavaH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kumAra-pUrNimA/mahA-azvinI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kuntI~(pArvatI)-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "lakSmI-indra-kubEra-pUjA"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vAlmIki~maharSi~jayantI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "zarad-pUrNimA"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 36 jagadguru zrI~citsukhAnandEndra sarasvatI ArAdhanA~\\#{1262}"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "mIrAbAI~jayantI~\\#{522}"
         }
@@ -54292,17 +53411,14 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "jayAvApti-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "saptama-aparapakSa-ArambhaH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "appayya-dIkSita-jayantI~\\#{501}"
         }
@@ -54480,17 +53596,14 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "rudra~pazupati nAyan2Ar (16) gurupUjai"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "azUnyazayana-vratam~4"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "bhaumAzvinI-puNyakAlaH"
         }
@@ -54667,22 +53780,18 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kRttikA-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "candrOdaya-gaurI-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kanaka-gaNEza-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "lalitA-gaurI-vratam"
         }
@@ -54854,22 +53963,18 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vakratuNDa-mahAgaNapati saGkaTahara-caturthI-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vakratuNDa-mahAgaNapati saGkaTahara-caturthI-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vyatIpAta-zrAddham"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "karaka-caturthI"
         }
@@ -55046,22 +54151,18 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "AkAzadIpa-ArambhaH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "tulA-kAvErI-snAna-ArambhaH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "tulA-puNyakAlaH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "bhRguvAra-subrahmaNya-vratam"
         }
@@ -55239,12 +54340,10 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "ghOTaka-paJcamI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "sEGgAlipuram anantarAma-dIkSita-ArAdhanA~\\#{50}"
         }
@@ -55592,27 +54691,22 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "jImUtavAhana-pUjA~2"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "jIvaputrikASTamI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAlASTamI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "maGgala-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "mahAlakSmI-vratam"
         }
@@ -55800,7 +54894,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "bhImasEna~jayantI"
         }
@@ -56149,17 +55242,14 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "zRGgErI 34 jagadguru zrI~candrazEkhara bhAratI~3 jayantI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "tAmraparNI-antya-puSkara-ArambhaH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "sarva-ramA-EkAdazI"
         }
@@ -56336,7 +55426,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "interval": {
             "jd_end": 2458781.4185,
             "jsonClass": "Interval"
@@ -56345,27 +55434,22 @@
           "name": "harivAsaraH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "catti nAyan2Ar (44) gurupUjai"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "gOvatsa-dvAdazI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vasudEva-pUjA"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vyAghra-dvAdazI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "pradOSa-vratam"
         }
@@ -56553,32 +55637,26 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "mAsazivarAtriH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vaidhRti-zrAddham"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "(yama)-dIpa-trayOdazI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "dhana-trayOdazI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "dhanvantari~jayantI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "gO-trirAtri-vratam~2"
         }
@@ -56760,37 +55838,30 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "dIpOtsava-caturdazI/yama-tarpaNam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "naraka-caturdazI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "prEta-caturdazI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "zRGgErI 35 jagadguru zrI~abhinava vidyAtIrtha mahAsvAmI jayantI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "dIpAvalI/lakSmI-kubEra-pUjA"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "Azvayuja-amAvAsyA"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "saptama-aparapakSa-samApanam"
         }
@@ -56969,37 +56040,30 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "AgrayaNa~hOmaH~2"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kEdAra-gaurI-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kamalA~jayantI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vikramAditya-paTTAbhiSEkaH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "zrIrAma-paTTAbhiSEkaH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "gOvardhana-pUjA"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "sOmavatI amAvAsyA"
         }
@@ -57176,12 +56240,10 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "candra-darzanam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "yama/bhrAtR-dvitIyA"
         }
@@ -57369,12 +56431,10 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "pUcalAr nAyan2Ar (56) gurupUjai"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "budhAnurAdhA-puNyakAlaH"
         }
@@ -57723,22 +56783,18 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "aiyaDigaL kADavarkOn2 nAyan2Ar (45) gurupUjai"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "dEvasEnA~paJcamI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "pANDava~(lAbha)-paJcamI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "sarpa-pUjA~2"
         }
@@ -57915,7 +56971,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "skandaSaSThI-vratam"
         }
@@ -58093,12 +57148,10 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "sAvitrya-kalpAdiH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vijayA~bhAnusaptamI"
         }
@@ -58275,37 +57328,30 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "zravaNa-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "poygaiyAzhvAr tirunakSattiram"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "gOpASTamI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kArtavIryArjuna~jayantI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "tAmraparNI-antya-puSkara-samApanam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kRttikA~sOmavAsaraH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "sOmazrAvaNI-puNyakAlaH"
         }
@@ -58482,39 +57528,32 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "TransitionFestivalInstance",
           "name": "guru-saGkrAntiH",
           "status_1_hk": "vRzcikaH",
           "status_2_hk": "dhanuH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "bhUtattAzhvAr tirunakSattiram"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "akSayA~navamI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "jagaddhAtrI-pUjA"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "trEtAyugAdiH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 22 jagadguru zrI~paripUrNabOdhEndra sarasvatI ArAdhanA~\\#{1539}"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "sindhu-Adi-puSkara-ArambhaH"
         }
@@ -58856,12 +57895,10 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "pEyAzhvAr tirunakSattiram"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kaMsa-vadhaH"
         }
@@ -59039,7 +58076,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "interval": {
             "jd_end": 2458796.0625,
             "jsonClass": "Interval"
@@ -59048,27 +58084,22 @@
           "name": "harivAsaraH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "Adi-zaGkara mAnasika-sannyAsa-dinam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "bhISma-paJcaka-vrata-ArambhaH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "manvAdiH~(svArOciSaH~[2])"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "tulasI-vivAhaH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "sarva-utthAna-EkAdazI"
         }
@@ -59245,32 +58276,26 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "bRndAvana-dvAdazI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "dvidala-vrata-samApanam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "gOpadma-vrata-samApanam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "prabOdhOtsavaH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "yAjJavalkya~jayantI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "zani-pradOSa-vratam"
         }
@@ -59445,7 +58470,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kArttika-mAsa-antimatrayatithi-vrata-ArambhaH"
         }
@@ -59623,27 +58647,22 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vyatIpAta-zrAddham"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "tirumUla nAyan2Ar (29) gurupUjai"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "maNikarNikA-snAnam/vaikuNTha-caturdazI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "tripurOtsavaH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kRttikA~sOmavAsaraH"
         }
@@ -59815,57 +58834,46 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "pUrNimA~vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vEGkaTAcalE pUrNimA~garuDa-sEvA"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "nin2r2acIr neDumAr2a nAyan2Ar (48) gurupUjai"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "AgrayaNa~hOmaH~1"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "mahA~annAbhiSEkaH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "bhISma-paJcaka-vrata-samApanam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "cAturmAsyavrata-samApanam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kArttika-mAsa-antimatrayatithi-vrata-samApanam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kArttika-pUrNimA-snAnam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "manvAdiH~(dharmaH~[11])"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "zrI~gOvinda bhagavatpAda ArAdhanA"
         }
@@ -60043,22 +59051,18 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kRttikA-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "iDaGkazhi nAyan2Ar (52) gurupUjai"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "navama-aparapakSa-ArambhaH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 64 jagadguru zrI~candrazEkharEndra sarasvatI 5 ArAdhanA~\\#{169}"
         }
@@ -60406,17 +59410,14 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "gaNAdhipa-mahAgaNapati saGkaTahara-caturthI-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "saubhAgya-sundarI-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 9 jagadguru zrI~kRpAzaGkarEndra sarasvatI ArAdhanA~\\#{1951}"
         }
@@ -60594,17 +59595,14 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "sindhu-Adi-puSkara-samApanam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "AkAzadIpa-samApanam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "tulA-kAvErI-snAna-samApanam"
         }
@@ -60787,27 +59785,22 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kRttikA-maNDala-pArAyaNam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "muDavan2 muzhukku"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "viSNupadI-vRzcikaraviH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kArttigai~JAyir2r2ukkizhamai"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "tiruvizalUr gaGgAkarSaNa-mahOtsava-ArambhaH"
         }
@@ -60990,7 +59983,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kRttikA~sOmavAsaraH"
         }
@@ -61167,7 +60159,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAlabhairavASTamI"
         }
@@ -61345,27 +60336,22 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "mahAdEvASTamI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 42 jagadguru zrI~brahmAnandaghanEndra sarasvatI 2 ArAdhanA~\\#{1042}"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 49 jagadguru zrI~mahAdEvEndra sarasvatI 3 ArAdhanA~\\#{773}"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 58 jagadguru zrI~AtmabOdhEndra sarasvatI ArAdhanA~\\#{382}"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "budhASTamI"
         }
@@ -61543,12 +60529,10 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vaidhRti-zrAddham"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 28 jagadguru zrI~mahAdEvEndra sarasvatI 1 ArAdhanA~\\#{1419}"
         }
@@ -61726,12 +60710,10 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "meypporuL nAyan2Ar (4) gurupUjai"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "smArta-utpannA-EkAdazI (gRhastha)"
         }
@@ -61908,7 +60890,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "interval": {
             "jd_end": 2458810.7597,
             "jsonClass": "Interval"
@@ -61917,22 +60898,18 @@
           "name": "harivAsaraH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "An2Aya nAyan2Ar (13) gurupUjai"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "smArta-utpannA-EkAdazI (sannyastha)"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vaiSNava-utpannA-EkAdazI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "trisparzA~mahAdvAdazI"
         }
@@ -62125,17 +61102,14 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "mAsazivarAtriH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "pradOSa-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kArttigai~JAyir2r2ukkizhamai"
         }
@@ -62312,7 +61286,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kRttikA~sOmavAsaraH"
         }
@@ -62490,27 +61463,22 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "AgrayaNa~hOmaH~4"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kArttika-snAnapUrtiH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "tiruvizalUr gaGgAkarSaNa-mahOtsava-samApanam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kArttika-amAvAsyA (alabhyam\u2013anUrAdhA, puSkalA)"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "navama-aparapakSa-samApanam"
         }
@@ -62687,17 +61655,14 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vanadurgAnavarAtra-ArambhaH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 18 jagadguru zrI~yOgatilaka surEndra sarasvatI ArAdhanA~\\#{1635}"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "budhAnurAdhA-puNyakAlaH"
         }
@@ -62874,22 +61839,18 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "candra-darzanam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "candra-darzanam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "tintriNI-gaurI-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "mUrkkha nAyan2Ar (31) gurupUjai"
         }
@@ -63072,7 +62033,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "cir2appuli nAyan2Ar (34) gurupUjai"
         }
@@ -63249,7 +62209,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "badarI-gaurI-vratam"
         }
@@ -63422,12 +62381,10 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "zravaNa-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kArttigai~JAyir2r2ukkizhamai"
         }
@@ -63604,22 +62561,18 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "mArgazIrSa-zivaliGga-SaSThI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 32 jagadguru zrI~cidAnandaghanEndra sarasvatI ArAdhanA~\\#{1348}"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "subrahmaNya-SaSThI-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "sOmazrAvaNI-puNyakAlaH"
         }
@@ -63797,17 +62750,14 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "mitra-saptamI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "nandA-saptamI~1"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 5 jagadguru zrI~jJAnAnandEndra sarasvatI ArAdhanA~\\#{2224}"
         }
@@ -63984,7 +62934,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "budhASTamI"
         }
@@ -64161,12 +63110,10 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "pralaya-kalpAdiH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vanadurgAnavarAtra-samApanam"
         }
@@ -64509,7 +63456,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vyatIpAta-zrAddham"
         }
@@ -64687,7 +63633,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "interval": {
             "jd_end": 2458825.8915,
             "jsonClass": "Interval"
@@ -64696,27 +63641,22 @@
           "name": "harivAsaraH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "gItA~jayantI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "sarva-mOkSadA-EkAdazI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "guruvAyupura-EkAdazI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kaizika-EkAdazI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kArttigai~JAyir2r2ukkizhamai"
         }
@@ -64893,27 +63833,22 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "bharaNI~dIpam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kArttigai"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "tiruvaNNAmalai~dIpam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "sOma-pradOSa-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kaizika-dvAdazI"
         }
@@ -65090,17 +64025,14 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kRttikA-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kaNampulla nAyan2Ar (46) gurupUjai"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "tirumaGgaiyAzhvAr tirunakSattiram"
         }
@@ -65278,17 +64210,14 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vEGkaTAcalE pUrNimA~garuDa-sEvA"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "sarvAlaya~dIpam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "dattAtrEya~jayantI"
         }
@@ -65465,37 +64394,30 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "pUrNimA~vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "AgrayaNa~hOmaH~3"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "annapUrNA~jayantI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "mArgazIrSa-pUrNimA"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "sarpa-bali-utsarjanam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "tripura~bhairavI~jayantI"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 13 jagadguru zrI~saccidghanEndra sarasvatI ArAdhanA~\\#{1748}"
         }
@@ -65844,7 +64766,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "nArAyaNIyaM~jayantI~\\#{434}"
         }
@@ -66022,17 +64943,14 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "Akhuratha-mahAgaNapati saGkaTahara-caturthI-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kArttigai~JAyir2r2ukkizhamai"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "ravipuSyayOga-puNyakAlaH"
         }
@@ -66224,12 +65142,10 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "vaidhRti-zrAddham"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "SaDazIti-dhanurraviH"
         }
@@ -66579,12 +65495,10 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kucEla-dinam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "mArgazIrSa-aSTakA-pUrvEdyuH"
         }
@@ -66762,17 +65676,14 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "iyar2pagai nAyan2Ar (2) gurupUjai"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "mArgazIrSa-aSTakA-zrAddham"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 4 jagadguru zrI~satyabOdhEndra sarasvatI ArAdhanA~\\#{2287}"
         }
@@ -66949,12 +65860,10 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "zrI~zESAdri-svAmI~ArAdhanA~\\#{91}"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "mArgazIrSa-anvaSTakA-zrAddham"
         }
@@ -67308,7 +66217,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "interval": {
             "jd_end": 2458840.143,
             "jsonClass": "Interval"
@@ -67317,12 +66225,10 @@
           "name": "harivAsaraH"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "mAn2akkaJcAr2a nAyan2Ar (11) gurupUjai"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "sarva-saphalA-EkAdazI"
         }
@@ -67504,12 +66410,10 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 68 jagadguru zrI~candrazEkharEndra sarasvatI 7 ArAdhanA~\\#{26}"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "sOma-pradOSa-vratam"
         }
@@ -67688,7 +66592,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "mAsazivarAtriH"
         }
@@ -67865,22 +66768,18 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "toNDaraDippoDiyAzhvAr tirunakSattiram"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 14 jagadguru zrI~vidyAghanEndra sarasvatI ArAdhanA~\\#{1703}"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 34 jagadguru zrI~candrazEkharEndra sarasvatI 2 ArAdhanA~\\#{1310}"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "mArgazIrSa-amAvAsyA"
         }
@@ -68058,7 +66957,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "interval": {
             "jd_end": 2458843.9719,
             "jd_start": 2458843.8395,
@@ -68068,7 +66966,6 @@
           "name": "sUrya-grahaNam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "zrI~hanUmat~jayantI~1"
         }
@@ -68245,12 +67142,10 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "candra-darzanam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "cAkkiya nAyan2Ar (33) gurupUjai"
         }
@@ -68599,7 +67494,6 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "zravaNa-vratam"
         }
@@ -69117,17 +68011,14 @@
       "default_to_none": true,
       "festivals": [
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "mahAdhanurvyatIpAta-snAnam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "SaSThI-vratam"
         },
         {
-          "days": [],
           "jsonClass": "FestivalInstance",
           "name": "mahAdhanurvyatIpAta-zrAddham"
         }
