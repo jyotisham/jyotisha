@@ -1,8 +1,14 @@
 import os
 
+from indic_transliteration import sanscript
 from jyotisha.panchaanga.temporal import festival
 
 
 def test_serializability():
   festival_instance = festival.FestivalInstance(name="test_fest")
   festival_instance.dump_to_file(filename=os.path.join(os.path.dirname(__file__), "test_fest.json.local"))
+
+def test_get_best_transliterated_name():
+  fest = festival.FestivalInstance(name="rAmAnuja-janma-nakSatram", ordinal=1000)
+  name = fest.get_best_transliterated_name(scripts=[sanscript.DEVANAGARI, sanscript.TAMIL])
+  assert name["text"] == "रामानुज-जन्म-नक्षत्रम्"

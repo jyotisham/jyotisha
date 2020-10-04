@@ -7,6 +7,7 @@ import sys
 from datetime import datetime
 
 from indic_transliteration import xsanscript as sanscript
+from panchaanga.temporal.time import Timezone
 from pytz import timezone as tz
 
 import jyotisha
@@ -273,7 +274,7 @@ def write_monthly_tex(panchaanga, template_file, scripts=[sanscript.DEVANAGARI],
         # Using set as an ugly workaround since we may have sometimes assigned the same
         # festival to the same day again!
         W6D1 += '\n' + ('{%s}' % '\\eventsep '.join(
-          [jyotisha.custom_transliteration.tr(f.tex_code(), scripts[0]) for f in sorted(daily_panchaanga.festival_id_to_instance.values())]))
+          [f.tex_code(scripts=scripts, timezone=Timezone(panchaanga.city.timezone)) for f in sorted(daily_panchaanga.festival_id_to_instance.values())]))
       elif daily_panchaanga.date.get_weekday() == 1:
         W6D2 = '\n' + ('\\caldata{\\textcolor{%s}{%s}}{%s{%s}}%%' %
                        (day_colours[daily_panchaanga.date.get_weekday()], dt, month_data,
