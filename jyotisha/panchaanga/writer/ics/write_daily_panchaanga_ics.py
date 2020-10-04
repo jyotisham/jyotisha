@@ -257,8 +257,8 @@ def writeDailyICS(panchaanga, script=sanscript.DEVANAGARI, compute_lagnams=True)
       format=panchaanga.fmt)
     sayahna = Hour(24 * (daily_panchaanga.day_length_based_periods.saayaahna.jd_start - jd)).toString(
       format=panchaanga.fmt)
-    # sayamsandhya = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.saayaM_sandhyaa.jd_start - jd)).toString(format=panchaanga.fmt)
-    # sayamsandhya_end = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.saayaM_sandhyaa_end.jd_start - jd)).toString(format=panchaanga.fmt)
+    # sayamsandhya = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.saayam_sandhyaa.jd_start - jd)).toString(format=panchaanga.fmt)
+    # sayamsandhya_end = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.saayam_sandhyaa_end.jd_start - jd)).toString(format=panchaanga.fmt)
     # ratriyama1 = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.raatri_yaama_1.jd_start - jd)).toString(format=panchaanga.fmt)
     # sayana_time = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.shayana.jd_start - jd)).toString(format=panchaanga.fmt)
     dinanta = Hour(24 * (daily_panchaanga.day_length_based_periods.dinaanta.jd_start - jd)).toString(

@@ -214,9 +214,9 @@ def emit(panchaanga, time_format="hh:mm", scripts=[sanscript.DEVANAGARI], comput
     sayahna = time.Hour(24 * (daily_panchaanga.day_length_based_periods.saayaahna.jd_start - jd)).toString(
       format=time_format)
     sayamsandhya_start = time.Hour(
-      24 * (daily_panchaanga.day_length_based_periods.saayaM_sandhyaa.jd_start - jd)).toString(format=time_format)
+      24 * (daily_panchaanga.day_length_based_periods.saayam_sandhyaa.jd_start - jd)).toString(format=time_format)
     sayamsandhya_end = time.Hour(
-      24 * (daily_panchaanga.day_length_based_periods.saayaM_sandhyaa_end.jd_start - jd)).toString(format=time_format)
+      24 * (daily_panchaanga.day_length_based_periods.pradosha.jd_start - jd)).toString(format=time_format)
     ratriyama1 = time.Hour(24 * (daily_panchaanga.day_length_based_periods.raatri_yaama_1.jd_start - jd)).toString(
       format=time_format)
     shayana_time_end = time.Hour(24 * (daily_panchaanga.day_length_based_periods.shayana.jd_start - jd)).toString(
