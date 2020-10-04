@@ -17,7 +17,7 @@ set_constants()
 
 
 class Panchaanga(common.JsonObject):
-  """This class enables the construction of a panchaanga for arbitrary periods, with festivals.
+  """This class enables the construction of a panchaanga for arbitrary periods, with festival_id_to_instance.
     """
   LATEST_VERSION = "0.0.4"
 
@@ -253,16 +253,18 @@ class Panchaanga(common.JsonObject):
     applier.MiscFestivalAssigner(panchaanga=self).cleanup_festivals(debug=debug)
     applier.MiscFestivalAssigner(panchaanga=self).assign_relative_festivals()
     self._sync_festivals_dict_and_daily_festivals()
+    applier.MiscFestivalAssigner(panchaanga=self).assign_festival_numbers()
+
 
   def _sync_festivals_dict_and_daily_festivals(self):
     for festival_id, days in self.festival_id_to_days.items():
       for fest_day in days:
         fest_day_str = fest_day.get_date_str()
         if fest_day_str in self.date_str_to_panchaanga:
-          self.date_str_to_panchaanga[fest_day_str].festivals.append(FestivalInstance(name=festival_id))
-          
+          self.date_str_to_panchaanga[fest_day_str].festival_id_to_instance[festival_id] =  FestivalInstance(name=festival_id)
+
     for dp in self.date_str_to_panchaanga.values():
-      for fest in dp.festivals:
+      for fest in dp.festival_id_to_instance.values():
         days = self.festival_id_to_days.get(fest.name, [])
         if dp.date not in days:
           days.append(dp.date)
@@ -271,7 +273,7 @@ class Panchaanga(common.JsonObject):
   def _reset_festivals(self):
     self.festival_id_to_days = {}
     for daily_panchaanga in self.date_str_to_panchaanga.values():
-      daily_panchaanga.festivals = []
+      daily_panchaanga.festival_id_to_instance = {}
 
   def _refill_daily_panchaangas(self):
     """Avoids duplication for memory efficiency.

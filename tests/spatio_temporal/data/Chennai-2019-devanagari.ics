@@ -43,7 +43,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kāñchī 68 Jagadguru Śrī Chandraśekharendra Sarasvatī 7 Ār
- ādhanā #25
+ ādhanā
 DTSTART;VALUE=DATE:20190102
 DTEND;VALUE=DATE:20190103
 DESCRIPTION:Observed on Kṛṣṇa-Dvādaśī tithi of Mārgaśīrṣaḥ
@@ -150,7 +150,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kāñchī 14 Jagadguru Śrī Vidyāghanendra Sarasvatī Ārādhan
- ā #1702
+ ā
 DTSTART;VALUE=DATE:20190105
 DTEND;VALUE=DATE:20190106
 DESCRIPTION:Observed on Amāvāsyā tithi of Mārgaśīrṣaḥ (lunar) mo
@@ -173,7 +173,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kāñchī 34 Jagadguru Śrī Chandraśekharendra Sarasvatī 2 Ār
- ādhanā #1309
+ ādhanā
 DTSTART;VALUE=DATE:20190105
 DTEND;VALUE=DATE:20190106
 DESCRIPTION:Observed on Amāvāsyā tithi of Mārgaśīrṣaḥ (lunar) mo
@@ -533,7 +533,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kāñchī 55 Jagadguru Śrī Chandrachūḍendra Sarasvatī 3 Ār
- ādhanā #495
+ ādhanā
 DTSTART;VALUE=DATE:20190117
 DTEND;VALUE=DATE:20190118
 DESCRIPTION:Observed on Śukla-Ekādaśī tithi of Pauṣaḥ (lunar) mont
@@ -713,7 +713,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kāñchī 8 Jagadguru Śrī Kaivalyānandayogendra Sarasvatī Ār
- ādhanā #1990
+ ādhanā
 DTSTART;VALUE=DATE:20190120
 DTEND;VALUE=DATE:20190121
 DESCRIPTION:Observed on Śukla-Caturdaśī tithi of Pauṣaḥ (lunar) mon
@@ -785,7 +785,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Badarī Jyotirmaṭha-Pratiṣṭhāpana Jayantī #2504
+SUMMARY:Badarī Jyotirmaṭha-Pratiṣṭhāpana Jayantī
 DTSTART;VALUE=DATE:20190121
 DTEND;VALUE=DATE:20190122
 DESCRIPTION:Observed on Paurṇamāsī tithi of Pauṣaḥ (lunar) month (
@@ -869,7 +869,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Śṛṅgerī Śāradāmaṭha-Pratiṣṭhāpana Jayantī #2502
+SUMMARY:Śṛṅgerī Śāradāmaṭha-Pratiṣṭhāpana Jayantī
 DTSTART;VALUE=DATE:20190121
 DTEND;VALUE=DATE:20190122
 DESCRIPTION:Observed on Paurṇamāsī tithi of Pauṣaḥ (lunar) month (
@@ -888,7 +888,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kāñchī 37 Jagadguru Śrī Vidyāghanendra Sarasvatī 3 Ārādha
- nā #1231
+ nā
 DTSTART;VALUE=DATE:20190122
 DTEND;VALUE=DATE:20190123
 DESCRIPTION:Observed on Kṛṣṇa-Dvitīyā tithi of Pauṣaḥ (lunar) 
@@ -912,7 +912,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kāñchī 62 Jagadguru Śrī Chandraśekharendra Sarasvatī 4 Ār
- ādhanā #236
+ ādhanā
 DTSTART;VALUE=DATE:20190122
 DTEND;VALUE=DATE:20190123
 DESCRIPTION:Observed on Kṛṣṇa-Dvitīyā tithi of Pauṣaḥ (lunar) 
@@ -1033,7 +1033,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Tyāgarāja-Ārādhanā #172
+SUMMARY:Tyāgarāja-Ārādhanā
 DTSTART;VALUE=DATE:20190125
 DTEND;VALUE=DATE:20190126
 DESCRIPTION:Observed on Kṛṣṇa-Pañcamī tithi of Pauṣaḥ (lunar) 
@@ -1051,7 +1051,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Śrī Śeṣādri-Svāmī Jayantī #150
+SUMMARY:Śrī Śeṣādri-Svāmī Jayantī
 DTSTART;VALUE=DATE:20190126
 DTEND;VALUE=DATE:20190127
 DESCRIPTION:Observed on Hastaḥ nakṣhatram day of Makaraḥ (solar) mon
@@ -1102,7 +1102,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Vivekānanda Jayantī #157
+SUMMARY:Vivekānanda Jayantī
 DTSTART;VALUE=DATE:20190127
 DTEND;VALUE=DATE:20190128
 DESCRIPTION:Observed on Kṛṣṇa-Saptamī tithi of Pauṣaḥ (lunar) m
@@ -1240,7 +1240,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Seṅgālipuram Muttaṇṇāvāḻ Ārādhanā #126
+SUMMARY:Seṅgālipuram Muttaṇṇāvāḻ Ārādhanā
 DTSTART;VALUE=DATE:20190201
 DTEND;VALUE=DATE:20190202
 DESCRIPTION:Observed on Kṛṣṇa-Dvādaśī tithi of Makaraḥ (solar) 
@@ -1721,7 +1721,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Dvārakā-Maṭha-Pratiṣṭhāpana Jayantī #2509
+SUMMARY:Dvārakā-Maṭha-Pratiṣṭhāpana Jayantī
 DTSTART;VALUE=DATE:20190212
 DTEND;VALUE=DATE:20190213
 DESCRIPTION:Observed on Śukla-Saptamī tithi of Māghaḥ (lunar) month (
@@ -1928,7 +1928,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kāñchī 11 Jagadguru Śrī Śivānanda Chidghanendra Sarasvatī 
- Ārādhanā #1847
+ Ārādhanā
 DTSTART;VALUE=DATE:20190214
 DTEND;VALUE=DATE:20190215
 DESCRIPTION:Observed on Śukla-Daśamī tithi of Māghaḥ (lunar) month (
@@ -2414,7 +2414,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kāñchī 51 Jagadguru Śrī Vidyātīrthendra Sarasvatī Ārādha
- nā #634
+ nā
 DTSTART;VALUE=DATE:20190220
 DTEND;VALUE=DATE:20190221
 DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of Māghaḥ (lunar) m
@@ -2555,7 +2555,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kāñchī 66 Jagadguru Śrī Chandraśekharendra Sarasvatī 6 Ār
- ādhanā #112
+ ādhanā
 DTSTART;VALUE=DATE:20190226
 DTEND;VALUE=DATE:20190227
 DESCRIPTION:Observed on Kṛṣṇa-Aṣṭamī tithi of Māghaḥ (lunar)
@@ -2687,7 +2687,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kāñchī Jagadguru Śrī Śaṅkara Vijayendra Sarasvatī Jayant
- ī #51
+ ī
 DTSTART;VALUE=DATE:20190303
 DTEND;VALUE=DATE:20190304
 DESCRIPTION:Observed on Uttarāṣāḍhā nakṣhatram day of Kumbhaḥ (
@@ -2896,7 +2896,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Purandaradāsa-Ārādhanā #455
+SUMMARY:Purandaradāsa-Ārādhanā
 DTSTART;VALUE=DATE:20190306
 DTEND;VALUE=DATE:20190307
 DESCRIPTION:Observed on Amāvāsyā tithi of Māghaḥ (lunar) month (sunr
@@ -2915,7 +2915,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kāñchī 67 Jagadguru Śrī Mahādevendra Sarasvatī 5 Ārādhan
- ā #112
+ ā
 DTSTART;VALUE=DATE:20190307
 DTEND;VALUE=DATE:20190308
 DESCRIPTION:Observed on Śukla-Prathamā tithi of Phālgunaḥ (lunar) mon
@@ -2992,7 +2992,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Rāmakṛṣṇa-Paramahaṃsa Jayantī #184
+SUMMARY:Rāmakṛṣṇa-Paramahaṃsa Jayantī
 DTSTART;VALUE=DATE:20190308
 DTEND;VALUE=DATE:20190309
 DESCRIPTION:Observed on Śukla-Dvitīyā tithi of Phālgunaḥ (lunar) mon
@@ -3009,7 +3009,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Pūntānaṃ Jayantī #472
+SUMMARY:Pūntānaṃ Jayantī
 DTSTART;VALUE=DATE:20190310
 DTEND;VALUE=DATE:20190311
 DESCRIPTION:Observed on Aśvinī nakṣhatram day of Kumbhaḥ (solar) mon
@@ -3170,7 +3170,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Śrī Rāghavendra-Svāmī Jayantī #425
+SUMMARY:Śrī Rāghavendra-Svāmī Jayantī
 DTSTART;VALUE=DATE:20190313
 DTEND;VALUE=DATE:20190314
 DESCRIPTION:Observed on Śukla-Saptamī tithi of Phālgunaḥ (lunar) mont
@@ -3502,7 +3502,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Kāñchī 69 Jagadguru Śrī Jayendra Sarasvatī Ārādhanā #1
+SUMMARY:Kāñchī 69 Jagadguru Śrī Jayendra Sarasvatī Ārādhanā
 DTSTART;VALUE=DATE:20190319
 DTEND;VALUE=DATE:20190320
 DESCRIPTION:Observed on Śukla-Trayodaśī tithi of Phālgunaḥ (lunar) m
@@ -3659,7 +3659,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Chaitanya-Mahāprabhu Jayantī #534
+SUMMARY:Chaitanya-Mahāprabhu Jayantī
 DTSTART;VALUE=DATE:20190321
 DTEND;VALUE=DATE:20190322
 DESCRIPTION:Observed on Paurṇamāsī tithi of Phālgunaḥ (lunar) month
@@ -3769,7 +3769,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Chhatrapati-Śivājī Jayantī #390
+SUMMARY:Chhatrapati-Śivājī Jayantī
 DTSTART;VALUE=DATE:20190323
 DTEND;VALUE=DATE:20190324
 DESCRIPTION:Observed on Kṛṣṇa-Tṛtīyā tithi of Phālgunaḥ (luna
@@ -3787,7 +3787,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kāñchī Jagadguru Śrī Jayendra Sarasvatī Āśrama-Svīkāra-J
- ayantī #66
+ ayantī
 DTSTART;VALUE=DATE:20190323
 DTEND;VALUE=DATE:20190324
 DESCRIPTION:Observed on Svātī nakṣhatram day of Mīnaḥ (solar) month
@@ -4075,7 +4075,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kāñchī 65 Jagadguru Śrī Sudarśana Mahādevendra Sarasvatī 
- Ārādhanā #129
+ Ārādhanā
 DTSTART;VALUE=DATE:20190404
 DTEND;VALUE=DATE:20190405
 DESCRIPTION:Observed on Amāvāsyā tithi of Phālgunaḥ (lunar) month (a
@@ -4163,7 +4163,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kāñchī 15 Jagadguru Śrī Gaṅgādharendra Sarasvatī Ārādha
- nā #1691
+ nā
 DTSTART;VALUE=DATE:20190406
 DTEND;VALUE=DATE:20190407
 DESCRIPTION:Observed on Śukla-Prathamā tithi of Caitraḥ (lunar) month 
@@ -4186,7 +4186,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kāñchī 27 Jagadguru Śrī Chidvilāsendra Sarasvatī Ārādhan
- ā #1443
+ ā
 DTSTART;VALUE=DATE:20190406
 DTEND;VALUE=DATE:20190407
 DESCRIPTION:Observed on Śukla-Prathamā tithi of Caitraḥ (lunar) month 
@@ -4209,7 +4209,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kāñchī 52 Jagadguru Śrī Śaṅkarānandendra Sarasvatī Ārā
- dhanā #603
+ dhanā
 DTSTART;VALUE=DATE:20190406
 DTEND;VALUE=DATE:20190407
 DESCRIPTION:Observed on Śukla-Prathamā tithi of Caitraḥ (lunar) month 
@@ -4397,7 +4397,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Muttusvāmī Dīkṣita Jayantī #245
+SUMMARY:Muttusvāmī Dīkṣita Jayantī
 DTSTART;VALUE=DATE:20190409
 DTEND;VALUE=DATE:20190410
 DESCRIPTION:Observed on Kṛttikā nakṣhatram day of Mīnaḥ (solar) mo
@@ -4597,7 +4597,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kāñchī 43 Jagadguru Śrī Ānandaghanendra Sarasvatī Ārādhan
- ā #1006
+ ā
 DTSTART;VALUE=DATE:20190413
 DTEND;VALUE=DATE:20190414
 DESCRIPTION:Observed on Śukla-Navamī tithi of Caitraḥ (lunar) month (a
@@ -5243,7 +5243,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kāñchī 60 Jagadguru Śrī Advaitātmaprakāśendra Sarasvatī 
- Ārādhanā #316
+ Ārādhanā
 DTSTART;VALUE=DATE:20190420
 DTEND;VALUE=DATE:20190421
 DESCRIPTION:Observed on Kṛṣṇa-Dvitīyā tithi of Caitraḥ (lunar) m
@@ -5372,7 +5372,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kāñchī 56 Jagadguru Śrī Sarvajña Sadāśiva Bodhendra Sarasv
- atī Ārādhanā #481
+ atī Ārādhanā
 DTSTART;VALUE=DATE:20190427
 DTEND;VALUE=DATE:20190428
 DESCRIPTION:Observed on Kṛṣṇa-Aṣṭamī tithi of Caitraḥ (lunar)
@@ -5459,7 +5459,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Vallabhāchārya Jayantī #541
+SUMMARY:Vallabhāchārya Jayantī
 DTSTART;VALUE=DATE:20190430
 DTEND;VALUE=DATE:20190501
 DESCRIPTION:Observed on Kṛṣṇa-Ekādaśī tithi of Caitraḥ (lunar) 
@@ -5535,7 +5535,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Ramaṇa Maharṣi Ārādhanā #69
+SUMMARY:Ramaṇa Maharṣi Ārādhanā
 DTSTART;VALUE=DATE:20190502
 DTEND;VALUE=DATE:20190503
 DESCRIPTION:Observed on Kṛṣṇa-Trayodaśī tithi of Meṣaḥ (solar)
@@ -5639,7 +5639,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kāñchī 47 Jagadguru Śrī Chandraśekharendra Sarasvatī 3 Ār
- ādhanā #854
+ ādhanā
 DTSTART;VALUE=DATE:20190504
 DTEND;VALUE=DATE:20190505
 DESCRIPTION:Observed on Amāvāsyā tithi of Caitraḥ (lunar) month (apar
@@ -5785,7 +5785,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Śyāmā Śāstrī Jayantī #258
+SUMMARY:Śyāmā Śāstrī Jayantī
 DTSTART;VALUE=DATE:20190506
 DTEND;VALUE=DATE:20190507
 DESCRIPTION:Observed on Kṛttikā nakṣhatram day of Meṣaḥ (solar) m
@@ -5976,7 +5976,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Rāmānuja-Janma-Nakṣatram #1003
+SUMMARY:Rāmānuja-Janma-Nakṣatram
 DTSTART;VALUE=DATE:20190509
 DTEND;VALUE=DATE:20190510
 DESCRIPTION:Observed on Ārdrā nakṣhatram day of Meṣaḥ (solar) mont
@@ -5993,7 +5993,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Sūradāsa Jayantī #542
+SUMMARY:Sūradāsa Jayantī
 DTSTART;VALUE=DATE:20190509
 DTEND;VALUE=DATE:20190510
 DESCRIPTION:Observed on Śukla-Pañcamī tithi of Vaiśākhaḥ (lunar) mo
@@ -6042,7 +6042,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Śaṅkara Jayantī #2528
+SUMMARY:Śaṅkara Jayantī
 DTSTART;VALUE=DATE:20190509
 DTEND;VALUE=DATE:20190510
 DESCRIPTION:Observed on Śukla-Pañcamī tithi of Vaiśākhaḥ (lunar) mo
@@ -6074,7 +6074,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kāñchī 40 Jagadguru Śrī Mahādevendra Sarasvatī 2 Ārādhan
- ā #1105
+ ā
 DTSTART;VALUE=DATE:20190510
 DTEND;VALUE=DATE:20190511
 DESCRIPTION:Observed on Śukla-Ṣaṣṭhī tithi of Vaiśākhaḥ (lunar
@@ -6096,7 +6096,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Rāmānuja Jayantī #1003
+SUMMARY:Rāmānuja Jayantī
 DTSTART;VALUE=DATE:20190510
 DTEND;VALUE=DATE:20190511
 DESCRIPTION:Observed on Śukla-Ṣaṣṭhī tithi of Vaiśākhaḥ (lunar
@@ -6129,7 +6129,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Tyāgarāja Jayantī #253
+SUMMARY:Tyāgarāja Jayantī
 DTSTART;VALUE=DATE:20190511
 DTEND;VALUE=DATE:20190512
 DESCRIPTION:Observed on Śukla-Saptamī tithi of Vaiśākhaḥ (lunar) mon
@@ -6184,7 +6184,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kāñchī 26 Jagadguru Śrī Prajñāghanendra Sarasvatī Ārādha
- nā #1456
+ nā
 DTSTART;VALUE=DATE:20190512
 DTEND;VALUE=DATE:20190513
 DESCRIPTION:Observed on Śukla-Aṣṭamī tithi of Vaiśākhaḥ (lunar) 
@@ -6207,7 +6207,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Nêrūr Śrī Sadāśiva Brahmendra Ārādhanā #105
+SUMMARY:Nêrūr Śrī Sadāśiva Brahmendra Ārādhanā
 DTSTART;VALUE=DATE:20190513
 DTEND;VALUE=DATE:20190514
 DESCRIPTION:Observed on Śukla-Daśamī tithi of Vaiśākhaḥ (lunar) mon
@@ -6223,7 +6223,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Purī Govardhana-Maṭha-Pratiṣṭhāpana Jayantī #2504
+SUMMARY:Purī Govardhana-Maṭha-Pratiṣṭhāpana Jayantī
 DTSTART;VALUE=DATE:20190513
 DTEND;VALUE=DATE:20190514
 DESCRIPTION:Observed on Śukla-Navamī tithi of Vaiśākhaḥ (lunar) mont
@@ -6534,7 +6534,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kāñchī 39 Jagadguru Śrī Sachchidvilāsendra Sarasvatī Ārād
- hanā #1147
+ hanā
 DTSTART;VALUE=DATE:20190517
 DTEND;VALUE=DATE:20190518
 DESCRIPTION:Observed on Śukla-Caturdaśī tithi of Vaiśākhaḥ (lunar) 
@@ -6639,7 +6639,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Kāñchī Kāmakoṭi-Maṭha-Pratiṣṭhāpana Jayantī #2501
+SUMMARY:Kāñchī Kāmakoṭi-Maṭha-Pratiṣṭhāpana Jayantī
 DTSTART;VALUE=DATE:20190518
 DTEND;VALUE=DATE:20190519
 DESCRIPTION:Observed on Paurṇamāsī tithi of Vaiśākhaḥ (lunar) mont
@@ -6781,7 +6781,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kāñchī Jagadguru Śrī Chandraśekharendra Sarasvatī 7 Jayant
- ī #126
+ ī
 DTSTART;VALUE=DATE:20190519
 DTEND;VALUE=DATE:20190520
 DESCRIPTION:Observed on Anūrādhā nakṣhatram day of Vṛṣabhaḥ (so
@@ -6816,7 +6816,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kāñchī Jagadguru Śrī Śaṅkara Vijayendra Sarasvatī Āśram
- a-Svīkāra-Jayantī #37
+ a-Svīkāra-Jayantī
 DTSTART;VALUE=DATE:20190521
 DTEND;VALUE=DATE:20190522
 DESCRIPTION:Observed on Mūlā nakṣhatram day of Vṛṣabhaḥ (solar) 
@@ -6920,8 +6920,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Kāñchī 30 Jagadguru Śrī Bodhendra Sarasvatī 2 Ārādhanā #1
- 365
+SUMMARY:Kāñchī 30 Jagadguru Śrī Bodhendra Sarasvatī 2 Ārādhanā
 DTSTART;VALUE=DATE:20190522
 DTEND;VALUE=DATE:20190523
 DESCRIPTION:Observed on Kṛṣṇa-Caturthī tithi of Vaiśākhaḥ (luna
@@ -7060,7 +7059,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kāñchī 7 Jagadguru Śrī Ānandajñānendra Sarasvatī Ārādha
- nā #2074
+ nā
 DTSTART;VALUE=DATE:20190527
 DTEND;VALUE=DATE:20190528
 DESCRIPTION:Observed on Kṛṣṇa-Navamī tithi of Vaiśākhaḥ (lunar)
@@ -7205,7 +7204,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kāñchī 3 Jagadguru Śrī Sarvajñātmendra Sarasvatī Ārādhan
- ā #2383
+ ā
 DTSTART;VALUE=DATE:20190602
 DTEND;VALUE=DATE:20190603
 DESCRIPTION:Observed on Kṛṣṇa-Caturdaśī tithi of Vaiśākhaḥ (lu
@@ -7582,7 +7581,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kāñchī 50 Jagadguru Śrī Chandrachūḍendra Sarasvatī 2 Ār
- ādhanā #723
+ ādhanā
 DTSTART;VALUE=DATE:20190608
 DTEND;VALUE=DATE:20190609
 DESCRIPTION:Observed on Śukla-Ṣaṣṭhī tithi of Jyaiṣṭhaḥ (lun
@@ -7606,7 +7605,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kāñchī 6 Jagadguru Śrī Śuddhānandendra Sarasvatī Ārādhan
- ā #2143
+ ā
 DTSTART;VALUE=DATE:20190608
 DTEND;VALUE=DATE:20190609
 DESCRIPTION:Observed on Śukla-Ṣaṣṭhī tithi of Jyaiṣṭhaḥ (lun
@@ -7684,7 +7683,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kāñchī 23 Jagadguru Śrī Sachchitsukhendra Sarasvatī Ārādha
- nā #1508
+ nā
 DTSTART;VALUE=DATE:20190609
 DTEND;VALUE=DATE:20190610
 DESCRIPTION:Observed on Śukla-Saptamī tithi of Jyaiṣṭhaḥ (lunar) m
@@ -7809,7 +7808,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kāñchī 16 Jagadguru Śrī Ujjvala Śaṅkarendra Sarasvatī Ār
- ādhanā #1653
+ ādhanā
 DTSTART;VALUE=DATE:20190610
 DTEND;VALUE=DATE:20190611
 DESCRIPTION:Observed on Śukla-Aṣṭamī tithi of Jyaiṣṭhaḥ (lunar
@@ -7850,7 +7849,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kāñchī 61 Jagadguru Śrī Mahādevendra Sarasvatī 4 Ārādhan
- ā #274
+ ā
 DTSTART;VALUE=DATE:20190611
 DTEND;VALUE=DATE:20190612
 DESCRIPTION:Observed on Śukla-Navamī tithi of Jyaiṣṭhaḥ (lunar) mo
@@ -7945,7 +7944,6 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kāñchī 17 Jagadguru Śrī Sadāśivendra Sarasvatī Ārādhanā
-  #1645
 DTSTART;VALUE=DATE:20190612
 DTEND;VALUE=DATE:20190613
 DESCRIPTION:Observed on Śukla-Daśamī tithi of Jyaiṣṭhaḥ (lunar) m
@@ -7968,7 +7966,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kāñchī 53 Jagadguru Śrī Pūrṇānanda Sadāśivendra Sarasva
- tī Ārādhanā #522
+ tī Ārādhanā
 DTSTART;VALUE=DATE:20190612
 DTEND;VALUE=DATE:20190613
 DESCRIPTION:Observed on Śukla-Daśamī tithi of Jyaiṣṭhaḥ (lunar) m
@@ -8021,7 +8019,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kāñchī 1 Jagadguru Śrī Ādi-Śaṅkara Bhagavatpāda Ārādha
- nā #2495
+ nā
 DTSTART;VALUE=DATE:20190613
 DTEND;VALUE=DATE:20190614
 DESCRIPTION:Observed on Śukla-Ekādaśī tithi of Vṛṣabhaḥ (solar) 
@@ -8112,7 +8110,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Kāñchī 2 Jagadguru Śrī Sureśvarāchārya Ārādhanā #2425
+SUMMARY:Kāñchī 2 Jagadguru Śrī Sureśvarāchārya Ārādhanā
 DTSTART;VALUE=DATE:20190614
 DTEND;VALUE=DATE:20190615
 DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Jyaiṣṭhaḥ (lunar)
@@ -8247,7 +8245,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Vidyāraṇya Svāmī Ārādhanā #628
+SUMMARY:Vidyāraṇya Svāmī Ārādhanā
 DTSTART;VALUE=DATE:20190615
 DTEND;VALUE=DATE:20190616
 DESCRIPTION:Observed on Śukla-Trayodaśī tithi of Jyaiṣṭhaḥ (lunar
@@ -8846,7 +8844,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kāñchī 25 Jagadguru Śrī Sachchidānandaghanendra Sarasvatī 
- Ārādhanā #1472
+ Ārādhanā
 DTSTART;VALUE=DATE:20190703
 DTEND;VALUE=DATE:20190704
 DESCRIPTION:Observed on Śukla-Prathamā tithi of Āṣāḍhaḥ (lunar) 
@@ -9059,8 +9057,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Kāñchī 35 Jagadguru Śrī Chitsukhendra Sarasvatī Ārādhanā 
- #1283
+SUMMARY:Kāñchī 35 Jagadguru Śrī Chitsukhendra Sarasvatī Ārādhanā
 DTSTART;VALUE=DATE:20190707
 DTEND;VALUE=DATE:20190708
 DESCRIPTION:Observed on Śukla-Ṣaṣṭhī tithi of Āṣāḍhaḥ (lun
@@ -9244,7 +9241,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kāñchī 12 Jagadguru Śrī Chandraśekharendra Sarasvatī Ārād
- hanā #1785
+ hanā
 DTSTART;VALUE=DATE:20190710
 DTEND;VALUE=DATE:20190711
 DESCRIPTION:Observed on Śukla-Navamī tithi of Āṣāḍhaḥ (lunar) mo
@@ -9368,7 +9365,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kāñchī 48 Jagadguru Śrī Advaitānandabodhendra Sarasvatī Ār
- ādhanā #820
+ ādhanā
 DTSTART;VALUE=DATE:20190711
 DTEND;VALUE=DATE:20190712
 DESCRIPTION:Observed on Śukla-Daśamī tithi of Āṣāḍhaḥ (lunar) m
@@ -9479,7 +9476,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kāñchī 31 Jagadguru Śrī Brahmānandaghanendra Sarasvatī Ār
- ādhanā #1352
+ ādhanā
 DTSTART;VALUE=DATE:20190713
 DTEND;VALUE=DATE:20190714
 DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Āṣāḍhaḥ (lunar)
@@ -9503,7 +9500,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kāñchī 63 Jagadguru Śrī Mahādevendra Sarasvatī 5 Ārādhan
- ā #206
+ ā
 DTSTART;VALUE=DATE:20190713
 DTEND;VALUE=DATE:20190714
 DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Āṣāḍhaḥ (lunar)
@@ -9663,7 +9660,6 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kāñchī 10 Jagadguru Śrī Sureśvarendra Sarasvatī Ārādhanā
-  #1893
 DTSTART;VALUE=DATE:20190716
 DTEND;VALUE=DATE:20190717
 DESCRIPTION:Observed on Paurṇamāsī tithi of Āṣāḍhaḥ (lunar) mo
@@ -9804,7 +9800,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kāñchī 54 Jagadguru Śrī Vyāsāchala Mahādevendra Sarasvatī
-  Ārādhanā #513
+  Ārādhanā
 DTSTART;VALUE=DATE:20190717
 DTEND;VALUE=DATE:20190718
 DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of Āṣāḍhaḥ (lu
@@ -9935,6 +9931,23 @@ DTEND;VALUE=DATE:20190720
 DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/other
  /month-weekday-festivals#āḍi-vêḻḻikkiḽamai<br/><br/>#MonthWeekda
  yFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Kāñchī Jagadguru Śrī Jayendra Sarasvatī Jayantī
+DTSTART;VALUE=DATE:20190719
+DTEND;VALUE=DATE:20190720
+DESCRIPTION:Observed on Śraviṣṭhā nakṣhatram day of Kaṭakaḥ (s
+ olar) month (praatah/paraviddha).<br/><br/><br/>https://github.com/sanskri
+ t-coders/adyatithi/tree/master/sidereal_solar_month/nakshatra/04/23#kāñc
+ hī-jagadguru-śrī-jayendra-sarasvatī-jayantī<br/><br/>#MahapurushaEven
+ ts #CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10214,7 +10227,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kāñchī 38 Jagadguru Śrī Abhinavaśaṅkarendra Sarasvatī Ār
- ādhanā #1180
+ ādhanā
 DTSTART;VALUE=DATE:20190731
 DTEND;VALUE=DATE:20190801
 DESCRIPTION:Observed on Amāvāsyā tithi of Āṣāḍhaḥ (lunar) month
@@ -10238,7 +10251,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kāñchī 46 Jagadguru Śrī Sāndrānandabodhendra Sarasvatī Ār
- ādhanā #922
+ ādhanā
 DTSTART;VALUE=DATE:20190731
 DTEND;VALUE=DATE:20190801
 DESCRIPTION:Observed on Amāvāsyā tithi of Āṣāḍhaḥ (lunar) month
@@ -10309,7 +10322,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kāñchī 41 Jagadguru Śrī Gaṅgādharendra Sarasvatī 2 Ārād
- hanā #1070
+ hanā
 DTSTART;VALUE=DATE:20190801
 DTEND;VALUE=DATE:20190802
 DESCRIPTION:Observed on Śukla-Prathamā tithi of Śrāvaṇaḥ (lunar) m
@@ -10799,7 +10812,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kāñchī 57 Jagadguru Śrī Paramaśivendra Sarasvatī 2 Ārādha
- nā #434
+ nā
 DTSTART;VALUE=DATE:20190809
 DTEND;VALUE=DATE:20190810
 DESCRIPTION:Observed on Śukla-Daśamī tithi of Śrāvaṇaḥ (lunar) mo
@@ -10838,7 +10851,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Seṅgālipuram Anantarāma-Dīkṣita-Jayantī #117
+SUMMARY:Seṅgālipuram Anantarāma-Dīkṣita-Jayantī
 DTSTART;VALUE=DATE:20190809
 DTEND;VALUE=DATE:20190810
 DESCRIPTION:Observed on Anūrādhā nakṣhatram day of Kaṭakaḥ (solar
@@ -10872,7 +10885,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kāñchī 29 Jagadguru Śrī Pūrṇabodhendra Sarasvatī Ārādha
- nā #1402
+ nā
 DTSTART;VALUE=DATE:20190810
 DTEND;VALUE=DATE:20190811
 DESCRIPTION:Observed on Śukla-Ekādaśī tithi of Śrāvaṇaḥ (lunar) 
@@ -11182,7 +11195,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kāñchī 20 Jagadguru Śrī Mūkaśaṅkarendra Sarasvatī Ārād
- hanā #1583
+ hanā
 DTSTART;VALUE=DATE:20190815
 DTEND;VALUE=DATE:20190816
 DESCRIPTION:Observed on Paurṇamāsī tithi of Śrāvaṇaḥ (lunar) mon
@@ -11352,7 +11365,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Kāñchī Jagadguru Śrī Jayendra Sarasvatī Jayantī #85
+SUMMARY:Kāñchī Jagadguru Śrī Jayendra Sarasvatī Jayantī
 DTSTART;VALUE=DATE:20190816
 DTEND;VALUE=DATE:20190817
 DESCRIPTION:Observed on Śraviṣṭhā nakṣhatram day of Kaṭakaḥ (s
@@ -11437,7 +11450,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Śrī Rāghavendra Svāmī Ārādhanā #348
+SUMMARY:Śrī Rāghavendra Svāmī Ārādhanā
 DTSTART;VALUE=DATE:20190817
 DTEND;VALUE=DATE:20190818
 DESCRIPTION:Observed on Kṛṣṇa-Dvitīyā tithi of Śrāvaṇaḥ (lun
@@ -11539,6 +11552,19 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Heramba-Mahāgaṇapati Saṅkaṭahara-Chaturthī-Vratam
+DTSTART;VALUE=DATE:20190819
+DTEND;VALUE=DATE:20190820
+DESCRIPTION:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Rakṣā Pañchamī
 DTSTART;VALUE=DATE:20190820
 DTEND;VALUE=DATE:20190821
@@ -11574,7 +11600,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kāñchī 21 Jagadguru Śrī Sārvabhaumaguruḥ Chandrachūḍend
- ra Sarasvatī Ārādhanā #1573
+ ra Sarasvatī Ārādhanā
 DTSTART;VALUE=DATE:20190823
 DTEND;VALUE=DATE:20190824
 DESCRIPTION:Observed on Kṛṣṇa-Aṣṭamī tithi of Śrāvaṇaḥ (l
@@ -11665,8 +11691,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Kāñchī 24 Jagadguru Śrī Chitsukhendra Sarasvatī Ārādhanā 
- #1493
+SUMMARY:Kāñchī 24 Jagadguru Śrī Chitsukhendra Sarasvatī Ārādhanā
 DTSTART;VALUE=DATE:20190824
 DTEND;VALUE=DATE:20190825
 DESCRIPTION:Observed on Kṛṣṇa-Navamī tithi of Śrāvaṇaḥ (lunar
@@ -13165,7 +13190,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kāñchī 59 Jagadguru Śrī Bhagavannāma Bodhendra Sarasvatī Ā
- rādhanā #328
+ rādhanā
 DTSTART;VALUE=DATE:20190913
 DTEND;VALUE=DATE:20190914
 DESCRIPTION:Observed on Paurṇamāsī tithi of Bhādrapadaḥ (lunar) mon
@@ -13585,7 +13610,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kāñchī 33 Jagadguru Śrī Sachchidānandaghanendra Sarasvatī 2
-  Ārādhanā #1328
+  Ārādhanā
 DTSTART;VALUE=DATE:20190920
 DTEND;VALUE=DATE:20190921
 DESCRIPTION:Observed on Kṛṣṇa-Ṣaṣṭhī tithi of Bhādrapadaḥ 
@@ -13891,7 +13916,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kāñchī 44 Jagadguru Śrī Pūrṇabodhendra Sarasvatī 2 Ārād
- hanā #980
+ hanā
 DTSTART;VALUE=DATE:20190926
 DTEND;VALUE=DATE:20190927
 DESCRIPTION:Observed on Kṛṣṇa-Trayodaśī tithi of Bhādrapadaḥ (l
@@ -14336,7 +14361,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kāñchī 45 Jagadguru Śrī Paramaśivendra Sarasvatī 1 Ārādha
- nā #959
+ nā
 DTSTART;VALUE=DATE:20191004
 DTEND;VALUE=DATE:20191005
 DESCRIPTION:Observed on Śukla-Saptamī tithi of Āśvayujaḥ (lunar) mon
@@ -14462,7 +14487,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kāñchī 19 Jagadguru Śrī Mārtāṇḍa Vidyāghanendra Sarasv
- atī Ārādhanā #1622
+ atī Ārādhanā
 DTSTART;VALUE=DATE:20191006
 DTEND;VALUE=DATE:20191007
 DESCRIPTION:Observed on Śukla-Navamī tithi of Āśvayujaḥ (lunar) mont
@@ -14715,7 +14740,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Madhvāchārya Jayantī #782
+SUMMARY:Madhvāchārya Jayantī
 DTSTART;VALUE=DATE:20191008
 DTEND;VALUE=DATE:20191009
 DESCRIPTION:Observed on Śukla-Daśamī tithi of Āśvayujaḥ (lunar) mon
@@ -14915,7 +14940,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kāñchī 36 Jagadguru Śrī Chitsukhānandendra Sarasvatī Ārād
- hanā #1262
+ hanā
 DTSTART;VALUE=DATE:20191013
 DTEND;VALUE=DATE:20191014
 DESCRIPTION:Observed on Paurṇamāsī tithi of Āśvayujaḥ (lunar) mont
@@ -15028,7 +15053,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Mīrābāī Jayantī #522
+SUMMARY:Mīrābāī Jayantī
 DTSTART;VALUE=DATE:20191013
 DTEND;VALUE=DATE:20191014
 DESCRIPTION:Observed on Paurṇamāsī tithi of Āśvayujaḥ (lunar) mont
@@ -15111,7 +15136,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Appayya-Dīkṣita-Jayantī #501
+SUMMARY:Appayya-Dīkṣita-Jayantī
 DTSTART;VALUE=DATE:20191014
 DTEND;VALUE=DATE:20191015
 DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of Kanyā (solar) mont
@@ -15421,7 +15446,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Seṅgālipuram Anantarāma-Dīkṣita-Ārādhanā #50
+SUMMARY:Seṅgālipuram Anantarāma-Dīkṣita-Ārādhanā
 DTSTART;VALUE=DATE:20191019
 DTEND;VALUE=DATE:20191020
 DESCRIPTION:Observed on Kṛṣṇa-Ṣaṣṭhī tithi of Tulā (solar) m
@@ -16452,7 +16477,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kāñchī 22 Jagadguru Śrī Paripūrṇabodhendra Sarasvatī Ār
- ādhanā #1539
+ ādhanā
 DTSTART;VALUE=DATE:20191105
 DTEND;VALUE=DATE:20191106
 DESCRIPTION:Observed on Śukla-Navamī tithi of Kārttikaḥ (lunar) month
@@ -17152,7 +17177,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kāñchī 64 Jagadguru Śrī Chandraśekharendra Sarasvatī 5 Ār
- ādhanā #169
+ ādhanā
 DTSTART;VALUE=DATE:20191113
 DTEND;VALUE=DATE:20191114
 DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of Kārttikaḥ (lunar
@@ -17230,7 +17255,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kāñchī 9 Jagadguru Śrī Kṛpāśaṅkarendra Sarasvatī Ārā
- dhanā #1951
+ dhanā
 DTSTART;VALUE=DATE:20191115
 DTEND;VALUE=DATE:20191116
 DESCRIPTION:Observed on Kṛṣṇa-Tṛtīyā tithi of Kārttikaḥ (luna
@@ -17512,7 +17537,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kāñchī 42 Jagadguru Śrī Brahmānandaghanendra Sarasvatī 2 Ā
- rādhanā #1042
+ rādhanā
 DTSTART;VALUE=DATE:20191120
 DTEND;VALUE=DATE:20191121
 DESCRIPTION:Observed on Kṛṣṇa-Aṣṭamī tithi of Kārttikaḥ (lun
@@ -17536,7 +17561,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kāñchī 49 Jagadguru Śrī Mahādevendra Sarasvatī 3 Ārādhan
- ā #773
+ ā
 DTSTART;VALUE=DATE:20191120
 DTEND;VALUE=DATE:20191121
 DESCRIPTION:Observed on Kṛṣṇa-Aṣṭamī tithi of Kārttikaḥ (lun
@@ -17560,7 +17585,6 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kāñchī 58 Jagadguru Śrī Ātmabodhendra Sarasvatī Ārādhanā
-  #382
 DTSTART;VALUE=DATE:20191120
 DTEND;VALUE=DATE:20191121
 DESCRIPTION:Observed on Kṛṣṇa-Aṣṭamī tithi of Kārttikaḥ (lun
@@ -17601,7 +17625,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kāñchī 28 Jagadguru Śrī Mahādevendra Sarasvatī 1 Ārādhan
- ā #1419
+ ā
 DTSTART;VALUE=DATE:20191121
 DTEND;VALUE=DATE:20191122
 DESCRIPTION:Observed on Kṛṣṇa-Daśamī tithi of Kārttikaḥ (lunar)
@@ -17945,7 +17969,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kāñchī 18 Jagadguru Śrī Yogatilaka Surendra Sarasvatī Ārād
- hanā #1635
+ hanā
 DTSTART;VALUE=DATE:20191127
 DTEND;VALUE=DATE:20191128
 DESCRIPTION:Observed on Śukla-Prathamā tithi of Mārgaśīrṣaḥ (luna
@@ -18098,7 +18122,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kāñchī 32 Jagadguru Śrī Chidānandaghanendra Sarasvatī Ārā
- dhanā #1348
+ dhanā
 DTSTART;VALUE=DATE:20191202
 DTEND;VALUE=DATE:20191203
 DESCRIPTION:Observed on Śukla-Ṣaṣṭhī tithi of Mārgaśīrṣaḥ (
@@ -18175,7 +18199,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kāñchī 5 Jagadguru Śrī Jñānānandendra Sarasvatī Ārādhan
- ā #2224
+ ā
 DTSTART;VALUE=DATE:20191203
 DTEND;VALUE=DATE:20191204
 DESCRIPTION:Observed on Śukla-Saptamī tithi of Mārgaśīrṣaḥ (lunar
@@ -18629,7 +18653,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kāñchī 13 Jagadguru Śrī Sachchidghanendra Sarasvatī Ārādha
- nā #1748
+ nā
 DTSTART;VALUE=DATE:20191212
 DTEND;VALUE=DATE:20191213
 DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of Mārgaśīrṣaḥ 
@@ -18720,7 +18744,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Nārāyaṇīyaṃ Jayantī #434
+SUMMARY:Nārāyaṇīyaṃ Jayantī
 DTSTART;VALUE=DATE:20191214
 DTEND;VALUE=DATE:20191215
 DESCRIPTION:Observed on day 28 of Vṛścikaḥ (solar) month (sunrise (de
@@ -18870,8 +18894,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Kāñchī 4 Jagadguru Śrī Satyabodhendra Sarasvatī Ārādhanā 
- #2287
+SUMMARY:Kāñchī 4 Jagadguru Śrī Satyabodhendra Sarasvatī Ārādhanā
 DTSTART;VALUE=DATE:20191219
 DTEND;VALUE=DATE:20191220
 DESCRIPTION:Observed on Kṛṣṇa-Aṣṭamī tithi of Mārgaśīrṣa
@@ -18926,7 +18949,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Śrī Śeṣādri-Svāmī Ārādhanā #91
+SUMMARY:Śrī Śeṣādri-Svāmī Ārādhanā
 DTSTART;VALUE=DATE:20191220
 DTEND;VALUE=DATE:20191221
 DESCRIPTION:Observed on Kṛṣṇa-Navamī tithi of Mārgaśīrṣaḥ (l
@@ -18990,7 +19013,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kāñchī 68 Jagadguru Śrī Chandraśekharendra Sarasvatī 7 Ār
- ādhanā #26
+ ādhanā
 DTSTART;VALUE=DATE:20191223
 DTEND;VALUE=DATE:20191224
 DESCRIPTION:Observed on Kṛṣṇa-Dvādaśī tithi of Mārgaśīrṣaḥ
@@ -19046,7 +19069,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kāñchī 14 Jagadguru Śrī Vidyāghanendra Sarasvatī Ārādhan
- ā #1703
+ ā
 DTSTART;VALUE=DATE:20191225
 DTEND;VALUE=DATE:20191226
 DESCRIPTION:Observed on Amāvāsyā tithi of Mārgaśīrṣaḥ (lunar) mo
@@ -19069,7 +19092,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kāñchī 34 Jagadguru Śrī Chandraśekharendra Sarasvatī 2 Ār
- ādhanā #1310
+ ādhanā
 DTSTART;VALUE=DATE:20191225
 DTEND;VALUE=DATE:20191226
 DESCRIPTION:Observed on Amāvāsyā tithi of Mārgaśīrṣaḥ (lunar) mo

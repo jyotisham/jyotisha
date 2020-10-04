@@ -404,7 +404,7 @@ def writeDailyICS(panchaanga, script=sanscript.DEVANAGARI, compute_lagnams=True)
     # Using set as an ugly workaround since we may have sometimes assigned the same
     # festival to the same day again!
     fest_list = []
-    for f in sorted(set(daily_panchaanga.festivals)):
+    for f in sorted(daily_panchaanga.festival_id_to_instance.values()):
       fest_name_cleaned = jyotisha.custom_transliteration.tr(f, script).replace('~', ' ').replace('tamil',
                                                                                                              '')
       fest_name_cleaned = re.sub('[{}]', '', fest_name_cleaned).replace('\\', '').replace('textsf', '').replace('To',

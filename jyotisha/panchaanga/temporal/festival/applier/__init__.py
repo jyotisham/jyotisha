@@ -295,7 +295,7 @@ class FestivalAssigner(PeriodicPanchaangaApplier):
                   logging.warning('Not adding festival %s on %d fday (month = %d instead of %d)' % (
                     festival_name, fday, self.daily_panchaangas[fday].lunar_month_sunrise, month_num))
 
-  def assign_festival_numbers(self, festival_rules, debug_festivals=False):
+  def assign_festival_numbers(self):
     # Update festival numbers if they exist
     solar_y_start_d = []
     lunar_y_start_d = []
@@ -306,13 +306,14 @@ class FestivalAssigner(PeriodicPanchaangaApplier):
         lunar_y_start_d.append(d)
 
     period_start_year = self.panchaanga.start_date.year
-    for festival_name in festival_rules:
-      if festival_name in self.panchaanga.festival_id_to_days and festival_rules[festival_name].timing.year_start is not None:
-        fest_start_year = festival_rules[festival_name].timing.year_start
-        month_type = festival_rules[festival_name].timing.month_type
+    from jyotisha.panchaanga.temporal.festival.rules import festival_rules_all
+    for festival_name in festival_rules_all:
+      if festival_name in self.panchaanga.festival_id_to_days and festival_rules_all[festival_name].timing.year_start is not None:
+        fest_start_year = festival_rules_all[festival_name].timing.year_start
+        month_type = festival_rules_all[festival_name].timing.month_type
         if len(self.panchaanga.festival_id_to_days[festival_name]) > 1:
           if self.panchaanga.festival_id_to_days[festival_name][1] - self.panchaanga.festival_id_to_days[festival_name][0] < 300:
-            # Lunar festivals can repeat after 354 days; Solar festivals "can" repeat after 330 days
+            # Lunar festival_id_to_instance can repeat after 354 days; Solar festival_id_to_instance "can" repeat after 330 days
             # (last day of Dhanur masa Jan and first day of Dhanur masa Dec may have same nakshatra and are about 335 days apart)
             # In fact they will be roughly 354 days apart, again!
             logging.warning('Multiple occurrences of festival %s within year. Check?: %s' % (
@@ -325,7 +326,7 @@ class FestivalAssigner(PeriodicPanchaangaApplier):
               if assigned_day_index >= start_day:
                 fest_num += 1
           elif month_type == 'lunar_month':
-            if festival_rules[festival_name].timing.anga_number == 1 and festival_rules[festival_name].timing.month_number == 1:
+            if festival_rules_all[festival_name].timing.anga_number == 1 and festival_rules_all[festival_name].timing.month_number == 1:
               # Assigned day may be less by one, since prathama may have started after sunrise
               # Still assume assigned_day >= lunar_y_start_d!
               fest_num = period_start_year + 3100 - fest_start_year + 1
@@ -340,20 +341,7 @@ class FestivalAssigner(PeriodicPanchaangaApplier):
 
           if fest_num <= 0:
             logging.warning('Festival %s is only in the future!' % festival_name)
-          else:
-            if festival_name not in self.panchaanga.festival_id_to_days:
-              logging.warning(
-                'Did not find festival %s to be assigned. Dhanurmasa festival?' % festival_name)
-              continue
-            festival_name_updated = festival_name + '~\\#{%d}' % fest_num
-            # logging.debug('Changing %s to %s' % (festival_name, festival_name_updated))
-            if festival_name_updated in self.panchaanga.festival_id_to_days:
-              logging.warning('Overwriting festival day for %s %s with %s.' % (
-                festival_name_updated, self.panchaanga.festival_id_to_days[festival_name_updated][0], assigned_day))
-              self.panchaanga.festival_id_to_days[festival_name_updated] = [assigned_day]
-            else:
-              self.panchaanga.festival_id_to_days[festival_name_updated] = [assigned_day]
-        del (self.panchaanga.festival_id_to_days[festival_name])
+          self.panchaanga.date_str_to_panchaanga[assigned_day.get_date_str()].festival_id_to_instance[festival_name].ordinal = fest_num
 
   def cleanup_festivals(self, debug=False):
     # If tripurotsava coincides with maha kArttikI (kRttikA nakShatram)
@@ -366,7 +354,7 @@ class FestivalAssigner(PeriodicPanchaangaApplier):
         logging.warning('Removing mahA~kArttikI (%s) since it does not coincide with tripurOtsavaH (%s)' % (
           self.panchaanga.festival_id_to_days['tripurOtsavaH'][0], self.panchaanga.festival_id_to_days['mahA~kArttikI'][0]))
         del self.panchaanga.festival_id_to_days['mahA~kArttikI']
-        # An error here implies the festivals were not assigned: adhika
+        # An error here implies the festival_id_to_instance were not assigned: adhika
         # mAsa calc errors??
 
 
@@ -382,7 +370,6 @@ class MiscFestivalAssigner(FestivalAssigner):
 
     assert "tripurOtsavaH" in festival_rules
     self.assign_festivals_from_rules(festival_rules, debug_festivals=debug)
-    self.assign_festival_numbers(festival_rules, debug_festivals=debug)
     
 
   def assign_agni_nakshatra(self, debug_festivals=False):
@@ -411,10 +398,10 @@ class MiscFestivalAssigner(FestivalAssigner):
             self.add_festival('agninakSatra-samApanam', d + 1)
 
   def assign_relative_festivals(self):
-    # Add "RELATIVE" festivals --- festivals that happen before or
-    # after other festivals with an exact timedelta!
+    # Add "RELATIVE" festival_id_to_instance --- festival_id_to_instance that happen before or
+    # after other festival_id_to_instance with an exact timedelta!
     if 'yajurvEda-upAkarma' not in self.panchaanga.festival_id_to_days:
-      logging.error('yajurvEda-upAkarma not in festivals!')
+      logging.error('yajurvEda-upAkarma not in festival_id_to_instance!')
     else:
       # Extended for longer calendars where more than one upAkarma may be there
       self.panchaanga.festival_id_to_days['varalakSmI-vratam'] = []

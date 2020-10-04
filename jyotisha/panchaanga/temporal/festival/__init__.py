@@ -16,10 +16,11 @@ festival_id_to_json = {}
 
 
 class FestivalInstance(common.JsonObject):
-  def __init__(self, name, interval=None, exclude=None):
+  def __init__(self, name, interval=None, ordinal=None, exclude=None):
     self.name = name
     self.interval = interval
     self.exclude = exclude
+    self.ordinal = ordinal
 
   def get_human_names(self):
     from jyotisha.panchaanga.temporal.festival import rules
@@ -49,6 +50,9 @@ class FestivalInstance(common.JsonObject):
       name = '\\tamil{%s}' % name_details["text"]
     else:
       name = name_details["text"]
+
+    if self.ordinal is not None:
+      name = name + "~\\#{%s}" % custom_transliteration.tr(str(self.ordinal), script=scripts[0])
 
     if self.interval is None:
       return name

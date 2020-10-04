@@ -304,7 +304,7 @@ def emit(panchaanga, time_format="hh:mm", scripts=[sanscript.DEVANAGARI], comput
     # festival to the same day again!
     print('{%s}' % '\\eventsep '.join(
       [f.tex_code(scripts=scripts, timezone=Timezone(timezone_id=panchaanga.city.timezone)) for f in
-       sorted(set(daily_panchaanga.festivals))]), file=output_stream)
+       sorted(daily_panchaanga.festival_id_to_instance.values())]), file=output_stream)
 
     print('{%s} ' % WDAY[daily_panchaanga.date.get_weekday()], file=output_stream)
     print('\\cfoot{\\rygdata{%s}{%s}{%s}}' % (rahu, yama, gulika), file=output_stream)

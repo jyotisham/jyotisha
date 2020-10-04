@@ -55,10 +55,9 @@ def compute_calendar(panchaanga, scripts=[sanscript.DEVANAGARI], all_tags=True, 
     daily_panchaanga = daily_panchaangas[d]
     [y, m, dt, t] = time.jd_to_utc_gregorian(panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
 
-    if len(daily_panchaanga.festivals) > 0:
-      # Eliminate repeat festivals on the same day, and keep the list arbitrarily sorted
-      daily_panchaanga.festivals = sorted(list(set(daily_panchaanga.festivals)))
-      summary_text = [x.name for x in daily_panchaanga.festivals]
+    if len(daily_panchaanga.festival_id_to_instance) > 0:
+      # Eliminate repeat festival_id_to_instance on the same day, and keep the list arbitrarily sorted
+      summary_text = daily_panchaanga.festival_id_to_instance.keys()
       # this will work whether we have one or more events on the same day
       for stext in sorted(summary_text):
         desc = ''
@@ -167,7 +166,7 @@ def compute_calendar(panchaanga, scripts=[sanscript.DEVANAGARI], all_tags=True, 
           start_d = None
           while check_d > 1:
             check_d -= 1
-            if stext_start in [x.name for x in daily_panchaangas[check_d].festivals]:
+            if stext_start in daily_panchaangas[check_d].festival_id_to_instance.keys():
               start_d = check_d
               break
 
@@ -176,7 +175,7 @@ def compute_calendar(panchaanga, scripts=[sanscript.DEVANAGARI], all_tags=True, 
             check_d = d
             while check_d > 1:
               check_d -= 1
-              for fest_key in [x.name for x in daily_panchaangas[check_d].festivals]:
+              for fest_key in daily_panchaangas[check_d].festival_id_to_instance.keys():
                 if fest_key.startswith(stext_start):
                   logging.debug('Found approx match for %s: %s' % (stext_start, fest_key))
                   start_d = check_d

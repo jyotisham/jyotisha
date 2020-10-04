@@ -215,8 +215,8 @@ def compute_events(panchaanga, json_file):
 
   for festival_name in panchaanga.festival_id_to_days:
     for j in range(0, len(panchaanga.festival_id_to_days[festival_name])):
-      panchaanga.date_str_to_panchaanga[panchaanga.festival_id_to_days[festival_name][j].get_date_str()].festivals.append(FestivalInstance(
-        name=festival_name))
+      panchaanga.date_str_to_panchaanga[panchaanga.festival_id_to_days[festival_name][j].get_date_str()].festival_id_to_instance[festival_name] = FestivalInstance(
+        name=festival_name)
 
 
 def computeIcsCalendar(panchaanga, ics_file_name):
@@ -226,11 +226,9 @@ def computeIcsCalendar(panchaanga, ics_file_name):
     daily_panchaanga = daily_panchaangas[d]
     [y, m, dt, t] = time.jd_to_utc_gregorian(panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
 
-    if len(daily_panchaanga.festivals) > 0:
-      # Eliminate repeat festivals on the same day, and keep the list arbitrarily sorted
-      daily_panchaanga.festivals = sorted(list(set(daily_panchaanga.festivals)))
+    if len(daily_panchaanga.festival_id_to_instance) > 0:
 
-      summary_text = daily_panchaanga.festivals
+      summary_text = daily_panchaanga.festival_id_to_instance.keys()
       # this will work whether we have one or more events on the same day
       for stext in summary_text:
         if not stext.find('>>') == -1:
