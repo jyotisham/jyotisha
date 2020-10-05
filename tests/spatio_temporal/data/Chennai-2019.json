@@ -12,8 +12,7 @@
     "jsonClass": "ComputationSystem",
     "lunar_month_assigner_type": "MULTI_NEW_MOON_SOLAR_MONTH_ADHIKA",
     "options": {
-      "jsonClass": "ComputationOptions",
-      "lagnas": false
+      "jsonClass": "ComputationOptions"
     }
   },
   "date_str_to_panchaanga": {
