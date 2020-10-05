@@ -335,6 +335,24 @@ def get_tithis_in_period(jd_start, jd_end, tithi):
   return new_moon_jds
 
 
+def get_tropical_month(jd):
+  nd = NakshatraDivision(julday=jd, ayanaamsha_id=Ayanamsha.ASHVINI_STARTING_0)
+  return nd.get_anga(anga_type=AngaType.SOLAR_MONTH)
+
+
+def get_previous_solstice(jd):
+  tropical_month = get_tropical_month(jd=jd)
+  if tropical_month >= 4 and tropical_month < 10:
+    target_month = 4
+  else:
+    target_month = 10
+  months_past_solstice = (tropical_month - target_month) % 12
+  jd1 = jd - (months_past_solstice * 30 + months_past_solstice + 30)
+  jd2 = jd - (months_past_solstice * 30 + months_past_solstice) + 30
+  anga_span_finder = AngaSpanFinder(ayanaamsha_id=Ayanamsha.ASHVINI_STARTING_0, anga_type=AngaType.SOLAR_MONTH)
+  return anga_span_finder.find(jd1=jd1, jd2=jd2, target_anga_id=target_month)
+
+
 
 
 if __name__ == '__main__':

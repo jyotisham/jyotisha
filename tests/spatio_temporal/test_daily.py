@@ -1,8 +1,6 @@
 import logging
-import math
 
 import numpy.testing
-
 import tests.spatio_temporal
 from jyotisha.panchaanga.spatio_temporal import City
 from jyotisha.panchaanga.spatio_temporal import daily
@@ -70,26 +68,6 @@ def test_tb_muhuurta_blr():
   assert panchaanga.day_length_based_periods.tb_muhuurtas[0].jd_start == panchaanga.jd_sunrise
   for muhurta in panchaanga.day_length_based_periods.tb_muhuurtas:
     logging.info(muhurta.to_localized_string(city=city))
-
-
-def test_get_previous_solstice():
-  panchaanga = daily.DailyPanchaanga.from_city_and_julian_day(
-    city=tests.spatio_temporal.chennai, julian_day=time.utc_gregorian_to_jd(Date(2018, 1, 14)))
-  solstice = panchaanga.get_previous_solstice()
-  expected_jd_start = time.utc_gregorian_to_jd(date=Date(year=2017, month=12, day=21, hour=16, minute=28))
-  numpy.testing.assert_approx_equal(solstice.jd_start, expected_jd_start, significant=4)
-
-  panchaanga = daily.DailyPanchaanga.from_city_and_julian_day(
-    city=tests.spatio_temporal.chennai, julian_day=time.utc_gregorian_to_jd(Date(2018, 3, 14)))
-  solstice = panchaanga.get_previous_solstice()
-  expected_jd_start = time.utc_gregorian_to_jd(date=Date(year=2017, month=12, day=21, hour=16, minute=28))
-  numpy.testing.assert_approx_equal(solstice.jd_start, expected_jd_start, significant=4)
-
-  panchaanga = daily.DailyPanchaanga.from_city_and_julian_day(
-    city=tests.spatio_temporal.chennai, julian_day=time.utc_gregorian_to_jd(Date(2018, 7, 14)))
-  solstice = panchaanga.get_previous_solstice()
-  expected_jd_start = time.utc_gregorian_to_jd(date=Date(year=2018, month=6, day=20, hour=21, minute=44))
-  numpy.testing.assert_approx_equal(solstice.jd_start, expected_jd_start, significant=4)
 
 
 def test_jd_start_orinda_ca():

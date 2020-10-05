@@ -192,6 +192,7 @@ class DailyPanchaanga(common.JsonObject):
     if previous_day_panchaanga is not None:
       tropical_date_sunset_day = previous_day_panchaanga.tropical_date_sunset.day + 1
       tropical_date_sunset_month = previous_day_panchaanga.tropical_date_sunset.month
+    
     if previous_day_panchaanga is None or previous_day_panchaanga.tropical_date_sunset.day > 28 :
       nd = zodiac.NakshatraDivision(julday=self.jd_sunset, ayanaamsha_id=Ayanamsha.ASHVINI_STARTING_0)
       fractional_month = nd.get_fractional_division_for_body(body=Graha.singleton(Graha.SUN), anga_type=AngaType.RASHI)
@@ -339,19 +340,6 @@ class DailyPanchaanga(common.JsonObject):
           t_act = approx_end
         angas_list.extend([Interval(name=(anga_now + i - 1) % num_angas + 1, jd_end=t_act, jd_start=None)])
     return angas_list
-
-
-  def get_previous_solstice(self):
-    if self.tropical_date_sunset.month >= 4 and self.tropical_date_sunset.month < 10:
-      target_month = 4
-    else:
-      target_month = 10
-    months_past_solstice = (self.tropical_date_sunset.month - target_month) % 12
-    jd1 = self.jd_sunset - (self.tropical_date_sunset.day + months_past_solstice * 30 + months_past_solstice + 5)
-    jd2 = self.jd_sunset - (self.tropical_date_sunset.day + months_past_solstice * 30 + months_past_solstice) + 30
-    anga_span_finder = AngaSpanFinder(ayanaamsha_id=Ayanamsha.ASHVINI_STARTING_0, anga_type=AngaType.SOLAR_MONTH)
-    return anga_span_finder.find(jd1=jd1, jd2=jd2, target_anga_id=target_month)
-
 
 
 # Essential for depickling to work.

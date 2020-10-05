@@ -27,15 +27,19 @@ class PeriodicPanchaangaApplier(JsonObject):
 
 
 class ComputationOptions(JsonObject):
-  def __init__(self, lagnas=False, fest_ids_included=None, fest_ids_excluded=None, fest_tags_included=None, fest_tags_excluded=None):
+  def __init__(self, lagnas=None, fest_ids_included=None, fest_ids_excluded=None, fest_tags_included=None, fest_tags_excluded=None):
     self.lagnas = lagnas
     self.fest_ids_excluded = fest_ids_excluded
-    self.fest_ids_included = fest_ids_excluded
+    self.fest_ids_included = fest_ids_included
     self.fest_tags_excluded = fest_tags_excluded
     self.fest_tags_included = fest_tags_included
 
 
 class ComputationSystem(JsonObject):
+  MULTI_NEW_MOON_SOLAR_MONTH_ADHIKA__CHITRA_180 = None
+  SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_180 = None
+  MIN_SOLARCOMPUTATION__CHITRA_180 = None
+
   def __init__(self, lunar_month_assigner_type, ayanaamsha_id, computation_options=ComputationOptions()):
     self.lunar_month_assigner_type = lunar_month_assigner_type
     self.ayanaamsha_id = ayanaamsha_id
@@ -50,8 +54,9 @@ def set_constants():
   from jyotisha.panchaanga.temporal.zodiac import Ayanamsha
   ComputationSystem.MULTI_NEW_MOON_SOLAR_MONTH_ADHIKA__CHITRA_180 = ComputationSystem(lunar_month_assigner_type=LunarMonthAssigner.MULTI_NEW_MOON_SOLAR_MONTH_ADHIKA, ayanaamsha_id=Ayanamsha.CHITRA_AT_180)
   ComputationSystem.SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_180 = ComputationSystem(lunar_month_assigner_type=LunarMonthAssigner.SOLSTICE_POST_DARK_10_ADHIKA, ayanaamsha_id=Ayanamsha.CHITRA_AT_180)
+  ComputationSystem.MIN_SOLARCOMPUTATION__CHITRA_180 = ComputationSystem(lunar_month_assigner_type=None, ayanaamsha_id=Ayanamsha.CHITRA_AT_180)
   
-
+set_constants()
 
 # Essential for depickling to work.
 common.update_json_class_index(sys.modules[__name__])
