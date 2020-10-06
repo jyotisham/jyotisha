@@ -406,9 +406,12 @@ DATA_ROOT = os.path.join(os.path.dirname(__file__), "data")
 class RulesRepo(common.JsonObject):
   def __init__(self, name, path=None, base_url='https://github.com/sanskrit-coders/adyatithi/tree/master'):
     self.name = name
-    self.path = path if path is not None else os.path.join(DATA_ROOT, name)
+    self.path = path
     self.base_url = os.path.join(base_url, name)
 
+  def get_path(self):
+    #  We don't set the path in __init__ so as to avoid storing machine-specific paths for canonical repos.
+    return self.path if self.path is not None else os.path.join(DATA_ROOT, self.name)
 
 rule_repos = [RulesRepo(name="general"), RulesRepo(name="tamil"), RulesRepo(name="mahApuruSha/general"), RulesRepo(name="mahApuruSha/kAnchI-maTha"), RulesRepo(name="mahApuruSha/ALvAr"), RulesRepo(name="mahApuruSha/nAyanAr"), RulesRepo(name="temples/venkaTAchala"), RulesRepo(name="temples/Andhra"), RulesRepo(name="temples/Tamil"), RulesRepo(name="temples/Kerala"), RulesRepo(name="temples/Odisha"), RulesRepo(name="temples/North")]
 
@@ -426,13 +429,13 @@ class RulesCollection(common.JsonObject):
   def set_rule_dicts(self):
     for repo in self.repos:
       self.lunar.update(get_festival_rules_map(
-        os.path.join(DATA_ROOT, repo.path, 'lunar_month'), repo=repo))
+        os.path.join(DATA_ROOT, repo.get_path(), 'lunar_month'), repo=repo))
       self.sidereal_solar.update(get_festival_rules_map(
-        os.path.join(DATA_ROOT, repo.path, 'sidereal_solar_month'), repo=repo))
+        os.path.join(DATA_ROOT, repo.get_path(), 'sidereal_solar_month'), repo=repo))
       self.relative.update(get_festival_rules_map(
-        os.path.join(DATA_ROOT, repo.path, 'relative_event'), repo=repo))
+        os.path.join(DATA_ROOT, repo.get_path(), 'relative_event'), repo=repo))
       self.desc_only.update(get_festival_rules_map(
-        os.path.join(DATA_ROOT, repo.path, 'description_only'), repo=repo))
+        os.path.join(DATA_ROOT, repo.get_path(), 'description_only'), repo=repo))
     self.all = {**self.sidereal_solar, **self.lunar, **self.relative, **self.desc_only}
   
 rules_collection = RulesCollection()
