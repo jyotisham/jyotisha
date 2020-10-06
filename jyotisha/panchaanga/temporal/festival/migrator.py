@@ -43,10 +43,10 @@ def migrate_db(dir_path):
     event.names = default_if_none(x=event.names, default={})
     sa_names = event.names.get("sa", [])
     ta_names = event.names.get("ta", [])
-    if not event.id.startswith("vEGkaT"):
+    if "AzhwarJayanti" not in event.tags:
       event_file_name = event.get_storage_file_name(base_dir=os.path.join(output_dir, "general"))
     else:
-      event_file_name = event.get_storage_file_name(base_dir=os.path.join(output_dir, "venkaTAchala"))
+      event_file_name = event.get_storage_file_name(base_dir=os.path.join(output_dir, "mahApuruSha/ALvAr"))
     logging.debug(event_file_name)
     event.dump_to_file(filename=event_file_name)
     # append_to_event_group_README(event, event_file_name)
@@ -170,5 +170,6 @@ def clear_output_dirs():
 
 if __name__ == '__main__':
   clear_output_dirs()
-  migrate_db(os.path.join(os.path.dirname(__file__), 'data/general'))
+  # migrate_db(os.path.join(os.path.dirname(__file__), 'data/general'))
+  migrate_db(os.path.join(os.path.dirname(__file__), 'data/tamil'))
   pass
