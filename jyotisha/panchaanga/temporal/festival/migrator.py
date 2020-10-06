@@ -43,10 +43,10 @@ def migrate_db(dir_path, only_descriptions=False):
     event.names = default_if_none(x=event.names, default={})
     sa_names = event.names.get("sa", [])
     ta_names = event.names.get("ta", [])
-    if len(sa_names) > 0:
+    if not event.id.startswith("kAJcI"):
       event_file_name = event.get_storage_file_name(base_dir=os.path.join(output_dir, "general"), only_descriptions=only_descriptions)
-    elif len(ta_names) > 0:
-      event_file_name = event.get_storage_file_name(base_dir=os.path.join(output_dir, "tamil"), only_descriptions=only_descriptions)
+    else:
+      event_file_name = event.get_storage_file_name(base_dir=os.path.join(output_dir, "kAnchI-maTha"), only_descriptions=only_descriptions)
     logging.debug(event_file_name)
     event.dump_to_file(filename=event_file_name)
     # append_to_event_group_README(event, event_file_name)

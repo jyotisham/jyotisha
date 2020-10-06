@@ -36,6 +36,7 @@ class FestivalAssigner(PeriodicPanchaangaApplier):
       [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
 
       for festival_name in festival_rules:
+        assert isinstance(festival_rules[festival_name], rules.HinduCalendarEvent), festival_rules[festival_name]
         if festival_rules[festival_name].timing.month_type is None and festival_rules[festival_name].description_short is not None:
           # Maybe only description of the festival is given, as computation has been
           # done in computeFestivals(), without using a rule in festival_rules.json!

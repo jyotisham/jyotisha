@@ -176,7 +176,7 @@ class HinduCalendarEvent(common.JsonObject):
         id=self.id.replace('/','__').strip('{}')
       )
     else:
-      if only_descriptions:
+      if self.timing is None or self.timing.month_number is None:
         tag_list = '/'.join(self.tags)
         return "%(base_dir)s/description_only/%(tags)s/%(id)s__info.toml" % dict(
           base_dir=base_dir,
@@ -184,14 +184,18 @@ class HinduCalendarEvent(common.JsonObject):
           id=self.id.replace('/','__').strip('{}')
         )
       else:
-        return "%(base_dir)s/%(month_type)s/%(anga_type)s/%(month_number)02d/%(anga_number)02d/%(id)s__info.toml" % dict(
-          base_dir=base_dir,
-          month_type=self.timing.month_type,
-          anga_type=self.timing.anga_type,
-          month_number=self.timing.month_number,
-          anga_number=self.timing.anga_number,
-          id=self.id.replace('/','__').strip('{}')
-        )
+        try:
+          return "%(base_dir)s/%(month_type)s/%(anga_type)s/%(month_number)02d/%(anga_number)02d/%(id)s__info.toml" % dict(
+            base_dir=base_dir,
+            month_type=self.timing.month_type,
+            anga_type=self.timing.anga_type,
+            month_number=self.timing.month_number,
+            anga_number=self.timing.anga_number,
+            id=self.id.replace('/','__').strip('{}')
+          )
+        except Exception:
+          logging.error(str(self))
+          raise 
 
   def get_description_string(self, script, include_url=False, include_images=False, use_markup=False,
                              include_shlokas=False, is_brief=False, truncate=False):
@@ -246,32 +250,9 @@ class HinduCalendarEvent(common.JsonObject):
     # Get the URL
     if include_url:
       base_url = 'https://github.com/sanskrit-coders/adyatithi/tree/master'
-      if self.timing is not None and self.timing.anga_type is not None:
-        url = "%(base_dir)s/%(month_type)s/%(anga_type)s/%(month_number)02d/%(anga_number)02d#%(id)s" % dict(
-          base_dir=base_url,
-          month_type=self.timing.month_type,
-          anga_type=self.timing.anga_type,
-          month_number=self.timing.month_number,
-          anga_number=self.timing.anga_number,
-          id=custom_transliteration.tr(self.id, sanscript.IAST).replace('Ta__', '').replace('~', ' ').replace(' ',
-                                                                                                              '-').replace(
-            '(', '').replace(')', '').strip('{}').lower())
-      elif self.timing is not None and self.timing.anchor_festival_id is not None:
-        url = "%(base_dir)s/relative_event/%(anchor_festival_id)s/offset__%(offset)02d#%(id)s" % dict(
-          base_dir=base_url,
-          anchor_festival_id=self.timing.anchor_festival_id.replace('/', '__'),
-          offset=self.timing.offset,
-          id=custom_transliteration.tr(self.id, sanscript.IAST).replace('Ta__', '').replace('~', ' ').replace(' ',
-                                                                                                              '-').strip(
-            '{}').lower())
-      else:
-        tag_list = '/'.join([re.sub('([a-z])([A-Z])', r'\1-\2', t).lower() for t in self.tags])
-        url = "%(base_dir)s/other/%(tags)s#%(id)s" % dict(
-          base_dir=base_url,
-          tags=tag_list,
-          id=custom_transliteration.tr(self.id, sanscript.IAST).replace('Ta__', '').replace('~', ' ').replace(' ',
-                                                                                                              '-').strip(
-            '{}').lower())
+      url = "%(base_dir)s/%(rest)s" % dict(
+        base_dir=base_url,
+        rest=self.get_storage_file_name(base_dir=self.repo))
 
     # Get the description
     description_string = ''
@@ -347,7 +328,7 @@ class HinduCalendarEvent(common.JsonObject):
 
 
 
-def get_festival_rules_map(dir_path):
+def get_festival_rules_map(dir_path, repo=None):
   toml_file_paths = sorted(Path(dir_path).glob("**/*.toml"))
   festival_rules = {}
   if len(toml_file_paths) == 0:
@@ -355,6 +336,7 @@ def get_festival_rules_map(dir_path):
     return festival_rules
   for file_path in toml_file_paths:
     event = HinduCalendarEvent.read_from_file(filename=str(file_path))
+    event.repo = repo
     festival_rules[event.id] = event
   return festival_rules
 
@@ -420,7 +402,7 @@ common.update_json_class_index(sys.modules[__name__])
 DATA_ROOT = os.path.join(os.path.dirname(__file__), "data")
 
 class RulesCollection():
-  def __init__(self, repos=["general", "tamil"]):
+  def __init__(self, repos=["general", "tamil", "kAnchI-maTha"]):
     self.repos = repos
     self.lunar = {}
     self.sidereal_solar = {}
@@ -432,13 +414,13 @@ class RulesCollection():
   def set_rule_dicts(self):
     for repo in self.repos:
       self.lunar.update(get_festival_rules_map(
-        os.path.join(DATA_ROOT, repo, 'lunar_month')))
+        os.path.join(DATA_ROOT, repo, 'lunar_month'), repo=repo))
       self.sidereal_solar.update(get_festival_rules_map(
-        os.path.join(DATA_ROOT, repo, 'sidereal_solar_month')))
+        os.path.join(DATA_ROOT, repo, 'sidereal_solar_month'), repo=repo))
       self.relative.update(get_festival_rules_map(
-        os.path.join(DATA_ROOT, repo, 'relative_event')))
+        os.path.join(DATA_ROOT, repo, 'relative_event'), repo=repo))
       self.desc_only.update(get_festival_rules_map(
-        os.path.join(DATA_ROOT, repo, 'description_only')))
+        os.path.join(DATA_ROOT, repo, 'description_only'), repo=repo))
     self.all = {**self.sidereal_solar, **self.lunar, **self.relative, **self.desc_only}
   
 rules_collection = RulesCollection()
