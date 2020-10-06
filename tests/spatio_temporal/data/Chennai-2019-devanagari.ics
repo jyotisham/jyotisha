@@ -623,8 +623,8 @@ DTEND;VALUE=DATE:20190118
 DESCRIPTION:Observed on Śukla-Ekādaśī tithi of Pauṣaḥ (lunar) mont
  h (sunrise (default)/puurvaviddha (default)).<br/>Paramahamsa described Hi
  m as "walking Shiva of Varanasi"<br/><br/>https%3A//github.com/sanskrit-co
- ders/adyatithi/tree/master/general/lunar_month/tithi/10/11/trailaGga-svAmI
- ~jayantI__info.toml<br/><br/>#MahapurushaEvents
+ ders/adyatithi/tree/master/mahApuruSha/general/lunar_month/tithi/10/11/tra
+ ilaGga-svAmI~jayantI__info.toml<br/><br/>#MahapurushaEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1059,8 +1059,9 @@ DESCRIPTION:Observed on Kṛṣṇa-Pañcamī tithi of Pauṣaḥ (lunar)
  month (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>kāmakrodh
  ādirahitaṃ rāmabhaktaśiromaṇim|<br/>tyāgarājaguruṃ vande saṅg
  ītābdhiṃ kalānidhim||<br/><br/><br/><br/>https%3A//github.com/sanskri
- t-coders/adyatithi/tree/master/general/lunar_month/tithi/10/20/tyAgarAja-A
- rAdhanA__info.toml<br/><br/>#MahapurushaEvents #CommonFestivals
+ t-coders/adyatithi/tree/master/mahApuruSha/general/lunar_month/tithi/10/20
+ /tyAgarAja-ArAdhanA__info.toml<br/><br/>#MahapurushaEvents #CommonFestival
+ s
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1077,8 +1078,8 @@ DESCRIPTION:Observed on Hastaḥ nakṣhatram day of Makaraḥ (solar) mon
  th (praatah/paraviddha).<br/><br/><br/>karuṇāsāgaraṃ śāntam aruṇ
  āchalavāsinam|<br/>śrīśeṣādriguruṃ vande brahmībhūtaṃ taponi
  dhim||<br/><br/><br/><br/>https%3A//github.com/sanskrit-coders/adyatithi/t
- ree/master/general/sidereal_solar_month/nakshatra/10/13/zrI~zESAdri-svAmI~
- jayantI__info.toml<br/><br/>#MahapurushaEvents
+ ree/master/mahApuruSha/general/sidereal_solar_month/nakshatra/10/13/zrI~zE
+ SAdri-svAmI~jayantI__info.toml<br/><br/>#MahapurushaEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1128,9 +1129,9 @@ DTSTART;VALUE=DATE:20190127
 DTEND;VALUE=DATE:20190128
 DESCRIPTION:Observed on Kṛṣṇa-Saptamī tithi of Pauṣaḥ (lunar) m
  onth (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>https%3A//g
- ithub.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/
- 10/22/vivEkAnanda~jayantI__info.toml<br/><br/>#MahapurushaEvents #CommonFe
- stivals
+ ithub.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/general/lunar_
+ month/tithi/10/22/vivEkAnanda~jayantI__info.toml<br/><br/>#MahapurushaEven
+ ts #CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1162,8 +1163,8 @@ DTEND;VALUE=DATE:20190130
 DESCRIPTION:Observed on Kṛṣṇa-Navamī tithi of Pauṣaḥ (lunar) mo
  nth (sunrise (default)/puurvaviddha (default)).<br/><br/>### References<br
  />* http://hindupad.com/bhishma-pitamaha-jayanti/<br/><br/><br/>https%3A//
- github.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi
- /10/24/bhISma~jayantI__info.toml<br/><br/>#MahapurushaEvents
+ github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/general/lunar
+ _month/tithi/10/24/bhISma~jayantI__info.toml<br/><br/>#MahapurushaEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1269,8 +1270,9 @@ DTSTART;VALUE=DATE:20190201
 DTEND;VALUE=DATE:20190202
 DESCRIPTION:Observed on Kṛṣṇa-Dvādaśī tithi of Makaraḥ (solar) 
  month (aparaahna/vyaapti).<br/><br/><br/>https%3A//github.com/sanskrit-cod
- ers/adyatithi/tree/master/general/sidereal_solar_month/tithi/10/27/sEGgAli
- puram~muttaNNAvAL~ArAdhanA__info.toml<br/><br/>#MahapurushaEvents
+ ers/adyatithi/tree/master/mahApuruSha/general/sidereal_solar_month/tithi/1
+ 0/27/sEGgAlipuram~muttaNNAvAL~ArAdhanA__info.toml<br/><br/>#MahapurushaEve
+ nts
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1554,8 +1556,9 @@ DTEND;VALUE=DATE:20190210
 DESCRIPTION:Observed on Śukla-Caturthī tithi of Māghaḥ (lunar) month 
  (sunrise (default)/puurvaviddha (default)).<br/><br/>### References<br/>* 
  http://hindupad.com/markandeya-jayanti/<br/><br/><br/>https%3A//github.com
- /sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/11/04/mAr
- kaNDEya~jayantI__info.toml<br/><br/>#MahapurushaEvents #CommonFestivals
+ /sanskrit-coders/adyatithi/tree/master/mahApuruSha/general/lunar_month/tit
+ hi/11/04/mArkaNDEya~jayantI__info.toml<br/><br/>#MahapurushaEvents #Common
+ Festivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1811,9 +1814,9 @@ DTSTART;VALUE=DATE:20190212
 DTEND;VALUE=DATE:20190213
 DESCRIPTION:Observed on Śukla-Saptamī tithi of Māghaḥ (lunar) month (
  sunrise (default)/puurvaviddha (default)).<br/><br/><br/>https%3A//github.
- com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/11/07/
- ratha-saptamI__info.toml<br/><br/>#SpecialPuja #MahapurushaEvents #CommonF
- estivals
+ com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/general/lunar_month/
+ tithi/11/07/ratha-saptamI__info.toml<br/><br/>#SpecialPuja #MahapurushaEve
+ nts #CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1993,9 +1996,9 @@ DTSTART;VALUE=DATE:20190214
 DTEND;VALUE=DATE:20190215
 DESCRIPTION:Observed on Śukla-Navamī tithi of Māghaḥ (lunar) month (s
  unrise (default)/puurvaviddha (default)).<br/>Brahmaikyam of Madhvacharya<
- br/><br/>https%3A//github.com/sanskrit-coders/adyatithi/tree/master/genera
- l/lunar_month/tithi/11/09/madhva-navamI__info.toml<br/><br/>#MahapurushaEv
- ents
+ br/><br/>https%3A//github.com/sanskrit-coders/adyatithi/tree/master/mahApu
+ ruSha/general/lunar_month/tithi/11/09/madhva-navamI__info.toml<br/><br/>#M
+ ahapurushaEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2593,8 +2596,8 @@ DTSTART;VALUE=DATE:20190225
 DTEND;VALUE=DATE:20190226
 DESCRIPTION:Observed on Kṛṣṇa-Saptamī tithi of Māghaḥ (lunar) mo
  nth (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>https%3A//gi
- thub.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/1
- 1/22/zabarI~jayantI__info.toml<br/><br/>#MahapurushaEvents
+ thub.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/general/lunar_m
+ onth/tithi/11/22/zabarI~jayantI__info.toml<br/><br/>#MahapurushaEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2957,8 +2960,9 @@ DESCRIPTION:Observed on Amāvāsyā tithi of Māghaḥ (lunar) month (sunr
  ise (default)/puurvaviddha (default)).<br/><br/><br/>manmanobhīṣṭavar
  adaṃ sarvābhīṣṭaphalapradam|<br/>purandaraguruṃ vande dāsaśṛ
  eṣṭhaṃ dayānidhim||<br/><br/><br/><br/>https%3A//github.com/sanskri
- t-coders/adyatithi/tree/master/general/lunar_month/tithi/11/30/purandaradA
- sa-ArAdhanA__info.toml<br/><br/>#MahapurushaEvents #CommonFestivals
+ t-coders/adyatithi/tree/master/mahApuruSha/general/lunar_month/tithi/11/30
+ /purandaradAsa-ArAdhanA__info.toml<br/><br/>#MahapurushaEvents #CommonFest
+ ivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3051,9 +3055,9 @@ DTSTART;VALUE=DATE:20190308
 DTEND;VALUE=DATE:20190309
 DESCRIPTION:Observed on Śukla-Dvitīyā tithi of Phālgunaḥ (lunar) mon
  th (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>https%3A//git
- hub.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/12
- /02/rAmakRSNa-paramahaMsa~jayantI__info.toml<br/><br/>#MahapurushaEvents #
- CommonFestivals
+ hub.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/general/lunar_mo
+ nth/tithi/12/02/rAmakRSNa-paramahaMsa~jayantI__info.toml<br/><br/>#Mahapur
+ ushaEvents #CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3072,9 +3076,9 @@ DESCRIPTION:Observed on Aśvinī nakṣhatram day of Kumbhaḥ (solar) mon
  s renowned poetic composition 'Jnanapana'\, a philosophical work of all ti
  mes. On this day\, recital of Poonthanam's works and debate takes place. A
   one week literary festival is conducted at Poonthanam illam.<br/><br/>htt
- ps%3A//github.com/sanskrit-coders/adyatithi/tree/master/general/sidereal_s
- olar_month/nakshatra/11/01/pUntAnaM~jayantI__info.toml<br/><br/>#Mahapurus
- haEvents
+ ps%3A//github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/genera
+ l/sidereal_solar_month/nakshatra/11/01/pUntAnaM~jayantI__info.toml<br/><br
+ />#MahapurushaEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3235,9 +3239,9 @@ DTSTART;VALUE=DATE:20190313
 DTEND;VALUE=DATE:20190314
 DESCRIPTION:Observed on Śukla-Saptamī tithi of Phālgunaḥ (lunar) mont
  h (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>https%3A//gith
- ub.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/12/
- 07/zrI~rAghavEndra-svAmI~jayantI__info.toml<br/><br/>#MahapurushaEvents #C
- ommonFestivals
+ ub.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/general/lunar_mon
+ th/tithi/12/07/zrI~rAghavEndra-svAmI~jayantI__info.toml<br/><br/>#Mahapuru
+ shaEvents #CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3739,8 +3743,9 @@ DTSTART;VALUE=DATE:20190321
 DTEND;VALUE=DATE:20190322
 DESCRIPTION:Observed on Paurṇamāsī tithi of Phālgunaḥ (lunar) month
   (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>https%3A//githu
- b.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/12/1
- 5/caitanya-mahAprabhu~jayantI__info.toml<br/><br/>#MahapurushaEvents
+ b.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/general/lunar_mont
+ h/tithi/12/15/caitanya-mahAprabhu~jayantI__info.toml<br/><br/>#Mahapurusha
+ Events
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3852,9 +3857,9 @@ DTSTART;VALUE=DATE:20190323
 DTEND;VALUE=DATE:20190324
 DESCRIPTION:Observed on Kṛṣṇa-Tṛtīyā tithi of Phālgunaḥ (luna
  r) month (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>https%3
- A//github.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/ti
- thi/12/18/chatrapati-zivAjI~jayantI__info.toml<br/><br/>#MahapurushaEvents
-  #CommonFestivals
+ A//github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/general/lu
+ nar_month/tithi/12/18/chatrapati-zivAjI~jayantI__info.toml<br/><br/>#Mahap
+ urushaEvents #CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4492,9 +4497,9 @@ DTSTART;VALUE=DATE:20190409
 DTEND;VALUE=DATE:20190410
 DESCRIPTION:Observed on Kṛttikā nakṣhatram day of Mīnaḥ (solar) mo
  nth (praatah/paraviddha).<br/><br/><br/>https%3A//github.com/sanskrit-code
- rs/adyatithi/tree/master/general/sidereal_solar_month/nakshatra/12/03/mutt
- usvAmI~dIkSita~jayantI__info.toml<br/><br/>#MahapurushaEvents #CommonFesti
- vals
+ rs/adyatithi/tree/master/mahApuruSha/general/sidereal_solar_month/nakshatr
+ a/12/03/muttusvAmI~dIkSita~jayantI__info.toml<br/><br/>#MahapurushaEvents 
+ #CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5580,8 +5585,9 @@ DTSTART;VALUE=DATE:20190430
 DTEND;VALUE=DATE:20190501
 DESCRIPTION:Observed on Kṛṣṇa-Ekādaśī tithi of Caitraḥ (lunar) 
  month (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>https%3A//
- github.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi
- /01/26/vallabhAcArya~jayantI__info.toml<br/><br/>#MahapurushaEvents
+ github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/general/lunar
+ _month/tithi/01/26/vallabhAcArya~jayantI__info.toml<br/><br/>#MahapurushaE
+ vents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5657,8 +5663,9 @@ DTSTART;VALUE=DATE:20190502
 DTEND;VALUE=DATE:20190503
 DESCRIPTION:Observed on Kṛṣṇa-Trayodaśī tithi of Meṣaḥ (solar)
   month (aparaahna/vyaapti).<br/><br/><br/>https%3A//github.com/sanskrit-co
- ders/adyatithi/tree/master/general/sidereal_solar_month/tithi/01/28/ramaNa
- ~maharSi~ArAdhanA__info.toml<br/><br/>#MahapurushaEvents #CommonFestivals
+ ders/adyatithi/tree/master/mahApuruSha/general/sidereal_solar_month/tithi/
+ 01/28/ramaNa~maharSi~ArAdhanA__info.toml<br/><br/>#MahapurushaEvents #Comm
+ onFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5851,8 +5858,8 @@ DTEND;VALUE=DATE:20190506
 DESCRIPTION:Observed on Śukla-Prathamā tithi of Vaiśākhaḥ (lunar) mo
  nth (sunrise (default)/puurvaviddha (default)).<br/><br/>### References<br
  />* http://hindupad.com/parashar-jayanti/<br/><br/><br/>https%3A//github.c
- om/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/02/01/p
- arAzara~maharSi~jayantI__info.toml<br/><br/>#MahapurushaEvents
+ om/sanskrit-coders/adyatithi/tree/master/mahApuruSha/general/lunar_month/t
+ ithi/02/01/parAzara~maharSi~jayantI__info.toml<br/><br/>#MahapurushaEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5908,8 +5915,9 @@ DTSTART;VALUE=DATE:20190506
 DTEND;VALUE=DATE:20190507
 DESCRIPTION:Observed on Kṛttikā nakṣhatram day of Meṣaḥ (solar) m
  onth (praatah/paraviddha).<br/><br/><br/>https%3A//github.com/sanskrit-cod
- ers/adyatithi/tree/master/general/sidereal_solar_month/nakshatra/01/03/zyA
- mA~zAstrI~jayantI__info.toml<br/><br/>#MahapurushaEvents #CommonFestivals
+ ers/adyatithi/tree/master/mahApuruSha/general/sidereal_solar_month/nakshat
+ ra/01/03/zyAmA~zAstrI~jayantI__info.toml<br/><br/>#MahapurushaEvents #Comm
+ onFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6102,9 +6110,9 @@ DTSTART;VALUE=DATE:20190509
 DTEND;VALUE=DATE:20190510
 DESCRIPTION:Observed on Ārdrā nakṣhatram day of Meṣaḥ (solar) mont
  h (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>https%3A//gith
- ub.com/sanskrit-coders/adyatithi/tree/master/general/sidereal_solar_month/
- nakshatra/01/06/rAmAnuja-janma-nakSatram__info.toml<br/><br/>#MahapurushaE
- vents #CommonFestivals
+ ub.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/general/sidereal_
+ solar_month/nakshatra/01/06/rAmAnuja-janma-nakSatram__info.toml<br/><br/>#
+ MahapurushaEvents #CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6119,8 +6127,8 @@ DTSTART;VALUE=DATE:20190509
 DTEND;VALUE=DATE:20190510
 DESCRIPTION:Observed on Śukla-Pañcamī tithi of Vaiśākhaḥ (lunar) mo
  nth (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>https%3A//gi
- thub.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/0
- 2/05/sUradAsa~jayantI__info.toml<br/><br/>#MahapurushaEvents
+ thub.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/general/lunar_m
+ onth/tithi/02/05/sUradAsa~jayantI__info.toml<br/><br/>#MahapurushaEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6169,9 +6177,9 @@ DTSTART;VALUE=DATE:20190509
 DTEND;VALUE=DATE:20190510
 DESCRIPTION:Observed on Śukla-Pañcamī tithi of Vaiśākhaḥ (lunar) mo
  nth (praatah/paraviddha).<br/>Nandana year<br/><br/>https%3A//github.com/s
- anskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/02/05/zaGka
- ra~jayantI__info.toml<br/><br/>#CommonFestivals #AdiShankaraHistory #Mahap
- urushaEvents
+ anskrit-coders/adyatithi/tree/master/mahApuruSha/general/lunar_month/tithi
+ /02/05/zaGkara~jayantI__info.toml<br/><br/>#CommonFestivals #AdiShankaraHi
+ story #MahapurushaEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6226,9 +6234,9 @@ DTSTART;VALUE=DATE:20190510
 DTEND;VALUE=DATE:20190511
 DESCRIPTION:Observed on Śukla-Ṣaṣṭhī tithi of Vaiśākhaḥ (lunar
  ) month (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>https%3A
- //github.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tit
- hi/02/06/rAmAnuja~jayantI__info.toml<br/><br/>#MahapurushaEvents #CommonFe
- stivals
+ //github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/general/lun
+ ar_month/tithi/02/06/rAmAnuja~jayantI__info.toml<br/><br/>#MahapurushaEven
+ ts #CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6261,8 +6269,8 @@ DTEND;VALUE=DATE:20190512
 DESCRIPTION:Observed on Śukla-Saptamī tithi of Vaiśākhaḥ (lunar) mon
  th (sunrise (default)/puurvaviddha (default)).<br/><br/>### References<br/
  >* Vaidikasri May 2017<br/><br/><br/>https%3A//github.com/sanskrit-coders/
- adyatithi/tree/master/general/lunar_month/tithi/02/07/tyAgarAja~jayantI__i
- nfo.toml<br/><br/>#MahapurushaEvents #CommonFestivals
+ adyatithi/tree/master/mahApuruSha/general/lunar_month/tithi/02/07/tyAgarAj
+ a~jayantI__info.toml<br/><br/>#MahapurushaEvents #CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6278,9 +6286,9 @@ DTEND;VALUE=DATE:20190512
 DESCRIPTION:Observed on Śukla-Saptamī tithi of Vaiśākhaḥ (lunar) mon
  th (sunrise (default)/puurvaviddha (default)).<br/><br/>### References<br/
  >* http://hindupad.com/vidyaranya-jayanti-swami-vidyaranya-jayanthi/<br/><
- br/><br/>https%3A//github.com/sanskrit-coders/adyatithi/tree/master/genera
- l/lunar_month/tithi/02/07/vidyAraNya-svAmI~jayantI__info.toml<br/><br/>#Ma
- hapurushaEvents
+ br/><br/>https%3A//github.com/sanskrit-coders/adyatithi/tree/master/mahApu
+ ruSha/general/lunar_month/tithi/02/07/vidyAraNya-svAmI~jayantI__info.toml<
+ br/><br/>#MahapurushaEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6340,8 +6348,8 @@ DTSTART;VALUE=DATE:20190513
 DTEND;VALUE=DATE:20190514
 DESCRIPTION:Observed on Śukla-Daśamī tithi of Vaiśākhaḥ (lunar) mon
  th (aparaahna/vyaapti).<br/><br/><br/>https%3A//github.com/sanskrit-coders
- /adyatithi/tree/master/general/lunar_month/tithi/02/10/nerUr~zrI~sadAziva~
- brahmEndra~ArAdhanA__info.toml<br/><br/>#MahapurushaEvents
+ /adyatithi/tree/master/mahApuruSha/general/lunar_month/tithi/02/10/nerUr~z
+ rI~sadAziva~brahmEndra~ArAdhanA__info.toml<br/><br/>#MahapurushaEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6429,9 +6437,9 @@ DTEND;VALUE=DATE:20190514
 DESCRIPTION:Observed on Śukla-Navamī tithi of Vaiśākhaḥ (lunar) mont
  h (sunrise (default)/puurvaviddha (default)).<br/><br/>### References<br/>
  * http://hindupad.com/vashishta-jayanti/<br/><br/><br/>https%3A//github.co
- m/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/02/09/va
- siSTha~maharSi~jayantI__info.toml<br/><br/>#MahapurushaEvents #CommonFesti
- vals
+ m/sanskrit-coders/adyatithi/tree/master/mahApuruSha/general/lunar_month/ti
+ thi/02/09/vasiSTha~maharSi~jayantI__info.toml<br/><br/>#MahapurushaEvents 
+ #CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6728,8 +6736,8 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of Vaiśākhaḥ (lunar) mont
  h (sunrise (default)/puurvaviddha (default)).<br/><br/>### References<br/>
  * http://hindupad.com/annamacharya-jayanti-2010-birth-annivarsary-date-of-
  annamayya/<br/><br/><br/>https%3A//github.com/sanskrit-coders/adyatithi/tr
- ee/master/general/lunar_month/tithi/02/15/annamAcArya~jayantI__info.toml<b
- r/><br/>#MahapurushaEvents #CommonFestivals
+ ee/master/mahApuruSha/general/lunar_month/tithi/02/15/annamAcArya~jayantI_
+ _info.toml<br/><br/>#MahapurushaEvents #CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -7123,8 +7131,9 @@ DTSTART;VALUE=DATE:20190522
 DTEND;VALUE=DATE:20190523
 DESCRIPTION:Observed on Kṛṣṇa-Caturthī tithi of Vaiśākhaḥ (luna
  r) month (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>https%3
- A//github.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/ti
- thi/02/19/satI~anasUyA~jayantI__info.toml<br/><br/>#MahapurushaEvents
+ A//github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/general/lu
+ nar_month/tithi/02/19/satI~anasUyA~jayantI__info.toml<br/><br/>#Mahapurush
+ aEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -7140,8 +7149,9 @@ DTEND;VALUE=DATE:20190524
 DESCRIPTION:Observed on Kṛṣṇa-Pañcamī tithi of Vaiśākhaḥ (luna
  r) month (sunrise (default)/puurvaviddha (default)).<br/><br/>### Referenc
  es<br/>* http://hindupad.com/kashyap-rishi-jayanti/<br/><br/><br/>https%3A
- //github.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tit
- hi/02/20/kazyapa~maharSi~jayantI__info.toml<br/><br/>#MahapurushaEvents
+ //github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/general/lun
+ ar_month/tithi/02/20/kazyapa~maharSi~jayantI__info.toml<br/><br/>#Mahapuru
+ shaEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -7505,9 +7515,9 @@ DTSTART;VALUE=DATE:20190603
 DTEND;VALUE=DATE:20190604
 DESCRIPTION:Observed on Amāvāsyā tithi of Vaiśākhaḥ (lunar) month (
  sunrise (default)/puurvaviddha (default)).<br/><br/><br/>https%3A//github.
- com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/02/30/
- zuka~maharSi~jayantI__info.toml<br/><br/>#MahapurushaEvents #CommonFestiva
- ls
+ com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/general/lunar_month/
+ tithi/02/30/zuka~maharSi~jayantI__info.toml<br/><br/>#MahapurushaEvents #C
+ ommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -7593,9 +7603,9 @@ DESCRIPTION:Observed on Śukla-Dvitīyā tithi of Jyaiṣṭhaḥ (lunar)
  month (aparaahna/vyaapti).<br/><br/><br/>prahlādavarado devo yo nṛsiṃ
  haḥ paro hariḥ|<br/>nṛsiṃhopāsakaṃ nityaṃ taṃ nṛsiṃha
  ḥ guruṃ bhaje||<br/><br/><br/><br/>https%3A//github.com/sanskrit-coder
- s/adyatithi/tree/master/general/lunar_month/tithi/03/02/zRGgErI%2032%20jag
- adguru%20zrI~nRsiMha%20bhAratI%20ArAdhanA__info.toml<br/><br/>#Mahapurusha
- Events #SringeriAradhanaDays
+ s/adyatithi/tree/master/mahApuruSha/general/lunar_month/tithi/03/02/zRGgEr
+ I%2032%20jagadguru%20zrI~nRsiMha%20bhAratI%20ArAdhanA__info.toml<br/><br/>
+ #MahapurushaEvents #SringeriAradhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8362,9 +8372,9 @@ DTSTART;VALUE=DATE:20190615
 DTEND;VALUE=DATE:20190616
 DESCRIPTION:Observed on Śukla-Trayodaśī tithi of Jyaiṣṭhaḥ (lunar
  ) month (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>https%3A
- //github.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tit
- hi/03/13/chatrapati~zivAjI~rAjyAbhiSEkaH__info.toml<br/><br/>#MahapurushaE
- vents
+ //github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/general/lun
+ ar_month/tithi/03/13/chatrapati~zivAjI~rAjyAbhiSEkaH__info.toml<br/><br/>#
+ MahapurushaEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8413,8 +8423,9 @@ DTSTART;VALUE=DATE:20190615
 DTEND;VALUE=DATE:20190616
 DESCRIPTION:Observed on Śukla-Trayodaśī tithi of Jyaiṣṭhaḥ (lunar
  ) month (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>https%3A
- //github.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tit
- hi/03/13/vidyAraNya~svAmI~ArAdhanA__info.toml<br/><br/>#MahapurushaEvents
+ //github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/general/lun
+ ar_month/tithi/03/13/vidyAraNya~svAmI~ArAdhanA__info.toml<br/><br/>#Mahapu
+ rushaEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8566,8 +8577,8 @@ DTSTART;VALUE=DATE:20190617
 DTEND;VALUE=DATE:20190618
 DESCRIPTION:Observed on Paurṇamāsī tithi of Jyaiṣṭhaḥ (lunar) mo
  nth (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>https%3A//gi
- thub.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/0
- 3/15/kabIradAsa~jayantI__info.toml<br/><br/>#MahapurushaEvents
+ thub.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/general/lunar_m
+ onth/tithi/03/15/kabIradAsa~jayantI__info.toml<br/><br/>#MahapurushaEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10953,8 +10964,8 @@ DTSTART;VALUE=DATE:20190807
 DTEND;VALUE=DATE:20190808
 DESCRIPTION:Observed on Śukla-Saptamī tithi of Śrāvaṇaḥ (lunar) mo
  nth (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>https%3A//gi
- thub.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/0
- 5/07/tulasIdAsa~jayantI__info.toml<br/><br/>#MahapurushaEvents
+ thub.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/general/lunar_m
+ onth/tithi/05/07/tulasIdAsa~jayantI__info.toml<br/><br/>#MahapurushaEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11059,9 +11070,9 @@ DTEND;VALUE=DATE:20190810
 DESCRIPTION:Observed on Anūrādhā nakṣhatram day of Kaṭakaḥ (solar
  ) month (praatah/paraviddha).<br/>Jayanti Day of Sri Anantarama Dikshitar.
  <br/>### References<br/>* Vaidikasri Nov 2009<br/><br/><br/>https%3A//gith
- ub.com/sanskrit-coders/adyatithi/tree/master/general/sidereal_solar_month/
- nakshatra/04/17/sEGgAlipuram%20anantarAma-dIkSita-jayantI__info.toml<br/><
- br/>#MahapurushaEvents #CommonFestivals
+ ub.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/general/sidereal_
+ solar_month/nakshatra/04/17/sEGgAlipuram%20anantarAma-dIkSita-jayantI__inf
+ o.toml<br/><br/>#MahapurushaEvents #CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11516,8 +11527,9 @@ DTSTART;VALUE=DATE:20190815
 DTEND;VALUE=DATE:20190816
 DESCRIPTION:Observed on Paurṇamāsī tithi of Śrāvaṇaḥ (lunar) mon
  th (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>https%3A//git
- hub.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/05
- /15/vaikhAnasa~maharSi~jayantI__info.toml<br/><br/>#MahapurushaEvents
+ hub.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/general/lunar_mo
+ nth/tithi/05/15/vaikhAnasa~maharSi~jayantI__info.toml<br/><br/>#Mahapurush
+ aEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11666,9 +11678,9 @@ DESCRIPTION:Observed on Kṛṣṇa-Dvitīyā tithi of Śrāvaṇaḥ (lun
  ar) month (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>pūjy
  āya rāghavendrāya satyadharmaratāya cha|<br/>bhajatāṃ kalpavṛkṣ
  āya namatāṃ kāmadhenave||<br/><br/><br/><br/>https%3A//github.com/san
- skrit-coders/adyatithi/tree/master/general/lunar_month/tithi/05/17/zrI~rAg
- havEndra~svAmI~ArAdhanA__info.toml<br/><br/>#MahapurushaEvents #CommonFest
- ivals
+ skrit-coders/adyatithi/tree/master/mahApuruSha/general/lunar_month/tithi/0
+ 5/17/zrI~rAghavEndra~svAmI~ArAdhanA__info.toml<br/><br/>#MahapurushaEvents
+  #CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12009,9 +12021,9 @@ DTSTART;VALUE=DATE:20190824
 DTEND;VALUE=DATE:20190825
 DESCRIPTION:Observed on Kṛṣṇa-Aṣṭamī tithi of Śrāvaṇaḥ (l
  unar) month (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>http
- s%3A//github.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month
- /tithi/05/23/zrIkRSNadEvarAya-rAjyAbhiSEkaH__info.toml<br/><br/>#Mahapurus
- haEvents
+ s%3A//github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/general
+ /lunar_month/tithi/05/23/zrIkRSNadEvarAya-rAjyAbhiSEkaH__info.toml<br/><br
+ />#MahapurushaEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12916,8 +12928,9 @@ DTEND;VALUE=DATE:20190907
 DESCRIPTION:Observed on Śukla-Aṣṭamī tithi of Bhādrapadaḥ (lunar)
   month (sunrise (default)/puurvaviddha (default)).<br/><br/>### References
  <br/>* http://hindupad.com/dadhichi-jayanti/<br/><br/><br/>https%3A//githu
- b.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/06/0
- 8/dadhIci~maharSi~jayanti__info.toml<br/><br/>#MahapurushaEvents
+ b.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/general/lunar_mont
+ h/tithi/06/08/dadhIci~maharSi~jayanti__info.toml<br/><br/>#MahapurushaEven
+ ts
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13964,9 +13977,9 @@ DESCRIPTION:Observed on Kṛṣṇa-Saptamī tithi of Bhādrapadaḥ (luna
  r) month (aparaahna/vyaapti).<br/><br/><br/>vivekinaṃ mahāprājñaṃ d
  hairyaudāryakṣamānidhim|<br/>sadā'bhinavapūrvaṃ taṃ vidyātīrth
  aguruṃ bhaje||<br/><br/><br/><br/>https%3A//github.com/sanskrit-coders/a
- dyatithi/tree/master/general/lunar_month/tithi/06/22/zRGgErI%2035%20jagadg
- uru%20zrI~abhinava%20vidyAtIrtha%20mahAsvAmI%20ArAdhanA__info.toml<br/><br
- />#MahapurushaEvents #SringeriAradhanaDays
+ dyatithi/tree/master/mahApuruSha/general/lunar_month/tithi/06/22/zRGgErI%2
+ 035%20jagadguru%20zrI~abhinava%20vidyAtIrtha%20mahAsvAmI%20ArAdhanA__info.
+ toml<br/><br/>#MahapurushaEvents #SringeriAradhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -14351,9 +14364,9 @@ DESCRIPTION:Observed on Amāvāsyā tithi of Bhādrapadaḥ (lunar) month
  (aparaahna/vyaapti).<br/><br/><br/>sadā''tmadhyānanirataṃ viṣayebhya
  ḥ paraṅmukham|<br/>naumi śāstreṣu niṣṇātaṃ chandraśekharab
  hāratīm||<br/><br/><br/><br/>https%3A//github.com/sanskrit-coders/adyati
- thi/tree/master/general/lunar_month/tithi/06/30/zRGgErI%2034%20jagadguru%2
- 0zrI~candrazEkhara%20bhAratI%20ArAdhanA__info.toml<br/><br/>#MahapurushaEv
- ents #SringeriAradhanaDays
+ thi/tree/master/mahApuruSha/general/lunar_month/tithi/06/30/zRGgErI%2034%2
+ 0jagadguru%20zrI~candrazEkhara%20bhAratI%20ArAdhanA__info.toml<br/><br/>#M
+ ahapurushaEvents #SringeriAradhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -14384,8 +14397,9 @@ DTSTART;VALUE=DATE:20190929
 DTEND;VALUE=DATE:20190930
 DESCRIPTION:Observed on Śukla-Prathamā tithi of Āśvayujaḥ (lunar) mo
  nth (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>https%3A//gi
- thub.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/0
- 7/01/agrasEna~mahArAja~jayantI__info.toml<br/><br/>#MahapurushaEvents
+ thub.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/general/lunar_m
+ onth/tithi/07/01/agrasEna~mahArAja~jayantI__info.toml<br/><br/>#Mahapurush
+ aEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -14999,8 +15013,8 @@ DTEND;VALUE=DATE:20191009
 DESCRIPTION:Observed on Śukla-Daśamī tithi of Āśvayujaḥ (lunar) mon
  th (sunrise (default)/puurvaviddha (default)).<br/>Jayanti of Madhvacharya
  \, a proponent of Dvaita Vedanta<br/><br/>https%3A//github.com/sanskrit-co
- ders/adyatithi/tree/master/general/lunar_month/tithi/07/10/madhvAcArya~jay
- antI__info.toml<br/><br/>#MahapurushaEvents
+ ders/adyatithi/tree/master/mahApuruSha/general/lunar_month/tithi/07/10/mad
+ hvAcArya~jayantI__info.toml<br/><br/>#MahapurushaEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15314,8 +15328,9 @@ DTSTART;VALUE=DATE:20191013
 DTEND;VALUE=DATE:20191014
 DESCRIPTION:Observed on Paurṇamāsī tithi of Āśvayujaḥ (lunar) mont
  h (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>https%3A//gith
- ub.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/07/
- 15/mIrAbAI~jayantI__info.toml<br/><br/>#MahapurushaEvents #CommonFestivals
+ ub.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/general/lunar_mon
+ th/tithi/07/15/mIrAbAI~jayantI__info.toml<br/><br/>#MahapurushaEvents #Com
+ monFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15347,9 +15362,9 @@ DTSTART;VALUE=DATE:20191013
 DTEND;VALUE=DATE:20191014
 DESCRIPTION:Observed on Paurṇamāsī tithi of Āśvayujaḥ (lunar) mont
  h (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>https%3A//gith
- ub.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/07/
- 15/vAlmIki~maharSi~jayantI__info.toml<br/><br/>#MahapurushaEvents #CommonF
- estivals
+ ub.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/general/lunar_mon
+ th/tithi/07/15/vAlmIki~maharSi~jayantI__info.toml<br/><br/>#MahapurushaEve
+ nts #CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15399,8 +15414,9 @@ DTSTART;VALUE=DATE:20191014
 DTEND;VALUE=DATE:20191015
 DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of Kanyā (solar) mont
  h (praatah/paraviddha).<br/><br/><br/>https%3A//github.com/sanskrit-coders
- /adyatithi/tree/master/general/sidereal_solar_month/tithi/06/16/appayya-dI
- kSita-jayantI__info.toml<br/><br/>#MahapurushaEvents #CommonFestivals
+ /adyatithi/tree/master/mahApuruSha/general/sidereal_solar_month/tithi/06/1
+ 6/appayya-dIkSita-jayantI__info.toml<br/><br/>#MahapurushaEvents #CommonFe
+ stivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15714,9 +15730,9 @@ DTEND;VALUE=DATE:20191020
 DESCRIPTION:Observed on Kṛṣṇa-Ṣaṣṭhī tithi of Tulā (solar) m
  onth (aparaahna/vyaapti).<br/>Aradhana Day of Sri Anantarama Dikshitar.<br
  />### References<br/>* Vaidikasri Nov 2017<br/><br/><br/>https%3A//github.
- com/sanskrit-coders/adyatithi/tree/master/general/sidereal_solar_month/tit
- hi/07/21/sEGgAlipuram%20anantarAma-dIkSita-ArAdhanA__info.toml<br/><br/>#M
- ahapurushaEvents #CommonFestivals
+ com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/general/sidereal_sol
+ ar_month/tithi/07/21/sEGgAlipuram%20anantarAma-dIkSita-ArAdhanA__info.toml
+ <br/><br/>#MahapurushaEvents #CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15875,9 +15891,9 @@ DESCRIPTION:Observed on Kṛṣṇa-Ekādaśī tithi of Āśvayujaḥ (lun
  ar) month (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>sadā'
  'tmadhyānanirataṃ viṣayebhyaḥ paraṅmukham|<br/>naumi śāstreṣu
   niṣṇātaṃ chandraśekharabhāratīm||<br/><br/><br/><br/>https%3A//
- github.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi
- /07/26/zRGgErI%2034%20jagadguru%20zrI~candrazEkhara%20bhAratI~3%20jayantI_
- _info.toml<br/><br/>#MahapurushaEvents
+ github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/general/lunar
+ _month/tithi/07/26/zRGgErI%2034%20jagadguru%20zrI~candrazEkhara%20bhAratI~
+ 3%20jayantI__info.toml<br/><br/>#MahapurushaEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -16220,9 +16236,9 @@ DESCRIPTION:Observed on Kṛṣṇa-Caturdaśī tithi of Āśvayujaḥ (lu
  nar) month (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>vivek
  inaṃ mahāprājñaṃ dhairyaudāryakṣamānidhim|<br/>sadā'bhinavapū
  rvaṃ taṃ vidyātīrthaguruṃ bhaje||<br/><br/><br/><br/>https%3A//git
- hub.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/07
- /29/zRGgErI%2035%20jagadguru%20zrI~abhinava%20vidyAtIrtha%20mahAsvAmI%20ja
- yantI__info.toml<br/><br/>#MahapurushaEvents
+ hub.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/general/lunar_mo
+ nth/tithi/07/29/zRGgErI%2035%20jagadguru%20zrI~abhinava%20vidyAtIrtha%20ma
+ hAsvAmI%20jayantI__info.toml<br/><br/>#MahapurushaEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -16327,8 +16343,9 @@ DTSTART;VALUE=DATE:20191028
 DTEND;VALUE=DATE:20191029
 DESCRIPTION:Observed on Amāvāsyā tithi of Āśvayujaḥ (lunar) month (
  sunrise (default)/puurvaviddha (default)).<br/><br/><br/>https%3A//github.
- com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/07/30/
- vikramAditya-paTTAbhiSEkaH__info.toml<br/><br/>#MahapurushaEvents
+ com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/general/lunar_month/
+ tithi/07/30/vikramAditya-paTTAbhiSEkaH__info.toml<br/><br/>#MahapurushaEve
+ nts
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17070,8 +17087,9 @@ DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Kārttikaḥ (lunar) mo
  ṇuṃ  hariharaprabham||<br/>jitendriyaṃ  jitakrodhaṃ  sadā  dhyān
  aparāyaṇam|<br/>ānandanilayaṃ  vande  yogānandamunīśvaram||<br/><
  br/><br/><br/>### References<br/>* Vaidikasri Nov 2017<br/><br/><br/>https
- %3A//github.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/
- tithi/08/12/yAjJavalkya~jayantI__info.toml<br/><br/>#MahapurushaEvents
+ %3A//github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/general/
+ lunar_month/tithi/08/12/yAjJavalkya~jayantI__info.toml<br/><br/>#Mahapurus
+ haEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -19273,8 +19291,8 @@ DESCRIPTION:Observed on Kṛṣṇa-Navamī tithi of Mārgaśīrṣaḥ (l
  unar) month (aparaahna/vyaapti).<br/><br/><br/>karuṇāsāgaraṃ śānta
  m aruṇāchalavāsinam|<br/>śrīśeṣādriguruṃ vande brahmībhūta
  ṃ taponidhim||<br/><br/><br/><br/>https%3A//github.com/sanskrit-coders/a
- dyatithi/tree/master/general/lunar_month/tithi/09/24/zrI~zESAdri-svAmI~ArA
- dhanA__info.toml<br/><br/>#MahapurushaEvents
+ dyatithi/tree/master/mahApuruSha/general/lunar_month/tithi/09/24/zrI~zESAd
+ ri-svAmI~ArAdhanA__info.toml<br/><br/>#MahapurushaEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE

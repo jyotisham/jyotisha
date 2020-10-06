@@ -43,18 +43,10 @@ def migrate_db(dir_path):
     event.names = default_if_none(x=event.names, default={})
     sa_names = event.names.get("sa", [])
     ta_names = event.names.get("ta", [])
-    if "TempleFestivals" not in ",".join(event.tags):
+    if "Mahapurusha" not in ",".join(event.tags):
       event_file_name = event.get_storage_file_name(base_dir=os.path.join(output_dir, "migrated/general"))
-    elif "Tamil" in ",".join(event.tags):
-      event_file_name = event.get_storage_file_name(base_dir=os.path.join(output_dir, "temples/Tamil"))
-    elif "Odisha" in ",".join(event.tags):
-      event_file_name = event.get_storage_file_name(base_dir=os.path.join(output_dir, "temples/Odisha"))
-    elif "Kerala" in ",".join(event.tags):
-      event_file_name = event.get_storage_file_name(base_dir=os.path.join(output_dir, "temples/Kerala"))
-    elif "Uttar" in ",".join(event.tags):
-      event_file_name = event.get_storage_file_name(base_dir=os.path.join(output_dir, "temples/North"))
-    elif "North" in ",".join(event.tags):
-      event_file_name = event.get_storage_file_name(base_dir=os.path.join(output_dir, "temples/North"))
+    elif "Mahapurusha" in ",".join(event.tags):
+      event_file_name = event.get_storage_file_name(base_dir=os.path.join(output_dir, "Mahapurusha/general"))
     logging.debug(event_file_name)
     event.dump_to_file(filename=event_file_name)
     # append_to_event_group_README(event, event_file_name)
