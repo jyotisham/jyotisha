@@ -59189,9 +59189,9 @@
       },
       "default_to_none": true,
       "festival_id_to_instance": {
-        "Ayudha~pUjai": {
+        "Ayudha~pUjA": {
           "jsonClass": "FestivalInstance",
-          "name": "Ayudha~pUjai"
+          "name": "Ayudha~pUjA"
         },
         "buddha~jayantI": {
           "jsonClass": "FestivalInstance",
@@ -80401,7 +80401,7 @@
         "year": 2019
       }
     ],
-    "Ayudha~pUjai": [
+    "Ayudha~pUjA": [
       {
         "day": 7,
         "jsonClass": "Date",

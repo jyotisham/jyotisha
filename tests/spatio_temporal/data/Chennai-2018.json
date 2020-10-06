@@ -61645,9 +61645,9 @@
       },
       "default_to_none": true,
       "festival_id_to_instance": {
-        "Ayudha~pUjai": {
+        "Ayudha~pUjA": {
           "jsonClass": "FestivalInstance",
-          "name": "Ayudha~pUjai"
+          "name": "Ayudha~pUjA"
         },
         "bhRguvAra-subrahmaNya-vratam": {
           "jsonClass": "FestivalInstance",
@@ -80371,7 +80371,7 @@
         "year": 2018
       }
     ],
-    "Ayudha~pUjai": [
+    "Ayudha~pUjA": [
       {
         "day": 19,
         "jsonClass": "Date",

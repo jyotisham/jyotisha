@@ -39,7 +39,7 @@ def write_to_file(ics_calendar, fname):
 def compute_calendar(panchaanga, scripts=[sanscript.DEVANAGARI], all_tags=True, brief=False):
   DATA_ROOT = os.path.join(os.path.dirname(festival.__file__), "data")
 
-  festival_rules = rules.festival_rules_all
+  festival_rules = rules.rules_collection.all
 
   ics_calendar = Calendar()
   # uid_list = []

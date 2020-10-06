@@ -23,7 +23,7 @@ class FestivalInstance(common.JsonObject):
 
   def get_human_names(self):
     from jyotisha.panchaanga.temporal.festival import rules
-    festival_rules = rules.festival_rules_all
+    festival_rules = rules.rules_collection.all
     fest_details = festival_rules.get(self.name, rules.HinduCalendarEvent())
     if fest_details.names is None:
       fest_details.names = {"sa": [self.name]}

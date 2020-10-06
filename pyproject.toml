@@ -1,0 +1,11 @@
+[tool.pytest.ini_options]
+minversion = "6.0"
+# Options explored at https://qxf2.com/blog/pytest-command-line-options/ .
+addopts = "-ra"
+testpaths = [
+    "tests",
+]
+log_file = "pytest.local"
+log_file_level = "DEBUG"
+log_cli = true
+#log-cli-level = "DEBUG"

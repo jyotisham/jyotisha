@@ -275,7 +275,8 @@ class FestivalAssigner(PeriodicPanchaangaApplier):
         lunar_y_start_d.append(d)
 
     period_start_year = self.panchaanga.start_date.year
-    from jyotisha.panchaanga.temporal.festival.rules import festival_rules_all
+    from jyotisha.panchaanga.temporal.festival.rules import rules_collection
+    festival_rules_all = rules_collection.all
     for festival_name in festival_rules_all:
       if festival_name in self.panchaanga.festival_id_to_days and festival_rules_all[festival_name].timing.year_start is not None:
         fest_start_year = festival_rules_all[festival_name].timing.year_start
@@ -335,7 +336,7 @@ class MiscFestivalAssigner(FestivalAssigner):
     self.assign_agni_nakshatra(debug_festivals=debug)
     # ASSIGN ALL FESTIVALS FROM adyatithi submodule
     # festival_rules = get_festival_rules_dict(os.path.join(CODE_ROOT, 'panchaanga/data/festival_rules_test.json'))
-    festival_rules = {**rules.festival_rules_solar, **rules.festival_rules_lunar}
+    festival_rules = {**rules.rules_collection.sidereal_solar, **rules.rules_collection.lunar}
 
     assert "tripurOtsavaH" in festival_rules
     self.assign_festivals_from_rules(festival_rules, debug_festivals=debug)
@@ -380,7 +381,7 @@ class MiscFestivalAssigner(FestivalAssigner):
       #                                        ((self.panchaanga.weekday_start - 1 + self.panchaanga.festival_id_to_days['yajurvEda-upAkarma'][
       #                                            0] - 5) % 7)]
 
-    relative_festival_rules = rules.festival_rules_rel
+    relative_festival_rules = rules.rules_collection.relative
 
     for festival_name in relative_festival_rules:
       offset = int(relative_festival_rules[festival_name].timing.offset)

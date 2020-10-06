@@ -178,7 +178,7 @@ class HinduCalendarEvent(common.JsonObject):
     else:
       if only_descriptions:
         tag_list = '/'.join(self.tags)
-        return "%(base_dir)s/other/%(tags)s/%(id)s__info.toml" % dict(
+        return "%(base_dir)s/description_only/%(tags)s/%(id)s__info.toml" % dict(
           base_dir=base_dir,
           tags=tag_list,
           id=self.id.replace('/','__').strip('{}')
@@ -349,9 +349,10 @@ class HinduCalendarEvent(common.JsonObject):
 
 def get_festival_rules_map(dir_path):
   toml_file_paths = sorted(Path(dir_path).glob("**/*.toml"))
-  if len(toml_file_paths) == 0:
-    raise ValueError
   festival_rules = {}
+  if len(toml_file_paths) == 0:
+    logging.warning("No festival rule found at %s", dir_path)
+    return festival_rules
   for file_path in toml_file_paths:
     event = HinduCalendarEvent.read_from_file(filename=str(file_path))
     festival_rules[event.id] = event
@@ -417,13 +418,29 @@ common.update_json_class_index(sys.modules[__name__])
 
 
 DATA_ROOT = os.path.join(os.path.dirname(__file__), "data")
-festival_rules_lunar = get_festival_rules_map(
-  os.path.join(DATA_ROOT, 'lunar_month'))
-festival_rules_solar = get_festival_rules_map(
-  os.path.join(DATA_ROOT, 'sidereal_solar_month'))
-festival_rules_rel = get_festival_rules_map(
-  os.path.join(DATA_ROOT, 'relative_event'))
-festival_rules_desc_only = get_festival_rules_map(
-  os.path.join(DATA_ROOT, 'other'))
-festival_rules_all = {**festival_rules_solar, **festival_rules_lunar, **festival_rules_rel, **festival_rules_desc_only}
+
+class RulesCollection():
+  def __init__(self, repos=["general", "tamil"]):
+    self.repos = repos
+    self.lunar = {}
+    self.sidereal_solar = {}
+    self.relative = {}
+    self.desc_only = {}
+    self.all = {}
+    self.set_rule_dicts()
+
+  def set_rule_dicts(self):
+    for repo in self.repos:
+      self.lunar.update(get_festival_rules_map(
+        os.path.join(DATA_ROOT, repo, 'lunar_month')))
+      self.sidereal_solar.update(get_festival_rules_map(
+        os.path.join(DATA_ROOT, repo, 'sidereal_solar_month')))
+      self.relative.update(get_festival_rules_map(
+        os.path.join(DATA_ROOT, repo, 'relative_event')))
+      self.desc_only.update(get_festival_rules_map(
+        os.path.join(DATA_ROOT, repo, 'description_only')))
+    self.all = {**self.sidereal_solar, **self.lunar, **self.relative, **self.desc_only}
+  
+rules_collection = RulesCollection()
+
 
