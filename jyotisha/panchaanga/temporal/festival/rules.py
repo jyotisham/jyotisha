@@ -197,6 +197,10 @@ class HinduCalendarEvent(common.JsonObject):
           logging.error(str(self))
           raise 
 
+  def get_url(self):
+    from urllib.parse import quote
+    return quote(self.get_storage_file_name(base_dir=self.repo.base_url))
+
   def get_description_string(self, script, include_url=False, include_images=False, use_markup=False,
                              include_shlokas=False, is_brief=False, truncate=False):
     # Get the Blurb
@@ -249,10 +253,7 @@ class HinduCalendarEvent(common.JsonObject):
 
     # Get the URL
     if include_url:
-      base_url = 'https://github.com/sanskrit-coders/adyatithi/tree/master'
-      url = "%(base_dir)s/%(rest)s" % dict(
-        base_dir=base_url,
-        rest=self.get_storage_file_name(base_dir=self.repo))
+      url = self.get_url()
 
     # Get the description
     description_string = ''
@@ -401,8 +402,19 @@ common.update_json_class_index(sys.modules[__name__])
 
 DATA_ROOT = os.path.join(os.path.dirname(__file__), "data")
 
-class RulesCollection():
-  def __init__(self, repos=["general", "tamil", "mahApuruSha/kAnchI-maTha", "mahApuruSha/ALvAr", "mahApuruSha/nAyanAr", "temples/venkaTAchala"]):
+
+class RulesRepo(common.JsonObject):
+  def __init__(self, name, path=None, base_url='https://github.com/sanskrit-coders/adyatithi/tree/master'):
+    self.name = name
+    self.path = path if path is not None else os.path.join(DATA_ROOT, name)
+    self.base_url = os.path.join(base_url, name)
+
+
+rule_repos = [RulesRepo(name="general"), RulesRepo(name="tamil"), RulesRepo(name="mahApuruSha/kAnchI-maTha"), RulesRepo(name="mahApuruSha/ALvAr"), RulesRepo(name="mahApuruSha/nAyanAr"), RulesRepo(name="temples/venkaTAchala"), RulesRepo(name="temples/Andhra"), RulesRepo(name="temples/Tamil"), RulesRepo(name="temples/Kerala"), RulesRepo(name="temples/Odisha"), RulesRepo(name="temples/North")]
+
+
+class RulesCollection(common.JsonObject):
+  def __init__(self, repos=rule_repos):
     self.repos = repos
     self.lunar = {}
     self.sidereal_solar = {}
@@ -414,13 +426,13 @@ class RulesCollection():
   def set_rule_dicts(self):
     for repo in self.repos:
       self.lunar.update(get_festival_rules_map(
-        os.path.join(DATA_ROOT, repo, 'lunar_month'), repo=repo))
+        os.path.join(DATA_ROOT, repo.path, 'lunar_month'), repo=repo))
       self.sidereal_solar.update(get_festival_rules_map(
-        os.path.join(DATA_ROOT, repo, 'sidereal_solar_month'), repo=repo))
+        os.path.join(DATA_ROOT, repo.path, 'sidereal_solar_month'), repo=repo))
       self.relative.update(get_festival_rules_map(
-        os.path.join(DATA_ROOT, repo, 'relative_event'), repo=repo))
+        os.path.join(DATA_ROOT, repo.path, 'relative_event'), repo=repo))
       self.desc_only.update(get_festival_rules_map(
-        os.path.join(DATA_ROOT, repo, 'description_only'), repo=repo))
+        os.path.join(DATA_ROOT, repo.path, 'description_only'), repo=repo))
     self.all = {**self.sidereal_solar, **self.lunar, **self.relative, **self.desc_only}
   
 rules_collection = RulesCollection()

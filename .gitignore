@@ -20,3 +20,4 @@ config_local.json
 jyotisha/panchaanga/temporal/data/festival_rules_test.json
 tests/update_test_json.py
 *.swp
+/jyotisha/panchaanga/temporal/festival/data/migrated
