@@ -16,6 +16,10 @@ DATA_ROOT = os.path.join(os.path.dirname(festival.__file__), "data")
 
 
 class FestivalAssigner(PeriodicPanchaangaApplier):
+  def __init__(self, panchaanga):
+    super(FestivalAssigner, self).__init__(panchaanga=panchaanga)
+    self.rules_collection = rules.RulesCollection.get_cached(repos=tuple(panchaanga.computation_system.options.fest_repos))
+
   def add_festival(self, festival_name, d):
     if festival_name in self.panchaanga.festival_id_to_days:
       if self.daily_panchaangas[d].date not in self.panchaanga.festival_id_to_days[festival_name]:
@@ -276,8 +280,7 @@ class FestivalAssigner(PeriodicPanchaangaApplier):
         lunar_y_start_d.append(d)
 
     period_start_year = self.panchaanga.start_date.year
-    from jyotisha.panchaanga.temporal.festival.rules import rules_collection
-    festival_rules_all = rules_collection.all
+    festival_rules_all = self.rules_collection.all
     for festival_name in festival_rules_all:
       if festival_name in self.panchaanga.festival_id_to_days and festival_rules_all[festival_name].timing.year_start is not None:
         fest_start_year = festival_rules_all[festival_name].timing.year_start
@@ -332,12 +335,13 @@ class FestivalAssigner(PeriodicPanchaangaApplier):
 class MiscFestivalAssigner(FestivalAssigner):
   def __init__(self, panchaanga):
     super(MiscFestivalAssigner, self).__init__(panchaanga=panchaanga)
-  
+
+
   def assign_all(self, debug=False):
     self.assign_agni_nakshatra(debug_festivals=debug)
     # ASSIGN ALL FESTIVALS FROM adyatithi submodule
     # festival_rules = get_festival_rules_dict(os.path.join(CODE_ROOT, 'panchaanga/data/festival_rules_test.json'))
-    festival_rules = {**rules.rules_collection.sidereal_solar, **rules.rules_collection.lunar}
+    festival_rules = {**self.rules_collection.sidereal_solar, **self.rules_collection.lunar}
 
     assert "tripurOtsavaH" in festival_rules
     self.assign_festivals_from_rules(festival_rules, debug_festivals=debug)
@@ -382,7 +386,7 @@ class MiscFestivalAssigner(FestivalAssigner):
       #                                        ((self.panchaanga.weekday_start - 1 + self.panchaanga.festival_id_to_days['yajurvEda-upAkarma'][
       #                                            0] - 5) % 7)]
 
-    relative_festival_rules = rules.rules_collection.relative
+    relative_festival_rules = self.rules_collection.relative
 
     for festival_name in relative_festival_rules:
       offset = int(relative_festival_rules[festival_name].timing.offset)

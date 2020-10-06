@@ -21,9 +21,9 @@ class FestivalInstance(common.JsonObject):
     self.exclude = exclude
     self.ordinal = ordinal
 
-  def get_human_names(self):
+  def get_human_names(self, fest_details_dict):
+    festival_rules = fest_details_dict
     from jyotisha.panchaanga.temporal.festival import rules
-    festival_rules = rules.rules_collection.all
     fest_details = festival_rules.get(self.name, rules.HinduCalendarEvent())
     if fest_details.names is None:
       fest_details.names = {"sa": [self.name]}
@@ -31,8 +31,8 @@ class FestivalInstance(common.JsonObject):
     names = copy.deepcopy(fest_details.names)
     return names
 
-  def get_best_transliterated_name(self, scripts):
-    names = self.get_human_names()
+  def get_best_transliterated_name(self, scripts, fest_details_dict):
+    names = self.get_human_names(fest_details_dict=fest_details_dict)
     languages = list(names.keys())
     language_scripts = [language_code_to_script.get(language, scripts[0]) for language in languages]
     for script in scripts:
@@ -43,8 +43,8 @@ class FestivalInstance(common.JsonObject):
         continue
     return None
 
-  def tex_code(self, scripts, timezone):
-    name_details = self.get_best_transliterated_name(scripts=scripts)
+  def tex_code(self, scripts, timezone, fest_details_dict):
+    name_details = self.get_best_transliterated_name(scripts=scripts, fest_details_dict=fest_details_dict)
     if name_details["script"] == sanscript.TAMIL:
       name = '\\tamil{%s}' % name_details["text"]
     else:
@@ -81,8 +81,8 @@ class TransitionFestivalInstance(FestivalInstance):
     self.status_1_hk = status_1_hk
     self.status_2_hk = status_2_hk
 
-  def tex_code(self, scripts, timezone=None):
-    name_details = self.get_best_transliterated_name(scripts=scripts)
+  def tex_code(self, scripts, timezone, fest_details_dict):
+    name_details = self.get_best_transliterated_name(scripts=scripts, fest_details_dict=fest_details_dict)
     if name_details["script"] == sanscript.TAMIL:
       name = '\\tamil{%s}' % name_details["text"]
     else:

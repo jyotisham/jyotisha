@@ -12,6 +12,68 @@
     "jsonClass": "ComputationSystem",
     "lunar_month_assigner_type": "MULTI_NEW_MOON_SOLAR_MONTH_ADHIKA",
     "options": {
+      "fest_repos": [
+        {
+          "base_url": "https://github.com/sanskrit-coders/adyatithi/tree/master/general",
+          "jsonClass": "RulesRepo",
+          "name": "general"
+        },
+        {
+          "base_url": "https://github.com/sanskrit-coders/adyatithi/tree/master/tamil",
+          "jsonClass": "RulesRepo",
+          "name": "tamil"
+        },
+        {
+          "base_url": "https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/general",
+          "jsonClass": "RulesRepo",
+          "name": "mahApuruSha/general"
+        },
+        {
+          "base_url": "https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha",
+          "jsonClass": "RulesRepo",
+          "name": "mahApuruSha/kAnchI-maTha"
+        },
+        {
+          "base_url": "https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/ALvAr",
+          "jsonClass": "RulesRepo",
+          "name": "mahApuruSha/ALvAr"
+        },
+        {
+          "base_url": "https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/nAyanAr",
+          "jsonClass": "RulesRepo",
+          "name": "mahApuruSha/nAyanAr"
+        },
+        {
+          "base_url": "https://github.com/sanskrit-coders/adyatithi/tree/master/temples/venkaTAchala",
+          "jsonClass": "RulesRepo",
+          "name": "temples/venkaTAchala"
+        },
+        {
+          "base_url": "https://github.com/sanskrit-coders/adyatithi/tree/master/temples/Andhra",
+          "jsonClass": "RulesRepo",
+          "name": "temples/Andhra"
+        },
+        {
+          "base_url": "https://github.com/sanskrit-coders/adyatithi/tree/master/temples/Tamil",
+          "jsonClass": "RulesRepo",
+          "name": "temples/Tamil"
+        },
+        {
+          "base_url": "https://github.com/sanskrit-coders/adyatithi/tree/master/temples/Kerala",
+          "jsonClass": "RulesRepo",
+          "name": "temples/Kerala"
+        },
+        {
+          "base_url": "https://github.com/sanskrit-coders/adyatithi/tree/master/temples/Odisha",
+          "jsonClass": "RulesRepo",
+          "name": "temples/Odisha"
+        },
+        {
+          "base_url": "https://github.com/sanskrit-coders/adyatithi/tree/master/temples/North",
+          "jsonClass": "RulesRepo",
+          "name": "temples/North"
+        }
+      ],
       "jsonClass": "ComputationOptions"
     }
   },
@@ -1026,7 +1088,8 @@
       "julian_day_start": 2458122.2708,
       "lunar_month_sunrise": 10,
       "shraaddha_tithi": [
-        0
+        0,
+        18
       ],
       "solar_sidereal_date_sunset": {
         "day": 20,
@@ -1228,7 +1291,8 @@
       "julian_day_start": 2458123.2708,
       "lunar_month_sunrise": 10,
       "shraaddha_tithi": [
-        0
+        0,
+        19
       ],
       "solar_sidereal_date_sunset": {
         "day": 21,
@@ -5365,8 +5429,7 @@
       "julian_day_start": 2458143.2708,
       "lunar_month_sunrise": 11,
       "shraaddha_tithi": [
-        8,
-        9
+        0
       ],
       "solar_sidereal_date_sunset": {
         "day": 12,
@@ -6908,8 +6971,7 @@
       "julian_day_start": 2458150.2708,
       "lunar_month_sunrise": 11,
       "shraaddha_tithi": [
-        16,
-        17
+        0
       ],
       "solar_sidereal_date_sunset": {
         "day": 19,
@@ -12344,8 +12406,7 @@
       "julian_day_start": 2458176.2708,
       "lunar_month_sunrise": 12,
       "shraaddha_tithi": [
-        12,
-        13
+        0
       ],
       "solar_sidereal_date_sunset": {
         "day": 15,
@@ -15656,7 +15717,9 @@
       "julian_day_start": 2458192.2708,
       "lunar_month_sunrise": 12,
       "shraaddha_tithi": [
-        0
+        0,
+        28,
+        28
       ],
       "solar_sidereal_date_sunset": {
         "day": 1,
@@ -16924,8 +16987,7 @@
       "julian_day_start": 2458198.2708,
       "lunar_month_sunrise": 1,
       "shraaddha_tithi": [
-        4,
-        5
+        0
       ],
       "solar_sidereal_date_sunset": {
         "day": 7,
@@ -23929,8 +23991,7 @@
       "julian_day_start": 2458231.2708,
       "lunar_month_sunrise": 2,
       "shraaddha_tithi": [
-        8,
-        9
+        0
       ],
       "solar_sidereal_date_sunset": {
         "day": 10,
@@ -40356,8 +40417,7 @@
       "julian_day_start": 2458310.2708,
       "lunar_month_sunrise": 3,
       "shraaddha_tithi": [
-        28,
-        29
+        0
       ],
       "solar_sidereal_date_sunset": {
         "day": 27,
@@ -46900,8 +46960,7 @@
       "julian_day_start": 2458341.2708,
       "lunar_month_sunrise": 4,
       "shraaddha_tithi": [
-        30,
-        1
+        0
       ],
       "solar_sidereal_date_sunset": {
         "day": 26,
@@ -52242,8 +52301,7 @@
       "julian_day_start": 2458366.2708,
       "lunar_month_sunrise": 5,
       "shraaddha_tithi": [
-        25,
-        26
+        0
       ],
       "solar_sidereal_date_sunset": {
         "day": 20,
@@ -59108,8 +59166,7 @@
       "julian_day_start": 2458398.2708,
       "lunar_month_sunrise": 6,
       "shraaddha_tithi": [
-        28,
-        29
+        0
       ],
       "solar_sidereal_date_sunset": {
         "day": 21,
@@ -63830,8 +63887,7 @@
       "julian_day_start": 2458420.2708,
       "lunar_month_sunrise": 7,
       "shraaddha_tithi": [
-        20,
-        21
+        0
       ],
       "solar_sidereal_date_sunset": {
         "day": 12,
@@ -68706,8 +68762,7 @@
       "julian_day_start": 2458443.2708,
       "lunar_month_sunrise": 8,
       "shraaddha_tithi": [
-        13,
-        14
+        0
       ],
       "solar_sidereal_date_sunset": {
         "day": 5,
@@ -71066,8 +71121,7 @@
       "julian_day_start": 2458454.2708,
       "lunar_month_sunrise": 8,
       "shraaddha_tithi": [
-        25,
-        26
+        0
       ],
       "solar_sidereal_date_sunset": {
         "day": 16,
@@ -75867,6 +75921,8 @@
       "julian_day_start": 2458477.2708,
       "lunar_month_sunrise": 9,
       "shraaddha_tithi": [
+        18,
+        19,
         18,
         19
       ],

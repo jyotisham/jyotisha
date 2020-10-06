@@ -47,6 +47,7 @@ class Panchaanga(common.JsonObject):
 
     self.festival_id_to_days = {}
     self.compute_angas(compute_lagnas=computation_system.options.lagnas)
+    self.update_festival_details()
 
   def compute_angas(self, compute_lagnas=True):
     """Compute the entire panchaanga
@@ -244,7 +245,8 @@ class Panchaanga(common.JsonObject):
     :return:
     """
     self._reset_festivals()
-    TithiAssigner(self).assign_shraaddha_tithi()
+    from jyotisha.panchaanga.temporal.festival import rules
+    TithiAssigner(panchaanga=self).assign_shraaddha_tithi()
     applier.MiscFestivalAssigner(panchaanga=self).assign_all(debug=debug)
     ecliptic.EclipticFestivalAssigner(panchaanga=self).assign_all(debug=debug)
     tithi_festival.TithiFestivalAssigner(panchaanga=self).assign_all(debug=debug)

@@ -15,6 +15,7 @@ import jyotisha.custom_transliteration
 import jyotisha.names
 from jyotisha.panchaanga.spatio_temporal import City, annual
 from jyotisha.panchaanga.temporal import time
+from jyotisha.panchaanga.temporal.festival import rules
 
 logging.basicConfig(
   level=logging.DEBUG,
@@ -76,6 +77,9 @@ def write_monthly_tex(panchaanga, template_file, scripts=[sanscript.DEVANAGARI],
     [y, m, dt, t] = time.jd_to_utc_gregorian(panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
     daily_panchaanga = daily_panchaangas[d]
 
+    rules_collection = rules.RulesCollection.get_cached(repos=tuple(panchaanga.computation_system.options.fest_repos))
+    fest_details_dict = rules_collection.all
+
     if len(daily_panchaanga.festival_id_to_instance) != 0:
       if m != mlast:
         mlast = m
@@ -83,7 +87,7 @@ def write_monthly_tex(panchaanga, template_file, scripts=[sanscript.DEVANAGARI],
 
       print('%s & %s & %s & {\\raggedright %s} \\\\' %
             (MON[m], dt, WDAY[daily_panchaanga.date.get_weekday()],
-             '\\\\'.join([f.tex_code(scripts=scripts, timezone=panchaanga.city.timezone)
+             '\\\\'.join([f.tex_code(scripts=scripts, timezone=panchaanga.city.timezone, fest_details_dict=fest_details_dict)
                           for f in sorted(daily_panchaanga.festival_id_to_instance.values())])))
 
     if m == 12 and dt == 31:
@@ -258,7 +262,7 @@ def write_monthly_tex(panchaanga, template_file, scripts=[sanscript.DEVANAGARI],
       # Using set as an ugly workaround since we may have sometimes assigned the same
       # festival to the same day again!
       month_text += '\n' + ('{%s}' % '\\eventsep '.join(
-        [f.tex_code(scripts=scripts, timezone=panchaanga.city.timezone) for f in
+        [f.tex_code(scripts=scripts, timezone=panchaanga.city.timezone, fest_details_dict=fest_details_dict) for f in
          sorted(daily_panchaanga.festival_id_to_instance.values())]))
     else:
       if daily_panchaanga.date.get_weekday() == 0:
@@ -274,7 +278,7 @@ def write_monthly_tex(panchaanga, template_file, scripts=[sanscript.DEVANAGARI],
         # Using set as an ugly workaround since we may have sometimes assigned the same
         # festival to the same day again!
         W6D1 += '\n' + ('{%s}' % '\\eventsep '.join(
-          [f.tex_code(scripts=scripts, timezone=Timezone(panchaanga.city.timezone)) for f in sorted(daily_panchaanga.festival_id_to_instance.values())]))
+          [f.tex_code(scripts=scripts, timezone=Timezone(panchaanga.city.timezone), fest_details_dict=fest_details_dict) for f in sorted(daily_panchaanga.festival_id_to_instance.values())]))
       elif daily_panchaanga.date.get_weekday() == 1:
         W6D2 = '\n' + ('\\caldata{\\textcolor{%s}{%s}}{%s{%s}}%%' %
                        (day_colours[daily_panchaanga.date.get_weekday()], dt, month_data,
@@ -288,7 +292,7 @@ def write_monthly_tex(panchaanga, template_file, scripts=[sanscript.DEVANAGARI],
         # Using set as an ugly workaround since we may have sometimes assigned the same
         # festival to the same day again!
         W6D2 += '\n' + ('{%s}' % '\\eventsep '.join(
-          [f.tex_code(scripts=scripts, timezone=panchaanga.city.timezone) for f in sorted(daily_panchaanga.festival_id_to_instance.values())]))
+          [f.tex_code(scripts=scripts, timezone=panchaanga.city.timezone, fest_details_dict=fest_details_dict) for f in sorted(daily_panchaanga.festival_id_to_instance.values())]))
       else:
         # Cannot be here, since we cannot have more than 2 days in week 6 of any month!
         pass

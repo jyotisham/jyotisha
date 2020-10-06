@@ -27,8 +27,10 @@ class PeriodicPanchaangaApplier(JsonObject):
 
 
 class ComputationOptions(JsonObject):
-  def __init__(self, lagnas=None, fest_ids_included=None, fest_ids_excluded=None, fest_tags_included=None, fest_tags_excluded=None):
+  def __init__(self, lagnas=None, fest_repos=None, fest_ids_included=None, fest_ids_excluded=None, fest_tags_included=None, fest_tags_excluded=None):
     self.lagnas = lagnas
+    from jyotisha.panchaanga.temporal.festival import rules
+    self.fest_repos = fest_repos if fest_repos is not None else rules.rule_repos
     self.fest_ids_excluded = fest_ids_excluded
     self.fest_ids_included = fest_ids_included
     self.fest_tags_excluded = fest_tags_excluded

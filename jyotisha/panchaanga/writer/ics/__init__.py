@@ -39,7 +39,8 @@ def write_to_file(ics_calendar, fname):
 def compute_calendar(panchaanga, scripts=[sanscript.DEVANAGARI], all_tags=True, brief=False):
   DATA_ROOT = os.path.join(os.path.dirname(festival.__file__), "data")
 
-  festival_rules = rules.rules_collection.all
+  rules_collection = rules.RulesCollection.get_cached(repos=tuple(panchaanga.computation_system.options.fest_repos))
+  fest_details_dict = rules_collection.all
 
   ics_calendar = Calendar()
   # uid_list = []
@@ -69,8 +70,8 @@ def compute_calendar(panchaanga, scripts=[sanscript.DEVANAGARI], all_tags=True, 
             stext_chk = stext[:fest_num_loc]
           else:
             stext_chk = stext
-          if stext_chk in festival_rules:
-            tag_list = (festival_rules[stext_chk].tags.split(','))
+          if stext_chk in fest_details_dict:
+            tag_list = (fest_details_dict[stext_chk].tags.split(','))
             incl_tags = ['CommonFestivals', 'MonthlyVratam', 'RareDays', 'AmavasyaDays', 'Dashavataram', 'SunSankranti']
             if set(tag_list).isdisjoint(set(incl_tags)):
               continue
@@ -83,8 +84,8 @@ def compute_calendar(panchaanga, scripts=[sanscript.DEVANAGARI], all_tags=True, 
           event.add('dtstart', date(y, m, dt))
           event.add('dtend', (datetime(y, m, dt) + timedelta(48)).date())
 
-          if stext in festival_rules:
-            desc = festival_rules[stext].get_description_string(
+          if stext in fest_details_dict:
+            desc = fest_details_dict[stext].get_description_string(
               script=scripts[0], include_url=True, include_shlokas=True, truncate=True)
           else:
             logging.warning('No description found for festival %s!' % stext)
@@ -129,8 +130,8 @@ def compute_calendar(panchaanga, scripts=[sanscript.DEVANAGARI], all_tags=True, 
               event.add('dtend', datetime(y, m, dt, int(t2[7:9]), int(t2[10:12]),
                                           tzinfo=tz(panchaanga.city.timezone)))
 
-          if stext in festival_rules:
-            festival_event = festival_rules[stext]
+          if stext in fest_details_dict:
+            festival_event = fest_details_dict[stext]
             desc = festival_event.get_description_string(script=scripts[0], include_url=True,
                                                          include_shlokas=True, truncate=True)
           else:
@@ -144,8 +145,8 @@ def compute_calendar(panchaanga, scripts=[sanscript.DEVANAGARI], all_tags=True, 
           event.add('dtstart', date(y, m, dt))
           event.add('dtend', (datetime(y, m, dt) + timedelta(1)).date())
 
-          if stext in festival_rules:
-            festival_event = festival_rules[stext]
+          if stext in fest_details_dict:
+            festival_event = fest_details_dict[stext]
             desc = festival_event.get_description_string(script=scripts[0], include_url=True,
                                                          include_shlokas=True, truncate=True)
           else:
@@ -224,14 +225,14 @@ def compute_calendar(panchaanga, scripts=[sanscript.DEVANAGARI], all_tags=True, 
           event.add('dtend', (datetime(y, m, dt) + timedelta(1)).date())
 
           if re.match('.*-.*-EkAdazI', stext) is None and stext.find('saGkrAntiH') == -1:
-            if stext in festival_rules:
-              desc = festival_rules[stext].get_description_string(
+            if stext in fest_details_dict:
+              desc = fest_details_dict[stext].get_description_string(
                 script=scripts[0], include_url=True, include_shlokas=True, truncate=True, include_images=False)
             else:
               if re.match('aGgArakI.*saGkaTahara-caturthI-vratam', stext):
                 stext = stext.replace('aGgArakI~', '')
-                if stext in festival_rules:
-                  desc = festival_rules[stext].get_description_string(
+                if stext in fest_details_dict:
+                  desc = fest_details_dict[stext].get_description_string(
                     script=scripts[0])
                   desc += 'When `caturthI` occurs on a Tuesday, it is known as `aGgArakI` and is even more sacred.'
                 else:
@@ -239,7 +240,7 @@ def compute_calendar(panchaanga, scripts=[sanscript.DEVANAGARI], all_tags=True, 
               else:
                 # Check approx. match
                 matched_festivals = []
-                for fest_key in festival_rules:
+                for fest_key in fest_details_dict:
                   if stext.startswith(fest_key):
                     matched_festivals += [fest_key]
                 if matched_festivals == []:
@@ -248,15 +249,15 @@ def compute_calendar(panchaanga, scripts=[sanscript.DEVANAGARI], all_tags=True, 
                   logging.warning('No exact match found for festival %s! Found more than one approximate match: %s' % (
                   stext, str(matched_festivals)))
                 else:
-                  desc = festival_rules[matched_festivals[0]].get_description_string(script=scripts[0],
+                  desc = fest_details_dict[matched_festivals[0]].get_description_string(script=scripts[0],
                                                                                  include_url=True, include_shlokas=True,
                                                                                  truncate=True)
 
           elif stext.find('saGkrAntiH') != -1:
             # Handle Sankranti descriptions differently
             planet_trans = stext.split('~')[0]  # get rid of ~(rAshi name) etc.
-            if planet_trans in festival_rules:
-              desc = festival_rules[planet_trans].get_description_string(
+            if planet_trans in fest_details_dict:
+              desc = fest_details_dict[planet_trans].get_description_string(
                 script=scripts[0], include_url=True, include_shlokas=True, truncate=True)
             else:
               logging.warning('No description found for festival %s!' % planet_trans)
@@ -268,8 +269,8 @@ def compute_calendar(panchaanga, scripts=[sanscript.DEVANAGARI], all_tags=True, 
             if ekad_suff_pos != -1:
               # ekad_suff = ekad[ekad_suff_pos + 1:-1]
               ekad = ekad[:ekad_suff_pos]
-            if ekad in festival_rules:
-              desc = festival_rules[ekad].get_description_string(
+            if ekad in fest_details_dict:
+              desc = fest_details_dict[ekad].get_description_string(
                 script=scripts[0], include_url=True, include_shlokas=True, truncate=True)
             else:
               logging.warning('No description found for Ekadashi festival %s (%s)!' % (ekad, stext))

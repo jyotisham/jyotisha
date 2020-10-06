@@ -5,6 +5,8 @@ import re
 import sys
 from pathlib import Path
 
+import methodtools
+
 from indic_transliteration import xsanscript as sanscript
 from sanskrit_data.schema import common
 
@@ -394,12 +396,6 @@ class HinduCalendarEventOld(common.JsonObject):
       event.anchor_festival_id = legacy_event_dict["Relative Festival"]
     return event
 
-
-# Essential for depickling to work.
-common.update_json_class_index(sys.modules[__name__])
-# logging.debug(common.json_class_index)
-
-
 DATA_ROOT = os.path.join(os.path.dirname(__file__), "data")
 
 
@@ -412,6 +408,7 @@ class RulesRepo(common.JsonObject):
   def get_path(self):
     #  We don't set the path in __init__ so as to avoid storing machine-specific paths for canonical repos.
     return self.path if self.path is not None else os.path.join(DATA_ROOT, self.name)
+
 
 rule_repos = [RulesRepo(name="general"), RulesRepo(name="tamil"), RulesRepo(name="mahApuruSha/general"), RulesRepo(name="mahApuruSha/kAnchI-maTha"), RulesRepo(name="mahApuruSha/ALvAr"), RulesRepo(name="mahApuruSha/nAyanAr"), RulesRepo(name="temples/venkaTAchala"), RulesRepo(name="temples/Andhra"), RulesRepo(name="temples/Tamil"), RulesRepo(name="temples/Kerala"), RulesRepo(name="temples/Odisha"), RulesRepo(name="temples/North")]
 
@@ -426,6 +423,11 @@ class RulesCollection(common.JsonObject):
     self.all = {}
     self.set_rule_dicts()
 
+  @methodtools.lru_cache()  # the order is important!
+  @classmethod
+  def get_cached(cls, repos):
+    return RulesCollection(repos=repos)
+
   def set_rule_dicts(self):
     for repo in self.repos:
       self.lunar.update(get_festival_rules_map(
@@ -437,7 +439,11 @@ class RulesCollection(common.JsonObject):
       self.desc_only.update(get_festival_rules_map(
         os.path.join(DATA_ROOT, repo.get_path(), 'description_only'), repo=repo))
     self.all = {**self.sidereal_solar, **self.lunar, **self.relative, **self.desc_only}
-  
-rules_collection = RulesCollection()
+
+
+
+# Essential for depickling to work.
+common.update_json_class_index(sys.modules[__name__])
+# logging.debug(common.json_class_index)
 
 

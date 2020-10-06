@@ -19,6 +19,7 @@ import jyotisha.panchaanga.temporal
 
 from jyotisha.panchaanga.spatio_temporal import City
 from jyotisha.panchaanga.temporal import zodiac, time
+from jyotisha.panchaanga.temporal.festival import rules
 from jyotisha.panchaanga.temporal.time import Timezone
 
 logging.basicConfig(
@@ -38,6 +39,7 @@ def emit(panchaanga, time_format="hh:mm", scripts=[sanscript.DEVANAGARI], comput
            5: 'MAY', 6: 'JUNE', 7: 'JULY', 8: 'AUGUST', 9: 'SEPTEMBER',
            10: 'OCTOBER', 11: 'NOVEMBER', 12: 'DECEMBER'}
   WDAY = {0: 'Sun', 1: 'Mon', 2: 'Tue', 3: 'Wed', 4: 'Thu', 5: 'Fri', 6: 'Sat'}
+
 
   template_file = open(os.path.join(os.path.dirname(__file__), 'templates/daily_cal_template.tex'))
 
@@ -300,10 +302,13 @@ def emit(panchaanga, time_format="hh:mm", scripts=[sanscript.DEVANAGARI], comput
             % (tithi_data_str, nakshatra_data_str, rashi_data_str, yoga_data_str,
                karana_data_str, ''), file=output_stream)
 
+    rules_collection = rules.RulesCollection.get_cached(repos=tuple(panchaanga.computation_system.options.fest_repos))
+    fest_details_dict = rules_collection.all
+
     # Using set as an ugly workaround since we may have sometimes assigned the same
     # festival to the same day again!
     print('{%s}' % '\\eventsep '.join(
-      [f.tex_code(scripts=scripts, timezone=Timezone(timezone_id=panchaanga.city.timezone)) for f in
+      [f.tex_code(scripts=scripts, timezone=Timezone(timezone_id=panchaanga.city.timezone), fest_details_dict=fest_details_dict) for f in
        sorted(daily_panchaanga.festival_id_to_instance.values())]), file=output_stream)
 
     print('{%s} ' % WDAY[daily_panchaanga.date.get_weekday()], file=output_stream)
