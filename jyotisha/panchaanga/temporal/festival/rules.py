@@ -402,7 +402,7 @@ common.update_json_class_index(sys.modules[__name__])
 DATA_ROOT = os.path.join(os.path.dirname(__file__), "data")
 
 class RulesCollection():
-  def __init__(self, repos=["general", "tamil", "kAnchI-maTha"]):
+  def __init__(self, repos=["general", "tamil", "kAnchI-maTha", "temples/venkaTAchala"]):
     self.repos = repos
     self.lunar = {}
     self.sidereal_solar = {}

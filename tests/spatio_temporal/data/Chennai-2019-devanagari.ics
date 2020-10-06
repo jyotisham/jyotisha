@@ -768,9 +768,9 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of every lunar month (moonris
  e/puurvaviddha (default)).<br/>Lord Malayappa rides on Garuda Vahanam in a
  ll four mada streets. This usually happens during Brahmotsavams\, but sinc
  e 2006\, this has been happening on every pūrṇimā.<br/><br/>https://gi
- thub.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/0
- 0/15/vEGkaTAcalE pUrNimA~garuDa-sEvA__info.toml<br/><br/>#AndhraTempleFest
- ivals
+ thub.com/sanskrit-coders/adyatithi/tree/master/temples/venkaTAchala/lunar_
+ month/tithi/00/15/vEGkaTAcalE pUrNimA~garuDa-sEvA__info.toml<br/><br/>#And
+ hraTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2433,9 +2433,9 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of every lunar month (moonris
  e/puurvaviddha (default)).<br/>Lord Malayappa rides on Garuda Vahanam in a
  ll four mada streets. This usually happens during Brahmotsavams\, but sinc
  e 2006\, this has been happening on every pūrṇimā.<br/><br/>https://gi
- thub.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/0
- 0/15/vEGkaTAcalE pUrNimA~garuDa-sEvA__info.toml<br/><br/>#AndhraTempleFest
- ivals
+ thub.com/sanskrit-coders/adyatithi/tree/master/temples/venkaTAchala/lunar_
+ month/tithi/00/15/vEGkaTAcalE pUrNimA~garuDa-sEvA__info.toml<br/><br/>#And
+ hraTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3320,9 +3320,10 @@ BEGIN:VEVENT
 SUMMARY:Veṅkaṭāchale Plavotsava-Ārambhaḥ
 DTSTART;VALUE=DATE:20190316
 DTEND;VALUE=DATE:20190317
-DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/gener
- al/relative_event/vEGkaTAcalE plavOtsava-samApanam/offset__-4/vEGkaTAcalE 
- plavOtsava-ArambhaH__info.toml<br/><br/>#AndhraTempleFestivals
+DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/templ
+ es/venkaTAchala/relative_event/vEGkaTAcalE plavOtsava-samApanam/offset__-4
+ /vEGkaTAcalE plavOtsava-ArambhaH__info.toml<br/><br/>#AndhraTempleFestival
+ s
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3417,9 +3418,9 @@ BEGIN:VEVENT
 SUMMARY:Veṅkaṭāchale Plavotsavaḥ 2
 DTSTART;VALUE=DATE:20190317
 DTEND;VALUE=DATE:20190318
-DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/gener
- al/relative_event/vEGkaTAcalE plavOtsava-samApanam/offset__-3/vEGkaTAcalE 
- plavOtsavaH~2__info.toml<br/><br/>#AndhraTempleFestivals
+DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/templ
+ es/venkaTAchala/relative_event/vEGkaTAcalE plavOtsava-samApanam/offset__-3
+ /vEGkaTAcalE plavOtsavaH~2__info.toml<br/><br/>#AndhraTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3529,9 +3530,9 @@ BEGIN:VEVENT
 SUMMARY:Veṅkaṭāchale Plavotsavaḥ 3
 DTSTART;VALUE=DATE:20190318
 DTEND;VALUE=DATE:20190319
-DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/gener
- al/relative_event/vEGkaTAcalE plavOtsava-samApanam/offset__-2/vEGkaTAcalE 
- plavOtsavaH~3__info.toml<br/><br/>#AndhraTempleFestivals
+DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/templ
+ es/venkaTAchala/relative_event/vEGkaTAcalE plavOtsava-samApanam/offset__-2
+ /vEGkaTAcalE plavOtsavaH~3__info.toml<br/><br/>#AndhraTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3561,9 +3562,9 @@ BEGIN:VEVENT
 SUMMARY:Veṅkaṭāchale Plavotsavaḥ 4
 DTSTART;VALUE=DATE:20190319
 DTEND;VALUE=DATE:20190320
-DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/gener
- al/relative_event/vEGkaTAcalE plavOtsava-samApanam/offset__-1/vEGkaTAcalE 
- plavOtsavaH~4__info.toml<br/><br/>#AndhraTempleFestivals
+DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/templ
+ es/venkaTAchala/relative_event/vEGkaTAcalE plavOtsava-samApanam/offset__-1
+ /vEGkaTAcalE plavOtsavaH~4__info.toml<br/><br/>#AndhraTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3646,9 +3647,9 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of every lunar month (moonris
  e/puurvaviddha (default)).<br/>Lord Malayappa rides on Garuda Vahanam in a
  ll four mada streets. This usually happens during Brahmotsavams\, but sinc
  e 2006\, this has been happening on every pūrṇimā.<br/><br/>https://gi
- thub.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/0
- 0/15/vEGkaTAcalE pUrNimA~garuDa-sEvA__info.toml<br/><br/>#AndhraTempleFest
- ivals
+ thub.com/sanskrit-coders/adyatithi/tree/master/temples/venkaTAchala/lunar_
+ month/tithi/00/15/vEGkaTAcalE pUrNimA~garuDa-sEvA__info.toml<br/><br/>#And
+ hraTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3668,8 +3669,8 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of Phālgunaḥ (lunar) month
  i Krishna and Rukmini are offered puja and taken for pleasure ride on floa
  t. During the remaining three days beginning with Trayodasi and ending wit
  h Pournami\, Sri Malayappa ...<br/><br/><br/>https://github.com/sanskrit-c
- oders/adyatithi/tree/master/general/lunar_month/tithi/12/15/vEGkaTAcalE pl
- avOtsava-samApanam__info.toml<br/><br/>#AndhraTempleFestivals
+ oders/adyatithi/tree/master/temples/venkaTAchala/lunar_month/tithi/12/15/v
+ EGkaTAcalE plavOtsava-samApanam__info.toml<br/><br/>#AndhraTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3689,8 +3690,8 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of Phālgunaḥ (lunar) month
  i Krishna and Rukmini are offered puja and taken for pleasure ride on floa
  t. During the remaining three days beginning with Trayodasi and ending wit
  h Pournami\, Sri Malayappa ...<br/><br/><br/>https://github.com/sanskrit-c
- oders/adyatithi/tree/master/general/lunar_month/tithi/12/15/vEGkaTAcalE pl
- avOtsava-samApanam__info.toml<br/><br/>#AndhraTempleFestivals
+ oders/adyatithi/tree/master/temples/venkaTAchala/lunar_month/tithi/12/15/v
+ EGkaTAcalE plavOtsava-samApanam__info.toml<br/><br/>#AndhraTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4946,9 +4947,9 @@ DESCRIPTION:Vasantotsava is an annual festival conducted for three days (T
  am. On the third day\, idols of Sri Rama\, Sita\, Lakshmana\, Anjaneya and
   Sri Krishna (with Rukmini and Satyabhama) are brought to Vasanta Mandapam
   in procession.<br/><br/>https://github.com/sanskrit-coders/adyatithi/tree
- /master/general/relative_event/vEGkaTAcalE vasantOtsava-samApanam/offset__
- -2/vEGkaTAcalE vasantOtsava-ArambhaH__info.toml<br/><br/>#AndhraTempleFest
- ivals
+ /master/temples/venkaTAchala/relative_event/vEGkaTAcalE vasantOtsava-samAp
+ anam/offset__-2/vEGkaTAcalE vasantOtsava-ArambhaH__info.toml<br/><br/>#And
+ hraTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5050,8 +5051,9 @@ DESCRIPTION:Vasantotsava is an annual festival conducted for three days (T
  am. On the third day\, idols of Sri Rama\, Sita\, Lakshmana\, Anjaneya and
   Sri Krishna (with Rukmini and Satyabhama) are brought to Vasanta Mandapam
   in procession.<br/><br/>https://github.com/sanskrit-coders/adyatithi/tree
- /master/general/relative_event/vEGkaTAcalE vasantOtsava-samApanam/offset__
- -1/vEGkaTAcalE vasantOtsavaH__info.toml<br/><br/>#AndhraTempleFestivals
+ /master/temples/venkaTAchala/relative_event/vEGkaTAcalE vasantOtsava-samAp
+ anam/offset__-1/vEGkaTAcalE vasantOtsavaH__info.toml<br/><br/>#AndhraTempl
+ eFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5119,9 +5121,9 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of every lunar month (moonris
  e/puurvaviddha (default)).<br/>Lord Malayappa rides on Garuda Vahanam in a
  ll four mada streets. This usually happens during Brahmotsavams\, but sinc
  e 2006\, this has been happening on every pūrṇimā.<br/><br/>https://gi
- thub.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/0
- 0/15/vEGkaTAcalE pUrNimA~garuDa-sEvA__info.toml<br/><br/>#AndhraTempleFest
- ivals
+ thub.com/sanskrit-coders/adyatithi/tree/master/temples/venkaTAchala/lunar_
+ month/tithi/00/15/vEGkaTAcalE pUrNimA~garuDa-sEvA__info.toml<br/><br/>#And
+ hraTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5141,8 +5143,9 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of Caitraḥ (lunar) month (m
   Sridevi and Bhudevi are taken out in a procession and brought to the Vasa
  nta Mandapam for abhishekam. On the third day\, idols of Sri Rama\, Sita\,
   Lakshmana\, Anjaneya and Sri ...<br/><br/><br/>https://github.com/sanskri
- t-coders/adyatithi/tree/master/general/lunar_month/tithi/01/15/vEGkaTAcalE
-  vasantOtsava-samApanam__info.toml<br/><br/>#AndhraTempleFestivals
+ t-coders/adyatithi/tree/master/temples/venkaTAchala/lunar_month/tithi/01/1
+ 5/vEGkaTAcalE vasantOtsava-samApanam__info.toml<br/><br/>#AndhraTempleFest
+ ivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5162,8 +5165,9 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of Caitraḥ (lunar) month (m
   Sridevi and Bhudevi are taken out in a procession and brought to the Vasa
  nta Mandapam for abhishekam. On the third day\, idols of Sri Rama\, Sita\,
   Lakshmana\, Anjaneya and Sri ...<br/><br/><br/>https://github.com/sanskri
- t-coders/adyatithi/tree/master/general/lunar_month/tithi/01/15/vEGkaTAcalE
-  vasantOtsava-samApanam__info.toml<br/><br/>#AndhraTempleFestivals
+ t-coders/adyatithi/tree/master/temples/venkaTAchala/lunar_month/tithi/01/1
+ 5/vEGkaTAcalE vasantOtsava-samApanam__info.toml<br/><br/>#AndhraTempleFest
+ ivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6356,10 +6360,10 @@ DTEND;VALUE=DATE:20190514
 DESCRIPTION:Sri Venkateshwara Swami mounts Gaja Vahana and Sri devi and Bh
  u Devi take to Palanquins and a procession is taken to Narayanagiri garden
   where the marriage festivities take place on a grand scale.<br/><br/>http
- s://github.com/sanskrit-coders/adyatithi/tree/master/general/relative_even
- t/vEGkaTAcalE padmAvatI-pariNayam (azva-vAhanam)/offset__-1/vEGkaTAcalE pa
- dmAvatI-pariNayOtsava-ArambhaH (gaja-vAhanam)__info.toml<br/><br/>#AndhraT
- empleFestivals
+ s://github.com/sanskrit-coders/adyatithi/tree/master/temples/venkaTAchala/
+ relative_event/vEGkaTAcalE padmAvatI-pariNayam (azva-vAhanam)/offset__-1/v
+ EGkaTAcalE padmAvatI-pariNayOtsava-ArambhaH (gaja-vAhanam)__info.toml<br/>
+ <br/>#AndhraTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6425,9 +6429,9 @@ DTSTART;VALUE=DATE:20190514
 DTEND;VALUE=DATE:20190515
 DESCRIPTION:Observed on Śukla-Daśamī tithi of Vaiśākhaḥ (lunar) mon
  th (sunrise/puurvaviddha (default)).<br/><br/><br/>https://github.com/sans
- krit-coders/adyatithi/tree/master/general/lunar_month/tithi/02/10/vEGkaTAc
- alE padmAvatI-pariNayam (azva-vAhanam)__info.toml<br/><br/>#AndhraTempleFe
- stivals
+ krit-coders/adyatithi/tree/master/temples/venkaTAchala/lunar_month/tithi/0
+ 2/10/vEGkaTAcalE padmAvatI-pariNayam (azva-vAhanam)__info.toml<br/><br/>#A
+ ndhraTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6502,10 +6506,10 @@ SUMMARY:Veṅkaṭāchale Padmāvatī-Pariṇayotsava-Samāpanam (Garuḍa
  -Vāhanam)
 DTSTART;VALUE=DATE:20190515
 DTEND;VALUE=DATE:20190516
-DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/gener
- al/relative_event/vEGkaTAcalE padmAvatI-pariNayam (azva-vAhanam)/offset__0
- 1/vEGkaTAcalE padmAvatI-pariNayOtsava-samApanam (garuDa-vAhanam)__info.tom
- l<br/><br/>#AndhraTempleFestivals
+DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/templ
+ es/venkaTAchala/relative_event/vEGkaTAcalE padmAvatI-pariNayam (azva-vAhan
+ am)/offset__01/vEGkaTAcalE padmAvatI-pariNayOtsava-samApanam (garuDa-vAhan
+ am)__info.toml<br/><br/>#AndhraTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6519,10 +6523,10 @@ SUMMARY:Veṅkaṭāchale Padmāvatī-Pariṇayotsavaḥ (Garuḍa-Vāhana
  m)
 DTSTART;VALUE=DATE:20190513
 DTEND;VALUE=DATE:20190516
-DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/gener
- al/relative_event/vEGkaTAcalE padmAvatI-pariNayam (azva-vAhanam)/offset__0
- 1/vEGkaTAcalE padmAvatI-pariNayOtsava-samApanam (garuDa-vAhanam)__info.tom
- l<br/><br/>#AndhraTempleFestivals
+DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/templ
+ es/venkaTAchala/relative_event/vEGkaTAcalE padmAvatI-pariNayam (azva-vAhan
+ am)/offset__01/vEGkaTAcalE padmAvatI-pariNayOtsava-samApanam (garuDa-vAhan
+ am)__info.toml<br/><br/>#AndhraTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6793,9 +6797,9 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of every lunar month (moonris
  e/puurvaviddha (default)).<br/>Lord Malayappa rides on Garuda Vahanam in a
  ll four mada streets. This usually happens during Brahmotsavams\, but sinc
  e 2006\, this has been happening on every pūrṇimā.<br/><br/>https://gi
- thub.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/0
- 0/15/vEGkaTAcalE pUrNimA~garuDa-sEvA__info.toml<br/><br/>#AndhraTempleFest
- ivals
+ thub.com/sanskrit-coders/adyatithi/tree/master/temples/venkaTAchala/lunar_
+ month/tithi/00/15/vEGkaTAcalE pUrNimA~garuDa-sEvA__info.toml<br/><br/>#And
+ hraTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8333,10 +8337,10 @@ SUMMARY:Veṅkaṭāchale Jyeṣṭha-Abhidyeyakābhiṣekaḥ (Vajra-Kava
  cham)
 DTSTART;VALUE=DATE:20190615
 DTEND;VALUE=DATE:20190616
-DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/gener
- al/relative_event/vEGkaTAcalE jyESTha-abhidyEyakAbhiSEkaH (svarNa-kavacam)
- /offset__-2/vEGkaTAcalE jyESTha-abhidyEyakAbhiSEkaH (vajra-kavacam)__info.
- toml<br/><br/>#AndhraTempleFestivals
+DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/templ
+ es/venkaTAchala/relative_event/vEGkaTAcalE jyESTha-abhidyEyakAbhiSEkaH (sv
+ arNa-kavacam)/offset__-2/vEGkaTAcalE jyESTha-abhidyEyakAbhiSEkaH (vajra-ka
+ vacam)__info.toml<br/><br/>#AndhraTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8399,10 +8403,10 @@ SUMMARY:Veṅkaṭāchale Jyeṣṭha-Abhidyeyakābhiṣekaḥ (Mutyala-Ka
  vacham)
 DTSTART;VALUE=DATE:20190616
 DTEND;VALUE=DATE:20190617
-DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/gener
- al/relative_event/vEGkaTAcalE jyESTha-abhidyEyakAbhiSEkaH (svarNa-kavacam)
- /offset__-1/vEGkaTAcalE jyESTha-abhidyEyakAbhiSEkaH (mutyala-kavacam)__inf
- o.toml<br/><br/>#AndhraTempleFestivals
+DESCRIPTION:https://github.com/sanskrit-coders/adyatithi/tree/master/templ
+ es/venkaTAchala/relative_event/vEGkaTAcalE jyESTha-abhidyEyakAbhiSEkaH (sv
+ arNa-kavacam)/offset__-1/vEGkaTAcalE jyESTha-abhidyEyakAbhiSEkaH (mutyala-
+ kavacam)__info.toml<br/><br/>#AndhraTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8419,9 +8423,9 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of every lunar month (moonris
  e/puurvaviddha (default)).<br/>Lord Malayappa rides on Garuda Vahanam in a
  ll four mada streets. This usually happens during Brahmotsavams\, but sinc
  e 2006\, this has been happening on every pūrṇimā.<br/><br/>https://gi
- thub.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/0
- 0/15/vEGkaTAcalE pUrNimA~garuDa-sEvA__info.toml<br/><br/>#AndhraTempleFest
- ivals
+ thub.com/sanskrit-coders/adyatithi/tree/master/temples/venkaTAchala/lunar_
+ month/tithi/00/15/vEGkaTAcalE pUrNimA~garuDa-sEvA__info.toml<br/><br/>#And
+ hraTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8538,9 +8542,9 @@ DTSTART;VALUE=DATE:20190617
 DTEND;VALUE=DATE:20190618
 DESCRIPTION:Observed on Paurṇamāsī tithi of Jyaiṣṭhaḥ (lunar) mo
  nth (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>https://gith
- ub.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/03/
- 15/vEGkaTAcalE jyESTha-abhidyEyakAbhiSEkaH (svarNa-kavacam)__info.toml<br/
- ><br/>#LessCommonFestivals #DanamDays
+ ub.com/sanskrit-coders/adyatithi/tree/master/temples/venkaTAchala/lunar_mo
+ nth/tithi/03/15/vEGkaTAcalE jyESTha-abhidyEyakAbhiSEkaH (svarNa-kavacam)__
+ info.toml<br/><br/>#LessCommonFestivals #DanamDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9853,9 +9857,9 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of every lunar month (moonris
  e/puurvaviddha (default)).<br/>Lord Malayappa rides on Garuda Vahanam in a
  ll four mada streets. This usually happens during Brahmotsavams\, but sinc
  e 2006\, this has been happening on every pūrṇimā.<br/><br/>https://gi
- thub.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/0
- 0/15/vEGkaTAcalE pUrNimA~garuDa-sEvA__info.toml<br/><br/>#AndhraTempleFest
- ivals
+ thub.com/sanskrit-coders/adyatithi/tree/master/temples/venkaTAchala/lunar_
+ month/tithi/00/15/vEGkaTAcalE pUrNimA~garuDa-sEvA__info.toml<br/><br/>#And
+ hraTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11238,9 +11242,9 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of every lunar month (moonris
  e/puurvaviddha (default)).<br/>Lord Malayappa rides on Garuda Vahanam in a
  ll four mada streets. This usually happens during Brahmotsavams\, but sinc
  e 2006\, this has been happening on every pūrṇimā.<br/><br/>https://gi
- thub.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/0
- 0/15/vEGkaTAcalE pUrNimA~garuDa-sEvA__info.toml<br/><br/>#AndhraTempleFest
- ivals
+ thub.com/sanskrit-coders/adyatithi/tree/master/temples/venkaTAchala/lunar_
+ month/tithi/00/15/vEGkaTAcalE pUrNimA~garuDa-sEvA__info.toml<br/><br/>#And
+ hraTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13359,9 +13363,9 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of every lunar month (moonris
  e/puurvaviddha (default)).<br/>Lord Malayappa rides on Garuda Vahanam in a
  ll four mada streets. This usually happens during Brahmotsavams\, but sinc
  e 2006\, this has been happening on every pūrṇimā.<br/><br/>https://gi
- thub.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/0
- 0/15/vEGkaTAcalE pUrNimA~garuDa-sEvA__info.toml<br/><br/>#AndhraTempleFest
- ivals
+ thub.com/sanskrit-coders/adyatithi/tree/master/temples/venkaTAchala/lunar_
+ month/tithi/00/15/vEGkaTAcalE pUrNimA~garuDa-sEvA__info.toml<br/><br/>#And
+ hraTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15267,9 +15271,9 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of every lunar month (moonris
  e/puurvaviddha (default)).<br/>Lord Malayappa rides on Garuda Vahanam in a
  ll four mada streets. This usually happens during Brahmotsavams\, but sinc
  e 2006\, this has been happening on every pūrṇimā.<br/><br/>https://gi
- thub.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/0
- 0/15/vEGkaTAcalE pUrNimA~garuDa-sEvA__info.toml<br/><br/>#AndhraTempleFest
- ivals
+ thub.com/sanskrit-coders/adyatithi/tree/master/temples/venkaTAchala/lunar_
+ month/tithi/00/15/vEGkaTAcalE pUrNimA~garuDa-sEvA__info.toml<br/><br/>#And
+ hraTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17313,9 +17317,9 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of every lunar month (moonris
  e/puurvaviddha (default)).<br/>Lord Malayappa rides on Garuda Vahanam in a
  ll four mada streets. This usually happens during Brahmotsavams\, but sinc
  e 2006\, this has been happening on every pūrṇimā.<br/><br/>https://gi
- thub.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/0
- 0/15/vEGkaTAcalE pUrNimA~garuDa-sEvA__info.toml<br/><br/>#AndhraTempleFest
- ivals
+ thub.com/sanskrit-coders/adyatithi/tree/master/temples/venkaTAchala/lunar_
+ month/tithi/00/15/vEGkaTAcalE pUrNimA~garuDa-sEvA__info.toml<br/><br/>#And
+ hraTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18800,9 +18804,9 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of every lunar month (moonris
  e/puurvaviddha (default)).<br/>Lord Malayappa rides on Garuda Vahanam in a
  ll four mada streets. This usually happens during Brahmotsavams\, but sinc
  e 2006\, this has been happening on every pūrṇimā.<br/><br/>https://gi
- thub.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/0
- 0/15/vEGkaTAcalE pUrNimA~garuDa-sEvA__info.toml<br/><br/>#AndhraTempleFest
- ivals
+ thub.com/sanskrit-coders/adyatithi/tree/master/temples/venkaTAchala/lunar_
+ month/tithi/00/15/vEGkaTAcalE pUrNimA~garuDa-sEvA__info.toml<br/><br/>#And
+ hraTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE

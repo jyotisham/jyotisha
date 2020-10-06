@@ -33,7 +33,7 @@ def transliterate_quoted_text(text, script):
   return transliterated_text
 
 
-def migrate_db(dir_path, only_descriptions=False):
+def migrate_db(dir_path):
   festival_rules_dict = rules.get_festival_rules_map(dir_path)
   output_dir = os.path.join(os.path.dirname(__file__), 'data/migrated')
   # import shutil
@@ -43,10 +43,10 @@ def migrate_db(dir_path, only_descriptions=False):
     event.names = default_if_none(x=event.names, default={})
     sa_names = event.names.get("sa", [])
     ta_names = event.names.get("ta", [])
-    if not event.id.startswith("kAJcI"):
-      event_file_name = event.get_storage_file_name(base_dir=os.path.join(output_dir, "general"), only_descriptions=only_descriptions)
+    if not event.id.startswith("vEGkaT"):
+      event_file_name = event.get_storage_file_name(base_dir=os.path.join(output_dir, "general"))
     else:
-      event_file_name = event.get_storage_file_name(base_dir=os.path.join(output_dir, "kAnchI-maTha"), only_descriptions=only_descriptions)
+      event_file_name = event.get_storage_file_name(base_dir=os.path.join(output_dir, "venkaTAchala"))
     logging.debug(event_file_name)
     event.dump_to_file(filename=event_file_name)
     # append_to_event_group_README(event, event_file_name)
@@ -170,8 +170,5 @@ def clear_output_dirs():
 
 if __name__ == '__main__':
   clear_output_dirs()
-  migrate_db(os.path.join(os.path.dirname(__file__), 'data/general/lunar_month'))
-  migrate_db(os.path.join(os.path.dirname(__file__), 'data/general/other'), only_descriptions=True)
-  migrate_db(os.path.join(os.path.dirname(__file__), 'data/general/sidereal_solar_month'))
-  migrate_db(os.path.join(os.path.dirname(__file__), 'data/general/relative_event'))
+  migrate_db(os.path.join(os.path.dirname(__file__), 'data/general'))
   pass
