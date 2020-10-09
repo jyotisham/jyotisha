@@ -1,7 +1,8 @@
 import logging
 import os
 import sys
-from itertools import filterfalse
+
+from timebudget import timebudget
 
 from jyotisha.panchaanga import temporal
 from jyotisha.panchaanga.temporal import festival
@@ -35,6 +36,7 @@ class FestivalAssigner(PeriodicPanchaangaApplier):
     else:
       self.panchaanga.festival_id_to_days[festival_name] = [self.daily_panchaangas[d].date]
 
+  @timebudget
   def assign_festivals_from_rules(self, festival_rules, debug_festivals=False):
     for d in range(1, self.panchaanga.duration + 1):
       [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
@@ -69,6 +71,7 @@ class FestivalAssigner(PeriodicPanchaangaApplier):
         else:
           self.add_festival(festival_name, d)
 
+  @timebudget
   def assign_festival(self, fest_rule, d):
     festival_name = fest_rule.id
     month_type = fest_rule.timing.month_type
@@ -94,7 +97,6 @@ class FestivalAssigner(PeriodicPanchaangaApplier):
         (self.daily_panchaangas[d + 1].lunar_month_sunrise == month_num and anga_num == 1)))) or \
         (month_type == 'sidereal_solar_month' and (self.daily_panchaangas[d].solar_sidereal_date_sunset.month == month_num or month_num == 0)):
       self.assign_tithi_yoga_nakshatra_fest(fest_rule=fest_rule, d=d)
-
 
   def assign_tithi_yoga_nakshatra_fest(self, fest_rule, d):
     festival_name = fest_rule.id
@@ -269,6 +271,7 @@ class FestivalAssigner(PeriodicPanchaangaApplier):
         #     fday += 1
         self.add_festival(festival_name, fday)
 
+  @timebudget
   def assign_festival_numbers(self):
     # Update festival numbers if they exist
     solar_y_start_d = []

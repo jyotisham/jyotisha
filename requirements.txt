@@ -14,3 +14,9 @@ flask_restplus
 flask_cors
 jsonpickle
 methodtools
+Werkzeug
+jyotisha
+timebudget
+Flask
+pypandoc
+setuptools

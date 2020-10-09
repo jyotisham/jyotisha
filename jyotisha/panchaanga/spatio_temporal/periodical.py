@@ -1,6 +1,7 @@
 import sys
 
 import methodtools
+from timebudget import timebudget
 
 from jyotisha.panchaanga import spatio_temporal
 from jyotisha.panchaanga.spatio_temporal import daily
@@ -12,6 +13,10 @@ from jyotisha.panchaanga.temporal.tithi import TithiAssigner
 from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision
 from sanskrit_data.schema import common
 from sanskrit_data.schema.common import JsonObject
+
+
+timebudget.set_quiet(True)  # don't show measurements as they happen
+# timebudget.report_at_exit()  # Generate report when the program exits
 
 set_constants()
 
@@ -49,6 +54,7 @@ class Panchaanga(common.JsonObject):
     self.compute_angas(compute_lagnas=computation_system.options.lagnas)
     self.update_festival_details()
 
+  @timebudget
   def compute_angas(self, compute_lagnas=True):
     """Compute the entire panchaanga
     """
@@ -238,6 +244,7 @@ class Panchaanga(common.JsonObject):
       raise ValueError('Unkown kaala "%s" input!' % interval_type)
     return angas
 
+  @timebudget
   def update_festival_details(self, debug=False):
     """
 
@@ -294,11 +301,13 @@ class Panchaanga(common.JsonObject):
 
   @classmethod
   def read_from_file(cls, filename, name_to_json_class_index_extra=None):
-    panchaanga = JsonObject.read_from_file(filename=filename,
-                                           name_to_json_class_index_extra=name_to_json_class_index_extra)
-    panchaanga._refill_daily_panchaangas()
-    return panchaanga
+    with timebudget("Loading the file"):
+      panchaanga = JsonObject.read_from_file(filename=filename,
+                                             name_to_json_class_index_extra=name_to_json_class_index_extra)
+      panchaanga._refill_daily_panchaangas()
+      return panchaanga
 
+  @timebudget
   def dump_to_file(self, filename, floating_point_precision=None, sort_keys=True):
     self._force_non_redundancy_in_daily_panchaangas()
     super(Panchaanga, self).dump_to_file(filename=filename, floating_point_precision=floating_point_precision,

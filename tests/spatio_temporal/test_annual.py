@@ -2,6 +2,8 @@ import logging
 import os
 import traceback
 
+from timebudget import timebudget
+
 import sanskrit_data.collection_helper
 from jyotisha.panchaanga.spatio_temporal import City, annual
 # from jyotisha.panchaanga import scripts
@@ -21,11 +23,13 @@ def panchaanga_json_comparer(city, year):
   expected_content_path=os.path.join(TEST_DATA_PATH, '%s-%d.json' % (city.name, year))
   panchaanga = annual.get_panchaanga_for_civil_year(city=city, year=year,
                                                     allow_precomputed=False)
+  timebudget.report(reset=True)
   if not os.path.exists(expected_content_path):
     logging.warning("File must have been deliberately deleted as obsolete. So, will dump a new file for future tests.")
     panchaanga.dump_to_file(filename=expected_content_path,
                             floating_point_precision=4)
   panchaanga_expected = Panchaanga.read_from_file(filename=expected_content_path)
+  timebudget.report(reset=True)
 
   if panchaanga.to_json_map(floating_point_precision=4) != panchaanga_expected.to_json_map(
       floating_point_precision=4):

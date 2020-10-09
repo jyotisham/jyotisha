@@ -8,6 +8,8 @@ from pathlib import Path
 import methodtools
 
 from indic_transliteration import xsanscript as sanscript
+from timebudget import timebudget
+
 from sanskrit_data.schema import common
 
 from jyotisha import custom_transliteration
@@ -428,6 +430,7 @@ class RulesCollection(common.JsonObject):
   def get_cached(cls, repos):
     return RulesCollection(repos=repos)
 
+  @timebudget
   def set_rule_dicts(self):
     for repo in self.repos:
       self.lunar.update(get_festival_rules_map(
