@@ -17,7 +17,29 @@ def disabled_test_swe_ayanaamsha_api():
   assert swe.get_ayanamsa_ut(2458434.083333251) == 24.120535828308334
 
 
-def test_get_angam():
+
+def test_get_anga():
+
+  nd = NakshatraDivision(julday=time.ist_timezone.local_time_to_julian_day(Date(2018, 7, 14)), ayanaamsha_id=Ayanamsha.CHITRA_AT_180)
+  assert nd.get_anga(
+    anga_type=AngaType.TITHI) == 1
+
+  nd = NakshatraDivision(julday=time.ist_timezone.local_time_to_julian_day(Date(2018, 7, 14, 6, 1)), ayanaamsha_id=Ayanamsha.CHITRA_AT_180)
+  assert nd.get_anga(
+    anga_type=AngaType.TITHI) == 2
+
+  nd = NakshatraDivision(julday=time.ist_timezone.local_time_to_julian_day(Date(2018, 7, 13)), ayanaamsha_id=Ayanamsha.CHITRA_AT_180)
+  assert nd.get_anga(
+    anga_type=AngaType.TITHI) == 30
+  assert nd.get_anga(
+    anga_type=AngaType.SOLAR_MONTH) == 3
+
+  # Just before meSha sankrAnti
+  assert NakshatraDivision(julday=time.ist_timezone.local_time_to_julian_day(Date(2018, 4, 13)), ayanaamsha_id=Ayanamsha.CHITRA_AT_180).get_anga(
+    anga_type=AngaType.SOLAR_MONTH) == 12
+
+
+  # 5:6:0.00 UT on December 23, 1981
   nd = NakshatraDivision(2444961.7125, ayanaamsha_id=Ayanamsha.CHITRA_AT_180)
   assert nd.get_anga(AngaType.NAKSHATRA) == 16
   assert nd.get_anga(AngaType.TITHI) == 28
@@ -25,17 +47,16 @@ def test_get_angam():
   assert nd.get_anga(AngaType.KARANA) == 55
   assert nd.get_solar_raashi() == 9
 
-
 def test_get_anga_span_solar_month():
   from jyotisha.panchaanga.temporal import time
   span_finder = AngaSpanFinder(anga_type=AngaType.SOLAR_MONTH, ayanaamsha_id=Ayanamsha.CHITRA_AT_180)
 
-  assert span_finder.find(jd1=2458222.0333434483-32, jd2=2458222.0333434483 + 4, target_anga_id=12,).to_tuple() == (2458192.24785228, 2458222.6026552585)
+  numpy.testing.assert_array_almost_equal(span_finder.find(jd1=2458222.0333434483-32, jd2=2458222.0333434483 + 4, target_anga_id=12,).to_tuple(), (2458192.24785228, 2458222.6026552585), decimal=3)
 
-  jd2 = time.utc_gregorian_to_jd(time.Date(2020, 4, 16))
-  assert span_finder.find(jd1=jd2-32, jd2=jd2, target_anga_id=1).to_tuple() == (2458953.1096598045, None)
+  jd2 = time.ist_timezone.local_time_to_julian_day(time.Date(2020, 4, 16))
+  assert span_finder.find(jd1=jd2-32, jd2=jd2, target_anga_id=1).to_tuple() == (2458953.109659805, None)
 
-  assert span_finder.find(jd1=2458133.0189002366-32, jd2=2458133.0189002366, target_anga_id=10,).to_tuple() == (2458132.8291680976, None)
+  assert span_finder.find(jd1=2458133.0189002366-32, jd2=2458133.0189002366, target_anga_id=10).to_tuple() == (2458132.8291680976, None)
 
 
 def test_get_anga_span_tithi():
@@ -47,26 +68,25 @@ def test_get_anga_span_tithi():
 
 
 def test_get_tithis_in_period():
-  new_moon_jds = zodiac.get_tithis_in_period(jd_start=time.utc_gregorian_to_jd(Date(year=2020, month=1, day=1)), jd_end=time.utc_gregorian_to_jd(Date(year=2020, month=6, day=30)), tithi=30)
-  assert new_moon_jds == [2458872.36655025,
-                          2458902.0647052005,
-                          2458931.792117506,
-                          2458961.5055956016,
-                          2458991.1712410315,
-                          2459020.765607745]
-
+  new_moon_jds = zodiac.get_tithis_in_period(jd_start=time.ist_timezone.local_time_to_julian_day(Date(year=2020, month=1, day=1)), jd_end=time.ist_timezone.local_time_to_julian_day(Date(year=2020, month=6, day=30)), tithi=30)
+  numpy.testing.assert_array_almost_equal(new_moon_jds, [2458872.36655025,
+                                                         2458902.0647052005,
+                                                         2458931.792117506,
+                                                         2458961.5055956016,
+                                                         2458991.1712410315,
+                                                         2459020.765607745], decimal=3)
 
 def test_get_previous_solstice():
-  solstice = zodiac.get_previous_solstice(jd=time.utc_gregorian_to_jd(Date(2018, 1, 14)))
-  expected_jd_start = time.utc_gregorian_to_jd(date=Date(year=2017, month=12, day=21, hour=16, minute=28))
+  solstice = zodiac.get_previous_solstice(jd=time.ist_timezone.local_time_to_julian_day(Date(2018, 1, 14)))
+  expected_jd_start = time.ist_timezone.local_time_to_julian_day(date=Date(year=2017, month=12, day=21, hour=16, minute=28))
   numpy.testing.assert_approx_equal(solstice.jd_start, expected_jd_start, significant=4)
 
-  solstice = zodiac.get_previous_solstice(jd=time.utc_gregorian_to_jd(Date(2018, 3, 14)))
-  expected_jd_start = time.utc_gregorian_to_jd(date=Date(year=2017, month=12, day=21, hour=16, minute=28))
+  solstice = zodiac.get_previous_solstice(jd=time.ist_timezone.local_time_to_julian_day(Date(2018, 3, 14)))
+  expected_jd_start = time.ist_timezone.local_time_to_julian_day(date=Date(year=2017, month=12, day=21, hour=16, minute=28))
   numpy.testing.assert_approx_equal(solstice.jd_start, expected_jd_start, significant=4)
 
-  solstice = zodiac.get_previous_solstice(jd=time.utc_gregorian_to_jd(Date(2018, 7, 14)))
-  expected_jd_start = time.utc_gregorian_to_jd(date=Date(year=2018, month=6, day=20, hour=21, minute=44))
+  solstice = zodiac.get_previous_solstice(jd=time.ist_timezone.local_time_to_julian_day(Date(2018, 7, 14)))
+  expected_jd_start = time.ist_timezone.local_time_to_julian_day(date=Date(year=2018, month=6, day=20, hour=21, minute=44))
   numpy.testing.assert_approx_equal(solstice.jd_start, expected_jd_start, significant=4)
 
 
