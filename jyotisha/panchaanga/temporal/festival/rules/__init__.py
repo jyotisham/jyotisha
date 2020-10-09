@@ -205,10 +205,18 @@ def get_festival_rules_map(dir_path, repo=None):
   return festival_rules
 
 
-DATA_ROOT = os.path.join(os.path.dirname(__file__), "data")
+DATA_ROOT = os.path.join(os.path.dirname(__file__), "../data")
 
 
 class RulesRepo(common.JsonObject):
+  LUNAR_MONTH_DIR = "lunar_month"
+  SIDEREAL_SOLAR_MONTH_DIR = "sidereal_solar_month"
+  RELATIVE_EVENT_DIR = "relative_event"
+  DAY_DIR = "day"
+  TITHI_DIR = "tithi"
+  NAKSHATRA_DIR = "nakshatra"
+  YOGA_DIR = "yoga"
+
   def __init__(self, name, path=None, base_url='https://github.com/sanskrit-coders/adyatithi/tree/master'):
     self.name = name
     self.path = path
@@ -225,11 +233,8 @@ rule_repos = [RulesRepo(name="general"), RulesRepo(name="gRhya/general"), RulesR
 class RulesCollection(common.JsonObject):
   def __init__(self, repos=rule_repos):
     self.repos = repos
-    self.lunar = {}
-    self.sidereal_solar = {}
-    self.relative = {}
-    self.desc_only = {}
     self.name_to_rule = {}
+    self.tree = None 
     self.set_rule_dicts()
 
   @methodtools.lru_cache()  # the order is important!
@@ -240,15 +245,11 @@ class RulesCollection(common.JsonObject):
   @timebudget
   def set_rule_dicts(self):
     for repo in self.repos:
-      self.lunar.update(get_festival_rules_map(
-        os.path.join(DATA_ROOT, repo.get_path(), 'lunar_month'), repo=repo))
-      self.sidereal_solar.update(get_festival_rules_map(
-        os.path.join(DATA_ROOT, repo.get_path(), 'sidereal_solar_month'), repo=repo))
-      self.relative.update(get_festival_rules_map(
-        os.path.join(DATA_ROOT, repo.get_path(), 'relative_event'), repo=repo))
-      self.desc_only.update(get_festival_rules_map(
-        os.path.join(DATA_ROOT, repo.get_path(), 'description_only'), repo=repo))
-    self.name_to_rule = {**self.sidereal_solar, **self.lunar, **self.relative, **self.desc_only}
+      self.name_to_rule.update(get_festival_rules_map(
+        os.path.join(DATA_ROOT, repo.get_path()), repo=repo))
+
+      from sanskrit_data import collection_helper
+      self.tree = collection_helper.tree_maker(leaves=self.name_to_rule.values(), path_fn=lambda x: x.get_storage_file_name(base_dir="").replace("__info.toml", ""))
 
 
 

@@ -41,14 +41,14 @@ class FestivalAssigner(PeriodicPanchaangaApplier):
     for d in range(1, self.panchaanga.duration + 1):
       [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
 
-      for festival_name in festival_rules:
-        assert isinstance(festival_rules[festival_name], rules.HinduCalendarEvent), festival_rules[festival_name]
-        if festival_rules[festival_name].timing.month_type is None and festival_rules[festival_name].description_short is not None:
+      for rule in festival_rules:
+        assert isinstance(rule, rules.HinduCalendarEvent), rule
+        if rule.timing.month_type is None and rule.description_short is not None:
           # Maybe only description of the festival is given, as computation has been
           # done in computeFestivals(), without using a rule in festival_rules.json!
             continue
         else:
-          self.assign_festival(fest_rule=festival_rules[festival_name], d=d)
+          self.assign_festival(fest_rule=rule, d=d)
 
   def assign_sidereal_solar_day_fest(self, fest_rule, d):
     festival_name = fest_rule.id
@@ -341,16 +341,16 @@ class MiscFestivalAssigner(FestivalAssigner):
 
 
   def assign_all(self, debug=False):
-    self.assign_agni_nakshatra(debug_festivals=debug)
+    self.assign_agni_nakshatra()
     # ASSIGN ALL FESTIVALS FROM adyatithi submodule
     # festival_rules = get_festival_rules_dict(os.path.join(CODE_ROOT, 'panchaanga/data/festival_rules_test.json'))
-    festival_rules = {**self.rules_collection.sidereal_solar, **self.rules_collection.lunar}
+    festival_rules = [x for x in self.rules_collection.name_to_rule.values() if x.timing is not None and x.timing.month_type is not None]
 
-    assert "tripurOtsavaH" in festival_rules
-    self.assign_festivals_from_rules(festival_rules, debug_festivals=debug)
+    # assert "tripurOtsavaH" in festival_rules
+    self.assign_festivals_from_rules(festival_rules)
     
 
-  def assign_agni_nakshatra(self, debug_festivals=False):
+  def assign_agni_nakshatra(self):
     agni_jd_start = agni_jd_end = None
     for d in range(1, self.panchaanga.duration + 1):
       [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
@@ -389,11 +389,13 @@ class MiscFestivalAssigner(FestivalAssigner):
       #                                        ((self.panchaanga.weekday_start - 1 + self.panchaanga.festival_id_to_days['yajurvEda-upAkarma'][
       #                                            0] - 5) % 7)]
 
-    relative_festival_rules = self.rules_collection.relative
+    name_to_rule = self.rules_collection.name_to_rule
 
-    for festival_name in relative_festival_rules:
-      offset = int(relative_festival_rules[festival_name].timing.offset)
-      rel_festival_name = relative_festival_rules[festival_name].timing.anchor_festival_id
+    for festival_name in name_to_rule:
+      if name_to_rule[festival_name].timing is None or name_to_rule[festival_name].timing.offset is None:
+        continue
+      offset = int(name_to_rule[festival_name].timing.offset)
+      rel_festival_name = name_to_rule[festival_name].timing.anchor_festival_id
       if rel_festival_name not in self.panchaanga.festival_id_to_days:
         # Check approx. match
         matched_festivals = []
