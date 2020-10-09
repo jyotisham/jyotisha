@@ -8,7 +8,7 @@ from sanskrit_data.schema.common import JsonObject
 
 
 class LunarMonthAssigner(JsonObject):
-  MULTI_NEW_MOON_SOLAR_MONTH_ADHIKA = "MULTI_NEW_MOON_SOLAR_MONTH_ADHIKA"
+  MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA = "MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA"
   SOLSTICE_POST_DARK_10_ADHIKA = "SOLSTICE_POST_DARK_10_ADHIKA"
   
   def __init__(self, ayanaamsha_id):
@@ -19,7 +19,7 @@ class LunarMonthAssigner(JsonObject):
 
   @classmethod
   def get_assigner(cls, computation_system):
-    if computation_system.lunar_month_assigner_type == LunarMonthAssigner.MULTI_NEW_MOON_SOLAR_MONTH_ADHIKA:
+    if computation_system.lunar_month_assigner_type == LunarMonthAssigner.MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA:
       return MultiNewmoonSolarMonthAdhikaAssigner(ayanaamsha_id=computation_system.ayanaamsha_id)
     elif computation_system.lunar_month_assigner_type == LunarMonthAssigner.SOLSTICE_POST_DARK_10_ADHIKA:
       return SolsticePostDark10AdhikaAssigner(ayanaamsha_id=computation_system.ayanaamsha_id)
@@ -116,7 +116,7 @@ class SolsticePostDark10AdhikaAssigner(LunarMonthAssigner):
       # Are we in a lunar month containing solstice?
       tropical_month = zodiac.get_tropical_month(jd=daily_panchaanga.jd_sunrise)
       if tropical_month in [3, 9]:
-        anga_span_finder = AngaSpanFinder(ayanaamsha_id=Ayanamsha.ASHVINI_STARTING_0, anga_type=AngaType.SOLAR_MONTH)
+        anga_span_finder = AngaSpanFinder(ayanaamsha_id=Ayanamsha.ASHVINI_STARTING_0, anga_type=AngaType.SIDEREAL_MONTH)
         solstice_tropical_month_span = anga_span_finder.find(jd1=daily_panchaanga.jd_sunrise, jd2=daily_panchaanga.jd_sunrise + 32, target_anga_id=daily_panchaanga.tropical_date_sunset.month + 1)
         tithi_1_jds = zodiac.get_tithis_in_period(jd_start=daily_panchaanga.jd_sunrise, jd_end=solstice_tropical_month_span.jd_start, tithi=1)
         if len(tithi_1_jds) == 0:

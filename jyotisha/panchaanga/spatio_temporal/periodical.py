@@ -26,7 +26,7 @@ class Panchaanga(common.JsonObject):
     """
   LATEST_VERSION = "0.0.4"
 
-  def __init__(self, city, start_date, end_date, computation_system: ComputationSystem = ComputationSystem.MULTI_NEW_MOON_SOLAR_MONTH_ADHIKA__CHITRA_180):
+  def __init__(self, city, start_date, end_date, computation_system: ComputationSystem = ComputationSystem.MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_180):
     """Constructor for the panchaanga.
         """
     super(Panchaanga, self).__init__()
@@ -73,10 +73,10 @@ class Panchaanga(common.JsonObject):
 
     solar_month_today_sunset = NakshatraDivision(daily_panchaanga_start.jd_sunset,
                                                  ayanaamsha_id=self.computation_system.ayanaamsha_id).get_anga(
-      zodiac.AngaType.SOLAR_MONTH)
+      zodiac.AngaType.SIDEREAL_MONTH)
     solar_month_tmrw_sunrise = NakshatraDivision(daily_panchaanga_start.jd_sunrise + 1,
                                                  ayanaamsha_id=self.computation_system.ayanaamsha_id).get_anga(
-      zodiac.AngaType.SOLAR_MONTH)
+      zodiac.AngaType.SIDEREAL_MONTH)
     month_start_after_sunset = solar_month_today_sunset != solar_month_tmrw_sunrise
 
     #############################################################

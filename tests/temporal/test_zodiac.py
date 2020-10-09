@@ -32,11 +32,11 @@ def test_get_anga():
   assert nd.get_anga(
     anga_type=AngaType.TITHI) == 30
   assert nd.get_anga(
-    anga_type=AngaType.SOLAR_MONTH) == 3
+    anga_type=AngaType.SIDEREAL_MONTH) == 3
 
   # Just before meSha sankrAnti
   assert NakshatraDivision(julday=time.ist_timezone.local_time_to_julian_day(Date(2018, 4, 13)), ayanaamsha_id=Ayanamsha.CHITRA_AT_180).get_anga(
-    anga_type=AngaType.SOLAR_MONTH) == 12
+    anga_type=AngaType.SIDEREAL_MONTH) == 12
 
 
   # 5:6:0.00 UT on December 23, 1981
@@ -49,7 +49,7 @@ def test_get_anga():
 
 def test_get_anga_span_solar_month():
   from jyotisha.panchaanga.temporal import time
-  span_finder = AngaSpanFinder(anga_type=AngaType.SOLAR_MONTH, ayanaamsha_id=Ayanamsha.CHITRA_AT_180)
+  span_finder = AngaSpanFinder(anga_type=AngaType.SIDEREAL_MONTH, ayanaamsha_id=Ayanamsha.CHITRA_AT_180)
 
   numpy.testing.assert_array_almost_equal(span_finder.find(jd1=2458222.0333434483-32, jd2=2458222.0333434483 + 4, target_anga_id=12,).to_tuple(), (2458192.24785228, 2458222.6026552585), decimal=3)
 

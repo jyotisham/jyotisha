@@ -62,8 +62,8 @@ class FestivalAssigner(PeriodicPanchaangaApplier):
     if self.daily_panchaangas[d].solar_sidereal_date_sunset.month == month_num:
       if self.daily_panchaangas[d].solar_sidereal_date_sunset.day == anga_num:
         if kaala == 'arunodaya':
-          prev_angas = self.daily_panchaangas[d-1].day_length_based_periods.arunodaya.get_boundary_angas(anga_type=AngaType.SOLAR_MONTH, ayanaamsha_id=self.ayanaamsha_id)
-          current_angas = self.daily_panchaangas[d].day_length_based_periods.arunodaya.get_boundary_angas(anga_type=AngaType.SOLAR_MONTH, ayanaamsha_id=self.ayanaamsha_id)
+          prev_angas = self.daily_panchaangas[d-1].day_length_based_periods.arunodaya.get_boundary_angas(anga_type=AngaType.SIDEREAL_MONTH, ayanaamsha_id=self.ayanaamsha_id)
+          current_angas = self.daily_panchaangas[d].day_length_based_periods.arunodaya.get_boundary_angas(anga_type=AngaType.SIDEREAL_MONTH, ayanaamsha_id=self.ayanaamsha_id)
           if prev_angas[1] == month_num:
             self.add_festival(festival_name, d)
           elif current_angas[0] == month_num:
