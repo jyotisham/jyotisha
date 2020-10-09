@@ -20,22 +20,22 @@ def disabled_test_swe_ayanaamsha_api():
 
 def test_get_anga():
 
-  nd = NakshatraDivision(julday=time.ist_timezone.local_time_to_julian_day(Date(2018, 7, 14)), ayanaamsha_id=Ayanamsha.CHITRA_AT_180)
+  nd = NakshatraDivision(jd=time.ist_timezone.local_time_to_julian_day(Date(2018, 7, 14)), ayanaamsha_id=Ayanamsha.CHITRA_AT_180)
   assert nd.get_anga(
     anga_type=AngaType.TITHI) == 1
 
-  nd = NakshatraDivision(julday=time.ist_timezone.local_time_to_julian_day(Date(2018, 7, 14, 6, 1)), ayanaamsha_id=Ayanamsha.CHITRA_AT_180)
+  nd = NakshatraDivision(jd=time.ist_timezone.local_time_to_julian_day(Date(2018, 7, 14, 6, 1)), ayanaamsha_id=Ayanamsha.CHITRA_AT_180)
   assert nd.get_anga(
     anga_type=AngaType.TITHI) == 2
 
-  nd = NakshatraDivision(julday=time.ist_timezone.local_time_to_julian_day(Date(2018, 7, 13)), ayanaamsha_id=Ayanamsha.CHITRA_AT_180)
+  nd = NakshatraDivision(jd=time.ist_timezone.local_time_to_julian_day(Date(2018, 7, 13)), ayanaamsha_id=Ayanamsha.CHITRA_AT_180)
   assert nd.get_anga(
     anga_type=AngaType.TITHI) == 30
   assert nd.get_anga(
     anga_type=AngaType.SIDEREAL_MONTH) == 3
 
   # Just before meSha sankrAnti
-  assert NakshatraDivision(julday=time.ist_timezone.local_time_to_julian_day(Date(2018, 4, 13)), ayanaamsha_id=Ayanamsha.CHITRA_AT_180).get_anga(
+  assert NakshatraDivision(jd=time.ist_timezone.local_time_to_julian_day(Date(2018, 4, 13)), ayanaamsha_id=Ayanamsha.CHITRA_AT_180).get_anga(
     anga_type=AngaType.SIDEREAL_MONTH) == 12
 
 

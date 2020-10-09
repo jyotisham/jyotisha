@@ -78,8 +78,8 @@ class KaalaHandler(Resource):
   '/timezones/<string:timezone>/times/years/<int:year>/months/<int:month>/days/<int:day>/hours/<int:hour>/minutes/<int:minute>/seconds/<int:second>/bodies/<string:body>/<string:anga_type_str>')
 class DivisionFinder(Resource):
   def get(self, body_name, anga_type_str, timezone, year, month, day, hour, minute, second):
-    julday = Timezone(timezone).local_time_to_julian_day(Date(year, month, day, hour, minute, second))
-    nd = NakshatraDivision(julday=julday, ayanaamsha_id=Ayanamsha.CHITRA_AT_180)
+    jd = Timezone(timezone).local_time_to_julian_day(Date(year, month, day, hour, minute, second))
+    nd = NakshatraDivision(jd=jd, ayanaamsha_id=Ayanamsha.CHITRA_AT_180)
     body = Graha(body_name=body_name)
     anga_type = AngaType.NAKSHATRA
     if anga_type_str == AngaType.RASHI.name:
@@ -94,9 +94,9 @@ class DivisionFinder(Resource):
   '/timezones/<string:timezone>/times/years/<int:year>/months/<int:month>/days/<int:day>/hours/<int:hour>/minutes/<int:minute>/seconds/<int:second>/raashi')
 class RaashiFinder(Resource):
   def get(self, timezone, year, month, day, hour, minute, second):
-    julday = Timezone(timezone).local_time_to_julian_day(Date(year, month, day, hour, minute, second))
+    jd = Timezone(timezone).local_time_to_julian_day(Date(year, month, day, hour, minute, second))
     from jyotisha.panchaanga import temporal
-    raashi = NakshatraDivision(julday, ayanaamsha_id=Ayanamsha.CHITRA_AT_180).get_solar_raashi()
+    raashi = NakshatraDivision(jd, ayanaamsha_id=Ayanamsha.CHITRA_AT_180).get_solar_raashi()
     logging.info(raashi)
     return str(raashi)
     # return "haha"
@@ -108,9 +108,9 @@ class RaashiFinder(Resource):
 class RaashiTransitionFinder(Resource):
   def get(self, timezone, year, month, day, hour, minute, second, body):
     from jyotisha import zodiac
-    julday = Timezone(timezone).local_time_to_julian_day(Date(year, month, day, hour, minute, second))
+    jd = Timezone(timezone).local_time_to_julian_day(Date(year, month, day, hour, minute, second))
     from jyotisha.panchaanga import temporal
-    transits = Graha.singleton(body).get_transits(jd_start=julday, jd_end=julday + 100, anga_type=AngaType.RASHI,
+    transits = Graha.singleton(body).get_transits(jd_start=jd, jd_end=jd + 100, anga_type=AngaType.RASHI,
                                                   ayanaamsha_id=Ayanamsha.CHITRA_AT_180)
     # logging.debug(transits)
     transits_local = [(Timezone(timezone).julian_day_to_local_time(transit.jd), transit.value_1, transit.value_2) for transit in

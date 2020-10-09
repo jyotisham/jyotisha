@@ -5,6 +5,7 @@ import sys
 from math import floor, modf
 
 from scipy.optimize import brentq
+from timebudget import timebudget
 
 from jyotisha.panchaanga.spatio_temporal import City
 from jyotisha.panchaanga.temporal import interval, time, ComputationSystem, set_constants
@@ -170,7 +171,7 @@ class DailyPanchaanga(common.JsonObject):
     """
     # If solar transition happens before the current sunset but after the previous sunset, then that is taken to be solar day 1.
     self.compute_sun_moon_transitions(previous_day_panchaanga=previous_day_panchaanga)
-    solar_month_sunset = NakshatraDivision(julday=self.jd_sunset, ayanaamsha_id=self.computation_system.ayanaamsha_id).get_anga(
+    solar_month_sunset = NakshatraDivision(jd=self.jd_sunset, ayanaamsha_id=self.computation_system.ayanaamsha_id).get_anga(
       anga_type=AngaType.SIDEREAL_MONTH)
 
     solar_sidereal_month_end_jd = None
@@ -194,7 +195,7 @@ class DailyPanchaanga(common.JsonObject):
       tropical_date_sunset_month = previous_day_panchaanga.tropical_date_sunset.month
     
     if previous_day_panchaanga is None or previous_day_panchaanga.tropical_date_sunset.day > 28 :
-      nd = zodiac.NakshatraDivision(julday=self.jd_sunset, ayanaamsha_id=Ayanamsha.ASHVINI_STARTING_0)
+      nd = zodiac.NakshatraDivision(jd=self.jd_sunset, ayanaamsha_id=Ayanamsha.ASHVINI_STARTING_0)
       fractional_month = nd.get_fractional_division_for_body(body=Graha.singleton(Graha.SUN), anga_type=AngaType.RASHI)
       (month_fraction, _) = modf(fractional_month)
       approx_day = month_fraction*30
@@ -260,6 +261,7 @@ class DailyPanchaanga(common.JsonObject):
         self.lagna_data.append((lagna, lagna_end_time))
     return self.lagna_data
 
+  @timebudget
   def get_sunrise_day_anga_spans(self, anga_type):
     """Computes anga data for sunrise_day_angas such as tithi, nakshatra, yoga
     and karana.
@@ -277,7 +279,7 @@ class DailyPanchaanga(common.JsonObject):
     w_sun = anga_type.weight_sun
     arc_len = anga_type.arc_length
   
-    num_angas = int(360.0 / arc_len)
+    num_angas = anga_type.num_angas
   
     # Compute anga details
     anga_now = NakshatraDivision(self.jd_sunrise, ayanaamsha_id=self.computation_system.ayanaamsha_id).get_anga(anga_type)
@@ -340,7 +342,6 @@ class DailyPanchaanga(common.JsonObject):
           t_act = approx_end
         angas_list.extend([Interval(name=(anga_now + i - 1) % num_angas + 1, jd_end=t_act, jd_start=None)])
     return angas_list
-
 
 # Essential for depickling to work.
 common.update_json_class_index(sys.modules[__name__])
