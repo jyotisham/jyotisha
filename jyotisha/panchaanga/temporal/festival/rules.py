@@ -203,7 +203,9 @@ class HinduCalendarEvent(common.JsonObject):
 
   def get_url(self):
     from urllib.parse import quote
-    return quote(self.get_storage_file_name(base_dir=self.repo.base_url))
+    encoded_url = quote(self.get_storage_file_name(base_dir=self.repo.base_url))
+    # https://github.com/sanskrit-coders/jyotisha/runs/1229399248?check_suite_focus=true shows that ~ is being replaced there, which breaks tests. Hence the below.
+    return encoded_url.replace("%7E", "~")
 
   def get_description_string(self, script, include_url=False, include_images=False, use_markup=False,
                              include_shlokas=False, is_brief=False, truncate=False):
