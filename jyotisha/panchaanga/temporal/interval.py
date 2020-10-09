@@ -19,6 +19,11 @@ class Interval(common.JsonObject):
     f = lambda x: NakshatraDivision(x, ayanaamsha_id=ayanaamsha_id).get_anga(anga_type=anga_type)
     return (f(self.jd_start), f(self.jd_end))
 
+  def __str__(self):
+    from jyotisha.panchaanga.temporal import time
+    return "%s: (%s, %s)" % ("" if self.name is None else self.name, time.ist_timezone.julian_day_to_local_time_str(jd=self.jd_start),
+                             time.ist_timezone.julian_day_to_local_time_str(jd=self.jd_end))
+
 
 class DayLengthBasedPeriods(common.JsonObject):
   def __init__(self, jd_previous_sunset, jd_sunrise, jd_sunset, jd_next_sunrise, weekday):
