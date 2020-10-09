@@ -54,14 +54,14 @@ def test_solar_day():
 
 
 def test_sunrise_mtv():
-  city = City.from_address_and_timezone('Cupertino, CA', "America/Los_Angeles")
+  city = City.get_city_from_db('Cupertino') 
   panchaanga = daily.DailyPanchaanga(city=city, date=Date(year=2018, month=11, day=11))
   panchaanga.compute_sun_moon_transitions()
   numpy.testing.assert_approx_equal(panchaanga.jd_sunrise, 2458434.11)
 
 
 def test_tb_muhuurta_blr():
-  city = City.from_address_and_timezone('Bangalore', "Asia/Calcutta")
+  city = City.get_city_from_db('Bangalore')   
   panchaanga = daily.DailyPanchaanga(city=city, date=Date(year=2019, month=9, day=10))
   panchaanga.compute_tb_muhuurtas()
   assert len(panchaanga.day_length_based_periods.tb_muhuurtas) == 15
@@ -79,13 +79,13 @@ def test_jd_start_orinda_ca():
 
 
 def test_get_lagna_float():
-  city = City('X', 13.08784, 80.27847, 'Asia/Calcutta')
+  city = City.get_city_from_db('Chennai') 
   numpy.testing.assert_allclose(
     city.get_lagna_float(
       2444961.7125), 10.353595502472984, rtol=1e-4)
 
 
-def test_get_anga_data():
+def test_get_anga_data_1981_12_23():
   panchaanga = daily.DailyPanchaanga.from_city_and_julian_day(
     city=tests.spatio_temporal.chennai, julian_day=2444961.54042)
   assert panchaanga.get_sunrise_day_anga_spans(AngaType.TITHI) == [
@@ -98,7 +98,7 @@ def test_get_anga_data():
 
 
 def test_get_lagna_data():
-  city = City('X', 13.08784, 80.27847, 'Asia/Calcutta')
+  city = City.get_city_from_db('Chennai') 
   from jyotisha.panchaanga.temporal import zodiac
   actual = daily.DailyPanchaanga.from_city_and_julian_day(city=city, julian_day=2458222.5208333335).get_lagna_data(
     ayanaamsha_id=zodiac.Ayanamsha.CHITRA_AT_180)
