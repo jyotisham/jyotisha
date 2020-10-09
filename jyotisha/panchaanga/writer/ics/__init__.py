@@ -40,7 +40,7 @@ def compute_calendar(panchaanga, scripts=[sanscript.DEVANAGARI], all_tags=True, 
   DATA_ROOT = os.path.join(os.path.dirname(festival.__file__), "data")
 
   rules_collection = rules.RulesCollection.get_cached(repos=tuple(panchaanga.computation_system.options.fest_repos))
-  fest_details_dict = rules_collection.all
+  fest_details_dict = rules_collection.name_to_rule
 
   ics_calendar = Calendar()
   # uid_list = []
@@ -294,7 +294,7 @@ def main():
   if len(sys.argv) == 8:
     all_tags = False
   else:
-    all_tags = True  # Default assume detailed ICS with all tags
+    all_tags = True  # Default assume detailed ICS with name_to_rule tags
 
   if len(sys.argv) >= 7:
     scripts = sys.argv[6].split(",")

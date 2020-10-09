@@ -303,7 +303,7 @@ def emit(panchaanga, time_format="hh:mm", scripts=[sanscript.DEVANAGARI], comput
                karana_data_str, ''), file=output_stream)
 
     rules_collection = rules.RulesCollection.get_cached(repos=tuple(panchaanga.computation_system.options.fest_repos))
-    fest_details_dict = rules_collection.all
+    fest_details_dict = rules_collection.name_to_rule
 
     # Using set as an ugly workaround since we may have sometimes assigned the same
     # festival to the same day again!

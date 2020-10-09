@@ -283,7 +283,7 @@ class FestivalAssigner(PeriodicPanchaangaApplier):
         lunar_y_start_d.append(d)
 
     period_start_year = self.panchaanga.start_date.year
-    festival_rules_all = self.rules_collection.all
+    festival_rules_all = self.rules_collection.name_to_rule
     for festival_name in festival_rules_all:
       if festival_name in self.panchaanga.festival_id_to_days and festival_rules_all[festival_name].timing.year_start is not None:
         fest_start_year = festival_rules_all[festival_name].timing.year_start
