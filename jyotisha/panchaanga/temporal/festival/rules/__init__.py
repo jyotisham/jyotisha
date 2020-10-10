@@ -210,7 +210,7 @@ DATA_ROOT = os.path.join(os.path.dirname(__file__), "../data")
 
 class RulesRepo(common.JsonObject):
   LUNAR_MONTH_DIR = "lunar_month"
-  SIDEREAL_SOLAR_MONTH_DIR = "sidereal_solar_month"
+  SIDEREAL_SIDEREAL_MONTH_DIR = "sidereal_solar_month"
   RELATIVE_EVENT_DIR = "relative_event"
   DAY_DIR = "day"
   TITHI_DIR = "tithi"

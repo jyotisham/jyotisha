@@ -6,9 +6,12 @@ import methodtools
 import numpy
 import swisseph as swe
 from scipy.optimize import brentq
+from timebudget import timebudget
 
+from jyotisha.names import NAMES
 from jyotisha.panchaanga.temporal.body import Graha
 from jyotisha.panchaanga.temporal.interval import Interval
+from jyotisha.util import default_if_none
 from sanskrit_data.schema import common
 from sanskrit_data.schema.common import JsonObject
 
@@ -49,6 +52,7 @@ class Ayanamsha(common.JsonObject):
     raise Exception("Bad ayamasha_id")
 
 
+ANGA_NAME_TO_TYPE = {}
 
 
 class AngaType(JsonObject):
@@ -60,37 +64,54 @@ class AngaType(JsonObject):
   RASHI = None
   YOGA = None
   KARANA = None
-  SOLAR_MONTH = None
+  SIDEREAL_MONTH = None
   SOLAR_NAKSH = None
   SOLAR_NAKSH_PADA = None
 
-  def __init__(self, name, arc_length, weight_moon, weight_sun):
+  def __init__(self, name, num_angas, weight_moon, weight_sun, names_dict=None):
     super(AngaType, self).__init__()
     self.name = name
-    self.arc_length = arc_length
+    self.num_angas = num_angas
+    self.arc_length = 360.0 / num_angas
     self.weight_moon = weight_moon
     self.weight_sun = weight_sun
+    if names_dict is None:
+      key = name + "_NAMES"
+      if name == 'SOLAR_NAKSH':
+        key = 'NAKSHATRA'
+      elif name == 'SIDEREAL_MONTH':
+        key = 'CHANDRA_MASA_NAMES'
+      if key in NAMES:
+        self.names_dict = NAMES[key]
+    ANGA_NAME_TO_TYPE[self.name] = self
+
+  def add(self, a, b):
+    if b < 1:
+      offset_index = (a + b) % self.num_angas
+    else:
+      offset_index = (a - 1 + b) % self.num_angas + 1
+    return offset_index
 
 
-AngaType.TITHI = AngaType(name='TITHI', arc_length=360.0 / 30.0, weight_moon=1, weight_sun=-1)
-AngaType.TITHI_PADA = AngaType(name='TITHI_PADA', arc_length=360.0 / 120.0, weight_moon=1, weight_sun=-1)
-AngaType.NAKSHATRA = AngaType(name='nakshatra', arc_length=360.0 / 27.0, weight_moon=1, weight_sun=0)
-AngaType.NAKSHATRA_PADA = AngaType(name='NAKSHATRA_PADA', arc_length=360.0 / 108.0, weight_moon=1, weight_sun=0)
-AngaType.RASHI = AngaType(name='RASHI', arc_length=360.0 / 12.0, weight_moon=1, weight_sun=0)
-AngaType.YOGA = AngaType(name='YOGA', arc_length=360.0 / 27.0, weight_moon=1, weight_sun=1)
-AngaType.KARANA = AngaType(name='KARANA', arc_length=360.0 / 60.0, weight_moon=1, weight_sun=-1)
-AngaType.SOLAR_MONTH = AngaType(name='SOLAR_MONTH', arc_length=360.0 / 12.0, weight_moon=0, weight_sun=1)
-AngaType.SOLAR_NAKSH = AngaType(name='SOLAR_NAKSH', arc_length=360.0 / 27.0, weight_moon=0, weight_sun=1)
-AngaType.SOLAR_NAKSH_PADA = AngaType(name='SOLAR_NAKSH_PADA', arc_length=360.0 / 108.0, weight_moon=0, weight_sun=1)
+AngaType.TITHI = AngaType(name='TITHI', num_angas=30, weight_moon=1, weight_sun=-1)
+AngaType.TITHI_PADA = AngaType(name='TITHI_PADA', num_angas=120, weight_moon=1, weight_sun=-1)
+AngaType.NAKSHATRA = AngaType(name='nakshatra', num_angas=27, weight_moon=1, weight_sun=0)
+AngaType.NAKSHATRA_PADA = AngaType(name='NAKSHATRA_PADA', num_angas=108, weight_moon=1, weight_sun=0)
+AngaType.RASHI = AngaType(name='RASHI', num_angas=12, weight_moon=1, weight_sun=0)
+AngaType.YOGA = AngaType(name='YOGA', num_angas=27, weight_moon=1, weight_sun=1)
+AngaType.KARANA = AngaType(name='KARANA', num_angas=60, weight_moon=1, weight_sun=-1)
+AngaType.SIDEREAL_MONTH = AngaType(name='SIDEREAL_MONTH', num_angas=12, weight_moon=0, weight_sun=1)
+AngaType.SOLAR_NAKSH = AngaType(name='SOLAR_NAKSH', num_angas=27, weight_moon=0, weight_sun=1)
+AngaType.SOLAR_NAKSH_PADA = AngaType(name='SOLAR_NAKSH_PADA', num_angas=108, weight_moon=0, weight_sun=1)
 
 
 class NakshatraDivision(common.JsonObject):
   """Nakshatra division at a certain time, according to a certain ayanaamsha."""
 
-  def __init__(self, julday, ayanaamsha_id):
+  def __init__(self, jd, ayanaamsha_id):
     super().__init__()
     self.ayanaamsha_id = ayanaamsha_id
-    self.julday = julday
+    self.jd = jd
 
   def get_fractional_division_for_body(self, body: Graha, anga_type: AngaType) -> float:
     """
@@ -98,14 +119,14 @@ class NakshatraDivision(common.JsonObject):
     :param body: graha ID.
     :return: 0.x for AshvinI and so on.
     """
-    longitude = body.get_longitude(self.julday, ayanaamsha_id=self.ayanaamsha_id)
+    longitude = body.get_longitude(self.jd, ayanaamsha_id=self.ayanaamsha_id)
     return self.longitude_to_fractional_division(longitude=longitude, anga_type=anga_type)
 
   def get_equatorial_boundary_coordinates(self):
     """Get equatorial coordinates for the points where the ecliptic nakShatra boundary longitude intersects the ecliptic."""
     nakShatra_ends = ((numpy.arange(27) + 1) * (360.0 / 27.0) + Ayanamsha.singleton(
       self.ayanaamsha_id).get_offset(
-      self.julday)) % 360
+      self.jd)) % 360
     equatorial_boundary_coordinates = [ecliptic_to_equatorial(longitude=longitude, latitude=0) for longitude in nakShatra_ends]
     return equatorial_boundary_coordinates
 
@@ -136,7 +157,7 @@ class NakshatraDivision(common.JsonObject):
 
       Args:
         :param anga_type: One of the pre-defined tuple-valued constants in the panchaanga
-        class, such as TITHI, nakshatra, YOGA, KARANA or SOLAR_MONTH
+        class, such as TITHI, nakshatra, YOGA, KARANA or SIDEREAL_MONTH
 
       Returns:
         float anga
@@ -155,12 +176,12 @@ class NakshatraDivision(common.JsonObject):
 
     #  Get the lunar longitude, starting at the ayanaamsha point in the ecliptic.
     if w_moon != 0:
-      lmoon = Graha.singleton(Graha.MOON).get_longitude(self.julday, ayanaamsha_id=ayanaamsha_id)
+      lmoon = Graha.singleton(Graha.MOON).get_longitude(self.jd, ayanaamsha_id=ayanaamsha_id)
       lcalc += w_moon * lmoon
 
     #  Get the solar longitude, starting at the ayanaamsha point in the ecliptic.
     if w_sun != 0:
-      lsun = Graha.singleton(Graha.SUN).get_longitude(self.julday, ayanaamsha_id=ayanaamsha_id)
+      lsun = Graha.singleton(Graha.SUN).get_longitude(self.jd, ayanaamsha_id=ayanaamsha_id)
       lcalc += w_sun * lsun
 
     return self.longitude_to_fractional_division(longitude=lcalc, anga_type=anga_type)
@@ -181,7 +202,7 @@ class NakshatraDivision(common.JsonObject):
     """Compute various properties of the time based on lunar and solar longitudes, division of a circle into a certain number of degrees (arc_len).
     """
     anga_objects = [AngaType.TITHI, AngaType.TITHI_PADA, AngaType.NAKSHATRA, AngaType.NAKSHATRA_PADA, AngaType.RASHI,
-                    AngaType.SOLAR_MONTH, AngaType.SOLAR_NAKSH, AngaType.YOGA, AngaType.KARANA]
+                    AngaType.SIDEREAL_MONTH, AngaType.SOLAR_NAKSH, AngaType.YOGA, AngaType.KARANA]
     angas = list(map(lambda anga_object: self.get_anga(anga_type=anga_object), anga_objects))
     anga_ids = list(map(lambda anga_obj: anga_obj.name, anga_objects))
     return dict(list(zip(anga_ids, angas)))
@@ -225,7 +246,7 @@ class NakshatraDivision(common.JsonObject):
       int rashi, where 1 stands for mESa, ..., 12 stands for mIna
     """
 
-    return self.get_anga(AngaType.SOLAR_MONTH)
+    return self.get_anga(AngaType.SIDEREAL_MONTH)
 
 
 def longitude_to_right_ascension(longitude):
@@ -283,6 +304,7 @@ class AngaSpanFinder(JsonObject):
       jd_now = min(jd_now + min_step, jd2)
     return jd_start
 
+  @timebudget
   def find(self, jd1: float, jd2: float, target_anga_id: int) -> Interval:
     """Computes anga spans for sunrise_day_angas such as tithi, nakshatra, yoga
         and karana.
@@ -290,7 +312,7 @@ class AngaSpanFinder(JsonObject):
         Args:
           :param jd1: return the first span that starts after this date
           :param jd2: return the first span that ends before this date
-          :param anga_type: TITHI, nakshatra, YOGA, KARANA, SOLAR_MONTH, SOLAR_NAKSH
+          :param anga_type: TITHI, nakshatra, YOGA, KARANA, SIDEREAL_MONTH, SOLAR_NAKSH
           :param ayanaamsha_id
           :param debug
 
@@ -304,9 +326,6 @@ class AngaSpanFinder(JsonObject):
     anga_interval = Interval(jd_start=None, jd_end=None, name=target_anga_id)
 
     anga_interval.jd_start = self.find_anga_start_between(jd1=jd1, jd2=jd2, target_anga_id=target_anga_id)
-
-    if anga_interval.jd_start is None:
-      return Interval(jd_start=None, jd_end=None, name=target_anga_id)  # If it doesn't start, we don't care if it ends!
 
     anga_id_after_target = (target_anga_id % num_angas) + 1
     anga_interval.jd_end = self.find_anga_start_between(jd1=anga_interval.jd_start, jd2=jd2, target_anga_id=anga_id_after_target)
@@ -336,8 +355,8 @@ def get_tithis_in_period(jd_start, jd_end, tithi):
 
 
 def get_tropical_month(jd):
-  nd = NakshatraDivision(julday=jd, ayanaamsha_id=Ayanamsha.ASHVINI_STARTING_0)
-  return nd.get_anga(anga_type=AngaType.SOLAR_MONTH)
+  nd = NakshatraDivision(jd=jd, ayanaamsha_id=Ayanamsha.ASHVINI_STARTING_0)
+  return nd.get_anga(anga_type=AngaType.SIDEREAL_MONTH)
 
 
 def get_previous_solstice(jd):
@@ -349,12 +368,12 @@ def get_previous_solstice(jd):
   months_past_solstice = (tropical_month - target_month) % 12
   jd1 = jd - (months_past_solstice * 30 + months_past_solstice + 30)
   jd2 = jd - (months_past_solstice * 30 + months_past_solstice) + 30
-  anga_span_finder = AngaSpanFinder(ayanaamsha_id=Ayanamsha.ASHVINI_STARTING_0, anga_type=AngaType.SOLAR_MONTH)
+  anga_span_finder = AngaSpanFinder(ayanaamsha_id=Ayanamsha.ASHVINI_STARTING_0, anga_type=AngaType.SIDEREAL_MONTH)
   return anga_span_finder.find(jd1=jd1, jd2=jd2, target_anga_id=target_month)
 
 
 
 
 if __name__ == '__main__':
-  # lahiri_nakshatra_division = NakshatraDivision(julday=temporal.utc_to_jd(year=2017, month=8, day=19, hour=11, minutes=10, seconds=0, flag=1)[0])
+  # lahiri_nakshatra_division = NakshatraDivision(jd=temporal.utc_to_jd(year=2017, month=8, day=19, hour=11, minutes=10, seconds=0, flag=1)[0])
   pass

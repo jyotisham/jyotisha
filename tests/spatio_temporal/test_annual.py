@@ -5,11 +5,12 @@ import traceback
 from timebudget import timebudget
 
 import sanskrit_data.collection_helper
-from jyotisha.panchaanga.spatio_temporal import City, annual
+from jyotisha.panchaanga.spatio_temporal import City, annual, periodical
 # from jyotisha.panchaanga import scripts
 # from jyotisha.panchaanga.spatio_temporal import annual
 from jyotisha.panchaanga.spatio_temporal.periodical import Panchaanga
 from jyotisha.panchaanga.temporal import zodiac
+from jyotisha.panchaanga.temporal.time import Date
 
 logging.basicConfig(
   level=logging.DEBUG,
@@ -89,8 +90,7 @@ def test_adhika_maasa_computations_2018():
 
 def test_orinda_ca_dst_2019():
   city = City('Orinda', '37:51:38', '-122:10:59', 'America/Los_Angeles')
-  panchaanga = annual.get_panchaanga_for_civil_year(city=city, year=2019,
-                                                    allow_precomputed=False)
+  panchaanga = panchaanga = periodical.Panchaanga(city=city, start_date=Date(2019, 1, 1), end_date=Date(2019, 5, 1))
   # March 10 is the 69th day of the year (70th in leap years) in the Gregorian calendar.
   # Sunrise on that day is around 7:27 AM according to Google, which is JD 2458553.14375 according to https://ssd.jpl.nasa.gov/tc.cgi#top .
   # We use the index 70 below as the annual panchanga object seems to use the index d + 1.

@@ -33,7 +33,7 @@ def load_panchaanga(fname, fallback_fn):
   
 
 
-def get_panchaanga_for_shaka_year(city, year, precomputed_json_dir="~/Documents/jyotisha", computation_system: ComputationSystem = ComputationSystem.MULTI_NEW_MOON_SOLAR_MONTH_ADHIKA__CHITRA_180, allow_precomputed=True):
+def get_panchaanga_for_shaka_year(city, year, precomputed_json_dir="~/Documents/jyotisha", computation_system: ComputationSystem = ComputationSystem.MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_180, allow_precomputed=True):
   fname = os.path.expanduser('%s/%s__shaka_%s__%s.json' % (precomputed_json_dir, city.name, year, computation_system))
   if os.path.isfile(fname) and allow_precomputed:
     fn = lambda: get_panchaanga_for_shaka_year(city=city, year=year, precomputed_json_dir=precomputed_json_dir,
@@ -43,7 +43,7 @@ def get_panchaanga_for_shaka_year(city, year, precomputed_json_dir="~/Documents/
     logging.info('No precomputed data available. Computing panchaanga...\n')
     SHAKA_CIVIL_ERA_DIFF = 78
     start_year_civil = year + SHAKA_CIVIL_ERA_DIFF
-    anga_span_finder = AngaSpanFinder(ayanaamsha_id=Ayanamsha.ASHVINI_STARTING_0, anga_type=AngaType.SOLAR_MONTH)
+    anga_span_finder = AngaSpanFinder(ayanaamsha_id=Ayanamsha.ASHVINI_STARTING_0, anga_type=AngaType.SIDEREAL_MONTH)
     start_equinox = anga_span_finder.find(jd1=time.utc_gregorian_to_jd(Date(year=start_year_civil, month=3, day=1)), jd2=time.utc_gregorian_to_jd(Date(year=start_year_civil, month=5, day=1)), target_anga_id=1)
     end_equinox = anga_span_finder.find(jd1=time.utc_gregorian_to_jd(Date(year=start_year_civil  + 1, month=3, day=1)), jd2=time.utc_gregorian_to_jd(Date(year=start_year_civil + 1, month=5, day=1)), target_anga_id=1)
     tz = Timezone(city.timezone)
@@ -62,7 +62,7 @@ def get_panchaanga_for_shaka_year(city, year, precomputed_json_dir="~/Documents/
 
 
 def get_panchaanga_for_civil_year(city, year, precomputed_json_dir="~/Documents/jyotisha",
-                                  computation_system: ComputationSystem = ComputationSystem.MULTI_NEW_MOON_SOLAR_MONTH_ADHIKA__CHITRA_180, allow_precomputed=True):
+                                  computation_system: ComputationSystem = ComputationSystem.MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_180, allow_precomputed=True):
   fname_det = os.path.expanduser('%s/%s-%s-detailed.json' % (precomputed_json_dir, city.name, year))
   fname = os.path.expanduser('%s/%s-%s.json' % (precomputed_json_dir, city.name, year))
 
