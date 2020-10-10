@@ -1,7 +1,6 @@
 import logging
 
 import numpy.testing
-import tests.spatio_temporal
 from jyotisha.panchaanga.spatio_temporal import City
 from jyotisha.panchaanga.spatio_temporal import daily
 from jyotisha.panchaanga.temporal import time
@@ -9,46 +8,50 @@ from jyotisha.panchaanga.temporal.interval import Interval
 from jyotisha.panchaanga.temporal.time import Date
 from jyotisha.panchaanga.temporal.zodiac import AngaType
 
+from sanskrit_data import collection_helper
+
 logging.basicConfig(
   level=logging.DEBUG,
   format="%(levelname)s: %(asctime)s {%(filename)s:%(lineno)d}: %(message)s "
 )
 
+chennai = City.get_city_from_db("Chennai")
+
 
 def test_solar_day():
 
   panchaanga = daily.DailyPanchaanga.from_city_and_julian_day(
-    city=tests.spatio_temporal.chennai, julian_day=time.utc_gregorian_to_jd(Date(2018, 12, 31)))
+    city=chennai, julian_day=time.utc_gregorian_to_jd(Date(2018, 12, 31)))
   assert panchaanga.solar_sidereal_date_sunset.month_transition is None
 
   panchaanga = daily.DailyPanchaanga.from_city_and_julian_day(
-    city=tests.spatio_temporal.chennai, julian_day=time.utc_gregorian_to_jd(Date(2018, 1, 14)))
+    city=chennai, julian_day=time.utc_gregorian_to_jd(Date(2018, 1, 14)))
   assert panchaanga.solar_sidereal_date_sunset.day == 1
   assert panchaanga.solar_sidereal_date_sunset.month == 10
   assert panchaanga.solar_sidereal_date_sunset.month_transition == 2458132.8291680976
 
   panchaanga = daily.DailyPanchaanga.from_city_and_julian_day(
-    city=tests.spatio_temporal.chennai, julian_day=time.utc_gregorian_to_jd(Date(2018, 2, 12)))
+    city=chennai, julian_day=time.utc_gregorian_to_jd(Date(2018, 2, 12)))
   numpy.testing.assert_approx_equal(panchaanga.solar_sidereal_date_sunset.month_transition, 2458162.3747)
 
 
   panchaanga = daily.DailyPanchaanga.from_city_and_julian_day(
-    city=tests.spatio_temporal.chennai, julian_day=time.utc_gregorian_to_jd(Date(2018, 4, 13)))
+    city=chennai, julian_day=time.utc_gregorian_to_jd(Date(2018, 4, 13)))
   assert panchaanga.solar_sidereal_date_sunset.month_transition is None
 
   panchaanga = daily.DailyPanchaanga.from_city_and_julian_day(
-    city=tests.spatio_temporal.chennai, julian_day=time.utc_gregorian_to_jd(Date(2017, 12, 16)))
+    city=chennai, julian_day=time.utc_gregorian_to_jd(Date(2017, 12, 16)))
   assert panchaanga.solar_sidereal_date_sunset.day == 1
   assert panchaanga.solar_sidereal_date_sunset.month == 9
 
   panchaanga = daily.DailyPanchaanga.from_city_and_julian_day(
-    city=tests.spatio_temporal.chennai, julian_day=2457023.27)
+    city=chennai, julian_day=2457023.27)
   logging.debug(str(panchaanga))
   assert panchaanga.solar_sidereal_date_sunset.day == 16
   assert panchaanga.solar_sidereal_date_sunset.month == 9
 
   panchaanga = daily.DailyPanchaanga.from_city_and_julian_day(
-    city=tests.spatio_temporal.chennai, julian_day=time.utc_gregorian_to_jd(Date(2017, 12, 31)))
+    city=chennai, julian_day=time.utc_gregorian_to_jd(Date(2017, 12, 31)))
   assert panchaanga.solar_sidereal_date_sunset.day == 16
   assert panchaanga.solar_sidereal_date_sunset.month == 9
 
@@ -87,14 +90,14 @@ def test_get_lagna_float():
 
 def test_get_anga_data_1981_12_23():
   panchaanga = daily.DailyPanchaanga.from_city_and_julian_day(
-    city=tests.spatio_temporal.chennai, julian_day=2444961.54042)
-  assert panchaanga.get_sunrise_day_anga_spans(AngaType.TITHI) == [
-    Interval(name=27, jd_end=2444961.5992132244, jd_start=None)]
-  assert panchaanga.get_sunrise_day_anga_spans(AngaType.NAKSHATRA) == [Interval(name=16, jd_end=2444961.746925843, jd_start=None)]
-  assert panchaanga.get_sunrise_day_anga_spans(AngaType.YOGA) == [
-    Interval(name=8, jd_end=2444962.18276057, jd_start=None)]
-  assert panchaanga.get_sunrise_day_anga_spans(AngaType.KARANA) == [
-    Interval(name=54, jd_end=2444961.5992132244, jd_start=None), Interval(name=55, jd_end=2444962.1544454526, jd_start=None)]
+    city=chennai, julian_day=2444961.54042)
+  assert collection_helper.dictify(panchaanga.get_sunrise_day_anga_spans(AngaType.TITHI)) == collection_helper.dictify([
+    Interval(name=27, jd_end=2444961.5992132244, jd_start=None)])
+  assert collection_helper.dictify(panchaanga.get_sunrise_day_anga_spans(AngaType.NAKSHATRA)) == collection_helper.dictify([Interval(name=16, jd_end=2444961.746925843, jd_start=None)])
+  assert collection_helper.dictify(panchaanga.get_sunrise_day_anga_spans(AngaType.YOGA)) == collection_helper.dictify([
+    Interval(name=8, jd_end=2444962.18276057, jd_start=None)])
+  assert collection_helper.dictify(panchaanga.get_sunrise_day_anga_spans(AngaType.KARANA)) == collection_helper.dictify([
+    Interval(name=54, jd_end=2444961.5992132244, jd_start=None), Interval(name=55, jd_end=2444962.1544454526, jd_start=None)])
 
 
 def test_get_lagna_data():
