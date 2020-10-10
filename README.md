@@ -5,7 +5,9 @@ JyotiSha tools and data
 [![Actions Status](https://github.com/sanskrit-coders/jyotisha/workflows/Python%20package/badge.svg)](https://github.com/sanskrit-coders/jyotisha/actions)
 
 ## Intro
-A package to do various panchaanga (traditional vedic astronomical / astrological) calculations, produce calendars.
+A package to do various panchaanga (traditional vedic astronomical / astrological) calculations, produce calendars. It is backed by the pretty big [adyatithi events database](https://github.com/sanskrit-coders/adyatithi).
+
+The code itself is capable of typical (amAnta, chitra-at-180 ayanAMsha, असङ्क्रान्तिमासोऽधिकः ) based calculation (which can be invoked via some shell scripts at [karthik's panchaanga repo](https://github.com/karthikraman/panchangam) ) as well as the ancient but now uncommon [tropical lunisolar system](https://vvasuki.github.io/jyotiSham/history/kauNDinyAyana/). 
 
 For a survey of similar software, see [here](https://sanskrit-coders.github.io/astronomy/).
 
@@ -17,10 +19,7 @@ occurrences of different festivals. The best use of this panchaanga is as an
 approximate guide (95% of the events are also probably spot on) — when
 in doubt, consult only your own panchaanga!
 
-Kartik has primarily restricted my example testing
-to Chennai, Mumbai, London and Palo Alto. Please let me know of any bugs
-or errors that you encounter by raising an issue and I’ll do my best to
-fix them.
+Kartik has primarily restricted his testing to Chennai, Mumbai, London and Palo Alto.
 
 ## For users
 For detailed examples and help, please see individual module files - especially test files in this package.
