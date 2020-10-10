@@ -92,6 +92,10 @@ class AngaType(JsonObject):
       offset_index = (a - 1 + b) % self.num_angas + 1
     return offset_index
 
+  def __eq__(self, other):
+    # Overriding for speed.
+    return self.name == other.name
+
 
 AngaType.TITHI = AngaType(name='TITHI', num_angas=30, weight_moon=1, weight_sun=-1)
 AngaType.TITHI_PADA = AngaType(name='TITHI_PADA', num_angas=120, weight_moon=1, weight_sun=-1)
