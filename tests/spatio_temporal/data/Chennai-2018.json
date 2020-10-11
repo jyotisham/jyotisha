@@ -1,6 +1,5 @@
 {
   "city": {
-    "default_to_none": true,
     "jsonClass": "City",
     "latitude": 13.09,
     "longitude": 80.27,
@@ -209,7 +208,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {},
       "jd_moonrise": 2458118.9423,
       "jd_moonset": 2458119.4977,
@@ -404,7 +402,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "andhakAsura-vadhaH": {
           "jsonClass": "FestivalInstance",
@@ -618,7 +615,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "ArudrA~darican2am/naTarAjar mahAbhiSEkam": {
           "jsonClass": "FestivalInstance",
@@ -865,7 +861,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "kAJcI 37 jagadguru zrI~vidyAghanEndra sarasvatI 3 ArAdhanA": {
           "jsonClass": "FestivalInstance",
@@ -1081,7 +1076,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {},
       "jd_moonrise": 2458123.1222,
       "jd_moonset": 2458122.6246,
@@ -1279,7 +1273,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "lambOdara-mahAgaNapati saGkaTahara-caturthI-vratam": {
           "jsonClass": "FestivalInstance",
@@ -1486,7 +1479,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "bahula-paJcamI": {
           "jsonClass": "FestivalInstance",
@@ -1692,7 +1684,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "iyar2pagai nAyan2Ar (2) gurupUjai": {
           "jsonClass": "FestivalInstance",
@@ -1894,7 +1885,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "pauSa-aSTakA-pUrvEdyuH": {
           "jsonClass": "FestivalInstance",
@@ -2105,7 +2095,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "pauSa-aSTakA-zrAddham": {
           "jsonClass": "FestivalInstance",
@@ -2307,7 +2296,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "bhISma~jayantI": {
           "jsonClass": "FestivalInstance",
@@ -2516,7 +2504,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "kUDAravallI": {
           "jsonClass": "FestivalInstance",
@@ -2716,7 +2703,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "kar2avaigaL pin2cen2r2u": {
           "jsonClass": "FestivalInstance",
@@ -2921,7 +2907,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "bhOgi": {
           "jsonClass": "FestivalInstance",
@@ -3133,7 +3118,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "madhurai mIn2AkSI kOyilil kal yAn2aikku karumbu kODutta lIlai": {
           "jsonClass": "FestivalInstance",
@@ -3348,7 +3332,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "indra-pUjA/gO-pUjA": {
           "jsonClass": "FestivalInstance",
@@ -3557,7 +3540,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "mauni (pauSa/makara) amAvAsyA (alabhyam\u2013puSkalA)": {
           "jsonClass": "FestivalInstance",
@@ -3757,7 +3739,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {},
       "jd_moonrise": 2458136.5769,
       "jd_moonset": 2458136.0346,
@@ -3953,7 +3934,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "candra-darzanam": {
           "jsonClass": "FestivalInstance",
@@ -4162,7 +4142,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "tai~veLLikkizhamai": {
           "jsonClass": "FestivalInstance",
@@ -4368,7 +4347,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "appUdiyaDigaL nAyan2Ar (24) gurupUjai": {
           "jsonClass": "FestivalInstance",
@@ -4571,7 +4549,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "mArkaNDEya~jayantI": {
           "jsonClass": "FestivalInstance",
@@ -4772,7 +4749,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "mAghI~sarasvatI-pUjA": {
           "jsonClass": "FestivalInstance",
@@ -4985,7 +4961,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "SaSThI-vratam": {
           "jsonClass": "FestivalInstance",
@@ -5190,7 +5165,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "acalA~saptamI-vratam": {
           "jsonClass": "FestivalInstance",
@@ -5409,7 +5383,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "bhISmASTamI": {
           "jsonClass": "FestivalInstance",
@@ -5623,7 +5596,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "kAJcI 11 jagadguru zrI~zivAnanda cidghanEndra sarasvatI ArAdhanA": {
           "jsonClass": "FestivalInstance",
@@ -5851,7 +5823,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "sAmba-dazamI (sUryapUjA)": {
           "jsonClass": "FestivalInstance",
@@ -6060,7 +6031,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "bhISma-dvAdazI": {
           "jsonClass": "FestivalInstance",
@@ -6304,7 +6274,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "arivATTAya nAyan2Ar (12) gurupUjai": {
           "jsonClass": "FestivalInstance",
@@ -6521,7 +6490,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "kapAlI teppOtsavam~2": {
           "jsonClass": "FestivalInstance",
@@ -6732,7 +6700,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "kapAlI teppOtsavam~3": {
           "jsonClass": "FestivalInstance",
@@ -6958,7 +6925,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "kAJcI 51 jagadguru zrI~vidyAtIrthEndra sarasvatI ArAdhanA": {
           "jsonClass": "FestivalInstance",
@@ -7161,7 +7127,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "tai~veLLikkizhamai": {
           "jsonClass": "FestivalInstance",
@@ -7366,7 +7331,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "dvijapriya-mahAgaNapati saGkaTahara-caturthI-vratam": {
           "jsonClass": "FestivalInstance",
@@ -7568,7 +7532,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "Adityahasta-puNyakAlaH": {
           "jsonClass": "FestivalInstance",
@@ -7773,7 +7736,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "zrI~zESAdri-svAmI~jayantI": {
           "jsonClass": "FestivalInstance",
@@ -7976,7 +7938,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "mAgha-aSTakA-pUrvEdyuH": {
           "jsonClass": "FestivalInstance",
@@ -8185,7 +8146,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "kAJcI 66 jagadguru zrI~candrazEkharEndra sarasvatI 6 ArAdhanA": {
           "jsonClass": "FestivalInstance",
@@ -8395,7 +8355,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "mAgha-anvaSTakA-zrAddham": {
           "jsonClass": "FestivalInstance",
@@ -8601,7 +8560,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "tai~veLLikkizhamai": {
           "jsonClass": "FestivalInstance",
@@ -8802,7 +8760,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {},
       "jd_moonrise": 2458160.3944,
       "jd_moonset": 2458159.8444,
@@ -8997,7 +8954,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "sarva-vijayA-EkAdazI": {
           "jsonClass": "FestivalInstance",
@@ -9193,7 +9149,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "harivAsaraH": {
           "interval": {
@@ -9404,7 +9359,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "kAJcI jagadguru zrI~zaGkara vijayEndra sarasvatI jayantI": {
           "jsonClass": "FestivalInstance",
@@ -9627,7 +9581,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "vyatIpAta-zrAddham": {
           "jsonClass": "FestivalInstance",
@@ -9831,7 +9784,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "kaliyugAdiH": {
           "jsonClass": "FestivalInstance",
@@ -10046,7 +9998,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "kAJcI 67 jagadguru zrI~mahAdEvEndra sarasvatI 5 ArAdhanA": {
           "jsonClass": "FestivalInstance",
@@ -10252,7 +10203,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "candra-darzanam": {
           "jsonClass": "FestivalInstance",
@@ -10467,7 +10417,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "tiruccendUr murugan2 mAcit tiruvizhA toDakkam": {
           "jsonClass": "FestivalInstance",
@@ -10668,7 +10617,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "tiruccendUr murugan2 mAcit tiruvizhA ##2##m nAL": {
           "jsonClass": "FestivalInstance",
@@ -10869,7 +10817,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "bhaumAzvinI-puNyakAlaH": {
           "jsonClass": "FestivalInstance",
@@ -11079,7 +11026,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "SaSThI-vratam": {
           "jsonClass": "FestivalInstance",
@@ -11289,7 +11235,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "kRttikA-vratam": {
           "jsonClass": "FestivalInstance",
@@ -11509,7 +11454,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "tiruccendUr murugan2 mAcit tiruvizhA ##6##m nAL\u2014veLLit tEr bhavan2i": {
           "jsonClass": "FestivalInstance",
@@ -11714,7 +11658,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "tiruccendUr murugan2 mAcit tiruvizhA ##7##m nAL\u2014urugu cattac cEvai/cigappu cAtti alaGkAram": {
           "jsonClass": "FestivalInstance",
@@ -11920,7 +11863,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "tiruccendUr murugan2 mAcit tiruvizhA ##8##m nAL\u2014paccai cAtti alaGkAram": {
           "jsonClass": "FestivalInstance",
@@ -12125,7 +12067,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "harivAsaraH": {
           "interval": {
@@ -12361,7 +12302,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "gOvinda~mahAdvAdazI": {
           "jsonClass": "FestivalInstance",
@@ -12595,7 +12535,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "naTarAjar mahAbhiSEkam~6": {
           "jsonClass": "FestivalInstance",
@@ -12805,7 +12744,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "caitanya-mahAprabhu~jayantI": {
           "jsonClass": "FestivalInstance",
@@ -13054,7 +12992,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "hOli": {
           "jsonClass": "FestivalInstance",
@@ -13256,7 +13193,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {},
       "jd_moonrise": 2458181.0884,
       "jd_moonset": 2458180.5715,
@@ -13452,7 +13388,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "Adityahasta-puNyakAlaH": {
           "jsonClass": "FestivalInstance",
@@ -13666,7 +13601,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "bhAlacandra-mahAgaNapati saGkaTahara-caturthI-vratam": {
           "jsonClass": "FestivalInstance",
@@ -13868,7 +13802,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "mAci~cevvAy": {
           "jsonClass": "FestivalInstance",
@@ -14073,7 +14006,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {},
       "jd_moonrise": 2458185.2349,
       "jd_moonset": 2458184.6919,
@@ -14270,7 +14202,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "phAlguna-aSTakA-pUrvEdyuH": {
           "jsonClass": "FestivalInstance",
@@ -14471,7 +14402,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "phAlguna-aSTakA-zrAddham": {
           "jsonClass": "FestivalInstance",
@@ -14673,7 +14603,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "phAlguna-anvaSTakA-zrAddham": {
           "jsonClass": "FestivalInstance",
@@ -14867,7 +14796,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "vyatIpAta-zrAddham": {
           "jsonClass": "FestivalInstance",
@@ -15068,7 +14996,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "kAri nAyan2Ar (47) gurupUjai": {
           "jsonClass": "FestivalInstance",
@@ -15270,7 +15197,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "harivAsaraH": {
           "interval": {
@@ -15486,7 +15412,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "kAraDaiyAn2 nOn2bu": {
           "jsonClass": "FestivalInstance",
@@ -15701,7 +15626,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "SaDazIti-mInaraviH": {
           "jsonClass": "FestivalInstance",
@@ -15908,7 +15832,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "daNDiyaDigaL nAyan2Ar (30) gurupUjai": {
           "jsonClass": "FestivalInstance",
@@ -16104,7 +16027,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "kAJcI 65 jagadguru zrI~sudarzana mahAdEvEndra sarasvatI ArAdhanA": {
           "jsonClass": "FestivalInstance",
@@ -16315,7 +16237,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "kAJcI 15 jagadguru zrI~gaGgAdharEndra sarasvatI ArAdhanA": {
           "jsonClass": "FestivalInstance",
@@ -16544,7 +16465,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "AndOlana~tRtIyA": {
           "jsonClass": "FestivalInstance",
@@ -16758,7 +16678,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "bhaumAzvinI-puNyakAlaH": {
           "jsonClass": "FestivalInstance",
@@ -16971,7 +16890,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "kUrma-kalpAdiH": {
           "jsonClass": "FestivalInstance",
@@ -17177,7 +17095,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "haya-pUjA": {
           "jsonClass": "FestivalInstance",
@@ -17399,7 +17316,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "SaSThI-vratam": {
           "jsonClass": "FestivalInstance",
@@ -17622,7 +17538,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {},
       "jd_moonrise": 2458201.7513,
       "jd_moonset": 2458202.3054,
@@ -17818,7 +17733,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "azOkASTamI": {
           "jsonClass": "FestivalInstance",
@@ -18062,7 +17976,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "dharmarAja-dazamI": {
           "jsonClass": "FestivalInstance",
@@ -18268,7 +18181,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "kapAlI tEr": {
           "jsonClass": "FestivalInstance",
@@ -18481,7 +18393,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "bhrAtRprApti-vrata-ArambhaH": {
           "jsonClass": "FestivalInstance",
@@ -18707,7 +18618,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "damanaka-cOrI-utsavaH": {
           "jsonClass": "FestivalInstance",
@@ -18920,7 +18830,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "damanaka-caturdazI": {
           "jsonClass": "FestivalInstance",
@@ -19142,7 +19051,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "caitra-pUrNimA": {
           "jsonClass": "FestivalInstance",
@@ -19386,7 +19294,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {},
       "jd_moonrise": 2458210.0699,
       "jd_moonset": 2458209.542,
@@ -19583,7 +19490,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "kAJcI 60 jagadguru zrI~advaitAtmaprakAzEndra sarasvatI ArAdhanA": {
           "jsonClass": "FestivalInstance",
@@ -19793,7 +19699,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "aGgArakI~vikaTa-mahAgaNapati saGkaTahara-caturthI-vratam": {
           "jsonClass": "FestivalInstance",
@@ -19995,7 +19900,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "budhAnurAdhA-puNyakAlaH": {
           "jsonClass": "FestivalInstance",
@@ -20191,7 +20095,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "lakSmI-varAha~jayantI": {
           "jsonClass": "FestivalInstance",
@@ -20396,7 +20299,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {},
       "jd_moonrise": 2458215.2515,
       "jd_moonset": 2458214.7011,
@@ -20593,7 +20495,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {},
       "jd_moonrise": 2458216.2853,
       "jd_moonset": 2458215.7356,
@@ -20789,7 +20690,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "kAJcI 56 jagadguru zrI~sarvajJa sadAziva bOdhEndra sarasvatI ArAdhanA": {
           "jsonClass": "FestivalInstance",
@@ -20992,7 +20892,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {},
       "jd_moonrise": 2458218.348,
       "jd_moonset": 2458217.805,
@@ -21188,7 +21087,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "kapAlI viDaiyAr2r2i nir2aivu": {
           "jsonClass": "FestivalInstance",
@@ -21387,7 +21285,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {},
       "jd_moonrise": 2458220.4051,
       "jd_moonset": 2458219.8734,
@@ -21584,7 +21481,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "daNDiyaDigaL nAyan2Ar (30) gurupUjai": {
           "jsonClass": "FestivalInstance",
@@ -21802,7 +21698,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "matsya~jayantI": {
           "jsonClass": "FestivalInstance",
@@ -22008,7 +21903,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "mAsazivarAtriH": {
           "jsonClass": "FestivalInstance",
@@ -22218,7 +22112,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "caitra-amAvAsyA": {
           "jsonClass": "FestivalInstance",
@@ -22437,7 +22330,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "bhArgava-rAma-pUjA": {
           "jsonClass": "FestivalInstance",
@@ -22664,7 +22556,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "candra-darzanam": {
           "jsonClass": "FestivalInstance",
@@ -22869,7 +22760,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "akSayya-tRtIyA": {
           "jsonClass": "FestivalInstance",
@@ -23100,7 +22990,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "bagalAmukhI~jayantI": {
           "jsonClass": "FestivalInstance",
@@ -23309,7 +23198,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "lAvaNya-gaurI-vratam": {
           "jsonClass": "FestivalInstance",
@@ -23525,7 +23413,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "SaSThI-vratam": {
           "jsonClass": "FestivalInstance",
@@ -23755,7 +23642,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "gaGgA-saptamI": {
           "jsonClass": "FestivalInstance",
@@ -23978,7 +23864,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "kAJcI 26 jagadguru zrI~prajJAghanEndra sarasvatI ArAdhanA": {
           "jsonClass": "FestivalInstance",
@@ -24180,7 +24065,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "nerUr~zrI~sadAziva~brahmEndra~ArAdhanA": {
           "jsonClass": "FestivalInstance",
@@ -24404,7 +24288,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "nimiSAmbA~jayantI": {
           "jsonClass": "FestivalInstance",
@@ -24613,7 +24496,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "budha~jayantI": {
           "jsonClass": "FestivalInstance",
@@ -24831,7 +24713,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "girijA-kalyANam": {
           "jsonClass": "FestivalInstance",
@@ -25048,7 +24929,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "kAJcI 39 jagadguru zrI~saccidvilAsEndra sarasvatI ArAdhanA": {
           "jsonClass": "FestivalInstance",
@@ -25255,7 +25135,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "citrA~pUrNimA/citragupta~pUjai": {
           "jsonClass": "FestivalInstance",
@@ -25468,7 +25347,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "annamAcArya~jayantI": {
           "jsonClass": "FestivalInstance",
@@ -25706,7 +25584,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {},
       "jd_moonrise": 2458240.0898,
       "jd_moonset": 2458239.5458,
@@ -25903,7 +25780,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "budhAnurAdhA-puNyakAlaH": {
           "jsonClass": "FestivalInstance",
@@ -26108,7 +25984,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "Ekadanta-mahAgaNapati saGkaTahara-caturthI-vratam": {
           "jsonClass": "FestivalInstance",
@@ -26315,7 +26190,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "sAvitrI-vratam": {
           "jsonClass": "FestivalInstance",
@@ -26520,7 +26394,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "agninakSatra-ArambhaH": {
           "jsonClass": "FestivalInstance",
@@ -26723,7 +26596,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {},
       "jd_moonrise": 2458245.2609,
       "jd_moonset": 2458244.7161,
@@ -26920,7 +26792,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "naTarAjar cittirai ONam mahAbhiSEkam": {
           "jsonClass": "FestivalInstance",
@@ -27123,7 +26994,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {},
       "jd_moonrise": 2458247.3184,
       "jd_moonset": 2458246.7842,
@@ -27320,7 +27190,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "kAJcI 7 jagadguru zrI~AnandajJAnEndra sarasvatI ArAdhanA": {
           "jsonClass": "FestivalInstance",
@@ -27522,7 +27391,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "tirunAvukkaracha nAyan2Ar (20) gurupUjai": {
           "jsonClass": "FestivalInstance",
@@ -27727,7 +27595,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "bhadrakALI~jayantI": {
           "jsonClass": "FestivalInstance",
@@ -27933,7 +27800,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "harivAsaraH": {
           "interval": {
@@ -28138,7 +28004,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "mAsazivarAtriH": {
           "jsonClass": "FestivalInstance",
@@ -28349,7 +28214,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "kAJcI 3 jagadguru zrI~sarvajJAtmEndra sarasvatI ArAdhanA": {
           "jsonClass": "FestivalInstance",
@@ -28556,7 +28420,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "kRttikA-vratam": {
           "jsonClass": "FestivalInstance",
@@ -28791,7 +28654,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "AyuSmad-bava-saumya-saMyogaH": {
           "jsonClass": "FestivalInstance",
@@ -28996,7 +28858,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {},
       "jd_moonrise": 2458255.5723,
       "jd_moonset": 2458256.127,
@@ -29198,7 +29059,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {},
       "jd_moonrise": 2458256.6154,
       "jd_moonset": 2458257.1702,
@@ -29404,7 +29264,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {},
       "jd_moonrise": 2458257.6593,
       "jd_moonset": 2458258.2107,
@@ -29601,7 +29460,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "SaSThI-vratam": {
           "jsonClass": "FestivalInstance",
@@ -29810,7 +29668,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "sOmAsimAra nAyan2Ar (32) gurupUjai": {
           "jsonClass": "FestivalInstance",
@@ -30017,7 +29874,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "mayilai~veLLIzvarar~brahmOtsavam": {
           "jsonClass": "FestivalInstance",
@@ -30218,7 +30074,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {},
       "jd_moonrise": 2458261.8214,
       "jd_moonset": 2458262.3429,
@@ -30415,7 +30270,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {},
       "jd_moonrise": 2458262.8578,
       "jd_moonset": 2458263.3716,
@@ -30611,7 +30465,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "harivAsaraH": {
           "interval": {
@@ -30830,7 +30683,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "vyatIpAta-zrAddham": {
           "jsonClass": "FestivalInstance",
@@ -31031,7 +30883,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {},
       "jd_moonrise": 2458265.9652,
       "jd_moonset": 2458266.4596,
@@ -31227,7 +31078,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "nammAzhvAr tirunakSattiram": {
           "jsonClass": "FestivalInstance",
@@ -31433,7 +31283,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "agninakSatra-samApanam": {
           "jsonClass": "FestivalInstance",
@@ -31647,7 +31496,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {},
       "jd_moonrise": 2458269.074,
       "jd_moonset": 2458268.5243,
@@ -31844,7 +31692,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "kAJcI jagadguru zrI~zaGkara vijayEndra sarasvatI Azrama-svIkAra-jayantI": {
           "jsonClass": "FestivalInstance",
@@ -32061,7 +31908,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {},
       "jd_moonrise": 2458271.1428,
       "jd_moonset": 2458270.5934,
@@ -32257,7 +32103,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "vibhuvana-mahAgaNapati saGkaTahara-caturthI-vratam": {
           "jsonClass": "FestivalInstance",
@@ -32459,7 +32304,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {},
       "jd_moonrise": 2458273.2045,
       "jd_moonset": 2458272.6627,
@@ -32649,7 +32493,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "sOmazrAvaNI-puNyakAlaH": {
           "jsonClass": "FestivalInstance",
@@ -32855,7 +32698,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "vaidhRti-zrAddham": {
           "jsonClass": "FestivalInstance",
@@ -33056,7 +32898,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {},
       "jd_moonrise": 2458276.2865,
       "jd_moonset": 2458275.7627,
@@ -33252,7 +33093,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {},
       "jd_moonrise": 2458277.3132,
       "jd_moonset": 2458276.7958,
@@ -33449,7 +33289,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {},
       "jd_moonrise": 2458278.3408,
       "jd_moonset": 2458277.8298,
@@ -33645,7 +33484,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {},
       "jd_moonrise": 2458279.3701,
       "jd_moonset": 2458278.8652,
@@ -33842,7 +33680,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "harivAsaraH": {
           "interval": {
@@ -34051,7 +33888,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "cidambarE dhvajArOhaNam/paJcamUrti rathOtsavaH": {
           "jsonClass": "FestivalInstance",
@@ -34261,7 +34097,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "cidambarE rajata candraprabha vAhanam": {
           "jsonClass": "FestivalInstance",
@@ -34480,7 +34315,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "cidambarE svarNa-sUryaprabha vAhanam": {
           "jsonClass": "FestivalInstance",
@@ -34691,7 +34525,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "bhadra-catuSTaya-vratam": {
           "jsonClass": "FestivalInstance",
@@ -34904,7 +34737,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "SaDazIti-mithunaraviH": {
           "jsonClass": "FestivalInstance",
@@ -35124,7 +34956,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "cidambarE rajata-gajavAhanam": {
           "jsonClass": "FestivalInstance",
@@ -35329,7 +35160,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "cidambarE kailAsa vAhanam": {
           "jsonClass": "FestivalInstance",
@@ -35552,7 +35382,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "SaSThI-vratam": {
           "jsonClass": "FestivalInstance",
@@ -35775,7 +35604,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "AraNya-gaurI-vratam": {
           "jsonClass": "FestivalInstance",
@@ -36016,7 +35844,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "budhASTamI": {
           "jsonClass": "FestivalInstance",
@@ -36247,7 +36074,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "brahmANI-pUjA": {
           "jsonClass": "FestivalInstance",
@@ -36465,7 +36291,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "dazaharA/gaGgAvataraNam/dazapApaharA~dazamI": {
           "jsonClass": "FestivalInstance",
@@ -36681,7 +36506,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "periyAzhvAr tirunakSattiram": {
           "jsonClass": "FestivalInstance",
@@ -36886,7 +36710,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "alarmElmaGgApurE plavOtsava-ArambhaH": {
           "jsonClass": "FestivalInstance",
@@ -37113,7 +36936,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "alarmElmaGgApurE plavOtsavaH~2": {
           "jsonClass": "FestivalInstance",
@@ -37324,7 +37146,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "alarmElmaGgApurE plavOtsavaH~3": {
           "jsonClass": "FestivalInstance",
@@ -37529,7 +37350,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "alarmElmaGgApurE plavOtsavaH~4": {
           "jsonClass": "FestivalInstance",
@@ -37747,7 +37567,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "alarmElmaGgApurE plavOtsava-samApanam": {
           "jsonClass": "FestivalInstance",
@@ -37968,7 +37787,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {},
       "jd_moonrise": 2458299.0891,
       "jd_moonset": 2458298.5415,
@@ -38165,7 +37983,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "vaidhRti-zrAddham": {
           "jsonClass": "FestivalInstance",
@@ -38364,7 +38181,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "kRSNapiGgala-mahAgaNapati saGkaTahara-caturthI-vratam": {
           "jsonClass": "FestivalInstance",
@@ -38564,7 +38380,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {},
       "jd_moonrise": 2458302.1759,
       "jd_moonset": 2458301.6436,
@@ -38760,7 +38575,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {},
       "jd_moonrise": 2458303.2023,
       "jd_moonset": 2458302.6764,
@@ -38956,7 +38770,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {},
       "jd_moonrise": 2458304.2284,
       "jd_moonset": 2458303.7089,
@@ -39153,7 +38966,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {},
       "jd_moonrise": 2458305.2549,
       "jd_moonset": 2458304.7418,
@@ -39348,7 +39160,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "EyarkOn2 kalikkAma nAyan2Ar (28) gurupUjai": {
           "jsonClass": "FestivalInstance",
@@ -39569,7 +39380,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "durgA-svApanam": {
           "jsonClass": "FestivalInstance",
@@ -39776,7 +39586,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {},
       "jd_moonrise": 2458308.3452,
       "jd_moonset": 2458307.849,
@@ -39972,7 +39781,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "kRttikA-vratam": {
           "jsonClass": "FestivalInstance",
@@ -40183,7 +39991,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "harivAsaraH": {
           "interval": {
@@ -40405,7 +40212,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "mAsazivarAtriH": {
           "jsonClass": "FestivalInstance",
@@ -40607,7 +40413,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "jyaiSTha-amAvAsyA (alabhyam\u2013ArdrA, puSkalA)": {
           "jsonClass": "FestivalInstance",
@@ -40808,7 +40613,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "bhOgazAyi-pUjA": {
           "jsonClass": "FestivalInstance",
@@ -41034,7 +40838,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "amRtalakSmI-vratam": {
           "jsonClass": "FestivalInstance",
@@ -41243,7 +41046,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "pugazhttuNai nAyan2Ar (54) gurupUjai": {
           "jsonClass": "FestivalInstance",
@@ -41445,7 +41247,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "mANikkavAcakar gurupUjai": {
           "jsonClass": "FestivalInstance",
@@ -41655,7 +41456,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "kaTaka-saGkrAntiH": {
           "jsonClass": "FestivalInstance",
@@ -41873,7 +41673,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "kAJcI 35 jagadguru zrI~citsukhEndra sarasvatI ArAdhanA": {
           "jsonClass": "FestivalInstance",
@@ -42083,7 +41882,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "perumizhalaik kur2umba nAyan2Ar (22) gurupUjai": {
           "jsonClass": "FestivalInstance",
@@ -42293,7 +42091,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "ADi~veLLikkizhamai": {
           "jsonClass": "FestivalInstance",
@@ -42503,7 +42300,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "aindrI-durgA-pUjA": {
           "jsonClass": "FestivalInstance",
@@ -42730,7 +42526,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "AzA~dazamI": {
           "jsonClass": "FestivalInstance",
@@ -42933,7 +42728,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "gOpadma-vrata-ArambhaH": {
           "jsonClass": "FestivalInstance",
@@ -43151,7 +42945,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "kAJcI 31 jagadguru zrI~brahmAnandaghanEndra sarasvatI ArAdhanA": {
           "jsonClass": "FestivalInstance",
@@ -43370,7 +43163,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "pradOSa-vratam": {
           "jsonClass": "FestivalInstance",
@@ -43575,7 +43367,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "pavitra-caturdazI": {
           "jsonClass": "FestivalInstance",
@@ -43777,7 +43568,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "ADi~veLLikkizhamai": {
           "jsonClass": "FestivalInstance",
@@ -44024,7 +43814,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "kAJcI 54 jagadguru zrI~vyAsAcala mahAdEvEndra sarasvatI ArAdhanA": {
           "jsonClass": "FestivalInstance",
@@ -44230,7 +44019,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "aSTanAga-pUjA": {
           "jsonClass": "FestivalInstance",
@@ -44434,7 +44222,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {},
       "jd_moonrise": 2458330.1193,
       "jd_moonset": 2458329.5913,
@@ -44630,7 +44417,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "aGgArakI~gajAnana-mahAgaNapati saGkaTahara-caturthI-vratam": {
           "jsonClass": "FestivalInstance",
@@ -44832,7 +44618,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {},
       "jd_moonrise": 2458332.1715,
       "jd_moonset": 2458331.6564,
@@ -45028,7 +44813,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {},
       "jd_moonrise": 2458333.1983,
       "jd_moonset": 2458332.6895,
@@ -45224,7 +45008,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "ADip~perukku": {
           "jsonClass": "FestivalInstance",
@@ -45434,7 +45217,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "cAmuNDEzvarI~jayantI": {
           "jsonClass": "FestivalInstance",
@@ -45635,7 +45417,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "kRttikA-vratam": {
           "jsonClass": "FestivalInstance",
@@ -45837,7 +45618,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "ADik~kiruttikai": {
           "jsonClass": "FestivalInstance",
@@ -46046,7 +45826,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "smArta-kAmikA-EkAdazI": {
           "jsonClass": "FestivalInstance",
@@ -46271,7 +46050,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "harivAsaraH": {
           "interval": {
@@ -46488,7 +46266,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "mAsazivarAtriH": {
           "jsonClass": "FestivalInstance",
@@ -46703,7 +46480,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "ADi~veLLikkizhamai": {
           "jsonClass": "FestivalInstance",
@@ -46917,7 +46693,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "ASADha (kaTaka) amAvAsyA": {
           "jsonClass": "FestivalInstance",
@@ -47150,7 +46925,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "candra-darzanam": {
           "jsonClass": "FestivalInstance",
@@ -47360,7 +47134,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "hariyAlI~tRtIyA": {
           "jsonClass": "FestivalInstance",
@@ -47600,7 +47373,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "dUrvA-gaNapati-vratam": {
           "jsonClass": "FestivalInstance",
@@ -47809,7 +47581,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "garuDa-paJcamI": {
           "jsonClass": "FestivalInstance",
@@ -48019,7 +47790,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "SaSThI-vratam": {
           "jsonClass": "FestivalInstance",
@@ -48236,7 +48006,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "avyaGga-saptamI": {
           "jsonClass": "FestivalInstance",
@@ -48466,7 +48235,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "durgA-vrata-ArambhaH": {
           "jsonClass": "FestivalInstance",
@@ -48672,7 +48440,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "AvaNi~JAyir2r2ukkizhamai": {
           "jsonClass": "FestivalInstance",
@@ -48881,7 +48648,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "kAJcI 57 jagadguru zrI~paramazivEndra sarasvatI 2 ArAdhanA": {
           "jsonClass": "FestivalInstance",
@@ -49092,7 +48858,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "gajEndra-mOkSaH~2": {
           "jsonClass": "FestivalInstance",
@@ -49300,7 +49065,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "harivAsaraH": {
           "interval": {
@@ -49513,7 +49277,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "dAmOdara-dvAdazI": {
           "jsonClass": "FestivalInstance",
@@ -49726,7 +49489,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "anaGga-trayOdazI": {
           "jsonClass": "FestivalInstance",
@@ -49939,7 +49701,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "ONam": {
           "jsonClass": "FestivalInstance",
@@ -50147,7 +49908,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "AvaNi~JAyir2r2ukkizhamai": {
           "jsonClass": "FestivalInstance",
@@ -50384,7 +50144,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "gAyatrI-japaH": {
           "jsonClass": "FestivalInstance",
@@ -50585,7 +50344,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "azUnyazayana-vratam~2": {
           "jsonClass": "FestivalInstance",
@@ -50800,7 +50558,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "kajjalI~tRtIyA": {
           "jsonClass": "FestivalInstance",
@@ -51005,7 +50762,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "bahulA~caturthI": {
           "jsonClass": "FestivalInstance",
@@ -51215,7 +50971,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "rakSA~paJcamI": {
           "jsonClass": "FestivalInstance",
@@ -51416,7 +51171,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "hala-SaSThI": {
           "jsonClass": "FestivalInstance",
@@ -51618,7 +51372,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "AvaNi~JAyir2r2ukkizhamai": {
           "jsonClass": "FestivalInstance",
@@ -51839,7 +51592,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "kAJcI 21 jagadguru zrI~sArvabhaumaguruH candracUDEndra sarasvatI ArAdhanA": {
           "jsonClass": "FestivalInstance",
@@ -52061,7 +51813,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "aravinda~jayantI": {
           "jsonClass": "FestivalInstance",
@@ -52285,7 +52036,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "tiruccendUr murugan2 AvaNit tiruvizhA ##3##m nAL\u2014murugan2 bhavan2i": {
           "jsonClass": "FestivalInstance",
@@ -52495,7 +52245,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "gurupuSya-puNyakAlaH": {
           "jsonClass": "FestivalInstance",
@@ -52713,7 +52462,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "ceruttuNai nAyan2Ar (53) gurupUjai": {
           "jsonClass": "FestivalInstance",
@@ -52940,7 +52688,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "aghOra-caturdazI": {
           "jsonClass": "FestivalInstance",
@@ -53158,7 +52905,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "64 yOginI-pUjA": {
           "jsonClass": "FestivalInstance",
@@ -53384,7 +53130,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "mRgazIrSa-vratam": {
           "jsonClass": "FestivalInstance",
@@ -53590,7 +53335,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "aGgAraka~jayantI": {
           "jsonClass": "FestivalInstance",
@@ -53813,7 +53557,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "haritAlikA-vratam": {
           "jsonClass": "FestivalInstance",
@@ -54031,7 +53774,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "tiruccendUr murugan2 AvaNit tiruvizhA ##11##m nAL": {
           "jsonClass": "FestivalInstance",
@@ -54236,7 +53978,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "RSi-paJcamI-vratam": {
           "jsonClass": "FestivalInstance",
@@ -54446,7 +54187,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "SaSThIdEvI-SaSThI-vratam": {
           "jsonClass": "FestivalInstance",
@@ -54667,7 +54407,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "AvaNi~JAyir2r2ukkizhamai": {
           "jsonClass": "FestivalInstance",
@@ -54885,7 +54624,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "SaDazIti-kanyAraviH": {
           "jsonClass": "FestivalInstance",
@@ -55097,7 +54835,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "aduHkhanavamI": {
           "jsonClass": "FestivalInstance",
@@ -55314,7 +55051,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "dazAvatAra-vratam": {
           "jsonClass": "FestivalInstance",
@@ -55520,7 +55256,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "En2AdinAtha nAyan2Ar (8) gurupUjai": {
           "jsonClass": "FestivalInstance",
@@ -55729,7 +55464,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "ananta-dvAdazI": {
           "jsonClass": "FestivalInstance",
@@ -55958,7 +55692,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "dUrva-tri-vratam": {
           "jsonClass": "FestivalInstance",
@@ -56172,7 +55905,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "ananta-caturdazI": {
           "jsonClass": "FestivalInstance",
@@ -56379,7 +56111,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "kAJcI 59 jagadguru zrI~bhagavannAma bOdhEndra sarasvatI ArAdhanA": {
           "jsonClass": "FestivalInstance",
@@ -56586,7 +56317,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "dikpAla-pUjA~1": {
           "jsonClass": "FestivalInstance",
@@ -56811,7 +56541,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "appayya-dIkSita-jayantI": {
           "jsonClass": "FestivalInstance",
@@ -57018,7 +56747,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "rudra~pazupati nAyan2Ar (16) gurupUjai": {
           "jsonClass": "FestivalInstance",
@@ -57219,7 +56947,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "gaurI-vratam": {
           "jsonClass": "FestivalInstance",
@@ -57432,7 +57159,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "dikpAla-pUjA~2": {
           "jsonClass": "FestivalInstance",
@@ -57642,7 +57368,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "candra-SaSThI": {
           "jsonClass": "FestivalInstance",
@@ -57878,7 +57603,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "mahAlakSmI-vrata-samApanam": {
           "jsonClass": "FestivalInstance",
@@ -58092,7 +57816,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "azOkASTamI-vrata-ArambhaH": {
           "jsonClass": "FestivalInstance",
@@ -58305,7 +58028,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "durgA/gaurI-pUjA": {
           "jsonClass": "FestivalInstance",
@@ -58511,7 +58233,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "gurupuSya-puNyakAlaH": {
           "jsonClass": "FestivalInstance",
@@ -58712,7 +58433,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "sarva-indirA-EkAdazI": {
           "jsonClass": "FestivalInstance",
@@ -58924,7 +58644,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "harivAsaraH": {
           "interval": {
@@ -59141,7 +58860,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "dvAparayugAdiH": {
           "jsonClass": "FestivalInstance",
@@ -59356,7 +59074,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "(bhAdrapada) mahAlaya amAvAsyA (alabhyam\u2013puSkalA)": {
           "jsonClass": "FestivalInstance",
@@ -59569,7 +59286,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "azvazirO-dEva-pUjA": {
           "jsonClass": "FestivalInstance",
@@ -59779,7 +59495,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "agrasEna~mahArAja~jayantI": {
           "jsonClass": "FestivalInstance",
@@ -60000,7 +59715,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "guru-saGkrAntiH": {
           "jsonClass": "TransitionFestivalInstance",
@@ -60222,7 +59936,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "dEvatA-suvAsinI-pUjA": {
           "jsonClass": "FestivalInstance",
@@ -60427,7 +60140,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "lalitA-paJcamI": {
           "jsonClass": "FestivalInstance",
@@ -60634,7 +60346,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "SaSThI-vratam": {
           "jsonClass": "FestivalInstance",
@@ -60836,7 +60547,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "kAJcI 45 jagadguru zrI~paramazivEndra sarasvatI 1 ArAdhanA": {
           "jsonClass": "FestivalInstance",
@@ -61042,7 +60752,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "patrikA-pravEza-pUjA": {
           "jsonClass": "FestivalInstance",
@@ -61248,7 +60957,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "En2AdinAtha nAyan2Ar (8) gurupUjai": {
           "jsonClass": "FestivalInstance",
@@ -61463,7 +61171,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "AkAzadIpa-ArambhaH": {
           "jsonClass": "FestivalInstance",
@@ -61705,7 +61412,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "Ayudha~pUjA": {
           "jsonClass": "FestivalInstance",
@@ -61943,7 +61649,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "pEyAzhvAr tirunakSattiram": {
           "jsonClass": "FestivalInstance",
@@ -62148,7 +61853,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "dvidala-vrata-ArambhaH": {
           "jsonClass": "FestivalInstance",
@@ -62357,7 +62061,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "sOma-pradOSa-vratam": {
           "jsonClass": "FestivalInstance",
@@ -62558,7 +62261,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "kO-jAgarti-vratam": {
           "jsonClass": "FestivalInstance",
@@ -62763,7 +62465,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "AgrayaNa~hOmaH~draviDadeshe~1": {
           "jsonClass": "FestivalInstance",
@@ -63011,7 +62712,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "jayAvApti-vratam": {
           "jsonClass": "FestivalInstance",
@@ -63225,7 +62925,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "azUnyazayana-vratam~4": {
           "jsonClass": "FestivalInstance",
@@ -63447,7 +63146,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "kanaka-gaNEza-vratam": {
           "jsonClass": "FestivalInstance",
@@ -63669,7 +63367,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {},
       "jd_moonrise": 2458420.1444,
       "jd_moonset": 2458419.6569,
@@ -63866,7 +63563,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "ghOTaka-paJcamI": {
           "jsonClass": "FestivalInstance",
@@ -64081,7 +63777,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {},
       "jd_moonrise": 2458422.228,
       "jd_moonset": 2458421.7386,
@@ -64278,7 +63973,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {},
       "jd_moonrise": 2458423.2697,
       "jd_moonset": 2458422.7765,
@@ -64474,7 +64168,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "jImUtavAhana-pUjA~2": {
           "jsonClass": "FestivalInstance",
@@ -64692,7 +64385,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "bhImasEna~jayantI": {
           "jsonClass": "FestivalInstance",
@@ -64908,7 +64600,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "catti nAyan2Ar (44) gurupUjai": {
           "jsonClass": "FestivalInstance",
@@ -65118,7 +64809,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "gOvatsa-dvAdazI": {
           "jsonClass": "FestivalInstance",
@@ -65343,7 +65033,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "(yama)-dIpa-trayOdazI": {
           "jsonClass": "FestivalInstance",
@@ -65564,7 +65253,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "dIpOtsava-caturdazI/yama-tarpaNam": {
           "jsonClass": "FestivalInstance",
@@ -65782,7 +65470,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "AgrayaNa~hOmaH~draviDadeshe~2": {
           "jsonClass": "FestivalInstance",
@@ -66011,7 +65698,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "gOvardhana-pUjA": {
           "jsonClass": "FestivalInstance",
@@ -66213,7 +65899,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "candra-darzanam": {
           "jsonClass": "FestivalInstance",
@@ -66422,7 +66107,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {},
       "jd_moonrise": 2458432.6166,
       "jd_moonset": 2458433.1021,
@@ -66619,7 +66303,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "aiyaDigaL kADavarkOn2 nAyan2Ar (45) gurupUjai": {
           "jsonClass": "FestivalInstance",
@@ -66820,7 +66503,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "dEvasEnA~paJcamI": {
           "jsonClass": "FestivalInstance",
@@ -67033,7 +66715,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "skandaSaSThI-vratam": {
           "jsonClass": "FestivalInstance",
@@ -67235,7 +66916,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "sAvitrya-kalpAdiH": {
           "jsonClass": "FestivalInstance",
@@ -67433,7 +67113,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "gOpASTamI": {
           "jsonClass": "FestivalInstance",
@@ -67639,7 +67318,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "AkAzadIpa-samApanam": {
           "jsonClass": "FestivalInstance",
@@ -67858,7 +67536,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "akSayA~navamI": {
           "jsonClass": "FestivalInstance",
@@ -68079,7 +67756,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "kArttigai~JAyir2r2ukkizhamai": {
           "jsonClass": "FestivalInstance",
@@ -68285,7 +67961,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "Adi-zaGkara mAnasika-sannyAsa-dinam": {
           "jsonClass": "FestivalInstance",
@@ -68512,7 +68187,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "bRndAvana-dvAdazI": {
           "jsonClass": "FestivalInstance",
@@ -68746,7 +68420,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "kArttika-mAsa-antimatrayatithi-vrata-ArambhaH": {
           "jsonClass": "FestivalInstance",
@@ -68951,7 +68624,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "bharaNI~dIpam": {
           "jsonClass": "FestivalInstance",
@@ -69185,7 +68857,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "AgrayaNa~hOmaH~draviDadeshe~3": {
           "jsonClass": "FestivalInstance",
@@ -69427,7 +69098,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "zanirOhiNI-puNyakAlaH": {
           "jsonClass": "FestivalInstance",
@@ -69634,7 +69304,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "kAJcI 9 jagadguru zrI~kRpAzaGkarEndra sarasvatI ArAdhanA": {
           "jsonClass": "FestivalInstance",
@@ -69854,7 +69523,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "gaNAdhipa-mahAgaNapati saGkaTahara-caturthI-vratam": {
           "jsonClass": "FestivalInstance",
@@ -70060,7 +69728,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "tiruvizalUr gaGgAkarSaNa-mahOtsava-ArambhaH": {
           "jsonClass": "FestivalInstance",
@@ -70261,7 +69928,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {},
       "jd_moonrise": 2458451.2238,
       "jd_moonset": 2458450.7269,
@@ -70457,7 +70123,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "vaidhRti-zrAddham": {
           "jsonClass": "FestivalInstance",
@@ -70669,7 +70334,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "kAJcI 42 jagadguru zrI~brahmAnandaghanEndra sarasvatI 2 ArAdhanA": {
           "jsonClass": "FestivalInstance",
@@ -70889,7 +70553,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "meypporuL nAyan2Ar (4) gurupUjai": {
           "jsonClass": "FestivalInstance",
@@ -71096,7 +70759,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "Adityahasta-puNyakAlaH": {
           "jsonClass": "FestivalInstance",
@@ -71310,7 +70972,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "harivAsaraH": {
           "interval": {
@@ -71524,7 +71185,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "pradOSa-vratam": {
           "jsonClass": "FestivalInstance",
@@ -71725,7 +71385,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "mAsazivarAtriH": {
           "jsonClass": "FestivalInstance",
@@ -71927,7 +71586,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "kArttika-amAvAsyA (alabhyam\u2013anUrAdhA, puSkalA)": {
           "jsonClass": "FestivalInstance",
@@ -72136,7 +71794,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "AgrayaNa~hOmaH~draviDadeshe~4": {
           "jsonClass": "FestivalInstance",
@@ -72347,7 +72004,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "candra-darzanam": {
           "jsonClass": "FestivalInstance",
@@ -72553,7 +72209,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "kArttigai~JAyir2r2ukkizhamai": {
           "jsonClass": "FestivalInstance",
@@ -72758,7 +72413,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "cir2appuli nAyan2Ar (34) gurupUjai": {
           "jsonClass": "FestivalInstance",
@@ -72955,7 +72609,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "badarI-gaurI-vratam": {
           "jsonClass": "FestivalInstance",
@@ -73160,7 +72813,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "zravaNa-vratam": {
           "jsonClass": "FestivalInstance",
@@ -73362,7 +73014,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "kAJcI 32 jagadguru zrI~cidAnandaghanEndra sarasvatI ArAdhanA": {
           "jsonClass": "FestivalInstance",
@@ -73572,7 +73223,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "kAJcI 5 jagadguru zrI~jJAnAnandEndra sarasvatI ArAdhanA": {
           "jsonClass": "FestivalInstance",
@@ -73787,7 +73437,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {},
       "jd_moonrise": 2458467.7729,
       "jd_moonset": 2458468.2842,
@@ -73984,7 +73633,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "SaDazIti-dhanurraviH": {
           "jsonClass": "FestivalInstance",
@@ -74196,7 +73844,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "vAyilAr nAyan2Ar (49) gurupUjai": {
           "jsonClass": "FestivalInstance",
@@ -74398,7 +74045,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "bhaumAzvinI-puNyakAlaH": {
           "jsonClass": "FestivalInstance",
@@ -74607,7 +74253,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "gItA~jayantI": {
           "jsonClass": "FestivalInstance",
@@ -74850,7 +74495,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "kRttikA-vratam": {
           "jsonClass": "FestivalInstance",
@@ -75056,7 +74700,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {},
       "jd_moonrise": 2458473.9581,
       "jd_moonset": 2458474.5115,
@@ -75252,7 +74895,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "andhakAsura-vadhaH": {
           "jsonClass": "FestivalInstance",
@@ -75482,7 +75124,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "ArudrA~darican2am/naTarAjar mahAbhiSEkam": {
           "jsonClass": "FestivalInstance",
@@ -75697,7 +75338,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "ramaNa~maharSi~jayantI": {
           "jsonClass": "FestivalInstance",
@@ -75905,7 +75545,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "aGgArakI~Akhuratha-mahAgaNapati saGkaTahara-caturthI-vratam": {
           "jsonClass": "FestivalInstance",
@@ -76113,7 +75752,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {},
       "jd_moonrise": 2458479.1749,
       "jd_moonset": 2458478.6738,
@@ -76310,7 +75948,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {},
       "jd_moonrise": 2458480.215,
       "jd_moonset": 2458479.7074,
@@ -76516,7 +76153,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "mArgazIrSa-aSTakA-pUrvEdyuH": {
           "jsonClass": "FestivalInstance",
@@ -76718,7 +76354,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "iyar2pagai nAyan2Ar (2) gurupUjai": {
           "jsonClass": "FestivalInstance",
@@ -76928,7 +76563,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "Adityahasta-puNyakAlaH": {
           "jsonClass": "FestivalInstance",
@@ -77144,7 +76778,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {
         "mAn2akkaJcAr2a nAyan2Ar (11) gurupUjai": {
           "jsonClass": "FestivalInstance",
@@ -77345,7 +76978,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {},
       "jd_moonrise": 2458485.4018,
       "jd_moonset": 2458484.8598,
@@ -77540,7 +77172,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {},
       "jd_moonrise": 2458486.439,
       "jd_moonset": 2458485.8921,
@@ -77734,7 +77365,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {},
       "jd_moonrise": 2458487.4758,
       "jd_moonset": 2458486.9258,
@@ -77928,7 +77558,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {},
       "jd_moonrise": 2458488.5116,
       "jd_moonset": 2458487.9606,
@@ -78123,7 +77752,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {},
       "jd_moonrise": 2458489.5458,
       "jd_moonset": 2458488.9961,
@@ -78311,7 +77939,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {},
       "jd_moonrise": 2458490.5779,
       "jd_moonset": 2458490.0315,
@@ -78506,7 +78133,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {},
       "jd_moonrise": 2458490.5779,
       "jd_moonset": 2458491.0663,
@@ -78700,7 +78326,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {},
       "jd_moonrise": 2458491.608,
       "jd_moonset": 2458492.1002,
@@ -78894,7 +78519,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {},
       "jd_moonrise": 2458492.6361,
       "jd_moonset": 2458493.1331,
@@ -79089,7 +78713,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {},
       "jd_moonrise": 2458493.6628,
       "jd_moonset": 2458494.1653,
@@ -79278,7 +78901,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {},
       "jd_moonrise": 2458494.6885,
       "jd_moonset": 2458495.1971,
@@ -79471,7 +79093,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {},
       "jd_moonrise": 2458495.7139,
       "jd_moonset": 2458496.2292,
@@ -79665,7 +79286,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {},
       "jd_moonrise": 2458496.7397,
       "jd_moonset": 2458497.262,
@@ -79859,7 +79479,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {},
       "jd_moonrise": 2458497.7667,
       "jd_moonset": 2458498.2964,
@@ -80055,7 +79674,6 @@
           "jsonClass": "Interval"
         }
       },
-      "default_to_none": true,
       "festival_id_to_instance": {},
       "jd_moonrise": 2458498.7956,
       "jd_moonset": 2458499.3329,
@@ -80129,7 +79747,6 @@
       }
     }
   },
-  "default_to_none": true,
   "duration": 365,
   "duration_to_calculate": 381,
   "end_date": {

@@ -266,6 +266,7 @@ def ecliptic_to_equatorial(longitude, latitude):
 
 class AngaSpanFinder(JsonObject):
   def __init__(self, ayanaamsha_id, anga_type):
+    super(AngaSpanFinder, self).__init__()
     self.ayanaamsha_id = ayanaamsha_id
     self.anga_type = anga_type
 
@@ -316,9 +317,6 @@ class AngaSpanFinder(JsonObject):
         Args:
           :param jd1: return the first span that starts after this date
           :param jd2: return the first span that ends before this date
-          :param anga_type: TITHI, nakshatra, YOGA, KARANA, SIDEREAL_MONTH, SOLAR_NAKSH
-          :param ayanaamsha_id
-          :param debug
 
         Returns:
           Interval
@@ -332,7 +330,7 @@ class AngaSpanFinder(JsonObject):
     anga_interval.jd_start = self.find_anga_start_between(jd1=jd1, jd2=jd2, target_anga_id=target_anga_id)
 
     anga_id_after_target = (target_anga_id % num_angas) + 1
-    anga_interval.jd_end = self.find_anga_start_between(jd1=anga_interval.jd_start, jd2=jd2, target_anga_id=anga_id_after_target)
+    anga_interval.jd_end = self.find_anga_start_between(jd1=default_if_none(anga_interval.jd_start, jd1), jd2=jd2, target_anga_id=anga_id_after_target)
     return anga_interval
 
 
@@ -374,8 +372,6 @@ def get_previous_solstice(jd):
   jd2 = jd - (months_past_solstice * 30 + months_past_solstice) + 30
   anga_span_finder = AngaSpanFinder(ayanaamsha_id=Ayanamsha.ASHVINI_STARTING_0, anga_type=AngaType.SIDEREAL_MONTH)
   return anga_span_finder.find(jd1=jd1, jd2=jd2, target_anga_id=target_month)
-
-
 
 
 if __name__ == '__main__':
