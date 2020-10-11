@@ -1,6 +1,7 @@
 import logging
 import sys
 from math import floor
+from typing import Optional
 
 import methodtools
 import numpy
@@ -111,16 +112,16 @@ class AngaType(JsonObject):
     return self.name == other.name
 
 
-AngaType.TITHI = AngaType(name='TITHI', num_angas=30, weight_moon=1, weight_sun=-1, period_days=30)
-AngaType.TITHI_PADA = AngaType(name='TITHI_PADA', num_angas=120, weight_moon=1, weight_sun=-1, period_days=30)
-AngaType.NAKSHATRA = AngaType(name='nakshatra', num_angas=27, weight_moon=1, weight_sun=0, period_days=30)
-AngaType.NAKSHATRA_PADA = AngaType(name='NAKSHATRA_PADA', num_angas=108, weight_moon=1, weight_sun=0, period_days=30)
-AngaType.RASHI = AngaType(name='RASHI', num_angas=12, weight_moon=1, weight_sun=0, period_days=30)
+AngaType.TITHI = AngaType(name='TITHI', num_angas=30, weight_moon=1, weight_sun=-1, period_days=29.530588)
+AngaType.TITHI_PADA = AngaType(name='TITHI_PADA', num_angas=120, weight_moon=1, weight_sun=-1, period_days=29.530588)
+AngaType.NAKSHATRA = AngaType(name='nakshatra', num_angas=27, weight_moon=1, weight_sun=0, period_days=27.321661)
+AngaType.NAKSHATRA_PADA = AngaType(name='NAKSHATRA_PADA', num_angas=108, weight_moon=1, weight_sun=0, period_days=27.321661)
+AngaType.RASHI = AngaType(name='RASHI', num_angas=12, weight_moon=1, weight_sun=0, period_days=27.321661)
 AngaType.YOGA = AngaType(name='YOGA', num_angas=27, weight_moon=1, weight_sun=1)
 AngaType.KARANA = AngaType(name='KARANA', num_angas=60, weight_moon=1, weight_sun=-1)
-AngaType.SIDEREAL_MONTH = AngaType(name='SIDEREAL_MONTH', num_angas=12, weight_moon=0, weight_sun=1, period_days=366)
-AngaType.SOLAR_NAKSH = AngaType(name='SOLAR_NAKSH', num_angas=27, weight_moon=0, weight_sun=1, period_days=366)
-AngaType.SOLAR_NAKSH_PADA = AngaType(name='SOLAR_NAKSH_PADA', num_angas=108, weight_moon=0, weight_sun=1, period_days=366)
+AngaType.SIDEREAL_MONTH = AngaType(name='SIDEREAL_MONTH', num_angas=12, weight_moon=0, weight_sun=1, period_days=365.242)
+AngaType.SOLAR_NAKSH = AngaType(name='SOLAR_NAKSH', num_angas=27, weight_moon=0, weight_sun=1, period_days=365.242)
+AngaType.SOLAR_NAKSH_PADA = AngaType(name='SOLAR_NAKSH_PADA', num_angas=108, weight_moon=0, weight_sun=1, period_days=365.242)
 
 
 class NakshatraDivision(common.JsonObject):
@@ -188,7 +189,6 @@ class NakshatraDivision(common.JsonObject):
 
     w_moon = anga_type.weight_moon
     w_sun = anga_type.weight_sun
-    arc_len = anga_type.arc_length
 
     lcalc = 0  # computing offset longitudes
 
@@ -329,7 +329,7 @@ class AngaSpanFinder(JsonObject):
     return jd_start
 
   @timebudget
-  def find(self, jd1: float, jd2: float, target_anga_id: int) -> Interval:
+  def find(self, jd1: float, jd2: float, target_anga_id: int) -> Optional[Interval]:
     """Computes anga spans for sunrise_day_angas such as tithi, nakshatra, yoga
         and karana.
 
