@@ -725,8 +725,26 @@
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
           {
+            "jd_end": 2458120.6001,
             "jsonClass": "Interval",
             "name": 30
+          },
+          {
+            "jd_end": 2458121.0208,
+            "jd_start": 2458120.6001,
+            "jsonClass": "Interval",
+            "name": 31
+          },
+          {
+            "jd_end": 2458121.4432,
+            "jd_start": 2458121.0208,
+            "jsonClass": "Interval",
+            "name": 32
+          },
+          {
+            "jd_start": 2458121.4432,
+            "jsonClass": "Interval",
+            "name": 33
           }
         ],
         "nakshatra_at_sunrise": 6,
@@ -13407,8 +13425,26 @@
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
           {
+            "jd_end": 2458175.5563,
             "jsonClass": "Interval",
             "name": 21
+          },
+          {
+            "jd_end": 2458175.9995,
+            "jd_start": 2458175.5563,
+            "jsonClass": "Interval",
+            "name": 22
+          },
+          {
+            "jd_end": 2458176.441,
+            "jd_start": 2458175.9995,
+            "jsonClass": "Interval",
+            "name": 23
+          },
+          {
+            "jd_start": 2458176.441,
+            "jsonClass": "Interval",
+            "name": 24
           }
         ],
         "nakshatra_at_sunrise": 6,
@@ -21142,8 +21178,26 @@
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
           {
+            "jd_end": 2458208.5543,
             "jsonClass": "Interval",
             "name": 29
+          },
+          {
+            "jd_end": 2458209.0256,
+            "jd_start": 2458208.5543,
+            "jsonClass": "Interval",
+            "name": 30
+          },
+          {
+            "jd_end": 2458209.5015,
+            "jd_start": 2458209.0256,
+            "jsonClass": "Interval",
+            "name": 31
+          },
+          {
+            "jd_start": 2458209.5015,
+            "jsonClass": "Interval",
+            "name": 32
           }
         ],
         "nakshatra_at_sunrise": 12,
@@ -31523,8 +31577,26 @@
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
           {
+            "jd_end": 2458253.5455,
             "jsonClass": "Interval",
             "name": 59
+          },
+          {
+            "jd_end": 2458253.9915,
+            "jd_start": 2458253.5455,
+            "jsonClass": "Interval",
+            "name": 60
+          },
+          {
+            "jd_end": 2458254.434,
+            "jd_start": 2458253.9915,
+            "jsonClass": "Interval",
+            "name": 1
+          },
+          {
+            "jd_start": 2458254.434,
+            "jsonClass": "Interval",
+            "name": 2
           }
         ],
         "nakshatra_at_sunrise": 2,
@@ -39500,8 +39572,26 @@
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
           {
+            "jd_end": 2458288.5492,
             "jsonClass": "Interval",
             "name": 12
+          },
+          {
+            "jd_end": 2458289.0109,
+            "jd_start": 2458288.5492,
+            "jsonClass": "Interval",
+            "name": 13
+          },
+          {
+            "jd_end": 2458289.4784,
+            "jd_start": 2458289.0109,
+            "jsonClass": "Interval",
+            "name": 14
+          },
+          {
+            "jd_start": 2458289.4784,
+            "jsonClass": "Interval",
+            "name": 15
           }
         ],
         "nakshatra_at_sunrise": 11,
@@ -57437,8 +57527,26 @@
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
           {
+            "jd_end": 2458365.5384,
             "jsonClass": "Interval",
             "name": 47
+          },
+          {
+            "jd_end": 2458365.9956,
+            "jd_start": 2458365.5384,
+            "jsonClass": "Interval",
+            "name": 48
+          },
+          {
+            "jd_end": 2458366.4482,
+            "jd_start": 2458365.9956,
+            "jsonClass": "Interval",
+            "name": 49
+          },
+          {
+            "jd_start": 2458366.4482,
+            "jsonClass": "Interval",
+            "name": 50
           }
         ],
         "nakshatra_at_sunrise": 5,
@@ -66175,8 +66283,26 @@
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
           {
+            "jd_end": 2458402.5257,
             "jsonClass": "Interval",
             "name": 4
+          },
+          {
+            "jd_end": 2458403.0086,
+            "jd_start": 2458402.5257,
+            "jsonClass": "Interval",
+            "name": 5
+          },
+          {
+            "jd_end": 2458403.4989,
+            "jd_start": 2458403.0086,
+            "jsonClass": "Interval",
+            "name": 6
+          },
+          {
+            "jd_start": 2458403.4989,
+            "jsonClass": "Interval",
+            "name": 7
           }
         ],
         "nakshatra_at_sunrise": 15,
@@ -76776,8 +76902,26 @@
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
           {
+            "jd_end": 2458447.5469,
             "jsonClass": "Interval",
             "name": 34
+          },
+          {
+            "jd_end": 2458447.9948,
+            "jd_start": 2458447.5469,
+            "jsonClass": "Interval",
+            "name": 35
+          },
+          {
+            "jd_end": 2458448.4421,
+            "jd_start": 2458447.9948,
+            "jsonClass": "Interval",
+            "name": 36
+          },
+          {
+            "jd_start": 2458448.4421,
+            "jsonClass": "Interval",
+            "name": 37
           }
         ],
         "nakshatra_at_sunrise": 5,
@@ -83449,8 +83593,26 @@
         "jsonClass": "DayAngas",
         "karanas_with_ends": [
           {
+            "jd_end": 2458476.5455,
             "jsonClass": "Interval",
             "name": 33
+          },
+          {
+            "jd_end": 2458476.9782,
+            "jd_start": 2458476.5455,
+            "jsonClass": "Interval",
+            "name": 34
+          },
+          {
+            "jd_end": 2458477.4113,
+            "jd_start": 2458476.9782,
+            "jsonClass": "Interval",
+            "name": 35
+          },
+          {
+            "jd_start": 2458477.4113,
+            "jsonClass": "Interval",
+            "name": 36
           }
         ],
         "nakshatra_at_sunrise": 7,

@@ -79,6 +79,21 @@ def test_get_tithis_in_period():
                                                          2458991.1712410315,
                                                          2459020.765607745], decimal=3)
 
+
+def test_get_karanas_in_period():
+  span_finder = AngaSpanFinder.get_cached(anga_type=AngaType.KARANA, ayanaamsha_id=Ayanamsha.ASHVINI_STARTING_0)
+  spans = span_finder.get_spans_in_period(jd_start=time.ist_timezone.local_time_to_julian_day(Date(year=2020, month=1, day=1)), jd_end=time.ist_timezone.local_time_to_julian_day(Date(year=2020, month=6, day=30)), target_anga_id=30)
+  jds = [x.jd_start for x in spans]
+  numpy.testing.assert_array_almost_equal(jds, [2458858.845, 2458888.379, 2458917.821, 2458947.19 , 2458976.52 , 2459005.852], decimal=3)
+
+
+def test_get_yogas_in_period():
+  span_finder = AngaSpanFinder.get_cached(anga_type=AngaType.KARANA, ayanaamsha_id=Ayanamsha.ASHVINI_STARTING_0)
+  spans = span_finder.get_spans_in_period(jd_start=time.ist_timezone.local_time_to_julian_day(Date(year=2020, month=1, day=1)), jd_end=time.ist_timezone.local_time_to_julian_day(Date(year=2020, month=6, day=30)), target_anga_id=15)
+  jds = [x.jd_start for x in spans]
+  numpy.testing.assert_array_almost_equal(jds, [2458851.146, 2458881.029, 2458910.808, 2458940.431, 2458969.882, 2458999.185, 2459028.392], decimal=3)
+
+
 def test_get_previous_solstice():
   solstice = zodiac.get_previous_solstice(jd=time.ist_timezone.local_time_to_julian_day(Date(2018, 1, 14)))
   expected_jd_start = time.ist_timezone.local_time_to_julian_day(date=Date(year=2017, month=12, day=21, hour=16, minute=28))

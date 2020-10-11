@@ -76,14 +76,14 @@ class AngaType(JsonObject):
   SOLAR_NAKSH = None
   SOLAR_NAKSH_PADA = None
 
-  def __init__(self, name, num_angas, weight_moon, weight_sun, period_days=None, names_dict=None):
+  def __init__(self, name, num_angas, weight_moon, weight_sun, mean_period_days=None, names_dict=None):
     super(AngaType, self).__init__()
     self.name = name
     self.num_angas = num_angas
     self.arc_length = 360.0 / num_angas
     self.weight_moon = weight_moon
     self.weight_sun = weight_sun
-    self.period_days = period_days
+    self.mean_period_days = mean_period_days
     if names_dict is None:
       key = name + "_NAMES"
       if name == 'SOLAR_NAKSH':
@@ -112,16 +112,16 @@ class AngaType(JsonObject):
     return self.name == other.name
 
 
-AngaType.TITHI = AngaType(name='TITHI', num_angas=30, weight_moon=1, weight_sun=-1, period_days=29.530588)
-AngaType.TITHI_PADA = AngaType(name='TITHI_PADA', num_angas=120, weight_moon=1, weight_sun=-1, period_days=29.530588)
-AngaType.NAKSHATRA = AngaType(name='nakshatra', num_angas=27, weight_moon=1, weight_sun=0, period_days=27.321661)
-AngaType.NAKSHATRA_PADA = AngaType(name='NAKSHATRA_PADA', num_angas=108, weight_moon=1, weight_sun=0, period_days=27.321661)
-AngaType.RASHI = AngaType(name='RASHI', num_angas=12, weight_moon=1, weight_sun=0, period_days=27.321661)
-AngaType.YOGA = AngaType(name='YOGA', num_angas=27, weight_moon=1, weight_sun=1)
-AngaType.KARANA = AngaType(name='KARANA', num_angas=60, weight_moon=1, weight_sun=-1)
-AngaType.SIDEREAL_MONTH = AngaType(name='SIDEREAL_MONTH', num_angas=12, weight_moon=0, weight_sun=1, period_days=365.242)
-AngaType.SOLAR_NAKSH = AngaType(name='SOLAR_NAKSH', num_angas=27, weight_moon=0, weight_sun=1, period_days=365.242)
-AngaType.SOLAR_NAKSH_PADA = AngaType(name='SOLAR_NAKSH_PADA', num_angas=108, weight_moon=0, weight_sun=1, period_days=365.242)
+AngaType.TITHI = AngaType(name='TITHI', num_angas=30, weight_moon=1, weight_sun=-1, mean_period_days=29.530588)
+AngaType.TITHI_PADA = AngaType(name='TITHI_PADA', num_angas=120, weight_moon=1, weight_sun=-1, mean_period_days=29.530588)
+AngaType.NAKSHATRA = AngaType(name='nakshatra', num_angas=27, weight_moon=1, weight_sun=0, mean_period_days=27.321661)
+AngaType.NAKSHATRA_PADA = AngaType(name='NAKSHATRA_PADA', num_angas=108, weight_moon=1, weight_sun=0, mean_period_days=27.321661)
+AngaType.RASHI = AngaType(name='RASHI', num_angas=12, weight_moon=1, weight_sun=0, mean_period_days=27.321661)
+AngaType.YOGA = AngaType(name='YOGA', num_angas=27, weight_moon=1, weight_sun=1, mean_period_days=29.541)
+AngaType.KARANA = AngaType(name='KARANA', num_angas=60, weight_moon=1, weight_sun=-1, mean_period_days=29.4)
+AngaType.SIDEREAL_MONTH = AngaType(name='SIDEREAL_MONTH', num_angas=12, weight_moon=0, weight_sun=1, mean_period_days=365.242)
+AngaType.SOLAR_NAKSH = AngaType(name='SOLAR_NAKSH', num_angas=27, weight_moon=0, weight_sun=1, mean_period_days=365.242)
+AngaType.SOLAR_NAKSH_PADA = AngaType(name='SOLAR_NAKSH_PADA', num_angas=108, weight_moon=0, weight_sun=1, mean_period_days=365.242)
 
 
 class NakshatraDivision(common.JsonObject):
@@ -309,8 +309,8 @@ class AngaSpanFinder(JsonObject):
 
   def find_anga_start_between(self, jd1, jd2, target_anga_id):
     jd_start = None
-    num_angas = int(360.0 / self.anga_type.arc_length)
-    min_step = 0.5  # Min Step for moving
+    num_angas = self.anga_type.num_angas
+    min_step = 0.5 * self.anga_type.mean_period_days/num_angas  # Min Step for moving
     jd_bracket_L = jd1
     jd_now = jd1
     while jd_now <= jd2 and jd_start is None:
@@ -360,18 +360,20 @@ class AngaSpanFinder(JsonObject):
   def get_spans_in_period(self, jd_start, jd_end, target_anga_id):
     if jd_start > jd_end:
       raise ValueError((jd_start, jd_end))
-    jd = jd_start
+    jd_bracket_L = jd_start
     spans = []
-    while jd <= jd_end:
-      r_bracket = min(jd + 1.2 * self.anga_type.period_days, jd_end)
+    while jd_bracket_L <= jd_end:
+      # A whole period plus 4 angas beyond jd_bracket_L, which might be 2 angas behind the target anga.
+      jd_bracket_R = min(jd_bracket_L + (1 + 4.0/self.anga_type.num_angas) * self.anga_type.mean_period_days, jd_end)
       span = self.find(
-        jd1=jd, jd2=r_bracket,
+        jd1=jd_bracket_L, jd2=jd_bracket_R,
         target_anga_id=target_anga_id)
       if span is None:
         break
       else:
         spans.append(span)
-        jd = default_if_none(span.jd_end, r_bracket) + self.anga_type.period_days * .8
+        # A whole period minus 2 angas as the next seek boundary
+        jd_bracket_L = default_if_none(span.jd_start, jd_bracket_L) + self.anga_type.mean_period_days * (1 - 2.0 / self.anga_type.num_angas)
     return spans
 
   @timebudget

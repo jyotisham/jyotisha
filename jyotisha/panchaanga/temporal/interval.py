@@ -2,6 +2,7 @@ import sys
 from math import floor
 from numbers import Number
 
+from jyotisha.util import default_if_none
 from sanskrit_data.schema import common
 
 
@@ -21,7 +22,9 @@ class Interval(common.JsonObject):
 
   def __str__(self):
     from jyotisha.panchaanga.temporal import time
-    return "%s: (%s, %s)" % ("" if self.name is None else self.name, time.ist_timezone.julian_day_to_local_time_str(jd=self.jd_start),
+    return "%s: (%s, %s)" % (default_if_none(self.name, ""), 
+                             "?" if self.jd_start is None else time.ist_timezone.julian_day_to_local_time_str(jd=self.jd_start),
+                             "?" if self.jd_end is None else
                              time.ist_timezone.julian_day_to_local_time_str(jd=self.jd_end))
 
 
