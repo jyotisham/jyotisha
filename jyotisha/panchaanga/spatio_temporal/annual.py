@@ -3,16 +3,12 @@ import os
 import sys
 import traceback
 
-from indic_transliteration import xsanscript as sanscript
-
-from jyotisha.panchaanga import spatio_temporal
 from jyotisha.panchaanga.spatio_temporal import periodical
 from jyotisha.panchaanga.spatio_temporal.periodical import Panchaanga
-from jyotisha.panchaanga.temporal import zodiac, ComputationSystem, set_constants, time
+from jyotisha.panchaanga.temporal import ComputationSystem, set_constants, time
 from jyotisha.panchaanga.temporal.time import Date, Timezone
 from jyotisha.panchaanga.temporal.zodiac import AngaSpanFinder, Ayanamsha, AngaType
 from sanskrit_data.schema import common
-from sanskrit_data.schema.common import JsonObject
 
 common.update_json_class_index(sys.modules[__name__])
 
@@ -43,7 +39,7 @@ def get_panchaanga_for_shaka_year(city, year, precomputed_json_dir="~/Documents/
     logging.info('No precomputed data available. Computing panchaanga...\n')
     SHAKA_CIVIL_ERA_DIFF = 78
     start_year_civil = year + SHAKA_CIVIL_ERA_DIFF
-    anga_span_finder = AngaSpanFinder(ayanaamsha_id=Ayanamsha.ASHVINI_STARTING_0, anga_type=AngaType.SIDEREAL_MONTH)
+    anga_span_finder = AngaSpanFinder.get_cached(ayanaamsha_id=Ayanamsha.ASHVINI_STARTING_0, anga_type=AngaType.SIDEREAL_MONTH)
     start_equinox = anga_span_finder.find(jd1=time.utc_gregorian_to_jd(Date(year=start_year_civil, month=3, day=1)), jd2=time.utc_gregorian_to_jd(Date(year=start_year_civil, month=5, day=1)), target_anga_id=1)
     end_equinox = anga_span_finder.find(jd1=time.utc_gregorian_to_jd(Date(year=start_year_civil  + 1, month=3, day=1)), jd2=time.utc_gregorian_to_jd(Date(year=start_year_civil + 1, month=5, day=1)), target_anga_id=1)
     tz = Timezone(city.timezone)

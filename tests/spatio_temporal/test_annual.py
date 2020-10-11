@@ -1,17 +1,14 @@
-import json
 import logging
 import os
 import traceback
-
-from timebudget import timebudget
 
 import sanskrit_data.collection_helper
 from jyotisha.panchaanga.spatio_temporal import City, annual, periodical
 # from jyotisha.panchaanga import scripts
 # from jyotisha.panchaanga.spatio_temporal import annual
 from jyotisha.panchaanga.spatio_temporal.periodical import Panchaanga
-from jyotisha.panchaanga.temporal import zodiac
 from jyotisha.panchaanga.temporal.time import Date
+from timebudget import timebudget
 
 logging.basicConfig(
   level=logging.DEBUG,
@@ -23,6 +20,7 @@ TEST_DATA_PATH = os.path.join(os.path.dirname(__file__), 'data')
 
 def test_timing(caplog):
   # A separate function for convenient profiling.
+  # See data/timing_snapshot* for results/ progression.
   caplog.set_level(logging.INFO)
   city = City('Chennai', "13:05:24", "80:16:12", "Asia/Calcutta")
   annual.get_panchaanga_for_civil_year(city=city, year=2018,
@@ -30,6 +28,7 @@ def test_timing(caplog):
   timebudget.report(reset=True)
 
 
+# noinspection PyUnresolvedReferences
 def panchaanga_json_comparer(city, year):
   expected_content_path=os.path.join(TEST_DATA_PATH, '%s-%d.json' % (city.name, year))
   panchaanga = annual.get_panchaanga_for_civil_year(city=city, year=year,

@@ -358,7 +358,7 @@ class MiscFestivalAssigner(FestivalAssigner):
       # AGNI nakshatra
       # Arbitrarily checking after Mesha 10! Agni Nakshatram can't start earlier...
       if self.daily_panchaangas[d].solar_sidereal_date_sunset.month == 1 and self.daily_panchaangas[d].solar_sidereal_date_sunset.day == 10:
-        anga_finder = zodiac.AngaSpanFinder(ayanaamsha_id=self.ayanaamsha_id, anga_type=zodiac.AngaType.SOLAR_NAKSH_PADA)
+        anga_finder = zodiac.AngaSpanFinder.get_cached(ayanaamsha_id=self.ayanaamsha_id, anga_type=zodiac.AngaType.SOLAR_NAKSH_PADA)
         agni_jd_start, dummy = anga_finder.find(
           jd1=self.daily_panchaangas[d].jd_sunrise, jd2=self.daily_panchaangas[d].jd_sunrise + 30,
           target_anga_id=7).to_tuple()

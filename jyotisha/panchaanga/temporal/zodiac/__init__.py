@@ -75,13 +75,14 @@ class AngaType(JsonObject):
   SOLAR_NAKSH = None
   SOLAR_NAKSH_PADA = None
 
-  def __init__(self, name, num_angas, weight_moon, weight_sun, names_dict=None):
+  def __init__(self, name, num_angas, weight_moon, weight_sun, period_days=None, names_dict=None):
     super(AngaType, self).__init__()
     self.name = name
     self.num_angas = num_angas
     self.arc_length = 360.0 / num_angas
     self.weight_moon = weight_moon
     self.weight_sun = weight_sun
+    self.period_days = period_days
     if names_dict is None:
       key = name + "_NAMES"
       if name == 'SOLAR_NAKSH':
@@ -99,21 +100,27 @@ class AngaType(JsonObject):
       offset_index = (a - 1 + b) % self.num_angas + 1
     return offset_index
 
+  def __hash__(self):
+    return hash(self.name)
+
+  def __str__(self):
+    return self.name
+
   def __eq__(self, other):
     # Overriding for speed.
     return self.name == other.name
 
 
-AngaType.TITHI = AngaType(name='TITHI', num_angas=30, weight_moon=1, weight_sun=-1)
-AngaType.TITHI_PADA = AngaType(name='TITHI_PADA', num_angas=120, weight_moon=1, weight_sun=-1)
-AngaType.NAKSHATRA = AngaType(name='nakshatra', num_angas=27, weight_moon=1, weight_sun=0)
-AngaType.NAKSHATRA_PADA = AngaType(name='NAKSHATRA_PADA', num_angas=108, weight_moon=1, weight_sun=0)
-AngaType.RASHI = AngaType(name='RASHI', num_angas=12, weight_moon=1, weight_sun=0)
+AngaType.TITHI = AngaType(name='TITHI', num_angas=30, weight_moon=1, weight_sun=-1, period_days=30)
+AngaType.TITHI_PADA = AngaType(name='TITHI_PADA', num_angas=120, weight_moon=1, weight_sun=-1, period_days=30)
+AngaType.NAKSHATRA = AngaType(name='nakshatra', num_angas=27, weight_moon=1, weight_sun=0, period_days=30)
+AngaType.NAKSHATRA_PADA = AngaType(name='NAKSHATRA_PADA', num_angas=108, weight_moon=1, weight_sun=0, period_days=30)
+AngaType.RASHI = AngaType(name='RASHI', num_angas=12, weight_moon=1, weight_sun=0, period_days=30)
 AngaType.YOGA = AngaType(name='YOGA', num_angas=27, weight_moon=1, weight_sun=1)
 AngaType.KARANA = AngaType(name='KARANA', num_angas=60, weight_moon=1, weight_sun=-1)
-AngaType.SIDEREAL_MONTH = AngaType(name='SIDEREAL_MONTH', num_angas=12, weight_moon=0, weight_sun=1)
-AngaType.SOLAR_NAKSH = AngaType(name='SOLAR_NAKSH', num_angas=27, weight_moon=0, weight_sun=1)
-AngaType.SOLAR_NAKSH_PADA = AngaType(name='SOLAR_NAKSH_PADA', num_angas=108, weight_moon=0, weight_sun=1)
+AngaType.SIDEREAL_MONTH = AngaType(name='SIDEREAL_MONTH', num_angas=12, weight_moon=0, weight_sun=1, period_days=366)
+AngaType.SOLAR_NAKSH = AngaType(name='SOLAR_NAKSH', num_angas=27, weight_moon=0, weight_sun=1, period_days=366)
+AngaType.SOLAR_NAKSH_PADA = AngaType(name='SOLAR_NAKSH_PADA', num_angas=108, weight_moon=0, weight_sun=1, period_days=366)
 
 
 class NakshatraDivision(common.JsonObject):
@@ -277,6 +284,11 @@ class AngaSpanFinder(JsonObject):
     self.ayanaamsha_id = ayanaamsha_id
     self.anga_type = anga_type
 
+  @methodtools.lru_cache(maxsize=None)
+  @classmethod
+  def get_cached(cls, ayanaamsha_id, anga_type):
+    return AngaSpanFinder(ayanaamsha_id=ayanaamsha_id, anga_type=anga_type)
+
   def _get_anga(self, jd):
     return NakshatraDivision(jd, ayanaamsha_id=self.ayanaamsha_id).get_anga( anga_type=self.anga_type)
 
@@ -326,7 +338,8 @@ class AngaSpanFinder(JsonObject):
           :param jd2: return the first span that ends before this date
 
         Returns:
-          Interval
+          None if target_anga_id was not found
+          Interval, with boundary jds None if they don't occur within [jd1, jd2] 
     """
     num_angas = int(360.0 / self.anga_type.arc_length)
     if target_anga_id > num_angas or target_anga_id < 1:
@@ -338,29 +351,39 @@ class AngaSpanFinder(JsonObject):
 
     anga_id_after_target = (target_anga_id % num_angas) + 1
     anga_interval.jd_end = self.find_anga_start_between(jd1=default_if_none(anga_interval.jd_start, jd1), jd2=jd2, target_anga_id=anga_id_after_target)
+    if anga_interval.jd_start is None and anga_interval.jd_end is None:
+      if self._get_anga(jd=jd1) != target_anga_id:
+        return None
     return anga_interval
+
+  def get_spans_in_period(self, jd_start, jd_end, target_anga_id):
+    if jd_start > jd_end:
+      raise ValueError((jd_start, jd_end))
+    jd = jd_start
+    spans = []
+    while jd <= jd_end:
+      r_bracket = min(jd + 1.2 * self.anga_type.period_days, jd_end)
+      span = self.find(
+        jd1=jd, jd2=r_bracket,
+        target_anga_id=target_anga_id)
+      if span is None:
+        break
+      else:
+        spans.append(span)
+        jd = default_if_none(span.jd_end, r_bracket) + self.anga_type.period_days * .8
+    return spans
+
+  def get_all_angas_in_period(self, jd1, jd2):
+    spans = []
+    anga_now = self._get_anga(jd=jd1)
+    spans.append(anga_now)
+    span = self.find(target_anga_id=anga_now, jd1=jd1, jd2=jd2)
+    # if span.jd_end
+    # TODO incomplete.
 
 
 # Essential for depickling to work.
 common.update_json_class_index(sys.modules[__name__])
-
-
-def get_tithis_in_period(jd_start, jd_end, tithi):
-  if jd_start > jd_end:
-    raise ValueError((jd_start, jd_end))
-  jd = jd_start
-  anga_finder = AngaSpanFinder(ayanaamsha_id=Ayanamsha.ASHVINI_STARTING_0, anga_type=AngaType.TITHI)
-  new_moon_jds = []
-  while jd < jd_end:
-    new_moon = anga_finder.find(
-      jd1=jd, jd2=jd + 30,
-      target_anga_id=tithi)
-    if new_moon is None:
-      raise Exception("Could not find a new moon between %f and %f" % (jd, jd+30))
-    if new_moon.jd_start < jd_end:
-      new_moon_jds.append(new_moon.jd_start)
-    jd = new_moon.jd_start + 28
-  return new_moon_jds
 
 
 def get_tropical_month(jd):
@@ -377,7 +400,7 @@ def get_previous_solstice(jd):
   months_past_solstice = (tropical_month - target_month) % 12
   jd1 = jd - (months_past_solstice * 30 + months_past_solstice + 30)
   jd2 = jd - (months_past_solstice * 30 + months_past_solstice) + 30
-  anga_span_finder = AngaSpanFinder(ayanaamsha_id=Ayanamsha.ASHVINI_STARTING_0, anga_type=AngaType.SIDEREAL_MONTH)
+  anga_span_finder = AngaSpanFinder.get_cached(ayanaamsha_id=Ayanamsha.ASHVINI_STARTING_0, anga_type=AngaType.SIDEREAL_MONTH)
   return anga_span_finder.find(jd1=jd1, jd2=jd2, target_anga_id=target_month)
 
 

@@ -49,7 +49,7 @@ def test_get_anga():
 
 def test_get_anga_span_solar_month():
   from jyotisha.panchaanga.temporal import time
-  span_finder = AngaSpanFinder(anga_type=AngaType.SIDEREAL_MONTH, ayanaamsha_id=Ayanamsha.CHITRA_AT_180)
+  span_finder = AngaSpanFinder.get_cached(anga_type=AngaType.SIDEREAL_MONTH, ayanaamsha_id=Ayanamsha.CHITRA_AT_180)
 
   numpy.testing.assert_array_almost_equal(span_finder.find(jd1=2458222.0333434483-32, jd2=2458222.0333434483 + 4, target_anga_id=12,).to_tuple(), (2458192.24785228, 2458222.6026552585), decimal=3)
 
@@ -60,7 +60,7 @@ def test_get_anga_span_solar_month():
 
 
 def test_get_anga_span_tithi():
-  span_finder = AngaSpanFinder(anga_type=AngaType.TITHI, ayanaamsha_id=Ayanamsha.CHITRA_AT_180)
+  span_finder = AngaSpanFinder.get_cached(anga_type=AngaType.TITHI, ayanaamsha_id=Ayanamsha.CHITRA_AT_180)
 
   assert span_finder.find(jd1=2458102.5, jd2=2458108.5, target_anga_id=30).to_tuple() == (2458104.6663699686, 2458105.771125107)
   
@@ -68,8 +68,10 @@ def test_get_anga_span_tithi():
 
 
 def test_get_tithis_in_period():
-  new_moon_jds = zodiac.get_tithis_in_period(jd_start=time.ist_timezone.local_time_to_julian_day(Date(year=2020, month=1, day=1)), jd_end=time.ist_timezone.local_time_to_julian_day(Date(year=2020, month=6, day=30)), tithi=30)
-  numpy.testing.assert_array_almost_equal(new_moon_jds, [2458872.36655025,
+  span_finder = AngaSpanFinder.get_cached(anga_type=AngaType.TITHI, ayanaamsha_id=Ayanamsha.ASHVINI_STARTING_0)
+  spans = span_finder.get_spans_in_period(jd_start=time.ist_timezone.local_time_to_julian_day(Date(year=2020, month=1, day=1)), jd_end=time.ist_timezone.local_time_to_julian_day(Date(year=2020, month=6, day=30)), target_anga_id=30)
+  jds = [x.jd_start for x in spans]
+  numpy.testing.assert_array_almost_equal(jds, [2458872.36655025,
                                                          2458902.0647052005,
                                                          2458931.792117506,
                                                          2458961.5055956016,

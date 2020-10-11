@@ -80,22 +80,22 @@ class SolarFestivalAssigner(FestivalAssigner):
         moon_hasta_jd_start = moon_hasta_jd_start = t30_start = None
         moon_hasta_jd_end = moon_hasta_jd_end = t30_end = None
 
-        anga_finder = zodiac.AngaSpanFinder(ayanaamsha_id=self.computation_system.ayanaamsha_id, anga_type=zodiac.AngaType.SIDEREAL_MONTH)
+        anga_finder = zodiac.AngaSpanFinder.get_cached(ayanaamsha_id=self.computation_system.ayanaamsha_id, anga_type=zodiac.AngaType.SIDEREAL_MONTH)
         sun_hasta_jd_start, sun_hasta_jd_end = anga_finder.find(
           jd1=self.daily_panchaangas[d].jd_sunrise, jd2=self.daily_panchaangas[d].jd_sunrise + 30, target_anga_id=13).to_tuple()
 
         moon_magha_jd_start, moon_magha_jd_end = anga_finder.find(
           sun_hasta_jd_start - 2, sun_hasta_jd_end + 2, 10).to_tuple()
         if all([moon_magha_jd_start, moon_magha_jd_end]):
-          anga_finder = zodiac.AngaSpanFinder(ayanaamsha_id=self.computation_system.ayanaamsha_id, anga_type=zodiac.AngaType.TITHI)
+          anga_finder = zodiac.AngaSpanFinder.get_cached(ayanaamsha_id=self.computation_system.ayanaamsha_id, anga_type=zodiac.AngaType.TITHI)
           t28_start, t28_end = anga_finder.find(
             moon_magha_jd_start - 3, moon_magha_jd_end + 3, 28).to_tuple()
 
-        anga_finder = zodiac.AngaSpanFinder(ayanaamsha_id=self.computation_system.ayanaamsha_id, anga_type=zodiac.AngaType.NAKSHATRA)
+        anga_finder = zodiac.AngaSpanFinder.get_cached(ayanaamsha_id=self.computation_system.ayanaamsha_id, anga_type=zodiac.AngaType.NAKSHATRA)
         moon_hasta_jd_start, moon_hasta_jd_end = anga_finder.find(
           sun_hasta_jd_start - 1, sun_hasta_jd_end + 1, 13).to_tuple()
         if all([moon_hasta_jd_start, moon_hasta_jd_end]):
-          anga_finder = zodiac.AngaSpanFinder(ayanaamsha_id=self.computation_system.ayanaamsha_id, anga_type=zodiac.AngaType.TITHI)
+          anga_finder = zodiac.AngaSpanFinder.get_cached(ayanaamsha_id=self.computation_system.ayanaamsha_id, anga_type=zodiac.AngaType.TITHI)
           t30_start, t30_end = anga_finder.find(
             sun_hasta_jd_start - 1, sun_hasta_jd_end + 1, 30).to_tuple()
 

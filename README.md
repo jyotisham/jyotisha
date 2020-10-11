@@ -22,7 +22,8 @@ in doubt, consult only your own panchaanga!
 Kartik has primarily restricted his testing to Chennai, Mumbai, London and Palo Alto.
 
 ### Development status
-From vvasuki: "Despite recent MAJOR code cleanup/ testing/ structuring efforts, because of (rather unexpected) [speed](https://github.com/sanskrit-coders/jyotisha/issues/52) and portability concerns, I favor moving to a better language. I've started a multiplatform-targetted Kotlin project at [jyotisha-kotlin](https://github.com/sanskrit-coders/jyotisha-kotlin) ."
+- Active
+- There is also a multiplatform-targetted Kotlin project at [jyotisha-kotlin](https://github.com/sanskrit-coders/jyotisha-kotlin) which merits attention."
 
 ## For users
 For detailed examples and help, please see individual module files - especially test files in this package.
