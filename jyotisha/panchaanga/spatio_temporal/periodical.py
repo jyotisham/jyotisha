@@ -1,6 +1,7 @@
 import sys
 
 import methodtools
+from jyotisha.util import default_if_none
 from timebudget import timebudget
 
 from jyotisha.panchaanga import spatio_temporal
@@ -26,7 +27,7 @@ class Panchaanga(common.JsonObject):
     """
   LATEST_VERSION = "0.0.4"
 
-  def __init__(self, city, start_date, end_date, computation_system: ComputationSystem = ComputationSystem.MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_180):
+  def __init__(self, city, start_date, end_date, computation_system: ComputationSystem = None):
     """Constructor for the panchaanga.
         """
     super(Panchaanga, self).__init__()
@@ -37,7 +38,7 @@ class Panchaanga(common.JsonObject):
     self.end_date = Date(*([int(x) for x in end_date.split('-')])) if isinstance(end_date, str) else end_date
     self.end_date.set_time_to_day_start()
 
-    self.computation_system = computation_system
+    self.computation_system = default_if_none(computation_system, ComputationSystem.DEFAULT)
 
     self.jd_start = time.utc_gregorian_to_jd(self.start_date)
     self.jd_end = time.utc_gregorian_to_jd(self.end_date)
@@ -51,7 +52,7 @@ class Panchaanga(common.JsonObject):
     self.weekday_start = time.get_weekday(self.jd_start)
 
     self.festival_id_to_days = {}
-    self.compute_angas(compute_lagnas=computation_system.options.lagnas)
+    self.compute_angas(compute_lagnas=self.computation_system.options.lagnas)
     self.update_festival_details()
 
   @timebudget

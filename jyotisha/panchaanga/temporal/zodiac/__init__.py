@@ -23,6 +23,13 @@ logging.basicConfig(
 
 
 class Ayanamsha(common.JsonObject):
+  """
+  
+  rAShTriya panchAnga nakshatra ayanAmsha vs chitra at 180 :
+  - Shaves off 3 seconds from typical panchaanga computation compared to precise chitrA tracking.
+  - rAShTriya panchAnga nakshatra ayanAmsha tracks chitra fairly well. Still, it results in ~5 minutes differences in nakshatra spans.
+  - chitrA does not move a lot in typical year, and it is mostly wasteful to compute its position fresh for every instant.
+  """
   VERNAL_EQUINOX_AT_0 = "VERNAL_EQUINOX_AT_0"
   CHITRA_AT_180 = "CHITRA_AT_180"
   ASHVINI_STARTING_0 = "ASHVINI_STARTING_0"

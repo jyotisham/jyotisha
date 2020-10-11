@@ -4,6 +4,7 @@ import logging
 import sys
 from math import floor, modf
 
+from jyotisha.util import default_if_none
 from scipy.optimize import brentq
 from timebudget import timebudget
 
@@ -60,11 +61,11 @@ class DailyPanchaanga(common.JsonObject):
     """
 
   @classmethod
-  def from_city_and_julian_day(cls, city, julian_day, computation_system: ComputationSystem = ComputationSystem.MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_180):
+  def from_city_and_julian_day(cls, city, julian_day, computation_system: ComputationSystem = None):
     date = Timezone(city.timezone).julian_day_to_local_time(julian_day)
     return DailyPanchaanga(city=city, date=date, computation_system=computation_system)
 
-  def __init__(self, city: City, date: Date, computation_system = ComputationSystem.MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_180,
+  def __init__(self, city: City, date: Date, computation_system = None,
                previous_day_panchaanga=None) -> None:
     """Constructor for the panchaanga.
     """
@@ -73,7 +74,7 @@ class DailyPanchaanga(common.JsonObject):
     self.date = date
     date.set_time_to_day_start()
     self.julian_day_start = Timezone(self.city.timezone).local_time_to_julian_day(date=self.date)
-    self.computation_system = computation_system
+    self.computation_system = default_if_none(computation_system, ComputationSystem.DEFAULT)
 
     self.jd_sunrise = None
     self.jd_sunset = None
@@ -100,8 +101,8 @@ class DailyPanchaanga(common.JsonObject):
     self.set_tropical_date_sunset(previous_day_panchaanga=previous_day_panchaanga)
     self.day_length_based_periods = DayLengthBasedPeriods(jd_previous_sunset=self.jd_previous_sunset, jd_sunrise=self.jd_sunrise, jd_sunset=self.jd_sunset, jd_next_sunrise=self.jd_next_sunrise, weekday=self.date.get_weekday())
 
-    if computation_system.lunar_month_assigner_type is not None:
-      lunar_month_assigner = LunarMonthAssigner.get_assigner(computation_system=computation_system)
+    if self.computation_system.lunar_month_assigner_type is not None:
+      lunar_month_assigner = LunarMonthAssigner.get_assigner(computation_system=self.computation_system)
       self.set_lunar_month_sunrise(month_assigner=lunar_month_assigner, previous_day_panchaanga=previous_day_panchaanga)
 
 

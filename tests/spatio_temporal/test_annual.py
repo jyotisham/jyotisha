@@ -1,3 +1,4 @@
+import json
 import logging
 import os
 import traceback
@@ -20,6 +21,15 @@ logging.basicConfig(
 TEST_DATA_PATH = os.path.join(os.path.dirname(__file__), 'data')
 
 
+def test_timing(caplog):
+  # A separate function for convenient profiling.
+  caplog.set_level(logging.INFO)
+  city = City('Chennai', "13:05:24", "80:16:12", "Asia/Calcutta")
+  annual.get_panchaanga_for_civil_year(city=city, year=2018,
+                                                    allow_precomputed=False)
+  timebudget.report(reset=True)
+
+
 def panchaanga_json_comparer(city, year):
   expected_content_path=os.path.join(TEST_DATA_PATH, '%s-%d.json' % (city.name, year))
   panchaanga = annual.get_panchaanga_for_civil_year(city=city, year=year,
@@ -31,17 +41,19 @@ def panchaanga_json_comparer(city, year):
                             floating_point_precision=4)
   panchaanga_expected = Panchaanga.read_from_file(filename=expected_content_path)
   timebudget.report(reset=True)
-
-  if panchaanga.to_json_map(floating_point_precision=4) != panchaanga_expected.to_json_map(
-      floating_point_precision=4):
-    # firefox does not identify files not ending with .json as json. Hence not naming .json.local.
-    panchaanga.dump_to_file(filename=expected_content_path.replace(".json", "_actual.local.json"),
-                            floating_point_precision=4)
-    panchaanga_expected.dump_to_file(
-      filename=expected_content_path.replace(".json", "_expected.local.json"), floating_point_precision=4, sort_keys=True)
   try:
-    sanskrit_data.collection_helper.assert_dict_equality(x=panchaanga.to_json_map(), y=panchaanga_expected.to_json_map(), floating_point_precision=4)
+    # The below would be actually slower (1min+), and leads to bug output dump in case of failure.
+    # assert str_actual == str_expected 
+    # The below is better, but still slower (35s and leads to bug output dump in case of failure.
+    # assert actual == expected
+    
+    # The below is faster - 20s and produces concise difference.
+    sanskrit_data.collection_helper.assert_approx_equals(x=panchaanga, y=panchaanga_expected, floating_point_precision=4)
   except:
+    # firefox does not identify files not ending with .json as json. Hence not naming .json.local.
+    actual_content_path = expected_content_path.replace(".json", "_actual.local.json")
+    # Since we've already 
+    panchaanga.dump_to_file(filename=actual_content_path)
     traceback.print_exc()
     raise
 

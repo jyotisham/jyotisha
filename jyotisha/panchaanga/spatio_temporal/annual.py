@@ -33,7 +33,7 @@ def load_panchaanga(fname, fallback_fn):
   
 
 
-def get_panchaanga_for_shaka_year(city, year, precomputed_json_dir="~/Documents/jyotisha", computation_system: ComputationSystem = ComputationSystem.MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_180, allow_precomputed=True):
+def get_panchaanga_for_shaka_year(city, year, precomputed_json_dir="~/Documents/jyotisha", computation_system: ComputationSystem = None, allow_precomputed=True):
   fname = os.path.expanduser('%s/%s__shaka_%s__%s.json' % (precomputed_json_dir, city.name, year, computation_system))
   if os.path.isfile(fname) and allow_precomputed:
     fn = lambda: get_panchaanga_for_shaka_year(city=city, year=year, precomputed_json_dir=precomputed_json_dir,
@@ -47,7 +47,7 @@ def get_panchaanga_for_shaka_year(city, year, precomputed_json_dir="~/Documents/
     start_equinox = anga_span_finder.find(jd1=time.utc_gregorian_to_jd(Date(year=start_year_civil, month=3, day=1)), jd2=time.utc_gregorian_to_jd(Date(year=start_year_civil, month=5, day=1)), target_anga_id=1)
     end_equinox = anga_span_finder.find(jd1=time.utc_gregorian_to_jd(Date(year=start_year_civil  + 1, month=3, day=1)), jd2=time.utc_gregorian_to_jd(Date(year=start_year_civil + 1, month=5, day=1)), target_anga_id=1)
     tz = Timezone(city.timezone)
-    panchaanga = periodical.Panchaanga(city=city, start_date=tz.julian_day_to_local_time(julian_day=start_equinox.jd_start), end_date=tz.julian_day_to_local_time(julian_day=end_equinox.jd_start))
+    panchaanga = periodical.Panchaanga(city=city, start_date=tz.julian_day_to_local_time(julian_day=start_equinox.jd_start), end_date=tz.julian_day_to_local_time(julian_day=end_equinox.jd_start), computation_system=computation_system)
     panchaanga.year = year
     # Festival data may be updated more frequently and a precomputed panchaanga may go out of sync. Hence we keep this method separate.
     panchaanga.update_festival_details()
@@ -62,8 +62,7 @@ def get_panchaanga_for_shaka_year(city, year, precomputed_json_dir="~/Documents/
 
 
 def get_panchaanga_for_civil_year(city, year, precomputed_json_dir="~/Documents/jyotisha",
-                                  computation_system: ComputationSystem = ComputationSystem.MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_180, allow_precomputed=True):
-  fname_det = os.path.expanduser('%s/%s-%s-detailed.json' % (precomputed_json_dir, city.name, year))
+                                  computation_system: ComputationSystem = None, allow_precomputed=True):
   fname = os.path.expanduser('%s/%s-%s.json' % (precomputed_json_dir, city.name, year))
 
   if os.path.isfile(fname) and allow_precomputed:
@@ -72,7 +71,7 @@ def get_panchaanga_for_civil_year(city, year, precomputed_json_dir="~/Documents/
     return load_panchaanga(fname=fname, fallback_fn=fn) 
   else:
     logging.info('No precomputed data available. Computing panchaanga...\n')
-    panchaanga = periodical.Panchaanga(city=city, start_date='%d-01-01' % year, end_date='%d-12-31' % year)
+    panchaanga = periodical.Panchaanga(city=city, start_date='%d-01-01' % year, end_date='%d-12-31' % year, computation_system=computation_system)
     panchaanga.year = year
     logging.info('Writing computed panchaanga to %s...\n' % fname)
 
@@ -82,8 +81,3 @@ def get_panchaanga_for_civil_year(city, year, precomputed_json_dir="~/Documents/
     panchaanga.update_festival_details()
     return panchaanga
 
-
-if __name__ == '__main__':
-  city = spatio_temporal.City('Chennai', "13:05:24", "80:16:12", "Asia/Calcutta")
-  panchaanga = periodical.Panchaanga(city=city, start_date='2019-01-01', end_date='2019-12-31', ayanaamsha_id=zodiac.Ayanamsha.CHITRA_AT_180,
-                                     compute_lagnas=False)
