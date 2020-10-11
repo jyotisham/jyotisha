@@ -63,7 +63,7 @@ class Panchaanga(common.JsonObject):
     nDays = self.duration_to_calculate
 
     # INITIALISE VARIABLES
-    self.date_str_to_panchaanga: dict[str, daily.DailyPanchaanga] = {}
+    self.date_str_to_panchaanga: dict = {}
 
     # Computing solar month details for Dec 31
     # rather than Jan 1, since we have an always increment
@@ -301,10 +301,10 @@ class Panchaanga(common.JsonObject):
       daily_panchaanga.computation_system = None
 
   @classmethod
-  def read_from_file(cls, filename, name_to_json_class_index_extra=None):
+  def read_from_file(cls, filename, name_to_json_class_index_extra=None, **kwargs):
     with timebudget("Loading the file"):
       panchaanga = JsonObject.read_from_file(filename=filename,
-                                             name_to_json_class_index_extra=name_to_json_class_index_extra)
+                                             name_to_json_class_index_extra=name_to_json_class_index_extra, **kwargs)
       panchaanga._refill_daily_panchaangas()
       return panchaanga
 
@@ -318,8 +318,3 @@ class Panchaanga(common.JsonObject):
 
 # Essential for depickling to work.
 common.update_json_class_index(sys.modules[__name__])
-
-if __name__ == '__main__':
-  city = spatio_temporal.City('Chennai', "13:05:24", "80:16:12", "Asia/Calcutta")
-  panchaanga = Panchaanga(city=city, start_date='2019-04-14', end_date='2020-04-13',
-                          ayanaamsha_id=zodiac.Ayanamsha.CHITRA_AT_180)

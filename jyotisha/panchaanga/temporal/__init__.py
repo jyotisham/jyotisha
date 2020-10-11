@@ -27,7 +27,9 @@ class PeriodicPanchaangaApplier(JsonObject):
 
 
 class ComputationOptions(JsonObject):
-  def __init__(self, lagnas=None, fest_repos=None, fest_ids_included=None, fest_ids_excluded=None, fest_tags_included=None, fest_tags_excluded=None):
+  def __init__(self, lagnas=None, fest_repos=None, fest_ids_included=None, fest_ids_excluded=None,
+               fest_tags_included=None, fest_tags_excluded=None):
+    super().__init__()
     self.lagnas = lagnas
     from jyotisha.panchaanga.temporal.festival import rules
     self.fest_repos = fest_repos if fest_repos is not None else rules.rule_repos
@@ -46,6 +48,7 @@ class ComputationSystem(JsonObject):
   DEFAULT = None
 
   def __init__(self, lunar_month_assigner_type, ayanaamsha_id, computation_options=ComputationOptions()):
+    super().__init__()
     self.lunar_month_assigner_type = lunar_month_assigner_type
     self.ayanaamsha_id = ayanaamsha_id
     self.options = computation_options
