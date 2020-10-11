@@ -294,7 +294,7 @@ class AngaSpanFinder(JsonObject):
 
   def _get_anga_float_offset(self, jd, target_anga_id):
     anga_float = NakshatraDivision(jd, ayanaamsha_id=self.ayanaamsha_id).get_anga_float(anga_type=self.anga_type)
-    num_angas = int(360.0 / self.anga_type.arc_length)
+    num_angas = self.anga_type.num_angas
     if anga_float > target_anga_id:
       return anga_float - num_angas # A negative number
     else:
@@ -310,7 +310,7 @@ class AngaSpanFinder(JsonObject):
   def find_anga_start_between(self, jd1, jd2, target_anga_id):
     jd_start = None
     num_angas = self.anga_type.num_angas
-    min_step = 0.5 * self.anga_type.mean_period_days/num_angas  # Min Step for moving
+    min_step = 0.5 * self.anga_type.mean_period_days/num_angas  # Min Step for moving - half an anga span.
     jd_bracket_L = jd1
     jd_now = jd1
     while jd_now <= jd2 and jd_start is None:
