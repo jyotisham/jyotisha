@@ -52,8 +52,7 @@ def panchaanga_json_comparer(city, year):
   except:
     # firefox does not identify files not ending with .json as json. Hence not naming .json.local.
     actual_content_path = expected_content_path.replace(".json", "_actual.local.json")
-    # Since we've already 
-    panchaanga.dump_to_file(filename=actual_content_path)
+    panchaanga.dump_to_file(filename=actual_content_path, floating_point_precision=4)
     traceback.print_exc()
     raise
 

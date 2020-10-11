@@ -16,6 +16,7 @@ festival_id_to_json = {}
 
 class FestivalInstance(common.JsonObject):
   def __init__(self, name, interval=None, ordinal=None, exclude=None):
+    super(FestivalInstance, self).__init__()
     self.name = name
     self.interval = interval
     self.exclude = exclude
