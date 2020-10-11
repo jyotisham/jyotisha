@@ -91,13 +91,18 @@ def test_get_lagna_float():
 def test_get_anga_data_1981_12_23():
   panchaanga = daily.DailyPanchaanga.from_city_and_julian_day(
     city=chennai, julian_day=2444961.54042)
-  assert collection_helper.dictify(panchaanga.get_sunrise_day_anga_spans(AngaType.TITHI)) == collection_helper.dictify([
-    Interval(name=27, jd_end=2444961.5992132244, jd_start=None)])
-  assert collection_helper.dictify(panchaanga.get_sunrise_day_anga_spans(AngaType.NAKSHATRA)) == collection_helper.dictify([Interval(name=16, jd_end=2444961.746925843, jd_start=None)])
-  assert collection_helper.dictify(panchaanga.get_sunrise_day_anga_spans(AngaType.YOGA)) == collection_helper.dictify([
-    Interval(name=8, jd_end=2444962.18276057, jd_start=None)])
-  assert collection_helper.dictify(panchaanga.get_sunrise_day_anga_spans(AngaType.KARANA)) == collection_helper.dictify([
-    Interval(name=54, jd_end=2444961.5992132244, jd_start=None), Interval(name=55, jd_end=2444962.1544454526, jd_start=None)])
+  # Sunrise : 2444961.542325165, Next sunrise: 2444962.542662345
+  
+  collection_helper.assert_approx_equals(panchaanga.sunrise_day_angas.tithis_with_ends, [
+    Interval(name=27, jd_end=2444961.5992132244, jd_start=None), Interval(name=28, jd_start=2444961.599213224, jd_end=None)], floating_point_precision=3)
+  
+  collection_helper.assert_approx_equals(panchaanga.sunrise_day_angas.nakshatras_with_ends, [Interval(name=16, jd_end=2444961.746925843, jd_start=None), Interval(name=17, jd_start=2444961.746925843, jd_end=None)], floating_point_precision=3)
+  
+  collection_helper.assert_approx_equals(panchaanga.sunrise_day_angas.yogas_with_ends, [
+    Interval(name=8, jd_end=2444962.18276057, jd_start=None), Interval(name=9, jd_start=2444962.18276057, jd_end=None)], floating_point_precision=3)
+  
+  collection_helper.assert_approx_equals(panchaanga.sunrise_day_angas.karanas_with_ends, [
+    Interval(name=54, jd_end=2444961.5992132244, jd_start=None), Interval(name=55, jd_end=2444962.1544454526, jd_start=2444961.5992132244), Interval(name=56, jd_start=2444962.1544454526, jd_end=None)], floating_point_precision=3)
 
 
 def test_get_lagna_data():

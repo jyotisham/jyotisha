@@ -356,6 +356,7 @@ class AngaSpanFinder(JsonObject):
         return None
     return anga_interval
 
+  @timebudget
   def get_spans_in_period(self, jd_start, jd_end, target_anga_id):
     if jd_start > jd_end:
       raise ValueError((jd_start, jd_end))
@@ -373,13 +374,21 @@ class AngaSpanFinder(JsonObject):
         jd = default_if_none(span.jd_end, r_bracket) + self.anga_type.period_days * .8
     return spans
 
+  @timebudget
   def get_all_angas_in_period(self, jd1, jd2):
     spans = []
+    jd_start = None
     anga_now = self._get_anga(jd=jd1)
-    spans.append(anga_now)
-    span = self.find(target_anga_id=anga_now, jd1=jd1, jd2=jd2)
-    # if span.jd_end
-    # TODO incomplete.
+    while default_if_none(jd_start, jd1) <= jd2:
+      next_anga = self.anga_type.add(anga_now, 1)
+      jd_end = self.find_anga_start_between(target_anga_id=next_anga, jd1=default_if_none(jd_start, jd1), jd2=jd2)
+      spans.append(Interval(jd_start=jd_start, jd_end=jd_end, name=anga_now))
+      if jd_end is None:
+        break
+      else:
+        anga_now = next_anga
+        jd_start = jd_end
+    return spans
 
 
 # Essential for depickling to work.
