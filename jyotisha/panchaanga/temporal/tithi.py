@@ -5,6 +5,7 @@ import sys
 from jyotisha.panchaanga.temporal import time
 from jyotisha.panchaanga import temporal
 from jyotisha.panchaanga.temporal import PeriodicPanchaangaApplier, interval
+from jyotisha.panchaanga.temporal.zodiac.angas import AngaType
 from sanskrit_data.schema import common
 
 
@@ -21,7 +22,7 @@ def get_tithi(jd):
     for Amavasya
 
   """
-  from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision, Ayanamsha, AngaType
+  from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision, Ayanamsha
   # VERNAL_EQUINOX_AT_0 does not involve lookups, hence sending it - though ayanAmsha does not matter.
   return NakshatraDivision(jd=jd, ayanaamsha_id=Ayanamsha.VERNAL_EQUINOX_AT_0).get_anga(AngaType.TITHI)
 

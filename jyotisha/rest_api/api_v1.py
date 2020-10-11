@@ -4,12 +4,10 @@ import flask_restplus
 from flask import Blueprint
 from flask_restplus import Resource
 from flask_restplus import reqparse
-
 from jyotisha.panchaanga.spatio_temporal import City, daily, annual
-from jyotisha.panchaanga.temporal import festival
-from jyotisha.panchaanga.temporal.time import Timezone, Date
 from jyotisha.panchaanga.temporal.body import Graha
-from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision, Ayanamsha, AngaType
+from jyotisha.panchaanga.temporal.time import Timezone, Date
+from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision, Ayanamsha
 
 logging.basicConfig(
   level=logging.DEBUG,

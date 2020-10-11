@@ -2,16 +2,16 @@ import logging
 import os
 import sys
 
-from timebudget import timebudget
-
 from jyotisha.panchaanga import temporal
 from jyotisha.panchaanga.temporal import festival
 from jyotisha.panchaanga.temporal import interval, PeriodicPanchaangaApplier, tithi
 from jyotisha.panchaanga.temporal import time
 from jyotisha.panchaanga.temporal import zodiac
 from jyotisha.panchaanga.temporal.festival import rules
-from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision, AngaType
+from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision
 from sanskrit_data.schema import common
+from timebudget import timebudget
+from jyotisha.panchaanga.temporal.zodiac.angas import AngaType
 
 DATA_ROOT = os.path.join(os.path.dirname(festival.__file__), "data")
 

@@ -1,8 +1,8 @@
 import numpy
 from jyotisha.panchaanga.temporal import zodiac, time
 from jyotisha.panchaanga.temporal.time import Date
-from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision, Ayanamsha, AngaType, AngaSpanFinder
-from sanskrit_data import collection_helper
+from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision, Ayanamsha, AngaSpanFinder
+from jyotisha.panchaanga.temporal.zodiac.angas import AngaType
 
 
 def test_get_ayanaamsha():

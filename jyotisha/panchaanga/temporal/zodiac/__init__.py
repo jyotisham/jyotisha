@@ -6,15 +6,14 @@ from typing import Optional
 import methodtools
 import numpy
 import swisseph as swe
-from scipy.optimize import brentq
-from timebudget import timebudget
-
-from jyotisha.names import NAMES
 from jyotisha.panchaanga.temporal.body import Graha
 from jyotisha.panchaanga.temporal.interval import Interval
+from jyotisha.panchaanga.temporal.zodiac.angas import AngaType
 from jyotisha.util import default_if_none
 from sanskrit_data.schema import common
 from sanskrit_data.schema.common import JsonObject
+from scipy.optimize import brentq
+from timebudget import timebudget
 
 # noinspection SpellCheckingInspection
 logging.basicConfig(
@@ -58,70 +57,6 @@ class Ayanamsha(common.JsonObject):
       swe.set_sid_mode(swe.SIDM_LAHIRI)
       return swe.get_ayanamsa_ut(jd)
     raise Exception("Bad ayamasha_id")
-
-
-ANGA_NAME_TO_TYPE = {}
-
-
-class AngaType(JsonObject):
-  # The below class variables are declared here, but instantiated later.
-  TITHI = None
-  TITHI_PADA = None
-  NAKSHATRA = None
-  NAKSHATRA_PADA = None
-  RASHI = None
-  YOGA = None
-  KARANA = None
-  SIDEREAL_MONTH = None
-  SOLAR_NAKSH = None
-  SOLAR_NAKSH_PADA = None
-
-  def __init__(self, name, num_angas, weight_moon, weight_sun, mean_period_days=None, names_dict=None):
-    super(AngaType, self).__init__()
-    self.name = name
-    self.num_angas = num_angas
-    self.arc_length = 360.0 / num_angas
-    self.weight_moon = weight_moon
-    self.weight_sun = weight_sun
-    self.mean_period_days = mean_period_days
-    if names_dict is None:
-      key = name + "_NAMES"
-      if name == 'SOLAR_NAKSH':
-        key = 'NAKSHATRA'
-      elif name == 'SIDEREAL_MONTH':
-        key = 'CHANDRA_MASA_NAMES'
-      if key in NAMES:
-        self.names_dict = NAMES[key]
-    ANGA_NAME_TO_TYPE[self.name] = self
-
-  def add(self, a, b):
-    if b < 1:
-      offset_index = (a + b) % self.num_angas
-    else:
-      offset_index = (a - 1 + b) % self.num_angas + 1
-    return offset_index
-
-  def __hash__(self):
-    return hash(self.name)
-
-  def __str__(self):
-    return self.name
-
-  def __eq__(self, other):
-    # Overriding for speed.
-    return self.name == other.name
-
-
-AngaType.TITHI = AngaType(name='TITHI', num_angas=30, weight_moon=1, weight_sun=-1, mean_period_days=29.530588)
-AngaType.TITHI_PADA = AngaType(name='TITHI_PADA', num_angas=120, weight_moon=1, weight_sun=-1, mean_period_days=29.530588)
-AngaType.NAKSHATRA = AngaType(name='nakshatra', num_angas=27, weight_moon=1, weight_sun=0, mean_period_days=27.321661)
-AngaType.NAKSHATRA_PADA = AngaType(name='NAKSHATRA_PADA', num_angas=108, weight_moon=1, weight_sun=0, mean_period_days=27.321661)
-AngaType.RASHI = AngaType(name='RASHI', num_angas=12, weight_moon=1, weight_sun=0, mean_period_days=27.321661)
-AngaType.YOGA = AngaType(name='YOGA', num_angas=27, weight_moon=1, weight_sun=1, mean_period_days=29.541)
-AngaType.KARANA = AngaType(name='KARANA', num_angas=60, weight_moon=1, weight_sun=-1, mean_period_days=29.4)
-AngaType.SIDEREAL_MONTH = AngaType(name='SIDEREAL_MONTH', num_angas=12, weight_moon=0, weight_sun=1, mean_period_days=365.242)
-AngaType.SOLAR_NAKSH = AngaType(name='SOLAR_NAKSH', num_angas=27, weight_moon=0, weight_sun=1, mean_period_days=365.242)
-AngaType.SOLAR_NAKSH_PADA = AngaType(name='SOLAR_NAKSH_PADA', num_angas=108, weight_moon=0, weight_sun=1, mean_period_days=365.242)
 
 
 class NakshatraDivision(common.JsonObject):

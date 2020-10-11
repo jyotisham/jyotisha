@@ -7,8 +7,9 @@ from jyotisha.panchaanga.spatio_temporal import periodical
 from jyotisha.panchaanga.spatio_temporal.periodical import Panchaanga
 from jyotisha.panchaanga.temporal import ComputationSystem, set_constants, time
 from jyotisha.panchaanga.temporal.time import Date, Timezone
-from jyotisha.panchaanga.temporal.zodiac import AngaSpanFinder, Ayanamsha, AngaType
+from jyotisha.panchaanga.temporal.zodiac import AngaSpanFinder, Ayanamsha
 from sanskrit_data.schema import common
+from jyotisha.panchaanga.temporal.zodiac.angas import AngaType
 
 common.update_json_class_index(sys.modules[__name__])
 

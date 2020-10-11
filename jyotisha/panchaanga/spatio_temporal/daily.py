@@ -4,19 +4,18 @@ import logging
 import sys
 from math import floor, modf
 
-from jyotisha.util import default_if_none
-from scipy.optimize import brentq
-from timebudget import timebudget
-
 from jyotisha.panchaanga.spatio_temporal import City
 from jyotisha.panchaanga.temporal import interval, time, ComputationSystem, set_constants
 from jyotisha.panchaanga.temporal import zodiac
 from jyotisha.panchaanga.temporal.body import Graha
-from jyotisha.panchaanga.temporal.interval import Interval, DayLengthBasedPeriods
+from jyotisha.panchaanga.temporal.interval import DayLengthBasedPeriods
 from jyotisha.panchaanga.temporal.month import LunarMonthAssigner
-from jyotisha.panchaanga.temporal.time import Timezone, Hour, Date
-from jyotisha.panchaanga.temporal.zodiac import Ayanamsha, NakshatraDivision, AngaType, AngaSpanFinder
+from jyotisha.panchaanga.temporal.time import Timezone, Date
+from jyotisha.panchaanga.temporal.zodiac import Ayanamsha, NakshatraDivision, AngaSpanFinder
+from jyotisha.panchaanga.temporal.zodiac.angas import AngaType
+from jyotisha.util import default_if_none
 from sanskrit_data.schema import common
+from scipy.optimize import brentq
 
 logging.basicConfig(level=logging.DEBUG,
                     format="%(levelname)s: %(asctime)s {%(filename)s:%(lineno)d}: %(message)s ")
@@ -28,6 +27,7 @@ set_constants()
 
 class DayAngas(common.JsonObject):
   def __init__(self):
+    super().__init__()
     self.tithis_with_ends = None
     self.tithi_at_sunrise = None
     self.nakshatras_with_ends = None
