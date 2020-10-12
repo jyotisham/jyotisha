@@ -50,4 +50,4 @@ jobs:
     - name: Test with pytest
       run: |
         pip install pytest
-        pytest
+        pytest jyotisha_tests
