@@ -18,6 +18,6 @@ config_local.json
 *.iml
 *.local*
 jyotisha/panchaanga/temporal/data/festival_rules_test.json
-tests/update_test_json.py
+jyotisha_tests/update_test_json.py
 *.swp
 /jyotisha/panchaanga/temporal/festival/data/migrated

@@ -1,3 +1,5 @@
+from numbers import Number
+
 import methodtools
 from jyotisha import names
 from sanskrit_data.schema import common
@@ -57,7 +59,7 @@ class AngaType(common.JsonObject):
 
 AngaType.TITHI = AngaType(name='TITHI', num_angas=30, weight_moon=1, weight_sun=-1, mean_period_days=29.530588)
 AngaType.TITHI_PADA = AngaType(name='TITHI_PADA', num_angas=120, weight_moon=1, weight_sun=-1, mean_period_days=29.530588)
-AngaType.NAKSHATRA = AngaType(name='nakshatra', num_angas=27, weight_moon=1, weight_sun=0, mean_period_days=27.321661)
+AngaType.NAKSHATRA = AngaType(name='NAKSHATRA', num_angas=27, weight_moon=1, weight_sun=0, mean_period_days=27.321661)
 AngaType.NAKSHATRA_PADA = AngaType(name='NAKSHATRA_PADA', num_angas=108, weight_moon=1, weight_sun=0, mean_period_days=27.321661)
 AngaType.RASHI = AngaType(name='RASHI', num_angas=12, weight_moon=1, weight_sun=0, mean_period_days=27.321661)
 AngaType.YOGA = AngaType(name='YOGA', num_angas=27, weight_moon=1, weight_sun=1, mean_period_days=29.541)
@@ -103,14 +105,20 @@ class Anga(common.JsonObject):
     
     :return: 
     """
-    # We forego checks like the below for efficiency.
-    # if self.anga_type_id != other.anga_type_id: raise ValueError("anga_type mismatch!", (self.anga_type_id, other.anga_type_id))
-    num_angas = NAME_TO_TYPE[self.anga_type_id].num_angas
-    gap = min((self.index - other.index) % num_angas, (other.index - self.index) % num_angas)
-    if (self.index - 1 + gap) % num_angas == other.index - 1:
-      return -gap
+    if isinstance(other, Number):
+      # We're offsetting angas.
+      offset_index = (self.index - other - 1) % self.get_type().num_angas + 1
+      return Anga.get_cached(index=offset_index, anga_type_id=self.anga_type_id)
     else:
-      return gap
+      # In this case, we're measuring gap between angas.
+      # Below is skipped for efficiency.
+      # if self.anga_type_id != other.anga_type_id: raise ValueError("anga_type mismatch!", (self.anga_type_id, other.anga_type_id))
+      num_angas = NAME_TO_TYPE[self.anga_type_id].num_angas
+      gap = min((self.index - other.index) % num_angas, (other.index - self.index) % num_angas)
+      if (self.index - 1 + gap) % num_angas == other.index - 1:
+        return -gap
+      else:
+        return gap
 
   def __mod__(self, other):
     # We avoid if isinstance(other, Number) for efficiency.
@@ -119,15 +127,16 @@ class Anga(common.JsonObject):
 
   @timebudget
   def __add__(self, other):
+    # Addition is only for offsetting an anga.
     # We avoid if isinstance(other, Number) for efficiency.
     if other < 1:
-      offset_index = (self.index + other) % self.get_type().num_angas
+      offset_index = (self.index + other) % NAME_TO_TYPE[self.anga_type_id].num_angas
     else:
-      offset_index = (self.index - 1 + other) % self.get_type().num_angas + 1
-    return Anga(index=offset_index, anga_type_id=self.anga_type_id)
+      offset_index = (self.index - 1 + other) % NAME_TO_TYPE[self.anga_type_id].num_angas + 1
+    return Anga.get_cached(index=offset_index, anga_type_id=self.anga_type_id)
 
   def __lt__(self, other):
-    return self - other < 0
+   return self - other < 0
 
   @timebudget
   def __gt__(self, other):

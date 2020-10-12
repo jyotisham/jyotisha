@@ -19,8 +19,7 @@ logging.basicConfig(
   format="%(levelname)s: %(asctime)s {%(filename)s:%(lineno)d}: %(message)s "
 )
 
-CODE_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
-TEST_DATA_PATH = os.path.join(CODE_ROOT, 'tests/spatio_temporal/data')
+TEST_DATA_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'data')
 
 
 def daily_tex_comparer(city_name, year):
