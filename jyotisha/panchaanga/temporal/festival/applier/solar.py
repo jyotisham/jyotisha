@@ -14,13 +14,13 @@ from sanskrit_data.schema import common
 
 
 class SolarFestivalAssigner(FestivalAssigner):
-  def assign_all(self, debug=False):
+  def assign_all(self):
     # self.assign_gajachhaya_yoga(debug_festivals=debug)
-    self.assign_mahodaya_ardhodaya(debug_festivals=debug)
-    self.assign_month_day_festivals(debug_festivals=debug)
-    self.assign_vishesha_vyatipata(debug_festivals=debug)
+    self.assign_mahodaya_ardhodaya()
+    self.assign_month_day_festivals()
+    self.assign_vishesha_vyatipata()
 
-  def assign_month_day_festivals(self, debug_festivals=False):
+  def assign_month_day_festivals(self):
     for d in range(1, self.panchaanga.duration + 1):
       [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
       ####################
@@ -52,8 +52,8 @@ class SolarFestivalAssigner(FestivalAssigner):
         self.add_festival(new_yr, d)
         self.add_festival('paJcAGga-paThanam', d)
 
-  def assign_vishesha_vyatipata(self, debug_festivals=False):
-    vs_list = self.panchaanga.festival_id_to_days['vyatIpAta-zrAddham']
+  def assign_vishesha_vyatipata(self):
+    vs_list = self.panchaanga.festival_id_to_days.get('vyatIpAta-zrAddham', [])
     for date in vs_list:
       d = int(date - self.daily_panchaangas[0].date)
       if self.daily_panchaangas[d].solar_sidereal_date_sunset.month == 9:
@@ -132,7 +132,7 @@ class SolarFestivalAssigner(FestivalAssigner):
           # self.panchaanga.festival_id_to_days[gajacchaayaa_fest.name] = gajacchaayaa_fest
           gc_30 = False
 
-  def assign_mahodaya_ardhodaya(self, debug_festivals=False):
+  def assign_mahodaya_ardhodaya(self):
     for d in range(1, self.panchaanga.duration + 1):
       [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
 

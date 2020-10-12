@@ -52,7 +52,8 @@ class Panchaanga(common.JsonObject):
 
     self.festival_id_to_days = {}
     self.compute_angas(compute_lagnas=self.computation_system.options.lagnas)
-    self.update_festival_details()
+    if not self.computation_system.options.no_fests:
+      self.update_festival_details()
 
   @timebudget
   def compute_angas(self, compute_lagnas=True):
@@ -252,14 +253,15 @@ class Panchaanga(common.JsonObject):
     :return:
     """
     self._reset_festivals()
-    for index, dp in enumerate(self.daily_panchaangas_sorted()[1:self.duration+1]):
-      dp.assign_festivals(previous_day_panchaanga=self.daily_panchaangas_sorted()[index-1])
+    daily_panchaangas = self.daily_panchaangas_sorted()[1:self.duration+1]
+    for index, dp in enumerate(daily_panchaangas):
+      dp.assign_festivals(previous_day_panchaanga=daily_panchaangas[index-1])
     # return 
     TithiAssigner(panchaanga=self).assign_shraaddha_tithi()
     applier.MiscFestivalAssigner(panchaanga=self).assign_all(debug=debug)
     ecliptic.EclipticFestivalAssigner(panchaanga=self).assign_all(debug=debug)
     tithi_festival.TithiFestivalAssigner(panchaanga=self).assign_all(debug=debug)
-    solar.SolarFestivalAssigner(panchaanga=self).assign_all(debug=debug)
+    solar.SolarFestivalAssigner(panchaanga=self).assign_all()
     vaara.VaraFestivalAssigner(panchaanga=self).assign_all(debug=debug)
     applier.MiscFestivalAssigner(panchaanga=self).cleanup_festivals(debug=debug)
     applier.MiscFestivalAssigner(panchaanga=self).assign_relative_festivals()

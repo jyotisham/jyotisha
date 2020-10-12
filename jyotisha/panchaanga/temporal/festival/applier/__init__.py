@@ -468,7 +468,7 @@ class MiscFestivalAssigner(FestivalAssigner):
       #   return 
       else:
         return True
-
+ 
     festival_rules = [x for x in festival_rules if unassigned_fest_filter(x)]
     # assert "tripurOtsavaH" in festival_rules
     self.assign_festivals_from_rules(festival_rules)

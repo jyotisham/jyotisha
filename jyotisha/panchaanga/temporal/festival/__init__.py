@@ -4,6 +4,8 @@ import sys
 from indic_transliteration import sanscript, language_code_to_script
 
 from jyotisha import custom_transliteration
+from jyotisha.util import default_if_none
+
 from sanskrit_data.schema import common
 
 logging.basicConfig(
@@ -75,6 +77,8 @@ class FestivalInstance(common.JsonObject):
   def __hash__(self):
     return hash(self.name)
 
+  def __str__(self):
+    return "%s %s %s" % (self.name, str(default_if_none(self.ordinal, "")), str(default_if_none(self.interval, "")))
 
 class TransitionFestivalInstance(FestivalInstance):
   def __init__(self, name, status_1_hk, status_2_hk):

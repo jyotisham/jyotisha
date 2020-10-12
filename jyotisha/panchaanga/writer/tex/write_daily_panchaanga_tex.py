@@ -35,7 +35,7 @@ def emit(panchaanga, time_format="hh:mm", scripts=None, output_stream=None):
   """
   # day_colours = {0: 'blue', 1: 'blue', 2: 'blue',
   #                3: 'blue', 4: 'blue', 5: 'blue', 6: 'blue'}
-  compute_lagnams = panchaanga.computation_system.options.lagnas
+  compute_lagnams = panchaanga.computation_system.options.set_lagnas
   if scripts is None:
     scripts = [sanscript.DEVANAGARI]
   month = {1: 'JANUARY', 2: 'FEBRUARY', 3: 'MARCH', 4: 'APRIL',
