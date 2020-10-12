@@ -8,6 +8,7 @@ from jyotisha.panchaanga.spatio_temporal import City, daily, annual
 from jyotisha.panchaanga.temporal.body import Graha
 from jyotisha.panchaanga.temporal.time import Timezone, Date
 from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision, Ayanamsha
+from jyotisha.panchaanga.temporal.zodiac.angas import AngaType, Anga
 
 logging.basicConfig(
   level=logging.DEBUG,
@@ -35,16 +36,12 @@ class DailyCalendarHandler(Resource):
   get_parser = reqparse.RequestParser()
   get_parser.add_argument('timezone', type=str, default='Asia/Calcutta', help='Example: Asia/Calcutta', location='args',
                           required=True)
-  get_parser.add_argument('encoding', type=str, default='devanagari', help='Example: iast, devanagari, kannada, tamil',
-                          location='args',
-                          required=True)
 
   @api.expect(get_parser)
   def get(self, latitude, longitude, year):
     args = self.get_parser.parse_args()
     city = City("", latitude, longitude, args['timezone'])
-    panchaanga = annual.get_panchaanga_for_civil_year(city=city, year=int(year),
-                                                      script=args['encoding'])
+    panchaanga = annual.get_panchaanga_for_civil_year(city=city, year=int(year))
 
     return panchaanga.to_json_map()
 
@@ -66,8 +63,7 @@ class KaalaHandler(Resource):
   def get(self, latitude, longitude, year, month, day):
     args = self.get_parser.parse_args()
     city = City("", latitude, longitude, args['timezone'])
-    panchaanga = daily.DailyPanchaanga(city=city, year=int(year), month=int(month),
-                                       day=int(day))
+    panchaanga = daily.DailyPanchaanga(city=city, date=Date(year=int(year), month=int(month), day=int(day)))
     return panchaanga.day_length_based_periods.to_json_map()
 
 
