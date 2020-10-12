@@ -883,9 +883,9 @@
           "name": "ramaNa~maharSi~jayantI",
           "ordinal": 139
         },
-        "undu~madakkaLir2r2an2{}": {
+        "undu~madakkaLir2r2an2": {
           "jsonClass": "FestivalInstance",
-          "name": "undu~madakkaLir2r2an2{}"
+          "name": "undu~madakkaLir2r2an2"
         },
         "zAkambharI~jayantI": {
           "jsonClass": "FestivalInstance",
@@ -116889,7 +116889,12 @@
           "name": "yama"
         }
       },
-      "festival_id_to_instance": {},
+      "festival_id_to_instance": {
+        "undu~madakkaLir2r2an2": {
+          "jsonClass": "FestivalInstance",
+          "name": "undu~madakkaLir2r2an2"
+        }
+      },
       "jd_moonrise": 2458486.439,
       "jd_moonset": 2458485.8921,
       "jd_next_sunrise": 2458486.5455,
@@ -119526,7 +119531,12 @@
           "name": "yama"
         }
       },
-      "festival_id_to_instance": {},
+      "festival_id_to_instance": {
+        "kUDAravallI": {
+          "jsonClass": "FestivalInstance",
+          "name": "kUDAravallI"
+        }
+      },
       "jd_moonrise": 2458494.6885,
       "jd_moonset": 2458495.1971,
       "jd_next_sunrise": 2458495.5474,
@@ -119809,7 +119819,12 @@
           "name": "yama"
         }
       },
-      "festival_id_to_instance": {},
+      "festival_id_to_instance": {
+        "kar2avaigaL pin2cen2r2u": {
+          "jsonClass": "FestivalInstance",
+          "name": "kar2avaigaL pin2cen2r2u"
+        }
+      },
       "jd_moonrise": 2458495.7139,
       "jd_moonset": 2458496.2292,
       "jd_next_sunrise": 2458496.5475,
@@ -120699,7 +120714,16 @@
           "name": "yama"
         }
       },
-      "festival_id_to_instance": {},
+      "festival_id_to_instance": {
+        "makara-jyOtiH": {
+          "jsonClass": "FestivalInstance",
+          "name": "makara-jyOtiH"
+        },
+        "makara-saGkrAntiH": {
+          "jsonClass": "FestivalInstance",
+          "name": "makara-saGkrAntiH"
+        }
+      },
       "jd_moonrise": 2458498.7956,
       "jd_moonset": 2458499.3329,
       "jd_next_sunrise": 2458499.5479,
@@ -124840,6 +124864,13 @@
         "month": 1,
         "weekday": 4,
         "year": 2018
+      },
+      {
+        "day": 11,
+        "jsonClass": "Date",
+        "month": 1,
+        "weekday": 5,
+        "year": 2019
       }
     ],
     "kUSmANDa-dazamI": [
@@ -125344,6 +125375,13 @@
         "month": 1,
         "weekday": 5,
         "year": 2018
+      },
+      {
+        "day": 12,
+        "jsonClass": "Date",
+        "month": 1,
+        "weekday": 6,
+        "year": 2019
       }
     ],
     "kar2pagAmbAL\u2013kapAlIzvarar tirukkalyANam": [
@@ -126296,6 +126334,13 @@
         "month": 1,
         "weekday": 0,
         "year": 2018
+      },
+      {
+        "day": 15,
+        "jsonClass": "Date",
+        "month": 1,
+        "weekday": 2,
+        "year": 2019
       }
     ],
     "makara-saGkrAntiH": [
@@ -126305,6 +126350,13 @@
         "month": 1,
         "weekday": 0,
         "year": 2018
+      },
+      {
+        "day": 15,
+        "jsonClass": "Date",
+        "month": 1,
+        "weekday": 2,
+        "year": 2019
       }
     ],
     "manOratha-dvitIyA": [
@@ -129380,13 +129432,20 @@
         "year": 2018
       }
     ],
-    "undu~madakkaLir2r2an2{}": [
+    "undu~madakkaLir2r2an2": [
       {
         "day": 2,
         "jsonClass": "Date",
         "month": 1,
         "weekday": 2,
         "year": 2018
+      },
+      {
+        "day": 2,
+        "jsonClass": "Date",
+        "month": 1,
+        "weekday": 3,
+        "year": 2019
       }
     ],
     "unmIlanI~mahAdvAdazI": [

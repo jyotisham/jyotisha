@@ -254,6 +254,8 @@ class Panchaanga(common.JsonObject):
     """
     self._reset_festivals()
     from jyotisha.panchaanga.temporal.festival import rules
+    for index, dp in enumerate(self.daily_panchaangas_sorted()):
+      dp.assign_festivals(previous_day_panchaanga=self.daily_panchaangas_sorted()[index-1])
     TithiAssigner(panchaanga=self).assign_shraaddha_tithi()
     applier.MiscFestivalAssigner(panchaanga=self).assign_all(debug=debug)
     ecliptic.EclipticFestivalAssigner(panchaanga=self).assign_all(debug=debug)

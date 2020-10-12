@@ -1,19 +1,13 @@
-import json
 import logging
 import os
-import re
 import sys
 from pathlib import Path
 
 import methodtools
-
-from indic_transliteration import xsanscript as sanscript
+from jyotisha import custom_transliteration
 from timebudget import timebudget
 
 from sanskrit_data.schema import common
-
-from jyotisha import custom_transliteration
-from jyotisha.names import get_chandra_masa, NAMES
 
 
 def transliterate_quoted_text(text, script):
@@ -92,6 +86,12 @@ class HinduCalendarEventTiming(common.JsonObject):
     timing.validate_schema()
     return timing
 
+  def get_kaala(self):
+    return "sunrise" if self.kaala is None else self.kaala
+
+  def get_priority(self):
+    return "puurvaviddha" if self.priority is None else self.priority
+    
 
 # noinspection PyUnresolvedReferences
 class HinduCalendarEvent(common.JsonObject):
@@ -210,7 +210,7 @@ DATA_ROOT = os.path.join(os.path.dirname(__file__), "../data")
 
 class RulesRepo(common.JsonObject):
   LUNAR_MONTH_DIR = "lunar_month"
-  SIDEREAL_SIDEREAL_MONTH_DIR = "sidereal_solar_month"
+  SIDEREAL_SOLAR_MONTH_DIR = "sidereal_solar_month"
   RELATIVE_EVENT_DIR = "relative_event"
   DAY_DIR = "day"
   TITHI_DIR = "tithi"
@@ -251,6 +251,14 @@ class RulesCollection(common.JsonObject):
       from sanskrit_data import collection_helper
       self.tree = collection_helper.tree_maker(leaves=self.name_to_rule.values(), path_fn=lambda x: x.get_storage_file_name(base_dir="").replace("__info.toml", ""))
 
+  def get_month_anga_fests(self, month_type, month, anga_type_id, anga):
+    from jyotisha.panchaanga.temporal.zodiac import Anga
+    if isinstance(anga, Anga):
+      anga = anga.index
+    try:
+      return self.tree[month_type.lower()][anga_type_id.lower()]["%02d" % month]["%02d" % anga]
+    except KeyError:
+      return {}
 
 
 # Essential for depickling to work.

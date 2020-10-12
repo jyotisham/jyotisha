@@ -153,7 +153,6 @@ class Date(BasicDate):
     if isinstance(other, Number):
       return self.offset_date(days=other)
 
-
   @classmethod
   def from_datetime(cls, dt):
     return Date(year=dt.year, month=dt.month, day=dt.day, hour=dt.hour, minute=dt.minute, second=dt.second + dt.microsecond / float(1e6))
