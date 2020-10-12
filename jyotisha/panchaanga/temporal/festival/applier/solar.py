@@ -3,8 +3,9 @@ from datetime import datetime
 from math import floor
 
 from jyotisha import names
-from jyotisha.panchaanga.temporal import time
+from jyotisha.panchaanga.temporal import time, DailyPanchaangaApplier
 from jyotisha.panchaanga.temporal import zodiac, tithi
+from jyotisha.panchaanga.temporal.festival import rules, FestivalInstance
 from jyotisha.panchaanga.temporal.festival.applier import FestivalAssigner
 from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision
 from pytz import timezone as tz
@@ -154,6 +155,37 @@ class SolarFestivalAssigner(FestivalAssigner):
             festival_name = 'ardhOdaya-puNyakAlaH'
             self.add_festival(festival_name, d)
             # logging.debug('* %d-%02d-%02d> %s!' % (y, m, dt, festival_name))
+
+
+class DailySolarAssigner(DailyPanchaangaApplier):
+  def apply_month_day_events(self):
+    rule_set = rules.RulesCollection.get_cached(repos=tuple(self.computation_system.options.fest_repos))
+    panchaanga = self.panchaanga
+    previous_day_panchaanga = self.previous_day_panchaanga
+
+    # Assign sunrise solar sidereal day fests. Current day's sunset solar month and day will generally hold at sunrise.
+    fest_dict = rule_set.get_month_anga_fests(month=panchaanga.solar_sidereal_date_sunset.month, anga=panchaanga.solar_sidereal_date_sunset.day, month_type=rules.RulesRepo.SIDEREAL_SOLAR_MONTH_DIR, anga_type_id=rules.RulesRepo.DAY_DIR)
+    for fest_id, fest in fest_dict.items():
+      kaala = fest.timing.get_kaala()
+      if kaala == "sunrise":
+        panchaanga.festival_id_to_instance[fest_id] = FestivalInstance(name=fest.id)
+      elif kaala == "arunodaya":
+        pass # Handled separately
+      else:
+        raise ValueError("%s %s " % (fest_id, kaala))
+    return
+
+    # Assign aruNodaya solar sidereal day fests. Previous day's sunset solar month and day will generally hold.
+    fest_dict = rule_set.get_month_anga_fests(month=previous_day_panchaanga.solar_sidereal_date_sunset.month, anga=previous_day_panchaanga.solar_sidereal_date_sunset.day, month_type=rules.RulesRepo.SIDEREAL_SOLAR_MONTH_DIR, anga_type_id=rules.RulesRepo.DAY_DIR)
+    for fest_id, fest in fest_dict.items():
+      kaala = fest.timing.get_kaala()
+      if kaala == "sunrise":
+        pass # Handled separately
+      elif kaala == "arunodaya":
+        panchaanga.festival_id_to_instance[fest_id] = FestivalInstance(name=fest.id)
+      else:
+        raise ValueError("Unhandled - %s %s " % (fest_id, kaala))
+    return
 
 
 # Essential for depickling to work.

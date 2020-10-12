@@ -1,10 +1,6 @@
 import sys
 
 import methodtools
-from jyotisha.util import default_if_none
-from timebudget import timebudget
-
-from jyotisha.panchaanga import spatio_temporal
 from jyotisha.panchaanga.spatio_temporal import daily
 from jyotisha.panchaanga.temporal import zodiac, time, set_constants, ComputationSystem
 from jyotisha.panchaanga.temporal.festival import applier, FestivalInstance
@@ -12,9 +8,12 @@ from jyotisha.panchaanga.temporal.festival.applier import tithi_festival, eclipt
 from jyotisha.panchaanga.temporal.time import Date
 from jyotisha.panchaanga.temporal.tithi import TithiAssigner
 from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision
+from jyotisha.util import default_if_none
+from timebudget import timebudget
+from typing import Dict
+
 from sanskrit_data.schema import common
 from sanskrit_data.schema.common import JsonObject
-
 
 timebudget.set_quiet(True)  # don't show measurements as they happen
 # timebudget.report_at_exit()  # Generate report when the program exits
@@ -63,7 +62,7 @@ class Panchaanga(common.JsonObject):
     nDays = self.duration_to_calculate
 
     # INITIALISE VARIABLES
-    self.date_str_to_panchaanga: dict[str, daily.DailyPanchaanga] = {}
+    self.date_str_to_panchaanga: Dict[str, daily.DailyPanchaanga] = {}
 
     # Computing solar month details for Dec 31
     # rather than Jan 1, since we have an always increment
@@ -253,9 +252,9 @@ class Panchaanga(common.JsonObject):
     :return:
     """
     self._reset_festivals()
-    from jyotisha.panchaanga.temporal.festival import rules
     for index, dp in enumerate(self.daily_panchaangas_sorted()[1:self.duration+1]):
       dp.assign_festivals(previous_day_panchaanga=self.daily_panchaangas_sorted()[index-1])
+    # return 
     TithiAssigner(panchaanga=self).assign_shraaddha_tithi()
     applier.MiscFestivalAssigner(panchaanga=self).assign_all(debug=debug)
     ecliptic.EclipticFestivalAssigner(panchaanga=self).assign_all(debug=debug)

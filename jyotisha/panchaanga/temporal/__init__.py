@@ -26,6 +26,16 @@ class PeriodicPanchaangaApplier(JsonObject):
     pass
 
 
+class DailyPanchaangaApplier(JsonObject):
+  """Objects of this type apply various temporal attributes to panchAnga-s."""
+  def __init__(self, panchaanga, previous_day_panchaanga):
+    super().__init__()
+    self.panchaanga = panchaanga
+    self.computation_system = panchaanga.computation_system
+    self.previous_day_panchaanga = previous_day_panchaanga
+    self.ayanaamsha_id = panchaanga.computation_system.ayanaamsha_id
+
+
 class ComputationOptions(JsonObject):
   def __init__(self, lagnas=None, fest_repos=None, fest_ids_included=None, fest_ids_excluded=None,
                fest_tags_included=None, fest_tags_excluded=None):

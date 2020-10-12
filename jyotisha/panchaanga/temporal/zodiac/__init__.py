@@ -16,6 +16,7 @@ from sanskrit_data.schema.common import JsonObject
 from scipy.optimize import brentq
 from timebudget import timebudget
 
+
 # noinspection SpellCheckingInspection
 logging.basicConfig(
   level=logging.DEBUG,

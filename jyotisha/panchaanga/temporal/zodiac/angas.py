@@ -2,8 +2,8 @@ from numbers import Number
 
 import methodtools
 from jyotisha import names
+
 from sanskrit_data.schema import common
-from timebudget import timebudget
 
 NAME_TO_TYPE = {}
 
@@ -96,7 +96,6 @@ class Anga(common.JsonObject):
   def __str__(self):
     return "%s: %02d" % (self.anga_type_id, self.index)
 
-  @timebudget
   def __sub__(self, other):
     """ 
     
@@ -127,7 +126,6 @@ class Anga(common.JsonObject):
     # We don't construct an anga object to avoid confusion between shukla and kRShNa paxa tithis. 
     return self.index % other
 
-  @timebudget
   def __add__(self, other):
     # Addition is only for offsetting an anga.
     # We avoid if isinstance(other, Number) for efficiency.
@@ -140,7 +138,6 @@ class Anga(common.JsonObject):
   def __lt__(self, other):
    return self - other < 0
 
-  @timebudget
   def __gt__(self, other):
     return self - other > 0
 
@@ -150,7 +147,6 @@ class Anga(common.JsonObject):
   def __le__(self, other):
     return self < other or self == other
 
-  @timebudget
   def __eq__(self, other):
     return self.index == other.index
 
