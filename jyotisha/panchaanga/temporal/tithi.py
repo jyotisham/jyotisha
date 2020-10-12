@@ -5,7 +5,7 @@ import sys
 from jyotisha.panchaanga.temporal import time
 from jyotisha.panchaanga import temporal
 from jyotisha.panchaanga.temporal import PeriodicPanchaangaApplier, interval
-from jyotisha.panchaanga.temporal.zodiac.angas import AngaType
+from jyotisha.panchaanga.temporal.zodiac.angas import AngaType, Anga
 from sanskrit_data.schema import common
 
 
@@ -34,7 +34,7 @@ class TithiAssigner(PeriodicPanchaangaApplier):
     daily_panchaangas = self.daily_panchaangas
     
     def _assign(self, fday, tithi):
-      if daily_panchaangas[fday].shraaddha_tithi == [None] or daily_panchaangas[fday].shraaddha_tithi == [tithi]:
+      if daily_panchaangas[fday].shraaddha_tithi == [] or daily_panchaangas[fday].shraaddha_tithi == [tithi]:
         daily_panchaangas[fday].shraaddha_tithi = [tithi]
       else:
         daily_panchaangas[fday].shraaddha_tithi.append(tithi)
@@ -46,8 +46,8 @@ class TithiAssigner(PeriodicPanchaangaApplier):
   
       angas = self.panchaanga.get_2_day_interval_boundaries_angas(d, get_tithi, 'aparaahna')
       angam_start = angas[0]
-      next_anga = (angam_start % 30) + 1
-      nnext_anga = (next_anga % 30) + 1
+      next_anga = angam_start + 1
+      nnext_anga = next_anga + 1
   
       # Calc vyaaptis
       t_start_d, t_end_d = interval.get_interval(daily_panchaangas[d].jd_sunrise, daily_panchaangas[d].jd_sunset, 3, 5).to_tuple()
@@ -88,16 +88,16 @@ class TithiAssigner(PeriodicPanchaangaApplier):
         # Full aparaahnas on both days, so second day
         fday = d + 1
         s_tithi = angam_start
-        reason = '%2d incident on consecutive days; paraviddhA' % s_tithi
+        reason = '%2d incident on consecutive days; paraviddhA' % s_tithi.index
       elif (angas[1] == angam_start) and (angas[2] == next_anga):  # <b>/<f>
         fday = d
         s_tithi = angas[0]
-        reason = '%2d not incident on %3d' % (s_tithi, d + 1)
+        reason = '%2d not incident on %3d' % (s_tithi.index, d + 1)
         if angas[3] == nnext_anga:  # <f>
           if debug_shraaddha_tithi:
             logging.debug('%03d [%4d-%02d-%02d]: %s' % (d, y, m, dt,
                                                         'Need to assign %2d to %3d as it is present only at start of aparAhna tomorrow!)' % (
-                                                          next_anga, d + 1)))
+                                                          next_anga.index, d + 1)))
           _assign(self, d + 1, next_anga)
       elif angas[2] == angam_start:  # <e>
         if span_1 > vyapti_3:
@@ -105,22 +105,22 @@ class TithiAssigner(PeriodicPanchaangaApplier):
           fday = d
           s_tithi = angas[2]
           reason = '%2d has more vyApti on day %3d (%f ghatikAs; full?) compared to day %3d (%f ghatikAs)' % (
-            s_tithi, d, span_1 * 60, d + 1, vyapti_3 * 60)
+            s_tithi.index, d, span_1 * 60, d + 1, vyapti_3 * 60)
         else:
           fday = d + 1
           s_tithi = angas[2]
           reason = '%2d has more vyApti on day %3d (%f ghatikAs) compared to day %3d (%f ghatikAs) --- unusual!' % (
-            s_tithi, d + 1, vyapti_3 * 60, d, span_1 * 60)
+            s_tithi.index, d + 1, vyapti_3 * 60, d, span_1 * 60)
       elif angas[2] == nnext_anga:  # <d>/<h>
         if angas[1] == next_anga:  # <h>
           fday = d
           s_tithi = angas[1]
-          reason = '%2d has some vyApti on day %3d; not incident on day %3d at all' % (s_tithi, d, d + 1)
+          reason = '%2d has some vyApti on day %3d; not incident on day %3d at all' % (s_tithi.index, d, d + 1)
         else:  # <d>
           s_tithi = angam_start
           fday = d
           reason = '%2d is incident fully at aparAhna today (%3d), and not incident tomorrow (%3d)!' % (
-            s_tithi, d, d + 1)
+            s_tithi.index, d, d + 1)
           # Need to check vyApti of next_anga in sAyaMkAla: if it's nearly entire sAyaMkAla ie 5-59-30 or more!
           if debug_shraaddha_tithi:
             logging.debug('%03d [%4d-%02d-%02d]: %s' % (d, y, m, dt,
@@ -131,24 +131,24 @@ class TithiAssigner(PeriodicPanchaangaApplier):
       elif angas[1] == angas[2] == angas[3] == next_anga:  # <c>
         s_tithi = next_anga
         fday = d + 1
-        reason = '%2d has more vyApti on %3d (full) compared to %3d (part)' % (s_tithi, d + 1, d)
+        reason = '%2d has more vyApti on %3d (full) compared to %3d (part)' % (s_tithi.index, d + 1, d)
       elif angas[1] == angas[2] == next_anga:  # <g>
         s_tithi = angas[2]
         if span_2 > vyapti_3:
           # Most likely
           fday = d
           reason = '%2d has more vyApti on day %3d (%f ghatikAs) compared to day %3d (%f ghatikAs)' % (
-            s_tithi, d, span_2 * 60, d + 1, vyapti_3 * 60)
+            s_tithi.index, d, span_2 * 60, d + 1, vyapti_3 * 60)
         else:
           fday = d + 1
           reason = '%2d has more vyApti on day %3d (%f ghatikAs) compared to day %3d (%f ghatikAs)' % (
-            s_tithi, d + 1, vyapti_3 * 60, d, span_2 * 60)  # Examine for greater vyApti
+            s_tithi.index, d + 1, vyapti_3 * 60, d, span_2 * 60)  # Examine for greater vyApti
       else:
         logging.error('Should not reach here ever! %s' % str(angas))
         reason = '?'
       if debug_shraaddha_tithi:
         logging.debug(
-          '%03d [%4d-%02d-%02d]: Assigning tithi %2d to %3d (%s).' % (d, y, m, dt, s_tithi, fday, reason))
+          '%03d [%4d-%02d-%02d]: Assigning tithi %2d to %3d (%s).' % (d, y, m, dt, s_tithi.index, fday, reason))
       _assign(self, fday, s_tithi)
   
     if debug_shraaddha_tithi:
@@ -159,13 +159,13 @@ class TithiAssigner(PeriodicPanchaangaApplier):
       lunar_tithi_days[z] = {}
     for d in range(1, self.panchaanga.duration + 1):
       for t in daily_panchaangas[d].shraaddha_tithi:
-        lunar_tithi_days[daily_panchaangas[d].lunar_month_sunrise][t] = d
+        lunar_tithi_days[daily_panchaangas[d].lunar_month_sunrise][t.index] = d
   
     # Following this primary assignment, we must now "clean" for Sankranti, and repetitions
     # If there are two tithis, take second. However, if the second has sankrAnti dushtam, take
     # first. If both have sankrAnti dushtam, take second.
     for d in range(1, self.panchaanga.duration + 1):
-      if daily_panchaangas[d].shraaddha_tithi != [None]:
+      if daily_panchaangas[d].shraaddha_tithi != []:
         if daily_panchaangas[d].solar_sidereal_date_sunset.month_transition is not None:
           if debug_shraaddha_tithi:
             logging.debug((d, daily_panchaangas[d].solar_sidereal_date_sunset.month_transition))
@@ -178,24 +178,24 @@ class TithiAssigner(PeriodicPanchaangaApplier):
             assert daily_panchaangas[d].solar_sidereal_date_sunset.day == 1
             for t in daily_panchaangas[d].shraaddha_tithi:
               # Assigning to both months --- should get eliminated because of a second occurrence
-              tithi_days[m1][t].extend([d, '*'])
-              tithi_days[m2][t].extend([d, '*'])
+              tithi_days[m1][t.index].extend([d, '*'])
+              tithi_days[m2][t.index].extend([d, '*'])
           if daily_panchaangas[d].solar_sidereal_date_sunset.month_transition < aparaahna_start:
             if debug_shraaddha_tithi:
               logging.debug('Sankranti before aparaahna!')
             assert daily_panchaangas[d].solar_sidereal_date_sunset.day == 1
             for t in daily_panchaangas[d].shraaddha_tithi:
-              tithi_days[m2][t].extend([d, '*'])
+              tithi_days[m2][t.index].extend([d, '*'])
           if aparaahna_end < daily_panchaangas[d].solar_sidereal_date_sunset.month_transition:
             if debug_shraaddha_tithi:
               logging.debug('Sankranti after aparaahna!')
             # Depending on whether sankranti is before or after sunset, m2 may or may not be equal to m1
             # In any case, we wish to assign this tithi to the previous month, where it really occurs.
             for t in daily_panchaangas[d].shraaddha_tithi:
-              tithi_days[m1][t].extend([d, '*'])
+              tithi_days[m1][t.index].extend([d, '*'])
         else:
           for t in daily_panchaangas[d].shraaddha_tithi:
-            tithi_days[daily_panchaangas[d].solar_sidereal_date_sunset.month][t].append(d)
+            tithi_days[daily_panchaangas[d].solar_sidereal_date_sunset.month][t.index].append(d)
   
     # We have now assigned all tithis. Now, remove duplicates based on the above-mentioned rules.
     # TODO: This is not the best way to clean. Need to examine one month at a time.
@@ -214,7 +214,7 @@ class TithiAssigner(PeriodicPanchaangaApplier):
             if debug_shraaddha_tithi:
               logging.debug('Note %s' % str(tithi_days[m][t]))
           else:
-            daily_panchaangas[tithi_days[m][t][0]].shraaddha_tithi = [0]  # Shunya
+            daily_panchaangas[tithi_days[m][t][0]].shraaddha_tithi = [Anga.get_cached(index=0, anga_type_id=AngaType.TITHI.name)]  # Shunya
             if debug_shraaddha_tithi:
               logging.debug('Removed %d' % tithi_days[m][t][0])
             del tithi_days[m][t][0]
@@ -225,12 +225,12 @@ class TithiAssigner(PeriodicPanchaangaApplier):
           if debug_shraaddha_tithi:
             logging.debug('Two %2d tithis in month %2d: %s' % (t, m, str(tithi_days[m][t])))
           if tithi_days[m][t][1] == '*':
-            daily_panchaangas[tithi_days[m][t][0]].shraaddha_tithi = [0]  # Shunya
+            daily_panchaangas[tithi_days[m][t][0]].shraaddha_tithi = [Anga.get_cached(index=0, anga_type_id=AngaType.TITHI.name)]  # Shunya
             if debug_shraaddha_tithi:
               logging.debug('Removed %d' % tithi_days[m][t][0])
             del tithi_days[m][t][:2]
           elif tithi_days[m][t][2] == '*':
-            daily_panchaangas[tithi_days[m][t][1]].shraaddha_tithi = [0]  # Shunya
+            daily_panchaangas[tithi_days[m][t][1]].shraaddha_tithi = [Anga.get_cached(index=0, anga_type_id=AngaType.TITHI.name)]  # Shunya
             if debug_shraaddha_tithi:
               logging.debug('Removed %d' % tithi_days[m][t][1])
             del tithi_days[m][t][1:]
@@ -239,7 +239,7 @@ class TithiAssigner(PeriodicPanchaangaApplier):
         elif len(tithi_days[m][t]) == 4:
           if debug_shraaddha_tithi:
             logging.debug('Two dushta %2d tithis in month %2d: %s' % (t, m, str(tithi_days[m][t])))
-          daily_panchaangas[tithi_days[m][t][0]].shraaddha_tithi = [0]  # Shunya
+          daily_panchaangas[tithi_days[m][t][0]].shraaddha_tithi = [Anga.get_cached(index=0, anga_type_id=AngaType.TITHI.name)]  # Shunya
           if debug_shraaddha_tithi:
             logging.debug('Removed %d' % tithi_days[m][t][0])
           tithi_days[m][t][3] = str(m)

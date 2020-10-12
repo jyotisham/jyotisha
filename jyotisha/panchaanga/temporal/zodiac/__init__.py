@@ -1,14 +1,15 @@
 import logging
 import sys
 from math import floor
+from numbers import Number
 from typing import Optional
 
 import methodtools
 import numpy
 import swisseph as swe
 from jyotisha.panchaanga.temporal.body import Graha
-from jyotisha.panchaanga.temporal.interval import Interval
-from jyotisha.panchaanga.temporal.zodiac.angas import AngaType
+from jyotisha.panchaanga.temporal.interval import Interval, AngaSpan
+from jyotisha.panchaanga.temporal.zodiac.angas import AngaType, Anga
 from jyotisha.util import default_if_none
 from sanskrit_data.schema import common
 from sanskrit_data.schema.common import JsonObject
@@ -149,7 +150,7 @@ class NakshatraDivision(common.JsonObject):
         int anga
     """
 
-    return int(1 + floor(self.get_anga_float(anga_type)))
+    return Anga.get_cached(index=int(1 + floor(self.get_anga_float(anga_type))), anga_type_id=anga_type.name)
 
   def get_all_angas(self):
     """Compute various properties of the time based on lunar and solar longitudes, division of a circle into a certain number of degrees (arc_len).
@@ -157,7 +158,7 @@ class NakshatraDivision(common.JsonObject):
     anga_objects = [AngaType.TITHI, AngaType.TITHI_PADA, AngaType.NAKSHATRA, AngaType.NAKSHATRA_PADA, AngaType.RASHI,
                     AngaType.SIDEREAL_MONTH, AngaType.SOLAR_NAKSH, AngaType.YOGA, AngaType.KARANA]
     angas = list(map(lambda anga_object: self.get_anga(anga_type=anga_object), anga_objects))
-    anga_ids = list(map(lambda anga_obj: anga_obj.name, anga_objects))
+    anga_ids = list(map(lambda anga_obj: anga_obj.index, anga_objects))
     return dict(list(zip(anga_ids, angas)))
 
   def get_nakshatra(self):
@@ -227,22 +228,22 @@ class AngaSpanFinder(JsonObject):
   def _get_anga(self, jd):
     return NakshatraDivision(jd, ayanaamsha_id=self.ayanaamsha_id).get_anga( anga_type=self.anga_type)
 
-  def _get_anga_float_offset(self, jd, target_anga_id):
+  def _get_anga_float_offset(self, jd, target_anga):
     anga_float = NakshatraDivision(jd, ayanaamsha_id=self.ayanaamsha_id).get_anga_float(anga_type=self.anga_type)
     num_angas = self.anga_type.num_angas
-    if anga_float > target_anga_id:
+    if anga_float > target_anga.index:
       return anga_float - num_angas # A negative number
     else:
-      return anga_float - (target_anga_id-1)
+      return anga_float - (target_anga.index - 1)
 
-  def _interpolate_for_start(self, jd1, jd2, target_anga_id):
+  def _interpolate_for_start(self, jd1, jd2, target_anga):
     try:
       # noinspection PyTypeChecker
-      return brentq(lambda x: self._get_anga_float_offset(jd=x, target_anga_id=target_anga_id), jd1, jd2)
+      return brentq(lambda x: self._get_anga_float_offset(jd=x, target_anga=target_anga), jd1, jd2)
     except ValueError:
       return None
 
-  def find_anga_start_between(self, jd1, jd2, target_anga_id):
+  def find_anga_start_between(self, jd1, jd2, target_anga):
     jd_start = None
     num_angas = self.anga_type.num_angas
     min_step = 0.5 * self.anga_type.mean_period_days/num_angas  # Min Step for moving - half an anga span.
@@ -251,12 +252,12 @@ class AngaSpanFinder(JsonObject):
     while jd_now <= jd2 and jd_start is None:
       anga_now = self._get_anga(jd=jd_now)
 
-      if anga_now < target_anga_id or (target_anga_id == 1 and anga_now == num_angas):
+      if anga_now < target_anga:
         # So, jd_now will be lower than jd_start
         jd_bracket_L = jd_now
-      if anga_now == target_anga_id:
+      if anga_now == target_anga:
         # In this branch, anga_now will have overshot the jd_start of the required interval.
-        jd_start = self._interpolate_for_start(jd1=jd_bracket_L, jd2=jd_now, target_anga_id=target_anga_id)
+        jd_start = self._interpolate_for_start(jd1=jd_bracket_L, jd2=jd_now, target_anga=target_anga)
       if jd_now == jd2:
         # Prevent infinite loop
         break
@@ -276,18 +277,20 @@ class AngaSpanFinder(JsonObject):
           None if target_anga_id was not found
           Interval, with boundary jds None if they don't occur within [jd1, jd2] 
     """
-    num_angas = int(360.0 / self.anga_type.arc_length)
-    if target_anga_id > num_angas or target_anga_id < 1:
-      raise ValueError
+    if isinstance(target_anga_id, Number):
+      # TODO: Remove this backward compatibility fix
+      target_anga = Anga.get_cached(index=target_anga_id, anga_type_id=self.anga_type.name)
+    else:
+      target_anga = target_anga_id
 
-    anga_interval = Interval(jd_start=None, jd_end=None, name=target_anga_id)
+    anga_interval = AngaSpan(jd_start=None, jd_end=None, anga=target_anga)
 
-    anga_interval.jd_start = self.find_anga_start_between(jd1=jd1, jd2=jd2, target_anga_id=target_anga_id)
+    anga_interval.jd_start = self.find_anga_start_between(jd1=jd1, jd2=jd2, target_anga=target_anga)
 
-    anga_id_after_target = (target_anga_id % num_angas) + 1
-    anga_interval.jd_end = self.find_anga_start_between(jd1=default_if_none(anga_interval.jd_start, jd1), jd2=jd2, target_anga_id=anga_id_after_target)
+    next_anga = target_anga + 1
+    anga_interval.jd_end = self.find_anga_start_between(jd1=default_if_none(anga_interval.jd_start, jd1), jd2=jd2, target_anga=next_anga)
     if anga_interval.jd_start is None and anga_interval.jd_end is None:
-      if self._get_anga(jd=jd1) != target_anga_id:
+      if self._get_anga(jd=jd1) != target_anga:
         return None
     return anga_interval
 
@@ -317,9 +320,9 @@ class AngaSpanFinder(JsonObject):
     jd_start = None
     anga_now = self._get_anga(jd=jd1)
     while default_if_none(jd_start, jd1) <= jd2:
-      next_anga = self.anga_type.add(anga_now, 1)
-      jd_end = self.find_anga_start_between(target_anga_id=next_anga, jd1=default_if_none(jd_start, jd1), jd2=jd2)
-      spans.append(Interval(jd_start=jd_start, jd_end=jd_end, name=anga_now))
+      next_anga = anga_now + 1
+      jd_end = self.find_anga_start_between(target_anga=next_anga, jd1=default_if_none(jd_start, jd1), jd2=jd2)
+      spans.append(AngaSpan(jd_start=jd_start, jd_end=jd_end, anga=anga_now))
       if jd_end is None:
         break
       else:
@@ -334,20 +337,20 @@ common.update_json_class_index(sys.modules[__name__])
 
 def get_tropical_month(jd):
   nd = NakshatraDivision(jd=jd, ayanaamsha_id=Ayanamsha.ASHVINI_STARTING_0)
-  return nd.get_anga(anga_type=AngaType.SIDEREAL_MONTH)
+  return nd.get_anga(anga_type=AngaType.TROPICAL_MONTH)
 
 
 def get_previous_solstice(jd):
   tropical_month = get_tropical_month(jd=jd)
-  if tropical_month >= 4 and tropical_month < 10:
-    target_month = 4
+  if tropical_month.index >= 4 and tropical_month.index < 10:
+    target_month_id = 4
   else:
-    target_month = 10
-  months_past_solstice = (tropical_month - target_month) % 12
+    target_month_id = 10
+  months_past_solstice = (tropical_month - target_month_id) % 12
   jd1 = jd - (months_past_solstice * 30 + months_past_solstice + 30)
   jd2 = jd - (months_past_solstice * 30 + months_past_solstice) + 30
   anga_span_finder = AngaSpanFinder.get_cached(ayanaamsha_id=Ayanamsha.ASHVINI_STARTING_0, anga_type=AngaType.SIDEREAL_MONTH)
-  return anga_span_finder.find(jd1=jd1, jd2=jd2, target_anga_id=target_month)
+  return anga_span_finder.find(jd1=jd1, jd2=jd2, target_anga_id=target_month_id)
 
 
 if __name__ == '__main__':

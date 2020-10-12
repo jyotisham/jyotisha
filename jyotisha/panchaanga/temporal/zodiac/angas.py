@@ -18,6 +18,7 @@ class AngaType(common.JsonObject):
   YOGA = None
   KARANA = None
   SIDEREAL_MONTH = None
+  TROPICAL_MONTH = None
   SOLAR_NAKSH = None
   SOLAR_NAKSH_PADA = None
 
@@ -65,6 +66,7 @@ AngaType.RASHI = AngaType(name='RASHI', num_angas=12, weight_moon=1, weight_sun=
 AngaType.YOGA = AngaType(name='YOGA', num_angas=27, weight_moon=1, weight_sun=1, mean_period_days=29.541)
 AngaType.KARANA = AngaType(name='KARANA', num_angas=60, weight_moon=1, weight_sun=-1, mean_period_days=29.4)
 AngaType.SIDEREAL_MONTH = AngaType(name='SIDEREAL_MONTH', num_angas=12, weight_moon=0, weight_sun=1, mean_period_days=365.242)
+AngaType.TROPICAL_MONTH = AngaType(name='TROPICAL_MONTH', num_angas=12, weight_moon=0, weight_sun=1, mean_period_days=365.242)
 AngaType.SOLAR_NAKSH = AngaType(name='SOLAR_NAKSH', num_angas=27, weight_moon=0, weight_sun=1, mean_period_days=365.242)
 AngaType.SOLAR_NAKSH_PADA = AngaType(name='SOLAR_NAKSH_PADA', num_angas=108, weight_moon=0, weight_sun=1, mean_period_days=365.242)
 
@@ -154,3 +156,17 @@ class Anga(common.JsonObject):
 
   def __hash__(self):
     return super(Anga, self).__hash__()
+
+
+class BoundaryAngas(common.JsonObject):
+  def __init__(self, start, end, interval=None):
+    super(BoundaryAngas, self).__init__()
+    self.start = start
+    self.end = end
+    self.interval = interval
+
+  def to_tuple(self):
+    return (None if self.start is None else self.start.index, None if self.end is None else self.end.index)
+
+  def __str__(self):
+    return "%s-%s %s" % (str(self.start), str(self.end), str(self.interval))

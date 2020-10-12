@@ -30,11 +30,14 @@ logging.basicConfig(
 CODE_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
 
 
-def emit(panchaanga, time_format="hh:mm", scripts=[sanscript.DEVANAGARI], compute_lagnams=True, output_stream=None):
+def emit(panchaanga, time_format="hh:mm", scripts=None, output_stream=None):
   """Write out the panchaanga TeX using a specified template
   """
   # day_colours = {0: 'blue', 1: 'blue', 2: 'blue',
   #                3: 'blue', 4: 'blue', 5: 'blue', 6: 'blue'}
+  compute_lagnams = panchaanga.computation_system.options.lagnas
+  if scripts is None:
+    scripts = [sanscript.DEVANAGARI]
   month = {1: 'JANUARY', 2: 'FEBRUARY', 3: 'MARCH', 4: 'APRIL',
            5: 'MAY', 6: 'JUNE', 7: 'JULY', 8: 'AUGUST', 9: 'SEPTEMBER',
            10: 'OCTOBER', 11: 'NOVEMBER', 12: 'DECEMBER'}
@@ -91,7 +94,7 @@ def emit(panchaanga, time_format="hh:mm", scripts=[sanscript.DEVANAGARI], comput
 
     tithi_data_str = ''
     for tithi_span in daily_panchaanga.sunrise_day_angas.tithis_with_ends:
-      (tithi_ID, tithi_end_jd) = (tithi_span.name, tithi_span.jd_end)
+      (tithi_ID, tithi_end_jd) = (tithi_span.anga.index, tithi_span.jd_end)
       # if tithi_data_str != '':
       #     tithi_data_str += '\\hspace{1ex}'
       tithi = '\\raisebox{-1pt}{\\moon[scale=0.8]{%d}}\\hspace{2pt}' % (tithi_ID) + \
@@ -110,7 +113,7 @@ def emit(panchaanga, time_format="hh:mm", scripts=[sanscript.DEVANAGARI], comput
 
     nakshatra_data_str = ''
     for nakshatra_span in daily_panchaanga.sunrise_day_angas.nakshatras_with_ends:
-      (nakshatra_ID, nakshatra_end_jd) = (nakshatra_span.name, nakshatra_span.jd_end)
+      (nakshatra_ID, nakshatra_end_jd) = (nakshatra_span.anga.index, nakshatra_span.jd_end)
       if nakshatra_data_str != '':
         nakshatra_data_str += '\\hspace{1ex}'
       nakshatra = jyotisha.names.NAMES['NAKSHATRA_NAMES'][scripts[0]][nakshatra_ID]
@@ -128,7 +131,7 @@ def emit(panchaanga, time_format="hh:mm", scripts=[sanscript.DEVANAGARI], comput
 
     rashi_data_str = ''
     for raashi_span in daily_panchaanga.sunrise_day_angas.raashis_with_ends:
-      (rashi_ID, rashi_end_jd) = (raashi_span.name, raashi_span.jd_end)
+      (rashi_ID, rashi_end_jd) = (raashi_span.anga.index, raashi_span.jd_end)
       # if rashi_data_str != '':
       #     rashi_data_str += '\\hspace{1ex}'
       rashi = jyotisha.names.NAMES['RASHI_SUFFIXED_NAMES'][scripts[0]][rashi_ID]
@@ -150,7 +153,7 @@ def emit(panchaanga, time_format="hh:mm", scripts=[sanscript.DEVANAGARI], comput
 
     yoga_data_str = ''
     for yoga_span in daily_panchaanga.sunrise_day_angas.yogas_with_ends:
-      (yoga_ID, yoga_end_jd) = (yoga_span.name, yoga_span.jd_end)
+      (yoga_ID, yoga_end_jd) = (yoga_span.anga.index, yoga_span.jd_end)
       # if yoga_data_str != '':
       #     yoga_data_str += '\\hspace{1ex}'
       yoga = jyotisha.names.NAMES['YOGA_NAMES'][scripts[0]][yoga_ID]
@@ -170,7 +173,7 @@ def emit(panchaanga, time_format="hh:mm", scripts=[sanscript.DEVANAGARI], comput
 
     karana_data_str = ''
     for numKaranam, karaNa_span in enumerate(daily_panchaanga.sunrise_day_angas.karanas_with_ends):
-      (karana_ID, karana_end_jd) = (karaNa_span.name, karaNa_span.jd_end)
+      (karana_ID, karana_end_jd) = (karaNa_span.anga.index, karaNa_span.jd_end)
       # if numKaranam == 1:
       #     karana_data_str += '\\hspace{1ex}'
       karana = jyotisha.names.NAMES['KARANA_NAMES'][scripts[0]][karana_ID]
@@ -270,9 +273,9 @@ def emit(panchaanga, time_format="hh:mm", scripts=[sanscript.DEVANAGARI], comput
 
     print('\\caldata{%s}{%s}{%s{%s}{%s}{%s}%s}' %
           (month[m], dt, month_data,
-           jyotisha.names.get_chandra_masa(daily_panchaanga.lunar_month_sunrise,
+           jyotisha.names.get_chandra_masa(daily_panchaanga.lunar_month_sunrise.index,
                                            jyotisha.names.NAMES, scripts[0]),
-           jyotisha.names.NAMES['RTU_NAMES'][scripts[0]][int(ceil(daily_panchaanga.lunar_month_sunrise))],
+           jyotisha.names.NAMES['RTU_NAMES'][scripts[0]][int(ceil(daily_panchaanga.lunar_month_sunrise.index))],
            jyotisha.names.NAMES['VARA_NAMES'][scripts[0]][daily_panchaanga.date.get_weekday()], sar_data), file=output_stream)
 
     if daily_panchaanga.jd_moonrise > daily_panchaangas[d + 1].jd_sunrise:
@@ -342,10 +345,9 @@ def main():
 
   city = City(city_name, latitude, longitude, tz)
 
-  panchaanga = jyotisha.panchaanga.spatio_temporal.annual.get_panchaanga_for_civil_year(city=city, year=year,
-                                                                                        compute_lagnas=compute_lagnams)
+  panchaanga = jyotisha.panchaanga.spatio_temporal.annual.get_panchaanga_for_civil_year(city=city, year=year)
 
-  emit(panchaanga, compute_lagnams, scripts=scripts)
+  emit(panchaanga, scripts=scripts)
   # panchaanga.writeDebugLog()
 
 

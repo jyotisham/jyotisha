@@ -8,6 +8,7 @@ from sanskrit_data.schema import common
 
 class Interval(common.JsonObject):
   def __init__(self, jd_start, jd_end, name=None):
+    super(Interval, self).__init__()
     self.jd_start = jd_start
     self.jd_end = jd_end
     self.name = name
@@ -15,10 +16,27 @@ class Interval(common.JsonObject):
   def to_tuple(self):
     return (self.jd_start, self.jd_end)
 
+  def __str__(self):
+    from jyotisha.panchaanga.temporal import time
+    return "%s: (%s, %s)" % ("?" if self.name is None else self.name, default_if_none(time.ist_timezone.julian_day_to_local_time_str(jd=self.jd_start), "?"),
+default_if_none(time.ist_timezone.julian_day_to_local_time_str(jd=self.jd_end), "?"))
+
   def get_boundary_angas(self, anga_type, ayanaamsha_id):
     from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision
-    f = lambda x: NakshatraDivision(x, ayanaamsha_id=ayanaamsha_id).get_anga(anga_type=anga_type)
-    return (f(self.jd_start), f(self.jd_end))
+    def f(x): 
+      if x is None:
+        return None
+      else:
+        return NakshatraDivision(x, ayanaamsha_id=ayanaamsha_id).get_anga(anga_type=anga_type)
+
+    from jyotisha.panchaanga.temporal.zodiac.angas import BoundaryAngas
+    return BoundaryAngas(start=f(self.jd_start), end=f(self.jd_end), interval=self)
+
+
+class AngaSpan(Interval):
+  def __init__(self, jd_start, jd_end, anga):
+    super(AngaSpan, self).__init__(jd_start=jd_start, jd_end=jd_end, name=None)
+    self.anga = anga
 
   def __str__(self):
     from jyotisha.panchaanga.temporal import time
@@ -32,9 +50,8 @@ class DayLengthBasedPeriods(common.JsonObject):
   def __init__(self, jd_previous_sunset, jd_sunrise, jd_sunset, jd_next_sunrise, weekday):
     # Compute the various day_length_based_periods
     # Sunrise/sunset and related stuff (like rahu, yama)
-    if self.day_length_based_periods is not None:
-      return self.day_length_based_periods
 
+    super().__init__()
     YAMAGANDA_OCTETS = [4, 3, 2, 1, 0, 6, 5]
     RAHUKALA_OCTETS = [7, 1, 6, 4, 5, 3, 2]
     GULIKAKALA_OCTETS = [6, 5, 4, 3, 2, 1, 0]
@@ -68,6 +85,9 @@ class DayLengthBasedPeriods(common.JsonObject):
     self.shayana = get_interval(jd_sunset, jd_next_sunrise, 3, 8)
     self.dinaanta = get_interval(jd_sunset, jd_next_sunrise, 5, 8)
 
+    for attr_name, obj in self.__dict__.items():
+      if isinstance(obj, Interval):
+        obj.name = attr_name
 
 
 class TbSayanaMuhuurta(Interval):
@@ -92,7 +112,7 @@ class TbSayanaMuhuurta(Interval):
                                                                  julian_day=self.jd_end, round_seconds=True))
 
 
-def get_interval(start_jd, end_jd, part_index, num_parts):
+def get_interval(start_jd, end_jd, part_index, num_parts, name=None):
   """Get start and end time of a given interval in a given span with specified fractions
 
   Args:
@@ -115,7 +135,7 @@ def get_interval(start_jd, end_jd, part_index, num_parts):
   start_time = start_jd + (end_jd - start_jd) * start_fraction
   end_time = start_jd + (end_jd - start_jd) * end_fraction
 
-  return Interval(start_time, end_time)
+  return Interval(jd_start=start_time, jd_end=end_time, name=name)
 
 
 # Essential for depickling to work.

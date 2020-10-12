@@ -12,7 +12,7 @@ from jyotisha.panchaanga.temporal.interval import DayLengthBasedPeriods
 from jyotisha.panchaanga.temporal.month import LunarMonthAssigner
 from jyotisha.panchaanga.temporal.time import Timezone, Date
 from jyotisha.panchaanga.temporal.zodiac import Ayanamsha, NakshatraDivision, AngaSpanFinder
-from jyotisha.panchaanga.temporal.zodiac.angas import AngaType
+from jyotisha.panchaanga.temporal.zodiac.angas import AngaType, Anga
 from jyotisha.util import default_if_none
 from sanskrit_data.schema import common
 from scipy.optimize import brentq
@@ -37,7 +37,7 @@ class DayAngas(common.JsonObject):
     self.karanas_with_ends = None
     self.raashis_with_ends = None
 
-  def find_anga(self, anga_type, anga_id):
+  def get_angas_with_ends(self, anga_type):
     anga_spans = []
     if anga_type == AngaType.NAKSHATRA:
       anga_spans = self.nakshatras_with_ends
@@ -49,9 +49,12 @@ class DayAngas(common.JsonObject):
       anga_spans = self.rashis_with_ends
     elif anga_type == AngaType.KARANA:
       anga_spans = self.karanas_with_ends
-    for anga in anga_spans:
-      if anga.name == anga_id:
-        return anga
+    return anga_spans
+
+  def find_anga_span(self, anga):
+    for anga_span in self.get_angas_with_ends(anga_type=anga.get_type()):
+      if anga_span.anga == anga:
+        return anga_span
     return None
 
 
@@ -145,13 +148,13 @@ class DailyPanchaanga(common.JsonObject):
       self.sunrise_day_angas = DayAngas()
       # Deliberately passing ASHVINI_STARTING_0 below since it is cheapest. Tithi is independent of ayanAmsha. 
       self.sunrise_day_angas.tithis_with_ends = AngaSpanFinder.get_cached(ayanaamsha_id=Ayanamsha.ASHVINI_STARTING_0, anga_type=zodiac.AngaType.TITHI).get_all_angas_in_period(jd1=self.jd_sunrise, jd2=self.jd_next_sunrise)
-      self.sunrise_day_angas.tithi_at_sunrise = self.sunrise_day_angas.tithis_with_ends[0].name
+      self.sunrise_day_angas.tithi_at_sunrise = self.sunrise_day_angas.tithis_with_ends[0].anga
       
       self.sunrise_day_angas.nakshatras_with_ends = AngaSpanFinder.get_cached(ayanaamsha_id=self.computation_system.ayanaamsha_id, anga_type=zodiac.AngaType.NAKSHATRA).get_all_angas_in_period(jd1=self.jd_sunrise, jd2=self.jd_next_sunrise)
-      self.sunrise_day_angas.nakshatra_at_sunrise = self.sunrise_day_angas.nakshatras_with_ends[0].name
+      self.sunrise_day_angas.nakshatra_at_sunrise = self.sunrise_day_angas.nakshatras_with_ends[0].anga
       
       self.sunrise_day_angas.yogas_with_ends = AngaSpanFinder.get_cached(ayanaamsha_id=self.computation_system.ayanaamsha_id, anga_type=zodiac.AngaType.YOGA).get_all_angas_in_period(jd1=self.jd_sunrise, jd2=self.jd_next_sunrise)
-      self.sunrise_day_angas.yoga_at_sunrise = self.sunrise_day_angas.yogas_with_ends[0].name
+      self.sunrise_day_angas.yoga_at_sunrise = self.sunrise_day_angas.yogas_with_ends[0].anga
       
       self.sunrise_day_angas.karanas_with_ends = AngaSpanFinder.get_cached(ayanaamsha_id=self.computation_system.ayanaamsha_id, anga_type=zodiac.AngaType.KARANA).get_all_angas_in_period(jd1=self.jd_sunrise, jd2=self.jd_next_sunrise)
       
@@ -192,7 +195,7 @@ class DailyPanchaanga(common.JsonObject):
     else:
       solar_sidereal_month_day_sunset = previous_day_panchaanga.solar_sidereal_date_sunset.day + 1
     from jyotisha.panchaanga.temporal import time
-    self.solar_sidereal_date_sunset = time.BasicDateWithTransitions(month=solar_month_sunset, day=solar_sidereal_month_day_sunset, month_transition=solar_sidereal_month_end_jd)
+    self.solar_sidereal_date_sunset = time.BasicDateWithTransitions(month=solar_month_sunset.index, day=solar_sidereal_month_day_sunset, month_transition=solar_sidereal_month_end_jd)
 
   def set_tropical_date_sunset(self, previous_day_panchaanga=None):
     month_transition_jd = None
@@ -216,14 +219,11 @@ class DailyPanchaanga(common.JsonObject):
 
   def set_lunar_month_sunrise(self, month_assigner, previous_day_panchaanga=None):
     if previous_day_panchaanga is not None:
-      anga = previous_day_panchaanga.sunrise_day_angas.find_anga(anga_type=AngaType.TITHI, anga_id=1)
-      if anga is not None and month_assigner is not None:
+      span = previous_day_panchaanga.sunrise_day_angas.find_anga_span(Anga.get_cached(anga_type_id=AngaType.TITHI.name, index=1))
+      if span is not None or self.sunrise_day_angas.tithi_at_sunrise.index == 1:
         self.lunar_month_sunrise = month_assigner.get_month_sunrise(daily_panchaanga=self)
       else:
-        if self.sunrise_day_angas.tithi_at_sunrise == 1 and month_assigner is not None:
-          self.lunar_month_sunrise = month_assigner.get_month_sunrise(daily_panchaanga=self)
-        else:
-          self.lunar_month_sunrise = previous_day_panchaanga.lunar_month_sunrise
+        self.lunar_month_sunrise = previous_day_panchaanga.lunar_month_sunrise
     else:
       if  month_assigner is not None:
         self.lunar_month_sunrise = month_assigner.get_month_sunrise(daily_panchaanga=self)

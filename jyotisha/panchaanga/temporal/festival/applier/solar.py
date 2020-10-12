@@ -30,7 +30,7 @@ class SolarFestivalAssigner(FestivalAssigner):
       if self.daily_panchaangas[d].solar_sidereal_date_sunset.month == 12 and self.daily_panchaangas[d].solar_sidereal_date_sunset.day == 1:
         festival_name = 'kAraDaiyAn2 nOn2bu'
         if NakshatraDivision(self.daily_panchaangas[d].jd_sunrise - (1 / 15.0) * (self.daily_panchaangas[d].jd_sunrise - self.daily_panchaangas[d - 1].jd_sunrise),
-                             ayanaamsha_id=self.ayanaamsha_id).get_solar_raashi() == 12:
+                             ayanaamsha_id=self.ayanaamsha_id).get_solar_raashi().index == 12:
           # If kumbha prevails two ghatikAs before sunrise, nombu can be done in the early morning itself, else, previous night.
           self.panchaanga.festival_id_to_days[festival_name] =  [self.daily_panchaangas[d - 1].date]
         else:
@@ -141,11 +141,11 @@ class SolarFestivalAssigner(FestivalAssigner):
       # 4th pada of vyatipatam, 1st pada of Amavasya, 2nd pada of Shravana, Suryodaya, Somavasara = Mahodayam
       sunrise_zodiac = NakshatraDivision(self.daily_panchaangas[d].jd_sunrise, ayanaamsha_id=self.ayanaamsha_id)
       sunset_zodiac = NakshatraDivision(self.daily_panchaangas[d].jd_sunset, ayanaamsha_id=self.ayanaamsha_id)
-      if self.daily_panchaangas[d].lunar_month_sunrise in [10, 11] and self.daily_panchaangas[d].sunrise_day_angas.tithi_at_sunrise == 30 or tithi.get_tithi(self.daily_panchaangas[d].jd_sunrise) == 30:
-        if sunrise_zodiac.get_anga(zodiac.AngaType.NAKSHATRA) == 17 or \
-            sunset_zodiac.get_anga(zodiac.AngaType.NAKSHATRA) == 17 and \
-            sunrise_zodiac.get_anga(zodiac.AngaType.NAKSHATRA) == 22 or \
-            sunset_zodiac.get_anga(zodiac.AngaType.NAKSHATRA) == 22:
+      if self.daily_panchaangas[d].lunar_month_sunrise.index in [10, 11] and self.daily_panchaangas[d].sunrise_day_angas.tithi_at_sunrise.index == 30 or tithi.get_tithi(self.daily_panchaangas[d].jd_sunrise).index == 30:
+        if sunrise_zodiac.get_anga(zodiac.AngaType.NAKSHATRA).index == 17 or \
+            sunset_zodiac.get_anga(zodiac.AngaType.NAKSHATRA).index == 17 and \
+            sunrise_zodiac.get_anga(zodiac.AngaType.NAKSHATRA).index == 22 or \
+            sunset_zodiac.get_anga(zodiac.AngaType.NAKSHATRA).index == 22:
           if self.daily_panchaangas[d].date.get_weekday() == 1:
             festival_name = 'mahOdaya-puNyakAlaH'
             self.add_festival(festival_name, d)

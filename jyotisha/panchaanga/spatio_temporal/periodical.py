@@ -63,7 +63,7 @@ class Panchaanga(common.JsonObject):
     nDays = self.duration_to_calculate
 
     # INITIALISE VARIABLES
-    self.date_str_to_panchaanga: dict = {}
+    self.date_str_to_panchaanga: dict[str, daily.DailyPanchaanga] = {}
 
     # Computing solar month details for Dec 31
     # rather than Jan 1, since we have an always increment

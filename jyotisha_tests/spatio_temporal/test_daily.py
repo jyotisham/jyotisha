@@ -4,9 +4,9 @@ import numpy.testing
 from jyotisha.panchaanga.spatio_temporal import City
 from jyotisha.panchaanga.spatio_temporal import daily
 from jyotisha.panchaanga.temporal import time
-from jyotisha.panchaanga.temporal.interval import Interval
+from jyotisha.panchaanga.temporal.interval import Interval, AngaSpan
 from jyotisha.panchaanga.temporal.time import Date
-from jyotisha.panchaanga.temporal.zodiac import AngaType
+from jyotisha.panchaanga.temporal.zodiac import AngaType, Anga
 
 from sanskrit_data import collection_helper
 
@@ -94,15 +94,15 @@ def test_get_anga_data_1981_12_23():
   # Sunrise : 2444961.542325165, Next sunrise: 2444962.542662345
   
   collection_helper.assert_approx_equals(panchaanga.sunrise_day_angas.tithis_with_ends, [
-    Interval(name=27, jd_end=2444961.5992132244, jd_start=None), Interval(name=28, jd_start=2444961.599213224, jd_end=None)], floating_point_precision=3)
+    AngaSpan(anga=Anga(index=27, anga_type_id=AngaType.TITHI.name), jd_end=2444961.5992132244, jd_start=None), AngaSpan(anga=Anga(index=28, anga_type_id=AngaType.TITHI.name), jd_start=2444961.599213224, jd_end=None)], floating_point_precision=3)
   
-  collection_helper.assert_approx_equals(panchaanga.sunrise_day_angas.nakshatras_with_ends, [Interval(name=16, jd_end=2444961.746925843, jd_start=None), Interval(name=17, jd_start=2444961.746925843, jd_end=None)], floating_point_precision=3)
+  collection_helper.assert_approx_equals(panchaanga.sunrise_day_angas.nakshatras_with_ends, [AngaSpan(anga=Anga(index=16, anga_type_id=AngaType.NAKSHATRA.name), jd_end=2444961.746925843, jd_start=None), AngaSpan(anga=Anga(index=17, anga_type_id=AngaType.NAKSHATRA.name), jd_start=2444961.746925843, jd_end=None)], floating_point_precision=3)
   
   collection_helper.assert_approx_equals(panchaanga.sunrise_day_angas.yogas_with_ends, [
-    Interval(name=8, jd_end=2444962.18276057, jd_start=None), Interval(name=9, jd_start=2444962.18276057, jd_end=None)], floating_point_precision=3)
+    AngaSpan(anga=Anga(index=8, anga_type_id=AngaType.YOGA.name), jd_end=2444962.18276057, jd_start=None), AngaSpan(anga=Anga(index=9, anga_type_id=AngaType.YOGA.name), jd_start=2444962.18276057, jd_end=None)], floating_point_precision=3)
   
   collection_helper.assert_approx_equals(panchaanga.sunrise_day_angas.karanas_with_ends, [
-    Interval(name=54, jd_end=2444961.5992132244, jd_start=None), Interval(name=55, jd_end=2444962.1544454526, jd_start=2444961.5992132244), Interval(name=56, jd_start=2444962.1544454526, jd_end=None)], floating_point_precision=3)
+    AngaSpan(anga=Anga(index=54, anga_type_id=AngaType.KARANA.name), jd_end=2444961.5992132244, jd_start=None), AngaSpan(anga=Anga(index=55, anga_type_id=AngaType.KARANA.name), jd_end=2444962.1544454526, jd_start=2444961.5992132244), AngaSpan(anga=Anga(index=56, anga_type_id=AngaType.KARANA.name), jd_start=2444962.1544454526, jd_end=None)], floating_point_precision=3)
 
 
 def test_get_lagna_data():

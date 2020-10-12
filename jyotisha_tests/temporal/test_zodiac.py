@@ -23,30 +23,30 @@ def test_get_anga():
 
   nd = NakshatraDivision(jd=time.ist_timezone.local_time_to_julian_day(Date(2018, 7, 14)), ayanaamsha_id=Ayanamsha.CHITRA_AT_180)
   assert nd.get_anga(
-    anga_type=AngaType.TITHI) == 1
+    anga_type=AngaType.TITHI).index == 1
 
   nd = NakshatraDivision(jd=time.ist_timezone.local_time_to_julian_day(Date(2018, 7, 14, 6, 1)), ayanaamsha_id=Ayanamsha.CHITRA_AT_180)
   assert nd.get_anga(
-    anga_type=AngaType.TITHI) == 2
+    anga_type=AngaType.TITHI).index == 2
 
   nd = NakshatraDivision(jd=time.ist_timezone.local_time_to_julian_day(Date(2018, 7, 13)), ayanaamsha_id=Ayanamsha.CHITRA_AT_180)
   assert nd.get_anga(
-    anga_type=AngaType.TITHI) == 30
+    anga_type=AngaType.TITHI).index == 30
   assert nd.get_anga(
-    anga_type=AngaType.SIDEREAL_MONTH) == 3
+    anga_type=AngaType.SIDEREAL_MONTH).index == 3
 
   # Just before meSha sankrAnti
   assert NakshatraDivision(jd=time.ist_timezone.local_time_to_julian_day(Date(2018, 4, 13)), ayanaamsha_id=Ayanamsha.CHITRA_AT_180).get_anga(
-    anga_type=AngaType.SIDEREAL_MONTH) == 12
+    anga_type=AngaType.SIDEREAL_MONTH).index == 12
 
 
   # 5:6:0.00 UT on December 23, 1981
   nd = NakshatraDivision(2444961.7125, ayanaamsha_id=Ayanamsha.CHITRA_AT_180)
-  assert nd.get_anga(AngaType.NAKSHATRA) == 16
-  assert nd.get_anga(AngaType.TITHI) == 28
-  assert nd.get_anga(AngaType.YOGA) == 8
-  assert nd.get_anga(AngaType.KARANA) == 55
-  assert nd.get_solar_raashi() == 9
+  assert nd.get_anga(AngaType.NAKSHATRA).index == 16
+  assert nd.get_anga(AngaType.TITHI).index == 28
+  assert nd.get_anga(AngaType.YOGA).index == 8
+  assert nd.get_anga(AngaType.KARANA).index == 55
+  assert nd.get_solar_raashi().index == 9
 
 def test_get_anga_span_solar_month():
   from jyotisha.panchaanga.temporal import time

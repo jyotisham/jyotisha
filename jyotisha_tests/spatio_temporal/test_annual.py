@@ -79,7 +79,7 @@ def test_adhika_maasa_computations_2009():
   panchaanga_2009 = annual.get_panchaanga_for_civil_year(city=city, year=2009,
                                                          allow_precomputed=False)
   expected_lunar_months_2009 = [7] + [8] * 29 + [9] * 30 + [10] * 15
-  assert expected_lunar_months_2009 == [x.lunar_month_sunrise for x in panchaanga_2009.daily_panchaangas_sorted()[291:366]]
+  assert expected_lunar_months_2009 == [x.lunar_month_sunrise.index for x in panchaanga_2009.daily_panchaangas_sorted()[291:366]]
 
 
 def test_adhika_maasa_computations_2010():
@@ -87,7 +87,7 @@ def test_adhika_maasa_computations_2010():
   panchaanga_2010 = annual.get_panchaanga_for_civil_year(city=city, year=2010,
                                                          allow_precomputed=False)
   expected_lunar_months_2010 = [10] * 15 + [11] * 30 + [12] * 29 + [1] * 30 + [1.5] * 30 + [2] * 29 + [3]
-  assert expected_lunar_months_2010 == [x.lunar_month_sunrise for x in panchaanga_2010.daily_panchaangas_sorted()[1:165]]
+  assert expected_lunar_months_2010 == [x.lunar_month_sunrise.index for x in panchaanga_2010.daily_panchaangas_sorted()[1:165]]
 
 
 def test_adhika_maasa_computations_2018():
@@ -95,7 +95,7 @@ def test_adhika_maasa_computations_2018():
   panchaanga_2018 = annual.get_panchaanga_for_civil_year(city=city, year=2018,
                                                          allow_precomputed=False)
   expected_lunar_months_2018 = [2] + [2.5] * 29 + [3] * 30 + [4]
-  assert expected_lunar_months_2018 == [x.lunar_month_sunrise for x in panchaanga_2018.daily_panchaangas_sorted()[135:196]]
+  assert expected_lunar_months_2018 == [x.lunar_month_sunrise.index for x in panchaanga_2018.daily_panchaangas_sorted()[135:196]]
 
 
 def test_orinda_ca_dst_2019():

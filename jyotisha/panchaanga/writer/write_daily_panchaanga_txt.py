@@ -191,7 +191,7 @@ def writeDailyText(panchaanga, time_format="hh:mm", script=sanscript.DEVANAGARI,
 
     yoga_data_str = ''
     for yoga_span in daily_panchaanga.sunrise_day_angas.yogas_with_ends:
-      (yoga_ID, yoga_end_jd) = (yoga_span.name, yoga_span.jd_end)
+      (yoga_ID, yoga_end_jd) = (yoga_span.anga.index, yoga_span.jd_end)
       # if yoga_data_str != '':
       #     yoga_data_str += ' '
       yoga = jyotisha.names.NAMES['YOGA_NAMES'][script][yoga_ID]
@@ -210,7 +210,7 @@ def writeDailyText(panchaanga, time_format="hh:mm", script=sanscript.DEVANAGARI,
 
     karana_data_str = ''
     for numKaranam, karaNa_span in enumerate(daily_panchaanga.sunrise_day_angas.karanas_with_ends):
-      (karana_ID, karana_end_jd) = (karaNa_span.name, karaNa_span.jd_end)
+      (karana_ID, karana_end_jd) = (karaNa_span.anga.index, karaNa_span.jd_end)
       # if numKaranam == 1:
       #     karana_data_str += ' '
       karana = jyotisha.names.NAMES['KARANA_NAMES'][script][karana_ID]
@@ -445,8 +445,7 @@ def main():
 
   city = City(city_name, latitude, longitude, tz)
 
-  panchaanga = annual.get_panchaanga_for_civil_year(city=city, year=year,
-                                                    compute_lagnas=compute_lagnams)
+  panchaanga = annual.get_panchaanga_for_civil_year(city=city, year=year)
 
   panchaanga.update_festival_details()
 
