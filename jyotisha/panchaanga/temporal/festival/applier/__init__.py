@@ -43,13 +43,7 @@ class FestivalAssigner(PeriodicPanchaangaApplier):
       [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
 
       for rule in festival_rules:
-        assert isinstance(rule, rules.HinduCalendarEvent), rule
-        if rule.timing.month_type is None and rule.description_short is not None:
-          # Maybe only description of the festival is given, as computation has been
-          # done in computeFestivals(), without using a rule in festival_rules.json!
-            continue
-        else:
-          self.assign_festival(fest_rule=rule, d=d)
+        self.assign_festival(fest_rule=rule, d=d)
 
   def assign_sidereal_solar_day_fest(self, fest_rule, d):
     festival_name = fest_rule.id
@@ -463,6 +457,11 @@ class MiscFestivalAssigner(FestivalAssigner):
     # festival_rules = get_festival_rules_dict(os.path.join(CODE_ROOT, 'panchaanga/data/festival_rules_test.json'))
     festival_rules = [x for x in self.rules_collection.name_to_rule.values() if x.timing is not None and x.timing.month_type is not None]
     def unassigned_fest_filter(x):
+      if x.timing.month_type is None and x.description_short is not None:
+      # Maybe only description of the festival is given, as computation has been
+      # done in computeFestivals(), without using a rule in festival_rules.json!
+        return False
+      
       if x.month_type == rules.RulesRepo.SIDEREAL_SOLAR_MONTH_DIR and x.anga_type in (rules.RulesRepo.DAY_DIR and x.kaala != "arunodaya"):
         return False
       # if month_type == rules.RulesRepo.SIDEREAL_SOLAR_MONTH_DIR and anga_type in (rules.RulesRepo.TITHI_DIR) and fest_rule.timing.get_priority() == "puurvaviddha" and fest_rule.timing.get_kaala() == "sunrise":
