@@ -455,23 +455,19 @@ class MiscFestivalAssigner(FestivalAssigner):
     self.assign_agni_nakshatra()
     # ASSIGN ALL FESTIVALS FROM adyatithi submodule
     # festival_rules = get_festival_rules_dict(os.path.join(CODE_ROOT, 'panchaanga/data/festival_rules_test.json'))
-    festival_rules = [x for x in self.rules_collection.name_to_rule.values() if x.timing is not None and x.timing.month_type is not None]
-    def unassigned_fest_filter(x):
-      if x.timing.month_type is None and x.description_short is not None:
+    def to_be_assigned(x):
+      if x.timing is None or x.timing.month_type is None:
       # Maybe only description of the festival is given, as computation has been
       # done in computeFestivals(), without using a rule in festival_rules.json!
         return False
       
-      if x.month_type == rules.RulesRepo.SIDEREAL_SOLAR_MONTH_DIR and x.anga_type in (rules.RulesRepo.DAY_DIR and x.kaala != "arunodaya"):
+      if x.timing.month_type == rules.RulesRepo.SIDEREAL_SOLAR_MONTH_DIR and x.timing.anga_type in (rules.RulesRepo.DAY_DIR):
         return False
-      # if month_type == rules.RulesRepo.SIDEREAL_SOLAR_MONTH_DIR and anga_type in (rules.RulesRepo.TITHI_DIR) and fest_rule.timing.get_priority() == "puurvaviddha" and fest_rule.timing.get_kaala() == "sunrise":
-      #   return 
-      else:
-        return True
- 
-    festival_rules = [x for x in festival_rules if unassigned_fest_filter(x)]
-    # assert "tripurOtsavaH" in festival_rules
-    self.assign_festivals_from_rules(festival_rules)
+      return True
+    festival_rules_dict = {k: v for k, v in self.rules_collection.name_to_rule.items() if to_be_assigned(v)}
+    assert "viSukkan2i" not in festival_rules_dict
+    assert "kar2pagAmbAL–kapAlIzvarar tirukkalyANam" in festival_rules_dict
+    self.assign_festivals_from_rules(festival_rules_dict.values())
     
 
   def assign_agni_nakshatra(self):

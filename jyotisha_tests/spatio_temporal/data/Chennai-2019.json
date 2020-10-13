@@ -33085,6 +33085,10 @@
         "vasantanavarAtra-samApanam": {
           "jsonClass": "FestivalInstance",
           "name": "vasantanavarAtra-samApanam"
+        },
+        "viSukkan2i": {
+          "jsonClass": "FestivalInstance",
+          "name": "viSukkan2i"
         }
       },
       "jd_moonrise": 2458587.8341,
@@ -33428,10 +33432,6 @@
         "smArta-kAmadA-EkAdazI": {
           "jsonClass": "FestivalInstance",
           "name": "smArta-kAmadA-EkAdazI"
-        },
-        "viSukkan2i": {
-          "jsonClass": "FestivalInstance",
-          "name": "viSukkan2i"
         }
       },
       "jd_moonrise": 2458588.8753,
@@ -130176,10 +130176,10 @@
     ],
     "viSukkan2i": [
       {
-        "day": 15,
+        "day": 14,
         "jsonClass": "Date",
         "month": 4,
-        "weekday": 1,
+        "weekday": 0,
         "year": 2019
       }
     ],

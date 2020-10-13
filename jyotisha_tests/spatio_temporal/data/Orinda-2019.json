@@ -102048,6 +102048,10 @@
           "jsonClass": "FestivalInstance",
           "name": "kRttikA-maNDala-pArAyaNam"
         },
+        "muDavan2 muzhukku": {
+          "jsonClass": "FestivalInstance",
+          "name": "muDavan2 muzhukku"
+        },
         "sindhu-Adi-puSkara-samApanam": {
           "jsonClass": "FestivalInstance",
           "name": "sindhu-Adi-puSkara-samApanam"
@@ -102374,10 +102378,6 @@
         "kArttigai~JAyir2r2ukkizhamai": {
           "jsonClass": "FestivalInstance",
           "name": "kArttigai~JAyir2r2ukkizhamai"
-        },
-        "muDavan2 muzhukku": {
-          "jsonClass": "FestivalInstance",
-          "name": "muDavan2 muzhukku"
         },
         "ravipuSyayOga-puNyakAlaH": {
           "jsonClass": "FestivalInstance",
@@ -126586,10 +126586,10 @@
     ],
     "muDavan2 muzhukku": [
       {
-        "day": 17,
+        "day": 16,
         "jsonClass": "Date",
         "month": 11,
-        "weekday": 0,
+        "weekday": 6,
         "year": 2019
       }
     ],

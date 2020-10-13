@@ -33177,6 +33177,10 @@
         "paJcAGga-paThanam": {
           "jsonClass": "FestivalInstance",
           "name": "paJcAGga-paThanam"
+        },
+        "viSukkan2i": {
+          "jsonClass": "FestivalInstance",
+          "name": "viSukkan2i"
         }
       },
       "jd_moonrise": 2458223.4886,
@@ -33495,10 +33499,6 @@
         "vaidhRti-zrAddham": {
           "jsonClass": "FestivalInstance",
           "name": "vaidhRti-zrAddham"
-        },
-        "viSukkan2i": {
-          "jsonClass": "FestivalInstance",
-          "name": "viSukkan2i"
         }
       },
       "jd_moonrise": 2458224.5185,
@@ -130257,10 +130257,10 @@
     ],
     "viSukkan2i": [
       {
-        "day": 15,
+        "day": 14,
         "jsonClass": "Date",
         "month": 4,
-        "weekday": 0,
+        "weekday": 6,
         "year": 2018
       }
     ],

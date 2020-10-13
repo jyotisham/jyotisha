@@ -167,25 +167,11 @@ class DailySolarAssigner(DailyPanchaangaApplier):
     fest_dict = rule_set.get_month_anga_fests(month=panchaanga.solar_sidereal_date_sunset.month, anga=panchaanga.solar_sidereal_date_sunset.day, month_type=rules.RulesRepo.SIDEREAL_SOLAR_MONTH_DIR, anga_type_id=rules.RulesRepo.DAY_DIR)
     for fest_id, fest in fest_dict.items():
       kaala = fest.timing.get_kaala()
-      if kaala == "sunrise":
-        panchaanga.festival_id_to_instance[fest_id] = FestivalInstance(name=fest.id)
-      elif kaala == "arunodaya":
-        pass # Handled separately
-      else:
-        raise ValueError("%s %s " % (fest_id, kaala))
-    return
-
-    # Assign aruNodaya solar sidereal day fests. Previous day's sunset solar month and day will generally hold.
-    fest_dict = rule_set.get_month_anga_fests(month=previous_day_panchaanga.solar_sidereal_date_sunset.month, anga=previous_day_panchaanga.solar_sidereal_date_sunset.day, month_type=rules.RulesRepo.SIDEREAL_SOLAR_MONTH_DIR, anga_type_id=rules.RulesRepo.DAY_DIR)
-    for fest_id, fest in fest_dict.items():
-      kaala = fest.timing.get_kaala()
-      if kaala == "sunrise":
-        pass # Handled separately
-      elif kaala == "preceeding_arunodaya":
+      if kaala == "arunodaya":
+        # Assign aruNodaya solar sidereal day fests, since they refer to the preceeding dawn.
         panchaanga.festival_id_to_instance[fest_id] = FestivalInstance(name=fest.id)
       else:
-        raise ValueError("Unhandled - %s %s " % (fest_id, kaala))
-    return
+        panchaanga.festival_id_to_instance[fest_id] = FestivalInstance(name=fest.id)
 
 
 # Essential for depickling to work.

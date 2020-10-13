@@ -4851,6 +4851,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Viṣukkani
+DTSTART;VALUE=DATE:20190414
+DTEND;VALUE=DATE:20190415
+DESCRIPTION:Observed on day 1 of Meṣaḥ (solar) month (arunodaya/puurva
+ viddha (default)).<br/><br/><br/>https%3A//github.com/sanskrit-coders/adya
+ tithi/tree/master/tamil/sidereal_solar_month/day/01/01/viSukkan2i__info.to
+ ml<br/><br/>#CommonFestivals #SunSankranti
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Dharmarāja-Daśamī
 DTSTART;VALUE=DATE:20190415
 DTEND;VALUE=DATE:20190416
@@ -4893,22 +4909,6 @@ DESCRIPTION:The Shukla-paksha Ekadashi of chaitra month is known as kāmad
  ā-ekādaśī.<br/><br/>https%3A//github.com/sanskrit-coders/adyatithi/tre
  e/master/general/description_only/MonthlyVratam/EkadashiVratam/kAmadA-EkAd
  azI__info.toml<br/><br/>#MonthlyVratam #EkadashiVratam
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Viṣukkani
-DTSTART;VALUE=DATE:20190415
-DTEND;VALUE=DATE:20190416
-DESCRIPTION:Observed on day 1 of Meṣaḥ (solar) month (arunodaya/puurva
- viddha (default)).<br/><br/><br/>https%3A//github.com/sanskrit-coders/adya
- tithi/tree/master/tamil/sidereal_solar_month/day/01/01/viSukkan2i__info.to
- ml<br/><br/>#CommonFestivals #SunSankranti
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE

@@ -23,6 +23,8 @@ set_constants()
 
 class Panchaanga(common.JsonObject):
   """This class enables the construction of a panchaanga for arbitrary periods, with festival_id_to_instance.
+  
+    Generally, which days is a given festival associated with (esp pre-sunrise events)? We follow the same conventions as the adyatithi repo.
     """
   LATEST_VERSION = "0.0.4"
 
@@ -256,7 +258,7 @@ class Panchaanga(common.JsonObject):
     daily_panchaangas = self.daily_panchaangas_sorted()[1:self.duration+1]
     for index, dp in enumerate(daily_panchaangas):
       dp.assign_festivals(previous_day_panchaanga=daily_panchaangas[index-1])
-    # return 
+    self._sync_festivals_dict_and_daily_festivals(here_to_daily=False, daily_to_here=True)
     TithiAssigner(panchaanga=self).assign_shraaddha_tithi()
     applier.MiscFestivalAssigner(panchaanga=self).assign_all(debug=debug)
     ecliptic.EclipticFestivalAssigner(panchaanga=self).assign_all(debug=debug)
@@ -265,23 +267,25 @@ class Panchaanga(common.JsonObject):
     vaara.VaraFestivalAssigner(panchaanga=self).assign_all(debug=debug)
     applier.MiscFestivalAssigner(panchaanga=self).cleanup_festivals(debug=debug)
     applier.MiscFestivalAssigner(panchaanga=self).assign_relative_festivals()
-    self._sync_festivals_dict_and_daily_festivals()
+    self._sync_festivals_dict_and_daily_festivals(here_to_daily=True, daily_to_here=True)
     applier.MiscFestivalAssigner(panchaanga=self).assign_festival_numbers()
 
 
-  def _sync_festivals_dict_and_daily_festivals(self):
-    for festival_id, days in self.festival_id_to_days.items():
-      for fest_day in days:
-        fest_day_str = fest_day.get_date_str()
-        if fest_day_str in self.date_str_to_panchaanga:
-          self.date_str_to_panchaanga[fest_day_str].festival_id_to_instance[festival_id] =  FestivalInstance(name=festival_id)
+  def _sync_festivals_dict_and_daily_festivals(self, here_to_daily=False, daily_to_here=True):
+    if here_to_daily:
+      for festival_id, days in self.festival_id_to_days.items():
+        for fest_day in days:
+          fest_day_str = fest_day.get_date_str()
+          if fest_day_str in self.date_str_to_panchaanga:
+            self.date_str_to_panchaanga[fest_day_str].festival_id_to_instance[festival_id] =  FestivalInstance(name=festival_id)
 
-    for dp in self.date_str_to_panchaanga.values():
-      for fest in dp.festival_id_to_instance.values():
-        days = self.festival_id_to_days.get(fest.name, [])
-        if dp.date not in days:
-          days.append(dp.date)
-        self.festival_id_to_days[fest.name] = days
+    if daily_to_here:
+      for dp in self.date_str_to_panchaanga.values():
+        for fest in dp.festival_id_to_instance.values():
+          days = self.festival_id_to_days.get(fest.name, [])
+          if dp.date not in days:
+            days.append(dp.date)
+          self.festival_id_to_days[fest.name] = days
 
   def _reset_festivals(self):
     self.festival_id_to_days = {}
