@@ -181,7 +181,7 @@ class DailySolarAssigner(DailyPanchaangaApplier):
       kaala = fest.timing.get_kaala()
       if kaala == "sunrise":
         pass # Handled separately
-      elif kaala == "arunodaya":
+      elif kaala == "preceeding_arunodaya":
         panchaanga.festival_id_to_instance[fest_id] = FestivalInstance(name=fest.id)
       else:
         raise ValueError("Unhandled - %s %s " % (fest_id, kaala))

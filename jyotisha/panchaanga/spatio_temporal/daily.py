@@ -65,8 +65,10 @@ class DayAngas(common.JsonObject):
 
 # This class is not named Panchangam in order to be able to disambiguate from annual.Panchangam in serialized objects.
 class DailyPanchaanga(common.JsonObject):
-  """This class enables the construction of a panchaanga
-    """
+  """This class enables the construction of a panchaanga.
+  
+  For comments on matching pre-sunrise festivals with days, see periodic panchaanga.
+  """
 
   @classmethod
   def from_city_and_julian_day(cls, city, julian_day, computation_system: ComputationSystem = None):
