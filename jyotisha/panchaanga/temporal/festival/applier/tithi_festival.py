@@ -19,18 +19,18 @@ from sanskrit_data.schema import common
 
 
 class TithiFestivalAssigner(FestivalAssigner):
-  def assign_all(self, debug=False):
-    self.assign_chandra_darshanam(debug_festivals=debug)
-    self.assign_chaturthi_vratam(debug_festivals=debug)
-    self.assign_shasthi_vratam(debug_festivals=debug)
-    self.assign_vishesha_saptami(debug_festivals=debug)
-    self.assign_ekaadashii_vratam(debug_festivals=debug)
-    self.assign_mahaadvaadashii(debug_festivals=debug)
-    self.assign_pradosha_vratam(debug_festivals=debug)
-    self.assign_vishesha_trayodashi(debug_festivals=debug)
-    self.assign_amavasya_yoga(debug_festivals=debug)
+  def assign_all(self):
+    self.assign_chandra_darshanam()
+    self.assign_chaturthi_vratam()
+    self.assign_shasthi_vratam()
+    self.assign_vishesha_saptami()
+    self.assign_ekaadashii_vratam()
+    self.assign_mahaadvaadashii()
+    self.assign_pradosha_vratam()
+    self.assign_vishesha_trayodashi()
+    self.assign_amavasya_yoga()
   
-  def assign_chaturthi_vratam(self, debug_festivals=False):
+  def assign_chaturthi_vratam(self):
     for d in range(1, self.panchaanga.duration + 1):
       [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
 
@@ -91,7 +91,7 @@ class TithiFestivalAssigner(FestivalAssigner):
                   name=chaturthi_name + 'mahAsaGkaTahara-caturthI-vratam')
                 self.daily_panchaangas[d + 1].festival_id_to_instance[fest.name] = fest
 
-  def assign_shasthi_vratam(self, debug_festivals=False):
+  def assign_shasthi_vratam(self):
     for d in range(1, self.panchaanga.duration + 1):
       [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
       # # SHASHTHI Vratam
@@ -137,7 +137,7 @@ class TithiFestivalAssigner(FestivalAssigner):
             else:
               self.add_festival(festival_name, d)
 
-  def assign_vishesha_saptami(self, debug_festivals=False):
+  def assign_vishesha_saptami(self):
     for d in range(1, self.panchaanga.duration + 1):
       [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
 
@@ -161,7 +161,7 @@ class TithiFestivalAssigner(FestivalAssigner):
         if self.daily_panchaangas[d].sunrise_day_angas.tithi_at_sunrise.index == 7:
           self.add_festival('mahAjayA~saptamI', d)
 
-  def assign_ekaadashii_vratam(self, debug_festivals=False):
+  def assign_ekaadashii_vratam(self):
     for d in range(1, self.panchaanga.duration + 1):
       [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
 
@@ -279,7 +279,7 @@ class TithiFestivalAssigner(FestivalAssigner):
           fest = FestivalInstance(name='harivAsaraH', interval=Interval(jd_start=None, jd_end=harivasara_end))
           self.daily_panchaangas[int(fday_hv)].festival_id_to_instance[fest.name] =  fest
 
-  def assign_mahaadvaadashii(self, debug_festivals=False):
+  def assign_mahaadvaadashii(self):
     for d in range(1, self.panchaanga.duration + 1):
       [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
       # 8 MAHA DWADASHIS
@@ -340,7 +340,7 @@ class TithiFestivalAssigner(FestivalAssigner):
       if self.daily_panchaangas[d].sunrise_day_angas.nakshatra_at_sunrise.index == 22 and (self.daily_panchaangas[d].sunrise_day_angas.tithi_at_sunrise.index % 15) == 12:
         self.add_festival('vijayA/zravaNa-mahAdvAdazI', d)
 
-  def assign_pradosha_vratam(self, debug_festivals=False):
+  def assign_pradosha_vratam(self):
     for d in range(1, self.panchaanga.duration + 1):
       [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
       # compute offset from UTC in hours
@@ -359,7 +359,7 @@ class TithiFestivalAssigner(FestivalAssigner):
           pref = 'zani-'
         self.add_festival(pref + 'pradOSa-vratam', fday)
 
-  def assign_amavasya_yoga(self, debug_festivals=False):
+  def assign_amavasya_yoga(self):
     if 'amAvAsyA' not in self.panchaanga.festival_id_to_days:
       logging.error('Must compute amAvAsyA before coming here!')
     else:
@@ -429,7 +429,7 @@ class TithiFestivalAssigner(FestivalAssigner):
           self.add_festival(festival_name, d)
           logging.debug('* %d-%02d-%02d> %s!' % (y, m, dt, festival_name))
 
-  def assign_chandra_darshanam(self, debug_festivals=False):
+  def assign_chandra_darshanam(self):
     for d in range(1, self.panchaanga.duration + 1):
       [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
       # Chandra Darshanam
@@ -446,7 +446,7 @@ class TithiFestivalAssigner(FestivalAssigner):
         elif tithi_sunset_tmrw == 2:
           self.daily_panchaangas[d + 1].festival_id_to_instance[fest.name] =  fest
 
-  def assign_vishesha_trayodashi(self, debug_festivals=False):
+  def assign_vishesha_trayodashi(self):
     for d in range(1, self.panchaanga.duration + 1):
       [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
       # VARUNI TRAYODASHI

@@ -17,7 +17,7 @@ from sanskrit_data.schema import common
 
 
 class EclipticFestivalAssigner(FestivalAssigner):
-  def assign_all(self, debug=False):
+  def assign_all(self):
     self.set_jupiter_transits()
     self.compute_solar_eclipses()
     self.compute_lunar_eclipses()

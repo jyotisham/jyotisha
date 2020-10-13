@@ -451,7 +451,7 @@ class MiscFestivalAssigner(FestivalAssigner):
     super(MiscFestivalAssigner, self).__init__(panchaanga=panchaanga)
 
 
-  def assign_all(self, debug=False):
+  def assign_all(self):
     self.assign_agni_nakshatra()
     # ASSIGN ALL FESTIVALS FROM adyatithi submodule
     # festival_rules = get_festival_rules_dict(os.path.join(CODE_ROOT, 'panchaanga/data/festival_rules_test.json'))

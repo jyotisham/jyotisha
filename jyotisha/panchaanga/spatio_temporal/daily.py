@@ -277,7 +277,7 @@ class DailyPanchaanga(common.JsonObject):
   def assign_festivals(self, previous_day_panchaanga, no_next_day_lookup=True):
     if previous_day_panchaanga is None:
       return
-    DailySolarAssigner(panchaanga=self, previous_day_panchaanga=previous_day_panchaanga).apply_month_day_events()
+    DailySolarAssigner(day_panchaanga=self, previous_day_panchaanga=previous_day_panchaanga).apply_month_day_events()
 
 
 # Essential for depickling to work.

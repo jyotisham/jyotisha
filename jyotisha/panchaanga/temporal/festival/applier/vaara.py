@@ -9,15 +9,15 @@ from sanskrit_data.schema import common
 
 
 class VaraFestivalAssigner(FestivalAssigner):
-  def assign_all(self, debug=False):
-    self.assign_bhriguvara_subrahmanya_vratam(debug_festivals=debug)
-    self.assign_masa_vara_yoga_vratam(debug_festivals=debug)
-    self.assign_nakshatra_vara_yoga_vratam(debug_festivals=debug)
-    self.assign_ayushman_bava_saumya_yoga(debug_festivals=debug)
-    self.assign_tithi_vara_yoga(debug_festivals=debug)
+  def assign_all(self):
+    self.assign_bhriguvara_subrahmanya_vratam()
+    self.assign_masa_vara_yoga_vratam()
+    self.assign_nakshatra_vara_yoga_vratam()
+    self.assign_ayushman_bava_saumya_yoga()
+    self.assign_tithi_vara_yoga()
 
 
-  def assign_bhriguvara_subrahmanya_vratam(self, debug_festivals=False):
+  def assign_bhriguvara_subrahmanya_vratam(self):
     for d in range(1, self.panchaanga.duration + 1):
       [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
 
@@ -29,7 +29,7 @@ class VaraFestivalAssigner(FestivalAssigner):
           # https://youtu.be/rgXwyo0L3i8?t=222
           self.add_festival(festival_name, d)
 
-  def assign_masa_vara_yoga_vratam(self, debug_festivals=False):
+  def assign_masa_vara_yoga_vratam(self):
     for d in range(1, self.panchaanga.duration + 1):
 
       # KRTTIKA SOMAVASARA
@@ -46,7 +46,7 @@ class VaraFestivalAssigner(FestivalAssigner):
         if self.daily_panchaangas[d].solar_sidereal_date_sunset.month == mwd_fest_m and self.daily_panchaangas[d].date.get_weekday() == mwd_fest_wd:
           self.add_festival(mwd_fest_name, d)
 
-  def assign_tithi_vara_yoga(self, debug_festivals=False):
+  def assign_tithi_vara_yoga(self):
     for d in range(1, self.panchaanga.duration + 1):
       [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
 
@@ -67,7 +67,7 @@ class VaraFestivalAssigner(FestivalAssigner):
         self.add_festival('budhASTamI', d)
 
 
-  def assign_nakshatra_vara_yoga_vratam(self, debug_festivals=False):
+  def assign_nakshatra_vara_yoga_vratam(self):
     for d in range(1, self.panchaanga.duration + 1):
       [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
 
@@ -94,7 +94,7 @@ class VaraFestivalAssigner(FestivalAssigner):
             self.add_festival(nwd_fest_name, d)
 
 
-  def assign_ayushman_bava_saumya_yoga(self, debug_festivals=False):
+  def assign_ayushman_bava_saumya_yoga(self):
     for d in range(1, self.panchaanga.duration + 1):
       [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
 

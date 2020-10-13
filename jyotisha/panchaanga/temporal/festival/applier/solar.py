@@ -160,19 +160,27 @@ class SolarFestivalAssigner(FestivalAssigner):
 class DailySolarAssigner(DailyPanchaangaApplier):
   def apply_month_day_events(self):
     rule_set = rules.RulesCollection.get_cached(repos=tuple(self.computation_system.options.fest_repos))
-    panchaanga = self.panchaanga
+    day_panchaanga = self.day_panchaanga
+
+    # Assign sunrise solar sidereal day fests.
+    fest_dict = rule_set.get_month_anga_fests(month=day_panchaanga.solar_sidereal_date_sunset.month, anga=day_panchaanga.solar_sidereal_date_sunset.day, month_type=rules.RulesRepo.SIDEREAL_SOLAR_MONTH_DIR, anga_type_id=rules.RulesRepo.DAY_DIR)
+    for fest_id, fest in fest_dict.items():
+      day_panchaanga.festival_id_to_instance[fest_id] = FestivalInstance(name=fest.id)
+
+
+  def apply_month_anga_events(self, anga):
+    rule_set = rules.RulesCollection.get_cached(repos=tuple(self.computation_system.options.fest_repos))
+    day_panchaanga = self.day_panchaanga
     previous_day_panchaanga = self.previous_day_panchaanga
 
     # Assign sunrise solar sidereal day fests. Current day's sunset solar month and day will generally hold at sunrise.
-    fest_dict = rule_set.get_month_anga_fests(month=panchaanga.solar_sidereal_date_sunset.month, anga=panchaanga.solar_sidereal_date_sunset.day, month_type=rules.RulesRepo.SIDEREAL_SOLAR_MONTH_DIR, anga_type_id=rules.RulesRepo.DAY_DIR)
+    anga_type_id = anga.get_type().lower()
+    fest_dict = rule_set.get_month_anga_fests(month=day_panchaanga.solar_sidereal_date_sunset.month, anga=day_panchaanga.day_length_based_periods.get_attr(anga_type_id), month_type=rules.RulesRepo.SIDEREAL_SOLAR_MONTH_DIR, anga_type_id=anga_type_id)
     for fest_id, fest in fest_dict.items():
-      kaala = fest.timing.get_kaala()
-      if kaala == "arunodaya":
-        # Assign aruNodaya solar sidereal day fests, since they refer to the preceeding dawn.
-        panchaanga.festival_id_to_instance[fest_id] = FestivalInstance(name=fest.id)
-      else:
-        panchaanga.festival_id_to_instance[fest_id] = FestivalInstance(name=fest.id)
-
+      kaala = fest.get_kaala()
+      if kaala == "sunrise":
+        day_panchaanga.festival_id_to_instance[fest_id] = FestivalInstance(name=fest.id)
+    # TODO Incomplete
 
 # Essential for depickling to work.
 common.update_json_class_index(sys.modules[__name__])
