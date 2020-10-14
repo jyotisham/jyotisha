@@ -168,14 +168,15 @@ class DailySolarAssigner(DailyPanchaangaApplier):
       day_panchaanga.festival_id_to_instance[fest_id] = FestivalInstance(name=fest.id)
 
 
-  def apply_month_anga_events(self, anga):
+  def apply_month_anga_events_sunrise_puurvaviddha(self, anga_type):
     rule_set = rules.RulesCollection.get_cached(repos=tuple(self.computation_system.options.fest_repos))
     day_panchaanga = self.day_panchaanga
     previous_day_panchaanga = self.previous_day_panchaanga
 
-    # Assign sunrise solar sidereal day fests. Current day's sunset solar month and day will generally hold at sunrise.
-    anga_type_id = anga.get_type().lower()
-    fest_dict = rule_set.get_month_anga_fests(month=day_panchaanga.solar_sidereal_date_sunset.month, anga=day_panchaanga.day_length_based_periods.get_attr(anga_type_id), month_type=rules.RulesRepo.SIDEREAL_SOLAR_MONTH_DIR, anga_type_id=anga_type_id)
+    anga_type_id = anga_type.name.lower()
+    period = day_panchaanga.day_length_based_periods.get_attr(anga_type_id)
+    anga = period.get_boundary_angas()
+    fest_dict = rule_set.get_month_anga_fests(month=day_panchaanga.solar_sidereal_date_sunset.month, anga=anga, month_type=rules.RulesRepo.SIDEREAL_SOLAR_MONTH_DIR, anga_type_id=anga_type_id)
     for fest_id, fest in fest_dict.items():
       kaala = fest.get_kaala()
       if kaala == "sunrise":
