@@ -8,7 +8,7 @@ from jyotisha.panchaanga.temporal import time
 from jyotisha.panchaanga.temporal import zodiac
 from jyotisha.panchaanga.temporal.festival import rules, priority_decision
 from jyotisha.panchaanga.temporal.interval import Interval
-from jyotisha.panchaanga.temporal.zodiac.angas import AngaType, Anga
+from jyotisha.panchaanga.temporal.zodiac.angas import Anga
 from timebudget import timebudget
 
 from sanskrit_data.schema import common
@@ -39,31 +39,8 @@ class FestivalAssigner(PeriodicPanchaangaApplier):
   @timebudget
   def assign_festivals_from_rules(self, festival_rules):
     for d in range(1, self.panchaanga.duration + 1):
-      [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
-
       for rule in festival_rules:
         self.assign_festival(fest_rule=rule, d=d)
-
-  def assign_sidereal_solar_day_fest(self, fest_rule, d):
-    festival_name = fest_rule.id
-    month_type = fest_rule.timing.month_type
-    month_num = fest_rule.timing.month_number
-    anga_type = fest_rule.timing.anga_type
-    anga_num = fest_rule.timing.anga_number
-    kaala = fest_rule.timing.kaala
-    if month_type is None or month_num is None or anga_type is None or anga_num is None:
-      raise ValueError(str(fest_rule))
-    if self.daily_panchaangas[d].solar_sidereal_date_sunset.month == month_num:
-      if self.daily_panchaangas[d].solar_sidereal_date_sunset.day == anga_num:
-        if kaala == 'arunodaya':
-          prev_angas = self.daily_panchaangas[d-1].day_length_based_periods.arunodaya.get_boundary_angas(anga_type=AngaType.SIDEREAL_MONTH, ayanaamsha_id=self.ayanaamsha_id).to_tuple()
-          current_angas = self.daily_panchaangas[d].day_length_based_periods.arunodaya.get_boundary_angas(anga_type=AngaType.SIDEREAL_MONTH, ayanaamsha_id=self.ayanaamsha_id).to_tuple()
-          if prev_angas[1] == month_num:
-            self.add_to_festival_id_to_days(festival_name, d)
-          elif current_angas[0] == month_num:
-            self.add_to_festival_id_to_days(festival_name, d + 1)
-        else:
-          self.add_to_festival_id_to_days(festival_name, d)
 
   @timebudget
   def assign_festival(self, fest_rule, d):
@@ -86,9 +63,7 @@ class FestivalAssigner(PeriodicPanchaangaApplier):
         self.add_to_festival_id_to_days(festival_name, d)
         return 
 
-    if anga_type == 'day' and month_type == 'sidereal_solar_month': 
-      self.assign_sidereal_solar_day_fest(fest_rule=fest_rule, d=d)
-    elif (month_type == 'lunar_month' and ((self.daily_panchaangas[d].lunar_month_sunrise.index == month_num or month_num == 0) or (
+    if (month_type == 'lunar_month' and ((self.daily_panchaangas[d].lunar_month_sunrise.index == month_num or month_num == 0) or (
         (self.daily_panchaangas[d + 1].lunar_month_sunrise.index == month_num and anga_num == 1)))) or \
         (month_type == 'sidereal_solar_month' and (self.daily_panchaangas[d].solar_sidereal_date_sunset.month == month_num or month_num == 0)):
       self.assign_tithi_yoga_nakshatra_fest(fest_rule=fest_rule, d=d)
