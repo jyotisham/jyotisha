@@ -9,7 +9,7 @@ from numbers import Number
 import pytz
 from astropy.time import Time
 
-from jyotisha.util import zero_if_none
+from jyotisha.util import zero_if_none, default_if_none
 from sanskrit_data.schema import common
 from sanskrit_data.schema.common import JsonObject
 
@@ -98,6 +98,7 @@ def decypher_fractional_hours(time_in_hours):
 
 class BasicDate(JsonObject):
   def __init__(self, month, day, year=None):
+    super().__init__()
     self.year = year
     self.month = int(month)
     self.day = int(day)
@@ -113,6 +114,9 @@ class BasicDate(JsonObject):
 
   def __hash__(self):
     return hash(str(self))
+
+  def __eq__(self, other):
+    return str(self) == str(other)
 
 
 class BasicDateWithTransitions(BasicDate):
@@ -203,6 +207,9 @@ class Date(BasicDate):
       month = ((month - 1) % 12) + 1
     (self.year, self.month, self.day, self.hour, self.minute, self.second) = (year, month, day, hour, minute, second)
     return self.as_tuple()
+
+  def __repr__(self):
+    return "%s-%s-%s %s-%s-%s" % (default_if_none(str(self.year), "????"), default_if_none(str(self.month), "??"), default_if_none(str(self.day), "??"), default_if_none(str(self.hour), "??"), default_if_none(str(self.minute), "??"), default_if_none(str(self.second), "??"))
 
   def get_date_str(self):
     return super(Date, self).__repr__()

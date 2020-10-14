@@ -49,8 +49,8 @@ class SolarFestivalAssigner(FestivalAssigner):
           (samvatsara_id % 60) + 1] + \
                  '-' + 'saMvatsaraH' + ')'
         # self.panchaanga.festival_id_to_days[new_yr] = [d]
-        self.add_festival(new_yr, d)
-        self.add_festival('paJcAGga-paThanam', d)
+        self.add_to_festival_id_to_days(new_yr, d)
+        self.add_to_festival_id_to_days('paJcAGga-paThanam', d)
 
   def assign_vishesha_vyatipata(self):
     vs_list = self.panchaanga.festival_id_to_days.get('vyatIpAta-zrAddham', [])
@@ -59,11 +59,11 @@ class SolarFestivalAssigner(FestivalAssigner):
       if self.daily_panchaangas[d].solar_sidereal_date_sunset.month == 9:
         self.panchaanga.festival_id_to_days['vyatIpAta-zrAddham'].remove(date)
         festival_name = 'mahAdhanurvyatIpAta-zrAddham'
-        self.add_festival(festival_name, d)
+        self.add_to_festival_id_to_days(festival_name, d)
       elif self.daily_panchaangas[d].solar_sidereal_date_sunset.month == 6:
         self.panchaanga.festival_id_to_days['vyatIpAta-zrAddham'].remove(date)
         festival_name = 'mahAvyatIpAta-zrAddham'
-        self.add_festival(festival_name, d)
+        self.add_to_festival_id_to_days(festival_name, d)
 
   def assign_gajachhaya_yoga(self, debug_festivals=False):
     for d in range(1, self.panchaanga.duration + 1):
@@ -149,11 +149,11 @@ class SolarFestivalAssigner(FestivalAssigner):
             sunset_zodiac.get_anga(zodiac.AngaType.NAKSHATRA).index == 22:
           if self.daily_panchaangas[d].date.get_weekday() == 1:
             festival_name = 'mahOdaya-puNyakAlaH'
-            self.add_festival(festival_name, d)
+            self.add_to_festival_id_to_days(festival_name, d)
             # logging.debug('* %d-%02d-%02d> %s!' % (y, m, dt, festival_name))
           elif self.daily_panchaangas[d].date.get_weekday() == 0:
             festival_name = 'ardhOdaya-puNyakAlaH'
-            self.add_festival(festival_name, d)
+            self.add_to_festival_id_to_days(festival_name, d)
             # logging.debug('* %d-%02d-%02d> %s!' % (y, m, dt, festival_name))
 
 

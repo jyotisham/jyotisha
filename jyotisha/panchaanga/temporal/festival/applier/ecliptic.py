@@ -2,8 +2,6 @@ import sys
 from datetime import datetime
 from math import floor
 
-from pytz import timezone as tz
-
 from jyotisha import names
 from jyotisha.panchaanga.temporal import interval
 from jyotisha.panchaanga.temporal import time
@@ -11,8 +9,9 @@ from jyotisha.panchaanga.temporal.body import Graha
 from jyotisha.panchaanga.temporal.festival import FestivalInstance, TransitionFestivalInstance
 from jyotisha.panchaanga.temporal.festival.applier import FestivalAssigner
 from jyotisha.panchaanga.temporal.interval import Interval
-from jyotisha.panchaanga.temporal.time import Hour, Date
-from jyotisha.panchaanga.temporal.zodiac import AngaType, Ayanamsha
+from jyotisha.panchaanga.temporal.zodiac import AngaType
+from pytz import timezone as tz
+
 from sanskrit_data.schema import common
 
 
@@ -147,16 +146,16 @@ class EclipticFestivalAssigner(FestivalAssigner):
               fday_pushkara = fday
             else:
               fday_pushkara = fday + 1
-            self.add_festival(
+            self.add_to_festival_id_to_days(
               '%s-Adi-puSkara-ArambhaH' % names.NAMES['PUSHKARA_NAMES']['hk'][rashi2],
               fday_pushkara)
-            self.add_festival(
+            self.add_to_festival_id_to_days(
               '%s-Adi-puSkara-samApanam' % names.NAMES['PUSHKARA_NAMES']['hk'][rashi2],
               fday_pushkara + 11)
-            self.add_festival(
+            self.add_to_festival_id_to_days(
               '%s-antya-puSkara-samApanam' % names.NAMES['PUSHKARA_NAMES']['hk'][rashi1],
               fday_pushkara - 1)
-            self.add_festival(
+            self.add_to_festival_id_to_days(
               '%s-antya-puSkara-ArambhaH' % names.NAMES['PUSHKARA_NAMES']['hk'][rashi1],
               fday_pushkara - 12)
 
