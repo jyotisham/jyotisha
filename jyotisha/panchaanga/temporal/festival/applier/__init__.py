@@ -2,17 +2,16 @@ import logging
 import os
 import sys
 
-from jyotisha.panchaanga import temporal
 from jyotisha.panchaanga.temporal import festival
-from jyotisha.panchaanga.temporal import interval, PeriodicPanchaangaApplier, tithi
+from jyotisha.panchaanga.temporal import interval, PeriodicPanchaangaApplier
 from jyotisha.panchaanga.temporal import time
 from jyotisha.panchaanga.temporal import zodiac
 from jyotisha.panchaanga.temporal.festival import rules
 from jyotisha.panchaanga.temporal.interval import Interval
-from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision
-from sanskrit_data.schema import common
-from timebudget import timebudget
 from jyotisha.panchaanga.temporal.zodiac.angas import AngaType, Anga
+from timebudget import timebudget
+
+from sanskrit_data.schema import common
 
 DATA_ROOT = os.path.join(os.path.dirname(festival.__file__), "data")
 
@@ -120,6 +119,7 @@ class FestivalAssigner(PeriodicPanchaangaApplier):
 
   @classmethod
   def decide_paraviddha_priority(cls, d0_angas, d1_angas, target_anga):
+    # Doesn't seem to be equivalent to prior logic - hence not calling for now.
     prev_anga = target_anga - 1 
     next_anga = target_anga + 1
 
@@ -147,6 +147,7 @@ class FestivalAssigner(PeriodicPanchaangaApplier):
 
   @classmethod
   def decide_puurvaviddha_priority(cls, d0_angas, d1_angas, target_anga):
+    # Doesn't seem to be equivalent to prior logic - hence not calling for now.
     kaala = d0_angas.interval.name
     prev_anga = target_anga - 1
     next_anga = target_anga + 1
@@ -226,22 +227,15 @@ class FestivalAssigner(PeriodicPanchaangaApplier):
     target_anga = Anga.get_cached(index=fest_rule.timing.anga_number, anga_type_id=anga_type_str.upper())
     if month_type is None or month_num is None or anga_type_str is None or target_anga is None:
       raise ValueError(str(fest_rule))
-    kaala = fest_rule.timing.kaala
-    if kaala is None:
-      kaala = 'sunrise'  # default!
-    priority = fest_rule.timing.priority
-    if priority is None:
-      priority = 'puurvaviddha'
+    kaala = fest_rule.timing.get_kaala()
+    priority = fest_rule.timing.get_priority()
     # Using 0 as a special tag to denote every month!
     if anga_type_str == 'tithi':
       anga_data = [d.sunrise_day_angas.tithis_with_ends for d in self.daily_panchaangas]
-      get_anga_func = lambda x: temporal.tithi.get_tithi(x)
     elif anga_type_str == 'nakshatra':
       anga_data = [d.sunrise_day_angas.nakshatras_with_ends for d in self.daily_panchaangas]
-      get_anga_func = lambda x: NakshatraDivision(x, ayanaamsha_id=self.ayanaamsha_id).get_nakshatra()
     elif anga_type_str == 'yoga':
       anga_data = [d.sunrise_day_angas.yogas_with_ends for d in self.daily_panchaangas]
-      get_anga_func = lambda x: NakshatraDivision(x, ayanaamsha_id=self.ayanaamsha_id).get_yoga()
     else:
       raise ValueError('Error; unknown string in rule: "%s"' % (anga_type_str))
 
@@ -256,9 +250,6 @@ class FestivalAssigner(PeriodicPanchaangaApplier):
       anga_boundaries = self.get_2_day_interval_boundary_angas(kaala=kaala, anga_type=anga_type, d=d)
       (d0_angas, d1_angas) = anga_boundaries
       angas = [d0_angas.start, d0_angas.end, d1_angas.start, d1_angas.end]
-      if angas is None:
-        logging.error('No angas returned! Skipping festival %s' % festival_name)
-        return 
         # Some error, e.g. weird kaala, so skip festival
       if priority == 'paraviddha':
         if (angas[1] == target_anga and angas[3] == target_anga) or (

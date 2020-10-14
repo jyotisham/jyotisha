@@ -1,4 +1,5 @@
 import sys
+from typing import Dict
 
 import methodtools
 from jyotisha.panchaanga.spatio_temporal import daily
@@ -10,10 +11,8 @@ from jyotisha.panchaanga.temporal.tithi import TithiAssigner
 from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision
 from jyotisha.util import default_if_none
 from timebudget import timebudget
-from typing import Dict
 
 from sanskrit_data.schema import common
-from sanskrit_data.schema.common import JsonObject
 
 timebudget.set_quiet(True)  # don't show measurements as they happen
 # timebudget.report_at_exit()  # Generate report when the program exits
@@ -307,13 +306,8 @@ class Panchaanga(common.JsonObject):
       daily_panchaanga.city = None
       daily_panchaanga.computation_system = None
 
-  @classmethod
-  def read_from_file(cls, filename, name_to_json_class_index_extra=None, **kwargs):
-    with timebudget("Loading the file"):
-      panchaanga = JsonObject.read_from_file(filename=filename,
-                                             name_to_json_class_index_extra=name_to_json_class_index_extra, **kwargs)
-      panchaanga._refill_daily_panchaangas()
-      return panchaanga
+  def post_load_ops(self):
+    self._refill_daily_panchaangas()
 
   @timebudget
   def dump_to_file(self, filename, floating_point_precision=None, sort_keys=True):

@@ -1,14 +1,13 @@
 import logging
 import os
-import traceback
 
-import sanskrit_data.collection_helper
 from jyotisha.panchaanga.spatio_temporal import City, annual, periodical
 # from jyotisha.panchaanga import scripts
 # from jyotisha.panchaanga.spatio_temporal import annual
-from jyotisha.panchaanga.spatio_temporal.periodical import Panchaanga
 from jyotisha.panchaanga.temporal.time import Date
 from timebudget import timebudget
+
+from sanskrit_data import testing
 
 logging.basicConfig(
   level=logging.DEBUG,
@@ -34,26 +33,7 @@ def panchaanga_json_comparer(city, year):
   panchaanga = annual.get_panchaanga_for_civil_year(city=city, year=year,
                                                     allow_precomputed=False)
   timebudget.report(reset=True)
-  if not os.path.exists(expected_content_path):
-    logging.warning("File must have been deliberately deleted as obsolete. So, will dump a new file for future tests.")
-    panchaanga.dump_to_file(filename=expected_content_path,
-                            floating_point_precision=4)
-  panchaanga_expected = Panchaanga.read_from_file(filename=expected_content_path)
-  timebudget.report(reset=True)
-  try:
-    # The below would be actually slower (1min+), and leads to bug output dump in case of failure.
-    # assert str_actual == str_expected 
-    # The below is better, but still slower (35s and leads to bug output dump in case of failure.
-    # assert actual == expected
-    
-    # The below is faster - 20s and produces concise difference.
-    sanskrit_data.collection_helper.assert_approx_equals(x=panchaanga, y=panchaanga_expected, floating_point_precision=4)
-  except:
-    # firefox does not identify files not ending with .json as json. Hence not naming .json.local.
-    actual_content_path = expected_content_path.replace(".json", "_actual.local.json")
-    panchaanga.dump_to_file(filename=actual_content_path, floating_point_precision=4)
-    traceback.print_exc()
-    raise
+  testing.json_compare(actual_object=panchaanga, expected_content_path=expected_content_path)
 
 
 def test_panchanga_chennai_18(caplog):

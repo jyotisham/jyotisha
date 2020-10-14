@@ -1,14 +1,14 @@
 import logging
+import os
 
 import numpy.testing
 from jyotisha.panchaanga.spatio_temporal import City
 from jyotisha.panchaanga.spatio_temporal import daily
 from jyotisha.panchaanga.temporal import time
-from jyotisha.panchaanga.temporal.interval import Interval, AngaSpan
 from jyotisha.panchaanga.temporal.time import Date
-from jyotisha.panchaanga.temporal.zodiac import AngaType, Anga
+from timebudget import timebudget
 
-from sanskrit_data import collection_helper
+from sanskrit_data import testing
 
 logging.basicConfig(
   level=logging.DEBUG,
@@ -16,6 +16,15 @@ logging.basicConfig(
 )
 
 chennai = City.get_city_from_db("Chennai")
+TEST_DATA_PATH = os.path.join(os.path.dirname(__file__), 'data')
+
+
+# noinspection PyUnresolvedReferences
+def panchaanga_json_comparer(city, date):
+  expected_content_path=os.path.join(TEST_DATA_PATH, '%s-%s.json' % (city.name, date.get_date_str()))
+  panchaanga = daily.DailyPanchaanga(city=city, date=date)
+  timebudget.report(reset=True)
+  testing.json_compare(actual_object=panchaanga, expected_content_path=expected_content_path)
 
 
 def test_solar_day():
@@ -89,20 +98,7 @@ def test_get_lagna_float():
 
 
 def test_get_anga_data_1981_12_23():
-  panchaanga = daily.DailyPanchaanga.from_city_and_julian_day(
-    city=chennai, julian_day=2444961.54042)
-  # Sunrise : 2444961.542325165, Next sunrise: 2444962.542662345
-  
-  collection_helper.assert_approx_equals(panchaanga.sunrise_day_angas.tithis_with_ends, [
-    AngaSpan(anga=Anga(index=27, anga_type_id=AngaType.TITHI.name), jd_end=2444961.5992132244, jd_start=None), AngaSpan(anga=Anga(index=28, anga_type_id=AngaType.TITHI.name), jd_start=2444961.599213224, jd_end=None)], floating_point_precision=3)
-  
-  collection_helper.assert_approx_equals(panchaanga.sunrise_day_angas.nakshatras_with_ends, [AngaSpan(anga=Anga(index=16, anga_type_id=AngaType.NAKSHATRA.name), jd_end=2444961.746925843, jd_start=None), AngaSpan(anga=Anga(index=17, anga_type_id=AngaType.NAKSHATRA.name), jd_start=2444961.746925843, jd_end=None)], floating_point_precision=3)
-  
-  collection_helper.assert_approx_equals(panchaanga.sunrise_day_angas.yogas_with_ends, [
-    AngaSpan(anga=Anga(index=8, anga_type_id=AngaType.YOGA.name), jd_end=2444962.18276057, jd_start=None), AngaSpan(anga=Anga(index=9, anga_type_id=AngaType.YOGA.name), jd_start=2444962.18276057, jd_end=None)], floating_point_precision=3)
-  
-  collection_helper.assert_approx_equals(panchaanga.sunrise_day_angas.karanas_with_ends, [
-    AngaSpan(anga=Anga(index=54, anga_type_id=AngaType.KARANA.name), jd_end=2444961.5992132244, jd_start=None), AngaSpan(anga=Anga(index=55, anga_type_id=AngaType.KARANA.name), jd_end=2444962.1544454526, jd_start=2444961.5992132244), AngaSpan(anga=Anga(index=56, anga_type_id=AngaType.KARANA.name), jd_start=2444962.1544454526, jd_end=None)], floating_point_precision=3)
+  panchaanga_json_comparer(chennai, date=Date(1981, 12, 23))
 
 
 def test_get_lagna_data():
