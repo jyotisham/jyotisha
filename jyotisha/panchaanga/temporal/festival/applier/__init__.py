@@ -132,19 +132,9 @@ class FestivalAssigner(PeriodicPanchaangaApplier):
       raise ValueError(str(fest_rule))
     kaala = fest_rule.timing.get_kaala()
     priority = fest_rule.timing.get_priority()
-    # Using 0 as a special tag to denote every month!
-    if anga_type_str == 'tithi':
-      anga_data = [d.sunrise_day_angas.tithis_with_ends for d in self.daily_panchaangas]
-    elif anga_type_str == 'nakshatra':
-      anga_data = [d.sunrise_day_angas.nakshatras_with_ends for d in self.daily_panchaangas]
-    elif anga_type_str == 'yoga':
-      anga_data = [d.sunrise_day_angas.yogas_with_ends for d in self.daily_panchaangas]
-    else:
-      raise ValueError('Error; unknown string in rule: "%s"' % (anga_type_str))
 
     anga_type = target_anga.get_type()
     prev_anga = target_anga - 1
-    next_anga = target_anga + 1
     anga_sunrise = self.daily_panchaangas[d].sunrise_day_angas.get_angas_with_ends(anga_type=anga_type)[0].anga
 
     fday = None
@@ -164,48 +154,12 @@ class FestivalAssigner(PeriodicPanchaangaApplier):
           if self.daily_panchaangas[d-1].date not in self.panchaanga.festival_id_to_days.get(festival_name, []):
             fday = d + d_offset
       elif priority == 'vyaapti':
-        if kaala == 'aparaahna':
-          t_start_d, t_end_d = interval.get_interval(self.daily_panchaangas[d].jd_sunrise, self.daily_panchaangas[d].jd_sunset, 3, 5).to_tuple()
+        d_offset = priority_decision.decide_aparaahna_vyaapti(d0_angas=d0_angas, d1_angas=d1_angas, target_anga=target_anga, ayanaamsha_id=self.ayanaamsha_id)
+        if d_offset is not None:
+          if self.daily_panchaangas[d-1].date not in self.panchaanga.festival_id_to_days.get(festival_name, []):
+            fday = d + d_offset
         else:
-          logging.error('Unknown kaala: %s.' % festival_name)
-
-        if kaala == 'aparaahna':
-          t_start_d1, t_end_d1 = interval.get_interval(self.daily_panchaangas[d + 1].jd_sunrise,
-                                                                                    self.daily_panchaangas[d + 1].jd_sunset, 3, 5).to_tuple()
-        else:
-          logging.error('Unknown kaala: %s.' % festival_name)
-
-        # Combinations
-        # <a> 0 0 1 1: d + 1
-        # <d> 0 1 1 1: d + 1
-        # <g> 1 1 1 1: d + 1
-        # <b> 0 0 1 2: d + 1
-        # <c> 0 0 2 2: d + 1
-        # <e> 0 1 1 2: vyApti
-        # <f> 0 1 2 2: d
-        # <h> 1 1 1 2: d
-        # <i> 1 1 2 2: d
-        p, q, r = prev_anga, target_anga, next_anga  # short-hand
-        if angas in ([p, p, q, q], [p, q, q, q], [q, q, q, q], [p, p, q, r], [p, p, r, r]):
-          fday = d + 1
-        elif angas in ([p, q, r, r], [q, q, q, r], [q, q, r, r]):
-          fday = d
-        elif angas == [p, q, q, r]:
-          anga_span = anga_data[d][0]
-          (anga, anga_end) = (anga_span.anga, anga_span.jd_end)
-          vyapti_1 = max(t_end_d - anga_end, 0)
-          vyapti_2 = max(anga_end - t_start_d1, 0)
-          for anga_span in anga_data[d + 1]:
-            anga_end = anga_span.jd_end
-            if anga_end is None:
-              pass
-            elif t_start_d1 < anga_end < t_end_d1:
-              vyapti_2 = anga_end - t_start_d1
-
-          if vyapti_2 > vyapti_1:
-            fday = d + 1
-          else:
-            fday = d
+          logging.info("vyApti, %s: %s, %s, %s.", festival_name, str(d0_angas.to_tuple()), str(d1_angas.to_tuple()), str(target_anga.index))
       else:
         logging.error('Unknown priority "%s" for %s! Check the rules!' % (priority, festival_name))
 

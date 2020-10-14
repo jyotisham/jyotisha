@@ -4,7 +4,6 @@ from jyotisha.panchaanga.temporal import zodiac
 
 
 def decide_paraviddha(d0_angas, d1_angas, target_anga):
-  # Doesn't seem to be equivalent to prior logic - hence not calling for now.
   prev_anga = target_anga - 1
   next_anga = target_anga + 1
 
@@ -34,7 +33,6 @@ def decide_paraviddha(d0_angas, d1_angas, target_anga):
 
 
 def decide_puurvaviddha(d0_angas, d1_angas, target_anga):
-  # Doesn't seem to be equivalent to prior logic - hence not calling for now.
   kaala = d0_angas.interval.name
   prev_anga = target_anga - 1
   next_anga = target_anga + 1
@@ -63,6 +61,9 @@ def decide_puurvaviddha(d0_angas, d1_angas, target_anga):
 
 
 def decide_aparaahna_vyaapti(d0_angas, d1_angas, target_anga, ayanaamsha_id):
+  # TODO: Missed case. 
+  # kAJcI 8 jagadguru zrI~kaivalyAnandayOgEndra sarasvatI ArAdhanA - lunar month 10, tithi 14, aparAhNa.
+
   # Doesn't seem to be equivalent to prior logic - hence not calling for now.
   if d0_angas.interval.name not in ['aparaahna', 'aparaahna_muhuurta']:
     return None
@@ -72,34 +73,48 @@ def decide_aparaahna_vyaapti(d0_angas, d1_angas, target_anga, ayanaamsha_id):
   p, q, r = prev_anga, target_anga, next_anga  # short-hand
   # Combinations
   # (p:0, q:1, r:2)
-  # <j> ? r ? ?: d
+  # <a> r ? ? ?: None
   # <a> ? ? q q: d + 1
   # <b> ? p ? ?: d + 1
   # <e> p q q r: vyApti
   # <h> q q ? r: d
   # <i> ? q r ?: d
-  if d0_angas.end > q:
-    # One of the cases covered here: Anga might have been between end of previous day's interval and beginning of this day's interval. Then we would have: r r for d1_angas.
+  # <j> q r ? ?: d
+  if d0_angas.start > q:
+    # One of the cases covered here: Anga might have been between end of previous day's interval and beginning of this day's interval. Then we would have: r r for d1_angas. Could potentially lead to a missed festival.
+    logging.debug("vyaapti: %s, %s, %s - Not assigning a festival this day. Likely checking on the wrong day pair.", str(d0_angas.to_tuple()), str(d1_angas.to_tuple()), str(target_anga.index))
+    return None
+
+  # Easy cases where d0 has greater vyApti
+  elif d0_angas.end > q:
+    # d0_angas.start <= q
     fday = 0
-  elif d1_angas.start == q and d1_angas.end == q:
-    fday = 1
-  elif d0_angas.end < q and d1_angas.start >= q:
-    # Covers p p r r, [p, p, q, r], [p, p, q, q]
-    fday = 1
   elif d0_angas.start == q and d0_angas.end == q and d1_angas.end > q:
     fday = 0
   elif d0_angas.end == q and d1_angas.start > q:
     fday = 0
+
+  # Easy cases where d1 has greater vyApti
+  elif d1_angas.start == q and d1_angas.end == q:
+    # d0_angas <= q
+    # This is a potential tie-breaker where both d1 and d2 are fully covered.
+    fday = 1
+  elif d0_angas.end < q and d1_angas.start >= q:
+    # Covers p p r r, [p, p, q, r], [p, p, q, q]
+    fday = 1
+
   elif d0_angas.end == q and d1_angas.start == q:
-    anga_span = zodiac.AngaSpanFinder(ayanaamsha_id=ayanaamsha_id, anga_type=target_anga.get_type()).find(jd1=d0_angas.interval.jd_start, jd2=d1_angas.interval.jd_end, target_anga_in=target_anga)
-    vyapti_1 = max(d0_angas.interval.jd_end - anga_span.jd_start, 0)
-    vyapti_2 = max(anga_span.jd_end - d1_angas.interval.jd_start, 0)
-    if vyapti_2 > vyapti_1:
+    # The <e> p q q r: vyApti case
+    anga_span = zodiac.AngaSpanFinder(ayanaamsha_id=ayanaamsha_id, anga_type=target_anga.get_type()).find(jd1=d0_angas.interval.jd_start, jd2=d1_angas.interval.jd_end, target_anga_id=target_anga)
+    vyapti_0 = max(d0_angas.interval.jd_end - anga_span.jd_start, 0)
+    vyapti_1 = max(anga_span.jd_end - d1_angas.interval.jd_start, 0)
+    if vyapti_1 > vyapti_0:
       fday = 0 + 1
     else:
       fday = 0
+
   else:
-    logging.info("%s, %s, %s.", str(d0_angas.to_tuple()), str(d1_angas.to_tuple()), str(target_anga.index))
+    logging.info("vyaapti: %s, %s, %s. Some weird case", str(d0_angas.to_tuple()), str(d1_angas.to_tuple()), str(target_anga.index))
     fday = None
   return fday
 
