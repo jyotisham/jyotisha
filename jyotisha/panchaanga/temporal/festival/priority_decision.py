@@ -20,7 +20,7 @@ def decide_paraviddha(d0_angas, d1_angas, target_anga):
   elif d1_angas.start == target_anga:
     fday = 0
   elif d0_angas.start == target_anga and d0_angas.end == next_anga:
-    if d0_angas.interval.name == 'aparaahna':
+    if d0_angas.interval.name in ['aparaahna', 'aparaahna_muhuurta']:
       fday = 0
     else:
       fday = 0 - 1
@@ -28,6 +28,8 @@ def decide_paraviddha(d0_angas, d1_angas, target_anga):
     fday = 0
   else:
     fday = None
+    # Expected example:  (19, 19), (19, 20), 20
+    logging.debug("paraviddha: %s, %s, %s - Not assigning a festival this day. Likely checking on the wrong day pair.", str(d0_angas.to_tuple()), str(d1_angas.to_tuple()), str(target_anga.index))
   return fday
 
 
@@ -54,14 +56,15 @@ def decide_puurvaviddha(d0_angas, d1_angas, target_anga):
       # conditions instead of this fix
       fday = 0 + d_offset
     else:
-      logging.info("%s, %s, %s - Not assigning a festival this day. Likely the next then.", str(d0_angas.to_tuple()), str(d1_angas.to_tuple()), str(target_anga.index))
+      # Expected example:  (25, 25), (25, 25), 26
+      logging.debug("puurvaviddha: %s, %s, %s - Not assigning a festival this day. Likely the next then.", str(d0_angas.to_tuple()), str(d1_angas.to_tuple()), str(target_anga.index))
       fday = None
   return fday
 
 
 def decide_aparaahna_vyaapti(d0_angas, d1_angas, target_anga, ayanaamsha_id):
   # Doesn't seem to be equivalent to prior logic - hence not calling for now.
-  if d0_angas.interval.name != 'aparaahna':
+  if d0_angas.interval.name not in ['aparaahna', 'aparaahna_muhuurta']:
     return None
 
   prev_anga = target_anga - 1

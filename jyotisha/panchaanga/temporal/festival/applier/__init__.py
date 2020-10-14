@@ -155,38 +155,14 @@ class FestivalAssigner(PeriodicPanchaangaApplier):
       angas = [d0_angas.start, d0_angas.end, d1_angas.start, d1_angas.end]
         # Some error, e.g. weird kaala, so skip festival
       if priority == 'paraviddha':
-        if (d0_angas.end == target_anga and d1_angas.end == target_anga) or (
-            d1_angas.start == target_anga and d1_angas.end == target_anga):
-          # Incident at kaala on two consecutive days; so take second
-          fday = d + 1
-        elif d0_angas.start == target_anga and d0_angas.end == target_anga:
-          # Incident only on day 1, maybe just touching day 2
-          fday = d
-        elif d0_angas.end == target_anga:
-          fday = d
-        elif d1_angas.start == target_anga:
-          fday = d
-        elif d0_angas.start == target_anga and d0_angas.end == next_anga:
-          if kaala == 'aparaahna':
-            fday = d
-          else:
-            fday = d - 1
-        elif d0_angas.end == prev_anga and d1_angas.start == next_anga:
-          fday = d
-          logging.warning(
-            '%s %d did not touch %s kaala on d=%d or %d. Assigning %d for %s; angas: %s' %
-            (anga_type_str, target_anga.index, kaala, d, d + 1, fday, festival_name, str(angas)))
-        else:
-          if festival_name not in self.panchaanga.festival_id_to_days and d1_angas.end > target_anga:
-            logging.debug((angas, target_anga))
-            logging.warning(
-              'Could not assign paraviddha day for %s!  Please check for unusual cases.' % festival_name)
+        d_offset = priority_decision.decide_paraviddha(d0_angas=d0_angas, d1_angas=d1_angas, target_anga=target_anga)
+        if d_offset is not None:
+          fday = d + d_offset
       elif priority == 'puurvaviddha':
         d_offset = priority_decision.decide_puurvaviddha(d0_angas=d0_angas, d1_angas=d1_angas, target_anga=target_anga)
         if d_offset is not None:
           if self.daily_panchaangas[d-1].date not in self.panchaanga.festival_id_to_days.get(festival_name, []):
             fday = d + d_offset
-
       elif priority == 'vyaapti':
         if kaala == 'aparaahna':
           t_start_d, t_end_d = interval.get_interval(self.daily_panchaangas[d].jd_sunrise, self.daily_panchaangas[d].jd_sunset, 3, 5).to_tuple()
