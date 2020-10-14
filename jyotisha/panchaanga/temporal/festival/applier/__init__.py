@@ -142,7 +142,6 @@ class FestivalAssigner(PeriodicPanchaangaApplier):
     if anga_sunrise == prev_anga or anga_sunrise == target_anga:
       anga_boundaries = self.get_2_day_interval_boundary_angas(kaala=kaala, anga_type=anga_type, d=d)
       (d0_angas, d1_angas) = anga_boundaries
-      angas = [d0_angas.start, d0_angas.end, d1_angas.start, d1_angas.end]
         # Some error, e.g. weird kaala, so skip festival
       if priority == 'paraviddha':
         d_offset = priority_decision.decide_paraviddha(d0_angas=d0_angas, d1_angas=d1_angas, target_anga=target_anga)
@@ -159,7 +158,7 @@ class FestivalAssigner(PeriodicPanchaangaApplier):
           if self.daily_panchaangas[d-1].date not in self.panchaanga.festival_id_to_days.get(festival_name, []):
             fday = d + d_offset
         else:
-          if d0_angas.start < target_anga:
+          if d0_angas.start > target_anga:
             logging.info("vyApti, %s: %s, %s, %s.", festival_name, str(d0_angas.to_tuple()), str(d1_angas.to_tuple()), str(target_anga.index))
       else:
         logging.error('Unknown priority "%s" for %s! Check the rules!' % (priority, festival_name))
