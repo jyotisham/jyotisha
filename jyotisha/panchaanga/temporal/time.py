@@ -86,7 +86,7 @@ class Hour(JsonObject):
     else:
       raise Exception("""Unknown format""")
 
-  def __str__(self):
+  def __repr__(self):
     return self.toString(format='hh:mm:ss')
 
 
@@ -102,7 +102,7 @@ class BasicDate(JsonObject):
     self.month = int(month)
     self.day = int(day)
 
-  def __str__(self):
+  def __repr__(self):
     if self.year is None:
       return "%02d-%02d" % (self.month, self.day) 
     else:
@@ -205,7 +205,7 @@ class Date(BasicDate):
     return self.as_tuple()
 
   def get_date_str(self):
-    return super(Date, self).__str__()
+    return super(Date, self).__repr__()
 
 
 def jd_to_utc_gregorian(jd):

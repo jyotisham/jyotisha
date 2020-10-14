@@ -50,7 +50,7 @@ class AngaType(common.JsonObject):
   def __hash__(self):
     return hash(self.name)
 
-  def __str__(self):
+  def __repr__(self):
     return self.name
 
   def __eq__(self, other):
@@ -93,7 +93,7 @@ class Anga(common.JsonObject):
   def get_type(self):
     return NAME_TO_TYPE[self.anga_type_id]
 
-  def __str__(self):
+  def __repr__(self):
     return "%s: %02d" % (self.anga_type_id, self.index)
 
   def __sub__(self, other):
@@ -164,5 +164,5 @@ class BoundaryAngas(common.JsonObject):
   def to_tuple(self):
     return (None if self.start is None else self.start.index, None if self.end is None else self.end.index)
 
-  def __str__(self):
+  def __repr__(self):
     return "%s-%s %s" % (str(self.start), str(self.end), str(self.interval))

@@ -64,7 +64,7 @@ class ComputationSystem(JsonObject):
     self.ayanaamsha_id = ayanaamsha_id
     self.options = computation_options
 
-  def __str__(self):
+  def __repr__(self):
     return "%s__%s" % (self.lunar_month_assigner_type, self.ayanaamsha_id)
 
 

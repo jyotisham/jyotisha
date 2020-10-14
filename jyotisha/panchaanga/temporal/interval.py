@@ -2,6 +2,7 @@ import sys
 from math import floor
 from numbers import Number
 
+import methodtools
 from jyotisha.util import default_if_none
 from sanskrit_data.schema import common
 
@@ -13,10 +14,15 @@ class Interval(common.JsonObject):
     self.jd_end = jd_end
     self.name = name
 
+  @methodtools.lru_cache(maxsize=100)
+  @classmethod
+  def get_cached(cls, jd_start, jd_end, name):
+    return Interval(jd_start=jd_start, jd_end=jd_end, name=name)
+
   def to_tuple(self):
     return (self.jd_start, self.jd_end)
 
-  def __str__(self):
+  def __repr__(self):
     from jyotisha.panchaanga.temporal import time
     return "%s: (%s, %s)" % ("?" if self.name is None else self.name, default_if_none(time.ist_timezone.julian_day_to_local_time_str(jd=self.jd_start), "?"),
 default_if_none(time.ist_timezone.julian_day_to_local_time_str(jd=self.jd_end), "?"))
@@ -38,7 +44,7 @@ class AngaSpan(Interval):
     super(AngaSpan, self).__init__(jd_start=jd_start, jd_end=jd_end, name=None)
     self.anga = anga
 
-  def __str__(self):
+  def __repr__(self):
     from jyotisha.panchaanga.temporal import time
     return "%s: (%s, %s)" % (default_if_none(self.name, ""), 
                              "?" if self.jd_start is None else time.ist_timezone.julian_day_to_local_time_str(jd=self.jd_start),
@@ -55,41 +61,48 @@ class DayLengthBasedPeriods(common.JsonObject):
     YAMAGANDA_OCTETS = [4, 3, 2, 1, 0, 6, 5]
     RAHUKALA_OCTETS = [7, 1, 6, 4, 5, 3, 2]
     GULIKAKALA_OCTETS = [6, 5, 4, 3, 2, 1, 0]
-    self.raahu = get_interval(jd_sunrise, jd_sunset,
-                                       RAHUKALA_OCTETS[weekday], 8)
-    self.yama = get_interval(jd_sunrise, jd_sunset,
-                                      YAMAGANDA_OCTETS[weekday], 8)
-    self.gulika = get_interval(jd_sunrise, jd_sunset,
-                                        GULIKAKALA_OCTETS[weekday], 8)
-    self.braahma = get_interval(jd_previous_sunset, jd_sunrise, 13, 15)
-    self.praatas_sandhyaa = get_interval(jd_previous_sunset, jd_sunrise, 14, 15)
-    self.praatas_sandhyaa_end = get_interval(jd_sunrise, jd_sunset, 4, 15)
-    self.praatah = get_interval(jd_sunrise, jd_sunset, 0, 5)
-    self.saangava = get_interval(jd_sunrise, jd_sunset, 1, 5)
-    self.madhyaahna = get_interval(jd_sunrise, jd_sunset, 2, 5)
-    self.maadhyaahnika_sandhyaa = get_interval(jd_sunrise, jd_sunset, 5, 15)
-    self.maadhyaahnika_sandhyaa_end = get_interval(jd_sunrise, jd_sunset, 13, 15)
-    self.aparaahna_muhuurta = get_interval(jd_sunrise, jd_sunset, 3, 5)
-    self.saayaahna = get_interval(jd_sunrise, jd_sunset, 4, 5)
-    self.saayam_sandhyaa = get_interval(jd_sunrise, jd_sunset, 14, 15)
-    self.dinamaana = get_interval(jd_sunrise, jd_sunset, 1, 1)
-    self.puurvaahna = get_interval(jd_sunrise, jd_sunset, 1, 2)
-    self.aparaahna = get_interval(jd_sunrise, jd_sunset, 2, 2)
+    self.raahu = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset,
+                                       part_index=RAHUKALA_OCTETS[weekday], num_parts=8)
+    self.yama = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset,
+                             part_index=YAMAGANDA_OCTETS[weekday], num_parts=8)
+    self.gulika = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset,
+                               part_index=GULIKAKALA_OCTETS[weekday], num_parts=8)
+
+    self.braahma = get_interval(start_jd=jd_previous_sunset, end_jd=jd_sunrise, part_index=13, num_parts=15)
+    self.praatas_sandhyaa = get_interval(start_jd=jd_previous_sunset, end_jd=jd_sunrise, part_index=14, num_parts=15)
+
+    self.praatas_sandhyaa_end = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=4, num_parts=15)
+    self.praatah = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=0, num_parts=5)
+    self.saangava = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=1, num_parts=5)
+    self.madhyaahna = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=2, num_parts=5)
+    self.maadhyaahnika_sandhyaa = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=5, num_parts=15)
+    self.maadhyaahnika_sandhyaa_end = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=13, num_parts=15)
+    self.aparaahna_muhuurta = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=3, num_parts=5)
+    self.saayaahna = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=4, num_parts=5)
+    self.saayam_sandhyaa = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=14, num_parts=15)
+    self.dinamaana = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=0, num_parts=1)
+    self.puurvaahna = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=0, num_parts=2)
+    self.aparaahna = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=1, num_parts=2)
     self.tb_muhuurtas = None
 
-    self.raatrimaana = get_interval(jd_sunset, jd_next_sunrise, 1, 1)
+    self.raatrimaana = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=0, num_parts=1)
     # pradOSo.astamayAdUrdhvaM ghaTikAdvayamiShyatE (tithyAdi tattvam, Vrat Parichay panchaanga. 25 Gita Press).
-    self.pradosha = get_interval(jd_sunset, jd_next_sunrise, 1, 15)
-    self.madhyaraatri = get_interval(jd_sunset, jd_next_sunrise, 2, 5)
-    self.nishiitha = get_interval(jd_sunset, jd_next_sunrise, 7, 15)
-    self.arunodaya = get_interval(jd_sunset, jd_next_sunrise, [13, 14], 15)
-    self.raatri_yaama_1 = get_interval(jd_sunset, jd_next_sunrise, 1, 4)
-    self.shayana = get_interval(jd_sunset, jd_next_sunrise, 3, 8)
-    self.dinaanta = get_interval(jd_sunset, jd_next_sunrise, 5, 8)
+    self.pradosha = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=0, num_parts=15)
+    self.madhyaraatri = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=2, num_parts=5)
+    self.nishiitha = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=7, num_parts=15)
+    self.arunodaya = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=[13, 14], num_parts=15)
+    self.raatri_yaama_1 = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=1, num_parts=4)
+    self.shayana = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=3, num_parts=8)
+    self.dinaanta = get_interval(jd_sunset, end_jd=jd_next_sunrise, part_index=5, num_parts=8)
 
     for attr_name, obj in self.__dict__.items():
       if isinstance(obj, Interval):
         obj.name = attr_name
+
+  def get_interval(self, interval_name):
+    if interval_name == "sunrise":
+      return Interval(jd_start=self.dinamaana.jd_start, jd_end=None)
+    return getattr(self, interval_name)
 
 
 class TbSayanaMuhuurta(Interval):
@@ -131,6 +144,8 @@ def get_interval(start_jd, end_jd, part_index, num_parts, name=None):
   """
   if isinstance(part_index, Number):
     part_index = [part_index]
+  if min(part_index) < 0 or max(part_index) > num_parts - 1:
+    raise ValueError(part_index, num_parts)
   start_fraction = min(part_index) / float(num_parts)
   end_fraction = (max(part_index) + 1) / float(num_parts)
 

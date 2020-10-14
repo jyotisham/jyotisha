@@ -182,6 +182,7 @@ class DailySolarAssigner(DailyPanchaangaApplier):
       if kaala == "sunrise":
         day_panchaanga.festival_id_to_instance[fest_id] = FestivalInstance(name=fest.id)
     # TODO Incomplete
+    raise NotImplemented
 
 # Essential for depickling to work.
 common.update_json_class_index(sys.modules[__name__])

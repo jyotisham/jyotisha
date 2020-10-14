@@ -62,6 +62,12 @@ class DayAngas(common.JsonObject):
         return anga_span
     return None
 
+  def get_angas_in_interval(self, anga_type, interval):
+    angas = self.get_angas_with_ends(anga_type=anga_type)
+    interval_start = default_if_none(interval.jd_start, None)
+    # TODO
+    raise NotImplemented
+
 
 # This class is not named Panchangam in order to be able to disambiguate from annual.Panchangam in serialized objects.
 class DailyPanchaanga(common.JsonObject):

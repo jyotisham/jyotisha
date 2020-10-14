@@ -77,7 +77,7 @@ class FestivalInstance(common.JsonObject):
   def __hash__(self):
     return hash(self.name)
 
-  def __str__(self):
+  def __repr__(self):
     return "%s %s %s" % (self.name, str(default_if_none(self.ordinal, "")), str(default_if_none(self.interval, "")))
 
 class TransitionFestivalInstance(FestivalInstance):

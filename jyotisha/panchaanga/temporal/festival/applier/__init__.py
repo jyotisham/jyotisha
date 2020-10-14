@@ -109,6 +109,8 @@ class FestivalAssigner(PeriodicPanchaangaApplier):
       interval_prev = Interval(name=kaala, jd_start=self.daily_panchaangas[d].jd_moonrise, jd_end=self.daily_panchaangas[d].jd_moonrise)
       interval_next = Interval(name=kaala, jd_start=self.daily_panchaangas[d+1].jd_moonrise, jd_end=self.daily_panchaangas[d+1].jd_moonrise)
     else:
+      if kaala == "aparaahna":
+        kaala = "aparaahna_muhuurta"
       interval_prev = getattr(self.daily_panchaangas[d].day_length_based_periods, kaala)
       interval_next = getattr(self.daily_panchaangas[d+1].day_length_based_periods, kaala)
     if interval_prev is None or interval_next is None:
@@ -251,12 +253,9 @@ class FestivalAssigner(PeriodicPanchaangaApplier):
     fday = None
 
     if anga_sunrise == prev_anga or anga_sunrise == target_anga:
-      if kaala == 'arunodaya':
-        # We want for arunodaya *preceding* today's sunrise; therefore, use d - 1
-        angas = self.panchaanga.get_2_day_interval_boundaries_angas(d - 1, get_anga_func, kaala)
-      else:
-        angas = self.panchaanga.get_2_day_interval_boundaries_angas(d, get_anga_func, kaala)
-
+      anga_boundaries = self.get_2_day_interval_boundary_angas(kaala=kaala, anga_type=anga_type, d=d)
+      (d0_angas, d1_angas) = anga_boundaries
+      angas = [d0_angas.start, d0_angas.end, d1_angas.start, d1_angas.end]
       if angas is None:
         logging.error('No angas returned! Skipping festival %s' % festival_name)
         return 
