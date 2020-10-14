@@ -175,6 +175,7 @@ class FestivalAssigner(PeriodicPanchaangaApplier):
 
   @classmethod
   def decide_aparaahna_vyaapti_priority(cls, d0_angas, d1_angas, target_anga, ayanaamsha_id):
+    # Doesn't seem to be equivalent to prior logic - hence not calling for now.
     if d0_angas.interval.name != 'aparaahna':
       return None
 
@@ -202,7 +203,7 @@ class FestivalAssigner(PeriodicPanchaangaApplier):
     elif d0_angas.end == q and d1_angas.start > q:
       fday = 0
     elif d0_angas.end == q and d1_angas.start == q:
-      anga_span = zodiac.AngaSpanFinder(ayanaamsha_id=ayanaamsha_id).find(jd1=d0_angas.interval.jd_start, jd2=d1_angas.interval.jd_end, target_anga_in=target_anga)
+      anga_span = zodiac.AngaSpanFinder(ayanaamsha_id=ayanaamsha_id, anga_type=target_anga.get_type()).find(jd1=d0_angas.interval.jd_start, jd2=d1_angas.interval.jd_end, target_anga_in=target_anga)
       vyapti_1 = max(d0_angas.interval.jd_end - anga_span.jd_start, 0)
       vyapti_2 = max(anga_span.jd_end - d1_angas.interval.jd_start, 0)
       if vyapti_2 > vyapti_1:
@@ -252,34 +253,34 @@ class FestivalAssigner(PeriodicPanchaangaApplier):
       angas = [d0_angas.start, d0_angas.end, d1_angas.start, d1_angas.end]
         # Some error, e.g. weird kaala, so skip festival
       if priority == 'paraviddha':
-        if (angas[1] == target_anga and angas[3] == target_anga) or (
-            angas[2] == target_anga and angas[3] == target_anga):
+        if (d0_angas.end == target_anga and d1_angas.end == target_anga) or (
+            d1_angas.start == target_anga and d1_angas.end == target_anga):
           # Incident at kaala on two consecutive days; so take second
           fday = d + 1
-        elif angas[0] == target_anga and angas[1] == target_anga:
+        elif d0_angas.start == target_anga and d0_angas.end == target_anga:
           # Incident only on day 1, maybe just touching day 2
           fday = d
-        elif angas[1] == target_anga:
+        elif d0_angas.end == target_anga:
           fday = d
-        elif angas[2] == target_anga:
+        elif d1_angas.start == target_anga:
           fday = d
-        elif angas[0] == target_anga and angas[1] == next_anga:
+        elif d0_angas.start == target_anga and d0_angas.end == next_anga:
           if kaala == 'aparaahna':
             fday = d
           else:
             fday = d - 1
-        elif angas[1] == prev_anga and angas[2] == next_anga:
+        elif d0_angas.end == prev_anga and d1_angas.start == next_anga:
           fday = d
           logging.warning(
             '%s %d did not touch %s kaala on d=%d or %d. Assigning %d for %s; angas: %s' %
             (anga_type_str, target_anga.index, kaala, d, d + 1, fday, festival_name, str(angas)))
         else:
-          if festival_name not in self.panchaanga.festival_id_to_days and angas[3] > target_anga:
+          if festival_name not in self.panchaanga.festival_id_to_days and d1_angas.end > target_anga:
             logging.debug((angas, target_anga))
             logging.warning(
               'Could not assign paraviddha day for %s!  Please check for unusual cases.' % festival_name)
       elif priority == 'puurvaviddha':
-        if angas[0] == target_anga or angas[1] == target_anga:
+        if d0_angas.start == target_anga or d0_angas.end == target_anga:
           if festival_name in self.panchaanga.festival_id_to_days:
             # Check if yesterday was assigned already
             # to this puurvaviddha festival!
@@ -287,7 +288,7 @@ class FestivalAssigner(PeriodicPanchaangaApplier):
               fday = d
           else:
             fday = d
-        elif angas[2] == target_anga or angas[3] == target_anga:
+        elif d1_angas.start == target_anga or d1_angas.end == target_anga:
           fday = d + 1
         else:
           # This means that the correct anga did not
