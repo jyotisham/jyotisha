@@ -2,8 +2,8 @@ import logging
 import os
 import sys
 
+from jyotisha.panchaanga.temporal import PeriodicPanchaangaApplier
 from jyotisha.panchaanga.temporal import festival
-from jyotisha.panchaanga.temporal import interval, PeriodicPanchaangaApplier
 from jyotisha.panchaanga.temporal import time
 from jyotisha.panchaanga.temporal import zodiac
 from jyotisha.panchaanga.temporal.festival import rules, priority_decision
@@ -159,7 +159,8 @@ class FestivalAssigner(PeriodicPanchaangaApplier):
           if self.daily_panchaangas[d-1].date not in self.panchaanga.festival_id_to_days.get(festival_name, []):
             fday = d + d_offset
         else:
-          logging.info("vyApti, %s: %s, %s, %s.", festival_name, str(d0_angas.to_tuple()), str(d1_angas.to_tuple()), str(target_anga.index))
+          if d0_angas.start < target_anga:
+            logging.info("vyApti, %s: %s, %s, %s.", festival_name, str(d0_angas.to_tuple()), str(d1_angas.to_tuple()), str(target_anga.index))
       else:
         logging.error('Unknown priority "%s" for %s! Check the rules!' % (priority, festival_name))
 
