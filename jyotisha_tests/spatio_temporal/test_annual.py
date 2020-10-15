@@ -54,7 +54,7 @@ def test_panchaanga_chennai_19():
   panchaanga_json_comparer(city=chennai, year=2019)
 
 
-def test_panchaanga_orinda(caplog):
+def test_panchaanga_orinda_19(caplog):
   caplog.set_level(logging.INFO)
   city = City('Orinda', '37:51:38', '-122:10:59', 'America/Los_Angeles')
   panchaanga_json_comparer(city=city, year=2019)

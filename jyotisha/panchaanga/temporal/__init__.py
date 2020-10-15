@@ -1,6 +1,8 @@
 import logging
 import sys
 
+from jyotisha.panchaanga.temporal.zodiac.angas import BoundaryAngas
+
 from sanskrit_data.schema import common
 from sanskrit_data.schema.common import JsonObject
 
@@ -27,17 +29,27 @@ class PeriodicPanchaangaApplier(JsonObject):
 
 
   def get_2_day_interval_boundary_angas(self, kaala, anga_type, d):
+    """
+    
+    Useful only for tithi, nakShatra or yoga. NOT karaNa (since >2 karaNas may exist within an interval).
+    :param kaala: 
+    :param anga_type: 
+    :param d: 
+    :return: 
+    """
     from jyotisha.panchaanga.temporal.interval import Interval
     if kaala == 'arunodaya':
       # We want for arunodaya *preceding* today's sunrise; therefore, use d - 1
-      interval_prev = self.daily_panchaangas[d-1].day_length_based_periods.arunodaya
-      interval_next = self.daily_panchaangas[d].day_length_based_periods.arunodaya
+      (spans0, interval0) = self.daily_panchaangas[d - 1].get_interval_anga_spans(name=kaala, anga_type=anga_type)
+      (spans1, interval1) = self.daily_panchaangas[d].get_interval_anga_spans(name=kaala, anga_type=anga_type)
     else:
-      interval_prev = self.daily_panchaangas[d].get_interval(name=kaala)
-      interval_next = self.daily_panchaangas[d+1].get_interval(name=kaala)
-    if interval_prev is None or interval_next is None:
-      raise ValueError(kaala)
-    angas = (interval_prev.get_boundary_angas(anga_type=anga_type, ayanaamsha_id=self.ayanaamsha_id), interval_next.get_boundary_angas(anga_type=anga_type, ayanaamsha_id=self.ayanaamsha_id))
+      (spans0, interval0) = self.daily_panchaangas[d].get_interval_anga_spans(name=kaala, anga_type=anga_type)
+      (spans1, interval1) = self.daily_panchaangas[d + 1].get_interval_anga_spans(name=kaala, anga_type=anga_type)
+    if len(spans0) == 1:
+      spans0 = spans0 + spans0
+    if len(spans1) == 1:
+      spans1 = spans1 + spans1
+    angas = (BoundaryAngas(start=spans0[0].anga, end=spans0[1].anga, interval=interval0), BoundaryAngas(start=spans1[0].anga, end=spans1[1].anga, interval=interval1))
     return angas
 
 

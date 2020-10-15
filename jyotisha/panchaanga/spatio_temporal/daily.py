@@ -74,8 +74,10 @@ class DayAngas(common.JsonObject):
     all_spans = self.get_angas_with_ends(anga_type=anga_type)
     spans = []
     for span in all_spans:
+      if span.jd_end is not None and span.jd_end < interval.jd_start:
+        continue
       # Does the anga start within the interval?
-      if span.jd_start is not None and span.jd_start >= interval.jd_start and span.jd_start <= interval.jd_end:
+      elif span.jd_start is not None and span.jd_start >= interval.jd_start and span.jd_start <= interval.jd_end:
         spans.append(span)
       # Does the anga end within the interval?
       elif span.jd_end is not None and span.jd_end >= interval.jd_start and span.jd_end <= interval.jd_end:
@@ -218,6 +220,10 @@ class DailyPanchaanga(common.JsonObject):
       if name == "aparaahna" and not self.computation_system.options.aparaahna_as_second_half:
         name = "aparaahna_muhuurta"
       return getattr(self.day_length_based_periods, name)
+
+  def get_interval_anga_spans(self, name, anga_type):
+    interval = self.get_interval(name=name)
+    return (self.sunrise_day_angas.get_anga_spans_in_interval(interval=interval, anga_type=anga_type), interval)
 
   def compute_solar_day_sunset(self, previous_day_panchaanga=None):
     """Compute the solar month and day for a given Julian day at sunset.
