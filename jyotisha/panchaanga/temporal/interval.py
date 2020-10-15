@@ -101,7 +101,9 @@ class DayLengthBasedPeriods(common.JsonObject):
 
   def get_interval(self, interval_name):
     if interval_name == "sunrise":
-      return Interval(jd_start=self.dinamaana.jd_start, jd_end=None)
+      return Interval(jd_start=self.dinamaana.jd_start, jd_end=self.dinamaana.jd_start)
+    if interval_name == "sunset":
+      return Interval(jd_start=self.dinamaana.jd_end, jd_end=self.dinamaana.jd_end)
     return getattr(self, interval_name)
 
 

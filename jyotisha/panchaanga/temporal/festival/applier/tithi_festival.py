@@ -3,9 +3,6 @@ import sys
 from datetime import datetime
 from math import floor
 
-from pytz import timezone as tz
-from scipy.optimize import brentq
-
 from jyotisha import names
 from jyotisha.panchaanga import temporal
 from jyotisha.panchaanga.temporal import time
@@ -14,7 +11,10 @@ from jyotisha.panchaanga.temporal.body import Graha
 from jyotisha.panchaanga.temporal.festival import FestivalInstance
 from jyotisha.panchaanga.temporal.festival.applier import FestivalAssigner
 from jyotisha.panchaanga.temporal.interval import Interval
-from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision
+from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision, AngaType
+from pytz import timezone as tz
+from scipy.optimize import brentq
+
 from sanskrit_data.schema import common
 
 
@@ -107,9 +107,9 @@ class TithiFestivalAssigner(FestivalAssigner):
         festival_name = 'subrahmaNya-' + festival_name
 
       if self.daily_panchaangas[d].sunrise_day_angas.tithi_at_sunrise.index == 5 or self.daily_panchaangas[d].sunrise_day_angas.tithi_at_sunrise.index == 6:
-        angas = self.panchaanga.get_2_day_interval_boundaries_angas(d, lambda x: temporal.tithi.get_tithi(x),
-                                            'madhyaahna')
-        if angas[0].index == 6 or angas[1].index == 6:
+        (d0_angas, d1_angas) = self.get_2_day_interval_boundary_angas(kaala="madhyaahna", anga_type=AngaType.TITHI, d=d)
+
+        if d0_angas.start.index == 6 or d0_angas.end.index == 6:
           if festival_name in self.panchaanga.festival_id_to_days:
             # Check if yesterday was assigned already
             # to this puurvaviddha festival!
@@ -117,14 +117,14 @@ class TithiFestivalAssigner(FestivalAssigner):
               self.add_to_festival_id_to_days(festival_name, d)
           else:
             self.add_to_festival_id_to_days(festival_name, d)
-        elif angas[2].index == 6 or angas[3].index == 6:
+        elif d1_angas.start.index == 6 or d1_angas.end.index == 6:
           self.add_to_festival_id_to_days(festival_name, d + 1)
         else:
           # This means that the correct anga did not
           # touch the kaala on either day!
           # sys.stderr.write('Could not assign puurvaviddha day for %s!\
           # Please check for unusual cases.\n' % festival_name)
-          if angas[2].index == 6 + 1 or angas[3].index == 6 + 1:
+          if d1_angas.start.index == 6 + 1 or d1_angas.end.index == 6 + 1:
             # Need to assign a day to the festival here
             # since the anga did not touch kaala on either day
             # BUT ONLY IF YESTERDAY WASN'T ALREADY ASSIGNED,
@@ -380,9 +380,8 @@ class TithiFestivalAssigner(FestivalAssigner):
           pref = names.get_chandra_masa(self.daily_panchaangas[d].lunar_month_sunrise.index, names.NAMES, 'hk',
                                         visarga=False) + '-'
 
-        ama_nakshatra_today = [y.index for y in self.panchaanga.get_2_day_interval_boundaries_angas(d, lambda x: NakshatraDivision(x,
-                                                                                                                 ayanaamsha_id=self.ayanaamsha_id).get_nakshatra(),
-                                                          'aparaahna')[:2]]
+        apraahna_interval = self.daily_panchaangas[d].day_length_based_periods.aparaahna_muhuurta
+        ama_nakshatra_today = [y for y in apraahna_interval.get_boundary_angas(anga_type=AngaType.NAKSHATRA, ayanaamsha_id=self.ayanaamsha_id).to_tuple()]
         suff = ''
         # Assign
         if 23 in ama_nakshatra_today and self.daily_panchaangas[d].lunar_month_sunrise.index == 10:

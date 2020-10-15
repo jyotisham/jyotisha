@@ -3,7 +3,7 @@ import sys
 from jyotisha.panchaanga.temporal import time
 from jyotisha.panchaanga.temporal import zodiac
 from jyotisha.panchaanga.temporal.festival.applier import FestivalAssigner
-from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision
+from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision, AngaType
 
 from sanskrit_data.schema import common
 
@@ -87,10 +87,9 @@ class VaraFestivalAssigner(FestivalAssigner):
         if (self.daily_panchaangas[d].sunrise_day_angas.nakshatra_at_sunrise.index == nwd_fest_n or self.daily_panchaangas[d].sunrise_day_angas.nakshatra_at_sunrise.index == n_prev) and self.daily_panchaangas[
           d].date.get_weekday() == nwd_fest_wd:
           # Is it necessarily only at sunrise?
-          angas = self.panchaanga.get_2_day_interval_boundaries_angas(d, lambda x: NakshatraDivision(x,
-                                                                                                     ayanaamsha_id=self.ayanaamsha_id).get_nakshatra(),
-                                              'dinamaana')
-          if any(x == nwd_fest_n for x in [self.daily_panchaangas[d].sunrise_day_angas.nakshatra_at_sunrise.index, angas[0].index, angas[1].index]):
+          d0_angas = self.daily_panchaangas[d].day_length_based_periods.dinamaana.get_boundary_angas(anga_type=AngaType.NAKSHATRA, ayanaamsha_id=self.ayanaamsha_id)
+
+          if any(x == nwd_fest_n for x in [self.daily_panchaangas[d].sunrise_day_angas.nakshatra_at_sunrise.index, d0_angas.start.index, d0_angas.end.index]):
             self.add_to_festival_id_to_days(nwd_fest_name, d)
 
 

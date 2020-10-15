@@ -5,16 +5,14 @@ import os.path
 import sys
 from datetime import datetime, date, timedelta
 
-from icalendar import Calendar, Event, Alarm
-from pytz import timezone as tz
-
 import jyotisha.panchaanga.spatio_temporal.annual
-from jyotisha.panchaanga.temporal import time, festival
-from jyotisha.panchaanga import temporal
+from icalendar import Calendar, Event, Alarm
 from jyotisha.panchaanga.spatio_temporal import City
 from jyotisha.panchaanga.temporal import MAX_SZ, tithi
+from jyotisha.panchaanga.temporal import time
 from jyotisha.panchaanga.temporal.festival import FestivalInstance
 from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision, Ayanamsha
+from pytz import timezone as tz
 
 logging.basicConfig(
   level=logging.DEBUG,
@@ -44,7 +42,7 @@ def compute_events(panchaanga, json_file):
       else:
         raise ValueError("No month_num mentioned for %s" % event_name)
       if 'anga_type' in event_rules[event_name]:
-        anga_type = event_rules[event_name].timing.anga_type
+        anga_type_id = event_rules[event_name].timing.anga_type
       else:
         raise ValueError("No anga_type mentioned for %s" % event_name)
       if 'anga_number' in event_rules[event_name]:
@@ -65,7 +63,7 @@ def compute_events(panchaanga, json_file):
         event_start_year = None
 
       daily_panchaanga = daily_panchaangas[d]
-      if anga_type == 'tithi' and month_type == 'lunar_month' and \
+      if anga_type_id == 'tithi' and month_type == 'lunar_month' and \
           angam_num == 1:
         # Shukla prathama tithis need to be dealt carefully, if e.g. the prathama tithi
         # does not touch sunrise on either day (the regular check won't work, because
@@ -90,24 +88,24 @@ def compute_events(panchaanga, json_file):
           panchaanga.add_to_festival_id_to_days(event_name, d)
           continue
 
-      if anga_type == 'day' and month_type == 'sidereal_solar_month' \
+      if anga_type_id == 'day' and month_type == 'sidereal_solar_month' \
           and daily_panchaanga.solar_sidereal_date_sunset.month == month_num:
         if daily_panchaanga.solar_sidereal_date_sunset.day == angam_num:
           panchaanga.festival_id_to_days[event_name] = [daily_panchaangas[d].date]
       elif (month_type == 'lunar_month' and daily_panchaanga.lunar_month_sunrise == month_num) or \
           (month_type == 'sidereal_solar_month' and daily_panchaanga.solar_sidereal_date_sunset.month == month_num):
-        if anga_type == 'tithi':
+        if anga_type_id == 'tithi':
           angam_sunrise = daily_panchaanga.sunrise_day_angas.tithi_at_sunrise
           get_angam_func = lambda x: tithi.get_tithi(x).index
           angam_num_pred = (angam_num - 2) % 30 + 1
           angam_num_succ = (angam_num % 30) + 1
-        elif anga_type == 'nakshatra':
+        elif anga_type_id == 'nakshatra':
           angam_sunrise = daily_panchaanga.sunrise_day_angas.nakshatra_at_sunrise
           get_angam_func = lambda x: NakshatraDivision(x, ayanaamsha_id=Ayanamsha.CHITRA_AT_180).get_nakshatra().index
           angam_num_pred = (angam_num - 2) % 27 + 1
           angam_num_succ = (angam_num % 27) + 1
         else:
-          raise ValueError('Error; unknown string in rule: "%s"' % (anga_type))
+          raise ValueError('Error; unknown string in rule: "%s"' % (anga_type_id))
           return
 
         fday = None
@@ -126,6 +124,7 @@ def compute_events(panchaanga, json_file):
           event_name += '-#%d' % event_num
 
         if angam_sunrise[d] == angam_num_pred or angam_sunrise[d] == angam_num:
+          #           (d0_angas, d1_angas) = self.get_2_day_interval_boundary_angas(kaala=kaala, anga_type=angas.NAME_TO_TYPE[anga_type_id.upper()], d=d)
           angas = panchaanga.get_2_day_interval_boundaries_angas(d, get_angam_func, kaala)
           if angas is None:
             sys.stderr.write('No angas returned! Skipping festival %s'

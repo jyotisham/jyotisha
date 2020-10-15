@@ -7,7 +7,6 @@ from jyotisha.panchaanga.temporal import festival
 from jyotisha.panchaanga.temporal import time
 from jyotisha.panchaanga.temporal import zodiac
 from jyotisha.panchaanga.temporal.festival import rules, priority_decision
-from jyotisha.panchaanga.temporal.interval import Interval
 from jyotisha.panchaanga.temporal.zodiac.angas import Anga
 from timebudget import timebudget
 
@@ -68,30 +67,6 @@ class FestivalAssigner(PeriodicPanchaangaApplier):
         (month_type == 'sidereal_solar_month' and (self.daily_panchaangas[d].solar_sidereal_date_sunset.month == month_num or month_num == 0)):
       self.assign_tithi_yoga_nakshatra_fest(fest_rule=fest_rule, d=d)
 
-  def get_2_day_interval_boundary_angas(self, kaala, anga_type, d):
-    if kaala == 'arunodaya':
-      # We want for arunodaya *preceding* today's sunrise; therefore, use d - 1
-      interval_prev = self.daily_panchaangas[d-1].day_length_based_periods.arunodaya
-      interval_next = self.daily_panchaangas[d].day_length_based_periods.arunodaya
-    elif kaala == 'sunrise':
-      interval_prev = Interval(name=kaala, jd_start=self.daily_panchaangas[d].jd_sunrise, jd_end=self.daily_panchaangas[d].jd_sunrise)
-      interval_next = Interval(name=kaala, jd_start=self.daily_panchaangas[d+1].jd_sunrise, jd_end=self.daily_panchaangas[d+1].jd_sunrise)
-    elif kaala == 'sunset':
-      interval_prev = Interval(name=kaala, jd_start=self.daily_panchaangas[d].jd_sunset, jd_end=self.daily_panchaangas[d].jd_sunset)
-      interval_next = Interval(name=kaala, jd_start=self.daily_panchaangas[d+1].jd_sunset, jd_end=self.daily_panchaangas[d+1].jd_sunset)
-    elif kaala == 'moonrise':
-      interval_prev = Interval(name=kaala, jd_start=self.daily_panchaangas[d].jd_moonrise, jd_end=self.daily_panchaangas[d].jd_moonrise)
-      interval_next = Interval(name=kaala, jd_start=self.daily_panchaangas[d+1].jd_moonrise, jd_end=self.daily_panchaangas[d+1].jd_moonrise)
-    else:
-      if kaala == "aparaahna":
-        kaala = "aparaahna_muhuurta"
-      interval_prev = getattr(self.daily_panchaangas[d].day_length_based_periods, kaala)
-      interval_next = getattr(self.daily_panchaangas[d+1].day_length_based_periods, kaala)
-    if interval_prev is None or interval_next is None:
-      raise ValueError(kaala)
-    angas = (interval_prev.get_boundary_angas(anga_type=anga_type, ayanaamsha_id=self.ayanaamsha_id), interval_next.get_boundary_angas(anga_type=anga_type, ayanaamsha_id=self.ayanaamsha_id))
-    return angas
-
   @timebudget
   def assign_tithi_yoga_nakshatra_fest(self, fest_rule, d):
     """
@@ -115,8 +90,7 @@ class FestivalAssigner(PeriodicPanchaangaApplier):
     fday = None
 
     if anga_sunrise == prev_anga or anga_sunrise == target_anga:
-      anga_boundaries = self.get_2_day_interval_boundary_angas(kaala=kaala, anga_type=anga_type, d=d)
-      (d0_angas, d1_angas) = anga_boundaries
+      (d0_angas, d1_angas) = self.get_2_day_interval_boundary_angas(kaala=kaala, anga_type=anga_type, d=d)
         # Some error, e.g. weird kaala, so skip festival
       if priority == 'paraviddha':
         d_offset = priority_decision.decide_paraviddha(d0_angas=d0_angas, d1_angas=d1_angas, target_anga=target_anga)

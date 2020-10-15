@@ -26,6 +26,32 @@ class PeriodicPanchaangaApplier(JsonObject):
     pass
 
 
+  def get_2_day_interval_boundary_angas(self, kaala, anga_type, d):
+    from jyotisha.panchaanga.temporal.interval import Interval
+    if kaala == 'arunodaya':
+      # We want for arunodaya *preceding* today's sunrise; therefore, use d - 1
+      interval_prev = self.daily_panchaangas[d-1].day_length_based_periods.arunodaya
+      interval_next = self.daily_panchaangas[d].day_length_based_periods.arunodaya
+    elif kaala == 'sunrise':
+      interval_prev = Interval(name=kaala, jd_start=self.daily_panchaangas[d].jd_sunrise, jd_end=self.daily_panchaangas[d].jd_sunrise)
+      interval_next = Interval(name=kaala, jd_start=self.daily_panchaangas[d+1].jd_sunrise, jd_end=self.daily_panchaangas[d+1].jd_sunrise)
+    elif kaala == 'sunset':
+      interval_prev = Interval(name=kaala, jd_start=self.daily_panchaangas[d].jd_sunset, jd_end=self.daily_panchaangas[d].jd_sunset)
+      interval_next = Interval(name=kaala, jd_start=self.daily_panchaangas[d+1].jd_sunset, jd_end=self.daily_panchaangas[d+1].jd_sunset)
+    elif kaala == 'moonrise':
+      interval_prev = Interval(name=kaala, jd_start=self.daily_panchaangas[d].jd_moonrise, jd_end=self.daily_panchaangas[d].jd_moonrise)
+      interval_next = Interval(name=kaala, jd_start=self.daily_panchaangas[d+1].jd_moonrise, jd_end=self.daily_panchaangas[d+1].jd_moonrise)
+    else:
+      if kaala == "aparaahna":
+        kaala = "aparaahna_muhuurta"
+      interval_prev = getattr(self.daily_panchaangas[d].day_length_based_periods, kaala)
+      interval_next = getattr(self.daily_panchaangas[d+1].day_length_based_periods, kaala)
+    if interval_prev is None or interval_next is None:
+      raise ValueError(kaala)
+    angas = (interval_prev.get_boundary_angas(anga_type=anga_type, ayanaamsha_id=self.ayanaamsha_id), interval_next.get_boundary_angas(anga_type=anga_type, ayanaamsha_id=self.ayanaamsha_id))
+    return angas
+
+
 class DailyPanchaangaApplier(JsonObject):
   """Objects of this type apply various temporal attributes to panchAnga-s."""
   def __init__(self, day_panchaanga, previous_day_panchaanga):

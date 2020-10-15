@@ -2,10 +2,10 @@
 import logging
 import sys
 
-from jyotisha.panchaanga.temporal import time
-from jyotisha.panchaanga import temporal
 from jyotisha.panchaanga.temporal import PeriodicPanchaangaApplier, interval
+from jyotisha.panchaanga.temporal import time
 from jyotisha.panchaanga.temporal.zodiac.angas import AngaType, Anga
+
 from sanskrit_data.schema import common
 
 
@@ -43,9 +43,9 @@ class TithiAssigner(PeriodicPanchaangaApplier):
   
     for d in range(1, self.panchaanga.duration + 1):
       [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
-  
-      angas = self.panchaanga.get_2_day_interval_boundaries_angas(d, get_tithi, 'aparaahna')
-      angam_start = angas[0]
+
+      (d0_angas, d1_angas) = self.get_2_day_interval_boundary_angas(kaala="aparaahna", anga_type=AngaType.TITHI, d=d)
+      angam_start = d0_angas.start
       next_anga = angam_start + 1
       nnext_anga = next_anga + 1
   
@@ -84,37 +84,37 @@ class TithiAssigner(PeriodicPanchaangaApplier):
       # if sunrise_day_angas[1] == angam_start:
       #     logging.debug('Pre-emptively assign %2d to %3d, can be removed tomorrow if need be.' % (angam_start, d))
       #     _assign(self, d, angam_start)
-      if angas[3] == angam_start:  # <a>
+      if d1_angas.end == angam_start:  # <a>
         # Full aparaahnas on both days, so second day
         fday = d + 1
         s_tithi = angam_start
         reason = '%2d incident on consecutive days; paraviddhA' % s_tithi.index
-      elif (angas[1] == angam_start) and (angas[2] == next_anga):  # <b>/<f>
+      elif (d0_angas.end == angam_start) and (d1_angas.start == next_anga):  # <b>/<f>
         fday = d
-        s_tithi = angas[0]
+        s_tithi = d0_angas.start
         reason = '%2d not incident on %3d' % (s_tithi.index, d + 1)
-        if angas[3] == nnext_anga:  # <f>
+        if d1_angas.end == nnext_anga:  # <f>
           if debug_shraaddha_tithi:
             logging.debug('%03d [%4d-%02d-%02d]: %s' % (d, y, m, dt,
                                                         'Need to assign %2d to %3d as it is present only at start of aparAhna tomorrow!)' % (
                                                           next_anga.index, d + 1)))
           _assign(self, d + 1, next_anga)
-      elif angas[2] == angam_start:  # <e>
+      elif d1_angas.start == angam_start:  # <e>
         if span_1 > vyapti_3:
           # Most likely
           fday = d
-          s_tithi = angas[2]
+          s_tithi = d1_angas.start
           reason = '%2d has more vyApti on day %3d (%f ghatikAs; full?) compared to day %3d (%f ghatikAs)' % (
             s_tithi.index, d, span_1 * 60, d + 1, vyapti_3 * 60)
         else:
           fday = d + 1
-          s_tithi = angas[2]
+          s_tithi = d1_angas.start
           reason = '%2d has more vyApti on day %3d (%f ghatikAs) compared to day %3d (%f ghatikAs) --- unusual!' % (
             s_tithi.index, d + 1, vyapti_3 * 60, d, span_1 * 60)
-      elif angas[2] == nnext_anga:  # <d>/<h>
-        if angas[1] == next_anga:  # <h>
+      elif d1_angas.start == nnext_anga:  # <d>/<h>
+        if d0_angas.end == next_anga:  # <h>
           fday = d
-          s_tithi = angas[1]
+          s_tithi = d0_angas.end
           reason = '%2d has some vyApti on day %3d; not incident on day %3d at all' % (s_tithi.index, d, d + 1)
         else:  # <d>
           s_tithi = angam_start
@@ -128,12 +128,12 @@ class TithiAssigner(PeriodicPanchaangaApplier):
                                                           next_anga, d, d + 1, d + 1)))
           _assign(self, d + 1, next_anga)
           # logging.debug(reason)
-      elif angas[1] == angas[2] == angas[3] == next_anga:  # <c>
+      elif d0_angas.end == d1_angas.start == d1_angas.end == next_anga:  # <c>
         s_tithi = next_anga
         fday = d + 1
         reason = '%2d has more vyApti on %3d (full) compared to %3d (part)' % (s_tithi.index, d + 1, d)
-      elif angas[1] == angas[2] == next_anga:  # <g>
-        s_tithi = angas[2]
+      elif d0_angas.end == d1_angas.start == next_anga:  # <g>
+        s_tithi = d1_angas.start
         if span_2 > vyapti_3:
           # Most likely
           fday = d
@@ -144,7 +144,7 @@ class TithiAssigner(PeriodicPanchaangaApplier):
           reason = '%2d has more vyApti on day %3d (%f ghatikAs) compared to day %3d (%f ghatikAs)' % (
             s_tithi.index, d + 1, vyapti_3 * 60, d, span_2 * 60)  # Examine for greater vyApti
       else:
-        logging.error('Should not reach here ever! %s' % str(angas))
+        logging.error('Should not reach here ever! %s %s', d0_angas.to_tuple(), d1_angas.to_tuple())
         reason = '?'
       if debug_shraaddha_tithi:
         logging.debug(
