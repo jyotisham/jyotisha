@@ -3,10 +3,8 @@ import os
 
 # from jyotisha.panchaanga.spatio_temporal import City, annual
 from indic_transliteration import sanscript
-
-from jyotisha.panchaanga.writer.tex.write_daily_panchaanga_tex import emit
 from jyotisha.panchaanga.spatio_temporal.periodical import Panchaanga
-from sanskrit_data.schema.common import JsonObject
+from jyotisha.panchaanga.writer.tex.write_daily_panchaanga_tex import emit
 
 # import swisseph as swe
 # from indic_transliteration import xsanscript as sanscript
@@ -35,7 +33,7 @@ def daily_tex_comparer(city_name, year):
       assert current_tex.read() == orig_tex.read()
 
 
-def test_panchanga_chennai_2019():
+def test_panchaanga_chennai_2019():
   daily_tex_comparer(city_name="Chennai", year=2019)
 
 

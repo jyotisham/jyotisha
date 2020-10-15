@@ -5,7 +5,9 @@ import numpy.testing
 from jyotisha.panchaanga.spatio_temporal import City
 from jyotisha.panchaanga.spatio_temporal import daily
 from jyotisha.panchaanga.temporal import time
+from jyotisha.panchaanga.temporal.interval import Interval
 from jyotisha.panchaanga.temporal.time import Date
+from jyotisha.panchaanga.temporal.zodiac import AngaType
 from timebudget import timebudget
 
 from sanskrit_data import testing
@@ -25,7 +27,7 @@ def panchaanga_json_comparer(city, date):
   panchaanga = daily.DailyPanchaanga(city=city, date=date)
   timebudget.report(reset=True)
   testing.json_compare(actual_object=panchaanga, expected_content_path=expected_content_path)
-
+  return panchaanga
 
 def test_solar_day():
 
@@ -98,8 +100,15 @@ def test_get_lagna_float():
 
 
 def test_get_anga_data_1981_12_23():
-  panchaanga_json_comparer(chennai, date=Date(1981, 12, 23))
+  panchaanga = panchaanga_json_comparer(chennai, date=Date(1981, 12, 23))
+  angas = [s.anga.index for s in panchaanga.sunrise_day_angas.get_anga_spans_in_interval(interval=panchaanga.day_length_based_periods.puurvaahna, anga_type=AngaType.NAKSHATRA)]
+  assert angas == [16, 17]
 
+  angas = [s.anga.index for s in panchaanga.sunrise_day_angas.get_anga_spans_in_interval(interval=Interval(jd_start=panchaanga.jd_sunrise, jd_end=panchaanga.jd_sunrise), anga_type=AngaType.NAKSHATRA)]
+  assert angas == [16]
+
+  angas = [s.anga.index for s in panchaanga.sunrise_day_angas.get_anga_spans_in_interval(interval=Interval(jd_start=panchaanga.jd_sunrise, jd_end=panchaanga.jd_next_sunrise), anga_type=AngaType.NAKSHATRA)]
+  assert angas == [16, 17]
 
 def test_get_lagna_data():
   city = City.get_city_from_db('Chennai') 

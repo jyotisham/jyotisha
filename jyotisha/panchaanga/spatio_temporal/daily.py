@@ -8,7 +8,6 @@ from jyotisha.panchaanga.spatio_temporal import City
 from jyotisha.panchaanga.temporal import interval, time, ComputationSystem, set_constants
 from jyotisha.panchaanga.temporal import zodiac
 from jyotisha.panchaanga.temporal.body import Graha
-from jyotisha.panchaanga.temporal.festival import rules, FestivalInstance
 from jyotisha.panchaanga.temporal.festival.applier.solar import DailySolarAssigner
 from jyotisha.panchaanga.temporal.interval import DayLengthBasedPeriods, Interval
 from jyotisha.panchaanga.temporal.month import LunarMonthAssigner
@@ -16,10 +15,11 @@ from jyotisha.panchaanga.temporal.time import Timezone, Date
 from jyotisha.panchaanga.temporal.zodiac import Ayanamsha, NakshatraDivision, AngaSpanFinder
 from jyotisha.panchaanga.temporal.zodiac.angas import AngaType, Anga
 from jyotisha.util import default_if_none
+from scipy.optimize import brentq
 from timebudget import timebudget
 
 from sanskrit_data.schema import common
-from scipy.optimize import brentq
+
 timebudget.set_quiet(True)  # don't show measurements as they happen
 
 logging.basicConfig(level=logging.DEBUG,
@@ -62,11 +62,30 @@ class DayAngas(common.JsonObject):
         return anga_span
     return None
 
-  def get_angas_in_interval(self, anga_type, interval):
-    angas = self.get_angas_with_ends(anga_type=anga_type)
-    interval_start = default_if_none(interval.jd_start, None)
-    # TODO
-    raise NotImplemented
+  def get_anga_spans_in_interval(self, anga_type, interval):
+    """
+
+    Assumptions: interval ends are not None. Anga spans in self could be None.
+    Raison d'etre: efficiency.
+    :param anga_type: 
+    :param interval: 
+    :return: 
+    """
+    all_spans = self.get_angas_with_ends(anga_type=anga_type)
+    spans = []
+    for span in all_spans:
+      # Does the anga start within the interval?
+      if span.jd_start is not None and span.jd_start >= interval.jd_start and span.jd_start <= interval.jd_end:
+        spans.append(span)
+      # Does the anga end within the interval?
+      elif span.jd_end is not None and span.jd_end >= interval.jd_start and span.jd_end <= interval.jd_end:
+        spans.append(span)
+      # Does the anga end fully contain the interval?
+      elif (span.jd_start is None or span.jd_start <= interval.jd_start) and (span.jd_end is None or span.jd_end >= interval.jd_end):
+        spans.append(span)
+      elif span.jd_start is not None and span.jd_start > interval.jd_end:
+        break
+    return spans
 
 
 # This class is not named Panchangam in order to be able to disambiguate from annual.Panchangam in serialized objects.

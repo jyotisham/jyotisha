@@ -1,10 +1,13 @@
 import logging
 import os
+from copy import deepcopy
 
 from jyotisha.panchaanga.spatio_temporal import City, annual, periodical
 # from jyotisha.panchaanga import scripts
 # from jyotisha.panchaanga.spatio_temporal import annual
+from jyotisha.panchaanga.temporal import ComputationSystem
 from jyotisha.panchaanga.temporal.time import Date
+from jyotisha_tests.spatio_temporal import chennai
 from timebudget import timebudget
 
 from sanskrit_data import testing
@@ -28,27 +31,30 @@ def test_timing(caplog):
 
 
 # noinspection PyUnresolvedReferences
-def panchaanga_json_comparer(city, year):
+def panchaanga_json_comparer(city, year, computation_system=ComputationSystem.DEFAULT):
   expected_content_path=os.path.join(TEST_DATA_PATH, '%s-%d.json' % (city.name, year))
-  panchaanga = annual.get_panchaanga_for_civil_year(city=city, year=year,
-                                                    allow_precomputed=False)
+  panchaanga = annual.get_panchaanga_for_civil_year(city=city, year=year, computation_system=computation_system, allow_precomputed=False)
   timebudget.report(reset=True)
   testing.json_compare(actual_object=panchaanga, expected_content_path=expected_content_path)
 
 
-def test_panchanga_chennai_18(caplog):
+# def test_panchaanga_chennai_2020(caplog):
+#   caplog.set_level(logging.INFO)
+#   comp_system = deepcopy(ComputationSystem.DEFAULT)
+#   comp_system.options.aparaahna_as_second_half = True
+#   panchaanga_json_comparer(city=chennai, year=2020, computation_system=comp_system)
+
+
+def test_panchaanga_chennai_18(caplog):
   caplog.set_level(logging.INFO)
-
-  city = City('Chennai', "13:05:24", "80:16:12", "Asia/Calcutta")
-  panchaanga_json_comparer(city=city, year=2018)
+  panchaanga_json_comparer(city=chennai, year=2018)
 
 
-def test_panchanga_chennai_19():
-  city = City('Chennai', "13:05:24", "80:16:12", "Asia/Calcutta")
-  panchaanga_json_comparer(city=city, year=2019)
+def test_panchaanga_chennai_19():
+  panchaanga_json_comparer(city=chennai, year=2019)
 
 
-def test_panchanga_orinda(caplog):
+def test_panchaanga_orinda(caplog):
   caplog.set_level(logging.INFO)
   city = City('Orinda', '37:51:38', '-122:10:59', 'America/Los_Angeles')
   panchaanga_json_comparer(city=city, year=2019)
@@ -83,5 +89,5 @@ def test_orinda_ca_dst_2019():
   panchaanga = panchaanga = periodical.Panchaanga(city=city, start_date=Date(2019, 1, 1), end_date=Date(2019, 5, 1))
   # March 10 is the 69th day of the year (70th in leap years) in the Gregorian calendar.
   # Sunrise on that day is around 7:27 AM according to Google, which is JD 2458553.14375 according to https://ssd.jpl.nasa.gov/tc.cgi#top .
-  # We use the index 70 below as the annual panchanga object seems to use the index d + 1.
+  # We use the index 70 below as the annual panchaanga object seems to use the index d + 1.
   assert round(panchaanga.daily_panchaangas_sorted()[70].jd_sunrise, ndigits=4) == round(2458554.104348237, ndigits=4)  # 2019-Mar-10 07:30:15.68
