@@ -32,20 +32,9 @@ class PeriodicPanchaangaApplier(JsonObject):
       # We want for arunodaya *preceding* today's sunrise; therefore, use d - 1
       interval_prev = self.daily_panchaangas[d-1].day_length_based_periods.arunodaya
       interval_next = self.daily_panchaangas[d].day_length_based_periods.arunodaya
-    elif kaala == 'sunrise':
-      interval_prev = Interval(name=kaala, jd_start=self.daily_panchaangas[d].jd_sunrise, jd_end=self.daily_panchaangas[d].jd_sunrise)
-      interval_next = Interval(name=kaala, jd_start=self.daily_panchaangas[d+1].jd_sunrise, jd_end=self.daily_panchaangas[d+1].jd_sunrise)
-    elif kaala == 'sunset':
-      interval_prev = Interval(name=kaala, jd_start=self.daily_panchaangas[d].jd_sunset, jd_end=self.daily_panchaangas[d].jd_sunset)
-      interval_next = Interval(name=kaala, jd_start=self.daily_panchaangas[d+1].jd_sunset, jd_end=self.daily_panchaangas[d+1].jd_sunset)
-    elif kaala == 'moonrise':
-      interval_prev = Interval(name=kaala, jd_start=self.daily_panchaangas[d].jd_moonrise, jd_end=self.daily_panchaangas[d].jd_moonrise)
-      interval_next = Interval(name=kaala, jd_start=self.daily_panchaangas[d+1].jd_moonrise, jd_end=self.daily_panchaangas[d+1].jd_moonrise)
     else:
-      if kaala == "aparaahna":
-        kaala = "aparaahna_muhuurta"
-      interval_prev = getattr(self.daily_panchaangas[d].day_length_based_periods, kaala)
-      interval_next = getattr(self.daily_panchaangas[d+1].day_length_based_periods, kaala)
+      interval_prev = self.daily_panchaangas[d].get_interval(name=kaala)
+      interval_next = self.daily_panchaangas[d+1].get_interval(name=kaala)
     if interval_prev is None or interval_next is None:
       raise ValueError(kaala)
     angas = (interval_prev.get_boundary_angas(anga_type=anga_type, ayanaamsha_id=self.ayanaamsha_id), interval_next.get_boundary_angas(anga_type=anga_type, ayanaamsha_id=self.ayanaamsha_id))
@@ -64,9 +53,10 @@ class DailyPanchaangaApplier(JsonObject):
 
 class ComputationOptions(JsonObject):
   def __init__(self, set_lagnas=None, no_fests=None, fest_repos=None, fest_ids_included=None, fest_ids_excluded=None,
-               fest_tags_included=None, fest_tags_excluded=None):
+               fest_tags_included=None, fest_tags_excluded=None, aparaahna_as_second_half=None):
     super().__init__()
     self.set_lagnas = set_lagnas
+    self.aparaahna_as_second_half = aparaahna_as_second_half
     self.no_fests = no_fests
     from jyotisha.panchaanga.temporal.festival import rules
     self.fest_repos = fest_repos if fest_repos is not None else rules.rule_repos

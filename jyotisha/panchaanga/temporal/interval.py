@@ -36,7 +36,11 @@ default_if_none(time.ist_timezone.julian_day_to_local_time_str(jd=self.jd_end), 
         return NakshatraDivision(x, ayanaamsha_id=ayanaamsha_id).get_anga(anga_type=anga_type)
 
     from jyotisha.panchaanga.temporal.zodiac.angas import BoundaryAngas
-    return BoundaryAngas(start=f(self.jd_start), end=f(self.jd_end), interval=self)
+    if self.jd_start == self.jd_end:
+      anga = f(self.jd_start)
+      return BoundaryAngas(start=anga, end=anga, interval=self)
+    else:
+      return BoundaryAngas(start=f(self.jd_start), end=f(self.jd_end), interval=self)
 
 
 class AngaSpan(Interval):
@@ -98,13 +102,6 @@ class DayLengthBasedPeriods(common.JsonObject):
     for attr_name, obj in self.__dict__.items():
       if isinstance(obj, Interval):
         obj.name = attr_name
-
-  def get_interval(self, interval_name):
-    if interval_name == "sunrise":
-      return Interval(jd_start=self.dinamaana.jd_start, jd_end=self.dinamaana.jd_start)
-    if interval_name == "sunset":
-      return Interval(jd_start=self.dinamaana.jd_end, jd_end=self.dinamaana.jd_end)
-    return getattr(self, interval_name)
 
 
 class TbSayanaMuhuurta(Interval):

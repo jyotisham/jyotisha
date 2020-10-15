@@ -10,7 +10,7 @@ from jyotisha.panchaanga.temporal import zodiac
 from jyotisha.panchaanga.temporal.body import Graha
 from jyotisha.panchaanga.temporal.festival import rules, FestivalInstance
 from jyotisha.panchaanga.temporal.festival.applier.solar import DailySolarAssigner
-from jyotisha.panchaanga.temporal.interval import DayLengthBasedPeriods
+from jyotisha.panchaanga.temporal.interval import DayLengthBasedPeriods, Interval
 from jyotisha.panchaanga.temporal.month import LunarMonthAssigner
 from jyotisha.panchaanga.temporal.time import Timezone, Date
 from jyotisha.panchaanga.temporal.zodiac import Ayanamsha, NakshatraDivision, AngaSpanFinder
@@ -187,6 +187,18 @@ class DailyPanchaanga(common.JsonObject):
         jd_start=jd_start, jd_end=jd_end,
         muhuurta_id=muhuurta_id))
     self.day_length_based_periods.tb_muhuurtas = tb_muhuurtas
+
+  def get_interval(self, name):
+    if name == "moonrise":
+      return Interval(name=name, jd_start=self.jd_moonrise, jd_end=self.jd_moonrise)
+    elif name == "sunrise":
+      return Interval(jd_start=self.jd_sunrise, jd_end=self.jd_sunrise, name=name)
+    elif name == "sunset":
+      return Interval(jd_start=self.jd_sunset, jd_end=self.jd_sunset, name=name)
+    else:
+      if name == "aparaahna" and not self.computation_system.options.aparaahna_as_second_half:
+        name = "aparaahna_muhuurta"
+      return getattr(self.day_length_based_periods, name)
 
   def compute_solar_day_sunset(self, previous_day_panchaanga=None):
     """Compute the solar month and day for a given Julian day at sunset.
