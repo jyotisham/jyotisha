@@ -28,29 +28,23 @@ class PeriodicPanchaangaApplier(JsonObject):
     pass
 
 
-  def get_2_day_interval_boundary_angas(self, kaala, anga_type, d):
-    """
-    
-    Useful only for tithi, nakShatra or yoga. NOT karaNa (since >2 karaNas may exist within an interval).
-    :param kaala: 
-    :param anga_type: 
-    :param d: 
-    :return: 
-    """
-    from jyotisha.panchaanga.temporal.interval import Interval
-    if kaala == 'arunodaya':
-      # We want for arunodaya *preceding* today's sunrise; therefore, use d - 1
-      (spans0, interval0) = self.daily_panchaangas[d - 1].get_interval_anga_spans(name=kaala, anga_type=anga_type)
-      (spans1, interval1) = self.daily_panchaangas[d].get_interval_anga_spans(name=kaala, anga_type=anga_type)
-    else:
-      (spans0, interval0) = self.daily_panchaangas[d].get_interval_anga_spans(name=kaala, anga_type=anga_type)
-      (spans1, interval1) = self.daily_panchaangas[d + 1].get_interval_anga_spans(name=kaala, anga_type=anga_type)
-    if len(spans0) == 1:
-      spans0 = spans0 + spans0
-    if len(spans1) == 1:
-      spans1 = spans1 + spans1
-    angas = (BoundaryAngas(start=spans0[0].anga, end=spans0[1].anga, interval=interval0), BoundaryAngas(start=spans1[0].anga, end=spans1[1].anga, interval=interval1))
-    return angas
+def get_2_day_interval_boundary_angas(kaala, anga_type, p0, p1):
+  """
+  
+  Useful only for tithi, nakShatra or yoga. NOT karaNa (since >2 karaNas may exist within an interval).
+  :param kaala: 
+  :param anga_type: 
+  :return: 
+  """
+  from jyotisha.panchaanga.temporal.interval import Interval
+  (spans0, interval0) = p0.get_interval_anga_spans(name=kaala, anga_type=anga_type)
+  (spans1, interval1) = p1.get_interval_anga_spans(name=kaala, anga_type=anga_type)
+  if len(spans0) == 1:
+    spans0 = spans0 + spans0
+  if len(spans1) == 1:
+    spans1 = spans1 + spans1
+  angas = (BoundaryAngas(start=spans0[0].anga, end=spans0[1].anga, interval=interval0), BoundaryAngas(start=spans1[0].anga, end=spans1[1].anga, interval=interval1))
+  return angas
 
 
 class DailyPanchaangaApplier(JsonObject):

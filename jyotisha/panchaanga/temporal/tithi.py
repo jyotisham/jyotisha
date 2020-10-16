@@ -2,7 +2,7 @@
 import logging
 import sys
 
-from jyotisha.panchaanga.temporal import PeriodicPanchaangaApplier, interval
+from jyotisha.panchaanga.temporal import PeriodicPanchaangaApplier, interval, get_2_day_interval_boundary_angas
 from jyotisha.panchaanga.temporal import time
 from jyotisha.panchaanga.temporal.zodiac.angas import AngaType, Anga
 
@@ -44,7 +44,7 @@ class TithiAssigner(PeriodicPanchaangaApplier):
     for d in range(1, self.panchaanga.duration + 1):
       [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
 
-      (d0_angas, d1_angas) = self.get_2_day_interval_boundary_angas(kaala="aparaahna", anga_type=AngaType.TITHI, d=d)
+      (d0_angas, d1_angas) = get_2_day_interval_boundary_angas(kaala="aparaahna", anga_type=AngaType.TITHI, p0=self.daily_panchaangas[d], p1=self.daily_panchaangas[d+1])
       angam_start = d0_angas.start
       next_anga = angam_start + 1
       nnext_anga = next_anga + 1

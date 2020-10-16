@@ -5,7 +5,7 @@ from math import floor
 
 from jyotisha import names
 from jyotisha.panchaanga import temporal
-from jyotisha.panchaanga.temporal import time
+from jyotisha.panchaanga.temporal import time, get_2_day_interval_boundary_angas
 from jyotisha.panchaanga.temporal import zodiac, tithi
 from jyotisha.panchaanga.temporal.body import Graha
 from jyotisha.panchaanga.temporal.festival import FestivalInstance
@@ -107,7 +107,7 @@ class TithiFestivalAssigner(FestivalAssigner):
         festival_name = 'subrahmaNya-' + festival_name
 
       if self.daily_panchaangas[d].sunrise_day_angas.tithi_at_sunrise.index == 5 or self.daily_panchaangas[d].sunrise_day_angas.tithi_at_sunrise.index == 6:
-        (d0_angas, d1_angas) = self.get_2_day_interval_boundary_angas(kaala="madhyaahna", anga_type=AngaType.TITHI, d=d)
+        (d0_angas, d1_angas) = get_2_day_interval_boundary_angas(kaala="madhyaahna", anga_type=AngaType.TITHI, p0=self.daily_panchaangas[d], p1=self.daily_panchaangas[d+1])
 
         if d0_angas.start.index == 6 or d0_angas.end.index == 6:
           if festival_name in self.panchaanga.festival_id_to_days:

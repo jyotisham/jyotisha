@@ -90,25 +90,30 @@ class FestivalAssigner(PeriodicPanchaangaApplier):
     fday = None
 
     if anga_sunrise == prev_anga or anga_sunrise == target_anga:
-      (d0_angas, d1_angas) = self.get_2_day_interval_boundary_angas(kaala=kaala, anga_type=anga_type, d=d)
         # Some error, e.g. weird kaala, so skip festival
+      if kaala == "arunodaya":
+        p0 = self.daily_panchaangas[d-1]
+        p1 = self.daily_panchaangas[d]
+      else:
+        p0 = self.daily_panchaangas[d]
+        p1 = self.daily_panchaangas[d+1]
       if priority == 'paraviddha':
-        d_offset = priority_decision.decide_paraviddha(d0_angas=d0_angas, d1_angas=d1_angas, target_anga=target_anga)
+        d_offset = priority_decision.decide_paraviddha(p0=p0, p1=p1, target_anga=target_anga, kaala=kaala)
         if d_offset is not None:
           fday = d + d_offset
       elif priority == 'puurvaviddha':
-        d_offset = priority_decision.decide_puurvaviddha(d0_angas=d0_angas, d1_angas=d1_angas, target_anga=target_anga)
+        d_offset = priority_decision.decide_puurvaviddha(p0=p0, p1=p1, target_anga=target_anga, kaala=kaala)
         if d_offset is not None:
           if self.daily_panchaangas[d-1].date not in self.panchaanga.festival_id_to_days.get(festival_name, []):
             fday = d + d_offset
       elif priority == 'vyaapti':
-        d_offset = priority_decision.decide_aparaahna_vyaapti(d0_angas=d0_angas, d1_angas=d1_angas, target_anga=target_anga, ayanaamsha_id=self.ayanaamsha_id)
+        d_offset = priority_decision.decide_aparaahna_vyaapti(p0=p0, p1=p1, target_anga=target_anga, kaala=kaala, ayanaamsha_id=self.ayanaamsha_id)
         if d_offset is not None:
           if self.daily_panchaangas[d-1].date not in self.panchaanga.festival_id_to_days.get(festival_name, []):
             fday = d + d_offset
-        else:
-          if d0_angas.start > target_anga:
-            logging.info("vyApti, %s: %s, %s, %s.", festival_name, str(d0_angas.to_tuple()), str(d1_angas.to_tuple()), str(target_anga.index))
+        # else:
+        #   if d0_angas.start > target_anga:
+        #     logging.info("vyApti, %s: %s, %s, %s.", festival_name, str(d0_angas.to_tuple()), str(d1_angas.to_tuple()), str(target_anga.index))
       else:
         logging.error('Unknown priority "%s" for %s! Check the rules!' % (priority, festival_name))
 

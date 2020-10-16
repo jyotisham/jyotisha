@@ -1,9 +1,10 @@
 import logging
 
-from jyotisha.panchaanga.temporal import zodiac
+from jyotisha.panchaanga.temporal import zodiac, get_2_day_interval_boundary_angas
 
 
-def decide_paraviddha(d0_angas, d1_angas, target_anga):
+def decide_paraviddha(p0, p1, target_anga, kaala):
+  (d0_angas, d1_angas) = get_2_day_interval_boundary_angas(kaala=kaala, anga_type=target_anga.get_type(), p0=p0, p1=p1)
   prev_anga = target_anga - 1
   next_anga = target_anga + 1
 
@@ -32,7 +33,8 @@ def decide_paraviddha(d0_angas, d1_angas, target_anga):
   return fday
 
 
-def decide_puurvaviddha(d0_angas, d1_angas, target_anga):
+def decide_puurvaviddha(p0, p1, target_anga, kaala):
+  (d0_angas, d1_angas) = get_2_day_interval_boundary_angas(kaala=kaala, anga_type=target_anga.get_type(), p0=p0, p1=p1)
   kaala = d0_angas.interval.name
   prev_anga = target_anga - 1
   next_anga = target_anga + 1
@@ -60,13 +62,10 @@ def decide_puurvaviddha(d0_angas, d1_angas, target_anga):
   return fday
 
 
-def decide_aparaahna_vyaapti(d0_angas, d1_angas, target_anga, ayanaamsha_id):
-  # TODO: Missed case. 
-  # kAJcI 8 jagadguru zrI~kaivalyAnandayOgEndra sarasvatI ArAdhanA - lunar month 10, tithi 14, aparAhNa.
-
-  # Doesn't seem to be equivalent to prior logic - hence not calling for now.
-  if d0_angas.interval.name not in ['aparaahna', 'aparaahna_muhuurta']:
-    return None
+def decide_aparaahna_vyaapti(p0, p1, target_anga, ayanaamsha_id, kaala):
+  (d0_angas, d1_angas) = get_2_day_interval_boundary_angas(kaala=kaala, anga_type=target_anga.get_type(), p0=p0, p1=p1)
+  if kaala not in ['aparaahna', 'aparaahna_muhuurta']:
+    raise ValueError(kaala)
 
   prev_anga = target_anga - 1
   next_anga = target_anga + 1
