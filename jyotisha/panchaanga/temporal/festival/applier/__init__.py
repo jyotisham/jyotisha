@@ -91,12 +91,8 @@ class FestivalAssigner(PeriodicPanchaangaApplier):
 
     if anga_sunrise == prev_anga or anga_sunrise == target_anga:
         # Some error, e.g. weird kaala, so skip festival
-      if kaala == "arunodaya":
-        p0 = self.daily_panchaangas[d-1]
-        p1 = self.daily_panchaangas[d]
-      else:
-        p0 = self.daily_panchaangas[d]
-        p1 = self.daily_panchaangas[d+1]
+      p0 = self.daily_panchaangas[d]
+      p1 = self.daily_panchaangas[d+1]
       d_offset = priority_decision.decide(p0=p0, p1=p1, target_anga=target_anga, kaala=kaala, ayanaamsha_id=self.ayanaamsha_id, priority=priority)
       if d_offset is not None:
         if priority not in ('puurvaviddha', 'vyaapti'):

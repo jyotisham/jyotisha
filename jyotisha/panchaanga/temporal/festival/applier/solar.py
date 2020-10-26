@@ -179,21 +179,20 @@ class DailySolarAssigner(DailyPanchaangaApplier):
       fest_dict = rule_set.get_month_anga_fests(month=day_panchaanga.solar_sidereal_date_sunset.month, anga=anga, month_type=rules.RulesRepo.SIDEREAL_SOLAR_MONTH_DIR, anga_type_id=anga_type_id)
       for fest_id, fest_rule in fest_dict.items():
         kaala = fest_rule.get_kaala()
-        if kaala != "arunodaya":
-          priority = fest_rule.timing.get_priority()
-          anga_type_str = fest_rule.timing.anga_type
-          target_anga = anga
-          fday = priority_decision.decide(p0=previous_day_panchaanga, p1=day_panchaanga, target_anga=target_anga, kaala=kaala, ayanaamsha_id=self.ayanaamsha_id)
-          if fday == 0:
-            previous_day_panchaanga.festival_id_to_instance[fest_id] = FestivalInstance(name=fest_id)
-          elif fday == 1:
-            if priority not in ('puurvaviddha', 'vyaapti'):
-              day_panchaanga.festival_id_to_instance[fest_id] = FestivalInstance(name=fest_id)
-            elif fest_id not in previous_day_panchaanga.festival_id_to_instance:
-              # puurvaviddha or vyaapti fest. More careful condition.
-              day_panchaanga.festival_id_to_instance[fest_id] = FestivalInstance(name=fest_id)
-          elif fday == -1:
-              raise NotImplemented
+        priority = fest_rule.timing.get_priority()
+        anga_type_str = fest_rule.timing.anga_type
+        target_anga = anga
+        fday = priority_decision.decide(p0=previous_day_panchaanga, p1=day_panchaanga, target_anga=target_anga, kaala=kaala, ayanaamsha_id=self.ayanaamsha_id)
+        if fday == 0:
+          previous_day_panchaanga.festival_id_to_instance[fest_id] = FestivalInstance(name=fest_id)
+        elif fday == 1:
+          if priority not in ('puurvaviddha', 'vyaapti'):
+            day_panchaanga.festival_id_to_instance[fest_id] = FestivalInstance(name=fest_id)
+          elif fest_id not in previous_day_panchaanga.festival_id_to_instance:
+            # puurvaviddha or vyaapti fest. More careful condition.
+            day_panchaanga.festival_id_to_instance[fest_id] = FestivalInstance(name=fest_id)
+        elif fday == -1:
+            raise NotImplemented
     # TODO Incomplete
     raise NotImplemented
 

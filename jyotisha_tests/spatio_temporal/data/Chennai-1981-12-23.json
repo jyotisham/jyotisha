@@ -101,12 +101,6 @@
       "jsonClass": "Interval",
       "name": "aparaahna_muhuurta"
     },
-    "arunodaya": {
-      "jd_end": 2444962.5427,
-      "jd_start": 2444962.4717,
-      "jsonClass": "Interval",
-      "name": "arunodaya"
-    },
     "braahma": {
       "jd_end": 2444961.5068,
       "jd_start": 2444961.4713,
@@ -185,6 +179,12 @@
       "jd_start": 2444962.0104,
       "jsonClass": "Interval",
       "name": "pradosha"
+    },
+    "preceeding_arunodaya": {
+      "jd_end": 2444961.5423,
+      "jd_start": 2444961.4713,
+      "jsonClass": "Interval",
+      "name": "preceeding_arunodaya"
     },
     "puurvaahna": {
       "jd_end": 2444961.7763,

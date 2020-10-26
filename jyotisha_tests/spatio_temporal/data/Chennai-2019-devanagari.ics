@@ -283,11 +283,11 @@ BEGIN:VEVENT
 SUMMARY:Mahādhanurvyatīpāta-Snānam
 DTSTART;VALUE=DATE:20190110
 DTEND;VALUE=DATE:20190111
-DESCRIPTION:Observed on  of Dhanuḥ (solar) month (arunodaya/puurvaviddha
- ).<br/>Special snānam on account of mahādhanurvyatīpātam.<br/><br/>htt
- ps%3A//github.com/sanskrit-coders/adyatithi/tree/master/general/sidereal_s
- olar_month/yoga/09/17/mahAdhanurvyatIpAta-snAnam__info.toml<br/><br/>#Spec
- ialSnanam
+DESCRIPTION:Observed on  of Dhanuḥ (solar) month (preceeding_arunodaya/p
+ uurvaviddha).<br/>Special snānam on account of mahādhanurvyatīpātam.<b
+ r/><br/>https%3A//github.com/sanskrit-coders/adyatithi/tree/master/general
+ /sidereal_solar_month/yoga/09/17/mahAdhanurvyatIpAta-snAnam__info.toml<br/
+ ><br/>#SpecialSnanam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2392,15 +2392,15 @@ BEGIN:VEVENT
 SUMMARY:Māgha-Pūrṇimā-Snānam
 DTSTART;VALUE=DATE:20190219
 DTEND;VALUE=DATE:20190220
-DESCRIPTION:Observed on Paurṇamāsī tithi of Māghaḥ (lunar) month (a
- runodaya/paraviddha).<br/>Perform snana four ghatikas before sunrise (duri
- ng aruṇodayam\, when the Moon is still up\, on the full-moon days of ā
- ṣāḍha\, kārttika\, māgha and vaiśākha – hence the name ā-kā-m
- ā-vai) bestows strength\, beauty\, fame\, dharma\, knowledge\, happiness\
- , fortitude and health.<br/>### References<br/>* Satyavrata Smriti<br/><br
- /><br/>https%3A//github.com/sanskrit-coders/adyatithi/tree/master/general/
- lunar_month/tithi/11/15/mAgha-pUrNimA-snAnam__info.toml<br/><br/>#SpecialS
- nanam
+DESCRIPTION:Observed on Paurṇamāsī tithi of Māghaḥ (lunar) month (p
+ receeding_arunodaya/paraviddha).<br/>Perform snana four ghatikas before su
+ nrise (during prêchêêding_arunôdayam\, when the Moon is still up\, on 
+ the full-moon days of āṣāḍha\, kārttika\, māgha and vaiśākha –
+  hence the name ā-kā-mā-vai) bestows strength\, beauty\, fame\, dharma\
+ , knowledge\, happiness\, fortitude and health.<br/>### References<br/>* S
+ atyavrata Smriti<br/><br/><br/>https%3A//github.com/sanskrit-coders/adyati
+ thi/tree/master/general/lunar_month/tithi/11/15/mAgha-pUrNimA-snAnam__info
+ .toml<br/><br/>#SpecialSnanam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4854,10 +4854,10 @@ BEGIN:VEVENT
 SUMMARY:Viṣukkani
 DTSTART;VALUE=DATE:20190414
 DTEND;VALUE=DATE:20190415
-DESCRIPTION:Observed on day 1 of Meṣaḥ (solar) month (arunodaya/puurva
- viddha (default)).<br/><br/><br/>https%3A//github.com/sanskrit-coders/adya
- tithi/tree/master/tamil/sidereal_solar_month/day/01/01/viSukkan2i__info.to
- ml<br/><br/>#CommonFestivals #SunSankranti
+DESCRIPTION:Observed on day 1 of Meṣaḥ (solar) month (preceeding_aruno
+ daya/puurvaviddha (default)).<br/><br/><br/>https%3A//github.com/sanskrit-
+ coders/adyatithi/tree/master/tamil/sidereal_solar_month/day/01/01/viSukkan
+ 2i__info.toml<br/><br/>#CommonFestivals #SunSankranti
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6889,13 +6889,13 @@ SUMMARY:Vaiśākha-Pūrṇimā-Snānam
 DTSTART;VALUE=DATE:20190518
 DTEND;VALUE=DATE:20190519
 DESCRIPTION:Observed on Paurṇamāsī tithi of Vaiśākhaḥ (lunar) mont
- h (arunodaya/paraviddha).<br/>Perform snana four ghatikas before sunrise (
- during aruṇodayam\, when the Moon is still up\, on the full-moon days of
-  āṣāḍha\, kārttika\, māgha and vaiśākha – hence the name ā-k
- ā-mā-vai) bestows strength\, beauty\, fame\, dharma\, knowledge\, happin
- ess\, fortitude and health.<br/><br/>balaṃ rūpaṃ yaśo dharmaṃ jñ
- ānamāyuḥ sukhaṃ dhṛtim|<br/>ārogyaṃ paramāpnoti samyak snānen
- a mānavaḥ||<br/><br/><br/>### References<br/>* Satyavrata Smriti<br/><b
+ h (preceeding_arunodaya/paraviddha).<br/>Perform snana four ghatikas befor
+ e sunrise (during prêchêêding_arunôdayam\, when the Moon is still up\,
+  on the full-moon days of āṣāḍha\, kārttika\, māgha and vaiśākha
+  – hence the name ā-kā-mā-vai) bestows strength\, beauty\, fame\, dha
+ rma\, knowledge\, happiness\, fortitude and health.<br/><br/>balaṃ rūpa
+ ṃ yaśo dharmaṃ jñānamāyuḥ sukhaṃ dhṛtim|<br/>ārogyaṃ para
+ māpnoti samyak ...<br/><br/>### References<br/>* Satyavrata Smriti<br/><b
  r/><br/>https%3A//github.com/sanskrit-coders/adyatithi/tree/master/general
  /lunar_month/tithi/02/15/vaizAkha-pUrNimA-snAnam__info.toml<br/><br/>#Spec
  ialSnanam
@@ -9805,14 +9805,14 @@ SUMMARY:Āṣāḍha-Pūrṇimā-Snānam
 DTSTART;VALUE=DATE:20190716
 DTEND;VALUE=DATE:20190717
 DESCRIPTION:Observed on Paurṇamāsī tithi of Āṣāḍhaḥ (lunar) mo
- nth (arunodaya/paraviddha).<br/>Perform snana four ghatikas before sunrise
-  (during aruṇodayam\, when the Moon is still up\, on the full-moon days 
- of āṣāḍha\, kārttika\, māgha and vaiśākha – hence the name ā-
- kā-mā-vai) bestows strength\, beauty\, fame\, dharma\, knowledge\, happi
- ness\, fortitude and health.<br/>### References<br/>* Satyavrata Smriti<br
- /><br/><br/>https%3A//github.com/sanskrit-coders/adyatithi/tree/master/gen
- eral/lunar_month/tithi/04/15/ASADha-pUrNimA-snAnam__info.toml<br/><br/>#Sp
- ecialSnanam
+ nth (preceeding_arunodaya/paraviddha).<br/>Perform snana four ghatikas bef
+ ore sunrise (during prêchêêding_arunôdayam\, when the Moon is still up
+ \, on the full-moon days of āṣāḍha\, kārttika\, māgha and vaiśāk
+ ha – hence the name ā-kā-mā-vai) bestows strength\, beauty\, fame\, d
+ harma\, knowledge\, happiness\, fortitude and health.<br/>### References<b
+ r/>* Satyavrata Smriti<br/><br/><br/>https%3A//github.com/sanskrit-coders/
+ adyatithi/tree/master/general/lunar_month/tithi/04/15/ASADha-pUrNimA-snAna
+ m__info.toml<br/><br/>#SpecialSnanam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17350,14 +17350,14 @@ SUMMARY:Kārttika-Pūrṇimā-Snānam
 DTSTART;VALUE=DATE:20191112
 DTEND;VALUE=DATE:20191113
 DESCRIPTION:Observed on Paurṇamāsī tithi of Kārttikaḥ (lunar) month
-  (arunodaya/paraviddha).<br/>Perform snana four ghatikas before sunrise (d
- uring aruṇodayam\, when the Moon is still up\, on the full-moon days of 
- āṣāḍha\, kārttika\, māgha and vaiśākha – hence the name ā-kā
- -mā-vai) bestows strength\, beauty\, fame\, dharma\, knowledge\, happines
- s\, fortitude and health.<br/>### References<br/>* Satyavrata Smriti<br/><
- br/><br/>https%3A//github.com/sanskrit-coders/adyatithi/tree/master/genera
- l/lunar_month/tithi/08/15/kArttika-pUrNimA-snAnam__info.toml<br/><br/>#Spe
- cialSnanam
+  (preceeding_arunodaya/paraviddha).<br/>Perform snana four ghatikas before
+  sunrise (during prêchêêding_arunôdayam\, when the Moon is still up\, 
+ on the full-moon days of āṣāḍha\, kārttika\, māgha and vaiśākha 
+ – hence the name ā-kā-mā-vai) bestows strength\, beauty\, fame\, dhar
+ ma\, knowledge\, happiness\, fortitude and health.<br/>### References<br/>
+ * Satyavrata Smriti<br/><br/><br/>https%3A//github.com/sanskrit-coders/ady
+ atithi/tree/master/general/lunar_month/tithi/08/15/kArttika-pUrNimA-snAnam
+ __info.toml<br/><br/>#SpecialSnanam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17748,15 +17748,15 @@ BEGIN:VEVENT
 SUMMARY:Muḍavan Muḽukku
 DTSTART;VALUE=DATE:20191117
 DTEND;VALUE=DATE:20191118
-DESCRIPTION:Observed on day 1 of Vṛścikaḥ (solar) month (arunodaya/pu
- urvaviddha (default)).<br/>Nadha Sharma (ta:muḍavan{}\, i.e. lame man) a
- nd his wife Anavidyambikai came to Mayavaram in order to perform a tulā s
- nānam in Kaveri. However\, by the time they arrived\, it was the last day
-  of tulā māsa and they could not complete the snānam. They were disappo
- inted yet spent their time doing Puja of the Lord\, who appeared in their 
- dreams and asked them to take a bath ...<br/><br/><br/>https%3A//github.co
- m/sanskrit-coders/adyatithi/tree/master/tamil/sidereal_solar_month/day/08/
- 01/muDavan2%20muzhukku__info.toml<br/><br/>#CommonFestivals
+DESCRIPTION:Observed on day 1 of Vṛścikaḥ (solar) month (preceeding_a
+ runodaya/puurvaviddha (default)).<br/>Nadha Sharma (ta:muḍavan{}\, i.e. 
+ lame man) and his wife Anavidyambikai came to Mayavaram in order to perfor
+ m a tulā snānam in Kaveri. However\, by the time they arrived\, it was t
+ he last day of tulā māsa and they could not complete the snānam. They w
+ ere disappointed yet spent their time doing Puja of the Lord\, who appeare
+ d in their dreams and asked them to ...<br/><br/><br/>https%3A//github.com
+ /sanskrit-coders/adyatithi/tree/master/tamil/sidereal_solar_month/day/08/0
+ 1/muDavan2%20muzhukku__info.toml<br/><br/>#CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
