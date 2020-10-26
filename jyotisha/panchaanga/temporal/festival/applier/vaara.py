@@ -18,7 +18,7 @@ class VaraFestivalAssigner(FestivalAssigner):
 
 
   def assign_bhriguvara_subrahmanya_vratam(self):
-    for d in range(1, self.panchaanga.duration + 1):
+    for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + 1):
       [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
 
       # BHRGUVARA SUBRAHMANYA VRATAM
@@ -30,7 +30,7 @@ class VaraFestivalAssigner(FestivalAssigner):
           self.add_to_festival_id_to_days(festival_name, d)
 
   def assign_masa_vara_yoga_vratam(self):
-    for d in range(1, self.panchaanga.duration + 1):
+    for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + 1):
 
       # KRTTIKA SOMAVASARA
       if self.daily_panchaangas[d].lunar_month_sunrise.index == 8 and self.daily_panchaangas[d].date.get_weekday() == 1:
@@ -47,7 +47,7 @@ class VaraFestivalAssigner(FestivalAssigner):
           self.add_to_festival_id_to_days(mwd_fest_name, d)
 
   def assign_tithi_vara_yoga(self):
-    for d in range(1, self.panchaanga.duration + 1):
+    for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + 1):
       [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
 
       # MANGALA-CHATURTHI
@@ -68,7 +68,7 @@ class VaraFestivalAssigner(FestivalAssigner):
 
 
   def assign_nakshatra_vara_yoga_vratam(self):
-    for d in range(1, self.panchaanga.duration + 1):
+    for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + 1):
       [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
 
       # NAKSHATRA-WEEKDAY FESTIVALS
@@ -94,7 +94,7 @@ class VaraFestivalAssigner(FestivalAssigner):
 
 
   def assign_ayushman_bava_saumya_yoga(self):
-    for d in range(1, self.panchaanga.duration + 1):
+    for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + 1):
       [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
 
       # AYUSHMAN BHAVA SAUMYA

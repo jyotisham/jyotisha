@@ -82,6 +82,331 @@
     }
   },
   "date_str_to_panchaanga": {
+    "2018-12-30": {
+      "date": {
+        "day": 30,
+        "jsonClass": "Date",
+        "month": 12,
+        "weekday": 0,
+        "year": 2018
+      },
+      "day_length_based_periods": {
+        "aparaahna": {
+          "jd_end": 2458483.0129,
+          "jd_start": 2458482.7787,
+          "jsonClass": "Interval",
+          "name": "aparaahna"
+        },
+        "aparaahna_muhuurta": {
+          "jd_end": 2458482.9192,
+          "jd_start": 2458482.8255,
+          "jsonClass": "Interval",
+          "name": "aparaahna_muhuurta"
+        },
+        "braahma": {
+          "jd_end": 2458482.509,
+          "jd_start": 2458482.4735,
+          "jsonClass": "Interval",
+          "name": "braahma"
+        },
+        "dinaanta": {
+          "jd_end": 2458483.4118,
+          "jd_start": 2458483.3453,
+          "jsonClass": "Interval",
+          "name": "dinaanta"
+        },
+        "dinamaana": {
+          "jd_end": 2458483.0129,
+          "jd_start": 2458482.5445,
+          "jsonClass": "Interval",
+          "name": "dinamaana"
+        },
+        "gulika": {
+          "jd_end": 2458482.9544,
+          "jd_start": 2458482.8958,
+          "jsonClass": "Interval",
+          "name": "gulika"
+        },
+        "jsonClass": "DayLengthBasedPeriods",
+        "maadhyaahnika_sandhyaa": {
+          "jd_end": 2458482.7318,
+          "jd_start": 2458482.7006,
+          "jsonClass": "Interval",
+          "name": "maadhyaahnika_sandhyaa"
+        },
+        "maadhyaahnika_sandhyaa_end": {
+          "jd_end": 2458482.9817,
+          "jd_start": 2458482.9504,
+          "jsonClass": "Interval",
+          "name": "maadhyaahnika_sandhyaa_end"
+        },
+        "madhyaahna": {
+          "jd_end": 2458482.8255,
+          "jd_start": 2458482.7318,
+          "jsonClass": "Interval",
+          "name": "madhyaahna"
+        },
+        "madhyaraatri": {
+          "jd_end": 2458483.332,
+          "jd_start": 2458483.2256,
+          "jsonClass": "Interval",
+          "name": "madhyaraatri"
+        },
+        "nishiitha": {
+          "jd_end": 2458483.2966,
+          "jd_start": 2458483.2611,
+          "jsonClass": "Interval",
+          "name": "nishiitha"
+        },
+        "praatah": {
+          "jd_end": 2458482.6382,
+          "jd_start": 2458482.5445,
+          "jsonClass": "Interval",
+          "name": "praatah"
+        },
+        "praatas_sandhyaa": {
+          "jd_end": 2458482.5445,
+          "jd_start": 2458482.509,
+          "jsonClass": "Interval",
+          "name": "praatas_sandhyaa"
+        },
+        "praatas_sandhyaa_end": {
+          "jd_end": 2458482.7006,
+          "jd_start": 2458482.6694,
+          "jsonClass": "Interval",
+          "name": "praatas_sandhyaa_end"
+        },
+        "pradosha": {
+          "jd_end": 2458483.0484,
+          "jd_start": 2458483.0129,
+          "jsonClass": "Interval",
+          "name": "pradosha"
+        },
+        "preceeding_arunodaya": {
+          "jd_end": 2458482.5445,
+          "jd_start": 2458482.4735,
+          "jsonClass": "Interval",
+          "name": "preceeding_arunodaya"
+        },
+        "puurvaahna": {
+          "jd_end": 2458482.7787,
+          "jd_start": 2458482.5445,
+          "jsonClass": "Interval",
+          "name": "puurvaahna"
+        },
+        "raahu": {
+          "jd_end": 2458483.0129,
+          "jd_start": 2458482.9544,
+          "jsonClass": "Interval",
+          "name": "raahu"
+        },
+        "raatri_yaama_1": {
+          "jd_end": 2458483.2788,
+          "jd_start": 2458483.1459,
+          "jsonClass": "Interval",
+          "name": "raatri_yaama_1"
+        },
+        "raatrimaana": {
+          "jd_end": 2458483.5448,
+          "jd_start": 2458483.0129,
+          "jsonClass": "Interval",
+          "name": "raatrimaana"
+        },
+        "saangava": {
+          "jd_end": 2458482.7318,
+          "jd_start": 2458482.6382,
+          "jsonClass": "Interval",
+          "name": "saangava"
+        },
+        "saayaahna": {
+          "jd_end": 2458483.0129,
+          "jd_start": 2458482.9192,
+          "jsonClass": "Interval",
+          "name": "saayaahna"
+        },
+        "saayam_sandhyaa": {
+          "jd_end": 2458483.0129,
+          "jd_start": 2458482.9817,
+          "jsonClass": "Interval",
+          "name": "saayam_sandhyaa"
+        },
+        "shayana": {
+          "jd_end": 2458483.2788,
+          "jd_start": 2458483.2123,
+          "jsonClass": "Interval",
+          "name": "shayana"
+        },
+        "yama": {
+          "jd_end": 2458482.8372,
+          "jd_start": 2458482.7787,
+          "jsonClass": "Interval",
+          "name": "yama"
+        }
+      },
+      "festival_id_to_instance": {},
+      "jd_moonrise": 2458483.3277,
+      "jd_moonset": 2458482.7988,
+      "jd_next_sunrise": 2458483.5448,
+      "jd_previous_sunset": 2458482.0125,
+      "jd_sunrise": 2458482.5445,
+      "jd_sunset": 2458483.0129,
+      "jsonClass": "DailyPanchaanga",
+      "julian_day_start": 2458482.2708,
+      "lunar_month_sunrise": {
+        "anga_type_id": "SIDEREAL_MONTH",
+        "index": 9,
+        "jsonClass": "Anga"
+      },
+      "shraaddha_tithi": [],
+      "solar_sidereal_date_sunset": {
+        "day": 15,
+        "jsonClass": "BasicDateWithTransitions",
+        "month": 9
+      },
+      "sunrise_day_angas": {
+        "jsonClass": "DayAngas",
+        "karanas_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "KARANA",
+              "index": 47,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458482.8522,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "KARANA",
+              "index": 48,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458483.3372,
+            "jd_start": 2458482.8522,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "KARANA",
+              "index": 49,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458483.3372,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "nakshatra_at_sunrise": {
+          "anga_type_id": "NAKSHATRA",
+          "index": 13,
+          "jsonClass": "Anga"
+        },
+        "nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "NAKSHATRA",
+              "index": 13,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458482.6193,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "NAKSHATRA",
+              "index": 14,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458482.6193,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "raashis_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "RASHI",
+              "index": 6,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458483.1147,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "RASHI",
+              "index": 7,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458483.1147,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "tithi_at_sunrise": {
+          "anga_type_id": "TITHI",
+          "index": 24,
+          "jsonClass": "Anga"
+        },
+        "tithis_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "TITHI",
+              "index": 24,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458483.3372,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "TITHI",
+              "index": 25,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458483.3372,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "yoga_at_sunrise": {
+          "anga_type_id": "YOGA",
+          "index": 5,
+          "jsonClass": "Anga"
+        },
+        "yogas_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "YOGA",
+              "index": 5,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458482.5571,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "YOGA",
+              "index": 6,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458483.481,
+            "jd_start": 2458482.5571,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "YOGA",
+              "index": 7,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458483.481,
+            "jsonClass": "AngaSpan"
+          }
+        ]
+      },
+      "tropical_date_sunset": {
+        "day": 9,
+        "jsonClass": "BasicDateWithTransitions",
+        "month": 10
+      }
+    },
     "2018-12-31": {
       "date": {
         "day": 31,
@@ -3797,7 +4122,7 @@
       "shraaddha_tithi": [
         {
           "anga_type_id": "TITHI",
-          "index": 0,
+          "index": 5,
           "jsonClass": "Anga"
         }
       ],
@@ -120926,20 +121251,7 @@
           "name": "yama"
         }
       },
-      "festival_id_to_instance": {
-        "SaSThI-vratam": {
-          "jsonClass": "FestivalInstance",
-          "name": "SaSThI-vratam"
-        },
-        "mahAdhanurvyatIpAta-snAnam": {
-          "jsonClass": "FestivalInstance",
-          "name": "mahAdhanurvyatIpAta-snAnam"
-        },
-        "mahAdhanurvyatIpAta-zrAddham": {
-          "jsonClass": "FestivalInstance",
-          "name": "mahAdhanurvyatIpAta-zrAddham"
-        }
-      },
+      "festival_id_to_instance": {},
       "jd_moonrise": 2458849.7225,
       "jd_moonset": 2458850.2324,
       "jd_next_sunrise": 2458850.5452,
@@ -121244,7 +121556,12 @@
           "name": "yama"
         }
       },
-      "festival_id_to_instance": {},
+      "festival_id_to_instance": {
+        "undu~madakkaLir2r2an2": {
+          "jsonClass": "FestivalInstance",
+          "name": "undu~madakkaLir2r2an2"
+        }
+      },
       "jd_moonrise": 2458850.7477,
       "jd_moonset": 2458851.264,
       "jd_next_sunrise": 2458851.5455,
@@ -124009,7 +124326,12 @@
           "name": "yama"
         }
       },
-      "festival_id_to_instance": {},
+      "festival_id_to_instance": {
+        "kUDAravallI": {
+          "jsonClass": "FestivalInstance",
+          "name": "kUDAravallI"
+        }
+      },
       "jd_moonrise": 2458860.0474,
       "jd_moonset": 2458859.5564,
       "jd_next_sunrise": 2458860.5473,
@@ -124324,7 +124646,12 @@
           "name": "yama"
         }
       },
-      "festival_id_to_instance": {},
+      "festival_id_to_instance": {
+        "kar2avaigaL pin2cen2r2u": {
+          "jsonClass": "FestivalInstance",
+          "name": "kar2avaigaL pin2cen2r2u"
+        }
+      },
       "jd_moonrise": 2458861.0897,
       "jd_moonset": 2458860.594,
       "jd_next_sunrise": 2458861.5475,
@@ -124964,7 +125291,12 @@
           "name": "yama"
         }
       },
-      "festival_id_to_instance": {},
+      "festival_id_to_instance": {
+        "bhOgi": {
+          "jsonClass": "FestivalInstance",
+          "name": "bhOgi"
+        }
+      },
       "jd_moonrise": 2458863.1715,
       "jd_moonset": 2458862.6628,
       "jd_next_sunrise": 2458863.5477,
@@ -125280,7 +125612,20 @@
           "name": "yama"
         }
       },
-      "festival_id_to_instance": {},
+      "festival_id_to_instance": {
+        "madhurai mIn2AkSI kOyilil kal yAn2aikku karumbu kODutta lIlai": {
+          "jsonClass": "FestivalInstance",
+          "name": "madhurai mIn2AkSI kOyilil kal yAn2aikku karumbu kODutta lIlai"
+        },
+        "makara-jyOtiH": {
+          "jsonClass": "FestivalInstance",
+          "name": "makara-jyOtiH"
+        },
+        "makara-saGkrAntiH": {
+          "jsonClass": "FestivalInstance",
+          "name": "makara-saGkrAntiH"
+        }
+      },
       "jd_moonrise": 2458864.2109,
       "jd_moonset": 2458863.6948,
       "jd_next_sunrise": 2458864.5478,
@@ -125436,7 +125781,8 @@
     }
   },
   "duration": 365,
-  "duration_to_calculate": 381,
+  "duration_posterior_padding": 381,
+  "duration_prior_padding": 2,
   "end_date": {
     "day": 31,
     "jsonClass": "Date",
@@ -125631,13 +125977,6 @@
         "minute": 0,
         "month": 11,
         "second": 0.0,
-        "year": 2019
-      },
-      {
-        "day": 16,
-        "jsonClass": "Date",
-        "month": 11,
-        "weekday": 6,
         "year": 2019
       }
     ],
@@ -125896,13 +126235,6 @@
         "month": 10,
         "weekday": 4,
         "year": 2019
-      },
-      {
-        "day": 1,
-        "jsonClass": "Date",
-        "month": 1,
-        "weekday": 3,
-        "year": 2020
       }
     ],
     "SaSThIdEvI-SaSThI-vratam": [
@@ -126049,13 +126381,6 @@
         "month": 6,
         "second": 0.0,
         "year": 2019
-      },
-      {
-        "day": 13,
-        "jsonClass": "Date",
-        "month": 6,
-        "weekday": 4,
-        "year": 2019
       }
     ],
     "alarmElmaGgApurE plavOtsava-samApanam": [
@@ -126076,13 +126401,6 @@
         "month": 6,
         "second": 0.0,
         "year": 2019
-      },
-      {
-        "day": 14,
-        "jsonClass": "Date",
-        "month": 6,
-        "weekday": 5,
-        "year": 2019
       }
     ],
     "alarmElmaGgApurE plavOtsavaH~3": [
@@ -126094,13 +126412,6 @@
         "month": 6,
         "second": 0.0,
         "year": 2019
-      },
-      {
-        "day": 15,
-        "jsonClass": "Date",
-        "month": 6,
-        "weekday": 6,
-        "year": 2019
       }
     ],
     "alarmElmaGgApurE plavOtsavaH~4": [
@@ -126111,13 +126422,6 @@
         "minute": 0,
         "month": 6,
         "second": 0.0,
-        "year": 2019
-      },
-      {
-        "day": 16,
-        "jsonClass": "Date",
-        "month": 6,
-        "weekday": 0,
         "year": 2019
       }
     ],
@@ -126536,10 +126840,12 @@
       },
       {
         "day": 14,
+        "hour": 0,
         "jsonClass": "Date",
+        "minute": 0,
         "month": 1,
-        "weekday": 1,
-        "year": 2019
+        "second": 0.0,
+        "year": 2020
       }
     ],
     "bhRgurEvatI-puNyakAlaH": [
@@ -127054,13 +127360,6 @@
         "month": 7,
         "second": 0.0,
         "year": 2019
-      },
-      {
-        "day": 6,
-        "jsonClass": "Date",
-        "month": 7,
-        "weekday": 6,
-        "year": 2019
       }
     ],
     "cidambarE dhvajArOhaNam/paJcamUrti rathOtsavaH": [
@@ -127071,13 +127370,6 @@
         "minute": 0,
         "month": 6,
         "second": 0.0,
-        "year": 2019
-      },
-      {
-        "day": 29,
-        "jsonClass": "Date",
-        "month": 6,
-        "weekday": 6,
         "year": 2019
       }
     ],
@@ -127090,13 +127382,6 @@
         "month": 7,
         "second": 0.0,
         "year": 2019
-      },
-      {
-        "day": 5,
-        "jsonClass": "Date",
-        "month": 7,
-        "weekday": 5,
-        "year": 2019
       }
     ],
     "cidambarE muttuppallakku": [
@@ -127107,13 +127392,6 @@
         "minute": 0,
         "month": 7,
         "second": 0.0,
-        "year": 2019
-      },
-      {
-        "day": 9,
-        "jsonClass": "Date",
-        "month": 7,
-        "weekday": 2,
         "year": 2019
       }
     ],
@@ -127126,13 +127404,6 @@
         "month": 7,
         "second": 0.0,
         "year": 2019
-      },
-      {
-        "day": 8,
-        "jsonClass": "Date",
-        "month": 7,
-        "weekday": 1,
-        "year": 2019
       }
     ],
     "cidambarE rajata RSabha vAhanam": [
@@ -127143,13 +127414,6 @@
         "minute": 0,
         "month": 7,
         "second": 0.0,
-        "year": 2019
-      },
-      {
-        "day": 3,
-        "jsonClass": "Date",
-        "month": 7,
-        "weekday": 3,
         "year": 2019
       }
     ],
@@ -127162,13 +127426,6 @@
         "month": 7,
         "second": 0.0,
         "year": 2019
-      },
-      {
-        "day": 2,
-        "jsonClass": "Date",
-        "month": 7,
-        "weekday": 2,
-        "year": 2019
       }
     ],
     "cidambarE rajata candraprabha vAhanam": [
@@ -127179,13 +127436,6 @@
         "minute": 0,
         "month": 6,
         "second": 0.0,
-        "year": 2019
-      },
-      {
-        "day": 30,
-        "jsonClass": "Date",
-        "month": 6,
-        "weekday": 0,
         "year": 2019
       }
     ],
@@ -127198,13 +127448,6 @@
         "month": 7,
         "second": 0.0,
         "year": 2019
-      },
-      {
-        "day": 4,
-        "jsonClass": "Date",
-        "month": 7,
-        "weekday": 4,
-        "year": 2019
       }
     ],
     "cidambarE rathOtsavaH": [
@@ -127216,13 +127459,6 @@
         "month": 7,
         "second": 0.0,
         "year": 2019
-      },
-      {
-        "day": 7,
-        "jsonClass": "Date",
-        "month": 7,
-        "weekday": 0,
-        "year": 2019
       }
     ],
     "cidambarE svarNa-sUryaprabha vAhanam": [
@@ -127233,13 +127469,6 @@
         "minute": 0,
         "month": 7,
         "second": 0.0,
-        "year": 2019
-      },
-      {
-        "day": 1,
-        "jsonClass": "Date",
-        "month": 7,
-        "weekday": 1,
         "year": 2019
       }
     ],
@@ -127675,13 +127904,6 @@
         "month": 8,
         "second": 0.0,
         "year": 2019
-      },
-      {
-        "day": 16,
-        "jsonClass": "Date",
-        "month": 8,
-        "weekday": 5,
-        "year": 2019
       }
     ],
     "gAyatrI~jayantI": [
@@ -128000,13 +128222,6 @@
         "month": 3,
         "second": 0.0,
         "year": 2019
-      },
-      {
-        "day": 21,
-        "jsonClass": "Date",
-        "month": 3,
-        "weekday": 4,
-        "year": 2019
       }
     ],
     "hOlikA-pUrNimA": [
@@ -128279,10 +128494,12 @@
       },
       {
         "day": 16,
+        "hour": 0,
         "jsonClass": "Date",
+        "minute": 0,
         "month": 1,
-        "weekday": 3,
-        "year": 2019
+        "second": 0.0,
+        "year": 2020
       }
     ],
     "iyar2pagai nAyan2Ar (2) gurupUjai": [
@@ -129484,6 +129701,13 @@
         "month": 1,
         "weekday": 5,
         "year": 2019
+      },
+      {
+        "day": 11,
+        "jsonClass": "Date",
+        "month": 1,
+        "weekday": 6,
+        "year": 2020
       }
     ],
     "kUSmANDa-dazamI": [
@@ -129603,13 +129827,6 @@
         "month": 12,
         "second": 0.0,
         "year": 2019
-      },
-      {
-        "day": 9,
-        "jsonClass": "Date",
-        "month": 12,
-        "weekday": 1,
-        "year": 2019
       }
     ],
     "kajarI~tRtIyA": [
@@ -129687,10 +129904,12 @@
       },
       {
         "day": 16,
+        "hour": 0,
         "jsonClass": "Date",
+        "minute": 0,
         "month": 1,
-        "weekday": 3,
-        "year": 2019
+        "second": 0.0,
+        "year": 2020
       }
     ],
     "kanaka-gaNEza-vratam": [
@@ -129711,13 +129930,6 @@
         "month": 3,
         "second": 0.0,
         "year": 2019
-      },
-      {
-        "day": 13,
-        "jsonClass": "Date",
-        "month": 3,
-        "weekday": 3,
-        "year": 2019
       }
     ],
     "kapAlI ar2upattu mUvar": [
@@ -129728,13 +129940,6 @@
         "minute": 0,
         "month": 3,
         "second": 0.0,
-        "year": 2019
-      },
-      {
-        "day": 18,
-        "jsonClass": "Date",
-        "month": 3,
-        "weekday": 1,
         "year": 2019
       }
     ],
@@ -129747,13 +129952,6 @@
         "month": 3,
         "second": 0.0,
         "year": 2019
-      },
-      {
-        "day": 13,
-        "jsonClass": "Date",
-        "month": 3,
-        "weekday": 3,
-        "year": 2019
       }
     ],
     "kapAlI cavuDal vimAn2am": [
@@ -129764,13 +129962,6 @@
         "minute": 0,
         "month": 3,
         "second": 0.0,
-        "year": 2019
-      },
-      {
-        "day": 15,
-        "jsonClass": "Date",
-        "month": 3,
-        "weekday": 5,
         "year": 2019
       }
     ],
@@ -129783,13 +129974,6 @@
         "month": 3,
         "second": 0.0,
         "year": 2019
-      },
-      {
-        "day": 11,
-        "jsonClass": "Date",
-        "month": 3,
-        "weekday": 1,
-        "year": 2019
       }
     ],
     "kapAlI pallakku vizhA": [
@@ -129800,13 +129984,6 @@
         "minute": 0,
         "month": 3,
         "second": 0.0,
-        "year": 2019
-      },
-      {
-        "day": 16,
-        "jsonClass": "Date",
-        "month": 3,
-        "weekday": 6,
         "year": 2019
       }
     ],
@@ -129819,13 +129996,6 @@
         "month": 3,
         "second": 0.0,
         "year": 2019
-      },
-      {
-        "day": 15,
-        "jsonClass": "Date",
-        "month": 3,
-        "weekday": 5,
-        "year": 2019
       }
     ],
     "kapAlI sUrya~candra~vaTTam": [
@@ -129836,13 +130006,6 @@
         "minute": 0,
         "month": 3,
         "second": 0.0,
-        "year": 2019
-      },
-      {
-        "day": 12,
-        "jsonClass": "Date",
-        "month": 3,
-        "weekday": 2,
         "year": 2019
       }
     ],
@@ -129855,13 +130018,6 @@
         "month": 3,
         "second": 0.0,
         "year": 2019
-      },
-      {
-        "day": 17,
-        "jsonClass": "Date",
-        "month": 3,
-        "weekday": 0,
-        "year": 2019
       }
     ],
     "kapAlI teppOtsavam~1": [
@@ -129872,13 +130028,6 @@
         "minute": 0,
         "month": 1,
         "second": 0.0,
-        "year": 2019
-      },
-      {
-        "day": 20,
-        "jsonClass": "Date",
-        "month": 1,
-        "weekday": 0,
         "year": 2019
       }
     ],
@@ -129891,13 +130040,6 @@
         "month": 1,
         "second": 0.0,
         "year": 2019
-      },
-      {
-        "day": 21,
-        "jsonClass": "Date",
-        "month": 1,
-        "weekday": 1,
-        "year": 2019
       }
     ],
     "kapAlI teppOtsavam~3": [
@@ -129908,13 +130050,6 @@
         "minute": 0,
         "month": 1,
         "second": 0.0,
-        "year": 2019
-      },
-      {
-        "day": 22,
-        "jsonClass": "Date",
-        "month": 1,
-        "weekday": 2,
         "year": 2019
       }
     ],
@@ -129927,13 +130062,6 @@
         "month": 3,
         "second": 0.0,
         "year": 2019
-      },
-      {
-        "day": 21,
-        "jsonClass": "Date",
-        "month": 3,
-        "weekday": 4,
-        "year": 2019
       }
     ],
     "kapAlI viDaiyAr2r2i nir2aivu": [
@@ -129945,13 +130073,6 @@
         "month": 3,
         "second": 0.0,
         "year": 2019
-      },
-      {
-        "day": 31,
-        "jsonClass": "Date",
-        "month": 3,
-        "weekday": 0,
-        "year": 2019
       }
     ],
     "kapAlI viDaiyAr2r2i toDakkam": [
@@ -129962,13 +130083,6 @@
         "minute": 0,
         "month": 3,
         "second": 0.0,
-        "year": 2019
-      },
-      {
-        "day": 21,
-        "jsonClass": "Date",
-        "month": 3,
-        "weekday": 4,
         "year": 2019
       }
     ],
@@ -129988,6 +130102,13 @@
         "month": 1,
         "weekday": 6,
         "year": 2019
+      },
+      {
+        "day": 12,
+        "jsonClass": "Date",
+        "month": 1,
+        "weekday": 0,
+        "year": 2020
       }
     ],
     "kar2pagAmbAL\u2013kapAlIzvarar tirukkalyANam": [
@@ -130317,13 +130438,6 @@
         "month": 2,
         "second": 0.0,
         "year": 2019
-      },
-      {
-        "day": 25,
-        "jsonClass": "Date",
-        "month": 2,
-        "weekday": 1,
-        "year": 2019
       }
     ],
     "mAgha-aSTakA-zrAddham": [
@@ -130352,13 +130466,6 @@
         "minute": 0,
         "month": 2,
         "second": 0.0,
-        "year": 2019
-      },
-      {
-        "day": 27,
-        "jsonClass": "Date",
-        "month": 2,
-        "weekday": 3,
         "year": 2019
       }
     ],
@@ -130414,13 +130521,6 @@
         "month": 12,
         "second": 0.0,
         "year": 2019
-      },
-      {
-        "day": 18,
-        "jsonClass": "Date",
-        "month": 12,
-        "weekday": 3,
-        "year": 2019
       }
     ],
     "mArgazIrSa-aSTakA-zrAddham": [
@@ -130456,13 +130556,6 @@
         "minute": 0,
         "month": 12,
         "second": 0.0,
-        "year": 2019
-      },
-      {
-        "day": 20,
-        "jsonClass": "Date",
-        "month": 12,
-        "weekday": 5,
         "year": 2019
       }
     ],
@@ -130713,10 +130806,12 @@
       },
       {
         "day": 15,
+        "hour": 0,
         "jsonClass": "Date",
+        "minute": 0,
         "month": 1,
-        "weekday": 2,
-        "year": 2019
+        "second": 0.0,
+        "year": 2020
       }
     ],
     "madhurakavi AzhvAr tirunakSattiram": [
@@ -130789,13 +130884,6 @@
         "month": 1,
         "weekday": 4,
         "year": 2019
-      },
-      {
-        "day": 1,
-        "jsonClass": "Date",
-        "month": 1,
-        "weekday": 3,
-        "year": 2020
       }
     ],
     "mahAdhanurvyatIpAta-zrAddham": [
@@ -130805,13 +130893,6 @@
         "month": 1,
         "weekday": 4,
         "year": 2019
-      },
-      {
-        "day": 1,
-        "jsonClass": "Date",
-        "month": 1,
-        "weekday": 3,
-        "year": 2020
       }
     ],
     "mahAkAlI~jayantI": [
@@ -130867,13 +130948,6 @@
         "minute": 0,
         "month": 9,
         "second": 0.0,
-        "year": 2019
-      },
-      {
-        "day": 28,
-        "jsonClass": "Date",
-        "month": 9,
-        "weekday": 6,
         "year": 2019
       }
     ],
@@ -130956,6 +131030,13 @@
         "month": 1,
         "weekday": 2,
         "year": 2019
+      },
+      {
+        "day": 15,
+        "jsonClass": "Date",
+        "month": 1,
+        "weekday": 3,
+        "year": 2020
       }
     ],
     "makara-saGkrAntiH": [
@@ -130965,6 +131046,13 @@
         "month": 1,
         "weekday": 2,
         "year": 2019
+      },
+      {
+        "day": 15,
+        "jsonClass": "Date",
+        "month": 1,
+        "weekday": 3,
+        "year": 2020
       }
     ],
     "manOratha-dvitIyA": [
@@ -131361,13 +131449,6 @@
         "month": 8,
         "second": 0.0,
         "year": 2019
-      },
-      {
-        "day": 24,
-        "jsonClass": "Date",
-        "month": 8,
-        "weekday": 6,
-        "year": 2019
       }
     ],
     "naraciGgamun2aiyaraiya nAyan2Ar (40) gurupUjai": [
@@ -131423,13 +131504,6 @@
         "minute": 0,
         "month": 11,
         "second": 0.0,
-        "year": 2019
-      },
-      {
-        "day": 26,
-        "jsonClass": "Date",
-        "month": 11,
-        "weekday": 2,
         "year": 2019
       }
     ],
@@ -131708,13 +131782,6 @@
         "month": 1,
         "second": 0.0,
         "year": 2019
-      },
-      {
-        "day": 27,
-        "jsonClass": "Date",
-        "month": 1,
-        "weekday": 0,
-        "year": 2019
       }
     ],
     "pauSa-aSTakA-zrAddham": [
@@ -131734,13 +131801,6 @@
         "minute": 0,
         "month": 1,
         "second": 0.0,
-        "year": 2019
-      },
-      {
-        "day": 29,
-        "jsonClass": "Date",
-        "month": 1,
-        "weekday": 2,
         "year": 2019
       }
     ],
@@ -131798,13 +131858,6 @@
         "month": 3,
         "second": 0.0,
         "year": 2019
-      },
-      {
-        "day": 27,
-        "jsonClass": "Date",
-        "month": 3,
-        "weekday": 3,
-        "year": 2019
       }
     ],
     "phAlguna-aSTakA-zrAddham": [
@@ -131833,13 +131886,6 @@
         "minute": 0,
         "month": 3,
         "second": 0.0,
-        "year": 2019
-      },
-      {
-        "day": 29,
-        "jsonClass": "Date",
-        "month": 3,
-        "weekday": 5,
         "year": 2019
       }
     ],
@@ -132556,13 +132602,6 @@
         "month": 10,
         "second": 0.0,
         "year": 2019
-      },
-      {
-        "day": 27,
-        "jsonClass": "Date",
-        "month": 10,
-        "weekday": 0,
-        "year": 2019
       }
     ],
     "saptarSi-pUjA/arghyam": [
@@ -133169,13 +133208,6 @@
         "month": 9,
         "second": 0.0,
         "year": 2019
-      },
-      {
-        "day": 2,
-        "jsonClass": "Date",
-        "month": 9,
-        "weekday": 1,
-        "year": 2019
       }
     ],
     "tiruccendUr murugan2 AvaNit tiruvizhA ##11##m nAL": [
@@ -133186,13 +133218,6 @@
         "minute": 0,
         "month": 9,
         "second": 0.0,
-        "year": 2019
-      },
-      {
-        "day": 3,
-        "jsonClass": "Date",
-        "month": 9,
-        "weekday": 2,
         "year": 2019
       }
     ],
@@ -133205,13 +133230,6 @@
         "month": 8,
         "second": 0.0,
         "year": 2019
-      },
-      {
-        "day": 25,
-        "jsonClass": "Date",
-        "month": 8,
-        "weekday": 0,
-        "year": 2019
       }
     ],
     "tiruccendUr murugan2 AvaNit tiruvizhA ##3##m nAL\u2014murugan2 bhavan2i": [
@@ -133222,13 +133240,6 @@
         "minute": 0,
         "month": 8,
         "second": 0.0,
-        "year": 2019
-      },
-      {
-        "day": 26,
-        "jsonClass": "Date",
-        "month": 8,
-        "weekday": 1,
         "year": 2019
       }
     ],
@@ -133241,13 +133252,6 @@
         "month": 8,
         "second": 0.0,
         "year": 2019
-      },
-      {
-        "day": 27,
-        "jsonClass": "Date",
-        "month": 8,
-        "weekday": 2,
-        "year": 2019
       }
     ],
     "tiruccendUr murugan2 AvaNit tiruvizhA ##5##m nAL": [
@@ -133258,13 +133262,6 @@
         "minute": 0,
         "month": 8,
         "second": 0.0,
-        "year": 2019
-      },
-      {
-        "day": 28,
-        "jsonClass": "Date",
-        "month": 8,
-        "weekday": 3,
         "year": 2019
       }
     ],
@@ -133277,13 +133274,6 @@
         "month": 8,
         "second": 0.0,
         "year": 2019
-      },
-      {
-        "day": 29,
-        "jsonClass": "Date",
-        "month": 8,
-        "weekday": 4,
-        "year": 2019
       }
     ],
     "tiruccendUr murugan2 AvaNit tiruvizhA ##7##m nAL\u2014cigappu cAtti alaGkAram": [
@@ -133294,13 +133284,6 @@
         "minute": 0,
         "month": 8,
         "second": 0.0,
-        "year": 2019
-      },
-      {
-        "day": 30,
-        "jsonClass": "Date",
-        "month": 8,
-        "weekday": 5,
         "year": 2019
       }
     ],
@@ -133313,13 +133296,6 @@
         "month": 8,
         "second": 0.0,
         "year": 2019
-      },
-      {
-        "day": 31,
-        "jsonClass": "Date",
-        "month": 8,
-        "weekday": 6,
-        "year": 2019
       }
     ],
     "tiruccendUr murugan2 AvaNit tiruvizhA ##9##m nAL": [
@@ -133330,13 +133306,6 @@
         "minute": 0,
         "month": 9,
         "second": 0.0,
-        "year": 2019
-      },
-      {
-        "day": 1,
-        "jsonClass": "Date",
-        "month": 9,
-        "weekday": 0,
         "year": 2019
       }
     ],
@@ -133349,13 +133318,6 @@
         "month": 8,
         "second": 0.0,
         "year": 2019
-      },
-      {
-        "day": 24,
-        "jsonClass": "Date",
-        "month": 8,
-        "weekday": 6,
-        "year": 2019
       }
     ],
     "tiruccendUr murugan2 mAcit tiruvizhA ##10##m nAL\u2014tEr": [
@@ -133366,13 +133328,6 @@
         "minute": 0,
         "month": 2,
         "second": 0.0,
-        "year": 2019
-      },
-      {
-        "day": 17,
-        "jsonClass": "Date",
-        "month": 2,
-        "weekday": 0,
         "year": 2019
       }
     ],
@@ -133385,13 +133340,6 @@
         "month": 2,
         "second": 0.0,
         "year": 2019
-      },
-      {
-        "day": 9,
-        "jsonClass": "Date",
-        "month": 2,
-        "weekday": 6,
-        "year": 2019
       }
     ],
     "tiruccendUr murugan2 mAcit tiruvizhA ##3##m nAL\u2014murugan2 bhavan2i": [
@@ -133402,13 +133350,6 @@
         "minute": 0,
         "month": 2,
         "second": 0.0,
-        "year": 2019
-      },
-      {
-        "day": 10,
-        "jsonClass": "Date",
-        "month": 2,
-        "weekday": 0,
         "year": 2019
       }
     ],
@@ -133421,13 +133362,6 @@
         "month": 2,
         "second": 0.0,
         "year": 2019
-      },
-      {
-        "day": 11,
-        "jsonClass": "Date",
-        "month": 2,
-        "weekday": 1,
-        "year": 2019
       }
     ],
     "tiruccendUr murugan2 mAcit tiruvizhA ##5##m nAL": [
@@ -133438,13 +133372,6 @@
         "minute": 0,
         "month": 2,
         "second": 0.0,
-        "year": 2019
-      },
-      {
-        "day": 12,
-        "jsonClass": "Date",
-        "month": 2,
-        "weekday": 2,
         "year": 2019
       }
     ],
@@ -133457,13 +133384,6 @@
         "month": 2,
         "second": 0.0,
         "year": 2019
-      },
-      {
-        "day": 13,
-        "jsonClass": "Date",
-        "month": 2,
-        "weekday": 3,
-        "year": 2019
       }
     ],
     "tiruccendUr murugan2 mAcit tiruvizhA ##7##m nAL\u2014urugu cattac cEvai/cigappu cAtti alaGkAram": [
@@ -133474,13 +133394,6 @@
         "minute": 0,
         "month": 2,
         "second": 0.0,
-        "year": 2019
-      },
-      {
-        "day": 14,
-        "jsonClass": "Date",
-        "month": 2,
-        "weekday": 4,
         "year": 2019
       }
     ],
@@ -133493,13 +133406,6 @@
         "month": 2,
         "second": 0.0,
         "year": 2019
-      },
-      {
-        "day": 15,
-        "jsonClass": "Date",
-        "month": 2,
-        "weekday": 5,
-        "year": 2019
       }
     ],
     "tiruccendUr murugan2 mAcit tiruvizhA ##9##m nAL\u2014taGga kailAca vAhan2am": [
@@ -133510,13 +133416,6 @@
         "minute": 0,
         "month": 2,
         "second": 0.0,
-        "year": 2019
-      },
-      {
-        "day": 16,
-        "jsonClass": "Date",
-        "month": 2,
-        "weekday": 6,
         "year": 2019
       }
     ],
@@ -133529,13 +133428,6 @@
         "month": 2,
         "second": 0.0,
         "year": 2019
-      },
-      {
-        "day": 8,
-        "jsonClass": "Date",
-        "month": 2,
-        "weekday": 5,
-        "year": 2019
       }
     ],
     "tiruccendUr murugan2 teppam": [
@@ -133546,13 +133438,6 @@
         "minute": 0,
         "month": 2,
         "second": 0.0,
-        "year": 2019
-      },
-      {
-        "day": 18,
-        "jsonClass": "Date",
-        "month": 2,
-        "weekday": 1,
         "year": 2019
       }
     ],
@@ -133698,13 +133583,6 @@
         "month": 11,
         "second": 0.0,
         "year": 2019
-      },
-      {
-        "day": 17,
-        "jsonClass": "Date",
-        "month": 11,
-        "weekday": 0,
-        "year": 2019
       }
     ],
     "tiruvizalUr gaGgAkarSaNa-mahOtsava-samApanam": [
@@ -133822,13 +133700,6 @@
         "month": 11,
         "second": 0.0,
         "year": 2019
-      },
-      {
-        "day": 16,
-        "jsonClass": "Date",
-        "month": 11,
-        "weekday": 6,
-        "year": 2019
       }
     ],
     "tulA-puNyakAlaH": [
@@ -133910,6 +133781,13 @@
         "month": 1,
         "weekday": 3,
         "year": 2019
+      },
+      {
+        "day": 2,
+        "jsonClass": "Date",
+        "month": 1,
+        "weekday": 4,
+        "year": 2020
       }
     ],
     "upAGga-lalitA-gaurI-vratam": [
@@ -134011,13 +133889,6 @@
         "month": 6,
         "second": 0.0,
         "year": 2019
-      },
-      {
-        "day": 16,
-        "jsonClass": "Date",
-        "month": 6,
-        "weekday": 0,
-        "year": 2019
       }
     ],
     "vEGkaTAcalE jyESTha-abhidyEyakAbhiSEkaH (svarNa-kavacam)": [
@@ -134037,13 +133908,6 @@
         "minute": 0,
         "month": 6,
         "second": 0.0,
-        "year": 2019
-      },
-      {
-        "day": 15,
-        "jsonClass": "Date",
-        "month": 6,
-        "weekday": 6,
         "year": 2019
       }
     ],
@@ -134142,13 +134006,6 @@
         "month": 5,
         "second": 0.0,
         "year": 2019
-      },
-      {
-        "day": 13,
-        "jsonClass": "Date",
-        "month": 5,
-        "weekday": 1,
-        "year": 2019
       }
     ],
     "vEGkaTAcalE padmAvatI-pariNayOtsava-samApanam (garuDa-vAhanam)": [
@@ -134159,13 +134016,6 @@
         "minute": 0,
         "month": 5,
         "second": 0.0,
-        "year": 2019
-      },
-      {
-        "day": 15,
-        "jsonClass": "Date",
-        "month": 5,
-        "weekday": 3,
         "year": 2019
       }
     ],
@@ -134187,13 +134037,6 @@
         "month": 3,
         "second": 0.0,
         "year": 2019
-      },
-      {
-        "day": 16,
-        "jsonClass": "Date",
-        "month": 3,
-        "weekday": 6,
-        "year": 2019
       }
     ],
     "vEGkaTAcalE plavOtsava-samApanam": [
@@ -134214,13 +134057,6 @@
         "month": 3,
         "second": 0.0,
         "year": 2019
-      },
-      {
-        "day": 17,
-        "jsonClass": "Date",
-        "month": 3,
-        "weekday": 0,
-        "year": 2019
       }
     ],
     "vEGkaTAcalE plavOtsavaH~3": [
@@ -134231,13 +134067,6 @@
         "minute": 0,
         "month": 3,
         "second": 0.0,
-        "year": 2019
-      },
-      {
-        "day": 18,
-        "jsonClass": "Date",
-        "month": 3,
-        "weekday": 1,
         "year": 2019
       }
     ],
@@ -134250,13 +134079,6 @@
         "month": 3,
         "second": 0.0,
         "year": 2019
-      },
-      {
-        "day": 19,
-        "jsonClass": "Date",
-        "month": 3,
-        "weekday": 2,
-        "year": 2019
       }
     ],
     "vEGkaTAcalE vasantOtsava-ArambhaH": [
@@ -134267,13 +134089,6 @@
         "minute": 0,
         "month": 4,
         "second": 0.0,
-        "year": 2019
-      },
-      {
-        "day": 16,
-        "jsonClass": "Date",
-        "month": 4,
-        "weekday": 2,
         "year": 2019
       }
     ],
@@ -134294,13 +134109,6 @@
         "minute": 0,
         "month": 4,
         "second": 0.0,
-        "year": 2019
-      },
-      {
-        "day": 17,
-        "jsonClass": "Date",
-        "month": 4,
-        "weekday": 3,
         "year": 2019
       }
     ],
@@ -134620,13 +134428,6 @@
         "month": 8,
         "second": 0.0,
         "year": 2019
-      },
-      {
-        "day": 24,
-        "jsonClass": "Date",
-        "month": 8,
-        "weekday": 6,
-        "year": 2019
       }
     ],
     "varakunda-caturthI": [
@@ -134646,13 +134447,6 @@
         "minute": 0,
         "month": 8,
         "second": 0.0,
-        "year": 2019
-      },
-      {
-        "day": 9,
-        "jsonClass": "Date",
-        "month": 8,
-        "weekday": 5,
         "year": 2019
       }
     ],
@@ -135407,13 +135201,6 @@
         "month": 6,
         "second": 0.0,
         "year": 2019
-      },
-      {
-        "day": 7,
-        "jsonClass": "Date",
-        "month": 6,
-        "weekday": 5,
-        "year": 2019
       }
     ],
     "zrInivAsamaGgApurE sAkSAtkAra-vaibhavOtsava-samApanam": [
@@ -135424,13 +135211,6 @@
         "minute": 0,
         "month": 6,
         "second": 0.0,
-        "year": 2019
-      },
-      {
-        "day": 9,
-        "jsonClass": "Date",
-        "month": 6,
-        "weekday": 0,
         "year": 2019
       }
     ],

@@ -30,7 +30,7 @@ for i in range(7):
 class NakshatraAssigner(PeriodicPanchaangaApplier):
   def calc_nakshatra_tyaajya(self, debug=False):
     self.panchaanga.tyajyam_data = [[] for _x in range(self.panchaanga.duration + 1)]
-    for d in range(1, self.panchaanga.duration + 1):
+    for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + 1):
       [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
       jd = self.daily_panchaangas[d].julian_day_start
       t_start = self.daily_panchaangas[d - 1].sunrise_day_angas.nakshatras_with_ends[-1].jd_end
@@ -75,7 +75,7 @@ class NakshatraAssigner(PeriodicPanchaangaApplier):
   
   def calc_nakshatra_amrta(self, debug=False):
     self.panchaanga.amrita_data = [[] for _x in range(self.panchaanga.duration + 1)]
-    for d in range(1, self.panchaanga.duration + 1):
+    for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + 1):
       [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
       jd = self.daily_panchaangas[d].julian_day_start
       t_start = self.daily_panchaangas[d - 1].sunrise_day_angas.nakshatras_with_ends[-1].jd_end

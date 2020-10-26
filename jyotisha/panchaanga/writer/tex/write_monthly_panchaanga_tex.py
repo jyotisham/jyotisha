@@ -75,7 +75,7 @@ def write_monthly_tex(panchaanga, template_file, scripts=None, temporal=None):
 
   mlast = 1
   daily_panchaangas = panchaanga.daily_panchaangas_sorted()
-  for d in range(1, jyotisha.panchaanga.temporal.MAX_SZ - 1):
+  for d in range(panchaanga.duration_prior_padding, jyotisha.panchaanga.temporal.MAX_SZ - 1):
     [y, m, dt, t] = time.jd_to_utc_gregorian(panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
     daily_panchaanga = daily_panchaangas[d]
 
@@ -104,7 +104,7 @@ def write_monthly_tex(panchaanga, template_file, scripts=None, temporal=None):
 
   month_text = ''
   W6D1 = W6D2 = ''
-  for d in range(1, jyotisha.panchaanga.temporal.MAX_SZ - 1):
+  for d in range(panchaanga.duration_prior_padding, jyotisha.panchaanga.temporal.MAX_SZ - 1):
     [y, m, dt, t] = time.jd_to_utc_gregorian(panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
 
     # checking @ 6am local - can we do any better?

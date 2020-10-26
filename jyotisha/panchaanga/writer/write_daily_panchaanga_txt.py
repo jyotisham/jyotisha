@@ -114,7 +114,7 @@ def writeDailyText(panchaanga, time_format="hh:mm", script=sanscript.DEVANAGARI,
   # print(' \\sffamily \\fontsize 23  23 \\selectfont   %s \\\\[0.2cm] '
   #       % jyotisha.custom_transliteration.print_lat_lon(panchaanga.city.latitude, panchaanga.city.longitude), file=output_stream)
   daily_panchaangas = panchaanga.daily_panchaangas_sorted()
-  for d in range(1, jyotisha.panchaanga.temporal.MAX_SZ - 1):
+  for d in range(panchaanga.duration_prior_padding, jyotisha.panchaanga.temporal.MAX_SZ - 1):
     daily_panchaanga = daily_panchaangas[d]
     [y, m, dt, t] = time.jd_to_utc_gregorian(panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
 

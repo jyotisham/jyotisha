@@ -48,7 +48,7 @@ class EclipticFestivalAssigner(FestivalAssigner):
       if jd_eclipse_solar_start > self.panchaanga.jd_end + 1:
         break
       else:
-        fday = int(floor(jd) - floor(self.panchaanga.jd_start) + 1)
+        fday = int(floor(jd) - floor(self.daily_panchaangas[0].julian_day_start))
         if (jd < (self.daily_panchaangas[fday].jd_sunrise + tz_off / 24.0)):
           fday -= 1
         eclipse_solar_start = time.jd_to_utc_gregorian(jd_eclipse_solar_start).get_fractional_hour()
@@ -134,7 +134,7 @@ class EclipticFestivalAssigner(FestivalAssigner):
       for i, transit in enumerate(transits):
         (jd_transit, rashi1, rashi2) = (transit.jd, transit.value_1, transit.value_2)
         if self.panchaanga.jd_start < jd_transit < jd_end:
-          fday = int(floor(jd_transit) - floor(self.panchaanga.jd_start) + 1)
+          fday = int(floor(jd_transit) - floor(self.daily_panchaangas[0].julian_day_start))
           fest = TransitionFestivalInstance(name='guru-saGkrAntiH', status_1_hk=names.NAMES['RASHI_NAMES']['hk'][rashi1], status_2_hk=names.NAMES['RASHI_NAMES']['hk'][rashi2])
           self.daily_panchaangas[fday].festival_id_to_instance[fest.name] =  fest
           if rashi1 < rashi2 and transits[i + 1].value_1 < transits[i + 1].value_2:

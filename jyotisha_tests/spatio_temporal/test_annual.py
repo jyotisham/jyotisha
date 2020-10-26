@@ -65,7 +65,7 @@ def test_adhika_maasa_computations_2009():
   panchaanga_2009 = annual.get_panchaanga_for_civil_year(city=city, year=2009,
                                                          allow_precomputed=False)
   expected_lunar_months_2009 = [7] + [8] * 29 + [9] * 30 + [10] * 15
-  assert expected_lunar_months_2009 == [x.lunar_month_sunrise.index for x in panchaanga_2009.daily_panchaangas_sorted()[291:366]]
+  assert expected_lunar_months_2009 == [x.lunar_month_sunrise.index for x in panchaanga_2009.daily_panchaangas_sorted()[panchaanga_2009.duration_prior_padding + 290:panchaanga_2009.duration_prior_padding + 365]]
 
 
 def test_adhika_maasa_computations_2010():
@@ -73,7 +73,7 @@ def test_adhika_maasa_computations_2010():
   panchaanga_2010 = annual.get_panchaanga_for_civil_year(city=city, year=2010,
                                                          allow_precomputed=False)
   expected_lunar_months_2010 = [10] * 15 + [11] * 30 + [12] * 29 + [1] * 30 + [1.5] * 30 + [2] * 29 + [3]
-  assert expected_lunar_months_2010 == [x.lunar_month_sunrise.index for x in panchaanga_2010.daily_panchaangas_sorted()[1:165]]
+  assert expected_lunar_months_2010 == [x.lunar_month_sunrise.index for x in panchaanga_2010.daily_panchaangas_sorted()[panchaanga_2010.duration_prior_padding:panchaanga_2010.duration_prior_padding + 164]]
 
 
 def test_adhika_maasa_computations_2018():
@@ -81,13 +81,13 @@ def test_adhika_maasa_computations_2018():
   panchaanga_2018 = annual.get_panchaanga_for_civil_year(city=city, year=2018,
                                                          allow_precomputed=False)
   expected_lunar_months_2018 = [2] + [2.5] * 29 + [3] * 30 + [4]
-  assert expected_lunar_months_2018 == [x.lunar_month_sunrise.index for x in panchaanga_2018.daily_panchaangas_sorted()[135:196]]
+  assert expected_lunar_months_2018 == [x.lunar_month_sunrise.index for x in panchaanga_2018.daily_panchaangas_sorted()[panchaanga_2018.duration_prior_padding + 134:panchaanga_2018.duration_prior_padding + 195]]
 
 
 def test_orinda_ca_dst_2019():
   city = City('Orinda', '37:51:38', '-122:10:59', 'America/Los_Angeles')
-  panchaanga = panchaanga = periodical.Panchaanga(city=city, start_date=Date(2019, 1, 1), end_date=Date(2019, 5, 1))
+  panchaanga = periodical.Panchaanga(city=city, start_date=Date(2019, 1, 1), end_date=Date(2019, 5, 1))
   # March 10 is the 69th day of the year (70th in leap years) in the Gregorian calendar.
   # Sunrise on that day is around 7:27 AM according to Google, which is JD 2458553.14375 according to https://ssd.jpl.nasa.gov/tc.cgi#top .
   # We use the index 70 below as the annual panchaanga object seems to use the index d + 1.
-  assert round(panchaanga.daily_panchaangas_sorted()[70].jd_sunrise, ndigits=4) == round(2458554.104348237, ndigits=4)  # 2019-Mar-10 07:30:15.68
+  assert round(panchaanga.daily_panchaangas_sorted()[panchaanga.duration_prior_padding + 69].jd_sunrise, ndigits=4) == round(2458554.104348237, ndigits=4)  # 2019-Mar-10 07:30:15.68

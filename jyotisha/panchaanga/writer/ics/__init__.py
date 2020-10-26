@@ -52,9 +52,10 @@ def compute_calendar(panchaanga, scripts=[sanscript.DEVANAGARI], all_tags=True, 
   year_start = time.jd_to_utc_gregorian(panchaanga.jd_start + 1).to_date_fractional_hour_tuple()[0]  # 1 helps ignore local time etc.
 
   daily_panchaangas = panchaanga.daily_panchaangas_sorted()
-  for d in range(1, panchaanga.duration):
-    daily_panchaanga = daily_panchaangas[d]
-    [y, m, dt, t] = time.jd_to_utc_gregorian(panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
+  for d, daily_panchaanga in enumerate(daily_panchaangas):
+    if daily_panchaanga.date < panchaanga.start_date or daily_panchaanga.date > panchaanga.end_date:
+      continue
+    [y, m, dt] = [daily_panchaanga.date.year, daily_panchaanga.date.month, daily_panchaanga.date.day]
 
     if len(daily_panchaanga.festival_id_to_instance) > 0:
       # Eliminate repeat festival_id_to_instance on the same day, and keep the list arbitrarily sorted

@@ -110,6 +110,7 @@ def test_get_anga_data_1981_12_23():
   angas = [s.anga.index for s in panchaanga.sunrise_day_angas.get_anga_spans_in_interval(interval=Interval(jd_start=panchaanga.jd_sunrise, jd_end=panchaanga.jd_next_sunrise), anga_type=AngaType.NAKSHATRA)]
   assert angas == [16, 17]
 
+
 def test_get_lagna_data():
   city = City.get_city_from_db('Chennai') 
   from jyotisha.panchaanga.temporal import zodiac

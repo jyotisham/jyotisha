@@ -7,12 +7,17 @@ from jyotisha.panchaanga.temporal import festival
 from jyotisha.panchaanga.temporal import time
 from jyotisha.panchaanga.temporal import zodiac
 from jyotisha.panchaanga.temporal.festival import rules, priority_decision
-from jyotisha.panchaanga.temporal.zodiac.angas import Anga
+from jyotisha.panchaanga.temporal.zodiac.angas import Anga, AngaType
 from timebudget import timebudget
 
 from sanskrit_data.schema import common
 
 DATA_ROOT = os.path.join(os.path.dirname(festival.__file__), "data")
+
+
+class FestivalAssignmentRecord(common.JsonObject):
+  def __init__(self):
+    self.festival_id_to_days = {}
 
 
 class FestivalAssigner(PeriodicPanchaangaApplier):
@@ -25,19 +30,13 @@ class FestivalAssigner(PeriodicPanchaangaApplier):
       if self.daily_panchaangas[d].date not in self.panchaanga.festival_id_to_days[festival_name]:
         # Second occurrence of a festival within a
         # Gregorian calendar year
-        if self.daily_panchaangas[d-1].date in self.panchaanga.festival_id_to_days[festival_name]:
-          # No festival occurs on consecutive days; paraviddha assigned twice
-          logging.warning(
-            '%s occurring on two consecutive days (%d, %d). Removing! paraviddha assigned twice?' % (
-              festival_name, d - 1, d))
-          self.panchaanga.festival_id_to_days[festival_name].remove(self.daily_panchaangas[d-1].date)
         self.panchaanga.festival_id_to_days[festival_name].append(self.daily_panchaangas[d].date)
     else:
       self.panchaanga.festival_id_to_days[festival_name] = [self.daily_panchaangas[d].date]
 
   @timebudget
   def assign_festivals_from_rules(self, festival_rules):
-    for d in range(1, self.panchaanga.duration + 1):
+    for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + 1):
       for rule in festival_rules:
         self.assign_festival(fest_rule=rule, d=d)
 
@@ -119,6 +118,13 @@ class FestivalAssigner(PeriodicPanchaangaApplier):
         #         'kaala' in fest_rule and \
         #         festival_rules[festival_name].timing.kaala == 'arunodaya':
         #     fday += 1
+        if self.daily_panchaangas[d-1].date in self.panchaanga.festival_id_to_days.get(festival_name, []):
+          # No festival occurs on consecutive days; paraviddha assigned twice
+          logging.warning(
+            '%s occurring on two consecutive days (%d, %d). Removing! paraviddha assigned twice?' % (
+              festival_name, d - 1, d))
+          self.panchaanga.festival_id_to_days[festival_name].remove(self.daily_panchaangas[d-1].date)
+
         self.add_to_festival_id_to_days(festival_name, fday)
 
   @timebudget
@@ -126,7 +132,7 @@ class FestivalAssigner(PeriodicPanchaangaApplier):
     # Update festival numbers if they exist
     solar_y_start_d = []
     lunar_y_start_d = []
-    for d in range(1, self.panchaanga.duration + 1):
+    for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + 1):
       if self.daily_panchaangas[d].solar_sidereal_date_sunset.month == 1 and self.daily_panchaangas[d - 1].solar_sidereal_date_sunset.month != 1:
         solar_y_start_d.append(d)
       if self.daily_panchaangas[d].lunar_month_sunrise.index == 1 and self.daily_panchaangas[d - 1].lunar_month_sunrise.index != 1:
@@ -204,14 +210,14 @@ class MiscFestivalAssigner(FestivalAssigner):
         return False
       return True
     festival_rules_dict = {k: v for k, v in self.rules_collection.name_to_rule.items() if to_be_assigned(v)}
-    assert "viSukkan2i" not in festival_rules_dict
-    assert "kar2pagAmbAL–kapAlIzvarar tirukkalyANam" in festival_rules_dict
+    # assert "naTarAjar mahAbhiSEkam~2" not in festival_rules_dict
+    # assert "kar2pagAmbAL–kapAlIzvarar tirukkalyANam" in festival_rules_dict
     self.assign_festivals_from_rules(festival_rules_dict.values())
     
 
   def assign_agni_nakshatra(self):
     agni_jd_start = agni_jd_end = None
-    for d in range(1, self.panchaanga.duration + 1):
+    for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + 1):
       [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
 
       # AGNI nakshatra

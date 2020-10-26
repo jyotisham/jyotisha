@@ -79,9 +79,10 @@ def emit(panchaanga, time_format="hh:mm", scripts=None, output_stream=None):
   print('\\clearpage\\pagestyle{fancy}', file=output_stream)
 
   daily_panchaangas = panchaanga.daily_panchaangas_sorted()
-  for d in range(1, jyotisha.panchaanga.temporal.MAX_SZ - 1):
-    daily_panchaanga = daily_panchaangas[d]
-    [y, m, dt, t] = time.jd_to_utc_gregorian(panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
+  for d, daily_panchaanga in enumerate(daily_panchaangas):
+    if daily_panchaanga.date < panchaanga.start_date or daily_panchaanga.date > panchaanga.end_date:
+      continue
+    [y, m, dt] = [daily_panchaanga.date.year, daily_panchaanga.date.month, daily_panchaanga.date.day]
 
     # checking @ 6am local - can we do any better?
     local_time = tz(panchaanga.city.timezone).localize(datetime(y, m, dt, 6, 0, 0))

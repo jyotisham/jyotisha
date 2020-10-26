@@ -2,16 +2,16 @@ import sys
 from typing import Dict
 
 import methodtools
-from jyotisha.panchaanga.spatio_temporal import daily
-from jyotisha.panchaanga.temporal import zodiac, time, set_constants, ComputationSystem
-from jyotisha.panchaanga.temporal.festival import applier, FestivalInstance
-from jyotisha.panchaanga.temporal.festival.applier import tithi_festival, ecliptic, solar, vaara
-from jyotisha.panchaanga.temporal.time import Date
-from jyotisha.panchaanga.temporal.tithi import TithiAssigner
-from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision
-from jyotisha.util import default_if_none
 from timebudget import timebudget
 
+from jyotisha.panchaanga.spatio_temporal import daily
+from jyotisha.panchaanga.temporal import time, set_constants, ComputationSystem
+from jyotisha.panchaanga.temporal.festival import applier, FestivalInstance
+from jyotisha.panchaanga.temporal.festival.applier import tithi_festival, ecliptic, solar, vaara, \
+  FestivalAssignmentRecord
+from jyotisha.panchaanga.temporal.time import Date
+from jyotisha.panchaanga.temporal.tithi import TithiAssigner
+from jyotisha.util import default_if_none
 from sanskrit_data.schema import common
 
 timebudget.set_quiet(True)  # don't show measurements as they happen
@@ -47,7 +47,8 @@ class Panchaanga(common.JsonObject):
 
     # some buffer, for various look-ahead calculations
     # Pushkaram starting on 31 Jan might not get over till 12 days later
-    self.duration_to_calculate = int(self.duration + 16)
+    self.duration_posterior_padding = int(self.duration + 16)
+    self.duration_prior_padding = 2
 
     self.weekday_start = time.get_weekday(self.jd_start)
 
@@ -61,31 +62,17 @@ class Panchaanga(common.JsonObject):
     """Compute the entire panchaanga
     """
 
-    nDays = self.duration_to_calculate
+    nDays = self.duration_posterior_padding
 
     # INITIALISE VARIABLES
     self.date_str_to_panchaanga: Dict[str, daily.DailyPanchaanga] = {}
 
-    # Computing solar month details for Dec 31
-    # rather than Jan 1, since we have an always increment
-    # solar_sidereal_month_day_sunset at the start of the loop across every day in
-    # year
-    previous_day = time.jd_to_utc_gregorian(self.jd_start - 1)
-    daily_panchaanga_start = daily.DailyPanchaanga(city=self.city, date=previous_day, computation_system=self.computation_system)
-
-    solar_month_today_sunset = NakshatraDivision(daily_panchaanga_start.jd_sunset,
-                                                 ayanaamsha_id=self.computation_system.ayanaamsha_id).get_anga(
-      zodiac.AngaType.SIDEREAL_MONTH)
-    solar_month_tmrw_sunrise = NakshatraDivision(daily_panchaanga_start.jd_sunrise + 1,
-                                                 ayanaamsha_id=self.computation_system.ayanaamsha_id).get_anga(
-      zodiac.AngaType.SIDEREAL_MONTH)
-    month_start_after_sunset = solar_month_today_sunset != solar_month_tmrw_sunrise
 
     #############################################################
     # Compute all parameters -- sun/moon latitude/longitude etc #
     #############################################################
 
-    for d in range(-1, nDays - 1):
+    for d in range(-self.duration_prior_padding, nDays - 1):
       # TODO: Eventually, we are shifting to an array of daily panchangas. Reason: Better modularity.
       # The below block is temporary code to make the transition seamless.
       date_d = time.jd_to_utc_gregorian(self.jd_start + d)
@@ -134,9 +121,15 @@ class Panchaanga(common.JsonObject):
     :return:
     """
     self._reset_festivals()
-    daily_panchaangas = self.daily_panchaangas_sorted()[1:self.duration+1]
+    daily_panchaangas = self.daily_panchaangas_sorted()
     for index, dp in enumerate(daily_panchaangas):
-      dp.assign_festivals(previous_day_panchaanga=daily_panchaangas[index-1])
+      previous_day_panchaangas = daily_panchaangas[max(index - 2, 0) : index]
+      for x in range(2 - len(previous_day_panchaangas)):
+        previous_day_panchaangas = [None] + previous_day_panchaangas
+      dp.assign_festivals(previous_day_panchaangas = previous_day_panchaangas, festival_id_to_days=self.festival_id_to_days)
+    for dp in daily_panchaangas[0: 3]:
+      # Festival assignments for these days are not trustworthy.
+      dp.festival_id_to_instance = {}
     self._sync_festivals_dict_and_daily_festivals(here_to_daily=False, daily_to_here=True)
     TithiAssigner(panchaanga=self).assign_shraaddha_tithi()
     applier.MiscFestivalAssigner(panchaanga=self).assign_all()

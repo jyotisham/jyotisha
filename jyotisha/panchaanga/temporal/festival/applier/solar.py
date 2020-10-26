@@ -21,28 +21,28 @@ class SolarFestivalAssigner(FestivalAssigner):
     self.assign_vishesha_vyatipata()
 
   def assign_month_day_festivals(self):
-    for d in range(1, self.panchaanga.duration + 1):
-      [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
+    for d, daily_panchaanga in enumerate(self.daily_panchaangas):
+      y = daily_panchaanga.date.year
       ####################
       # Festival details #
       ####################
 
       # KARADAIYAN NOMBU
-      if self.daily_panchaangas[d].solar_sidereal_date_sunset.month == 12 and self.daily_panchaangas[d].solar_sidereal_date_sunset.day == 1:
+      if daily_panchaanga.solar_sidereal_date_sunset.month == 12 and daily_panchaanga.solar_sidereal_date_sunset.day == 1:
         festival_name = 'kAraDaiyAn2 nOn2bu'
-        if NakshatraDivision(self.daily_panchaangas[d].jd_sunrise - (1 / 15.0) * (self.daily_panchaangas[d].jd_sunrise - self.daily_panchaangas[d - 1].jd_sunrise),
+        if NakshatraDivision(daily_panchaanga.jd_sunrise - (1 / 15.0) * (daily_panchaanga.jd_sunrise - self.daily_panchaangas[d - 1].jd_sunrise),
                              ayanaamsha_id=self.ayanaamsha_id).get_solar_raashi().index == 12:
           # If kumbha prevails two ghatikAs before sunrise, nombu can be done in the early morning itself, else, previous night.
           self.panchaanga.festival_id_to_days[festival_name] =  [self.daily_panchaangas[d - 1].date]
         else:
-          self.panchaanga.festival_id_to_days[festival_name] = [self.daily_panchaangas[d].date]
+          self.panchaanga.festival_id_to_days[festival_name] = [daily_panchaanga.date]
 
       # KUCHELA DINAM
-      if self.daily_panchaangas[d].solar_sidereal_date_sunset.month == 9 and self.daily_panchaangas[d].solar_sidereal_date_sunset.day <= 7 and self.daily_panchaangas[d].date.get_weekday() == 3:
-        self.panchaanga.festival_id_to_days['kucEla-dinam'] = [self.daily_panchaangas[d].date]
+      if daily_panchaanga.solar_sidereal_date_sunset.month == 9 and daily_panchaanga.solar_sidereal_date_sunset.day <= 7 and daily_panchaanga.date.get_weekday() == 3:
+        self.panchaanga.festival_id_to_days['kucEla-dinam'] = [daily_panchaanga.date]
 
       # MESHA SANKRANTI
-      if self.daily_panchaangas[d].solar_sidereal_date_sunset.month == 1 and self.daily_panchaangas[d - 1].solar_sidereal_date_sunset.month == 12:
+      if daily_panchaanga.solar_sidereal_date_sunset.month == 1 and self.daily_panchaangas[d - 1].solar_sidereal_date_sunset.month == 12:
         # distance from prabhava
         samvatsara_id = (y - 1568) % 60 + 1
         new_yr = 'mESa-saGkrAntiH' + '~(' + names.NAMES['SAMVATSARA_NAMES']['hk'][
@@ -66,8 +66,8 @@ class SolarFestivalAssigner(FestivalAssigner):
         self.add_to_festival_id_to_days(festival_name, d)
 
   def assign_gajachhaya_yoga(self, debug_festivals=False):
-    for d in range(1, self.panchaanga.duration + 1):
-      [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
+    for d, daily_panchaanga in enumerate(self.daily_panchaangas):
+      [y, m, dt] = [daily_panchaanga.date.year, daily_panchaanga.date.month, daily_panchaanga.date.day]
 
       # checking @ 6am local - can we do any better?
       local_time = tz(self.panchaanga.city.timezone).localize(datetime(y, m, dt, 6, 0, 0))
@@ -133,25 +133,24 @@ class SolarFestivalAssigner(FestivalAssigner):
           gc_30 = False
 
   def assign_mahodaya_ardhodaya(self):
-    for d in range(1, self.panchaanga.duration + 1):
-      [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
+    for d, daily_panchaanga in enumerate(self.daily_panchaangas):
 
       # MAHODAYAM
       # Can also refer youtube video https://youtu.be/0DBIwb7iaLE?list=PL_H2LUtMCKPjh63PRk5FA3zdoEhtBjhzj&t=6747
       # 4th pada of vyatipatam, 1st pada of Amavasya, 2nd pada of Shravana, Suryodaya, Bhanuvasara = Ardhodayam
       # 4th pada of vyatipatam, 1st pada of Amavasya, 2nd pada of Shravana, Suryodaya, Somavasara = Mahodayam
-      sunrise_zodiac = NakshatraDivision(self.daily_panchaangas[d].jd_sunrise, ayanaamsha_id=self.ayanaamsha_id)
-      sunset_zodiac = NakshatraDivision(self.daily_panchaangas[d].jd_sunset, ayanaamsha_id=self.ayanaamsha_id)
-      if self.daily_panchaangas[d].lunar_month_sunrise.index in [10, 11] and self.daily_panchaangas[d].sunrise_day_angas.tithi_at_sunrise.index == 30 or tithi.get_tithi(self.daily_panchaangas[d].jd_sunrise).index == 30:
+      sunrise_zodiac = NakshatraDivision(daily_panchaanga.jd_sunrise, ayanaamsha_id=self.ayanaamsha_id)
+      sunset_zodiac = NakshatraDivision(daily_panchaanga.jd_sunset, ayanaamsha_id=self.ayanaamsha_id)
+      if daily_panchaanga.lunar_month_sunrise.index in [10, 11] and daily_panchaanga.sunrise_day_angas.tithi_at_sunrise.index == 30 or tithi.get_tithi(daily_panchaanga.jd_sunrise).index == 30:
         if sunrise_zodiac.get_anga(zodiac.AngaType.NAKSHATRA).index == 17 or \
             sunset_zodiac.get_anga(zodiac.AngaType.NAKSHATRA).index == 17 and \
             sunrise_zodiac.get_anga(zodiac.AngaType.NAKSHATRA).index == 22 or \
             sunset_zodiac.get_anga(zodiac.AngaType.NAKSHATRA).index == 22:
-          if self.daily_panchaangas[d].date.get_weekday() == 1:
+          if daily_panchaanga.date.get_weekday() == 1:
             festival_name = 'mahOdaya-puNyakAlaH'
             self.add_to_festival_id_to_days(festival_name, d)
             # logging.debug('* %d-%02d-%02d> %s!' % (y, m, dt, festival_name))
-          elif self.daily_panchaangas[d].date.get_weekday() == 0:
+          elif daily_panchaanga.date.get_weekday() == 0:
             festival_name = 'ardhOdaya-puNyakAlaH'
             self.add_to_festival_id_to_days(festival_name, d)
             # logging.debug('* %d-%02d-%02d> %s!' % (y, m, dt, festival_name))
@@ -170,31 +169,27 @@ class DailySolarAssigner(DailyPanchaangaApplier):
 
   def apply_month_anga_events(self, anga_type):
     rule_set = rules.RulesCollection.get_cached(repos=tuple(self.computation_system.options.fest_repos))
-    day_panchaanga = self.day_panchaanga
-    previous_day_panchaanga = self.previous_day_panchaanga
+    panchaangas = self.previous_day_panchaangas + [self.day_panchaanga]
 
     anga_type_id = anga_type.name.lower()
-    angas = set([x.anga for x in day_panchaanga.sunrise_day_angas.get_angas_with_ends(anga_type=anga_type)] + [x.anga for x in previous_day_panchaanga.sunrise_day_angas.get_angas_with_ends(anga_type=anga_type)])
-    for anga in angas:
-      fest_dict = rule_set.get_month_anga_fests(month=day_panchaanga.solar_sidereal_date_sunset.month, anga=anga, month_type=rules.RulesRepo.SIDEREAL_SOLAR_MONTH_DIR, anga_type_id=anga_type_id)
-      for fest_id, fest_rule in fest_dict.items():
-        kaala = fest_rule.get_kaala()
-        priority = fest_rule.timing.get_priority()
-        anga_type_str = fest_rule.timing.anga_type
-        target_anga = anga
-        fday = priority_decision.decide(p0=previous_day_panchaanga, p1=day_panchaanga, target_anga=target_anga, kaala=kaala, ayanaamsha_id=self.ayanaamsha_id)
-        if fday == 0:
-          previous_day_panchaanga.festival_id_to_instance[fest_id] = FestivalInstance(name=fest_id)
-        elif fday == 1:
-          if priority not in ('puurvaviddha', 'vyaapti'):
-            day_panchaanga.festival_id_to_instance[fest_id] = FestivalInstance(name=fest_id)
-          elif fest_id not in previous_day_panchaanga.festival_id_to_instance:
-            # puurvaviddha or vyaapti fest. More careful condition.
-            day_panchaanga.festival_id_to_instance[fest_id] = FestivalInstance(name=fest_id)
-        elif fday == -1:
-            raise NotImplemented
-    # TODO Incomplete
-    raise NotImplemented
+    angas = set([x.anga for x in panchaangas[2].sunrise_day_angas.get_angas_with_ends(anga_type=anga_type)] + [x.anga for x in panchaangas[1].sunrise_day_angas.get_angas_with_ends(anga_type=anga_type)])
+    fest_dict = rule_set.get_possibly_relevant_fests(month=self.day_panchaanga.solar_sidereal_date_sunset.month, angas=angas, month_type=rules.RulesRepo.SIDEREAL_SOLAR_MONTH_DIR, anga_type_id=anga_type_id)
+    for fest_id, fest_rule in fest_dict.items():
+      kaala = fest_rule.timing.get_kaala()
+      priority = fest_rule.timing.get_priority()
+      anga_type_str = fest_rule.timing.anga_type
+      target_anga = Anga.get_cached(index=fest_rule.timing.anga_number, anga_type_id=anga_type_str.upper())
+      fday = priority_decision.decide(p0=panchaangas[1], p1=panchaangas[2], target_anga=target_anga, kaala=kaala, ayanaamsha_id=self.ayanaamsha_id, priority=priority) + 1
+      p_fday = panchaangas[fday]
+      p_fday_minus_1 = panchaangas[fday - 1]
+      if priority not in ('puurvaviddha', 'vyaapti'):
+        p_fday.festival_id_to_instance[fest_id] = FestivalInstance(name=fest_id)
+      elif p_fday_minus_1 is None or p_fday_minus_1.date not in self.festival_id_to_days.get(fest_id, []):
+        # p_fday_minus_1 could be None when computing at the beginning of a sequence of days. In that case, we're ok with faulty assignments - since the focus is on getting subsequent days right.
+        # puurvaviddha or vyaapti fest. More careful condition.
+        p_fday.festival_id_to_instance[fest_id] = FestivalInstance(name=fest_id)
+      
+
 
 # Essential for depickling to work.
 common.update_json_class_index(sys.modules[__name__])

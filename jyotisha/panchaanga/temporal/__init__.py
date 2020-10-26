@@ -49,11 +49,13 @@ def get_2_day_interval_boundary_angas(kaala, anga_type, p0, p1):
 
 class DailyPanchaangaApplier(JsonObject):
   """Objects of this type apply various temporal attributes to panchAnga-s."""
-  def __init__(self, day_panchaanga, previous_day_panchaanga):
+  def __init__(self, day_panchaanga, previous_day_panchaangas, festival_id_to_days=None):
     super().__init__()
     self.day_panchaanga = day_panchaanga
     self.computation_system = day_panchaanga.computation_system
-    self.previous_day_panchaanga = previous_day_panchaanga
+    self.previous_day_panchaangas = previous_day_panchaangas
+    # A running record of festival-day assignments so far - to avoid repeat assignments
+    self.festival_id_to_days = festival_id_to_days
     self.ayanaamsha_id = day_panchaanga.computation_system.ayanaamsha_id
 
 

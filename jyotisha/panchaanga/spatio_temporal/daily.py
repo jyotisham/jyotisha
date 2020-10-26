@@ -142,6 +142,8 @@ class DailyPanchaanga(common.JsonObject):
       lunar_month_assigner = LunarMonthAssigner.get_assigner(computation_system=self.computation_system)
       self.set_lunar_month_sunrise(month_assigner=lunar_month_assigner, previous_day_panchaanga=previous_day_panchaanga)
 
+  def __repr__(self):
+    return "%s %s" % (repr(self.date), repr(self.city))
 
   def __lt__(self, other):
     return self.date.get_date_str() < self.date.get_date_str()
@@ -317,10 +319,12 @@ class DailyPanchaanga(common.JsonObject):
         self.lagna_data.append((lagna, lagna_end_time))
     return self.lagna_data
 
-  def assign_festivals(self, previous_day_panchaanga, no_next_day_lookup=True):
-    if previous_day_panchaanga is None:
+  def assign_festivals(self, previous_day_panchaangas, festival_id_to_days):
+    if previous_day_panchaangas is None:
       return
-    DailySolarAssigner(day_panchaanga=self, previous_day_panchaanga=previous_day_panchaanga).apply_month_day_events()
+    solar_assigner = DailySolarAssigner(day_panchaanga=self, previous_day_panchaangas=previous_day_panchaangas, festival_id_to_days=festival_id_to_days)
+    solar_assigner.apply_month_day_events()
+    # solar_assigner.apply_month_anga_events(anga_type=AngaType.TITHI)
 
 
 # Essential for depickling to work.

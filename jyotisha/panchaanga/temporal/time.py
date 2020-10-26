@@ -144,7 +144,7 @@ class Date(BasicDate):
     self.second = None
 
   def to_datetime(self):
-    return datetime.datetime(year=self.year, month=self.month, day=self.day, hour=zero_if_none(self.hour), minute=zero_if_none(self.minute), second=zero_if_none(self.second), microsecond=self.get_microseconds())
+    return datetime.datetime(year=self.year, month=self.month, day=self.day, hour=zero_if_none(self.hour), minute=zero_if_none(self.minute), second=int(zero_if_none(self.second)), microsecond=self.get_microseconds())
 
   def __sub__(self, other):
     if isinstance(other, Date):
@@ -152,6 +152,12 @@ class Date(BasicDate):
       return dt_diff.days + dt_diff.seconds / 3600.0 + dt_diff.microseconds / 60.0 / 1e6
     elif isinstance(other, Number):
       return self.offset_date(days=-other)
+
+  def __lt__(self, other):
+    return self.to_datetime() < other.to_datetime()
+
+  def __eq__(self, other):
+    return self.to_datetime() == other.to_datetime()
 
   def __add__(self, other):
     if isinstance(other, Number):
@@ -209,7 +215,7 @@ class Date(BasicDate):
     return self.as_tuple()
 
   def __repr__(self):
-    return "%s-%s-%s %s-%s-%s" % (default_if_none(str(self.year), "????"), default_if_none(str(self.month), "??"), default_if_none(str(self.day), "??"), default_if_none(str(self.hour), "??"), default_if_none(str(self.minute), "??"), default_if_none(str(self.second), "??"))
+    return repr(self.to_datetime())
 
   def get_date_str(self):
     return super(Date, self).__repr__()

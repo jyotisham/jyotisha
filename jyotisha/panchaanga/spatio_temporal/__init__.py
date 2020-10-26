@@ -87,6 +87,9 @@ class City(JsonObject):
     city = City(name=name, latitude=df.at[name, "Lat"], longitude=df.at[name, "Long"], timezone=df.at[name, "Timezone"])
     return city
 
+  def __repr__(self):
+    return self.name
+
   def get_rising_time(self, julian_day_start, body):
     from jyotisha.panchaanga.temporal.body import Graha
     graha = Graha.singleton(body)
