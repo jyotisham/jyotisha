@@ -97,20 +97,13 @@ class FestivalAssigner(PeriodicPanchaangaApplier):
       else:
         p0 = self.daily_panchaangas[d]
         p1 = self.daily_panchaangas[d+1]
-      if priority == 'paraviddha':
-        d_offset = priority_decision.decide_paraviddha(p0=p0, p1=p1, target_anga=target_anga, kaala=kaala)
-        if d_offset is not None:
+      d_offset = priority_decision.decide(p0=p0, p1=p1, target_anga=target_anga, kaala=kaala, ayanaamsha_id=self.ayanaamsha_id, priority=priority)
+      if d_offset is not None:
+        if priority not in ('puurvaviddha', 'vyaapti'):
           fday = d + d_offset
-      elif priority == 'puurvaviddha':
-        d_offset = priority_decision.decide_puurvaviddha(p0=p0, p1=p1, target_anga=target_anga, kaala=kaala)
-        if d_offset is not None:
-          if self.daily_panchaangas[d-1].date not in self.panchaanga.festival_id_to_days.get(festival_name, []):
-            fday = d + d_offset
-      elif priority == 'vyaapti':
-        d_offset = priority_decision.decide_aparaahna_vyaapti(p0=p0, p1=p1, target_anga=target_anga, kaala=kaala, ayanaamsha_id=self.ayanaamsha_id)
-        if d_offset is not None:
-          if self.daily_panchaangas[d-1].date not in self.panchaanga.festival_id_to_days.get(festival_name, []):
-            fday = d + d_offset
+        elif self.daily_panchaangas[d-1].date not in self.panchaanga.festival_id_to_days.get(festival_name, []):
+          # puurvaviddha or vyaapti fest. More careful condition.
+          fday = d + d_offset
         # else:
         #   if d0_angas.start > target_anga:
         #     logging.info("vyApti, %s: %s, %s, %s.", festival_name, str(d0_angas.to_tuple()), str(d1_angas.to_tuple()), str(target_anga.index))

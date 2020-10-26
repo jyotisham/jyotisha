@@ -117,3 +117,13 @@ def decide_aparaahna_vyaapti(p0, p1, target_anga, ayanaamsha_id, kaala):
     fday = None
   return fday
 
+
+def decide(p0, p1, target_anga, kaala, priority, ayanaamsha_id):
+  if priority == 'paraviddha':
+    fday = decide_paraviddha(p0=p0, p1=p1, target_anga=target_anga, kaala=kaala)
+  elif priority == 'puurvaviddha':
+    fday = decide_puurvaviddha(p0=p0, p1=p1, target_anga=target_anga, kaala=kaala)
+  elif priority == 'vyaapti':
+    fday = decide_aparaahna_vyaapti(p0=p0, p1=p1, target_anga=target_anga, kaala=kaala, ayanaamsha_id=ayanaamsha_id)
+  return fday
+
