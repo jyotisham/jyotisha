@@ -34,13 +34,13 @@ class SolarFestivalAssigner(FestivalAssigner):
         if NakshatraDivision(daily_panchaanga.jd_sunrise - (1 / 15.0) * (daily_panchaanga.jd_sunrise - self.daily_panchaangas[d - 1].jd_sunrise),
                              ayanaamsha_id=self.ayanaamsha_id).get_solar_raashi().index == 12:
           # If kumbha prevails two ghatikAs before sunrise, nombu can be done in the early morning itself, else, previous night.
-          self.panchaanga.festival_id_to_days[festival_name] =  [self.daily_panchaangas[d - 1].date]
+          self.panchaanga.festival_id_to_days[festival_name] =  set([self.daily_panchaangas[d - 1].date])
         else:
-          self.panchaanga.festival_id_to_days[festival_name] = [daily_panchaanga.date]
+          self.panchaanga.festival_id_to_days[festival_name] = set([daily_panchaanga.date])
 
       # KUCHELA DINAM
       if daily_panchaanga.solar_sidereal_date_sunset.month == 9 and daily_panchaanga.solar_sidereal_date_sunset.day <= 7 and daily_panchaanga.date.get_weekday() == 3:
-        self.panchaanga.festival_id_to_days['kucEla-dinam'] = [daily_panchaanga.date]
+        self.panchaanga.festival_id_to_days['kucEla-dinam'] = set([daily_panchaanga.date])
 
       # MESHA SANKRANTI
       if daily_panchaanga.solar_sidereal_date_sunset.month == 1 and self.daily_panchaangas[d - 1].solar_sidereal_date_sunset.month == 12:

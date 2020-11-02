@@ -262,9 +262,9 @@ class MiscFestivalAssigner(FestivalAssigner):
           logging.error('Relative festival %s not in festival_id_to_days! Found more than one approximate match: %s' % (
             rel_festival_name, str(matched_festivals)))
         else:
-          self.panchaanga.festival_id_to_days[festival_name] = [x + offset for x in self.panchaanga.festival_id_to_days[matched_festivals[0]]]
+          self.panchaanga.festival_id_to_days[festival_name] = set([x + offset for x in self.panchaanga.festival_id_to_days[matched_festivals[0]]])
       else:
-        self.panchaanga.festival_id_to_days[festival_name] = [x + offset for x in self.panchaanga.festival_id_to_days[rel_festival_name]]
+        self.panchaanga.festival_id_to_days[festival_name] = set([x + offset for x in self.panchaanga.festival_id_to_days[rel_festival_name]])
 
 
 # Essential for depickling to work.

@@ -158,9 +158,9 @@ class Panchaanga(common.JsonObject):
     if daily_to_here:
       for dp in self.date_str_to_panchaanga.values():
         for fest in dp.festival_id_to_instance.values():
-          days = self.festival_id_to_days.get(fest.name, [])
+          days = self.festival_id_to_days.get(fest.name, set())
           if dp.date not in days:
-            days.append(dp.date)
+            days.add(dp.date)
           self.festival_id_to_days[fest.name] = days
 
   def _reset_festivals(self):

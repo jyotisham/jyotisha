@@ -175,8 +175,8 @@ class Date(BasicDate):
       offset_date.hour = None
     if offset_date.minute == 0:
       offset_date.minute = None
-    if offset_date.days == 0:
-      offset_date.days = None
+    if offset_date.second == 0:
+      offset_date.second = None
     return offset_date
 
   def as_tuple(self):
