@@ -1,4 +1,6 @@
+import logging
 import sys
+from collections import defaultdict
 from typing import Dict
 
 import methodtools
@@ -7,11 +9,11 @@ from timebudget import timebudget
 from jyotisha.panchaanga.spatio_temporal import daily
 from jyotisha.panchaanga.temporal import time, set_constants, ComputationSystem
 from jyotisha.panchaanga.temporal.festival import applier, FestivalInstance
-from jyotisha.panchaanga.temporal.festival.applier import tithi_festival, ecliptic, solar, vaara, \
-  FestivalAssignmentRecord
+from jyotisha.panchaanga.temporal.festival.applier import tithi_festival, ecliptic, solar, vaara
 from jyotisha.panchaanga.temporal.time import Date
 from jyotisha.panchaanga.temporal.tithi import TithiAssigner
 from jyotisha.util import default_if_none
+from sanskrit_data import collection_helper
 from sanskrit_data.schema import common
 
 timebudget.set_quiet(True)  # don't show measurements as they happen
@@ -52,7 +54,7 @@ class Panchaanga(common.JsonObject):
 
     self.weekday_start = time.get_weekday(self.jd_start)
 
-    self.festival_id_to_days = {}
+    self.festival_id_to_days = defaultdict(set, {})
     self.compute_angas(compute_lagnas=self.computation_system.options.lagnas)
     if not self.computation_system.options.no_fests:
       self.update_festival_details()
@@ -147,6 +149,8 @@ class Panchaanga(common.JsonObject):
     if here_to_daily:
       for festival_id, days in self.festival_id_to_days.items():
         for fest_day in days:
+          if not isinstance(fest_day, Date):
+            logging.fatal(festival_id + " " + str(days))
           fest_day_str = fest_day.get_date_str()
           if fest_day_str in self.date_str_to_panchaanga:
             self.date_str_to_panchaanga[fest_day_str].festival_id_to_instance[festival_id] =  FestivalInstance(name=festival_id)
@@ -160,7 +164,7 @@ class Panchaanga(common.JsonObject):
           self.festival_id_to_days[fest.name] = days
 
   def _reset_festivals(self):
-    self.festival_id_to_days = {}
+    self.festival_id_to_days = defaultdict(set, {})
     for daily_panchaanga in self.date_str_to_panchaanga.values():
       daily_panchaanga.festival_id_to_instance = {}
 
@@ -181,12 +185,15 @@ class Panchaanga(common.JsonObject):
 
   def post_load_ops(self):
     self._refill_daily_panchaangas()
+    self.festival_id_to_days = collection_helper.lists_to_sets(self.festival_id_to_days)
 
   @timebudget
   def dump_to_file(self, filename, floating_point_precision=None, sort_keys=True):
     self._force_non_redundancy_in_daily_panchaangas()
+    self.festival_id_to_days = collection_helper.sets_to_lists(self.festival_id_to_days)
     super(Panchaanga, self).dump_to_file(filename=filename, floating_point_precision=floating_point_precision,
                                          sort_keys=sort_keys)
+    self.festival_id_to_days = collection_helper.lists_to_sets(self.festival_id_to_days)
     self._refill_daily_panchaangas()
 
 

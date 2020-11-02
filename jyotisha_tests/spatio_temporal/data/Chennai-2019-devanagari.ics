@@ -15596,6 +15596,19 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Mahāvyatīpāta-Śrāddham
+DTSTART;VALUE=DATE:20191017
+DTEND;VALUE=DATE:20191018
+DESCRIPTION:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Vakratuṇḍa-Mahāgaṇapati Saṅkaṭahara-Chaturthī-Vratam
 DTSTART;VALUE=DATE:20191017
 DTEND;VALUE=DATE:20191018
@@ -15607,22 +15620,6 @@ DESCRIPTION:Special vrata day for Ganesha. In this month\, Ganesha is wors
  it-coders/adyatithi/tree/master/general/description_only/MonthlyVratam/San
  kataharaChaturthiVratam/vakratuNDa-mahAgaNapati%20saGkaTahara-caturthI-vra
  tam__info.toml<br/><br/>#MonthlyVratam #SankataharaChaturthiVratam
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Vyatīpāta-Śrāddham
-DTSTART;VALUE=DATE:20191017
-DTEND;VALUE=DATE:20191018
-DESCRIPTION:Observed on  of every solar month (aparaahna/vyaapti).<br/>Vya
- tipata Shraddha day.<br/><br/>https%3A//github.com/sanskrit-coders/adyatit
- hi/tree/master/general/sidereal_solar_month/yoga/00/17/vyatIpAta-zrAddham_
- _info.toml<br/><br/>#MonthlyShraddhaDays #ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE

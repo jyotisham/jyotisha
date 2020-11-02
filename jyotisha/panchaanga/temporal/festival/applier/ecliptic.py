@@ -26,10 +26,10 @@ class EclipticFestivalAssigner(FestivalAssigner):
     pass
     # TODO: Move logic for below fests to JSON.
       # fest = FestivalInstance(name=names.NAMES['RTU_MASA_NAMES']["hk"][transit.value_2], interval=Interval(jd_start=transit.jd, jd_end=None))
-      #     self.date_str_to_panchaanga[fday_nirayana].append('dakSiNAyana-puNyakAlaH')
+      #     self.date_str_to_panchaanga[fday_nirayana].add('dakSiNAyana-puNyakAlaH')
       #   else:
-      #     self.date_str_to_panchaanga[fday_nirayana - 1].append('dakSiNAyana-puNyakAlaH')
-      #     self.date_str_to_panchaanga[fday_nirayana + 1].append('uttarAyaNa-puNyakAlaH/mitrOtsavaH')
+      #     self.date_str_to_panchaanga[fday_nirayana - 1].add('dakSiNAyana-puNyakAlaH')
+      #     self.date_str_to_panchaanga[fday_nirayana + 1].add('uttarAyaNa-puNyakAlaH/mitrOtsavaH')
 
   def compute_solar_eclipses(self):
     jd = self.panchaanga.jd_start
@@ -146,18 +146,14 @@ class EclipticFestivalAssigner(FestivalAssigner):
               fday_pushkara = fday
             else:
               fday_pushkara = fday + 1
-            self.add_to_festival_id_to_days(
-              '%s-Adi-puSkara-ArambhaH' % names.NAMES['PUSHKARA_NAMES']['hk'][rashi2],
-              fday_pushkara)
-            self.add_to_festival_id_to_days(
-              '%s-Adi-puSkara-samApanam' % names.NAMES['PUSHKARA_NAMES']['hk'][rashi2],
-              fday_pushkara + 11)
-            self.add_to_festival_id_to_days(
-              '%s-antya-puSkara-samApanam' % names.NAMES['PUSHKARA_NAMES']['hk'][rashi1],
-              fday_pushkara - 1)
-            self.add_to_festival_id_to_days(
-              '%s-antya-puSkara-ArambhaH' % names.NAMES['PUSHKARA_NAMES']['hk'][rashi1],
-              fday_pushkara - 12)
+            self.festival_id_to_days[
+              '%s-Adi-puSkara-ArambhaH' % names.NAMES['PUSHKARA_NAMES']['hk'][rashi2]].add(self.daily_panchaangas[fday_pushkara].date)
+            self.festival_id_to_days[
+              '%s-Adi-puSkara-samApanam' % names.NAMES['PUSHKARA_NAMES']['hk'][rashi2]].add(self.daily_panchaangas[fday_pushkara].date + 11)
+            self.festival_id_to_days[
+              '%s-antya-puSkara-samApanam' % names.NAMES['PUSHKARA_NAMES']['hk'][rashi1]].add(self.daily_panchaangas[fday_pushkara].date - 1)
+            self.festival_id_to_days[
+              '%s-antya-puSkara-ArambhaH' % names.NAMES['PUSHKARA_NAMES']['hk'][rashi1]].add(self.daily_panchaangas[fday_pushkara].date - 12)
 
 
 MIN_DAYS_NEXT_ECLIPSE = 25

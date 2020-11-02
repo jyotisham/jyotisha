@@ -1,4 +1,5 @@
 import sys
+from copy import copy
 from datetime import datetime
 from math import floor
 
@@ -49,21 +50,21 @@ class SolarFestivalAssigner(FestivalAssigner):
           (samvatsara_id % 60) + 1] + \
                  '-' + 'saMvatsaraH' + ')'
         # self.panchaanga.festival_id_to_days[new_yr] = [d]
-        self.add_to_festival_id_to_days(new_yr, d)
-        self.add_to_festival_id_to_days('paJcAGga-paThanam', d)
+        self.festival_id_to_days[new_yr].add(self.daily_panchaangas[d].date)
+        self.festival_id_to_days['paJcAGga-paThanam'].add(self.daily_panchaangas[d].date)
 
   def assign_vishesha_vyatipata(self):
-    vs_list = self.panchaanga.festival_id_to_days.get('vyatIpAta-zrAddham', [])
+    vs_list = copy(self.panchaanga.festival_id_to_days.get('vyatIpAta-zrAddham', []))
     for date in vs_list:
       d = int(date - self.daily_panchaangas[0].date)
       if self.daily_panchaangas[d].solar_sidereal_date_sunset.month == 9:
         self.panchaanga.festival_id_to_days['vyatIpAta-zrAddham'].remove(date)
         festival_name = 'mahAdhanurvyatIpAta-zrAddham'
-        self.add_to_festival_id_to_days(festival_name, d)
+        self.festival_id_to_days[festival_name].add(self.daily_panchaangas[d].date)
       elif self.daily_panchaangas[d].solar_sidereal_date_sunset.month == 6:
         self.panchaanga.festival_id_to_days['vyatIpAta-zrAddham'].remove(date)
         festival_name = 'mahAvyatIpAta-zrAddham'
-        self.add_to_festival_id_to_days(festival_name, d)
+        self.festival_id_to_days[festival_name].add(self.daily_panchaangas[d].date)
 
   def assign_gajachhaya_yoga(self, debug_festivals=False):
     for d, daily_panchaanga in enumerate(self.daily_panchaangas):
@@ -148,11 +149,11 @@ class SolarFestivalAssigner(FestivalAssigner):
             sunset_zodiac.get_anga(zodiac.AngaType.NAKSHATRA).index == 22:
           if daily_panchaanga.date.get_weekday() == 1:
             festival_name = 'mahOdaya-puNyakAlaH'
-            self.add_to_festival_id_to_days(festival_name, d)
+            self.festival_id_to_days[festival_name].add(self.daily_panchaangas[d].date)
             # logging.debug('* %d-%02d-%02d> %s!' % (y, m, dt, festival_name))
           elif daily_panchaanga.date.get_weekday() == 0:
             festival_name = 'ardhOdaya-puNyakAlaH'
-            self.add_to_festival_id_to_days(festival_name, d)
+            self.festival_id_to_days[festival_name].add(self.daily_panchaangas[d].date)
             # logging.debug('* %d-%02d-%02d> %s!' % (y, m, dt, festival_name))
 
 
@@ -189,10 +190,12 @@ class DailySolarAssigner(DailyPanchaangaApplier):
         p_fday_minus_1 = panchaangas[fday - 1]
         if priority not in ('puurvaviddha', 'vyaapti'):
           p_fday.festival_id_to_instance[fest_id] = FestivalInstance(name=fest_id)
+          # TODO: Update festival_id_to_days
         elif p_fday_minus_1 is None or p_fday_minus_1.date not in self.festival_id_to_days.get(fest_id, []):
           # p_fday_minus_1 could be None when computing at the beginning of a sequence of days. In that case, we're ok with faulty assignments - since the focus is on getting subsequent days right.
           # puurvaviddha or vyaapti fest. More careful condition.
           p_fday.festival_id_to_instance[fest_id] = FestivalInstance(name=fest_id)
+          # TODO: Update festival_id_to_days
           raise NotImplementedError("zrI~hanUmat~jayantI~1 on consequtive days")
       
 

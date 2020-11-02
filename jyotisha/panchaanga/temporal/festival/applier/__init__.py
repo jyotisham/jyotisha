@@ -15,24 +15,11 @@ from sanskrit_data.schema import common
 DATA_ROOT = os.path.join(os.path.dirname(festival.__file__), "data")
 
 
-class FestivalAssignmentRecord(common.JsonObject):
-  def __init__(self):
-    self.festival_id_to_days = {}
-
-
 class FestivalAssigner(PeriodicPanchaangaApplier):
   def __init__(self, panchaanga):
     super(FestivalAssigner, self).__init__(panchaanga=panchaanga)
+    self.festival_id_to_days = panchaanga.festival_id_to_days
     self.rules_collection = rules.RulesCollection.get_cached(repos=tuple(panchaanga.computation_system.options.fest_repos))
-
-  def add_to_festival_id_to_days(self, festival_name, d):
-    if festival_name in self.panchaanga.festival_id_to_days:
-      if self.daily_panchaangas[d].date not in self.panchaanga.festival_id_to_days[festival_name]:
-        # Second occurrence of a festival within a
-        # Gregorian calendar year
-        self.panchaanga.festival_id_to_days[festival_name].append(self.daily_panchaangas[d].date)
-    else:
-      self.panchaanga.festival_id_to_days[festival_name] = [self.daily_panchaangas[d].date]
 
   @timebudget
   def assign_festivals_from_rules(self, festival_rules):
@@ -58,7 +45,7 @@ class FestivalAssigner(PeriodicPanchaangaApplier):
       if self.daily_panchaangas[d].sunrise_day_angas.tithi_at_sunrise.index == 30 and self.daily_panchaangas[d + 1].sunrise_day_angas.tithi_at_sunrise.index == 2 and \
           self.daily_panchaangas[d + 1].lunar_month_sunrise.index == month_num:
         # Only in this case, we have a problem
-        self.add_to_festival_id_to_days(festival_name, d)
+        self.festival_id_to_days[festival_name].add(self.daily_panchaangas[d].date)
         return 
 
     if (month_type == 'lunar_month' and ((self.daily_panchaangas[d].lunar_month_sunrise.index == month_num or month_num == 0) or (
@@ -125,7 +112,7 @@ class FestivalAssigner(PeriodicPanchaangaApplier):
               festival_name, d - 1, d))
           self.panchaanga.festival_id_to_days[festival_name].remove(self.daily_panchaangas[d-1].date)
 
-        self.add_to_festival_id_to_days(festival_name, fday)
+        self.festival_id_to_days[festival_name].add(self.daily_panchaangas[fday].date)
 
   @timebudget
   def assign_festival_numbers(self):
@@ -145,7 +132,9 @@ class FestivalAssigner(PeriodicPanchaangaApplier):
         fest_start_year = festival_rules_all[festival_name].timing.year_start
         month_type = festival_rules_all[festival_name].timing.month_type
         if len(self.panchaanga.festival_id_to_days[festival_name]) > 1:
-          if self.panchaanga.festival_id_to_days[festival_name][1] - self.panchaanga.festival_id_to_days[festival_name][0] < 300:
+          days = list(self.panchaanga.festival_id_to_days[festival_name])
+          days.sort()
+          if days[1] - days[0] < 300:
             # Lunar festival_id_to_instance can repeat after 354 days; Solar festival_id_to_instance "can" repeat after 330 days
             # (last day of Dhanur masa Jan and first day of Dhanur masa Dec may have same nakshatra and are about 335 days apart)
             # In fact they will be roughly 354 days apart, again!
@@ -185,7 +174,7 @@ class FestivalAssigner(PeriodicPanchaangaApplier):
     else:
       if self.panchaanga.festival_id_to_days['tripurOtsavaH'] != self.panchaanga.festival_id_to_days['mahA~kArttikI']:
         logging.warning('Removing mahA~kArttikI (%s) since it does not coincide with tripurOtsavaH (%s)' % (
-          self.panchaanga.festival_id_to_days['tripurOtsavaH'][0], self.panchaanga.festival_id_to_days['mahA~kArttikI'][0]))
+          str(self.panchaanga.festival_id_to_days['tripurOtsavaH']), set(self.panchaanga.festival_id_to_days['mahA~kArttikI'])))
         del self.panchaanga.festival_id_to_days['mahA~kArttikI']
         # An error here implies the festival_id_to_instance were not assigned: adhika
         # mAsa calc errors??
@@ -234,11 +223,11 @@ class MiscFestivalAssigner(FestivalAssigner):
       if self.daily_panchaangas[d].solar_sidereal_date_sunset.month == 1 and self.daily_panchaangas[d].solar_sidereal_date_sunset.day > 10:
         if agni_jd_start is not None:
           if self.daily_panchaangas[d].jd_sunset < agni_jd_start < self.daily_panchaangas[d + 1].jd_sunset:
-            self.add_to_festival_id_to_days('agninakSatra-ArambhaH', d + 1)
+            self.festival_id_to_days['agninakSatra-ArambhaH'].add(self.daily_panchaangas[d].date + 1)
       if self.daily_panchaangas[d].solar_sidereal_date_sunset.month == 2 and self.daily_panchaangas[d].solar_sidereal_date_sunset.day > 10:
         if agni_jd_end is not None:
           if self.daily_panchaangas[d].jd_sunset < agni_jd_end < self.daily_panchaangas[d + 1].jd_sunset:
-            self.add_to_festival_id_to_days('agninakSatra-samApanam', d + 1)
+            self.festival_id_to_days['agninakSatra-samApanam'].add(self.daily_panchaangas[d].date + 1)
 
   def assign_relative_festivals(self):
     # Add "RELATIVE" festival_id_to_instance --- festival_id_to_instance that happen before or
@@ -247,9 +236,9 @@ class MiscFestivalAssigner(FestivalAssigner):
       logging.error('yajurvEda-upAkarma not in festival_id_to_instance!')
     else:
       # Extended for longer calendars where more than one upAkarma may be there
-      self.panchaanga.festival_id_to_days['varalakSmI-vratam'] = []
+      self.panchaanga.festival_id_to_days['varalakSmI-vratam'] = set()
       for d in self.panchaanga.festival_id_to_days['yajurvEda-upAkarma']:
-        self.panchaanga.festival_id_to_days['varalakSmI-vratam'].append(d - ((d.get_weekday() - 5) % 7))
+        self.panchaanga.festival_id_to_days['varalakSmI-vratam'].add(d - ((d.get_weekday() - 5) % 7))
       # self.panchaanga.festival_id_to_days['varalakSmI-vratam'] = [self.panchaanga.festival_id_to_days['yajurvEda-upAkarma'][0] -
       #                                        ((self.panchaanga.weekday_start - 1 + self.panchaanga.festival_id_to_days['yajurvEda-upAkarma'][
       #                                            0] - 5) % 7)]

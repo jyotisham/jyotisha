@@ -171,6 +171,12 @@ class Date(BasicDate):
     dt = self.to_datetime()
     offset_dt = dt + datetime.timedelta(**kwargs)
     offset_date = Date.from_datetime(dt=offset_dt)
+    if offset_date.hour == 0:
+      offset_date.hour = None
+    if offset_date.minute == 0:
+      offset_date.minute = None
+    if offset_date.days == 0:
+      offset_date.days = None
     return offset_date
 
   def as_tuple(self):
@@ -187,9 +193,7 @@ class Date(BasicDate):
     return [self.year, self.month, self.day, fractional_hour]
 
   def get_weekday(self):
-    if self.weekday is None:
-      self.weekday = dt_module.date(year=self.year, month=self.month, day=self.day).isoweekday() % 7
-    return self.weekday
+    return dt_module.date(year=self.year, month=self.month, day=self.day).isoweekday() % 7
 
   def sanitize(self):
     (year, month, day, hour, minute, second) = (self.year, self.month, self.day, self.hour, self.minute, self.second)
@@ -216,6 +220,9 @@ class Date(BasicDate):
 
   def __repr__(self):
     return repr(self.to_datetime())
+
+  def __hash__(self):
+    return hash(repr(self))
 
   def get_date_str(self):
     return super(Date, self).__repr__()
