@@ -2,14 +2,14 @@ import sys
 from datetime import datetime
 from math import floor
 
+from pytz import timezone as tz
+
 from jyotisha import names
-from jyotisha.panchaanga.temporal import time, DailyPanchaangaApplier
+from jyotisha.panchaanga.temporal import DailyPanchaangaApplier
 from jyotisha.panchaanga.temporal import zodiac, tithi
 from jyotisha.panchaanga.temporal.festival import rules, FestivalInstance, priority_decision
 from jyotisha.panchaanga.temporal.festival.applier import FestivalAssigner
 from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision, Anga
-from pytz import timezone as tz
-
 from sanskrit_data.schema import common
 
 
@@ -172,22 +172,28 @@ class DailySolarAssigner(DailyPanchaangaApplier):
     panchaangas = self.previous_day_panchaangas + [self.day_panchaanga]
 
     anga_type_id = anga_type.name.lower()
-    angas = set([x.anga for x in panchaangas[2].sunrise_day_angas.get_angas_with_ends(anga_type=anga_type)] + [x.anga for x in panchaangas[1].sunrise_day_angas.get_angas_with_ends(anga_type=anga_type)])
+    angas = [x.anga for x in panchaangas[2].sunrise_day_angas.get_angas_with_ends(anga_type=anga_type)]
+    if panchaangas[1] is not None:
+      angas = angas + [x.anga for x in panchaangas[1].sunrise_day_angas.get_angas_with_ends(anga_type=anga_type)]
+    angas = set(angas)
     fest_dict = rule_set.get_possibly_relevant_fests(month=self.day_panchaanga.solar_sidereal_date_sunset.month, angas=angas, month_type=rules.RulesRepo.SIDEREAL_SOLAR_MONTH_DIR, anga_type_id=anga_type_id)
     for fest_id, fest_rule in fest_dict.items():
       kaala = fest_rule.timing.get_kaala()
       priority = fest_rule.timing.get_priority()
       anga_type_str = fest_rule.timing.anga_type
       target_anga = Anga.get_cached(index=fest_rule.timing.anga_number, anga_type_id=anga_type_str.upper())
-      fday = priority_decision.decide(p0=panchaangas[1], p1=panchaangas[2], target_anga=target_anga, kaala=kaala, ayanaamsha_id=self.ayanaamsha_id, priority=priority) + 1
-      p_fday = panchaangas[fday]
-      p_fday_minus_1 = panchaangas[fday - 1]
-      if priority not in ('puurvaviddha', 'vyaapti'):
-        p_fday.festival_id_to_instance[fest_id] = FestivalInstance(name=fest_id)
-      elif p_fday_minus_1 is None or p_fday_minus_1.date not in self.festival_id_to_days.get(fest_id, []):
-        # p_fday_minus_1 could be None when computing at the beginning of a sequence of days. In that case, we're ok with faulty assignments - since the focus is on getting subsequent days right.
-        # puurvaviddha or vyaapti fest. More careful condition.
-        p_fday.festival_id_to_instance[fest_id] = FestivalInstance(name=fest_id)
+      fday_1_vs_2 = priority_decision.decide(p0=panchaangas[1], p1=panchaangas[2], target_anga=target_anga, kaala=kaala, ayanaamsha_id=self.ayanaamsha_id, priority=priority)
+      if fday_1_vs_2 is not None:
+        fday = fday_1_vs_2 + 1
+        p_fday = panchaangas[fday]
+        p_fday_minus_1 = panchaangas[fday - 1]
+        if priority not in ('puurvaviddha', 'vyaapti'):
+          p_fday.festival_id_to_instance[fest_id] = FestivalInstance(name=fest_id)
+        elif p_fday_minus_1 is None or p_fday_minus_1.date not in self.festival_id_to_days.get(fest_id, []):
+          # p_fday_minus_1 could be None when computing at the beginning of a sequence of days. In that case, we're ok with faulty assignments - since the focus is on getting subsequent days right.
+          # puurvaviddha or vyaapti fest. More careful condition.
+          p_fday.festival_id_to_instance[fest_id] = FestivalInstance(name=fest_id)
+          raise NotImplementedError("zrI~hanUmat~jayantI~1 on consequtive days")
       
 
 
