@@ -398,8 +398,8 @@ class TithiFestivalAssigner(FestivalAssigner):
           else:
             suff = suff.replace(')', ', puSkalA)')
         self.festival_id_to_days[pref + 'amAvAsyA' + suff].add(self.daily_panchaangas[d].date)
-    if 'amAvAsyA' in self.panchaanga.festival_id_to_days:
-      del self.panchaanga.festival_id_to_days['amAvAsyA']
+
+    self.panchaanga.delete_festival(fest_id='amAvAsyA')
 
     for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + 1):
       [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()

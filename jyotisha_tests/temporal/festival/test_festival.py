@@ -18,3 +18,8 @@ def test_get_best_transliterated_name():
   name = fest.get_best_transliterated_name(scripts=[sanscript.DEVANAGARI, sanscript.TAMIL],
                                            fest_details_dict=rules_collection.name_to_rule)
   assert name["text"] == "रामानुज-जन्म-नक्षत्रम्"
+
+  fest = festival.FestivalInstance(name='undu~madakkaLir2r2an2')
+  name = fest.get_best_transliterated_name(scripts=[sanscript.IAST],
+                                           fest_details_dict=rules_collection.name_to_rule)
+  assert name["text"] == "Undu~Madakkaḻir̂R̂An"

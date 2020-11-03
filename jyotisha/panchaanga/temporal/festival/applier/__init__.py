@@ -175,8 +175,8 @@ class FestivalAssigner(PeriodicPanchaangaApplier):
       if self.panchaanga.festival_id_to_days['tripurOtsavaH'] != self.panchaanga.festival_id_to_days['mahA~kArttikI']:
         logging.warning('Removing mahA~kArttikI (%s) since it does not coincide with tripurOtsavaH (%s)' % (
           str(self.panchaanga.festival_id_to_days['tripurOtsavaH']), set(self.panchaanga.festival_id_to_days['mahA~kArttikI'])))
-        del self.panchaanga.festival_id_to_days['mahA~kArttikI']
-        # An error here implies the festival_id_to_instance were not assigned: adhika
+      self.panchaanga.delete_festival(fest_id='mahA~kArttikI')
+      # An error here implies the festival_id_to_instance were not assigned: adhika
         # mAsa calc errors??
 
 
@@ -195,7 +195,7 @@ class MiscFestivalAssigner(FestivalAssigner):
       # done in computeFestivals(), without using a rule in festival_rules.json!
         return False
       
-      if x.timing.month_type == rules.RulesRepo.SIDEREAL_SOLAR_MONTH_DIR and x.timing.anga_type in (rules.RulesRepo.DAY_DIR):
+      if x.timing.month_type == rules.RulesRepo.SIDEREAL_SOLAR_MONTH_DIR and x.timing.anga_type in (rules.RulesRepo.DAY_DIR, rules.RulesRepo.TITHI_DIR):
         return False
       return True
     festival_rules_dict = {k: v for k, v in self.rules_collection.name_to_rule.items() if to_be_assigned(v)}

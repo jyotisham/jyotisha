@@ -5698,9 +5698,9 @@
         }
       },
       "festival_id_to_instance": {
-        "indra-pUjA/gO-pUjA": {
+        "indra-pUjA or gO-pUjA": {
           "jsonClass": "FestivalInstance",
-          "name": "indra-pUjA/gO-pUjA"
+          "name": "indra-pUjA or gO-pUjA"
         },
         "kRttikA-vratam": {
           "jsonClass": "FestivalInstance",
@@ -15227,9 +15227,9 @@
           "jsonClass": "FestivalInstance",
           "name": "madhva-navamI"
         },
-        "tiruccendUr murugan2 mAcit tiruvizhA ##7##m nAL\u2014urugu cattac cEvai/cigappu cAtti alaGkAram": {
+        "tiruccendUr murugan2 mAcit tiruvizhA ##7##m nAL\u2014urugu cattac cEvai or cigappu cAtti alaGkAram": {
           "jsonClass": "FestivalInstance",
-          "name": "tiruccendUr murugan2 mAcit tiruvizhA ##7##m nAL\u2014urugu cattac cEvai/cigappu cAtti alaGkAram"
+          "name": "tiruccendUr murugan2 mAcit tiruvizhA ##7##m nAL\u2014urugu cattac cEvai or cigappu cAtti alaGkAram"
         },
         "vaidhRti-zrAddham": {
           "jsonClass": "FestivalInstance",
@@ -16236,9 +16236,9 @@
           "jsonClass": "FestivalInstance",
           "name": "ravipuSyayOga-puNyakAlaH"
         },
-        "tilapadma-dvAdazI/tilOtpatti": {
+        "tilapadma-dvAdazI or tilOtpatti": {
           "jsonClass": "FestivalInstance",
-          "name": "tilapadma-dvAdazI/tilOtpatti"
+          "name": "tilapadma-dvAdazI or tilOtpatti"
         },
         "tiruccendUr murugan2 mAcit tiruvizhA ##10##m nAL\u2014tEr": {
           "jsonClass": "FestivalInstance",
@@ -32575,9 +32575,9 @@
         }
       },
       "festival_id_to_instance": {
-        "gaurI~tRtIyA/saubhAgya-gaurI-vratam": {
+        "gaurI~tRtIyA or saubhAgya-gaurI-vratam": {
           "jsonClass": "FestivalInstance",
-          "name": "gaurI~tRtIyA/saubhAgya-gaurI-vratam"
+          "name": "gaurI~tRtIyA or saubhAgya-gaurI-vratam"
         },
         "kRttikA-vratam": {
           "jsonClass": "FestivalInstance",
@@ -35934,9 +35934,9 @@
         }
       },
       "festival_id_to_instance": {
-        "citrA~pUrNimA/citragupta~pUjai": {
+        "citrA~pUrNimA or citragupta~pUjai": {
           "jsonClass": "FestivalInstance",
-          "name": "citrA~pUrNimA/citragupta~pUjai"
+          "name": "citrA~pUrNimA or citragupta~pUjai"
         },
         "damanaka-caturdazI": {
           "jsonClass": "FestivalInstance",
@@ -52309,9 +52309,9 @@
         }
       },
       "festival_id_to_instance": {
-        "kadalI-gaurI-vratam/pUjA": {
+        "kadalI-gaurI-vratam or pUjA": {
           "jsonClass": "FestivalInstance",
-          "name": "kadalI-gaurI-vratam/pUjA"
+          "name": "kadalI-gaurI-vratam or pUjA"
         },
         "naminandiyaDigaL nAyan2Ar (26) gurupUjai": {
           "jsonClass": "FestivalInstance",
@@ -54001,9 +54001,9 @@
         }
       },
       "festival_id_to_instance": {
-        "dazaharA/gaGgAvataraNam/dazapApaharA~dazamI": {
+        "dazaharA or gaGgAvataraNam or dazapApaharA~dazamI": {
           "jsonClass": "FestivalInstance",
-          "name": "dazaharA/gaGgAvataraNam/dazapApaharA~dazamI"
+          "name": "dazaharA or gaGgAvataraNam or dazapApaharA~dazamI"
         },
         "kAJcI 17 jagadguru zrI~sadAzivEndra sarasvatI ArAdhanA": {
           "jsonClass": "FestivalInstance",
@@ -55722,9 +55722,9 @@
           "jsonClass": "FestivalInstance",
           "name": "vEGkaTAcalE jyESTha-abhidyEyakAbhiSEkaH (svarNa-kavacam)"
         },
-        "vaTa-pUrNimA/vaTa-sAvitrI-vratam": {
+        "vaTa-pUrNimA or vaTa-sAvitrI-vratam": {
           "jsonClass": "FestivalInstance",
-          "name": "vaTa-pUrNimA/vaTa-sAvitrI-vratam"
+          "name": "vaTa-pUrNimA or vaTa-sAvitrI-vratam"
         }
       },
       "jd_moonrise": 2458652.0507,
@@ -59491,9 +59491,9 @@
         }
       },
       "festival_id_to_instance": {
-        "cidambarE dhvajArOhaNam/paJcamUrti rathOtsavaH": {
+        "cidambarE dhvajArOhaNam or paJcamUrti rathOtsavaH": {
           "jsonClass": "FestivalInstance",
-          "name": "cidambarE dhvajArOhaNam/paJcamUrti rathOtsavaH"
+          "name": "cidambarE dhvajArOhaNam or paJcamUrti rathOtsavaH"
         },
         "harivAsaraH": {
           "interval": {
@@ -65197,9 +65197,9 @@
           "jsonClass": "FestivalInstance",
           "name": "candra-grahaNam~(kEtugrasta)"
         },
-        "guru-pUrNimA/vyAsa-pUjA": {
+        "guru-pUrNimA or vyAsa-pUjA": {
           "jsonClass": "FestivalInstance",
-          "name": "guru-pUrNimA/vyAsa-pUjA"
+          "name": "guru-pUrNimA or vyAsa-pUjA"
         },
         "kAJcI 10 jagadguru zrI~surEzvarEndra sarasvatI ArAdhanA": {
           "jsonClass": "FestivalInstance",
@@ -72411,9 +72411,9 @@
           "jsonClass": "FestivalInstance",
           "name": "dvAdaza-saptamI"
         },
-        "kazhar2ir2r2ar2ivAr/cEramAn2 perumAL nAyan2Ar (36) gurupUjai": {
+        "kazhar2ir2r2ar2ivAr or cEramAn2 perumAL nAyan2Ar (36) gurupUjai": {
           "jsonClass": "FestivalInstance",
-          "name": "kazhar2ir2r2ar2ivAr/cEramAn2 perumAL nAyan2Ar (36) gurupUjai"
+          "name": "kazhar2ir2r2ar2ivAr or cEramAn2 perumAL nAyan2Ar (36) gurupUjai"
         },
         "pApanAzanI~saptamI": {
           "jsonClass": "FestivalInstance",
@@ -73409,9 +73409,9 @@
           "jsonClass": "FestivalInstance",
           "name": "kaliya nAyan2Ar (43) gurupUjai"
         },
-        "vEda/dadhi-vrata-ArambhaH": {
+        "vEda or dadhi-vrata-ArambhaH": {
           "jsonClass": "FestivalInstance",
-          "name": "vEda/dadhi-vrata-ArambhaH"
+          "name": "vEda or dadhi-vrata-ArambhaH"
         },
         "vaidhRti-zrAddham": {
           "jsonClass": "FestivalInstance",
@@ -77966,9 +77966,9 @@
           "jsonClass": "FestivalInstance",
           "name": "nandOtsavaH"
         },
-        "tiruccendUr murugan2 AvaNit tiruvizhA toDakkam/koDiyEr2r2am": {
+        "tiruccendUr murugan2 AvaNit tiruvizhA toDakkam or koDiyEr2r2am": {
           "jsonClass": "FestivalInstance",
-          "name": "tiruccendUr murugan2 AvaNit tiruvizhA toDakkam/koDiyEr2r2am"
+          "name": "tiruccendUr murugan2 AvaNit tiruvizhA toDakkam or koDiyEr2r2am"
         },
         "varagUr ur2iyaDi utsavam": {
           "jsonClass": "FestivalInstance",
@@ -86649,9 +86649,9 @@
           "jsonClass": "FestivalInstance",
           "name": "nAga-pUjA"
         },
-        "saptarSi-pUjA/arghyam": {
+        "saptarSi-pUjA or arghyam": {
           "jsonClass": "FestivalInstance",
-          "name": "saptarSi-pUjA/arghyam"
+          "name": "saptarSi-pUjA or arghyam"
         }
       },
       "jd_moonrise": 2458746.172,
@@ -87962,9 +87962,9 @@
         }
       },
       "festival_id_to_instance": {
-        "durgA/gaurI-pUjA": {
+        "durgA or gaurI-pUjA": {
           "jsonClass": "FestivalInstance",
-          "name": "durgA/gaurI-pUjA"
+          "name": "durgA or gaurI-pUjA"
         },
         "sumaGgalA~navamI": {
           "jsonClass": "FestivalInstance",
@@ -92642,9 +92642,9 @@
           "jsonClass": "FestivalInstance",
           "name": "buddha~jayantI"
         },
-        "mahAnavamI/sarasvatI-pUjA": {
+        "mahAnavamI or sarasvatI-pUjA": {
           "jsonClass": "FestivalInstance",
-          "name": "mahAnavamI/sarasvatI-pUjA"
+          "name": "mahAnavamI or sarasvatI-pUjA"
         },
         "sOmazrAvaNI-puNyakAlaH": {
           "jsonClass": "FestivalInstance",
@@ -94600,9 +94600,9 @@
           "jsonClass": "FestivalInstance",
           "name": "kaumudI-utsavaH"
         },
-        "kumAra-pUrNimA/mahA-azvinI": {
+        "kumAra-pUrNimA or mahA-azvinI": {
           "jsonClass": "FestivalInstance",
-          "name": "kumAra-pUrNimA/mahA-azvinI"
+          "name": "kumAra-pUrNimA or mahA-azvinI"
         },
         "kuntI~(pArvatI)-vratam": {
           "jsonClass": "FestivalInstance",
@@ -99245,13 +99245,13 @@
           "jsonClass": "FestivalInstance",
           "name": "Azvayuja-amAvAsyA"
         },
-        "dIpAvalI/lakSmI-kubEra-pUjA": {
+        "dIpAvalI or lakSmI-kubEra-pUjA": {
           "jsonClass": "FestivalInstance",
-          "name": "dIpAvalI/lakSmI-kubEra-pUjA"
+          "name": "dIpAvalI or lakSmI-kubEra-pUjA"
         },
-        "dIpOtsava-caturdazI/yama-tarpaNam": {
+        "dIpOtsava-caturdazI or yama-tarpaNam": {
           "jsonClass": "FestivalInstance",
-          "name": "dIpOtsava-caturdazI/yama-tarpaNam"
+          "name": "dIpOtsava-caturdazI or yama-tarpaNam"
         },
         "naraka-caturdazI": {
           "jsonClass": "FestivalInstance",
@@ -99933,9 +99933,9 @@
           "jsonClass": "FestivalInstance",
           "name": "candra-darzanam"
         },
-        "yama/bhrAtR-dvitIyA": {
+        "yama or bhrAtR-dvitIyA": {
           "jsonClass": "FestivalInstance",
-          "name": "yama/bhrAtR-dvitIyA"
+          "name": "yama or bhrAtR-dvitIyA"
         }
       },
       "jd_moonrise": 2458785.5612,
@@ -104185,9 +104185,9 @@
           "jsonClass": "FestivalInstance",
           "name": "kRttikA~sOmavAsaraH"
         },
-        "maNikarNikA-snAnam/vaikuNTha-caturdazI": {
+        "maNikarNikA-snAnam or vaikuNTha-caturdazI": {
           "jsonClass": "FestivalInstance",
-          "name": "maNikarNikA-snAnam/vaikuNTha-caturdazI"
+          "name": "maNikarNikA-snAnam or vaikuNTha-caturdazI"
         },
         "tirumUla nAyan2Ar (29) gurupUjai": {
           "jsonClass": "FestivalInstance",
@@ -126782,7 +126782,7 @@
         "year": 2019
       }
     ],
-    "cidambarE dhvajArOhaNam/paJcamUrti rathOtsavaH": [
+    "cidambarE dhvajArOhaNam or paJcamUrti rathOtsavaH": [
       {
         "day": 29,
         "jsonClass": "Date",
@@ -126878,7 +126878,7 @@
         "year": 2019
       }
     ],
-    "citrA~pUrNimA/citragupta~pUjai": [
+    "citrA~pUrNimA or citragupta~pUjai": [
       {
         "day": 18,
         "jsonClass": "Date",
@@ -126926,7 +126926,7 @@
         "year": 2019
       }
     ],
-    "dIpAvalI/lakSmI-kubEra-pUjA": [
+    "dIpAvalI or lakSmI-kubEra-pUjA": [
       {
         "day": 27,
         "jsonClass": "Date",
@@ -126934,7 +126934,7 @@
         "year": 2019
       }
     ],
-    "dIpOtsava-caturdazI/yama-tarpaNam": [
+    "dIpOtsava-caturdazI or yama-tarpaNam": [
       {
         "day": 27,
         "jsonClass": "Date",
@@ -127070,7 +127070,7 @@
         "year": 2019
       }
     ],
-    "dazaharA/gaGgAvataraNam/dazapApaharA~dazamI": [
+    "dazaharA or gaGgAvataraNam or dazapApaharA~dazamI": [
       {
         "day": 12,
         "jsonClass": "Date",
@@ -127126,6 +127126,14 @@
         "year": 2019
       }
     ],
+    "durgA or gaurI-pUjA": [
+      {
+        "day": 23,
+        "jsonClass": "Date",
+        "month": 9,
+        "year": 2019
+      }
+    ],
     "durgA-pUjA": [
       {
         "day": 8,
@@ -127147,14 +127155,6 @@
         "day": 8,
         "jsonClass": "Date",
         "month": 8,
-        "year": 2019
-      }
-    ],
-    "durgA/gaurI-pUjA": [
-      {
-        "day": 23,
-        "jsonClass": "Date",
-        "month": 9,
         "year": 2019
       }
     ],
@@ -127420,7 +127420,7 @@
         "year": 2019
       }
     ],
-    "gaurI~tRtIyA/saubhAgya-gaurI-vratam": [
+    "gaurI~tRtIyA or saubhAgya-gaurI-vratam": [
       {
         "day": 8,
         "jsonClass": "Date",
@@ -127452,7 +127452,7 @@
         "year": 2019
       }
     ],
-    "guru-pUrNimA/vyAsa-pUjA": [
+    "guru-pUrNimA or vyAsa-pUjA": [
       {
         "day": 16,
         "jsonClass": "Date",
@@ -127750,7 +127750,7 @@
         "year": 2019
       }
     ],
-    "indra-pUjA/gO-pUjA": [
+    "indra-pUjA or gO-pUjA": [
       {
         "day": 16,
         "jsonClass": "Date",
@@ -128912,7 +128912,7 @@
         "year": 2019
       }
     ],
-    "kadalI-gaurI-vratam/pUjA": [
+    "kadalI-gaurI-vratam or pUjA": [
       {
         "day": 7,
         "jsonClass": "Date",
@@ -129212,7 +129212,7 @@
         "year": 2019
       }
     ],
-    "kazhar2ir2r2ar2ivAr/cEramAn2 perumAL nAyan2Ar (36) gurupUjai": [
+    "kazhar2ir2r2ar2ivAr or cEramAn2 perumAL nAyan2Ar (36) gurupUjai": [
       {
         "day": 7,
         "jsonClass": "Date",
@@ -129292,7 +129292,7 @@
         "year": 2019
       }
     ],
-    "kumAra-pUrNimA/mahA-azvinI": [
+    "kumAra-pUrNimA or mahA-azvinI": [
       {
         "day": 13,
         "jsonClass": "Date",
@@ -129728,7 +129728,7 @@
         "year": 2019
       }
     ],
-    "maNikarNikA-snAnam/vaikuNTha-caturdazI": [
+    "maNikarNikA-snAnam or vaikuNTha-caturdazI": [
       {
         "day": 11,
         "jsonClass": "Date",
@@ -129886,7 +129886,7 @@
         "year": 2019
       }
     ],
-    "mahAnavamI/sarasvatI-pUjA": [
+    "mahAnavamI or sarasvatI-pUjA": [
       {
         "day": 7,
         "jsonClass": "Date",
@@ -131338,7 +131338,7 @@
         "year": 2019
       }
     ],
-    "saptarSi-pUjA/arghyam": [
+    "saptarSi-pUjA or arghyam": [
       {
         "day": 19,
         "jsonClass": "Date",
@@ -131818,7 +131818,7 @@
         "year": 2019
       }
     ],
-    "tilapadma-dvAdazI/tilOtpatti": [
+    "tilapadma-dvAdazI or tilOtpatti": [
       {
         "day": 17,
         "jsonClass": "Date",
@@ -131946,7 +131946,7 @@
         "year": 2019
       }
     ],
-    "tiruccendUr murugan2 AvaNit tiruvizhA toDakkam/koDiyEr2r2am": [
+    "tiruccendUr murugan2 AvaNit tiruvizhA toDakkam or koDiyEr2r2am": [
       {
         "day": 24,
         "jsonClass": "Date",
@@ -132002,7 +132002,7 @@
         "year": 2019
       }
     ],
-    "tiruccendUr murugan2 mAcit tiruvizhA ##7##m nAL\u2014urugu cattac cEvai/cigappu cAtti alaGkAram": [
+    "tiruccendUr murugan2 mAcit tiruvizhA ##7##m nAL\u2014urugu cattac cEvai or cigappu cAtti alaGkAram": [
       {
         "day": 14,
         "jsonClass": "Date",
@@ -132614,7 +132614,7 @@
         "year": 2019
       }
     ],
-    "vEda/dadhi-vrata-ArambhaH": [
+    "vEda or dadhi-vrata-ArambhaH": [
       {
         "day": 10,
         "jsonClass": "Date",
@@ -132630,7 +132630,7 @@
         "year": 2019
       }
     ],
-    "vaTa-pUrNimA/vaTa-sAvitrI-vratam": [
+    "vaTa-pUrNimA or vaTa-sAvitrI-vratam": [
       {
         "day": 17,
         "jsonClass": "Date",
@@ -133234,7 +133234,7 @@
         "year": 2019
       }
     ],
-    "yama/bhrAtR-dvitIyA": [
+    "yama or bhrAtR-dvitIyA": [
       {
         "day": 29,
         "jsonClass": "Date",

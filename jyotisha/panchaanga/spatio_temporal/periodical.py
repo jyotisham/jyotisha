@@ -168,6 +168,11 @@ class Panchaanga(common.JsonObject):
     for daily_panchaanga in self.date_str_to_panchaanga.values():
       daily_panchaanga.festival_id_to_instance = {}
 
+  def delete_festival(self, fest_id):
+    for date in self.festival_id_to_days.pop(fest_id, []):
+      self.date_str_to_panchaanga[date.get_date_str()].festival_id_to_instance.pop(fest_id, None)
+    
+
   def _refill_daily_panchaangas(self):
     """Avoids duplication for memory efficiency.
     

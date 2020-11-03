@@ -176,7 +176,8 @@ class DailySolarAssigner(DailyPanchaangaApplier):
     if panchaangas[1] is not None:
       angas = angas + [x.anga for x in panchaangas[1].sunrise_day_angas.get_angas_with_ends(anga_type=anga_type)]
     angas = set(angas)
-    fest_dict = rule_set.get_possibly_relevant_fests(month=self.day_panchaanga.solar_sidereal_date_sunset.month, angas=angas, month_type=rules.RulesRepo.SIDEREAL_SOLAR_MONTH_DIR, anga_type_id=anga_type_id)
+    month = self.day_panchaanga.solar_sidereal_date_sunset.month
+    fest_dict = rule_set.get_possibly_relevant_fests(month=month, angas=angas, month_type=rules.RulesRepo.SIDEREAL_SOLAR_MONTH_DIR, anga_type_id=anga_type_id)
     for fest_id, fest_rule in fest_dict.items():
       kaala = fest_rule.timing.get_kaala()
       priority = fest_rule.timing.get_priority()
@@ -187,15 +188,17 @@ class DailySolarAssigner(DailyPanchaangaApplier):
         fday = fday_1_vs_2 + 1
         p_fday = panchaangas[fday]
         p_fday_minus_1 = panchaangas[fday - 1]
+        if p_fday.solar_sidereal_date_sunset.month != month:
+          # Example: festival on tithi 27 of month 10; last day of month 9 has tithi 27, but not day one of month 10. 
+          continue
         if priority not in ('puurvaviddha', 'vyaapti'):
           p_fday.festival_id_to_instance[fest_id] = FestivalInstance(name=fest_id)
-          # TODO: Update festival_id_to_days
-        elif p_fday_minus_1 is None or p_fday_minus_1.date not in self.festival_id_to_days.get(fest_id, []):
+          self.festival_id_to_days[fest_id].add(p_fday.date)
+        elif p_fday_minus_1 is None or p_fday_minus_1.date not in self.festival_id_to_days[fest_id]:
           # p_fday_minus_1 could be None when computing at the beginning of a sequence of days. In that case, we're ok with faulty assignments - since the focus is on getting subsequent days right.
           # puurvaviddha or vyaapti fest. More careful condition.
           p_fday.festival_id_to_instance[fest_id] = FestivalInstance(name=fest_id)
-          # TODO: Update festival_id_to_days
-          raise NotImplementedError("zrI~hanUmat~jayantI~1 on consequtive days")
+          self.festival_id_to_days[fest_id].add(p_fday.date)
       
 
 

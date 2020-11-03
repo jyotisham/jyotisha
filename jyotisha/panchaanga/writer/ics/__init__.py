@@ -59,7 +59,8 @@ def compute_calendar(panchaanga, scripts=[sanscript.DEVANAGARI], all_tags=True, 
 
     if len(daily_panchaanga.festival_id_to_instance) > 0:
       # Eliminate repeat festival_id_to_instance on the same day, and keep the list arbitrarily sorted
-      summary_text = daily_panchaanga.festival_id_to_instance.keys()
+      summary_text = [x.get_best_transliterated_name(scripts=scripts, fest_details_dict=rules_collection.name_to_rule)["text"] for x in daily_panchaanga.festival_id_to_instance.values()]
+      
       # this will work whether we have one or more events on the same day
       for stext in sorted(summary_text):
         desc = ''
@@ -78,7 +79,7 @@ def compute_calendar(panchaanga, scripts=[sanscript.DEVANAGARI], all_tags=True, 
               continue
 
         if stext == 'kRttikA-maNDala-pArAyaNam':
-          event.add('summary', jyotisha.custom_transliteration.tr(stext.replace('-', ' '), scripts[0]))
+          event.add('summary', stext.replace("-", " "))
           fest_num_loc = stext.find('~\\#')
           if fest_num_loc != -1:
             stext = stext[:fest_num_loc]
@@ -106,7 +107,7 @@ def compute_calendar(panchaanga, scripts=[sanscript.DEVANAGARI], all_tags=True, 
             continue
           [stext, t1, arrow, t2] = stext.split('\\')
           stext = stext.strip('-~')
-          event.add('summary', jyotisha.custom_transliteration.tr(stext, scripts[0]))
+          event.add('summary', stext)
           # we know that t1 is something like 'textsf{hh:mm(+1)}{'
           # so we know the exact positions of min and hour
           if t1[12] in '(':  # (+1), next day
@@ -142,7 +143,7 @@ def compute_calendar(panchaanga, scripts=[sanscript.DEVANAGARI], all_tags=True, 
           ics_calendar.add_component(event)
         elif stext.find('samApanam') != -1:
           # It's an ending event
-          event.add('summary', jyotisha.custom_transliteration.tr(stext, scripts[0]))
+          event.add('summary', stext)
           event.add('dtstart', date(y, m, dt))
           event.add('dtend', (datetime(y, m, dt) + timedelta(1)).date())
 

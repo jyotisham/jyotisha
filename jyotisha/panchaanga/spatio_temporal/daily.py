@@ -324,7 +324,7 @@ class DailyPanchaanga(common.JsonObject):
       return
     solar_assigner = DailySolarAssigner(day_panchaanga=self, previous_day_panchaangas=previous_day_panchaangas, festival_id_to_days=festival_id_to_days)
     solar_assigner.apply_month_day_events()
-    # solar_assigner.apply_month_anga_events(anga_type=AngaType.TITHI)
+    solar_assigner.apply_month_anga_events(anga_type=AngaType.TITHI)
 
 
 # Essential for depickling to work.
