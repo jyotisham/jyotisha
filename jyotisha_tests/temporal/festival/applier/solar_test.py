@@ -1,5 +1,6 @@
 from jyotisha.panchaanga.spatio_temporal import City, daily, periodical
 from jyotisha.panchaanga.temporal import ComputationSystem, DailyPanchaangaApplier
+from jyotisha.panchaanga.temporal.festival.rules import RulesRepo
 from jyotisha.panchaanga.temporal.time import Date
 
 chennai = City.get_city_from_db('Chennai')
@@ -9,16 +10,16 @@ def test_daily_solar_viSukkaNi():
   panchaanga_13 = daily.DailyPanchaanga(city=chennai, date=Date(year=2018, month=4, day=13))
 
   panchaanga_14 = daily.DailyPanchaanga(city=chennai, date=Date(year=2018, month=4, day=14))
-  DailyPanchaangaApplier(day_panchaanga=panchaanga_14, previous_day_panchaangas=[panchaanga_13]).apply_month_day_events()
+  DailyPanchaangaApplier(day_panchaanga=panchaanga_14, previous_day_panchaangas=[panchaanga_13]).apply_month_day_events(month_type=RulesRepo.SIDEREAL_SOLAR_MONTH_DIR)
   
   panchaanga_15 = daily.DailyPanchaanga(city=chennai, date=Date(year=2018, month=4, day=15), previous_day_panchaanga=panchaanga_14)
-  DailyPanchaangaApplier(day_panchaanga=panchaanga_15, previous_day_panchaangas=[panchaanga_14]).apply_month_day_events()
+  DailyPanchaangaApplier(day_panchaanga=panchaanga_15, previous_day_panchaangas=[panchaanga_14]).apply_month_day_events(month_type=RulesRepo.SIDEREAL_SOLAR_MONTH_DIR)
 
   panchaanga_16 = daily.DailyPanchaanga(city=chennai, date=Date(year=2018, month=4, day=16), previous_day_panchaanga=panchaanga_15)
-  DailyPanchaangaApplier(day_panchaanga=panchaanga_16, previous_day_panchaangas=[panchaanga_15]).apply_month_day_events()
+  DailyPanchaangaApplier(day_panchaanga=panchaanga_16, previous_day_panchaangas=[panchaanga_15]).apply_month_day_events(month_type=RulesRepo.SIDEREAL_SOLAR_MONTH_DIR)
  
   panchaanga_17 = daily.DailyPanchaanga(city=chennai, date=Date(year=2018, month=4, day=17), previous_day_panchaanga=panchaanga_16)
-  DailyPanchaangaApplier(day_panchaanga=panchaanga_17, previous_day_panchaangas=[panchaanga_16]).apply_month_day_events()
+  DailyPanchaangaApplier(day_panchaanga=panchaanga_17, previous_day_panchaangas=[panchaanga_16]).apply_month_day_events(month_type=RulesRepo.SIDEREAL_SOLAR_MONTH_DIR)
 
   assert list(panchaanga_14.festival_id_to_instance.keys()) == ["viSukkan2i"]
   assert list(panchaanga_15.festival_id_to_instance.keys()) == []
