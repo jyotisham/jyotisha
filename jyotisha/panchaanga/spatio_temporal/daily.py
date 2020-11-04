@@ -331,7 +331,7 @@ class DailyPanchaanga(common.JsonObject):
     applier = DailyPanchaangaApplier(day_panchaanga=self, previous_day_panchaangas=previous_day_panchaangas, festival_id_to_days=festival_id_to_days)
     applier.apply_month_day_events(month_type=RulesRepo.SIDEREAL_SOLAR_MONTH_DIR)
     applier.apply_month_anga_events(month_type=RulesRepo.SIDEREAL_SOLAR_MONTH_DIR, anga_type=AngaType.TITHI)
-    applier.apply_month_anga_events(month_type=RulesRepo.SIDEREAL_SOLAR_MONTH_DIR, anga_type=AngaType.NAKSHATRA)
+    # applier.apply_month_anga_events(month_type=RulesRepo.SIDEREAL_SOLAR_MONTH_DIR, anga_type=AngaType.NAKSHATRA)
     applier.apply_month_anga_events(month_type=RulesRepo.SIDEREAL_SOLAR_MONTH_DIR, anga_type=AngaType.YOGA)
 
     # applier.apply_month_anga_events(month_type=RulesRepo.LUNAR_MONTH_DIR, anga_type=AngaType.TITHI)
