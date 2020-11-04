@@ -6,7 +6,6 @@ from timebudget import timebudget
 
 from jyotisha.panchaanga.temporal import PeriodicPanchaangaApplier
 from jyotisha.panchaanga.temporal import festival
-from jyotisha.panchaanga.temporal import time
 from jyotisha.panchaanga.temporal import zodiac
 from jyotisha.panchaanga.temporal.festival import rules, priority_decision
 from jyotisha.panchaanga.temporal.zodiac.angas import Anga
@@ -185,7 +184,6 @@ class MiscFestivalAssigner(FestivalAssigner):
   def __init__(self, panchaanga):
     super(MiscFestivalAssigner, self).__init__(panchaanga=panchaanga)
 
-
   def assign_all(self):
     self.assign_agni_nakshatra()
     # ASSIGN ALL FESTIVALS FROM adyatithi submodule
@@ -198,6 +196,10 @@ class MiscFestivalAssigner(FestivalAssigner):
       
       if x.timing.month_type == rules.RulesRepo.SIDEREAL_SOLAR_MONTH_DIR and x.timing.anga_type in (rules.RulesRepo.DAY_DIR, rules.RulesRepo.TITHI_DIR, rules.RulesRepo.NAKSHATRA_DIR, rules.RulesRepo.YOGA_DIR):
         return False
+
+      # if x.timing.month_type == rules.RulesRepo.LUNAR_MONTH_DIR and x.timing.anga_type in (rules.RulesRepo.TITHI_DIR):
+      #   return False
+
       return True
     festival_rules_dict = {k: v for k, v in self.rules_collection.name_to_rule.items() if to_be_assigned(v)}
     # assert "naTarAjar mahAbhiSEkam~2" not in festival_rules_dict
@@ -208,8 +210,6 @@ class MiscFestivalAssigner(FestivalAssigner):
   def assign_agni_nakshatra(self):
     agni_jd_start = agni_jd_end = None
     for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + 1):
-      [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
-
       # AGNI nakshatra
       # Arbitrarily checking after Mesha 10! Agni Nakshatram can't start earlier...
       if self.daily_panchaangas[d].solar_sidereal_date_sunset.month == 1 and self.daily_panchaangas[d].solar_sidereal_date_sunset.day == 10:
