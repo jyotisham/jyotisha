@@ -146,7 +146,7 @@ class HinduCalendarEvent(common.JsonObject):
     }
   }))
 
-  def get_storage_file_name(self, base_dir, only_descriptions=False):
+  def get_storage_file_name(self, base_dir):
     if self.timing.anchor_festival_id is not None:
       return "%(base_dir)s/relative_event/%(anchor_festival_id)s/offset__%(offset)02d/%(id)s__info.toml" % dict(
         base_dir=base_dir,
@@ -241,6 +241,12 @@ class RulesCollection(common.JsonObject):
   @classmethod
   def get_cached(cls, repos):
     return RulesCollection(repos=repos)
+
+  def fix_filenames(self):
+    for repo in self.repos:
+      pass
+      # TODO: FInish this.
+    
 
   @timebudget
   def set_rule_dicts(self):

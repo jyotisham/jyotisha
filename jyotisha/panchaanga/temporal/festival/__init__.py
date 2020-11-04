@@ -41,15 +41,16 @@ class FestivalInstance(common.JsonObject):
     for script in scripts:
       try:
         i = language_scripts.index(script)
-        return {"script": scripts[0], "text": custom_transliteration.tr(text=names[languages[i]][0], script=scripts[0])}
+        return {"script": script, "text": custom_transliteration.tr(text=names[languages[i]][0], script=script)}
       except ValueError:
         continue
 
+    # No language text matching the input scripts was found.
     if "sa" in names:
       text = names["sa"][0]
     else:
       text = list(names.values())[0][0]
-    return {"script": script, "text": custom_transliteration.tr(text=text, script=script)}
+    return {"script": script, "text": custom_transliteration.tr(text=text, script=scripts[0])}
 
   def tex_code(self, scripts, timezone, fest_details_dict):
     name_details = self.get_best_transliterated_name(scripts=scripts, fest_details_dict=fest_details_dict)
