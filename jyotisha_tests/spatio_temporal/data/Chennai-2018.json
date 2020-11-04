@@ -90595,6 +90595,10 @@
           "jsonClass": "FestivalInstance",
           "name": "sOmamRgazIrSa-puNyakAlaH"
         },
+        "vyatIpAta-zrAddham": {
+          "jsonClass": "FestivalInstance",
+          "name": "vyatIpAta-zrAddham"
+        },
         "zRGgErI 35 jagadguru zrI~abhinava vidyAtIrtha mahAsvAmI ArAdhanA": {
           "jsonClass": "FestivalInstance",
           "name": "zRGgErI 35 jagadguru zrI~abhinava vidyAtIrtha mahAsvAmI ArAdhanA"
@@ -115685,6 +115689,10 @@
         "vanadurgAnavarAtra-samApanam": {
           "jsonClass": "FestivalInstance",
           "name": "vanadurgAnavarAtra-samApanam"
+        },
+        "vyatIpAta-zrAddham": {
+          "jsonClass": "FestivalInstance",
+          "name": "vyatIpAta-zrAddham"
         }
       },
       "jd_moonrise": 2458468.7988,
@@ -123725,7 +123733,20 @@
           "name": "yama"
         }
       },
-      "festival_id_to_instance": {},
+      "festival_id_to_instance": {
+        "mahAdhanurvyatIpAta-snAnam": {
+          "jsonClass": "FestivalInstance",
+          "name": "mahAdhanurvyatIpAta-snAnam"
+        },
+        "mahAdhanurvyatIpAta-zrAddham": {
+          "jsonClass": "FestivalInstance",
+          "name": "mahAdhanurvyatIpAta-zrAddham"
+        },
+        "vyatIpAta-zrAddham": {
+          "jsonClass": "FestivalInstance",
+          "name": "vyatIpAta-zrAddham"
+        }
+      },
       "jd_moonrise": 2458493.6628,
       "jd_moonset": 2458494.1653,
       "jd_next_sunrise": 2458494.5472,
@@ -129829,6 +129850,12 @@
         "jsonClass": "Date",
         "month": 12,
         "year": 2018
+      },
+      {
+        "day": 10,
+        "jsonClass": "Date",
+        "month": 1,
+        "year": 2019
       }
     ],
     "mahAdhanurvyatIpAta-zrAddham": [
@@ -129837,6 +129864,12 @@
         "jsonClass": "Date",
         "month": 12,
         "year": 2018
+      },
+      {
+        "day": 10,
+        "jsonClass": "Date",
+        "month": 1,
+        "year": 2019
       }
     ],
     "mahAjayA~saptamI": [
@@ -133287,6 +133320,12 @@
         "year": 2018
       },
       {
+        "day": 1,
+        "jsonClass": "Date",
+        "month": 10,
+        "year": 2018
+      },
+      {
         "day": 26,
         "jsonClass": "Date",
         "month": 10,
@@ -133297,6 +133336,18 @@
         "jsonClass": "Date",
         "month": 11,
         "year": 2018
+      },
+      {
+        "day": 16,
+        "jsonClass": "Date",
+        "month": 12,
+        "year": 2018
+      },
+      {
+        "day": 10,
+        "jsonClass": "Date",
+        "month": 1,
+        "year": 2019
       }
     ],
     "yAjJavalkya~jayantI": [

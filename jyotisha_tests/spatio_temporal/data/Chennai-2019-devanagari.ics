@@ -307,6 +307,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Vyatīpāta-Śrāddham
+DTSTART;VALUE=DATE-TIME:20190109T235957
+DTEND;VALUE=DATE-TIME:20190110T235957
+DESCRIPTION:Observed on  of every solar month (aparaahna/vyaapti).<br/>Vya
+ tipata Shraddha day.<br/><br/>https%3A//github.com/sanskrit-coders/adyatit
+ hi/tree/master/general/sidereal_solar_month/yoga/00/17/vyatIpAta-zrAddham_
+ _info.toml<br/><br/>#MonthlyShraddhaDays #ShannavatiTarpanaDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Kūḍāravallī
 DTSTART;VALUE=DATE-TIME:20190110T235957
 DTEND;VALUE=DATE-TIME:20190111T235957
@@ -13950,6 +13966,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Vyatīpāta-Śrāddham
+DTSTART;VALUE=DATE-TIME:20190921T235957
+DTEND;VALUE=DATE-TIME:20190922T235957
+DESCRIPTION:Observed on  of every solar month (aparaahna/vyaapti).<br/>Vya
+ tipata Shraddha day.<br/><br/>https%3A//github.com/sanskrit-coders/adyatit
+ hi/tree/master/general/sidereal_solar_month/yoga/00/17/vyatIpAta-zrAddham_
+ _info.toml<br/><br/>#MonthlyShraddhaDays #ShannavatiTarpanaDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Durgā/Gaurī-Pūjā
 DTSTART;VALUE=DATE-TIME:20190922T235957
 DTEND;VALUE=DATE-TIME:20190923T235957
@@ -15486,6 +15518,22 @@ DESCRIPTION:Special vrata day for Ganesha. In this month\, Ganesha is wors
  it-coders/adyatithi/tree/master/general/description_only/MonthlyVratam/San
  kataharaChaturthiVratam/vakratuNDa-mahAgaNapati%20saGkaTahara-caturthI-vra
  tam__info.toml<br/><br/>#MonthlyVratam #SankataharaChaturthiVratam
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Vyatīpāta-Śrāddham
+DTSTART;VALUE=DATE-TIME:20191016T235957
+DTEND;VALUE=DATE-TIME:20191017T235957
+DESCRIPTION:Observed on  of every solar month (aparaahna/vyaapti).<br/>Vya
+ tipata Shraddha day.<br/><br/>https%3A//github.com/sanskrit-coders/adyatit
+ hi/tree/master/general/sidereal_solar_month/yoga/00/17/vyatIpAta-zrAddham_
+ _info.toml<br/><br/>#MonthlyShraddhaDays #ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE

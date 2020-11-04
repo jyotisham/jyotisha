@@ -3753,6 +3753,10 @@
         "mahAdhanurvyatIpAta-zrAddham": {
           "jsonClass": "FestivalInstance",
           "name": "mahAdhanurvyatIpAta-zrAddham"
+        },
+        "vyatIpAta-zrAddham": {
+          "jsonClass": "FestivalInstance",
+          "name": "vyatIpAta-zrAddham"
         }
       },
       "jd_moonrise": 2458494.2514,
@@ -87305,6 +87309,10 @@
         "puraTTAci~can2ikkizhamai": {
           "jsonClass": "FestivalInstance",
           "name": "puraTTAci~can2ikkizhamai"
+        },
+        "vyatIpAta-zrAddham": {
+          "jsonClass": "FestivalInstance",
+          "name": "vyatIpAta-zrAddham"
         }
       },
       "jd_moonrise": 2458748.7857,
@@ -120563,6 +120571,10 @@
         "mahAdhanurvyatIpAta-zrAddham": {
           "jsonClass": "FestivalInstance",
           "name": "mahAdhanurvyatIpAta-zrAddham"
+        },
+        "vyatIpAta-zrAddham": {
+          "jsonClass": "FestivalInstance",
+          "name": "vyatIpAta-zrAddham"
         }
       },
       "jd_moonrise": 2458849.2838,
@@ -120868,7 +120880,12 @@
           "name": "yama"
         }
       },
-      "festival_id_to_instance": {},
+      "festival_id_to_instance": {
+        "mahAdhanurvyatIpAta-snAnam": {
+          "jsonClass": "FestivalInstance",
+          "name": "mahAdhanurvyatIpAta-snAnam"
+        }
+      },
       "jd_moonrise": 2458850.3018,
       "jd_moonset": 2458850.8136,
       "jd_next_sunrise": 2458851.1454,
@@ -123668,6 +123685,10 @@
           "jsonClass": "FestivalInstance",
           "name": "ramaNa~maharSi~jayantI",
           "ordinal": 141
+        },
+        "vaidhRti-zrAddham": {
+          "jsonClass": "FestivalInstance",
+          "name": "vaidhRti-zrAddham"
         }
       },
       "jd_moonrise": 2458859.555,
@@ -129916,6 +129937,12 @@
         "jsonClass": "Date",
         "month": 1,
         "year": 2019
+      },
+      {
+        "day": 1,
+        "jsonClass": "Date",
+        "month": 1,
+        "year": 2020
       }
     ],
     "mahAdhanurvyatIpAta-zrAddham": [
@@ -132882,6 +132909,12 @@
         "jsonClass": "Date",
         "month": 12,
         "year": 2019
+      },
+      {
+        "day": 10,
+        "jsonClass": "Date",
+        "month": 1,
+        "year": 2020
       }
     ],
     "vaikAci~vizAkham": [
@@ -133288,6 +133321,12 @@
     ],
     "vyatIpAta-zrAddham": [
       {
+        "day": 10,
+        "jsonClass": "Date",
+        "month": 1,
+        "year": 2019
+      },
+      {
         "day": 4,
         "jsonClass": "Date",
         "month": 2,
@@ -133342,6 +133381,12 @@
         "year": 2019
       },
       {
+        "day": 21,
+        "jsonClass": "Date",
+        "month": 9,
+        "year": 2019
+      },
+      {
         "day": 17,
         "jsonClass": "Date",
         "month": 10,
@@ -133355,6 +133400,12 @@
       },
       {
         "day": 6,
+        "jsonClass": "Date",
+        "month": 12,
+        "year": 2019
+      },
+      {
+        "day": 31,
         "jsonClass": "Date",
         "month": 12,
         "year": 2019

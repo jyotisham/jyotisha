@@ -3776,6 +3776,10 @@
         "mahAdhanurvyatIpAta-zrAddham": {
           "jsonClass": "FestivalInstance",
           "name": "mahAdhanurvyatIpAta-zrAddham"
+        },
+        "vyatIpAta-zrAddham": {
+          "jsonClass": "FestivalInstance",
+          "name": "vyatIpAta-zrAddham"
         }
       },
       "jd_moonrise": 2458493.6628,
@@ -87651,6 +87655,10 @@
         "mahAvyatIpAta-zrAddham": {
           "jsonClass": "FestivalInstance",
           "name": "mahAvyatIpAta-zrAddham"
+        },
+        "vyatIpAta-zrAddham": {
+          "jsonClass": "FestivalInstance",
+          "name": "vyatIpAta-zrAddham"
         }
       },
       "jd_moonrise": 2458749.2809,
@@ -95930,6 +95938,10 @@
         "vakratuNDa-mahAgaNapati saGkaTahara-caturthI-vratam": {
           "jsonClass": "FestivalInstance",
           "name": "vakratuNDa-mahAgaNapati saGkaTahara-caturthI-vratam"
+        },
+        "vyatIpAta-zrAddham": {
+          "jsonClass": "FestivalInstance",
+          "name": "vyatIpAta-zrAddham"
         }
       },
       "jd_moonrise": 2458774.1204,
@@ -120884,7 +120896,20 @@
           "name": "yama"
         }
       },
-      "festival_id_to_instance": {},
+      "festival_id_to_instance": {
+        "mahAdhanurvyatIpAta-snAnam": {
+          "jsonClass": "FestivalInstance",
+          "name": "mahAdhanurvyatIpAta-snAnam"
+        },
+        "mahAdhanurvyatIpAta-zrAddham": {
+          "jsonClass": "FestivalInstance",
+          "name": "mahAdhanurvyatIpAta-zrAddham"
+        },
+        "vyatIpAta-zrAddham": {
+          "jsonClass": "FestivalInstance",
+          "name": "vyatIpAta-zrAddham"
+        }
+      },
       "jd_moonrise": 2458849.7225,
       "jd_moonset": 2458850.2324,
       "jd_next_sunrise": 2458850.5452,
@@ -123982,6 +124007,10 @@
           "jsonClass": "FestivalInstance",
           "name": "ramaNa~maharSi~jayantI",
           "ordinal": 141
+        },
+        "vaidhRti-zrAddham": {
+          "jsonClass": "FestivalInstance",
+          "name": "vaidhRti-zrAddham"
         }
       },
       "jd_moonrise": 2458860.0474,
@@ -129904,6 +129933,12 @@
         "jsonClass": "Date",
         "month": 1,
         "year": 2019
+      },
+      {
+        "day": 1,
+        "jsonClass": "Date",
+        "month": 1,
+        "year": 2020
       }
     ],
     "mahAdhanurvyatIpAta-zrAddham": [
@@ -129912,6 +129947,12 @@
         "jsonClass": "Date",
         "month": 1,
         "year": 2019
+      },
+      {
+        "day": 1,
+        "jsonClass": "Date",
+        "month": 1,
+        "year": 2020
       }
     ],
     "mahAkAlI~jayantI": [
@@ -132846,6 +132887,12 @@
         "jsonClass": "Date",
         "month": 12,
         "year": 2019
+      },
+      {
+        "day": 11,
+        "jsonClass": "Date",
+        "month": 1,
+        "year": 2020
       }
     ],
     "vaikAci~vizAkham": [
@@ -133236,6 +133283,12 @@
     ],
     "vyatIpAta-zrAddham": [
       {
+        "day": 10,
+        "jsonClass": "Date",
+        "month": 1,
+        "year": 2019
+      },
+      {
         "day": 4,
         "jsonClass": "Date",
         "month": 2,
@@ -133290,6 +133343,18 @@
         "year": 2019
       },
       {
+        "day": 22,
+        "jsonClass": "Date",
+        "month": 9,
+        "year": 2019
+      },
+      {
+        "day": 17,
+        "jsonClass": "Date",
+        "month": 10,
+        "year": 2019
+      },
+      {
         "day": 11,
         "jsonClass": "Date",
         "month": 11,
@@ -133300,6 +133365,12 @@
         "jsonClass": "Date",
         "month": 12,
         "year": 2019
+      },
+      {
+        "day": 1,
+        "jsonClass": "Date",
+        "month": 1,
+        "year": 2020
       }
     ],
     "yAjJavalkya~jayantI": [

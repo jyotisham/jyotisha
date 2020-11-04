@@ -279,7 +279,13 @@ class DailyPanchaanga(common.JsonObject):
     else:
       if  month_assigner is not None:
         self.lunar_month_sunrise = month_assigner.get_month_sunrise(daily_panchaanga=self)
-    
+
+  def get_month(self, month_type):
+    from jyotisha.panchaanga.temporal.festival.rules import RulesRepo
+    if month_type == RulesRepo.SIDEREAL_SOLAR_MONTH_DIR:
+      return self.solar_sidereal_date_sunset.month
+    elif month_type == RulesRepo.LUNAR_MONTH_DIR:
+      return self.lunar_month_sunrise.month
 
   def get_lagna_data(self, ayanaamsha_id=zodiac.Ayanamsha.CHITRA_AT_180, debug=False):
     """Returns the lagna data
@@ -326,7 +332,7 @@ class DailyPanchaanga(common.JsonObject):
     solar_assigner.apply_month_day_events()
     solar_assigner.apply_month_anga_events(anga_type=AngaType.TITHI)
     solar_assigner.apply_month_anga_events(anga_type=AngaType.NAKSHATRA)
-
+    solar_assigner.apply_month_anga_events(anga_type=AngaType.YOGA)
 
 # Essential for depickling to work.
 common.update_json_class_index(sys.modules[__name__])
