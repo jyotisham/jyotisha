@@ -4,20 +4,20 @@ import logging
 import sys
 from math import floor, modf
 
-from jyotisha.panchaanga.spatio_temporal import City
-from jyotisha.panchaanga.temporal import interval, time, ComputationSystem, set_constants
-from jyotisha.panchaanga.temporal import zodiac
-from jyotisha.panchaanga.temporal.body import Graha
-from jyotisha.panchaanga.temporal.festival.applier.solar import DailySolarAssigner
-from jyotisha.panchaanga.temporal.interval import DayLengthBasedPeriods, Interval
-from jyotisha.panchaanga.temporal.month import LunarMonthAssigner
-from jyotisha.panchaanga.temporal.time import Timezone, Date
-from jyotisha.panchaanga.temporal.zodiac import Ayanamsha, NakshatraDivision, AngaSpanFinder
-from jyotisha.panchaanga.temporal.zodiac.angas import AngaType, Anga
-from jyotisha.util import default_if_none
 from scipy.optimize import brentq
 from timebudget import timebudget
 
+from jyotisha.panchaanga.spatio_temporal import City
+from jyotisha.panchaanga.temporal import interval, time, ComputationSystem, set_constants, DailyPanchaangaApplier
+from jyotisha.panchaanga.temporal import zodiac
+from jyotisha.panchaanga.temporal.body import Graha
+from jyotisha.panchaanga.temporal.festival.rules import RulesRepo
+from jyotisha.panchaanga.temporal.interval import DayLengthBasedPeriods, Interval
+from jyotisha.panchaanga.temporal.month import LunarMonthAssigner
+from jyotisha.panchaanga.temporal.time import Timezone, Date, BasicDate
+from jyotisha.panchaanga.temporal.zodiac import Ayanamsha, NakshatraDivision, AngaSpanFinder
+from jyotisha.panchaanga.temporal.zodiac.angas import AngaType, Anga
+from jyotisha.util import default_if_none
 from sanskrit_data.schema import common
 
 timebudget.set_quiet(True)  # don't show measurements as they happen
@@ -280,12 +280,12 @@ class DailyPanchaanga(common.JsonObject):
       if  month_assigner is not None:
         self.lunar_month_sunrise = month_assigner.get_month_sunrise(daily_panchaanga=self)
 
-  def get_month(self, month_type):
+  def get_date(self, month_type):
     from jyotisha.panchaanga.temporal.festival.rules import RulesRepo
     if month_type == RulesRepo.SIDEREAL_SOLAR_MONTH_DIR:
-      return self.solar_sidereal_date_sunset.month
+      return self.solar_sidereal_date_sunset
     elif month_type == RulesRepo.LUNAR_MONTH_DIR:
-      return self.lunar_month_sunrise.month
+      return BasicDate(month=self.lunar_month_sunrise.month, day=self.sunrise_day_angas.tithi_at_sunrise)
 
   def get_lagna_data(self, ayanaamsha_id=zodiac.Ayanamsha.CHITRA_AT_180, debug=False):
     """Returns the lagna data
@@ -328,11 +328,11 @@ class DailyPanchaanga(common.JsonObject):
   def assign_festivals(self, previous_day_panchaangas, festival_id_to_days):
     if previous_day_panchaangas is None:
       return
-    solar_assigner = DailySolarAssigner(day_panchaanga=self, previous_day_panchaangas=previous_day_panchaangas, festival_id_to_days=festival_id_to_days)
-    solar_assigner.apply_month_day_events()
-    solar_assigner.apply_month_anga_events(anga_type=AngaType.TITHI)
-    solar_assigner.apply_month_anga_events(anga_type=AngaType.NAKSHATRA)
-    solar_assigner.apply_month_anga_events(anga_type=AngaType.YOGA)
+    applier = DailyPanchaangaApplier(day_panchaanga=self, previous_day_panchaangas=previous_day_panchaangas, festival_id_to_days=festival_id_to_days)
+    applier.apply_month_day_events(month_type=RulesRepo.SIDEREAL_SOLAR_MONTH_DIR)
+    applier.apply_month_anga_events(month_type=RulesRepo.SIDEREAL_SOLAR_MONTH_DIR, anga_type=AngaType.TITHI)
+    applier.apply_month_anga_events(month_type=RulesRepo.SIDEREAL_SOLAR_MONTH_DIR, anga_type=AngaType.NAKSHATRA)
+    applier.apply_month_anga_events(month_type=RulesRepo.SIDEREAL_SOLAR_MONTH_DIR, anga_type=AngaType.YOGA)
 
 # Essential for depickling to work.
 common.update_json_class_index(sys.modules[__name__])

@@ -1,7 +1,7 @@
 import logging
 import sys
 
-from jyotisha.panchaanga.temporal.zodiac.angas import BoundaryAngas
+from jyotisha.panchaanga.temporal.zodiac.angas import BoundaryAngas, Anga
 
 from sanskrit_data.schema import common
 from sanskrit_data.schema.common import JsonObject
@@ -57,6 +57,53 @@ class DailyPanchaangaApplier(JsonObject):
     # A running record of festival-day assignments so far - to avoid repeat assignments
     self.festival_id_to_days = festival_id_to_days
     self.ayanaamsha_id = day_panchaanga.computation_system.ayanaamsha_id
+
+  def apply_month_day_events(self, month_type):
+    from jyotisha.panchaanga.temporal.festival import rules, priority_decision, FestivalInstance
+    rule_set = rules.RulesCollection.get_cached(repos_tuple=tuple(self.computation_system.options.fest_repos))
+    day_panchaanga = self.day_panchaanga
+
+    date = day_panchaanga.get_date(month_type=month_type)
+    fest_dict = rule_set.get_month_anga_fests(month=date.month, anga=date.day, month_type=month_type, anga_type_id=rules.RulesRepo.DAY_DIR)
+    for fest_id, fest in fest_dict.items():
+      day_panchaanga.festival_id_to_instance[fest_id] = FestivalInstance(name=fest.id)
+
+
+  def apply_month_anga_events(self, anga_type, month_type):
+    from jyotisha.panchaanga.temporal.festival import rules, priority_decision, FestivalInstance
+    rule_set = rules.RulesCollection.get_cached(repos_tuple=tuple(self.computation_system.options.fest_repos))
+    panchaangas = self.previous_day_panchaangas + [self.day_panchaanga]
+    if panchaangas[1] is None:
+      # We require atleast 1 day history.
+      return
+
+    anga_type_id = anga_type.name.lower()
+    angas = [x.anga for x in panchaangas[2].sunrise_day_angas.get_angas_with_ends(anga_type=anga_type)]
+    angas = angas + [x.anga for x in panchaangas[1].sunrise_day_angas.get_angas_with_ends(anga_type=anga_type)]
+    angas = set(angas)
+    month = self.day_panchaanga.get_date(month_type=month_type).month
+    fest_dict = rule_set.get_possibly_relevant_fests(month=month, angas=angas, month_type=month_type, anga_type_id=anga_type_id)
+    for fest_id, fest_rule in fest_dict.items():
+      kaala = fest_rule.timing.get_kaala()
+      priority = fest_rule.timing.get_priority()
+      anga_type_str = fest_rule.timing.anga_type
+      target_anga = Anga.get_cached(index=fest_rule.timing.anga_number, anga_type_id=anga_type_str.upper())
+      fday_1_vs_2 = priority_decision.decide(p0=panchaangas[1], p1=panchaangas[2], target_anga=target_anga, kaala=kaala, ayanaamsha_id=self.ayanaamsha_id, priority=priority)
+      if fday_1_vs_2 is not None:
+        fday = fday_1_vs_2 + 1
+        p_fday = panchaangas[fday]
+        p_fday_minus_1 = panchaangas[fday - 1]
+        if p_fday.get_date(month_type=month_type).month != month:
+          # Example: festival on tithi 27 of month 10; last day of month 9 has tithi 27, but not day one of month 10. 
+          continue
+        if priority not in ('puurvaviddha', 'vyaapti'):
+          p_fday.festival_id_to_instance[fest_id] = FestivalInstance(name=fest_id)
+          self.festival_id_to_days[fest_id].add(p_fday.date)
+        elif p_fday_minus_1 is None or p_fday_minus_1.date not in self.festival_id_to_days[fest_id]:
+          # p_fday_minus_1 could be None when computing at the beginning of a sequence of days. In that case, we're ok with faulty assignments - since the focus is on getting subsequent days right.
+          # puurvaviddha or vyaapti fest. More careful condition.
+          p_fday.festival_id_to_instance[fest_id] = FestivalInstance(name=fest_id)
+          self.festival_id_to_days[fest_id].add(p_fday.date)
 
 
 class ComputationOptions(JsonObject):
