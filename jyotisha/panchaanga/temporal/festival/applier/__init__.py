@@ -2,14 +2,14 @@ import logging
 import os
 import sys
 
+from timebudget import timebudget
+
 from jyotisha.panchaanga.temporal import PeriodicPanchaangaApplier
 from jyotisha.panchaanga.temporal import festival
 from jyotisha.panchaanga.temporal import time
 from jyotisha.panchaanga.temporal import zodiac
 from jyotisha.panchaanga.temporal.festival import rules, priority_decision
-from jyotisha.panchaanga.temporal.zodiac.angas import Anga, AngaType
-from timebudget import timebudget
-
+from jyotisha.panchaanga.temporal.zodiac.angas import Anga
 from sanskrit_data.schema import common
 
 DATA_ROOT = os.path.join(os.path.dirname(festival.__file__), "data")
@@ -19,7 +19,8 @@ class FestivalAssigner(PeriodicPanchaangaApplier):
   def __init__(self, panchaanga):
     super(FestivalAssigner, self).__init__(panchaanga=panchaanga)
     self.festival_id_to_days = panchaanga.festival_id_to_days
-    self.rules_collection = rules.RulesCollection.get_cached(repos=tuple(panchaanga.computation_system.options.fest_repos))
+    self.rules_collection = rules.RulesCollection.get_cached(
+      repos_tuple=tuple(panchaanga.computation_system.options.fest_repos))
 
   @timebudget
   def assign_festivals_from_rules(self, festival_rules):

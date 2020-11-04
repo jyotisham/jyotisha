@@ -16,9 +16,8 @@ import jyotisha.custom_transliteration
 import jyotisha.names
 import jyotisha.panchaanga.spatio_temporal.annual
 import jyotisha.panchaanga.temporal
-
 from jyotisha.panchaanga.spatio_temporal import City
-from jyotisha.panchaanga.temporal import zodiac, time
+from jyotisha.panchaanga.temporal import time
 from jyotisha.panchaanga.temporal.festival import rules
 from jyotisha.panchaanga.temporal.time import Timezone
 
@@ -306,7 +305,8 @@ def emit(panchaanga, time_format="hh:mm", scripts=None, output_stream=None):
             % (tithi_data_str, nakshatra_data_str, rashi_data_str, yoga_data_str,
                karana_data_str, ''), file=output_stream)
 
-    rules_collection = rules.RulesCollection.get_cached(repos=tuple(panchaanga.computation_system.options.fest_repos))
+    rules_collection = rules.RulesCollection.get_cached(
+      repos_tuple=tuple(panchaanga.computation_system.options.fest_repos))
     fest_details_dict = rules_collection.name_to_rule
 
     # Using set as an ugly workaround since we may have sometimes assigned the same

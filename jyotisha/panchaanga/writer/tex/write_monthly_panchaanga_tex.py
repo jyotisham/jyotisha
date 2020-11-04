@@ -7,7 +7,7 @@ import sys
 from datetime import datetime
 
 from indic_transliteration import xsanscript as sanscript
-from jyotisha.panchaanga.temporal.time import Timezone
+from jyotisha.panchaanga.temporal.time import Timezone, Hour
 from pytz import timezone as tz
 
 import jyotisha
@@ -79,7 +79,8 @@ def write_monthly_tex(panchaanga, template_file, scripts=None, temporal=None):
     [y, m, dt, t] = time.jd_to_utc_gregorian(panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
     daily_panchaanga = daily_panchaangas[d]
 
-    rules_collection = rules.RulesCollection.get_cached(repos=tuple(panchaanga.computation_system.options.fest_repos))
+    rules_collection = rules.RulesCollection.get_cached(
+      repos_tuple=tuple(panchaanga.computation_system.options.fest_repos))
     fest_details_dict = rules_collection.name_to_rule
 
     if len(daily_panchaanga.festival_id_to_instance) != 0:
@@ -162,7 +163,7 @@ def write_monthly_tex(panchaanga, template_file, scripts=None, temporal=None):
       else:
         tithi_data_str = '%s\\mbox{%s\\To{}\\textsf{%s%s}}' % \
                          (tithi_data_str, tithi,
-                          jyotisha.panchaanga.temporal.hour.Hour(24 * (tithi_end_jd - jd)).toString(
+                          Hour(24 * (tithi_end_jd - jd)).toString(
                             format=panchaanga.fmt),
                           '\\hspace{2ex}')
 
@@ -179,7 +180,7 @@ def write_monthly_tex(panchaanga, template_file, scripts=None, temporal=None):
       else:
         nakshatra_data_str = '%s\\mbox{%s\\To{}\\textsf{%s%s}}' % \
                               (nakshatra_data_str, nakshatra,
-                               jyotisha.panchaanga.temporal.hour.Hour(24 * (nakshatra_end_jd -
+                               Hour(24 * (nakshatra_end_jd -
                                                                             jd)).toString(format=panchaanga.fmt),
                                '\\hspace{2ex}')
 
@@ -195,7 +196,7 @@ def write_monthly_tex(panchaanga, template_file, scripts=None, temporal=None):
       else:
         yoga_data_str = '%s\\mbox{%s\\To{}\\textsf{%s%s}}' % \
                         (yoga_data_str, yoga,
-                         jyotisha.panchaanga.temporal.hour.Hour(24 * (yoga_end_jd - jd)).toString(
+                         Hour(24 * (yoga_end_jd - jd)).toString(
                            format=panchaanga.fmt),
                          '\\hspace{2ex}')
 
@@ -214,24 +215,24 @@ def write_monthly_tex(panchaanga, template_file, scripts=None, temporal=None):
       else:
         karana_data_str = '%s\\mbox{%s\\To{}\\textsf{%s%s}}' % \
                            (karana_data_str, karana,
-                            jyotisha.panchaanga.temporal.hour.Hour(24 * (karana_end_jd -
+                            Hour(24 * (karana_end_jd -
                                                                          jd)).toString(format=panchaanga.fmt),
                             '\\hspace{2ex}')
 
-    sunrise = jyotisha.panchaanga.temporal.hour.Hour(24 * (daily_panchaanga.jd_sunrise - jd)).toString(
+    sunrise = Hour(24 * (daily_panchaanga.jd_sunrise - jd)).toString(
       format=panchaanga.fmt)
-    sunset = jyotisha.panchaanga.temporal.hour.Hour(24 * (daily_panchaanga.jd_sunset - jd)).toString(format=panchaanga.fmt)
-    saangava = jyotisha.panchaanga.temporal.hour.Hour(24 * (daily_panchaanga.day_length_based_periods.saangava.jd_start - jd)).toString(
+    sunset = Hour(24 * (daily_panchaanga.jd_sunset - jd)).toString(format=panchaanga.fmt)
+    saangava = Hour(24 * (daily_panchaanga.day_length_based_periods.saangava.jd_start - jd)).toString(
       format=panchaanga.fmt)
     rahu = '%s--%s' % (
-      jyotisha.panchaanga.temporal.hour.Hour(24 * (daily_panchaanga.day_length_based_periods.raahu.jd_start - jd)).toString(
+      Hour(24 * (daily_panchaanga.day_length_based_periods.raahu.jd_start - jd)).toString(
         format=panchaanga.fmt),
-      jyotisha.panchaanga.temporal.hour.Hour(24 * (daily_panchaanga.day_length_based_periods.raahu.jd_end - jd)).toString(
+      Hour(24 * (daily_panchaanga.day_length_based_periods.raahu.jd_end - jd)).toString(
         format=panchaanga.fmt))
     yama = '%s--%s' % (
-      jyotisha.panchaanga.temporal.hour.Hour(24 * (daily_panchaanga.day_length_based_periods.yama.jd_start - jd)).toString(
+      Hour(24 * (daily_panchaanga.day_length_based_periods.yama.jd_start - jd)).toString(
         format=panchaanga.fmt),
-      jyotisha.panchaanga.temporal.hour.Hour(24 * (daily_panchaanga.day_length_based_periods.yama.jd_end - jd)).toString(
+      Hour(24 * (daily_panchaanga.day_length_based_periods.yama.jd_end - jd)).toString(
         format=panchaanga.fmt))
 
     if daily_panchaanga.solar_sidereal_date_sunset.month_transition is None:
@@ -240,11 +241,11 @@ def write_monthly_tex(panchaanga, template_file, scripts=None, temporal=None):
       _m = daily_panchaangas[d - 1].solar_sidereal_date_sunset.month
       if daily_panchaanga.solar_sidereal_date_sunset.month_transition >= daily_panchaangas[d + 1].jd_sunrise:
         month_end_str = '\\mbox{%s{\\tiny\\RIGHTarrow}\\textsf{%s}}' % (
-          jyotisha.names.NAMES['RASHI_NAMES'][scripts[0]][_m], jyotisha.panchaanga.temporal.hour.Hour(
+          jyotisha.names.NAMES['RASHI_NAMES'][scripts[0]][_m], Hour(
             24 * (daily_panchaanga.solar_sidereal_date_sunset.month_transition - daily_panchaangas[d + 1].julian_day_start)).toString(format=panchaanga.fmt))
       else:
         month_end_str = '\\mbox{%s{\\tiny\\RIGHTarrow}\\textsf{%s}}' % (
-          jyotisha.names.NAMES['RASHI_NAMES'][scripts[0]][_m], jyotisha.panchaanga.temporal.hour.Hour(
+          jyotisha.names.NAMES['RASHI_NAMES'][scripts[0]][_m], Hour(
             24 * (daily_panchaanga.solar_sidereal_date_sunset.month_transition - daily_panchaanga.julian_day_start)).toString(format=panchaanga.fmt))
 
     month_data = '\\sunmonth{%s}{%d}{%s}' % (

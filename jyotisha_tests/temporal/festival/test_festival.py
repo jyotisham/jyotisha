@@ -12,7 +12,7 @@ def test_serializability():
 
 def test_get_best_transliterated_name():
   options = ComputationOptions()
-  rules_collection = rules.RulesCollection.get_cached(repos=tuple(options.fest_repos))
+  rules_collection = rules.RulesCollection.get_cached(repos_tuple=tuple(options.fest_repos))
 
 
   fest = festival.FestivalInstance(name="ArudrA~darican2am or naTarAjar mahAbhiSEkam", ordinal=1000)

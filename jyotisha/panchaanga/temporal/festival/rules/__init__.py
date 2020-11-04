@@ -200,6 +200,7 @@ def get_festival_rules_map(dir_path, repo=None):
     return festival_rules
   for file_path in toml_file_paths:
     event = HinduCalendarEvent.read_from_file(filename=str(file_path))
+    event.path_actual = str(file_path)
     event.repo = repo
     festival_rules[event.id] = event
   return festival_rules
@@ -218,20 +219,22 @@ class RulesRepo(common.JsonObject):
   YOGA_DIR = "yoga"
 
   def __init__(self, name, path=None, base_url='https://github.com/sanskrit-coders/adyatithi/tree/master'):
+    super().__init__()
     self.name = name
     self.path = path
     self.base_url = os.path.join(base_url, name)
 
   def get_path(self):
-    #  We don't set the path in __init__ so as to avoid storing machine-specific paths for canonical repos.
+    #  We don't set the path in __init__ so as to avoid storing machine-specific paths for canonical repos_tuple.
     return self.path if self.path is not None else os.path.join(DATA_ROOT, self.name)
 
 
-rule_repos = [RulesRepo(name="general"), RulesRepo(name="gRhya/general"), RulesRepo(name="tamil"), RulesRepo(name="mahApuruSha/general"), RulesRepo(name="mahApuruSha/kAnchI-maTha"), RulesRepo(name="mahApuruSha/ALvAr"), RulesRepo(name="mahApuruSha/nAyanAr"), RulesRepo(name="temples/venkaTAchala"), RulesRepo(name="temples/Andhra"), RulesRepo(name="temples/Tamil"), RulesRepo(name="temples/Kerala"), RulesRepo(name="temples/Odisha"), RulesRepo(name="temples/North")]
+rule_repos = (RulesRepo(name="general"), RulesRepo(name="gRhya/general"), RulesRepo(name="tamil"), RulesRepo(name="mahApuruSha/general"), RulesRepo(name="mahApuruSha/kAnchI-maTha"), RulesRepo(name="mahApuruSha/ALvAr"), RulesRepo(name="mahApuruSha/nAyanAr"), RulesRepo(name="temples/venkaTAchala"), RulesRepo(name="temples/Andhra"), RulesRepo(name="temples/Tamil"), RulesRepo(name="temples/Kerala"), RulesRepo(name="temples/Odisha"), RulesRepo(name="temples/North"))
 
 
 class RulesCollection(common.JsonObject):
   def __init__(self, repos=rule_repos):
+    super().__init__()
     self.repos = repos
     self.name_to_rule = {}
     self.tree = None 
@@ -239,14 +242,20 @@ class RulesCollection(common.JsonObject):
 
   @methodtools.lru_cache()  # the order is important!
   @classmethod
-  def get_cached(cls, repos):
-    return RulesCollection(repos=repos)
+  def get_cached(cls, repos_tuple):
+    return RulesCollection(repos=repos_tuple)
 
   def fix_filenames(self):
     for repo in self.repos:
-      pass
+      base_dir = repo.get_path()
+      rules_map = get_festival_rules_map(
+        os.path.join(DATA_ROOT, repo.get_path()), repo=repo)
+      for rule in rules_map.values():
+        expected_path = rule.get_storage_file_name(base_dir=base_dir)
+        if rule.path_actual != expected_path:
+          logging.info(str((rule.path_actual, expected_path)))
+          os.rename(rule.path_actual, expected_path)
       # TODO: FInish this.
-    
 
   @timebudget
   def set_rule_dicts(self):
@@ -280,3 +289,6 @@ common.update_json_class_index(sys.modules[__name__])
 # logging.debug(common.json_class_index)
 
 
+if __name__ == '__main__':
+  rules_collection = RulesCollection.get_cached(repos_tuple=rule_repos)
+  rules_collection.fix_filenames()
