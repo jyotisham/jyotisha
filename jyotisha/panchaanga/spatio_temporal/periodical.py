@@ -129,6 +129,7 @@ class Panchaanga(common.JsonObject):
       for x in range(2 - len(previous_day_panchaangas)):
         previous_day_panchaangas = [None] + previous_day_panchaangas
       dp.assign_festivals(previous_day_panchaangas = previous_day_panchaangas, festival_id_to_days=self.festival_id_to_days)
+
     for dp in daily_panchaangas[0: 3]:
       # Festival assignments for these days are not trustworthy.
       dp.festival_id_to_instance = {}

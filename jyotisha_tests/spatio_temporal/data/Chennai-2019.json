@@ -6711,6 +6711,10 @@
         "kaNNappa nAyan2Ar (9) gurupUjai": {
           "jsonClass": "FestivalInstance",
           "name": "kaNNappa nAyan2Ar (9) gurupUjai"
+        },
+        "kapAlI teppOtsavam~1": {
+          "jsonClass": "FestivalInstance",
+          "name": "kapAlI teppOtsavam~1"
         }
       },
       "jd_moonrise": 2458502.9446,
@@ -7038,9 +7042,13 @@
           "name": "kAJcI 8 jagadguru zrI~kaivalyAnandayOgEndra sarasvatI ArAdhanA",
           "ordinal": 1990
         },
-        "kapAlI teppOtsavam~1": {
+        "kapAlI teppOtsavam~2": {
           "jsonClass": "FestivalInstance",
-          "name": "kapAlI teppOtsavam~1"
+          "name": "kapAlI teppOtsavam~2"
+        },
+        "taippUcam": {
+          "jsonClass": "FestivalInstance",
+          "name": "taippUcam"
         },
         "vEGkaTAcalE pUrNimA~garuDa-sEvA": {
           "jsonClass": "FestivalInstance",
@@ -7386,17 +7394,13 @@
           "name": "badarI jyOtirmaTha-pratiSThApana~jayantI",
           "ordinal": 2504
         },
-        "kapAlI teppOtsavam~2": {
+        "kapAlI teppOtsavam~3": {
           "jsonClass": "FestivalInstance",
-          "name": "kapAlI teppOtsavam~2"
+          "name": "kapAlI teppOtsavam~3"
         },
         "pUrNimA~vratam": {
           "jsonClass": "FestivalInstance",
           "name": "pUrNimA~vratam"
-        },
-        "taippUcam": {
-          "jsonClass": "FestivalInstance",
-          "name": "taippUcam"
         },
         "zAkambharI~jayantI": {
           "jsonClass": "FestivalInstance",
@@ -7737,10 +7741,6 @@
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 62 jagadguru zrI~candrazEkharEndra sarasvatI 4 ArAdhanA",
           "ordinal": 236
-        },
-        "kapAlI teppOtsavam~3": {
-          "jsonClass": "FestivalInstance",
-          "name": "kapAlI teppOtsavam~3"
         }
       },
       "jd_moonrise": 2458506.0794,
@@ -20503,6 +20503,11 @@
           },
           "jsonClass": "FestivalInstance",
           "name": "harivAsaraH"
+        },
+        "kAJcI jagadguru zrI~zaGkara vijayEndra sarasvatI jayantI": {
+          "jsonClass": "FestivalInstance",
+          "name": "kAJcI jagadguru zrI~zaGkara vijayEndra sarasvatI jayantI",
+          "ordinal": 51
         },
         "sarva-vijayA-EkAdazI": {
           "jsonClass": "FestivalInstance",
@@ -34229,10 +34234,6 @@
         "mahAtArA~jayantI": {
           "jsonClass": "FestivalInstance",
           "name": "mahAtArA~jayantI"
-        },
-        "mun2aiyaDuvAr nAyan2Ar (50) gurupUjai": {
-          "jsonClass": "FestivalInstance",
-          "name": "mun2aiyaDuvAr nAyan2Ar (50) gurupUjai"
         },
         "zrIrAmanavamI": {
           "jsonClass": "FestivalInstance",
@@ -121790,7 +121791,12 @@
           "name": "yama"
         }
       },
-      "festival_id_to_instance": {},
+      "festival_id_to_instance": {
+        "vAyilAr nAyan2Ar (49) gurupUjai": {
+          "jsonClass": "FestivalInstance",
+          "name": "vAyilAr nAyan2Ar (49) gurupUjai"
+        }
+      },
       "jd_moonrise": 2458852.7989,
       "jd_moonset": 2458853.3288,
       "jd_next_sunrise": 2458853.546,
@@ -122408,7 +122414,12 @@
           "name": "yama"
         }
       },
-      "festival_id_to_instance": {},
+      "festival_id_to_instance": {
+        "kRttikA-vratam": {
+          "jsonClass": "FestivalInstance",
+          "name": "kRttikA-vratam"
+        }
+      },
       "jd_moonrise": 2458854.8563,
       "jd_moonset": 2458855.3995,
       "jd_next_sunrise": 2458855.5464,
@@ -123340,7 +123351,12 @@
           "name": "yama"
         }
       },
-      "festival_id_to_instance": {},
+      "festival_id_to_instance": {
+        "andhakAsura-vadhaH": {
+          "jsonClass": "FestivalInstance",
+          "name": "andhakAsura-vadhaH"
+        }
+      },
       "jd_moonrise": 2458857.9638,
       "jd_moonset": 2458858.5172,
       "jd_next_sunrise": 2458858.547,
@@ -123644,7 +123660,16 @@
           "name": "yama"
         }
       },
-      "festival_id_to_instance": {},
+      "festival_id_to_instance": {
+        "ArudrA~darican2am or naTarAjar mahAbhiSEkam": {
+          "jsonClass": "FestivalInstance",
+          "name": "ArudrA~darican2am or naTarAjar mahAbhiSEkam"
+        },
+        "caDaiya nAyan2Ar (61) gurupUjai": {
+          "jsonClass": "FestivalInstance",
+          "name": "caDaiya nAyan2Ar (61) gurupUjai"
+        }
+      },
       "jd_moonrise": 2458859.0051,
       "jd_moonset": 2458859.5564,
       "jd_next_sunrise": 2458859.5472,
@@ -123952,6 +123977,11 @@
         "kUDAravallI": {
           "jsonClass": "FestivalInstance",
           "name": "kUDAravallI"
+        },
+        "ramaNa~maharSi~jayantI": {
+          "jsonClass": "FestivalInstance",
+          "name": "ramaNa~maharSi~jayantI",
+          "ordinal": 141
         }
       },
       "jd_moonrise": 2458860.0474,
@@ -125231,6 +125261,10 @@
         }
       },
       "festival_id_to_instance": {
+        "caNDEzvara nAyan2Ar (19) gurupUjai": {
+          "jsonClass": "FestivalInstance",
+          "name": "caNDEzvara nAyan2Ar (19) gurupUjai"
+        },
         "madhurai mIn2AkSI kOyilil kal yAn2aikku karumbu kODutta lIlai": {
           "jsonClass": "FestivalInstance",
           "name": "madhurai mIn2AkSI kOyilil kal yAn2aikku karumbu kODutta lIlai"
@@ -125604,6 +125638,14 @@
         "jsonClass": "Date",
         "month": 6,
         "year": 2019
+      }
+    ],
+    "ArudrA~darican2am or naTarAjar mahAbhiSEkam": [
+      {
+        "day": 10,
+        "jsonClass": "Date",
+        "month": 1,
+        "year": 2020
       }
     ],
     "AvaNi~JAyir2r2ukkizhamai": [
@@ -126022,6 +126064,14 @@
         "jsonClass": "Date",
         "month": 9,
         "year": 2019
+      }
+    ],
+    "andhakAsura-vadhaH": [
+      {
+        "day": 9,
+        "jsonClass": "Date",
+        "month": 1,
+        "year": 2020
       }
     ],
     "annamAcArya~jayantI": [
@@ -126582,12 +126632,26 @@
         "year": 2019
       }
     ],
+    "caDaiya nAyan2Ar (61) gurupUjai": [
+      {
+        "day": 10,
+        "jsonClass": "Date",
+        "month": 1,
+        "year": 2020
+      }
+    ],
     "caNDEzvara nAyan2Ar (19) gurupUjai": [
       {
         "day": 25,
         "jsonClass": "Date",
         "month": 1,
         "year": 2019
+      },
+      {
+        "day": 15,
+        "jsonClass": "Date",
+        "month": 1,
+        "year": 2020
       }
     ],
     "caNDikA-pUjA": [
@@ -128482,6 +128546,12 @@
     ],
     "kAJcI jagadguru zrI~zaGkara vijayEndra sarasvatI jayantI": [
       {
+        "day": 2,
+        "jsonClass": "Date",
+        "month": 3,
+        "year": 2019
+      },
+      {
         "day": 3,
         "jsonClass": "Date",
         "month": 3,
@@ -128790,6 +128860,12 @@
         "jsonClass": "Date",
         "month": 12,
         "year": 2019
+      },
+      {
+        "day": 6,
+        "jsonClass": "Date",
+        "month": 1,
+        "year": 2020
       }
     ],
     "kRttikA~sOmavAsaraH": [
@@ -129088,7 +129164,7 @@
     ],
     "kapAlI teppOtsavam~1": [
       {
-        "day": 20,
+        "day": 19,
         "jsonClass": "Date",
         "month": 1,
         "year": 2019
@@ -129096,7 +129172,7 @@
     ],
     "kapAlI teppOtsavam~2": [
       {
-        "day": 21,
+        "day": 20,
         "jsonClass": "Date",
         "month": 1,
         "year": 2019
@@ -129104,7 +129180,7 @@
     ],
     "kapAlI teppOtsavam~3": [
       {
-        "day": 22,
+        "day": 21,
         "jsonClass": "Date",
         "month": 1,
         "year": 2019
@@ -130166,12 +130242,6 @@
         "jsonClass": "Date",
         "month": 3,
         "year": 2019
-      },
-      {
-        "day": 13,
-        "jsonClass": "Date",
-        "month": 4,
-        "year": 2019
       }
     ],
     "muruga nAyan2Ar (15) gurupUjai": [
@@ -131032,6 +131102,14 @@
         "year": 2019
       }
     ],
+    "ramaNa~maharSi~jayantI": [
+      {
+        "day": 11,
+        "jsonClass": "Date",
+        "month": 1,
+        "year": 2020
+      }
+    ],
     "rambhA~tRtIyA": [
       {
         "day": 6,
@@ -131786,7 +131864,7 @@
     ],
     "taippUcam": [
       {
-        "day": 21,
+        "day": 20,
         "jsonClass": "Date",
         "month": 1,
         "year": 2019
@@ -132426,6 +132504,12 @@
         "jsonClass": "Date",
         "month": 1,
         "year": 2019
+      },
+      {
+        "day": 4,
+        "jsonClass": "Date",
+        "month": 1,
+        "year": 2020
       }
     ],
     "vEGkaTAcalE jyESTha-abhidyEyakAbhiSEkaH (mutyala-kavacam)": [

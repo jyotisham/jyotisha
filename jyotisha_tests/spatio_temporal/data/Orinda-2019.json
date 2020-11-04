@@ -546,7 +546,12 @@
           "name": "yama"
         }
       },
-      "festival_id_to_instance": {},
+      "festival_id_to_instance": {
+        "mAn2akkaJcAr2a nAyan2Ar (11) gurupUjai": {
+          "jsonClass": "FestivalInstance",
+          "name": "mAn2akkaJcAr2a nAyan2Ar (11) gurupUjai"
+        }
+      },
       "jd_moonrise": 2458484.9763,
       "jd_moonset": 2458484.3841,
       "jd_next_sunrise": 2458485.1453,
@@ -121466,7 +121471,12 @@
           "name": "yama"
         }
       },
-      "festival_id_to_instance": {},
+      "festival_id_to_instance": {
+        "vAyilAr nAyan2Ar (49) gurupUjai": {
+          "jsonClass": "FestivalInstance",
+          "name": "vAyilAr nAyan2Ar (49) gurupUjai"
+        }
+      },
       "jd_moonrise": 2458852.3376,
       "jd_moonset": 2458852.8929,
       "jd_next_sunrise": 2458853.1455,
@@ -122398,7 +122408,12 @@
           "name": "yama"
         }
       },
-      "festival_id_to_instance": {},
+      "festival_id_to_instance": {
+        "kRttikA-vratam": {
+          "jsonClass": "FestivalInstance",
+          "name": "kRttikA-vratam"
+        }
+      },
       "jd_moonrise": 2458855.4042,
       "jd_moonset": 2458856.0189,
       "jd_next_sunrise": 2458856.1455,
@@ -123006,7 +123021,12 @@
           "name": "yama"
         }
       },
-      "festival_id_to_instance": {},
+      "festival_id_to_instance": {
+        "andhakAsura-vadhaH": {
+          "jsonClass": "FestivalInstance",
+          "name": "andhakAsura-vadhaH"
+        }
+      },
       "jd_moonrise": 2458857.4689,
       "jd_moonset": 2458858.1022,
       "jd_next_sunrise": 2458858.1454,
@@ -123330,7 +123350,16 @@
           "name": "yama"
         }
       },
-      "festival_id_to_instance": {},
+      "festival_id_to_instance": {
+        "ArudrA~darican2am or naTarAjar mahAbhiSEkam": {
+          "jsonClass": "FestivalInstance",
+          "name": "ArudrA~darican2am or naTarAjar mahAbhiSEkam"
+        },
+        "caDaiya nAyan2Ar (61) gurupUjai": {
+          "jsonClass": "FestivalInstance",
+          "name": "caDaiya nAyan2Ar (61) gurupUjai"
+        }
+      },
       "jd_moonrise": 2458858.5095,
       "jd_moonset": 2458859.1396,
       "jd_next_sunrise": 2458859.1453,
@@ -123634,7 +123663,13 @@
           "name": "yama"
         }
       },
-      "festival_id_to_instance": {},
+      "festival_id_to_instance": {
+        "ramaNa~maharSi~jayantI": {
+          "jsonClass": "FestivalInstance",
+          "name": "ramaNa~maharSi~jayantI",
+          "ordinal": 141
+        }
+      },
       "jd_moonrise": 2458859.555,
       "jd_moonset": 2458860.1729,
       "jd_next_sunrise": 2458860.1452,
@@ -125234,6 +125269,10 @@
         }
       },
       "festival_id_to_instance": {
+        "caNDEzvara nAyan2Ar (19) gurupUjai": {
+          "jsonClass": "FestivalInstance",
+          "name": "caNDEzvara nAyan2Ar (19) gurupUjai"
+        },
         "indra-pUjA or gO-pUjA": {
           "jsonClass": "FestivalInstance",
           "name": "indra-pUjA or gO-pUjA"
@@ -125613,6 +125652,14 @@
         "jsonClass": "Date",
         "month": 6,
         "year": 2019
+      }
+    ],
+    "ArudrA~darican2am or naTarAjar mahAbhiSEkam": [
+      {
+        "day": 9,
+        "jsonClass": "Date",
+        "month": 1,
+        "year": 2020
       }
     ],
     "AvaNi~JAyir2r2ukkizhamai": [
@@ -126037,6 +126084,14 @@
         "jsonClass": "Date",
         "month": 9,
         "year": 2019
+      }
+    ],
+    "andhakAsura-vadhaH": [
+      {
+        "day": 8,
+        "jsonClass": "Date",
+        "month": 1,
+        "year": 2020
       }
     ],
     "annamAcArya~jayantI": [
@@ -126585,12 +126640,26 @@
         "year": 2019
       }
     ],
+    "caDaiya nAyan2Ar (61) gurupUjai": [
+      {
+        "day": 9,
+        "jsonClass": "Date",
+        "month": 1,
+        "year": 2020
+      }
+    ],
     "caNDEzvara nAyan2Ar (19) gurupUjai": [
       {
         "day": 24,
         "jsonClass": "Date",
         "month": 1,
         "year": 2019
+      },
+      {
+        "day": 15,
+        "jsonClass": "Date",
+        "month": 1,
+        "year": 2020
       }
     ],
     "caNDikA-pUjA": [
@@ -128797,6 +128866,12 @@
         "jsonClass": "Date",
         "month": 12,
         "year": 2019
+      },
+      {
+        "day": 6,
+        "jsonClass": "Date",
+        "month": 1,
+        "year": 2020
       }
     ],
     "kRttikA~sOmavAsaraH": [
@@ -129508,6 +129583,12 @@
       }
     ],
     "mAn2akkaJcAr2a nAyan2Ar (11) gurupUjai": [
+      {
+        "day": 31,
+        "jsonClass": "Date",
+        "month": 12,
+        "year": 2018
+      },
       {
         "day": 21,
         "jsonClass": "Date",
@@ -131011,6 +131092,14 @@
         "year": 2019
       }
     ],
+    "ramaNa~maharSi~jayantI": [
+      {
+        "day": 10,
+        "jsonClass": "Date",
+        "month": 1,
+        "year": 2020
+      }
+    ],
     "rambhA~tRtIyA": [
       {
         "day": 5,
@@ -132435,6 +132524,12 @@
         "jsonClass": "Date",
         "month": 1,
         "year": 2019
+      },
+      {
+        "day": 3,
+        "jsonClass": "Date",
+        "month": 1,
+        "year": 2020
       }
     ],
     "vEGkaTAcalE jyESTha-abhidyEyakAbhiSEkaH (mutyala-kavacam)": [

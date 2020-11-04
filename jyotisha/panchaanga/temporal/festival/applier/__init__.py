@@ -196,7 +196,7 @@ class MiscFestivalAssigner(FestivalAssigner):
       # done in computeFestivals(), without using a rule in festival_rules.json!
         return False
       
-      if x.timing.month_type == rules.RulesRepo.SIDEREAL_SOLAR_MONTH_DIR and x.timing.anga_type in (rules.RulesRepo.DAY_DIR, rules.RulesRepo.TITHI_DIR):
+      if x.timing.month_type == rules.RulesRepo.SIDEREAL_SOLAR_MONTH_DIR and x.timing.anga_type in (rules.RulesRepo.DAY_DIR, rules.RulesRepo.TITHI_DIR, rules.RulesRepo.NAKSHATRA_DIR):
         return False
       return True
     festival_rules_dict = {k: v for k, v in self.rules_collection.name_to_rule.items() if to_be_assigned(v)}

@@ -170,11 +170,13 @@ class DailySolarAssigner(DailyPanchaangaApplier):
   def apply_month_anga_events(self, anga_type):
     rule_set = rules.RulesCollection.get_cached(repos_tuple=tuple(self.computation_system.options.fest_repos))
     panchaangas = self.previous_day_panchaangas + [self.day_panchaanga]
+    if panchaangas[1] is None:
+      # We require atleast 1 day history.
+      return
 
     anga_type_id = anga_type.name.lower()
     angas = [x.anga for x in panchaangas[2].sunrise_day_angas.get_angas_with_ends(anga_type=anga_type)]
-    if panchaangas[1] is not None:
-      angas = angas + [x.anga for x in panchaangas[1].sunrise_day_angas.get_angas_with_ends(anga_type=anga_type)]
+    angas = angas + [x.anga for x in panchaangas[1].sunrise_day_angas.get_angas_with_ends(anga_type=anga_type)]
     angas = set(angas)
     month = self.day_panchaanga.solar_sidereal_date_sunset.month
     fest_dict = rule_set.get_possibly_relevant_fests(month=month, angas=angas, month_type=rules.RulesRepo.SIDEREAL_SOLAR_MONTH_DIR, anga_type_id=anga_type_id)

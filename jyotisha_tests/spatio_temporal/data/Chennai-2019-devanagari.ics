@@ -721,6 +721,21 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Kapālī Têppotsavam
+DTSTART;VALUE=DATE-TIME:20190118T235957
+DTEND;VALUE=DATE-TIME:20190119T235957
+DESCRIPTION:https%3A//github.com/sanskrit-coders/adyatithi/tree/master/tem
+ ples/Tamil/relative_event/taippUcam/offset__-1/kapAlI%20teppOtsavam~1__inf
+ o.toml<br/><br/>#TamilnaduTempleFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Kāñchī 8 Jagadguru Śrī Kaivalyānandayogendra Sarasvatī Ār
  ādhanā
 DTSTART;VALUE=DATE-TIME:20190119T235957
@@ -749,8 +764,25 @@ SUMMARY:Kapālī Têppotsavam
 DTSTART;VALUE=DATE-TIME:20190119T235957
 DTEND;VALUE=DATE-TIME:20190120T235957
 DESCRIPTION:https%3A//github.com/sanskrit-coders/adyatithi/tree/master/tem
- ples/Tamil/relative_event/taippUcam/offset__-1/kapAlI%20teppOtsavam~1__inf
+ ples/Tamil/relative_event/taippUcam/offset__00/kapAlI%20teppOtsavam~2__inf
  o.toml<br/><br/>#TamilnaduTempleFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Taippūcham
+DTSTART;VALUE=DATE-TIME:20190119T235957
+DTEND;VALUE=DATE-TIME:20190120T235957
+DESCRIPTION:Observed on Puṣyaḥ nakṣhatram day of Makaraḥ (solar) m
+ onth (raatrimaana/puurvaviddha).<br/><br/><br/>https%3A//github.com/sanskr
+ it-coders/adyatithi/tree/master/temples/Tamil/sidereal_solar_month/nakshat
+ ra/10/08/taippUcam__info.toml<br/><br/>#TamilnaduTempleFestivals #CommonFe
+ stivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -817,7 +849,7 @@ SUMMARY:Kapālī Têppotsavam
 DTSTART;VALUE=DATE-TIME:20190120T235957
 DTEND;VALUE=DATE-TIME:20190121T235957
 DESCRIPTION:https%3A//github.com/sanskrit-coders/adyatithi/tree/master/tem
- ples/Tamil/relative_event/taippUcam/offset__00/kapAlI%20teppOtsavam~2__inf
+ ples/Tamil/relative_event/taippUcam/offset__01/kapAlI%20teppOtsavam~3__inf
  o.toml<br/><br/>#TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -836,23 +868,6 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of every lunar month (sunrise
  Lord Satyanarayana.<br/><br/>https%3A//github.com/sanskrit-coders/adyatith
  i/tree/master/general/lunar_month/tithi/00/15/pUrNimA~vratam__info.toml<br
  /><br/>#MonthlyFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Taippūcham
-DTSTART;VALUE=DATE-TIME:20190120T235957
-DTEND;VALUE=DATE-TIME:20190121T235957
-DESCRIPTION:Observed on Puṣyaḥ nakṣhatram day of Makaraḥ (solar) m
- onth (raatrimaana/puurvaviddha).<br/><br/><br/>https%3A//github.com/sanskr
- it-coders/adyatithi/tree/master/temples/Tamil/sidereal_solar_month/nakshat
- ra/10/08/taippUcam__info.toml<br/><br/>#TamilnaduTempleFestivals #CommonFe
- stivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -937,21 +952,6 @@ DESCRIPTION:Observed on Kṛṣṇa-Dvitīyā tithi of Pauṣaḥ (lunar)
  thub.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lu
  nar_month/tithi/10/17/kAJcI%2062%20jagadguru%20zrI~candrazEkharEndra%20sar
  asvatI%204%20ArAdhanA__info.toml<br/><br/>#KanchiAradhanaDays
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Kapālī Têppotsavam
-DTSTART;VALUE=DATE-TIME:20190121T235957
-DTEND;VALUE=DATE-TIME:20190122T235957
-DESCRIPTION:https%3A//github.com/sanskrit-coders/adyatithi/tree/master/tem
- ples/Tamil/relative_event/taippUcam/offset__01/kapAlI%20teppOtsavam~3__inf
- o.toml<br/><br/>#TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2696,6 +2696,24 @@ SUMMARY:Harivāsaraḥ
 DTSTART;VALUE=DATE-TIME:20190301T235957
 DTEND;VALUE=DATE-TIME:20190302T174344
 DESCRIPTION:
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Kāñchī Jagadguru Śrī Śaṅkara Vijayendra Sarasvatī Jayant
+ ī
+DTSTART;VALUE=DATE-TIME:20190301T235957
+DTEND;VALUE=DATE-TIME:20190302T235957
+DESCRIPTION:Observed on Uttarāṣāḍhā nakṣhatram day of Kumbhaḥ (
+ solar) month (praatah/paraviddha).<br/><br/><br/>https%3A//github.com/sans
+ krit-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/sidereal_solar_
+ month/nakshatra/11/21/kAJcI%20jagadguru%20zrI~zaGkara%20vijayEndra%20saras
+ vatI%20jayantI__info.toml<br/><br/>#MahapurushaEvents #CommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -4676,23 +4694,6 @@ DESCRIPTION:Observed on Śukla-Navamī tithi of Caitraḥ (lunar) month (m
  yas.<br/><br/>https%3A//github.com/sanskrit-coders/adyatithi/tree/master/g
  eneral/lunar_month/tithi/01/09/mahAtArA~jayantI__info.toml<br/><br/>#Dasha
  mahavidya
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Munaiyaḍuvār Nāyanār (50) Gurupūjai
-DTSTART;VALUE=DATE-TIME:20190412T235957
-DTEND;VALUE=DATE-TIME:20190413T235957
-DESCRIPTION:Observed on Puṣyaḥ nakṣhatram day of Mīnaḥ (solar) mo
- nth (praatah/paraviddha).<br/><br/><br/>https%3A//github.com/sanskrit-code
- rs/adyatithi/tree/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatr
- a/12/08/mun2aiyaDuvAr%20nAyan2Ar%20%2850%29%20gurupUjai__info.toml<br/><br
- />#NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
