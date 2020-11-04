@@ -1,15 +1,15 @@
+import datetime
 import datetime as dt_module
 import logging
 import sys
 import traceback
-import datetime
 from math import modf
 from numbers import Number
 
 import pytz
 from astropy.time import Time
 
-from jyotisha.util import zero_if_none, default_if_none
+from jyotisha.util import zero_if_none
 from sanskrit_data.schema import common
 from sanskrit_data.schema.common import JsonObject
 
@@ -226,6 +226,9 @@ class Date(BasicDate):
 
   def get_date_str(self):
     return super(Date, self).__repr__()
+
+  def get_hour_str(self, format, rounding):
+    return Hour(hour=self.get_fractional_hour()).toString(format=format, rounding=rounding)
 
 
 def jd_to_utc_gregorian(jd):

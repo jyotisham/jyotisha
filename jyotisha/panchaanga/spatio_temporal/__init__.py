@@ -63,6 +63,10 @@ class City(JsonObject):
       self.longitude = float(longitude)
     self.timezone = timezone
 
+  def get_timezone_obj(self):
+    from jyotisha.panchaanga.temporal.time import Timezone
+    return Timezone(timezone_id=self.timezone)
+
   @classmethod
   def from_address(cls, address, api_key, timeout=45):
     from geopy import geocoders

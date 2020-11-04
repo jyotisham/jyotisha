@@ -5,22 +5,20 @@ import logging
 import os
 import re
 import sys
-from datetime import datetime, date, timedelta
+from copy import deepcopy
+from datetime import timedelta
 
 from icalendar import Calendar, Event, Alarm
 from indic_transliteration import xsanscript as sanscript
-from pytz import timezone as tz
 
-import jyotisha.custom_transliteration
 import jyotisha.panchaanga.spatio_temporal.annual
 import jyotisha.panchaanga.temporal
 # from jyotisha.panchaanga import scripts
 import jyotisha.panchaanga.temporal.festival.rules
 from jyotisha.panchaanga.spatio_temporal import City
-from jyotisha.panchaanga.temporal import festival
-from jyotisha.panchaanga.temporal import time
-from jyotisha.panchaanga.temporal.festival import rules
-from jyotisha.panchaanga.temporal.festival.rules import HinduCalendarEvent
+from jyotisha.panchaanga.temporal.festival import rules, FestivalInstance
+from jyotisha.panchaanga.temporal.interval import Interval
+from jyotisha.util import default_if_none
 
 logging.basicConfig(
   level=logging.DEBUG,
@@ -36,252 +34,174 @@ def write_to_file(ics_calendar, fname):
   ics_calendar_file.close()
 
 
-def compute_calendar(panchaanga, scripts=[sanscript.DEVANAGARI], all_tags=True, brief=False):
-  DATA_ROOT = os.path.join(os.path.dirname(festival.__file__), "data")
+def get_full_festival_instance(festival_instance, daily_panchaangas, d):
+  # Find start and add entire event as well
+  fest_id = festival_instance.name
+  check_d = d
+  stext_start = fest_id[:fest_id.find(
+    'samApanam')] + 'ArambhaH'  # This discards any bracketed info after the word ArambhaH
+  start_d = None
+  while check_d > 1:
+    check_d -= 1
+    if stext_start in daily_panchaangas[check_d].festival_id_to_instance.keys():
+      start_d = check_d
+      break
 
+  if start_d is None:
+    # Look for approx match
+    check_d = d
+    while check_d > 1:
+      check_d -= 1
+      for fest_key in daily_panchaangas[check_d].festival_id_to_instance.keys():
+        if fest_key.startswith(stext_start):
+          logging.debug('Found approx match for %s: %s' % (stext_start, fest_key))
+          start_d = check_d
+          break
+  
+
+  if start_d is None:
+    logging.error('Unable to find start date for %s' % stext_start)
+    return None
+  else:
+    # logging.debug(stext)
+    # TODO: Reimplement the below in another way if needed.
+    new_fest_id = fest_id
+    REPLACEMENTS = {'samApanam': '',
+                    'rAtri-': 'rAtriH',
+                    'rAtra-': 'rAtraH',
+                    'nakSatra-': 'nakSatram',
+                    'pakSa-': 'pakSaH',
+                    'puSkara-': 'puSkaram',
+                    'dIpa-': 'dIpaH',
+                    'snAna-': 'snAnam',
+                    'tsava-': 'tsavaH',
+                    'vrata-': 'vratam'}
+    for _orig, _repl in REPLACEMENTS.items():
+      new_fest_id = new_fest_id.replace(_orig, _repl)
+    full_festival_instance = FestivalInstance(name=new_fest_id, interval=Interval(jd_start=daily_panchaangas[start_d].julian_day_start, jd_end=festival_instance.interval.jd_start+1))
+    return full_festival_instance
+
+
+def festival_instance_to_event(festival_instance, scripts, panchaanga, all_day=False):
   rules_collection = rules.RulesCollection.get_cached(repos=tuple(panchaanga.computation_system.options.fest_repos))
   fest_details_dict = rules_collection.name_to_rule
+  fest_name = festival_instance.get_best_transliterated_name(scripts=scripts, fest_details_dict=rules_collection.name_to_rule)["text"].replace("~", " ")
+  event = Event()
+  event.add('summary', fest_name)
+  desc = get_description(festival_instance=festival_instance, script=scripts[0], fest_details_dict=fest_details_dict)
+  event.add('description', desc.strip().replace('\n', '<br/>'))
 
-  ics_calendar = Calendar()
-  # uid_list = []
-
+  if festival_instance.interval is not None and festival_instance.interval.jd_end is not None and festival_instance.interval.jd_start is not None :
+    # Starting or ending time is empty, e.g. harivasara, so no ICS entry
+    t1 = panchaanga.city.get_timezone_obj().julian_day_to_local_time(julian_day=festival_instance.interval.jd_start)
+    t2 = panchaanga.city.get_timezone_obj().julian_day_to_local_time(julian_day=festival_instance.interval.jd_end)
+    # we know that t1 is something like 'textsf{hh:mm(+1)}{'
+    # so we know the exact positions of min and hour
+    event.add('dtstart', t1.to_datetime())
+    event.add('dtend', t2.to_datetime())
+  if all_day:
+    event['X-MICROSOFT-CDO-ALLDAYEVENT'] = 'TRUE'
+    event['TRANSP'] = 'TRANSPARENT'
+    event['X-MICROSOFT-CDO-BUSYSTATUS'] = 'FREE'
   alarm = Alarm()
   alarm.add('action', 'DISPLAY')
   alarm.add('trigger', timedelta(hours=-4))  # default alarm, with a 4 hour reminder
+  event.add_component(alarm)
+  return event
 
-  year_start = time.jd_to_utc_gregorian(panchaanga.jd_start + 1).to_date_fractional_hour_tuple()[0]  # 1 helps ignore local time etc.
+
+def get_description(festival_instance, fest_details_dict, script):
+  fest_id = festival_instance.name
+  desc = None
+  if re.match('aGgArakI.*saGkaTahara-caturthI-vratam', fest_id):
+    fest_id = fest_id.replace('aGgArakI~', '')
+    if fest_id in fest_details_dict:
+      desc = fest_details_dict[fest_id].get_description_string(
+        script=script)
+      desc += 'When `caturthI` occurs on a Tuesday, it is known as `aGgArakI` and is even more sacred.'
+    else:
+      logging.warning('No description found for caturthI festival %s!' % fest_id)
+  elif re.match('.*-.*-EkAdazI', fest_id) is not None:
+    # Handle ekaadashii descriptions differently
+    ekad = '-'.join(fest_id.split('-')[1:])  # get rid of sarva etc. prefix!
+    ekad_suff_pos = ekad.find(' (')
+    if ekad_suff_pos != -1:
+      # ekad_suff = ekad[ekad_suff_pos + 1:-1]
+      ekad = ekad[:ekad_suff_pos]
+    if ekad in fest_details_dict:
+      desc = fest_details_dict[ekad].get_description_string(
+        script=script, include_url=True, include_shlokas=True, truncate=True)
+    else:
+      logging.warning('No description found for Ekadashi festival %s (%s)!' % (ekad, fest_id))
+  elif fest_id.find('saGkrAntiH') != -1:
+    # Handle Sankranti descriptions differently
+    planet_trans = fest_id.split('~')[0]  # get rid of ~(rAshi name) etc.
+    if planet_trans in fest_details_dict:
+      desc = fest_details_dict[planet_trans].get_description_string(
+        script=script, include_url=True, include_shlokas=True, truncate=True)
+    else:
+      logging.warning('No description found for festival %s!' % planet_trans)
+  elif fest_id in fest_details_dict:
+      desc = fest_details_dict[fest_id].get_description_string(
+        script=script, include_url=True, include_shlokas=True, truncate=True, include_images=False)
+
+
+  if desc is None:
+      # Check approx. match
+      matched_festivals = []
+      for fest_key in fest_details_dict:
+        if fest_id.startswith(fest_key):
+          matched_festivals += [fest_key]
+      if matched_festivals == []:
+        logging.warning('No description found for festival %s!' % fest_id)
+      elif len(matched_festivals) > 1:
+        logging.warning('No exact match found for festival %s! Found more than one approximate match: %s' % (
+          fest_id, str(matched_festivals)))
+      else:
+        desc = fest_details_dict[matched_festivals[0]].get_description_string(script=script,
+                                                                              include_url=True, include_shlokas=True,
+                                                                              truncate=True)
+  return default_if_none(desc, "")
+
+
+def compute_calendar(panchaanga, scripts=None):
+
+  if scripts is None:
+    scripts = [sanscript.DEVANAGARI]
+  ics_calendar = Calendar()
+  # uid_list = []
 
   daily_panchaangas = panchaanga.daily_panchaangas_sorted()
   for d, daily_panchaanga in enumerate(daily_panchaangas):
     if daily_panchaanga.date < panchaanga.start_date or daily_panchaanga.date > panchaanga.end_date:
       continue
-    [y, m, dt] = [daily_panchaanga.date.year, daily_panchaanga.date.month, daily_panchaanga.date.day]
+    # Eliminate repeat festival_id_to_instance on the same day, and keep the list arbitrarily sorted
+    # this will work whether we have one or more events on the same day
+    for festival_instance_in in sorted(daily_panchaanga.festival_id_to_instance.values()):
+      festival_instance = deepcopy(festival_instance_in)
+      fest_id = festival_instance.name
+      all_day = False
 
-    if len(daily_panchaanga.festival_id_to_instance) > 0:
-      # Eliminate repeat festival_id_to_instance on the same day, and keep the list arbitrarily sorted
-      summary_text = [x.get_best_transliterated_name(scripts=scripts, fest_details_dict=rules_collection.name_to_rule)["text"] for x in daily_panchaanga.festival_id_to_instance.values()]
-      
-      # this will work whether we have one or more events on the same day
-      for stext in sorted(summary_text):
-        desc = ''
-        event = Event()
+      if festival_instance.interval is None:
+        festival_instance.interval = Interval(jd_start=daily_panchaanga.julian_day_start, jd_end=daily_panchaanga.julian_day_start + 1)
+        all_day = True
 
-        if not all_tags:
-          fest_num_loc = stext.find('~\\#')
-          if fest_num_loc != -1:
-            stext_chk = stext[:fest_num_loc]
-          else:
-            stext_chk = stext
-          if stext_chk in fest_details_dict:
-            tag_list = (fest_details_dict[stext_chk].tags.split(','))
-            incl_tags = ['CommonFestivals', 'MonthlyVratam', 'RareDays', 'AmavasyaDays', 'Dashavataram', 'SunSankranti']
-            if set(tag_list).isdisjoint(set(incl_tags)):
-              continue
+      if festival_instance.interval.jd_start is None:
+        festival_instance.interval.jd_start = daily_panchaanga.julian_day_start
+      if festival_instance.interval.jd_end is None:
+        festival_instance.interval.jd_end = daily_panchaanga.julian_day_start + 1
 
-        if stext == 'kRttikA-maNDala-pArAyaNam':
-          event.add('summary', stext.replace("-", " "))
-          fest_num_loc = stext.find('~\\#')
-          if fest_num_loc != -1:
-            stext = stext[:fest_num_loc]
-          event.add('dtstart', date(y, m, dt))
-          event.add('dtend', (datetime(y, m, dt) + timedelta(48)).date())
-
-          if stext in fest_details_dict:
-            desc = fest_details_dict[stext].get_description_string(
-              script=scripts[0], include_url=True, include_shlokas=True, truncate=True)
-          else:
-            logging.warning('No description found for festival %s!' % stext)
-
-          event.add_component(alarm)
-          event.add('description', desc.strip().replace('\n', '<br/>'))
-          event['X-MICROSOFT-CDO-ALLDAYEVENT'] = 'TRUE'
-          event['TRANSP'] = 'TRANSPARENT'
-          event['X-MICROSOFT-CDO-BUSYSTATUS'] = 'FREE'
-          ics_calendar.add_component(event)
-        elif stext.find('RIGHTarrow') != -1:
-          if y != year_start:
-            continue
-          # It's a grahanam/yoga, with a start and end time
-          if stext.find('{}') != -1:
-            # Starting or ending time is empty, e.g. harivasara, so no ICS entry
-            continue
-          [stext, t1, arrow, t2] = stext.split('\\')
-          stext = stext.strip('-~')
-          event.add('summary', stext)
-          # we know that t1 is something like 'textsf{hh:mm(+1)}{'
-          # so we know the exact positions of min and hour
-          if t1[12] in '(':  # (+1), next day
-            event.add('dtstart', datetime(y, m, dt, int(t1[7:9]), int(t1[10:12]),
-                                          tzinfo=tz(panchaanga.city.timezone)) + timedelta(1))
-          else:
-            if t1[12] == '*':
-              event.add('dtstart', datetime(y, m, dt, int(t1[7:9]) - 24, int(t1[10:12]),
-                                            tzinfo=tz(panchaanga.city.timezone)) + timedelta(1))
-            else:
-              event.add('dtstart', datetime(y, m, dt, int(t1[7:9]), int(t1[10:12]),
-                                            tzinfo=tz(panchaanga.city.timezone)))
-
-          if t2[12] == '(':  # (+1), next day
-            event.add('dtend', datetime(y, m, dt, int(t2[7:9]), int(t2[10:12]),
-                                        tzinfo=tz(panchaanga.city.timezone)) + timedelta(1))
-          else:
-            if t2[12] == '*':
-              event.add('dtend', datetime(y, m, dt, int(t2[7:9]) - 24, int(t2[10:12]),
-                                          tzinfo=tz(panchaanga.city.timezone)) + timedelta(1))
-            else:
-              event.add('dtend', datetime(y, m, dt, int(t2[7:9]), int(t2[10:12]),
-                                          tzinfo=tz(panchaanga.city.timezone)))
-
-          if stext in fest_details_dict:
-            festival_event = fest_details_dict[stext]
-            desc = festival_event.get_description_string(script=scripts[0], include_url=True,
-                                                         include_shlokas=True, truncate=True)
-          else:
-            logging.warning('No description found for festival %s!\n' % stext)
-          event.add('description', desc.strip().replace('\n', '<br/>'))
-          event.add_component(alarm)
-          ics_calendar.add_component(event)
-        elif stext.find('samApanam') != -1:
-          # It's an ending event
-          event.add('summary', stext)
-          event.add('dtstart', date(y, m, dt))
-          event.add('dtend', (datetime(y, m, dt) + timedelta(1)).date())
-
-          if stext in fest_details_dict:
-            festival_event = fest_details_dict[stext]
-            desc = festival_event.get_description_string(script=scripts[0], include_url=True,
-                                                         include_shlokas=True, truncate=True)
-          else:
-            logging.warning('No description found for festival %s!' % stext)
-
-          event.add_component(alarm)
-          event.add('description', desc.strip().replace('\n', '<br/>'))
-          event['X-MICROSOFT-CDO-ALLDAYEVENT'] = 'TRUE'
-          event['TRANSP'] = 'TRANSPARENT'
-          event['X-MICROSOFT-CDO-BUSYSTATUS'] = 'FREE'
+      if fest_id == 'kRttikA-maNDala-pArAyaNam':
+        festival_instance.interval = Interval(jd_start=daily_panchaanga.julian_day_start, jd_end=daily_panchaanga.julian_day_start + 2)
+      elif fest_id.find('samApanam') != -1:
+        # It's an ending event
+        full_festival_instance = get_full_festival_instance(festival_instance=festival_instance, daily_panchaangas=daily_panchaangas, d=d)
+        if full_festival_instance is not None:
+          event = festival_instance_to_event(festival_instance=full_festival_instance, scripts=scripts, panchaanga=panchaanga, all_day=True)
           ics_calendar.add_component(event)
 
-          # Find start and add entire event as well
-          event = Event()
-          check_d = d
-          stext_start = stext[:stext.find(
-            'samApanam')] + 'ArambhaH'  # This discards any bracketed info after the word ArambhaH
-          start_d = None
-          while check_d > 1:
-            check_d -= 1
-            if stext_start in daily_panchaangas[check_d].festival_id_to_instance.keys():
-              start_d = check_d
-              break
-
-          if start_d is None:
-            # Look for approx match
-            check_d = d
-            while check_d > 1:
-              check_d -= 1
-              for fest_key in daily_panchaangas[check_d].festival_id_to_instance.keys():
-                if fest_key.startswith(stext_start):
-                  logging.debug('Found approx match for %s: %s' % (stext_start, fest_key))
-                  start_d = check_d
-                  break
-
-          if start_d is None:
-            logging.error('Unable to find start date for %s' % stext_start)
-          else:
-            # logging.debug(stext)
-            event_summary_text = stext
-            REPLACEMENTS = {'samApanam': '',
-                            'rAtri-': 'rAtriH',
-                            'rAtra-': 'rAtraH',
-                            'nakSatra-': 'nakSatram',
-                            'pakSa-': 'pakSaH',
-                            'puSkara-': 'puSkaram',
-                            'dIpa-': 'dIpaH',
-                            'snAna-': 'snAnam',
-                            'tsava-': 'tsavaH',
-                            'vrata-': 'vratam'}
-            for _orig, _repl in REPLACEMENTS.items():
-              event_summary_text = event_summary_text.replace(_orig, _repl)
-            event.add('summary', jyotisha.custom_transliteration.tr(event_summary_text, scripts[0]))
-            event.add('dtstart', (datetime(y, m, dt) - timedelta(d - start_d)).date())
-            event.add('dtend', (datetime(y, m, dt) + timedelta(1)).date())
-
-            # print(event)
-            event.add_component(alarm)
-            event.add('description', desc.strip().replace('\n', '<br/>'))
-            event['X-MICROSOFT-CDO-ALLDAYEVENT'] = 'TRUE'
-            event['TRANSP'] = 'TRANSPARENT'
-            event['X-MICROSOFT-CDO-BUSYSTATUS'] = 'FREE'
-            ics_calendar.add_component(event)
-        else:
-          if y != year_start:
-            continue
-          summary = jyotisha.custom_transliteration.tr(
-            stext.replace('~', ' ').replace('\\#', '#').replace('\\To{}', '▶'), scripts[0])
-          summary = re.sub('.tamil{(.*)}', '\\1', summary)
-          summary = re.sub('{(.*)}', '\\1', summary)  # strip braces around numbers
-          event.add('summary', summary)
-          fest_num_loc = stext.find('~\\#')
-          if fest_num_loc != -1:
-            stext = stext[:fest_num_loc]
-          event.add('dtstart', date(y, m, dt))
-          event.add('dtend', (datetime(y, m, dt) + timedelta(1)).date())
-
-          if re.match('.*-.*-EkAdazI', stext) is None and stext.find('saGkrAntiH') == -1:
-            if stext in fest_details_dict:
-              desc = fest_details_dict[stext].get_description_string(
-                script=scripts[0], include_url=True, include_shlokas=True, truncate=True, include_images=False)
-            else:
-              if re.match('aGgArakI.*saGkaTahara-caturthI-vratam', stext):
-                stext = stext.replace('aGgArakI~', '')
-                if stext in fest_details_dict:
-                  desc = fest_details_dict[stext].get_description_string(
-                    script=scripts[0])
-                  desc += 'When `caturthI` occurs on a Tuesday, it is known as `aGgArakI` and is even more sacred.'
-                else:
-                  logging.warning('No description found for caturthI festival %s!' % stext)
-              else:
-                # Check approx. match
-                matched_festivals = []
-                for fest_key in fest_details_dict:
-                  if stext.startswith(fest_key):
-                    matched_festivals += [fest_key]
-                if matched_festivals == []:
-                  logging.warning('No description found for festival %s!' % stext)
-                elif len(matched_festivals) > 1:
-                  logging.warning('No exact match found for festival %s! Found more than one approximate match: %s' % (
-                  stext, str(matched_festivals)))
-                else:
-                  desc = fest_details_dict[matched_festivals[0]].get_description_string(script=scripts[0],
-                                                                                 include_url=True, include_shlokas=True,
-                                                                                 truncate=True)
-
-          elif stext.find('saGkrAntiH') != -1:
-            # Handle Sankranti descriptions differently
-            planet_trans = stext.split('~')[0]  # get rid of ~(rAshi name) etc.
-            if planet_trans in fest_details_dict:
-              desc = fest_details_dict[planet_trans].get_description_string(
-                script=scripts[0], include_url=True, include_shlokas=True, truncate=True)
-            else:
-              logging.warning('No description found for festival %s!' % planet_trans)
-          else:
-            # logging.debug(stext)
-            # Handle ekaadashii descriptions differently
-            ekad = '-'.join(stext.split('-')[1:])  # get rid of sarva etc. prefix!
-            ekad_suff_pos = ekad.find(' (')
-            if ekad_suff_pos != -1:
-              # ekad_suff = ekad[ekad_suff_pos + 1:-1]
-              ekad = ekad[:ekad_suff_pos]
-            if ekad in fest_details_dict:
-              desc = fest_details_dict[ekad].get_description_string(
-                script=scripts[0], include_url=True, include_shlokas=True, truncate=True)
-            else:
-              logging.warning('No description found for Ekadashi festival %s (%s)!' % (ekad, stext))
-          event.add_component(alarm)
-          event.add('description', desc.strip().replace('\n', '<br/>'))
-          event['X-MICROSOFT-CDO-ALLDAYEVENT'] = 'TRUE'
-          event['TRANSP'] = 'TRANSPARENT'
-          event['X-MICROSOFT-CDO-BUSYSTATUS'] = 'FREE'
-          ics_calendar.add_component(event)
+      event = festival_instance_to_event(festival_instance=festival_instance, scripts=scripts, panchaanga=panchaanga, all_day=all_day)
+      ics_calendar.add_component(event)
 
     # if m == 12 and dt == 31:
     #     break
@@ -308,7 +228,7 @@ def main():
   panchaanga = jyotisha.panchaanga.spatio_temporal.annual.get_panchaanga_for_civil_year(city=city, year=year)
   panchaanga.update_festival_details()
 
-  ics_calendar = compute_calendar(panchaanga, all_tags)
+  ics_calendar = compute_calendar(panchaanga)
   output_file = os.path.expanduser('%s/%s-%d-%s.ics' % ("~/Documents/jyotisha", city.name, year, scripts))
   write_to_file(ics_calendar, output_file)
 
