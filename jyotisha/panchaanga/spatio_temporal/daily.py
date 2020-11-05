@@ -4,11 +4,8 @@ import logging
 import sys
 from math import floor, modf
 
-from scipy.optimize import brentq
-from timebudget import timebudget
-
 from jyotisha.panchaanga.spatio_temporal import City
-from jyotisha.panchaanga.temporal import interval, time, ComputationSystem, set_constants, DailyPanchaangaApplier
+from jyotisha.panchaanga.temporal import interval, time, ComputationSystem, set_constants
 from jyotisha.panchaanga.temporal import zodiac
 from jyotisha.panchaanga.temporal.body import Graha
 from jyotisha.panchaanga.temporal.festival.rules import RulesRepo
@@ -19,6 +16,8 @@ from jyotisha.panchaanga.temporal.zodiac import Ayanamsha, NakshatraDivision, An
 from jyotisha.panchaanga.temporal.zodiac.angas import AngaType, Anga
 from jyotisha.util import default_if_none
 from sanskrit_data.schema import common
+from scipy.optimize import brentq
+from timebudget import timebudget
 
 timebudget.set_quiet(True)  # don't show measurements as they happen
 
@@ -89,6 +88,11 @@ class DayAngas(common.JsonObject):
         break
     return spans
 
+  def get_anga_at_jd(self, jd, anga_type):
+    anga_spans = self.get_anga_spans_in_interval(anga_type=anga_type, interval=Interval(jd_start=jd, jd_end=jd))
+    for anga_span in anga_spans:
+      return anga_span.anga
+    return None
 
 # This class is not named Panchangam in order to be able to disambiguate from annual.Panchangam in serialized objects.
 class DailyPanchaanga(common.JsonObject):
@@ -325,16 +329,13 @@ class DailyPanchaanga(common.JsonObject):
         self.lagna_data.append((lagna, lagna_end_time))
     return self.lagna_data
 
-  def assign_festivals(self, previous_day_panchaangas, festival_id_to_days):
-    if previous_day_panchaangas is None:
-      return
-    applier = DailyPanchaangaApplier(day_panchaanga=self, previous_day_panchaangas=previous_day_panchaangas, festival_id_to_days=festival_id_to_days)
-    applier.apply_month_day_events(month_type=RulesRepo.SIDEREAL_SOLAR_MONTH_DIR)
-    applier.apply_month_anga_events(month_type=RulesRepo.SIDEREAL_SOLAR_MONTH_DIR, anga_type=AngaType.TITHI)
-    # applier.apply_month_anga_events(month_type=RulesRepo.SIDEREAL_SOLAR_MONTH_DIR, anga_type=AngaType.NAKSHATRA)
-    applier.apply_month_anga_events(month_type=RulesRepo.SIDEREAL_SOLAR_MONTH_DIR, anga_type=AngaType.YOGA)
+  def assign_festivals(self, applier):
+    applier.apply_month_day_events(day_panchaanga=self, month_type=RulesRepo.SIDEREAL_SOLAR_MONTH_DIR)
+    applier.apply_month_anga_events(day_panchaanga=self, month_type=RulesRepo.SIDEREAL_SOLAR_MONTH_DIR, anga_type=AngaType.TITHI)
+    # applier.apply_month_anga_events(day_panchaanga=self, month_type=RulesRepo.SIDEREAL_SOLAR_MONTH_DIR, anga_type=AngaType.NAKSHATRA)
+    applier.apply_month_anga_events(day_panchaanga=self, month_type=RulesRepo.SIDEREAL_SOLAR_MONTH_DIR, anga_type=AngaType.YOGA)
 
-    # applier.apply_month_anga_events(month_type=RulesRepo.LUNAR_MONTH_DIR, anga_type=AngaType.TITHI)
+    # applier.apply_month_anga_events(day_panchaanga=self, month_type=RulesRepo.LUNAR_MONTH_DIR, anga_type=AngaType.TITHI)
 
 
 # Essential for depickling to work.

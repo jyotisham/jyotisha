@@ -566,12 +566,7 @@
           "name": "yama"
         }
       },
-      "festival_id_to_instance": {
-        "mAn2akkaJcAr2a nAyan2Ar (11) gurupUjai": {
-          "jsonClass": "FestivalInstance",
-          "name": "mAn2akkaJcAr2a nAyan2Ar (11) gurupUjai"
-        }
-      },
+      "festival_id_to_instance": {},
       "jd_moonrise": 2458484.3646,
       "jd_moonset": 2458483.8288,
       "jd_next_sunrise": 2458484.545,
@@ -10693,6 +10688,10 @@
           },
           "jsonClass": "FestivalInstance",
           "name": "harivAsaraH"
+        },
+        "pradOSa-vratam": {
+          "jsonClass": "FestivalInstance",
+          "name": "pradOSa-vratam"
         },
         "sarva-SaTtilA-EkAdazI": {
           "jsonClass": "FestivalInstance",
@@ -93327,6 +93326,10 @@
           "jsonClass": "FestivalInstance",
           "name": "harivAsaraH"
         },
+        "pradOSa-vratam": {
+          "jsonClass": "FestivalInstance",
+          "name": "pradOSa-vratam"
+        },
         "sarva-pApAGkuzA-EkAdazI": {
           "jsonClass": "FestivalInstance",
           "name": "sarva-pApAGkuzA-EkAdazI"
@@ -120895,20 +120898,7 @@
           "name": "yama"
         }
       },
-      "festival_id_to_instance": {
-        "mahAdhanurvyatIpAta-snAnam": {
-          "jsonClass": "FestivalInstance",
-          "name": "mahAdhanurvyatIpAta-snAnam"
-        },
-        "mahAdhanurvyatIpAta-zrAddham": {
-          "jsonClass": "FestivalInstance",
-          "name": "mahAdhanurvyatIpAta-zrAddham"
-        },
-        "vyatIpAta-zrAddham": {
-          "jsonClass": "FestivalInstance",
-          "name": "vyatIpAta-zrAddham"
-        }
-      },
+      "festival_id_to_instance": {},
       "jd_moonrise": 2458849.7225,
       "jd_moonset": 2458850.2324,
       "jd_next_sunrise": 2458850.5452,
@@ -121212,12 +121202,7 @@
           "name": "yama"
         }
       },
-      "festival_id_to_instance": {
-        "undu~madakkaLir2r2an2": {
-          "jsonClass": "FestivalInstance",
-          "name": "undu~madakkaLir2r2an2"
-        }
-      },
+      "festival_id_to_instance": {},
       "jd_moonrise": 2458850.7477,
       "jd_moonset": 2458851.264,
       "jd_next_sunrise": 2458851.5455,
@@ -123973,16 +123958,7 @@
           "name": "yama"
         }
       },
-      "festival_id_to_instance": {
-        "kUDAravallI": {
-          "jsonClass": "FestivalInstance",
-          "name": "kUDAravallI"
-        },
-        "vaidhRti-zrAddham": {
-          "jsonClass": "FestivalInstance",
-          "name": "vaidhRti-zrAddham"
-        }
-      },
+      "festival_id_to_instance": {},
       "jd_moonrise": 2458860.0474,
       "jd_moonset": 2458859.5564,
       "jd_next_sunrise": 2458860.5473,
@@ -124296,12 +124272,7 @@
           "name": "yama"
         }
       },
-      "festival_id_to_instance": {
-        "kar2avaigaL pin2cen2r2u": {
-          "jsonClass": "FestivalInstance",
-          "name": "kar2avaigaL pin2cen2r2u"
-        }
-      },
+      "festival_id_to_instance": {},
       "jd_moonrise": 2458861.0897,
       "jd_moonset": 2458860.594,
       "jd_next_sunrise": 2458861.5475,
@@ -124939,12 +124910,7 @@
           "name": "yama"
         }
       },
-      "festival_id_to_instance": {
-        "bhOgi": {
-          "jsonClass": "FestivalInstance",
-          "name": "bhOgi"
-        }
-      },
+      "festival_id_to_instance": {},
       "jd_moonrise": 2458863.1715,
       "jd_moonset": 2458862.6628,
       "jd_next_sunrise": 2458863.5477,
@@ -125259,20 +125225,7 @@
           "name": "yama"
         }
       },
-      "festival_id_to_instance": {
-        "madhurai mIn2AkSI kOyilil kal yAn2aikku karumbu kODutta lIlai": {
-          "jsonClass": "FestivalInstance",
-          "name": "madhurai mIn2AkSI kOyilil kal yAn2aikku karumbu kODutta lIlai"
-        },
-        "makara-jyOtiH": {
-          "jsonClass": "FestivalInstance",
-          "name": "makara-jyOtiH"
-        },
-        "makara-saGkrAntiH": {
-          "jsonClass": "FestivalInstance",
-          "name": "makara-saGkrAntiH"
-        }
-      },
+      "festival_id_to_instance": {},
       "jd_moonrise": 2458864.2109,
       "jd_moonset": 2458863.6948,
       "jd_next_sunrise": 2458864.5478,
@@ -125425,10 +125378,4326 @@
         "jsonClass": "BasicDateWithTransitions",
         "month": 10
       }
+    },
+    "2020-01-16": {
+      "date": {
+        "day": 16,
+        "jsonClass": "Date",
+        "month": 1,
+        "year": 2020
+      },
+      "day_length_based_periods": {
+        "aparaahna": {
+          "jd_end": 2458865.0195,
+          "jd_start": 2458864.7837,
+          "jsonClass": "Interval",
+          "name": "aparaahna"
+        },
+        "aparaahna_muhuurta": {
+          "jd_end": 2458864.9251,
+          "jd_start": 2458864.8308,
+          "jsonClass": "Interval",
+          "name": "aparaahna_muhuurta"
+        },
+        "braahma": {
+          "jd_end": 2458864.5126,
+          "jd_start": 2458864.4773,
+          "jsonClass": "Interval",
+          "name": "braahma"
+        },
+        "dinaanta": {
+          "jd_end": 2458865.4158,
+          "jd_start": 2458865.3498,
+          "jsonClass": "Interval",
+          "name": "dinaanta"
+        },
+        "dinamaana": {
+          "jd_end": 2458865.0195,
+          "jd_start": 2458864.5478,
+          "jsonClass": "Interval",
+          "name": "dinamaana"
+        },
+        "gulika": {
+          "jd_end": 2458864.7247,
+          "jd_start": 2458864.6657,
+          "jsonClass": "Interval",
+          "name": "gulika"
+        },
+        "jsonClass": "DayLengthBasedPeriods",
+        "maadhyaahnika_sandhyaa": {
+          "jd_end": 2458864.7365,
+          "jd_start": 2458864.705,
+          "jsonClass": "Interval",
+          "name": "maadhyaahnika_sandhyaa"
+        },
+        "maadhyaahnika_sandhyaa_end": {
+          "jd_end": 2458864.988,
+          "jd_start": 2458864.9566,
+          "jsonClass": "Interval",
+          "name": "maadhyaahnika_sandhyaa_end"
+        },
+        "madhyaahna": {
+          "jd_end": 2458864.8308,
+          "jd_start": 2458864.7365,
+          "jsonClass": "Interval",
+          "name": "madhyaahna"
+        },
+        "madhyaraatri": {
+          "jd_end": 2458865.3365,
+          "jd_start": 2458865.2309,
+          "jsonClass": "Interval",
+          "name": "madhyaraatri"
+        },
+        "nishiitha": {
+          "jd_end": 2458865.3013,
+          "jd_start": 2458865.2661,
+          "jsonClass": "Interval",
+          "name": "nishiitha"
+        },
+        "praatah": {
+          "jd_end": 2458864.6422,
+          "jd_start": 2458864.5478,
+          "jsonClass": "Interval",
+          "name": "praatah"
+        },
+        "praatas_sandhyaa": {
+          "jd_end": 2458864.5478,
+          "jd_start": 2458864.5126,
+          "jsonClass": "Interval",
+          "name": "praatas_sandhyaa"
+        },
+        "praatas_sandhyaa_end": {
+          "jd_end": 2458864.705,
+          "jd_start": 2458864.6736,
+          "jsonClass": "Interval",
+          "name": "praatas_sandhyaa_end"
+        },
+        "pradosha": {
+          "jd_end": 2458865.0547,
+          "jd_start": 2458865.0195,
+          "jsonClass": "Interval",
+          "name": "pradosha"
+        },
+        "preceeding_arunodaya": {
+          "jd_end": 2458864.5478,
+          "jd_start": 2458864.4773,
+          "jsonClass": "Interval",
+          "name": "preceeding_arunodaya"
+        },
+        "puurvaahna": {
+          "jd_end": 2458864.7837,
+          "jd_start": 2458864.5478,
+          "jsonClass": "Interval",
+          "name": "puurvaahna"
+        },
+        "raahu": {
+          "jd_end": 2458864.9016,
+          "jd_start": 2458864.8426,
+          "jsonClass": "Interval",
+          "name": "raahu"
+        },
+        "raatri_yaama_1": {
+          "jd_end": 2458865.2837,
+          "jd_start": 2458865.1516,
+          "jsonClass": "Interval",
+          "name": "raatri_yaama_1"
+        },
+        "raatrimaana": {
+          "jd_end": 2458865.5479,
+          "jd_start": 2458865.0195,
+          "jsonClass": "Interval",
+          "name": "raatrimaana"
+        },
+        "saangava": {
+          "jd_end": 2458864.7365,
+          "jd_start": 2458864.6422,
+          "jsonClass": "Interval",
+          "name": "saangava"
+        },
+        "saayaahna": {
+          "jd_end": 2458865.0195,
+          "jd_start": 2458864.9251,
+          "jsonClass": "Interval",
+          "name": "saayaahna"
+        },
+        "saayam_sandhyaa": {
+          "jd_end": 2458865.0195,
+          "jd_start": 2458864.988,
+          "jsonClass": "Interval",
+          "name": "saayam_sandhyaa"
+        },
+        "shayana": {
+          "jd_end": 2458865.2837,
+          "jd_start": 2458865.2176,
+          "jsonClass": "Interval",
+          "name": "shayana"
+        },
+        "yama": {
+          "jd_end": 2458864.6068,
+          "jd_start": 2458864.5478,
+          "jsonClass": "Interval",
+          "name": "yama"
+        }
+      },
+      "festival_id_to_instance": {},
+      "jd_moonrise": 2458865.2499,
+      "jd_moonset": 2458864.7261,
+      "jd_next_sunrise": 2458865.5479,
+      "jd_previous_sunset": 2458864.0191,
+      "jd_sunrise": 2458864.5478,
+      "jd_sunset": 2458865.0195,
+      "jsonClass": "DailyPanchaanga",
+      "julian_day_start": 2458864.2708,
+      "lunar_month_sunrise": {
+        "anga_type_id": "SIDEREAL_MONTH",
+        "index": 10,
+        "jsonClass": "Anga"
+      },
+      "shraaddha_tithi": [],
+      "solar_sidereal_date_sunset": {
+        "day": 2,
+        "jsonClass": "BasicDateWithTransitions",
+        "month": 10
+      },
+      "sunrise_day_angas": {
+        "jsonClass": "DayAngas",
+        "karanas_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "KARANA",
+              "index": 42,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458864.6749,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "KARANA",
+              "index": 43,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458865.127,
+            "jd_start": 2458864.6749,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "KARANA",
+              "index": 44,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458865.127,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "nakshatra_at_sunrise": {
+          "anga_type_id": "NAKSHATRA",
+          "index": 13,
+          "jsonClass": "Anga"
+        },
+        "nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "NAKSHATRA",
+              "index": 13,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458865.3743,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "NAKSHATRA",
+              "index": 14,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458865.3743,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "raashis_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "RASHI",
+              "index": 6,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "tithi_at_sunrise": {
+          "anga_type_id": "TITHI",
+          "index": 21,
+          "jsonClass": "Anga"
+        },
+        "tithis_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "TITHI",
+              "index": 21,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458864.6749,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "TITHI",
+              "index": 22,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458864.6749,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "yoga_at_sunrise": {
+          "anga_type_id": "YOGA",
+          "index": 6,
+          "jsonClass": "Anga"
+        },
+        "yogas_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "YOGA",
+              "index": 6,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458865.0202,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "YOGA",
+              "index": 7,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458865.0202,
+            "jsonClass": "AngaSpan"
+          }
+        ]
+      },
+      "tropical_date_sunset": {
+        "day": 26,
+        "jsonClass": "BasicDateWithTransitions",
+        "month": 10
+      }
+    },
+    "2020-01-17": {
+      "date": {
+        "day": 17,
+        "jsonClass": "Date",
+        "month": 1,
+        "year": 2020
+      },
+      "day_length_based_periods": {
+        "aparaahna": {
+          "jd_end": 2458866.0198,
+          "jd_start": 2458865.7839,
+          "jsonClass": "Interval",
+          "name": "aparaahna"
+        },
+        "aparaahna_muhuurta": {
+          "jd_end": 2458865.9255,
+          "jd_start": 2458865.8311,
+          "jsonClass": "Interval",
+          "name": "aparaahna_muhuurta"
+        },
+        "braahma": {
+          "jd_end": 2458865.5127,
+          "jd_start": 2458865.4775,
+          "jsonClass": "Interval",
+          "name": "braahma"
+        },
+        "dinaanta": {
+          "jd_end": 2458866.416,
+          "jd_start": 2458866.35,
+          "jsonClass": "Interval",
+          "name": "dinaanta"
+        },
+        "dinamaana": {
+          "jd_end": 2458866.0198,
+          "jd_start": 2458865.5479,
+          "jsonClass": "Interval",
+          "name": "dinamaana"
+        },
+        "gulika": {
+          "jd_end": 2458865.6659,
+          "jd_start": 2458865.6069,
+          "jsonClass": "Interval",
+          "name": "gulika"
+        },
+        "jsonClass": "DayLengthBasedPeriods",
+        "maadhyaahnika_sandhyaa": {
+          "jd_end": 2458865.7367,
+          "jd_start": 2458865.7052,
+          "jsonClass": "Interval",
+          "name": "maadhyaahnika_sandhyaa"
+        },
+        "maadhyaahnika_sandhyaa_end": {
+          "jd_end": 2458865.9884,
+          "jd_start": 2458865.9569,
+          "jsonClass": "Interval",
+          "name": "maadhyaahnika_sandhyaa_end"
+        },
+        "madhyaahna": {
+          "jd_end": 2458865.8311,
+          "jd_start": 2458865.7367,
+          "jsonClass": "Interval",
+          "name": "madhyaahna"
+        },
+        "madhyaraatri": {
+          "jd_end": 2458866.3368,
+          "jd_start": 2458866.2311,
+          "jsonClass": "Interval",
+          "name": "madhyaraatri"
+        },
+        "nishiitha": {
+          "jd_end": 2458866.3015,
+          "jd_start": 2458866.2663,
+          "jsonClass": "Interval",
+          "name": "nishiitha"
+        },
+        "praatah": {
+          "jd_end": 2458865.6423,
+          "jd_start": 2458865.5479,
+          "jsonClass": "Interval",
+          "name": "praatah"
+        },
+        "praatas_sandhyaa": {
+          "jd_end": 2458865.5479,
+          "jd_start": 2458865.5127,
+          "jsonClass": "Interval",
+          "name": "praatas_sandhyaa"
+        },
+        "praatas_sandhyaa_end": {
+          "jd_end": 2458865.7052,
+          "jd_start": 2458865.6738,
+          "jsonClass": "Interval",
+          "name": "praatas_sandhyaa_end"
+        },
+        "pradosha": {
+          "jd_end": 2458866.0551,
+          "jd_start": 2458866.0198,
+          "jsonClass": "Interval",
+          "name": "pradosha"
+        },
+        "preceeding_arunodaya": {
+          "jd_end": 2458865.5479,
+          "jd_start": 2458865.4775,
+          "jsonClass": "Interval",
+          "name": "preceeding_arunodaya"
+        },
+        "puurvaahna": {
+          "jd_end": 2458865.7839,
+          "jd_start": 2458865.5479,
+          "jsonClass": "Interval",
+          "name": "puurvaahna"
+        },
+        "raahu": {
+          "jd_end": 2458865.7839,
+          "jd_start": 2458865.7249,
+          "jsonClass": "Interval",
+          "name": "raahu"
+        },
+        "raatri_yaama_1": {
+          "jd_end": 2458866.2839,
+          "jd_start": 2458866.1519,
+          "jsonClass": "Interval",
+          "name": "raatri_yaama_1"
+        },
+        "raatrimaana": {
+          "jd_end": 2458866.548,
+          "jd_start": 2458866.0198,
+          "jsonClass": "Interval",
+          "name": "raatrimaana"
+        },
+        "saangava": {
+          "jd_end": 2458865.7367,
+          "jd_start": 2458865.6423,
+          "jsonClass": "Interval",
+          "name": "saangava"
+        },
+        "saayaahna": {
+          "jd_end": 2458866.0198,
+          "jd_start": 2458865.9255,
+          "jsonClass": "Interval",
+          "name": "saayaahna"
+        },
+        "saayam_sandhyaa": {
+          "jd_end": 2458866.0198,
+          "jd_start": 2458865.9884,
+          "jsonClass": "Interval",
+          "name": "saayam_sandhyaa"
+        },
+        "shayana": {
+          "jd_end": 2458866.2839,
+          "jd_start": 2458866.2179,
+          "jsonClass": "Interval",
+          "name": "shayana"
+        },
+        "yama": {
+          "jd_end": 2458865.9609,
+          "jd_start": 2458865.9019,
+          "jsonClass": "Interval",
+          "name": "yama"
+        }
+      },
+      "festival_id_to_instance": {},
+      "jd_moonrise": 2458866.289,
+      "jd_moonset": 2458865.7574,
+      "jd_next_sunrise": 2458866.548,
+      "jd_previous_sunset": 2458865.0195,
+      "jd_sunrise": 2458865.5479,
+      "jd_sunset": 2458866.0198,
+      "jsonClass": "DailyPanchaanga",
+      "julian_day_start": 2458865.2708,
+      "lunar_month_sunrise": {
+        "anga_type_id": "SIDEREAL_MONTH",
+        "index": 10,
+        "jsonClass": "Anga"
+      },
+      "shraaddha_tithi": [],
+      "solar_sidereal_date_sunset": {
+        "day": 3,
+        "jsonClass": "BasicDateWithTransitions",
+        "month": 10
+      },
+      "sunrise_day_angas": {
+        "jsonClass": "DayAngas",
+        "karanas_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "KARANA",
+              "index": 44,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458865.5821,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "KARANA",
+              "index": 45,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458866.0405,
+            "jd_start": 2458865.5821,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "KARANA",
+              "index": 46,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458866.5026,
+            "jd_start": 2458866.0405,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "KARANA",
+              "index": 47,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458866.5026,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "nakshatra_at_sunrise": {
+          "anga_type_id": "NAKSHATRA",
+          "index": 14,
+          "jsonClass": "Anga"
+        },
+        "nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "NAKSHATRA",
+              "index": 14,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458866.3201,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "NAKSHATRA",
+              "index": 15,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458866.3201,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "raashis_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "RASHI",
+              "index": 6,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458865.8455,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "RASHI",
+              "index": 7,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458865.8455,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "tithi_at_sunrise": {
+          "anga_type_id": "TITHI",
+          "index": 22,
+          "jsonClass": "Anga"
+        },
+        "tithis_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "TITHI",
+              "index": 22,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458865.5821,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "TITHI",
+              "index": 23,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458866.5026,
+            "jd_start": 2458865.5821,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "TITHI",
+              "index": 24,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458866.5026,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "yoga_at_sunrise": {
+          "anga_type_id": "YOGA",
+          "index": 7,
+          "jsonClass": "Anga"
+        },
+        "yogas_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "YOGA",
+              "index": 7,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458865.8975,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "YOGA",
+              "index": 8,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458865.8975,
+            "jsonClass": "AngaSpan"
+          }
+        ]
+      },
+      "tropical_date_sunset": {
+        "day": 27,
+        "jsonClass": "BasicDateWithTransitions",
+        "month": 10
+      }
+    },
+    "2020-01-18": {
+      "date": {
+        "day": 18,
+        "jsonClass": "Date",
+        "month": 1,
+        "year": 2020
+      },
+      "day_length_based_periods": {
+        "aparaahna": {
+          "jd_end": 2458867.0202,
+          "jd_start": 2458866.7841,
+          "jsonClass": "Interval",
+          "name": "aparaahna"
+        },
+        "aparaahna_muhuurta": {
+          "jd_end": 2458866.9258,
+          "jd_start": 2458866.8313,
+          "jsonClass": "Interval",
+          "name": "aparaahna_muhuurta"
+        },
+        "braahma": {
+          "jd_end": 2458866.5128,
+          "jd_start": 2458866.4776,
+          "jsonClass": "Interval",
+          "name": "braahma"
+        },
+        "dinaanta": {
+          "jd_end": 2458867.4161,
+          "jd_start": 2458867.3501,
+          "jsonClass": "Interval",
+          "name": "dinaanta"
+        },
+        "dinamaana": {
+          "jd_end": 2458867.0202,
+          "jd_start": 2458866.548,
+          "jsonClass": "Interval",
+          "name": "dinamaana"
+        },
+        "gulika": {
+          "jd_end": 2458866.607,
+          "jd_start": 2458866.548,
+          "jsonClass": "Interval",
+          "name": "gulika"
+        },
+        "jsonClass": "DayLengthBasedPeriods",
+        "maadhyaahnika_sandhyaa": {
+          "jd_end": 2458866.7369,
+          "jd_start": 2458866.7054,
+          "jsonClass": "Interval",
+          "name": "maadhyaahnika_sandhyaa"
+        },
+        "maadhyaahnika_sandhyaa_end": {
+          "jd_end": 2458866.9887,
+          "jd_start": 2458866.9573,
+          "jsonClass": "Interval",
+          "name": "maadhyaahnika_sandhyaa_end"
+        },
+        "madhyaahna": {
+          "jd_end": 2458866.8313,
+          "jd_start": 2458866.7369,
+          "jsonClass": "Interval",
+          "name": "madhyaahna"
+        },
+        "madhyaraatri": {
+          "jd_end": 2458867.3369,
+          "jd_start": 2458867.2314,
+          "jsonClass": "Interval",
+          "name": "madhyaraatri"
+        },
+        "nishiitha": {
+          "jd_end": 2458867.3018,
+          "jd_start": 2458867.2666,
+          "jsonClass": "Interval",
+          "name": "nishiitha"
+        },
+        "praatah": {
+          "jd_end": 2458866.6425,
+          "jd_start": 2458866.548,
+          "jsonClass": "Interval",
+          "name": "praatah"
+        },
+        "praatas_sandhyaa": {
+          "jd_end": 2458866.548,
+          "jd_start": 2458866.5128,
+          "jsonClass": "Interval",
+          "name": "praatas_sandhyaa"
+        },
+        "praatas_sandhyaa_end": {
+          "jd_end": 2458866.7054,
+          "jd_start": 2458866.6739,
+          "jsonClass": "Interval",
+          "name": "praatas_sandhyaa_end"
+        },
+        "pradosha": {
+          "jd_end": 2458867.0554,
+          "jd_start": 2458867.0202,
+          "jsonClass": "Interval",
+          "name": "pradosha"
+        },
+        "preceeding_arunodaya": {
+          "jd_end": 2458866.548,
+          "jd_start": 2458866.4776,
+          "jsonClass": "Interval",
+          "name": "preceeding_arunodaya"
+        },
+        "puurvaahna": {
+          "jd_end": 2458866.7841,
+          "jd_start": 2458866.548,
+          "jsonClass": "Interval",
+          "name": "puurvaahna"
+        },
+        "raahu": {
+          "jd_end": 2458866.7251,
+          "jd_start": 2458866.6661,
+          "jsonClass": "Interval",
+          "name": "raahu"
+        },
+        "raatri_yaama_1": {
+          "jd_end": 2458867.2842,
+          "jd_start": 2458867.1522,
+          "jsonClass": "Interval",
+          "name": "raatri_yaama_1"
+        },
+        "raatrimaana": {
+          "jd_end": 2458867.5481,
+          "jd_start": 2458867.0202,
+          "jsonClass": "Interval",
+          "name": "raatrimaana"
+        },
+        "saangava": {
+          "jd_end": 2458866.7369,
+          "jd_start": 2458866.6425,
+          "jsonClass": "Interval",
+          "name": "saangava"
+        },
+        "saayaahna": {
+          "jd_end": 2458867.0202,
+          "jd_start": 2458866.9258,
+          "jsonClass": "Interval",
+          "name": "saayaahna"
+        },
+        "saayam_sandhyaa": {
+          "jd_end": 2458867.0202,
+          "jd_start": 2458866.9887,
+          "jsonClass": "Interval",
+          "name": "saayam_sandhyaa"
+        },
+        "shayana": {
+          "jd_end": 2458867.2842,
+          "jd_start": 2458867.2182,
+          "jsonClass": "Interval",
+          "name": "shayana"
+        },
+        "yama": {
+          "jd_end": 2458866.9022,
+          "jd_start": 2458866.8431,
+          "jsonClass": "Interval",
+          "name": "yama"
+        }
+      },
+      "festival_id_to_instance": {},
+      "jd_moonrise": 2458867.3285,
+      "jd_moonset": 2458866.7895,
+      "jd_next_sunrise": 2458867.5481,
+      "jd_previous_sunset": 2458866.0198,
+      "jd_sunrise": 2458866.548,
+      "jd_sunset": 2458867.0202,
+      "jsonClass": "DailyPanchaanga",
+      "julian_day_start": 2458866.2708,
+      "lunar_month_sunrise": {
+        "anga_type_id": "SIDEREAL_MONTH",
+        "index": 10,
+        "jsonClass": "Anga"
+      },
+      "shraaddha_tithi": [],
+      "solar_sidereal_date_sunset": {
+        "day": 4,
+        "jsonClass": "BasicDateWithTransitions",
+        "month": 10
+      },
+      "sunrise_day_angas": {
+        "jsonClass": "DayAngas",
+        "karanas_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "KARANA",
+              "index": 47,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458866.9684,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "KARANA",
+              "index": 48,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458867.4382,
+            "jd_start": 2458866.9684,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "KARANA",
+              "index": 49,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458867.4382,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "nakshatra_at_sunrise": {
+          "anga_type_id": "NAKSHATRA",
+          "index": 15,
+          "jsonClass": "Anga"
+        },
+        "nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "NAKSHATRA",
+              "index": 15,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458867.2805,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "NAKSHATRA",
+              "index": 16,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458867.2805,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "raashis_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "RASHI",
+              "index": 7,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "tithi_at_sunrise": {
+          "anga_type_id": "TITHI",
+          "index": 24,
+          "jsonClass": "Anga"
+        },
+        "tithis_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "TITHI",
+              "index": 24,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458867.4382,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "TITHI",
+              "index": 25,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458867.4382,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "yoga_at_sunrise": {
+          "anga_type_id": "YOGA",
+          "index": 8,
+          "jsonClass": "Anga"
+        },
+        "yogas_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "YOGA",
+              "index": 8,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458866.786,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "YOGA",
+              "index": 9,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458866.786,
+            "jsonClass": "AngaSpan"
+          }
+        ]
+      },
+      "tropical_date_sunset": {
+        "day": 28,
+        "jsonClass": "BasicDateWithTransitions",
+        "month": 10
+      }
+    },
+    "2020-01-19": {
+      "date": {
+        "day": 19,
+        "jsonClass": "Date",
+        "month": 1,
+        "year": 2020
+      },
+      "day_length_based_periods": {
+        "aparaahna": {
+          "jd_end": 2458868.0206,
+          "jd_start": 2458867.7843,
+          "jsonClass": "Interval",
+          "name": "aparaahna"
+        },
+        "aparaahna_muhuurta": {
+          "jd_end": 2458867.9261,
+          "jd_start": 2458867.8316,
+          "jsonClass": "Interval",
+          "name": "aparaahna_muhuurta"
+        },
+        "braahma": {
+          "jd_end": 2458867.5129,
+          "jd_start": 2458867.4777,
+          "jsonClass": "Interval",
+          "name": "braahma"
+        },
+        "dinaanta": {
+          "jd_end": 2458868.4163,
+          "jd_start": 2458868.3503,
+          "jsonClass": "Interval",
+          "name": "dinaanta"
+        },
+        "dinamaana": {
+          "jd_end": 2458868.0206,
+          "jd_start": 2458867.5481,
+          "jsonClass": "Interval",
+          "name": "dinamaana"
+        },
+        "gulika": {
+          "jd_end": 2458867.9615,
+          "jd_start": 2458867.9025,
+          "jsonClass": "Interval",
+          "name": "gulika"
+        },
+        "jsonClass": "DayLengthBasedPeriods",
+        "maadhyaahnika_sandhyaa": {
+          "jd_end": 2458867.7371,
+          "jd_start": 2458867.7056,
+          "jsonClass": "Interval",
+          "name": "maadhyaahnika_sandhyaa"
+        },
+        "maadhyaahnika_sandhyaa_end": {
+          "jd_end": 2458867.9891,
+          "jd_start": 2458867.9576,
+          "jsonClass": "Interval",
+          "name": "maadhyaahnika_sandhyaa_end"
+        },
+        "madhyaahna": {
+          "jd_end": 2458867.8316,
+          "jd_start": 2458867.7371,
+          "jsonClass": "Interval",
+          "name": "madhyaahna"
+        },
+        "madhyaraatri": {
+          "jd_end": 2458868.3371,
+          "jd_start": 2458868.2316,
+          "jsonClass": "Interval",
+          "name": "madhyaraatri"
+        },
+        "nishiitha": {
+          "jd_end": 2458868.302,
+          "jd_start": 2458868.2668,
+          "jsonClass": "Interval",
+          "name": "nishiitha"
+        },
+        "praatah": {
+          "jd_end": 2458867.6426,
+          "jd_start": 2458867.5481,
+          "jsonClass": "Interval",
+          "name": "praatah"
+        },
+        "praatas_sandhyaa": {
+          "jd_end": 2458867.5481,
+          "jd_start": 2458867.5129,
+          "jsonClass": "Interval",
+          "name": "praatas_sandhyaa"
+        },
+        "praatas_sandhyaa_end": {
+          "jd_end": 2458867.7056,
+          "jd_start": 2458867.6741,
+          "jsonClass": "Interval",
+          "name": "praatas_sandhyaa_end"
+        },
+        "pradosha": {
+          "jd_end": 2458868.0558,
+          "jd_start": 2458868.0206,
+          "jsonClass": "Interval",
+          "name": "pradosha"
+        },
+        "preceeding_arunodaya": {
+          "jd_end": 2458867.5481,
+          "jd_start": 2458867.4777,
+          "jsonClass": "Interval",
+          "name": "preceeding_arunodaya"
+        },
+        "puurvaahna": {
+          "jd_end": 2458867.7843,
+          "jd_start": 2458867.5481,
+          "jsonClass": "Interval",
+          "name": "puurvaahna"
+        },
+        "raahu": {
+          "jd_end": 2458868.0206,
+          "jd_start": 2458867.9615,
+          "jsonClass": "Interval",
+          "name": "raahu"
+        },
+        "raatri_yaama_1": {
+          "jd_end": 2458868.2844,
+          "jd_start": 2458868.1525,
+          "jsonClass": "Interval",
+          "name": "raatri_yaama_1"
+        },
+        "raatrimaana": {
+          "jd_end": 2458868.5482,
+          "jd_start": 2458868.0206,
+          "jsonClass": "Interval",
+          "name": "raatrimaana"
+        },
+        "saangava": {
+          "jd_end": 2458867.7371,
+          "jd_start": 2458867.6426,
+          "jsonClass": "Interval",
+          "name": "saangava"
+        },
+        "saayaahna": {
+          "jd_end": 2458868.0206,
+          "jd_start": 2458867.9261,
+          "jsonClass": "Interval",
+          "name": "saayaahna"
+        },
+        "saayam_sandhyaa": {
+          "jd_end": 2458868.0206,
+          "jd_start": 2458867.9891,
+          "jsonClass": "Interval",
+          "name": "saayam_sandhyaa"
+        },
+        "shayana": {
+          "jd_end": 2458868.2844,
+          "jd_start": 2458868.2184,
+          "jsonClass": "Interval",
+          "name": "shayana"
+        },
+        "yama": {
+          "jd_end": 2458867.8434,
+          "jd_start": 2458867.7843,
+          "jsonClass": "Interval",
+          "name": "yama"
+        }
+      },
+      "festival_id_to_instance": {},
+      "jd_moonrise": 2458868.3683,
+      "jd_moonset": 2458867.8231,
+      "jd_next_sunrise": 2458868.5482,
+      "jd_previous_sunset": 2458867.0202,
+      "jd_sunrise": 2458867.5481,
+      "jd_sunset": 2458868.0206,
+      "jsonClass": "DailyPanchaanga",
+      "julian_day_start": 2458867.2708,
+      "lunar_month_sunrise": {
+        "anga_type_id": "SIDEREAL_MONTH",
+        "index": 10,
+        "jsonClass": "Anga"
+      },
+      "shraaddha_tithi": [],
+      "solar_sidereal_date_sunset": {
+        "day": 5,
+        "jsonClass": "BasicDateWithTransitions",
+        "month": 10
+      },
+      "sunrise_day_angas": {
+        "jsonClass": "DayAngas",
+        "karanas_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "KARANA",
+              "index": 49,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458867.912,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "KARANA",
+              "index": 50,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458868.39,
+            "jd_start": 2458867.912,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "KARANA",
+              "index": 51,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458868.39,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "nakshatra_at_sunrise": {
+          "anga_type_id": "NAKSHATRA",
+          "index": 16,
+          "jsonClass": "Anga"
+        },
+        "nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "NAKSHATRA",
+              "index": 16,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458868.2566,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "NAKSHATRA",
+              "index": 17,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458868.2566,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "raashis_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "RASHI",
+              "index": 7,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458868.011,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "RASHI",
+              "index": 8,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458868.011,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "tithi_at_sunrise": {
+          "anga_type_id": "TITHI",
+          "index": 25,
+          "jsonClass": "Anga"
+        },
+        "tithis_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "TITHI",
+              "index": 25,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458868.39,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "TITHI",
+              "index": 26,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458868.39,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "yoga_at_sunrise": {
+          "anga_type_id": "YOGA",
+          "index": 9,
+          "jsonClass": "Anga"
+        },
+        "yogas_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "YOGA",
+              "index": 9,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458867.6869,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "YOGA",
+              "index": 10,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458867.6869,
+            "jsonClass": "AngaSpan"
+          }
+        ]
+      },
+      "tropical_date_sunset": {
+        "day": 29,
+        "jsonClass": "BasicDateWithTransitions",
+        "month": 10
+      }
+    },
+    "2020-01-20": {
+      "date": {
+        "day": 20,
+        "jsonClass": "Date",
+        "month": 1,
+        "year": 2020
+      },
+      "day_length_based_periods": {
+        "aparaahna": {
+          "jd_end": 2458869.021,
+          "jd_start": 2458868.7846,
+          "jsonClass": "Interval",
+          "name": "aparaahna"
+        },
+        "aparaahna_muhuurta": {
+          "jd_end": 2458868.9264,
+          "jd_start": 2458868.8318,
+          "jsonClass": "Interval",
+          "name": "aparaahna_muhuurta"
+        },
+        "braahma": {
+          "jd_end": 2458868.513,
+          "jd_start": 2458868.4778,
+          "jsonClass": "Interval",
+          "name": "braahma"
+        },
+        "dinaanta": {
+          "jd_end": 2458869.4164,
+          "jd_start": 2458869.3505,
+          "jsonClass": "Interval",
+          "name": "dinaanta"
+        },
+        "dinamaana": {
+          "jd_end": 2458869.021,
+          "jd_start": 2458868.5482,
+          "jsonClass": "Interval",
+          "name": "dinamaana"
+        },
+        "gulika": {
+          "jd_end": 2458868.9028,
+          "jd_start": 2458868.8437,
+          "jsonClass": "Interval",
+          "name": "gulika"
+        },
+        "jsonClass": "DayLengthBasedPeriods",
+        "maadhyaahnika_sandhyaa": {
+          "jd_end": 2458868.7373,
+          "jd_start": 2458868.7058,
+          "jsonClass": "Interval",
+          "name": "maadhyaahnika_sandhyaa"
+        },
+        "maadhyaahnika_sandhyaa_end": {
+          "jd_end": 2458868.9894,
+          "jd_start": 2458868.9579,
+          "jsonClass": "Interval",
+          "name": "maadhyaahnika_sandhyaa_end"
+        },
+        "madhyaahna": {
+          "jd_end": 2458868.8318,
+          "jd_start": 2458868.7373,
+          "jsonClass": "Interval",
+          "name": "madhyaahna"
+        },
+        "madhyaraatri": {
+          "jd_end": 2458869.3373,
+          "jd_start": 2458869.2319,
+          "jsonClass": "Interval",
+          "name": "madhyaraatri"
+        },
+        "nishiitha": {
+          "jd_end": 2458869.3022,
+          "jd_start": 2458869.267,
+          "jsonClass": "Interval",
+          "name": "nishiitha"
+        },
+        "praatah": {
+          "jd_end": 2458868.6427,
+          "jd_start": 2458868.5482,
+          "jsonClass": "Interval",
+          "name": "praatah"
+        },
+        "praatas_sandhyaa": {
+          "jd_end": 2458868.5482,
+          "jd_start": 2458868.513,
+          "jsonClass": "Interval",
+          "name": "praatas_sandhyaa"
+        },
+        "praatas_sandhyaa_end": {
+          "jd_end": 2458868.7058,
+          "jd_start": 2458868.6742,
+          "jsonClass": "Interval",
+          "name": "praatas_sandhyaa_end"
+        },
+        "pradosha": {
+          "jd_end": 2458869.0561,
+          "jd_start": 2458869.021,
+          "jsonClass": "Interval",
+          "name": "pradosha"
+        },
+        "preceeding_arunodaya": {
+          "jd_end": 2458868.5482,
+          "jd_start": 2458868.4778,
+          "jsonClass": "Interval",
+          "name": "preceeding_arunodaya"
+        },
+        "puurvaahna": {
+          "jd_end": 2458868.7846,
+          "jd_start": 2458868.5482,
+          "jsonClass": "Interval",
+          "name": "puurvaahna"
+        },
+        "raahu": {
+          "jd_end": 2458868.6664,
+          "jd_start": 2458868.6073,
+          "jsonClass": "Interval",
+          "name": "raahu"
+        },
+        "raatri_yaama_1": {
+          "jd_end": 2458869.2846,
+          "jd_start": 2458869.1528,
+          "jsonClass": "Interval",
+          "name": "raatri_yaama_1"
+        },
+        "raatrimaana": {
+          "jd_end": 2458869.5482,
+          "jd_start": 2458869.021,
+          "jsonClass": "Interval",
+          "name": "raatrimaana"
+        },
+        "saangava": {
+          "jd_end": 2458868.7373,
+          "jd_start": 2458868.6427,
+          "jsonClass": "Interval",
+          "name": "saangava"
+        },
+        "saayaahna": {
+          "jd_end": 2458869.021,
+          "jd_start": 2458868.9264,
+          "jsonClass": "Interval",
+          "name": "saayaahna"
+        },
+        "saayam_sandhyaa": {
+          "jd_end": 2458869.021,
+          "jd_start": 2458868.9894,
+          "jsonClass": "Interval",
+          "name": "saayam_sandhyaa"
+        },
+        "shayana": {
+          "jd_end": 2458869.2846,
+          "jd_start": 2458869.2187,
+          "jsonClass": "Interval",
+          "name": "shayana"
+        },
+        "yama": {
+          "jd_end": 2458868.7846,
+          "jd_start": 2458868.7255,
+          "jsonClass": "Interval",
+          "name": "yama"
+        }
+      },
+      "festival_id_to_instance": {},
+      "jd_moonrise": 2458869.4082,
+      "jd_moonset": 2458868.8583,
+      "jd_next_sunrise": 2458869.5482,
+      "jd_previous_sunset": 2458868.0206,
+      "jd_sunrise": 2458868.5482,
+      "jd_sunset": 2458869.021,
+      "jsonClass": "DailyPanchaanga",
+      "julian_day_start": 2458868.2708,
+      "lunar_month_sunrise": {
+        "anga_type_id": "SIDEREAL_MONTH",
+        "index": 10,
+        "jsonClass": "Anga"
+      },
+      "shraaddha_tithi": [],
+      "solar_sidereal_date_sunset": {
+        "day": 6,
+        "jsonClass": "BasicDateWithTransitions",
+        "month": 10
+      },
+      "sunrise_day_angas": {
+        "jsonClass": "DayAngas",
+        "karanas_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "KARANA",
+              "index": 51,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458868.8721,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "KARANA",
+              "index": 52,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458869.3585,
+            "jd_start": 2458868.8721,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "KARANA",
+              "index": 53,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458869.3585,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "nakshatra_at_sunrise": {
+          "anga_type_id": "NAKSHATRA",
+          "index": 17,
+          "jsonClass": "Anga"
+        },
+        "nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "NAKSHATRA",
+              "index": 17,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458869.249,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "NAKSHATRA",
+              "index": 18,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458869.249,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "raashis_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "RASHI",
+              "index": 8,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "tithi_at_sunrise": {
+          "anga_type_id": "TITHI",
+          "index": 26,
+          "jsonClass": "Anga"
+        },
+        "tithis_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "TITHI",
+              "index": 26,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458869.3585,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "TITHI",
+              "index": 27,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458869.3585,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "yoga_at_sunrise": {
+          "anga_type_id": "YOGA",
+          "index": 10,
+          "jsonClass": "Anga"
+        },
+        "yogas_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "YOGA",
+              "index": 10,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458868.6006,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "YOGA",
+              "index": 11,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458869.5276,
+            "jd_start": 2458868.6006,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "YOGA",
+              "index": 12,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458869.5276,
+            "jsonClass": "AngaSpan"
+          }
+        ]
+      },
+      "tropical_date_sunset": {
+        "day": 30,
+        "jsonClass": "BasicDateWithTransitions",
+        "month": 10
+      }
+    },
+    "2020-01-21": {
+      "date": {
+        "day": 21,
+        "jsonClass": "Date",
+        "month": 1,
+        "year": 2020
+      },
+      "day_length_based_periods": {
+        "aparaahna": {
+          "jd_end": 2458870.0213,
+          "jd_start": 2458869.7848,
+          "jsonClass": "Interval",
+          "name": "aparaahna"
+        },
+        "aparaahna_muhuurta": {
+          "jd_end": 2458869.9267,
+          "jd_start": 2458869.8321,
+          "jsonClass": "Interval",
+          "name": "aparaahna_muhuurta"
+        },
+        "braahma": {
+          "jd_end": 2458869.5131,
+          "jd_start": 2458869.4779,
+          "jsonClass": "Interval",
+          "name": "braahma"
+        },
+        "dinaanta": {
+          "jd_end": 2458870.4165,
+          "jd_start": 2458870.3506,
+          "jsonClass": "Interval",
+          "name": "dinaanta"
+        },
+        "dinamaana": {
+          "jd_end": 2458870.0213,
+          "jd_start": 2458869.5482,
+          "jsonClass": "Interval",
+          "name": "dinamaana"
+        },
+        "gulika": {
+          "jd_end": 2458869.8439,
+          "jd_start": 2458869.7848,
+          "jsonClass": "Interval",
+          "name": "gulika"
+        },
+        "jsonClass": "DayLengthBasedPeriods",
+        "maadhyaahnika_sandhyaa": {
+          "jd_end": 2458869.7375,
+          "jd_start": 2458869.7059,
+          "jsonClass": "Interval",
+          "name": "maadhyaahnika_sandhyaa"
+        },
+        "maadhyaahnika_sandhyaa_end": {
+          "jd_end": 2458869.9898,
+          "jd_start": 2458869.9582,
+          "jsonClass": "Interval",
+          "name": "maadhyaahnika_sandhyaa_end"
+        },
+        "madhyaahna": {
+          "jd_end": 2458869.8321,
+          "jd_start": 2458869.7375,
+          "jsonClass": "Interval",
+          "name": "madhyaahna"
+        },
+        "madhyaraatri": {
+          "jd_end": 2458870.3375,
+          "jd_start": 2458870.2321,
+          "jsonClass": "Interval",
+          "name": "madhyaraatri"
+        },
+        "nishiitha": {
+          "jd_end": 2458870.3023,
+          "jd_start": 2458870.2672,
+          "jsonClass": "Interval",
+          "name": "nishiitha"
+        },
+        "praatah": {
+          "jd_end": 2458869.6428,
+          "jd_start": 2458869.5482,
+          "jsonClass": "Interval",
+          "name": "praatah"
+        },
+        "praatas_sandhyaa": {
+          "jd_end": 2458869.5482,
+          "jd_start": 2458869.5131,
+          "jsonClass": "Interval",
+          "name": "praatas_sandhyaa"
+        },
+        "praatas_sandhyaa_end": {
+          "jd_end": 2458869.7059,
+          "jd_start": 2458869.6744,
+          "jsonClass": "Interval",
+          "name": "praatas_sandhyaa_end"
+        },
+        "pradosha": {
+          "jd_end": 2458870.0565,
+          "jd_start": 2458870.0213,
+          "jsonClass": "Interval",
+          "name": "pradosha"
+        },
+        "preceeding_arunodaya": {
+          "jd_end": 2458869.5482,
+          "jd_start": 2458869.4779,
+          "jsonClass": "Interval",
+          "name": "preceeding_arunodaya"
+        },
+        "puurvaahna": {
+          "jd_end": 2458869.7848,
+          "jd_start": 2458869.5482,
+          "jsonClass": "Interval",
+          "name": "puurvaahna"
+        },
+        "raahu": {
+          "jd_end": 2458869.9622,
+          "jd_start": 2458869.903,
+          "jsonClass": "Interval",
+          "name": "raahu"
+        },
+        "raatri_yaama_1": {
+          "jd_end": 2458870.2848,
+          "jd_start": 2458870.1531,
+          "jsonClass": "Interval",
+          "name": "raatri_yaama_1"
+        },
+        "raatrimaana": {
+          "jd_end": 2458870.5482,
+          "jd_start": 2458870.0213,
+          "jsonClass": "Interval",
+          "name": "raatrimaana"
+        },
+        "saangava": {
+          "jd_end": 2458869.7375,
+          "jd_start": 2458869.6428,
+          "jsonClass": "Interval",
+          "name": "saangava"
+        },
+        "saayaahna": {
+          "jd_end": 2458870.0213,
+          "jd_start": 2458869.9267,
+          "jsonClass": "Interval",
+          "name": "saayaahna"
+        },
+        "saayam_sandhyaa": {
+          "jd_end": 2458870.0213,
+          "jd_start": 2458869.9898,
+          "jsonClass": "Interval",
+          "name": "saayam_sandhyaa"
+        },
+        "shayana": {
+          "jd_end": 2458870.2848,
+          "jd_start": 2458870.2189,
+          "jsonClass": "Interval",
+          "name": "shayana"
+        },
+        "yama": {
+          "jd_end": 2458869.7256,
+          "jd_start": 2458869.6665,
+          "jsonClass": "Interval",
+          "name": "yama"
+        }
+      },
+      "festival_id_to_instance": {},
+      "jd_moonrise": 2458870.4473,
+      "jd_moonset": 2458869.8952,
+      "jd_next_sunrise": 2458870.5482,
+      "jd_previous_sunset": 2458869.021,
+      "jd_sunrise": 2458869.5482,
+      "jd_sunset": 2458870.0213,
+      "jsonClass": "DailyPanchaanga",
+      "julian_day_start": 2458869.2708,
+      "lunar_month_sunrise": {
+        "anga_type_id": "SIDEREAL_MONTH",
+        "index": 10,
+        "jsonClass": "Anga"
+      },
+      "shraaddha_tithi": [],
+      "solar_sidereal_date_sunset": {
+        "day": 7,
+        "jsonClass": "BasicDateWithTransitions",
+        "month": 10
+      },
+      "sunrise_day_angas": {
+        "jsonClass": "DayAngas",
+        "karanas_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "KARANA",
+              "index": 53,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458869.8491,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "KARANA",
+              "index": 54,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458870.344,
+            "jd_start": 2458869.8491,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "KARANA",
+              "index": 55,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458870.344,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "nakshatra_at_sunrise": {
+          "anga_type_id": "NAKSHATRA",
+          "index": 18,
+          "jsonClass": "Anga"
+        },
+        "nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "NAKSHATRA",
+              "index": 18,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458870.2579,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "NAKSHATRA",
+              "index": 19,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458870.2579,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "raashis_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "RASHI",
+              "index": 8,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458870.2579,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "RASHI",
+              "index": 9,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458870.2579,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "tithi_at_sunrise": {
+          "anga_type_id": "TITHI",
+          "index": 27,
+          "jsonClass": "Anga"
+        },
+        "tithis_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "TITHI",
+              "index": 27,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458870.344,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "TITHI",
+              "index": 28,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458870.344,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "yoga_at_sunrise": {
+          "anga_type_id": "YOGA",
+          "index": 12,
+          "jsonClass": "Anga"
+        },
+        "yogas_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "YOGA",
+              "index": 12,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458870.4678,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "YOGA",
+              "index": 13,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458870.4678,
+            "jsonClass": "AngaSpan"
+          }
+        ]
+      },
+      "tropical_date_sunset": {
+        "day": 1,
+        "jsonClass": "BasicDateWithTransitions",
+        "month": 11
+      }
+    },
+    "2020-01-22": {
+      "date": {
+        "day": 22,
+        "jsonClass": "Date",
+        "month": 1,
+        "year": 2020
+      },
+      "day_length_based_periods": {
+        "aparaahna": {
+          "jd_end": 2458871.0217,
+          "jd_start": 2458870.785,
+          "jsonClass": "Interval",
+          "name": "aparaahna"
+        },
+        "aparaahna_muhuurta": {
+          "jd_end": 2458870.927,
+          "jd_start": 2458870.8323,
+          "jsonClass": "Interval",
+          "name": "aparaahna_muhuurta"
+        },
+        "braahma": {
+          "jd_end": 2458870.5131,
+          "jd_start": 2458870.478,
+          "jsonClass": "Interval",
+          "name": "braahma"
+        },
+        "dinaanta": {
+          "jd_end": 2458871.4166,
+          "jd_start": 2458871.3508,
+          "jsonClass": "Interval",
+          "name": "dinaanta"
+        },
+        "dinamaana": {
+          "jd_end": 2458871.0217,
+          "jd_start": 2458870.5482,
+          "jsonClass": "Interval",
+          "name": "dinamaana"
+        },
+        "gulika": {
+          "jd_end": 2458870.785,
+          "jd_start": 2458870.7258,
+          "jsonClass": "Interval",
+          "name": "gulika"
+        },
+        "jsonClass": "DayLengthBasedPeriods",
+        "maadhyaahnika_sandhyaa": {
+          "jd_end": 2458870.7376,
+          "jd_start": 2458870.7061,
+          "jsonClass": "Interval",
+          "name": "maadhyaahnika_sandhyaa"
+        },
+        "maadhyaahnika_sandhyaa_end": {
+          "jd_end": 2458870.9901,
+          "jd_start": 2458870.9586,
+          "jsonClass": "Interval",
+          "name": "maadhyaahnika_sandhyaa_end"
+        },
+        "madhyaahna": {
+          "jd_end": 2458870.8323,
+          "jd_start": 2458870.7376,
+          "jsonClass": "Interval",
+          "name": "madhyaahna"
+        },
+        "madhyaraatri": {
+          "jd_end": 2458871.3376,
+          "jd_start": 2458871.2323,
+          "jsonClass": "Interval",
+          "name": "madhyaraatri"
+        },
+        "nishiitha": {
+          "jd_end": 2458871.3025,
+          "jd_start": 2458871.2674,
+          "jsonClass": "Interval",
+          "name": "nishiitha"
+        },
+        "praatah": {
+          "jd_end": 2458870.6429,
+          "jd_start": 2458870.5482,
+          "jsonClass": "Interval",
+          "name": "praatah"
+        },
+        "praatas_sandhyaa": {
+          "jd_end": 2458870.5482,
+          "jd_start": 2458870.5131,
+          "jsonClass": "Interval",
+          "name": "praatas_sandhyaa"
+        },
+        "praatas_sandhyaa_end": {
+          "jd_end": 2458870.7061,
+          "jd_start": 2458870.6745,
+          "jsonClass": "Interval",
+          "name": "praatas_sandhyaa_end"
+        },
+        "pradosha": {
+          "jd_end": 2458871.0568,
+          "jd_start": 2458871.0217,
+          "jsonClass": "Interval",
+          "name": "pradosha"
+        },
+        "preceeding_arunodaya": {
+          "jd_end": 2458870.5482,
+          "jd_start": 2458870.478,
+          "jsonClass": "Interval",
+          "name": "preceeding_arunodaya"
+        },
+        "puurvaahna": {
+          "jd_end": 2458870.785,
+          "jd_start": 2458870.5482,
+          "jsonClass": "Interval",
+          "name": "puurvaahna"
+        },
+        "raahu": {
+          "jd_end": 2458870.8441,
+          "jd_start": 2458870.785,
+          "jsonClass": "Interval",
+          "name": "raahu"
+        },
+        "raatri_yaama_1": {
+          "jd_end": 2458871.285,
+          "jd_start": 2458871.1533,
+          "jsonClass": "Interval",
+          "name": "raatri_yaama_1"
+        },
+        "raatrimaana": {
+          "jd_end": 2458871.5483,
+          "jd_start": 2458871.0217,
+          "jsonClass": "Interval",
+          "name": "raatrimaana"
+        },
+        "saangava": {
+          "jd_end": 2458870.7376,
+          "jd_start": 2458870.6429,
+          "jsonClass": "Interval",
+          "name": "saangava"
+        },
+        "saayaahna": {
+          "jd_end": 2458871.0217,
+          "jd_start": 2458870.927,
+          "jsonClass": "Interval",
+          "name": "saayaahna"
+        },
+        "saayam_sandhyaa": {
+          "jd_end": 2458871.0217,
+          "jd_start": 2458870.9901,
+          "jsonClass": "Interval",
+          "name": "saayam_sandhyaa"
+        },
+        "shayana": {
+          "jd_end": 2458871.285,
+          "jd_start": 2458871.2192,
+          "jsonClass": "Interval",
+          "name": "shayana"
+        },
+        "yama": {
+          "jd_end": 2458870.6666,
+          "jd_start": 2458870.6074,
+          "jsonClass": "Interval",
+          "name": "yama"
+        }
+      },
+      "festival_id_to_instance": {},
+      "jd_moonrise": 2458871.4849,
+      "jd_moonset": 2458870.933,
+      "jd_next_sunrise": 2458871.5483,
+      "jd_previous_sunset": 2458870.0213,
+      "jd_sunrise": 2458870.5482,
+      "jd_sunset": 2458871.0217,
+      "jsonClass": "DailyPanchaanga",
+      "julian_day_start": 2458870.2708,
+      "lunar_month_sunrise": {
+        "anga_type_id": "SIDEREAL_MONTH",
+        "index": 10,
+        "jsonClass": "Anga"
+      },
+      "shraaddha_tithi": [],
+      "solar_sidereal_date_sunset": {
+        "day": 8,
+        "jsonClass": "BasicDateWithTransitions",
+        "month": 10
+      },
+      "sunrise_day_angas": {
+        "jsonClass": "DayAngas",
+        "karanas_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "KARANA",
+              "index": 55,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458870.8431,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "KARANA",
+              "index": 56,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458871.3466,
+            "jd_start": 2458870.8431,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "KARANA",
+              "index": 57,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458871.3466,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "nakshatra_at_sunrise": {
+          "anga_type_id": "NAKSHATRA",
+          "index": 19,
+          "jsonClass": "Anga"
+        },
+        "nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "NAKSHATRA",
+              "index": 19,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458871.2834,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "NAKSHATRA",
+              "index": 20,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458871.2834,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "raashis_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "RASHI",
+              "index": 9,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "tithi_at_sunrise": {
+          "anga_type_id": "TITHI",
+          "index": 28,
+          "jsonClass": "Anga"
+        },
+        "tithis_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "TITHI",
+              "index": 28,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458871.3466,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "TITHI",
+              "index": 29,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458871.3466,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "yoga_at_sunrise": {
+          "anga_type_id": "YOGA",
+          "index": 13,
+          "jsonClass": "Anga"
+        },
+        "yogas_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "YOGA",
+              "index": 13,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458871.4213,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "YOGA",
+              "index": 14,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458871.4213,
+            "jsonClass": "AngaSpan"
+          }
+        ]
+      },
+      "tropical_date_sunset": {
+        "day": 2,
+        "jsonClass": "BasicDateWithTransitions",
+        "month": 11
+      }
+    },
+    "2020-01-23": {
+      "date": {
+        "day": 23,
+        "jsonClass": "Date",
+        "month": 1,
+        "year": 2020
+      },
+      "day_length_based_periods": {
+        "aparaahna": {
+          "jd_end": 2458872.022,
+          "jd_start": 2458871.7852,
+          "jsonClass": "Interval",
+          "name": "aparaahna"
+        },
+        "aparaahna_muhuurta": {
+          "jd_end": 2458871.9273,
+          "jd_start": 2458871.8325,
+          "jsonClass": "Interval",
+          "name": "aparaahna_muhuurta"
+        },
+        "braahma": {
+          "jd_end": 2458871.5132,
+          "jd_start": 2458871.4781,
+          "jsonClass": "Interval",
+          "name": "braahma"
+        },
+        "dinaanta": {
+          "jd_end": 2458872.4167,
+          "jd_start": 2458872.3509,
+          "jsonClass": "Interval",
+          "name": "dinaanta"
+        },
+        "dinamaana": {
+          "jd_end": 2458872.022,
+          "jd_start": 2458871.5483,
+          "jsonClass": "Interval",
+          "name": "dinamaana"
+        },
+        "gulika": {
+          "jd_end": 2458871.7259,
+          "jd_start": 2458871.6667,
+          "jsonClass": "Interval",
+          "name": "gulika"
+        },
+        "jsonClass": "DayLengthBasedPeriods",
+        "maadhyaahnika_sandhyaa": {
+          "jd_end": 2458871.7378,
+          "jd_start": 2458871.7062,
+          "jsonClass": "Interval",
+          "name": "maadhyaahnika_sandhyaa"
+        },
+        "maadhyaahnika_sandhyaa_end": {
+          "jd_end": 2458871.9905,
+          "jd_start": 2458871.9589,
+          "jsonClass": "Interval",
+          "name": "maadhyaahnika_sandhyaa_end"
+        },
+        "madhyaahna": {
+          "jd_end": 2458871.8325,
+          "jd_start": 2458871.7378,
+          "jsonClass": "Interval",
+          "name": "madhyaahna"
+        },
+        "madhyaraatri": {
+          "jd_end": 2458872.3378,
+          "jd_start": 2458872.2325,
+          "jsonClass": "Interval",
+          "name": "madhyaraatri"
+        },
+        "nishiitha": {
+          "jd_end": 2458872.3027,
+          "jd_start": 2458872.2676,
+          "jsonClass": "Interval",
+          "name": "nishiitha"
+        },
+        "praatah": {
+          "jd_end": 2458871.643,
+          "jd_start": 2458871.5483,
+          "jsonClass": "Interval",
+          "name": "praatah"
+        },
+        "praatas_sandhyaa": {
+          "jd_end": 2458871.5483,
+          "jd_start": 2458871.5132,
+          "jsonClass": "Interval",
+          "name": "praatas_sandhyaa"
+        },
+        "praatas_sandhyaa_end": {
+          "jd_end": 2458871.7062,
+          "jd_start": 2458871.6746,
+          "jsonClass": "Interval",
+          "name": "praatas_sandhyaa_end"
+        },
+        "pradosha": {
+          "jd_end": 2458872.0571,
+          "jd_start": 2458872.022,
+          "jsonClass": "Interval",
+          "name": "pradosha"
+        },
+        "preceeding_arunodaya": {
+          "jd_end": 2458871.5483,
+          "jd_start": 2458871.4781,
+          "jsonClass": "Interval",
+          "name": "preceeding_arunodaya"
+        },
+        "puurvaahna": {
+          "jd_end": 2458871.7852,
+          "jd_start": 2458871.5483,
+          "jsonClass": "Interval",
+          "name": "puurvaahna"
+        },
+        "raahu": {
+          "jd_end": 2458871.9036,
+          "jd_start": 2458871.8444,
+          "jsonClass": "Interval",
+          "name": "raahu"
+        },
+        "raatri_yaama_1": {
+          "jd_end": 2458872.2852,
+          "jd_start": 2458872.1536,
+          "jsonClass": "Interval",
+          "name": "raatri_yaama_1"
+        },
+        "raatrimaana": {
+          "jd_end": 2458872.5483,
+          "jd_start": 2458872.022,
+          "jsonClass": "Interval",
+          "name": "raatrimaana"
+        },
+        "saangava": {
+          "jd_end": 2458871.7378,
+          "jd_start": 2458871.643,
+          "jsonClass": "Interval",
+          "name": "saangava"
+        },
+        "saayaahna": {
+          "jd_end": 2458872.022,
+          "jd_start": 2458871.9273,
+          "jsonClass": "Interval",
+          "name": "saayaahna"
+        },
+        "saayam_sandhyaa": {
+          "jd_end": 2458872.022,
+          "jd_start": 2458871.9905,
+          "jsonClass": "Interval",
+          "name": "saayam_sandhyaa"
+        },
+        "shayana": {
+          "jd_end": 2458872.2852,
+          "jd_start": 2458872.2194,
+          "jsonClass": "Interval",
+          "name": "shayana"
+        },
+        "yama": {
+          "jd_end": 2458871.6075,
+          "jd_start": 2458871.5483,
+          "jsonClass": "Interval",
+          "name": "yama"
+        }
+      },
+      "festival_id_to_instance": {},
+      "jd_moonrise": 2458872.5201,
+      "jd_moonset": 2458871.9711,
+      "jd_next_sunrise": 2458872.5483,
+      "jd_previous_sunset": 2458871.0217,
+      "jd_sunrise": 2458871.5483,
+      "jd_sunset": 2458872.022,
+      "jsonClass": "DailyPanchaanga",
+      "julian_day_start": 2458871.2708,
+      "lunar_month_sunrise": {
+        "anga_type_id": "SIDEREAL_MONTH",
+        "index": 10,
+        "jsonClass": "Anga"
+      },
+      "shraaddha_tithi": [],
+      "solar_sidereal_date_sunset": {
+        "day": 9,
+        "jsonClass": "BasicDateWithTransitions",
+        "month": 10
+      },
+      "sunrise_day_angas": {
+        "jsonClass": "DayAngas",
+        "karanas_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "KARANA",
+              "index": 57,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458871.8544,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "KARANA",
+              "index": 58,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458872.3666,
+            "jd_start": 2458871.8544,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "KARANA",
+              "index": 59,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458872.3666,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "nakshatra_at_sunrise": {
+          "anga_type_id": "NAKSHATRA",
+          "index": 20,
+          "jsonClass": "Anga"
+        },
+        "nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "NAKSHATRA",
+              "index": 20,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458872.3256,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "NAKSHATRA",
+              "index": 21,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458872.3256,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "raashis_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "RASHI",
+              "index": 9,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "tithi_at_sunrise": {
+          "anga_type_id": "TITHI",
+          "index": 29,
+          "jsonClass": "Anga"
+        },
+        "tithis_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "TITHI",
+              "index": 29,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458872.3666,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "TITHI",
+              "index": 30,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458872.3666,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "yoga_at_sunrise": {
+          "anga_type_id": "YOGA",
+          "index": 14,
+          "jsonClass": "Anga"
+        },
+        "yogas_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "YOGA",
+              "index": 14,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458872.3881,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "YOGA",
+              "index": 15,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458872.3881,
+            "jsonClass": "AngaSpan"
+          }
+        ]
+      },
+      "tropical_date_sunset": {
+        "day": 3,
+        "jsonClass": "BasicDateWithTransitions",
+        "month": 11
+      }
+    },
+    "2020-01-24": {
+      "date": {
+        "day": 24,
+        "jsonClass": "Date",
+        "month": 1,
+        "year": 2020
+      },
+      "day_length_based_periods": {
+        "aparaahna": {
+          "jd_end": 2458873.0224,
+          "jd_start": 2458872.7853,
+          "jsonClass": "Interval",
+          "name": "aparaahna"
+        },
+        "aparaahna_muhuurta": {
+          "jd_end": 2458872.9276,
+          "jd_start": 2458872.8327,
+          "jsonClass": "Interval",
+          "name": "aparaahna_muhuurta"
+        },
+        "braahma": {
+          "jd_end": 2458872.5132,
+          "jd_start": 2458872.4781,
+          "jsonClass": "Interval",
+          "name": "braahma"
+        },
+        "dinaanta": {
+          "jd_end": 2458873.4168,
+          "jd_start": 2458873.3511,
+          "jsonClass": "Interval",
+          "name": "dinaanta"
+        },
+        "dinamaana": {
+          "jd_end": 2458873.0224,
+          "jd_start": 2458872.5483,
+          "jsonClass": "Interval",
+          "name": "dinamaana"
+        },
+        "gulika": {
+          "jd_end": 2458872.6668,
+          "jd_start": 2458872.6075,
+          "jsonClass": "Interval",
+          "name": "gulika"
+        },
+        "jsonClass": "DayLengthBasedPeriods",
+        "maadhyaahnika_sandhyaa": {
+          "jd_end": 2458872.7379,
+          "jd_start": 2458872.7063,
+          "jsonClass": "Interval",
+          "name": "maadhyaahnika_sandhyaa"
+        },
+        "maadhyaahnika_sandhyaa_end": {
+          "jd_end": 2458872.9908,
+          "jd_start": 2458872.9592,
+          "jsonClass": "Interval",
+          "name": "maadhyaahnika_sandhyaa_end"
+        },
+        "madhyaahna": {
+          "jd_end": 2458872.8327,
+          "jd_start": 2458872.7379,
+          "jsonClass": "Interval",
+          "name": "madhyaahna"
+        },
+        "madhyaraatri": {
+          "jd_end": 2458873.3379,
+          "jd_start": 2458873.2327,
+          "jsonClass": "Interval",
+          "name": "madhyaraatri"
+        },
+        "nishiitha": {
+          "jd_end": 2458873.3029,
+          "jd_start": 2458873.2678,
+          "jsonClass": "Interval",
+          "name": "nishiitha"
+        },
+        "praatah": {
+          "jd_end": 2458872.6431,
+          "jd_start": 2458872.5483,
+          "jsonClass": "Interval",
+          "name": "praatah"
+        },
+        "praatas_sandhyaa": {
+          "jd_end": 2458872.5483,
+          "jd_start": 2458872.5132,
+          "jsonClass": "Interval",
+          "name": "praatas_sandhyaa"
+        },
+        "praatas_sandhyaa_end": {
+          "jd_end": 2458872.7063,
+          "jd_start": 2458872.6747,
+          "jsonClass": "Interval",
+          "name": "praatas_sandhyaa_end"
+        },
+        "pradosha": {
+          "jd_end": 2458873.0574,
+          "jd_start": 2458873.0224,
+          "jsonClass": "Interval",
+          "name": "pradosha"
+        },
+        "preceeding_arunodaya": {
+          "jd_end": 2458872.5483,
+          "jd_start": 2458872.4781,
+          "jsonClass": "Interval",
+          "name": "preceeding_arunodaya"
+        },
+        "puurvaahna": {
+          "jd_end": 2458872.7853,
+          "jd_start": 2458872.5483,
+          "jsonClass": "Interval",
+          "name": "puurvaahna"
+        },
+        "raahu": {
+          "jd_end": 2458872.7853,
+          "jd_start": 2458872.7261,
+          "jsonClass": "Interval",
+          "name": "raahu"
+        },
+        "raatri_yaama_1": {
+          "jd_end": 2458873.2853,
+          "jd_start": 2458873.1539,
+          "jsonClass": "Interval",
+          "name": "raatri_yaama_1"
+        },
+        "raatrimaana": {
+          "jd_end": 2458873.5483,
+          "jd_start": 2458873.0224,
+          "jsonClass": "Interval",
+          "name": "raatrimaana"
+        },
+        "saangava": {
+          "jd_end": 2458872.7379,
+          "jd_start": 2458872.6431,
+          "jsonClass": "Interval",
+          "name": "saangava"
+        },
+        "saayaahna": {
+          "jd_end": 2458873.0224,
+          "jd_start": 2458872.9276,
+          "jsonClass": "Interval",
+          "name": "saayaahna"
+        },
+        "saayam_sandhyaa": {
+          "jd_end": 2458873.0224,
+          "jd_start": 2458872.9908,
+          "jsonClass": "Interval",
+          "name": "saayam_sandhyaa"
+        },
+        "shayana": {
+          "jd_end": 2458873.2853,
+          "jd_start": 2458873.2196,
+          "jsonClass": "Interval",
+          "name": "shayana"
+        },
+        "yama": {
+          "jd_end": 2458872.9631,
+          "jd_start": 2458872.9039,
+          "jsonClass": "Interval",
+          "name": "yama"
+        }
+      },
+      "festival_id_to_instance": {},
+      "jd_moonrise": 2458873.5528,
+      "jd_moonset": 2458873.0085,
+      "jd_next_sunrise": 2458873.5483,
+      "jd_previous_sunset": 2458872.022,
+      "jd_sunrise": 2458872.5483,
+      "jd_sunset": 2458873.0224,
+      "jsonClass": "DailyPanchaanga",
+      "julian_day_start": 2458872.2708,
+      "lunar_month_sunrise": {
+        "anga_type_id": "SIDEREAL_MONTH",
+        "index": 10,
+        "jsonClass": "Anga"
+      },
+      "shraaddha_tithi": [],
+      "solar_sidereal_date_sunset": {
+        "day": 10,
+        "jsonClass": "BasicDateWithTransitions",
+        "month": 10
+      },
+      "sunrise_day_angas": {
+        "jsonClass": "DayAngas",
+        "karanas_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "KARANA",
+              "index": 59,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458872.8831,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "KARANA",
+              "index": 60,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458873.4041,
+            "jd_start": 2458872.8831,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "KARANA",
+              "index": 1,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458873.4041,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "nakshatra_at_sunrise": {
+          "anga_type_id": "NAKSHATRA",
+          "index": 21,
+          "jsonClass": "Anga"
+        },
+        "nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "NAKSHATRA",
+              "index": 21,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458873.3848,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "NAKSHATRA",
+              "index": 22,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458873.3848,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "raashis_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "RASHI",
+              "index": 9,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458872.5888,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "RASHI",
+              "index": 10,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458872.5888,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "tithi_at_sunrise": {
+          "anga_type_id": "TITHI",
+          "index": 30,
+          "jsonClass": "Anga"
+        },
+        "tithis_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "TITHI",
+              "index": 30,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458873.4041,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "TITHI",
+              "index": 1,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458873.4041,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "yoga_at_sunrise": {
+          "anga_type_id": "YOGA",
+          "index": 15,
+          "jsonClass": "Anga"
+        },
+        "yogas_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "YOGA",
+              "index": 15,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458873.3684,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "YOGA",
+              "index": 16,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458873.3684,
+            "jsonClass": "AngaSpan"
+          }
+        ]
+      },
+      "tropical_date_sunset": {
+        "day": 4,
+        "jsonClass": "BasicDateWithTransitions",
+        "month": 11
+      }
+    },
+    "2020-01-25": {
+      "date": {
+        "day": 25,
+        "jsonClass": "Date",
+        "month": 1,
+        "year": 2020
+      },
+      "day_length_based_periods": {
+        "aparaahna": {
+          "jd_end": 2458874.0227,
+          "jd_start": 2458873.7855,
+          "jsonClass": "Interval",
+          "name": "aparaahna"
+        },
+        "aparaahna_muhuurta": {
+          "jd_end": 2458873.9278,
+          "jd_start": 2458873.8329,
+          "jsonClass": "Interval",
+          "name": "aparaahna_muhuurta"
+        },
+        "braahma": {
+          "jd_end": 2458873.5132,
+          "jd_start": 2458873.4782,
+          "jsonClass": "Interval",
+          "name": "braahma"
+        },
+        "dinaanta": {
+          "jd_end": 2458874.4169,
+          "jd_start": 2458874.3512,
+          "jsonClass": "Interval",
+          "name": "dinaanta"
+        },
+        "dinamaana": {
+          "jd_end": 2458874.0227,
+          "jd_start": 2458873.5483,
+          "jsonClass": "Interval",
+          "name": "dinamaana"
+        },
+        "gulika": {
+          "jd_end": 2458873.6076,
+          "jd_start": 2458873.5483,
+          "jsonClass": "Interval",
+          "name": "gulika"
+        },
+        "jsonClass": "DayLengthBasedPeriods",
+        "maadhyaahnika_sandhyaa": {
+          "jd_end": 2458873.7381,
+          "jd_start": 2458873.7064,
+          "jsonClass": "Interval",
+          "name": "maadhyaahnika_sandhyaa"
+        },
+        "maadhyaahnika_sandhyaa_end": {
+          "jd_end": 2458873.9911,
+          "jd_start": 2458873.9595,
+          "jsonClass": "Interval",
+          "name": "maadhyaahnika_sandhyaa_end"
+        },
+        "madhyaahna": {
+          "jd_end": 2458873.8329,
+          "jd_start": 2458873.7381,
+          "jsonClass": "Interval",
+          "name": "madhyaahna"
+        },
+        "madhyaraatri": {
+          "jd_end": 2458874.338,
+          "jd_start": 2458874.2329,
+          "jsonClass": "Interval",
+          "name": "madhyaraatri"
+        },
+        "nishiitha": {
+          "jd_end": 2458874.303,
+          "jd_start": 2458874.268,
+          "jsonClass": "Interval",
+          "name": "nishiitha"
+        },
+        "praatah": {
+          "jd_end": 2458873.6432,
+          "jd_start": 2458873.5483,
+          "jsonClass": "Interval",
+          "name": "praatah"
+        },
+        "praatas_sandhyaa": {
+          "jd_end": 2458873.5483,
+          "jd_start": 2458873.5132,
+          "jsonClass": "Interval",
+          "name": "praatas_sandhyaa"
+        },
+        "praatas_sandhyaa_end": {
+          "jd_end": 2458873.7064,
+          "jd_start": 2458873.6748,
+          "jsonClass": "Interval",
+          "name": "praatas_sandhyaa_end"
+        },
+        "pradosha": {
+          "jd_end": 2458874.0578,
+          "jd_start": 2458874.0227,
+          "jsonClass": "Interval",
+          "name": "pradosha"
+        },
+        "preceeding_arunodaya": {
+          "jd_end": 2458873.5483,
+          "jd_start": 2458873.4782,
+          "jsonClass": "Interval",
+          "name": "preceeding_arunodaya"
+        },
+        "puurvaahna": {
+          "jd_end": 2458873.7855,
+          "jd_start": 2458873.5483,
+          "jsonClass": "Interval",
+          "name": "puurvaahna"
+        },
+        "raahu": {
+          "jd_end": 2458873.7262,
+          "jd_start": 2458873.6669,
+          "jsonClass": "Interval",
+          "name": "raahu"
+        },
+        "raatri_yaama_1": {
+          "jd_end": 2458874.2855,
+          "jd_start": 2458874.1541,
+          "jsonClass": "Interval",
+          "name": "raatri_yaama_1"
+        },
+        "raatrimaana": {
+          "jd_end": 2458874.5483,
+          "jd_start": 2458874.0227,
+          "jsonClass": "Interval",
+          "name": "raatrimaana"
+        },
+        "saangava": {
+          "jd_end": 2458873.7381,
+          "jd_start": 2458873.6432,
+          "jsonClass": "Interval",
+          "name": "saangava"
+        },
+        "saayaahna": {
+          "jd_end": 2458874.0227,
+          "jd_start": 2458873.9278,
+          "jsonClass": "Interval",
+          "name": "saayaahna"
+        },
+        "saayam_sandhyaa": {
+          "jd_end": 2458874.0227,
+          "jd_start": 2458873.9911,
+          "jsonClass": "Interval",
+          "name": "saayam_sandhyaa"
+        },
+        "shayana": {
+          "jd_end": 2458874.2855,
+          "jd_start": 2458874.2198,
+          "jsonClass": "Interval",
+          "name": "shayana"
+        },
+        "yama": {
+          "jd_end": 2458873.9041,
+          "jd_start": 2458873.8448,
+          "jsonClass": "Interval",
+          "name": "yama"
+        }
+      },
+      "festival_id_to_instance": {},
+      "jd_moonrise": 2458873.5528,
+      "jd_moonset": 2458874.0447,
+      "jd_next_sunrise": 2458874.5483,
+      "jd_previous_sunset": 2458873.0224,
+      "jd_sunrise": 2458873.5483,
+      "jd_sunset": 2458874.0227,
+      "jsonClass": "DailyPanchaanga",
+      "julian_day_start": 2458873.2708,
+      "lunar_month_sunrise": {
+        "anga_type_id": "SIDEREAL_MONTH",
+        "index": 11,
+        "jsonClass": "Anga"
+      },
+      "shraaddha_tithi": [],
+      "solar_sidereal_date_sunset": {
+        "day": 11,
+        "jsonClass": "BasicDateWithTransitions",
+        "month": 10
+      },
+      "sunrise_day_angas": {
+        "jsonClass": "DayAngas",
+        "karanas_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "KARANA",
+              "index": 1,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458873.9296,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "KARANA",
+              "index": 2,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458874.4594,
+            "jd_start": 2458873.9296,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "KARANA",
+              "index": 3,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458874.4594,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "nakshatra_at_sunrise": {
+          "anga_type_id": "NAKSHATRA",
+          "index": 22,
+          "jsonClass": "Anga"
+        },
+        "nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "NAKSHATRA",
+              "index": 22,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458874.4609,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "NAKSHATRA",
+              "index": 23,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458874.4609,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "raashis_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "RASHI",
+              "index": 10,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "tithi_at_sunrise": {
+          "anga_type_id": "TITHI",
+          "index": 1,
+          "jsonClass": "Anga"
+        },
+        "tithis_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "TITHI",
+              "index": 1,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458874.4594,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "TITHI",
+              "index": 2,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458874.4594,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "yoga_at_sunrise": {
+          "anga_type_id": "YOGA",
+          "index": 16,
+          "jsonClass": "Anga"
+        },
+        "yogas_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "YOGA",
+              "index": 16,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458874.3621,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "YOGA",
+              "index": 17,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458874.3621,
+            "jsonClass": "AngaSpan"
+          }
+        ]
+      },
+      "tropical_date_sunset": {
+        "day": 5,
+        "jsonClass": "BasicDateWithTransitions",
+        "month": 11
+      }
+    },
+    "2020-01-26": {
+      "date": {
+        "day": 26,
+        "jsonClass": "Date",
+        "month": 1,
+        "year": 2020
+      },
+      "day_length_based_periods": {
+        "aparaahna": {
+          "jd_end": 2458875.0231,
+          "jd_start": 2458874.7857,
+          "jsonClass": "Interval",
+          "name": "aparaahna"
+        },
+        "aparaahna_muhuurta": {
+          "jd_end": 2458874.9281,
+          "jd_start": 2458874.8331,
+          "jsonClass": "Interval",
+          "name": "aparaahna_muhuurta"
+        },
+        "braahma": {
+          "jd_end": 2458874.5132,
+          "jd_start": 2458874.4782,
+          "jsonClass": "Interval",
+          "name": "braahma"
+        },
+        "dinaanta": {
+          "jd_end": 2458875.4169,
+          "jd_start": 2458875.3513,
+          "jsonClass": "Interval",
+          "name": "dinaanta"
+        },
+        "dinamaana": {
+          "jd_end": 2458875.0231,
+          "jd_start": 2458874.5483,
+          "jsonClass": "Interval",
+          "name": "dinamaana"
+        },
+        "gulika": {
+          "jd_end": 2458874.9637,
+          "jd_start": 2458874.9044,
+          "jsonClass": "Interval",
+          "name": "gulika"
+        },
+        "jsonClass": "DayLengthBasedPeriods",
+        "maadhyaahnika_sandhyaa": {
+          "jd_end": 2458874.7382,
+          "jd_start": 2458874.7065,
+          "jsonClass": "Interval",
+          "name": "maadhyaahnika_sandhyaa"
+        },
+        "maadhyaahnika_sandhyaa_end": {
+          "jd_end": 2458874.9914,
+          "jd_start": 2458874.9598,
+          "jsonClass": "Interval",
+          "name": "maadhyaahnika_sandhyaa_end"
+        },
+        "madhyaahna": {
+          "jd_end": 2458874.8331,
+          "jd_start": 2458874.7382,
+          "jsonClass": "Interval",
+          "name": "madhyaahna"
+        },
+        "madhyaraatri": {
+          "jd_end": 2458875.3382,
+          "jd_start": 2458875.2331,
+          "jsonClass": "Interval",
+          "name": "madhyaraatri"
+        },
+        "nishiitha": {
+          "jd_end": 2458875.3032,
+          "jd_start": 2458875.2681,
+          "jsonClass": "Interval",
+          "name": "nishiitha"
+        },
+        "praatah": {
+          "jd_end": 2458874.6432,
+          "jd_start": 2458874.5483,
+          "jsonClass": "Interval",
+          "name": "praatah"
+        },
+        "praatas_sandhyaa": {
+          "jd_end": 2458874.5483,
+          "jd_start": 2458874.5132,
+          "jsonClass": "Interval",
+          "name": "praatas_sandhyaa"
+        },
+        "praatas_sandhyaa_end": {
+          "jd_end": 2458874.7065,
+          "jd_start": 2458874.6749,
+          "jsonClass": "Interval",
+          "name": "praatas_sandhyaa_end"
+        },
+        "pradosha": {
+          "jd_end": 2458875.0581,
+          "jd_start": 2458875.0231,
+          "jsonClass": "Interval",
+          "name": "pradosha"
+        },
+        "preceeding_arunodaya": {
+          "jd_end": 2458874.5483,
+          "jd_start": 2458874.4782,
+          "jsonClass": "Interval",
+          "name": "preceeding_arunodaya"
+        },
+        "puurvaahna": {
+          "jd_end": 2458874.7857,
+          "jd_start": 2458874.5483,
+          "jsonClass": "Interval",
+          "name": "puurvaahna"
+        },
+        "raahu": {
+          "jd_end": 2458875.0231,
+          "jd_start": 2458874.9637,
+          "jsonClass": "Interval",
+          "name": "raahu"
+        },
+        "raatri_yaama_1": {
+          "jd_end": 2458875.2856,
+          "jd_start": 2458875.1544,
+          "jsonClass": "Interval",
+          "name": "raatri_yaama_1"
+        },
+        "raatrimaana": {
+          "jd_end": 2458875.5482,
+          "jd_start": 2458875.0231,
+          "jsonClass": "Interval",
+          "name": "raatrimaana"
+        },
+        "saangava": {
+          "jd_end": 2458874.7382,
+          "jd_start": 2458874.6432,
+          "jsonClass": "Interval",
+          "name": "saangava"
+        },
+        "saayaahna": {
+          "jd_end": 2458875.0231,
+          "jd_start": 2458874.9281,
+          "jsonClass": "Interval",
+          "name": "saayaahna"
+        },
+        "saayam_sandhyaa": {
+          "jd_end": 2458875.0231,
+          "jd_start": 2458874.9914,
+          "jsonClass": "Interval",
+          "name": "saayam_sandhyaa"
+        },
+        "shayana": {
+          "jd_end": 2458875.2856,
+          "jd_start": 2458875.22,
+          "jsonClass": "Interval",
+          "name": "shayana"
+        },
+        "yama": {
+          "jd_end": 2458874.845,
+          "jd_start": 2458874.7857,
+          "jsonClass": "Interval",
+          "name": "yama"
+        }
+      },
+      "festival_id_to_instance": {},
+      "jd_moonrise": 2458874.583,
+      "jd_moonset": 2458875.0794,
+      "jd_next_sunrise": 2458875.5482,
+      "jd_previous_sunset": 2458874.0227,
+      "jd_sunrise": 2458874.5483,
+      "jd_sunset": 2458875.0231,
+      "jsonClass": "DailyPanchaanga",
+      "julian_day_start": 2458874.2708,
+      "lunar_month_sunrise": {
+        "anga_type_id": "SIDEREAL_MONTH",
+        "index": 11,
+        "jsonClass": "Anga"
+      },
+      "shraaddha_tithi": [],
+      "solar_sidereal_date_sunset": {
+        "day": 12,
+        "jsonClass": "BasicDateWithTransitions",
+        "month": 10
+      },
+      "sunrise_day_angas": {
+        "jsonClass": "DayAngas",
+        "karanas_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "KARANA",
+              "index": 3,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458874.9936,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "KARANA",
+              "index": 4,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458875.5318,
+            "jd_start": 2458874.9936,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "KARANA",
+              "index": 5,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458875.5318,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "nakshatra_at_sunrise": {
+          "anga_type_id": "NAKSHATRA",
+          "index": 23,
+          "jsonClass": "Anga"
+        },
+        "nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "NAKSHATRA",
+              "index": 23,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "raashis_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "RASHI",
+              "index": 10,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458875.0052,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "RASHI",
+              "index": 11,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458875.0052,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "tithi_at_sunrise": {
+          "anga_type_id": "TITHI",
+          "index": 2,
+          "jsonClass": "Anga"
+        },
+        "tithis_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "TITHI",
+              "index": 2,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458875.5318,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "TITHI",
+              "index": 3,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458875.5318,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "yoga_at_sunrise": {
+          "anga_type_id": "YOGA",
+          "index": 17,
+          "jsonClass": "Anga"
+        },
+        "yogas_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "YOGA",
+              "index": 17,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458875.3688,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "YOGA",
+              "index": 18,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458875.3688,
+            "jsonClass": "AngaSpan"
+          }
+        ]
+      },
+      "tropical_date_sunset": {
+        "day": 6,
+        "jsonClass": "BasicDateWithTransitions",
+        "month": 11
+      }
+    },
+    "2020-01-27": {
+      "date": {
+        "day": 27,
+        "jsonClass": "Date",
+        "month": 1,
+        "year": 2020
+      },
+      "day_length_based_periods": {
+        "aparaahna": {
+          "jd_end": 2458876.0234,
+          "jd_start": 2458875.7858,
+          "jsonClass": "Interval",
+          "name": "aparaahna"
+        },
+        "aparaahna_muhuurta": {
+          "jd_end": 2458875.9284,
+          "jd_start": 2458875.8333,
+          "jsonClass": "Interval",
+          "name": "aparaahna_muhuurta"
+        },
+        "braahma": {
+          "jd_end": 2458875.5132,
+          "jd_start": 2458875.4782,
+          "jsonClass": "Interval",
+          "name": "braahma"
+        },
+        "dinaanta": {
+          "jd_end": 2458876.417,
+          "jd_start": 2458876.3514,
+          "jsonClass": "Interval",
+          "name": "dinaanta"
+        },
+        "dinamaana": {
+          "jd_end": 2458876.0234,
+          "jd_start": 2458875.5482,
+          "jsonClass": "Interval",
+          "name": "dinamaana"
+        },
+        "gulika": {
+          "jd_end": 2458875.9046,
+          "jd_start": 2458875.8452,
+          "jsonClass": "Interval",
+          "name": "gulika"
+        },
+        "jsonClass": "DayLengthBasedPeriods",
+        "maadhyaahnika_sandhyaa": {
+          "jd_end": 2458875.7383,
+          "jd_start": 2458875.7066,
+          "jsonClass": "Interval",
+          "name": "maadhyaahnika_sandhyaa"
+        },
+        "maadhyaahnika_sandhyaa_end": {
+          "jd_end": 2458875.9917,
+          "jd_start": 2458875.96,
+          "jsonClass": "Interval",
+          "name": "maadhyaahnika_sandhyaa_end"
+        },
+        "madhyaahna": {
+          "jd_end": 2458875.8333,
+          "jd_start": 2458875.7383,
+          "jsonClass": "Interval",
+          "name": "madhyaahna"
+        },
+        "madhyaraatri": {
+          "jd_end": 2458876.3383,
+          "jd_start": 2458876.2333,
+          "jsonClass": "Interval",
+          "name": "madhyaraatri"
+        },
+        "nishiitha": {
+          "jd_end": 2458876.3033,
+          "jd_start": 2458876.2683,
+          "jsonClass": "Interval",
+          "name": "nishiitha"
+        },
+        "praatah": {
+          "jd_end": 2458875.6433,
+          "jd_start": 2458875.5482,
+          "jsonClass": "Interval",
+          "name": "praatah"
+        },
+        "praatas_sandhyaa": {
+          "jd_end": 2458875.5482,
+          "jd_start": 2458875.5132,
+          "jsonClass": "Interval",
+          "name": "praatas_sandhyaa"
+        },
+        "praatas_sandhyaa_end": {
+          "jd_end": 2458875.7066,
+          "jd_start": 2458875.6749,
+          "jsonClass": "Interval",
+          "name": "praatas_sandhyaa_end"
+        },
+        "pradosha": {
+          "jd_end": 2458876.0584,
+          "jd_start": 2458876.0234,
+          "jsonClass": "Interval",
+          "name": "pradosha"
+        },
+        "preceeding_arunodaya": {
+          "jd_end": 2458875.5482,
+          "jd_start": 2458875.4782,
+          "jsonClass": "Interval",
+          "name": "preceeding_arunodaya"
+        },
+        "puurvaahna": {
+          "jd_end": 2458875.7858,
+          "jd_start": 2458875.5482,
+          "jsonClass": "Interval",
+          "name": "puurvaahna"
+        },
+        "raahu": {
+          "jd_end": 2458875.667,
+          "jd_start": 2458875.6076,
+          "jsonClass": "Interval",
+          "name": "raahu"
+        },
+        "raatri_yaama_1": {
+          "jd_end": 2458876.2858,
+          "jd_start": 2458876.1546,
+          "jsonClass": "Interval",
+          "name": "raatri_yaama_1"
+        },
+        "raatrimaana": {
+          "jd_end": 2458876.5482,
+          "jd_start": 2458876.0234,
+          "jsonClass": "Interval",
+          "name": "raatrimaana"
+        },
+        "saangava": {
+          "jd_end": 2458875.7383,
+          "jd_start": 2458875.6433,
+          "jsonClass": "Interval",
+          "name": "saangava"
+        },
+        "saayaahna": {
+          "jd_end": 2458876.0234,
+          "jd_start": 2458875.9284,
+          "jsonClass": "Interval",
+          "name": "saayaahna"
+        },
+        "saayam_sandhyaa": {
+          "jd_end": 2458876.0234,
+          "jd_start": 2458875.9917,
+          "jsonClass": "Interval",
+          "name": "saayam_sandhyaa"
+        },
+        "shayana": {
+          "jd_end": 2458876.2858,
+          "jd_start": 2458876.2202,
+          "jsonClass": "Interval",
+          "name": "shayana"
+        },
+        "yama": {
+          "jd_end": 2458875.7858,
+          "jd_start": 2458875.7264,
+          "jsonClass": "Interval",
+          "name": "yama"
+        }
+      },
+      "festival_id_to_instance": {},
+      "jd_moonrise": 2458875.611,
+      "jd_moonset": 2458876.1127,
+      "jd_next_sunrise": 2458876.5482,
+      "jd_previous_sunset": 2458875.0231,
+      "jd_sunrise": 2458875.5482,
+      "jd_sunset": 2458876.0234,
+      "jsonClass": "DailyPanchaanga",
+      "julian_day_start": 2458875.2708,
+      "lunar_month_sunrise": {
+        "anga_type_id": "SIDEREAL_MONTH",
+        "index": 11,
+        "jsonClass": "Anga"
+      },
+      "shraaddha_tithi": [],
+      "solar_sidereal_date_sunset": {
+        "day": 13,
+        "jsonClass": "BasicDateWithTransitions",
+        "month": 10
+      },
+      "sunrise_day_angas": {
+        "jsonClass": "DayAngas",
+        "karanas_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "KARANA",
+              "index": 5,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458876.074,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "KARANA",
+              "index": 6,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458876.074,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "nakshatra_at_sunrise": {
+          "anga_type_id": "NAKSHATRA",
+          "index": 23,
+          "jsonClass": "Anga"
+        },
+        "nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "NAKSHATRA",
+              "index": 23,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458875.5534,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "NAKSHATRA",
+              "index": 24,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458875.5534,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "raashis_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "RASHI",
+              "index": 11,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "tithi_at_sunrise": {
+          "anga_type_id": "TITHI",
+          "index": 3,
+          "jsonClass": "Anga"
+        },
+        "tithis_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "TITHI",
+              "index": 3,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "yoga_at_sunrise": {
+          "anga_type_id": "YOGA",
+          "index": 18,
+          "jsonClass": "Anga"
+        },
+        "yogas_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "YOGA",
+              "index": 18,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458876.3873,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "YOGA",
+              "index": 19,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458876.3873,
+            "jsonClass": "AngaSpan"
+          }
+        ]
+      },
+      "tropical_date_sunset": {
+        "day": 7,
+        "jsonClass": "BasicDateWithTransitions",
+        "month": 11
+      }
+    },
+    "2020-01-28": {
+      "date": {
+        "day": 28,
+        "jsonClass": "Date",
+        "month": 1,
+        "year": 2020
+      },
+      "day_length_based_periods": {
+        "aparaahna": {
+          "jd_end": 2458877.0237,
+          "jd_start": 2458876.786,
+          "jsonClass": "Interval",
+          "name": "aparaahna"
+        },
+        "aparaahna_muhuurta": {
+          "jd_end": 2458876.9286,
+          "jd_start": 2458876.8335,
+          "jsonClass": "Interval",
+          "name": "aparaahna_muhuurta"
+        },
+        "braahma": {
+          "jd_end": 2458876.5132,
+          "jd_start": 2458876.4782,
+          "jsonClass": "Interval",
+          "name": "braahma"
+        },
+        "dinaanta": {
+          "jd_end": 2458877.417,
+          "jd_start": 2458877.3515,
+          "jsonClass": "Interval",
+          "name": "dinaanta"
+        },
+        "dinamaana": {
+          "jd_end": 2458877.0237,
+          "jd_start": 2458876.5482,
+          "jsonClass": "Interval",
+          "name": "dinamaana"
+        },
+        "gulika": {
+          "jd_end": 2458876.8454,
+          "jd_start": 2458876.786,
+          "jsonClass": "Interval",
+          "name": "gulika"
+        },
+        "jsonClass": "DayLengthBasedPeriods",
+        "maadhyaahnika_sandhyaa": {
+          "jd_end": 2458876.7384,
+          "jd_start": 2458876.7067,
+          "jsonClass": "Interval",
+          "name": "maadhyaahnika_sandhyaa"
+        },
+        "maadhyaahnika_sandhyaa_end": {
+          "jd_end": 2458876.992,
+          "jd_start": 2458876.9603,
+          "jsonClass": "Interval",
+          "name": "maadhyaahnika_sandhyaa_end"
+        },
+        "madhyaahna": {
+          "jd_end": 2458876.8335,
+          "jd_start": 2458876.7384,
+          "jsonClass": "Interval",
+          "name": "madhyaahna"
+        },
+        "madhyaraatri": {
+          "jd_end": 2458877.3384,
+          "jd_start": 2458877.2335,
+          "jsonClass": "Interval",
+          "name": "madhyaraatri"
+        },
+        "nishiitha": {
+          "jd_end": 2458877.3034,
+          "jd_start": 2458877.2685,
+          "jsonClass": "Interval",
+          "name": "nishiitha"
+        },
+        "praatah": {
+          "jd_end": 2458876.6433,
+          "jd_start": 2458876.5482,
+          "jsonClass": "Interval",
+          "name": "praatah"
+        },
+        "praatas_sandhyaa": {
+          "jd_end": 2458876.5482,
+          "jd_start": 2458876.5132,
+          "jsonClass": "Interval",
+          "name": "praatas_sandhyaa"
+        },
+        "praatas_sandhyaa_end": {
+          "jd_end": 2458876.7067,
+          "jd_start": 2458876.675,
+          "jsonClass": "Interval",
+          "name": "praatas_sandhyaa_end"
+        },
+        "pradosha": {
+          "jd_end": 2458877.0587,
+          "jd_start": 2458877.0237,
+          "jsonClass": "Interval",
+          "name": "pradosha"
+        },
+        "preceeding_arunodaya": {
+          "jd_end": 2458876.5482,
+          "jd_start": 2458876.4782,
+          "jsonClass": "Interval",
+          "name": "preceeding_arunodaya"
+        },
+        "puurvaahna": {
+          "jd_end": 2458876.786,
+          "jd_start": 2458876.5482,
+          "jsonClass": "Interval",
+          "name": "puurvaahna"
+        },
+        "raahu": {
+          "jd_end": 2458876.9643,
+          "jd_start": 2458876.9048,
+          "jsonClass": "Interval",
+          "name": "raahu"
+        },
+        "raatri_yaama_1": {
+          "jd_end": 2458877.2859,
+          "jd_start": 2458877.1548,
+          "jsonClass": "Interval",
+          "name": "raatri_yaama_1"
+        },
+        "raatrimaana": {
+          "jd_end": 2458877.5481,
+          "jd_start": 2458877.0237,
+          "jsonClass": "Interval",
+          "name": "raatrimaana"
+        },
+        "saangava": {
+          "jd_end": 2458876.7384,
+          "jd_start": 2458876.6433,
+          "jsonClass": "Interval",
+          "name": "saangava"
+        },
+        "saayaahna": {
+          "jd_end": 2458877.0237,
+          "jd_start": 2458876.9286,
+          "jsonClass": "Interval",
+          "name": "saayaahna"
+        },
+        "saayam_sandhyaa": {
+          "jd_end": 2458877.0237,
+          "jd_start": 2458876.992,
+          "jsonClass": "Interval",
+          "name": "saayam_sandhyaa"
+        },
+        "shayana": {
+          "jd_end": 2458877.2859,
+          "jd_start": 2458877.2204,
+          "jsonClass": "Interval",
+          "name": "shayana"
+        },
+        "yama": {
+          "jd_end": 2458876.7265,
+          "jd_start": 2458876.6671,
+          "jsonClass": "Interval",
+          "name": "yama"
+        }
+      },
+      "festival_id_to_instance": {},
+      "jd_moonrise": 2458876.6374,
+      "jd_moonset": 2458877.1449,
+      "jd_next_sunrise": 2458877.5481,
+      "jd_previous_sunset": 2458876.0234,
+      "jd_sunrise": 2458876.5482,
+      "jd_sunset": 2458877.0237,
+      "jsonClass": "DailyPanchaanga",
+      "julian_day_start": 2458876.2708,
+      "lunar_month_sunrise": {
+        "anga_type_id": "SIDEREAL_MONTH",
+        "index": 11,
+        "jsonClass": "Anga"
+      },
+      "shraaddha_tithi": [],
+      "solar_sidereal_date_sunset": {
+        "day": 14,
+        "jsonClass": "BasicDateWithTransitions",
+        "month": 10
+      },
+      "sunrise_day_angas": {
+        "jsonClass": "DayAngas",
+        "karanas_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "KARANA",
+              "index": 6,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458876.6197,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "KARANA",
+              "index": 7,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458877.1684,
+            "jd_start": 2458876.6197,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "KARANA",
+              "index": 8,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458877.1684,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "nakshatra_at_sunrise": {
+          "anga_type_id": "NAKSHATRA",
+          "index": 24,
+          "jsonClass": "Anga"
+        },
+        "nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "NAKSHATRA",
+              "index": 24,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458876.6605,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "NAKSHATRA",
+              "index": 25,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458876.6605,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "raashis_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "RASHI",
+              "index": 11,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458877.4985,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "RASHI",
+              "index": 12,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458877.4985,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "tithi_at_sunrise": {
+          "anga_type_id": "TITHI",
+          "index": 3,
+          "jsonClass": "Anga"
+        },
+        "tithis_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "TITHI",
+              "index": 3,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458876.6197,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "TITHI",
+              "index": 4,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458876.6197,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "yoga_at_sunrise": {
+          "anga_type_id": "YOGA",
+          "index": 19,
+          "jsonClass": "Anga"
+        },
+        "yogas_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "YOGA",
+              "index": 19,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458877.4155,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "YOGA",
+              "index": 20,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458877.4155,
+            "jsonClass": "AngaSpan"
+          }
+        ]
+      },
+      "tropical_date_sunset": {
+        "day": 8,
+        "jsonClass": "BasicDateWithTransitions",
+        "month": 11
+      }
+    },
+    "2020-01-29": {
+      "date": {
+        "day": 29,
+        "jsonClass": "Date",
+        "month": 1,
+        "year": 2020
+      },
+      "day_length_based_periods": {
+        "aparaahna": {
+          "jd_end": 2458878.024,
+          "jd_start": 2458877.7861,
+          "jsonClass": "Interval",
+          "name": "aparaahna"
+        },
+        "aparaahna_muhuurta": {
+          "jd_end": 2458877.9289,
+          "jd_start": 2458877.8337,
+          "jsonClass": "Interval",
+          "name": "aparaahna_muhuurta"
+        },
+        "braahma": {
+          "jd_end": 2458877.5132,
+          "jd_start": 2458877.4782,
+          "jsonClass": "Interval",
+          "name": "braahma"
+        },
+        "dinaanta": {
+          "jd_end": 2458878.4171,
+          "jd_start": 2458878.3516,
+          "jsonClass": "Interval",
+          "name": "dinaanta"
+        },
+        "dinamaana": {
+          "jd_end": 2458878.024,
+          "jd_start": 2458877.5481,
+          "jsonClass": "Interval",
+          "name": "dinamaana"
+        },
+        "gulika": {
+          "jd_end": 2458877.7861,
+          "jd_start": 2458877.7266,
+          "jsonClass": "Interval",
+          "name": "gulika"
+        },
+        "jsonClass": "DayLengthBasedPeriods",
+        "maadhyaahnika_sandhyaa": {
+          "jd_end": 2458877.7385,
+          "jd_start": 2458877.7068,
+          "jsonClass": "Interval",
+          "name": "maadhyaahnika_sandhyaa"
+        },
+        "maadhyaahnika_sandhyaa_end": {
+          "jd_end": 2458877.9923,
+          "jd_start": 2458877.9606,
+          "jsonClass": "Interval",
+          "name": "maadhyaahnika_sandhyaa_end"
+        },
+        "madhyaahna": {
+          "jd_end": 2458877.8337,
+          "jd_start": 2458877.7385,
+          "jsonClass": "Interval",
+          "name": "madhyaahna"
+        },
+        "madhyaraatri": {
+          "jd_end": 2458878.3385,
+          "jd_start": 2458878.2337,
+          "jsonClass": "Interval",
+          "name": "madhyaraatri"
+        },
+        "nishiitha": {
+          "jd_end": 2458878.3035,
+          "jd_start": 2458878.2686,
+          "jsonClass": "Interval",
+          "name": "nishiitha"
+        },
+        "praatah": {
+          "jd_end": 2458877.6433,
+          "jd_start": 2458877.5481,
+          "jsonClass": "Interval",
+          "name": "praatah"
+        },
+        "praatas_sandhyaa": {
+          "jd_end": 2458877.5481,
+          "jd_start": 2458877.5132,
+          "jsonClass": "Interval",
+          "name": "praatas_sandhyaa"
+        },
+        "praatas_sandhyaa_end": {
+          "jd_end": 2458877.7068,
+          "jd_start": 2458877.675,
+          "jsonClass": "Interval",
+          "name": "praatas_sandhyaa_end"
+        },
+        "pradosha": {
+          "jd_end": 2458878.059,
+          "jd_start": 2458878.024,
+          "jsonClass": "Interval",
+          "name": "pradosha"
+        },
+        "preceeding_arunodaya": {
+          "jd_end": 2458877.5481,
+          "jd_start": 2458877.4782,
+          "jsonClass": "Interval",
+          "name": "preceeding_arunodaya"
+        },
+        "puurvaahna": {
+          "jd_end": 2458877.7861,
+          "jd_start": 2458877.5481,
+          "jsonClass": "Interval",
+          "name": "puurvaahna"
+        },
+        "raahu": {
+          "jd_end": 2458877.8456,
+          "jd_start": 2458877.7861,
+          "jsonClass": "Interval",
+          "name": "raahu"
+        },
+        "raatri_yaama_1": {
+          "jd_end": 2458878.2861,
+          "jd_start": 2458878.1551,
+          "jsonClass": "Interval",
+          "name": "raatri_yaama_1"
+        },
+        "raatrimaana": {
+          "jd_end": 2458878.5481,
+          "jd_start": 2458878.024,
+          "jsonClass": "Interval",
+          "name": "raatrimaana"
+        },
+        "saangava": {
+          "jd_end": 2458877.7385,
+          "jd_start": 2458877.6433,
+          "jsonClass": "Interval",
+          "name": "saangava"
+        },
+        "saayaahna": {
+          "jd_end": 2458878.024,
+          "jd_start": 2458877.9289,
+          "jsonClass": "Interval",
+          "name": "saayaahna"
+        },
+        "saayam_sandhyaa": {
+          "jd_end": 2458878.024,
+          "jd_start": 2458877.9923,
+          "jsonClass": "Interval",
+          "name": "saayam_sandhyaa"
+        },
+        "shayana": {
+          "jd_end": 2458878.2861,
+          "jd_start": 2458878.2206,
+          "jsonClass": "Interval",
+          "name": "shayana"
+        },
+        "yama": {
+          "jd_end": 2458877.6671,
+          "jd_start": 2458877.6076,
+          "jsonClass": "Interval",
+          "name": "yama"
+        }
+      },
+      "festival_id_to_instance": {},
+      "jd_moonrise": 2458877.6628,
+      "jd_moonset": 2458878.1765,
+      "jd_next_sunrise": 2458878.5481,
+      "jd_previous_sunset": 2458877.0237,
+      "jd_sunrise": 2458877.5481,
+      "jd_sunset": 2458878.024,
+      "jsonClass": "DailyPanchaanga",
+      "julian_day_start": 2458877.2708,
+      "lunar_month_sunrise": {
+        "anga_type_id": "SIDEREAL_MONTH",
+        "index": 11,
+        "jsonClass": "Anga"
+      },
+      "shraaddha_tithi": [],
+      "solar_sidereal_date_sunset": {
+        "day": 15,
+        "jsonClass": "BasicDateWithTransitions",
+        "month": 10
+      },
+      "sunrise_day_angas": {
+        "jsonClass": "DayAngas",
+        "karanas_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "KARANA",
+              "index": 8,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458877.7196,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "KARANA",
+              "index": 9,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458878.2725,
+            "jd_start": 2458877.7196,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "KARANA",
+              "index": 10,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458878.2725,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "nakshatra_at_sunrise": {
+          "anga_type_id": "NAKSHATRA",
+          "index": 25,
+          "jsonClass": "Anga"
+        },
+        "nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "NAKSHATRA",
+              "index": 25,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458877.7788,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "NAKSHATRA",
+              "index": 26,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458877.7788,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "raashis_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "RASHI",
+              "index": 12,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "tithi_at_sunrise": {
+          "anga_type_id": "TITHI",
+          "index": 4,
+          "jsonClass": "Anga"
+        },
+        "tithis_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "TITHI",
+              "index": 4,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458877.7196,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "TITHI",
+              "index": 5,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458877.7196,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "yoga_at_sunrise": {
+          "anga_type_id": "YOGA",
+          "index": 20,
+          "jsonClass": "Anga"
+        },
+        "yogas_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "YOGA",
+              "index": 20,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458878.4499,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "YOGA",
+              "index": 21,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458878.4499,
+            "jsonClass": "AngaSpan"
+          }
+        ]
+      },
+      "tropical_date_sunset": {
+        "day": 9,
+        "jsonClass": "BasicDateWithTransitions",
+        "month": 11
+      }
     }
   },
   "duration": 365,
-  "duration_posterior_padding": 381,
+  "duration_posterior_padding": 395,
   "duration_prior_padding": 2,
   "end_date": {
     "day": 31,
@@ -126353,12 +130622,6 @@
         "jsonClass": "Date",
         "month": 1,
         "year": 2019
-      },
-      {
-        "day": 14,
-        "jsonClass": "Date",
-        "month": 1,
-        "year": 2020
       }
     ],
     "bhRgurEvatI-puNyakAlaH": [
@@ -127785,12 +132048,6 @@
         "jsonClass": "Date",
         "month": 1,
         "year": 2019
-      },
-      {
-        "day": 16,
-        "jsonClass": "Date",
-        "month": 1,
-        "year": 2020
       }
     ],
     "iyar2pagai nAyan2Ar (2) gurupUjai": [
@@ -128853,12 +133110,6 @@
         "jsonClass": "Date",
         "month": 1,
         "year": 2019
-      },
-      {
-        "day": 11,
-        "jsonClass": "Date",
-        "month": 1,
-        "year": 2020
       }
     ],
     "kUSmANDa-dazamI": [
@@ -129027,12 +133278,6 @@
         "jsonClass": "Date",
         "month": 1,
         "year": 2019
-      },
-      {
-        "day": 16,
-        "jsonClass": "Date",
-        "month": 1,
-        "year": 2020
       }
     ],
     "kanaka-gaNEza-vratam": [
@@ -129177,12 +133422,6 @@
         "jsonClass": "Date",
         "month": 1,
         "year": 2019
-      },
-      {
-        "day": 12,
-        "jsonClass": "Date",
-        "month": 1,
-        "year": 2020
       }
     ],
     "kar2pagAmbAL\u2013kapAlIzvarar tirukkalyANam": [
@@ -129525,12 +133764,6 @@
     ],
     "mAn2akkaJcAr2a nAyan2Ar (11) gurupUjai": [
       {
-        "day": 31,
-        "jsonClass": "Date",
-        "month": 12,
-        "year": 2018
-      },
-      {
         "day": 22,
         "jsonClass": "Date",
         "month": 12,
@@ -129787,12 +134020,6 @@
         "jsonClass": "Date",
         "month": 1,
         "year": 2019
-      },
-      {
-        "day": 15,
-        "jsonClass": "Date",
-        "month": 1,
-        "year": 2020
       }
     ],
     "madhurakavi AzhvAr tirunakSattiram": [
@@ -129857,12 +134084,6 @@
         "jsonClass": "Date",
         "month": 1,
         "year": 2019
-      },
-      {
-        "day": 1,
-        "jsonClass": "Date",
-        "month": 1,
-        "year": 2020
       }
     ],
     "mahAdhanurvyatIpAta-zrAddham": [
@@ -129871,12 +134092,6 @@
         "jsonClass": "Date",
         "month": 1,
         "year": 2019
-      },
-      {
-        "day": 1,
-        "jsonClass": "Date",
-        "month": 1,
-        "year": 2020
       }
     ],
     "mahAkAlI~jayantI": [
@@ -130003,12 +134218,6 @@
         "jsonClass": "Date",
         "month": 1,
         "year": 2019
-      },
-      {
-        "day": 15,
-        "jsonClass": "Date",
-        "month": 1,
-        "year": 2020
       }
     ],
     "makara-saGkrAntiH": [
@@ -130017,12 +134226,6 @@
         "jsonClass": "Date",
         "month": 1,
         "year": 2019
-      },
-      {
-        "day": 15,
-        "jsonClass": "Date",
-        "month": 1,
-        "year": 2020
       }
     ],
     "manOratha-dvitIyA": [
@@ -130161,6 +134364,7 @@
         "year": 2019
       }
     ],
+    "mauni (pauSa/makara) amAvAsyA": [],
     "mauni (pauSa/makara) amAvAsyA (alabhyam\u2013puSkalA)": [
       {
         "day": 4,
@@ -130807,6 +135011,12 @@
         "year": 2019
       },
       {
+        "day": 31,
+        "jsonClass": "Date",
+        "month": 1,
+        "year": 2019
+      },
+      {
         "day": 17,
         "jsonClass": "Date",
         "month": 2,
@@ -130882,6 +135092,12 @@
         "day": 26,
         "jsonClass": "Date",
         "month": 9,
+        "year": 2019
+      },
+      {
+        "day": 9,
+        "jsonClass": "Date",
+        "month": 10,
         "year": 2019
       },
       {
@@ -132381,12 +136597,6 @@
         "jsonClass": "Date",
         "month": 1,
         "year": 2019
-      },
-      {
-        "day": 2,
-        "jsonClass": "Date",
-        "month": 1,
-        "year": 2020
       }
     ],
     "upAGga-lalitA-gaurI-vratam": [
@@ -132803,12 +137013,6 @@
         "jsonClass": "Date",
         "month": 12,
         "year": 2019
-      },
-      {
-        "day": 11,
-        "jsonClass": "Date",
-        "month": 1,
-        "year": 2020
       }
     ],
     "vaikAci~vizAkham": [
@@ -133281,12 +137485,6 @@
         "jsonClass": "Date",
         "month": 12,
         "year": 2019
-      },
-      {
-        "day": 1,
-        "jsonClass": "Date",
-        "month": 1,
-        "year": 2020
       }
     ],
     "yAjJavalkya~jayantI": [

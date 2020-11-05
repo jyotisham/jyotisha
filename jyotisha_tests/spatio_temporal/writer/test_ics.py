@@ -31,6 +31,10 @@ def test_panchanga_chennai_2019():
   current_ics_output = os.path.join(TEST_DATA_PATH, 'Chennai-2019-devanagari.ics.local')
   ics_calendar = compute_calendar(panchaanga_2019, scripts=[sanscript.IAST])
   write_to_file(ics_calendar, current_ics_output)
+  if not os.path.exists(orig_ics_file):
+    logging.warning("%s not present. Assuming that it was deliberately deleted to update test files.", orig_ics_file)
+    write_to_file(ics_calendar, orig_ics_file)
+    
 
   with open(orig_ics_file) as orig_tex:
     with open(current_ics_output) as current_tex:

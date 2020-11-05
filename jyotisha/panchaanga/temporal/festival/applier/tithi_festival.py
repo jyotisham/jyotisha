@@ -341,18 +341,19 @@ class TithiFestivalAssigner(FestivalAssigner):
         self.festival_id_to_days['vijayA/zravaNa-mahAdvAdazI'].add(self.daily_panchaangas[d].date)
 
   def assign_pradosha_vratam(self):
+    # त्रयोदश्यां प्रदोषकाले व्रतम्।
     for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + 1):
-      [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
       # compute offset from UTC in hours
       # PRADOSHA Vratam
       pref = ''
-      if self.daily_panchaangas[d].sunrise_day_angas.tithi_at_sunrise.index in (12, 13, 27, 28):
-        tithi_sunset = temporal.tithi.get_tithi(self.daily_panchaangas[d].jd_sunset).index % 15
-        tithi_sunset_tmrw = temporal.tithi.get_tithi(self.daily_panchaangas[d + 1].jd_sunset).index % 15
-        if tithi_sunset <= 13 and tithi_sunset_tmrw != 13:
-          fday = d
-        elif tithi_sunset_tmrw == 13:
-          fday = d + 1
+      tithi_sunset = self.daily_panchaangas[d].sunrise_day_angas.get_anga_at_jd(jd=self.daily_panchaangas[d].jd_sunset, anga_type=AngaType.TITHI) % 15
+      tithi_sunset_tmrw = self.daily_panchaangas[d+1].sunrise_day_angas.get_anga_at_jd(jd=self.daily_panchaangas[d+1].jd_sunset, anga_type=AngaType.TITHI) % 15
+      fday = None
+      if tithi_sunset in [12, 13] and tithi_sunset_tmrw != 13:
+        fday = d
+      elif tithi_sunset in [12, 13] and tithi_sunset_tmrw == 13:
+        fday = d + 1
+      if fday is not None:
         if self.daily_panchaangas[fday].date.get_weekday() == 1:
           pref = 'sOma-'
         elif self.daily_panchaangas[fday].date.get_weekday() == 6:

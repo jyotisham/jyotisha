@@ -47,9 +47,9 @@ class Panchaanga(common.JsonObject):
 
     self.duration = int(self.jd_end - self.jd_start) + 1
 
-    # some buffer, for various look-ahead calculations
-    # Pushkaram starting on 31 Jan might not get over till 12 days later
-    self.duration_posterior_padding = int(self.duration + 16)
+    # For accurate festival assignment, we sometimes need panchaanga information about succeeding or preceeding days. 
+    # For example, consider a festival to be selebrated during naxatra 27 in solar sideral month 9. If naxatra 27 occurs twice in sidereal_solar_month 9 (gap of 27+ daus), the latter occurence is to be selected - the former day will not get a festival. 
+    self.duration_posterior_padding = int(self.duration + 30)
     self.duration_prior_padding = 2
 
     self.weekday_start = time.get_weekday(self.jd_start)
@@ -115,6 +115,18 @@ class Panchaanga(common.JsonObject):
     else:
       return self.daily_panchaanga_for_date(date=panchaanga.date - 1)
 
+  def clear_padding_day_festivals(self):
+    """Festival assignments for padding days are not trustworthy - since one would need to look-ahead or before into further days for accurate festival assignment. They were computed only to ensure accurate computation of the core days in this panchaanga. To avoid misleading, we ought to clear festivals provisionally assigned to the padding days."""
+    daily_panchaangas = self.daily_panchaangas_sorted()
+    for dp in daily_panchaangas[:self.duration_prior_padding]:
+      for fest_id in dp.festival_id_to_instance.keys():
+        self.festival_id_to_days[fest_id].discard(dp.date)
+      dp.festival_id_to_instance = {}
+    for dp in daily_panchaangas[self.duration_prior_padding + self.duration:]:
+      for fest_id in dp.festival_id_to_instance.keys():
+        self.festival_id_to_days[fest_id].discard(dp.date)
+      dp.festival_id_to_instance = {}
+
   @timebudget
   def update_festival_details(self, debug=False):
     """
@@ -124,26 +136,21 @@ class Panchaanga(common.JsonObject):
     """
     self._reset_festivals()
     daily_panchaangas = self.daily_panchaangas_sorted()
+    misc_fest_assigner = applier.MiscFestivalAssigner(panchaanga=self)
     for index, dp in enumerate(daily_panchaangas):
-      previous_day_panchaangas = daily_panchaangas[max(index - 2, 0) : index]
-      for x in range(2 - len(previous_day_panchaangas)):
-        previous_day_panchaangas = [None] + previous_day_panchaangas
-      dp.assign_festivals(previous_day_panchaangas = previous_day_panchaangas, festival_id_to_days=self.festival_id_to_days)
-
-    for dp in daily_panchaangas[0: 3]:
-      # Festival assignments for these days are not trustworthy.
-      dp.festival_id_to_instance = {}
-    self._sync_festivals_dict_and_daily_festivals(here_to_daily=False, daily_to_here=True)
+      dp.assign_festivals(applier=misc_fest_assigner)
     TithiAssigner(panchaanga=self).assign_shraaddha_tithi()
-    applier.MiscFestivalAssigner(panchaanga=self).assign_all()
+    applier.FestivalsTimesDaysAssigner(panchaanga=self).assign_festivals_from_rules()
+    misc_fest_assigner.assign_all()
     ecliptic.EclipticFestivalAssigner(panchaanga=self).assign_all()
     tithi_festival.TithiFestivalAssigner(panchaanga=self).assign_all()
     solar.SolarFestivalAssigner(panchaanga=self).assign_all()
     vaara.VaraFestivalAssigner(panchaanga=self).assign_all()
-    applier.MiscFestivalAssigner(panchaanga=self).cleanup_festivals(debug=debug)
-    applier.MiscFestivalAssigner(panchaanga=self).assign_relative_festivals()
+    misc_fest_assigner.cleanup_festivals(debug=debug)
+    misc_fest_assigner.assign_relative_festivals()
     self._sync_festivals_dict_and_daily_festivals(here_to_daily=True, daily_to_here=True)
-    applier.MiscFestivalAssigner(panchaanga=self).assign_festival_numbers()
+    misc_fest_assigner.assign_festival_numbers()
+    self.clear_padding_day_festivals()
 
 
   def _sync_festivals_dict_and_daily_festivals(self, here_to_daily=False, daily_to_here=True):
