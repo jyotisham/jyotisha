@@ -4,17 +4,18 @@ from collections import defaultdict
 from typing import Dict
 
 import methodtools
-from timebudget import timebudget
-
 from jyotisha.panchaanga.spatio_temporal import daily
 from jyotisha.panchaanga.temporal import time, set_constants, ComputationSystem
-from jyotisha.panchaanga.temporal.festival import applier, FestivalInstance
-from jyotisha.panchaanga.temporal.festival.applier import tithi_festival, ecliptic, solar, vaara
+from jyotisha.panchaanga.temporal.festival import FestivalInstance
+from jyotisha.panchaanga.temporal.festival.applier import tithi_festival, ecliptic, solar, vaara, rule_repo_based, \
+  FestivalAssigner
+from jyotisha.panchaanga.temporal.festival.applier.rule_repo_based import inefficient
 from jyotisha.panchaanga.temporal.time import Date
 from jyotisha.panchaanga.temporal.tithi import TithiAssigner
 from jyotisha.util import default_if_none
 from sanskrit_data import collection_helper
 from sanskrit_data.schema import common
+from timebudget import timebudget
 
 timebudget.set_quiet(True)  # don't show measurements as they happen
 # timebudget.report_at_exit()  # Generate report when the program exits
@@ -135,21 +136,19 @@ class Panchaanga(common.JsonObject):
     :return:
     """
     self._reset_festivals()
-    daily_panchaangas = self.daily_panchaangas_sorted()
-    misc_fest_assigner = applier.MiscFestivalAssigner(panchaanga=self)
-    for index, dp in enumerate(daily_panchaangas):
-      dp.assign_festivals(applier=misc_fest_assigner)
+    rule_lookup_assigner = rule_repo_based.RuleLookupAssigner(panchaanga=self)
+    rule_lookup_assigner.apply_festival_from_rules_repos()
     TithiAssigner(panchaanga=self).assign_shraaddha_tithi()
-    applier.FestivalsTimesDaysAssigner(panchaanga=self).assign_festivals_from_rules()
-    misc_fest_assigner.assign_all()
+    inefficient.FestivalsTimesDaysAssigner(panchaanga=self).assign_festivals_from_rules()
     ecliptic.EclipticFestivalAssigner(panchaanga=self).assign_all()
     tithi_festival.TithiFestivalAssigner(panchaanga=self).assign_all()
     solar.SolarFestivalAssigner(panchaanga=self).assign_all()
     vaara.VaraFestivalAssigner(panchaanga=self).assign_all()
-    misc_fest_assigner.cleanup_festivals(debug=debug)
-    misc_fest_assigner.assign_relative_festivals()
+    generic_assigner = FestivalAssigner(panchaanga=self)
+    generic_assigner.cleanup_festivals()
+    rule_lookup_assigner.assign_relative_festivals()
     self._sync_festivals_dict_and_daily_festivals(here_to_daily=True, daily_to_here=True)
-    misc_fest_assigner.assign_festival_numbers()
+    generic_assigner.assign_festival_numbers()
     self.clear_padding_day_festivals()
 
 

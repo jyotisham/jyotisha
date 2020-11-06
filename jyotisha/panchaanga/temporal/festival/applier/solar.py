@@ -17,6 +17,31 @@ class SolarFestivalAssigner(FestivalAssigner):
     self.assign_mahodaya_ardhodaya()
     self.assign_month_day_festivals()
     self.assign_vishesha_vyatipata()
+    self.assign_agni_nakshatra()
+
+
+  def assign_agni_nakshatra(self):
+    agni_jd_start = agni_jd_end = None
+    for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + 1):
+      # AGNI nakshatra
+      # Arbitrarily checking after Mesha 10! Agni Nakshatram can't start earlier...
+      if self.daily_panchaangas[d].solar_sidereal_date_sunset.month == 1 and self.daily_panchaangas[d].solar_sidereal_date_sunset.day == 10:
+        anga_finder = zodiac.AngaSpanFinder.get_cached(ayanaamsha_id=self.ayanaamsha_id, anga_type=zodiac.AngaType.SOLAR_NAKSH_PADA)
+        agni_jd_start, dummy = anga_finder.find(
+          jd1=self.daily_panchaangas[d].jd_sunrise, jd2=self.daily_panchaangas[d].jd_sunrise + 30,
+          target_anga_id=7).to_tuple()
+        dummy, agni_jd_end = anga_finder.find(
+          jd1=agni_jd_start, jd2=agni_jd_start + 30,
+          target_anga_id=13).to_tuple()
+
+      if self.daily_panchaangas[d].solar_sidereal_date_sunset.month == 1 and self.daily_panchaangas[d].solar_sidereal_date_sunset.day > 10:
+        if agni_jd_start is not None:
+          if self.daily_panchaangas[d].jd_sunset < agni_jd_start < self.daily_panchaangas[d + 1].jd_sunset:
+            self.festival_id_to_days['agninakSatra-ArambhaH'].add(self.daily_panchaangas[d].date + 1)
+      if self.daily_panchaangas[d].solar_sidereal_date_sunset.month == 2 and self.daily_panchaangas[d].solar_sidereal_date_sunset.day > 10:
+        if agni_jd_end is not None:
+          if self.daily_panchaangas[d].jd_sunset < agni_jd_end < self.daily_panchaangas[d + 1].jd_sunset:
+            self.festival_id_to_days['agninakSatra-samApanam'].add(self.daily_panchaangas[d].date + 1)
 
   def assign_month_day_festivals(self):
     for d, daily_panchaanga in enumerate(self.daily_panchaangas):

@@ -8,7 +8,6 @@ from jyotisha.panchaanga.spatio_temporal import City
 from jyotisha.panchaanga.temporal import interval, time, ComputationSystem, set_constants
 from jyotisha.panchaanga.temporal import zodiac
 from jyotisha.panchaanga.temporal.body import Graha
-from jyotisha.panchaanga.temporal.festival.rules import RulesRepo
 from jyotisha.panchaanga.temporal.interval import DayLengthBasedPeriods, Interval
 from jyotisha.panchaanga.temporal.month import LunarMonthAssigner
 from jyotisha.panchaanga.temporal.time import Timezone, Date, BasicDate
@@ -328,14 +327,6 @@ class DailyPanchaanga(common.JsonObject):
       if lagna_end_time < self.jd_next_sunrise:
         self.lagna_data.append((lagna, lagna_end_time))
     return self.lagna_data
-
-  def assign_festivals(self, applier):
-    applier.apply_month_day_events(day_panchaanga=self, month_type=RulesRepo.SIDEREAL_SOLAR_MONTH_DIR)
-    applier.apply_month_anga_events(day_panchaanga=self, month_type=RulesRepo.SIDEREAL_SOLAR_MONTH_DIR, anga_type=AngaType.TITHI)
-    # applier.apply_month_anga_events(day_panchaanga=self, month_type=RulesRepo.SIDEREAL_SOLAR_MONTH_DIR, anga_type=AngaType.NAKSHATRA)
-    applier.apply_month_anga_events(day_panchaanga=self, month_type=RulesRepo.SIDEREAL_SOLAR_MONTH_DIR, anga_type=AngaType.YOGA)
-
-    # applier.apply_month_anga_events(day_panchaanga=self, month_type=RulesRepo.LUNAR_MONTH_DIR, anga_type=AngaType.TITHI)
 
 
 # Essential for depickling to work.
