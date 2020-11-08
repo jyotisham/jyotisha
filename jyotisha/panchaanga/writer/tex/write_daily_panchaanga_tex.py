@@ -93,16 +93,17 @@ def emit(panchaanga, time_format="hh:mm", scripts=None, output_stream=None):
     jd = daily_panchaanga.julian_day_start
 
     tithi_data_str = ''
-    for tithi_span in daily_panchaanga.sunrise_day_angas.tithis_with_ends:
+    for iTithi, tithi_span in enumerate(daily_panchaanga.sunrise_day_angas.tithis_with_ends):
       (tithi_ID, tithi_end_jd) = (tithi_span.anga.index, tithi_span.jd_end)
       # if tithi_data_str != '':
       #     tithi_data_str += '\\hspace{1ex}'
       tithi = '\\raisebox{-1pt}{\\moon[scale=0.8]{%d}}\\hspace{2pt}' % (tithi_ID) + \
               jyotisha.names.NAMES['TITHI_NAMES'][scripts[0]][tithi_ID]
       if tithi_end_jd is None:
-        tithi_data_str = '%s\\mbox{%s\\To{}%s}' % \
-                         (tithi_data_str, tithi,
-                          jyotisha.custom_transliteration.tr('ahOrAtram (tridinaspRk)', scripts[0]))
+        if iTithi == 0:
+          tithi_data_str = '%s\\mbox{%s\\To{}%s}' % \
+                           (tithi_data_str, tithi,
+                            jyotisha.custom_transliteration.tr('ahOrAtram (tridinaspRk)', scripts[0]))
       else:
         tithi_data_str = '%s\\mbox{%s\\To{}\\textsf{%s (%s)}}\\hspace{1ex}' % \
                          (tithi_data_str, tithi,
@@ -112,15 +113,16 @@ def emit(panchaanga, time_format="hh:mm", scripts=None, output_stream=None):
                             format=time_format))
 
     nakshatra_data_str = ''
-    for nakshatra_span in daily_panchaanga.sunrise_day_angas.nakshatras_with_ends:
+    for iNakshatra, nakshatra_span in enumerate(daily_panchaanga.sunrise_day_angas.nakshatras_with_ends):
       (nakshatra_ID, nakshatra_end_jd) = (nakshatra_span.anga.index, nakshatra_span.jd_end)
       if nakshatra_data_str != '':
         nakshatra_data_str += '\\hspace{1ex}'
       nakshatra = jyotisha.names.NAMES['NAKSHATRA_NAMES'][scripts[0]][nakshatra_ID]
       if nakshatra_end_jd is None:
-        nakshatra_data_str = '%s\\mbox{%s\\To{}%s}' % \
-                              (nakshatra_data_str, nakshatra,
-                               jyotisha.custom_transliteration.tr('ahOrAtram', scripts[0]))
+        if iNakshatra == 0:
+          nakshatra_data_str = '%s\\mbox{%s\\To{}%s}' % \
+                                (nakshatra_data_str, nakshatra,
+                                 jyotisha.custom_transliteration.tr('ahOrAtram', scripts[0]))
       else:
         nakshatra_data_str = '%s\\mbox{%s\\To{}\\textsf{%s (%s)}}' % \
                               (nakshatra_data_str, nakshatra,
@@ -130,18 +132,19 @@ def emit(panchaanga, time_format="hh:mm", scripts=None, output_stream=None):
                                  format=time_format))
 
     rashi_data_str = ''
-    for raashi_span in daily_panchaanga.sunrise_day_angas.raashis_with_ends:
-      (rashi_ID, rashi_end_jd) = (raashi_span.anga.index, raashi_span.jd_end)
-      # if rashi_data_str != '':
-      #     rashi_data_str += '\\hspace{1ex}'
-      rashi = jyotisha.names.NAMES['RASHI_SUFFIXED_NAMES'][scripts[0]][rashi_ID]
-      if rashi_end_jd is None:
-        rashi_data_str = '%s\\mbox{%s}' % (rashi_data_str, rashi)
-      else:
-        rashi_data_str = '%s\\mbox{%s \\RIGHTarrow \\textsf{%s}}' % \
-                         (rashi_data_str, rashi,
-                          time.Hour(24 * (rashi_end_jd - jd)).toString(
-                            format=time_format))
+    for iRaashi, raashi_span in enumerate(daily_panchaanga.sunrise_day_angas.raashis_with_ends):
+      if iRaashi == 0:
+        (rashi_ID, rashi_end_jd) = (raashi_span.anga.index, raashi_span.jd_end)
+        # if rashi_data_str != '':
+        #     rashi_data_str += '\\hspace{1ex}'
+        rashi = jyotisha.names.NAMES['RASHI_SUFFIXED_NAMES'][scripts[0]][rashi_ID]
+        if rashi_end_jd is None:
+          rashi_data_str = '%s\\mbox{%s}' % (rashi_data_str, rashi)
+        else:
+          rashi_data_str = '%s\\mbox{%s \\RIGHTarrow \\textsf{%s}}' % \
+                           (rashi_data_str, rashi,
+                            time.Hour(24 * (rashi_end_jd - jd)).toString(
+                              format=time_format))
     if compute_lagnams:
       lagna_data_str = 'लग्नम्–'
       for lagna_ID, lagna_end_jd in daily_panchaanga.lagna_data:
@@ -152,14 +155,18 @@ def emit(panchaanga, time_format="hh:mm", scripts=None, output_stream=None):
                             format=time_format))
 
     yoga_data_str = ''
-    for yoga_span in daily_panchaanga.sunrise_day_angas.yogas_with_ends:
+    for iYoga, yoga_span in enumerate(daily_panchaanga.sunrise_day_angas.yogas_with_ends):
       (yoga_ID, yoga_end_jd) = (yoga_span.anga.index, yoga_span.jd_end)
       # if yoga_data_str != '':
       #     yoga_data_str += '\\hspace{1ex}'
       yoga = jyotisha.names.NAMES['YOGA_NAMES'][scripts[0]][yoga_ID]
       if yoga_end_jd is None:
-        yoga_data_str = '%s\\mbox{%s\\To{}%s}' % \
-                        (yoga_data_str, yoga, jyotisha.custom_transliteration.tr('ahOrAtram', scripts[0]))
+        if iYoga == 0:
+          yoga_data_str = '%s\\mbox{%s\\To{}%s}' % \
+                          (yoga_data_str, yoga, jyotisha.custom_transliteration.tr('ahOrAtram', scripts[0]))
+        else:                
+          yoga_data_str = '%s\\mbox{%s\\Too{}}' % \
+                          (yoga_data_str, yoga)
       else:
         yoga_data_str = '%s\\mbox{%s\\To{}\\textsf{%s (%s)}}\\hspace{1ex}' % \
                         (yoga_data_str, yoga,
@@ -178,9 +185,8 @@ def emit(panchaanga, time_format="hh:mm", scripts=None, output_stream=None):
       #     karana_data_str += '\\hspace{1ex}'
       karana = jyotisha.names.NAMES['KARANA_NAMES'][scripts[0]][karana_ID]
       if karana_end_jd is None:
-        karana_data_str = '%s\\mbox{%s\\To{}%s}' % \
-                           (karana_data_str, karana,
-                            jyotisha.custom_transliteration.tr('ahOrAtram', scripts[0]))
+        karana_data_str = '%s\\mbox{%s\\Too{}}' % \
+                           (karana_data_str, karana)
       else:
         karana_data_str = '%s\\mbox{%s\\To{}\\textsf{%s (%s)}}\\hspace{1ex}' % \
                            (karana_data_str, karana,
@@ -188,9 +194,6 @@ def emit(panchaanga, time_format="hh:mm", scripts=None, output_stream=None):
                               24 * (karana_end_jd - daily_panchaanga.jd_sunrise)).toString(format='gg-pp'),
                             time.Hour(24 * (karana_end_jd - jd)).toString(
                               format=time_format))
-    if karana_end_jd is not None:
-      karana_data_str += '\\mbox{%s\\Too{}}' % (
-        jyotisha.names.NAMES['KARANA_NAMES'][scripts[0]][(karana_ID % 60) + 1])
 
     sunrise = time.Hour(24 * (daily_panchaanga.jd_sunrise - jd)).toString(
       format=time_format)
