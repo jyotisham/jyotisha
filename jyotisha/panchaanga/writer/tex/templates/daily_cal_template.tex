@@ -167,17 +167,13 @@
 \newcommand{\tridina}{
     \raisebox{1.5pt}{\fcolorbox{white}{gray!40}{\scriptsize त्रिदिनस्पृक्}}
 }
-\newcommand{\rygdata}[1]{%
-\setsepchar{,}
-\readlist\arg{#1}
-श्राद्ध-तिथिः—\arg[1]\hfil{}अमृतादि-योगाः—\arg[2]\\[-3pt]
+\newcommand{\rygdata}[3]{%
 \begin{minipage}{\linewidth}
 \centering
-\rule[-1ex]{0.95\textwidth}{.4pt}
-\small राहु॰~\textsf{\arg[3]}\hspace{3ex}यम॰~\textsf{\arg[4]}\hspace{3ex}गुलिक॰~\textsf{\arg[5]}\hfil\arg[8]\\%Rahu Yama Gulika
-त्याज्यं~\textsf{\arg[6]}\hfil{}अमृतकालः~\textsf{\arg[7]}\\
-\arg[9]\hfil\arg[10]
-\end{minipage}}
+\rule[-1ex]{0.7\textwidth}{.4pt}
+\small राहु॰~\textsf{#1}~~यम॰~\textsf{#2}~~गुलिक॰~\textsf{#3}%Rahu Yama Gulika
+\end{minipage}
+}
 \newcommand{\caldata}[7]{%
 \clearpage
 \begin{minipage}{\linewidth}
