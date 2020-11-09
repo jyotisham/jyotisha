@@ -1862,23 +1862,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Āyuṣmad-Bava-Saumya-Saṃyôgaḥ
-DTSTART;VALUE=DATE-TIME:20190212T235957
-DTEND;VALUE=DATE-TIME:20190213T235957
-DESCRIPTION:A rare combination of āyuṣmān yoga\, bava karaṇa and sau
- myavāsara.<br/>### References<br/>* Maha Periva / Deivattin Kural<br/><br
- /><br/>https%3A//github.com/sanskrit-coders/adyatithi/tree/master/general/
- description_only/RareDays/Combinations/AyuSmad-bava-saumya-saMyogaH__info.
- toml<br/><br/>#RareDays #Combinations
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Bhīṣmāṣṭamī
 DTSTART;VALUE=DATE-TIME:20190212T235957
 DTEND;VALUE=DATE-TIME:20190213T235957
@@ -7192,6 +7175,23 @@ DESCRIPTION:Observed on Kṛṣṇa-Navamī tithi of Vaiśākhaḥ (lunar)
  com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_m
  onth/tithi/02/24/kAJcI%207%20jagadguru%20zrI~AnandajJAnEndra%20sarasvatI%2
  0ArAdhanA__info.toml<br/><br/>#KanchiAradhanaDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Āyuṣmad-Bava-Saumya-Saṃyôgaḥ
+DTSTART;VALUE=DATE-TIME:20190528T235957
+DTEND;VALUE=DATE-TIME:20190529T235957
+DESCRIPTION:A rare combination of āyuṣmān yoga\, bava karaṇa and sau
+ myavāsara.<br/>### References<br/>* Maha Periva / Deivattin Kural<br/><br
+ /><br/>https%3A//github.com/sanskrit-coders/adyatithi/tree/master/general/
+ description_only/RareDays/Combinations/AyuSmad-bava-saumya-saMyogaH__info.
+ toml<br/><br/>#RareDays #Combinations
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE

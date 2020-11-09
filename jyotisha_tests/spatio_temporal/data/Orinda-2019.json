@@ -49354,6 +49354,10 @@
         }
       },
       "festival_id_to_instance": {
+        "AyuSmad-bava-saumya-saMyogaH": {
+          "jsonClass": "FestivalInstance",
+          "name": "AyuSmad-bava-saumya-saMyogaH"
+        },
         "bhadrakALI~jayantI": {
           "jsonClass": "FestivalInstance",
           "name": "bhadrakALI~jayantI"
@@ -95613,10 +95617,6 @@
         }
       },
       "festival_id_to_instance": {
-        "AyuSmad-bava-saumya-saMyogaH": {
-          "jsonClass": "FestivalInstance",
-          "name": "AyuSmad-bava-saumya-saMyogaH"
-        },
         "kRttikA-vratam": {
           "jsonClass": "FestivalInstance",
           "name": "kRttikA-vratam"
@@ -116359,6 +116359,10 @@
         }
       },
       "festival_id_to_instance": {
+        "AyuSmad-bava-saumya-saMyogaH": {
+          "jsonClass": "FestivalInstance",
+          "name": "AyuSmad-bava-saumya-saMyogaH"
+        },
         "iyar2pagai nAyan2Ar (2) gurupUjai": {
           "jsonClass": "FestivalInstance",
           "name": "iyar2pagai nAyan2Ar (2) gurupUjai"
@@ -129938,9 +129942,15 @@
     ],
     "AyuSmad-bava-saumya-saMyogaH": [
       {
-        "day": 16,
+        "day": 29,
         "jsonClass": "Date",
-        "month": 10,
+        "month": 5,
+        "year": 2019
+      },
+      {
+        "day": 18,
+        "jsonClass": "Date",
+        "month": 12,
         "year": 2019
       }
     ],

@@ -95,16 +95,15 @@ class VaraFestivalAssigner(FestivalAssigner):
 
   def assign_ayushman_bava_saumya_yoga(self):
     for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + 1):
-      [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
 
       # AYUSHMAN BHAVA SAUMYA
       if self.daily_panchaangas[d].date.get_weekday() == 3 and NakshatraDivision(self.daily_panchaangas[d].jd_sunrise, ayanaamsha_id=self.ayanaamsha_id).get_anga(
-          zodiac.AngaType.NAKSHATRA).index == 3:
+          zodiac.AngaType.YOGA).index == 3:
         if NakshatraDivision(self.daily_panchaangas[d].jd_sunrise, ayanaamsha_id=self.ayanaamsha_id).get_anga(
             zodiac.AngaType.KARANA).index in list(range(2, 52, 7)):
           self.festival_id_to_days['AyuSmad-bava-saumya-saMyogaH'].add(self.daily_panchaangas[d].date)
       if self.daily_panchaangas[d].date.get_weekday() == 3 and NakshatraDivision(self.daily_panchaangas[d].jd_sunset, ayanaamsha_id=self.ayanaamsha_id).get_anga(
-          zodiac.AngaType.NAKSHATRA).index == 3:
+          zodiac.AngaType.YOGA).index == 3:
         if NakshatraDivision(self.daily_panchaangas[d].jd_sunset, ayanaamsha_id=self.ayanaamsha_id).get_anga(
             zodiac.AngaType.KARANA).index in list(range(2, 52, 7)):
           self.festival_id_to_days['AyuSmad-bava-saumya-saMyogaH'].add(self.daily_panchaangas[d].date)

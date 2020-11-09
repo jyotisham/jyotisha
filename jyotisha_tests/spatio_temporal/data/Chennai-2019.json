@@ -14881,10 +14881,6 @@
         }
       },
       "festival_id_to_instance": {
-        "AyuSmad-bava-saumya-saMyogaH": {
-          "jsonClass": "FestivalInstance",
-          "name": "AyuSmad-bava-saumya-saMyogaH"
-        },
         "bhISmASTamI": {
           "jsonClass": "FestivalInstance",
           "name": "bhISmASTamI"
@@ -49381,6 +49377,10 @@
         }
       },
       "festival_id_to_instance": {
+        "AyuSmad-bava-saumya-saMyogaH": {
+          "jsonClass": "FestivalInstance",
+          "name": "AyuSmad-bava-saumya-saMyogaH"
+        },
         "agninakSatra-samApanam": {
           "jsonClass": "FestivalInstance",
           "name": "agninakSatra-samApanam"
@@ -129938,9 +129938,9 @@
     ],
     "AyuSmad-bava-saumya-saMyogaH": [
       {
-        "day": 13,
+        "day": 29,
         "jsonClass": "Date",
-        "month": 2,
+        "month": 5,
         "year": 2019
       }
     ],
