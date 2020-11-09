@@ -101,12 +101,12 @@ class VaraFestivalAssigner(FestivalAssigner):
           zodiac.AngaType.YOGA).index == 3:
         if NakshatraDivision(self.daily_panchaangas[d].jd_sunrise, ayanaamsha_id=self.ayanaamsha_id).get_anga(
             zodiac.AngaType.KARANA).index in list(range(2, 52, 7)):
-          self.festival_id_to_days['AyuSmad-bava-saumya-saMyogaH'].add(self.daily_panchaangas[d].date)
+          self.festival_id_to_days['AyuSmad-bava-saumya-saMyOgaH'].add(self.daily_panchaangas[d].date)
       if self.daily_panchaangas[d].date.get_weekday() == 3 and NakshatraDivision(self.daily_panchaangas[d].jd_sunset, ayanaamsha_id=self.ayanaamsha_id).get_anga(
           zodiac.AngaType.YOGA).index == 3:
         if NakshatraDivision(self.daily_panchaangas[d].jd_sunset, ayanaamsha_id=self.ayanaamsha_id).get_anga(
             zodiac.AngaType.KARANA).index in list(range(2, 52, 7)):
-          self.festival_id_to_days['AyuSmad-bava-saumya-saMyogaH'].add(self.daily_panchaangas[d].date)
+          self.festival_id_to_days['AyuSmad-bava-saumya-saMyOgaH'].add(self.daily_panchaangas[d].date)
 
 
 # Essential for depickling to work.
