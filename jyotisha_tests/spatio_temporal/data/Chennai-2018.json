@@ -68717,8 +68717,8 @@
         },
         "candra-grahaNam~(kEtugrasta)": {
           "interval": {
-            "jd_end": 2458327.6591,
-            "jd_start": 2458327.4962,
+            "jd_end": 2458327.4299,
+            "jd_start": 2458327.267,
             "jsonClass": "Interval"
           },
           "jsonClass": "FestivalInstance",

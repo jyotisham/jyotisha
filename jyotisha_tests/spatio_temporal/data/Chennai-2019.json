@@ -65193,8 +65193,8 @@
         },
         "candra-grahaNam~(kEtugrasta)": {
           "interval": {
-            "jd_end": 2458681.6873,
-            "jd_start": 2458681.5637,
+            "jd_end": 2458681.4581,
+            "jd_start": 2458681.3345,
             "jsonClass": "Interval"
           },
           "jsonClass": "FestivalInstance",
@@ -118999,8 +118999,8 @@
       "festival_id_to_instance": {
         "sUrya-grahaNam": {
           "interval": {
-            "jd_end": 2458843.9719,
-            "jd_start": 2458843.8395,
+            "jd_end": 2458843.7427,
+            "jd_start": 2458843.6103,
             "jsonClass": "Interval"
           },
           "jsonClass": "FestivalInstance",

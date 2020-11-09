@@ -9768,8 +9768,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Chandra-Grahaṇam (Ketugrasta)
-DTSTART;VALUE=DATE-TIME:20190717T070140
-DTEND;VALUE=DATE-TIME:20190717T095942
+DTSTART;VALUE=DATE-TIME:20190717T013140
+DTEND;VALUE=DATE-TIME:20190717T042942
 DESCRIPTION:https%3A//github.com/sanskrit-coders/adyatithi/tree/master/gen
  eral/description_only/RareDays/Eclipses/candra-grahaNam~%28kEtugrasta%29__
  info.toml<br/><br/>#RareDays #Eclipses
@@ -19344,8 +19344,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Sūrya-Grahaṇam
-DTSTART;VALUE=DATE-TIME:20191226T133849
-DTEND;VALUE=DATE-TIME:20191226T164929
+DTSTART;VALUE=DATE-TIME:20191226T080849
+DTEND;VALUE=DATE-TIME:20191226T111929
 DESCRIPTION:https%3A//github.com/sanskrit-coders/adyatithi/tree/master/gen
  eral/description_only/RareDays/Eclipses/sUrya-grahaNam__info.toml<br/><br/
  >#RareDays #Eclipses

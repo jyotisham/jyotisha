@@ -7040,6 +7040,15 @@
           "name": "badarI jyOtirmaTha-pratiSThApana~jayantI",
           "ordinal": 2504
         },
+        "candra-grahaNam~(rAhugrasta)": {
+          "interval": {
+            "jd_end": 2458504.7852,
+            "jd_start": 2458504.6485,
+            "jsonClass": "Interval"
+          },
+          "jsonClass": "FestivalInstance",
+          "name": "candra-grahaNam~(rAhugrasta)"
+        },
         "kapAlI teppOtsavam~2": {
           "jsonClass": "FestivalInstance",
           "name": "kapAlI teppOtsavam~2"
@@ -131006,6 +131015,14 @@
         "day": 27,
         "jsonClass": "Date",
         "month": 12,
+        "year": 2019
+      }
+    ],
+    "candra-grahaNam~(rAhugrasta)": [
+      {
+        "day": 20,
+        "jsonClass": "Date",
+        "month": 1,
         "year": 2019
       }
     ],
