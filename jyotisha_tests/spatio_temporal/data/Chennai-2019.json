@@ -49377,9 +49377,9 @@
         }
       },
       "festival_id_to_instance": {
-        "AyuSmad-bava-saumya-saMyogaH": {
+        "AyuSmad-bava-saumya-saMyOgaH": {
           "jsonClass": "FestivalInstance",
-          "name": "AyuSmad-bava-saumya-saMyogaH"
+          "name": "AyuSmad-bava-saumya-saMyOgaH"
         },
         "agninakSatra-samApanam": {
           "jsonClass": "FestivalInstance",
@@ -129936,7 +129936,7 @@
         "year": 2019
       }
     ],
-    "AyuSmad-bava-saumya-saMyogaH": [
+    "AyuSmad-bava-saumya-saMyOgaH": [
       {
         "day": 29,
         "jsonClass": "Date",
