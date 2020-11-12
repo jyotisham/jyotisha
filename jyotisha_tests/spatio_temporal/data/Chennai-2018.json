@@ -10749,9 +10749,9 @@
         }
       },
       "festival_id_to_instance": {
-        "AyuSmad-bava-saumya-saMyogaH": {
+        "AyuSmad-bava-saumya-saMyOgaH": {
           "jsonClass": "FestivalInstance",
-          "name": "AyuSmad-bava-saumya-saMyogaH"
+          "name": "AyuSmad-bava-saumya-saMyOgaH"
         },
         "kapAlI teppOtsavam~3": {
           "jsonClass": "FestivalInstance",
@@ -77185,9 +77185,9 @@
         }
       },
       "festival_id_to_instance": {
-        "AyuSmad-bava-saumya-saMyogaH": {
+        "AyuSmad-bava-saumya-saMyOgaH": {
           "jsonClass": "FestivalInstance",
-          "name": "AyuSmad-bava-saumya-saMyogaH"
+          "name": "AyuSmad-bava-saumya-saMyOgaH"
         },
         "harivAsaraH": {
           "interval": {
@@ -129877,7 +129877,7 @@
         "year": 2018
       }
     ],
-    "AyuSmad-bava-saumya-saMyogaH": [
+    "AyuSmad-bava-saumya-saMyOgaH": [
       {
         "day": 31,
         "jsonClass": "Date",
