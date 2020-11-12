@@ -3748,10 +3748,6 @@
         "mahAdhanurvyatIpAta-zrAddham": {
           "jsonClass": "FestivalInstance",
           "name": "mahAdhanurvyatIpAta-zrAddham"
-        },
-        "vyatIpAta-zrAddham": {
-          "jsonClass": "FestivalInstance",
-          "name": "vyatIpAta-zrAddham"
         }
       },
       "jd_moonrise": 2458494.2514,
@@ -120514,10 +120510,6 @@
         "mahAdhanurvyatIpAta-zrAddham": {
           "jsonClass": "FestivalInstance",
           "name": "mahAdhanurvyatIpAta-zrAddham"
-        },
-        "vyatIpAta-zrAddham": {
-          "jsonClass": "FestivalInstance",
-          "name": "vyatIpAta-zrAddham"
         }
       },
       "jd_moonrise": 2458849.2838,
@@ -137299,12 +137291,6 @@
     ],
     "vyatIpAta-zrAddham": [
       {
-        "day": 10,
-        "jsonClass": "Date",
-        "month": 1,
-        "year": 2019
-      },
-      {
         "day": 4,
         "jsonClass": "Date",
         "month": 2,
@@ -137366,12 +137352,6 @@
       },
       {
         "day": 6,
-        "jsonClass": "Date",
-        "month": 12,
-        "year": 2019
-      },
-      {
-        "day": 31,
         "jsonClass": "Date",
         "month": 12,
         "year": 2019

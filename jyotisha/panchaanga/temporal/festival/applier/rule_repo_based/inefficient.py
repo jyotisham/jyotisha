@@ -52,7 +52,7 @@ class FestivalsTimesDaysAssigner(FestivalAssigner):
       if self.daily_panchaangas[d].sunrise_day_angas.tithi_at_sunrise.index == 30 and self.daily_panchaangas[d + 1].sunrise_day_angas.tithi_at_sunrise.index == 2 and \
           self.daily_panchaangas[d + 1].lunar_month_sunrise.index == month_num:
         # Only in this case, we have a problem
-        self.festival_id_to_days[festival_name].add(self.daily_panchaangas[d].date)
+        self.panchaanga.add_festival(fest_id=festival_name, date=self.daily_panchaangas[d].date)
         return
 
     if (month_type == 'lunar_month' and ((self.daily_panchaangas[d].lunar_month_sunrise.index == month_num or month_num == 0) or (
@@ -117,6 +117,6 @@ class FestivalsTimesDaysAssigner(FestivalAssigner):
           logging.warning(
             '%s occurring on two consecutive days (%d, %d). Removing! paraviddha assigned twice?' % (
               festival_name, d - 1, d))
-          self.panchaanga.festival_id_to_days[festival_name].remove(self.daily_panchaangas[d-1].date)
+          self.panchaanga.delete_festival_date(fest_id=festival_name, date=self.daily_panchaangas[d-1].date)
 
-        self.festival_id_to_days[festival_name].add(self.daily_panchaangas[fday].date)
+        self.panchaanga.add_festival(fest_id=festival_name, date=self.daily_panchaangas[fday].date)

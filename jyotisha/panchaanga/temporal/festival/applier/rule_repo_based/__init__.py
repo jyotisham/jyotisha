@@ -105,6 +105,9 @@ class RuleLookupAssigner(FestivalAssigner):
         if p_fday.get_date(month_type=month_type).month != month:
           # Example: Suppose festival is on tithi 27 of solar siderial month 10; last day of month 9 could have tithi 27, but not day 1 of month 10. 
           continue
+        if p_fday.date in self.festival_id_to_days[fest_id]:
+          # Already assigned (likely in the previous iteration).
+          continue
 
         assign_festival = priority not in ('puurvaviddha', 'vyaapti') or \
                           (p_fday_minus_1 is None or p_fday_minus_1.date not in self.festival_id_to_days[fest_id])

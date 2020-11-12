@@ -307,22 +307,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Vyatīpāta-Śrāddham
-DTSTART;VALUE=DATE-TIME:20190109T235957
-DTEND;VALUE=DATE-TIME:20190110T235957
-DESCRIPTION:Observed on  of every solar month (aparaahna/vyaapti).<br/>Vya
- tipata Shraddha day.<br/><br/>https%3A//github.com/sanskrit-coders/adyatit
- hi/tree/master/general/sidereal_solar_month/yoga/00/17/vyatIpAta-zrAddham_
- _info.toml<br/><br/>#MonthlyShraddhaDays #ShannavatiTarpanaDays
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Kūḍāravallī
 DTSTART;VALUE=DATE-TIME:20190110T235957
 DTEND;VALUE=DATE-TIME:20190111T235957

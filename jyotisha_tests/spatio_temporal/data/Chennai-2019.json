@@ -3771,10 +3771,6 @@
         "mahAdhanurvyatIpAta-zrAddham": {
           "jsonClass": "FestivalInstance",
           "name": "mahAdhanurvyatIpAta-zrAddham"
-        },
-        "vyatIpAta-zrAddham": {
-          "jsonClass": "FestivalInstance",
-          "name": "vyatIpAta-zrAddham"
         }
       },
       "jd_moonrise": 2458493.6628,
@@ -137258,12 +137254,6 @@
       }
     ],
     "vyatIpAta-zrAddham": [
-      {
-        "day": 10,
-        "jsonClass": "Date",
-        "month": 1,
-        "year": 2019
-      },
       {
         "day": 4,
         "jsonClass": "Date",

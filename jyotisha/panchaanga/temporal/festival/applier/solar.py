@@ -37,11 +37,11 @@ class SolarFestivalAssigner(FestivalAssigner):
       if self.daily_panchaangas[d].solar_sidereal_date_sunset.month == 1 and self.daily_panchaangas[d].solar_sidereal_date_sunset.day > 10:
         if agni_jd_start is not None:
           if self.daily_panchaangas[d].jd_sunset < agni_jd_start < self.daily_panchaangas[d + 1].jd_sunset:
-            self.festival_id_to_days['agninakSatra-ArambhaH'].add(self.daily_panchaangas[d].date + 1)
+            self.panchaanga.add_festival(fest_id='agninakSatra-ArambhaH', date=self.daily_panchaangas[d].date + 1)
       if self.daily_panchaangas[d].solar_sidereal_date_sunset.month == 2 and self.daily_panchaangas[d].solar_sidereal_date_sunset.day > 10:
         if agni_jd_end is not None:
           if self.daily_panchaangas[d].jd_sunset < agni_jd_end < self.daily_panchaangas[d + 1].jd_sunset:
-            self.festival_id_to_days['agninakSatra-samApanam'].add(self.daily_panchaangas[d].date + 1)
+            self.panchaanga.add_festival(fest_id='agninakSatra-samApanam', date=self.daily_panchaangas[d].date + 1)
 
   def assign_month_day_festivals(self):
     for d, daily_panchaanga in enumerate(self.daily_panchaangas):
@@ -72,20 +72,20 @@ class SolarFestivalAssigner(FestivalAssigner):
           (samvatsara_id % 60) + 1] + \
                  '-' + 'saMvatsaraH' + ')'
         # self.panchaanga.festival_id_to_days[new_yr] = [d]
-        self.festival_id_to_days[new_yr].add(self.daily_panchaangas[d].date)
-        self.festival_id_to_days['paJcAGga-paThanam'].add(self.daily_panchaangas[d].date)
+        self.panchaanga.add_festival(fest_id=new_yr, date=self.daily_panchaangas[d].date)
+        self.panchaanga.add_festival(fest_id='paJcAGga-paThanam', date=self.daily_panchaangas[d].date)
 
   def assign_vishesha_vyatipata(self):
     vs_list = copy(self.panchaanga.festival_id_to_days.get('vyatIpAta-zrAddham', []))
     for date in vs_list:
       if self.panchaanga.date_str_to_panchaanga[date.get_date_str()].solar_sidereal_date_sunset.month == 9:
-        self.panchaanga.festival_id_to_days['vyatIpAta-zrAddham'].remove(date)
+        self.panchaanga.delete_festival_date(fest_id='vyatIpAta-zrAddham', date=date)
         festival_name = 'mahAdhanurvyatIpAta-zrAddham'
-        self.festival_id_to_days[festival_name].add(date)
+        self.panchaanga.add_festival(fest_id=festival_name, date=date)
       elif self.panchaanga.date_str_to_panchaanga[date.get_date_str()].solar_sidereal_date_sunset.month == 6:
         self.panchaanga.festival_id_to_days['vyatIpAta-zrAddham'].remove(date)
         festival_name = 'mahAvyatIpAta-zrAddham'
-        self.festival_id_to_days[festival_name].add(date)
+        self.panchaanga.add_festival(fest_id=festival_name, date=date)
 
   def assign_gajachhaya_yoga(self, debug_festivals=False):
     for d, daily_panchaanga in enumerate(self.daily_panchaangas):
@@ -170,11 +170,11 @@ class SolarFestivalAssigner(FestivalAssigner):
             sunset_zodiac.get_anga(zodiac.AngaType.NAKSHATRA).index == 22:
           if daily_panchaanga.date.get_weekday() == 1:
             festival_name = 'mahOdaya-puNyakAlaH'
-            self.festival_id_to_days[festival_name].add(self.daily_panchaangas[d].date)
+            self.panchaanga.add_festival(fest_id=festival_name, date=self.daily_panchaangas[d].date)
             # logging.debug('* %d-%02d-%02d> %s!' % (y, m, dt, festival_name))
           elif daily_panchaanga.date.get_weekday() == 0:
             festival_name = 'ardhOdaya-puNyakAlaH'
-            self.festival_id_to_days[festival_name].add(self.daily_panchaangas[d].date)
+            self.panchaanga.add_festival(fest_id=festival_name, date=self.daily_panchaangas[d].date)
             # logging.debug('* %d-%02d-%02d> %s!' % (y, m, dt, festival_name))
       
 
