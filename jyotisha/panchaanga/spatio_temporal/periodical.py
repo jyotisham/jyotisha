@@ -120,13 +120,9 @@ class Panchaanga(common.JsonObject):
     """Festival assignments for padding days are not trustworthy - since one would need to look-ahead or before into further days for accurate festival assignment. They were computed only to ensure accurate computation of the core days in this panchaanga. To avoid misleading, we ought to clear festivals provisionally assigned to the padding days."""
     daily_panchaangas = self.daily_panchaangas_sorted()
     for dp in daily_panchaangas[:self.duration_prior_padding]:
-      for fest_id in dp.festival_id_to_instance.keys():
-        self.festival_id_to_days[fest_id].discard(dp.date)
-      dp.festival_id_to_instance = {}
+      self.delete_festivals_on_date(date=dp.date)
     for dp in daily_panchaangas[self.duration_prior_padding + self.duration:]:
-      for fest_id in dp.festival_id_to_instance.keys():
-        self.festival_id_to_days[fest_id].discard(dp.date)
-      dp.festival_id_to_instance = {}
+      self.delete_festivals_on_date(date=dp.date)
 
   @timebudget
   def update_festival_details(self, debug=False):
@@ -178,7 +174,25 @@ class Panchaanga(common.JsonObject):
   def delete_festival(self, fest_id):
     for date in self.festival_id_to_days.pop(fest_id, []):
       self.date_str_to_panchaanga[date.get_date_str()].festival_id_to_instance.pop(fest_id, None)
-    
+
+  def add_festival(self, fest_id, date):
+    p_fday = self.date_str_to_panchaanga[date.get_date_str()]
+    p_fday.festival_id_to_instance[fest_id] = FestivalInstance(name=fest_id)
+    self.festival_id_to_days[fest_id].add(date)
+
+  def delete_festival_date(self, fest_id, date):
+    self.festival_id_to_days[fest_id].discard(date)
+    if len(self.festival_id_to_days[fest_id]) == 0:
+      # Avoid empty items (when serializing).
+      self.delete_festival(fest_id=fest_id)
+    self.date_str_to_panchaanga[date.get_date_str()].festival_id_to_instance.pop(fest_id, None)
+
+  def delete_festivals_on_date(self, date):
+    # Reason for casting to list below: Avoid RuntimeError: dictionary changed size during iteration
+    dp = self.date_str_to_panchaanga[date.get_date_str()]
+    for fest_id in list(dp.festival_id_to_instance.keys()):
+      self.delete_festival_date(fest_id=fest_id, date=dp.date)
+
 
   def _refill_daily_panchaangas(self):
     """Avoids duplication for memory efficiency.

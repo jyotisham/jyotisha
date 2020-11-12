@@ -14952,11 +14952,6 @@
         }
       },
       "festival_id_to_instance": {
-        "kAJcI jagadguru zrI~zaGkara vijayEndra sarasvatI jayantI": {
-          "jsonClass": "FestivalInstance",
-          "name": "kAJcI jagadguru zrI~zaGkara vijayEndra sarasvatI jayantI",
-          "ordinal": 50
-        },
         "mAci~cevvAy": {
           "jsonClass": "FestivalInstance",
           "name": "mAci~cevvAy"
@@ -15297,16 +15292,7 @@
           "name": "yama"
         }
       },
-      "festival_id_to_instance": {
-        "vyatIpAta-zrAddham": {
-          "jsonClass": "FestivalInstance",
-          "name": "vyatIpAta-zrAddham"
-        },
-        "zravaNa-vratam": {
-          "jsonClass": "FestivalInstance",
-          "name": "zravaNa-vratam"
-        }
-      },
+      "festival_id_to_instance": {},
       "jd_moonrise": 2458164.5213,
       "jd_moonset": 2458163.9824,
       "jd_next_sunrise": 2458164.5452,
@@ -25117,12 +25103,7 @@
           "name": "yama"
         }
       },
-      "festival_id_to_instance": {
-        "daNDiyaDigaL nAyan2Ar (30) gurupUjai": {
-          "jsonClass": "FestivalInstance",
-          "name": "daNDiyaDigaL nAyan2Ar (30) gurupUjai"
-        }
-      },
+      "festival_id_to_instance": {},
       "jd_moonrise": 2458194.5194,
       "jd_moonset": 2458193.9969,
       "jd_next_sunrise": 2458194.5338,
@@ -34983,10 +34964,6 @@
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 47 jagadguru zrI~candrazEkharEndra sarasvatI 3 ArAdhanA",
           "ordinal": 853
-        },
-        "vaidhRti-zrAddham": {
-          "jsonClass": "FestivalInstance",
-          "name": "vaidhRti-zrAddham"
         }
       },
       "jd_moonrise": 2458224.5185,
@@ -44849,18 +44826,6 @@
         }
       },
       "festival_id_to_instance": {
-        "kRttikA-vratam": {
-          "jsonClass": "FestivalInstance",
-          "name": "kRttikA-vratam"
-        },
-        "kazhar2ciGga nAyan2Ar (51) gurupUjai": {
-          "jsonClass": "FestivalInstance",
-          "name": "kazhar2ciGga nAyan2Ar (51) gurupUjai"
-        },
-        "vaizAkha-amAvAsyA (alabhyam\u2013puSkalA)": {
-          "jsonClass": "FestivalInstance",
-          "name": "vaizAkha-amAvAsyA (alabhyam\u2013puSkalA)"
-        },
         "vaizAkha-mAsa-samApanam": {
           "jsonClass": "FestivalInstance",
           "name": "vaizAkha-mAsa-samApanam"
@@ -55545,10 +55510,6 @@
           "jsonClass": "FestivalInstance",
           "name": "kadalI-gaurI-vratam or pUjA"
         },
-        "pugazhttuNai nAyan2Ar (54) gurupUjai": {
-          "jsonClass": "FestivalInstance",
-          "name": "pugazhttuNai nAyan2Ar (54) gurupUjai"
-        },
         "ravipuSyayOga-puNyakAlaH": {
           "jsonClass": "FestivalInstance",
           "name": "ravipuSyayOga-puNyakAlaH"
@@ -55905,10 +55866,6 @@
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 6 jagadguru zrI~zuddhAnandEndra sarasvatI ArAdhanA",
           "ordinal": 2142
-        },
-        "mANikkavAcakar gurupUjai": {
-          "jsonClass": "FestivalInstance",
-          "name": "mANikkavAcakar gurupUjai"
         },
         "zrInivAsamaGgApurE sAkSAtkAra-vaibhavOtsava-ArambhaH": {
           "jsonClass": "FestivalInstance",
@@ -56619,10 +56576,6 @@
         "naTarAjar An2i tirumaJcan2am": {
           "jsonClass": "FestivalInstance",
           "name": "naTarAjar An2i tirumaJcan2am"
-        },
-        "vyatIpAta-zrAddham": {
-          "jsonClass": "FestivalInstance",
-          "name": "vyatIpAta-zrAddham"
         },
         "zrInivAsamaGgApurE sAkSAtkAra-vaibhavOtsava-samApanam": {
           "jsonClass": "FestivalInstance",
@@ -65417,10 +65370,6 @@
           "jsonClass": "FestivalInstance",
           "name": "skanda-paJcamI"
         },
-        "tiruvADippUram": {
-          "jsonClass": "FestivalInstance",
-          "name": "tiruvADippUram"
-        },
         "zamI-gaurI-vratam": {
           "jsonClass": "FestivalInstance",
           "name": "zamI-gaurI-vratam"
@@ -66070,10 +66019,6 @@
         }
       },
       "festival_id_to_instance": {
-        "perumizhalaik kur2umba nAyan2Ar (22) gurupUjai": {
-          "jsonClass": "FestivalInstance",
-          "name": "perumizhalaik kur2umba nAyan2Ar (22) gurupUjai"
-        },
         "sarvanadI-rajasvalA~3": {
           "jsonClass": "FestivalInstance",
           "name": "sarvanadI-rajasvalA~3"
@@ -72247,10 +72192,6 @@
           "jsonClass": "FestivalInstance",
           "name": "smArta-kAmikA-EkAdazI"
         },
-        "tiruccendUr murugan2 AvaNit tiruvizhA toDakkam or koDiyEr2r2am": {
-          "jsonClass": "FestivalInstance",
-          "name": "tiruccendUr murugan2 AvaNit tiruvizhA toDakkam or koDiyEr2r2am"
-        },
         "tiruppANAzhvAr tirunakSattiram": {
           "jsonClass": "FestivalInstance",
           "name": "tiruppANAzhvAr tirunakSattiram"
@@ -72618,10 +72559,6 @@
           "jsonClass": "FestivalInstance",
           "name": "kUr2r2uva nAyan2Ar (38) gurupUjai"
         },
-        "tiruccendUr murugan2 AvaNit tiruvizhA ##2##m nAL": {
-          "jsonClass": "FestivalInstance",
-          "name": "tiruccendUr murugan2 AvaNit tiruvizhA ##2##m nAL"
-        },
         "vaiSNava-kAmikA-EkAdazI": {
           "jsonClass": "FestivalInstance",
           "name": "vaiSNava-kAmikA-EkAdazI"
@@ -72944,10 +72881,6 @@
         "pradOSa-vratam": {
           "jsonClass": "FestivalInstance",
           "name": "pradOSa-vratam"
-        },
-        "tiruccendUr murugan2 AvaNit tiruvizhA ##3##m nAL\u2014murugan2 bhavan2i": {
-          "jsonClass": "FestivalInstance",
-          "name": "tiruccendUr murugan2 AvaNit tiruvizhA ##3##m nAL\u2014murugan2 bhavan2i"
         }
       },
       "jd_moonrise": 2458340.4583,
@@ -73283,10 +73216,6 @@
         "ADi~veLLikkizhamai": {
           "jsonClass": "FestivalInstance",
           "name": "ADi~veLLikkizhamai"
-        },
-        "tiruccendUr murugan2 AvaNit tiruvizhA ##4##m nAL\u2014yAn2ai vAhanattil murugan2-ambAL bhavan2i": {
-          "jsonClass": "FestivalInstance",
-          "name": "tiruccendUr murugan2 AvaNit tiruvizhA ##4##m nAL\u2014yAn2ai vAhanattil murugan2-ambAL bhavan2i"
         },
         "vyatIpAta-zrAddham": {
           "jsonClass": "FestivalInstance",
@@ -73643,10 +73572,6 @@
         "pati-saJjIvanI-vratam": {
           "jsonClass": "FestivalInstance",
           "name": "pati-saJjIvanI-vratam"
-        },
-        "tiruccendUr murugan2 AvaNit tiruvizhA ##5##m nAL": {
-          "jsonClass": "FestivalInstance",
-          "name": "tiruccendUr murugan2 AvaNit tiruvizhA ##5##m nAL"
         }
       },
       "jd_moonrise": 2458342.5467,
@@ -73972,10 +73897,6 @@
         "candra-darzanam": {
           "jsonClass": "FestivalInstance",
           "name": "candra-darzanam"
-        },
-        "tiruccendUr murugan2 AvaNit tiruvizhA ##6##m nAL\u2014veLLit tEr bhavan2i": {
-          "jsonClass": "FestivalInstance",
-          "name": "tiruccendUr murugan2 AvaNit tiruvizhA ##6##m nAL\u2014veLLit tEr bhavan2i"
         }
       },
       "jd_moonrise": 2458342.5467,
@@ -74321,10 +74242,6 @@
         "svarNa-gaurI-vratam": {
           "jsonClass": "FestivalInstance",
           "name": "svarNa-gaurI-vratam"
-        },
-        "tiruccendUr murugan2 AvaNit tiruvizhA ##7##m nAL\u2014cigappu cAtti alaGkAram": {
-          "jsonClass": "FestivalInstance",
-          "name": "tiruccendUr murugan2 AvaNit tiruvizhA ##7##m nAL\u2014cigappu cAtti alaGkAram"
         },
         "tiruvADippUram": {
           "jsonClass": "FestivalInstance",
@@ -74678,10 +74595,6 @@
         "sukhA~aGgAraka-caturthI": {
           "jsonClass": "FestivalInstance",
           "name": "sukhA~aGgAraka-caturthI"
-        },
-        "tiruccendUr murugan2 AvaNit tiruvizhA ##8##m nAL\u2014paccai cAtti alaGkAram": {
-          "jsonClass": "FestivalInstance",
-          "name": "tiruccendUr murugan2 AvaNit tiruvizhA ##8##m nAL\u2014paccai cAtti alaGkAram"
         }
       },
       "jd_moonrise": 2458344.6281,
@@ -75001,10 +74914,6 @@
         "nAga-paJcamI": {
           "jsonClass": "FestivalInstance",
           "name": "nAga-paJcamI"
-        },
-        "tiruccendUr murugan2 AvaNit tiruvizhA ##9##m nAL": {
-          "jsonClass": "FestivalInstance",
-          "name": "tiruccendUr murugan2 AvaNit tiruvizhA ##9##m nAL"
         }
       },
       "jd_moonrise": 2458345.6665,
@@ -75342,10 +75251,6 @@
         "sUpaudana-vratam": {
           "jsonClass": "FestivalInstance",
           "name": "sUpaudana-vratam"
-        },
-        "tiruccendUr murugan2 AvaNit tiruvizhA ##10##m nAL\u2014tEr": {
-          "jsonClass": "FestivalInstance",
-          "name": "tiruccendUr murugan2 AvaNit tiruvizhA ##10##m nAL\u2014tEr"
         }
       },
       "jd_moonrise": 2458346.7041,
@@ -75674,10 +75579,6 @@
           "jsonClass": "FestivalInstance",
           "name": "pApanAzanI~saptamI"
         },
-        "tiruccendUr murugan2 AvaNit tiruvizhA ##11##m nAL": {
-          "jsonClass": "FestivalInstance",
-          "name": "tiruccendUr murugan2 AvaNit tiruvizhA ##11##m nAL"
-        },
         "tulasIdAsa~jayantI": {
           "jsonClass": "FestivalInstance",
           "name": "tulasIdAsa~jayantI"
@@ -76005,10 +75906,6 @@
         "durgA-vrata-ArambhaH": {
           "jsonClass": "FestivalInstance",
           "name": "durgA-vrata-ArambhaH"
-        },
-        "tiruccendUr AvaNit tiruvizhA nir2aivu": {
-          "jsonClass": "FestivalInstance",
-          "name": "tiruccendUr AvaNit tiruvizhA nir2aivu"
         }
       },
       "jd_moonrise": 2458348.7781,
@@ -76338,10 +76235,6 @@
         "kaumArI-pUjA": {
           "jsonClass": "FestivalInstance",
           "name": "kaumArI-pUjA"
-        },
-        "kulaccirai nAyan2Ar (21) gurupUjai": {
-          "jsonClass": "FestivalInstance",
-          "name": "kulaccirai nAyan2Ar (21) gurupUjai"
         }
       },
       "jd_moonrise": 2458349.8146,
@@ -76662,10 +76555,6 @@
         "vEda or dadhi-vrata-ArambhaH": {
           "jsonClass": "FestivalInstance",
           "name": "vEda or dadhi-vrata-ArambhaH"
-        },
-        "vaidhRti-zrAddham": {
-          "jsonClass": "FestivalInstance",
-          "name": "vaidhRti-zrAddham"
         }
       },
       "jd_moonrise": 2458350.8504,
@@ -86946,10 +86835,6 @@
         }
       },
       "festival_id_to_instance": {
-        "En2AdinAtha nAyan2Ar (8) gurupUjai": {
-          "jsonClass": "FestivalInstance",
-          "name": "En2AdinAtha nAyan2Ar (8) gurupUjai"
-        },
         "kaTadAnOtsavaH": {
           "jsonClass": "FestivalInstance",
           "name": "kaTadAnOtsavaH"
@@ -96216,10 +96101,6 @@
           "jsonClass": "FestivalInstance",
           "name": "manvAdiH~(svAyambhuvaH~[1])"
         },
-        "poygaiyAzhvAr tirunakSattiram": {
-          "jsonClass": "FestivalInstance",
-          "name": "poygaiyAzhvAr tirunakSattiram"
-        },
         "tulA-kAvErI-snAna-ArambhaH": {
           "jsonClass": "FestivalInstance",
           "name": "tulA-kAvErI-snAna-ArambhaH"
@@ -96231,10 +96112,6 @@
         "zarannavarAtra-samApanam": {
           "jsonClass": "FestivalInstance",
           "name": "zarannavarAtra-samApanam"
-        },
-        "zravaNa-vratam": {
-          "jsonClass": "FestivalInstance",
-          "name": "zravaNa-vratam"
         }
       },
       "jd_moonrise": 2458409.8378,
@@ -96554,10 +96431,6 @@
         "bhRguvAra-subrahmaNya-vratam": {
           "jsonClass": "FestivalInstance",
           "name": "bhRguvAra-subrahmaNya-vratam"
-        },
-        "bhUtattAzhvAr tirunakSattiram": {
-          "jsonClass": "FestivalInstance",
-          "name": "bhUtattAzhvAr tirunakSattiram"
         },
         "dazaharA": {
           "jsonClass": "FestivalInstance",
@@ -115677,14 +115550,6 @@
           "jsonClass": "FestivalInstance",
           "name": "SaDazIti-dhanurraviH"
         },
-        "mahAdhanurvyatIpAta-snAnam": {
-          "jsonClass": "FestivalInstance",
-          "name": "mahAdhanurvyatIpAta-snAnam"
-        },
-        "mahAdhanurvyatIpAta-zrAddham": {
-          "jsonClass": "FestivalInstance",
-          "name": "mahAdhanurvyatIpAta-zrAddham"
-        },
         "pralaya-kalpAdiH": {
           "jsonClass": "FestivalInstance",
           "name": "pralaya-kalpAdiH"
@@ -115692,10 +115557,6 @@
         "vanadurgAnavarAtra-samApanam": {
           "jsonClass": "FestivalInstance",
           "name": "vanadurgAnavarAtra-samApanam"
-        },
-        "vyatIpAta-zrAddham": {
-          "jsonClass": "FestivalInstance",
-          "name": "vyatIpAta-zrAddham"
         }
       },
       "jd_moonrise": 2458468.7988,
@@ -115988,12 +115849,7 @@
           "name": "yama"
         }
       },
-      "festival_id_to_instance": {
-        "vAyilAr nAyan2Ar (49) gurupUjai": {
-          "jsonClass": "FestivalInstance",
-          "name": "vAyilAr nAyan2Ar (49) gurupUjai"
-        }
-      },
+      "festival_id_to_instance": {},
       "jd_moonrise": 2458469.8256,
       "jd_moonset": 2458470.3515,
       "jd_next_sunrise": 2458470.5405,
@@ -120642,7 +120498,12 @@
           "name": "yama"
         }
       },
-      "festival_id_to_instance": {},
+      "festival_id_to_instance": {
+        "mAn2akkaJcAr2a nAyan2Ar (11) gurupUjai": {
+          "jsonClass": "FestivalInstance",
+          "name": "mAn2akkaJcAr2a nAyan2Ar (11) gurupUjai"
+        }
+      },
       "jd_moonrise": 2458484.3646,
       "jd_moonset": 2458483.8288,
       "jd_next_sunrise": 2458484.545,
@@ -130064,12 +129925,6 @@
     ],
     "En2AdinAtha nAyan2Ar (8) gurupUjai": [
       {
-        "day": 20,
-        "jsonClass": "Date",
-        "month": 9,
-        "year": 2018
-      },
-      {
         "day": 17,
         "jsonClass": "Date",
         "month": 10,
@@ -130756,12 +130611,6 @@
     ],
     "bhUtattAzhvAr tirunakSattiram": [
       {
-        "day": 19,
-        "jsonClass": "Date",
-        "month": 10,
-        "year": 2018
-      },
-      {
         "day": 16,
         "jsonClass": "Date",
         "month": 11,
@@ -131351,12 +131200,6 @@
       }
     ],
     "daNDiyaDigaL nAyan2Ar (30) gurupUjai": [
-      {
-        "day": 16,
-        "jsonClass": "Date",
-        "month": 3,
-        "year": 2018
-      },
       {
         "day": 12,
         "jsonClass": "Date",
@@ -132780,12 +132623,6 @@
       {
         "day": 13,
         "jsonClass": "Date",
-        "month": 2,
-        "year": 2018
-      },
-      {
-        "day": 13,
-        "jsonClass": "Date",
         "month": 3,
         "year": 2018
       }
@@ -133047,12 +132884,6 @@
         "day": 18,
         "jsonClass": "Date",
         "month": 4,
-        "year": 2018
-      },
-      {
-        "day": 15,
-        "jsonClass": "Date",
-        "month": 5,
         "year": 2018
       },
       {
@@ -133500,12 +133331,6 @@
     ],
     "kazhar2ciGga nAyan2Ar (51) gurupUjai": [
       {
-        "day": 15,
-        "jsonClass": "Date",
-        "month": 5,
-        "year": 2018
-      },
-      {
         "day": 11,
         "jsonClass": "Date",
         "month": 6,
@@ -133569,12 +133394,6 @@
       }
     ],
     "kulaccirai nAyan2Ar (21) gurupUjai": [
-      {
-        "day": 19,
-        "jsonClass": "Date",
-        "month": 8,
-        "year": 2018
-      },
       {
         "day": 15,
         "jsonClass": "Date",
@@ -133696,12 +133515,6 @@
     ],
     "mANikkavAcakar gurupUjai": [
       {
-        "day": 18,
-        "jsonClass": "Date",
-        "month": 6,
-        "year": 2018
-      },
-      {
         "day": 16,
         "jsonClass": "Date",
         "month": 7,
@@ -133818,6 +133631,12 @@
         "jsonClass": "Date",
         "month": 1,
         "year": 2018
+      },
+      {
+        "day": 31,
+        "jsonClass": "Date",
+        "month": 12,
+        "year": 2018
       }
     ],
     "mArgazIrSa-aSTakA-pUrvEdyuH": [
@@ -133836,7 +133655,6 @@
         "year": 2018
       }
     ],
-    "mArgazIrSa-amAvAsyA": [],
     "mArgazIrSa-anvaSTakA-zrAddham": [
       {
         "day": 30,
@@ -134100,22 +133918,6 @@
         "day": 30,
         "jsonClass": "Date",
         "month": 11,
-        "year": 2018
-      }
-    ],
-    "mahAdhanurvyatIpAta-snAnam": [
-      {
-        "day": 16,
-        "jsonClass": "Date",
-        "month": 12,
-        "year": 2018
-      }
-    ],
-    "mahAdhanurvyatIpAta-zrAddham": [
-      {
-        "day": 16,
-        "jsonClass": "Date",
-        "month": 12,
         "year": 2018
       }
     ],
@@ -134929,12 +134731,6 @@
     ],
     "perumizhalaik kur2umba nAyan2Ar (22) gurupUjai": [
       {
-        "day": 19,
-        "jsonClass": "Date",
-        "month": 7,
-        "year": 2018
-      },
-      {
         "day": 16,
         "jsonClass": "Date",
         "month": 8,
@@ -134990,12 +134786,6 @@
       }
     ],
     "poygaiyAzhvAr tirunakSattiram": [
-      {
-        "day": 18,
-        "jsonClass": "Date",
-        "month": 10,
-        "year": 2018
-      },
       {
         "day": 15,
         "jsonClass": "Date",
@@ -135146,12 +134936,6 @@
       }
     ],
     "pugazhttuNai nAyan2Ar (54) gurupUjai": [
-      {
-        "day": 17,
-        "jsonClass": "Date",
-        "month": 6,
-        "year": 2018
-      },
       {
         "day": 15,
         "jsonClass": "Date",
@@ -136103,12 +135887,6 @@
     ],
     "tiruccendUr AvaNit tiruvizhA nir2aivu": [
       {
-        "day": 18,
-        "jsonClass": "Date",
-        "month": 8,
-        "year": 2018
-      },
-      {
         "day": 14,
         "jsonClass": "Date",
         "month": 9,
@@ -136125,12 +135903,6 @@
     ],
     "tiruccendUr murugan2 AvaNit tiruvizhA ##10##m nAL\u2014tEr": [
       {
-        "day": 16,
-        "jsonClass": "Date",
-        "month": 8,
-        "year": 2018
-      },
-      {
         "day": 12,
         "jsonClass": "Date",
         "month": 9,
@@ -136138,12 +135910,6 @@
       }
     ],
     "tiruccendUr murugan2 AvaNit tiruvizhA ##11##m nAL": [
-      {
-        "day": 17,
-        "jsonClass": "Date",
-        "month": 8,
-        "year": 2018
-      },
       {
         "day": 13,
         "jsonClass": "Date",
@@ -136153,12 +135919,6 @@
     ],
     "tiruccendUr murugan2 AvaNit tiruvizhA ##2##m nAL": [
       {
-        "day": 8,
-        "jsonClass": "Date",
-        "month": 8,
-        "year": 2018
-      },
-      {
         "day": 4,
         "jsonClass": "Date",
         "month": 9,
@@ -136166,12 +135926,6 @@
       }
     ],
     "tiruccendUr murugan2 AvaNit tiruvizhA ##3##m nAL\u2014murugan2 bhavan2i": [
-      {
-        "day": 9,
-        "jsonClass": "Date",
-        "month": 8,
-        "year": 2018
-      },
       {
         "day": 5,
         "jsonClass": "Date",
@@ -136181,12 +135935,6 @@
     ],
     "tiruccendUr murugan2 AvaNit tiruvizhA ##4##m nAL\u2014yAn2ai vAhanattil murugan2-ambAL bhavan2i": [
       {
-        "day": 10,
-        "jsonClass": "Date",
-        "month": 8,
-        "year": 2018
-      },
-      {
         "day": 6,
         "jsonClass": "Date",
         "month": 9,
@@ -136194,12 +135942,6 @@
       }
     ],
     "tiruccendUr murugan2 AvaNit tiruvizhA ##5##m nAL": [
-      {
-        "day": 11,
-        "jsonClass": "Date",
-        "month": 8,
-        "year": 2018
-      },
       {
         "day": 7,
         "jsonClass": "Date",
@@ -136209,12 +135951,6 @@
     ],
     "tiruccendUr murugan2 AvaNit tiruvizhA ##6##m nAL\u2014veLLit tEr bhavan2i": [
       {
-        "day": 12,
-        "jsonClass": "Date",
-        "month": 8,
-        "year": 2018
-      },
-      {
         "day": 8,
         "jsonClass": "Date",
         "month": 9,
@@ -136222,12 +135958,6 @@
       }
     ],
     "tiruccendUr murugan2 AvaNit tiruvizhA ##7##m nAL\u2014cigappu cAtti alaGkAram": [
-      {
-        "day": 13,
-        "jsonClass": "Date",
-        "month": 8,
-        "year": 2018
-      },
       {
         "day": 9,
         "jsonClass": "Date",
@@ -136237,12 +135967,6 @@
     ],
     "tiruccendUr murugan2 AvaNit tiruvizhA ##8##m nAL\u2014paccai cAtti alaGkAram": [
       {
-        "day": 14,
-        "jsonClass": "Date",
-        "month": 8,
-        "year": 2018
-      },
-      {
         "day": 10,
         "jsonClass": "Date",
         "month": 9,
@@ -136251,12 +135975,6 @@
     ],
     "tiruccendUr murugan2 AvaNit tiruvizhA ##9##m nAL": [
       {
-        "day": 15,
-        "jsonClass": "Date",
-        "month": 8,
-        "year": 2018
-      },
-      {
         "day": 11,
         "jsonClass": "Date",
         "month": 9,
@@ -136264,12 +135982,6 @@
       }
     ],
     "tiruccendUr murugan2 AvaNit tiruvizhA toDakkam or koDiyEr2r2am": [
-      {
-        "day": 7,
-        "jsonClass": "Date",
-        "month": 8,
-        "year": 2018
-      },
       {
         "day": 3,
         "jsonClass": "Date",
@@ -136462,12 +136174,6 @@
       }
     ],
     "tiruvADippUram": [
-      {
-        "day": 17,
-        "jsonClass": "Date",
-        "month": 7,
-        "year": 2018
-      },
       {
         "day": 13,
         "jsonClass": "Date",
@@ -136726,14 +136432,6 @@
         "day": 24,
         "jsonClass": "Date",
         "month": 7,
-        "year": 2018
-      }
-    ],
-    "vAyilAr nAyan2Ar (49) gurupUjai": [
-      {
-        "day": 17,
-        "jsonClass": "Date",
-        "month": 12,
         "year": 2018
       }
     ],
@@ -137027,12 +136725,6 @@
         "year": 2018
       },
       {
-        "day": 15,
-        "jsonClass": "Date",
-        "month": 4,
-        "year": 2018
-      },
-      {
         "day": 10,
         "jsonClass": "Date",
         "month": 5,
@@ -137054,12 +136746,6 @@
         "day": 25,
         "jsonClass": "Date",
         "month": 7,
-        "year": 2018
-      },
-      {
-        "day": 20,
-        "jsonClass": "Date",
-        "month": 8,
         "year": 2018
       },
       {
@@ -137114,14 +136800,6 @@
         "day": 19,
         "jsonClass": "Date",
         "month": 7,
-        "year": 2018
-      }
-    ],
-    "vaizAkha-amAvAsyA (alabhyam\u2013puSkalA)": [
-      {
-        "day": 15,
-        "jsonClass": "Date",
-        "month": 5,
         "year": 2018
       }
     ],
@@ -137481,12 +137159,6 @@
         "year": 2018
       },
       {
-        "day": 14,
-        "jsonClass": "Date",
-        "month": 2,
-        "year": 2018
-      },
-      {
         "day": 11,
         "jsonClass": "Date",
         "month": 3,
@@ -137508,12 +137180,6 @@
         "day": 26,
         "jsonClass": "Date",
         "month": 5,
-        "year": 2018
-      },
-      {
-        "day": 20,
-        "jsonClass": "Date",
-        "month": 6,
         "year": 2018
       },
       {
@@ -137550,12 +137216,6 @@
         "day": 21,
         "jsonClass": "Date",
         "month": 11,
-        "year": 2018
-      },
-      {
-        "day": 16,
-        "jsonClass": "Date",
-        "month": 12,
         "year": 2018
       }
     ],
@@ -137981,7 +137641,6 @@
         "year": 2018
       }
     ],
-    "zrI~hanUmat~jayantI~1": [],
     "zrI~hanUmat~jayantI~2": [
       {
         "day": 31,
@@ -138040,12 +137699,6 @@
       {
         "day": 14,
         "jsonClass": "Date",
-        "month": 2,
-        "year": 2018
-      },
-      {
-        "day": 14,
-        "jsonClass": "Date",
         "month": 3,
         "year": 2018
       },
@@ -138089,12 +137742,6 @@
         "day": 21,
         "jsonClass": "Date",
         "month": 9,
-        "year": 2018
-      },
-      {
-        "day": 18,
-        "jsonClass": "Date",
-        "month": 10,
         "year": 2018
       },
       {

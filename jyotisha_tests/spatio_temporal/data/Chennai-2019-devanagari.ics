@@ -492,23 +492,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Tirunêlveli Nêllaiyappar Nêllukku Veli Kaṭṭiya Līlai
-DTSTART;VALUE=DATE-TIME:20190114T235957
-DTEND;VALUE=DATE-TIME:20190115T235957
-DESCRIPTION:Observed on Aśvinī nakṣhatram day of Makaraḥ (solar) mon
- th (sunrise/puurvaviddha).<br/><br/><br/>https%3A//github.com/sanskrit-cod
- ers/adyatithi/tree/master/temples/Tamil/sidereal_solar_month/nakshatra/10/
- 01/tirunelvEli%20nellaiyappar%20nellukku%20vEli%20kaTTiya%20lIlai__info.to
- ml<br/><br/>#TamilnaduTempleFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Indra-Pūjā/Go-Pūjā
 DTSTART;VALUE=DATE-TIME:20190115T235957
 DTEND;VALUE=DATE-TIME:20190116T235957
@@ -737,6 +720,21 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Kapālī Têppotsavam
+DTSTART;VALUE=DATE-TIME:20190118T235957
+DTEND;VALUE=DATE-TIME:20190119T235957
+DESCRIPTION:https%3A//github.com/sanskrit-coders/adyatithi/tree/master/tem
+ ples/Tamil/relative_event/taippUcam/offset__-1/kapAlI%20teppOtsavam~1__inf
+ o.toml<br/><br/>#TamilnaduTempleFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Kāñchī 8 Jagadguru Śrī Kaivalyānandayogendra Sarasvatī Ār
  ādhanā
 DTSTART;VALUE=DATE-TIME:20190119T235957
@@ -765,8 +763,25 @@ SUMMARY:Kapālī Têppotsavam
 DTSTART;VALUE=DATE-TIME:20190119T235957
 DTEND;VALUE=DATE-TIME:20190120T235957
 DESCRIPTION:https%3A//github.com/sanskrit-coders/adyatithi/tree/master/tem
- ples/Tamil/relative_event/taippUcam/offset__-1/kapAlI%20teppOtsavam~1__inf
+ ples/Tamil/relative_event/taippUcam/offset__00/kapAlI%20teppOtsavam~2__inf
  o.toml<br/><br/>#TamilnaduTempleFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Taippūcham
+DTSTART;VALUE=DATE-TIME:20190119T235957
+DTEND;VALUE=DATE-TIME:20190120T235957
+DESCRIPTION:Observed on Puṣyaḥ nakṣhatram day of Makaraḥ (solar) m
+ onth (raatrimaana/puurvaviddha).<br/><br/><br/>https%3A//github.com/sanskr
+ it-coders/adyatithi/tree/master/temples/Tamil/sidereal_solar_month/nakshat
+ ra/10/08/taippUcam__info.toml<br/><br/>#TamilnaduTempleFestivals #CommonFe
+ stivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -833,7 +848,7 @@ SUMMARY:Kapālī Têppotsavam
 DTSTART;VALUE=DATE-TIME:20190120T235957
 DTEND;VALUE=DATE-TIME:20190121T235957
 DESCRIPTION:https%3A//github.com/sanskrit-coders/adyatithi/tree/master/tem
- ples/Tamil/relative_event/taippUcam/offset__00/kapAlI%20teppOtsavam~2__inf
+ ples/Tamil/relative_event/taippUcam/offset__01/kapAlI%20teppOtsavam~3__inf
  o.toml<br/><br/>#TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
@@ -852,23 +867,6 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of every lunar month (sunrise
  Lord Satyanarayana.<br/><br/>https%3A//github.com/sanskrit-coders/adyatith
  i/tree/master/general/lunar_month/tithi/00/15/pUrNimA~vratam__info.toml<br
  /><br/>#MonthlyFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Taippūcham
-DTSTART;VALUE=DATE-TIME:20190120T235957
-DTEND;VALUE=DATE-TIME:20190121T235957
-DESCRIPTION:Observed on Puṣyaḥ nakṣhatram day of Makaraḥ (solar) m
- onth (raatrimaana/puurvaviddha).<br/><br/><br/>https%3A//github.com/sanskr
- it-coders/adyatithi/tree/master/temples/Tamil/sidereal_solar_month/nakshat
- ra/10/08/taippUcam__info.toml<br/><br/>#TamilnaduTempleFestivals #CommonFe
- stivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -953,21 +951,6 @@ DESCRIPTION:Observed on Kṛṣṇa-Dvitīyā tithi of Pauṣaḥ (lunar)
  thub.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lu
  nar_month/tithi/10/17/kAJcI%2062%20jagadguru%20zrI~candrazEkharEndra%20sar
  asvatI%204%20ArAdhanA__info.toml<br/><br/>#KanchiAradhanaDays
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Kapālī Têppotsavam
-DTSTART;VALUE=DATE-TIME:20190121T235957
-DTEND;VALUE=DATE-TIME:20190122T235957
-DESCRIPTION:https%3A//github.com/sanskrit-coders/adyatithi/tree/master/tem
- ples/Tamil/relative_event/taippUcam/offset__01/kapAlI%20teppOtsavam~3__inf
- o.toml<br/><br/>#TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1899,24 +1882,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Kṛttikā-Vratam
-DTSTART;VALUE=DATE-TIME:20190212T235957
-DTEND;VALUE=DATE-TIME:20190213T235957
-DESCRIPTION:Observed on Kṛttikā nakṣhatram day of every solar month (
- sunset/puurvaviddha (default)).<br/>kṛttikā-vratam for Lord Subrahmanya
- . Observe fast for the entire day\, and obtain blessings of all the kṛtt
- ikā-striyaḥ who raised skanda after His birth.<br/><br/>https%3A//githu
- b.com/sanskrit-coders/adyatithi/tree/master/general/sidereal_solar_month/n
- akshatra/00/03/kRttikA-vratam__info.toml<br/><br/>#SpecialVratam
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Khoḍiyāra Mātā Jayantī
 DTSTART;VALUE=DATE-TIME:20190212T235957
 DTEND;VALUE=DATE-TIME:20190213T235957
@@ -2020,22 +1985,6 @@ DESCRIPTION:https%3A//github.com/sanskrit-coders/adyatithi/tree/master/tem
  t__-5/tiruccendUr%20murugan2%20mAcit%20tiruvizhA%20%23%237%23%23m%20nAL%E2
  %80%94urugu%20cattac%20cEvai%20or%20cigappu%20cAtti%20alaGkAram__info.toml
  <br/><br/>#TamilnaduTempleFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Vaidhṛti-Śrāddham
-DTSTART;VALUE=DATE-TIME:20190213T235957
-DTEND;VALUE=DATE-TIME:20190214T235957
-DESCRIPTION:Observed on  of every solar month (aparaahna/vyaapti).<br/>Vai
- dhrti Shraddha day.<br/><br/>https%3A//github.com/sanskrit-coders/adyatith
- i/tree/master/general/sidereal_solar_month/yoga/00/27/vaidhRti-zrAddham__i
- nfo.toml<br/><br/>#MonthlyShraddhaDays #ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3242,23 +3191,6 @@ DESCRIPTION:Observed on day 1 of Mīnaḥ (solar) month (sunrise (default)
  /puurvaviddha (default)).<br/><br/><br/>https%3A//github.com/sanskrit-code
  rs/adyatithi/tree/master/general/sidereal_solar_month/day/12/01/SaDazIti-m
  InaraviH__info.toml<br/><br/>#SunSankranti
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Gaṇanātha Nāyanār (37) Gurupūjai
-DTSTART;VALUE=DATE-TIME:20190314T235957
-DTEND;VALUE=DATE-TIME:20190315T235957
-DESCRIPTION:Observed on Ārdrā nakṣhatram day of Mīnaḥ (solar) month
-  (praatah/paraviddha).<br/><br/><br/>https%3A//github.com/sanskrit-coders/
- adyatithi/tree/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatra/1
- 2/06/gaNanAtha%20nAyan2Ar%20%2837%29%20gurupUjai__info.toml<br/><br/>#Naya
- narGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4699,23 +4631,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Munaiyaḍuvār Nāyanār (50) Gurupūjai
-DTSTART;VALUE=DATE-TIME:20190412T235957
-DTEND;VALUE=DATE-TIME:20190413T235957
-DESCRIPTION:Observed on Puṣyaḥ nakṣhatram day of Mīnaḥ (solar) mo
- nth (praatah/paraviddha).<br/><br/><br/>https%3A//github.com/sanskrit-code
- rs/adyatithi/tree/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatr
- a/12/08/mun2aiyaDuvAr%20nAyan2Ar%20%2850%29%20gurupUjai__info.toml<br/><br
- />#NayanarGurupujai
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Śrīrāmanavamī
 DTSTART;VALUE=DATE-TIME:20190412T235957
 DTEND;VALUE=DATE-TIME:20190413T235957
@@ -4986,23 +4901,6 @@ DESCRIPTION:Observed on Śukla-Trayodaśī tithi of Caitraḥ (lunar) mont
  s%3A//github.com/sanskrit-coders/adyatithi/tree/master/temples/Odisha/luna
  r_month/tithi/01/13/damanaka-cOrI-utsavaH__info.toml<br/><br/>#OdishaTempl
  eFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Mīnākṣī Tirukkalyāṇam
-DTSTART;VALUE=DATE-TIME:20190416T235957
-DTEND;VALUE=DATE-TIME:20190417T235957
-DESCRIPTION:Observed on Uttaraphalgunī nakṣhatram day of Meṣaḥ (sol
- ar) month (madhyaahna/puurvaviddha (default)).<br/><br/><br/>https%3A//git
- hub.com/sanskrit-coders/adyatithi/tree/master/temples/Tamil/sidereal_solar
- _month/nakshatra/01/12/mIn2AkSI%20tirukkalyANam__info.toml<br/><br/>#Tamil
- naduTempleFestivals #CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6652,22 +6550,6 @@ DESCRIPTION:Observed on Śukla-Caturdaśī tithi of Vaiśākhaḥ (lunar)
  month (sunset/puurvaviddha).<br/>Monday Swati?<br/><br/>https%3A//github.c
  om/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/02/14/n
  RsiMha~jayantI__info.toml<br/><br/>#Dashavataram #CommonFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Vyatīpāta-Śrāddham
-DTSTART;VALUE=DATE-TIME:20190516T235957
-DTEND;VALUE=DATE-TIME:20190517T235957
-DESCRIPTION:Observed on  of every solar month (aparaahna/vyaapti).<br/>Vya
- tipata Shraddha day.<br/><br/>https%3A//github.com/sanskrit-coders/adyatit
- hi/tree/master/general/sidereal_solar_month/yoga/00/17/vyatIpAta-zrAddham_
- _info.toml<br/><br/>#MonthlyShraddhaDays #ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8510,23 +8392,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Jyeṣṭhābhiṣekam
-DTSTART;VALUE=DATE-TIME:20190616T235957
-DTEND;VALUE=DATE-TIME:20190617T235957
-DESCRIPTION:Observed on Jyeṣṭhā nakṣhatram day of Mithunam (solar) 
- month (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>https%3A//
- github.com/sanskrit-coders/adyatithi/tree/master/temples/Tamil/sidereal_so
- lar_month/nakshatra/03/18/jyESThAbhiSEkam__info.toml<br/><br/>#TamilnaduTe
- mpleFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Kabīradāsa Jayantī
 DTSTART;VALUE=DATE-TIME:20190616T235957
 DTEND;VALUE=DATE-TIME:20190617T235957
@@ -8608,22 +8473,6 @@ DESCRIPTION:Special vrata day for Ganesha. In this month\, Ganesha is wors
  anskrit-coders/adyatithi/tree/master/general/description_only/MonthlyVrata
  m/SankataharaChaturthiVratam/kRSNapiGgala-mahAgaNapati%20saGkaTahara-catur
  thI-vratam__info.toml<br/><br/>#MonthlyVratam #SankataharaChaturthiVratam
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Vaidhṛti-Śrāddham
-DTSTART;VALUE=DATE-TIME:20190620T235957
-DTEND;VALUE=DATE-TIME:20190621T235957
-DESCRIPTION:Observed on  of every solar month (aparaahna/vyaapti).<br/>Vai
- dhrti Shraddha day.<br/><br/>https%3A//github.com/sanskrit-coders/adyatith
- i/tree/master/general/sidereal_solar_month/yoga/00/27/vaidhRti-zrAddham__i
- nfo.toml<br/><br/>#MonthlyShraddhaDays #ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10050,45 +9899,12 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Śravaṇa-Vratam
-DTSTART;VALUE=DATE-TIME:20190717T235957
-DTEND;VALUE=DATE-TIME:20190718T235957
-DESCRIPTION:Observed on Śravaṇam nakṣhatram day of every solar month 
- (saangava/puurvaviddha (default)).<br/><br/><br/>https%3A//github.com/sans
- krit-coders/adyatithi/tree/master/general/sidereal_solar_month/nakshatra/0
- 0/22/zravaNa-vratam__info.toml<br/><br/>#SpecialVratam
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Āḍi Vêḻḻikkiḽamai
 DTSTART;VALUE=DATE-TIME:20190718T235957
 DTEND;VALUE=DATE-TIME:20190719T235957
 DESCRIPTION:https%3A//github.com/sanskrit-coders/adyatithi/tree/master/tam
  il/description_only/MonthWeekdayFestivals/ADi~veLLikkizhamai__info.toml<br
  /><br/>#MonthWeekdayFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Kāñchī Jagadguru Śrī Jayendra Sarasvatī Jayantī
-DTSTART;VALUE=DATE-TIME:20190718T235957
-DTEND;VALUE=DATE-TIME:20190719T235957
-DESCRIPTION:Observed on Śraviṣṭhā nakṣhatram day of Kaṭakaḥ (s
- olar) month (praatah/paraviddha).<br/><br/><br/>https%3A//github.com/sansk
- rit-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/sidereal_solar_m
- onth/nakshatra/04/23/kAJcI%20jagadguru%20zrI~jayEndra%20sarasvatI%20jayant
- I__info.toml<br/><br/>#MahapurushaEvents #CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13637,23 +13453,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Rudra Paśupati Nāyanār (16) Gurupūjai
-DTSTART;VALUE=DATE-TIME:20190916T235957
-DTEND;VALUE=DATE-TIME:20190917T235957
-DESCRIPTION:Observed on Aśvinī nakṣhatram day of Kanyā (solar) month 
- (praatah/paraviddha).<br/><br/><br/>https%3A//github.com/sanskrit-coders/a
- dyatithi/tree/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatra/06
- /01/rudra~pazupati%20nAyan2Ar%20%2816%29%20gurupUjai__info.toml<br/><br/>#
- NayanarGurupujai
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Viśvakarmā Jayantī
 DTSTART;VALUE=DATE-TIME:20190916T235957
 DTEND;VALUE=DATE-TIME:20190917T235957
@@ -13711,24 +13510,6 @@ DESCRIPTION:Observed on Kṛṣṇa-Ṣaṣṭhī tithi of Bhādrapadaḥ
  orn (1897)<br/><br/><br/>https%3A//github.com/sanskrit-coders/adyatithi/tr
  ee/master/general/lunar_month/tithi/06/21/candra-SaSThI__info.toml<br/><br
  />#SpecialPuja
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Kṛttikā-Vratam
-DTSTART;VALUE=DATE-TIME:20190918T235957
-DTEND;VALUE=DATE-TIME:20190919T235957
-DESCRIPTION:Observed on Kṛttikā nakṣhatram day of every solar month (
- sunset/puurvaviddha (default)).<br/>kṛttikā-vratam for Lord Subrahmanya
- . Observe fast for the entire day\, and obtain blessings of all the kṛtt
- ikā-striyaḥ who raised skanda after His birth.<br/><br/>https%3A//githu
- b.com/sanskrit-coders/adyatithi/tree/master/general/sidereal_solar_month/n
- akshatra/00/03/kRttikA-vratam__info.toml<br/><br/>#SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13958,35 +13739,6 @@ DESCRIPTION:Observed on Kṛṣṇa-Aṣṭamī tithi of Bhādrapadaḥ (l
  unar) month (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>http
  s%3A//github.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month
  /tithi/06/23/madhyASTamI__info.toml<br/><br/>#CommonFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Mahāvyatīpāta-Śrāddham
-DTSTART;VALUE=DATE-TIME:20190921T235957
-DTEND;VALUE=DATE-TIME:20190922T235957
-DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Vyatīpāta-Śrāddham
-DTSTART;VALUE=DATE-TIME:20190921T235957
-DTEND;VALUE=DATE-TIME:20190922T235957
-DESCRIPTION:Observed on  of every solar month (aparaahna/vyaapti).<br/>Vya
- tipata Shraddha day.<br/><br/>https%3A//github.com/sanskrit-coders/adyatit
- hi/tree/master/general/sidereal_solar_month/yoga/00/17/vyatIpAta-zrAddham_
- _info.toml<br/><br/>#MonthlyShraddhaDays #ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -19016,22 +18768,6 @@ DESCRIPTION:Observed on day 1 of Dhanuḥ (solar) month (sunrise (default)
  phalam <br/><br/><br/><br/>https%3A//github.com/sanskrit-coders/adyatithi/
  tree/master/general/sidereal_solar_month/day/09/01/SaDazIti-dhanurraviH__i
  nfo.toml<br/><br/>#SunSankranti
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Vaidhṛti-Śrāddham
-DTSTART;VALUE=DATE-TIME:20191215T235957
-DTEND;VALUE=DATE-TIME:20191216T235957
-DESCRIPTION:Observed on  of every solar month (aparaahna/vyaapti).<br/>Vai
- dhrti Shraddha day.<br/><br/>https%3A//github.com/sanskrit-coders/adyatith
- i/tree/master/general/sidereal_solar_month/yoga/00/27/vaidhRti-zrAddham__i
- nfo.toml<br/><br/>#MonthlyShraddhaDays #ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE

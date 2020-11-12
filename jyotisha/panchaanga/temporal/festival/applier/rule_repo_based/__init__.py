@@ -47,7 +47,7 @@ class RuleLookupAssigner(FestivalAssigner):
     for index, dp in enumerate(self.daily_panchaangas):
       self.apply_month_day_events(day_panchaanga=dp, month_type=RulesRepo.SIDEREAL_SOLAR_MONTH_DIR)
       self.apply_month_anga_events(day_panchaanga=dp, month_type=RulesRepo.SIDEREAL_SOLAR_MONTH_DIR, anga_type=AngaType.TITHI)
-      # self.apply_month_anga_events(day_panchaanga=dp, month_type=RulesRepo.SIDEREAL_SOLAR_MONTH_DIR, anga_type=AngaType.NAKSHATRA)
+      self.apply_month_anga_events(day_panchaanga=dp, month_type=RulesRepo.SIDEREAL_SOLAR_MONTH_DIR, anga_type=AngaType.NAKSHATRA)
       self.apply_month_anga_events(day_panchaanga=dp, month_type=RulesRepo.SIDEREAL_SOLAR_MONTH_DIR, anga_type=AngaType.YOGA)
     # self.apply_month_anga_events(day_panchaanga=dp, month_type=RulesRepo.LUNAR_MONTH_DIR, anga_type=AngaType.TITHI)
 
@@ -62,7 +62,7 @@ class RuleLookupAssigner(FestivalAssigner):
       self.festival_id_to_days[fest_id].add(day_panchaanga.date)
 
   def apply_month_anga_events(self, day_panchaanga, anga_type, month_type):
-    from jyotisha.panchaanga.temporal.festival import rules, priority_decision, FestivalInstance
+    from jyotisha.panchaanga.temporal.festival import rules, priority_decision
     rule_set = rules.RulesCollection.get_cached(repos_tuple=tuple(self.computation_system.options.fest_repos))
     date = day_panchaanga.date
     
@@ -71,6 +71,8 @@ class RuleLookupAssigner(FestivalAssigner):
       # We require atleast 1 day history.
       return
 
+    ###########################
+    # Get relevant festivals
     anga_type_id = anga_type.name.lower()
     angas_2 = [x.anga for x in panchaangas[2].sunrise_day_angas.get_angas_with_ends(anga_type=anga_type)]
     if anga_type == AngaType.TITHI and angas_2[0].index in (29, 30):
@@ -82,28 +84,37 @@ class RuleLookupAssigner(FestivalAssigner):
       angas_1 = [anga for anga in angas_1 if anga.index >= 1]
     angas = set(angas_2 + angas_1)
     # The filtering above avoids the below case (TODO: Check):
-    # When applied to month_type = lunar_sideral and anga_type = tithi, this method fails in certain corner cases. Consider the case: target_anga = tithi 1. It appears in the junction with the preceeding month or with the succeeding month. In that case, clearly, the former is salient - tithi 1 in the latter case belongs to the succeeding month. 
+    # When applied to month_type = lunar_sideral and anga_type = tithi, this method (without the check) fails in certain corner cases. Consider the case: target_anga = tithi 1. It appears in the junction with the preceeding month or with the succeeding month. In that case, clearly, the former is salient - tithi 1 in the latter case belongs to the succeeding month. 
 
     month = day_panchaanga.get_date(month_type=month_type).month
     fest_dict = rule_set.get_possibly_relevant_fests(month=month, angas=angas, month_type=month_type, anga_type_id=anga_type_id)
+    
+    ###########################
+    # Iterate over relevant festivals
     for fest_id, fest_rule in fest_dict.items():
       kaala = fest_rule.timing.get_kaala()
       priority = fest_rule.timing.get_priority()
       anga_type_str = fest_rule.timing.anga_type
       target_anga = Anga.get_cached(index=fest_rule.timing.anga_number, anga_type_id=anga_type_str.upper())
       fday_1_vs_2 = priority_decision.decide(p0=panchaangas[1], p1=panchaangas[2], target_anga=target_anga, kaala=kaala, ayanaamsha_id=self.ayanaamsha_id, priority=priority)
+
       if fday_1_vs_2 is not None:
         fday = fday_1_vs_2 + 1
         p_fday = panchaangas[fday]
         p_fday_minus_1 = panchaangas[fday - 1]
         if p_fday.get_date(month_type=month_type).month != month:
-          # Example: Suppose festival on tithi 27 of solar siderial month 10; last day of month 9 could have tithi 27, but not day 1 of month 10. 
+          # Example: Suppose festival is on tithi 27 of solar siderial month 10; last day of month 9 could have tithi 27, but not day 1 of month 10. 
           continue
-        if priority not in ('puurvaviddha', 'vyaapti'):
-          p_fday.festival_id_to_instance[fest_id] = FestivalInstance(name=fest_id)
-          self.festival_id_to_days[fest_id].add(p_fday.date)
-        elif p_fday_minus_1 is None or p_fday_minus_1.date not in self.festival_id_to_days[fest_id]:
-          # puurvaviddha or vyaapti fest. More careful condition.
-          # p_fday_minus_1 could be None when computing at the beginning of a sequence of days. In that case, we're ok with faulty assignments - since the focus is on getting subsequent days right.
-          p_fday.festival_id_to_instance[fest_id] = FestivalInstance(name=fest_id)
-          self.festival_id_to_days[fest_id].add(p_fday.date)
+
+        assign_festival = priority not in ('puurvaviddha', 'vyaapti') or \
+                          (p_fday_minus_1 is None or p_fday_minus_1.date not in self.festival_id_to_days[fest_id])
+        # p_fday_minus_1 could be None when computing at the beginning of a sequence of days. In that case, we're ok with faulty assignments - since the focus is on getting subsequent (non-padding) days right.
+        if assign_festival:
+          if len(self.festival_id_to_days[fest_id]) > 0:
+            previous_fest_day = sorted(self.festival_id_to_days[fest_id])[-1]
+            p_previous_fday = self.panchaanga.date_str_to_panchaanga[previous_fest_day.get_date_str()]
+            if p_fday.date - previous_fest_day <= 31 and p_previous_fday.get_date(month_type=month_type).month == month:
+              self.panchaanga.delete_festival_date(fest_id=fest_id, date=previous_fest_day)
+          self.panchaanga.add_festival(fest_id=fest_id, date=p_fday.date)
+    
+    
