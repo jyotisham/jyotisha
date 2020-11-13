@@ -100,7 +100,8 @@ class BasicDate(JsonObject):
   def __init__(self, month, day, year=None):
     super().__init__()
     self.year = year
-    self.month = int(month)
+    # In case of adhikaAmsa, month could be a float.
+    self.month = month
     self.day = int(day)
 
   def __repr__(self):
