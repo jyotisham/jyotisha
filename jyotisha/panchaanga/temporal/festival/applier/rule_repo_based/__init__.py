@@ -61,34 +61,44 @@ class RuleLookupAssigner(FestivalAssigner):
       day_panchaanga.festival_id_to_instance[fest_id] = FestivalInstance(name=fest.id)
       self.festival_id_to_days[fest_id].add(day_panchaanga.date)
 
-  def apply_month_anga_events(self, day_panchaanga, anga_type, month_type):
-    from jyotisha.panchaanga.temporal.festival import rules, priority_decision
+  def _get_relevant_festivals(self, anga_type, month_type, panchaangas):
+    """
+    
+    :param anga_type: 
+    :param month_type: 
+    :param panchaangas: Array of panchaangas for 2 successive days 
+    :return: 
+    """
+    from jyotisha.panchaanga.temporal.festival import rules
     rule_set = rules.RulesCollection.get_cached(repos_tuple=tuple(self.computation_system.options.fest_repos))
+    anga_type_id = anga_type.name.lower()
+    angas_2 = [x.anga for x in panchaangas[1].sunrise_day_angas.get_angas_with_ends(anga_type=anga_type)]
+    if anga_type == AngaType.TITHI and angas_2[0].index in (29, 30):
+      # We seek festivals based on angas belonging to this month only.
+      angas_2 = [anga for anga in angas_2 if anga.index <= 30]
+
+    angas_1 = [x.anga for x in panchaangas[0].sunrise_day_angas.get_angas_with_ends(anga_type=anga_type)]
+    if anga_type == AngaType.TITHI and angas_2[0].index in (1, 2):
+      angas_1 = [anga for anga in angas_1 if anga.index >= 1]
+    angas = set(angas_2 + angas_1)
+    # The filtering above avoids the below case (TODO: Check):
+    # When applied to month_type = lunar_sideral and anga_type = tithi, this method (without the check) fails in certain corner cases. Consider the case: target_anga = tithi 1. It appears in the junction with the preceeding month or with the succeeding month. In that case, clearly, the former is salient - tithi 1 in the latter case belongs to the succeeding month. 
+    month = panchaangas[1].get_date(month_type=month_type).month
+
+    fest_dict = rule_set.get_possibly_relevant_fests(month=month, angas=angas, month_type=month_type, anga_type_id=anga_type_id)
+    return fest_dict
+
+  def apply_month_anga_events(self, day_panchaanga, anga_type, month_type):
+    from jyotisha.panchaanga.temporal.festival import priority_decision
     date = day_panchaanga.date
+    month = day_panchaanga.get_date(month_type=month_type).month
     
     panchaangas = [self.panchaanga.date_str_to_panchaanga.get((date-2).get_date_str(), None), self.panchaanga.date_str_to_panchaanga.get((date-1).get_date_str(), None), day_panchaanga]
     if panchaangas[1] is None:
       # We require atleast 1 day history.
       return
 
-    ###########################
-    # Get relevant festivals
-    anga_type_id = anga_type.name.lower()
-    angas_2 = [x.anga for x in panchaangas[2].sunrise_day_angas.get_angas_with_ends(anga_type=anga_type)]
-    if anga_type == AngaType.TITHI and angas_2[0].index in (29, 30):
-      # We seek festivals based on angas belonging to this month only.
-      angas_2 = [anga for anga in angas_2 if anga.index <= 30]
-
-    angas_1 = [x.anga for x in panchaangas[1].sunrise_day_angas.get_angas_with_ends(anga_type=anga_type)]
-    if anga_type == AngaType.TITHI and angas_2[0].index in (1, 2):
-      angas_1 = [anga for anga in angas_1 if anga.index >= 1]
-    angas = set(angas_2 + angas_1)
-    # The filtering above avoids the below case (TODO: Check):
-    # When applied to month_type = lunar_sideral and anga_type = tithi, this method (without the check) fails in certain corner cases. Consider the case: target_anga = tithi 1. It appears in the junction with the preceeding month or with the succeeding month. In that case, clearly, the former is salient - tithi 1 in the latter case belongs to the succeeding month. 
-
-    month = day_panchaanga.get_date(month_type=month_type).month
-    fest_dict = rule_set.get_possibly_relevant_fests(month=month, angas=angas, month_type=month_type, anga_type_id=anga_type_id)
-    
+    fest_dict = self._get_relevant_festivals(panchaangas=panchaangas[1:], anga_type=anga_type, month_type=month_type)
     ###########################
     # Iterate over relevant festivals
     for fest_id, fest_rule in fest_dict.items():
