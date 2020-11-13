@@ -75,11 +75,11 @@ class RuleLookupAssigner(FestivalAssigner):
     angas_2 = [x.anga for x in panchaangas[1].sunrise_day_angas.get_angas_with_ends(anga_type=anga_type)]
     if anga_type == AngaType.TITHI and angas_2[0].index in (29, 30):
       # We seek festivals based on angas belonging to this month only.
-      angas_2 = [anga for anga in angas_2 if anga.index <= 30]
+      angas_2 = [anga for anga in angas_2 if anga <= Anga(index=30, anga_type_id=AngaType.TITHI.name)]
 
     angas_1 = [x.anga for x in panchaangas[0].sunrise_day_angas.get_angas_with_ends(anga_type=anga_type)]
     if anga_type == AngaType.TITHI and angas_2[0].index in (1, 2):
-      angas_1 = [anga for anga in angas_1 if anga.index >= 1]
+      angas_1 = [anga for anga in angas_1 if anga >= Anga(index=1, anga_type_id=AngaType.TITHI.name)]
     angas = set(angas_2 + angas_1)
     # The filtering above avoids the below case (TODO: Check):
     # When applied to month_type = lunar_sideral and anga_type = tithi, this method (without the check) fails in certain corner cases. Consider the case: target_anga = tithi 1. It appears in the junction with the preceeding month or with the succeeding month. In that case, clearly, the former is salient - tithi 1 in the latter case belongs to the succeeding month. 
