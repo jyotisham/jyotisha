@@ -88,6 +88,23 @@ class RuleLookupAssigner(FestivalAssigner):
     fest_dict = rule_set.get_possibly_relevant_fests(month=month, angas=angas, month_type=month_type, anga_type_id=anga_type_id)
     return fest_dict
 
+  def _should_assign_festival(self, p_fday, fest_rule):
+    if p_fday.date in self.festival_id_to_days[fest_rule.id]:
+      # Already assigned (likely in the previous iteration).
+      return False
+
+    month_type = fest_rule.timing.month_type
+    priority = fest_rule.timing.get_priority()
+    fday_date = p_fday.get_date(month_type=month_type)
+    if fday_date.month != fest_rule.timing.month_number and fest_rule.timing.month_number != 0:
+      # This could legitimately happen in the case indicated in the below clause.
+      if not (fday_date.day == 1 and month_type == RulesRepo.LUNAR_MONTH_DIR):
+        # Example: Suppose festival is on tithi 27 of solar siderial month 10; last day of month 9 could have tithi 27, but not day 1 of month 10; though a much later day of month 10 has tithi 27. 
+        return False
+
+    return priority not in ('puurvaviddha', 'vyaapti') or \
+                      (p_fday.date - 1 not in self.festival_id_to_days[fest_rule.id])
+
   def apply_month_anga_events(self, day_panchaanga, anga_type, month_type):
     from jyotisha.panchaanga.temporal.festival import priority_decision
     date = day_panchaanga.date
@@ -111,17 +128,7 @@ class RuleLookupAssigner(FestivalAssigner):
       if fday_1_vs_2 is not None:
         fday = fday_1_vs_2 + 1
         p_fday = panchaangas[fday]
-        p_fday_minus_1 = panchaangas[fday - 1]
-        if p_fday.get_date(month_type=month_type).month != month:
-          # Example: Suppose festival is on tithi 27 of solar siderial month 10; last day of month 9 could have tithi 27, but not day 1 of month 10. 
-          continue
-        if p_fday.date in self.festival_id_to_days[fest_id]:
-          # Already assigned (likely in the previous iteration).
-          continue
-
-        assign_festival = priority not in ('puurvaviddha', 'vyaapti') or \
-                          (p_fday_minus_1 is None or p_fday_minus_1.date not in self.festival_id_to_days[fest_id])
-        # p_fday_minus_1 could be None when computing at the beginning of a sequence of days. In that case, we're ok with faulty assignments - since the focus is on getting subsequent (non-padding) days right.
+        assign_festival = self._should_assign_festival(p_fday=p_fday, fest_rule=fest_rule)
         if assign_festival:
           if len(self.festival_id_to_days[fest_id]) > 0:
             previous_fest_day = sorted(self.festival_id_to_days[fest_id])[-1]
