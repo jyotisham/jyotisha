@@ -3,6 +3,25 @@ import logging
 from jyotisha.panchaanga.temporal import zodiac, get_2_day_interval_boundary_angas
 
 
+class FestivalDecision(object):
+  def __init__(self, fday, day_panchaanga=None, boundary_angas=None):
+    self.boundary_angas = boundary_angas
+    self.day_panchaanga = day_panchaanga
+    self.fday = fday
+
+
+  @classmethod
+  def from_details(cls, boundary_angas_list, fday, panchaangas):
+    if fday is None:
+      return None
+    else:
+      if fday == -1:
+        boundary_angas = None
+      else:
+        boundary_angas = boundary_angas_list[fday]
+      return FestivalDecision(day_panchaanga=panchaangas[fday], boundary_angas=boundary_angas, fday=fday)
+
+
 def decide_paraviddha(p0, p1, target_anga, kaala):
   (d0_angas, d1_angas) = get_2_day_interval_boundary_angas(kaala=kaala, anga_type=target_anga.get_type(), p0=p0, p1=p1)
   prev_anga = target_anga - 1
@@ -23,14 +42,17 @@ def decide_paraviddha(p0, p1, target_anga, kaala):
     if d0_angas.interval.name in ['aparaahna', 'aparaahna_muhuurta']:
       fday = 0
     else:
-      fday = 0 - 1
+      # Example when this branch is active: 2019 'madhurakavi AzhvAr tirunakSattiram': sidereal_solar_month 1, nakshatra 14 paraviddha praatah.
+      # Instead of setting fday = 0 - 1 , we set it to None - since we only care about deciding between p0 and p1. Assignments to the previous day will have happened in the previous invocation (deciding between p(-1) and p0.)
+      fday = None
   elif d0_angas.end == prev_anga and d1_angas.start == next_anga:
     fday = 0
   else:
     fday = None
     # Expected example:  (19, 19), (19, 20), 20
     logging.debug("paraviddha: %s, %s, %s - Not assigning a festival this day. Likely checking on the wrong day pair.", str(d0_angas.to_tuple()), str(d1_angas.to_tuple()), str(target_anga.index))
-  return fday
+
+  return FestivalDecision.from_details(boundary_angas_list=[d0_angas, d1_angas], fday=fday, panchaangas=[p0, p1])
 
 
 def decide_puurvaviddha(p0, p1, target_anga, kaala):
@@ -59,7 +81,7 @@ def decide_puurvaviddha(p0, p1, target_anga, kaala):
       # Expected example:  (25, 25), (25, 25), 26
       logging.debug("puurvaviddha: %s, %s, %s - Not assigning a festival this day. Likely the next then.", str(d0_angas.to_tuple()), str(d1_angas.to_tuple()), str(target_anga.index))
       fday = None
-  return fday
+  return FestivalDecision.from_details(boundary_angas_list=[d0_angas, d1_angas], fday=fday, panchaangas=[p0, p1])
 
 
 def decide_aparaahna_vyaapti(p0, p1, target_anga, ayanaamsha_id, kaala):
@@ -115,15 +137,15 @@ def decide_aparaahna_vyaapti(p0, p1, target_anga, ayanaamsha_id, kaala):
   else:
     logging.info("vyaapti: %s, %s, %s. Some weird case", str(d0_angas.to_tuple()), str(d1_angas.to_tuple()), str(target_anga.index))
     fday = None
-  return fday
+  return FestivalDecision.from_details(boundary_angas_list=[d0_angas, d1_angas], fday=fday, panchaangas=[p0, p1])
 
 
 def decide(p0, p1, target_anga, kaala, priority, ayanaamsha_id):
   if priority == 'paraviddha':
-    fday = decide_paraviddha(p0=p0, p1=p1, target_anga=target_anga, kaala=kaala)
+    decision = decide_paraviddha(p0=p0, p1=p1, target_anga=target_anga, kaala=kaala)
   elif priority == 'puurvaviddha':
-    fday = decide_puurvaviddha(p0=p0, p1=p1, target_anga=target_anga, kaala=kaala)
+    decision = decide_puurvaviddha(p0=p0, p1=p1, target_anga=target_anga, kaala=kaala)
   elif priority == 'vyaapti':
-    fday = decide_aparaahna_vyaapti(p0=p0, p1=p1, target_anga=target_anga, kaala=kaala, ayanaamsha_id=ayanaamsha_id)
-  return fday
+    decision = decide_aparaahna_vyaapti(p0=p0, p1=p1, target_anga=target_anga, kaala=kaala, ayanaamsha_id=ayanaamsha_id)
+  return decision
 

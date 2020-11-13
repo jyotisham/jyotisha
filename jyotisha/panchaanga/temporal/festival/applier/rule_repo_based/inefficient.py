@@ -86,8 +86,9 @@ class FestivalsTimesDaysAssigner(FestivalAssigner):
       # Some error, e.g. weird kaala, so skip festival
       p0 = self.daily_panchaangas[d]
       p1 = self.daily_panchaangas[d+1]
-      d_offset = priority_decision.decide(p0=p0, p1=p1, target_anga=target_anga, kaala=kaala, ayanaamsha_id=self.ayanaamsha_id, priority=priority)
-      if d_offset is not None:
+      decision = priority_decision.decide(p0=p0, p1=p1, target_anga=target_anga, kaala=kaala, ayanaamsha_id=self.ayanaamsha_id, priority=priority)
+      if decision is not None:
+        d_offset = decision.fday
         if priority not in ('puurvaviddha', 'vyaapti'):
           fday = d + d_offset
         elif self.daily_panchaangas[d-1].date not in self.panchaanga.festival_id_to_days.get(festival_name, []):

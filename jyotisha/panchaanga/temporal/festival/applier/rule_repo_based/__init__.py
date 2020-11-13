@@ -98,7 +98,7 @@ class RuleLookupAssigner(FestivalAssigner):
     fday_date = p_fday.get_date(month_type=month_type)
     if fday_date.month != fest_rule.timing.month_number and fest_rule.timing.month_number != 0:
       # This could legitimately happen in the case indicated in the below clause.
-      if not (fday_date.day == 1 and month_type == RulesRepo.LUNAR_MONTH_DIR):
+      if not (fday_date.day >= 30 and month_type == RulesRepo.LUNAR_MONTH_DIR):
         # Example: Suppose festival is on tithi 27 of solar siderial month 10; last day of month 9 could have tithi 27, but not day 1 of month 10; though a much later day of month 10 has tithi 27. 
         return False
 
@@ -123,10 +123,10 @@ class RuleLookupAssigner(FestivalAssigner):
       priority = fest_rule.timing.get_priority()
       anga_type_str = fest_rule.timing.anga_type
       target_anga = Anga.get_cached(index=fest_rule.timing.anga_number, anga_type_id=anga_type_str.upper())
-      fday_1_vs_2 = priority_decision.decide(p0=panchaangas[1], p1=panchaangas[2], target_anga=target_anga, kaala=kaala, ayanaamsha_id=self.ayanaamsha_id, priority=priority)
+      decision = priority_decision.decide(p0=panchaangas[1], p1=panchaangas[2], target_anga=target_anga, kaala=kaala, ayanaamsha_id=self.ayanaamsha_id, priority=priority)
 
-      if fday_1_vs_2 is not None:
-        fday = fday_1_vs_2 + 1
+      if decision is not None:
+        fday = decision.fday + 1
         p_fday = panchaangas[fday]
         assign_festival = self._should_assign_festival(p_fday=p_fday, fest_rule=fest_rule)
         if assign_festival:

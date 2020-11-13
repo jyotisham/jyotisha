@@ -267,21 +267,24 @@ class RulesCollection(common.JsonObject):
       self.tree = collection_helper.tree_maker(leaves=self.name_to_rule.values(), path_fn=lambda x: x.get_storage_file_name(base_dir="").replace("__info.toml", ""))
 
   def get_month_anga_fests(self, month_type, month, anga_type_id, anga):
+    if int(month) != month:
+      # Deal with adhika mAsas
+      month_str = "%02d.5" % month
+    else:
+      month_str = "%02d" % month
     from jyotisha.panchaanga.temporal.zodiac import Anga
     if isinstance(anga, Anga):
       anga = anga.index
     try:
-      return self.tree[month_type.lower()][anga_type_id.lower()]["%02d" % month]["%02d" % anga]
+      return self.tree[month_type.lower()][anga_type_id.lower()][month_str]["%02d" % anga]
     except KeyError:
       return {}
 
   def get_possibly_relevant_fests(self, month_type, month, anga_type_id, angas):
     fest_dict = {}
-    # Filter out adhikamAsa-s.
-    if int(month) == month:
-      for m in [month, 0]:
-        for anga in angas:
-          fest_dict.update(self.get_month_anga_fests(month_type=month_type, month=m, anga_type_id=anga_type_id, anga=anga))
+    for m in [month, 0]:
+      for anga in angas:
+        fest_dict.update(self.get_month_anga_fests(month_type=month_type, month=m, anga_type_id=anga_type_id, anga=anga))
     return fest_dict
 
 
