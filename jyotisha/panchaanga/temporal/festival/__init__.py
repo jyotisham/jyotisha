@@ -86,6 +86,7 @@ class FestivalInstance(common.JsonObject):
   def __repr__(self):
     return "%s %s %s" % (self.name, str(default_if_none(self.ordinal, "")), str(default_if_none(self.interval, "")))
 
+
 class TransitionFestivalInstance(FestivalInstance):
   def __init__(self, name, status_1_hk, status_2_hk):
     super(TransitionFestivalInstance, self).__init__(name=name)

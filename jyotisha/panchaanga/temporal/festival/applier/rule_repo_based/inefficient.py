@@ -21,8 +21,8 @@ class FestivalsTimesDaysAssigner(FestivalAssigner):
       if x.timing.month_type == rules.RulesRepo.SIDEREAL_SOLAR_MONTH_DIR and x.timing.anga_type in (rules.RulesRepo.DAY_DIR, rules.RulesRepo.TITHI_DIR, rules.RulesRepo.NAKSHATRA_DIR, rules.RulesRepo.YOGA_DIR):
         return False
 
-      # if x.timing.month_type == rules.RulesRepo.LUNAR_MONTH_DIR and x.timing.anga_type in (rules.RulesRepo.TITHI_DIR):
-      #   return False
+      if x.timing.month_type == rules.RulesRepo.LUNAR_MONTH_DIR and x.timing.anga_type in (rules.RulesRepo.TITHI_DIR):
+        return False
 
       return True
     festival_rules_dict = {k: v for k, v in self.rules_collection.name_to_rule.items() if to_be_assigned(v)}

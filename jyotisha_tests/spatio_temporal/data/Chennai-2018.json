@@ -95767,9 +95767,18 @@
           "jsonClass": "FestivalInstance",
           "name": "durgASTamI"
         },
+        "kAJcI 19 jagadguru zrI~mArtANDa vidyAghanEndra sarasvatI ArAdhanA": {
+          "jsonClass": "FestivalInstance",
+          "name": "kAJcI 19 jagadguru zrI~mArtANDa vidyAghanEndra sarasvatI ArAdhanA",
+          "ordinal": 1621
+        },
         "kAla-trirAtri-vratam": {
           "jsonClass": "FestivalInstance",
           "name": "kAla-trirAtri-vratam"
+        },
+        "manvAdiH~(svAyambhuvaH~[1])": {
+          "jsonClass": "FestivalInstance",
+          "name": "manvAdiH~(svAyambhuvaH~[1])"
         }
       },
       "jd_moonrise": 2458408.8082,
@@ -96088,18 +96097,9 @@
           "jsonClass": "FestivalInstance",
           "name": "buddha~jayantI"
         },
-        "kAJcI 19 jagadguru zrI~mArtANDa vidyAghanEndra sarasvatI ArAdhanA": {
-          "jsonClass": "FestivalInstance",
-          "name": "kAJcI 19 jagadguru zrI~mArtANDa vidyAghanEndra sarasvatI ArAdhanA",
-          "ordinal": 1621
-        },
         "mahAnavamI or sarasvatI-pUjA": {
           "jsonClass": "FestivalInstance",
           "name": "mahAnavamI or sarasvatI-pUjA"
-        },
-        "manvAdiH~(svAyambhuvaH~[1])": {
-          "jsonClass": "FestivalInstance",
-          "name": "manvAdiH~(svAyambhuvaH~[1])"
         },
         "tulA-kAvErI-snAna-ArambhaH": {
           "jsonClass": "FestivalInstance",
@@ -132149,7 +132149,7 @@
     ],
     "kAJcI 19 jagadguru zrI~mArtANDa vidyAghanEndra sarasvatI ArAdhanA": [
       {
-        "day": 18,
+        "day": 17,
         "jsonClass": "Date",
         "month": 10,
         "year": 2018
@@ -134139,7 +134139,7 @@
     ],
     "manvAdiH~(svAyambhuvaH~[1])": [
       {
-        "day": 18,
+        "day": 17,
         "jsonClass": "Date",
         "month": 10,
         "year": 2018
