@@ -77,6 +77,9 @@ class RuleLookupAssigner(FestivalAssigner):
       # We seek festivals based on angas belonging to this month only.
       angas_2 = [anga for anga in angas_2 if anga <= Anga(index=30, anga_type_id=AngaType.TITHI.name)]
 
+    # Why do we consider angas from the previous days? Explanation below.
+    # Consider festival "tiruccendUr mAcit tiruvizhA nir2aivu" occuring at sunrise on tithi 15 of sidereal solar month 11. In Chennai 2018, this tithi 15 occurs between sunrise of Mar 3 and sunrise of Mar 4.
+    # In that case, during the round where we consider the pair of days Mar 3 and Mar 4, our decision functions identify this "skipped" tithi and correctly assign the festival - if asked to. For that, we consider angas from previous day as well so that matching festivals may be considered.
     angas_1 = [x.anga for x in panchaangas[0].sunrise_day_angas.get_angas_with_ends(anga_type=anga_type)]
     if anga_type == AngaType.TITHI and angas_2[0].index in (1, 2):
       angas_1 = [anga for anga in angas_1 if anga >= Anga(index=1, anga_type_id=AngaType.TITHI.name)]
