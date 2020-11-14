@@ -1,3 +1,4 @@
+import copy
 import logging
 import sys
 from collections import defaultdict
@@ -5,13 +6,14 @@ from typing import Dict
 
 import methodtools
 from jyotisha.panchaanga.spatio_temporal import daily
-from jyotisha.panchaanga.temporal import time, set_constants, ComputationSystem
+from jyotisha.panchaanga.temporal import time, set_constants, ComputationSystem, AngaType
 from jyotisha.panchaanga.temporal.festival import FestivalInstance
 from jyotisha.panchaanga.temporal.festival.applier import tithi_festival, ecliptic, solar, vaara, rule_repo_based, \
   FestivalAssigner
 from jyotisha.panchaanga.temporal.festival.applier.rule_repo_based import inefficient
 from jyotisha.panchaanga.temporal.time import Date
 from jyotisha.panchaanga.temporal.tithi import TithiAssigner
+from jyotisha.panchaanga.temporal.zodiac.angas import Tithi
 from jyotisha.util import default_if_none
 from sanskrit_data import collection_helper
 from sanskrit_data.schema import common
@@ -97,24 +99,43 @@ class Panchaanga(common.JsonObject):
     return self.daily_panchaanga_for_date(date=date)
 
   def daily_panchaanga_for_date(self, date):
-    from copy import deepcopy
-    date_alt = deepcopy(date)
-    date_alt.set_time_to_day_start()
-    return self.date_str_to_panchaanga.get(date_alt.get_date_str(), None)
+    return self.date_str_to_panchaanga.get(date.get_date_str(), None)
 
   def pre_sunset_daily_panchaanga_for_jd(self, jd):
     panchaanga = self.daily_panchaanga_for_jd(jd=jd)
-    if panchaanga.jd_sunset >= jd:
+    if panchaanga is None:
+      return None
+    elif panchaanga.jd_sunset >= jd:
       return panchaanga
     else:
       return self.daily_panchaanga_for_date(date=panchaanga.date + 1)
 
   def post_sunrise_daily_panchaanga_for_jd(self, jd):
     panchaanga = self.daily_panchaanga_for_jd(jd=jd)
-    if panchaanga.jd_sunrise <= jd:
+    if panchaanga is None:
+      return None
+    elif panchaanga.jd_sunrise <= jd:
       return panchaanga
     else:
       return self.daily_panchaanga_for_date(date=panchaanga.date - 1)
+
+  def get_interval_anga_spans(self, date, name, anga_type):
+    dp = self.daily_panchaanga_for_date(date)
+    (anga_spans, _) = dp.get_interval_anga_spans(name=name, anga_type=anga_type)
+    anga_spans = copy.deepcopy(anga_spans)
+
+    if anga_type == AngaType.TITHI:
+      for span in anga_spans:
+        if span.anga.index in (1, 2):
+          # The below is necessary because tithi 1 or 2 may start after sunrise.
+          dp_next = self.daily_panchaanga_for_date(date + 1)
+          # Lunar month below may be incorrect (adhika mAsa complication) if dp_next is not available (eg when the next day is beyond this panchaanga duration). Downstream code should be aware of that case.
+          month = dp_next.lunar_month_sunrise if dp_next is not None else dp.lunar_month_sunrise + 1
+          span.anga = Tithi.from_anga(anga=span.anga, month=month)
+        else:
+          span.anga = Tithi.from_anga(anga=span.anga, month=dp.lunar_month_sunrise)
+
+    return anga_spans
 
   def clear_padding_day_festivals(self):
     """Festival assignments for padding days are not trustworthy - since one would need to look-ahead or before into further days for accurate festival assignment. They were computed only to ensure accurate computation of the core days in this panchaanga. To avoid misleading, we ought to clear festivals provisionally assigned to the padding days."""

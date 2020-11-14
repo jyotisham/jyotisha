@@ -72,20 +72,14 @@ class RuleLookupAssigner(FestivalAssigner):
     from jyotisha.panchaanga.temporal.festival import rules
     rule_set = rules.RulesCollection.get_cached(repos_tuple=tuple(self.computation_system.options.fest_repos))
     anga_type_id = anga_type.name.lower()
-    angas_2 = [x.anga for x in panchaangas[1].sunrise_day_angas.get_angas_with_ends(anga_type=anga_type)]
-    if anga_type == AngaType.TITHI and angas_2[0].index in (29, 30):
-      # We seek festivals based on angas belonging to this month only.
-      angas_2 = [anga for anga in angas_2 if anga <= Anga(index=30, anga_type_id=AngaType.TITHI.name)]
+    
+    anga_spans_2 = self.panchaanga.get_interval_anga_spans(date=panchaangas[1].date, anga_type=anga_type, name="full_day")
 
     # Why do we consider angas from the previous days? Explanation below.
     # Consider festival "tiruccendUr mAcit tiruvizhA nir2aivu" occuring at sunrise on tithi 15 of sidereal solar month 11. In Chennai 2018, this tithi 15 occurs between sunrise of Mar 3 and sunrise of Mar 4.
     # In that case, during the round where we consider the pair of days Mar 3 and Mar 4, our decision functions identify this "skipped" tithi and correctly assign the festival - if asked to. For that, we consider angas from previous day as well so that matching festivals may be considered.
-    angas_1 = [x.anga for x in panchaangas[0].sunrise_day_angas.get_angas_with_ends(anga_type=anga_type)]
-    if anga_type == AngaType.TITHI and angas_2[0].index in (1, 2):
-      angas_1 = [anga for anga in angas_1 if anga >= Anga(index=1, anga_type_id=AngaType.TITHI.name)]
-    angas = set(angas_2 + angas_1)
-    # The filtering above avoids the below case (TODO: Check):
-    # When applied to month_type = lunar_sideral and anga_type = tithi, this method (without the check) fails in certain corner cases. Consider the case: target_anga = tithi 1. It appears in the junction with the preceeding month or with the succeeding month. In that case, clearly, the former is salient - tithi 1 in the latter case belongs to the succeeding month. 
+    anga_spans_1 = self.panchaanga.get_interval_anga_spans(date=panchaangas[0].date, anga_type=anga_type, name="full_day")
+    angas = set([span.anga for span in anga_spans_1  + anga_spans_2])
     month = panchaangas[1].get_date(month_type=month_type).month
 
     fest_dict = rule_set.get_possibly_relevant_fests(month=month, angas=angas, month_type=month_type, anga_type_id=anga_type_id)
@@ -139,5 +133,4 @@ class RuleLookupAssigner(FestivalAssigner):
             if p_fday.date - previous_fest_day <= 31 and p_previous_fday.get_date(month_type=month_type).month == month:
               self.panchaanga.delete_festival_date(fest_id=fest_id, date=previous_fest_day)
           self.panchaanga.add_festival(fest_id=fest_id, date=p_fday.date)
-    
-    
+

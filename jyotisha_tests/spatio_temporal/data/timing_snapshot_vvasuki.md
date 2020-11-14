@@ -4,16 +4,16 @@ From `pytest -k tests.spatio_temporal.test_annual.test_timing` on vvasuki's mach
 ## Results
 run time: 14.5s
 ```
-            compute_angas: 7060.72ms for      1 calls
-  update_festival_details: 3309.96ms for      2 calls
-  get_all_angas_in_period:    3.01ms for   1910 calls
-assign_festivals_from_rules:  990.96ms for      2 calls
-          assign_festival:    0.00ms for  481070 calls
-           set_rule_dicts:  793.11ms for      1 calls
-assign_tithi_yoga_nakshatra_fest:    0.02ms for  43848 calls
-             dump_to_file:  507.43ms for      1 calls
-                     find:    3.12ms for    107 calls
-  assign_festival_numbers:    2.09ms for      2 calls
+  update_festival_details: 3869.80ms for      2 calls
+            compute_angas: 7122.18ms for      1 calls
+  get_all_angas_in_period:    2.94ms for   1980 calls
+assign_festivals_from_rules:  759.32ms for      2 calls
+          assign_festival:    0.00ms for  380016 calls
+           set_rule_dicts:  556.29ms for      1 calls
+assign_tithi_yoga_nakshatra_fest:    0.02ms for  32124 calls
+             dump_to_file:  489.02ms for      1 calls
+                     find:    3.13ms for    104 calls
+  assign_festival_numbers:    2.00ms for      2 calls
 ```
 
 ## Comment:

@@ -282,8 +282,11 @@ class RulesCollection(common.JsonObject):
 
   def get_possibly_relevant_fests(self, month_type, month, anga_type_id, angas):
     fest_dict = {}
-    for m in [month, 0]:
-      for anga in angas:
+    for anga in angas:
+      from jyotisha.panchaanga.temporal.zodiac.angas import Tithi
+      if isinstance(anga, Tithi) and month_type == RulesRepo.LUNAR_MONTH_DIR:
+        month = anga.month.index
+      for m in [month, 0]:
         fest_dict.update(self.get_month_anga_fests(month_type=month_type, month=m, anga_type_id=anga_type_id, anga=anga))
     return fest_dict
 

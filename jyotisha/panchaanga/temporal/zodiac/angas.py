@@ -154,6 +154,19 @@ class Anga(common.JsonObject):
     return super(Anga, self).__hash__()
 
 
+class Tithi(Anga):
+  def __init__(self, index, month):
+    super(Tithi, self).__init__(index=index, anga_type_id=AngaType.TITHI.name)
+    self.month = month
+
+  @classmethod
+  def from_anga(cls, anga, month):
+    return Tithi(index=anga.index, month=month)
+
+  def __repr__(self):
+    return "%s: %02d:%02d" % (self.anga_type_id, self.month.index, self.index)
+
+
 class BoundaryAngas(common.JsonObject):
   def __init__(self, start, end, interval=None):
     super(BoundaryAngas, self).__init__()

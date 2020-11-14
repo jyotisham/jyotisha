@@ -4,6 +4,9 @@ import logging
 import sys
 from math import floor, modf
 
+from scipy.optimize import brentq
+from timebudget import timebudget
+
 from jyotisha.panchaanga.spatio_temporal import City
 from jyotisha.panchaanga.temporal import interval, time, ComputationSystem, set_constants
 from jyotisha.panchaanga.temporal import zodiac
@@ -15,8 +18,6 @@ from jyotisha.panchaanga.temporal.zodiac import Ayanamsha, NakshatraDivision, An
 from jyotisha.panchaanga.temporal.zodiac.angas import AngaType, Anga
 from jyotisha.util import default_if_none
 from sanskrit_data.schema import common
-from scipy.optimize import brentq
-from timebudget import timebudget
 
 timebudget.set_quiet(True)  # don't show measurements as they happen
 
@@ -221,6 +222,8 @@ class DailyPanchaanga(common.JsonObject):
       return Interval(jd_start=self.jd_sunrise, jd_end=self.jd_sunrise, name=name)
     elif name == "sunset":
       return Interval(jd_start=self.jd_sunset, jd_end=self.jd_sunset, name=name)
+    elif name == "full_day":
+      return Interval(jd_start=self.jd_sunrise, jd_end=self.jd_next_sunrise, name=name)
     else:
       if name == "aparaahna" and not self.computation_system.options.aparaahna_as_second_half:
         name = "aparaahna_muhuurta"
