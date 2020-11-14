@@ -5,19 +5,19 @@ from collections import defaultdict
 from typing import Dict
 
 import methodtools
+from timebudget import timebudget
+
 from jyotisha.panchaanga.spatio_temporal import daily
 from jyotisha.panchaanga.temporal import time, set_constants, ComputationSystem, AngaType
 from jyotisha.panchaanga.temporal.festival import FestivalInstance
 from jyotisha.panchaanga.temporal.festival.applier import tithi_festival, ecliptic, solar, vaara, rule_repo_based, \
   FestivalAssigner
-from jyotisha.panchaanga.temporal.festival.applier.rule_repo_based import inefficient
 from jyotisha.panchaanga.temporal.time import Date
 from jyotisha.panchaanga.temporal.tithi import TithiAssigner
 from jyotisha.panchaanga.temporal.zodiac.angas import Tithi
 from jyotisha.util import default_if_none
 from sanskrit_data import collection_helper
 from sanskrit_data.schema import common
-from timebudget import timebudget
 
 timebudget.set_quiet(True)  # don't show measurements as they happen
 # timebudget.report_at_exit()  # Generate report when the program exits
@@ -156,7 +156,6 @@ class Panchaanga(common.JsonObject):
     rule_lookup_assigner = rule_repo_based.RuleLookupAssigner(panchaanga=self)
     rule_lookup_assigner.apply_festival_from_rules_repos()
     TithiAssigner(panchaanga=self).assign_shraaddha_tithi()
-    inefficient.FestivalsTimesDaysAssigner(panchaanga=self).assign_festivals_from_rules()
     ecliptic.EclipticFestivalAssigner(panchaanga=self).assign_all()
     tithi_festival.TithiFestivalAssigner(panchaanga=self).assign_all()
     solar.SolarFestivalAssigner(panchaanga=self).assign_all()
