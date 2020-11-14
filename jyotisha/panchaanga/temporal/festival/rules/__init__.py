@@ -255,7 +255,6 @@ class RulesCollection(common.JsonObject):
         if rule.path_actual != expected_path:
           logging.info(str((rule.path_actual, expected_path)))
           os.rename(rule.path_actual, expected_path)
-      # TODO: FInish this.
 
   @timebudget
   def set_rule_dicts(self):

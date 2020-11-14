@@ -1,5 +1,7 @@
 import logging
 
+from timebudget import timebudget
+
 from jyotisha.panchaanga.temporal import Anga, AngaType
 from jyotisha.panchaanga.temporal.festival.applier import FestivalAssigner
 from jyotisha.panchaanga.temporal.festival.rules import RulesRepo
@@ -50,6 +52,7 @@ class RuleLookupAssigner(FestivalAssigner):
       self.apply_month_anga_events(day_panchaanga=dp, month_type=RulesRepo.SIDEREAL_SOLAR_MONTH_DIR, anga_type=AngaType.NAKSHATRA)
       self.apply_month_anga_events(day_panchaanga=dp, month_type=RulesRepo.SIDEREAL_SOLAR_MONTH_DIR, anga_type=AngaType.YOGA)
       self.apply_month_anga_events(day_panchaanga=dp, month_type=RulesRepo.LUNAR_MONTH_DIR, anga_type=AngaType.TITHI)
+      self.apply_month_anga_events(day_panchaanga=dp, month_type=RulesRepo.LUNAR_MONTH_DIR, anga_type=AngaType.NAKSHATRA)
 
   def apply_month_day_events(self, day_panchaanga, month_type):
     from jyotisha.panchaanga.temporal.festival import rules, FestivalInstance
@@ -61,6 +64,7 @@ class RuleLookupAssigner(FestivalAssigner):
       day_panchaanga.festival_id_to_instance[fest_id] = FestivalInstance(name=fest.id)
       self.festival_id_to_days[fest_id].add(day_panchaanga.date)
 
+  @timebudget
   def _get_relevant_festivals(self, anga_type, month_type, panchaangas):
     """
     
@@ -102,6 +106,8 @@ class RuleLookupAssigner(FestivalAssigner):
     return priority not in ('puurvaviddha', 'vyaapti') or \
                       (p_fday.date - 1 not in self.festival_id_to_days[fest_rule.id])
 
+
+  @timebudget
   def apply_month_anga_events(self, day_panchaanga, anga_type, month_type):
     from jyotisha.panchaanga.temporal.festival import priority_decision
     date = day_panchaanga.date

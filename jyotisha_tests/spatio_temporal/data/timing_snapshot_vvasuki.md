@@ -2,18 +2,18 @@
 From `pytest -k tests.spatio_temporal.test_annual.test_timing` on vvasuki's machine.
 
 ## Results
-run time: 14.5s
+run time: 16.68s
 ```
-  update_festival_details: 3869.80ms for      2 calls
-            compute_angas: 7122.18ms for      1 calls
-  get_all_angas_in_period:    2.94ms for   1980 calls
-assign_festivals_from_rules:  759.32ms for      2 calls
-          assign_festival:    0.00ms for  380016 calls
-           set_rule_dicts:  556.29ms for      1 calls
-assign_tithi_yoga_nakshatra_fest:    0.02ms for  32124 calls
-             dump_to_file:  489.02ms for      1 calls
-                     find:    3.13ms for    104 calls
-  assign_festival_numbers:    2.00ms for      2 calls
+  update_festival_details: 4257.58ms for      2 calls
+            compute_angas: 7382.23ms for      1 calls
+  get_all_angas_in_period:    3.04ms for   1980 calls
+  apply_month_anga_events:    1.04ms for   3960 calls
+  _get_relevant_festivals:    0.91ms for   3950 calls
+           set_rule_dicts: 1051.20ms for      1 calls
+             dump_to_file:  491.52ms for      1 calls
+                     find:    3.15ms for    106 calls
+  assign_festival_numbers:    2.16ms for      2 calls
+assign_festivals_from_rules:    1.12ms for      2 calls
 ```
 
 ## Comment:
