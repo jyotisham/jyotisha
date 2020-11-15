@@ -27,24 +27,21 @@ def get_tithi(jd):
   return NakshatraDivision(jd=jd, ayanaamsha_id=Ayanamsha.VERNAL_EQUINOX_AT_0).get_anga(AngaType.TITHI)
 
 
-class TithiAssigner(PeriodicPanchaangaApplier):
+class ShraddhaTithiAssigner(PeriodicPanchaangaApplier):
+  def _assign(self, fday, tithi):
+    if self.daily_panchaangas[fday].shraaddha_tithi == [] or self.daily_panchaangas[fday].shraaddha_tithi == [tithi]:
+      self.daily_panchaangas[fday].shraaddha_tithi = [tithi]
+    else:
+      self.daily_panchaangas[fday].shraaddha_tithi.append(tithi)
+      if self.daily_panchaangas[fday - 1].shraaddha_tithi.count(tithi) == 1:
+        self.daily_panchaangas[fday - 1].shraaddha_tithi.remove(tithi)
+
+
   def assign_shraaddha_tithi(self, debug_shraaddha_tithi=False):
-    if self.daily_panchaangas[0].shraaddha_tithi_computed:
-      logging.warning('Already computed, exiting!')
-      return
-    self.daily_panchaangas[0].shraaddha_tithi_computed = True
     tithi_days = [{z: [] for z in range(0, 32)} for _x in range(13)]
     lunar_tithi_days = {}
     daily_panchaangas = self.daily_panchaangas
     
-    def _assign(self, fday, tithi):
-      if daily_panchaangas[fday].shraaddha_tithi == [] or daily_panchaangas[fday].shraaddha_tithi == [tithi]:
-        daily_panchaangas[fday].shraaddha_tithi = [tithi]
-      else:
-        daily_panchaangas[fday].shraaddha_tithi.append(tithi)
-        if daily_panchaangas[fday - 1].shraaddha_tithi.count(tithi) == 1:
-          daily_panchaangas[fday - 1].shraaddha_tithi.remove(tithi)
-  
     for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + 1):
       [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
 
@@ -102,7 +99,7 @@ class TithiAssigner(PeriodicPanchaangaApplier):
             logging.debug('%03d [%4d-%02d-%02d]: %s' % (d, y, m, dt,
                                                         'Need to assign %2d to %3d as it is present only at start of aparAhna tomorrow!)' % (
                                                           next_anga.index, d + 1)))
-          _assign(self, d + 1, next_anga)
+          self._assign(d + 1, next_anga)
       elif d1_angas.start == angam_start:  # <e>
         if span_1 > vyapti_3:
           # Most likely
@@ -130,7 +127,7 @@ class TithiAssigner(PeriodicPanchaangaApplier):
             logging.debug('%03d [%4d-%02d-%02d]: %s' % (d, y, m, dt,
                                                         '%2d not incident at aparAhna on either day (%3d/%3d); picking second day %3d!' % (
                                                           next_anga, d, d + 1, d + 1)))
-          _assign(self, d + 1, next_anga)
+          self._assign(d + 1, next_anga)
           # logging.debug(reason)
       elif d0_angas.end == d1_angas.start == d1_angas.end == next_anga:  # <c>
         s_tithi = next_anga
@@ -153,7 +150,7 @@ class TithiAssigner(PeriodicPanchaangaApplier):
       if debug_shraaddha_tithi:
         logging.debug(
           '%03d [%4d-%02d-%02d]: Assigning tithi %2d to %3d (%s).' % (d, y, m, dt, s_tithi.index, fday, reason))
-      _assign(self, fday, s_tithi)
+      self._assign(fday, s_tithi)
   
     if debug_shraaddha_tithi:
       logging.debug(self.panchaanga.shraaddha_tithi)

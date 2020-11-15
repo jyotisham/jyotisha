@@ -257,7 +257,6 @@
         "jsonClass": "Anga"
       },
       "shraaddha_tithi": [],
-      "shraaddha_tithi_computed": true,
       "solar_sidereal_date_sunset": {
         "day": 15,
         "jsonClass": "BasicDateWithTransitions",

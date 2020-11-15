@@ -23,7 +23,7 @@ def load_panchaanga(fname, fallback_fn):
     logging.warning("Precomputed Panchanga obsolete.")
     return fallback_fn()
   else:
-    # Festival data may be updated more frequently and a precomputed panchaanga may go out of sync. Hence we keep this method separate.
+    # Festival data may be updated more frequently and a precomputed panchaanga may go out of sync.
     panchaanga.update_festival_details()
     panchaanga.dump_to_file(filename=fname)
     return panchaanga
@@ -35,7 +35,8 @@ def get_panchaanga_for_shaka_year(city, year, precomputed_json_dir="~/Documents/
   if os.path.isfile(fname) and allow_precomputed:
     fn = lambda: get_panchaanga_for_shaka_year(city=city, year=year, precomputed_json_dir=precomputed_json_dir,
                                                computation_system=computation_system, allow_precomputed=False)
-    return load_panchaanga(fname=fname, fallback_fn=fn)
+    panchaanga = load_panchaanga(fname=fname, fallback_fn=fn)
+    return panchaanga
   else:
     logging.info('No precomputed data available. Computing panchaanga...\n')
     SHAKA_CIVIL_ERA_DIFF = 78
@@ -47,7 +48,6 @@ def get_panchaanga_for_shaka_year(city, year, precomputed_json_dir="~/Documents/
     panchaanga = periodical.Panchaanga(city=city, start_date=tz.julian_day_to_local_time(julian_day=start_equinox.jd_start), end_date=tz.julian_day_to_local_time(julian_day=end_equinox.jd_start), computation_system=computation_system)
     panchaanga.year = year
     # Festival data may be updated more frequently and a precomputed panchaanga may go out of sync. Hence we keep this method separate.
-    panchaanga.update_festival_details()
     logging.info('Writing computed panchaanga to %s...\n' % fname)
 
     try:
@@ -65,7 +65,8 @@ def get_panchaanga_for_civil_year(city, year, precomputed_json_dir="~/Documents/
   if os.path.isfile(fname) and allow_precomputed:
     fn = lambda: get_panchaanga_for_civil_year(city=city, year=year, precomputed_json_dir=precomputed_json_dir,
                                             computation_system=computation_system, allow_precomputed=False)
-    return load_panchaanga(fname=fname, fallback_fn=fn) 
+    panchaanga = load_panchaanga(fname=fname, fallback_fn=fn)
+    return panchaanga
   else:
     logging.info('No precomputed data available. Computing panchaanga...\n')
     panchaanga = periodical.Panchaanga(city=city, start_date='%d-01-01' % year, end_date='%d-12-31' % year, computation_system=computation_system)
@@ -73,8 +74,5 @@ def get_panchaanga_for_civil_year(city, year, precomputed_json_dir="~/Documents/
     logging.info('Writing computed panchaanga to %s...\n' % fname)
 
     panchaanga.dump_to_file(filename=fname)
-    # Save without festival details
-    # Festival data may be updated more frequently and a precomputed panchaanga may go out of sync. Hence we keep this method separate.
-    panchaanga.update_festival_details()
     return panchaanga
 
