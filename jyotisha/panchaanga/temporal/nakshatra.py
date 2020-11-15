@@ -33,7 +33,7 @@ class NakshatraAssigner(PeriodicPanchaangaApplier):
     for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + 1):
       [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
       jd = self.daily_panchaangas[d].julian_day_start
-      t_start = self.daily_panchaangas[d - 1].sunrise_day_angas.nakshatras_with_ends[-1].jd_end
+      t_start = self.daily_panchaangas[d - 1].sunrise_day_angas.nakshatras_with_ends[-1].jd_start
       if t_start is not None:
         nakshatra_span = self.daily_panchaangas[d].sunrise_day_angas.nakshatras_with_ends[0]
         (n, t_end) = (nakshatra_span.anga.index, nakshatra_span.jd_end)
@@ -78,7 +78,7 @@ class NakshatraAssigner(PeriodicPanchaangaApplier):
     for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + 1):
       [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
       jd = self.daily_panchaangas[d].julian_day_start
-      t_start = self.daily_panchaangas[d - 1].sunrise_day_angas.nakshatras_with_ends[-1].jd_end
+      t_start = self.daily_panchaangas[d - 1].sunrise_day_angas.nakshatras_with_ends[-1].jd_start
       if t_start is not None:
         nakshatra_span = self.daily_panchaangas[d].sunrise_day_angas.nakshatras_with_ends[0]
         (n, t_end) = (nakshatra_span.anga.index, nakshatra_span.jd_end)
