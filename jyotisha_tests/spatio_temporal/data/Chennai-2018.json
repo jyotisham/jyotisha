@@ -257,6 +257,7 @@
         "jsonClass": "Anga"
       },
       "shraaddha_tithi": [],
+      "shraaddha_tithi_computed": true,
       "solar_sidereal_date_sunset": {
         "day": 15,
         "jsonClass": "BasicDateWithTransitions",
@@ -1937,11 +1938,6 @@
           "anga_type_id": "TITHI",
           "index": 0,
           "jsonClass": "Anga"
-        },
-        {
-          "anga_type_id": "TITHI",
-          "index": 18,
-          "jsonClass": "Anga"
         }
       ],
       "solar_sidereal_date_sunset": {
@@ -2266,11 +2262,6 @@
         {
           "anga_type_id": "TITHI",
           "index": 0,
-          "jsonClass": "Anga"
-        },
-        {
-          "anga_type_id": "TITHI",
-          "index": 19,
           "jsonClass": "Anga"
         }
       ],
@@ -8719,7 +8710,12 @@
       "shraaddha_tithi": [
         {
           "anga_type_id": "TITHI",
-          "index": 0,
+          "index": 8,
+          "jsonClass": "Anga"
+        },
+        {
+          "anga_type_id": "TITHI",
+          "index": 9,
           "jsonClass": "Anga"
         }
       ],
@@ -11120,7 +11116,12 @@
       "shraaddha_tithi": [
         {
           "anga_type_id": "TITHI",
-          "index": 0,
+          "index": 16,
+          "jsonClass": "Anga"
+        },
+        {
+          "anga_type_id": "TITHI",
+          "index": 17,
           "jsonClass": "Anga"
         }
       ],
@@ -19614,7 +19615,12 @@
       "shraaddha_tithi": [
         {
           "anga_type_id": "TITHI",
-          "index": 0,
+          "index": 12,
+          "jsonClass": "Anga"
+        },
+        {
+          "anga_type_id": "TITHI",
+          "index": 13,
           "jsonClass": "Anga"
         }
       ],
@@ -24802,16 +24808,6 @@
           "anga_type_id": "TITHI",
           "index": 0,
           "jsonClass": "Anga"
-        },
-        {
-          "anga_type_id": "TITHI",
-          "index": 28,
-          "jsonClass": "Anga"
-        },
-        {
-          "anga_type_id": "TITHI",
-          "index": 28,
-          "jsonClass": "Anga"
         }
       ],
       "solar_sidereal_date_sunset": {
@@ -26775,7 +26771,12 @@
       "shraaddha_tithi": [
         {
           "anga_type_id": "TITHI",
-          "index": 0,
+          "index": 4,
+          "jsonClass": "Anga"
+        },
+        {
+          "anga_type_id": "TITHI",
+          "index": 5,
           "jsonClass": "Anga"
         }
       ],
@@ -37694,7 +37695,12 @@
       "shraaddha_tithi": [
         {
           "anga_type_id": "TITHI",
-          "index": 0,
+          "index": 8,
+          "jsonClass": "Anga"
+        },
+        {
+          "anga_type_id": "TITHI",
+          "index": 9,
           "jsonClass": "Anga"
         }
       ],
@@ -63398,7 +63404,12 @@
       "shraaddha_tithi": [
         {
           "anga_type_id": "TITHI",
-          "index": 0,
+          "index": 28,
+          "jsonClass": "Anga"
+        },
+        {
+          "anga_type_id": "TITHI",
+          "index": 29,
           "jsonClass": "Anga"
         }
       ],
@@ -73590,7 +73601,12 @@
       "shraaddha_tithi": [
         {
           "anga_type_id": "TITHI",
-          "index": 0,
+          "index": 30,
+          "jsonClass": "Anga"
+        },
+        {
+          "anga_type_id": "TITHI",
+          "index": 1,
           "jsonClass": "Anga"
         }
       ],
@@ -81836,7 +81852,12 @@
       "shraaddha_tithi": [
         {
           "anga_type_id": "TITHI",
-          "index": 0,
+          "index": 25,
+          "jsonClass": "Anga"
+        },
+        {
+          "anga_type_id": "TITHI",
+          "index": 26,
           "jsonClass": "Anga"
         }
       ],
@@ -92497,7 +92518,12 @@
       "shraaddha_tithi": [
         {
           "anga_type_id": "TITHI",
-          "index": 0,
+          "index": 28,
+          "jsonClass": "Anga"
+        },
+        {
+          "anga_type_id": "TITHI",
+          "index": 29,
           "jsonClass": "Anga"
         }
       ],
@@ -99792,7 +99818,12 @@
       "shraaddha_tithi": [
         {
           "anga_type_id": "TITHI",
-          "index": 0,
+          "index": 20,
+          "jsonClass": "Anga"
+        },
+        {
+          "anga_type_id": "TITHI",
+          "index": 21,
           "jsonClass": "Anga"
         }
       ],
@@ -107372,7 +107403,12 @@
       "shraaddha_tithi": [
         {
           "anga_type_id": "TITHI",
-          "index": 0,
+          "index": 13,
+          "jsonClass": "Anga"
+        },
+        {
+          "anga_type_id": "TITHI",
+          "index": 14,
           "jsonClass": "Anga"
         }
       ],
@@ -111060,7 +111096,12 @@
       "shraaddha_tithi": [
         {
           "anga_type_id": "TITHI",
-          "index": 0,
+          "index": 25,
+          "jsonClass": "Anga"
+        },
+        {
+          "anga_type_id": "TITHI",
+          "index": 26,
           "jsonClass": "Anga"
         }
       ],
@@ -118545,16 +118586,6 @@
         "jsonClass": "Anga"
       },
       "shraaddha_tithi": [
-        {
-          "anga_type_id": "TITHI",
-          "index": 18,
-          "jsonClass": "Anga"
-        },
-        {
-          "anga_type_id": "TITHI",
-          "index": 19,
-          "jsonClass": "Anga"
-        },
         {
           "anga_type_id": "TITHI",
           "index": 18,
