@@ -118,8 +118,8 @@ DTSTART;VALUE=DATE-TIME:20190103T235957
 DTEND;VALUE=DATE-TIME:20190104T235957
 DESCRIPTION:Observed on Kṛṣṇa-Caturdaśī tithi of every lunar month
   (nishiitha/paraviddha).<br/>Monthly Shivaratri day.<br/><br/>https%3A//gi
- thub.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/0
- 0/29/mAsazivarAtriH__info.toml<br/><br/>#MonthlyFestivals
+ thub.com/sanskrit-coders/adyatithi/tree/master/devatA/shaiva/lunar_month/t
+ ithi/00/29/mAsazivarAtriH__info.toml<br/><br/>#MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1291,8 +1291,8 @@ DTSTART;VALUE=DATE-TIME:20190201T235957
 DTEND;VALUE=DATE-TIME:20190202T235957
 DESCRIPTION:Observed on Kṛṣṇa-Caturdaśī tithi of every lunar month
   (nishiitha/paraviddha).<br/>Monthly Shivaratri day.<br/><br/>https%3A//gi
- thub.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/0
- 0/29/mAsazivarAtriH__info.toml<br/><br/>#MonthlyFestivals
+ thub.com/sanskrit-coders/adyatithi/tree/master/devatA/shaiva/lunar_month/t
+ ithi/00/29/mAsazivarAtriH__info.toml<br/><br/>#MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2732,8 +2732,8 @@ DTSTART;VALUE=DATE-TIME:20190303T235957
 DTEND;VALUE=DATE-TIME:20190304T235957
 DESCRIPTION:Observed on Kṛṣṇa-Caturdaśī tithi of every lunar month
   (nishiitha/paraviddha).<br/>Monthly Shivaratri day.<br/><br/>https%3A//gi
- thub.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/0
- 0/29/mAsazivarAtriH__info.toml<br/><br/>#MonthlyFestivals
+ thub.com/sanskrit-coders/adyatithi/tree/master/devatA/shaiva/lunar_month/t
+ ithi/00/29/mAsazivarAtriH__info.toml<br/><br/>#MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4031,8 +4031,8 @@ DTSTART;VALUE=DATE-TIME:20190402T235957
 DTEND;VALUE=DATE-TIME:20190403T235957
 DESCRIPTION:Observed on Kṛṣṇa-Caturdaśī tithi of every lunar month
   (nishiitha/paraviddha).<br/>Monthly Shivaratri day.<br/><br/>https%3A//gi
- thub.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/0
- 0/29/mAsazivarAtriH__info.toml<br/><br/>#MonthlyFestivals
+ thub.com/sanskrit-coders/adyatithi/tree/master/devatA/shaiva/lunar_month/t
+ ithi/00/29/mAsazivarAtriH__info.toml<br/><br/>#MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4325,8 +4325,8 @@ DTEND;VALUE=DATE-TIME:20190408T235957
 DESCRIPTION:Observed on Śukla-Tṛtīyā tithi of Caitraḥ (lunar) month
   (sunrise (default)/puurvaviddha (default)).<br/><br/>### References<br/>*
   Kielhorn (1897)<br/><br/><br/>https%3A//github.com/sanskrit-coders/adyati
- thi/tree/master/general/lunar_month/tithi/01/03/gaurI~tRtIyA%20or%20saubhA
- gya-gaurI-vratam__info.toml<br/><br/>#SpecialVratam #DeviPuja
+ thi/tree/master/devatA/shaiva/lunar_month/tithi/01/03/gaurI~tRtIyA%20or%20
+ saubhAgya-gaurI-vratam__info.toml<br/><br/>#SpecialVratam #DeviPuja
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4446,8 +4446,8 @@ DESCRIPTION:Observed on Śukla-Pañcamī tithi of Caitraḥ (lunar) month
  uṣyaṃ samprāptā keśavājñayā||<br/>tasmāt tāṃ pūjayet tatra 
  yastaṃ lakṣmīrna muñchati||<br/><br/><br/>### References<br/>* Vaidi
  kasri Mar 2018<br/><br/><br/>https%3A//github.com/sanskrit-coders/adyatith
- i/tree/master/general/lunar_month/tithi/01/05/lakSmI-paJcamI__info.toml<br
- /><br/>#CommonFestivals
+ i/tree/master/devatA/vaiShNava/lunar_month/tithi/01/05/lakSmI-paJcamI__inf
+ o.toml<br/><br/>#CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4620,8 +4620,8 @@ DTSTART;VALUE=DATE-TIME:20190412T235957
 DTEND;VALUE=DATE-TIME:20190413T235957
 DESCRIPTION:Observed on Śukla-Navamī tithi of Caitraḥ (lunar) month (m
  adhyaahna/puurvaviddha).<br/><br/><br/>https%3A//github.com/sanskrit-coder
- s/adyatithi/tree/master/general/lunar_month/tithi/01/09/zrIrAmanavamI__inf
- o.toml<br/><br/>#Dashavataram #CommonFestivals
+ s/adyatithi/tree/master/devatA/vaiShNava/lunar_month/tithi/01/09/zrIrAmana
+ vamI__info.toml<br/><br/>#Dashavataram #CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5101,8 +5101,9 @@ DTSTART;VALUE=DATE-TIME:20190418T235957
 DTEND;VALUE=DATE-TIME:20190419T235957
 DESCRIPTION:Observed on Paurṇamāsī tithi of Caitraḥ (lunar) month (s
  unrise (default)/puurvaviddha (default)).<br/><br/><br/>https%3A//github.c
- om/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/01/15/g
- ajEndra-mOkSaH~1__info.toml<br/><br/>#PuranaEvents #CommonFestivals
+ om/sanskrit-coders/adyatithi/tree/master/devatA/vaiShNava/lunar_month/tith
+ i/01/15/gajEndra-mOkSaH~1__info.toml<br/><br/>#PuranaEvents #CommonFestiva
+ ls
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5186,8 +5187,9 @@ DTEND;VALUE=DATE-TIME:20190419T235957
 DESCRIPTION:Observed on Paurṇamāsī tithi of Caitraḥ (lunar) month (s
  unrise (default)/puurvaviddha (default)).<br/>Hanuman born from Kaikeyi pa
  rt of Payasam taken by Vulture and eaten by Anjana Devi<br/><br/>https%3A/
- /github.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tith
- i/01/15/zrI~hanUmat~jayantI~2__info.toml<br/><br/>#LessCommonFestivals
+ /github.com/sanskrit-coders/adyatithi/tree/master/devatA/vaiShNava/lunar_m
+ onth/tithi/01/15/zrI~hanUmat~jayantI~2__info.toml<br/><br/>#LessCommonFest
+ ivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5318,8 +5320,8 @@ DESCRIPTION:Observed on Kṛṣṇa-Pañcamī tithi of Caitraḥ (lunar) m
  |<br/>yadromagarteṣu nililyuraddhayastasmai namaḥ kāraṇasūkarāya 
  te||3-13-35||<br/>—śrīmadbhāgavate mahāpurāṇe tṛtīyeskandhe tr
  ayodaśe'dhyāye <br/><br/><br/><br/>https%3A//github.com/sanskrit-coders/
- adyatithi/tree/master/general/lunar_month/tithi/01/20/lakSmI-varAha~jayant
- I__info.toml<br/><br/>#Dashavataram
+ adyatithi/tree/master/devatA/vaiShNava/lunar_month/tithi/01/20/lakSmI-varA
+ ha~jayantI__info.toml<br/><br/>#Dashavataram
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5468,8 +5470,8 @@ DTEND;VALUE=DATE-TIME:20190502T235957
 DESCRIPTION:Observed on Kṛṣṇa-Trayodaśī tithi of Caitraḥ (lunar)
   month (aparaahna/puurvaviddha).<br/><br/>### References<br/>* Kielhorn (1
  897)<br/><br/><br/>https%3A//github.com/sanskrit-coders/adyatithi/tree/mas
- ter/general/lunar_month/tithi/01/28/matsya~jayantI__info.toml<br/><br/>#Da
- shavataram
+ ter/devatA/vaiShNava/lunar_month/tithi/01/28/matsya~jayantI__info.toml<br/
+ ><br/>#Dashavataram
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5548,8 +5550,8 @@ DTSTART;VALUE=DATE-TIME:20190502T235957
 DTEND;VALUE=DATE-TIME:20190503T235957
 DESCRIPTION:Observed on Kṛṣṇa-Caturdaśī tithi of every lunar month
   (nishiitha/paraviddha).<br/>Monthly Shivaratri day.<br/><br/>https%3A//gi
- thub.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/0
- 0/29/mAsazivarAtriH__info.toml<br/><br/>#MonthlyFestivals
+ thub.com/sanskrit-coders/adyatithi/tree/master/devatA/shaiva/lunar_month/t
+ ithi/00/29/mAsazivarAtriH__info.toml<br/><br/>#MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5564,8 +5566,8 @@ DTSTART;VALUE=DATE-TIME:20190503T235957
 DTEND;VALUE=DATE-TIME:20190504T235957
 DESCRIPTION:Observed on Amāvāsyā tithi of Caitraḥ (lunar) month (sunr
  ise (default)/puurvaviddha (default)).<br/><br/><br/>https%3A//github.com/
- sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/01/30/bhAr
- gava-rAma-pUjA__info.toml<br/><br/>#LessCommonFestivals
+ sanskrit-coders/adyatithi/tree/master/devatA/vaiShNava/lunar_month/tithi/0
+ 1/30/bhArgava-rAma-pUjA__info.toml<br/><br/>#LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5791,9 +5793,9 @@ DTSTART;VALUE=DATE-TIME:20190506T235957
 DTEND;VALUE=DATE-TIME:20190507T235957
 DESCRIPTION:Observed on Śukla-Tṛtīyā tithi of Vaiśākhaḥ (lunar) m
  onth (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>https%3A//g
- ithub.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/
- 02/03/balarAma~jayantI__info.toml<br/><br/>#Dashavataram #LessCommonFestiv
- als
+ ithub.com/sanskrit-coders/adyatithi/tree/master/devatA/vaiShNava/lunar_mon
+ th/tithi/02/03/balarAma~jayantI__info.toml<br/><br/>#Dashavataram #LessCom
+ monFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5862,8 +5864,8 @@ DESCRIPTION:Observed on Śukla-Tṛtīyā tithi of Vaiśākhaḥ (lunar) m
  samaye hariḥ||<br/>svochchagaiḥ ṣaḍgrahairyukte mithune rāhusaṃ
  sthite|<br/>reṇukāyāstu yo garbhādavatīrṇo hariḥ svayam||<br/><b
  r/><br/>### References<br/>* Nirnaya Sindhu p.66<br/><br/><br/>https%3A//g
- ithub.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/
- 02/03/parazurAma~jayantI__info.toml<br/><br/>#Dashavataram
+ ithub.com/sanskrit-coders/adyatithi/tree/master/devatA/vaiShNava/lunar_mon
+ th/tithi/02/03/parazurAma~jayantI__info.toml<br/><br/>#Dashavataram
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5914,8 +5916,8 @@ DTSTART;VALUE=DATE-TIME:20190507T235957
 DTEND;VALUE=DATE-TIME:20190508T235957
 DESCRIPTION:Observed on Śukla-Caturthī tithi of Vaiśākhaḥ (lunar) mo
  nth (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>https%3A//gi
- thub.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/0
- 2/04/vArtA-gaurI-vratam__info.toml<br/><br/>#SpecialVratam
+ thub.com/sanskrit-coders/adyatithi/tree/master/devatA/shaiva/lunar_month/t
+ ithi/02/04/vArtA-gaurI-vratam__info.toml<br/><br/>#SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5930,8 +5932,8 @@ DTSTART;VALUE=DATE-TIME:20190508T235957
 DTEND;VALUE=DATE-TIME:20190509T235957
 DESCRIPTION:Observed on Śukla-Pañcamī tithi of Vaiśākhaḥ (lunar) mo
  nth (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>https%3A//gi
- thub.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/0
- 2/05/lAvaNya-gaurI-vratam__info.toml<br/><br/>#SpecialVratam
+ thub.com/sanskrit-coders/adyatithi/tree/master/devatA/shaiva/lunar_month/t
+ ithi/02/05/lAvaNya-gaurI-vratam__info.toml<br/><br/>#SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6219,8 +6221,8 @@ DTEND;VALUE=DATE-TIME:20190513T235957
 DESCRIPTION:Observed on Śukla-Navamī tithi of Vaiśākhaḥ (lunar) mont
  h (madhyaahna/puurvaviddha).<br/><br/>### References<br/>* Kielhorn (1897)
  <br/><br/><br/>https%3A//github.com/sanskrit-coders/adyatithi/tree/master/
- general/lunar_month/tithi/02/09/sItAnavamI__info.toml<br/><br/>#CommonFest
- ivals
+ devatA/vaiShNava/lunar_month/tithi/02/09/sItAnavamI__info.toml<br/><br/>#C
+ ommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6461,8 +6463,8 @@ DTSTART;VALUE=DATE-TIME:20190515T235957
 DTEND;VALUE=DATE-TIME:20190516T235957
 DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Vaiśākhaḥ (lunar) m
  onth (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>https%3A//g
- ithub.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/
- 02/12/parazurAma-dvAdazI__info.toml<br/><br/>#SpecialVratam
+ ithub.com/sanskrit-coders/adyatithi/tree/master/devatA/vaiShNava/lunar_mon
+ th/tithi/02/12/parazurAma-dvAdazI__info.toml<br/><br/>#SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6492,8 +6494,8 @@ DTSTART;VALUE=DATE-TIME:20190515T235957
 DTEND;VALUE=DATE-TIME:20190516T235957
 DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Vaiśākhaḥ (lunar) m
  onth (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>https%3A//g
- ithub.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/
- 02/12/rukmiNI-dvAdazI__info.toml<br/><br/>#OtherJayantis
+ ithub.com/sanskrit-coders/adyatithi/tree/master/devatA/vaiShNava/lunar_mon
+ th/tithi/02/12/rukmiNI-dvAdazI__info.toml<br/><br/>#OtherJayantis
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6532,8 +6534,8 @@ DTSTART;VALUE=DATE-TIME:20190516T235957
 DTEND;VALUE=DATE-TIME:20190517T235957
 DESCRIPTION:Observed on Śukla-Caturdaśī tithi of Vaiśākhaḥ (lunar) 
  month (sunset/puurvaviddha).<br/>Monday Swati?<br/><br/>https%3A//github.c
- om/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/02/14/n
- RsiMha~jayantI__info.toml<br/><br/>#Dashavataram #CommonFestivals
+ om/sanskrit-coders/adyatithi/tree/master/devatA/vaiShNava/lunar_month/tith
+ i/02/14/nRsiMha~jayantI__info.toml<br/><br/>#Dashavataram #CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6566,8 +6568,8 @@ DTSTART;VALUE=DATE-TIME:20190517T235957
 DTEND;VALUE=DATE-TIME:20190518T235957
 DESCRIPTION:Observed on Paurṇamāsī tithi of Vaiśākhaḥ (lunar) mont
  h (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>https%3A//gith
- ub.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/02/
- 15/ardhanArIzvara-vratam__info.toml<br/><br/>#SpecialVratam
+ ub.com/sanskrit-coders/adyatithi/tree/master/devatA/shaiva/lunar_month/tit
+ hi/02/15/ardhanArIzvara-vratam__info.toml<br/><br/>#SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6651,8 +6653,8 @@ DTSTART;VALUE=DATE-TIME:20190517T235957
 DTEND;VALUE=DATE-TIME:20190518T235957
 DESCRIPTION:Observed on Paurṇamāsī tithi of Vaiśākhaḥ (lunar) mont
  h (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>https%3A//gith
- ub.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/02/
- 15/sampat-gaurI-vratam__info.toml<br/><br/>#LessCommonFestivals
+ ub.com/sanskrit-coders/adyatithi/tree/master/devatA/shaiva/lunar_month/tit
+ hi/02/15/sampat-gaurI-vratam__info.toml<br/><br/>#LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6727,9 +6729,9 @@ DTSTART;VALUE=DATE-TIME:20190517T235957
 DTEND;VALUE=DATE-TIME:20190518T235957
 DESCRIPTION:Observed on Paurṇamāsī tithi of Vaiśākhaḥ (lunar) mont
  h (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>https%3A//gith
- ub.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/02/
- 15/zarabha~jayantI__info.toml<br/><br/>#LessCommonFestivals #OtherAvataram
- s
+ ub.com/sanskrit-coders/adyatithi/tree/master/devatA/shaiva/lunar_month/tit
+ hi/02/15/zarabha~jayantI__info.toml<br/><br/>#LessCommonFestivals #OtherAv
+ atarams
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -7171,8 +7173,8 @@ DTSTART;VALUE=DATE-TIME:20190531T235957
 DTEND;VALUE=DATE-TIME:20190601T235957
 DESCRIPTION:Observed on Kṛṣṇa-Caturdaśī tithi of every lunar month
   (nishiitha/paraviddha).<br/>Monthly Shivaratri day.<br/><br/>https%3A//gi
- thub.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/0
- 0/29/mAsazivarAtriH__info.toml<br/><br/>#MonthlyFestivals
+ thub.com/sanskrit-coders/adyatithi/tree/master/devatA/shaiva/lunar_month/t
+ ithi/00/29/mAsazivarAtriH__info.toml<br/><br/>#MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -7403,8 +7405,8 @@ DTSTART;VALUE=DATE-TIME:20190603T235957
 DTEND;VALUE=DATE-TIME:20190604T235957
 DESCRIPTION:Observed on Śukla-Prathamā tithi of Jyaiṣṭhaḥ (lunar) 
  month (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>https%3A//
- github.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi
- /03/01/punnAga-gaurI-vratam__info.toml<br/><br/>#SpecialVratam
+ github.com/sanskrit-coders/adyatithi/tree/master/devatA/shaiva/lunar_month
+ /tithi/03/01/punnAga-gaurI-vratam__info.toml<br/><br/>#SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -7466,8 +7468,8 @@ DESCRIPTION:Observed on Śukla-Caturthī tithi of Jyaiṣṭhaḥ (lunar)
  ṃ dehi saubhāgyaṃ sarvamaṅgale|<br/>saumaṅgalyaṃ sukhaṃ jñā
  naṃ dehi me śivasundari||<br/><br/><br/>### References<br/>* Bhavishyot
  tara Puranam<br/><br/><br/>https%3A//github.com/sanskrit-coders/adyatithi/
- tree/master/general/lunar_month/tithi/03/04/kadalI-gaurI-vratam%20or%20pUj
- A__info.toml<br/><br/>#LessCommonFestivals
+ tree/master/devatA/shaiva/lunar_month/tithi/03/04/kadalI-gaurI-vratam%20or
+ %20pUjA__info.toml<br/><br/>#LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -7502,8 +7504,8 @@ DESCRIPTION:Observed on Śukla-Caturthī tithi of Jyaiṣṭhaḥ (lunar)
  Maheshvara\, on the day of Uma Devi's Avataram.<br/><br/>jyeṣṭhaśukla
  chaturthyāṃ tu jātā pūrvamumā satī|<br/>tasmāt sā tatra sampūjy
  ā strībhiḥ saubhāgyavṛddhaye||<br/><br/><br/><br/>https%3A//github.
- com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/03/04/
- umA-avatAraH__info.toml<br/><br/>#OtherJayantis
+ com/sanskrit-coders/adyatithi/tree/master/devatA/shaiva/lunar_month/tithi/
+ 03/04/umA-avatAraH__info.toml<br/><br/>#OtherJayantis
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -7534,8 +7536,8 @@ DTSTART;VALUE=DATE-TIME:20190607T235957
 DTEND;VALUE=DATE-TIME:20190608T235957
 DESCRIPTION:Observed on Śukla-Ṣaṣṭhī tithi of Jyaiṣṭhaḥ (lun
  ar) month (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>https%
- 3A//github.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/t
- ithi/03/06/AraNya-gaurI-vratam__info.toml<br/><br/>#SpecialVratam
+ 3A//github.com/sanskrit-coders/adyatithi/tree/master/devatA/shaiva/lunar_m
+ onth/tithi/03/06/AraNya-gaurI-vratam__info.toml<br/><br/>#SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8707,8 +8709,8 @@ DTSTART;VALUE=DATE-TIME:20190630T235957
 DTEND;VALUE=DATE-TIME:20190701T235957
 DESCRIPTION:Observed on Kṛṣṇa-Caturdaśī tithi of every lunar month
   (nishiitha/paraviddha).<br/>Monthly Shivaratri day.<br/><br/>https%3A//gi
- thub.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/0
- 0/29/mAsazivarAtriH__info.toml<br/><br/>#MonthlyFestivals
+ thub.com/sanskrit-coders/adyatithi/tree/master/devatA/shaiva/lunar_month/t
+ ithi/00/29/mAsazivarAtriH__info.toml<br/><br/>#MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10140,8 +10142,8 @@ DTSTART;VALUE=DATE-TIME:20190729T235957
 DTEND;VALUE=DATE-TIME:20190730T235957
 DESCRIPTION:Observed on Kṛṣṇa-Caturdaśī tithi of every lunar month
   (nishiitha/paraviddha).<br/>Monthly Shivaratri day.<br/><br/>https%3A//gi
- thub.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/0
- 0/29/mAsazivarAtriH__info.toml<br/><br/>#MonthlyFestivals
+ thub.com/sanskrit-coders/adyatithi/tree/master/devatA/shaiva/lunar_month/t
+ ithi/00/29/mAsazivarAtriH__info.toml<br/><br/>#MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11988,8 +11990,8 @@ DTSTART;VALUE=DATE-TIME:20190827T235957
 DTEND;VALUE=DATE-TIME:20190828T235957
 DESCRIPTION:Observed on Kṛṣṇa-Caturdaśī tithi of every lunar month
   (nishiitha/paraviddha).<br/>Monthly Shivaratri day.<br/><br/>https%3A//gi
- thub.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/0
- 0/29/mAsazivarAtriH__info.toml<br/><br/>#MonthlyFestivals
+ thub.com/sanskrit-coders/adyatithi/tree/master/devatA/shaiva/lunar_month/t
+ ithi/00/29/mAsazivarAtriH__info.toml<br/><br/>#MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12369,8 +12371,9 @@ DTSTART;VALUE=DATE-TIME:20190901T235957
 DTEND;VALUE=DATE-TIME:20190902T235957
 DESCRIPTION:Observed on Hastaḥ nakṣhatram day of Siṃhaḥ (solar) mo
  nth (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>https%3A//gi
- thub.com/sanskrit-coders/adyatithi/tree/master/general/sidereal_solar_mont
- h/nakshatra/05/13/sAmavEda-upAkarma__info.toml<br/><br/>#CommonFestivals
+ thub.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/sidereal_sola
+ r_month/nakshatra/05/13/sAmavEda-upAkarma__info.toml<br/><br/>#CommonFesti
+ vals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13885,8 +13888,8 @@ DTSTART;VALUE=DATE-TIME:20190926T235957
 DTEND;VALUE=DATE-TIME:20190927T235957
 DESCRIPTION:Observed on Kṛṣṇa-Caturdaśī tithi of every lunar month
   (nishiitha/paraviddha).<br/>Monthly Shivaratri day.<br/><br/>https%3A//gi
- thub.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/0
- 0/29/mAsazivarAtriH__info.toml<br/><br/>#MonthlyFestivals
+ thub.com/sanskrit-coders/adyatithi/tree/master/devatA/shaiva/lunar_month/t
+ ithi/00/29/mAsazivarAtriH__info.toml<br/><br/>#MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15752,8 +15755,8 @@ DTSTART;VALUE=DATE-TIME:20191025T235957
 DTEND;VALUE=DATE-TIME:20191026T235957
 DESCRIPTION:Observed on Kṛṣṇa-Caturdaśī tithi of every lunar month
   (nishiitha/paraviddha).<br/>Monthly Shivaratri day.<br/><br/>https%3A//gi
- thub.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/0
- 0/29/mAsazivarAtriH__info.toml<br/><br/>#MonthlyFestivals
+ thub.com/sanskrit-coders/adyatithi/tree/master/devatA/shaiva/lunar_month/t
+ ithi/00/29/mAsazivarAtriH__info.toml<br/><br/>#MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17720,8 +17723,8 @@ DTSTART;VALUE=DATE-TIME:20191123T235957
 DTEND;VALUE=DATE-TIME:20191124T235957
 DESCRIPTION:Observed on Kṛṣṇa-Caturdaśī tithi of every lunar month
   (nishiitha/paraviddha).<br/>Monthly Shivaratri day.<br/><br/>https%3A//gi
- thub.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/0
- 0/29/mAsazivarAtriH__info.toml<br/><br/>#MonthlyFestivals
+ thub.com/sanskrit-coders/adyatithi/tree/master/devatA/shaiva/lunar_month/t
+ ithi/00/29/mAsazivarAtriH__info.toml<br/><br/>#MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18968,8 +18971,8 @@ DTSTART;VALUE=DATE-TIME:20191223T235957
 DTEND;VALUE=DATE-TIME:20191224T235957
 DESCRIPTION:Observed on Kṛṣṇa-Caturdaśī tithi of every lunar month
   (nishiitha/paraviddha).<br/>Monthly Shivaratri day.<br/><br/>https%3A//gi
- thub.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/0
- 0/29/mAsazivarAtriH__info.toml<br/><br/>#MonthlyFestivals
+ thub.com/sanskrit-coders/adyatithi/tree/master/devatA/shaiva/lunar_month/t
+ ithi/00/29/mAsazivarAtriH__info.toml<br/><br/>#MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE

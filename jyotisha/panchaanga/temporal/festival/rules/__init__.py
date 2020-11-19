@@ -229,7 +229,7 @@ class RulesRepo(common.JsonObject):
     return self.path if self.path is not None else os.path.join(DATA_ROOT, self.name)
 
 
-rule_repos = (RulesRepo(name="general"), RulesRepo(name="gRhya/general"), RulesRepo(name="tamil"), RulesRepo(name="mahApuruSha/general"), RulesRepo(name="mahApuruSha/kAnchI-maTha"), RulesRepo(name="mahApuruSha/ALvAr"), RulesRepo(name="mahApuruSha/nAyanAr"), RulesRepo(name="temples/venkaTAchala"), RulesRepo(name="temples/Andhra"), RulesRepo(name="temples/Tamil"), RulesRepo(name="temples/Kerala"), RulesRepo(name="temples/Odisha"), RulesRepo(name="temples/North"))
+rule_repos = (RulesRepo(name="general"), RulesRepo(name="gRhya/general"), RulesRepo(name="tamil"), RulesRepo(name="mahApuruSha/general"), RulesRepo(name="devatA/shaiva"),  RulesRepo(name="devatA/vaiShNava"), RulesRepo(name="mahApuruSha/kAnchI-maTha"), RulesRepo(name="mahApuruSha/ALvAr"), RulesRepo(name="mahApuruSha/nAyanAr"), RulesRepo(name="temples/venkaTAchala"), RulesRepo(name="temples/Andhra"), RulesRepo(name="temples/Tamil"), RulesRepo(name="temples/Kerala"), RulesRepo(name="temples/Odisha"), RulesRepo(name="temples/North"))
 
 
 class RulesCollection(common.JsonObject):

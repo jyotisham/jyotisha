@@ -33,6 +33,16 @@
           "name": "mahApuruSha/general"
         },
         {
+          "base_url": "https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/shaiva",
+          "jsonClass": "RulesRepo",
+          "name": "devatA/shaiva"
+        },
+        {
+          "base_url": "https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/vaiShNava",
+          "jsonClass": "RulesRepo",
+          "name": "devatA/vaiShNava"
+        },
+        {
           "base_url": "https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha",
           "jsonClass": "RulesRepo",
           "name": "mahApuruSha/kAnchI-maTha"
