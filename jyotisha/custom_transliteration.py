@@ -35,7 +35,6 @@ def tr(text, script, titled=True):
     return ''
   # TODO: Fix this ugliness.
   t = text.replace('~', '##~##')  # Simple fix to prevent transliteration of ~
-  # logging.debug(transliterated_text)
   transliterated_text = sanscript.transliterate(data=t, _from=sanscript.HK, _to=script).replace('C', 'Ch').replace('c', 'ch')
   if titled:
     transliterated_text = transliterated_text.title()
