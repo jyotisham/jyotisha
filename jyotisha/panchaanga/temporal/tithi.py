@@ -38,6 +38,10 @@ class ShraddhaTithiAssigner(PeriodicPanchaangaApplier):
 
 
   def assign_shraaddha_tithi(self, debug_shraaddha_tithi=False):
+    if self.daily_panchaangas[0].shraaddha_tithi_computed:
+      logging.warning('Already computed, exiting!')
+      return
+    self.daily_panchaangas[0].shraaddha_tithi_computed = True
     tithi_days = [{z: [] for z in range(0, 32)} for _x in range(13)]
     lunar_tithi_days = {}
     daily_panchaangas = self.daily_panchaangas
