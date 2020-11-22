@@ -248,7 +248,7 @@ class DailyPanchaanga(common.JsonObject):
       solar_sidereal_month_day_sunset = len(self.city.get_sunsets_in_period(jd_start=solar_month_sunset_span.jd_start, jd_end=self.jd_sunset + 1/48.0))
       if solar_sidereal_month_day_sunset == 1 and solar_month_sunset_span.jd_start > self.jd_sunrise:
         solar_sidereal_month_end_jd = solar_month_sunset_span.jd_start
-      elif solar_sidereal_month_day_sunset == 30 and solar_month_sunset_span.jd_end < self.jd_next_sunrise:
+      elif solar_sidereal_month_day_sunset >= 29 and solar_month_sunset_span.jd_end < self.jd_next_sunrise:
         solar_sidereal_month_end_jd = solar_month_sunset_span.jd_end
     else:
       solar_sidereal_month_day_sunset = previous_day_panchaanga.solar_sidereal_date_sunset.day + 1

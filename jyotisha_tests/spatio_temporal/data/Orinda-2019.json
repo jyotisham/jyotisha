@@ -34266,7 +34266,8 @@
       "solar_sidereal_date_sunset": {
         "day": 31,
         "jsonClass": "BasicDateWithTransitions",
-        "month": 12
+        "month": 12,
+        "month_transition": 2458587.85
       },
       "sunrise_day_angas": {
         "jsonClass": "DayAngas",
@@ -34933,7 +34934,12 @@
       "shraaddha_tithi": [
         {
           "anga_type_id": "TITHI",
-          "index": 0,
+          "index": 11,
+          "jsonClass": "Anga"
+        },
+        {
+          "anga_type_id": "TITHI",
+          "index": 12,
           "jsonClass": "Anga"
         }
       ],
@@ -44487,14 +44493,15 @@
       "shraaddha_tithi": [
         {
           "anga_type_id": "TITHI",
-          "index": 11,
+          "index": 0,
           "jsonClass": "Anga"
         }
       ],
       "solar_sidereal_date_sunset": {
         "day": 31,
         "jsonClass": "BasicDateWithTransitions",
-        "month": 1
+        "month": 1,
+        "month_transition": 2458618.7185
       },
       "sunrise_day_angas": {
         "jsonClass": "DayAngas",
@@ -45151,7 +45158,7 @@
       "shraaddha_tithi": [
         {
           "anga_type_id": "TITHI",
-          "index": 0,
+          "index": 13,
           "jsonClass": "Anga"
         }
       ],
@@ -54744,14 +54751,15 @@
       "shraaddha_tithi": [
         {
           "anga_type_id": "TITHI",
-          "index": 13,
+          "index": 0,
           "jsonClass": "Anga"
         }
       ],
       "solar_sidereal_date_sunset": {
         "day": 31,
         "jsonClass": "BasicDateWithTransitions",
-        "month": 2
+        "month": 2,
+        "month_transition": 2458649.9921
       },
       "sunrise_day_angas": {
         "jsonClass": "DayAngas",
@@ -65870,7 +65878,7 @@
       "shraaddha_tithi": [
         {
           "anga_type_id": "TITHI",
-          "index": 0,
+          "index": 17,
           "jsonClass": "Anga"
         }
       ],
@@ -75411,14 +75419,15 @@
       "shraaddha_tithi": [
         {
           "anga_type_id": "TITHI",
-          "index": 17,
+          "index": 0,
           "jsonClass": "Anga"
         }
       ],
       "solar_sidereal_date_sunset": {
         "day": 32,
         "jsonClass": "BasicDateWithTransitions",
-        "month": 4
+        "month": 4,
+        "month_transition": 2458712.7943
       },
       "sunrise_day_angas": {
         "jsonClass": "DayAngas",
@@ -75739,7 +75748,7 @@
       "shraaddha_tithi": [
         {
           "anga_type_id": "TITHI",
-          "index": 0,
+          "index": 18,
           "jsonClass": "Anga"
         }
       ],
@@ -85695,14 +85704,15 @@
       "shraaddha_tithi": [
         {
           "anga_type_id": "TITHI",
-          "index": 18,
+          "index": 0,
           "jsonClass": "Anga"
         }
       ],
       "solar_sidereal_date_sunset": {
         "day": 31,
         "jsonClass": "BasicDateWithTransitions",
-        "month": 5
+        "month": 5,
+        "month_transition": 2458743.7928
       },
       "sunrise_day_angas": {
         "jsonClass": "DayAngas",
