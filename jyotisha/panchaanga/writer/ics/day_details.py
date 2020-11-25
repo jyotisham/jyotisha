@@ -312,31 +312,8 @@ def writeDailyICS(panchaanga, script=sanscript.DEVANAGARI):
     Hour(24 * (shulam_end_jd - jd)).toString(),
     getName('parihAraH', script), getName(SHULAM[daily_panchaanga.date.get_weekday()][2], script)),
           file=output_stream)
-    # Using set as an ugly workaround since we may have sometimes assigned the same
-    # festival to the same day again!
-    fest_list = []
-    for f in sorted(daily_panchaanga.festival_id_to_instance.values()):
-      fest_name_cleaned = jyotisha.custom_transliteration.tr(f, script).replace('~', ' ').replace('tamil',
-                                                                                                             '')
-      fest_name_cleaned = re.sub('[{}]', '', fest_name_cleaned).replace('\\', '').replace('textsf', '').replace('To',
-                                                                                                                '►').replace(
-        'RIGHTarrow', '►')
-      fest_list.append(fest_name_cleaned)
 
-    if len(fest_list):
-      print('*%s*\n%s\n' % (getName('dina-vizESAH', script), '; '.join(fest_list)), file=output_stream)
-    else:
-      print('', file=output_stream)
-
-    if panchaanga.fmt == 'hh:mm*':
-      dinaanta_hh, dinaanta_mm = dinaanta.split(':')
-      dinaanta_hh = int(dinaanta_hh) - 24
-      dinaanta_mm = int(dinaanta_mm[:-1])
-      footer_text = 'Note: All times are shown in 24h format. Times beyond midnight are shown as %s, meaning %02d:%02d am tomorrow.' % (
-      dinaanta, dinaanta_hh, dinaanta_mm)
-      output_text = cleanTamilNa(output_stream.getvalue()) + '\n\n%s' % footer_text
-    else:
-      output_text = cleanTamilNa(output_stream.getvalue())
+    output_text = cleanTamilNa(output_stream.getvalue())
 
     event.add('dtstart', date(y, m, dt))
     event.add('dtend', (datetime(y, m, dt) + timedelta(1)).date())
