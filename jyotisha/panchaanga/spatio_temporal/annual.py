@@ -23,8 +23,6 @@ def load_panchaanga(fname, fallback_fn):
     logging.warning("Precomputed Panchanga obsolete.")
     return fallback_fn()
   else:
-    # Festival data may be updated more frequently and a precomputed panchaanga may go out of sync.
-    panchaanga.update_festival_details()
     panchaanga.dump_to_file(filename=fname)
     return panchaanga
   
@@ -36,6 +34,9 @@ def get_panchaanga_for_shaka_year(city, year, precomputed_json_dir="~/Documents/
     fn = lambda: get_panchaanga_for_shaka_year(city=city, year=year, precomputed_json_dir=precomputed_json_dir,
                                                computation_system=computation_system, allow_precomputed=False)
     panchaanga = load_panchaanga(fname=fname, fallback_fn=fn)
+    # Fest repos to be used might have changed in this call.
+    panchaanga.computation_system = computation_system
+    panchaanga.update_festival_details()
     return panchaanga
   else:
     logging.info('No precomputed data available. Computing panchaanga...\n')
