@@ -4,12 +4,11 @@ import os.path
 import sys
 from datetime import datetime, date, timedelta
 
-import jyotisha.panchaanga.spatio_temporal.annual
 from icalendar import Calendar, Event, Alarm
-from jyotisha.panchaanga.spatio_temporal import City
-from jyotisha.panchaanga.temporal import MAX_SZ
-from jyotisha.panchaanga.temporal import time
 from pytz import timezone as tz
+
+import jyotisha.panchaanga.spatio_temporal.annual
+from jyotisha.panchaanga.spatio_temporal import City
 
 logging.basicConfig(
   level=logging.DEBUG,
@@ -20,7 +19,7 @@ CODE_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
 
 
 def emit_ics_calendar(panchaanga, ics_file_name):
-  panchaanga.ics_calendar = Calendar()
+  ics_calendar = Calendar()
   daily_panchaangas = panchaanga.daily_panchaangas_sorted()
   for d, daily_panchaanga in enumerate(daily_panchaangas):
     if daily_panchaanga.date < panchaanga.start_date or daily_panchaanga.date > panchaanga.end_date:
@@ -41,7 +40,7 @@ def emit_ics_calendar(panchaanga, ics_file_name):
           h2, m2 = t2.split(':')
           event.add('dtstart', datetime(y, m, dt, int(h1), int(m1), tzinfo=tz(panchaanga.city.timezone)))
           event.add('dtend', datetime(y, m, dt, int(h2), int(m2), tzinfo=tz(panchaanga.city.timezone)))
-          panchaanga.ics_calendar.add_component(event)
+          ics_calendar.add_component(event)
         else:
           event = Event()
           # summary = re.sub('{(.*)}','\\1', )  # strip braces around numbers
@@ -56,13 +55,13 @@ def emit_ics_calendar(panchaanga, ics_file_name):
           event['TRANSP'] = 'TRANSPARENT'
           event['X-MICROSOFT-CDO-BUSYSTATUS'] = 'FREE'
 
-          panchaanga.ics_calendar.add_component(event)
+          ics_calendar.add_component(event)
 
     if m == 12 and dt == 31:
       break
 
   with open(ics_file_name, 'wb') as ics_calendar_file:
-    ics_calendar_file.write(panchaanga.ics_calendar.to_ical())
+    ics_calendar_file.write(ics_calendar.to_ical())
 
 
 def main():

@@ -18,9 +18,6 @@ import jyotisha.custom_transliteration
 import jyotisha.names
 import jyotisha.panchaanga.spatio_temporal.annual
 import jyotisha.panchaanga.temporal
-
-from jyotisha.panchaanga.temporal import time
-from jyotisha.panchaanga import temporal
 from jyotisha.panchaanga.spatio_temporal import City
 from jyotisha.panchaanga.temporal.time import Hour
 
@@ -119,10 +116,6 @@ def writeDailyICS(panchaanga, script=sanscript.DEVANAGARI):
   yname_solar = samvatsara_names[0]  # Assign year name until Mesha Sankranti
   yname_lunar = samvatsara_names[0]  # Assign year name until Mesha Sankranti
 
-  # print(' \\sffamily \\fontsize 43  43 \\selectfont  %d–%d\\\\[0.5cm] \n\\hrule\n\\vspace 0.2cm '
-  #       % (panchaanga.year + 3100, panchaanga.year + 3101), file=output_stream)
-  # print(' \\sffamily \\fontsize 23  23 \\selectfont   %s \\\\[0.2cm] '
-  #       % jyotisha.custom_transliteration.print_lat_lon(panchaanga.city.latitude, panchaanga.city.longitude), file=output_stream)
 
   ics_calendar = Calendar()
 
