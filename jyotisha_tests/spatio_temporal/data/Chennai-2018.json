@@ -48,6 +48,11 @@
           "name": "devatA/umA"
         },
         {
+          "base_url": "https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/graha",
+          "jsonClass": "RulesRepo",
+          "name": "devatA/graha"
+        },
+        {
           "base_url": "https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/nadI",
           "jsonClass": "RulesRepo",
           "name": "devatA/nadI"
@@ -78,6 +83,16 @@
           "name": "devatA/lakShmI"
         },
         {
+          "base_url": "https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/misc-fauna",
+          "jsonClass": "RulesRepo",
+          "name": "devatA/misc-fauna"
+        },
+        {
+          "base_url": "https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/misc-flora",
+          "jsonClass": "RulesRepo",
+          "name": "devatA/misc-flora"
+        },
+        {
           "base_url": "https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha",
           "jsonClass": "RulesRepo",
           "name": "mahApuruSha/kAnchI-maTha"
@@ -86,6 +101,36 @@
           "base_url": "https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/ALvAr",
           "jsonClass": "RulesRepo",
           "name": "mahApuruSha/ALvAr"
+        },
+        {
+          "base_url": "https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/vaiShNava-misc",
+          "jsonClass": "RulesRepo",
+          "name": "mahApuruSha/vaiShNava-misc"
+        },
+        {
+          "base_url": "https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/mAdhva-misc",
+          "jsonClass": "RulesRepo",
+          "name": "mahApuruSha/mAdhva-misc"
+        },
+        {
+          "base_url": "https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/smArta-misc",
+          "jsonClass": "RulesRepo",
+          "name": "mahApuruSha/smArta-misc"
+        },
+        {
+          "base_url": "https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/sangIta-kRt",
+          "jsonClass": "RulesRepo",
+          "name": "mahApuruSha/sangIta-kRt"
+        },
+        {
+          "base_url": "https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra",
+          "jsonClass": "RulesRepo",
+          "name": "mahApuruSha/xatra"
+        },
+        {
+          "base_url": "https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/RShi",
+          "jsonClass": "RulesRepo",
+          "name": "mahApuruSha/RShi"
         },
         {
           "base_url": "https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/nAyanAr",
