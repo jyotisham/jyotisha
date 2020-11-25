@@ -33,14 +33,49 @@
           "name": "mahApuruSha/general"
         },
         {
+          "base_url": "https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/pitR",
+          "jsonClass": "RulesRepo",
+          "name": "devatA/pitR"
+        },
+        {
           "base_url": "https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/shaiva",
           "jsonClass": "RulesRepo",
           "name": "devatA/shaiva"
         },
         {
+          "base_url": "https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/umA",
+          "jsonClass": "RulesRepo",
+          "name": "devatA/umA"
+        },
+        {
+          "base_url": "https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/nadI",
+          "jsonClass": "RulesRepo",
+          "name": "devatA/nadI"
+        },
+        {
+          "base_url": "https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/shakti",
+          "jsonClass": "RulesRepo",
+          "name": "devatA/shakti"
+        },
+        {
+          "base_url": "https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/gaNapati",
+          "jsonClass": "RulesRepo",
+          "name": "devatA/gaNapati"
+        },
+        {
+          "base_url": "https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/kaumAra",
+          "jsonClass": "RulesRepo",
+          "name": "devatA/kaumAra"
+        },
+        {
           "base_url": "https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/vaiShNava",
           "jsonClass": "RulesRepo",
           "name": "devatA/vaiShNava"
+        },
+        {
+          "base_url": "https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/lakShmI",
+          "jsonClass": "RulesRepo",
+          "name": "devatA/lakShmI"
         },
         {
           "base_url": "https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha",
@@ -86,6 +121,61 @@
           "base_url": "https://github.com/sanskrit-coders/adyatithi/tree/master/temples/North",
           "jsonClass": "RulesRepo",
           "name": "temples/North"
+        },
+        {
+          "base_url": "https://github.com/sanskrit-coders/adyatithi/tree/master/time_focus/sankrAnti",
+          "jsonClass": "RulesRepo",
+          "name": "time_focus/sankrAnti"
+        },
+        {
+          "base_url": "https://github.com/sanskrit-coders/adyatithi/tree/master/time_focus/puShkara",
+          "jsonClass": "RulesRepo",
+          "name": "time_focus/puShkara"
+        },
+        {
+          "base_url": "https://github.com/sanskrit-coders/adyatithi/tree/master/time_focus/yugAdiH",
+          "jsonClass": "RulesRepo",
+          "name": "time_focus/yugAdiH"
+        },
+        {
+          "base_url": "https://github.com/sanskrit-coders/adyatithi/tree/master/time_focus/misc",
+          "jsonClass": "RulesRepo",
+          "name": "time_focus/misc"
+        },
+        {
+          "base_url": "https://github.com/sanskrit-coders/adyatithi/tree/master/time_focus/nakShatra",
+          "jsonClass": "RulesRepo",
+          "name": "time_focus/nakShatra"
+        },
+        {
+          "base_url": "https://github.com/sanskrit-coders/adyatithi/tree/master/time_focus/Eclipses",
+          "jsonClass": "RulesRepo",
+          "name": "time_focus/Eclipses"
+        },
+        {
+          "base_url": "https://github.com/sanskrit-coders/adyatithi/tree/master/time_focus/misc_combinations",
+          "jsonClass": "RulesRepo",
+          "name": "time_focus/misc_combinations"
+        },
+        {
+          "base_url": "https://github.com/sanskrit-coders/adyatithi/tree/master/time_focus/monthly/amAvAsyA",
+          "jsonClass": "RulesRepo",
+          "name": "time_focus/monthly/amAvAsyA"
+        },
+        {
+          "base_url": "https://github.com/sanskrit-coders/adyatithi/tree/master/time_focus/monthly/ekAdashI",
+          "jsonClass": "RulesRepo",
+          "name": "time_focus/monthly/ekAdashI"
+        },
+        {
+          "base_url": "https://github.com/sanskrit-coders/adyatithi/tree/master/time_focus/monthly/dvAdashI",
+          "jsonClass": "RulesRepo",
+          "name": "time_focus/monthly/dvAdashI"
+        },
+        {
+          "base_url": "https://github.com/sanskrit-coders/adyatithi/tree/master/time_focus/monthly/pradoSha",
+          "jsonClass": "RulesRepo",
+          "name": "time_focus/monthly/pradoSha"
         }
       ],
       "jsonClass": "ComputationOptions"

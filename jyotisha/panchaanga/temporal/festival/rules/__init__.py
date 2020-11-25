@@ -147,6 +147,15 @@ class HinduCalendarEvent(common.JsonObject):
   }))
 
   def get_storage_file_name(self, base_dir):
+    return self.get_storage_file_name_flat(base_dir=base_dir)
+
+  def get_storage_file_name_flat(self, base_dir):
+    return "%(base_dir)s/%(id)s__info.toml"  % dict(
+      base_dir=base_dir,
+      id=self.id.replace('/','__').strip('{}')
+    )
+
+  def get_storage_file_name_granular(self, base_dir):
     if self.timing.anchor_festival_id is not None:
       return "%(base_dir)s/relative_event/%(anchor_festival_id)s/offset__%(offset)02d/%(id)s__info.toml" % dict(
         base_dir=base_dir,
@@ -229,7 +238,7 @@ class RulesRepo(common.JsonObject):
     return self.path if self.path is not None else os.path.join(DATA_ROOT, self.name)
 
 
-rule_repos = (RulesRepo(name="general"), RulesRepo(name="gRhya/general"), RulesRepo(name="tamil"), RulesRepo(name="mahApuruSha/general"), RulesRepo(name="devatA/shaiva"),  RulesRepo(name="devatA/vaiShNava"), RulesRepo(name="mahApuruSha/kAnchI-maTha"), RulesRepo(name="mahApuruSha/ALvAr"), RulesRepo(name="mahApuruSha/nAyanAr"), RulesRepo(name="temples/venkaTAchala"), RulesRepo(name="temples/Andhra"), RulesRepo(name="temples/Tamil"), RulesRepo(name="temples/Kerala"), RulesRepo(name="temples/Odisha"), RulesRepo(name="temples/North"))
+rule_repos = (RulesRepo(name="general"), RulesRepo(name="gRhya/general"), RulesRepo(name="tamil"), RulesRepo(name="mahApuruSha/general"), RulesRepo(name="devatA/pitR"), RulesRepo(name="devatA/shaiva"), RulesRepo(name="devatA/umA"), RulesRepo(name="devatA/nadI"), RulesRepo(name="devatA/shakti"), RulesRepo(name="devatA/gaNapati"),  RulesRepo(name="devatA/kaumAra"),  RulesRepo(name="devatA/vaiShNava"), RulesRepo(name="devatA/lakShmI"), RulesRepo(name="mahApuruSha/kAnchI-maTha"), RulesRepo(name="mahApuruSha/ALvAr"), RulesRepo(name="mahApuruSha/nAyanAr"), RulesRepo(name="temples/venkaTAchala"), RulesRepo(name="temples/Andhra"), RulesRepo(name="temples/Tamil"), RulesRepo(name="temples/Kerala"), RulesRepo(name="temples/Odisha"), RulesRepo(name="temples/North"), RulesRepo(name="time_focus/sankrAnti"), RulesRepo(name="time_focus/puShkara"), RulesRepo(name="time_focus/yugAdiH"), RulesRepo(name="time_focus/misc"), RulesRepo(name="time_focus/nakShatra"), RulesRepo(name="time_focus/Eclipses"), RulesRepo(name="time_focus/misc_combinations"), RulesRepo(name="time_focus/monthly/amAvAsyA"), RulesRepo(name="time_focus/monthly/ekAdashI"), RulesRepo(name="time_focus/monthly/dvAdashI"), RulesRepo(name="time_focus/monthly/pradoSha"),)
 
 
 class RulesCollection(common.JsonObject):
@@ -263,7 +272,7 @@ class RulesCollection(common.JsonObject):
         os.path.join(DATA_ROOT, repo.get_path()), repo=repo))
 
       from sanskrit_data import collection_helper
-      self.tree = collection_helper.tree_maker(leaves=self.name_to_rule.values(), path_fn=lambda x: x.get_storage_file_name(base_dir="").replace("__info.toml", ""))
+      self.tree = collection_helper.tree_maker(leaves=self.name_to_rule.values(), path_fn=lambda x: x.get_storage_file_name_granular(base_dir="").replace("__info.toml", ""))
 
   def get_month_anga_fests(self, month_type, month, anga_type_id, anga):
     if int(month) != month:
@@ -297,5 +306,6 @@ common.update_json_class_index(sys.modules[__name__])
 
 
 if __name__ == '__main__':
-  rules_collection = RulesCollection.get_cached(repos_tuple=rule_repos)
+  # rules_collection = RulesCollection.get_cached(repos_tuple=rule_repos)
+  rules_collection = RulesCollection(repos=[RulesRepo(name="general")])
   rules_collection.fix_filenames()
