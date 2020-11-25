@@ -278,8 +278,8 @@ DTSTART;VALUE=DATE-TIME:20190109T235957
 DTEND;VALUE=DATE-TIME:20190110T235957
 DESCRIPTION:Observed on  of Dhanuḥ (solar) month (preceeding_arunodaya/p
  uurvaviddha).<br/>Special snānam on account of mahādhanurvyatīpātam.<b
- r/><br/>https%3A//github.com/sanskrit-coders/adyatithi/tree/master/general
- /mahAdhanurvyatIpAta-snAnam__info.toml<br/><br/>#SpecialSnanam
+ r/><br/>https%3A//github.com/sanskrit-coders/adyatithi/tree/master/time_fo
+ cus/misc/mahAdhanurvyatIpAta-snAnam__info.toml<br/><br/>#SpecialSnanam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -455,8 +455,8 @@ DTSTART;VALUE=DATE-TIME:20190114T235957
 DTEND;VALUE=DATE-TIME:20190115T235957
 DESCRIPTION:Observed on day 1 of Makaraḥ (solar) month (sunrise (default
  )/puurvaviddha (default)).<br/><br/><br/>https%3A//github.com/sanskrit-cod
- ers/adyatithi/tree/master/general/makara-saGkrAntiH__info.toml<br/><br/>#C
- ommonFestivals #SunSankranti
+ ers/adyatithi/tree/master/time_focus/sankrAnti/makara-saGkrAntiH__info.tom
+ l<br/><br/>#CommonFestivals #SunSankranti
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -542,8 +542,8 @@ DTEND;VALUE=DATE-TIME:20190117T235957
 DESCRIPTION:Observed on Śukla-Ekādaśī tithi of Pauṣaḥ (lunar) mont
  h (aparaahna/vyaapti).<br/><br/>### References<br/>* Vaidyanātha-Dīkṣi
  tīyam<br/><br/><br/>https%3A//github.com/sanskrit-coders/adyatithi/tree/m
- aster/general/manvAdiH~%28cAkSuSaH~%5B6%5D%29__info.toml<br/><br/>#Manvadi
- Days
+ aster/time_focus/yugAdiH/manvAdiH~%28cAkSuSaH~%5B6%5D%29__info.toml<br/><b
+ r/>#ManvadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -832,7 +832,8 @@ DTEND;VALUE=DATE-TIME:20190121T235957
 DESCRIPTION:Observed on Paurṇamāsī tithi of every lunar month (sunrise
  /puurvaviddha (default)).<br/>pūrṇimā vratam is commonly observed for 
  Lord Satyanarayana.<br/><br/>https%3A//github.com/sanskrit-coders/adyatith
- i/tree/master/general/pUrNimA~vratam__info.toml<br/><br/>#MonthlyFestivals
+ i/tree/master/devatA/vaiShNava/pUrNimA~vratam__info.toml<br/><br/>#Monthly
+ Festivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1066,8 +1067,8 @@ SUMMARY:Pauṣa-Aṣṭakā-Pūrvedyuḥ
 DTSTART;VALUE=DATE-TIME:20190126T235957
 DTEND;VALUE=DATE-TIME:20190127T235957
 DESCRIPTION:Shannavati Shraddham Day.<br/><br/>https%3A//github.com/sanskr
- it-coders/adyatithi/tree/master/general/pauSa-aSTakA-pUrvEdyuH__info.toml<
- br/><br/>#ShannavatiTarpanaDays
+ it-coders/adyatithi/tree/master/devatA/pitR/pauSa-aSTakA-pUrvEdyuH__info.t
+ oml<br/><br/>#ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1098,8 +1099,8 @@ DTSTART;VALUE=DATE-TIME:20190127T235957
 DTEND;VALUE=DATE-TIME:20190128T235957
 DESCRIPTION:Observed on Kṛṣṇa-Aṣṭamī tithi of Pauṣaḥ (lunar
  ) month (aparaahna/vyaapti).<br/><br/><br/>https%3A//github.com/sanskrit-c
- oders/adyatithi/tree/master/general/pauSa-aSTakA-zrAddham__info.toml<br/><
- br/>#ShannavatiTarpanaDays
+ oders/adyatithi/tree/master/devatA/pitR/pauSa-aSTakA-zrAddham__info.toml<b
+ r/><br/>#ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1130,8 +1131,8 @@ SUMMARY:Pauṣa-Anvaṣṭakā-Śrāddham
 DTSTART;VALUE=DATE-TIME:20190128T235957
 DTEND;VALUE=DATE-TIME:20190129T235957
 DESCRIPTION:Shannavati Shraddham Day.<br/><br/>https%3A//github.com/sanskr
- it-coders/adyatithi/tree/master/general/pauSa-anvaSTakA-zrAddham__info.tom
- l<br/><br/>#ShannavatiTarpanaDays
+ it-coders/adyatithi/tree/master/devatA/pitR/pauSa-anvaSTakA-zrAddham__info
+ .toml<br/><br/>#ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1726,8 +1727,8 @@ DTEND;VALUE=DATE-TIME:20190212T235957
 DESCRIPTION:Observed on Śukla-Saptamī tithi of Māghaḥ (lunar) month (
  aparaahna/vyaapti).<br/><br/>### References<br/>* Vaidyanātha-Dīkṣitī
  yam<br/><br/><br/>https%3A//github.com/sanskrit-coders/adyatithi/tree/mast
- er/general/manvAdiH~%28sAvarNiH~%5B8%5D%29__info.toml<br/><br/>#ManvadiDay
- s
+ er/time_focus/yugAdiH/manvAdiH~%28sAvarNiH~%5B8%5D%29__info.toml<br/><br/>
+ #ManvadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2220,8 +2221,8 @@ DTEND;VALUE=DATE-TIME:20190219T235957
 DESCRIPTION:Observed on Paurṇamāsī tithi of Māghaḥ (lunar) month (s
  unrise (default)/puurvaviddha (default)).<br/>Goddess Lalita is 3rd of the
   Dasha Maha Vidyas.<br/><br/>https%3A//github.com/sanskrit-coders/adyatith
- i/tree/master/general/lalitA~jayantI__info.toml<br/><br/>#CommonFestivals 
- #Dashamahavidya
+ i/tree/master/devatA/shakti/lalitA~jayantI__info.toml<br/><br/>#CommonFest
+ ivals #Dashamahavidya
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2290,7 +2291,8 @@ DTEND;VALUE=DATE-TIME:20190219T235957
 DESCRIPTION:Observed on Paurṇamāsī tithi of every lunar month (sunrise
  /puurvaviddha (default)).<br/>pūrṇimā vratam is commonly observed for 
  Lord Satyanarayana.<br/><br/>https%3A//github.com/sanskrit-coders/adyatith
- i/tree/master/general/pUrNimA~vratam__info.toml<br/><br/>#MonthlyFestivals
+ i/tree/master/devatA/vaiShNava/pUrNimA~vratam__info.toml<br/><br/>#Monthly
+ Festivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2796,7 +2798,8 @@ DTEND;VALUE=DATE-TIME:20190306T235957
 DESCRIPTION:Observed on Amāvāsyā tithi of Māghaḥ (lunar) month (sunr
  ise (default)/puurvaviddha (default)).<br/><br/>### References<br/>* Vaidi
  kasri Feb 2017<br/><br/><br/>https%3A//github.com/sanskrit-coders/adyatith
- i/tree/master/general/mAgha-snAnapUrtiH__info.toml<br/><br/>#SpecialSnanam
+ i/tree/master/time_focus/misc/mAgha-snAnapUrtiH__info.toml<br/><br/>#Speci
+ alSnanam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3472,8 +3475,8 @@ DTEND;VALUE=DATE-TIME:20190320T235957
 DESCRIPTION:Observed on Paurṇamāsī tithi of Phālgunaḥ (lunar) month
   (aparaahna/vyaapti).<br/><br/>### References<br/>* Vaidyanātha-Dīkṣit
  īyam<br/><br/><br/>https%3A//github.com/sanskrit-coders/adyatithi/tree/ma
- ster/general/manvAdiH~%28rudraH~%5B12%5D%29__info.toml<br/><br/>#ManvadiDa
- ys
+ ster/time_focus/yugAdiH/manvAdiH~%28rudraH~%5B12%5D%29__info.toml<br/><br/
+ >#ManvadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3602,7 +3605,8 @@ DTEND;VALUE=DATE-TIME:20190321T235957
 DESCRIPTION:Observed on Paurṇamāsī tithi of every lunar month (sunrise
  /puurvaviddha (default)).<br/>pūrṇimā vratam is commonly observed for 
  Lord Satyanarayana.<br/><br/>https%3A//github.com/sanskrit-coders/adyatith
- i/tree/master/general/pUrNimA~vratam__info.toml<br/><br/>#MonthlyFestivals
+ i/tree/master/devatA/vaiShNava/pUrNimA~vratam__info.toml<br/><br/>#Monthly
+ Festivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3723,8 +3727,8 @@ DTSTART;VALUE=DATE-TIME:20190324T235957
 DTEND;VALUE=DATE-TIME:20190325T235957
 DESCRIPTION:Observed on Kṛṣṇa-Pañcamī tithi of Phālgunaḥ (lunar
  ) month (pradosha/paraviddha).<br/><br/><br/>https%3A//github.com/sanskrit
- -coders/adyatithi/tree/master/general/raGga-paJcamI__info.toml<br/><br/>#L
- essCommonFestivals
+ -coders/adyatithi/tree/master/devatA/vaiShNava/raGga-paJcamI__info.toml<br
+ /><br/>#LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3738,8 +3742,8 @@ SUMMARY:Phālguna-Aṣṭakā-Pūrvedyuḥ
 DTSTART;VALUE=DATE-TIME:20190326T235957
 DTEND;VALUE=DATE-TIME:20190327T235957
 DESCRIPTION:Shannavati Shraddham Day.<br/><br/>https%3A//github.com/sanskr
- it-coders/adyatithi/tree/master/general/phAlguna-aSTakA-pUrvEdyuH__info.to
- ml<br/><br/>#ShannavatiTarpanaDays
+ it-coders/adyatithi/tree/master/devatA/pitR/phAlguna-aSTakA-pUrvEdyuH__inf
+ o.toml<br/><br/>#ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3770,8 +3774,8 @@ DTSTART;VALUE=DATE-TIME:20190327T235957
 DTEND;VALUE=DATE-TIME:20190328T235957
 DESCRIPTION:Observed on Kṛṣṇa-Aṣṭamī tithi of Phālgunaḥ (lun
  ar) month (aparaahna/vyaapti).<br/><br/><br/>https%3A//github.com/sanskrit
- -coders/adyatithi/tree/master/general/phAlguna-aSTakA-zrAddham__info.toml<
- br/><br/>#ShannavatiTarpanaDays
+ -coders/adyatithi/tree/master/devatA/pitR/phAlguna-aSTakA-zrAddham__info.t
+ oml<br/><br/>#ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3799,8 +3803,8 @@ SUMMARY:Phālguna-Anvaṣṭakā-Śrāddham
 DTSTART;VALUE=DATE-TIME:20190328T235957
 DTEND;VALUE=DATE-TIME:20190329T235957
 DESCRIPTION:Shannavati Shraddham Day.<br/><br/>https%3A//github.com/sanskr
- it-coders/adyatithi/tree/master/general/phAlguna-anvaSTakA-zrAddham__info.
- toml<br/><br/>#ShannavatiTarpanaDays
+ it-coders/adyatithi/tree/master/devatA/pitR/phAlguna-anvaSTakA-zrAddham__i
+ nfo.toml<br/><br/>#ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3976,7 +3980,8 @@ DTEND;VALUE=DATE-TIME:20190404T235957
 DESCRIPTION:Observed on Amāvāsyā tithi of Phālgunaḥ (lunar) month (a
  paraahna/vyaapti).<br/><br/>### References<br/>* Vaidyanātha-Dīkṣitīy
  am<br/><br/><br/>https%3A//github.com/sanskrit-coders/adyatithi/tree/maste
- r/general/manvAdiH~%28raivataH~%5B5%5D%29__info.toml<br/><br/>#ManvadiDays
+ r/time_focus/yugAdiH/manvAdiH~%28raivataH~%5B5%5D%29__info.toml<br/><br/>#
+ ManvadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4262,8 +4267,8 @@ DTEND;VALUE=DATE-TIME:20190408T235957
 DESCRIPTION:Observed on Śukla-Tṛtīyā tithi of Caitraḥ (lunar) month
   (aparaahna/vyaapti).<br/><br/>### References<br/>* Vaidyanātha-Dīkṣit
  īyam<br/><br/><br/>https%3A//github.com/sanskrit-coders/adyatithi/tree/ma
- ster/general/manvAdiH~%28uttamaH~%5B3%5D%29__info.toml<br/><br/>#ManvadiDa
- ys
+ ster/time_focus/yugAdiH/manvAdiH~%28uttamaH~%5B3%5D%29__info.toml<br/><br/
+ >#ManvadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4500,8 +4505,8 @@ DTSTART;VALUE=DATE-TIME:20190412T235957
 DTEND;VALUE=DATE-TIME:20190413T235957
 DESCRIPTION:Observed on Śukla-Navamī tithi of Caitraḥ (lunar) month (m
  adhyaahna/puurvaviddha).<br/>Goddess Mahatara is 2nd of the Dasha Maha Vid
- yas.<br/><br/>https%3A//github.com/sanskrit-coders/adyatithi/tree/master/g
- eneral/mahAtArA~jayantI__info.toml<br/><br/>#Dashamahavidya
+ yas.<br/><br/>https%3A//github.com/sanskrit-coders/adyatithi/tree/master/d
+ evatA/shakti/mahAtArA~jayantI__info.toml<br/><br/>#Dashamahavidya
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5034,7 +5039,8 @@ DTEND;VALUE=DATE-TIME:20190419T235957
 DESCRIPTION:Observed on Paurṇamāsī tithi of Caitraḥ (lunar) month (a
  paraahna/vyaapti).<br/><br/>### References<br/>* Vaidyanātha-Dīkṣitīy
  am<br/><br/><br/>https%3A//github.com/sanskrit-coders/adyatithi/tree/maste
- r/general/manvAdiH~%28raucyaH~%5B13%5D%29__info.toml<br/><br/>#ManvadiDays
+ r/time_focus/yugAdiH/manvAdiH~%28raucyaH~%5B13%5D%29__info.toml<br/><br/>#
+ ManvadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5050,7 +5056,8 @@ DTEND;VALUE=DATE-TIME:20190419T235957
 DESCRIPTION:Observed on Paurṇamāsī tithi of every lunar month (sunrise
  /puurvaviddha (default)).<br/>pūrṇimā vratam is commonly observed for 
  Lord Satyanarayana.<br/><br/>https%3A//github.com/sanskrit-coders/adyatith
- i/tree/master/general/pUrNimA~vratam__info.toml<br/><br/>#MonthlyFestivals
+ i/tree/master/devatA/vaiShNava/pUrNimA~vratam__info.toml<br/><br/>#Monthly
+ Festivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5405,8 +5412,8 @@ DTSTART;VALUE=DATE-TIME:20190502T235957
 DTEND;VALUE=DATE-TIME:20190503T235957
 DESCRIPTION:Observed on Kṛṣṇa-Caturdaśī tithi of Caitraḥ (lunar)
   month (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>https%3A/
- /github.com/sanskrit-coders/adyatithi/tree/master/general/gaGgA-snAnam__in
- fo.toml<br/><br/>#LessCommonFestivals
+ /github.com/sanskrit-coders/adyatithi/tree/master/devatA/nadI/gaGgA-snAnam
+ __info.toml<br/><br/>#LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5710,8 +5717,8 @@ DTSTART;VALUE=DATE-TIME:20190506T235957
 DTEND;VALUE=DATE-TIME:20190507T235957
 DESCRIPTION:Observed on Śukla-Tṛtīyā tithi of Vaiśākhaḥ (lunar) m
  onth (aparaahna/vyaapti).<br/>Kalpadi<br/><br/>https%3A//github.com/sanskr
- it-coders/adyatithi/tree/master/general/pArthiva-kalpAdiH__info.toml<br/><
- br/>#KalpadiDays
+ it-coders/adyatithi/tree/master/time_focus/yugAdiH/pArthiva-kalpAdiH__info
+ .toml<br/><br/>#KalpadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5748,8 +5755,8 @@ DESCRIPTION:Observed on Śukla-Tṛtīyā tithi of Vaiśākhaḥ (lunar) m
  onth (sunrise (default)/puurvaviddha (default)).<br/>Goddess Raja Matangi 
  is 9th of the Dasha Maha Vidyas.<br/>### References<br/>* Kielhorn (1897)\
  ; Ashtanga Panchangam<br/><br/><br/>https%3A//github.com/sanskrit-coders/a
- dyatithi/tree/master/general/rAja-mAtaGgI~jayantI__info.toml<br/><br/>#Das
- hamahavidya #LessCommonFestivals
+ dyatithi/tree/master/devatA/shakti/rAja-mAtaGgI~jayantI__info.toml<br/><br
+ />#Dashamahavidya #LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5950,8 +5957,8 @@ DTEND;VALUE=DATE-TIME:20190511T235957
 DESCRIPTION:Observed on Śukla-Saptamī tithi of Vaiśākhaḥ (lunar) mon
  th (madhyaahna/puurvaviddha).<br/>Ganga came out of Jahnu Maharshi and bec
  ame Jahnavi\; perform Parjanya Pooja<br/><br/>https%3A//github.com/sanskri
- t-coders/adyatithi/tree/master/general/gaGgA-saptamI__info.toml<br/><br/>#
- PuranaEvents #SpecialPuja #CommonFestivals
+ t-coders/adyatithi/tree/master/devatA/nadI/gaGgA-saptamI__info.toml<br/><b
+ r/>#PuranaEvents #SpecialPuja #CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6162,8 +6169,8 @@ DTSTART;VALUE=DATE-TIME:20190513T235957
 DTEND;VALUE=DATE-TIME:20190514T235957
 DESCRIPTION:Observed on Śukla-Daśamī tithi of Vaiśākhaḥ (lunar) mon
  th (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>https%3A//git
- hub.com/sanskrit-coders/adyatithi/tree/master/general/nimiSAmbA~jayantI__i
- nfo.toml<br/><br/>#OtherJayantis
+ hub.com/sanskrit-coders/adyatithi/tree/master/devatA/shakti/nimiSAmbA~jaya
+ ntI__info.toml<br/><br/>#OtherJayantis
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6488,7 +6495,8 @@ DTEND;VALUE=DATE-TIME:20190518T235957
 DESCRIPTION:Observed on Paurṇamāsī tithi of every lunar month (sunrise
  /puurvaviddha (default)).<br/>pūrṇimā vratam is commonly observed for 
  Lord Satyanarayana.<br/><br/>https%3A//github.com/sanskrit-coders/adyatith
- i/tree/master/general/pUrNimA~vratam__info.toml<br/><br/>#MonthlyFestivals
+ i/tree/master/devatA/vaiShNava/pUrNimA~vratam__info.toml<br/><br/>#Monthly
+ Festivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8101,8 +8109,8 @@ DTEND;VALUE=DATE-TIME:20190616T235957
 DESCRIPTION:Observed on Paurṇamāsī tithi of Jyaiṣṭhaḥ (lunar) mo
  nth (aparaahna/vyaapti).<br/><br/>### References<br/>* Vaidyanātha-Dīk
  ṣitīyam<br/><br/><br/>https%3A//github.com/sanskrit-coders/adyatithi/tr
- ee/master/general/manvAdiH~%28bhautyaH~%5B14%5D%29__info.toml<br/><br/>#Ma
- nvadiDays
+ ee/master/time_focus/yugAdiH/manvAdiH~%28bhautyaH~%5B14%5D%29__info.toml<b
+ r/><br/>#ManvadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8214,7 +8222,8 @@ DTEND;VALUE=DATE-TIME:20190617T235957
 DESCRIPTION:Observed on Paurṇamāsī tithi of every lunar month (sunrise
  /puurvaviddha (default)).<br/>pūrṇimā vratam is commonly observed for 
  Lord Satyanarayana.<br/><br/>https%3A//github.com/sanskrit-coders/adyatith
- i/tree/master/general/pUrNimA~vratam__info.toml<br/><br/>#MonthlyFestivals
+ i/tree/master/devatA/vaiShNava/pUrNimA~vratam__info.toml<br/><br/>#Monthly
+ Festivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9168,8 +9177,8 @@ DTEND;VALUE=DATE-TIME:20190711T235957
 DESCRIPTION:Observed on Śukla-Daśamī tithi of Āṣāḍhaḥ (lunar) m
  onth (aparaahna/vyaapti).<br/><br/>### References<br/>* Vaidyanātha-Dīk
  ṣitīyam<br/><br/><br/>https%3A//github.com/sanskrit-coders/adyatithi/tr
- ee/master/general/manvAdiH~%28vaivasvataH~%5B7%5D%29__info.toml<br/><br/>#
- ManvadiDays
+ ee/master/time_focus/yugAdiH/manvAdiH~%28vaivasvataH~%5B7%5D%29__info.toml
+ <br/><br/>#ManvadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9472,8 +9481,8 @@ DTEND;VALUE=DATE-TIME:20190716T235957
 DESCRIPTION:Observed on Paurṇamāsī tithi of Āṣāḍhaḥ (lunar) mo
  nth (aparaahna/vyaapti).<br/><br/>### References<br/>* Vaidyanātha-Dīk
  ṣitīyam<br/><br/><br/>https%3A//github.com/sanskrit-coders/adyatithi/tr
- ee/master/general/manvAdiH~%28brahmaH~%5B10%5D%29__info.toml<br/><br/>#Man
- vadiDays
+ ee/master/time_focus/yugAdiH/manvAdiH~%28brahmaH~%5B10%5D%29__info.toml<br
+ /><br/>#ManvadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9489,7 +9498,8 @@ DTEND;VALUE=DATE-TIME:20190716T235957
 DESCRIPTION:Observed on Paurṇamāsī tithi of every lunar month (sunrise
  /puurvaviddha (default)).<br/>pūrṇimā vratam is commonly observed for 
  Lord Satyanarayana.<br/><br/>https%3A//github.com/sanskrit-coders/adyatith
- i/tree/master/general/pUrNimA~vratam__info.toml<br/><br/>#MonthlyFestivals
+ i/tree/master/devatA/vaiShNava/pUrNimA~vratam__info.toml<br/><br/>#Monthly
+ Festivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9595,8 +9605,8 @@ DTSTART;VALUE=DATE-TIME:20190716T235957
 DTEND;VALUE=DATE-TIME:20190717T235957
 DESCRIPTION:Observed on day 1 of Kaṭakaḥ (solar) month (sunrise (defau
  lt)/puurvaviddha (default)).<br/><br/><br/>https%3A//github.com/sanskrit-c
- oders/adyatithi/tree/master/general/kaTaka-saGkrAntiH__info.toml<br/><br/>
- #SunSankranti #CommonFestivals
+ oders/adyatithi/tree/master/time_focus/sankrAnti/kaTaka-saGkrAntiH__info.t
+ oml<br/><br/>#SunSankranti #CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10563,8 +10573,8 @@ DTSTART;VALUE=DATE-TIME:20190808T235957
 DTEND;VALUE=DATE-TIME:20190809T235957
 DESCRIPTION:Observed on Śukla-Navamī tithi of Śrāvaṇaḥ (lunar) mon
  th (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>https%3A//git
- hub.com/sanskrit-coders/adyatithi/tree/master/general/kaumArI-pUjA__info.t
- oml<br/><br/>#LessCommonFestivals #SpecialPuja
+ hub.com/sanskrit-coders/adyatithi/tree/master/devatA/shakti/kaumArI-pUjA__
+ info.toml<br/><br/>#LessCommonFestivals #SpecialPuja
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10952,7 +10962,8 @@ DTEND;VALUE=DATE-TIME:20190815T235957
 DESCRIPTION:Observed on Paurṇamāsī tithi of every lunar month (sunrise
  /puurvaviddha (default)).<br/>pūrṇimā vratam is commonly observed for 
  Lord Satyanarayana.<br/><br/>https%3A//github.com/sanskrit-coders/adyatith
- i/tree/master/general/pUrNimA~vratam__info.toml<br/><br/>#MonthlyFestivals
+ i/tree/master/devatA/vaiShNava/pUrNimA~vratam__info.toml<br/><br/>#Monthly
+ Festivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11298,8 +11309,8 @@ DTEND;VALUE=DATE-TIME:20190821T235957
 DESCRIPTION:Observed on Kṛṣṇa-Ṣaṣṭhī tithi of Śrāvaṇaḥ 
  (lunar) month (sunrise (default)/puurvaviddha (default)).<br/>Birth of Bal
  arama<br/>### References<br/>* Kielhorn (1897)<br/><br/><br/>https%3A//git
- hub.com/sanskrit-coders/adyatithi/tree/master/general/hala-SaSThI__info.to
- ml<br/><br/>#Dashavataram #LessCommonFestivals
+ hub.com/sanskrit-coders/adyatithi/tree/master/devatA/vaiShNava/hala-SaSThI
+ __info.toml<br/><br/>#Dashavataram #LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11357,7 +11368,8 @@ DTEND;VALUE=DATE-TIME:20190823T235957
 DESCRIPTION:Observed on Kṛṣṇa-Aṣṭamī tithi of Śrāvaṇaḥ (l
  unar) month (nishiitha/paraviddha).<br/>Goddess Mahakali is 1st of the Das
  ha Maha Vidyas.<br/><br/>https%3A//github.com/sanskrit-coders/adyatithi/tr
- ee/master/general/mahAkAlI~jayantI__info.toml<br/><br/>#Dashamahavidya
+ ee/master/devatA/shakti/mahAkAlI~jayantI__info.toml<br/><br/>#Dashamahavid
+ ya
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11373,8 +11385,8 @@ DTEND;VALUE=DATE-TIME:20190823T235957
 DESCRIPTION:Observed on Kṛṣṇa-Aṣṭamī tithi of Śrāvaṇaḥ (l
  unar) month (aparaahna/vyaapti).<br/><br/>### References<br/>* Vaidyanāth
  a-Dīkṣitīyam<br/><br/><br/>https%3A//github.com/sanskrit-coders/adyati
- thi/tree/master/general/manvAdiH~%28dakSaH~%5B9%5D%29__info.toml<br/><br/>
- #ManvadiDays
+ thi/tree/master/time_focus/yugAdiH/manvAdiH~%28dakSaH~%5B9%5D%29__info.tom
+ l<br/><br/>#ManvadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11567,8 +11579,8 @@ DTSTART;VALUE=DATE-TIME:20190824T235957
 DTEND;VALUE=DATE-TIME:20190825T235957
 DESCRIPTION:Observed on Kṛṣṇa-Navamī tithi of Śrāvaṇaḥ (lunar
  ) month (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>https%3A
- //github.com/sanskrit-coders/adyatithi/tree/master/general/kaumAra-pUjA__i
- nfo.toml<br/><br/>#SpecialPuja
+ //github.com/sanskrit-coders/adyatithi/tree/master/devatA/kaumAra/kaumAra-
+ pUjA__info.toml<br/><br/>#SpecialPuja
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12049,8 +12061,8 @@ DTEND;VALUE=DATE-TIME:20190901T235957
 DESCRIPTION:Observed on Śukla-Tṛtīyā tithi of Bhādrapadaḥ (lunar) 
  month (aparaahna/vyaapti).<br/><br/>### References<br/>* Vaidyanātha-Dīk
  ṣitīyam<br/><br/><br/>https%3A//github.com/sanskrit-coders/adyatithi/tr
- ee/master/general/manvAdiH~%28tAmasaH~%5B4%5D%29__info.toml<br/><br/>#Manv
- adiDays
+ ee/master/time_focus/yugAdiH/manvAdiH~%28tAmasaH~%5B4%5D%29__info.toml<br/
+ ><br/>#ManvadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12208,8 +12220,8 @@ DTSTART;VALUE=DATE-TIME:20190903T235957
 DTEND;VALUE=DATE-TIME:20190904T235957
 DESCRIPTION:Observed on Śukla-Ṣaṣṭhī tithi of Bhādrapadaḥ (luna
  r) month (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>https%3
- A//github.com/sanskrit-coders/adyatithi/tree/master/general/kumArikA-svapa
- nam__info.toml<br/><br/>#LessCommonFestivals
+ A//github.com/sanskrit-coders/adyatithi/tree/master/devatA/umA/kumArikA-sv
+ apanam__info.toml<br/><br/>#LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12224,8 +12236,8 @@ DTSTART;VALUE=DATE-TIME:20190903T235957
 DTEND;VALUE=DATE-TIME:20190904T235957
 DESCRIPTION:Observed on Śukla-Ṣaṣṭhī tithi of Bhādrapadaḥ (luna
  r) month (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>https%3
- A//github.com/sanskrit-coders/adyatithi/tree/master/general/lalitA-SaSThI_
- _info.toml<br/><br/>#LessCommonFestivals
+ A//github.com/sanskrit-coders/adyatithi/tree/master/devatA/shakti/lalitA-S
+ aSThI__info.toml<br/><br/>#LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12485,8 +12497,8 @@ DTEND;VALUE=DATE-TIME:20190907T235957
 DESCRIPTION:Observed on Śukla-Navamī tithi of Bhādrapadaḥ (lunar) mon
  th (sunrise (default)/puurvaviddha (default)).<br/><br/>### References<br/
  >* Vaidikasri Sep 2017<br/><br/><br/>https%3A//github.com/sanskrit-coders/
- adyatithi/tree/master/general/mahAlakSmI-vrata-ArambhaH__info.toml<br/><br
- />#VratamStart #SpecialPeriodStart
+ adyatithi/tree/master/devatA/lakShmI/mahAlakSmI-vrata-ArambhaH__info.toml<
+ br/><br/>#VratamStart #SpecialPeriodStart
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12954,7 +12966,8 @@ DTEND;VALUE=DATE-TIME:20190914T235957
 DESCRIPTION:Observed on Paurṇamāsī tithi of every lunar month (sunrise
  /puurvaviddha (default)).<br/>pūrṇimā vratam is commonly observed for 
  Lord Satyanarayana.<br/><br/>https%3A//github.com/sanskrit-coders/adyatith
- i/tree/master/general/pUrNimA~vratam__info.toml<br/><br/>#MonthlyFestivals
+ i/tree/master/devatA/vaiShNava/pUrNimA~vratam__info.toml<br/><br/>#Monthly
+ Festivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13302,8 +13315,8 @@ DTEND;VALUE=DATE-TIME:20190921T235957
 DESCRIPTION:Observed on Kṛṣṇa-Aṣṭamī tithi of Āśvayujaḥ (lu
  nar) month (sunrise (default)/puurvaviddha (default)).<br/><br/>### Refere
  nces<br/>* Krutyasaara samucchayam<br/><br/><br/>https%3A//github.com/sans
- krit-coders/adyatithi/tree/master/general/mahAlakSmI-vratam__info.toml<br/
- ><br/>#SpecialVratam
+ krit-coders/adyatithi/tree/master/devatA/lakShmI/mahAlakSmI-vratam__info.t
+ oml<br/><br/>#SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13318,8 +13331,8 @@ DTSTART;VALUE=DATE-TIME:20190920T235957
 DTEND;VALUE=DATE-TIME:20190921T235957
 DESCRIPTION:Observed on Kṛṣṇa-Saptamī tithi of Bhādrapadaḥ (luna
  r) month (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>https%3
- A//github.com/sanskrit-coders/adyatithi/tree/master/general/mahAlakSmI-vra
- ta-samApanam__info.toml<br/><br/>#SpecialVratam
+ A//github.com/sanskrit-coders/adyatithi/tree/master/devatA/lakShmI/mahAlak
+ SmI-vrata-samApanam__info.toml<br/><br/>#SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13590,8 +13603,8 @@ DTEND;VALUE=DATE-TIME:20190927T235957
 DESCRIPTION:Observed on Kṛṣṇa-Caturdaśī tithi of Bhādrapadaḥ (l
  unar) month (sunrise (default)/puurvaviddha (default)).<br/><br/>### Refer
  ences<br/>* http://hindupad.com/katyayani-jayanti/<br/><br/><br/>https%3A/
- /github.com/sanskrit-coders/adyatithi/tree/master/general/kAtyAyanI~jayant
- I__info.toml<br/><br/>#OtherJayantis
+ /github.com/sanskrit-coders/adyatithi/tree/master/devatA/shakti/kAtyAyanI~
+ jayantI__info.toml<br/><br/>#OtherJayantis
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13929,8 +13942,8 @@ DTSTART;VALUE=DATE-TIME:20191001T235957
 DTEND;VALUE=DATE-TIME:20191002T235957
 DESCRIPTION:Observed on Śukla-Pañcamī tithi of Āśvayujaḥ (lunar) mo
  nth (aparaahna/puurvaviddha).<br/><br/><br/>https%3A//github.com/sanskrit-
- coders/adyatithi/tree/master/general/lalitA-paJcamI__info.toml<br/><br/>#C
- ommonFestivals
+ coders/adyatithi/tree/master/devatA/shakti/lalitA-paJcamI__info.toml<br/><
+ br/>#CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -14159,8 +14172,8 @@ DTEND;VALUE=DATE-TIME:20191006T235957
 DESCRIPTION:Observed on Śukla-Navamī tithi of Āśvayujaḥ (lunar) mont
  h (aparaahna/vyaapti).<br/><br/>### References<br/>* Vaidyanātha-Dīkṣi
  tīyam<br/><br/><br/>https%3A//github.com/sanskrit-coders/adyatithi/tree/m
- aster/general/manvAdiH~%28svAyambhuvaH~%5B1%5D%29__info.toml<br/><br/>#Man
- vadiDays
+ aster/time_focus/yugAdiH/manvAdiH~%28svAyambhuvaH~%5B1%5D%29__info.toml<br
+ /><br/>#ManvadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -14336,7 +14349,7 @@ DTEND;VALUE=DATE-TIME:20191008T235957
 DESCRIPTION:Observed on Śukla-Daśamī tithi of Āśvayujaḥ (lunar) mon
  th (sunrise (default)/puurvaviddha (default)).<br/>According to Agni/Padma
   Puranam<br/><br/>https%3A//github.com/sanskrit-coders/adyatithi/tree/mast
- er/general/gaGgAvataraNam__info.toml<br/><br/>#PuranaEvents
+ er/devatA/nadI/gaGgAvataraNam__info.toml<br/><br/>#PuranaEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -14659,8 +14672,8 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of Āśvayujaḥ (lunar) mont
  . Here Kunti means Parvati. Also\, some people worship Yudhisthira's mothe
  r Kunti. In AP/TEL\, eldest child is given new clothes\, harti and blessed
   "Deerghayushman".<br/><br/>https%3A//github.com/sanskrit-coders/adyatithi
- /tree/master/general/kuntI~%28pArvatI%29-vratam__info.toml<br/><br/>#Speci
- alVratam
+ /tree/master/devatA/umA/kuntI~%28pArvatI%29-vratam__info.toml<br/><br/>#Sp
+ ecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -14709,7 +14722,8 @@ DTEND;VALUE=DATE-TIME:20191013T235957
 DESCRIPTION:Observed on Paurṇamāsī tithi of every lunar month (sunrise
  /puurvaviddha (default)).<br/>pūrṇimā vratam is commonly observed for 
  Lord Satyanarayana.<br/><br/>https%3A//github.com/sanskrit-coders/adyatith
- i/tree/master/general/pUrNimA~vratam__info.toml<br/><br/>#MonthlyFestivals
+ i/tree/master/devatA/vaiShNava/pUrNimA~vratam__info.toml<br/><br/>#Monthly
+ Festivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -14923,8 +14937,8 @@ DTSTART;VALUE=DATE-TIME:20191015T235957
 DTEND;VALUE=DATE-TIME:20191016T235957
 DESCRIPTION:Observed on Kṛṣṇa-Tṛtīyā tithi of Āśvayujaḥ (lun
  ar) month (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>https%
- 3A//github.com/sanskrit-coders/adyatithi/tree/master/general/lalitA-gaurI-
- vratam__info.toml<br/><br/>#SpecialVratam
+ 3A//github.com/sanskrit-coders/adyatithi/tree/master/devatA/shakti/lalitA-
+ gaurI-vratam__info.toml<br/><br/>#SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15181,8 +15195,8 @@ DTEND;VALUE=DATE-TIME:20191021T235957
 DESCRIPTION:Observed on Kṛṣṇa-Aṣṭamī tithi of Āśvayujaḥ (lu
  nar) month (sunrise (default)/puurvaviddha (default)).<br/><br/>### Refere
  nces<br/>* Krutyasaara samucchayam<br/><br/><br/>https%3A//github.com/sans
- krit-coders/adyatithi/tree/master/general/mahAlakSmI-vratam__info.toml<br/
- ><br/>#SpecialVratam
+ krit-coders/adyatithi/tree/master/devatA/lakShmI/mahAlakSmI-vratam__info.t
+ oml<br/><br/>#SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15544,7 +15558,7 @@ DESCRIPTION:Observed on Kṛṣṇa-Caturdaśī tithi of Āśvayujaḥ (lu
  nar) month (sunrise (default)/puurvaviddha (default)).<br/>Perform Deepa D
  anam for Yamadharmaraja in evening<br/>### References<br/>* Vrata Chudaman
  i<br/><br/><br/>https%3A//github.com/sanskrit-coders/adyatithi/tree/master
- /general/prEta-caturdazI__info.toml<br/><br/>#LessCommonFestivals
+ /devatA/pitR/prEta-caturdazI__info.toml<br/><br/>#LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15657,7 +15671,8 @@ DTEND;VALUE=DATE-TIME:20191028T235957
 DESCRIPTION:Observed on Amāvāsyā tithi of Āśvayujaḥ (lunar) month (
  sunrise (default)/puurvaviddha (default)).<br/>Goddess Kamala is 10th of t
  he Dasha Maha Vidyas.<br/><br/>https%3A//github.com/sanskrit-coders/adyati
- thi/tree/master/general/kamalA~jayantI__info.toml<br/><br/>#Dashamahavidya
+ thi/tree/master/devatA/shakti/kamalA~jayantI__info.toml<br/><br/>#Dashamah
+ avidya
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -16173,8 +16188,8 @@ DTEND;VALUE=DATE-TIME:20191107T235957
 DESCRIPTION:Observed on Śukla-Daśamī tithi of Kārttikaḥ (lunar) mont
  h (sunrise (default)/puurvaviddha (default)).<br/>Lord Krishna killed Kams
  a on this day\; most popularly celebrated in Mathura and Uttar Pradesh.<br
- /><br/>https%3A//github.com/sanskrit-coders/adyatithi/tree/master/general/
- kaMsa-vadhaH__info.toml<br/><br/>#PuranaEvents #CommonFestivals
+ /><br/>https%3A//github.com/sanskrit-coders/adyatithi/tree/master/devatA/v
+ aiShNava/kaMsa-vadhaH__info.toml<br/><br/>#PuranaEvents #CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -16252,8 +16267,8 @@ DTEND;VALUE=DATE-TIME:20191108T235957
 DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Kārttikaḥ (lunar) mo
  nth (aparaahna/vyaapti).<br/><br/>### References<br/>* Vaidyanātha-Dīk
  ṣitīyam<br/><br/><br/>https%3A//github.com/sanskrit-coders/adyatithi/tr
- ee/master/general/manvAdiH~%28svArOciSaH~%5B2%5D%29__info.toml<br/><br/>#M
- anvadiDays
+ ee/master/time_focus/yugAdiH/manvAdiH~%28svArOciSaH~%5B2%5D%29__info.toml<
+ br/><br/>#ManvadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -16683,8 +16698,8 @@ DTEND;VALUE=DATE-TIME:20191112T235957
 DESCRIPTION:Observed on Paurṇamāsī tithi of Kārttikaḥ (lunar) month
   (aparaahna/vyaapti).<br/><br/>### References<br/>* Vaidyanātha-Dīkṣit
  īyam<br/><br/><br/>https%3A//github.com/sanskrit-coders/adyatithi/tree/ma
- ster/general/manvAdiH~%28dharmaH~%5B11%5D%29__info.toml<br/><br/>#ManvadiD
- ays
+ ster/time_focus/yugAdiH/manvAdiH~%28dharmaH~%5B11%5D%29__info.toml<br/><br
+ />#ManvadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -16716,7 +16731,8 @@ DTEND;VALUE=DATE-TIME:20191112T235957
 DESCRIPTION:Observed on Paurṇamāsī tithi of every lunar month (sunrise
  /puurvaviddha (default)).<br/>pūrṇimā vratam is commonly observed for 
  Lord Satyanarayana.<br/><br/>https%3A//github.com/sanskrit-coders/adyatith
- i/tree/master/general/pUrNimA~vratam__info.toml<br/><br/>#MonthlyFestivals
+ i/tree/master/devatA/vaiShNava/pUrNimA~vratam__info.toml<br/><br/>#Monthly
+ Festivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17006,8 +17022,8 @@ DTEND;VALUE=DATE-TIME:20191118T235957
 DESCRIPTION:Observed on day 1 of Vṛścikaḥ (solar) month (sunrise (def
  ault)/puurvaviddha (default)).<br/>Conduct veda parayanam in the evening\,
   on one of these 48 days.<br/><br/>https%3A//github.com/sanskrit-coders/ad
- yatithi/tree/master/general/kRttikA-maNDala-pArAyaNam__info.toml<br/><br/>
- #SpecialPeriodStart #CommonFestivals
+ yatithi/tree/master/time_focus/misc/kRttikA-maNDala-pArAyaNam__info.toml<b
+ r/><br/>#SpecialPeriodStart #CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17853,8 +17869,8 @@ DTSTART;VALUE=DATE-TIME:20191204T235957
 DTEND;VALUE=DATE-TIME:20191205T235957
 DESCRIPTION:Observed on Śukla-Navamī tithi of Mārgaśīrṣaḥ (lunar)
   month (aparaahna/vyaapti).<br/>Kalpadi<br/><br/>https%3A//github.com/sans
- krit-coders/adyatithi/tree/master/general/pralaya-kalpAdiH__info.toml<br/>
- <br/>#KalpadiDays
+ krit-coders/adyatithi/tree/master/time_focus/yugAdiH/pralaya-kalpAdiH__inf
+ o.toml<br/><br/>#KalpadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18263,7 +18279,8 @@ DTEND;VALUE=DATE-TIME:20191212T235957
 DESCRIPTION:Observed on Paurṇamāsī tithi of every lunar month (sunrise
  /puurvaviddha (default)).<br/>pūrṇimā vratam is commonly observed for 
  Lord Satyanarayana.<br/><br/>https%3A//github.com/sanskrit-coders/adyatith
- i/tree/master/general/pUrNimA~vratam__info.toml<br/><br/>#MonthlyFestivals
+ i/tree/master/devatA/vaiShNava/pUrNimA~vratam__info.toml<br/><br/>#Monthly
+ Festivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18413,8 +18430,8 @@ SUMMARY:Mārgaśīrṣa-Aṣṭakā-Pūrvedyuḥ
 DTSTART;VALUE=DATE-TIME:20191217T235957
 DTEND;VALUE=DATE-TIME:20191218T235957
 DESCRIPTION:Shannavati Shraddham Day.<br/><br/>https%3A//github.com/sanskr
- it-coders/adyatithi/tree/master/general/mArgazIrSa-aSTakA-pUrvEdyuH__info.
- toml<br/><br/>#ShannavatiTarpanaDays
+ it-coders/adyatithi/tree/master/devatA/pitR/mArgazIrSa-aSTakA-pUrvEdyuH__i
+ nfo.toml<br/><br/>#ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18468,8 +18485,8 @@ DTSTART;VALUE=DATE-TIME:20191218T235957
 DTEND;VALUE=DATE-TIME:20191219T235957
 DESCRIPTION:Observed on Kṛṣṇa-Aṣṭamī tithi of Mārgaśīrṣa
  ḥ (lunar) month (aparaahna/vyaapti).<br/><br/><br/>https%3A//github.com/
- sanskrit-coders/adyatithi/tree/master/general/mArgazIrSa-aSTakA-zrAddham__
- info.toml<br/><br/>#ShannavatiTarpanaDays
+ sanskrit-coders/adyatithi/tree/master/devatA/pitR/mArgazIrSa-aSTakA-zrAddh
+ am__info.toml<br/><br/>#ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18483,8 +18500,8 @@ SUMMARY:Mārgaśīrṣa-Anvaṣṭakā-Śrāddham
 DTSTART;VALUE=DATE-TIME:20191219T235957
 DTEND;VALUE=DATE-TIME:20191220T235957
 DESCRIPTION:Shannavati Shraddham Day.<br/><br/>https%3A//github.com/sanskr
- it-coders/adyatithi/tree/master/general/mArgazIrSa-anvaSTakA-zrAddham__inf
- o.toml<br/><br/>#ShannavatiTarpanaDays
+ it-coders/adyatithi/tree/master/devatA/pitR/mArgazIrSa-anvaSTakA-zrAddham_
+ _info.toml<br/><br/>#ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
