@@ -41,7 +41,7 @@ def get_chandra_masa(month, NAMES, script, visarga=True):
       return '%s-(%s)' % (NAMES['CHANDRA_MASA_NAMES'][script][int(month) + 1], tr('adhikaH', script, titled=False))
   else:
     if month == int(month):
-      return NAMES['CHANDRA_MASA_NAMES'][script][month][:-1]
+      return NAMES['CHANDRA_MASA_NAMES'][script][int(month)][:-1]
     else:
       return '%s-(%s)' % (NAMES['CHANDRA_MASA_NAMES'][script][int(month) + 1][:-1], tr('adhika', script, titled=False))
 

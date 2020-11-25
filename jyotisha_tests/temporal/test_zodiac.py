@@ -95,14 +95,14 @@ def test_get_yogas_in_period():
 
 
 def test_get_previous_solstice():
-  solstice = zodiac.get_previous_solstice(jd=time.ist_timezone.local_time_to_julian_day(Date(2018, 1, 14)))
+  solstice = zodiac.get_previous_solstice_month_span(jd=time.ist_timezone.local_time_to_julian_day(Date(2018, 1, 14)))
   expected_jd_start = time.ist_timezone.local_time_to_julian_day(date=Date(year=2017, month=12, day=21, hour=16, minute=28))
   numpy.testing.assert_approx_equal(solstice.jd_start, expected_jd_start, significant=4)
 
-  solstice = zodiac.get_previous_solstice(jd=time.ist_timezone.local_time_to_julian_day(Date(2018, 3, 14)))
+  solstice = zodiac.get_previous_solstice_month_span(jd=time.ist_timezone.local_time_to_julian_day(Date(2018, 3, 14)))
   expected_jd_start = time.ist_timezone.local_time_to_julian_day(date=Date(year=2017, month=12, day=21, hour=16, minute=28))
   numpy.testing.assert_approx_equal(solstice.jd_start, expected_jd_start, significant=4)
 
-  solstice = zodiac.get_previous_solstice(jd=time.ist_timezone.local_time_to_julian_day(Date(2018, 7, 14)))
+  solstice = zodiac.get_previous_solstice_month_span(jd=time.ist_timezone.local_time_to_julian_day(Date(2018, 7, 14)))
   expected_jd_start = time.ist_timezone.local_time_to_julian_day(date=Date(year=2018, month=6, day=20, hour=21, minute=44))
   numpy.testing.assert_approx_equal(solstice.jd_start, expected_jd_start, significant=4)

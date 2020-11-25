@@ -29,6 +29,7 @@ CODE_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
 
 
 def write_to_file(ics_calendar, fname):
+  os.makedirs(os.path.dirname(fname), exist_ok=True)
   ics_calendar_file = open(fname, 'wb')
   ics_calendar_file.write(ics_calendar.to_ical())
   ics_calendar_file.close()
@@ -227,7 +228,6 @@ def main():
   city = City(city_name, latitude, longitude, tz)
 
   panchaanga = jyotisha.panchaanga.spatio_temporal.annual.get_panchaanga_for_civil_year(city=city, year=year)
-  panchaanga.update_festival_details()
 
   ics_calendar = compute_calendar(panchaanga)
   output_file = os.path.expanduser('%s/%s-%d-%s.ics' % ("~/Documents/jyotisha", city.name, year, scripts))

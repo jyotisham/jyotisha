@@ -93,7 +93,7 @@ class SolsticePostDark10AdhikaAssigner(LunarMonthAssigner):
     if not cls._is_tithi_post_dark10(jd=solstice_tropical_month_span.jd_start):
       return solstice_tropical_month_span.anga 
     else:
-      prev_solstice_tropical_month_span = zodiac.get_previous_solstice(jd=solstice_tropical_month_span.jd_start-1)
+      prev_solstice_tropical_month_span = zodiac.get_previous_solstice_month_span(jd=solstice_tropical_month_span.jd_start - 1)
       # Was there an adhika maasa in the recent past?
       # If so, this month will not be one, even if post-dark10 solsticial. 
       if not cls._is_tithi_post_dark10(jd=prev_solstice_tropical_month_span.jd_start):
@@ -108,7 +108,7 @@ class SolsticePostDark10AdhikaAssigner(LunarMonthAssigner):
         
     :return: 
     """
-    solstice_tropical_month_span = zodiac.get_previous_solstice(jd=daily_panchaanga.jd_sunrise)
+    solstice_tropical_month_span = zodiac.get_previous_solstice_month_span(jd=daily_panchaanga.jd_sunrise)
     solstice_lunar_month = SolsticePostDark10AdhikaAssigner._get_solstice_lunar_month(solstice_tropical_month_span=solstice_tropical_month_span)
     is_solstice_lunar_month_adhika = str(solstice_lunar_month.index).endswith(".5")
     if is_solstice_lunar_month_adhika:
@@ -119,12 +119,12 @@ class SolsticePostDark10AdhikaAssigner(LunarMonthAssigner):
       # Are we in a lunar month containing solstice?
       tropical_month = zodiac.get_tropical_month(jd=daily_panchaanga.jd_sunrise)
       if tropical_month.index in [3, 9]:
-        anga_span_finder = AngaSpanFinder.get_cached(ayanaamsha_id=Ayanamsha.ASHVINI_STARTING_0, anga_type=AngaType.SIDEREAL_MONTH)
-        solstice_tropical_month_span = anga_span_finder.find(jd1=daily_panchaanga.jd_sunrise, jd2=daily_panchaanga.jd_sunrise + 32, target_anga_id=daily_panchaanga.tropical_date_sunset.month + 1)
+        anga_span_finder = AngaSpanFinder.get_cached(ayanaamsha_id=Ayanamsha.ASHVINI_STARTING_0, anga_type=AngaType.TROPICAL_MONTH)
+        next_solstice_tropical_month_span = anga_span_finder.find(jd1=daily_panchaanga.jd_sunrise, jd2=daily_panchaanga.jd_sunrise + 32, target_anga_id=tropical_month + 1)
         span_finder = AngaSpanFinder.get_cached(anga_type=AngaType.TITHI, ayanaamsha_id=Ayanamsha.ASHVINI_STARTING_0)
-        tithi_1_jds = span_finder.get_spans_in_period(jd_start=daily_panchaanga.jd_sunrise, jd_end=solstice_tropical_month_span.jd_start, target_anga_id=1)
+        tithi_1_jds = span_finder.get_spans_in_period(jd_start=daily_panchaanga.jd_sunrise, jd_end=next_solstice_tropical_month_span.jd_start, target_anga_id=1)
         if len(tithi_1_jds) == 0:
-          solstice_lunar_month = SolsticePostDark10AdhikaAssigner._get_solstice_lunar_month(solstice_tropical_month_span=solstice_tropical_month_span)
+          solstice_lunar_month = SolsticePostDark10AdhikaAssigner._get_solstice_lunar_month(solstice_tropical_month_span=next_solstice_tropical_month_span)
           return solstice_lunar_month
 
       # The default case.

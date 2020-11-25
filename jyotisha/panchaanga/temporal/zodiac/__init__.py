@@ -341,17 +341,22 @@ def get_tropical_month(jd):
   return nd.get_anga(anga_type=AngaType.TROPICAL_MONTH)
 
 
-def get_previous_solstice(jd):
+def get_previous_solstice_month_span(jd):
+  """Get the previous solstice (especially the tropical month id and the jd.)
+  
+  Returns an AngaSpan object.
+  """
   tropical_month = get_tropical_month(jd=jd)
   if tropical_month.index >= 4 and tropical_month.index < 10:
     target_month_id = 4
   else:
     target_month_id = 10
   months_past_solstice = (tropical_month - target_month_id) % 12
-  jd1 = jd - (months_past_solstice * 30 + months_past_solstice + 30)
-  jd2 = jd - (months_past_solstice * 30 + months_past_solstice) + 30
-  anga_span_finder = AngaSpanFinder.get_cached(ayanaamsha_id=Ayanamsha.ASHVINI_STARTING_0, anga_type=AngaType.SIDEREAL_MONTH)
-  return anga_span_finder.find(jd1=jd1, jd2=jd2, target_anga_id=target_month_id)
+  jd1 = jd - (months_past_solstice * 30 + months_past_solstice + 35)
+  jd2 = jd - (months_past_solstice * 30 + months_past_solstice) + 35
+  anga_span_finder = AngaSpanFinder.get_cached(ayanaamsha_id=Ayanamsha.ASHVINI_STARTING_0, anga_type=AngaType.TROPICAL_MONTH)
+  anga_span = anga_span_finder.find(jd1=jd1, jd2=jd2, target_anga_id=target_month_id)
+  return anga_span
 
 
 if __name__ == '__main__':

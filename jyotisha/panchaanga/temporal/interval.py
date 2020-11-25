@@ -50,7 +50,7 @@ class AngaSpan(Interval):
 
   def __repr__(self):
     from jyotisha.panchaanga.temporal import time
-    return "%s: (%s, %s)" % (default_if_none(self.name, ""), 
+    return "%s: (%s, %s)" % (default_if_none(self.anga, ""), 
                              "?" if self.jd_start is None else time.ist_timezone.julian_day_to_local_time_str(jd=self.jd_start),
                              "?" if self.jd_end is None else
                              time.ist_timezone.julian_day_to_local_time_str(jd=self.jd_end))
