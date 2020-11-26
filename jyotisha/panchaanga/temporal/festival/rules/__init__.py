@@ -147,7 +147,7 @@ class HinduCalendarEvent(common.JsonObject):
   }))
 
   def get_storage_file_name(self, base_dir):
-    return self.get_storage_file_name_flat(base_dir=base_dir)
+    return self.get_storage_file_name_granular(base_dir=base_dir)
 
   def get_storage_file_name_flat(self, base_dir):
     return "%(base_dir)s/%(id)s__info.toml"  % dict(
@@ -157,37 +157,37 @@ class HinduCalendarEvent(common.JsonObject):
 
   def get_storage_file_name_granular(self, base_dir):
     if self.timing.anchor_festival_id is not None:
-      return "%(base_dir)s/relative_event/%(anchor_festival_id)s/offset__%(offset)02d/%(id)s__info.toml" % dict(
-        base_dir=base_dir,
+      path = "relative_event/%(anchor_festival_id)s/offset__%(offset)02d/%(id)s__info.toml" % dict(
         anchor_festival_id=self.timing.anchor_festival_id.replace('/','__'),
         offset=self.timing.offset,
         id=self.id.replace('/','__').strip('{}')
       )
+    elif self.timing is None or self.timing.month_number is None:
+      tag_list = '/'.join(self.tags)
+      path = "description_only/%(id)s__info.toml" % dict(
+        tags=tag_list,
+        id=self.id.replace('/','__').strip('{}')
+      )
     else:
-      if self.timing is None or self.timing.month_number is None:
-        tag_list = '/'.join(self.tags)
-        return "%(base_dir)s/description_only/%(tags)s/%(id)s__info.toml" % dict(
-          base_dir=base_dir,
-          tags=tag_list,
+      try:
+        path = "%(month_type)s/%(anga_type)s/%(month_number)02d/%(anga_number)02d/%(id)s__info.toml" % dict(
+          month_type=self.timing.month_type,
+          anga_type=self.timing.anga_type,
+          month_number=self.timing.month_number,
+          anga_number=self.timing.anga_number,
           id=self.id.replace('/','__').strip('{}')
         )
-      else:
-        try:
-          return "%(base_dir)s/%(month_type)s/%(anga_type)s/%(month_number)02d/%(anga_number)02d/%(id)s__info.toml" % dict(
-            base_dir=base_dir,
-            month_type=self.timing.month_type,
-            anga_type=self.timing.anga_type,
-            month_number=self.timing.month_number,
-            anga_number=self.timing.anga_number,
-            id=self.id.replace('/','__').strip('{}')
-          )
-        except Exception:
-          logging.error(str(self))
-          raise 
+      except Exception:
+        logging.error(str(self))
+        raise 
+    if base_dir.startswith("http"):
+      from urllib.parse import quote
+      path = quote(path)
+    return "%s/%s" % (base_dir, path)
 
   def get_url(self):
-    from urllib.parse import quote
-    encoded_url = quote(self.get_storage_file_name(base_dir=self.repo.base_url))
+    # encoded_url = "https://" + quote(self.path_actual.replace(self.repo.path, self.repo.base_url.replace("https://", "")))
+    encoded_url = self.get_storage_file_name(base_dir=self.repo.base_url)
     # https://github.com/sanskrit-coders/jyotisha/runs/1229399248?check_suite_focus=true shows that ~ is being replaced there, which breaks tests. Hence the below.
     return encoded_url.replace("%7E", "~")
 
@@ -263,6 +263,7 @@ class RulesCollection(common.JsonObject):
         expected_path = rule.get_storage_file_name(base_dir=base_dir)
         if rule.path_actual != expected_path:
           logging.info(str((rule.path_actual, expected_path)))
+          os.makedirs(os.path.dirname(expected_path), exist_ok=True)
           os.rename(rule.path_actual, expected_path)
 
   @timebudget
@@ -306,6 +307,6 @@ common.update_json_class_index(sys.modules[__name__])
 
 
 if __name__ == '__main__':
-  # rules_collection = RulesCollection.get_cached(repos_tuple=rule_repos)
-  rules_collection = RulesCollection(repos=[RulesRepo(name="general")])
+  rules_collection = RulesCollection.get_cached(repos_tuple=rule_repos)
+  # rules_collection = RulesCollection(repos=[RulesRepo(name="general")])
   rules_collection.fix_filenames()
