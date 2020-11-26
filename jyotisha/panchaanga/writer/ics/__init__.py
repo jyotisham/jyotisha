@@ -5,7 +5,7 @@ import logging
 import os
 import sys
 
-from icalendar import Calendar
+from icalendar import Calendar, Timezone
 from indic_transliteration import xsanscript as sanscript
 
 import jyotisha.panchaanga.spatio_temporal.annual
@@ -13,6 +13,7 @@ import jyotisha.panchaanga.temporal
 # from jyotisha.panchaanga import scripts
 import jyotisha.panchaanga.temporal.festival.rules
 from jyotisha.panchaanga.spatio_temporal import City
+from jyotisha.panchaanga.temporal.time import ist_timezone
 from jyotisha.panchaanga.writer.ics.festival_event import write_to_file, get_full_festival_instance, \
   festival_instance_to_event, set_interval, add_festival_events
 
@@ -24,12 +25,13 @@ logging.basicConfig(
 CODE_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
 
 
-def compute_calendar(panchaanga, scripts=None):
+def compute_calendar(panchaanga, scripts=None, set_sequence=True):
 
   if scripts is None:
     scripts = [sanscript.DEVANAGARI]
   ics_calendar = Calendar()
-  # uid_list = []
+
+  set_calendar_metadata(ics_calendar, panchaanga=panchaanga, set_sequence=set_sequence)
 
   daily_panchaangas = panchaanga.daily_panchaangas_sorted()
   for day_index, daily_panchaanga in enumerate(daily_panchaangas):
@@ -43,15 +45,20 @@ def compute_calendar(panchaanga, scripts=None):
   return ics_calendar
 
 
+def set_calendar_metadata(ics_calendar, panchaanga, set_sequence):
+  timezone = Timezone()
+  timezone.add('TZID', panchaanga.city.timezone)
+  ics_calendar.add_component(timezone)
+  if set_sequence:
+    # Calendar programs such as Google Calendar might not update events if they don't recognize that the ics data has changed. https://support.google.com/calendar/thread/17012350?hl=en
+    # https://icalendar.org/iCalendar-RFC-5545/3-8-7-4-sequence-number.html
+    ics_calendar.add("SEQUENCE", ist_timezone.current_time_as_int())
+    # uid_list = []
+
+
 def main():
   [city_name, latitude, longitude, tz] = sys.argv[1:5]
   year = int(sys.argv[5])
-
-  if len(sys.argv) == 8:
-    all_tags = False
-  else:
-    all_tags = True  # Default assume detailed ICS with name_to_rule tags
-
   if len(sys.argv) >= 7:
     scripts = sys.argv[6].split(",")
   else:

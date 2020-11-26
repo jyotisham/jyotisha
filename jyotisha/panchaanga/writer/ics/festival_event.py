@@ -2,12 +2,12 @@ import logging
 import os
 import re
 from copy import deepcopy
-from datetime import timedelta
 
-from icalendar import Event, Alarm
+from icalendar import Event
 
 from jyotisha.panchaanga.temporal.festival import FestivalInstance, rules
 from jyotisha.panchaanga.temporal.interval import Interval
+from jyotisha.panchaanga.writer.ics.util import get_4_hr_display_alarm
 from jyotisha.util import default_if_none
 
 
@@ -80,17 +80,13 @@ def festival_instance_to_event(festival_instance, scripts, panchaanga, all_day=F
     # Starting or ending time is empty, e.g. harivasara, so no ICS entry
     t1 = panchaanga.city.get_timezone_obj().julian_day_to_local_datetime(jd=festival_instance.interval.jd_start)
     t2 = panchaanga.city.get_timezone_obj().julian_day_to_local_datetime(jd=festival_instance.interval.jd_end)
-    # we know that t1 is something like 'textsf{hh:mm(+1)}{'
-    # so we know the exact positions of min and hour
     event.add('dtstart', t1)
     event.add('dtend', t2)
   if all_day:
     event['X-MICROSOFT-CDO-ALLDAYEVENT'] = 'TRUE'
     event['TRANSP'] = 'TRANSPARENT'
     event['X-MICROSOFT-CDO-BUSYSTATUS'] = 'FREE'
-  alarm = Alarm()
-  alarm.add('action', 'DISPLAY')
-  alarm.add('trigger', timedelta(hours=-4))  # default alarm, with a 4 hour reminder
+  alarm = get_4_hr_display_alarm()
   event.add_component(alarm)
   return event
 

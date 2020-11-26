@@ -29,7 +29,7 @@ def test_panchanga_chennai_2019():
   panchaanga_2019.update_festival_details()
   orig_ics_file = os.path.join(TEST_DATA_PATH, 'Chennai-2019-devanagari.ics')
   current_ics_output = os.path.join(TEST_DATA_PATH, 'Chennai-2019-devanagari.ics.local')
-  ics_calendar = compute_calendar(panchaanga_2019, scripts=[sanscript.IAST])
+  ics_calendar = compute_calendar(panchaanga_2019, scripts=[sanscript.IAST], set_sequence=False)
   write_to_file(ics_calendar, current_ics_output)
   if not os.path.exists(orig_ics_file):
     logging.warning("%s not present. Assuming that it was deliberately deleted to update test files.", orig_ics_file)

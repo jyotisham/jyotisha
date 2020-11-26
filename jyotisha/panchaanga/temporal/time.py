@@ -299,6 +299,10 @@ class Timezone:
     local_datetime = pytz.timezone(self.timezone_id).fromutc(tm.value)
     return str(local_datetime)
 
+  def current_time_as_int(self):
+    local_datetime = datetime.datetime.now(tz=pytz.timezone(self.timezone_id))    
+    time_str = "%04d%02d%02d%02d%02d%02d" % (local_datetime.year, local_datetime.month, local_datetime.day, local_datetime.hour, local_datetime.minute, local_datetime.second)
+    return int(time_str)
 
 
 # A timezone frequently used for debugging (as most developers are located there.)
