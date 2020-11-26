@@ -78,12 +78,12 @@ def festival_instance_to_event(festival_instance, scripts, panchaanga, all_day=F
 
   if festival_instance.interval is not None and festival_instance.interval.jd_end is not None and festival_instance.interval.jd_start is not None :
     # Starting or ending time is empty, e.g. harivasara, so no ICS entry
-    t1 = panchaanga.city.get_timezone_obj().julian_day_to_local_time(julian_day=festival_instance.interval.jd_start)
-    t2 = panchaanga.city.get_timezone_obj().julian_day_to_local_time(julian_day=festival_instance.interval.jd_end)
+    t1 = panchaanga.city.get_timezone_obj().julian_day_to_local_datetime(jd=festival_instance.interval.jd_start)
+    t2 = panchaanga.city.get_timezone_obj().julian_day_to_local_datetime(jd=festival_instance.interval.jd_end)
     # we know that t1 is something like 'textsf{hh:mm(+1)}{'
     # so we know the exact positions of min and hour
-    event.add('dtstart', t1.to_datetime())
-    event.add('dtend', t2.to_datetime())
+    event.add('dtstart', t1)
+    event.add('dtend', t2)
   if all_day:
     event['X-MICROSOFT-CDO-ALLDAYEVENT'] = 'TRUE'
     event['TRANSP'] = 'TRANSPARENT'
