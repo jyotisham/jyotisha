@@ -315,8 +315,9 @@ def writeDailyICS(panchaanga, script=sanscript.DEVANAGARI):
 
     output_text = cleanTamilNa(output_stream.getvalue())
 
-    event.add('dtstart', date(y, m, dt))
-    event.add('dtend', (datetime(y, m, dt) + timedelta(1)).date())
+    dt_start = daily_panchaanga.city.get_timezone_obj().julian_day_to_local_datetime(jd=daily_panchaanga.julian_day_start)
+    event.add('dtstart', dt_start)
+    event.add('dtend', (dt_start + timedelta(1)).date())
     event.add_component(alarm)
     event.add('description', output_text)
     event['X-MICROSOFT-CDO-ALLDAYEVENT'] = 'TRUE'
