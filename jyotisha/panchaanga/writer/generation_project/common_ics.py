@@ -28,6 +28,6 @@ def dump_kauNDinyAyana(year, city):
 
 
 if __name__ == '__main__':
-  bengaLUru = spatio_temporal.City.get_city_from_db("bengaLUru-snagar")
+  bengaLUru = spatio_temporal.City.get_city_from_db("sahakAra nagar, bengaLUru")
   dump_common(year=1942, city=bengaLUru)
   dump_kauNDinyAyana(year=1942, city=bengaLUru)

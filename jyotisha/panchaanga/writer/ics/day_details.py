@@ -4,9 +4,8 @@
 import logging
 import os
 import os.path
-import re
 import sys
-from datetime import datetime, date, timedelta
+from datetime import timedelta
 from io import StringIO
 from math import ceil
 
@@ -27,13 +26,6 @@ logging.basicConfig(
 )
 
 CODE_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
-
-
-def cleanTamilNa(text):
-  output_text = re.sub('([^ ])ந', '\\1ன', text)
-  output_text = re.sub('([-—*])ன', '\\1ந', output_text)
-  output_text = re.sub('ன்த', 'ந்த', output_text)
-  return output_text
 
 
 def getName(text, script):
@@ -131,7 +123,7 @@ def writeDailyICS(panchaanga, script=sanscript.DEVANAGARI):
 
     event = Event()
     event.add('summary', '%02d-%s-%4d (%s)' % (
-    dt, month[m], y, cleanTamilNa(jyotisha.custom_transliteration.tr(panchaanga.city.name, script))))
+      dt, month[m], y, jyotisha.custom_transliteration.tr(panchaanga.city.name, script)))
 
     jd = daily_panchaanga.julian_day_start
 
@@ -313,7 +305,7 @@ def writeDailyICS(panchaanga, script=sanscript.DEVANAGARI):
     getName('parihAraH', script), getName(SHULAM[daily_panchaanga.date.get_weekday()][2], script)),
           file=output_stream)
 
-    output_text = cleanTamilNa(output_stream.getvalue())
+    output_text = output_stream.getvalue()
 
     dt_start = daily_panchaanga.city.get_timezone_obj().julian_day_to_local_datetime(jd=daily_panchaanga.julian_day_start)
     event.add('dtstart', dt_start)

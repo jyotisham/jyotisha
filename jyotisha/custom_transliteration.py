@@ -2,6 +2,7 @@
 #  -*- coding: utf-8 -*-
 
 import logging
+import re
 
 from indic_transliteration import xsanscript as sanscript
 
@@ -41,6 +42,7 @@ def tr(text, script, titled=True):
 
   if script == sanscript.TAMIL:
     transliterated_text = sanscript.SCHEMES[sanscript.TAMIL].apply_roman_numerals(transliterated_text)
+    # transliterated_text = clean_tamil_Na(transliterated_text)
   if script == 'iast':
     transliterated_text = transliterated_text.replace('ṉ', 'n')
   return transliterated_text
@@ -114,3 +116,10 @@ def print_lat_lon(lat, lon):
     lon_suffix = 'E'
 
   return '%.6f°%s, %.6f°%s' % (lat, lat_suffix, lon, lon_suffix)
+
+
+def clean_tamil_Na(text):
+  output_text = re.sub('([^ ])ந', '\\1ன', text)
+  output_text = re.sub('([-—*])ன', '\\1ந', output_text)
+  output_text = re.sub('ன்த', 'ந்த', output_text)
+  return output_text
