@@ -96,7 +96,7 @@ class TransitionFestivalInstance(FestivalInstance):
       name = '\\tamil{%s}' % name_details["text"]
     else:
       name = name_details["text"]
-    return custom_transliteration.tr("%s~%s##\\To{}##%s" % (name, self.status_1_hk, self.status_2_hk), script=scripts[0])
+    return custom_transliteration.tr("%s~(%s##\\To{}##%s)" % (name, self.status_1_hk, self.status_2_hk), script=scripts[0])
 
 
 # Essential for depickling to work.
