@@ -65,7 +65,7 @@ def main():
   if len(sys.argv) >= 7:
     scripts = sys.argv[6].split(",")
   else:
-    scripts = [sanscript.IAST]  # Default script is IAST for writing calendar
+    scripts = [sanscript.IAST]  # Default language is IAST for writing calendar
 
   city = City(city_name, latitude, longitude, tz)
 

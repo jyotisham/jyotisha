@@ -1,6 +1,7 @@
 import swisseph as swe
 
 # These are present in http://www.astro.com/swisseph/swephprg.htm#_Toc471829094 but not in the swe python module.
+import jyotisha
 from jyotisha.custom_transliteration import tr
 from jyotisha.names.init_names_auto import init_names_auto
 
@@ -57,3 +58,52 @@ def get_chandra_masa(month, script, visarga=True):
 
 
 NAMES = init_names_auto()
+
+
+def translate_and_transliterate(text, language):
+  translation = {'candrAstamayaH': 'சந்த்ராஸ்தமனம்',
+                 'kSEtram': 'குறிப்பிட்ட ஊருக்கான தகவல்கள்',
+                 'candrOdayaH': 'சந்த்ரோதயம்',
+                 'cAndramAnam': 'சாந்த்ரமானம்',
+                 'ahOrAtram': 'நாள் முழுவதும்',
+                 'tithiH': 'திதி',
+                 'dinaM': 'தேதி',
+                 'pakSaH': 'பக்ஷம்',
+                 'nakSatram': 'நக்ஷத்ரம்',
+                 'yOgaH': 'யோகம்',
+                 'mAsaH': 'மாஸம்',
+                 'RtuH': 'ருதுஃ',
+                 'ayanam': 'அயனம்',
+                 'karaNam': 'கரணம்',
+                 'rAziH': 'ராஶிஃ',
+                 'lagnam': 'லக்னம்',
+                 'candrASTama-rAziH': 'சந்த்ராஷ்டம-ராஶிஃ',
+                 'zUlam': 'ஶூலம்',
+                 'vAsaraH': 'வாஸரம்',
+                 'dina-vizESAH': 'தின-விஶேஷங்கள்',
+                 'saMvatsaraH': 'ஸம்வத்ஸரம்',
+                 'sUryAstamayaH': 'ஸூர்யாஸ்தமனம்',
+                 'sUryOdayaH': 'ஸூர்யோதயம்',
+                 'sauramAnam': 'ஸௌரமானம்',
+                 'dinAntaH': 'தினாந்தம்',
+                 'aparAhNa-kAlaH': 'அபராஹ்ண-காலம்',
+                 'rAhukAlaH': 'ராஹுகாலம்',
+                 'yamaghaNTaH': 'யமகண்டம்',
+                 'gulikakAlaH': 'குலிககாலம்',
+                 'parihAraH': 'பரிஹாரம்',
+                 'guDam': 'வெல்லம்',
+                 'dadhi': 'தயிர்',
+                 'kSIram': 'பால்',
+                 'tailam': 'எண்ணெய்',
+                 'prAcI dik': 'கிழக்கு',
+                 'udIcI dik': 'வடக்கு',
+                 'dakSiNA dik': 'தெற்கு ',
+                 'pratIcI dik': 'மேற்கு'
+                 }
+  if language == 'tamil':
+    if text in translation:
+      return translation[text]
+    else:
+      return jyotisha.custom_transliteration.tr(text, language)
+  else:
+    return jyotisha.custom_transliteration.tr(text, language)

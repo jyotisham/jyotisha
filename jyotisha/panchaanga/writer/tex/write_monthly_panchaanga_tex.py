@@ -48,9 +48,9 @@ def write_monthly_tex(panchaanga, template_file, scripts=None, temporal=None):
 
   print('\\mbox{}')
   print('{\\sffamily\\fontsize{60}{25}\\selectfont %d\\\\[0.5cm]}' % panchaanga.year)
-  print('\\mbox{\\font\\x="Siddhanta:script=deva" at 48 pt\\x %s}\\\\[0.5cm]' %
+  print('\\mbox{\\font\\x="Siddhanta:language=deva" at 48 pt\\x %s}\\\\[0.5cm]' %
         samvatsara_names)
-  print('\\mbox{\\font\\x="Siddhanta:script=deva" at 32 pt\\x %s } %%'
+  print('\\mbox{\\font\\x="Siddhanta:language=deva" at 32 pt\\x %s } %%'
         % jyotisha.custom_transliteration.tr('kali', scripts[0]))
   print('{\\sffamily\\fontsize{32}{25}\\selectfont %d–%d\\\\[0.5cm]}'
         % (panchaanga.year + 3100, panchaanga.year + 3101))
@@ -158,7 +158,7 @@ def write_monthly_tex(panchaanga, template_file, scripts=None, temporal=None):
       else:
         tithi_data_str = '%s\\mbox{%s\\To{}\\textsf{%s%s}}' % \
                          (tithi_data_str, tithi,
-                          Hour(24 * (tithi_end_jd - jd)).toString(
+                          Hour(24 * (tithi_end_jd - jd)).to_string(
                             format=panchaanga.fmt),
                           '\\hspace{2ex}')
 
@@ -176,7 +176,7 @@ def write_monthly_tex(panchaanga, template_file, scripts=None, temporal=None):
         nakshatra_data_str = '%s\\mbox{%s\\To{}\\textsf{%s%s}}' % \
                               (nakshatra_data_str, nakshatra,
                                Hour(24 * (nakshatra_end_jd -
-                                                                            jd)).toString(format=panchaanga.fmt),
+                                                                            jd)).to_string(format=panchaanga.fmt),
                                '\\hspace{2ex}')
 
     yoga_data_str = ''
@@ -191,7 +191,7 @@ def write_monthly_tex(panchaanga, template_file, scripts=None, temporal=None):
       else:
         yoga_data_str = '%s\\mbox{%s\\To{}\\textsf{%s%s}}' % \
                         (yoga_data_str, yoga,
-                         Hour(24 * (yoga_end_jd - jd)).toString(
+                         Hour(24 * (yoga_end_jd - jd)).to_string(
                            format=panchaanga.fmt),
                          '\\hspace{2ex}')
 
@@ -211,23 +211,23 @@ def write_monthly_tex(panchaanga, template_file, scripts=None, temporal=None):
         karana_data_str = '%s\\mbox{%s\\To{}\\textsf{%s%s}}' % \
                            (karana_data_str, karana,
                             Hour(24 * (karana_end_jd -
-                                                                         jd)).toString(format=panchaanga.fmt),
+                                                                         jd)).to_string(format=panchaanga.fmt),
                             '\\hspace{2ex}')
 
-    sunrise = Hour(24 * (daily_panchaanga.jd_sunrise - jd)).toString(
+    sunrise = Hour(24 * (daily_panchaanga.jd_sunrise - jd)).to_string(
       format=panchaanga.fmt)
-    sunset = Hour(24 * (daily_panchaanga.jd_sunset - jd)).toString(format=panchaanga.fmt)
-    saangava = Hour(24 * (daily_panchaanga.day_length_based_periods.saangava.jd_start - jd)).toString(
+    sunset = Hour(24 * (daily_panchaanga.jd_sunset - jd)).to_string(format=panchaanga.fmt)
+    saangava = Hour(24 * (daily_panchaanga.day_length_based_periods.saangava.jd_start - jd)).to_string(
       format=panchaanga.fmt)
     rahu = '%s--%s' % (
-      Hour(24 * (daily_panchaanga.day_length_based_periods.raahu.jd_start - jd)).toString(
+      Hour(24 * (daily_panchaanga.day_length_based_periods.raahu.jd_start - jd)).to_string(
         format=panchaanga.fmt),
-      Hour(24 * (daily_panchaanga.day_length_based_periods.raahu.jd_end - jd)).toString(
+      Hour(24 * (daily_panchaanga.day_length_based_periods.raahu.jd_end - jd)).to_string(
         format=panchaanga.fmt))
     yama = '%s--%s' % (
-      Hour(24 * (daily_panchaanga.day_length_based_periods.yama.jd_start - jd)).toString(
+      Hour(24 * (daily_panchaanga.day_length_based_periods.yama.jd_start - jd)).to_string(
         format=panchaanga.fmt),
-      Hour(24 * (daily_panchaanga.day_length_based_periods.yama.jd_end - jd)).toString(
+      Hour(24 * (daily_panchaanga.day_length_based_periods.yama.jd_end - jd)).to_string(
         format=panchaanga.fmt))
 
     if daily_panchaanga.solar_sidereal_date_sunset.month_transition is None:
@@ -237,11 +237,11 @@ def write_monthly_tex(panchaanga, template_file, scripts=None, temporal=None):
       if daily_panchaanga.solar_sidereal_date_sunset.month_transition >= daily_panchaangas[d + 1].jd_sunrise:
         month_end_str = '\\mbox{%s{\\tiny\\RIGHTarrow}\\textsf{%s}}' % (
           jyotisha.names.NAMES['RASHI_NAMES'][scripts[0]][_m], Hour(
-            24 * (daily_panchaanga.solar_sidereal_date_sunset.month_transition - daily_panchaangas[d + 1].julian_day_start)).toString(format=panchaanga.fmt))
+            24 * (daily_panchaanga.solar_sidereal_date_sunset.month_transition - daily_panchaangas[d + 1].julian_day_start)).to_string(format=panchaanga.fmt))
       else:
         month_end_str = '\\mbox{%s{\\tiny\\RIGHTarrow}\\textsf{%s}}' % (
           jyotisha.names.NAMES['RASHI_NAMES'][scripts[0]][_m], Hour(
-            24 * (daily_panchaanga.solar_sidereal_date_sunset.month_transition - daily_panchaanga.julian_day_start)).toString(format=panchaanga.fmt))
+            24 * (daily_panchaanga.solar_sidereal_date_sunset.month_transition - daily_panchaanga.julian_day_start)).to_string(format=panchaanga.fmt))
 
     month_data = '\\sunmonth{%s}{%d}{%s}' % (
       jyotisha.names.NAMES['RASHI_NAMES'][scripts[0]][daily_panchaanga.solar_sidereal_date_sunset.month], daily_panchaanga.solar_sidereal_date_sunset.day,
@@ -322,12 +322,12 @@ def main():
   [city_name, latitude, longitude, tz] = sys.argv[1:5]
   year = int(sys.argv[5])
 
-  scripts = [sanscript.DEVANAGARI]  # Default script is devanagari
+  scripts = [sanscript.DEVANAGARI]  # Default language is devanagari
 
   if len(sys.argv) == 7:
     scripts = sys.argv[6].split(",")
 
-  # logging.debug(script)
+  # logging.debug(language)
 
   city = City(city_name, latitude, longitude, tz)
   panchaanga = annual.get_panchaanga_for_civil_year(city=city, year=year)

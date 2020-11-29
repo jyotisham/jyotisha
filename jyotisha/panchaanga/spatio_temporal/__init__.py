@@ -65,7 +65,7 @@ class City(JsonObject):
 
   def get_timezone_obj(self):
     from jyotisha.panchaanga.temporal.time import Timezone
-    return Timezone(timezone_id=self.timezone)
+    return Timezone.get_cached(timezone_id=self.timezone)
 
   @classmethod
   def from_address(cls, address, api_key, timeout=45):

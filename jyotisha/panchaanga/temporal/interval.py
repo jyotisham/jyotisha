@@ -24,8 +24,12 @@ class Interval(common.JsonObject):
 
   def __repr__(self):
     from jyotisha.panchaanga.temporal import time
-    return "%s: (%s, %s)" % ("?" if self.name is None else self.name, default_if_none(time.ist_timezone.julian_day_to_local_time_str(jd=self.jd_start), "?"),
+    return "%s: (%s, %s)" % (default_if_none(self.name, "?"), default_if_none(time.ist_timezone.julian_day_to_local_time_str(jd=self.jd_start), "?"),
 default_if_none(time.ist_timezone.julian_day_to_local_time_str(jd=self.jd_end), "?"))
+
+  def to_hour_string(self, tz):
+    return "%s-%s" % (default_if_none(tz.julian_day_to_local_time(julian_day=self.jd_start).get_hour_str(), "?"),
+                             default_if_none(tz.julian_day_to_local_time(julian_day=self.jd_end).get_hour_str(), "?"))
 
   def get_boundary_angas(self, anga_type, ayanaamsha_id):
     from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision

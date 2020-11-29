@@ -6,6 +6,7 @@ import traceback
 from math import modf
 from numbers import Number
 
+import methodtools
 import pytz
 from astropy.time import Time
 
@@ -28,7 +29,7 @@ class Hour(JsonObject):
       logging.error(hour)
       raise (TypeError('Input to time class must be int or float!'))
 
-  def toString(self, default_suffix='', format='hh:mm', rounding=False):
+  def to_string(self, default_suffix='', format='hh:mm', rounding=False):
     if self.hour < 0:
       logging.error('t<0! %s ' % self.hour)
       logging.error(traceback.print_stack())
@@ -87,7 +88,7 @@ class Hour(JsonObject):
       raise Exception("""Unknown format""")
 
   def __repr__(self):
-    return self.toString(format='hh:mm:ss')
+    return self.to_string(format='hh:mm:ss')
 
 
 def decypher_fractional_hours(time_in_hours):
@@ -228,8 +229,8 @@ class Date(BasicDate):
   def get_date_str(self):
     return super(Date, self).__repr__()
 
-  def get_hour_str(self, format, rounding):
-    return Hour(hour=self.get_fractional_hour()).toString(format=format, rounding=rounding)
+  def get_hour_str(self, format='hh:mm', rounding=False):
+    return Hour(hour=self.get_fractional_hour()).to_string(format=format, rounding=rounding)
 
 
 def jd_to_utc_gregorian(jd):
@@ -259,6 +260,11 @@ def get_weekday(jd):
 class Timezone:
   def __init__(self, timezone_id):
     self.timezone_id = timezone_id
+
+  @methodtools.lru_cache(maxsize=None)
+  @classmethod
+  def get_cached(cls, timezone_id):
+    return Timezone(timezone_id=timezone_id)
 
   def get_timezone_offset_hours_from_jd(self, jd: float):
     """Get timezone offset in hours east of UTC (negative west of UTC)
