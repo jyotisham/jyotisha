@@ -14,9 +14,9 @@ import jyotisha.panchaanga.temporal
 import jyotisha.panchaanga.temporal.festival.rules
 from jyotisha.panchaanga.spatio_temporal import City
 from jyotisha.panchaanga.temporal.time import ist_timezone
-from jyotisha.panchaanga.writer.ics import day_details
 from jyotisha.panchaanga.writer.ics.festival_event import write_to_file, get_full_festival_instance, \
   festival_instance_to_event, set_interval, add_festival_events
+from jyotisha.panchaanga.writer.md import day_details
 
 logging.basicConfig(
   level=logging.DEBUG,

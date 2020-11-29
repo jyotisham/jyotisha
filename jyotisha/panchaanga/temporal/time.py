@@ -229,8 +229,12 @@ class Date(BasicDate):
   def get_date_str(self):
     return super(Date, self).__repr__()
 
-  def get_hour_str(self, format='hh:mm', rounding=False):
-    return Hour(hour=self.get_fractional_hour()).to_string(format=format, rounding=rounding)
+  def get_hour_str(self, format='hh:mm', rounding=False, reference_date=None):
+    hour = self.get_fractional_hour()
+    if reference_date is not None:
+      self_date = Date(year=self.year, month=self.month, day=self.day)
+      hour = hour + 24 * (self_date - reference_date)
+    return Hour(hour=hour).to_string(format=format, rounding=rounding)
 
 
 def jd_to_utc_gregorian(jd):

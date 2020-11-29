@@ -7,13 +7,14 @@ from math import floor, modf
 from scipy.optimize import brentq
 from timebudget import timebudget
 
+from jyotisha.names import translate_and_transliterate
 from jyotisha.panchaanga.spatio_temporal import City
 from jyotisha.panchaanga.temporal import interval, time, ComputationSystem, set_constants
 from jyotisha.panchaanga.temporal import zodiac
 from jyotisha.panchaanga.temporal.body import Graha
 from jyotisha.panchaanga.temporal.interval import DayLengthBasedPeriods, Interval
 from jyotisha.panchaanga.temporal.month import LunarMonthAssigner
-from jyotisha.panchaanga.temporal.time import Timezone, Date, BasicDate
+from jyotisha.panchaanga.temporal.time import Timezone, Date, BasicDate, Hour
 from jyotisha.panchaanga.temporal.zodiac import Ayanamsha, NakshatraDivision, AngaSpanFinder
 from jyotisha.panchaanga.temporal.zodiac.angas import AngaType, Anga
 from jyotisha.util import default_if_none
@@ -93,6 +94,22 @@ class DayAngas(common.JsonObject):
     for anga_span in anga_spans:
       return anga_span.anga
     return None
+
+  def get_anga_data_str(self, anga_type, script, reference_jd):
+    anga_data_str = ''
+    for anga_span in self.get_angas_with_ends(anga_type=anga_type):
+      (anga_ID, anga_end_jd) = (anga_span.anga.index, anga_span.jd_end)
+      anga = anga_type.names_dict[script][anga_ID]
+      if anga_end_jd is None:
+        anga_end_str = ""
+      else:
+        anga_end_str = Hour(24 * (anga_end_jd - reference_jd)).to_string()
+      anga_data_str = '%s; %s►%s' % \
+                       (anga_data_str, anga,
+                        anga_end_str)
+    anga_data_str = '- *%s* — %s' % (translate_and_transliterate(anga_type.name_hk, script), anga_data_str[2:])
+    return anga_data_str
+
 
 # This class is not named Panchangam in order to be able to disambiguate from annual.Panchangam in serialized objects.
 class DailyPanchaanga(common.JsonObject):

@@ -3,6 +3,7 @@ astropy
 scipy
 pandas
 sanskrit_data
+doc_curation
 indic_transliteration
 icalendar
 pytz
