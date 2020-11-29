@@ -100,7 +100,7 @@ def day_summary(d, panchaanga, script):
   solar_month_str = names.NAMES['RASHI_NAMES'][script][daily_panchaanga.solar_sidereal_date_sunset.month]
   tropical_month_str = names.NAMES['RTU_MASA_NAMES_SHORT'][script][daily_panchaanga.tropical_date_sunset.month]
   lunar_position = "%s-%s" % (jyotisha.names.NAMES['RASHI_NAMES'][script][daily_panchaanga.sunrise_day_angas.raashis_with_ends[0].anga.index], jyotisha.names.NAMES['NAKSHATRA_NAMES'][script][daily_panchaanga.sunrise_day_angas.nakshatras_with_ends[0].anga.index])
-  title = '%s-%s,%s🌛◢◣%s-%s♋◢◣%s-%s🌞' % (
+  title = '%s-%s,%s🌛🌌◢◣%s-%s🌌🌞◢◣%s-%s🪐🌞' % (
     lunar_month_str, str(daily_panchaanga.get_date(month_type=RulesRepo.LUNAR_MONTH_DIR)), lunar_position,
     solar_month_str, str(daily_panchaanga.solar_sidereal_date_sunset), tropical_month_str,
     str(daily_panchaanga.tropical_date_sunset))
@@ -127,8 +127,10 @@ def day_summary(d, panchaanga, script):
   # ratriyama1 = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.raatri_yaama_1.jd_start - jd)).toString()
   # sayana_time = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.shayana.jd_start - jd)).toString()
   # Assign samvatsara, ayana, rtu #
-  ayanam = jyotisha.names.NAMES['AYANA_NAMES'][script][daily_panchaanga.solar_sidereal_date_sunset.month]
+  ayanam_sidereal = jyotisha.names.NAMES['AYANA_NAMES'][script][daily_panchaanga.solar_sidereal_date_sunset.month]
+  ayanam = jyotisha.names.NAMES['AYANA_NAMES'][script][daily_panchaanga.tropical_date_sunset.month]
   rtu_solar = jyotisha.names.NAMES['RTU_NAMES'][script][daily_panchaanga.solar_sidereal_date_sunset.month]
+  rtu_tropical = jyotisha.names.NAMES['RTU_NAMES'][script][daily_panchaanga.tropical_date_sunset.month]
   rtu_lunar = jyotisha.names.NAMES['RTU_NAMES'][script][int(ceil(daily_panchaanga.lunar_month_sunrise.index))]
 
   month_end_str = ''
@@ -161,8 +163,9 @@ def day_summary(d, panchaanga, script):
   #   print('*' + getName('saMvatsaraH', language) + '*—%s' % yname_lunar, file=output_stream)
   #   print('*' + getName('ayanam', language) + '*—%s' % ayanam, file=output_stream)
   print("___________________", file=output_stream)
-  print('- ♋ %s — %s %s' % (translate_and_transliterate('sauramAnam', script), rtu_solar, month_data), file=output_stream)
-  print('- 🌛 %s — %s %s' % (translate_and_transliterate('cAndramAnam', script), rtu_lunar, lunar_month_str), file=output_stream)
+  print('- 🪐🌞**%s** — %s %s' % (translate_and_transliterate('sAyanamAnam', script), rtu_tropical, ayanam), file=output_stream)
+  print('- 🌌🌞**%s** — %s %s' % (translate_and_transliterate('sauramAnam', script), rtu_solar, ayanam_sidereal), file=output_stream)
+  print('- 🌛**%s** — %s %s' % (translate_and_transliterate('cAndramAnam', script), rtu_lunar, lunar_month_str), file=output_stream)
   # if yname_lunar != yname_solar:
   #   print('*' + getName('saMvatsaraH', language) + '*—%s' % yname_solar, file=output_stream)
   #   print('*' + getName('ayanam', language) + '*—%s' % ayanam, file=output_stream)
