@@ -100,7 +100,7 @@ def day_summary(d, panchaanga, script):
   solar_month_str = names.NAMES['RASHI_NAMES'][script][daily_panchaanga.solar_sidereal_date_sunset.month]
   tropical_month_str = names.NAMES['RTU_MASA_NAMES_SHORT'][script][daily_panchaanga.tropical_date_sunset.month]
   lunar_position = "%s-%s" % (jyotisha.names.NAMES['RASHI_NAMES'][script][daily_panchaanga.sunrise_day_angas.raashis_with_ends[0].anga.index], jyotisha.names.NAMES['NAKSHATRA_NAMES'][script][daily_panchaanga.sunrise_day_angas.nakshatras_with_ends[0].anga.index])
-  title = '%s-%s,%s🌛 %s-%s♋ %s-%s🌞' % (
+  title = '%s-%s,%s🌛◢◣%s-%s♋◢◣%s-%s🌞' % (
     lunar_month_str, str(daily_panchaanga.get_date(month_type=RulesRepo.LUNAR_MONTH_DIR)), lunar_position,
     solar_month_str, str(daily_panchaanga.solar_sidereal_date_sunset), tropical_month_str,
     str(daily_panchaanga.tropical_date_sunset))
@@ -189,10 +189,7 @@ def day_summary(d, panchaanga, script):
   print("___________________", file=output_stream)
   print('%s  ' % (yoga_data_str), file=output_stream)
   print('%s  ' % (karana_data_str), file=output_stream)
-
-  print("___________________", file=output_stream)
   print('%s  ' % (chandrashtama_rashi_data_str), file=output_stream)
-
   print("___________________", file=output_stream)
   print('*%s* (%s)  ' % (
     translate_and_transliterate('kSEtram', script), jyotisha.custom_transliteration.tr(panchaanga.city.name, script)),
@@ -285,12 +282,12 @@ def get_raashi_data_str(daily_panchaanga, script):
     rashi = jyotisha.names.NAMES['RASHI_NAMES'][script][rashi_ID]
     if rashi_end_jd is None:
       rashi_data_str = '%s' % (rashi)
-      chandrashtama_rashi_data_str = '*' + translate_and_transliterate('candrASTama-rAziH', script) + '*—%s' % (
+      chandrashtama_rashi_data_str = '- *' + translate_and_transliterate('candrASTama-rAziH', script) + '*—%s' % (
         jyotisha.names.NAMES['RASHI_NAMES'][script][((rashi_ID - 8) % 12) + 1])
     else:
       rashi_data_str = '%s►%s' % (
         rashi, Hour(24 * (rashi_end_jd - jd)).to_string())
-      chandrashtama_rashi_data_str = '*' + translate_and_transliterate('candrASTama-rAziH', script) + '*—%s►%s; %s ➥' % (
+      chandrashtama_rashi_data_str = '- *' + translate_and_transliterate('candrASTama-rAziH', script) + '*—%s►%s; %s ➥' % (
         jyotisha.names.NAMES['RASHI_NAMES'][script][((rashi_ID - 8) % 12) + 1],
         Hour(24 * (rashi_end_jd - jd)).to_string(),
         jyotisha.names.NAMES['RASHI_NAMES'][script][((rashi_ID - 7) % 12) + 1])
