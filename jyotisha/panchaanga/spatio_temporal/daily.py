@@ -107,7 +107,7 @@ class DayAngas(common.JsonObject):
       anga_data_str = '%s; %s►%s' % \
                        (anga_data_str, anga,
                         anga_end_str)
-    anga_data_str = '- *%s* — %s' % (translate_and_transliterate(anga_type.name_hk, script), anga_data_str[2:])
+    anga_data_str = '**%s** — %s' % (translate_and_transliterate(anga_type.name_hk, script), anga_data_str[2:])
     return anga_data_str
 
 
