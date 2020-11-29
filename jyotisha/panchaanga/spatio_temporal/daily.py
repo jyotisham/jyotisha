@@ -286,6 +286,12 @@ class DailyPanchaanga(common.JsonObject):
       if  month_assigner is not None:
         self.lunar_month_sunrise = month_assigner.get_month_sunrise(daily_panchaanga=self)
 
+    # TODO Set samvatsara_id. Fix below.
+    # if self.lunar_month_sunrise >= 1 and self.lunar_month_sunrise <= 10 :
+    #   samvatsara_id_lunar = (self.date.year - 1987) % 60 + 1  # distance from prabhava
+    # else:
+    #   samvatsara_id_lunar = (self.date.year - 1987) % 60 + 1  # distance from prabhava
+
   def get_date(self, month_type):
     from jyotisha.panchaanga.temporal.festival.rules import RulesRepo
     if month_type == RulesRepo.SIDEREAL_SOLAR_MONTH_DIR:

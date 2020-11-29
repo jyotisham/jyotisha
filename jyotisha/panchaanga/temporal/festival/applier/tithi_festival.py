@@ -368,15 +368,15 @@ class TithiFestivalAssigner(FestivalAssigner):
         # Get Name
         if self.daily_panchaangas[d].lunar_month_sunrise.index == 6:
           pref = '(%s) mahAlaya ' % (
-            names.get_chandra_masa(self.daily_panchaangas[d].lunar_month_sunrise.index, names.NAMES, 'hk', visarga=False))
+            names.get_chandra_masa(self.daily_panchaangas[d].lunar_month_sunrise.index, 'hk', visarga=False))
         elif self.daily_panchaangas[d].solar_sidereal_date_sunset.month == 4:
           pref = '%s (kaTaka) ' % (
-            names.get_chandra_masa(self.daily_panchaangas[d].lunar_month_sunrise.index, names.NAMES, 'hk', visarga=False))
+            names.get_chandra_masa(self.daily_panchaangas[d].lunar_month_sunrise.index, 'hk', visarga=False))
         elif self.daily_panchaangas[d].solar_sidereal_date_sunset.month == 10:
           pref = 'mauni (%s/makara) ' % (
-            names.get_chandra_masa(self.daily_panchaangas[d].lunar_month_sunrise.index, names.NAMES, 'hk', visarga=False))
+            names.get_chandra_masa(self.daily_panchaangas[d].lunar_month_sunrise.index,  'hk', visarga=False))
         else:
-          pref = names.get_chandra_masa(self.daily_panchaangas[d].lunar_month_sunrise.index, names.NAMES, 'hk',
+          pref = names.get_chandra_masa(self.daily_panchaangas[d].lunar_month_sunrise.index,  'hk',
                                         visarga=False) + '-'
 
         apraahna_interval = self.daily_panchaangas[d].day_length_based_periods.aparaahna_muhuurta

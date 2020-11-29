@@ -17,8 +17,11 @@ import jyotisha.custom_transliteration
 import jyotisha.names
 import jyotisha.panchaanga.spatio_temporal.annual
 import jyotisha.panchaanga.temporal
+from jyotisha import names
 from jyotisha.panchaanga.spatio_temporal import City
+from jyotisha.panchaanga.temporal.festival.rules import RulesRepo
 from jyotisha.panchaanga.temporal.time import Hour
+from jyotisha.panchaanga.writer.ics import util
 
 logging.basicConfig(
   level=logging.DEBUG,
@@ -92,14 +95,6 @@ def writeDailyICS(panchaanga, script=sanscript.DEVANAGARI):
   """Write out the panchaanga TeX using a specified template
   """
   compute_lagnams=panchaanga.computation_system.options.set_lagnas
-  output_stream = StringIO()
-  month = {1: 'January', 2: 'February', 3: 'March', 4: 'April',
-           5: 'May', 6: 'June', 7: 'July', 8: 'August', 9: 'September',
-           10: 'October', 11: 'November', 12: 'December'}
-  WDAY = {0: 'Sunday', 1: 'Monday', 2: 'Tuesday', 3: 'Wednesday', 4: 'Thursday', 5: 'Friday', 6: 'Saturday'}
-  SHULAM = [('pratIcI dik', 12, 'guDam'), ('prAcI dik', 8, 'dadhi'), ('udIcI dik', 12, 'kSIram'),
-            ('udIcI dik', 16, 'kSIram'), ('dakSiNA dik', 20, 'tailam'), ('pratIcI dik', 12, 'guDam'),
-            ('prAcI dik', 8, 'dadhi')]
 
   samvatsara_id = (panchaanga.year - 1568) % 60 + 1  # distance from prabhava
   samvatsara_names = (jyotisha.names.NAMES['SAMVATSARA_NAMES'][script][samvatsara_id],
@@ -119,69 +114,6 @@ def writeDailyICS(panchaanga, script=sanscript.DEVANAGARI):
   for d, daily_panchaanga in enumerate(daily_panchaangas):
     if daily_panchaanga.date < panchaanga.start_date or daily_panchaanga.date > panchaanga.end_date:
       continue
-    [y, m, dt] = [daily_panchaanga.date.year, daily_panchaanga.date.month, daily_panchaanga.date.day]
-
-    event = Event()
-    event.add('summary', '%02d-%s-%4d (%s)' % (
-      dt, month[m], y, jyotisha.custom_transliteration.tr(panchaanga.city.name, script)))
-
-    jd = daily_panchaanga.julian_day_start
-
-    paksha, tithi_data_str = get_tithi_data_str(daily_panchaanga, script)
-    paksha_data_str = '*' + getName('pakSaH', script) + '*—' + paksha
-
-    nakshatra_data_str = get_nakshatra_data_str(daily_panchaanga, script)
-
-    chandrashtama_rashi_data_str, rashi_data_str = get_raashi_data_str(daily_panchaanga, script)
-
-    if compute_lagnams:
-      lagna_data_str = get_lagna_data_str(daily_panchaanga, script)
-
-    yoga_data_str = get_yoga_data_str(daily_panchaanga, script)
-
-    karana_data_str = get_karaNa_data_str(daily_panchaanga, script)
-
-    sunrise = Hour(24 * (daily_panchaanga.jd_sunrise - jd)).toString(
-      )
-    sunset = Hour(24 * (daily_panchaanga.jd_sunset - jd)).toString()
-    moonrise = Hour(24 * (daily_panchaanga.jd_moonrise - jd)).toString(
-      )
-    moonset = Hour(24 * (daily_panchaanga.jd_moonset - jd)).toString(
-      )
-
-    # braahma = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.braahma.jd_start - jd)).toString()
-    # praatahsandhya = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.praatas_sandhyaa.jd_start - jd)).toString()
-    # praatahsandhya_end = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.praatas_sandhyaa_end.jd_start - jd)).toString()
-    # saangava = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.saangava.jd_start - jd)).toString()
-    # madhyaahna = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.madhyaahna.jd_start - jd)).toString()
-    # madhyahnika_sandhya = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.maadhyaahnika_sandhyaa.jd_start - jd)).toString()
-    # madhyahnika_sandhya_end = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.maadhyaahnika_sandhyaa_end.jd_start - jd)).toString()
-    aparaahna = Hour(24 * (daily_panchaanga.day_length_based_periods.aparaahna.jd_start - jd)).toString(
-      )
-    sayahna = Hour(24 * (daily_panchaanga.day_length_based_periods.saayaahna.jd_start - jd)).toString(
-      )
-    # sayamsandhya = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.saayam_sandhyaa.jd_start - jd)).toString()
-    # sayamsandhya_end = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.saayam_sandhyaa_end.jd_start - jd)).toString()
-    # ratriyama1 = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.raatri_yaama_1.jd_start - jd)).toString()
-    # sayana_time = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.shayana.jd_start - jd)).toString()
-    dinaanta = Hour(24 * (daily_panchaanga.day_length_based_periods.dinaanta.jd_start - jd)).toString(
-      )
-
-    rahu = '%s–%s' % (
-      Hour(24 * (daily_panchaanga.day_length_based_periods.raahu.jd_start - jd)).toString(
-        ),
-      Hour(24 * (daily_panchaanga.day_length_based_periods.raahu.jd_end - jd)).toString(
-        ))
-    yama = '%s–%s' % (
-      Hour(24 * (daily_panchaanga.day_length_based_periods.yama.jd_start - jd)).toString(
-        ),
-      Hour(24 * (daily_panchaanga.day_length_based_periods.yama.jd_end - jd)).toString(
-        ))
-    gulika = '%s–%s' % (
-      Hour(24 * (daily_panchaanga.day_length_based_periods.gulika.jd_start - jd)).toString(
-        ),
-      Hour(24 * (daily_panchaanga.day_length_based_periods.gulika.jd_end - jd)).toString(
-        ))
 
     if daily_panchaanga.solar_sidereal_date_sunset.month == 1:
       # Flip the year name for the remaining days
@@ -190,140 +122,198 @@ def writeDailyICS(panchaanga, script=sanscript.DEVANAGARI):
       # Flip the year name for the remaining days
       yname_lunar = samvatsara_names[1]
 
-    # Assign samvatsara, ayana, rtu #
-    ayanam = jyotisha.names.NAMES['AYANA_NAMES'][script][daily_panchaanga.solar_sidereal_date_sunset.month]
-    rtu_solar = jyotisha.names.NAMES['RTU_NAMES'][script][daily_panchaanga.solar_sidereal_date_sunset.month]
-    rtu_lunar = jyotisha.names.NAMES['RTU_NAMES'][script][int(ceil(daily_panchaanga.lunar_month_sunrise.index))]
-
-    if daily_panchaanga.solar_sidereal_date_sunset.month_transition is None:
-      month_end_str = ''
-    else:
-      _m = daily_panchaangas[d - 1].solar_sidereal_date_sunset.month
-      if daily_panchaanga.solar_sidereal_date_sunset.month_transition >= daily_panchaangas[d + 1].jd_sunrise:
-        month_end_str = '%s►%s' % (jyotisha.names.NAMES['RASHI_NAMES'][script][_m],
-                                   Hour(24 * (
-                                         daily_panchaanga.solar_sidereal_date_sunset.month_transition - daily_panchaangas[d + 1].julian_day_start)).toString(
-                                     ))
-      else:
-        month_end_str = '%s►%s' % (jyotisha.names.NAMES['RASHI_NAMES'][script][_m],
-                                   Hour(
-                                     24 * (daily_panchaanga.solar_sidereal_date_sunset.month_transition - daily_panchaanga.julian_day_start)).toString(
-                                     ))
-    if month_end_str == '':
-      month_data = '%s (%s %d)' % (jyotisha.names.NAMES['RASHI_NAMES'][script][daily_panchaanga.solar_sidereal_date_sunset.month],
-                                   getName('dinaM', script), daily_panchaanga.solar_sidereal_date_sunset.day)
-    else:
-      month_data = '%s (%s %d); %s' % (
-        jyotisha.names.NAMES['RASHI_NAMES'][script][daily_panchaanga.solar_sidereal_date_sunset.month],
-        getName('dinaM', script), daily_panchaanga.solar_sidereal_date_sunset.day, month_end_str)
-
-    vara = jyotisha.names.NAMES['VARA_NAMES'][script][daily_panchaanga.date.get_weekday()]
-
-    if yname_lunar == yname_solar:
-      print('*' + getName('saMvatsaraH', script) + '*—%s' % yname_lunar, file=output_stream)
-      print('*' + getName('ayanam', script) + '*—%s' % ayanam, file=output_stream)
-    if rtu_lunar == rtu_solar:
-      print('*' + getName('RtuH', script) + '*—%s' % rtu_lunar, file=output_stream)
-
-    print('°' * 25, file=output_stream)
-    print('☀ ' + getName('sauramAnam', script), file=output_stream)
-    if yname_lunar != yname_solar:
-      print('*' + getName('saMvatsaraH', script) + '*—%s' % yname_solar, file=output_stream)
-      print('*' + getName('ayanam', script) + '*—%s' % ayanam, file=output_stream)
-    if rtu_lunar != rtu_solar:
-      print('*' + getName('RtuH', script) + '*—%s' % rtu_solar, file=output_stream)
-    print('*' + getName('mAsaH', script) + '*—%s' % month_data, file=output_stream)
-    print('°' * 25, file=output_stream)
-
-    print('⚪ ' + getName('cAndramAnam', script), file=output_stream)
-    if yname_lunar != yname_solar:
-      print('*' + getName('saMvatsaraH', script) + '*—%s' % yname_lunar, file=output_stream)
-      print('*' + getName('ayanam', script) + '*—%s' % ayanam, file=output_stream)
-    if rtu_lunar != rtu_solar:
-      print('*' + getName('RtuH', script) + '*—%s' % rtu_lunar, file=output_stream)
-    print(
-      '*' + getName('mAsaH', script) + '*—%s' % jyotisha.names.get_chandra_masa(daily_panchaanga.lunar_month_sunrise.index,
-                                                                                jyotisha.names.NAMES,
-                                                                                script),
-      file=output_stream)
-    print('°' * 25, file=output_stream)
-    # braahma
-    # praatahsandhya, praatahsandhya_end
-    # saangava
-    # madhyahnika_sandhya, madhyahnika_sandhya_end
-    # madhyaahna
-    # aparaahna
-    # sayahna
-    # sayamsandhya, sayamsandhya_end
-    # dinaanta
-    print('%s' % (paksha_data_str), file=output_stream)
-    print('%s' % (tithi_data_str), file=output_stream)
-    print('*%s*—%s' % (getName('vAsaraH', script), vara), file=output_stream)
-    print('%s (%s)' % (nakshatra_data_str, rashi_data_str), file=output_stream)
-    print('%s' % (yoga_data_str), file=output_stream)
-    print('%s' % (karana_data_str), file=output_stream)
-    print('%s' % (chandrashtama_rashi_data_str), file=output_stream)
-
-    if daily_panchaanga.jd_moonrise > daily_panchaangas[d + 1].jd_sunrise:
-      moonrise = '---'
-    if daily_panchaanga.jd_moonset > daily_panchaangas[d + 1].jd_sunrise:
-      moonset = '---'
-
-    print('**%s (%s)**' % (
-    getName('LOC', script), jyotisha.custom_transliteration.tr(panchaanga.city.name, script)),
-          file=output_stream)
-
-    if compute_lagnams:
-      print('%s' % (lagna_data_str), file=output_stream)
-
-    if daily_panchaanga.jd_moonrise < daily_panchaanga.jd_moonset:
-      print('*%s*—%s; *%s*—%s' % (
-      getName('sUryOdayaH', script), sunrise, getName('sUryAstamayaH', script), sunset),
-            file=output_stream)
-      print('*%s*—%s; *%s*—%s' % (
-      getName('candrOdayaH', script), moonrise, getName('candrAstamayaH', script), moonset),
-            file=output_stream)
-    else:
-      print('*%s*—%s; *%s*—%s' % (
-      getName('sUryOdayaH', script), sunrise, getName('sUryAstamayaH', script), sunset),
-            file=output_stream)
-      print('*%s*—%s; *%s*—%s' % (
-      getName('candrAstamayaH', script), moonset, getName('candrOdayaH', script), moonrise),
-            file=output_stream)
-
-    print('*%s*—%s►%s' % (getName('aparAhNa-kAlaH', script), aparaahna, sayahna), file=output_stream)
-    print('*%s*—%s' % (getName('dinAntaH', script), dinaanta), file=output_stream)
-    print('*%s*—%s;\n*%s*—%s;\n*%s*—%s' % (getName('rAhukAlaH', script), rahu,
-                                           getName('yamaghaNTaH', script), yama,
-                                           getName('gulikakAlaH', script), gulika), file=output_stream)
-
-    shulam_end_jd = daily_panchaanga.jd_sunrise + (daily_panchaanga.jd_sunset - daily_panchaanga.jd_sunrise) * (
-          SHULAM[daily_panchaanga.date.get_weekday()][1] / 30)
-    print('*%s*—%s (►%s); *%s*–%s' % (
-    getName('zUlam', script), getName(SHULAM[daily_panchaanga.date.get_weekday()][0], script),
-    Hour(24 * (shulam_end_jd - jd)).toString(),
-    getName('parihAraH', script), getName(SHULAM[daily_panchaanga.date.get_weekday()][2], script)),
-          file=output_stream)
-
-    output_text = output_stream.getvalue()
-
-    dt_start = daily_panchaanga.city.get_timezone_obj().julian_day_to_local_datetime(jd=daily_panchaanga.julian_day_start)
-    event.add('dtstart', dt_start)
-    event.add('dtend', (dt_start + timedelta(1)).date())
-    event.add_component(alarm)
-    event.add('description', output_text)
-    event['X-MICROSOFT-CDO-ALLDAYEVENT'] = 'TRUE'
-    event['TRANSP'] = 'TRANSPARENT'
-    event['X-MICROSOFT-CDO-BUSYSTATUS'] = 'FREE'
+    event = get_day_summary_event(d, panchaanga, script)
 
     ics_calendar.add_component(event)
 
-    output_stream = StringIO()
-
-    if m == 12 and dt == 31:
-      break
-
   return ics_calendar
+
+
+def get_day_summary_event(d, panchaanga, script):
+  daily_panchaanga = panchaanga.daily_panchaangas_sorted()[d]
+  event = Event()
+  lunar_month_str = names.get_chandra_masa(month=daily_panchaanga.lunar_month_sunrise.index, script=script)
+  event_name = '%s-%s🌛 %s♋ %s🌞' % (
+  lunar_month_str, str(daily_panchaanga.get_date(month_type=RulesRepo.LUNAR_MONTH_DIR)),
+  str(daily_panchaanga.solar_sidereal_date_sunset),
+  str(daily_panchaanga.tropical_date_sunset))
+  event.add('summary', event_name)
+  output_text = day_summary(d=d, panchaanga=panchaanga, script=script)
+  dt_start = daily_panchaanga.city.get_timezone_obj().julian_day_to_local_datetime(jd=daily_panchaanga.jd_sunrise)
+  event.add('dtstart', dt_start)
+  event.add('dtend', daily_panchaanga.city.get_timezone_obj().julian_day_to_local_datetime(jd=daily_panchaanga.jd_next_sunrise))
+  event.add_component(util.get_4_hr_display_alarm())
+  event.add('description', output_text)
+  event['X-MICROSOFT-CDO-ALLDAYEVENT'] = 'TRUE'
+  event['TRANSP'] = 'TRANSPARENT'
+  event['X-MICROSOFT-CDO-BUSYSTATUS'] = 'FREE'
+  return event
+
+
+def day_summary(d, panchaanga, script):
+  output_stream = StringIO()
+  SHULAM = [('pratIcI dik', 12, 'guDam'), ('prAcI dik', 8, 'dadhi'), ('udIcI dik', 12, 'kSIram'),
+            ('udIcI dik', 16, 'kSIram'), ('dakSiNA dik', 20, 'tailam'), ('pratIcI dik', 12, 'guDam'),
+            ('prAcI dik', 8, 'dadhi')]
+  daily_panchaanga = panchaanga.daily_panchaangas_sorted()[d]
+  jd = daily_panchaanga.julian_day_start
+  paksha, tithi_data_str = get_tithi_data_str(daily_panchaanga, script)
+  paksha_data_str = '*' + getName('pakSaH', script) + '*—' + paksha
+  nakshatra_data_str = get_nakshatra_data_str(daily_panchaanga, script)
+  chandrashtama_rashi_data_str, rashi_data_str = get_raashi_data_str(daily_panchaanga, script)
+  yoga_data_str = get_yoga_data_str(daily_panchaanga, script)
+  karana_data_str = get_karaNa_data_str(daily_panchaanga, script)
+  sunrise = Hour(24 * (daily_panchaanga.jd_sunrise - jd)).toString(
+  )
+  sunset = Hour(24 * (daily_panchaanga.jd_sunset - jd)).toString()
+  moonrise = Hour(24 * (daily_panchaanga.jd_moonrise - jd)).toString(
+  )
+  moonset = Hour(24 * (daily_panchaanga.jd_moonset - jd)).toString(
+  )
+  # braahma = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.braahma.jd_start - jd)).toString()
+  # praatahsandhya = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.praatas_sandhyaa.jd_start - jd)).toString()
+  # praatahsandhya_end = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.praatas_sandhyaa_end.jd_start - jd)).toString()
+  # saangava = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.saangava.jd_start - jd)).toString()
+  # madhyaahna = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.madhyaahna.jd_start - jd)).toString()
+  # madhyahnika_sandhya = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.maadhyaahnika_sandhyaa.jd_start - jd)).toString()
+  # madhyahnika_sandhya_end = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.maadhyaahnika_sandhyaa_end.jd_start - jd)).toString()
+  aparaahna = Hour(24 * (daily_panchaanga.day_length_based_periods.aparaahna.jd_start - jd)).toString(
+  )
+  sayahna = Hour(24 * (daily_panchaanga.day_length_based_periods.saayaahna.jd_start - jd)).toString(
+  )
+  # sayamsandhya = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.saayam_sandhyaa.jd_start - jd)).toString()
+  # sayamsandhya_end = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.saayam_sandhyaa_end.jd_start - jd)).toString()
+  # ratriyama1 = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.raatri_yaama_1.jd_start - jd)).toString()
+  # sayana_time = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.shayana.jd_start - jd)).toString()
+  dinaanta = Hour(24 * (daily_panchaanga.day_length_based_periods.dinaanta.jd_start - jd)).toString(
+  )
+  rahu = '%s–%s' % (
+    Hour(24 * (daily_panchaanga.day_length_based_periods.raahu.jd_start - jd)).toString(
+    ),
+    Hour(24 * (daily_panchaanga.day_length_based_periods.raahu.jd_end - jd)).toString(
+    ))
+  yama = '%s–%s' % (
+    Hour(24 * (daily_panchaanga.day_length_based_periods.yama.jd_start - jd)).toString(
+    ),
+    Hour(24 * (daily_panchaanga.day_length_based_periods.yama.jd_end - jd)).toString(
+    ))
+  gulika = '%s–%s' % (
+    Hour(24 * (daily_panchaanga.day_length_based_periods.gulika.jd_start - jd)).toString(
+    ),
+    Hour(24 * (daily_panchaanga.day_length_based_periods.gulika.jd_end - jd)).toString(
+    ))
+  # Assign samvatsara, ayana, rtu #
+  ayanam = jyotisha.names.NAMES['AYANA_NAMES'][script][daily_panchaanga.solar_sidereal_date_sunset.month]
+  rtu_solar = jyotisha.names.NAMES['RTU_NAMES'][script][daily_panchaanga.solar_sidereal_date_sunset.month]
+  rtu_lunar = jyotisha.names.NAMES['RTU_NAMES'][script][int(ceil(daily_panchaanga.lunar_month_sunrise.index))]
+
+  month_end_str = ''
+  if daily_panchaanga.solar_sidereal_date_sunset.month_transition is None:
+    month_end_str = ''
+  # TODO: Fix and enable below.
+  # else:
+  #   _m = daily_panchaangas[d - 1].solar_sidereal_date_sunset.month
+  #   if daily_panchaanga.solar_sidereal_date_sunset.month_transition >= daily_panchaanga.jd_next_sunrise:
+  #     month_end_str = '%s►%s' % (jyotisha.names.NAMES['RASHI_NAMES'][script][_m],
+  #                                Hour(24 * (
+  #                                    daily_panchaanga.solar_sidereal_date_sunset.month_transition - daily_panchaanga.julian_day_start + 1)).toString(
+  #                                ))
+  #   else:
+  #     month_end_str = '%s►%s' % (jyotisha.names.NAMES['RASHI_NAMES'][script][_m],
+  #                                Hour(
+  #                                  24 * (
+  #                                        daily_panchaanga.solar_sidereal_date_sunset.month_transition - daily_panchaanga.julian_day_start)).toString(
+  #                                ))
+  if month_end_str == '':
+    month_data = '%s (%s %d)' % (
+    jyotisha.names.NAMES['RASHI_NAMES'][script][daily_panchaanga.solar_sidereal_date_sunset.month],
+    getName('dinaM', script), daily_panchaanga.solar_sidereal_date_sunset.day)
+  else:
+    month_data = '%s (%s %d); %s' % (
+      jyotisha.names.NAMES['RASHI_NAMES'][script][daily_panchaanga.solar_sidereal_date_sunset.month],
+      getName('dinaM', script), daily_panchaanga.solar_sidereal_date_sunset.day, month_end_str)
+  vara = jyotisha.names.NAMES['VARA_NAMES'][script][daily_panchaanga.date.get_weekday()]
+  # TODO: renable below and related code further down (look for yname_lunar)
+  # if yname_lunar == yname_solar:
+  #   print('*' + getName('saMvatsaraH', script) + '*—%s' % yname_lunar, file=output_stream)
+  #   print('*' + getName('ayanam', script) + '*—%s' % ayanam, file=output_stream)
+  if rtu_lunar == rtu_solar:
+    print('*' + getName('RtuH', script) + '*—%s' % rtu_lunar, file=output_stream)
+  print('°' * 25, file=output_stream)
+  print('☀ ' + getName('sauramAnam', script), file=output_stream)
+  # if yname_lunar != yname_solar:
+  #   print('*' + getName('saMvatsaraH', script) + '*—%s' % yname_solar, file=output_stream)
+  #   print('*' + getName('ayanam', script) + '*—%s' % ayanam, file=output_stream)
+  if rtu_lunar != rtu_solar:
+    print('*' + getName('RtuH', script) + '*—%s' % rtu_solar, file=output_stream)
+  print('*' + getName('mAsaH', script) + '*—%s' % month_data, file=output_stream)
+  print('°' * 25, file=output_stream)
+  print('⚪ ' + getName('cAndramAnam', script), file=output_stream)
+  # if yname_lunar != yname_solar:
+  #   print('*' + getName('saMvatsaraH', script) + '*—%s' % yname_lunar, file=output_stream)
+  #   print('*' + getName('ayanam', script) + '*—%s' % ayanam, file=output_stream)
+  if rtu_lunar != rtu_solar:
+    print('*' + getName('RtuH', script) + '*—%s' % rtu_lunar, file=output_stream)
+  print(
+    '*' + getName('mAsaH', script) + '*—%s' % jyotisha.names.get_chandra_masa(
+      daily_panchaanga.lunar_month_sunrise.index,
+      script),
+    file=output_stream)
+  print('°' * 25, file=output_stream)
+  # braahma
+  # praatahsandhya, praatahsandhya_end
+  # saangava
+  # madhyahnika_sandhya, madhyahnika_sandhya_end
+  # madhyaahna
+  # aparaahna
+  # sayahna
+  # sayamsandhya, sayamsandhya_end
+  # dinaanta
+  print('%s' % (paksha_data_str), file=output_stream)
+  print('%s' % (tithi_data_str), file=output_stream)
+  print('*%s*—%s' % (getName('vAsaraH', script), vara), file=output_stream)
+  print('%s (%s)' % (nakshatra_data_str, rashi_data_str), file=output_stream)
+  print('%s' % (yoga_data_str), file=output_stream)
+  print('%s' % (karana_data_str), file=output_stream)
+  print('%s' % (chandrashtama_rashi_data_str), file=output_stream)
+  if daily_panchaanga.jd_moonrise > daily_panchaanga.jd_next_sunrise:
+    moonrise = '---'
+  if daily_panchaanga.jd_moonset > daily_panchaanga.jd_next_sunrise:
+    moonset = '---'
+  print('**%s (%s)**' % (
+    getName('LOC', script), jyotisha.custom_transliteration.tr(panchaanga.city.name, script)),
+        file=output_stream)
+  if panchaanga.computation_system.options.set_lagnas:
+    lagna_data_str = get_lagna_data_str(daily_panchaanga, script)
+    print('%s' % (lagna_data_str), file=output_stream)
+  if daily_panchaanga.jd_moonrise < daily_panchaanga.jd_moonset:
+    print('*%s*—%s; *%s*—%s' % (
+      getName('sUryOdayaH', script), sunrise, getName('sUryAstamayaH', script), sunset),
+          file=output_stream)
+    print('*%s*—%s; *%s*—%s' % (
+      getName('candrOdayaH', script), moonrise, getName('candrAstamayaH', script), moonset),
+          file=output_stream)
+  else:
+    print('*%s*—%s; *%s*—%s' % (
+      getName('sUryOdayaH', script), sunrise, getName('sUryAstamayaH', script), sunset),
+          file=output_stream)
+    print('*%s*—%s; *%s*—%s' % (
+      getName('candrAstamayaH', script), moonset, getName('candrOdayaH', script), moonrise),
+          file=output_stream)
+  print('*%s*—%s►%s' % (getName('aparAhNa-kAlaH', script), aparaahna, sayahna), file=output_stream)
+  print('*%s*—%s' % (getName('dinAntaH', script), dinaanta), file=output_stream)
+  print('*%s*—%s;\n*%s*—%s;\n*%s*—%s' % (getName('rAhukAlaH', script), rahu,
+                                         getName('yamaghaNTaH', script), yama,
+                                         getName('gulikakAlaH', script), gulika), file=output_stream)
+  shulam_end_jd = daily_panchaanga.jd_sunrise + (daily_panchaanga.jd_sunset - daily_panchaanga.jd_sunrise) * (
+      SHULAM[daily_panchaanga.date.get_weekday()][1] / 30)
+  print('*%s*—%s (►%s); *%s*–%s' % (
+    getName('zUlam', script), getName(SHULAM[daily_panchaanga.date.get_weekday()][0], script),
+    Hour(24 * (shulam_end_jd - jd)).toString(),
+    getName('parihAraH', script), getName(SHULAM[daily_panchaanga.date.get_weekday()][2], script)),
+        file=output_stream)
+  output_text = output_stream.getvalue()
+  return output_text
 
 
 def get_raashi_data_str(daily_panchaanga, script):

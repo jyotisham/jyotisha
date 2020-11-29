@@ -14,6 +14,7 @@ import jyotisha.panchaanga.temporal
 import jyotisha.panchaanga.temporal.festival.rules
 from jyotisha.panchaanga.spatio_temporal import City
 from jyotisha.panchaanga.temporal.time import ist_timezone
+from jyotisha.panchaanga.writer.ics import day_details
 from jyotisha.panchaanga.writer.ics.festival_event import write_to_file, get_full_festival_instance, \
   festival_instance_to_event, set_interval, add_festival_events
 
@@ -37,6 +38,8 @@ def compute_calendar(panchaanga, scripts=None, set_sequence=True):
   for day_index, daily_panchaanga in enumerate(daily_panchaangas):
     if daily_panchaanga.date < panchaanga.start_date or daily_panchaanga.date > panchaanga.end_date:
       continue
+    event = day_details.get_day_summary_event(d=day_index, panchaanga=panchaanga, script=scripts[0])
+    ics_calendar.add_component(event)
     add_festival_events(day_index, ics_calendar, panchaanga, scripts)
 
     # if m == 12 and dt == 31:

@@ -276,8 +276,7 @@ def emit(panchaanga, time_format="hh:mm", scripts=None, output_stream=None):
 
     print('\\caldata{%s}{%s}{%s{%s}{%s}{%s}%s}' %
           (month[m], dt, month_data,
-           jyotisha.names.get_chandra_masa(daily_panchaanga.lunar_month_sunrise.index,
-                                           jyotisha.names.NAMES, scripts[0]),
+           jyotisha.names.get_chandra_masa(daily_panchaanga.lunar_month_sunrise.index, scripts[0]),
            jyotisha.names.NAMES['RTU_NAMES'][scripts[0]][int(ceil(daily_panchaanga.lunar_month_sunrise.index))],
            jyotisha.names.NAMES['VARA_NAMES'][scripts[0]][daily_panchaanga.date.get_weekday()], sar_data), file=output_stream)
 

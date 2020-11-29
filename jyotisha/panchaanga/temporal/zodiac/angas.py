@@ -84,7 +84,7 @@ class Anga(common.JsonObject):
   def get_name(self, script="hk"):
     name_dict = NAME_TO_TYPE[self.anga_type_id].names_dict
     if self.anga_type_id == AngaType.SIDEREAL_MONTH.name:
-      return names.get_chandra_masa(month=self.index, NAMES=names.NAMES, script=script)
+      return names.get_chandra_masa(month=self.index, script=script)
     elif name_dict is not None:
       return name_dict[script][self.index]
     else:

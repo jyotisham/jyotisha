@@ -7,6 +7,16 @@ from jyotisha.names.init_names_auto import init_names_auto
 SIDM_TRUE_PUSHYA = 29
 SIDM_TRUE_MULA = 35
 
+month_map = {1: 'January', 2: 'February', 3: 'March', 4: 'April',
+       5: 'May', 6: 'June', 7: 'July', 8: 'August', 9: 'September',
+       10: 'October', 11: 'November', 12: 'December'}
+weekday_short_map = {0: 'Sun', 1: 'Mon', 2: 'Tue',
+        3: 'Wed', 4: 'Thu', 5: 'Fri', 6: 'Sat'}
+weekday_map = {0: 'Sunday', 1: 'Monday', 2: 'Tuesday', 3: 'Wednesday', 4: 'Thursday', 5: 'Friday', 6: 'Saturday'}
+SHULAM = [('pratIcI dik', 12, 'guDam'), ('prAcI dik', 8, 'dadhi'), ('udIcI dik', 12, 'kSIram'),
+          ('udIcI dik', 16, 'kSIram'), ('dakSiNA dik', 20, 'tailam'), ('pratIcI dik', 12, 'guDam'),
+          ('prAcI dik', 8, 'dadhi')]
+
 
 def get_ayanaamsha_name(ayanaamsha_id):
   if ayanaamsha_id == SIDM_TRUE_MULA:
@@ -33,10 +43,10 @@ def get_ekaadashii_name(paksha, lmonth):
       return '%s-EkAdazI' % NAMES['KRISHNA_EKADASHI_NAMES']['hk'][13]
 
 
-def get_chandra_masa(month, NAMES, script, visarga=True):
+def get_chandra_masa(month, script, visarga=True):
   if visarga:
     if month == int(month):
-      return NAMES['CHANDRA_MASA_NAMES'][script][month]
+      return NAMES['CHANDRA_MASA_NAMES'][script][int(month)]
     else:
       return '%s-(%s)' % (NAMES['CHANDRA_MASA_NAMES'][script][int(month) + 1], tr('adhikaH', script, titled=False))
   else:

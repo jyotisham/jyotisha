@@ -14,6 +14,7 @@ from indic_transliteration import xsanscript as sanscript
 import jyotisha
 import jyotisha.custom_transliteration
 import jyotisha.names
+from jyotisha import names
 from jyotisha.panchaanga import temporal
 from jyotisha.panchaanga.spatio_temporal import City, annual
 from jyotisha.panchaanga.temporal import time
@@ -96,13 +97,7 @@ def writeDailyText(panchaanga, time_format="hh:mm", script=sanscript.DEVANAGARI,
   rules_collection = rules.RulesCollection.get_cached(
     repos_tuple=tuple(panchaanga.computation_system.options.fest_repos))
   fest_details_dict = rules_collection.name_to_rule
-  month = {1: 'January', 2: 'February', 3: 'March', 4: 'April',
-           5: 'May', 6: 'June', 7: 'July', 8: 'August', 9: 'September',
-           10: 'October', 11: 'November', 12: 'December'}
-  WDAY = {0: 'Sunday', 1: 'Monday', 2: 'Tuesday', 3: 'Wednesday', 4: 'Thursday', 5: 'Friday', 6: 'Saturday'}
-  SHULAM = [('pratIcI dik', 12, 'guDam'), ('prAcI dik', 8, 'dadhi'), ('udIcI dik', 12, 'kSIram'),
-            ('udIcI dik', 16, 'kSIram'), ('dakSiNA dik', 20, 'tailam'), ('pratIcI dik', 12, 'guDam'),
-            ('prAcI dik', 8, 'dadhi')]
+
 
   samvatsara_id = (panchaanga.year - 1568) % 60 + 1  # distance from prabhava
   samvatsara_names = (jyotisha.names.NAMES['SAMVATSARA_NAMES'][script][samvatsara_id],
@@ -120,7 +115,7 @@ def writeDailyText(panchaanga, time_format="hh:mm", script=sanscript.DEVANAGARI,
     daily_panchaanga = daily_panchaangas[d]
     [y, m, dt, t] = time.jd_to_utc_gregorian(panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
 
-    print('## %02d-%s-%4d' % (dt, month[m], y), file=output_stream)
+    print('## %02d-%s-%4d' % (dt, names.month_map[m], y), file=output_stream)
 
     jd = daily_panchaanga.julian_day_start
 
@@ -332,9 +327,7 @@ def writeDailyText(panchaanga, time_format="hh:mm", script=sanscript.DEVANAGARI,
       print(getName('ayanam', script) + '—%s' % ayanam, file=output_stream)
     if rtu_lunar != rtu_solar:
       print(getName('RtuH', script) + '—%s' % rtu_lunar, file=output_stream)
-    print(getName('mAsaH', script) + '—%s' % jyotisha.names.get_chandra_masa(daily_panchaanga.lunar_month_sunrise,
-                                                                             jyotisha.names.NAMES,
-                                                                             script),
+    print(getName('mAsaH', script) + '—%s' % jyotisha.names.get_chandra_masa(daily_panchaanga.lunar_month_sunrise, script),
           file=output_stream)
     print('°' * 25, file=output_stream)
     # braahma
@@ -388,11 +381,11 @@ def writeDailyText(panchaanga, time_format="hh:mm", script=sanscript.DEVANAGARI,
                                    getName('gulikakAlaH', script), gulika), file=output_stream)
 
     shulam_end_jd = daily_panchaanga.jd_sunrise + (daily_panchaanga.jd_sunset - daily_panchaanga.jd_sunrise) * (
-          SHULAM[daily_panchaanga.date.get_weekday()][1] / 30)
+          names.SHULAM[daily_panchaanga.date.get_weekday()][1] / 30)
     print('%s—%s (►%s); %s–%s' % (
-    getName('zUlam', script), getName(SHULAM[daily_panchaanga.date.get_weekday()][0], script),
+    getName('zUlam', script), getName(names.SHULAM[daily_panchaanga.date.get_weekday()][0], script),
     Hour(24 * (shulam_end_jd - jd)).toString(format=time_format),
-    getName('parihAraH', script), getName(SHULAM[daily_panchaanga.date.get_weekday()][2], script)),
+    getName('parihAraH', script), getName(names.SHULAM[daily_panchaanga.date.get_weekday()][2], script)),
           file=output_stream)
     # Using set as an ugly workaround since we may have sometimes assigned the same
     # festival to the same day again!

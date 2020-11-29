@@ -7,6 +7,8 @@ import sys
 from datetime import datetime
 
 from indic_transliteration import xsanscript as sanscript
+
+from jyotisha import names
 from jyotisha.panchaanga.temporal.time import Timezone, Hour
 from pytz import timezone as tz
 
@@ -32,14 +34,7 @@ def write_monthly_tex(panchaanga, template_file, scripts=None, temporal=None):
     scripts = [sanscript.DEVANAGARI]
   day_colours = {0: 'blue', 1: 'blue', 2: 'blue',
                  3: 'blue', 4: 'blue', 5: 'blue', 6: 'blue'}
-  month = {1: 'JANUARY', 2: 'FEBRUARY', 3: 'MARCH', 4: 'APRIL',
-           5: 'MAY', 6: 'JUNE', 7: 'JULY', 8: 'AUGUST', 9: 'SEPTEMBER',
-           10: 'OCTOBER', 11: 'NOVEMBER', 12: 'DECEMBER'}
-  MON = {1: 'January', 2: 'February', 3: 'March', 4: 'April',
-         5: 'May', 6: 'June', 7: 'July', 8: 'August', 9: 'September',
-         10: 'October', 11: 'November', 12: 'December'}
-  WDAY = {0: 'Sun', 1: 'Mon', 2: 'Tue',
-          3: 'Wed', 4: 'Thu', 5: 'Fri', 6: 'Sat'}
+
 
   monthly_template_file = open(os.path.join(os.path.dirname(__file__), 'templates/monthly_cal_template.tex'))
 
@@ -89,7 +84,7 @@ def write_monthly_tex(panchaanga, template_file, scripts=None, temporal=None):
         print('\\\\')
 
       print('%s & %s & %s & {\\raggedright %s} \\\\' %
-            (MON[m], dt, WDAY[daily_panchaanga.date.get_weekday()],
+            (names.month_map[m], dt, names.weekday_short_map[daily_panchaanga.date.get_weekday()],
              '\\\\'.join([f.tex_code(scripts=scripts, timezone=panchaanga.city.timezone, fest_details_dict=fest_details_dict)
                           for f in sorted(daily_panchaanga.festival_id_to_instance.values())])))
 
@@ -135,7 +130,7 @@ def write_monthly_tex(panchaanga, template_file, scripts=None, temporal=None):
       # Begin tabular
       print('\\begin{tabular}{|c|c|c|c|c|c|c|}')
       print('\\multicolumn{7}{c}{\\Large \\bfseries \\sffamily %s %s}\\\\[3mm]' % (
-        month[m], y))
+        names.month_map[m], y))
       print('\\hline')
       WDAY_NAMES = ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT']
       print(' & '.join(['\\textbf{\\textsf{%s}}' %
@@ -255,8 +250,7 @@ def write_monthly_tex(panchaanga, template_file, scripts=None, temporal=None):
     if currWeek < 6:
       month_text += '\n' + ('\\caldata{\\textcolor{%s}{%s}}{%s{%s}}%%' %
                             (day_colours[daily_panchaanga.date.get_weekday()], dt, month_data,
-                             jyotisha.names.get_chandra_masa(daily_panchaanga.lunar_month_sunrise,
-                                                             jyotisha.names.NAMES, scripts[0])))
+                             jyotisha.names.get_chandra_masa(daily_panchaanga.lunar_month_sunrise, scripts[0])))
       month_text += '\n' + ('{\\sundata{%s}{%s}{%s}}%%' % (sunrise, sunset, saangava))
       month_text += '\n' + ('{\\tnyk{%s}%%\n{%s}%%\n{%s}%%\n{%s}}%%' % (tithi_data_str, nakshatra_data_str,
                                                                         yoga_data_str, karana_data_str))
@@ -271,8 +265,7 @@ def write_monthly_tex(panchaanga, template_file, scripts=None, temporal=None):
       if daily_panchaanga.date.get_weekday() == 0:
         W6D1 = '\n' + ('\\caldata{\\textcolor{%s}{%s}}{%s{%s}}%%' %
                        (day_colours[daily_panchaanga.date.get_weekday()], dt, month_data,
-                        jyotisha.names.get_chandra_masa(daily_panchaanga.lunar_month_sunrise,
-                                                        jyotisha.names.NAMES, scripts[0])))
+                        jyotisha.names.get_chandra_masa(daily_panchaanga.lunar_month_sunrise,scripts[0])))
         W6D1 += '\n' + ('{\\sundata{%s}{%s}{%s}}%%' % (sunrise, sunset, saangava))
         W6D1 += '\n' + ('{\\tnyk{%s}%%\n{%s}%%\n{%s}%%\n{%s}}%%' % (tithi_data_str, nakshatra_data_str,
                                                                     yoga_data_str, karana_data_str))
@@ -285,8 +278,7 @@ def write_monthly_tex(panchaanga, template_file, scripts=None, temporal=None):
       elif daily_panchaanga.date.get_weekday() == 1:
         W6D2 = '\n' + ('\\caldata{\\textcolor{%s}{%s}}{%s{%s}}%%' %
                        (day_colours[daily_panchaanga.date.get_weekday()], dt, month_data,
-                        jyotisha.names.get_chandra_masa(daily_panchaanga.lunar_month_sunrise,
-                                                        jyotisha.names.NAMES, scripts[0])))
+                        jyotisha.names.get_chandra_masa(daily_panchaanga.lunar_month_sunrise,scripts[0])))
         W6D2 += '\n' + ('{\\sundata{%s}{%s}{%s}}%%' % (sunrise, sunset, saangava))
         W6D2 += '\n' + ('{\\tnyk{%s}%%\n{%s}%%\n{%s}%%\n{%s}}%%' % (tithi_data_str, nakshatra_data_str,
                                                                     yoga_data_str, karana_data_str))

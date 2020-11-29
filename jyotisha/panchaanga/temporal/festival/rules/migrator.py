@@ -31,7 +31,7 @@ def describe_fest(rule, include_images, include_shlokas, include_url, is_brief, 
       if rule.timing.month_number == 0:
         month = ' of every lunar month'
       else:
-        month = ' of ' + get_chandra_masa(rule.timing.month_number, NAMES, sanscript.IAST) + ' (lunar) month'
+        month = ' of ' + get_chandra_masa(rule.timing.month_number, sanscript.IAST) + ' (lunar) month'
     elif rule.timing.month_type == 'sidereal_solar_month':
       if rule.timing.month_number == 0:
         month = ' of every solar month'
