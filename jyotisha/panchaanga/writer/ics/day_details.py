@@ -81,9 +81,10 @@ def get_day_summary_event(d, panchaanga, script):
   event = Event()
   lunar_month_str = names.get_chandra_masa(month=daily_panchaanga.lunar_month_sunrise.index, script=script)
   solar_month_str = names.NAMES['RASHI_NAMES'][script][daily_panchaanga.solar_sidereal_date_sunset.month]
-  tropical_month_str = names.NAMES['RTU_MASA_NAMES'][script][daily_panchaanga.tropical_date_sunset.month]
-  event_name = '%s-%s🌛 %s-%s♋ %s-%s🌞' % (
-  lunar_month_str, str(daily_panchaanga.get_date(month_type=RulesRepo.LUNAR_MONTH_DIR)),
+  tropical_month_str = names.NAMES['RTU_MASA_NAMES_SHORT'][script][daily_panchaanga.tropical_date_sunset.month]
+  lunar_position = "%s-%s" % (jyotisha.names.NAMES['RASHI_NAMES'][script][daily_panchaanga.sunrise_day_angas.raashis_with_ends[0].anga.index], jyotisha.names.NAMES['NAKSHATRA_NAMES'][script][daily_panchaanga.sunrise_day_angas.nakshatras_with_ends[0].anga.index])
+  event_name = '%s-%s,%s🌛 %s-%s♋ %s-%s🌞' % (
+  lunar_month_str, str(daily_panchaanga.get_date(month_type=RulesRepo.LUNAR_MONTH_DIR)), lunar_position, 
   solar_month_str, str(daily_panchaanga.solar_sidereal_date_sunset), tropical_month_str,
   str(daily_panchaanga.tropical_date_sunset))
   event.add('summary', event_name)
@@ -192,32 +193,40 @@ def day_summary(d, panchaanga, script):
   # sayamsandhya, sayamsandhya_end
   # dinaanta
   print('%s' % (paksha_data_str), file=output_stream)
+  print('°' * 25, file=output_stream)
   print('%s' % (tithi_data_str), file=output_stream)
   vara = jyotisha.names.NAMES['VARA_NAMES'][script][daily_panchaanga.date.get_weekday()]
   print('*%s*—%s' % (translate_and_transliterate('vAsaraH', script), vara), file=output_stream)
   print('%s (%s)' % (nakshatra_data_str, rashi_data_str), file=output_stream)
+  print('°' * 25, file=output_stream)
   print('%s' % (yoga_data_str), file=output_stream)
   print('%s' % (karana_data_str), file=output_stream)
+
+  print('°' * 25, file=output_stream)
   print('%s' % (chandrashtama_rashi_data_str), file=output_stream)
 
+  print('°' * 25, file=output_stream)
   print('**%s (%s)**' % (
     translate_and_transliterate('kSEtram', script), jyotisha.custom_transliteration.tr(panchaanga.city.name, script)),
         file=output_stream)
+  add_sun_moon_rise_info(daily_panchaanga, output_stream, script)
 
   if panchaanga.computation_system.options.set_lagnas:
     lagna_data_str = get_lagna_data_str(daily_panchaanga, script)
     print('%s' % (lagna_data_str), file=output_stream)
 
-  add_sun_moon_rise_info(daily_panchaanga, output_stream, script)
 
-  print('*%s*—%s►%s' % (translate_and_transliterate('aparAhNa-kAlaH', script), aparaahna, sayahna), file=output_stream)
-
+  print('°' * 25, file=output_stream)
+  print('*%s*—%s►%s' % (translate_and_transliterate('aparAhNa-muhUrtaH', script), aparaahna, sayahna), file=output_stream)
   dinaanta = tz.julian_day_to_local_time(daily_panchaanga.day_length_based_periods.dinaanta.jd_start).get_hour_str()
   print('*%s*—%s' % (translate_and_transliterate('dinAntaH', script), dinaanta), file=output_stream)
+  print('°' * 25, file=output_stream)
 
   add_raahu_yama_gulika_info(daily_panchaanga, output_stream, script)
 
+  print('°' * 25, file=output_stream)
   add_shuula_info(daily_panchaanga, output_stream, script)
+  print('°' * 25, file=output_stream)
 
   output_text = output_stream.getvalue()
   return output_text
@@ -259,9 +268,10 @@ def add_sun_moon_rise_info(daily_panchaanga, output_stream, script):
 
   sunrise = tz.julian_day_to_local_time(daily_panchaanga.jd_sunrise).get_hour_str()
   sunset = tz.julian_day_to_local_time(daily_panchaanga.jd_sunset).get_hour_str()
+  midday = tz.julian_day_to_local_time(daily_panchaanga.day_length_based_periods.aparaahna.jd_start).get_hour_str()
   if daily_panchaanga.jd_moonrise < daily_panchaanga.jd_moonset:
-    print('*%s*—%s; *%s*—%s' % (
-      translate_and_transliterate('sUryOdayaH', script), sunrise, translate_and_transliterate('sUryAstamayaH', script),
+    print('🌞—%s-%s-%s' % (
+      sunrise, midday,
       sunset),
           file=output_stream)
     print('*%s*—%s; *%s*—%s' % (
@@ -284,7 +294,7 @@ def get_raashi_data_str(daily_panchaanga, script):
   chandrashtama_rashi_data_str = ''
   for raashi_span in daily_panchaanga.sunrise_day_angas.raashis_with_ends:
     (rashi_ID, rashi_end_jd) = (raashi_span.anga.index, raashi_span.jd_end)
-    rashi = jyotisha.names.NAMES['RASHI_SUFFIXED_NAMES'][script][rashi_ID]
+    rashi = jyotisha.names.NAMES['RASHI_NAMES'][script][rashi_ID]
     if rashi_end_jd is None:
       rashi_data_str = '%s' % (rashi)
       chandrashtama_rashi_data_str = '*' + translate_and_transliterate('candrASTama-rAziH', script) + '*—%s' % (

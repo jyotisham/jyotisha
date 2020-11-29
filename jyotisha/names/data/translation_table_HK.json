@@ -399,6 +399,22 @@
       "uttarAyaNam"
     ]
   },
+  "RTU_MASA_NAMES_SHORT": {
+    "hk": [
+      "madhuH",
+      "mAdhavaH",
+      "zukraH",
+      "zuciH",
+      "nabhaH",
+      "nabhasyaH",
+      "iSaH",
+      "UrjaH",
+      "sahaH",
+      "sahasyaH",
+      "tapaH",
+      "tapasyaH"
+    ]
+  },
   "RTU_MASA_NAMES": {
     "hk": [
       "madhu-mAsaH",
