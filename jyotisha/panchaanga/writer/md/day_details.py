@@ -275,12 +275,13 @@ def get_raashi_data_str(daily_panchaanga, script):
     rashi = jyotisha.names.NAMES['RASHI_NAMES'][script][rashi_ID]
     if rashi_end_jd is None:
       rashi_data_str = '%s' % (rashi)
-      chandrashtama_rashi_data_str = '- *' + translate_and_transliterate('candrASTama-rAziH', script) + '*—%s' % (
+      chandrashtama_rashi_data_str = '- **%s**—%s' % (translate_and_transliterate('candrASTama-rAziH', script), 
         jyotisha.names.NAMES['RASHI_NAMES'][script][((rashi_ID - 8) % 12) + 1])
     else:
       rashi_data_str = '%s►%s' % (
         rashi, Hour(24 * (rashi_end_jd - jd)).to_string())
-      chandrashtama_rashi_data_str = '- *' + translate_and_transliterate('candrASTama-rAziH', script) + '*—%s►%s; %s ➥' % (
+      chandrashtama_rashi_data_str = '- **%s**—%s►%s; %s ➥' % (
+        translate_and_transliterate('candrASTama-rAziH', script),
         jyotisha.names.NAMES['RASHI_NAMES'][script][((rashi_ID - 8) % 12) + 1],
         Hour(24 * (rashi_end_jd - jd)).to_string(),
         jyotisha.names.NAMES['RASHI_NAMES'][script][((rashi_ID - 7) % 12) + 1])
