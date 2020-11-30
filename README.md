@@ -7,7 +7,7 @@ JyotiSha tools and data
 ## Intro
 A package to do various panchaanga (traditional vedic astronomical / astrological) calculations, produce calendars. It is backed by the pretty big [adyatithi events database](https://github.com/sanskrit-coders/adyatithi).
 
-The code itself is capable of typical (amAnta, chitra-at-180 ayanAMsha, असङ्क्रान्तिमासोऽधिकः ) based calculation (which can be invoked via some shell scripts at [karthik's panchaanga repo](https://github.com/karthikraman/panchangam) ) as well as the ancient but now uncommon [tropical lunisolar system](https://vvasuki.github.io/jyotiSham/history/kauNDinyAyana/). 
+The code itself is capable of typical (amAnta, chitra-at-180 ayanAMsha, असङ्क्रान्तिमासोऽधिकः ) based calculation as well as the ancient but now uncommon [tropical lunisolar system](https://vvasuki.github.io/jyotiSham/history/kauNDinyAyana/). 
 
 For a survey of similar software, see [here](https://sanskrit-coders.github.io/astronomy/).
 
@@ -36,13 +36,19 @@ For detailed examples and help, please see individual module files - especially 
 - [Web](https://pypi.python.org/pypi/jyotisha).
 
 ### Usage
+#### Simple invocation
+- The simplest way to invoke the code and generate calendars in a variety of forms (icalendar/ ics, tex [which can then be converted to pdf], markdown [which can then be presented as html]) is to use python invocations of the type seen in:
+  - tests such as those in [jyotisha_tests/spatio_temporal/writer](jyotisha_tests/spatio_temporal/writer)
+  - Calendar generation projects such as those under [jyotisha/panchaanga/writer/generation_project](jyotisha/panchaanga/writer/generation_project)
+- Command line usage - can be invoked via some shell scripts at [karthik's panchaanga repo](https://github.com/karthikraman/panchangam). But these often go out of date - so you might need to debug them. See [this issue](https://github.com/sanskrit-coders/jyotisha/issues/10).
+
+#### API usage
 - Please see the generated python sphynx docs in one of the following places (jyotisha.panchanga.scripts package docs may be particularly relevant):
     - http://jyotisha.readthedocs.io [Broken as of 20170828.]
     - Rarely updated [project page](https://sanskrit-coders.github.io/jyotisha/build/html/jyotisha.html).
     - under docs/_build/html/index.html
 - REST API/ swagger web interface 
     - Deployments at [vedavaapi](http://api.vedavaapi.org/jyotisha) - obsolete and unmaintained as of 2020.
-- Command line usage - See [this issue](https://github.com/sanskrit-coders/jyotisha/issues/10).
 
 ## For contributors
 Contributions welcome! Please see some basic comments (pertaining to the time format used internally, API layers required) in the base jyotisha package though.
