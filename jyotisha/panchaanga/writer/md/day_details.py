@@ -192,7 +192,7 @@ def day_summary(d, panchaanga, script):
   print('- 🌛%s  ' % (chandrashtama_rashi_data_str), file=output_stream)
   print("___________________", file=output_stream)
   print('- 🌏**%s** (%s)  ' % (
-    translate_and_transliterate('kSEtram', script), jyotisha.custom_transliteration.tr(panchaanga.city.name, script)),
+    translate_and_transliterate('kSEtram', script), panchaanga.city.get_transliterated_name(script=script)),
         file=output_stream)
   add_sun_moon_rise_info(daily_panchaanga, output_stream, script)
 

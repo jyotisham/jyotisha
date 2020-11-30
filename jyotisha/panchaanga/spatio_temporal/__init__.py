@@ -7,6 +7,7 @@ import sys
 
 import swisseph as swe
 
+from jyotisha import custom_transliteration
 from jyotisha.custom_transliteration import sexastr2deci
 from jyotisha.panchaanga.temporal.zodiac import Ayanamsha
 from sanskrit_data.schema import common
@@ -48,7 +49,7 @@ class City(JsonObject):
   """This class enables the construction of a city object
     """
 
-  def __init__(self, name, latitude, longitude, timezone):
+  def __init__(self, name, latitude, longitude, timezone, name_hk=None):
     """Constructor for city"""
     super(City, self).__init__()
     if name is None or name == "":
@@ -61,6 +62,8 @@ class City(JsonObject):
     else:
       self.latitude = float(latitude)
       self.longitude = float(longitude)
+    if name_hk is not None and name_hk != "":
+      self.name_hk = name_hk
     self.timezone = timezone
 
   def get_timezone_obj(self):
@@ -88,8 +91,14 @@ class City(JsonObject):
   def get_city_from_db(cls, name):
     import pandas
     df = pandas.read_csv(os.path.join(os.path.dirname(__file__), "data", "places_lat_lon_tz_db.tsv"), sep="\t", index_col="Name")
-    city = City(name=name, latitude=df.at[name, "Lat"], longitude=df.at[name, "Long"], timezone=df.at[name, "Timezone"])
+    city = City(name=name, name_hk=df.at[name, "saMskRta-nAma"], latitude=df.at[name, "Lat"], longitude=df.at[name, "Long"], timezone=df.at[name, "Timezone"])
     return city
+
+  def get_transliterated_name(self, script):
+    if self.name_hk is not None:
+      return custom_transliteration.tr(self.name_hk, script)
+    else:
+      return self.name
 
   def __repr__(self):
     return self.name
