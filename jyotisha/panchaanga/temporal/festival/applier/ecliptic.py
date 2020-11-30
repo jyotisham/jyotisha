@@ -20,7 +20,7 @@ class EclipticFestivalAssigner(FestivalAssigner):
 
   def assign_tropical_fests(self):
     pass
-    # TODO: Move logic for below fests to JSON.
+    # TODO: Move logic for below fests to TOML.
       # fest = FestivalInstance(name=names.NAMES['RTU_MASA_NAMES']["hk"][transit.value_2], interval=Interval(jd_start=transit.jd, jd_end=None))
       #     self.date_str_to_panchaanga[fday_nirayana].add('dakSiNAyana-puNyakAlaH')
       #   else:
@@ -28,6 +28,8 @@ class EclipticFestivalAssigner(FestivalAssigner):
       #     self.date_str_to_panchaanga[fday_nirayana + 1].add('uttarAyaNa-puNyakAlaH/mitrOtsavaH')
 
   def compute_solar_eclipses(self):
+    if 'sUrya-grahaNam' not in self.rules_collection.name_to_rule:
+      return 
     jd = self.panchaanga.jd_start
     while 1:
       next_eclipse_sol = self.panchaanga.city.get_solar_eclipse_time(jd_start=jd)
@@ -54,7 +56,9 @@ class EclipticFestivalAssigner(FestivalAssigner):
       jd = jd + MIN_DAYS_NEXT_ECLIPSE
 
   def compute_lunar_eclipses(self):
-    # Set location
+    if '★cUDAmaNi-candra-grahaNam' not in self.rules_collection.name_to_rule:
+      return
+      # Set location
     jd = self.panchaanga.jd_start
     while 1:
       next_eclipse_lun = self.panchaanga.city.get_lunar_eclipse_time(jd)
@@ -104,6 +108,8 @@ class EclipticFestivalAssigner(FestivalAssigner):
       jd += MIN_DAYS_NEXT_ECLIPSE
 
   def set_jupiter_transits(self):
+    if 'guru-saGkrAntiH' not in self.rules_collection.name_to_rule:
+      return 
     jd_end = self.panchaanga.jd_start + self.panchaanga.duration
     check_window = 400  # Max t between two Jupiter transits is ~396 (checked across 180y)
     # Let's check for transitions in a relatively large window

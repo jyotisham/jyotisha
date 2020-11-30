@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20201130191109
+SEQUENCE:20201130193624
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -3033,7 +3033,11 @@ SUMMARY:कृष्णाङ्गारक-चतुर्दशी-प
  ुण्यकालः/यमतर्पणम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200421T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200422T000000
-DESCRIPTION:
+DESCRIPTION:कृष्ण चतुर्दशी तिथि on a Tue
+ sday is very sacred. Perform तर्पणम् to Yama Dharamaraja.<br
+ /><br/>https://github.com/sanskrit-coders/adyatithi/tree/master/time_focus
+ /misc_combinations/description_only/kRSNAGgAraka-caturdazI-puNyakAlaH%20or
+ %20yamatarpaNam__info.toml<br/><br/>#RareDays #Combinations
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -14476,7 +14480,11 @@ SUMMARY:कृष्णाङ्गारक-चतुर्दशी-प
  ुण्यकालः/यमतर्पणम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200818T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200819T000000
-DESCRIPTION:
+DESCRIPTION:कृष्ण चतुर्दशी तिथि on a Tue
+ sday is very sacred. Perform तर्पणम् to Yama Dharamaraja.<br
+ /><br/>https://github.com/sanskrit-coders/adyatithi/tree/master/time_focus
+ /misc_combinations/description_only/kRSNAGgAraka-caturdazI-puNyakAlaH%20or
+ %20yamatarpaNam__info.toml<br/><br/>#RareDays #Combinations
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -27707,7 +27715,11 @@ SUMMARY:कृष्णाङ्गारक-चतुर्दशी-प
  ुण्यकालः/यमतर्पणम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210112T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210113T000000
-DESCRIPTION:
+DESCRIPTION:कृष्ण चतुर्दशी तिथि on a Tue
+ sday is very sacred. Perform तर्पणम् to Yama Dharamaraja.<br
+ /><br/>https://github.com/sanskrit-coders/adyatithi/tree/master/time_focus
+ /misc_combinations/description_only/kRSNAGgAraka-caturdazI-puNyakAlaH%20or
+ %20yamatarpaNam__info.toml<br/><br/>#RareDays #Combinations
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE

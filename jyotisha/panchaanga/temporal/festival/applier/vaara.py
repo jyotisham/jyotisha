@@ -1,41 +1,50 @@
 import sys
 
-from jyotisha.panchaanga.temporal import time
 from jyotisha.panchaanga.temporal import zodiac
 from jyotisha.panchaanga.temporal.festival.applier import FestivalAssigner
 from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision, AngaType
-
 from sanskrit_data.schema import common
 
 
 class VaraFestivalAssigner(FestivalAssigner):
   def assign_all(self):
     self.assign_bhriguvara_subrahmanya_vratam()
-    self.assign_masa_vara_yoga_vratam()
+    self.assign_masa_vara_yoga_kRttikaa()
+    self.assign_masa_vara_yoga_fests_tn()
     self.assign_nakshatra_vara_yoga_vratam()
     self.assign_ayushman_bava_saumya_yoga()
-    self.assign_tithi_vara_yoga()
+    self.assign_tithi_vara_yoga_mangala_angaaraka()
+    self.assign_tithi_vara_yoga_kRSNAGgAraka()
+    self.assign_tithi_vara_yoga_budhaaShTamii()
 
 
   def assign_bhriguvara_subrahmanya_vratam(self):
+    festival_name = 'bhRguvAra-subrahmaNya-vratam'
+    if festival_name not in self.rules_collection.name_to_rule:
+      return 
     for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + 1):
-      [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
-
       # BHRGUVARA SUBRAHMANYA VRATAM
       if self.daily_panchaangas[d].solar_sidereal_date_sunset.month == 7 and self.daily_panchaangas[d].date.get_weekday() == 5:
-        festival_name = 'bhRguvAra-subrahmaNya-vratam'
         if festival_name not in self.panchaanga.festival_id_to_days:
           # only the first bhRguvAra of tulA mAsa is considered (skAnda purANam)
           # https://youtu.be/rgXwyo0L3i8?t=222
           self.festival_id_to_days[festival_name].add(self.daily_panchaangas[d].date)
 
-  def assign_masa_vara_yoga_vratam(self):
+  def assign_masa_vara_yoga_kRttikaa(self):
+    festival_name = 'kRttikA~sOmavAsaraH'
+    if festival_name not in self.rules_collection.name_to_rule:
+      return
     for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + 1):
 
       # KRTTIKA SOMAVASARA
       if self.daily_panchaangas[d].lunar_month_sunrise.index == 8 and self.daily_panchaangas[d].date.get_weekday() == 1:
         self.panchaanga.add_festival(fest_id='kRttikA~sOmavAsaraH', date=self.daily_panchaangas[d].date)
 
+  def assign_masa_vara_yoga_fests_tn(self):
+    festival_name = 'AvaNi~JAyir2r2ukkizhamai'
+    if festival_name not in self.rules_collection.name_to_rule:
+      return
+    for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + 1):
       # SOLAR MONTH-WEEKDAY FESTIVALS
       for (mwd_fest_m, mwd_fest_wd, mwd_fest_name) in ((5, 0, 'AvaNi~JAyir2r2ukkizhamai'),
                                                        (6, 6, 'puraTTAci~can2ikkizhamai'),
@@ -46,10 +55,10 @@ class VaraFestivalAssigner(FestivalAssigner):
         if self.daily_panchaangas[d].solar_sidereal_date_sunset.month == mwd_fest_m and self.daily_panchaangas[d].date.get_weekday() == mwd_fest_wd:
           self.panchaanga.add_festival(fest_id=mwd_fest_name, date=self.daily_panchaangas[d].date)
 
-  def assign_tithi_vara_yoga(self):
+  def assign_tithi_vara_yoga_mangala_angaaraka(self):
+    if 'aGgAraka-caturthI' not in self.rules_collection.name_to_rule:
+      return
     for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + 1):
-      [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
-
       # MANGALA-CHATURTHI
       if self.daily_panchaangas[d].date.get_weekday() == 2 and (self.daily_panchaangas[d].sunrise_day_angas.tithi_at_sunrise.index % 15) == 4:
         festival_name = 'aGgAraka-caturthI'
@@ -57,20 +66,28 @@ class VaraFestivalAssigner(FestivalAssigner):
           festival_name = 'sukhA' + '~' + festival_name
         self.festival_id_to_days[festival_name].add(self.daily_panchaangas[d].date)
 
+  def assign_tithi_vara_yoga_kRSNAGgAraka(self):
+    if 'kRSNAGgAraka-caturdazI-puNyakAlaH or yamatarpaNam' not in self.rules_collection.name_to_rule:
+      return
+    for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + 1):
       # KRISHNA ANGARAKA CHATURDASHI
       if self.daily_panchaangas[d].date.get_weekday() == 2 and self.daily_panchaangas[d].sunrise_day_angas.tithi_at_sunrise.index == 29:
         # Double-check rule. When should the vyApti be?
-        self.panchaanga.add_festival(fest_id='kRSNAGgAraka-caturdazI-puNyakAlaH/yamatarpaNam', date=self.daily_panchaangas[d].date)
+        self.panchaanga.add_festival(fest_id='kRSNAGgAraka-caturdazI-puNyakAlaH or yamatarpaNam', date=self.daily_panchaangas[d].date)
 
+  def assign_tithi_vara_yoga_budhaaShTamii(self):
+    if 'budhASTamI' not in self.rules_collection.name_to_rule:
+      return 
+    for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + 1):
       # BUDHASHTAMI
       if self.daily_panchaangas[d].date.get_weekday() == 3 and (self.daily_panchaangas[d].sunrise_day_angas.tithi_at_sunrise.index % 15) == 8:
         self.panchaanga.add_festival(fest_id='budhASTamI', date=self.daily_panchaangas[d].date)
 
 
   def assign_nakshatra_vara_yoga_vratam(self):
+    if 'Adityahasta-puNyakAlaH' not in self.rules_collection.name_to_rule:
+      return 
     for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + 1):
-      [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
-
       # NAKSHATRA-WEEKDAY FESTIVALS
       for (nwd_fest_n, nwd_fest_wd, nwd_fest_name) in ((13, 0, 'Adityahasta-puNyakAlaH'),
                                                        (8, 0, 'ravipuSyayOga-puNyakAlaH'),
@@ -94,6 +111,8 @@ class VaraFestivalAssigner(FestivalAssigner):
 
 
   def assign_ayushman_bava_saumya_yoga(self):
+    if 'AyuSmad-bava-saumya-saMyOgaH' not in self.rules_collection.name_to_rule:
+      return
     for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + 1):
 
       # AYUSHMAN BHAVA SAUMYA

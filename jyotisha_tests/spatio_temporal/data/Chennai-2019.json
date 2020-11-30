@@ -21604,9 +21604,9 @@
         }
       },
       "festival_id_to_instance": {
-        "kRSNAGgAraka-caturdazI-puNyakAlaH/yamatarpaNam": {
+        "kRSNAGgAraka-caturdazI-puNyakAlaH or yamatarpaNam": {
           "jsonClass": "FestivalInstance",
-          "name": "kRSNAGgAraka-caturdazI-puNyakAlaH/yamatarpaNam"
+          "name": "kRSNAGgAraka-caturdazI-puNyakAlaH or yamatarpaNam"
         },
         "mAci~cevvAy": {
           "jsonClass": "FestivalInstance",
@@ -133073,7 +133073,7 @@
         "year": 2019
       }
     ],
-    "kRSNAGgAraka-caturdazI-puNyakAlaH/yamatarpaNam": [
+    "kRSNAGgAraka-caturdazI-puNyakAlaH or yamatarpaNam": [
       {
         "day": 5,
         "jsonClass": "Date",

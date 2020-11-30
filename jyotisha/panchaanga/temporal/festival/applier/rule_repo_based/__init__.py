@@ -13,7 +13,7 @@ class RuleLookupAssigner(FestivalAssigner):
     # after other festival_id_to_instance with an exact timedelta!
     if 'yajurvEda-upAkarma' not in self.panchaanga.festival_id_to_days:
       logging.error('yajurvEda-upAkarma not in festival_id_to_instance!')
-    else:
+    elif 'varalakSmI-vratam' in self.rules_collection.name_to_rule:
       # Extended for longer calendars where more than one upAkarma may be there
       self.panchaanga.festival_id_to_days['varalakSmI-vratam'] = set()
       for d in self.panchaanga.festival_id_to_days['yajurvEda-upAkarma']:

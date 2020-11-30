@@ -102603,9 +102603,9 @@
           "jsonClass": "FestivalInstance",
           "name": "dIpOtsava-caturdazI or yama-tarpaNam"
         },
-        "kRSNAGgAraka-caturdazI-puNyakAlaH/yamatarpaNam": {
+        "kRSNAGgAraka-caturdazI-puNyakAlaH or yamatarpaNam": {
           "jsonClass": "FestivalInstance",
-          "name": "kRSNAGgAraka-caturdazI-puNyakAlaH/yamatarpaNam"
+          "name": "kRSNAGgAraka-caturdazI-puNyakAlaH or yamatarpaNam"
         },
         "naraka-caturdazI": {
           "jsonClass": "FestivalInstance",
@@ -133009,7 +133009,7 @@
         "year": 2018
       }
     ],
-    "kRSNAGgAraka-caturdazI-puNyakAlaH/yamatarpaNam": [
+    "kRSNAGgAraka-caturdazI-puNyakAlaH or yamatarpaNam": [
       {
         "day": 6,
         "jsonClass": "Date",

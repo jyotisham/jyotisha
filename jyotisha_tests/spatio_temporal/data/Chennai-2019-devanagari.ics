@@ -4700,7 +4700,11 @@ BEGIN:VEVENT
 SUMMARY:Kṛṣṇāṅgāraka-Chaturdaśī-Puṇyakālaḥ/Yamatarpaṇam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190304T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190305T235957
-DESCRIPTION:
+DESCRIPTION:kṛṣṇa chaturdaśī tithi on a Tuesday is very sacred. Pe
+ rform tarpaṇam to Yama Dharamaraja.<br/><br/>https://github.com/sanskrit
+ -coders/adyatithi/tree/master/time_focus/misc_combinations/description_onl
+ y/kRSNAGgAraka-caturdazI-puNyakAlaH%20or%20yamatarpaNam__info.toml<br/><br
+ />#RareDays #Combinations
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11514,10 +11518,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Āyuṣmad-Bava-Saumya-Saṃyogaḥ
+SUMMARY:Āyuṣmad-Bava-Saumya-Saṃyôgaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190528T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190529T235957
-DESCRIPTION:
+DESCRIPTION:A rare combination of āyuṣmān yoga\, bava karaṇa and sau
+ myavāsara.<br/>##### References<br/>- Maha Periva / Deivattin Kural<br/><
+ br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/master/time_foc
+ us/misc_combinations/description_only/AyuSmad-bava-saumya-saMyOgaH__info.t
+ oml<br/><br/>#RareDays #Combinations
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE

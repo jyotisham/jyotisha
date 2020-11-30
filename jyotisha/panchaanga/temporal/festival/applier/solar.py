@@ -15,12 +15,16 @@ class SolarFestivalAssigner(FestivalAssigner):
   def assign_all(self):
     # self.assign_gajachhaya_yoga(debug_festivals=debug)
     self.assign_mahodaya_ardhodaya()
-    self.assign_month_day_festivals()
+    self.assign_month_day_kaaradaiyan()
+    self.assign_month_day_kuchela()
+    self.assign_month_day_mesha_sankraanti()
     self.assign_vishesha_vyatipata()
     self.assign_agni_nakshatra()
 
 
   def assign_agni_nakshatra(self):
+    if 'agninakSatra-ArambhaH' not in self.rules_collection.name_to_rule:
+      return 
     agni_jd_start = agni_jd_end = None
     for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + 1):
       # AGNI nakshatra
@@ -43,9 +47,10 @@ class SolarFestivalAssigner(FestivalAssigner):
           if self.daily_panchaangas[d].jd_sunset < agni_jd_end < self.daily_panchaangas[d + 1].jd_sunset:
             self.panchaanga.add_festival(fest_id='agninakSatra-samApanam', date=self.daily_panchaangas[d].date + 1)
 
-  def assign_month_day_festivals(self):
+  def assign_month_day_kaaradaiyan(self):
+    if 'kAraDaiyAn2 nOn2bu' not in self.rules_collection.name_to_rule:
+      return
     for d, daily_panchaanga in enumerate(self.daily_panchaangas):
-      y = daily_panchaanga.date.year
       ####################
       # Festival details #
       ####################
@@ -60,14 +65,22 @@ class SolarFestivalAssigner(FestivalAssigner):
         else:
           self.panchaanga.festival_id_to_days[festival_name] = {daily_panchaanga.date}
 
+  def assign_month_day_kuchela(self):
+    if 'kucEla-dinam' not in self.rules_collection.name_to_rule:
+      return
+    for d, daily_panchaanga in enumerate(self.daily_panchaangas):
       # KUCHELA DINAM
       if daily_panchaanga.solar_sidereal_date_sunset.month == 9 and daily_panchaanga.solar_sidereal_date_sunset.day <= 7 and daily_panchaanga.date.get_weekday() == 3:
         self.panchaanga.festival_id_to_days['kucEla-dinam'] = {daily_panchaanga.date}
 
+  def assign_month_day_mesha_sankraanti(self):
+    if 'mESa-saGkrAntiH' not in self.rules_collection.name_to_rule:
+      return 
+    for d, daily_panchaanga in enumerate(self.daily_panchaangas):
       # MESHA SANKRANTI
       if daily_panchaanga.solar_sidereal_date_sunset.month == 1 and self.daily_panchaangas[d - 1].solar_sidereal_date_sunset.month == 12:
         # distance from prabhava
-        samvatsara_id = (y - 1568) % 60 + 1
+        samvatsara_id = (daily_panchaanga.date.year - 1568) % 60 + 1
         new_yr = 'mESa-saGkrAntiH' + '~(' + names.NAMES['SAMVATSARA_NAMES']['hk'][
           (samvatsara_id % 60) + 1] + \
                  '-' + 'saMvatsaraH' + ')'
