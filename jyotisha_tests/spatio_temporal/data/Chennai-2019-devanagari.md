@@ -196,7 +196,7 @@ Monthly Shivaratri day.
 
 #### तॊण्डरडिप्पॊडियाऴ्वार् तिरुनक्षत्तिरम्
 
-Observed on Jyeṣṭhā nakṣhatram day of Dhanuḥ (solar) month (praatah/paraviddha).  
+Observed on Jyeṣṭhā nakshatra of Dhanuḥ (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -325,7 +325,7 @@ ___________________
 ### उत्सवाः
 #### चाक्किय नायऩार् (३३) गुरुपूजै
 
-Observed on Pūrvāṣāḍhā nakṣhatram day of Dhanuḥ (solar) month (praatah/paraviddha).  
+Observed on Pūrvāṣāḍhā nakshatra of Dhanuḥ (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -405,7 +405,7 @@ ___________________
 ### उत्सवाः
 #### श्रवण-व्रतम्
 
-Observed on Śravaṇaḥ nakṣhatram day of every solar month (saangava/puurvaviddha (default)).  
+Observed on Śravaṇaḥ nakshatra of every solar month (saangava/puurvaviddha (default)).  
 
 
 ##### Details
@@ -469,7 +469,7 @@ ___________________
 ### उत्सवाः
 #### महाधनुर्व्यतीपात-स्नानम्
 
-Observed on  of Dhanuḥ (solar) month (preceeding_arunodaya/puurvaviddha).  
+Observed on Vyatīpātaḥ yoga of Dhanuḥ (solar) month (preceeding_arunodaya/puurvaviddha).  
 Special स्नानम् on account of महाधनुर्व्यतीपातम्.
 
 ##### Details
@@ -645,7 +645,7 @@ ___________________
 
 #### वायिलार् नायऩार् (४९) गुरुपूजै
 
-Observed on Revatī nakṣhatram day of Dhanuḥ (solar) month (praatah/paraviddha).  
+Observed on Revatī nakshatra of Dhanuḥ (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -758,7 +758,7 @@ ___________________
 
 #### कृत्तिका-व्रतम्
 
-Observed on Kṛttikā nakṣhatram day of every solar month (sunset/puurvaviddha (default)).  
+Observed on Kṛttikā nakshatra of every solar month (sunset/puurvaviddha (default)).  
 कृत्तिका-व्रतम् for Lord Subrahmanya. Observe fast for the entire day, and obtain blessings of all the कृत्तिका-स्त्रियः who raised स्कन्द after His birth.
 
 ##### Details
@@ -851,7 +851,7 @@ The Shukla-paksha Ekadashi of पौष month is known as पुत्रदा-
 
 #### तै किरुत्तिकै
 
-Observed on Kṛttikā nakṣhatram day of Makaraḥ (solar) month (sunrise/puurvaviddha).  
+Observed on Kṛttikā nakshatra of Makaraḥ (solar) month (sunrise/puurvaviddha).  
 
 
 ##### Details
@@ -956,7 +956,7 @@ ___________________
 ### उत्सवाः
 #### अरिवाट्टाय नायऩार् (१२) गुरुपूजै
 
-Observed on Ārdrā nakṣhatram day of Makaraḥ (solar) month (praatah/paraviddha).  
+Observed on Ārdrā nakshatra of Makaraḥ (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -966,7 +966,7 @@ Observed on Ārdrā nakṣhatram day of Makaraḥ (solar) month (praatah/paravid
 
 #### कण्णप्प नायऩार् (९) गुरुपूजै
 
-Observed on Mṛgaśīrṣam nakṣhatram day of Makaraḥ (solar) month (praatah/paraviddha).  
+Observed on Mṛgaśīrṣam nakshatra of Makaraḥ (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -1041,7 +1041,7 @@ Son of Śivayya of Śrīśaila, known as Manganna, held that position by his dir
 
 #### तैप्पूचम्
 
-Observed on Puṣyaḥ nakṣhatram day of Makaraḥ (solar) month (raatrimaana/puurvaviddha).  
+Observed on Puṣyaḥ nakshatra of Makaraḥ (solar) month (raatrimaana/puurvaviddha).  
 
 
 ##### Details
@@ -1061,7 +1061,7 @@ Lord Malayappa rides on Garuda Vahanam in all four mada streets. This usually ha
 
 #### वैधृति-श्राद्धम्
 
-Observed on  of every solar month (aparaahna/vyaapti).  
+Observed on Vaidhṛtiḥ yoga of every solar month (aparaahna/vyaapti).  
 Vaidhrti Shraddha day.
 
 ##### Details
@@ -1253,7 +1253,7 @@ ___________________
 ### उत्सवाः
 #### तिरुमऴिचैयाऴ्वार् तिरुनक्षत्तिरम्
 
-Observed on Maghā nakṣhatram day of Makaraḥ (solar) month (praatah/paraviddha).  
+Observed on Maghā nakshatra of Makaraḥ (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -1343,7 +1343,7 @@ Observed on Kṛṣṇa-Pañcamī tithi of Pauṣaḥ (lunar) month (sunrise (de
 
 #### चण्डेश्वर नायऩार् (१९) गुरुपूजै
 
-Observed on Uttaraphalgunī nakṣhatram day of Makaraḥ (solar) month (praatah/paraviddha).  
+Observed on Uttaraphalgunī nakshatra of Makaraḥ (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -1405,7 +1405,7 @@ ___________________
 ### उत्सवाः
 #### श्री-शेषाद्रि-स्वामी-जयन्ती
 
-Observed on Hastaḥ nakṣhatram day of Makaraḥ (solar) month (praatah/paraviddha).  
+Observed on Hastaḥ nakshatra of Makaraḥ (solar) month (praatah/paraviddha).  
 
 
 करुणासागरं शान्तम् अरुणाचलवासिनम्।
@@ -1570,7 +1570,7 @@ Shannavati Shraddham Day.
 
 #### तिरुनीलकण्ठ नायऩार् (१) गुरुपूजै
 
-Observed on Viśākhā nakṣhatram day of Makaraḥ (solar) month (praatah/paraviddha).  
+Observed on Viśākhā nakshatra of Makaraḥ (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -1864,7 +1864,7 @@ Observed on Amāvāsyā tithi of Makaraḥ (solar) month (sunrise (default)/puur
 
 #### व्यतीपात-श्राद्धम्
 
-Observed on  of every solar month (aparaahna/vyaapti).  
+Observed on Vyatīpātaḥ yoga of every solar month (aparaahna/vyaapti).  
 Vyatipata Shraddha day.
 
 ##### Details
@@ -1874,7 +1874,7 @@ Vyatipata Shraddha day.
 
 #### श्रवण-व्रतम्
 
-Observed on Śravaṇaḥ nakṣhatram day of every solar month (saangava/puurvaviddha (default)).  
+Observed on Śravaṇaḥ nakshatra of every solar month (saangava/puurvaviddha (default)).  
 
 
 ##### Details
@@ -1995,7 +1995,7 @@ ___________________
 ### उत्सवाः
 #### अप्पूदियडिगळ् नायऩार् (२४) गुरुपूजै
 
-Observed on Śatabhiṣak nakṣhatram day of Makaraḥ (solar) month (praatah/paraviddha).  
+Observed on Śatabhiṣak nakshatra of Makaraḥ (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -2147,7 +2147,7 @@ ___________________
 ### उत्सवाः
 #### कलिक्कम्ब नायऩार् (४२) गुरुपूजै
 
-Observed on Revatī nakṣhatram day of Makaraḥ (solar) month (praatah/paraviddha).  
+Observed on Revatī nakshatra of Makaraḥ (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -2263,7 +2263,7 @@ Monthly Shashthi vratam for Lord Subrahmanya.
 
 #### तिरुनॆल्वेलि नॆल्लैयप्पर् नॆल्लुक्कु वेलि कट्टिय लीलै
 
-Observed on Aśvinī nakṣhatram day of Makaraḥ (solar) month (sunrise/puurvaviddha).  
+Observed on Aśvinī nakshatra of Makaraḥ (solar) month (sunrise/puurvaviddha).  
 
 
 ##### Details
@@ -2680,7 +2680,7 @@ Dvadashi tithi, combined with Punarvasu nakshatra.
 
 #### कुलशेखर आऴ्वार् तिरुनक्षत्तिरम्
 
-Observed on Punarvasuḥ nakṣhatram day of Kumbhaḥ (solar) month (praatah/paraviddha).  
+Observed on Punarvasuḥ nakshatra of Kumbhaḥ (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -2961,7 +2961,7 @@ Sarvajñaviṣṇu (name of Śrī Vidyātīrtha before initiation), son of Śār
 
 #### माचि-मघम्
 
-Observed on Maghā nakṣhatram day of Kumbhaḥ (solar) month (sunrise (default)/puurvaviddha (default)).  
+Observed on Maghā nakshatra of Kumbhaḥ (solar) month (sunrise (default)/puurvaviddha (default)).  
 
 
 ##### Details
@@ -3039,7 +3039,7 @@ Special vrata day for Ganesha. In this month, Ganesha is worshipped as द्व
 
 #### ऎऱिपत्त नायऩार् (७) गुरुपूजै
 
-Observed on Hastaḥ nakṣhatram day of Kumbhaḥ (solar) month (praatah/paraviddha).  
+Observed on Hastaḥ nakshatra of Kumbhaḥ (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -3335,7 +3335,7 @@ ___________________
 ### उत्सवाः
 #### कारि नायऩार् (४७) गुरुपूजै
 
-Observed on Pūrvāṣāḍhā nakṣhatram day of Kumbhaḥ (solar) month (praatah/paraviddha).  
+Observed on Pūrvāṣāḍhā nakshatra of Kumbhaḥ (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -3345,7 +3345,7 @@ Observed on Pūrvāṣāḍhā nakṣhatram day of Kumbhaḥ (solar) month (praa
 
 #### व्यतीपात-श्राद्धम्
 
-Observed on  of every solar month (aparaahna/vyaapti).  
+Observed on Vyatīpātaḥ yoga of every solar month (aparaahna/vyaapti).  
 Vyatipata Shraddha day.
 
 ##### Details
@@ -3422,7 +3422,7 @@ ___________________
 ### उत्सवाः
 #### काञ्ची जगद्गुरु श्री-शङ्कर विजयेन्द्र सरस्वती जयन्ती
 
-Observed on Uttarāṣāḍhā nakṣhatram day of Kumbhaḥ (solar) month (praatah/paraviddha).  
+Observed on Uttarāṣāḍhā nakshatra of Kumbhaḥ (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -3442,7 +3442,7 @@ Observed on Uttarāṣāḍhā nakṣhatram day of Kumbhaḥ (solar) month (praa
 #### विजया/श्रवण-महाद्वादशी
 #### श्रवण-व्रतम्
 
-Observed on Śravaṇaḥ nakṣhatram day of every solar month (saangava/puurvaviddha (default)).  
+Observed on Śravaṇaḥ nakshatra of every solar month (saangava/puurvaviddha (default)).  
 
 
 ##### Details
@@ -3596,7 +3596,7 @@ Perform समुद्रस्नानम् and श्राद्धम्.
 
 #### कॊच्चॆङ्गट् चोऴ नायऩार् (५९) गुरुपूजै
 
-Observed on Śatabhiṣak nakṣhatram day of Kumbhaḥ (solar) month (praatah/paraviddha).  
+Observed on Śatabhiṣak nakshatra of Kumbhaḥ (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -3826,7 +3826,7 @@ ___________________
 ### उत्सवाः
 #### पून्तानं-जयन्ती
 
-Observed on Aśvinī nakṣhatram day of Kumbhaḥ (solar) month (sunrise (default)/puurvaviddha (default)).  
+Observed on Aśvinī nakshatra of Kumbhaḥ (solar) month (sunrise (default)/puurvaviddha (default)).  
 Poonthanam, a great devotee of Guruvayurappan, enriched Malayalam devotional literature with his renowned poetic composition 'Jnanapana', a philosophical work of all times. On this day, recital of Poonthanam's works and debate takes place. A one week literary festival is conducted at Poonthanam illam.
 
 ##### Details
@@ -3910,7 +3910,7 @@ Monthly Shashthi vratam for Lord Subrahmanya.
 
 #### कृत्तिका-व्रतम्
 
-Observed on Kṛttikā nakṣhatram day of every solar month (sunset/puurvaviddha (default)).  
+Observed on Kṛttikā nakshatra of every solar month (sunset/puurvaviddha (default)).  
 कृत्तिका-व्रतम् for Lord Subrahmanya. Observe fast for the entire day, and obtain blessings of all the कृत्तिका-स्त्रियः who raised स्कन्द after His birth.
 
 ##### Details
@@ -3938,7 +3938,7 @@ Do उपवासम् (at least do not take salt) and pray to Lord Shiva (Vai
 
 #### वैधृति-श्राद्धम्
 
-Observed on  of every solar month (aparaahna/vyaapti).  
+Observed on Vaidhṛtiḥ yoga of every solar month (aparaahna/vyaapti).  
 Vaidhrti Shraddha day.
 
 ##### Details
@@ -4188,7 +4188,7 @@ ___________________
 
 #### मुऩैयडुवार् नायऩार् (५०) गुरुपूजै
 
-Observed on Puṣyaḥ nakṣhatram day of Mīnaḥ (solar) month (praatah/paraviddha).  
+Observed on Puṣyaḥ nakshatra of Mīnaḥ (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -4536,7 +4536,7 @@ Observed on Paurṇamāsī tithi of every lunar month (sunrise/puurvaviddha (def
 
 #### पङ्गुऩि-उत्तिरम्
 
-Observed on Uttaraphalgunī nakṣhatram day of Mīnaḥ (solar) month (praatah/paraviddha).  
+Observed on Uttaraphalgunī nakshatra of Mīnaḥ (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -4620,7 +4620,7 @@ Observed on Kṛṣṇa-Tṛtīyā tithi of Phālgunaḥ (lunar) month (sunrise 
 
 #### काञ्ची जगद्गुरु श्री-जयेन्द्र सरस्वती आश्रम-स्वीकार-जयन्ती
 
-Observed on Svātī nakṣhatram day of Mīnaḥ (solar) month (praatah/paraviddha).  
+Observed on Svātī nakshatra of Mīnaḥ (solar) month (praatah/paraviddha).  
 जगद्गुरु श्री~जयेन्द्र सरस्वती was inducted into the कामकोटि-पीठम् on 22nd March 1954, विजय year, मीन/फाल्गुन मास कृष्ण द्वितीया सोमवासरः चित्रा उपरि स्वाती नक्षत्रम्.
 
 ##### Details
@@ -4630,7 +4630,7 @@ Observed on Svātī nakṣhatram day of Mīnaḥ (solar) month (praatah/paravidd
 
 #### कारैक्काल् अम्मैयार् (२३) गुरुपूजै
 
-Observed on Svātī nakṣhatram day of Mīnaḥ (solar) month (praatah/paraviddha).  
+Observed on Svātī nakshatra of Mīnaḥ (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -4783,7 +4783,7 @@ Shannavati Shraddham Day.
 
 #### व्यतीपात-श्राद्धम्
 
-Observed on  of every solar month (aparaahna/vyaapti).  
+Observed on Vyatīpātaḥ yoga of every solar month (aparaahna/vyaapti).  
 Vyatipata Shraddha day.
 
 ##### Details
@@ -4949,7 +4949,7 @@ The Krishna-paksha Ekadashi of फाल्गुन month is known as पाप
 
 #### श्रवण-व्रतम्
 
-Observed on Śravaṇaḥ nakṣhatram day of every solar month (saangava/puurvaviddha (default)).  
+Observed on Śravaṇaḥ nakshatra of every solar month (saangava/puurvaviddha (default)).  
 
 
 ##### Details
@@ -5035,7 +5035,7 @@ ___________________
 ### उत्सवाः
 #### दण्डियडिगळ् नायऩार् (३०) गुरुपूजै
 
-Observed on Śatabhiṣak nakṣhatram day of Mīnaḥ (solar) month (praatah/paraviddha).  
+Observed on Śatabhiṣak nakshatra of Mīnaḥ (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -5315,7 +5315,7 @@ He, as per the suggestions of the Sāyaṇa Mādhava, having commissioned the ei
 
 #### वैधृति-श्राद्धम्
 
-Observed on  of every solar month (aparaahna/vyaapti).  
+Observed on Vaidhṛtiḥ yoga of every solar month (aparaahna/vyaapti).  
 Vaidhrti Shraddha day.
 
 ##### Details
@@ -5457,7 +5457,7 @@ Observed on Śukla-Tṛtīyā tithi of Caitraḥ (lunar) month (sunrise (default
 
 #### कृत्तिका-व्रतम्
 
-Observed on Kṛttikā nakṣhatram day of every solar month (sunset/puurvaviddha (default)).  
+Observed on Kṛttikā nakshatra of every solar month (sunset/puurvaviddha (default)).  
 कृत्तिका-व्रतम् for Lord Subrahmanya. Observe fast for the entire day, and obtain blessings of all the कृत्तिका-स्त्रियः who raised स्कन्द after His birth.
 
 ##### Details
@@ -5508,7 +5508,7 @@ ___________________
 ### उत्सवाः
 #### मुत्तुस्वामी-दीक्षित-जयन्ती
 
-Observed on Kṛttikā nakṣhatram day of Mīnaḥ (solar) month (praatah/paraviddha).  
+Observed on Kṛttikā nakshatra of Mīnaḥ (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -5597,7 +5597,7 @@ Observed on Śukla-Pañcamī tithi of Caitraḥ (lunar) month (sunrise (default)
 
 #### नेच नायऩार् (५८) गुरुपूजै
 
-Observed on Rohiṇī nakṣhatram day of Mīnaḥ (solar) month (praatah/paraviddha).  
+Observed on Rohiṇī nakshatra of Mīnaḥ (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -5692,7 +5692,7 @@ ___________________
 ### उत्सवाः
 #### गणनाथ नायऩार् (३७) गुरुपूजै
 
-Observed on Ārdrā nakṣhatram day of Mīnaḥ (solar) month (praatah/paraviddha).  
+Observed on Ārdrā nakshatra of Mīnaḥ (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -6212,7 +6212,7 @@ Observed on Paurṇamāsī tithi of Caitraḥ (lunar) month (sunrise (default)/p
 
 #### इचैञाऩियार् नायऩार् (६२) गुरुपूजै
 
-Observed on Citrā nakṣhatram day of Meṣaḥ (solar) month (praatah/paraviddha).  
+Observed on Citrā nakshatra of Meṣaḥ (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -6222,7 +6222,7 @@ Observed on Citrā nakṣhatram day of Meṣaḥ (solar) month (praatah/paravidd
 
 #### मधुरकवि आऴ्वार् तिरुनक्षत्तिरम्
 
-Observed on Citrā nakṣhatram day of Meṣaḥ (solar) month (praatah/paraviddha).  
+Observed on Citrā nakshatra of Meṣaḥ (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -6315,7 +6315,7 @@ Then, son of Paraśurāma on the banks of river Vaśiṣṭha, well-versed in sc
 
 #### तिरुक्कुऱिप्पुत् तॊण्ड नायऩार् (१८) गुरुपूजै
 
-Observed on Svātī nakṣhatram day of Meṣaḥ (solar) month (praatah/paraviddha).  
+Observed on Svātī nakshatra of Meṣaḥ (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -6353,7 +6353,7 @@ ___________________
 ### उत्सवाः
 #### व्यतीपात-श्राद्धम्
 
-Observed on  of every solar month (aparaahna/vyaapti).  
+Observed on Vyatīpātaḥ yoga of every solar month (aparaahna/vyaapti).  
 Vyatipata Shraddha day.
 
 ##### Details
@@ -6602,7 +6602,7 @@ Then, the son of Cirutacikkadādhvari on the banks of river Uttarapinākinī, a 
 
 #### नटराजर् चित्तिरै ओणम् महाभिषेकम्
 
-Observed on Śravaṇaḥ nakṣhatram day of Meṣaḥ (solar) month (pradosha/paraviddha).  
+Observed on Śravaṇaḥ nakshatra of Meṣaḥ (solar) month (pradosha/paraviddha).  
 
 
 ##### Details
@@ -6612,7 +6612,7 @@ Observed on Śravaṇaḥ nakṣhatram day of Meṣaḥ (solar) month (pradosha/
 
 #### श्रवण-व्रतम्
 
-Observed on Śravaṇaḥ nakṣhatram day of every solar month (saangava/puurvaviddha (default)).  
+Observed on Śravaṇaḥ nakshatra of every solar month (saangava/puurvaviddha (default)).  
 
 
 ##### Details
@@ -6676,7 +6676,7 @@ ___________________
 ### उत्सवाः
 #### तिरुनावुक्करछ नायऩार् (२०) गुरुपूजै
 
-Observed on Śatabhiṣak nakṣhatram day of Meṣaḥ (solar) month (praatah/paraviddha).  
+Observed on Śatabhiṣak nakshatra of Meṣaḥ (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -6763,7 +6763,7 @@ ___________________
 - →06:47
 #### वैधृति-श्राद्धम्
 
-Observed on  of every solar month (aparaahna/vyaapti).  
+Observed on Vaidhṛtiḥ yoga of every solar month (aparaahna/vyaapti).  
 Vaidhrti Shraddha day.
 
 ##### Details
@@ -7021,7 +7021,7 @@ ___________________
 
 #### चिऱुत्तॊण्ड नायऩार् (३५) गुरुपूजै
 
-Observed on Apabharaṇī nakṣhatram day of Meṣaḥ (solar) month (praatah/paraviddha).  
+Observed on Apabharaṇī nakshatra of Meṣaḥ (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -7031,7 +7031,7 @@ Observed on Apabharaṇī nakṣhatram day of Meṣaḥ (solar) month (praatah/p
 
 #### कृत्तिका-व्रतम्
 
-Observed on Kṛttikā nakṣhatram day of every solar month (sunset/puurvaviddha (default)).  
+Observed on Kṛttikā nakshatra of every solar month (sunset/puurvaviddha (default)).  
 कृत्तिका-व्रतम् for Lord Subrahmanya. Observe fast for the entire day, and obtain blessings of all the कृत्तिका-स्त्रियः who raised स्कन्द after His birth.
 
 ##### Details
@@ -7135,7 +7135,7 @@ Have darshan of Moon today, chanting the following shloka
 
 #### श्यामा-शास्त्री-जयन्ती
 
-Observed on Kṛttikā nakṣhatram day of Meṣaḥ (solar) month (praatah/paraviddha).  
+Observed on Kṛttikā nakshatra of Meṣaḥ (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -7218,7 +7218,7 @@ Perform समुद्रस्नानम् and श्राद्धम्.
 
 #### मङ्गैयर्क्करचियार् नायऩार् (५७) गुरुपूजै
 
-Observed on Rohiṇī nakṣhatram day of Meṣaḥ (solar) month (praatah/paraviddha).  
+Observed on Rohiṇī nakshatra of Meṣaḥ (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -7360,7 +7360,7 @@ Observed on Śukla-Pañcamī tithi of Vaiśākhaḥ (lunar) month (sunrise (defa
 
 #### रामानुज-जन्म-नक्षत्रम्
 
-Observed on Ārdrā nakṣhatram day of Meṣaḥ (solar) month (sunrise (default)/puurvaviddha (default)).  
+Observed on Ārdrā nakshatra of Meṣaḥ (solar) month (sunrise (default)/puurvaviddha (default)).  
 
 
 ##### Details
@@ -7390,7 +7390,7 @@ Vishnu's boon to AdiSesha that humans will worship on this day
 
 #### विऱऩ्मिण्ड नायऩार् (५) गुरुपूजै
 
-Observed on Ārdrā nakṣhatram day of Meṣaḥ (solar) month (praatah/paraviddha).  
+Observed on Ārdrā nakshatra of Meṣaḥ (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -7726,7 +7726,7 @@ ___________________
 ### उत्सवाः
 #### मीऩाक्षी तिरुक्कल्याणम्
 
-Observed on Uttaraphalgunī nakṣhatram day of Meṣaḥ (solar) month (madhyaahna/puurvaviddha (default)).  
+Observed on Uttaraphalgunī nakshatra of Meṣaḥ (solar) month (madhyaahna/puurvaviddha (default)).  
 
 
 ##### Details
@@ -8031,7 +8031,7 @@ Adi Shankara founded Kamakoti Mutt, Kanchi in Siddharthi year with himself as fi
 
 #### नम्माऴ्वार् तिरुनक्षत्तिरम्
 
-Observed on Viśākhā nakṣhatram day of Vṛṣabhaḥ (solar) month (praatah/paraviddha).  
+Observed on Viśākhā nakshatra of Vṛṣabhaḥ (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -8071,7 +8071,7 @@ Lord Malayappa rides on Garuda Vahanam in all four mada streets. This usually ha
 
 #### वैकाचि-विशाखम्
 
-Observed on Viśākhā nakṣhatram day of Vṛṣabhaḥ (solar) month (sunrise (default)/puurvaviddha (default)).  
+Observed on Viśākhā nakshatra of Vṛṣabhaḥ (solar) month (sunrise (default)/puurvaviddha (default)).  
 Special puja for Subrahmanya Swami in temples. Birth of Subrahmanya Swami. Worship Him with red flowers.
 
 ##### Details
@@ -8137,7 +8137,7 @@ ___________________
 ### उत्सवाः
 #### काञ्ची जगद्गुरु श्री-चन्द्रशेखरेन्द्र सरस्वती ७ जयन्ती
 
-Observed on Anūrādhā nakṣhatram day of Vṛṣabhaḥ (solar) month (praatah/paraviddha).  
+Observed on Anūrādhā nakshatra of Vṛṣabhaḥ (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -8213,7 +8213,7 @@ ___________________
 ### उत्सवाः
 #### काञ्ची जगद्गुरु श्री-शङ्कर विजयेन्द्र सरस्वती आश्रम-स्वीकार-जयन्ती
 
-Observed on Mūlā nakṣhatram day of Vṛṣabhaḥ (solar) month (praatah/paraviddha).  
+Observed on Mūlā nakshatra of Vṛṣabhaḥ (solar) month (praatah/paraviddha).  
 जगद्गुरु श्री~शङ्कर विजयेन्द्र सरस्वती was inducted into the कामकोटि-पीठम् on 29th May 1983, रुधिरोद्गारी year, वृषभ/वैशाख मास कृष्ण तृतीया भानुवासरः मूला नक्षत्रम्.
 
 ##### Details
@@ -8223,7 +8223,7 @@ Observed on Mūlā nakṣhatram day of Vṛṣabhaḥ (solar) month (praatah/par
 
 #### मुरुग नायऩार् (१५) गुरुपूजै
 
-Observed on Mūlā nakṣhatram day of Vṛṣabhaḥ (solar) month (praatah/paraviddha).  
+Observed on Mūlā nakshatra of Vṛṣabhaḥ (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -8233,7 +8233,7 @@ Observed on Mūlā nakṣhatram day of Vṛṣabhaḥ (solar) month (praatah/par
 
 #### तिरुञाऩसम्बन्धमूर्त्ति नायऩार् (२७) गुरुपूजै
 
-Observed on Mūlā nakṣhatram day of Vṛṣabhaḥ (solar) month (praatah/paraviddha).  
+Observed on Mūlā nakshatra of Vṛṣabhaḥ (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -8243,7 +8243,7 @@ Observed on Mūlā nakṣhatram day of Vṛṣabhaḥ (solar) month (praatah/par
 
 #### तिरुनीलकण्ठ याऴ्प्पाण नायऩार् (६०) गुरुपूजै
 
-Observed on Mūlā nakṣhatram day of Vṛṣabhaḥ (solar) month (praatah/paraviddha).  
+Observed on Mūlā nakshatra of Vṛṣabhaḥ (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -8253,7 +8253,7 @@ Observed on Mūlā nakṣhatram day of Vṛṣabhaḥ (solar) month (praatah/par
 
 #### तिरुनीलनक्क नायऩार् (२५) गुरुपूजै
 
-Observed on Mūlā nakṣhatram day of Vṛṣabhaḥ (solar) month (praatah/paraviddha).  
+Observed on Mūlā nakshatra of Vṛṣabhaḥ (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -8423,7 +8423,7 @@ ___________________
 ### उत्सवाः
 #### श्रवण-व्रतम्
 
-Observed on Śravaṇaḥ nakṣhatram day of every solar month (saangava/puurvaviddha (default)).  
+Observed on Śravaṇaḥ nakshatra of every solar month (saangava/puurvaviddha (default)).  
 
 
 ##### Details
@@ -8502,7 +8502,7 @@ ___________________
 
 #### वैधृति-श्राद्धम्
 
-Observed on  of every solar month (aparaahna/vyaapti).  
+Observed on Vaidhṛtiḥ yoga of every solar month (aparaahna/vyaapti).  
 Vaidhrti Shraddha day.
 
 ##### Details
@@ -8757,7 +8757,7 @@ ___________________
 ### उत्सवाः
 #### कऴऱ्चिङ्ग नायऩार् (५१) गुरुपूजै
 
-Observed on Apabharaṇī nakṣhatram day of Vṛṣabhaḥ (solar) month (praatah/paraviddha).  
+Observed on Apabharaṇī nakshatra of Vṛṣabhaḥ (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -8830,7 +8830,7 @@ This Sarvajñātman, who was born to Vardhana got initiated into asceticism even
 
 #### कृत्तिका-व्रतम्
 
-Observed on Kṛttikā nakṣhatram day of every solar month (sunset/puurvaviddha (default)).  
+Observed on Kṛttikā nakshatra of every solar month (sunset/puurvaviddha (default)).  
 कृत्तिका-व्रतम् for Lord Subrahmanya. Observe fast for the entire day, and obtain blessings of all the कृत्तिका-स्त्रियः who raised स्कन्द after His birth.
 
 ##### Details
@@ -9166,7 +9166,7 @@ Perform puja of Shiva-Parvati under a banana tree or on a banana leaf, do naived
 
 #### नमिनन्दियडिगळ् नायऩार् (२६) गुरुपूजै
 
-Observed on Puṣyaḥ nakṣhatram day of Vṛṣabhaḥ (solar) month (praatah/paraviddha).  
+Observed on Puṣyaḥ nakshatra of Vṛṣabhaḥ (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -9285,7 +9285,7 @@ Observed on Śukla-Ṣaṣṭhī tithi of Jyaiṣṭhaḥ (lunar) month (aparaah
 
 #### सोमासिमार नायऩार् (३२) गुरुपूजै
 
-Observed on Āśreṣā nakṣhatram day of Vṛṣabhaḥ (solar) month (praatah/paraviddha).  
+Observed on Āśreṣā nakshatra of Vṛṣabhaḥ (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -9548,7 +9548,7 @@ Observed on Śukla-Navamī tithi of Jyaiṣṭhaḥ (lunar) month (sunrise (defa
 
 #### व्यतीपात-श्राद्धम्
 
-Observed on  of every solar month (aparaahna/vyaapti).  
+Observed on Vyatīpātaḥ yoga of every solar month (aparaahna/vyaapti).  
 Vyatipata Shraddha day.
 
 ##### Details
@@ -10221,7 +10221,7 @@ ___________________
 ### उत्सवाः
 #### श्रवण-व्रतम्
 
-Observed on Śravaṇaḥ nakṣhatram day of every solar month (saangava/puurvaviddha (default)).  
+Observed on Śravaṇaḥ nakshatra of every solar month (saangava/puurvaviddha (default)).  
 
 
 ##### Details
@@ -10411,7 +10411,7 @@ ___________________
 ### उत्सवाः
 #### एयर्कोऩ् कलिक्काम नायऩार् (२८) गुरुपूजै
 
-Observed on Revatī nakṣhatram day of Mithunam (solar) month (praatah/paraviddha).  
+Observed on Revatī nakshatra of Mithunam (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -10522,7 +10522,7 @@ ___________________
 - →12:41
 #### कृत्तिका-व्रतम्
 
-Observed on Kṛttikā nakṣhatram day of every solar month (sunset/puurvaviddha (default)).  
+Observed on Kṛttikā nakshatra of every solar month (sunset/puurvaviddha (default)).  
 कृत्तिका-व्रतम् for Lord Subrahmanya. Observe fast for the entire day, and obtain blessings of all the कृत्तिका-स्त्रियः who raised स्कन्द after His birth.
 
 ##### Details
@@ -10892,7 +10892,7 @@ ___________________
 
 #### पुगऴ्त्तुणै नायऩार् (५४) गुरुपूजै
 
-Observed on Āśreṣā nakṣhatram day of Mithunam (solar) month (praatah/paraviddha).  
+Observed on Āśreṣā nakshatra of Mithunam (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -10939,7 +10939,7 @@ ___________________
 
 #### माणिक्कवाचकर् गुरुपूजै
 
-Observed on Maghā nakṣhatram day of Mithunam (solar) month (praatah/paraviddha).  
+Observed on Maghā nakshatra of Mithunam (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -10977,7 +10977,7 @@ ___________________
 ### उत्सवाः
 #### अमरनीति नायऩार् (६) गुरुपूजै
 
-Observed on Pūrvaphalgunī nakṣhatram day of Mithunam (solar) month (praatah/paraviddha).  
+Observed on Pūrvaphalgunī nakshatra of Mithunam (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -11041,7 +11041,7 @@ Observed on Śukla-Pañcamī tithi of Āṣāḍhaḥ (lunar) month (sunrise (de
 
 #### व्यतीपात-श्राद्धम्
 
-Observed on  of every solar month (aparaahna/vyaapti).  
+Observed on Vyatīpātaḥ yoga of every solar month (aparaahna/vyaapti).  
 Vyatipata Shraddha day.
 
 ##### Details
@@ -11098,7 +11098,7 @@ ___________________
 
 #### नटराजर् आऩि तिरुमञ्चऩम्
 
-Observed on Uttaraphalgunī nakṣhatram day of Mithunam (solar) month (praatah/paraviddha).  
+Observed on Uttaraphalgunī nakshatra of Mithunam (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -11224,7 +11224,7 @@ Initiated by Śrī Cidghanendra, the preceptor Śrī Chandraśekhara, having ado
 
 #### सुदर्शन-जयन्ती
 
-Observed on Citrā nakṣhatram day of Mithunam (solar) month (praatah/paraviddha).  
+Observed on Citrā nakshatra of Mithunam (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -11340,7 +11340,7 @@ Observed on Śukla-Daśamī tithi of Āṣāḍhaḥ (lunar) month (aparaahna/vy
 
 #### पॆरियाऴ्वार् तिरुनक्षत्तिरम्
 
-Observed on Svātī nakṣhatram day of Mithunam (solar) month (praatah/paraviddha).  
+Observed on Svātī nakshatra of Mithunam (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -11539,7 +11539,7 @@ ___________________
 ### उत्सवाः
 #### ज्येष्ठाभिषेकम्
 
-Observed on Jyeṣṭhā nakṣhatram day of Mithunam (solar) month (sunrise (default)/puurvaviddha (default)).  
+Observed on Jyeṣṭhā nakshatra of Mithunam (solar) month (sunrise (default)/puurvaviddha (default)).  
 
 
 ##### Details
@@ -11724,7 +11724,7 @@ Lord Malayappa rides on Garuda Vahanam in all four mada streets. This usually ha
 
 #### वैधृति-श्राद्धम्
 
-Observed on  of every solar month (aparaahna/vyaapti).  
+Observed on Vaidhṛtiḥ yoga of every solar month (aparaahna/vyaapti).  
 Vaidhrti Shraddha day.
 
 ##### Details
@@ -12185,7 +12185,7 @@ ___________________
 ### उत्सवाः
 #### आडिक्-किरुत्तिकै
 
-Observed on Kṛttikā nakṣhatram day of Kaṭakaḥ (solar) month (sunrise (default)/puurvaviddha (default)).  
+Observed on Kṛttikā nakshatra of Kaṭakaḥ (solar) month (sunrise (default)/puurvaviddha (default)).  
 Special puja for Subrahmanya Swami in temples.
 
 ##### Details
@@ -12195,7 +12195,7 @@ Special puja for Subrahmanya Swami in temples.
 
 #### कृत्तिका-व्रतम्
 
-Observed on Kṛttikā nakṣhatram day of every solar month (sunset/puurvaviddha (default)).  
+Observed on Kṛttikā nakshatra of every solar month (sunset/puurvaviddha (default)).  
 कृत्तिका-व्रतम् for Lord Subrahmanya. Observe fast for the entire day, and obtain blessings of all the कृत्तिका-स्त्रियः who raised स्कन्द after His birth.
 
 ##### Details
@@ -12205,7 +12205,7 @@ Observed on Kṛttikā nakṣhatram day of every solar month (sunset/puurvaviddh
 
 #### मूर्त्ति नायऩार् (१५) गुरुपूजै
 
-Observed on Kṛttikā nakṣhatram day of Kaṭakaḥ (solar) month (praatah/paraviddha).  
+Observed on Kṛttikā nakshatra of Kaṭakaḥ (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -12215,7 +12215,7 @@ Observed on Kṛttikā nakṣhatram day of Kaṭakaḥ (solar) month (praatah/pa
 
 #### पुगऴ्च्चोऴ नायऩार् (३९) गुरुपूजै
 
-Observed on Kṛttikā nakṣhatram day of Kaṭakaḥ (solar) month (praatah/paraviddha).  
+Observed on Kṛttikā nakshatra of Kaṭakaḥ (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -12262,7 +12262,7 @@ The Krishna-paksha Ekadashi of आषाढ month is known as कामिका
 
 #### तिरुप्पाणाऴ्वार् तिरुनक्षत्तिरम्
 
-Observed on Rohiṇī nakṣhatram day of Kaṭakaḥ (solar) month (praatah/paraviddha).  
+Observed on Rohiṇī nakshatra of Kaṭakaḥ (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -12341,7 +12341,7 @@ ___________________
 #### भौमार्द्रा-पुण्यकालः
 #### कूऱ्ऱुव नायऩार् (३८) गुरुपूजै
 
-Observed on Ārdrā nakṣhatram day of Kaṭakaḥ (solar) month (praatah/paraviddha).  
+Observed on Ārdrā nakshatra of Kaṭakaḥ (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -12545,7 +12545,7 @@ Observed on Amāvāsyā tithi of Āṣāḍhaḥ (lunar) month (sunrise (default
 
 #### व्यतीपात-श्राद्धम्
 
-Observed on  of every solar month (aparaahna/vyaapti).  
+Observed on Vyatīpātaḥ yoga of every solar month (aparaahna/vyaapti).  
 Vyatipata Shraddha day.
 
 ##### Details
@@ -12707,7 +12707,7 @@ Observed on Śukla-Tṛtīyā tithi of Śrāvaṇaḥ (lunar) month (sunrise (de
 
 #### तिरुवाडिप्पूरम्
 
-Observed on Pūrvaphalgunī nakṣhatram day of Kaṭakaḥ (solar) month (praatah/paraviddha).  
+Observed on Pūrvaphalgunī nakshatra of Kaṭakaḥ (solar) month (praatah/paraviddha).  
 
 
 श्रीविष्णुचित्त-कुलकल्पकनन्दवल्लीम्
@@ -12864,7 +12864,7 @@ Monthly Shashthi vratam for Lord Subrahmanya.
 
 #### पॆरुमिऴलैक् कुऱुम्ब नायऩार् (२२) गुरुपूजै
 
-Observed on Citrā nakṣhatram day of Kaṭakaḥ (solar) month (praatah/paraviddha).  
+Observed on Citrā nakshatra of Kaṭakaḥ (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -12922,7 +12922,7 @@ Observed on Śukla-Saptamī tithi of Śrāvaṇaḥ (lunar) month (sunrise (defa
 
 #### चुन्दरमूर्त्ति नायऩार् (६३) गुरुपूजै
 
-Observed on Svātī nakṣhatram day of Kaṭakaḥ (solar) month (praatah/paraviddha).  
+Observed on Svātī nakshatra of Kaṭakaḥ (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -12942,7 +12942,7 @@ Surya Puja, Danam to please Surya Bhagavan
 
 #### कऴऱिऱ्ऱऱिवार्/चेरमाऩ् पॆरुमाळ् नायऩार् (३६) गुरुपूजै
 
-Observed on Svātī nakṣhatram day of Kaṭakaḥ (solar) month (praatah/paraviddha).  
+Observed on Svātī nakshatra of Kaṭakaḥ (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -13093,7 +13093,7 @@ Observed on Śukla-Navamī tithi of Śrāvaṇaḥ (lunar) month (sunrise (defau
 
 #### सेङ्गालिपुरम् अनन्तराम-दीक्षित-जयन्ती
 
-Observed on Anūrādhā nakṣhatram day of Kaṭakaḥ (solar) month (praatah/paraviddha).  
+Observed on Anūrādhā nakshatra of Kaṭakaḥ (solar) month (praatah/paraviddha).  
 Jayanti Day of Sri Anantarama Dikshitar.
 ##### References
 - Vaidikasri Nov 2009
@@ -13162,7 +13162,7 @@ Son of Śrīpati, known as Kṛṣṇa before initiation, the great sage Pūrṇ
 
 #### कोट्पुलि नायऩार् (५५) गुरुपूजै
 
-Observed on Jyeṣṭhā nakṣhatram day of Kaṭakaḥ (solar) month (praatah/paraviddha).  
+Observed on Jyeṣṭhā nakshatra of Kaṭakaḥ (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -13172,7 +13172,7 @@ Observed on Jyeṣṭhā nakṣhatram day of Kaṭakaḥ (solar) month (praatah/
 
 #### कलिय नायऩार् (४३) गुरुपूजै
 
-Observed on Jyeṣṭhā nakṣhatram day of Kaṭakaḥ (solar) month (praatah/paraviddha).  
+Observed on Jyeṣṭhā nakshatra of Kaṭakaḥ (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -13192,7 +13192,7 @@ Shiva Puja with गन्धम्
 
 #### वैधृति-श्राद्धम्
 
-Observed on  of every solar month (aparaahna/vyaapti).  
+Observed on Vaidhṛtiḥ yoga of every solar month (aparaahna/vyaapti).  
 Vaidhrti Shraddha day.
 
 ##### Details
@@ -13396,7 +13396,7 @@ Lord Malayappa rides on Garuda Vahanam in all four mada streets. This usually ha
 
 #### श्रवण-व्रतम्
 
-Observed on Śravaṇaḥ nakṣhatram day of every solar month (saangava/puurvaviddha (default)).  
+Observed on Śravaṇaḥ nakshatra of every solar month (saangava/puurvaviddha (default)).  
 
 
 ##### Details
@@ -13434,7 +13434,7 @@ ___________________
 ### उत्सवाः
 #### ऋग्वेद-उपाकर्म
 
-Observed on Śravaṇaḥ nakṣhatram day of Śrāvaṇaḥ (lunar) month (sunrise (default)/paraviddha).  
+Observed on Śravaṇaḥ nakshatra of Śrāvaṇaḥ (lunar) month (sunrise (default)/paraviddha).  
 
 
 ##### Details
@@ -13618,7 +13618,7 @@ Perform 1008 Gayatri Japa.
 
 #### काञ्ची जगद्गुरु श्री-जयेन्द्र सरस्वती जयन्ती
 
-Observed on Śraviṣṭhā nakṣhatram day of Kaṭakaḥ (solar) month (praatah/paraviddha).  
+Observed on Śraviṣṭhā nakshatra of Kaṭakaḥ (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -13993,7 +13993,7 @@ Son of Śrī Acyutaśarmā of Koṅkaṇadeśa, having offered his services of p
 
 #### कृत्तिका-व्रतम्
 
-Observed on Kṛttikā nakṣhatram day of every solar month (sunset/puurvaviddha (default)).  
+Observed on Kṛttikā nakshatra of every solar month (sunset/puurvaviddha (default)).  
 कृत्तिका-व्रतम् for Lord Subrahmanya. Observe fast for the entire day, and obtain blessings of all the कृत्तिका-स्त्रियः who raised स्कन्द after His birth.
 
 ##### Details
@@ -14121,7 +14121,7 @@ When Rohini nakshatra falls on a Saturday, it is a special पुण्यका
 
 #### श्री-जयन्ती
 
-Observed on Rohiṇī nakṣhatram day of Siṃhaḥ (solar) month (nishiitha/puurvaviddha (default)).  
+Observed on Rohiṇī nakshatra of Siṃhaḥ (solar) month (nishiitha/puurvaviddha (default)).  
 
 
 ##### Details
@@ -14330,7 +14330,7 @@ The Krishna-paksha Ekadashi of श्रवण month is known as अजा-ए�
 
 #### व्यतीपात-श्राद्धम्
 
-Observed on  of every solar month (aparaahna/vyaapti).  
+Observed on Vyatīpātaḥ yoga of every solar month (aparaahna/vyaapti).  
 Vyatipata Shraddha day.
 
 ##### Details
@@ -14368,7 +14368,7 @@ ___________________
 ### उत्सवाः
 #### चॆरुत्तुणै नायऩार् (५३) गुरुपूजै
 
-Observed on Puṣyaḥ nakṣhatram day of Siṃhaḥ (solar) month (praatah/paraviddha).  
+Observed on Puṣyaḥ nakshatra of Siṃhaḥ (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -14444,7 +14444,7 @@ Observed on Kṛṣṇa-Caturdaśī tithi of Śrāvaṇaḥ (lunar) month (sunri
 
 #### अतिपत्त नायऩार् (४१) गुरुपूजै
 
-Observed on Āśreṣā nakṣhatram day of Siṃhaḥ (solar) month (praatah/paraviddha).  
+Observed on Āśreṣā nakshatra of Siṃhaḥ (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -14511,7 +14511,7 @@ Observed on Amāvāsyā tithi of Siṃhaḥ (solar) month (madhyaahna/puurvavidd
 
 #### इळैयाऩ्कुडि माऱ नायऩार् (३) गुरुपूजै
 
-Observed on Maghā nakṣhatram day of Siṃhaḥ (solar) month (praatah/paraviddha).  
+Observed on Maghā nakshatra of Siṃhaḥ (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -14749,7 +14749,7 @@ ___________________
 ### उत्सवाः
 #### सामवेद-उपाकर्म
 
-Observed on Hastaḥ nakṣhatram day of Siṃhaḥ (solar) month (sunrise (default)/puurvaviddha (default)).  
+Observed on Hastaḥ nakshatra of Siṃhaḥ (solar) month (sunrise (default)/puurvaviddha (default)).  
 
 
 ##### Details
@@ -14912,7 +14912,7 @@ Perform puja of Surya, eat Panchagavya -- brings merits greater than Ashvamedha!
 
 #### तिरुच्चॆन्दूर् आवणित् तिरुविऴा निऱैवु
 
-Observed on Viśākhā nakṣhatram day of Siṃhaḥ (solar) month (praatah/paraviddha).  
+Observed on Viśākhā nakshatra of Siṃhaḥ (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -14980,7 +14980,7 @@ Shiva Puja
 
 #### कुलच्चिरै नायऩार् (२१) गुरुपूजै
 
-Observed on Anūrādhā nakṣhatram day of Siṃhaḥ (solar) month (praatah/paraviddha).  
+Observed on Anūrādhā nakshatra of Siṃhaḥ (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -14990,7 +14990,7 @@ Observed on Anūrādhā nakṣhatram day of Siṃhaḥ (solar) month (praatah/pa
 
 #### वैधृति-श्राद्धम्
 
-Observed on  of every solar month (aparaahna/vyaapti).  
+Observed on Vaidhṛtiḥ yoga of every solar month (aparaahna/vyaapti).  
 Vaidhrti Shraddha day.
 
 ##### Details
@@ -15109,7 +15109,7 @@ Durga Puja
 
 #### गजेन्द्र-मोक्षः
 
-Observed on Mūlā nakṣhatram day of Siṃhaḥ (solar) month (praatah/paraviddha).  
+Observed on Mūlā nakshatra of Siṃhaḥ (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -15119,7 +15119,7 @@ Observed on Mūlā nakṣhatram day of Siṃhaḥ (solar) month (praatah/paravid
 
 #### कुङ्गिलियक्कलय नायऩार् (१०) गुरुपूजै
 
-Observed on Mūlā nakṣhatram day of Siṃhaḥ (solar) month (praatah/paraviddha).  
+Observed on Mūlā nakshatra of Siṃhaḥ (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -15152,7 +15152,7 @@ Durga Puja
 
 #### पिट्टुक्कु मण् चुमन्द लीलै
 
-Observed on Mūlā nakṣhatram day of Siṃhaḥ (solar) month (praatah/paraviddha).  
+Observed on Mūlā nakshatra of Siṃhaḥ (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -15403,7 +15403,7 @@ ___________________
 ### उत्सवाः
 #### ओणम्
 
-Observed on Śravaṇaḥ nakṣhatram day of Siṃhaḥ (solar) month (praatah/paraviddha).  
+Observed on Śravaṇaḥ nakshatra of Siṃhaḥ (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -15442,7 +15442,7 @@ Agastya arghya danam
 
 #### श्रवण-व्रतम्
 
-Observed on Śravaṇaḥ nakṣhatram day of every solar month (saangava/puurvaviddha (default)).  
+Observed on Śravaṇaḥ nakshatra of every solar month (saangava/puurvaviddha (default)).  
 
 
 ##### Details
@@ -15878,7 +15878,7 @@ Observed on Kṛṣṇa-Caturthī tithi of Bhādrapadaḥ (lunar) month (sunrise
 
 #### महाभरणी
 
-Observed on Apabharaṇī nakṣhatram day of Bhādrapadaḥ (lunar) month (aparaahna/vyaapti).  
+Observed on Apabharaṇī nakshatra of Bhādrapadaḥ (lunar) month (aparaahna/vyaapti).  
 
 
 ##### Details
@@ -16062,7 +16062,7 @@ Perform special puja and naivedyam (e.g. तिलान्नम्) to Lord Ve
 
 #### तिरुनाळैप्पोवार् नायऩार् (१७) गुरुपूजै
 
-Observed on Rohiṇī nakṣhatram day of Kanyā (solar) month (praatah/paraviddha).  
+Observed on Rohiṇī nakshatra of Kanyā (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -16651,7 +16651,7 @@ Have darshan of Moon today, chanting the following shloka
 
 #### वैधृति-श्राद्धम्
 
-Observed on  of every solar month (aparaahna/vyaapti).  
+Observed on Vaidhṛtiḥ yoga of every solar month (aparaahna/vyaapti).  
 Vaidhrti Shraddha day.
 
 ##### Details
@@ -16857,7 +16857,7 @@ Observed on Śukla-Saptamī tithi of Āśvayujaḥ (lunar) month (aparaahna/vyaa
 
 #### सरस्वती-आवाहनम्
 
-Observed on Mūlā nakṣhatram day of Āśvayujaḥ (lunar) month (madhyaahna/puurvaviddha).  
+Observed on Mūlā nakshatra of Āśvayujaḥ (lunar) month (madhyaahna/puurvaviddha).  
 Being मूला nakshatra, it is another ideal day to begin Saraswati Puja. If not, at least perform on Navami. During the Saraswati Puja days, those desirous of obtaining knowledge must not teach, learn or write anything!
 
 अथवा  मूलनक्षत्रे  समारभ्य  प्रपूजयेत्।
@@ -17053,7 +17053,7 @@ ___________________
 ### उत्सवाः
 #### एऩादिनाथ नायऩार् (८) गुरुपूजै
 
-Observed on Uttarāṣāḍhā nakṣhatram day of Kanyā (solar) month (praatah/paraviddha).  
+Observed on Uttarāṣāḍhā nakshatra of Kanyā (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -17251,7 +17251,7 @@ Perform puja to Shami tree. Arjuna and Pandavas had left their weapons on this t
 
 #### श्रवण-व्रतम्
 
-Observed on Śravaṇaḥ nakṣhatram day of every solar month (saangava/puurvaviddha (default)).  
+Observed on Śravaṇaḥ nakshatra of every solar month (saangava/puurvaviddha (default)).  
 
 
 ##### Details
@@ -17352,7 +17352,7 @@ Observed on Śukla-Dvādaśī tithi of Āśvayujaḥ (lunar) month (sunrise (def
 
 #### नरचिङ्गमुऩैयरैय नायऩार् (४०) गुरुपूजै
 
-Observed on Śatabhiṣak nakṣhatram day of Kanyā (solar) month (praatah/paraviddha).  
+Observed on Śatabhiṣak nakshatra of Kanyā (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -17717,7 +17717,7 @@ When Ashwini nakshatra falls on a Tuesday, it is a special पुण्यका
 
 #### रुद्र-पशुपति नायऩार् (१६) गुरुपूजै
 
-Observed on Aśvinī nakṣhatram day of Kanyā (solar) month (praatah/paraviddha).  
+Observed on Aśvinī nakshatra of Kanyā (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -17765,7 +17765,7 @@ Attla-Taddi (Telugu). After moonrise, Uma devi pooja; From this day to Deepaaval
 
 #### कृत्तिका-व्रतम्
 
-Observed on Kṛttikā nakṣhatram day of every solar month (sunset/puurvaviddha (default)).  
+Observed on Kṛttikā nakshatra of every solar month (sunset/puurvaviddha (default)).  
 कृत्तिका-व्रतम् for Lord Subrahmanya. Observe fast for the entire day, and obtain blessings of all the कृत्तिका-स्त्रियः who raised स्कन्द after His birth.
 
 ##### Details
@@ -17851,7 +17851,7 @@ Special vrata day for Ganesha. In this month, Ganesha is worshipped as वक्
 
 #### व्यतीपात-श्राद्धम्
 
-Observed on  of every solar month (aparaahna/vyaapti).  
+Observed on Vyatīpātaḥ yoga of every solar month (aparaahna/vyaapti).  
 Vyatipata Shraddha day.
 
 ##### Details
@@ -18291,7 +18291,7 @@ ___________________
 ### उत्सवाः
 #### चत्ति नायऩार् (४४) गुरुपूजै
 
-Observed on Pūrvaphalgunī nakṣhatram day of Tulā (solar) month (praatah/paraviddha).  
+Observed on Pūrvaphalgunī nakshatra of Tulā (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -18448,7 +18448,7 @@ Monthly Shivaratri day.
 
 #### वैधृति-श्राद्धम्
 
-Observed on  of every solar month (aparaahna/vyaapti).  
+Observed on Vaidhṛtiḥ yoga of every solar month (aparaahna/vyaapti).  
 Vaidhrti Shraddha day.
 
 ##### Details
@@ -18757,7 +18757,7 @@ ___________________
 #### बुधानुराधा-पुण्यकालः
 #### पूचलार् नायऩार् (५६) गुरुपूजै
 
-Observed on Anūrādhā nakṣhatram day of Tulā (solar) month (praatah/paraviddha).  
+Observed on Anūrādhā nakshatra of Tulā (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -18821,7 +18821,7 @@ ___________________
 ### उत्सवाः
 #### ऐयडिगळ् काडवर्कोऩ् नायऩार् (४५) गुरुपूजै
 
-Observed on Mūlā nakṣhatram day of Tulā (solar) month (praatah/paraviddha).  
+Observed on Mūlā nakshatra of Tulā (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -19030,7 +19030,7 @@ Do puja to Shiva/Parvati, perform fast.
 
 #### पॊय्गैयाऴ्वार् तिरुनक्षत्तिरम्
 
-Observed on Śravaṇaḥ nakṣhatram day of Tulā (solar) month (praatah/paraviddha).  
+Observed on Śravaṇaḥ nakshatra of Tulā (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -19067,7 +19067,7 @@ Coming from Brahma's Kamandalu, Pushkara Raja resides in different rivers, along
 
 #### श्रवण-व्रतम्
 
-Observed on Śravaṇaḥ nakṣhatram day of every solar month (saangava/puurvaviddha (default)).  
+Observed on Śravaṇaḥ nakshatra of every solar month (saangava/puurvaviddha (default)).  
 
 
 ##### Details
@@ -19115,7 +19115,7 @@ Observed on Śukla-Navamī tithi of Kārttikaḥ (lunar) month (sunrise (default
 
 #### भूतत्ताऴ्वार् तिरुनक्षत्तिरम्
 
-Observed on Śraviṣṭhā nakṣhatram day of Tulā (solar) month (praatah/paraviddha).  
+Observed on Śraviṣṭhā nakshatra of Tulā (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -19260,7 +19260,7 @@ Lord Krishna killed Kamsa on this day; most popularly celebrated in Mathura and 
 
 #### पेयाऴ्वार् तिरुनक्षत्तिरम्
 
-Observed on Śatabhiṣak nakṣhatram day of Tulā (solar) month (praatah/paraviddha).  
+Observed on Śatabhiṣak nakshatra of Tulā (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -19554,7 +19554,7 @@ Perform स्नानम् at मणिकर्णिका ghat in Varanasi
 
 #### तिरुमूल नायऩार् (२९) गुरुपूजै
 
-Observed on Aśvinī nakṣhatram day of Tulā (solar) month (praatah/paraviddha).  
+Observed on Aśvinī nakshatra of Tulā (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -19574,7 +19574,7 @@ Observed on Paurṇamāsī tithi of Kārttikaḥ (lunar) month (pradosha/puurvav
 
 #### व्यतीपात-श्राद्धम्
 
-Observed on  of every solar month (aparaahna/vyaapti).  
+Observed on Vyatīpātaḥ yoga of every solar month (aparaahna/vyaapti).  
 Vyatipata Shraddha day.
 
 ##### Details
@@ -19694,7 +19694,7 @@ Observed on Paurṇamāsī tithi of Kārttikaḥ (lunar) month (aparaahna/vyaapt
 
 #### निऩ्ऱचीर् नॆडुमाऱ नायऩार् (४८) गुरुपूजै
 
-Observed on Apabharaṇī nakṣhatram day of Tulā (solar) month (praatah/paraviddha).  
+Observed on Apabharaṇī nakshatra of Tulā (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -19762,7 +19762,7 @@ ___________________
 ### उत्सवाः
 #### इडङ्कऴि नायऩार् (५२) गुरुपूजै
 
-Observed on Kṛttikā nakṣhatram day of Tulā (solar) month (praatah/paraviddha).  
+Observed on Kṛttikā nakshatra of Tulā (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -19793,7 +19793,7 @@ Devoted to Lord Chandramauli, preceptor Śrī Chandraśekhara too remaining in t
 
 #### कृत्तिका-व्रतम्
 
-Observed on Kṛttikā nakṣhatram day of every solar month (sunset/puurvaviddha (default)).  
+Observed on Kṛttikā nakshatra of every solar month (sunset/puurvaviddha (default)).  
 कृत्तिका-व्रतम् for Lord Subrahmanya. Observe fast for the entire day, and obtain blessings of all the कृत्तिका-स्त्रियः who raised स्कन्द after His birth.
 
 ##### Details
@@ -20297,7 +20297,7 @@ Son of Bhānumiśra of Bhadrācala, Śeṣanārya (before initiation), He (Bhadr
 
 #### वैधृति-श्राद्धम्
 
-Observed on  of every solar month (aparaahna/vyaapti).  
+Observed on Vaidhṛtiḥ yoga of every solar month (aparaahna/vyaapti).  
 Vaidhrti Shraddha day.
 
 ##### Details
@@ -20335,7 +20335,7 @@ ___________________
 ### उत्सवाः
 #### मॆय्प्पॊरुळ् नायऩार् (४) गुरुपूजै
 
-Observed on Uttaraphalgunī nakṣhatram day of Vṛścikaḥ (solar) month (praatah/paraviddha).  
+Observed on Uttaraphalgunī nakshatra of Vṛścikaḥ (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -20382,7 +20382,7 @@ ___________________
 ### उत्सवाः
 #### आऩाय नायऩार् (१३) गुरुपूजै
 
-Observed on Hastaḥ nakṣhatram day of Vṛścikaḥ (solar) month (praatah/paraviddha).  
+Observed on Hastaḥ nakshatra of Vṛścikaḥ (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -20705,7 +20705,7 @@ Have darshan of Moon today, chanting the following shloka
 
 #### मूर्क्ख नायऩार् (३१) गुरुपूजै
 
-Observed on Mūlā nakṣhatram day of Vṛścikaḥ (solar) month (praatah/paraviddha).  
+Observed on Mūlā nakshatra of Vṛścikaḥ (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -20753,7 +20753,7 @@ ___________________
 ### उत्सवाः
 #### चिऱप्पुलि नायऩार् (३४) गुरुपूजै
 
-Observed on Pūrvāṣāḍhā nakṣhatram day of Vṛścikaḥ (solar) month (praatah/paraviddha).  
+Observed on Pūrvāṣāḍhā nakshatra of Vṛścikaḥ (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -20838,7 +20838,7 @@ Do puja to Surya/Suryanamaskaram.
 
 #### श्रवण-व्रतम्
 
-Observed on Śravaṇaḥ nakṣhatram day of every solar month (saangava/puurvaviddha (default)).  
+Observed on Śravaṇaḥ nakshatra of every solar month (saangava/puurvaviddha (default)).  
 
 
 ##### Details
@@ -21159,7 +21159,7 @@ ___________________
 ### उत्सवाः
 #### व्यतीपात-श्राद्धम्
 
-Observed on  of every solar month (aparaahna/vyaapti).  
+Observed on Vyatīpātaḥ yoga of every solar month (aparaahna/vyaapti).  
 Vyatipata Shraddha day.
 
 ##### Details
@@ -21273,7 +21273,7 @@ ___________________
 ### उत्सवाः
 #### भरणी-दीपम्
 
-Observed on Apabharaṇī nakṣhatram day of Vṛścikaḥ (solar) month (sunrise/paraviddha).  
+Observed on Apabharaṇī nakshatra of Vṛścikaḥ (solar) month (sunrise/paraviddha).  
 
 
 ##### Details
@@ -21283,7 +21283,7 @@ Observed on Apabharaṇī nakṣhatram day of Vṛścikaḥ (solar) month (sunri
 
 #### कार्त्तिगै
 
-Observed on Kṛttikā nakṣhatram day of Vṛścikaḥ (solar) month (raatrimaana/puurvaviddha).  
+Observed on Kṛttikā nakshatra of Vṛścikaḥ (solar) month (raatrimaana/puurvaviddha).  
 
 
 ##### Details
@@ -21311,7 +21311,7 @@ Read कैशिक पुराणम् on this day. Special celebrations in 
 
 #### तिरुवण्णामलै-दीपम्
 
-Observed on Kṛttikā nakṣhatram day of Vṛścikaḥ (solar) month (raatrimaana/puurvaviddha).  
+Observed on Kṛttikā nakshatra of Vṛścikaḥ (solar) month (raatrimaana/puurvaviddha).  
 
 
 ##### Details
@@ -21349,7 +21349,7 @@ ___________________
 ### उत्सवाः
 #### कृत्तिका-व्रतम्
 
-Observed on Kṛttikā nakṣhatram day of every solar month (sunset/puurvaviddha (default)).  
+Observed on Kṛttikā nakshatra of every solar month (sunset/puurvaviddha (default)).  
 कृत्तिका-व्रतम् for Lord Subrahmanya. Observe fast for the entire day, and obtain blessings of all the कृत्तिका-स्त्रियः who raised स्कन्द after His birth.
 
 ##### Details
@@ -21359,7 +21359,7 @@ Observed on Kṛttikā nakṣhatram day of every solar month (sunset/puurvaviddh
 
 #### कणम्पुल्ल नायऩार् (४६) गुरुपूजै
 
-Observed on Kṛttikā nakṣhatram day of Vṛścikaḥ (solar) month (praatah/paraviddha).  
+Observed on Kṛttikā nakshatra of Vṛścikaḥ (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -21369,7 +21369,7 @@ Observed on Kṛttikā nakṣhatram day of Vṛścikaḥ (solar) month (praatah/
 
 #### तिरुमङ्गैयाऴ्वार् तिरुनक्षत्तिरम्
 
-Observed on Kṛttikā nakṣhatram day of Vṛścikaḥ (solar) month (praatah/paraviddha).  
+Observed on Kṛttikā nakshatra of Vṛścikaḥ (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -21829,7 +21829,7 @@ ___________________
 ### उत्सवाः
 #### इयऱ्पगै नायऩार् (२) गुरुपूजै
 
-Observed on Uttaraphalgunī nakṣhatram day of Dhanuḥ (solar) month (praatah/paraviddha).  
+Observed on Uttaraphalgunī nakshatra of Dhanuḥ (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -21980,7 +21980,7 @@ ___________________
 - →20:55
 #### माऩक्कञ्चाऱ नायऩार् (११) गुरुपूजै
 
-Observed on Svātī nakṣhatram day of Dhanuḥ (solar) month (praatah/paraviddha).  
+Observed on Svātī nakshatra of Dhanuḥ (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -22186,7 +22186,7 @@ The preceptor, son of Mahādeva, who lived on the banks of river Vegavati, known
 
 #### तॊण्डरडिप्पॊडियाऴ्वार् तिरुनक्षत्तिरम्
 
-Observed on Jyeṣṭhā nakṣhatram day of Dhanuḥ (solar) month (praatah/paraviddha).  
+Observed on Jyeṣṭhā nakshatra of Dhanuḥ (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -22272,7 +22272,7 @@ ___________________
 ### उत्सवाः
 #### चाक्किय नायऩार् (३३) गुरुपूजै
 
-Observed on Pūrvāṣāḍhā nakṣhatram day of Dhanuḥ (solar) month (praatah/paraviddha).  
+Observed on Pūrvāṣāḍhā nakshatra of Dhanuḥ (solar) month (praatah/paraviddha).  
 
 
 ##### Details
@@ -22350,7 +22350,7 @@ ___________________
 ### उत्सवाः
 #### श्रवण-व्रतम्
 
-Observed on Śravaṇaḥ nakṣhatram day of every solar month (saangava/puurvaviddha (default)).  
+Observed on Śravaṇaḥ nakshatra of every solar month (saangava/puurvaviddha (default)).  
 
 
 ##### Details

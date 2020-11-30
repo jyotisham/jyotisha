@@ -58,6 +58,11 @@ class AngaType(common.JsonObject):
     # Overriding for speed.
     return self.name == other.name
 
+  @classmethod
+  def from_name(cls, name):
+    return NAME_TO_TYPE[name.upper()]
+
+
 
 AngaType.TITHI = AngaType(name='TITHI', name_hk="tithiH", num_angas=30, weight_moon=1, weight_sun=-1, mean_period_days=29.530588)
 AngaType.TITHI_PADA = AngaType(name='TITHI_PADA', name_hk="tithi-pAdaH", num_angas=120, weight_moon=1, weight_sun=-1, mean_period_days=29.530588)

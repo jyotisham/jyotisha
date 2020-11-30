@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20201130213330
+SEQUENCE:20201130221609
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -4211,11 +4211,11 @@ BEGIN:VEVENT
 SUMMARY:ऋग्वेद-उपाकर्म
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200707T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200708T000000
-DESCRIPTION:Observed on Śravaṇaḥ nakṣhatram day of Śrāvaṇaḥ (
- lunar) month (sunrise (default)/paraviddha).  <br/><br/><br/>##### Details
- <br/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tre
- e/master/gRhya/general/lunar_month/nakshatra/05/22/RgvEda-upAkarma__info.t
- oml)<br/>- Tags: CommonFestivals
+DESCRIPTION:Observed on Śravaṇaḥ nakshatra of Śrāvaṇaḥ (lunar) 
+ month (sunrise (default)/paraviddha).  <br/><br/><br/>##### Details<br/>- 
+ [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/maste
+ r/gRhya/general/lunar_month/nakshatra/05/22/RgvEda-upAkarma__info.toml)<br
+ />- Tags: CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5972,11 +5972,11 @@ BEGIN:VEVENT
 SUMMARY:सामवेद-उपाकर्म
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200822T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200823T000000
-DESCRIPTION:Observed on Hastaḥ nakṣhatram day of Siṃhaḥ (solar) mo
- nth (sunrise (default)/puurvaviddha (default)).  <br/><br/><br/>##### Deta
- ils<br/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi/
- tree/master/gRhya/general/sidereal_solar_month/nakshatra/05/13/sAmavEda-up
- Akarma__info.toml)<br/>- Tags: CommonFestivals
+DESCRIPTION:Observed on Hastaḥ nakshatra of Siṃhaḥ (solar) month (su
+ nrise (default)/puurvaviddha (default)).  <br/><br/><br/>##### Details<br/
+ >- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/ma
+ ster/gRhya/general/sidereal_solar_month/nakshatra/05/13/sAmavEda-upAkarma_
+ _info.toml)<br/>- Tags: CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE

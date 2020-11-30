@@ -3,6 +3,7 @@ import logging
 from indic_transliteration import sanscript
 from jyotisha import custom_transliteration
 from jyotisha.names import get_chandra_masa, NAMES
+from jyotisha.panchaanga.temporal import AngaType
 
 
 def transliterate_quoted_text(text, script):
@@ -122,10 +123,9 @@ def get_timing_summary(rule):
     #   anga = custom_transliteration.tr(rule.name, sanscript.DEVANAGARI).replace("~", " ") + ' is observed on '
     angam = 'Observed on '
 
-    if rule.timing.anga_type == 'tithi':
-      angam += NAMES['TITHI_NAMES'][sanscript.IAST][rule.timing.anga_number] + ' tithi'
-    elif rule.timing.anga_type == 'nakshatra':
-      angam += NAMES['NAKSHATRA_NAMES'][sanscript.IAST][rule.timing.anga_number] + ' nakṣhatram day'
+    if rule.timing.anga_type in ['tithi', 'yoga', 'nakshatra']:
+      anga_type = AngaType.from_name(name=rule.timing.anga_type)
+      angam += '%s %s' % (anga_type.names_dict[sanscript.IAST][rule.timing.anga_number], rule.timing.anga_type)
     elif rule.timing.anga_type == 'day':
       angam += 'day %d' % rule.timing.anga_number
   else:

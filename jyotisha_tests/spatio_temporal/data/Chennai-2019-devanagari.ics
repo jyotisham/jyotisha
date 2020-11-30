@@ -255,11 +255,11 @@ BEGIN:VEVENT
 SUMMARY:Tôṇḍaraḍippôḍiyāḽvār Tirunakṣattiram
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190103T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190104T235957
-DESCRIPTION:Observed on Jyeṣṭhā nakṣhatram day of Dhanuḥ (solar) 
- month (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit conf
- ig file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuru
- Sha/ALvAr/sidereal_solar_month/nakshatra/09/18/toNDaraDippoDiyAzhvAr%20tir
- unakSattiram__info.toml)<br/>- Tags: MahapurushaEvents AzhwarJayanti
+DESCRIPTION:Observed on Jyeṣṭhā nakshatra of Dhanuḥ (solar) month (
+ praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config file
+ ](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/ALv
+ Ar/sidereal_solar_month/nakshatra/09/18/toNDaraDippoDiyAzhvAr%20tirunakSat
+ tiram__info.toml)<br/>- Tags: MahapurushaEvents AzhwarJayanti
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -407,11 +407,11 @@ BEGIN:VEVENT
 SUMMARY:Chākkiya Nāyanār (33) Gurupūjai
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190105T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190106T235957
-DESCRIPTION:Observed on Pūrvāṣāḍhā nakṣhatram day of Dhanuḥ (s
- olar) month (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edi
- t config file](https://github.com/sanskrit-coders/adyatithi/tree/master/ma
- hApuruSha/nAyanAr/sidereal_solar_month/nakshatra/09/20/cAkkiya%20nAyan2Ar%
- 20%2833%29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
+DESCRIPTION:Observed on Pūrvāṣāḍhā nakshatra of Dhanuḥ (solar) m
+ onth (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit confi
+ g file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruS
+ ha/nAyanAr/sidereal_solar_month/nakshatra/09/20/cAkkiya%20nAyan2Ar%20%2833
+ %29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -503,11 +503,11 @@ BEGIN:VEVENT
 SUMMARY:Śravaṇa-Vratam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190107T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190108T235957
-DESCRIPTION:Observed on Śravaṇaḥ nakṣhatram day of every solar mont
- h (saangava/puurvaviddha (default)).  <br/><br/><br/>##### Details<br/>- [
- Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master
- /general/sidereal_solar_month/nakshatra/00/22/zravaNa-vratam__info.toml)<b
- r/>- Tags: SpecialVratam
+DESCRIPTION:Observed on Śravaṇaḥ nakshatra of every solar month (saan
+ gava/puurvaviddha (default)).  <br/><br/><br/>##### Details<br/>- [Edit co
+ nfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/genera
+ l/sidereal_solar_month/nakshatra/00/22/zravaNa-vratam__info.toml)<br/>- Ta
+ gs: SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -580,11 +580,12 @@ BEGIN:VEVENT
 SUMMARY:Mahādhanurvyatīpāta-Snānam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190109T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190110T235957
-DESCRIPTION:Observed on  of Dhanuḥ (solar) month (preceeding_arunodaya/p
- uurvaviddha).  <br/>Special snānam on account of mahādhanurvyatīpātam.
- <br/><br/>##### Details<br/>- [Edit config file](https://github.com/sanskr
- it-coders/adyatithi/tree/master/time_focus/misc/sidereal_solar_month/yoga/
- 09/17/mahAdhanurvyatIpAta-snAnam__info.toml)<br/>- Tags: SpecialSnanam
+DESCRIPTION:Observed on Vyatīpātaḥ yoga of Dhanuḥ (solar) month (pre
+ ceeding_arunodaya/puurvaviddha).  <br/>Special snānam on account of mahā
+ dhanurvyatīpātam.<br/><br/>##### Details<br/>- [Edit config file](https:
+ //github.com/sanskrit-coders/adyatithi/tree/master/time_focus/misc/siderea
+ l_solar_month/yoga/09/17/mahAdhanurvyatIpAta-snAnam__info.toml)<br/>- Tags
+ : SpecialSnanam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -816,11 +817,11 @@ BEGIN:VEVENT
 SUMMARY:Vāyilār Nāyanār (49) Gurupūjai
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190113T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190114T235957
-DESCRIPTION:Observed on Revatī nakṣhatram day of Dhanuḥ (solar) month
-  (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config fi
- le](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/n
- AyanAr/sidereal_solar_month/nakshatra/09/27/vAyilAr%20nAyan2Ar%20%2849%29%
- 20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
+DESCRIPTION:Observed on Revatī nakshatra of Dhanuḥ (solar) month (praat
+ ah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config file](htt
+ ps://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/nAyanAr/
+ sidereal_solar_month/nakshatra/09/27/vAyilAr%20nAyan2Ar%20%2849%29%20gurup
+ Ujai__info.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -977,13 +978,13 @@ BEGIN:VEVENT
 SUMMARY:Kṛttikā-Vratam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190115T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190116T235957
-DESCRIPTION:Observed on Kṛttikā nakṣhatram day of every solar month (
- sunset/puurvaviddha (default)).  <br/>kṛttikā-vratam for Lord Subrahman
- ya. Observe fast for the entire day\, and obtain blessings of all the kṛ
- ttikā-striyaḥ who raised skanda after His birth.<br/><br/>##### Details
- <br/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tre
- e/master/devatA/kaumAra/sidereal_solar_month/nakshatra/00/03/kRttikA-vrata
- m__info.toml)<br/>- Tags: SpecialVratam
+DESCRIPTION:Observed on Kṛttikā nakshatra of every solar month (sunset/
+ puurvaviddha (default)).  <br/>kṛttikā-vratam for Lord Subrahmanya. Obs
+ erve fast for the entire day\, and obtain blessings of all the kṛttikā-
+ striyaḥ who raised skanda after His birth.<br/><br/>##### Details<br/>- 
+ [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/maste
+ r/devatA/kaumAra/sidereal_solar_month/nakshatra/00/03/kRttikA-vratam__info
+ .toml)<br/>- Tags: SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1098,11 +1099,11 @@ BEGIN:VEVENT
 SUMMARY:Tai Kiruttikai
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190116T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190117T235957
-DESCRIPTION:Observed on Kṛttikā nakṣhatram day of Makaraḥ (solar) m
- onth (sunrise/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit con
- fig file](https://github.com/sanskrit-coders/adyatithi/tree/master/temples
- /Tamil/sidereal_solar_month/nakshatra/10/03/tai%20kiruttikai__info.toml)<b
- r/>- Tags: TamilnaduTempleFestivals
+DESCRIPTION:Observed on Kṛttikā nakshatra of Makaraḥ (solar) month (s
+ unrise/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit config fil
+ e](https://github.com/sanskrit-coders/adyatithi/tree/master/temples/Tamil/
+ sidereal_solar_month/nakshatra/10/03/tai%20kiruttikai__info.toml)<br/>- Ta
+ gs: TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1249,11 +1250,11 @@ BEGIN:VEVENT
 SUMMARY:Arivāṭṭāya Nāyanār (12) Gurupūjai
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190118T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190119T235957
-DESCRIPTION:Observed on Ārdrā nakṣhatram day of Makaraḥ (solar) mont
- h (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config f
- ile](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/
- nAyanAr/sidereal_solar_month/nakshatra/10/06/arivATTAya%20nAyan2Ar%20%2812
- %29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
+DESCRIPTION:Observed on Ārdrā nakshatra of Makaraḥ (solar) month (praa
+ tah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config file](ht
+ tps://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/nAyanAr
+ /sidereal_solar_month/nakshatra/10/06/arivATTAya%20nAyan2Ar%20%2812%29%20g
+ urupUjai__info.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1266,11 +1267,11 @@ BEGIN:VEVENT
 SUMMARY:Kaṇṇappa Nāyanār (9) Gurupūjai
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190118T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190119T235957
-DESCRIPTION:Observed on Mṛgaśīrṣam nakṣhatram day of Makaraḥ (so
- lar) month (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit
-  config file](https://github.com/sanskrit-coders/adyatithi/tree/master/mah
- ApuruSha/nAyanAr/sidereal_solar_month/nakshatra/10/05/kaNNappa%20nAyan2Ar%
- 20%289%29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
+DESCRIPTION:Observed on Mṛgaśīrṣam nakshatra of Makaraḥ (solar) mo
+ nth (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config
+  file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSh
+ a/nAyanAr/sidereal_solar_month/nakshatra/10/05/kaNNappa%20nAyan2Ar%20%289%
+ 29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1367,11 +1368,11 @@ BEGIN:VEVENT
 SUMMARY:Taippūcham
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190119T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190120T235957
-DESCRIPTION:Observed on Puṣyaḥ nakṣhatram day of Makaraḥ (solar) m
- onth (raatrimaana/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit
-  config file](https://github.com/sanskrit-coders/adyatithi/tree/master/tem
- ples/Tamil/sidereal_solar_month/nakshatra/10/08/taippUcam__info.toml)<br/>
- - Tags: TamilnaduTempleFestivals CommonFestivals
+DESCRIPTION:Observed on Puṣyaḥ nakshatra of Makaraḥ (solar) month (r
+ aatrimaana/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit config
+  file](https://github.com/sanskrit-coders/adyatithi/tree/master/temples/Ta
+ mil/sidereal_solar_month/nakshatra/10/08/taippUcam__info.toml)<br/>- Tags:
+  TamilnaduTempleFestivals CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1403,11 +1404,11 @@ BEGIN:VEVENT
 SUMMARY:Vaidhṛti-Śrāddham
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190119T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190120T235957
-DESCRIPTION:Observed on  of every solar month (aparaahna/vyaapti).  <br/>V
- aidhrti Shraddha day.<br/><br/>##### Details<br/>- [Edit config file](http
- s://github.com/sanskrit-coders/adyatithi/tree/master/devatA/pitR/sidereal_
- solar_month/yoga/00/27/vaidhRti-zrAddham__info.toml)<br/>- Tags: MonthlySh
- raddhaDays ShannavatiTarpanaDays
+DESCRIPTION:Observed on Vaidhṛtiḥ yoga of every solar month (aparaahna
+ /vyaapti).  <br/>Vaidhrti Shraddha day.<br/><br/>##### Details<br/>- [Edit
+  config file](https://github.com/sanskrit-coders/adyatithi/tree/master/dev
+ atA/pitR/sidereal_solar_month/yoga/00/27/vaidhRti-zrAddham__info.toml)<br/
+ >- Tags: MonthlyShraddhaDays ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1646,11 +1647,11 @@ BEGIN:VEVENT
 SUMMARY:Tirumaḽichaiyāḽvār Tirunakṣattiram
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190122T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190123T235957
-DESCRIPTION:Observed on Maghā nakṣhatram day of Makaraḥ (solar) month
-  (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config fi
- le](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/A
- LvAr/sidereal_solar_month/nakshatra/10/10/tirumazhicaiyAzhvAr%20tirunakSat
- tiram__info.toml)<br/>- Tags: MahapurushaEvents AzhwarJayanti
+DESCRIPTION:Observed on Maghā nakshatra of Makaraḥ (solar) month (praat
+ ah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config file](htt
+ ps://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/ALvAr/si
+ dereal_solar_month/nakshatra/10/10/tirumazhicaiyAzhvAr%20tirunakSattiram__
+ info.toml)<br/>- Tags: MahapurushaEvents AzhwarJayanti
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1760,11 +1761,11 @@ BEGIN:VEVENT
 SUMMARY:Chaṇḍeśvara Nāyanār (19) Gurupūjai
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190124T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190125T235957
-DESCRIPTION:Observed on Uttaraphalgunī nakṣhatram day of Makaraḥ (sol
- ar) month (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit 
- config file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahA
- puruSha/nAyanAr/sidereal_solar_month/nakshatra/10/12/caNDEzvara%20nAyan2Ar
- %20%2819%29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
+DESCRIPTION:Observed on Uttaraphalgunī nakshatra of Makaraḥ (solar) mon
+ th (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config 
+ file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha
+ /nAyanAr/sidereal_solar_month/nakshatra/10/12/caNDEzvara%20nAyan2Ar%20%281
+ 9%29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1841,13 +1842,13 @@ BEGIN:VEVENT
 SUMMARY:Śrī Śeṣādri-Svāmī Jayantī
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190125T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190126T235957
-DESCRIPTION:Observed on Hastaḥ nakṣhatram day of Makaraḥ (solar) mon
- th (praatah/paraviddha).  <br/><br/><br/>karuṇāsāgaraṃ śāntam aru
- ṇāchalavāsinam|<br/>śrīśeṣādriguruṃ vande brahmībhūtaṃ tap
- onidhim||<br/><br/><br/><br/>##### Details<br/>- [Edit config file](https:
- //github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/general/sid
- ereal_solar_month/nakshatra/10/13/zrI~zESAdri-svAmI~jayantI__info.toml)<br
- />- Tags: MahapurushaEvents
+DESCRIPTION:Observed on Hastaḥ nakshatra of Makaraḥ (solar) month (pra
+ atah/paraviddha).  <br/><br/><br/>karuṇāsāgaraṃ śāntam aruṇācha
+ lavāsinam|<br/>śrīśeṣādriguruṃ vande brahmībhūtaṃ taponidhim|
+ |<br/><br/><br/><br/>##### Details<br/>- [Edit config file](https://github
+ .com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/general/sidereal_so
+ lar_month/nakshatra/10/13/zrI~zESAdri-svAmI~jayantI__info.toml)<br/>- Tags
+ : MahapurushaEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2053,11 +2054,11 @@ BEGIN:VEVENT
 SUMMARY:Tirunīlakaṇṭha Nāyanār (1) Gurupūjai
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190128T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190129T235957
-DESCRIPTION:Observed on Viśākhā nakṣhatram day of Makaraḥ (solar) m
- onth (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit confi
- g file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruS
- ha/nAyanAr/sidereal_solar_month/nakshatra/10/16/tirunIlakaNTha%20nAyan2Ar%
- 20%281%29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
+DESCRIPTION:Observed on Viśākhā nakshatra of Makaraḥ (solar) month (p
+ raatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config file]
+ (https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/nAya
+ nAr/sidereal_solar_month/nakshatra/10/16/tirunIlakaNTha%20nAyan2Ar%20%281%
+ 29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2475,11 +2476,11 @@ BEGIN:VEVENT
 SUMMARY:Vyatīpāta-Śrāddham
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190203T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190204T235957
-DESCRIPTION:Observed on  of every solar month (aparaahna/vyaapti).  <br/>V
- yatipata Shraddha day.<br/><br/>##### Details<br/>- [Edit config file](htt
- ps://github.com/sanskrit-coders/adyatithi/tree/master/devatA/pitR/sidereal
- _solar_month/yoga/00/17/vyatIpAta-zrAddham__info.toml)<br/>- Tags: Monthly
- ShraddhaDays ShannavatiTarpanaDays
+DESCRIPTION:Observed on Vyatīpātaḥ yoga of every solar month (aparaahn
+ a/vyaapti).  <br/>Vyatipata Shraddha day.<br/><br/>##### Details<br/>- [Ed
+ it config file](https://github.com/sanskrit-coders/adyatithi/tree/master/d
+ evatA/pitR/sidereal_solar_month/yoga/00/17/vyatIpAta-zrAddham__info.toml)<
+ br/>- Tags: MonthlyShraddhaDays ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2492,11 +2493,11 @@ BEGIN:VEVENT
 SUMMARY:Śravaṇa-Vratam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190203T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190204T235957
-DESCRIPTION:Observed on Śravaṇaḥ nakṣhatram day of every solar mont
- h (saangava/puurvaviddha (default)).  <br/><br/><br/>##### Details<br/>- [
- Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master
- /general/sidereal_solar_month/nakshatra/00/22/zravaNa-vratam__info.toml)<b
- r/>- Tags: SpecialVratam
+DESCRIPTION:Observed on Śravaṇaḥ nakshatra of every solar month (saan
+ gava/puurvaviddha (default)).  <br/><br/><br/>##### Details<br/>- [Edit co
+ nfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/genera
+ l/sidereal_solar_month/nakshatra/00/22/zravaNa-vratam__info.toml)<br/>- Ta
+ gs: SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2636,11 +2637,11 @@ BEGIN:VEVENT
 SUMMARY:Appūdiyaḍigaḻ Nāyanār (24) Gurupūjai
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190206T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190207T235957
-DESCRIPTION:Observed on Śatabhiṣak nakṣhatram day of Makaraḥ (solar
- ) month (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit co
- nfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApu
- ruSha/nAyanAr/sidereal_solar_month/nakshatra/10/24/appUdiyaDigaL%20nAyan2A
- r%20%2824%29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
+DESCRIPTION:Observed on Śatabhiṣak nakshatra of Makaraḥ (solar) month
+  (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config fi
+ le](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/n
+ AyanAr/sidereal_solar_month/nakshatra/10/24/appUdiyaDigaL%20nAyan2Ar%20%28
+ 24%29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2828,11 +2829,11 @@ BEGIN:VEVENT
 SUMMARY:Kalikkamba Nāyanār (42) Gurupūjai
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190209T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190210T235957
-DESCRIPTION:Observed on Revatī nakṣhatram day of Makaraḥ (solar) mont
- h (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config f
- ile](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/
- nAyanAr/sidereal_solar_month/nakshatra/10/27/kalikkamba%20nAyan2Ar%20%2842
- %29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
+DESCRIPTION:Observed on Revatī nakshatra of Makaraḥ (solar) month (praa
+ tah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config file](ht
+ tps://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/nAyanAr
+ /sidereal_solar_month/nakshatra/10/27/kalikkamba%20nAyan2Ar%20%2842%29%20g
+ urupUjai__info.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3001,12 +3002,11 @@ BEGIN:VEVENT
 SUMMARY:Tirunêlveli Nêllaiyappar Nêllukku Veli Kaṭṭiya Līlai
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190210T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190211T235957
-DESCRIPTION:Observed on Aśvinī nakṣhatram day of Makaraḥ (solar) mon
- th (sunrise/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit confi
- g file](https://github.com/sanskrit-coders/adyatithi/tree/master/temples/T
- amil/sidereal_solar_month/nakshatra/10/01/tirunelvEli%20nellaiyappar%20nel
- lukku%20vEli%20kaTTiya%20lIlai__info.toml)<br/>- Tags: TamilnaduTempleFest
- ivals
+DESCRIPTION:Observed on Aśvinī nakshatra of Makaraḥ (solar) month (sun
+ rise/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit config file]
+ (https://github.com/sanskrit-coders/adyatithi/tree/master/temples/Tamil/si
+ dereal_solar_month/nakshatra/10/01/tirunelvEli%20nellaiyappar%20nellukku%2
+ 0vEli%20kaTTiya%20lIlai__info.toml)<br/>- Tags: TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3601,11 +3601,11 @@ BEGIN:VEVENT
 SUMMARY:Kulaśekhara Āḽvār Tirunakṣattiram
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190216T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190217T235957
-DESCRIPTION:Observed on Punarvasuḥ nakṣhatram day of Kumbhaḥ (solar)
-  month (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit con
- fig file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApur
- uSha/ALvAr/sidereal_solar_month/nakshatra/11/07/kulazEkhara%20AzhvAr%20tir
- unakSattiram__info.toml)<br/>- Tags: MahapurushaEvents AzhwarJayanti
+DESCRIPTION:Observed on Punarvasuḥ nakshatra of Kumbhaḥ (solar) month 
+ (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config fil
+ e](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/AL
+ vAr/sidereal_solar_month/nakshatra/11/07/kulazEkhara%20AzhvAr%20tirunakSat
+ tiram__info.toml)<br/>- Tags: MahapurushaEvents AzhwarJayanti
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3995,11 +3995,11 @@ BEGIN:VEVENT
 SUMMARY:Māchi Magham
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190219T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190220T235957
-DESCRIPTION:Observed on Maghā nakṣhatram day of Kumbhaḥ (solar) month
-  (sunrise (default)/puurvaviddha (default)).  <br/><br/><br/>##### Details
- <br/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tre
- e/master/temples/Tamil/sidereal_solar_month/nakshatra/11/10/mAci~magham__i
- nfo.toml)<br/>- Tags: TamilnaduTempleFestivals CommonFestivals
+DESCRIPTION:Observed on Maghā nakshatra of Kumbhaḥ (solar) month (sunri
+ se (default)/puurvaviddha (default)).  <br/><br/><br/>##### Details<br/>- 
+ [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/maste
+ r/temples/Tamil/sidereal_solar_month/nakshatra/11/10/mAci~magham__info.tom
+ l)<br/>- Tags: TamilnaduTempleFestivals CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4092,11 +4092,11 @@ BEGIN:VEVENT
 SUMMARY:Êr̂Ipatta Nāyanār (7) Gurupūjai
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190221T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190222T235957
-DESCRIPTION:Observed on Hastaḥ nakṣhatram day of Kumbhaḥ (solar) mon
- th (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config 
- file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha
- /nAyanAr/sidereal_solar_month/nakshatra/11/13/er2ipatta%20nAyan2Ar%20%287%
- 29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
+DESCRIPTION:Observed on Hastaḥ nakshatra of Kumbhaḥ (solar) month (pra
+ atah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config file](h
+ ttps://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/nAyanA
+ r/sidereal_solar_month/nakshatra/11/13/er2ipatta%20nAyan2Ar%20%287%29%20gu
+ rupUjai__info.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4458,11 +4458,11 @@ BEGIN:VEVENT
 SUMMARY:Kāri Nāyanār (47) Gurupūjai
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190228T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190301T235957
-DESCRIPTION:Observed on Pūrvāṣāḍhā nakṣhatram day of Kumbhaḥ (
- solar) month (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Ed
- it config file](https://github.com/sanskrit-coders/adyatithi/tree/master/m
- ahApuruSha/nAyanAr/sidereal_solar_month/nakshatra/11/20/kAri%20nAyan2Ar%20
- %2847%29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
+DESCRIPTION:Observed on Pūrvāṣāḍhā nakshatra of Kumbhaḥ (solar) 
+ month (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit conf
+ ig file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuru
+ Sha/nAyanAr/sidereal_solar_month/nakshatra/11/20/kAri%20nAyan2Ar%20%2847%2
+ 9%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4475,11 +4475,11 @@ BEGIN:VEVENT
 SUMMARY:Vyatīpāta-Śrāddham
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190228T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190301T235957
-DESCRIPTION:Observed on  of every solar month (aparaahna/vyaapti).  <br/>V
- yatipata Shraddha day.<br/><br/>##### Details<br/>- [Edit config file](htt
- ps://github.com/sanskrit-coders/adyatithi/tree/master/devatA/pitR/sidereal
- _solar_month/yoga/00/17/vyatIpAta-zrAddham__info.toml)<br/>- Tags: Monthly
- ShraddhaDays ShannavatiTarpanaDays
+DESCRIPTION:Observed on Vyatīpātaḥ yoga of every solar month (aparaahn
+ a/vyaapti).  <br/>Vyatipata Shraddha day.<br/><br/>##### Details<br/>- [Ed
+ it config file](https://github.com/sanskrit-coders/adyatithi/tree/master/d
+ evatA/pitR/sidereal_solar_month/yoga/00/17/vyatIpAta-zrAddham__info.toml)<
+ br/>- Tags: MonthlyShraddhaDays ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4580,12 +4580,12 @@ SUMMARY:Kāñchī Jagadguru Śrī Śaṅkara Vijayendra Sarasvatī Jayant
  ī
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190302T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190303T235957
-DESCRIPTION:Observed on Uttarāṣāḍhā nakṣhatram day of Kumbhaḥ (
- solar) month (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Ed
- it config file](https://github.com/sanskrit-coders/adyatithi/tree/master/m
- ahApuruSha/kAnchI-maTha/sidereal_solar_month/nakshatra/11/21/kAJcI%20jagad
- guru%20zrI~zaGkara%20vijayEndra%20sarasvatI%20jayantI__info.toml)<br/>- Ta
- gs: MahapurushaEvents CommonFestivals
+DESCRIPTION:Observed on Uttarāṣāḍhā nakshatra of Kumbhaḥ (solar) 
+ month (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit conf
+ ig file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuru
+ Sha/kAnchI-maTha/sidereal_solar_month/nakshatra/11/21/kAJcI%20jagadguru%20
+ zrI~zaGkara%20vijayEndra%20sarasvatI%20jayantI__info.toml)<br/>- Tags: Mah
+ apurushaEvents CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4626,11 +4626,11 @@ BEGIN:VEVENT
 SUMMARY:Śravaṇa-Vratam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190302T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190303T235957
-DESCRIPTION:Observed on Śravaṇaḥ nakṣhatram day of every solar mont
- h (saangava/puurvaviddha (default)).  <br/><br/><br/>##### Details<br/>- [
- Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master
- /general/sidereal_solar_month/nakshatra/00/22/zravaNa-vratam__info.toml)<b
- r/>- Tags: SpecialVratam
+DESCRIPTION:Observed on Śravaṇaḥ nakshatra of every solar month (saan
+ gava/puurvaviddha (default)).  <br/><br/><br/>##### Details<br/>- [Edit co
+ nfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/genera
+ l/sidereal_solar_month/nakshatra/00/22/zravaNa-vratam__info.toml)<br/>- Ta
+ gs: SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4835,11 +4835,11 @@ BEGIN:VEVENT
 SUMMARY:Kôchchêṅgaṭ Choḽa Nāyanār (59) Gurupūjai
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190305T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190306T235957
-DESCRIPTION:Observed on Śatabhiṣak nakṣhatram day of Kumbhaḥ (solar
- ) month (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit co
- nfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApu
- ruSha/nAyanAr/sidereal_solar_month/nakshatra/11/24/kocceGgaT%20cOzha%20nAy
- an2Ar%20%2859%29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
+DESCRIPTION:Observed on Śatabhiṣak nakshatra of Kumbhaḥ (solar) month
+  (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config fi
+ le](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/n
+ AyanAr/sidereal_solar_month/nakshatra/11/24/kocceGgaT%20cOzha%20nAyan2Ar%2
+ 0%2859%29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5119,15 +5119,15 @@ BEGIN:VEVENT
 SUMMARY:Pūntānaṃ Jayantī
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190309T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190310T235957
-DESCRIPTION:Observed on Aśvinī nakṣhatram day of Kumbhaḥ (solar) mon
- th (sunrise (default)/puurvaviddha (default)).  <br/>Poonthanam\, a great 
- devotee of Guruvayurappan\, enriched Malayalam devotional literature with 
- his renowned poetic composition 'Jnanapana'\, a philosophical work of all 
- times. On this day\, recital of Poonthanam's works and debate takes place.
-  A one week literary festival is conducted at Poonthanam illam.<br/><br/>#
- #### Details<br/>- [Edit config file](https://github.com/sanskrit-coders/a
- dyatithi/tree/master/mahApuruSha/general/sidereal_solar_month/nakshatra/11
- /01/pUntAnaM~jayantI__info.toml)<br/>- Tags: MahapurushaEvents
+DESCRIPTION:Observed on Aśvinī nakshatra of Kumbhaḥ (solar) month (sun
+ rise (default)/puurvaviddha (default)).  <br/>Poonthanam\, a great devotee
+  of Guruvayurappan\, enriched Malayalam devotional literature with his ren
+ owned poetic composition 'Jnanapana'\, a philosophical work of all times. 
+ On this day\, recital of Poonthanam's works and debate takes place. A one 
+ week literary festival is conducted at Poonthanam illam.<br/><br/>##### De
+ tails<br/>- [Edit config file](https://github.com/sanskrit-coders/adyatith
+ i/tree/master/mahApuruSha/general/sidereal_solar_month/nakshatra/11/01/pUn
+ tAnaM~jayantI__info.toml)<br/>- Tags: MahapurushaEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5232,13 +5232,13 @@ BEGIN:VEVENT
 SUMMARY:Kṛttikā-Vratam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190311T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190312T235957
-DESCRIPTION:Observed on Kṛttikā nakṣhatram day of every solar month (
- sunset/puurvaviddha (default)).  <br/>kṛttikā-vratam for Lord Subrahman
- ya. Observe fast for the entire day\, and obtain blessings of all the kṛ
- ttikā-striyaḥ who raised skanda after His birth.<br/><br/>##### Details
- <br/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tre
- e/master/devatA/kaumAra/sidereal_solar_month/nakshatra/00/03/kRttikA-vrata
- m__info.toml)<br/>- Tags: SpecialVratam
+DESCRIPTION:Observed on Kṛttikā nakshatra of every solar month (sunset/
+ puurvaviddha (default)).  <br/>kṛttikā-vratam for Lord Subrahmanya. Obs
+ erve fast for the entire day\, and obtain blessings of all the kṛttikā-
+ striyaḥ who raised skanda after His birth.<br/><br/>##### Details<br/>- 
+ [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/maste
+ r/devatA/kaumAra/sidereal_solar_month/nakshatra/00/03/kRttikA-vratam__info
+ .toml)<br/>- Tags: SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5283,11 +5283,11 @@ BEGIN:VEVENT
 SUMMARY:Vaidhṛti-Śrāddham
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190311T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190312T235957
-DESCRIPTION:Observed on  of every solar month (aparaahna/vyaapti).  <br/>V
- aidhrti Shraddha day.<br/><br/>##### Details<br/>- [Edit config file](http
- s://github.com/sanskrit-coders/adyatithi/tree/master/devatA/pitR/sidereal_
- solar_month/yoga/00/27/vaidhRti-zrAddham__info.toml)<br/>- Tags: MonthlySh
- raddhaDays ShannavatiTarpanaDays
+DESCRIPTION:Observed on Vaidhṛtiḥ yoga of every solar month (aparaahna
+ /vyaapti).  <br/>Vaidhrti Shraddha day.<br/><br/>##### Details<br/>- [Edit
+  config file](https://github.com/sanskrit-coders/adyatithi/tree/master/dev
+ atA/pitR/sidereal_solar_month/yoga/00/27/vaidhRti-zrAddham__info.toml)<br/
+ >- Tags: MonthlyShraddhaDays ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5628,11 +5628,11 @@ BEGIN:VEVENT
 SUMMARY:Munaiyaḍuvār Nāyanār (50) Gurupūjai
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190316T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190317T235957
-DESCRIPTION:Observed on Puṣyaḥ nakṣhatram day of Mīnaḥ (solar) mo
- nth (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config
-  file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSh
- a/nAyanAr/sidereal_solar_month/nakshatra/12/08/mun2aiyaDuvAr%20nAyan2Ar%20
- %2850%29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
+DESCRIPTION:Observed on Puṣyaḥ nakshatra of Mīnaḥ (solar) month (pr
+ aatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config file](
+ https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/nAyan
+ Ar/sidereal_solar_month/nakshatra/12/08/mun2aiyaDuvAr%20nAyan2Ar%20%2850%2
+ 9%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6180,11 +6180,11 @@ BEGIN:VEVENT
 SUMMARY:Paṅguni Uttiram
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190320T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190321T235957
-DESCRIPTION:Observed on Uttaraphalgunī nakṣhatram day of Mīnaḥ (sola
- r) month (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit c
- onfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/templ
- es/Tamil/sidereal_solar_month/nakshatra/12/12/paGgun2i~uttiram__info.toml)
- <br/>- Tags: TamilnaduTempleFestivals CommonFestivals
+DESCRIPTION:Observed on Uttaraphalgunī nakshatra of Mīnaḥ (solar) mont
+ h (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config f
+ ile](https://github.com/sanskrit-coders/adyatithi/tree/master/temples/Tami
+ l/sidereal_solar_month/nakshatra/12/12/paGgun2i~uttiram__info.toml)<br/>- 
+ Tags: TamilnaduTempleFestivals CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6292,15 +6292,15 @@ SUMMARY:Kāñchī Jagadguru Śrī Jayendra Sarasvatī Āśrama-Svīkāra-J
  ayantī
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190322T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190323T235957
-DESCRIPTION:Observed on Svātī nakṣhatram day of Mīnaḥ (solar) month
-  (praatah/paraviddha).  <br/>jagadguru śrī~jayendra sarasvatī was induc
- ted into the kāmakoṭi-pīṭham on 22nd March 1954\, vijaya year\, mīn
- a/phālguna māsa kṛṣṇa dvitīyā somavāsaraḥ chitrā upari svāt
- ī nakṣatram.<br/><br/>##### Details<br/>- [Edit config file](https://gi
- thub.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/si
- dereal_solar_month/nakshatra/12/15/kAJcI%20jagadguru%20zrI~jayEndra%20sara
- svatI%20Azrama-svIkAra-jayantI__info.toml)<br/>- Tags: MahapurushaEvents C
- ommonFestivals
+DESCRIPTION:Observed on Svātī nakshatra of Mīnaḥ (solar) month (praat
+ ah/paraviddha).  <br/>jagadguru śrī~jayendra sarasvatī was inducted int
+ o the kāmakoṭi-pīṭham on 22nd March 1954\, vijaya year\, mīna/phāl
+ guna māsa kṛṣṇa dvitīyā somavāsaraḥ chitrā upari svātī nak
+ ṣatram.<br/><br/>##### Details<br/>- [Edit config file](https://github.c
+ om/sanskrit-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/sidereal
+ _solar_month/nakshatra/12/15/kAJcI%20jagadguru%20zrI~jayEndra%20sarasvatI%
+ 20Azrama-svIkAra-jayantI__info.toml)<br/>- Tags: MahapurushaEvents CommonF
+ estivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6313,11 +6313,11 @@ BEGIN:VEVENT
 SUMMARY:Kāraikkāl Ammaiyār (23) Gurupūjai
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190322T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190323T235957
-DESCRIPTION:Observed on Svātī nakṣhatram day of Mīnaḥ (solar) month
-  (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config fi
- le](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/n
- AyanAr/sidereal_solar_month/nakshatra/12/15/kAraikkAl%20ammaiyAr%20%2823%2
- 9%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
+DESCRIPTION:Observed on Svātī nakshatra of Mīnaḥ (solar) month (praat
+ ah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config file](htt
+ ps://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/nAyanAr/
+ sidereal_solar_month/nakshatra/12/15/kAraikkAl%20ammaiyAr%20%2823%29%20gur
+ upUjai__info.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6503,11 +6503,11 @@ BEGIN:VEVENT
 SUMMARY:Vyatīpāta-Śrāddham
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190326T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190327T235957
-DESCRIPTION:Observed on  of every solar month (aparaahna/vyaapti).  <br/>V
- yatipata Shraddha day.<br/><br/>##### Details<br/>- [Edit config file](htt
- ps://github.com/sanskrit-coders/adyatithi/tree/master/devatA/pitR/sidereal
- _solar_month/yoga/00/17/vyatIpAta-zrAddham__info.toml)<br/>- Tags: Monthly
- ShraddhaDays ShannavatiTarpanaDays
+DESCRIPTION:Observed on Vyatīpātaḥ yoga of every solar month (aparaahn
+ a/vyaapti).  <br/>Vyatipata Shraddha day.<br/><br/>##### Details<br/>- [Ed
+ it config file](https://github.com/sanskrit-coders/adyatithi/tree/master/d
+ evatA/pitR/sidereal_solar_month/yoga/00/17/vyatIpAta-zrAddham__info.toml)<
+ br/>- Tags: MonthlyShraddhaDays ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6721,11 +6721,11 @@ BEGIN:VEVENT
 SUMMARY:Śravaṇa-Vratam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190330T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190331T235957
-DESCRIPTION:Observed on Śravaṇaḥ nakṣhatram day of every solar mont
- h (saangava/puurvaviddha (default)).  <br/><br/><br/>##### Details<br/>- [
- Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master
- /general/sidereal_solar_month/nakshatra/00/22/zravaNa-vratam__info.toml)<b
- r/>- Tags: SpecialVratam
+DESCRIPTION:Observed on Śravaṇaḥ nakshatra of every solar month (saan
+ gava/puurvaviddha (default)).  <br/><br/><br/>##### Details<br/>- [Edit co
+ nfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/genera
+ l/sidereal_solar_month/nakshatra/00/22/zravaNa-vratam__info.toml)<br/>- Ta
+ gs: SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6841,11 +6841,11 @@ BEGIN:VEVENT
 SUMMARY:Daṇḍiyaḍigaḻ Nāyanār (30) Gurupūjai
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190401T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190402T235957
-DESCRIPTION:Observed on Śatabhiṣak nakṣhatram day of Mīnaḥ (solar)
-  month (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit con
- fig file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApur
- uSha/nAyanAr/sidereal_solar_month/nakshatra/12/24/daNDiyaDigaL%20nAyan2Ar%
- 20%2830%29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
+DESCRIPTION:Observed on Śatabhiṣak nakshatra of Mīnaḥ (solar) month 
+ (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config fil
+ e](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/nA
+ yanAr/sidereal_solar_month/nakshatra/12/24/daNDiyaDigaL%20nAyan2Ar%20%2830
+ %29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -7165,11 +7165,11 @@ BEGIN:VEVENT
 SUMMARY:Vaidhṛti-Śrāddham
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190405T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190406T235957
-DESCRIPTION:Observed on  of every solar month (aparaahna/vyaapti).  <br/>V
- aidhrti Shraddha day.<br/><br/>##### Details<br/>- [Edit config file](http
- s://github.com/sanskrit-coders/adyatithi/tree/master/devatA/pitR/sidereal_
- solar_month/yoga/00/27/vaidhRti-zrAddham__info.toml)<br/>- Tags: MonthlySh
- raddhaDays ShannavatiTarpanaDays
+DESCRIPTION:Observed on Vaidhṛtiḥ yoga of every solar month (aparaahna
+ /vyaapti).  <br/>Vaidhrti Shraddha day.<br/><br/>##### Details<br/>- [Edit
+  config file](https://github.com/sanskrit-coders/adyatithi/tree/master/dev
+ atA/pitR/sidereal_solar_month/yoga/00/27/vaidhRti-zrAddham__info.toml)<br/
+ >- Tags: MonthlyShraddhaDays ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -7363,13 +7363,13 @@ BEGIN:VEVENT
 SUMMARY:Kṛttikā-Vratam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190407T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190408T235957
-DESCRIPTION:Observed on Kṛttikā nakṣhatram day of every solar month (
- sunset/puurvaviddha (default)).  <br/>kṛttikā-vratam for Lord Subrahman
- ya. Observe fast for the entire day\, and obtain blessings of all the kṛ
- ttikā-striyaḥ who raised skanda after His birth.<br/><br/>##### Details
- <br/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tre
- e/master/devatA/kaumAra/sidereal_solar_month/nakshatra/00/03/kRttikA-vrata
- m__info.toml)<br/>- Tags: SpecialVratam
+DESCRIPTION:Observed on Kṛttikā nakshatra of every solar month (sunset/
+ puurvaviddha (default)).  <br/>kṛttikā-vratam for Lord Subrahmanya. Obs
+ erve fast for the entire day\, and obtain blessings of all the kṛttikā-
+ striyaḥ who raised skanda after His birth.<br/><br/>##### Details<br/>- 
+ [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/maste
+ r/devatA/kaumAra/sidereal_solar_month/nakshatra/00/03/kRttikA-vratam__info
+ .toml)<br/>- Tags: SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -7430,11 +7430,11 @@ BEGIN:VEVENT
 SUMMARY:Muttusvāmī Dīkṣita Jayantī
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190408T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190409T235957
-DESCRIPTION:Observed on Kṛttikā nakṣhatram day of Mīnaḥ (solar) mo
- nth (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config
-  file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSh
- a/sangIta-kRt/sidereal_solar_month/nakshatra/12/03/muttusvAmI~dIkSita~jaya
- ntI__info.toml)<br/>- Tags: MahapurushaEvents CommonFestivals
+DESCRIPTION:Observed on Kṛttikā nakshatra of Mīnaḥ (solar) month (pr
+ aatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config file](
+ https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/sangI
+ ta-kRt/sidereal_solar_month/nakshatra/12/03/muttusvAmI~dIkSita~jayantI__in
+ fo.toml)<br/>- Tags: MahapurushaEvents CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -7550,11 +7550,11 @@ BEGIN:VEVENT
 SUMMARY:Necha Nāyanār (58) Gurupūjai
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190409T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190410T235957
-DESCRIPTION:Observed on Rohiṇī nakṣhatram day of Mīnaḥ (solar) mon
- th (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config 
- file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha
- /nAyanAr/sidereal_solar_month/nakshatra/12/04/nEca%20nAyan2Ar%20%2858%29%2
- 0gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
+DESCRIPTION:Observed on Rohiṇī nakshatra of Mīnaḥ (solar) month (pra
+ atah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config file](h
+ ttps://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/nAyanA
+ r/sidereal_solar_month/nakshatra/12/04/nEca%20nAyan2Ar%20%2858%29%20gurupU
+ jai__info.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -7677,11 +7677,11 @@ BEGIN:VEVENT
 SUMMARY:Gaṇanātha Nāyanār (37) Gurupūjai
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190411T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190412T235957
-DESCRIPTION:Observed on Ārdrā nakṣhatram day of Mīnaḥ (solar) month
-  (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config fi
- le](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/n
- AyanAr/sidereal_solar_month/nakshatra/12/06/gaNanAtha%20nAyan2Ar%20%2837%2
- 9%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
+DESCRIPTION:Observed on Ārdrā nakshatra of Mīnaḥ (solar) month (praat
+ ah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config file](htt
+ ps://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/nAyanAr/
+ sidereal_solar_month/nakshatra/12/06/gaNanAtha%20nAyan2Ar%20%2837%29%20gur
+ upUjai__info.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8484,11 +8484,11 @@ BEGIN:VEVENT
 SUMMARY:Ichaiñāniyār Nāyanār (62) Gurupūjai
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190418T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190419T235957
-DESCRIPTION:Observed on Citrā nakṣhatram day of Meṣaḥ (solar) month
-  (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config fi
- le](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/n
- AyanAr/sidereal_solar_month/nakshatra/01/14/icaiJAn2iyAr%20nAyan2Ar%20%286
- 2%29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
+DESCRIPTION:Observed on Citrā nakshatra of Meṣaḥ (solar) month (praat
+ ah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config file](htt
+ ps://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/nAyanAr/
+ sidereal_solar_month/nakshatra/01/14/icaiJAn2iyAr%20nAyan2Ar%20%2862%29%20
+ gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8501,11 +8501,11 @@ BEGIN:VEVENT
 SUMMARY:Madhurakavi Āḽvār Tirunakṣattiram
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190418T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190419T235957
-DESCRIPTION:Observed on Citrā nakṣhatram day of Meṣaḥ (solar) month
-  (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config fi
- le](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/A
- LvAr/sidereal_solar_month/nakshatra/01/14/madhurakavi%20AzhvAr%20tirunakSa
- ttiram__info.toml)<br/>- Tags: MahapurushaEvents AzhwarJayanti
+DESCRIPTION:Observed on Citrā nakshatra of Meṣaḥ (solar) month (praat
+ ah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config file](htt
+ ps://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/ALvAr/si
+ dereal_solar_month/nakshatra/01/14/madhurakavi%20AzhvAr%20tirunakSattiram_
+ _info.toml)<br/>- Tags: MahapurushaEvents AzhwarJayanti
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8624,11 +8624,11 @@ BEGIN:VEVENT
 SUMMARY:Tirukkur̂Ipput Tôṇḍa Nāyanār (18) Gurupūjai
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190419T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190420T235957
-DESCRIPTION:Observed on Svātī nakṣhatram day of Meṣaḥ (solar) mont
- h (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config f
- ile](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/
- nAyanAr/sidereal_solar_month/nakshatra/01/15/tirukkur2ipput%20toNDa%20nAya
- n2Ar%20%2818%29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
+DESCRIPTION:Observed on Svātī nakshatra of Meṣaḥ (solar) month (praa
+ tah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config file](ht
+ tps://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/nAyanAr
+ /sidereal_solar_month/nakshatra/01/15/tirukkur2ipput%20toNDa%20nAyan2Ar%20
+ %2818%29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8671,11 +8671,11 @@ BEGIN:VEVENT
 SUMMARY:Vyatīpāta-Śrāddham
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190420T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190421T235957
-DESCRIPTION:Observed on  of every solar month (aparaahna/vyaapti).  <br/>V
- yatipata Shraddha day.<br/><br/>##### Details<br/>- [Edit config file](htt
- ps://github.com/sanskrit-coders/adyatithi/tree/master/devatA/pitR/sidereal
- _solar_month/yoga/00/17/vyatIpAta-zrAddham__info.toml)<br/>- Tags: Monthly
- ShraddhaDays ShannavatiTarpanaDays
+DESCRIPTION:Observed on Vyatīpātaḥ yoga of every solar month (aparaahn
+ a/vyaapti).  <br/>Vyatipata Shraddha day.<br/><br/>##### Details<br/>- [Ed
+ it config file](https://github.com/sanskrit-coders/adyatithi/tree/master/d
+ evatA/pitR/sidereal_solar_month/yoga/00/17/vyatIpAta-zrAddham__info.toml)<
+ br/>- Tags: MonthlyShraddhaDays ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8966,11 +8966,11 @@ BEGIN:VEVENT
 SUMMARY:Naṭarājar Chittirai Oṇam Mahābhiṣekam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190426T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190427T235957
-DESCRIPTION:Observed on Śravaṇaḥ nakṣhatram day of Meṣaḥ (solar
- ) month (pradosha/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit c
- onfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/templ
- es/Tamil/sidereal_solar_month/nakshatra/01/22/naTarAjar%20cittirai%20ONam%
- 20mahAbhiSEkam__info.toml)<br/>- Tags: TamilnaduTempleFestivals
+DESCRIPTION:Observed on Śravaṇaḥ nakshatra of Meṣaḥ (solar) month
+  (pradosha/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config f
+ ile](https://github.com/sanskrit-coders/adyatithi/tree/master/temples/Tami
+ l/sidereal_solar_month/nakshatra/01/22/naTarAjar%20cittirai%20ONam%20mahAb
+ hiSEkam__info.toml)<br/>- Tags: TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8983,11 +8983,11 @@ BEGIN:VEVENT
 SUMMARY:Śravaṇa-Vratam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190426T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190427T235957
-DESCRIPTION:Observed on Śravaṇaḥ nakṣhatram day of every solar mont
- h (saangava/puurvaviddha (default)).  <br/><br/><br/>##### Details<br/>- [
- Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master
- /general/sidereal_solar_month/nakshatra/00/22/zravaNa-vratam__info.toml)<b
- r/>- Tags: SpecialVratam
+DESCRIPTION:Observed on Śravaṇaḥ nakshatra of every solar month (saan
+ gava/puurvaviddha (default)).  <br/><br/><br/>##### Details<br/>- [Edit co
+ nfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/genera
+ l/sidereal_solar_month/nakshatra/00/22/zravaNa-vratam__info.toml)<br/>- Ta
+ gs: SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9059,11 +9059,11 @@ BEGIN:VEVENT
 SUMMARY:Tirunāvukkarachha Nāyanār (20) Gurupūjai
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190428T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190429T235957
-DESCRIPTION:Observed on Śatabhiṣak nakṣhatram day of Meṣaḥ (solar
- ) month (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit co
- nfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApu
- ruSha/nAyanAr/sidereal_solar_month/nakshatra/01/24/tirunAvukkaracha%20nAya
- n2Ar%20%2820%29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
+DESCRIPTION:Observed on Śatabhiṣak nakshatra of Meṣaḥ (solar) month
+  (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config fi
+ le](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/n
+ AyanAr/sidereal_solar_month/nakshatra/01/24/tirunAvukkaracha%20nAyan2Ar%20
+ %2820%29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9180,11 +9180,11 @@ BEGIN:VEVENT
 SUMMARY:Vaidhṛti-Śrāddham
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190430T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190501T235957
-DESCRIPTION:Observed on  of every solar month (aparaahna/vyaapti).  <br/>V
- aidhrti Shraddha day.<br/><br/>##### Details<br/>- [Edit config file](http
- s://github.com/sanskrit-coders/adyatithi/tree/master/devatA/pitR/sidereal_
- solar_month/yoga/00/27/vaidhRti-zrAddham__info.toml)<br/>- Tags: MonthlySh
- raddhaDays ShannavatiTarpanaDays
+DESCRIPTION:Observed on Vaidhṛtiḥ yoga of every solar month (aparaahna
+ /vyaapti).  <br/>Vaidhrti Shraddha day.<br/><br/>##### Details<br/>- [Edit
+  config file](https://github.com/sanskrit-coders/adyatithi/tree/master/dev
+ atA/pitR/sidereal_solar_month/yoga/00/27/vaidhRti-zrAddham__info.toml)<br/
+ >- Tags: MonthlyShraddhaDays ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9507,11 +9507,11 @@ BEGIN:VEVENT
 SUMMARY:Chir̂Uttôṇḍa Nāyanār (35) Gurupūjai
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190504T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190505T235957
-DESCRIPTION:Observed on Apabharaṇī nakṣhatram day of Meṣaḥ (solar
- ) month (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit co
- nfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApu
- ruSha/nAyanAr/sidereal_solar_month/nakshatra/01/02/cir2uttoNDa%20nAyan2Ar%
- 20%2835%29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
+DESCRIPTION:Observed on Apabharaṇī nakshatra of Meṣaḥ (solar) month
+  (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config fi
+ le](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/n
+ AyanAr/sidereal_solar_month/nakshatra/01/02/cir2uttoNDa%20nAyan2Ar%20%2835
+ %29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9524,13 +9524,13 @@ BEGIN:VEVENT
 SUMMARY:Kṛttikā-Vratam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190504T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190505T235957
-DESCRIPTION:Observed on Kṛttikā nakṣhatram day of every solar month (
- sunset/puurvaviddha (default)).  <br/>kṛttikā-vratam for Lord Subrahman
- ya. Observe fast for the entire day\, and obtain blessings of all the kṛ
- ttikā-striyaḥ who raised skanda after His birth.<br/><br/>##### Details
- <br/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tre
- e/master/devatA/kaumAra/sidereal_solar_month/nakshatra/00/03/kRttikA-vrata
- m__info.toml)<br/>- Tags: SpecialVratam
+DESCRIPTION:Observed on Kṛttikā nakshatra of every solar month (sunset/
+ puurvaviddha (default)).  <br/>kṛttikā-vratam for Lord Subrahmanya. Obs
+ erve fast for the entire day\, and obtain blessings of all the kṛttikā-
+ striyaḥ who raised skanda after His birth.<br/><br/>##### Details<br/>- 
+ [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/maste
+ r/devatA/kaumAra/sidereal_solar_month/nakshatra/00/03/kRttikA-vratam__info
+ .toml)<br/>- Tags: SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9629,11 +9629,11 @@ BEGIN:VEVENT
 SUMMARY:Śyāmā Śāstrī Jayantī
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190505T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190506T235957
-DESCRIPTION:Observed on Kṛttikā nakṣhatram day of Meṣaḥ (solar) m
- onth (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit confi
- g file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruS
- ha/smArta-misc/sidereal_solar_month/nakshatra/01/03/zyAmA~zAstrI~jayantI__
- info.toml)<br/>- Tags: MahapurushaEvents CommonFestivals
+DESCRIPTION:Observed on Kṛttikā nakshatra of Meṣaḥ (solar) month (p
+ raatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config file]
+ (https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/smAr
+ ta-misc/sidereal_solar_month/nakshatra/01/03/zyAmA~zAstrI~jayantI__info.to
+ ml)<br/>- Tags: MahapurushaEvents CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9730,11 +9730,11 @@ BEGIN:VEVENT
 SUMMARY:Maṅgaiyarkkarachiyār Nāyanār (57) Gurupūjai
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190506T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190507T235957
-DESCRIPTION:Observed on Rohiṇī nakṣhatram day of Meṣaḥ (solar) mo
- nth (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config
-  file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSh
- a/nAyanAr/sidereal_solar_month/nakshatra/01/04/maGgaiyarkkaraciyAr%20nAyan
- 2Ar%20%2857%29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
+DESCRIPTION:Observed on Rohiṇī nakshatra of Meṣaḥ (solar) month (pr
+ aatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config file](
+ https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/nAyan
+ Ar/sidereal_solar_month/nakshatra/01/04/maGgaiyarkkaraciyAr%20nAyan2Ar%20%
+ 2857%29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9916,12 +9916,12 @@ BEGIN:VEVENT
 SUMMARY:Rāmānuja-Janma-Nakṣatram
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190508T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190509T235957
-DESCRIPTION:Observed on Ārdrā nakṣhatram day of Meṣaḥ (solar) mont
- h (sunrise (default)/puurvaviddha (default)).  <br/><br/><br/>##### Detail
- s<br/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tr
- ee/master/mahApuruSha/vaiShNava-misc/sidereal_solar_month/nakshatra/01/06/
- rAmAnuja-janma-nakSatram__info.toml)<br/>- Tags: MahapurushaEvents CommonF
- estivals
+DESCRIPTION:Observed on Ārdrā nakshatra of Meṣaḥ (solar) month (sunr
+ ise (default)/puurvaviddha (default)).  <br/><br/><br/>##### Details<br/>-
+  [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/mast
+ er/mahApuruSha/vaiShNava-misc/sidereal_solar_month/nakshatra/01/06/rAmAnuj
+ a-janma-nakSatram__info.toml)<br/>- Tags: MahapurushaEvents CommonFestival
+ s
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9969,11 +9969,11 @@ BEGIN:VEVENT
 SUMMARY:Vir̂Anmiṇḍa Nāyanār (5) Gurupūjai
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190508T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190509T235957
-DESCRIPTION:Observed on Ārdrā nakṣhatram day of Meṣaḥ (solar) mont
- h (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config f
- ile](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/
- nAyanAr/sidereal_solar_month/nakshatra/01/06/vir2an2miNDa%20nAyan2Ar%20%28
- 5%29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
+DESCRIPTION:Observed on Ārdrā nakshatra of Meṣaḥ (solar) month (praa
+ tah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config file](ht
+ tps://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/nAyanAr
+ /sidereal_solar_month/nakshatra/01/06/vir2an2miNDa%20nAyan2Ar%20%285%29%20
+ gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10414,12 +10414,11 @@ BEGIN:VEVENT
 SUMMARY:Mīnākṣī Tirukkalyāṇam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190513T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190514T235957
-DESCRIPTION:Observed on Uttaraphalgunī nakṣhatram day of Meṣaḥ (sol
- ar) month (madhyaahna/puurvaviddha (default)).  <br/><br/><br/>##### Detai
- ls<br/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi/t
- ree/master/temples/Tamil/sidereal_solar_month/nakshatra/01/12/mIn2AkSI%20t
- irukkalyANam__info.toml)<br/>- Tags: TamilnaduTempleFestivals CommonFestiv
- als
+DESCRIPTION:Observed on Uttaraphalgunī nakshatra of Meṣaḥ (solar) mon
+ th (madhyaahna/puurvaviddha (default)).  <br/><br/><br/>##### Details<br/>
+ - [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/mas
+ ter/temples/Tamil/sidereal_solar_month/nakshatra/01/12/mIn2AkSI%20tirukkal
+ yANam__info.toml)<br/>- Tags: TamilnaduTempleFestivals CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10874,11 +10873,11 @@ BEGIN:VEVENT
 SUMMARY:Nammāḽvār Tirunakṣattiram
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190517T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190518T235957
-DESCRIPTION:Observed on Viśākhā nakṣhatram day of Vṛṣabhaḥ (sol
- ar) month (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit 
- config file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahA
- puruSha/ALvAr/sidereal_solar_month/nakshatra/02/16/nammAzhvAr%20tirunakSat
- tiram__info.toml)<br/>- Tags: MahapurushaEvents AzhwarJayanti
+DESCRIPTION:Observed on Viśākhā nakshatra of Vṛṣabhaḥ (solar) mon
+ th (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config 
+ file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha
+ /ALvAr/sidereal_solar_month/nakshatra/02/16/nammAzhvAr%20tirunakSattiram__
+ info.toml)<br/>- Tags: MahapurushaEvents AzhwarJayanti
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10945,13 +10944,13 @@ BEGIN:VEVENT
 SUMMARY:Vaikāchi Viśākham
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190517T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190518T235957
-DESCRIPTION:Observed on Viśākhā nakṣhatram day of Vṛṣabhaḥ (sol
- ar) month (sunrise (default)/puurvaviddha (default)).  <br/>Special puja f
- or Subrahmanya Swami in temples. Birth of Subrahmanya Swami. Worship Him w
- ith red flowers.<br/><br/>##### Details<br/>- [Edit config file](https://g
- ithub.com/sanskrit-coders/adyatithi/tree/master/temples/Tamil/sidereal_sol
- ar_month/nakshatra/02/16/vaikAci~vizAkham__info.toml)<br/>- Tags: Tamilnad
- uTempleFestivals CommonFestivals
+DESCRIPTION:Observed on Viśākhā nakshatra of Vṛṣabhaḥ (solar) mon
+ th (sunrise (default)/puurvaviddha (default)).  <br/>Special puja for Subr
+ ahmanya Swami in temples. Birth of Subrahmanya Swami. Worship Him with red
+  flowers.<br/><br/>##### Details<br/>- [Edit config file](https://github.c
+ om/sanskrit-coders/adyatithi/tree/master/temples/Tamil/sidereal_solar_mont
+ h/nakshatra/02/16/vaikAci~vizAkham__info.toml)<br/>- Tags: TamilnaduTemple
+ Festivals CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11031,12 +11030,12 @@ SUMMARY:Kāñchī Jagadguru Śrī Chandraśekharendra Sarasvatī 7 Jayant
  ī
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190518T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190519T235957
-DESCRIPTION:Observed on Anūrādhā nakṣhatram day of Vṛṣabhaḥ (so
- lar) month (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit
-  config file](https://github.com/sanskrit-coders/adyatithi/tree/master/mah
- ApuruSha/kAnchI-maTha/sidereal_solar_month/nakshatra/02/17/kAJcI%20jagadgu
- ru%20zrI~candrazEkharEndra%20sarasvatI%207%20jayantI__info.toml)<br/>- Tag
- s: MahapurushaEvents CommonFestivals
+DESCRIPTION:Observed on Anūrādhā nakshatra of Vṛṣabhaḥ (solar) mo
+ nth (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config
+  file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSh
+ a/kAnchI-maTha/sidereal_solar_month/nakshatra/02/17/kAJcI%20jagadguru%20zr
+ I~candrazEkharEndra%20sarasvatI%207%20jayantI__info.toml)<br/>- Tags: Maha
+ purushaEvents CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11128,15 +11127,15 @@ SUMMARY:Kāñchī Jagadguru Śrī Śaṅkara Vijayendra Sarasvatī Āśram
  a-Svīkāra-Jayantī
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190520T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190521T235957
-DESCRIPTION:Observed on Mūlā nakṣhatram day of Vṛṣabhaḥ (solar) 
- month (praatah/paraviddha).  <br/>jagadguru śrī~śaṅkara vijayendra sa
- rasvatī was inducted into the kāmakoṭi-pīṭham on 29th May 1983\, ru
- dhirodgārī year\, vṛṣabha/vaiśākha māsa kṛṣṇa tṛtīyā bh
- ānuvāsaraḥ mūlā nakṣatram.<br/><br/>##### Details<br/>- [Edit conf
- ig file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuru
- Sha/kAnchI-maTha/sidereal_solar_month/nakshatra/02/19/kAJcI%20jagadguru%20
- zrI~zaGkara%20vijayEndra%20sarasvatI%20Azrama-svIkAra-jayantI__info.toml)<
- br/>- Tags: MahapurushaEvents CommonFestivals
+DESCRIPTION:Observed on Mūlā nakshatra of Vṛṣabhaḥ (solar) month (
+ praatah/paraviddha).  <br/>jagadguru śrī~śaṅkara vijayendra sarasvat
+ ī was inducted into the kāmakoṭi-pīṭham on 29th May 1983\, rudhirod
+ gārī year\, vṛṣabha/vaiśākha māsa kṛṣṇa tṛtīyā bhānuv
+ āsaraḥ mūlā nakṣatram.<br/><br/>##### Details<br/>- [Edit config fi
+ le](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/k
+ AnchI-maTha/sidereal_solar_month/nakshatra/02/19/kAJcI%20jagadguru%20zrI~z
+ aGkara%20vijayEndra%20sarasvatI%20Azrama-svIkAra-jayantI__info.toml)<br/>-
+  Tags: MahapurushaEvents CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11149,11 +11148,11 @@ BEGIN:VEVENT
 SUMMARY:Muruga Nāyanār (15) Gurupūjai
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190520T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190521T235957
-DESCRIPTION:Observed on Mūlā nakṣhatram day of Vṛṣabhaḥ (solar) 
- month (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit conf
- ig file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuru
- Sha/nAyanAr/sidereal_solar_month/nakshatra/02/19/muruga%20nAyan2Ar%20%2815
- %29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
+DESCRIPTION:Observed on Mūlā nakshatra of Vṛṣabhaḥ (solar) month (
+ praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config file
+ ](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/nAy
+ anAr/sidereal_solar_month/nakshatra/02/19/muruga%20nAyan2Ar%20%2815%29%20g
+ urupUjai__info.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11166,11 +11165,11 @@ BEGIN:VEVENT
 SUMMARY:Tiruñānasambandhamūrtti Nāyanār (27) Gurupūjai
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190520T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190521T235957
-DESCRIPTION:Observed on Mūlā nakṣhatram day of Vṛṣabhaḥ (solar) 
- month (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit conf
- ig file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuru
- Sha/nAyanAr/sidereal_solar_month/nakshatra/02/19/tiruJAn2asambandhamUrtti%
- 20nAyan2Ar%20%2827%29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
+DESCRIPTION:Observed on Mūlā nakshatra of Vṛṣabhaḥ (solar) month (
+ praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config file
+ ](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/nAy
+ anAr/sidereal_solar_month/nakshatra/02/19/tiruJAn2asambandhamUrtti%20nAyan
+ 2Ar%20%2827%29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11183,12 +11182,11 @@ BEGIN:VEVENT
 SUMMARY:Tirunīlakaṇṭha Yāḽppāṇa Nāyanār (60) Gurupūjai
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190520T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190521T235957
-DESCRIPTION:Observed on Mūlā nakṣhatram day of Vṛṣabhaḥ (solar) 
- month (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit conf
- ig file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuru
- Sha/nAyanAr/sidereal_solar_month/nakshatra/02/19/tirunIlakaNTha%20yAzhppAN
- a%20nAyan2Ar%20%2860%29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupuj
- ai
+DESCRIPTION:Observed on Mūlā nakshatra of Vṛṣabhaḥ (solar) month (
+ praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config file
+ ](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/nAy
+ anAr/sidereal_solar_month/nakshatra/02/19/tirunIlakaNTha%20yAzhppANa%20nAy
+ an2Ar%20%2860%29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11201,11 +11199,11 @@ BEGIN:VEVENT
 SUMMARY:Tirunīlanakka Nāyanār (25) Gurupūjai
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190520T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190521T235957
-DESCRIPTION:Observed on Mūlā nakṣhatram day of Vṛṣabhaḥ (solar) 
- month (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit conf
- ig file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuru
- Sha/nAyanAr/sidereal_solar_month/nakshatra/02/19/tirunIlanakka%20nAyan2Ar%
- 20%2825%29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
+DESCRIPTION:Observed on Mūlā nakshatra of Vṛṣabhaḥ (solar) month (
+ praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config file
+ ](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/nAy
+ anAr/sidereal_solar_month/nakshatra/02/19/tirunIlanakka%20nAyan2Ar%20%2825
+ %29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11417,11 +11415,11 @@ BEGIN:VEVENT
 SUMMARY:Śravaṇa-Vratam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190523T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190524T235957
-DESCRIPTION:Observed on Śravaṇaḥ nakṣhatram day of every solar mont
- h (saangava/puurvaviddha (default)).  <br/><br/><br/>##### Details<br/>- [
- Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master
- /general/sidereal_solar_month/nakshatra/00/22/zravaNa-vratam__info.toml)<b
- r/>- Tags: SpecialVratam
+DESCRIPTION:Observed on Śravaṇaḥ nakshatra of every solar month (saan
+ gava/puurvaviddha (default)).  <br/><br/><br/>##### Details<br/>- [Edit co
+ nfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/genera
+ l/sidereal_solar_month/nakshatra/00/22/zravaNa-vratam__info.toml)<br/>- Ta
+ gs: SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11513,11 +11511,11 @@ BEGIN:VEVENT
 SUMMARY:Vaidhṛti-Śrāddham
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190525T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190526T235957
-DESCRIPTION:Observed on  of every solar month (aparaahna/vyaapti).  <br/>V
- aidhrti Shraddha day.<br/><br/>##### Details<br/>- [Edit config file](http
- s://github.com/sanskrit-coders/adyatithi/tree/master/devatA/pitR/sidereal_
- solar_month/yoga/00/27/vaidhRti-zrAddham__info.toml)<br/>- Tags: MonthlySh
- raddhaDays ShannavatiTarpanaDays
+DESCRIPTION:Observed on Vaidhṛtiḥ yoga of every solar month (aparaahna
+ /vyaapti).  <br/>Vaidhrti Shraddha day.<br/><br/>##### Details<br/>- [Edit
+  config file](https://github.com/sanskrit-coders/adyatithi/tree/master/dev
+ atA/pitR/sidereal_solar_month/yoga/00/27/vaidhRti-zrAddham__info.toml)<br/
+ >- Tags: MonthlyShraddhaDays ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11837,11 +11835,11 @@ BEGIN:VEVENT
 SUMMARY:Kaḽar̂Chiṅga Nāyanār (51) Gurupūjai
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190531T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190601T235957
-DESCRIPTION:Observed on Apabharaṇī nakṣhatram day of Vṛṣabhaḥ (
- solar) month (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Ed
- it config file](https://github.com/sanskrit-coders/adyatithi/tree/master/m
- ahApuruSha/nAyanAr/sidereal_solar_month/nakshatra/02/02/kazhar2ciGga%20nAy
- an2Ar%20%2851%29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
+DESCRIPTION:Observed on Apabharaṇī nakshatra of Vṛṣabhaḥ (solar) 
+ month (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit conf
+ ig file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuru
+ Sha/nAyanAr/sidereal_solar_month/nakshatra/02/02/kazhar2ciGga%20nAyan2Ar%2
+ 0%2851%29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11923,13 +11921,13 @@ BEGIN:VEVENT
 SUMMARY:Kṛttikā-Vratam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190601T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190602T235957
-DESCRIPTION:Observed on Kṛttikā nakṣhatram day of every solar month (
- sunset/puurvaviddha (default)).  <br/>kṛttikā-vratam for Lord Subrahman
- ya. Observe fast for the entire day\, and obtain blessings of all the kṛ
- ttikā-striyaḥ who raised skanda after His birth.<br/><br/>##### Details
- <br/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tre
- e/master/devatA/kaumAra/sidereal_solar_month/nakshatra/00/03/kRttikA-vrata
- m__info.toml)<br/>- Tags: SpecialVratam
+DESCRIPTION:Observed on Kṛttikā nakshatra of every solar month (sunset/
+ puurvaviddha (default)).  <br/>kṛttikā-vratam for Lord Subrahmanya. Obs
+ erve fast for the entire day\, and obtain blessings of all the kṛttikā-
+ striyaḥ who raised skanda after His birth.<br/><br/>##### Details<br/>- 
+ [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/maste
+ r/devatA/kaumAra/sidereal_solar_month/nakshatra/00/03/kRttikA-vratam__info
+ .toml)<br/>- Tags: SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12349,11 +12347,11 @@ BEGIN:VEVENT
 SUMMARY:Naminandiyaḍigaḻ Nāyanār (26) Gurupūjai
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190606T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190607T235957
-DESCRIPTION:Observed on Puṣyaḥ nakṣhatram day of Vṛṣabhaḥ (sol
- ar) month (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit 
- config file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahA
- puruSha/nAyanAr/sidereal_solar_month/nakshatra/02/08/naminandiyaDigaL%20nA
- yan2Ar%20%2826%29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
+DESCRIPTION:Observed on Puṣyaḥ nakshatra of Vṛṣabhaḥ (solar) mon
+ th (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config 
+ file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha
+ /nAyanAr/sidereal_solar_month/nakshatra/02/08/naminandiyaDigaL%20nAyan2Ar%
+ 20%2826%29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12509,11 +12507,11 @@ BEGIN:VEVENT
 SUMMARY:Somāsimāra Nāyanār (32) Gurupūjai
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190607T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190608T235957
-DESCRIPTION:Observed on Āśreṣā nakṣhatram day of Vṛṣabhaḥ (so
- lar) month (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit
-  config file](https://github.com/sanskrit-coders/adyatithi/tree/master/mah
- ApuruSha/nAyanAr/sidereal_solar_month/nakshatra/02/09/sOmAsimAra%20nAyan2A
- r%20%2832%29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
+DESCRIPTION:Observed on Āśreṣā nakshatra of Vṛṣabhaḥ (solar) mo
+ nth (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config
+  file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSh
+ a/nAyanAr/sidereal_solar_month/nakshatra/02/09/sOmAsimAra%20nAyan2Ar%20%28
+ 32%29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12862,11 +12860,11 @@ BEGIN:VEVENT
 SUMMARY:Vyatīpāta-Śrāddham
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190610T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190611T235957
-DESCRIPTION:Observed on  of every solar month (aparaahna/vyaapti).  <br/>V
- yatipata Shraddha day.<br/><br/>##### Details<br/>- [Edit config file](htt
- ps://github.com/sanskrit-coders/adyatithi/tree/master/devatA/pitR/sidereal
- _solar_month/yoga/00/17/vyatIpAta-zrAddham__info.toml)<br/>- Tags: Monthly
- ShraddhaDays ShannavatiTarpanaDays
+DESCRIPTION:Observed on Vyatīpātaḥ yoga of every solar month (aparaahn
+ a/vyaapti).  <br/>Vyatipata Shraddha day.<br/><br/>##### Details<br/>- [Ed
+ it config file](https://github.com/sanskrit-coders/adyatithi/tree/master/d
+ evatA/pitR/sidereal_solar_month/yoga/00/17/vyatIpAta-zrAddham__info.toml)<
+ br/>- Tags: MonthlyShraddhaDays ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13753,11 +13751,11 @@ BEGIN:VEVENT
 SUMMARY:Śravaṇa-Vratam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190620T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190621T235957
-DESCRIPTION:Observed on Śravaṇaḥ nakṣhatram day of every solar mont
- h (saangava/puurvaviddha (default)).  <br/><br/><br/>##### Details<br/>- [
- Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master
- /general/sidereal_solar_month/nakshatra/00/22/zravaNa-vratam__info.toml)<b
- r/>- Tags: SpecialVratam
+DESCRIPTION:Observed on Śravaṇaḥ nakshatra of every solar month (saan
+ gava/puurvaviddha (default)).  <br/><br/><br/>##### Details<br/>- [Edit co
+ nfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/genera
+ l/sidereal_solar_month/nakshatra/00/22/zravaNa-vratam__info.toml)<br/>- Ta
+ gs: SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13991,11 +13989,11 @@ BEGIN:VEVENT
 SUMMARY:Eyarkon Kalikkāma Nāyanār (28) Gurupūjai
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190625T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190626T235957
-DESCRIPTION:Observed on Revatī nakṣhatram day of Mithunam (solar) month
-  (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config fi
- le](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/n
- AyanAr/sidereal_solar_month/nakshatra/03/27/EyarkOn2%20kalikkAma%20nAyan2A
- r%20%2828%29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
+DESCRIPTION:Observed on Revatī nakshatra of Mithunam (solar) month (praat
+ ah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config file](htt
+ ps://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/nAyanAr/
+ sidereal_solar_month/nakshatra/03/27/EyarkOn2%20kalikkAma%20nAyan2Ar%20%28
+ 28%29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -14140,13 +14138,13 @@ BEGIN:VEVENT
 SUMMARY:Kṛttikā-Vratam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190628T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190629T235957
-DESCRIPTION:Observed on Kṛttikā nakṣhatram day of every solar month (
- sunset/puurvaviddha (default)).  <br/>kṛttikā-vratam for Lord Subrahman
- ya. Observe fast for the entire day\, and obtain blessings of all the kṛ
- ttikā-striyaḥ who raised skanda after His birth.<br/><br/>##### Details
- <br/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tre
- e/master/devatA/kaumAra/sidereal_solar_month/nakshatra/00/03/kRttikA-vrata
- m__info.toml)<br/>- Tags: SpecialVratam
+DESCRIPTION:Observed on Kṛttikā nakshatra of every solar month (sunset/
+ puurvaviddha (default)).  <br/>kṛttikā-vratam for Lord Subrahmanya. Obs
+ erve fast for the entire day\, and obtain blessings of all the kṛttikā-
+ striyaḥ who raised skanda after His birth.<br/><br/>##### Details<br/>- 
+ [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/maste
+ r/devatA/kaumAra/sidereal_solar_month/nakshatra/00/03/kRttikA-vratam__info
+ .toml)<br/>- Tags: SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -14671,11 +14669,11 @@ BEGIN:VEVENT
 SUMMARY:Pugaḽttuṇai Nāyanār (54) Gurupūjai
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190704T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190705T235957
-DESCRIPTION:Observed on Āśreṣā nakṣhatram day of Mithunam (solar) m
- onth (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit confi
- g file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruS
- ha/nAyanAr/sidereal_solar_month/nakshatra/03/09/pugazhttuNai%20nAyan2Ar%20
- %2854%29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
+DESCRIPTION:Observed on Āśreṣā nakshatra of Mithunam (solar) month (p
+ raatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config file]
+ (https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/nAya
+ nAr/sidereal_solar_month/nakshatra/03/09/pugazhttuNai%20nAyan2Ar%20%2854%2
+ 9%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -14734,11 +14732,11 @@ BEGIN:VEVENT
 SUMMARY:Māṇikkavāchakar Gurupūjai
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190705T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190706T235957
-DESCRIPTION:Observed on Maghā nakṣhatram day of Mithunam (solar) month 
- (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config fil
- e](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/nA
- yanAr/sidereal_solar_month/nakshatra/03/10/mANikkavAcakar%20gurupUjai__inf
- o.toml)<br/>- Tags: NayanarGurupujai
+DESCRIPTION:Observed on Maghā nakshatra of Mithunam (solar) month (praata
+ h/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config file](http
+ s://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/nAyanAr/s
+ idereal_solar_month/nakshatra/03/10/mANikkavAcakar%20gurupUjai__info.toml)
+ <br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -14781,11 +14779,11 @@ BEGIN:VEVENT
 SUMMARY:Amaranīti Nāyanār (6) Gurupūjai
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190706T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190707T235957
-DESCRIPTION:Observed on Pūrvaphalgunī nakṣhatram day of Mithunam (sola
- r) month (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit c
- onfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahAp
- uruSha/nAyanAr/sidereal_solar_month/nakshatra/03/11/amaranIti%20nAyan2Ar%2
- 0%286%29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
+DESCRIPTION:Observed on Pūrvaphalgunī nakshatra of Mithunam (solar) mont
+ h (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config f
+ ile](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/
+ nAyanAr/sidereal_solar_month/nakshatra/03/11/amaranIti%20nAyan2Ar%20%286%2
+ 9%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -14869,11 +14867,11 @@ BEGIN:VEVENT
 SUMMARY:Vyatīpāta-Śrāddham
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190706T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190707T235957
-DESCRIPTION:Observed on  of every solar month (aparaahna/vyaapti).  <br/>V
- yatipata Shraddha day.<br/><br/>##### Details<br/>- [Edit config file](htt
- ps://github.com/sanskrit-coders/adyatithi/tree/master/devatA/pitR/sidereal
- _solar_month/yoga/00/17/vyatIpAta-zrAddham__info.toml)<br/>- Tags: Monthly
- ShraddhaDays ShannavatiTarpanaDays
+DESCRIPTION:Observed on Vyatīpātaḥ yoga of every solar month (aparaahn
+ a/vyaapti).  <br/>Vyatipata Shraddha day.<br/><br/>##### Details<br/>- [Ed
+ it config file](https://github.com/sanskrit-coders/adyatithi/tree/master/d
+ evatA/pitR/sidereal_solar_month/yoga/00/17/vyatIpAta-zrAddham__info.toml)<
+ br/>- Tags: MonthlyShraddhaDays ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -14950,11 +14948,11 @@ BEGIN:VEVENT
 SUMMARY:Naṭarājar Āni Tirumañchanam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190707T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190708T235957
-DESCRIPTION:Observed on Uttaraphalgunī nakṣhatram day of Mithunam (sola
- r) month (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit c
- onfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/templ
- es/Tamil/sidereal_solar_month/nakshatra/03/12/naTarAjar%20An2i%20tirumaJca
- n2am__info.toml)<br/>- Tags: TamilnaduTempleFestivals
+DESCRIPTION:Observed on Uttaraphalgunī nakshatra of Mithunam (solar) mont
+ h (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config f
+ ile](https://github.com/sanskrit-coders/adyatithi/tree/master/temples/Tami
+ l/sidereal_solar_month/nakshatra/03/12/naTarAjar%20An2i%20tirumaJcan2am__i
+ nfo.toml)<br/>- Tags: TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15116,11 +15114,11 @@ BEGIN:VEVENT
 SUMMARY:Sudarśana Jayantī
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190709T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190710T235957
-DESCRIPTION:Observed on Citrā nakṣhatram day of Mithunam (solar) month 
- (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config fil
- e](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/vaiShNa
- va/sidereal_solar_month/nakshatra/03/14/sudarzana~jayantI__info.toml)<br/>
- - Tags: CommonFestivals
+DESCRIPTION:Observed on Citrā nakshatra of Mithunam (solar) month (praata
+ h/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config file](http
+ s://github.com/sanskrit-coders/adyatithi/tree/master/devatA/vaiShNava/side
+ real_solar_month/nakshatra/03/14/sudarzana~jayantI__info.toml)<br/>- Tags:
+  CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15287,11 +15285,11 @@ BEGIN:VEVENT
 SUMMARY:Pêriyāḽvār Tirunakṣattiram
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190710T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190711T235957
-DESCRIPTION:Observed on Svātī nakṣhatram day of Mithunam (solar) month
-  (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config fi
- le](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/A
- LvAr/sidereal_solar_month/nakshatra/03/15/periyAzhvAr%20tirunakSattiram__i
- nfo.toml)<br/>- Tags: MahapurushaEvents AzhwarJayanti
+DESCRIPTION:Observed on Svātī nakshatra of Mithunam (solar) month (praat
+ ah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config file](htt
+ ps://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/ALvAr/si
+ dereal_solar_month/nakshatra/03/15/periyAzhvAr%20tirunakSattiram__info.tom
+ l)<br/>- Tags: MahapurushaEvents AzhwarJayanti
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15527,11 +15525,11 @@ BEGIN:VEVENT
 SUMMARY:Jyeṣṭhābhiṣekam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190713T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190714T235957
-DESCRIPTION:Observed on Jyeṣṭhā nakṣhatram day of Mithunam (solar) 
- month (sunrise (default)/puurvaviddha (default)).  <br/><br/><br/>##### De
- tails<br/>- [Edit config file](https://github.com/sanskrit-coders/adyatith
- i/tree/master/temples/Tamil/sidereal_solar_month/nakshatra/03/18/jyESThAbh
- iSEkam__info.toml)<br/>- Tags: TamilnaduTempleFestivals
+DESCRIPTION:Observed on Jyeṣṭhā nakshatra of Mithunam (solar) month (
+ sunrise (default)/puurvaviddha (default)).  <br/><br/><br/>##### Details<b
+ r/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/
+ master/temples/Tamil/sidereal_solar_month/nakshatra/03/18/jyESThAbhiSEkam_
+ _info.toml)<br/>- Tags: TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15782,11 +15780,11 @@ BEGIN:VEVENT
 SUMMARY:Vaidhṛti-Śrāddham
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190715T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190716T235957
-DESCRIPTION:Observed on  of every solar month (aparaahna/vyaapti).  <br/>V
- aidhrti Shraddha day.<br/><br/>##### Details<br/>- [Edit config file](http
- s://github.com/sanskrit-coders/adyatithi/tree/master/devatA/pitR/sidereal_
- solar_month/yoga/00/27/vaidhRti-zrAddham__info.toml)<br/>- Tags: MonthlySh
- raddhaDays ShannavatiTarpanaDays
+DESCRIPTION:Observed on Vaidhṛtiḥ yoga of every solar month (aparaahna
+ /vyaapti).  <br/>Vaidhrti Shraddha day.<br/><br/>##### Details<br/>- [Edit
+  config file](https://github.com/sanskrit-coders/adyatithi/tree/master/dev
+ atA/pitR/sidereal_solar_month/yoga/00/27/vaidhRti-zrAddham__info.toml)<br/
+ >- Tags: MonthlyShraddhaDays ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -16359,12 +16357,12 @@ BEGIN:VEVENT
 SUMMARY:Āḍik Kiruttikai
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190726T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190727T235957
-DESCRIPTION:Observed on Kṛttikā nakṣhatram day of Kaṭakaḥ (solar)
-  month (sunrise (default)/puurvaviddha (default)).  <br/>Special puja for 
- Subrahmanya Swami in temples.<br/><br/>##### Details<br/>- [Edit config fi
- le](https://github.com/sanskrit-coders/adyatithi/tree/master/temples/Tamil
- /sidereal_solar_month/nakshatra/04/03/ADik~kiruttikai__info.toml)<br/>- Ta
- gs: TamilnaduTempleFestivals CommonFestivals
+DESCRIPTION:Observed on Kṛttikā nakshatra of Kaṭakaḥ (solar) month 
+ (sunrise (default)/puurvaviddha (default)).  <br/>Special puja for Subrahm
+ anya Swami in temples.<br/><br/>##### Details<br/>- [Edit config file](htt
+ ps://github.com/sanskrit-coders/adyatithi/tree/master/temples/Tamil/sidere
+ al_solar_month/nakshatra/04/03/ADik~kiruttikai__info.toml)<br/>- Tags: Tam
+ ilnaduTempleFestivals CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -16377,13 +16375,13 @@ BEGIN:VEVENT
 SUMMARY:Kṛttikā-Vratam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190726T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190727T235957
-DESCRIPTION:Observed on Kṛttikā nakṣhatram day of every solar month (
- sunset/puurvaviddha (default)).  <br/>kṛttikā-vratam for Lord Subrahman
- ya. Observe fast for the entire day\, and obtain blessings of all the kṛ
- ttikā-striyaḥ who raised skanda after His birth.<br/><br/>##### Details
- <br/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tre
- e/master/devatA/kaumAra/sidereal_solar_month/nakshatra/00/03/kRttikA-vrata
- m__info.toml)<br/>- Tags: SpecialVratam
+DESCRIPTION:Observed on Kṛttikā nakshatra of every solar month (sunset/
+ puurvaviddha (default)).  <br/>kṛttikā-vratam for Lord Subrahmanya. Obs
+ erve fast for the entire day\, and obtain blessings of all the kṛttikā-
+ striyaḥ who raised skanda after His birth.<br/><br/>##### Details<br/>- 
+ [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/maste
+ r/devatA/kaumAra/sidereal_solar_month/nakshatra/00/03/kRttikA-vratam__info
+ .toml)<br/>- Tags: SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -16396,11 +16394,11 @@ BEGIN:VEVENT
 SUMMARY:Mūrtti Nāyanār (15) Gurupūjai
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190726T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190727T235957
-DESCRIPTION:Observed on Kṛttikā nakṣhatram day of Kaṭakaḥ (solar)
-  month (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit con
- fig file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApur
- uSha/nAyanAr/sidereal_solar_month/nakshatra/04/03/mUrtti%20nAyan2Ar%20%281
- 5%29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
+DESCRIPTION:Observed on Kṛttikā nakshatra of Kaṭakaḥ (solar) month 
+ (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config fil
+ e](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/nA
+ yanAr/sidereal_solar_month/nakshatra/04/03/mUrtti%20nAyan2Ar%20%2815%29%20
+ gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -16413,11 +16411,11 @@ BEGIN:VEVENT
 SUMMARY:Pugaḽchchoḽa Nāyanār (39) Gurupūjai
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190726T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190727T235957
-DESCRIPTION:Observed on Kṛttikā nakṣhatram day of Kaṭakaḥ (solar)
-  month (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit con
- fig file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApur
- uSha/nAyanAr/sidereal_solar_month/nakshatra/04/03/pugazhccOzha%20nAyan2Ar%
- 20%2839%29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
+DESCRIPTION:Observed on Kṛttikā nakshatra of Kaṭakaḥ (solar) month 
+ (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config fil
+ e](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/nA
+ yanAr/sidereal_solar_month/nakshatra/04/03/pugazhccOzha%20nAyan2Ar%20%2839
+ %29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -16477,11 +16475,11 @@ BEGIN:VEVENT
 SUMMARY:Tiruppāṇāḽvār Tirunakṣattiram
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190727T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190728T235957
-DESCRIPTION:Observed on Rohiṇī nakṣhatram day of Kaṭakaḥ (solar) 
- month (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit conf
- ig file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuru
- Sha/ALvAr/sidereal_solar_month/nakshatra/04/04/tiruppANAzhvAr%20tirunakSat
- tiram__info.toml)<br/>- Tags: MahapurushaEvents AzhwarJayanti
+DESCRIPTION:Observed on Rohiṇī nakshatra of Kaṭakaḥ (solar) month (
+ praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config file
+ ](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/ALv
+ Ar/sidereal_solar_month/nakshatra/04/04/tiruppANAzhvAr%20tirunakSattiram__
+ info.toml)<br/>- Tags: MahapurushaEvents AzhwarJayanti
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -16607,11 +16605,11 @@ BEGIN:VEVENT
 SUMMARY:Kūr̂R̂Uva Nāyanār (38) Gurupūjai
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190729T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190730T235957
-DESCRIPTION:Observed on Ārdrā nakṣhatram day of Kaṭakaḥ (solar) mo
- nth (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config
-  file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSh
- a/nAyanAr/sidereal_solar_month/nakshatra/04/06/kUr2r2uva%20nAyan2Ar%20%283
- 8%29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
+DESCRIPTION:Observed on Ārdrā nakshatra of Kaṭakaḥ (solar) month (pr
+ aatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config file](
+ https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/nAyan
+ Ar/sidereal_solar_month/nakshatra/04/06/kUr2r2uva%20nAyan2Ar%20%2838%29%20
+ gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -16851,11 +16849,11 @@ BEGIN:VEVENT
 SUMMARY:Vyatīpāta-Śrāddham
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190731T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190801T235957
-DESCRIPTION:Observed on  of every solar month (aparaahna/vyaapti).  <br/>V
- yatipata Shraddha day.<br/><br/>##### Details<br/>- [Edit config file](htt
- ps://github.com/sanskrit-coders/adyatithi/tree/master/devatA/pitR/sidereal
- _solar_month/yoga/00/17/vyatIpAta-zrAddham__info.toml)<br/>- Tags: Monthly
- ShraddhaDays ShannavatiTarpanaDays
+DESCRIPTION:Observed on Vyatīpātaḥ yoga of every solar month (aparaahn
+ a/vyaapti).  <br/>Vyatipata Shraddha day.<br/><br/>##### Details<br/>- [Ed
+ it config file](https://github.com/sanskrit-coders/adyatithi/tree/master/d
+ evatA/pitR/sidereal_solar_month/yoga/00/17/vyatIpAta-zrAddham__info.toml)<
+ br/>- Tags: MonthlyShraddhaDays ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17086,14 +17084,14 @@ BEGIN:VEVENT
 SUMMARY:Tiruvāḍippūram
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190802T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190803T235957
-DESCRIPTION:Observed on Pūrvaphalgunī nakṣhatram day of Kaṭakaḥ (s
- olar) month (praatah/paraviddha).  <br/><br/><br/>śrīviṣṇuchitta-kul
- akalpakanandavallīm<br/>śrīraṅgarāja-hari-chandana-yoga-drśyām|<br
- />sākṣāt kṣamāṃ karuṇayā kamalāmivānyāṃ<br/>godām ananya
- śaraṇaḥ śaraṇaṃ prapadye||<br/><br/><br/><br/>##### Details<br/>
- - [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/mas
- ter/mahApuruSha/ALvAr/sidereal_solar_month/nakshatra/04/11/tiruvADippUram_
- _info.toml)<br/>- Tags: CommonFestivals AzhwarJayanti
+DESCRIPTION:Observed on Pūrvaphalgunī nakshatra of Kaṭakaḥ (solar) m
+ onth (praatah/paraviddha).  <br/><br/><br/>śrīviṣṇuchitta-kulakalpak
+ anandavallīm<br/>śrīraṅgarāja-hari-chandana-yoga-drśyām|<br/>sāk
+ ṣāt kṣamāṃ karuṇayā kamalāmivānyāṃ<br/>godām ananyaśara
+ ṇaḥ śaraṇaṃ prapadye||<br/><br/><br/><br/>##### Details<br/>- [Ed
+ it config file](https://github.com/sanskrit-coders/adyatithi/tree/master/m
+ ahApuruSha/ALvAr/sidereal_solar_month/nakshatra/04/11/tiruvADippUram__info
+ .toml)<br/>- Tags: CommonFestivals AzhwarJayanti
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17286,11 +17284,11 @@ BEGIN:VEVENT
 SUMMARY:Pêrumiḽalaik Kur̂Umba Nāyanār (22) Gurupūjai
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190805T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190806T235957
-DESCRIPTION:Observed on Citrā nakṣhatram day of Kaṭakaḥ (solar) mon
- th (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config 
- file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha
- /nAyanAr/sidereal_solar_month/nakshatra/04/14/perumizhalaik%20kur2umba%20n
- Ayan2Ar%20%2822%29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
+DESCRIPTION:Observed on Citrā nakshatra of Kaṭakaḥ (solar) month (pra
+ atah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config file](h
+ ttps://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/nAyanA
+ r/sidereal_solar_month/nakshatra/04/14/perumizhalaik%20kur2umba%20nAyan2Ar
+ %20%2822%29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17367,11 +17365,11 @@ BEGIN:VEVENT
 SUMMARY:Chundaramūrtti Nāyanār (63) Gurupūjai
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190806T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190807T235957
-DESCRIPTION:Observed on Svātī nakṣhatram day of Kaṭakaḥ (solar) mo
- nth (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config
-  file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSh
- a/nAyanAr/sidereal_solar_month/nakshatra/04/15/cundaramUrtti%20nAyan2Ar%20
- %2863%29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
+DESCRIPTION:Observed on Svātī nakshatra of Kaṭakaḥ (solar) month (pr
+ aatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config file](
+ https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/nAyan
+ Ar/sidereal_solar_month/nakshatra/04/15/cundaramUrtti%20nAyan2Ar%20%2863%2
+ 9%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17402,12 +17400,12 @@ SUMMARY:Kaḽar̂Ir̂R̂Ar̂Ivār/Cheramān Pêrumāḻ Nāyanār (36) Gur
  upūjai
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190806T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190807T235957
-DESCRIPTION:Observed on Svātī nakṣhatram day of Kaṭakaḥ (solar) mo
- nth (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config
-  file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSh
- a/nAyanAr/sidereal_solar_month/nakshatra/04/15/kazhar2ir2r2ar2ivAr%20or%20
- cEramAn2%20perumAL%20nAyan2Ar%20%2836%29%20gurupUjai__info.toml)<br/>- Tag
- s: NayanarGurupujai
+DESCRIPTION:Observed on Svātī nakshatra of Kaṭakaḥ (solar) month (pr
+ aatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config file](
+ https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/nAyan
+ Ar/sidereal_solar_month/nakshatra/04/15/kazhar2ir2r2ar2ivAr%20or%20cEramAn
+ 2%20perumAL%20nAyan2Ar%20%2836%29%20gurupUjai__info.toml)<br/>- Tags: Naya
+ narGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17602,13 +17600,13 @@ BEGIN:VEVENT
 SUMMARY:Seṅgālipuram Anantarāma-Dīkṣita-Jayantī
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190808T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190809T235957
-DESCRIPTION:Observed on Anūrādhā nakṣhatram day of Kaṭakaḥ (solar
- ) month (praatah/paraviddha).  <br/>Jayanti Day of Sri Anantarama Dikshita
- r.<br/>##### References<br/>- Vaidikasri Nov 2009<br/><br/><br/>##### Deta
- ils<br/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi/
- tree/master/mahApuruSha/smArta-misc/sidereal_solar_month/nakshatra/04/17/s
- EGgAlipuram%20anantarAma-dIkSita-jayantI__info.toml)<br/>- Tags: Mahapurus
- haEvents CommonFestivals
+DESCRIPTION:Observed on Anūrādhā nakshatra of Kaṭakaḥ (solar) month
+  (praatah/paraviddha).  <br/>Jayanti Day of Sri Anantarama Dikshitar.<br/>
+ ##### References<br/>- Vaidikasri Nov 2009<br/><br/><br/>##### Details<br/
+ >- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/ma
+ ster/mahApuruSha/smArta-misc/sidereal_solar_month/nakshatra/04/17/sEGgAlip
+ uram%20anantarAma-dIkSita-jayantI__info.toml)<br/>- Tags: MahapurushaEvent
+ s CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17691,11 +17689,11 @@ BEGIN:VEVENT
 SUMMARY:Koṭpuli Nāyanār (55) Gurupūjai
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190809T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190810T235957
-DESCRIPTION:Observed on Jyeṣṭhā nakṣhatram day of Kaṭakaḥ (sola
- r) month (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit c
- onfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahAp
- uruSha/nAyanAr/sidereal_solar_month/nakshatra/04/18/kOTpuli%20nAyan2Ar%20%
- 2855%29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
+DESCRIPTION:Observed on Jyeṣṭhā nakshatra of Kaṭakaḥ (solar) mont
+ h (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config f
+ ile](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/
+ nAyanAr/sidereal_solar_month/nakshatra/04/18/kOTpuli%20nAyan2Ar%20%2855%29
+ %20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17708,11 +17706,11 @@ BEGIN:VEVENT
 SUMMARY:Kaliya Nāyanār (43) Gurupūjai
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190809T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190810T235957
-DESCRIPTION:Observed on Jyeṣṭhā nakṣhatram day of Kaṭakaḥ (sola
- r) month (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit c
- onfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahAp
- uruSha/nAyanAr/sidereal_solar_month/nakshatra/04/18/kaliya%20nAyan2Ar%20%2
- 843%29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
+DESCRIPTION:Observed on Jyeṣṭhā nakshatra of Kaṭakaḥ (solar) mont
+ h (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config f
+ ile](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/
+ nAyanAr/sidereal_solar_month/nakshatra/04/18/kaliya%20nAyan2Ar%20%2843%29%
+ 20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17743,11 +17741,11 @@ BEGIN:VEVENT
 SUMMARY:Vaidhṛti-Śrāddham
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190809T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190810T235957
-DESCRIPTION:Observed on  of every solar month (aparaahna/vyaapti).  <br/>V
- aidhrti Shraddha day.<br/><br/>##### Details<br/>- [Edit config file](http
- s://github.com/sanskrit-coders/adyatithi/tree/master/devatA/pitR/sidereal_
- solar_month/yoga/00/27/vaidhRti-zrAddham__info.toml)<br/>- Tags: MonthlySh
- raddhaDays ShannavatiTarpanaDays
+DESCRIPTION:Observed on Vaidhṛtiḥ yoga of every solar month (aparaahna
+ /vyaapti).  <br/>Vaidhrti Shraddha day.<br/><br/>##### Details<br/>- [Edit
+  config file](https://github.com/sanskrit-coders/adyatithi/tree/master/dev
+ atA/pitR/sidereal_solar_month/yoga/00/27/vaidhRti-zrAddham__info.toml)<br/
+ >- Tags: MonthlyShraddhaDays ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18030,11 +18028,11 @@ BEGIN:VEVENT
 SUMMARY:Śravaṇa-Vratam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190813T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190814T235957
-DESCRIPTION:Observed on Śravaṇaḥ nakṣhatram day of every solar mont
- h (saangava/puurvaviddha (default)).  <br/><br/><br/>##### Details<br/>- [
- Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master
- /general/sidereal_solar_month/nakshatra/00/22/zravaNa-vratam__info.toml)<b
- r/>- Tags: SpecialVratam
+DESCRIPTION:Observed on Śravaṇaḥ nakshatra of every solar month (saan
+ gava/puurvaviddha (default)).  <br/><br/><br/>##### Details<br/>- [Edit co
+ nfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/genera
+ l/sidereal_solar_month/nakshatra/00/22/zravaNa-vratam__info.toml)<br/>- Ta
+ gs: SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18077,11 +18075,11 @@ BEGIN:VEVENT
 SUMMARY:Ṛgveda-Upākarma
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190814T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190815T235957
-DESCRIPTION:Observed on Śravaṇaḥ nakṣhatram day of Śrāvaṇaḥ (
- lunar) month (sunrise (default)/paraviddha).  <br/><br/><br/>##### Details
- <br/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tre
- e/master/gRhya/general/lunar_month/nakshatra/05/22/RgvEda-upAkarma__info.t
- oml)<br/>- Tags: CommonFestivals
+DESCRIPTION:Observed on Śravaṇaḥ nakshatra of Śrāvaṇaḥ (lunar) 
+ month (sunrise (default)/paraviddha).  <br/><br/><br/>##### Details<br/>- 
+ [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/maste
+ r/gRhya/general/lunar_month/nakshatra/05/22/RgvEda-upAkarma__info.toml)<br
+ />- Tags: CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18338,12 +18336,12 @@ BEGIN:VEVENT
 SUMMARY:Kāñchī Jagadguru Śrī Jayendra Sarasvatī Jayantī
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190815T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190816T235957
-DESCRIPTION:Observed on Śraviṣṭhā nakṣhatram day of Kaṭakaḥ (s
- olar) month (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edi
- t config file](https://github.com/sanskrit-coders/adyatithi/tree/master/ma
- hApuruSha/kAnchI-maTha/sidereal_solar_month/nakshatra/04/23/kAJcI%20jagadg
- uru%20zrI~jayEndra%20sarasvatI%20jayantI__info.toml)<br/>- Tags: Mahapurus
- haEvents CommonFestivals
+DESCRIPTION:Observed on Śraviṣṭhā nakshatra of Kaṭakaḥ (solar) m
+ onth (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit confi
+ g file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruS
+ ha/kAnchI-maTha/sidereal_solar_month/nakshatra/04/23/kAJcI%20jagadguru%20z
+ rI~jayEndra%20sarasvatI%20jayantI__info.toml)<br/>- Tags: MahapurushaEvent
+ s CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18814,13 +18812,13 @@ BEGIN:VEVENT
 SUMMARY:Kṛttikā-Vratam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190822T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190823T235957
-DESCRIPTION:Observed on Kṛttikā nakṣhatram day of every solar month (
- sunset/puurvaviddha (default)).  <br/>kṛttikā-vratam for Lord Subrahman
- ya. Observe fast for the entire day\, and obtain blessings of all the kṛ
- ttikā-striyaḥ who raised skanda after His birth.<br/><br/>##### Details
- <br/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tre
- e/master/devatA/kaumAra/sidereal_solar_month/nakshatra/00/03/kRttikA-vrata
- m__info.toml)<br/>- Tags: SpecialVratam
+DESCRIPTION:Observed on Kṛttikā nakshatra of every solar month (sunset/
+ puurvaviddha (default)).  <br/>kṛttikā-vratam for Lord Subrahmanya. Obs
+ erve fast for the entire day\, and obtain blessings of all the kṛttikā-
+ striyaḥ who raised skanda after His birth.<br/><br/>##### Details<br/>- 
+ [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/maste
+ r/devatA/kaumAra/sidereal_solar_month/nakshatra/00/03/kRttikA-vratam__info
+ .toml)<br/>- Tags: SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -19002,11 +19000,11 @@ BEGIN:VEVENT
 SUMMARY:Śrī-Jayantī
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190823T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190824T235957
-DESCRIPTION:Observed on Rohiṇī nakṣhatram day of Siṃhaḥ (solar) m
- onth (nishiitha/puurvaviddha (default)).  <br/><br/><br/>##### Details<br/
- >- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/ma
- ster/devatA/vaiShNava/sidereal_solar_month/nakshatra/05/04/zrI-jayantI__in
- fo.toml)<br/>- Tags: Dashavataram CommonFestivals
+DESCRIPTION:Observed on Rohiṇī nakshatra of Siṃhaḥ (solar) month (n
+ ishiitha/puurvaviddha (default)).  <br/><br/><br/>##### Details<br/>- [Edi
+ t config file](https://github.com/sanskrit-coders/adyatithi/tree/master/de
+ vatA/vaiShNava/sidereal_solar_month/nakshatra/05/04/zrI-jayantI__info.toml
+ )<br/>- Tags: Dashavataram CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -19324,11 +19322,11 @@ BEGIN:VEVENT
 SUMMARY:Vyatīpāta-Śrāddham
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190826T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190827T235957
-DESCRIPTION:Observed on  of every solar month (aparaahna/vyaapti).  <br/>V
- yatipata Shraddha day.<br/><br/>##### Details<br/>- [Edit config file](htt
- ps://github.com/sanskrit-coders/adyatithi/tree/master/devatA/pitR/sidereal
- _solar_month/yoga/00/17/vyatIpAta-zrAddham__info.toml)<br/>- Tags: Monthly
- ShraddhaDays ShannavatiTarpanaDays
+DESCRIPTION:Observed on Vyatīpātaḥ yoga of every solar month (aparaahn
+ a/vyaapti).  <br/>Vyatipata Shraddha day.<br/><br/>##### Details<br/>- [Ed
+ it config file](https://github.com/sanskrit-coders/adyatithi/tree/master/d
+ evatA/pitR/sidereal_solar_month/yoga/00/17/vyatIpAta-zrAddham__info.toml)<
+ br/>- Tags: MonthlyShraddhaDays ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -19371,11 +19369,11 @@ BEGIN:VEVENT
 SUMMARY:Chêruttuṇai Nāyanār (53) Gurupūjai
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190827T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190828T235957
-DESCRIPTION:Observed on Puṣyaḥ nakṣhatram day of Siṃhaḥ (solar) 
- month (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit conf
- ig file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuru
- Sha/nAyanAr/sidereal_solar_month/nakshatra/05/08/ceruttuNai%20nAyan2Ar%20%
- 2853%29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
+DESCRIPTION:Observed on Puṣyaḥ nakshatra of Siṃhaḥ (solar) month (
+ praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config file
+ ](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/nAy
+ anAr/sidereal_solar_month/nakshatra/05/08/ceruttuNai%20nAyan2Ar%20%2853%29
+ %20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -19484,11 +19482,11 @@ BEGIN:VEVENT
 SUMMARY:Atipatta Nāyanār (41) Gurupūjai
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190828T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190829T235957
-DESCRIPTION:Observed on Āśreṣā nakṣhatram day of Siṃhaḥ (solar)
-  month (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit con
- fig file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApur
- uSha/nAyanAr/sidereal_solar_month/nakshatra/05/09/atipatta%20nAyan2Ar%20%2
- 841%29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
+DESCRIPTION:Observed on Āśreṣā nakshatra of Siṃhaḥ (solar) month 
+ (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config fil
+ e](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/nA
+ yanAr/sidereal_solar_month/nakshatra/05/09/atipatta%20nAyan2Ar%20%2841%29%
+ 20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -19583,11 +19581,11 @@ BEGIN:VEVENT
 SUMMARY:Iḻaiyānkuḍi Mār̂A Nāyanār (3) Gurupūjai
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190829T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190830T235957
-DESCRIPTION:Observed on Maghā nakṣhatram day of Siṃhaḥ (solar) mont
- h (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config f
- ile](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/
- nAyanAr/sidereal_solar_month/nakshatra/05/10/iLaiyAn2kuDi%20mAr2a%20nAyan2
- Ar%20%283%29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
+DESCRIPTION:Observed on Maghā nakshatra of Siṃhaḥ (solar) month (praa
+ tah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config file](ht
+ tps://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/nAyanAr
+ /sidereal_solar_month/nakshatra/05/10/iLaiyAn2kuDi%20mAr2a%20nAyan2Ar%20%2
+ 83%29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -19934,11 +19932,11 @@ BEGIN:VEVENT
 SUMMARY:Sāmaveda-Upākarma
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190901T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190902T235957
-DESCRIPTION:Observed on Hastaḥ nakṣhatram day of Siṃhaḥ (solar) mo
- nth (sunrise (default)/puurvaviddha (default)).  <br/><br/><br/>##### Deta
- ils<br/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi/
- tree/master/gRhya/general/sidereal_solar_month/nakshatra/05/13/sAmavEda-up
- Akarma__info.toml)<br/>- Tags: CommonFestivals
+DESCRIPTION:Observed on Hastaḥ nakshatra of Siṃhaḥ (solar) month (su
+ nrise (default)/puurvaviddha (default)).  <br/><br/><br/>##### Details<br/
+ >- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/ma
+ ster/gRhya/general/sidereal_solar_month/nakshatra/05/13/sAmavEda-upAkarma_
+ _info.toml)<br/>- Tags: CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -20168,11 +20166,11 @@ BEGIN:VEVENT
 SUMMARY:Tiruchchêndūr Āvaṇit Tiruviḽā Nir̂Aivu
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190903T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190904T235957
-DESCRIPTION:Observed on Viśākhā nakṣhatram day of Siṃhaḥ (solar) 
- month (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit conf
- ig file](https://github.com/sanskrit-coders/adyatithi/tree/master/temples/
- Tamil/sidereal_solar_month/nakshatra/05/16/tiruccendUr%20AvaNit%20tiruvizh
- A%20nir2aivu__info.toml)<br/>- Tags: TamilnaduTempleFestivals
+DESCRIPTION:Observed on Viśākhā nakshatra of Siṃhaḥ (solar) month (
+ praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config file
+ ](https://github.com/sanskrit-coders/adyatithi/tree/master/temples/Tamil/s
+ idereal_solar_month/nakshatra/05/16/tiruccendUr%20AvaNit%20tiruvizhA%20nir
+ 2aivu__info.toml)<br/>- Tags: TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -20266,11 +20264,11 @@ BEGIN:VEVENT
 SUMMARY:Kulachchirai Nāyanār (21) Gurupūjai
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190904T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190905T235957
-DESCRIPTION:Observed on Anūrādhā nakṣhatram day of Siṃhaḥ (solar)
-  month (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit con
- fig file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApur
- uSha/nAyanAr/sidereal_solar_month/nakshatra/05/17/kulaccirai%20nAyan2Ar%20
- %2821%29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
+DESCRIPTION:Observed on Anūrādhā nakshatra of Siṃhaḥ (solar) month 
+ (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config fil
+ e](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/nA
+ yanAr/sidereal_solar_month/nakshatra/05/17/kulaccirai%20nAyan2Ar%20%2821%2
+ 9%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -20283,11 +20281,11 @@ BEGIN:VEVENT
 SUMMARY:Vaidhṛti-Śrāddham
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190904T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190905T235957
-DESCRIPTION:Observed on  of every solar month (aparaahna/vyaapti).  <br/>V
- aidhrti Shraddha day.<br/><br/>##### Details<br/>- [Edit config file](http
- s://github.com/sanskrit-coders/adyatithi/tree/master/devatA/pitR/sidereal_
- solar_month/yoga/00/27/vaidhRti-zrAddham__info.toml)<br/>- Tags: MonthlySh
- raddhaDays ShannavatiTarpanaDays
+DESCRIPTION:Observed on Vaidhṛtiḥ yoga of every solar month (aparaahna
+ /vyaapti).  <br/>Vaidhrti Shraddha day.<br/><br/>##### Details<br/>- [Edit
+  config file](https://github.com/sanskrit-coders/adyatithi/tree/master/dev
+ atA/pitR/sidereal_solar_month/yoga/00/27/vaidhRti-zrAddham__info.toml)<br/
+ >- Tags: MonthlyShraddhaDays ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -20445,11 +20443,11 @@ BEGIN:VEVENT
 SUMMARY:Gajendra-Mokṣaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190906T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190907T235957
-DESCRIPTION:Observed on Mūlā nakṣhatram day of Siṃhaḥ (solar) mont
- h (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config f
- ile](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/vaiSh
- Nava/sidereal_solar_month/nakshatra/05/19/gajEndra-mOkSaH~2__info.toml)<br
- />- Tags: PuranaEvents
+DESCRIPTION:Observed on Mūlā nakshatra of Siṃhaḥ (solar) month (praa
+ tah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config file](ht
+ tps://github.com/sanskrit-coders/adyatithi/tree/master/devatA/vaiShNava/si
+ dereal_solar_month/nakshatra/05/19/gajEndra-mOkSaH~2__info.toml)<br/>- Tag
+ s: PuranaEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -20462,11 +20460,11 @@ BEGIN:VEVENT
 SUMMARY:Kuṅgiliyakkalaya Nāyanār (10) Gurupūjai
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190906T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190907T235957
-DESCRIPTION:Observed on Mūlā nakṣhatram day of Siṃhaḥ (solar) mont
- h (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config f
- ile](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/
- nAyanAr/sidereal_solar_month/nakshatra/05/19/kuGgiliyakkalaya%20nAyan2Ar%2
- 0%2810%29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
+DESCRIPTION:Observed on Mūlā nakshatra of Siṃhaḥ (solar) month (praa
+ tah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config file](ht
+ tps://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/nAyanAr
+ /sidereal_solar_month/nakshatra/05/19/kuGgiliyakkalaya%20nAyan2Ar%20%2810%
+ 29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -20514,11 +20512,11 @@ BEGIN:VEVENT
 SUMMARY:Piṭṭukku Maṇ Chumanda Līlai
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190906T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190907T235957
-DESCRIPTION:Observed on Mūlā nakṣhatram day of Siṃhaḥ (solar) mont
- h (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config f
- ile](https://github.com/sanskrit-coders/adyatithi/tree/master/tamil/sidere
- al_solar_month/nakshatra/05/19/piTTukku%20maN%20cumanda%20lIlai__info.toml
- )<br/>- Tags: PuranaEvents
+DESCRIPTION:Observed on Mūlā nakshatra of Siṃhaḥ (solar) month (praa
+ tah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config file](ht
+ tps://github.com/sanskrit-coders/adyatithi/tree/master/tamil/sidereal_sola
+ r_month/nakshatra/05/19/piTTukku%20maN%20cumanda%20lIlai__info.toml)<br/>-
+  Tags: PuranaEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -20878,11 +20876,11 @@ BEGIN:VEVENT
 SUMMARY:Oṇam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190910T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190911T235957
-DESCRIPTION:Observed on Śravaṇaḥ nakṣhatram day of Siṃhaḥ (sola
- r) month (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit c
- onfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/tamil
- /sidereal_solar_month/nakshatra/05/22/ONam__info.toml)<br/>- Tags: CommonF
- estivals
+DESCRIPTION:Observed on Śravaṇaḥ nakshatra of Siṃhaḥ (solar) mont
+ h (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config f
+ ile](https://github.com/sanskrit-coders/adyatithi/tree/master/tamil/sidere
+ al_solar_month/nakshatra/05/22/ONam__info.toml)<br/>- Tags: CommonFestival
+ s
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -20944,11 +20942,11 @@ BEGIN:VEVENT
 SUMMARY:Śravaṇa-Vratam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190910T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190911T235957
-DESCRIPTION:Observed on Śravaṇaḥ nakṣhatram day of every solar mont
- h (saangava/puurvaviddha (default)).  <br/><br/><br/>##### Details<br/>- [
- Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master
- /general/sidereal_solar_month/nakshatra/00/22/zravaNa-vratam__info.toml)<b
- r/>- Tags: SpecialVratam
+DESCRIPTION:Observed on Śravaṇaḥ nakshatra of every solar month (saan
+ gava/puurvaviddha (default)).  <br/><br/><br/>##### Details<br/>- [Edit co
+ nfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/genera
+ l/sidereal_solar_month/nakshatra/00/22/zravaNa-vratam__info.toml)<br/>- Ta
+ gs: SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -21551,11 +21549,11 @@ BEGIN:VEVENT
 SUMMARY:Mahābharaṇī
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190917T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190918T235957
-DESCRIPTION:Observed on Apabharaṇī nakṣhatram day of Bhādrapadaḥ (
- lunar) month (aparaahna/vyaapti).  <br/><br/><br/>##### Details<br/>- [Edi
- t config file](https://github.com/sanskrit-coders/adyatithi/tree/master/ge
- neral/lunar_month/nakshatra/06/02/mahAbharaNI__info.toml)<br/>- Tags: Spec
- ialPuja CommonFestivals
+DESCRIPTION:Observed on Apabharaṇī nakshatra of Bhādrapadaḥ (lunar) 
+ month (aparaahna/vyaapti).  <br/><br/><br/>##### Details<br/>- [Edit confi
+ g file](https://github.com/sanskrit-coders/adyatithi/tree/master/general/l
+ unar_month/nakshatra/06/02/mahAbharaNI__info.toml)<br/>- Tags: SpecialPuja
+  CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -21801,11 +21799,11 @@ BEGIN:VEVENT
 SUMMARY:Tirunāḻaippovār Nāyanār (17) Gurupūjai
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190920T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190921T235957
-DESCRIPTION:Observed on Rohiṇī nakṣhatram day of Kanyā (solar) month
-  (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config fi
- le](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/n
- AyanAr/sidereal_solar_month/nakshatra/06/04/tirunALaippOvAr%20nAyan2Ar%20%
- 2817%29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
+DESCRIPTION:Observed on Rohiṇī nakshatra of Kanyā (solar) month (praat
+ ah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config file](htt
+ ps://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/nAyanAr/
+ sidereal_solar_month/nakshatra/06/04/tirunALaippOvAr%20nAyan2Ar%20%2817%29
+ %20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -22612,11 +22610,11 @@ BEGIN:VEVENT
 SUMMARY:Vaidhṛti-Śrāddham
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190929T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190930T235957
-DESCRIPTION:Observed on  of every solar month (aparaahna/vyaapti).  <br/>V
- aidhrti Shraddha day.<br/><br/>##### Details<br/>- [Edit config file](http
- s://github.com/sanskrit-coders/adyatithi/tree/master/devatA/pitR/sidereal_
- solar_month/yoga/00/27/vaidhRti-zrAddham__info.toml)<br/>- Tags: MonthlySh
- raddhaDays ShannavatiTarpanaDays
+DESCRIPTION:Observed on Vaidhṛtiḥ yoga of every solar month (aparaahna
+ /vyaapti).  <br/>Vaidhrti Shraddha day.<br/><br/>##### Details<br/>- [Edit
+  config file](https://github.com/sanskrit-coders/adyatithi/tree/master/dev
+ atA/pitR/sidereal_solar_month/yoga/00/27/vaidhRti-zrAddham__info.toml)<br/
+ >- Tags: MonthlyShraddhaDays ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -23136,11 +23134,11 @@ BEGIN:VEVENT
 SUMMARY:Enādinātha Nāyanār (8) Gurupūjai
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191006T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191007T235957
-DESCRIPTION:Observed on Uttarāṣāḍhā nakṣhatram day of Kanyā (sol
- ar) month (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit 
- config file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahA
- puruSha/nAyanAr/sidereal_solar_month/nakshatra/06/21/En2AdinAtha%20nAyan2A
- r%20%288%29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
+DESCRIPTION:Observed on Uttarāṣāḍhā nakshatra of Kanyā (solar) mon
+ th (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config 
+ file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha
+ /nAyanAr/sidereal_solar_month/nakshatra/06/21/En2AdinAtha%20nAyan2Ar%20%28
+ 8%29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -23442,11 +23440,11 @@ BEGIN:VEVENT
 SUMMARY:Śravaṇa-Vratam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191007T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191008T235957
-DESCRIPTION:Observed on Śravaṇaḥ nakṣhatram day of every solar mont
- h (saangava/puurvaviddha (default)).  <br/><br/><br/>##### Details<br/>- [
- Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master
- /general/sidereal_solar_month/nakshatra/00/22/zravaNa-vratam__info.toml)<b
- r/>- Tags: SpecialVratam
+DESCRIPTION:Observed on Śravaṇaḥ nakshatra of every solar month (saan
+ gava/puurvaviddha (default)).  <br/><br/><br/>##### Details<br/>- [Edit co
+ nfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/genera
+ l/sidereal_solar_month/nakshatra/00/22/zravaNa-vratam__info.toml)<br/>- Ta
+ gs: SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -23580,11 +23578,11 @@ BEGIN:VEVENT
 SUMMARY:Narachiṅgamunaiyaraiya Nāyanār (40) Gurupūjai
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191009T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191010T235957
-DESCRIPTION:Observed on Śatabhiṣak nakṣhatram day of Kanyā (solar) m
- onth (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit confi
- g file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruS
- ha/nAyanAr/sidereal_solar_month/nakshatra/06/24/naraciGgamun2aiyaraiya%20n
- Ayan2Ar%20%2840%29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
+DESCRIPTION:Observed on Śatabhiṣak nakshatra of Kanyā (solar) month (p
+ raatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config file]
+ (https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/nAya
+ nAr/sidereal_solar_month/nakshatra/06/24/naraciGgamun2aiyaraiya%20nAyan2Ar
+ %20%2840%29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -24087,11 +24085,11 @@ BEGIN:VEVENT
 SUMMARY:Rudra Paśupati Nāyanār (16) Gurupūjai
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191014T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191015T235957
-DESCRIPTION:Observed on Aśvinī nakṣhatram day of Kanyā (solar) month 
- (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config fil
- e](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/nA
- yanAr/sidereal_solar_month/nakshatra/06/01/rudra~pazupati%20nAyan2Ar%20%28
- 16%29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
+DESCRIPTION:Observed on Aśvinī nakshatra of Kanyā (solar) month (praata
+ h/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config file](http
+ s://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/nAyanAr/s
+ idereal_solar_month/nakshatra/06/01/rudra~pazupati%20nAyan2Ar%20%2816%29%2
+ 0gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -24151,13 +24149,13 @@ BEGIN:VEVENT
 SUMMARY:Kṛttikā-Vratam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191015T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191016T235957
-DESCRIPTION:Observed on Kṛttikā nakṣhatram day of every solar month (
- sunset/puurvaviddha (default)).  <br/>kṛttikā-vratam for Lord Subrahman
- ya. Observe fast for the entire day\, and obtain blessings of all the kṛ
- ttikā-striyaḥ who raised skanda after His birth.<br/><br/>##### Details
- <br/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tre
- e/master/devatA/kaumAra/sidereal_solar_month/nakshatra/00/03/kRttikA-vrata
- m__info.toml)<br/>- Tags: SpecialVratam
+DESCRIPTION:Observed on Kṛttikā nakshatra of every solar month (sunset/
+ puurvaviddha (default)).  <br/>kṛttikā-vratam for Lord Subrahmanya. Obs
+ erve fast for the entire day\, and obtain blessings of all the kṛttikā-
+ striyaḥ who raised skanda after His birth.<br/><br/>##### Details<br/>- 
+ [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/maste
+ r/devatA/kaumAra/sidereal_solar_month/nakshatra/00/03/kRttikA-vratam__info
+ .toml)<br/>- Tags: SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -24284,11 +24282,11 @@ BEGIN:VEVENT
 SUMMARY:Vyatīpāta-Śrāddham
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191016T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191017T235957
-DESCRIPTION:Observed on  of every solar month (aparaahna/vyaapti).  <br/>V
- yatipata Shraddha day.<br/><br/>##### Details<br/>- [Edit config file](htt
- ps://github.com/sanskrit-coders/adyatithi/tree/master/devatA/pitR/sidereal
- _solar_month/yoga/00/17/vyatIpAta-zrAddham__info.toml)<br/>- Tags: Monthly
- ShraddhaDays ShannavatiTarpanaDays
+DESCRIPTION:Observed on Vyatīpātaḥ yoga of every solar month (aparaahn
+ a/vyaapti).  <br/>Vyatipata Shraddha day.<br/><br/>##### Details<br/>- [Ed
+ it config file](https://github.com/sanskrit-coders/adyatithi/tree/master/d
+ evatA/pitR/sidereal_solar_month/yoga/00/17/vyatIpAta-zrAddham__info.toml)<
+ br/>- Tags: MonthlyShraddhaDays ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -24818,11 +24816,11 @@ BEGIN:VEVENT
 SUMMARY:Chatti Nāyanār (44) Gurupūjai
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191024T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191025T235957
-DESCRIPTION:Observed on Pūrvaphalgunī nakṣhatram day of Tulā (solar) 
- month (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit conf
- ig file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuru
- Sha/nAyanAr/sidereal_solar_month/nakshatra/07/11/catti%20nAyan2Ar%20%2844%
- 29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
+DESCRIPTION:Observed on Pūrvaphalgunī nakshatra of Tulā (solar) month (
+ praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config file
+ ](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/nAy
+ anAr/sidereal_solar_month/nakshatra/07/11/catti%20nAyan2Ar%20%2844%29%20gu
+ rupUjai__info.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -25040,11 +25038,11 @@ BEGIN:VEVENT
 SUMMARY:Vaidhṛti-Śrāddham
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191025T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191026T235957
-DESCRIPTION:Observed on  of every solar month (aparaahna/vyaapti).  <br/>V
- aidhrti Shraddha day.<br/><br/>##### Details<br/>- [Edit config file](http
- s://github.com/sanskrit-coders/adyatithi/tree/master/devatA/pitR/sidereal_
- solar_month/yoga/00/27/vaidhRti-zrAddham__info.toml)<br/>- Tags: MonthlySh
- raddhaDays ShannavatiTarpanaDays
+DESCRIPTION:Observed on Vaidhṛtiḥ yoga of every solar month (aparaahna
+ /vyaapti).  <br/>Vaidhrti Shraddha day.<br/><br/>##### Details<br/>- [Edit
+  config file](https://github.com/sanskrit-coders/adyatithi/tree/master/dev
+ atA/pitR/sidereal_solar_month/yoga/00/27/vaidhRti-zrAddham__info.toml)<br/
+ >- Tags: MonthlyShraddhaDays ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -25490,11 +25488,11 @@ BEGIN:VEVENT
 SUMMARY:Pūchalār Nāyanār (56) Gurupūjai
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191029T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191030T235957
-DESCRIPTION:Observed on Anūrādhā nakṣhatram day of Tulā (solar) mont
- h (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config f
- ile](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/
- nAyanAr/sidereal_solar_month/nakshatra/07/17/pUcalAr%20nAyan2Ar%20%2856%29
- %20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
+DESCRIPTION:Observed on Anūrādhā nakshatra of Tulā (solar) month (praa
+ tah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config file](ht
+ tps://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/nAyanAr
+ /sidereal_solar_month/nakshatra/07/17/pUcalAr%20nAyan2Ar%20%2856%29%20guru
+ pUjai__info.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -25567,11 +25565,11 @@ BEGIN:VEVENT
 SUMMARY:Aiyaḍigaḻ Kāḍavarkon Nāyanār (45) Gurupūjai
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191031T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191101T235957
-DESCRIPTION:Observed on Mūlā nakṣhatram day of Tulā (solar) month (pr
- aatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config file](
- https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/nAyan
- Ar/sidereal_solar_month/nakshatra/07/19/aiyaDigaL%20kADavarkOn2%20nAyan2Ar
- %20%2845%29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
+DESCRIPTION:Observed on Mūlā nakshatra of Tulā (solar) month (praatah/p
+ araviddha).  <br/><br/><br/>##### Details<br/>- [Edit config file](https:/
+ /github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/nAyanAr/side
+ real_solar_month/nakshatra/07/19/aiyaDigaL%20kADavarkOn2%20nAyan2Ar%20%284
+ 5%29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -25841,11 +25839,11 @@ BEGIN:VEVENT
 SUMMARY:Pôygaiyāḽvār Tirunakṣattiram
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191103T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191104T235957
-DESCRIPTION:Observed on Śravaṇaḥ nakṣhatram day of Tulā (solar) mo
- nth (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config
-  file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSh
- a/ALvAr/sidereal_solar_month/nakshatra/07/22/poygaiyAzhvAr%20tirunakSattir
- am__info.toml)<br/>- Tags: MahapurushaEvents AzhwarJayanti
+DESCRIPTION:Observed on Śravaṇaḥ nakshatra of Tulā (solar) month (pr
+ aatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config file](
+ https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/ALvAr
+ /sidereal_solar_month/nakshatra/07/22/poygaiyAzhvAr%20tirunakSattiram__inf
+ o.toml)<br/>- Tags: MahapurushaEvents AzhwarJayanti
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -25907,11 +25905,11 @@ BEGIN:VEVENT
 SUMMARY:Śravaṇa-Vratam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191103T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191104T235957
-DESCRIPTION:Observed on Śravaṇaḥ nakṣhatram day of every solar mont
- h (saangava/puurvaviddha (default)).  <br/><br/><br/>##### Details<br/>- [
- Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master
- /general/sidereal_solar_month/nakshatra/00/22/zravaNa-vratam__info.toml)<b
- r/>- Tags: SpecialVratam
+DESCRIPTION:Observed on Śravaṇaḥ nakshatra of every solar month (saan
+ gava/puurvaviddha (default)).  <br/><br/><br/>##### Details<br/>- [Edit co
+ nfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/genera
+ l/sidereal_solar_month/nakshatra/00/22/zravaNa-vratam__info.toml)<br/>- Ta
+ gs: SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -25970,11 +25968,11 @@ BEGIN:VEVENT
 SUMMARY:Bhūtattāḽvār Tirunakṣattiram
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191104T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191105T235957
-DESCRIPTION:Observed on Śraviṣṭhā nakṣhatram day of Tulā (solar) 
- month (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit conf
- ig file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuru
- Sha/ALvAr/sidereal_solar_month/nakshatra/07/23/bhUtattAzhvAr%20tirunakSatt
- iram__info.toml)<br/>- Tags: MahapurushaEvents AzhwarJayanti
+DESCRIPTION:Observed on Śraviṣṭhā nakshatra of Tulā (solar) month (
+ praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config file
+ ](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/ALv
+ Ar/sidereal_solar_month/nakshatra/07/23/bhUtattAzhvAr%20tirunakSattiram__i
+ nfo.toml)<br/>- Tags: MahapurushaEvents AzhwarJayanti
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -26155,11 +26153,11 @@ BEGIN:VEVENT
 SUMMARY:Peyāḽvār Tirunakṣattiram
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191106T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191107T235957
-DESCRIPTION:Observed on Śatabhiṣak nakṣhatram day of Tulā (solar) mo
- nth (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config
-  file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSh
- a/ALvAr/sidereal_solar_month/nakshatra/07/24/pEyAzhvAr%20tirunakSattiram__
- info.toml)<br/>- Tags: MahapurushaEvents AzhwarJayanti
+DESCRIPTION:Observed on Śatabhiṣak nakshatra of Tulā (solar) month (pr
+ aatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config file](
+ https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/ALvAr
+ /sidereal_solar_month/nakshatra/07/24/pEyAzhvAr%20tirunakSattiram__info.to
+ ml)<br/>- Tags: MahapurushaEvents AzhwarJayanti
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -26587,11 +26585,11 @@ BEGIN:VEVENT
 SUMMARY:Tirumūla Nāyanār (29) Gurupūjai
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191110T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191111T235957
-DESCRIPTION:Observed on Aśvinī nakṣhatram day of Tulā (solar) month (
- praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config file
- ](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/nAy
- anAr/sidereal_solar_month/nakshatra/07/01/tirumUla%20nAyan2Ar%20%2829%29%2
- 0gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
+DESCRIPTION:Observed on Aśvinī nakshatra of Tulā (solar) month (praatah
+ /paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config file](https
+ ://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/nAyanAr/si
+ dereal_solar_month/nakshatra/07/01/tirumUla%20nAyan2Ar%20%2829%29%20gurupU
+ jai__info.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -26621,11 +26619,11 @@ BEGIN:VEVENT
 SUMMARY:Vyatīpāta-Śrāddham
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191110T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191111T235957
-DESCRIPTION:Observed on  of every solar month (aparaahna/vyaapti).  <br/>V
- yatipata Shraddha day.<br/><br/>##### Details<br/>- [Edit config file](htt
- ps://github.com/sanskrit-coders/adyatithi/tree/master/devatA/pitR/sidereal
- _solar_month/yoga/00/17/vyatIpAta-zrAddham__info.toml)<br/>- Tags: Monthly
- ShraddhaDays ShannavatiTarpanaDays
+DESCRIPTION:Observed on Vyatīpātaḥ yoga of every solar month (aparaahn
+ a/vyaapti).  <br/>Vyatipata Shraddha day.<br/><br/>##### Details<br/>- [Ed
+ it config file](https://github.com/sanskrit-coders/adyatithi/tree/master/d
+ evatA/pitR/sidereal_solar_month/yoga/00/17/vyatIpAta-zrAddham__info.toml)<
+ br/>- Tags: MonthlyShraddhaDays ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -26839,11 +26837,11 @@ BEGIN:VEVENT
 SUMMARY:Ninr̂Achīr Nêḍumār̂A Nāyanār (48) Gurupūjai
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191111T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191112T235957
-DESCRIPTION:Observed on Apabharaṇī nakṣhatram day of Tulā (solar) mo
- nth (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config
-  file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSh
- a/nAyanAr/sidereal_solar_month/nakshatra/07/02/nin2r2acIr%20neDumAr2a%20nA
- yan2Ar%20%2848%29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
+DESCRIPTION:Observed on Apabharaṇī nakshatra of Tulā (solar) month (pr
+ aatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config file](
+ https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/nAyan
+ Ar/sidereal_solar_month/nakshatra/07/02/nin2r2acIr%20neDumAr2a%20nAyan2Ar%
+ 20%2848%29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -26940,11 +26938,11 @@ BEGIN:VEVENT
 SUMMARY:Iḍaṅkaḽi Nāyanār (52) Gurupūjai
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191112T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191113T235957
-DESCRIPTION:Observed on Kṛttikā nakṣhatram day of Tulā (solar) month
-  (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config fi
- le](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/n
- AyanAr/sidereal_solar_month/nakshatra/07/03/iDaGkazhi%20nAyan2Ar%20%2852%2
- 9%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
+DESCRIPTION:Observed on Kṛttikā nakshatra of Tulā (solar) month (praat
+ ah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config file](htt
+ ps://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/nAyanAr/
+ sidereal_solar_month/nakshatra/07/03/iDaGkazhi%20nAyan2Ar%20%2852%29%20gur
+ upUjai__info.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -26979,13 +26977,13 @@ BEGIN:VEVENT
 SUMMARY:Kṛttikā-Vratam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191112T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191113T235957
-DESCRIPTION:Observed on Kṛttikā nakṣhatram day of every solar month (
- sunset/puurvaviddha (default)).  <br/>kṛttikā-vratam for Lord Subrahman
- ya. Observe fast for the entire day\, and obtain blessings of all the kṛ
- ttikā-striyaḥ who raised skanda after His birth.<br/><br/>##### Details
- <br/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tre
- e/master/devatA/kaumAra/sidereal_solar_month/nakshatra/00/03/kRttikA-vrata
- m__info.toml)<br/>- Tags: SpecialVratam
+DESCRIPTION:Observed on Kṛttikā nakshatra of every solar month (sunset/
+ puurvaviddha (default)).  <br/>kṛttikā-vratam for Lord Subrahmanya. Obs
+ erve fast for the entire day\, and obtain blessings of all the kṛttikā-
+ striyaḥ who raised skanda after His birth.<br/><br/>##### Details<br/>- 
+ [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/maste
+ r/devatA/kaumAra/sidereal_solar_month/nakshatra/00/03/kRttikA-vratam__info
+ .toml)<br/>- Tags: SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -27649,11 +27647,11 @@ BEGIN:VEVENT
 SUMMARY:Vaidhṛti-Śrāddham
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191120T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191121T235957
-DESCRIPTION:Observed on  of every solar month (aparaahna/vyaapti).  <br/>V
- aidhrti Shraddha day.<br/><br/>##### Details<br/>- [Edit config file](http
- s://github.com/sanskrit-coders/adyatithi/tree/master/devatA/pitR/sidereal_
- solar_month/yoga/00/27/vaidhRti-zrAddham__info.toml)<br/>- Tags: MonthlySh
- raddhaDays ShannavatiTarpanaDays
+DESCRIPTION:Observed on Vaidhṛtiḥ yoga of every solar month (aparaahna
+ /vyaapti).  <br/>Vaidhrti Shraddha day.<br/><br/>##### Details<br/>- [Edit
+  config file](https://github.com/sanskrit-coders/adyatithi/tree/master/dev
+ atA/pitR/sidereal_solar_month/yoga/00/27/vaidhRti-zrAddham__info.toml)<br/
+ >- Tags: MonthlyShraddhaDays ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -27696,11 +27694,11 @@ BEGIN:VEVENT
 SUMMARY:Mêyppôruḻ Nāyanār (4) Gurupūjai
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191121T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191122T235957
-DESCRIPTION:Observed on Uttaraphalgunī nakṣhatram day of Vṛścikaḥ 
- (solar) month (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [E
- dit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/
- mahApuruSha/nAyanAr/sidereal_solar_month/nakshatra/08/12/meypporuL%20nAyan
- 2Ar%20%284%29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
+DESCRIPTION:Observed on Uttaraphalgunī nakshatra of Vṛścikaḥ (solar)
+  month (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit con
+ fig file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApur
+ uSha/nAyanAr/sidereal_solar_month/nakshatra/08/12/meypporuL%20nAyan2Ar%20%
+ 284%29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -27761,11 +27759,11 @@ BEGIN:VEVENT
 SUMMARY:Ānāya Nāyanār (13) Gurupūjai
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191122T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191123T235957
-DESCRIPTION:Observed on Hastaḥ nakṣhatram day of Vṛścikaḥ (solar)
-  month (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit con
- fig file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApur
- uSha/nAyanAr/sidereal_solar_month/nakshatra/08/13/An2Aya%20nAyan2Ar%20%281
- 3%29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
+DESCRIPTION:Observed on Hastaḥ nakshatra of Vṛścikaḥ (solar) month 
+ (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config fil
+ e](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/nA
+ yanAr/sidereal_solar_month/nakshatra/08/13/An2Aya%20nAyan2Ar%20%2813%29%20
+ gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -28241,11 +28239,11 @@ BEGIN:VEVENT
 SUMMARY:Mūrkkha Nāyanār (31) Gurupūjai
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191127T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191128T235957
-DESCRIPTION:Observed on Mūlā nakṣhatram day of Vṛścikaḥ (solar) m
- onth (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit confi
- g file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruS
- ha/nAyanAr/sidereal_solar_month/nakshatra/08/19/mUrkkha%20nAyan2Ar%20%2831
- %29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
+DESCRIPTION:Observed on Mūlā nakshatra of Vṛścikaḥ (solar) month (p
+ raatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config file]
+ (https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/nAya
+ nAr/sidereal_solar_month/nakshatra/08/19/mUrkkha%20nAyan2Ar%20%2831%29%20g
+ urupUjai__info.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -28305,11 +28303,11 @@ BEGIN:VEVENT
 SUMMARY:Chir̂Appuli Nāyanār (34) Gurupūjai
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191128T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191129T235957
-DESCRIPTION:Observed on Pūrvāṣāḍhā nakṣhatram day of Vṛścika
- ḥ (solar) month (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>
- - [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/mas
- ter/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatra/08/20/cir2appuli%20
- nAyan2Ar%20%2834%29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
+DESCRIPTION:Observed on Pūrvāṣāḍhā nakshatra of Vṛścikaḥ (sol
+ ar) month (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit 
+ config file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahA
+ puruSha/nAyanAr/sidereal_solar_month/nakshatra/08/20/cir2appuli%20nAyan2Ar
+ %20%2834%29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -28415,11 +28413,11 @@ BEGIN:VEVENT
 SUMMARY:Śravaṇa-Vratam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191130T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191201T235957
-DESCRIPTION:Observed on Śravaṇaḥ nakṣhatram day of every solar mont
- h (saangava/puurvaviddha (default)).  <br/><br/><br/>##### Details<br/>- [
- Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master
- /general/sidereal_solar_month/nakshatra/00/22/zravaNa-vratam__info.toml)<b
- r/>- Tags: SpecialVratam
+DESCRIPTION:Observed on Śravaṇaḥ nakshatra of every solar month (saan
+ gava/puurvaviddha (default)).  <br/><br/><br/>##### Details<br/>- [Edit co
+ nfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/genera
+ l/sidereal_solar_month/nakshatra/00/22/zravaNa-vratam__info.toml)<br/>- Ta
+ gs: SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -28813,11 +28811,11 @@ BEGIN:VEVENT
 SUMMARY:Vyatīpāta-Śrāddham
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191206T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191207T235957
-DESCRIPTION:Observed on  of every solar month (aparaahna/vyaapti).  <br/>V
- yatipata Shraddha day.<br/><br/>##### Details<br/>- [Edit config file](htt
- ps://github.com/sanskrit-coders/adyatithi/tree/master/devatA/pitR/sidereal
- _solar_month/yoga/00/17/vyatIpAta-zrAddham__info.toml)<br/>- Tags: Monthly
- ShraddhaDays ShannavatiTarpanaDays
+DESCRIPTION:Observed on Vyatīpātaḥ yoga of every solar month (aparaahn
+ a/vyaapti).  <br/>Vyatipata Shraddha day.<br/><br/>##### Details<br/>- [Ed
+ it config file](https://github.com/sanskrit-coders/adyatithi/tree/master/d
+ evatA/pitR/sidereal_solar_month/yoga/00/17/vyatIpAta-zrAddham__info.toml)<
+ br/>- Tags: MonthlyShraddhaDays ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -28987,11 +28985,11 @@ BEGIN:VEVENT
 SUMMARY:Bharaṇī Dīpam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191208T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191209T235957
-DESCRIPTION:Observed on Apabharaṇī nakṣhatram day of Vṛścikaḥ (s
- olar) month (sunrise/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edi
- t config file](https://github.com/sanskrit-coders/adyatithi/tree/master/ta
- mil/sidereal_solar_month/nakshatra/08/02/bharaNI~dIpam__info.toml)<br/>- T
- ags: CommonFestivals
+DESCRIPTION:Observed on Apabharaṇī nakshatra of Vṛścikaḥ (solar) m
+ onth (sunrise/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit confi
+ g file](https://github.com/sanskrit-coders/adyatithi/tree/master/tamil/sid
+ ereal_solar_month/nakshatra/08/02/bharaNI~dIpam__info.toml)<br/>- Tags: Co
+ mmonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -29004,11 +29002,11 @@ BEGIN:VEVENT
 SUMMARY:Kārttigai
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191208T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191209T235957
-DESCRIPTION:Observed on Kṛttikā nakṣhatram day of Vṛścikaḥ (sola
- r) month (raatrimaana/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [
- Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master
- /tamil/sidereal_solar_month/nakshatra/08/03/kArttigai__info.toml)<br/>- Ta
- gs: CommonFestivals
+DESCRIPTION:Observed on Kṛttikā nakshatra of Vṛścikaḥ (solar) mont
+ h (raatrimaana/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit co
+ nfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/tamil/
+ sidereal_solar_month/nakshatra/08/03/kArttigai__info.toml)<br/>- Tags: Com
+ monFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -29054,11 +29052,11 @@ BEGIN:VEVENT
 SUMMARY:Tiruvaṇṇāmalai Dīpam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191208T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191209T235957
-DESCRIPTION:Observed on Kṛttikā nakṣhatram day of Vṛścikaḥ (sola
- r) month (raatrimaana/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [
- Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master
- /tamil/sidereal_solar_month/nakshatra/08/03/tiruvaNNAmalai~dIpam__info.tom
- l)<br/>- Tags: CommonFestivals
+DESCRIPTION:Observed on Kṛttikā nakshatra of Vṛścikaḥ (solar) mont
+ h (raatrimaana/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit co
+ nfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/tamil/
+ sidereal_solar_month/nakshatra/08/03/tiruvaNNAmalai~dIpam__info.toml)<br/>
+ - Tags: CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -29101,13 +29099,13 @@ BEGIN:VEVENT
 SUMMARY:Kṛttikā-Vratam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191209T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191210T235957
-DESCRIPTION:Observed on Kṛttikā nakṣhatram day of every solar month (
- sunset/puurvaviddha (default)).  <br/>kṛttikā-vratam for Lord Subrahman
- ya. Observe fast for the entire day\, and obtain blessings of all the kṛ
- ttikā-striyaḥ who raised skanda after His birth.<br/><br/>##### Details
- <br/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tre
- e/master/devatA/kaumAra/sidereal_solar_month/nakshatra/00/03/kRttikA-vrata
- m__info.toml)<br/>- Tags: SpecialVratam
+DESCRIPTION:Observed on Kṛttikā nakshatra of every solar month (sunset/
+ puurvaviddha (default)).  <br/>kṛttikā-vratam for Lord Subrahmanya. Obs
+ erve fast for the entire day\, and obtain blessings of all the kṛttikā-
+ striyaḥ who raised skanda after His birth.<br/><br/>##### Details<br/>- 
+ [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/maste
+ r/devatA/kaumAra/sidereal_solar_month/nakshatra/00/03/kRttikA-vratam__info
+ .toml)<br/>- Tags: SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -29120,11 +29118,11 @@ BEGIN:VEVENT
 SUMMARY:Kaṇampulla Nāyanār (46) Gurupūjai
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191209T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191210T235957
-DESCRIPTION:Observed on Kṛttikā nakṣhatram day of Vṛścikaḥ (sola
- r) month (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit c
- onfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahAp
- uruSha/nAyanAr/sidereal_solar_month/nakshatra/08/03/kaNampulla%20nAyan2Ar%
- 20%2846%29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
+DESCRIPTION:Observed on Kṛttikā nakshatra of Vṛścikaḥ (solar) mont
+ h (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config f
+ ile](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/
+ nAyanAr/sidereal_solar_month/nakshatra/08/03/kaNampulla%20nAyan2Ar%20%2846
+ %29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -29137,11 +29135,11 @@ BEGIN:VEVENT
 SUMMARY:Tirumaṅgaiyāḽvār Tirunakṣattiram
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191209T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191210T235957
-DESCRIPTION:Observed on Kṛttikā nakṣhatram day of Vṛścikaḥ (sola
- r) month (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit c
- onfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahAp
- uruSha/ALvAr/sidereal_solar_month/nakshatra/08/03/tirumaGgaiyAzhvAr%20tiru
- nakSattiram__info.toml)<br/>- Tags: MahapurushaEvents AzhwarJayanti
+DESCRIPTION:Observed on Kṛttikā nakshatra of Vṛścikaḥ (solar) mont
+ h (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config f
+ ile](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/
+ ALvAr/sidereal_solar_month/nakshatra/08/03/tirumaGgaiyAzhvAr%20tirunakSatt
+ iram__info.toml)<br/>- Tags: MahapurushaEvents AzhwarJayanti
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -29732,11 +29730,11 @@ BEGIN:VEVENT
 SUMMARY:Iyar̂Pagai Nāyanār (2) Gurupūjai
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191218T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191219T235957
-DESCRIPTION:Observed on Uttaraphalgunī nakṣhatram day of Dhanuḥ (sola
- r) month (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit c
- onfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahAp
- uruSha/nAyanAr/sidereal_solar_month/nakshatra/09/12/iyar2pagai%20nAyan2Ar%
- 20%282%29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
+DESCRIPTION:Observed on Uttaraphalgunī nakshatra of Dhanuḥ (solar) mont
+ h (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config f
+ ile](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/
+ nAyanAr/sidereal_solar_month/nakshatra/09/12/iyar2pagai%20nAyan2Ar%20%282%
+ 29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -29921,11 +29919,11 @@ BEGIN:VEVENT
 SUMMARY:Mānakkañchār̂A Nāyanār (11) Gurupūjai
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191221T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191222T235957
-DESCRIPTION:Observed on Svātī nakṣhatram day of Dhanuḥ (solar) month
-  (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config fi
- le](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/n
- AyanAr/sidereal_solar_month/nakshatra/09/15/mAn2akkaJcAr2a%20nAyan2Ar%20%2
- 811%29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
+DESCRIPTION:Observed on Svātī nakshatra of Dhanuḥ (solar) month (praat
+ ah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config file](htt
+ ps://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/nAyanAr/
+ sidereal_solar_month/nakshatra/09/15/mAn2akkaJcAr2a%20nAyan2Ar%20%2811%29%
+ 20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -30159,11 +30157,11 @@ BEGIN:VEVENT
 SUMMARY:Tôṇḍaraḍippôḍiyāḽvār Tirunakṣattiram
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191224T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191225T235957
-DESCRIPTION:Observed on Jyeṣṭhā nakṣhatram day of Dhanuḥ (solar) 
- month (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit conf
- ig file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuru
- Sha/ALvAr/sidereal_solar_month/nakshatra/09/18/toNDaraDippoDiyAzhvAr%20tir
- unakSattiram__info.toml)<br/>- Tags: MahapurushaEvents AzhwarJayanti
+DESCRIPTION:Observed on Jyeṣṭhā nakshatra of Dhanuḥ (solar) month (
+ praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config file
+ ](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/ALv
+ Ar/sidereal_solar_month/nakshatra/09/18/toNDaraDippoDiyAzhvAr%20tirunakSat
+ tiram__info.toml)<br/>- Tags: MahapurushaEvents AzhwarJayanti
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -30265,11 +30263,11 @@ BEGIN:VEVENT
 SUMMARY:Chākkiya Nāyanār (33) Gurupūjai
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191226T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191227T235957
-DESCRIPTION:Observed on Pūrvāṣāḍhā nakṣhatram day of Dhanuḥ (s
- olar) month (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edi
- t config file](https://github.com/sanskrit-coders/adyatithi/tree/master/ma
- hApuruSha/nAyanAr/sidereal_solar_month/nakshatra/09/20/cAkkiya%20nAyan2Ar%
- 20%2833%29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
+DESCRIPTION:Observed on Pūrvāṣāḍhā nakshatra of Dhanuḥ (solar) m
+ onth (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit confi
+ g file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruS
+ ha/nAyanAr/sidereal_solar_month/nakshatra/09/20/cAkkiya%20nAyan2Ar%20%2833
+ %29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -30361,11 +30359,11 @@ BEGIN:VEVENT
 SUMMARY:Śravaṇa-Vratam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191228T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191229T235957
-DESCRIPTION:Observed on Śravaṇaḥ nakṣhatram day of every solar mont
- h (saangava/puurvaviddha (default)).  <br/><br/><br/>##### Details<br/>- [
- Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master
- /general/sidereal_solar_month/nakshatra/00/22/zravaNa-vratam__info.toml)<b
- r/>- Tags: SpecialVratam
+DESCRIPTION:Observed on Śravaṇaḥ nakshatra of every solar month (saan
+ gava/puurvaviddha (default)).  <br/><br/><br/>##### Details<br/>- [Edit co
+ nfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/genera
+ l/sidereal_solar_month/nakshatra/00/22/zravaNa-vratam__info.toml)<br/>- Ta
+ gs: SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
