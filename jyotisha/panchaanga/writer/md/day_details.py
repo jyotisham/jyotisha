@@ -2,15 +2,8 @@
 # -*- coding: utf-8 -*-
 
 import logging
-import os
-import os.path
-import sys
-from datetime import timedelta
 from io import StringIO
 from math import ceil
-
-from icalendar import Calendar, Event, Alarm
-from indic_transliteration import xsanscript as sanscript
 
 import jyotisha
 import jyotisha.custom_transliteration
@@ -19,79 +12,14 @@ import jyotisha.panchaanga.spatio_temporal.annual
 import jyotisha.panchaanga.temporal
 from jyotisha import names
 from jyotisha.names import translate_and_transliterate
-from jyotisha.panchaanga.spatio_temporal import City
 from jyotisha.panchaanga.temporal import AngaType
 from jyotisha.panchaanga.temporal.festival.rules import RulesRepo
 from jyotisha.panchaanga.temporal.time import Hour
-from jyotisha.panchaanga.writer.ics import util
 
 logging.basicConfig(
   level=logging.DEBUG,
   format="%(levelname)s: %(asctime)s  %(filename)s:%(lineno)d : %(message)s "
 )
-
-CODE_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
-
-
-def write_to_file(ics_calendar, fname):
-  ics_calendar_file = open(fname, 'wb')
-  ics_calendar_file.write(ics_calendar.to_ical())
-  ics_calendar_file.close()
-
-
-def writeDailyICS(panchaanga, script=sanscript.DEVANAGARI):
-  """Write out the panchaanga TeX using a specified template
-  """
-  compute_lagnams=panchaanga.computation_system.options.set_lagnas
-
-  samvatsara_id = (panchaanga.year - 1568) % 60 + 1  # distance from prabhava
-  samvatsara_names = (jyotisha.names.NAMES['SAMVATSARA_NAMES'][script][samvatsara_id],
-                      jyotisha.names.NAMES['SAMVATSARA_NAMES'][script][(samvatsara_id % 60) + 1])
-
-  yname_solar = samvatsara_names[0]  # Assign year name until Mesha Sankranti
-  yname_lunar = samvatsara_names[0]  # Assign year name until Mesha Sankranti
-
-
-  ics_calendar = Calendar()
-
-  alarm = Alarm()
-  alarm.add('action', 'DISPLAY')
-  alarm.add('trigger', timedelta(hours=-4))  # default alarm, with a 4 hour reminder
-
-  daily_panchaangas = panchaanga.daily_panchaangas_sorted()
-  for d, daily_panchaanga in enumerate(daily_panchaangas):
-    if daily_panchaanga.date < panchaanga.start_date or daily_panchaanga.date > panchaanga.end_date:
-      continue
-
-    if daily_panchaanga.solar_sidereal_date_sunset.month == 1:
-      # Flip the year name for the remaining days
-      yname_solar = samvatsara_names[1]
-    if daily_panchaanga.lunar_month_sunrise.index == 1:
-      # Flip the year name for the remaining days
-      yname_lunar = samvatsara_names[1]
-
-    event = get_day_summary_event(d, panchaanga, script)
-
-    ics_calendar.add_component(event)
-
-  return ics_calendar
-
-
-def get_day_summary_event(d, panchaanga, script):
-  daily_panchaanga = panchaanga.daily_panchaangas_sorted()[d]
-  event = Event()
-  (title, details) = day_summary(d=d, panchaanga=panchaanga, script=script)
-  event.add('summary', title)
-  event.add('description', details)
-  tz = daily_panchaanga.city.get_timezone_obj()
-  dt_start = tz.julian_day_to_local_datetime(jd=daily_panchaanga.jd_sunrise)
-  event.add('dtstart', dt_start)
-  event.add('dtend', tz.julian_day_to_local_datetime(jd=daily_panchaanga.jd_next_sunrise))
-  event.add_component(util.get_4_hr_display_alarm())
-  event['X-MICROSOFT-CDO-ALLDAYEVENT'] = 'TRUE'
-  event['TRANSP'] = 'TRANSPARENT'
-  event['X-MICROSOFT-CDO-BUSYSTATUS'] = 'FREE'
-  return event
 
 
 def day_summary(d, panchaanga, script):
@@ -303,42 +231,3 @@ def get_lagna_data_str(daily_panchaanga, script):
   lagna_data_str = '*' + translate_and_transliterate('lagnam', script) + '*—' + lagna_data_str[2:]
   return lagna_data_str
 
-
-
-
-def main():
-  [city_name, latitude, longitude, tz] = sys.argv[1:5]
-  year = int(sys.argv[5])
-
-  compute_lagnams = False  # Default
-  script = sanscript.DEVANAGARI  # Default language is devanagari
-  fmt = 'hh:mm'
-
-  if len(sys.argv) == 9:
-    compute_lagnams = True
-    fmt = sys.argv[7]
-    script = sys.argv[6]
-  elif len(sys.argv) == 8:
-    script = sys.argv[6]
-    fmt = sys.argv[7]
-    compute_lagnams = False
-  elif len(sys.argv) == 7:
-    script = sys.argv[6]
-    compute_lagnams = False
-
-  city = City(city_name, latitude, longitude, tz)
-
-  panchaanga = jyotisha.panchaanga.spatio_temporal.annual.get_panchaanga_for_civil_year(city=city, year=year)
-
-  panchaanga.update_festival_details()
-
-  ics_calendar = writeDailyICS(panchaanga)
-  city_name_en = jyotisha.custom_transliteration.romanise(
-    jyotisha.custom_transliteration.tr(city.name, sanscript.IAST)).title()
-  output_file = os.path.expanduser('%s/%s-%d-%s-daily.ics' % ("../ics/daily", city_name_en, year, script))
-  write_to_file(ics_calendar, output_file)
-  print('Output ICS written to %s' % output_file, file=sys.stderr)
-
-
-if __name__ == '__main__':
-  main()
