@@ -23,6 +23,83 @@ def transliterate_quoted_text(text, script):
 
 def describe_fest(rule, include_images, include_shlokas, include_url, is_brief, script, truncate, use_markup):
   # Get the Blurb
+  blurb = get_timing_summary(rule)
+  # Get the URL
+  if include_url:
+    url = rule.get_url()
+  description_string = get_description_str_with_shlokas(include_shlokas, rule, script, use_markup)
+  if include_images:
+    if rule.image is not None:
+      image_string = '![](https://github.com/sanskrit-coders/adyatithi/blob/master/images/%s)\n\n' % rule.image
+  ref_list = get_references_md(rule)
+  # Now compose the description string based on the values of
+  # include_url, include_images, use_markup, is_brief
+  if not is_brief:
+    final_description_string = blurb
+  else:
+    if include_url:
+      final_description_string = url
+    else:
+      final_description_string = ''
+  final_description_string += description_string
+  if include_images:
+    final_description_string += image_string
+  if truncate:
+    if len(final_description_string) > 450:
+      # Truncate
+      final_description_string = ' '.join(final_description_string[:450].split(' ')[:-1]) + ' ...\n'
+  if not is_brief:
+    final_description_string += ref_list
+  if not is_brief and include_url:
+    # if use_markup:
+    final_description_string += ('\n\n%s\n' % url) + '\n' + ' '.join(['#' + x for x in rule.tags])
+  # else:
+  #   final_description_string += ('\n\n%s\n' % url) + '\n' + ' '.join(['#' + x for x in rule.tags])
+  # if use_markup:
+  #   final_description_string = final_description_string.replace('\n', '<br/><br/>')
+  return final_description_string
+
+
+def get_description_str_with_shlokas(include_shlokas, rule, script, use_markup):
+  # Get the description
+  description_string = ''
+  if rule.description is not None:
+    # description_string = json.dumps(rule.description)
+    description_string += rule.description["en"]
+    pieces = description_string.split('`')
+    if len(pieces) > 1:
+      if len(pieces) % 2 == 1:
+        # We much have matching backquotes, the contents of which can be neatly transliterated
+        for i, piece in enumerate(pieces):
+          if (i % 2) == 1:
+            pieces[i] = custom_transliteration.tr(piece, script, False)
+        description_string = ''.join(pieces)
+      else:
+        logging.warning('Unmatched backquotes in description string: %s' % description_string)
+  if rule.shlokas is not None and include_shlokas:
+    if use_markup:
+      description_string = description_string + '\n\n```\n' + custom_transliteration.tr(", ".join(rule.shlokas),
+                                                                                        script, False) + '\n```'
+    else:
+      description_string = description_string + '\n\n' + custom_transliteration.tr(", ".join(rule.shlokas), script,
+                                                                                   False) + '\n\n'
+  return description_string
+
+
+def get_references_md(rule):
+  ref_list = ''
+  if rule.references_primary is not None or rule.references_secondary is not None:
+    ref_list = '\n##### References\n'
+    if rule.references_primary is not None:
+      for ref in rule.references_primary:
+        ref_list += '- %s\n' % transliterate_quoted_text(ref, sanscript.IAST)
+    elif rule.references_secondary is not None:
+      for ref in rule.references_secondary:
+        ref_list += '- %s\n' % transliterate_quoted_text(ref, sanscript.IAST)
+  return ref_list
+
+
+def get_timing_summary(rule):
   blurb = ''
   month = ''
   angam = ''
@@ -69,66 +146,4 @@ def describe_fest(rule, include_images, include_shlokas, include_url, is_brief, 
   if blurb != '':
     blurb += ' (%s/%s).\n' % (kaala, priority)
     # logging.debug(blurb)
-  # Get the URL
-  if include_url:
-    url = rule.get_url()
-  # Get the description
-  description_string = ''
-  if rule.description is not None:
-    # description_string = json.dumps(rule.description)
-    description_string += rule.description["en"]
-    pieces = description_string.split('`')
-    if len(pieces) > 1:
-      if len(pieces) % 2 == 1:
-        # We much have matching backquotes, the contents of which can be neatly transliterated
-        for i, piece in enumerate(pieces):
-          if (i % 2) == 1:
-            pieces[i] = custom_transliteration.tr(piece, script, False)
-        description_string = ''.join(pieces)
-      else:
-        logging.warning('Unmatched backquotes in description string: %s' % description_string)
-  if rule.shlokas is not None and include_shlokas:
-    if use_markup:
-      description_string = description_string + '\n\n```\n' + custom_transliteration.tr(", ".join(rule.shlokas),
-                                                                                        script, False) + '\n```'
-    else:
-      description_string = description_string + '\n\n' + custom_transliteration.tr(", ".join(rule.shlokas), script,
-                                                                                   False) + '\n\n'
-  if include_images:
-    if rule.image is not None:
-      image_string = '![](https://github.com/sanskrit-coders/adyatithi/blob/master/images/%s)\n\n' % rule.image
-  ref_list = ''
-  if rule.references_primary is not None or rule.references_secondary is not None:
-    ref_list = '\n### References\n'
-    if rule.references_primary is not None:
-      for ref in rule.references_primary:
-        ref_list += '* %s\n' % transliterate_quoted_text(ref, sanscript.IAST)
-    elif rule.references_secondary is not None:
-      for ref in rule.references_secondary:
-        ref_list += '* %s\n' % transliterate_quoted_text(ref, sanscript.IAST)
-  # Now compose the description string based on the values of
-  # include_url, include_images, use_markup, is_brief
-  if not is_brief:
-    final_description_string = blurb
-  else:
-    if include_url:
-      final_description_string = url
-    else:
-      final_description_string = ''
-  final_description_string += description_string
-  if include_images:
-    final_description_string += image_string
-  if truncate:
-    if len(final_description_string) > 450:
-      # Truncate
-      final_description_string = ' '.join(final_description_string[:450].split(' ')[:-1]) + ' ...\n'
-  if not is_brief:
-    final_description_string += ref_list
-  if not is_brief and include_url:
-    # if use_markup:
-    final_description_string += ('\n\n%s\n' % url) + '\n' + ' '.join(['#' + x for x in rule.tags])
-  # else:
-  #   final_description_string += ('\n\n%s\n' % url) + '\n' + ' '.join(['#' + x for x in rule.tags])
-  # if use_markup:
-  #   final_description_string = final_description_string.replace('\n', '<br/><br/>')
-  return final_description_string
+  return blurb

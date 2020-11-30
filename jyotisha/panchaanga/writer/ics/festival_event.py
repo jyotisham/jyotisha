@@ -1,14 +1,12 @@
 import logging
 import os
-import re
 from copy import deepcopy
 
 from icalendar import Event
 
-from jyotisha.panchaanga.temporal.festival import FestivalInstance, rules
+from jyotisha.panchaanga.temporal.festival import FestivalInstance, rules, get_description
 from jyotisha.panchaanga.temporal.interval import Interval
 from jyotisha.panchaanga.writer.ics.util import get_4_hr_display_alarm
-from jyotisha.util import default_if_none
 
 
 def write_to_file(ics_calendar, fname):
@@ -89,60 +87,6 @@ def festival_instance_to_event(festival_instance, scripts, panchaanga, all_day=F
   alarm = get_4_hr_display_alarm()
   event.add_component(alarm)
   return event
-
-
-def get_description(festival_instance, fest_details_dict, script):
-  fest_id = festival_instance.name
-  desc = None
-  if re.match('aGgArakI.*saGkaTahara-caturthI-vratam', fest_id):
-    fest_id = fest_id.replace('aGgArakI~', '')
-    if fest_id in fest_details_dict:
-      desc = fest_details_dict[fest_id].get_description_string(
-        script=script)
-      desc += 'When `caturthI` occurs on a Tuesday, it is known as `aGgArakI` and is even more sacred.'
-    else:
-      logging.warning('No description found for caturthI festival %s!' % fest_id)
-  elif re.match('.*-.*-EkAdazI', fest_id) is not None:
-    # Handle ekaadashii descriptions differently
-    ekad = '-'.join(fest_id.split('-')[1:])  # get rid of sarva etc. prefix!
-    ekad_suff_pos = ekad.find(' (')
-    if ekad_suff_pos != -1:
-      # ekad_suff = ekad[ekad_suff_pos + 1:-1]
-      ekad = ekad[:ekad_suff_pos]
-    if ekad in fest_details_dict:
-      desc = fest_details_dict[ekad].get_description_string(
-        script=script, include_url=True, include_shlokas=True, truncate=True)
-    else:
-      logging.warning('No description found for Ekadashi festival %s (%s)!' % (ekad, fest_id))
-  elif fest_id.find('saGkrAntiH') != -1:
-    # Handle Sankranti descriptions differently
-    planet_trans = fest_id.split('~')[0]  # get rid of ~(rAshi name) etc.
-    if planet_trans in fest_details_dict:
-      desc = fest_details_dict[planet_trans].get_description_string(
-        script=script, include_url=True, include_shlokas=True, truncate=True)
-    else:
-      logging.warning('No description found for festival %s!' % planet_trans)
-  elif fest_id in fest_details_dict:
-      desc = fest_details_dict[fest_id].get_description_string(
-        script=script, include_url=True, include_shlokas=True, truncate=True, include_images=False)
-
-
-  if desc is None:
-      # Check approx. match
-      matched_festivals = []
-      for fest_key in fest_details_dict:
-        if fest_id.startswith(fest_key):
-          matched_festivals += [fest_key]
-      if matched_festivals == []:
-        logging.warning('No description found for festival %s!' % fest_id)
-      elif len(matched_festivals) > 1:
-        logging.warning('No exact match found for festival %s! Found more than one approximate match: %s' % (
-          fest_id, str(matched_festivals)))
-      else:
-        desc = fest_details_dict[matched_festivals[0]].get_description_string(script=script,
-                                                                              include_url=True, include_shlokas=True,
-                                                                              truncate=True)
-  return default_if_none(desc, "")
 
 
 def set_interval(daily_panchaanga, festival_instance):
