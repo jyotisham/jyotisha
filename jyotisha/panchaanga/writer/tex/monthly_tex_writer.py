@@ -28,7 +28,7 @@ logging.basicConfig(
 CODE_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
 
 
-def write_monthly_tex(panchaanga, template_file, time_format="hh:mm", scripts=None, temporal=None):
+def write_monthly_tex(panchaanga, time_format="hh:mm", scripts=None, temporal=None):
   """Write out the panchaanga TeX using a specified template
   """
   if scripts is None:
@@ -39,7 +39,7 @@ def write_monthly_tex(panchaanga, template_file, time_format="hh:mm", scripts=No
 
   monthly_template_file = open(os.path.join(os.path.dirname(__file__), 'templates/monthly_cal_template.tex'))
 
-  template_lines = template_file.readlines()
+  template_lines = monthly_template_file.readlines()
   for i in range(0, len(template_lines) - 3):
     print(template_lines[i][:-1])
 
