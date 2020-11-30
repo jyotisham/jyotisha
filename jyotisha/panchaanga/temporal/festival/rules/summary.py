@@ -47,12 +47,12 @@ def describe_fest(rule, include_images, include_shlokas, include_url, is_brief, 
   if truncate:
     if len(final_description_string) > 450:
       # Truncate
-      final_description_string = ' '.join(final_description_string[:450].split(' ')[:-1]) + ' ...\n'
+      final_description_string = '\n\n##### Details\n- [Edit config file](%s)\n- Tags: %s\n\n' % (url, ' '.join(rule.tags))
   if not is_brief:
     final_description_string += ref_list
   if not is_brief and include_url:
     # if use_markup:
-    final_description_string += ('\n\n%s\n' % url) + '\n' + ' '.join(['#' + x for x in rule.tags])
+    final_description_string += '\n\n##### Details\n- [Edit config file](%s)\n- Tags: %s\n\n' % (url, ' '.join(rule.tags))
   # else:
   #   final_description_string += ('\n\n%s\n' % url) + '\n' + ' '.join(['#' + x for x in rule.tags])
   # if use_markup:
@@ -144,6 +144,6 @@ def get_timing_summary(rule):
   if month is not None:
     blurb += month
   if blurb != '':
-    blurb += ' (%s/%s).\n' % (kaala, priority)
+    blurb += ' (%s/%s).  \n' % (kaala, priority)
     # logging.debug(blurb)
   return blurb

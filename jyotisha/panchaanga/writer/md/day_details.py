@@ -240,6 +240,6 @@ def get_festivals_md(daily_panchaanga, panchaanga, scripts):
   fest_details_dict = rules_collection.name_to_rule
   output_stream = StringIO()
   for f in sorted(daily_panchaanga.festival_id_to_instance.values()):
-    print('- %s' % (f.md_code(scripts=scripts, timezone=panchaanga.city.get_timezone_obj(),
+    print('%s' % (f.md_code(scripts=scripts, timezone=panchaanga.city.get_timezone_obj(),
                 fest_details_dict=fest_details_dict)), file=output_stream)
   return output_stream.getvalue()

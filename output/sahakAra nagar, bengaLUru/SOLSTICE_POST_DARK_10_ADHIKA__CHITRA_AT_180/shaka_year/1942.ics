@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20201130203530
+SEQUENCE:20201130213330
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -4085,11 +4085,11 @@ SUMMARY:सर्प-बलि-प्रारम्भः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200705T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200706T000000
 DESCRIPTION:Observed on Paurṇamāsī tithi of Śrāvaṇaḥ (lunar) mon
- th (sunrise (default)/puurvaviddha (default)).<br/>Offer बलि to serp
- ents on (from) this day\, in the night after स्थालीपाक.<
- br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/ge
- neral/lunar_month/tithi/05/15/sarpa-bali-prArambhaH__info.toml<br/><br/>#L
- essCommonFestivals
+ th (sunrise (default)/puurvaviddha (default)).  <br/>Offer बलि to se
+ rpents on (from) this day\, in the night after स्थालीपाक
+ .<br/><br/>##### Details<br/>- [Edit config file](https://github.com/sansk
+ rit-coders/adyatithi/tree/master/gRhya/general/lunar_month/tithi/05/15/sar
+ pa-bali-prArambhaH__info.toml)<br/>- Tags: LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4103,9 +4103,10 @@ SUMMARY:यजुर्वेद-उपाकर्म
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200705T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200706T000000
 DESCRIPTION:Observed on Paurṇamāsī tithi of Śrāvaṇaḥ (lunar) mon
- th (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>https://githu
- b.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/lunar_month/tith
- i/05/15/yajurvEda-upAkarma__info.toml<br/><br/>#CommonFestivals
+ th (sunrise (default)/puurvaviddha (default)).  <br/><br/><br/>##### Detai
+ ls<br/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi/t
+ ree/master/gRhya/general/lunar_month/tithi/05/15/yajurvEda-upAkarma__info.
+ toml)<br/>- Tags: CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4156,9 +4157,10 @@ BEGIN:VEVENT
 SUMMARY:गायत्री-जपः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200706T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200707T000000
-DESCRIPTION:Perform 1008 Gayatri Japa.<br/><br/>https://github.com/sanskri
- t-coders/adyatithi/tree/master/gRhya/general/relative_event/yajurvEda-upAk
- arma/offset__01/gAyatrI-japaH__info.toml<br/><br/>#CommonFestivals
+DESCRIPTION:Perform 1008 Gayatri Japa.<br/><br/>##### Details<br/>- [Edit 
+ config file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhy
+ a/general/relative_event/yajurvEda-upAkarma/offset__01/gAyatrI-japaH__info
+ .toml)<br/>- Tags: CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4210,9 +4212,10 @@ SUMMARY:ऋग्वेद-उपाकर्म
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200707T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200708T000000
 DESCRIPTION:Observed on Śravaṇaḥ nakṣhatram day of Śrāvaṇaḥ (
- lunar) month (sunrise (default)/paraviddha).<br/><br/><br/>https://github.
- com/sanskrit-coders/adyatithi/tree/master/gRhya/general/lunar_month/naksha
- tra/05/22/RgvEda-upAkarma__info.toml<br/><br/>#CommonFestivals
+ lunar) month (sunrise (default)/paraviddha).  <br/><br/><br/>##### Details
+ <br/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tre
+ e/master/gRhya/general/lunar_month/nakshatra/05/22/RgvEda-upAkarma__info.t
+ oml)<br/>- Tags: CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5970,10 +5973,10 @@ SUMMARY:सामवेद-उपाकर्म
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200822T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200823T000000
 DESCRIPTION:Observed on Hastaḥ nakṣhatram day of Siṃhaḥ (solar) mo
- nth (sunrise (default)/puurvaviddha (default)).<br/><br/><br/>https://gith
- ub.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/sidereal_solar_
- month/nakshatra/05/13/sAmavEda-upAkarma__info.toml<br/><br/>#CommonFestiva
- ls
+ nth (sunrise (default)/puurvaviddha (default)).  <br/><br/><br/>##### Deta
+ ils<br/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi/
+ tree/master/gRhya/general/sidereal_solar_month/nakshatra/05/13/sAmavEda-up
+ Akarma__info.toml)<br/>- Tags: CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8644,10 +8647,11 @@ SUMMARY:आग्रयण होमः द्राविडेषु
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201031T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201101T000000
 DESCRIPTION:Observed on Paurṇamāsī tithi of Tulā (solar) month (sunri
- se/puurvaviddha).<br/>Perform होम with fresh rice from paddy.<br/>##
- ### References<br/>- Vaidikasri Nov 2017<br/><br/><br/>https://github.com/
- sanskrit-coders/adyatithi/tree/master/gRhya/general/sidereal_solar_month/t
- ithi/07/15/AgrayaNa~hOmaH~draviDadeshe~1__info.toml<br/><br/>#SpecialPuja
+ se/puurvaviddha).  <br/>Perform होम with fresh rice from paddy.<br/>
+ ##### References<br/>- Vaidikasri Nov 2017<br/><br/><br/>##### Details<br/
+ >- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/ma
+ ster/gRhya/general/sidereal_solar_month/tithi/07/15/AgrayaNa~hOmaH~draviDa
+ deshe~1__info.toml)<br/>- Tags: SpecialPuja
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8661,11 +8665,11 @@ SUMMARY:सर्प-बल्युत्सर्जनम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201031T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201101T000000
 DESCRIPTION:Observed on Paurṇamāsī tithi of Mārgaśīrṣaḥ (lunar)
-  month (sunrise (default)/puurvaviddha (default)).<br/>Offer final बल
- ि to serpents on to this day\, in the night after स्थालीप
- ाक.<br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/master/
- gRhya/general/lunar_month/tithi/09/15/sarpa-bali-utsarjanam__info.toml<br/
- ><br/>#LessCommonFestivals
+  month (sunrise (default)/puurvaviddha (default)).  <br/>Offer final ब
+ लि to serpents on to this day\, in the night after स्थाली
+ पाक.<br/><br/>##### Details<br/>- [Edit config file](https://github.
+ com/sanskrit-coders/adyatithi/tree/master/gRhya/general/lunar_month/tithi/
+ 09/15/sarpa-bali-utsarjanam__info.toml)<br/>- Tags: LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9252,10 +9256,11 @@ SUMMARY:आग्रयण होमः द्राविडेषु
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201115T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201116T000000
 DESCRIPTION:Observed on Amāvāsyā tithi of Tulā (solar) month (sunrise/
- puurvaviddha).<br/>Perform होम with fresh rice from paddy.<br/>#####
-  References<br/>- Vaidikasri Nov 2017<br/><br/><br/>https://github.com/san
- skrit-coders/adyatithi/tree/master/gRhya/general/sidereal_solar_month/tith
- i/07/30/AgrayaNa~hOmaH~draviDadeshe~2__info.toml<br/><br/>#SpecialPuja
+ puurvaviddha).  <br/>Perform होम with fresh rice from paddy.<br/>###
+ ## References<br/>- Vaidikasri Nov 2017<br/><br/><br/>##### Details<br/>- 
+ [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/maste
+ r/gRhya/general/sidereal_solar_month/tithi/07/30/AgrayaNa~hOmaH~draviDades
+ he~2__info.toml)<br/>- Tags: SpecialPuja
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9830,11 +9835,11 @@ SUMMARY:आग्रयण होमः द्राविडेषु
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201130T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201201T000000
 DESCRIPTION:Observed on Paurṇamāsī tithi of Vṛścikaḥ (solar) mont
- h (sunrise/puurvaviddha).<br/>Perform होम with fresh rice from paddy
- .<br/>##### References<br/>- Vaidikasri Nov 2017<br/><br/><br/>https://git
- hub.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/sidereal_solar
- _month/tithi/08/15/AgrayaNa~hOmaH~draviDadeshe~3__info.toml<br/><br/>#Spec
- ialPuja
+ h (sunrise/puurvaviddha).  <br/>Perform होम with fresh rice from pad
+ dy.<br/>##### References<br/>- Vaidikasri Nov 2017<br/><br/><br/>##### Det
+ ails<br/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi
+ /tree/master/gRhya/general/sidereal_solar_month/tithi/08/15/AgrayaNa~hOmaH
+ ~draviDadeshe~3__info.toml)<br/>- Tags: SpecialPuja
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10375,11 +10380,11 @@ SUMMARY:आग्रयण होमः द्राविडेषु
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201214T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201215T000000
 DESCRIPTION:Observed on Amāvāsyā tithi of Vṛścikaḥ (solar) month (
- sunrise/puurvaviddha).<br/>Perform होम with fresh rice from paddy.<b
- r/>##### References<br/>- Vaidikasri Nov 2017<br/><br/><br/>https://github
- .com/sanskrit-coders/adyatithi/tree/master/gRhya/general/sidereal_solar_mo
- nth/tithi/08/30/AgrayaNa~hOmaH~draviDadeshe~4__info.toml<br/><br/>#Special
- Puja
+ sunrise/puurvaviddha).  <br/>Perform होम with fresh rice from paddy.
+ <br/>##### References<br/>- Vaidikasri Nov 2017<br/><br/><br/>##### Detail
+ s<br/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tr
+ ee/master/gRhya/general/sidereal_solar_month/tithi/08/30/AgrayaNa~hOmaH~dr
+ aviDadeshe~4__info.toml)<br/>- Tags: SpecialPuja
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12296,10 +12301,10 @@ BEGIN:VEVENT
 SUMMARY:माघ-अष्टका-पूर्वेद्युः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210203T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210204T000000
-DESCRIPTION:Shannavati Shraddham Day.<br/><br/>https://github.com/sanskrit
- -coders/adyatithi/tree/master/gRhya/general/relative_event/mAgha-aSTakA-zr
- Addham/offset__-1/mAgha-aSTakA-pUrvEdyuH__info.toml<br/><br/>#ShannavatiTa
- rpanaDays
+DESCRIPTION:Shannavati Shraddham Day.<br/><br/>##### Details<br/>- [Edit c
+ onfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya
+ /general/relative_event/mAgha-aSTakA-zrAddham/offset__-1/mAgha-aSTakA-pUrv
+ EdyuH__info.toml)<br/>- Tags: ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12349,9 +12354,10 @@ SUMMARY:माघ-अष्टका-श्राद्धम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210204T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210205T000000
 DESCRIPTION:Observed on Kṛṣṇa-Aṣṭamī tithi of Māghaḥ (lunar)
-  month (aparaahna/vyaapti).<br/><br/><br/>https://github.com/sanskrit-code
- rs/adyatithi/tree/master/gRhya/general/lunar_month/tithi/11/23/mAgha-aSTak
- A-zrAddham__info.toml<br/><br/>#ShannavatiTarpanaDays
+  month (aparaahna/vyaapti).  <br/><br/><br/>##### Details<br/>- [Edit conf
+ ig file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/ge
+ neral/lunar_month/tithi/11/23/mAgha-aSTakA-zrAddham__info.toml)<br/>- Tags
+ : ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12401,10 +12407,10 @@ BEGIN:VEVENT
 SUMMARY:माघ-अन्वष्टका-श्राद्धम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210205T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210206T000000
-DESCRIPTION:Shannavati Shraddham Day.<br/><br/>https://github.com/sanskrit
- -coders/adyatithi/tree/master/gRhya/general/relative_event/mAgha-aSTakA-zr
- Addham/offset__01/mAgha-anvaSTakA-zrAddham__info.toml<br/><br/>#Shannavati
- TarpanaDays
+DESCRIPTION:Shannavati Shraddham Day.<br/><br/>##### Details<br/>- [Edit c
+ onfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya
+ /general/relative_event/mAgha-aSTakA-zrAddham/offset__01/mAgha-anvaSTakA-z
+ rAddham__info.toml)<br/>- Tags: ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
