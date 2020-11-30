@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20201130130921
+SEQUENCE:20201130191109
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -274,11 +274,11 @@ DESCRIPTION:Observed on Amāvāsyā tithi of Phālgunaḥ (lunar) month (a
  as Mahāliṅgam. His parents were well-known as Lakṣmī and Śeṣādri
  . His place of siddhi was a village called Ilayāttaṅguḍi. Śalivahana
   era 1813.<br/><br/>मध्यार्जुनमहालिङ्ग
- नामा ...<br/><br/>### References<br/>* Punya Shloka Manjari<br/><b
- r/><br/>https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruS
- ha/kAnchI-maTha/lunar_month/tithi/12/30/kAJcI%2065%20jagadguru%20zrI~sudar
- zana%20mahAdEvEndra%20sarasvatI%20ArAdhanA__info.toml<br/><br/>#KanchiArad
- hanaDays
+ नामा ...<br/><br/>##### References<br/>- Punya Shloka Manjari<br/>
+ <br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/master/mahApur
+ uSha/kAnchI-maTha/lunar_month/tithi/12/30/kAJcI%2065%20jagadguru%20zrI~sud
+ arzana%20mahAdEvEndra%20sarasvatI%20ArAdhanA__info.toml<br/><br/>#KanchiAr
+ adhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -292,10 +292,10 @@ SUMMARY:मन्वादिः (रैवतः [५])
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200323T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200324T000000
 DESCRIPTION:Observed on Amāvāsyā tithi of Phālgunaḥ (lunar) month (a
- paraahna/vyaapti).<br/><br/>### References<br/>* Vaidyanātha-Dīkṣitīy
- am<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/master/
- time_focus/yugAdiH/lunar_month/tithi/12/30/manvAdiH~%28raivataH~%5B5%5D%29
- __info.toml<br/><br/>#ManvadiDays
+ paraahna/vyaapti).<br/><br/>##### References<br/>- Vaidyanātha-Dīkṣit
+ īyam<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/mast
+ er/time_focus/yugAdiH/lunar_month/tithi/12/30/manvAdiH~%28raivataH~%5B5%5D
+ %29__info.toml<br/><br/>#ManvadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -425,11 +425,11 @@ DESCRIPTION:Observed on Śukla-Prathamā tithi of Caitraḥ (lunar) month
  rī Vidyāghana whom He had served became a realised soul when He as twent
  y-four years old and reached the eternal abode of Śrīvidyā and Śrī Ś
  iva. He\, the Omnipotent\, omniscient and pure reached the eternal abode b
- y his glory on the first day of the bright ...<br/><br/>### References<br/
- >* Punya Shloka Manjari<br/><br/><br/>https://github.com/sanskrit-coders/a
- dyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/01/01/kAJc
- I%2015%20jagadguru%20zrI~gaGgAdharEndra%20sarasvatI%20ArAdhanA__info.toml<
- br/><br/>#KanchiAradhanaDays
+ y his glory on the first day of the bright ...<br/><br/>##### References<b
+ r/>- Punya Shloka Manjari<br/><br/><br/>https://github.com/sanskrit-coders
+ /adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/01/01/kA
+ JcI%2015%20jagadguru%20zrI~gaGgAdharEndra%20sarasvatI%20ArAdhanA__info.tom
+ l<br/><br/>#KanchiAradhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -450,11 +450,11 @@ DESCRIPTION:Observed on Śukla-Prathamā tithi of Caitraḥ (lunar) month
  attained his immortal state on the first day of the Śarat ṛṭu in the 
  year Durmukhi. The above two impeccable pontiffs Prajñāghana and Cidvil
  āsa attained siddhi in Kāñci itself. His (Cidvilāsa) duration of prece
- ptorship was thirteen years.<br/><br/>अथ ...<br/><br/>### References<b
- r/>* Punya Shloka Manjari<br/><br/><br/>https://github.com/sanskrit-coders
- /adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/01/01/kA
- JcI%2027%20jagadguru%20zrI~cidvilAsEndra%20sarasvatI%20ArAdhanA__info.toml
- <br/><br/>#KanchiAradhanaDays
+ ptorship was thirteen years.<br/><br/>अथ ...<br/><br/>##### References
+ <br/>- Punya Shloka Manjari<br/><br/><br/>https://github.com/sanskrit-code
+ rs/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/01/01/
+ kAJcI%2027%20jagadguru%20zrI~cidvilAsEndra%20sarasvatI%20ArAdhanA__info.to
+ ml<br/><br/>#KanchiAradhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -475,11 +475,11 @@ DESCRIPTION:Observed on Śukla-Prathamā tithi of Caitraḥ (lunar) month
  s of Advaita and to check the development of the faith of Madhva in Karnat
  aka\, despite the unbearable separation from the master preceptor Vidyāt
  īrtha\, returned from Himalayas and under his (master’s) directions hel
- d the responsibilities of the Kāmakoṭi ...<br/><br/>### References<br/>
- * Punya Shloka Manjari<br/><br/><br/>https://github.com/sanskrit-coders/ad
- yatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/01/01/kAJcI
- %2052%20jagadguru%20zrI~zaGkarAnandEndra%20sarasvatI%20ArAdhanA__info.toml
- <br/><br/>#KanchiAradhanaDays
+ d the responsibilities of the Kāmakoṭi ...<br/><br/>##### References<br
+ />- Punya Shloka Manjari<br/><br/><br/>https://github.com/sanskrit-coders/
+ adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/01/01/kAJ
+ cI%2052%20jagadguru%20zrI~zaGkarAnandEndra%20sarasvatI%20ArAdhanA__info.to
+ ml<br/><br/>#KanchiAradhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -631,10 +631,10 @@ SUMMARY:झूलेलाल जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200326T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200327T000000
 DESCRIPTION:Observed on Śukla-Dvitīyā tithi of Caitraḥ (lunar) month 
- (sunrise (default)/puurvaviddha (default)).<br/><br/>### References<br/>* 
- http://hindupad.com/jhulelal-jayanti-2012-date/<br/><br/><br/>https://gith
- ub.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/general/lunar_mon
- th/tithi/01/02/jhUlElAla~jayantI__info.toml<br/><br/>#OtherJayantis
+ (sunrise (default)/puurvaviddha (default)).<br/><br/>##### References<br/>
+ - http://hindupad.com/jhulelal-jayanti-2012-date/<br/><br/><br/>https://gi
+ thub.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/general/lunar_m
+ onth/tithi/01/02/jhUlElAla~jayantI__info.toml<br/><br/>#OtherJayantis
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -685,10 +685,10 @@ SUMMARY:गौरी तृतीया/सौभाग्य-गौरी
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200327T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200328T000000
 DESCRIPTION:Observed on Śukla-Tṛtīyā tithi of Caitraḥ (lunar) month
-  (sunrise (default)/puurvaviddha (default)).<br/><br/>### References<br/>*
-  Kielhorn (1897)<br/><br/><br/>https://github.com/sanskrit-coders/adyatith
- i/tree/master/devatA/umA/lunar_month/tithi/01/03/gaurI~tRtIyA%20or%20saubh
- Agya-gaurI-vratam__info.toml<br/><br/>#SpecialVratam #DeviPuja
+  (sunrise (default)/puurvaviddha (default)).<br/><br/>##### References<br/
+ >- Kielhorn (1897)<br/><br/><br/>https://github.com/sanskrit-coders/adyati
+ thi/tree/master/devatA/umA/lunar_month/tithi/01/03/gaurI~tRtIyA%20or%20sau
+ bhAgya-gaurI-vratam__info.toml<br/><br/>#SpecialVratam #DeviPuja
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -702,10 +702,10 @@ SUMMARY:मन्वादिः (उत्तमः [३])
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200327T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200328T000000
 DESCRIPTION:Observed on Śukla-Tṛtīyā tithi of Caitraḥ (lunar) month
-  (aparaahna/vyaapti).<br/><br/>### References<br/>* Vaidyanātha-Dīkṣit
- īyam<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/mast
- er/time_focus/yugAdiH/lunar_month/tithi/01/03/manvAdiH~%28uttamaH~%5B3%5D%
- 29__info.toml<br/><br/>#ManvadiDays
+  (aparaahna/vyaapti).<br/><br/>##### References<br/>- Vaidyanātha-Dīkṣ
+ itīyam<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/ma
+ ster/time_focus/yugAdiH/lunar_month/tithi/01/03/manvAdiH~%28uttamaH~%5B3%5
+ D%29__info.toml<br/><br/>#ManvadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -828,9 +828,9 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200330T000000
 DESCRIPTION:Observed on Śukla-Pañcamī tithi of Caitraḥ (lunar) month 
  (sunrise (default)/puurvaviddha (default)).<br/>Celebrating the birth of 
  उच्चैश्रवा horse\, offer puja to horses or even Lord H
- ayagriva.<br/>### References<br/>* Vaidikasri Mar 2018<br/><br/><br/>https
- ://github.com/sanskrit-coders/adyatithi/tree/master/devatA/misc-fauna/luna
- r_month/tithi/01/05/haya-pUjA__info.toml<br/><br/>#LessCommonFestivals
+ ayagriva.<br/>##### References<br/>- Vaidikasri Mar 2018<br/><br/><br/>htt
+ ps://github.com/sanskrit-coders/adyatithi/tree/master/devatA/misc-fauna/lu
+ nar_month/tithi/01/05/haya-pUjA__info.toml<br/><br/>#LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -882,10 +882,10 @@ DESCRIPTION:Observed on Śukla-Pañcamī tithi of Caitraḥ (lunar) month
  लोकान्मानुष्यं सम्प्राप्त
  ा केशवाज्ञया॥<br/>तस्मात् तां 
  पूजयेत् तत्र यस्तं लक्ष्मी
- र्न मुञ्चति॥<br/><br/><br/>### References<br/>* Vaid
- ikasri Mar 2018<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi
- /tree/master/devatA/lakShmI/lunar_month/tithi/01/05/lakSmI-paJcamI__info.t
- oml<br/><br/>#CommonFestivals
+ र्न मुञ्चति॥<br/><br/><br/>##### References<br/>- Va
+ idikasri Mar 2018<br/><br/><br/>https://github.com/sanskrit-coders/adyatit
+ hi/tree/master/devatA/lakShmI/lunar_month/tithi/01/05/lakSmI-paJcamI__info
+ .toml<br/><br/>#CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1172,10 +1172,10 @@ SUMMARY:अशोकाष्टमी
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200401T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200402T000000
 DESCRIPTION:Observed on Śukla-Aṣṭamī tithi of Caitraḥ (lunar) mont
- h (sunrise (default)/puurvaviddha (default)).<br/><br/>### References<br/>
- * Vaidikasri Mar 2018<br/><br/><br/>https://github.com/sanskrit-coders/ady
- atithi/tree/master/general/lunar_month/tithi/01/08/azOkASTamI__info.toml<b
- r/><br/>#LessCommonFestivals
+ h (sunrise (default)/puurvaviddha (default)).<br/><br/>##### References<br
+ />- Vaidikasri Mar 2018<br/><br/><br/>https://github.com/sanskrit-coders/a
+ dyatithi/tree/master/general/lunar_month/tithi/01/08/azOkASTamI__info.toml
+ <br/><br/>#LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1189,10 +1189,10 @@ SUMMARY:भवान्युत्पत्तिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200401T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200402T000000
 DESCRIPTION:Observed on Śukla-Aṣṭamī tithi of Caitraḥ (lunar) mont
- h (sunrise (default)/puurvaviddha (default)).<br/><br/>### References<br/>
- * Kielhorn (1897)<br/><br/><br/>https://github.com/sanskrit-coders/adyatit
- hi/tree/master/general/lunar_month/tithi/01/08/bhavAnyutpattiH__info.toml<
- br/><br/>#CommonFestivals
+ h (sunrise (default)/puurvaviddha (default)).<br/><br/>##### References<br
+ />- Kielhorn (1897)<br/><br/><br/>https://github.com/sanskrit-coders/adyat
+ ithi/tree/master/general/lunar_month/tithi/01/08/bhavAnyutpattiH__info.tom
+ l<br/><br/>#CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1291,11 +1291,11 @@ DESCRIPTION:Observed on Śukla-Navamī tithi of Caitraḥ (lunar) month (a
  ortnight in the month of Caitra of the year Pramādi.<br/><br/>श्र
  ीतुङ्गभद्रातटभूः सुदेवभट्
  टात्मजः शङ्करपण्डिताख्यः।<
- br/>अभूद् ...<br/><br/>### References<br/>* Punya Shloka Manjari
- <br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/master/ma
- hApuruSha/kAnchI-maTha/lunar_month/tithi/01/09/kAJcI%2043%20jagadguru%20zr
- I~AnandaghanEndra%20sarasvatI%20ArAdhanA__info.toml<br/><br/>#KanchiAradha
- naDays
+ br/>अभूद् ...<br/><br/>##### References<br/>- Punya Shloka Manja
+ ri<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/master/
+ mahApuruSha/kAnchI-maTha/lunar_month/tithi/01/09/kAJcI%2043%20jagadguru%20
+ zrI~AnandaghanEndra%20sarasvatI%20ArAdhanA__info.toml<br/><br/>#KanchiArad
+ hanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1914,10 +1914,10 @@ SUMMARY:मन्वादिः (रौच्यः [१३])
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200407T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200408T000000
 DESCRIPTION:Observed on Paurṇamāsī tithi of Caitraḥ (lunar) month (a
- paraahna/vyaapti).<br/><br/>### References<br/>* Vaidyanātha-Dīkṣitīy
- am<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/master/
- time_focus/yugAdiH/lunar_month/tithi/01/15/manvAdiH~%28raucyaH~%5B13%5D%29
- __info.toml<br/><br/>#ManvadiDays
+ paraahna/vyaapti).<br/><br/>##### References<br/>- Vaidyanātha-Dīkṣit
+ īyam<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/mast
+ er/time_focus/yugAdiH/lunar_month/tithi/01/15/manvAdiH~%28raucyaH~%5B13%5D
+ %29__info.toml<br/><br/>#ManvadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2212,11 +2212,11 @@ DESCRIPTION:Observed on Kṛṣṇa-Dvitīyā tithi of Caitraḥ (lunar) m
  he burden (or preceptor) on him. This sage by name Govinda with the appell
  ation Ātmaprakāśendra carried out the responsibilities of preceptor for
   twelve years. He attained siddhi on the second day of Kṛṣṇapakṣa 
- in the month Caitra of the year Svabhānu. This ...<br/><br/>### Reference
- s<br/>* Punya Shloka Manjari<br/><br/><br/>https://github.com/sanskrit-cod
- ers/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/01/17
- /kAJcI%2060%20jagadguru%20zrI~advaitAtmaprakAzEndra%20sarasvatI%20ArAdhanA
- __info.toml<br/><br/>#KanchiAradhanaDays
+ in the month Caitra of the year Svabhānu. This ...<br/><br/>##### Referen
+ ces<br/>- Punya Shloka Manjari<br/><br/><br/>https://github.com/sanskrit-c
+ oders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/01/
+ 17/kAJcI%2060%20jagadguru%20zrI~advaitAtmaprakAzEndra%20sarasvatI%20ArAdha
+ nA__info.toml<br/><br/>#KanchiAradhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2633,11 +2633,11 @@ DESCRIPTION:Observed on Kṛṣṇa-Aṣṭamī tithi of Caitraḥ (lunar)
  dheśvara\, bearing the appellation Sadāśiva under the directions of pre
  ceptor Chandracūḍa\, was Jagadguru for sixteen years adored by the King
   Pravīra Sethupati. The preceptor visited the sacred Sethu Rāmeśvara\, 
- having worshipped Lord Śiva for the welfare of the ...<br/><br/>### Refer
- ences<br/>* Punya Shloka Manjari<br/><br/><br/>https://github.com/sanskrit
- -coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/0
- 1/23/kAJcI%2056%20jagadguru%20zrI~sarvajJa%20sadAziva%20bOdhEndra%20sarasv
- atI%20ArAdhanA__info.toml<br/><br/>#KanchiAradhanaDays
+ having worshipped Lord Śiva for the welfare of the ...<br/><br/>##### Ref
+ erences<br/>- Punya Shloka Manjari<br/><br/><br/>https://github.com/sanskr
+ it-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi
+ /01/23/kAJcI%2056%20jagadguru%20zrI~sarvajJa%20sadAziva%20bOdhEndra%20sara
+ svatI%20ArAdhanA__info.toml<br/><br/>#KanchiAradhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2930,10 +2930,10 @@ SUMMARY:मत्स्य जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200420T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200421T000000
 DESCRIPTION:Observed on Kṛṣṇa-Trayodaśī tithi of Caitraḥ (lunar)
-  month (aparaahna/puurvaviddha).<br/><br/>### References<br/>* Kielhorn (1
- 897)<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/maste
- r/devatA/vaiShNava/lunar_month/tithi/01/28/matsya~jayantI__info.toml<br/><
- br/>#Dashavataram
+  month (aparaahna/puurvaviddha).<br/><br/>##### References<br/>- Kielhorn 
+ (1897)<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/mas
+ ter/devatA/vaiShNava/lunar_month/tithi/01/28/matsya~jayantI__info.toml<br/
+ ><br/>#Dashavataram
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3143,10 +3143,10 @@ DESCRIPTION:On Chaitra Amavasya\, who gives a pot filled with पानक
  वतिदो भवेत्॥५३॥<br/>-- स्कन्दप
  ुराणे द्वितीये वैष्णवखण्डे
   वैशाखमाहात्म्ये तृतीये अध
- ्याये<br/><br/><br/>### References<br/>* Skanda Puranam<br/><br/
- ><br/>https://github.com/sanskrit-coders/adyatithi/tree/master/time_focus/
- monthly/amAvAsyA/description_only/caitra-amAvAsyA__info.toml<br/><br/>#Ama
- vasyaDays
+ ्याये<br/><br/><br/>##### References<br/>- Skanda Puranam<br/><b
+ r/><br/>https://github.com/sanskrit-coders/adyatithi/tree/master/time_focu
+ s/monthly/amAvAsyA/description_only/caitra-amAvAsyA__info.toml<br/><br/>#A
+ mavasyaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3167,11 +3167,11 @@ DESCRIPTION:Observed on Amāvāsyā tithi of Caitraḥ (lunar) month (apar
  nt\, wellversed in scriptures and courageous\; having received the initiat
  ion into asceticism from the compassionate preceptor Bodhendra with the na
  me Śrī Chandracūḍa\, He held the responsibilities of preceptorship on
-  earth by remaining in Kāṅci Maṭha. This preceptor ...<br/><br/>### R
- eferences<br/>* Punya Shloka Manjari<br/><br/><br/>https://github.com/sans
- krit-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tit
- hi/01/30/kAJcI%2047%20jagadguru%20zrI~candrazEkharEndra%20sarasvatI%203%20
- ArAdhanA__info.toml<br/><br/>#KanchiAradhanaDays
+  earth by remaining in Kāṅci Maṭha. This preceptor ...<br/><br/>#####
+  References<br/>- Punya Shloka Manjari<br/><br/><br/>https://github.com/sa
+ nskrit-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/t
+ ithi/01/30/kAJcI%2047%20jagadguru%20zrI~candrazEkharEndra%20sarasvatI%203%
+ 20ArAdhanA__info.toml<br/><br/>#KanchiAradhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3311,10 +3311,10 @@ SUMMARY:पराशर महर्षि जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200424T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200425T000000
 DESCRIPTION:Observed on Śukla-Prathamā tithi of Vaiśākhaḥ (lunar) mo
- nth (sunrise (default)/puurvaviddha (default)).<br/><br/>### References<br
- />* http://hindupad.com/parashar-jayanti/<br/><br/><br/>https://github.com
- /sanskrit-coders/adyatithi/tree/master/mahApuruSha/RShi/lunar_month/tithi/
- 02/01/parAzara~maharSi~jayantI__info.toml<br/><br/>#MahapurushaEvents
+ nth (sunrise (default)/puurvaviddha (default)).<br/><br/>##### References<
+ br/>- http://hindupad.com/parashar-jayanti/<br/><br/><br/>https://github.c
+ om/sanskrit-coders/adyatithi/tree/master/mahApuruSha/RShi/lunar_month/tith
+ i/02/01/parAzara~maharSi~jayantI__info.toml<br/><br/>#MahapurushaEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3338,10 +3338,10 @@ DESCRIPTION:Observed on Śukla-Prathamā tithi of Vaiśākhaḥ (lunar) mo
  घर्मकालेषु विद्यते॥४२॥<br/>त
  स्मात्तक्रं प्रदातव्यमध्व
  श्रांतद्विजातये ॥<br/>जंबीरस
- ुरसोपेतं ...<br/><br/>### References<br/>* Skanda Puranam<
- br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/master/tim
- e_focus/misc/lunar_month/tithi/02/01/vaizAkha-mAsa-ArambhaH__info.toml<br/
- ><br/>#SpecialDays #SpecialPeriodStart
+ ुरसोपेतं ...<br/><br/>##### References<br/>- Skanda Purana
+ m<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/master/t
+ ime_focus/misc/lunar_month/tithi/02/01/vaizAkha-mAsa-ArambhaH__info.toml<b
+ r/><br/>#SpecialDays #SpecialPeriodStart
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3403,10 +3403,10 @@ DESCRIPTION:Observed on Śukla-Tṛtīyā tithi of Vaiśākhaḥ (lunar) m
  मं चान्यत्तद्देयम् अविशङ्क
  या॥<br/>यस्यां स्नानं जपो होमः
   स्वाध्यायः पितृतर्पणम्।<br/>
- दानं च क्रियते ...<br/><br/>### References<br/>* N
- irnaya Sindhu p.71<br/><br/><br/>https://github.com/sanskrit-coders/adyati
- thi/tree/master/general/lunar_month/tithi/02/03/akSayya-tRtIyA__info.toml<
- br/><br/>#CommonFestivals
+ दानं च क्रियते ...<br/><br/>##### References<br/>-
+  Nirnaya Sindhu p.71<br/><br/><br/>https://github.com/sanskrit-coders/adya
+ tithi/tree/master/general/lunar_month/tithi/02/03/akSayya-tRtIyA__info.tom
+ l<br/><br/>#CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3421,10 +3421,10 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200425T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200426T000000
 DESCRIPTION:Observed on Śukla-Tṛtīyā tithi of Vaiśākhaḥ (lunar) m
  onth (aparaahna/vyaapti).<br/>Perform समुद्रस्नानम
- ् and श्राद्धम्.<br/>### References<br/>* Vaidyanātha
- -Dīkṣitīyam<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi
- /tree/master/time_focus/yugAdiH/lunar_month/tithi/02/03/kRtayugAdiH__info.
- toml<br/><br/>#YugadiDays
+ ् and श्राद्धम्.<br/>##### References<br/>- Vaidyanāt
+ ha-Dīkṣitīyam<br/><br/><br/>https://github.com/sanskrit-coders/adyatit
+ hi/tree/master/time_focus/yugAdiH/lunar_month/tithi/02/03/kRtayugAdiH__inf
+ o.toml<br/><br/>#YugadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3480,10 +3480,10 @@ DESCRIPTION:Observed on Śukla-Tṛtīyā tithi of Vaiśākhaḥ (lunar) m
  गैः षड्ग्रहैर्युक्ते मिथुन
  े राहुसंस्थिते।<br/>रेणुकाया
  स्तु यो गर्भादवतीर्णो हरिः 
- स्वयम्॥<br/><br/><br/>### References<br/>* Nirnaya Sindhu p.
- 66<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/master/
- devatA/vaiShNava/lunar_month/tithi/02/03/parazurAma~jayantI__info.toml<br/
- ><br/>#Dashavataram
+ स्वयम्॥<br/><br/><br/>##### References<br/>- Nirnaya Sindhu 
+ p.66<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/maste
+ r/devatA/vaiShNava/lunar_month/tithi/02/03/parazurAma~jayantI__info.toml<b
+ r/><br/>#Dashavataram
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3551,10 +3551,10 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200426T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200427T000000
 DESCRIPTION:Observed on Śukla-Caturthī tithi of Vaiśākhaḥ (lunar) mo
  nth (madhyaraatri/puurvaviddha (default)).<br/>Goddess Bagalamukhi is 8th 
- of the Dasha Maha Vidyas.<br/>### References<br/>* Ashtanga Panchangam<br/
- ><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/master/devatA
- /shakti/lunar_month/tithi/02/04/bagalAmukhI~jayantI__info.toml<br/><br/>#D
- ashamahavidya
+ of the Dasha Maha Vidyas.<br/>##### References<br/>- Ashtanga Panchangam<b
+ r/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/master/deva
+ tA/shakti/lunar_month/tithi/02/04/bagalAmukhI~jayantI__info.toml<br/><br/>
+ #Dashamahavidya
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3604,10 +3604,10 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200426T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200427T000000
 DESCRIPTION:Observed on Śukla-Tṛtīyā tithi of Vaiśākhaḥ (lunar) m
  onth (sunrise (default)/puurvaviddha (default)).<br/>Goddess Raja Matangi 
- is 9th of the Dasha Maha Vidyas.<br/>### References<br/>* Kielhorn (1897)\
- ; Ashtanga Panchangam<br/><br/><br/>https://github.com/sanskrit-coders/ady
- atithi/tree/master/devatA/shakti/lunar_month/tithi/02/03/rAja-mAtaGgI~jaya
- ntI__info.toml<br/><br/>#Dashamahavidya #LessCommonFestivals
+ is 9th of the Dasha Maha Vidyas.<br/>##### References<br/>- Kielhorn (1897
+ )\; Ashtanga Panchangam<br/><br/><br/>https://github.com/sanskrit-coders/a
+ dyatithi/tree/master/devatA/shakti/lunar_month/tithi/02/03/rAja-mAtaGgI~ja
+ yantI__info.toml<br/><br/>#Dashamahavidya #LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3899,11 +3899,11 @@ DESCRIPTION:Observed on Śukla-Ṣaṣṭhī tithi of Vaiśākhaḥ (lunar
  ike the Sun\, He adorned the Pīṭha and merged in his effulgence on the 
  sixth day of the bright fortnight of Vaiśākha in the year Bhava. This Uj
  jvala Mahādevendra remained in the Pīṭha for forty-two years and attai
- ned siddhi at Kāñci itself on the sixth day of ...<br/><br/>### Referenc
- es<br/>* Punya Shloka Manjari<br/><br/><br/>https://github.com/sanskrit-co
- ders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/02/0
- 6/kAJcI%2040%20jagadguru%20zrI~mahAdEvEndra%20sarasvatI%202%20ArAdhanA__in
- fo.toml<br/><br/>#KanchiAradhanaDays
+ ned siddhi at Kāñci itself on the sixth day of ...<br/><br/>##### Refere
+ nces<br/>- Punya Shloka Manjari<br/><br/><br/>https://github.com/sanskrit-
+ coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/02
+ /06/kAJcI%2040%20jagadguru%20zrI~mahAdEvEndra%20sarasvatI%202%20ArAdhanA__
+ info.toml<br/><br/>#KanchiAradhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4013,10 +4013,10 @@ DESCRIPTION:Observed on Śukla-Aṣṭamī tithi of Vaiśākhaḥ (lunar)
  नीतटीभवः शोणगिरिर्जगद्गुर
  ुः।<br/>स्वभानुवैशाखसिताष्टम
  ीनिशि प्रज्ञाघनः प्राप परं 
- पदं ...<br/><br/>### References<br/>* Punya Shloka Manjari<br/><br/>
- <br/>https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/
- kAnchI-maTha/lunar_month/tithi/02/08/kAJcI%2026%20jagadguru%20zrI~prajJAgh
- anEndra%20sarasvatI%20ArAdhanA__info.toml<br/><br/>#KanchiAradhanaDays
+ पदं ...<br/><br/>##### References<br/>- Punya Shloka Manjari<br/><br
+ /><br/>https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSh
+ a/kAnchI-maTha/lunar_month/tithi/02/08/kAJcI%2026%20jagadguru%20zrI~prajJA
+ ghanEndra%20sarasvatI%20ArAdhanA__info.toml<br/><br/>#KanchiAradhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4030,10 +4030,10 @@ SUMMARY:त्यागराज जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200430T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200501T000000
 DESCRIPTION:Observed on Śukla-Saptamī tithi of Vaiśākhaḥ (lunar) mon
- th (sunrise (default)/puurvaviddha (default)).<br/><br/>### References<br/
- >* Vaidikasri May 2017<br/><br/><br/>https://github.com/sanskrit-coders/ad
- yatithi/tree/master/mahApuruSha/sangIta-kRt/lunar_month/tithi/02/07/tyAgar
- Aja~jayantI__info.toml<br/><br/>#MahapurushaEvents #CommonFestivals
+ th (sunrise (default)/puurvaviddha (default)).<br/><br/>##### References<b
+ r/>- Vaidikasri May 2017<br/><br/><br/>https://github.com/sanskrit-coders/
+ adyatithi/tree/master/mahApuruSha/sangIta-kRt/lunar_month/tithi/02/07/tyAg
+ arAja~jayantI__info.toml<br/><br/>#MahapurushaEvents #CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4048,11 +4048,11 @@ SUMMARY:विद्यारण्य-स्वामी जयन्त
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200430T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200501T000000
 DESCRIPTION:Observed on Śukla-Saptamī tithi of Vaiśākhaḥ (lunar) mon
- th (sunrise (default)/puurvaviddha (default)).<br/><br/>### References<br/
- >* http://hindupad.com/vidyaranya-jayanti-swami-vidyaranya-jayanthi/<br/><
- br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuru
- Sha/smArta-misc/lunar_month/tithi/02/07/vidyAraNya-svAmI~jayantI__info.tom
- l<br/><br/>#MahapurushaEvents
+ th (sunrise (default)/puurvaviddha (default)).<br/><br/>##### References<b
+ r/>- http://hindupad.com/vidyaranya-jayanti-swami-vidyaranya-jayanthi/<br/
+ ><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/master/mahApu
+ ruSha/smArta-misc/lunar_month/tithi/02/07/vidyAraNya-svAmI~jayantI__info.t
+ oml<br/><br/>#MahapurushaEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4071,9 +4071,9 @@ DESCRIPTION:Observed on Śukla-Saptamī tithi of Vaiśākhaḥ (lunar) mon
  ् of the same.<br/><br/>शर्करासप्तमी चैव 
  वाजिमेधफलप्रदा।<br/>सर्वदुःख
  प्रशमनी सर्वसम्पत्प्रदायि
- नी॥<br/><br/><br/>### References<br/>* Smriti Kaustubham - 112<br/><
- br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/master/general/
- lunar_month/tithi/02/07/zarkarA-saptamI__info.toml<br/><br/>#SpecialPuja
+ नी॥<br/><br/><br/>##### References<br/>- Smriti Kaustubham - 112<br/
+ ><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/master/genera
+ l/lunar_month/tithi/02/07/zarkarA-saptamI__info.toml<br/><br/>#SpecialPuja
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4123,10 +4123,10 @@ SUMMARY:सीतानवमी
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200501T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200502T000000
 DESCRIPTION:Observed on Śukla-Navamī tithi of Vaiśākhaḥ (lunar) mont
- h (madhyaahna/puurvaviddha).<br/><br/>### References<br/>* Kielhorn (1897)
- <br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/master/de
- vatA/lakShmI/lunar_month/tithi/02/09/sItAnavamI__info.toml<br/><br/>#Commo
- nFestivals
+ h (madhyaahna/puurvaviddha).<br/><br/>##### References<br/>- Kielhorn (189
+ 7)<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/master/
+ devatA/lakShmI/lunar_month/tithi/02/09/sItAnavamI__info.toml<br/><br/>#Com
+ monFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4249,11 +4249,11 @@ SUMMARY:वसिष्ठ महर्षि जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200502T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200503T000000
 DESCRIPTION:Observed on Śukla-Navamī tithi of Vaiśākhaḥ (lunar) mont
- h (sunrise (default)/puurvaviddha (default)).<br/><br/>### References<br/>
- * http://hindupad.com/vashishta-jayanti/<br/><br/><br/>https://github.com/
- sanskrit-coders/adyatithi/tree/master/mahApuruSha/RShi/lunar_month/tithi/0
- 2/09/vasiSTha~maharSi~jayantI__info.toml<br/><br/>#MahapurushaEvents #Comm
- onFestivals
+ h (sunrise (default)/puurvaviddha (default)).<br/><br/>##### References<br
+ />- http://hindupad.com/vashishta-jayanti/<br/><br/><br/>https://github.co
+ m/sanskrit-coders/adyatithi/tree/master/mahApuruSha/RShi/lunar_month/tithi
+ /02/09/vasiSTha~maharSi~jayantI__info.toml<br/><br/>#MahapurushaEvents #Co
+ mmonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4732,11 +4732,11 @@ DESCRIPTION:Observed on Śukla-Caturdaśī tithi of Vaiśākhaḥ (lunar)
   to endure heat and cold easily\, remained in the guru Pīṭha. Adorned b
  y the erudites like Ānandavardhana etc.\, residing at Padmapuram for a lo
  ng time and then\, having reached Kāñci\, He attained siddhi on the nigh
- t of Narasimha Jayanti in the year Nandana. ...<br/><br/>### References<br
- />* Punya Shloka Manjari<br/><br/><br/>https://github.com/sanskrit-coders/
- adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/02/14/kAJ
- cI%2039%20jagadguru%20zrI~saccidvilAsEndra%20sarasvatI%20ArAdhanA__info.to
- ml<br/><br/>#KanchiAradhanaDays
+ t of Narasimha Jayanti in the year Nandana. ...<br/><br/>##### References<
+ br/>- Punya Shloka Manjari<br/><br/><br/>https://github.com/sanskrit-coder
+ s/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/02/14/k
+ AJcI%2039%20jagadguru%20zrI~saccidvilAsEndra%20sarasvatI%20ArAdhanA__info.
+ toml<br/><br/>#KanchiAradhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4840,11 +4840,11 @@ SUMMARY:अन्नमाचार्य जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200507T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200508T000000
 DESCRIPTION:Observed on Paurṇamāsī tithi of Vaiśākhaḥ (lunar) mont
- h (sunrise (default)/puurvaviddha (default)).<br/><br/>### References<br/>
- * http://hindupad.com/annamacharya-jayanti-2010-birth-annivarsary-date-of-
- annamayya/<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree
- /master/mahApuruSha/vaiShNava-misc/lunar_month/tithi/02/15/annamAcArya~jay
- antI__info.toml<br/><br/>#MahapurushaEvents #CommonFestivals
+ h (sunrise (default)/puurvaviddha (default)).<br/><br/>##### References<br
+ />- http://hindupad.com/annamacharya-jayanti-2010-birth-annivarsary-date-o
+ f-annamayya/<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tr
+ ee/master/mahApuruSha/vaiShNava-misc/lunar_month/tithi/02/15/annamAcArya~j
+ ayantI__info.toml<br/><br/>#MahapurushaEvents #CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4970,10 +4970,10 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of Vaiśākhaḥ (lunar) mont
   रूपं यशो धर्मं ज्ञानमायुः स
  ुखं धृतिम्।<br/>आरोग्यं परमाप
  ्नोति सम्यक् स्नानेन मानवः
- ॥<br/><br/><br/>### References<br/>* Satyavrata Smriti<br/><br/><br/>htt
- ps://github.com/sanskrit-coders/adyatithi/tree/master/time_focus/misc/luna
- r_month/tithi/02/15/vaizAkha-pUrNimA-snAnam__info.toml<br/><br/>#SpecialSn
- anam
+ ॥<br/><br/><br/>##### References<br/>- Satyavrata Smriti<br/><br/><br/>h
+ ttps://github.com/sanskrit-coders/adyatithi/tree/master/time_focus/misc/lu
+ nar_month/tithi/02/15/vaizAkha-pUrNimA-snAnam__info.toml<br/><br/>#Special
+ Snanam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5181,11 +5181,11 @@ DESCRIPTION:Observed on Kṛṣṇa-Caturthī tithi of Vaiśākhaḥ (luna
  rty-seven years. He attained siddhi in Kāñci.<br/><br/>कालहस
  ्तिसुतबालयाभिधो बोधसद्गुर
  ुरबोधवर्जितः।<br/>आप शाश्वतप
- दं विशुद्धम् ...<br/><br/>### References<br/>* Punya
-  Shloka Manjari<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi
- /tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/02/19/kAJcI%2030%2
- 0jagadguru%20zrI~bOdhEndra%20sarasvatI%202%20ArAdhanA__info.toml<br/><br/>
- #KanchiAradhanaDays
+ दं विशुद्धम् ...<br/><br/>##### References<br/>- Pun
+ ya Shloka Manjari<br/><br/><br/>https://github.com/sanskrit-coders/adyatit
+ hi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/02/19/kAJcI%2030
+ %20jagadguru%20zrI~bOdhEndra%20sarasvatI%202%20ArAdhanA__info.toml<br/><br
+ />#KanchiAradhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5237,11 +5237,11 @@ SUMMARY:कश्यप महर्षि जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200511T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200512T000000
 DESCRIPTION:Observed on Kṛṣṇa-Pañcamī tithi of Vaiśākhaḥ (luna
- r) month (sunrise (default)/puurvaviddha (default)).<br/><br/>### Referenc
- es<br/>* http://hindupad.com/kashyap-rishi-jayanti/<br/><br/><br/>https://
- github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/RShi/lunar_mo
- nth/tithi/02/20/kazyapa~maharSi~jayantI__info.toml<br/><br/>#MahapurushaEv
- ents
+ r) month (sunrise (default)/puurvaviddha (default)).<br/><br/>##### Refere
+ nces<br/>- http://hindupad.com/kashyap-rishi-jayanti/<br/><br/><br/>https:
+ //github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/RShi/lunar_
+ month/tithi/02/20/kazyapa~maharSi~jayantI__info.toml<br/><br/>#Mahapurusha
+ Events
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5491,10 +5491,10 @@ DESCRIPTION:Observed on Kṛṣṇa-Navamī tithi of Vaiśākhaḥ (lunar)
   was pleased with worship\, the sage by name Ānāndajñāna prefixed with
   the term ‘Bhagavat’ the author of a collection of expository texts on
   the works of Ācārya\, lived in the Kāmakoṭi Pīṭha of ...<br/><br/
- >### References<br/>* Punya Shloka Manjari<br/><br/><br/>https://github.co
- m/sanskrit-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_mon
- th/tithi/02/24/kAJcI%207%20jagadguru%20zrI~AnandajJAnEndra%20sarasvatI%20A
- rAdhanA__info.toml<br/><br/>#KanchiAradhanaDays
+ >##### References<br/>- Punya Shloka Manjari<br/><br/><br/>https://github.
+ com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_m
+ onth/tithi/02/24/kAJcI%207%20jagadguru%20zrI~AnandajJAnEndra%20sarasvatI%2
+ 0ArAdhanA__info.toml<br/><br/>#KanchiAradhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5622,10 +5622,10 @@ SUMMARY:भद्रकाळी जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200518T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200519T000000
 DESCRIPTION:Observed on Kṛṣṇa-Ekādaśī tithi of Vaiśākhaḥ (lun
- ar) month (sunrise (default)/puurvaviddha (default)).<br/><br/>### Referen
- ces<br/>* http://hindupad.com/bhadrakali-jayanti/<br/><br/><br/>https://gi
- thub.com/sanskrit-coders/adyatithi/tree/master/devatA/shakti/lunar_month/t
- ithi/02/26/bhadrakALI~jayantI__info.toml<br/><br/>#OtherJayantis
+ ar) month (sunrise (default)/puurvaviddha (default)).<br/><br/>##### Refer
+ ences<br/>- http://hindupad.com/bhadrakali-jayanti/<br/><br/><br/>https://
+ github.com/sanskrit-coders/adyatithi/tree/master/devatA/shakti/lunar_month
+ /tithi/02/26/bhadrakALI~jayantI__info.toml<br/><br/>#OtherJayantis
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5827,11 +5827,11 @@ DESCRIPTION:Observed on Kṛṣṇa-Caturdaśī tithi of Vaiśākhaḥ (lu
  i Śaṅkara himself on being delighted to have had debate with him on the
   banks of river Tāmraparṇi\; he spent seventy years along with Sureśva
  ra in that Pīṭha and then lived in that Maṭha for forty two years. Th
- e sage known as Sarvajña attained union with his ...<br/><br/>### Referen
- ces<br/>* Punya Shloka Manjari<br/><br/><br/>https://github.com/sanskrit-c
- oders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/02/
- 29/kAJcI%203%20jagadguru%20zrI~sarvajJAtmEndra%20sarasvatI%20ArAdhanA__inf
- o.toml<br/><br/>#KanchiAradhanaDays
+ e sage known as Sarvajña attained union with his ...<br/><br/>##### Refer
+ ences<br/>- Punya Shloka Manjari<br/><br/><br/>https://github.com/sanskrit
+ -coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/0
+ 2/29/kAJcI%203%20jagadguru%20zrI~sarvajJAtmEndra%20sarasvatI%20ArAdhanA__i
+ nfo.toml<br/><br/>#KanchiAradhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5986,10 +5986,10 @@ DESCRIPTION:Observed on Amāvāsyā tithi of Vaiśākhaḥ (lunar) month (
  sunrise (default)/puurvaviddha (default)).<br/><br/><br/>माधवे 
  मेषगे भानौ मुरारे मधुसूदन।<b
  r/>प्रातः स्नानेन मे नाथ फलदो 
- भव पापहन्॥<br/><br/><br/>### References<br/>* Vaidikasri
-  June 2017<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree
- /master/time_focus/misc/lunar_month/tithi/02/30/vaizAkha-snAnapUrtiH__info
- .toml<br/><br/>#SpecialSnanam
+ भव पापहन्॥<br/><br/><br/>##### References<br/>- Vaidikas
+ ri June 2017<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tr
+ ee/master/time_focus/misc/lunar_month/tithi/02/30/vaizAkha-snAnapUrtiH__in
+ fo.toml<br/><br/>#SpecialSnanam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6003,10 +6003,10 @@ SUMMARY:शनि जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200522T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200523T000000
 DESCRIPTION:Observed on Amāvāsyā tithi of Vaiśākhaḥ (lunar) month (
- sunrise (default)/puurvaviddha (default)).<br/><br/>### References<br/>* h
- ttp://hindupad.com/shani-jayanti-2013/<br/><br/><br/>https://github.com/sa
- nskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/02/30/zani~j
- ayantI__info.toml<br/><br/>#OtherJayantis
+ sunrise (default)/puurvaviddha (default)).<br/><br/>##### References<br/>-
+  http://hindupad.com/shani-jayanti-2013/<br/><br/><br/>https://github.com/
+ sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/02/30/zani
+ ~jayantI__info.toml<br/><br/>#OtherJayantis
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6271,10 +6271,10 @@ DESCRIPTION:Observed on Śukla-Tṛtīyā tithi of Jyaiṣṭhaḥ (lunar)
  श्च बहुशो न शक्त्या रहितः शि
  वः।<br/>त्वं शक्स्तिस्त्वं स्
  वधा स्वाहा त्वं सावित्री सर
- स्वती।<br/>पतिं देहि ...<br/><br/>### Referenc
- es<br/>* Kielhorn (1897)\, Vaidikasri June 2017<br/><br/><br/>https://gith
- ub.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/03/
- 03/rambhA~tRtIyA__info.toml<br/><br/>#SpecialVratam
+ स्वती।<br/>पतिं देहि ...<br/><br/>##### Refere
+ nces<br/>- Kielhorn (1897)\, Vaidikasri June 2017<br/><br/><br/>https://gi
+ thub.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/0
+ 3/03/rambhA~tRtIyA__info.toml<br/><br/>#SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6358,10 +6358,10 @@ DESCRIPTION:Observed on Śukla-Caturthī tithi of Jyaiṣṭhaḥ (lunar)
  न् देहि धनं देहि सौभाग्यं सर
  ्वमङ्गले।<br/>सौमङ्गल्यं सुख
  ं ज्ञानं देहि मे शिवसुन्दरि
- ॥<br/><br/><br/>### References<br/>* Bhavishyottara Puranam<br/><br/><br
- />https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/umA/luna
- r_month/tithi/03/04/kadalI-gaurI-vratam%20or%20pUjA__info.toml<br/><br/>#L
- essCommonFestivals
+ ॥<br/><br/><br/>##### References<br/>- Bhavishyottara Puranam<br/><br/><
+ br/>https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/umA/lu
+ nar_month/tithi/03/04/kadalI-gaurI-vratam%20or%20pUjA__info.toml<br/><br/>
+ #LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6604,10 +6604,10 @@ DESCRIPTION:Observed on Śukla-Ṣaṣṭhī tithi of Jyaiṣṭhaḥ (lun
  iva\, attained siddhi on the night of Śuklapakṣaṣaṣṭhi of the mon
  th Jyeṣṭa in the year Durmukhi. These two preceptors—Śrī Mahādeva
   and Śrī Jāhnavītirthas performed innumerable yāgas and attained ...<
- br/><br/>### References<br/>* Punya Shloka Manjari<br/><br/><br/>https://g
- ithub.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/l
- unar_month/tithi/03/06/kAJcI%2050%20jagadguru%20zrI~candracUDEndra%20saras
- vatI%202%20ArAdhanA__info.toml<br/><br/>#KanchiAradhanaDays
+ br/><br/>##### References<br/>- Punya Shloka Manjari<br/><br/><br/>https:/
+ /github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha
+ /lunar_month/tithi/03/06/kAJcI%2050%20jagadguru%20zrI~candracUDEndra%20sar
+ asvatI%202%20ArAdhanA__info.toml<br/><br/>#KanchiAradhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6630,11 +6630,11 @@ DESCRIPTION:Observed on Śukla-Ṣaṣṭhī tithi of Jyaiṣṭhaḥ (lun
  on on the sixth day of the bright fortnight in the year Nala.<br/><br/>व
  ेदारण्यजवैद्यभर्वुतनयः श्
  रीविश्वनाथाभिधो ज्ञानानन्
- दमुनेरवाप्य नियमं ...<br/><br/>### Referen
- ces<br/>* Punya Shloka Manjari<br/><br/><br/>https://github.com/sanskrit-c
- oders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/03/
- 06/kAJcI%206%20jagadguru%20zrI~zuddhAnandEndra%20sarasvatI%20ArAdhanA__inf
- o.toml<br/><br/>#KanchiAradhanaDays
+ दमुनेरवाप्य नियमं ...<br/><br/>##### Refer
+ ences<br/>- Punya Shloka Manjari<br/><br/><br/>https://github.com/sanskrit
+ -coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/0
+ 3/06/kAJcI%206%20jagadguru%20zrI~zuddhAnandEndra%20sarasvatI%20ArAdhanA__i
+ nfo.toml<br/><br/>#KanchiAradhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6750,11 +6750,11 @@ DESCRIPTION:Observed on Śukla-Saptamī tithi of Jyaiṣṭhaḥ (lunar) m
  ; an ardent devotee of Lord Subrahmanya\, He made pious the astrologer Ār
  yabhaṭṭa by making him carry out the expiatory rite for his long voyag
  e (on sea). He\, Saccitsukha\, having instituted Citsukha in his place\, a
- ttained siddhi on the seventh day of the bright ...<br/><br/>### Reference
- s<br/>* Punya Shloka Manjari<br/><br/><br/>https://github.com/sanskrit-cod
- ers/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/03/07
- /kAJcI%2023%20jagadguru%20zrI~saccitsukhEndra%20sarasvatI%20ArAdhanA__info
- .toml<br/><br/>#KanchiAradhanaDays
+ ttained siddhi on the seventh day of the bright ...<br/><br/>##### Referen
+ ces<br/>- Punya Shloka Manjari<br/><br/><br/>https://github.com/sanskrit-c
+ oders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/03/
+ 07/kAJcI%2023%20jagadguru%20zrI~saccitsukhEndra%20sarasvatI%20ArAdhanA__in
+ fo.toml<br/><br/>#KanchiAradhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6862,10 +6862,10 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200530T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200531T000000
 DESCRIPTION:Observed on Śukla-Aṣṭamī tithi of Jyaiṣṭhaḥ (lunar
  ) month (sunrise (default)/puurvaviddha (default)).<br/>Goddess Dhumavati 
- is 7th of the Dasha Maha Vidyas.<br/>### References<br/>* http://hindupad.
- com/dhumavati-jayanti-maa-dhumavathi-jayanthi/<br/><br/><br/>https://githu
- b.com/sanskrit-coders/adyatithi/tree/master/devatA/shakti/lunar_month/tith
- i/03/08/dhUmAvatI~jayantI__info.toml<br/><br/>#Dashamahavidya
+ is 7th of the Dasha Maha Vidyas.<br/>##### References<br/>- http://hindupa
+ d.com/dhumavati-jayanti-maa-dhumavathi-jayanthi/<br/><br/><br/>https://git
+ hub.com/sanskrit-coders/adyatithi/tree/master/devatA/shakti/lunar_month/ti
+ thi/03/08/dhUmAvatI~jayantI__info.toml<br/><br/>#Dashamahavidya
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6902,11 +6902,11 @@ DESCRIPTION:Observed on Śukla-Aṣṭamī tithi of Jyaiṣṭhaḥ (lunar
  va\, known as Ujjvalaśaṅkara\, after being initiated by Gīṣpati\, pa
  tronised by Vañcīśavara\, uprooted the rival schools and with fame the 
  great saint reached Kashmir. Then having spent thirty-eight years in the P
- īṭha of the Universal Preceptor\, He merged in ...<br/><br/>### Referen
- ces<br/>* Punya Shloka Manjari<br/><br/><br/>https://github.com/sanskrit-c
- oders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/03/
- 08/kAJcI%2016%20jagadguru%20zrI~ujjvala%20zaGkarEndra%20sarasvatI%20ArAdha
- nA__info.toml<br/><br/>#KanchiAradhanaDays
+ īṭha of the Universal Preceptor\, He merged in ...<br/><br/>##### Refer
+ ences<br/>- Punya Shloka Manjari<br/><br/><br/>https://github.com/sanskrit
+ -coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/0
+ 3/08/kAJcI%2016%20jagadguru%20zrI~ujjvala%20zaGkarEndra%20sarasvatI%20ArAd
+ hanA__info.toml<br/><br/>#KanchiAradhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6982,11 +6982,11 @@ DESCRIPTION:Observed on Śukla-Navamī tithi of Jyaiṣṭhaḥ (lunar) mo
  ty-two years\; thus the great Yogi realised the Self and attained siddhi o
  n the ninth day of bright fortnight in the month of Jyeṣṭha in the yea
  r Krodhana. Ātmabodha\, who wrote a commentary Suṣamā on Śrī Sadāś
- ivabrahmendra’s Gururatnamālika also ...<br/><br/>### References<br/>* 
- Punya Shloka Manjari<br/><br/><br/>https://github.com/sanskrit-coders/adya
- tithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/03/09/kAJcI%2
- 061%20jagadguru%20zrI~mahAdEvEndra%20sarasvatI%204%20ArAdhanA__info.toml<b
- r/><br/>#KanchiAradhanaDays
+ ivabrahmendra’s Gururatnamālika also ...<br/><br/>##### References<br/>
+ - Punya Shloka Manjari<br/><br/><br/>https://github.com/sanskrit-coders/ad
+ yatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/03/09/kAJcI
+ %2061%20jagadguru%20zrI~mahAdEvEndra%20sarasvatI%204%20ArAdhanA__info.toml
+ <br/><br/>#KanchiAradhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -7000,10 +7000,10 @@ SUMMARY:महेश-नवमी
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200531T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200601T000000
 DESCRIPTION:Observed on Śukla-Navamī tithi of Jyaiṣṭhaḥ (lunar) mo
- nth (sunrise (default)/puurvaviddha (default)).<br/><br/>### References<br
- />* http://www.festivalsofindia.in/maheshnavmi/<br/><br/><br/>https://gith
- ub.com/sanskrit-coders/adyatithi/tree/master/devatA/shaiva/lunar_month/tit
- hi/03/09/mahEza-navamI__info.toml<br/><br/>#LessCommonFestivals
+ nth (sunrise (default)/puurvaviddha (default)).<br/><br/>##### References<
+ br/>- http://www.festivalsofindia.in/maheshnavmi/<br/><br/><br/>https://gi
+ thub.com/sanskrit-coders/adyatithi/tree/master/devatA/shaiva/lunar_month/t
+ ithi/03/09/mahEza-navamI__info.toml<br/><br/>#LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -7099,10 +7099,10 @@ DESCRIPTION:Observed on Śukla-Daśamī tithi of Jyaiṣṭhaḥ (lunar) m
  यां काञ्चित् सरितं प्राप्य 
  दद्यादर्घ्यं शुभोदकम्।<br/>म
  ुच्यते दशभिः पापैः स महापात
- कोपमैः॥<br/><br/><br/>### References<br/>* Vaidikasri June 2
- 017<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/master
- /general/lunar_month/tithi/03/10/dazaharA%20or%20gaGgAvataraNam%20or%20daz
- apApaharA~dazamI__info.toml<br/><br/>#OtherJayantis #CommonFestivals
+ कोपमैः॥<br/><br/><br/>##### References<br/>- Vaidikasri June
+  2017<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/mast
+ er/general/lunar_month/tithi/03/10/dazaharA%20or%20gaGgAvataraNam%20or%20d
+ azapApaharA~dazamI__info.toml<br/><br/>#OtherJayantis #CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -7122,11 +7122,11 @@ DESCRIPTION:Observed on Śukla-Ekādaśī tithi of Vṛṣabhaḥ (solar)
   in dispelling the dense darkness (the great delusion)\, the preceptor of 
  the six cults\, merged in Supreme in the thirty-second year of his life sp
  an\, in the Kali era 2625 on the eleventh day of the bright fortnight in t
- he month of Vṛṣabha of the year Raktākṣi. ...<br/><br/>### Referenc
- es<br/>* www.kamakoti.org<br/><br/><br/>https://github.com/sanskrit-coders
- /adyatithi/tree/master/mahApuruSha/kAnchI-maTha/sidereal_solar_month/tithi
- /02/11/kAJcI%201%20jagadguru%20zrI~Adi-zaGkara%20bhagavatpAda%20ArAdhanA__
- info.toml<br/><br/>#KanchiAradhanaDays #CommonFestivals
+ he month of Vṛṣabha of the year Raktākṣi. ...<br/><br/>##### Refere
+ nces<br/>- www.kamakoti.org<br/><br/><br/>https://github.com/sanskrit-code
+ rs/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/sidereal_solar_month/tit
+ hi/02/11/kAJcI%201%20jagadguru%20zrI~Adi-zaGkara%20bhagavatpAda%20ArAdhanA
+ __info.toml<br/><br/>#KanchiAradhanaDays #CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -7147,11 +7147,11 @@ DESCRIPTION:Observed on Śukla-Daśamī tithi of Jyaiṣṭhaḥ (lunar) m
  man’ due to the samskāras of the previous birth\; the Buddhists and Jai
  ns unable to counter the doctrine threw him in the river Sindhu\, who save
  d his life by placing him lovingly on the lotus petals. Being carried by h
- er (river Sindhu) He (Sadāśivabāla) was ...<br/><br/>### References<br/
- >* Punya Shloka Manjari<br/><br/><br/>https://github.com/sanskrit-coders/a
- dyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/03/10/kAJc
- I%2017%20jagadguru%20zrI~sadAzivEndra%20sarasvatI%20ArAdhanA__info.toml<br
- /><br/>#KanchiAradhanaDays
+ er (river Sindhu) He (Sadāśivabāla) was ...<br/><br/>##### References<b
+ r/>- Punya Shloka Manjari<br/><br/><br/>https://github.com/sanskrit-coders
+ /adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/03/10/kA
+ JcI%2017%20jagadguru%20zrI~sadAzivEndra%20sarasvatI%20ArAdhanA__info.toml<
+ br/><br/>#KanchiAradhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -7173,10 +7173,10 @@ DESCRIPTION:Observed on Śukla-Daśamī tithi of Jyaiṣṭhaḥ (lunar) m
  ing of Nepal\, sanctifying all on earth with grace\, He stayed at the Kām
  aPīṭha in Kāṅci for eight-one years. The auspicious\, revered\, pure
   preceptor merged in the beatitude devoid of rebirth on the ...<br/><br/>#
- ## References<br/>* Punya Shloka Manjari<br/><br/><br/>https://github.com/
- sanskrit-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month
- /tithi/03/10/kAJcI%2053%20jagadguru%20zrI~pUrNAnanda%20sadAzivEndra%20sara
- svatI%20ArAdhanA__info.toml<br/><br/>#KanchiAradhanaDays
+ #### References<br/>- Punya Shloka Manjari<br/><br/><br/>https://github.co
+ m/sanskrit-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_mon
+ th/tithi/03/10/kAJcI%2053%20jagadguru%20zrI~pUrNAnanda%20sadAzivEndra%20sa
+ rasvatI%20ArAdhanA__info.toml<br/><br/>#KanchiAradhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -7279,10 +7279,10 @@ DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Jyaiṣṭhaḥ (lunar)
  er's life\; he engaged in debate with Ācārya and got initiated into asce
  ticism. Then\, attending on Ācārya\, he reached the highest level in yog
  ic practices and by the directions of the Ācārya\, he lived ...<br/><br/
- >### References<br/>* www.kamakoti.org<br/><br/><br/>https://github.com/sa
- nskrit-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/t
- ithi/03/12/kAJcI%202%20jagadguru%20zrI~surEzvarAcArya%20ArAdhanA__info.tom
- l<br/><br/>#KanchiAradhanaDays
+ >##### References<br/>- www.kamakoti.org<br/><br/><br/>https://github.com/
+ sanskrit-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month
+ /tithi/03/12/kAJcI%202%20jagadguru%20zrI~surEzvarAcArya%20ArAdhanA__info.t
+ oml<br/><br/>#KanchiAradhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -7391,10 +7391,10 @@ DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Jyaiṣṭhaḥ (lunar)
  anam to needy.<br/><br/>अहोरात्रेण द्वादश
  ्यां ज्येष्ठे मासि त्रिविक
  ्रमम्।<br/>गवामयनमाप्नोति अप
- ्सरोभिश्च मोदते॥<br/><br/><br/>### Reference
- s<br/>* Mahabharata<br/><br/><br/>https://github.com/sanskrit-coders/adyat
- ithi/tree/master/general/lunar_month/tithi/03/12/gavAmayana-dvAdazI__info.
- toml<br/><br/>#LessCommonFestivals
+ ्सरोभिश्च मोदते॥<br/><br/><br/>##### Referen
+ ces<br/>- Mahabharata<br/><br/><br/>https://github.com/sanskrit-coders/ady
+ atithi/tree/master/general/lunar_month/tithi/03/12/gavAmayana-dvAdazI__inf
+ o.toml<br/><br/>#LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -7744,7 +7744,7 @@ SUMMARY:मन्वादिः (भौत्यः [१४])
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200605T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200606T000000
 DESCRIPTION:Observed on Paurṇamāsī tithi of Jyaiṣṭhaḥ (lunar) mo
- nth (aparaahna/vyaapti).<br/><br/>### References<br/>* Vaidyanātha-Dīk
+ nth (aparaahna/vyaapti).<br/><br/>##### References<br/>- Vaidyanātha-Dīk
  ṣitīyam<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree
  /master/time_focus/yugAdiH/lunar_month/tithi/03/15/manvAdiH~%28bhautyaH~%5
  B14%5D%29__info.toml<br/><br/>#ManvadiDays
@@ -7819,10 +7819,10 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200606T000000
 DESCRIPTION:Observed on Paurṇamāsī tithi of Jyaiṣṭhaḥ (lunar) mo
  nth (sunrise (default)/puurvaviddha (default)).<br/>Perform puja of banyan
   tree\; begets सौमङ्गल्यम् and सौभाग्य
- म्.<br/>### References<br/>* Bhavishyottara Puranam<br/><br/><br/>http
- s://github.com/sanskrit-coders/adyatithi/tree/master/devatA/misc-flora/lun
- ar_month/tithi/03/15/vaTa-pUrNimA%20or%20vaTa-sAvitrI-vratam__info.toml<br
- /><br/>#SpecialVratam
+ म्.<br/>##### References<br/>- Bhavishyottara Puranam<br/><br/><br/>ht
+ tps://github.com/sanskrit-coders/adyatithi/tree/master/devatA/misc-flora/l
+ unar_month/tithi/03/15/vaTa-pUrNimA%20or%20vaTa-sAvitrI-vratam__info.toml<
+ br/><br/>#SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8312,10 +8312,10 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200613T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200614T000000
 DESCRIPTION:Observed on Kṛṣṇa-Aṣṭamī tithi of Jyaiṣṭhaḥ (
  lunar) month (sunrise (default)/puurvaviddha (default)).<br/>Start of one 
- year vratam of monthly shiva pooja as per chaturvaga chintamani.<br/>### R
- eferences<br/>* Chaturvaga Chintamani<br/><br/><br/>https://github.com/san
- skrit-coders/adyatithi/tree/master/general/lunar_month/tithi/03/23/tindukA
- STamI__info.toml<br/><br/>#LessCommonFestivals
+ year vratam of monthly shiva pooja as per chaturvaga chintamani.<br/>#####
+  References<br/>- Chaturvaga Chintamani<br/><br/><br/>https://github.com/s
+ anskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/03/23/tindu
+ kASTamI__info.toml<br/><br/>#LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8345,10 +8345,10 @@ SUMMARY:विनायकाष्टमी
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200613T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200614T000000
 DESCRIPTION:Observed on Kṛṣṇa-Aṣṭamī tithi of Jyaiṣṭhaḥ (
- lunar) month (sunrise (default)/puurvaviddha (default)).<br/><br/>### Refe
- rences<br/>* Nilamata Puranam<br/><br/><br/>https://github.com/sanskrit-co
- ders/adyatithi/tree/master/devatA/gaNapati/lunar_month/tithi/03/23/vinAyak
- ASTamI__info.toml<br/><br/>#LessCommonFestivals
+ lunar) month (sunrise (default)/puurvaviddha (default)).<br/><br/>##### Re
+ ferences<br/>- Nilamata Puranam<br/><br/><br/>https://github.com/sanskrit-
+ coders/adyatithi/tree/master/devatA/gaNapati/lunar_month/tithi/03/23/vinAy
+ akASTamI__info.toml<br/><br/>#LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8590,10 +8590,10 @@ SUMMARY:कूर्म जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200617T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200618T000000
 DESCRIPTION:Observed on Kṛṣṇa-Dvādaśī tithi of Jyaiṣṭhaḥ (l
- unar) month (saayaahna/puurvaviddha).<br/>Danam of Brahma puranam<br/>### 
- References<br/>* Kielhorn (1897)<br/><br/><br/>https://github.com/sanskrit
- -coders/adyatithi/tree/master/devatA/vaiShNava/lunar_month/tithi/03/27/kUr
- ma~jayantI__info.toml<br/><br/>#Dashavataram #LessCommonFestivals
+ unar) month (saayaahna/puurvaviddha).<br/>Danam of Brahma puranam<br/>####
+ # References<br/>- Kielhorn (1897)<br/><br/><br/>https://github.com/sanskr
+ it-coders/adyatithi/tree/master/devatA/vaiShNava/lunar_month/tithi/03/27/k
+ Urma~jayantI__info.toml<br/><br/>#Dashavataram #LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8926,10 +8926,10 @@ DESCRIPTION:Observed on Śukla-Prathamā tithi of Āṣāḍhaḥ (lunar)
   Śrī Śārada maṭha. He (Śrī Citsukhendra)\, whose biography was com
  posed by Mantha in his work titled Siddhajaya adorned the Pīṭha for twe
  nty-one years and attained immortal state. He\, the austere\, ...<br/><br/
- >### References<br/>* Punya Shloka Manjari<br/><br/><br/>https://github.co
- m/sanskrit-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_mon
- th/tithi/04/01/kAJcI%2025%20jagadguru%20zrI~saccidAnandaghanEndra%20sarasv
- atI%20ArAdhanA__info.toml<br/><br/>#KanchiAradhanaDays
+ >##### References<br/>- Punya Shloka Manjari<br/><br/><br/>https://github.
+ com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_m
+ onth/tithi/04/01/kAJcI%2025%20jagadguru%20zrI~saccidAnandaghanEndra%20sara
+ svatI%20ArAdhanA__info.toml<br/><br/>#KanchiAradhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8943,10 +8943,10 @@ SUMMARY:★चूडामणि-सूर्य-ग्रहणम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200621T101254
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200621T133158
 DESCRIPTION:When a solar eclipse occurs on a Sunday\, it is even more spec
- ial: चूडामणि\, i.e. crest jewel.<br/>### References<br/>* Ki
- elhorn\, 1897<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/t
- ree/master/time_focus/Eclipses/description_only/%E2%98%85cUDAmaNi-sUrya-gr
- ahaNam__info.toml<br/><br/>#RareDays #Combinations #Eclipses
+ ial: चूडामणि\, i.e. crest jewel.<br/>##### References<br/>- 
+ Kielhorn\, 1897<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi
+ /tree/master/time_focus/Eclipses/description_only/%E2%98%85cUDAmaNi-sUrya-
+ grahaNam__info.toml<br/><br/>#RareDays #Combinations #Eclipses
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -9321,10 +9321,10 @@ DESCRIPTION:Observed on Śukla-Ṣaṣṭhī tithi of Āṣāḍhaḥ (lun
   Kāñci\, He lived in the caves of Sahya mountain. He\, having installed/
  deputed Citsukhānanda Yogīndra in his place\, vanished fully on the sixt
  h day of the bright fortnight of the month of Āṣāḍha of ...<br/><br/
- >### References<br/>* Punya Shloka Manjari<br/><br/><br/>https://github.co
- m/sanskrit-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_mon
- th/tithi/04/06/kAJcI%2035%20jagadguru%20zrI~citsukhEndra%20sarasvatI%20ArA
- dhanA__info.toml<br/><br/>#KanchiAradhanaDays
+ >##### References<br/>- Punya Shloka Manjari<br/><br/><br/>https://github.
+ com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_m
+ onth/tithi/04/06/kAJcI%2035%20jagadguru%20zrI~citsukhEndra%20sarasvatI%20A
+ rAdhanA__info.toml<br/><br/>#KanchiAradhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9690,11 +9690,11 @@ DESCRIPTION:Observed on Śukla-Navamī tithi of Āṣāḍhaḥ (lunar) mo
  vanished with form in the midst of disciples. He attained his exalted Supr
  eme state on the ninth day of the bright fortnight in the month of Āṣā
  ḍha of the year Ānanda.<br/><br/>श्रीचिद्घनेन
- ्द्रनियतः ...<br/><br/>### References<br/>* Punya Shloka
-  Manjari<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/m
- aster/mahApuruSha/kAnchI-maTha/lunar_month/tithi/04/09/kAJcI%2012%20jagadg
- uru%20zrI~candrazEkharEndra%20sarasvatI%20ArAdhanA__info.toml<br/><br/>#Ka
- nchiAradhanaDays
+ ्द्रनियतः ...<br/><br/>##### References<br/>- Punya Shlo
+ ka Manjari<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree
+ /master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/04/09/kAJcI%2012%20jaga
+ dguru%20zrI~candrazEkharEndra%20sarasvatI%20ArAdhanA__info.toml<br/><br/>#
+ KanchiAradhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9864,11 +9864,11 @@ DESCRIPTION:Observed on Śukla-Daśamī tithi of Āṣāḍhaḥ (lunar) m
  into asceticism from preceptor Śrī Chandracūḍa\; that eminent precept
  or defeated in debates great scholar poets Śrī Harsha\, Abhinavagupta an
  d others and wandered three times throughout the earth. This preceptor Cid
- vilāsa\, revered by all\, spread the tenets of ...<br/><br/>### Reference
- s<br/>* Punya Shloka Manjari<br/><br/><br/>https://github.com/sanskrit-cod
- ers/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/04/10
- /kAJcI%2048%20jagadguru%20zrI~advaitAnandabOdhEndra%20sarasvatI%20ArAdhanA
- __info.toml<br/><br/>#KanchiAradhanaDays
+ vilāsa\, revered by all\, spread the tenets of ...<br/><br/>##### Referen
+ ces<br/>- Punya Shloka Manjari<br/><br/><br/>https://github.com/sanskrit-c
+ oders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/04/
+ 10/kAJcI%2048%20jagadguru%20zrI~advaitAnandabOdhEndra%20sarasvatI%20ArAdha
+ nA__info.toml<br/><br/>#KanchiAradhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9882,10 +9882,10 @@ SUMMARY:मन्वादिः (वैवस्वतः [७])
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200630T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200701T000000
 DESCRIPTION:Observed on Śukla-Daśamī tithi of Āṣāḍhaḥ (lunar) m
- onth (aparaahna/vyaapti).<br/><br/>### References<br/>* Vaidyanātha-Dīk
- ṣitīyam<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree
- /master/time_focus/yugAdiH/lunar_month/tithi/04/10/manvAdiH~%28vaivasvataH
- ~%5B7%5D%29__info.toml<br/><br/>#ManvadiDays
+ onth (aparaahna/vyaapti).<br/><br/>##### References<br/>- Vaidyanātha-Dī
+ kṣitīyam<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tre
+ e/master/time_focus/yugAdiH/lunar_month/tithi/04/10/manvAdiH~%28vaivasvata
+ H~%5B7%5D%29__info.toml<br/><br/>#ManvadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9960,10 +9960,10 @@ DESCRIPTION:Observed on Śukla-Ekādaśī tithi of Āṣāḍhaḥ (lunar)
  वदुःखोपशमनं सर्वसम्पत्प्र
  दायकम्।<br/>सुवासिन्यास्तु स
  ौभाग्यपुत्रपौत्रप्रवर्धन
- म्॥<br/><br/><br/>### References<br/>* Vrata Chudamani 173<br/><br/>
- <br/>https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/vaiSh
- Nava/lunar_month/tithi/04/11/gOpadma-vrata-ArambhaH__info.toml<br/><br/>#S
- pecialVratam
+ म्॥<br/><br/><br/>##### References<br/>- Vrata Chudamani 173<br/><br
+ /><br/>https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/vai
+ ShNava/lunar_month/tithi/04/11/gOpadma-vrata-ArambhaH__info.toml<br/><br/>
+ #SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10057,11 +10057,11 @@ DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Āṣāḍhaḥ (lunar)
  ārya\, He was called Jyeṣṭarudra (before initiation). Having become t
  he disciple of Śrī Bodhendrācārya\, He held with sincerity the respons
  ibility of Preceptor-ship of the earth\; worshipped by King Lalitāditya o
- f Kashmir who conquered all rival kings on earth Śrī ...<br/><br/>### Re
- ferences<br/>* Punya Shloka Manjari<br/><br/><br/>https://github.com/sansk
- rit-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tith
- i/04/12/kAJcI%2031%20jagadguru%20zrI~brahmAnandaghanEndra%20sarasvatI%20Ar
- AdhanA__info.toml<br/><br/>#KanchiAradhanaDays
+ f Kashmir who conquered all rival kings on earth Śrī ...<br/><br/>##### 
+ References<br/>- Punya Shloka Manjari<br/><br/><br/>https://github.com/san
+ skrit-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/ti
+ thi/04/12/kAJcI%2031%20jagadguru%20zrI~brahmAnandaghanEndra%20sarasvatI%20
+ ArAdhanA__info.toml<br/><br/>#KanchiAradhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10085,11 +10085,11 @@ DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Āṣāḍhaḥ (lunar)
  कुम्भघोणे महामनाः।<br/>त्रिष
  ष्टो देशिको लिल्ये स्वगुरो
  रेव सन्निधौ॥१२॥<br/>महादेवेन
- ्द्रगुरुराड् ...<br/><br/>### References<br/>* Pun
- ya Shloka Manjari<br/><br/><br/>https://github.com/sanskrit-coders/adyatit
- hi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/04/12/kAJcI%2063
- %20jagadguru%20zrI~mahAdEvEndra%20sarasvatI%205%20ArAdhanA__info.toml<br/>
- <br/>#KanchiAradhanaDays
+ ्द्रगुरुराड् ...<br/><br/>##### References<br/>- P
+ unya Shloka Manjari<br/><br/><br/>https://github.com/sanskrit-coders/adyat
+ ithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/04/12/kAJcI%20
+ 63%20jagadguru%20zrI~mahAdEvEndra%20sarasvatI%205%20ArAdhanA__info.toml<br
+ /><br/>#KanchiAradhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10255,10 +10255,10 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of Āṣāḍhaḥ (lunar) mo
  वरेश्वराच्युतोद्भवो महेश्
  वराभिधः सुरेश्वरः परो नियम
  ्य सर्वभूगुरोः।<br/>अवाप ...<br/><br/>
- ### References<br/>* Punya Shloka Manjari<br/><br/><br/>https://github.com
- /sanskrit-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_mont
- h/tithi/04/15/kAJcI%2010%20jagadguru%20zrI~surEzvarEndra%20sarasvatI%20ArA
- dhanA__info.toml<br/><br/>#KanchiAradhanaDays
+ ##### References<br/>- Punya Shloka Manjari<br/><br/><br/>https://github.c
+ om/sanskrit-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_mo
+ nth/tithi/04/15/kAJcI%2010%20jagadguru%20zrI~surEzvarEndra%20sarasvatI%20A
+ rAdhanA__info.toml<br/><br/>#KanchiAradhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10289,7 +10289,7 @@ SUMMARY:मन्वादिः (ब्रह्मः [१०])
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200704T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200705T000000
 DESCRIPTION:Observed on Paurṇamāsī tithi of Āṣāḍhaḥ (lunar) mo
- nth (aparaahna/vyaapti).<br/><br/>### References<br/>* Vaidyanātha-Dīk
+ nth (aparaahna/vyaapti).<br/><br/>##### References<br/>- Vaidyanātha-Dīk
  ṣitīyam<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree
  /master/time_focus/yugAdiH/lunar_month/tithi/04/15/manvAdiH~%28brahmaH~%5B
  10%5D%29__info.toml<br/><br/>#ManvadiDays
@@ -10385,10 +10385,10 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of Āṣāḍhaḥ (lunar) mo
  ॊदयम्\, when the Moon is still up\, on the full-moon days of आ
  षाढ\, कार्त्तिक\, माघ and वैशाख 
  – hence the name आ-का-मा-वै) bestows strength\, beauty\, f
- ame\, dharma\, knowledge\, happiness\, fortitude and health.<br/>### Refer
- ences<br/>* Satyavrata Smriti<br/><br/><br/>https://github.com/sanskrit-co
- ders/adyatithi/tree/master/general/lunar_month/tithi/04/15/ASADha-pUrNimA-
- snAnam__info.toml<br/><br/>#SpecialSnanam
+ ame\, dharma\, knowledge\, happiness\, fortitude and health.<br/>##### Ref
+ erences<br/>- Satyavrata Smriti<br/><br/><br/>https://github.com/sanskrit-
+ coders/adyatithi/tree/master/general/lunar_month/tithi/04/15/ASADha-pUrNim
+ A-snAnam__info.toml<br/><br/>#SpecialSnanam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10431,10 +10431,10 @@ DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of Āṣāḍhaḥ (lu
   Bhāṣya ably for twenty-one times in nine years rejoicingly\, attained 
  siddhi on the pratipad of black fortnight in the month of Āṣāḍha of 
  the year Akṣaya. As He stayed ever in the Vyāsācala\, He ...<br/><br/>
- ### References<br/>* Punya Shloka Manjari<br/><br/><br/>https://github.com
- /sanskrit-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_mont
- h/tithi/04/16/kAJcI%2054%20jagadguru%20zrI~vyAsAcala%20mahAdEvEndra%20sara
- svatI%20ArAdhanA__info.toml<br/><br/>#KanchiAradhanaDays
+ ##### References<br/>- Punya Shloka Manjari<br/><br/><br/>https://github.c
+ om/sanskrit-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_mo
+ nth/tithi/04/16/kAJcI%2054%20jagadguru%20zrI~vyAsAcala%20mahAdEvEndra%20sa
+ rasvatI%20ArAdhanA__info.toml<br/><br/>#KanchiAradhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10877,11 +10877,11 @@ SUMMARY:चामुण्डेश्वरी जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200712T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200713T000000
 DESCRIPTION:Observed on Kṛṣṇa-Saptamī tithi of Āṣāḍhaḥ (lun
- ar) month (sunrise (default)/puurvaviddha (default)).<br/><br/>### Referen
- ces<br/>* http://hindupad.com/chamundeshwari-jayanti-birthday-of-goddess-c
- hamundeshwari-mata/<br/><br/><br/>https://github.com/sanskrit-coders/adyat
- ithi/tree/master/devatA/shakti/lunar_month/tithi/04/22/cAmuNDEzvarI~jayant
- I__info.toml<br/><br/>#OtherJayantis
+ ar) month (sunrise (default)/puurvaviddha (default)).<br/><br/>##### Refer
+ ences<br/>- http://hindupad.com/chamundeshwari-jayanti-birthday-of-goddess
+ -chamundeshwari-mata/<br/><br/><br/>https://github.com/sanskrit-coders/ady
+ atithi/tree/master/devatA/shakti/lunar_month/tithi/04/22/cAmuNDEzvarI~jaya
+ ntI__info.toml<br/><br/>#OtherJayantis
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11457,11 +11457,11 @@ DESCRIPTION:Observed on Amāvāsyā tithi of Āṣāḍhaḥ (lunar) month
  veiling his presence\, He was born on the tenth day of the bright fortnigh
  t in the month of Vaiśākha in the year Vibhava twelve months after his f
  ather’s demise. One who was abandoned as a child in the midst of a fores
- t by his mother herself without any possible ...<br/><br/>### References<b
- r/>* Punya Shloka Manjari<br/><br/><br/>https://github.com/sanskrit-coders
- /adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/04/30/kA
- JcI%2038%20jagadguru%20zrI~abhinavazaGkarEndra%20sarasvatI%20ArAdhanA__inf
- o.toml<br/><br/>#KanchiAradhanaDays
+ t by his mother herself without any possible ...<br/><br/>##### References
+ <br/>- Punya Shloka Manjari<br/><br/><br/>https://github.com/sanskrit-code
+ rs/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/04/30/
+ kAJcI%2038%20jagadguru%20zrI~abhinavazaGkarEndra%20sarasvatI%20ArAdhanA__i
+ nfo.toml<br/><br/>#KanchiAradhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11482,11 +11482,11 @@ DESCRIPTION:Observed on Amāvāsyā tithi of Āṣāḍhaḥ (lunar) month
  in the palanquin exquisitely decked with gems offered by Bhoja\, the king 
  of Dhārā\, inculcating faith in the principles of Advaita in the minds o
  f those who venerated him on the path safeguarded the Maṭha from the inv
- aders (mlechas) with the help of the ...<br/><br/>### References<br/>* Pun
- ya Shloka Manjari<br/><br/><br/>https://github.com/sanskrit-coders/adyatit
- hi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/04/30/kAJcI%2046
- %20jagadguru%20zrI~sAndrAnandabOdhEndra%20sarasvatI%20ArAdhanA__info.toml<
- br/><br/>#KanchiAradhanaDays
+ aders (mlechas) with the help of the ...<br/><br/>##### References<br/>- P
+ unya Shloka Manjari<br/><br/><br/>https://github.com/sanskrit-coders/adyat
+ ithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/04/30/kAJcI%20
+ 46%20jagadguru%20zrI~sAndrAnandabOdhEndra%20sarasvatI%20ArAdhanA__info.tom
+ l<br/><br/>#KanchiAradhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11500,10 +11500,10 @@ SUMMARY:पति-सञ्जीवनी-व्रतम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200720T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200721T000000
 DESCRIPTION:Observed on Amāvāsyā tithi of Āṣāḍhaḥ (lunar) month
-  (sunrise (default)/puurvaviddha (default)).<br/><br/>### References<br/>*
-  Skanda Puranam<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi
- /tree/master/general/lunar_month/tithi/04/30/pati-saJjIvanI-vratam__info.t
- oml<br/><br/>#SpecialVratam
+  (sunrise (default)/puurvaviddha (default)).<br/><br/>##### References<br/
+ >- Skanda Puranam<br/><br/><br/>https://github.com/sanskrit-coders/adyatit
+ hi/tree/master/general/lunar_month/tithi/04/30/pati-saJjIvanI-vratam__info
+ .toml<br/><br/>#SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11592,10 +11592,10 @@ DESCRIPTION:Observed on Śukla-Prathamā tithi of Śrāvaṇaḥ (lunar) m
   pratipad (first day) of bright fortnight in the month Śravaṇa of the y
  ear Saumya.<br/><br/>अप्पण्णाख्य उमेशभट
  ्टतनयो भीमातटीसम्भवः ...<br/><br/>##
- # References<br/>* Punya Shloka Manjari<br/><br/><br/>https://github.com/s
- anskrit-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/
- tithi/05/01/kAJcI%2041%20jagadguru%20zrI~gaGgAdharEndra%20sarasvatI%202%20
- ArAdhanA__info.toml<br/><br/>#KanchiAradhanaDays
+ ### References<br/>- Punya Shloka Manjari<br/><br/><br/>https://github.com
+ /sanskrit-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_mont
+ h/tithi/05/01/kAJcI%2041%20jagadguru%20zrI~gaGgAdharEndra%20sarasvatI%202%
+ 20ArAdhanA__info.toml<br/><br/>#KanchiAradhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11685,10 +11685,10 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200723T000000
 DESCRIPTION:Observed on Śukla-Dvitīyā tithi of Śrāvaṇaḥ (lunar) m
  onth (sunrise (default)/puurvaviddha (default)).<br/>Satyanarayana Swami J
  ayanti is celebrated in Annavaram Satya Narayana Temple\, Andhra Pradesh<b
- r/>### References<br/>* http://hindupad.com/satyanarayana-swamy-jayanti-in
- -annavaram-satyanarayana-swamy-temple/<br/><br/><br/>https://github.com/sa
- nskrit-coders/adyatithi/tree/master/temples/Andhra/lunar_month/tithi/05/02
- /satyanArAyaNa~jayantI__info.toml<br/><br/>#AndhraTempleFestivals
+ r/>##### References<br/>- http://hindupad.com/satyanarayana-swamy-jayanti-
+ in-annavaram-satyanarayana-swamy-temple/<br/><br/><br/>https://github.com/
+ sanskrit-coders/adyatithi/tree/master/temples/Andhra/lunar_month/tithi/05/
+ 02/satyanArAyaNa~jayantI__info.toml<br/><br/>#AndhraTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12087,10 +12087,10 @@ SUMMARY:शीतला सप्तमी
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200726T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200727T000000
 DESCRIPTION:Observed on Śukla-Saptamī tithi of Śrāvaṇaḥ (lunar) mo
- nth (madhyaahna/puurvaviddha).<br/><br/>### References<br/>* Vaidikasri Au
- g 2016<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/mas
- ter/devatA/shakti/lunar_month/tithi/05/07/zItalA~saptamI__info.toml<br/><b
- r/>#LessCommonFestivals
+ nth (madhyaahna/puurvaviddha).<br/><br/>##### References<br/>- Vaidikasri 
+ Aug 2016<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/m
+ aster/devatA/shakti/lunar_month/tithi/05/07/zItalA~saptamI__info.toml<br/>
+ <br/>#LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12389,10 +12389,10 @@ DESCRIPTION:Observed on Śukla-Daśamī tithi of Śrāvaṇaḥ (lunar) mo
   at the abode of goddess Kāmākṣī. Devoted to the worship of Śrī Cak
  rarāja\, adhered to the path of Śivarāja\, adhered to the path of Śiva
  yoga\, adept in worshipping the goddess Kāmeśvarī\, He\, free ...<br/><
- br/>### References<br/>* Punya Shloka Manjari<br/><br/><br/>https://github
- .com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_
- month/tithi/05/10/kAJcI%2057%20jagadguru%20zrI~paramazivEndra%20sarasvatI%
- 202%20ArAdhanA__info.toml<br/><br/>#KanchiAradhanaDays
+ br/>##### References<br/>- Punya Shloka Manjari<br/><br/><br/>https://gith
+ ub.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/luna
+ r_month/tithi/05/10/kAJcI%2057%20jagadguru%20zrI~paramazivEndra%20sarasvat
+ I%202%20ArAdhanA__info.toml<br/><br/>#KanchiAradhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12408,10 +12408,10 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200729T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200730T000000
 DESCRIPTION:Observed on Anūrādhā nakṣhatram day of Kaṭakaḥ (solar
  ) month (praatah/paraviddha).<br/>Jayanti Day of Sri Anantarama Dikshitar.
- <br/>### References<br/>* Vaidikasri Nov 2009<br/><br/><br/>https://github
- .com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/smArta-misc/siderea
- l_solar_month/nakshatra/04/17/sEGgAlipuram%20anantarAma-dIkSita-jayantI__i
- nfo.toml<br/><br/>#MahapurushaEvents #CommonFestivals
+ <br/>##### References<br/>- Vaidikasri Nov 2009<br/><br/><br/>https://gith
+ ub.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/smArta-misc/sider
+ eal_solar_month/nakshatra/04/17/sEGgAlipuram%20anantarAma-dIkSita-jayantI_
+ _info.toml<br/><br/>#MahapurushaEvents #CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12490,10 +12490,10 @@ DESCRIPTION:Observed on Śukla-Ekādaśī tithi of Śrāvaṇaḥ (lunar)
  णबोधो दिने हरेः।<br/>ब्रह्मभू
  तो नभस्यच्छे संयमीश्वर ईश्
  वरे॥५८॥<br/>—पुण्यश्लोकमञ्जर
- ी<br/><br/><br/>### References<br/>* Punya Shloka Manjari<br/><br/><br/>
- https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/kAnch
- I-maTha/lunar_month/tithi/05/11/kAJcI%2029%20jagadguru%20zrI~pUrNabOdhEndr
- a%20sarasvatI%20ArAdhanA__info.toml<br/><br/>#KanchiAradhanaDays
+ ी<br/><br/><br/>##### References<br/>- Punya Shloka Manjari<br/><br/><br
+ />https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/kAn
+ chI-maTha/lunar_month/tithi/05/11/kAJcI%2029%20jagadguru%20zrI~pUrNabOdhEn
+ dra%20sarasvatI%20ArAdhanA__info.toml<br/><br/>#KanchiAradhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12934,11 +12934,11 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of Śrāvaṇaḥ (lunar) mon
  uently through the greatness of (the grace of) the Universal Preceptor\, i
  nvested with sacred thread\, and initiated into the entire scripture by hi
  s father and taking up asceticism\, He remained in the seat of Universal p
- receptor. Preceptor Śaṅkarendra ...<br/><br/>### References<br/>* Punya
-  Shloka Manjari<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi
- /tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/05/15/kAJcI%2020%2
- 0jagadguru%20zrI~mUkazaGkarEndra%20sarasvatI%20ArAdhanA__info.toml<br/><br
- />#KanchiAradhanaDays
+ receptor. Preceptor Śaṅkarendra ...<br/><br/>##### References<br/>- Pun
+ ya Shloka Manjari<br/><br/><br/>https://github.com/sanskrit-coders/adyatit
+ hi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/05/15/kAJcI%2020
+ %20jagadguru%20zrI~mUkazaGkarEndra%20sarasvatI%20ArAdhanA__info.toml<br/><
+ br/>#KanchiAradhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12990,9 +12990,9 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of Śrāvaṇaḥ (lunar) mon
  />येन बद्धो बली राजा दानवेन्
  द्रो महाबलः।<br/>तेन त्वामभिब
  ध्नामि रक्षे मा चल मा चल॥<br/><br/
- ><br/>### References<br/>* Dharma Sindhu 56<br/><br/><br/>https://github.c
- om/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/05/15/r
- akSAbandhanam__info.toml<br/><br/>#CommonFestivals
+ ><br/>##### References<br/>- Dharma Sindhu 56<br/><br/><br/>https://github
+ .com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/05/15
+ /rakSAbandhanam__info.toml<br/><br/>#CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13265,10 +13265,10 @@ SUMMARY:भीम चण्डी जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200805T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200806T000000
 DESCRIPTION:Observed on Kṛṣṇa-Dvitīyā tithi of Śrāvaṇaḥ (lun
- ar) month (sunrise (default)/puurvaviddha (default)).<br/><br/>### Referen
- ces<br/>* http://hindupad.com/bhim-chandi-jayanti/<br/><br/><br/>https://g
- ithub.com/sanskrit-coders/adyatithi/tree/master/devatA/shakti/lunar_month/
- tithi/05/17/bhIma~caNDI~jayantI__info.toml<br/><br/>#OtherJayantis
+ ar) month (sunrise (default)/puurvaviddha (default)).<br/><br/>##### Refer
+ ences<br/>- http://hindupad.com/bhim-chandi-jayanti/<br/><br/><br/>https:/
+ /github.com/sanskrit-coders/adyatithi/tree/master/devatA/shakti/lunar_mont
+ h/tithi/05/17/bhIma~caNDI~jayantI__info.toml<br/><br/>#OtherJayantis
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13443,10 +13443,10 @@ SUMMARY:बहुला चतुर्थी
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200807T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200808T000000
 DESCRIPTION:Observed on Kṛṣṇa-Caturthī tithi of Śrāvaṇaḥ (lun
- ar) month (saayaahna/puurvaviddha).<br/><br/>### References<br/>* Kielhorn
-  (1897)<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/ma
- ster/devatA/shakti/lunar_month/tithi/05/19/bahulA~caturthI__info.toml<br/>
- <br/>#LessCommonFestivals
+ ar) month (saayaahna/puurvaviddha).<br/><br/>##### References<br/>- Kielho
+ rn (1897)<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/
+ master/devatA/shakti/lunar_month/tithi/05/19/bahulA~caturthI__info.toml<br
+ /><br/>#LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13535,9 +13535,9 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200808T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200809T000000
 DESCRIPTION:Observed on Kṛṣṇa-Pañcamī tithi of Śrāvaṇaḥ (lun
  ar) month (sunrise (default)/puurvaviddha (default)).<br/>Naga (Manasa) Pu
- ja<br/>### References<br/>* Kielhorn (1897)<br/><br/><br/>https://github.c
- om/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/05/20/r
- akSA~paJcamI__info.toml<br/><br/>#LessCommonFestivals
+ ja<br/>##### References<br/>- Kielhorn (1897)<br/><br/><br/>https://github
+ .com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/05/20
+ /rakSA~paJcamI__info.toml<br/><br/>#LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13587,10 +13587,10 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200809T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200810T000000
 DESCRIPTION:Observed on Kṛṣṇa-Ṣaṣṭhī tithi of Śrāvaṇaḥ 
  (lunar) month (sunrise (default)/puurvaviddha (default)).<br/>Birth of Bal
- arama<br/>### References<br/>* Kielhorn (1897)<br/><br/><br/>https://githu
- b.com/sanskrit-coders/adyatithi/tree/master/devatA/vaiShNava/lunar_month/t
- ithi/05/21/hala-SaSThI__info.toml<br/><br/>#Dashavataram #LessCommonFestiv
- als
+ arama<br/>##### References<br/>- Kielhorn (1897)<br/><br/><br/>https://git
+ hub.com/sanskrit-coders/adyatithi/tree/master/devatA/vaiShNava/lunar_month
+ /tithi/05/21/hala-SaSThI__info.toml<br/><br/>#Dashavataram #LessCommonFest
+ ivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13683,11 +13683,11 @@ DESCRIPTION:Observed on Kṛṣṇa-Aṣṭamī tithi of Śrāvaṇaḥ (l
  worship of Śrī Chandramoulīśvara\, He was offered kingship of Kashmir 
  by King Harṣa for his poetical wisdom/merits. Having ruled Kashmir for a
   short period\, He came back to his preceptor Arbhakaśaṅkara and got in
- itiated into asceticism with the name Sārvabhauma ...<br/><br/>### Refere
- nces<br/>* Punya Shloka Manjari<br/><br/><br/>https://github.com/sanskrit-
- coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/05
- /23/kAJcI%2021%20jagadguru%20zrI~sArvabhaumaguruH%20candracUDEndra%20saras
- vatI%20ArAdhanA__info.toml<br/><br/>#KanchiAradhanaDays
+ itiated into asceticism with the name Sārvabhauma ...<br/><br/>##### Refe
+ rences<br/>- Punya Shloka Manjari<br/><br/><br/>https://github.com/sanskri
+ t-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/
+ 05/23/kAJcI%2021%20jagadguru%20zrI~sArvabhaumaguruH%20candracUDEndra%20sar
+ asvatI%20ArAdhanA__info.toml<br/><br/>#KanchiAradhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13718,10 +13718,10 @@ SUMMARY:मन्वादिः (दक्षः [९])
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200811T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200812T000000
 DESCRIPTION:Observed on Kṛṣṇa-Aṣṭamī tithi of Śrāvaṇaḥ (l
- unar) month (aparaahna/vyaapti).<br/><br/>### References<br/>* Vaidyanāth
- a-Dīkṣitīyam<br/><br/><br/>https://github.com/sanskrit-coders/adyatith
- i/tree/master/time_focus/yugAdiH/lunar_month/tithi/05/23/manvAdiH~%28dakSa
- H~%5B9%5D%29__info.toml<br/><br/>#ManvadiDays
+ unar) month (aparaahna/vyaapti).<br/><br/>##### References<br/>- Vaidyanā
+ tha-Dīkṣitīyam<br/><br/><br/>https://github.com/sanskrit-coders/adyati
+ thi/tree/master/time_focus/yugAdiH/lunar_month/tithi/05/23/manvAdiH~%28dak
+ SaH~%5B9%5D%29__info.toml<br/><br/>#ManvadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13834,11 +13834,11 @@ DESCRIPTION:Observed on Kṛṣṇa-Navamī tithi of Śrāvaṇaḥ (lunar
   a step from his place. This revered Preceptor ever victorious\, the selfr
  estrained one\, merged in the Supreme on the night in the month of Śrava
  ṇa of the year Parābhava.<br/><br/>सच्चित्सुखाच
- ्छिव इति ...<br/><br/>### References<br/>* Punya Shloka Manj
- ari<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/master
- /mahApuruSha/kAnchI-maTha/lunar_month/tithi/05/24/kAJcI%2024%20jagadguru%2
- 0zrI~citsukhEndra%20sarasvatI%20ArAdhanA__info.toml<br/><br/>#KanchiAradha
- naDays
+ ्छिव इति ...<br/><br/>##### References<br/>- Punya Shloka Ma
+ njari<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/mast
+ er/mahApuruSha/kAnchI-maTha/lunar_month/tithi/05/24/kAJcI%2024%20jagadguru
+ %20zrI~citsukhEndra%20sarasvatI%20ArAdhanA__info.toml<br/><br/>#KanchiArad
+ hanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -14761,9 +14761,9 @@ DESCRIPTION:Observed on Śukla-Tṛtīyā tithi of Bhādrapadaḥ (lunar)
  month (sunrise (default)/puurvaviddha (default)).<br/>Puja of Gauri-Mahesh
  wara on Vrishabham\, esp. for girls desirous of getting married\, like God
  dess Parvati sought the hand of Maheshwara\, as Himavan's daughter.<br/>##
- # References<br/>* Bhavishyottara Puranam<br/><br/><br/>https://github.com
- /sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/06/03/har
- itAlikA-vratam__info.toml<br/><br/>#SpecialVratam
+ ### References<br/>- Bhavishyottara Puranam<br/><br/><br/>https://github.c
+ om/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/06/03/h
+ aritAlikA-vratam__info.toml<br/><br/>#SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -14777,10 +14777,10 @@ SUMMARY:मन्वादिः (तामसः [४])
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200821T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200822T000000
 DESCRIPTION:Observed on Śukla-Tṛtīyā tithi of Bhādrapadaḥ (lunar) 
- month (aparaahna/vyaapti).<br/><br/>### References<br/>* Vaidyanātha-Dīk
- ṣitīyam<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree
- /master/time_focus/yugAdiH/lunar_month/tithi/06/03/manvAdiH~%28tAmasaH~%5B
- 4%5D%29__info.toml<br/><br/>#ManvadiDays
+ month (aparaahna/vyaapti).<br/><br/>##### References<br/>- Vaidyanātha-D
+ īkṣitīyam<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/t
+ ree/master/time_focus/yugAdiH/lunar_month/tithi/06/03/manvAdiH~%28tAmasaH~
+ %5B4%5D%29__info.toml<br/><br/>#ManvadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15354,10 +15354,10 @@ SUMMARY:दधीचि महर्षि जयन्ति
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200826T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200827T000000
 DESCRIPTION:Observed on Śukla-Aṣṭamī tithi of Bhādrapadaḥ (lunar)
-  month (sunrise (default)/puurvaviddha (default)).<br/><br/>### References
- <br/>* http://hindupad.com/dadhichi-jayanti/<br/><br/><br/>https://github.
- com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/RShi/lunar_month/tit
- hi/06/08/dadhIci~maharSi~jayanti__info.toml<br/><br/>#MahapurushaEvents
+  month (sunrise (default)/puurvaviddha (default)).<br/><br/>##### Referenc
+ es<br/>- http://hindupad.com/dadhichi-jayanti/<br/><br/><br/>https://githu
+ b.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/RShi/lunar_month/t
+ ithi/06/08/dadhIci~maharSi~jayanti__info.toml<br/><br/>#MahapurushaEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15490,10 +15490,10 @@ SUMMARY:महालक्ष्मी-व्रत-आरम्भः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200827T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200828T000000
 DESCRIPTION:Observed on Śukla-Navamī tithi of Bhādrapadaḥ (lunar) mon
- th (sunrise (default)/puurvaviddha (default)).<br/><br/>### References<br/
- >* Vaidikasri Sep 2017<br/><br/><br/>https://github.com/sanskrit-coders/ad
- yatithi/tree/master/devatA/lakShmI/lunar_month/tithi/06/09/mahAlakSmI-vrat
- a-ArambhaH__info.toml<br/><br/>#VratamStart #SpecialPeriodStart
+ th (sunrise (default)/puurvaviddha (default)).<br/><br/>##### References<b
+ r/>- Vaidikasri Sep 2017<br/><br/><br/>https://github.com/sanskrit-coders/
+ adyatithi/tree/master/devatA/lakShmI/lunar_month/tithi/06/09/mahAlakSmI-vr
+ ata-ArambhaH__info.toml<br/><br/>#VratamStart #SpecialPeriodStart
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15651,9 +15651,9 @@ DESCRIPTION:Observed on Śukla-Daśamī tithi of Bhādrapadaḥ (lunar) mo
  नि तीर्थानि काश्मीरमण्डले।
  <br/>यानि तीर्थानि काश्मीरमण्
  डले तानि तीर्थानि वितस्ताय
- ाम्॥<br/><br/><br/>### References<br/>* Nilamata Puranam<br/><br/>
- <br/>https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/nadI/
- lunar_month/tithi/06/10/vitastOtsavaH__info.toml<br/><br/>#SpecialSnanam
+ ाम्॥<br/><br/><br/>##### References<br/>- Nilamata Puranam<br/><br
+ /><br/>https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/nad
+ I/lunar_month/tithi/06/10/vitastOtsavaH__info.toml<br/><br/>#SpecialSnanam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15717,9 +15717,9 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200830T000000
 DESCRIPTION:Observed on Śukla-Ekādaśī tithi of Bhādrapadaḥ (lunar) 
  month (sunrise (default)/puurvaviddha (default)).<br/>As per Smruti-Kaustu
  bham\, one must perform daanam of mat (कटम्) to a dharmic Vipra.<b
- r/>### References<br/>* Smriti Kaustubham<br/><br/><br/>https://github.com
- /sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/06/11/kaT
- adAnOtsavaH__info.toml<br/><br/>#DanamDays
+ r/>##### References<br/>- Smriti Kaustubham<br/><br/><br/>https://github.c
+ om/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/06/11/k
+ aTadAnOtsavaH__info.toml<br/><br/>#DanamDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -16129,11 +16129,11 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of Bhādrapadaḥ (lunar) mon
  in the house of Jagannātha Kavi\, son Śrī Lakṣmīdhara at Jagannātha
   pini on the shores of Eastern Sea. He sanctified by enjoining expiatory a
  cts based on bhakti to the Brahmin woman polluted/molested by a mleccha. M
- ay preceptor sage Bodhendra entering into ...<br/><br/>### References<br/>
- * Punya Shloka Manjari<br/><br/><br/>https://github.com/sanskrit-coders/ad
- yatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/06/15/kAJcI
- %2059%20jagadguru%20zrI~bhagavannAma%20bOdhEndra%20sarasvatI%20ArAdhanA__i
- nfo.toml<br/><br/>#KanchiAradhanaDays
+ ay preceptor sage Bodhendra entering into ...<br/><br/>##### References<br
+ />- Punya Shloka Manjari<br/><br/><br/>https://github.com/sanskrit-coders/
+ adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/06/15/kAJ
+ cI%2059%20jagadguru%20zrI~bhagavannAma%20bOdhEndra%20sarasvatI%20ArAdhanA_
+ _info.toml<br/><br/>#KanchiAradhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -16254,10 +16254,10 @@ SUMMARY:उमा-महेश्वर-व्रतम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200902T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200903T000000
 DESCRIPTION:Observed on Paurṇamāsī tithi of Bhādrapadaḥ (lunar) mon
- th (sunrise/puurvaviddha).<br/><br/>### References<br/>* VrataNirnayaKalpa
- valli<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/mast
- er/devatA/umA/lunar_month/tithi/06/15/umA-mahEzvara-vratam__info.toml<br/>
- <br/>#SpecialVratam #CommonFestivals
+ th (sunrise/puurvaviddha).<br/><br/>##### References<br/>- VrataNirnayaKal
+ pavalli<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/ma
+ ster/devatA/umA/lunar_month/tithi/06/15/umA-mahEzvara-vratam__info.toml<br
+ /><br/>#SpecialVratam #CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -16572,10 +16572,10 @@ SUMMARY:दिक्पाल-पूजा
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200906T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200907T000000
 DESCRIPTION:Observed on Kṛṣṇa-Caturthī tithi of Bhādrapadaḥ (lun
- ar) month (sunrise (default)/puurvaviddha (default)).<br/><br/>### Referen
- ces<br/>* Nilamata Puranam<br/><br/><br/>https://github.com/sanskrit-coder
- s/adyatithi/tree/master/general/lunar_month/tithi/06/19/dikpAla-pUjA~2__in
- fo.toml<br/><br/>#DevataPuja
+ ar) month (sunrise (default)/puurvaviddha (default)).<br/><br/>##### Refer
+ ences<br/>- Nilamata Puranam<br/><br/><br/>https://github.com/sanskrit-cod
+ ers/adyatithi/tree/master/general/lunar_month/tithi/06/19/dikpAla-pUjA~2__
+ info.toml<br/><br/>#DevataPuja
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -16626,10 +16626,10 @@ SUMMARY:चन्द्र-षष्ठी
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200907T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200908T000000
 DESCRIPTION:Observed on Kṛṣṇa-Ṣaṣṭhī tithi of Bhādrapadaḥ 
- (lunar) month (moonrise/puurvaviddha).<br/><br/>### References<br/>* Kielh
- orn (1897)<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree
- /master/devatA/graha/lunar_month/tithi/06/21/candra-SaSThI__info.toml<br/>
- <br/>#SpecialPuja
+ (lunar) month (moonrise/puurvaviddha).<br/><br/>##### References<br/>- Kie
+ lhorn (1897)<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tr
+ ee/master/devatA/graha/lunar_month/tithi/06/21/candra-SaSThI__info.toml<br
+ /><br/>#SpecialPuja
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -16736,10 +16736,10 @@ DESCRIPTION:Observed on Kṛṣṇa-Ṣaṣṭhī tithi of Bhādrapadaḥ
  uru from region on the banks of river Chandrabhāga. Renovating the huge d
  ilapidated maṭha\, He remained happily in Kāñci itself by devoting him
  self every day in the worship of Goddess Kāmākṣī. He\, the ...<br/><b
- r/>### References<br/>* Punya Shloka Manjari<br/><br/><br/>https://github.
- com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_m
- onth/tithi/06/21/kAJcI%2033%20jagadguru%20zrI~saccidAnandaghanEndra%20sara
- svatI%202%20ArAdhanA__info.toml<br/><br/>#KanchiAradhanaDays
+ r/>##### References<br/>- Punya Shloka Manjari<br/><br/><br/>https://githu
+ b.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar
+ _month/tithi/06/21/kAJcI%2033%20jagadguru%20zrI~saccidAnandaghanEndra%20sa
+ rasvatI%202%20ArAdhanA__info.toml<br/><br/>#KanchiAradhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -16829,10 +16829,10 @@ SUMMARY:महालक्ष्मी-व्रतम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200827T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200910T000000
 DESCRIPTION:Observed on Kṛṣṇa-Aṣṭamī tithi of Āśvayujaḥ (lu
- nar) month (sunrise (default)/puurvaviddha (default)).<br/><br/>### Refere
- nces<br/>* Krutyasaara samucchayam<br/><br/><br/>https://github.com/sanskr
- it-coders/adyatithi/tree/master/devatA/lakShmI/lunar_month/tithi/07/23/mah
- AlakSmI-vratam__info.toml<br/><br/>#SpecialVratam
+ nar) month (sunrise (default)/puurvaviddha (default)).<br/><br/>##### Refe
+ rences<br/>- Krutyasaara samucchayam<br/><br/><br/>https://github.com/sans
+ krit-coders/adyatithi/tree/master/devatA/lakShmI/lunar_month/tithi/07/23/m
+ ahAlakSmI-vratam__info.toml<br/><br/>#SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -16941,11 +16941,11 @@ SUMMARY:अशोकाष्टमी-व्रत-आरम्भः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200910T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200911T000000
 DESCRIPTION:Observed on Kṛṣṇa-Aṣṭamī tithi of Bhādrapadaḥ (l
- unar) month (sunrise (default)/puurvaviddha (default)).<br/><br/>### Refer
- ences<br/>* Aamade Jyotishi<br/><br/><br/>https://github.com/sanskrit-code
- rs/adyatithi/tree/master/general/lunar_month/tithi/06/23/azOkASTamI-vrata-
- ArambhaH__info.toml<br/><br/>#SpecialVratam #VratamStart #SpecialPeriodSta
- rt
+ unar) month (sunrise (default)/puurvaviddha (default)).<br/><br/>##### Ref
+ erences<br/>- Aamade Jyotishi<br/><br/><br/>https://github.com/sanskrit-co
+ ders/adyatithi/tree/master/general/lunar_month/tithi/06/23/azOkASTamI-vrat
+ a-ArambhaH__info.toml<br/><br/>#SpecialVratam #VratamStart #SpecialPeriodS
+ tart
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -16962,9 +16962,9 @@ DESCRIPTION:Observed on Kṛṣṇa-Aṣṭamī tithi of Bhādrapadaḥ (l
  unar) month (sunrise (default)/puurvaviddha (default)).<br/>Jeemuutavahana
   is an atma-tyagi vidyadhara Chakravarti. Saved Shankhachuda's (Naaga) lif
  e by offering himself to Garuda. From that day Garuda stopped eating snake
- s.<br/>### References<br/>* Aamade Jyotishi<br/><br/><br/>https://github.c
- om/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/06/23/j
- ImUtavAhana-pUjA~1__info.toml<br/><br/>#PuranaEvents
+ s.<br/>##### References<br/>- Aamade Jyotishi<br/><br/><br/>https://github
+ .com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/06/23
+ /jImUtavAhana-pUjA~1__info.toml<br/><br/>#PuranaEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17032,10 +17032,10 @@ SUMMARY:दुर्गा/गौरी-पूजा
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200911T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200912T000000
 DESCRIPTION:Observed on Kṛṣṇa-Navamī tithi of Bhādrapadaḥ (lunar
- ) month (sunrise (default)/puurvaviddha (default)).<br/><br/>### Reference
- s<br/>* Nilamata Puranam<br/><br/><br/>https://github.com/sanskrit-coders/
- adyatithi/tree/master/devatA/shakti/lunar_month/tithi/06/24/durgA%20or%20g
- aurI-pUjA__info.toml<br/><br/>#SpecialPuja
+ ) month (sunrise (default)/puurvaviddha (default)).<br/><br/>##### Referen
+ ces<br/>- Nilamata Puranam<br/><br/><br/>https://github.com/sanskrit-coder
+ s/adyatithi/tree/master/devatA/shakti/lunar_month/tithi/06/24/durgA%20or%2
+ 0gaurI-pUjA__info.toml<br/><br/>#SpecialPuja
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17364,10 +17364,10 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200915T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200916T000000
 DESCRIPTION:Observed on Kṛṣṇa-Trayodaśī tithi of Bhādrapadaḥ (l
  unar) month (aparaahna/vyaapti).<br/>Perform समुद्रस्न
- ानम् and श्राद्धम्.<br/>### References<br/>* Vai
- dyanātha-Dīkṣitīyam<br/><br/><br/>https://github.com/sanskrit-coders/
- adyatithi/tree/master/time_focus/yugAdiH/lunar_month/tithi/06/28/dvAparayu
- gAdiH__info.toml<br/><br/>#YugadiDays
+ ानम् and श्राद्धम्.<br/>##### References<br/>- V
+ aidyanātha-Dīkṣitīyam<br/><br/><br/>https://github.com/sanskrit-coder
+ s/adyatithi/tree/master/time_focus/yugAdiH/lunar_month/tithi/06/28/dvApara
+ yugAdiH__info.toml<br/><br/>#YugadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17389,11 +17389,11 @@ DESCRIPTION:Observed on Kṛṣṇa-Trayodaśī tithi of Bhādrapadaḥ (l
  six years. This realised preceptor merged in his illustrious effulgence in
   the early hours on the trayodaśī of Kṛṣṇapakṣa in the month Bh
  ādrapada of the year Pramāthī.<br/><br/>कार्णाटो हर
- िपण्डितः ...<br/><br/>### References<br/>* Punya Shloka Ma
- njari<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/mast
- er/mahApuruSha/kAnchI-maTha/lunar_month/tithi/06/28/kAJcI%2044%20jagadguru
- %20zrI~pUrNabOdhEndra%20sarasvatI%202%20ArAdhanA__info.toml<br/><br/>#Kanc
- hiAradhanaDays
+ िपण्डितः ...<br/><br/>##### References<br/>- Punya Shloka 
+ Manjari<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/ma
+ ster/mahApuruSha/kAnchI-maTha/lunar_month/tithi/06/28/kAJcI%2044%20jagadgu
+ ru%20zrI~pUrNabOdhEndra%20sarasvatI%202%20ArAdhanA__info.toml<br/><br/>#Ka
+ nchiAradhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17493,10 +17493,10 @@ SUMMARY:कात्यायनी जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200916T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200917T000000
 DESCRIPTION:Observed on Kṛṣṇa-Caturdaśī tithi of Bhādrapadaḥ (l
- unar) month (sunrise (default)/puurvaviddha (default)).<br/><br/>### Refer
- ences<br/>* http://hindupad.com/katyayani-jayanti/<br/><br/><br/>https://g
- ithub.com/sanskrit-coders/adyatithi/tree/master/devatA/shakti/lunar_month/
- tithi/06/29/kAtyAyanI~jayantI__info.toml<br/><br/>#OtherJayantis
+ unar) month (sunrise (default)/puurvaviddha (default)).<br/><br/>##### Ref
+ erences<br/>- http://hindupad.com/katyayani-jayanti/<br/><br/><br/>https:/
+ /github.com/sanskrit-coders/adyatithi/tree/master/devatA/shakti/lunar_mont
+ h/tithi/06/29/kAtyAyanI~jayantI__info.toml<br/><br/>#OtherJayantis
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17587,10 +17587,10 @@ SUMMARY:अश्वशिरो-देव-पूजा
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200917T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200918T000000
 DESCRIPTION:Observed on Amāvāsyā tithi of Bhādrapadaḥ (lunar) month 
- (sunrise (default)/puurvaviddha (default)).<br/><br/>### References<br/>* 
- Hemadri Grantham<br/><br/><br/>https://github.com/sanskrit-coders/adyatith
- i/tree/master/general/lunar_month/tithi/06/30/azvazirO-dEva-pUjA__info.tom
- l<br/><br/>#DevataPuja
+ (sunrise (default)/puurvaviddha (default)).<br/><br/>##### References<br/>
+ - Hemadri Grantham<br/><br/><br/>https://github.com/sanskrit-coders/adyati
+ thi/tree/master/general/lunar_month/tithi/06/30/azvazirO-dEva-pUjA__info.t
+ oml<br/><br/>#DevataPuja
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -19307,9 +19307,9 @@ DESCRIPTION:Observed on day 1 of Tulā (solar) month (sunrise (default)/pu
  दामोदराय  नभसि  तुलायां  लोल
  या  सह।<br/>प्रदीपं  ते  प्रयच्छ
  ामि  नमोऽनन्ताय  वेधसे॥<br/><br/><br
- /><br/>### References<br/>* Nirnaya Sindhu 146<br/><br/><br/>https://githu
- b.com/sanskrit-coders/adyatithi/tree/master/general/sidereal_solar_month/d
- ay/07/01/AkAzadIpa-ArambhaH__info.toml<br/><br/>#LessCommonFestivals
+ /><br/>##### References<br/>- Nirnaya Sindhu 146<br/><br/><br/>https://git
+ hub.com/sanskrit-coders/adyatithi/tree/master/general/sidereal_solar_month
+ /day/07/01/AkAzadIpa-ArambhaH__info.toml<br/><br/>#LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -19357,10 +19357,10 @@ SUMMARY:गृहदेवी-पूजा
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201017T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201018T000000
 DESCRIPTION:Observed on Śukla-Prathamā tithi of Āśvayujaḥ (lunar) mo
- nth (sunrise (default)/puurvaviddha (default)).<br/><br/>### References<br
- />* Nilamata Puranam<br/><br/><br/>https://github.com/sanskrit-coders/adya
- tithi/tree/master/devatA/shakti/lunar_month/tithi/07/01/gRhadEvI-pUjA__inf
- o.toml<br/><br/>#LessCommonFestivals
+ nth (sunrise (default)/puurvaviddha (default)).<br/><br/>##### References<
+ br/>- Nilamata Puranam<br/><br/><br/>https://github.com/sanskrit-coders/ad
+ yatithi/tree/master/devatA/shakti/lunar_month/tithi/07/01/gRhadEvI-pUjA__i
+ nfo.toml<br/><br/>#LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -19612,10 +19612,10 @@ SUMMARY:देवता-सुवासिनी-पूजा
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201020T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201021T000000
 DESCRIPTION:Observed on Śukla-Caturthī tithi of Āśvayujaḥ (lunar) mo
- nth (sunrise (default)/puurvaviddha (default)).<br/><br/>### References<br
- />* Nilamata Puranam<br/><br/><br/>https://github.com/sanskrit-coders/adya
- tithi/tree/master/devatA/shakti/lunar_month/tithi/07/04/dEvatA-suvAsinI-pU
- jA__info.toml<br/><br/>#SpecialPuja
+ nth (sunrise (default)/puurvaviddha (default)).<br/><br/>##### References<
+ br/>- Nilamata Puranam<br/><br/><br/>https://github.com/sanskrit-coders/ad
+ yatithi/tree/master/devatA/shakti/lunar_month/tithi/07/04/dEvatA-suvAsinI-
+ pUjA__info.toml<br/><br/>#SpecialPuja
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -19832,11 +19832,11 @@ DESCRIPTION:Observed on Śukla-Saptamī tithi of Āśvayujaḥ (lunar) mon
  ho remained in the caves of the mountain since initiation governed the Pī
  ṭha for twenty-one years and having placed poet Somaka’s son\, Sūrya\
  , in his place\, He attained siddhi in the night of saptami of bright fort
- night in the Aśvini month of He year Śārvari. This ...<br/><br/>### Ref
- erences<br/>* Punya Shloka Manjari<br/><br/><br/>https://github.com/sanskr
- it-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi
- /07/07/kAJcI%2045%20jagadguru%20zrI~paramazivEndra%20sarasvatI%201%20ArAdh
- anA__info.toml<br/><br/>#KanchiAradhanaDays
+ night in the Aśvini month of He year Śārvari. This ...<br/><br/>##### R
+ eferences<br/>- Punya Shloka Manjari<br/><br/><br/>https://github.com/sans
+ krit-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tit
+ hi/07/07/kAJcI%2045%20jagadguru%20zrI~paramazivEndra%20sarasvatI%201%20ArA
+ dhanA__info.toml<br/><br/>#KanchiAradhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -19888,10 +19888,10 @@ SUMMARY:भृगुवार-सुब्रह्मण्य-व्र
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201023T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201024T000000
 DESCRIPTION:तुलाराशिं गते सूर्ये प
- ूर्वस्मिन् भृगुवासरे<br/>### Referen
- ces<br/>* Skanda Puranam<br/><br/><br/>https://github.com/sanskrit-coders/
- adyatithi/tree/master/devatA/kaumAra/description_only/bhRguvAra-subrahmaNy
- a-vratam__info.toml<br/><br/>#SpecialVratam
+ ूर्वस्मिन् भृगुवासरे<br/>##### Refer
+ ences<br/>- Skanda Puranam<br/><br/><br/>https://github.com/sanskrit-coder
+ s/adyatithi/tree/master/devatA/kaumAra/description_only/bhRguvAra-subrahma
+ Nya-vratam__info.toml<br/><br/>#SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -20014,11 +20014,11 @@ DESCRIPTION:Observed on Śukla-Navamī tithi of Āśvayujaḥ (lunar) mont
  ousand salutations to get rid of the disease and became healthy due to the
   japa of Śrīvidyā\, renounced at the age of eighteen and reached with a
   tranquil mind the holy feet of the preceptor Surendradeśika. Avowed to r
- igoroaus practice of adhering to silence\, ...<br/><br/>### References<br/
- >* Punya Shloka Manjari<br/><br/><br/>https://github.com/sanskrit-coders/a
- dyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/07/09/kAJc
- I%2019%20jagadguru%20zrI~mArtANDa%20vidyAghanEndra%20sarasvatI%20ArAdhanA_
- _info.toml<br/><br/>#KanchiAradhanaDays
+ igoroaus practice of adhering to silence\, ...<br/><br/>##### References<b
+ r/>- Punya Shloka Manjari<br/><br/><br/>https://github.com/sanskrit-coders
+ /adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/07/09/kA
+ JcI%2019%20jagadguru%20zrI~mArtANDa%20vidyAghanEndra%20sarasvatI%20ArAdhan
+ A__info.toml<br/><br/>#KanchiAradhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -20048,10 +20048,10 @@ SUMMARY:मन्वादिः (स्वायम्भुवः [१])
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201024T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201025T000000
 DESCRIPTION:Observed on Śukla-Navamī tithi of Āśvayujaḥ (lunar) mont
- h (aparaahna/vyaapti).<br/><br/>### References<br/>* Vaidyanātha-Dīkṣi
- tīyam<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/mas
- ter/time_focus/yugAdiH/lunar_month/tithi/07/09/manvAdiH~%28svAyambhuvaH~%5
- B1%5D%29__info.toml<br/><br/>#ManvadiDays
+ h (aparaahna/vyaapti).<br/><br/>##### References<br/>- Vaidyanātha-Dīk
+ ṣitīyam<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree
+ /master/time_focus/yugAdiH/lunar_month/tithi/07/09/manvAdiH~%28svAyambhuva
+ H~%5B1%5D%29__info.toml<br/><br/>#ManvadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -20435,9 +20435,9 @@ DESCRIPTION:Observed on Śukla-Daśamī tithi of Āśvayujaḥ (lunar) mon
   प्रियदर्शिनी॥<br/><br/>शमीं कमल
  पत्राक्षीं शमीं कण्टकधारिण
  ीम्।<br/>आरोहतु शमीं लक्ष्मीः 
- ...<br/><br/>### References<br/>* Vrata Mahima<br/><br/><br/>https://githu
- b.com/sanskrit-coders/adyatithi/tree/master/devatA/misc-flora/lunar_month/
- tithi/07/10/zamI-pUjA__info.toml<br/><br/>#LessCommonFestivals
+ ...<br/><br/>##### References<br/>- Vrata Mahima<br/><br/><br/>https://git
+ hub.com/sanskrit-coders/adyatithi/tree/master/devatA/misc-flora/lunar_mont
+ h/tithi/07/10/zamI-pUjA__info.toml<br/><br/>#LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -20685,10 +20685,10 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of Āśvayujaḥ (lunar) mont
  रदा लक्ष्मीः को जागर्तीति भ
  ाषिणी।<br/>तस्मै वित्तं प्रयच
  ्छामि अक्षैः क्रीडां करोति 
- यः॥<br/><br/><br/>### References<br/>* Dharma Sindhu 142<br/><br/><b
- r/>https://github.com/sanskrit-coders/adyatithi/tree/master/general/lunar_
- month/tithi/07/15/kO-jAgarti-vratam__info.toml<br/><br/>#SpecialVratam #Co
- mmonFestivals
+ यः॥<br/><br/><br/>##### References<br/>- Dharma Sindhu 142<br/><br/>
+ <br/>https://github.com/sanskrit-coders/adyatithi/tree/master/general/luna
+ r_month/tithi/07/15/kO-jAgarti-vratam__info.toml<br/><br/>#SpecialVratam #
+ CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -20756,9 +20756,9 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201031T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201101T000000
 DESCRIPTION:Observed on Paurṇamāsī tithi of Tulā (solar) month (sunri
  se/puurvaviddha).<br/>Perform होम with fresh rice from paddy.<br/>##
- # References<br/>* Vaidikasri Nov 2017<br/><br/><br/>https://github.com/sa
- nskrit-coders/adyatithi/tree/master/gRhya/general/sidereal_solar_month/tit
- hi/07/15/AgrayaNa~hOmaH~draviDadeshe~1__info.toml<br/><br/>#SpecialPuja
+ ### References<br/>- Vaidikasri Nov 2017<br/><br/><br/>https://github.com/
+ sanskrit-coders/adyatithi/tree/master/gRhya/general/sidereal_solar_month/t
+ ithi/07/15/AgrayaNa~hOmaH~draviDadeshe~1__info.toml<br/><br/>#SpecialPuja
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -20779,11 +20779,11 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of Āśvayujaḥ (lunar) mont
  A disciple of Śrī Citsukhendra\, disinterest in campaigns/travels\, He\,
   on the directions of his preceptor-teacher\, remained in the Maṭha itse
  lf. He\, the preceptor\, Śrī Citsukhānanda attained/ clung on to the st
- ate of Bliss on the day of Paurṇamī in the month of ...<br/><br/>### Re
- ferences<br/>* Punya Shloka Manjari<br/><br/><br/>https://github.com/sansk
- rit-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tith
- i/07/15/kAJcI%2036%20jagadguru%20zrI~citsukhAnandEndra%20sarasvatI%20ArAdh
- anA__info.toml<br/><br/>#KanchiAradhanaDays
+ ate of Bliss on the day of Paurṇamī in the month of ...<br/><br/>##### 
+ References<br/>- Punya Shloka Manjari<br/><br/><br/>https://github.com/san
+ skrit-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/ti
+ thi/07/15/kAJcI%2036%20jagadguru%20zrI~citsukhAnandEndra%20sarasvatI%20ArA
+ dhanA__info.toml<br/><br/>#KanchiAradhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -20851,10 +20851,10 @@ SUMMARY:लक्ष्मी-इन्द्र-कुबेर-पूज
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201031T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201101T000000
 DESCRIPTION:Observed on Paurṇamāsī tithi of Āśvayujaḥ (lunar) mont
- h (sunrise (default)/puurvaviddha (default)).<br/><br/>### References<br/>
- * Purushartha Chintamani<br/><br/><br/>https://github.com/sanskrit-coders/
- adyatithi/tree/master/general/lunar_month/tithi/07/15/lakSmI-indra-kubEra-
- pUjA__info.toml<br/><br/>#SpecialPuja
+ h (sunrise (default)/puurvaviddha (default)).<br/><br/>##### References<br
+ />- Purushartha Chintamani<br/><br/><br/>https://github.com/sanskrit-coder
+ s/adyatithi/tree/master/general/lunar_month/tithi/07/15/lakSmI-indra-kubEr
+ a-pUjA__info.toml<br/><br/>#SpecialPuja
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -21010,10 +21010,10 @@ SUMMARY:जयावाप्ति-व्रतम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201101T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201102T000000
 DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of Āśvayujaḥ (luna
- r) month (sunrise (default)/puurvaviddha (default)).<br/><br/>### Referenc
- es<br/>* Chaturvarga Chintamani<br/><br/><br/>https://github.com/sanskrit-
- coders/adyatithi/tree/master/general/lunar_month/tithi/07/16/jayAvApti-vra
- tam__info.toml<br/><br/>#SpecialVratam
+ r) month (sunrise (default)/puurvaviddha (default)).<br/><br/>##### Refere
+ nces<br/>- Chaturvarga Chintamani<br/><br/><br/>https://github.com/sanskri
+ t-coders/adyatithi/tree/master/general/lunar_month/tithi/07/16/jayAvApti-v
+ ratam__info.toml<br/><br/>#SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -21114,10 +21114,10 @@ SUMMARY:अशून्यशयन-व्रतम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201102T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201103T000000
 DESCRIPTION:Observed on Kṛṣṇa-Dvitīyā tithi of Āśvayujaḥ (luna
- r) month (moonrise/puurvaviddha (default)).<br/><br/>### References<br/>* 
- Purushartha Chintamani<br/><br/><br/>https://github.com/sanskrit-coders/ad
- yatithi/tree/master/general/lunar_month/tithi/07/17/azUnyazayana-vratam~4_
- _info.toml<br/><br/>#SpecialVratam
+ r) month (moonrise/puurvaviddha (default)).<br/><br/>##### References<br/>
+ - Purushartha Chintamani<br/><br/><br/>https://github.com/sanskrit-coders/
+ adyatithi/tree/master/general/lunar_month/tithi/07/17/azUnyazayana-vratam~
+ 4__info.toml<br/><br/>#SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -21292,10 +21292,10 @@ SUMMARY:करक-चतुर्थी
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201104T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201105T000000
 DESCRIPTION:Observed on Kṛṣṇa-Caturthī tithi of Āśvayujaḥ (luna
- r) month (moonrise/puurvaviddha).<br/><br/>### References<br/>* Kielhorn (
- 1897)<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/mast
- er/general/lunar_month/tithi/07/19/karaka-caturthI__info.toml<br/><br/>#Sp
- ecialPuja
+ r) month (moonrise/puurvaviddha).<br/><br/>##### References<br/>- Kielhorn
+  (1897)<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/ma
+ ster/general/lunar_month/tithi/07/19/karaka-caturthI__info.toml<br/><br/>#
+ SpecialPuja
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -21368,10 +21368,10 @@ SUMMARY:घोटक-पञ्चमी
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201105T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201106T000000
 DESCRIPTION:Observed on Kṛṣṇa-Pañcamī tithi of Āśvayujaḥ (luna
- r) month (sunrise (default)/puurvaviddha (default)).<br/><br/>### Referenc
- es<br/>* Kielhorn (1897)<br/><br/><br/>https://github.com/sanskrit-coders/
- adyatithi/tree/master/general/lunar_month/tithi/07/20/ghOTaka-paJcamI__inf
- o.toml<br/><br/>#LessCommonFestivals
+ r) month (sunrise (default)/puurvaviddha (default)).<br/><br/>##### Refere
+ nces<br/>- Kielhorn (1897)<br/><br/><br/>https://github.com/sanskrit-coder
+ s/adyatithi/tree/master/general/lunar_month/tithi/07/20/ghOTaka-paJcamI__i
+ nfo.toml<br/><br/>#LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -21424,10 +21424,10 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201106T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201107T000000
 DESCRIPTION:Observed on Kṛṣṇa-Ṣaṣṭhī tithi of Tulā (solar) m
  onth (aparaahna/vyaapti).<br/>Aradhana Day of Sri Anantarama Dikshitar.<br
- />### References<br/>* Vaidikasri Nov 2017<br/><br/><br/>https://github.co
- m/sanskrit-coders/adyatithi/tree/master/mahApuruSha/smArta-misc/sidereal_s
- olar_month/tithi/07/21/sEGgAlipuram%20anantarAma-dIkSita-ArAdhanA__info.to
- ml<br/><br/>#MahapurushaEvents #CommonFestivals
+ />##### References<br/>- Vaidikasri Nov 2017<br/><br/><br/>https://github.
+ com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/smArta-misc/sidereal
+ _solar_month/tithi/07/21/sEGgAlipuram%20anantarAma-dIkSita-ArAdhanA__info.
+ toml<br/><br/>#MahapurushaEvents #CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -21614,10 +21614,10 @@ SUMMARY:भीमसेन जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201109T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201110T000000
 DESCRIPTION:Observed on Kṛṣṇa-Navamī tithi of Āśvayujaḥ (lunar)
-  month (sunrise (default)/puurvaviddha (default)).<br/>Bhava year<br/>### 
- References<br/>* Kielhorn (1897)<br/><br/><br/>https://github.com/sanskrit
- -coders/adyatithi/tree/master/mahApuruSha/xatra/lunar_month/tithi/07/24/bh
- ImasEna~jayantI__info.toml<br/><br/>#PuranaEvents
+  month (sunrise (default)/puurvaviddha (default)).<br/>Bhava year<br/>####
+ # References<br/>- Kielhorn (1897)<br/><br/><br/>https://github.com/sanskr
+ it-coders/adyatithi/tree/master/mahApuruSha/xatra/lunar_month/tithi/07/24/
+ bhImasEna~jayantI__info.toml<br/><br/>#PuranaEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -21632,10 +21632,10 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201109T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201110T000000
 DESCRIPTION:Observed on Kṛṣṇa-Aṣṭamī tithi of Āśvayujaḥ (lu
  nar) month (sunrise (default)/puurvaviddha (default)).<br/>In North India\
- , for progeny<br/>### References<br/>* Kielhorn (1897)<br/><br/><br/>https
- ://github.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/ti
- thi/07/23/jImUtavAhana-pUjA~2__info.toml<br/><br/>#SpecialPuja #LessCommon
- Festivals
+ , for progeny<br/>##### References<br/>- Kielhorn (1897)<br/><br/><br/>htt
+ ps://github.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/
+ tithi/07/23/jImUtavAhana-pUjA~2__info.toml<br/><br/>#SpecialPuja #LessComm
+ onFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -21649,10 +21649,10 @@ SUMMARY:जीवपुत्रिकाष्टमी
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201109T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201110T000000
 DESCRIPTION:Observed on Kṛṣṇa-Aṣṭamī tithi of Āśvayujaḥ (lu
- nar) month (sunrise (default)/puurvaviddha (default)).<br/><br/>### Refere
- nces<br/>* Krutyasaara samucchayam<br/><br/><br/>https://github.com/sanskr
- it-coders/adyatithi/tree/master/general/lunar_month/tithi/07/23/jIvaputrik
- ASTamI__info.toml<br/><br/>#LessCommonFestivals
+ nar) month (sunrise (default)/puurvaviddha (default)).<br/><br/>##### Refe
+ rences<br/>- Krutyasaara samucchayam<br/><br/><br/>https://github.com/sans
+ krit-coders/adyatithi/tree/master/general/lunar_month/tithi/07/23/jIvaputr
+ ikASTamI__info.toml<br/><br/>#LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -21666,10 +21666,10 @@ SUMMARY:कालाष्टमी
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201109T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201110T000000
 DESCRIPTION:Observed on Kṛṣṇa-Aṣṭamī tithi of Āśvayujaḥ (lu
- nar) month (sunrise (default)/puurvaviddha (default)).<br/><br/>### Refere
- nces<br/>* Aamaar Jyotishi<br/><br/><br/>https://github.com/sanskrit-coder
- s/adyatithi/tree/master/general/lunar_month/tithi/07/23/kAlASTamI__info.to
- ml<br/><br/>#LessCommonFestivals
+ nar) month (sunrise (default)/puurvaviddha (default)).<br/><br/>##### Refe
+ rences<br/>- Aamaar Jyotishi<br/><br/><br/>https://github.com/sanskrit-cod
+ ers/adyatithi/tree/master/general/lunar_month/tithi/07/23/kAlASTamI__info.
+ toml<br/><br/>#LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -21683,10 +21683,10 @@ SUMMARY:मङ्गल-व्रतम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201109T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201110T000000
 DESCRIPTION:Observed on Kṛṣṇa-Aṣṭamī tithi of Āśvayujaḥ (lu
- nar) month (sunrise (default)/puurvaviddha (default)).<br/><br/>### Refere
- nces<br/>* Chaturvarga Chintamani<br/><br/><br/>https://github.com/sanskri
- t-coders/adyatithi/tree/master/general/lunar_month/tithi/07/23/maGgala-vra
- tam__info.toml<br/><br/>#SpecialVratam
+ nar) month (sunrise (default)/puurvaviddha (default)).<br/><br/>##### Refe
+ rences<br/>- Chaturvarga Chintamani<br/><br/><br/>https://github.com/sansk
+ rit-coders/adyatithi/tree/master/general/lunar_month/tithi/07/23/maGgala-v
+ ratam__info.toml<br/><br/>#SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -21700,10 +21700,10 @@ SUMMARY:महालक्ष्मी-व्रतम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201109T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201110T000000
 DESCRIPTION:Observed on Kṛṣṇa-Aṣṭamī tithi of Āśvayujaḥ (lu
- nar) month (sunrise (default)/puurvaviddha (default)).<br/><br/>### Refere
- nces<br/>* Krutyasaara samucchayam<br/><br/><br/>https://github.com/sanskr
- it-coders/adyatithi/tree/master/devatA/lakShmI/lunar_month/tithi/07/23/mah
- AlakSmI-vratam__info.toml<br/><br/>#SpecialVratam
+ nar) month (sunrise (default)/puurvaviddha (default)).<br/><br/>##### Refe
+ rences<br/>- Krutyasaara samucchayam<br/><br/><br/>https://github.com/sans
+ krit-coders/adyatithi/tree/master/devatA/lakShmI/lunar_month/tithi/07/23/m
+ ahAlakSmI-vratam__info.toml<br/><br/>#SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -21936,10 +21936,10 @@ SUMMARY:वसुदेव-पूजा
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201112T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201113T000000
 DESCRIPTION:Observed on Kṛṣṇa-Dvādaśī tithi of Āśvayujaḥ (lun
- ar) month (sunrise (default)/puurvaviddha (default)).<br/><br/>### Referen
- ces<br/>* Smriti Kaustubham<br/><br/><br/>https://github.com/sanskrit-code
- rs/adyatithi/tree/master/devatA/vaiShNava/lunar_month/tithi/07/27/vasudEva
- -pUjA__info.toml<br/><br/>#LessCommonFestivals
+ ar) month (sunrise (default)/puurvaviddha (default)).<br/><br/>##### Refer
+ ences<br/>- Smriti Kaustubham<br/><br/><br/>https://github.com/sanskrit-co
+ ders/adyatithi/tree/master/devatA/vaiShNava/lunar_month/tithi/07/27/vasudE
+ va-pUjA__info.toml<br/><br/>#LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -21954,9 +21954,9 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201112T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201113T000000
 DESCRIPTION:Observed on Kṛṣṇa-Dvādaśī tithi of Āśvayujaḥ (lun
  ar) month (sunrise (default)/puurvaviddha (default)).<br/>In Gujarat<br/>#
- ## References<br/>* Smriti Kaustubham<br/><br/><br/>https://github.com/san
- skrit-coders/adyatithi/tree/master/general/lunar_month/tithi/07/27/vyAghra
- -dvAdazI__info.toml<br/><br/>#LessCommonFestivals
+ #### References<br/>- Smriti Kaustubham<br/><br/><br/>https://github.com/s
+ anskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/07/27/vyAgh
+ ra-dvAdazI__info.toml<br/><br/>#LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -22067,10 +22067,10 @@ SUMMARY:गो-त्रिरात्रि-व्रतम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201113T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201114T000000
 DESCRIPTION:Observed on Kṛṣṇa-Trayodaśī tithi of Āśvayujaḥ (lu
- nar) month (sunrise (default)/puurvaviddha (default)).<br/><br/>### Refere
- nces<br/>* Chaturvarga Chintamani<br/><br/><br/>https://github.com/sanskri
- t-coders/adyatithi/tree/master/general/lunar_month/tithi/07/28/gO-trirAtri
- -vratam~2__info.toml<br/><br/>#SpecialVratam
+ nar) month (sunrise (default)/puurvaviddha (default)).<br/><br/>##### Refe
+ rences<br/>- Chaturvarga Chintamani<br/><br/><br/>https://github.com/sansk
+ rit-coders/adyatithi/tree/master/general/lunar_month/tithi/07/28/gO-trirAt
+ ri-vratam~2__info.toml<br/><br/>#SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -22229,10 +22229,10 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201114T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201115T000000
 DESCRIPTION:Observed on Kṛṣṇa-Caturdaśī tithi of Āśvayujaḥ (lu
  nar) month (sunrise (default)/puurvaviddha (default)).<br/>Perform Deepa D
- anam for Yamadharmaraja in evening<br/>### References<br/>* Vrata Chudaman
- i<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/master/d
- evatA/pitR/lunar_month/tithi/07/29/prEta-caturdazI__info.toml<br/><br/>#Le
- ssCommonFestivals
+ anam for Yamadharmaraja in evening<br/>##### References<br/>- Vrata Chudam
+ ani<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/master
+ /devatA/pitR/lunar_month/tithi/07/29/prEta-caturdazI__info.toml<br/><br/>#
+ LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -22334,10 +22334,10 @@ SUMMARY:आग्रयण होमः द्राविडेषु
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201115T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201116T000000
 DESCRIPTION:Observed on Amāvāsyā tithi of Tulā (solar) month (sunrise/
- puurvaviddha).<br/>Perform होम with fresh rice from paddy.<br/>### R
- eferences<br/>* Vaidikasri Nov 2017<br/><br/><br/>https://github.com/sansk
- rit-coders/adyatithi/tree/master/gRhya/general/sidereal_solar_month/tithi/
- 07/30/AgrayaNa~hOmaH~draviDadeshe~2__info.toml<br/><br/>#SpecialPuja
+ puurvaviddha).<br/>Perform होम with fresh rice from paddy.<br/>#####
+  References<br/>- Vaidikasri Nov 2017<br/><br/><br/>https://github.com/san
+ skrit-coders/adyatithi/tree/master/gRhya/general/sidereal_solar_month/tith
+ i/07/30/AgrayaNa~hOmaH~draviDadeshe~2__info.toml<br/><br/>#SpecialPuja
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -22569,10 +22569,10 @@ BEGIN:VEVENT
 SUMMARY:कृत्तिका सोमवासरः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201116T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201117T000000
-DESCRIPTION:Do puja to Shiva/Parvati\, perform fast.<br/>### References<br
- />* Skanda Puranam<br/><br/><br/>https://github.com/sanskrit-coders/adyati
- thi/tree/master/devatA/shaiva/description_only/kRttikA~sOmavAsaraH__info.t
- oml<br/><br/>#MonthWeekdayFestivals
+DESCRIPTION:Do puja to Shiva/Parvati\, perform fast.<br/>##### References<
+ br/>- Skanda Puranam<br/><br/><br/>https://github.com/sanskrit-coders/adya
+ tithi/tree/master/devatA/shaiva/description_only/kRttikA~sOmavAsaraH__info
+ .toml<br/><br/>#MonthWeekdayFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -22770,10 +22770,10 @@ SUMMARY:देवसेना पञ्चमी
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201119T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201120T000000
 DESCRIPTION:Observed on Śukla-Pañcamī tithi of Kārttikaḥ (lunar) mon
- th (madhyaahna/puurvaviddha).<br/><br/>### References<br/>* https://twitte
- r.com/blog_supplement/status/923044462229671936<br/><br/><br/>https://gith
- ub.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/08/
- 05/dEvasEnA~paJcamI__info.toml<br/><br/>#LessCommonFestivals
+ th (madhyaahna/puurvaviddha).<br/><br/>##### References<br/>- https://twit
+ ter.com/blog_supplement/status/923044462229671936<br/><br/><br/>https://gi
+ thub.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/0
+ 8/05/dEvasEnA~paJcamI__info.toml<br/><br/>#LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -23089,11 +23089,11 @@ SUMMARY:कार्तवीर्यार्जुन जयन्त
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201122T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201123T000000
 DESCRIPTION:Observed on Śukla-Aṣṭamī tithi of Kārttikaḥ (lunar) m
- onth (sunrise (default)/puurvaviddha (default)).<br/><br/>### References<b
- r/>* http://hindupad.com/karthaveerya-arjuna-jayanthi-2011-karthaveerya-ut
- hpatthi/<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/m
- aster/general/lunar_month/tithi/08/08/kArtavIryArjuna~jayantI__info.toml<b
- r/><br/>#OtherJayantis
+ onth (sunrise (default)/puurvaviddha (default)).<br/><br/>##### References
+ <br/>- http://hindupad.com/karthaveerya-arjuna-jayanthi-2011-karthaveerya-
+ uthpatthi/<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree
+ /master/general/lunar_month/tithi/08/08/kArtavIryArjuna~jayantI__info.toml
+ <br/><br/>#OtherJayantis
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -23204,11 +23204,11 @@ DESCRIPTION:Observed on Śukla-Navamī tithi of Kārttikaḥ (lunar) month
  ितश्च मन्त्रे।<br/>श्रीशारदा
  मठगुरुः परिपूर्णबोधो<br/>रौद
  ्र्यूर्जशुक्लनवमीम् अनु सि
- द्धिम् ...<br/><br/>### References<br/>* Punya Shloka Manjari<
- br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/master/mah
- ApuruSha/kAnchI-maTha/lunar_month/tithi/08/09/kAJcI%2022%20jagadguru%20zrI
- ~paripUrNabOdhEndra%20sarasvatI%20ArAdhanA__info.toml<br/><br/>#KanchiArad
- hanaDays
+ द्धिम् ...<br/><br/>##### References<br/>- Punya Shloka Manjar
+ i<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/master/m
+ ahApuruSha/kAnchI-maTha/lunar_month/tithi/08/09/kAJcI%2022%20jagadguru%20z
+ rI~paripUrNabOdhEndra%20sarasvatI%20ArAdhanA__info.toml<br/><br/>#KanchiAr
+ adhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -23221,10 +23221,10 @@ BEGIN:VEVENT
 SUMMARY:कृत्तिका सोमवासरः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201123T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201124T000000
-DESCRIPTION:Do puja to Shiva/Parvati\, perform fast.<br/>### References<br
- />* Skanda Puranam<br/><br/><br/>https://github.com/sanskrit-coders/adyati
- thi/tree/master/devatA/shaiva/description_only/kRttikA~sOmavAsaraH__info.t
- oml<br/><br/>#MonthWeekdayFestivals
+DESCRIPTION:Do puja to Shiva/Parvati\, perform fast.<br/>##### References<
+ br/>- Skanda Puranam<br/><br/><br/>https://github.com/sanskrit-coders/adya
+ tithi/tree/master/devatA/shaiva/description_only/kRttikA~sOmavAsaraH__info
+ .toml<br/><br/>#MonthWeekdayFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -23239,10 +23239,10 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201123T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201124T000000
 DESCRIPTION:Observed on Śukla-Navamī tithi of Kārttikaḥ (lunar) month
   (saangava/paraviddha).<br/>Perform समुद्रस्नानम
- ् and श्राद्धम्.<br/>### References<br/>* Vaidyanātha
- -Dīkṣitīyam<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi
- /tree/master/time_focus/yugAdiH/lunar_month/tithi/08/09/trEtAyugAdiH__info
- .toml<br/><br/>#YugadiDays
+ ् and श्राद्धम्.<br/>##### References<br/>- Vaidyanāt
+ ha-Dīkṣitīyam<br/><br/><br/>https://github.com/sanskrit-coders/adyatit
+ hi/tree/master/time_focus/yugAdiH/lunar_month/tithi/08/09/trEtAyugAdiH__in
+ fo.toml<br/><br/>#YugadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -23506,11 +23506,11 @@ SUMMARY:गोपद्म-व्रत-समापनम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201126T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201127T000000
 DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Kārttikaḥ (lunar) mo
- nth (sunrise (default)/puurvaviddha (default)).<br/><br/>### References<br
- />* https://madhwafestivals.wordpress.com/2016/09/28/go-padma-vrata/<br/><
- br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/master/general/
- lunar_month/tithi/08/12/gOpadma-vrata-samApanam__info.toml<br/><br/>#Speci
- alVratam
+ nth (sunrise (default)/puurvaviddha (default)).<br/><br/>##### References<
+ br/>- https://madhwafestivals.wordpress.com/2016/09/28/go-padma-vrata/<br/
+ ><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/master/genera
+ l/lunar_month/tithi/08/12/gOpadma-vrata-samApanam__info.toml<br/><br/>#Spe
+ cialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -23572,7 +23572,7 @@ SUMMARY:मन्वादिः (स्वारोचिषः [२])
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201126T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201127T000000
 DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Kārttikaḥ (lunar) mo
- nth (aparaahna/vyaapti).<br/><br/>### References<br/>* Vaidyanātha-Dīk
+ nth (aparaahna/vyaapti).<br/><br/>##### References<br/>- Vaidyanātha-Dīk
  ṣitīyam<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree
  /master/time_focus/yugAdiH/lunar_month/tithi/08/12/manvAdiH~%28svArOciSaH~
  %5B2%5D%29__info.toml<br/><br/>#ManvadiDays
@@ -23681,10 +23681,10 @@ DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Kārttikaḥ (lunar) mo
  ्द्रियं  जितक्रोधं  सदा  ध्य
  ानपरायणम्।<br/>आनन्दनिलयं  वन
  ्दे  योगानन्दमुनीश्वरम्॥<br/><
- br/><br/><br/>### References<br/>* Vaidikasri Nov 2017<br/><br/><br/>https
- ://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/RShi/lunar
- _month/tithi/08/12/yAjJavalkya~jayantI__info.toml<br/><br/>#MahapurushaEve
- nts
+ br/><br/><br/>##### References<br/>- Vaidikasri Nov 2017<br/><br/><br/>htt
+ ps://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/RShi/lun
+ ar_month/tithi/08/12/yAjJavalkya~jayantI__info.toml<br/><br/>#MahapurushaE
+ vents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -23842,11 +23842,11 @@ DESCRIPTION:Observed on Śukla-Trayodaśī tithi of Kārttikaḥ (lunar) m
  onth (sunrise (default)/puurvaviddha (default)).<br/>Last three days of 
  कार्त्तिक-मासः. अनन्तफलदम्! 
  Perform Shiva/Vishnu Puja\, Bhagavata Parayanam\, BhagavadGita Parayanam\,
-  Vishnu Sahasranama Parayanam etc.<br/>### References<br/>* skAnda mahApur
- ANe vaiSNavakhaNDE SaDtriMzO.adhyAyaH<br/><br/><br/>https://github.com/san
- skrit-coders/adyatithi/tree/master/general/lunar_month/tithi/08/13/kArttik
- a-mAsa-antimatrayatithi-vrata-ArambhaH__info.toml<br/><br/>#LessCommonFest
- ivals
+  Vishnu Sahasranama Parayanam etc.<br/>##### References<br/>- skAnda mahAp
+ urANe vaiSNavakhaNDE SaDtriMzO.adhyAyaH<br/><br/><br/>https://github.com/s
+ anskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/08/13/kArtt
+ ika-mAsa-antimatrayatithi-vrata-ArambhaH__info.toml<br/><br/>#LessCommonFe
+ stivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -23969,11 +23969,11 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201130T000000
 DESCRIPTION:Observed on Śukla-Caturdaśī tithi of Kārttikaḥ (lunar) m
  onth (sunrise (default)/puurvaviddha (default)).<br/>Perform स्ना
  नम् at मणिकर्णिका ghat in Varanasi. Perform Bhag
- avadGita Parayanam\, Vishnu Sahasranama Parayanam.<br/>### References<br/>
- * skAnda mahApurANe vaiSNavakhaNDE paJcatriMzO.adhyAyaH<br/><br/><br/>http
- s://github.com/sanskrit-coders/adyatithi/tree/master/devatA/vaiShNava/luna
- r_month/tithi/08/14/maNikarNikA-snAnam%20or%20vaikuNTha-caturdazI__info.to
- ml<br/><br/>#SpecialSnanam
+ avadGita Parayanam\, Vishnu Sahasranama Parayanam.<br/>##### References<br
+ />- skAnda mahApurANe vaiSNavakhaNDE paJcatriMzO.adhyAyaH<br/><br/><br/>ht
+ tps://github.com/sanskrit-coders/adyatithi/tree/master/devatA/vaiShNava/lu
+ nar_month/tithi/08/14/maNikarNikA-snAnam%20or%20vaikuNTha-caturdazI__info.
+ toml<br/><br/>#SpecialSnanam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -23987,10 +23987,10 @@ SUMMARY:मन्वादिः (धर्मः [११])
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201129T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201130T000000
 DESCRIPTION:Observed on Paurṇamāsī tithi of Kārttikaḥ (lunar) month
-  (aparaahna/vyaapti).<br/><br/>### References<br/>* Vaidyanātha-Dīkṣit
- īyam<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/mast
- er/time_focus/yugAdiH/lunar_month/tithi/08/15/manvAdiH~%28dharmaH~%5B11%5D
- %29__info.toml<br/><br/>#ManvadiDays
+  (aparaahna/vyaapti).<br/><br/>##### References<br/>- Vaidyanātha-Dīkṣ
+ itīyam<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/ma
+ ster/time_focus/yugAdiH/lunar_month/tithi/08/15/manvAdiH~%28dharmaH~%5B11%
+ 5D%29__info.toml<br/><br/>#ManvadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -24129,10 +24129,10 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201130T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201201T000000
 DESCRIPTION:Observed on Paurṇamāsī tithi of Vṛścikaḥ (solar) mont
  h (sunrise/puurvaviddha).<br/>Perform होम with fresh rice from paddy
- .<br/>### References<br/>* Vaidikasri Nov 2017<br/><br/><br/>https://githu
- b.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/sidereal_solar_m
- onth/tithi/08/15/AgrayaNa~hOmaH~draviDadeshe~3__info.toml<br/><br/>#Specia
- lPuja
+ .<br/>##### References<br/>- Vaidikasri Nov 2017<br/><br/><br/>https://git
+ hub.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/sidereal_solar
+ _month/tithi/08/15/AgrayaNa~hOmaH~draviDadeshe~3__info.toml<br/><br/>#Spec
+ ialPuja
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -24226,10 +24226,11 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of Kārttikaḥ (lunar) month
   (sunrise (default)/puurvaviddha (default)).<br/>Last three days of का
  र्त्तिक-मासः. अनन्तफलदम्! Perfor
  m Shiva/Vishnu Puja\, Bhagavata Parayanam\, BhagavadGita Parayanam\, Vishn
- u Sahasranama Parayanam etc.<br/>### References<br/>* skAnda mahApurANe va
- iSNavakhaNDE SaDtriMzO.adhyAyaH<br/><br/><br/>https://github.com/sanskrit-
- coders/adyatithi/tree/master/general/lunar_month/tithi/08/15/kArttika-mAsa
- -antimatrayatithi-vrata-samApanam__info.toml<br/><br/>#LessCommonFestivals
+ u Sahasranama Parayanam etc.<br/>##### References<br/>- skAnda mahApurANe 
+ vaiSNavakhaNDE SaDtriMzO.adhyAyaH<br/><br/><br/>https://github.com/sanskri
+ t-coders/adyatithi/tree/master/general/lunar_month/tithi/08/15/kArttika-mA
+ sa-antimatrayatithi-vrata-samApanam__info.toml<br/><br/>#LessCommonFestiva
+ ls
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -24249,10 +24250,10 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of Kārttikaḥ (lunar) month
  दयम्\, when the Moon is still up\, on the full-moon days of आष
  ाढ\, कार्त्तिक\, माघ and वैशाख – h
  ence the name आ-का-मा-वै) bestows strength\, beauty\, fame\,
-  dharma\, knowledge\, happiness\, fortitude and health.<br/>### References
- <br/>* Satyavrata Smriti<br/><br/><br/>https://github.com/sanskrit-coders/
- adyatithi/tree/master/general/lunar_month/tithi/08/15/kArttika-pUrNimA-snA
- nam__info.toml<br/><br/>#SpecialSnanam
+  dharma\, knowledge\, happiness\, fortitude and health.<br/>##### Referenc
+ es<br/>- Satyavrata Smriti<br/><br/><br/>https://github.com/sanskrit-coder
+ s/adyatithi/tree/master/general/lunar_month/tithi/08/15/kArttika-pUrNimA-s
+ nAnam__info.toml<br/><br/>#SpecialSnanam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -24265,10 +24266,10 @@ BEGIN:VEVENT
 SUMMARY:कृत्तिका सोमवासरः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201130T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201201T000000
-DESCRIPTION:Do puja to Shiva/Parvati\, perform fast.<br/>### References<br
- />* Skanda Puranam<br/><br/><br/>https://github.com/sanskrit-coders/adyati
- thi/tree/master/devatA/shaiva/description_only/kRttikA~sOmavAsaraH__info.t
- oml<br/><br/>#MonthWeekdayFestivals
+DESCRIPTION:Do puja to Shiva/Parvati\, perform fast.<br/>##### References<
+ br/>- Skanda Puranam<br/><br/><br/>https://github.com/sanskrit-coders/adya
+ tithi/tree/master/devatA/shaiva/description_only/kRttikA~sOmavAsaraH__info
+ .toml<br/><br/>#MonthWeekdayFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -24397,10 +24398,10 @@ DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of Kārttikaḥ (lunar
  nth of Kārthika of the year Sādhāraṇa. The name of this preceptor bef
  ore initiation was Veñkatasubrahmaṇya Dīkṣita. He was a descendant o
  f the family of Govinda Dīkṣita\, wellknown as “Ayyan” who ...<br/>
- <br/>### References<br/>* Punya Shloka Manjari<br/><br/><br/>https://githu
- b.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar
- _month/tithi/08/16/kAJcI%2064%20jagadguru%20zrI~candrazEkharEndra%20sarasv
- atI%205%20ArAdhanA__info.toml<br/><br/>#KanchiAradhanaDays
+ <br/>##### References<br/>- Punya Shloka Manjari<br/><br/><br/>https://git
+ hub.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lun
+ ar_month/tithi/08/16/kAJcI%2064%20jagadguru%20zrI~candrazEkharEndra%20sara
+ svatI%205%20ArAdhanA__info.toml<br/><br/>#KanchiAradhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -24520,10 +24521,10 @@ DESCRIPTION:Observed on Kṛṣṇa-Tṛtīyā tithi of Kārttikaḥ (luna
  Skanda and others away from Tantrik practices and establishing everywhere 
  the non-dualism enunciated in the Vedas\, drove away the notion of dualism
  . Kṛpāśaṅkara established Śrī Viśvarūpa at Śṛṅgeri ...<br/>
- <br/>### References<br/>* Punya Shloka Manjari<br/><br/><br/>https://githu
- b.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar
- _month/tithi/08/18/kAJcI%209%20jagadguru%20zrI~kRpAzaGkarEndra%20sarasvatI
- %20ArAdhanA__info.toml<br/><br/>#KanchiAradhanaDays
+ <br/>##### References<br/>- Punya Shloka Manjari<br/><br/><br/>https://git
+ hub.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lun
+ ar_month/tithi/08/18/kAJcI%209%20jagadguru%20zrI~kRpAzaGkarEndra%20sarasva
+ tI%20ArAdhanA__info.toml<br/><br/>#KanchiAradhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -24753,10 +24754,10 @@ BEGIN:VEVENT
 SUMMARY:कृत्तिका सोमवासरः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201207T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201208T000000
-DESCRIPTION:Do puja to Shiva/Parvati\, perform fast.<br/>### References<br
- />* Skanda Puranam<br/><br/><br/>https://github.com/sanskrit-coders/adyati
- thi/tree/master/devatA/shaiva/description_only/kRttikA~sOmavAsaraH__info.t
- oml<br/><br/>#MonthWeekdayFestivals
+DESCRIPTION:Do puja to Shiva/Parvati\, perform fast.<br/>##### References<
+ br/>- Skanda Puranam<br/><br/><br/>https://github.com/sanskrit-coders/adya
+ tithi/tree/master/devatA/shaiva/description_only/kRttikA~sOmavAsaraH__info
+ .toml<br/><br/>#MonthWeekdayFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -24816,10 +24817,10 @@ DESCRIPTION:Observed on Kṛṣṇa-Aṣṭamī tithi of Kārttikaḥ (lun
  his great preceptor merged in the Lord Ăśvara as He ws teaching the disc
  iples the Brahmasūtra\, bhāṣya etc. in the early morning of Aṣṭami
   of Kṛṣṇapakṣa in the month of Kārtika in the year ...<br/><br/>#
- ## References<br/>* Punya Shloka Manjari<br/><br/><br/>https://github.com/
- sanskrit-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month
- /tithi/08/23/kAJcI%2042%20jagadguru%20zrI~brahmAnandaghanEndra%20sarasvatI
- %202%20ArAdhanA__info.toml<br/><br/>#KanchiAradhanaDays
+ #### References<br/>- Punya Shloka Manjari<br/><br/><br/>https://github.co
+ m/sanskrit-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_mon
+ th/tithi/08/23/kAJcI%2042%20jagadguru%20zrI~brahmAnandaghanEndra%20sarasva
+ tI%202%20ArAdhanA__info.toml<br/><br/>#KanchiAradhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -24843,10 +24844,10 @@ DESCRIPTION:Observed on Kṛṣṇa-Aṣṭamī tithi of Kārttikaḥ (lun
  ो गुरुमूर्तिनामा स्थित्वा 
  जगद्गुरुपदे छवि(४७)वर्षकाल
  म्।<br/>प्राप्तोऽपराभवपदं स ...<
- br/><br/>### References<br/>* Punya Shloka Manjari<br/><br/><br/>https://g
- ithub.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/l
- unar_month/tithi/08/23/kAJcI%2049%20jagadguru%20zrI~mahAdEvEndra%20sarasva
- tI%203%20ArAdhanA__info.toml<br/><br/>#KanchiAradhanaDays
+ br/><br/>##### References<br/>- Punya Shloka Manjari<br/><br/><br/>https:/
+ /github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha
+ /lunar_month/tithi/08/23/kAJcI%2049%20jagadguru%20zrI~mahAdEvEndra%20saras
+ vatI%203%20ArAdhanA__info.toml<br/><br/>#KanchiAradhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -24867,11 +24868,11 @@ DESCRIPTION:Observed on Kṛṣṇa-Aṣṭamī tithi of Kārttikaḥ (lun
  om the first preceptor toured all places successfully\, from Setu (Rāmeś
  varam) to Sītāgiri (Himalayas). Since He possessed intellect more than a
  nyone in the Universe\, men of wisdom call him Viśvādhika and Navaśaṅ
- kara. His erudition in composing works such as Rudra ...<br/><br/>### Refe
- rences<br/>* Punya Shloka Manjari<br/><br/><br/>https://github.com/sanskri
- t-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/
- 08/23/kAJcI%2058%20jagadguru%20zrI~AtmabOdhEndra%20sarasvatI%20ArAdhanA__i
- nfo.toml<br/><br/>#KanchiAradhanaDays
+ kara. His erudition in composing works such as Rudra ...<br/><br/>##### Re
+ ferences<br/>- Punya Shloka Manjari<br/><br/><br/>https://github.com/sansk
+ rit-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tith
+ i/08/23/kAJcI%2058%20jagadguru%20zrI~AtmabOdhEndra%20sarasvatI%20ArAdhanA_
+ _info.toml<br/><br/>#KanchiAradhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -24963,11 +24964,11 @@ DESCRIPTION:Observed on Kṛṣṇa-Daśamī tithi of Kārttikaḥ (lunar)
  ed/decorated the seat of the Ādiguru\, attained that Supreme state attain
  able by/to the great saints who were adepts in subduing senses\, on the te
  nth day of the black fortnight in the year Raudrī. He also attained beati
- tude in Kāñci. His preceptorship was for ...<br/><br/>### References<br/
- >* Punya Shloka Manjari<br/><br/><br/>https://github.com/sanskrit-coders/a
- dyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/08/25/kAJc
- I%2028%20jagadguru%20zrI~mahAdEvEndra%20sarasvatI%201%20ArAdhanA__info.tom
- l<br/><br/>#KanchiAradhanaDays
+ tude in Kāñci. His preceptorship was for ...<br/><br/>##### References<b
+ r/>- Punya Shloka Manjari<br/><br/><br/>https://github.com/sanskrit-coders
+ /adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/08/25/kA
+ JcI%2028%20jagadguru%20zrI~mahAdEvEndra%20sarasvatI%201%20ArAdhanA__info.t
+ oml<br/><br/>#KanchiAradhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -25299,10 +25300,10 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201214T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201215T000000
 DESCRIPTION:Observed on Amāvāsyā tithi of Vṛścikaḥ (solar) month (
  sunrise/puurvaviddha).<br/>Perform होम with fresh rice from paddy.<b
- r/>### References<br/>* Vaidikasri Nov 2017<br/><br/><br/>https://github.c
- om/sanskrit-coders/adyatithi/tree/master/gRhya/general/sidereal_solar_mont
- h/tithi/08/30/AgrayaNa~hOmaH~draviDadeshe~4__info.toml<br/><br/>#SpecialPu
- ja
+ r/>##### References<br/>- Vaidikasri Nov 2017<br/><br/><br/>https://github
+ .com/sanskrit-coders/adyatithi/tree/master/gRhya/general/sidereal_solar_mo
+ nth/tithi/08/30/AgrayaNa~hOmaH~draviDadeshe~4__info.toml<br/><br/>#Special
+ Puja
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -25347,10 +25348,10 @@ BEGIN:VEVENT
 SUMMARY:कृत्तिका सोमवासरः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201214T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201215T000000
-DESCRIPTION:Do puja to Shiva/Parvati\, perform fast.<br/>### References<br
- />* Skanda Puranam<br/><br/><br/>https://github.com/sanskrit-coders/adyati
- thi/tree/master/devatA/shaiva/description_only/kRttikA~sOmavAsaraH__info.t
- oml<br/><br/>#MonthWeekdayFestivals
+DESCRIPTION:Do puja to Shiva/Parvati\, perform fast.<br/>##### References<
+ br/>- Skanda Puranam<br/><br/><br/>https://github.com/sanskrit-coders/adya
+ tithi/tree/master/devatA/shaiva/description_only/kRttikA~sOmavAsaraH__info
+ .toml<br/><br/>#MonthWeekdayFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -25507,11 +25508,11 @@ DESCRIPTION:Observed on Śukla-Prathamā tithi of Mārgaśīrṣaḥ (luna
   being honoured by King Surendra in his Court merged in his original state
  . Preceptor Surendra\, a Maharashtrian\, revered by all as Mādhura\, reso
  rted to asceticism\, an adept in Yogic practices\, governed the Maṭha fo
- r only ten years and reached his abode ...<br/><br/>### References<br/>* P
- unya Shloka Manjari<br/><br/><br/>https://github.com/sanskrit-coders/adyat
- ithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/09/01/kAJcI%20
- 18%20jagadguru%20zrI~yOgatilaka%20surEndra%20sarasvatI%20ArAdhanA__info.to
- ml<br/><br/>#KanchiAradhanaDays
+ r only ten years and reached his abode ...<br/><br/>##### References<br/>-
+  Punya Shloka Manjari<br/><br/><br/>https://github.com/sanskrit-coders/ady
+ atithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/09/01/kAJcI%
+ 2018%20jagadguru%20zrI~yOgatilaka%20surEndra%20sarasvatI%20ArAdhanA__info.
+ toml<br/><br/>#KanchiAradhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -25862,11 +25863,11 @@ DESCRIPTION:Observed on Śukla-Ṣaṣṭhī tithi of Mārgaśīrṣaḥ (
  preceptor Cidānandaghanendra adhering to the injunctions of the Master\, 
  remained in the seat of Kāmakoṭi that bestows all desired things to tho
  se who resort to\, fed innumerable devotees every day. He\, the adept in Y
- oga reinstating compassionately the Kannada prince who ...<br/><br/>### Re
- ferences<br/>* Punya Shloka Manjari<br/><br/><br/>https://github.com/sansk
- rit-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tith
- i/09/06/kAJcI%2032%20jagadguru%20zrI~cidAnandaghanEndra%20sarasvatI%20ArAd
- hanA__info.toml<br/><br/>#KanchiAradhanaDays
+ oga reinstating compassionately the Kannada prince who ...<br/><br/>##### 
+ References<br/>- Punya Shloka Manjari<br/><br/><br/>https://github.com/san
+ skrit-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/ti
+ thi/09/06/kAJcI%2032%20jagadguru%20zrI~cidAnandaghanEndra%20sarasvatI%20Ar
+ AdhanA__info.toml<br/><br/>#KanchiAradhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -25989,11 +25990,11 @@ DESCRIPTION:Observed on Śukla-Saptamī tithi of Mārgaśīrṣaḥ (lunar
  īṭha of preceptors for sixty-three years\, attained salvation/siddhi on
   the seventh day of the bright fortnight in the month of Mārgaśīrṣa o
  f the year Manmatha.<br/><br/>जातो मङ्गलनाम्न
- ि चोलविषये ...<br/><br/>### References<br/>* Punya Shlok
- a Manjari<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/
- master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/09/07/kAJcI%205%20jagadg
- uru%20zrI~jJAnAnandEndra%20sarasvatI%20ArAdhanA__info.toml<br/><br/>#Kanch
- iAradhanaDays
+ ि चोलविषये ...<br/><br/>##### References<br/>- Punya Shl
+ oka Manjari<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tre
+ e/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/09/07/kAJcI%205%20jaga
+ dguru%20zrI~jJAnAnandEndra%20sarasvatI%20ArAdhanA__info.toml<br/><br/>#Kan
+ chiAradhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -26021,10 +26022,10 @@ SUMMARY:नन्दा-सप्तमी
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201221T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201222T000000
 DESCRIPTION:Observed on Śukla-Saptamī tithi of Mārgaśīrṣaḥ (lunar
- ) month (madhyaahna/puurvaviddha).<br/><br/>### References<br/>* Bhavishyo
- ttara Puranam<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/t
- ree/master/devatA/shakti/lunar_month/tithi/09/07/nandA-saptamI~1__info.tom
- l<br/><br/>#SpecialVratam #LessCommonFestivals
+ ) month (madhyaahna/puurvaviddha).<br/><br/>##### References<br/>- Bhavish
+ yottara Puranam<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi
+ /tree/master/devatA/shakti/lunar_month/tithi/09/07/nandA-saptamI~1__info.t
+ oml<br/><br/>#SpecialVratam #LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -26703,10 +26704,10 @@ DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of Mārgaśīrṣaḥ
  s Śrī Nāyana in Pūrvāśrama before initiation\, in the Maṭha\; adhe
  ring to ascetic principles\, wandering like a child\, He vanished in the d
  ivine form of Ăśvara. Śrī Sacchidānanda\, named Śeṣa (before ...<b
- r/><br/>### References<br/>* Punya Shloka Manjari<br/><br/><br/>https://gi
- thub.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lu
- nar_month/tithi/09/16/kAJcI%2013%20jagadguru%20zrI~saccidghanEndra%20saras
- vatI%20ArAdhanA__info.toml<br/><br/>#KanchiAradhanaDays
+ r/><br/>##### References<br/>- Punya Shloka Manjari<br/><br/><br/>https://
+ github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/
+ lunar_month/tithi/09/16/kAJcI%2013%20jagadguru%20zrI~saccidghanEndra%20sar
+ asvatI%20ArAdhanA__info.toml<br/><br/>#KanchiAradhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -26722,9 +26723,9 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201231T000000
 DESCRIPTION:Observed on Paurṇamāsī tithi of Mārgaśīrṣaḥ (lunar)
   month (sunrise (default)/puurvaviddha (default)).<br/>Do दानम् 
  of salt\, सुन्दररूपत्वसिद्ध्यर्
- थम्!<br/>### References<br/>* Vaidikasri Dec 2016<br/><br/><br/>http
- s://github.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/t
- ithi/09/15/mArgazIrSa-pUrNimA__info.toml<br/><br/>#PurnimaDays
+ थम्!<br/>##### References<br/>- Vaidikasri Dec 2016<br/><br/><br/>ht
+ tps://github.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month
+ /tithi/09/15/mArgazIrSa-pUrNimA__info.toml<br/><br/>#PurnimaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -27194,10 +27195,10 @@ DESCRIPTION:Observed on Kṛṣṇa-Aṣṭamī tithi of Mārgaśīrṣa
  ored commentatorial and Vārtika texts on Advaita Vedānta bore the respon
  sibilities of preceptor. Then\, Śrī Satyabodha\, who lived for ninety si
  x years in Kāñci in the Maṭha called Śāradā\, making ...<br/><br/>#
- ## References<br/>* Punya Shloka Manjari<br/><br/><br/>https://github.com/
- sanskrit-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month
- /tithi/09/23/kAJcI%204%20jagadguru%20zrI~satyabOdhEndra%20sarasvatI%20ArAd
- hanA__info.toml<br/><br/>#KanchiAradhanaDays
+ #### References<br/>- Punya Shloka Manjari<br/><br/><br/>https://github.co
+ m/sanskrit-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_mon
+ th/tithi/09/23/kAJcI%204%20jagadguru%20zrI~satyabOdhEndra%20sarasvatI%20Ar
+ AdhanA__info.toml<br/><br/>#KanchiAradhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -27478,11 +27479,11 @@ DESCRIPTION:Observed on Kṛṣṇa-Dvādaśī tithi of Mārgaśīrṣaḥ
  ्गुरुनाथयोः।<br/>तदाज्ञया स स
  न्न्यस्तो वयस्यूनत्रयोदशे
  ॥२८॥<br/>चन्द्रशेखरेति पुण्य
- नाम ...<br/><br/>### References<br/>* Punya Shloka Manjari<br/><br/>
- <br/>https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/
- kAnchI-maTha/lunar_month/tithi/09/27/kAJcI%2068%20jagadguru%20zrI~candrazE
- kharEndra%20sarasvatI%207%20ArAdhanA__info.toml<br/><br/>#KanchiAradhanaDa
- ys #CommonFestivals
+ नाम ...<br/><br/>##### References<br/>- Punya Shloka Manjari<br/><br
+ /><br/>https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSh
+ a/kAnchI-maTha/lunar_month/tithi/09/27/kAJcI%2068%20jagadguru%20zrI~candra
+ zEkharEndra%20sarasvatI%207%20ArAdhanA__info.toml<br/><br/>#KanchiAradhana
+ Days #CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -27663,11 +27664,11 @@ DESCRIPTION:Observed on Amāvāsyā tithi of Mārgaśīrṣaḥ (lunar) mo
  uing the Ugrabhairava through mantra\, He stayed there itself. Son of Śr
  ī Boppanna\, known as Śrī Nāyana earlier\, that Vidyāghana having got
   initiation from Saccidghana\, endowed with enormous occult powers\, havin
- g adorned the principal seat of Kāmakoṭi for ...<br/><br/>### Reference
- s<br/>* Punya Shloka Manjari<br/><br/><br/>https://github.com/sanskrit-cod
- ers/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/09/30
- /kAJcI%2014%20jagadguru%20zrI~vidyAghanEndra%20sarasvatI%20ArAdhanA__info.
- toml<br/><br/>#KanchiAradhanaDays
+ g adorned the principal seat of Kāmakoṭi for ...<br/><br/>##### Referen
+ ces<br/>- Punya Shloka Manjari<br/><br/><br/>https://github.com/sanskrit-c
+ oders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/09/
+ 30/kAJcI%2014%20jagadguru%20zrI~vidyAghanEndra%20sarasvatI%20ArAdhanA__inf
+ o.toml<br/><br/>#KanchiAradhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -27688,11 +27689,11 @@ DESCRIPTION:Observed on Amāvāsyā tithi of Mārgaśīrṣaḥ (lunar) mo
  d into the dense forest fire to save the child\, wandered through out the 
  earth by the directions of his master and adorning the Pīṭha and made t
  he four castes to adhere to their respective paths. The pleasing\, elegant
-  and enduring preceptor Sri ...<br/><br/>### References<br/>* Punya Shloka
-  Manjari<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/m
- aster/mahApuruSha/kAnchI-maTha/lunar_month/tithi/09/30/kAJcI%2034%20jagadg
- uru%20zrI~candrazEkharEndra%20sarasvatI%202%20ArAdhanA__info.toml<br/><br/
- >#KanchiAradhanaDays
+  and enduring preceptor Sri ...<br/><br/>##### References<br/>- Punya Shlo
+ ka Manjari<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree
+ /master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/09/30/kAJcI%2034%20jaga
+ dguru%20zrI~candrazEkharEndra%20sarasvatI%202%20ArAdhanA__info.toml<br/><b
+ r/>#KanchiAradhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -28468,11 +28469,11 @@ DESCRIPTION:Observed on Śukla-Ekādaśī tithi of Pauṣaḥ (lunar) mont
  Maṇimukta\, Aruṇagiri governed the preceptorship of the Pīṭha surro
  unded by the four oceans as preceptor candracūḍa. Sri Kṛṣṇapremi
  ’s edition Thus having imparted the teachings to me\, the insignificant 
- disciple and guiding me through various aspects ...<br/><br/>### Reference
- s<br/>* Punya Shloka Manjari<br/><br/><br/>https://github.com/sanskrit-cod
- ers/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/10/11
- /kAJcI%2055%20jagadguru%20zrI~candracUDEndra%20sarasvatI%203%20ArAdhanA__i
- nfo.toml<br/><br/>#KanchiAradhanaDays
+ disciple and guiding me through various aspects ...<br/><br/>##### Referen
+ ces<br/>- Punya Shloka Manjari<br/><br/><br/>https://github.com/sanskrit-c
+ oders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/10/
+ 11/kAJcI%2055%20jagadguru%20zrI~candracUDEndra%20sarasvatI%203%20ArAdhanA_
+ _info.toml<br/><br/>#KanchiAradhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -28486,10 +28487,10 @@ SUMMARY:मन्वादिः (चाक्षुषः [६])
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210124T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210125T000000
 DESCRIPTION:Observed on Śukla-Ekādaśī tithi of Pauṣaḥ (lunar) mont
- h (aparaahna/vyaapti).<br/><br/>### References<br/>* Vaidyanātha-Dīkṣi
- tīyam<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/mas
- ter/time_focus/yugAdiH/lunar_month/tithi/10/11/manvAdiH~%28cAkSuSaH~%5B6%5
- D%29__info.toml<br/><br/>#ManvadiDays
+ h (aparaahna/vyaapti).<br/><br/>##### References<br/>- Vaidyanātha-Dīk
+ ṣitīyam<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree
+ /master/time_focus/yugAdiH/lunar_month/tithi/10/11/manvAdiH~%28cAkSuSaH~%5
+ B6%5D%29__info.toml<br/><br/>#ManvadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -28774,11 +28775,11 @@ DESCRIPTION:Observed on Śukla-Caturdaśī tithi of Pauṣaḥ (lunar) mon
  Makarasaṅkrānti of the year Sarvadhāri.<br/><br/>श्रीशैल
  ीयशिवय्यसूनुरदधात् तस्याज
  ्ञया तत् पदं मङ्गण्णार्य इत
- ि श्रुतः ...<br/><br/>### References<br/>* Punya Shloka Manj
- ari<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/master
- /mahApuruSha/kAnchI-maTha/lunar_month/tithi/10/14/kAJcI%208%20jagadguru%20
- zrI~kaivalyAnandayOgEndra%20sarasvatI%20ArAdhanA__info.toml<br/><br/>#Kanc
- hiAradhanaDays
+ ि श्रुतः ...<br/><br/>##### References<br/>- Punya Shloka Ma
+ njari<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/mast
+ er/mahApuruSha/kAnchI-maTha/lunar_month/tithi/10/14/kAJcI%208%20jagadguru%
+ 20zrI~kaivalyAnandayOgEndra%20sarasvatI%20ArAdhanA__info.toml<br/><br/>#Ka
+ nchiAradhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -28947,11 +28948,11 @@ SUMMARY:शाकम्भरी जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210128T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210129T000000
 DESCRIPTION:Observed on Paurṇamāsī tithi of Pauṣaḥ (lunar) month (
- sunrise (default)/puurvaviddha (default)).<br/><br/>### References<br/>* h
- ttp://hindupad.com/shakambari-jayanti-2009-shakambari-jayanthi-or-last-day
- -of-shakambari-navaratri/<br/><br/><br/>https://github.com/sanskrit-coders
- /adyatithi/tree/master/devatA/shakti/lunar_month/tithi/10/15/zAkambharI~ja
- yantI__info.toml<br/><br/>#OtherJayantis
+ sunrise (default)/puurvaviddha (default)).<br/><br/>##### References<br/>-
+  http://hindupad.com/shakambari-jayanti-2009-shakambari-jayanthi-or-last-d
+ ay-of-shakambari-navaratri/<br/><br/><br/>https://github.com/sanskrit-code
+ rs/adyatithi/tree/master/devatA/shakti/lunar_month/tithi/10/15/zAkambharI~
+ jayantI__info.toml<br/><br/>#OtherJayantis
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -29078,11 +29079,11 @@ DESCRIPTION:Observed on Kṛṣṇa-Dvitīyā tithi of Pauṣaḥ (lunar)
  preceptor Śrī Vidyāghana\, mastering the Śrīvidyā held the responsib
  ilities of the preceptor despite the atrocities of Turuṣkas for thirty y
  ears. The staunch adherent of asceticism\, He reached the highest state of
-  Bliss on the second day of the black fortnight in the ...<br/><br/>### Re
- ferences<br/>* Punya Shloka Manjari<br/><br/><br/>https://github.com/sansk
- rit-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tith
- i/10/17/kAJcI%2037%20jagadguru%20zrI~vidyAghanEndra%20sarasvatI%203%20ArAd
- hanA__info.toml<br/><br/>#KanchiAradhanaDays
+  Bliss on the second day of the black fortnight in the ...<br/><br/>##### 
+ References<br/>- Punya Shloka Manjari<br/><br/><br/>https://github.com/san
+ skrit-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/ti
+ thi/10/17/kAJcI%2037%20jagadguru%20zrI~vidyAghanEndra%20sarasvatI%203%20Ar
+ AdhanA__info.toml<br/><br/>#KanchiAradhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -29104,10 +29105,10 @@ DESCRIPTION:Observed on Kṛṣṇa-Dvitīyā tithi of Pauṣaḥ (lunar)
  to Kumbhaghona town during the period of this ācārya\; his siddhi was al
  so in Kumbhaghona. Śivāṣṭapadī\, a lyrical work on the model of Git
  agovinda of Śrī Jayadeva was composed only by this ācārya. His ...<br/
- ><br/>### References<br/>* Punya Shloka Manjari<br/><br/><br/>https://gith
- ub.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/luna
- r_month/tithi/10/17/kAJcI%2062%20jagadguru%20zrI~candrazEkharEndra%20saras
- vatI%204%20ArAdhanA__info.toml<br/><br/>#KanchiAradhanaDays
+ ><br/>##### References<br/>- Punya Shloka Manjari<br/><br/><br/>https://gi
+ thub.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lu
+ nar_month/tithi/10/17/kAJcI%2062%20jagadguru%20zrI~candrazEkharEndra%20sar
+ asvatI%204%20ArAdhanA__info.toml<br/><br/>#KanchiAradhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -29592,10 +29593,10 @@ SUMMARY:भीष्म जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210206T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210207T000000
 DESCRIPTION:Observed on Kṛṣṇa-Navamī tithi of Pauṣaḥ (lunar) mo
- nth (sunrise (default)/puurvaviddha (default)).<br/><br/>### References<br
- />* http://hindupad.com/bhishma-pitamaha-jayanti/<br/><br/><br/>https://gi
- thub.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra/lunar_mon
- th/tithi/10/24/bhISma~jayantI__info.toml<br/><br/>#MahapurushaEvents
+ nth (sunrise (default)/puurvaviddha (default)).<br/><br/>##### References<
+ br/>- http://hindupad.com/bhishma-pitamaha-jayanti/<br/><br/><br/>https://
+ github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra/lunar_m
+ onth/tithi/10/24/bhISma~jayantI__info.toml<br/><br/>#MahapurushaEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -30017,10 +30018,10 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210212T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210213T000000
 DESCRIPTION:Observed on Śukla-Prathamā tithi of Māghaḥ (lunar) month 
  (sunrise (default)/puurvaviddha (default)).<br/>Shyamala Devi specially bl
- esses musicians\; honour musicians in this period.<br/>### References<br/>
- * Vaidikasri Feb 2016<br/><br/><br/>https://github.com/sanskrit-coders/ady
- atithi/tree/master/devatA/shakti/lunar_month/tithi/11/01/zyAmaLAnavarAtra-
- ArambhaH__info.toml<br/><br/>#Navaratri #SpecialPeriodStart
+ esses musicians\; honour musicians in this period.<br/>##### References<br
+ />- Vaidikasri Feb 2016<br/><br/><br/>https://github.com/sanskrit-coders/a
+ dyatithi/tree/master/devatA/shakti/lunar_month/tithi/11/01/zyAmaLAnavarAtr
+ a-ArambhaH__info.toml<br/><br/>#Navaratri #SpecialPeriodStart
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -30185,11 +30186,11 @@ SUMMARY:मार्कण्डेय जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210215T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210216T000000
 DESCRIPTION:Observed on Śukla-Caturthī tithi of Māghaḥ (lunar) month 
- (sunrise (default)/puurvaviddha (default)).<br/><br/>### References<br/>* 
- http://hindupad.com/markandeya-jayanti/<br/><br/><br/>https://github.com/s
- anskrit-coders/adyatithi/tree/master/mahApuruSha/RShi/lunar_month/tithi/11
- /04/mArkaNDEya~jayantI__info.toml<br/><br/>#MahapurushaEvents #CommonFesti
- vals
+ (sunrise (default)/puurvaviddha (default)).<br/><br/>##### References<br/>
+ - http://hindupad.com/markandeya-jayanti/<br/><br/><br/>https://github.com
+ /sanskrit-coders/adyatithi/tree/master/mahApuruSha/RShi/lunar_month/tithi/
+ 11/04/mArkaNDEya~jayantI__info.toml<br/><br/>#MahapurushaEvents #CommonFes
+ tivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -30207,10 +30208,10 @@ DESCRIPTION:Observed on Śukla-Caturthī tithi of Māghaḥ (lunar) month
  र्थ्यां तु कुन्दपुष्पैः सद
  ाशिवम्।<br/>सम्पूज्य यो हि नक्
  ताऽऽशी सम्प्राप्नोति श्रिय
- ं नरः॥<br/><br/><br/>### References<br/>* Nirnaya Sindhu 162<br/
- ><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/master/devatA
- /gaNapati/lunar_month/tithi/11/04/varakunda-caturthI__info.toml<br/><br/>#
- SpecialPuja
+ ं नरः॥<br/><br/><br/>##### References<br/>- Nirnaya Sindhu 162<b
+ r/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/master/deva
+ tA/gaNapati/lunar_month/tithi/11/04/varakunda-caturthI__info.toml<br/><br/
+ >#SpecialPuja
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -30277,10 +30278,10 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210216T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210217T000000
 DESCRIPTION:Observed on Śukla-Pañcamī tithi of Māghaḥ (lunar) month 
  (sunrise (default)/puurvaviddha (default)).<br/>Saraswati Puja\, especiall
- y in Bengal.<br/>### References<br/>* http://hindupad.com/madana-panchami/
- <br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/master/de
- vatA/shakti/lunar_month/tithi/11/05/mAghI~sarasvatI-pUjA__info.toml<br/><b
- r/>#SpecialPuja
+ y in Bengal.<br/>##### References<br/>- http://hindupad.com/madana-pancham
+ i/<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/master/
+ devatA/shakti/lunar_month/tithi/11/05/mAghI~sarasvatI-pUjA__info.toml<br/>
+ <br/>#SpecialPuja
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -30333,10 +30334,10 @@ DESCRIPTION:Observed on Śukla-Pañcamī tithi of Māghaḥ (lunar) month
  मासे नृपश्रेष्ठ शुक्लायां 
  पञ्चमीतिथौ।<br/>रतिकामौ तु सम
  ्पूज्य कर्तव्यः सुमहोत्सवः
- ॥<br/><br/><br/>### References<br/>* Smriti Kaustubham 479<br/><br/><br/
- >https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/vaiShNava
- /lunar_month/tithi/11/05/vasanta-zrI-paJcamI__info.toml<br/><br/>#SpecialP
- uja
+ ॥<br/><br/><br/>##### References<br/>- Smriti Kaustubham 479<br/><br/><b
+ r/>https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/vaiShNa
+ va/lunar_month/tithi/11/05/vasanta-zrI-paJcamI__info.toml<br/><br/>#Specia
+ lPuja
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -30491,10 +30492,10 @@ SUMMARY:मन्वादिः (सावर्णिः [८])
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210218T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210219T000000
 DESCRIPTION:Observed on Śukla-Saptamī tithi of Māghaḥ (lunar) month (
- aparaahna/vyaapti).<br/><br/>### References<br/>* Vaidyanātha-Dīkṣitī
- yam<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/master
- /time_focus/yugAdiH/lunar_month/tithi/11/07/manvAdiH~%28sAvarNiH~%5B8%5D%2
- 9__info.toml<br/><br/>#ManvadiDays
+ aparaahna/vyaapti).<br/><br/>##### References<br/>- Vaidyanātha-Dīkṣit
+ īyam<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/mast
+ er/time_focus/yugAdiH/lunar_month/tithi/11/07/manvAdiH~%28sAvarNiH~%5B8%5D
+ %29__info.toml<br/><br/>#ManvadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -30564,10 +30565,10 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210219T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210220T000000
 DESCRIPTION:Observed on Śukla-Saptamī tithi of Māghaḥ (lunar) month (
  sunrise (default)/puurvaviddha (default)).<br/>Upadesha of this vrata was 
- done by Maharshi Vasishtha to Indumati\, a veshya stri.<br/>### References
- <br/>* Bhavishyottara Puranam<br/><br/><br/>https://github.com/sanskrit-co
- ders/adyatithi/tree/master/general/lunar_month/tithi/11/07/acalA~saptamI-v
- ratam__info.toml<br/><br/>#SpecialVratam
+ done by Maharshi Vasishtha to Indumati\, a veshya stri.<br/>##### Referenc
+ es<br/>- Bhavishyottara Puranam<br/><br/><br/>https://github.com/sanskrit-
+ coders/adyatithi/tree/master/general/lunar_month/tithi/11/07/acalA~saptamI
+ -vratam__info.toml<br/><br/>#SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -30583,10 +30584,10 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210220T000000
 DESCRIPTION:Observed on Śukla-Aṣṭamī tithi of Māghaḥ (lunar) mont
  h (madhyaahna/puurvaviddha).<br/>Bhishma obtained mukti on this day\; offe
  r tarpana to Bhishma (even those with parents). Brings health\, long life 
- and harmony in family.<br/>### References<br/>* Vaidikasri Feb 2016<br/><b
- r/><br/>https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruS
- ha/xatra/lunar_month/tithi/11/08/bhISmASTamI__info.toml<br/><br/>#SpecialP
- uja #CommonFestivals #CommonFestivals
+ and harmony in family.<br/>##### References<br/>- Vaidikasri Feb 2016<br/>
+ <br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/master/mahApur
+ uSha/xatra/lunar_month/tithi/11/08/bhISmASTamI__info.toml<br/><br/>#Specia
+ lPuja #CommonFestivals #CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -30638,10 +30639,10 @@ SUMMARY:नर्मदा जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210219T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210220T000000
 DESCRIPTION:Observed on Śukla-Saptamī tithi of Māghaḥ (lunar) month (
- sunrise (default)/puurvaviddha (default)).<br/><br/>### References<br/>* h
- ttp://hindupad.com/narmada-jayanti/<br/><br/><br/>https://github.com/sansk
- rit-coders/adyatithi/tree/master/devatA/nadI/lunar_month/tithi/11/07/narma
- dA~jayantI__info.toml<br/><br/>#OtherJayantis
+ sunrise (default)/puurvaviddha (default)).<br/><br/>##### References<br/>-
+  http://hindupad.com/narmada-jayanti/<br/><br/><br/>https://github.com/san
+ skrit-coders/adyatithi/tree/master/devatA/nadI/lunar_month/tithi/11/07/nar
+ madA~jayantI__info.toml<br/><br/>#OtherJayantis
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -30725,10 +30726,10 @@ SUMMARY:खोडियार माता जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210220T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210221T000000
 DESCRIPTION:Observed on Śukla-Aṣṭamī tithi of Māghaḥ (lunar) mont
- h (sunrise (default)/puurvaviddha (default)).<br/><br/>### References<br/>
- * http://hindupad.com/khodiyar-mata-jayanti/<br/><br/><br/>https://github.
- com/sanskrit-coders/adyatithi/tree/master/devatA/shakti/lunar_month/tithi/
- 11/08/khODiyAra~mAtA~jayantI__info.toml<br/><br/>#OtherJayantis
+ h (sunrise (default)/puurvaviddha (default)).<br/><br/>##### References<br
+ />- http://hindupad.com/khodiyar-mata-jayanti/<br/><br/><br/>https://githu
+ b.com/sanskrit-coders/adyatithi/tree/master/devatA/shakti/lunar_month/tith
+ i/11/08/khODiyAra~mAtA~jayantI__info.toml<br/><br/>#OtherJayantis
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -30938,11 +30939,11 @@ DESCRIPTION:Observed on Śukla-Daśamī tithi of Māghaḥ (lunar) month (
  nowledge of bhāṣyas etc.\, having got his (Sureśvara’s) responsibili
  ty and remaining in the Pīṭha there\, this Cidghana spent forty-five ye
  ars as if Śiva Himself had come there to grant liberation to those who se
- ek liberation. Revered by the wise\, Cidghana ...<br/><br/>### References<
- br/>* Punya Shloka Manjari<br/><br/><br/>https://github.com/sanskrit-coder
- s/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/11/10/k
- AJcI%2011%20jagadguru%20zrI~zivAnanda%20cidghanEndra%20sarasvatI%20ArAdhan
- A__info.toml<br/><br/>#KanchiAradhanaDays
+ ek liberation. Revered by the wise\, Cidghana ...<br/><br/>##### Reference
+ s<br/>- Punya Shloka Manjari<br/><br/><br/>https://github.com/sanskrit-cod
+ ers/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/11/10
+ /kAJcI%2011%20jagadguru%20zrI~zivAnanda%20cidghanEndra%20sarasvatI%20ArAdh
+ anA__info.toml<br/><br/>#KanchiAradhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -30958,11 +30959,11 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210223T000000
 DESCRIPTION:Observed on Śukla-Daśamī tithi of Māghaḥ (lunar) month (
  sunrise (default)/puurvaviddha (default)).<br/>साम्ब\, the son o
  f Sri Krishna\, was cured of leprosy after performing तपः to propiti
- ate Surya Bhagavan.<br/>### References<br/>* https://hindupad.com/samba-da
- shami-2009-samba-dasami-or-surya-puja-in-orissa/<br/><br/><br/>https://git
- hub.com/sanskrit-coders/adyatithi/tree/master/temples/Odisha/lunar_month/t
- ithi/11/10/sAmba-dazamI%20%28sUryapUjA%29__info.toml<br/><br/>#LessCommonF
- estivals #OdishaTempleFestivals
+ ate Surya Bhagavan.<br/>##### References<br/>- https://hindupad.com/samba-
+ dashami-2009-samba-dasami-or-surya-puja-in-orissa/<br/><br/><br/>https://g
+ ithub.com/sanskrit-coders/adyatithi/tree/master/temples/Odisha/lunar_month
+ /tithi/11/10/sAmba-dazamI%20%28sUryapUjA%29__info.toml<br/><br/>#LessCommo
+ nFestivals #OdishaTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -31229,10 +31230,10 @@ DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Māghaḥ (lunar) month
  ामास तपः कृत्वा सुदारुणम्॥<b
  r/>तिलतैलेन दीपाश्छ देयाह् द
  ेव गृहेषु च।<br/>निवेदयेत् तिल
- ानेव<br/><br/><br/>### References<br/>* Vaidikasri Feb 2016<br/><b
- r/><br/>https://github.com/sanskrit-coders/adyatithi/tree/master/general/l
- unar_month/tithi/11/12/tilapadma-dvAdazI%20or%20tilOtpatti__info.toml<br/>
- <br/>#SpecialPuja
+ ानेव<br/><br/><br/>##### References<br/>- Vaidikasri Feb 2016<br/>
+ <br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/master/general
+ /lunar_month/tithi/11/12/tilapadma-dvAdazI%20or%20tilOtpatti__info.toml<br
+ /><br/>#SpecialPuja
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -31500,10 +31501,10 @@ DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of Māghaḥ (lunar) m
  ing in the seat of the master\, engrossed in/attached to the worship of Lo
  rd Yogeśaand the goddess who dwells in the Cakrarāja\, He was surrounded
   by the eminent saints—Śrī Mādhava\, Bukka and Bhārati ...<br/><br/>
- ### References<br/>* Punya Shloka Manjari<br/><br/><br/>https://github.com
- /sanskrit-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_mont
- h/tithi/11/16/kAJcI%2051%20jagadguru%20zrI~vidyAtIrthEndra%20sarasvatI%20A
- rAdhanA__info.toml<br/><br/>#KanchiAradhanaDays
+ ##### References<br/>- Punya Shloka Manjari<br/><br/><br/>https://github.c
+ om/sanskrit-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_mo
+ nth/tithi/11/16/kAJcI%2051%20jagadguru%20zrI~vidyAtIrthEndra%20sarasvatI%2
+ 0ArAdhanA__info.toml<br/><br/>#KanchiAradhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -31572,10 +31573,10 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of Māghaḥ (lunar) month (p
  यम्\, when the Moon is still up\, on the full-moon days of आषा
  ढ\, कार्त्तिक\, माघ and वैशाख – henc
  e the name आ-का-मा-वै) bestows strength\, beauty\, fame\, dh
- arma\, knowledge\, happiness\, fortitude and health.<br/>### References<br
- />* Satyavrata Smriti<br/><br/><br/>https://github.com/sanskrit-coders/ady
- atithi/tree/master/general/lunar_month/tithi/11/15/mAgha-pUrNimA-snAnam__i
- nfo.toml<br/><br/>#SpecialSnanam
+ arma\, knowledge\, happiness\, fortitude and health.<br/>##### References<
+ br/>- Satyavrata Smriti<br/><br/><br/>https://github.com/sanskrit-coders/a
+ dyatithi/tree/master/general/lunar_month/tithi/11/15/mAgha-pUrNimA-snAnam_
+ _info.toml<br/><br/>#SpecialSnanam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -31885,11 +31886,11 @@ SUMMARY:यशोदा जयन्ती
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210304T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210305T000000
 DESCRIPTION:Observed on Kṛṣṇa-Ṣaṣṭhī tithi of Māghaḥ (luna
- r) month (sunrise (default)/puurvaviddha (default)).<br/><br/>### Referenc
- es<br/>* http://hindupad.com/mata-yashoda-jayanti/<br/><br/><br/>https://g
- ithub.com/sanskrit-coders/adyatithi/tree/master/devatA/vaiShNava/lunar_mon
- th/tithi/11/21/yazOdA~jayantI__info.toml<br/><br/>#OtherJayantis #CommonFe
- stivals
+ r) month (sunrise (default)/puurvaviddha (default)).<br/><br/>##### Refere
+ nces<br/>- http://hindupad.com/mata-yashoda-jayanti/<br/><br/><br/>https:/
+ /github.com/sanskrit-coders/adyatithi/tree/master/devatA/vaiShNava/lunar_m
+ onth/tithi/11/21/yazOdA~jayantI__info.toml<br/><br/>#OtherJayantis #Common
+ Festivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -31956,10 +31957,10 @@ SUMMARY:निक्षुभार्क-सप्तमी
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210305T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210306T000000
 DESCRIPTION:Observed on Kṛṣṇa-Saptamī tithi of Māghaḥ (lunar) mo
- nth (madhyaahna/puurvaviddha).<br/><br/>### References<br/>* Bhavisyat Pur
- ana<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/master
- /general/lunar_month/tithi/11/22/nikSubhArka-saptamI__info.toml<br/><br/>#
- SpecialVratam #LessCommonFestivals
+ nth (madhyaahna/puurvaviddha).<br/><br/>##### References<br/>- Bhavisyat P
+ urana<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/mast
+ er/general/lunar_month/tithi/11/22/nikSubhArka-saptamI__info.toml<br/><br/
+ >#SpecialVratam #LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -32033,11 +32034,11 @@ DESCRIPTION:Observed on Kṛṣṇa-Aṣṭamī tithi of Māghaḥ (lunar)
  ghth day of the black fortnight in the month of Māgha of the year Parābh
  ava. The name of this preceptor before initiation was Svāminātha. Parent
  s were well-known Maṅgalāmbikā and Sītārāmaśāstri. His place of s
- iddhi was village Kalavai in Śalivahana era ...<br/><br/>### References<b
- r/>* Punya Shloka Manjari<br/><br/><br/>https://github.com/sanskrit-coders
- /adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/11/23/kA
- JcI%2066%20jagadguru%20zrI~candrazEkharEndra%20sarasvatI%206%20ArAdhanA__i
- nfo.toml<br/><br/>#KanchiAradhanaDays #CommonFestivals
+ iddhi was village Kalavai in Śalivahana era ...<br/><br/>##### References
+ <br/>- Punya Shloka Manjari<br/><br/><br/>https://github.com/sanskrit-code
+ rs/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/11/23/
+ kAJcI%2066%20jagadguru%20zrI~candrazEkharEndra%20sarasvatI%206%20ArAdhanA_
+ _info.toml<br/><br/>#KanchiAradhanaDays #CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -32535,10 +32536,10 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210313T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210314T000000
 DESCRIPTION:Observed on Amāvāsyā tithi of Māghaḥ (lunar) month (apar
  aahna/vyaapti).<br/>Perform समुद्रस्नानम् and 
- श्राद्धम्.<br/>### References<br/>* Vaidyanātha-Dīkṣ
- itīyam<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree/ma
- ster/time_focus/yugAdiH/lunar_month/tithi/11/30/kaliyugAdiH__info.toml<br/
- ><br/>#YugadiDays
+ श्राद्धम्.<br/>##### References<br/>- Vaidyanātha-Dīk
+ ṣitīyam<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/tree
+ /master/time_focus/yugAdiH/lunar_month/tithi/11/30/kaliyugAdiH__info.toml<
+ br/><br/>#YugadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -32568,10 +32569,10 @@ SUMMARY:माघ-स्नानपूर्तिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210313T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210314T000000
 DESCRIPTION:Observed on Amāvāsyā tithi of Māghaḥ (lunar) month (sunr
- ise (default)/puurvaviddha (default)).<br/><br/>### References<br/>* Vaidi
- kasri Feb 2017<br/><br/><br/>https://github.com/sanskrit-coders/adyatithi/
- tree/master/time_focus/misc/lunar_month/tithi/11/30/mAgha-snAnapUrtiH__inf
- o.toml<br/><br/>#SpecialSnanam
+ ise (default)/puurvaviddha (default)).<br/><br/>##### References<br/>- Vai
+ dikasri Feb 2017<br/><br/><br/>https://github.com/sanskrit-coders/adyatith
+ i/tree/master/time_focus/misc/lunar_month/tithi/11/30/mAgha-snAnapUrtiH__i
+ nfo.toml<br/><br/>#SpecialSnanam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -32686,11 +32687,11 @@ DESCRIPTION:Observed on Śukla-Prathamā tithi of Phālgunaḥ (lunar) mon
  hālguna month in the year Parābhava. The name of this preceptor before i
  nitiation was Lakṣminārāyaṇa. His father was well-known as Narasimha
  śāstri. This preceptor was well-versed in Ṛgveda. His place of sidhi w
- as Kalavai village in Śalivahana era ...<br/><br/>### References<br/>* Pu
- nya Shloka Manjari<br/><br/><br/>https://github.com/sanskrit-coders/adyati
- thi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/12/01/kAJcI%206
- 7%20jagadguru%20zrI~mahAdEvEndra%20sarasvatI%205%20ArAdhanA__info.toml<br/
- ><br/>#KanchiAradhanaDays #CommonFestivals
+ as Kalavai village in Śalivahana era ...<br/><br/>##### References<br/>- 
+ Punya Shloka Manjari<br/><br/><br/>https://github.com/sanskrit-coders/adya
+ tithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/12/01/kAJcI%2
+ 067%20jagadguru%20zrI~mahAdEvEndra%20sarasvatI%205%20ArAdhanA__info.toml<b
+ r/><br/>#KanchiAradhanaDays #CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE

@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20201130130938
+SEQUENCE:20201130191126
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -40,32 +40,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:विजया/श्रवण-महाद्वादशी
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200320T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200321T000000
-DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:व्यञ्जुली महाद्वादशी
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200320T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200321T000000
-DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:चैत्रः-01-27\,कुम्भः-श्रविष्
  ठा🌛🌌◢◣मीनः-12-08🌌🌞◢◣मधुः-01-02🪐
  🌞
@@ -95,19 +69,6 @@ DESCRIPTION:___________________\n- 🪐🌞**सायनमानम्**
  ककालः**—06:26-07:56  \n___________________\n- **शूलम
  ्**—प्राची दिक् (►09:38)\; **परिहार
  ः**–दधि  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:शनि-प्रदोष-व्रतम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200321T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200322T000000
-DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -267,19 +228,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:चन्द्र-दर्शनम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200325T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200326T000000
-DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:वैशाखः-02-02\,मीनः-रेवती🌛🌌◢
  ◣मीनः-12-13🌌🌞◢◣मधुः-01-07🪐🌞
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200326T062312
@@ -308,19 +256,6 @@ DESCRIPTION:___________________\n- 🪐🌞**सायनमानम्**
  *—09:24-10:54  \n___________________\n- **शूलम्**—दक्
  षिणा दिक् (►14:26)\; **परिहारः**–तै
  लम्  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:चन्द्र-दर्शनम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200326T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200327T000000
-DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -469,19 +404,6 @@ DESCRIPTION:___________________\n- 🪐🌞**सायनमानम्**
  24\; **गुलिककालः**—13:55-15:25  \n___________________\
  n- **शूलम्**—प्राची दिक् (►09:34)\; **
  परिहारः**–दधि  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:षष्ठी-व्रतम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200330T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200331T000000
-DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -718,19 +640,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:सर्व-मोहिनी-एकादशी
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200404T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200405T000000
-DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:वैशाखः-02-12\,सिंहः-मघा🌛🌌◢◣
  मीनः-12-23🌌🌞◢◣मधुः-01-17🪐🌞
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200405T061638
@@ -760,29 +669,6 @@ DESCRIPTION:___________________\n- 🪐🌞**सायनमानम्**
   \n___________________\n- **शूलम्**—प्रतीची द
  िक् (►11:09)\; **परिहारः**–गुडम्  \n____
  _______________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:हरिवासरः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200405T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200405T034724
-DESCRIPTION:
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:प्रदोष-व्रतम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200405T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200406T000000
-DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1010,20 +896,6 @@ DESCRIPTION:___________________\n- 🪐🌞**सायनमानम्**
  3:52-15:24\; **गुलिककालः**—06:12-07:44  \n____________
  _______\n- **शूलम्**—प्राची दिक् (►09:29
  )\; **परिहारः**–दधि  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:एकदन्त-महागणपति सङ्कटहर-
- चतुर्थी-व्रतम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200411T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200412T000000
-DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1334,19 +1206,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:सर्व-अपरा-एकादशी
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200418T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200419T000000
-DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:वैशाखः-02-27\,कुम्भः-पूर्वप्
  रोष्ठपदा🌛🌌◢◣मेषः-01-06🌌🌞◢◣म
  धुः-01-31🪐🌞
@@ -1376,29 +1235,6 @@ DESCRIPTION:___________________\n- 🪐🌞**सायनमानम्**
  *—15:24-16:56  \n___________________\n- **शूलम्**—प्र
  तीची दिक् (►11:04)\; **परिहारः**–गु
  डम्  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:हरिवासरः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200419T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200419T045331
-DESCRIPTION:
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:पक्षवर्धिनी महाद्वादशी
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200419T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200420T000000
-DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1438,19 +1274,6 @@ DESCRIPTION:___________________\n- 🪐🌞**सायनमानम्**
  *—13:51-15:24  \n___________________\n- **शूलम्**—प्र
  ाची दिक् (►09:25)\; **परिहारः**–दधि 
   \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:सोम-प्रदोष-व्रतम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200420T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200421T000000
-DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1615,19 +1438,6 @@ DESCRIPTION:___________________\n- 🪐🌞**सायनमानम्**
  ककालः**—07:38-09:11  \n___________________\n- **शूलम
  ्**—प्रतीची दिक् (►11:03)\; **परिहा
  रः**–गुडम्  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:चन्द्र-दर्शनम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200424T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200425T000000
-DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1853,19 +1663,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:षष्ठी-व्रतम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200429T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200430T000000
-DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:ज्यैष्ठः-03-07\,कटकः-पुष्यः
  🌛🌌◢◣मेषः-01-17🌌🌞◢◣माधवः-02-11🪐
  🌞
@@ -2030,20 +1827,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:स्मार्त-पाण्डव-निर्जला-ए
- कादशी (गृहस्थ)
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200503T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200504T000000
-DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:ज्यैष्ठः-03-11\,कन्या-उत्तरफ
  ल्गुनी🌛🌌◢◣मेषः-01-21🌌🌞◢◣माध
  वः-02-15🪐🌞
@@ -2097,57 +1880,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:हरिवासरः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200504T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200504T112513
-DESCRIPTION:
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:स्मार्त-पाण्डव-निर्जला-ए
- कादशी (सन्न्यस्थ)
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200504T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200505T000000
-DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:त्रिस्पर्शा महाद्वादशी
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200504T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200505T000000
-DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:वैष्णव-पाण्डव-निर्जला-एक
- ादशी
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200504T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200505T000000
-DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:ज्यैष्ठः-03-13\,कन्या-हस्तः
  🌛🌌◢◣मेषः-01-22🌌🌞◢◣माधवः-02-16🪐
  🌞
@@ -2177,19 +1909,6 @@ DESCRIPTION:___________________\n- 🪐🌞**सायनमानम्**
  ः**—12:16-13:50  \n___________________\n- **शूलम्**—उद
  ीची दिक् (►11:01)\; **परिहारः**–क्ष
  ीरम्  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:प्रदोष-व्रतम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200505T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200506T000000
-DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2379,20 +2098,6 @@ DESCRIPTION:___________________\n- 🪐🌞**सायनमानम्**
  50\; **गुलिककालः**—15:24-16:58  \n___________________\
  n- **शूलम्**—प्रतीची दिक् (►11:00)\; *
  *परिहारः**–गुडम्  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:कृष्णपिङ्गल-महागणपति सङ
- ्कटहर-चतुर्थी-व्रतम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200510T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200511T000000
-DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2707,29 +2412,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:हरिवासरः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200518T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200518T214525
-DESCRIPTION:
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:सर्व-योगिनी-एकादशी
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200518T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200519T000000
-DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:ज्यैष्ठः-03-27\,मीनः-रेवती🌛
  🌌◢◣वृषभः-02-06🌌🌞◢◣माधवः-02-30🪐🌞
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200519T055658
@@ -2758,19 +2440,6 @@ DESCRIPTION:___________________\n- 🪐🌞**सायनमानम्**
  13:51  \n___________________\n- **शूलम्**—उदीची द
  िक् (►11:00)\; **परिहारः**–क्षीरम्  
  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:प्रदोष-व्रतम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200519T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200520T000000
-DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2809,19 +2478,6 @@ DESCRIPTION:___________________\n- 🪐🌞**सायनमानम्**
  12:16  \n___________________\n- **शूलम्**—उदीची द
  िक् (►12:41)\; **परिहारः**–क्षीरम्  
  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:प्रदोष-व्रतम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200520T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200521T000000
-DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2986,19 +2642,6 @@ DESCRIPTION:___________________\n- 🪐🌞**सायनमानम्**
  51\; **गुलिककालः**—15:26-17:01  \n___________________\
  n- **शूलम्**—प्रतीची दिक् (►11:00)\; *
  *परिहारः**–गुडम्  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:चन्द्र-दर्शनम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200524T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200525T000000
-DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3237,19 +2880,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:कुमार-षष्ठी-व्रतम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200528T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200529T000000
-DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:आषाढः-04-07\,कटकः-आश्रेषा🌛🌌
  ◢◣वृषभः-02-16🌌🌞◢◣शुक्रः-03-09🪐🌞
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200529T055557
@@ -3436,29 +3066,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:हरिवासरः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200602T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200602T172025
-DESCRIPTION:
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:सर्व-शयन-एकादशी
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200602T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200603T000000
-DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:आषाढः-04-12\,तुला-स्वाती🌛🌌◢
  ◣वृषभः-02-21🌌🌞◢◣शुक्रः-03-14🪐🌞
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200603T055558
@@ -3487,19 +3094,6 @@ DESCRIPTION:___________________\n- 🪐🌞**सायनमानम्**
  ; **गुलिककालः**—10:42-12:17  \n___________________\n- 
  **शूलम्**—उदीची दिक् (►12:43)\; **पर
  िहारः**–क्षीरम्  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:प्रदोष-व्रतम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200603T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200604T000000
-DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3689,20 +3283,6 @@ DESCRIPTION:___________________\n- 🪐🌞**सायनमानम्**
  *गुलिककालः**—13:54-15:30  \n___________________\n- **
  शूलम्**—प्राची दिक् (►09:20)\; **पर
  िहारः**–दधि  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:गजानन-महागणपति सङ्कटहर-च
- तुर्थी-व्रतम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200608T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200609T000000
-DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4077,42 +3657,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:हरिवासरः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200617T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200617T142015
-DESCRIPTION:
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:सर्व-कामिका-एकादशी
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200617T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200618T000000
-DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:उन्मीलनी महाद्वादशी
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200617T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200618T000000
-DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:आषाढः-04-27\,मेषः-अपभरणी🌛🌌◢
  ◣मिथुनम्-03-04🌌🌞◢◣शुक्रः-03-29🪐
  🌞
@@ -4142,19 +3686,6 @@ DESCRIPTION:___________________\n- 🪐🌞**सायनमानम्**
  लः**—09:09-10:45  \n___________________\n- **शूलम्**—द
  क्षिणा दिक् (►14:28)\; **परिहारः**–
  तैलम्  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:प्रदोष-व्रतम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200618T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200619T000000
-DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4339,19 +3870,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:चन्द्र-दर्शनम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200622T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200623T000000
-DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:श्रावणः-05-02\,मिथुनम्-पुनर्
  वसुः🌛🌌◢◣मिथुनम्-03-09🌌🌞◢◣शु
  चिः-04-03🪐🌞
@@ -4495,19 +4013,6 @@ DESCRIPTION:___________________\n- 🪐🌞**सायनमानम्**
  गुलिककालः**—07:35-09:11  \n___________________\n- **
  शूलम्**—प्रतीची दिक् (►11:06)\; **प
  रिहारः**–गुडम्  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:षष्ठी-व्रतम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200626T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200627T000000
-DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4735,29 +4240,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:हरिवासरः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200701T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200701T225547
-DESCRIPTION:
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:सर्व-पवित्रोपान-एकादशी
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200701T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200702T000000
-DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:श्रावणः-05-12\,वृश्चिकः-अनूर
  ाधा🌛🌌◢◣मिथुनम्-03-18🌌🌞◢◣शुच
  िः-04-12🪐🌞
@@ -4788,19 +4270,6 @@ DESCRIPTION:___________________\n- 🪐🌞**सायनमानम्**
  10:48  \n___________________\n- **शूलम्**—दक्षिण
  ा दिक् (►14:31)\; **परिहारः**–तैलम् 
   \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:प्रदोष-व्रतम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200702T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200703T000000
-DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5115,34 +4584,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:हेरम्ब-महागणपति महासङ्क
- टहर-चतुर्थी-व्रतम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200708T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200709T000000
-DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:हेरम्ब-महागणपति सङ्कटहर-
- चतुर्थी-व्रतम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200708T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200709T000000
-DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:श्रावणः-05-19\,कुम्भः-शतभिषक
  ्🌛🌌◢◣मिथुनम्-03-25🌌🌞◢◣शुचिः-
  04-19🪐🌞
@@ -5288,19 +4729,6 @@ DESCRIPTION:___________________\n- 🪐🌞**सायनमानम्**
  *गुलिककालः**—15:36-17:11  \n___________________\n- **
  शूलम्**—प्रतीची दिक् (►11:09)\; **प
  रिहारः**–गुडम्  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:भानुसप्तमी
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200712T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200713T000000
-DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5474,19 +4902,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:सर्व-अजा-एकादशी
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200716T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200717T000000
-DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:श्रावणः-05-27\,वृषभः-रोहिणी
  🌛🌌◢◣कटकः-04-02🌌🌞◢◣शुचिः-04-27🪐
  🌞
@@ -5538,29 +4953,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:हरिवासरः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200717T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200717T060105
-DESCRIPTION:
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:पापनाशिनी महाद्वादशी
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200717T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200718T000000
-DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:श्रावणः-05-28\,वृषभः-मृगशीर्
  षम्🌛🌌◢◣कटकः-04-03🌌🌞◢◣शुचिः-04-
  28🪐🌞
@@ -5591,19 +4983,6 @@ DESCRIPTION:___________________\n- 🪐🌞**सायनमानम्**
  07:40  \n___________________\n- **शूलम्**—प्राची 
  दिक् (►09:28)\; **परिहारः**–दधि  \n_______
  ____________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:शनि-प्रदोष-व्रतम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200718T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200719T000000
-DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5690,19 +5069,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:सोमवती अमावास्या
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200720T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200721T000000
-DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:भाद्रपदः-06-01\,कटकः-पुष्यः
  🌛🌌◢◣कटकः-04-06🌌🌞◢◣शुचिः-04-31🪐
  🌞
@@ -5769,19 +5135,6 @@ DESCRIPTION:___________________\n- 🪐🌞**सायनमानम्**
  ककालः**—10:51-12:26  \n___________________\n- **शूलम
  ्**—उदीची दिक् (►12:51)\; **परिहारः*
  *–क्षीरम्  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:चन्द्र-दर्शनम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200722T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200723T000000
-DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5910,19 +5263,6 @@ DESCRIPTION:___________________\n- 🪐🌞**सायनमानम्**
  लिककालः**—06:07-07:42  \n___________________\n- **शू
  लम्**—प्राची दिक् (►09:29)\; **परिह
  ारः**–दधि  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:षष्ठीदेवी-षष्ठी-व्रतम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200725T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200726T000000
-DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6146,19 +5486,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:सर्व-परिवर्तिनी-एकादशी
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200730T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200731T000000
-DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:भाद्रपदः-06-12\,वृश्चिकः-ज्य
  ेष्ठा🌛🌌◢◣कटकः-04-16🌌🌞◢◣नभः-05-
  10🪐🌞
@@ -6210,16 +5537,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:हरिवासरः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200731T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200731T053137
-DESCRIPTION:
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:भाद्रपदः-06-13\,धनुः-मूला🌛🌌
  ◢◣कटकः-04-17🌌🌞◢◣नभः-05-11🪐🌞
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200801T060847
@@ -6248,19 +5565,6 @@ DESCRIPTION:___________________\n- 🪐🌞**सायनमानम्**
  ; **गुलिककालः**—06:08-07:43  \n___________________\n- 
  **शूलम्**—प्राची दिक् (►09:29)\; **प
  रिहारः**–दधि  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:शनि-प्रदोष-व्रतम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200801T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200802T000000
-DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6515,20 +5819,6 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:आडि वॆळ्ळिक्किऴमै
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200807T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200808T000000
-DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:विघ्नराज-महागणपति सङ्कट
- हर-चतुर्थी-व्रतम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200807T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200808T000000
 DESCRIPTION:
@@ -6865,29 +6155,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:हरिवासरः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200815T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200815T201736
-DESCRIPTION:
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:सर्व-इन्दिरा-एकादशी
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200815T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200816T000000
-DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:भाद्रपदः-06-27\,मिथुनम्-आर्द
  ्रा🌛🌌◢◣कटकः-04-32🌌🌞◢◣नभः-05-26🪐
  🌞
@@ -6918,19 +6185,6 @@ DESCRIPTION:___________________\n- 🪐🌞**सायनमानम्**
  17:03  \n___________________\n- **शूलम्**—प्रतीच
  ी दिक् (►11:09)\; **परिहारः**–गुडम् 
   \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:प्रदोष-व्रतम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200816T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200817T000000
-DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -7097,19 +6351,6 @@ DESCRIPTION:___________________\n- 🪐🌞**सायनमानम्**
  44\; **गुलिककालः**—09:17-10:50  \n___________________\
  n- **शूलम्**—दक्षिणा दिक् (►14:26)\; *
  *परिहारः**–तैलम्  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:चन्द्र-दर्शनम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200820T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200821T000000
-DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -7290,19 +6531,6 @@ DESCRIPTION:___________________\n- 🪐🌞**सायनमानम्**
  26  \n___________________\n- **शूलम्**—प्राची द
  िक् (►09:29)\; **परिहारः**–दधि  \n__________
  _________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:षष्ठी-व्रतम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200824T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200825T000000
-DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -7527,29 +6755,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:हरिवासरः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200829T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200829T141641
-DESCRIPTION:
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:सर्व-पापाङ्कुशा-एकादशी
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200829T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200830T000000
-DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:आश्वयुजः-07-12\,मकरः-उत्तराष
  ाढा🌛🌌◢◣सिंहः-05-14🌌🌞◢◣नभस्य
  ः-06-08🪐🌞
@@ -7589,19 +6794,6 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:आवणि ञायिऱ्ऱुक्किऴमै
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200830T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200831T000000
-DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:प्रदोष-व्रतम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200830T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200831T000000
 DESCRIPTION:
@@ -7846,20 +7038,6 @@ DESCRIPTION:___________________\n- 🪐🌞**सायनमानम्**
  —06:12-07:43  \n___________________\n- **शूलम्**—प्र
  ाची दिक् (►09:27)\; **परिहारः**–दधि 
   \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:वक्रतुण्ड-महागणपति सङ्क
- टहर-चतुर्थी-व्रतम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200905T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200906T000000
-DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8210,19 +7388,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:सर्व-रमा-एकादशी
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200913T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200914T000000
-DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:आश्वयुजः-07-27\,कटकः-पुष्यः
  🌛🌌◢◣सिंहः-05-29🌌🌞◢◣नभस्यः-06-23
  🪐🌞
@@ -8261,29 +7426,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:हरिवासरः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200914T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200914T085431
-DESCRIPTION:
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:जया महाद्वादशी
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200914T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200915T000000
-DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:आश्वयुजः-07-28\,कटकः-आश्रेषा
  🌛🌌◢◣सिंहः-05-30🌌🌞◢◣नभस्यः-06-24
  🪐🌞
@@ -8313,19 +7455,6 @@ DESCRIPTION:___________________\n- 🪐🌞**सायनमानम्**
   \n___________________\n- **शूलम्**—उदीची दिक
  ् (►11:02)\; **परिहारः**–क्षीरम्  \n____
  _______________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:प्रदोष-व्रतम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200915T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200916T000000
-DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8441,19 +7570,6 @@ DESCRIPTION:___________________\n- 🪐🌞**सायनमानम्**
  14-16:44\; **गुलिककालः**—07:42-09:12  \n______________
  _____\n- **शूलम्**—प्रतीची दिक् (►11:0
  1)\; **परिहारः**–गुडम्  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:चन्द्र-दर्शनम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200918T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200919T000000
-DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8633,19 +7749,6 @@ DESCRIPTION:___________________\n- 🪐🌞**सायनमानम्**
  कालः**—12:12-13:42  \n___________________\n- **शूलम्**
  —उदीची दिक् (►11:00)\; **परिहारः**–
  क्षीरम्  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:स्कन्दषष्ठी-व्रतम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200922T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200923T000000
-DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8857,19 +7960,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:सर्व-उत्थान-एकादशी
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200927T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200928T000000
-DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:कार्त्तिकः-08-12\,मकरः-श्रवि
  ष्ठा🌛🌌◢◣कन्या-06-12🌌🌞◢◣इषः-07-
  06🪐🌞
@@ -8902,16 +7992,6 @@ DESCRIPTION:___________________\n- 🪐🌞**सायनमानम्**
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:हरिवासरः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200928T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200928T020239
-DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -8960,19 +8040,6 @@ DESCRIPTION:___________________\n- 🪐🌞**सायनमानम्**
  गुलिककालः**—12:09-13:39  \n___________________\n- **
  शूलम्**—उदीची दिक् (►10:58)\; **परि
  हारः**–क्षीरम्  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:प्रदोष-व्रतम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200929T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200930T000000
-DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9225,20 +8292,6 @@ DESCRIPTION:___________________\n- 🪐🌞**सायनमानम्**
  *—13:36-15:05  \n___________________\n- **शूलम्**—प्र
  ाची दिक् (►09:22)\; **परिहारः**–दधि 
   \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:गणाधिप-महागणपति सङ्कटहर-
- चतुर्थी-व्रतम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201005T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201006T000000
-DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9616,29 +8669,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:हरिवासरः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201013T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201013T195840
-DESCRIPTION:
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:सर्व-उत्पन्ना-एकादशी
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201013T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201014T000000
-DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:कार्त्तिकः-08-27\,सिंहः-पूर्
  वफल्गुनी🌛🌌◢◣कन्या-06-28🌌🌞◢◣
  इषः-07-22🪐🌞
@@ -9668,19 +8698,6 @@ DESCRIPTION:___________________\n- 🪐🌞**सायनमानम्**
  09:09\; **गुलिककालः**—10:37-12:05  \n_________________
  __\n- **शूलम्**—उदीची दिक् (►12:29)\; **
  परिहारः**–क्षीरम्  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:प्रदोष-व्रतम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201014T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201015T000000
-DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9845,19 +8862,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:चन्द्र-दर्शनम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201018T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201019T000000
-DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:मार्गशीर्षः-09-03\,वृश्चिकः-
  अनूराधा🌛🌌◢◣तुला-07-03🌌🌞◢◣इष
  ः-07-27🪐🌞
@@ -9975,20 +8979,6 @@ DESCRIPTION:___________________\n- 🪐🌞**सायनमानम्**
  09\; **गुलिककालः**—10:36-12:04  \n___________________\
  n- **शूलम्**—उदीची दिक् (►12:27)\; **प
  रिहारः**–क्षीरम्  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:सुब्रह्मण्य-षष्ठी-व्रतम
- ्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201021T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201022T000000
-DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10239,29 +9229,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:हरिवासरः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201027T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201027T171710
-DESCRIPTION:
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:सर्व-मोक्षदा-एकादशी
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201027T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201028T000000
-DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:मार्गशीर्षः-09-12\,मीनः-पूर्
  वप्रोष्ठपदा🌛🌌◢◣तुला-07-12🌌🌞
  ◢◣ऊर्जः-08-06🪐🌞
@@ -10292,19 +9259,6 @@ DESCRIPTION:___________________\n- 🪐🌞**सायनमानम्**
  ः**—10:36-12:03  \n___________________\n- **शूलम्**—उद
  ीची दिक् (►12:26)\; **परिहारः**–क्ष
  ीरम्  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:प्रदोष-व्रतम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201028T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201029T000000
-DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10446,9 +9400,9 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201031T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201101T000000
 DESCRIPTION:Observed on Paurṇamāsī tithi of Tulā (solar) month (sunri
  se/puurvaviddha).<br/>Perform होम with fresh rice from paddy.<br/>##
- # References<br/>* Vaidikasri Nov 2017<br/><br/><br/>https://github.com/sa
- nskrit-coders/adyatithi/tree/master/gRhya/general/sidereal_solar_month/tit
- hi/07/15/AgrayaNa~hOmaH~draviDadeshe~1__info.toml<br/><br/>#SpecialPuja
+ ### References<br/>- Vaidikasri Nov 2017<br/><br/><br/>https://github.com/
+ sanskrit-coders/adyatithi/tree/master/gRhya/general/sidereal_solar_month/t
+ ithi/07/15/AgrayaNa~hOmaH~draviDadeshe~1__info.toml<br/><br/>#SpecialPuja
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10628,20 +9582,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:आखुरथ-महागणपति सङ्कटहर-च
- तुर्थी-व्रतम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201104T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201105T000000
-DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:मार्गशीर्षः-09-20\,मिथुनम्-आ
  र्द्रा🌛🌌◢◣तुला-07-20🌌🌞◢◣ऊर्
  जः-08-14🪐🌞
@@ -10784,19 +9724,6 @@ DESCRIPTION:___________________\n- 🪐🌞**सायनमानम्**
  16:21  \n___________________\n- **शूलम्**—प्रतीच
  ी दिक् (►10:54)\; **परिहारः**–गुडम् 
   \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:भानुसप्तमी
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201108T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201109T000000
-DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10949,19 +9876,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:सर्व-सफला-एकादशी
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201111T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201112T000000
-DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:मार्गशीर्षः-09-27\,कन्या-हस्
  तः🌛🌌◢◣तुला-07-27🌌🌞◢◣ऊर्जः-08-21
  🪐🌞
@@ -11000,16 +9914,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:हरिवासरः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201112T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201112T055602
-DESCRIPTION:
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:मार्गशीर्षः-09-28\,कन्या-चित
  ्रा🌛🌌◢◣तुला-07-28🌌🌞◢◣ऊर्जः-08-
  22🪐🌞
@@ -11040,19 +9944,6 @@ DESCRIPTION:___________________\n- 🪐🌞**सायनमानम्**
  _______\n- **शूलम्**—प्रतीची दिक् (►10
  :55)\; **परिहारः**–गुडम्  \n___________________\
  n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:प्रदोष-व्रतम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201113T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201114T000000
-DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11143,10 +10034,10 @@ SUMMARY:आग्रयण होमः द्राविडेषु
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201115T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201116T000000
 DESCRIPTION:Observed on Amāvāsyā tithi of Tulā (solar) month (sunrise/
- puurvaviddha).<br/>Perform होम with fresh rice from paddy.<br/>### R
- eferences<br/>* Vaidikasri Nov 2017<br/><br/><br/>https://github.com/sansk
- rit-coders/adyatithi/tree/master/gRhya/general/sidereal_solar_month/tithi/
- 07/30/AgrayaNa~hOmaH~draviDadeshe~2__info.toml<br/><br/>#SpecialPuja
+ puurvaviddha).<br/>Perform होम with fresh rice from paddy.<br/>#####
+  References<br/>- Vaidikasri Nov 2017<br/><br/><br/>https://github.com/san
+ skrit-coders/adyatithi/tree/master/gRhya/general/sidereal_solar_month/tith
+ i/07/30/AgrayaNa~hOmaH~draviDadeshe~2__info.toml<br/><br/>#SpecialPuja
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11186,19 +10077,6 @@ DESCRIPTION:___________________\n- 🪐🌞**सायनमानम्**
  कालः**—13:29-14:55  \n___________________\n- **शूलम्**
  —प्राची दिक् (►09:24)\; **परिहारः**
  –दधि  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:चन्द्र-दर्शनम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201116T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201117T000000
-DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11376,19 +10254,6 @@ DESCRIPTION:___________________\n- 🪐🌞**सायनमानम्**
  ___________\n- **शूलम्**—प्रतीची दिक् (
  ►10:57)\; **परिहारः**–गुडम्  \n_______________
  ____\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:षष्ठी-व्रतम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201120T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201121T000000
-DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11627,19 +10492,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:स्मार्त-पुत्रदा-एकादशी
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201125T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201126T000000
-DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:पौषः-10-12\,मीनः-रेवती🌛🌌◢◣व
  ृश्चिकः-08-11🌌🌞◢◣सहः-09-05🪐🌞
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201126T062723
@@ -11667,68 +10519,6 @@ DESCRIPTION:___________________\n- 🪐🌞**सायनमानम्**
  *—09:17-10:42  \n___________________\n- **शूलम्**—दक्
  षिणा दिक् (►14:00)\; **परिहारः**–तै
  लम्  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:गुरुवायुपुर-एकादशी
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201126T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201127T000000
-DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:हरिवासरः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201126T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201126T114928
-DESCRIPTION:
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:कैशिक-एकादशी
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201126T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201127T000000
-DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:वैष्णव-पुत्रदा-एकादशी
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201126T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201127T000000
-DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:व्यञ्जुली महाद्वादशी
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201126T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201127T000000
-DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11766,19 +10556,6 @@ DESCRIPTION:___________________\n- 🪐🌞**सायनमानम्**
  ुलिककालः**—07:52-09:17  \n___________________\n- **श
  ूलम्**—प्रतीची दिक् (►10:59)\; **पर
  िहारः**–गुडम्  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:प्रदोष-व्रतम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201127T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201128T000000
-DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11917,10 +10694,10 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201130T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201201T000000
 DESCRIPTION:Observed on Paurṇamāsī tithi of Vṛścikaḥ (solar) mont
  h (sunrise/puurvaviddha).<br/>Perform होम with fresh rice from paddy
- .<br/>### References<br/>* Vaidikasri Nov 2017<br/><br/><br/>https://githu
- b.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/sidereal_solar_m
- onth/tithi/08/15/AgrayaNa~hOmaH~draviDadeshe~3__info.toml<br/><br/>#Specia
- lPuja
+ .<br/>##### References<br/>- Vaidikasri Nov 2017<br/><br/><br/>https://git
+ hub.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/sidereal_solar
+ _month/tithi/08/15/AgrayaNa~hOmaH~draviDadeshe~3__info.toml<br/><br/>#Spec
+ ialPuja
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12060,20 +10837,6 @@ DESCRIPTION:___________________\n- 🪐🌞**सायनमानम्**
  ककालः**—09:20-10:44  \n___________________\n- **शूलम
  ्**—दक्षिणा दिक् (►14:02)\; **परिहा
  रः**–तैलम्  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:लम्बोदर-महागणपति सङ्कटह
- र-चतुर्थी-व्रतम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201203T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201204T000000
-DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12396,29 +11159,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:हरिवासरः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201211T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201211T152005
-DESCRIPTION:
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:सर्व-षट्तिला-एकादशी
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201211T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201212T000000
-DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:पौषः-10-27\,तुला-विशाखा🌛🌌◢◣
  वृश्चिकः-08-27🌌🌞◢◣सहः-09-21🪐🌞
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201212T063605
@@ -12448,19 +11188,6 @@ DESCRIPTION:___________________\n- 🪐🌞**सायनमानम्**
  15:02\; **गुलिककालः**—06:36-08:00  \n_________________
  __\n- **शूलम्**—प्राची दिक् (►09:36)\; *
  *परिहारः**–दधि  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:शनि-प्रदोष-व्रतम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201212T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201213T000000
-DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12566,23 +11293,10 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201214T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201215T000000
 DESCRIPTION:Observed on Amāvāsyā tithi of Vṛścikaḥ (solar) month (
  sunrise/puurvaviddha).<br/>Perform होम with fresh rice from paddy.<b
- r/>### References<br/>* Vaidikasri Nov 2017<br/><br/><br/>https://github.c
- om/sanskrit-coders/adyatithi/tree/master/gRhya/general/sidereal_solar_mont
- h/tithi/08/30/AgrayaNa~hOmaH~draviDadeshe~4__info.toml<br/><br/>#SpecialPu
- ja
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:सोमवती अमावास्या
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201214T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201215T000000
-DESCRIPTION:
+ r/>##### References<br/>- Vaidikasri Nov 2017<br/><br/><br/>https://github
+ .com/sanskrit-coders/adyatithi/tree/master/gRhya/general/sidereal_solar_mo
+ nth/tithi/08/30/AgrayaNa~hOmaH~draviDadeshe~4__info.toml<br/><br/>#Special
+ Puja
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12657,19 +11371,6 @@ DESCRIPTION:___________________\n- 🪐🌞**सायनमानम्**
  26\; **गुलिककालः**—10:51-12:15  \n___________________\
  n- **शूलम्**—उदीची दिक् (►12:37)\; **प
  रिहारः**–क्षीरम्  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:चन्द्र-दर्शनम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201216T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201217T000000
-DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12831,19 +11532,6 @@ DESCRIPTION:___________________\n- 🪐🌞**सायनमानम्**
  *गुलिककालः**—15:05-16:30  \n___________________\n- **
  शूलम्**—प्रतीची दिक् (►11:09)\; **प
  रिहारः**–गुडम्  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:षष्ठी-व्रतम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201220T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201221T000000
-DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13040,32 +11728,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:सर्व-पुत्रदा-एकादशी
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201225T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201226T000000
-DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:सर्व-वैकुण्ठ-एकादशी
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201225T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201226T000000
-DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:पौषः-10-12\,मेषः-अपभरणी🌛🌌◢◣
  धनुः-09-11🌌🌞◢◣सहस्यः-10-06🪐🌞
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201226T064314
@@ -13103,16 +11765,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:हरिवासरः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201226T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201226T083221
-DESCRIPTION:
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:पौषः-10-13\,वृषभः-कृत्तिका🌛
  🌌◢◣धनुः-09-12🌌🌞◢◣सहस्यः-10-07🪐🌞
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201227T064341
@@ -13141,19 +11793,6 @@ DESCRIPTION:___________________\n- 🪐🌞**सायनमानम्**
  लः**—15:09-16:33  \n___________________\n- **शूलम्**—प
  ्रतीची दिक् (►11:13)\; **परिहारः**–
  गुडम्  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:प्रदोष-व्रतम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201227T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201228T000000
-DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13404,20 +12043,6 @@ DESCRIPTION:___________________\n- 🪐🌞**सायनमानम्**
  —06:46-08:10  \n___________________\n- **शूलम्**—प्र
  ाची दिक् (►09:46)\; **परिहारः**–दधि 
   \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:लम्बोदर-महागणपति सङ्कटह
- र-चतुर्थी-व्रतम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210102T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210103T000000
-DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13701,19 +12326,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:सर्व-षट्तिला-एकादशी
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210109T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210110T000000
-DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:पौषः-10-27\,वृश्चिकः-अनूराधा
  🌛🌌◢◣धनुः-09-26🌌🌞◢◣सहस्यः-10-21🪐
  🌞
@@ -13743,29 +12355,6 @@ DESCRIPTION:___________________\n- 🪐🌞**सायनमानम्**
  लिककालः**—15:16-16:41  \n___________________\n- **शू
  लम्**—प्रतीची दिक् (►11:19)\; **परि
  हारः**–गुडम्  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:हरिवासरः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210110T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210110T004117
-DESCRIPTION:
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:प्रदोष-व्रतम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210110T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210111T000000
-DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13941,19 +12530,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:चन्द्र-दर्शनम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210114T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210115T000000
-DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:माघः-11-02\,मकरः-श्रविष्ठा🌛
  🌌◢◣मकरः-10-02🌌🌞◢◣सहस्यः-10-26🪐🌞
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210115T064934
@@ -14108,19 +12684,6 @@ DESCRIPTION:___________________\n- 🪐🌞**सायनमानम्**
  गुलिककालः**—13:55-15:20  \n___________________\n- **
  शूलम्**—प्राची दिक् (►09:51)\; **पर
  िहारः**–दधि  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:षष्ठी-व्रतम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210118T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210119T000000
-DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -14365,19 +12928,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:सर्व-जया/भैमी-एकादशी
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210124T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210125T000000
-DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:माघः-11-12\,वृषभः-मृगशीर्षम्
  🌛🌌◢◣मकरः-10-12🌌🌞◢◣तपः-11-06🪐🌞
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210125T065013
@@ -14409,16 +12959,6 @@ DESCRIPTION:___________________\n- 🪐🌞**सायनमानम्**
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:हरिवासरः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210125T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210125T052335
-DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -14477,19 +13017,6 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:भौमार्द्रा-पुण्यकालः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210126T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210127T000000
-DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:प्रदोष-व्रतम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210126T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210127T000000
 DESCRIPTION:
@@ -14705,20 +13232,6 @@ DESCRIPTION:___________________\n- 🪐🌞**सायनमानम्**
  गुलिककालः**—15:24-16:50  \n___________________\n- **
  शूलम्**—प्रतीची दिक् (►11:24)\; **प
  रिहारः**–गुडम्  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:द्विजप्रिय-महागणपति सङ्
- कटहर-चतुर्थी-व्रतम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210131T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210201T000000
-DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15050,19 +13563,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:स्मार्त-विजया-एकादशी
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210207T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210208T000000
-DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:माघः-11-27\,धनुः-मूला🌛🌌◢◣मक
  रः-10-26🌌🌞◢◣तपः-11-20🪐🌞
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210208T064803
@@ -15100,29 +13600,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:हरिवासरः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210208T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210208T102450
-DESCRIPTION:
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:वैष्णव-विजया-एकादशी
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210208T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210209T000000
-DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:माघः-11-28\,धनुः-पूर्वाषाढा
  🌛🌌◢◣मकरः-10-27🌌🌞◢◣तपः-11-21🪐🌞
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210209T064746
@@ -15151,19 +13628,6 @@ DESCRIPTION:___________________\n- 🪐🌞**सायनमानम्**
  11:07\; **गुलिककालः**—12:33-14:00  \n_________________
  __\n- **शूलम्**—उदीची दिक् (►11:24)\; **
  परिहारः**–क्षीरम्  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:प्रदोष-व्रतम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210209T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210210T000000
-DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15337,19 +13801,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:चन्द्र-दर्शनम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210213T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210214T000000
-DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:फाल्गुनः-12-03\,कुम्भः-पूर्व
  प्रोष्ठपदा🌛🌌◢◣कुम्भः-11-02🌌
  🌞◢◣तपः-11-26🪐🌞
@@ -15505,19 +13956,6 @@ DESCRIPTION:___________________\n- 🪐🌞**सायनमानम्**
  *—11:06-12:33  \n___________________\n- **शूलम्**—उदी
  ची दिक् (►12:57)\; **परिहारः**–क्षी
  रम्  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:षष्ठी-व्रतम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210217T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210218T000000
-DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15807,19 +14245,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:सर्व-आमलकी-एकादशी
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210223T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210224T000000
-DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:फाल्गुनः-12-12\,मिथुनम्-पुनर
  ्वसुः🌛🌌◢◣कुम्भः-11-12🌌🌞◢◣तप
  स्यः-12-07🪐🌞
@@ -15849,42 +14274,6 @@ DESCRIPTION:___________________\n- 🪐🌞**सायनमानम्**
  गुलिककालः**—11:05-12:32  \n___________________\n- **
  शूलम्**—उदीची दिक् (►12:56)\; **परि
  हारः**–क्षीरम्  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:हरिवासरः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210224T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210224T001026
-DESCRIPTION:
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:जयन्ती महाद्वादशी
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210224T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210225T000000
-DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:प्रदोष-व्रतम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210224T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210225T000000
-DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -16127,21 +14516,6 @@ DESCRIPTION:___________________\n- 🪐🌞**सायनमानम्**
  गुलिककालः**—12:31-14:00  \n___________________\n- **
  शूलम्**—उदीची दिक् (►11:21)\; **परि
  हारः**–क्षीरम्  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:अङ्गारकी भालचन्द्र-महाग
- णपति सङ्कटहर-चतुर्थी-व्रतम
- ्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210302T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210303T000000
-DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -16443,30 +14817,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:हरिवासरः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210309T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210309T205509
-DESCRIPTION:
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:माचि चॆव्वाय्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210309T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210310T000000
-DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:सर्व-पापमोचनी-एकादशी
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210309T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210310T000000
 DESCRIPTION:
@@ -16508,32 +14859,6 @@ DESCRIPTION:___________________\n- 🪐🌞**सायनमानम्**
  लः**—11:00-12:30  \n___________________\n- **शूलम्**—उ
  दीची दिक् (►12:53)\; **परिहारः**–क्
  षीरम्  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:प्रदोष-व्रतम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210310T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210311T000000
-DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:विजया/श्रवण-महाद्वादशी
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210310T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210311T000000
-DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -16695,19 +15020,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:चन्द्र-दर्शनम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210314T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210315T000000
-DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:कारडैयाऩ् नोऩ्बु
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210314T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210315T000000
@@ -16748,19 +15060,6 @@ DESCRIPTION:___________________\n- 🪐🌞**सायनमानम्**
  0:59-12:28\; **गुलिककालः**—13:58-15:27  \n____________
  _______\n- **शूलम्**—प्राची दिक् (►09:41
  )\; **परिहारः**–दधि  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:चन्द्र-दर्शनम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210315T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210316T000000
-DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -16922,19 +15221,6 @@ DESCRIPTION:___________________\n- 🪐🌞**सायनमानम्**
  ः**—07:57-09:27  \n___________________\n- **शूलम्**—प्
  रतीची दिक् (►11:15)\; **परिहारः**–ग
  ुडम्  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:षष्ठी-व्रतम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210319T000000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210320T000000
-DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
