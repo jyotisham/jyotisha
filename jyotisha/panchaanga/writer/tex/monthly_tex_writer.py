@@ -18,6 +18,7 @@ import jyotisha.names
 from jyotisha.panchaanga.spatio_temporal import City, annual
 from jyotisha.panchaanga.temporal import time
 from jyotisha.panchaanga.temporal.festival import rules
+from jyotisha.panchaanga.writer.tex import day_details
 
 logging.basicConfig(
   level=logging.DEBUG,
@@ -27,7 +28,7 @@ logging.basicConfig(
 CODE_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
 
 
-def write_monthly_tex(panchaanga, template_file, scripts=None, temporal=None):
+def write_monthly_tex(panchaanga, template_file, time_format="hh:mm", scripts=None, temporal=None):
   """Write out the panchaanga TeX using a specified template
   """
   if scripts is None:
@@ -145,90 +146,30 @@ def write_monthly_tex(panchaanga, template_file, scripts=None, temporal=None):
         else:
           month_text += '\n' + ("{}  &")
 
-    tithi_data_str = ''
-    for tithi_span in daily_panchaanga.sunrise_day_angas.tithis_with_ends:
-      (tithi_ID, tithi_end_jd) = (tithi_span.anga.index, tithi_span.jd_end)
-      # if tithi_data_str != '':
-      #     tithi_data_str += '\\hspace{2ex}'
-      tithi = '\\moon[scale=0.6]{%d}\\hspace{2pt}' % (tithi_ID) + \
-              jyotisha.names.NAMES['TITHI_NAMES'][scripts[0]][tithi_ID]
-      if tithi_end_jd is None:
-        tithi_data_str = '%s\\mbox{%s\\To{}%s}' % \
-                         (tithi_data_str, tithi, jyotisha.custom_transliteration.tr('ahOrAtram', scripts[0]))
-      else:
-        tithi_data_str = '%s\\mbox{%s\\To{}\\textsf{%s%s}}' % \
-                         (tithi_data_str, tithi,
-                          Hour(24 * (tithi_end_jd - jd)).to_string(
-                            format=panchaanga.fmt),
-                          '\\hspace{2ex}')
+    tithi_data_str = day_details.get_tithi_data_str(daily_panchaanga, scripts, time_format)
 
-    nakshatra_data_str = ''
-    for nakshatra_span in daily_panchaanga.sunrise_day_angas.nakshatras_with_ends:
-      (nakshatra_ID, nakshatra_end_jd) = (nakshatra_span.anga.index, nakshatra_span.jd_end)
-      # if nakshatra_data_str != '':
-      #     nakshatra_data_str += '\\hspace{2ex}'
-      nakshatra = jyotisha.names.NAMES['NAKSHATRA_NAMES'][scripts[0]][nakshatra_ID]
-      if nakshatra_end_jd is None:
-        nakshatra_data_str = '%s\\mbox{%s\\To{}%s}' % \
-                              (nakshatra_data_str, nakshatra,
-                               jyotisha.custom_transliteration.tr('ahOrAtram', scripts[0]))
-      else:
-        nakshatra_data_str = '%s\\mbox{%s\\To{}\\textsf{%s%s}}' % \
-                              (nakshatra_data_str, nakshatra,
-                               Hour(24 * (nakshatra_end_jd -
-                                                                            jd)).to_string(format=panchaanga.fmt),
-                               '\\hspace{2ex}')
+    nakshatra_data_str = day_details.get_nakshatra_data_str(daily_panchaanga, scripts, time_format)
 
-    yoga_data_str = ''
-    for yoga_span in daily_panchaanga.sunrise_day_angas.yogas_with_ends:
-      (yoga_ID, yoga_end_jd) = (yoga_span.anga.index, yoga_span.jd_end)
-      # if yoga_data_str != '':
-      #     yoga_data_str += '\\hspace{2ex}'
-      yoga = jyotisha.names.NAMES['YOGA_NAMES'][scripts[0]][yoga_ID]
-      if yoga_end_jd is None:
-        yoga_data_str = '%s\\mbox{%s\\To{}%s}' % \
-                        (yoga_data_str, yoga, jyotisha.custom_transliteration.tr('ahOrAtram', scripts[0]))
-      else:
-        yoga_data_str = '%s\\mbox{%s\\To{}\\textsf{%s%s}}' % \
-                        (yoga_data_str, yoga,
-                         Hour(24 * (yoga_end_jd - jd)).to_string(
-                           format=panchaanga.fmt),
-                         '\\hspace{2ex}')
+    yoga_data_str = day_details.get_yoga_data_str(daily_panchaanga, scripts, time_format)
 
-    karana_data_str = ''
-    for numKaranam, karaNa_span in enumerate(daily_panchaanga.sunrise_day_angas.karanas_with_ends):
-      (karana_ID, karana_end_jd) = (karaNa_span.anga.index, karaNa_span.jd_end)
-      # if numKaranam == 1:
-      #     karana_data_str += '\\hspace{2ex}'
-      if numKaranam == 2:
-        karana_data_str = karana_data_str + '\\\\'
-      karana = jyotisha.names.NAMES['KARANA_NAMES'][scripts[0]][karana_ID]
-      if karana_end_jd is None:
-        karana_data_str = '%s\\mbox{%s\\To{}%s}' % \
-                           (karana_data_str, karana,
-                            jyotisha.custom_transliteration.tr('ahOrAtram', scripts[0]))
-      else:
-        karana_data_str = '%s\\mbox{%s\\To{}\\textsf{%s%s}}' % \
-                           (karana_data_str, karana,
-                            Hour(24 * (karana_end_jd -
-                                                                         jd)).to_string(format=panchaanga.fmt),
-                            '\\hspace{2ex}')
+    karana_data_str = day_details.get_karaNa_data_str(daily_panchaanga, scripts, time_format)
+
 
     sunrise = Hour(24 * (daily_panchaanga.jd_sunrise - jd)).to_string(
-      format=panchaanga.fmt)
-    sunset = Hour(24 * (daily_panchaanga.jd_sunset - jd)).to_string(format=panchaanga.fmt)
+      format=time_format)
+    sunset = Hour(24 * (daily_panchaanga.jd_sunset - jd)).to_string(format=time_format)
     saangava = Hour(24 * (daily_panchaanga.day_length_based_periods.saangava.jd_start - jd)).to_string(
-      format=panchaanga.fmt)
+      format=time_format)
     rahu = '%s--%s' % (
       Hour(24 * (daily_panchaanga.day_length_based_periods.raahu.jd_start - jd)).to_string(
-        format=panchaanga.fmt),
+        format=time_format),
       Hour(24 * (daily_panchaanga.day_length_based_periods.raahu.jd_end - jd)).to_string(
-        format=panchaanga.fmt))
+        format=time_format))
     yama = '%s--%s' % (
       Hour(24 * (daily_panchaanga.day_length_based_periods.yama.jd_start - jd)).to_string(
-        format=panchaanga.fmt),
+        format=time_format),
       Hour(24 * (daily_panchaanga.day_length_based_periods.yama.jd_end - jd)).to_string(
-        format=panchaanga.fmt))
+        format=time_format))
 
     if daily_panchaanga.solar_sidereal_date_sunset.month_transition is None:
       month_end_str = ''
@@ -237,11 +178,11 @@ def write_monthly_tex(panchaanga, template_file, scripts=None, temporal=None):
       if daily_panchaanga.solar_sidereal_date_sunset.month_transition >= daily_panchaangas[d + 1].jd_sunrise:
         month_end_str = '\\mbox{%s{\\tiny\\RIGHTarrow}\\textsf{%s}}' % (
           jyotisha.names.NAMES['RASHI_NAMES'][scripts[0]][_m], Hour(
-            24 * (daily_panchaanga.solar_sidereal_date_sunset.month_transition - daily_panchaangas[d + 1].julian_day_start)).to_string(format=panchaanga.fmt))
+            24 * (daily_panchaanga.solar_sidereal_date_sunset.month_transition - daily_panchaangas[d + 1].julian_day_start)).to_string(format=time_format))
       else:
         month_end_str = '\\mbox{%s{\\tiny\\RIGHTarrow}\\textsf{%s}}' % (
           jyotisha.names.NAMES['RASHI_NAMES'][scripts[0]][_m], Hour(
-            24 * (daily_panchaanga.solar_sidereal_date_sunset.month_transition - daily_panchaanga.julian_day_start)).to_string(format=panchaanga.fmt))
+            24 * (daily_panchaanga.solar_sidereal_date_sunset.month_transition - daily_panchaanga.julian_day_start)).to_string(format=time_format))
 
     month_data = '\\sunmonth{%s}{%d}{%s}' % (
       jyotisha.names.NAMES['RASHI_NAMES'][scripts[0]][daily_panchaanga.solar_sidereal_date_sunset.month], daily_panchaanga.solar_sidereal_date_sunset.day,

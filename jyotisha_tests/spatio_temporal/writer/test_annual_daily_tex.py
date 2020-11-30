@@ -4,13 +4,13 @@ import os
 # from jyotisha.panchaanga.spatio_temporal import City, annual
 from indic_transliteration import sanscript
 from jyotisha.panchaanga.spatio_temporal.periodical import Panchaanga
-from jyotisha.panchaanga.writer.tex.write_daily_panchaanga_tex import emit
 
 # import swisseph as swe
 # from indic_transliteration import xsanscript as sanscript
 
 # from jyotisha.panchaanga import scripts
 # from jyotisha.panchaanga.spatio_temporal import annual
+from jyotisha.panchaanga.writer.tex.daily_tex_writer import emit
 
 logging.basicConfig(
   level=logging.DEBUG,
