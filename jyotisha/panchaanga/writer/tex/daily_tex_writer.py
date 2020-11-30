@@ -82,45 +82,6 @@ def emit(panchaanga, time_format="hh:mm", scripts=None, output_stream=None):
 
     karana_data_str = get_karaNa_data_str(daily_panchaanga, scripts, time_format)
 
-    jd = daily_panchaanga.julian_day_start
-
-    sunrise = time.Hour(24 * (daily_panchaanga.jd_sunrise - jd)).to_string(
-      format=time_format)
-    sunset = time.Hour(24 * (daily_panchaanga.jd_sunset - jd)).to_string(format=time_format)
-    moonrise = time.Hour(24 * (daily_panchaanga.jd_moonrise - jd)).to_string(
-      format=time_format)
-    moonset = time.Hour(24 * (daily_panchaanga.jd_moonset - jd)).to_string(
-      format=time_format)
-
-    braahma_start = time.Hour(24 * (daily_panchaanga.day_length_based_periods.braahma.jd_start - jd)).to_string(
-      format=time_format)
-    praatahsandhya_start = time.Hour(
-      24 * (daily_panchaanga.day_length_based_periods.praatas_sandhyaa.jd_start - jd)).to_string(format=time_format)
-    praatahsandhya_end = time.Hour(
-      24 * (daily_panchaanga.day_length_based_periods.praatas_sandhyaa_end.jd_start - jd)).to_string(format=time_format)
-    saangava = time.Hour(24 * (daily_panchaanga.day_length_based_periods.saangava.jd_start - jd)).to_string(
-      format=time_format)
-    madhyaahna = time.Hour(24 * (daily_panchaanga.day_length_based_periods.madhyaahna.jd_start - jd)).to_string(
-      format=time_format)
-    madhyahnika_sandhya_start = time.Hour(
-      24 * (daily_panchaanga.day_length_based_periods.maadhyaahnika_sandhyaa.jd_start - jd)).to_string(format=time_format)
-    madhyahnika_sandhya_end = time.Hour(
-      24 * (daily_panchaanga.day_length_based_periods.maadhyaahnika_sandhyaa_end.jd_start - jd)).to_string(format=time_format)
-    aparaahna_muhuurta = time.Hour(24 * (daily_panchaanga.day_length_based_periods.aparaahna_muhuurta.jd_start - jd)).to_string(
-      format=time_format)
-    sayahna = time.Hour(24 * (daily_panchaanga.day_length_based_periods.saayaahna.jd_start - jd)).to_string(
-      format=time_format)
-    sayamsandhya_start = time.Hour(
-      24 * (daily_panchaanga.day_length_based_periods.saayam_sandhyaa.jd_start - jd)).to_string(format=time_format)
-    sayamsandhya_end = time.Hour(
-      24 * (daily_panchaanga.day_length_based_periods.pradosha.jd_end - jd)).to_string(format=time_format)
-    ratriyama1 = time.Hour(24 * (daily_panchaanga.day_length_based_periods.raatri_yaama_1.jd_start - jd)).to_string(
-      format=time_format)
-    shayana_time_end = time.Hour(24 * (daily_panchaanga.day_length_based_periods.shayana.jd_start - jd)).to_string(
-      format=time_format)
-    dinaanta = time.Hour(24 * (daily_panchaanga.day_length_based_periods.dinaanta.jd_start - jd)).to_string(
-      format=time_format)
-
     gulika, rahu, yama = get_raahu_yama_gulika_strings(daily_panchaanga, time_format)
 
     if daily_panchaanga.solar_sidereal_date_sunset.month == 1:
@@ -155,24 +116,9 @@ def emit(panchaanga, time_format="hh:mm", scripts=None, output_stream=None):
            jyotisha.names.NAMES['RTU_NAMES'][scripts[0]][int(ceil(daily_panchaanga.lunar_month_sunrise.index))],
            jyotisha.names.NAMES['VARA_NAMES'][scripts[0]][daily_panchaanga.date.get_weekday()], sar_data), file=output_stream)
 
-    if daily_panchaanga.jd_moonrise > daily_panchaangas[d + 1].jd_sunrise:
-      moonrise = '---'
-    if daily_panchaanga.jd_moonset > daily_panchaangas[d + 1].jd_sunrise:
-      moonset = '---'
+    stream_sun_moon_rise_data(daily_panchaanga, output_stream, time_format)
 
-    if daily_panchaanga.jd_moonrise < daily_panchaanga.jd_moonset:
-      print('{\\sunmoonrsdata{%s}{%s}{%s}{%s}' % (sunrise, sunset, moonrise, moonset), file=output_stream)
-    else:
-      print('{\\sunmoonsrdata{%s}{%s}{%s}{%s}' % (sunrise, sunset, moonrise, moonset), file=output_stream)
-
-    print(
-      '{\\kalas{%s %s %s %s %s %s %s %s %s %s %s %s %s %s}}}' % (braahma_start, praatahsandhya_start, praatahsandhya_end,
-                                                                saangava,
-                                                                madhyahnika_sandhya_start, madhyahnika_sandhya_end,
-                                                                madhyaahna, aparaahna_muhuurta, sayahna,
-                                                                sayamsandhya_start, sayamsandhya_end,
-                                                                ratriyama1, shayana_time_end, dinaanta),
-      file=output_stream)
+    stream_daylength_based_periods(daily_panchaanga, output_stream, time_format)
     if compute_lagnams:
       print('{\\tnykdata{%s}%%\n{%s}{%s}%%\n{%s}%%\n{%s}{%s}\n}'
             % (tithi_data_str, nakshatra_data_str, rashi_data_str, yoga_data_str,
@@ -182,15 +128,7 @@ def emit(panchaanga, time_format="hh:mm", scripts=None, output_stream=None):
             % (tithi_data_str, nakshatra_data_str, rashi_data_str, yoga_data_str,
                karana_data_str, ''), file=output_stream)
 
-    rules_collection = rules.RulesCollection.get_cached(
-      repos_tuple=tuple(panchaanga.computation_system.options.fest_repos))
-    fest_details_dict = rules_collection.name_to_rule
-
-    # Using set as an ugly workaround since we may have sometimes assigned the same
-    # festival to the same day again!
-    print('{%s}' % '\\eventsep '.join(
-      [f.tex_code(scripts=scripts, timezone=Timezone(timezone_id=panchaanga.city.timezone), fest_details_dict=fest_details_dict) for f in
-       sorted(daily_panchaanga.festival_id_to_instance.values())]), file=output_stream)
+    print_festivals_to_stream(daily_panchaanga, output_stream, panchaanga, scripts)
 
     print('{%s} ' % names.weekday_short_map[daily_panchaanga.date.get_weekday()], file=output_stream)
     print('\\cfoot{\\rygdata{%s}{%s}{%s}}' % (rahu, yama, gulika), file=output_stream)
@@ -199,6 +137,78 @@ def emit(panchaanga, time_format="hh:mm", scripts=None, output_stream=None):
       break
 
   print('\\end{document}', file=output_stream)
+
+
+def stream_daylength_based_periods(daily_panchaanga, output_stream, time_format):
+  jd = daily_panchaanga.julian_day_start
+
+  braahma_start = time.Hour(24 * (daily_panchaanga.day_length_based_periods.braahma.jd_start - jd)).to_string(
+    format=time_format)
+  praatahsandhya_start = time.Hour(
+    24 * (daily_panchaanga.day_length_based_periods.praatas_sandhyaa.jd_start - jd)).to_string(format=time_format)
+  praatahsandhya_end = time.Hour(
+    24 * (daily_panchaanga.day_length_based_periods.praatas_sandhyaa_end.jd_start - jd)).to_string(format=time_format)
+  saangava = time.Hour(24 * (daily_panchaanga.day_length_based_periods.saangava.jd_start - jd)).to_string(
+    format=time_format)
+  madhyaahna = time.Hour(24 * (daily_panchaanga.day_length_based_periods.madhyaahna.jd_start - jd)).to_string(
+    format=time_format)
+  madhyahnika_sandhya_start = time.Hour(
+    24 * (daily_panchaanga.day_length_based_periods.maadhyaahnika_sandhyaa.jd_start - jd)).to_string(format=time_format)
+  madhyahnika_sandhya_end = time.Hour(
+    24 * (daily_panchaanga.day_length_based_periods.maadhyaahnika_sandhyaa_end.jd_start - jd)).to_string(
+    format=time_format)
+  aparaahna_muhuurta = time.Hour(
+    24 * (daily_panchaanga.day_length_based_periods.aparaahna_muhuurta.jd_start - jd)).to_string(
+    format=time_format)
+  sayahna = time.Hour(24 * (daily_panchaanga.day_length_based_periods.saayaahna.jd_start - jd)).to_string(
+    format=time_format)
+  sayamsandhya_start = time.Hour(
+    24 * (daily_panchaanga.day_length_based_periods.saayam_sandhyaa.jd_start - jd)).to_string(format=time_format)
+  sayamsandhya_end = time.Hour(
+    24 * (daily_panchaanga.day_length_based_periods.pradosha.jd_end - jd)).to_string(format=time_format)
+  ratriyama1 = time.Hour(24 * (daily_panchaanga.day_length_based_periods.raatri_yaama_1.jd_start - jd)).to_string(
+    format=time_format)
+  shayana_time_end = time.Hour(24 * (daily_panchaanga.day_length_based_periods.shayana.jd_start - jd)).to_string(
+    format=time_format)
+  dinaanta = time.Hour(24 * (daily_panchaanga.day_length_based_periods.dinaanta.jd_start - jd)).to_string(
+    format=time_format)
+  print(
+    '{\\kalas{%s %s %s %s %s %s %s %s %s %s %s %s %s %s}}}' % (braahma_start, praatahsandhya_start, praatahsandhya_end,
+                                                               saangava,
+                                                               madhyahnika_sandhya_start, madhyahnika_sandhya_end,
+                                                               madhyaahna, aparaahna_muhuurta, sayahna,
+                                                               sayamsandhya_start, sayamsandhya_end,
+                                                               ratriyama1, shayana_time_end, dinaanta),
+    file=output_stream)
+
+
+def stream_sun_moon_rise_data(daily_panchaanga, output_stream, time_format):
+  jd = daily_panchaanga.julian_day_start
+  sunrise = time.Hour(24 * (daily_panchaanga.jd_sunrise - jd)).to_string(
+    format=time_format)
+  sunset = time.Hour(24 * (daily_panchaanga.jd_sunset - jd)).to_string(format=time_format)
+  moonrise = time.Hour(24 * (daily_panchaanga.jd_moonrise - jd)).to_string(
+    format=time_format)
+  moonset = time.Hour(24 * (daily_panchaanga.jd_moonset - jd)).to_string(
+    format=time_format)
+  if daily_panchaanga.jd_moonrise > daily_panchaanga.jd_next_sunrise:
+    moonrise = '---'
+  if daily_panchaanga.jd_moonset > daily_panchaanga.jd_next_sunrise:
+    moonset = '---'
+  if daily_panchaanga.jd_moonrise < daily_panchaanga.jd_moonset:
+    print('{\\sunmoonrsdata{%s}{%s}{%s}{%s}' % (sunrise, sunset, moonrise, moonset), file=output_stream)
+  else:
+    print('{\\sunmoonsrdata{%s}{%s}{%s}{%s}' % (sunrise, sunset, moonrise, moonset), file=output_stream)
+
+
+def print_festivals_to_stream(daily_panchaanga, output_stream, panchaanga, scripts):
+  rules_collection = rules.RulesCollection.get_cached(
+    repos_tuple=tuple(panchaanga.computation_system.options.fest_repos))
+  fest_details_dict = rules_collection.name_to_rule
+  print('{%s}' % '\\eventsep '.join(
+    [f.tex_code(scripts=scripts, timezone=Timezone(timezone_id=panchaanga.city.timezone),
+                fest_details_dict=fest_details_dict) for f in
+     sorted(daily_panchaanga.festival_id_to_instance.values())]), file=output_stream)
 
 
 def set_top_content(output_stream, panchaanga, samvatsara_names, scripts, year):

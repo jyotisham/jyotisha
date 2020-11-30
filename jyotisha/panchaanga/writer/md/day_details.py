@@ -13,6 +13,7 @@ import jyotisha.panchaanga.temporal
 from jyotisha import names
 from jyotisha.names import translate_and_transliterate
 from jyotisha.panchaanga.temporal import AngaType
+from jyotisha.panchaanga.temporal.festival import rules
 from jyotisha.panchaanga.temporal.festival.rules import RulesRepo
 from jyotisha.panchaanga.temporal.time import Hour
 
@@ -231,3 +232,14 @@ def get_lagna_data_str(daily_panchaanga, script):
   lagna_data_str = '*' + translate_and_transliterate('lagnam', script) + '*—' + lagna_data_str[2:]
   return lagna_data_str
 
+
+
+def get_festivals_md(daily_panchaanga, panchaanga, scripts):
+  rules_collection = rules.RulesCollection.get_cached(
+    repos_tuple=tuple(panchaanga.computation_system.options.fest_repos))
+  fest_details_dict = rules_collection.name_to_rule
+  output_stream = StringIO()
+  for f in sorted(daily_panchaanga.festival_id_to_instance.values()):
+    print('- %s' % (f.md_code(scripts=scripts, timezone=panchaanga.city.get_timezone_obj(),
+                fest_details_dict=fest_details_dict)), file=output_stream)
+  return output_stream.getvalue()

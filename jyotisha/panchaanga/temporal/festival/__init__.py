@@ -74,6 +74,19 @@ class FestivalInstance(common.JsonObject):
         end_time_str = "\\textsf{%s}" % end_time_str
       return "%s%s{\\RIGHTarrow}%s" % (name, start_time_str, end_time_str)
 
+  def md_code(self, scripts, timezone, fest_details_dict):
+    name_details = self.get_best_transliterated_name(scripts=scripts, fest_details_dict=fest_details_dict)
+    ordinal_str = " #%s" % custom_transliteration.tr(str(self.ordinal), script=scripts[0]) if self.ordinal is not None else ""
+    name = "**%s**" % name_details["text"]
+
+    if self.interval is None:
+      return name
+    else:
+      from jyotisha.panchaanga.temporal.time import Hour
+      start_time_str = "" if self.interval.jd_start is None else timezone.julian_day_to_local_time(self.interval.jd_start).get_hour_str()
+      end_time_str = "" if self.interval.jd_end is None else timezone.julian_day_to_local_time(self.interval.jd_end).get_hour_str()
+      return "%s%s - %s→%s" % (name, ordinal_str, start_time_str, end_time_str)
+
   def __lt__(self, other):
     return self.name < other.name
 
