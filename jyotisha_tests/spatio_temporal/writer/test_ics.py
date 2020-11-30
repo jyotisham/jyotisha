@@ -26,7 +26,6 @@ TEST_DATA_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'data'
 
 def test_panchanga_chennai_2019():
   panchaanga_2019 = Panchaanga.read_from_file(filename=os.path.join(TEST_DATA_PATH, 'Chennai-2019.json'))
-  panchaanga_2019.update_festival_details()
   orig_ics_file = os.path.join(TEST_DATA_PATH, 'Chennai-2019-devanagari.ics')
   current_ics_output = os.path.join(TEST_DATA_PATH, 'Chennai-2019-devanagari.ics.local')
   ics_calendar = compute_calendar(panchaanga_2019, scripts=[sanscript.IAST], set_sequence=False)
