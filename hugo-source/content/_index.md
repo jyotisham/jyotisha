@@ -4,4 +4,5 @@ title: "Jyotisha py site"
 
 Welcome!
 
-See [calendar outputs here](output).
+- [Software guide here](software)
+- [Calendar outputs here](output).
