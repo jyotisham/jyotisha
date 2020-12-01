@@ -82,7 +82,7 @@ def get_description_str_with_shlokas(include_shlokas, rule, script, use_markup):
       description_string = description_string + '\n\n```\n' + custom_transliteration.tr(", ".join(rule.shlokas),
                                                                                         script, False) + '\n```'
     else:
-      description_string = description_string + '\n\n' + custom_transliteration.tr(", ".join(rule.shlokas), script,
+      description_string = description_string + '\n\n' + custom_transliteration.tr("  \n".join(rule.shlokas).replace("\n", "  \n"), script,
                                                                                    False) + '\n\n'
   return description_string
 
