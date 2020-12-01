@@ -1,3 +1,6 @@
 [submodule "jyotisha/panchaanga/temporal/festival/data"]
 	path = jyotisha/panchaanga/temporal/festival/data
 	url = https://github.com/sanskrit-coders/adyatithi.git
+[submodule "hugo-source/themes/sanskrit-documentation-theme-hugo"]
+	path = hugo-source/themes/sanskrit-documentation-theme-hugo
+	url = https://github.com/sanskrit-coders/sanskrit-documentation-theme-hugo.git

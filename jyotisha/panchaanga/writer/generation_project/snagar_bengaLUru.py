@@ -9,7 +9,7 @@ from jyotisha.panchaanga.temporal import ComputationSystem
 from jyotisha.panchaanga.temporal.festival.rules import RulesRepo
 from jyotisha.panchaanga.writer import ics, md
 
-output_dir = os.path.join(os.path.dirname(os.path.dirname(jyotisha.__file__)), "docs", "output")
+output_dir = os.path.join(os.path.dirname(os.path.dirname(jyotisha.__file__)), "hugo_source", "content", "output")
 
 
 def dump_common(year, city):
