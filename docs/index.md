@@ -4,7 +4,7 @@ title: "Jyotisha py site"
 
 Welcome!
 
-## Calendar Output
+## Calendar Output: Markdown  → html
 {% for p in site.pages %}
 {% if p.url contains "output" %}
 <a href="{{ p.url | absolute_url}}">{{ p.url | url_decode}}</a>
