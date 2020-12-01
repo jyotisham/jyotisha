@@ -41,7 +41,7 @@ jobs:
 #The below is disabled pending https://github.com/sanskrit-coders/jyotisha/runs/1142973750
     - name: Build package
       run: |
-        python -m pip install -e .
+        python -m pip install .
     - name: Build test
       run: |
         python -c "import jyotisha"
@@ -53,14 +53,13 @@ jobs:
       uses: peaceiris/actions-hugo@v2
       with:
         hugo-version: "0.72.0"
+    - name: Regenerate calendars
+      run: |
+        python -m "jyotisha.panchaanga.writer.generation_project"
     - name: Build hugo site pages
       run: |
         cd hugo-source
         rm -rf build_github
-        pwd
-        ls -l /home/runner/work/jyotisha/jyotisha/hugo_source/content/output/sahakAra nagar, bengaLUru/SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_AT_180/shaka_year/
-        python -m "jyotisha.panchaanga.writer.generation_project"
-        ls -l /home/runner/work/jyotisha/jyotisha/hugo_source/content/output/sahakAra nagar, bengaLUru/SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_AT_180/shaka_year/
         hugo
         cd ..
     - name: Deploy
