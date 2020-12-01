@@ -485,6 +485,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 20,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 12,
@@ -796,6 +806,16 @@
               "jsonClass": "Anga"
             },
             "jd_start": 2458119.4534,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 20,
+              "jsonClass": "Anga"
+            },
             "jsonClass": "AngaSpan"
           }
         ],
@@ -1117,6 +1137,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 3,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 20,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -1502,6 +1532,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 20,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 15,
@@ -1847,6 +1887,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 20,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 17,
@@ -2164,6 +2214,16 @@
               "jsonClass": "Anga"
             },
             "jd_start": 2458123.4319,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 20,
+              "jsonClass": "Anga"
+            },
             "jsonClass": "AngaSpan"
           }
         ],
@@ -2492,6 +2552,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 20,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 19,
@@ -2807,6 +2877,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 5,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 20,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -3137,6 +3217,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 20,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 21,
@@ -3452,6 +3542,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 6,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 20,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -3792,6 +3892,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 20,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 23,
@@ -4115,6 +4225,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 20,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 24,
@@ -4421,6 +4541,26 @@
               "jsonClass": "Anga"
             },
             "jd_start": 2458130.3029,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 20,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458129.5576,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 21,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458129.5576,
             "jsonClass": "AngaSpan"
           }
         ],
@@ -4738,6 +4878,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 8,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 21,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -5065,6 +5215,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 8,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 21,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -5398,6 +5558,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 21,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 28,
@@ -5716,6 +5886,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 9,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 21,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -6040,6 +6220,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 21,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 30,
@@ -6335,6 +6525,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 10,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 21,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -6658,6 +6858,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 10,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 21,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -6992,6 +7202,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 21,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 2,
@@ -7300,6 +7520,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 11,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 21,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -7617,6 +7847,16 @@
               "jsonClass": "Anga"
             },
             "jd_start": 2458140.3009,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 21,
+              "jsonClass": "Anga"
+            },
             "jsonClass": "AngaSpan"
           }
         ],
@@ -7947,6 +8187,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 21,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 5,
@@ -8261,6 +8511,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 12,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 21,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -8608,6 +8868,26 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 21,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458142.6519,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 22,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458142.6519,
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 7,
@@ -8931,6 +9211,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 1,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 22,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -9302,6 +9592,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 22,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 9,
@@ -9620,6 +9920,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 2,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 22,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -9992,6 +10302,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 22,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 11,
@@ -10333,6 +10653,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 22,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 13,
@@ -10659,6 +10989,16 @@
               "jsonClass": "Anga"
             },
             "jd_start": 2458148.8946,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 22,
+              "jsonClass": "Anga"
+            },
             "jsonClass": "AngaSpan"
           }
         ],
@@ -11021,6 +11361,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 22,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 15,
@@ -11352,6 +11702,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 22,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 16,
@@ -11666,6 +12026,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 5,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 22,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -11996,6 +12366,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 22,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 18,
@@ -12310,6 +12690,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 6,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 22,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -12641,6 +13031,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 22,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 20,
@@ -12964,6 +13364,26 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 22,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458155.7888,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 23,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458155.7888,
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 21,
@@ -13283,6 +13703,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 7,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 23,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -13617,6 +14047,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 23,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 23,
@@ -13927,6 +14367,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 8,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 23,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -14246,6 +14696,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 23,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 25,
@@ -14550,6 +15010,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 9,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 23,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -14875,6 +15345,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 9,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 23,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -15221,6 +15701,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 23,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 28,
@@ -15516,6 +16006,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 10,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 23,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -15859,6 +16359,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 23,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 30,
@@ -16174,6 +16684,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 11,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 23,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -16517,6 +17037,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 23,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 2,
@@ -16827,6 +17357,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 12,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 23,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -17144,6 +17684,26 @@
               "index": 12,
               "jsonClass": "Anga"
             },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 23,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458168.9756,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 24,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458168.9756,
             "jsonClass": "AngaSpan"
           }
         ],
@@ -17480,6 +18040,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 24,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 5,
@@ -17799,6 +18369,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 1,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 24,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -18142,6 +18722,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 24,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 7,
@@ -18466,6 +19056,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 2,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 24,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -18800,6 +19400,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 24,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 9,
@@ -19114,6 +19724,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 3,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 24,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -19488,6 +20108,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 24,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 11,
@@ -19841,6 +20471,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 24,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 12,
@@ -20171,6 +20811,16 @@
               "jsonClass": "Anga"
             },
             "jd_start": 2458178.3426,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 24,
+              "jsonClass": "Anga"
+            },
             "jsonClass": "AngaSpan"
           }
         ],
@@ -20532,6 +21182,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 24,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 14,
@@ -20877,6 +21537,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 24,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 16,
@@ -21182,6 +21852,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 6,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 24,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -21515,6 +22195,26 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 24,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458182.242,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 25,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458182.242,
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 18,
@@ -21840,6 +22540,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 25,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 19,
@@ -22154,6 +22864,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 7,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 25,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -22479,6 +23199,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 25,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 21,
@@ -22789,6 +23519,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 8,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 25,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -23119,6 +23859,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 25,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 23,
@@ -23409,6 +24159,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 9,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 25,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -23714,6 +24474,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 9,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 25,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -24044,6 +24814,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 25,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 25,
@@ -24365,6 +25145,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 10,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 25,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -24708,6 +25498,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 25,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 27,
@@ -25027,6 +25827,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 25,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 28,
@@ -25322,6 +26132,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 11,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 25,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -25658,6 +26478,16 @@
               "jsonClass": "Anga"
             },
             "jd_start": 2458194.8335,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 25,
+              "jsonClass": "Anga"
+            },
             "jsonClass": "AngaSpan"
           }
         ],
@@ -26009,6 +26839,26 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 25,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458195.5939,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 26,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458195.5939,
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 1,
@@ -26346,6 +27196,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 26,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 2,
@@ -26668,6 +27528,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 1,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 26,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -27007,6 +27877,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 26,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 4,
@@ -27338,6 +28218,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 2,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 26,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -27684,6 +28574,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 26,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 6,
@@ -27999,6 +28899,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 3,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 26,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -28362,6 +29272,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 26,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 8,
@@ -28701,6 +29621,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 26,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 10,
@@ -29023,6 +29953,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 4,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 26,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -29377,6 +30317,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 26,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 12,
@@ -29699,6 +30649,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 5,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 26,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -30046,6 +31006,16 @@
               "jsonClass": "Anga"
             },
             "jd_start": 2458207.8193,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 26,
+              "jsonClass": "Anga"
+            },
             "jsonClass": "AngaSpan"
           }
         ],
@@ -30412,6 +31382,26 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 26,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458209.0461,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 27,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458209.0461,
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 15,
@@ -30742,6 +31732,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 27,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 16,
@@ -31052,6 +32052,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 7,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 27,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -31382,6 +32392,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 27,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 18,
@@ -31682,6 +32702,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 8,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 27,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -32001,6 +33031,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 8,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 27,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -32326,6 +33366,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 27,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 21,
@@ -32631,6 +33681,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 9,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 27,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -32962,6 +34022,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 27,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 23,
@@ -33267,6 +34337,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 10,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 27,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -33581,6 +34661,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 27,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 25,
@@ -33888,6 +34978,16 @@
               "jsonClass": "Anga"
             },
             "jd_start": 2458219.7956,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 27,
+              "jsonClass": "Anga"
+            },
             "jsonClass": "AngaSpan"
           }
         ],
@@ -34223,6 +35323,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 27,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 26,
@@ -34552,6 +35662,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 27,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 27,
@@ -34877,6 +35997,26 @@
               "index": 12,
               "jsonClass": "Anga"
             },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 27,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458222.6027,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 1,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458222.6027,
             "jsonClass": "AngaSpan"
           }
         ],
@@ -35211,6 +36351,16 @@
               "jsonClass": "Anga"
             },
             "jd_start": 2458224.4401,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 1,
+              "jsonClass": "Anga"
+            },
             "jsonClass": "AngaSpan"
           }
         ],
@@ -35555,6 +36705,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 1,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 30,
@@ -35878,6 +37038,16 @@
           {
             "anga": {
               "anga_type_id": "RASHI",
+              "index": 1,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
               "index": 1,
               "jsonClass": "Anga"
             },
@@ -36238,6 +37408,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 1,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 3,
@@ -36556,6 +37736,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 2,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 1,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -36900,6 +38090,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 1,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 5,
@@ -37239,6 +38439,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 3,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 1,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -37600,6 +38810,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 1,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 7,
@@ -37916,6 +39136,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 4,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 1,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -38268,6 +39498,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 1,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 9,
@@ -38586,6 +39826,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 5,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 1,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -38932,6 +40182,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 1,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 11,
@@ -39260,6 +40520,26 @@
               "index": 6,
               "jsonClass": "Anga"
             },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 1,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458236.2601,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 2,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458236.2601,
             "jsonClass": "AngaSpan"
           }
         ],
@@ -39593,6 +40873,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 2,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 13,
@@ -39915,6 +41205,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 7,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 2,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -40272,6 +41572,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 2,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 15,
@@ -40592,6 +41902,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 2,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 16,
@@ -40906,6 +42226,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 8,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 2,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -41241,6 +42571,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 2,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 18,
@@ -41560,6 +42900,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 2,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 19,
@@ -41868,6 +43218,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 9,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 2,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -42193,6 +43553,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 2,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 21,
@@ -42491,6 +43861,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 10,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 2,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -42816,6 +44196,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 2,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 23,
@@ -43127,6 +44517,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 11,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 2,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -43446,6 +44846,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 11,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 2,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -43780,6 +45190,26 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 2,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458250.0183,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 3,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458250.0183,
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 26,
@@ -44094,6 +45524,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 12,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 3,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -44433,6 +45873,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 3,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 28,
@@ -44745,6 +46195,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 1,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 3,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -45111,6 +46571,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 3,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 30,
@@ -45421,6 +46891,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 2,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 3,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -45756,6 +47236,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 3,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 2,
@@ -46070,6 +47560,16 @@
           {
             "anga": {
               "anga_type_id": "RASHI",
+              "index": 3,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
               "index": 3,
               "jsonClass": "Anga"
             },
@@ -46406,6 +47906,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 3,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 5,
@@ -46724,6 +48234,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 4,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 3,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -47054,6 +48574,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 3,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 7,
@@ -47379,6 +48909,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 3,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 8,
@@ -47699,6 +49239,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 3,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 9,
@@ -48004,6 +49554,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 6,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 3,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -48347,6 +49907,26 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 3,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458263.8566,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 4,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458263.8566,
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 11,
@@ -48666,6 +50246,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 4,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 12,
@@ -48971,6 +50561,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 7,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 4,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -49305,6 +50905,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 4,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 14,
@@ -49633,6 +51243,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 4,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 15,
@@ -49950,6 +51570,16 @@
               "jsonClass": "Anga"
             },
             "jd_start": 2458269.4034,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 4,
+              "jsonClass": "Anga"
+            },
             "jsonClass": "AngaSpan"
           }
         ],
@@ -50275,6 +51905,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 4,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 17,
@@ -50580,6 +52220,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 9,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 4,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -50910,6 +52560,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 4,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 19,
@@ -51205,6 +52865,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 10,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 4,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -51529,6 +53199,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 4,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 20,
@@ -51844,6 +53524,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 4,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 21,
@@ -52149,6 +53839,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 11,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 4,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -52474,6 +54174,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 4,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 23,
@@ -52781,6 +54491,26 @@
               "index": 12,
               "jsonClass": "Anga"
             },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 4,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458277.7693,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 5,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458277.7693,
             "jsonClass": "AngaSpan"
           }
         ],
@@ -53104,6 +54834,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 5,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 25,
@@ -53422,6 +55162,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 1,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 5,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -53760,6 +55510,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 5,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 27,
@@ -54088,6 +55848,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 2,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 5,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -54432,6 +56202,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 5,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 30,
@@ -54764,6 +56544,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 3,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 5,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -55117,6 +56907,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 5,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 2,
@@ -55431,6 +57231,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 4,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 5,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -55783,6 +57593,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 5,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 4,
@@ -56110,6 +57930,16 @@
           {
             "anga": {
               "anga_type_id": "RASHI",
+              "index": 5,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
               "index": 5,
               "jsonClass": "Anga"
             },
@@ -56460,6 +58290,16 @@
           {
             "anga": {
               "anga_type_id": "RASHI",
+              "index": 5,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
               "index": 5,
               "jsonClass": "Anga"
             },
@@ -56836,6 +58676,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 5,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 8,
@@ -57163,6 +59013,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 6,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 5,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -57507,6 +59367,26 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 5,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458291.7227,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 6,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458291.7227,
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 10,
@@ -57821,6 +59701,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 7,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 6,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -58176,6 +60066,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 6,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 12,
@@ -58488,6 +60388,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 6,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 13,
@@ -58792,6 +60702,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 8,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 6,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -59138,6 +61058,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 6,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 14,
@@ -59473,6 +61403,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 6,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 15,
@@ -59793,6 +61733,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 6,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 16,
@@ -60102,6 +62052,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 6,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 17,
@@ -60406,6 +62366,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 10,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 6,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -60731,6 +62701,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 6,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 19,
@@ -61026,6 +63006,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 11,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 6,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -61351,6 +63341,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 6,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 21,
@@ -61646,6 +63646,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 12,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 6,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -61986,6 +63996,26 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 6,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458305.7069,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 7,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458305.7069,
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 23,
@@ -62311,6 +64341,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 7,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 24,
@@ -62626,6 +64666,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 1,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 7,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -62970,6 +65020,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 7,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 26,
@@ -63311,6 +65371,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 7,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 27,
@@ -63641,6 +65711,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 7,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 28,
@@ -63951,6 +66031,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 3,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 7,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -64300,6 +66390,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 7,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 30,
@@ -64643,6 +66743,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 7,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 2,
@@ -64965,6 +67075,16 @@
               "jsonClass": "Anga"
             },
             "jd_start": 2458314.8309,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 7,
+              "jsonClass": "Anga"
+            },
             "jsonClass": "AngaSpan"
           }
         ],
@@ -65293,6 +67413,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 5,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 7,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -65635,6 +67765,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 7,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 5,
@@ -65954,6 +68094,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 6,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 7,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -66288,6 +68438,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 7,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 7,
@@ -66609,6 +68769,26 @@
               "index": 7,
               "jsonClass": "Anga"
             },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 7,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458319.6822,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 8,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458319.6822,
             "jsonClass": "AngaSpan"
           }
         ],
@@ -66962,6 +69142,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 8,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 9,
@@ -67269,6 +69459,16 @@
           {
             "anga": {
               "anga_type_id": "RASHI",
+              "index": 8,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
               "index": 8,
               "jsonClass": "Anga"
             },
@@ -67601,6 +69801,16 @@
           {
             "anga": {
               "anga_type_id": "RASHI",
+              "index": 8,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
               "index": 8,
               "jsonClass": "Anga"
             },
@@ -67948,6 +70158,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 8,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 12,
@@ -68262,6 +70482,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 9,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 8,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -68589,6 +70819,16 @@
               "jsonClass": "Anga"
             },
             "jd_start": 2458326.4445,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 8,
+              "jsonClass": "Anga"
+            },
             "jsonClass": "AngaSpan"
           }
         ],
@@ -68953,6 +71193,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 8,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 15,
@@ -69273,6 +71523,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 8,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 16,
@@ -69587,6 +71847,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 8,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 17,
@@ -69882,6 +72152,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 11,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 8,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -70212,6 +72492,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 8,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 18,
@@ -70522,6 +72812,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 8,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 19,
@@ -70827,6 +73127,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 12,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 8,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -71165,6 +73475,26 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 8,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458333.638,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 9,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458333.638,
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 21,
@@ -71475,6 +73805,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 1,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 9,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -71805,6 +74145,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 9,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 23,
@@ -72123,6 +74473,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 2,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 9,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -72464,6 +74824,16 @@
               "jsonClass": "Anga"
             },
             "jd_start": 2458338.2622,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 9,
+              "jsonClass": "Anga"
+            },
             "jsonClass": "AngaSpan"
           }
         ],
@@ -72814,6 +75184,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 9,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 27,
@@ -73153,6 +75533,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 9,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 28,
@@ -73477,6 +75867,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 4,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 9,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -73839,6 +76239,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 9,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 30,
@@ -74149,6 +76559,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 5,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 9,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -74523,6 +76943,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 9,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 2,
@@ -74847,6 +77277,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 6,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 9,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -75181,6 +77621,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 9,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 5,
@@ -75503,6 +77953,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 7,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 9,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -75848,6 +78308,26 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 9,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458347.5363,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 10,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458347.5363,
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 7,
@@ -76173,6 +78653,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 10,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 8,
@@ -76487,6 +78977,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 8,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 10,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -76822,6 +79322,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 10,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 10,
@@ -77135,6 +79645,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 9,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 10,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -77456,6 +79976,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 9,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 10,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -77788,6 +80318,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 10,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 12,
@@ -78109,6 +80649,16 @@
           {
             "anga": {
               "anga_type_id": "RASHI",
+              "index": 10,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
               "index": 10,
               "jsonClass": "Anga"
             },
@@ -78439,6 +80989,16 @@
               "jsonClass": "Anga"
             },
             "jd_start": 2458356.2377,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 10,
+              "jsonClass": "Anga"
+            },
             "jsonClass": "AngaSpan"
           }
         ],
@@ -78788,6 +81348,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 10,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 15,
@@ -79098,6 +81668,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 11,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 10,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -79441,6 +82021,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 10,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 17,
@@ -79755,6 +82345,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 12,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 10,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -80093,6 +82693,26 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 10,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458361.3704,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 11,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458361.3704,
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 19,
@@ -80403,6 +83023,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 1,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 11,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -80730,6 +83360,16 @@
               "jsonClass": "Anga"
             },
             "jd_start": 2458363.3954,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 11,
+              "jsonClass": "Anga"
+            },
             "jsonClass": "AngaSpan"
           }
         ],
@@ -81068,6 +83708,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 11,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 22,
@@ -81399,6 +84049,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 2,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 11,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -81756,6 +84416,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 11,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 24,
@@ -82075,6 +84745,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 3,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 11,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -82431,6 +85111,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 11,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 26,
@@ -82767,6 +85457,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 4,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 11,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -83123,6 +85823,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 11,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 29,
@@ -83468,6 +86178,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 11,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 30,
@@ -83794,6 +86514,16 @@
               "jsonClass": "Anga"
             },
             "jd_start": 2458371.7337,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 11,
+              "jsonClass": "Anga"
+            },
             "jsonClass": "AngaSpan"
           }
         ],
@@ -84129,6 +86859,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 6,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 11,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -84485,6 +87225,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 11,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 3,
@@ -84801,6 +87551,26 @@
               "index": 7,
               "jsonClass": "Anga"
             },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 11,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458375.1114,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 12,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458375.1114,
             "jsonClass": "AngaSpan"
           }
         ],
@@ -85137,6 +87907,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 12,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 5,
@@ -85467,6 +88247,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 8,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 12,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -85813,6 +88603,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 12,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 7,
@@ -86120,6 +88920,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 9,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 12,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -86456,6 +89266,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 12,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 9,
@@ -86785,6 +89605,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 12,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 10,
@@ -87099,6 +89929,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 10,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 12,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -87447,6 +90287,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 12,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 12,
@@ -87784,6 +90634,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 12,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 13,
@@ -88096,6 +90956,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 11,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 12,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -88418,6 +91288,16 @@
               "jsonClass": "Anga"
             },
             "jd_start": 2458385.9881,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 12,
+              "jsonClass": "Anga"
+            },
             "jsonClass": "AngaSpan"
           }
         ],
@@ -88760,6 +91640,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 12,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 15,
@@ -89090,6 +91980,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 12,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 16,
@@ -89402,6 +92302,26 @@
               "index": 1,
               "jsonClass": "Anga"
             },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 12,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458388.7591,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 13,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458388.7591,
             "jsonClass": "AngaSpan"
           }
         ],
@@ -89727,6 +92647,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 1,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 13,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -90062,6 +92992,16 @@
               "jsonClass": "Anga"
             },
             "jd_start": 2458390.6209,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 13,
+              "jsonClass": "Anga"
+            },
             "jsonClass": "AngaSpan"
           }
         ],
@@ -90410,6 +93350,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 2,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 13,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -90766,6 +93716,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 13,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 22,
@@ -91088,6 +94048,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 3,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 13,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -91422,6 +94392,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 13,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 24,
@@ -91732,6 +94712,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 4,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 13,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -92072,6 +95062,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 13,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 26,
@@ -92408,6 +95408,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 5,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 13,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -92756,6 +95766,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 13,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 28,
@@ -93078,6 +96098,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 6,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 13,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -93416,6 +96446,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 13,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 30,
@@ -93748,6 +96788,26 @@
               "index": 7,
               "jsonClass": "Anga"
             },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 13,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458402.2994,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 14,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458402.2994,
             "jsonClass": "AngaSpan"
           }
         ],
@@ -94096,6 +97156,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 14,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 2,
@@ -94425,6 +97495,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 14,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 4,
@@ -94737,6 +97817,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 8,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 14,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -95057,6 +98147,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 14,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 5,
@@ -95372,6 +98472,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 9,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 14,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -95706,6 +98816,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 14,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 7,
@@ -96036,6 +99156,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 10,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 14,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -96375,6 +99505,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 10,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 14,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -96732,6 +99872,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 14,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 10,
@@ -97046,6 +100196,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 11,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 14,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -97374,6 +100534,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 14,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 12,
@@ -97684,6 +100854,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 12,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 14,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -98003,6 +101183,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 12,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 14,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -98379,6 +101569,26 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 14,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458415.7377,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 15,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458415.7377,
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 15,
@@ -98697,6 +101907,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 1,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 15,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -99057,6 +102277,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 15,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 17,
@@ -99398,6 +102628,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 15,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 18,
@@ -99715,6 +102955,16 @@
               "jsonClass": "Anga"
             },
             "jd_start": 2458420.055,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 15,
+              "jsonClass": "Anga"
+            },
             "jsonClass": "AngaSpan"
           }
         ],
@@ -100057,6 +103307,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 15,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 20,
@@ -100377,6 +103637,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 15,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 21,
@@ -100682,6 +103952,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 4,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 15,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -101028,6 +104308,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 15,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 23,
@@ -101348,6 +104638,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 5,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 15,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -101706,6 +105006,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 15,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 26,
@@ -102045,6 +105355,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 15,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 27,
@@ -102375,6 +105695,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 6,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 15,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -102721,6 +106051,26 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 15,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458429.0781,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 16,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458429.0781,
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 29,
@@ -103064,6 +106414,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 16,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 30,
@@ -103386,6 +106746,16 @@
               "jsonClass": "Anga"
             },
             "jd_start": 2458430.84,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 16,
+              "jsonClass": "Anga"
+            },
             "jsonClass": "AngaSpan"
           }
         ],
@@ -103712,6 +107082,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 16,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 2,
@@ -104032,6 +107412,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 16,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 3,
@@ -104342,6 +107732,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 9,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 16,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -104674,6 +108074,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 16,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 5,
@@ -104999,6 +108409,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 16,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 6,
@@ -105293,6 +108713,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 10,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 16,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -105614,6 +109044,16 @@
               "jsonClass": "Anga"
             },
             "jd_start": 2458438.1977,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 16,
+              "jsonClass": "Anga"
+            },
             "jsonClass": "AngaSpan"
           }
         ],
@@ -105945,6 +109385,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 11,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 16,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -106285,6 +109735,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 16,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 9,
@@ -106611,6 +110071,16 @@
               "jsonClass": "Anga"
             },
             "jd_start": 2458440.6882,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 16,
+              "jsonClass": "Anga"
+            },
             "jsonClass": "AngaSpan"
           }
         ],
@@ -106948,6 +110418,26 @@
               "index": 12,
               "jsonClass": "Anga"
             },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 16,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458442.3287,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 17,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458442.3287,
             "jsonClass": "AngaSpan"
           }
         ],
@@ -107308,6 +110798,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 17,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 12,
@@ -107627,6 +111127,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 1,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 17,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -107989,6 +111499,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 17,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 14,
@@ -108345,6 +111865,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 17,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 15,
@@ -108667,6 +112197,16 @@
               "jsonClass": "Anga"
             },
             "jd_start": 2458447.3659,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 17,
+              "jsonClass": "Anga"
+            },
             "jsonClass": "AngaSpan"
           }
         ],
@@ -109014,6 +112554,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 17,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 17,
@@ -109353,6 +112903,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 17,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 19,
@@ -109668,6 +113228,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 17,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 20,
@@ -109973,6 +113543,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 4,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 17,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -110323,6 +113903,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 17,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 22,
@@ -110657,6 +114247,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 17,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 23,
@@ -110979,6 +114579,16 @@
               "jsonClass": "Anga"
             },
             "jd_start": 2458453.6891,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 17,
+              "jsonClass": "Anga"
+            },
             "jsonClass": "AngaSpan"
           }
         ],
@@ -111325,6 +114935,26 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 17,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458455.5112,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 18,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458455.5112,
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 25,
@@ -111662,6 +115292,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 18,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 26,
@@ -111972,6 +115612,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 7,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 18,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -112302,6 +115952,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 18,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 28,
@@ -112620,6 +116280,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 8,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 18,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -112959,6 +116629,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 18,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 30,
@@ -113261,6 +116941,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 9,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 18,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -113585,6 +117275,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 18,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 2,
@@ -113897,6 +117597,16 @@
               "jsonClass": "Anga"
             },
             "jd_start": 2458462.9901,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 18,
+              "jsonClass": "Anga"
+            },
             "jsonClass": "AngaSpan"
           }
         ],
@@ -114214,6 +117924,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 10,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 18,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -114544,6 +118264,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 18,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 5,
@@ -114863,6 +118593,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 11,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 18,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -115197,6 +118937,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 18,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 7,
@@ -115517,6 +119267,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 18,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 8,
@@ -115831,6 +119591,26 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 18,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458468.634,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 19,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458468.634,
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 9,
@@ -116138,6 +119918,16 @@
               "jsonClass": "Anga"
             },
             "jd_start": 2458470.4477,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 19,
+              "jsonClass": "Anga"
+            },
             "jsonClass": "AngaSpan"
           }
         ],
@@ -116459,6 +120249,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 1,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 19,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -116821,6 +120621,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 19,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 11,
@@ -117160,6 +120970,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 19,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 13,
@@ -117465,6 +121285,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 2,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 19,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -117823,6 +121653,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 19,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 15,
@@ -118142,6 +121982,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 3,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 19,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -118493,6 +122343,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 19,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 17,
@@ -118812,6 +122672,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 4,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 19,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -119137,6 +123007,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 19,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 19,
@@ -119452,6 +123332,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 5,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 19,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -119792,6 +123682,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 19,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 22,
@@ -120113,6 +124013,26 @@
               "index": 6,
               "jsonClass": "Anga"
             },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 19,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458481.7308,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 20,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458481.7308,
             "jsonClass": "AngaSpan"
           }
         ],
@@ -120450,6 +124370,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 20,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 24,
@@ -120769,6 +124699,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 20,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 25,
@@ -121083,6 +125023,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 20,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 26,
@@ -121387,6 +125337,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 20,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 27,
@@ -121686,6 +125646,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 8,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 20,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -122005,6 +125975,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 20,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 29,
@@ -122294,6 +126274,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 9,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 20,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -122603,6 +126593,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 20,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 30,
@@ -122907,6 +126907,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 20,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 1,
@@ -123206,6 +127216,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 10,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 20,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -123525,6 +127545,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 20,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 3,
@@ -123814,6 +127844,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 11,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 20,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -124123,6 +128163,26 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 20,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458494.8108,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 21,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458494.8108,
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 5,
@@ -124412,6 +128472,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 12,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 21,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -124716,6 +128786,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 12,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 21,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -125036,6 +129116,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 21,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 8,
@@ -125335,6 +129425,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 1,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 21,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -125664,6 +129764,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 21,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 10,
@@ -125963,6 +130073,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 2,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 21,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -126282,6 +130402,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 21,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 12,
@@ -126591,6 +130721,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 3,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 21,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -126920,6 +131060,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 21,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 14,
@@ -127219,6 +131369,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 4,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 21,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -127558,6 +131718,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 21,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 16,
@@ -127867,6 +132037,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 5,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 21,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -128186,6 +132366,26 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 21,
+              "jsonClass": "Anga"
+            },
+            "jd_end": 2458507.9099,
+            "jsonClass": "AngaSpan"
+          },
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 22,
+              "jsonClass": "Anga"
+            },
+            "jd_start": 2458507.9099,
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 19,
@@ -128495,6 +132695,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 6,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 22,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -128814,6 +133024,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 22,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 21,
@@ -129118,6 +133338,16 @@
             "jsonClass": "AngaSpan"
           }
         ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 22,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
         "tithi_at_sunrise": {
           "anga_type_id": "TITHI",
           "index": 22,
@@ -129417,6 +133647,16 @@
             "anga": {
               "anga_type_id": "RASHI",
               "index": 7,
+              "jsonClass": "Anga"
+            },
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 22,
               "jsonClass": "Anga"
             },
             "jsonClass": "AngaSpan"
@@ -129743,6 +133983,16 @@
               "jsonClass": "Anga"
             },
             "jd_start": 2458512.6438,
+            "jsonClass": "AngaSpan"
+          }
+        ],
+        "solar_nakshatras_with_ends": [
+          {
+            "anga": {
+              "anga_type_id": "SOLAR_NAKSH",
+              "index": 22,
+              "jsonClass": "Anga"
+            },
             "jsonClass": "AngaSpan"
           }
         ],

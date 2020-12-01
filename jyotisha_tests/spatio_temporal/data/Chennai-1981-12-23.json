@@ -473,6 +473,16 @@
         "jsonClass": "AngaSpan"
       }
     ],
+    "solar_nakshatras_with_ends": [
+      {
+        "anga": {
+          "anga_type_id": "SOLAR_NAKSH",
+          "index": 19,
+          "jsonClass": "Anga"
+        },
+        "jsonClass": "AngaSpan"
+      }
+    ],
     "tithi_at_sunrise": {
       "anga_type_id": "TITHI",
       "index": 27,

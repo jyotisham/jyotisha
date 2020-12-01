@@ -3,8 +3,6 @@ import os
 
 from doc_curation.md_helper import MdFile
 
-from indic_transliteration import sanscript
-
 from jyotisha.panchaanga.spatio_temporal.periodical import Panchaanga
 from jyotisha.panchaanga.writer import md
 
@@ -20,8 +18,9 @@ TEST_DATA_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'data'
 
 def test_panchanga_chennai_2019():
   panchaanga_2019 = Panchaanga.read_from_file(filename=os.path.join(TEST_DATA_PATH, 'Chennai-2019.json'))
-  orig_md_file = os.path.join(TEST_DATA_PATH, 'Chennai-2019-devanagari.md')
-  current_md_output = os.path.join(TEST_DATA_PATH, 'Chennai-2019-devanagari.md.local')
+  # We dump to md.txt rather than md to avoid slow checks on intellij ide.
+  orig_md_file = os.path.join(TEST_DATA_PATH, 'Chennai-2019-devanagari.md.txt')
+  current_md_output = os.path.join(TEST_DATA_PATH, 'Chennai-2019-devanagari.md.txt.local')
   md_file = MdFile(file_path=current_md_output)
   md_file.dump_to_file(metadata={"title": str(2019)}, md=md.make_md(panchaanga=panchaanga_2019), dry_run=False)
   if not os.path.exists(orig_md_file):
