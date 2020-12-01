@@ -44,8 +44,7 @@ For detailed examples and help, please see individual module files - especially 
 
 #### API usage
 - Please see the generated python sphynx docs in one of the following places (jyotisha.panchanga.scripts package docs may be particularly relevant):
-    - http://jyotisha.readthedocs.io [Broken as of 20170828.]
-    - Rarely updated [project page](https://sanskrit-coders.github.io/jyotisha/build/html/jyotisha.html).
+    - [readthedocs site](http://jyotisha.readthedocs.io)
     - under docs/_build/html/index.html
 - REST API/ swagger web interface 
     - Deployments at [vedavaapi](http://api.vedavaapi.org/jyotisha) - obsolete and unmaintained as of 2020.

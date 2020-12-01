@@ -1,0 +1,11 @@
+
+title: Parts
+contents:
+  - title: Home - Intro
+    url: /index.html
+  - url: /subfolder2/dummy_devanagari.md
+  - title: list subfolder1/paravastu-saama
+    contents:
+      - url: dir://subfolder1/paravastu-saama
+  - title: Blog
+    url: /assets/blog/index.html

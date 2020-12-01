@@ -1,0 +1,110 @@
+site_title: Sanskrit documentation theme- Test site
+# this appears in the html browser tab for the site title (seen mostly by search engines, not users)
+
+company_name: sanskrit-coders
+# this appears in the footer
+
+github_editme_path: sanskrit-coders/sanskrit-documentation-theme/blob/master/
+# if you're using Github, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
+# Must end with a slash.
+
+# gitlab_editme_path: tomjoht/documentation-theme-jekyll/blob/gh-pages/
+# if you're using GitLab, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
+
+disqus_shortname: sanskrit-coders-site
+# if you're using disqus for comments, add the shortname here. if not, leave this value blank.
+
+google_analytics: UA-43258994-2
+# if you have google-analytics ID, put it in. if not, edit this value to blank.
+
+# Generated using https://search.google.com/search-console
+google_webmaster_verification_tag: <meta name="google-site-verification" content="33f1oqqMeFzIsi1CqZcWDNtPLOqxkEhEg6Sitg7h6d4" />
+# if you don't have the above, edit this value to blank.
+
+# Created using https://cse.google.com/
+google_custom_search_code: "
+<script>
+  (function() {
+    var cx = '003441740804712584864:ljsein-bkgs';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+"
+
+host: 127.0.0.1
+# the preview server used. Leave as is.
+
+port: 4000
+# the port where the preview is rendered. You can leave this as is unless you have other Jekyll builds using this same port that might cause conflicts. in that case, use another port such as 4006.
+
+exclude:
+  - .gitignore
+# these are the files and directories that jekyll will exclude from the build
+
+feedback_text: "Feedback?"
+# if you uncomment the previous line, it changes the Feedback text
+
+feedback_link: "https://github.com/sanskrit-coders/sanskrit-documentation-theme/issues"
+# if you uncomment the previous line, it changes where the feedback link points to
+
+highlighter: rouge
+# library used for syntax highlighting
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+  hard_wrap: false
+  syntax_highlighter: rouge
+
+# filter used to process markdown. note that kramdown differs from github-flavored markdown in some subtle ways
+
+
+# Order matters below.
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+      comments: true
+      search: true
+      sidebar: home_sidebar
+      topnav: top_bar
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true
+      search: true
+      sidebar: home_sidebar
+      topnav: home_sidebar
+      permalink: /posts/:slug:output_ext
+# these are defaults used for the frontmatter for these file types
+
+
+timezone: Asia/Kolkata
+
+description: Jyotisha py output.
+#  Write an awesome description for your new site here. You can edit this
+#  line in _config.yml. It will appear in your document head meta (for
+#  Google search results) and in your feed.xml site description.
+
+# needed for sitemap.xml file
+url: http://sanskrit-coders.github.io/
+baseurl: "/jyotisha" # the subpath of your site, e.g. /blog
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-regex-replace
