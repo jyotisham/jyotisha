@@ -3,7 +3,6 @@ title: Parts
 contents:
   - title: Home - Intro
     url: /index.html
-  - url: /subfolder2/dummy_devanagari.md
   - title: bengaLUru - common
     contents:
       - url: dir://output/sahakAra nagar%2C bengaLUru/MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_AT_180/shaka_year/
