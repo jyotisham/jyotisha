@@ -41,13 +41,13 @@ jobs:
 #The below is disabled pending https://github.com/sanskrit-coders/jyotisha/runs/1142973750
     - name: Build package
       run: |
-        python -m pip install . -e
+        python -m pip install .
     - name: Build test
       run: |
         python -c "import jyotisha"
     - name: Regenerate calendars
       run: |
-        python -c "import jyotisha.panchaanga.writer.generation_project; jyotisha.panchaanga.writer.generation_project"
+        python -m "jyotisha.panchaanga.writer.generation_project"
 #        python jyotisha/panchaanga/writer/generation_project/__main__.py
     - name: Test with pytest
       run: |
