@@ -15,26 +15,27 @@ from jyotisha.panchaanga.writer import ics, md
 output_dir = os.path.join(os.path.dirname(os.path.dirname(jyotisha.__file__)), "hugo_source", "content", "output")
 
 
-def dump_common(year, city):
-  computation_system = ComputationSystem.MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_180
-  tropical_panchaanga = annual.get_panchaanga_for_shaka_year(city=city, year=year, computation_system=computation_system)
-  ics_calendar = ics.compute_calendar(tropical_panchaanga)
-  output_file_ics = os.path.join(output_dir, city.name, str(computation_system), "shaka_year", '%d.ics' % (year))
+def dump_ics_md_pair(panchaanga):
+  ics_calendar = ics.compute_calendar(panchaanga)
+  output_file_ics = os.path.join(output_dir, panchaanga.city.name, str(panchaanga.computation_system), "shaka_year", '%d.ics' % (panchaanga.start_date.year))
   ics.write_to_file(ics_calendar, output_file_ics)
 
   md_file = MdFile(file_path=output_file_ics.replace(".ics", ".md"), frontmatter_type=MdFile.YAML)
-  md_file.dump_to_file(metadata={"title": str(year)}, md=md.make_md(panchaanga=tropical_panchaanga), dry_run=False)
+  ics_link = "## Related files\n- [ics](%s)\n" % str(output_file_ics)
+  md_content = "%s\n%s" % (ics_link, md.make_md(panchaanga=panchaanga))
+  md_file.dump_to_file(metadata={"title": str(panchaanga.start_date.year)}, md=md_content, dry_run=False)
+
+
+def dump_common(year, city):
+  computation_system = ComputationSystem.MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_180
+  panchaanga = annual.get_panchaanga_for_shaka_year(city=city, year=year, computation_system=computation_system)
+  dump_ics_md_pair(panchaanga=panchaanga)
 
 
 def dump_kauNDinyAyana(year, city):
   computation_system = ComputationSystem.SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_180
   computation_system.options.fest_repos = [RulesRepo(name="gRhya/general")]
   tropical_panchaanga = annual.get_panchaanga_for_shaka_year(city=city, year=year, computation_system=computation_system, allow_precomputed=False)
-  ics_calendar = ics.compute_calendar(tropical_panchaanga)
-  output_file_ics = os.path.join(output_dir, city.name, str(computation_system), "shaka_year", '%d.ics' % (year))
-  ics.write_to_file(ics_calendar, output_file_ics)
-
-  md_file = MdFile(file_path=output_file_ics.replace(".ics", ".md"), frontmatter_type=MdFile.YAML)
-  md_file.dump_to_file(metadata={"title": str(year)}, md=md.make_md(panchaanga=tropical_panchaanga), dry_run=False)
+  dump_ics_md_pair(panchaanga=tropical_panchaanga)
   
 
