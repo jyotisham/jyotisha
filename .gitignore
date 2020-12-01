@@ -21,3 +21,5 @@ jyotisha/panchaanga/temporal/data/festival_rules_test.json
 jyotisha_tests/update_test_json.py
 *.swp
 /jyotisha/panchaanga/temporal/festival/data/migrated
+/docs/_site/
+/docs/.jekyll-cache/

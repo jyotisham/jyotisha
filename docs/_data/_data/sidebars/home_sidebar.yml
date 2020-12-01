@@ -4,8 +4,11 @@ contents:
   - title: Home - Intro
     url: /index.html
   - url: /subfolder2/dummy_devanagari.md
-  - title: list subfolder1/paravastu-saama
+  - title: bengaLUru - common
     contents:
-      - url: dir://subfolder1/paravastu-saama
+      - url: dir://output/sahakAra nagar%2C bengaLUru/MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_AT_180/shaka_year/
+  - title: bengaLUru - kauNDinyAyana
+    contents:
+      - url: dir://output/sahakAra nagar, bengaLUru/SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_AT_180/shaka_year
   - title: Blog
     url: /assets/blog/index.html
