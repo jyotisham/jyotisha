@@ -50,7 +50,7 @@ For detailed examples and help, please see individual module files - especially 
     - Deployments at [vedavaapi](http://api.vedavaapi.org/jyotisha) - obsolete and unmaintained as of 2020.
 
 ### Calendars produced
-- See [this site](https://sanskrit-coders.github.io/jyotisha/output/) [To generate website locally, run `cd docs;bundle exec jekyll serve`] - includes some markdown → html and ics calendars.
+- See [this site](https://sanskrit-coders.github.io/jyotisha/output/) [To generate basic website locally, run `cd docs;bundle exec jekyll serve`] - includes some markdown → html and ics calendars.
 
 ## For contributors
 Contributions welcome! Please see some basic comments (pertaining to the time format used internally, API layers required) in the base jyotisha package though.
