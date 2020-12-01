@@ -57,7 +57,10 @@ jobs:
       run: |
         cd hugo-source
         rm -rf build_github
+        pwd
+        ls -l /home/runner/work/jyotisha/jyotisha/hugo_source/content/output/sahakAra nagar, bengaLUru/SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_AT_180/shaka_year/
         python -m "jyotisha.panchaanga.writer.generation_project"
+        ls -l /home/runner/work/jyotisha/jyotisha/hugo_source/content/output/sahakAra nagar, bengaLUru/SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_AT_180/shaka_year/
         hugo
         cd ..
     - name: Deploy
