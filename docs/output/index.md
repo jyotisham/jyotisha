@@ -1,5 +1,5 @@
 ---
-title: "Jyotisha py site"
+title: "Calendar outputs"
 ---
 
 Welcome!
