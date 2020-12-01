@@ -74,9 +74,7 @@ class FestivalAssigner(PeriodicPanchaangaApplier):
     # If tripurotsava coincides with maha kArttikI (kRttikA nakShatram)
     # only then it is mahAkArttikI
     # else it is only tripurotsava
-    if 'tripurOtsavaH' not in self.panchaanga.festival_id_to_days:
-      logging.error('tripurOtsavaH not in self.panchaanga.festival_id_to_days!')
-    else:
+    if 'tripurOtsavaH' in self.panchaanga.festival_id_to_days:
       if self.panchaanga.festival_id_to_days['tripurOtsavaH'] != self.panchaanga.festival_id_to_days['mahA~kArttikI']:
         logging.warning('Removing mahA~kArttikI (%s) since it does not coincide with tripurOtsavaH (%s)' % (
           str(self.panchaanga.festival_id_to_days['tripurOtsavaH']), set(self.panchaanga.festival_id_to_days['mahA~kArttikI'])))

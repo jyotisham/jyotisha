@@ -56,11 +56,10 @@ jobs:
     - name: Regenerate calendars
       run: |
         python -m "jyotisha.panchaanga.writer.generation_project"
-    - name: Clean build_github directory
-      run: rm -rf build_github
     - name: Build hugo site pages
       run: |
         cd hugo-source
+        rm -rf build_github
         hugo
         cd ..
     - name: Deploy
