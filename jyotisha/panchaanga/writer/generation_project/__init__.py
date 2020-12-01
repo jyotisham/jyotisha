@@ -21,9 +21,9 @@ def dump_ics_md_pair(panchaanga, period_str):
   ics.write_to_file(ics_calendar, output_file_ics)
 
   md_file = MdFile(file_path=output_file_ics.replace(".ics", ".md"), frontmatter_type=MdFile.YAML)
-  ics_link = "## Related files\n- [ics](%s)\n" % str(output_file_ics)
+  ics_link = "## Related files\n- [ics](%s)\n" % str(os.path.basename(ics_calendar))
   md_content = "%s\n%s" % (ics_link, md.make_md(panchaanga=panchaanga))
-  md_file.dump_to_file(metadata={"title": str(panchaanga.start_date.year)}, md=md_content, dry_run=False)
+  md_file.dump_to_file(metadata={"title": period_str}, md=md_content, dry_run=False)
 
 
 def dump_common(year, city):
