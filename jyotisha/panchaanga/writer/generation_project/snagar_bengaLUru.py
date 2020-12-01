@@ -19,7 +19,7 @@ def dump_common(year, city):
   output_file_ics = os.path.join(output_dir, city.name, str(computation_system), "shaka_year", '%d.ics' % (year))
   ics.write_to_file(ics_calendar, output_file_ics)
 
-  md_file = MdFile(file_path=output_file_ics.replace(".ics", ".md"))
+  md_file = MdFile(file_path=output_file_ics.replace(".ics", ".md"), frontmatter_type=MdFile.YAML)
   md_file.dump_to_file(metadata={"title": str(year)}, md=md.make_md(panchaanga=tropical_panchaanga), dry_run=False)
 
 
