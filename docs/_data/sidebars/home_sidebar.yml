@@ -10,10 +10,10 @@ contents:
         contents:
           - title: common
             contents:
-              - url: dir://output/sahakAra%20nagar,%20bengaLUru/SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_AT_180/shaka_year/
+              - url: dir://output/sahakAra%20nagar,%20bengaLUru/MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_AT_180/shaka_year
           - title: kauNDinyAyana
             contents:
-              - url: dir://output/sahakAra%20nagar,%20bengaLUru/MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_AT_180/shaka_year
+              - url: dir://output/sahakAra%20nagar,%20bengaLUru/SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_AT_180/shaka_year/
   - title: Code
     url: https://github.com/sanskrit-coders/jyotisha
   - title: V on jyotiSha
