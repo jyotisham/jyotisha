@@ -1,10 +1,12 @@
-site_title: Sanskrit documentation theme- Test site
+site_title: Jyotisha py pages
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
 company_name: sanskrit-coders
 # this appears in the footer
 
-github_editme_path: sanskrit-coders/sanskrit-documentation-theme/blob/master/
+remote_theme: sanskrit-coders/sanskrit-documentation-theme
+
+github_editme_path: sanskrit-coders/jyotisha/blob/master/
 # if you're using Github, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
 # Must end with a slash.
 
@@ -14,7 +16,7 @@ github_editme_path: sanskrit-coders/sanskrit-documentation-theme/blob/master/
 disqus_shortname: sanskrit-coders-site
 # if you're using disqus for comments, add the shortname here. if not, leave this value blank.
 
-google_analytics: UA-43258994-2
+google_analytics: 
 # if you have google-analytics ID, put it in. if not, edit this value to blank.
 
 # Generated using https://search.google.com/search-console
@@ -50,7 +52,7 @@ exclude:
 feedback_text: "Feedback?"
 # if you uncomment the previous line, it changes the Feedback text
 
-feedback_link: "https://github.com/sanskrit-coders/sanskrit-documentation-theme/issues"
+feedback_link: "https://github.com/sanskrit-coders/jyotisha/issues"
 # if you uncomment the previous line, it changes where the feedback link points to
 
 highlighter: rouge
