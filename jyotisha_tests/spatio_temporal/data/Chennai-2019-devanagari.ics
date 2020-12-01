@@ -456,7 +456,7 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190106T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190107T235957
 DESCRIPTION:Have darshan of Moon today\, chanting the following shloka<br/
  ><br/>śvetāmbaraḥ śvetavibhūṣaṇaścha śvetadyutirdaṇḍadharo
-  dvibāhuḥ|<br/>chandro'mṛtātmā varadaḥ kirīṭī mayi prasāda
+  dvibāhuḥ|  <br/>chandro'mṛtātmā varadaḥ kirīṭī mayi prasāda
  ṃ vidadhātu devaḥ||<br/><br/><br/><br/>##### Details<br/>- [Edit conf
  ig file](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/g
  raha/description_only/candra-darzanam__info.toml)<br/>- Tags: ChandraDarsh
@@ -755,11 +755,11 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190113T235957
 DESCRIPTION:saptamī tithi on a Sunday is as sacred as a solar eclipse. Pa
  rticularly good for worshipping Surya. When śukla saptamī is present at 
  sunrise\, it is called vijayā.<br/><br/>amāvasyā tu somena saptamī bh
- ānunā saha|<br/>chaturthī bhūmiputreṇa somaputreṇa chāṣṭamī|
- <br/>chatasrastithayastvetāḥ sūryagrahaṇasannibhāḥ||<br/><br/><br
- /><br/>##### Details<br/>- [Edit config file](https://github.com/sanskrit-
- coders/adyatithi/tree/master/time_focus/misc_combinations/description_only
- /vijayA~bhAnusaptamI__info.toml)<br/>- Tags: RareDays Combinations
+ ānunā saha|  <br/>chaturthī bhūmiputreṇa somaputreṇa chāṣṭam
+ ī|  <br/>chatasrastithayastvetāḥ sūryagrahaṇasannibhāḥ||<br/><br
+ /><br/><br/>##### Details<br/>- [Edit config file](https://github.com/sans
+ krit-coders/adyatithi/tree/master/time_focus/misc_combinations/description
+ _only/vijayA~bhAnusaptamI__info.toml)<br/>- Tags: RareDays Combinations
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1697,11 +1697,11 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190124T235957
 DESCRIPTION:Special vrata day for Ganesha. In this month\, Ganesha is wors
  hipped as lambodara-mahāgaṇapatiḥ. Fast during the day and pray to Ga
  nesha after moonrise\, as follows:<br/><br/>gaṇādhipastvaṃ deveśa ch
- aturthyāṃ pūjito mayā|<br/>kaṣṭānmāṃ mochayeśāna sarvamiṣ
- ṭaṃ cha dehi me||<br/><br/><br/><br/>##### Details<br/>- [Edit config 
- file](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/gaNa
- pati/description_only/lambOdara-mahAgaNapati%20saGkaTahara-caturthI-vratam
- __info.toml)<br/>- Tags: MonthlyVratam SankataharaChaturthiVratam
+ aturthyāṃ pūjito mayā|  <br/>kaṣṭānmāṃ mochayeśāna sarvami
+ ṣṭaṃ cha dehi me||<br/><br/><br/><br/>##### Details<br/>- [Edit conf
+ ig file](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/g
+ aNapati/description_only/lambOdara-mahAgaNapati%20saGkaTahara-caturthI-vra
+ tam__info.toml)<br/>- Tags: MonthlyVratam SankataharaChaturthiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1795,7 +1795,7 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190124T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190125T235957
 DESCRIPTION:Observed on Kṛṣṇa-Pañcamī tithi of Pauṣaḥ (lunar) 
  month (sunrise (default)/puurvaviddha (default)).  <br/><br/><br/>kāmakro
- dhādirahitaṃ rāmabhaktaśiromaṇim|<br/>tyāgarājaguruṃ vande sa
+ dhādirahitaṃ rāmabhaktaśiromaṇim|  <br/>tyāgarājaguruṃ vande sa
  ṅgītābdhiṃ kalānidhim||<br/><br/><br/><br/>##### Details<br/>- [Edi
  t config file](https://github.com/sanskrit-coders/adyatithi/tree/master/ma
  hApuruSha/sangIta-kRt/lunar_month/tithi/10/20/tyAgarAja-ArAdhanA__info.tom
@@ -1844,11 +1844,11 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190125T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190126T235957
 DESCRIPTION:Observed on Hastaḥ nakshatra of Makaraḥ (solar) month (pra
  atah/paraviddha).  <br/><br/><br/>karuṇāsāgaraṃ śāntam aruṇācha
- lavāsinam|<br/>śrīśeṣādriguruṃ vande brahmībhūtaṃ taponidhim|
- |<br/><br/><br/><br/>##### Details<br/>- [Edit config file](https://github
- .com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/general/sidereal_so
- lar_month/nakshatra/10/13/zrI~zESAdri-svAmI~jayantI__info.toml)<br/>- Tags
- : MahapurushaEvents
+ lavāsinam|  <br/>śrīśeṣādriguruṃ vande brahmībhūtaṃ taponidhi
+ m||<br/><br/><br/><br/>##### Details<br/>- [Edit config file](https://gith
+ ub.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/general/sidereal_
+ solar_month/nakshatra/10/13/zrI~zESAdri-svAmI~jayantI__info.toml)<br/>- Ta
+ gs: MahapurushaEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1893,11 +1893,11 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190126T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190127T235957
 DESCRIPTION:saptamī tithi on a Sunday is as sacred as a solar eclipse. Pa
  rticularly good for worshipping Surya.<br/><br/>amāvasyā tu somena sapta
- mī bhānunā saha|<br/>chaturthī bhūmiputreṇa somaputreṇa chāṣ
- ṭamī|<br/>chatasrastithayastvetāḥ sūryagrahaṇasannibhāḥ||<br/>
- <br/><br/><br/>##### Details<br/>- [Edit config file](https://github.com/s
- anskrit-coders/adyatithi/tree/master/time_focus/misc_combinations/descript
- ion_only/bhAnusaptamI__info.toml)<br/>- Tags: RareDays Combinations
+ mī bhānunā saha|  <br/>chaturthī bhūmiputreṇa somaputreṇa chāṣ
+ ṭamī|  <br/>chatasrastithayastvetāḥ sūryagrahaṇasannibhāḥ||<br
+ /><br/><br/><br/>##### Details<br/>- [Edit config file](https://github.com
+ /sanskrit-coders/adyatithi/tree/master/time_focus/misc_combinations/descri
+ ption_only/bhAnusaptamI__info.toml)<br/>- Tags: RareDays Combinations
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2418,17 +2418,13 @@ BEGIN:VEVENT
 SUMMARY:Somavatī Amāvāsyā
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190203T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190204T235957
-DESCRIPTION:amāvāsyā on a Monday is as sacred as a solar eclipse. Parti
- cularly good for performing pradakshinam of Pippala tree.<br/><br/>amāvas
- yā tu somena saptamī bhānunā saha|<br/>chaturthī bhūmiputreṇa soma
- putreṇa chāṣṭamī|<br/>chatasrastithayastvetāḥ sūryagrahaṇasa
- nnibhāḥ||<br/><br/>mūlato brahmarūpāya madhyato viṣṇurūpiṇe|<
- br/>agrataḥ śivarūpāya vṛkṣarājāya te namaḥ||<br/>akṣispand
- aṃ bhujaspandaṃ duḥsvapnaṃ durvichintanam|<br/>śatrūnām cha sam
- utpannam aśvattha śamayasva me||<br/><br/><br/><br/>##### Details<br/>- 
- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/maste
- r/time_focus/monthly/amAvAsyA/description_only/sOmavatI%20amAvAsyA__info.t
- oml)<br/>- Tags: RareDays Combinations AmavasyaDays
+DESCRIPTION:##### Details<br/>- [Edit config file](https://github.com/sans
+ krit-coders/adyatithi/tree/master/time_focus/monthly/amAvAsyA/description_
+ only/sOmavatI%20amAvAsyA__info.toml)<br/>- Tags: RareDays Combinations Ama
+ vasyaDays<br/><br/><br/><br/>##### Details<br/>- [Edit config file](https:
+ //github.com/sanskrit-coders/adyatithi/tree/master/time_focus/monthly/amAv
+ AsyA/description_only/sOmavatI%20amAvAsyA__info.toml)<br/>- Tags: RareDays
+  Combinations AmavasyaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2590,7 +2586,7 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190205T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190206T235957
 DESCRIPTION:Have darshan of Moon today\, chanting the following shloka<br/
  ><br/>śvetāmbaraḥ śvetavibhūṣaṇaścha śvetadyutirdaṇḍadharo
-  dvibāhuḥ|<br/>chandro'mṛtātmā varadaḥ kirīṭī mayi prasāda
+  dvibāhuḥ|  <br/>chandro'mṛtātmā varadaḥ kirīṭī mayi prasāda
  ṃ vidadhātu devaḥ||<br/><br/><br/><br/>##### Details<br/>- [Edit conf
  ig file](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/g
  raha/description_only/candra-darzanam__info.toml)<br/>- Tags: ChandraDarsh
@@ -2717,11 +2713,11 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190207T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190208T235957
 DESCRIPTION:Observed on Śukla-Caturthī tithi of Māghaḥ (lunar) month 
  (pradosha/puurvaviddha).  <br/><br/><br/>māghaśuklachaturthyāṃ tu kun
- dapuṣpaiḥ sadāśivam|<br/>sampūjya yo hi naktā''śī samprāpnoti 
- śriyaṃ naraḥ||<br/><br/><br/>##### References<br/>- Nirnaya Sindhu 16
- 2<br/><br/><br/>##### Details<br/>- [Edit config file](https://github.com/
- sanskrit-coders/adyatithi/tree/master/devatA/gaNapati/lunar_month/tithi/11
- /04/varakunda-caturthI__info.toml)<br/>- Tags: SpecialPuja
+ dapuṣpaiḥ sadāśivam|  <br/>sampūjya yo hi naktā''śī samprāpnoti
+  śriyaṃ naraḥ||<br/><br/><br/>##### References<br/>- Nirnaya Sindhu 1
+ 62<br/><br/><br/>##### Details<br/>- [Edit config file](https://github.com
+ /sanskrit-coders/adyatithi/tree/master/devatA/gaNapati/lunar_month/tithi/1
+ 1/04/varakunda-caturthI__info.toml)<br/>- Tags: SpecialPuja
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2903,12 +2899,12 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190210T235957
 DESCRIPTION:Observed on Śukla-Pañcamī tithi of Māghaḥ (lunar) month 
  (sunrise (default)/puurvaviddha (default)).  <br/>Worship Mahavishnu and M
  ahalakshmi\, Rati Devi and Manmatha with jasmine flowers.<br/><br/>māgham
- āse nṛpaśreṣṭha śuklāyāṃ pañchamītithau|<br/>ratikāmau tu 
- sampūjya kartavyaḥ sumahotsavaḥ||<br/><br/><br/>##### References<br/>
- - Smriti Kaustubham 479<br/><br/><br/>##### Details<br/>- [Edit config fil
- e](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/vaiShNa
- va/lunar_month/tithi/11/05/vasanta-zrI-paJcamI__info.toml)<br/>- Tags: Spe
- cialPuja
+ āse nṛpaśreṣṭha śuklāyāṃ pañchamītithau|  <br/>ratikāmau t
+ u sampūjya kartavyaḥ sumahotsavaḥ||<br/><br/><br/>##### References<br
+ />- Smriti Kaustubham 479<br/><br/><br/>##### Details<br/>- [Edit config f
+ ile](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/vaiSh
+ Nava/lunar_month/tithi/11/05/vasanta-zrI-paJcamI__info.toml)<br/>- Tags: S
+ pecialPuja
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3207,12 +3203,12 @@ SUMMARY:Budhāṣṭamī
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190212T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190213T235957
 DESCRIPTION:aṣṭamī tithi on a Wednesday is as sacred as a solar eclip
- se.<br/><br/>amāvasyā tu somena saptamī bhānunā saha|<br/>chaturthī 
- bhūmiputreṇa somaputreṇa chāṣṭamī|<br/>chatasrastithayastvetā
- ḥ sūryagrahaṇasannibhāḥ||<br/><br/><br/><br/>##### Details<br/>- [
- Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master
- /time_focus/misc_combinations/description_only/budhASTamI__info.toml)<br/>
- - Tags: RareDays Combinations
+ se.<br/><br/>amāvasyā tu somena saptamī bhānunā saha|  <br/>chaturth
+ ī bhūmiputreṇa somaputreṇa chāṣṭamī|  <br/>chatasrastithayastv
+ etāḥ sūryagrahaṇasannibhāḥ||<br/><br/><br/><br/>##### Details<br/
+ >- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/ma
+ ster/time_focus/misc_combinations/description_only/budhASTamI__info.toml)<
+ br/>- Tags: RareDays Combinations
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3654,12 +3650,12 @@ DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Māghaḥ (lunar) month
   (sunrise (default)/puurvaviddha (default)).  <br/>Mahavishnu created blac
  k til by extreme tapaḥ on this day\; light til deepam and offer tilānna
  m naivedyam.<br/><br/>māghe tu śukladvādaśyāṃ yato hi bhagavān pur
- a|<br/>tilān utpādayāmāsa tapaḥ kṛtvā sudāruṇam||<br/>tilatail
- ena dīpāśchha deyāh deva gṛheṣu cha|<br/>nivedayet tilāneva<br/><
- br/><br/>##### References<br/>- Vaidikasri Feb 2016<br/><br/><br/>##### De
- tails<br/>- [Edit config file](https://github.com/sanskrit-coders/adyatith
- i/tree/master/general/lunar_month/tithi/11/12/tilapadma-dvAdazI%20or%20til
- Otpatti__info.toml)<br/>- Tags: SpecialPuja
+ a|  <br/>tilān utpādayāmāsa tapaḥ kṛtvā sudāruṇam||  <br/>tila
+ tailena dīpāśchha deyāh deva gṛheṣu cha|  <br/>nivedayet tilāneva
+ <br/><br/><br/>##### References<br/>- Vaidikasri Feb 2016<br/><br/><br/>##
+ ### Details<br/>- [Edit config file](https://github.com/sanskrit-coders/ad
+ yatithi/tree/master/general/lunar_month/tithi/11/12/tilapadma-dvAdazI%20or
+ %20tilOtpatti__info.toml)<br/>- Tags: SpecialPuja
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4075,7 +4071,7 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190222T235957
 DESCRIPTION:Special vrata day for Ganesha. In this month\, Ganesha is wors
  hipped as dvijapriya-mahāgaṇapatiḥ. Fast during the day and pray to G
  anesha after moonrise\, as follows:<br/><br/>gaṇādhipastvaṃ deveśa c
- haturthyāṃ pūjito mayā|<br/>kaṣṭānmāṃ mochayeśāna sarvami
+ haturthyāṃ pūjito mayā|  <br/>kaṣṭānmāṃ mochayeśāna sarvami
  ṣṭaṃ cha dehi me||<br/><br/><br/><br/>##### Details<br/>- [Edit conf
  ig file](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/g
  aNapati/description_only/dvijapriya-mahAgaNapati%20saGkaTahara-caturthI-vr
@@ -4887,11 +4883,11 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190305T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190306T235957
 DESCRIPTION:Observed on Amāvāsyā tithi of Māghaḥ (lunar) month (sunr
  ise (default)/puurvaviddha (default)).  <br/><br/><br/>manmanobhīṣṭav
- aradaṃ sarvābhīṣṭaphalapradam|<br/>purandaraguruṃ vande dāsaś
- ṛeṣṭhaṃ dayānidhim||<br/><br/><br/><br/>##### Details<br/>- [Edit
-  config file](https://github.com/sanskrit-coders/adyatithi/tree/master/mah
- ApuruSha/sangIta-kRt/lunar_month/tithi/11/30/purandaradAsa-ArAdhanA__info.
- toml)<br/>- Tags: MahapurushaEvents CommonFestivals
+ aradaṃ sarvābhīṣṭaphalapradam|  <br/>purandaraguruṃ vande dāsa
+ śṛeṣṭhaṃ dayānidhim||<br/><br/><br/><br/>##### Details<br/>- [Ed
+ it config file](https://github.com/sanskrit-coders/adyatithi/tree/master/m
+ ahApuruSha/sangIta-kRt/lunar_month/tithi/11/30/purandaradAsa-ArAdhanA__inf
+ o.toml)<br/>- Tags: MahapurushaEvents CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5007,7 +5003,7 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190307T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190308T235957
 DESCRIPTION:Have darshan of Moon today\, chanting the following shloka<br/
  ><br/>śvetāmbaraḥ śvetavibhūṣaṇaścha śvetadyutirdaṇḍadharo
-  dvibāhuḥ|<br/>chandro'mṛtātmā varadaḥ kirīṭī mayi prasāda
+  dvibāhuḥ|  <br/>chandro'mṛtātmā varadaḥ kirīṭī mayi prasāda
  ṃ vidadhātu devaḥ||<br/><br/><br/><br/>##### Details<br/>- [Edit conf
  ig file](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/g
  raha/description_only/candra-darzanam__info.toml)<br/>- Tags: ChandraDarsh
@@ -6363,11 +6359,11 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190324T235957
 DESCRIPTION:Special vrata day for Ganesha. In this month\, Ganesha is wors
  hipped as bhālachandra-mahāgaṇapatiḥ. Fast during the day and pray t
  o Ganesha after moonrise\, as follows:<br/><br/>gaṇādhipastvaṃ deveś
- a chaturthyāṃ pūjito mayā|<br/>kaṣṭānmāṃ mochayeśāna sarvam
- iṣṭaṃ cha dehi me||<br/><br/><br/><br/>##### Details<br/>- [Edit con
- fig file](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/
- gaNapati/description_only/bhAlacandra-mahAgaNapati%20saGkaTahara-caturthI-
- vratam__info.toml)<br/>- Tags: MonthlyVratam SankataharaChaturthiVratam
+ a chaturthyāṃ pūjito mayā|  <br/>kaṣṭānmāṃ mochayeśāna sarv
+ amiṣṭaṃ cha dehi me||<br/><br/><br/><br/>##### Details<br/>- [Edit c
+ onfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/devat
+ A/gaNapati/description_only/bhAlacandra-mahAgaNapati%20saGkaTahara-caturth
+ I-vratam__info.toml)<br/>- Tags: MonthlyVratam SankataharaChaturthiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -7083,7 +7079,7 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190405T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190406T235957
 DESCRIPTION:Have darshan of Moon today\, chanting the following shloka<br/
  ><br/>śvetāmbaraḥ śvetavibhūṣaṇaścha śvetadyutirdaṇḍadharo
-  dvibāhuḥ|<br/>chandro'mṛtātmā varadaḥ kirīṭī mayi prasāda
+  dvibāhuḥ|  <br/>chandro'mṛtātmā varadaḥ kirīṭī mayi prasāda
  ṃ vidadhātu devaḥ||<br/><br/><br/><br/>##### Details<br/>- [Edit conf
  ig file](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/g
  raha/description_only/candra-darzanam__info.toml)<br/>- Tags: ChandraDarsh
@@ -7531,13 +7527,13 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190409T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190410T235957
 DESCRIPTION:Observed on Śukla-Pañcamī tithi of Caitraḥ (lunar) month 
  (sunrise (default)/puurvaviddha (default)).  <br/><br/><br/>śuklāyāṃa
- tha pañchamyāṃ chaitre māsi śubhānanā|<br/>śrīrviṣṇulokānm
- ānuṣyaṃ samprāptā keśavājñayā||<br/>tasmāt tāṃ pūjayet tat
- ra yastaṃ lakṣmīrna muñchati||<br/><br/><br/>##### References<br/>- 
- Vaidikasri Mar 2018<br/><br/><br/>##### Details<br/>- [Edit config file](h
- ttps://github.com/sanskrit-coders/adyatithi/tree/master/devatA/lakShmI/lun
- ar_month/tithi/01/05/lakSmI-paJcamI__info.toml)<br/>- Tags: CommonFestival
- s
+ tha pañchamyāṃ chaitre māsi śubhānanā|  <br/>śrīrviṣṇulokān
+ mānuṣyaṃ samprāptā keśavājñayā||  <br/>tasmāt tāṃ pūjayet 
+ tatra yastaṃ lakṣmīrna muñchati||<br/><br/><br/>##### References<br/
+ >- Vaidikasri Mar 2018<br/><br/><br/>##### Details<br/>- [Edit config file
+ ](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/lakShmI/
+ lunar_month/tithi/01/05/lakSmI-paJcamI__info.toml)<br/>- Tags: CommonFesti
+ vals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8291,11 +8287,11 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190417T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190418T235957
 DESCRIPTION:Observed on Paurṇamāsī tithi of Meṣaḥ (solar) month (m
  oonrise/puurvaviddha (default)).  <br/><br/><br/>chitraguptaṃ mahāprāj
- ñaṃ lekhanīpatradhāriṇam|<br/>chitraratnāmbaradharaṃ madhyastha
- ṃ sarvadehinām||<br/><br/><br/><br/>##### Details<br/>- [Edit config fi
- le](https://github.com/sanskrit-coders/adyatithi/tree/master/general/sider
- eal_solar_month/tithi/01/15/citrA~pUrNimA%20or%20citragupta~pUjai__info.to
- ml)<br/>- Tags: PurnimaDays CommonFestivals
+ ñaṃ lekhanīpatradhāriṇam|  <br/>chitraratnāmbaradharaṃ madhyasth
+ aṃ sarvadehinām||<br/><br/><br/><br/>##### Details<br/>- [Edit config f
+ ile](https://github.com/sanskrit-coders/adyatithi/tree/master/general/side
+ real_solar_month/tithi/01/15/citrA~pUrNimA%20or%20citragupta~pUjai__info.t
+ oml)<br/>- Tags: PurnimaDays CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8721,11 +8717,11 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190422T235957
 DESCRIPTION:Special vrata day for Ganesha. In this month\, Ganesha is wors
  hipped as vikaṭa-mahāgaṇapatiḥ. Fast during the day and pray to Gan
  esha after moonrise\, as follows:<br/><br/>gaṇādhipastvaṃ deveśa cha
- turthyāṃ pūjito mayā|<br/>kaṣṭānmāṃ mochayeśāna sarvamiṣ
- ṭaṃ cha dehi me||<br/><br/><br/><br/>##### Details<br/>- [Edit config 
- file](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/gaNa
- pati/description_only/vikaTa-mahAgaNapati%20saGkaTahara-caturthI-vratam__i
- nfo.toml)<br/>- Tags: MonthlyVratam SankataharaChaturthiVratam
+ turthyāṃ pūjito mayā|  <br/>kaṣṭānmāṃ mochayeśāna sarvami
+ ṣṭaṃ cha dehi me||<br/><br/><br/><br/>##### Details<br/>- [Edit conf
+ ig file](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/g
+ aNapati/description_only/vikaTa-mahAgaNapati%20saGkaTahara-caturthI-vratam
+ __info.toml)<br/>- Tags: MonthlyVratam SankataharaChaturthiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8771,11 +8767,11 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190423T235957
 DESCRIPTION:chaturthī tithi on a Tuesday is as sacred as a solar eclipse.
   Good day for doing puja of Ganesha/Subrahmanya with naivedyam of modakam/
  millet flour respectively.<br/><br/>amāvasyā tu somena saptamī bhānun
- ā saha|<br/>chaturthī bhūmiputreṇa somaputreṇa chāṣṭamī|<br/>
- chatasrastithayastvetāḥ sūryagrahaṇasannibhāḥ||<br/><br/><br/><br
- />##### Details<br/>- [Edit config file](https://github.com/sanskrit-coder
- s/adyatithi/tree/master/time_focus/misc_combinations/description_only/aGgA
- raka-caturthI__info.toml)<br/>- Tags: RareDays Combinations
+ ā saha|  <br/>chaturthī bhūmiputreṇa somaputreṇa chāṣṭamī|  <
+ br/>chatasrastithayastvetāḥ sūryagrahaṇasannibhāḥ||<br/><br/><br/
+ ><br/>##### Details<br/>- [Edit config file](https://github.com/sanskrit-c
+ oders/adyatithi/tree/master/time_focus/misc_combinations/description_only/
+ aGgAraka-caturthI__info.toml)<br/>- Tags: RareDays Combinations
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8836,12 +8832,12 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190424T235957
 DESCRIPTION:Observed on Kṛṣṇa-Pañcamī tithi of Caitraḥ (lunar) m
  onth (sunrise (default)/puurvaviddha (default)).  <br/><br/><br/>jitaṃ j
  itaṃ te'jita yajñabhāvana trayīṃ tanuṃ svāṃ paridhunvate nama
- ḥ|<br/>yadromagarteṣu nililyuraddhayastasmai namaḥ kāraṇasūkarā
- ya te||3-13-35||<br/>—śrīmadbhāgavate mahāpurāṇe tṛtīyeskandhe
-  trayodaśe'dhyāye <br/><br/><br/><br/>##### Details<br/>- [Edit config f
- ile](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/lakSh
- mI/lunar_month/tithi/01/20/lakSmI-varAha~jayantI__info.toml)<br/>- Tags: D
- ashavataram
+ ḥ|  <br/>yadromagarteṣu nililyuraddhayastasmai namaḥ kāraṇasūkar
+ āya te||3-13-35||  <br/>—śrīmadbhāgavate mahāpurāṇe tṛtīyeska
+ ndhe trayodaśe'dhyāye <br/><br/><br/><br/>##### Details<br/>- [Edit conf
+ ig file](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/l
+ akShmI/lunar_month/tithi/01/20/lakSmI-varAha~jayantI__info.toml)<br/>- Tag
+ s: Dashavataram
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9612,7 +9608,7 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190505T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190506T235957
 DESCRIPTION:Have darshan of Moon today\, chanting the following shloka<br/
  ><br/>śvetāmbaraḥ śvetavibhūṣaṇaścha śvetadyutirdaṇḍadharo
-  dvibāhuḥ|<br/>chandro'mṛtātmā varadaḥ kirīṭī mayi prasāda
+  dvibāhuḥ|  <br/>chandro'mṛtātmā varadaḥ kirīṭī mayi prasāda
  ṃ vidadhātu devaḥ||<br/><br/><br/><br/>##### Details<br/>- [Edit conf
  ig file](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/g
  raha/description_only/candra-darzanam__info.toml)<br/>- Tags: ChandraDarsh
@@ -9766,13 +9762,13 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190506T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190507T235957
 DESCRIPTION:Observed on Śukla-Tṛtīyā tithi of Vaiśākhaḥ (lunar) m
  onth (madhyaahna/puurvaviddha).  <br/><br/><br/>vaiśākhasya site pakṣe
-  tṛtīyāyāṃ punarvasau|<br/>niśāyāḥ prathame yāme rāmākhya
- ḥ samaye hariḥ||<br/>svochchagaiḥ ṣaḍgrahairyukte mithune rāhus
- aṃsthite|<br/>reṇukāyāstu yo garbhādavatīrṇo hariḥ svayam||<br
- /><br/><br/>##### References<br/>- Nirnaya Sindhu p.66<br/><br/><br/>#####
-  Details<br/>- [Edit config file](https://github.com/sanskrit-coders/adyat
- ithi/tree/master/devatA/vaiShNava/lunar_month/tithi/02/03/parazurAma~jayan
- tI__info.toml)<br/>- Tags: Dashavataram
+  tṛtīyāyāṃ punarvasau|  <br/>niśāyāḥ prathame yāme rāmākhya
+ ḥ samaye hariḥ||  <br/>svochchagaiḥ ṣaḍgrahairyukte mithune rāh
+ usaṃsthite|  <br/>reṇukāyāstu yo garbhādavatīrṇo hariḥ svayam|
+ |<br/><br/><br/>##### References<br/>- Nirnaya Sindhu p.66<br/><br/><br/>#
+ #### Details<br/>- [Edit config file](https://github.com/sanskrit-coders/a
+ dyatithi/tree/master/devatA/vaiShNava/lunar_month/tithi/02/03/parazurAma~j
+ ayantI__info.toml)<br/>- Tags: Dashavataram
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10176,11 +10172,11 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190511T235957
 DESCRIPTION:Observed on Śukla-Saptamī tithi of Vaiśākhaḥ (lunar) mon
  th (sunrise (default)/puurvaviddha (default)).  <br/>Worship Surya Bhagava
  n in a vessel (kumbha) filled with sugar\, followed by dānam of the same.
- <br/><br/>śarkarāsaptamī chaiva vājimedhaphalapradā|<br/>sarvaduḥkh
- apraśamanī sarvasampatpradāyinī||<br/><br/><br/>##### References<br/>-
-  Smriti Kaustubham - 112<br/><br/><br/>##### Details<br/>- [Edit config fi
- le](https://github.com/sanskrit-coders/adyatithi/tree/master/general/lunar
- _month/tithi/02/07/zarkarA-saptamI__info.toml)<br/>- Tags: SpecialPuja
+ <br/><br/>śarkarāsaptamī chaiva vājimedhaphalapradā|  <br/>sarvaduḥ
+ khapraśamanī sarvasampatpradāyinī||<br/><br/><br/>##### References<br/
+ >- Smriti Kaustubham - 112<br/><br/><br/>##### Details<br/>- [Edit config 
+ file](https://github.com/sanskrit-coders/adyatithi/tree/master/general/lun
+ ar_month/tithi/02/07/zarkarA-saptamI__info.toml)<br/>- Tags: SpecialPuja
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11249,11 +11245,11 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190522T235957
 DESCRIPTION:Special vrata day for Ganesha. In this month\, Ganesha is wors
  hipped as ekadanta-mahāgaṇapatiḥ. Fast during the day and pray to Gan
  esha after moonrise\, as follows:<br/><br/>gaṇādhipastvaṃ deveśa cha
- turthyāṃ pūjito mayā|<br/>kaṣṭānmāṃ mochayeśāna sarvamiṣ
- ṭaṃ cha dehi me||<br/><br/><br/><br/>##### Details<br/>- [Edit config 
- file](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/gaNa
- pati/description_only/Ekadanta-mahAgaNapati%20saGkaTahara-caturthI-vratam_
- _info.toml)<br/>- Tags: MonthlyVratam SankataharaChaturthiVratam
+ turthyāṃ pūjito mayā|  <br/>kaṣṭānmāṃ mochayeśāna sarvami
+ ṣṭaṃ cha dehi me||<br/><br/><br/><br/>##### Details<br/>- [Edit conf
+ ig file](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/g
+ aNapati/description_only/Ekadanta-mahAgaNapati%20saGkaTahara-caturthI-vrat
+ am__info.toml)<br/>- Tags: MonthlyVratam SankataharaChaturthiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11494,11 +11490,11 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190525T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190526T235957
 DESCRIPTION:saptamī tithi on a Sunday is as sacred as a solar eclipse. Pa
  rticularly good for worshipping Surya.<br/><br/>amāvasyā tu somena sapta
- mī bhānunā saha|<br/>chaturthī bhūmiputreṇa somaputreṇa chāṣ
- ṭamī|<br/>chatasrastithayastvetāḥ sūryagrahaṇasannibhāḥ||<br/>
- <br/><br/><br/>##### Details<br/>- [Edit config file](https://github.com/s
- anskrit-coders/adyatithi/tree/master/time_focus/misc_combinations/descript
- ion_only/bhAnusaptamI__info.toml)<br/>- Tags: RareDays Combinations
+ mī bhānunā saha|  <br/>chaturthī bhūmiputreṇa somaputreṇa chāṣ
+ ṭamī|  <br/>chatasrastithayastvetāḥ sūryagrahaṇasannibhāḥ||<br
+ /><br/><br/><br/>##### Details<br/>- [Edit config file](https://github.com
+ /sanskrit-coders/adyatithi/tree/master/time_focus/misc_combinations/descri
+ ption_only/bhAnusaptamI__info.toml)<br/>- Tags: RareDays Combinations
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11970,17 +11966,13 @@ BEGIN:VEVENT
 SUMMARY:Somavatī Amāvāsyā
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190602T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190603T235957
-DESCRIPTION:amāvāsyā on a Monday is as sacred as a solar eclipse. Parti
- cularly good for performing pradakshinam of Pippala tree.<br/><br/>amāvas
- yā tu somena saptamī bhānunā saha|<br/>chaturthī bhūmiputreṇa soma
- putreṇa chāṣṭamī|<br/>chatasrastithayastvetāḥ sūryagrahaṇasa
- nnibhāḥ||<br/><br/>mūlato brahmarūpāya madhyato viṣṇurūpiṇe|<
- br/>agrataḥ śivarūpāya vṛkṣarājāya te namaḥ||<br/>akṣispand
- aṃ bhujaspandaṃ duḥsvapnaṃ durvichintanam|<br/>śatrūnām cha sam
- utpannam aśvattha śamayasva me||<br/><br/><br/><br/>##### Details<br/>- 
- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/maste
- r/time_focus/monthly/amAvAsyA/description_only/sOmavatI%20amAvAsyA__info.t
- oml)<br/>- Tags: RareDays Combinations AmavasyaDays
+DESCRIPTION:##### Details<br/>- [Edit config file](https://github.com/sans
+ krit-coders/adyatithi/tree/master/time_focus/monthly/amAvAsyA/description_
+ only/sOmavatI%20amAvAsyA__info.toml)<br/>- Tags: RareDays Combinations Ama
+ vasyaDays<br/><br/><br/><br/>##### Details<br/>- [Edit config file](https:
+ //github.com/sanskrit-coders/adyatithi/tree/master/time_focus/monthly/amAv
+ AsyA/description_only/sOmavatI%20amAvAsyA__info.toml)<br/>- Tags: RareDays
+  Combinations AmavasyaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12041,11 +12033,11 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190602T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190603T235957
 DESCRIPTION:Observed on Amāvāsyā tithi of Vaiśākhaḥ (lunar) month (
  sunrise (default)/puurvaviddha (default)).  <br/><br/><br/>mādhave meṣa
- ge bhānau murāre madhusūdana|<br/>prātaḥ snānena me nātha phalado 
- bhava pāpahan||<br/><br/><br/>##### References<br/>- Vaidikasri June 2017
- <br/><br/><br/>##### Details<br/>- [Edit config file](https://github.com/s
- anskrit-coders/adyatithi/tree/master/time_focus/misc/lunar_month/tithi/02/
- 30/vaizAkha-snAnapUrtiH__info.toml)<br/>- Tags: SpecialSnanam
+ ge bhānau murāre madhusūdana|  <br/>prātaḥ snānena me nātha phalad
+ o bhava pāpahan||<br/><br/><br/>##### References<br/>- Vaidikasri June 20
+ 17<br/><br/><br/>##### Details<br/>- [Edit config file](https://github.com
+ /sanskrit-coders/adyatithi/tree/master/time_focus/misc/lunar_month/tithi/0
+ 2/30/vaizAkha-snAnapUrtiH__info.toml)<br/>- Tags: SpecialSnanam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12142,7 +12134,7 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190603T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190604T235957
 DESCRIPTION:Have darshan of Moon today\, chanting the following shloka<br/
  ><br/>śvetāmbaraḥ śvetavibhūṣaṇaścha śvetadyutirdaṇḍadharo
-  dvibāhuḥ|<br/>chandro'mṛtātmā varadaḥ kirīṭī mayi prasāda
+  dvibāhuḥ|  <br/>chandro'mṛtātmā varadaḥ kirīṭī mayi prasāda
  ṃ vidadhātu devaḥ||<br/><br/><br/><br/>##### Details<br/>- [Edit conf
  ig file](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/g
  raha/description_only/candra-darzanam__info.toml)<br/>- Tags: ChandraDarsh
@@ -12162,10 +12154,11 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190604T235957
 DESCRIPTION:Observed on Śukla-Prathamā tithi of Jyaiṣṭhaḥ (lunar) 
  month (sunrise (default)/puurvaviddha (default)).  <br/>Perform puja of ka
  ravīra plants/flowers and then offer them in archanā.<br/><br/>karavīra
-  viṣāvāsa namaste bhānuvallabha|<br/>maulimaṇḍana durgādi devān
- āṃ satataṃ priya<br/><br/><br/><br/>##### Details<br/>- [Edit config 
- file](https://github.com/sanskrit-coders/adyatithi/tree/master/general/lun
- ar_month/tithi/03/01/karavIra-vratam__info.toml)<br/>- Tags: SpecialVratam
+  viṣāvāsa namaste bhānuvallabha|  <br/>maulimaṇḍana durgādi dev
+ ānāṃ satataṃ priya<br/><br/><br/><br/>##### Details<br/>- [Edit conf
+ ig file](https://github.com/sanskrit-coders/adyatithi/tree/master/general/
+ lunar_month/tithi/03/01/karavIra-vratam__info.toml)<br/>- Tags: SpecialVra
+ tam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12197,12 +12190,12 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190603T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190604T235957
 DESCRIPTION:Observed on Śukla-Dvitīyā tithi of Jyaiṣṭhaḥ (lunar) 
  month (aparaahna/vyaapti).  <br/><br/><br/>prahlādavarado devo yo nṛsi
- ṃhaḥ paro hariḥ|<br/>nṛsiṃhopāsakaṃ nityaṃ taṃ nṛsiṃh
- aḥ guruṃ bhaje||<br/><br/><br/><br/>##### Details<br/>- [Edit config f
- ile](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/
- smArta-misc/lunar_month/tithi/03/02/zRGgErI%2032%20jagadguru%20zrI~nRsiMha
- %20bhAratI%20ArAdhanA__info.toml)<br/>- Tags: MahapurushaEvents SringeriAr
- adhanaDays
+ ṃhaḥ paro hariḥ|  <br/>nṛsiṃhopāsakaṃ nityaṃ taṃ nṛsi
+ ṃhaḥ guruṃ bhaje||<br/><br/><br/><br/>##### Details<br/>- [Edit conf
+ ig file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuru
+ Sha/smArta-misc/lunar_month/tithi/03/02/zRGgErI%2032%20jagadguru%20zrI~nRs
+ iMha%20bhAratI%20ArAdhanA__info.toml)<br/>- Tags: MahapurushaEvents Sringe
+ riAradhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12329,12 +12322,12 @@ DESCRIPTION:Observed on Śukla-Caturthī tithi of Jyaiṣṭhaḥ (lunar)
  month (sunrise (default)/puurvaviddha (default)).  <br/>Perform puja of Sh
  iva-Parvati under a banana tree or on a banana leaf\, do naivedyam of 100+
   bananas and give away to small girl children.<br/><br/>putrān dehi dhana
- ṃ dehi saubhāgyaṃ sarvamaṅgale|<br/>saumaṅgalyaṃ sukhaṃ jñā
- naṃ dehi me śivasundari||<br/><br/><br/>##### References<br/>- Bhavishy
- ottara Puranam<br/><br/><br/>##### Details<br/>- [Edit config file](https:
- //github.com/sanskrit-coders/adyatithi/tree/master/devatA/umA/lunar_month/
- tithi/03/04/kadalI-gaurI-vratam%20or%20pUjA__info.toml)<br/>- Tags: LessCo
- mmonFestivals
+ ṃ dehi saubhāgyaṃ sarvamaṅgale|  <br/>saumaṅgalyaṃ sukhaṃ jñ
+ ānaṃ dehi me śivasundari||<br/><br/><br/>##### References<br/>- Bhavis
+ hyottara Puranam<br/><br/><br/>##### Details<br/>- [Edit config file](http
+ s://github.com/sanskrit-coders/adyatithi/tree/master/devatA/umA/lunar_mont
+ h/tithi/03/04/kadalI-gaurI-vratam%20or%20pUjA__info.toml)<br/>- Tags: Less
+ CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12367,11 +12360,11 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190607T235957
 DESCRIPTION:Observed on Śukla-Caturthī tithi of Jyaiṣṭhaḥ (lunar) 
  month (sunrise (default)/puurvaviddha (default)).  <br/>Perform puja of Um
  a-Maheshvara\, on the day of Uma Devi's Avataram.<br/><br/>jyeṣṭhaśuk
- lachaturthyāṃ tu jātā pūrvamumā satī|<br/>tasmāt sā tatra sampū
- jyā strībhiḥ saubhāgyavṛddhaye||<br/><br/><br/><br/>##### Details<b
- r/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/
- master/devatA/umA/lunar_month/tithi/03/04/umA-avatAraH__info.toml)<br/>- T
- ags: OtherJayantis
+ lachaturthyāṃ tu jātā pūrvamumā satī|  <br/>tasmāt sā tatra samp
+ ūjyā strībhiḥ saubhāgyavṛddhaye||<br/><br/><br/><br/>##### Details
+ <br/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tre
+ e/master/devatA/umA/lunar_month/tithi/03/04/umA-avatAraH__info.toml)<br/>-
+  Tags: OtherJayantis
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12632,11 +12625,11 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190609T235957
 DESCRIPTION:saptamī tithi on a Sunday is as sacred as a solar eclipse. Pa
  rticularly good for worshipping Surya. When śukla saptamī is present at 
  sunrise\, it is called vijayā.<br/><br/>amāvasyā tu somena saptamī bh
- ānunā saha|<br/>chaturthī bhūmiputreṇa somaputreṇa chāṣṭamī|
- <br/>chatasrastithayastvetāḥ sūryagrahaṇasannibhāḥ||<br/><br/><br
- /><br/>##### Details<br/>- [Edit config file](https://github.com/sanskrit-
- coders/adyatithi/tree/master/time_focus/misc_combinations/description_only
- /vijayA~bhAnusaptamI__info.toml)<br/>- Tags: RareDays Combinations
+ ānunā saha|  <br/>chaturthī bhūmiputreṇa somaputreṇa chāṣṭam
+ ī|  <br/>chatasrastithayastvetāḥ sūryagrahaṇasannibhāḥ||<br/><br
+ /><br/><br/>##### Details<br/>- [Edit config file](https://github.com/sans
+ krit-coders/adyatithi/tree/master/time_focus/misc_combinations/description
+ _only/vijayA~bhAnusaptamI__info.toml)<br/>- Tags: RareDays Combinations
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12928,13 +12921,14 @@ DESCRIPTION:Observed on Śukla-Daśamī tithi of Jyaiṣṭhaḥ (lunar) m
  onth (sunrise (default)/puurvaviddha (default)).  <br/>Avataranam of Ganga
   Devi. Bathe in any river and offer arghyam — destroys 10 types of sins 
  (daśaharā).<br/><br/>daśamyāṃ śuklapakṣe tu jyeṣṭhe māse kuj
- e dine|<br/>gaṅgā'vatīrṇā hastarkṣe sarvapāpaharā smṛtā||<br
- /><br/>yāṃ kāñchit saritaṃ prāpya dadyādarghyaṃ śubhodakam|<br
- />muchyate daśabhiḥ pāpaiḥ sa mahāpātakopamaiḥ||<br/><br/><br/>#
- #### References<br/>- Vaidikasri June 2017<br/><br/><br/>##### Details<br/
- >- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/ma
- ster/general/lunar_month/tithi/03/10/dazaharA%20or%20gaGgAvataraNam%20or%2
- 0dazapApaharA~dazamI__info.toml)<br/>- Tags: OtherJayantis CommonFestivals
+ e dine|  <br/>gaṅgā'vatīrṇā hastarkṣe sarvapāpaharā smṛtā|| 
+  <br/>  <br/>yāṃ kāñchit saritaṃ prāpya dadyādarghyaṃ śubhodak
+ am|  <br/>muchyate daśabhiḥ pāpaiḥ sa mahāpātakopamaiḥ||<br/><br
+ /><br/>##### References<br/>- Vaidikasri June 2017<br/><br/><br/>##### Det
+ ails<br/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi
+ /tree/master/general/lunar_month/tithi/03/10/dazaharA%20or%20gaGgAvataraNa
+ m%20or%20dazapApaharA~dazamI__info.toml)<br/>- Tags: OtherJayantis CommonF
+ estivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13153,11 +13147,11 @@ DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Jyaiṣṭhaḥ (lunar)
   month (sunrise (default)/puurvaviddha (default)).  <br/>Perform puja of L
  ord Trivikrama (Sahasranamarchana)\, do naivedyam of mangoes and offer ann
  adanam to needy.<br/><br/>ahorātreṇa dvādaśyāṃ jyeṣṭhe māsi t
- rivikramam|<br/>gavāmayanamāpnoti apsarobhiścha modate||<br/><br/><br/>
- ##### References<br/>- Mahabharata<br/><br/><br/>##### Details<br/>- [Edit
-  config file](https://github.com/sanskrit-coders/adyatithi/tree/master/gen
- eral/lunar_month/tithi/03/12/gavAmayana-dvAdazI__info.toml)<br/>- Tags: Le
- ssCommonFestivals
+ rivikramam|  <br/>gavāmayanamāpnoti apsarobhiścha modate||<br/><br/><br
+ />##### References<br/>- Mahabharata<br/><br/><br/>##### Details<br/>- [Ed
+ it config file](https://github.com/sanskrit-coders/adyatithi/tree/master/g
+ eneral/lunar_month/tithi/03/12/gavAmayana-dvAdazI__info.toml)<br/>- Tags: 
+ LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13703,12 +13697,12 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190620T235957
 DESCRIPTION:Special vrata day for Ganesha. In this month\, Ganesha is wors
  hipped as kṛṣṇapiṅgala-mahāgaṇapatiḥ. Fast during the day and
   pray to Ganesha after moonrise\, as follows:<br/><br/>gaṇādhipastvaṃ
-  deveśa chaturthyāṃ pūjito mayā|<br/>kaṣṭānmāṃ mochayeśāna
-  sarvamiṣṭaṃ cha dehi me||<br/><br/><br/><br/>##### Details<br/>- [E
- dit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/
- devatA/gaNapati/description_only/kRSNapiGgala-mahAgaNapati%20saGkaTahara-c
- aturthI-vratam__info.toml)<br/>- Tags: MonthlyVratam SankataharaChaturthiV
- ratam
+  deveśa chaturthyāṃ pūjito mayā|  <br/>kaṣṭānmāṃ mochayeśā
+ na sarvamiṣṭaṃ cha dehi me||<br/><br/><br/><br/>##### Details<br/>- 
+ [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/maste
+ r/devatA/gaNapati/description_only/kRSNapiGgala-mahAgaNapati%20saGkaTahara
+ -caturthI-vratam__info.toml)<br/>- Tags: MonthlyVratam SankataharaChaturth
+ iVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -14556,7 +14550,7 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190703T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190704T235957
 DESCRIPTION:Have darshan of Moon today\, chanting the following shloka<br/
  ><br/>śvetāmbaraḥ śvetavibhūṣaṇaścha śvetadyutirdaṇḍadharo
-  dvibāhuḥ|<br/>chandro'mṛtātmā varadaḥ kirīṭī mayi prasāda
+  dvibāhuḥ|  <br/>chandro'mṛtātmā varadaḥ kirīṭī mayi prasāda
  ṃ vidadhātu devaḥ||<br/><br/><br/><br/>##### Details<br/>- [Edit conf
  ig file](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/g
  raha/description_only/candra-darzanam__info.toml)<br/>- Tags: ChandraDarsh
@@ -14834,10 +14828,10 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190706T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190707T235957
 DESCRIPTION:upavāsam with only water and next day pāraṇa gives ārogya
  m<br/><br/>āṣāḍha śuklaṣaṣṭhī tu tithiḥ kaumārilā smṛt
- ā|<br/>kumāramarchayettatra pūrvatropeṣya vai dinam||<br/><br/><br/><
- br/>##### Details<br/>- [Edit config file](https://github.com/sanskrit-cod
- ers/adyatithi/tree/master/devatA/kaumAra/description_only/kumAra-SaSThI-vr
- atam__info.toml)<br/>- Tags: MonthlyVratam ShashthiVratam
+ ā|  <br/>kumāramarchayettatra pūrvatropeṣya vai dinam||<br/><br/><br/
+ ><br/>##### Details<br/>- [Edit config file](https://github.com/sanskrit-c
+ oders/adyatithi/tree/master/devatA/kaumAra/description_only/kumAra-SaSThI-
+ vratam__info.toml)<br/>- Tags: MonthlyVratam ShashthiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15335,12 +15329,12 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190712T235957
 DESCRIPTION:Observed on Śukla-Ekādaśī tithi of Āṣāḍhaḥ (lunar)
   month (sunrise (default)/puurvaviddha (default)).  <br/>Perform puja of M
  ahalakshmi-Mahavishnu<br/><br/>gopadmamiti vikhyātaṃ sarvapāpaharaṃ 
- param|<br/>sarvaduḥkhopaśamanaṃ sarvasampatpradāyakam|<br/>suvāsiny
- āstu saubhāgyaputrapautrapravardhanam||<br/><br/><br/>##### References<b
- r/>- Vrata Chudamani 173<br/><br/><br/>##### Details<br/>- [Edit config fi
- le](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/vaiShN
- ava/lunar_month/tithi/04/11/gOpadma-vrata-ArambhaH__info.toml)<br/>- Tags:
-  SpecialVratam
+ param|  <br/>sarvaduḥkhopaśamanaṃ sarvasampatpradāyakam|  <br/>suvā
+ sinyāstu saubhāgyaputrapautrapravardhanam||<br/><br/><br/>##### Referenc
+ es<br/>- Vrata Chudamani 173<br/><br/><br/>##### Details<br/>- [Edit confi
+ g file](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/va
+ iShNava/lunar_month/tithi/04/11/gOpadma-vrata-ArambhaH__info.toml)<br/>- T
+ ags: SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15355,14 +15349,14 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190711T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190712T235957
 DESCRIPTION:The Shukla-paksha Ekadashi of āṣāḍha month is known as 
  śayana-ekādaśī. Lord Vishnu goes to sleep for four months beginning to
- day.<br/><br/>tvayi supte jagannāthe jagatsuptaṃ bhavedidam||<br/>vibud
- dhe tvayi buddhyeta sarvametachcharācharam||<br/>vāsudeva jagadyone prā
- pteyaṃ dvādaśī tava|<br/>bhujaṅgaśayane'bdhau cha sukhaṃ svapihi
-  mādhava||<br/>iyaṃ tu dvādaśī deva śayanārthaṃ vinirmitā|<br/>
- <br/><br/><br/>##### Details<br/>- [Edit config file](https://github.com/s
- anskrit-coders/adyatithi/tree/master/time_focus/monthly/ekAdashI/descripti
- on_only/zayana-EkAdazI__info.toml)<br/>- Tags: MonthlyVratam EkadashiVrata
- m
+ day.<br/><br/>tvayi supte jagannāthe jagatsuptaṃ bhavedidam||  <br/>vib
+ uddhe tvayi buddhyeta sarvametachcharācharam||  <br/>vāsudeva jagadyone 
+ prāpteyaṃ dvādaśī tava|  <br/>bhujaṅgaśayane'bdhau cha sukhaṃ s
+ vapihi mādhava||  <br/>iyaṃ tu dvādaśī deva śayanārthaṃ vinirmit
+ ā|<br/><br/><br/><br/>##### Details<br/>- [Edit config file](https://gith
+ ub.com/sanskrit-coders/adyatithi/tree/master/time_focus/monthly/ekAdashI/d
+ escription_only/zayana-EkAdazI__info.toml)<br/>- Tags: MonthlyVratam Ekada
+ shiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15478,11 +15472,11 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190712T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190713T235957
 DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Āṣāḍhaḥ (lunar)
   month (sunrise (default)/puurvaviddha (default)).  <br/><br/><br/>vāsude
- va śuchau māse śākavratamanuttamam|<br/>tvatprītyarthaṃ kariṣye'h
- aṃ nirvighnaṃ kuru mādhava||<br/><br/><br/><br/>##### Details<br/>- [
- Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master
- /general/lunar_month/tithi/04/12/zAkavrata-ArambhaH__info.toml)<br/>- Tags
- : VratamStart SpecialPeriodStart CommonFestivals
+ va śuchau māse śākavratamanuttamam|  <br/>tvatprītyarthaṃ kariṣye
+ 'haṃ nirvighnaṃ kuru mādhava||<br/><br/><br/><br/>##### Details<br/>-
+  [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/mast
+ er/general/lunar_month/tithi/04/12/zAkavrata-ArambhaH__info.toml)<br/>- Ta
+ gs: VratamStart SpecialPeriodStart CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15671,11 +15665,11 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190716T235957
 DESCRIPTION:Observed on Paurṇamāsī tithi of Āṣāḍhaḥ (lunar) mo
  nth (sunrise (default)/puurvaviddha (default)).  <br/>Puja of Veda Vyasa /
   Gurus\; Danam of Vishnu Puranam is good on this day.<br/><br/>achaturvada
- no brahmā dvibāhuraparo hariḥ|<br/>aphālalochano śambhurbhagavān b
- ādarāyaṇaḥ||<br/><br/><br/><br/>##### Details<br/>- [Edit config fil
- e](https://github.com/sanskrit-coders/adyatithi/tree/master/general/lunar_
- month/tithi/04/15/guru-pUrNimA%20or%20vyAsa-pUjA__info.toml)<br/>- Tags: P
- urnimaDays SpecialPuja CommonFestivals
+ no brahmā dvibāhuraparo hariḥ|  <br/>aphālalochano śambhurbhagavān 
+ bādarāyaṇaḥ||<br/><br/><br/><br/>##### Details<br/>- [Edit config fi
+ le](https://github.com/sanskrit-coders/adyatithi/tree/master/general/lunar
+ _month/tithi/04/15/guru-pUrNimA%20or%20vyAsa-pUjA__info.toml)<br/>- Tags: 
+ PurnimaDays SpecialPuja CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15968,11 +15962,11 @@ DESCRIPTION:Observed on Kṛṣṇa-Dvitīyā tithi of Āṣāḍhaḥ (lu
  nar) month (moonrise/puurvaviddha (default)).  <br/>Lord Mahavishnu sleeps
   with Goddess Mahalakshmi on this day. Do Puja by placing the God/Goddess 
  on a new bed with pillow/blanket. Do danam of same after puja.<br/><br/>la
- kṣmyā viyujyate deva na kadāchit yato bhavān|<br/>tathā kalatrasamba
- ndho deva mā me viyujyatām||<br/><br/><br/><br/>##### Details<br/>- [Edi
- t config file](https://github.com/sanskrit-coders/adyatithi/tree/master/de
- vatA/vaiShNava/lunar_month/tithi/04/17/azUnyazayana-vratam~1__info.toml)<b
- r/>- Tags: SpecialVratam
+ kṣmyā viyujyate deva na kadāchit yato bhavān|  <br/>tathā kalatrasam
+ bandho deva mā me viyujyatām||<br/><br/><br/><br/>##### Details<br/>- [E
+ dit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/
+ devatA/vaiShNava/lunar_month/tithi/04/17/azUnyazayana-vratam~1__info.toml)
+ <br/>- Tags: SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -16097,11 +16091,11 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190720T235957
 DESCRIPTION:Special vrata day for Ganesha. In this month\, Ganesha is wors
  hipped as gajānana-mahāgaṇapatiḥ. Fast during the day and pray to Ga
  nesha after moonrise\, as follows:<br/><br/>gaṇādhipastvaṃ deveśa ch
- aturthyāṃ pūjito mayā|<br/>kaṣṭānmāṃ mochayeśāna sarvamiṣ
- ṭaṃ cha dehi me||<br/><br/><br/><br/>##### Details<br/>- [Edit config 
- file](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/gaNa
- pati/description_only/gajAnana-mahAgaNapati%20saGkaTahara-caturthI-vratam_
- _info.toml)<br/>- Tags: MonthlyVratam SankataharaChaturthiVratam
+ aturthyāṃ pūjito mayā|  <br/>kaṣṭānmāṃ mochayeśāna sarvami
+ ṣṭaṃ cha dehi me||<br/><br/><br/><br/>##### Details<br/>- [Edit conf
+ ig file](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/g
+ aNapati/description_only/gajAnana-mahAgaNapati%20saGkaTahara-caturthI-vrat
+ am__info.toml)<br/>- Tags: MonthlyVratam SankataharaChaturthiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -16913,7 +16907,7 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190801T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190802T235957
 DESCRIPTION:Have darshan of Moon today\, chanting the following shloka<br/
  ><br/>śvetāmbaraḥ śvetavibhūṣaṇaścha śvetadyutirdaṇḍadharo
-  dvibāhuḥ|<br/>chandro'mṛtātmā varadaḥ kirīṭī mayi prasāda
+  dvibāhuḥ|  <br/>chandro'mṛtātmā varadaḥ kirīṭī mayi prasāda
  ṃ vidadhātu devaḥ||<br/><br/><br/><br/>##### Details<br/>- [Edit conf
  ig file](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/g
  raha/description_only/candra-darzanam__info.toml)<br/>- Tags: ChandraDarsh
@@ -17086,12 +17080,12 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190802T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190803T235957
 DESCRIPTION:Observed on Pūrvaphalgunī nakshatra of Kaṭakaḥ (solar) m
  onth (praatah/paraviddha).  <br/><br/><br/>śrīviṣṇuchitta-kulakalpak
- anandavallīm<br/>śrīraṅgarāja-hari-chandana-yoga-drśyām|<br/>sāk
- ṣāt kṣamāṃ karuṇayā kamalāmivānyāṃ<br/>godām ananyaśara
- ṇaḥ śaraṇaṃ prapadye||<br/><br/><br/><br/>##### Details<br/>- [Ed
- it config file](https://github.com/sanskrit-coders/adyatithi/tree/master/m
- ahApuruSha/ALvAr/sidereal_solar_month/nakshatra/04/11/tiruvADippUram__info
- .toml)<br/>- Tags: CommonFestivals AzhwarJayanti
+ anandavallīm  <br/>śrīraṅgarāja-hari-chandana-yoga-drśyām|  <br/>s
+ ākṣāt kṣamāṃ karuṇayā kamalāmivānyāṃ  <br/>godām ananya
+ śaraṇaḥ śaraṇaṃ prapadye||<br/><br/><br/><br/>##### Details<br/>
+ - [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/mas
+ ter/mahApuruSha/ALvAr/sidereal_solar_month/nakshatra/04/11/tiruvADippUram_
+ _info.toml)<br/>- Tags: CommonFestivals AzhwarJayanti
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17222,10 +17216,10 @@ DESCRIPTION:Observed on Śukla-Pañcamī tithi of Śrāvaṇaḥ (lunar) m
  onth (sunrise (default)/puurvaviddha (default)).  <br/>Naga Panchami\; Sar
  paPooja (manasaDevi)\; Vishnu's boon to AdiSesha that humans will worship 
  on this day<br/><br/>apasarpa sarpa bhadraṃ te dūraṃ gachchha mahāya
- śāḥ|<br/>janamejayasya yajñānte astīkavachanaṃ smaran||<br/><br/>
- <br/><br/>##### Details<br/>- [Edit config file](https://github.com/sanskr
- it-coders/adyatithi/tree/master/devatA/misc-fauna/lunar_month/tithi/05/05/
- nAga-paJcamI__info.toml)<br/>- Tags: SpecialPuja PuranaEvents
+ śāḥ|  <br/>janamejayasya yajñānte astīkavachanaṃ smaran||<br/><br
+ /><br/><br/>##### Details<br/>- [Edit config file](https://github.com/sans
+ krit-coders/adyatithi/tree/master/devatA/misc-fauna/lunar_month/tithi/05/0
+ 5/nAga-paJcamI__info.toml)<br/>- Tags: SpecialPuja PuranaEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17670,13 +17664,13 @@ DESCRIPTION:Observed on Śukla-Ekādaśī tithi of Śrāvaṇaḥ (lunar)
  efore initiation\, the great sage Pūrṇabodhendra\, merged in Brahman on
   the Ekādaśi (eleventh) day of the bright fortnight of the month Śrava
  ṇa in the year Ăśvara. His preceptorship was for seventeen years.<br/>
- <br/>śrīpatestanayaḥ kṛṣṇaḥ pūrṇabodho dine hareḥ|<br/>br
- ahmabhūto nabhasyachchhe saṃyamīśvara īśvare||58||<br/>—puṇyaś
- lokamañjarī<br/><br/><br/>##### References<br/>- Punya Shloka Manjari<br
- /><br/><br/>##### Details<br/>- [Edit config file](https://github.com/sans
- krit-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tit
- hi/05/11/kAJcI%2029%20jagadguru%20zrI~pUrNabOdhEndra%20sarasvatI%20ArAdhan
- A__info.toml)<br/>- Tags: KanchiAradhanaDays
+ <br/>śrīpatestanayaḥ kṛṣṇaḥ pūrṇabodho dine hareḥ|  <br/>
+ brahmabhūto nabhasyachchhe saṃyamīśvara īśvare||58||  <br/>—puṇ
+ yaślokamañjarī<br/><br/><br/>##### References<br/>- Punya Shloka Manjar
+ i<br/><br/><br/>##### Details<br/>- [Edit config file](https://github.com/
+ sanskrit-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month
+ /tithi/05/11/kAJcI%2029%20jagadguru%20zrI~pUrNabOdhEndra%20sarasvatI%20ArA
+ dhanA__info.toml)<br/>- Tags: KanchiAradhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17865,11 +17859,11 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190811T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190812T235957
 DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Śrāvaṇaḥ (lunar) 
  month (sunrise (default)/puurvaviddha (default)).  <br/><br/><br/>saṅkar
- ṣaṇāravindākṣa kariṣye'haṃ dadhivratam|<br/>dvitīye māsi dev
- eśa nirvighnaṃ kuru me prabho||<br/><br/><br/><br/>##### Details<br/>- 
- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/maste
- r/general/lunar_month/tithi/05/12/dadhi-vrata-ArambhaH__info.toml)<br/>- T
- ags: VratamStart SpecialPeriodStart CommonFestivals
+ ṣaṇāravindākṣa kariṣye'haṃ dadhivratam|  <br/>dvitīye māsi d
+ eveśa nirvighnaṃ kuru me prabho||<br/><br/><br/><br/>##### Details<br/>
+ - [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/mas
+ ter/general/lunar_month/tithi/05/12/dadhi-vrata-ArambhaH__info.toml)<br/>-
+  Tags: VratamStart SpecialPeriodStart CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17913,13 +17907,13 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190811T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190812T235957
 DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Śrāvaṇaḥ (lunar) 
  month (sunrise (default)/puurvaviddha (default)).  <br/><br/><br/>vāsudev
- a namastubhyaṃ prathame māsi matkṛtam|<br/>śākavrataṃ mayā tena 
- saṃtuṣṭo bhava mādhava||<br/>idaṃ vrataṃ mayā deva kṛtaṃ p
- rītyai tava prabho|<br/>nyūnaṃ sampūrṇatāṃ yātu tvatprasādājj
- anārdana||<br/><br/><br/><br/>##### Details<br/>- [Edit config file](http
- s://github.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/t
- ithi/05/12/zAkavrata-samApanam__info.toml)<br/>- Tags: VratamEnd SpecialPe
- riodEnd CommonFestivals
+ a namastubhyaṃ prathame māsi matkṛtam|  <br/>śākavrataṃ mayā ten
+ a saṃtuṣṭo bhava mādhava||  <br/>idaṃ vrataṃ mayā deva kṛta
+ ṃ prītyai tava prabho|  <br/>nyūnaṃ sampūrṇatāṃ yātu tvatpras
+ ādājjanārdana||<br/><br/><br/><br/>##### Details<br/>- [Edit config fil
+ e](https://github.com/sanskrit-coders/adyatithi/tree/master/general/lunar_
+ month/tithi/05/12/zAkavrata-samApanam__info.toml)<br/>- Tags: VratamEnd Sp
+ ecialPeriodEnd CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18112,12 +18106,12 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190815T235957
 DESCRIPTION:Observed on Paurṇamāsī tithi of Śrāvaṇaḥ (lunar) mon
  th (sunrise (default)/puurvaviddha (default)).  <br/>Lord Hayagriva did up
  adesham of all four vedas to Brahma.<br/><br/>oṅkārodgītharūpāya ṛ
- gyajussāmamūrtaye|<br/>namo'studevadevāya vāchchhitārthapradāyine||<
- br/>ajñānatimiraṃ chhindhi jñānaṃ cha''śu prayachchha me|<br/>deh
- i me deva deveśa hayaśīrṣa namo'stu te||<br/><br/><br/><br/>##### Det
- ails<br/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi
- /tree/master/devatA/vaiShNava/lunar_month/tithi/05/15/hayagrIva~jayantI__i
- nfo.toml)<br/>- Tags: OtherAvatarams
+ gyajussāmamūrtaye|  <br/>namo'studevadevāya vāchchhitārthapradāyine|
+ |  <br/>ajñānatimiraṃ chhindhi jñānaṃ cha''śu prayachchha me|  <b
+ r/>dehi me deva deveśa hayaśīrṣa namo'stu te||<br/><br/><br/><br/>###
+ ## Details<br/>- [Edit config file](https://github.com/sanskrit-coders/ady
+ atithi/tree/master/devatA/vaiShNava/lunar_month/tithi/05/15/hayagrIva~jaya
+ ntI__info.toml)<br/>- Tags: OtherAvatarams
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18189,11 +18183,11 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190814T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190815T235957
 DESCRIPTION:Observed on Paurṇamāsī tithi of Śrāvaṇaḥ (lunar) mon
  th (sunrise (default)/puurvaviddha (default)).  <br/>Rakshabandhanam<br/><
- br/>yena baddho balī rājā dānavendro mahābalaḥ|<br/>tena tvāmabhib
- adhnāmi rakṣe mā chala mā chala||<br/><br/><br/>##### References<br/>
- - Dharma Sindhu 56<br/><br/><br/>##### Details<br/>- [Edit config file](ht
- tps://github.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month
- /tithi/05/15/rakSAbandhanam__info.toml)<br/>- Tags: CommonFestivals
+ br/>yena baddho balī rājā dānavendro mahābalaḥ|  <br/>tena tvāmabh
+ ibadhnāmi rakṣe mā chala mā chala||<br/><br/><br/>##### References<br
+ />- Dharma Sindhu 56<br/><br/><br/>##### Details<br/>- [Edit config file](
+ https://github.com/sanskrit-coders/adyatithi/tree/master/general/lunar_mon
+ th/tithi/05/15/rakSAbandhanam__info.toml)<br/>- Tags: CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18439,11 +18433,11 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190817T235957
 DESCRIPTION:Observed on day 1 of Siṃhaḥ (solar) month (sunrise (defaul
  t)/puurvaviddha (default)).  <br/>Perform danam of ghee\, milk vessel\, "g
  hee cow" and fruits.<br/><br/>ghṛtaṃ cha kṣīrakumbhaścha ghṛtadh
- enu phalāni cha|<br/>śrāvaṇe śrīdharaprītyai dātavyāni vipaśchi
- tā||<br/><br/><br/><br/>##### Details<br/>- [Edit config file](https://gi
- thub.com/sanskrit-coders/adyatithi/tree/master/time_focus/misc/sidereal_so
- lar_month/day/05/01/viSNupadI-siMharaviH__info.toml)<br/>- Tags: SunSankra
- nti
+ enu phalāni cha|  <br/>śrāvaṇe śrīdharaprītyai dātavyāni vipaśc
+ hitā||<br/><br/><br/><br/>##### Details<br/>- [Edit config file](https://
+ github.com/sanskrit-coders/adyatithi/tree/master/time_focus/misc/sidereal_
+ solar_month/day/05/01/viSNupadI-siMharaviH__info.toml)<br/>- Tags: SunSank
+ ranti
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18458,7 +18452,7 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190816T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190817T235957
 DESCRIPTION:Observed on Kṛṣṇa-Dvitīyā tithi of Śrāvaṇaḥ (lun
  ar) month (sunrise (default)/puurvaviddha (default)).  <br/><br/><br/>pūj
- yāya rāghavendrāya satyadharmaratāya cha|<br/>bhajatāṃ kalpavṛk
+ yāya rāghavendrāya satyadharmaratāya cha|  <br/>bhajatāṃ kalpavṛk
  ṣāya namatāṃ kāmadhenave||<br/><br/><br/><br/>##### Details<br/>- [
  Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master
  /mahApuruSha/mAdhva-misc/lunar_month/tithi/05/17/zrI~rAghavEndra~svAmI~ArA
@@ -18605,7 +18599,7 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190819T235957
 DESCRIPTION:Special vrata day for Ganesha. In this month\, Ganesha is wors
  hipped as heramba-mahāgaṇapatiḥ. Fast during the day and pray to Gane
  sha after moonrise\, as follows:<br/><br/>gaṇādhipastvaṃ deveśa chat
- urthyāṃ pūjito mayā|<br/>kaṣṭānmāṃ mochayeśāna sarvamiṣ
+ urthyāṃ pūjito mayā|  <br/>kaṣṭānmāṃ mochayeśāna sarvamiṣ
  ṭaṃ cha dehi me||<br/><br/><br/><br/>##### Details<br/>- [Edit config 
  file](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/gaNa
  pati/description_only/hEramba-mahAgaNapati%20mahAsaGkaTahara-caturthI-vrat
@@ -19680,7 +19674,7 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190830T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190831T235957
 DESCRIPTION:Have darshan of Moon today\, chanting the following shloka<br/
  ><br/>śvetāmbaraḥ śvetavibhūṣaṇaścha śvetadyutirdaṇḍadharo
-  dvibāhuḥ|<br/>chandro'mṛtātmā varadaḥ kirīṭī mayi prasāda
+  dvibāhuḥ|  <br/>chandro'mṛtātmā varadaḥ kirīṭī mayi prasāda
  ṃ vidadhātu devaḥ||<br/><br/><br/><br/>##### Details<br/>- [Edit conf
  ig file](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/g
  raha/description_only/candra-darzanam__info.toml)<br/>- Tags: ChandraDarsh
@@ -20079,10 +20073,10 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190903T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190904T235957
 DESCRIPTION:Skanda darshanam is recommended\, removes sins including brahm
  ahatya.<br/><br/>yo'syāṃ paśyati gāṅgeyaṃ dakṣiṇāpathavāsin
- am|<br/>brahmahatyādi pāpaistu muchyate nātra saṃśayaḥ||<br/><br/>
- <br/><br/>##### Details<br/>- [Edit config file](https://github.com/sanskr
- it-coders/adyatithi/tree/master/devatA/kaumAra/description_only/SaSThIdEvI
- -SaSThI-vratam__info.toml)<br/>- Tags: MonthlyVratam ShashthiVratam
+ am|  <br/>brahmahatyādi pāpaistu muchyate nātra saṃśayaḥ||<br/><br
+ /><br/><br/>##### Details<br/>- [Edit config file](https://github.com/sans
+ krit-coders/adyatithi/tree/master/devatA/kaumAra/description_only/SaSThIdE
+ vI-SaSThI-vratam__info.toml)<br/>- Tags: MonthlyVratam ShashthiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -20149,11 +20143,11 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190904T235957
 DESCRIPTION:Observed on Śukla-Ṣaṣṭhī tithi of Bhādrapadaḥ (luna
  r) month (sunrise (default)/puurvaviddha (default)).  <br/>Perform puja of
   Surya\, eat Panchagavya -- brings merits greater than Ashvamedha!<br/><br
- />śukle bhādrapade ṣaṣṭhyāṃ snānaṃ bhāskarapūjanam|<br/>pr
- āśanaṃ pañchagavyasya aśvamedhaphalādhikam||<br/><br/><br/><br/>###
- ## Details<br/>- [Edit config file](https://github.com/sanskrit-coders/ady
- atithi/tree/master/devatA/graha/lunar_month/tithi/06/06/sUrya-SaSThI__info
- .toml)<br/>- Tags: SpecialPuja
+ />śukle bhādrapade ṣaṣṭhyāṃ snānaṃ bhāskarapūjanam|  <br/>
+ prāśanaṃ pañchagavyasya aśvamedhaphalādhikam||<br/><br/><br/><br/>#
+ #### Details<br/>- [Edit config file](https://github.com/sanskrit-coders/a
+ dyatithi/tree/master/devatA/graha/lunar_month/tithi/06/06/sUrya-SaSThI__in
+ fo.toml)<br/>- Tags: SpecialPuja
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -20614,12 +20608,12 @@ DESCRIPTION:Observed on Śukla-Daśamī tithi of Bhādrapadaḥ (lunar) mo
   the sacred river vitastā was born. 2.  nīlamata purāṇam recommends t
  aking bath in this sacred river (Jhelum\, tributary of Sindhu) for 7 conse
  cutive days starting from this day.<br/><br/>yāni tīrthāni bhāratavar
- ṣe tāni tīrthāni kāśmīramaṇḍale|<br/>yāni tīrthāni kāśmī
- ramaṇḍale tāni tīrthāni vitastāyām||<br/><br/><br/>##### Referenc
- es<br/>- Nilamata Puranam<br/><br/><br/>##### Details<br/>- [Edit config f
- ile](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/nadI/
- lunar_month/tithi/06/10/vitastOtsavaH__info.toml)<br/>- Tags: SpecialSnana
- m
+ ṣe tāni tīrthāni kāśmīramaṇḍale|  <br/>yāni tīrthāni kāśm
+ īramaṇḍale tāni tīrthāni vitastāyām||<br/><br/><br/>##### Refere
+ nces<br/>- Nilamata Puranam<br/><br/><br/>##### Details<br/>- [Edit config
+  file](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/nad
+ I/lunar_month/tithi/06/10/vitastOtsavaH__info.toml)<br/>- Tags: SpecialSna
+ nam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -20684,11 +20678,11 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190909T235957
 DESCRIPTION:The Shukla-paksha Ekadashi of bhādrapada month is known as pa
  rivartinī-ekādaśī. Sideways turn inside sleep of Lord Vishnu midway af
  ter Shayana Ekadashi.<br/><br/>vāsudeva jagannātha prāpteyaṃ dvādaś
- ī tava|<br/>pārśvena parivartasva sukhaṃ svapihi mādhava||<br/><br/>
- <br/><br/>##### Details<br/>- [Edit config file](https://github.com/sanskr
- it-coders/adyatithi/tree/master/time_focus/monthly/ekAdashI/description_on
- ly/parivartinI-EkAdazI__info.toml)<br/>- Tags: MonthlyVratam EkadashiVrata
- m
+ ī tava|  <br/>pārśvena parivartasva sukhaṃ svapihi mādhava||<br/><br
+ /><br/><br/>##### Details<br/>- [Edit config file](https://github.com/sans
+ krit-coders/adyatithi/tree/master/time_focus/monthly/ekAdashI/description_
+ only/parivartinI-EkAdazI__info.toml)<br/>- Tags: MonthlyVratam EkadashiVra
+ tam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -20752,11 +20746,11 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190910T235957
 DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Bhādrapadaḥ (lunar) 
  month (sunrise (default)/puurvaviddha (default)).  <br/>Goddess Bhuvaneshw
  ari is 4th of the Dasha Maha Vidyas.<br/><br/>udyadinadyutimindukirīṭā
- m tuṅgakuchāṃ nayanatrayayuktāṃ <br/>smeramukhīṃ varadāṅkuś
- apāśābhītikarām prabhaje bhuvaneśīm <br/><br/><br/><br/>##### Detai
- ls<br/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi/t
- ree/master/devatA/shakti/lunar_month/tithi/06/12/bhuvanEzvarI~jayantI__inf
- o.toml)<br/>- Tags: Dashamahavidya
+ m tuṅgakuchāṃ nayanatrayayuktāṃ   <br/>smeramukhīṃ varadāṅku
+ śapāśābhītikarām prabhaje bhuvaneśīm <br/><br/><br/><br/>##### Det
+ ails<br/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi
+ /tree/master/devatA/shakti/lunar_month/tithi/06/12/bhuvanEzvarI~jayantI__i
+ nfo.toml)<br/>- Tags: Dashamahavidya
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -20786,13 +20780,13 @@ DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Bhādrapadaḥ (lunar)
  month (sunrise (default)/puurvaviddha (default)).  <br/>On this day the Da
  dhiVratam in Chaaturmaasyam is completed\, hence perform danam of Dadhi (c
  urd) to a Viprottama and recite the following shloka.<br/><br/>saṅkarṣ
- aṇa namastubhyaṃ śravaṇe matkṛtena cha|<br/>dadhivratena deveśa 
- tuṣṭo bhava janārdana||<br/>idaṃ vrataṃ mayā deva kṛtaṃ prī
- tyai tava prabho|<br/>nyūnaṃ sampūrṇatāṃ yātu tvatprasādājjan
- ārdana||<br/><br/><br/><br/>##### Details<br/>- [Edit config file](https:
- //github.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tit
- hi/06/12/dadhi-vrata-samApanam__info.toml)<br/>- Tags: VratamEnd SpecialPe
- riodEnd CommonFestivals
+ aṇa namastubhyaṃ śravaṇe matkṛtena cha|  <br/>dadhivratena deveś
+ a tuṣṭo bhava janārdana||  <br/>idaṃ vrataṃ mayā deva kṛtaṃ 
+ prītyai tava prabho|  <br/>nyūnaṃ sampūrṇatāṃ yātu tvatprasād
+ ājjanārdana||<br/><br/><br/><br/>##### Details<br/>- [Edit config file](
+ https://github.com/sanskrit-coders/adyatithi/tree/master/general/lunar_mon
+ th/tithi/06/12/dadhi-vrata-samApanam__info.toml)<br/>- Tags: VratamEnd Spe
+ cialPeriodEnd CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -21701,11 +21695,11 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190919T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190920T235957
 DESCRIPTION:Observed on Kṛṣṇa-Ṣaṣṭhī tithi of Bhādrapadaḥ 
  (lunar) month (sunrise (default)/puurvaviddha (default)).  <br/><br/><br/>
- prabhākara namastubhyaṃ saṃsārānmāṃ samuddhara|<br/>bhuktimuktip
- rado yasmāt tasmāchchhāntiṃ prayachchha me||<br/><br/><br/><br/>#####
-  Details<br/>- [Edit config file](https://github.com/sanskrit-coders/adyat
- ithi/tree/master/general/lunar_month/tithi/06/21/kapila-SaSThI__info.toml)
- <br/>- Tags: SpecialPuja
+ prabhākara namastubhyaṃ saṃsārānmāṃ samuddhara|  <br/>bhuktimukt
+ iprado yasmāt tasmāchchhāntiṃ prayachchha me||<br/><br/><br/><br/>###
+ ## Details<br/>- [Edit config file](https://github.com/sanskrit-coders/ady
+ atithi/tree/master/general/lunar_month/tithi/06/21/kapila-SaSThI__info.tom
+ l)<br/>- Tags: SpecialPuja
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -21819,12 +21813,12 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190920T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190921T235957
 DESCRIPTION:Observed on Kṛṣṇa-Saptamī tithi of Bhādrapadaḥ (luna
  r) month (aparaahna/vyaapti).  <br/><br/><br/>vivekinaṃ mahāprājñaṃ
-  dhairyaudāryakṣamānidhim|<br/>sadā'bhinavapūrvaṃ taṃ vidyātīr
- thaguruṃ bhaje||<br/><br/><br/><br/>##### Details<br/>- [Edit config fil
- e](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/sm
- Arta-misc/lunar_month/tithi/06/22/zRGgErI%2035%20jagadguru%20zrI~abhinava%
- 20vidyAtIrtha%20mahAsvAmI%20ArAdhanA__info.toml)<br/>- Tags: MahapurushaEv
- ents SringeriAradhanaDays
+  dhairyaudāryakṣamānidhim|  <br/>sadā'bhinavapūrvaṃ taṃ vidyāt
+ īrthaguruṃ bhaje||<br/><br/><br/><br/>##### Details<br/>- [Edit config 
+ file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha
+ /smArta-misc/lunar_month/tithi/06/22/zRGgErI%2035%20jagadguru%20zrI~abhina
+ va%20vidyAtIrtha%20mahAsvAmI%20ArAdhanA__info.toml)<br/>- Tags: Mahapurush
+ aEvents SringeriAradhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -21990,11 +21984,11 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190923T235957
 DESCRIPTION:Observed on Kṛṣṇa-Navamī tithi of Bhādrapadaḥ (lunar
  ) month (sunrise (default)/puurvaviddha (default)).  <br/>In honour of Sum
  angalas (in the family)\, by holding a feast for Suvasinis and Kanyas.<br/
- ><br/>bharturagre mṛtā nārī sahadāhena vā mṛtā|<br/>tasyāḥ st
- hāne niyuñjīta vipraiḥ saha suvāsinīm||<br/><br/><br/><br/>##### De
- tails<br/>- [Edit config file](https://github.com/sanskrit-coders/adyatith
- i/tree/master/devatA/shakti/lunar_month/tithi/06/24/sumaGgalA~navamI__info
- .toml)<br/>- Tags: SpecialPuja CommonFestivals
+ ><br/>bharturagre mṛtā nārī sahadāhena vā mṛtā|  <br/>tasyāḥ 
+ sthāne niyuñjīta vipraiḥ saha suvāsinīm||<br/><br/><br/><br/>##### 
+ Details<br/>- [Edit config file](https://github.com/sanskrit-coders/adyati
+ thi/tree/master/devatA/shakti/lunar_month/tithi/06/24/sumaGgalA~navamI__in
+ fo.toml)<br/>- Tags: SpecialPuja CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -22266,11 +22260,11 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190926T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190927T235957
 DESCRIPTION:Observed on Kṛṣṇa-Caturdaśī tithi of Bhādrapadaḥ (l
  unar) month (aparaahna/vyaapti).  <br/><br/><br/>vṛkṣāroheṇa lohād
- yairvidyujjala-viṣāgnibhiḥ|<br/>nakhi daṃṣṭri vipannā ye teṣ
- āṃ śastā chaturdaśī||<br/><br/><br/><br/>##### Details<br/>- [Edit 
- config file](https://github.com/sanskrit-coders/adyatithi/tree/master/gene
- ral/lunar_month/tithi/06/29/zastrahatacaturdazI__info.toml)<br/>- Tags: Le
- ssCommonFestivals
+ yairvidyujjala-viṣāgnibhiḥ|  <br/>nakhi daṃṣṭri vipannā ye te
+ ṣāṃ śastā chaturdaśī||<br/><br/><br/><br/>##### Details<br/>- [Ed
+ it config file](https://github.com/sanskrit-coders/adyatithi/tree/master/g
+ eneral/lunar_month/tithi/06/29/zastrahatacaturdazI__info.toml)<br/>- Tags:
+  LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -22410,12 +22404,12 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190927T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190928T235957
 DESCRIPTION:Observed on Amāvāsyā tithi of Bhādrapadaḥ (lunar) month 
  (aparaahna/vyaapti).  <br/><br/><br/>sadā''tmadhyānanirataṃ viṣayebh
- yaḥ paraṅmukham|<br/>naumi śāstreṣu niṣṇātaṃ chandraśekhar
- abhāratīm||<br/><br/><br/><br/>##### Details<br/>- [Edit config file](ht
- tps://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/smArta-
- misc/lunar_month/tithi/06/30/zRGgErI%2034%20jagadguru%20zrI~candrazEkhara%
- 20bhAratI%20ArAdhanA__info.toml)<br/>- Tags: MahapurushaEvents SringeriAra
- dhanaDays
+ yaḥ paraṅmukham|  <br/>naumi śāstreṣu niṣṇātaṃ chandraśekh
+ arabhāratīm||<br/><br/><br/><br/>##### Details<br/>- [Edit config file](
+ https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/smArt
+ a-misc/lunar_month/tithi/06/30/zRGgErI%2034%20jagadguru%20zrI~candrazEkhar
+ a%20bhAratI%20ArAdhanA__info.toml)<br/>- Tags: MahapurushaEvents SringeriA
+ radhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -22593,7 +22587,7 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190929T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190930T235957
 DESCRIPTION:Have darshan of Moon today\, chanting the following shloka<br/
  ><br/>śvetāmbaraḥ śvetavibhūṣaṇaścha śvetadyutirdaṇḍadharo
-  dvibāhuḥ|<br/>chandro'mṛtātmā varadaḥ kirīṭī mayi prasāda
+  dvibāhuḥ|  <br/>chandro'mṛtātmā varadaḥ kirīṭī mayi prasāda
  ṃ vidadhātu devaḥ||<br/><br/><br/><br/>##### Details<br/>- [Edit conf
  ig file](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/g
  raha/description_only/candra-darzanam__info.toml)<br/>- Tags: ChandraDarsh
@@ -23561,11 +23555,11 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191009T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191010T235957
 DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Āśvayujaḥ (lunar) m
  onth (sunrise (default)/puurvaviddha (default)).  <br/><br/><br/>aniruddha
-  surairvandya dvidalavratamuttamam|<br/>karomyahamiṣemāse nirvighnaṃ 
- kuru me prabho||<br/><br/><br/><br/>##### Details<br/>- [Edit config file]
- (https://github.com/sanskrit-coders/adyatithi/tree/master/general/lunar_mo
- nth/tithi/07/12/dvidala-vrata-ArambhaH__info.toml)<br/>- Tags: VratamStart
-  SpecialPeriodStart CommonFestivals
+  surairvandya dvidalavratamuttamam|  <br/>karomyahamiṣemāse nirvighna
+ ṃ kuru me prabho||<br/><br/><br/><br/>##### Details<br/>- [Edit config f
+ ile](https://github.com/sanskrit-coders/adyatithi/tree/master/general/luna
+ r_month/tithi/07/12/dvidala-vrata-ArambhaH__info.toml)<br/>- Tags: VratamS
+ tart SpecialPeriodStart CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -23759,12 +23753,12 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of Āśvayujaḥ (lunar) mont
  h (nishiitha/puurvaviddha (default)).  <br/>Have to play Aksha kreeda only
   on this day and Ko-jagarti-Vratam (Lakshmi will ask "who are awake"). Vaa
  lakhilya Rushi mentioned Ko-jagarti Vratam<br/><br/>niśīthe varadā lak
- ṣmīḥ ko jāgartīti bhāṣiṇī|<br/>tasmai vittaṃ prayachchhāmi
-  akṣaiḥ krīḍāṃ karoti yaḥ||<br/><br/><br/>##### References<br/
- >- Dharma Sindhu 142<br/><br/><br/>##### Details<br/>- [Edit config file](
- https://github.com/sanskrit-coders/adyatithi/tree/master/general/lunar_mon
- th/tithi/07/15/kO-jAgarti-vratam__info.toml)<br/>- Tags: SpecialVratam Com
- monFestivals
+ ṣmīḥ ko jāgartīti bhāṣiṇī|  <br/>tasmai vittaṃ prayachchhā
+ mi akṣaiḥ krīḍāṃ karoti yaḥ||<br/><br/><br/>##### References<b
+ r/>- Dharma Sindhu 142<br/><br/><br/>##### Details<br/>- [Edit config file
+ ](https://github.com/sanskrit-coders/adyatithi/tree/master/general/lunar_m
+ onth/tithi/07/15/kO-jAgarti-vratam__info.toml)<br/>- Tags: SpecialVratam C
+ ommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -24265,11 +24259,11 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191017T235957
 DESCRIPTION:Special vrata day for Ganesha. In this month\, Ganesha is wors
  hipped as vakratuṇḍa-mahāgaṇapatiḥ. Fast during the day and pray 
  to Ganesha after moonrise\, as follows:<br/><br/>gaṇādhipastvaṃ deve
- śa chaturthyāṃ pūjito mayā|<br/>kaṣṭānmāṃ mochayeśāna sarv
- amiṣṭaṃ cha dehi me||<br/><br/><br/><br/>##### Details<br/>- [Edit c
- onfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/devat
- A/gaNapati/description_only/vakratuNDa-mahAgaNapati%20saGkaTahara-caturthI
- -vratam__info.toml)<br/>- Tags: MonthlyVratam SankataharaChaturthiVratam
+ śa chaturthyāṃ pūjito mayā|  <br/>kaṣṭānmāṃ mochayeśāna sa
+ rvamiṣṭaṃ cha dehi me||<br/><br/><br/><br/>##### Details<br/>- [Edit
+  config file](https://github.com/sanskrit-coders/adyatithi/tree/master/dev
+ atA/gaNapati/description_only/vakratuNDa-mahAgaNapati%20saGkaTahara-caturt
+ hI-vratam__info.toml)<br/>- Tags: MonthlyVratam SankataharaChaturthiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -24367,11 +24361,11 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191017T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191018T235957
 DESCRIPTION:Observed on day 1 of Tulā (solar) month (sunrise (default)/pu
  urvaviddha (default)).  <br/>Perform snānam in Kaveri during this month.<
- br/><br/>ṣaṭṣaṣṭikoṭitīrthāni dvisaptabhuvaneṣu cha|<br/>k
- eśavasyā''jñayā yānti tulāmāse marudvṛdham||<br/><br/><br/><br/>#
- #### Details<br/>- [Edit config file](https://github.com/sanskrit-coders/a
- dyatithi/tree/master/temples/Tamil/sidereal_solar_month/day/07/01/tulA-kAv
- ErI-snAna-ArambhaH__info.toml)<br/>- Tags: TamilnaduTempleFestivals
+ br/><br/>ṣaṭṣaṣṭikoṭitīrthāni dvisaptabhuvaneṣu cha|  <br/
+ >keśavasyā''jñayā yānti tulāmāse marudvṛdham||<br/><br/><br/><br/
+ >##### Details<br/>- [Edit config file](https://github.com/sanskrit-coders
+ /adyatithi/tree/master/temples/Tamil/sidereal_solar_month/day/07/01/tulA-k
+ AvErI-snAna-ArambhaH__info.toml)<br/>- Tags: TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -24767,12 +24761,12 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191023T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191024T235957
 DESCRIPTION:Observed on Kṛṣṇa-Ekādaśī tithi of Āśvayujaḥ (lun
  ar) month (sunrise (default)/puurvaviddha (default)).  <br/><br/><br/>sad
- ā''tmadhyānanirataṃ viṣayebhyaḥ paraṅmukham|<br/>naumi śāstre
- ṣu niṣṇātaṃ chandraśekharabhāratīm||<br/><br/><br/><br/>##### 
- Details<br/>- [Edit config file](https://github.com/sanskrit-coders/adyati
- thi/tree/master/mahApuruSha/smArta-misc/lunar_month/tithi/07/26/zRGgErI%20
- 34%20jagadguru%20zrI~candrazEkhara%20bhAratI~3%20jayantI__info.toml)<br/>-
-  Tags: MahapurushaEvents
+ ā''tmadhyānanirataṃ viṣayebhyaḥ paraṅmukham|  <br/>naumi śāstr
+ eṣu niṣṇātaṃ chandraśekharabhāratīm||<br/><br/><br/><br/>#####
+  Details<br/>- [Edit config file](https://github.com/sanskrit-coders/adyat
+ ithi/tree/master/mahApuruSha/smArta-misc/lunar_month/tithi/07/26/zRGgErI%2
+ 034%20jagadguru%20zrI~candrazEkhara%20bhAratI~3%20jayantI__info.toml)<br/>
+ - Tags: MahapurushaEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -24836,14 +24830,14 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191025T235957
 DESCRIPTION:Observed on Kṛṣṇa-Dvādaśī tithi of Āśvayujaḥ (lun
  ar) month (pradosha/puurvaviddha).  <br/>Avoid cow's milk\, ghee\, curd an
  d buttermilk on this day. Give grass to cows and pray to them.<br/><br/>go
- kṣīraṃ goghṛtaṃ chaiva dadhi takraṃ cha varjayet|<br/><br/>sura
- bhi tvaṃ jaganmātardevi viṣṇupade sthitā|<br/>sarvadevamaye grāsa
- ṃ mayā dattamidaṃ grasa||<br/><br/>sarvadevamaye devi sarvedevaiścha
-  satkṛtā|<br/>mātarmamā'bhilāṣitaṃ saphalaṃ kuru nandini||<br/
- ><br/><br/><br/><br/>##### Details<br/>- [Edit config file](https://github
- .com/sanskrit-coders/adyatithi/tree/master/devatA/misc-fauna/lunar_month/t
- ithi/07/27/gOvatsa-dvAdazI__info.toml)<br/>- Tags: SpecialVratam CommonFes
- tivals
+ kṣīraṃ goghṛtaṃ chaiva dadhi takraṃ cha varjayet|  <br/>  <br/>
+ surabhi tvaṃ jaganmātardevi viṣṇupade sthitā|  <br/>sarvadevamaye 
+ grāsaṃ mayā dattamidaṃ grasa||  <br/>  <br/>sarvadevamaye devi sarve
+ devaiścha satkṛtā|  <br/>mātarmamā'bhilāṣitaṃ saphalaṃ kuru n
+ andini||  <br/><br/><br/><br/><br/>##### Details<br/>- [Edit config file](
+ https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/misc-fauna
+ /lunar_month/tithi/07/27/gOvatsa-dvAdazI__info.toml)<br/>- Tags: SpecialVr
+ atam CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -24950,12 +24944,13 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191026T235957
 DESCRIPTION:Observed on Kṛṣṇa-Trayodaśī tithi of Āśvayujaḥ (lu
  nar) month (sunrise (default)/puurvaviddha (default)).  <br/>Do dānaṃ o
  f dīpam\, light deepam outside the house.<br/><br/>āśvinasyāsite pak
- ṣe trayodaśyāṃ niśāmukhe|<br/>yamadīpaṃ bahirdadyāt apamṛtyu
- rvinaśyati||<br/><br/>mṛtyunā pāśadaṇḍābhyāṃ kālena śyāma
- yā saha|<br/>trayodaśyāṃ dīpadānāt sūryajaḥ prīyatāṃ mama||
- <br/><br/><br/><br/>##### Details<br/>- [Edit config file](https://github.
- com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/07/28/
- %28yama%29-dIpa-trayOdazI__info.toml)<br/>- Tags: CommonFestivals
+ ṣe trayodaśyāṃ niśāmukhe|  <br/>yamadīpaṃ bahirdadyāt apamṛt
+ yurvinaśyati||  <br/>  <br/>mṛtyunā pāśadaṇḍābhyāṃ kālena 
+ śyāmayā saha|  <br/>trayodaśyāṃ dīpadānāt sūryajaḥ prīyatā
+ ṃ mama||<br/><br/><br/><br/>##### Details<br/>- [Edit config file](https
+ ://github.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/ti
+ thi/07/28/%28yama%29-dIpa-trayOdazI__info.toml)<br/>- Tags: CommonFestival
+ s
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -25205,12 +25200,12 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191026T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191027T235957
 DESCRIPTION:Observed on Kṛṣṇa-Caturdaśī tithi of Āśvayujaḥ (lu
  nar) month (sunrise (default)/puurvaviddha (default)).  <br/><br/><br/>viv
- ekinaṃ mahāprājñaṃ dhairyaudāryakṣamānidhim|<br/>sadā'bhinavap
- ūrvaṃ taṃ vidyātīrthaguruṃ bhaje||<br/><br/><br/><br/>##### Detai
- ls<br/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi/t
- ree/master/mahApuruSha/smArta-misc/lunar_month/tithi/07/29/zRGgErI%2035%20
- jagadguru%20zrI~abhinava%20vidyAtIrtha%20mahAsvAmI%20jayantI__info.toml)<b
- r/>- Tags: MahapurushaEvents
+ ekinaṃ mahāprājñaṃ dhairyaudāryakṣamānidhim|  <br/>sadā'bhinav
+ apūrvaṃ taṃ vidyātīrthaguruṃ bhaje||<br/><br/><br/><br/>##### Det
+ ails<br/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi
+ /tree/master/mahApuruSha/smArta-misc/lunar_month/tithi/07/29/zRGgErI%2035%
+ 20jagadguru%20zrI~abhinava%20vidyAtIrtha%20mahAsvAmI%20jayantI__info.toml)
+ <br/>- Tags: MahapurushaEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -25322,17 +25317,13 @@ BEGIN:VEVENT
 SUMMARY:Somavatī Amāvāsyā
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191027T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191028T235957
-DESCRIPTION:amāvāsyā on a Monday is as sacred as a solar eclipse. Parti
- cularly good for performing pradakshinam of Pippala tree.<br/><br/>amāvas
- yā tu somena saptamī bhānunā saha|<br/>chaturthī bhūmiputreṇa soma
- putreṇa chāṣṭamī|<br/>chatasrastithayastvetāḥ sūryagrahaṇasa
- nnibhāḥ||<br/><br/>mūlato brahmarūpāya madhyato viṣṇurūpiṇe|<
- br/>agrataḥ śivarūpāya vṛkṣarājāya te namaḥ||<br/>akṣispand
- aṃ bhujaspandaṃ duḥsvapnaṃ durvichintanam|<br/>śatrūnām cha sam
- utpannam aśvattha śamayasva me||<br/><br/><br/><br/>##### Details<br/>- 
- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/maste
- r/time_focus/monthly/amAvAsyA/description_only/sOmavatI%20amAvAsyA__info.t
- oml)<br/>- Tags: RareDays Combinations AmavasyaDays
+DESCRIPTION:##### Details<br/>- [Edit config file](https://github.com/sans
+ krit-coders/adyatithi/tree/master/time_focus/monthly/amAvAsyA/description_
+ only/sOmavatI%20amAvAsyA__info.toml)<br/>- Tags: RareDays Combinations Ama
+ vasyaDays<br/><br/><br/><br/>##### Details<br/>- [Edit config file](https:
+ //github.com/sanskrit-coders/adyatithi/tree/master/time_focus/monthly/amAv
+ AsyA/description_only/sOmavatI%20amAvAsyA__info.toml)<br/>- Tags: RareDays
+  Combinations AmavasyaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -25411,7 +25402,7 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191028T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191029T235957
 DESCRIPTION:Have darshan of Moon today\, chanting the following shloka<br/
  ><br/>śvetāmbaraḥ śvetavibhūṣaṇaścha śvetadyutirdaṇḍadharo
-  dvibāhuḥ|<br/>chandro'mṛtātmā varadaḥ kirīṭī mayi prasāda
+  dvibāhuḥ|  <br/>chandro'mṛtātmā varadaḥ kirīṭī mayi prasāda
  ṃ vidadhātu devaḥ||<br/><br/><br/><br/>##### Details<br/>- [Edit conf
  ig file](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/g
  raha/description_only/candra-darzanam__info.toml)<br/>- Tags: ChandraDarsh
@@ -25669,12 +25660,12 @@ DESCRIPTION:One of the most important vratams\, alongside Krishnajanmashta
  mi\, Shivaratri etc. Must observe fast. Offer Arghyam facing South\, using
   Curd\, Akshata\, Water and Flowers (dadhnākṣatodakaiḥ puṣpaiḥ) c
  hanting the shloka below.<br/><br/>asyāṃ hi śrīḥ samāyuktaḥ yasm
- āt skando'bhavat purā|<br/>tasmāṭṣaṣṭhyāṃ na bhuñjīta prā
- pnuyādbhārgavī sadā||<br/><br/>saptarṣidāraja skanda senādhipa mah
- ābala|<br/>rudromāgnija ṣaḍvaktra gaṅgāgarbha namo'stu te||<br/><
- br/><br/><br/>##### Details<br/>- [Edit config file](https://github.com/sa
- nskrit-coders/adyatithi/tree/master/devatA/kaumAra/description_only/skanda
- SaSThI-vratam__info.toml)<br/>- Tags: MonthlyVratam ShashthiVratam
+ āt skando'bhavat purā|  <br/>tasmāṭṣaṣṭhyāṃ na bhuñjīta pr
+ āpnuyādbhārgavī sadā||  <br/>  <br/>saptarṣidāraja skanda senādhi
+ pa mahābala|  <br/>rudromāgnija ṣaḍvaktra gaṅgāgarbha namo'stu te
+ ||<br/><br/><br/><br/>##### Details<br/>- [Edit config file](https://githu
+ b.com/sanskrit-coders/adyatithi/tree/master/devatA/kaumAra/description_onl
+ y/skandaSaSThI-vratam__info.toml)<br/>- Tags: MonthlyVratam ShashthiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -25737,11 +25728,11 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191103T235957
 DESCRIPTION:saptamī tithi on a Sunday is as sacred as a solar eclipse. Pa
  rticularly good for worshipping Surya. When śukla saptamī is present at 
  sunrise\, it is called vijayā.<br/><br/>amāvasyā tu somena saptamī bh
- ānunā saha|<br/>chaturthī bhūmiputreṇa somaputreṇa chāṣṭamī|
- <br/>chatasrastithayastvetāḥ sūryagrahaṇasannibhāḥ||<br/><br/><br
- /><br/>##### Details<br/>- [Edit config file](https://github.com/sanskrit-
- coders/adyatithi/tree/master/time_focus/misc_combinations/description_only
- /vijayA~bhAnusaptamI__info.toml)<br/>- Tags: RareDays Combinations
+ ānunā saha|  <br/>chaturthī bhūmiputreṇa somaputreṇa chāṣṭam
+ ī|  <br/>chatasrastithayastvetāḥ sūryagrahaṇasannibhāḥ||<br/><br
+ /><br/><br/>##### Details<br/>- [Edit config file](https://github.com/sans
+ krit-coders/adyatithi/tree/master/time_focus/misc_combinations/description
+ _only/vijayA~bhAnusaptamI__info.toml)<br/>- Tags: RareDays Combinations
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -25788,7 +25779,7 @@ DESCRIPTION:Observed on Śukla-Aṣṭamī tithi of Kārttikaḥ (lunar) m
  onth (madhyaahna/puurvaviddha).  <br/>Perform pūjā of cow with calf\, an
  d offer ta:agattikīrai and grass/water\, and perform 16 pradakṣiṇam.<
  br/><br/>kārttike  yā'ṣṭamī  śuklā  jñeyā  gopāṣṭamī  bud
- haiḥ|<br/>tatra  kuryādgavāṃ  pūjāṃ  gogrāsaṃ  gopradakṣi
+ haiḥ|  <br/>tatra  kuryādgavāṃ  pūjāṃ  gogrāsaṃ  gopradakṣi
  ṇam||<br/><br/><br/><br/>##### Details<br/>- [Edit config file](https://
  github.com/sanskrit-coders/adyatithi/tree/master/devatA/vaiShNava/lunar_mo
  nth/tithi/08/08/gOpASTamI__info.toml)<br/>- Tags: LessCommonFestivals
@@ -26362,13 +26353,13 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191108T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191109T235957
 DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Kārttikaḥ (lunar) mo
  nth (sunrise (default)/puurvaviddha (default)).  <br/><br/><br/>aniruddha 
- namastubhyaṃ dvidalākhyavratena cha|<br/>matkṛtenāśvine māse prīt
- yarthaṃ phalado bhava||<br/>idaṃ vrataṃ mayā deva kṛtaṃ prītya
- i tava prabho|<br/>nyūnaṃ sampūrṇatāṃ yātu tvatprasādājjanārd
- ana||<br/><br/><br/><br/>##### Details<br/>- [Edit config file](https://gi
- thub.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/0
- 8/12/dvidala-vrata-samApanam__info.toml)<br/>- Tags: VratamEnd SpecialPeri
- odEnd CommonFestivals
+ namastubhyaṃ dvidalākhyavratena cha|  <br/>matkṛtenāśvine māse pr
+ ītyarthaṃ phalado bhava||  <br/>idaṃ vrataṃ mayā deva kṛtaṃ pr
+ ītyai tava prabho|  <br/>nyūnaṃ sampūrṇatāṃ yātu tvatprasādāj
+ janārdana||<br/><br/><br/><br/>##### Details<br/>- [Edit config file](htt
+ ps://github.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/
+ tithi/08/12/dvidala-vrata-samApanam__info.toml)<br/>- Tags: VratamEnd Spec
+ ialPeriodEnd CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -26433,13 +26424,13 @@ DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Kārttikaḥ (lunar) mo
  nth (sunrise (default)/puurvaviddha (default)).  <br/>Avataram of yājñav
  alkya maharṣi happened on kārttika shukla dwādaśī in ṣatabhiṣak 
  nakṣatram/dhanurlagnam.<br/><br/>vande'haṃ  maṅgaḻātmānaṃ  bh
- āsvantaṃ  vedavigraham|<br/>yājñavalkyaṃ  muniśreṣṭhaṃ  jī
- ṣṇuṃ  hariharaprabham||<br/>jitendriyaṃ  jitakrodhaṃ  sadā  dhy
- ānaparāyaṇam|<br/>ānandanilayaṃ  vande  yogānandamunīśvaram||<br
- /><br/><br/><br/>##### References<br/>- Vaidikasri Nov 2017<br/><br/><br/>
- ##### Details<br/>- [Edit config file](https://github.com/sanskrit-coders/
- adyatithi/tree/master/mahApuruSha/RShi/lunar_month/tithi/08/12/yAjJavalkya
- ~jayantI__info.toml)<br/>- Tags: MahapurushaEvents
+ āsvantaṃ  vedavigraham|  <br/>yājñavalkyaṃ  muniśreṣṭhaṃ  j
+ īṣṇuṃ  hariharaprabham||  <br/>jitendriyaṃ  jitakrodhaṃ  sadā 
+  dhyānaparāyaṇam|  <br/>ānandanilayaṃ  vande  yogānandamunīśvara
+ m||  <br/><br/><br/><br/>##### References<br/>- Vaidikasri Nov 2017<br/><b
+ r/><br/>##### Details<br/>- [Edit config file](https://github.com/sanskrit
+ -coders/adyatithi/tree/master/mahApuruSha/RShi/lunar_month/tithi/08/12/yAj
+ Javalkya~jayantI__info.toml)<br/>- Tags: MahapurushaEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -27076,11 +27067,11 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191115T235957
 DESCRIPTION:Special vrata day for Ganesha. In this month\, Ganesha is wors
  hipped as gaṇādhipa-mahāgaṇapatiḥ. Fast during the day and pray to
   Ganesha after moonrise\, as follows:<br/><br/>gaṇādhipastvaṃ deveśa
-  chaturthyāṃ pūjito mayā|<br/>kaṣṭānmāṃ mochayeśāna sarvami
- ṣṭaṃ cha dehi me||<br/><br/><br/><br/>##### Details<br/>- [Edit conf
- ig file](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/g
- aNapati/description_only/gaNAdhipa-mahAgaNapati%20saGkaTahara-caturthI-vra
- tam__info.toml)<br/>- Tags: MonthlyVratam SankataharaChaturthiVratam
+  chaturthyāṃ pūjito mayā|  <br/>kaṣṭānmāṃ mochayeśāna sarva
+ miṣṭaṃ cha dehi me||<br/><br/><br/><br/>##### Details<br/>- [Edit co
+ nfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA
+ /gaNapati/description_only/gaNAdhipa-mahAgaNapati%20saGkaTahara-caturthI-v
+ ratam__info.toml)<br/>- Tags: MonthlyVratam SankataharaChaturthiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -27495,12 +27486,12 @@ SUMMARY:Budhāṣṭamī
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191119T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191120T235957
 DESCRIPTION:aṣṭamī tithi on a Wednesday is as sacred as a solar eclip
- se.<br/><br/>amāvasyā tu somena saptamī bhānunā saha|<br/>chaturthī 
- bhūmiputreṇa somaputreṇa chāṣṭamī|<br/>chatasrastithayastvetā
- ḥ sūryagrahaṇasannibhāḥ||<br/><br/><br/><br/>##### Details<br/>- [
- Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master
- /time_focus/misc_combinations/description_only/budhASTamI__info.toml)<br/>
- - Tags: RareDays Combinations
+ se.<br/><br/>amāvasyā tu somena saptamī bhānunā saha|  <br/>chaturth
+ ī bhūmiputreṇa somaputreṇa chāṣṭamī|  <br/>chatasrastithayastv
+ etāḥ sūryagrahaṇasannibhāḥ||<br/><br/><br/><br/>##### Details<br/
+ >- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/ma
+ ster/time_focus/misc_combinations/description_only/budhASTamI__info.toml)<
+ br/>- Tags: RareDays Combinations
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -28088,13 +28079,13 @@ DESCRIPTION:Observed on Amāvāsyā tithi of Kārttikaḥ (lunar) month (a
  paraahna/puurvaviddha (default)).  <br/>Thiruvisanallur Sridhara Aiyyaval 
  brought Ganga to his house well on this day! See also http://www.sriayyava
  l.org/ .<br/><br/>īśe tasya cha nāmani pravimalaṃ jñānaṃ tayorūr
- jitam<br/>prema prema cha tatpareṣu viratiśchānyatra sarvatra cha|<br/
- >īśekṣā karuṇā cha yasya niyatā vṛttiḥ śritasyāpi yam<br/>t
- aṃ vande nararūpamantakaripuṃ śrīveṅkaṭeśaṃ gurum||<br/><br/
- ><br/><br/>##### Details<br/>- [Edit config file](https://github.com/sansk
- rit-coders/adyatithi/tree/master/temples/Tamil/lunar_month/tithi/08/30/tir
- uvizalUr%20gaGgAkarSaNa-mahOtsava-samApanam__info.toml)<br/>- Tags: Mahapu
- rushaEvents TamilnaduTempleFestivals
+ jitam  <br/>prema prema cha tatpareṣu viratiśchānyatra sarvatra cha|  
+ <br/>īśekṣā karuṇā cha yasya niyatā vṛttiḥ śritasyāpi yam  
+ <br/>taṃ vande nararūpamantakaripuṃ śrīveṅkaṭeśaṃ gurum||<br
+ /><br/><br/><br/>##### Details<br/>- [Edit config file](https://github.com
+ /sanskrit-coders/adyatithi/tree/master/temples/Tamil/lunar_month/tithi/08/
+ 30/tiruvizalUr%20gaGgAkarSaNa-mahOtsava-samApanam__info.toml)<br/>- Tags: 
+ MahapurushaEvents TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -28222,7 +28213,7 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191127T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191128T235957
 DESCRIPTION:Have darshan of Moon today\, chanting the following shloka<br/
  ><br/>śvetāmbaraḥ śvetavibhūṣaṇaścha śvetadyutirdaṇḍadharo
-  dvibāhuḥ|<br/>chandro'mṛtātmā varadaḥ kirīṭī mayi prasāda
+  dvibāhuḥ|  <br/>chandro'mṛtātmā varadaḥ kirīṭī mayi prasāda
  ṃ vidadhātu devaḥ||<br/><br/><br/><br/>##### Details<br/>- [Edit conf
  ig file](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/g
  raha/description_only/candra-darzanam__info.toml)<br/>- Tags: ChandraDarsh
@@ -28485,11 +28476,11 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191202T235957
 DESCRIPTION:Observed on Śukla-Ṣaṣṭhī tithi of Mārgaśīrṣaḥ (
  lunar) month (sunrise (default)/puurvaviddha (default)).  <br/>Have darsha
  n of Shivalingam today\; removes Shivapachara doshas in the family.<br/><b
- r/>mārgaśīrṣe'male pakṣe ṣaṣṭhyāṃ vāreṃ'śumālinaḥ|<
- br/>śatatārāgate chandre liṅgaṃ syāddṛṣṭigocharam|<br/><br/>
- <br/><br/>##### Details<br/>- [Edit config file](https://github.com/sanskr
- it-coders/adyatithi/tree/master/general/lunar_month/tithi/09/06/mArgazIrSa
- -zivaliGga-SaSThI__info.toml)<br/>- Tags: SpecialPuja
+ r/>mārgaśīrṣe'male pakṣe ṣaṣṭhyāṃ vāreṃ'śumālinaḥ| 
+  <br/>śatatārāgate chandre liṅgaṃ syāddṛṣṭigocharam|<br/><br
+ /><br/><br/>##### Details<br/>- [Edit config file](https://github.com/sans
+ krit-coders/adyatithi/tree/master/general/lunar_month/tithi/09/06/mArgazIr
+ Sa-zivaliGga-SaSThI__info.toml)<br/>- Tags: SpecialPuja
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -28520,11 +28511,11 @@ SUMMARY:Subrahmaṇya-Ṣaṣṭhī-Vratam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191201T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191202T235957
 DESCRIPTION:Also known as champā/champaka ṣaṣṭhī<br/><br/>senāvid
- āraka skanda mahāsena mahābala|<br/>rudromāgnija ṣaḍvaktra gaṅg
- āgarbha namo'stu te||<br/><br/><br/><br/>##### Details<br/>- [Edit config
-  file](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/kau
- mAra/description_only/subrahmaNya-SaSThI-vratam__info.toml)<br/>- Tags: Mo
- nthlyVratam ShashthiVratam
+ āraka skanda mahāsena mahābala|  <br/>rudromāgnija ṣaḍvaktra gaṅ
+ gāgarbha namo'stu te||<br/><br/><br/><br/>##### Details<br/>- [Edit confi
+ g file](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/ka
+ umAra/description_only/subrahmaNya-SaSThI-vratam__info.toml)<br/>- Tags: M
+ onthlyVratam ShashthiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -28591,10 +28582,10 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191203T235957
 DESCRIPTION:Observed on Śukla-Saptamī tithi of Mārgaśīrṣaḥ (lunar
  ) month (aparaahna/puurvaviddha).  <br/>Birth of Surya to Aditya-Kashyapa 
  on this day.<br/><br/>adityāṃ kaśyapājjajñe mitro nāma divākaraḥ
- |<br/>saptamyāṃ tena sā khyātā loke'smin mitrasaptamī||<br/><br/><b
- r/><br/>##### Details<br/>- [Edit config file](https://github.com/sanskrit
- -coders/adyatithi/tree/master/general/lunar_month/tithi/09/07/mitra-saptam
- I__info.toml)<br/>- Tags: OtherAvataram SpecialPuja CommonFestivals
+ |  <br/>saptamyāṃ tena sā khyātā loke'smin mitrasaptamī||<br/><br/>
+ <br/><br/>##### Details<br/>- [Edit config file](https://github.com/sanskr
+ it-coders/adyatithi/tree/master/general/lunar_month/tithi/09/07/mitra-sapt
+ amI__info.toml)<br/>- Tags: OtherAvataram SpecialPuja CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -28656,12 +28647,12 @@ SUMMARY:Budhāṣṭamī
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191203T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191204T235957
 DESCRIPTION:aṣṭamī tithi on a Wednesday is as sacred as a solar eclip
- se.<br/><br/>amāvasyā tu somena saptamī bhānunā saha|<br/>chaturthī 
- bhūmiputreṇa somaputreṇa chāṣṭamī|<br/>chatasrastithayastvetā
- ḥ sūryagrahaṇasannibhāḥ||<br/><br/><br/><br/>##### Details<br/>- [
- Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master
- /time_focus/misc_combinations/description_only/budhASTamI__info.toml)<br/>
- - Tags: RareDays Combinations
+ se.<br/><br/>amāvasyā tu somena saptamī bhānunā saha|  <br/>chaturth
+ ī bhūmiputreṇa somaputreṇa chāṣṭamī|  <br/>chatasrastithayastv
+ etāḥ sūryagrahaṇasannibhāḥ||<br/><br/><br/><br/>##### Details<br/
+ >- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/ma
+ ster/time_focus/misc_combinations/description_only/budhASTamI__info.toml)<
+ br/>- Tags: RareDays Combinations
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -29184,11 +29175,11 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191210T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191211T235957
 DESCRIPTION:Observed on Paurṇamāsī tithi of Mārgaśīrṣaḥ (lunar)
   month (pradosha/puurvaviddha).  <br/><br/><br/>ādau brahmā madhye viṣ
- ṇurante devaḥ sadāśivaḥ|<br/>mūrtitrayasvarūpāya dattātreya na
- mo'stu te||<br/><br/><br/><br/>##### Details<br/>- [Edit config file](http
- s://github.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/t
- ithi/09/15/dattAtrEya~jayantI__info.toml)<br/>- Tags: OtherAvatarams Commo
- nFestivals
+ ṇurante devaḥ sadāśivaḥ|  <br/>mūrtitrayasvarūpāya dattātreya 
+ namo'stu te||<br/><br/><br/><br/>##### Details<br/>- [Edit config file](ht
+ tps://github.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month
+ /tithi/09/15/dattAtrEya~jayantI__info.toml)<br/>- Tags: OtherAvatarams Com
+ monFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -29508,7 +29499,7 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191215T235957
 DESCRIPTION:Special vrata day for Ganesha. In this month\, Ganesha is wors
  hipped as ākhuratha-mahāgaṇapatiḥ. Fast during the day and pray to G
  anesha after moonrise\, as follows:<br/><br/>gaṇādhipastvaṃ deveśa c
- haturthyāṃ pūjito mayā|<br/>kaṣṭānmāṃ mochayeśāna sarvami
+ haturthyāṃ pūjito mayā|  <br/>kaṣṭānmāṃ mochayeśāna sarvami
  ṣṭaṃ cha dehi me||<br/><br/><br/><br/>##### Details<br/>- [Edit conf
  ig file](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/g
  aNapati/description_only/Akhuratha-mahAgaNapati%20saGkaTahara-caturthI-vra
@@ -29832,11 +29823,11 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191219T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191220T235957
 DESCRIPTION:Observed on Kṛṣṇa-Navamī tithi of Mārgaśīrṣaḥ (l
  unar) month (aparaahna/vyaapti).  <br/><br/><br/>karuṇāsāgaraṃ śān
- tam aruṇāchalavāsinam|<br/>śrīśeṣādriguruṃ vande brahmībhūta
- ṃ taponidhim||<br/><br/><br/><br/>##### Details<br/>- [Edit config file]
- (https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/gene
- ral/lunar_month/tithi/09/24/zrI~zESAdri-svAmI~ArAdhanA__info.toml)<br/>- T
- ags: MahapurushaEvents
+ tam aruṇāchalavāsinam|  <br/>śrīśeṣādriguruṃ vande brahmībhū
+ taṃ taponidhim||<br/><br/><br/><br/>##### Details<br/>- [Edit config fil
+ e](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/ge
+ neral/lunar_month/tithi/09/24/zrI~zESAdri-svAmI~ArAdhanA__info.toml)<br/>-
+  Tags: MahapurushaEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -30282,7 +30273,7 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191226T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191227T235957
 DESCRIPTION:Have darshan of Moon today\, chanting the following shloka<br/
  ><br/>śvetāmbaraḥ śvetavibhūṣaṇaścha śvetadyutirdaṇḍadharo
-  dvibāhuḥ|<br/>chandro'mṛtātmā varadaḥ kirīṭī mayi prasāda
+  dvibāhuḥ|  <br/>chandro'mṛtātmā varadaḥ kirīṭī mayi prasāda
  ṃ vidadhātu devaḥ||<br/><br/><br/><br/>##### Details<br/>- [Edit conf
  ig file](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/g
  raha/description_only/candra-darzanam__info.toml)<br/>- Tags: ChandraDarsh

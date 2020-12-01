@@ -51,7 +51,7 @@ jobs:
         pytest jyotisha_tests
     - name: Regenerate calendars
       run: |
-        /usr/bin/python jyotisha/panchaanga/writer/generation_project/snagar_bengaLUru.py
+        /usr/bin/python jyotisha/panchaanga/writer/generation_project/__main__.py
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2
       with:
