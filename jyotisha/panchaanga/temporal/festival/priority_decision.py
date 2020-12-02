@@ -50,7 +50,7 @@ def decide_paraviddha(p0, p1, target_anga, kaala):
   else:
     fday = None
     # Expected example:  (19, 19), (19, 20), 20
-    logging.debug("paraviddha: %s, %s, %s - Not assigning a festival this day. Likely checking on the wrong day pair.", str(d0_angas.to_tuple()), str(d1_angas.to_tuple()), str(target_anga.index))
+    # logging.debug("paraviddha: %s, %s, %s - Not assigning a festival this day. Likely checking on the wrong day pair.", str(d0_angas.to_tuple()), str(d1_angas.to_tuple()), str(target_anga.index))
 
   return FestivalDecision.from_details(boundary_angas_list=[d0_angas, d1_angas], fday=fday, panchaangas=[p0, p1])
 
@@ -79,7 +79,7 @@ def decide_puurvaviddha(p0, p1, target_anga, kaala):
       fday = 0 + d_offset
     else:
       # Expected example:  (25, 25), (25, 25), 26
-      logging.debug("puurvaviddha: %s, %s, %s - Not assigning a festival this day. Likely the next then.", str(d0_angas.to_tuple()), str(d1_angas.to_tuple()), str(target_anga.index))
+      # logging.debug("puurvaviddha: %s, %s, %s - Not assigning a festival this day. Likely the next then.", str(d0_angas.to_tuple()), str(d1_angas.to_tuple()), str(target_anga.index))
       fday = None
   return FestivalDecision.from_details(boundary_angas_list=[d0_angas, d1_angas], fday=fday, panchaangas=[p0, p1])
 
@@ -103,7 +103,7 @@ def decide_aparaahna_vyaapti(p0, p1, target_anga, ayanaamsha_id, kaala):
   # <j> q r ? ?: d
   if d0_angas.start > q:
     # One of the cases covered here: Anga might have been between end of previous day's interval and beginning of this day's interval. Then we would have: r r for d1_angas. Could potentially lead to a missed festival.
-    logging.debug("vyaapti: %s, %s, %s - Not assigning a festival this day. Likely checking on the wrong day pair.", str(d0_angas.to_tuple()), str(d1_angas.to_tuple()), str(target_anga.index))
+    # logging.debug("vyaapti: %s, %s, %s - Not assigning a festival this day. Likely checking on the wrong day pair.", str(d0_angas.to_tuple()), str(d1_angas.to_tuple()), str(target_anga.index))
     return None
 
   # Easy cases where d0 has greater vyApti
@@ -135,7 +135,7 @@ def decide_aparaahna_vyaapti(p0, p1, target_anga, ayanaamsha_id, kaala):
       fday = 0
 
   else:
-    logging.info("vyaapti: %s, %s, %s. Some weird case", str(d0_angas.to_tuple()), str(d1_angas.to_tuple()), str(target_anga.index))
+    # logging.info("vyaapti: %s, %s, %s. Some weird case", str(d0_angas.to_tuple()), str(d1_angas.to_tuple()), str(target_anga.index))
     fday = None
   return FestivalDecision.from_details(boundary_angas_list=[d0_angas, d1_angas], fday=fday, panchaangas=[p0, p1])
 

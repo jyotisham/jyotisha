@@ -100,7 +100,7 @@ class SolarFestivalAssigner(FestivalAssigner):
         festival_name = 'mahAvyatIpAta-zrAddham'
         self.panchaanga.add_festival(fest_id=festival_name, date=date)
 
-  def assign_gajachhaya_yoga(self, debug_festivals=False):
+  def assign_gajachhaya_yoga(self):
     for d, daily_panchaanga in enumerate(self.daily_panchaangas):
       [y, m, dt] = [daily_panchaanga.date.year, daily_panchaanga.date.month, daily_panchaanga.date.day]
 

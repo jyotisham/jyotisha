@@ -121914,6 +121914,11 @@
           "jsonClass": "FestivalInstance",
           "name": "kAJcI 13 jagadguru zrI~saccidghanEndra sarasvatI ArAdhanA",
           "ordinal": 1747
+        },
+        "shraddhAnanda-murder": {
+          "jsonClass": "FestivalInstance",
+          "name": "shraddhAnanda-murder",
+          "ordinal": 93
         }
       },
       "jd_moonrise": 2458476.0441,
@@ -123599,6 +123604,11 @@
         "mArgazIrSa-aSTakA-pUrvEdyuH": {
           "jsonClass": "FestivalInstance",
           "name": "mArgazIrSa-aSTakA-pUrvEdyuH"
+        },
+        "shivAjI_vs_rustam-zamAn": {
+          "jsonClass": "FestivalInstance",
+          "name": "shivAjI_vs_rustam-zamAn",
+          "ordinal": 360
         }
       },
       "jd_moonrise": 2458481.2534,
@@ -140100,6 +140110,22 @@
         "day": 25,
         "jsonClass": "Date",
         "month": 11,
+        "year": 2018
+      }
+    ],
+    "shivAjI_vs_rustam-zamAn": [
+      {
+        "day": 28,
+        "jsonClass": "Date",
+        "month": 12,
+        "year": 2018
+      }
+    ],
+    "shraddhAnanda-murder": [
+      {
+        "day": 23,
+        "jsonClass": "Date",
+        "month": 12,
         "year": 2018
       }
     ],

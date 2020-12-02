@@ -18993,7 +18993,7 @@ Observed on Amāvāsyā tithi of Āśvayujaḥ (lunar) month (sunrise (default)/
 
 
 ##### Details
-- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/general/lunar_month/tithi/07/30/vikramAditya-paTTAbhiSEkaH__info.toml)
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra/lunar_month/tithi/07/30/vikramAditya-paTTAbhiSEkaH__info.toml)
 - Tags: MahapurushaEvents
 
 
@@ -22464,6 +22464,16 @@ Observed on Kṛṣṇa-Dvādaśī tithi of Mārgaśīrṣaḥ (lunar) month (ap
 - Tags: MonthlyVratam PradoshaVratam
 
 
+#### स्ह्रद्धानन्द-हत्या
+
+Observed on day 23 (sunrise (default)/puurvaviddha (default)).  
+Swami shraddhananda, who brought back lakhs of muslims to the deva-dharma, was shot to death by Abdul Rashid.
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra/gregorian/day/12/23/shraddhAnanda-murder__info.toml)
+- Tags: MahapurushaEvents
+
+
 
 ## 2019-12-24◢◣मार्गशीर्षः-09-28,वृश्चिकः-अनूराधा🌛🌌◢◣धनुः-मूला-09-09🌌🌞◢◣सहस्यः-10-03🪐🌞
 ___________________
@@ -22724,6 +22734,18 @@ ___________________
 ___________________
 - **शूलम्**—प्राची दिक् (►09:32); **परिहारः**–दधि  
 ___________________
+
+### उत्सवाः
+#### स्हिवराजॆण रुस्तम्-जमानॊ ध्वस्तः
+
+Observed on day 28 (sunrise (default)/puurvaviddha (default)).  
+Shivaji defeated Rustam-i Zaman in an epic battle fought near Kolhapur.
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra/gregorian/day/12/28/shivAjI_vs_rustam-zamAn__info.toml)
+- Tags: MahapurushaEvents
+
+
 
 ## 2019-12-29◢◣पौषः-10-03,मकरः-श्रवणः🌛🌌◢◣धनुः-मूला-09-14🌌🌞◢◣सहस्यः-10-08🪐🌞
 ___________________

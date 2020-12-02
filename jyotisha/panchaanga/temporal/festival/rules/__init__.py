@@ -224,6 +224,8 @@ class RulesRepo(common.JsonObject):
   TROPICAL_MONTH_DIR = "tropical"
   GREGORIAN_MONTH_DIR = "gregorian"
   RELATIVE_EVENT_DIR = "relative_event"
+  ERA_GREGORIAN = "gregorian"
+  ERA_KALI = "kali"
   DAY_DIR = "day"
   TITHI_DIR = "tithi"
   NAKSHATRA_DIR = "nakshatra"

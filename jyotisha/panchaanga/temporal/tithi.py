@@ -255,8 +255,8 @@ class ShraddhaTithiAssigner(PeriodicPanchaangaApplier):
           if debug_shraaddha_tithi:
             logging.debug('Note %s' % str(tithi_days[m][t]))
         elif len(tithi_days[m][t]) == 0:
-          logging.warning(
-            'Rare issue. No tithi %d in this solar month (%d). Therefore use lunar tithi.' % (t, m))
+          # logging.warning('Rare issue. No tithi %d in this solar month (%d). Therefore use lunar tithi.' % (t, m))
+          pass
           # सौरमासे तिथ्यलाभे चान्द्रमानेन कारयेत्
           # tithi_days[m][t] = lunar_tithi_days[m][t]
         else:

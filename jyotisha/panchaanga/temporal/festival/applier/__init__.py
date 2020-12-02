@@ -5,6 +5,7 @@ import sys
 from jyotisha.panchaanga.temporal import PeriodicPanchaangaApplier
 from jyotisha.panchaanga.temporal import festival
 from jyotisha.panchaanga.temporal.festival import rules
+from jyotisha.panchaanga.temporal.festival.rules import RulesRepo
 from sanskrit_data.schema import common
 from timebudget import timebudget
 
@@ -18,7 +19,6 @@ class FestivalAssigner(PeriodicPanchaangaApplier):
     self.rules_collection = rules.RulesCollection.get_cached(
       repos_tuple=tuple(panchaanga.computation_system.options.fest_repos))
 
-
   @timebudget
   def assign_festival_numbers(self):
     # Update festival numbers if they exist
@@ -31,43 +31,44 @@ class FestivalAssigner(PeriodicPanchaangaApplier):
         lunar_y_start_d.append(d)
 
     period_start_year = self.panchaanga.start_date.year
-    festival_rules_all = self.rules_collection.name_to_rule
-    for festival_name in festival_rules_all:
-      if festival_name in self.panchaanga.festival_id_to_days and festival_rules_all[festival_name].timing.year_start is not None:
-        fest_start_year = festival_rules_all[festival_name].timing.year_start
-        month_type = festival_rules_all[festival_name].timing.month_type
-        if len(self.panchaanga.festival_id_to_days[festival_name]) > 1:
-          days = list(self.panchaanga.festival_id_to_days[festival_name])
-          days.sort()
-          if days[1] - days[0] < 300:
-            # Lunar festival_id_to_instance can repeat after 354 days; Solar festival_id_to_instance "can" repeat after 330 days
-            # (last day of Dhanur masa Jan and first day of Dhanur masa Dec may have same nakshatra and are about 335 days apart)
-            # In fact they will be roughly 354 days apart, again!
-            logging.warning('Multiple occurrences of festival %s within year. Check?: %s' % (
-              festival_name, str(self.panchaanga.festival_id_to_days[festival_name])))
+    for festival_name in self.panchaanga.festival_id_to_days:
+      festival_rule = self.rules_collection.name_to_rule.get(festival_name, None)
+      if festival_rule is None:
+        continue
+      if festival_rule.timing.year_start is not None:
+        fest_start_year = festival_rule.timing.year_start
+        fest_start_year_era = festival_rule.timing.year_start_era
+        if fest_start_year_era == RulesRepo.ERA_KALI:
+          year_offset = 3100
+        elif fest_start_year_era == RulesRepo.ERA_GREGORIAN:
+          year_offset = 0
+        month_type = festival_rule.timing.month_type
         for assigned_day in self.panchaanga.festival_id_to_days[festival_name]:
           assigned_day_index = int(assigned_day - self.daily_panchaangas[0].date)
-          if month_type == 'sidereal_solar_month':
-            fest_num = period_start_year + 3100 - fest_start_year + 1
+          if month_type == RulesRepo.SIDEREAL_SOLAR_MONTH_DIR:
+            fest_num = period_start_year + year_offset - fest_start_year + 1
             for start_day in solar_y_start_d:
               if assigned_day_index >= start_day:
                 fest_num += 1
-          elif month_type == 'lunar_month':
-            if festival_rules_all[festival_name].timing.anga_number == 1 and festival_rules_all[festival_name].timing.month_number == 1:
+          elif month_type == RulesRepo.LUNAR_MONTH_DIR:
+            if festival_rule.timing.anga_number == 1 and festival_rule.timing.month_number == 1:
               # Assigned day may be less by one, since prathama may have started after sunrise
               # Still assume assigned_day >= lunar_y_start_d!
-              fest_num = period_start_year + 3100 - fest_start_year + 1
+              fest_num = period_start_year + year_offset - fest_start_year + 1
               for start_day in lunar_y_start_d:
                 if assigned_day_index >= start_day:
                   fest_num += 1
             else:
-              fest_num = period_start_year + 3100 - fest_start_year + 1
+              fest_num = period_start_year + year_offset - fest_start_year + 1
               for start_day in lunar_y_start_d:
                 if assigned_day_index >= start_day:
                   fest_num += 1
+          elif month_type == RulesRepo.GREGORIAN_MONTH_DIR:
+            fest_num = period_start_year + year_offset - fest_start_year + 1
 
           if fest_num <= 0:
             logging.warning('Festival %s is only in the future!' % festival_name)
+            # TODO: Delete such "future fests" in such a case. Or ensure that they're not set in the first place.
           self.panchaanga.date_str_to_panchaanga[assigned_day.get_date_str()].festival_id_to_instance[festival_name].ordinal = fest_num
 
   def cleanup_festivals(self):

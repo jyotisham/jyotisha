@@ -122036,6 +122036,11 @@
         "sOma-pradOSa-vratam": {
           "jsonClass": "FestivalInstance",
           "name": "sOma-pradOSa-vratam"
+        },
+        "shraddhAnanda-murder": {
+          "jsonClass": "FestivalInstance",
+          "name": "shraddhAnanda-murder",
+          "ordinal": 94
         }
       },
       "jd_moonrise": 2458842.0795,
@@ -123706,6 +123711,11 @@
         }
       },
       "festival_id_to_instance": {
+        "shivAjI_vs_rustam-zamAn": {
+          "jsonClass": "FestivalInstance",
+          "name": "shivAjI_vs_rustam-zamAn",
+          "ordinal": 361
+        },
         "zravaNa-vratam": {
           "jsonClass": "FestivalInstance",
           "name": "zravaNa-vratam"
@@ -140194,6 +140204,22 @@
         "day": 14,
         "jsonClass": "Date",
         "month": 11,
+        "year": 2019
+      }
+    ],
+    "shivAjI_vs_rustam-zamAn": [
+      {
+        "day": 28,
+        "jsonClass": "Date",
+        "month": 12,
+        "year": 2019
+      }
+    ],
+    "shraddhAnanda-murder": [
+      {
+        "day": 23,
+        "jsonClass": "Date",
+        "month": 12,
         "year": 2019
       }
     ],
