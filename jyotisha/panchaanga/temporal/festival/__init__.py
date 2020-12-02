@@ -39,10 +39,10 @@ class FestivalInstance(common.JsonObject):
       if language in names.keys():
         if language_code_to_script[language] in scripts:
           transliterated_text = custom_transliteration.transliterate_from_language(language=language, text=names[language][0], script=language_code_to_script[language])
-          return {"language": language_code_to_script[language], "text": transliterated_text}
+          return {"script": language_code_to_script[language], "text": transliterated_text}
         else:
           transliterated_text = custom_transliteration.transliterate_from_language(language=language, text=names[language][0], script=scripts[0])
-          return {"language": scripts[0], "text": transliterated_text}
+          return {"script": scripts[0], "text": transliterated_text}
 
     # No language text matching the input scripts was found.
     if "sa" in names:
@@ -50,11 +50,11 @@ class FestivalInstance(common.JsonObject):
     else:
       language = list(names.keys())[0]
     transliterated_text = custom_transliteration.transliterate_from_language(language=language, text=names[language][0], script=scripts[0])
-    return {"language": scripts[0], "text": transliterated_text}
+    return {"script": scripts[0], "text": transliterated_text}
 
   def tex_code(self, languages, scripts, timezone, fest_details_dict):
     name_details = self.get_best_transliterated_name(languages=languages, scripts=scripts, fest_details_dict=fest_details_dict)
-    if name_details["language"] == sanscript.TAMIL:
+    if name_details["script"] == sanscript.TAMIL:
       name = '\\tamil{%s}' % name_details["text"]
     else:
       name = name_details["text"]
@@ -76,7 +76,7 @@ class FestivalInstance(common.JsonObject):
 
   def md_code(self, languages, scripts, timezone, fest_details_dict):
     name_details = self.get_best_transliterated_name(languages=languages, scripts=scripts, fest_details_dict=fest_details_dict)
-    ordinal_str = " #%s" % custom_transliteration.tr(str(self.ordinal), script=name_details["language"]) if self.ordinal is not None else ""
+    ordinal_str = " #%s" % custom_transliteration.tr(str(self.ordinal), script=name_details["script"]) if self.ordinal is not None else ""
     name = "#### %s%s" % (name_details["text"].replace("~", "-"), ordinal_str)
 
     if self.interval is None:
@@ -109,7 +109,7 @@ class TransitionFestivalInstance(FestivalInstance):
 
   def tex_code(self, languages, scripts, timezone, fest_details_dict):
     name_details = self.get_best_transliterated_name(languages=languages, scripts=scripts, fest_details_dict=fest_details_dict)
-    if name_details["language"] == sanscript.TAMIL:
+    if name_details["script"] == sanscript.TAMIL:
       name = '\\tamil{%s}' % name_details["text"]
     else:
       name = name_details["text"]
