@@ -4624,6 +4624,16 @@ Observed on Uttaraphalgunī nakshatra of Mīnaḥ (solar) month (praatah/paravid
 - Tags: TamilnaduTempleFestivals CommonFestivals
 
 
+#### विषुवदिनम्
+
+Observed on day 1 (sunrise (default)/puurvaviddha (default)).  
+Vernal equinox
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/time_focus/Rtu/tropical/day/01/01/viSuva-dinam__info.toml)
+- Tags: 
+
+
 
 ## 2019-03-22◢◣फाल्गुनः-12-17,कन्या-हस्तः🌛🌌◢◣मीनः-उत्तरप्रोष्ठपदा-12-08🌌🌞◢◣मधुः-01-02🪐🌞
 ___________________
@@ -8220,7 +8230,7 @@ Special puja for Subrahmanya Swami in temples. Birth of Subrahmanya Swami. Worsh
 #### वैशाख-पूर्णिमा-स्नानम्
 
 Observed on Paurṇamāsī tithi of Vaiśākhaḥ (lunar) month (preceeding_arunodaya/paraviddha).  
-Perform snana four ghatikas before sunrise (during प्रॆचॆऎदिन्ग्_अरुनॊदयम्, when the Moon is still up, on the full-moon days of आषाढ, कार्त्तिक, माघ and वैशाख – hence the name आ-का-मा-वै) bestows strength, beauty, fame, dharma, knowledge, happiness, fortitude and health.
+Perform snana four ghatikas before sunrise (during अरुणोदयः, when the Moon is still up, on the full-moon days of आषाढ, कार्त्तिक, माघ and वैशाख – hence the name आ-का-मा-वै) bestows strength, beauty, fame, dharma, knowledge, happiness, fortitude and health.
 
 बलं रूपं यशो धर्मं ज्ञानमायुः सुखं धृतिम्।  
 आरोग्यं परमाप्नोति सम्यक् स्नानेन मानवः॥
@@ -10428,6 +10438,18 @@ ___________________
 ___________________
 - **शूलम्**—प्राची दिक् (►09:11); **परिहारः**–दधि  
 ___________________
+
+### उत्सवाः
+#### दXइणायनारम्भः
+
+Observed on day 1 (sunrise (default)/puurvaviddha (default)).  
+Summer solstice.
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/time_focus/Rtu/tropical/day/04/01/daxiNAyanArambhaH__info.toml)
+- Tags: 
+
+
 
 ## 2019-06-23◢◣ज्यैष्ठः-03-21,कुम्भः-शतभिषक्🌛🌌◢◣मिथुनम्-आर्द्रा-03-09🌌🌞◢◣शुचिः-04-02🪐🌞
 ___________________
@@ -16452,6 +16474,16 @@ ___________________
 ___________________
 
 ### उत्सवाः
+#### दXइण-विषुव-दिनम्
+
+Observed on day 1 (sunrise (default)/puurvaviddha (default)).  
+Vernal equinox
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/time_focus/Rtu/tropical/day/07/01/daxiNa-viSuva-dinam__info.toml)
+- Tags: 
+
+
 #### दुर्गा/गौरी-पूजा
 
 Observed on Kṛṣṇa-Navamī tithi of Bhādrapadaḥ (lunar) month (sunrise (default)/puurvaviddha (default)).  
@@ -22351,6 +22383,16 @@ The Krishna-paksha Ekadashi of मार्गशीर्ष month is known as 
 ##### Details
 - [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/time_focus/monthly/ekAdashI/description_only/saphalA-EkAdazI__info.toml)
 - Tags: MonthlyVratam EkadashiVratam
+
+
+#### उत्तरायणारम्भः
+
+Observed on day 1 (sunrise (default)/puurvaviddha (default)).  
+Winter solstice.
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/time_focus/Rtu/tropical/day/10/01/uttarAyaNArambhaH__info.toml)
+- Tags: 
 
 
 

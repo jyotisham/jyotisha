@@ -189,6 +189,11 @@
           "name": "time_focus/misc"
         },
         {
+          "base_url": "https://github.com/sanskrit-coders/adyatithi/tree/master/time_focus/Rtu",
+          "jsonClass": "RulesRepo",
+          "name": "time_focus/Rtu"
+        },
+        {
           "base_url": "https://github.com/sanskrit-coders/adyatithi/tree/master/time_focus/nakShatra",
           "jsonClass": "RulesRepo",
           "name": "time_focus/nakShatra"
@@ -27768,6 +27773,10 @@
         "kapAlI dvajArOhaNam": {
           "jsonClass": "FestivalInstance",
           "name": "kapAlI dvajArOhaNam"
+        },
+        "viSuva-dinam": {
+          "jsonClass": "FestivalInstance",
+          "name": "viSuva-dinam"
         }
       },
       "jd_moonrise": 2458198.638,
@@ -58911,6 +58920,10 @@
         "cidambarE muttuppallakku": {
           "jsonClass": "FestivalInstance",
           "name": "cidambarE muttuppallakku"
+        },
+        "daxiNAyanArambhaH": {
+          "jsonClass": "FestivalInstance",
+          "name": "daxiNAyanArambhaH"
         },
         "kAJcI 61 jagadguru zrI~mahAdEvEndra sarasvatI 4 ArAdhanA": {
           "jsonClass": "FestivalInstance",
@@ -90870,6 +90883,10 @@
           "jsonClass": "FestivalInstance",
           "name": "ananta-padmanAbha-vratam"
         },
+        "daxiNa-viSuva-dinam": {
+          "jsonClass": "FestivalInstance",
+          "name": "daxiNa-viSuva-dinam"
+        },
         "naTarAjar mahAbhiSEkam~3": {
           "jsonClass": "FestivalInstance",
           "name": "naTarAjar mahAbhiSEkam~3"
@@ -121546,6 +121563,10 @@
           "jsonClass": "FestivalInstance",
           "name": "tripura~bhairavI~jayantI"
         },
+        "uttarAyaNArambhaH": {
+          "jsonClass": "FestivalInstance",
+          "name": "uttarAyaNArambhaH"
+        },
         "vEGkaTAcalE pUrNimA~garuDa-sEvA": {
           "jsonClass": "FestivalInstance",
           "name": "vEGkaTAcalE pUrNimA~garuDa-sEvA"
@@ -135708,6 +135729,22 @@
         "year": 2018
       }
     ],
+    "daxiNAyanArambhaH": [
+      {
+        "day": 21,
+        "jsonClass": "Date",
+        "month": 6,
+        "year": 2018
+      }
+    ],
+    "daxiNa-viSuva-dinam": [
+      {
+        "day": 23,
+        "jsonClass": "Date",
+        "month": 9,
+        "year": 2018
+      }
+    ],
     "dazAvatAra-vratam": [
       {
         "day": 19,
@@ -140816,6 +140853,14 @@
         "year": 2018
       }
     ],
+    "uttarAyaNArambhaH": [
+      {
+        "day": 22,
+        "jsonClass": "Date",
+        "month": 12,
+        "year": 2018
+      }
+    ],
     "vAlmIki~maharSi~jayantI": [
       {
         "day": 24,
@@ -141429,6 +141474,14 @@
         "day": 14,
         "jsonClass": "Date",
         "month": 4,
+        "year": 2018
+      }
+    ],
+    "viSuva-dinam": [
+      {
+        "day": 21,
+        "jsonClass": "Date",
+        "month": 3,
         "year": 2018
       }
     ],

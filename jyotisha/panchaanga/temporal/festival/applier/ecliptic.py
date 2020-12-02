@@ -18,15 +18,6 @@ class EclipticFestivalAssigner(FestivalAssigner):
     self.compute_lunar_eclipses()
     # self.assign_ayanam()
 
-  def assign_tropical_fests(self):
-    pass
-    # TODO: Move logic for below fests to TOML.
-      # fest = FestivalInstance(name=names.NAMES['RTU_MASA_NAMES']["hk"][transit.value_2], interval=Interval(jd_start=transit.jd, jd_end=None))
-      #     self.date_str_to_panchaanga[fday_nirayana].add('dakSiNAyana-puNyakAlaH')
-      #   else:
-      #     self.date_str_to_panchaanga[fday_nirayana - 1].add('dakSiNAyana-puNyakAlaH')
-      #     self.date_str_to_panchaanga[fday_nirayana + 1].add('uttarAyaNa-puNyakAlaH/mitrOtsavaH')
-
   def compute_solar_eclipses(self):
     if 'sUrya-grahaNam' not in self.rules_collection.name_to_rule:
       return 

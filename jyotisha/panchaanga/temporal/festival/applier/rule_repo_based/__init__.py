@@ -48,6 +48,7 @@ class RuleLookupAssigner(FestivalAssigner):
   def apply_festival_from_rules_repos(self):
     for index, dp in enumerate(self.daily_panchaangas):
       self.apply_month_day_events(day_panchaanga=dp, month_type=RulesRepo.SIDEREAL_SOLAR_MONTH_DIR)
+      self.apply_month_day_events(day_panchaanga=dp, month_type=RulesRepo.TROPICAL_MONTH_DIR)
       self.apply_month_anga_events(day_panchaanga=dp, month_type=RulesRepo.SIDEREAL_SOLAR_MONTH_DIR, anga_type=AngaType.TITHI)
       self.apply_month_anga_events(day_panchaanga=dp, month_type=RulesRepo.SIDEREAL_SOLAR_MONTH_DIR, anga_type=AngaType.NAKSHATRA)
       self.apply_month_anga_events(day_panchaanga=dp, month_type=RulesRepo.SIDEREAL_SOLAR_MONTH_DIR, anga_type=AngaType.YOGA)

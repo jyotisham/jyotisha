@@ -316,7 +316,12 @@ class DailyPanchaanga(common.JsonObject):
     if month_type == RulesRepo.SIDEREAL_SOLAR_MONTH_DIR:
       return self.solar_sidereal_date_sunset
     elif month_type == RulesRepo.LUNAR_MONTH_DIR:
-      return BasicDate(month=self.lunar_month_sunrise.index, day=self.sunrise_day_angas.tithi_at_sunrise.index)
+      return BasicDate(month=self.lunar_month_sunrise.index,
+                       day=self.sunrise_day_angas.tithi_at_sunrise.index)
+    elif month_type == RulesRepo.TROPICAL_MONTH_DIR:
+      return self.tropical_date_sunset
+    elif month_type == RulesRepo.GREGORIAN_MONTH_DIR:
+      return self.date
 
   def get_lagna_data(self, ayanaamsha_id=zodiac.Ayanamsha.CHITRA_AT_180, debug=False):
     """Returns the lagna data

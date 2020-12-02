@@ -189,6 +189,11 @@
           "name": "time_focus/misc"
         },
         {
+          "base_url": "https://github.com/sanskrit-coders/adyatithi/tree/master/time_focus/Rtu",
+          "jsonClass": "RulesRepo",
+          "name": "time_focus/Rtu"
+        },
+        {
           "base_url": "https://github.com/sanskrit-coders/adyatithi/tree/master/time_focus/nakShatra",
           "jsonClass": "RulesRepo",
           "name": "time_focus/nakShatra"
@@ -27763,6 +27768,10 @@
         "paGgun2i~uttiram": {
           "jsonClass": "FestivalInstance",
           "name": "paGgun2i~uttiram"
+        },
+        "viSuva-dinam": {
+          "jsonClass": "FestivalInstance",
+          "name": "viSuva-dinam"
         }
       },
       "jd_moonrise": 2458564.0511,
@@ -59288,7 +59297,12 @@
           "name": "yama"
         }
       },
-      "festival_id_to_instance": {},
+      "festival_id_to_instance": {
+        "daxiNAyanArambhaH": {
+          "jsonClass": "FestivalInstance",
+          "name": "daxiNAyanArambhaH"
+        }
+      },
       "jd_moonrise": 2458657.2089,
       "jd_moonset": 2458656.6778,
       "jd_next_sunrise": 2458657.5124,
@@ -90946,6 +90960,10 @@
         }
       },
       "festival_id_to_instance": {
+        "daxiNa-viSuva-dinam": {
+          "jsonClass": "FestivalInstance",
+          "name": "daxiNa-viSuva-dinam"
+        },
         "durgA or gaurI-pUjA": {
           "jsonClass": "FestivalInstance",
           "name": "durgA or gaurI-pUjA"
@@ -121640,6 +121658,10 @@
         "sarva-saphalA-EkAdazI": {
           "jsonClass": "FestivalInstance",
           "name": "sarva-saphalA-EkAdazI"
+        },
+        "uttarAyaNArambhaH": {
+          "jsonClass": "FestivalInstance",
+          "name": "uttarAyaNArambhaH"
         }
       },
       "jd_moonrise": 2458840.4156,
@@ -135720,6 +135742,22 @@
         "year": 2019
       }
     ],
+    "daxiNAyanArambhaH": [
+      {
+        "day": 22,
+        "jsonClass": "Date",
+        "month": 6,
+        "year": 2019
+      }
+    ],
+    "daxiNa-viSuva-dinam": [
+      {
+        "day": 23,
+        "jsonClass": "Date",
+        "month": 9,
+        "year": 2019
+      }
+    ],
     "dazAvatAra-vratam": [
       {
         "day": 8,
@@ -140936,6 +140974,14 @@
         "year": 2019
       }
     ],
+    "uttarAyaNArambhaH": [
+      {
+        "day": 22,
+        "jsonClass": "Date",
+        "month": 12,
+        "year": 2019
+      }
+    ],
     "vAlmIki~maharSi~jayantI": [
       {
         "day": 13,
@@ -141539,6 +141585,14 @@
         "day": 14,
         "jsonClass": "Date",
         "month": 4,
+        "year": 2019
+      }
+    ],
+    "viSuva-dinam": [
+      {
+        "day": 21,
+        "jsonClass": "Date",
+        "month": 3,
         "year": 2019
       }
     ],

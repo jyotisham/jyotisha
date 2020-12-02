@@ -6234,6 +6234,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Viṣuvadinam
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190320T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190321T235957
+DESCRIPTION:Observed on day 1 (sunrise (default)/puurvaviddha (default)). 
+  <br/>Vernal equinox<br/><br/>##### Details<br/>- [Edit config file](https
+ ://github.com/sanskrit-coders/adyatithi/tree/master/time_focus/Rtu/tropica
+ l/day/01/01/viSuva-dinam__info.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Phālgunaḥ-12-17\,Kanyā-Hastaḥ🌛🌌◢◣Mīnaḥ-Uttarapr
  oṣṭhapadā-12-08🌌🌞◢◣Madhuḥ-01-02🪐🌞
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190322T061538
@@ -13874,6 +13890,22 @@ DESCRIPTION:___________________\n- 🪐🌞**Sāyanamānam** — Grīṣma
  13:46-15:22\; **Gulikakālaḥ**—05:47-07:23  \n___________________\n- *
  *Śūlam**—Prāchī Dik (►09:11)\; **Parihāraḥ**–Dadhi  \n_______
  ____________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Daxiṇāyanārambhaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190621T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190622T235957
+DESCRIPTION:Observed on day 1 (sunrise (default)/puurvaviddha (default)). 
+  <br/>Summer solstice.<br/><br/>##### Details<br/>- [Edit config file](htt
+ ps://github.com/sanskrit-coders/adyatithi/tree/master/time_focus/Rtu/tropi
+ cal/day/04/01/daxiNAyanArambhaH__info.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -22119,6 +22151,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Daxiṇa-Viṣuva-Dinam
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190922T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190923T235957
+DESCRIPTION:Observed on day 1 (sunrise (default)/puurvaviddha (default)). 
+  <br/>Vernal equinox<br/><br/>##### Details<br/>- [Edit config file](https
+ ://github.com/sanskrit-coders/adyatithi/tree/master/time_focus/Rtu/tropica
+ l/day/07/01/daxiNa-viSuva-dinam__info.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Durgā/Gaurī-Pūjā
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190922T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190923T235957
@@ -30153,6 +30201,22 @@ DESCRIPTION:The Krishna-paksha Ekadashi of mārgaśīrṣa month is known
  tps://github.com/sanskrit-coders/adyatithi/tree/master/time_focus/monthly/
  ekAdashI/description_only/saphalA-EkAdazI__info.toml)<br/>- Tags: MonthlyV
  ratam EkadashiVratam
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Uttarāyaṇārambhaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191221T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191222T235957
+DESCRIPTION:Observed on day 1 (sunrise (default)/puurvaviddha (default)). 
+  <br/>Winter solstice.<br/><br/>##### Details<br/>- [Edit config file](htt
+ ps://github.com/sanskrit-coders/adyatithi/tree/master/time_focus/Rtu/tropi
+ cal/day/10/01/uttarAyaNArambhaH__info.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE

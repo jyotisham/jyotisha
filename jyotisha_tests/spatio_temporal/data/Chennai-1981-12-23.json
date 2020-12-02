@@ -189,6 +189,11 @@
           "name": "time_focus/misc"
         },
         {
+          "base_url": "https://github.com/sanskrit-coders/adyatithi/tree/master/time_focus/Rtu",
+          "jsonClass": "RulesRepo",
+          "name": "time_focus/Rtu"
+        },
+        {
           "base_url": "https://github.com/sanskrit-coders/adyatithi/tree/master/time_focus/nakShatra",
           "jsonClass": "RulesRepo",
           "name": "time_focus/nakShatra"
