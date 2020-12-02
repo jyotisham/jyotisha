@@ -6237,10 +6237,11 @@ BEGIN:VEVENT
 SUMMARY:Viṣuvadinam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190320T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190321T235957
-DESCRIPTION:Observed on day 1 (sunrise (default)/puurvaviddha (default)). 
-  <br/>Vernal equinox<br/><br/>##### Details<br/>- [Edit config file](https
- ://github.com/sanskrit-coders/adyatithi/tree/master/time_focus/Rtu/tropica
- l/day/01/01/viSuva-dinam__info.toml)<br/>- Tags:
+DESCRIPTION:Observed on day 1 of Madhuḥ (tropical) month (sunrise (defau
+ lt)/puurvaviddha (default)).  <br/>Vernal equinox<br/><br/>##### Details<b
+ r/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/
+ master/time_focus/Rtu/tropical/day/01/01/viSuva-dinam__info.toml)<br/>- Ta
+ gs:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13902,10 +13903,11 @@ BEGIN:VEVENT
 SUMMARY:Daxiṇāyanārambhaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190621T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190622T235957
-DESCRIPTION:Observed on day 1 (sunrise (default)/puurvaviddha (default)). 
-  <br/>Summer solstice.<br/><br/>##### Details<br/>- [Edit config file](htt
- ps://github.com/sanskrit-coders/adyatithi/tree/master/time_focus/Rtu/tropi
- cal/day/04/01/daxiNAyanArambhaH__info.toml)<br/>- Tags:
+DESCRIPTION:Observed on day 1 of Śuciḥ (tropical) month (sunrise (defau
+ lt)/puurvaviddha (default)).  <br/>Summer solstice.<br/><br/>##### Details
+ <br/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tre
+ e/master/time_focus/Rtu/tropical/day/04/01/daxiNAyanArambhaH__info.toml)<b
+ r/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -22154,10 +22156,11 @@ BEGIN:VEVENT
 SUMMARY:Daxiṇa-Viṣuva-Dinam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190922T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190923T235957
-DESCRIPTION:Observed on day 1 (sunrise (default)/puurvaviddha (default)). 
-  <br/>Vernal equinox<br/><br/>##### Details<br/>- [Edit config file](https
- ://github.com/sanskrit-coders/adyatithi/tree/master/time_focus/Rtu/tropica
- l/day/07/01/daxiNa-viSuva-dinam__info.toml)<br/>- Tags:
+DESCRIPTION:Observed on day 1 of Iṣaḥ (tropical) month (sunrise (defau
+ lt)/puurvaviddha (default)).  <br/>Vernal equinox<br/><br/>##### Details<b
+ r/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/
+ master/time_focus/Rtu/tropical/day/07/01/daxiNa-viSuva-dinam__info.toml)<b
+ r/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -30213,10 +30216,11 @@ BEGIN:VEVENT
 SUMMARY:Uttarāyaṇārambhaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191221T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191222T235957
-DESCRIPTION:Observed on day 1 (sunrise (default)/puurvaviddha (default)). 
-  <br/>Winter solstice.<br/><br/>##### Details<br/>- [Edit config file](htt
- ps://github.com/sanskrit-coders/adyatithi/tree/master/time_focus/Rtu/tropi
- cal/day/10/01/uttarAyaNArambhaH__info.toml)<br/>- Tags:
+DESCRIPTION:Observed on day 1 of Sahasyaḥ (tropical) month (sunrise (def
+ ault)/puurvaviddha (default)).  <br/>Winter solstice.<br/><br/>##### Detai
+ ls<br/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi/t
+ ree/master/time_focus/Rtu/tropical/day/10/01/uttarAyaNArambhaH__info.toml)
+ <br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -30298,12 +30302,12 @@ BEGIN:VEVENT
 SUMMARY:Shraddhānanda-Hatyā
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191222T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191223T235957
-DESCRIPTION:Observed on day 23 (sunrise (default)/puurvaviddha (default)).
-   <br/>Swami shraddhananda\, who brought back lakhs of muslims to the deva
- -dharma\, was shot to death by Abdul Rashid.<br/><br/>##### Details<br/>- 
- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/maste
- r/mahApuruSha/xatra/gregorian/day/12/23/shraddhAnanda-murder__info.toml)<b
- r/>- Tags: MahapurushaEvents
+DESCRIPTION:Observed on day 23 of December (sunrise (default)/puurvaviddha
+  (default)).  <br/>Swami shraddhananda\, who brought back lakhs of muslims
+  to the deva-dharma\, was shot to death by Abdul Rashid.<br/><br/>##### De
+ tails<br/>- [Edit config file](https://github.com/sanskrit-coders/adyatith
+ i/tree/master/mahApuruSha/xatra/gregorian/day/12/23/shraddhAnanda-murder__
+ info.toml)<br/>- Tags: MahapurushaEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -30626,11 +30630,12 @@ BEGIN:VEVENT
 SUMMARY:Shivarājêṇa Rustam-Jamānô Dhvastaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191227T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191228T235957
-DESCRIPTION:Observed on day 28 (sunrise (default)/puurvaviddha (default)).
-   <br/>Shivaji defeated Rustam-i Zaman in an epic battle fought near Kolha
- pur.<br/><br/>##### Details<br/>- [Edit config file](https://github.com/sa
- nskrit-coders/adyatithi/tree/master/mahApuruSha/xatra/gregorian/day/12/28/
- shivAjI_vs_rustam-zamAn__info.toml)<br/>- Tags: MahapurushaEvents
+DESCRIPTION:Observed on day 28 of December (sunrise (default)/puurvaviddha
+  (default)).  <br/>Shivaji defeated Rustam-i Zaman in an epic battle fough
+ t near Kolhapur.<br/><br/>##### Details<br/>- [Edit config file](https://g
+ ithub.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra/gregoria
+ n/day/12/28/shivAjI_vs_rustam-zamAn__info.toml)<br/>- Tags: MahapurushaEve
+ nts
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE

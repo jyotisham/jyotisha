@@ -1,7 +1,7 @@
 import logging
 
 from indic_transliteration import sanscript
-from jyotisha import custom_transliteration
+from jyotisha import custom_transliteration, names
 from jyotisha.names import get_chandra_masa, NAMES
 from jyotisha.panchaanga.temporal import AngaType
 
@@ -104,17 +104,28 @@ def get_timing_summary(rule):
   blurb = ''
   month = ''
   angam = ''
+  from jyotisha.panchaanga.temporal.festival.rules import RulesRepo
   if rule.timing is not None and rule.timing.month_type is not None:
-    if rule.timing.month_type == 'lunar_month':
+    if rule.timing.month_type == RulesRepo.LUNAR_MONTH_DIR:
       if rule.timing.month_number == 0:
         month = ' of every lunar month'
       else:
         month = ' of ' + get_chandra_masa(rule.timing.month_number, sanscript.IAST) + ' (lunar) month'
-    elif rule.timing.month_type == 'sidereal_solar_month':
+    elif rule.timing.month_type == RulesRepo.SIDEREAL_SOLAR_MONTH_DIR:
       if rule.timing.month_number == 0:
         month = ' of every solar month'
       else:
         month = ' of ' + NAMES['RASHI_NAMES'][sanscript.IAST][rule.timing.month_number] + ' (solar) month'
+    elif rule.timing.month_type == RulesRepo.TROPICAL_MONTH_DIR:
+      if rule.timing.month_number == 0:
+        month = ' of every tropical month'
+      else:
+        month = ' of ' + NAMES['RTU_MASA_NAMES_SHORT'][sanscript.IAST][rule.timing.month_number] + ' (tropical) month'
+    elif rule.timing.month_type == RulesRepo.GREGORIAN_MONTH_DIR:
+      if rule.timing.month_number == 0:
+        month = ' of every Gregorian month'
+      else:
+        month = ' of ' + names.month_map[rule.timing.month_number]
   if rule.timing is not None and rule.timing.anga_type is not None:
     # logging.debug(rule.name)
     # if rule.name.startswith("ta:"):
