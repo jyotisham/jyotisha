@@ -73,7 +73,7 @@ def get_description_str_with_shlokas(include_shlokas, rule, script):
       else:
         logging.warning('Unmatched backquotes in description string: %s' % description_string)
   if rule.shlokas is not None and include_shlokas:
-    shlokas = xsanscript.transliterate(rule.shlokas, xsanscript.DEVANAGARI, script)
+    shlokas = xsanscript.transliterate(rule.shlokas.replace("\n", "  \n"), xsanscript.DEVANAGARI, script)
     description_string = description_string + '\n\n' + shlokas + '\n\n'
   return description_string
 
