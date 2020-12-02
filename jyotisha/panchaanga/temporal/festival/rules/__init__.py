@@ -265,9 +265,9 @@ class RulesCollection(common.JsonObject):
       rules_map = get_festival_rules_map(
         os.path.join(DATA_ROOT, repo.get_path()), repo=repo)
       for rule in rules_map.values():
-        if "sa" not in rule.names:
+        if "ta" not in rule.names:
           continue
-        rule.names["sa"] = [xsanscript.transliterate(x.replace("~", "-"), sanscript.HK, sanscript.DEVANAGARI) for x in rule.names["sa"]]
+        rule.names["ta"] = [custom_transliteration.tr(x, sanscript.TAMIL) for x in rule.names["ta"]]
         rule.path_actual = None
         rule.repo = None
         rule.dump_to_file(filename=rule.get_storage_file_name(base_dir=base_dir))

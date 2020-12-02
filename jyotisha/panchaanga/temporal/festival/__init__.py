@@ -3,10 +3,8 @@ import re
 import sys
 
 from indic_transliteration import sanscript, language_code_to_script, xsanscript
-
 from jyotisha import custom_transliteration
 from jyotisha.util import default_if_none
-
 from sanskrit_data.schema import common
 
 logging.basicConfig(
@@ -35,33 +33,27 @@ class FestivalInstance(common.JsonObject):
     names = copy.deepcopy(fest_details.names)
     return names
 
-  def get_best_transliterated_name(self, scripts, fest_details_dict):
+  def get_best_transliterated_name(self, languages, scripts, fest_details_dict):
     names = self.get_human_names(fest_details_dict=fest_details_dict)
-    languages = list(names.keys())
-    language_scripts = [language_code_to_script.get(language, scripts[0]) for language in languages]
-    for script in scripts:
-      try:
-        i = language_scripts.index(script)
-        if languages[i] == "sa":
-          transliterated_text = sanscript.transliterate(names[languages[i]][0], sanscript.DEVANAGARI, script)
-        elif languages[i] == "en":
-          transliterated_text = transliterated_text
+    for language in languages:
+      if language in names.keys():
+        if language_code_to_script[language] in scripts:
+          transliterated_text = custom_transliteration.transliterate_from_language(language=language, text=names[language][0], script=language_code_to_script[language])
+          return {"language": language_code_to_script[language], "text": transliterated_text}
         else:
-          transliterated_text = custom_transliteration.tr(text=names[languages[i]][0], script=script)
-        return {"language": script, "text": transliterated_text}
-      except ValueError:
-        continue
+          transliterated_text = custom_transliteration.transliterate_from_language(language=language, text=names[language][0], script=scripts[0])
+          return {"language": scripts[0], "text": transliterated_text}
 
     # No language text matching the input scripts was found.
     if "sa" in names:
-      transliterated_text = sanscript.transliterate(names["sa"][0], sanscript.DEVANAGARI, script)
+      language = "sa"
     else:
-      text = list(names.values())[0][0]
-      transliterated_text = custom_transliteration.tr(text=text, script=scripts[0])
-    return {"language": script, "text": transliterated_text}
+      language = list(names.keys())[0]
+    transliterated_text = custom_transliteration.transliterate_from_language(language=language, text=names[language][0], script=scripts[0])
+    return {"language": scripts[0], "text": transliterated_text}
 
-  def tex_code(self, scripts, timezone, fest_details_dict):
-    name_details = self.get_best_transliterated_name(scripts=scripts, fest_details_dict=fest_details_dict)
+  def tex_code(self, languages, scripts, timezone, fest_details_dict):
+    name_details = self.get_best_transliterated_name(languages=languages, scripts=scripts, fest_details_dict=fest_details_dict)
     if name_details["language"] == sanscript.TAMIL:
       name = '\\tamil{%s}' % name_details["text"]
     else:
@@ -82,8 +74,8 @@ class FestivalInstance(common.JsonObject):
         end_time_str = "\\textsf{%s}" % end_time_str
       return "%s%s{\\RIGHTarrow}%s" % (name, start_time_str, end_time_str)
 
-  def md_code(self, scripts, timezone, fest_details_dict):
-    name_details = self.get_best_transliterated_name(scripts=scripts, fest_details_dict=fest_details_dict)
+  def md_code(self, languages, scripts, timezone, fest_details_dict):
+    name_details = self.get_best_transliterated_name(languages=languages, scripts=scripts, fest_details_dict=fest_details_dict)
     ordinal_str = " #%s" % custom_transliteration.tr(str(self.ordinal), script=scripts[0]) if self.ordinal is not None else ""
     name = "#### %s" % name_details["text"].replace("~", "-")
 
@@ -115,8 +107,8 @@ class TransitionFestivalInstance(FestivalInstance):
     self.status_1_hk = status_1_hk
     self.status_2_hk = status_2_hk
 
-  def tex_code(self, scripts, timezone, fest_details_dict):
-    name_details = self.get_best_transliterated_name(scripts=scripts, fest_details_dict=fest_details_dict)
+  def tex_code(self, languages, scripts, timezone, fest_details_dict):
+    name_details = self.get_best_transliterated_name(languages=languages, scripts=scripts, fest_details_dict=fest_details_dict)
     if name_details["language"] == sanscript.TAMIL:
       name = '\\tamil{%s}' % name_details["text"]
     else:

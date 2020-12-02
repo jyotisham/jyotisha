@@ -20,7 +20,7 @@ def daily_tex_comparer(city_name, year):
   orig_tex_file = os.path.join(TEST_DATA_PATH, 'daily-cal-%s-%s-deva.tex' % (year, city_name))
   current_tex_output = os.path.join(TEST_DATA_PATH, 'daily-cal-%s-%s-deva.tex.local' % (year, city_name))
   emit(panchaanga,
-       output_stream=open(current_tex_output, 'w'), scripts=[sanscript.DEVANAGARI, sanscript.TAMIL])
+       output_stream=open(current_tex_output, 'w'), languages=["sa", "ta"], scripts=[sanscript.DEVANAGARI, sanscript.TAMIL])
 
   if not os.path.exists(orig_tex_file):
     logging.warning("Files must have been deliberately deleted due to changed expectation. We'll just set it for future tests.")

@@ -32,7 +32,7 @@ logging.basicConfig(
 CODE_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
 
 
-def emit(panchaanga, time_format="hh:mm", scripts=None, output_stream=None):
+def emit(panchaanga, time_format="hh:mm", languages=None, scripts=None, output_stream=None):
   """Write out the panchaanga TeX using a specified template
   """
   # day_colours = {0: 'blue', 1: 'blue', 2: 'blue',
@@ -40,6 +40,8 @@ def emit(panchaanga, time_format="hh:mm", scripts=None, output_stream=None):
   compute_lagnams = panchaanga.computation_system.options.set_lagnas
   if scripts is None:
     scripts = [sanscript.DEVANAGARI]
+  if languages is None:
+    languages = ["sa"]
 
   template_file = open(os.path.join(os.path.dirname(__file__), 'templates/daily_cal_template.tex'))
 
@@ -128,7 +130,7 @@ def emit(panchaanga, time_format="hh:mm", scripts=None, output_stream=None):
             % (tithi_data_str, nakshatra_data_str, rashi_data_str, yoga_data_str,
                karana_data_str, ''), file=output_stream)
 
-    print_festivals_to_stream(daily_panchaanga, output_stream, panchaanga, scripts)
+    print_festivals_to_stream(daily_panchaanga, output_stream, panchaanga, languages, scripts)
 
     print('{%s} ' % names.weekday_short_map[daily_panchaanga.date.get_weekday()], file=output_stream)
     print('\\cfoot{\\rygdata{%s}{%s}{%s}}' % (rahu, yama, gulika), file=output_stream)
@@ -201,12 +203,12 @@ def stream_sun_moon_rise_data(daily_panchaanga, output_stream, time_format):
     print('{\\sunmoonsrdata{%s}{%s}{%s}{%s}' % (sunrise, sunset, moonrise, moonset), file=output_stream)
 
 
-def print_festivals_to_stream(daily_panchaanga, output_stream, panchaanga, scripts):
+def print_festivals_to_stream(daily_panchaanga, output_stream, panchaanga, languages, scripts):
   rules_collection = rules.RulesCollection.get_cached(
     repos_tuple=tuple(panchaanga.computation_system.options.fest_repos))
   fest_details_dict = rules_collection.name_to_rule
   print('{%s}' % '\\eventsep '.join(
-    [f.tex_code(scripts=scripts, timezone=Timezone(timezone_id=panchaanga.city.timezone),
+    [f.tex_code(languages=languages, scripts=scripts, timezone=Timezone(timezone_id=panchaanga.city.timezone),
                 fest_details_dict=fest_details_dict) for f in
      sorted(daily_panchaanga.festival_id_to_instance.values())]), file=output_stream)
 

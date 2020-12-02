@@ -4,7 +4,7 @@
 import logging
 import re
 
-from indic_transliteration import xsanscript as sanscript
+from indic_transliteration import xsanscript as sanscript, language_code_to_script, xsanscript
 
 logging.basicConfig(
   level=logging.DEBUG,
@@ -123,3 +123,14 @@ def clean_tamil_Na(text):
   output_text = re.sub('([-—*])ன', '\\1ந', output_text)
   output_text = re.sub('ன்த', 'ந்த', output_text)
   return output_text
+
+
+def transliterate_from_language(text, language, script):
+  if language == "ta":
+    # Tamil names are stored in HK (because the latter differentiates between vargIya consonants!)
+    transliterated_text = tr(text, script)
+  else:
+    source_script = language_code_to_script[language]
+    transliterated_text = xsanscript.transliterate(text, source_script, script)
+  return transliterated_text
+
