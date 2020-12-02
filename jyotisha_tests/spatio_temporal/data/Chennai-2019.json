@@ -116253,7 +116253,13 @@
           "name": "yama"
         }
       },
-      "festival_id_to_instance": {},
+      "festival_id_to_instance": {
+        "bAbri-mosque-demolition": {
+          "jsonClass": "FestivalInstance",
+          "name": "bAbri-mosque-demolition",
+          "ordinal": 28
+        }
+      },
       "jd_moonrise": 2458823.8332,
       "jd_moonset": 2458824.3523,
       "jd_next_sunrise": 2458824.5362,
@@ -116916,6 +116922,11 @@
         "sarva-mOkSadA-EkAdazI": {
           "jsonClass": "FestivalInstance",
           "name": "sarva-mOkSadA-EkAdazI"
+        },
+        "shivAjI_takes_panhaLa": {
+          "jsonClass": "FestivalInstance",
+          "name": "shivAjI_takes_panhaLa",
+          "ordinal": 361
         }
       },
       "jd_moonrise": 2458825.8858,
@@ -134865,6 +134876,14 @@
         "year": 2019
       }
     ],
+    "bAbri-mosque-demolition": [
+      {
+        "day": 6,
+        "jsonClass": "Date",
+        "month": 12,
+        "year": 2019
+      }
+    ],
     "bRhatI-vRkSaka-pUjA": [
       {
         "day": 17,
@@ -140238,6 +140257,14 @@
         "day": 15,
         "jsonClass": "Date",
         "month": 11,
+        "year": 2019
+      }
+    ],
+    "shivAjI_takes_panhaLa": [
+      {
+        "day": 8,
+        "jsonClass": "Date",
+        "month": 12,
         "year": 2019
       }
     ],

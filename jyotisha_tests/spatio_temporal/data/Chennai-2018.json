@@ -116197,6 +116197,11 @@
         }
       },
       "festival_id_to_instance": {
+        "bAbri-mosque-demolition": {
+          "jsonClass": "FestivalInstance",
+          "name": "bAbri-mosque-demolition",
+          "ordinal": 27
+        },
         "kArttika-amAvAsyA (alabhyam\u2013anUrAdhA, puSkalA)": {
           "jsonClass": "FestivalInstance",
           "name": "kArttika-amAvAsyA (alabhyam\u2013anUrAdhA, puSkalA)"
@@ -116881,6 +116886,11 @@
         "mUrkkha nAyan2Ar (31) gurupUjai": {
           "jsonClass": "FestivalInstance",
           "name": "mUrkkha nAyan2Ar (31) gurupUjai"
+        },
+        "shivAjI_takes_panhaLa": {
+          "jsonClass": "FestivalInstance",
+          "name": "shivAjI_takes_panhaLa",
+          "ordinal": 360
         },
         "vanadurgAnavarAtra-ArambhaH": {
           "jsonClass": "FestivalInstance",
@@ -134887,6 +134897,14 @@
         "year": 2018
       }
     ],
+    "bAbri-mosque-demolition": [
+      {
+        "day": 6,
+        "jsonClass": "Date",
+        "month": 12,
+        "year": 2018
+      }
+    ],
     "bRhatI-vRkSaka-pUjA": [
       {
         "day": 28,
@@ -140110,6 +140128,14 @@
         "day": 25,
         "jsonClass": "Date",
         "month": 11,
+        "year": 2018
+      }
+    ],
+    "shivAjI_takes_panhaLa": [
+      {
+        "day": 8,
+        "jsonClass": "Date",
+        "month": 12,
         "year": 2018
       }
     ],

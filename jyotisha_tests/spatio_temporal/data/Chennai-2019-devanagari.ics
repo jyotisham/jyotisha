@@ -29029,6 +29029,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Bābara-Rākṣasālaya-Nāshaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191205T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191206T235957
+DESCRIPTION:Observed on day 6 of December (sunrise (default)/puurvaviddha 
+ (default)).  <br/><br/><br/>##### Details<br/>- [Edit config file](https:/
+ /github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra/gregor
+ ian/day/12/06/bAbri-mosque-demolition__info.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Mārgaśīrṣaḥ-09-10\,Mīnaḥ-Revatī🌛🌌◢◣Vṛścika
  ḥ-Jyeṣṭhā-08-21🌌🌞◢◣Sahaḥ-09-15🪐🌞
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191207T062207
@@ -29194,6 +29210,24 @@ DESCRIPTION:The Shukla-paksha Ekadashi of mārgaśīrṣa month is known a
  ttps://github.com/sanskrit-coders/adyatithi/tree/master/time_focus/monthly
  /ekAdashI/description_only/mOkSadA-EkAdazI__info.toml)<br/>- Tags: Monthly
  Vratam EkadashiVratam
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Śivarājena Panhaḻadurgaṃ Gṛhītam
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191207T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191208T235957
+DESCRIPTION:Observed on day 8 of December (sunrise (default)/puurvaviddha 
+ (default)).  <br/>Panhala fell on the 2nd night of the siege! Just 18 days
+  after the slaying of Afzal Khan!<br/><br/>##### Details<br/>- [Edit confi
+ g file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruS
+ ha/xatra/gregorian/day/12/08/shivAjI_takes_panhaLa__info.toml)<br/>- Tags:
+  Shivaji
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -30299,7 +30333,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Shraddhānanda-Hatyā
+SUMMARY:Śraddhānanda-Hatyā
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191222T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191223T235957
 DESCRIPTION:Observed on day 23 of December (sunrise (default)/puurvaviddha
@@ -30307,7 +30341,7 @@ DESCRIPTION:Observed on day 23 of December (sunrise (default)/puurvaviddha
   to the deva-dharma\, was shot to death by Abdul Rashid.<br/><br/>##### De
  tails<br/>- [Edit config file](https://github.com/sanskrit-coders/adyatith
  i/tree/master/mahApuruSha/xatra/gregorian/day/12/23/shraddhAnanda-murder__
- info.toml)<br/>- Tags: MahapurushaEvents
+ info.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -30627,15 +30661,14 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Shivarājêṇa Rustam-Jamānô Dhvastaḥ
+SUMMARY:Śivarājeṇa Rustam-Jamānô Dhvastaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191227T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191228T235957
 DESCRIPTION:Observed on day 28 of December (sunrise (default)/puurvaviddha
   (default)).  <br/>Shivaji defeated Rustam-i Zaman in an epic battle fough
  t near Kolhapur.<br/><br/>##### Details<br/>- [Edit config file](https://g
  ithub.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra/gregoria
- n/day/12/28/shivAjI_vs_rustam-zamAn__info.toml)<br/>- Tags: MahapurushaEve
- nts
+ n/day/12/28/shivAjI_vs_rustam-zamAn__info.toml)<br/>- Tags: Shivaji
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE

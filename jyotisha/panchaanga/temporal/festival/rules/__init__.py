@@ -4,6 +4,7 @@ import sys
 from pathlib import Path
 
 import methodtools
+from indic_transliteration import sanscript
 from jyotisha import custom_transliteration
 from timebudget import timebudget
 
@@ -265,6 +266,8 @@ class RulesCollection(common.JsonObject):
         os.path.join(DATA_ROOT, repo.get_path()), repo=repo)
       for rule in rules_map.values():
         expected_path = rule.get_storage_file_name(base_dir=base_dir)
+        if "sa" in rule.names:
+          rule.names["sa"] = [sanscript.transliterate(x, sanscript.HK, sanscript.DEVANAGARI).replace("~", "-") for x in rule.names["sa"]]
         if rule.path_actual != expected_path:
           logging.info(str((rule.path_actual, expected_path)))
           os.makedirs(os.path.dirname(expected_path), exist_ok=True)
