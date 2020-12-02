@@ -1122,7 +1122,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:trailaṅga-svāmī-jayantī
+SUMMARY:trailaṅga-svāmi-jayantī
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190116T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190117T235957
 DESCRIPTION:Observed on Śukla-Ekādaśī tithi of Pauṣaḥ (lunar) mont
@@ -1464,12 +1464,13 @@ SUMMARY:badarī jyotirmaṭha-pratiṣṭhāpana-jayantī
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190120T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190121T235957
 DESCRIPTION:Observed on Paurṇamāsī tithi of Pauṣaḥ (lunar) month (
- sunrise (default)/puurvaviddha (default)).  <br/>Adi Shankara founded Jyot
- ir Mutt\, Badarinath in Rakshasa year Totakacharya as first<br/><br/>#####
-  Details<br/>- [Edit config file](https://github.com/sanskrit-coders/adyat
- ithi/tree/master/mahApuruSha/smArta-misc/lunar_month/tithi/10/15/badarI%20
- jyOtirmaTha-pratiSThApana~jayantI__info.toml)<br/>- Tags: AdiShankaraHisto
- ry
+ sunrise (default)/puurvaviddha (default)).  <br/>The event has been commem
+ orated since it occurred in 2616 (kali era).  <br/>Adi Shankara founded Jy
+ otir Mutt\, Badarinath in Rakshasa year Totakacharya as first<br/><br/>###
+ ## Details<br/>- [Edit config file](https://github.com/sanskrit-coders/ady
+ atithi/tree/master/mahApuruSha/smArta-misc/lunar_month/tithi/10/15/badarI%
+ 20jyOtirmaTha-pratiSThApana~jayantI__info.toml)<br/>- Tags: AdiShankaraHis
+ tory
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1536,12 +1537,13 @@ SUMMARY:śṛṅgerī śāradāmaṭha-pratiṣṭhāpana-jayantī
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190120T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190121T235957
 DESCRIPTION:Observed on Paurṇamāsī tithi of Pauṣaḥ (lunar) month (
- sunrise (default)/puurvaviddha (default)).  <br/>Adi Shankara founded Shar
- ada Mutt\, Shringeri in Pingala year Sureshwaracharya as first<br/><br/>##
- ### Details<br/>- [Edit config file](https://github.com/sanskrit-coders/ad
- yatithi/tree/master/mahApuruSha/smArta-misc/lunar_month/tithi/10/15/zRGgEr
- I%20zAradAmaTha-pratiSThApana~jayantI__info.toml)<br/>- Tags: AdiShankaraH
- istory
+ sunrise (default)/puurvaviddha (default)).  <br/>The event has been commem
+ orated since it occurred in 2618 (kali era).  <br/>Adi Shankara founded Sh
+ arada Mutt\, Shringeri in Pingala year Sureshwaracharya as first<br/><br/>
+ ##### Details<br/>- [Edit config file](https://github.com/sanskrit-coders/
+ adyatithi/tree/master/mahApuruSha/smArta-misc/lunar_month/tithi/10/15/zRGg
+ ErI%20zAradAmaTha-pratiSThApana~jayantI__info.toml)<br/>- Tags: AdiShankar
+ aHistory
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1808,12 +1810,13 @@ SUMMARY:tyāgarāja-ārādhanā
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190124T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190125T235957
 DESCRIPTION:Observed on Kṛṣṇa-Pañcamī tithi of Pauṣaḥ (lunar) 
- month (sunrise (default)/puurvaviddha (default)).  <br/><br/><br/>kāmakro
- dhādirahitaṃ rāmabhaktaśiromaṇim|  <br/>tyāgarājaguruṃ vande sa
- ṅgītābdhiṃ kalānidhim||<br/><br/><br/><br/>##### Details<br/>- [Edi
- t config file](https://github.com/sanskrit-coders/adyatithi/tree/master/ma
- hApuruSha/sangIta-kRt/lunar_month/tithi/10/20/tyAgarAja-ArAdhanA__info.tom
- l)<br/>- Tags: MahapurushaEvents CommonFestivals
+ month (sunrise (default)/puurvaviddha (default)).  <br/>The event has been
+  commemorated since it occurred in 4948 (kali era).  <br/><br/><br/>kāmak
+ rodhādirahitaṃ rāmabhaktaśiromaṇim|  <br/>tyāgarājaguruṃ vande 
+ saṅgītābdhiṃ kalānidhim||<br/><br/><br/><br/>##### Details<br/>- [E
+ dit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/
+ mahApuruSha/sangIta-kRt/lunar_month/tithi/10/20/tyAgarAja-ArAdhanA__info.t
+ oml)<br/>- Tags: MahapurushaEvents CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1853,16 +1856,17 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:śrī-śeṣādri-svāmī-jayantī
+SUMMARY:śrī-śeṣādri-svāmi-jayantī
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190125T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190126T235957
 DESCRIPTION:Observed on Hastaḥ nakshatra of Makaraḥ (solar) month (pra
- atah/paraviddha).  <br/><br/><br/>karuṇāsāgaraṃ śāntam aruṇācal
- avāsinam|  <br/>śrīśeṣādriguruṃ vande brahmībhūtaṃ taponidhim
- ||<br/><br/><br/><br/>##### Details<br/>- [Edit config file](https://githu
- b.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/general/sidereal_s
- olar_month/nakshatra/10/13/zrI~zESAdri-svAmI~jayantI__info.toml)<br/>- Tag
- s: MahapurushaEvents
+ atah/paraviddha).  <br/>The event has been commemorated since it occurred 
+ in 4970 (kali era).  <br/><br/><br/>karuṇāsāgaraṃ śāntam aruṇāc
+ alavāsinam|  <br/>śrīśeṣādriguruṃ vande brahmībhūtaṃ taponidh
+ im||<br/><br/><br/><br/>##### Details<br/>- [Edit config file](https://git
+ hub.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/general/sidereal
+ _solar_month/nakshatra/10/13/zrI~zESAdri-svAmI~jayantI__info.toml)<br/>- T
+ ags: MahapurushaEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1941,10 +1945,11 @@ SUMMARY:vivekānanda-jayantī
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190126T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190127T235957
 DESCRIPTION:Observed on Kṛṣṇa-Saptamī tithi of Pauṣaḥ (lunar) m
- onth (sunrise (default)/puurvaviddha (default)).  <br/><br/><br/>##### Det
- ails<br/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi
- /tree/master/mahApuruSha/smArta-misc/lunar_month/tithi/10/22/vivEkAnanda~j
- ayantI__info.toml)<br/>- Tags: MahapurushaEvents CommonFestivals
+ onth (sunrise (default)/puurvaviddha (default)).  <br/>The event has been 
+ commemorated since it occurred in 4963 (kali era).  <br/><br/><br/>##### D
+ etails<br/>- [Edit config file](https://github.com/sanskrit-coders/adyatit
+ hi/tree/master/mahApuruSha/smArta-misc/lunar_month/tithi/10/22/vivEkAnanda
+ ~jayantI__info.toml)<br/>- Tags: MahapurushaEvents CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2252,10 +2257,11 @@ SUMMARY:seṅgālipuram-muttaṇṇāvāḻ-ārādhanā
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190131T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190201T235957
 DESCRIPTION:Observed on Kṛṣṇa-Dvādaśī tithi of Makaraḥ (solar) 
- month (aparaahna/vyaapti).  <br/><br/><br/>##### Details<br/>- [Edit confi
- g file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruS
- ha/smArta-misc/sidereal_solar_month/tithi/10/27/sEGgAlipuram~muttaNNAvAL~A
- rAdhanA__info.toml)<br/>- Tags: MahapurushaEvents
+ month (aparaahna/vyaapti).  <br/>The event has been commemorated since it 
+ occurred in 4994 (kali era).  <br/><br/><br/>##### Details<br/>- [Edit con
+ fig file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApur
+ uSha/smArta-misc/sidereal_solar_month/tithi/10/27/sEGgAlipuram~muttaNNAvAL
+ ~ArAdhanA__info.toml)<br/>- Tags: MahapurushaEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3089,11 +3095,12 @@ SUMMARY:dvārakā-maṭha-pratiṣṭhāpana-jayantī
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190211T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190212T235957
 DESCRIPTION:Observed on Śukla-Saptamī tithi of Māghaḥ (lunar) month (
- sunrise (default)/puurvaviddha (default)).  <br/>Adi Shankara founded Dwar
- aka Mutt in Sadharana year with HastamalakaAcharya as first<br/><br/>#####
-  Details<br/>- [Edit config file](https://github.com/sanskrit-coders/adyat
- ithi/tree/master/mahApuruSha/smArta-misc/lunar_month/tithi/11/07/dvArakA-m
- aTha-pratiSThApana~jayantI__info.toml)<br/>- Tags: AdiShankaraHistory
+ sunrise (default)/puurvaviddha (default)).  <br/>The event has been commem
+ orated since it occurred in 2611 (kali era).  <br/>Adi Shankara founded Dw
+ araka Mutt in Sadharana year with HastamalakaAcharya as first<br/><br/>###
+ ## Details<br/>- [Edit config file](https://github.com/sanskrit-coders/ady
+ atithi/tree/master/mahApuruSha/smArta-misc/lunar_month/tithi/11/07/dvArakA
+ -maTha-pratiSThApana~jayantI__info.toml)<br/>- Tags: AdiShankaraHistory
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4610,11 +4617,12 @@ SUMMARY:kāñcī jagadguru śrī-śaṅkara vijayendra sarasvatī jayantī
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190302T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190303T235957
 DESCRIPTION:Observed on Uttarāṣāḍhā nakshatra of Kumbhaḥ (solar) 
- month (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit conf
- ig file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuru
- Sha/kAnchI-maTha/sidereal_solar_month/nakshatra/11/21/kAJcI%20jagadguru%20
- zrI~zaGkara%20vijayEndra%20sarasvatI%20jayantI__info.toml)<br/>- Tags: Mah
- apurushaEvents CommonFestivals
+ month (praatah/paraviddha).  <br/>The event has been commemorated since it
+  occurred in 5069 (kali era).  <br/><br/><br/>##### Details<br/>- [Edit co
+ nfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApu
+ ruSha/kAnchI-maTha/sidereal_solar_month/nakshatra/11/21/kAJcI%20jagadguru%
+ 20zrI~zaGkara%20vijayEndra%20sarasvatI%20jayantI__info.toml)<br/>- Tags: M
+ ahapurushaEvents CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4916,12 +4924,13 @@ SUMMARY:purandaradāsa-ārādhanā
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190305T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190306T235957
 DESCRIPTION:Observed on Amāvāsyā tithi of Māghaḥ (lunar) month (sunr
- ise (default)/puurvaviddha (default)).  <br/><br/><br/>manmanobhīṣṭav
- aradaṃ sarvābhīṣṭaphalapradam|  <br/>purandaraguruṃ vande dāsa
- śṛeṣṭhaṃ dayānidhim||<br/><br/><br/><br/>##### Details<br/>- [Ed
- it config file](https://github.com/sanskrit-coders/adyatithi/tree/master/m
- ahApuruSha/sangIta-kRt/lunar_month/tithi/11/30/purandaradAsa-ArAdhanA__inf
- o.toml)<br/>- Tags: MahapurushaEvents CommonFestivals
+ ise (default)/puurvaviddha (default)).  <br/>The event has been commemorat
+ ed since it occurred in 4665 (kali era).  <br/><br/><br/>manmanobhīṣṭ
+ avaradaṃ sarvābhīṣṭaphalapradam|  <br/>purandaraguruṃ vande dās
+ aśṛeṣṭhaṃ dayānidhim||<br/><br/><br/><br/>##### Details<br/>- [E
+ dit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/
+ mahApuruSha/sangIta-kRt/lunar_month/tithi/11/30/purandaradAsa-ArAdhanA__in
+ fo.toml)<br/>- Tags: MahapurushaEvents CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5076,10 +5085,11 @@ SUMMARY:rāmakṛṣṇa-paramahaṃsa-jayantī
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190307T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190308T235957
 DESCRIPTION:Observed on Śukla-Dvitīyā tithi of Phālgunaḥ (lunar) mon
- th (sunrise (default)/puurvaviddha (default)).  <br/><br/><br/>##### Detai
- ls<br/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi/t
- ree/master/mahApuruSha/smArta-misc/lunar_month/tithi/12/02/rAmakRSNa-param
- ahaMsa~jayantI__info.toml)<br/>- Tags: MahapurushaEvents CommonFestivals
+ th (sunrise (default)/puurvaviddha (default)).  <br/>The event has been co
+ mmemorated since it occurred in 4936 (kali era).  <br/><br/><br/>##### Det
+ ails<br/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi
+ /tree/master/mahApuruSha/smArta-misc/lunar_month/tithi/12/02/rAmakRSNa-par
+ amahaMsa~jayantI__info.toml)<br/>- Tags: MahapurushaEvents CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5152,15 +5162,13 @@ BEGIN:VEVENT
 SUMMARY:pūntānaṃ-jayantī
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190309T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190310T235957
-DESCRIPTION:Observed on Aśvinī nakshatra of Kumbhaḥ (solar) month (sun
- rise (default)/puurvaviddha (default)).  <br/>Poonthanam\, a great devotee
-  of Guruvayurappan\, enriched Malayalam devotional literature with his ren
- owned poetic composition 'Jnanapana'\, a philosophical work of all times. 
- On this day\, recital of Poonthanam's works and debate takes place. A one 
- week literary festival is conducted at Poonthanam illam.<br/><br/>##### De
- tails<br/>- [Edit config file](https://github.com/sanskrit-coders/adyatith
- i/tree/master/mahApuruSha/general/sidereal_solar_month/nakshatra/11/01/pUn
- tAnaM~jayantI__info.toml)<br/>- Tags: MahapurushaEvents
+DESCRIPTION:##### Details<br/>- [Edit config file](https://github.com/sans
+ krit-coders/adyatithi/tree/master/mahApuruSha/general/sidereal_solar_month
+ /nakshatra/11/01/pUntAnaM~jayantI__info.toml)<br/>- Tags: MahapurushaEvent
+ s<br/><br/><br/><br/>##### Details<br/>- [Edit config file](https://github
+ .com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/general/sidereal_so
+ lar_month/nakshatra/11/01/pUntAnaM~jayantI__info.toml)<br/>- Tags: Mahapur
+ ushaEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5411,14 +5419,15 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:śrī-rāghavendra-svāmī-jayantī
+SUMMARY:śrī-rāghavendra-svāmi-jayantī
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190312T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190313T235957
 DESCRIPTION:Observed on Śukla-Saptamī tithi of Phālgunaḥ (lunar) mont
- h (sunrise (default)/puurvaviddha (default)).  <br/><br/><br/>##### Detail
- s<br/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tr
- ee/master/mahApuruSha/mAdhva-misc/lunar_month/tithi/12/07/zrI~rAghavEndra-
- svAmI~jayantI__info.toml)<br/>- Tags: MahapurushaEvents CommonFestivals
+ h (sunrise (default)/puurvaviddha (default)).  <br/>The event has been com
+ memorated since it occurred in 4695 (kali era).  <br/><br/><br/>##### Deta
+ ils<br/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi/
+ tree/master/mahApuruSha/mAdhva-misc/lunar_month/tithi/12/07/zrI~rAghavEndr
+ a-svAmI~jayantI__info.toml)<br/>- Tags: MahapurushaEvents CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5924,11 +5933,12 @@ SUMMARY:kāñcī 69 jagadguru śrī-jayendra sarasvatī ārādhanā
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190318T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190319T235957
 DESCRIPTION:Observed on Śukla-Trayodaśī tithi of Phālgunaḥ (lunar) m
- onth (aparaahna/vyaapti).  <br/><br/><br/><br/><br/><br/><br/>##### Detail
- s<br/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tr
- ee/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/12/13/kAJcI%2069%20ja
- gadguru%20zrI~jayEndra%20sarasvatI%20ArAdhanA__info.toml)<br/>- Tags: Kanc
- hiAradhanaDays CommonFestivals
+ onth (aparaahna/vyaapti).  <br/>The event has been commemorated since it o
+ ccurred in 5119 (kali era).  <br/><br/><br/><br/><br/><br/><br/>##### Deta
+ ils<br/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi/
+ tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/12/13/kAJcI%2069%20
+ jagadguru%20zrI~jayEndra%20sarasvatI%20ArAdhanA__info.toml)<br/>- Tags: Ka
+ nchiAradhanaDays CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6139,10 +6149,11 @@ SUMMARY:caitanya-mahāprabhu-jayantī
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190320T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190321T235957
 DESCRIPTION:Observed on Paurṇamāsī tithi of Phālgunaḥ (lunar) month
-  (sunrise (default)/puurvaviddha (default)).  <br/><br/><br/>##### Details
- <br/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tre
- e/master/mahApuruSha/vaiShNava-misc/lunar_month/tithi/12/15/caitanya-mahAp
- rabhu~jayantI__info.toml)<br/>- Tags: MahapurushaEvents
+  (sunrise (default)/puurvaviddha (default)).  <br/>The event has been comm
+ emorated since it occurred in 4586 (kali era).  <br/><br/><br/>##### Detai
+ ls<br/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi/t
+ ree/master/mahApuruSha/vaiShNava-misc/lunar_month/tithi/12/15/caitanya-mah
+ Aprabhu~jayantI__info.toml)<br/>- Tags: MahapurushaEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6334,10 +6345,11 @@ SUMMARY:chatrapati-śivājī-jayantī
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190322T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190323T235957
 DESCRIPTION:Observed on Kṛṣṇa-Tṛtīyā tithi of Phālgunaḥ (luna
- r) month (sunrise (default)/puurvaviddha (default)).  <br/><br/><br/>#####
-  Details<br/>- [Edit config file](https://github.com/sanskrit-coders/adyat
- ithi/tree/master/mahApuruSha/xatra/lunar_month/tithi/12/18/chatrapati-zivA
- jI~jayantI__info.toml)<br/>- Tags: MahapurushaEvents CommonFestivals
+ r) month (sunrise (default)/puurvaviddha (default)).  <br/>The event has b
+ een commemorated since it occurred in 4730 (kali era).  <br/><br/><br/>###
+ ## Details<br/>- [Edit config file](https://github.com/sanskrit-coders/ady
+ atithi/tree/master/mahApuruSha/xatra/lunar_month/tithi/12/18/chatrapati-zi
+ vAjI~jayantI__info.toml)<br/>- Tags: MahapurushaEvents CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6352,14 +6364,15 @@ SUMMARY:kāñcī jagadguru śrī-jayendra sarasvatī āśrama-svīkāra-ja
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190322T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190323T235957
 DESCRIPTION:Observed on Svātī nakshatra of Mīnaḥ (solar) month (praat
- ah/paraviddha).  <br/>jagadguru śrī~jayendra sarasvatī was inducted int
- o the kāmakoṭi-pīṭham on 22nd March 1954\, vijaya year\, mīna/phāl
- guna māsa kṛṣṇa dvitīyā somavāsaraḥ chitrā upari svātī nak
- ṣatram.<br/><br/>##### Details<br/>- [Edit config file](https://github.c
- om/sanskrit-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/sidereal
- _solar_month/nakshatra/12/15/kAJcI%20jagadguru%20zrI~jayEndra%20sarasvatI%
- 20Azrama-svIkAra-jayantI__info.toml)<br/>- Tags: MahapurushaEvents CommonF
- estivals
+ ah/paraviddha).  <br/>The event has been commemorated since it occurred in
+  5054 (kali era).  <br/>jagadguru śrī~jayendra sarasvatī was inducted i
+ nto the kāmakoṭi-pīṭham on 22nd March 1954\, vijaya year\, mīna/ph
+ ālguna māsa kṛṣṇa dvitīyā somavāsaraḥ chitrā upari svātī n
+ akṣatram.<br/><br/>##### Details<br/>- [Edit config file](https://github
+ .com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/sidere
+ al_solar_month/nakshatra/12/15/kAJcI%20jagadguru%20zrI~jayEndra%20sarasvat
+ I%20Azrama-svIkAra-jayantI__info.toml)<br/>- Tags: MahapurushaEvents Commo
+ nFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -7495,14 +7508,15 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:muttusvāmī-dīkṣita-jayantī
+SUMMARY:muttusvāmi-dīkṣita-jayantī
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190408T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190409T235957
 DESCRIPTION:Observed on Kṛttikā nakshatra of Mīnaḥ (solar) month (pr
- aatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config file](
- https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/sangI
- ta-kRt/sidereal_solar_month/nakshatra/12/03/muttusvAmI~dIkSita~jayantI__in
- fo.toml)<br/>- Tags: MahapurushaEvents CommonFestivals
+ aatah/paraviddha).  <br/>The event has been commemorated since it occurred
+  in 4875 (kali era).  <br/><br/><br/>##### Details<br/>- [Edit config file
+ ](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/san
+ gIta-kRt/sidereal_solar_month/nakshatra/12/03/muttusvAmI~dIkSita~jayantI__
+ info.toml)<br/>- Tags: MahapurushaEvents CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9202,10 +9216,11 @@ SUMMARY:vallabhācārya-jayantī
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190429T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190430T235957
 DESCRIPTION:Observed on Kṛṣṇa-Ekādaśī tithi of Caitraḥ (lunar) 
- month (sunrise (default)/puurvaviddha (default)).  <br/><br/><br/>##### De
- tails<br/>- [Edit config file](https://github.com/sanskrit-coders/adyatith
- i/tree/master/mahApuruSha/vaiShNava-misc/lunar_month/tithi/01/26/vallabhAc
- Arya~jayantI__info.toml)<br/>- Tags: MahapurushaEvents
+ month (sunrise (default)/puurvaviddha (default)).  <br/>The event has been
+  commemorated since it occurred in 4580 (kali era).  <br/><br/><br/>##### 
+ Details<br/>- [Edit config file](https://github.com/sanskrit-coders/adyati
+ thi/tree/master/mahApuruSha/vaiShNava-misc/lunar_month/tithi/01/26/vallabh
+ AcArya~jayantI__info.toml)<br/>- Tags: MahapurushaEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9340,10 +9355,11 @@ SUMMARY:ramaṇa-maharṣi-ārādhanā
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190501T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190502T235957
 DESCRIPTION:Observed on Kṛṣṇa-Trayodaśī tithi of Meṣaḥ (solar)
-  month (aparaahna/vyaapti).  <br/><br/><br/>##### Details<br/>- [Edit conf
- ig file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuru
- Sha/smArta-misc/sidereal_solar_month/tithi/01/28/ramaNa~maharSi~ArAdhanA__
- info.toml)<br/>- Tags: MahapurushaEvents CommonFestivals
+  month (aparaahna/vyaapti).  <br/>The event has been commemorated since it
+  occurred in 5052 (kali era).  <br/><br/><br/>##### Details<br/>- [Edit co
+ nfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApu
+ ruSha/smArta-misc/sidereal_solar_month/tithi/01/28/ramaNa~maharSi~ArAdhanA
+ __info.toml)<br/>- Tags: MahapurushaEvents CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9712,10 +9728,11 @@ SUMMARY:śyāmā-śāstrī-jayantī
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190505T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190506T235957
 DESCRIPTION:Observed on Kṛttikā nakshatra of Meṣaḥ (solar) month (p
- raatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config file]
- (https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/smAr
- ta-misc/sidereal_solar_month/nakshatra/01/03/zyAmA~zAstrI~jayantI__info.to
- ml)<br/>- Tags: MahapurushaEvents CommonFestivals
+ raatah/paraviddha).  <br/>The event has been commemorated since it occurre
+ d in 4863 (kali era).  <br/><br/><br/>##### Details<br/>- [Edit config fil
+ e](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/sm
+ Arta-misc/sidereal_solar_month/nakshatra/01/03/zyAmA~zAstrI~jayantI__info.
+ toml)<br/>- Tags: MahapurushaEvents CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9999,11 +10016,12 @@ SUMMARY:rāmānuja-janma-nakṣatram
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190508T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190509T235957
 DESCRIPTION:Observed on Ārdrā nakshatra of Meṣaḥ (solar) month (sunr
- ise (default)/puurvaviddha (default)).  <br/><br/><br/>##### Details<br/>-
-  [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/mast
- er/mahApuruSha/vaiShNava-misc/sidereal_solar_month/nakshatra/01/06/rAmAnuj
- a-janma-nakSatram__info.toml)<br/>- Tags: MahapurushaEvents CommonFestival
- s
+ ise (default)/puurvaviddha (default)).  <br/>The event has been commemorat
+ ed since it occurred in 4118 (kali era).  <br/><br/><br/>##### Details<br/
+ >- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/ma
+ ster/mahApuruSha/vaiShNava-misc/sidereal_solar_month/nakshatra/01/06/rAmAn
+ uja-janma-nakSatram__info.toml)<br/>- Tags: MahapurushaEvents CommonFestiv
+ als
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10017,10 +10035,11 @@ SUMMARY:sūradāsa-jayantī
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190508T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190509T235957
 DESCRIPTION:Observed on Śukla-Pañcamī tithi of Vaiśākhaḥ (lunar) mo
- nth (sunrise (default)/puurvaviddha (default)).  <br/><br/><br/>##### Deta
- ils<br/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi/
- tree/master/mahApuruSha/sangIta-kRt/lunar_month/tithi/02/05/sUradAsa~jayan
- tI__info.toml)<br/>- Tags: MahapurushaEvents
+ nth (sunrise (default)/puurvaviddha (default)).  <br/>The event has been c
+ ommemorated since it occurred in 4579 (kali era).  <br/><br/><br/>##### De
+ tails<br/>- [Edit config file](https://github.com/sanskrit-coders/adyatith
+ i/tree/master/mahApuruSha/sangIta-kRt/lunar_month/tithi/02/05/sUradAsa~jay
+ antI__info.toml)<br/>- Tags: MahapurushaEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10069,10 +10088,11 @@ SUMMARY:śaṅkara-jayantī
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190508T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190509T235957
 DESCRIPTION:Observed on Śukla-Pañcamī tithi of Vaiśākhaḥ (lunar) mo
- nth (praatah/paraviddha).  <br/>Nandana year<br/><br/>##### Details<br/>- 
- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/maste
- r/mahApuruSha/smArta-misc/lunar_month/tithi/02/05/zaGkara~jayantI__info.to
- ml)<br/>- Tags: CommonFestivals AdiShankaraHistory MahapurushaEvents
+ nth (praatah/paraviddha).  <br/>The event has been commemorated since it o
+ ccurred in 2593 (kali era).  <br/>Nandana year<br/><br/>##### Details<br/>
+ - [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/mas
+ ter/mahApuruSha/smArta-misc/lunar_month/tithi/02/05/zaGkara~jayantI__info.
+ toml)<br/>- Tags: CommonFestivals AdiShankaraHistory MahapurushaEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10153,10 +10173,11 @@ SUMMARY:rāmānuja-jayantī
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190509T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190510T235957
 DESCRIPTION:Observed on Śukla-Ṣaṣṭhī tithi of Vaiśākhaḥ (lunar
- ) month (sunrise (default)/puurvaviddha (default)).  <br/><br/><br/>##### 
- Details<br/>- [Edit config file](https://github.com/sanskrit-coders/adyati
- thi/tree/master/mahApuruSha/vaiShNava-misc/lunar_month/tithi/02/06/rAmAnuj
- a~jayantI__info.toml)<br/>- Tags: MahapurushaEvents CommonFestivals
+ ) month (sunrise (default)/puurvaviddha (default)).  <br/>The event has be
+ en commemorated since it occurred in 4118 (kali era).  <br/><br/><br/>####
+ # Details<br/>- [Edit config file](https://github.com/sanskrit-coders/adya
+ tithi/tree/master/mahApuruSha/vaiShNava-misc/lunar_month/tithi/02/06/rAmAn
+ uja~jayantI__info.toml)<br/>- Tags: MahapurushaEvents CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10218,11 +10239,12 @@ SUMMARY:tyāgarāja-jayantī
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190510T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190511T235957
 DESCRIPTION:Observed on Śukla-Saptamī tithi of Vaiśākhaḥ (lunar) mon
- th (sunrise (default)/puurvaviddha (default)).  <br/><br/>##### References
- <br/>- Vaidikasri May 2017<br/><br/><br/>##### Details<br/>- [Edit config 
- file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha
- /sangIta-kRt/lunar_month/tithi/02/07/tyAgarAja~jayantI__info.toml)<br/>- T
- ags: MahapurushaEvents CommonFestivals
+ th (sunrise (default)/puurvaviddha (default)).  <br/>The event has been co
+ mmemorated since it occurred in 4868 (kali era).  <br/><br/>##### Referenc
+ es<br/>- Vaidikasri May 2017<br/><br/><br/>##### Details<br/>- [Edit confi
+ g file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruS
+ ha/sangIta-kRt/lunar_month/tithi/02/07/tyAgarAja~jayantI__info.toml)<br/>-
+  Tags: MahapurushaEvents CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10232,7 +10254,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:vidyāraṇya-svāmī-jayantī
+SUMMARY:vidyāraṇya-svāmi-jayantī
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190510T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190511T235957
 DESCRIPTION:Observed on Śukla-Saptamī tithi of Vaiśākhaḥ (lunar) mon
@@ -10359,10 +10381,11 @@ SUMMARY:nêrūr-śrī-sadāśiva-brahmendra-ārādhanā
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190512T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190513T235957
 DESCRIPTION:Observed on Śukla-Daśamī tithi of Vaiśākhaḥ (lunar) mon
- th (aparaahna/vyaapti).  <br/><br/><br/>##### Details<br/>- [Edit config f
- ile](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/
- smArta-misc/lunar_month/tithi/02/10/nerUr~zrI~sadAziva~brahmEndra~ArAdhanA
- __info.toml)<br/>- Tags: MahapurushaEvents
+ th (aparaahna/vyaapti).  <br/>The event has been commemorated since it occ
+ urred in 5016 (kali era).  <br/><br/><br/>##### Details<br/>- [Edit config
+  file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSh
+ a/smArta-misc/lunar_month/tithi/02/10/nerUr~zrI~sadAziva~brahmEndra~ArAdha
+ nA__info.toml)<br/>- Tags: MahapurushaEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10376,12 +10399,13 @@ SUMMARY:purī govardhana-maṭha-pratiṣṭhāpana-jayantī
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190512T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190513T235957
 DESCRIPTION:Observed on Śukla-Navamī tithi of Vaiśākhaḥ (lunar) mont
- h (sunrise (default)/puurvaviddha (default)).  <br/>Adi Shankara founded G
- ovardhan mutt\, Puri in Nala year Padmapadacharya as first<br/><br/>##### 
- Details<br/>- [Edit config file](https://github.com/sanskrit-coders/adyati
- thi/tree/master/mahApuruSha/smArta-misc/lunar_month/tithi/02/09/purI%20gOv
- ardhana-maTha-pratiSThApana~jayantI__info.toml)<br/>- Tags: AdiShankaraHis
- tory
+ h (sunrise (default)/puurvaviddha (default)).  <br/>The event has been com
+ memorated since it occurred in 2617 (kali era).  <br/>Adi Shankara founded
+  Govardhan mutt\, Puri in Nala year Padmapadacharya as first<br/><br/>####
+ # Details<br/>- [Edit config file](https://github.com/sanskrit-coders/adya
+ tithi/tree/master/mahApuruSha/smArta-misc/lunar_month/tithi/02/09/purI%20g
+ Ovardhana-maTha-pratiSThApana~jayantI__info.toml)<br/>- Tags: AdiShankaraH
+ istory
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10940,12 +10964,13 @@ SUMMARY:kāñcī kāmakoṭi-maṭha-pratiṣṭhāpana-jayantī
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190517T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190518T235957
 DESCRIPTION:Observed on Paurṇamāsī tithi of Vaiśākhaḥ (lunar) mont
- h (sunrise (default)/puurvaviddha (default)).  <br/>Adi Shankara founded K
- amakoti Mutt\, Kanchi in Siddharthi year with himself as first<br/><br/>##
- ### Details<br/>- [Edit config file](https://github.com/sanskrit-coders/ad
- yatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/02/15/kAJcI
- %20kAmakOTi-maTha-pratiSThApana~jayantI__info.toml)<br/>- Tags: AdiShankar
- aHistory CommonFestivals
+ h (sunrise (default)/puurvaviddha (default)).  <br/>The event has been com
+ memorated since it occurred in 2620 (kali era).  <br/>Adi Shankara founded
+  Kamakoti Mutt\, Kanchi in Siddharthi year with himself as first<br/><br/>
+ ##### Details<br/>- [Edit config file](https://github.com/sanskrit-coders/
+ adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/02/15/kAJ
+ cI%20kAmakOTi-maTha-pratiSThApana~jayantI__info.toml)<br/>- Tags: AdiShank
+ araHistory CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11116,11 +11141,12 @@ SUMMARY:kāñcī jagadguru śrī-candraśekharendra sarasvatī 7 jayantī
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190518T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190519T235957
 DESCRIPTION:Observed on Anūrādhā nakshatra of Vṛṣabhaḥ (solar) mo
- nth (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config
-  file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSh
- a/kAnchI-maTha/sidereal_solar_month/nakshatra/02/17/kAJcI%20jagadguru%20zr
- I~candrazEkharEndra%20sarasvatI%207%20jayantI__info.toml)<br/>- Tags: Maha
- purushaEvents CommonFestivals
+ nth (praatah/paraviddha).  <br/>The event has been commemorated since it o
+ ccurred in 4995 (kali era).  <br/><br/><br/>##### Details<br/>- [Edit conf
+ ig file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuru
+ Sha/kAnchI-maTha/sidereal_solar_month/nakshatra/02/17/kAJcI%20jagadguru%20
+ zrI~candrazEkharEndra%20sarasvatI%207%20jayantI__info.toml)<br/>- Tags: Ma
+ hapurushaEvents CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11214,9 +11240,10 @@ SUMMARY:kāñcī jagadguru śrī-śaṅkara vijayendra sarasvatī āśrama
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190520T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190521T235957
 DESCRIPTION:Observed on Mūlā nakshatra of Vṛṣabhaḥ (solar) month (
- praatah/paraviddha).  <br/>jagadguru śrī~śaṅkara vijayendra sarasvat
- ī was inducted into the kāmakoṭi-pīṭham on 29th May 1983\, rudhirod
- gārī year\, vṛṣabha/vaiśākha māsa kṛṣṇa tṛtīyā bhānuv
+ praatah/paraviddha).  <br/>The event has been commemorated since it occurr
+ ed in 5084 (kali era).  <br/>jagadguru śrī~śaṅkara vijayendra sarasva
+ tī was inducted into the kāmakoṭi-pīṭham on 29th May 1983\, rudhiro
+ dgārī year\, vṛṣabha/vaiśākha māsa kṛṣṇa tṛtīyā bhānuv
  āsaraḥ mūlā nakṣatram.<br/><br/>##### Details<br/>- [Edit config fi
  le](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/k
  AnchI-maTha/sidereal_solar_month/nakshatra/02/19/kAJcI%20jagadguru%20zrI~z
@@ -13436,14 +13463,15 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:vidyāraṇya-svāmī-ārādhanā
+SUMMARY:vidyāraṇya-svāmi-ārādhanā
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190614T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190615T235957
 DESCRIPTION:Observed on Śukla-Trayodaśī tithi of Jyaiṣṭhaḥ (lunar
- ) month (sunrise (default)/puurvaviddha (default)).  <br/><br/><br/>##### 
- Details<br/>- [Edit config file](https://github.com/sanskrit-coders/adyati
- thi/tree/master/mahApuruSha/smArta-misc/lunar_month/tithi/03/13/vidyAraNya
- ~svAmI~ArAdhanA__info.toml)<br/>- Tags: MahapurushaEvents
+ ) month (sunrise (default)/puurvaviddha (default)).  <br/>The event has be
+ en commemorated since it occurred in 4493 (kali era).  <br/><br/><br/>####
+ # Details<br/>- [Edit config file](https://github.com/sanskrit-coders/adya
+ tithi/tree/master/mahApuruSha/smArta-misc/lunar_month/tithi/03/13/vidyAraN
+ ya~svAmI~ArAdhanA__info.toml)<br/>- Tags: MahapurushaEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17754,12 +17782,13 @@ SUMMARY:seṅgālipuram anantarāma-dīkṣita-jayantī
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190808T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190809T235957
 DESCRIPTION:Observed on Anūrādhā nakshatra of Kaṭakaḥ (solar) month
-  (praatah/paraviddha).  <br/>Jayanti Day of Sri Anantarama Dikshitar.<br/>
- ##### References<br/>- Vaidikasri Nov 2009<br/><br/><br/>##### Details<br/
- >- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/ma
- ster/mahApuruSha/smArta-misc/sidereal_solar_month/nakshatra/04/17/sEGgAlip
- uram%20anantarAma-dIkSita-jayantI__info.toml)<br/>- Tags: MahapurushaEvent
- s CommonFestivals
+  (praatah/paraviddha).  <br/>The event has been commemorated since it occu
+ rred in 5004 (kali era).  <br/>Jayanti Day of Sri Anantarama Dikshitar.<br
+ />##### References<br/>- Vaidikasri Nov 2009<br/><br/><br/>##### Details<b
+ r/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/
+ master/mahApuruSha/smArta-misc/sidereal_solar_month/nakshatra/04/17/sEGgAl
+ ipuram%20anantarAma-dIkSita-jayantI__info.toml)<br/>- Tags: MahapurushaEve
+ nts CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17819,18 +17848,15 @@ SUMMARY:kāñcī 29 jagadguru śrī-pūrṇabodhendra sarasvatī ārādhan
  ā
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190809T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190810T235957
-DESCRIPTION:Observed on Śukla-Ekādaśī tithi of Śrāvaṇaḥ (lunar) 
- month (aparaahna/vyaapti).  <br/>Son of Śrīpati\, known as Kṛṣṇa b
- efore initiation\, the great sage Pūrṇabodhendra\, merged in Brahman on
-  the Ekādaśi (eleventh) day of the bright fortnight of the month Śrava
- ṇa in the year Ăśvara. His preceptorship was for seventeen years.<br/>
- <br/>śrīpatestanayaḥ kṛṣṇaḥ pūrṇabodho dine hareḥ|  <br/>
- brahmabhūto nabhasyacche saṃyamīśvara īśvare||58||  <br/>—puṇya
- ślokamañjarī<br/><br/><br/>##### References<br/>- Punya Shloka Manjari<
- br/><br/><br/>##### Details<br/>- [Edit config file](https://github.com/sa
- nskrit-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/t
- ithi/05/11/kAJcI%2029%20jagadguru%20zrI~pUrNabOdhEndra%20sarasvatI%20ArAdh
- anA__info.toml)<br/>- Tags: KanchiAradhanaDays
+DESCRIPTION:##### Details<br/>- [Edit config file](https://github.com/sans
+ krit-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tit
+ hi/05/11/kAJcI%2029%20jagadguru%20zrI~pUrNabOdhEndra%20sarasvatI%20ArAdhan
+ A__info.toml)<br/>- Tags: KanchiAradhanaDays<br/><br/><br/>##### Reference
+ s<br/>- Punya Shloka Manjari<br/><br/><br/>##### Details<br/>- [Edit confi
+ g file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruS
+ ha/kAnchI-maTha/lunar_month/tithi/05/11/kAJcI%2029%20jagadguru%20zrI~pUrNa
+ bOdhEndra%20sarasvatI%20ArAdhanA__info.toml)<br/>- Tags: KanchiAradhanaDay
+ s
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18495,11 +18521,12 @@ SUMMARY:kāñcī jagadguru śrī-jayendra sarasvatī jayantī
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190815T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190816T235957
 DESCRIPTION:Observed on Śraviṣṭhā nakshatra of Kaṭakaḥ (solar) m
- onth (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit confi
- g file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruS
- ha/kAnchI-maTha/sidereal_solar_month/nakshatra/04/23/kAJcI%20jagadguru%20z
- rI~jayEndra%20sarasvatI%20jayantI__info.toml)<br/>- Tags: MahapurushaEvent
- s CommonFestivals
+ onth (praatah/paraviddha).  <br/>The event has been commemorated since it 
+ occurred in 5036 (kali era).  <br/><br/><br/>##### Details<br/>- [Edit con
+ fig file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApur
+ uSha/kAnchI-maTha/sidereal_solar_month/nakshatra/04/23/kAJcI%20jagadguru%2
+ 0zrI~jayEndra%20sarasvatI%20jayantI__info.toml)<br/>- Tags: MahapurushaEve
+ nts CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18612,16 +18639,17 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:śrī-rāghavendra-svāmī-ārādhanā
+SUMMARY:śrī-rāghavendra-svāmi-ārādhanā
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190816T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190817T235957
 DESCRIPTION:Observed on Kṛṣṇa-Dvitīyā tithi of Śrāvaṇaḥ (lun
- ar) month (sunrise (default)/puurvaviddha (default)).  <br/><br/><br/>pūj
- yāya rāghavendrāya satyadharmaratāya ca|  <br/>bhajatāṃ kalpavṛk
- ṣāya namatāṃ kāmadhenave||<br/><br/><br/><br/>##### Details<br/>- [
- Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master
- /mahApuruSha/mAdhva-misc/lunar_month/tithi/05/17/zrI~rAghavEndra~svAmI~ArA
- dhanA__info.toml)<br/>- Tags: MahapurushaEvents CommonFestivals
+ ar) month (sunrise (default)/puurvaviddha (default)).  <br/>The event has 
+ been commemorated since it occurred in 4773 (kali era).  <br/><br/><br/>p
+ ūjyāya rāghavendrāya satyadharmaratāya ca|  <br/>bhajatāṃ kalpav
+ ṛkṣāya namatāṃ kāmadhenave||<br/><br/><br/><br/>##### Details<br/
+ >- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/ma
+ ster/mahApuruSha/mAdhva-misc/lunar_month/tithi/05/17/zrI~rAghavEndra~svAmI
+ ~ArAdhanA__info.toml)<br/>- Tags: MahapurushaEvents CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -23581,11 +23609,12 @@ SUMMARY:madhvācārya-jayantī
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191007T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191008T235957
 DESCRIPTION:Observed on Śukla-Daśamī tithi of Āśvayujaḥ (lunar) mon
- th (sunrise (default)/puurvaviddha (default)).  <br/>Jayanti of Madhvachar
- ya\, a proponent of Dvaita Vedanta<br/><br/>##### Details<br/>- [Edit conf
- ig file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuru
- Sha/mAdhva-misc/lunar_month/tithi/07/10/madhvAcArya~jayantI__info.toml)<br
- />- Tags: MahapurushaEvents
+ th (sunrise (default)/puurvaviddha (default)).  <br/>The event has been co
+ mmemorated since it occurred in 4339 (kali era).  <br/>Jayanti of Madhvach
+ arya\, a proponent of Dvaita Vedanta<br/><br/>##### Details<br/>- [Edit co
+ nfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApu
+ ruSha/mAdhva-misc/lunar_month/tithi/07/10/madhvAcArya~jayantI__info.toml)<
+ br/>- Tags: MahapurushaEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -24067,10 +24096,11 @@ SUMMARY:mīrābāī-jayantī
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191012T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191013T235957
 DESCRIPTION:Observed on Paurṇamāsī tithi of Āśvayujaḥ (lunar) mont
- h (sunrise (default)/puurvaviddha (default)).  <br/><br/><br/>##### Detail
- s<br/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tr
- ee/master/mahApuruSha/sangIta-kRt/lunar_month/tithi/07/15/mIrAbAI~jayantI_
- _info.toml)<br/>- Tags: MahapurushaEvents CommonFestivals
+ h (sunrise (default)/puurvaviddha (default)).  <br/>The event has been com
+ memorated since it occurred in 4599 (kali era).  <br/><br/><br/>##### Deta
+ ils<br/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi/
+ tree/master/mahApuruSha/sangIta-kRt/lunar_month/tithi/07/15/mIrAbAI~jayant
+ I__info.toml)<br/>- Tags: MahapurushaEvents CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -24186,10 +24216,11 @@ SUMMARY:appayya-dīkṣita-jayantī
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191013T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191014T235957
 DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of Kanyā (solar) mont
- h (praatah/paraviddha).  <br/><br/><br/>##### Details<br/>- [Edit config f
- ile](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/
- smArta-misc/sidereal_solar_month/tithi/06/16/appayya-dIkSita-jayantI__info
- .toml)<br/>- Tags: MahapurushaEvents CommonFestivals
+ h (praatah/paraviddha).  <br/>The event has been commemorated since it occ
+ urred in 4620 (kali era).  <br/><br/><br/>##### Details<br/>- [Edit config
+  file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSh
+ a/smArta-misc/sidereal_solar_month/tithi/06/16/appayya-dIkSita-jayantI__in
+ fo.toml)<br/>- Tags: MahapurushaEvents CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -24672,12 +24703,13 @@ SUMMARY:seṅgālipuram anantarāma-dīkṣita-ārādhanā
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191018T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191019T235957
 DESCRIPTION:Observed on Kṛṣṇa-Ṣaṣṭhī tithi of Tulā (solar) m
- onth (aparaahna/vyaapti).  <br/>Aradhana Day of Sri Anantarama Dikshitar.<
- br/>##### References<br/>- Vaidikasri Nov 2017<br/><br/><br/>##### Details
- <br/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tre
- e/master/mahApuruSha/smArta-misc/sidereal_solar_month/tithi/07/21/sEGgAlip
- uram%20anantarAma-dIkSita-ArAdhanA__info.toml)<br/>- Tags: MahapurushaEven
- ts CommonFestivals
+ onth (aparaahna/vyaapti).  <br/>The event has been commemorated since it o
+ ccurred in 5071 (kali era).  <br/>Aradhana Day of Sri Anantarama Dikshitar
+ .<br/>##### References<br/>- Vaidikasri Nov 2017<br/><br/><br/>##### Detai
+ ls<br/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi/t
+ ree/master/mahApuruSha/smArta-misc/sidereal_solar_month/tithi/07/21/sEGgAl
+ ipuram%20anantarAma-dIkSita-ArAdhanA__info.toml)<br/>- Tags: MahapurushaEv
+ ents CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -29034,9 +29066,10 @@ SUMMARY:bābara-rākṣasālaya-nāshaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191205T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191206T235957
 DESCRIPTION:Observed on day 6 of December (sunrise (default)/puurvaviddha 
- (default)).  <br/><br/><br/>##### Details<br/>- [Edit config file](https:/
- /github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra/gregor
- ian/day/12/06/bAbri-mosque-demolition__info.toml)<br/>- Tags:
+ (default)).  <br/>The event has been commemorated since it occurred in 199
+ 2 (gregorian era).  <br/><br/><br/>##### Details<br/>- [Edit config file](
+ https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra
+ /gregorian/day/12/06/bAbri-mosque-demolition__info.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -29224,11 +29257,12 @@ SUMMARY:śivarājena panhaḻadurgaṃ gṛhītam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191207T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191208T235957
 DESCRIPTION:Observed on day 8 of December (sunrise (default)/puurvaviddha 
- (default)).  <br/>Panhala fell on the 2nd night of the siege! Just 18 days
-  after the slaying of Afzal Khan!<br/><br/>##### Details<br/>- [Edit confi
- g file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruS
- ha/xatra/gregorian/day/12/08/shivAjI_takes_panhaLa__info.toml)<br/>- Tags:
-  Shivaji
+ (default)).  <br/>The event has been commemorated since it occurred in 165
+ 9 (gregorian era).  <br/>Panhala fell on the 2nd night of the siege! Just 
+ 18 days after the slaying of Afzal Khan!<br/><br/>##### Details<br/>- [Edi
+ t config file](https://github.com/sanskrit-coders/adyatithi/tree/master/ma
+ hApuruSha/xatra/gregorian/day/12/08/shivAjI_takes_panhaLa__info.toml)<br/>
+ - Tags: Shivaji
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -29746,11 +29780,12 @@ SUMMARY:nārāyaṇīyaṃ-jayantī
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191213T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191214T235957
 DESCRIPTION:Observed on day 28 of Vṛścikaḥ (solar) month (sunrise (de
- fault)/puurvaviddha (default)).  <br/>Celebration of completion of Narayan
- iyam (Kollam 762/1586 CE)\, in Guruvayur temple.<br/><br/>##### Details<br
- />- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/m
- aster/mahApuruSha/vaiShNava-misc/sidereal_solar_month/day/08/28/nArAyaNIya
- M~jayantI__info.toml)<br/>- Tags: OtherJayantis CommonFestivals
+ fault)/puurvaviddha (default)).  <br/>The event has been commemorated sinc
+ e it occurred in 4687 (kali era).  <br/>Celebration of completion of Naray
+ aniyam (Kollam 762/1586 CE)\, in Guruvayur temple.<br/><br/>##### Details<
+ br/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree
+ /master/mahApuruSha/vaiShNava-misc/sidereal_solar_month/day/08/28/nArAyaNI
+ yaM~jayantI__info.toml)<br/>- Tags: OtherJayantis CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -30122,16 +30157,17 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:śrī-śeṣādri-svāmī-ārādhanā
+SUMMARY:śrī-śeṣādri-svāmi-ārādhanā
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191219T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191220T235957
 DESCRIPTION:Observed on Kṛṣṇa-Navamī tithi of Mārgaśīrṣaḥ (l
- unar) month (aparaahna/vyaapti).  <br/><br/><br/>karuṇāsāgaraṃ śān
- tam aruṇācalavāsinam|  <br/>śrīśeṣādriguruṃ vande brahmībhūt
- aṃ taponidhim||<br/><br/><br/><br/>##### Details<br/>- [Edit config file
- ](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/gen
- eral/lunar_month/tithi/09/24/zrI~zESAdri-svAmI~ArAdhanA__info.toml)<br/>- 
- Tags: MahapurushaEvents
+ unar) month (aparaahna/vyaapti).  <br/>The event has been commemorated sin
+ ce it occurred in 5030 (kali era).  <br/><br/><br/>karuṇāsāgaraṃ ś
+ āntam aruṇācalavāsinam|  <br/>śrīśeṣādriguruṃ vande brahmībh
+ ūtaṃ taponidhim||<br/><br/><br/><br/>##### Details<br/>- [Edit config f
+ ile](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/
+ general/lunar_month/tithi/09/24/zrI~zESAdri-svAmI~ArAdhanA__info.toml)<br/
+ >- Tags: MahapurushaEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -30337,11 +30373,12 @@ SUMMARY:śraddhānanda-hatyā
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191222T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191223T235957
 DESCRIPTION:Observed on day 23 of December (sunrise (default)/puurvaviddha
-  (default)).  <br/>Swami shraddhananda\, who brought back lakhs of muslims
-  to the deva-dharma\, was shot to death by Abdul Rashid.<br/><br/>##### De
- tails<br/>- [Edit config file](https://github.com/sanskrit-coders/adyatith
- i/tree/master/mahApuruSha/xatra/gregorian/day/12/23/shraddhAnanda-murder__
- info.toml)<br/>- Tags:
+  (default)).  <br/>The event has been commemorated since it occurred in 19
+ 26 (gregorian era).  <br/>Swami shraddhananda\, who brought back lakhs of 
+ muslims to the deva-dharma\, was shot to death by Abdul Rashid.<br/><br/>#
+ #### Details<br/>- [Edit config file](https://github.com/sanskrit-coders/a
+ dyatithi/tree/master/mahApuruSha/xatra/gregorian/day/12/23/shraddhAnanda-m
+ urder__info.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -30664,10 +30701,11 @@ SUMMARY:śivarājeṇa rustam-jamānô dhvastaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191227T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191228T235957
 DESCRIPTION:Observed on day 28 of December (sunrise (default)/puurvaviddha
-  (default)).  <br/>Shivaji defeated Rustam-i Zaman in an epic battle fough
- t near Kolhapur.<br/><br/>##### Details<br/>- [Edit config file](https://g
- ithub.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra/gregoria
- n/day/12/28/shivAjI_vs_rustam-zamAn__info.toml)<br/>- Tags: Shivaji
+  (default)).  <br/>The event has been commemorated since it occurred in 16
+ 59 (gregorian era).  <br/>Shivaji defeated Rustam-i Zaman in an epic battl
+ e fought near Kolhapur.<br/><br/>##### Details<br/>- [Edit config file](ht
+ tps://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra/g
+ regorian/day/12/28/shivAjI_vs_rustam-zamAn__info.toml)<br/>- Tags: Shivaji
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE

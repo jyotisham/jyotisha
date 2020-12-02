@@ -92,6 +92,8 @@ def get_references_md(rule):
 
 
 def get_timing_summary(rule):
+  if rule.timing is None:
+    return ""
   blurb = ''
   month = ''
   angam = ''
@@ -148,4 +150,6 @@ def get_timing_summary(rule):
   if blurb != '':
     blurb += ' (%s/%s).  \n' % (kaala, priority)
     # logging.debug(blurb)
+  if rule.timing.year_start is not None:
+    blurb += "The event has been commemorated since it occurred in %s (%s era).  \n" % (rule.timing.year_start, rule.timing.year_start_era)
   return blurb
