@@ -1,6 +1,6 @@
 import logging
 
-from indic_transliteration import sanscript
+from indic_transliteration import sanscript, xsanscript
 from jyotisha import custom_transliteration, names
 from jyotisha.names import get_chandra_masa, NAMES
 from jyotisha.panchaanga.temporal import AngaType
@@ -22,19 +22,19 @@ def transliterate_quoted_text(text, script):
 
 
 
-def describe_fest(rule, include_images, include_shlokas, include_url, is_brief, script, truncate, use_markup):
+def describe_fest(rule, include_images, include_shlokas, include_url, is_brief, script, truncate):
   # Get the Blurb
   blurb = get_timing_summary(rule)
   # Get the URL
   if include_url:
     url = rule.get_url()
-  description_string = get_description_str_with_shlokas(include_shlokas, rule, script, use_markup)
+  description_string = get_description_str_with_shlokas(include_shlokas, rule, script)
   if include_images:
     if rule.image is not None:
       image_string = '![](https://github.com/sanskrit-coders/adyatithi/blob/master/images/%s)\n\n' % rule.image
   ref_list = get_references_md(rule)
   # Now compose the description string based on the values of
-  # include_url, include_images, use_markup, is_brief
+  # include_url, include_images, is_brief
   if not is_brief:
     final_description_string = blurb
   else:
@@ -52,16 +52,11 @@ def describe_fest(rule, include_images, include_shlokas, include_url, is_brief, 
   if not is_brief:
     final_description_string += ref_list
   if not is_brief and include_url:
-    # if use_markup:
     final_description_string += '\n\n##### Details\n- [Edit config file](%s)\n- Tags: %s\n\n' % (url, ' '.join(rule.tags))
-  # else:
-  #   final_description_string += ('\n\n%s\n' % url) + '\n' + ' '.join(['#' + x for x in rule.tags])
-  # if use_markup:
-  #   final_description_string = final_description_string.replace('\n', '<br/><br/>')
   return final_description_string
 
 
-def get_description_str_with_shlokas(include_shlokas, rule, script, use_markup):
+def get_description_str_with_shlokas(include_shlokas, rule, script):
   # Get the description
   description_string = ''
   if rule.description is not None:
@@ -78,12 +73,8 @@ def get_description_str_with_shlokas(include_shlokas, rule, script, use_markup):
       else:
         logging.warning('Unmatched backquotes in description string: %s' % description_string)
   if rule.shlokas is not None and include_shlokas:
-    if use_markup:
-      description_string = description_string + '\n\n```\n' + custom_transliteration.tr(", ".join(rule.shlokas),
-                                                                                        script, False) + '\n```'
-    else:
-      description_string = description_string + '\n\n' + custom_transliteration.tr("  \n".join(rule.shlokas).replace("\n", "  \n"), script,
-                                                                                   False) + '\n\n'
+    shlokas = xsanscript.transliterate(rule.shlokas, xsanscript.DEVANAGARI, script)
+    description_string = description_string + '\n\n' + shlokas + '\n\n'
   return description_string
 
 

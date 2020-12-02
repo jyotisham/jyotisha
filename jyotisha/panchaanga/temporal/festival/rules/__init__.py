@@ -192,11 +192,11 @@ class HinduCalendarEvent(common.JsonObject):
     # https://github.com/sanskrit-coders/jyotisha/runs/1229399248?check_suite_focus=true shows that ~ is being replaced there, which breaks tests. Hence the below.
     return encoded_url.replace("%7E", "~")
 
-  def get_description_string(self, script, include_url=False, include_images=False, use_markup=False,
+  def get_description_string(self, script, include_url=False, include_images=False, 
                              include_shlokas=False, is_brief=False, truncate=False):
     from jyotisha.panchaanga.temporal.festival.rules import summary
     final_description_string = summary.describe_fest(self, include_images, include_shlokas, include_url, is_brief, script,
-    truncate, use_markup)
+    truncate)
 
     return final_description_string
 
@@ -265,9 +265,8 @@ class RulesCollection(common.JsonObject):
       rules_map = get_festival_rules_map(
         os.path.join(DATA_ROOT, repo.get_path()), repo=repo)
       for rule in rules_map.values():
-        if "ta" not in rule.names:
-          continue
-        rule.names["ta"] = [custom_transliteration.tr(x, sanscript.TAMIL) for x in rule.names["ta"]]
+        if rule.shlokas is not None:
+          rule.shlokas = rule.shlokas.replace("\\n", "  \n")
         rule.path_actual = None
         rule.repo = None
         rule.dump_to_file(filename=rule.get_storage_file_name(base_dir=base_dir))
