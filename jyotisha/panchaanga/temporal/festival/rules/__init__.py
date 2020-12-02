@@ -4,7 +4,7 @@ import sys
 from pathlib import Path
 
 import methodtools
-from indic_transliteration import sanscript
+from indic_transliteration import sanscript, xsanscript
 from jyotisha import custom_transliteration
 from timebudget import timebudget
 
@@ -259,6 +259,19 @@ class RulesCollection(common.JsonObject):
   def get_cached(cls, repos_tuple):
     return RulesCollection(repos=repos_tuple)
 
+  def fix_content(self):
+    for repo in self.repos:
+      base_dir = repo.get_path()
+      rules_map = get_festival_rules_map(
+        os.path.join(DATA_ROOT, repo.get_path()), repo=repo)
+      for rule in rules_map.values():
+        if "sa" not in rule.names:
+          continue
+        rule.names["sa"] = [xsanscript.transliterate(x.replace("~", "-"), sanscript.HK, sanscript.DEVANAGARI) for x in rule.names["sa"]]
+        rule.path_actual = None
+        rule.repo = None
+        rule.dump_to_file(filename=rule.get_storage_file_name(base_dir=base_dir))
+
   def fix_filenames(self):
     for repo in self.repos:
       base_dir = repo.get_path()
@@ -266,8 +279,6 @@ class RulesCollection(common.JsonObject):
         os.path.join(DATA_ROOT, repo.get_path()), repo=repo)
       for rule in rules_map.values():
         expected_path = rule.get_storage_file_name(base_dir=base_dir)
-        if "sa" in rule.names:
-          rule.names["sa"] = [sanscript.transliterate(x, sanscript.HK, sanscript.DEVANAGARI).replace("~", "-") for x in rule.names["sa"]]
         if rule.path_actual != expected_path:
           logging.info(str((rule.path_actual, expected_path)))
           os.makedirs(os.path.dirname(expected_path), exist_ok=True)
@@ -316,4 +327,5 @@ common.update_json_class_index(sys.modules[__name__])
 if __name__ == '__main__':
   rules_collection = RulesCollection.get_cached(repos_tuple=rule_repos)
   # rules_collection = RulesCollection(repos=[RulesRepo(name="general")])
-  rules_collection.fix_filenames()
+  # rules_collection.fix_filenames()
+  rules_collection.fix_content()

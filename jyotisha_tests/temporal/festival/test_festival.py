@@ -15,6 +15,11 @@ def test_get_best_transliterated_name():
   rules_collection = rules.RulesCollection.get_cached(repos_tuple=tuple(options.fest_repos))
 
 
+  fest = festival.FestivalInstance(name="sarva-saphalA-EkAdazI", ordinal=1000)
+  name = fest.get_best_transliterated_name(scripts=[sanscript.DEVANAGARI, sanscript.TAMIL],
+                                           fest_details_dict=rules_collection.name_to_rule)
+  assert name["text"] == "सर्व-सफला-एकादशी"
+
   fest = festival.FestivalInstance(name="ArudrA~darican2am or naTarAjar mahAbhiSEkam", ordinal=1000)
   name = fest.get_best_transliterated_name(scripts=[sanscript.DEVANAGARI, sanscript.TAMIL],
                                            fest_details_dict=rules_collection.name_to_rule)

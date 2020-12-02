@@ -2,7 +2,7 @@ import logging
 import re
 import sys
 
-from indic_transliteration import sanscript, language_code_to_script
+from indic_transliteration import sanscript, language_code_to_script, xsanscript
 
 from jyotisha import custom_transliteration
 from jyotisha.util import default_if_none
@@ -30,7 +30,7 @@ class FestivalInstance(common.JsonObject):
     from jyotisha.panchaanga.temporal.festival import rules
     fest_details = festival_rules.get(self.name, rules.HinduCalendarEvent())
     if fest_details.names is None:
-      fest_details.names = {"sa": [self.name]}
+      fest_details.names = {"sa": [xsanscript.transliterate(self.name.replace("~", "-"), sanscript.HK, sanscript.DEVANAGARI)]}
     import copy
     names = copy.deepcopy(fest_details.names)
     return names
@@ -42,16 +42,23 @@ class FestivalInstance(common.JsonObject):
     for script in scripts:
       try:
         i = language_scripts.index(script)
-        return {"language": script, "text": custom_transliteration.tr(text=names[languages[i]][0], script=script)}
+        if languages[i] == "sa":
+          transliterated_text = sanscript.transliterate(names[languages[i]][0], sanscript.DEVANAGARI, script)
+        elif languages[i] == "en":
+          transliterated_text = transliterated_text
+        else:
+          transliterated_text = custom_transliteration.tr(text=names[languages[i]][0], script=script)
+        return {"language": script, "text": transliterated_text}
       except ValueError:
         continue
 
     # No language text matching the input scripts was found.
     if "sa" in names:
-      text = names["sa"][0]
+      transliterated_text = sanscript.transliterate(names["sa"][0], sanscript.DEVANAGARI, script)
     else:
       text = list(names.values())[0][0]
-    return {"language": script, "text": custom_transliteration.tr(text=text, script=scripts[0])}
+      transliterated_text = custom_transliteration.tr(text=text, script=scripts[0])
+    return {"language": script, "text": transliterated_text}
 
   def tex_code(self, scripts, timezone, fest_details_dict):
     name_details = self.get_best_transliterated_name(scripts=scripts, fest_details_dict=fest_details_dict)
