@@ -76,8 +76,8 @@ class FestivalInstance(common.JsonObject):
 
   def md_code(self, languages, scripts, timezone, fest_details_dict):
     name_details = self.get_best_transliterated_name(languages=languages, scripts=scripts, fest_details_dict=fest_details_dict)
-    ordinal_str = " #%s" % custom_transliteration.tr(str(self.ordinal), script=scripts[0]) if self.ordinal is not None else ""
-    name = "#### %s" % name_details["text"].replace("~", "-")
+    ordinal_str = " #%s" % custom_transliteration.tr(str(self.ordinal), script=name_details["language"]) if self.ordinal is not None else ""
+    name = "#### %s%s" % (name_details["text"].replace("~", "-"), ordinal_str)
 
     if self.interval is None:
       md = name
@@ -85,7 +85,7 @@ class FestivalInstance(common.JsonObject):
       from jyotisha.panchaanga.temporal.time import Hour
       start_time_str = "" if self.interval.jd_start is None else timezone.julian_day_to_local_time(self.interval.jd_start).get_hour_str()
       end_time_str = "" if self.interval.jd_end is None else timezone.julian_day_to_local_time(self.interval.jd_end).get_hour_str()
-      md = "%s%s\n- %s→%s" % (name, ordinal_str, start_time_str, end_time_str)
+      md = "%s\n- %s→%s" % (name, start_time_str, end_time_str)
     description = get_description(festival_instance=self, fest_details_dict=fest_details_dict, script=scripts[0], truncate=False)
     if description != "":
       md = "%s\n\n%s" % (md, description)
