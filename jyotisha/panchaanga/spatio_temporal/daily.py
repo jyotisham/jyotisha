@@ -7,7 +7,7 @@ from math import floor, modf
 from scipy.optimize import brentq
 from timebudget import timebudget
 
-from jyotisha.panchaanga.temporal.names import translate_and_transliterate
+from jyotisha.panchaanga.temporal.names import translate_or_transliterate
 from jyotisha.panchaanga.spatio_temporal import City
 from jyotisha.panchaanga.temporal import interval, time, ComputationSystem, set_constants
 from jyotisha.panchaanga.temporal import zodiac
@@ -108,7 +108,7 @@ class DayAngas(common.JsonObject):
       anga_data_str = '%s; %s►%s' % \
                        (anga_data_str, anga,
                         anga_end_str)
-    anga_data_str = '**%s** — %s' % (translate_and_transliterate(anga_type.name_hk, script), anga_data_str[2:])
+    anga_data_str = '**%s** — %s' % (translate_or_transliterate(anga_type.name_hk, script), anga_data_str[2:])
     return anga_data_str
 
 

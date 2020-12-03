@@ -26,7 +26,7 @@ def romanise(iast_text):
   return roman_text.lower()
 
 
-def tr(text, script, titled=True):
+def tr(text, script, titled=True, source_script=sanscript.HK):
   """
   
   NOTE: Please don't put your custom tex/ md/ ics whatever code here and pollute core library functions. Wrap this in your own functions if you must. Functions should be atomic."""
@@ -36,7 +36,7 @@ def tr(text, script, titled=True):
     return ''
   # TODO: Fix this ugliness.
   t = text.replace('~', '##~##')  # Simple fix to prevent transliteration of ~
-  transliterated_text = sanscript.transliterate(data=t, _from=sanscript.HK, _to=script).replace('C', 'Ch').replace('c', 'ch')
+  transliterated_text = sanscript.transliterate(data=t, _from=source_script, _to=script).replace('C', 'Ch').replace('c', 'ch')
   if titled:
     transliterated_text = transliterated_text.title()
 
