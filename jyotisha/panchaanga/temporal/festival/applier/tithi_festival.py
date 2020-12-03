@@ -393,7 +393,7 @@ class TithiFestivalAssigner(FestivalAssigner):
         pref = names.get_chandra_masa(self.daily_panchaangas[d].lunar_month_sunrise.index,  'hk',
                                       visarga=False) + '-'
 
-      apraahna_interval = self.daily_panchaangas[d].day_length_based_periods.fifteen_fold_division.aparaahna
+      apraahna_interval = self.daily_panchaangas[d].get_interval("aparaahna")
       ama_nakshatra_today = [y for y in apraahna_interval.get_boundary_angas(anga_type=AngaType.NAKSHATRA, ayanaamsha_id=self.ayanaamsha_id).to_tuple()]
       suff = ''
       # Assign
