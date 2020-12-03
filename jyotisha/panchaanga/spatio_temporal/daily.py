@@ -9,7 +9,7 @@ from timebudget import timebudget
 
 from jyotisha.panchaanga.temporal.names import translate_or_transliterate
 from jyotisha.panchaanga.spatio_temporal import City
-from jyotisha.panchaanga.temporal import interval, time, ComputationSystem, set_constants
+from jyotisha.panchaanga.temporal import interval, time, ComputationSystem, set_constants, names
 from jyotisha.panchaanga.temporal import zodiac
 from jyotisha.panchaanga.temporal.body import Graha
 from jyotisha.panchaanga.temporal.interval import DayLengthBasedPeriods, Interval
@@ -222,6 +222,7 @@ class DailyPanchaanga(common.JsonObject):
       self.sunrise_day_angas.solar_nakshatras_with_ends = AngaSpanFinder.get_cached(ayanaamsha_id=self.computation_system.ayanaamsha_id, anga_type=zodiac.AngaType.SOLAR_NAKSH).get_all_angas_in_period(jd1=self.jd_sunrise, jd2=self.jd_next_sunrise)
 
   def get_interval(self, interval_id):
+    interval_id = names.devanaagarii_to_python.get(interval_id, interval_id)
     if interval_id == "moonrise":
       return Interval(name=interval_id, jd_start=self.jd_moonrise, jd_end=self.jd_moonrise)
     elif interval_id == "sunrise":

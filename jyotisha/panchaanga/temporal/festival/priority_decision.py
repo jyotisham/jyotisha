@@ -86,7 +86,7 @@ def decide_puurvaviddha(p0, p1, target_anga, kaala):
 
 def decide_aparaahna_vyaapti(p0, p1, target_anga, ayanaamsha_id, kaala):
   (d0_angas, d1_angas) = get_2_day_interval_boundary_angas(kaala=kaala, anga_type=target_anga.get_type(), p0=p0, p1=p1)
-  if kaala not in ['aparaahna', 'aparaahna_muhuurta']:
+  if kaala not in ['अपराह्णः']:
     raise ValueError(kaala)
 
   prev_anga = target_anga - 1

@@ -14,13 +14,13 @@ def make_md(panchaanga, scripts=None, languages=None):
   if languages is None:
     languages = ["sa"]
   output_stream = StringIO()
+  print('- 🌏**%s** (%s)  ' % (
+    translate_or_transliterate('क्षेत्रम्', scripts[0], source_script=sanscript.DEVANAGARI), panchaanga.city.get_transliterated_name(script=scripts[0])),
+        file=output_stream)
   daily_panchaangas = panchaanga.daily_panchaangas_sorted()
   for day_index, daily_panchaanga in enumerate(daily_panchaangas):
     if daily_panchaanga.date < panchaanga.start_date or daily_panchaanga.date > panchaanga.end_date:
       continue
-    print('- 🌏**%s** (%s)  ' % (
-      translate_or_transliterate('क्षेत्रम्', scripts[0], source_script=sanscript.DEVANAGARI), panchaanga.city.get_transliterated_name(script=scripts[0])),
-          file=output_stream)
 
     (title, details) = day_details.day_summary(d=day_index, panchaanga=panchaanga, script=scripts[0])
     print("## %s◢◣%s" % (daily_panchaanga.date.get_date_str(), title), file=output_stream)

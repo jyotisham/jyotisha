@@ -74,11 +74,14 @@ python_to_devanaagarii = {
   "raatri_yaama_1": "यामः प्रथमः",
   "shayana": "शयनकालः",
   "dinaanta": "दिनान्तम्",
-  "preceeding_arunodaya": "अरुणोदयः",
+  "preceeding_arunodaya": "प्राक्तनारुणोदयः",
   "maadhyaahnika_sandhyaa": "माध्याह्निकसन्ध्यावन्दनकालः",
   "puurvaahna": "पूर्वाह्णः",
   "raatrimaana": "रात्रिमानम्",
   "dinamaana": "दिनमानम्",
+  "sunrise": "सूर्योदयः",
+  "sunset": "सूर्यास्तमयः",
+  "moonrise": "चन्द्रोदयः",
 } 
 
 devanaagarii_to_python = {python_to_devanaagarii[x]: x for x in python_to_devanaagarii }

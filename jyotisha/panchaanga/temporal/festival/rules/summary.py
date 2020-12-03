@@ -136,7 +136,7 @@ def get_timing_summary(rule):
     if rule.description is None:
       logging.debug("No anga_type in %s or description even!!", rule.id)
   if rule.timing is not None and rule.timing.kaala is not None:
-    kaala = rule.timing.kaala
+    kaala = names.translate_or_transliterate(rule.timing.kaala, script=xsanscript.IAST, source_script=xsanscript.DEVANAGARI)
   else:
     kaala = "sunrise (default)"
   if rule.timing is not None and rule.timing.priority is not None:

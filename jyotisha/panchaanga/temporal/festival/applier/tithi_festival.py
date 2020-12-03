@@ -172,13 +172,6 @@ class TithiFestivalAssigner(FestivalAssigner):
     if "ajA-EkAdazI" not in self.rules_collection.name_to_rule:
       return 
     for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + 1):
-      [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
-
-      # checking @ 6am local - can we do any better?
-      local_time = tz(self.panchaanga.city.timezone).localize(datetime(y, m, dt, 6, 0, 0))
-      # compute offset from UTC in hours
-      tz_off = (datetime.utcoffset(local_time).days * 86400 +
-                datetime.utcoffset(local_time).seconds) / 3600.0
 
       # EKADASHI Vratam
       # One of two consecutive tithis must appear @ sunrise!
@@ -280,7 +273,7 @@ class TithiFestivalAssigner(FestivalAssigner):
               f,
               self.daily_panchaangas[smaarta_ekaadashii_fday].jd_sunrise - 2,
               self.daily_panchaangas[smaarta_ekaadashii_fday].jd_sunrise + 2)
-          _date = time.jd_to_utc_gregorian(harivasara_end + (tz_off / 24.0))
+          _date = self.panchaanga.city.get_timezone_obj().julian_day_to_local_time(julian_day=harivasara_end)
           _date.set_time_to_day_start()
           fday_hv = time.utc_gregorian_to_jd(_date) - time.utc_gregorian_to_jd(self.daily_panchaangas[0].date)
           fest = FestivalInstance(name='harivAsaraH', interval=Interval(jd_start=None, jd_end=harivasara_end))
@@ -393,7 +386,7 @@ class TithiFestivalAssigner(FestivalAssigner):
         pref = names.get_chandra_masa(self.daily_panchaangas[d].lunar_month_sunrise.index,  'hk',
                                       visarga=False) + '-'
 
-      apraahna_interval = self.daily_panchaangas[d].get_interval("aparaahna")
+      apraahna_interval = self.daily_panchaangas[d].get_interval("अपराह्णः")
       ama_nakshatra_today = [y for y in apraahna_interval.get_boundary_angas(anga_type=AngaType.NAKSHATRA, ayanaamsha_id=self.ayanaamsha_id).to_tuple()]
       suff = ''
       # Assign
