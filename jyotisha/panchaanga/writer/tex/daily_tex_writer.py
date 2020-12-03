@@ -149,7 +149,7 @@ def stream_daylength_based_periods(daily_panchaanga, output_stream, time_format)
   praatahsandhya_start = time.Hour(
     24 * (daily_panchaanga.day_length_based_periods.fifteen_fold_division.praatas_sandhyaa.jd_start - jd)).to_string(format=time_format)
   praatahsandhya_end = time.Hour(
-    24 * (daily_panchaanga.day_length_based_periods.fifteen_fold_division.praatas_sandhyaa_end.jd_start - jd)).to_string(format=time_format)
+    24 * (daily_panchaanga.day_length_based_periods.fifteen_fold_division.praatas_sandhyaa.jd_end - jd)).to_string(format=time_format)
   saangava = time.Hour(24 * (daily_panchaanga.day_length_based_periods.fifteen_fold_division.saangava.jd_start - jd)).to_string(
     format=time_format)
   madhyaahna = time.Hour(24 * (daily_panchaanga.day_length_based_periods.fifteen_fold_division.madhyaahna.jd_start - jd)).to_string(
@@ -157,7 +157,7 @@ def stream_daylength_based_periods(daily_panchaanga, output_stream, time_format)
   madhyahnika_sandhya_start = time.Hour(
     24 * (daily_panchaanga.day_length_based_periods.fifteen_fold_division.maadhyaahnika_sandhyaa.jd_start - jd)).to_string(format=time_format)
   madhyahnika_sandhya_end = time.Hour(
-    24 * (daily_panchaanga.day_length_based_periods.fifteen_fold_division.maadhyaahnika_sandhyaa_end.jd_start - jd)).to_string(
+    24 * (daily_panchaanga.day_length_based_periods.fifteen_fold_division.maadhyaahnika_sandhyaa.jd_end - jd)).to_string(
     format=time_format)
   aparaahna = time.Hour(
     24 * (daily_panchaanga.day_length_based_periods.fifteen_fold_division.aparaahna.jd_start - jd)).to_string(

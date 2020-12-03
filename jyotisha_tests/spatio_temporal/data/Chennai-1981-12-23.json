@@ -253,6 +253,12 @@
       "name": "dinamaana"
     },
     "eight_fold_division": {
+      "aparaahna": {
+        "jd_end": 2444961.9518,
+        "jd_start": 2444961.8933,
+        "jsonClass": "Interval",
+        "name": "aparaahna"
+      },
       "dinaanta": {
         "jd_end": 2444962.4096,
         "jd_start": 2444962.343,
@@ -266,6 +272,18 @@
         "name": "gulika"
       },
       "jsonClass": "EightFoldDivision",
+      "madhyaahna": {
+        "jd_end": 2444961.8348,
+        "jd_start": 2444961.7763,
+        "jsonClass": "Interval",
+        "name": "madhyaahna"
+      },
+      "praatah": {
+        "jd_end": 2444961.6008,
+        "jd_start": 2444961.5423,
+        "jsonClass": "Interval",
+        "name": "praatah"
+      },
       "raahu": {
         "jd_end": 2444961.8348,
         "jd_start": 2444961.7763,
@@ -277,6 +295,12 @@
         "jd_start": 2444962.1434,
         "jsonClass": "Interval",
         "name": "raatri_yaama_1"
+      },
+      "saangava": {
+        "jd_end": 2444961.7178,
+        "jd_start": 2444961.6593,
+        "jsonClass": "Interval",
+        "name": "saangava"
       },
       "shayana": {
         "jd_end": 2444962.2765,
@@ -306,16 +330,10 @@
       },
       "jsonClass": "FifteenFoldDivision",
       "maadhyaahnika_sandhyaa": {
-        "jd_end": 2444961.7295,
+        "jd_end": 2444961.9479,
         "jd_start": 2444961.6983,
         "jsonClass": "Interval",
         "name": "maadhyaahnika_sandhyaa"
-      },
-      "maadhyaahnika_sandhyaa_end": {
-        "jd_end": 2444961.9792,
-        "jd_start": 2444961.9479,
-        "jsonClass": "Interval",
-        "name": "maadhyaahnika_sandhyaa_end"
       },
       "madhyaahna": {
         "jd_end": 2444961.8231,
@@ -342,16 +360,10 @@
         "name": "praatah"
       },
       "praatas_sandhyaa": {
-        "jd_end": 2444961.5423,
+        "jd_end": 2444961.6671,
         "jd_start": 2444961.5068,
         "jsonClass": "Interval",
         "name": "praatas_sandhyaa"
-      },
-      "praatas_sandhyaa_end": {
-        "jd_end": 2444961.6983,
-        "jd_start": 2444961.6671,
-        "jsonClass": "Interval",
-        "name": "praatas_sandhyaa_end"
       },
       "pradosha": {
         "jd_end": 2444962.0458,

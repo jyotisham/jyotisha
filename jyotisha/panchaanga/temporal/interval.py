@@ -22,6 +22,14 @@ class Interval(common.JsonObject):
   def to_tuple(self):
     return (self.jd_start, self.jd_end)
 
+  def __add__(self, other):
+    if self.jd_end == other.jd_start:
+      return Interval(jd_start=self.jd_start, jd_end=other.jd_end, name=self.name)
+    elif other.jd_end == self.jd_start:
+      return Interval(jd_start=other.jd_start, jd_end=self.jd_end, name=other.name)
+    else:
+      raise ValueError()
+
   def __repr__(self):
     from jyotisha.panchaanga.temporal import time
     return "%s: (%s, %s)" % (default_if_none(self.name, "?"), default_if_none(time.ist_timezone.julian_day_to_local_time_str(jd=self.jd_start), "?"),
@@ -61,18 +69,19 @@ class AngaSpan(Interval):
 
 
 class FifteenFoldDivision(common.JsonObject):
+  """
+  "दे॒वस्य॑ सवि॒तुᳶ प्रा॒तᳶ प्र॑स॒वᳶ प्रा॒णः" इत्यादेर् ब्राह्मणस्य भाष्ये सायणो विभागम् इमम् इच्छति।(See comments under TbSayanaMuhuurta.)
+  
+  """
   def __init__(self, jd_previous_sunset, jd_sunrise, jd_sunset, jd_next_sunrise):
     super(FifteenFoldDivision, self).__init__()
     self.braahma = get_interval(start_jd=jd_previous_sunset, end_jd=jd_sunrise, part_index=13, num_parts=15)
-    self.praatas_sandhyaa = get_interval(start_jd=jd_previous_sunset, end_jd=jd_sunrise, part_index=14, num_parts=15)
+    self.praatas_sandhyaa = get_interval(start_jd=jd_previous_sunset, end_jd=jd_sunrise, part_index=14, num_parts=15) + get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=range(0,4), num_parts=15)
     self.preceeding_arunodaya = get_interval(start_jd=jd_previous_sunset, end_jd=jd_sunrise, part_index=[13, 14], num_parts=15)
-
-    self.praatas_sandhyaa_end = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=4, num_parts=15)
     self.praatah = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=0, num_parts=5)
     self.saangava = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=1, num_parts=5)
     self.madhyaahna = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=2, num_parts=5)
-    self.maadhyaahnika_sandhyaa = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=5, num_parts=15)
-    self.maadhyaahnika_sandhyaa_end = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=13, num_parts=15)
+    self.maadhyaahnika_sandhyaa = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=range(5,13), num_parts=15)
     self.aparaahna = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=3, num_parts=5)
     self.saayaahna = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=4, num_parts=5)
     self.saayam_sandhyaa = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=14, num_parts=15)
@@ -100,6 +109,10 @@ class FifteenFoldDivision(common.JsonObject):
 
 
 class EightFoldDivision(common.JsonObject):
+  """
+  "दे॒वस्य॑ सवि॒तुᳶ प्रा॒तᳶ प्र॑स॒वᳶ प्रा॒णः" इत्यादेर् ब्राह्मणस्य भाष्ये प्रत्येकः कालो दिवसास्याष्टमो भागः कश्चनेति भट्टभास्करः। तन्मते सायाह्णो नाम प्रदोषः। अयम् मतो श्रुत्यनुगुणतरो विभाति।
+  
+  """
   def __init__(self, jd_sunrise, jd_sunset, jd_next_sunrise, weekday):
     super(EightFoldDivision, self).__init__()
     YAMAGANDA_OCTETS = [4, 3, 2, 1, 0, 6, 5]
@@ -115,6 +128,13 @@ class EightFoldDivision(common.JsonObject):
     self.raatri_yaama_1 = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=1, num_parts=4)
     self.shayana = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=3, num_parts=8)
     self.dinaanta = get_interval(jd_sunset, end_jd=jd_next_sunrise, part_index=5, num_parts=8)
+
+    self.praatah = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=0, num_parts=8)
+    self.saangava = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=2, num_parts=8)
+    self.madhyaahna = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=4, num_parts=8)
+    self.aparaahna = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=6, num_parts=8)
+
+
 
     for attr_name, obj in self.__dict__.items():
       if isinstance(obj, Interval):
