@@ -108,7 +108,7 @@ def day_summary(d, panchaanga, script):
   # sayamsandhya, sayamsandhya_end
   # dinaanta
   tithi_data_str = daily_panchaanga.sunrise_day_angas.get_anga_data_str(anga_type=AngaType.TITHI, script=script, reference_jd=daily_panchaanga.julian_day_start)
-  print('- 🌛%s  ' % (tithi_data_str), file=output_stream)
+  print('- |🌞-🌛|%s  ' % (tithi_data_str), file=output_stream)
   vara = jyotisha.names.NAMES['VARA_NAMES'][script][daily_panchaanga.date.get_weekday()]
   print('- **%s**—%s  ' % (translate_and_transliterate('vAsaraH', script), vara), file=output_stream)
   nakshatra_data_str = daily_panchaanga.sunrise_day_angas.get_anga_data_str(anga_type=AngaType.NAKSHATRA, script=script, reference_jd=daily_panchaanga.julian_day_start)
@@ -118,9 +118,9 @@ def day_summary(d, panchaanga, script):
   print('- 🌌🌞%s  ' % (solar_nakshatra_str), file=output_stream)
   print("___________________", file=output_stream)
   yoga_data_str = daily_panchaanga.sunrise_day_angas.get_anga_data_str(anga_type=AngaType.YOGA, script=script, reference_jd=daily_panchaanga.julian_day_start)
-  print('- 🌛🌞%s  ' % (yoga_data_str), file=output_stream)
+  print('- 🌛+🌞%s  ' % (yoga_data_str), file=output_stream)
   karana_data_str = daily_panchaanga.sunrise_day_angas.get_anga_data_str(anga_type=AngaType.KARANA, script=script, reference_jd=daily_panchaanga.julian_day_start)
-  print('- 🌛🌞%s  ' % (karana_data_str), file=output_stream)
+  print('- २|🌛-🌞|%s  ' % (karana_data_str), file=output_stream)
   print('- 🌌🌛%s  ' % (chandrashtama_rashi_data_str), file=output_stream)
   print("___________________", file=output_stream)
   print('- 🌏**%s** (%s)  ' % (
