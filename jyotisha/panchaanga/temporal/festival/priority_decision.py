@@ -39,7 +39,7 @@ def decide_paraviddha(p0, p1, target_anga, kaala):
   elif d1_angas.start == target_anga:
     fday = 0
   elif d0_angas.start == target_anga and d0_angas.end == next_anga:
-    if d0_angas.interval.name in ['aparaahna', 'aparaahna_muhuurta']:
+    if d0_angas.interval.name in ['aparaahna']:
       fday = 0
     else:
       # Example when this branch is active: 2019 'madhurakavi AzhvAr tirunakSattiram': sidereal_solar_month 1, nakshatra 14 paraviddha praatah.

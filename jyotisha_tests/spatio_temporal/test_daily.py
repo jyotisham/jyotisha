@@ -77,10 +77,9 @@ def test_sunrise_mtv():
 def test_tb_muhuurta_blr():
   city = City.get_city_from_db('Bangalore')   
   panchaanga = daily.DailyPanchaanga(city=city, date=Date(year=2019, month=9, day=10))
-  panchaanga.compute_tb_muhuurtas()
-  assert len(panchaanga.day_length_based_periods.tb_muhuurtas) == 15
-  assert panchaanga.day_length_based_periods.tb_muhuurtas[0].jd_start == panchaanga.jd_sunrise
-  for muhurta in panchaanga.day_length_based_periods.tb_muhuurtas:
+  assert len(panchaanga.day_length_based_periods.fifteen_fold_division.tb_muhuurtas) == 15
+  assert panchaanga.day_length_based_periods.fifteen_fold_division.tb_muhuurtas[0].jd_start == panchaanga.jd_sunrise
+  for muhurta in panchaanga.day_length_based_periods.fifteen_fold_division.tb_muhuurtas:
     logging.info(muhurta.to_localized_string(city=city))
 
 

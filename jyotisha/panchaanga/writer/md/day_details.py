@@ -40,8 +40,8 @@ def day_summary(d, panchaanga, script):
   # madhyaahna = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.madhyaahna.jd_start - jd)).toString()
   # madhyahnika_sandhya = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.maadhyaahnika_sandhyaa.jd_start - jd)).toString()
   # madhyahnika_sandhya_end = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.maadhyaahnika_sandhyaa_end.jd_start - jd)).toString()
-  aparaahna = tz.julian_day_to_local_time(daily_panchaanga.day_length_based_periods.aparaahna.jd_start).get_hour_str()
-  sayahna = tz.julian_day_to_local_time(daily_panchaanga.day_length_based_periods.saayaahna.jd_start).get_hour_str()
+  aparaahna = tz.julian_day_to_local_time(daily_panchaanga.day_length_based_periods.fifteen_fold_division.aparaahna.jd_start).get_hour_str()
+  sayahna = tz.julian_day_to_local_time(daily_panchaanga.day_length_based_periods.fifteen_fold_division.saayaahna.jd_start).get_hour_str()
 
   # sayamsandhya = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.saayam_sandhyaa.jd_start - jd)).toString()
   # sayamsandhya_end = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.saayam_sandhyaa_end.jd_start - jd)).toString()
@@ -131,7 +131,7 @@ def day_summary(d, panchaanga, script):
 
   print("___________________", file=output_stream)
   print('- 🌞️🏄**%s**—%s►%s  ' % (translate_or_transliterate('अपराह्ण-मुहूर्तः', script, source_script=sanscript.DEVANAGARI), aparaahna, sayahna), file=output_stream)
-  dinaanta = tz.julian_day_to_local_time(daily_panchaanga.day_length_based_periods.dinaanta.jd_start).get_hour_str()
+  dinaanta = tz.julian_day_to_local_time(daily_panchaanga.day_length_based_periods.eight_fold_division.dinaanta.jd_start).get_hour_str()
   print('- **%s**—%s  ' % (translate_or_transliterate('दिनान्तः', script, source_script=sanscript.DEVANAGARI), dinaanta), file=output_stream)
   print("___________________", file=output_stream)
 
@@ -147,9 +147,9 @@ def day_summary(d, panchaanga, script):
 
 def add_raahu_yama_gulika_info(daily_panchaanga, output_stream, script):
   tz = daily_panchaanga.city.get_timezone_obj()
-  rahu = daily_panchaanga.day_length_based_periods.raahu.to_hour_string(tz=tz)
-  yama = daily_panchaanga.day_length_based_periods.yama.to_hour_string(tz=tz)
-  gulika = daily_panchaanga.day_length_based_periods.gulika.to_hour_string(tz=tz)
+  rahu = daily_panchaanga.day_length_based_periods.eight_fold_division.raahu.to_hour_string(tz=tz)
+  yama = daily_panchaanga.day_length_based_periods.eight_fold_division.yama.to_hour_string(tz=tz)
+  gulika = daily_panchaanga.day_length_based_periods.eight_fold_division.gulika.to_hour_string(tz=tz)
   print('- **%s**—%s; **%s**—%s; **%s**—%s  ' % (translate_or_transliterate('राहुकालः', script, source_script=sanscript.DEVANAGARI), rahu,
                                                  translate_or_transliterate('यमघण्टः', script, source_script=sanscript.DEVANAGARI), yama,
                                                  translate_or_transliterate('गुलिककालः', script, source_script=sanscript.DEVANAGARI), gulika),

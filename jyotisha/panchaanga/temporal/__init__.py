@@ -47,18 +47,16 @@ def get_2_day_interval_boundary_angas(kaala, anga_type, p0, p1):
 
 
 class ComputationOptions(JsonObject):
-  def __init__(self, set_lagnas=None, no_fests=None, fest_repos=None, fest_ids_included=None, fest_ids_excluded=None,
-               fest_tags_included=None, fest_tags_excluded=None, aparaahna_as_second_half=None):
+  def __init__(self, set_lagnas=None, no_fests=None, fest_repos=None, fest_ids_included_unimplemented=None, fest_ids_excluded_unimplemented=None, aparaahna_as_second_half=None, prefer_eight_fold_division=False):
     super().__init__()
     self.set_lagnas = set_lagnas
     self.aparaahna_as_second_half = aparaahna_as_second_half
     self.no_fests = no_fests
     from jyotisha.panchaanga.temporal.festival import rules
     self.fest_repos = fest_repos if fest_repos is not None else rules.rule_repos
-    self.fest_ids_excluded = fest_ids_excluded
-    self.fest_ids_included = fest_ids_included
-    self.fest_tags_excluded = fest_tags_excluded
-    self.fest_tags_included = fest_tags_included
+    self.fest_ids_excluded_unimplemented = fest_ids_excluded_unimplemented
+    self.fest_ids_included_unimplemented = fest_ids_included_unimplemented
+    self.prefer_eight_fold_division = prefer_eight_fold_division
 
 
 class ComputationSystem(JsonObject):

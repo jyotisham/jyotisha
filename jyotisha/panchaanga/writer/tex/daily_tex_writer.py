@@ -144,41 +144,41 @@ def emit(panchaanga, time_format="hh:mm", languages=None, scripts=None, output_s
 def stream_daylength_based_periods(daily_panchaanga, output_stream, time_format):
   jd = daily_panchaanga.julian_day_start
 
-  braahma_start = time.Hour(24 * (daily_panchaanga.day_length_based_periods.braahma.jd_start - jd)).to_string(
+  braahma_start = time.Hour(24 * (daily_panchaanga.day_length_based_periods.fifteen_fold_division.braahma.jd_start - jd)).to_string(
     format=time_format)
   praatahsandhya_start = time.Hour(
-    24 * (daily_panchaanga.day_length_based_periods.praatas_sandhyaa.jd_start - jd)).to_string(format=time_format)
+    24 * (daily_panchaanga.day_length_based_periods.fifteen_fold_division.praatas_sandhyaa.jd_start - jd)).to_string(format=time_format)
   praatahsandhya_end = time.Hour(
-    24 * (daily_panchaanga.day_length_based_periods.praatas_sandhyaa_end.jd_start - jd)).to_string(format=time_format)
-  saangava = time.Hour(24 * (daily_panchaanga.day_length_based_periods.saangava.jd_start - jd)).to_string(
+    24 * (daily_panchaanga.day_length_based_periods.fifteen_fold_division.praatas_sandhyaa_end.jd_start - jd)).to_string(format=time_format)
+  saangava = time.Hour(24 * (daily_panchaanga.day_length_based_periods.fifteen_fold_division.saangava.jd_start - jd)).to_string(
     format=time_format)
-  madhyaahna = time.Hour(24 * (daily_panchaanga.day_length_based_periods.madhyaahna.jd_start - jd)).to_string(
+  madhyaahna = time.Hour(24 * (daily_panchaanga.day_length_based_periods.fifteen_fold_division.madhyaahna.jd_start - jd)).to_string(
     format=time_format)
   madhyahnika_sandhya_start = time.Hour(
-    24 * (daily_panchaanga.day_length_based_periods.maadhyaahnika_sandhyaa.jd_start - jd)).to_string(format=time_format)
+    24 * (daily_panchaanga.day_length_based_periods.fifteen_fold_division.maadhyaahnika_sandhyaa.jd_start - jd)).to_string(format=time_format)
   madhyahnika_sandhya_end = time.Hour(
-    24 * (daily_panchaanga.day_length_based_periods.maadhyaahnika_sandhyaa_end.jd_start - jd)).to_string(
+    24 * (daily_panchaanga.day_length_based_periods.fifteen_fold_division.maadhyaahnika_sandhyaa_end.jd_start - jd)).to_string(
     format=time_format)
-  aparaahna_muhuurta = time.Hour(
-    24 * (daily_panchaanga.day_length_based_periods.aparaahna_muhuurta.jd_start - jd)).to_string(
+  aparaahna = time.Hour(
+    24 * (daily_panchaanga.day_length_based_periods.fifteen_fold_division.aparaahna.jd_start - jd)).to_string(
     format=time_format)
-  sayahna = time.Hour(24 * (daily_panchaanga.day_length_based_periods.saayaahna.jd_start - jd)).to_string(
+  sayahna = time.Hour(24 * (daily_panchaanga.day_length_based_periods.fifteen_fold_division.saayaahna.jd_start - jd)).to_string(
     format=time_format)
   sayamsandhya_start = time.Hour(
-    24 * (daily_panchaanga.day_length_based_periods.saayam_sandhyaa.jd_start - jd)).to_string(format=time_format)
+    24 * (daily_panchaanga.day_length_based_periods.fifteen_fold_division.saayam_sandhyaa.jd_start - jd)).to_string(format=time_format)
   sayamsandhya_end = time.Hour(
-    24 * (daily_panchaanga.day_length_based_periods.pradosha.jd_end - jd)).to_string(format=time_format)
-  ratriyama1 = time.Hour(24 * (daily_panchaanga.day_length_based_periods.raatri_yaama_1.jd_start - jd)).to_string(
+    24 * (daily_panchaanga.day_length_based_periods.fifteen_fold_division.pradosha.jd_end - jd)).to_string(format=time_format)
+  ratriyama1 = time.Hour(24 * (daily_panchaanga.day_length_based_periods.eight_fold_division.raatri_yaama_1.jd_start - jd)).to_string(
     format=time_format)
-  shayana_time_end = time.Hour(24 * (daily_panchaanga.day_length_based_periods.shayana.jd_start - jd)).to_string(
+  shayana_time_end = time.Hour(24 * (daily_panchaanga.day_length_based_periods.eight_fold_division.shayana.jd_start - jd)).to_string(
     format=time_format)
-  dinaanta = time.Hour(24 * (daily_panchaanga.day_length_based_periods.dinaanta.jd_start - jd)).to_string(
+  dinaanta = time.Hour(24 * (daily_panchaanga.day_length_based_periods.eight_fold_division.dinaanta.jd_start - jd)).to_string(
     format=time_format)
   print(
     '{\\kalas{%s %s %s %s %s %s %s %s %s %s %s %s %s %s}}}' % (braahma_start, praatahsandhya_start, praatahsandhya_end,
                                                                saangava,
                                                                madhyahnika_sandhya_start, madhyahnika_sandhya_end,
-                                                               madhyaahna, aparaahna_muhuurta, sayahna,
+                                                               madhyaahna, aparaahna, sayahna,
                                                                sayamsandhya_start, sayamsandhya_end,
                                                                ratriyama1, shayana_time_end, dinaanta),
     file=output_stream)

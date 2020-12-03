@@ -219,21 +219,6 @@ class DailyPanchaanga(common.JsonObject):
       self.sunrise_day_angas.raashis_with_ends = AngaSpanFinder.get_cached(ayanaamsha_id=self.computation_system.ayanaamsha_id, anga_type=zodiac.AngaType.RASHI).get_all_angas_in_period(jd1=self.jd_sunrise, jd2=self.jd_next_sunrise)
       self.sunrise_day_angas.solar_nakshatras_with_ends = AngaSpanFinder.get_cached(ayanaamsha_id=self.computation_system.ayanaamsha_id, anga_type=zodiac.AngaType.SOLAR_NAKSH).get_all_angas_in_period(jd1=self.jd_sunrise, jd2=self.jd_next_sunrise)
 
-  def compute_tb_muhuurtas(self):
-    """ Computes muhuurta-s according to taittiriiya brAhmaNa.
-    """
-    if getattr(self, "jd_sunrise", None) is None:
-      self.compute_sun_moon_transitions()
-    tb_muhuurtas = []
-    for muhuurta_id in range(0, 15):
-      (jd_start, jd_end) = interval.get_interval(start_jd=self.jd_sunrise, end_jd=self.jd_sunset,
-                                                                              part_index=muhuurta_id, num_parts=15).to_tuple()
-      from jyotisha.panchaanga.temporal.interval import TbSayanaMuhuurta
-      tb_muhuurtas.append(TbSayanaMuhuurta(
-        jd_start=jd_start, jd_end=jd_end,
-        muhuurta_id=muhuurta_id))
-    self.day_length_based_periods.tb_muhuurtas = tb_muhuurtas
-
   def get_interval(self, name):
     if name == "moonrise":
       return Interval(name=name, jd_start=self.jd_moonrise, jd_end=self.jd_moonrise)
@@ -243,10 +228,21 @@ class DailyPanchaanga(common.JsonObject):
       return Interval(jd_start=self.jd_sunset, jd_end=self.jd_sunset, name=name)
     elif name == "full_day":
       return Interval(jd_start=self.jd_sunrise, jd_end=self.jd_next_sunrise, name=name)
+    elif name == "aparaahna":
+      if self.computation_system.options.aparaahna_as_second_half:
+        return getattr(self.day_length_based_periods, name)
+      else:
+        return getattr(self.day_length_based_periods.fifteen_fold_division, name)
     else:
-      if name == "aparaahna" and not self.computation_system.options.aparaahna_as_second_half:
-        name = "aparaahna_muhuurta"
-      return getattr(self.day_length_based_periods, name)
+      if self.computation_system.options.prefer_eight_fold_division:
+        search_locations = [self.day_length_based_periods, self.day_length_based_periods.eight_fold_division, self.day_length_based_periods.fifteen_fold_division]
+      else:
+        search_locations = [self.day_length_based_periods, self.day_length_based_periods.fifteen_fold_division, self.day_length_based_periods.eight_fold_division]
+      for location in search_locations:
+        value = getattr(location, name)
+        if value is not None:
+          return value
+      return None
 
   def get_interval_anga_spans(self, name, anga_type):
     interval = self.get_interval(name=name)

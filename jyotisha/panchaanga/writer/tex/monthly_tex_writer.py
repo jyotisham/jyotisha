@@ -159,17 +159,17 @@ def write_monthly_tex(panchaanga, time_format="hh:mm", languages=None, scripts=N
     sunrise = Hour(24 * (daily_panchaanga.jd_sunrise - jd)).to_string(
       format=time_format)
     sunset = Hour(24 * (daily_panchaanga.jd_sunset - jd)).to_string(format=time_format)
-    saangava = Hour(24 * (daily_panchaanga.day_length_based_periods.saangava.jd_start - jd)).to_string(
+    saangava = Hour(24 * (daily_panchaanga.day_length_based_periods.fifteen_fold_division.saangava.jd_start - jd)).to_string(
       format=time_format)
     rahu = '%s--%s' % (
-      Hour(24 * (daily_panchaanga.day_length_based_periods.raahu.jd_start - jd)).to_string(
+      Hour(24 * (daily_panchaanga.day_length_based_periods.eight_fold_division.raahu.jd_start - jd)).to_string(
         format=time_format),
-      Hour(24 * (daily_panchaanga.day_length_based_periods.raahu.jd_end - jd)).to_string(
+      Hour(24 * (daily_panchaanga.day_length_based_periods.eight_fold_division.raahu.jd_end - jd)).to_string(
         format=time_format))
     yama = '%s--%s' % (
-      Hour(24 * (daily_panchaanga.day_length_based_periods.yama.jd_start - jd)).to_string(
+      Hour(24 * (daily_panchaanga.day_length_based_periods.eight_fold_division.yama.jd_start - jd)).to_string(
         format=time_format),
-      Hour(24 * (daily_panchaanga.day_length_based_periods.yama.jd_end - jd)).to_string(
+      Hour(24 * (daily_panchaanga.day_length_based_periods.eight_fold_division.yama.jd_end - jd)).to_string(
         format=time_format))
 
     if daily_panchaanga.solar_sidereal_date_sunset.month_transition is None:

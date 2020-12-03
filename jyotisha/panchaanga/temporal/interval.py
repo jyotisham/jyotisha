@@ -60,22 +60,9 @@ class AngaSpan(Interval):
                              time.ist_timezone.julian_day_to_local_time_str(jd=self.jd_end))
 
 
-class DayLengthBasedPeriods(common.JsonObject):
-  def __init__(self, jd_previous_sunset, jd_sunrise, jd_sunset, jd_next_sunrise, weekday):
-    # Compute the various day_length_based_periods
-    # Sunrise/sunset and related stuff (like rahu, yama)
-
-    super().__init__()
-    YAMAGANDA_OCTETS = [4, 3, 2, 1, 0, 6, 5]
-    RAHUKALA_OCTETS = [7, 1, 6, 4, 5, 3, 2]
-    GULIKAKALA_OCTETS = [6, 5, 4, 3, 2, 1, 0]
-    self.raahu = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset,
-                                       part_index=RAHUKALA_OCTETS[weekday], num_parts=8)
-    self.yama = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset,
-                             part_index=YAMAGANDA_OCTETS[weekday], num_parts=8)
-    self.gulika = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset,
-                               part_index=GULIKAKALA_OCTETS[weekday], num_parts=8)
-
+class FifteenFoldDivision(common.JsonObject):
+  def __init__(self, jd_previous_sunset, jd_sunrise, jd_sunset, jd_next_sunrise):
+    super(FifteenFoldDivision, self).__init__()
     self.braahma = get_interval(start_jd=jd_previous_sunset, end_jd=jd_sunrise, part_index=13, num_parts=15)
     self.praatas_sandhyaa = get_interval(start_jd=jd_previous_sunset, end_jd=jd_sunrise, part_index=14, num_parts=15)
     self.preceeding_arunodaya = get_interval(start_jd=jd_previous_sunset, end_jd=jd_sunrise, part_index=[13, 14], num_parts=15)
@@ -86,22 +73,68 @@ class DayLengthBasedPeriods(common.JsonObject):
     self.madhyaahna = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=2, num_parts=5)
     self.maadhyaahnika_sandhyaa = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=5, num_parts=15)
     self.maadhyaahnika_sandhyaa_end = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=13, num_parts=15)
-    self.aparaahna_muhuurta = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=3, num_parts=5)
+    self.aparaahna = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=3, num_parts=5)
     self.saayaahna = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=4, num_parts=5)
     self.saayam_sandhyaa = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=14, num_parts=15)
-    self.dinamaana = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=0, num_parts=1)
-    self.puurvaahna = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=0, num_parts=2)
-    self.aparaahna = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=1, num_parts=2)
-    self.tb_muhuurtas = None
-
-    self.raatrimaana = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=0, num_parts=1)
-    # pradOSo.astamayAdUrdhvaM ghaTikAdvayamiShyatE (tithyAdi tattvam, Vrat Parichay panchaanga. 25 Gita Press).
     self.pradosha = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=0, num_parts=15)
     self.madhyaraatri = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=2, num_parts=5)
     self.nishiitha = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=7, num_parts=15)
+    self.tb_muhuurtas = None
+    self.compute_tb_muhuurtas(jd_sunrise=jd_sunrise, jd_sunset=jd_sunset)
+
+    for attr_name, obj in self.__dict__.items():
+      if isinstance(obj, Interval):
+        obj.name = attr_name
+
+  def compute_tb_muhuurtas(self, jd_sunrise, jd_sunset):
+    """ Computes muhuurta-s according to taittiriiya brAhmaNa.
+    """
+    tb_muhuurtas = []
+    for muhuurta_id in range(0, 15):
+      (jd_start, jd_end) = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset,
+                                                 part_index=muhuurta_id, num_parts=15).to_tuple()
+      tb_muhuurtas.append(TbSayanaMuhuurta(
+        jd_start=jd_start, jd_end=jd_end,
+        muhuurta_id=muhuurta_id))
+    self.tb_muhuurtas = tb_muhuurtas
+
+
+class EightFoldDivision(common.JsonObject):
+  def __init__(self, jd_sunrise, jd_sunset, jd_next_sunrise, weekday):
+    super(EightFoldDivision, self).__init__()
+    YAMAGANDA_OCTETS = [4, 3, 2, 1, 0, 6, 5]
+    RAHUKALA_OCTETS = [7, 1, 6, 4, 5, 3, 2]
+    GULIKAKALA_OCTETS = [6, 5, 4, 3, 2, 1, 0]
+    self.raahu = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset,
+                              part_index=RAHUKALA_OCTETS[weekday], num_parts=8)
+    self.yama = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset,
+                             part_index=YAMAGANDA_OCTETS[weekday], num_parts=8)
+    self.gulika = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset,
+                               part_index=GULIKAKALA_OCTETS[weekday], num_parts=8)
+    # pradOSo.astamayAdUrdhvaM ghaTikAdvayamiShyatE (tithyAdi tattvam, Vrat Parichay panchaanga. 25 Gita Press).
     self.raatri_yaama_1 = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=1, num_parts=4)
     self.shayana = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=3, num_parts=8)
     self.dinaanta = get_interval(jd_sunset, end_jd=jd_next_sunrise, part_index=5, num_parts=8)
+
+    for attr_name, obj in self.__dict__.items():
+      if isinstance(obj, Interval):
+        obj.name = attr_name
+
+
+
+class DayLengthBasedPeriods(common.JsonObject):
+  def __init__(self, jd_previous_sunset, jd_sunrise, jd_sunset, jd_next_sunrise, weekday):
+    # Compute the various day_length_based_periods
+    # Sunrise/sunset and related stuff (like rahu, yama)
+
+    super().__init__()
+
+    self.dinamaana = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=0, num_parts=1)
+    self.puurvaahna = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=0, num_parts=2)
+    self.aparaahna = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=1, num_parts=2)
+    self.raatrimaana = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=0, num_parts=1)
+    self.eight_fold_division = EightFoldDivision(jd_sunrise=jd_sunrise, jd_sunset=jd_sunset, jd_next_sunrise=jd_next_sunrise, weekday=weekday)
+    self.fifteen_fold_division = FifteenFoldDivision(jd_previous_sunset=jd_previous_sunset, jd_sunrise=jd_sunrise, jd_sunset=jd_sunset, jd_next_sunrise=jd_next_sunrise)
 
     for attr_name, obj in self.__dict__.items():
       if isinstance(obj, Interval):

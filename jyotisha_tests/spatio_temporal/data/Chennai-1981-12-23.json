@@ -229,7 +229,8 @@
           "name": "time_focus/monthly/pradoSha"
         }
       ],
-      "jsonClass": "ComputationOptions"
+      "jsonClass": "ComputationOptions",
+      "prefer_eight_fold_division": false
     }
   },
   "date": {
@@ -245,150 +246,308 @@
       "jsonClass": "Interval",
       "name": "aparaahna"
     },
-    "aparaahna_muhuurta": {
-      "jd_end": 2444961.9167,
-      "jd_start": 2444961.8231,
-      "jsonClass": "Interval",
-      "name": "aparaahna_muhuurta"
-    },
-    "braahma": {
-      "jd_end": 2444961.5068,
-      "jd_start": 2444961.4713,
-      "jsonClass": "Interval",
-      "name": "braahma"
-    },
-    "dinaanta": {
-      "jd_end": 2444962.4096,
-      "jd_start": 2444962.343,
-      "jsonClass": "Interval",
-      "name": "dinaanta"
-    },
     "dinamaana": {
       "jd_end": 2444962.0104,
       "jd_start": 2444961.5423,
       "jsonClass": "Interval",
       "name": "dinamaana"
     },
-    "gulika": {
-      "jd_end": 2444961.7763,
-      "jd_start": 2444961.7178,
-      "jsonClass": "Interval",
-      "name": "gulika"
+    "eight_fold_division": {
+      "dinaanta": {
+        "jd_end": 2444962.4096,
+        "jd_start": 2444962.343,
+        "jsonClass": "Interval",
+        "name": "dinaanta"
+      },
+      "gulika": {
+        "jd_end": 2444961.7763,
+        "jd_start": 2444961.7178,
+        "jsonClass": "Interval",
+        "name": "gulika"
+      },
+      "jsonClass": "EightFoldDivision",
+      "raahu": {
+        "jd_end": 2444961.8348,
+        "jd_start": 2444961.7763,
+        "jsonClass": "Interval",
+        "name": "raahu"
+      },
+      "raatri_yaama_1": {
+        "jd_end": 2444962.2765,
+        "jd_start": 2444962.1434,
+        "jsonClass": "Interval",
+        "name": "raatri_yaama_1"
+      },
+      "shayana": {
+        "jd_end": 2444962.2765,
+        "jd_start": 2444962.21,
+        "jsonClass": "Interval",
+        "name": "shayana"
+      },
+      "yama": {
+        "jd_end": 2444961.6593,
+        "jd_start": 2444961.6008,
+        "jsonClass": "Interval",
+        "name": "yama"
+      }
+    },
+    "fifteen_fold_division": {
+      "aparaahna": {
+        "jd_end": 2444961.9167,
+        "jd_start": 2444961.8231,
+        "jsonClass": "Interval",
+        "name": "aparaahna"
+      },
+      "braahma": {
+        "jd_end": 2444961.5068,
+        "jd_start": 2444961.4713,
+        "jsonClass": "Interval",
+        "name": "braahma"
+      },
+      "jsonClass": "FifteenFoldDivision",
+      "maadhyaahnika_sandhyaa": {
+        "jd_end": 2444961.7295,
+        "jd_start": 2444961.6983,
+        "jsonClass": "Interval",
+        "name": "maadhyaahnika_sandhyaa"
+      },
+      "maadhyaahnika_sandhyaa_end": {
+        "jd_end": 2444961.9792,
+        "jd_start": 2444961.9479,
+        "jsonClass": "Interval",
+        "name": "maadhyaahnika_sandhyaa_end"
+      },
+      "madhyaahna": {
+        "jd_end": 2444961.8231,
+        "jd_start": 2444961.7295,
+        "jsonClass": "Interval",
+        "name": "madhyaahna"
+      },
+      "madhyaraatri": {
+        "jd_end": 2444962.3297,
+        "jd_start": 2444962.2233,
+        "jsonClass": "Interval",
+        "name": "madhyaraatri"
+      },
+      "nishiitha": {
+        "jd_end": 2444962.2943,
+        "jd_start": 2444962.2588,
+        "jsonClass": "Interval",
+        "name": "nishiitha"
+      },
+      "praatah": {
+        "jd_end": 2444961.6359,
+        "jd_start": 2444961.5423,
+        "jsonClass": "Interval",
+        "name": "praatah"
+      },
+      "praatas_sandhyaa": {
+        "jd_end": 2444961.5423,
+        "jd_start": 2444961.5068,
+        "jsonClass": "Interval",
+        "name": "praatas_sandhyaa"
+      },
+      "praatas_sandhyaa_end": {
+        "jd_end": 2444961.6983,
+        "jd_start": 2444961.6671,
+        "jsonClass": "Interval",
+        "name": "praatas_sandhyaa_end"
+      },
+      "pradosha": {
+        "jd_end": 2444962.0458,
+        "jd_start": 2444962.0104,
+        "jsonClass": "Interval",
+        "name": "pradosha"
+      },
+      "preceeding_arunodaya": {
+        "jd_end": 2444961.5423,
+        "jd_start": 2444961.4713,
+        "jsonClass": "Interval",
+        "name": "preceeding_arunodaya"
+      },
+      "saangava": {
+        "jd_end": 2444961.7295,
+        "jd_start": 2444961.6359,
+        "jsonClass": "Interval",
+        "name": "saangava"
+      },
+      "saayaahna": {
+        "jd_end": 2444962.0104,
+        "jd_start": 2444961.9167,
+        "jsonClass": "Interval",
+        "name": "saayaahna"
+      },
+      "saayam_sandhyaa": {
+        "jd_end": 2444962.0104,
+        "jd_start": 2444961.9792,
+        "jsonClass": "Interval",
+        "name": "saayam_sandhyaa"
+      },
+      "tb_muhuurtas": [
+        {
+          "ahna": 0,
+          "ahna_part": 0,
+          "is_nirviirya": false,
+          "jd_end": 2444961.5735,
+          "jd_start": 2444961.5423,
+          "jsonClass": "TbSayanaMuhuurta",
+          "muhuurta_id": 0,
+          "name": 0
+        },
+        {
+          "ahna": 0,
+          "ahna_part": 1,
+          "is_nirviirya": false,
+          "jd_end": 2444961.6047,
+          "jd_start": 2444961.5735,
+          "jsonClass": "TbSayanaMuhuurta",
+          "muhuurta_id": 1,
+          "name": 1
+        },
+        {
+          "ahna": 0,
+          "ahna_part": 2,
+          "is_nirviirya": true,
+          "jd_end": 2444961.6359,
+          "jd_start": 2444961.6047,
+          "jsonClass": "TbSayanaMuhuurta",
+          "muhuurta_id": 2,
+          "name": 2
+        },
+        {
+          "ahna": 1,
+          "ahna_part": 0,
+          "is_nirviirya": true,
+          "jd_end": 2444961.6671,
+          "jd_start": 2444961.6359,
+          "jsonClass": "TbSayanaMuhuurta",
+          "muhuurta_id": 3,
+          "name": 3
+        },
+        {
+          "ahna": 1,
+          "ahna_part": 1,
+          "is_nirviirya": false,
+          "jd_end": 2444961.6983,
+          "jd_start": 2444961.6671,
+          "jsonClass": "TbSayanaMuhuurta",
+          "muhuurta_id": 4,
+          "name": 4
+        },
+        {
+          "ahna": 1,
+          "ahna_part": 2,
+          "is_nirviirya": true,
+          "jd_end": 2444961.7295,
+          "jd_start": 2444961.6983,
+          "jsonClass": "TbSayanaMuhuurta",
+          "muhuurta_id": 5,
+          "name": 5
+        },
+        {
+          "ahna": 2,
+          "ahna_part": 0,
+          "is_nirviirya": true,
+          "jd_end": 2444961.7607,
+          "jd_start": 2444961.7295,
+          "jsonClass": "TbSayanaMuhuurta",
+          "muhuurta_id": 6,
+          "name": 6
+        },
+        {
+          "ahna": 2,
+          "ahna_part": 1,
+          "is_nirviirya": false,
+          "jd_end": 2444961.7919,
+          "jd_start": 2444961.7607,
+          "jsonClass": "TbSayanaMuhuurta",
+          "muhuurta_id": 7,
+          "name": 7
+        },
+        {
+          "ahna": 2,
+          "ahna_part": 2,
+          "is_nirviirya": true,
+          "jd_end": 2444961.8231,
+          "jd_start": 2444961.7919,
+          "jsonClass": "TbSayanaMuhuurta",
+          "muhuurta_id": 8,
+          "name": 8
+        },
+        {
+          "ahna": 3,
+          "ahna_part": 0,
+          "is_nirviirya": true,
+          "jd_end": 2444961.8543,
+          "jd_start": 2444961.8231,
+          "jsonClass": "TbSayanaMuhuurta",
+          "muhuurta_id": 9,
+          "name": 9
+        },
+        {
+          "ahna": 3,
+          "ahna_part": 1,
+          "is_nirviirya": false,
+          "jd_end": 2444961.8855,
+          "jd_start": 2444961.8543,
+          "jsonClass": "TbSayanaMuhuurta",
+          "muhuurta_id": 10,
+          "name": 10
+        },
+        {
+          "ahna": 3,
+          "ahna_part": 2,
+          "is_nirviirya": true,
+          "jd_end": 2444961.9167,
+          "jd_start": 2444961.8855,
+          "jsonClass": "TbSayanaMuhuurta",
+          "muhuurta_id": 11,
+          "name": 11
+        },
+        {
+          "ahna": 4,
+          "ahna_part": 0,
+          "is_nirviirya": true,
+          "jd_end": 2444961.9479,
+          "jd_start": 2444961.9167,
+          "jsonClass": "TbSayanaMuhuurta",
+          "muhuurta_id": 12,
+          "name": 12
+        },
+        {
+          "ahna": 4,
+          "ahna_part": 1,
+          "is_nirviirya": false,
+          "jd_end": 2444961.9792,
+          "jd_start": 2444961.9479,
+          "jsonClass": "TbSayanaMuhuurta",
+          "muhuurta_id": 13,
+          "name": 13
+        },
+        {
+          "ahna": 4,
+          "ahna_part": 2,
+          "is_nirviirya": false,
+          "jd_end": 2444962.0104,
+          "jd_start": 2444961.9792,
+          "jsonClass": "TbSayanaMuhuurta",
+          "muhuurta_id": 14,
+          "name": 14
+        }
+      ]
     },
     "jsonClass": "DayLengthBasedPeriods",
-    "maadhyaahnika_sandhyaa": {
-      "jd_end": 2444961.7295,
-      "jd_start": 2444961.6983,
-      "jsonClass": "Interval",
-      "name": "maadhyaahnika_sandhyaa"
-    },
-    "maadhyaahnika_sandhyaa_end": {
-      "jd_end": 2444961.9792,
-      "jd_start": 2444961.9479,
-      "jsonClass": "Interval",
-      "name": "maadhyaahnika_sandhyaa_end"
-    },
-    "madhyaahna": {
-      "jd_end": 2444961.8231,
-      "jd_start": 2444961.7295,
-      "jsonClass": "Interval",
-      "name": "madhyaahna"
-    },
-    "madhyaraatri": {
-      "jd_end": 2444962.3297,
-      "jd_start": 2444962.2233,
-      "jsonClass": "Interval",
-      "name": "madhyaraatri"
-    },
-    "nishiitha": {
-      "jd_end": 2444962.2943,
-      "jd_start": 2444962.2588,
-      "jsonClass": "Interval",
-      "name": "nishiitha"
-    },
-    "praatah": {
-      "jd_end": 2444961.6359,
-      "jd_start": 2444961.5423,
-      "jsonClass": "Interval",
-      "name": "praatah"
-    },
-    "praatas_sandhyaa": {
-      "jd_end": 2444961.5423,
-      "jd_start": 2444961.5068,
-      "jsonClass": "Interval",
-      "name": "praatas_sandhyaa"
-    },
-    "praatas_sandhyaa_end": {
-      "jd_end": 2444961.6983,
-      "jd_start": 2444961.6671,
-      "jsonClass": "Interval",
-      "name": "praatas_sandhyaa_end"
-    },
-    "pradosha": {
-      "jd_end": 2444962.0458,
-      "jd_start": 2444962.0104,
-      "jsonClass": "Interval",
-      "name": "pradosha"
-    },
-    "preceeding_arunodaya": {
-      "jd_end": 2444961.5423,
-      "jd_start": 2444961.4713,
-      "jsonClass": "Interval",
-      "name": "preceeding_arunodaya"
-    },
     "puurvaahna": {
       "jd_end": 2444961.7763,
       "jd_start": 2444961.5423,
       "jsonClass": "Interval",
       "name": "puurvaahna"
     },
-    "raahu": {
-      "jd_end": 2444961.8348,
-      "jd_start": 2444961.7763,
-      "jsonClass": "Interval",
-      "name": "raahu"
-    },
-    "raatri_yaama_1": {
-      "jd_end": 2444962.2765,
-      "jd_start": 2444962.1434,
-      "jsonClass": "Interval",
-      "name": "raatri_yaama_1"
-    },
     "raatrimaana": {
       "jd_end": 2444962.5427,
       "jd_start": 2444962.0104,
       "jsonClass": "Interval",
       "name": "raatrimaana"
-    },
-    "saangava": {
-      "jd_end": 2444961.7295,
-      "jd_start": 2444961.6359,
-      "jsonClass": "Interval",
-      "name": "saangava"
-    },
-    "saayaahna": {
-      "jd_end": 2444962.0104,
-      "jd_start": 2444961.9167,
-      "jsonClass": "Interval",
-      "name": "saayaahna"
-    },
-    "saayam_sandhyaa": {
-      "jd_end": 2444962.0104,
-      "jd_start": 2444961.9792,
-      "jsonClass": "Interval",
-      "name": "saayam_sandhyaa"
-    },
-    "shayana": {
-      "jd_end": 2444962.2765,
-      "jd_start": 2444962.21,
-      "jsonClass": "Interval",
-      "name": "shayana"
-    },
-    "yama": {
-      "jd_end": 2444961.6593,
-      "jd_start": 2444961.6008,
-      "jsonClass": "Interval",
-      "name": "yama"
     }
   },
   "festival_id_to_instance": {},

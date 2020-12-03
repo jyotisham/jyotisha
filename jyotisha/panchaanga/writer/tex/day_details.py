@@ -18,19 +18,19 @@ def get_lagna_data_str(daily_panchaanga, scripts, time_format):
 def get_raahu_yama_gulika_strings(daily_panchaanga, time_format):
   jd = daily_panchaanga.julian_day_start
   rahu = '%s--%s' % (
-    time.Hour(24 * (daily_panchaanga.day_length_based_periods.raahu.jd_start - jd)).to_string(
+    time.Hour(24 * (daily_panchaanga.day_length_based_periods.eight_fold_division.raahu.jd_start - jd)).to_string(
       format=time_format),
-    time.Hour(24 * (daily_panchaanga.day_length_based_periods.raahu.jd_end - jd)).to_string(
+    time.Hour(24 * (daily_panchaanga.day_length_based_periods.eight_fold_division.raahu.jd_end - jd)).to_string(
       format=time_format))
   yama = '%s--%s' % (
-    time.Hour(24 * (daily_panchaanga.day_length_based_periods.yama.jd_start - jd)).to_string(
+    time.Hour(24 * (daily_panchaanga.day_length_based_periods.eight_fold_division.yama.jd_start - jd)).to_string(
       format=time_format),
-    time.Hour(24 * (daily_panchaanga.day_length_based_periods.yama.jd_end - jd)).to_string(
+    time.Hour(24 * (daily_panchaanga.day_length_based_periods.eight_fold_division.yama.jd_end - jd)).to_string(
       format=time_format))
   gulika = '%s--%s' % (
-    time.Hour(24 * (daily_panchaanga.day_length_based_periods.gulika.jd_start - jd)).to_string(
+    time.Hour(24 * (daily_panchaanga.day_length_based_periods.eight_fold_division.gulika.jd_start - jd)).to_string(
       format=time_format),
-    time.Hour(24 * (daily_panchaanga.day_length_based_periods.gulika.jd_end - jd)).to_string(
+    time.Hour(24 * (daily_panchaanga.day_length_based_periods.eight_fold_division.gulika.jd_end - jd)).to_string(
       format=time_format))
   return gulika, rahu, yama
 
