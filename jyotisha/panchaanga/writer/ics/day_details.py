@@ -2,8 +2,8 @@ from datetime import timedelta
 
 from icalendar import Calendar, Alarm, Event
 
-import jyotisha
 from indic_transliteration import xsanscript as sanscript
+from jyotisha.panchaanga.temporal import names
 from jyotisha.panchaanga.writer.ics import util
 from jyotisha.panchaanga.writer.md.day_details import day_summary
 
@@ -14,8 +14,8 @@ def writeDailyICS(panchaanga, script=sanscript.DEVANAGARI):
   compute_lagnams=panchaanga.computation_system.options.set_lagnas
 
   samvatsara_id = (panchaanga.year - 1568) % 60 + 1  # distance from prabhava
-  samvatsara_names = (jyotisha.names.NAMES['SAMVATSARA_NAMES'][script][samvatsara_id],
-                      jyotisha.names.NAMES['SAMVATSARA_NAMES'][script][(samvatsara_id % 60) + 1])
+  samvatsara_names = (names.NAMES['SAMVATSARA_NAMES']['sa'][script][samvatsara_id],
+                      names.NAMES['SAMVATSARA_NAMES']['sa'][script][(samvatsara_id % 60) + 1])
 
   yname_solar = samvatsara_names[0]  # Assign year name until Mesha Sankranti
   yname_lunar = samvatsara_names[0]  # Assign year name until Mesha Sankranti

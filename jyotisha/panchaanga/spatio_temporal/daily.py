@@ -7,7 +7,7 @@ from math import floor, modf
 from scipy.optimize import brentq
 from timebudget import timebudget
 
-from jyotisha.names import translate_and_transliterate
+from jyotisha.panchaanga.temporal.names import translate_and_transliterate
 from jyotisha.panchaanga.spatio_temporal import City
 from jyotisha.panchaanga.temporal import interval, time, ComputationSystem, set_constants
 from jyotisha.panchaanga.temporal import zodiac

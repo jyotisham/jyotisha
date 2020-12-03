@@ -1,7 +1,7 @@
 from numbers import Number
 
 import methodtools
-from jyotisha import names
+from jyotisha.panchaanga.temporal import names
 
 from sanskrit_data.schema import common
 
@@ -38,7 +38,7 @@ class AngaType(common.JsonObject):
       elif name == 'SIDEREAL_MONTH':
         key = 'CHANDRA_MASA_NAMES'
       if key in names.NAMES:
-        self.names_dict = names.NAMES[key]
+        self.names_dict = names.NAMES[key]['sa']
     NAME_TO_TYPE[self.name] = self
 
   def add(self, a, b):

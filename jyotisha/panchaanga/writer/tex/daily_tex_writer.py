@@ -13,10 +13,10 @@ from pytz import timezone as tz
 
 import jyotisha
 import jyotisha.custom_transliteration
-import jyotisha.names
+import jyotisha.panchaanga.temporal.names
 import jyotisha.panchaanga.spatio_temporal.annual
 import jyotisha.panchaanga.temporal
-from jyotisha import names
+from jyotisha.panchaanga.temporal import names
 from jyotisha.panchaanga.spatio_temporal import City
 from jyotisha.panchaanga.temporal import time
 from jyotisha.panchaanga.temporal.festival import rules
@@ -53,8 +53,8 @@ def emit(panchaanga, time_format="hh:mm", languages=None, scripts=None, output_s
   logging.debug(year)
 
   samvatsara_id = (year - 1568) % 60 + 1  # distance from prabhava
-  samvatsara_names = (jyotisha.names.NAMES['SAMVATSARA_NAMES'][scripts[0]][samvatsara_id],
-                      jyotisha.names.NAMES['SAMVATSARA_NAMES'][scripts[0]][(samvatsara_id % 60) + 1])
+  samvatsara_names = (names.NAMES['SAMVATSARA_NAMES']['sa'][scripts[0]][samvatsara_id],
+                      names.NAMES['SAMVATSARA_NAMES']['sa'][scripts[0]][(samvatsara_id % 60) + 1])
 
   yname = samvatsara_names[0]  # Assign year name until Mesha Sankranti
 
@@ -92,8 +92,8 @@ def emit(panchaanga, time_format="hh:mm", languages=None, scripts=None, output_s
 
     # Assign samvatsara, ayana, rtu #
     sar_data = '{%s}{%s}{%s}' % (yname,
-                                 jyotisha.names.NAMES['AYANA_NAMES'][scripts[0]][daily_panchaanga.solar_sidereal_date_sunset.month],
-                                 jyotisha.names.NAMES['RTU_NAMES'][scripts[0]][daily_panchaanga.solar_sidereal_date_sunset.month])
+                                 names.NAMES['AYANA_NAMES']['sa'][scripts[0]][daily_panchaanga.solar_sidereal_date_sunset.month],
+                                 names.NAMES['RTU_NAMES']['sa'][scripts[0]][daily_panchaanga.solar_sidereal_date_sunset.month])
 
     if daily_panchaanga.solar_sidereal_date_sunset.month_transition is None:
       month_end_str = ''
@@ -101,22 +101,22 @@ def emit(panchaanga, time_format="hh:mm", languages=None, scripts=None, output_s
       _m = daily_panchaangas[d - 1].solar_sidereal_date_sunset.month
       if daily_panchaanga.solar_sidereal_date_sunset.month_transition >= daily_panchaangas[d + 1].jd_sunrise:
         month_end_str = '\\mbox{%s{\\tiny\\RIGHTarrow}\\textsf{%s}}' % (
-          jyotisha.names.NAMES['RASHI_NAMES'][scripts[0]][_m], time.Hour(
+          names.NAMES['RASHI_NAMES']['sa'][scripts[0]][_m], time.Hour(
             24 * (daily_panchaanga.solar_sidereal_date_sunset.month_transition - daily_panchaangas[d + 1].julian_day_start)).to_string(format=time_format))
       else:
         month_end_str = '\\mbox{%s{\\tiny\\RIGHTarrow}\\textsf{%s}}' % (
-          jyotisha.names.NAMES['RASHI_NAMES'][scripts[0]][_m], time.Hour(
+          names.NAMES['RASHI_NAMES']['sa'][scripts[0]][_m], time.Hour(
             24 * (daily_panchaanga.solar_sidereal_date_sunset.month_transition - daily_panchaanga.julian_day_start)).to_string(format=time_format))
 
     month_data = '\\sunmonth{%s}{%d}{%s}' % (
-      jyotisha.names.NAMES['RASHI_NAMES'][scripts[0]][daily_panchaanga.solar_sidereal_date_sunset.month], daily_panchaanga.solar_sidereal_date_sunset.day,
+      names.NAMES['RASHI_NAMES']['sa'][scripts[0]][daily_panchaanga.solar_sidereal_date_sunset.month], daily_panchaanga.solar_sidereal_date_sunset.day,
       month_end_str)
 
     print('\\caldata{%s}{%s}{%s{%s}{%s}{%s}%s}' %
           (names.month_map[m].upper(), dt, month_data,
-           jyotisha.names.get_chandra_masa(daily_panchaanga.lunar_month_sunrise.index, scripts[0]),
-           jyotisha.names.NAMES['RTU_NAMES'][scripts[0]][int(ceil(daily_panchaanga.lunar_month_sunrise.index))],
-           jyotisha.names.NAMES['VARA_NAMES'][scripts[0]][daily_panchaanga.date.get_weekday()], sar_data), file=output_stream)
+           names.get_chandra_masa(daily_panchaanga.lunar_month_sunrise.index, scripts[0]),
+           names.NAMES['RTU_NAMES']['sa'][scripts[0]][int(ceil(daily_panchaanga.lunar_month_sunrise.index))],
+           names.NAMES['VARA_NAMES']['sa'][scripts[0]][daily_panchaanga.date.get_weekday()], sar_data), file=output_stream)
 
     stream_sun_moon_rise_data(daily_panchaanga, output_stream, time_format)
 

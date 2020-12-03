@@ -8,15 +8,14 @@ from datetime import datetime
 
 from indic_transliteration import xsanscript as sanscript
 
-from jyotisha import names
+from jyotisha.panchaanga.temporal import names
 from jyotisha.panchaanga.temporal.time import Timezone, Hour
 from pytz import timezone as tz
 
 import jyotisha
 import jyotisha.custom_transliteration
-import jyotisha.names
 from jyotisha.panchaanga.spatio_temporal import City, annual
-from jyotisha.panchaanga.temporal import time
+from jyotisha.panchaanga.temporal import time, names
 from jyotisha.panchaanga.temporal.festival import rules
 from jyotisha.panchaanga.writer.tex import day_details
 
@@ -46,8 +45,8 @@ def write_monthly_tex(panchaanga, time_format="hh:mm", languages=None, scripts=N
     print(template_lines[i][:-1])
 
   samvatsara_id = (panchaanga.year - 1568) % 60 + 1  # distance from prabhava
-  samvatsara_names = '%s–%s' % (jyotisha.names.NAMES['SAMVATSARA_NAMES'][scripts[0]][samvatsara_id],
-                                jyotisha.names.NAMES['SAMVATSARA_NAMES'][scripts[0]][(samvatsara_id % 60) + 1])
+  samvatsara_names = '%s–%s' % (names.NAMES['SAMVATSARA_NAMES']['sa'][scripts[0]][samvatsara_id],
+                                names.NAMES['SAMVATSARA_NAMES']['sa'][scripts[0]][(samvatsara_id % 60) + 1])
 
   print('\\mbox{}')
   print('{\\sffamily\\fontsize{60}{25}\\selectfont %d\\\\[0.5cm]}' % panchaanga.year)
@@ -179,21 +178,21 @@ def write_monthly_tex(panchaanga, time_format="hh:mm", languages=None, scripts=N
       _m = daily_panchaangas[d - 1].solar_sidereal_date_sunset.month
       if daily_panchaanga.solar_sidereal_date_sunset.month_transition >= daily_panchaangas[d + 1].jd_sunrise:
         month_end_str = '\\mbox{%s{\\tiny\\RIGHTarrow}\\textsf{%s}}' % (
-          jyotisha.names.NAMES['RASHI_NAMES'][scripts[0]][_m], Hour(
+          names.NAMES['RASHI_NAMES']['sa'][scripts[0]][_m], Hour(
             24 * (daily_panchaanga.solar_sidereal_date_sunset.month_transition - daily_panchaangas[d + 1].julian_day_start)).to_string(format=time_format))
       else:
         month_end_str = '\\mbox{%s{\\tiny\\RIGHTarrow}\\textsf{%s}}' % (
-          jyotisha.names.NAMES['RASHI_NAMES'][scripts[0]][_m], Hour(
+          names.NAMES['RASHI_NAMES']['sa'][scripts[0]][_m], Hour(
             24 * (daily_panchaanga.solar_sidereal_date_sunset.month_transition - daily_panchaanga.julian_day_start)).to_string(format=time_format))
 
     month_data = '\\sunmonth{%s}{%d}{%s}' % (
-      jyotisha.names.NAMES['RASHI_NAMES'][scripts[0]][daily_panchaanga.solar_sidereal_date_sunset.month], daily_panchaanga.solar_sidereal_date_sunset.day,
+      names.NAMES['RASHI_NAMES']['sa'][scripts[0]][daily_panchaanga.solar_sidereal_date_sunset.month], daily_panchaanga.solar_sidereal_date_sunset.day,
       month_end_str)
 
     if currWeek < 6:
       month_text += '\n' + ('\\caldata{\\textcolor{%s}{%s}}{%s{%s}}%%' %
                             (day_colours[daily_panchaanga.date.get_weekday()], dt, month_data,
-                             jyotisha.names.get_chandra_masa(daily_panchaanga.lunar_month_sunrise, scripts[0])))
+                             names.get_chandra_masa(daily_panchaanga.lunar_month_sunrise, scripts[0])))
       month_text += '\n' + ('{\\sundata{%s}{%s}{%s}}%%' % (sunrise, sunset, saangava))
       month_text += '\n' + ('{\\tnyk{%s}%%\n{%s}%%\n{%s}%%\n{%s}}%%' % (tithi_data_str, nakshatra_data_str,
                                                                         yoga_data_str, karana_data_str))
@@ -208,7 +207,7 @@ def write_monthly_tex(panchaanga, time_format="hh:mm", languages=None, scripts=N
       if daily_panchaanga.date.get_weekday() == 0:
         W6D1 = '\n' + ('\\caldata{\\textcolor{%s}{%s}}{%s{%s}}%%' %
                        (day_colours[daily_panchaanga.date.get_weekday()], dt, month_data,
-                        jyotisha.names.get_chandra_masa(daily_panchaanga.lunar_month_sunrise,scripts[0])))
+                        names.get_chandra_masa(daily_panchaanga.lunar_month_sunrise,scripts[0])))
         W6D1 += '\n' + ('{\\sundata{%s}{%s}{%s}}%%' % (sunrise, sunset, saangava))
         W6D1 += '\n' + ('{\\tnyk{%s}%%\n{%s}%%\n{%s}%%\n{%s}}%%' % (tithi_data_str, nakshatra_data_str,
                                                                     yoga_data_str, karana_data_str))
@@ -221,7 +220,7 @@ def write_monthly_tex(panchaanga, time_format="hh:mm", languages=None, scripts=N
       elif daily_panchaanga.date.get_weekday() == 1:
         W6D2 = '\n' + ('\\caldata{\\textcolor{%s}{%s}}{%s{%s}}%%' %
                        (day_colours[daily_panchaanga.date.get_weekday()], dt, month_data,
-                        jyotisha.names.get_chandra_masa(daily_panchaanga.lunar_month_sunrise,scripts[0])))
+                        names.get_chandra_masa(daily_panchaanga.lunar_month_sunrise,scripts[0])))
         W6D2 += '\n' + ('{\\sundata{%s}{%s}{%s}}%%' % (sunrise, sunset, saangava))
         W6D2 += '\n' + ('{\\tnyk{%s}%%\n{%s}%%\n{%s}%%\n{%s}}%%' % (tithi_data_str, nakshatra_data_str,
                                                                     yoga_data_str, karana_data_str))

@@ -3,7 +3,7 @@ from copy import copy
 from datetime import datetime
 from math import floor
 
-from jyotisha import names
+from jyotisha.panchaanga.temporal import names
 from jyotisha.panchaanga.temporal import zodiac, tithi
 from jyotisha.panchaanga.temporal.festival.applier import FestivalAssigner
 from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision
@@ -81,7 +81,7 @@ class SolarFestivalAssigner(FestivalAssigner):
       if daily_panchaanga.solar_sidereal_date_sunset.month == 1 and self.daily_panchaangas[d - 1].solar_sidereal_date_sunset.month == 12:
         # distance from prabhava
         samvatsara_id = (daily_panchaanga.date.year - 1568) % 60 + 1
-        new_yr = 'mESa-saGkrAntiH' + '~(' + names.NAMES['SAMVATSARA_NAMES']['hk'][
+        new_yr = 'mESa-saGkrAntiH' + '~(' + names.NAMES['SAMVATSARA_NAMES']['sa']['hk'][
           (samvatsara_id % 60) + 1] + \
                  '-' + 'saMvatsaraH' + ')'
         # self.panchaanga.festival_id_to_days[new_yr] = [d]

@@ -1,9 +1,9 @@
 import logging
 
 from indic_transliteration import sanscript, xsanscript
-from jyotisha import custom_transliteration, names
-from jyotisha.names import get_chandra_masa, NAMES
-from jyotisha.panchaanga.temporal import AngaType
+from jyotisha import custom_transliteration
+from jyotisha.panchaanga.temporal.names import get_chandra_masa, NAMES
+from jyotisha.panchaanga.temporal import AngaType, names
 
 
 def transliterate_quoted_text(text, script):
@@ -108,12 +108,12 @@ def get_timing_summary(rule):
       if rule.timing.month_number == 0:
         month = ' of every solar month'
       else:
-        month = ' of ' + NAMES['RASHI_NAMES'][sanscript.IAST][rule.timing.month_number] + ' (solar) month'
+        month = ' of ' + NAMES['RASHI_NAMES']['sa'][sanscript.IAST][rule.timing.month_number] + ' (solar) month'
     elif rule.timing.month_type == RulesRepo.TROPICAL_MONTH_DIR:
       if rule.timing.month_number == 0:
         month = ' of every tropical month'
       else:
-        month = ' of ' + NAMES['RTU_MASA_NAMES_SHORT'][sanscript.IAST][rule.timing.month_number] + ' (tropical) month'
+        month = ' of ' + NAMES['RTU_MASA_NAMES_SHORT']['sa'][sanscript.IAST][rule.timing.month_number] + ' (tropical) month'
     elif rule.timing.month_type == RulesRepo.GREGORIAN_MONTH_DIR:
       if rule.timing.month_number == 0:
         month = ' of every Gregorian month'

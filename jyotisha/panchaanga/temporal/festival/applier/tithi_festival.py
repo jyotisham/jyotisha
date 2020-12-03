@@ -3,7 +3,7 @@ import sys
 from datetime import datetime
 from math import floor
 
-from jyotisha import names
+from jyotisha.panchaanga.temporal import names
 from jyotisha.panchaanga import temporal
 from jyotisha.panchaanga.temporal import time, get_2_day_interval_boundary_angas
 from jyotisha.panchaanga.temporal import zodiac, tithi
@@ -51,7 +51,7 @@ class TithiFestivalAssigner(FestivalAssigner):
         _m = self.daily_panchaangas[d].lunar_month_sunrise.index
         if floor(_m) != _m:
           _m = 13  # Adhika masa
-        chaturthi_name = names.NAMES['SANKATAHARA_CHATURTHI_NAMES']['hk'][_m] + '-mahAgaNapati '
+        chaturthi_name = names.NAMES['SANKATAHARA_CHATURTHI_NAMES']['sa']['hk'][_m] + '-mahAgaNapati '
 
         if tithi_moonrise == 19:
           # otherwise yesterday would have already been assigned
@@ -402,9 +402,9 @@ class TithiFestivalAssigner(FestivalAssigner):
       elif 24 in ama_nakshatra_today and self.daily_panchaangas[d].lunar_month_sunrise.index == 10:
         suff = ' (alabhyam–zatabhiSak)'
       elif ama_nakshatra_today[0] in [15, 16, 17, 6, 7, 8, 23, 24, 25]:
-        suff = ' (alabhyam–%s)' % names.NAMES['NAKSHATRA_NAMES']['hk'][ama_nakshatra_today[0]]
+        suff = ' (alabhyam–%s)' % names.NAMES['NAKSHATRA_NAMES']['sa']['hk'][ama_nakshatra_today[0]]
       elif ama_nakshatra_today[1] in [15, 16, 17, 6, 7, 8, 23, 24, 25]:
-        suff = ' (alabhyam–%s)' % names.NAMES['NAKSHATRA_NAMES']['hk'][ama_nakshatra_today[1]]
+        suff = ' (alabhyam–%s)' % names.NAMES['NAKSHATRA_NAMES']['sa']['hk'][ama_nakshatra_today[1]]
       if self.daily_panchaangas[d].date.get_weekday() in [1, 2, 4]:
         if suff == '':
           suff = ' (alabhyam–puSkalA)'

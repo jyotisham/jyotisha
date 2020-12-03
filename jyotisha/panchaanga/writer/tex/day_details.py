@@ -1,12 +1,12 @@
 import jyotisha
-from jyotisha.panchaanga.temporal import time
+from jyotisha.panchaanga.temporal import time, names
 
 
 def get_lagna_data_str(daily_panchaanga, scripts, time_format):
   jd = daily_panchaanga.julian_day_start
   lagna_data_str = 'लग्नम्–'
   for lagna_ID, lagna_end_jd in daily_panchaanga.lagna_data:
-    lagna = jyotisha.names.NAMES['RASHI_NAMES'][scripts[0]][lagna_ID]
+    lagna = names.NAMES['RASHI_NAMES']['sa'][scripts[0]][lagna_ID]
     lagna_data_str = '%s\\mbox{%s\\RIGHTarrow\\textsf{%s}} ' % \
                      (lagna_data_str, lagna,
                       time.Hour(24 * (lagna_end_jd - jd)).to_string(
@@ -41,7 +41,7 @@ def get_karaNa_data_str(daily_panchaanga, scripts, time_format):
     (karana_ID, karana_end_jd) = (karaNa_span.anga.index, karaNa_span.jd_end)
     # if numKaranam == 1:
     #     karana_data_str += '\\hspace{1ex}'
-    karana = jyotisha.names.NAMES['KARANA_NAMES'][scripts[0]][karana_ID]
+    karana = names.NAMES['KARANA_NAMES']['sa'][scripts[0]][karana_ID]
     if karana_end_jd is None:
       karana_data_str = '%s\\mbox{%s\\Too{}}' % \
                         (karana_data_str, karana)
@@ -62,7 +62,7 @@ def get_yoga_data_str(daily_panchaanga, scripts, time_format):
     (yoga_ID, yoga_end_jd) = (yoga_span.anga.index, yoga_span.jd_end)
     # if yoga_data_str != '':
     #     yoga_data_str += '\\hspace{1ex}'
-    yoga = jyotisha.names.NAMES['YOGA_NAMES'][scripts[0]][yoga_ID]
+    yoga = names.NAMES['YOGA_NAMES']['sa'][scripts[0]][yoga_ID]
     if yoga_end_jd is None:
       if iYoga == 0:
         yoga_data_str = '%s\\mbox{%s\\To{}%s}' % \
@@ -79,7 +79,7 @@ def get_yoga_data_str(daily_panchaanga, scripts, time_format):
                          format=time_format))
   if yoga_end_jd is not None:
     yoga_data_str += '\\mbox{%s\\Too{}}' % (
-      jyotisha.names.NAMES['YOGA_NAMES'][scripts[0]][(yoga_ID % 27) + 1])
+      names.NAMES['YOGA_NAMES']['sa'][scripts[0]][(yoga_ID % 27) + 1])
   return yoga_data_str
 
 
@@ -91,7 +91,7 @@ def get_raashi_data_str(daily_panchaanga, scripts, time_format):
       (rashi_ID, rashi_end_jd) = (raashi_span.anga.index, raashi_span.jd_end)
       # if rashi_data_str != '':
       #     rashi_data_str += '\\hspace{1ex}'
-      rashi = jyotisha.names.NAMES['RASHI_SUFFIXED_NAMES'][scripts[0]][rashi_ID]
+      rashi = names.NAMES['RASHI_SUFFIXED_NAMES']['sa'][scripts[0]][rashi_ID]
       if rashi_end_jd is None:
         rashi_data_str = '%s\\mbox{%s}' % (rashi_data_str, rashi)
       else:
@@ -109,7 +109,7 @@ def get_nakshatra_data_str(daily_panchaanga, scripts, time_format):
     (nakshatra_ID, nakshatra_end_jd) = (nakshatra_span.anga.index, nakshatra_span.jd_end)
     if nakshatra_data_str != '':
       nakshatra_data_str += '\\hspace{1ex}'
-    nakshatra = jyotisha.names.NAMES['NAKSHATRA_NAMES'][scripts[0]][nakshatra_ID]
+    nakshatra = names.NAMES['NAKSHATRA_NAMES']['sa'][scripts[0]][nakshatra_ID]
     if nakshatra_end_jd is None:
       if iNakshatra == 0:
         nakshatra_data_str = '%s\\mbox{%s\\To{}%s}' % \
@@ -134,7 +134,7 @@ def get_tithi_data_str(daily_panchaanga, scripts, time_format):
     # if tithi_data_str != '':
     #     tithi_data_str += '\\hspace{1ex}'
     tithi = '\\raisebox{-1pt}{\\moon[scale=0.8]{%d}}\\hspace{2pt}' % (tithi_ID) + \
-            jyotisha.names.NAMES['TITHI_NAMES'][scripts[0]][tithi_ID]
+            names.NAMES['TITHI_NAMES']['sa'][scripts[0]][tithi_ID]
     if tithi_end_jd is None:
       if iTithi == 0:
         tithi_data_str = '%s\\mbox{%s\\To{}%s}' % \
