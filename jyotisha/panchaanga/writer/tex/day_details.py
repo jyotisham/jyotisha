@@ -1,4 +1,5 @@
 import jyotisha
+from jyotisha import custom_transliteration
 from jyotisha.panchaanga.temporal import time, names
 
 
@@ -66,7 +67,7 @@ def get_yoga_data_str(daily_panchaanga, scripts, time_format):
     if yoga_end_jd is None:
       if iYoga == 0:
         yoga_data_str = '%s\\mbox{%s\\To{}%s}' % \
-                        (yoga_data_str, yoga, jyotisha.custom_transliteration.tr('ahOrAtram', scripts[0]))
+                        (yoga_data_str, yoga, custom_transliteration.tr('ahOrAtram', scripts[0]))
       else:
         yoga_data_str = '%s\\mbox{%s\\Too{}}' % \
                         (yoga_data_str, yoga)
@@ -114,7 +115,7 @@ def get_nakshatra_data_str(daily_panchaanga, scripts, time_format):
       if iNakshatra == 0:
         nakshatra_data_str = '%s\\mbox{%s\\To{}%s}' % \
                              (nakshatra_data_str, nakshatra,
-                              jyotisha.custom_transliteration.tr('ahOrAtram', scripts[0]))
+                              custom_transliteration.tr('ahOrAtram', scripts[0]))
     else:
       nakshatra_data_str = '%s\\mbox{%s\\To{}\\textsf{%s (%s)}}' % \
                            (nakshatra_data_str, nakshatra,
@@ -139,7 +140,7 @@ def get_tithi_data_str(daily_panchaanga, scripts, time_format):
       if iTithi == 0:
         tithi_data_str = '%s\\mbox{%s\\To{}%s}' % \
                          (tithi_data_str, tithi,
-                          jyotisha.custom_transliteration.tr('ahOrAtram (tridinaspRk)', scripts[0]))
+                          custom_transliteration.tr('ahOrAtram (tridinaspRk)', scripts[0]))
     else:
       tithi_data_str = '%s\\mbox{%s\\To{}\\textsf{%s (%s)}}\\hspace{1ex}' % \
                        (tithi_data_str, tithi,
