@@ -119,9 +119,9 @@ class Panchaanga(common.JsonObject):
     else:
       return self.daily_panchaanga_for_date(date=panchaanga.date - 1)
 
-  def get_interval_anga_spans(self, date, name, anga_type):
+  def get_interval_anga_spans(self, date, interval_id, anga_type):
     dp = self.daily_panchaanga_for_date(date)
-    (anga_spans, _) = dp.get_interval_anga_spans(name=name, anga_type=anga_type)
+    (anga_spans, _) = dp.get_interval_anga_spans(interval_id=interval_id, anga_type=anga_type)
     anga_spans = copy.deepcopy(anga_spans)
 
     if anga_type == AngaType.TITHI:

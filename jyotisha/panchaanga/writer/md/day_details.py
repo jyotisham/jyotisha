@@ -6,7 +6,7 @@ from io import StringIO
 from math import ceil
 
 from indic_transliteration import sanscript
-from jyotisha.panchaanga.temporal import names
+from jyotisha.panchaanga.temporal import names, interval
 from jyotisha.panchaanga.temporal.names import translate_or_transliterate
 from jyotisha.panchaanga.temporal import AngaType
 from jyotisha.panchaanga.temporal.festival import rules
@@ -40,9 +40,6 @@ def day_summary(d, panchaanga, script):
   # madhyaahna = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.madhyaahna.jd_start - jd)).toString()
   # madhyahnika_sandhya = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.maadhyaahnika_sandhyaa.jd_start - jd)).toString()
   # madhyahnika_sandhya_end = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.maadhyaahnika_sandhyaa_end.jd_start - jd)).toString()
-  aparaahna = tz.julian_day_to_local_time(daily_panchaanga.day_length_based_periods.fifteen_fold_division.aparaahna.jd_start).get_hour_str()
-  sayahna = tz.julian_day_to_local_time(daily_panchaanga.day_length_based_periods.fifteen_fold_division.saayaahna.jd_start).get_hour_str()
-
   # sayamsandhya = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.saayam_sandhyaa.jd_start - jd)).toString()
   # sayamsandhya_end = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.saayam_sandhyaa_end.jd_start - jd)).toString()
   # ratriyama1 = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.raatri_yaama_1.jd_start - jd)).toString()
@@ -94,15 +91,6 @@ def day_summary(d, panchaanga, script):
   #   print('*' + getName('saMvatsaraH', language) + '*—%s' % yname_lunar, file=output_stream)
   #   print('*' + getName('ayanam', language) + '*—%s' % ayanam, file=output_stream)
   print("___________________", file=output_stream)
-  # braahma
-  # praatahsandhya, praatahsandhya_end
-  # saangava
-  # madhyahnika_sandhya, madhyahnika_sandhya_end
-  # madhyaahna
-  # aparaahna
-  # sayahna
-  # sayamsandhya, sayamsandhya_end
-  # dinaanta
   tithi_data_str = daily_panchaanga.sunrise_day_angas.get_anga_data_str(anga_type=AngaType.TITHI, script=script, reference_jd=daily_panchaanga.julian_day_start)
   print('- |🌞-🌛|%s  ' % (tithi_data_str), file=output_stream)
   vara = names.NAMES['VARA_NAMES']['sa'][script][daily_panchaanga.date.get_weekday()]
@@ -130,9 +118,12 @@ def day_summary(d, panchaanga, script):
 
 
   print("___________________", file=output_stream)
-  print('- 🌞️🏄**%s**—%s►%s  ' % (translate_or_transliterate('अपराह्ण-मुहूर्तः', script, source_script=sanscript.DEVANAGARI), aparaahna, sayahna), file=output_stream)
-  dinaanta = tz.julian_day_to_local_time(daily_panchaanga.day_length_based_periods.eight_fold_division.dinaanta.jd_start).get_hour_str()
-  print('- **%s**—%s  ' % (translate_or_transliterate('दिनान्तः', script, source_script=sanscript.DEVANAGARI), dinaanta), file=output_stream)
+  intervals = daily_panchaanga.day_length_based_periods.eight_fold_division.get_virile_intervals()
+  print('- 🌞%s— %s  ' % (translate_or_transliterate('भट्टभास्कर-मते वीर्यवन्तः', script, source_script=sanscript.DEVANAGARI), interval.intervals_to_md(intervals=intervals, script=script, tz=tz)),
+        file=output_stream)
+  intervals = daily_panchaanga.day_length_based_periods.fifteen_fold_division.get_virile_intervals()
+  print('- 🌞%s— %s  ' % (translate_or_transliterate('सायण-मते वीर्यवन्तः', script, source_script=sanscript.DEVANAGARI), interval.intervals_to_md(intervals=intervals, script=script, tz=tz)),
+        file=output_stream)
   print("___________________", file=output_stream)
 
   add_raahu_yama_gulika_info(daily_panchaanga, output_stream, script)
@@ -147,12 +138,8 @@ def day_summary(d, panchaanga, script):
 
 def add_raahu_yama_gulika_info(daily_panchaanga, output_stream, script):
   tz = daily_panchaanga.city.get_timezone_obj()
-  rahu = daily_panchaanga.day_length_based_periods.eight_fold_division.raahu.to_hour_string(tz=tz)
-  yama = daily_panchaanga.day_length_based_periods.eight_fold_division.yama.to_hour_string(tz=tz)
-  gulika = daily_panchaanga.day_length_based_periods.eight_fold_division.gulika.to_hour_string(tz=tz)
-  print('- **%s**—%s; **%s**—%s; **%s**—%s  ' % (translate_or_transliterate('राहुकालः', script, source_script=sanscript.DEVANAGARI), rahu,
-                                                 translate_or_transliterate('यमघण्टः', script, source_script=sanscript.DEVANAGARI), yama,
-                                                 translate_or_transliterate('गुलिककालः', script, source_script=sanscript.DEVANAGARI), gulika),
+  intervals = daily_panchaanga.day_length_based_periods.eight_fold_division.get_raahu_yama_gulikaa()
+  print('- %s  ' % (interval.intervals_to_md(intervals=intervals, script=script, tz=tz)),
         file=output_stream)
 
 

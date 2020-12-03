@@ -56,6 +56,32 @@ weekday_short_map = {0: "Sun", 1: "Mon", 2: "Tue",
                      3: "Wed", 4: "Thu", 5: "Fri", 6: "Sat"}
 weekday_map = {0: "Sunday", 1: "Monday", 2: "Tuesday", 3: "Wednesday", 4: "Thursday", 5: "Friday", 6: "Saturday"}
 SHULAM = NAMES["SHUULAM"]["sa"]
+python_to_devanaagarii = {
+  "braahma": "ब्राह्मं मुहूर्तम्",
+  "praatah": "प्रातः",
+  "aparaahna": "अपराह्णः",
+  "saangava": "साङ्गवः",
+  "madhyaahna": "मध्याह्नः",
+  "saayaahna": "सायाह्नः",
+  "pradosha": "प्रदोषः",
+  "saayam_sandhyaa": "सायंसन्ध्यावन्दनकालः",
+  "praatas_sandhyaa": "प्रातःसन्ध्यावन्दनकालः",
+  "madhyaraatri": "मध्यरात्रिः",
+  "nishiitha": "निशीथः",
+  "raahu": "राहुकालः",
+  "gulika": "गुलिककालः",
+  "yama": "यमघण्टः",
+  "raatri_yaama_1": "यामः प्रथमः",
+  "shayana": "शयनकालः",
+  "dinaanta": "दिनान्तम्",
+  "preceeding_arunodaya": "अरुणोदयः",
+  "maadhyaahnika_sandhyaa": "माध्याह्निकसन्ध्यावन्दनकालः",
+  "puurvaahna": "पूर्वाह्णः",
+  "raatrimaana": "रात्रिमानम्",
+  "dinamaana": "दिनमानम्",
+} 
+
+devanaagarii_to_python = {python_to_devanaagarii[x]: x for x in python_to_devanaagarii }
 
 sa_to_tamil = dict(**NAMES["SA_TO_TAMIL"], **{xsanscript.transliterate(x, xsanscript.DEVANAGARI, xsanscript.HK):NAMES["SA_TO_TAMIL"][x] for x  in NAMES["SA_TO_TAMIL"]})
 

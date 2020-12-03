@@ -3,6 +3,9 @@ from math import floor
 from numbers import Number
 
 import methodtools
+
+from indic_transliteration import xsanscript
+from jyotisha.panchaanga.temporal import names
 from jyotisha.util import default_if_none
 from sanskrit_data.schema import common
 
@@ -35,8 +38,9 @@ class Interval(common.JsonObject):
     return "%s: (%s, %s)" % (default_if_none(self.name, "?"), default_if_none(time.ist_timezone.julian_day_to_local_time_str(jd=self.jd_start), "?"),
 default_if_none(time.ist_timezone.julian_day_to_local_time_str(jd=self.jd_end), "?"))
 
-  def to_hour_string(self, tz, reference_date=None):
-    return "%s-%s" % (default_if_none(tz.julian_day_to_local_time(julian_day=self.jd_start).get_hour_str(reference_date=reference_date), "?"),
+  def to_hour_md(self, tz, script, reference_date=None):
+    name = names.translate_or_transliterate(text=self.name, source_script=xsanscript.DEVANAGARI, script=script)
+    return "**%s**—%s-%s" % (name, default_if_none(tz.julian_day_to_local_time(julian_day=self.jd_start).get_hour_str(reference_date=reference_date), "?"),
                              default_if_none(tz.julian_day_to_local_time(julian_day=self.jd_end).get_hour_str(reference_date=reference_date), "?"))
 
   def get_boundary_angas(self, anga_type, ayanaamsha_id):
@@ -53,6 +57,10 @@ default_if_none(time.ist_timezone.julian_day_to_local_time_str(jd=self.jd_end), 
       return BoundaryAngas(start=anga, end=anga, interval=self)
     else:
       return BoundaryAngas(start=f(self.jd_start), end=f(self.jd_end), interval=self)
+
+
+def intervals_to_md(intervals, script, tz, reference_date=None):
+  return "; ".join([x.to_hour_md(script=script, tz=tz, reference_date=reference_date) for x in intervals])
 
 
 class AngaSpan(Interval):
@@ -85,6 +93,7 @@ class FifteenFoldDivision(common.JsonObject):
     self.aparaahna = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=3, num_parts=5)
     self.saayaahna = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=4, num_parts=5)
     self.saayam_sandhyaa = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=14, num_parts=15)
+    # pradOSo.astamayAdUrdhvaM ghaTikAdvayamiShyatE (tithyAdi tattvam, Vrat Parichay panchaanga. 25 Gita Press).
     self.pradosha = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=0, num_parts=15)
     self.madhyaraatri = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=2, num_parts=5)
     self.nishiitha = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=7, num_parts=15)
@@ -93,7 +102,7 @@ class FifteenFoldDivision(common.JsonObject):
 
     for attr_name, obj in self.__dict__.items():
       if isinstance(obj, Interval):
-        obj.name = attr_name
+        obj.name = names.python_to_devanaagarii[attr_name]
 
   def compute_tb_muhuurtas(self, jd_sunrise, jd_sunset):
     """ Computes muhuurta-s according to taittiriiya brAhmaNa.
@@ -106,6 +115,10 @@ class FifteenFoldDivision(common.JsonObject):
         jd_start=jd_start, jd_end=jd_end,
         muhuurta_id=muhuurta_id))
     self.tb_muhuurtas = tb_muhuurtas
+
+  def get_virile_intervals(self):
+    return [x for x in self.tb_muhuurtas if not x.is_nirviirya]
+
 
 
 class EightFoldDivision(common.JsonObject):
@@ -124,7 +137,6 @@ class EightFoldDivision(common.JsonObject):
                              part_index=YAMAGANDA_OCTETS[weekday], num_parts=8)
     self.gulika = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset,
                                part_index=GULIKAKALA_OCTETS[weekday], num_parts=8)
-    # pradOSo.astamayAdUrdhvaM ghaTikAdvayamiShyatE (tithyAdi tattvam, Vrat Parichay panchaanga. 25 Gita Press).
     self.raatri_yaama_1 = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=1, num_parts=4)
     self.shayana = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=3, num_parts=8)
     self.dinaanta = get_interval(jd_sunset, end_jd=jd_next_sunrise, part_index=5, num_parts=8)
@@ -133,13 +145,17 @@ class EightFoldDivision(common.JsonObject):
     self.saangava = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=2, num_parts=8)
     self.madhyaahna = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=4, num_parts=8)
     self.aparaahna = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=6, num_parts=8)
-
-
+    self.saayaahna = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=0, num_parts=8)
 
     for attr_name, obj in self.__dict__.items():
       if isinstance(obj, Interval):
-        obj.name = attr_name
+        obj.name = names.python_to_devanaagarii[attr_name]
 
+  def get_virile_intervals(self):
+    return [self.praatah, self.saangava, self.madhyaahna, self.aparaahna, self.saayaahna]
+
+  def get_raahu_yama_gulikaa(self):
+    return [self.raahu, self.yama, self.gulika]
 
 
 class DayLengthBasedPeriods(common.JsonObject):
@@ -158,7 +174,7 @@ class DayLengthBasedPeriods(common.JsonObject):
 
     for attr_name, obj in self.__dict__.items():
       if isinstance(obj, Interval):
-        obj.name = attr_name
+        obj.name = names.python_to_devanaagarii[attr_name]
 
 
 class TbSayanaMuhuurta(Interval):
@@ -166,13 +182,15 @@ class TbSayanaMuhuurta(Interval):
   
   Refer https://archive.org/stream/Anandashram_Samskrita_Granthavali_Anandashram_Sanskrit_Series/ASS_037_Taittiriya_Brahmanam_with_Sayanabhashya_Part_1_-_Narayanasastri_Godbole_1934#page/n239/mode/2up .
   """
+  VIRILE_MUHUURTA_INDICES = [2, 3, 5, 6, 8, 9, 11, 12]
 
   def __init__(self, jd_start, jd_end, muhuurta_id):
-    super().__init__(jd_start=jd_start, jd_end=jd_end, name=muhuurta_id)
+    super().__init__(jd_start=jd_start, jd_end=jd_end)
+    self.name = "%s-मु॰%d" % (["प्रातः", "साङ्गवः", "पूर्वाह्णः", "अपराह्णः", "सायाह्णः"][int(muhuurta_id/3)], (muhuurta_id % 3) + 1)
     self.muhuurta_id = muhuurta_id
     self.ahna = floor(self.muhuurta_id / 3)
     self.ahna_part = self.muhuurta_id % 3
-    self.is_nirviirya = self.muhuurta_id in (2, 3, 5, 6, 8, 9, 11, 12)
+    self.is_nirviirya = self.muhuurta_id in TbSayanaMuhuurta.VIRILE_MUHUURTA_INDICES
 
   def to_localized_string(self, city):
     from jyotisha.panchaanga.temporal.time import Timezone

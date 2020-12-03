@@ -80,12 +80,12 @@ class RuleLookupAssigner(FestivalAssigner):
     rule_set = rules.RulesCollection.get_cached(repos_tuple=tuple(self.computation_system.options.fest_repos))
     anga_type_id = anga_type.name.lower()
     
-    anga_spans_2 = self.panchaanga.get_interval_anga_spans(date=panchaangas[1].date, anga_type=anga_type, name="full_day")
+    anga_spans_2 = self.panchaanga.get_interval_anga_spans(date=panchaangas[1].date, anga_type=anga_type, interval_id="full_day")
 
     # Why do we consider angas from the previous days? Explanation below.
     # Consider festival "tiruccendUr mAcit tiruvizhA nir2aivu" occuring at sunrise on tithi 15 of sidereal solar month 11. In Chennai 2018, this tithi 15 occurs between sunrise of Mar 3 and sunrise of Mar 4.
     # In that case, during the round where we consider the pair of days Mar 3 and Mar 4, our decision functions identify this "skipped" tithi and correctly assign the festival - if asked to. For that, we consider angas from previous day as well so that matching festivals may be considered.
-    anga_spans_1 = self.panchaanga.get_interval_anga_spans(date=panchaangas[0].date, anga_type=anga_type, name="full_day")
+    anga_spans_1 = self.panchaanga.get_interval_anga_spans(date=panchaangas[0].date, anga_type=anga_type, interval_id="full_day")
     angas = set([span.anga for span in anga_spans_1  + anga_spans_2])
     month = panchaangas[1].get_date(month_type=month_type).month
 

@@ -244,75 +244,81 @@
       "jd_end": 2444962.0104,
       "jd_start": 2444961.7763,
       "jsonClass": "Interval",
-      "name": "aparaahna"
+      "name": "अपराह्णः"
     },
     "dinamaana": {
       "jd_end": 2444962.0104,
       "jd_start": 2444961.5423,
       "jsonClass": "Interval",
-      "name": "dinamaana"
+      "name": "दिनमानम्"
     },
     "eight_fold_division": {
       "aparaahna": {
         "jd_end": 2444961.9518,
         "jd_start": 2444961.8933,
         "jsonClass": "Interval",
-        "name": "aparaahna"
+        "name": "अपराह्णः"
       },
       "dinaanta": {
         "jd_end": 2444962.4096,
         "jd_start": 2444962.343,
         "jsonClass": "Interval",
-        "name": "dinaanta"
+        "name": "दिनान्तम्"
       },
       "gulika": {
         "jd_end": 2444961.7763,
         "jd_start": 2444961.7178,
         "jsonClass": "Interval",
-        "name": "gulika"
+        "name": "गुलिककालः"
       },
       "jsonClass": "EightFoldDivision",
       "madhyaahna": {
         "jd_end": 2444961.8348,
         "jd_start": 2444961.7763,
         "jsonClass": "Interval",
-        "name": "madhyaahna"
+        "name": "मध्याह्नः"
       },
       "praatah": {
         "jd_end": 2444961.6008,
         "jd_start": 2444961.5423,
         "jsonClass": "Interval",
-        "name": "praatah"
+        "name": "प्रातः"
       },
       "raahu": {
         "jd_end": 2444961.8348,
         "jd_start": 2444961.7763,
         "jsonClass": "Interval",
-        "name": "raahu"
+        "name": "राहुकालः"
       },
       "raatri_yaama_1": {
         "jd_end": 2444962.2765,
         "jd_start": 2444962.1434,
         "jsonClass": "Interval",
-        "name": "raatri_yaama_1"
+        "name": "यामः प्रथमः"
       },
       "saangava": {
         "jd_end": 2444961.7178,
         "jd_start": 2444961.6593,
         "jsonClass": "Interval",
-        "name": "saangava"
+        "name": "साङ्गवः"
+      },
+      "saayaahna": {
+        "jd_end": 2444962.0769,
+        "jd_start": 2444962.0104,
+        "jsonClass": "Interval",
+        "name": "सायाह्नः"
       },
       "shayana": {
         "jd_end": 2444962.2765,
         "jd_start": 2444962.21,
         "jsonClass": "Interval",
-        "name": "shayana"
+        "name": "शयनकालः"
       },
       "yama": {
         "jd_end": 2444961.6593,
         "jd_start": 2444961.6008,
         "jsonClass": "Interval",
-        "name": "yama"
+        "name": "यमघण्टः"
       }
     },
     "fifteen_fold_division": {
@@ -320,80 +326,80 @@
         "jd_end": 2444961.9167,
         "jd_start": 2444961.8231,
         "jsonClass": "Interval",
-        "name": "aparaahna"
+        "name": "अपराह्णः"
       },
       "braahma": {
         "jd_end": 2444961.5068,
         "jd_start": 2444961.4713,
         "jsonClass": "Interval",
-        "name": "braahma"
+        "name": "ब्राह्मं मुहूर्तम्"
       },
       "jsonClass": "FifteenFoldDivision",
       "maadhyaahnika_sandhyaa": {
         "jd_end": 2444961.9479,
         "jd_start": 2444961.6983,
         "jsonClass": "Interval",
-        "name": "maadhyaahnika_sandhyaa"
+        "name": "माध्याह्निकसन्ध्यावन्दनकालः"
       },
       "madhyaahna": {
         "jd_end": 2444961.8231,
         "jd_start": 2444961.7295,
         "jsonClass": "Interval",
-        "name": "madhyaahna"
+        "name": "मध्याह्नः"
       },
       "madhyaraatri": {
         "jd_end": 2444962.3297,
         "jd_start": 2444962.2233,
         "jsonClass": "Interval",
-        "name": "madhyaraatri"
+        "name": "मध्यरात्रिः"
       },
       "nishiitha": {
         "jd_end": 2444962.2943,
         "jd_start": 2444962.2588,
         "jsonClass": "Interval",
-        "name": "nishiitha"
+        "name": "निशीथः"
       },
       "praatah": {
         "jd_end": 2444961.6359,
         "jd_start": 2444961.5423,
         "jsonClass": "Interval",
-        "name": "praatah"
+        "name": "प्रातः"
       },
       "praatas_sandhyaa": {
         "jd_end": 2444961.6671,
         "jd_start": 2444961.5068,
         "jsonClass": "Interval",
-        "name": "praatas_sandhyaa"
+        "name": "प्रातःसन्ध्यावन्दनकालः"
       },
       "pradosha": {
         "jd_end": 2444962.0458,
         "jd_start": 2444962.0104,
         "jsonClass": "Interval",
-        "name": "pradosha"
+        "name": "प्रदोषः"
       },
       "preceeding_arunodaya": {
         "jd_end": 2444961.5423,
         "jd_start": 2444961.4713,
         "jsonClass": "Interval",
-        "name": "preceeding_arunodaya"
+        "name": "अरुणोदयः"
       },
       "saangava": {
         "jd_end": 2444961.7295,
         "jd_start": 2444961.6359,
         "jsonClass": "Interval",
-        "name": "saangava"
+        "name": "साङ्गवः"
       },
       "saayaahna": {
         "jd_end": 2444962.0104,
         "jd_start": 2444961.9167,
         "jsonClass": "Interval",
-        "name": "saayaahna"
+        "name": "सायाह्नः"
       },
       "saayam_sandhyaa": {
         "jd_end": 2444962.0104,
         "jd_start": 2444961.9792,
         "jsonClass": "Interval",
-        "name": "saayam_sandhyaa"
+        "name": "सायंसन्ध्यावन्दनकालः"
       },
       "tb_muhuurtas": [
         {
@@ -404,7 +410,7 @@
           "jd_start": 2444961.5423,
           "jsonClass": "TbSayanaMuhuurta",
           "muhuurta_id": 0,
-          "name": 0
+          "name": "प्रातः-मु॰1"
         },
         {
           "ahna": 0,
@@ -414,7 +420,7 @@
           "jd_start": 2444961.5735,
           "jsonClass": "TbSayanaMuhuurta",
           "muhuurta_id": 1,
-          "name": 1
+          "name": "प्रातः-मु॰2"
         },
         {
           "ahna": 0,
@@ -424,7 +430,7 @@
           "jd_start": 2444961.6047,
           "jsonClass": "TbSayanaMuhuurta",
           "muhuurta_id": 2,
-          "name": 2
+          "name": "प्रातः-मु॰3"
         },
         {
           "ahna": 1,
@@ -434,7 +440,7 @@
           "jd_start": 2444961.6359,
           "jsonClass": "TbSayanaMuhuurta",
           "muhuurta_id": 3,
-          "name": 3
+          "name": "साङ्गवः-मु॰1"
         },
         {
           "ahna": 1,
@@ -444,7 +450,7 @@
           "jd_start": 2444961.6671,
           "jsonClass": "TbSayanaMuhuurta",
           "muhuurta_id": 4,
-          "name": 4
+          "name": "साङ्गवः-मु॰2"
         },
         {
           "ahna": 1,
@@ -454,7 +460,7 @@
           "jd_start": 2444961.6983,
           "jsonClass": "TbSayanaMuhuurta",
           "muhuurta_id": 5,
-          "name": 5
+          "name": "साङ्गवः-मु॰3"
         },
         {
           "ahna": 2,
@@ -464,7 +470,7 @@
           "jd_start": 2444961.7295,
           "jsonClass": "TbSayanaMuhuurta",
           "muhuurta_id": 6,
-          "name": 6
+          "name": "पूर्वाह्णः-मु॰1"
         },
         {
           "ahna": 2,
@@ -474,7 +480,7 @@
           "jd_start": 2444961.7607,
           "jsonClass": "TbSayanaMuhuurta",
           "muhuurta_id": 7,
-          "name": 7
+          "name": "पूर्वाह्णः-मु॰2"
         },
         {
           "ahna": 2,
@@ -484,7 +490,7 @@
           "jd_start": 2444961.7919,
           "jsonClass": "TbSayanaMuhuurta",
           "muhuurta_id": 8,
-          "name": 8
+          "name": "पूर्वाह्णः-मु॰3"
         },
         {
           "ahna": 3,
@@ -494,7 +500,7 @@
           "jd_start": 2444961.8231,
           "jsonClass": "TbSayanaMuhuurta",
           "muhuurta_id": 9,
-          "name": 9
+          "name": "अपराह्णः-मु॰1"
         },
         {
           "ahna": 3,
@@ -504,7 +510,7 @@
           "jd_start": 2444961.8543,
           "jsonClass": "TbSayanaMuhuurta",
           "muhuurta_id": 10,
-          "name": 10
+          "name": "अपराह्णः-मु॰2"
         },
         {
           "ahna": 3,
@@ -514,7 +520,7 @@
           "jd_start": 2444961.8855,
           "jsonClass": "TbSayanaMuhuurta",
           "muhuurta_id": 11,
-          "name": 11
+          "name": "अपराह्णः-मु॰3"
         },
         {
           "ahna": 4,
@@ -524,7 +530,7 @@
           "jd_start": 2444961.9167,
           "jsonClass": "TbSayanaMuhuurta",
           "muhuurta_id": 12,
-          "name": 12
+          "name": "सायाह्णः-मु॰1"
         },
         {
           "ahna": 4,
@@ -534,7 +540,7 @@
           "jd_start": 2444961.9479,
           "jsonClass": "TbSayanaMuhuurta",
           "muhuurta_id": 13,
-          "name": 13
+          "name": "सायाह्णः-मु॰2"
         },
         {
           "ahna": 4,
@@ -544,7 +550,7 @@
           "jd_start": 2444961.9792,
           "jsonClass": "TbSayanaMuhuurta",
           "muhuurta_id": 14,
-          "name": 14
+          "name": "सायाह्णः-मु॰3"
         }
       ]
     },
@@ -553,13 +559,13 @@
       "jd_end": 2444961.7763,
       "jd_start": 2444961.5423,
       "jsonClass": "Interval",
-      "name": "puurvaahna"
+      "name": "पूर्वाह्णः"
     },
     "raatrimaana": {
       "jd_end": 2444962.5427,
       "jd_start": 2444962.0104,
       "jsonClass": "Interval",
-      "name": "raatrimaana"
+      "name": "रात्रिमानम्"
     }
   },
   "festival_id_to_instance": {},

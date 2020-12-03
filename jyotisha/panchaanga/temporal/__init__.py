@@ -36,8 +36,8 @@ def get_2_day_interval_boundary_angas(kaala, anga_type, p0, p1):
   :return: 
   """
   from jyotisha.panchaanga.temporal.interval import Interval
-  (spans0, interval0) = p0.get_interval_anga_spans(name=kaala, anga_type=anga_type)
-  (spans1, interval1) = p1.get_interval_anga_spans(name=kaala, anga_type=anga_type)
+  (spans0, interval0) = p0.get_interval_anga_spans(interval_id=kaala, anga_type=anga_type)
+  (spans1, interval1) = p1.get_interval_anga_spans(interval_id=kaala, anga_type=anga_type)
   if len(spans0) == 1:
     spans0 = spans0 + spans0
   if len(spans1) == 1:

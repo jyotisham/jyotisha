@@ -219,33 +219,33 @@ class DailyPanchaanga(common.JsonObject):
       self.sunrise_day_angas.raashis_with_ends = AngaSpanFinder.get_cached(ayanaamsha_id=self.computation_system.ayanaamsha_id, anga_type=zodiac.AngaType.RASHI).get_all_angas_in_period(jd1=self.jd_sunrise, jd2=self.jd_next_sunrise)
       self.sunrise_day_angas.solar_nakshatras_with_ends = AngaSpanFinder.get_cached(ayanaamsha_id=self.computation_system.ayanaamsha_id, anga_type=zodiac.AngaType.SOLAR_NAKSH).get_all_angas_in_period(jd1=self.jd_sunrise, jd2=self.jd_next_sunrise)
 
-  def get_interval(self, name):
-    if name == "moonrise":
-      return Interval(name=name, jd_start=self.jd_moonrise, jd_end=self.jd_moonrise)
-    elif name == "sunrise":
-      return Interval(jd_start=self.jd_sunrise, jd_end=self.jd_sunrise, name=name)
-    elif name == "sunset":
-      return Interval(jd_start=self.jd_sunset, jd_end=self.jd_sunset, name=name)
-    elif name == "full_day":
-      return Interval(jd_start=self.jd_sunrise, jd_end=self.jd_next_sunrise, name=name)
-    elif name == "aparaahna":
+  def get_interval(self, interval_id):
+    if interval_id == "moonrise":
+      return Interval(name=interval_id, jd_start=self.jd_moonrise, jd_end=self.jd_moonrise)
+    elif interval_id == "sunrise":
+      return Interval(jd_start=self.jd_sunrise, jd_end=self.jd_sunrise, name=interval_id)
+    elif interval_id == "sunset":
+      return Interval(jd_start=self.jd_sunset, jd_end=self.jd_sunset, name=interval_id)
+    elif interval_id == "full_day":
+      return Interval(jd_start=self.jd_sunrise, jd_end=self.jd_next_sunrise, name=interval_id)
+    elif interval_id == "aparaahna":
       if self.computation_system.options.aparaahna_as_second_half:
-        return getattr(self.day_length_based_periods, name)
+        return getattr(self.day_length_based_periods, interval_id)
       else:
-        return getattr(self.day_length_based_periods.fifteen_fold_division, name)
+        return getattr(self.day_length_based_periods.fifteen_fold_division, interval_id)
     else:
       if self.computation_system.options.prefer_eight_fold_division:
         search_locations = [self.day_length_based_periods, self.day_length_based_periods.eight_fold_division, self.day_length_based_periods.fifteen_fold_division]
       else:
         search_locations = [self.day_length_based_periods, self.day_length_based_periods.fifteen_fold_division, self.day_length_based_periods.eight_fold_division]
       for location in search_locations:
-        value = getattr(location, name)
+        value = getattr(location, interval_id)
         if value is not None:
           return value
       return None
 
-  def get_interval_anga_spans(self, name, anga_type):
-    interval = self.get_interval(name=name)
+  def get_interval_anga_spans(self, interval_id, anga_type):
+    interval = self.get_interval(interval_id=interval_id)
     return (self.sunrise_day_angas.get_anga_spans_in_interval(interval=interval, anga_type=anga_type), interval)
 
   def compute_solar_day_sunset(self, previous_day_panchaanga=None):
