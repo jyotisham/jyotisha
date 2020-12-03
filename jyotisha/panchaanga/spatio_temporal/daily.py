@@ -55,6 +55,8 @@ class DayAngas(common.JsonObject):
       anga_spans = self.rashis_with_ends
     elif anga_type == AngaType.KARANA:
       anga_spans = self.karanas_with_ends
+    elif anga_type == AngaType.SOLAR_NAKSH:
+      anga_spans = self.solar_nakshatras_with_ends
     return anga_spans
 
   def find_anga_span(self, anga):

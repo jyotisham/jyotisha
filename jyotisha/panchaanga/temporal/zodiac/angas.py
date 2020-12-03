@@ -32,11 +32,12 @@ class AngaType(common.JsonObject):
     self.weight_sun = weight_sun
     self.mean_period_days = mean_period_days
     if names_dict is None:
-      key = name + "_NAMES"
       if name == 'SOLAR_NAKSH':
-        key = 'NAKSHATRA'
+        key = 'NAKSHATRA_NAMES'
       elif name == 'SIDEREAL_MONTH':
         key = 'CHANDRA_MASA_NAMES'
+      else:
+        key = name + "_NAMES"
       if key in names.NAMES:
         self.names_dict = names.NAMES[key]['sa']
     NAME_TO_TYPE[self.name] = self

@@ -33,17 +33,6 @@ def day_summary(d, panchaanga, script):
 
   output_stream = StringIO()
   tz = daily_panchaanga.city.get_timezone_obj()
-  # braahma = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.braahma.jd_start - jd)).toString()
-  # praatahsandhya = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.praatas_sandhyaa.jd_start - jd)).toString()
-  # praatahsandhya_end = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.praatas_sandhyaa_end.jd_start - jd)).toString()
-  # saangava = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.saangava.jd_start - jd)).toString()
-  # madhyaahna = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.madhyaahna.jd_start - jd)).toString()
-  # madhyahnika_sandhya = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.maadhyaahnika_sandhyaa.jd_start - jd)).toString()
-  # madhyahnika_sandhya_end = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.maadhyaahnika_sandhyaa_end.jd_start - jd)).toString()
-  # sayamsandhya = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.saayam_sandhyaa.jd_start - jd)).toString()
-  # sayamsandhya_end = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.saayam_sandhyaa_end.jd_start - jd)).toString()
-  # ratriyama1 = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.raatri_yaama_1.jd_start - jd)).toString()
-  # sayana_time = jyotisha.panchaanga.temporal.Time(24 * (daily_panchaanga.day_length_based_periods.shayana.jd_start - jd)).toString()
   # Assign samvatsara, ayana, rtu #
   ayanam_sidereal = names.NAMES['AYANA_NAMES']['sa'][script][daily_panchaanga.solar_sidereal_date_sunset.month]
   ayanam = names.NAMES['AYANA_NAMES']['sa'][script][daily_panchaanga.tropical_date_sunset.month]
@@ -91,6 +80,7 @@ def day_summary(d, panchaanga, script):
   #   print('*' + getName('saMvatsaraH', language) + '*—%s' % yname_lunar, file=output_stream)
   #   print('*' + getName('ayanam', language) + '*—%s' % ayanam, file=output_stream)
   print("___________________", file=output_stream)
+  print("### %s" % (names.translate_or_transliterate(text="खचक्रस्थितिः", script=script)), file=output_stream)
   tithi_data_str = daily_panchaanga.sunrise_day_angas.get_anga_data_str(anga_type=AngaType.TITHI, script=script, reference_jd=daily_panchaanga.julian_day_start)
   print('- |🌞-🌛|%s  ' % (tithi_data_str), file=output_stream)
   vara = names.NAMES['VARA_NAMES']['sa'][script][daily_panchaanga.date.get_weekday()]
@@ -106,10 +96,7 @@ def day_summary(d, panchaanga, script):
   karana_data_str = daily_panchaanga.sunrise_day_angas.get_anga_data_str(anga_type=AngaType.KARANA, script=script, reference_jd=daily_panchaanga.julian_day_start)
   print('- २|🌛-🌞|%s  ' % (karana_data_str), file=output_stream)
   print('- 🌌🌛%s  ' % (chandrashtama_rashi_data_str), file=output_stream)
-  print("___________________", file=output_stream)
-  print('- 🌏**%s** (%s)  ' % (
-    translate_or_transliterate('क्षेत्रम्', script, source_script=sanscript.DEVANAGARI), panchaanga.city.get_transliterated_name(script=script)),
-        file=output_stream)
+  print("### %s" % (names.translate_or_transliterate(text="दिनमान-कालविभागाः", script=script)), file=output_stream)
   add_sun_moon_rise_info(daily_panchaanga, output_stream, script)
 
   if panchaanga.computation_system.options.set_lagnas:
@@ -119,10 +106,13 @@ def day_summary(d, panchaanga, script):
 
   print("___________________", file=output_stream)
   intervals = daily_panchaanga.day_length_based_periods.eight_fold_division.get_virile_intervals()
-  print('- 🌞%s— %s  ' % (translate_or_transliterate('भट्टभास्कर-मते वीर्यवन्तः', script, source_script=sanscript.DEVANAGARI), interval.intervals_to_md(intervals=intervals, script=script, tz=tz)),
+  print('- 🌞⚝%s— %s  ' % (translate_or_transliterate('भट्टभास्कर-मते वीर्यवन्तः', script, source_script=sanscript.DEVANAGARI), interval.intervals_to_md(intervals=intervals, script=script, tz=tz)),
         file=output_stream)
   intervals = daily_panchaanga.day_length_based_periods.fifteen_fold_division.get_virile_intervals()
-  print('- 🌞%s— %s  ' % (translate_or_transliterate('सायण-मते वीर्यवन्तः', script, source_script=sanscript.DEVANAGARI), interval.intervals_to_md(intervals=intervals, script=script, tz=tz)),
+  print('- 🌞⚝%s— %s  ' % (translate_or_transliterate('सायण-मते वीर्यवन्तः', script, source_script=sanscript.DEVANAGARI), interval.intervals_to_md(intervals=intervals, script=script, tz=tz)),
+        file=output_stream)
+  intervals = [daily_panchaanga.day_length_based_periods.fifteen_fold_division.braahma, daily_panchaanga.day_length_based_periods.fifteen_fold_division.madhyaraatri]
+  print('- 🌞%s— %s  ' % (translate_or_transliterate('कालान्तरम्', script, source_script=sanscript.DEVANAGARI), interval.intervals_to_md(intervals=intervals, script=script, tz=tz)),
         file=output_stream)
   print("___________________", file=output_stream)
 
