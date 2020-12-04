@@ -4,6 +4,7 @@ from indic_transliteration import sanscript, xsanscript
 from jyotisha import custom_transliteration
 from jyotisha.panchaanga.temporal.names import get_chandra_masa, NAMES
 from jyotisha.panchaanga.temporal import AngaType, names
+from jyotisha.util import default_if_none
 
 
 def transliterate_quoted_text(text, script):
@@ -48,33 +49,47 @@ def describe_fest(rule, include_images, include_shlokas, include_url, is_brief, 
   if truncate:
     if len(final_description_string) > 450:
       # Truncate
-      final_description_string = '\n\n##### Details\n- [Edit config file](%s)\n- Tags: %s\n\n' % (url, ' '.join(rule.tags))
+      final_description_string = '\n\n##### Details\n- [Edit config file](%s)\n- Tags: %s\n\n' % (url, ' '.join(default_if_none(rule.tags, [])))
   if not is_brief:
     final_description_string += ref_list
   if not is_brief and include_url:
-    final_description_string += '\n\n##### Details\n- [Edit config file](%s)\n- Tags: %s\n\n' % (url, ' '.join(rule.tags))
+    final_description_string += '\n\n##### Details\n- [Edit config file](%s)\n- Tags: %s\n\n' % (url, ' '.join(default_if_none(rule.tags, [])))
   return final_description_string
 
 
 def get_description_str_with_shlokas(include_shlokas, rule, script):
   # Get the description
   description_string = ''
+  descriptions = {}
   if rule.description is not None:
     # description_string = json.dumps(rule.description)
-    description_string += rule.description["en"]
-    pieces = description_string.split('`')
-    if len(pieces) > 1:
-      if len(pieces) % 2 == 1:
-        # We much have matching backquotes, the contents of which can be neatly transliterated
-        for i, piece in enumerate(pieces):
-          if (i % 2) == 1:
-            pieces[i] = custom_transliteration.tr(piece, script, False)
-        description_string = ''.join(pieces)
+    for language in rule.description:
+      if language == "en":
+        descriptions["en"] = get_english_description(description_string, rule)
       else:
-        logging.warning('Unmatched backquotes in description string: %s' % description_string)
+        descriptions[language] = rule.description[language]
+  description_items = sorted(descriptions.items(), key=lambda pair: ["en", "sa", "ta"].index(pair[0]))
+  description_string = "\n\n".join([x[1] for x in description_items])
   if rule.shlokas is not None and include_shlokas:
     shlokas = xsanscript.transliterate(rule.shlokas.replace("\n", "  \n"), xsanscript.DEVANAGARI, script)
     description_string = description_string + '\n\n' + shlokas + '\n\n'
+  return description_string
+
+
+def get_english_description(description_string, rule):
+  if "en" not in rule.description:
+    return ""
+  description_string += rule.description["en"]
+  pieces = description_string.split('`')
+  if len(pieces) > 1:
+    if len(pieces) % 2 == 1:
+      # We much have matching backquotes, the contents of which can be neatly transliterated
+      for i, piece in enumerate(pieces):
+        if (i % 2) == 1:
+          pieces[i] = custom_transliteration.tr(piece, xsanscript.IAST, False)
+      description_string = ''.join(pieces)
+    else:
+      logging.warning('Unmatched backquotes in description string: %s' % description_string)
   return description_string
 
 

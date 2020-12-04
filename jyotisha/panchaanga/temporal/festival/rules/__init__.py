@@ -151,27 +151,27 @@ class HinduCalendarEvent(common.JsonObject):
     return self.get_storage_file_name_granular(base_dir=base_dir)
 
   def get_storage_file_name_flat(self, base_dir):
-    return "%(base_dir)s/%(id)s__info.toml"  % dict(
+    return "%(base_dir)s/%(id)s.toml"  % dict(
       base_dir=base_dir,
       id=self.id.replace('/','__').strip('{}')
     )
 
   def get_storage_file_name_granular(self, base_dir):
     if self.timing.anchor_festival_id is not None:
-      path = "relative_event/%(anchor_festival_id)s/offset__%(offset)02d/%(id)s__info.toml" % dict(
+      path = "relative_event/%(anchor_festival_id)s/offset__%(offset)02d/%(id)s.toml" % dict(
         anchor_festival_id=self.timing.anchor_festival_id.replace('/','__'),
         offset=self.timing.offset,
         id=self.id.replace('/','__').strip('{}')
       )
     elif self.timing is None or self.timing.month_number is None:
       tag_list = '/'.join(self.tags)
-      path = "description_only/%(id)s__info.toml" % dict(
+      path = "description_only/%(id)s.toml" % dict(
         tags=tag_list,
         id=self.id.replace('/','__').strip('{}')
       )
     else:
       try:
-        path = "%(month_type)s/%(anga_type)s/%(month_number)02d/%(anga_number)02d/%(id)s__info.toml" % dict(
+        path = "%(month_type)s/%(anga_type)s/%(month_number)02d/%(anga_number)02d/%(id)s.toml" % dict(
           month_type=self.timing.month_type,
           anga_type=self.timing.anga_type,
           month_number=self.timing.month_number,
@@ -290,7 +290,7 @@ class RulesCollection(common.JsonObject):
         os.path.join(DATA_ROOT, repo.get_path()), repo=repo))
 
       from sanskrit_data import collection_helper
-      self.tree = collection_helper.tree_maker(leaves=self.name_to_rule.values(), path_fn=lambda x: x.get_storage_file_name_granular(base_dir="").replace("__info.toml", ""))
+      self.tree = collection_helper.tree_maker(leaves=self.name_to_rule.values(), path_fn=lambda x: x.get_storage_file_name_granular(base_dir="").replace(".toml", ""))
 
   def get_month_anga_fests(self, month_type, month, anga_type_id, anga):
     if int(month) != month:
@@ -326,5 +326,5 @@ common.update_json_class_index(sys.modules[__name__])
 if __name__ == '__main__':
   rules_collection = RulesCollection.get_cached(repos_tuple=rule_repos)
   # rules_collection = RulesCollection(repos=[RulesRepo(name="general")])
-  # rules_collection.fix_filenames()
-  rules_collection.fix_content()
+  rules_collection.fix_filenames()
+  # rules_collection.fix_content()
