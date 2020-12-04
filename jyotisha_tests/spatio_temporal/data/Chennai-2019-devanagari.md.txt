@@ -5,7 +5,7 @@ title = "2019"
 ### Computation parameters
 - 🌏**क्षेत्रम्** (चॆन्नै)
 
- #### Basic parameters
+#### Basic parameters
 ```
 lunar_month_assigner_type = "MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA"
 ayanaamsha_id = "CHITRA_AT_180"
