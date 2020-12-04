@@ -17,6 +17,7 @@ def make_md(panchaanga, scripts=None, languages=None):
   print('- 🌏**%s** (%s)  ' % (
     translate_or_transliterate('क्षेत्रम्', scripts[0], source_script=sanscript.DEVANAGARI), panchaanga.city.get_transliterated_name(script=scripts[0])),
         file=output_stream)
+
   daily_panchaangas = panchaanga.daily_panchaangas_sorted()
   for day_index, daily_panchaanga in enumerate(daily_panchaangas):
     if daily_panchaanga.date < panchaanga.start_date or daily_panchaanga.date > panchaanga.end_date:
