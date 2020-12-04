@@ -35,6 +35,8 @@ def dump_common(year, city):
 def dump_kauNDinyAyana(year, city):
   computation_system = ComputationSystem.SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_180
   computation_system.festival_options.repos = [RulesRepo(name="gRhya/general")]
+  computation_system.festival_options.aparaahna_as_second_half = True
+  computation_system.festival_options.prefer_eight_fold_day_division = True
   tropical_panchaanga = annual.get_panchaanga_for_shaka_year(city=city, year=year, computation_system=computation_system, allow_precomputed=False)
   dump_ics_md_pair(panchaanga=tropical_panchaanga, period_str=str(year))
   
