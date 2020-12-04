@@ -1,10 +1,8 @@
 from io import StringIO
 
 from indic_transliteration import sanscript
-from jyotisha import custom_transliteration
 from jyotisha.panchaanga.temporal import names
 from jyotisha.panchaanga.temporal.names import translate_or_transliterate
-
 from jyotisha.panchaanga.writer.md import day_details
 
 
@@ -14,8 +12,8 @@ def make_md(panchaanga, scripts=None, languages=None):
   if languages is None:
     languages = ["sa"]
   output_stream = StringIO()
-  print('- 🌏**%s** (%s)  ' % (
-    translate_or_transliterate('क्षेत्रम्', scripts[0], source_script=sanscript.DEVANAGARI), panchaanga.city.get_transliterated_name(script=scripts[0])),
+  print('### Computation parameters\n- 🌏**%s** (%s)\n\n%s' % (
+    translate_or_transliterate('क्षेत्रम्', scripts[0], source_script=sanscript.DEVANAGARI), panchaanga.city.get_transliterated_name(script=scripts[0]), panchaanga.computation_system.to_md()),
         file=output_stream)
 
   daily_panchaangas = panchaanga.daily_panchaangas_sorted()

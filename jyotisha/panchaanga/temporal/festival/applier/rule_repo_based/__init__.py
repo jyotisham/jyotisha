@@ -59,7 +59,7 @@ class RuleLookupAssigner(FestivalAssigner):
 
   def apply_month_day_events(self, day_panchaanga, month_type):
     from jyotisha.panchaanga.temporal.festival import rules, FestivalInstance
-    rule_set = rules.RulesCollection.get_cached(repos_tuple=tuple(self.computation_system.options.fest_repos))
+    rule_set = rules.RulesCollection.get_cached(repos_tuple=tuple(self.computation_system.festival_options.repos))
 
     date = day_panchaanga.get_date(month_type=month_type)
     fest_dict = rule_set.get_month_anga_fests(month=date.month, anga=date.day, month_type=month_type, anga_type_id=rules.RulesRepo.DAY_DIR)
@@ -77,7 +77,7 @@ class RuleLookupAssigner(FestivalAssigner):
     :return: 
     """
     from jyotisha.panchaanga.temporal.festival import rules
-    rule_set = rules.RulesCollection.get_cached(repos_tuple=tuple(self.computation_system.options.fest_repos))
+    rule_set = rules.RulesCollection.get_cached(repos_tuple=tuple(self.computation_system.festival_options.repos))
     anga_type_id = anga_type.name.lower()
     
     anga_spans_2 = self.panchaanga.get_interval_anga_spans(date=panchaangas[1].date, anga_type=anga_type, interval_id="full_day")

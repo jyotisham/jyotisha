@@ -66,7 +66,7 @@ def get_full_festival_instance(festival_instance, daily_panchaangas, day_index):
 
 def festival_instance_to_event(festival_instance, languages, scripts, panchaanga, all_day=False):
   rules_collection = rules.RulesCollection.get_cached(
-    repos_tuple=tuple(panchaanga.computation_system.options.fest_repos))
+    repos_tuple=tuple(panchaanga.computation_system.festival_options.repos))
   fest_details_dict = rules_collection.name_to_rule
   fest_name = festival_instance.get_best_transliterated_name(languages=languages, scripts=scripts, fest_details_dict=rules_collection.name_to_rule)["text"].replace("~", " ")
   event = Event()

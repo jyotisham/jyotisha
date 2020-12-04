@@ -1,5 +1,6 @@
 import logging
 import sys
+from copy import deepcopy, copy
 
 from jyotisha.panchaanga.temporal.zodiac.angas import BoundaryAngas, Anga, AngaType
 from sanskrit_data.schema import common
@@ -46,17 +47,28 @@ def get_2_day_interval_boundary_angas(kaala, anga_type, p0, p1):
   return angas
 
 
-class ComputationOptions(JsonObject):
-  def __init__(self, set_lagnas=None, no_fests=None, fest_repos=None, fest_ids_included_unimplemented=None, fest_ids_excluded_unimplemented=None, aparaahna_as_second_half=None, prefer_eight_fold_division=False):
+class FestivalOptions(JsonObject):
+  def __init__(self, set_lagnas=None, no_fests=None, fest_repos=None, fest_ids_included_unimplemented=None, fest_ids_excluded_unimplemented=None, aparaahna_as_second_half=False, prefer_eight_fold_day_division=False):
     super().__init__()
     self.set_lagnas = set_lagnas
     self.aparaahna_as_second_half = aparaahna_as_second_half
     self.no_fests = no_fests
     from jyotisha.panchaanga.temporal.festival import rules
-    self.fest_repos = fest_repos if fest_repos is not None else rules.rule_repos
+    self.repos = fest_repos if fest_repos is not None else rules.rule_repos
     self.fest_ids_excluded_unimplemented = fest_ids_excluded_unimplemented
     self.fest_ids_included_unimplemented = fest_ids_included_unimplemented
-    self.prefer_eight_fold_division = prefer_eight_fold_division
+    self.prefer_eight_fold_day_division = prefer_eight_fold_day_division
+
+  def get_repo_mds(self):
+    return ["[%s](%s)" % (repo.name, repo.base_url) for repo in self.repos]
+
+  def to_md(self):
+    fest_repos_md = ", ".join(self.get_repo_mds())
+    fest_repos = self.repos
+    self.repos = None
+    md = "#### Event options\n ```\n%s\n```\n- Repos: %s\n" % (self.to_string(format="toml"), fest_repos_md)
+    self.repos = fest_repos
+    return md
 
 
 class ComputationSystem(JsonObject):
@@ -67,14 +79,19 @@ class ComputationSystem(JsonObject):
   MIN_SOLARCOMPUTATION__CHITRA_180 = None
   DEFAULT = None
 
-  def __init__(self, lunar_month_assigner_type, ayanaamsha_id, computation_options=ComputationOptions()):
+  def __init__(self, lunar_month_assigner_type, ayanaamsha_id, festival_options=FestivalOptions()):
     super().__init__()
     self.lunar_month_assigner_type = lunar_month_assigner_type
     self.ayanaamsha_id = ayanaamsha_id
-    self.options = computation_options
+    self.festival_options = festival_options
 
   def __repr__(self):
     return "%s__%s" % (self.lunar_month_assigner_type, self.ayanaamsha_id)
+
+  def to_md(self):
+    system_copy = ComputationSystem(lunar_month_assigner_type=self.lunar_month_assigner_type, ayanaamsha_id=self.ayanaamsha_id, festival_options=None)
+    return "#### Basic parameters\n```\n%s\n```\n\n%s" % (system_copy.to_string(format="toml"), self.festival_options.to_md())
+     
 
 
 def set_constants():

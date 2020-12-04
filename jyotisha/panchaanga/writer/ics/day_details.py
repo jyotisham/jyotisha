@@ -11,7 +11,7 @@ from jyotisha.panchaanga.writer.md.day_details import day_summary
 def writeDailyICS(panchaanga, script=sanscript.DEVANAGARI):
   """Write out the panchaanga TeX using a specified template
   """
-  compute_lagnams=panchaanga.computation_system.options.set_lagnas
+  compute_lagnams=panchaanga.computation_system.festival_options.set_lagnas
 
   samvatsara_id = (panchaanga.year - 1568) % 60 + 1  # distance from prabhava
   samvatsara_names = (names.NAMES['SAMVATSARA_NAMES']['sa'][script][samvatsara_id],

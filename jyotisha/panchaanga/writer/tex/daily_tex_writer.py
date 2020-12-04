@@ -37,7 +37,7 @@ def emit(panchaanga, time_format="hh:mm", languages=None, scripts=None, output_s
   """
   # day_colours = {0: 'blue', 1: 'blue', 2: 'blue',
   #                3: 'blue', 4: 'blue', 5: 'blue', 6: 'blue'}
-  compute_lagnams = panchaanga.computation_system.options.set_lagnas
+  compute_lagnams = panchaanga.computation_system.festival_options.set_lagnas
   if scripts is None:
     scripts = [sanscript.DEVANAGARI]
   if languages is None:
@@ -205,7 +205,7 @@ def stream_sun_moon_rise_data(daily_panchaanga, output_stream, time_format):
 
 def print_festivals_to_stream(daily_panchaanga, output_stream, panchaanga, languages, scripts):
   rules_collection = rules.RulesCollection.get_cached(
-    repos_tuple=tuple(panchaanga.computation_system.options.fest_repos))
+    repos_tuple=tuple(panchaanga.computation_system.festival_options.repos))
   fest_details_dict = rules_collection.name_to_rule
   print('{%s}' % '\\eventsep '.join(
     [f.tex_code(languages=languages, scripts=scripts, timezone=Timezone(timezone_id=panchaanga.city.timezone),

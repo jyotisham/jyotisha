@@ -1,7 +1,7 @@
 import os
 
 from indic_transliteration import sanscript
-from jyotisha.panchaanga.temporal import festival, ComputationOptions
+from jyotisha.panchaanga.temporal import festival, FestivalOptions
 from jyotisha.panchaanga.temporal.festival import rules
 
 
@@ -11,8 +11,8 @@ def test_serializability():
 
 
 def test_get_best_transliterated_name():
-  options = ComputationOptions()
-  rules_collection = rules.RulesCollection.get_cached(repos_tuple=tuple(options.fest_repos))
+  options = FestivalOptions()
+  rules_collection = rules.RulesCollection.get_cached(repos_tuple=tuple(options.repos))
 
 
   fest = festival.FestivalInstance(name="sarva-saphalA-EkAdazI", ordinal=1000)

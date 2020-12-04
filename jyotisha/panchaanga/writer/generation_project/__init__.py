@@ -21,7 +21,7 @@ def dump_ics_md_pair(panchaanga, period_str):
   ics.write_to_file(ics_calendar, output_file_ics)
 
   md_file = MdFile(file_path=output_file_ics.replace(".ics", ".md"), frontmatter_type=MdFile.YAML)
-  intro = "## Intro\n### Related files\n- [ics](../%s)\n### Computation parameters" % str(os.path.basename(output_file_ics))
+  intro = "## Intro\n### Related files\n- [ics](../%s)\n" % str(os.path.basename(output_file_ics))
   md_content = "%s\n%s" % (intro, md.make_md(panchaanga=panchaanga))
   md_file.dump_to_file(metadata={"title": period_str}, md=md_content, dry_run=False)
 
@@ -34,7 +34,7 @@ def dump_common(year, city):
 
 def dump_kauNDinyAyana(year, city):
   computation_system = ComputationSystem.SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_180
-  computation_system.options.fest_repos = [RulesRepo(name="gRhya/general")]
+  computation_system.festival_options.repos = [RulesRepo(name="gRhya/general")]
   tropical_panchaanga = annual.get_panchaanga_for_shaka_year(city=city, year=year, computation_system=computation_system, allow_precomputed=False)
   dump_ics_md_pair(panchaanga=tropical_panchaanga, period_str=str(year))
   

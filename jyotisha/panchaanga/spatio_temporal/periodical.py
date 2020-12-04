@@ -58,8 +58,8 @@ class Panchaanga(common.JsonObject):
     self.weekday_start = time.get_weekday(self.jd_start)
 
     self.festival_id_to_days = defaultdict(set, {})
-    self.compute_angas(compute_lagnas=self.computation_system.options.lagnas)
-    if not self.computation_system.options.no_fests:
+    self.compute_angas(compute_lagnas=self.computation_system.festival_options.lagnas)
+    if not self.computation_system.festival_options.no_fests:
       self.update_festival_details()
 
   @timebudget

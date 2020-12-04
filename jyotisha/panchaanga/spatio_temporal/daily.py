@@ -232,12 +232,12 @@ class DailyPanchaanga(common.JsonObject):
     elif interval_id == "full_day":
       return Interval(jd_start=self.jd_sunrise, jd_end=self.jd_next_sunrise, name=interval_id)
     elif interval_id == "aparaahna":
-      if self.computation_system.options.aparaahna_as_second_half:
+      if self.computation_system.festival_options.aparaahna_as_second_half:
         return getattr(self.day_length_based_periods, interval_id)
       else:
         return getattr(self.day_length_based_periods.fifteen_fold_division, interval_id)
     else:
-      if self.computation_system.options.prefer_eight_fold_division:
+      if self.computation_system.festival_options.prefer_eight_fold_day_division:
         search_locations = [self.day_length_based_periods, self.day_length_based_periods.eight_fold_division, self.day_length_based_periods.fifteen_fold_division]
       else:
         search_locations = [self.day_length_based_periods, self.day_length_based_periods.fifteen_fold_division, self.day_length_based_periods.eight_fold_division]

@@ -25,7 +25,7 @@ def daily_tex_comparer(city_name, year):
   if not os.path.exists(orig_tex_file):
     logging.warning("Files must have been deliberately deleted due to changed expectation. We'll just set it for future tests.")
     emit(panchaanga,
-       output_stream=open(orig_tex_file, 'w'), scripts=[sanscript.DEVANAGARI, sanscript.TAMIL])
+       output_stream=open(orig_tex_file, 'w'), languages=["sa", "ta"], scripts=[sanscript.DEVANAGARI, sanscript.TAMIL])
   else:
     with open(orig_tex_file) as orig_tex:
       with open(current_tex_output) as current_tex:

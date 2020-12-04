@@ -99,7 +99,7 @@ def day_summary(d, panchaanga, script):
   print("### %s" % (names.translate_or_transliterate(text="दिनमान-कालविभागाः", script=script)), file=output_stream)
   add_sun_moon_rise_info(daily_panchaanga, output_stream, script)
 
-  if panchaanga.computation_system.options.set_lagnas:
+  if panchaanga.computation_system.festival_options.set_lagnas:
     lagna_data_str = get_lagna_data_str(daily_panchaanga, script)
     print('- %s  ' % (lagna_data_str), file=output_stream)
 
@@ -212,7 +212,7 @@ def get_lagna_data_str(daily_panchaanga, script):
 
 def get_festivals_md(daily_panchaanga, panchaanga, languages, scripts):
   rules_collection = rules.RulesCollection.get_cached(
-    repos_tuple=tuple(panchaanga.computation_system.options.fest_repos))
+    repos_tuple=tuple(panchaanga.computation_system.festival_options.repos))
   fest_details_dict = rules_collection.name_to_rule
   output_stream = StringIO()
   for f in sorted(daily_panchaanga.festival_id_to_instance.values()):
