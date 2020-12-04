@@ -299,6 +299,15 @@ The preceptor, son of Mahādeva, who lived on the banks of river Vegavati, known
 - Tags: AmavasyaDays
 
 
+#### पार्वणोपवासः
+
+
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_1/offset__-1/pArvaNa-upavAsaH_30__info.toml)
+- Tags: ShannavatiTarpanaDays
+
+
 #### श्री-हनूमत्-जयन्ती
 
 Observed on Amāvāsyā tithi of Dhanuḥ (solar) month (sunrise (default)/puurvaviddha (default)).  
@@ -347,6 +356,16 @@ Observed on Pūrvāṣāḍhā nakshatra of Dhanuḥ (solar) month (Prātaḥ/pa
 ##### Details
 - [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatra/09/20/cAkkiya%20nAyan2Ar%20%2833%29%20gurupUjai__info.toml)
 - Tags: NayanarGurupujai
+
+
+#### स्थालीपाकः
+
+Observed on Śukla-Prathamā tithi of every lunar month (Pūrvāhṇaḥ/puurvaviddha).  
+
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/lunar_month/tithi/00/01/sthAlIpAkaH_1__info.toml)
+- Tags: MonthlyFestivals
 
 
 
@@ -1085,6 +1104,15 @@ Son of Śivayya of Śrīśaila, known as Manganna, held that position by his dir
 - Tags: TamilnaduTempleFestivals
 
 
+#### पार्वणोपवासः
+
+
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_16/offset__-1/pArvaNa-upavAsaH_15__info.toml)
+- Tags: ShannavatiTarpanaDays
+
+
 #### तैप्पूचम्
 
 Observed on Puṣyaḥ nakshatra of Makaraḥ (solar) month (Rātrimānam/puurvaviddha).  
@@ -1172,6 +1200,16 @@ Observed on Paurṇamāsī tithi of every lunar month (Sūryodayaḥ/puurvaviddh
 
 ##### Details
 - [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/vaiShNava/lunar_month/tithi/00/15/pUrNimA~vratam__info.toml)
+- Tags: MonthlyFestivals
+
+
+#### स्थालीपाकः
+
+Observed on Kṛṣṇa-Prathamā tithi of every lunar month (Pūrvāhṇaḥ/puurvaviddha).  
+
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/lunar_month/tithi/00/16/sthAlIpAkaH_16__info.toml)
 - Tags: MonthlyFestivals
 
 
@@ -1907,6 +1945,15 @@ A rare combination of Pausha masa, Shravana nakshatra, Vyatipata yoga and Monday
 
 
 #### मौनि (पौष/मकर) अमावास्या (अलभ्यम्–पुष्कला)
+#### पार्वणोपवासः
+
+
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_1/offset__-1/pArvaNa-upavAsaH_30__info.toml)
+- Tags: ShannavatiTarpanaDays
+
+
 #### सोमवती अमावास्या
 
 अमावास्या on a Monday is as sacred as a solar eclipse. Particularly good for performing pradakshinam of Pippala tree.
@@ -1996,6 +2043,16 @@ ___________________
 ___________________
 
 ### उत्सवाः
+#### स्थालीपाकः
+
+Observed on Śukla-Prathamā tithi of every lunar month (Pūrvāhṇaḥ/puurvaviddha).  
+
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/lunar_month/tithi/00/01/sthAlIpAkaH_1__info.toml)
+- Tags: MonthlyFestivals
+
+
 #### श्यामळानवरात्र-आरम्भः
 
 Observed on Śukla-Prathamā tithi of Māghaḥ (lunar) month (sunrise (default)/puurvaviddha (default)).  
@@ -2526,6 +2583,16 @@ Bhishma obtained mukti on this day; offer tarpana to Bhishma (even those with pa
 - Tags: RareDays Combinations
 
 
+#### कृत्तिका-व्रतम्
+
+Observed on Kṛttikā nakshatra of every solar month (Sūryāstamayaḥ/puurvaviddha (default)).  
+कृत्तिका-व्रतम् for Lord Subrahmanya. Observe fast for the entire day, and obtain blessings of all the कृत्तिका-स्त्रियः who raised स्कन्द after His birth.
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/kaumAra/sidereal_solar_month/nakshatra/00/03/kRttikA-vratam__info.toml)
+- Tags: SpecialVratam
+
+
 #### खोडियार-माता-जयन्ती
 
 Observed on Śukla-Aṣṭamī tithi of Māghaḥ (lunar) month (sunrise (default)/puurvaviddha (default)).  
@@ -2635,6 +2702,16 @@ Brahmaikyam of Madhvacharya
 ##### Details
 - [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/temples/Tamil/relative_event/tiruccendUr%20mAcit%20tiruvizhA%20nir2aivu/offset__-5/tiruccendUr%20murugan2%20mAcit%20tiruvizhA%20%23%237%23%23m%20nAL%E2%80%94urugu%20cattac%20cEvai%20or%20cigappu%20cAtti%20alaGkAram__info.toml)
 - Tags: TamilnaduTempleFestivals
+
+
+#### वैधृति-श्राद्धम्
+
+Observed on Vaidhṛtiḥ yoga of every solar month (Aparāhṇaḥ/vyaapti).  
+Vaidhrti Shraddha day.
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/pitR/sidereal_solar_month/yoga/00/27/vaidhRti-zrAddham__info.toml)
+- Tags: MonthlyShraddhaDays ShannavatiTarpanaDays
 
 
 #### श्यामळानवरात्र-समापनम्
@@ -2988,6 +3065,15 @@ Perform snana four ghatikas before sunrise (during अरुणॊदयः, whe
 - Tags: SpecialSnanam
 
 
+#### पार्वणोपवासः
+
+
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_16/offset__-1/pArvaNa-upavAsaH_15__info.toml)
+- Tags: ShannavatiTarpanaDays
+
+
 #### पूर्णिमा-व्रतम्
 
 Observed on Paurṇamāsī tithi of every lunar month (Sūryodayaḥ/puurvaviddha (default)).  
@@ -3086,6 +3172,16 @@ Observed on Maghā nakshatra of Kumbhaḥ (solar) month (sunrise (default)/puurv
 ##### Details
 - [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/temples/Tamil/sidereal_solar_month/nakshatra/11/10/mAci~magham__info.toml)
 - Tags: TamilnaduTempleFestivals CommonFestivals
+
+
+#### स्थालीपाकः
+
+Observed on Kṛṣṇa-Prathamā tithi of every lunar month (Pūrvāhṇaḥ/puurvaviddha).  
+
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/lunar_month/tithi/00/16/sthAlIpAkaH_16__info.toml)
+- Tags: MonthlyFestivals
 
 
 
@@ -3775,6 +3871,15 @@ Observed on Amāvāsyā tithi of Māghaḥ (lunar) month (sunrise (default)/puur
 - Tags: SpecialSnanam
 
 
+#### पार्वणोपवासः
+
+
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_1/offset__-1/pArvaNa-upavAsaH_30__info.toml)
+- Tags: ShannavatiTarpanaDays
+
+
 #### पुरन्दरदास-आराधना #४५५
 
 Observed on Amāvāsyā tithi of Māghaḥ (lunar) month (sunrise (default)/puurvaviddha (default)).  
@@ -3859,6 +3964,16 @@ Observed on Śukla-Prathamā tithi of Phālgunaḥ (lunar) month (sunrise (defau
 ##### Details
 - [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/12/01/payOvrata-ArambhaH__info.toml)
 - Tags: VratamStart SpecialPeriodStart
+
+
+#### स्थालीपाकः
+
+Observed on Śukla-Prathamā tithi of every lunar month (Pūrvāhṇaḥ/puurvaviddha).  
+
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/lunar_month/tithi/00/01/sthAlIpAkaH_1__info.toml)
+- Tags: MonthlyFestivals
 
 
 
@@ -4622,6 +4737,15 @@ Observed on Paurṇamāsī tithi of Phālgunaḥ (lunar) month (Aparāhṇaḥ/v
 - Tags: ManvadiDays
 
 
+#### पार्वणोपवासः
+
+
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_16/offset__-1/pArvaNa-upavAsaH_15__info.toml)
+- Tags: ShannavatiTarpanaDays
+
+
 #### वेङ्कटाचले पूर्णिमा-गरुड-सेवा
 
 Observed on Paurṇamāsī tithi of every lunar month (Chandrodayaḥ/puurvaviddha (default)).  
@@ -4728,6 +4852,16 @@ Observed on Uttaraphalgunī nakshatra of Mīnaḥ (solar) month (Prātaḥ/parav
 ##### Details
 - [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/temples/Tamil/sidereal_solar_month/nakshatra/12/12/paGgun2i~uttiram__info.toml)
 - Tags: TamilnaduTempleFestivals CommonFestivals
+
+
+#### स्थालीपाकः
+
+Observed on Kṛṣṇa-Prathamā tithi of every lunar month (Pūrvāhṇaḥ/puurvaviddha).  
+
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/lunar_month/tithi/00/16/sthAlIpAkaH_16__info.toml)
+- Tags: MonthlyFestivals
 
 
 #### विषुवदिनम्
@@ -5429,6 +5563,15 @@ When Revati nakshatra falls on a Friday, it is a special पुण्यका�
 - Tags: RareDays Combinations
 
 
+#### पार्वणोपवासः
+
+
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_1/offset__-1/pArvaNa-upavAsaH_30__info.toml)
+- Tags: ShannavatiTarpanaDays
+
+
 
 ## 2019-04-06◢◣चैत्रः-01-01,मीनः-रेवती🌛🌌◢◣मीनः-रेवती-12-23🌌🌞◢◣मधुः-01-17🪐🌞
 ___________________
@@ -5545,6 +5688,16 @@ He, as per the suggestions of the Sāyaṇa Mādhava, having commissioned the ei
 ##### Details
 - [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/01/01/kAJcI%2052%20jagadguru%20zrI~zaGkarAnandEndra%20sarasvatI%20ArAdhanA__info.toml)
 - Tags: KanchiAradhanaDays
+
+
+#### स्थालीपाकः
+
+Observed on Śukla-Prathamā tithi of every lunar month (Pūrvāhṇaḥ/puurvaviddha).  
+
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/lunar_month/tithi/00/01/sthAlIpAkaH_1__info.toml)
+- Tags: MonthlyFestivals
 
 
 #### वैधृति-श्राद्धम्
@@ -6505,6 +6658,15 @@ Observed on Paurṇamāsī tithi of Caitraḥ (lunar) month (Aparāhṇaḥ/vyaa
 - Tags: ManvadiDays
 
 
+#### पार्वणोपवासः
+
+
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_16/offset__-1/pArvaNa-upavAsaH_15__info.toml)
+- Tags: ShannavatiTarpanaDays
+
+
 #### पूर्णिमा-व्रतम्
 
 Observed on Paurṇamāsī tithi of every lunar month (Sūryodayaḥ/puurvaviddha (default)).  
@@ -6576,6 +6738,16 @@ Then, son of Paraśurāma on the banks of river Vaśiṣṭha, well-versed in sc
 ##### Details
 - [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/01/17/kAJcI%2060%20jagadguru%20zrI~advaitAtmaprakAzEndra%20sarasvatI%20ArAdhanA__info.toml)
 - Tags: KanchiAradhanaDays
+
+
+#### स्थालीपाकः
+
+Observed on Kṛṣṇa-Prathamā tithi of every lunar month (Pūrvāhṇaḥ/puurvaviddha).  
+
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/lunar_month/tithi/00/16/sthAlIpAkaH_16__info.toml)
+- Tags: MonthlyFestivals
 
 
 #### तिरुक्कुऱिप्पुत् तॊण्ड नायऩार् (१८) गुरुपूजै
@@ -7269,6 +7441,15 @@ The event has been commemorated since it occurred in 4267 (kali era).
 - Tags: KanchiAradhanaDays
 
 
+#### पार्वणोपवासः
+
+
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_1/offset__-1/pArvaNa-upavAsaH_30__info.toml)
+- Tags: ShannavatiTarpanaDays
+
+
 #### वह्नि-व्रतम्
 
 Observed on Amāvāsyā tithi of Caitraḥ (lunar) month (sunrise (default)/puurvaviddha (default)).  
@@ -7349,6 +7530,16 @@ Observed on Śukla-Prathamā tithi of Vaiśākhaḥ (lunar) month (sunrise (defa
 ##### Details
 - [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/RShi/lunar_month/tithi/02/01/parAzara~maharSi~jayantI__info.toml)
 - Tags: MahapurushaEvents
+
+
+#### स्थालीपाकः
+
+Observed on Śukla-Prathamā tithi of every lunar month (Pūrvāhṇaḥ/puurvaviddha).  
+
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/lunar_month/tithi/00/01/sthAlIpAkaH_1__info.toml)
+- Tags: MonthlyFestivals
 
 
 #### वैशाख-मास-आरम्भः
@@ -8292,6 +8483,16 @@ Monday Swati?
 - Tags: Dashavataram CommonFestivals
 
 
+#### व्यतीपात-श्राद्धम्
+
+Observed on Vyatīpātaḥ yoga of every solar month (Aparāhṇaḥ/vyaapti).  
+Vyatipata Shraddha day.
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/pitR/sidereal_solar_month/yoga/00/17/vyatIpAta-zrAddham__info.toml)
+- Tags: MonthlyShraddhaDays ShannavatiTarpanaDays
+
+
 
 ## 2019-05-18◢◣वैशाखः-02-15,तुला-विशाखा🌛🌌◢◣वृषभः-कृत्तिका-02-04🌌🌞◢◣माधवः-02-29🪐🌞
 ___________________
@@ -8374,6 +8575,15 @@ Observed on Viśākhā nakshatra of Vṛṣabhaḥ (solar) month (Prātaḥ/para
 ##### Details
 - [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/ALvAr/sidereal_solar_month/nakshatra/02/16/nammAzhvAr%20tirunakSattiram__info.toml)
 - Tags: MahapurushaEvents AzhwarJayanti
+
+
+#### पार्वणोपवासः
+
+
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_16/offset__-1/pArvaNa-upavAsaH_15__info.toml)
+- Tags: ShannavatiTarpanaDays
 
 
 #### पूर्णिमा-व्रतम्
@@ -8483,6 +8693,16 @@ The event has been commemorated since it occurred in 4995 (kali era).
 ##### Details
 - [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/sidereal_solar_month/nakshatra/02/17/kAJcI%20jagadguru%20zrI~candrazEkharEndra%20sarasvatI%207%20jayantI__info.toml)
 - Tags: MahapurushaEvents CommonFestivals
+
+
+#### स्थालीपाकः
+
+Observed on Kṛṣṇa-Prathamā tithi of every lunar month (Pūrvāhṇaḥ/puurvaviddha).  
+
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/lunar_month/tithi/00/16/sthAlIpAkaH_16__info.toml)
+- Tags: MonthlyFestivals
 
 
 
@@ -9240,6 +9460,15 @@ ___________________
 ___________________
 
 ### उत्सवाः
+#### पार्वणोपवासः
+
+
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_1/offset__-1/pArvaNa-upavAsaH_30__info.toml)
+- Tags: ShannavatiTarpanaDays
+
+
 #### सोमवती अमावास्या
 
 अमावास्या on a Monday is as sacred as a solar eclipse. Particularly good for performing pradakshinam of Pippala tree.
@@ -9397,6 +9626,16 @@ Observed on Śukla-Prathamā tithi of Jyaiṣṭhaḥ (lunar) month (sunrise (de
 ##### Details
 - [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/umA/lunar_month/tithi/03/01/punnAga-gaurI-vratam__info.toml)
 - Tags: SpecialVratam
+
+
+#### स्थालीपाकः
+
+Observed on Śukla-Prathamā tithi of every lunar month (Pūrvāhṇaḥ/puurvaviddha).  
+
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/lunar_month/tithi/00/01/sthAlIpAkaH_1__info.toml)
+- Tags: MonthlyFestivals
 
 
 #### शृङ्गेरी ३२ जगद्गुरु श्री-नृसिंह भारती आराधना
@@ -10476,6 +10715,15 @@ Observed on Paurṇamāsī tithi of Jyaiṣṭhaḥ (lunar) month (sunrise (defa
 - Tags: MahapurushaEvents
 
 
+#### पार्वणोपवासः
+
+
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_16/offset__-1/pArvaNa-upavAsaH_15__info.toml)
+- Tags: ShannavatiTarpanaDays
+
+
 #### पूर्णिमा-व्रतम्
 
 Observed on Paurṇamāsī tithi of every lunar month (Sūryodayaḥ/puurvaviddha (default)).  
@@ -10537,6 +10785,18 @@ ___________________
 ___________________
 - **शूलम्**—उदीची दिक् (►10:53); **परिहारः**–क्षीरम्  
 ___________________
+
+### उत्सवाः
+#### स्थालीपाकः
+
+Observed on Kṛṣṇa-Prathamā tithi of every lunar month (Pūrvāhṇaḥ/puurvaviddha).  
+
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/lunar_month/tithi/00/16/sthAlIpAkaH_16__info.toml)
+- Tags: MonthlyFestivals
+
+
 
 ## 2019-06-19◢◣ज्यैष्ठः-03-17,धनुः-पूर्वाषाढा🌛🌌◢◣मिथुनम्-मृगशीर्षम्-03-05🌌🌞◢◣शुक्रः-03-30🪐🌞
 ___________________
@@ -10639,6 +10899,16 @@ ___________________
 ___________________
 
 ### उत्सवाः
+#### वैधृति-श्राद्धम्
+
+Observed on Vaidhṛtiḥ yoga of every solar month (Aparāhṇaḥ/vyaapti).  
+Vaidhrti Shraddha day.
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/pitR/sidereal_solar_month/yoga/00/27/vaidhRti-zrAddham__info.toml)
+- Tags: MonthlyShraddhaDays ShannavatiTarpanaDays
+
+
 #### श्रवण-व्रतम्
 
 Observed on Śravaṇaḥ nakshatra of every solar month (Sāṅgavaḥ/puurvaviddha (default)).  
@@ -11157,6 +11427,15 @@ Observed on Amāvāsyā tithi of Jyaiṣṭhaḥ (lunar) month (sunrise (default
 - Tags: AmavasyaDays
 
 
+#### पार्वणोपवासः
+
+
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_1/offset__-1/pArvaNa-upavAsaH_30__info.toml)
+- Tags: ShannavatiTarpanaDays
+
+
 
 ## 2019-07-03◢◣आषाढः-04-01,मिथुनम्-आर्द्रा🌛🌌◢◣मिथुनम्-आर्द्रा-03-19🌌🌞◢◣शुचिः-04-12🪐🌞
 ___________________
@@ -11218,6 +11497,16 @@ The noble son of Śrīkṛṣṇa of Śrīmuṣṇa by name Śivasāmbha who wen
 ##### Details
 - [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/04/01/kAJcI%2025%20jagadguru%20zrI~saccidAnandaghanEndra%20sarasvatI%20ArAdhanA__info.toml)
 - Tags: KanchiAradhanaDays
+
+
+#### स्थालीपाकः
+
+Observed on Śukla-Prathamā tithi of every lunar month (Pūrvāhṇaḥ/puurvaviddha).  
+
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/lunar_month/tithi/00/01/sthAlIpAkaH_1__info.toml)
+- Tags: MonthlyFestivals
 
 
 #### वाराही-नवरात्र-आरम्भः
@@ -12191,6 +12480,15 @@ Observed on Paurṇamāsī tithi of Āṣāḍhaḥ (lunar) month (Aparāhṇa�
 - Tags: ManvadiDays
 
 
+#### पार्वणोपवासः
+
+
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_16/offset__-1/pArvaNa-upavAsaH_15__info.toml)
+- Tags: ShannavatiTarpanaDays
+
+
 #### पूर्णिमा-व्रतम्
 
 Observed on Paurṇamāsī tithi of every lunar month (Sūryodayaḥ/puurvaviddha (default)).  
@@ -12313,6 +12611,16 @@ Do not take bath in any river during these days.
 - Tags: CommonFestivals
 
 
+#### स्थालीपाकः
+
+Observed on Kṛṣṇa-Prathamā tithi of every lunar month (Pūrvāhṇaḥ/puurvaviddha).  
+
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/lunar_month/tithi/00/16/sthAlIpAkaH_16__info.toml)
+- Tags: MonthlyFestivals
+
+
 
 ## 2019-07-18◢◣आषाढः-04-17,मकरः-श्रवणः🌛🌌◢◣कटकः-पुनर्वसुः-04-02🌌🌞◢◣शुचिः-04-27🪐🌞
 ___________________
@@ -12376,6 +12684,16 @@ Do not take bath in any river during these days.
 ##### Details
 - [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/nadI/sidereal_solar_month/day/04/02/sarvanadI-rajasvalA~2__info.toml)
 - Tags: CommonFestivals
+
+
+#### श्रवण-व्रतम्
+
+Observed on Śravaṇaḥ nakshatra of every solar month (Sāṅgavaḥ/puurvaviddha (default)).  
+
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/general/sidereal_solar_month/nakshatra/00/22/zravaNa-vratam__info.toml)
+- Tags: SpecialVratam
 
 
 
@@ -12976,6 +13294,15 @@ He, Soma, initiated with the title Bodhendra by the preceptor Paraśivendra ador
 - Tags: KanchiAradhanaDays
 
 
+#### पार्वणोपवासः
+
+
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_1/offset__-1/pArvaNa-upavAsaH_30__info.toml)
+- Tags: ShannavatiTarpanaDays
+
+
 
 ## 2019-08-01◢◣आषाढः-04-30,कटकः-पुष्यः🌛🌌◢◣कटकः-पुष्यः-04-16🌌🌞◢◣नभः-05-10🪐🌞
 ___________________
@@ -13066,6 +13393,16 @@ Observed on Amāvāsyā tithi of Āṣāḍhaḥ (lunar) month (sunrise (default
 ##### Details
 - [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/04/30/pati-saJjIvanI-vratam__info.toml)
 - Tags: SpecialVratam
+
+
+#### स्थालीपाकः
+
+Observed on Śukla-Prathamā tithi of every lunar month (Pūrvāhṇaḥ/puurvaviddha).  
+
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/lunar_month/tithi/00/01/sthAlIpAkaH_1__info.toml)
+- Tags: MonthlyFestivals
 
 
 #### व्यतीपात-श्राद्धम्
@@ -14059,6 +14396,15 @@ Offer coconut to sea God Varuna
 - Tags: DevataPuja
 
 
+#### पार्वणोपवासः
+
+
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_16/offset__-1/pArvaNa-upavAsaH_15__info.toml)
+- Tags: ShannavatiTarpanaDays
+
+
 #### पूर्णिमा-व्रतम्
 
 Observed on Paurṇamāsī tithi of every lunar month (Sūryodayaḥ/puurvaviddha (default)).  
@@ -14184,6 +14530,16 @@ The event has been commemorated since it occurred in 5036 (kali era).
 ##### Details
 - [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/sidereal_solar_month/nakshatra/04/23/kAJcI%20jagadguru%20zrI~jayEndra%20sarasvatI%20jayantI__info.toml)
 - Tags: MahapurushaEvents CommonFestivals
+
+
+#### स्थालीपाकः
+
+Observed on Kṛṣṇa-Prathamā tithi of every lunar month (Pūrvāhṇaḥ/puurvaviddha).  
+
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/lunar_month/tithi/00/16/sthAlIpAkaH_16__info.toml)
+- Tags: MonthlyFestivals
 
 
 
@@ -15110,6 +15466,15 @@ Observed on Maghā nakshatra of Siṃhaḥ (solar) month (Prātaḥ/paraviddha).
 - Tags: NayanarGurupujai
 
 
+#### पार्वणोपवासः
+
+
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_1/offset__-1/pArvaNa-upavAsaH_30__info.toml)
+- Tags: ShannavatiTarpanaDays
+
+
 #### तिरुच्चॆन्दूर् मुरुगऩ् आवणित् तिरुविऴा 7म् नाळ्—चिगप्पु चात्ति अलङ्कारम्
 
 
@@ -15190,6 +15555,16 @@ Observed on Śukla-Prathamā tithi of Bhādrapadaḥ (lunar) month (sunrise (def
 ##### Details
 - [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/06/01/mRgazIrSa-vratam__info.toml)
 - Tags: SpecialVratam
+
+
+#### स्थालीपाकः
+
+Observed on Śukla-Prathamā tithi of every lunar month (Pūrvāhṇaḥ/puurvaviddha).  
+
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/lunar_month/tithi/00/01/sthAlIpAkaH_1__info.toml)
+- Tags: MonthlyFestivals
 
 
 #### तिरुच्चॆन्दूर् मुरुगऩ् आवणित् तिरुविऴा 8म् नाळ्—पच्चै चात्ति अलङ्कारम्
@@ -16187,6 +16562,15 @@ This preceptor (Śrī Bhagavannāma Bodhendra) under the directions of Śrī Vi�
 - Tags: KanchiAradhanaDays
 
 
+#### पार्वणोपवासः
+
+
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_16/offset__-1/pArvaNa-upavAsaH_15__info.toml)
+- Tags: ShannavatiTarpanaDays
+
+
 #### वेङ्कटाचले पूर्णिमा-गरुड-सेवा
 
 Observed on Paurṇamāsī tithi of every lunar month (Chandrodayaḥ/puurvaviddha (default)).  
@@ -16254,6 +16638,16 @@ Observed on Paurṇamāsī tithi of every lunar month (Sūryodayaḥ/puurvaviddh
 
 ##### Details
 - [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/vaiShNava/lunar_month/tithi/00/15/pUrNimA~vratam__info.toml)
+- Tags: MonthlyFestivals
+
+
+#### स्थालीपाकः
+
+Observed on Kṛṣṇa-Prathamā tithi of every lunar month (Pūrvāhṇaḥ/puurvaviddha).  
+
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/lunar_month/tithi/00/16/sthAlIpAkaH_16__info.toml)
 - Tags: MonthlyFestivals
 
 
@@ -16559,6 +16953,16 @@ Observed on Kṛṣṇa-Ṣaṣṭhī tithi of Bhādrapadaḥ (lunar) month (Cha
 - Tags: SpecialPuja
 
 
+#### कृत्तिका-व्रतम्
+
+Observed on Kṛttikā nakshatra of every solar month (Sūryāstamayaḥ/puurvaviddha (default)).  
+कृत्तिका-व्रतम् for Lord Subrahmanya. Observe fast for the entire day, and obtain blessings of all the कृत्तिका-स्त्रियः who raised स्कन्द after His birth.
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/kaumAra/sidereal_solar_month/nakshatra/00/03/kRttikA-vratam__info.toml)
+- Tags: SpecialVratam
+
+
 #### नाग-पूजा
 
 Observed on Kṛṣṇa-Pañcamī tithi of Bhādrapadaḥ (lunar) month (sunrise (default)/puurvaviddha (default)).  
@@ -16795,6 +17199,17 @@ Observed on Kṛṣṇa-Aṣṭamī tithi of Bhādrapadaḥ (lunar) month (sunri
 ##### Details
 - [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/06/23/madhyASTamI__info.toml)
 - Tags: CommonFestivals
+
+
+#### महाव्यतीपात-श्राद्धम्
+#### व्यतीपात-श्राद्धम्
+
+Observed on Vyatīpātaḥ yoga of every solar month (Aparāhṇaḥ/vyaapti).  
+Vyatipata Shraddha day.
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/pitR/sidereal_solar_month/yoga/00/17/vyatIpAta-zrAddham__info.toml)
+- Tags: MonthlyShraddhaDays ShannavatiTarpanaDays
 
 
 
@@ -17145,6 +17560,15 @@ Observed on Amāvāsyā tithi of Bhādrapadaḥ (lunar) month (sunrise (default)
 - Tags: SpecialPeriodEnd CommonFestivals
 
 
+#### पार्वणोपवासः
+
+
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_1/offset__-1/pArvaNa-upavAsaH_30__info.toml)
+- Tags: ShannavatiTarpanaDays
+
+
 #### पुरट्टाचि-चऩिक्किऴमै
 
 Perform special puja and naivedyam (e.g. तिलान्नम्) to Lord Venkateshwara.
@@ -17259,6 +17683,16 @@ Observed on Śukla-Prathamā tithi of Āśvayujaḥ (lunar) month (sunrise (defa
 ##### Details
 - [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/umA/lunar_month/tithi/07/01/stanavRddhi-gaurI-vratam__info.toml)
 - Tags: SpecialVratam
+
+
+#### स्थालीपाकः
+
+Observed on Śukla-Prathamā tithi of every lunar month (Pūrvāhṇaḥ/puurvaviddha).  
+
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/lunar_month/tithi/00/01/sthAlIpAkaH_1__info.toml)
+- Tags: MonthlyFestivals
 
 
 #### शरन्नवरात्र-आरम्भः
@@ -18261,6 +18695,15 @@ The event has been commemorated since it occurred in 4599 (kali era).
 - Tags: MahapurushaEvents CommonFestivals
 
 
+#### पार्वणोपवासः
+
+
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_16/offset__-1/pArvaNa-upavAsaH_15__info.toml)
+- Tags: ShannavatiTarpanaDays
+
+
 #### पूर्णिमा-व्रतम्
 
 Observed on Paurṇamāsī tithi of every lunar month (Sūryodayaḥ/puurvaviddha (default)).  
@@ -18363,6 +18806,16 @@ Observed on Kṛṣṇa-Prathamā tithi of Āśvayujaḥ (lunar) month (Aparāh�
 ##### Details
 - [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/07/16/saptama-aparapakSa-ArambhaH__info.toml)
 - Tags: SpecialPeriodStart
+
+
+#### स्थालीपाकः
+
+Observed on Kṛṣṇa-Prathamā tithi of every lunar month (Pūrvāhṇaḥ/puurvaviddha).  
+
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/lunar_month/tithi/00/16/sthAlIpAkaH_16__info.toml)
+- Tags: MonthlyFestivals
 
 
 
@@ -19253,6 +19706,15 @@ Observed on Kṛṣṇa-Caturdaśī tithi of Āśvayujaḥ (lunar) month (sunris
 - Tags: CommonFestivals
 
 
+#### पार्वणोपवासः
+
+
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_1/offset__-1/pArvaNa-upavAsaH_30__info.toml)
+- Tags: ShannavatiTarpanaDays
+
+
 #### प्रेत-चतुर्दशी
 
 Observed on Kṛṣṇa-Caturdaśī tithi of Āśvayujaḥ (lunar) month (sunrise (default)/puurvaviddha (default)).  
@@ -19381,6 +19843,16 @@ Goddess Kamala is 10th of the Dasha Maha Vidyas.
 ##### Details
 - [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/time_focus/monthly/amAvAsyA/description_only/sOmavatI%20amAvAsyA__info.toml)
 - Tags: RareDays Combinations AmavasyaDays
+
+
+#### स्थालीपाकः
+
+Observed on Śukla-Prathamā tithi of every lunar month (Pūrvāhṇaḥ/puurvaviddha).  
+
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/lunar_month/tithi/00/01/sthAlIpAkaH_1__info.toml)
+- Tags: MonthlyFestivals
 
 
 #### विक्रमादित्य-पट्टाभिषेकः
@@ -20462,6 +20934,15 @@ Observed on Apabharaṇī nakshatra of Tulā (solar) month (Prātaḥ/paraviddha
 - Tags: NayanarGurupujai
 
 
+#### पार्वणोपवासः
+
+
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_16/offset__-1/pArvaNa-upavAsaH_15__info.toml)
+- Tags: ShannavatiTarpanaDays
+
+
 #### पूर्णिमा-व्रतम्
 
 Observed on Paurṇamāsī tithi of every lunar month (Sūryodayaḥ/puurvaviddha (default)).  
@@ -20572,6 +21053,16 @@ Observed on Kṛṣṇa-Prathamā tithi of Kārttikaḥ (lunar) month (Aparāh�
 ##### Details
 - [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/08/16/navama-aparapakSa-ArambhaH__info.toml)
 - Tags: SpecialPeriodStart
+
+
+#### स्थालीपाकः
+
+Observed on Kṛṣṇa-Prathamā tithi of every lunar month (Pūrvāhṇaḥ/puurvaviddha).  
+
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/lunar_month/tithi/00/16/sthAlIpAkaH_16__info.toml)
+- Tags: MonthlyFestivals
 
 
 
@@ -21378,6 +21869,15 @@ Observed on Amāvāsyā tithi of Kārttikaḥ (lunar) month (sunrise (default)/p
 - Tags: SpecialPeriodEnd
 
 
+#### पार्वणोपवासः
+
+
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_1/offset__-1/pArvaNa-upavAsaH_30__info.toml)
+- Tags: ShannavatiTarpanaDays
+
+
 #### तिरुविशलूर् गङ्गाकर्षण-महोत्सव-समापनम्
 
 Observed on Amāvāsyā tithi of Kārttikaḥ (lunar) month (Aparāhṇaḥ/puurvaviddha (default)).  
@@ -21446,6 +21946,16 @@ The austere preceptor Surendra after defeating boldly in debate the materialist 
 ##### Details
 - [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month/tithi/09/01/kAJcI%2018%20jagadguru%20zrI~yOgatilaka%20surEndra%20sarasvatI%20ArAdhanA__info.toml)
 - Tags: KanchiAradhanaDays
+
+
+#### स्थालीपाकः
+
+Observed on Śukla-Prathamā tithi of every lunar month (Pūrvāhṇaḥ/puurvaviddha).  
+
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/lunar_month/tithi/00/01/sthAlIpAkaH_1__info.toml)
+- Tags: MonthlyFestivals
 
 
 #### वनदुर्गानवरात्र-आरम्भः
@@ -22271,6 +22781,15 @@ Observed on Paurṇamāsī tithi of Mārgaśīrṣaḥ (lunar) month (Pradoṣa�
 - Tags: OtherAvatarams CommonFestivals
 
 
+#### पार्वणोपवासः
+
+
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_16/offset__-1/pArvaNa-upavAsaH_15__info.toml)
+- Tags: ShannavatiTarpanaDays
+
+
 #### सर्वालय-दीपम्
 
 Observed on Paurṇamāsī tithi of Vṛścikaḥ (solar) month (Rātrimānam/puurvaviddha).  
@@ -22403,6 +22922,16 @@ Offer final बलि to serpents on to this day, in the night after स्थ�
 ##### Details
 - [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/lunar_month/tithi/09/15/sarpa-bali-utsarjanam__info.toml)
 - Tags: LessCommonFestivals
+
+
+#### स्थालीपाकः
+
+Observed on Kṛṣṇa-Prathamā tithi of every lunar month (Pūrvāhṇaḥ/puurvaviddha).  
+
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/lunar_month/tithi/00/16/sthAlIpAkaH_16__info.toml)
+- Tags: MonthlyFestivals
 
 
 #### त्रिपुर-भैरवी-जयन्ती
@@ -22588,6 +23117,16 @@ Perform danam of clothes/vehicle (e.g. bullock cart).
 ##### Details
 - [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/time_focus/sankrAnti/sidereal_solar_month/day/09/01/SaDazIti-dhanurraviH__info.toml)
 - Tags: SunSankranti
+
+
+#### वैधृति-श्राद्धम्
+
+Observed on Vaidhṛtiḥ yoga of every solar month (Aparāhṇaḥ/vyaapti).  
+Vaidhrti Shraddha day.
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/pitR/sidereal_solar_month/yoga/00/27/vaidhRti-zrAddham__info.toml)
+- Tags: MonthlyShraddhaDays ShannavatiTarpanaDays
 
 
 
@@ -23091,6 +23630,15 @@ The preceptor, son of Mahādeva, who lived on the banks of river Vegavati, known
 - Tags: AmavasyaDays
 
 
+#### पार्वणोपवासः
+
+
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_1/offset__-1/pArvaNa-upavAsaH_30__info.toml)
+- Tags: ShannavatiTarpanaDays
+
+
 #### तॊण्डरडिप्पॊडियाऴ्वार् तिरुनक्षत्तिरम्
 
 Observed on Jyeṣṭhā nakshatra of Dhanuḥ (solar) month (Prātaḥ/paraviddha).  
@@ -23139,6 +23687,16 @@ ___________________
 ##### Details
 - [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/time_focus/Eclipses/description_only/sUrya-grahaNam__info.toml)
 - Tags: RareDays Eclipses
+
+
+#### स्थालीपाकः
+
+Observed on Śukla-Prathamā tithi of every lunar month (Pūrvāhṇaḥ/puurvaviddha).  
+
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/lunar_month/tithi/00/01/sthAlIpAkaH_1__info.toml)
+- Tags: MonthlyFestivals
 
 
 #### श्री-हनूमत्-जयन्ती

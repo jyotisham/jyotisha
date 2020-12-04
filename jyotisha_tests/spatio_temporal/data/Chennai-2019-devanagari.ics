@@ -402,6 +402,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:pārvaṇopavāsaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190104T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190105T235957
+DESCRIPTION:##### Details<br/>- [Edit config file](https://github.com/sans
+ krit-coders/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH
+ _1/offset__-1/pArvaNa-upavAsaH_30__info.toml)<br/>- Tags: ShannavatiTarpan
+ aDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:śrī-hanūmat-jayantī
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190104T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190105T235957
@@ -466,6 +482,23 @@ DESCRIPTION:Observed on Pūrvāṣāḍhā nakshatra of Dhanuḥ (solar) m
  fig file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApur
  uSha/nAyanAr/sidereal_solar_month/nakshatra/09/20/cAkkiya%20nAyan2Ar%20%28
  33%29%20gurupUjai__info.toml)<br/>- Tags: NayanarGurupujai
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sthālīpākaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190105T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190106T235957
+DESCRIPTION:Observed on Śukla-Prathamā tithi of every lunar month (Pūrv
+ āhṇaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit config
+  file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/gene
+ ral/lunar_month/tithi/00/01/sthAlIpAkaH_1__info.toml)<br/>- Tags: MonthlyF
+ estivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1546,6 +1579,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:pārvaṇopavāsaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190119T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190120T235957
+DESCRIPTION:##### Details<br/>- [Edit config file](https://github.com/sans
+ krit-coders/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH
+ _16/offset__-1/pArvaNa-upavAsaH_15__info.toml)<br/>- Tags: ShannavatiTarpa
+ naDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Taippūcham
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190119T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190120T235957
@@ -1683,6 +1732,23 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of every lunar month (Sūryod
  ](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/vaiShNav
  a/lunar_month/tithi/00/15/pUrNimA~vratam__info.toml)<br/>- Tags: MonthlyFe
  stivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sthālīpākaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190120T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190121T235957
+DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every lunar month (
+ Pūrvāhṇaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit c
+ onfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya
+ /general/lunar_month/tithi/00/16/sthAlIpAkaH_16__info.toml)<br/>- Tags: Mo
+ nthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2737,6 +2803,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:pārvaṇopavāsaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190203T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190204T235957
+DESCRIPTION:##### Details<br/>- [Edit config file](https://github.com/sans
+ krit-coders/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH
+ _1/offset__-1/pArvaNa-upavAsaH_30__info.toml)<br/>- Tags: ShannavatiTarpan
+ aDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:somavatī amāvāsyā
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190203T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190204T235957
@@ -2859,6 +2941,23 @@ DESCRIPTION:___________________\n- 🪐🌞**Ṛtumānam** — Śiśiraṛ
  9:30-10:56\; **Gulikakālaḥ**—12:22-13:49  \n___________________\n- **
  Śūlam**—Udīchī Dik (►11:14)\; **Parihāraḥ**–Kṣīram  \n____
  _______________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sthālīpākaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190204T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190205T235957
+DESCRIPTION:Observed on Śukla-Prathamā tithi of every lunar month (Pūrv
+ āhṇaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit config
+  file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/gene
+ ral/lunar_month/tithi/00/01/sthAlIpAkaH_1__info.toml)<br/>- Tags: MonthlyF
+ estivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3628,6 +3727,25 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:kṛttikā-vratam
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190212T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190213T235957
+DESCRIPTION:Observed on Kṛttikā nakshatra of every solar month (Sūryā
+ stamayaḥ/puurvaviddha (default)).  <br/>kṛttikā-vratam for Lord Subra
+ hmanya. Observe fast for the entire day\, and obtain blessings of all the 
+ kṛttikā-striyaḥ who raised skanda after His birth.<br/><br/>##### Det
+ ails<br/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi
+ /tree/master/devatA/kaumAra/sidereal_solar_month/nakshatra/00/03/kRttikA-v
+ ratam__info.toml)<br/>- Tags: SpecialVratam
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:khoḍiyāra-mātā-jayantī
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190212T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190213T235957
@@ -3771,6 +3889,23 @@ DESCRIPTION:##### Details<br/>- [Edit config file](https://github.com/sans
  20tiruvizhA%20%23%237%23%23m%20nAL%E2%80%94urugu%20cattac%20cEvai%20or%20c
  igappu%20cAtti%20alaGkAram__info.toml)<br/>- Tags: TamilnaduTempleFestival
  s
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:vaidhṛti-śrāddham
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190213T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190214T235957
+DESCRIPTION:Observed on Vaidhṛtiḥ yoga of every solar month (Aparāh
+ ṇaḥ/vyaapti).  <br/>Vaidhrti Shraddha day.<br/><br/>##### Details<br/>
+ - [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/mas
+ ter/devatA/pitR/sidereal_solar_month/yoga/00/27/vaidhRti-zrAddham__info.to
+ ml)<br/>- Tags: MonthlyShraddhaDays ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4345,6 +4480,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:pārvaṇopavāsaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190218T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190219T235957
+DESCRIPTION:##### Details<br/>- [Edit config file](https://github.com/sans
+ krit-coders/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH
+ _16/offset__-1/pArvaNa-upavAsaH_15__info.toml)<br/>- Tags: ShannavatiTarpa
+ naDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:pūrṇimā-vratam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190218T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190219T235957
@@ -4469,6 +4620,23 @@ DESCRIPTION:Observed on Maghā nakshatra of Kumbhaḥ (solar) month (sunri
  [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/maste
  r/temples/Tamil/sidereal_solar_month/nakshatra/11/10/mAci~magham__info.tom
  l)<br/>- Tags: TamilnaduTempleFestivals CommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sthālīpākaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190219T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190220T235957
+DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every lunar month (
+ Pūrvāhṇaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit c
+ onfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya
+ /general/lunar_month/tithi/00/16/sthAlIpAkaH_16__info.toml)<br/>- Tags: Mo
+ nthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5479,6 +5647,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:pārvaṇopavāsaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190305T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190306T235957
+DESCRIPTION:##### Details<br/>- [Edit config file](https://github.com/sans
+ krit-coders/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH
+ _1/offset__-1/pArvaNa-upavAsaH_30__info.toml)<br/>- Tags: ShannavatiTarpan
+ aDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:purandaradāsa-ārādhanā
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190305T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190306T235957
@@ -5570,6 +5754,23 @@ DESCRIPTION:Observed on Śukla-Prathamā tithi of Phālgunaḥ (lunar) mon
  br/><br/><br/><br/>##### Details<br/>- [Edit config file](https://github.c
  om/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/12/01/p
  ayOvrata-ArambhaH__info.toml)<br/>- Tags: VratamStart SpecialPeriodStart
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sthālīpākaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190306T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190307T235957
+DESCRIPTION:Observed on Śukla-Prathamā tithi of every lunar month (Pūrv
+ āhṇaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit config
+  file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/gene
+ ral/lunar_month/tithi/00/01/sthAlIpAkaH_1__info.toml)<br/>- Tags: MonthlyF
+ estivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6741,6 +6942,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:pārvaṇopavāsaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190319T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190320T235957
+DESCRIPTION:##### Details<br/>- [Edit config file](https://github.com/sans
+ krit-coders/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH
+ _16/offset__-1/pArvaNa-upavAsaH_15__info.toml)<br/>- Tags: ShannavatiTarpa
+ naDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:veṅkaṭācale pūrṇimā-garuḍa-sevā
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190319T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190320T235957
@@ -6924,6 +7141,23 @@ DESCRIPTION:Observed on Uttaraphalgunī nakshatra of Mīnaḥ (solar) mont
   file](https://github.com/sanskrit-coders/adyatithi/tree/master/temples/Ta
  mil/sidereal_solar_month/nakshatra/12/12/paGgun2i~uttiram__info.toml)<br/>
  - Tags: TamilnaduTempleFestivals CommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sthālīpākaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190320T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190321T235957
+DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every lunar month (
+ Pūrvāhṇaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit c
+ onfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya
+ /general/lunar_month/tithi/00/16/sthAlIpAkaH_16__info.toml)<br/>- Tags: Mo
+ nthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -7942,6 +8176,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:pārvaṇopavāsaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190404T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190405T235957
+DESCRIPTION:##### Details<br/>- [Edit config file](https://github.com/sans
+ krit-coders/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH
+ _1/offset__-1/pArvaNa-upavAsaH_30__info.toml)<br/>- Tags: ShannavatiTarpan
+ aDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Caitraḥ-01-01\,Mīnaḥ-Revatī🌛🌌◢◣Mīnaḥ-Revatī-12
  -23🌌🌞◢◣Madhuḥ-01-17🪐🌞
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190406T060542
@@ -8055,6 +8305,23 @@ DESCRIPTION:##### Details<br/>- [Edit config file](https://github.com/sans
  uSha/kAnchI-maTha/lunar_month/tithi/01/01/kAJcI%2052%20jagadguru%20zrI~zaG
  karAnandEndra%20sarasvatI%20ArAdhanA__info.toml)<br/>- Tags: KanchiAradhan
  aDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sthālīpākaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190405T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190406T235957
+DESCRIPTION:Observed on Śukla-Prathamā tithi of every lunar month (Pūrv
+ āhṇaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit config
+  file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/gene
+ ral/lunar_month/tithi/00/01/sthAlIpAkaH_1__info.toml)<br/>- Tags: MonthlyF
+ estivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9553,6 +9820,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:pārvaṇopavāsaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190418T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190419T235957
+DESCRIPTION:##### Details<br/>- [Edit config file](https://github.com/sans
+ krit-coders/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH
+ _16/offset__-1/pArvaNa-upavAsaH_15__info.toml)<br/>- Tags: ShannavatiTarpa
+ naDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:pūrṇimā-vratam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190418T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190419T235957
@@ -9641,6 +9924,23 @@ DESCRIPTION:##### Details<br/>- [Edit config file](https://github.com/sans
  hApuruSha/kAnchI-maTha/lunar_month/tithi/01/17/kAJcI%2060%20jagadguru%20zr
  I~advaitAtmaprakAzEndra%20sarasvatI%20ArAdhanA__info.toml)<br/>- Tags: Kan
  chiAradhanaDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sthālīpākaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190419T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190420T235957
+DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every lunar month (
+ Pūrvāhṇaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit c
+ onfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya
+ /general/lunar_month/tithi/00/16/sthAlIpAkaH_16__info.toml)<br/>- Tags: Mo
+ nthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10600,6 +10900,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:pārvaṇopavāsaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190503T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190504T235957
+DESCRIPTION:##### Details<br/>- [Edit config file](https://github.com/sans
+ krit-coders/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH
+ _1/offset__-1/pArvaNa-upavAsaH_30__info.toml)<br/>- Tags: ShannavatiTarpan
+ aDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:vahni-vratam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190503T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190504T235957
@@ -10716,6 +11032,23 @@ DESCRIPTION:Observed on Śukla-Prathamā tithi of Vaiśākhaḥ (lunar) mo
  br/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree
  /master/mahApuruSha/RShi/lunar_month/tithi/02/01/parAzara~maharSi~jayantI_
  _info.toml)<br/>- Tags: MahapurushaEvents
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sthālīpākaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190504T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190505T235957
+DESCRIPTION:Observed on Śukla-Prathamā tithi of every lunar month (Pūrv
+ āhṇaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit config
+  file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/gene
+ ral/lunar_month/tithi/00/01/sthAlIpAkaH_1__info.toml)<br/>- Tags: MonthlyF
+ estivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12051,6 +12384,23 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:vyatīpāta-śrāddham
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190516T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190517T235957
+DESCRIPTION:Observed on Vyatīpātaḥ yoga of every solar month (Aparāh
+ ṇaḥ/vyaapti).  <br/>Vyatipata Shraddha day.<br/><br/>##### Details<br/
+ >- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/ma
+ ster/devatA/pitR/sidereal_solar_month/yoga/00/17/vyatIpAta-zrAddham__info.
+ toml)<br/>- Tags: MonthlyShraddhaDays ShannavatiTarpanaDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Vaiśākhaḥ-02-15\,Tulā-Viśākhā🌛🌌◢◣Vṛṣabhaḥ-
  Kṛttikā-02-04🌌🌞◢◣Mādhavaḥ-02-29🪐🌞
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190518T054633
@@ -12172,6 +12522,22 @@ DESCRIPTION:Observed on Viśākhā nakshatra of Vṛṣabhaḥ (solar) mon
  g file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruS
  ha/ALvAr/sidereal_solar_month/nakshatra/02/16/nammAzhvAr%20tirunakSattiram
  __info.toml)<br/>- Tags: MahapurushaEvents AzhwarJayanti
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:pārvaṇopavāsaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190517T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190518T235957
+DESCRIPTION:##### Details<br/>- [Edit config file](https://github.com/sans
+ krit-coders/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH
+ _16/offset__-1/pArvaNa-upavAsaH_15__info.toml)<br/>- Tags: ShannavatiTarpa
+ naDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12339,6 +12705,23 @@ DESCRIPTION:Observed on Anūrādhā nakshatra of Vṛṣabhaḥ (solar) mo
  ruSha/kAnchI-maTha/sidereal_solar_month/nakshatra/02/17/kAJcI%20jagadguru%
  20zrI~candrazEkharEndra%20sarasvatI%207%20jayantI__info.toml)<br/>- Tags: 
  MahapurushaEvents CommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sthālīpākaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190518T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190519T235957
+DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every lunar month (
+ Pūrvāhṇaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit c
+ onfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya
+ /general/lunar_month/tithi/00/16/sthAlIpAkaH_16__info.toml)<br/>- Tags: Mo
+ nthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13406,6 +13789,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:pārvaṇopavāsaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190602T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190603T235957
+DESCRIPTION:##### Details<br/>- [Edit config file](https://github.com/sans
+ krit-coders/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH
+ _1/offset__-1/pArvaNa-upavAsaH_30__info.toml)<br/>- Tags: ShannavatiTarpan
+ aDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:somavatī amāvāsyā
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190602T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190603T235957
@@ -13632,6 +14031,23 @@ DESCRIPTION:Observed on Śukla-Prathamā tithi of Jyaiṣṭhaḥ (lunar)
  tails<br/>- [Edit config file](https://github.com/sanskrit-coders/adyatith
  i/tree/master/devatA/umA/lunar_month/tithi/03/01/punnAga-gaurI-vratam__inf
  o.toml)<br/>- Tags: SpecialVratam
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sthālīpākaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190603T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190604T235957
+DESCRIPTION:Observed on Śukla-Prathamā tithi of every lunar month (Pūrv
+ āhṇaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit config
+  file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/gene
+ ral/lunar_month/tithi/00/01/sthAlIpAkaH_1__info.toml)<br/>- Tags: MonthlyF
+ estivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15117,6 +15533,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:pārvaṇopavāsaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190616T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190617T235957
+DESCRIPTION:##### Details<br/>- [Edit config file](https://github.com/sans
+ krit-coders/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH
+ _16/offset__-1/pArvaNa-upavAsaH_15__info.toml)<br/>- Tags: ShannavatiTarpa
+ naDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:pūrṇimā-vratam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190616T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190617T235957
@@ -15203,6 +15635,23 @@ DESCRIPTION:___________________\n- 🪐🌞**Ṛtumānam** — Grīṣma
  ; **Yamaghaṇṭaḥ**—08:58-10:34\; **Gulikakālaḥ**—12:10-13:45  
  \n___________________\n- **Śūlam**—Udīchī Dik (►10:53)\; **Parihā
  raḥ**–Kṣīram  \n___________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sthālīpākaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190617T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190618T235957
+DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every lunar month (
+ Pūrvāhṇaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit c
+ onfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya
+ /general/lunar_month/tithi/00/16/sthAlIpAkaH_16__info.toml)<br/>- Tags: Mo
+ nthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15342,6 +15791,23 @@ DESCRIPTION:___________________\n- 🪐🌞**Ṛtumānam** — Grīṣma
  —10:34-12:10\; **Yamaghaṇṭaḥ**—15:22-16:58\; **Gulikakālaḥ**
  —07:23-08:59  \n___________________\n- **Śūlam**—Pratīchī Dik (►
  10:53)\; **Parihāraḥ**–Guḍam  \n___________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:vaidhṛti-śrāddham
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190620T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190621T235957
+DESCRIPTION:Observed on Vaidhṛtiḥ yoga of every solar month (Aparāh
+ ṇaḥ/vyaapti).  <br/>Vaidhrti Shraddha day.<br/><br/>##### Details<br/>
+ - [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/mas
+ ter/devatA/pitR/sidereal_solar_month/yoga/00/27/vaidhRti-zrAddham__info.to
+ ml)<br/>- Tags: MonthlyShraddhaDays ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -16138,6 +16604,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:pārvaṇopavāsaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190701T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190702T235957
+DESCRIPTION:##### Details<br/>- [Edit config file](https://github.com/sans
+ krit-coders/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH
+ _1/offset__-1/pArvaNa-upavAsaH_30__info.toml)<br/>- Tags: ShannavatiTarpan
+ aDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Āṣāḍhaḥ-04-01\,Mithunam-Ārdrā🌛🌌◢◣Mithunam-Ārd
  rā-03-19🌌🌞◢◣Śuciḥ-04-12🪐🌞
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190703T055026
@@ -16206,6 +16688,23 @@ DESCRIPTION:##### Details<br/>- [Edit config file](https://github.com/sans
  hApuruSha/kAnchI-maTha/lunar_month/tithi/04/01/kAJcI%2025%20jagadguru%20zr
  I~saccidAnandaghanEndra%20sarasvatI%20ArAdhanA__info.toml)<br/>- Tags: Kan
  chiAradhanaDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sthālīpākaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190702T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190703T235957
+DESCRIPTION:Observed on Śukla-Prathamā tithi of every lunar month (Pūrv
+ āhṇaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit config
+  file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/gene
+ ral/lunar_month/tithi/00/01/sthAlIpAkaH_1__info.toml)<br/>- Tags: MonthlyF
+ estivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17585,6 +18084,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:pārvaṇopavāsaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190715T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190716T235957
+DESCRIPTION:##### Details<br/>- [Edit config file](https://github.com/sans
+ krit-coders/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH
+ _16/offset__-1/pArvaNa-upavAsaH_15__info.toml)<br/>- Tags: ShannavatiTarpa
+ naDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:pūrṇimā-vratam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190715T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190716T235957
@@ -17770,6 +18285,23 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:sthālīpākaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190716T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190717T235957
+DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every lunar month (
+ Pūrvāhṇaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit c
+ onfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya
+ /general/lunar_month/tithi/00/16/sthAlIpAkaH_16__info.toml)<br/>- Tags: Mo
+ nthlyFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Āṣāḍhaḥ-04-17\,Makaraḥ-Śravaṇaḥ🌛🌌◢◣Kaṭa
  kaḥ-Punarvasuḥ-04-02🌌🌞◢◣Śuciḥ-04-27🪐🌞
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190718T055428
@@ -17855,6 +18387,23 @@ DESCRIPTION:Observed on day 2 of Kaṭakaḥ (solar) month (sunrise (defau
  ese days.<br/><br/>##### Details<br/>- [Edit config file](https://github.c
  om/sanskrit-coders/adyatithi/tree/master/devatA/nadI/sidereal_solar_month/
  day/04/02/sarvanadI-rajasvalA~2__info.toml)<br/>- Tags: CommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:śravaṇa-vratam
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190717T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190718T235957
+DESCRIPTION:Observed on Śravaṇaḥ nakshatra of every solar month (Sā
+ ṅgavaḥ/puurvaviddha (default)).  <br/><br/><br/>##### Details<br/>- [E
+ dit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/
+ general/sidereal_solar_month/nakshatra/00/22/zravaNa-vratam__info.toml)<br
+ />- Tags: SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18710,6 +19259,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:pārvaṇopavāsaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190730T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190731T235957
+DESCRIPTION:##### Details<br/>- [Edit config file](https://github.com/sans
+ krit-coders/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH
+ _1/offset__-1/pArvaNa-upavAsaH_30__info.toml)<br/>- Tags: ShannavatiTarpan
+ aDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Āṣāḍhaḥ-04-30\,Kaṭakaḥ-Puṣyaḥ🌛🌌◢◣Kaṭak
  aḥ-Puṣyaḥ-04-16🌌🌞◢◣Nabhaḥ-05-10🪐🌞
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190801T055747
@@ -18831,6 +19396,23 @@ DESCRIPTION:Observed on Amāvāsyā tithi of Āṣāḍhaḥ (lunar) month
  r/>- Skanda Puranam<br/><br/><br/>##### Details<br/>- [Edit config file](h
  ttps://github.com/sanskrit-coders/adyatithi/tree/master/general/lunar_mont
  h/tithi/04/30/pati-saJjIvanI-vratam__info.toml)<br/>- Tags: SpecialVratam
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sthālīpākaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190731T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190801T235957
+DESCRIPTION:Observed on Śukla-Prathamā tithi of every lunar month (Pūrv
+ āhṇaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit config
+  file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/gene
+ ral/lunar_month/tithi/00/01/sthAlIpAkaH_1__info.toml)<br/>- Tags: MonthlyF
+ estivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -20284,6 +20866,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:pārvaṇopavāsaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190814T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190815T235957
+DESCRIPTION:##### Details<br/>- [Edit config file](https://github.com/sans
+ krit-coders/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH
+ _16/offset__-1/pArvaNa-upavAsaH_15__info.toml)<br/>- Tags: ShannavatiTarpa
+ naDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:pūrṇimā-vratam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190814T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190815T235957
@@ -20470,6 +21068,23 @@ DESCRIPTION:Observed on Śraviṣṭhā nakshatra of Kaṭakaḥ (solar) m
  uruSha/kAnchI-maTha/sidereal_solar_month/nakshatra/04/23/kAJcI%20jagadguru
  %20zrI~jayEndra%20sarasvatI%20jayantI__info.toml)<br/>- Tags: MahapurushaE
  vents CommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sthālīpākaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190815T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190816T235957
+DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every lunar month (
+ Pūrvāhṇaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit c
+ onfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya
+ /general/lunar_month/tithi/00/16/sthAlIpAkaH_16__info.toml)<br/>- Tags: Mo
+ nthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -21850,6 +22465,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:pārvaṇopavāsaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190829T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190830T235957
+DESCRIPTION:##### Details<br/>- [Edit config file](https://github.com/sans
+ krit-coders/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH
+ _1/offset__-1/pArvaNa-upavAsaH_30__info.toml)<br/>- Tags: ShannavatiTarpan
+ aDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Tiruchchêndūr Murugan Āvaṇit Tiruviḽā 7M Nāḻ—Chigappu
   Chātti Alaṅkāram
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190829T235957
@@ -21966,6 +22597,23 @@ DESCRIPTION:Observed on Śukla-Prathamā tithi of Bhādrapadaḥ (lunar) m
  ails<br/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi
  /tree/master/general/lunar_month/tithi/06/01/mRgazIrSa-vratam__info.toml)<
  br/>- Tags: SpecialVratam
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sthālīpākaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190830T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190831T235957
+DESCRIPTION:Observed on Śukla-Prathamā tithi of every lunar month (Pūrv
+ āhṇaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit config
+  file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/gene
+ ral/lunar_month/tithi/00/01/sthAlIpAkaH_1__info.toml)<br/>- Tags: MonthlyF
+ estivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -23471,6 +24119,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:pārvaṇopavāsaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190912T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190913T235957
+DESCRIPTION:##### Details<br/>- [Edit config file](https://github.com/sans
+ krit-coders/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH
+ _16/offset__-1/pArvaNa-upavAsaH_15__info.toml)<br/>- Tags: ShannavatiTarpa
+ naDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:veṅkaṭācale pūrṇimā-garuḍa-sevā
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190912T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190913T235957
@@ -23572,6 +24236,23 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of every lunar month (Sūryod
  ](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/vaiShNav
  a/lunar_month/tithi/00/15/pUrNimA~vratam__info.toml)<br/>- Tags: MonthlyFe
  stivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sthālīpākaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190913T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190914T235957
+DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every lunar month (
+ Pūrvāhṇaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit c
+ onfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya
+ /general/lunar_month/tithi/00/16/sthAlIpAkaH_16__info.toml)<br/>- Tags: Mo
+ nthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -24047,6 +24728,25 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:kṛttikā-vratam
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190918T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190919T235957
+DESCRIPTION:Observed on Kṛttikā nakshatra of every solar month (Sūryā
+ stamayaḥ/puurvaviddha (default)).  <br/>kṛttikā-vratam for Lord Subra
+ hmanya. Observe fast for the entire day\, and obtain blessings of all the 
+ kṛttikā-striyaḥ who raised skanda after His birth.<br/><br/>##### Det
+ ails<br/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi
+ /tree/master/devatA/kaumAra/sidereal_solar_month/nakshatra/00/03/kRttikA-v
+ ratam__info.toml)<br/>- Tags: SpecialVratam
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:nāga-pūjā
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190918T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190919T235957
@@ -24391,6 +25091,36 @@ DESCRIPTION:Observed on Kṛṣṇa-Aṣṭamī tithi of Bhādrapadaḥ (l
  ### Details<br/>- [Edit config file](https://github.com/sanskrit-coders/ad
  yatithi/tree/master/general/lunar_month/tithi/06/23/madhyASTamI__info.toml
  )<br/>- Tags: CommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mahāvyatīpāta-śrāddham
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190921T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190922T235957
+DESCRIPTION:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:vyatīpāta-śrāddham
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190921T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190922T235957
+DESCRIPTION:Observed on Vyatīpātaḥ yoga of every solar month (Aparāh
+ ṇaḥ/vyaapti).  <br/>Vyatipata Shraddha day.<br/><br/>##### Details<br/
+ >- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/ma
+ ster/devatA/pitR/sidereal_solar_month/yoga/00/17/vyatIpAta-zrAddham__info.
+ toml)<br/>- Tags: MonthlyShraddhaDays ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -24907,6 +25637,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:pārvaṇopavāsaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190927T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190928T235957
+DESCRIPTION:##### Details<br/>- [Edit config file](https://github.com/sans
+ krit-coders/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH
+ _1/offset__-1/pArvaNa-upavAsaH_30__info.toml)<br/>- Tags: ShannavatiTarpan
+ aDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Puraṭṭāchi Chanikkiḽamai
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190927T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190928T235957
@@ -25078,6 +25824,23 @@ DESCRIPTION:Observed on Śukla-Prathamā tithi of Āśvayujaḥ (lunar) mo
  ils<br/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi/
  tree/master/devatA/umA/lunar_month/tithi/07/01/stanavRddhi-gaurI-vratam__i
  nfo.toml)<br/>- Tags: SpecialVratam
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sthālīpākaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190928T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190929T235957
+DESCRIPTION:Observed on Śukla-Prathamā tithi of every lunar month (Pūrv
+ āhṇaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit config
+  file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/gene
+ ral/lunar_month/tithi/00/01/sthAlIpAkaH_1__info.toml)<br/>- Tags: MonthlyF
+ estivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -26539,6 +27302,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:pārvaṇopavāsaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191012T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191013T235957
+DESCRIPTION:##### Details<br/>- [Edit config file](https://github.com/sans
+ krit-coders/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH
+ _16/offset__-1/pArvaNa-upavAsaH_15__info.toml)<br/>- Tags: ShannavatiTarpa
+ naDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:pūrṇimā-vratam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191012T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191013T235957
@@ -26693,6 +27472,23 @@ DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of Āśvayujaḥ (luna
  - [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/mas
  ter/general/lunar_month/tithi/07/16/saptama-aparapakSa-ArambhaH__info.toml
  )<br/>- Tags: SpecialPeriodStart
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sthālīpākaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191013T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191014T235957
+DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every lunar month (
+ Pūrvāhṇaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit c
+ onfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya
+ /general/lunar_month/tithi/00/16/sthAlIpAkaH_16__info.toml)<br/>- Tags: Mo
+ nthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -27956,6 +28752,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:pārvaṇopavāsaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191026T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191027T235957
+DESCRIPTION:##### Details<br/>- [Edit config file](https://github.com/sans
+ krit-coders/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH
+ _1/offset__-1/pArvaNa-upavAsaH_30__info.toml)<br/>- Tags: ShannavatiTarpan
+ aDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:preta-caturdaśī
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191026T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191027T235957
@@ -28146,6 +28958,23 @@ DESCRIPTION:amāvāsyā on a Monday is as sacred as a solar eclipse. Parti
  ils<br/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi/
  tree/master/time_focus/monthly/amAvAsyA/description_only/sOmavatI%20amAvAs
  yA__info.toml)<br/>- Tags: RareDays Combinations AmavasyaDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sthālīpākaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191027T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191028T235957
+DESCRIPTION:Observed on Śukla-Prathamā tithi of every lunar month (Pūrv
+ āhṇaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit config
+  file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/gene
+ ral/lunar_month/tithi/00/01/sthAlIpAkaH_1__info.toml)<br/>- Tags: MonthlyF
+ estivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -29799,6 +30628,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:pārvaṇopavāsaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191111T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191112T235957
+DESCRIPTION:##### Details<br/>- [Edit config file](https://github.com/sans
+ krit-coders/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH
+ _16/offset__-1/pArvaNa-upavAsaH_15__info.toml)<br/>- Tags: ShannavatiTarpa
+ naDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:pūrṇimā-vratam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191111T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191112T235957
@@ -29958,6 +30803,23 @@ DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of Kārttikaḥ (lunar
   [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/mast
  er/general/lunar_month/tithi/08/16/navama-aparapakSa-ArambhaH__info.toml)<
  br/>- Tags: SpecialPeriodStart
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sthālīpākaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191112T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191113T235957
+DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every lunar month (
+ Pūrvāhṇaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit c
+ onfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya
+ /general/lunar_month/tithi/00/16/sthAlIpAkaH_16__info.toml)<br/>- Tags: Mo
+ nthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -31140,6 +32002,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:pārvaṇopavāsaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191125T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191126T235957
+DESCRIPTION:##### Details<br/>- [Edit config file](https://github.com/sans
+ krit-coders/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH
+ _1/offset__-1/pArvaNa-upavAsaH_30__info.toml)<br/>- Tags: ShannavatiTarpan
+ aDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:tiruviśalūr gaṅgākarṣaṇa-mahotsavaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191116T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191126T235957
@@ -31241,6 +32119,23 @@ DESCRIPTION:##### Details<br/>- [Edit config file](https://github.com/sans
  hApuruSha/kAnchI-maTha/lunar_month/tithi/09/01/kAJcI%2018%20jagadguru%20zr
  I~yOgatilaka%20surEndra%20sarasvatI%20ArAdhanA__info.toml)<br/>- Tags: Kan
  chiAradhanaDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sthālīpākaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191126T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191127T235957
+DESCRIPTION:Observed on Śukla-Prathamā tithi of every lunar month (Pūrv
+ āhṇaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit config
+  file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/gene
+ ral/lunar_month/tithi/00/01/sthAlIpAkaH_1__info.toml)<br/>- Tags: MonthlyF
+ estivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -32441,6 +33336,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:pārvaṇopavāsaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191210T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191211T235957
+DESCRIPTION:##### Details<br/>- [Edit config file](https://github.com/sans
+ krit-coders/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH
+ _16/offset__-1/pArvaNa-upavAsaH_15__info.toml)<br/>- Tags: ShannavatiTarpa
+ naDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Sarvālaya Dīpam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191210T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191211T235957
@@ -32617,6 +33528,23 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of Mārgaśīrṣaḥ (lunar)
  ### Details<br/>- [Edit config file](https://github.com/sanskrit-coders/ad
  yatithi/tree/master/gRhya/general/lunar_month/tithi/09/15/sarpa-bali-utsar
  janam__info.toml)<br/>- Tags: LessCommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sthālīpākaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191211T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191212T235957
+DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every lunar month (
+ Pūrvāhṇaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit c
+ onfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya
+ /general/lunar_month/tithi/00/16/sthAlIpAkaH_16__info.toml)<br/>- Tags: Mo
+ nthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -32884,6 +33812,23 @@ DESCRIPTION:Observed on day 1 of Dhanuḥ (solar) month (sunrise (default)
  //github.com/sanskrit-coders/adyatithi/tree/master/time_focus/sankrAnti/si
  dereal_solar_month/day/09/01/SaDazIti-dhanurraviH__info.toml)<br/>- Tags: 
  SunSankranti
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:vaidhṛti-śrāddham
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191215T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191216T235957
+DESCRIPTION:Observed on Vaidhṛtiḥ yoga of every solar month (Aparāh
+ ṇaḥ/vyaapti).  <br/>Vaidhrti Shraddha day.<br/><br/>##### Details<br/>
+ - [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/mas
+ ter/devatA/pitR/sidereal_solar_month/yoga/00/27/vaidhRti-zrAddham__info.to
+ ml)<br/>- Tags: MonthlyShraddhaDays ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -33560,6 +34505,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:pārvaṇopavāsaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191224T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191225T235957
+DESCRIPTION:##### Details<br/>- [Edit config file](https://github.com/sans
+ krit-coders/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH
+ _1/offset__-1/pArvaNa-upavAsaH_30__info.toml)<br/>- Tags: ShannavatiTarpan
+ aDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Tôṇḍaraḍippôḍiyāḽvār Tirunakṣattiram
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191224T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191225T235957
@@ -33622,6 +34583,23 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191226T111929
 DESCRIPTION:##### Details<br/>- [Edit config file](https://github.com/sans
  krit-coders/adyatithi/tree/master/time_focus/Eclipses/description_only/sUr
  ya-grahaNam__info.toml)<br/>- Tags: RareDays Eclipses
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sthālīpākaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191225T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191226T235957
+DESCRIPTION:Observed on Śukla-Prathamā tithi of every lunar month (Pūrv
+ āhṇaḥ/puurvaviddha).  <br/><br/><br/>##### Details<br/>- [Edit config
+  file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/gene
+ ral/lunar_month/tithi/00/01/sthAlIpAkaH_1__info.toml)<br/>- Tags: MonthlyF
+ estivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H

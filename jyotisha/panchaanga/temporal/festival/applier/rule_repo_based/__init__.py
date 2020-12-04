@@ -139,7 +139,10 @@ class RuleLookupAssigner(FestivalAssigner):
           if len(self.festival_id_to_days[fest_id]) > 0:
             previous_fest_day = sorted(self.festival_id_to_days[fest_id])[-1]
             p_previous_fday = self.panchaanga.date_str_to_panchaanga[previous_fest_day.get_date_str()]
-            if p_fday.date - previous_fest_day <= 31 and p_previous_fday.get_date(month_type=month_type).month == month:
+            # Regarding the fest_rule.timing.month_number != 0 below:
+            # This is required so as to avoid omissions as in the following case: sthAlIpAka_1 (which occurs every lunar month on tithi 1 at pUrvaviddha pUrvAhNa) occurs within the same "sunrise lunar month" but on different "pUrvAhNa lunar months" on 2019-07-03 and 2019-08-01.
+            # Plus, a gap of not much more than 1 month is desirable for monthly festivals even otherwise - https://github.com/sanskrit-coders/jyotisha/issues/54#issuecomment-735355325 . 
+            if fest_rule.timing.month_number != 0 and p_fday.date - previous_fest_day <= 31 and p_previous_fday.get_date(month_type=month_type).month == month:
               self.panchaanga.delete_festival_date(fest_id=fest_id, date=previous_fest_day)
           self.panchaanga.add_festival(fest_id=fest_id, date=p_fday.date)
 
