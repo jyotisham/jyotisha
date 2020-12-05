@@ -6,6 +6,8 @@ from math import floor
 from jyotisha.panchaanga.temporal import names
 from jyotisha.panchaanga.temporal import zodiac, tithi
 from jyotisha.panchaanga.temporal.festival.applier import FestivalAssigner
+from jyotisha.panchaanga.temporal.festival import FestivalInstance
+from jyotisha.panchaanga.temporal.interval import Interval
 from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision
 from pytz import timezone as tz
 from sanskrit_data.schema import common
@@ -14,12 +16,30 @@ from sanskrit_data.schema import common
 class SolarFestivalAssigner(FestivalAssigner):
   def assign_all(self):
     # self.assign_gajachhaya_yoga(debug_festivals=debug)
+    self.assign_sankranti_punyakaala()
     self.assign_mahodaya_ardhodaya()
     self.assign_month_day_kaaradaiyan()
     self.assign_month_day_kuchela()
     self.assign_month_day_mesha_sankraanti()
     self.assign_vishesha_vyatipata()
     self.assign_agni_nakshatra()
+
+
+  def assign_sankranti_punyakaala(self):
+    PUNYA_KAALA = {1: (10, 10), 2: (16, 16), 3: (0, 60), 4: (30, 0), 5: (16, 16), 6: (0, 60),
+                   7: (10, 10), 8: (16, 16), 9: (0, 60), 10: (0, 20), 11: (16, 16), 12: (0, 60)}
+    SANKRANTI_PUNYAKALA_NAMES = {1: "meSa-viSu", 2: "viSNupadI", 3: "SaDazIti", 4: "kaTaka-saGkrAnti",
+      5: "viSNupadI", 6: "SaDazIti", 7: "tulA-viSu", 8: "viSNupadI",
+      9: "SaDazIti", 10: "makara-saGkrAnti", 11: "viSNupadI", 12: "SaDazIti"}
+
+    for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + 1):
+      if self.daily_panchaangas[d].solar_sidereal_date_sunset.month_transition is not None:
+        punya_kaala_str = SANKRANTI_PUNYAKALA_NAMES[self.daily_panchaangas[d + 1].solar_sidereal_date_sunset.month] + '-puNyakAlaH'
+        jd_transition = self.daily_panchaangas[d].solar_sidereal_date_sunset.month_transition
+        # TODO: convert carefully to relative nadikas!
+        punya_kaala_start_jd = jd_transition - PUNYA_KAALA[self.daily_panchaangas[d + 1].solar_sidereal_date_sunset.month][0] * 1/60
+        punya_kaala_end_jd = jd_transition + PUNYA_KAALA[self.daily_panchaangas[d + 1].solar_sidereal_date_sunset.month][1] * 1/60
+        self.daily_panchaangas[d].festival_id_to_instance[punya_kaala_str] = ( FestivalInstance(name=punya_kaala_str, interval=Interval(jd_start=punya_kaala_start_jd, jd_end=punya_kaala_end_jd)))
 
 
   def assign_agni_nakshatra(self):
