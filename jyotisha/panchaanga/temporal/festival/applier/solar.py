@@ -89,7 +89,7 @@ class SolarFestivalAssigner(FestivalAssigner):
         self.daily_panchaangas[fday].festival_id_to_instance[punya_kaala_str] = (FestivalInstance(name=punya_kaala_str, interval=Interval(jd_start=punya_kaala_start_jd, jd_end=punya_kaala_end_jd)))
 
         # Add tropical sankranti
-        masa_name = RTU_MASA_NAMES[self.daily_panchaangas[d + 1].tropical_date_sunset.month]
+        masa_name = RTU_MASA_NAMES[(self.daily_panchaangas[d + 1].tropical_date_sunset.month - 2) % 12 + 1]
         if jd_transition < self.daily_panchaangas[d].jd_sunrise:
           fday = d - 1
         else:
