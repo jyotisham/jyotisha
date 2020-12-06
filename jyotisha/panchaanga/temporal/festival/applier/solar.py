@@ -41,7 +41,7 @@ class SolarFestivalAssigner(FestivalAssigner):
     # अतीतानागते पुण्ये द्वे उदग्दक्षिणायने। त्रिंशत्कर्कटके नाड्यो मकरे विंशतिः स्मृताः॥
     # वर्तमाने तुलामेषे नाड्यस्तूभयतो दश। षडशीत्यामतीतायां षष्टिरुक्तास्तु नाडिकाः॥
     # पुण्यायां विष्णुपद्यां च प्राक् पश्चादपि षोडशः॥
-    # —वैद्यनाथ-दीक्षितीये स्मृतुमुक्ताफले आह्निक-काण्डः
+    # —वैद्यनाथ-दीक्षितीये स्मृतिमुक्ताफले आह्निक-काण्डः
     #
     # The times before and/or after any given sankranti (tropical/sidereal) are sacred for snanam & danam
     # with specific times specified. For Mesha and Tula, 10 nAdikas before and after are special,
@@ -52,6 +52,9 @@ class SolarFestivalAssigner(FestivalAssigner):
     SANKRANTI_PUNYAKALA_NAMES = {1: "mESa-viSu", 2: "viSNupadI", 3: "SaDazIti", 4: "kaTaka-saGkrAnti",
       5: "viSNupadI", 6: "SaDazIti", 7: "tulA-viSu", 8: "viSNupadI",
       9: "SaDazIti", 10: "makara-saGkrAnti", 11: "viSNupadI", 12: "SaDazIti"}
+    TROPICAL_SANKRANTI_PUNYAKALA_NAMES = {1: "mESa-viSu", 2: "viSNupadI", 3: "SaDazIti", 4: "dakSiNAyana",
+      5: "viSNupadI", 6: "SaDazIti", 7: "tulA-viSu", 8: "viSNupadI",
+      9: "SaDazIti", 10: "uttarAyaNa", 11: "viSNupadI", 12: "SaDazIti"}
 
     for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + 1):
       if self.daily_panchaangas[d].solar_sidereal_date_sunset.month_transition is not None:
@@ -64,7 +67,7 @@ class SolarFestivalAssigner(FestivalAssigner):
 
       if self.daily_panchaangas[d].tropical_date_sunset.month_transition is not None:
         logging.debug(d)
-        punya_kaala_str = SANKRANTI_PUNYAKALA_NAMES[self.daily_panchaangas[d + 1].tropical_date_sunset.month] + '-puNyakAlaH'
+        punya_kaala_str = TROPICAL_SANKRANTI_PUNYAKALA_NAMES[self.daily_panchaangas[d + 1].tropical_date_sunset.month] + '-puNyakAlaH'
         jd_transition = self.daily_panchaangas[d].tropical_date_sunset.month_transition
         # TODO: convert carefully to relative nadikas!
         punya_kaala_start_jd = jd_transition - PUNYA_KAALA[self.daily_panchaangas[d + 1].tropical_date_sunset.month][0] * 1/60
