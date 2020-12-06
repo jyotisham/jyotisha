@@ -29,7 +29,7 @@ def load_panchaanga(fname, fallback_fn):
   
 
 
-def get_panchaanga_for_kali_year(city, year, precomputed_json_dir="~/Documents/jyotisha", computation_system: ComputationSystem = None, allow_precomputed=True):
+def get_panchaanga_for_kali_year(city, year, precomputed_json_dir="~/Documents/jyotisha", computation_system: ComputationSystem = None, allow_precomputed=True, recompute_festivals=True):
   year = int(year)
   fname = os.path.expanduser('%s/%s__kali_%s__%s.json' % (precomputed_json_dir, city.name, year, computation_system))
   if os.path.isfile(fname) and allow_precomputed:
@@ -38,7 +38,8 @@ def get_panchaanga_for_kali_year(city, year, precomputed_json_dir="~/Documents/j
     panchaanga = load_panchaanga(fname=fname, fallback_fn=fn)
     # Fest repos to be used might have changed in this call.
     panchaanga.computation_system = computation_system
-    panchaanga.update_festival_details()
+    if recompute_festivals:
+      panchaanga.update_festival_details()
     return panchaanga
   else:
     logging.info('No precomputed data available. Computing panchaanga...\n')
