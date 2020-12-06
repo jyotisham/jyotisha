@@ -1,4 +1,5 @@
 import sys
+import logging
 from copy import copy
 from datetime import datetime
 from math import floor
@@ -11,6 +12,11 @@ from jyotisha.panchaanga.temporal.interval import Interval
 from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision
 from pytz import timezone as tz
 from sanskrit_data.schema import common
+
+logging.basicConfig(
+    level=logging.DEBUG,
+    format="%(levelname)s: %(asctime)s {%(filename)s:%(lineno)d}: %(message)s "
+)
 
 
 class SolarFestivalAssigner(FestivalAssigner):
