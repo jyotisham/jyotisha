@@ -26,6 +26,9 @@ class SolarFestivalAssigner(FestivalAssigner):
 
 
   def assign_sankranti_punyakaala(self):
+    if 'mESa-viSu-puNyakAlaH' not in self.rules_collection.name_to_rule:
+      return 
+
     # Reference
     # ---------
     #
