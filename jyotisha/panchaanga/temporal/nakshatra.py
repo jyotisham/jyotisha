@@ -27,7 +27,7 @@ for i in range(7):
 
 class NakshatraAssigner(PeriodicPanchaangaApplier):
   def calc_nakshatra_tyaajya(self, debug=False):
-    self.panchaanga.tyajyam_data = [[] for _x in range(self.panchaanga.duration + 1)]
+    self.panchaanga.tyajyam_data = [[] for _x in range(self.panchaanga.duration + 2)]
     for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + 1):
       [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
       jd = self.daily_panchaangas[d].julian_day_start
@@ -36,6 +36,7 @@ class NakshatraAssigner(PeriodicPanchaangaApplier):
         nakshatra_span = self.daily_panchaangas[d].sunrise_day_angas.nakshatras_with_ends[0]
         (n, t_end) = (nakshatra_span.anga.index, nakshatra_span.jd_end)
         if t_end is None:
+          continue
           t_end = self.daily_panchaangas[d + 1].sunrise_day_angas.nakshatras_with_ends[0].jd_end
         tyaajya_start = t_start + (t_end - t_start) / 60 * (TYAJYA_SPANS_REL[n - 1] - 1)
         tyaajya_end = t_start + (t_end - t_start) / 60 * (TYAJYA_SPANS_REL[n - 1] + 3)
@@ -60,7 +61,11 @@ class NakshatraAssigner(PeriodicPanchaangaApplier):
         t_start = t_end
         nakshatra_span = self.daily_panchaangas[d].sunrise_day_angas.nakshatras_with_ends[1]
         (n2, t_end) = (nakshatra_span.anga.index, nakshatra_span.jd_end)
-        
+        if t_end is None:
+          t_end = self.daily_panchaangas[d + 1].sunrise_day_angas.nakshatras_with_ends[0].jd_end
+          continue
+          if t_end is None:
+            t_end = self.daily_panchaangas[d + 2].sunrise_day_angas.nakshatras_with_ends[0].jd_end
         tyaajya_start = t_start + (t_end - t_start) / 60 * (TYAJYA_SPANS_REL[n2 - 1] - 1)
         tyaajya_end = t_start + (t_end - t_start) / 60 * (TYAJYA_SPANS_REL[n2 - 1] + 3)
         self.panchaanga.tyajyam_data[d] += [(tyaajya_start, tyaajya_end)]
@@ -72,7 +77,7 @@ class NakshatraAssigner(PeriodicPanchaangaApplier):
                          Hour(24 * (tyaajya_end - jd)).to_string(format='hh:mm*')))
   
   def calc_nakshatra_amrta(self, debug=False):
-    self.panchaanga.amrita_data = [[] for _x in range(self.panchaanga.duration + 1)]
+    self.panchaanga.amrita_data = [[] for _x in range(self.panchaanga.duration + 2)]
     for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + 1):
       [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
       jd = self.daily_panchaangas[d].julian_day_start
@@ -81,6 +86,7 @@ class NakshatraAssigner(PeriodicPanchaangaApplier):
         nakshatra_span = self.daily_panchaangas[d].sunrise_day_angas.nakshatras_with_ends[0]
         (n, t_end) = (nakshatra_span.anga.index, nakshatra_span.jd_end)
         if t_end is None:
+          continue
           t_end = self.daily_panchaangas[d + 1].sunrise_day_angas.nakshatras_with_ends[0].jd_end
         amrita_start = t_start + (t_end - t_start) / 60 * (AMRITA_SPANS_REL[n - 1] - 1)
         amrita_end = t_start + (t_end - t_start) / 60 * (AMRITA_SPANS_REL[n - 1] + 3)
@@ -105,6 +111,13 @@ class NakshatraAssigner(PeriodicPanchaangaApplier):
         t_start = t_end
         nakshatra_span = self.daily_panchaangas[d].sunrise_day_angas.nakshatras_with_ends[1]
         (n2, t_end) = (nakshatra_span.anga.index, nakshatra_span.jd_end)
+        if t_end is None:
+          continue
+          t_end = self.daily_panchaangas[d + 1].sunrise_day_angas.nakshatras_with_ends[0].jd_end
+          if t_end is None:
+            t_end = self.daily_panchaangas[d + 2].sunrise_day_angas.nakshatras_with_ends[0].jd_end
+            continue
+
         amrita_start = t_start + (t_end - t_start) / 60 * (AMRITA_SPANS_REL[n2 - 1] - 1)
         amrita_end = t_start + (t_end - t_start) / 60 * (AMRITA_SPANS_REL[n2 - 1] + 3)
         self.panchaanga.amrita_data[d] += [(amrita_start, amrita_end)]
