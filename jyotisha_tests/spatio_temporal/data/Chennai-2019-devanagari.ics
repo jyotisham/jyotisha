@@ -33100,7 +33100,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:bābara-rākṣasālaya-nāshaḥ
+SUMMARY:bābara-rākṣasālaya-nāśaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191205T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191206T235957
 DESCRIPTION:Observed on day 6 of December (sunrise (default)/puurvaviddha 
