@@ -245,81 +245,81 @@
       "jd_end": 2444962.0104,
       "jd_start": 2444961.7763,
       "jsonClass": "Interval",
-      "name": "अपराह्णः"
+      "name": "\u0905\u092a\u0930\u093e\u0939\u094d\u0923\u0903"
     },
     "dinamaana": {
       "jd_end": 2444962.0104,
       "jd_start": 2444961.5423,
       "jsonClass": "Interval",
-      "name": "दिनमानम्"
+      "name": "\u0926\u093f\u0928\u092e\u093e\u0928\u092e\u094d"
     },
     "eight_fold_division": {
       "aparaahna": {
         "jd_end": 2444961.9518,
         "jd_start": 2444961.8933,
         "jsonClass": "Interval",
-        "name": "अपराह्णः"
+        "name": "\u0905\u092a\u0930\u093e\u0939\u094d\u0923\u0903"
       },
       "dinaanta": {
         "jd_end": 2444962.4096,
         "jd_start": 2444962.343,
         "jsonClass": "Interval",
-        "name": "दिनान्तम्"
+        "name": "\u0926\u093f\u0928\u093e\u0928\u094d\u0924\u092e\u094d"
       },
       "gulika": {
         "jd_end": 2444961.7763,
         "jd_start": 2444961.7178,
         "jsonClass": "Interval",
-        "name": "गुलिककालः"
+        "name": "\u0917\u0941\u0932\u093f\u0915\u0915\u093e\u0932\u0903"
       },
       "jsonClass": "EightFoldDivision",
       "madhyaahna": {
         "jd_end": 2444961.8348,
         "jd_start": 2444961.7763,
         "jsonClass": "Interval",
-        "name": "मध्याह्नः"
+        "name": "\u092e\u0927\u094d\u092f\u093e\u0939\u094d\u0928\u0903"
       },
       "praatah": {
         "jd_end": 2444961.6008,
         "jd_start": 2444961.5423,
         "jsonClass": "Interval",
-        "name": "प्रातः"
+        "name": "\u092a\u094d\u0930\u093e\u0924\u0903"
       },
       "raahu": {
         "jd_end": 2444961.8348,
         "jd_start": 2444961.7763,
         "jsonClass": "Interval",
-        "name": "राहुकालः"
+        "name": "\u0930\u093e\u0939\u0941\u0915\u093e\u0932\u0903"
       },
       "raatri_yaama_1": {
         "jd_end": 2444962.2765,
         "jd_start": 2444962.1434,
         "jsonClass": "Interval",
-        "name": "यामः प्रथमः"
+        "name": "\u092f\u093e\u092e\u0903 \u092a\u094d\u0930\u0925\u092e\u0903"
       },
       "saangava": {
         "jd_end": 2444961.7178,
         "jd_start": 2444961.6593,
         "jsonClass": "Interval",
-        "name": "साङ्गवः"
+        "name": "\u0938\u093e\u0919\u094d\u0917\u0935\u0903"
       },
       "saayaahna": {
         "jd_end": 2444962.0769,
         "jd_start": 2444962.0104,
         "jsonClass": "Interval",
-        "name": "सायाह्नः"
+        "name": "\u0938\u093e\u092f\u093e\u0939\u094d\u0928\u0903"
       },
       "shayana": {
         "jd_end": 2444962.2765,
         "jd_start": 2444962.21,
         "jsonClass": "Interval",
-        "name": "शयनकालः"
+        "name": "\u0936\u092f\u0928\u0915\u093e\u0932\u0903"
       },
       "yama": {
         "jd_end": 2444961.6593,
         "jd_start": 2444961.6008,
         "jsonClass": "Interval",
-        "name": "यमघण्टः"
+        "name": "\u092f\u092e\u0918\u0923\u094d\u091f\u0903"
       }
     },
     "fifteen_fold_division": {
@@ -327,80 +327,80 @@
         "jd_end": 2444961.9167,
         "jd_start": 2444961.8231,
         "jsonClass": "Interval",
-        "name": "अपराह्णः"
+        "name": "\u0905\u092a\u0930\u093e\u0939\u094d\u0923\u0903"
       },
       "braahma": {
         "jd_end": 2444961.5068,
         "jd_start": 2444961.4713,
         "jsonClass": "Interval",
-        "name": "ब्राह्मं मुहूर्तम्"
+        "name": "\u092c\u094d\u0930\u093e\u0939\u094d\u092e\u0902 \u092e\u0941\u0939\u0942\u0930\u094d\u0924\u092e\u094d"
       },
       "jsonClass": "FifteenFoldDivision",
       "maadhyaahnika_sandhyaa": {
         "jd_end": 2444961.9479,
         "jd_start": 2444961.6983,
         "jsonClass": "Interval",
-        "name": "माध्याह्निकसन्ध्यावन्दनकालः"
+        "name": "\u092e\u093e\u0927\u094d\u092f\u093e\u0939\u094d\u0928\u093f\u0915\u0938\u0928\u094d\u0927\u094d\u092f\u093e\u0935\u0928\u094d\u0926\u0928\u0915\u093e\u0932\u0903"
       },
       "madhyaahna": {
         "jd_end": 2444961.8231,
         "jd_start": 2444961.7295,
         "jsonClass": "Interval",
-        "name": "मध्याह्नः"
+        "name": "\u092e\u0927\u094d\u092f\u093e\u0939\u094d\u0928\u0903"
       },
       "madhyaraatri": {
         "jd_end": 2444962.3297,
         "jd_start": 2444962.2233,
         "jsonClass": "Interval",
-        "name": "मध्यरात्रिः"
+        "name": "\u092e\u0927\u094d\u092f\u0930\u093e\u0924\u094d\u0930\u093f\u0903"
       },
       "nishiitha": {
         "jd_end": 2444962.2943,
         "jd_start": 2444962.2588,
         "jsonClass": "Interval",
-        "name": "निशीथः"
+        "name": "\u0928\u093f\u0936\u0940\u0925\u0903"
       },
       "praatah": {
         "jd_end": 2444961.6359,
         "jd_start": 2444961.5423,
         "jsonClass": "Interval",
-        "name": "प्रातः"
+        "name": "\u092a\u094d\u0930\u093e\u0924\u0903"
       },
       "praatas_sandhyaa": {
         "jd_end": 2444961.6671,
         "jd_start": 2444961.5068,
         "jsonClass": "Interval",
-        "name": "प्रातःसन्ध्यावन्दनकालः"
+        "name": "\u092a\u094d\u0930\u093e\u0924\u0903\u0938\u0928\u094d\u0927\u094d\u092f\u093e\u0935\u0928\u094d\u0926\u0928\u0915\u093e\u0932\u0903"
       },
       "pradosha": {
         "jd_end": 2444962.0458,
         "jd_start": 2444962.0104,
         "jsonClass": "Interval",
-        "name": "प्रदोषः"
+        "name": "\u092a\u094d\u0930\u0926\u094b\u0937\u0903"
       },
       "preceeding_arunodaya": {
         "jd_end": 2444961.5423,
         "jd_start": 2444961.4713,
         "jsonClass": "Interval",
-        "name": "प्राक्तनारुणोदयः"
+        "name": "\u092a\u094d\u0930\u093e\u0915\u094d\u0924\u0928\u093e\u0930\u0941\u0923\u094b\u0926\u092f\u0903"
       },
       "saangava": {
         "jd_end": 2444961.7295,
         "jd_start": 2444961.6359,
         "jsonClass": "Interval",
-        "name": "साङ्गवः"
+        "name": "\u0938\u093e\u0919\u094d\u0917\u0935\u0903"
       },
       "saayaahna": {
         "jd_end": 2444962.0104,
         "jd_start": 2444961.9167,
         "jsonClass": "Interval",
-        "name": "सायाह्नः"
+        "name": "\u0938\u093e\u092f\u093e\u0939\u094d\u0928\u0903"
       },
       "saayam_sandhyaa": {
         "jd_end": 2444962.0104,
         "jd_start": 2444961.9792,
         "jsonClass": "Interval",
-        "name": "सायंसन्ध्यावन्दनकालः"
+        "name": "\u0938\u093e\u092f\u0902\u0938\u0928\u094d\u0927\u094d\u092f\u093e\u0935\u0928\u094d\u0926\u0928\u0915\u093e\u0932\u0903"
       },
       "tb_muhuurtas": [
         {
@@ -411,7 +411,7 @@
           "jd_start": 2444961.5423,
           "jsonClass": "TbSayanaMuhuurta",
           "muhuurta_id": 0,
-          "name": "प्रातः-मु॰1"
+          "name": "\u092a\u094d\u0930\u093e\u0924\u0903-\u092e\u0941\u09701"
         },
         {
           "ahna": 0,
@@ -421,7 +421,7 @@
           "jd_start": 2444961.5735,
           "jsonClass": "TbSayanaMuhuurta",
           "muhuurta_id": 1,
-          "name": "प्रातः-मु॰2"
+          "name": "\u092a\u094d\u0930\u093e\u0924\u0903-\u092e\u0941\u09702"
         },
         {
           "ahna": 0,
@@ -431,7 +431,7 @@
           "jd_start": 2444961.6047,
           "jsonClass": "TbSayanaMuhuurta",
           "muhuurta_id": 2,
-          "name": "प्रातः-मु॰3"
+          "name": "\u092a\u094d\u0930\u093e\u0924\u0903-\u092e\u0941\u09703"
         },
         {
           "ahna": 1,
@@ -441,7 +441,7 @@
           "jd_start": 2444961.6359,
           "jsonClass": "TbSayanaMuhuurta",
           "muhuurta_id": 3,
-          "name": "साङ्गवः-मु॰1"
+          "name": "\u0938\u093e\u0919\u094d\u0917\u0935\u0903-\u092e\u0941\u09701"
         },
         {
           "ahna": 1,
@@ -451,7 +451,7 @@
           "jd_start": 2444961.6671,
           "jsonClass": "TbSayanaMuhuurta",
           "muhuurta_id": 4,
-          "name": "साङ्गवः-मु॰2"
+          "name": "\u0938\u093e\u0919\u094d\u0917\u0935\u0903-\u092e\u0941\u09702"
         },
         {
           "ahna": 1,
@@ -461,7 +461,7 @@
           "jd_start": 2444961.6983,
           "jsonClass": "TbSayanaMuhuurta",
           "muhuurta_id": 5,
-          "name": "साङ्गवः-मु॰3"
+          "name": "\u0938\u093e\u0919\u094d\u0917\u0935\u0903-\u092e\u0941\u09703"
         },
         {
           "ahna": 2,
@@ -471,7 +471,7 @@
           "jd_start": 2444961.7295,
           "jsonClass": "TbSayanaMuhuurta",
           "muhuurta_id": 6,
-          "name": "पूर्वाह्णः-मु॰1"
+          "name": "\u092a\u0942\u0930\u094d\u0935\u093e\u0939\u094d\u0923\u0903-\u092e\u0941\u09701"
         },
         {
           "ahna": 2,
@@ -481,7 +481,7 @@
           "jd_start": 2444961.7607,
           "jsonClass": "TbSayanaMuhuurta",
           "muhuurta_id": 7,
-          "name": "पूर्वाह्णः-मु॰2"
+          "name": "\u092a\u0942\u0930\u094d\u0935\u093e\u0939\u094d\u0923\u0903-\u092e\u0941\u09702"
         },
         {
           "ahna": 2,
@@ -491,7 +491,7 @@
           "jd_start": 2444961.7919,
           "jsonClass": "TbSayanaMuhuurta",
           "muhuurta_id": 8,
-          "name": "पूर्वाह्णः-मु॰3"
+          "name": "\u092a\u0942\u0930\u094d\u0935\u093e\u0939\u094d\u0923\u0903-\u092e\u0941\u09703"
         },
         {
           "ahna": 3,
@@ -501,7 +501,7 @@
           "jd_start": 2444961.8231,
           "jsonClass": "TbSayanaMuhuurta",
           "muhuurta_id": 9,
-          "name": "अपराह्णः-मु॰1"
+          "name": "\u0905\u092a\u0930\u093e\u0939\u094d\u0923\u0903-\u092e\u0941\u09701"
         },
         {
           "ahna": 3,
@@ -511,7 +511,7 @@
           "jd_start": 2444961.8543,
           "jsonClass": "TbSayanaMuhuurta",
           "muhuurta_id": 10,
-          "name": "अपराह्णः-मु॰2"
+          "name": "\u0905\u092a\u0930\u093e\u0939\u094d\u0923\u0903-\u092e\u0941\u09702"
         },
         {
           "ahna": 3,
@@ -521,7 +521,7 @@
           "jd_start": 2444961.8855,
           "jsonClass": "TbSayanaMuhuurta",
           "muhuurta_id": 11,
-          "name": "अपराह्णः-मु॰3"
+          "name": "\u0905\u092a\u0930\u093e\u0939\u094d\u0923\u0903-\u092e\u0941\u09703"
         },
         {
           "ahna": 4,
@@ -531,7 +531,7 @@
           "jd_start": 2444961.9167,
           "jsonClass": "TbSayanaMuhuurta",
           "muhuurta_id": 12,
-          "name": "सायाह्णः-मु॰1"
+          "name": "\u0938\u093e\u092f\u093e\u0939\u094d\u0923\u0903-\u092e\u0941\u09701"
         },
         {
           "ahna": 4,
@@ -541,7 +541,7 @@
           "jd_start": 2444961.9479,
           "jsonClass": "TbSayanaMuhuurta",
           "muhuurta_id": 13,
-          "name": "सायाह्णः-मु॰2"
+          "name": "\u0938\u093e\u092f\u093e\u0939\u094d\u0923\u0903-\u092e\u0941\u09702"
         },
         {
           "ahna": 4,
@@ -551,7 +551,7 @@
           "jd_start": 2444961.9792,
           "jsonClass": "TbSayanaMuhuurta",
           "muhuurta_id": 14,
-          "name": "सायाह्णः-मु॰3"
+          "name": "\u0938\u093e\u092f\u093e\u0939\u094d\u0923\u0903-\u092e\u0941\u09703"
         }
       ]
     },
@@ -560,13 +560,13 @@
       "jd_end": 2444961.7763,
       "jd_start": 2444961.5423,
       "jsonClass": "Interval",
-      "name": "पूर्वाह्णः"
+      "name": "\u092a\u0942\u0930\u094d\u0935\u093e\u0939\u094d\u0923\u0903"
     },
     "raatrimaana": {
       "jd_end": 2444962.5427,
       "jd_start": 2444962.0104,
       "jsonClass": "Interval",
-      "name": "रात्रिमानम्"
+      "name": "\u0930\u093e\u0924\u094d\u0930\u093f\u092e\u093e\u0928\u092e\u094d"
     }
   },
   "festival_id_to_instance": {},
