@@ -26,9 +26,21 @@ class SolarFestivalAssigner(FestivalAssigner):
 
 
   def assign_sankranti_punyakaala(self):
+    # Reference
+    # ---------
+    #
+    # अतीतानागते पुण्ये द्वे उदग्दक्षिणायने। त्रिंशत्कर्कटके नाड्यो मकरे विंशतिः स्मृताः॥
+    # वर्तमाने तुलामेषे नाड्यस्तूभयतो दश। षडशीत्यामतीतायां षष्टिरुक्तास्तु नाडिकाः॥
+    # पुण्यायां विष्णुपद्यां च प्राक् पश्चादपि षोडशः॥
+    # —वैद्यनाथ-दीक्षितीये स्मृतुमुक्ताफले आह्निक-काण्डः
+    #
+    # The times before and/or after any given sankranti (tropical/sidereal) are sacred for snanam & danam
+    # with specific times specified. For Mesha and Tula, 10 nAdikas before and after are special,
+    # while for Shadashiti, an entire 60 nAdikas following the sankramaNam are special, and so on.
+
     PUNYA_KAALA = {1: (10, 10), 2: (16, 16), 3: (0, 60), 4: (30, 0), 5: (16, 16), 6: (0, 60),
                    7: (10, 10), 8: (16, 16), 9: (0, 60), 10: (0, 20), 11: (16, 16), 12: (0, 60)}
-    SANKRANTI_PUNYAKALA_NAMES = {1: "meSa-viSu", 2: "viSNupadI", 3: "SaDazIti", 4: "kaTaka-saGkrAnti",
+    SANKRANTI_PUNYAKALA_NAMES = {1: "mESa-viSu", 2: "viSNupadI", 3: "SaDazIti", 4: "kaTaka-saGkrAnti",
       5: "viSNupadI", 6: "SaDazIti", 7: "tulA-viSu", 8: "viSNupadI",
       9: "SaDazIti", 10: "makara-saGkrAnti", 11: "viSNupadI", 12: "SaDazIti"}
 
