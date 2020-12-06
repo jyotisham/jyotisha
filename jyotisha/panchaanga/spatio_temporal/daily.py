@@ -288,6 +288,7 @@ class DailyPanchaanga(common.JsonObject):
       if month_transitions[-1].jd > self.jd_previous_sunset and month_transitions[-1].jd <= self.jd_sunset:
         tropical_date_sunset_day = 1
         tropical_date_sunset_month = month_transitions[-1].value_2
+        month_transition_jd = month_transitions[-1].jd
       else:
         tropical_date_sunset_day = len(self.city.get_sunsets_in_period(jd_start=month_transitions[0].jd, jd_end=self.jd_sunset + 1/48.0))
         tropical_date_sunset_month = month_transitions[0].value_2
