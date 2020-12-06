@@ -40,7 +40,12 @@ class EclipticFestivalAssigner(FestivalAssigner):
           # moon (>=25 days away)
           jd += MIN_DAYS_NEXT_ECLIPSE
           continue
-        solar_eclipse_str = 'sUrya-grahaNam'
+        if abs (Graha.singleton(Graha.SUN).get_longitude(jd_eclipse_solar_end) - Graha.singleton(Graha.RAHU).get_longitude(
+            jd_eclipse_solar_end)) < 5:
+          grasta = 'rAhugrasta'
+        else:
+          grasta = 'kEtugrasta'
+        solar_eclipse_str = 'sUrya-grahaNaM~(' + grasta + ')'
         if self.daily_panchaangas[fday].date.get_weekday() == 0:
           solar_eclipse_str = '★cUDAmaNi-' + solar_eclipse_str
         self.daily_panchaangas[fday]. festival_id_to_instance[solar_eclipse_str] = ( FestivalInstance(name=solar_eclipse_str, interval=Interval(jd_start=jd_eclipse_solar_start, jd_end=jd_eclipse_solar_end)))

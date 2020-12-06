@@ -196,9 +196,12 @@ class Panchaanga(common.JsonObject):
       self.date_str_to_panchaanga[date.get_date_str()].festival_id_to_instance.pop(fest_id, None)
 
   def add_festival(self, fest_id, date):
+    self.add_festival_instance(date=date, festival_instance=FestivalInstance(name=fest_id))
+
+  def add_festival_instance(self, festival_instance, date):
     p_fday = self.date_str_to_panchaanga[date.get_date_str()]
-    p_fday.festival_id_to_instance[fest_id] = FestivalInstance(name=fest_id)
-    self.festival_id_to_days[fest_id].add(date)
+    p_fday.festival_id_to_instance[festival_instance.name] = festival_instance
+    self.festival_id_to_days[festival_instance.name].add(date)
 
   def delete_festival_date(self, fest_id, date):
     self.festival_id_to_days[fest_id].discard(date)

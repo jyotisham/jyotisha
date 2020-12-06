@@ -9169,7 +9169,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:meṣa-saṅkrāntiḥ-(vikārī-saṃvatsaraḥ)
+SUMMARY:meṣa-saṅkrāntiḥ (vikārī-saṃvatsaraḥ)
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190413T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190414T235957
 DESCRIPTION:Tamil New Year.<br/><br/>##### Details<br/>- [Edit config file
@@ -24728,7 +24728,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:aṅgārakī-vighnarāja-mahāgaṇapati saṅkaṭahara-caturthī
+SUMMARY:aṅgārakī vighnarāja-mahāgaṇapati saṅkaṭahara-caturthī
  -vratam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190916T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190917T235957
@@ -33100,7 +33100,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:bābara-rākṣasālaya-nāshaḥ
+SUMMARY:bābara-rākṣasālaya-nāśaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191205T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191206T235957
 DESCRIPTION:Observed on day 6 of December (sunrise (default)/puurvaviddha 
@@ -34869,12 +34869,10 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sūrya-grahaṇam
+SUMMARY:sūrya-grahaṇaṃ (ketugrasta)
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191226T080849
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191226T111929
-DESCRIPTION:##### Details<br/>- [Edit config file](https://github.com/sans
- krit-coders/adyatithi/tree/master/time_focus/Eclipses/description_only/sUr
- ya-grahaNam.toml)<br/>- Tags: RareDays Eclipses
+DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
