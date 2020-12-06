@@ -1,4 +1,5 @@
 import sys
+import logging
 from copy import copy
 from datetime import datetime
 from math import floor
@@ -6,20 +7,95 @@ from math import floor
 from jyotisha.panchaanga.temporal import names
 from jyotisha.panchaanga.temporal import zodiac, tithi
 from jyotisha.panchaanga.temporal.festival.applier import FestivalAssigner
+from jyotisha.panchaanga.temporal.festival import FestivalInstance
+from jyotisha.panchaanga.temporal.interval import Interval
 from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision
 from pytz import timezone as tz
 from sanskrit_data.schema import common
+
+logging.basicConfig(
+    level=logging.DEBUG,
+    format="%(levelname)s: %(asctime)s {%(filename)s:%(lineno)d}: %(message)s "
+)
 
 
 class SolarFestivalAssigner(FestivalAssigner):
   def assign_all(self):
     # self.assign_gajachhaya_yoga(debug_festivals=debug)
+    self.assign_sankranti_punyakaala()
     self.assign_mahodaya_ardhodaya()
     self.assign_month_day_kaaradaiyan()
     self.assign_month_day_kuchela()
     self.assign_month_day_mesha_sankraanti()
     self.assign_vishesha_vyatipata()
     self.assign_agni_nakshatra()
+
+
+  def assign_sankranti_punyakaala(self):
+    if 'mESa-viSu-puNyakAlaH' not in self.rules_collection.name_to_rule:
+      return 
+
+    # Reference
+    # ---------
+    #
+    # अतीतानागते पुण्ये द्वे उदग्दक्षिणायने। त्रिंशत्कर्कटके नाड्यो मकरे विंशतिः स्मृताः॥
+    # वर्तमाने तुलामेषे नाड्यस्तूभयतो दश। षडशीत्यामतीतायां षष्टिरुक्तास्तु नाडिकाः॥
+    # पुण्यायां विष्णुपद्यां च प्राक् पश्चादपि षोडशः॥
+    # —वैद्यनाथ-दीक्षितीये स्मृतिमुक्ताफले आह्निक-काण्डः
+    #
+    # The times before and/or after any given sankranti (tropical/sidereal) are sacred for snanam & danam
+    # with specific times specified. For Mesha and Tula, 10 nAdikas before and after are special,
+    # while for Shadashiti, an entire 60 nAdikas following the sankramaNam are special, and so on.
+
+    PUNYA_KAALA = {1: (10, 10), 2: (16, 16), 3: (0, 60), 4: (30, 0), 5: (16, 16), 6: (0, 60),
+                   7: (10, 10), 8: (16, 16), 9: (0, 60), 10: (0, 20), 11: (16, 16), 12: (0, 60)}
+    SANKRANTI_PUNYAKALA_NAMES = {1: "mESa-saGkramaNa", 2: "viSNupadI", 3: "SaDazIti", 4: "kaTaka-saGkramaNa",
+      5: "viSNupadI", 6: "SaDazIti", 7: "tulA-saGkramaNa", 8: "viSNupadI",
+      9: "SaDazIti", 10: "makara-saGkramaNa", 11: "viSNupadI", 12: "SaDazIti"}
+    RTU_MASA_NAMES = {1:"madhu-mAsaH", 2:"mAdhava-mAsaH/vasantaRtuH", 3:"zukra-mAsaH/uttarAyaNam",
+      4:"zuci-mAsaH/grISmaRtuH", 5:"nabhO-mAsaH", 6:"nabhasya-mAsaH/varSaRtuH",
+      7:"iSa-mAsaH", 8:"Urja-mAsaH/zaradRtuH", 9:"sahO-mAsaH/dakSiNAyanam",
+      10:"sahasya-mAsaH/hEmantaRtuH", 11:"tapO-mAsaH", 12:"tapasya-mAsaH/ziziraRtuH"}
+    TROPICAL_SANKRANTI_PUNYAKALA_NAMES = {1: "mESa-viSu", 2: "viSNupadI", 3: "SaDazIti", 4: "dakSiNAyana",
+      5: "viSNupadI", 6: "SaDazIti", 7: "tulA-viSu", 8: "viSNupadI",
+      9: "SaDazIti", 10: "uttarAyaNa", 11: "viSNupadI", 12: "SaDazIti"}
+
+    for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + 1):
+      if self.daily_panchaangas[d].solar_sidereal_date_sunset.month_transition is not None:
+        punya_kaala_str = SANKRANTI_PUNYAKALA_NAMES[self.daily_panchaangas[d + 1].solar_sidereal_date_sunset.month] + '-puNyakAlaH'
+        jd_transition = self.daily_panchaangas[d].solar_sidereal_date_sunset.month_transition
+        # TODO: convert carefully to relative nadikas!
+        punya_kaala_start_jd = jd_transition - PUNYA_KAALA[self.daily_panchaangas[d + 1].solar_sidereal_date_sunset.month][0] * 1/60
+        punya_kaala_end_jd = jd_transition + PUNYA_KAALA[self.daily_panchaangas[d + 1].solar_sidereal_date_sunset.month][1] * 1/60
+        if punya_kaala_start_jd < self.daily_panchaangas[d].jd_sunrise:
+          fday = d - 1
+        else:
+          fday = d
+        # self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name=punya_kaala_str, interval=Interval(jd_start=punya_kaala_start_jd, jd_end=punya_kaala_end_jd)), date=self.daily_panchaangas[fday].date)
+        self.daily_panchaangas[fday].festival_id_to_instance[punya_kaala_str] = (FestivalInstance(name=punya_kaala_str, interval=Interval(jd_start=punya_kaala_start_jd, jd_end=punya_kaala_end_jd)))
+
+      if self.daily_panchaangas[d].tropical_date_sunset.month_transition is not None:
+        # Add punyakala
+        punya_kaala_str = TROPICAL_SANKRANTI_PUNYAKALA_NAMES[self.daily_panchaangas[d + 1].tropical_date_sunset.month] + '-puNyakAlaH'
+        jd_transition = self.daily_panchaangas[d].tropical_date_sunset.month_transition
+        # TODO: convert carefully to relative nadikas!
+        punya_kaala_start_jd = jd_transition - PUNYA_KAALA[self.daily_panchaangas[d + 1].tropical_date_sunset.month][0] * 1/60
+        punya_kaala_end_jd = jd_transition + PUNYA_KAALA[self.daily_panchaangas[d + 1].tropical_date_sunset.month][1] * 1/60
+        if punya_kaala_start_jd < self.daily_panchaangas[d].jd_sunrise:
+          fday = d - 1
+        else:
+          fday = d
+        # self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name=punya_kaala_str, interval=Interval(jd_start=punya_kaala_start_jd, jd_end=punya_kaala_end_jd)), date=self.daily_panchaangas[fday].date)
+        self.daily_panchaangas[fday].festival_id_to_instance[punya_kaala_str] = (FestivalInstance(name=punya_kaala_str, interval=Interval(jd_start=punya_kaala_start_jd, jd_end=punya_kaala_end_jd)))
+
+        # Add tropical sankranti
+        masa_name = RTU_MASA_NAMES[self.daily_panchaangas[d + 1].tropical_date_sunset.month]
+        if jd_transition < self.daily_panchaangas[d].jd_sunrise:
+          fday = d - 1
+        else:
+          fday = d
+        # self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name=masa_name, interval=Interval(jd_start=None, jd_end=jd_transition)), date=self.daily_panchaangas[fday].date)
+        self.daily_panchaangas[fday].festival_id_to_instance[masa_name] = (FestivalInstance(name=masa_name, interval=Interval(jd_start=None, jd_end=jd_transition)))
 
 
   def assign_agni_nakshatra(self):
