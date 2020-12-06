@@ -28,6 +28,7 @@ class Graha(JsonObject):
   MERCURY = "mercury"
   MARS = "mars"
   SATURN = "saturn"
+  RAHU = "rahu"
 
   @methodtools.lru_cache(maxsize=None)
   @classmethod
@@ -54,6 +55,8 @@ class Graha(JsonObject):
       body_id = swe.MARS
     elif self.body_name == Graha.SATURN:
       body_id = swe.SATURN
+    elif self.body_name == Graha.RAHU:
+      body_id = 10
     return body_id
 
   def get_longitude(self, jd, ayanaamsha_id=None):
