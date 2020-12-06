@@ -73,6 +73,8 @@ class SolarFestivalAssigner(FestivalAssigner):
         punya_kaala_start_jd = jd_transition - PUNYA_KAALA[self.daily_panchaangas[d + 1].tropical_date_sunset.month][0] * 1/60
         punya_kaala_end_jd = jd_transition + PUNYA_KAALA[self.daily_panchaangas[d + 1].tropical_date_sunset.month][1] * 1/60
         self.daily_panchaangas[d].festival_id_to_instance[punya_kaala_str] = ( FestivalInstance(name=punya_kaala_str, interval=Interval(jd_start=punya_kaala_start_jd, jd_end=punya_kaala_end_jd)))
+        masa_name = names.NAMES['RTU_MASA_NAMES']['sa']['hk'][self.daily_panchaangas[d + 1].tropical_date_sunset.month]
+        self.daily_panchaangas[d].festival_id_to_instance[masa_name] = (FestivalInstance(name=masa_name, interval=Interval(jd_start=None, jd_end=jd_transition)))
 
   def assign_agni_nakshatra(self):
     if 'agninakSatra-ArambhaH' not in self.rules_collection.name_to_rule:
