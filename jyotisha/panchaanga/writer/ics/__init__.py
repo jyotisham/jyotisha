@@ -29,7 +29,7 @@ logging.basicConfig(
 CODE_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
 
 
-def compute_calendar(panchaanga, languages=None, scripts=None, set_sequence=True):
+def compute_calendar(panchaanga, languages=None, scripts=None, set_sequence=True, festivals_only=False):
 
   if scripts is None:
     scripts = [sanscript.DEVANAGARI]
@@ -43,8 +43,9 @@ def compute_calendar(panchaanga, languages=None, scripts=None, set_sequence=True
   for day_index, daily_panchaanga in enumerate(daily_panchaangas):
     if daily_panchaanga.date < panchaanga.start_date or daily_panchaanga.date > panchaanga.end_date:
       continue
-    event = get_day_summary_event(d=day_index, panchaanga=panchaanga, script=scripts[0])
-    ics_calendar.add_component(event)
+    if not festivals_only:
+      event = get_day_summary_event(d=day_index, panchaanga=panchaanga, script=scripts[0])
+      ics_calendar.add_component(event)
     add_festival_events(day_index=day_index, ics_calendar=ics_calendar, panchaanga=panchaanga, scripts=scripts, languages=languages)
 
     # if m == 12 and dt == 31:
