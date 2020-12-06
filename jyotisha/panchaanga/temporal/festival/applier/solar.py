@@ -49,9 +49,13 @@ class SolarFestivalAssigner(FestivalAssigner):
 
     PUNYA_KAALA = {1: (10, 10), 2: (16, 16), 3: (0, 60), 4: (30, 0), 5: (16, 16), 6: (0, 60),
                    7: (10, 10), 8: (16, 16), 9: (0, 60), 10: (0, 20), 11: (16, 16), 12: (0, 60)}
-    SANKRANTI_PUNYAKALA_NAMES = {1: "mESa-viSu", 2: "viSNupadI", 3: "SaDazIti", 4: "kaTaka-saGkrAnti",
-      5: "viSNupadI", 6: "SaDazIti", 7: "tulA-viSu", 8: "viSNupadI",
-      9: "SaDazIti", 10: "makara-saGkrAnti", 11: "viSNupadI", 12: "SaDazIti"}
+    SANKRANTI_PUNYAKALA_NAMES = {1: "mESa-saGkramaNa", 2: "viSNupadI", 3: "SaDazIti", 4: "kaTaka-saGkramaNa",
+      5: "viSNupadI", 6: "SaDazIti", 7: "tulA-saGkramaNa", 8: "viSNupadI",
+      9: "SaDazIti", 10: "makara-saGkramaNa", 11: "viSNupadI", 12: "SaDazIti"}
+    RTU_MASA_NAMES = {1:"madhu-mAsaH", 2:"mAdhava-mAsaH/vasantaRtuH", 3:"zukra-mAsaH/uttarAyaNam",
+      4:"zuci-mAsaH/grISmaRtuH", 5:"nabhO-mAsaH", 6:"nabhasya-mAsaH/varSaRtuH",
+      7:"iSa-mAsaH", 8:"Urja-mAsaH/zaradRtuH", 9:"sahO-mAsaH/dakSiNAyanam",
+      10:"sahasya-mAsaH/hEmantaRtuH", 11:"tapO-mAsaH", 12:"tapasya-mAsaH/ziziraRtuH"}
     TROPICAL_SANKRANTI_PUNYAKALA_NAMES = {1: "mESa-viSu", 2: "viSNupadI", 3: "SaDazIti", 4: "dakSiNAyana",
       5: "viSNupadI", 6: "SaDazIti", 7: "tulA-viSu", 8: "viSNupadI",
       9: "SaDazIti", 10: "uttarAyaNa", 11: "viSNupadI", 12: "SaDazIti"}
@@ -63,18 +67,36 @@ class SolarFestivalAssigner(FestivalAssigner):
         # TODO: convert carefully to relative nadikas!
         punya_kaala_start_jd = jd_transition - PUNYA_KAALA[self.daily_panchaangas[d + 1].solar_sidereal_date_sunset.month][0] * 1/60
         punya_kaala_end_jd = jd_transition + PUNYA_KAALA[self.daily_panchaangas[d + 1].solar_sidereal_date_sunset.month][1] * 1/60
-        self.daily_panchaangas[d].festival_id_to_instance[punya_kaala_str] = ( FestivalInstance(name=punya_kaala_str, interval=Interval(jd_start=punya_kaala_start_jd, jd_end=punya_kaala_end_jd)))
+        if punya_kaala_start_jd < self.daily_panchaangas[d].jd_sunrise:
+          fday = d - 1
+        else:
+          fday = d
+        # self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name=punya_kaala_str, interval=Interval(jd_start=punya_kaala_start_jd, jd_end=punya_kaala_end_jd)), date=self.daily_panchaangas[fday].date)
+        self.daily_panchaangas[fday].festival_id_to_instance[punya_kaala_str] = (FestivalInstance(name=punya_kaala_str, interval=Interval(jd_start=punya_kaala_start_jd, jd_end=punya_kaala_end_jd)))
 
       if self.daily_panchaangas[d].tropical_date_sunset.month_transition is not None:
-        logging.debug(d)
+        # Add punyakala
         punya_kaala_str = TROPICAL_SANKRANTI_PUNYAKALA_NAMES[self.daily_panchaangas[d + 1].tropical_date_sunset.month] + '-puNyakAlaH'
         jd_transition = self.daily_panchaangas[d].tropical_date_sunset.month_transition
         # TODO: convert carefully to relative nadikas!
         punya_kaala_start_jd = jd_transition - PUNYA_KAALA[self.daily_panchaangas[d + 1].tropical_date_sunset.month][0] * 1/60
         punya_kaala_end_jd = jd_transition + PUNYA_KAALA[self.daily_panchaangas[d + 1].tropical_date_sunset.month][1] * 1/60
-        self.daily_panchaangas[d].festival_id_to_instance[punya_kaala_str] = ( FestivalInstance(name=punya_kaala_str, interval=Interval(jd_start=punya_kaala_start_jd, jd_end=punya_kaala_end_jd)))
-        masa_name = names.NAMES['RTU_MASA_NAMES']['sa']['hk'][self.daily_panchaangas[d + 1].tropical_date_sunset.month]
-        self.daily_panchaangas[d].festival_id_to_instance[masa_name] = (FestivalInstance(name=masa_name, interval=Interval(jd_start=None, jd_end=jd_transition)))
+        if punya_kaala_start_jd < self.daily_panchaangas[d].jd_sunrise:
+          fday = d - 1
+        else:
+          fday = d
+        # self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name=punya_kaala_str, interval=Interval(jd_start=punya_kaala_start_jd, jd_end=punya_kaala_end_jd)), date=self.daily_panchaangas[fday].date)
+        self.daily_panchaangas[fday].festival_id_to_instance[punya_kaala_str] = (FestivalInstance(name=punya_kaala_str, interval=Interval(jd_start=punya_kaala_start_jd, jd_end=punya_kaala_end_jd)))
+
+        # Add tropical sankranti
+        masa_name = RTU_MASA_NAMES[self.daily_panchaangas[d + 1].tropical_date_sunset.month]
+        if jd_transition < self.daily_panchaangas[d].jd_sunrise:
+          fday = d - 1
+        else:
+          fday = d
+        # self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name=masa_name, interval=Interval(jd_start=None, jd_end=jd_transition)), date=self.daily_panchaangas[fday].date)
+        self.daily_panchaangas[fday].festival_id_to_instance[masa_name] = (FestivalInstance(name=masa_name, interval=Interval(jd_start=None, jd_end=jd_transition)))
+
 
   def assign_agni_nakshatra(self):
     if 'agninakSatra-ArambhaH' not in self.rules_collection.name_to_rule:
