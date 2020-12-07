@@ -163,7 +163,7 @@ class Panchaanga(common.JsonObject):
     generic_assigner = FestivalAssigner(panchaanga=self)
     generic_assigner.cleanup_festivals()
     rule_lookup_assigner.assign_relative_festivals()
-    self._sync_festivals_dict_and_daily_festivals(here_to_daily=True, daily_to_here=True)
+    # self._sync_festivals_dict_and_daily_festivals(here_to_daily=True, daily_to_here=True)
     generic_assigner.assign_festival_numbers()
     self.clear_padding_day_festivals()
 
@@ -175,7 +175,7 @@ class Panchaanga(common.JsonObject):
           if not isinstance(fest_day, Date):
             logging.fatal(festival_id + " " + str(days))
           fest_day_str = fest_day.get_date_str()
-          if fest_day_str in self.date_str_to_panchaanga:
+          if fest_day_str in self.date_str_to_panchaanga and festival_id not in self.date_str_to_panchaanga[fest_day_str].festival_id_to_instance:
             self.date_str_to_panchaanga[fest_day_str].festival_id_to_instance[festival_id] =  FestivalInstance(name=festival_id)
 
     if daily_to_here:
@@ -199,8 +199,9 @@ class Panchaanga(common.JsonObject):
     self.add_festival_instance(date=date, festival_instance=FestivalInstance(name=fest_id))
 
   def add_festival_instance(self, festival_instance, date):
-    p_fday = self.date_str_to_panchaanga[date.get_date_str()]
-    p_fday.festival_id_to_instance[festival_instance.name] = festival_instance
+    p_fday = self.date_str_to_panchaanga.get(date.get_date_str(), None)
+    if p_fday is not None:
+      p_fday.festival_id_to_instance[festival_instance.name] = festival_instance
     self.festival_id_to_days[festival_instance.name].add(date)
 
   def delete_festival_date(self, fest_id, date):

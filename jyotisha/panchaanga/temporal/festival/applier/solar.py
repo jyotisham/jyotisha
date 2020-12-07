@@ -71,8 +71,7 @@ class SolarFestivalAssigner(FestivalAssigner):
           fday = d - 1
         else:
           fday = d
-        # self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name=punya_kaala_str, interval=Interval(jd_start=punya_kaala_start_jd, jd_end=punya_kaala_end_jd)), date=self.daily_panchaangas[fday].date)
-        self.daily_panchaangas[fday].festival_id_to_instance[punya_kaala_str] = (FestivalInstance(name=punya_kaala_str, interval=Interval(jd_start=punya_kaala_start_jd, jd_end=punya_kaala_end_jd)))
+        self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name=punya_kaala_str, interval=Interval(jd_start=punya_kaala_start_jd, jd_end=punya_kaala_end_jd)), date=self.daily_panchaangas[fday].date)
 
       if self.daily_panchaangas[d].tropical_date_sunset.month_transition is not None:
         # Add punyakala
@@ -85,8 +84,7 @@ class SolarFestivalAssigner(FestivalAssigner):
           fday = d - 1
         else:
           fday = d
-        # self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name=punya_kaala_str, interval=Interval(jd_start=punya_kaala_start_jd, jd_end=punya_kaala_end_jd)), date=self.daily_panchaangas[fday].date)
-        self.daily_panchaangas[fday].festival_id_to_instance[punya_kaala_str] = (FestivalInstance(name=punya_kaala_str, interval=Interval(jd_start=punya_kaala_start_jd, jd_end=punya_kaala_end_jd)))
+        self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name=punya_kaala_str, interval=Interval(jd_start=punya_kaala_start_jd, jd_end=punya_kaala_end_jd)), date=self.daily_panchaangas[fday].date)
 
         # Add tropical sankranti
         masa_name = RTU_MASA_NAMES[(self.daily_panchaangas[d + 1].tropical_date_sunset.month - 2) % 12 + 1]
@@ -94,8 +92,7 @@ class SolarFestivalAssigner(FestivalAssigner):
           fday = d - 1
         else:
           fday = d
-        # self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name=masa_name, interval=Interval(jd_start=None, jd_end=jd_transition)), date=self.daily_panchaangas[fday].date)
-        self.daily_panchaangas[fday].festival_id_to_instance[masa_name] = (FestivalInstance(name=masa_name, interval=Interval(jd_start=None, jd_end=jd_transition)))
+        self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name=masa_name, interval=Interval(jd_start=None, jd_end=jd_transition)), date=self.daily_panchaangas[fday].date)
 
 
   def assign_agni_nakshatra(self):
@@ -137,9 +134,11 @@ class SolarFestivalAssigner(FestivalAssigner):
         if NakshatraDivision(daily_panchaanga.jd_sunrise - (1 / 15.0) * (daily_panchaanga.jd_sunrise - self.daily_panchaangas[d - 1].jd_sunrise),
                              ayanaamsha_id=self.ayanaamsha_id).get_solar_raashi().index == 12:
           # If kumbha prevails two ghatikAs before sunrise, nombu can be done in the early morning itself, else, previous night.
-          self.panchaanga.festival_id_to_days[festival_name] = {self.daily_panchaangas[d - 1].date}
+          self.panchaanga.add_festival(
+            fest_id=festival_name, date=self.daily_panchaangas[d - 1].date)
         else:
-          self.panchaanga.festival_id_to_days[festival_name] = {daily_panchaanga.date}
+          self.panchaanga.add_festival(
+            fest_id=festival_name, date=daily_panchaanga.date)
 
   def assign_month_day_kuchela(self):
     if 'kucEla-dinam' not in self.rules_collection.name_to_rule:
@@ -147,7 +146,8 @@ class SolarFestivalAssigner(FestivalAssigner):
     for d, daily_panchaanga in enumerate(self.daily_panchaangas):
       # KUCHELA DINAM
       if daily_panchaanga.solar_sidereal_date_sunset.month == 9 and daily_panchaanga.solar_sidereal_date_sunset.day <= 7 and daily_panchaanga.date.get_weekday() == 3:
-        self.panchaanga.festival_id_to_days['kucEla-dinam'] = {daily_panchaanga.date}
+        self.panchaanga.add_festival(
+          fest_id='kucEla-dinam', date=daily_panchaanga.date)
 
   def assign_month_day_mesha_sankraanti(self):
     if 'mESa-saGkrAntiH' not in self.rules_collection.name_to_rule:
@@ -172,7 +172,7 @@ class SolarFestivalAssigner(FestivalAssigner):
         festival_name = 'mahAdhanurvyatIpAta-zrAddham'
         self.panchaanga.add_festival(fest_id=festival_name, date=date)
       elif self.panchaanga.date_str_to_panchaanga[date.get_date_str()].solar_sidereal_date_sunset.month == 6:
-        self.panchaanga.festival_id_to_days['vyatIpAta-zrAddham'].remove(date)
+        self.panchaanga.delete_festival_date(fest_id='vyatIpAta-zrAddham', date=date)
         festival_name = 'mahAvyatIpAta-zrAddham'
         self.panchaanga.add_festival(fest_id=festival_name, date=date)
 

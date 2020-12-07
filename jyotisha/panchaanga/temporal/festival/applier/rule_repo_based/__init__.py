@@ -15,12 +15,8 @@ class RuleLookupAssigner(FestivalAssigner):
       logging.error('yajurvEda-upAkarma not in festival_id_to_instance!')
     elif 'varalakSmI-vratam' in self.rules_collection.name_to_rule:
       # Extended for longer calendars where more than one upAkarma may be there
-      self.panchaanga.festival_id_to_days['varalakSmI-vratam'] = set()
       for d in self.panchaanga.festival_id_to_days['yajurvEda-upAkarma']:
-        self.panchaanga.festival_id_to_days['varalakSmI-vratam'].add(d - ((d.get_weekday() - 5) % 7))
-      # self.panchaanga.festival_id_to_days['varalakSmI-vratam'] = [self.panchaanga.festival_id_to_days['yajurvEda-upAkarma'][0] -
-      #                                        ((self.panchaanga.weekday_start - 1 + self.panchaanga.festival_id_to_days['yajurvEda-upAkarma'][
-      #                                            0] - 5) % 7)]
+        self.panchaanga.add_festival(fest_id='varalakSmI-vratam', date=d - ((d.get_weekday() - 5) % 7))
 
     name_to_rule = self.rules_collection.name_to_rule
 
@@ -41,9 +37,11 @@ class RuleLookupAssigner(FestivalAssigner):
           logging.error('Relative festival %s not in festival_id_to_days! Found more than one approximate match: %s' % (
             rel_festival_name, str(matched_festivals)))
         else:
-          self.panchaanga.festival_id_to_days[festival_name] = set([x + offset for x in self.panchaanga.festival_id_to_days[matched_festivals[0]]])
+          for x in self.panchaanga.festival_id_to_days[matched_festivals[0]]:
+            self.panchaanga.add_festival(fest_id=festival_name, date=x + offset)
       else:
-        self.panchaanga.festival_id_to_days[festival_name] = set([x + offset for x in self.panchaanga.festival_id_to_days[rel_festival_name]])
+        for x in self.panchaanga.festival_id_to_days[rel_festival_name]:
+          self.panchaanga.add_festival(fest_id=festival_name, date=x + offset)
 
   def apply_festival_from_rules_repos(self):
     for index, dp in enumerate(self.daily_panchaangas):
@@ -64,8 +62,7 @@ class RuleLookupAssigner(FestivalAssigner):
     date = day_panchaanga.get_date(month_type=month_type)
     fest_dict = rule_set.get_month_anga_fests(month=date.month, anga=date.day, month_type=month_type, anga_type_id=rules.RulesRepo.DAY_DIR)
     for fest_id, fest in fest_dict.items():
-      day_panchaanga.festival_id_to_instance[fest_id] = FestivalInstance(name=fest.id)
-      self.festival_id_to_days[fest_id].add(day_panchaanga.date)
+      self.panchaanga.add_festival(fest_id=fest_id, date=day_panchaanga.date)
 
   @timebudget
   def _get_relevant_festivals(self, anga_type, month_type, panchaangas):

@@ -48,7 +48,8 @@ class EclipticFestivalAssigner(FestivalAssigner):
         solar_eclipse_str = 'sUrya-grahaNaM~(' + grasta + ')'
         if self.daily_panchaangas[fday].date.get_weekday() == 0:
           solar_eclipse_str = '★cUDAmaNi-' + solar_eclipse_str
-        self.daily_panchaangas[fday]. festival_id_to_instance[solar_eclipse_str] = ( FestivalInstance(name=solar_eclipse_str, interval=Interval(jd_start=jd_eclipse_solar_start, jd_end=jd_eclipse_solar_end)))
+        fest = FestivalInstance(name=solar_eclipse_str, interval=Interval(jd_start=jd_eclipse_solar_start, jd_end=jd_eclipse_solar_end))
+      self.panchaanga.add_festival_instance(festival_instance=fest, date=self.daily_panchaangas[fday].date)
       jd = jd + MIN_DAYS_NEXT_ECLIPSE
 
   def compute_lunar_eclipses(self):
@@ -100,7 +101,8 @@ class EclipticFestivalAssigner(FestivalAssigner):
         if self.daily_panchaangas[fday].date.get_weekday() == 1:
           lunar_eclipse_str = '★cUDAmaNi-' + lunar_eclipse_str
 
-        self.daily_panchaangas[fday].festival_id_to_instance[lunar_eclipse_str] = ( FestivalInstance(name=lunar_eclipse_str, interval=Interval(jd_start=jd_eclipse_lunar_start, jd_end=jd_eclipse_lunar_end)))
+        fest = FestivalInstance(name=lunar_eclipse_str, interval=Interval(jd_start=jd_eclipse_lunar_start, jd_end=jd_eclipse_lunar_end))
+        self.panchaanga.add_festival_instance(festival_instance=fest, date=self.daily_panchaangas[fday].date)
       jd += MIN_DAYS_NEXT_ECLIPSE
 
   def set_jupiter_transits(self):
@@ -118,7 +120,7 @@ class EclipticFestivalAssigner(FestivalAssigner):
         if self.panchaanga.jd_start < jd_transit < jd_end:
           fday = int(floor(jd_transit) - floor(self.daily_panchaangas[0].julian_day_start))
           fest = TransitionFestivalInstance(name='guru-saGkrAntiH', status_1_hk=names.NAMES['RASHI_NAMES']['sa']['hk'][rashi1], status_2_hk=names.NAMES['RASHI_NAMES']['sa']['hk'][rashi2])
-          self.daily_panchaangas[fday].festival_id_to_instance[fest.name] =  fest
+          self.panchaanga.add_festival_instance(festival_instance=fest, date=self.daily_panchaangas[fday].date)
           if rashi1 < rashi2 and transits[i + 1].value_1 < transits[i + 1].value_2:
             # Considering only non-retrograde transits for pushkara computations
             # logging.debug('Non-retrograde transit; we have a pushkaram!')
@@ -128,14 +130,14 @@ class EclipticFestivalAssigner(FestivalAssigner):
               fday_pushkara = fday
             else:
               fday_pushkara = fday + 1
-            self.festival_id_to_days[
-              '%s-Adi-puSkara-ArambhaH' % names.NAMES['PUSHKARA_NAMES']['sa']['hk'][rashi2]].add(self.daily_panchaangas[fday_pushkara].date)
-            self.festival_id_to_days[
-              '%s-Adi-puSkara-samApanam' % names.NAMES['PUSHKARA_NAMES']['sa']['hk'][rashi2]].add(self.daily_panchaangas[fday_pushkara].date + 11)
-            self.festival_id_to_days[
-              '%s-antya-puSkara-samApanam' % names.NAMES['PUSHKARA_NAMES']['sa']['hk'][rashi1]].add(self.daily_panchaangas[fday_pushkara].date - 1)
-            self.festival_id_to_days[
-              '%s-antya-puSkara-ArambhaH' % names.NAMES['PUSHKARA_NAMES']['sa']['hk'][rashi1]].add(self.daily_panchaangas[fday_pushkara].date - 12)
+            self.panchaanga.add_festival(
+              fest_id='%s-Adi-puSkara-ArambhaH' % names.NAMES['PUSHKARA_NAMES']['sa']['hk'][rashi2], date=self.daily_panchaangas[fday_pushkara].date)
+            self.panchaanga.add_festival(
+              fest_id='%s-Adi-puSkara-samApanam' % names.NAMES['PUSHKARA_NAMES']['sa']['hk'][rashi2], date=self.daily_panchaangas[fday_pushkara].date + 11)
+            self.panchaanga.add_festival(
+              fest_id='%s-antya-puSkara-samApanam' % names.NAMES['PUSHKARA_NAMES']['sa']['hk'][rashi1], date=self.daily_panchaangas[fday_pushkara].date - 1)
+            self.panchaanga.add_festival(
+              fest_id='%s-antya-puSkara-ArambhaH' % names.NAMES['PUSHKARA_NAMES']['sa']['hk'][rashi1], date=self.daily_panchaangas[fday_pushkara].date - 12)
 
 
 MIN_DAYS_NEXT_ECLIPSE = 25

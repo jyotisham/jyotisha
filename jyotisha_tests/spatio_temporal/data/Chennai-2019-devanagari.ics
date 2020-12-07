@@ -25580,23 +25580,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:vyatīpāta-śrāddham
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190921T235957
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190922T235957
-DESCRIPTION:Observed on Vyatīpātaḥ yoga of every solar month (Aparāh
- ṇaḥ/vyaapti).  <br/>Vyatipata Shraddha day.<br/><br/>##### Details<br/
- >- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/ma
- ster/devatA/pitR/sidereal_solar_month/yoga/00/17/vyatIpAta-zrAddham.toml)<
- br/>- Tags: MonthlyShraddhaDays ShannavatiTarpanaDays
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Bhādrapadaḥ-06-24\,Mithunam-Ārdrā🌛🌌◢◣Kanyā-Uttarap
  halgunī-06-07🌌🌞◢◣Iṣaḥ-07-01🪐🌞
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190923T060123
@@ -28300,23 +28283,6 @@ DESCRIPTION:Special vrata day for Ganesha. In this month\, Ganesha is wors
  nfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA
  /gaNapati/description_only/vakratuNDa-mahAgaNapati%20saGkaTahara-caturthI-
  vratam.toml)<br/>- Tags: MonthlyVratam SankataharaChaturthiVratam
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:vyatīpāta-śrāddham
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191016T235957
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191017T235957
-DESCRIPTION:Observed on Vyatīpātaḥ yoga of every solar month (Aparāh
- ṇaḥ/vyaapti).  <br/>Vyatipata Shraddha day.<br/><br/>##### Details<br/
- >- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/ma
- ster/devatA/pitR/sidereal_solar_month/yoga/00/17/vyatIpAta-zrAddham.toml)<
- br/>- Tags: MonthlyShraddhaDays ShannavatiTarpanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE

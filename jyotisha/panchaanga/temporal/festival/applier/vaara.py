@@ -28,7 +28,7 @@ class VaraFestivalAssigner(FestivalAssigner):
         if festival_name not in self.panchaanga.festival_id_to_days:
           # only the first bhRguvAra of tulA mAsa is considered (skAnda purANam)
           # https://youtu.be/rgXwyo0L3i8?t=222
-          self.festival_id_to_days[festival_name].add(self.daily_panchaangas[d].date)
+          self.panchaanga.add_festival(fest_id=festival_name, date=self.daily_panchaangas[d].date)
 
   def assign_masa_vara_yoga_kRttikaa(self):
     festival_name = 'kRttikA~sOmavAsaraH'
@@ -64,7 +64,7 @@ class VaraFestivalAssigner(FestivalAssigner):
         festival_name = 'aGgAraka-caturthI'
         if self.daily_panchaangas[d].sunrise_day_angas.tithi_at_sunrise.index == 4:
           festival_name = 'sukhA' + '~' + festival_name
-        self.festival_id_to_days[festival_name].add(self.daily_panchaangas[d].date)
+        self.panchaanga.add_festival(fest_id=festival_name, date=self.daily_panchaangas[d].date)
 
   def assign_tithi_vara_yoga_kRSNAGgAraka(self):
     if 'kRSNAGgAraka-caturdazI-puNyakAlaH or yamatarpaNam' not in self.rules_collection.name_to_rule:
