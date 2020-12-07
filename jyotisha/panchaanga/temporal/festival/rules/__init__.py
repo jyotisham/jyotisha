@@ -6,8 +6,8 @@ from pathlib import Path
 import methodtools
 from timebudget import timebudget
 
-from indic_transliteration import sanscript
 from jyotisha import custom_transliteration
+from jyotisha.panchaanga.temporal.festival.rules.migrator import import_to_xaatra_later
 from sanskrit_data.schema import common
 
 
@@ -333,37 +333,6 @@ class RulesCollection(common.JsonObject):
       for m in [month, 0]:
         fest_dict.update(self.get_month_anga_fests(month_type=month_type, month=m, anga_type_id=anga_type_id, anga=anga))
     return fest_dict
-
-
-def import_to_xaatra_later():
-  import toml
-  input_path = ""
-  events_in = toml.load(input_path)
-  repo = RulesRepo(name="mahApuruSha/xatra-later")
-  for event in events_in["data"]:
-    logging.debug(event)
-    from jyotisha.panchaanga.temporal.time import Date
-    timing = HinduCalendarEventTiming()
-    if "Gregorian date" in event:
-      date_str = event["Gregorian date"]
-      timing.month_type = RulesRepo.GREGORIAN_MONTH_DIR
-    else:
-      date_str = event["Julian date"]
-      timing.month_type = RulesRepo.JULIAN_MONTH_DIR
-    dt = Date.from_string(date_str)
-    timing.anga_type = RulesRepo.DAY_DIR
-    timing.month_number = dt.month
-    timing.anga_number = dt.day
-    timing.year_start = dt.year
-    timing.year_start_era = RulesRepo.ERA_GREGORIAN
-    rule = HinduCalendarEvent()
-    rule.timing = timing
-    rule.id = event["name_sa"].replace(" ", "_")
-    en_description = " ".join([event["tithi"], event["Incident"], event["Other notes"]])
-    rule.description = {"en": en_description.strip()}
-    rule.names = {"sa": [sanscript.transliterate(data=event["name_sa"], _from=sanscript.OPTITRANS, _to=sanscript.DEVANAGARI)]}
-    rule.dump_to_file(filename=rule.get_storage_file_name(base_dir=repo.get_path()))
-
 
 
 # Essential for depickling to work.
