@@ -164,9 +164,7 @@ class HinduCalendarEvent(common.JsonObject):
         id=self.id.replace('/','__').strip('{}')
       )
     elif self.timing is None or self.timing.month_number is None:
-      tag_list = '/'.join(self.tags)
       path = "description_only/%(id)s.toml" % dict(
-        tags=tag_list,
         id=self.id.replace('/','__').strip('{}')
       )
     else:
@@ -317,6 +315,36 @@ class RulesCollection(common.JsonObject):
     return fest_dict
 
 
+def import_to_xaatra_later():
+  import toml
+  input_path = "/home/vvasuki/hindutva/hindutva-hugo/content/main/history/event_record.toml"
+  events_in = toml.load(input_path)
+  repo = RulesRepo(name="mahApuruSha/xatra-later")
+  for event in events_in["data"]:
+    logging.debug(event)
+    from jyotisha.panchaanga.temporal.time import Date
+    if "Gregorian date" in dt:
+      date_str = event["Gregorian date"]
+      dt = Date.from_string(event[date_str])
+    else:
+      date_str = event["Julian date"]
+      dt = Date.from_julian_date_string(event[date_str])
+    timing = HinduCalendarEventTiming()
+    timing.month_type = RulesRepo.GREGORIAN_MONTH_DIR
+    timing.anga_type = RulesRepo.DAY_DIR
+    timing.month_number = dt.month
+    timing.anga_number = dt.day
+    timing.year_start = dt.year
+    timing.year_start_era = RulesRepo.ERA_GREGORIAN
+    rule = HinduCalendarEvent()
+    rule.timing = timing
+    rule.id = event["name_sa"].replace(" ", "_")
+    rule.description = {"en": " ".join([event["Incident"], event["Other notes"]])}
+    rule.names = {"sa": sanscript.transliterate(data=event["name_sa"], _from=sanscript.OPTITRANS, _to=sanscript.DEVANAGARI)}
+    rule.repo = repo
+    rule.dump_to_file(filename=rule.get_storage_file_name(base_dir=repo.get_path()))
+
+
 
 # Essential for depickling to work.
 common.update_json_class_index(sys.modules[__name__])
@@ -326,5 +354,6 @@ common.update_json_class_index(sys.modules[__name__])
 if __name__ == '__main__':
   rules_collection = RulesCollection.get_cached(repos_tuple=rule_repos)
   # rules_collection = RulesCollection(repos=[RulesRepo(name="general")])
-  rules_collection.fix_filenames()
+  # rules_collection.fix_filenames()
   # rules_collection.fix_content()
+  import_to_xaatra_later()

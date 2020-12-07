@@ -6,6 +6,7 @@ sanskrit_data
 doc_curation
 indic_transliteration
 icalendar
+convertdate
 pytz
 geocoder
 geopy
