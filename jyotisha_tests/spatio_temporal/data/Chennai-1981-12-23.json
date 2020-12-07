@@ -12,6 +12,7 @@
     "festival_options": {
       "aparaahna_as_second_half": false,
       "jsonClass": "FestivalOptions",
+      "julian_handling": "JULIAN_TO_GREGORIAN",
       "prefer_eight_fold_day_division": false,
       "repos": [
         {

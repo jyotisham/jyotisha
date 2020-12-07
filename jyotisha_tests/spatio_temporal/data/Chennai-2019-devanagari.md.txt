@@ -16,6 +16,7 @@ jsonClass = "ComputationSystem"
 #### Event options
  ```
 aparaahna_as_second_half = false
+julian_handling = "JULIAN_TO_GREGORIAN"
 prefer_eight_fold_day_division = false
 jsonClass = "FestivalOptions"
 
@@ -439,6 +440,17 @@ Have darshan of Moon today, chanting the following shloka
 ##### Details
 - [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/graha/description_only/candra-darzanam.toml)
 - Tags: ChandraDarshanam
+
+
+#### शिवराजेण रुस्तम्-जमानॊ ध्वस्तः #३६१
+
+Observed on day 7 of January (sunrise (default)/puurvaviddha (default)).  
+The event has been commemorated since it occurred in 1659 (gregorian era).  
+Shivaji defeated Rustam-i Zaman in an epic battle fought near Kolhapur.
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/01/07/shivAjI_vs_rustam-zamAn.toml)
+- Tags: Shivaji
 
 
 
@@ -1946,6 +1958,28 @@ Monthly Shivaratri day.
 - Tags: MonthlyFestivals
 
 
+#### शाहाजी-मृत्युः #३५६
+
+Observed on day 2 of February (sunrise (default)/puurvaviddha (default)).  
+The event has been commemorated since it occurred in 1664 (gregorian era).  
+shAhaji father of shivAjI died
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/02/02/shAhAjI-mRtyuH.toml)
+- Tags: 
+
+
+#### तालिकोट-युद्धम् #४५५
+
+Observed on day 2 of February (sunrise (default)/puurvaviddha (default)).  
+The event has been commemorated since it occurred in 1565 (gregorian era).  
+battle of tAlikoTa. jihAdi forces won a major victory against the forces of vijayanagara and beheaded rAmarAya - thanks supposedly in part to betrayal by two muslim generals.
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/02/02/tAlikoTa-yuddham.toml)
+- Tags: 
+
+
 #### शनि-प्रदोष-व्रतम्
 
 
@@ -2345,6 +2379,17 @@ Observed on Śukla-Caturthī tithi of Māghaḥ (lunar) month (sunrise (default)
 ##### Details
 - [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/RShi/lunar_month/tithi/11/04/mArkaNDEya~jayantI.toml)
 - Tags: MahapurushaEvents CommonFestivals
+
+
+#### प्रोक्लस्-जन्म #१६०८
+
+Observed on day 9 of February (sunrise (default)/puurvaviddha (default)).  
+The event has been commemorated since it occurred in 412 (gregorian era).  
+Roman Polytheist Platonist sage Proclus was born on this day
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/general/gregorian/day/02/09/proklas-janma.toml)
+- Tags: 
 
 
 #### तिरुच्चॆन्दूर् मुरुगऩ् माचित् तिरुविऴा 2म् नाळ्
@@ -2794,6 +2839,17 @@ Brahmaikyam of Madhvacharya
 ##### Details
 - [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/mAdhva-misc/lunar_month/tithi/11/09/madhva-navamI.toml)
 - Tags: MahapurushaEvents
+
+
+#### तानाजी-वीर-गतिः #३५०
+
+Observed on day 14 of February (sunrise (default)/puurvaviddha (default)).  
+The event has been commemorated since it occurred in 1670 (gregorian era).  
+tANAji mAlsure capture sinhagad, scaling the wall with a lizard and sacrifices his life.
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/02/14/tAnAjI-vIra-gatiH.toml)
+- Tags: 
 
 
 #### तिरुच्चॆन्दूर् मुरुगऩ् माचित् तिरुविऴा 7म् नाळ्—उरुगु चत्तच् चेवै/चिगप्पु चात्ति अलङ्कारम्
@@ -3782,6 +3838,18 @@ Observed on Pūrvāṣāḍhā nakshatra of Kumbhaḥ (solar) month (Prātaḥ/p
 - Tags: NayanarGurupujai
 
 
+#### शिवराजो जातः #३९०
+
+Observed on day 1 of March (sunrise (default)/puurvaviddha (default)).  
+The event has been commemorated since it occurred in 1630 (gregorian era).  
+phAlguna k3 I recall the sacred memory of the great rAjan shivAji, about whom bhUShaNa wrote "चारौ वर्ण धर्म छोडि कलमा नेवाज पढि सिवाजी न होतो तौ सुनति होत सबकी" 🙏🙏
+ Some dispute it.
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/03/01/shivarAjo_jAtaH.toml)
+- Tags: 
+
+
 #### व्यतीपात-श्राद्धम्
 
 Observed on Vyatīpātaḥ yoga of every solar month (Aparāhṇaḥ/vyaapti).  
@@ -4099,6 +4167,17 @@ The event has been commemorated since it occurred in 4665 (kali era).
 ##### Details
 - [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/sangIta-kRt/lunar_month/tithi/11/30/purandaradAsa-ArAdhanA.toml)
 - Tags: MahapurushaEvents CommonFestivals
+
+
+#### राजारामो जातः #३५०
+
+Observed on day 6 of March (sunrise (default)/puurvaviddha (default)).  
+The event has been commemorated since it occurred in 1670 (gregorian era).  
+On this day was born Rajaram, 2nd son of Ch Shivaji, who continued the struggle for Swarajya from Ginjee after Sambhaji's brutal torture and execution for refusing to convert to Islam.
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/03/06/rAjArAmo_jAtaH.toml)
+- Tags: 
 
 
 
@@ -4681,6 +4760,17 @@ ___________________
 - Tags: TamilnaduTempleFestivals
 
 
+#### कोण्डाजी-सेनाधिपेन पन्हळ-दुर्गं गृहीतम् #३४७
+
+Observed on day 16 of March (sunrise (default)/puurvaviddha (default)).  
+The event has been commemorated since it occurred in 1673 (gregorian era).  
+Kondaji Farzand captured Panhala in a daring night escalade & the garrison was massacred.
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/03/16/koNDAjI-senAdhipena_panhaLa-durgaM_gRhItam.toml)
+- Tags: 
+
+
 #### वेङ्कटाचले प्लवोत्सव-आरम्भः
 
 
@@ -5126,6 +5216,17 @@ Observed on Uttaraphalgunī nakshatra of Mīnaḥ (solar) month (Prātaḥ/parav
 ##### Details
 - [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/temples/Tamil/sidereal_solar_month/nakshatra/12/12/paGgun2i~uttiram.toml)
 - Tags: TamilnaduTempleFestivals CommonFestivals
+
+
+#### शम्भुराजो पीडितो हतश् च #३३१
+
+Observed on day 21 of March (sunrise (default)/puurvaviddha (default)).  
+The event has been commemorated since it occurred in 1689 (gregorian era).  
+sambhAji mahArAj tortured and killed by awrangzeb
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/03/21/shambhurAjo_pIDito_hatash_cha.toml)
+- Tags: 
 
 
 #### स्थालीपाकः
@@ -5695,6 +5796,18 @@ Observed on Śatabhiṣak nakshatra of Mīnaḥ (solar) month (Prātaḥ/paravid
 - Tags: NayanarGurupujai
 
 
+#### नादिरशाहेन देहल्यां लोकहत्या #२८१
+
+Observed on day 2 of April (sunrise (default)/puurvaviddha (default)).  
+The event has been commemorated since it occurred in 1739 (gregorian era).  
+9 AM: It was the morning of Holi. A massacre, horrific beyond any description, breaks out on the streets of Delhi (started by nAdir shAh).
+When it ended several hours later, tens of thousands of corpses lay on the streets. Estimates range from 30000-80000
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/04/02/nAdirashAhena_dehalyAM_lokahatyA.toml)
+- Tags: 
+
+
 #### प्रदोष-व्रतम्
 
 
@@ -6139,6 +6252,18 @@ ___________________
 ___________________
 
 ### उत्सवाः
+#### बाजी-रावो देहलीम् प्राप्नोत् #२८३
+
+Observed on day 8 of April (sunrise (default)/puurvaviddha (default)).  
+The event has been commemorated since it occurred in 1737 (gregorian era).  
+One brother bAji rAv makes a dash to mogol Delhi, outmanoeuvring 2 armies; same day his younger bro chimAji appa readies to mount an attack on the Firangis.
+The Badshah at Delhi slept secure in the thought that the large armies of Sadat, Bangash & Khan Dauran to his south would protect him. From Gwalior area, Bajirao rode 200 km in just 4 days avoiding all those armies & gatecrashed Delhi. Then, he defeated a well trained Mughal Army led by Amir Khan Bahadur.
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/04/08/bAjI-rAvo_dehalIm_prApnot.toml)
+- Tags: 
+
+
 #### गौरी-तृतीया/सौभाग्य-गौरी-व्रतम्
 
 Observed on Śukla-Tṛtīyā tithi of Caitraḥ (lunar) month (sunrise (default)/puurvaviddha (default)).  
@@ -6404,6 +6529,17 @@ Observed on Ārdrā nakshatra of Mīnaḥ (solar) month (Prātaḥ/paraviddha).
 ##### Details
 - [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatra/12/06/gaNanAtha%20nAyan2Ar%20%2837%29%20gurupUjai.toml)
 - Tags: NayanarGurupujai
+
+
+#### परलि-दुर्गो जितः स्वराज्यॆन #३४७
+
+Observed on day 12 of April (sunrise (default)/puurvaviddha (default)).  
+The event has been commemorated since it occurred in 1673 (gregorian era).  
+Parali too was taken from Adil shAhi-s.
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/04/12/parali-durgo_jitaH_svarAjyEna.toml)
+- Tags: 
 
 
 
@@ -6903,6 +7039,17 @@ ___________________
 ___________________
 
 ### उत्सवाः
+#### अव्रङ्गज़ेबो हिन्दुकशालानाज़म् आदिशत् #३५१
+
+Observed on day 19 of April (sunrise (default)/puurvaviddha (default)).  
+The event has been commemorated since it occurred in 1669 (gregorian era).  
+Shortly after the death of Mirza Raja Jai Singh of Amber, a general order was issued (9th April 1669) for the demolition of temples and established schools of the Hindus throughout the empire and banning public worship. Soon after this the great Temple of Keshava Rai was destroyed (Jan.-Feb. 1670) and in its place a lofty mosque was erected. The idols, the author of Maasir-i-Alamgiri informs, were carried to Agra and buried under the steps of the mosque built by Begum Sahiba in order to be continually trodden upon, and the name of Mathura was changed to Islamabad.
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/04/19/avrangazebo_hindukashAlAnAzam_Adishat.toml)
+- Tags: 
+
+
 #### चैत्र-पूर्णिमा
 
 Observed on Paurṇamāsī tithi of Caitraḥ (lunar) month (sunrise (default)/puurvaviddha (default)).  
@@ -7211,6 +7358,17 @@ chaturthī tithi on a Tuesday is as sacred as a solar eclipse. Good day for doin
 - Tags: RareDays Combinations
 
 
+#### बालाजी-विश्वनाथो मृतः #३००
+
+Observed on day 23 of April (sunrise (default)/puurvaviddha (default)).  
+The event has been commemorated since it occurred in 1720 (gregorian era).  
+great peshva bAlAjI vishvanAth died.
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/04/23/bAlAjI-vishvanAtho_mRtaH.toml)
+- Tags: 
+
+
 #### गुरु-सङ्क्रान्तिः
 
 
@@ -7423,6 +7581,19 @@ ___________________
 - **शूलम्**—प्रतीची दिक् (►10:51); **परिहारः**–गुडम्  
 ___________________
 
+### उत्सवाः
+#### शिवराजेन हम्बीररावं सेनाधिपं चकार #३४६
+
+Observed on day 28 of April (sunrise (default)/puurvaviddha (default)).  
+The event has been commemorated since it occurred in 1674 (gregorian era).  
+Chhatrapati Shivaji inspected his army at Chiplun. A new commander-in-chief had been identified. His name was Hansaji Mohite. But that day Shivaji titled him Sarnobat (Chief of Army) Hambirrao & history will remember him by that name: Hambirrao father of Tara Bai
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/04/28/shivarAjena_hambIrarAvaM_senAdhipaM_cakAra.toml)
+- Tags: 
+
+
+
 ## 2019-04-29◢◣चैत्रः-01-25,कुम्भः-शतभिषक्🌛🌌◢◣मेषः-अपभरणी-01-16🌌🌞◢◣माधवः-02-10🪐🌞
 ___________________
 - 🪐🌞**ऋतुमानम्** — वसन्तऋतुः उत्तरायणम्
@@ -7492,6 +7663,17 @@ ___________________
 ___________________
 
 ### उत्सवाः
+#### मरुराक्षसस्य सिद्दि-सौतस्य वधः #२८४
+
+Observed on day 30 of April (sunrise (default)/puurvaviddha (default)).  
+The event has been commemorated since it occurred in 1736 (gregorian era).  
+On 19 April 1736 (julian) Chimaji Appa with Manaji Angre killed Siddi Saut in a battle at Kamarle in the Konkan. The Siddi had been cursed by BrahmendraSwami in 1726- 'you will be utterly destroyed', for attacking his Parshuram temple at Chiplun. Siddi Saut paid the price ten years later.
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/04/30/marurAkShasasya_siddi-sautasya_vadhaH.toml)
+- Tags: 
+
+
 #### सर्व-वरूथिनी-एकादशी
 
 The Krishna-paksha Ekadashi of chaitra month is known as varūthinī-ekādaśī.
@@ -8179,6 +8361,17 @@ ___________________
 ___________________
 
 ### उत्सवाः
+#### बाजी-रावो मृतः #२८०
+
+Observed on day 9 of May (sunrise (default)/puurvaviddha (default)).  
+The event has been commemorated since it occurred in 1740 (gregorian era).  
+vaishAkha s13, Raudra Sanvatsar, Saka era bAji rAv 1 dead.
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/05/09/bAjI-rAvo_mRtaH.toml)
+- Tags: 
+
+
 #### लावण्य-गौरी-व्रतम्
 
 Observed on Śukla-Pañcamī tithi of Vaiśākhaḥ (lunar) month (sunrise (default)/puurvaviddha (default)).  
@@ -9039,6 +9232,17 @@ Observed on Kṛṣṇa-Prathamā tithi of every lunar month (Pūrvāhṇaḥ/pu
 - Tags: MonthlyFestivals
 
 
+#### प्रतापसिंहो जातः #४८०
+
+Observed on day 19 of May (sunrise (default)/puurvaviddha (default)).  
+The event has been commemorated since it occurred in 1540 (gregorian era).  
+jyeShTha s3 Maharana Pratap Jayanti
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/05/19/pratApasiMho_jAtaH.toml)
+- Tags: 
+
+
 #### स्थालीपाकः
 
 Observed on Kṛṣṇa-Prathamā tithi of every lunar month (Pūrvāhṇaḥ/puurvaviddha).  
@@ -9352,6 +9556,17 @@ ___________________
 ___________________
 
 ### उत्सवाः
+#### शम्भुराजो जातः #३६३
+
+Observed on day 24 of May (sunrise (default)/puurvaviddha (default)).  
+The event has been commemorated since it occurred in 1657 (gregorian era).  
+jyeShTha s12 Sambhaji born
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/05/24/shambhurAjo_jAtaH.toml)
+- Tags: 
+
+
 #### श्रवण-व्रतम्
 
 Observed on Śravaṇaḥ nakshatra of every solar month (Sāṅgavaḥ/puurvaviddha (default)).  
@@ -9591,6 +9806,17 @@ A rare combination of āyuṣmān yoga, bava karaṇa and saumyavāsara.
 ##### Details
 - [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/time_focus/nakShatra/description_only/agninakSatra-samApanam.toml)
 - Tags: SpecialPeriodEnd
+
+
+#### कृष्णदेवरायस्य रायचूरु-जयः #५००
+
+Observed on day 29 of May (sunrise (default)/puurvaviddha (default)).  
+The event has been commemorated since it occurred in 1520 (gregorian era).  
+kRShNadevarAya smashed the Jihad of the Army of Islam in a great victory at Raichur
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/05/29/kRShNadevarAyasya_rAyachUru-jayaH.toml)
+- Tags: 
 
 
 
@@ -11040,6 +11266,17 @@ Observed on Paurṇamāsī tithi of Jyaiṣṭhaḥ (lunar) month (Aparāhṇa�
 ##### Details
 - [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/time_focus/yugAdiH/lunar_month/tithi/03/15/manvAdiH~%28bhautyaH~%5B14%5D%29.toml)
 - Tags: ManvadiDays
+
+
+#### शिवराजस्यैन्द्राभिषेकः #३४६
+
+Observed on day 16 of June (sunrise (default)/puurvaviddha (default)).  
+The event has been commemorated since it occurred in 1674 (gregorian era).  
+jyeShTha shukla 13 shivAji's aindrAbhiSheka.
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/06/16/shivarAjasyaindrAbhiSekaH.toml)
+- Tags: 
 
 
 #### वेङ्कटाचले ज्येष्ठ-अभिद्येयकाभिषेकः (मुत्यल-कवचम्)
@@ -13370,6 +13607,17 @@ ___________________
 ___________________
 
 ### उत्सवाः
+#### बाजि-प्रभुस् सिद्दि-मसूदम् अरुणत् #३६०
+
+Observed on day 23 of July (sunrise (default)/puurvaviddha (default)).  
+The event has been commemorated since it occurred in 1660 (gregorian era).  
+AshADha k1  bAji prabhu deshpANDe leading ~300 men died holding back Adil-shAhi african general siddi masud's 10k soldiers in a narrow pass while shivAji leading his 300 escaped to vishAlgad fort (having earlier let his barber take his place while escaping from another beseiged fort) and announced his safe arrival with a cannon-fire. PS: vishAlgad was already under siege by Bijapuri sardars Suryarao Surve and Jaswantrao Dalvi. it's a thrilling tale, akin to tale of the spartans holding back the persians at the narrow pass at Thermopylae.
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/07/23/bAji-prabhus_siddi-masUdam_aruNat.toml)
+- Tags: 
+
+
 #### लोकमान्य-तिळको जातः #१६४
 
 Observed on day 23 of July (sunrise (default)/puurvaviddha (default)).  
@@ -13703,6 +13951,17 @@ Monthly Shivaratri day.
 ##### Details
 - [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/shaiva/lunar_month/tithi/00/29/mAsazivarAtriH.toml)
 - Tags: MonthlyFestivals
+
+
+#### शम्भु-पट्टाभिषेकः #३४०
+
+Observed on day 30 of July (sunrise (default)/puurvaviddha (default)).  
+The event has been commemorated since it occurred in 1680 (gregorian era).  
+shrAvaNa s5  Sambhaji ascended the throne
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/07/30/shambhu-paTTAbhiShekaH.toml)
+- Tags: 
 
 
 
@@ -14199,6 +14458,17 @@ Observed on Śukla-Pañcamī tithi of Śrāvaṇaḥ (lunar) month (sunrise (def
 ##### Details
 - [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/vaiShNava/lunar_month/tithi/05/05/garuDa-paJcamI.toml)
 - Tags: PuranaEvents
+
+
+#### कृष्णदेवराय-पट्टाभिषेकः #५११
+
+Observed on day 5 of August (sunrise (default)/puurvaviddha (default)).  
+The event has been commemorated since it occurred in 1509 (gregorian era).  
+kRShNAShTamI (bhAdrapada-kRShNa likely) kRShNadevarAya coronated. https://twitter.com/i/moments/890055413374173186
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/08/05/kRShNadevarAya-paTTAbhiShekaH.toml)
+- Tags: 
 
 
 #### कल्कि-जयन्ती
@@ -14983,6 +15253,17 @@ World Sanskrit Day is celebrated on this day.
 ##### Details
 - [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/general/lunar_month/tithi/05/15/saMskRta-divasaH.toml)
 - Tags: OtherJayantis
+
+
+#### सदाशिव-रावो जातः #२९०
+
+Observed on day 15 of August (sunrise (default)/puurvaviddha (default)).  
+The event has been commemorated since it occurred in 1730 (gregorian era).  
+sadAshivrAv bhAu, who died fighting at 30 in pAnipaT, was born.
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/08/15/sadAshiva-rAvo_jAtaH.toml)
+- Tags: 
 
 
 #### सर्प-बलि-प्रारम्भः
@@ -15788,6 +16069,17 @@ ___________________
 ___________________
 
 ### उत्सवाः
+#### आग्र-बन्धनात् पलायितः शिवराजः #३५४
+
+Observed on day 27 of August (sunrise (default)/puurvaviddha (default)).  
+The event has been commemorated since it occurred in 1666 (gregorian era).  
+shrAvaNa k12 Shivaji pulled off one of the greatest escapes in history from the jaws of death at Agra.
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/08/27/Agra-bandhanAt_palAyitaH_shivarAjaH.toml)
+- Tags: 
+
+
 #### हरिवासरः
 - →10:35
 #### जयन्ती-महाद्वादशी
@@ -15953,6 +16245,17 @@ Observed on Āśreṣā nakshatra of Siṃhaḥ (solar) month (Prātaḥ/paravid
 ##### Details
 - [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/nAyanAr/sidereal_solar_month/nakshatra/05/09/atipatta%20nAyan2Ar%20%2841%29%20gurupUjai.toml)
 - Tags: NayanarGurupujai
+
+
+#### बाजी-रावो जातः #३२०
+
+Observed on day 29 of August (sunrise (default)/puurvaviddha (default)).  
+The event has been commemorated since it occurred in 1700 (gregorian era).  
+bAjI rAv born
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/08/29/bAjI-rAvo_jAtaH.toml)
+- Tags: 
 
 
 #### तिरुच्चॆन्दूर् मुरुगऩ् आवणित् तिरुविऴा 6म् नाळ्—वॆळ्ळित् तेर् भवऩि
@@ -19218,6 +19521,18 @@ ___________________
 ___________________
 
 ### उत्सवाः
+#### चेन्नै-नगरे शिवराजः कालिकाम् अपूजयत् #३४३
+
+Observed on day 13 of October (sunrise (default)/puurvaviddha (default)).  
+The event has been commemorated since it occurred in 1677 (gregorian era).  
+shivAjI worships kAlikAmbA in chennai
+https://twitter.com/iParamanand/status/915268209510563840
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/10/13/cennai-nagare_shivarAjaH_kAlikAm_apUjayat.toml)
+- Tags: 
+
+
 #### काञ्ची ३६ जगद्गुरु श्री-चित्सुखानन्देन्द्र सरस्वती आराधना #१२६२
 
 Observed on Paurṇamāsī tithi of Āśvayujaḥ (lunar) month (Aparāhṇaḥ/vyaapti).  
@@ -19329,6 +19644,17 @@ pūrṇimā vratam is commonly observed for Lord Satyanarayana.
 ##### Details
 - [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/vaiShNava/lunar_month/tithi/00/15/pUrNimA~vratam.toml)
 - Tags: MonthlyFestivals
+
+
+#### शिवराजो सूरत-नगरं लुण्ठति #३५०
+
+Observed on day 13 of October (sunrise (default)/puurvaviddha (default)).  
+The event has been commemorated since it occurred in 1670 (gregorian era).  
+
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/10/13/shivarAjo_sUrata-nagaraM_luNThati.toml)
+- Tags: 
 
 
 #### वाल्मीकि-महर्षि-जयन्ती
@@ -20371,6 +20697,17 @@ Perform Deepa Danam for Yamadharmaraja in evening
 ##### Details
 - [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/general/relative_event/Azvayuja-amAvAsyA/offset__00/saptama-aparapakSa-samApanam.toml)
 - Tags: SpecialPeriodEnd
+
+
+#### शिवराजो दिण्डोर्यां जयति #३५०
+
+Observed on day 27 of October (sunrise (default)/puurvaviddha (default)).  
+The event has been commemorated since it occurred in 1670 (gregorian era).  
+On this day was fought the fierce battle of Vani-Dindori where Shivaji led the Marathas to a great victory against the Mughals.
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/10/27/shivarAjo_diNDoryAM_jayati.toml)
+- Tags: 
 
 
 #### शृङ्गेरी ३५ जगद्गुरु श्री-अभिनव विद्यातीर्थ महास्वामी जयन्ती
@@ -22216,6 +22553,17 @@ Viśveśvara was the son of Viśvamakhindra; resorting to the fact of Paraśivā
 - Tags: KanchiAradhanaDays
 
 
+#### खानोदर-विदारणम् #३६१
+
+Observed on day 20 of November (sunrise (default)/puurvaviddha (default)).  
+The event has been commemorated since it occurred in 1659 (gregorian era).  
+Afzal Khan is killed in an epic encounter. Shivaji ordered Netoji Palkar to destroy Afzal's base at Wai the very same day & himself followed soon. https://twitter.com/Gopanarya/status/928748402245976064
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/11/20/khAnodara-vidAraNam.toml)
+- Tags: 
+
+
 #### महादेवाष्टमी
 
 Observed on Kṛṣṇa-Aṣṭamī tithi of Kārttikaḥ (lunar) month (sunrise (default)/puurvaviddha (default)).  
@@ -23016,6 +23364,17 @@ ___________________
 ___________________
 
 ### उत्सवाः
+#### अफ़्ज़ल्-खान-वधात् १३ दिनम् #३६१
+
+Observed on day 3 of December (sunrise (default)/puurvaviddha (default)).  
+The event has been commemorated since it occurred in 1659 (gregorian era).  
+Day 13 (after Afzal's death): Supe, Tambe, Pali, Nerle, Kameri, Visapur, Save Uran, Koley are all taken.
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/12/03/afzal-khAna-vadhAt_13_dinam.toml)
+- Tags: 
+
+
 #### काञ्ची ५ जगद्गुरु श्री-ज्ञानानन्देन्द्र सरस्वती आराधना #२२२४
 
 Observed on Śukla-Saptamī tithi of Mārgaśīrṣaḥ (lunar) month (Aparāhṇaḥ/vyaapti).  
@@ -23316,6 +23675,17 @@ The Shukla-paksha Ekadashi of mārgaśīrṣa month is known as mokṣadā-ekād
 ##### Details
 - [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/time_focus/monthly/ekAdashI/description_only/mOkSadA-EkAdazI.toml)
 - Tags: MonthlyVratam EkadashiVratam
+
+
+#### शिवराजेन पन्हळदुर्गं गृहीतम् #३६१
+
+Observed on day 8 of December (sunrise (default)/puurvaviddha (default)).  
+The event has been commemorated since it occurred in 1659 (gregorian era).  
+Panhala fell on the 2nd night of the siege! Just 18 days after the slaying of Afzal Khan!
+
+##### Details
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/12/08/shivAjI_takes_panhaLa.toml)
+- Tags: Shivaji
 
 
 

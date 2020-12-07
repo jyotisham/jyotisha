@@ -77,7 +77,7 @@ def write_monthly_tex(panchaanga, time_format="hh:mm", languages=None, scripts=N
     daily_panchaanga = daily_panchaangas[d]
 
     rules_collection = rules.RulesCollection.get_cached(
-      repos_tuple=tuple(panchaanga.computation_system.festival_options.repos))
+      repos_tuple=tuple(panchaanga.computation_system.festival_options.repos), julian_handling=panchaanga.computation_system.festival_options.julian_handling)
     fest_details_dict = rules_collection.name_to_rule
 
     if len(daily_panchaanga.festival_id_to_instance) != 0:

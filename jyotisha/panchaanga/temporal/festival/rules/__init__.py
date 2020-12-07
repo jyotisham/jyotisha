@@ -4,10 +4,10 @@ import sys
 from pathlib import Path
 
 import methodtools
-from indic_transliteration import sanscript, xsanscript
-from jyotisha import custom_transliteration
 from timebudget import timebudget
 
+from indic_transliteration import sanscript
+from jyotisha import custom_transliteration
 from sanskrit_data.schema import common
 
 
@@ -198,9 +198,23 @@ class HinduCalendarEvent(common.JsonObject):
 
     return final_description_string
 
+  def to_gregorian(self, julian_handling):
+    if self.timing.month_type != RulesRepo.JULIAN_MONTH_DIR:
+      return 
+    if julian_handling == RulesCollection.JULIAN_TO_GREGORIAN:
+      from jyotisha.panchaanga.temporal import time 
+      greg_date = time.Date.from_julian_date(year=self.timing.year_start, month=self.timing.month_number, day=self.timing.anga_number)
+      self.timing.julian_handling = julian_handling
+      self.timing.anga_number = greg_date.day
+      self.timing.month_number = greg_date.month
+      self.timing.month_type = RulesRepo.GREGORIAN_MONTH_DIR
+    elif julian_handling == RulesCollection.JULIAN_AS_GREGORIAN:
+      self.timing.julian_handling = julian_handling
+      self.timing.month_type = RulesRepo.GREGORIAN_MONTH_DIR
+      
 
 
-def get_festival_rules_map(dir_path, repo=None):
+def get_festival_rules_map(dir_path, julian_handling, repo=None):
   toml_file_paths = sorted(Path(dir_path).glob("**/*.toml"))
   festival_rules = {}
   if len(toml_file_paths) == 0:
@@ -210,6 +224,7 @@ def get_festival_rules_map(dir_path, repo=None):
     event = HinduCalendarEvent.read_from_file(filename=str(file_path))
     event.path_actual = str(file_path)
     event.repo = repo
+    event.to_gregorian(julian_handling=julian_handling)
     festival_rules[event.id] = event
   return festival_rules
 
@@ -246,23 +261,27 @@ rule_repos = (RulesRepo(name="general"), RulesRepo(name="gRhya/general"), RulesR
 
 
 class RulesCollection(common.JsonObject):
-  def __init__(self, repos=rule_repos):
+  JULIAN_AS_GREGORIAN = "JULIAN_AS_GREGORIAN"
+  JULIAN_TO_GREGORIAN = "JULIAN_TO_GREGORIAN"
+
+
+  def __init__(self, repos=rule_repos, julian_handling=JULIAN_TO_GREGORIAN):
     super().__init__()
     self.repos = repos
     self.name_to_rule = {}
     self.tree = None 
-    self.set_rule_dicts()
+    self.set_rule_dicts(julian_handling=julian_handling)
 
   @methodtools.lru_cache()  # the order is important!
   @classmethod
-  def get_cached(cls, repos_tuple):
-    return RulesCollection(repos=repos_tuple)
+  def get_cached(cls, repos_tuple, julian_handling=JULIAN_TO_GREGORIAN):
+    return RulesCollection(repos=repos_tuple, julian_handling=julian_handling)
 
   def fix_content(self):
     for repo in self.repos:
       base_dir = repo.get_path()
       rules_map = get_festival_rules_map(
-        os.path.join(DATA_ROOT, repo.get_path()), repo=repo)
+        os.path.join(DATA_ROOT, repo.get_path(), julian_handling=None), repo=repo)
       for rule in rules_map.values():
         if rule.shlokas is not None:
           rule.shlokas = rule.shlokas.replace("\\n", "  \n")
@@ -274,7 +293,7 @@ class RulesCollection(common.JsonObject):
     for repo in self.repos:
       base_dir = repo.get_path()
       rules_map = get_festival_rules_map(
-        os.path.join(DATA_ROOT, repo.get_path()), repo=repo)
+        os.path.join(DATA_ROOT, repo.get_path(), julian_handling=None), repo=repo)
       for rule in rules_map.values():
         expected_path = rule.get_storage_file_name(base_dir=base_dir)
         if rule.path_actual != expected_path:
@@ -283,13 +302,13 @@ class RulesCollection(common.JsonObject):
           os.rename(rule.path_actual, expected_path)
 
   @timebudget
-  def set_rule_dicts(self):
+  def set_rule_dicts(self, julian_handling):
     for repo in self.repos:
       self.name_to_rule.update(get_festival_rules_map(
-        os.path.join(DATA_ROOT, repo.get_path()), repo=repo))
+        os.path.join(DATA_ROOT, repo.get_path()), repo=repo, julian_handling=julian_handling))
 
-      from sanskrit_data import collection_helper
-      self.tree = collection_helper.tree_maker(leaves=self.name_to_rule.values(), path_fn=lambda x: x.get_storage_file_name_granular(base_dir="").replace(".toml", ""))
+    from sanskrit_data import collection_helper
+    self.tree = collection_helper.tree_maker(leaves=self.name_to_rule.values(), path_fn=lambda x: x.get_storage_file_name_granular(base_dir="").replace(".toml", ""))
 
   def get_month_anga_fests(self, month_type, month, anga_type_id, anga):
     if int(month) != month:
@@ -353,8 +372,8 @@ common.update_json_class_index(sys.modules[__name__])
 
 
 if __name__ == '__main__':
-  rules_collection = RulesCollection.get_cached(repos_tuple=rule_repos)
-  rules_collection = RulesCollection(repos=[RulesRepo(name="mahApuruSha/xatra-later")])
+  rules_collection = RulesCollection.get_cached(repos_tuple=rule_repos, julian_handling=None)
+  rules_collection = RulesCollection(repos=[RulesRepo(name="mahApuruSha/xatra-later")], julian_handling=None)
   # rules_collection.fix_filenames()
   # rules_collection.fix_content()
   import_to_xaatra_later()

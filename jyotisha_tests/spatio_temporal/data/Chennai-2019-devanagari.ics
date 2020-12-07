@@ -579,6 +579,24 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:śivarājeṇa rustam-jamānô dhvastaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190106T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190107T235957
+DESCRIPTION:Observed on day 7 of January (sunrise (default)/puurvaviddha (
+ default)).  <br/>The event has been commemorated since it occurred in 1659
+  (gregorian era).  <br/>Shivaji defeated Rustam-i Zaman in an epic battle 
+ fought near Kolhapur.<br/><br/>##### Details<br/>- [Edit config file](http
+ s://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra-lat
+ er/gregorian/day/01/07/shivAjI_vs_rustam-zamAn.toml)<br/>- Tags: Shivaji
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Pauṣaḥ-10-02\,Makaraḥ-Śravaṇaḥ🌛🌌◢◣Dhanuḥ-P
  ūrvāṣāḍhā-09-24🌌🌞◢◣Sahasyaḥ-10-18🪐🌞
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190108T063714
@@ -2791,6 +2809,44 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:śāhājī-mṛtyuḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190201T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190202T235957
+DESCRIPTION:Observed on day 2 of February (sunrise (default)/puurvaviddha 
+ (default)).  <br/>The event has been commemorated since it occurred in 166
+ 4 (gregorian era).  <br/>shAhaji father of shivAjI died<br/><br/>##### Det
+ ails<br/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi
+ /tree/master/mahApuruSha/xatra-later/gregorian/day/02/02/shAhAjI-mRtyuH.to
+ ml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:tālikoṭa-yuddham
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190201T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190202T235957
+DESCRIPTION:Observed on day 2 of February (sunrise (default)/puurvaviddha 
+ (default)).  <br/>The event has been commemorated since it occurred in 156
+ 5 (gregorian era).  <br/>battle of tAlikoTa. jihAdi forces won a major vic
+ tory against the forces of vijayanagara and beheaded rAmarAya - thanks sup
+ posedly in part to betrayal by two muslim generals.<br/><br/>##### Details
+ <br/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tre
+ e/master/mahApuruSha/xatra-later/gregorian/day/02/02/tAlikoTa-yuddham.toml
+ )<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:śani-pradoṣa-vratam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190201T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190202T235957
@@ -3361,6 +3417,24 @@ DESCRIPTION:Observed on Śukla-Caturthī tithi of Māghaḥ (lunar) month
  />- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/m
  aster/mahApuruSha/RShi/lunar_month/tithi/11/04/mArkaNDEya~jayantI.toml)<br
  />- Tags: MahapurushaEvents CommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:proklas-janma
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190208T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190209T235957
+DESCRIPTION:Observed on day 9 of February (sunrise (default)/puurvaviddha 
+ (default)).  <br/>The event has been commemorated since it occurred in 412
+  (gregorian era).  <br/>Roman Polytheist Platonist sage Proclus was born o
+ n this day<br/><br/>##### Details<br/>- [Edit config file](https://github.
+ com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/general/gregorian/da
+ y/02/09/proklas-janma.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4022,6 +4096,25 @@ DESCRIPTION:Observed on Śukla-Navamī tithi of Māghaḥ (lunar) month (s
  a<br/><br/>##### Details<br/>- [Edit config file](https://github.com/sansk
  rit-coders/adyatithi/tree/master/mahApuruSha/mAdhva-misc/lunar_month/tithi
  /11/09/madhva-navamI.toml)<br/>- Tags: MahapurushaEvents
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:tānājī-vīra-gatiḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190213T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190214T235957
+DESCRIPTION:Observed on day 14 of February (sunrise (default)/puurvaviddha
+  (default)).  <br/>The event has been commemorated since it occurred in 16
+ 70 (gregorian era).  <br/>tANAji mAlsure capture sinhagad\, scaling the wa
+ ll with a lizard and sacrifices his life.<br/><br/>##### Details<br/>- [Ed
+ it config file](https://github.com/sanskrit-coders/adyatithi/tree/master/m
+ ahApuruSha/xatra-later/gregorian/day/02/14/tAnAjI-vIra-gatiH.toml)<br/>- T
+ ags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5527,6 +5620,27 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:śivarājo jātaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190228T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190301T235957
+DESCRIPTION:Observed on day 1 of March (sunrise (default)/puurvaviddha (de
+ fault)).  <br/>The event has been commemorated since it occurred in 1630 (
+ gregorian era).  <br/>phAlguna k3 I recall the sacred memory of the great 
+ rAjan shivAji\, about whom bhUShaNa wrote "चारौ वर्ण ध
+ र्म छोडि कलमा नेवाज पढि सिवा
+ जी न होतो तौ सुनति होत सबकी" 
+ 🙏🙏<br/> Some dispute it.<br/><br/>##### Details<br/>- [Edit config f
+ ile](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/
+ xatra-later/gregorian/day/03/01/shivarAjo_jAtaH.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:vyatīpāta-śrāddham
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190228T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190301T235957
@@ -6008,6 +6122,26 @@ DESCRIPTION:Observed on Amāvāsyā tithi of Māghaḥ (lunar) month (sunr
  dit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/
  mahApuruSha/sangIta-kRt/lunar_month/tithi/11/30/purandaradAsa-ArAdhanA.tom
  l)<br/>- Tags: MahapurushaEvents CommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:rājārāmo jātaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190305T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190306T235957
+DESCRIPTION:Observed on day 6 of March (sunrise (default)/puurvaviddha (de
+ fault)).  <br/>The event has been commemorated since it occurred in 1670 (
+ gregorian era).  <br/>On this day was born Rajaram\, 2nd son of Ch Shivaji
+ \, who continued the struggle for Swarajya from Ginjee after Sambhaji's br
+ utal torture and execution for refusing to convert to Islam.<br/><br/>####
+ # Details<br/>- [Edit config file](https://github.com/sanskrit-coders/adya
+ tithi/tree/master/mahApuruSha/xatra-later/gregorian/day/03/06/rAjArAmo_jAt
+ aH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6868,6 +7002,25 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:koṇḍājī-senādhipena panhaḻa-durgaṃ gṛhītam
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190315T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190316T235957
+DESCRIPTION:Observed on day 16 of March (sunrise (default)/puurvaviddha (d
+ efault)).  <br/>The event has been commemorated since it occurred in 1673 
+ (gregorian era).  <br/>Kondaji Farzand captured Panhala in a daring night 
+ escalade & the garrison was massacred.<br/><br/>##### Details<br/>- [Edit 
+ config file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahA
+ puruSha/xatra-later/gregorian/day/03/16/koNDAjI-senAdhipena_panhaLa-durgaM
+ _gRhItam.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:veṅkaṭācale plavotsava-ārambhaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190315T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190316T235957
@@ -7592,6 +7745,24 @@ DESCRIPTION:Observed on Uttaraphalgunī nakshatra of Mīnaḥ (solar) mont
   file](https://github.com/sanskrit-coders/adyatithi/tree/master/temples/Ta
  mil/sidereal_solar_month/nakshatra/12/12/paGgun2i~uttiram.toml)<br/>- Tags
  : TamilnaduTempleFestivals CommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:śambhurājo pīḍito hataś ca
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190320T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190321T235957
+DESCRIPTION:Observed on day 21 of March (sunrise (default)/puurvaviddha (d
+ efault)).  <br/>The event has been commemorated since it occurred in 1689 
+ (gregorian era).  <br/>sambhAji mahArAj tortured and killed by awrangzeb<b
+ r/><br/>##### Details<br/>- [Edit config file](https://github.com/sanskrit
+ -coders/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/03/21/
+ shambhurAjo_pIDito_hatash_cha.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8442,6 +8613,27 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:nādiraśāhena dehalyāṃ lokahatyā
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190401T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190402T235957
+DESCRIPTION:Observed on day 2 of April (sunrise (default)/puurvaviddha (de
+ fault)).  <br/>The event has been commemorated since it occurred in 1739 (
+ gregorian era).  <br/>9 AM: It was the morning of Holi. A massacre\, horri
+ fic beyond any description\, breaks out on the streets of Delhi (started b
+ y nAdir shAh).<br/>When it ended several hours later\, tens of thousands o
+ f corpses lay on the streets. Estimates range from 30000-80000<br/><br/>##
+ ### Details<br/>- [Edit config file](https://github.com/sanskrit-coders/ad
+ yatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/04/02/nAdirashAh
+ ena_dehalyAM_lokahatyA.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:pradoṣa-vratam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190401T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190402T235957
@@ -9027,6 +9219,24 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:bājī-rāvo dehalīm prāpnot
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190407T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190408T235957
+DESCRIPTION:##### Details<br/>- [Edit config file](https://github.com/sans
+ krit-coders/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/04
+ /08/bAjI-rAvo_dehalIm_prApnot.toml)<br/>- Tags: <br/><br/><br/><br/>##### 
+ Details<br/>- [Edit config file](https://github.com/sanskrit-coders/adyati
+ thi/tree/master/mahApuruSha/xatra-later/gregorian/day/04/08/bAjI-rAvo_deha
+ lIm_prApnot.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:gaurī-tṛtīyā/saubhāgya-gaurī-vratam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190407T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190408T235957
@@ -9402,6 +9612,24 @@ DESCRIPTION:Observed on Ārdrā nakshatra of Mīnaḥ (solar) month (Prāt
  ttps://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/nAyanA
  r/sidereal_solar_month/nakshatra/12/06/gaNanAtha%20nAyan2Ar%20%2837%29%20g
  urupUjai.toml)<br/>- Tags: NayanarGurupujai
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:parali-durgo jitaḥ svarājyêna
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190411T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190412T235957
+DESCRIPTION:Observed on day 12 of April (sunrise (default)/puurvaviddha (d
+ efault)).  <br/>The event has been commemorated since it occurred in 1673 
+ (gregorian era).  <br/>Parali too was taken from Adil shAhi-s.<br/><br/>##
+ ### Details<br/>- [Edit config file](https://github.com/sanskrit-coders/ad
+ yatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/04/12/parali-dur
+ go_jitaH_svarAjyEna.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10222,6 +10450,24 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:avraṅgazebo hindukaśālānāzam ādiśat
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190418T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190419T235957
+DESCRIPTION:##### Details<br/>- [Edit config file](https://github.com/sans
+ krit-coders/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/04
+ /19/avrangazebo_hindukashAlAnAzam_Adishat.toml)<br/>- Tags: <br/><br/><br/
+ ><br/>##### Details<br/>- [Edit config file](https://github.com/sanskrit-c
+ oders/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/04/19/av
+ rangazebo_hindukashAlAnAzam_Adishat.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:caitra-pūrṇimā
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190418T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190419T235957
@@ -10682,6 +10928,24 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:bālājī-viśvanātho mṛtaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190422T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190423T235957
+DESCRIPTION:Observed on day 23 of April (sunrise (default)/puurvaviddha (d
+ efault)).  <br/>The event has been commemorated since it occurred in 1720 
+ (gregorian era).  <br/>great peshva bAlAjI vishvanAth died.<br/><br/>#####
+  Details<br/>- [Edit config file](https://github.com/sanskrit-coders/adyat
+ ithi/tree/master/mahApuruSha/xatra-later/gregorian/day/04/23/bAlAjI-vishva
+ nAtho_mRtaH.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:guru-saṅkrāntiḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190422T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190423T235957
@@ -10969,6 +11233,27 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:śivarājena hambīrarāvaṃ senādhipaṃ cakāra
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190427T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190428T235957
+DESCRIPTION:Observed on day 28 of April (sunrise (default)/puurvaviddha (d
+ efault)).  <br/>The event has been commemorated since it occurred in 1674 
+ (gregorian era).  <br/>Chhatrapati Shivaji inspected his army at Chiplun. 
+ A new commander-in-chief had been identified. His name was Hansaji Mohite.
+  But that day Shivaji titled him Sarnobat (Chief of Army) Hambirrao & hist
+ ory will remember him by that name: Hambirrao father of Tara Bai<br/><br/>
+ ##### Details<br/>- [Edit config file](https://github.com/sanskrit-coders/
+ adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/04/28/shivarAj
+ ena_hambIrarAvaM_senAdhipaM_cakAra.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Caitraḥ-01-25\,Kumbhaḥ-Śatabhiṣak🌛🌌◢◣Meṣaḥ-Ap
  abharaṇī-01-16🌌🌞◢◣Mādhavaḥ-02-10🪐🌞
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190429T055245
@@ -11055,6 +11340,27 @@ DESCRIPTION:___________________\n- 🪐🌞**Ṛtumānam** — Vasantaṛt
  13-16:46\; **Yamaghaṇṭaḥ**—08:59-10:32\; **Gulikakālaḥ**—12:0
  6-13:39  \n___________________\n- **Śūlam**—Udīchī Dik (►10:51)\; 
  **Parihāraḥ**–Kṣīram  \n___________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:marurākṣasasya siddi-sautasya vadhaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190429T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190430T235957
+DESCRIPTION:Observed on day 30 of April (sunrise (default)/puurvaviddha (d
+ efault)).  <br/>The event has been commemorated since it occurred in 1736 
+ (gregorian era).  <br/>On 19 April 1736 (julian) Chimaji Appa with Manaji 
+ Angre killed Siddi Saut in a battle at Kamarle in the Konkan. The Siddi ha
+ d been cursed by BrahmendraSwami in 1726- 'you will be utterly destroyed'\
+ , for attacking his Parshuram temple at Chiplun. Siddi Saut paid the price
+  ten years later.<br/><br/>##### Details<br/>- [Edit config file](https://
+ github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra-later/g
+ regorian/day/04/30/marurAkShasasya_siddi-sautasya_vadhaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11978,6 +12284,24 @@ DESCRIPTION:___________________\n- 🪐🌞**Ṛtumānam** — Vasantaṛt
  *—05:48-07:23\; **Gulikakālaḥ**—08:57-10:31  \n___________________\
  n- **Śūlam**—Dakṣiṇā Dik (►14:11)\; **Parihāraḥ**–Tailam  
  \n___________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:bājī-rāvo mṛtaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190508T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190509T235957
+DESCRIPTION:Observed on day 9 of May (sunrise (default)/puurvaviddha (defa
+ ult)).  <br/>The event has been commemorated since it occurred in 1740 (gr
+ egorian era).  <br/>vaishAkha s13\, Raudra Sanvatsar\, Saka era bAji rAv 1
+  dead.<br/><br/>##### Details<br/>- [Edit config file](https://github.com/
+ sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/da
+ y/05/09/bAjI-rAvo_mRtaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13287,6 +13611,24 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:pratāpasiṃho jātaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190518T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190519T235957
+DESCRIPTION:Observed on day 19 of May (sunrise (default)/puurvaviddha (def
+ ault)).  <br/>The event has been commemorated since it occurred in 1540 (g
+ regorian era).  <br/>jyeShTha s3 Maharana Pratap Jayanti<br/><br/>##### De
+ tails<br/>- [Edit config file](https://github.com/sanskrit-coders/adyatith
+ i/tree/master/mahApuruSha/xatra-later/gregorian/day/05/19/pratApasiMho_jAt
+ aH.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:sthālīpākaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190518T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190519T235957
@@ -13756,6 +14098,24 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:śambhurājo jātaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190523T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190524T235957
+DESCRIPTION:Observed on day 24 of May (sunrise (default)/puurvaviddha (def
+ ault)).  <br/>The event has been commemorated since it occurred in 1657 (g
+ regorian era).  <br/>jyeShTha s12 Sambhaji born<br/><br/>##### Details<br/
+ >- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/ma
+ ster/mahApuruSha/xatra-later/gregorian/day/05/24/shambhurAjo_jAtaH.toml)<b
+ r/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:śravaṇa-vratam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190523T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190524T235957
@@ -14079,6 +14439,25 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190529T235957
 DESCRIPTION:##### Details<br/>- [Edit config file](https://github.com/sans
  krit-coders/adyatithi/tree/master/time_focus/nakShatra/description_only/ag
  ninakSatra-samApanam.toml)<br/>- Tags: SpecialPeriodEnd
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:kṛṣṇadevarāyasya rāyacūru-jayaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190528T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190529T235957
+DESCRIPTION:Observed on day 29 of May (sunrise (default)/puurvaviddha (def
+ ault)).  <br/>The event has been commemorated since it occurred in 1520 (g
+ regorian era).  <br/>kRShNadevarAya smashed the Jihad of the Army of Islam
+  in a great victory at Raichur<br/><br/>##### Details<br/>- [Edit config f
+ ile](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/
+ xatra-later/gregorian/day/05/29/kRShNadevarAyasya_rAyachUru-jayaH.toml)<br
+ />- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -16065,6 +16444,24 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of Jyaiṣṭhaḥ (lunar) mo
  ps://github.com/sanskrit-coders/adyatithi/tree/master/time_focus/yugAdiH/l
  unar_month/tithi/03/15/manvAdiH~%28bhautyaH~%5B14%5D%29.toml)<br/>- Tags: 
  ManvadiDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:śivarājasyaindrābhiṣekaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190615T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190616T235957
+DESCRIPTION:Observed on day 16 of June (sunrise (default)/puurvaviddha (de
+ fault)).  <br/>The event has been commemorated since it occurred in 1674 (
+ gregorian era).  <br/>jyeShTha shukla 13 shivAji's aindrAbhiSheka.<br/><br
+ />##### Details<br/>- [Edit config file](https://github.com/sanskrit-coder
+ s/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/06/16/shivar
+ AjasyaindrAbhiSekaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -19502,6 +19899,24 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:bāji-prabhus siddi-masūdam aruṇat
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190722T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190723T235957
+DESCRIPTION:##### Details<br/>- [Edit config file](https://github.com/sans
+ krit-coders/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/07
+ /23/bAji-prabhus_siddi-masUdam_aruNat.toml)<br/>- Tags: <br/><br/><br/><br
+ />##### Details<br/>- [Edit config file](https://github.com/sanskrit-coder
+ s/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/07/23/bAji-p
+ rabhus_siddi-masUdam_aruNat.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:lokamānya-tiḻako jātaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190722T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190723T235957
@@ -20020,6 +20435,24 @@ DESCRIPTION:Observed on Kṛṣṇa-Caturdaśī tithi of every lunar month
  etails<br/>- [Edit config file](https://github.com/sanskrit-coders/adyatit
  hi/tree/master/devatA/shaiva/lunar_month/tithi/00/29/mAsazivarAtriH.toml)<
  br/>- Tags: MonthlyFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:śambhu-paṭṭābhiṣekaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190729T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190730T235957
+DESCRIPTION:Observed on day 30 of July (sunrise (default)/puurvaviddha (de
+ fault)).  <br/>The event has been commemorated since it occurred in 1680 (
+ gregorian era).  <br/>shrAvaNa s5  Sambhaji ascended the throne<br/><br/>#
+ #### Details<br/>- [Edit config file](https://github.com/sanskrit-coders/a
+ dyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/07/30/shambhu-p
+ aTTAbhiShekaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -20699,6 +21132,25 @@ DESCRIPTION:Observed on Śukla-Pañcamī tithi of Śrāvaṇaḥ (lunar) m
  br/><br/>##### Details<br/>- [Edit config file](https://github.com/sanskri
  t-coders/adyatithi/tree/master/devatA/vaiShNava/lunar_month/tithi/05/05/ga
  ruDa-paJcamI.toml)<br/>- Tags: PuranaEvents
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:kṛṣṇadevarāya-paṭṭābhiṣekaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190804T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190805T235957
+DESCRIPTION:Observed on day 5 of August (sunrise (default)/puurvaviddha (d
+ efault)).  <br/>The event has been commemorated since it occurred in 1509 
+ (gregorian era).  <br/>kRShNAShTamI (bhAdrapada-kRShNa likely) kRShNadevar
+ Aya coronated. https://twitter.com/i/moments/890055413374173186<br/><br/>#
+ #### Details<br/>- [Edit config file](https://github.com/sanskrit-coders/a
+ dyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/08/05/kRShNadev
+ arAya-paTTAbhiShekaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -21837,6 +22289,24 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of Śrāvaṇaḥ (lunar) mon
   celebrated on this day.<br/><br/>##### Details<br/>- [Edit config file](h
  ttps://github.com/sanskrit-coders/adyatithi/tree/master/general/lunar_mont
  h/tithi/05/15/saMskRta-divasaH.toml)<br/>- Tags: OtherJayantis
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sadāśiva-rāvo jātaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190814T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190815T235957
+DESCRIPTION:Observed on day 15 of August (sunrise (default)/puurvaviddha (
+ default)).  <br/>The event has been commemorated since it occurred in 1730
+  (gregorian era).  <br/>sadAshivrAv bhAu\, who died fighting at 30 in pAni
+ paT\, was born.<br/><br/>##### Details<br/>- [Edit config file](https://gi
+ thub.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra-later/gre
+ gorian/day/08/15/sadAshiva-rAvo_jAtaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -23039,6 +23509,25 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:āgra-bandhanāt palāyitaḥ śivarājaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190826T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190827T235957
+DESCRIPTION:Observed on day 27 of August (sunrise (default)/puurvaviddha (
+ default)).  <br/>The event has been commemorated since it occurred in 1666
+  (gregorian era).  <br/>shrAvaNa k12 Shivaji pulled off one of the greates
+ t escapes in history from the jaws of death at Agra.<br/><br/>##### Detail
+ s<br/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tr
+ ee/master/mahApuruSha/xatra-later/gregorian/day/08/27/Agra-bandhanAt_palAy
+ itaH_shivarAjaH.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:harivāsaraḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190826T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190827T103508
@@ -23303,6 +23792,23 @@ DESCRIPTION:Observed on Āśreṣā nakshatra of Siṃhaḥ (solar) month
  ile](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/
  nAyanAr/sidereal_solar_month/nakshatra/05/09/atipatta%20nAyan2Ar%20%2841%2
  9%20gurupUjai.toml)<br/>- Tags: NayanarGurupujai
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:bājī-rāvo jātaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190828T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190829T235957
+DESCRIPTION:Observed on day 29 of August (sunrise (default)/puurvaviddha (
+ default)).  <br/>The event has been commemorated since it occurred in 1700
+  (gregorian era).  <br/>bAjI rAv born<br/><br/>##### Details<br/>- [Edit c
+ onfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahAp
+ uruSha/xatra-later/gregorian/day/08/29/bAjI-rAvo_jAtaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -28230,6 +28736,25 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:cennai-nagare śivarājaḥ kālikām apūjayat
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191012T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191013T235957
+DESCRIPTION:Observed on day 13 of October (sunrise (default)/puurvaviddha 
+ (default)).  <br/>The event has been commemorated since it occurred in 167
+ 7 (gregorian era).  <br/>shivAjI worships kAlikAmbA in chennai<br/>https:/
+ /twitter.com/iParamanand/status/915268209510563840<br/><br/>##### Details<
+ br/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree
+ /master/mahApuruSha/xatra-later/gregorian/day/10/13/cennai-nagare_shivarAj
+ aH_kAlikAm_apUjayat.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:kāñcī 36 jagadguru śrī-citsukhānandendra sarasvatī ārādha
  nā
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191012T235957
@@ -28387,6 +28912,24 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of every lunar month (Sūryod
  ](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/vaiShNav
  a/lunar_month/tithi/00/15/pUrNimA~vratam.toml)<br/>- Tags: MonthlyFestival
  s
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:śivarājo sūrata-nagaraṃ luṇṭhati
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191012T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191013T235957
+DESCRIPTION:Observed on day 13 of October (sunrise (default)/puurvaviddha 
+ (default)).  <br/>The event has been commemorated since it occurred in 167
+ 0 (gregorian era).  <br/><br/><br/>##### Details<br/>- [Edit config file](
+ https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra
+ -later/gregorian/day/10/13/shivarAjo_sUrata-nagaraM_luNThati.toml)<br/>- T
+ ags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -29913,6 +30456,25 @@ DESCRIPTION:##### Details<br/>- [Edit config file](https://github.com/sans
  krit-coders/adyatithi/tree/master/general/relative_event/Azvayuja-amAvAsyA
  /offset__00/saptama-aparapakSa-samApanam.toml)<br/>- Tags: SpecialPeriodEn
  d
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:śivarājo diṇḍoryāṃ jayati
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191026T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191027T235957
+DESCRIPTION:Observed on day 27 of October (sunrise (default)/puurvaviddha 
+ (default)).  <br/>The event has been commemorated since it occurred in 167
+ 0 (gregorian era).  <br/>On this day was fought the fierce battle of Vani-
+ Dindori where Shivaji led the Marathas to a great victory against the Mugh
+ als.<br/><br/>##### Details<br/>- [Edit config file](https://github.com/sa
+ nskrit-coders/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/
+ 10/27/shivarAjo_diNDoryAM_jayati.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -32670,6 +33232,26 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:khānodara-vidāraṇam
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191119T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191120T235957
+DESCRIPTION:Observed on day 20 of November (sunrise (default)/puurvaviddha
+  (default)).  <br/>The event has been commemorated since it occurred in 16
+ 59 (gregorian era).  <br/>Afzal Khan is killed in an epic encounter. Shiva
+ ji ordered Netoji Palkar to destroy Afzal's base at Wai the very same day 
+ & himself followed soon. https://twitter.com/Gopanarya/status/928748402245
+ 976064<br/><br/>##### Details<br/>- [Edit config file](https://github.com/
+ sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/da
+ y/11/20/khAnodara-vidAraNam.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:mahādevāṣṭamī
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191119T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191120T235957
@@ -33857,6 +34439,25 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:aफ़zal-khāna-vadhāt 13 dinam
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191202T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191203T235957
+DESCRIPTION:Observed on day 3 of December (sunrise (default)/puurvaviddha 
+ (default)).  <br/>The event has been commemorated since it occurred in 165
+ 9 (gregorian era).  <br/>Day 13 (after Afzal's death): Supe\, Tambe\, Pali
+ \, Nerle\, Kameri\, Visapur\, Save Uran\, Koley are all taken.<br/><br/>##
+ ### Details<br/>- [Edit config file](https://github.com/sanskrit-coders/ad
+ yatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/12/03/afzal-khAn
+ a-vadhAt_13_dinam.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:kāñcī 5 jagadguru śrī-jñānānandendra sarasvatī ārādhan
  ā
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191202T235957
@@ -34298,6 +34899,25 @@ DESCRIPTION:The Shukla-paksha Ekadashi of mārgaśīrṣa month is known a
  ttps://github.com/sanskrit-coders/adyatithi/tree/master/time_focus/monthly
  /ekAdashI/description_only/mOkSadA-EkAdazI.toml)<br/>- Tags: MonthlyVratam
   EkadashiVratam
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:śivarājena panhaḻadurgaṃ gṛhītam
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191207T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191208T235957
+DESCRIPTION:Observed on day 8 of December (sunrise (default)/puurvaviddha 
+ (default)).  <br/>The event has been commemorated since it occurred in 165
+ 9 (gregorian era).  <br/>Panhala fell on the 2nd night of the siege! Just 
+ 18 days after the slaying of Afzal Khan!<br/><br/>##### Details<br/>- [Edi
+ t config file](https://github.com/sanskrit-coders/adyatithi/tree/master/ma
+ hApuruSha/xatra-later/gregorian/day/12/08/shivAjI_takes_panhaLa.toml)<br/>
+ - Tags: Shivaji
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
