@@ -222,6 +222,7 @@ class RulesRepo(common.JsonObject):
   SIDEREAL_SOLAR_MONTH_DIR = "sidereal_solar_month"
   TROPICAL_MONTH_DIR = "tropical"
   GREGORIAN_MONTH_DIR = "gregorian"
+  JULIAN_MONTH_DIR = "julian"
   RELATIVE_EVENT_DIR = "relative_event"
   ERA_GREGORIAN = "gregorian"
   ERA_KALI = "kali"
@@ -323,14 +324,14 @@ def import_to_xaatra_later():
   for event in events_in["data"]:
     logging.debug(event)
     from jyotisha.panchaanga.temporal.time import Date
-    if "Gregorian date" in dt:
+    if "Gregorian date" in event:
       date_str = event["Gregorian date"]
-      dt = Date.from_string(event[date_str])
+      timing.month_type = RulesRepo.GREGORIAN_MONTH_DIR
     else:
       date_str = event["Julian date"]
-      dt = Date.from_julian_date_string(event[date_str])
+      timing.month_type = RulesRepo.JULIAN_MONTH_DIR
+    dt = Date.from_string(event[date_str])
     timing = HinduCalendarEventTiming()
-    timing.month_type = RulesRepo.GREGORIAN_MONTH_DIR
     timing.anga_type = RulesRepo.DAY_DIR
     timing.month_number = dt.month
     timing.anga_number = dt.day
