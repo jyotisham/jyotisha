@@ -7,7 +7,6 @@ import methodtools
 from timebudget import timebudget
 
 from jyotisha import custom_transliteration
-from jyotisha.panchaanga.temporal.festival.rules.migrator import import_to_xaatra_later
 from sanskrit_data.schema import common
 
 
@@ -345,4 +344,3 @@ if __name__ == '__main__':
   rules_collection = RulesCollection(repos=[RulesRepo(name="mahApuruSha/xatra-later")], julian_handling=None)
   # rules_collection.fix_filenames()
   # rules_collection.fix_content()
-  import_to_xaatra_later()
