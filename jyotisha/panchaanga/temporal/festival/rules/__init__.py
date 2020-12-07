@@ -318,20 +318,20 @@ class RulesCollection(common.JsonObject):
 
 def import_to_xaatra_later():
   import toml
-  input_path = "/home/vvasuki/hindutva/hindutva-hugo/content/main/history/event_record.toml"
+  input_path = ""
   events_in = toml.load(input_path)
   repo = RulesRepo(name="mahApuruSha/xatra-later")
   for event in events_in["data"]:
     logging.debug(event)
     from jyotisha.panchaanga.temporal.time import Date
+    timing = HinduCalendarEventTiming()
     if "Gregorian date" in event:
       date_str = event["Gregorian date"]
       timing.month_type = RulesRepo.GREGORIAN_MONTH_DIR
     else:
       date_str = event["Julian date"]
       timing.month_type = RulesRepo.JULIAN_MONTH_DIR
-    dt = Date.from_string(event[date_str])
-    timing = HinduCalendarEventTiming()
+    dt = Date.from_string(date_str)
     timing.anga_type = RulesRepo.DAY_DIR
     timing.month_number = dt.month
     timing.anga_number = dt.day
@@ -340,9 +340,9 @@ def import_to_xaatra_later():
     rule = HinduCalendarEvent()
     rule.timing = timing
     rule.id = event["name_sa"].replace(" ", "_")
-    rule.description = {"en": " ".join([event["Incident"], event["Other notes"]])}
+    en_description = " ".join([event["tithi"], event["Incident"], event["Other notes"]])
+    rule.description = {"en": en_description.strip()}
     rule.names = {"sa": sanscript.transliterate(data=event["name_sa"], _from=sanscript.OPTITRANS, _to=sanscript.DEVANAGARI)}
-    rule.repo = repo
     rule.dump_to_file(filename=rule.get_storage_file_name(base_dir=repo.get_path()))
 
 
@@ -354,7 +354,7 @@ common.update_json_class_index(sys.modules[__name__])
 
 if __name__ == '__main__':
   rules_collection = RulesCollection.get_cached(repos_tuple=rule_repos)
-  # rules_collection = RulesCollection(repos=[RulesRepo(name="general")])
+  rules_collection = RulesCollection(repos=[RulesRepo(name="mahApuruSha/xatra-later")])
   # rules_collection.fix_filenames()
   # rules_collection.fix_content()
   import_to_xaatra_later()
