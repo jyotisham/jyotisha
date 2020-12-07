@@ -25,6 +25,11 @@
           "name": "gRhya/general"
         },
         {
+          "base_url": "https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/Apastamba",
+          "jsonClass": "RulesRepo",
+          "name": "gRhya/Apastamba"
+        },
+        {
           "base_url": "https://github.com/sanskrit-coders/adyatithi/tree/master/tamil",
           "jsonClass": "RulesRepo",
           "name": "tamil"
@@ -128,6 +133,11 @@
           "base_url": "https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra",
           "jsonClass": "RulesRepo",
           "name": "mahApuruSha/xatra"
+        },
+        {
+          "base_url": "https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra-later",
+          "jsonClass": "RulesRepo",
+          "name": "mahApuruSha/xatra-later"
         },
         {
           "base_url": "https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/RShi",

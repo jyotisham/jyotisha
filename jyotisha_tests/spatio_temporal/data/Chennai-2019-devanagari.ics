@@ -21328,8 +21328,8 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of Śrāvaṇaḥ (lunar) mon
  th (sunrise (default)/puurvaviddha (default)).  <br/>Offer bali to serpent
  s on (from) this day\, in the night after sthālīpāka.<br/><br/>##### De
  tails<br/>- [Edit config file](https://github.com/sanskrit-coders/adyatith
- i/tree/master/gRhya/general/lunar_month/tithi/05/15/sarpa-bali-prArambhaH.
- toml)<br/>- Tags: LessCommonFestivals
+ i/tree/master/gRhya/Apastamba/lunar_month/tithi/05/15/sarpa-bali-prArambha
+ H.toml)<br/>- Tags: LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -33406,7 +33406,7 @@ DESCRIPTION:Observed on day 6 of December (sunrise (default)/puurvaviddha
  (default)).  <br/>The event has been commemorated since it occurred in 199
  2 (gregorian era).  <br/><br/><br/>##### Details<br/>- [Edit config file](
  https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra
- /gregorian/day/12/06/bAbri-mosque-demolition.toml)<br/>- Tags:
+ -later/gregorian/day/12/06/bAbri-mosque-demolition.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -33616,8 +33616,8 @@ DESCRIPTION:Observed on day 8 of December (sunrise (default)/puurvaviddha
  9 (gregorian era).  <br/>Panhala fell on the 2nd night of the siege! Just 
  18 days after the slaying of Afzal Khan!<br/><br/>##### Details<br/>- [Edi
  t config file](https://github.com/sanskrit-coders/adyatithi/tree/master/ma
- hApuruSha/xatra/gregorian/day/12/08/shivAjI_takes_panhaLa.toml)<br/>- Tags
- : Shivaji
+ hApuruSha/xatra-later/gregorian/day/12/08/shivAjI_takes_panhaLa.toml)<br/>
+ - Tags: Shivaji
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -34104,8 +34104,8 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of Mārgaśīrṣaḥ (lunar)
   month (sunrise (default)/puurvaviddha (default)).  <br/>Offer final bali 
  to serpents on to this day\, in the night after sthālīpāka.<br/><br/>##
  ### Details<br/>- [Edit config file](https://github.com/sanskrit-coders/ad
- yatithi/tree/master/gRhya/general/lunar_month/tithi/09/15/sarpa-bali-utsar
- janam.toml)<br/>- Tags: LessCommonFestivals
+ yatithi/tree/master/gRhya/Apastamba/lunar_month/tithi/09/15/sarpa-bali-uts
+ arjanam.toml)<br/>- Tags: LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -34948,8 +34948,8 @@ DESCRIPTION:Observed on day 23 of December (sunrise (default)/puurvaviddha
  26 (gregorian era).  <br/>Swami shraddhananda\, who brought back lakhs of 
  muslims to the deva-dharma\, was shot to death by Abdul Rashid.<br/><br/>#
  #### Details<br/>- [Edit config file](https://github.com/sanskrit-coders/a
- dyatithi/tree/master/mahApuruSha/xatra/gregorian/day/12/23/shraddhAnanda-m
- urder.toml)<br/>- Tags:
+ dyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/12/23/shraddhAn
+ anda-murder.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -35362,8 +35362,8 @@ DESCRIPTION:Observed on day 28 of December (sunrise (default)/puurvaviddha
   (default)).  <br/>The event has been commemorated since it occurred in 16
  59 (gregorian era).  <br/>Shivaji defeated Rustam-i Zaman in an epic battl
  e fought near Kolhapur.<br/><br/>##### Details<br/>- [Edit config file](ht
- tps://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra/g
- regorian/day/12/28/shivAjI_vs_rustam-zamAn.toml)<br/>- Tags: Shivaji
+ tps://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra-l
+ ater/gregorian/day/12/28/shivAjI_vs_rustam-zamAn.toml)<br/>- Tags: Shivaji
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE

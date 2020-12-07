@@ -20,7 +20,7 @@ prefer_eight_fold_day_division = false
 jsonClass = "FestivalOptions"
 
 ```
-- Repos: [general](https://github.com/sanskrit-coders/adyatithi/tree/master/general), [gRhya/general](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general), [tamil](https://github.com/sanskrit-coders/adyatithi/tree/master/tamil), [mahApuruSha/general](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/general), [devatA/pitR](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/pitR), [devatA/shaiva](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/shaiva), [devatA/umA](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/umA), [devatA/graha](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/graha), [devatA/nadI](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/nadI), [devatA/shakti](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/shakti), [devatA/gaNapati](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/gaNapati), [devatA/kaumAra](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/kaumAra), [devatA/vaiShNava](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/vaiShNava), [devatA/lakShmI](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/lakShmI), [devatA/misc-fauna](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/misc-fauna), [devatA/misc-flora](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/misc-flora), [mahApuruSha/kAnchI-maTha](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha), [mahApuruSha/ALvAr](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/ALvAr), [mahApuruSha/vaiShNava-misc](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/vaiShNava-misc), [mahApuruSha/mAdhva-misc](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/mAdhva-misc), [mahApuruSha/smArta-misc](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/smArta-misc), [mahApuruSha/sangIta-kRt](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/sangIta-kRt), [mahApuruSha/xatra](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra), [mahApuruSha/RShi](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/RShi), [mahApuruSha/nAyanAr](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/nAyanAr), [temples/venkaTAchala](https://github.com/sanskrit-coders/adyatithi/tree/master/temples/venkaTAchala), [temples/Andhra](https://github.com/sanskrit-coders/adyatithi/tree/master/temples/Andhra), [temples/Tamil](https://github.com/sanskrit-coders/adyatithi/tree/master/temples/Tamil), [temples/Kerala](https://github.com/sanskrit-coders/adyatithi/tree/master/temples/Kerala), [temples/Odisha](https://github.com/sanskrit-coders/adyatithi/tree/master/temples/Odisha), [temples/North](https://github.com/sanskrit-coders/adyatithi/tree/master/temples/North), [time_focus/sankrAnti](https://github.com/sanskrit-coders/adyatithi/tree/master/time_focus/sankrAnti), [time_focus/puShkara](https://github.com/sanskrit-coders/adyatithi/tree/master/time_focus/puShkara), [time_focus/yugAdiH](https://github.com/sanskrit-coders/adyatithi/tree/master/time_focus/yugAdiH), [time_focus/misc](https://github.com/sanskrit-coders/adyatithi/tree/master/time_focus/misc), [time_focus/Rtu](https://github.com/sanskrit-coders/adyatithi/tree/master/time_focus/Rtu), [time_focus/nakShatra](https://github.com/sanskrit-coders/adyatithi/tree/master/time_focus/nakShatra), [time_focus/Eclipses](https://github.com/sanskrit-coders/adyatithi/tree/master/time_focus/Eclipses), [time_focus/misc_combinations](https://github.com/sanskrit-coders/adyatithi/tree/master/time_focus/misc_combinations), [time_focus/monthly/amAvAsyA](https://github.com/sanskrit-coders/adyatithi/tree/master/time_focus/monthly/amAvAsyA), [time_focus/monthly/ekAdashI](https://github.com/sanskrit-coders/adyatithi/tree/master/time_focus/monthly/ekAdashI), [time_focus/monthly/dvAdashI](https://github.com/sanskrit-coders/adyatithi/tree/master/time_focus/monthly/dvAdashI), [time_focus/monthly/pradoSha](https://github.com/sanskrit-coders/adyatithi/tree/master/time_focus/monthly/pradoSha)
+- Repos: [general](https://github.com/sanskrit-coders/adyatithi/tree/master/general), [gRhya/general](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general), [gRhya/Apastamba](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/Apastamba), [tamil](https://github.com/sanskrit-coders/adyatithi/tree/master/tamil), [mahApuruSha/general](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/general), [devatA/pitR](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/pitR), [devatA/shaiva](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/shaiva), [devatA/umA](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/umA), [devatA/graha](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/graha), [devatA/nadI](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/nadI), [devatA/shakti](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/shakti), [devatA/gaNapati](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/gaNapati), [devatA/kaumAra](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/kaumAra), [devatA/vaiShNava](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/vaiShNava), [devatA/lakShmI](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/lakShmI), [devatA/misc-fauna](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/misc-fauna), [devatA/misc-flora](https://github.com/sanskrit-coders/adyatithi/tree/master/devatA/misc-flora), [mahApuruSha/kAnchI-maTha](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/kAnchI-maTha), [mahApuruSha/ALvAr](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/ALvAr), [mahApuruSha/vaiShNava-misc](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/vaiShNava-misc), [mahApuruSha/mAdhva-misc](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/mAdhva-misc), [mahApuruSha/smArta-misc](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/smArta-misc), [mahApuruSha/sangIta-kRt](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/sangIta-kRt), [mahApuruSha/xatra](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra), [mahApuruSha/xatra-later](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra-later), [mahApuruSha/RShi](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/RShi), [mahApuruSha/nAyanAr](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/nAyanAr), [temples/venkaTAchala](https://github.com/sanskrit-coders/adyatithi/tree/master/temples/venkaTAchala), [temples/Andhra](https://github.com/sanskrit-coders/adyatithi/tree/master/temples/Andhra), [temples/Tamil](https://github.com/sanskrit-coders/adyatithi/tree/master/temples/Tamil), [temples/Kerala](https://github.com/sanskrit-coders/adyatithi/tree/master/temples/Kerala), [temples/Odisha](https://github.com/sanskrit-coders/adyatithi/tree/master/temples/Odisha), [temples/North](https://github.com/sanskrit-coders/adyatithi/tree/master/temples/North), [time_focus/sankrAnti](https://github.com/sanskrit-coders/adyatithi/tree/master/time_focus/sankrAnti), [time_focus/puShkara](https://github.com/sanskrit-coders/adyatithi/tree/master/time_focus/puShkara), [time_focus/yugAdiH](https://github.com/sanskrit-coders/adyatithi/tree/master/time_focus/yugAdiH), [time_focus/misc](https://github.com/sanskrit-coders/adyatithi/tree/master/time_focus/misc), [time_focus/Rtu](https://github.com/sanskrit-coders/adyatithi/tree/master/time_focus/Rtu), [time_focus/nakShatra](https://github.com/sanskrit-coders/adyatithi/tree/master/time_focus/nakShatra), [time_focus/Eclipses](https://github.com/sanskrit-coders/adyatithi/tree/master/time_focus/Eclipses), [time_focus/misc_combinations](https://github.com/sanskrit-coders/adyatithi/tree/master/time_focus/misc_combinations), [time_focus/monthly/amAvAsyA](https://github.com/sanskrit-coders/adyatithi/tree/master/time_focus/monthly/amAvAsyA), [time_focus/monthly/ekAdashI](https://github.com/sanskrit-coders/adyatithi/tree/master/time_focus/monthly/ekAdashI), [time_focus/monthly/dvAdashI](https://github.com/sanskrit-coders/adyatithi/tree/master/time_focus/monthly/dvAdashI), [time_focus/monthly/pradoSha](https://github.com/sanskrit-coders/adyatithi/tree/master/time_focus/monthly/pradoSha)
 
 ## 2019-01-01◢◣मार्गशीर्षः-09-26,तुला-स्वाती🌛🌌◢◣धनुः-पूर्वाषाढा-09-17🌌🌞◢◣सहस्यः-10-11🪐🌞
 ___________________
@@ -14674,7 +14674,7 @@ Observed on Paurṇamāsī tithi of Śrāvaṇaḥ (lunar) month (sunrise (defau
 Offer bali to serpents on (from) this day, in the night after sthālīpāka.
 
 ##### Details
-- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/lunar_month/tithi/05/15/sarpa-bali-prArambhaH.toml)
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/Apastamba/lunar_month/tithi/05/15/sarpa-bali-prArambhaH.toml)
 - Tags: LessCommonFestivals
 
 
@@ -22776,7 +22776,7 @@ The event has been commemorated since it occurred in 1992 (gregorian era).
 
 
 ##### Details
-- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra/gregorian/day/12/06/bAbri-mosque-demolition.toml)
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/12/06/bAbri-mosque-demolition.toml)
 - Tags: 
 
 
@@ -22905,7 +22905,7 @@ The event has been commemorated since it occurred in 1659 (gregorian era).
 Panhala fell on the 2nd night of the siege! Just 18 days after the slaying of Afzal Khan!
 
 ##### Details
-- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra/gregorian/day/12/08/shivAjI_takes_panhaLa.toml)
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/12/08/shivAjI_takes_panhaLa.toml)
 - Tags: Shivaji
 
 
@@ -23241,7 +23241,7 @@ Observed on Paurṇamāsī tithi of Mārgaśīrṣaḥ (lunar) month (sunrise (d
 Offer final bali to serpents on to this day, in the night after sthālīpāka.
 
 ##### Details
-- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/general/lunar_month/tithi/09/15/sarpa-bali-utsarjanam.toml)
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/gRhya/Apastamba/lunar_month/tithi/09/15/sarpa-bali-utsarjanam.toml)
 - Tags: LessCommonFestivals
 
 
@@ -23828,7 +23828,7 @@ The event has been commemorated since it occurred in 1926 (gregorian era).
 Swami shraddhananda, who brought back lakhs of muslims to the deva-dharma, was shot to death by Abdul Rashid.
 
 ##### Details
-- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra/gregorian/day/12/23/shraddhAnanda-murder.toml)
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/12/23/shraddhAnanda-murder.toml)
 - Tags: 
 
 
@@ -24129,7 +24129,7 @@ The event has been commemorated since it occurred in 1659 (gregorian era).
 Shivaji defeated Rustam-i Zaman in an epic battle fought near Kolhapur.
 
 ##### Details
-- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra/gregorian/day/12/28/shivAjI_vs_rustam-zamAn.toml)
+- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/12/28/shivAjI_vs_rustam-zamAn.toml)
 - Tags: Shivaji
 
 
