@@ -87,7 +87,7 @@ class HinduCalendarEventTiming(common.JsonObject):
     return timing
 
   def get_kaala(self):
-    return "sunrise" if self.kaala is None else self.kaala
+    return "सूर्योदयः" if self.kaala is None else self.kaala
 
   def get_priority(self):
     return "puurvaviddha" if self.priority is None else self.priority
