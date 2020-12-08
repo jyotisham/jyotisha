@@ -26,7 +26,7 @@ class FestivalInstance(common.JsonObject):
   def get_human_names(self, fest_details_dict):
     festival_rules = fest_details_dict
     from jyotisha.panchaanga.temporal.festival import rules
-    fest_details = festival_rules.get(self.name, rules.HinduCalendarEvent())
+    fest_details = festival_rules.get(self.name, rules.HinduCalendarEvent(id=self.name))
     if fest_details.names is None:
       fest_details.names = {"sa": [xsanscript.transliterate(self.name.replace("~", " "), sanscript.HK, sanscript.DEVANAGARI)]}
     import copy

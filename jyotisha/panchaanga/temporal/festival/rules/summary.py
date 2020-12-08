@@ -2,7 +2,6 @@ import logging
 
 from indic_transliteration import sanscript, xsanscript
 from jyotisha import custom_transliteration
-from jyotisha.panchaanga.temporal.names import get_chandra_masa, NAMES
 from jyotisha.panchaanga.temporal import AngaType, names
 from jyotisha.util import default_if_none
 
@@ -114,26 +113,7 @@ def get_timing_summary(rule):
   angam = ''
   from jyotisha.panchaanga.temporal.festival.rules import RulesRepo
   if rule.timing is not None and rule.timing.month_type is not None:
-    if rule.timing.month_type == RulesRepo.LUNAR_MONTH_DIR:
-      if rule.timing.month_number == 0:
-        month = ' of every lunar month'
-      else:
-        month = ' of ' + get_chandra_masa(rule.timing.month_number, sanscript.IAST) + ' (lunar) month'
-    elif rule.timing.month_type == RulesRepo.SIDEREAL_SOLAR_MONTH_DIR:
-      if rule.timing.month_number == 0:
-        month = ' of every solar month'
-      else:
-        month = ' of ' + NAMES['RASHI_NAMES']['sa'][sanscript.IAST][rule.timing.month_number] + ' (solar) month'
-    elif rule.timing.month_type == RulesRepo.TROPICAL_MONTH_DIR:
-      if rule.timing.month_number == 0:
-        month = ' of every tropical month'
-      else:
-        month = ' of ' + NAMES['RTU_MASA_NAMES_SHORT']['sa'][sanscript.IAST][rule.timing.month_number] + ' (tropical) month'
-    elif rule.timing.month_type == RulesRepo.GREGORIAN_MONTH_DIR:
-      if rule.timing.month_number == 0:
-        month = ' of every Gregorian month'
-      else:
-        month = ' of ' + names.month_map[rule.timing.month_number]
+    month = ' of %s (%s) month' % (rule.timing.get_month_name_en(script=xsanscript.IAST), rule.timing.month_type.replace("_month", "").replace("_", " "))
   if rule.timing is not None and rule.timing.anga_type is not None:
     # logging.debug(rule.name)
     # if rule.name.startswith("ta:"):
@@ -150,15 +130,21 @@ def get_timing_summary(rule):
   else:
     if rule.description is None:
       logging.debug("No anga_type in %s or description even!!", rule.id)
-  kaala = names.translate_or_transliterate(rule.timing.get_kaala(), script=xsanscript.IAST, source_script=xsanscript.DEVANAGARI)
-  priority = rule.timing.get_priority()
 
   if angam is not None:
     blurb += angam
   if month is not None:
     blurb += month
   if blurb != '':
-    blurb += ' (%s/%s).  \n' % (kaala, priority)
+    if rule.timing.month_type not in [RulesRepo.GREGORIAN_MONTH_DIR, RulesRepo.JULIAN_MONTH_DIR]:
+      kaala = names.translate_or_transliterate(rule.timing.get_kaala(), script=xsanscript.IAST, source_script=xsanscript.DEVANAGARI)
+      priority = rule.timing.get_priority()
+      kaala_str = ' (%s/%s)' % (kaala, priority)
+    else:
+      kaala_str = ""
+    blurb += "%s. " % kaala_str
+    if rule.timing.julian_handling is not None:
+      blurb += 'Julian date was %s in this reckoning.' % (rule.timing.julian_handling)
     # logging.debug(blurb)
   if rule.timing.year_start is not None:
     blurb += "The event has been commemorated since it occurred in %s (%s era).  \n" % (rule.timing.year_start, rule.timing.year_start_era)

@@ -7,6 +7,7 @@ import methodtools
 from timebudget import timebudget
 
 from jyotisha import custom_transliteration
+from jyotisha.panchaanga.temporal import names
 from sanskrit_data.schema import common
 
 
@@ -74,17 +75,16 @@ class HinduCalendarEventTiming(common.JsonObject):
     }
   }))
 
-  @classmethod
-  def from_details(cls, month_type, month_number, anga_type, anga_number, kaala, year_start):
-    timing = HinduCalendarEventTiming()
-    timing.month_type = month_type
-    timing.month_number = month_number
-    timing.anga_type = anga_type
-    timing.anga_number = anga_number
-    timing.kaala = kaala
-    timing.year_start = year_start
-    timing.validate_schema()
-    return timing
+  def __init__(self, month_type, month_number, anga_type, anga_number, kaala, year_start):
+    self.month_type = month_type
+    self.month_number = month_number
+    self.anga_type = anga_type
+    self.anga_number = anga_number
+    self.kaala = kaala
+    self.year_start = year_start
+    self.anchor_festival_id = None
+    self.offset = None
+    self.julian_handling = None
 
   def get_kaala(self):
     return "सूर्योदयः" if self.kaala is None else self.kaala
@@ -92,6 +92,17 @@ class HinduCalendarEventTiming(common.JsonObject):
   def get_priority(self):
     return "puurvaviddha" if self.priority is None else self.priority
     
+  def get_month_name_en(self, script):
+    if self.month_number == 0:
+      return "every"
+    if self.month_type == RulesRepo.LUNAR_MONTH_DIR:
+      return names.get_chandra_masa(self.month_number, script)
+    elif self.month_type == RulesRepo.SIDEREAL_SOLAR_MONTH_DIR:
+      return names.NAMES['RASHI_NAMES']['sa'][script][self.month_number]
+    elif self.month_type == RulesRepo.TROPICAL_MONTH_DIR:
+      return names.NAMES['RTU_MASA_NAMES_SHORT']['sa'][script][self.month_number]
+    elif self.month_type == RulesRepo.GREGORIAN_MONTH_DIR:
+      return names.month_map[self.month_number]
 
 # noinspection PyUnresolvedReferences
 class HinduCalendarEvent(common.JsonObject):
@@ -145,6 +156,17 @@ class HinduCalendarEvent(common.JsonObject):
       },
     }
   }))
+  
+  def __init__(self, id):
+    self.id = id
+    self.timing = None
+    self.tags = None
+    self.references_primary = None
+    self.references_secondary = None
+    self.names = None
+    self.description = None
+    self.image = None
+    self.path_actual = None
 
   def get_storage_file_name(self, base_dir):
     return self.get_storage_file_name_granular(base_dir=base_dir)
@@ -260,8 +282,8 @@ rule_repos = (RulesRepo(name="general"), RulesRepo(name="gRhya/general"), RulesR
 
 
 class RulesCollection(common.JsonObject):
-  JULIAN_AS_GREGORIAN = "JULIAN_AS_GREGORIAN"
-  JULIAN_TO_GREGORIAN = "JULIAN_TO_GREGORIAN"
+  JULIAN_AS_GREGORIAN = "treated as Gregorian"
+  JULIAN_TO_GREGORIAN = "converted to Gregorian"
 
 
   def __init__(self, repos=rule_repos, julian_handling=JULIAN_TO_GREGORIAN):
