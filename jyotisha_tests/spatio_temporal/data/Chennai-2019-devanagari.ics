@@ -581,12 +581,12 @@ SUMMARY:śivarājeṇa rustam-jamānô dhvastaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190106T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190107T235957
 DESCRIPTION:Observed on day 7 of January (gregorian) month. Julian date wa
- s converted to Gregorian in this reckoning.The event has been commemorated 
- since it occurred in 1659 (gregorian era).  <br/>Shivaji defeated Rustam-i
-  Zaman in an epic battle fought near Kolhapur.<br/><br/>##### Details<br/>
- - [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/mas
- ter/mahApuruSha/xatra-later/gregorian/day/01/07/shivAjI_vs_rustam-zamAn.to
- ml)<br/>- Tags: Shivaji
+ s converted to Gregorian in this reckoning. The event has been commemorate
+ d since it occurred in 1659 (gregorian era).  <br/>Shivaji defeated Rustam
+ -i Zaman in an epic battle fought near Kolhapur.<br/><br/>##### Details<br
+ />- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree/m
+ aster/mahApuruSha/xatra-later/gregorian/day/01/07/shivAjI_vs_rustam-zamAn.
+ toml)<br/>- Tags: Shivaji
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2810,11 +2810,11 @@ SUMMARY:śāhājī-mṛtyuḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190201T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190202T235957
 DESCRIPTION:Observed on day 2 of February (gregorian) month. Julian date w
- as converted to Gregorian in this reckoning.The event has been commemorated
-  since it occurred in 1664 (gregorian era).  <br/>shAhaji father of shivAj
- I died<br/><br/>##### Details<br/>- [Edit config file](https://github.com/
- sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/da
- y/02/02/shAhAjI-mRtyuH.toml)<br/>- Tags:
+ as converted to Gregorian in this reckoning. The event has been commemorat
+ ed since it occurred in 1664 (gregorian era).  <br/>shAhaji father of shiv
+ AjI died<br/><br/>##### Details<br/>- [Edit config file](https://github.co
+ m/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/
+ day/02/02/shAhAjI-mRtyuH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2828,13 +2828,13 @@ SUMMARY:tālikoṭa-yuddham
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190201T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190202T235957
 DESCRIPTION:Observed on day 2 of February (gregorian) month. Julian date w
- as converted to Gregorian in this reckoning.The event has been commemorated
-  since it occurred in 1565 (gregorian era).  <br/>battle of tAlikoTa. jihA
- di forces won a major victory against the forces of vijayanagara and behea
- ded rAmarAya - thanks supposedly in part to betrayal by two muslim general
- s.<br/><br/>##### Details<br/>- [Edit config file](https://github.com/sans
- krit-coders/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/02
- /02/tAlikoTa-yuddham.toml)<br/>- Tags:
+ as converted to Gregorian in this reckoning. The event has been commemorat
+ ed since it occurred in 1565 (gregorian era).  <br/>battle of tAlikoTa. ji
+ hAdi forces won a major victory against the forces of vijayanagara and beh
+ eaded rAmarAya - thanks supposedly in part to betrayal by two muslim gener
+ als.<br/><br/>##### Details<br/>- [Edit config file](https://github.com/sa
+ nskrit-coders/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/
+ 02/02/tAlikoTa-yuddham.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3426,11 +3426,11 @@ SUMMARY:proklas-janma
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190208T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190209T235957
 DESCRIPTION:Observed on day 9 of February (gregorian) month. Julian date w
- as converted to Gregorian in this reckoning.The event has been commemorated
-  since it occurred in 412 (gregorian era).  <br/>Roman Polytheist Platonis
- t sage Proclus was born on this day<br/><br/>##### Details<br/>- [Edit con
- fig file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApur
- uSha/general/gregorian/day/02/09/proklas-janma.toml)<br/>- Tags:
+ as converted to Gregorian in this reckoning. The event has been commemorat
+ ed since it occurred in 412 (gregorian era).  <br/>Roman Polytheist Platon
+ ist sage Proclus was born on this day<br/><br/>##### Details<br/>- [Edit c
+ onfig file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahAp
+ uruSha/general/gregorian/day/02/09/proklas-janma.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4098,12 +4098,12 @@ SUMMARY:tānājī-vīra-gatiḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190213T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190214T235957
 DESCRIPTION:Observed on day 14 of February (gregorian) month. Julian date 
- was converted to Gregorian in this reckoning.The event has been commemorate
- d since it occurred in 1670 (gregorian era).  <br/>tANAji mAlsure capture 
- sinhagad\, scaling the wall with a lizard and sacrifices his life.<br/><br
- />##### Details<br/>- [Edit config file](https://github.com/sanskrit-coder
- s/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/02/14/tAnAjI
- -vIra-gatiH.toml)<br/>- Tags:
+ was converted to Gregorian in this reckoning. The event has been commemora
+ ted since it occurred in 1670 (gregorian era).  <br/>tANAji mAlsure captur
+ e sinhagad\, scaling the wall with a lizard and sacrifices his life.<br/><
+ br/>##### Details<br/>- [Edit config file](https://github.com/sanskrit-cod
+ ers/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/02/14/tAnA
+ jI-vIra-gatiH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5609,15 +5609,15 @@ SUMMARY:śivarājo jātaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190228T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190301T235957
 DESCRIPTION:Observed on day 1 of March (gregorian) month. Julian date was 
- converted to Gregorian in this reckoning.The event has been commemorated si
- nce it occurred in 1630 (gregorian era).  <br/>phAlguna k3 I recall the sa
- cred memory of the great rAjan shivAji\, about whom bhUShaNa wrote "चा
- रौ वर्ण धर्म छोडि कलमा नेवाज
-  पढि सिवाजी न होतो तौ सुनति ह
- ोत सबकी" 🙏🙏<br/> Some dispute it.<br/><br/>##### Details
- <br/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tre
- e/master/mahApuruSha/xatra-later/gregorian/day/03/01/shivarAjo_jAtaH.toml)
- <br/>- Tags:
+ converted to Gregorian in this reckoning. The event has been commemorated 
+ since it occurred in 1630 (gregorian era).  <br/>phAlguna k3 I recall the 
+ sacred memory of the great rAjan shivAji\, about whom bhUShaNa wrote "च
+ ारौ वर्ण धर्म छोडि कलमा नेवा
+ ज पढि सिवाजी न होतो तौ सुनति 
+ होत सबकी" 🙏🙏<br/> Some dispute it.<br/><br/>##### Deta
+ ils<br/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi/
+ tree/master/mahApuruSha/xatra-later/gregorian/day/03/01/shivarAjo_jAtaH.to
+ ml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6121,13 +6121,13 @@ SUMMARY:rājārāmo jātaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190305T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190306T235957
 DESCRIPTION:Observed on day 6 of March (gregorian) month. Julian date was 
- converted to Gregorian in this reckoning.The event has been commemorated si
- nce it occurred in 1670 (gregorian era).  <br/>On this day was born Rajara
- m\, 2nd son of Ch Shivaji\, who continued the struggle for Swarajya from G
- injee after Sambhaji's brutal torture and execution for refusing to conver
- t to Islam.<br/><br/>##### Details<br/>- [Edit config file](https://github
- .com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra-later/gregori
- an/day/03/06/rAjArAmo_jAtaH.toml)<br/>- Tags:
+ converted to Gregorian in this reckoning. The event has been commemorated 
+ since it occurred in 1670 (gregorian era).  <br/>On this day was born Raja
+ ram\, 2nd son of Ch Shivaji\, who continued the struggle for Swarajya from
+  Ginjee after Sambhaji's brutal torture and execution for refusing to conv
+ ert to Islam.<br/><br/>##### Details<br/>- [Edit config file](https://gith
+ ub.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra-later/grego
+ rian/day/03/06/rAjArAmo_jAtaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6989,12 +6989,12 @@ SUMMARY:koṇḍājī-senādhipena panhaḻa-durgaṃ gṛhītam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190315T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190316T235957
 DESCRIPTION:Observed on day 16 of March (gregorian) month. Julian date was
-  converted to Gregorian in this reckoning.The event has been commemorated s
- ince it occurred in 1673 (gregorian era).  <br/>Kondaji Farzand captured P
- anhala in a daring night escalade & the garrison was massacred.<br/><br/>#
- #### Details<br/>- [Edit config file](https://github.com/sanskrit-coders/a
- dyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/03/16/koNDAjI-s
- enAdhipena_panhaLa-durgaM_gRhItam.toml)<br/>- Tags:
+  converted to Gregorian in this reckoning. The event has been commemorated
+  since it occurred in 1673 (gregorian era).  <br/>Kondaji Farzand captured
+  Panhala in a daring night escalade & the garrison was massacred.<br/><br/
+ >##### Details<br/>- [Edit config file](https://github.com/sanskrit-coders
+ /adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/03/16/koNDAjI
+ -senAdhipena_panhaLa-durgaM_gRhItam.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -7740,11 +7740,11 @@ SUMMARY:śambhurājo pīḍito hataś ca
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190320T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190321T235957
 DESCRIPTION:Observed on day 21 of March (gregorian) month. Julian date was
-  converted to Gregorian in this reckoning.The event has been commemorated s
- ince it occurred in 1689 (gregorian era).  <br/>sambhAji mahArAj tortured 
- and killed by awrangzeb<br/><br/>##### Details<br/>- [Edit config file](ht
- tps://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra-l
- ater/gregorian/day/03/21/shambhurAjo_pIDito_hatash_cha.toml)<br/>- Tags:
+  converted to Gregorian in this reckoning. The event has been commemorated
+  since it occurred in 1689 (gregorian era).  <br/>sambhAji mahArAj torture
+ d and killed by awrangzeb<br/><br/>##### Details<br/>- [Edit config file](
+ https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra
+ -later/gregorian/day/03/21/shambhurAjo_pIDito_hatash_cha.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8598,14 +8598,14 @@ SUMMARY:nādiraśāhena dehalyāṃ lokahatyā
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190401T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190402T235957
 DESCRIPTION:Observed on day 2 of April (gregorian) month. Julian date was 
- converted to Gregorian in this reckoning.The event has been commemorated si
- nce it occurred in 1739 (gregorian era).  <br/>9 AM: It was the morning of
-  Holi. A massacre\, horrific beyond any description\, breaks out on the st
- reets of Delhi (started by nAdir shAh).<br/>When it ended several hours la
- ter\, tens of thousands of corpses lay on the streets. Estimates range fro
- m 30000-80000<br/><br/>##### Details<br/>- [Edit config file](https://gith
- ub.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra-later/grego
- rian/day/04/02/nAdirashAhena_dehalyAM_lokahatyA.toml)<br/>- Tags:
+ converted to Gregorian in this reckoning. The event has been commemorated 
+ since it occurred in 1739 (gregorian era).  <br/>9 AM: It was the morning 
+ of Holi. A massacre\, horrific beyond any description\, breaks out on the 
+ streets of Delhi (started by nAdir shAh).<br/>When it ended several hours 
+ later\, tens of thousands of corpses lay on the streets. Estimates range f
+ rom 30000-80000<br/><br/>##### Details<br/>- [Edit config file](https://gi
+ thub.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra-later/gre
+ gorian/day/04/02/nAdirashAhena_dehalyAM_lokahatyA.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9602,11 +9602,11 @@ SUMMARY:parali-durgo jitaḥ svarājyêna
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190411T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190412T235957
 DESCRIPTION:Observed on day 12 of April (gregorian) month. Julian date was
-  converted to Gregorian in this reckoning.The event has been commemorated s
- ince it occurred in 1673 (gregorian era).  <br/>Parali too was taken from 
- Adil shAhi-s.<br/><br/>##### Details<br/>- [Edit config file](https://gith
- ub.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra-later/grego
- rian/day/04/12/parali-durgo_jitaH_svarAjyEna.toml)<br/>- Tags:
+  converted to Gregorian in this reckoning. The event has been commemorated
+  since it occurred in 1673 (gregorian era).  <br/>Parali too was taken fro
+ m Adil shAhi-s.<br/><br/>##### Details<br/>- [Edit config file](https://gi
+ thub.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra-later/gre
+ gorian/day/04/12/parali-durgo_jitaH_svarAjyEna.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10905,11 +10905,11 @@ SUMMARY:bālājī-viśvanātho mṛtaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190422T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190423T235957
 DESCRIPTION:Observed on day 23 of April (gregorian) month. Julian date was
-  converted to Gregorian in this reckoning.The event has been commemorated s
- ince it occurred in 1720 (gregorian era).  <br/>great peshva bAlAjI vishva
- nAth died.<br/><br/>##### Details<br/>- [Edit config file](https://github.
- com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra-later/gregoria
- n/day/04/23/bAlAjI-vishvanAtho_mRtaH.toml)<br/>- Tags:
+  converted to Gregorian in this reckoning. The event has been commemorated
+  since it occurred in 1720 (gregorian era).  <br/>great peshva bAlAjI vish
+ vanAth died.<br/><br/>##### Details<br/>- [Edit config file](https://githu
+ b.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra-later/gregor
+ ian/day/04/23/bAlAjI-vishvanAtho_mRtaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11209,15 +11209,15 @@ SUMMARY:śivarājena hambīrarāvaṃ senādhipaṃ cakāra
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190427T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190428T235957
 DESCRIPTION:Observed on day 28 of April (gregorian) month. Julian date was
-  converted to Gregorian in this reckoning.The event has been commemorated s
- ince it occurred in 1674 (gregorian era).  <br/>Chhatrapati Shivaji inspec
- ted his army at Chiplun. A new commander-in-chief had been identified. His
-  name was Hansaji Mohite. But that day Shivaji titled him Sarnobat (Chief 
- of Army) Hambirrao & history will remember him by that name: Hambirrao fat
- her of Tara Bai<br/><br/>##### Details<br/>- [Edit config file](https://gi
- thub.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra-later/gre
- gorian/day/04/28/shivarAjena_hambIrarAvaM_senAdhipaM_cakAra.toml)<br/>- Ta
- gs:
+  converted to Gregorian in this reckoning. The event has been commemorated
+  since it occurred in 1674 (gregorian era).  <br/>Chhatrapati Shivaji insp
+ ected his army at Chiplun. A new commander-in-chief had been identified. H
+ is name was Hansaji Mohite. But that day Shivaji titled him Sarnobat (Chie
+ f of Army) Hambirrao & history will remember him by that name: Hambirrao f
+ ather of Tara Bai<br/><br/>##### Details<br/>- [Edit config file](https://
+ github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra-later/g
+ regorian/day/04/28/shivarAjena_hambIrarAvaM_senAdhipaM_cakAra.toml)<br/>- 
+ Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12265,11 +12265,11 @@ SUMMARY:bājī-rāvo mṛtaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190508T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190509T235957
 DESCRIPTION:Observed on day 9 of May (gregorian) month. Julian date was co
- nverted to Gregorian in this reckoning.The event has been commemorated sinc
- e it occurred in 1740 (gregorian era).  <br/>vaishAkha s13\, Raudra Sanvat
- sar\, Saka era bAji rAv 1 dead.<br/><br/>##### Details<br/>- [Edit config 
- file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha
- /xatra-later/gregorian/day/05/09/bAjI-rAvo_mRtaH.toml)<br/>- Tags:
+ nverted to Gregorian in this reckoning. The event has been commemorated si
+ nce it occurred in 1740 (gregorian era).  <br/>vaishAkha s13\, Raudra Sanv
+ atsar\, Saka era bAji rAv 1 dead.<br/><br/>##### Details<br/>- [Edit confi
+ g file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruS
+ ha/xatra-later/gregorian/day/05/09/bAjI-rAvo_mRtaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13580,11 +13580,11 @@ SUMMARY:pratāpasiṃho jātaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190518T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190519T235957
 DESCRIPTION:Observed on day 19 of May (gregorian) month. Julian date was c
- onverted to Gregorian in this reckoning.The event has been commemorated sin
- ce it occurred in 1540 (gregorian era).  <br/>jyeShTha s3 Maharana Pratap 
- Jayanti<br/><br/>##### Details<br/>- [Edit config file](https://github.com
- /sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/d
- ay/05/19/pratApasiMho_jAtaH.toml)<br/>- Tags:
+ onverted to Gregorian in this reckoning. The event has been commemorated s
+ ince it occurred in 1540 (gregorian era).  <br/>jyeShTha s3 Maharana Prata
+ p Jayanti<br/><br/>##### Details<br/>- [Edit config file](https://github.c
+ om/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian
+ /day/05/19/pratApasiMho_jAtaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -14066,11 +14066,11 @@ SUMMARY:śambhurājo jātaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190523T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190524T235957
 DESCRIPTION:Observed on day 24 of May (gregorian) month. Julian date was c
- onverted to Gregorian in this reckoning.The event has been commemorated sin
- ce it occurred in 1657 (gregorian era).  <br/>jyeShTha s12 Sambhaji born<b
- r/><br/>##### Details<br/>- [Edit config file](https://github.com/sanskrit
- -coders/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/05/24/
- shambhurAjo_jAtaH.toml)<br/>- Tags:
+ onverted to Gregorian in this reckoning. The event has been commemorated s
+ ince it occurred in 1657 (gregorian era).  <br/>jyeShTha s12 Sambhaji born
+ <br/><br/>##### Details<br/>- [Edit config file](https://github.com/sanskr
+ it-coders/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/05/2
+ 4/shambhurAjo_jAtaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -14415,12 +14415,12 @@ SUMMARY:kṛṣṇadevarāyasya rāyacūru-jayaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190528T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190529T235957
 DESCRIPTION:Observed on day 29 of May (gregorian) month. Julian date was c
- onverted to Gregorian in this reckoning.The event has been commemorated sin
- ce it occurred in 1520 (gregorian era).  <br/>kRShNadevarAya smashed the J
- ihad of the Army of Islam in a great victory at Raichur<br/><br/>##### Det
- ails<br/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi
- /tree/master/mahApuruSha/xatra-later/gregorian/day/05/29/kRShNadevarAyasya
- _rAyachUru-jayaH.toml)<br/>- Tags:
+ onverted to Gregorian in this reckoning. The event has been commemorated s
+ ince it occurred in 1520 (gregorian era).  <br/>kRShNadevarAya smashed the
+  Jihad of the Army of Islam in a great victory at Raichur<br/><br/>##### D
+ etails<br/>- [Edit config file](https://github.com/sanskrit-coders/adyatit
+ hi/tree/master/mahApuruSha/xatra-later/gregorian/day/05/29/kRShNadevarAyas
+ ya_rAyachUru-jayaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -16413,11 +16413,11 @@ SUMMARY:śivarājasyaindrābhiṣekaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190615T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190616T235957
 DESCRIPTION:Observed on day 16 of June (gregorian) month. Julian date was 
- converted to Gregorian in this reckoning.The event has been commemorated si
- nce it occurred in 1674 (gregorian era).  <br/>jyeShTha shukla 13 shivAji'
- s aindrAbhiSheka.<br/><br/>##### Details<br/>- [Edit config file](https://
- github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra-later/g
- regorian/day/06/16/shivarAjasyaindrAbhiSekaH.toml)<br/>- Tags:
+ converted to Gregorian in this reckoning. The event has been commemorated 
+ since it occurred in 1674 (gregorian era).  <br/>jyeShTha shukla 13 shivAj
+ i's aindrAbhiSheka.<br/><br/>##### Details<br/>- [Edit config file](https:
+ //github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra-later
+ /gregorian/day/06/16/shivarAjasyaindrAbhiSekaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -20392,11 +20392,11 @@ SUMMARY:śambhu-paṭṭābhiṣekaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190729T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190730T235957
 DESCRIPTION:Observed on day 30 of July (gregorian) month. Julian date was 
- converted to Gregorian in this reckoning.The event has been commemorated si
- nce it occurred in 1680 (gregorian era).  <br/>shrAvaNa s5  Sambhaji ascen
- ded the throne<br/><br/>##### Details<br/>- [Edit config file](https://git
- hub.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra-later/greg
- orian/day/07/30/shambhu-paTTAbhiShekaH.toml)<br/>- Tags:
+ converted to Gregorian in this reckoning. The event has been commemorated 
+ since it occurred in 1680 (gregorian era).  <br/>shrAvaNa s5  Sambhaji asc
+ ended the throne<br/><br/>##### Details<br/>- [Edit config file](https://g
+ ithub.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra-later/gr
+ egorian/day/07/30/shambhu-paTTAbhiShekaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -21082,12 +21082,12 @@ SUMMARY:kṛṣṇadevarāya-paṭṭābhiṣekaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190804T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190805T235957
 DESCRIPTION:Observed on day 5 of August (gregorian) month. Julian date was
-  converted to Gregorian in this reckoning.The event has been commemorated s
- ince it occurred in 1509 (gregorian era).  <br/>kRShNAShTamI (bhAdrapada-k
- RShNa likely) kRShNadevarAya coronated. https://twitter.com/i/moments/8900
- 55413374173186<br/><br/>##### Details<br/>- [Edit config file](https://git
- hub.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra-later/greg
- orian/day/08/05/kRShNadevarAya-paTTAbhiShekaH.toml)<br/>- Tags:
+  converted to Gregorian in this reckoning. The event has been commemorated
+  since it occurred in 1509 (gregorian era).  <br/>kRShNAShTamI (bhAdrapada
+ -kRShNa likely) kRShNadevarAya coronated. https://twitter.com/i/moments/89
+ 0055413374173186<br/><br/>##### Details<br/>- [Edit config file](https://g
+ ithub.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra-later/gr
+ egorian/day/08/05/kRShNadevarAya-paTTAbhiShekaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -22237,12 +22237,12 @@ SUMMARY:sadāśiva-rāvo jātaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190814T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190815T235957
 DESCRIPTION:Observed on day 15 of August (gregorian) month. Julian date wa
- s converted to Gregorian in this reckoning.The event has been commemorated 
- since it occurred in 1730 (gregorian era).  <br/>sadAshivrAv bhAu\, who di
- ed fighting at 30 in pAnipaT\, was born.<br/><br/>##### Details<br/>- [Edi
- t config file](https://github.com/sanskrit-coders/adyatithi/tree/master/ma
- hApuruSha/xatra-later/gregorian/day/08/15/sadAshiva-rAvo_jAtaH.toml)<br/>-
-  Tags:
+ s converted to Gregorian in this reckoning. The event has been commemorate
+ d since it occurred in 1730 (gregorian era).  <br/>sadAshivrAv bhAu\, who 
+ died fighting at 30 in pAnipaT\, was born.<br/><br/>##### Details<br/>- [E
+ dit config file](https://github.com/sanskrit-coders/adyatithi/tree/master/
+ mahApuruSha/xatra-later/gregorian/day/08/15/sadAshiva-rAvo_jAtaH.toml)<br/
+ >- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -23448,12 +23448,12 @@ SUMMARY:āgra-bandhanāt palāyitaḥ śivarājaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190826T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190827T235957
 DESCRIPTION:Observed on day 27 of August (gregorian) month. Julian date wa
- s converted to Gregorian in this reckoning.The event has been commemorated 
- since it occurred in 1666 (gregorian era).  <br/>shrAvaNa k12 Shivaji pull
- ed off one of the greatest escapes in history from the jaws of death at Ag
- ra.<br/><br/>##### Details<br/>- [Edit config file](https://github.com/san
- skrit-coders/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/0
- 8/27/Agra-bandhanAt_palAyitaH_shivarAjaH.toml)<br/>- Tags:
+ s converted to Gregorian in this reckoning. The event has been commemorate
+ d since it occurred in 1666 (gregorian era).  <br/>shrAvaNa k12 Shivaji pu
+ lled off one of the greatest escapes in history from the jaws of death at 
+ Agra.<br/><br/>##### Details<br/>- [Edit config file](https://github.com/s
+ anskrit-coders/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day
+ /08/27/Agra-bandhanAt_palAyitaH_shivarAjaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -23740,11 +23740,11 @@ SUMMARY:bājī-rāvo jātaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190828T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190829T235957
 DESCRIPTION:Observed on day 29 of August (gregorian) month. Julian date wa
- s converted to Gregorian in this reckoning.The event has been commemorated 
- since it occurred in 1700 (gregorian era).  <br/>bAjI rAv born<br/><br/>##
- ### Details<br/>- [Edit config file](https://github.com/sanskrit-coders/ad
- yatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/08/29/bAjI-rAvo_
- jAtaH.toml)<br/>- Tags:
+ s converted to Gregorian in this reckoning. The event has been commemorate
+ d since it occurred in 1700 (gregorian era).  <br/>bAjI rAv born<br/><br/>
+ ##### Details<br/>- [Edit config file](https://github.com/sanskrit-coders/
+ adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/08/29/bAjI-rAv
+ o_jAtaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -28654,12 +28654,12 @@ SUMMARY:cennai-nagare śivarājaḥ kālikām apūjayat
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191012T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191013T235957
 DESCRIPTION:Observed on day 13 of October (gregorian) month. Julian date w
- as converted to Gregorian in this reckoning.The event has been commemorated
-  since it occurred in 1677 (gregorian era).  <br/>shivAjI worships kAlikAm
- bA in chennai<br/>https://twitter.com/iParamanand/status/91526820951056384
- 0<br/><br/>##### Details<br/>- [Edit config file](https://github.com/sansk
- rit-coders/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/10/
- 13/cennai-nagare_shivarAjaH_kAlikAm_apUjayat.toml)<br/>- Tags:
+ as converted to Gregorian in this reckoning. The event has been commemorat
+ ed since it occurred in 1677 (gregorian era).  <br/>shivAjI worships kAlik
+ AmbA in chennai<br/>https://twitter.com/iParamanand/status/915268209510563
+ 840<br/><br/>##### Details<br/>- [Edit config file](https://github.com/san
+ skrit-coders/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/1
+ 0/13/cennai-nagare_shivarAjaH_kAlikAm_apUjayat.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -28836,11 +28836,11 @@ SUMMARY:śivarājo sūrata-nagaraṃ luṇṭhati
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191012T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191013T235957
 DESCRIPTION:Observed on day 13 of October (gregorian) month. Julian date w
- as converted to Gregorian in this reckoning.The event has been commemorated
-  since it occurred in 1670 (gregorian era).  <br/><br/><br/>##### Details<
- br/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tree
- /master/mahApuruSha/xatra-later/gregorian/day/10/13/shivarAjo_sUrata-nagar
- aM_luNThati.toml)<br/>- Tags:
+ as converted to Gregorian in this reckoning. The event has been commemorat
+ ed since it occurred in 1670 (gregorian era).  <br/><br/><br/>##### Detail
+ s<br/>- [Edit config file](https://github.com/sanskrit-coders/adyatithi/tr
+ ee/master/mahApuruSha/xatra-later/gregorian/day/10/13/shivarAjo_sUrata-nag
+ araM_luNThati.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -30368,13 +30368,13 @@ SUMMARY:śivarājo diṇḍoryāṃ jayati
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191026T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191027T235957
 DESCRIPTION:Observed on day 27 of October (gregorian) month. Julian date w
- as converted to Gregorian in this reckoning.The event has been commemorated
-  since it occurred in 1670 (gregorian era).  <br/>On this day was fought t
- he fierce battle of Vani-Dindori where Shivaji led the Marathas to a great
-  victory against the Mughals.<br/><br/>##### Details<br/>- [Edit config fi
- le](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/x
- atra-later/gregorian/day/10/27/shivarAjo_diNDoryAM_jayati.toml)<br/>- Tags
- :
+ as converted to Gregorian in this reckoning. The event has been commemorat
+ ed since it occurred in 1670 (gregorian era).  <br/>On this day was fought
+  the fierce battle of Vani-Dindori where Shivaji led the Marathas to a gre
+ at victory against the Mughals.<br/><br/>##### Details<br/>- [Edit config 
+ file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha
+ /xatra-later/gregorian/day/10/27/shivarAjo_diNDoryAM_jayati.toml)<br/>- Ta
+ gs:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -33122,13 +33122,13 @@ SUMMARY:khānodara-vidāraṇam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191119T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191120T235957
 DESCRIPTION:Observed on day 20 of November (gregorian) month. Julian date 
- was converted to Gregorian in this reckoning.The event has been commemorate
- d since it occurred in 1659 (gregorian era).  <br/>Afzal Khan is killed in
-  an epic encounter. Shivaji ordered Netoji Palkar to destroy Afzal's base 
- at Wai the very same day & himself followed soon. https://twitter.com/Gopa
- narya/status/928748402245976064<br/><br/>##### Details<br/>- [Edit config 
- file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha
- /xatra-later/gregorian/day/11/20/khAnodara-vidAraNam.toml)<br/>- Tags:
+ was converted to Gregorian in this reckoning. The event has been commemora
+ ted since it occurred in 1659 (gregorian era).  <br/>Afzal Khan is killed 
+ in an epic encounter. Shivaji ordered Netoji Palkar to destroy Afzal's bas
+ e at Wai the very same day & himself followed soon. https://twitter.com/Go
+ panarya/status/928748402245976064<br/><br/>##### Details<br/>- [Edit confi
+ g file](https://github.com/sanskrit-coders/adyatithi/tree/master/mahApuruS
+ ha/xatra-later/gregorian/day/11/20/khAnodara-vidAraNam.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -34326,12 +34326,12 @@ SUMMARY:aफ़zal-khāna-vadhāt 13 dinam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191202T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191203T235957
 DESCRIPTION:Observed on day 3 of December (gregorian) month. Julian date w
- as converted to Gregorian in this reckoning.The event has been commemorated
-  since it occurred in 1659 (gregorian era).  <br/>Day 13 (after Afzal's de
- ath): Supe\, Tambe\, Pali\, Nerle\, Kameri\, Visapur\, Save Uran\, Koley a
- re all taken.<br/><br/>##### Details<br/>- [Edit config file](https://gith
- ub.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra-later/grego
- rian/day/12/03/afzal-khAna-vadhAt_13_dinam.toml)<br/>- Tags:
+ as converted to Gregorian in this reckoning. The event has been commemorat
+ ed since it occurred in 1659 (gregorian era).  <br/>Day 13 (after Afzal's 
+ death): Supe\, Tambe\, Pali\, Nerle\, Kameri\, Visapur\, Save Uran\, Koley
+  are all taken.<br/><br/>##### Details<br/>- [Edit config file](https://gi
+ thub.com/sanskrit-coders/adyatithi/tree/master/mahApuruSha/xatra-later/gre
+ gorian/day/12/03/afzal-khAna-vadhAt_13_dinam.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -34795,12 +34795,12 @@ SUMMARY:śivarājena panhaḻadurgaṃ gṛhītam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191207T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191208T235957
 DESCRIPTION:Observed on day 8 of December (gregorian) month. Julian date w
- as converted to Gregorian in this reckoning.The event has been commemorated
-  since it occurred in 1659 (gregorian era).  <br/>Panhala fell on the 2nd 
- night of the siege! Just 18 days after the slaying of Afzal Khan!<br/><br/
- >##### Details<br/>- [Edit config file](https://github.com/sanskrit-coders
- /adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/12/08/shivAjI
- _takes_panhaLa.toml)<br/>- Tags: Shivaji
+ as converted to Gregorian in this reckoning. The event has been commemorat
+ ed since it occurred in 1659 (gregorian era).  <br/>Panhala fell on the 2n
+ d night of the siege! Just 18 days after the slaying of Afzal Khan!<br/><b
+ r/>##### Details<br/>- [Edit config file](https://github.com/sanskrit-code
+ rs/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/12/08/shivA
+ jI_takes_panhaLa.toml)<br/>- Tags: Shivaji
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
