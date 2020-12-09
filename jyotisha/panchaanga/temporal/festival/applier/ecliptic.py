@@ -48,7 +48,7 @@ class EclipticFestivalAssigner(FestivalAssigner):
         solar_eclipse_str = 'sUrya-grahaNaM~(' + grasta + ')'
         if self.daily_panchaangas[fday].date.get_weekday() == 0:
           solar_eclipse_str = '★cUDAmaNi-' + solar_eclipse_str
-        fest = FestivalInstance(name=solar_eclipse_str, interval=Interval(jd_start=jd_eclipse_solar_start, jd_end=jd_eclipse_solar_end))
+        fest = FestivalInstance(name=solar_eclipse_str, interval=Interval(jd_start=jd_eclipse_solar_start, jd_end=jd_eclipse_solar_end, reference_date=self.daily_panchaangas[fday].date))
       self.panchaanga.add_festival_instance(festival_instance=fest, date=self.daily_panchaangas[fday].date)
       jd = jd + MIN_DAYS_NEXT_ECLIPSE
 
@@ -101,7 +101,7 @@ class EclipticFestivalAssigner(FestivalAssigner):
         if self.daily_panchaangas[fday].date.get_weekday() == 1:
           lunar_eclipse_str = '★cUDAmaNi-' + lunar_eclipse_str
 
-        fest = FestivalInstance(name=lunar_eclipse_str, interval=Interval(jd_start=jd_eclipse_lunar_start, jd_end=jd_eclipse_lunar_end))
+        fest = FestivalInstance(name=lunar_eclipse_str, interval=Interval(jd_start=jd_eclipse_lunar_start, jd_end=jd_eclipse_lunar_end, reference_date=self.daily_panchaangas[fday].date))
         self.panchaanga.add_festival_instance(festival_instance=fest, date=self.daily_panchaangas[fday].date)
       jd += MIN_DAYS_NEXT_ECLIPSE
 

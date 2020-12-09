@@ -71,7 +71,7 @@ class SolarFestivalAssigner(FestivalAssigner):
           fday = d - 1
         else:
           fday = d
-        self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name=punya_kaala_str, interval=Interval(jd_start=punya_kaala_start_jd, jd_end=punya_kaala_end_jd)), date=self.daily_panchaangas[fday].date)
+        self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name=punya_kaala_str, interval=Interval(jd_start=punya_kaala_start_jd, jd_end=punya_kaala_end_jd, reference_date=self.daily_panchaangas[fday].date)), date=self.daily_panchaangas[fday].date)
 
       if self.daily_panchaangas[d].tropical_date_sunset.month_transition is not None:
         # Add punyakala
@@ -84,7 +84,7 @@ class SolarFestivalAssigner(FestivalAssigner):
           fday = d - 1
         else:
           fday = d
-        self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name=punya_kaala_str, interval=Interval(jd_start=punya_kaala_start_jd, jd_end=punya_kaala_end_jd)), date=self.daily_panchaangas[fday].date)
+        self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name=punya_kaala_str, interval=Interval(jd_start=punya_kaala_start_jd, jd_end=punya_kaala_end_jd, reference_date=self.daily_panchaangas[fday].date)), date=self.daily_panchaangas[fday].date)
 
         # Add tropical sankranti
         masa_name = RTU_MASA_NAMES[(self.daily_panchaangas[d + 1].tropical_date_sunset.month - 2) % 12 + 1]
@@ -92,7 +92,7 @@ class SolarFestivalAssigner(FestivalAssigner):
           fday = d - 1
         else:
           fday = d
-        self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name=masa_name, interval=Interval(jd_start=None, jd_end=jd_transition)), date=self.daily_panchaangas[fday].date)
+        self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name=masa_name, interval=Interval(jd_start=None, jd_end=jd_transition, reference_date=self.daily_panchaangas[fday].date)), date=self.daily_panchaangas[fday].date)
 
 
   def assign_agni_nakshatra(self):
