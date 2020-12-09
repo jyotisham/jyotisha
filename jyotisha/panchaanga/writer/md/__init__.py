@@ -22,9 +22,10 @@ def make_md(panchaanga, scripts=None, languages=None):
     if daily_panchaanga.date < panchaanga.start_date or daily_panchaanga.date > panchaanga.end_date:
       continue
 
-    if day_index == 0 or daily_panchaanga.date.day == 1:
+    if daily_panchaanga.date == panchaanga.start_date or daily_panchaanga.date.day == 1:
       month_name = names.get_month_name_en(month_number=daily_panchaanga.date.month, month_type=RulesRepo.GREGORIAN_MONTH_DIR)
       print("## %02d %s" % (daily_panchaanga.date.month, month_name), file=output_stream)
+
     (title, details) = day_details.day_summary(d=day_index, panchaanga=panchaanga, script=scripts[0], subsection_md="####")
     print("### %s◢◣%s" % (daily_panchaanga.date.get_date_str(), title), file=output_stream)
     print(details, file=output_stream)
