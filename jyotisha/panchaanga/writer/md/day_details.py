@@ -19,7 +19,7 @@ logging.basicConfig(
 )
 
 
-def day_summary(d, panchaanga, script):
+def day_summary(d, panchaanga, script, subsection_md):
   daily_panchaanga = panchaanga.daily_panchaangas_sorted()[d]
   lunar_month_str = names.get_chandra_masa(month=daily_panchaanga.lunar_month_sunrise.index, script=script)
   solar_month_str = names.NAMES['RASHI_NAMES']['sa'][script][daily_panchaanga.solar_sidereal_date_sunset.month]
@@ -80,7 +80,7 @@ def day_summary(d, panchaanga, script):
   #   print('*' + getName('saMvatsaraH', language) + '*—%s' % yname_lunar, file=output_stream)
   #   print('*' + getName('ayanam', language) + '*—%s' % ayanam, file=output_stream)
   print("___________________", file=output_stream)
-  print("### %s" % (names.translate_or_transliterate(text="खचक्रस्थितिः", script=script)), file=output_stream)
+  print("\n\n%s %s" % (subsection_md, names.translate_or_transliterate(text="खचक्रस्थितिः", script=script)), file=output_stream)
   tithi_data_str = daily_panchaanga.sunrise_day_angas.get_anga_data_str(anga_type=AngaType.TITHI, script=script, reference_jd=daily_panchaanga.julian_day_start)
   print('- |🌞-🌛|%s  ' % (tithi_data_str), file=output_stream)
   vara = names.NAMES['VARA_NAMES']['sa'][script][daily_panchaanga.date.get_weekday()]
@@ -96,7 +96,7 @@ def day_summary(d, panchaanga, script):
   karana_data_str = daily_panchaanga.sunrise_day_angas.get_anga_data_str(anga_type=AngaType.KARANA, script=script, reference_jd=daily_panchaanga.julian_day_start)
   print('- २|🌛-🌞|%s  ' % (karana_data_str), file=output_stream)
   print('- 🌌🌛%s  ' % (chandrashtama_rashi_data_str), file=output_stream)
-  print("### %s" % (names.translate_or_transliterate(text="दिनमान-कालविभागाः", script=script)), file=output_stream)
+  print("\n\n%s %s" % (subsection_md, names.translate_or_transliterate(text="दिनमान-कालविभागाः", script=script)), file=output_stream)
   add_sun_moon_rise_info(daily_panchaanga, output_stream, script)
 
   if panchaanga.computation_system.festival_options.set_lagnas:
@@ -217,5 +217,5 @@ def get_festivals_md(daily_panchaanga, panchaanga, languages, scripts):
   output_stream = StringIO()
   for f in sorted(daily_panchaanga.festival_id_to_instance.values()):
     print('%s' % (f.md_code(languages=languages, scripts=scripts, timezone=panchaanga.city.get_timezone_obj(),
-                fest_details_dict=fest_details_dict)), file=output_stream)
+                fest_details_dict=fest_details_dict, header_md="#####")), file=output_stream)
   return output_stream.getvalue()

@@ -49,7 +49,7 @@ def writeDailyICS(panchaanga, script=sanscript.DEVANAGARI):
 def get_day_summary_event(d, panchaanga, script):
   daily_panchaanga = panchaanga.daily_panchaangas_sorted()[d]
   event = Event()
-  (title, details) = day_summary(d=d, panchaanga=panchaanga, script=script)
+  (title, details) = day_summary(d=d, panchaanga=panchaanga, script=script, subsection_md="##")
   event.add('summary', title)
   event.add('description', details)
   tz = daily_panchaanga.city.get_timezone_obj()

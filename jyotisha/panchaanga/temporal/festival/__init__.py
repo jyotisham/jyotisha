@@ -74,10 +74,10 @@ class FestivalInstance(common.JsonObject):
         end_time_str = "\\textsf{%s}" % end_time_str
       return "%s%s{\\RIGHTarrow}%s" % (name, start_time_str, end_time_str)
 
-  def md_code(self, languages, scripts, timezone, fest_details_dict):
+  def md_code(self, languages, scripts, timezone, fest_details_dict, header_md):
     name_details = self.get_best_transliterated_name(languages=languages, scripts=scripts, fest_details_dict=fest_details_dict)
     ordinal_str = " #%s" % custom_transliteration.tr(str(self.ordinal), script=name_details["script"]) if self.ordinal is not None else ""
-    name = "#### %s%s" % (name_details["text"].replace("~", "-"), ordinal_str)
+    name = "%s %s%s" % (header_md, name_details["text"].replace("~", "-"), ordinal_str)
 
     if self.interval is None:
       md = name
