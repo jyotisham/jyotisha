@@ -60,6 +60,7 @@ class RuleLookupAssigner(FestivalAssigner):
     rule_set = rules.RulesCollection.get_cached(repos_tuple=tuple(self.computation_system.festival_options.repos), julian_handling=self.computation_system.festival_options.julian_handling)
 
     date = day_panchaanga.get_date(month_type=month_type)
+    days = [date.day]
     if month_type == RulesRepo.GREGORIAN_MONTH_DIR:
       if (day_panchaanga.date + 1).month != day_panchaanga.date.month:
         if day_panchaanga.date.day == 28: 
@@ -68,8 +69,6 @@ class RuleLookupAssigner(FestivalAssigner):
           days = [29, 30, 31]
         elif day_panchaanga.date.day == 30:
           days = [30, 31]
-    else:
-      days = [date.day]
     fest_dict = rule_set.get_possibly_relevant_fests(month=date.month, angas=days, month_type=month_type, anga_type_id=rules.RulesRepo.DAY_DIR)
     for fest_id, fest in fest_dict.items():
       self.panchaanga.add_festival(fest_id=fest_id, date=day_panchaanga.date)
