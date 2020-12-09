@@ -71,7 +71,7 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git commit -m "Add generated changes" -a
+        git commit -m "Add generated changes" -A
         git pull --rebase 
       # To avoid (to some extant) conflicts due to race conditions, we do a pull. 
     - name: Push changes
