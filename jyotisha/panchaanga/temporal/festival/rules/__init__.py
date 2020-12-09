@@ -253,6 +253,7 @@ class RulesRepo(common.JsonObject):
   RELATIVE_EVENT_DIR = "relative_event"
   ERA_GREGORIAN = "gregorian"
   ERA_KALI = "kali"
+  ERA_SHAKA = "shaka"
   DAY_DIR = "day"
   TITHI_DIR = "tithi"
   NAKSHATRA_DIR = "nakshatra"

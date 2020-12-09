@@ -1,6 +1,0 @@
----
-title: "+shaka yr"
----
-
-Welcome!
-

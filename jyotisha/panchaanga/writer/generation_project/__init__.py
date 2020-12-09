@@ -18,7 +18,7 @@ output_dir = os.path.join(os.path.dirname(os.path.dirname(jyotisha.__file__)), "
 
 def dump_ics_md_pair(panchaanga, period_str):
   ics_calendar = ics.compute_calendar(panchaanga)
-  output_file_ics = os.path.join(output_dir, panchaanga.city.name, str(panchaanga.computation_system), "shaka_year", '%s.ics' % period_str)
+  output_file_ics = os.path.join(output_dir, panchaanga.city.name, str(panchaanga.computation_system), '%s.ics' % period_str)
   ics.write_to_file(ics_calendar, output_file_ics)
 
   md_file = MdFile(file_path=output_file_ics.replace(".ics", ".md"), frontmatter_type=MdFile.YAML)
@@ -36,18 +36,18 @@ def dump_ics_md_pair(panchaanga, period_str):
   MdFile.apply_function(fn=MdFile.split_to_bits, dir_path=monthly_dir, frontmatter_type=MdFile.TOML, source_script=None, dry_run=False, indexed_title_pattern=None)
 
 
-def dump_common(year, city):
+def dump_common(year, city, year_type):
   computation_system = ComputationSystem.MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_180
-  panchaanga = annual.get_panchaanga_for_shaka_year(city=city, year=year, computation_system=computation_system)
-  dump_ics_md_pair(panchaanga=panchaanga, period_str=str(year))
+  panchaanga = annual.get_panchaanga_for_year(city=city, year=year, computation_system=computation_system, year_type=year_type, allow_precomputed=False)
+  dump_ics_md_pair(panchaanga=panchaanga, period_str="%s/%04d" % (year_type, year))
 
 
-def dump_kauNDinyAyana(year, city):
+def dump_kauNDinyAyana(year, city, year_type):
   computation_system = ComputationSystem.SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_180
   computation_system.festival_options.repos = [RulesRepo(name="gRhya/general")]
   computation_system.festival_options.aparaahna_as_second_half = True
   computation_system.festival_options.prefer_eight_fold_day_division = True
-  tropical_panchaanga = annual.get_panchaanga_for_shaka_year(city=city, year=year, computation_system=computation_system, allow_precomputed=False)
-  dump_ics_md_pair(panchaanga=tropical_panchaanga, period_str=str(year))
+  panchaanga = annual.get_panchaanga_for_year(city=city, year=year, computation_system=computation_system, year_type=year_type, allow_precomputed=False)
+  dump_ics_md_pair(panchaanga=panchaanga, period_str="%s/%04d" % (year_type, year))
   
 

@@ -6,6 +6,7 @@ import traceback
 from jyotisha.panchaanga.spatio_temporal import periodical
 from jyotisha.panchaanga.spatio_temporal.periodical import Panchaanga
 from jyotisha.panchaanga.temporal import ComputationSystem, set_constants, time
+from jyotisha.panchaanga.temporal.festival.rules import RulesRepo
 from jyotisha.panchaanga.temporal.time import Date, Timezone
 from jyotisha.panchaanga.temporal.body import Graha
 from jyotisha.panchaanga.temporal.zodiac import AngaSpanFinder, Ayanamsha
@@ -106,8 +107,7 @@ def get_panchaanga_for_shaka_year(city, year, precomputed_json_dir="~/Documents/
 
 def get_panchaanga_for_civil_year(city, year, precomputed_json_dir="~/Documents/jyotisha",
                                   computation_system: ComputationSystem = None, allow_precomputed=True):
-  fname = os.path.expanduser('%s/%s-%s.json' % (precomputed_json_dir, city.name, year))
-
+  fname = os.path.expanduser('%s/%s__gregorian_%s__%s.json' % (precomputed_json_dir, city.name, year, computation_system))
   if os.path.isfile(fname) and allow_precomputed:
     fn = lambda: get_panchaanga_for_civil_year(city=city, year=year, precomputed_json_dir=precomputed_json_dir,
                                             computation_system=computation_system, allow_precomputed=False)
@@ -122,3 +122,11 @@ def get_panchaanga_for_civil_year(city, year, precomputed_json_dir="~/Documents/
     panchaanga.dump_to_file(filename=fname)
     return panchaanga
 
+
+def get_panchaanga_for_year(city, year, year_type, computation_system, allow_precomputed=True):
+  if year_type == RulesRepo.ERA_GREGORIAN:
+    return get_panchaanga_for_civil_year(city=city, year=year, computation_system=computation_system, allow_precomputed=allow_precomputed)
+  elif year_type == RulesRepo.ERA_KALI:
+    return get_panchaanga_for_kali_year(city=city, year=year, computation_system=computation_system, allow_precomputed=allow_precomputed)
+  elif year_type == RulesRepo.ERA_SHAKA:
+    return get_panchaanga_for_shaka_year(city=city, year=year, computation_system=computation_system, allow_precomputed=allow_precomputed)
