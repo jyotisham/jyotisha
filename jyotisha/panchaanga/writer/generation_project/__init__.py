@@ -28,7 +28,10 @@ def dump_ics_md_pair(panchaanga, period_str):
 
   monthly_file_path = md_file.file_path.replace(".md", "_monthly.md")
   shutil.copy(md_file.file_path, monthly_file_path)
-  MdFile(file_path=monthly_file_path).split_to_bits(source_script=None, dry_run=False)
+  monthly_md_file = MdFile(file_path=monthly_file_path)
+  monthly_md_file.set_title_from_filename()
+  monthly_md_file.split_to_bits(source_script=None, dry_run=False, indexed_title_pattern=None)
+  MdFile.apply_function(fn=MdFile.split_to_bits, dir_path=monthly_file_path.replace(".md", "/"), frontmatter_type=MdFile.TOML, source_script=None, dry_run=False, indexed_title_pattern=None)
 
 
 def dump_common(year, city):
