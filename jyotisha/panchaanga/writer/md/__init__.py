@@ -23,11 +23,10 @@ def make_md(panchaanga, scripts=None, languages=None):
       continue
 
     if daily_panchaanga.date == panchaanga.start_date or daily_panchaanga.date.day == 1:
-      month_name = names.get_month_name_en(month_number=daily_panchaanga.date.month, month_type=RulesRepo.GREGORIAN_MONTH_DIR)
-      print("## %02d %s" % (daily_panchaanga.date.month, month_name), file=output_stream)
+      print("## %04d-%02d" % (daily_panchaanga.date.year, daily_panchaanga.date.month), file=output_stream)
 
     (title, details) = day_details.day_summary(d=day_index, panchaanga=panchaanga, script=scripts[0], subsection_md="####")
-    print("### %s◢◣%s" % (daily_panchaanga.date.get_date_str(), title), file=output_stream)
+    print("### %s\n#### %s" % (daily_panchaanga.date.get_date_str(), title), file=output_stream)
     print(details, file=output_stream)
     
     festival_md = day_details.get_festivals_md(daily_panchaanga=daily_panchaanga, panchaanga=panchaanga, languages=languages, scripts=scripts, subsection_md="#####")

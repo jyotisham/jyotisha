@@ -27,12 +27,12 @@ def dump_ics_md_pair(panchaanga, period_str):
   md_file.dump_to_file(metadata={"title": period_str}, md=md_content, dry_run=False)
 
   monthly_file_path = md_file.file_path.replace(".md", "_monthly.md")
+  monthly_dir = monthly_file_path.replace(".md", "/")
+  shutil.rmtree(path=monthly_dir, ignore_errors=True)
   shutil.copy(md_file.file_path, monthly_file_path)
   monthly_md_file = MdFile(file_path=monthly_file_path)
   monthly_md_file.set_title_from_filename(dry_run=False, transliteration_target=None)
-  monthly_md_file.split_to_bits(source_script=None, dry_run=False)
-  monthly_dir = monthly_file_path.replace(".md", "/")
-  shutil.rmtree(path=monthly_dir, ignore_errors=True)
+  monthly_md_file.split_to_bits(source_script=None, dry_run=False, indexed_title_pattern=None)
   MdFile.apply_function(fn=MdFile.split_to_bits, dir_path=monthly_dir, frontmatter_type=MdFile.TOML, source_script=None, dry_run=False, indexed_title_pattern=None)
 
 
