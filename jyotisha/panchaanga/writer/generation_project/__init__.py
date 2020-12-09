@@ -5,7 +5,6 @@ Module where we generate and present certain calendars automatically for handy u
 import os
 import shutil
 
-import shutils as shutils
 from doc_curation.md_helper import MdFile
 
 import jyotisha
