@@ -210,12 +210,12 @@ def get_lagna_data_str(daily_panchaanga, script):
 
 
 
-def get_festivals_md(daily_panchaanga, panchaanga, languages, scripts):
+def get_festivals_md(daily_panchaanga, panchaanga, languages, scripts, subsection_md="#####"):
   rules_collection = rules.RulesCollection.get_cached(
     repos_tuple=tuple(panchaanga.computation_system.festival_options.repos), julian_handling=panchaanga.computation_system.festival_options.julian_handling)
   fest_details_dict = rules_collection.name_to_rule
   output_stream = StringIO()
   for f in sorted(daily_panchaanga.festival_id_to_instance.values()):
     print('%s' % (f.md_code(languages=languages, scripts=scripts, timezone=panchaanga.city.get_timezone_obj(),
-                fest_details_dict=fest_details_dict, header_md="#####")), file=output_stream)
+                fest_details_dict=fest_details_dict, header_md=subsection_md)), file=output_stream)
   return output_stream.getvalue()

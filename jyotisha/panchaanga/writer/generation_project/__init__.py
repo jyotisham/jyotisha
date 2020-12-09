@@ -3,7 +3,9 @@ Module where we generate and present certain calendars automatically for handy u
 """
 
 import os
+import shutil
 
+import shutils as shutils
 from doc_curation.md_helper import MdFile
 
 import jyotisha
@@ -21,9 +23,13 @@ def dump_ics_md_pair(panchaanga, period_str):
   ics.write_to_file(ics_calendar, output_file_ics)
 
   md_file = MdFile(file_path=output_file_ics.replace(".ics", ".md"), frontmatter_type=MdFile.YAML)
-  intro = "## Intro\n### Related files\n- [ics](../%s)\n" % str(os.path.basename(output_file_ics))
+  intro = "## 00 Intro\n### Related files\n- [ics](../%s)\n" % str(os.path.basename(output_file_ics))
   md_content = "%s\n%s" % (intro, md.make_md(panchaanga=panchaanga))
   md_file.dump_to_file(metadata={"title": period_str}, md=md_content, dry_run=False)
+
+  monthly_file_path = md_file.file_path.replace(".md", "_monthly.md")
+  shutil.copy(md_file.file_path, monthly_file_path)
+  MdFile(file_path=monthly_file_path).split_to_bits(source_script=None, dry_run=False)
 
 
 def dump_common(year, city):

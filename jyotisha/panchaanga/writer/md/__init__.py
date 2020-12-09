@@ -4,6 +4,7 @@ from indic_transliteration import sanscript
 from jyotisha.panchaanga.temporal import names
 from jyotisha.panchaanga.temporal.names import translate_or_transliterate
 from jyotisha.panchaanga.writer.md import day_details
+from jyotisha.panchaanga.temporal.festival.rules import RulesRepo
 
 
 def make_md(panchaanga, scripts=None, languages=None):
@@ -22,12 +23,13 @@ def make_md(panchaanga, scripts=None, languages=None):
       continue
 
     if day_index == 1 or daily_panchaanga.date.day == 1:
-      print("## %02d" % daily_panchaanga.date.month, file=output_stream)
+      month_name = names.get_month_name_en(month_number=daily_panchaanga.date.month, month_type=RulesRepo.GREGORIAN_MONTH_DIR)
+      print("## %02d %s" % (daily_panchaanga.date.month, month_name), file=output_stream)
     (title, details) = day_details.day_summary(d=day_index, panchaanga=panchaanga, script=scripts[0], subsection_md="####")
     print("### %s◢◣%s" % (daily_panchaanga.date.get_date_str(), title), file=output_stream)
     print(details, file=output_stream)
     
-    festival_md = day_details.get_festivals_md(daily_panchaanga=daily_panchaanga, panchaanga=panchaanga, languages=languages, scripts=scripts)
+    festival_md = day_details.get_festivals_md(daily_panchaanga=daily_panchaanga, panchaanga=panchaanga, languages=languages, scripts=scripts, subsection_md="#####")
     if festival_md != "":
       print("#### %s\n%s" % (names.translate_or_transliterate(text="utsavAH", script=scripts[0]), festival_md), file=output_stream)
   return output_stream.getvalue()

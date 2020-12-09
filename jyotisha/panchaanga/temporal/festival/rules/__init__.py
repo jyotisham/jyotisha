@@ -93,16 +93,7 @@ class HinduCalendarEventTiming(common.JsonObject):
     return "puurvaviddha" if self.priority is None else self.priority
     
   def get_month_name_en(self, script):
-    if self.month_number == 0:
-      return "every"
-    if self.month_type == RulesRepo.LUNAR_MONTH_DIR:
-      return names.get_chandra_masa(self.month_number, script)
-    elif self.month_type == RulesRepo.SIDEREAL_SOLAR_MONTH_DIR:
-      return names.NAMES['RASHI_NAMES']['sa'][script][self.month_number]
-    elif self.month_type == RulesRepo.TROPICAL_MONTH_DIR:
-      return names.NAMES['RTU_MASA_NAMES_SHORT']['sa'][script][self.month_number]
-    elif self.month_type == RulesRepo.GREGORIAN_MONTH_DIR:
-      return names.month_map[self.month_number]
+    return names.get_month_name_en(month_type=self.month_type, month_number=self.month_number, script=script)
 
 # noinspection PyUnresolvedReferences
 class HinduCalendarEvent(common.JsonObject):
