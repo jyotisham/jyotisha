@@ -48,6 +48,19 @@ def get_chandra_masa(month, script, visarga=True):
       return "%s-(%s)" % (NAMES["CHANDRA_MASA_NAMES"]["sa"][script][int(month) + 1][:-1], tr("adhika", script, titled=False))
 
 
+def get_month_name_en(month_number, month_type, script=xsanscript.IAST):
+  from jyotisha.panchaanga.temporal.festival.rules import RulesRepo
+  if month_number == 0:
+    return "every"
+  if month_type == RulesRepo.LUNAR_MONTH_DIR:
+    return get_chandra_masa(month_number, script)
+  elif month_type == RulesRepo.SIDEREAL_SOLAR_MONTH_DIR:
+    return NAMES['RASHI_NAMES']['sa'][script][month_number]
+  elif month_type == RulesRepo.TROPICAL_MONTH_DIR:
+    return NAMES['RTU_MASA_NAMES_SHORT']['sa'][script][month_number]
+  elif month_type == RulesRepo.GREGORIAN_MONTH_DIR:
+    return month_map[month_number]
+
 NAMES = init_names_auto()
 month_map = {1: "January", 2: "February", 3: "March", 4: "April",
              5: "May", 6: "June", 7: "July", 8: "August", 9: "September",

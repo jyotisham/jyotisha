@@ -7,13 +7,13 @@ from math import floor, modf
 from scipy.optimize import brentq
 from timebudget import timebudget
 
-from jyotisha.panchaanga.temporal.names import translate_or_transliterate
 from jyotisha.panchaanga.spatio_temporal import City
-from jyotisha.panchaanga.temporal import interval, time, ComputationSystem, set_constants, names
+from jyotisha.panchaanga.temporal import time, ComputationSystem, set_constants, names
 from jyotisha.panchaanga.temporal import zodiac
 from jyotisha.panchaanga.temporal.body import Graha
 from jyotisha.panchaanga.temporal.interval import DayLengthBasedPeriods, Interval
 from jyotisha.panchaanga.temporal.month import LunarMonthAssigner
+from jyotisha.panchaanga.temporal.names import translate_or_transliterate
 from jyotisha.panchaanga.temporal.time import Timezone, Date, BasicDate, Hour
 from jyotisha.panchaanga.temporal.zodiac import Ayanamsha, NakshatraDivision, AngaSpanFinder
 from jyotisha.panchaanga.temporal.zodiac.angas import AngaType, Anga

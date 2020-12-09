@@ -26,7 +26,7 @@ class FestivalInstance(common.JsonObject):
   def get_human_names(self, fest_details_dict):
     festival_rules = fest_details_dict
     from jyotisha.panchaanga.temporal.festival import rules
-    fest_details = festival_rules.get(self.name, rules.HinduCalendarEvent())
+    fest_details = festival_rules.get(self.name, rules.HinduCalendarEvent(id=self.name))
     if fest_details.names is None:
       fest_details.names = {"sa": [xsanscript.transliterate(self.name.replace("~", " "), sanscript.HK, sanscript.DEVANAGARI)]}
     import copy
@@ -75,10 +75,10 @@ class FestivalInstance(common.JsonObject):
       #   end_time_str = "\\textsf{%s}" % end_time_str
       # return "%s%s{\\RIGHTarrow}%s" % (name, start_time_str, end_time_str)
 
-  def md_code(self, languages, scripts, timezone, fest_details_dict):
+  def md_code(self, languages, scripts, timezone, fest_details_dict, header_md):
     name_details = self.get_best_transliterated_name(languages=languages, scripts=scripts, fest_details_dict=fest_details_dict)
     ordinal_str = " #%s" % custom_transliteration.tr(str(self.ordinal), script=name_details["script"]) if self.ordinal is not None else ""
-    name = "#### %s%s" % (name_details["text"].replace("~", "-"), ordinal_str)
+    name = "%s %s%s" % (header_md, name_details["text"].replace("~", "-"), ordinal_str)
 
     if self.interval is None:
       md = name

@@ -169,6 +169,23 @@ class Date(BasicDate):
   def from_datetime(cls, dt):
     return Date(year=dt.year, month=dt.month, day=dt.day, hour=dt.hour, minute=dt.minute, second=dt.second + dt.microsecond / float(1e6))
 
+  @classmethod
+  def from_string(cls, date_string, format='%Y-%m-%d'):
+    dt = datetime.datetime.strptime(date_string, format)
+    return cls.from_datetime(dt=dt)
+
+  @classmethod
+  def from_julian_date_string(cls, date_string, format='%Y-%m-%d'):
+    dt = datetime.datetime.strptime(date_string, format)
+    return cls.from_julian_date(year=dt.year, month=dt.month, day=dt.day)
+
+  @classmethod
+  def from_julian_date(cls, year, month, day):
+    from convertdate import julian
+    greg_date_tuple = julian.to_gregorian(year=year, month=month, day=day)
+    return Date(year=greg_date_tuple[0], month=greg_date_tuple[1], day=greg_date_tuple[2])
+    
+
   def offset_date(self, **kwargs):
     dt = self.to_datetime()
     offset_dt = dt + datetime.timedelta(**kwargs)
@@ -314,6 +331,9 @@ class Timezone:
     time_str = "%04d%02d%02d%02d%02d%02d" % (local_datetime.year, local_datetime.month, local_datetime.day, local_datetime.hour, local_datetime.minute, local_datetime.second)
     return int(time_str)
 
+  def current_time(self):
+    local_datetime = datetime.datetime.now(tz=pytz.timezone(self.timezone_id))
+    return Date.from_datetime(dt=local_datetime)
 
 # A timezone frequently used for debugging (as most developers are located there.)
 ist_timezone = Timezone("Asia/Calcutta")

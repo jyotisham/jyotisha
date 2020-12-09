@@ -2,6 +2,7 @@ import logging
 import sys
 from copy import deepcopy, copy
 
+from jyotisha.panchaanga.temporal.festival.rules import RulesCollection
 from jyotisha.panchaanga.temporal.zodiac.angas import BoundaryAngas, Anga, AngaType
 from sanskrit_data.schema import common
 from sanskrit_data.schema.common import JsonObject
@@ -48,7 +49,7 @@ def get_2_day_interval_boundary_angas(kaala, anga_type, p0, p1):
 
 
 class FestivalOptions(JsonObject):
-  def __init__(self, set_lagnas=None, no_fests=None, fest_repos=None, fest_ids_included_unimplemented=None, fest_ids_excluded_unimplemented=None, aparaahna_as_second_half=False, prefer_eight_fold_day_division=False):
+  def __init__(self, set_lagnas=None, no_fests=None, fest_repos=None, fest_ids_included_unimplemented=None, fest_ids_excluded_unimplemented=None, aparaahna_as_second_half=False, prefer_eight_fold_day_division=False, julian_handling=RulesCollection.JULIAN_TO_GREGORIAN):
     super().__init__()
     self.set_lagnas = set_lagnas
     self.aparaahna_as_second_half = aparaahna_as_second_half
@@ -58,6 +59,7 @@ class FestivalOptions(JsonObject):
     self.fest_ids_excluded_unimplemented = fest_ids_excluded_unimplemented
     self.fest_ids_included_unimplemented = fest_ids_included_unimplemented
     self.prefer_eight_fold_day_division = prefer_eight_fold_day_division
+    self.julian_handling = julian_handling
 
   def get_repo_mds(self):
     return ["[%s](%s)" % (repo.name, repo.base_url) for repo in self.repos]

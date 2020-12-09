@@ -1,6 +1,7 @@
 from pprint import pprint
 
 from jyotisha.panchaanga.temporal.festival import rules
+from jyotisha.panchaanga.temporal.festival.rules import HinduCalendarEventTiming
 
 
 def test_rules_dicts():

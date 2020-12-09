@@ -22,6 +22,7 @@ jobs:
     - uses: actions/checkout@v2
       with:
         submodules: 'true'
+        fetch-depth: 1 # Because of this, you will fail to push refs to dest repo
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v1
       with:
@@ -67,3 +68,16 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./hugo-source/build_github
+    - name: Commit files
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add -A -v
+        git commit --allow-empty -m "Add auto-built files."
+        git pull --rebase 
+      # To avoid (to some extant) conflicts due to race conditions, we do a pull. 
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: ${{ github.ref }}

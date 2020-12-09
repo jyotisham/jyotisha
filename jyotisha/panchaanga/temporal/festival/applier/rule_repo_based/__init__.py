@@ -56,11 +56,20 @@ class RuleLookupAssigner(FestivalAssigner):
       self.apply_month_anga_events(day_panchaanga=dp, month_type=RulesRepo.LUNAR_MONTH_DIR, anga_type=AngaType.YOGA)
 
   def apply_month_day_events(self, day_panchaanga, month_type):
-    from jyotisha.panchaanga.temporal.festival import rules, FestivalInstance
-    rule_set = rules.RulesCollection.get_cached(repos_tuple=tuple(self.computation_system.festival_options.repos))
+    from jyotisha.panchaanga.temporal.festival import rules
+    rule_set = rules.RulesCollection.get_cached(repos_tuple=tuple(self.computation_system.festival_options.repos), julian_handling=self.computation_system.festival_options.julian_handling)
 
     date = day_panchaanga.get_date(month_type=month_type)
-    fest_dict = rule_set.get_month_anga_fests(month=date.month, anga=date.day, month_type=month_type, anga_type_id=rules.RulesRepo.DAY_DIR)
+    days = [date.day]
+    if month_type == RulesRepo.GREGORIAN_MONTH_DIR:
+      if (day_panchaanga.date + 1).month != day_panchaanga.date.month:
+        if day_panchaanga.date.day == 28: 
+          days = [28, 29, 30, 31]
+        elif day_panchaanga.date.day == 29:
+          days = [29, 30, 31]
+        elif day_panchaanga.date.day == 30:
+          days = [30, 31]
+    fest_dict = rule_set.get_possibly_relevant_fests(month=date.month, angas=days, month_type=month_type, anga_type_id=rules.RulesRepo.DAY_DIR)
     for fest_id, fest in fest_dict.items():
       self.panchaanga.add_festival(fest_id=fest_id, date=day_panchaanga.date)
 
@@ -74,7 +83,7 @@ class RuleLookupAssigner(FestivalAssigner):
     :return: 
     """
     from jyotisha.panchaanga.temporal.festival import rules
-    rule_set = rules.RulesCollection.get_cached(repos_tuple=tuple(self.computation_system.festival_options.repos))
+    rule_set = rules.RulesCollection.get_cached(repos_tuple=tuple(self.computation_system.festival_options.repos), julian_handling=self.computation_system.festival_options.julian_handling)
     anga_type_id = anga_type.name.lower()
     
     anga_spans_2 = self.panchaanga.get_interval_anga_spans(date=panchaangas[1].date, anga_type=anga_type, interval_id="full_day")

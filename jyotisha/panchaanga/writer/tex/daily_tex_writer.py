@@ -205,7 +205,7 @@ def stream_sun_moon_rise_data(daily_panchaanga, output_stream, time_format):
 
 def print_festivals_to_stream(daily_panchaanga, output_stream, panchaanga, languages, scripts):
   rules_collection = rules.RulesCollection.get_cached(
-    repos_tuple=tuple(panchaanga.computation_system.festival_options.repos))
+    repos_tuple=tuple(panchaanga.computation_system.festival_options.repos), julian_handling=panchaanga.computation_system.festival_options.julian_handling)
   fest_details_dict = rules_collection.name_to_rule
   print('{%s}' % '\\eventsep '.join(
     [f.tex_code(languages=languages, scripts=scripts, timezone=Timezone(timezone_id=panchaanga.city.timezone),
