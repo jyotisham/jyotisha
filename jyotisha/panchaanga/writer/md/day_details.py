@@ -39,32 +39,8 @@ def day_summary(d, panchaanga, script, subsection_md):
   rtu_solar = names.NAMES['RTU_NAMES']['sa'][script][daily_panchaanga.solar_sidereal_date_sunset.month]
   rtu_tropical = names.NAMES['RTU_NAMES']['sa'][script][daily_panchaanga.tropical_date_sunset.month]
   rtu_lunar = names.NAMES['RTU_NAMES']['sa'][script][int(ceil(daily_panchaanga.lunar_month_sunrise.index))]
+  
 
-  month_end_str = ''
-  if daily_panchaanga.solar_sidereal_date_sunset.month_transition is None:
-    month_end_str = ''
-  # TODO: Fix and enable below.
-  # else:
-  #   _m = daily_panchaangas[d - 1].solar_sidereal_date_sunset.month
-  #   if daily_panchaanga.solar_sidereal_date_sunset.month_transition >= daily_panchaanga.jd_next_sunrise:
-  #     month_end_str = '%s►%s' % (names.NAMES['RASHI_NAMES'][language][_m],
-  #                                Hour(24 * (
-  #                                    daily_panchaanga.solar_sidereal_date_sunset.month_transition - daily_panchaanga.julian_day_start + 1)).toString(
-  #                                ))
-  #   else:
-  #     month_end_str = '%s►%s' % (names.NAMES['RASHI_NAMES'][language][_m],
-  #                                Hour(
-  #                                  24 * (
-  #                                        daily_panchaanga.solar_sidereal_date_sunset.month_transition - daily_panchaanga.julian_day_start)).toString(
-  #                                ))
-  if month_end_str == '':
-    month_data = '%s (%s %d)' % (
-      names.NAMES['RASHI_NAMES']['sa'][script][daily_panchaanga.solar_sidereal_date_sunset.month],
-      translate_or_transliterate('दिनम्', script, source_script=sanscript.DEVANAGARI), daily_panchaanga.solar_sidereal_date_sunset.day)
-  else:
-    month_data = '%s (%s %d); %s' % (
-      names.NAMES['RASHI_NAMES']['sa'][script][daily_panchaanga.solar_sidereal_date_sunset.month],
-      translate_or_transliterate('दिनम्', script, source_script=sanscript.DEVANAGARI), daily_panchaanga.solar_sidereal_date_sunset.day, month_end_str)
   # TODO: renable below and related code further down (look for yname_lunar)
   # if yname_lunar == yname_solar:
   #   print('*' + getName('saMvatsaraH', language) + '*—%s' % yname_lunar, file=output_stream)
