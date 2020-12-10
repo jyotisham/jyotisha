@@ -19,7 +19,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          submodules: recursive
+          submodules: 'true'
+          fetch-depth: 0
       - name: check files
         id: check_files
         run: |
@@ -46,8 +47,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          submodules: recursive
-          # fetch-depth: 1 # Because of this, you will fail to push refs to dest repo
+          submodules: 'true'
+          fetch-depth: 0 # Because of this, you will fail to push refs to dest repo
       - name: Set up Python ${{ matrix.python-version }}
         uses: actions/setup-python@v1
         with:
