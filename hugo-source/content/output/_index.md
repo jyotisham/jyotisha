@@ -1,6 +1,0 @@
----
-title: "+Calendar outputs"
----
-
-Welcome!
-
