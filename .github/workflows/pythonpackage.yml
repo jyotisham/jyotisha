@@ -76,13 +76,13 @@ jobs:
         run: |
           pip install pytest
           pytest jyotisha_tests
+      - name: Regenerate calendars
+        run: |
+          python -m "jyotisha.panchaanga.writer.generation_project"
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: "0.72.0"
-      - name: Regenerate calendars
-        run: |
-          python -m "jyotisha.panchaanga.writer.generation_project"
       - name: Build hugo site pages
         run: |
           cd hugo-source
@@ -112,6 +112,16 @@ jobs:
         python-version: [3.6]
       #         python-version: [3.5, 3.6, 3.7, 3.8]
     steps:
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: "0.72.0"
+      - name: Build hugo site pages
+        run: |
+          cd hugo-source
+          rm -rf build_github
+          hugo
+          cd ..
       - name: Deploy html
         uses: peaceiris/actions-gh-pages@v3
         with:
