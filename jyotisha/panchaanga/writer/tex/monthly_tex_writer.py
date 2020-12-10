@@ -87,7 +87,7 @@ def write_monthly_tex(panchaanga, time_format="hh:mm", languages=None, scripts=N
 
       print('%s & %s & %s & {\\raggedright %s} \\\\' %
             (names.month_map[m], dt, names.weekday_short_map[daily_panchaanga.date.get_weekday()],
-             '\\\\'.join([f.tex_code(reference_date=daily_panchaanga.date, languages=languages, scripts=scripts, timezone=panchaanga.city.timezone, fest_details_dict=fest_details_dict)
+             '\\\\'.join([f.tex_code(languages=languages, scripts=scripts, timezone=panchaanga.city.timezone, fest_details_dict=fest_details_dict, reference_date=daily_panchaanga.date)
                           for f in sorted(daily_panchaanga.festival_id_to_instance.values())])))
 
     if m == 12 and dt == 31:
@@ -201,7 +201,7 @@ def write_monthly_tex(panchaanga, time_format="hh:mm", languages=None, scripts=N
       # Using set as an ugly workaround since we may have sometimes assigned the same
       # festival to the same day again!
       month_text += '\n' + ('{%s}' % '\\eventsep '.join(
-        [f.tex_code(reference_date=daily_panchaanga.date, languages=languages, scripts=scripts, timezone=panchaanga.city.timezone, fest_details_dict=fest_details_dict) for f in
+        [f.tex_code(languages=languages, scripts=scripts, timezone=panchaanga.city.timezone, fest_details_dict=fest_details_dict, reference_date=daily_panchaanga.date) for f in
          sorted(daily_panchaanga.festival_id_to_instance.values())]))
     else:
       if daily_panchaanga.date.get_weekday() == 0:
@@ -216,7 +216,7 @@ def write_monthly_tex(panchaanga, time_format="hh:mm", languages=None, scripts=N
         # Using set as an ugly workaround since we may have sometimes assigned the same
         # festival to the same day again!
         W6D1 += '\n' + ('{%s}' % '\\eventsep '.join(
-          [f.tex_code(reference_date=daily_panchaanga.date, languages=languages, scripts=scripts, timezone=Timezone(panchaanga.city.timezone), fest_details_dict=fest_details_dict) for f in sorted(daily_panchaanga.festival_id_to_instance.values())]))
+          [f.tex_code(languages=languages, scripts=scripts, timezone=Timezone(panchaanga.city.timezone), fest_details_dict=fest_details_dict, reference_date=daily_panchaanga.date) for f in sorted(daily_panchaanga.festival_id_to_instance.values())]))
       elif daily_panchaanga.date.get_weekday() == 1:
         W6D2 = '\n' + ('\\caldata{\\textcolor{%s}{%s}}{%s{%s}}%%' %
                        (day_colours[daily_panchaanga.date.get_weekday()], dt, month_data,
@@ -229,7 +229,7 @@ def write_monthly_tex(panchaanga, time_format="hh:mm", languages=None, scripts=N
         # Using set as an ugly workaround since we may have sometimes assigned the same
         # festival to the same day again!
         W6D2 += '\n' + ('{%s}' % '\\eventsep '.join(
-          [f.tex_code(reference_date=daily_panchaanga.date, languages=languages, scripts=scripts, timezone=panchaanga.city.timezone, fest_details_dict=fest_details_dict) for f in sorted(daily_panchaanga.festival_id_to_instance.values())]))
+          [f.tex_code(languages=languages, scripts=scripts, timezone=panchaanga.city.timezone, fest_details_dict=fest_details_dict, reference_date=daily_panchaanga.date) for f in sorted(daily_panchaanga.festival_id_to_instance.values())]))
       else:
         # Cannot be here, since we cannot have more than 2 days in week 6 of any month!
         pass

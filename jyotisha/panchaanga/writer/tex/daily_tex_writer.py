@@ -208,8 +208,8 @@ def print_festivals_to_stream(daily_panchaanga, output_stream, panchaanga, langu
     repos_tuple=tuple(panchaanga.computation_system.festival_options.repos), julian_handling=panchaanga.computation_system.festival_options.julian_handling)
   fest_details_dict = rules_collection.name_to_rule
   print('{%s}' % '\\eventsep '.join(
-    [f.tex_code(reference_date=daily_panchaanga.date, languages=languages, scripts=scripts, timezone=Timezone(timezone_id=panchaanga.city.timezone),
-                fest_details_dict=fest_details_dict) for f in
+    [f.tex_code(languages=languages, scripts=scripts, timezone=Timezone(timezone_id=panchaanga.city.timezone),
+                fest_details_dict=fest_details_dict, reference_date=daily_panchaanga.date) for f in
      sorted(daily_panchaanga.festival_id_to_instance.values())]), file=output_stream)
 
 
