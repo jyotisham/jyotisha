@@ -1,6 +1,0 @@
----
-title: "+bengaLUru - snagar"
----
-
-Welcome!
-

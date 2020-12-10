@@ -8,9 +8,14 @@ on:
     - cron: '0 0 * * *'
       # minute (0 - 59) hour (0 - 23) day of the month (1 - 31) month (1 - 12) day of the week (0 - 6) UTC
       # Above is 5:30 AM IST.
+      # The below is for debugging.
+#    - cron: '15 * * * *'
+#    - cron: '30 * * * *'
+#    - cron: '45 * * * *'
+#    - cron: '0 * * * *'
 
 jobs:
-  build:
+  run_bots:
 
     runs-on: ubuntu-latest
     strategy:
@@ -19,6 +24,10 @@ jobs:
 #         python-version: [3.5, 3.6, 3.7, 3.8]
 
     steps:
+    - uses: actions/checkout@v2
+      with:
+        submodules: 'true'
+        fetch-depth: 1 # Because of this, you will fail to push refs to dest repo
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v1
       with:
@@ -27,7 +36,6 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         python -m pip install git+https://github.com/astrorigin/pyswisseph@master -U
-        python -m pip install git+https://github.com/sanskrit-coders/jyotisha@master -U
 #        python -m pip install git+https://github.com/astropy/astropy@master -U
     - name: Build package
       run: |
@@ -36,5 +44,5 @@ jobs:
       env:
         TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
       run: |
-        python -m "jyotisha.bot.telegram" --token "$TELEGRAM_BOT_TOKEN" --channel_id 1001205695765 --md_url_base "https://raw.githubusercontent.com/sanskrit-coders/jyotisha/master/hugo-source/content/output/sahakAra%20nagar%2C%20bengaLUru/SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_AT_180/shaka_year" --html_url_base "https://sanskrit-coders.github.io/jyotisha/output/sahakAra-nagar-bengaLUru/SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_AT_180/shaka_year"
-        python -m "jyotisha.bot.telegram" --token "$TELEGRAM_BOT_TOKEN" --channel_id 1001205695765 --md_url_base "https://raw.githubusercontent.com/sanskrit-coders/jyotisha/master/hugo-source/content/output/sahakAra%20nagar%2C%20bengaLUru/MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_AT_180/shaka_year" --html_url_base "https://sanskrit-coders.github.io/jyotisha/output/sahakAra-nagar-bengaLUru/MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_AT_180/shaka_year"
+        python -m "jyotisha.bot.telegram" --token "$TELEGRAM_BOT_TOKEN" --channel_id 1001205695765 --md_url_base "https://raw.githubusercontent.com/sanskrit-coders/jyotisha/generated-output/sahakAra%20nagar%2C%20bengaLUru/SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_AT_180" --html_url_base "https://sanskrit-coders.github.io/jyotisha/output/sahakAra-nagar-bengaLUru/SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_AT_180"
+        python -m "jyotisha.bot.telegram" --token "$TELEGRAM_BOT_TOKEN" --channel_id 1001205695765 --md_url_base "https://raw.githubusercontent.com/sanskrit-coders/jyotisha/generated-output/sahakAra%20nagar%2C%20bengaLUru/MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_AT_180" --html_url_base "https://sanskrit-coders.github.io/jyotisha/output/sahakAra-nagar-bengaLUru/MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_AT_180"
