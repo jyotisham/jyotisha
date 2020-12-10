@@ -74,7 +74,7 @@ jobs:
         git config --local user.name "GitHub Action"
         git add -A -v
         git commit --allow-empty -m "Add auto-built files."
-        git pull --rebase 
+        git pull --rebase --strategy=ours
       # To avoid (to some extant) conflicts due to race conditions, we do a pull. 
     - name: Push changes
       uses: ad-m/github-push-action@master
