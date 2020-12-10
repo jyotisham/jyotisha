@@ -65,12 +65,12 @@ jobs:
         cd ..
     # MD files are useful for certain bots.
     - name: Deploy md
-        uses: s0/git-publish-subdir-action@develop
-        env:
-          REPO: git@github.com:owner/repo.git
-          BRANCH: generated-output
-          FOLDER: ./hugo-source/content/output
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      uses: s0/git-publish-subdir-action@develop
+      env:
+        REPO: git@github.com:owner/repo.git
+        BRANCH: generated-output
+        FOLDER: ./hugo-source/content/output
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     - name: Deploy html
       uses: peaceiris/actions-gh-pages@v3
       with:
