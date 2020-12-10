@@ -39,7 +39,8 @@ def day_summary(d, panchaanga, script, subsection_md):
   rtu_solar = names.NAMES['RTU_NAMES']['sa'][script][daily_panchaanga.solar_sidereal_date_sunset.month]
   rtu_tropical = names.NAMES['RTU_NAMES']['sa'][script][daily_panchaanga.tropical_date_sunset.month]
   rtu_lunar = names.NAMES['RTU_NAMES']['sa'][script][int(ceil(daily_panchaanga.lunar_month_sunrise.index))]
-  
+
+  print("- Indian civil date: %s, Islamic: %s" % (daily_panchaanga.date.to_indian_civil_date().get_date_str(), daily_panchaanga.date.to_islamic_date().get_date_str()), file=output_stream)
 
   # TODO: renable below and related code further down (look for yname_lunar)
   # if yname_lunar == yname_solar:
