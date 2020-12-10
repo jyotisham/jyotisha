@@ -36,7 +36,6 @@ class NakshatraAssigner(PeriodicPanchaangaApplier):
         nakshatra_span = self.daily_panchaangas[d].sunrise_day_angas.nakshatras_with_ends[0]
         (n, t_end) = (nakshatra_span.anga.index, nakshatra_span.jd_end)
         if t_end is None:
-          continue
           t_end = self.daily_panchaangas[d + 1].sunrise_day_angas.nakshatras_with_ends[0].jd_end
         tyaajya_start = t_start + (t_end - t_start) / 60 * (TYAJYA_SPANS_REL[n - 1] - 1)
         tyaajya_end = t_start + (t_end - t_start) / 60 * (TYAJYA_SPANS_REL[n - 1] + 3)
@@ -50,12 +49,12 @@ class NakshatraAssigner(PeriodicPanchaangaApplier):
                            Hour(24 * (tyaajya_end - self.daily_panchaangas[d - 1].julian_day_start)).to_string(format='hh:mm*')))
         else:
           self.panchaanga.tyajyam_data[d] = [(tyaajya_start, tyaajya_end)]
-          if debug:
-            logging.debug(' [%3d]%04d-%02d-%02d: %s (>>%s), %s–%s' %
-                          (d, y, m, dt, names.NAMES['NAKSHATRA_NAMES']['sa']['hk'][n],
-                           Hour(24 * (t_end - jd)).to_string(format='hh:mm*'),
-                           Hour(24 * (tyaajya_start - jd)).to_string(format='hh:mm*'),
-                           Hour(24 * (tyaajya_end - jd)).to_string(format='hh:mm*')))
+          # if debug:
+          #   logging.debug(' [%3d]%04d-%02d-%02d: %s (>>%s), %s–%s' %
+          #                 (d, y, m, dt, names.NAMES['NAKSHATRA_NAMES']['sa']['hk'][n],
+          #                  Hour(24 * (t_end - jd)).to_string(format='hh:mm*'),
+          #                  Hour(24 * (tyaajya_start - jd)).to_string(format='hh:mm*'),
+          #                  Hour(24 * (tyaajya_end - jd)).to_string(format='hh:mm*')))
   
       if len(self.daily_panchaangas[d].sunrise_day_angas.nakshatras_with_ends) == 2:
         t_start = t_end
@@ -64,17 +63,18 @@ class NakshatraAssigner(PeriodicPanchaangaApplier):
         if t_end is None:
           t_end = self.daily_panchaangas[d + 1].sunrise_day_angas.nakshatras_with_ends[0].jd_end
           continue
-          if t_end is None:
-            t_end = self.daily_panchaangas[d + 2].sunrise_day_angas.nakshatras_with_ends[0].jd_end
+          # if t_end is None:
+          #   t_end = self.daily_panchaangas[d + 2].sunrise_day_angas.nakshatras_with_ends[0].jd_end
+          #   continue
         tyaajya_start = t_start + (t_end - t_start) / 60 * (TYAJYA_SPANS_REL[n2 - 1] - 1)
         tyaajya_end = t_start + (t_end - t_start) / 60 * (TYAJYA_SPANS_REL[n2 - 1] + 3)
         self.panchaanga.tyajyam_data[d] += [(tyaajya_start, tyaajya_end)]
-        if debug:
-          logging.debug(' [%3d]            %s (>>%s), %s–%s' %
-                        (d, names.NAMES['NAKSHATRA_NAMES']['sa']['hk'][n2],
-                         Hour(24 * (t_end - jd)).to_string(format='hh:mm*'),
-                         Hour(24 * (tyaajya_start - jd)).to_string(format='hh:mm*'),
-                         Hour(24 * (tyaajya_end - jd)).to_string(format='hh:mm*')))
+        # if debug:
+        #   logging.debug(' [%3d]            %s (>>%s), %s–%s' %
+        #                 (d, names.NAMES['NAKSHATRA_NAMES']['sa']['hk'][n2],
+        #                  Hour(24 * (t_end - jd)).to_string(format='hh:mm*'),
+        #                  Hour(24 * (tyaajya_start - jd)).to_string(format='hh:mm*'),
+        #                  Hour(24 * (tyaajya_end - jd)).to_string(format='hh:mm*')))
   
   def calc_nakshatra_amrta(self, debug=False):
     self.panchaanga.amrita_data = [[] for _x in range(self.panchaanga.duration + 2)]
@@ -86,47 +86,47 @@ class NakshatraAssigner(PeriodicPanchaangaApplier):
         nakshatra_span = self.daily_panchaangas[d].sunrise_day_angas.nakshatras_with_ends[0]
         (n, t_end) = (nakshatra_span.anga.index, nakshatra_span.jd_end)
         if t_end is None:
-          continue
           t_end = self.daily_panchaangas[d + 1].sunrise_day_angas.nakshatras_with_ends[0].jd_end
+          # continue
         amrita_start = t_start + (t_end - t_start) / 60 * (AMRITA_SPANS_REL[n - 1] - 1)
         amrita_end = t_start + (t_end - t_start) / 60 * (AMRITA_SPANS_REL[n - 1] + 3)
         if amrita_start < self.daily_panchaangas[d].jd_sunrise:
           self.panchaanga.amrita_data[d - 1] += [(amrita_start, amrita_end)]
-          if debug:
-            logging.debug('![%3d]%04d-%02d-%02d: %s (>>%s), %s–%s' %
-                          (d - 1, y, m, dt - 1, names.NAMES['NAKSHATRA_NAMES']['sa']['hk'][n],
-                           Hour(24 * (t_end - self.daily_panchaangas[d - 1].julian_day_start)).to_string(format='hh:mm*'),
-                           Hour(24 * (amrita_start - self.daily_panchaangas[d - 1].julian_day_start)).to_string(format='hh:mm*'),
-                           Hour(24 * (amrita_end - self.daily_panchaangas[d - 1].julian_day_start)).to_string(format='hh:mm*')))
+          # if debug:
+          #   logging.debug('![%3d]%04d-%02d-%02d: %s (>>%s), %s–%s' %
+          #                 (d - 1, y, m, dt - 1, names.NAMES['NAKSHATRA_NAMES']['sa']['hk'][n],
+          #                  Hour(24 * (t_end - self.daily_panchaangas[d - 1].julian_day_start)).to_string(format='hh:mm*'),
+          #                  Hour(24 * (amrita_start - self.daily_panchaangas[d - 1].julian_day_start)).to_string(format='hh:mm*'),
+          #                  Hour(24 * (amrita_end - self.daily_panchaangas[d - 1].julian_day_start)).to_string(format='hh:mm*')))
         else:
           self.panchaanga.amrita_data[d] = [(amrita_start, amrita_end)]
-          if debug:
-            logging.debug(' [%3d]%04d-%02d-%02d: %s (>>%s), %s–%s' %
-                          (d, y, m, dt, names.NAMES['NAKSHATRA_NAMES']['sa']['hk'][n],
-                           Hour(24 * (t_end - jd)).to_string(format='hh:mm*'),
-                           Hour(24 * (amrita_start - jd)).to_string(format='hh:mm*'),
-                           Hour(24 * (amrita_end - jd)).to_string(format='hh:mm*')))
+          # if debug:
+          #   logging.debug(' [%3d]%04d-%02d-%02d: %s (>>%s), %s–%s' %
+          #                 (d, y, m, dt, names.NAMES['NAKSHATRA_NAMES']['sa']['hk'][n],
+          #                  Hour(24 * (t_end - jd)).to_string(format='hh:mm*'),
+          #                  Hour(24 * (amrita_start - jd)).to_string(format='hh:mm*'),
+          #                  Hour(24 * (amrita_end - jd)).to_string(format='hh:mm*')))
   
       if len(self.daily_panchaangas[d].sunrise_day_angas.nakshatras_with_ends) == 2:
         t_start = t_end
         nakshatra_span = self.daily_panchaangas[d].sunrise_day_angas.nakshatras_with_ends[1]
         (n2, t_end) = (nakshatra_span.anga.index, nakshatra_span.jd_end)
         if t_end is None:
-          continue
           t_end = self.daily_panchaangas[d + 1].sunrise_day_angas.nakshatras_with_ends[0].jd_end
-          if t_end is None:
-            t_end = self.daily_panchaangas[d + 2].sunrise_day_angas.nakshatras_with_ends[0].jd_end
-            continue
+          continue
+          # if t_end is None:
+          #   t_end = self.daily_panchaangas[d + 2].sunrise_day_angas.nakshatras_with_ends[0].jd_end
+          #   continue
 
         amrita_start = t_start + (t_end - t_start) / 60 * (AMRITA_SPANS_REL[n2 - 1] - 1)
         amrita_end = t_start + (t_end - t_start) / 60 * (AMRITA_SPANS_REL[n2 - 1] + 3)
         self.panchaanga.amrita_data[d] += [(amrita_start, amrita_end)]
-        if debug:
-          logging.debug(' [%3d]            %s (>>%s), %s–%s' %
-                        (d, names.NAMES['NAKSHATRA_NAMES']['sa']['hk'][n2],
-                         Hour(24 * (t_end - jd)).to_string(format='hh:mm*'),
-                         Hour(24 * (amrita_start - jd)).to_string(format='hh:mm*'),
-                         Hour(24 * (amrita_end - jd)).to_string(format='hh:mm*')))
+        # if debug:
+        #   logging.debug(' [%3d]            %s (>>%s), %s–%s' %
+        #                 (d, names.NAMES['NAKSHATRA_NAMES']['sa']['hk'][n2],
+        #                  Hour(24 * (t_end - jd)).to_string(format='hh:mm*'),
+        #                  Hour(24 * (amrita_start - jd)).to_string(format='hh:mm*'),
+        #                  Hour(24 * (amrita_end - jd)).to_string(format='hh:mm*')))
 
 
 # Essential for depickling to work.
