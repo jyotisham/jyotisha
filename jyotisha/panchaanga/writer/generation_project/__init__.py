@@ -24,7 +24,7 @@ def dump_ics_md_pair(panchaanga, period_str):
   md_file = MdFile(file_path=output_file_ics.replace(".ics", ".md"), frontmatter_type=MdFile.YAML)
   intro = "## 00 Intro\n### Related files\n- [ics](../%s)\n" % str(os.path.basename(output_file_ics))
   md_content = "%s\n%s" % (intro, md.make_md(panchaanga=panchaanga))
-  md_file.dump_to_file(metadata={"title": period_str}, md=md_content, dry_run=False)
+  md_file.dump_to_file(metadata={"title": period_str.split("/")[-1]}, md=md_content, dry_run=False)
 
   monthly_file_path = md_file.file_path.replace(".md", "_monthly.md")
   monthly_dir = monthly_file_path.replace(".md", "/")
