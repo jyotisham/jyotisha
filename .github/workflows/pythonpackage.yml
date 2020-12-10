@@ -46,8 +46,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          submodules: 'true'
-          fetch-depth: 1 # Because of this, you will fail to push refs to dest repo
+          submodules: recursive
+          # fetch-depth: 1 # Because of this, you will fail to push refs to dest repo
       - name: Set up Python ${{ matrix.python-version }}
         uses: actions/setup-python@v1
         with:
