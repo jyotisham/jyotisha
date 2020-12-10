@@ -65,14 +65,15 @@ class FestivalInstance(common.JsonObject):
     if self.interval is None:
       return name
     else:
-      from jyotisha.panchaanga.temporal.time import Hour
-      start_time_str = "" if self.interval.jd_start is None else Hour(timezone.julian_day_to_local_time(self.interval.jd_start).get_fractional_hour()).to_string()
-      end_time_str = "" if self.interval.jd_end is None else Hour(timezone.julian_day_to_local_time(self.interval.jd_end).get_fractional_hour()).to_string()
-      if start_time_str != "":
-        start_time_str = "~\\textsf{%s}" % start_time_str
-      if end_time_str != "":
-        end_time_str = "\\textsf{%s}" % end_time_str
-      return "%s%s{\\RIGHTarrow}%s" % (name, start_time_str, end_time_str)
+      return "%s%s" % (name, self.interval.to_hour_tex(script=scripts[0], tz=timezone))
+      # from jyotisha.panchaanga.temporal.time import Hour
+      # start_time_str = "" if self.interval.jd_start is None else Hour(timezone.julian_day_to_local_time(self.interval.jd_start).get_fractional_hour()).to_string()
+      # end_time_str = "" if self.interval.jd_end is None else Hour(timezone.julian_day_to_local_time(self.interval.jd_end).get_fractional_hour()).to_string()
+      # if start_time_str != "":
+      #   start_time_str = "~\\textsf{%s}" % start_time_str
+      # if end_time_str != "":
+      #   end_time_str = "\\textsf{%s}" % end_time_str
+      # return "%s%s{\\RIGHTarrow}%s" % (name, start_time_str, end_time_str)
 
   def md_code(self, languages, scripts, timezone, fest_details_dict, header_md):
     name_details = self.get_best_transliterated_name(languages=languages, scripts=scripts, fest_details_dict=fest_details_dict)
