@@ -209,7 +209,7 @@ def print_festivals_to_stream(daily_panchaanga, output_stream, panchaanga, langu
   fest_details_dict = rules_collection.name_to_rule
   print('{%s}' % '\\eventsep '.join(
     [f.tex_code(languages=languages, scripts=scripts, timezone=Timezone(timezone_id=panchaanga.city.timezone),
-                fest_details_dict=fest_details_dict) for f in
+                fest_details_dict=fest_details_dict, reference_date=daily_panchaanga.date) for f in
      sorted(daily_panchaanga.festival_id_to_instance.values())]), file=output_stream)
 
 

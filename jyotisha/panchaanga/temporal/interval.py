@@ -11,11 +11,10 @@ from sanskrit_data.schema import common
 
 
 class Interval(common.JsonObject):
-  def __init__(self, jd_start, jd_end, reference_date=None, name=None):
+  def __init__(self, jd_start, jd_end, name=None):
     super(Interval, self).__init__()
     self.jd_start = jd_start
     self.jd_end = jd_end
-    self.reference_date = reference_date
     self.name = name
 
   @methodtools.lru_cache(maxsize=100)
@@ -39,13 +38,13 @@ class Interval(common.JsonObject):
     return "%s: (%s, %s)" % (default_if_none(self.name, "?"), default_if_none(time.ist_timezone.julian_day_to_local_time_str(jd=self.jd_start), "?"),
 default_if_none(time.ist_timezone.julian_day_to_local_time_str(jd=self.jd_end), "?"))
 
-  def to_hour_tex(self, tz, script):
+  def to_hour_tex(self, tz, script, reference_date=None):
     if self.jd_start is not None:
-      start_time = '~\\textsf{%s}' % default_if_none(tz.julian_day_to_local_time(julian_day=self.jd_start).get_hour_str(reference_date=self.reference_date), "")
+      start_time = '~\\textsf{%s}' % default_if_none(tz.julian_day_to_local_time(julian_day=self.jd_start).get_hour_str(reference_date=reference_date), "")
     else:
       start_time = ''
     if self.jd_end is not None:
-      end_time = '\\textsf{%s}' % default_if_none(tz.julian_day_to_local_time(julian_day=self.jd_end).get_hour_str(reference_date=self.reference_date), "")
+      end_time = '\\textsf{%s}' % default_if_none(tz.julian_day_to_local_time(julian_day=self.jd_end).get_hour_str(reference_date=reference_date), "")
     else:
       end_time = ''
     return "%s{\\RIGHTarrow}%s" % (start_time, end_time)
