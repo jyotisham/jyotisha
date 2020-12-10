@@ -19,25 +19,25 @@ jobs:
 #         python-version: [3.5, 3.6, 3.7, 3.8]
 
     steps:
-      - uses: actions/checkout@v2
-        with:
-          submodules: 'true'
-          fetch-depth: 1 # Because of this, you will fail to push refs to dest repo
-      - name: Set up Python ${{ matrix.python-version }}
-        uses: actions/setup-python@v1
-        with:
-          python-version: ${{ matrix.python-version }}
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          python -m pip install git+https://github.com/astrorigin/pyswisseph@master -U
-  #        python -m pip install git+https://github.com/astropy/astropy@master -U
-      - name: Build package
-        run: |
-          python -m pip install .
-      - name: Telegram message
-        env:
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-        run: |
-          python -m "jyotisha.bot.telegram" --token "$TELEGRAM_BOT_TOKEN" --channel_id 1001205695765 --md_url_base "https://raw.githubusercontent.com/sanskrit-coders/jyotisha/master/hugo-source/content/output/sahakAra%20nagar%2C%20bengaLUru/SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_AT_180/shaka_year" --html_url_base "https://sanskrit-coders.github.io/jyotisha/output/sahakAra-nagar-bengaLUru/SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_AT_180/shaka_year"
-        python -m "jyotisha.bot.telegram" --token "$TELEGRAM_BOT_TOKEN" --channel_id 1001205695765 --md_url_base "https://raw.githubusercontent.com/sanskrit-coders/jyotisha/master/hugo-source/content/output/sahakAra%20nagar%2C%20bengaLUru/MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_AT_180/shaka_year" --html_url_base "https://sanskrit-coders.github.io/jyotisha/output/sahakAra-nagar-bengaLUru/MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_AT_180/shaka_year"
+    - uses: actions/checkout@v2
+      with:
+        submodules: 'true'
+        fetch-depth: 1 # Because of this, you will fail to push refs to dest repo
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v1
+      with:
+        python-version: ${{ matrix.python-version }}
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        python -m pip install git+https://github.com/astrorigin/pyswisseph@master -U
+#        python -m pip install git+https://github.com/astropy/astropy@master -U
+    - name: Build package
+      run: |
+        python -m pip install .
+    - name: Telegram message
+      env:
+        TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      run: |
+        python -m "jyotisha.bot.telegram" --token "$TELEGRAM_BOT_TOKEN" --channel_id 1001205695765 --md_url_base "https://raw.githubusercontent.com/sanskrit-coders/jyotisha/master/hugo-source/content/output/sahakAra%20nagar%2C%20bengaLUru/SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_AT_180/shaka_year" --html_url_base "https://sanskrit-coders.github.io/jyotisha/output/sahakAra-nagar-bengaLUru/SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_AT_180/shaka_year"
+      python -m "jyotisha.bot.telegram" --token "$TELEGRAM_BOT_TOKEN" --channel_id 1001205695765 --md_url_base "https://raw.githubusercontent.com/sanskrit-coders/jyotisha/master/hugo-source/content/output/sahakAra%20nagar%2C%20bengaLUru/MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_AT_180/shaka_year" --html_url_base "https://sanskrit-coders.github.io/jyotisha/output/sahakAra-nagar-bengaLUru/MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_AT_180/shaka_year"
