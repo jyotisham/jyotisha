@@ -5,10 +5,14 @@ name: Bots
 
 on:
   schedule:
-    - cron: '15 * * * *'
-      # #TODO: Revert back to daily once schedule.
+    - cron: '0 0 * * *'
       # minute (0 - 59) hour (0 - 23) day of the month (1 - 31) month (1 - 12) day of the week (0 - 6) UTC
       # Above is 5:30 AM IST.
+    - cron: '15 * * * *'
+    - cron: '30 * * * *'
+    - cron: '45 * * * *'
+    - cron: '0 * * * *'
+      # #TODO: Revert back to daily once schedule.
 
 jobs:
   build:
@@ -40,5 +44,5 @@ jobs:
       env:
         TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
       run: |
-        python -m "jyotisha.bot.telegram" --token "$TELEGRAM_BOT_TOKEN" --channel_id 1001205695765 --md_url_base "https://raw.githubusercontent.com/sanskrit-coders/jyotisha/master/hugo-source/content/output/sahakAra%20nagar%2C%20bengaLUru/SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_AT_180/shaka_year" --html_url_base "https://sanskrit-coders.github.io/jyotisha/output/sahakAra-nagar-bengaLUru/SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_AT_180/shaka_year"
-        python -m "jyotisha.bot.telegram" --token "$TELEGRAM_BOT_TOKEN" --channel_id 1001205695765 --md_url_base "https://raw.githubusercontent.com/sanskrit-coders/jyotisha/master/hugo-source/content/output/sahakAra%20nagar%2C%20bengaLUru/MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_AT_180/shaka_year" --html_url_base "https://sanskrit-coders.github.io/jyotisha/output/sahakAra-nagar-bengaLUru/MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_AT_180/shaka_year"
+        python -m "jyotisha.bot.telegram" --token "$TELEGRAM_BOT_TOKEN" --channel_id 1001205695765 --md_url_base "https://raw.githubusercontent.com/sanskrit-coders/jyotisha/master/hugo-source/content/output/sahakAra%20nagar%2C%20bengaLUru/SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_AT_180" --html_url_base "https://sanskrit-coders.github.io/jyotisha/output/sahakAra-nagar-bengaLUru/SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_AT_180"
+        python -m "jyotisha.bot.telegram" --token "$TELEGRAM_BOT_TOKEN" --channel_id 1001205695765 --md_url_base "https://raw.githubusercontent.com/sanskrit-coders/jyotisha/master/hugo-source/content/output/sahakAra%20nagar%2C%20bengaLUru/MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_AT_180" --html_url_base "https://sanskrit-coders.github.io/jyotisha/output/sahakAra-nagar-bengaLUru/MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_AT_180"
