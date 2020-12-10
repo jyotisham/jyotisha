@@ -19,8 +19,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          submodules: 'true'
-          fetch-depth: 2
+          submodules: recursive
       - name: check files
         id: check_files
         run: |
