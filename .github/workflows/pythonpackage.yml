@@ -30,7 +30,7 @@ jobs:
             echo $file
             if [[ $file == "jyotisha/"* ]] || [ $fname ==  $file == "jyotisha_tests/"* ]; then
               echo "::set-output name=code_changed::true"
-            elif [[ $file == "hugo-source/"* ]]
+            elif [[ $file == "hugo-source/"* ]]; then
               echo "::set-output name=hugo_source_changed::true"
             fi
           done < files.txt
