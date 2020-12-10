@@ -29,7 +29,7 @@ class Hour(JsonObject):
       logging.error(hour)
       raise (TypeError('Input to time class must be int or float!'))
 
-  def to_string(self, default_suffix='', format='hh:mm', rounding=False):
+  def to_string(self, default_suffix='', format='hh:mm*', rounding=False):
     if self.hour < 0:
       logging.error('t<0! %s ' % self.hour)
       logging.error(traceback.print_stack())
