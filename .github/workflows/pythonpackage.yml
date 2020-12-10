@@ -63,21 +63,15 @@ jobs:
         rm -rf build_github
         hugo
         cd ..
-    - name: Deploy
+    # MD files are useful for certain bots.
+    - name: Deploy md
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./hugo-source
+        branch: hugo-source
+    - name: Deploy html
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./hugo-source/build_github
-    - name: Commit files
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add -A -v
-        git commit --allow-empty -m "Add auto-built files."
-        git pull --rebase --strategy=ours
-      # To avoid (to some extant) conflicts due to race conditions, we do a pull. 
-    - name: Push changes
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: ${{ github.ref }}
