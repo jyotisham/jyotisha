@@ -52,7 +52,7 @@ class FestivalInstance(common.JsonObject):
     transliterated_text = custom_transliteration.transliterate_from_language(language=language, text=names[language][0], script=scripts[0])
     return {"script": scripts[0], "text": transliterated_text}
 
-  def tex_code(self, languages, scripts, timezone, fest_details_dict):
+  def tex_code(self, languages, scripts, timezone, fest_details_dict, reference_date=None):
     name_details = self.get_best_transliterated_name(languages=languages, scripts=scripts, fest_details_dict=fest_details_dict)
     if name_details["script"] == sanscript.TAMIL:
       name = '\\tamil{%s}' % name_details["text"]
@@ -65,7 +65,7 @@ class FestivalInstance(common.JsonObject):
     if self.interval is None:
       return name
     else:
-      return "%s%s" % (name, self.interval.to_hour_tex(script=scripts[0], tz=timezone))
+      return "%s%s" % (name, self.interval.to_hour_tex(script=scripts[0], tz=timezone, reference_date=reference_date))
       # from jyotisha.panchaanga.temporal.time import Hour
       # start_time_str = "" if self.interval.jd_start is None else Hour(timezone.julian_day_to_local_time(self.interval.jd_start).get_fractional_hour()).to_string()
       # end_time_str = "" if self.interval.jd_end is None else Hour(timezone.julian_day_to_local_time(self.interval.jd_end).get_fractional_hour()).to_string()
@@ -108,7 +108,7 @@ class TransitionFestivalInstance(FestivalInstance):
     self.status_1_hk = status_1_hk
     self.status_2_hk = status_2_hk
 
-  def tex_code(self, languages, scripts, timezone, fest_details_dict):
+  def tex_code(self, languages, scripts, timezone, fest_details_dict, reference_date=None):
     name_details = self.get_best_transliterated_name(languages=languages, scripts=scripts, fest_details_dict=fest_details_dict)
     if name_details["script"] == sanscript.TAMIL:
       name = '\\tamil{%s}' % name_details["text"]
