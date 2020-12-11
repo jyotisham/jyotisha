@@ -47,19 +47,21 @@ def get_panchaanga_for_kali_year(city, year, precomputed_json_dir="~/Documents/j
     KALI_CIVIL_ERA_DIFF = -3101
     start_year_civil = year + KALI_CIVIL_ERA_DIFF
     anga_span_finder = AngaSpanFinder.get_cached(ayanaamsha_id=Ayanamsha.CHITRA_AT_180, anga_type=AngaType.SIDEREAL_MONTH)
-    start_equinox = anga_span_finder.find(jd1=time.utc_gregorian_to_jd(Date(year=start_year_civil, month=3, day=1)), jd2=time.utc_gregorian_to_jd(Date(year=start_year_civil, month=5, day=1)), target_anga_id=1)
-    jd_sunset = city.get_setting_time(julian_day_start=start_equinox.jd_start - 1, body=Graha.SUN)
+    start_mesha = anga_span_finder.find(jd1=time.utc_gregorian_to_jd(Date(year=start_year_civil, month=3, day=1)), jd2=time.utc_gregorian_to_jd(Date(year=start_year_civil, month=5, day=1)), target_anga_id=1)
+    jd_sunrise = city.get_rising_time(julian_day_start=start_mesha.jd_start, body=Graha.SUN)
+    jd_sunset = city.get_setting_time(julian_day_start=start_mesha.jd_start, body=Graha.SUN)
     # TODO: Sankranti should be more correct? Like midnight calc etc.?
-    if start_equinox.jd_start < jd_sunset:
-      kali_year_jd_start = start_equinox.jd_start - 1
+    if jd_sunset < jd_sunrise: # Mesha Sankranti has happened before sunset as the next event is a sunset
+      kali_year_jd_start = start_mesha.jd_start
     else:
-      kali_year_jd_start = start_equinox.jd_start
-    end_equinox = anga_span_finder.find(jd1=time.utc_gregorian_to_jd(Date(year=start_year_civil  + 1, month=3, day=1)), jd2=time.utc_gregorian_to_jd(Date(year=start_year_civil + 1, month=5, day=1)), target_anga_id=1)
-    jd_sunset = city.get_setting_time(julian_day_start=end_equinox.jd_start - 1, body=Graha.SUN)
-    if end_equinox.jd_start < jd_sunset:
-      kali_year_jd_end = end_equinox.jd_start - 1
+      kali_year_jd_start = start_mesha.jd_start + 1
+    end_mina = anga_span_finder.find(jd1=time.utc_gregorian_to_jd(Date(year=start_year_civil  + 1, month=3, day=1)), jd2=time.utc_gregorian_to_jd(Date(year=start_year_civil + 1, month=5, day=1)), target_anga_id=1)
+    jd_sunrise = city.get_rising_time(julian_day_start=start_mesha.jd_start, body=Graha.SUN)
+    jd_sunset = city.get_setting_time(julian_day_start=end_mina.jd_start, body=Graha.SUN)
+    if jd_sunset < jd_sunrise:
+      kali_year_jd_end = end_mina.jd_start
     else:
-      kali_year_jd_end = end_equinox.jd_start
+      kali_year_jd_end = end_mina.jd_start - 1
     tz = Timezone(city.timezone)
     panchaanga = periodical.Panchaanga(city=city, start_date=tz.julian_day_to_local_time(julian_day=kali_year_jd_start), end_date=tz.julian_day_to_local_time(julian_day=kali_year_jd_end), computation_system=computation_system)
     panchaanga.year = year
