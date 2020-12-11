@@ -12,7 +12,7 @@ on:
 jobs:
   build:
     name: Build and test
-    if: needs.check.outputs.code_changed == 'true'
+#    if: needs.check.outputs.code_changed == 'true'
     runs-on: ubuntu-latest
     strategy:
       matrix:
