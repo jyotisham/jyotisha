@@ -1,4 +1,4 @@
-baseURL = "https://sanskrit-coders.github.io/jyotisha/"
+baseURL = "https://jyotisham.github.io/jyotisha/"
 languageCode = "en-us"
 title = "ज्योतिषम् py"
 theme = "sanskrit-documentation-theme-hugo"
@@ -6,8 +6,8 @@ publishDir = "build_github"
 disablePathToLower = true
 
 [params]
-  githubEditMePathBase = "https://github.com/sanskrit-coders/jyotisha/edit/master/hugo-source/content/"
-  contactLink = "https://github.com/sanskrit-coders/jyotisha/issues/new"
+  githubEditMePathBase = "https://github.com/jyotisham/jyotisha/edit/master/hugo-source/content/"
+  contactLink = "https://github.com/jyotisham/jyotisha/issues/new"
   env = "production"
   disqusShortcode = "snaskrit-coders-site"
 
