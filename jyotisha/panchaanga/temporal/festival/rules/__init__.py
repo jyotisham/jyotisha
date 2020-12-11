@@ -1,9 +1,11 @@
+import codecs
 import logging
 import os
 import sys
 from pathlib import Path
 
 import methodtools
+import toml
 from timebudget import timebudget
 
 from jyotisha import custom_transliteration
@@ -242,6 +244,7 @@ def get_festival_rules_map(dir_path, julian_handling, repo=None):
 
 
 DATA_ROOT = os.path.join(os.path.dirname(__file__), "../data")
+_ADYATITHI_REPOS_PATH = os.path.join(DATA_ROOT, "repos.toml")
 
 
 class RulesRepo(common.JsonObject):
@@ -270,7 +273,7 @@ class RulesRepo(common.JsonObject):
     return self.path if self.path is not None else os.path.join(DATA_ROOT, self.name)
 
 
-rule_repos = (RulesRepo(name="general"), RulesRepo(name="gRhya/general"), RulesRepo(name="gRhya/Apastamba"), RulesRepo(name="tamil"), RulesRepo(name="mahApuruSha/general"), RulesRepo(name="devatA/pitR"), RulesRepo(name="devatA/shaiva"), RulesRepo(name="devatA/umA"), RulesRepo(name="devatA/graha"), RulesRepo(name="devatA/nadI"), RulesRepo(name="devatA/shakti"), RulesRepo(name="devatA/gaNapati"),  RulesRepo(name="devatA/kaumAra"),  RulesRepo(name="devatA/vaiShNava"), RulesRepo(name="devatA/lakShmI"), RulesRepo(name="devatA/misc-fauna"), RulesRepo(name="devatA/misc-flora"), RulesRepo(name="mahApuruSha/kAnchI-maTha"), RulesRepo(name="mahApuruSha/ALvAr"), RulesRepo(name="mahApuruSha/vaiShNava-misc"), RulesRepo(name="mahApuruSha/mAdhva-misc"), RulesRepo(name="mahApuruSha/smArta-misc"), RulesRepo(name="mahApuruSha/sangIta-kRt"), RulesRepo(name="mahApuruSha/xatra"), RulesRepo(name="mahApuruSha/xatra-later"), RulesRepo(name="mahApuruSha/RShi"), RulesRepo(name="mahApuruSha/nAyanAr"), RulesRepo(name="temples/venkaTAchala"), RulesRepo(name="temples/Andhra"), RulesRepo(name="temples/Tamil"), RulesRepo(name="temples/Kerala"), RulesRepo(name="temples/Odisha"), RulesRepo(name="temples/North"), RulesRepo(name="time_focus/sankrAnti"), RulesRepo(name="time_focus/puShkara"), RulesRepo(name="time_focus/yugAdiH"), RulesRepo(name="time_focus/misc"),  RulesRepo(name="time_focus/Rtu"), RulesRepo(name="time_focus/nakShatra"), RulesRepo(name="time_focus/Eclipses"), RulesRepo(name="time_focus/misc_combinations"), RulesRepo(name="time_focus/monthly/amAvAsyA"), RulesRepo(name="time_focus/monthly/ekAdashI"), RulesRepo(name="time_focus/monthly/dvAdashI"), RulesRepo(name="time_focus/monthly/pradoSha"),)
+rule_repos = ()
 
 
 class RulesCollection(common.JsonObject):
@@ -278,7 +281,7 @@ class RulesCollection(common.JsonObject):
   JULIAN_TO_GREGORIAN = "converted to Gregorian"
 
 
-  def __init__(self, repos=rule_repos, julian_handling=JULIAN_TO_GREGORIAN):
+  def __init__(self, repos, julian_handling=JULIAN_TO_GREGORIAN):
     super().__init__()
     self.repos = repos
     self.name_to_rule = {}
@@ -353,8 +356,27 @@ common.update_json_class_index(sys.modules[__name__])
 # logging.debug(common.json_class_index)
 
 
+def dump_repos():
+  repos = [repo.to_json_map() for repo in rule_repos]
+  repos.sort(key=lambda x: x["name"])
+  with codecs.open(_ADYATITHI_REPOS_PATH, "w") as fp:
+    toml.dump({"data": repos}, fp)
+
+
+def load_repos():
+  global rule_repos
+  with codecs.open(_ADYATITHI_REPOS_PATH, "r") as fp:
+    repos = toml.load(fp)
+    rule_repos = tuple(common.JsonObject.make_from_dict_list(repos["data"]))
+
+
+load_repos()
+
+
+
 if __name__ == '__main__':
+  # dump_repos()
   rules_collection = RulesCollection.get_cached(repos_tuple=rule_repos, julian_handling=None)
-  rules_collection = RulesCollection(repos=[RulesRepo(name="mahApuruSha/xatra-later")], julian_handling=None)
+  # rules_collection = RulesCollection(repos=[RulesRepo(name="mahApuruSha/xatra-later")], julian_handling=None)
   # rules_collection.fix_filenames()
   # rules_collection.fix_content()

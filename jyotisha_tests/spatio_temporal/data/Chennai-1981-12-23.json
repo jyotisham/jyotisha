@@ -16,44 +16,9 @@
       "prefer_eight_fold_day_division": false,
       "repos": [
         {
-          "base_url": "https://github.com/jyotisham/adyatithi/tree/master/general",
+          "base_url": "https://github.com/jyotisham/adyatithi/tree/master/devatA/gaNapati",
           "jsonClass": "RulesRepo",
-          "name": "general"
-        },
-        {
-          "base_url": "https://github.com/jyotisham/adyatithi/tree/master/gRhya/general",
-          "jsonClass": "RulesRepo",
-          "name": "gRhya/general"
-        },
-        {
-          "base_url": "https://github.com/jyotisham/adyatithi/tree/master/gRhya/Apastamba",
-          "jsonClass": "RulesRepo",
-          "name": "gRhya/Apastamba"
-        },
-        {
-          "base_url": "https://github.com/jyotisham/adyatithi/tree/master/tamil",
-          "jsonClass": "RulesRepo",
-          "name": "tamil"
-        },
-        {
-          "base_url": "https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/general",
-          "jsonClass": "RulesRepo",
-          "name": "mahApuruSha/general"
-        },
-        {
-          "base_url": "https://github.com/jyotisham/adyatithi/tree/master/devatA/pitR",
-          "jsonClass": "RulesRepo",
-          "name": "devatA/pitR"
-        },
-        {
-          "base_url": "https://github.com/jyotisham/adyatithi/tree/master/devatA/shaiva",
-          "jsonClass": "RulesRepo",
-          "name": "devatA/shaiva"
-        },
-        {
-          "base_url": "https://github.com/jyotisham/adyatithi/tree/master/devatA/umA",
-          "jsonClass": "RulesRepo",
-          "name": "devatA/umA"
+          "name": "devatA/gaNapati"
         },
         {
           "base_url": "https://github.com/jyotisham/adyatithi/tree/master/devatA/graha",
@@ -61,29 +26,9 @@
           "name": "devatA/graha"
         },
         {
-          "base_url": "https://github.com/jyotisham/adyatithi/tree/master/devatA/nadI",
-          "jsonClass": "RulesRepo",
-          "name": "devatA/nadI"
-        },
-        {
-          "base_url": "https://github.com/jyotisham/adyatithi/tree/master/devatA/shakti",
-          "jsonClass": "RulesRepo",
-          "name": "devatA/shakti"
-        },
-        {
-          "base_url": "https://github.com/jyotisham/adyatithi/tree/master/devatA/gaNapati",
-          "jsonClass": "RulesRepo",
-          "name": "devatA/gaNapati"
-        },
-        {
           "base_url": "https://github.com/jyotisham/adyatithi/tree/master/devatA/kaumAra",
           "jsonClass": "RulesRepo",
           "name": "devatA/kaumAra"
-        },
-        {
-          "base_url": "https://github.com/jyotisham/adyatithi/tree/master/devatA/vaiShNava",
-          "jsonClass": "RulesRepo",
-          "name": "devatA/vaiShNava"
         },
         {
           "base_url": "https://github.com/jyotisham/adyatithi/tree/master/devatA/lakShmI",
@@ -101,9 +46,49 @@
           "name": "devatA/misc-flora"
         },
         {
-          "base_url": "https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/kAnchI-maTha",
+          "base_url": "https://github.com/jyotisham/adyatithi/tree/master/devatA/nadI",
           "jsonClass": "RulesRepo",
-          "name": "mahApuruSha/kAnchI-maTha"
+          "name": "devatA/nadI"
+        },
+        {
+          "base_url": "https://github.com/jyotisham/adyatithi/tree/master/devatA/pitR",
+          "jsonClass": "RulesRepo",
+          "name": "devatA/pitR"
+        },
+        {
+          "base_url": "https://github.com/jyotisham/adyatithi/tree/master/devatA/shaiva",
+          "jsonClass": "RulesRepo",
+          "name": "devatA/shaiva"
+        },
+        {
+          "base_url": "https://github.com/jyotisham/adyatithi/tree/master/devatA/shakti",
+          "jsonClass": "RulesRepo",
+          "name": "devatA/shakti"
+        },
+        {
+          "base_url": "https://github.com/jyotisham/adyatithi/tree/master/devatA/umA",
+          "jsonClass": "RulesRepo",
+          "name": "devatA/umA"
+        },
+        {
+          "base_url": "https://github.com/jyotisham/adyatithi/tree/master/devatA/vaiShNava",
+          "jsonClass": "RulesRepo",
+          "name": "devatA/vaiShNava"
+        },
+        {
+          "base_url": "https://github.com/jyotisham/adyatithi/tree/master/gRhya/Apastamba",
+          "jsonClass": "RulesRepo",
+          "name": "gRhya/Apastamba"
+        },
+        {
+          "base_url": "https://github.com/jyotisham/adyatithi/tree/master/gRhya/general",
+          "jsonClass": "RulesRepo",
+          "name": "gRhya/general"
+        },
+        {
+          "base_url": "https://github.com/jyotisham/adyatithi/tree/master/general",
+          "jsonClass": "RulesRepo",
+          "name": "general"
         },
         {
           "base_url": "https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/ALvAr",
@@ -111,9 +96,19 @@
           "name": "mahApuruSha/ALvAr"
         },
         {
-          "base_url": "https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/vaiShNava-misc",
+          "base_url": "https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/RShi",
           "jsonClass": "RulesRepo",
-          "name": "mahApuruSha/vaiShNava-misc"
+          "name": "mahApuruSha/RShi"
+        },
+        {
+          "base_url": "https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/general",
+          "jsonClass": "RulesRepo",
+          "name": "mahApuruSha/general"
+        },
+        {
+          "base_url": "https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/kAnchI-maTha",
+          "jsonClass": "RulesRepo",
+          "name": "mahApuruSha/kAnchI-maTha"
         },
         {
           "base_url": "https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/mAdhva-misc",
@@ -121,14 +116,24 @@
           "name": "mahApuruSha/mAdhva-misc"
         },
         {
-          "base_url": "https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/smArta-misc",
+          "base_url": "https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/nAyanAr",
           "jsonClass": "RulesRepo",
-          "name": "mahApuruSha/smArta-misc"
+          "name": "mahApuruSha/nAyanAr"
         },
         {
           "base_url": "https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/sangIta-kRt",
           "jsonClass": "RulesRepo",
           "name": "mahApuruSha/sangIta-kRt"
+        },
+        {
+          "base_url": "https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/smArta-misc",
+          "jsonClass": "RulesRepo",
+          "name": "mahApuruSha/smArta-misc"
+        },
+        {
+          "base_url": "https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/vaiShNava-misc",
+          "jsonClass": "RulesRepo",
+          "name": "mahApuruSha/vaiShNava-misc"
         },
         {
           "base_url": "https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra",
@@ -141,19 +146,9 @@
           "name": "mahApuruSha/xatra-later"
         },
         {
-          "base_url": "https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/RShi",
+          "base_url": "https://github.com/jyotisham/adyatithi/tree/master/tamil",
           "jsonClass": "RulesRepo",
-          "name": "mahApuruSha/RShi"
-        },
-        {
-          "base_url": "https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/nAyanAr",
-          "jsonClass": "RulesRepo",
-          "name": "mahApuruSha/nAyanAr"
-        },
-        {
-          "base_url": "https://github.com/jyotisham/adyatithi/tree/master/temples/venkaTAchala",
-          "jsonClass": "RulesRepo",
-          "name": "temples/venkaTAchala"
+          "name": "tamil"
         },
         {
           "base_url": "https://github.com/jyotisham/adyatithi/tree/master/temples/Andhra",
@@ -161,19 +156,9 @@
           "name": "temples/Andhra"
         },
         {
-          "base_url": "https://github.com/jyotisham/adyatithi/tree/master/temples/Tamil",
-          "jsonClass": "RulesRepo",
-          "name": "temples/Tamil"
-        },
-        {
           "base_url": "https://github.com/jyotisham/adyatithi/tree/master/temples/Kerala",
           "jsonClass": "RulesRepo",
           "name": "temples/Kerala"
-        },
-        {
-          "base_url": "https://github.com/jyotisham/adyatithi/tree/master/temples/Odisha",
-          "jsonClass": "RulesRepo",
-          "name": "temples/Odisha"
         },
         {
           "base_url": "https://github.com/jyotisham/adyatithi/tree/master/temples/North",
@@ -181,24 +166,24 @@
           "name": "temples/North"
         },
         {
-          "base_url": "https://github.com/jyotisham/adyatithi/tree/master/time_focus/sankrAnti",
+          "base_url": "https://github.com/jyotisham/adyatithi/tree/master/temples/Odisha",
           "jsonClass": "RulesRepo",
-          "name": "time_focus/sankrAnti"
+          "name": "temples/Odisha"
         },
         {
-          "base_url": "https://github.com/jyotisham/adyatithi/tree/master/time_focus/puShkara",
+          "base_url": "https://github.com/jyotisham/adyatithi/tree/master/temples/Tamil",
           "jsonClass": "RulesRepo",
-          "name": "time_focus/puShkara"
+          "name": "temples/Tamil"
         },
         {
-          "base_url": "https://github.com/jyotisham/adyatithi/tree/master/time_focus/yugAdiH",
+          "base_url": "https://github.com/jyotisham/adyatithi/tree/master/temples/venkaTAchala",
           "jsonClass": "RulesRepo",
-          "name": "time_focus/yugAdiH"
+          "name": "temples/venkaTAchala"
         },
         {
-          "base_url": "https://github.com/jyotisham/adyatithi/tree/master/time_focus/misc",
+          "base_url": "https://github.com/jyotisham/adyatithi/tree/master/time_focus/Eclipses",
           "jsonClass": "RulesRepo",
-          "name": "time_focus/misc"
+          "name": "time_focus/Eclipses"
         },
         {
           "base_url": "https://github.com/jyotisham/adyatithi/tree/master/time_focus/Rtu",
@@ -206,14 +191,9 @@
           "name": "time_focus/Rtu"
         },
         {
-          "base_url": "https://github.com/jyotisham/adyatithi/tree/master/time_focus/nakShatra",
+          "base_url": "https://github.com/jyotisham/adyatithi/tree/master/time_focus/misc",
           "jsonClass": "RulesRepo",
-          "name": "time_focus/nakShatra"
-        },
-        {
-          "base_url": "https://github.com/jyotisham/adyatithi/tree/master/time_focus/Eclipses",
-          "jsonClass": "RulesRepo",
-          "name": "time_focus/Eclipses"
+          "name": "time_focus/misc"
         },
         {
           "base_url": "https://github.com/jyotisham/adyatithi/tree/master/time_focus/misc_combinations",
@@ -226,19 +206,39 @@
           "name": "time_focus/monthly/amAvAsyA"
         },
         {
-          "base_url": "https://github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/ekAdashI",
-          "jsonClass": "RulesRepo",
-          "name": "time_focus/monthly/ekAdashI"
-        },
-        {
           "base_url": "https://github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/dvAdashI",
           "jsonClass": "RulesRepo",
           "name": "time_focus/monthly/dvAdashI"
         },
         {
+          "base_url": "https://github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/ekAdashI",
+          "jsonClass": "RulesRepo",
+          "name": "time_focus/monthly/ekAdashI"
+        },
+        {
           "base_url": "https://github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha",
           "jsonClass": "RulesRepo",
           "name": "time_focus/monthly/pradoSha"
+        },
+        {
+          "base_url": "https://github.com/jyotisham/adyatithi/tree/master/time_focus/nakShatra",
+          "jsonClass": "RulesRepo",
+          "name": "time_focus/nakShatra"
+        },
+        {
+          "base_url": "https://github.com/jyotisham/adyatithi/tree/master/time_focus/puShkara",
+          "jsonClass": "RulesRepo",
+          "name": "time_focus/puShkara"
+        },
+        {
+          "base_url": "https://github.com/jyotisham/adyatithi/tree/master/time_focus/sankrAnti",
+          "jsonClass": "RulesRepo",
+          "name": "time_focus/sankrAnti"
+        },
+        {
+          "base_url": "https://github.com/jyotisham/adyatithi/tree/master/time_focus/yugAdiH",
+          "jsonClass": "RulesRepo",
+          "name": "time_focus/yugAdiH"
         }
       ]
     },
