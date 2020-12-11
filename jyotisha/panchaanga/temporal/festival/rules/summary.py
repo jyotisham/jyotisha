@@ -31,7 +31,7 @@ def describe_fest(rule, include_images, include_shlokas, include_url, is_brief, 
   description_string = get_description_str_with_shlokas(include_shlokas, rule, script)
   if include_images:
     if rule.image is not None:
-      image_string = '![](https://github.com/sanskrit-coders/adyatithi/blob/master/images/%s)\n\n' % rule.image
+      image_string = '![](https://github.com/jyotisham/adyatithi/blob/master/images/%s)\n\n' % rule.image
   ref_list = get_references_md(rule)
   # Now compose the description string based on the values of
   # include_url, include_images, is_brief

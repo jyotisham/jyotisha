@@ -199,7 +199,7 @@ class HinduCalendarEvent(common.JsonObject):
   def get_url(self):
     # encoded_url = "https://" + quote(self.path_actual.replace(self.repo.path, self.repo.base_url.replace("https://", "")))
     encoded_url = self.get_storage_file_name(base_dir=self.repo.base_url)
-    # https://github.com/sanskrit-coders/jyotisha/runs/1229399248?check_suite_focus=true shows that ~ is being replaced there, which breaks tests. Hence the below.
+    # https://github.com/jyotisham/jyotisha/runs/1229399248?check_suite_focus=true shows that ~ is being replaced there, which breaks tests. Hence the below.
     return encoded_url.replace("%7E", "~")
 
   def get_description_string(self, script, include_url=False, include_images=False, 
@@ -259,7 +259,7 @@ class RulesRepo(common.JsonObject):
   NAKSHATRA_DIR = "nakshatra"
   YOGA_DIR = "yoga"
 
-  def __init__(self, name, path=None, base_url='https://github.com/sanskrit-coders/adyatithi/tree/master'):
+  def __init__(self, name, path=None, base_url='https://github.com/jyotisham/adyatithi/tree/master'):
     super().__init__()
     self.name = name
     self.path = path

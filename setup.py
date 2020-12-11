@@ -44,7 +44,7 @@ setup(
   long_description=long_description,
 
   # The project's main homepage.
-  url='https://github.com/sanskrit-coders/jyotisha',
+  url='https://github.com/jyotisham/jyotisha',
 
   # Author details
   author='Sanskrit programmers',
