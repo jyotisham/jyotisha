@@ -34613,6 +34613,23 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:loṅgevālā yuddham
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191204T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191205T235957
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/12/05/longe
+ vAla-battle.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha
+ /xatra-later/gregorian/day/12/05/longevAla-battle.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:pralaya-kalpādiḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191204T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191205T235957
