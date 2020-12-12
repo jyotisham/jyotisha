@@ -49,16 +49,48 @@ class SolarFestivalAssigner(FestivalAssigner):
 
     PUNYA_KAALA = {1: (10, 10), 2: (16, 16), 3: (0, 60), 4: (30, 0), 5: (16, 16), 6: (0, 60),
                    7: (10, 10), 8: (16, 16), 9: (0, 60), 10: (0, 20), 11: (16, 16), 12: (0, 60)}
-    SANKRANTI_PUNYAKALA_NAMES = {1: "mESa-saGkramaNa", 2: "viSNupadI", 3: "SaDazIti", 4: "kaTaka-saGkramaNa",
-      5: "viSNupadI", 6: "SaDazIti", 7: "tulA-saGkramaNa", 8: "viSNupadI",
-      9: "SaDazIti", 10: "makara-saGkramaNa", 11: "viSNupadI", 12: "SaDazIti"}
-    RTU_MASA_NAMES = {1:"madhu-mAsaH", 2:"mAdhava-mAsaH/vasantaRtuH", 3:"zukra-mAsaH/uttarAyaNam",
-      4:"zuci-mAsaH/grISmaRtuH", 5:"nabhO-mAsaH", 6:"nabhasya-mAsaH/varSaRtuH",
-      7:"iSa-mAsaH", 8:"Urja-mAsaH/zaradRtuH", 9:"sahO-mAsaH/dakSiNAyanam",
-      10:"sahasya-mAsaH/hEmantaRtuH", 11:"tapO-mAsaH", 12:"tapasya-mAsaH/ziziraRtuH"}
-    TROPICAL_SANKRANTI_PUNYAKALA_NAMES = {1: "mESa-viSu", 2: "viSNupadI", 3: "SaDazIti", 4: "dakSiNAyana",
-      5: "viSNupadI", 6: "SaDazIti", 7: "tulA-viSu", 8: "viSNupadI",
-      9: "SaDazIti", 10: "uttarAyaNa", 11: "viSNupadI", 12: "SaDazIti"}
+    SANKRANTI_PUNYAKALA_NAMES = {
+        1: "mESa-saGkramaNa",
+        2: "vRSabha-ravi-saGkramaNa-viSNupadI",
+        3: "mithuna-ravi-saGkramaNa-SaDazIti",
+        4: "kaTaka-saGkramaNa",
+        5: "siMha-ravi-saGkramaNa-viSNupadI",
+        6: "kanyA-ravi-saGkramaNa-SaDazIti",
+        7: "tulA-saGkramaNa",
+        8: "vRzcika-ravi-saGkramaNa-viSNupadI",
+        9: "dhanur-ravi-saGkramaNa-SaDazIti",
+        10: "makara-saGkramaNa",
+        11: "kumbha-ravi-saGkramaNa-viSNupadI",
+        12: "mIna-ravi-saGkramaNa-SaDazIti",
+    }
+    RTU_MASA_NAMES = {
+        1: "madhu-mAsaH",
+        2: "mAdhava-mAsaH/vasantaRtuH",
+        3: "zukra-mAsaH/uttarAyaNam",
+        4: "zuci-mAsaH/grISmaRtuH",
+        5: "nabhO-mAsaH",
+        6: "nabhasya-mAsaH/varSaRtuH",
+        7: "iSa-mAsaH",
+        8: "Urja-mAsaH/zaradRtuH",
+        9: "sahO-mAsaH/dakSiNAyanam",
+        10: "sahasya-mAsaH/hEmantaRtuH",
+        11: "tapO-mAsaH",
+        12: "tapasya-mAsaH/ziziraRtuH",
+    }
+    TROPICAL_SANKRANTI_PUNYAKALA_NAMES = {
+        1: "mESa-viSu",
+        2: "viSNupadI",
+        3: "SaDazIti",
+        4: "dakSiNAyana",
+        5: "viSNupadI",
+        6: "SaDazIti",
+        7: "tulA-viSu",
+        8: "viSNupadI",
+        9: "SaDazIti",
+        10: "uttarAyaNa",
+        11: "viSNupadI",
+        12: "SaDazIti",
+    }
 
     for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + 1):
       if self.daily_panchaangas[d].solar_sidereal_date_sunset.month_transition is not None:
