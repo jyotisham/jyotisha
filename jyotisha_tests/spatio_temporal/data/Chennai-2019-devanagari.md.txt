@@ -2816,7 +2816,11 @@ Adi Shankara founded Dwaraka Mutt in Sadharana year with HastamalakaAcharya as f
 ##### कुम्भ-रवि-सङ्क्रमण-विष्णुपदी-पुण्यकालः
 - 02:05→14:53
 
-Kumbha-Ravi-Saṅkramaṇa-Viṣṇupadī Punyakala.
+Kumbha-Ravi-Saṅkramaṇa-Viṣṇupadī Punyakala. Perform danam of hay, grass, food and pure water to cows.
+
+कुम्भप्रवेशे दानं तु गवं अम्बु तृणस्य च।
+
+
 
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/sankrAnti/description_only/kumbha-ravi-saGkramaNa-viSNupadI-puNyakAlaH.toml)
@@ -2962,19 +2966,6 @@ Observed on Śukla-Aṣṭamī tithi of Māghaḥ (lunar) month (Sūryodayaḥ/p
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/temples/Tamil/relative_event/tiruccendUr%20mAcit%20tiruvizhA%20nir2aivu/offset__-6/tiruccendUr%20murugan2%20mAcit%20tiruvizhA%20%23%236%23%23m%20nAL%E2%80%94veLLit%20tEr%20bhavan2i.toml)
 - Tags: TamilnaduTempleFestivals
-
-
-##### विष्णुपदी-कुम्भरविः
-
-Observed on day 1 of Kumbhaḥ (sidereal solar) month (Sūryodayaḥ/puurvaviddha). Perform danam of hay, grass, food and pure water to cows.
-
-कुम्भप्रवेशे दानं तु गवं अम्बु तृणस्य च
-
-
-
-###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/misc/sidereal_solar_month/day/11/01/viSNupadI-kumbharaviH.toml)
-- Tags: SunSankranti
 
 
 
@@ -9409,15 +9400,6 @@ The Shukla-paksha Ekadashi of vaiśākha month is known as mohinī-ekādaśī.
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/temples/venkaTAchala/relative_event/vEGkaTAcalE%20padmAvatI-pariNayam%20%28azva-vAhanam%29/offset__01/vEGkaTAcalE%20padmAvatI-pariNayOtsava-samApanam%20%28garuDa-vAhanam%29.toml)
 - Tags: AndhraTempleFestivals
-
-
-##### विष्णुपदी-वृषभरविः
-
-Observed on day 1 of Vṛṣabhaḥ (sidereal solar) month (Sūryodayaḥ/puurvaviddha). 
-
-###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/misc/sidereal_solar_month/day/02/01/viSNupadI-vRSabharaviH.toml)
-- Tags: SunSankranti
 
 
 
@@ -16309,16 +16291,7 @@ Observed on Kṛṣṇa-Dvitīyā tithi of Śrāvaṇaḥ (lunar) month (Sūryod
 ##### सिंह-रवि-सङ्क्रमण-विष्णुपदी-पुण्यकालः
 - 06:09→18:57
 
-Siṃha-Ravi-Saṅkramaṇa-Viṣṇupadī Punyakala.
-
-###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/sankrAnti/description_only/siMha-ravi-saGkramaNa-viSNupadI-puNyakAlaH.toml)
-- Tags: SunSankranti CommonFestivals
-
-
-##### विष्णुपदी-सिंहरविः
-
-Observed on day 1 of Siṃhaḥ (sidereal solar) month (Sūryodayaḥ/puurvaviddha). Perform danam of ghee, milk vessel, "ghee cow" and fruits.
+Siṃha-Ravi-Saṅkramaṇa-Viṣṇupadī Punyakala. Perform danam of ghee, milk vessel, "ghee cow" and fruits.
 
 घृतं च क्षीरकुम्भश्च घृतधेनु फलानि च।  
 श्रावणे श्रीधरप्रीत्यै दातव्यानि विपश्चिता॥
@@ -16326,8 +16299,8 @@ Observed on day 1 of Siṃhaḥ (sidereal solar) month (Sūryodayaḥ/puurvavidd
 
 
 ###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/misc/sidereal_solar_month/day/05/01/viSNupadI-siMharaviH.toml)
-- Tags: SunSankranti
+- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/sankrAnti/description_only/siMha-ravi-saGkramaNa-viSNupadI-puNyakAlaH.toml)
+- Tags: SunSankranti CommonFestivals
 
 
 ##### श्री-राघवेन्द्र-स्वामि-आराधना #३४८
@@ -21045,7 +21018,11 @@ Observed on Kṛṣṇa-Caturthī tithi of Āśvayujaḥ (lunar) month (Chandrod
 ##### तुला-सङ्क्रमण-पुण्यकालः
 - 20:31→04:31
 
-Tulā-Saṅkramaṇa Punyakala.
+Tulā-Saṅkramaṇa Punyakala. Perform danam of rice/wheat/grains and cow ghee/curd etc.
+
+तुलाप्रवेशे धान्यानां गोरसानामपीष्टदम्
+
+
 
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/sankrAnti/description_only/tulA-saGkramaNa-puNyakAlaH.toml)
@@ -21146,19 +21123,6 @@ Observed on day 1 of Tulā (sidereal solar) month (Sūryodayaḥ/puurvaviddha). 
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/temples/Tamil/sidereal_solar_month/day/07/01/tulA-kAvErI-snAna-ArambhaH.toml)
 - Tags: TamilnaduTempleFestivals
-
-
-##### तुला-पुण्यकालः
-
-Observed on day 1 of Tulā (sidereal solar) month (Sūryodayaḥ/puurvaviddha). Perform danam of rice/wheat/grains and cow ghee/curd etc.
-
-तुलाप्रवेशे धान्यानां गोरसानामपीष्टदम्
-
-
-
-###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/misc/sidereal_solar_month/day/07/01/tulA-puNyakAlaH.toml)
-- Tags: SunSankranti
 
 
 
@@ -23437,7 +23401,7 @@ End of Tula Kaveri Snanam. Also known as ta:kaḍaimugam.
 ##### वृश्चिक-रवि-सङ्क्रमण-विष्णुपदी-पुण्यकालः
 - 17:57→06:45
 
-Vṛśchika-Ravi-Saṅkramaṇa-Viṣṇupadī Punyakala.
+Vṛśchika-Ravi-Saṅkramaṇa-Viṣṇupadī Punyakala. Do danam of deepam.
 
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/sankrAnti/description_only/vRzcika-ravi-saGkramaNa-viSNupadI-puNyakAlaH.toml)
@@ -23514,15 +23478,6 @@ Beginning of Gangakarshana Mahotsava in Thiruvisanallur. See also http://www.sri
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/temples/Tamil/relative_event/tiruvizalUr%20gaGgAkarSaNa-mahOtsava-samApanam/offset__-9/tiruvizalUr%20gaGgAkarSaNa-mahOtsava-ArambhaH.toml)
 - Tags: MahapurushaEvents TamilnaduTempleFestivals
-
-
-##### विष्णुपदी-वृश्चिकरविः
-
-Observed on day 1 of Vṛścikaḥ (sidereal solar) month (Sūryodayaḥ/puurvaviddha). Do danam of deepam.
-
-###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/misc/sidereal_solar_month/day/08/01/viSNupadI-vRzcikaraviH.toml)
-- Tags: SunSankranti
 
 
 
@@ -24755,10 +24710,21 @@ ___________________
 ___________________
 
 #### उत्सवाः
+##### १९७१ तमे वर्षे पाकिस्तानमरुराष्ट्र-विमानैः प्रहारः #४९
+
+Observed on day 5 of December (gregorian) month. The event has been commemorated since it occurred in 1971 (gregorian era).  
+On the evening of 3 December, at about 17:40, the Islamic repulic of Pakistan Air Force (PAF) (<50 planes) launched surprise strikes on 11 airfields in north-western India, including Agra, which was 480 kilometres (300 mi) from the border.
+
+
+###### Details
+- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/12/05/71-indo-pAk-war-start.toml)
+- Tags: 
+
+
 ##### लोङ्गेवाला युद्धम् #४९
 
 Observed on day 5 of December (gregorian) month. The event has been commemorated since it occurred in 1971 (gregorian era).  
-120 Indian soldiers stubbornly hold back 2,000 pAkistAni muslim soldiers aided by 40 tanks all night till at dawn the IAF Hawker Hunter Maruts (properller planes) picked off the tanks.
+120 Indian soldiers stubbornly hold back 2,000 pAkistAni muslim soldiers aided by 40 tanks all night till at dawn the IAF Hawker Hunter Maruts picked off the tanks.
 
 **Result** - 200 soldiers of Islamic state of Pakistan killed, 36 tanks destroyed. 2 Indian soldiers and 5 camels at their service died.
 

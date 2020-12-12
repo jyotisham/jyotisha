@@ -3803,10 +3803,12 @@ BEGIN:VEVENT
 SUMMARY:kumbha-ravi-saṅkramaṇa-viṣṇupadī-puṇyakālaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190213T020557
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190213T145354
-DESCRIPTION:Kumbha-Ravi-Saṅkramaṇa-Viṣṇupadī Punyakala.<br/><br/>
- ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
- /tree/master/time_focus/sankrAnti/description_only/kumbha-ravi-saGkramaNa-
- viSNupadI-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
+DESCRIPTION:Kumbha-Ravi-Saṅkramaṇa-Viṣṇupadī Punyakala. Perform d
+ anam of hay\, grass\, food and pure water to cows.<br/><br/>kumbhapraveśe
+  dānaṃ tu gavaṃ ambu tṛṇasya ca|<br/><br/><br/><br/>## Details<br
+ />- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/
+ time_focus/sankrAnti/description_only/kumbha-ravi-saGkramaNa-viSNupadI-puN
+ yakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -4021,24 +4023,6 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  20tiruvizhA%20nir2aivu/offset__-6/tiruccendUr%20murugan2%20mAcit%20tiruviz
  hA%20%23%236%23%23m%20nAL%E2%80%94veLLit%20tEr%20bhavan2i.toml)<br/>- Tags
  : TamilnaduTempleFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:viṣṇupadī-kumbharaviḥ
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190212T235957
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190213T235957
-DESCRIPTION:Observed on day 1 of Kumbhaḥ (sidereal solar) month (Sūryod
- ayaḥ/puurvaviddha). Perform danam of hay\, grass\, food and pure water t
- o cows.<br/><br/>kumbhapraveśe dānaṃ tu gavaṃ ambu tṛṇasya ca<br
- /><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jy
- otisham/adyatithi/tree/master/time_focus/misc/sidereal_solar_month/day/11/
- 01/viSNupadI-kumbharaviH.toml)<br/>- Tags: SunSankranti
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13078,23 +13062,6 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  0padmAvatI-pariNayam%20%28azva-vAhanam%29/offset__01/vEGkaTAcalE%20padmAva
  tI-pariNayOtsava-samApanam%20%28garuDa-vAhanam%29.toml)<br/>- Tags: Andhra
  TempleFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:viṣṇupadī-vṛṣabharaviḥ
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190514T235957
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190515T235957
-DESCRIPTION:Observed on day 1 of Vṛṣabhaḥ (sidereal solar) month (S
- ūryodayaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config file](
- https://github.com/jyotisham/adyatithi/tree/master/time_focus/misc/siderea
- l_solar_month/day/02/01/viSNupadI-vRSabharaviH.toml)<br/>- Tags: SunSankra
- nti
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -22588,29 +22555,13 @@ BEGIN:VEVENT
 SUMMARY:siṃha-ravi-saṅkramaṇa-viṣṇupadī-puṇyakālaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190817T060944
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190817T185750
-DESCRIPTION:Siṃha-Ravi-Saṅkramaṇa-Viṣṇupadī Punyakala.<br/><br/
- >## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatith
- i/tree/master/time_focus/sankrAnti/description_only/siMha-ravi-saGkramaNa-
- viSNupadI-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:viṣṇupadī-siṃharaviḥ
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190816T235957
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190817T235957
-DESCRIPTION:Observed on day 1 of Siṃhaḥ (sidereal solar) month (Sūryo
- dayaḥ/puurvaviddha). Perform danam of ghee\, milk vessel\, "ghee cow" an
- d fruits.<br/><br/>ghṛtaṃ ca kṣīrakumbhaśca ghṛtadhenu phalāni 
- ca|  <br/>śrāvaṇe śrīdharaprītyai dātavyāni vipaścitā||<br/><br
- /><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/time_focus/misc/sidereal_solar_month/day/05/01/vi
- SNupadI-siMharaviH.toml)<br/>- Tags: SunSankranti
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
+DESCRIPTION:Siṃha-Ravi-Saṅkramaṇa-Viṣṇupadī Punyakala. Perform 
+ danam of ghee\, milk vessel\, "ghee cow" and fruits.<br/><br/>ghṛtaṃ c
+ a kṣīrakumbhaśca ghṛtadhenu phalāni ca|  <br/>śrāvaṇe śrīdhar
+ aprītyai dātavyāni vipaścitā||<br/><br/><br/><br/>## Details<br/>- [E
+ dit config file](https://github.com/jyotisham/adyatithi/tree/master/time_f
+ ocus/sankrAnti/description_only/siMha-ravi-saGkramaNa-viSNupadI-puNyakAlaH
+ .toml)<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -29401,10 +29352,12 @@ BEGIN:VEVENT
 SUMMARY:tulā-saṅkramaṇa-puṇyakālaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191017T203117
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191018T043114
-DESCRIPTION:Tulā-Saṅkramaṇa Punyakala.<br/><br/>## Details<br/>- [Edi
- t config file](https://github.com/jyotisham/adyatithi/tree/master/time_foc
- us/sankrAnti/description_only/tulA-saGkramaNa-puNyakAlaH.toml)<br/>- Tags:
-  SunSankranti CommonFestivals
+DESCRIPTION:Tulā-Saṅkramaṇa Punyakala. Perform danam of rice/wheat/gr
+ ains and cow ghee/curd etc.<br/><br/>tulāpraveśe dhānyānāṃ gorasān
+ āmapīṣṭadam<br/><br/><br/><br/>## Details<br/>- [Edit config file](h
+ ttps://github.com/jyotisham/adyatithi/tree/master/time_focus/sankrAnti/des
+ cription_only/tulA-saGkramaNa-puNyakAlaH.toml)<br/>- Tags: SunSankranti Co
+ mmonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -29515,24 +29468,6 @@ DESCRIPTION:Observed on day 1 of Tulā (sidereal solar) month (Sūryodaya
  s<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/mas
  ter/temples/Tamil/sidereal_solar_month/day/07/01/tulA-kAvErI-snAna-Arambha
  H.toml)<br/>- Tags: TamilnaduTempleFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:tulā-puṇyakālaḥ
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191017T235957
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191018T235957
-DESCRIPTION:Observed on day 1 of Tulā (sidereal solar) month (Sūryodaya
- ḥ/puurvaviddha). Perform danam of rice/wheat/grains and cow ghee/curd et
- c.<br/><br/>tulāpraveśe dhānyānāṃ gorasānāmapīṣṭadam<br/><br
- /><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/time_focus/misc/sidereal_solar_month/day/07/01/tu
- lA-puNyakAlaH.toml)<br/>- Tags: SunSankranti
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -32832,10 +32767,11 @@ BEGIN:VEVENT
 SUMMARY:vṛścika-ravi-saṅkramaṇa-viṣṇupadī-puṇyakālaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191116T175721
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191117T064518
-DESCRIPTION:Vṛśchika-Ravi-Saṅkramaṇa-Viṣṇupadī Punyakala.<br/>
- <br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adya
- tithi/tree/master/time_focus/sankrAnti/description_only/vRzcika-ravi-saGkr
- amaNa-viSNupadI-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
+DESCRIPTION:Vṛśchika-Ravi-Saṅkramaṇa-Viṣṇupadī Punyakala. Do d
+ anam of deepam.<br/><br/>## Details<br/>- [Edit config file](https://githu
+ b.com/jyotisham/adyatithi/tree/master/time_focus/sankrAnti/description_onl
+ y/vRzcika-ravi-saGkramaNa-viSNupadI-puNyakAlaH.toml)<br/>- Tags: SunSankra
+ nti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -32943,23 +32879,6 @@ DESCRIPTION:Beginning of Gangakarshana Mahotsava in Thiruvisanallur. See a
  ative_event/tiruvizalUr%20gaGgAkarSaNa-mahOtsava-samApanam/offset__-9/tiru
  vizalUr%20gaGgAkarSaNa-mahOtsava-ArambhaH.toml)<br/>- Tags: MahapurushaEve
  nts TamilnaduTempleFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:viṣṇupadī-vṛścikaraviḥ
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191116T235957
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191117T235957
-DESCRIPTION:Observed on day 1 of Vṛścikaḥ (sidereal solar) month (Sū
- ryodayaḥ/puurvaviddha). Do danam of deepam.<br/><br/>## Details<br/>- [E
- dit config file](https://github.com/jyotisham/adyatithi/tree/master/time_f
- ocus/misc/sidereal_solar_month/day/08/01/viSNupadI-vRzcikaraviH.toml)<br/>
- - Tags: SunSankranti
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -34604,6 +34523,27 @@ DESCRIPTION:- Indian civil date: 1941-09-14\, Islamic: 1441-04-07\n_______
  aghaṇṭaḥ**—06:21-07:45\; **Gulikakālaḥ**—09:10-10:34  \n_____
  ______________\n- **Śūlam**—Dakṣiṇā Dik (►13:52)\; **Parihāra
  ḥ**–Tailam  \n___________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:1971 tame varṣe pākistānamarurāṣṭra-vimānaiḥ prahāra
+ ḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191204T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191205T235957
+DESCRIPTION:Observed on day 5 of December (gregorian) month. The event has
+  been commemorated since it occurred in 1971 (gregorian era).  <br/>On the
+  evening of 3 December\, at about 17:40\, the Islamic repulic of Pakistan 
+ Air Force (PAF) (<50 planes) launched surprise strikes on 11 airfields in 
+ north-western India\, including Agra\, which was 480 kilometres (300 mi) f
+ rom the border.<br/><br/><br/>## Details<br/>- [Edit config file](https://
+ github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregori
+ an/day/12/05/71-indo-pAk-war-start.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
