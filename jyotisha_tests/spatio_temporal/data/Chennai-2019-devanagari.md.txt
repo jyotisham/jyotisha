@@ -2816,7 +2816,11 @@ Adi Shankara founded Dwaraka Mutt in Sadharana year with HastamalakaAcharya as f
 ##### कुम्भ-रवि-सङ्क्रमण-विष्णुपदी-पुण्यकालः
 - 02:05→14:53
 
-Kumbha-Ravi-Saṅkramaṇa-Viṣṇupadī Punyakala.
+Kumbha-Ravi-Saṅkramaṇa-Viṣṇupadī Punyakala. Perform danam of hay, grass, food and pure water to cows.
+
+कुम्भप्रवेशे दानं तु गवं अम्बु तृणस्य च।
+
+
 
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/sankrAnti/description_only/kumbha-ravi-saGkramaNa-viSNupadI-puNyakAlaH.toml)
@@ -2965,18 +2969,6 @@ Observed on Śukla-Aṣṭamī tithi of Māghaḥ (lunar) month (Sūryodayaḥ/p
 
 
 ##### विष्णुपदी-कुम्भरविः
-
-Observed on day 1 of Kumbhaḥ (sidereal solar) month (Sūryodayaḥ/puurvaviddha). Perform danam of hay, grass, food and pure water to cows.
-
-कुम्भप्रवेशे दानं तु गवं अम्बु तृणस्य च
-
-
-
-###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/misc/sidereal_solar_month/day/11/01/viSNupadI-kumbharaviH.toml)
-- Tags: SunSankranti
-
-
 
 ### 2019-02-14
 #### माघः-11-09,वृषभः-रोहिणी🌛🌌◢◣कुम्भः-श्रविष्ठा-11-02🌌🌞◢◣तपः-11-26🪐🌞
@@ -9412,14 +9404,6 @@ The Shukla-paksha Ekadashi of vaiśākha month is known as mohinī-ekādaśī.
 
 
 ##### विष्णुपदी-वृषभरविः
-
-Observed on day 1 of Vṛṣabhaḥ (sidereal solar) month (Sūryodayaḥ/puurvaviddha). 
-
-###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/misc/sidereal_solar_month/day/02/01/viSNupadI-vRSabharaviH.toml)
-- Tags: SunSankranti
-
-
 
 ### 2019-05-16
 #### वैशाखः-02-12,कन्या-चित्रा🌛🌌◢◣वृषभः-कृत्तिका-02-02🌌🌞◢◣माधवः-02-27🪐🌞
@@ -16309,16 +16293,7 @@ Observed on Kṛṣṇa-Dvitīyā tithi of Śrāvaṇaḥ (lunar) month (Sūryod
 ##### सिंह-रवि-सङ्क्रमण-विष्णुपदी-पुण्यकालः
 - 06:09→18:57
 
-Siṃha-Ravi-Saṅkramaṇa-Viṣṇupadī Punyakala.
-
-###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/sankrAnti/description_only/siMha-ravi-saGkramaNa-viSNupadI-puNyakAlaH.toml)
-- Tags: SunSankranti CommonFestivals
-
-
-##### विष्णुपदी-सिंहरविः
-
-Observed on day 1 of Siṃhaḥ (sidereal solar) month (Sūryodayaḥ/puurvaviddha). Perform danam of ghee, milk vessel, "ghee cow" and fruits.
+Siṃha-Ravi-Saṅkramaṇa-Viṣṇupadī Punyakala. Perform danam of ghee, milk vessel, "ghee cow" and fruits.
 
 घृतं च क्षीरकुम्भश्च घृतधेनु फलानि च।  
 श्रावणे श्रीधरप्रीत्यै दातव्यानि विपश्चिता॥
@@ -16326,10 +16301,11 @@ Observed on day 1 of Siṃhaḥ (sidereal solar) month (Sūryodayaḥ/puurvavidd
 
 
 ###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/misc/sidereal_solar_month/day/05/01/viSNupadI-siMharaviH.toml)
-- Tags: SunSankranti
+- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/sankrAnti/description_only/siMha-ravi-saGkramaNa-viSNupadI-puNyakAlaH.toml)
+- Tags: SunSankranti CommonFestivals
 
 
+##### विष्णुपदी-सिंहरविः
 ##### श्री-राघवेन्द्र-स्वामि-आराधना #३४८
 
 Observed on Kṛṣṇa-Dvitīyā tithi of Śrāvaṇaḥ (lunar) month (Sūryodayaḥ/puurvaviddha). The event has been commemorated since it occurred in 4773 (kali era).  
@@ -21045,7 +21021,11 @@ Observed on Kṛṣṇa-Caturthī tithi of Āśvayujaḥ (lunar) month (Chandrod
 ##### तुला-सङ्क्रमण-पुण्यकालः
 - 20:31→04:31
 
-Tulā-Saṅkramaṇa Punyakala.
+Tulā-Saṅkramaṇa Punyakala. Perform danam of rice/wheat/grains and cow ghee/curd etc.
+
+तुलाप्रवेशे धान्यानां गोरसानामपीष्टदम्
+
+
 
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/sankrAnti/description_only/tulA-saGkramaNa-puNyakAlaH.toml)
@@ -21149,18 +21129,6 @@ Observed on day 1 of Tulā (sidereal solar) month (Sūryodayaḥ/puurvaviddha). 
 
 
 ##### तुला-पुण्यकालः
-
-Observed on day 1 of Tulā (sidereal solar) month (Sūryodayaḥ/puurvaviddha). Perform danam of rice/wheat/grains and cow ghee/curd etc.
-
-तुलाप्रवेशे धान्यानां गोरसानामपीष्टदम्
-
-
-
-###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/misc/sidereal_solar_month/day/07/01/tulA-puNyakAlaH.toml)
-- Tags: SunSankranti
-
-
 
 ### 2019-10-19
 #### आश्वयुजः-07-20,मिथुनम्-मृगशीर्षम्🌛🌌◢◣तुला-चित्रा-07-02🌌🌞◢◣इषः-07-27🪐🌞
@@ -23437,7 +23405,7 @@ End of Tula Kaveri Snanam. Also known as ta:kaḍaimugam.
 ##### वृश्चिक-रवि-सङ्क्रमण-विष्णुपदी-पुण्यकालः
 - 17:57→06:45
 
-Vṛśchika-Ravi-Saṅkramaṇa-Viṣṇupadī Punyakala.
+Vṛśchika-Ravi-Saṅkramaṇa-Viṣṇupadī Punyakala. Do danam of deepam.
 
 ###### Details
 - [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/sankrAnti/description_only/vRzcika-ravi-saGkramaNa-viSNupadI-puNyakAlaH.toml)
@@ -23517,14 +23485,6 @@ Beginning of Gangakarshana Mahotsava in Thiruvisanallur. See also http://www.sri
 
 
 ##### विष्णुपदी-वृश्चिकरविः
-
-Observed on day 1 of Vṛścikaḥ (sidereal solar) month (Sūryodayaḥ/puurvaviddha). Do danam of deepam.
-
-###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/misc/sidereal_solar_month/day/08/01/viSNupadI-vRzcikaraviH.toml)
-- Tags: SunSankranti
-
-
 
 ### 2019-11-18
 #### कार्त्तिकः-08-21,कटकः-पुष्यः🌛🌌◢◣वृश्चिकः-विशाखा-08-02🌌🌞◢◣ऊर्जः-08-26🪐🌞
@@ -24769,7 +24729,7 @@ On the evening of 3 December, at about 17:40, the Islamic repulic of Pakistan Ai
 ##### लोङ्गेवाला युद्धम् #४९
 
 Observed on day 5 of December (gregorian) month. The event has been commemorated since it occurred in 1971 (gregorian era).  
-120 Indian soldiers stubbornly hold back 2,000 pAkistAni muslim soldiers aided by 40 tanks all night till at dawn the IAF Hawker Hunter Maruts picked off the remaining tanks.
+120 Indian soldiers stubbornly hold back 2,000 pAkistAni muslim soldiers aided by 40 tanks all night till at dawn the IAF Hawker Hunters and Maruts picked off the remaining tanks.
 
 **Result** - 200 soldiers of Islamic state of Pakistan killed, 36 tanks destroyed. 2 Indian soldiers and 5 camels at their service died.
 
