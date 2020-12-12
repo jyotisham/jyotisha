@@ -83,11 +83,10 @@ class FestivalInstance(common.JsonObject):
     if self.interval is None:
       md = name
     else:
-      from jyotisha.panchaanga.temporal.time import Hour
       start_time_str = "" if self.interval.jd_start is None else timezone.julian_day_to_local_time(self.interval.jd_start).get_hour_str()
       end_time_str = "" if self.interval.jd_end is None else timezone.julian_day_to_local_time(self.interval.jd_end).get_hour_str()
       md = "%s\n- %s→%s" % (name, start_time_str, end_time_str)
-    description = get_description(festival_instance=self, fest_details_dict=fest_details_dict, script=scripts[0], truncate=False)
+    description = get_description(festival_instance=self, fest_details_dict=fest_details_dict, script=scripts[0], truncate=False, header_md="#" + header_md)
     if description != "":
       md = "%s\n\n%s" % (md, description)
     return md
@@ -117,14 +116,14 @@ class TransitionFestivalInstance(FestivalInstance):
     return custom_transliteration.tr("%s~(%s##\\To{}##%s)" % (name, self.status_1_hk, self.status_2_hk), script=scripts[0])
 
 
-def get_description(festival_instance, fest_details_dict, script, truncate=True):
+def get_description(festival_instance, fest_details_dict, script, truncate=True, header_md="#####"):
   fest_id = festival_instance.name
   desc = None
   if re.match('aGgArakI.*saGkaTahara-caturthI-vratam', fest_id):
     fest_id = fest_id.replace('aGgArakI~', '')
     if fest_id in fest_details_dict:
       desc = fest_details_dict[fest_id].get_description_string(
-        script=script)
+        script=script, header_md=header_md)
       desc += 'When `caturthI` occurs on a Tuesday, it is known as `aGgArakI` and is even more sacred.'
     else:
       logging.warning('No description found for caturthI festival %s!' % fest_id)
@@ -137,7 +136,7 @@ def get_description(festival_instance, fest_details_dict, script, truncate=True)
       ekad = ekad[:ekad_suff_pos]
     if ekad in fest_details_dict:
       desc = fest_details_dict[ekad].get_description_string(
-        script=script, include_url=True, include_shlokas=True, truncate=truncate)
+        script=script, include_url=True, include_shlokas=True, truncate=truncate, header_md=header_md)
     else:
       logging.warning('No description found for Ekadashi festival %s (%s)!' % (ekad, fest_id))
   elif fest_id.find('saGkrAntiH') != -1:
@@ -145,12 +144,12 @@ def get_description(festival_instance, fest_details_dict, script, truncate=True)
     planet_trans = fest_id.split('~')[0]  # get rid of ~(rAshi name) etc.
     if planet_trans in fest_details_dict:
       desc = fest_details_dict[planet_trans].get_description_string(
-        script=script, include_url=True, include_shlokas=True, truncate=truncate)
+        script=script, include_url=True, include_shlokas=True, truncate=truncate, header_md=header_md)
     else:
       logging.warning('No description found for festival %s!' % planet_trans)
   elif fest_id in fest_details_dict:
       desc = fest_details_dict[fest_id].get_description_string(
-        script=script, include_url=True, include_shlokas=True, truncate=truncate, include_images=False)
+        script=script, include_url=True, include_shlokas=True, truncate=truncate, include_images=False, header_md=header_md)
 
 
   if desc is None:
@@ -167,7 +166,7 @@ def get_description(festival_instance, fest_details_dict, script, truncate=True)
       else:
         desc = fest_details_dict[matched_festivals[0]].get_description_string(script=script,
                                                                               include_url=True, include_shlokas=True,
-                                                                              truncate=True)
+                                                                              truncate=True, header_md=header_md)
   return default_if_none(desc, "")
 
 

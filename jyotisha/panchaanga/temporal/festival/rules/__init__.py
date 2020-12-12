@@ -205,10 +205,10 @@ class HinduCalendarEvent(common.JsonObject):
     return encoded_url.replace("%7E", "~")
 
   def get_description_string(self, script, include_url=False, include_images=False, 
-                             include_shlokas=False, is_brief=False, truncate=False):
+                             include_shlokas=False, is_brief=False, truncate=False, header_md="#####"):
     from jyotisha.panchaanga.temporal.festival.rules import summary
     final_description_string = summary.describe_fest(self, include_images, include_shlokas, include_url, is_brief, script,
-    truncate)
+    truncate, header_md=header_md)
 
     return final_description_string
 

@@ -22,37 +22,31 @@ def transliterate_quoted_text(text, script):
 
 
 
-def describe_fest(rule, include_images, include_shlokas, include_url, is_brief, script, truncate):
+def describe_fest(rule, include_images, include_shlokas, include_url, is_brief, script, truncate, header_md="#####"):
   # Get the Blurb
   blurb = get_timing_summary(rule)
   # Get the URL
-  if include_url:
-    url = rule.get_url()
   description_string = get_description_str_with_shlokas(include_shlokas, rule, script)
   if include_images:
     if rule.image is not None:
       image_string = '![](https://github.com/jyotisham/adyatithi/blob/master/images/%s)\n\n' % rule.image
-  ref_list = get_references_md(rule)
   # Now compose the description string based on the values of
   # include_url, include_images, is_brief
   if not is_brief:
     final_description_string = blurb
   else:
-    if include_url:
-      final_description_string = url
-    else:
       final_description_string = ''
   final_description_string += description_string
   if include_images:
     final_description_string += image_string
+  url = rule.get_url()
   if truncate:
     if len(final_description_string) > 450:
       # Truncate
-      final_description_string = '\n\n##### Details\n- [Edit config file](%s)\n- Tags: %s\n\n' % (url, ' '.join(default_if_none(rule.tags, [])))
+      final_description_string = '\n\n%s Details\n- [Edit config file](%s)\n- Tags: %s\n\n' % (header_md, url, ' '.join(default_if_none(rule.tags, [])))
   if not is_brief:
-    final_description_string += ref_list
-  if not is_brief and include_url:
-    final_description_string += '\n\n##### Details\n- [Edit config file](%s)\n- Tags: %s\n\n' % (url, ' '.join(default_if_none(rule.tags, [])))
+    ref_list = get_references_md(rule)
+    final_description_string += '\n\n%s Details\n%s- [Edit config file](%s)\n- Tags: %s\n\n' % (header_md, ref_list, url, ' '.join(default_if_none(rule.tags, [])))
   return final_description_string
 
 
@@ -95,13 +89,13 @@ def get_english_description(description_string, rule):
 def get_references_md(rule):
   ref_list = ''
   if rule.references_primary is not None or rule.references_secondary is not None:
-    ref_list = '\n##### References\n'
+    ref_list = '- References\n'
     if rule.references_primary is not None:
       for ref in rule.references_primary:
-        ref_list += '- %s\n' % transliterate_quoted_text(ref, sanscript.IAST)
+        ref_list += '  - %s\n' % transliterate_quoted_text(ref, sanscript.IAST)
     elif rule.references_secondary is not None:
       for ref in rule.references_secondary:
-        ref_list += '- %s\n' % transliterate_quoted_text(ref, sanscript.IAST)
+        ref_list += '  - %s\n' % transliterate_quoted_text(ref, sanscript.IAST)
   return ref_list
 
 

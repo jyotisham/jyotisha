@@ -71,7 +71,7 @@ def festival_instance_to_event(festival_instance, languages, scripts, panchaanga
   fest_name = festival_instance.get_best_transliterated_name(languages=languages, scripts=scripts, fest_details_dict=rules_collection.name_to_rule)["text"].replace("~", " ")
   event = Event()
   event.add('summary', fest_name)
-  desc = get_description(festival_instance=festival_instance, script=scripts[0], fest_details_dict=fest_details_dict)
+  desc = get_description(festival_instance=festival_instance, script=scripts[0], fest_details_dict=fest_details_dict, header_md="##")
   event.add('description', desc.strip().replace('\n', '<br/>'))
 
   if festival_instance.interval is not None and festival_instance.interval.jd_end is not None and festival_instance.interval.jd_start is not None :
