@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20201212120510
+SEQUENCE:20201212135541
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -38614,6 +38614,23 @@ DESCRIPTION:- Indian civil date: 1942-09-14\, Islamic: 1442-04-19\n_______
  —13:34-14:59\; **गुलिककालः**—06:32-07:56  \n________
  ___________\n- **शूलम्**—प्राची दिक् (►0
  9:32)\; **परिहारः**–दधि  \n___________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:लोङ्गेवाला युद्धम्
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201205T000000
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201206T000000
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/12/05/longe
+ vAla-battle.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha
+ /xatra-later/gregorian/day/12/05/longevAla-battle.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
