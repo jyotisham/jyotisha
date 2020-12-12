@@ -260,6 +260,7 @@ class DailyPanchaanga(common.JsonObject):
       anga_type=AngaType.SIDEREAL_MONTH)
 
     solar_sidereal_month_end_jd = None
+    # Some months are really short, like Dhanurmasa ending 1970-Jan-14. So >=28 is used...
     if previous_day_panchaanga is None or previous_day_panchaanga.solar_sidereal_date_sunset.day >= 28 :
       anga_finder = zodiac.AngaSpanFinder.get_cached(ayanaamsha_id=self.computation_system.ayanaamsha_id, anga_type=AngaType.SIDEREAL_MONTH)
       solar_month_sunset_span = anga_finder.find(jd1=self.jd_sunset - 32, jd2=self.jd_sunset + 5, target_anga_id=solar_month_sunset)
