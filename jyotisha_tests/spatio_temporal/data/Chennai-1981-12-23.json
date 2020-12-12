@@ -186,6 +186,11 @@
           "name": "time_focus/Eclipses"
         },
         {
+          "base_url": "https://github.com/jyotisham/adyatithi/tree/master/time_focus/amrita-siddhi",
+          "jsonClass": "RulesRepo",
+          "name": "time_focus/amrita-siddhi"
+        },
+        {
           "base_url": "https://github.com/jyotisham/adyatithi/tree/master/time_focus/Rtu",
           "jsonClass": "RulesRepo",
           "name": "time_focus/Rtu"
@@ -199,6 +204,16 @@
           "base_url": "https://github.com/jyotisham/adyatithi/tree/master/time_focus/misc_combinations",
           "jsonClass": "RulesRepo",
           "name": "time_focus/misc_combinations"
+        },
+        {
+          "base_url": "https://github.com/jyotisham/adyatithi/tree/master/time_focus/special-tithis",
+          "jsonClass": "RulesRepo",
+          "name": "time_focus/special-tithis"
+        },
+        {
+          "base_url": "https://github.com/jyotisham/adyatithi/tree/master/time_focus/tithi-vara-combinations",
+          "jsonClass": "RulesRepo",
+          "name": "time_focus/tithi-vara-combinations"
         },
         {
           "base_url": "https://github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/amAvAsyA",
