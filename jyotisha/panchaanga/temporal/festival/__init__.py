@@ -23,6 +23,17 @@ class FestivalInstance(common.JsonObject):
     self.exclude = exclude
     self.ordinal = ordinal
 
+  def get_detailed_name_with_timings(self, timezone, reference_date=None):
+    name = self.name
+
+    if self.ordinal is not None:
+      name = name + " #%s" % int(self.ordinal)
+
+    if self.interval is None:
+      return name
+    else:
+      return "%s (%s)" % (name, self.interval.to_hour_text(script=sanscript.IAST, tz=timezone, reference_date=reference_date))
+
   def get_human_names(self, fest_details_dict):
     festival_rules = fest_details_dict
     from jyotisha.panchaanga.temporal.festival import rules
