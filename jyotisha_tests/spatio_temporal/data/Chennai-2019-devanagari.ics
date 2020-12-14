@@ -25545,6 +25545,24 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:2008 varṣe dehalyāṃ visphoṭāḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190912T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190913T235957
+DESCRIPTION:Observed on day 13 of September (gregorian) month. The event h
+ as been commemorated since it occurred in 2008 (gregorian era).  <br/>Five
+  synchronised bomb blasts that took place within a span of few minutes. Ca
+ rried out by Indian Mujahideen.<br/><br/>## Details<br/>- [Edit config fil
+ e](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-la
+ ter/gregorian/day/09/13/delhi-blasts-2008.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:kāñcī 59 jagadguru śrī-bhagavannāma bodhendra sarasvatī ār
  ādhanā
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190912T235957
@@ -35449,6 +35467,26 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:2001 varṣe sāṃsadabhavane marurākṣasaprahāraḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191212T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191213T235957
+DESCRIPTION:Observed on day 13 of December (gregorian) month. The event ha
+ s been commemorated since it occurred in 2001 (gregorian era).  <br/>Islam
+ ic terrorists belonging to Lashkar-e-Taiba (LeT "Army of the Pure") and Ja
+ ish-e-Mohammed (JeM\, "Army of Muhammad") attack Indian parliament. Deaths
+ : 9 Indians (Constable Kamlesh Kumari of CRPF who raised the alarm)\, and 
+ 5 jihAdis. Injured: 18.<br/><br/><br/>## Details<br/>- [Edit config file](
+ https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later
+ /gregorian/day/12/13/parliament-attack-2001.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Mārgaśīrṣaḥ-09-17\,Mithunam-Punarvasuḥ🌛🌌◢◣Vṛ
  ścikaḥ-Jyeṣṭhā-08-28🌌🌞◢◣Sahaḥ-09-22🪐🌞
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191214T062600
@@ -35650,6 +35688,25 @@ DESCRIPTION:Dhanur-Ravi-Saṅkramaṇa-Ṣaḍaśīti Punyakala. Perform d
  />- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/
  time_focus/sankrAnti/description_only/dhanur-ravi-saGkramaNa-SaDazIti-puNy
  akAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:pākistāna-pūrva-pakṣa-kartanam
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191215T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191216T235957
+DESCRIPTION:Observed on day 16 of December (gregorian) month. The event ha
+ s been commemorated since it occurred in 1971 (gregorian era).  <br/>Genoc
+ idal Pakistan Islamic Republic army (93\,000 soldiers in the eastern comma
+ nd) surrendered to Indian forces at DhAka.<br/><br/><br/>## Details<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/mahA
+ puruSha/xatra-later/gregorian/day/12/16/pAkistAna-pUrva-paxa-kartanam.toml
+ )<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
