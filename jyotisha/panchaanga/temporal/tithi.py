@@ -46,7 +46,7 @@ class ShraddhaTithiAssigner(PeriodicPanchaangaApplier):
     lunar_tithi_days = {}
     daily_panchaangas = self.daily_panchaangas
     
-    for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + 1):
+    for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
       [y, m, dt, t] = time.jd_to_utc_gregorian(self.panchaanga.jd_start + d - 1).to_date_fractional_hour_tuple()
 
       (d0_angas, d1_angas) = get_2_day_interval_boundary_angas(kaala="aparaahna", anga_type=AngaType.TITHI, p0=self.daily_panchaangas[d], p1=self.daily_panchaangas[d+1])
@@ -162,14 +162,14 @@ class ShraddhaTithiAssigner(PeriodicPanchaangaApplier):
     
     for z in set([x.lunar_month_sunrise for x in self.daily_panchaangas]):
       lunar_tithi_days[z] = {}
-    for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + 1):
+    for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
       for t in daily_panchaangas[d].shraaddha_tithi:
         lunar_tithi_days[daily_panchaangas[d].lunar_month_sunrise][t.index] = d
   
     # Following this primary assignment, we must now "clean" for Sankranti, and repetitions
     # If there are two tithis, take second. However, if the second has sankrAnti dushtam, take
     # first. If both have sankrAnti dushtam, take second.
-    for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + 1):
+    for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
       if daily_panchaangas[d].shraaddha_tithi != []:
         if daily_panchaangas[d].solar_sidereal_date_sunset.month_transition is not None:
           if debug_shraaddha_tithi:

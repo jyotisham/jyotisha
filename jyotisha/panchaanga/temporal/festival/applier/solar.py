@@ -92,7 +92,7 @@ class SolarFestivalAssigner(FestivalAssigner):
         12: "SaDazIti",
     }
 
-    for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + 1):
+    for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
       if self.daily_panchaangas[d].solar_sidereal_date_sunset.month_transition is not None:
         punya_kaala_str = SANKRANTI_PUNYAKALA_NAMES[self.daily_panchaangas[d + 1].solar_sidereal_date_sunset.month] + '-puNyakAlaH'
         jd_transition = self.daily_panchaangas[d].solar_sidereal_date_sunset.month_transition
@@ -131,7 +131,7 @@ class SolarFestivalAssigner(FestivalAssigner):
     if 'agninakSatra-ArambhaH' not in self.rules_collection.name_to_rule:
       return 
     agni_jd_start = agni_jd_end = None
-    for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + 1):
+    for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
       # AGNI nakshatra
       # Arbitrarily checking after Mesha 10! Agni Nakshatram can't start earlier...
       if self.daily_panchaangas[d].solar_sidereal_date_sunset.month == 1 and self.daily_panchaangas[d].solar_sidereal_date_sunset.day == 10:
