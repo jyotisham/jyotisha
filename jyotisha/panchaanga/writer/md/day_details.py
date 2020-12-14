@@ -5,7 +5,7 @@ import logging
 from io import StringIO
 from math import ceil
 
-from indic_transliteration import sanscript
+from indic_transliteration import xsanscript as sanscript
 from jyotisha.panchaanga.temporal import names, interval
 from jyotisha.panchaanga.temporal.names import translate_or_transliterate
 from jyotisha.panchaanga.temporal import AngaType
@@ -46,19 +46,26 @@ def day_summary(d, panchaanga, script, subsection_md):
   print("- Indian civil date: %s, Islamic: %s %s" % (daily_panchaanga.date.to_indian_civil_date().get_date_str(), islamic_date.get_date_str(), islamic_month_name), file=output_stream)
 
   # TODO: renable below and related code further down (look for yname_lunar)
+  samvatsara_lunar = daily_panchaanga.get_samvatsara(month_type=RulesRepo.LUNAR_MONTH_DIR).get_name(script=script)
+  samvatsara_sidereal = daily_panchaanga.get_samvatsara(month_type=RulesRepo.SIDEREAL_SOLAR_MONTH_DIR).get_name(script=script)
+  samvatsara_tropical = daily_panchaanga.get_samvatsara(month_type=RulesRepo.TROPICAL_MONTH_DIR).get_name(script=script)
+  
+  if samvatsara_lunar == samvatsara_sidereal and samvatsara_lunar == samvatsara_tropical:
+    print("- संवत्सरः - %s" % samvatsara_lunar, file=output_stream)
+  else:
+    print("- संवत्सरः 🌛- %s, 🌌🌞- %s, 🪐🌞- %s" % (samvatsara_lunar, samvatsara_sidereal, samvatsara_tropical), file=output_stream)
   # if yname_lunar == yname_solar:
   #   print('*' + getName('saMvatsaraH', language) + '*—%s' % yname_lunar, file=output_stream)
-  #   print('*' + getName('ayanam', language) + '*—%s' % ayanam, file=output_stream)
-  print("___________________", file=output_stream)
-  print('- 🪐🌞**%s** — %s %s' % (translate_or_transliterate('ऋतुमानम्', script, source_script=sanscript.DEVANAGARI), rtu_tropical, ayanam), file=output_stream)
-  print('- 🌌🌞**%s** — %s %s' % (translate_or_transliterate('सौरमानम्', script, source_script=sanscript.DEVANAGARI), rtu_solar, ayanam_sidereal), file=output_stream)
-  print('- 🌛**%s** — %s %s' % (translate_or_transliterate('चान्द्रमानम्', script, source_script=sanscript.DEVANAGARI), rtu_lunar, lunar_month_str), file=output_stream)
   # if yname_lunar != yname_solar:
   #   print('*' + getName('saMvatsaraH', language) + '*—%s' % yname_solar, file=output_stream)
   #   print('*' + getName('ayanam', language) + '*—%s' % ayanam, file=output_stream)
   # if yname_lunar != yname_solar:
   #   print('*' + getName('saMvatsaraH', language) + '*—%s' % yname_lunar, file=output_stream)
   #   print('*' + getName('ayanam', language) + '*—%s' % ayanam, file=output_stream)
+  print("___________________", file=output_stream)
+  print('- 🪐🌞**%s** — %s %s' % (translate_or_transliterate('ऋतुमानम्', script, source_script=sanscript.DEVANAGARI), rtu_tropical, ayanam), file=output_stream)
+  print('- 🌌🌞**%s** — %s %s' % (translate_or_transliterate('सौरमानम्', script, source_script=sanscript.DEVANAGARI), rtu_solar, ayanam_sidereal), file=output_stream)
+  print('- 🌛**%s** — %s %s' % (translate_or_transliterate('चान्द्रमानम्', script, source_script=sanscript.DEVANAGARI), rtu_lunar, lunar_month_str), file=output_stream)
   print("___________________", file=output_stream)
   print("\n\n%s %s" % (subsection_md, names.translate_or_transliterate(text="खचक्रस्थितिः", script=script)), file=output_stream)
   tithi_data_str = daily_panchaanga.sunrise_day_angas.get_anga_data_str(anga_type=AngaType.TITHI, script=script, reference_jd=daily_panchaanga.julian_day_start)
