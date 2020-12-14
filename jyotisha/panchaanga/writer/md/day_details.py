@@ -45,7 +45,6 @@ def day_summary(d, panchaanga, script, subsection_md):
   islamic_month_name = names.NAMES["ARAB_MONTH_NAMES"]["ar"][islamic_date.month-1]
   print("- Indian civil date: %s, Islamic: %s %s" % (daily_panchaanga.date.to_indian_civil_date().get_date_str(), islamic_date.get_date_str(), islamic_month_name), file=output_stream)
 
-  # TODO: renable below and related code further down (look for yname_lunar)
   samvatsara_lunar = daily_panchaanga.get_samvatsara(month_type=RulesRepo.LUNAR_MONTH_DIR).get_name(script=script)
   samvatsara_sidereal = daily_panchaanga.get_samvatsara(month_type=RulesRepo.SIDEREAL_SOLAR_MONTH_DIR).get_name(script=script)
   samvatsara_tropical = daily_panchaanga.get_samvatsara(month_type=RulesRepo.TROPICAL_MONTH_DIR).get_name(script=script)
