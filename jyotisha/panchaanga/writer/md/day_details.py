@@ -40,7 +40,10 @@ def day_summary(d, panchaanga, script, subsection_md):
   rtu_tropical = names.NAMES['RTU_NAMES']['sa'][script][daily_panchaanga.tropical_date_sunset.month]
   rtu_lunar = names.NAMES['RTU_NAMES']['sa'][script][int(ceil(daily_panchaanga.lunar_month_sunrise.index))]
 
-  print("- Indian civil date: %s, Islamic: %s" % (daily_panchaanga.date.to_indian_civil_date().get_date_str(), daily_panchaanga.date.to_islamic_date().get_date_str()), file=output_stream)
+  # Why include Islamic date? Hindus are today in close contact with muslim societies and are impacted by their calendric reckoning (eg. spikes in anti-hindu violence during ramadan https://swarajyamag.com/politics/behind-the-spikes-in-islamic-terror-during-ramzan , frenzies after Friday jumma etc..). It is the job of a good panchaanga to inform it's user about predictable (spiritual and other) situations in his surroundings.
+  islamic_date = daily_panchaanga.date.to_islamic_date()
+  islamic_month_name = names.NAMES["ARAB_MONTH_NAMES"]["ar"][islamic_date.month-1]
+  print("- Indian civil date: %s, Islamic: %s %s" % (daily_panchaanga.date.to_indian_civil_date().get_date_str(), islamic_date.get_date_str(), islamic_month_name), file=output_stream)
 
   # TODO: renable below and related code further down (look for yname_lunar)
   # if yname_lunar == yname_solar:
