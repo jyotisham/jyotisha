@@ -2,9 +2,12 @@ import logging
 import os
 
 import numpy.testing
+from indic_transliteration import xsanscript
+
 from jyotisha.panchaanga.spatio_temporal import City
 from jyotisha.panchaanga.spatio_temporal import daily
 from jyotisha.panchaanga.temporal import time
+from jyotisha.panchaanga.temporal.festival.rules import RulesRepo
 from jyotisha.panchaanga.temporal.interval import Interval
 from jyotisha.panchaanga.temporal.time import Date
 from jyotisha.panchaanga.temporal.zodiac import AngaType
@@ -123,3 +126,18 @@ def test_get_lagna_data():
               (10, 2458223.3787625884), (11, 2458223.4494649624),
               (12, 2458223.518700759)]
   numpy.testing.assert_allclose(actual, expected, rtol=1e-4) 
+
+def test_get_samvatsara():
+  city = City.get_city_from_db('Bangalore')
+  panchaanga = daily.DailyPanchaanga(city=city, date=Date(year=2019, month=9, day=10))
+  assert panchaanga.get_samvatsara(month_type=RulesRepo.LUNAR_MONTH_DIR).get_name(script=xsanscript.DEVANAGARI) == "विकारी"
+  panchaanga = daily.DailyPanchaanga(city=city, date=Date(year=2020, month=2, day=10))
+  assert panchaanga.get_samvatsara(month_type=RulesRepo.LUNAR_MONTH_DIR).get_name(script=xsanscript.DEVANAGARI) == "विकारी"
+  panchaanga = daily.DailyPanchaanga(city=city, date=Date(year=2020, month=4, day=10))
+  assert panchaanga.get_samvatsara(month_type=RulesRepo.LUNAR_MONTH_DIR).get_name(script=xsanscript.DEVANAGARI) == "शार्वरी"
+  panchaanga = daily.DailyPanchaanga(city=city, date=Date(year=2020, month=4, day=10))
+  assert panchaanga.get_samvatsara(month_type=RulesRepo.TROPICAL_MONTH_DIR).get_name(script=xsanscript.DEVANAGARI) == "शार्वरी"
+  panchaanga = daily.DailyPanchaanga(city=city, date=Date(year=2020, month=4, day=10))
+  assert panchaanga.get_samvatsara(month_type=RulesRepo.SIDEREAL_SOLAR_MONTH_DIR).get_name(script=xsanscript.DEVANAGARI) == "विकारी"
+  panchaanga = daily.DailyPanchaanga(city=city, date=Date(year=2020, month=4, day=20))
+  assert panchaanga.get_samvatsara(month_type=RulesRepo.SIDEREAL_SOLAR_MONTH_DIR).get_name(script=xsanscript.DEVANAGARI) == "शार्वरी"
