@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20201214145220
+SEQUENCE:20201214155149
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -29328,6 +29328,25 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:२००८ वर्षे देहल्यां विस्
+ फोटाः
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200913T000000
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200914T000000
+DESCRIPTION:Observed on day 13 of September (gregorian) month. The event h
+ as been commemorated since it occurred in 2008 (gregorian era).  <br/>Five
+  synchronised bomb blasts that took place within a span of few minutes. Ca
+ rried out by Indian Mujahideen.<br/><br/>## Details<br/>- [Edit config fil
+ e](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-la
+ ter/gregorian/day/09/13/delhi-blasts-2008.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:रविपुष्ययोग-पुण्यकालः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200913T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200914T000000
@@ -39345,6 +39364,27 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:२००१ वर्षे सांसदभवने मरु
+ राक्षसप्रहारः
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201213T000000
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201214T000000
+DESCRIPTION:Observed on day 13 of December (gregorian) month. The event ha
+ s been commemorated since it occurred in 2001 (gregorian era).  <br/>Islam
+ ic terrorists belonging to Lashkar-e-Taiba (LeT "Army of the Pure") and Ja
+ ish-e-Mohammed (JeM\, "Army of Muhammad") attack Indian parliament. Deaths
+ : 9 Indians (Constable Kamlesh Kumari of CRPF who raised the alarm)\, and 
+ 5 jihAdis. Injured: 18.<br/><br/><br/>## Details<br/>- [Edit config file](
+ https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later
+ /gregorian/day/12/13/parliament-attack-2001.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:कार्त्तिकः-08-30\,वृश्चिकः-ज
  ्येष्ठा🌛🌌◢◣वृश्चिकः-ज्ये
  ष्ठा-08-29🌌🌞◢◣सहः-09-23🪐🌞
@@ -39815,6 +39855,26 @@ DESCRIPTION:Celebrated especially in Kerala/Guruvayur. Commemorates the in
  /><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/ad
  yatithi/tree/master/devatA/vaiShNava/description_only/kucEla-dinam.toml)<b
  r/>- Tags: PuranaEvents
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:पाकिस्तान-पूर्व-पक्ष-कर्
+ तनम्
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201216T000000
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20201217T000000
+DESCRIPTION:Observed on day 16 of December (gregorian) month. The event ha
+ s been commemorated since it occurred in 1971 (gregorian era).  <br/>Genoc
+ idal Pakistan Islamic Republic army (93\,000 soldiers in the eastern comma
+ nd) surrendered to Indian forces at DhAka.<br/><br/><br/>## Details<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/mahA
+ puruSha/xatra-later/gregorian/day/12/16/pAkistAna-pUrva-paxa-kartanam.toml
+ )<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
