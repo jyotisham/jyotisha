@@ -16,4 +16,6 @@ def send_panchaanga(channel_id, token, md_url_base, html_url_base):
   logging.info("md_url: %s" % md_url)
   logging.info("html_url: %s" % html_url)
   md = "%s\n\n%s" % (html_url, urlopen(md_url).read().decode("utf-8"))
+  if len(md) >= telegram.MAX_MESSAGE_LENGTH - 100:
+    md = md[:telegram.MAX_MESSAGE_LENGTH - 500] + "\n\n Message truncated. Please visit URL at top for full details."
   bot.sendMessage(chat_id="-" + channel_id, text=md)
