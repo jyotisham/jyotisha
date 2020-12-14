@@ -321,6 +321,7 @@ class DailyPanchaanga(common.JsonObject):
     # The below is a crude variable name: sidereal lunar month could be only approximately equinox-referrent. 
     equinox_referrent_date = self.get_date(month_type=month_type)
     # For a few millennia around 1987, it is safe to assume that lunar year starts wihtin the first 5 months of the Gregorian year. This means that only the tail end of the lunar year occurs within the first few months of the year. And only in that case, would we need to offset relative to 1988 rather than 1987.  
+    # TODO: Implement samvatsara skipping logic.  https://github.com/jyotisham/jyotisha/issues/83
     if equinox_referrent_date.month >= 7 and self.date.month <= 5:
       samvatsara_offset_1987_lunar = (self.date.year - 1988) % 60
     else:
