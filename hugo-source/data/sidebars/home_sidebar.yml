@@ -2,10 +2,7 @@
 
 title: भागाः
 contents:
-  - url: /
-  - title: पञ्चाङ्गानि
-    contents:
-      - url: recdir://output/
+  - url: recdir://
   - title: प्रकीर्णम्
     contents:
       - title: सङ्गणकादेशस्रोतः
