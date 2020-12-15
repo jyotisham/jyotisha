@@ -5,4 +5,4 @@ JyotiSha tools and data
 [![Actions Status](https://github.com/sanskrit-coders/jyotisha/workflows/Python%20package/badge.svg)](https://github.com/sanskrit-coders/jyotisha/actions)
 
 
-Intro, user-guide, contribution guide, example calendars etc.. [here](https://sanskrit-coders.github.io/jyotisha/).
+Intro, user-guide, contribution guide, example calendars etc.. [here](https://jyotisham.github.io/jyotisha/).

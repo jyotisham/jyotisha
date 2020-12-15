@@ -1,5 +1,5 @@
 ---
-title: "Jyotisha py site"
+title: "+Jyotisha py site"
 ---
 
 {{< figure src="/images/Aryabhata_with_students.jpg" title="" class="thumbnail">}}

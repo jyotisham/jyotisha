@@ -2,12 +2,11 @@
 
 title: भागाः
 contents:
-  - url: /
-  - title: पञ्चाङ्गानि
-    contents:
-      - url: recdir://output/
+  - url: recdir://
   - title: प्रकीर्णम्
     contents:
+      - title: ज्योतिषसाङ्गणकानां जालक्षेत्रम्
+        url: https://jyotisham.github.io/
       - title: सङ्गणकादेशस्रोतः
         url: https://github.com/sanskrit-coders/
       - title: ज्योतिषे विश्वासः

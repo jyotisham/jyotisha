@@ -152,7 +152,6 @@ class DailyPanchaanga(common.JsonObject):
     self.tropical_date_sunset = None
 
     self.lunar_month_sunrise = None
-
     
     self.shraaddha_tithi = []
     self.festival_id_to_instance = {}
@@ -306,12 +305,6 @@ class DailyPanchaanga(common.JsonObject):
       if  month_assigner is not None:
         self.lunar_month_sunrise = month_assigner.get_month_sunrise(daily_panchaanga=self)
 
-    # TODO Set samvatsara_id. Fix below.
-    # if self.lunar_month_sunrise >= 1 and self.lunar_month_sunrise <= 10 :
-    #   samvatsara_id_lunar = (self.date.year - 1987) % 60 + 1  # distance from prabhava
-    # else:
-    #   samvatsara_id_lunar = (self.date.year - 1987) % 60 + 1  # distance from prabhava
-
   def get_date(self, month_type):
     from jyotisha.panchaanga.temporal.festival.rules import RulesRepo
     if month_type == RulesRepo.SIDEREAL_SOLAR_MONTH_DIR:
@@ -323,6 +316,24 @@ class DailyPanchaanga(common.JsonObject):
       return self.tropical_date_sunset
     elif month_type == RulesRepo.GREGORIAN_MONTH_DIR:
       return self.date
+
+  def get_samvatsara_offset_1987(self, month_type):
+    # The below is a crude variable name: sidereal lunar month could be only approximately equinox-referrent. 
+    equinox_referrent_date = self.get_date(month_type=month_type)
+    # For a few millennia around 1987, it is safe to assume that lunar year starts wihtin the first 5 months of the Gregorian year. This means that only the tail end of the lunar year occurs within the first few months of the year. And only in that case, would we need to offset relative to 1988 rather than 1987.  
+    # TODO: Implement samvatsara skipping logic.  https://github.com/jyotisham/jyotisha/issues/83
+    if equinox_referrent_date.month >= 7 and self.date.month <= 5:
+      samvatsara_offset_1987_lunar = (self.date.year - 1988) % 60
+    else:
+      samvatsara_offset_1987_lunar = (self.date.year - 1987) % 60 
+    return samvatsara_offset_1987_lunar
+
+  def get_samvatsara(self, month_type, samvatsara_1987=Anga(index=1, anga_type_id=AngaType.SAMVATSARA.name)):
+    if isinstance(samvatsara_1987, int):
+      samvatsara_1987 = Anga(index=samvatsara_1987, anga_type_id=AngaType.SAMVATSARA.name)
+    samvatsara = samvatsara_1987 + self.get_samvatsara_offset_1987(month_type=month_type)
+    return samvatsara
+
 
   def get_lagna_data(self, ayanaamsha_id=zodiac.Ayanamsha.CHITRA_AT_180, debug=False):
     """Returns the lagna data

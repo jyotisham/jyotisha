@@ -21,6 +21,7 @@ class AngaType(common.JsonObject):
   TROPICAL_MONTH = None
   SOLAR_NAKSH = None
   SOLAR_NAKSH_PADA = None
+  SAMVATSARA = None
 
   def __init__(self, name, name_hk, num_angas, weight_moon, weight_sun, mean_period_days=None, names_dict=None):
     super(AngaType, self).__init__()
@@ -76,6 +77,8 @@ AngaType.SIDEREAL_MONTH = AngaType(name='SIDEREAL_MONTH', name_hk="rAshi-mAsaH",
 AngaType.TROPICAL_MONTH = AngaType(name='TROPICAL_MONTH', name_hk="Artava-mAsaH", num_angas=12, weight_moon=0, weight_sun=1, mean_period_days=365.242)
 AngaType.SOLAR_NAKSH = AngaType(name='SOLAR_NAKSH', name_hk="saura-nakSatram", num_angas=27, weight_moon=0, weight_sun=1, mean_period_days=365.242)
 AngaType.SOLAR_NAKSH_PADA = AngaType(name='SOLAR_NAKSH_PADA', name_hk="saura-nakSatra-pAdaH", num_angas=108, weight_moon=0, weight_sun=1, mean_period_days=365.242)
+AngaType.SAMVATSARA = AngaType(name='SAMVATSARA', name_hk="saMvatsaraH", num_angas=64, weight_moon=None, weight_sun=None, mean_period_days=None)
+
 
 class Anga(common.JsonObject):
   def __init__(self, index, anga_type_id):

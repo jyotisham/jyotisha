@@ -61,6 +61,14 @@ def get_month_name_en(month_number, month_type, script=xsanscript.IAST):
   elif month_type == RulesRepo.GREGORIAN_MONTH_DIR:
     return month_map[month_number]
 
+
+def get_samvatsara_name(offset_from_1987, samvatsara_index_1987=1):
+  from jyotisha.panchaanga.temporal import Anga
+  from jyotisha.panchaanga.temporal import AngaType
+  samvatsara = offset_from_1987 + Anga(index=samvatsara_index_1987, anga_type_id=AngaType.SAMVATSARA)
+  return samvatsara.get_name()
+
+
 NAMES = init_names_auto()
 month_map = {1: "January", 2: "February", 3: "March", 4: "April",
              5: "May", 6: "June", 7: "July", 8: "August", 9: "September",
