@@ -13,8 +13,8 @@ def make_md(panchaanga, scripts=None, languages=None):
   if languages is None:
     languages = ["sa"]
   output_stream = StringIO()
-  print('### Computation parameters\n- 🌏**%s** (%s)\n\n%s' % (
-    translate_or_transliterate('क्षेत्रम्', scripts[0], source_script=sanscript.DEVANAGARI), panchaanga.city.get_transliterated_name(script=scripts[0]), panchaanga.computation_system.to_md()),
+  computation_params = get_computation_parameters_md(panchaanga, scripts)
+  print(computation_params,
         file=output_stream)
 
   daily_panchaangas = panchaanga.daily_panchaangas_sorted()
@@ -33,4 +33,11 @@ def make_md(panchaanga, scripts=None, languages=None):
     if festival_md != "":
       print("#### %s\n%s" % (names.translate_or_transliterate(text="utsavAH", script=scripts[0]), festival_md), file=output_stream)
   return output_stream.getvalue()
+
+
+def get_computation_parameters_md(panchaanga, scripts):
+  computation_params = '### Computation parameters\n- 🌏**%s** (%s)\n\n%s' % (
+    translate_or_transliterate('क्षेत्रम्', scripts[0], source_script=sanscript.DEVANAGARI),
+    panchaanga.city.get_transliterated_name(script=scripts[0]), panchaanga.computation_system.to_md())
+  return computation_params
 

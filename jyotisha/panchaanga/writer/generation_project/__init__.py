@@ -9,10 +9,12 @@ import toml
 from doc_curation.md_helper import MdFile
 
 import jyotisha
+from indic_transliteration import xsanscript
 from jyotisha.panchaanga.spatio_temporal import annual
 from jyotisha.panchaanga.temporal import ComputationSystem
 from jyotisha.panchaanga.temporal.festival.rules import RulesRepo
 from jyotisha.panchaanga.writer import ics, md
+from jyotisha.panchaanga.writer.md import get_computation_parameters_md
 from jyotisha.panchaanga.writer.table.day_details import to_table_dict
 
 output_dir = os.path.join(os.path.dirname(os.path.dirname(jyotisha.__file__)), "hugo-source", "content", "output")
@@ -53,7 +55,7 @@ def dump_kauNDinyAyana(year, city, year_type):
   dump_ics_md_pair(panchaanga=panchaanga, period_str="%s/%04d" % (year_type, year))
 
 
-def dump_history(year, city):
+def dump_history(year, city, script=xsanscript.DEVANAGARI):
   year_type = RulesRepo.ERA_GREGORIAN
   computation_system = ComputationSystem.MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_180
   panchaanga = annual.get_panchaanga_for_year(city=city, year=year, computation_system=computation_system, year_type=year_type, allow_precomputed=False)
@@ -64,10 +66,10 @@ def dump_history(year, city):
     toml.dump(year_table, fp)
   MdFile.fix_index_files(dir_path=output_dir, transliteration_target=None, dry_run=False)
 
-  out_path_md = out_path.replace(".toml", ".md")
-  md = """## Table
-  <div class="spreadsheet" src="../%s.toml" fullHeightWithRowsPerScreen=8> </div>  
-  
-  """ % str(year)
+  computation_params = get_computation_parameters_md(panchaanga=panchaanga, scripts=[script])
+  out_path_md = out_path.replace(".toml", "_summary.md")
+  md = """##Intro\n%s\n\n## Table
+  <div class="spreadsheet" src="../%s.toml" fullHeightWithRowsPerScreen=8> </div>""" % (computation_params, 
+    str(year))
   md_file = MdFile(file_path=out_path_md)
   md_file.dump_to_file(metadata={"title": str(year)}, md=md, dry_run=False)
