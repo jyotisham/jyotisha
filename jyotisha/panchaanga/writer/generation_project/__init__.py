@@ -23,6 +23,7 @@ output_dir = os.path.join(os.path.dirname(os.path.dirname(jyotisha.__file__)), "
 def dump_ics_md_pair(panchaanga, period_str):
   ics_calendar = ics.compute_calendar(panchaanga)
   (year_type, year) = period_str.split("/")
+  year = int(year)
   out_path = get_canonical_path(city=panchaanga.city.name, computation_system_str=str(panchaanga.computation_system), year=year, year_type=year_type)
   output_file_ics = os.path.join(out_path, '%04d.ics' % year)
   ics.write_to_file(ics_calendar, output_file_ics)
