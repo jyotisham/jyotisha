@@ -23,7 +23,7 @@ output_dir = os.path.join(os.path.dirname(os.path.dirname(jyotisha.__file__)), "
 def dump_ics_md_pair(panchaanga, period_str):
   ics_calendar = ics.compute_calendar(panchaanga)
   (year_type, year) = period_str.split("/")
-  out_path = get_canonical_path(city=panchaanga.city, computation_system_str=str(panchaanga.computation_system), year=year, year_type=year_type)
+  out_path = get_canonical_path(city=panchaanga.city.name, computation_system_str=str(panchaanga.computation_system), year=year, year_type=year_type)
   output_file_ics = os.path.join(out_path, '%04d.ics' % year)
   ics.write_to_file(ics_calendar, output_file_ics)
 
@@ -62,7 +62,7 @@ def dump_summary(year, city, script=xsanscript.DEVANAGARI):
   computation_system = ComputationSystem.MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_180
   panchaanga = annual.get_panchaanga_for_year(city=city, year=year, computation_system=computation_system, year_type=year_type, allow_precomputed=False)
   year_table = to_table_dict(panchaanga=panchaanga )
-  out_path = get_canonical_path(city=panchaanga.city, computation_system_str=str(panchaanga.computation_system), year=year, year_type=year_type)
+  out_path = get_canonical_path(city=panchaanga.city.name, computation_system_str=str(panchaanga.computation_system), year=year, year_type=year_type)
   os.makedirs(os.path.dirname(out_path), exist_ok=True)
   with codecs.open(out_path, "w") as fp:
     toml.dump(year_table, fp)

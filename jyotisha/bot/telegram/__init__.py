@@ -17,7 +17,7 @@ def send_panchaanga(channel_id, token, computation_system_str, md_url_base, html
   day_path = "%s/%04d_monthly/%04d-%02d/%04d-%02d-%02d" % (out_path_md, today.year, today.month, today.year, today.month, today.day)
   md_url = "%s/%s.md" % (md_url_base, day_path)
 
-  out_path_html = get_canonical_path(city=bengaLUru, computation_system_str=computation_system_str, year=today.year, year_type=RulesRepo.ERA_GREGORIAN, output_dir=html_url_base)
+  out_path_html = get_canonical_path(city="", computation_system_str=computation_system_str, year=today.year, year_type=RulesRepo.ERA_GREGORIAN, output_dir=html_url_base)
   html_url = "%s/%s/" % (out_path_html, day_path)
   logging.info("md_url: %s" % md_url)
   logging.info("html_url: %s" % html_url)
