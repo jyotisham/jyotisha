@@ -27,6 +27,9 @@ jobs:
         with:
           submodules: 'recursive'
           fetch-depth: 1 # Because of this, you will fail to push refs to dest repo
+      # Ideally we should not do the below. Changes in a remote repo might break our tests. 
+#      - name: Submodules - pull latest
+#        run: git pull origin master --recurse-submodules
       - name: Set up Python ${{ matrix.python-version }}
         uses: actions/setup-python@v1
         with:
