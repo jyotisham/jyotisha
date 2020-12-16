@@ -5,7 +5,8 @@ from jyotisha.panchaanga.writer.generation_project import dump_summary
 def dump_mysore_history():
   maisUru = City.get_city_from_db(name="Mysore")
   # dump_summary(year=1797, city=maisUru)
-  for year in range(1750, 1950):
+  # for year in range(1750, 1950):
+  for year in range(1730, 1770):
     dump_summary(year=year, city=maisUru)
 
 
@@ -15,11 +16,13 @@ def dump_pune_history():
   for year in range(1625, 1850):
     dump_summary(year=year, city=city)
 
+
 def dump_hampi_history():
   city = City.get_city_from_db(name="Hampi")
   # dump_summary(year=1797, city=maisUru)
   for year in range(1300, 1625):
     dump_summary(year=year, city=city)
+
 
 def dump_bengaluru_history():
   city = City.get_city_from_db(name="sahakAra nagar, bengaLUru")
@@ -29,4 +32,4 @@ def dump_bengaluru_history():
 
 
 if __name__ == '__main__':
-  dump_bengaluru_history()
+  dump_mysore_history()

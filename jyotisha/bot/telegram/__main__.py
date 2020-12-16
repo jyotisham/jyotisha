@@ -5,6 +5,7 @@ from jyotisha.bot.telegram import send_panchaanga
 parser = argparse.ArgumentParser(description='Telgram bot.')
 parser.add_argument('--channel_id', type=str, nargs='?')
 parser.add_argument('--token', type=str, nargs='?')
+parser.add_argument('--computation_system_str', type=str, nargs='?')
 parser.add_argument('--md_url_base', type=str, nargs='?')
 parser.add_argument('--html_url_base', type=str, nargs='?')
 args = parser.parse_args()

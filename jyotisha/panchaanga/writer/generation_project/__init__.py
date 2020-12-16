@@ -22,13 +22,15 @@ output_dir = os.path.join(os.path.dirname(os.path.dirname(jyotisha.__file__)), "
 
 def dump_ics_md_pair(panchaanga, period_str):
   ics_calendar = ics.compute_calendar(panchaanga)
-  output_file_ics = os.path.join(output_dir, panchaanga.city.name, str(panchaanga.computation_system), '%s.ics' % period_str)
+  (year_type, year) = period_str.split("/")
+  out_path = get_canonical_path(city=panchaanga.city, computation_system_str=str(panchaanga.computation_system), year=year, year_type=year_type)
+  output_file_ics = os.path.join(out_path, '%04d.ics' % year)
   ics.write_to_file(ics_calendar, output_file_ics)
 
   md_file = MdFile(file_path=output_file_ics.replace(".ics", ".md"), frontmatter_type=MdFile.YAML)
   intro = "## 00 Intro\n### Related files\n- [ics](../%s)\n" % str(os.path.basename(output_file_ics))
   md_content = "%s\n%s" % (intro, md.make_md(panchaanga=panchaanga))
-  md_file.dump_to_file(metadata={"title": period_str.split("/")[-1]}, md=md_content, dry_run=False)
+  md_file.dump_to_file(metadata={"title": year}, md=md_content, dry_run=False)
 
   monthly_file_path = md_file.file_path.replace(".md", "_monthly.md")
   monthly_dir = monthly_file_path.replace(".md", "/")
@@ -60,7 +62,7 @@ def dump_summary(year, city, script=xsanscript.DEVANAGARI):
   computation_system = ComputationSystem.MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_180
   panchaanga = annual.get_panchaanga_for_year(city=city, year=year, computation_system=computation_system, year_type=year_type, allow_precomputed=False)
   year_table = to_table_dict(panchaanga=panchaanga )
-  out_path = os.path.join(output_dir, panchaanga.city.name, str(panchaanga.computation_system), year_type, '%s00s/%s0s/%s.toml' % (str(year)[:2], str(year)[:3], str(year)))
+  out_path = get_canonical_path(city=panchaanga.city, computation_system_str=str(panchaanga.computation_system), year=year, year_type=year_type)
   os.makedirs(os.path.dirname(out_path), exist_ok=True)
   with codecs.open(out_path, "w") as fp:
     toml.dump(year_table, fp)
@@ -73,3 +75,9 @@ def dump_summary(year, city, script=xsanscript.DEVANAGARI):
     str(year))
   md_file = MdFile(file_path=out_path_md)
   md_file.dump_to_file(metadata={"title": "%d Summary" % (year)}, md=md, dry_run=False)
+
+
+def get_canonical_path(city, computation_system_str, year, year_type=RulesRepo.ERA_GREGORIAN, output_dir=output_dir):
+  out_path = os.path.join(output_dir, city, computation_system_str, year_type,
+                          '%02d00s/%03d0s/%s.toml' % (int(year / 100), int(year / 10), str(year)))
+  return out_path

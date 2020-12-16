@@ -16,7 +16,8 @@ def to_table_dict(panchaanga, script=xsanscript.DEVANAGARI):
     day_dict["gregorian"] = daily_panchaanga.date.get_date_str()
     day_dict["islamic"] = daily_panchaanga.date.to_islamic_date().get_date_str()
     day_dict["islamic_month"] = daily_panchaanga.get_month_str(month_type=RulesRepo.ISLAMIC_MONTH_DIR, script=script)
-    day_dict["julian"] = daily_panchaanga.date.to_juluan_date().get_date_str()
+    if not panchaanga.start_date.year > 1800:
+      day_dict["julian"] = daily_panchaanga.date.to_juluan_date().get_date_str()
     day_dict["Indian_civil"] = daily_panchaanga.date.to_indian_civil_date().get_date_str()
     day_dict["lunar"] = daily_panchaanga.get_date(month_type=RulesRepo.LUNAR_MONTH_DIR).get_date_str()
     day_dict["lunar_month"] = daily_panchaanga.get_month_str(month_type=RulesRepo.LUNAR_MONTH_DIR, script=script)

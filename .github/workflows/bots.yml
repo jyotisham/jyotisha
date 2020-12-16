@@ -48,5 +48,5 @@ jobs:
       env:
         TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
       run: |
-        python -m "jyotisha.bot.telegram" --token "$TELEGRAM_BOT_TOKEN" --channel_id 1001205695765 --md_url_base "https://raw.githubusercontent.com/jyotisham/jyotisha/generated-output/sahakAra%20nagar%2C%20bengaLUru/SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_AT_180" --html_url_base "https://jyotisham.github.io/jyotisha/output/sahakAra-nagar-bengaLUru/SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_AT_180"
+        python -m "jyotisha.bot.telegram" --token "$TELEGRAM_BOT_TOKEN" --channel_id 1001205695765 --md_url_base "https://raw.githubusercontent.com/jyotisham/jyotisha/generated-output/sahakAra%20nagar%2C%20bengaLUru/" --html_url_base "https://jyotisham.github.io/jyotisha/output/sahakAra-nagar-bengaLUru/" --computation_system_str SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_AT_180
         python -m "jyotisha.bot.telegram" --token "$TELEGRAM_BOT_TOKEN" --channel_id 1001205695765 --md_url_base "https://raw.githubusercontent.com/jyotisham/jyotisha/generated-output/sahakAra%20nagar%2C%20bengaLUru/MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_AT_180" --html_url_base "https://jyotisham.github.io/jyotisha/output/sahakAra-nagar-bengaLUru/MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_AT_180"
