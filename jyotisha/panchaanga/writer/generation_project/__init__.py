@@ -42,6 +42,8 @@ def dump_ics_md_pair(panchaanga, period_str):
   monthly_md_file.split_to_bits(source_script=None, dry_run=False, indexed_title_pattern=None)
   MdFile.apply_function(fn=MdFile.split_to_bits, dir_path=monthly_dir, frontmatter_type=MdFile.TOML, source_script=None, dry_run=False, indexed_title_pattern=None)
 
+  MdFile.fix_index_files(dir_path=output_dir, transliteration_target=None, dry_run=False)
+
 
 def dump_common(year, city, year_type):
   computation_system = ComputationSystem.MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_180
