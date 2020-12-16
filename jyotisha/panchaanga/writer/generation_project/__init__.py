@@ -70,7 +70,7 @@ def dump_summary(year, city, script=xsanscript.DEVANAGARI):
   MdFile.fix_index_files(dir_path=output_dir, transliteration_target=None, dry_run=False)
 
   computation_params = get_computation_parameters_md(panchaanga=panchaanga, scripts=[script])
-  out_path_md = out_path.replace(".toml", "_summary.md")
+  out_path_md = out_path + "_summary.md"
   md = """##Intro\n%s\n\n## Table
   <div class="spreadsheet" src="../%s.toml" fullHeightWithRowsPerScreen=8> </div>""" % (computation_params, 
     str(year))
