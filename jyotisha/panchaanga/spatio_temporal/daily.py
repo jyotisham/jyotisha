@@ -11,6 +11,7 @@ from jyotisha.panchaanga.spatio_temporal import City
 from jyotisha.panchaanga.temporal import time, ComputationSystem, set_constants, names
 from jyotisha.panchaanga.temporal import zodiac
 from jyotisha.panchaanga.temporal.body import Graha
+from jyotisha.panchaanga.temporal.festival.rules import RulesRepo
 from jyotisha.panchaanga.temporal.interval import DayLengthBasedPeriods, Interval
 from jyotisha.panchaanga.temporal.month import LunarMonthAssigner
 from jyotisha.panchaanga.temporal.names import translate_or_transliterate
@@ -168,6 +169,9 @@ class DailyPanchaanga(common.JsonObject):
   def __repr__(self):
     return "%s %s" % (repr(self.date), repr(self.city))
 
+  def __hash__(self):
+    return repr(self)
+
   def __lt__(self, other):
     return self.date.get_date_str() < self.date.get_date_str()
 
@@ -306,7 +310,6 @@ class DailyPanchaanga(common.JsonObject):
         self.lunar_month_sunrise = month_assigner.get_month_sunrise(daily_panchaanga=self)
 
   def get_date(self, month_type):
-    from jyotisha.panchaanga.temporal.festival.rules import RulesRepo
     if month_type == RulesRepo.SIDEREAL_SOLAR_MONTH_DIR:
       return self.solar_sidereal_date_sunset
     elif month_type == RulesRepo.LUNAR_MONTH_DIR:
@@ -316,6 +319,20 @@ class DailyPanchaanga(common.JsonObject):
       return self.tropical_date_sunset
     elif month_type == RulesRepo.GREGORIAN_MONTH_DIR:
       return self.date
+
+  def get_month_str(self, month_type, script):
+    if month_type == RulesRepo.SIDEREAL_SOLAR_MONTH_DIR:
+      return names.NAMES['RASHI_NAMES']['sa'][script][self.solar_sidereal_date_sunset.month]
+    elif month_type == RulesRepo.LUNAR_MONTH_DIR:
+      return names.get_chandra_masa(month=self.lunar_month_sunrise.index, script=script)
+    elif month_type == RulesRepo.TROPICAL_MONTH_DIR:
+      return names.NAMES['RTU_MASA_NAMES_SHORT']['sa'][script][self.tropical_date_sunset.month]
+    elif month_type == RulesRepo.ISLAMIC_MONTH_DIR:
+      islamic_date = self.date.to_islamic_date()
+      return names.NAMES["ARAB_MONTH_NAMES"]["ar"][islamic_date.month-1]
+    elif month_type == RulesRepo.GREGORIAN_MONTH_DIR:
+      return names.month_map[self.date.month]
+    
 
   def get_samvatsara_offset_1987(self, month_type):
     # The below is a crude variable name: sidereal lunar month could be only approximately equinox-referrent. 

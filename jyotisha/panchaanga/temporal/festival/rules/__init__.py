@@ -252,6 +252,7 @@ class RulesRepo(common.JsonObject):
   SIDEREAL_SOLAR_MONTH_DIR = "sidereal_solar_month"
   TROPICAL_MONTH_DIR = "tropical"
   GREGORIAN_MONTH_DIR = "gregorian"
+  ISLAMIC_MONTH_DIR = "islamic"
   JULIAN_MONTH_DIR = "julian"
   RELATIVE_EVENT_DIR = "relative_event"
   ERA_GREGORIAN = "gregorian"

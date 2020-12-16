@@ -91,8 +91,12 @@ class Panchaanga(common.JsonObject):
       self.date_str_to_panchaanga[date_d.get_date_str()] = daily_panchaanga
 
   @methodtools.lru_cache(maxsize=10)
-  def daily_panchaangas_sorted(self):
-    return sorted(self.date_str_to_panchaanga.values())
+  def daily_panchaangas_sorted(self, skip_padding_days=False):
+    if not skip_padding_days:
+      return sorted(self.date_str_to_panchaanga.values())
+    else:
+      full_list = sorted(self.date_str_to_panchaanga.values())
+      return [x for x in full_list if self.start_date <= x.date and x.date <= self.end_date]
 
   def daily_panchaanga_for_jd(self, jd):
     date = self.city.timezone.julian_day_to_local_time(julian_day=jd)

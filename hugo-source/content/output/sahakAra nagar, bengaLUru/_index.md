@@ -1,6 +1,5 @@
----
-title: "+bengaLUru - snagar"
----
++++
+title = "+sahakAra nagar, bengaLUru"
 
++++
 Welcome!
-

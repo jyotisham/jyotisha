@@ -6,11 +6,11 @@ from io import StringIO
 from math import ceil
 
 from indic_transliteration import xsanscript as sanscript
-from jyotisha.panchaanga.temporal import names, interval
-from jyotisha.panchaanga.temporal.names import translate_or_transliterate
 from jyotisha.panchaanga.temporal import AngaType
+from jyotisha.panchaanga.temporal import names, interval
 from jyotisha.panchaanga.temporal.festival import rules
 from jyotisha.panchaanga.temporal.festival.rules import RulesRepo
+from jyotisha.panchaanga.temporal.names import translate_or_transliterate
 from jyotisha.panchaanga.temporal.time import Hour
 
 logging.basicConfig(
@@ -21,14 +21,12 @@ logging.basicConfig(
 
 def day_summary(d, panchaanga, script, subsection_md):
   daily_panchaanga = panchaanga.daily_panchaangas_sorted()[d]
-  lunar_month_str = names.get_chandra_masa(month=daily_panchaanga.lunar_month_sunrise.index, script=script)
-  solar_month_str = names.NAMES['RASHI_NAMES']['sa'][script][daily_panchaanga.solar_sidereal_date_sunset.month]
-  tropical_month_str = names.NAMES['RTU_MASA_NAMES_SHORT']['sa'][script][daily_panchaanga.tropical_date_sunset.month]
   lunar_position = "%s-%s" % (names.NAMES['RASHI_NAMES']['sa'][script][daily_panchaanga.sunrise_day_angas.raashis_with_ends[0].anga.index], names.NAMES['NAKSHATRA_NAMES']['sa'][script][daily_panchaanga.sunrise_day_angas.nakshatras_with_ends[0].anga.index])
-  solar_position = "%s-%s" % (solar_month_str, names.NAMES['NAKSHATRA_NAMES']['sa'][script][daily_panchaanga.sunrise_day_angas.solar_nakshatras_with_ends[0].anga.index])
+  solar_position = "%s-%s" % (daily_panchaanga.get_month_str(month_type=RulesRepo.SIDEREAL_SOLAR_MONTH_DIR, script=script), names.NAMES['NAKSHATRA_NAMES']['sa'][script][daily_panchaanga.sunrise_day_angas.solar_nakshatras_with_ends[0].anga.index])
+  lunar_month_str = daily_panchaanga.get_month_str(month_type=RulesRepo.LUNAR_MONTH_DIR, script=script)
   title = '%s-%s,%s🌛🌌◢◣%s-%s🌌🌞◢◣%s-%s🪐🌞' % (
     lunar_month_str, str(daily_panchaanga.get_date(month_type=RulesRepo.LUNAR_MONTH_DIR)), lunar_position,
-    solar_position, str(daily_panchaanga.solar_sidereal_date_sunset), tropical_month_str,
+    solar_position, str(daily_panchaanga.solar_sidereal_date_sunset), daily_panchaanga.get_month_str(month_type=RulesRepo.TROPICAL_MONTH_DIR, script=script),
     str(daily_panchaanga.tropical_date_sunset))
 
   output_stream = StringIO()
@@ -201,6 +199,8 @@ def get_festivals_md(daily_panchaanga, panchaanga, languages, scripts, subsectio
     repos_tuple=tuple(panchaanga.computation_system.festival_options.repos), julian_handling=panchaanga.computation_system.festival_options.julian_handling)
   fest_details_dict = rules_collection.name_to_rule
   output_stream = StringIO()
+  fest_summary = ", ".join([x.get_full_title(fest_details_dict=rules_collection.name_to_rule, languages=languages, scripts=scripts) for x in daily_panchaanga.festival_id_to_instance.values()])
+  print("- %s" % fest_summary, file=output_stream)
   for f in sorted(daily_panchaanga.festival_id_to_instance.values()):
     print('%s' % (f.md_code(languages=languages, scripts=scripts, timezone=panchaanga.city.get_timezone_obj(),
                 fest_details_dict=fest_details_dict, header_md=subsection_md)), file=output_stream)

@@ -106,10 +106,7 @@ class BasicDate(JsonObject):
     self.day = int(day)
 
   def __repr__(self):
-    if self.year is None:
-      return "%02d-%02d" % (self.month, self.day) 
-    else:
-      return "%04d-%02d-%02d" % (self.year, self.month, self.day)
+    return self.get_date_str()
 
   def __lt__(self, other):
     return str(self) < str(other)
@@ -119,6 +116,12 @@ class BasicDate(JsonObject):
 
   def __eq__(self, other):
     return str(self) == str(other)
+
+  def get_date_str(self):
+    if self.year is None:
+      return "%02d-%02d" % (self.month, self.day)
+    else:
+      return "%04d-%02d-%02d" % (self.year, self.month, self.day)
 
 
 class BasicDateWithTransitions(BasicDate):
@@ -160,6 +163,15 @@ class Date(BasicDate):
 
   def __eq__(self, other):
     return self.to_datetime() == other.to_datetime()
+
+  def __le__(self, other):
+    return self.__lt__(other) or self.__eq__(other)
+
+  def __gt__(self, other):
+    return self.to_datetime() > other.to_datetime()
+
+  def __ge__(self, other):
+    return self.__gt__(other) or self.__eq__(other)
 
   def __add__(self, other):
     if isinstance(other, Number):
@@ -251,9 +263,6 @@ class Date(BasicDate):
 
   def __hash__(self):
     return hash(repr(self))
-
-  def get_date_str(self):
-    return super(Date, self).__repr__()
 
   def get_hour_str(self, format='hh:mm', rounding=False, reference_date=None):
     hour = self.get_fractional_hour()

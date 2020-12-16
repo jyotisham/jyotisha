@@ -1,6 +1,5 @@
----
-title: "+Gregorian"
----
++++
+title = "+gregorian"
 
++++
 Welcome!
-
