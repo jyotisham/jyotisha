@@ -25,7 +25,7 @@ def dump_ics_md_pair(panchaanga, period_str):
   (year_type, year) = period_str.split("/")
   year = int(year)
   out_path = get_canonical_path(city=panchaanga.city.name, computation_system_str=str(panchaanga.computation_system), year=year, year_type=year_type)
-  output_file_ics = os.path.join(out_path, '%04d.ics' % year)
+  output_file_ics = os.path.join(out_path + ".ics")
   ics.write_to_file(ics_calendar, output_file_ics)
 
   md_file = MdFile(file_path=output_file_ics.replace(".ics", ".md"), frontmatter_type=MdFile.YAML)
@@ -65,7 +65,7 @@ def dump_summary(year, city, script=xsanscript.DEVANAGARI):
   year_table = to_table_dict(panchaanga=panchaanga )
   out_path = get_canonical_path(city=panchaanga.city.name, computation_system_str=str(panchaanga.computation_system), year=year, year_type=year_type)
   os.makedirs(os.path.dirname(out_path), exist_ok=True)
-  with codecs.open(out_path, "w") as fp:
+  with codecs.open(out_path + ".toml", "w") as fp:
     toml.dump(year_table, fp)
   MdFile.fix_index_files(dir_path=output_dir, transliteration_target=None, dry_run=False)
 
@@ -80,5 +80,5 @@ def dump_summary(year, city, script=xsanscript.DEVANAGARI):
 
 def get_canonical_path(city, computation_system_str, year, year_type=RulesRepo.ERA_GREGORIAN, output_dir=output_dir):
   out_path = os.path.join(output_dir, city, computation_system_str, year_type,
-                          '%02d00s/%03d0s/%s.toml' % (int(year / 100), int(year / 10), str(year)))
+                          '%02d00s/%03d0s/%04d' % (int(year / 100), int(year / 10), year))
   return out_path
