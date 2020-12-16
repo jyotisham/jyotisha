@@ -1,6 +1,5 @@
----
-title: "+Calendar outputs"
----
++++
+title = "+output"
 
++++
 Welcome!
-
