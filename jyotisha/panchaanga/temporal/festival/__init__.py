@@ -114,10 +114,7 @@ class TransitionFestivalInstance(FestivalInstance):
 
   def tex_code(self, languages, scripts, timezone, fest_details_dict, reference_date=None):
     name_details = self.get_best_transliterated_name(languages=languages, scripts=scripts, fest_details_dict=fest_details_dict)
-    if name_details["script"] == sanscript.TAMIL:
-      name = '\\tamil{%s}' % name_details["text"]
-    else:
-      name = name_details["text"]
+    name = name_details["text"]
     return custom_transliteration.tr("%s~(%s##\\To{}##%s)" % (name, self.status_1_hk, self.status_2_hk), script=scripts[0])
 
 
