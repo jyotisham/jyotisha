@@ -55,7 +55,7 @@ def dump_kauNDinyAyana(year, city, year_type):
   dump_ics_md_pair(panchaanga=panchaanga, period_str="%s/%04d" % (year_type, year))
 
 
-def dump_history(year, city, script=xsanscript.DEVANAGARI):
+def dump_summary(year, city, script=xsanscript.DEVANAGARI):
   year_type = RulesRepo.ERA_GREGORIAN
   computation_system = ComputationSystem.MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_180
   panchaanga = annual.get_panchaanga_for_year(city=city, year=year, computation_system=computation_system, year_type=year_type, allow_precomputed=False)
@@ -72,4 +72,4 @@ def dump_history(year, city, script=xsanscript.DEVANAGARI):
   <div class="spreadsheet" src="../%s.toml" fullHeightWithRowsPerScreen=8> </div>""" % (computation_params, 
     str(year))
   md_file = MdFile(file_path=out_path_md)
-  md_file.dump_to_file(metadata={"title": str(year)}, md=md, dry_run=False)
+  md_file.dump_to_file(metadata={"title": "%d Summary" % (year)}, md=md, dry_run=False)

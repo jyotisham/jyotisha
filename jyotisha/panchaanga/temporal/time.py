@@ -202,6 +202,11 @@ class Date(BasicDate):
     date_tuple = indian_civil.from_gregorian(year=self.year, month=self.month, day=self.day)
     return Date(year=date_tuple[0], month=date_tuple[1], day=date_tuple[2])
 
+  def to_juluan_date(self):
+    from convertdate import julian
+    date_tuple = julian.from_gregorian(year=self.year, month=self.month, day=self.day)
+    return Date(year=date_tuple[0], month=date_tuple[1], day=date_tuple[2])
+
   def to_islamic_date(self):
     from convertdate import islamic
     date_tuple = islamic.from_gregorian(year=self.year, month=self.month, day=self.day)

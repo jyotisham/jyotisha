@@ -1824,7 +1824,8 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:badarī jyotirmaṭha-pratiṣṭhāpana-jayantī
+SUMMARY:badarī-jyotirmaṭha-pratiṣṭhāpana-dinam kāñcīmaṭhānus
+ āreṇa
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190120T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190121T235957
 DESCRIPTION:Observed on Paurṇamāsī tithi of Pauṣaḥ (lunar) month (
@@ -1925,7 +1926,8 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:śṛṅgerī śāradāmaṭha-pratiṣṭhāpana-jayantī
+SUMMARY:śṛṅgerī-śāradāmaṭha-pratiṣṭhāpana-dinam kāñcīma
+ ṭhānusāreṇa
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190120T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190121T235957
 DESCRIPTION:Observed on Paurṇamāsī tithi of Pauṣaḥ (lunar) month (
@@ -3820,7 +3822,8 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:dvārakā-maṭha-pratiṣṭhāpana-jayantī
+SUMMARY:dvārakā-maṭha-pratiṣṭhāpana-dinam kāñcīmaṭhānusāre
+ ṇa
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190211T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190212T235957
 DESCRIPTION:Observed on Śukla-Saptamī tithi of Māghaḥ (lunar) month (
@@ -12860,7 +12863,8 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:purī govardhana-maṭha-pratiṣṭhāpana-jayantī
+SUMMARY:purī-govardhana-maṭha-pratiṣṭhāpana-dinam kāñcīmaṭhā
+ nusāreṇa
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190512T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190513T235957
 DESCRIPTION:Observed on Śukla-Navamī tithi of Vaiśākhaḥ (lunar) mont
