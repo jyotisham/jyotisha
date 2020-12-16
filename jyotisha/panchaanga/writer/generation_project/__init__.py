@@ -65,4 +65,9 @@ def dump_history(year, city):
   MdFile.fix_index_files(dir_path=output_dir, transliteration_target=None, dry_run=False)
 
   out_path_md = out_path.replace(".toml", ".md")
+  md = """## Table
+  <div class="spreadsheet" src="../%s.toml" fullHeightWithRowsPerScreen=8> </div>  
   
+  """ % str(year)
+  md_file = MdFile(file_path=out_path_md)
+  md_file.dump_to_file(metadata={"title": str(year)}, md=md, dry_run=False)
