@@ -282,6 +282,23 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:bhopāla-yuddham
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190103T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190104T235957
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/01/04/bhopA
+ l-yuddham.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/x
+ atra-later/gregorian/day/01/04/bhopAl-yuddham.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:māsaśivarātriḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190103T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190104T235957
@@ -3984,6 +4001,27 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:umberakhiṇḍa-yuddham
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190211T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190212T235957
+DESCRIPTION:Observed on day 12 of February (gregorian) month. Julian date 
+ was converted to Gregorian in this reckoning. The event has been commemora
+ ted since it occurred in 1661 (gregorian era).  <br/>shivAjI with his 3000
+  men ambushes and defeats 30k Mughals led by kartalab khan and Rai Bagan (
+ sAvitrIbAI\, royal tigress). After an hour or two\,  kartalab khan surrend
+ ered and was ransomed off as adviced by sAvitrIbAI (who praised and knew s
+ hivAjI's nature).<br/><br/>## Details<br/>- [Edit config file](https://git
+ hub.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/
+ day/02/12/umberkhiND-yuddham.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Māghaḥ-11-08\,Vṛṣabhaḥ-Kṛttikā🌛🌌◢◣Kumbhaḥ-
  Śraviṣṭhā-11-01🌌🌞◢◣Tapaḥ-11-25🪐🌞
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190213T063557
@@ -6584,6 +6622,23 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:pālkheḍ-yuddham
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190309T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190310T235957
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/03/10/pAlkh
+ eD-yuddham.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit co
+ nfig file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/
+ xatra-later/gregorian/day/03/10/pAlkheD-yuddham.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:pūntānaṃ-jayantī
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190309T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190310T235957
@@ -6593,6 +6648,26 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  ><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/ady
  atithi/tree/master/mahApuruSha/general/sidereal_solar_month/nakshatra/11/0
  1/pUntAnaM~jayantI.toml)<br/>- Tags: MahapurushaEvents
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:vāsāyi-yuddha-samāptiḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190309T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190310T235957
+DESCRIPTION:Observed on day 10 of March (gregorian) month. Julian date was
+  converted to Gregorian in this reckoning. The event has been commemorated
+  since it occurred in 1728 (gregorian era).  <br/>Chimaji Appa ground down
+  the Portuguese\, systematically mined\, blasted and won vasAi/ bessein (l
+ ong suffering Christian inquisition barbarisms).<br/><br/>## Details<br/>-
+  [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/mah
+ ApuruSha/xatra-later/gregorian/day/03/10/vAsAy-yuddha-samAptiH.toml)<br/>-
+  Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17246,6 +17321,23 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:purandarasandhiḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190620T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190621T235957
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/06/21/puran
+ dhara-sandhiH.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit
+  config file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruS
+ ha/xatra-later/gregorian/day/06/21/purandhara-sandhiH.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:vaidhṛti-śrāddham
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190620T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190621T235957
@@ -23271,6 +23363,24 @@ DESCRIPTION:- Indian civil date: 1941-05-29\, Islamic: 1440-12-18 Ḏū al
  \; **Gulikakālaḥ**—12:12-13:45  \n___________________\n- **Śūlam**
  —Udīchī Dik (►10:57)\; **Parihāraḥ**–Kṣīram  \n_____________
  ______\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:rākṣasabhuvana-yuddham
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190819T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190820T235957
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/08/20/rAxas
+ a-bhuvana-yuddham.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [
+ Edit config file](https://github.com/jyotisham/adyatithi/tree/master/mahAp
+ uruSha/xatra-later/gregorian/day/08/20/rAxasa-bhuvana-yuddham.toml)<br/>- 
+ Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -33598,11 +33708,11 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191118T235957
 DESCRIPTION:Observed on day 18 of November (gregorian) month. The event ha
  s been commemorated since it occurred in 1772 (gregorian era).  <br/>The y
  oung but bold and astute visionary\, peshvA mAdhava rAv\, died of tubercul
- osis at his favourite Ganesha Chintamani Temple\, Theur.  "And the plains 
- of Panipat were not more fatal to the Maratha Empire than the early end of
-  this excellent prince…"<br/><br/>## Details<br/>- [Edit config file](ht
- tps://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/g
- regorian/day/11/18/mAdhava-rAva-kSayaH.toml)<br/>- Tags:
+ osis at his favourite Ganesha Chintamani Temple\, Theur. Aged 28.  "And th
+ e plains of Panipat were not more fatal to the Maratha Empire than the ear
+ ly end of this excellent prince…"<br/><br/>## Details<br/>- [Edit config
+  file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatr
+ a-later/gregorian/day/11/18/mAdhava-rAva-kSayaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -33967,6 +34077,27 @@ SUMMARY:ūrja-māsaḥ/śaradṛtuḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191121T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191122T202850
 DESCRIPTION:
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:rāṣṭrāya mādhavarāvakṛtam ātmasamarpaṇam
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191121T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191122T235957
+DESCRIPTION:Observed on day 22 of November (gregorian) month. Julian date 
+ was converted to Gregorian in this reckoning. The event has been commemora
+ ted since it occurred in 1662 (gregorian era).  <br/>raghunAtharAv joined 
+ the Nizam of Hyderabad. mAdhavarAv at Alegaon saw the disaster that would 
+ unfold due to intra-marATha war of that scale shortly after pAnIpat. In an
+  extremly humble and farsighted gesture\, he rode into rAghoba's camp and 
+ surrendered.<br/><br/>## Details<br/>- [Edit config file](https://github.c
+ om/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/1
+ 1/22/mAdhavarAva-kRta-raghunAtha-sAntvanam.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -36380,11 +36511,11 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191215T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191216T235957
 DESCRIPTION:Observed on day 16 of December (gregorian) month. The event ha
  s been commemorated since it occurred in 1971 (gregorian era).  <br/>Genoc
- idal Pakistan Islamic Republic army (93\,000 soldiers in the eastern comma
- nd) surrendered to Indian forces at DhAka.<br/><br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/mahA
- puruSha/xatra-later/gregorian/day/12/16/pAkistAna-pUrva-paxa-kartanam.toml
- )<br/>- Tags:
+ idal Pakistan Islamic Republic army (93\,000 - mostly eastern command sold
+ iers) surrendered to Indian forces at DhAka.<br/><br/><br/>## Details<br/>
+ - [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/ma
+ hApuruSha/xatra-later/gregorian/day/12/16/pAkistAna-pUrva-paxa-kartanam.to
+ ml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -37386,6 +37517,27 @@ DESCRIPTION:- Indian civil date: 1941-10-07\, Islamic: 1441-05-01 Jumādā
  4:58\; **Gulikakālaḥ**—06:33-07:57  \n___________________\n- **Śūla
  m**—Prāchī Dik (►09:32)\; **Parihāraḥ**–Dadhi  \n______________
  _____\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:cimājī-deha-tyāgaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191227T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191228T235957
+DESCRIPTION:Observed on day 28 of December (gregorian) month. Julian date 
+ was converted to Gregorian in this reckoning. The event has been commemora
+ ted since it occurred in 1740 (gregorian era).  <br/>Chimaji Appa passed a
+ way at Pune on 17 Dec 1740\, leaving a young Nanasaheb Peshwa to face the 
+ challenges of the extraordinary epoch that was to follow. Chimaji's decisi
+ ve victories in Malwa\, Vasai and against the Siddi deserve to be remember
+ ed.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotis
+ ham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/12/28/chim
+ AjI-appa-death.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
