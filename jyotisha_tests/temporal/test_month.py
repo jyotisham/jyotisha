@@ -25,9 +25,9 @@ def test_MultiNewMoonAssigner():
 
 
 def test_SolsticePostDark10AdhikaAssigner():
-  # panchaanga = daily.DailyPanchaanga(
-  #   city=chennai, date=Date(2020, 12, 16), computation_system=ComputationSystem.SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_180)
-  # assert panchaanga.lunar_month_sunrise.index == 11
+  panchaanga = daily.DailyPanchaanga(
+    city=chennai, date=Date(2020, 12, 16), computation_system=ComputationSystem.SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_180)
+  assert panchaanga.lunar_month_sunrise.index == 11
 
   panchaanga = daily.DailyPanchaanga(
     city=chennai, date=Date(2020, 12, 15), computation_system=ComputationSystem.SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_180)

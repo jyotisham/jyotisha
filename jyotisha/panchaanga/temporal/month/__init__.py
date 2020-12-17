@@ -77,7 +77,8 @@ class SolsticePostDark10AdhikaAssigner(LunarMonthAssigner):
       return False
 
   @classmethod
-  def _month_from_previous_jd_month(cls, jd, prev_jd, prev_jd_month):
+  def _month_from_previous_jd_month_provisional(cls, jd, prev_jd, prev_jd_month):
+    """Deduce (provisional) month from a previous known day's month."""
     span_finder = AngaSpanFinder.get_cached(anga_type=AngaType.TITHI, ayanaamsha_id=Ayanamsha.ASHVINI_STARTING_0)
     tithi_1_jds = span_finder.get_spans_in_period(jd_start=prev_jd, jd_end=jd, target_anga_id=1)
     is_prev_month_adhika = str(prev_jd_month.index).endswith(".5")
@@ -89,18 +90,25 @@ class SolsticePostDark10AdhikaAssigner(LunarMonthAssigner):
 
   @classmethod
   def _get_solstice_lunar_month(cls, solstice_tropical_month_span):
+    """Get exact month for the solstice_tropical_month_span.jd_start.
+    
+    """
+    prev_solstice_tropical_month_span = zodiac.get_previous_solstice_month_span(jd=solstice_tropical_month_span.jd_start - 1)
     if not cls._is_tithi_post_dark10(jd=solstice_tropical_month_span.jd_start):
-      # TODO: There is a bug here. Marks 2020-12-21 as lunar month 10.
-      return solstice_tropical_month_span.anga 
+      if not cls._is_tithi_post_dark10(jd=prev_solstice_tropical_month_span.jd_start):
+        return solstice_tropical_month_span.anga
+      else:
+        prev_solstice_lunar_month = cls._get_solstice_lunar_month(solstice_tropical_month_span=prev_solstice_tropical_month_span)
+        lunar_month = cls._month_from_previous_jd_month_provisional(jd=solstice_tropical_month_span.jd_start, prev_jd=prev_solstice_tropical_month_span.jd_start, prev_jd_month=prev_solstice_lunar_month)
+        return lunar_month
     else:
-      prev_solstice_tropical_month_span = zodiac.get_previous_solstice_month_span(jd=solstice_tropical_month_span.jd_start - 1)
       # Was there an adhika maasa in the recent past?
       # If so, this month will not be one, even if post-dark10 solsticial. 
       if not cls._is_tithi_post_dark10(jd=prev_solstice_tropical_month_span.jd_start):
         return solstice_tropical_month_span.anga + 0.5
       else:
         prev_solstice_lunar_month = cls._get_solstice_lunar_month(solstice_tropical_month_span=prev_solstice_tropical_month_span)
-        lunar_month = cls._month_from_previous_jd_month(jd=solstice_tropical_month_span.jd_start, prev_jd=prev_solstice_tropical_month_span.jd_start, prev_jd_month=prev_solstice_lunar_month )
+        lunar_month = cls._month_from_previous_jd_month_provisional(jd=solstice_tropical_month_span.jd_start, prev_jd=prev_solstice_tropical_month_span.jd_start, prev_jd_month=prev_solstice_lunar_month)
         return lunar_month
 
   def get_month_sunrise(self, daily_panchaanga):
@@ -112,7 +120,7 @@ class SolsticePostDark10AdhikaAssigner(LunarMonthAssigner):
     solstice_lunar_month = SolsticePostDark10AdhikaAssigner._get_solstice_lunar_month(solstice_tropical_month_span=solstice_tropical_month_span)
     is_solstice_lunar_month_adhika = str(solstice_lunar_month.index).endswith(".5")
     if is_solstice_lunar_month_adhika:
-      lunar_month = self._month_from_previous_jd_month(jd=daily_panchaanga.jd_sunrise, prev_jd=solstice_tropical_month_span.jd_start, prev_jd_month=solstice_lunar_month )
+      lunar_month = self._month_from_previous_jd_month_provisional(jd=daily_panchaanga.jd_sunrise, prev_jd=solstice_tropical_month_span.jd_start, prev_jd_month=solstice_lunar_month)
       return lunar_month
     else:
       # At this point, we're sure that there was no previous postDark10 solstice.
@@ -128,7 +136,7 @@ class SolsticePostDark10AdhikaAssigner(LunarMonthAssigner):
           return solstice_lunar_month
 
       # The default case.
-      lunar_month = self._month_from_previous_jd_month(jd=daily_panchaanga.jd_sunrise, prev_jd=solstice_tropical_month_span.jd_start, prev_jd_month=solstice_lunar_month )
+      lunar_month = self._month_from_previous_jd_month_provisional(jd=daily_panchaanga.jd_sunrise, prev_jd=solstice_tropical_month_span.jd_start, prev_jd_month=solstice_lunar_month)
       return lunar_month
 
 

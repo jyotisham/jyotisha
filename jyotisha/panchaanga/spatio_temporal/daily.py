@@ -301,6 +301,8 @@ class DailyPanchaanga(common.JsonObject):
   def set_lunar_month_sunrise(self, month_assigner, previous_day_panchaanga=None):
     if previous_day_panchaanga is not None:
       span = previous_day_panchaanga.sunrise_day_angas.find_anga_span(Anga.get_cached(anga_type_id=AngaType.TITHI.name, index=1))
+
+      # If a prathamA tithi has started post-sunrise yesterday (and has potentially ended before today's sunrise), or if today we have a prathamA at sunrise
       if (span is not None and span.jd_start is not None) or self.sunrise_day_angas.tithi_at_sunrise.index == 1:
         self.lunar_month_sunrise = month_assigner.get_month_sunrise(daily_panchaanga=self)
       else:
