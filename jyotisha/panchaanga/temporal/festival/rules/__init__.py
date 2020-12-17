@@ -255,9 +255,6 @@ class RulesRepo(common.JsonObject):
   ISLAMIC_MONTH_DIR = "islamic"
   JULIAN_MONTH_DIR = "julian"
   RELATIVE_EVENT_DIR = "relative_event"
-  ERA_GREGORIAN = "gregorian"
-  ERA_KALI = "kali"
-  ERA_SHAKA = "shaka"
   DAY_DIR = "day"
   TITHI_DIR = "tithi"
   NAKSHATRA_DIR = "nakshatra"
@@ -310,7 +307,7 @@ class RulesCollection(common.JsonObject):
     for repo in self.repos:
       base_dir = repo.get_path()
       rules_map = get_festival_rules_map(
-        os.path.join(DATA_ROOT, repo.get_path(), julian_handling=None), repo=repo)
+        os.path.join(DATA_ROOT, repo.get_path()), repo=repo, julian_handling=None)
       for rule in rules_map.values():
         expected_path = rule.get_storage_file_name(base_dir=base_dir)
         if rule.path_actual != expected_path:
@@ -379,5 +376,5 @@ if __name__ == '__main__':
   # dump_repos()
   rules_collection = RulesCollection.get_cached(repos_tuple=rule_repos, julian_handling=None)
   # rules_collection = RulesCollection(repos=[RulesRepo(name="mahApuruSha/xatra-later")], julian_handling=None)
-  # rules_collection.fix_filenames()
+  rules_collection.fix_filenames()
   # rules_collection.fix_content()

@@ -6,12 +6,13 @@ from io import StringIO
 from math import ceil
 
 from indic_transliteration import xsanscript as sanscript
-from jyotisha.panchaanga.temporal import AngaType
+from jyotisha.panchaanga.temporal import AngaType, era
 from jyotisha.panchaanga.temporal import names, interval
 from jyotisha.panchaanga.temporal.festival import rules
 from jyotisha.panchaanga.temporal.festival.rules import RulesRepo
 from jyotisha.panchaanga.temporal.names import translate_or_transliterate
 from jyotisha.panchaanga.temporal.time import Hour
+from jyotisha.panchaanga.writer import transliterate_and_print
 
 logging.basicConfig(
   level=logging.DEBUG,
@@ -31,7 +32,7 @@ def day_summary(d, panchaanga, script, subsection_md):
 
   output_stream = StringIO()
   tz = daily_panchaanga.city.get_timezone_obj()
-  # Assign samvatsara, ayana, rtu #
+  # Assign ayana, rtu #
   ayanam_sidereal = names.NAMES['AYANA_NAMES']['sa'][script][daily_panchaanga.solar_sidereal_date_sunset.month]
   ayanam = names.NAMES['AYANA_NAMES']['sa'][script][daily_panchaanga.tropical_date_sunset.month]
   rtu_solar = names.NAMES['RTU_NAMES']['sa'][script][daily_panchaanga.solar_sidereal_date_sunset.month]
@@ -48,9 +49,23 @@ def day_summary(d, panchaanga, script, subsection_md):
   samvatsara_tropical = daily_panchaanga.get_samvatsara(month_type=RulesRepo.TROPICAL_MONTH_DIR).get_name(script=script)
   
   if samvatsara_lunar == samvatsara_sidereal and samvatsara_lunar == samvatsara_tropical:
-    print("- संवत्सरः - %s" % samvatsara_lunar, file=output_stream)
+    saMvatsara_string = "- संवत्सरः - %s" % samvatsara_lunar
+    year_number_string_solar_sidereal = None
+    year_number_string_tropical = None
   else:
-    print("- संवत्सरः 🌛- %s, 🌌🌞- %s, 🪐🌞- %s" % (samvatsara_lunar, samvatsara_sidereal, samvatsara_tropical), file=output_stream)
+    saMvatsara_string = "- संवत्सरः 🌛- %s, 🌌🌞- %s, 🪐🌞- %s" % (samvatsara_lunar, samvatsara_sidereal, samvatsara_tropical)
+    year_number_string_solar_sidereal = "- वर्षसङ्ख्या 🌌🌞- शकाब्दः %d, विक्रमाब्दः %d, कलियुगे %d" % (daily_panchaanga.get_year_number(month_type=RulesRepo.SIDEREAL_SOLAR_MONTH_DIR, era_id=era.ERA_SHAKA), daily_panchaanga.get_year_number(month_type=RulesRepo.SIDEREAL_SOLAR_MONTH_DIR, era_id=era.ERA_VIKRAMA), daily_panchaanga.get_year_number(month_type=RulesRepo.SIDEREAL_SOLAR_MONTH_DIR, era_id=era.ERA_KALI))
+    year_number_string_tropical = "- वर्षसङ्ख्या 🪐🌞 - शकाब्दः %d, विक्रमाब्दः %d, कलियुगे %d" % (daily_panchaanga.get_year_number(month_type=RulesRepo.TROPICAL_MONTH_DIR, era_id=era.ERA_SHAKA), daily_panchaanga.get_year_number(month_type=RulesRepo.TROPICAL_MONTH_DIR, era_id=era.ERA_VIKRAMA), daily_panchaanga.get_year_number(month_type=RulesRepo.TROPICAL_MONTH_DIR, era_id=era.ERA_KALI))
+
+  transliterate_and_print(text=saMvatsara_string, script=script, output_stream=output_stream)
+
+  year_number_string_lunar = "- वर्षसङ्ख्या 🌛- शकाब्दः %d, विक्रमाब्दः %d, कलियुगे %d" % (daily_panchaanga.get_year_number(month_type=RulesRepo.LUNAR_MONTH_DIR, era_id=era.ERA_SHAKA), daily_panchaanga.get_year_number(month_type=RulesRepo.LUNAR_MONTH_DIR, era_id=era.ERA_VIKRAMA), daily_panchaanga.get_year_number(month_type=RulesRepo.LUNAR_MONTH_DIR, era_id=era.ERA_KALI))
+  transliterate_and_print(text=year_number_string_lunar, script=script, output_stream=output_stream)
+  if year_number_string_solar_sidereal is not None:
+    transliterate_and_print(text=year_number_string_solar_sidereal, script=script, output_stream=output_stream)
+  if year_number_string_tropical is not None:
+    transliterate_and_print(text=year_number_string_tropical, script=script, output_stream=output_stream)
+
   # if yname_lunar == yname_solar:
   #   print('*' + getName('saMvatsaraH', language) + '*—%s' % yname_lunar, file=output_stream)
   # if yname_lunar != yname_solar:

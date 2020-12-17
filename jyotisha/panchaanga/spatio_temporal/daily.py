@@ -8,7 +8,7 @@ from scipy.optimize import brentq
 from timebudget import timebudget
 
 from jyotisha.panchaanga.spatio_temporal import City
-from jyotisha.panchaanga.temporal import time, ComputationSystem, set_constants, names
+from jyotisha.panchaanga.temporal import time, ComputationSystem, set_constants, names, era
 from jyotisha.panchaanga.temporal import zodiac
 from jyotisha.panchaanga.temporal.body import Graha
 from jyotisha.panchaanga.temporal.festival.rules import RulesRepo
@@ -334,7 +334,6 @@ class DailyPanchaanga(common.JsonObject):
       return names.NAMES["ARAB_MONTH_NAMES"]["ar"][islamic_date.month-1]
     elif month_type == RulesRepo.GREGORIAN_MONTH_DIR:
       return names.month_map[self.date.month]
-    
 
   def get_samvatsara_offset_1987(self, month_type):
     # The below is a crude variable name: sidereal lunar month could be only approximately equinox-referrent. 
@@ -352,6 +351,19 @@ class DailyPanchaanga(common.JsonObject):
       samvatsara_1987 = Anga(index=samvatsara_1987, anga_type_id=AngaType.SAMVATSARA.name)
     samvatsara = samvatsara_1987 + self.get_samvatsara_offset_1987(month_type=month_type)
     return samvatsara
+
+
+  def get_year_number(self, month_type, era_id):
+    # The below is a crude variable name: sidereal lunar month could be only approximately equinox-referrent. 
+    equinox_referrent_date = self.get_date(month_type=month_type)
+    year_0_offset = era.get_year_0_offset(era_id=era_id)
+    # For a few millennia around 1987, it is safe to assume that lunar year starts wihtin the first 5 months of the Gregorian year. This means that only the tail end of the lunar year occurs within the first few months of the year. And only in that case, would we need to offset relative to 1988 rather than 1987.  
+    if equinox_referrent_date.month >= 7 and self.date.month <= 5:
+      year_index = (self.date.year - 1 + year_0_offset)
+    else:
+      year_index = (self.date.year + year_0_offset)
+    return year_index
+
 
 
   def get_lagna_data(self, ayanaamsha_id=zodiac.Ayanamsha.CHITRA_AT_180, debug=False):

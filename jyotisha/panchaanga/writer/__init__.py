@@ -33,7 +33,14 @@ See https://github.com/karthikraman/panchaanga repository.
 
 import logging
 
+from indic_transliteration import sanscript
+from jyotisha.panchaanga.temporal.names import translate_or_transliterate
+
 logging.basicConfig(
   level=logging.DEBUG,
   format="%(levelname)s: %(asctime)s {%(filename)s:%(lineno)d}: %(message)s "
 )
+
+
+def transliterate_and_print(text, script, output_stream):
+  print(translate_or_transliterate(text=text, script=script, source_script=sanscript.DEVANAGARI), file=output_stream)  

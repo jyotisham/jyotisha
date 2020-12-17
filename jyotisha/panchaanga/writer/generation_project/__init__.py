@@ -11,7 +11,7 @@ from doc_curation.md_helper import MdFile
 import jyotisha
 from indic_transliteration import xsanscript
 from jyotisha.panchaanga.spatio_temporal import annual
-from jyotisha.panchaanga.temporal import ComputationSystem
+from jyotisha.panchaanga.temporal import ComputationSystem, era
 from jyotisha.panchaanga.temporal.festival.rules import RulesRepo
 from jyotisha.panchaanga.writer import ics, md
 from jyotisha.panchaanga.writer.md import get_computation_parameters_md
@@ -51,7 +51,7 @@ def dump_detailed(year, city, year_type, computation_system=ComputationSystem.MU
 
 
 def dump_summary(year, city, script=xsanscript.DEVANAGARI, computation_system=ComputationSystem.MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_180):
-  year_type = RulesRepo.ERA_GREGORIAN  
+  year_type = era.ERA_GREGORIAN  
   panchaanga = annual.get_panchaanga_for_year(city=city, year=year, computation_system=computation_system, year_type=year_type, allow_precomputed=False)
   year_table = to_table_dict(panchaanga=panchaanga )
   out_path = get_canonical_path(city=panchaanga.city.name, computation_system_str=str(panchaanga.computation_system), year=year, year_type=year_type)
@@ -69,7 +69,7 @@ def dump_summary(year, city, script=xsanscript.DEVANAGARI, computation_system=Co
   md_file.dump_to_file(metadata={"title": "%d Summary" % (year)}, md=md, dry_run=False)
 
 
-def get_canonical_path(city, computation_system_str, year, year_type=RulesRepo.ERA_GREGORIAN, output_dir=output_dir):
+def get_canonical_path(city, computation_system_str, year, year_type=era.ERA_GREGORIAN, output_dir=output_dir):
   out_path = os.path.join(output_dir, city, computation_system_str, year_type,
                           '%02d00s/%03d0s/%04d' % (int(year / 100), int(year / 10), year))
   return out_path
