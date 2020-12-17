@@ -1,6 +1,6 @@
 import sys
 from math import floor
-
+import logging
 from jyotisha.panchaanga.temporal import names
 from jyotisha.panchaanga.temporal import interval
 from jyotisha.panchaanga.temporal.body import Graha
@@ -8,6 +8,7 @@ from jyotisha.panchaanga.temporal.festival import FestivalInstance, TransitionFe
 from jyotisha.panchaanga.temporal.festival.applier import FestivalAssigner
 from jyotisha.panchaanga.temporal.interval import Interval
 from jyotisha.panchaanga.temporal.zodiac import AngaType
+from scipy.optimize import brentq
 from sanskrit_data.schema import common
 
 
@@ -16,7 +17,52 @@ class EclipticFestivalAssigner(FestivalAssigner):
     self.set_jupiter_transits()
     self.compute_solar_eclipses()
     self.compute_lunar_eclipses()
-    # self.assign_ayanam()
+    # self.compute_conjunctions(Graha.SATURN, Graha.JUPITER)
+    # self.compute_conjunctions(Graha.VENUS, Graha.SUN, 10)
+
+  def compute_conjunctions(self, Graha1, Graha2, delta=0.0):
+    # Compute the time of conjunction between Graha1 and Graha2
+    GRAHA_NAMES = {Graha.SUN: 'sUryaH', Graha.MOON: 'candraH', Graha.JUPITER: 'guruH',
+        Graha.VENUS: 'zukraH', Graha.MERCURY: 'budhaH', Graha.MARS: 'aGgArakaH', 
+        Graha.SATURN: 'zanaizcaraH', Graha.RAHU: 'rAhuH'}
+    if delta == 0.0:
+      try:
+        t = brentq(lambda jd: Graha.singleton(Graha1).get_longitude(jd) - Graha.singleton(Graha2).get_longitude(jd),
+                 self.panchaanga.jd_start, self.panchaanga.jd_end)
+      except ValueError:
+        t = None
+        logging.error('Not able to bracket!')
+        
+      if t is not None and self.panchaanga.jd_start < t < self.panchaanga.jd_end:
+        fday = [self.daily_panchaangas[i].jd_sunrise < t < self.daily_panchaangas[i + 1].jd_sunrise for i in range(self.panchaanga.duration)].index(True)
+        fest = FestivalInstance(name='graha-yuddhaH (%s–%s)' % (GRAHA_NAMES[Graha1], GRAHA_NAMES[Graha2]), interval=Interval(jd_start=None, jd_end=t))
+        self.panchaanga.add_festival_instance(festival_instance=fest, date=self.daily_panchaangas[fday].date)
+    else:
+      # mauDhya / combustion with some degrees assigned
+      try:
+        t_start = brentq(lambda jd: Graha.singleton(Graha1).get_longitude(jd) - Graha.singleton(Graha2).get_longitude(jd) - delta,
+                 self.panchaanga.jd_start, self.panchaanga.jd_end)
+      except ValueError:
+        t_start = None
+        logging.error('Not able to bracket!')
+
+      try:
+        t_end = brentq(lambda jd: Graha.singleton(Graha1).get_longitude(jd) - Graha.singleton(Graha2).get_longitude(jd) + delta,
+                 self.panchaanga.jd_start, self.panchaanga.jd_end)
+      except ValueError:
+        t_end = None
+        logging.error('Not able to bracket!')
+
+      if t_start is not None and self.panchaanga.jd_start < t_start < self.panchaanga.jd_end:
+        fday = [self.daily_panchaangas[i].jd_sunrise < t_start < self.daily_panchaangas[i + 1].jd_sunrise for i in range(self.panchaanga.duration)].index(True)
+        fest = FestivalInstance(name='%s–mauDhya' % GRAHA_NAMES[Graha1], interval=Interval(jd_start=t_start, jd_end=None))
+        self.panchaanga.add_festival_instance(festival_instance=fest, date=self.daily_panchaangas[fday].date)
+
+      if t_end is not None and self.panchaanga.jd_start < t_end < self.panchaanga.jd_end:
+        fday = [self.daily_panchaangas[i].jd_sunrise < t_end < self.daily_panchaangas[i + 1].jd_sunrise for i in range(self.panchaanga.duration)].index(True)
+        fest = FestivalInstance(name='%s–mauDhya' % GRAHA_NAMES[Graha1], interval=Interval(jd_start=None, jd_end=t_end))
+        self.panchaanga.add_festival_instance(festival_instance=fest, date=self.daily_panchaangas[fday].date)
+
 
   def compute_solar_eclipses(self):
     if 'sUrya-grahaNam' not in self.rules_collection.name_to_rule:
