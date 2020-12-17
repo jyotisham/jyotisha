@@ -1,6 +1,7 @@
 import logging
 
 from indic_transliteration import sanscript
+from jyotisha.panchaanga.temporal import era
 from jyotisha.panchaanga.temporal.festival.rules import RulesRepo, HinduCalendarEventTiming, HinduCalendarEvent
 
 
@@ -24,7 +25,7 @@ def import_to_xaatra_later():
     timing.month_number = dt.month
     timing.anga_number = dt.day
     timing.year_start = dt.year
-    timing.year_start_era = RulesRepo.ERA_GREGORIAN
+    timing.year_start_era = era.ERA_GREGORIAN
     rule = HinduCalendarEvent()
     rule.timing = timing
     rule.id = event["name_sa"].replace(" ", "_")

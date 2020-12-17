@@ -5,7 +5,7 @@ import traceback
 
 from jyotisha.panchaanga.spatio_temporal import periodical
 from jyotisha.panchaanga.spatio_temporal.periodical import Panchaanga
-from jyotisha.panchaanga.temporal import ComputationSystem, set_constants, time
+from jyotisha.panchaanga.temporal import ComputationSystem, set_constants, time, era
 from jyotisha.panchaanga.temporal.festival.rules import RulesRepo
 from jyotisha.panchaanga.temporal.time import Date, Timezone
 from jyotisha.panchaanga.temporal.body import Graha
@@ -44,8 +44,7 @@ def get_panchaanga_for_kali_year(city, year, precomputed_json_dir="~/Documents/j
     return panchaanga
   else:
     logging.info('No precomputed data available. Computing panchaanga...\n')
-    KALI_CIVIL_ERA_DIFF = -3101
-    start_year_civil = year + KALI_CIVIL_ERA_DIFF
+    start_year_civil = year + era.get_year_0_offset(era_id=era.ERA_KALI)
     anga_span_finder = AngaSpanFinder.get_cached(ayanaamsha_id=Ayanamsha.CHITRA_AT_180, anga_type=AngaType.SIDEREAL_MONTH)
     start_mesha = anga_span_finder.find(jd1=time.utc_gregorian_to_jd(Date(year=start_year_civil, month=3, day=1)), jd2=time.utc_gregorian_to_jd(Date(year=start_year_civil, month=5, day=1)), target_anga_id=1)
     jd_next_sunset_start_mesha = city.get_setting_time(julian_day_start=start_mesha.jd_start, body=Graha.SUN)
@@ -78,7 +77,7 @@ def get_panchaanga_for_shaka_year(city, year, precomputed_json_dir="~/Documents/
   else:
     logging.info('No precomputed data available. Computing panchaanga...\n')
     SHAKA_CIVIL_ERA_DIFF = 78
-    start_year_civil = year + SHAKA_CIVIL_ERA_DIFF
+    start_year_civil = year + era.get_year_0_offset(era_id=era.ERA_SHAKA)
     anga_span_finder = AngaSpanFinder.get_cached(ayanaamsha_id=Ayanamsha.ASHVINI_STARTING_0, anga_type=AngaType.SIDEREAL_MONTH)
     start_equinox = anga_span_finder.find(jd1=time.utc_gregorian_to_jd(Date(year=start_year_civil, month=3, day=1)), jd2=time.utc_gregorian_to_jd(Date(year=start_year_civil, month=5, day=1)), target_anga_id=1)
     end_equinox = anga_span_finder.find(jd1=time.utc_gregorian_to_jd(Date(year=start_year_civil  + 1, month=3, day=1)), jd2=time.utc_gregorian_to_jd(Date(year=start_year_civil + 1, month=5, day=1)), target_anga_id=1)
@@ -115,9 +114,9 @@ def get_panchaanga_for_civil_year(city, year, precomputed_json_dir="~/Documents/
 
 
 def get_panchaanga_for_year(city, year, year_type, computation_system, allow_precomputed=True):
-  if year_type == RulesRepo.ERA_GREGORIAN:
+  if year_type == era.ERA_GREGORIAN:
     return get_panchaanga_for_civil_year(city=city, year=year, computation_system=computation_system, allow_precomputed=allow_precomputed)
-  elif year_type == RulesRepo.ERA_KALI:
+  elif year_type == era.ERA_KALI:
     return get_panchaanga_for_kali_year(city=city, year=year, computation_system=computation_system, allow_precomputed=allow_precomputed)
-  elif year_type == RulesRepo.ERA_SHAKA:
+  elif year_type == era.ERA_SHAKA:
     return get_panchaanga_for_shaka_year(city=city, year=year, computation_system=computation_system, allow_precomputed=allow_precomputed)

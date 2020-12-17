@@ -2,7 +2,7 @@ import logging
 import os
 import sys
 
-from jyotisha.panchaanga.temporal import PeriodicPanchaangaApplier
+from jyotisha.panchaanga.temporal import PeriodicPanchaangaApplier, era
 from jyotisha.panchaanga.temporal import festival
 from jyotisha.panchaanga.temporal.festival import rules
 from jyotisha.panchaanga.temporal.festival.rules import RulesRepo
@@ -40,9 +40,9 @@ class FestivalAssigner(PeriodicPanchaangaApplier):
       if festival_rule.timing.year_start is not None:
         fest_start_year = festival_rule.timing.year_start
         fest_start_year_era = festival_rule.timing.year_start_era
-        if fest_start_year_era == RulesRepo.ERA_KALI:
+        if fest_start_year_era == era.ERA_KALI:
           year_offset = 3100
-        elif fest_start_year_era == RulesRepo.ERA_GREGORIAN:
+        elif fest_start_year_era == era.ERA_GREGORIAN:
           year_offset = 0
         month_type = festival_rule.timing.month_type
         for assigned_day in self.panchaanga.festival_id_to_days[festival_name]:
