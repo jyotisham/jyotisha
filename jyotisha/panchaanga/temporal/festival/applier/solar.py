@@ -58,7 +58,7 @@ class SolarFestivalAssigner(FestivalAssigner):
         6: "kanyA-ravi-saGkramaNa-SaDazIti",
         7: "tulA-saGkramaNa",
         8: "vRzcika-ravi-saGkramaNa-viSNupadI",
-        9: "dhanur-ravi-saGkramaNa-SaDazIti",
+        9: "dhanUravi-saGkramaNa-SaDazIti",
         10: "makara-saGkramaNa",
         11: "kumbha-ravi-saGkramaNa-viSNupadI",
         12: "mIna-ravi-saGkramaNa-SaDazIti",
