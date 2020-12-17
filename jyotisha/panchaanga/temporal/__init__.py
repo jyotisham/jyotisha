@@ -2,7 +2,7 @@ import logging
 import sys
 from copy import deepcopy, copy
 
-from jyotisha.panchaanga.temporal.festival.rules import RulesCollection
+from jyotisha.panchaanga.temporal.festival.rules import RulesCollection, RulesRepo
 from jyotisha.panchaanga.temporal.zodiac.angas import BoundaryAngas, Anga, AngaType
 from sanskrit_data.schema import common
 from sanskrit_data.schema.common import JsonObject
@@ -94,6 +94,14 @@ class ComputationSystem(JsonObject):
     system_copy = ComputationSystem(lunar_month_assigner_type=self.lunar_month_assigner_type, ayanaamsha_id=self.ayanaamsha_id, festival_options=None)
     return "#### Basic parameters\n```\n%s\n```\n\n%s" % (system_copy.to_string(format="toml"), self.festival_options.to_md())
      
+
+
+def get_kauNdinyAyana_bhAskara_gRhya_computation_system():
+  computation_system = ComputationSystem.SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_180
+  computation_system.festival_options.repos = [RulesRepo(name="gRhya/general")]
+  computation_system.festival_options.aparaahna_as_second_half = True
+  computation_system.festival_options.prefer_eight_fold_day_division = True
+  return computation_system
 
 
 def set_constants():

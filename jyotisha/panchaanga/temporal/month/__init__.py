@@ -90,6 +90,7 @@ class SolsticePostDark10AdhikaAssigner(LunarMonthAssigner):
   @classmethod
   def _get_solstice_lunar_month(cls, solstice_tropical_month_span):
     if not cls._is_tithi_post_dark10(jd=solstice_tropical_month_span.jd_start):
+      # TODO: There is a bug here. Marks 2020-12-21 as lunar month 10.
       return solstice_tropical_month_span.anga 
     else:
       prev_solstice_tropical_month_span = zodiac.get_previous_solstice_month_span(jd=solstice_tropical_month_span.jd_start - 1)

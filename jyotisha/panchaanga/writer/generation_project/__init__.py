@@ -45,24 +45,13 @@ def dump_ics_md_pair(panchaanga, period_str):
   MdFile.fix_index_files(dir_path=output_dir, transliteration_target=None, dry_run=False)
 
 
-def dump_common(year, city, year_type):
-  computation_system = ComputationSystem.MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_180
+def dump_detailed(year, city, year_type, computation_system=ComputationSystem.MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_180):
   panchaanga = annual.get_panchaanga_for_year(city=city, year=year, computation_system=computation_system, year_type=year_type, allow_precomputed=False)
   dump_ics_md_pair(panchaanga=panchaanga, period_str="%s/%04d" % (year_type, year))
 
 
-def dump_kauNDinyAyana(year, city, year_type):
-  computation_system = ComputationSystem.SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_180
-  computation_system.festival_options.repos = [RulesRepo(name="gRhya/general")]
-  computation_system.festival_options.aparaahna_as_second_half = True
-  computation_system.festival_options.prefer_eight_fold_day_division = True
-  panchaanga = annual.get_panchaanga_for_year(city=city, year=year, computation_system=computation_system, year_type=year_type, allow_precomputed=False)
-  dump_ics_md_pair(panchaanga=panchaanga, period_str="%s/%04d" % (year_type, year))
-
-
-def dump_summary(year, city, script=xsanscript.DEVANAGARI):
-  year_type = RulesRepo.ERA_GREGORIAN
-  computation_system = ComputationSystem.MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_180
+def dump_summary(year, city, script=xsanscript.DEVANAGARI, computation_system=ComputationSystem.MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_180):
+  year_type = RulesRepo.ERA_GREGORIAN  
   panchaanga = annual.get_panchaanga_for_year(city=city, year=year, computation_system=computation_system, year_type=year_type, allow_precomputed=False)
   year_table = to_table_dict(panchaanga=panchaanga )
   out_path = get_canonical_path(city=panchaanga.city.name, computation_system_str=str(panchaanga.computation_system), year=year, year_type=year_type)
