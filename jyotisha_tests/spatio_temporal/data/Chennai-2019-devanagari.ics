@@ -1824,8 +1824,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:badarī-jyotirmaṭha-pratiṣṭhāpana-dinam kāñcīmaṭhānus
- āreṇa
+SUMMARY:badarī jyotirmaṭha-pratiṣṭhāpana-jayantī
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190120T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190121T235957
 DESCRIPTION:Observed on Paurṇamāsī tithi of Pauṣaḥ (lunar) month (
@@ -1833,8 +1832,8 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of Pauṣaḥ (lunar) month (
  rred in 2616 (kali era).  <br/>Adi Shankara founded Jyotir Mutt\, Badarina
  th in Rakshasa year Totakacharya as first<br/><br/>## Details<br/>- [Edit 
  config file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSh
- a/smArta-misc/lunar_month/tithi/10/15/badarI%20jyOtirmaTha-pratiSThApana~j
- ayantI.toml)<br/>- Tags: AdiShankaraHistory
+ a/kAnchI-maTha/lunar_month/tithi/10/15/badarI%20jyOtirmaTha-pratiSThApana~
+ jayantI.toml)<br/>- Tags: AdiShankaraHistory
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1926,8 +1925,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:śṛṅgerī-śāradāmaṭha-pratiṣṭhāpana-dinam kāñcīma
- ṭhānusāreṇa
+SUMMARY:śṛṅgerī śāradāmaṭha-pratiṣṭhāpana-jayantī
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190120T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190121T235957
 DESCRIPTION:Observed on Paurṇamāsī tithi of Pauṣaḥ (lunar) month (
@@ -1935,8 +1933,8 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of Pauṣaḥ (lunar) month (
  rred in 2618 (kali era).  <br/>Adi Shankara founded Sharada Mutt\, Shringe
  ri in Pingala year Sureshwaracharya as first<br/><br/>## Details<br/>- [Ed
  it config file](https://github.com/jyotisham/adyatithi/tree/master/mahApur
- uSha/smArta-misc/lunar_month/tithi/10/15/zRGgErI%20zAradAmaTha-pratiSThApa
- na~jayantI.toml)<br/>- Tags: AdiShankaraHistory
+ uSha/kAnchI-maTha/lunar_month/tithi/10/15/zRGgErI%20zAradAmaTha-pratiSThAp
+ ana~jayantI.toml)<br/>- Tags: AdiShankaraHistory
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3823,8 +3821,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:dvārakā-maṭha-pratiṣṭhāpana-dinam kāñcīmaṭhānusāre
- ṇa
+SUMMARY:dvārakā-maṭha-pratiṣṭhāpana-jayantī
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190211T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190212T235957
 DESCRIPTION:Observed on Śukla-Saptamī tithi of Māghaḥ (lunar) month (
@@ -3832,8 +3829,8 @@ DESCRIPTION:Observed on Śukla-Saptamī tithi of Māghaḥ (lunar) month (
  rred in 2611 (kali era).  <br/>Adi Shankara founded Dwaraka Mutt in Sadhar
  ana year with HastamalakaAcharya as first<br/><br/>## Details<br/>- [Edit 
  config file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSh
- a/smArta-misc/lunar_month/tithi/11/07/dvArakA-maTha-pratiSThApana~jayantI.
- toml)<br/>- Tags: AdiShankaraHistory
+ a/kAnchI-maTha/lunar_month/tithi/11/07/dvArakA-maTha-pratiSThApana~jayantI
+ .toml)<br/>- Tags: AdiShankaraHistory
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12865,8 +12862,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:purī-govardhana-maṭha-pratiṣṭhāpana-dinam kāñcīmaṭhā
- nusāreṇa
+SUMMARY:purī govardhana-maṭha-pratiṣṭhāpana-jayantī
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190512T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190513T235957
 DESCRIPTION:Observed on Śukla-Navamī tithi of Vaiśākhaḥ (lunar) mont
@@ -12874,8 +12870,8 @@ DESCRIPTION:Observed on Śukla-Navamī tithi of Vaiśākhaḥ (lunar) mont
  ccurred in 2617 (kali era).  <br/>Adi Shankara founded Govardhan mutt\, Pu
  ri in Nala year Padmapadacharya as first<br/><br/>## Details<br/>- [Edit c
  onfig file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha
- /smArta-misc/lunar_month/tithi/02/09/purI%20gOvardhana-maTha-pratiSThApana
- ~jayantI.toml)<br/>- Tags: AdiShankaraHistory
+ /kAnchI-maTha/lunar_month/tithi/02/09/purI%20gOvardhana-maTha-pratiSThApan
+ a~jayantI.toml)<br/>- Tags: AdiShankaraHistory
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15241,9 +15237,10 @@ DESCRIPTION:Observed on Śukla-Dvitīyā tithi of Jyaiṣṭhaḥ (lunar)
  month (Aparāhṇaḥ/vyaapti). <br/><br/>prahlādavarado devo yo nṛsi
  ṃhaḥ paro hariḥ|  <br/>nṛsiṃhopāsakaṃ nityaṃ taṃ nṛsi
  ṃhaḥ guruṃ bhaje||<br/><br/><br/><br/>## Details<br/>- [Edit config 
- file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/smArt
- a-misc/lunar_month/tithi/03/02/zRGgErI%2032%20jagadguru%20zrI~nRsiMha%20bh
- AratI%20ArAdhanA.toml)<br/>- Tags: MahapurushaEvents SringeriAradhanaDays
+ file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/zRGgE
+ rI-maTha/lunar_month/tithi/03/02/zRGgErI%2032%20jagadguru%20zrI~nRsiMha%20
+ bhAratI%20ArAdhanA.toml)<br/>- Tags: MahapurushaEvents SringeriAradhanaDay
+ s
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -26687,10 +26684,10 @@ DESCRIPTION:Observed on Kṛṣṇa-Saptamī tithi of Bhādrapadaḥ (luna
  r) month (Aparāhṇaḥ/vyaapti). <br/><br/>vivekinaṃ mahāprājñaṃ 
  dhairyaudāryakṣamānidhim|  <br/>sadā'bhinavapūrvaṃ taṃ vidyātī
  rthaguruṃ bhaje||<br/><br/><br/><br/>## Details<br/>- [Edit config file]
- (https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/smArta-mis
- c/lunar_month/tithi/06/22/zRGgErI%2035%20jagadguru%20zrI~abhinava%20vidyAt
- Irtha%20mahAsvAmI%20ArAdhanA.toml)<br/>- Tags: MahapurushaEvents SringeriA
- radhanaDays
+ (https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/zRGgErI-ma
+ Tha/lunar_month/tithi/06/22/zRGgErI%2035%20jagadguru%20zrI~abhinava%20vidy
+ AtIrtha%20mahAsvAmI%20ArAdhanA.toml)<br/>- Tags: MahapurushaEvents Sringer
+ iAradhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -27416,9 +27413,9 @@ DESCRIPTION:Observed on Amāvāsyā tithi of Bhādrapadaḥ (lunar) month
  (Aparāhṇaḥ/vyaapti). <br/><br/>sadā''tmadhyānanirataṃ viṣayebhy
  aḥ paraṅmukham|  <br/>naumi śāstreṣu niṣṇātaṃ candraśekhar
  abhāratīm||<br/><br/><br/><br/>## Details<br/>- [Edit config file](https
- ://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/smArta-misc/luna
- r_month/tithi/06/30/zRGgErI%2034%20jagadguru%20zrI~candrazEkhara%20bhAratI
- %20ArAdhanA.toml)<br/>- Tags: MahapurushaEvents SringeriAradhanaDays
+ ://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/zRGgErI-maTha/lu
+ nar_month/tithi/06/30/zRGgErI%2034%20jagadguru%20zrI~candrazEkhara%20bhAra
+ tI%20ArAdhanA.toml)<br/>- Tags: MahapurushaEvents SringeriAradhanaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -30167,8 +30164,8 @@ DESCRIPTION:Observed on Kṛṣṇa-Ekādaśī tithi of Āśvayujaḥ (lun
  ṃ viṣayebhyaḥ paraṅmukham|  <br/>naumi śāstreṣu niṣṇāta
  ṃ candraśekharabhāratīm||<br/><br/><br/><br/>## Details<br/>- [Edit c
  onfig file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha
- /smArta-misc/lunar_month/tithi/07/26/zRGgErI%2034%20jagadguru%20zrI~candra
- zEkhara%20bhAratI~3%20jayantI.toml)<br/>- Tags: MahapurushaEvents
+ /zRGgErI-maTha/lunar_month/tithi/07/26/zRGgErI%2034%20jagadguru%20zrI~cand
+ razEkhara%20bhAratI~3%20jayantI.toml)<br/>- Tags: MahapurushaEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -30663,9 +30660,9 @@ DESCRIPTION:Observed on Kṛṣṇa-Caturdaśī tithi of Āśvayujaḥ (lu
  nar) month (Sūryodayaḥ/puurvaviddha). <br/><br/>vivekinaṃ mahāprāj
  ñaṃ dhairyaudāryakṣamānidhim|  <br/>sadā'bhinavapūrvaṃ taṃ vi
  dyātīrthaguruṃ bhaje||<br/><br/><br/><br/>## Details<br/>- [Edit confi
- g file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/smA
- rta-misc/lunar_month/tithi/07/29/zRGgErI%2035%20jagadguru%20zrI~abhinava%2
- 0vidyAtIrtha%20mahAsvAmI%20jayantI.toml)<br/>- Tags: MahapurushaEvents
+ g file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/zRG
+ gErI-maTha/lunar_month/tithi/07/29/zRGgErI%2035%20jagadguru%20zrI~abhinava
+ %20vidyAtIrtha%20mahAsvAmI%20jayantI.toml)<br/>- Tags: MahapurushaEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -35958,15 +35955,10 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:dhanur-ravi-saṅkramaṇa-ṣaḍaśīti-puṇyakālaḥ
+SUMMARY:dhanūravi-saṅkramaṇa-ṣaḍaśīti-puṇyakālaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191216T150106
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191217T150106
-DESCRIPTION:Dhanur-Ravi-Saṅkramaṇa-Ṣaḍaśīti Punyakala. Perform d
- anam of clothes/vehicle (e.g. bullock cart).<br/><br/>dhanuḥpraveśe vas
- trāṇāṃ yānānāṃ ca mahāphalam <br/><br/><br/><br/>## Details<br
- />- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/
- time_focus/sankrAnti/description_only/dhanur-ravi-saGkramaNa-SaDazIti-puNy
- akAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
+DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H

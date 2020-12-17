@@ -111,6 +111,11 @@
           "name": "mahApuruSha/kAnchI-maTha"
         },
         {
+          "base_url": "https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/zRGgErI-maTha",
+          "jsonClass": "RulesRepo",
+          "name": "mahApuruSha/zRGgErI-maTha"
+        },
+        {
           "base_url": "https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/mAdhva-misc",
           "jsonClass": "RulesRepo",
           "name": "mahApuruSha/mAdhva-misc"
