@@ -119,7 +119,11 @@ class BasicDate(JsonObject):
 
   def get_date_str(self):
     if self.year is None:
-      return "%02d-%02d" % (self.month, self.day)
+      if int(self.month) == self.month:
+        month_str = "%02d" % self.month
+      else:
+        month_str = "%02.1f" % self.month
+      return "%s-%02d" % (month_str, self.day)
     else:
       return "%04d-%02d-%02d" % (self.year, self.month, self.day)
 
