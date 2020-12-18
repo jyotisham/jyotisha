@@ -2,7 +2,7 @@
 title = "1681 Summary"
 
 +++
-##Intro
+## Intro
 ### Computation parameters
 - 🌏**क्षेत्रम्** (पुण्यनगरी)
 

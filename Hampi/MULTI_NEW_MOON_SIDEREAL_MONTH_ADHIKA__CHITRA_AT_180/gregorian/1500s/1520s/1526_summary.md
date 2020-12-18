@@ -2,7 +2,7 @@
 title = "1526 Summary"
 
 +++
-##Intro
+## Intro
 ### Computation parameters
 - 🌏**क्षेत्रम्** (विजयनगरम्)
 

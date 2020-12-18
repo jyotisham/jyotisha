@@ -2,7 +2,7 @@
 title = "1801 Summary"
 
 +++
-##Intro
+## Intro
 ### Computation parameters
 - 🌏**क्षेत्रम्** (महिष्हपुरी)
 
@@ -17,8 +17,8 @@ jsonClass = "ComputationSystem"
 #### Event options
  ```
 aparaahna_as_second_half = false
-prefer_eight_fold_day_division = false
 julian_handling = "converted to Gregorian"
+prefer_eight_fold_day_division = false
 jsonClass = "FestivalOptions"
 
 ```
