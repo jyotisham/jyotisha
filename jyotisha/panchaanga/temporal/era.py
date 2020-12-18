@@ -6,6 +6,7 @@ ERA_BENGALI = "vanga"
 ERA_KOLLAM = "kollam"
 ERA_BUDDHA = "buddha"
 ERA_MAHAVIRA = "mahAvIra"
+ERA_TIPU_MAULUDI = "TipU-maulUdI"
 
 
 def get_year_0_offset(era_id):
@@ -26,4 +27,6 @@ def get_year_0_offset(era_id):
     year_0_offset = 2564 - 2020
   elif era_id == ERA_MAHAVIRA:
     year_0_offset = 2547 - 2020
+  elif era_id == ERA_TIPU_MAULUDI:
+    year_0_offset = -572
   return year_0_offset

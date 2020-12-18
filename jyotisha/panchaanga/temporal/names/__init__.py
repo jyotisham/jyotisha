@@ -118,3 +118,11 @@ def translate_or_transliterate(text, script, source_script=xsanscript.HK):
       return jyotisha.custom_transliteration.tr(text, script, source_script=source_script)
   else:
     return jyotisha.custom_transliteration.tr(text, script, source_script=source_script)
+
+def get_tipu_month_str(month):
+  if month == int(month):
+    month_str = " / ".join([NAMES["TIPU_ABJAD_MONTH_NAMES"]["fa"][int(month) - 1], NAMES["TIPU_ABTATH_MONTH_NAMES"]["fa"][int(month) - 1]])
+    return month_str
+  else:
+    month_str = " / ".join([NAMES["TIPU_ABJAD_MONTH_NAMES"]["fa"][int(month)], NAMES["TIPU_ABTATH_MONTH_NAMES"]["fa"][int(month)]])
+    return "%s (adhika)" % (month_str)

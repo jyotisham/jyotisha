@@ -1,6 +1,6 @@
 from indic_transliteration import xsanscript
 from jyotisha.panchaanga.spatio_temporal import City
-from jyotisha.panchaanga.temporal import names, AngaType
+from jyotisha.panchaanga.temporal import names, AngaType, era
 from jyotisha.panchaanga.temporal.festival import rules
 from jyotisha.panchaanga.temporal.festival.rules import RulesRepo
 
@@ -21,7 +21,13 @@ def to_table_dict(panchaanga, script=xsanscript.DEVANAGARI):
     day_dict["Indian_civil"] = daily_panchaanga.date.to_indian_civil_date().get_date_str()
     day_dict["lunar"] = daily_panchaanga.get_date(month_type=RulesRepo.LUNAR_MONTH_DIR).get_date_str()
     day_dict["lunar_month"] = daily_panchaanga.get_month_str(month_type=RulesRepo.LUNAR_MONTH_DIR, script=script)
+    if panchaanga.city.name == "Mysore" and panchaanga.start_date.year in range(1700, 1820):
+      lunar_month = daily_panchaanga.get_date(month_type=RulesRepo.LUNAR_MONTH_DIR).month
+      day_dict["lunar_month_tipu"] = names.get_tipu_month_str(month=lunar_month)
+      day_dict["lunar_year (maudUdI)"] = daily_panchaanga.get_year_number(month_type=RulesRepo.LUNAR_MONTH_DIR, era_id=era.ERA_TIPU_MAULUDI)
     day_dict["lunar_samvatsara"] = daily_panchaanga.get_samvatsara(month_type=RulesRepo.LUNAR_MONTH_DIR).get_name(script=script)
+    day_dict["lunar_year (shaka)"] = daily_panchaanga.get_year_number(month_type=RulesRepo.LUNAR_MONTH_DIR, era_id=era.ERA_SHAKA)
+    day_dict["lunar_year (kali)"] = daily_panchaanga.get_year_number(month_type=RulesRepo.LUNAR_MONTH_DIR, era_id=era.ERA_KALI)
     day_dict["tropical"] = daily_panchaanga.get_date(month_type=RulesRepo.TROPICAL_MONTH_DIR).get_date_str()
     day_dict["tropical_month"] = daily_panchaanga.get_month_str(month_type=RulesRepo.TROPICAL_MONTH_DIR, script=script)
     day_dict["sidereal_solar"] = daily_panchaanga.get_date(month_type=RulesRepo.SIDEREAL_SOLAR_MONTH_DIR).get_date_str()

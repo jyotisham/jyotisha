@@ -2,7 +2,7 @@
 title = "1845 Summary"
 
 +++
-##Intro
+## Intro
 ### Computation parameters
 - 🌏**क्षेत्रम्** (महिष्हपुरी)
 

@@ -5,8 +5,7 @@ from jyotisha.panchaanga.writer.generation_project import dump_summary
 def dump_mysore_history():
   maisUru = City.get_city_from_db(name="Mysore")
   # dump_summary(year=1797, city=maisUru)
-  # for year in range(1750, 1950):
-  for year in range(1730, 1770):
+  for year in range(1740, 1810):
     dump_summary(year=year, city=maisUru)
 
 

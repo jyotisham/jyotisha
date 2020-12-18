@@ -52,7 +52,7 @@ def dump_detailed(year, city, year_type, computation_system=ComputationSystem.MU
 
 def dump_summary(year, city, script=xsanscript.DEVANAGARI, computation_system=ComputationSystem.MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_180):
   year_type = era.ERA_GREGORIAN  
-  panchaanga = annual.get_panchaanga_for_year(city=city, year=year, computation_system=computation_system, year_type=year_type, allow_precomputed=False)
+  panchaanga = annual.get_panchaanga_for_year(city=city, year=year, computation_system=computation_system, year_type=year_type, allow_precomputed=True)
   year_table = to_table_dict(panchaanga=panchaanga )
   out_path = get_canonical_path(city=panchaanga.city.name, computation_system_str=str(panchaanga.computation_system), year=year, year_type=year_type)
   os.makedirs(os.path.dirname(out_path), exist_ok=True)
@@ -62,7 +62,7 @@ def dump_summary(year, city, script=xsanscript.DEVANAGARI, computation_system=Co
 
   computation_params = get_computation_parameters_md(panchaanga=panchaanga, scripts=[script])
   out_path_md = out_path + "_summary.md"
-  md = """##Intro\n%s\n\n## Table
+  md = """## Intro\n%s\n\n## Table
   <div class="spreadsheet" src="../%s.toml" fullHeightWithRowsPerScreen=8> </div>""" % (computation_params, 
     str(year))
   md_file = MdFile(file_path=out_path_md)
