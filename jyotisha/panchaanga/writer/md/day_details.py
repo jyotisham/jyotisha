@@ -215,7 +215,8 @@ def get_festivals_md(daily_panchaanga, panchaanga, languages, scripts, subsectio
   fest_details_dict = rules_collection.name_to_rule
   output_stream = StringIO()
   fest_summary = ", ".join([x.get_full_title(fest_details_dict=rules_collection.name_to_rule, languages=languages, scripts=scripts) for x in daily_panchaanga.festival_id_to_instance.values()])
-  print("- %s" % fest_summary, file=output_stream)
+  if len(fest_summary) > 0:
+    print("- %s" % fest_summary, file=output_stream)
   for f in sorted(daily_panchaanga.festival_id_to_instance.values()):
     print('%s' % (f.md_code(languages=languages, scripts=scripts, timezone=panchaanga.city.get_timezone_obj(),
                 fest_details_dict=fest_details_dict, header_md=subsection_md)), file=output_stream)
