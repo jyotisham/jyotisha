@@ -17,6 +17,7 @@ jsonClass = "ComputationSystem"
 #### Event options
  ```
 aparaahna_as_second_half = false
+julian_handling = "converted to Gregorian"
 prefer_eight_fold_day_division = false
 jsonClass = "FestivalOptions"
 

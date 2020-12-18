@@ -31,4 +31,4 @@ def dump_bengaluru_history():
 
 
 if __name__ == '__main__':
-  dump_mysore_history()
+  dump_bengaluru_history()

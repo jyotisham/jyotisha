@@ -7,10 +7,10 @@ Contributions welcome! Please see some basic comments (pertaining to the time fo
 ## Testing and autotesting
 Every push to this repository SHOULD pass tests. We should have a rich, functional set of tests at various levels. Saves everyone's time.
 
-You can see the status of failing tests and builds at https://github.com/sanskrit-coders/jyotisha/actions . PS: You can probably subscribe to get email notification on failed workflow runs as well - I'm getting these.
+You can see the status of failing tests and builds at https://github.com/jyotisham/jyotisha/actions . PS: You can probably subscribe to get email notification on failed workflow runs as well - I'm getting these.
 
 ## Contact
-Have a problem or question? Please head to [github](https://github.com/sanskrit-coders/jyotisha).
+Have a problem or question? Please head to [github](https://github.com/jyotisham/jyotisha).
 
 ## Packaging
 * ~/.pypirc should have your pypi login credentials.
@@ -22,7 +22,7 @@ twine upload dist/* --skip-existing
 Test installation with one of these:
 ```
 pip install . --target=./test_installation.local -U
-pip install git+https://github.com/sanskrit-coders/jyotisha/@master --target=./test_installation.local -U
+pip install git+https://github.com/jyotisham/jyotisha/@master --target=./test_installation.local -U
 ```
 
 ## Document generation

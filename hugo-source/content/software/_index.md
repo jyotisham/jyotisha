@@ -3,11 +3,11 @@ title = "+Software"
 +++
 
 ## Intro
-A package to do various panchaanga (traditional vedic astronomical / astrological) calculations, produce calendars. It is backed by the pretty big [adyatithi events database](https://github.com/sanskrit-coders/adyatithi).
+A package to do various panchaanga (traditional vedic astronomical / astrological) calculations, produce calendars. It is backed by the pretty big [adyatithi events database](https://github.com/jyotisham/adyatithi).
 
 The code itself is capable of typical (amAnta, chitra-at-180 ayanAMsha, असङ्क्रान्तिमासोऽधिकः ) based calculation as well as the ancient but now uncommon [tropical lunisolar system](https://vvasuki.github.io/jyotiSham/history/kauNDinyAyana/). 
 
-For a survey of similar software, see [here](https://sanskrit-coders.github.io/astronomy/).
+For a survey of similar software, see [here](https://jyotisham.github.io/astronomy/).
 
 
 ## Accuracy status
@@ -22,7 +22,7 @@ Kartik has primarily restricted his testing to Chennai, Mumbai, London and Palo 
 
 ## Development status
 - Active
-- There is also a multiplatform-targetted Kotlin project at [jyotisha-kotlin](https://github.com/sanskrit-coders/jyotisha-kotlin) which merits attention."
+- There is also a multiplatform-targetted Kotlin project at [jyotisha-kotlin](https://github.com/jyotisham/jyotisha-kotlin) which merits attention."
 
 ## Credits by kArtik
 > Sincere thanks to the creators of pyswisseph, without which I could not
