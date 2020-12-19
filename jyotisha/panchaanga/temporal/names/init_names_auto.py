@@ -24,7 +24,7 @@ def init_names_auto(fname=os.path.join(os.path.dirname(os.path.dirname(__file__)
     for dictionary in names_dict:
       if dictionary in ("SHUULAM", "SA_TO_TAMIL", "ARAB_MONTH_NAMES", "TIPU_ABJAD_MONTH_NAMES", "TIPU_ABTATH_MONTH_NAMES"):
         continue
-      if dictionary != 'VARA_NAMES':
+      if not dictionary.startswith('VARA_NAMES'):
         # Vara Names follow zero indexing, rest don't
         names_dict[dictionary]['sa'].insert(0, 'अस्पष्टम्')
 
