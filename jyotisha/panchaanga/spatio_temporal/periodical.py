@@ -99,7 +99,7 @@ class Panchaanga(common.JsonObject):
       return [x for x in full_list if self.start_date <= x.date and x.date <= self.end_date]
 
   def daily_panchaanga_for_jd(self, jd):
-    date = self.city.timezone.julian_day_to_local_time(julian_day=jd)
+    date = self.city.get_timezone_obj().julian_day_to_local_time(julian_day=jd)
     return self.daily_panchaanga_for_date(date=date)
 
   def daily_panchaanga_for_date(self, date):
