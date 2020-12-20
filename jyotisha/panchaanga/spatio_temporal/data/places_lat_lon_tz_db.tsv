@@ -1,28 +1,36 @@
 Name	saMskRta-nAma	Lat	Long	Timezone
-Chennai	cennai	13:05:24	80:16:12	Asia/Calcutta
-Mumbai	mumbApurI	18:57:36	72:49:12	Asia/Calcutta
-Zurich		47:22:48	8:32:24	Europe/Zurich
-London		51:30	0:07:00	Europe/London
-Paris	48:51:36		2:20:24	Europe/Paris
-Tampa	27:58:15		-82:27:53	US/Eastern
-PaloAlto		37:23:59	-122:08:34	America/Los_Angeles
-Cupertino		37:19:23	-122:01:56	America/Los_Angeles
-Orinda		37:51:38	-122:10:59	America/Los_Angeles 
-Mysore	mahiShapurI	12.2958	76.6394	Asia/Calcutta
+Amarnath		40.3801706	84.3374927	Asia/Calcutta
 Bangalore	kalyANapurI	12:58:12	77:33:36	Asia/Calcutta
-Ujjain	ujjayinI	23.1765	75.7885	Asia/Calcutta
+BrahmaDesha	brahma-deshaH	8.7324832	77.4427299	Asia/Calcutta
+Chennai	madrapurI	13:05:24	80:16:12	Asia/Calcutta
+Coimbatore		10.966657792836907	76.90954363309359	Asia/Calcutta
+Delhi		28.5676528	77.1636295	Asia/Calcutta
+Dwaraka	dvArakApurI	22.2467347	68.9606388	Asia/Calcutta
 Hampi	vijayanagaram	15.3350	76.46	Asia/Calcutta
+Kamakhya		26.1664187	91.7029625	Asia/Calcutta
+Kanchipuram	kAJcI	12.8438285	79.6994636	Asia/Calcutta
+Kanyakumari		8.0805248	77.547384	Asia/Calcutta
+Kashi	kAshI	25.3109634	83.0107418	Asia/Calcutta
+Mumbai	mumbApurI	18:57:36	72:49:12	Asia/Calcutta
+Mysore	mahiShapurI	12.2958	76.6394	Asia/Calcutta
+Prayag	prayAgaH	25.4339768	81.8784979	Asia/Calcutta
+Pune	puNyanagarI	18:31:48	73:50:24	Asia/Calcutta
 sahakAra nagar, bengaLUru	sahakAra-nagaram, kalyANapurI	13:03:48.9	77:34:45.7	Asia/Calcutta
+Thanjavur		10:46:59	79:07:51	Asia/Calcutta
+Tirupati		13.646939287359896	79.42132439583985	Asia/Calcutta
+Ujjain	ujjayinI	23.1765	75.7885	Asia/Calcutta
+AbuDhabi		24:28:48	54:22:12	Asia/Dubai
+Berlin		52:31:12	13:22:48	Europe/Berlin
+Cupertino		37:19:23	-122:01:56	America/Los_Angeles
 Dubai		25:16:12	55:19:48	Asia/Dubai
 Dusseldorf		51:14:24	6:47:24	Europe/Berlin
-Berlin		52:31:12	13:22:48	Europe/Berlin
-Pune	puNyanagarI	18:31:48	73:50:24	Asia/Calcutta
-Heidelberg		49:25:09	8:40:05	Europe/Berlin
-Muscat		23:36:36	58:32:24	Asia/Muscat
-AbuDhabi		24:28:48	54:22:12	Asia/Dubai
-Prague		50:04:48	14:25:48	Europe/Bratislava
 Frankfurt		50:07:12	8:40:48	Europe/Berlin
-Thanjavur		10:46:59	79:07:51	Asia/Calcutta
-Kashi	kAshI	25.3109634	83.0107418	Asia/Calcutta
-Prayag	prayAgaH	25.4339768	81.8784979	Asia/Calcutta
-BrahmaDesha	brahma-deshaH	8.7324832	77.4427299	Asia/Calcutta
+Heidelberg		49:25:09	8:40:05	Europe/Berlin
+London		51:30	0:07:00	Europe/London
+Muscat		23:36:36	58:32:24	Asia/Muscat
+Orinda		37:51:38	-122:10:59	America/Los_Angeles 
+PaloAlto		37:23:59	-122:08:34	America/Los_Angeles
+Paris		48:51:36	2:20:24	Europe/Paris
+Prague		50:04:48	14:25:48	Europe/Bratislava
+Tampa		27:58:15	-82:27:53	US/Eastern
+Zurich		47:22:48	8:32:24	Europe/Zurich
