@@ -80,6 +80,7 @@ class ComputationSystem(JsonObject):
   SOLSTICE_POST_DARK_10_ADHIKA__RP = None
   MIN_SOLARCOMPUTATION__CHITRA_180 = None
   DEFAULT = None
+  TEST = None
 
   def __init__(self, lunar_month_assigner_type, ayanaamsha_id, festival_options=FestivalOptions()):
     super().__init__()
@@ -113,8 +114,13 @@ def set_constants():
   ComputationSystem.SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_180 = ComputationSystem(lunar_month_assigner_type=LunarMonthAssigner.SOLSTICE_POST_DARK_10_ADHIKA, ayanaamsha_id=Ayanamsha.CHITRA_AT_180)
   ComputationSystem.SOLSTICE_POST_DARK_10_ADHIKA__RP = ComputationSystem(lunar_month_assigner_type=LunarMonthAssigner.SOLSTICE_POST_DARK_10_ADHIKA, ayanaamsha_id=Ayanamsha.RASHTRIYA_PANCHANGA_NAKSHATRA_TRACKING)
   ComputationSystem.MIN_SOLARCOMPUTATION__RP = ComputationSystem(lunar_month_assigner_type=None, ayanaamsha_id=Ayanamsha.RASHTRIYA_PANCHANGA_NAKSHATRA_TRACKING)
-  
+
   ComputationSystem.DEFAULT = ComputationSystem.MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_180
+
+  festival_options = FestivalOptions()
+  festival_options.repos = [r for r in festival_options.repos if r.name != "mahApuruSha/xatra-later"]
+  ComputationSystem.TEST = ComputationSystem(lunar_month_assigner_type=LunarMonthAssigner.MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA, ayanaamsha_id=Ayanamsha.CHITRA_AT_180, festival_options=festival_options)
+
   
 set_constants()
 

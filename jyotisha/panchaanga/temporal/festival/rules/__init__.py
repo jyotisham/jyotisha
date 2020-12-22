@@ -271,9 +271,6 @@ class RulesRepo(common.JsonObject):
     return self.path if self.path is not None else os.path.join(DATA_ROOT, self.name)
 
 
-rule_repos = ()
-
-
 class RulesCollection(common.JsonObject):
   JULIAN_AS_GREGORIAN = "treated as Gregorian"
   JULIAN_TO_GREGORIAN = "converted to Gregorian"
@@ -354,6 +351,10 @@ common.update_json_class_index(sys.modules[__name__])
 # logging.debug(common.json_class_index)
 
 
+# The below is filled by load_repos() below.
+rule_repos = ()
+
+
 def dump_repos():
   repos = [repo.to_json_map() for repo in rule_repos]
   repos.sort(key=lambda x: x["name"])
@@ -362,6 +363,11 @@ def dump_repos():
 
 
 def load_repos():
+  """
+  
+  common.update_json_class_index should be called before calling this. 
+  :return: 
+  """
   global rule_repos
   with codecs.open(_ADYATITHI_REPOS_PATH, "r") as fp:
     repos = toml.load(fp)
