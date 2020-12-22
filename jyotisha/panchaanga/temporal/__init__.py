@@ -75,6 +75,7 @@ class FestivalOptions(JsonObject):
 
 class ComputationSystem(JsonObject):
   MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_180 = None
+  MULTI_FULL_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_180 = None
   MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__RP = None
   SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_180 = None
   SOLSTICE_POST_DARK_10_ADHIKA__RP = None
@@ -109,6 +110,7 @@ def set_constants():
   from jyotisha.panchaanga.temporal.month import LunarMonthAssigner
   from jyotisha.panchaanga.temporal.zodiac import Ayanamsha
   ComputationSystem.MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_180 = ComputationSystem(lunar_month_assigner_type=LunarMonthAssigner.MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA, ayanaamsha_id=Ayanamsha.CHITRA_AT_180)
+  ComputationSystem.MULTI_FULL_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_180 = ComputationSystem(lunar_month_assigner_type=LunarMonthAssigner.MULTI_FULL_MOON_SIDEREAL_MONTH_ADHIKA, ayanaamsha_id=Ayanamsha.CHITRA_AT_180)
   ComputationSystem.MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__RP = ComputationSystem(lunar_month_assigner_type=LunarMonthAssigner.MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA, ayanaamsha_id=Ayanamsha.RASHTRIYA_PANCHANGA_NAKSHATRA_TRACKING)
 
   ComputationSystem.SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_180 = ComputationSystem(lunar_month_assigner_type=LunarMonthAssigner.SOLSTICE_POST_DARK_10_ADHIKA, ayanaamsha_id=Ayanamsha.CHITRA_AT_180)

@@ -24,6 +24,17 @@ def test_MultiNewMoonAssigner():
   assert panchaanga.lunar_month_sunrise.index == 4
 
 
+def test_MultiFullMoonAssigner():
+  # Online - https://www.drikpanchang.com/panchang/month-panchang.html?date=13/07/2018 https://www.prokerala.com/astrology/panchang/2018-july-13.html
+  # karka-sankrAnti was on 16th.
+  panchaanga = daily.DailyPanchaanga(
+    city=chennai, date=Date(2018, 7, 13), computation_system=ComputationSystem.MULTI_FULL_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_180)
+  assert panchaanga.lunar_month_sunrise.index == 4
+  panchaanga = daily.DailyPanchaanga(
+    city=chennai, date=Date(2018, 7, 14), computation_system=ComputationSystem.MULTI_FULL_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_180, previous_day_panchaanga=panchaanga)
+  assert panchaanga.lunar_month_sunrise.index == 4
+
+
 def test_SolsticePostDark10AdhikaAssigner():
   panchaanga = daily.DailyPanchaanga(
     city=chennai, date=Date(2020, 12, 16), computation_system=ComputationSystem.SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_180)
