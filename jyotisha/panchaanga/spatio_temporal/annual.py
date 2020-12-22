@@ -44,7 +44,7 @@ def get_panchaanga_for_kali_year(city, year, precomputed_json_dir="~/Documents/j
     return panchaanga
   else:
     logging.info('No precomputed data available. Computing panchaanga...\n')
-    start_year_civil = year + era.get_year_0_offset(era_id=era.ERA_KALI)
+    start_year_civil = year - era.get_year_0_offset(era_id=era.ERA_KALI)
     anga_span_finder = AngaSpanFinder.get_cached(ayanaamsha_id=Ayanamsha.CHITRA_AT_180, anga_type=AngaType.SIDEREAL_MONTH)
     start_mesha = anga_span_finder.find(jd1=time.utc_gregorian_to_jd(Date(year=start_year_civil, month=3, day=1)), jd2=time.utc_gregorian_to_jd(Date(year=start_year_civil, month=5, day=1)), target_anga_id=1)
     jd_next_sunset_start_mesha = city.get_setting_time(julian_day_start=start_mesha.jd_start, body=Graha.SUN)
