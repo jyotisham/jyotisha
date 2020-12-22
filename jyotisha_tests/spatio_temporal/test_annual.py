@@ -1,3 +1,4 @@
+import copy
 import logging
 import os
 
@@ -67,7 +68,7 @@ def test_adhika_maasa_computations_2009():
 
 def no_fest_chennai_panchaanga(year):
   city = City('Chennai', "13:05:24", "80:16:12", "Asia/Calcutta")
-  computation_system = ComputationSystem.MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_180
+  computation_system = copy.deepcopy(ComputationSystem.MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_180)
   computation_system.festival_options.repos = []
   panchaanga = annual.get_panchaanga_for_civil_year(city=city, year=year,
                                                          allow_precomputed=False, computation_system=computation_system)

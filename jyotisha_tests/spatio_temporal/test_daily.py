@@ -32,6 +32,7 @@ def panchaanga_json_comparer(city, date):
   testing.json_compare(actual_object=panchaanga, expected_content_path=expected_content_path)
   return panchaanga
 
+
 def test_solar_day():
 
   panchaanga = daily.DailyPanchaanga.from_city_and_julian_day(
