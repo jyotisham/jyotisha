@@ -52,13 +52,13 @@ class MultiLunarPhaseSolarMonthAdhikaAssigner(LunarMonthAssigner):
     # tithi_at_sunrise gives a rough indication of the number of days since last new moon. We now find a more precise interval below.
     anga_finder = zodiac.AngaSpanFinder.get_cached(ayanaamsha_id=Ayanamsha.ASHVINI_STARTING_0, anga_type=zodiac.AngaType.TITHI)
 
-    if (self.month_end_tithi % 30) <= daily_panchaanga.sunrise_day_angas.tithi_at_sunrise.index:
-      approx_days_since_last_phase =  daily_panchaanga.sunrise_day_angas.tithi_at_sunrise.index - (self.month_end_tithi % 30)
+    if self.month_end_tithi < daily_panchaanga.sunrise_day_angas.tithi_at_sunrise.index:
+      approx_days_since_last_end_tithi =  daily_panchaanga.sunrise_day_angas.tithi_at_sunrise.index - self.month_end_tithi
     else:
-      approx_days_since_last_phase = daily_panchaanga.sunrise_day_angas.tithi_at_sunrise.index + (30 - self.month_end_tithi)
+      approx_days_since_last_end_tithi = daily_panchaanga.sunrise_day_angas.tithi_at_sunrise.index + (30 - self.month_end_tithi)
 
     last_lunar_phase = anga_finder.find(
-      jd1=daily_panchaanga.jd_sunrise - approx_days_since_last_phase - 3, jd2=daily_panchaanga.jd_sunrise - approx_days_since_last_phase + 3, target_anga_id=self.month_end_tithi)
+      jd1=daily_panchaanga.jd_sunrise - approx_days_since_last_end_tithi - 3, jd2=daily_panchaanga.jd_sunrise - approx_days_since_last_end_tithi + 3, target_anga_id=self.month_end_tithi)
     this_new_moon = anga_finder.find(
       jd1=last_lunar_phase.jd_start + 24, jd2=last_lunar_phase.jd_start + 32,
       target_anga_id=self.month_end_tithi)
