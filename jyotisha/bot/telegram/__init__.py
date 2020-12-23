@@ -13,7 +13,7 @@ def send_panchaanga(city, channel_id, token, computation_system_str, md_url_base
   today = city.get_timezone_obj().current_time()
   import urllib
   city_url_segment = urllib.parse.quote(city.name)
-  out_path_md = get_canonical_path(city=city.name, computation_system_str=computation_system_str, year=today.year, year_type=era.ERA_GREGORIAN, output_dir=md_url_base)
+  out_path_md = get_canonical_path(city=city_url_segment, computation_system_str=computation_system_str, year=today.year, year_type=era.ERA_GREGORIAN, output_dir=md_url_base)
 
   md_url = "%s_monthly/%04d-%02d/%04d-%02d-%02d.md" % (out_path_md, today.year, today.month, today.year, today.month, today.day)
 
