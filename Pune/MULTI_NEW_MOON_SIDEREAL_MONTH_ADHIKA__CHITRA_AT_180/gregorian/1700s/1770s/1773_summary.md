@@ -26,4 +26,4 @@ jsonClass = "FestivalOptions"
 
 
 ## Table
-  <div class="spreadsheet" src="../1773.toml" fullHeightWithRowsPerScreen=8> </div>
+  <div class="spreadsheet" src="../1773.toml" fullHeightWithRowsPerScreen=4> </div>
