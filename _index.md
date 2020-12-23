@@ -2,7 +2,3 @@
 title = "+output"
 
 +++
-+++
-title = "+output"
-
-+++
