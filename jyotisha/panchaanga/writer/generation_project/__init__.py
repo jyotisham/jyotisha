@@ -63,7 +63,7 @@ def dump_summary(year, city, script=xsanscript.DEVANAGARI, computation_system=Co
   computation_params = get_computation_parameters_md(panchaanga=panchaanga, scripts=[script])
   out_path_md = out_path + "_summary.md"
   md = """## Intro\n%s\n\n## Table
-  <div class="spreadsheet" src="../%s.toml" fullHeightWithRowsPerScreen=8> </div>""" % (computation_params, 
+  <div class="spreadsheet" src="../%s.toml" fullHeightWithRowsPerScreen=4> </div>""" % (computation_params, 
     str(year))
   md_file = MdFile(file_path=out_path_md)
   md_file.dump_to_file(metadata={"title": "%d Summary" % (year)}, md=md, dry_run=False)
