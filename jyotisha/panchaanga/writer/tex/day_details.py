@@ -132,15 +132,13 @@ def get_tithi_data_str(daily_panchaanga, scripts, time_format):
   tithi_data_str = ''
   for iTithi, tithi_span in enumerate(daily_panchaanga.sunrise_day_angas.tithis_with_ends):
     (tithi_ID, tithi_end_jd) = (tithi_span.anga.index, tithi_span.jd_end)
-    # if tithi_data_str != '':
-    #     tithi_data_str += '\\hspace{1ex}'
     tithi = '\\raisebox{-1pt}{\\moon[scale=0.8]{%d}}\\hspace{2pt}' % (tithi_ID) + \
             names.NAMES['TITHI_NAMES']['sa'][scripts[0]][tithi_ID]
     if tithi_end_jd is None:
       if iTithi == 0:
-        tithi_data_str = '%s\\mbox{%s\\To{}%s}' % \
+        tithi_data_str = '%s\\mbox{%s\\To{}%s\\tridina}' % \
                          (tithi_data_str, tithi,
-                          custom_transliteration.tr('ahOrAtram (tridinaspRk)', scripts[0]))
+                          custom_transliteration.tr('ahOrAtram', scripts[0]))
     else:
       tithi_data_str = '%s\\mbox{%s\\To{}\\textsf{%s (%s)}}\\hspace{1ex}' % \
                        (tithi_data_str, tithi,
@@ -148,4 +146,7 @@ def get_tithi_data_str(daily_panchaanga, scripts, time_format):
                           24 * (tithi_end_jd - daily_panchaanga.jd_sunrise)).to_string(format='gg-pp'),
                         time.Hour(24 * (tithi_end_jd - jd)).to_string(
                           format=time_format))
+      if iTithi == 2:
+          tithi_data_str += '\\avamA{}'
+
   return tithi_data_str

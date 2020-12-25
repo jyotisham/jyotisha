@@ -115,7 +115,7 @@ def print_lat_lon(lat, lon):
   else:
     lon_suffix = 'E'
 
-  return '%.6f°%s, %.6f°%s' % (lat, lat_suffix, lon, lon_suffix)
+  return '%.3f°%s, %.3f°%s' % (lat, lat_suffix, lon, lon_suffix)
 
 
 def clean_tamil_Na(text):
