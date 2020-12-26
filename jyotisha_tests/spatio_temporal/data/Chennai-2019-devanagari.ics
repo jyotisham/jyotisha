@@ -25164,9 +25164,9 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190913T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190914T235957
 DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of Bhādrapadaḥ (lun
  ar) month (Aparāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit 
- config file](https://github.com/jyotisham/adyatithi/tree/master/general/lu
- nar_month/tithi/06/16/mahAlaya-pakSa-ArambhaH.toml)<br/>- Tags: SpecialPer
- iodStart
+ config file](https://github.com/jyotisham/adyatithi/tree/master/devatA/pit
+ R/lunar_month/tithi/06/16/mahAlaya-pakSa-ArambhaH.toml)<br/>- Tags: Specia
+ lPeriodStart
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -26621,9 +26621,9 @@ SUMMARY:mahālaya-pakṣa-samāpanam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190927T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190928T235957
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/general/relative_event/%28bhAdrapada%29%20mahAlay
- a%20amAvAsyA/offset__00/mahAlaya-pakSa-samApanam.toml)<br/>- Tags: Special
- PeriodEnd CommonFestivals
+ am/adyatithi/tree/master/devatA/pitR/relative_event/%28bhAdrapada%29%20mah
+ Alaya%20amAvAsyA/offset__00/mahAlaya-pakSa-samApanam.toml)<br/>- Tags: Spe
+ cialPeriodEnd CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
