@@ -86,17 +86,17 @@ def get_yoga_data_str(daily_panchaanga, scripts, time_format):
 
 def get_raashi_data_str(daily_panchaanga, scripts, time_format):
   jd = daily_panchaanga.julian_day_start
-  rashi_data_str = ''
+  rashi_data_str = custom_transliteration.tr('candrarAziH—', scripts[0])
   for iRaashi, raashi_span in enumerate(daily_panchaanga.sunrise_day_angas.raashis_with_ends):
     if iRaashi == 0:
       (rashi_ID, rashi_end_jd) = (raashi_span.anga.index, raashi_span.jd_end)
       # if rashi_data_str != '':
       #     rashi_data_str += '\\hspace{1ex}'
-      rashi = names.NAMES['RASHI_SUFFIXED_NAMES']['sa'][scripts[0]][rashi_ID]
+      rashi = names.NAMES['RASHI_NAMES']['sa'][scripts[0]][rashi_ID]
       if rashi_end_jd is None:
         rashi_data_str = '%s\\mbox{%s}' % (rashi_data_str, rashi)
       else:
-        rashi_data_str = '%s\\mbox{%s \\RIGHTarrow \\textsf{%s}}' % \
+        rashi_data_str = '%s\\mbox{%s\\RIGHTarrow\\textsf{%s}}' % \
                          (rashi_data_str, rashi,
                           time.Hour(24 * (rashi_end_jd - jd)).to_string(
                             format=time_format))
