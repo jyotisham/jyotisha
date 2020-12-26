@@ -58,7 +58,7 @@ class Ayanamsha(common.JsonObject):
     elif self.ayanaamsha_id == Ayanamsha.RASHTRIYA_PANCHANGA_NAKSHATRA_TRACKING:
       swe.set_sid_mode(swe.SIDM_LAHIRI)
       return swe.get_ayanamsa_ut(jd)
-    raise Exception("Bad ayamasha_id")
+    raise Exception("Bad ayanamsha_id")
 
 
 class NakshatraDivision(common.JsonObject):
