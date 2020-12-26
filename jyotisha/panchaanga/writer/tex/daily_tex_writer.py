@@ -193,14 +193,17 @@ def stream_sun_moon_rise_data(daily_panchaanga, output_stream, time_format):
     format=time_format)
   moonset = time.Hour(24 * (daily_panchaanga.jd_moonset - jd)).to_string(
     format=time_format)
+  midday = time.Hour(24 * (daily_panchaanga.jd_sunrise*0.5 + daily_panchaanga.jd_sunset*0.5 - jd)).to_string(
+  format=time_format)
+
   if daily_panchaanga.jd_moonrise > daily_panchaanga.jd_next_sunrise:
     moonrise = '---'
   if daily_panchaanga.jd_moonset > daily_panchaanga.jd_next_sunrise:
     moonset = '---'
   if daily_panchaanga.jd_moonrise < daily_panchaanga.jd_moonset:
-    print('{\\sunmoonrsdata{%s}{%s}{%s}{%s}' % (sunrise, sunset, moonrise, moonset), file=output_stream)
+    print('{\\sunmoonrsdata{%s}{%s}{%s}{%s}{%s}' % (sunrise, sunset, moonrise, moonset, midday), file=output_stream)
   else:
-    print('{\\sunmoonsrdata{%s}{%s}{%s}{%s}' % (sunrise, sunset, moonrise, moonset), file=output_stream)
+    print('{\\sunmoonsrdata{%s}{%s}{%s}{%s}{%s}' % (sunrise, sunset, moonrise, moonset, midday), file=output_stream)
 
 
 def print_festivals_to_stream(daily_panchaanga, output_stream, panchaanga, languages, scripts):
