@@ -15883,10 +15883,11 @@ SUMMARY:chatrapati-śivājī-rājyābhiṣekaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190614T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190615T235957
 DESCRIPTION:Observed on Śukla-Trayodaśī tithi of Jyaiṣṭhaḥ (lunar
- ) month (Sūryodayaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit con
- fig file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/x
- atra/lunar_month/tithi/03/13/chatrapati~zivAjI~rAjyAbhiSEkaH.toml)<br/>- T
- ags: MahapurushaEvents
+ ) month (Sūryodayaḥ/puurvaviddha). The event has been commemorated sinc
+ e it occurred in 1596 (shaka era).  <br/><br/><br/>## Details<br/>- [Edit 
+ config file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSh
+ a/xatra/lunar_month/tithi/03/13/chatrapati~zivAjI~rAjyAbhiSEkaH.toml)<br/>
+ - Tags: MahapurushaEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE

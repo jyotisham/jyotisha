@@ -16,6 +16,7 @@ def get_year_0_offset(era_id):
   elif era_id == ERA_SHAKA:
     year_0_offset = -78
   elif era_id == ERA_KALI:
+    # 5121 year begins Apr. 2020
     year_0_offset = 3101
   elif era_id == ERA_VIKRAMA:
     year_0_offset = 57
