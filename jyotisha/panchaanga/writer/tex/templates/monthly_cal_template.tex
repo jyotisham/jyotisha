@@ -109,6 +109,18 @@
 \newcommand{\sundata}[3]{%
 \mbox{{\sun\tiny\UParrow} {\scriptsize \textsf{#1}} {\sun\tiny\DOWNarrow} {\scriptsize \textsf{#2}} \tiny{\mbox{(स \textsf{#3})}}}
 }
+\renewcommand{\time}[2]{#1 (#2)}
+\newcommand{\anga}[2]{\mbox{#1\To{}\textsf{#2}}}
+\newcommand{\fullanga}[1]{\mbox{#1\To{}\ahorAtram}}
+\newcommand{\fulltithi}[1]{\mbox{#1\To{}\ahorAtram\tridina}}
+\newcommand{\lagna}[2]{\mbox{#1\RIGHTarrow\textsf{#2}}}
+\newcommand{\uanga}[1]{\mbox{#1\Too}}
+\newcommand{\avamA}{
+    \raisebox{1.5pt}{\fcolorbox{white}{gray!40}{\scriptsize अवमा}}
+}
+\newcommand{\tridina}{
+    \raisebox{1.5pt}{\fcolorbox{white}{gray!40}{\scriptsize त्रिदिनस्पृक्}}
+}
 \newcommand{\tnyk}[4]{
 \mbox{#1}\\
 \mbox{#2}\\
