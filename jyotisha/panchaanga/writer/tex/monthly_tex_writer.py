@@ -68,7 +68,7 @@ def write_monthly_tex(panchaanga, time_format="hh:mm", languages=None, scripts=N
   print('\\begin{multicols*}{3}')
   print('\\TrickSupertabularIntoMulticols')
   print('\\begin{supertabular}' +
-        '{>{\\sffamily}r>{\\sffamily}r>{\\sffamily}c>{\\hangindent=2ex}panchaanga{8cm}}')
+        '{>{\\sffamily}r>{\\sffamily}r>{\\sffamily}c>{\\hangindent=2ex}p{8cm}}')
 
   mlast = 1
   daily_panchaangas = panchaanga.daily_panchaangas_sorted()
