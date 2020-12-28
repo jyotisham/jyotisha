@@ -8,7 +8,7 @@ def get_lagna_data_str(daily_panchaanga, scripts, time_format):
   lagna_data_str = 'लग्नम्–'
   for lagna_ID, lagna_end_jd in daily_panchaanga.lagna_data:
     lagna = names.NAMES['RASHI_NAMES']['sa'][scripts[0]][lagna_ID]
-    lagna_data_str = '%s\\mbox{%s\\RIGHTarrow\\textsf{%s}} ' % \
+    lagna_data_str = '%s\\anga{%s}{%s} ' % \
                      (lagna_data_str, lagna,
                       time.Hour(24 * (lagna_end_jd - jd)).to_string(
                         format=time_format))
@@ -44,10 +44,10 @@ def get_karaNa_data_str(daily_panchaanga, scripts, time_format):
     #     karana_data_str += '\\hspace{1ex}'
     karana = names.NAMES['KARANA_NAMES']['sa'][scripts[0]][karana_ID]
     if karana_end_jd is None:
-      karana_data_str = '%s\\mbox{%s\\Too{}}' % \
+      karana_data_str = '%s\\uanga{%s}' % \
                         (karana_data_str, karana)
     else:
-      karana_data_str = '%s\\mbox{%s\\To{}\\textsf{%s (%s)}}\\hspace{1ex}' % \
+      karana_data_str = '%s\\anga{%s}{\\time{%s}{%s}}\\hspace{1ex}' % \
                         (karana_data_str, karana,
                          time.Hour(
                            24 * (karana_end_jd - daily_panchaanga.jd_sunrise)).to_string(format='gg-pp'),
@@ -66,20 +66,18 @@ def get_yoga_data_str(daily_panchaanga, scripts, time_format):
     yoga = names.NAMES['YOGA_NAMES']['sa'][scripts[0]][yoga_ID]
     if yoga_end_jd is None:
       if iYoga == 0:
-        yoga_data_str = '%s\\mbox{%s\\To{}%s}' % \
-                        (yoga_data_str, yoga, custom_transliteration.tr('ahOrAtram', scripts[0]))
+        yoga_data_str = '%s\\fullanga{%s}' % (yoga_data_str, yoga)
       else:
-        yoga_data_str = '%s\\mbox{%s\\Too{}}' % \
-                        (yoga_data_str, yoga)
+        yoga_data_str = '%s\\uanga{%s}' % (yoga_data_str, yoga)
     else:
-      yoga_data_str = '%s\\mbox{%s\\To{}\\textsf{%s (%s)}}\\hspace{1ex}' % \
+      yoga_data_str = '%s\\anga{%s}{\\time{%s}{%s}}\\hspace{1ex}' % \
                       (yoga_data_str, yoga,
                        time.Hour(24 * (yoga_end_jd - daily_panchaanga.jd_sunrise)).to_string(
                          format='gg-pp'),
                        time.Hour(24 * (yoga_end_jd - jd)).to_string(
                          format=time_format))
   if yoga_end_jd is not None:
-    yoga_data_str += '\\mbox{%s\\Too{}}' % (
+    yoga_data_str += '\\uanga{%s}' % (
       names.NAMES['YOGA_NAMES']['sa'][scripts[0]][(yoga_ID % 27) + 1])
   return yoga_data_str
 
@@ -113,11 +111,9 @@ def get_nakshatra_data_str(daily_panchaanga, scripts, time_format):
     nakshatra = names.NAMES['NAKSHATRA_NAMES']['sa'][scripts[0]][nakshatra_ID]
     if nakshatra_end_jd is None:
       if iNakshatra == 0:
-        nakshatra_data_str = '%s\\mbox{%s\\To{}%s}' % \
-                             (nakshatra_data_str, nakshatra,
-                              custom_transliteration.tr('ahOrAtram', scripts[0]))
+        nakshatra_data_str = '%s\\fullanga{%s}' % (nakshatra_data_str, nakshatra)
     else:
-      nakshatra_data_str = '%s\\mbox{%s\\To{}\\textsf{%s (%s)}}' % \
+      nakshatra_data_str = '%s\\anga{%s}{\\time{%s}{%s}}' % \
                            (nakshatra_data_str, nakshatra,
                             time.Hour(
                               24 * (nakshatra_end_jd - daily_panchaanga.jd_sunrise)).to_string(format='gg-pp'),
@@ -132,15 +128,13 @@ def get_tithi_data_str(daily_panchaanga, scripts, time_format):
   tithi_data_str = ''
   for iTithi, tithi_span in enumerate(daily_panchaanga.sunrise_day_angas.tithis_with_ends):
     (tithi_ID, tithi_end_jd) = (tithi_span.anga.index, tithi_span.jd_end)
-    tithi = '\\raisebox{-1pt}{\\moon[scale=0.8]{%d}}\\hspace{2pt}' % (tithi_ID) + \
-            names.NAMES['TITHI_NAMES']['sa'][scripts[0]][tithi_ID]
+    tithi = '\\tithi{%d}{%s}' % (tithi_ID,
+            names.NAMES['TITHI_NAMES']['sa'][scripts[0]][tithi_ID])
     if tithi_end_jd is None:
       if iTithi == 0:
-        tithi_data_str = '%s\\mbox{%s\\To{}%s\\tridina}' % \
-                         (tithi_data_str, tithi,
-                          custom_transliteration.tr('ahOrAtram', scripts[0]))
+        tithi_data_str = '%s\\fulltithi{%s}' % (tithi_data_str, tithi)
     else:
-      tithi_data_str = '%s\\mbox{%s\\To{}\\textsf{%s (%s)}}\\hspace{1ex}' % \
+      tithi_data_str = '%s\\anga{%s}{\\time{%s}{%s}}\\hspace{1ex}' % \
                        (tithi_data_str, tithi,
                         time.Hour(
                           24 * (tithi_end_jd - daily_panchaanga.jd_sunrise)).to_string(format='gg-pp'),
