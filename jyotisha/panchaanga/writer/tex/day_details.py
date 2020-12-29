@@ -5,15 +5,31 @@ from jyotisha.panchaanga.temporal import time, names
 
 def get_lagna_data_str(daily_panchaanga, scripts, time_format):
   jd = daily_panchaanga.julian_day_start
-  lagna_data_str = 'लग्नम्–'
+  lagna_data_str = jyotisha.custom_transliteration.tr('lagnAni—', scripts[0])
   for lagna_ID, lagna_end_jd in daily_panchaanga.lagna_data:
     lagna = names.NAMES['RASHI_NAMES']['sa'][scripts[0]][lagna_ID]
-    lagna_data_str = '%s\\anga{%s}{%s} ' % \
+    lagna_data_str = '%s\\lagna{%s}{%s} ' % \
                      (lagna_data_str, lagna,
                       time.Hour(24 * (lagna_end_jd - jd)).to_string(
                         format=time_format))
   return lagna_data_str
 
+
+def get_shraaddha_tithi_data_str(daily_panchaanga, scripts, time_format):
+  if daily_panchaanga.shraaddha_tithi == []:
+    stithi_data_str = '---'
+  else:
+    if daily_panchaanga.shraaddha_tithi[0].index == 0:
+      stithi_data_str = jyotisha.custom_transliteration.tr('zUnyatithiH', scripts[0])
+    else:
+      t1 = names.NAMES['TITHI_NAMES']['sa'][scripts[0]][daily_panchaanga.shraaddha_tithi[0].index]
+      if len(daily_panchaanga.shraaddha_tithi) == 2:
+        t2 = names.NAMES['TITHI_NAMES']['sa'][scripts[0]][daily_panchaanga.shraaddha_tithi[1].index]
+        stithi_data_str = '%s/%s (%s)' % \
+                                (t1.split('-')[-1], t2.split('-')[-1], jyotisha.custom_transliteration.tr('tithidvayam', scripts[0]))
+      else:
+        stithi_data_str = '%s' % (t1.split('-')[-1])
+  return stithi_data_str
 
 def get_raahu_yama_gulika_strings(daily_panchaanga, time_format):
   jd = daily_panchaanga.julian_day_start
