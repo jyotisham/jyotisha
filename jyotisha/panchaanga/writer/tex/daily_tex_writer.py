@@ -77,8 +77,8 @@ def emit(panchaanga, time_format="hh:mm", languages=None, scripts=None, output_s
     nakshatra_data_str = get_nakshatra_data_str(daily_panchaanga, scripts, time_format)
 
     rashi_data_str = get_raashi_data_str(daily_panchaanga, scripts, time_format)
-    if compute_lagnams:
-      lagna_data_str = get_lagna_data_str(daily_panchaanga, scripts, time_format)
+    
+    lagna_data_str = get_lagna_data_str(daily_panchaanga, scripts, time_format) if compute_lagnams else ''
 
     yoga_data_str = get_yoga_data_str(daily_panchaanga, scripts, time_format)
 
@@ -121,14 +121,10 @@ def emit(panchaanga, time_format="hh:mm", languages=None, scripts=None, output_s
     stream_sun_moon_rise_data(daily_panchaanga, output_stream, time_format)
 
     stream_daylength_based_periods(daily_panchaanga, output_stream, time_format)
-    if compute_lagnams:
-      print('{\\tnykdata{%s}%%\n{%s}{%s}%%\n{%s}%%\n{%s}{%s}\n}'
-            % (tithi_data_str, nakshatra_data_str, rashi_data_str, yoga_data_str,
-               karana_data_str, lagna_data_str), file=output_stream)
-    else:
-      print('{\\tnykdata{%s}%%\n{%s}{%s}%%\n{%s}%%\n{%s}{\\scriptsize %s}\n}'
-            % (tithi_data_str, nakshatra_data_str, rashi_data_str, yoga_data_str,
-               karana_data_str, ''), file=output_stream)
+
+    print('{\\tnykdata{%s}%%\n{%s}{%s}%%\n{%s}%%\n{%s}{%s}\n}'
+          % (tithi_data_str, nakshatra_data_str, rashi_data_str, yoga_data_str,
+             karana_data_str, lagna_data_str), file=output_stream)
 
     print_festivals_to_stream(daily_panchaanga, output_stream, panchaanga, languages, scripts)
 
