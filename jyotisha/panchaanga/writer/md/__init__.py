@@ -4,7 +4,6 @@ from indic_transliteration import sanscript
 from jyotisha.panchaanga.temporal import names
 from jyotisha.panchaanga.temporal.names import translate_or_transliterate
 from jyotisha.panchaanga.writer.md import day_details
-from jyotisha.panchaanga.temporal.festival.rules import RulesRepo
 
 
 def make_md(panchaanga, scripts=None, languages=None):
