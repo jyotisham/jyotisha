@@ -50,7 +50,7 @@ class Panchaanga(common.JsonObject):
 
     self.duration = int(self.jd_end - self.jd_start) + 1
 
-    # For accurate festival assignment, we sometimes need panchaanga information about succeeding or preceeding days. 
+    # For accurate festival assignment, we sometimes need panchaanga information about succeeding or preceding days. 
     # For example, consider a festival to be selebrated during naxatra 27 in solar sideral month 9. If naxatra 27 occurs twice in sidereal_solar_month 9 (gap of 27+ daus), the latter occurence is to be selected - the former day will not get a festival. 
     self.duration_posterior_padding = int(self.duration + 30)
     self.duration_prior_padding = 2
