@@ -49,12 +49,12 @@ def test_SolsticePostDark10AdhikaAssigner():
   assert panchaanga.lunar_month_sunrise.index == 10.5
 
 
-  # Though this month contained a solstice on amAvAsyA, it is not intercalary since the preceeding solstice was intercalary.
+  # Though this month contained a solstice on amAvAsyA, it is not intercalary since the preceding solstice was intercalary.
   panchaanga = daily.DailyPanchaanga(
     city=chennai, date=Date(2020, 6, 1), computation_system=ComputationSystem.SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_180)
   assert panchaanga.lunar_month_sunrise.index == 4
 
-  # Though this month contained a solstice on amAvAsyA, it is not intercalary since the preceeding solstice was intercalary.
+  # Though this month contained a solstice on amAvAsyA, it is not intercalary since the preceding solstice was intercalary.
   panchaanga = daily.DailyPanchaanga(
     city=chennai, date=Date(2020, 6, 21), computation_system=ComputationSystem.SOLSTICE_POST_DARK_10_ADHIKA__CHITRA_180)
   assert panchaanga.lunar_month_sunrise.index == 4

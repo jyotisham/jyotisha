@@ -505,7 +505,7 @@
         "jsonClass": "Interval",
         "name": "प्रदोषः"
       },
-      "preceeding_arunodaya": {
+      "preceding_arunodaya": {
         "jd_end": 2444961.5423,
         "jd_start": 2444961.4713,
         "jsonClass": "Interval",
@@ -570,6 +570,12 @@
         "jd_start": 2444962.0104,
         "jsonClass": "Interval",
         "name": "शङ्करः"
+      },
+      "succeeding_braahma": {
+        "jd_end": 2444962.5072,
+        "jd_start": 2444962.4717,
+        "jsonClass": "Interval",
+        "name": "ब्राह्मः"
       },
       "tb_muhuurtas": [
         {

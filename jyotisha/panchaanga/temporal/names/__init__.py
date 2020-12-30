@@ -91,11 +91,13 @@ python_to_devanaagarii = {
   "nishiitha": "निशीथः",
   "raahu": "राहुकालः",
   "gulika": "गुलिककालः",
+  "raatri_gulika": "रात्रौ गुलिककालः",
   "yama": "यमघण्टः",
+  "raatri_yama": "रात्रौ यमघण्टः",
   "raatri_yaama_1": "यामः प्रथमः",
   "shayana": "शयनकालः",
   "dinaanta": "दिनान्तम्",
-  "preceeding_arunodaya": "प्राक्तनारुणोदयः",
+  "preceding_arunodaya": "प्राक्तनारुणोदयः",
   "maadhyaahnika_sandhyaa": "माध्याह्निकसन्ध्यावन्दनकालः",
   "puurvaahna": "पूर्वाह्णः",
   "raatrimaana": "रात्रिमानम्",
@@ -131,6 +133,7 @@ python_to_devanaagarii = {
   "jaiva" : "जैवः",
   "vaishnava" : "वैष्णवः",
   "saura" : "सौरः",
+  "succeeding_braahma" : "ब्राह्मः",
   "naabhasvata" : "नाभस्वतः",  
 } 
 

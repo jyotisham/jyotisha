@@ -109,7 +109,7 @@ class FifteenFoldDivision(common.JsonObject):
     super(FifteenFoldDivision, self).__init__()
     self.braahma = get_interval(start_jd=jd_previous_sunset, end_jd=jd_sunrise, part_index=13, num_parts=15)
     self.praatas_sandhyaa = get_interval(start_jd=jd_previous_sunset, end_jd=jd_sunrise, part_index=14, num_parts=15) + get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=range(0,4), num_parts=15)
-    self.preceeding_arunodaya = get_interval(start_jd=jd_previous_sunset, end_jd=jd_sunrise, part_index=[13, 14], num_parts=15)
+    self.preceding_arunodaya = get_interval(start_jd=jd_previous_sunset, end_jd=jd_sunrise, part_index=[13, 14], num_parts=15)
     self.praatah = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=0, num_parts=5)
     self.saangava = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=1, num_parts=5)
     self.madhyaahna = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=2, num_parts=5)
@@ -173,7 +173,7 @@ class FifteenFoldDivision(common.JsonObject):
     self.jaiva = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=10, num_parts=15)
     self.vaishnava = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=11, num_parts=15)
     self.saura = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=12, num_parts=15)
-    # self.braahma = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=13, num_parts=15)
+    self.succeeding_braahma = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=13, num_parts=15)
     self.naabhasvata = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=14, num_parts=15)
 
     self.tb_muhuurtas = None
@@ -207,15 +207,21 @@ class EightFoldDivision(common.JsonObject):
   """
   def __init__(self, jd_sunrise, jd_sunset, jd_next_sunrise, weekday):
     super(EightFoldDivision, self).__init__()
-    YAMAGANDA_OCTETS = [4, 3, 2, 1, 0, 6, 5]
-    RAHUKALA_OCTETS = [7, 1, 6, 4, 5, 3, 2]
-    GULIKAKALA_OCTETS = [6, 5, 4, 3, 2, 1, 0]
+    YAMAGHANTA_SLICES = [4, 3, 2, 1, 0, 6, 5]
+    # YAMAGHANTA_SLICES_NIGHT = [4, 3, 2, 1, 0, 6, 5]
+    RAHUKALA_SLICES = [7, 1, 6, 4, 5, 3, 2]
+    GULIKAKALA_SLICES = [6, 5, 4, 3, 2, 1, 0]
+    # GULIKAKALA_SLICES_NIGHT = [4, 3, 2, 1, 0, 5, 6]
     self.raahu = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset,
-                              part_index=RAHUKALA_OCTETS[weekday], num_parts=8)
+                              part_index=RAHUKALA_SLICES[weekday], num_parts=8)
     self.yama = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset,
-                             part_index=YAMAGANDA_OCTETS[weekday], num_parts=8)
+                             part_index=YAMAGHANTA_SLICES[weekday], num_parts=8)
     self.gulika = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset,
-                               part_index=GULIKAKALA_OCTETS[weekday], num_parts=8)
+                               part_index=GULIKAKALA_SLICES[weekday], num_parts=8)
+    # self.raatri_gulika = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise,
+    #                            part_index=GULIKAKALA_SLICES_NIGHT[weekday], num_parts=8)
+    # self.raatri_yama = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise,
+    #                            part_index=YAMAGHANTA_SLICES_NIGHT[weekday], num_parts=8)
     self.raatri_yaama_1 = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=1, num_parts=4)
     self.shayana = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=3, num_parts=8)
     self.dinaanta = get_interval(jd_sunset, end_jd=jd_next_sunrise, part_index=5, num_parts=8)
