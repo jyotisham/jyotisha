@@ -208,7 +208,7 @@ class TbSayanaMuhuurta(Interval):
 
   def __init__(self, jd_start, jd_end, muhuurta_id):
     super().__init__(jd_start=jd_start, jd_end=jd_end)
-    self.name = "%s-मु॰%d" % (["प्रातः", "साङ्गवः", "पूर्वाह्णः", "अपराह्णः", "सायाह्णः"][int(muhuurta_id/3)], (muhuurta_id % 3) + 1)
+    self.name = "%s-मु॰%d" % (["प्रातः", "साङ्गवः", "पूर्वाह्णः", "अपराह्णः", "सायाह्नः"][int(muhuurta_id/3)], (muhuurta_id % 3) + 1)
     self.muhuurta_id = muhuurta_id
     self.ahna = floor(self.muhuurta_id / 3)
     self.ahna_part = self.muhuurta_id % 3
