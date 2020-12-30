@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20201230182153
+SEQUENCE:20201230211741
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -5839,8 +5839,8 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200223T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200224T000000
 DESCRIPTION:If\, on a Sunday\, amāvāsyā and one of the stars—śrava
  ṇam\, aśvinī\, śraviṣṭhā\, ārdrā or āśreṣā—occurs\, the
- n it is called vyatīpāta yogaḥ\, equal to a hundred _Surya grahanas_ i
- n merit.<br/><br/>श्रवणाश्विधनिष्ठार
+ n it is called vyatīpāta yogaḥ\, equal to a hundred sūrya grahaṇams
+  in merit.<br/><br/>श्रवणाश्विधनिष्ठार
  ्द्रानागदैवतमापतेत्।  <br/>रव
  िवारयुतामायां व्यतीपातः स 
  उच्यते।  <br/>व्यतीपाताख्ययोग
@@ -11808,7 +11808,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:परलि-दुर्गो जितः स्वराज्
- यॆन
+ येन
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200411T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20200412T000000
 DESCRIPTION:Observed on day 11 of April (gregorian) month. Julian date was
