@@ -115,10 +115,65 @@ class FifteenFoldDivision(common.JsonObject):
     self.aparaahna = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=3, num_parts=5)
     self.saayaahna = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=4, num_parts=5)
     self.saayam_sandhyaa = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=14, num_parts=15)
-    # pradOSo.astamayAdUrdhvaM ghaTikAdvayamiShyatE (tithyAdi tattvam, Vrat Parichay panchaanga. 25 Gita Press).
+    # pradOSo.astamayAdUrdhvaM ghaTikAdvayamiShyatE (tithyAdi tattvam, Vrat Parichay p. 25 Gita Press).
     self.pradosha = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=0, num_parts=15)
     self.madhyaraatri = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=2, num_parts=5)
     self.nishiitha = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=7, num_parts=15)
+    
+    # रौद्रश्चैत्रस्तथा मैत्रस्तथा सालकटः स्मृतः ।
+    # सावित्रश्च जयन्तश्च गान्धर्वः कुतपस्तथा ।
+    # रौहिणश्च विरिञ्चिश्च विजयो नैर्ऋतस्तथा ।
+    # महेन्द्रो वरुणश्चैव बोधः पञ्चदशः स्मृतः ॥ 
+    # (इति शङ्खः (स्मृतिमुक्ताफले))
+    #
+    # रौद्रः श्वेतश्च मैत्रश्च तथा सारभट: स्मृतः ।
+    # सावित्रो वैश्वदेवश्च गान्धर्वः कुतपस्तथा ।
+    # रोहिणस्तिलकश्चैव विभवो निर्ऋतिस्तथा । 
+    # शंबरो विजयश्चैव भेदाः पञ्चदशः स्मृताः ॥ 
+    # (इति पुराणे (जयसिंहकल्पद्रुमे))
+    self.raudra = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=0, num_parts=15)
+    self.chaitra = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=1, num_parts=15)
+    self.maitra = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=2, num_parts=15)
+    self.saalakata = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=3, num_parts=15)
+    self.saavitra = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=4, num_parts=15)
+    self.jayanta = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=5, num_parts=15)
+    self.gaandharva = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=6, num_parts=15)
+    self.kutapa = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=7, num_parts=15)
+    self.rauhina = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=8, num_parts=15)
+    self.virinchi = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=9, num_parts=15)
+    self.vijaya = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=10, num_parts=15)
+    self.nairrita = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=11, num_parts=15)
+    self.mahendra = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=12, num_parts=15)
+    self.varuna = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=13, num_parts=15)
+    self.bodha = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=14, num_parts=15)
+
+    # शंकरश्चाजपाच्चैव तथाऽहिर्बुध्न्यपूषकौ ।
+    # आश्विनो याम्यवाह्नेयौ वैधात्रश्चान्द्र एव च ।
+    # आदितेयोऽथ जैवश्च वैष्णवः सौर एव च ।
+    # ब्राह्मो नाभस्वतश्चैव मुहूर्ताः क्रमशो निशि ॥ 
+    # (इति जयसिंहकल्पद्रुमे) 
+
+    # शंकरश्चाजपादश्च तथाऽहिर्बुध्यमैत्रकौ ।
+    # आश्विनौ याम्यवाहयौ वैधात्रश्चान्द्र एव च ॥ 
+    # आदितेयोऽथ जैवश्च वैष्णवः सौर एव च ।
+    # ब्राह्मो नाभस्वतश्चैव मुहूर्ताः क्रमशो निशि ॥ 
+    # (इति वीरमित्रोदय-आह्निकप्रकाशे)
+    self.shankara = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=0, num_parts=15)
+    self.ajapaat = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=1, num_parts=15)
+    self.ahirbudhnya = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=2, num_parts=15)
+    self.puushaka = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=3, num_parts=15)
+    self.aashvina = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=4, num_parts=15)
+    self.yaamyava = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=5, num_parts=15)
+    self.aahneya = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=6, num_parts=15)
+    self.vaidhaatra = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=7, num_parts=15)
+    self.chaandra = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=8, num_parts=15)
+    self.aaditeya = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=9, num_parts=15)
+    self.jaiva = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=10, num_parts=15)
+    self.vaishnava = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=11, num_parts=15)
+    self.saura = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=12, num_parts=15)
+    # self.braahma = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=13, num_parts=15)
+    self.naabhasvata = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=14, num_parts=15)
+
     self.tb_muhuurtas = None
     self.compute_tb_muhuurtas(jd_sunrise=jd_sunrise, jd_sunset=jd_sunset)
 
