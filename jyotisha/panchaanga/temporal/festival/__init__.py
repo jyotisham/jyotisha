@@ -32,7 +32,7 @@ class FestivalInstance(common.JsonObject):
     if self.interval is None:
       return name
     else:
-      return "%s (%s)" % (name, self.interval.to_hour_text(script=sanscript.IAST, tz=timezone, reference_date=reference_date))
+      return "%s (%s)" % (name, self.interval.to_hour_text(script=sanscript.IAST, tz=timezone, reference_date=reference_date))
 
   def get_human_names(self, fest_details_dict):
     from jyotisha.panchaanga.temporal.festival import rules
