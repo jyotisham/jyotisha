@@ -53,7 +53,7 @@ class SolarFestivalAssigner(FestivalAssigner):
         1: "mESa-saGkramaNa",
         2: "vRSabha-ravi-saGkramaNa-viSNupadI",
         3: "mithuna-ravi-saGkramaNa-SaDazIti",
-        4: "kaTaka-saGkramaNa",
+        4: "karkaTa-saGkramaNa",
         5: "siMha-ravi-saGkramaNa-viSNupadI",
         6: "kanyA-ravi-saGkramaNa-SaDazIti",
         7: "tulA-saGkramaNa",

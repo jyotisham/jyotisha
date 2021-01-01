@@ -377,7 +377,7 @@ class TithiFestivalAssigner(FestivalAssigner):
         pref = '(%s) mahAlaya ' % (
           names.get_chandra_masa(self.daily_panchaangas[d].lunar_month_sunrise.index, 'hk', visarga=False))
       elif self.daily_panchaangas[d].solar_sidereal_date_sunset.month == 4:
-        pref = '%s (kaTaka) ' % (
+        pref = '%s (karkaTa) ' % (
           names.get_chandra_masa(self.daily_panchaangas[d].lunar_month_sunrise.index, 'hk', visarga=False))
       elif self.daily_panchaangas[d].solar_sidereal_date_sunset.month == 10:
         pref = 'mauni (%s/makara) ' % (
