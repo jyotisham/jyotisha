@@ -32125,8 +32125,8 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191115T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191116T235957
 DESCRIPTION:End of a month long offering of Akasha Dipam.<br/><br/>## Deta
  ils<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/m
- aster/temples/Tamil/relative_event/kRttikA-maNDala-pArAyaNam/offset__-1/Ak
- AzadIpa-samApanam.toml)<br/>- Tags: TamilnaduTempleFestivals
+ aster/temples/Tamil/relative_event/kRttikA-maNDala-pArAyaNa-ArambhaH/offse
+ t__-1/AkAzadIpa-samApanam.toml)<br/>- Tags: TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -32185,9 +32185,9 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191115T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191116T235957
 DESCRIPTION:End of Tula Kaveri Snanam. Also known as ta:kaḍaimugam.<br/>
  <br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adya
- tithi/tree/master/temples/Tamil/relative_event/kRttikA-maNDala-pArAyaNam/o
- ffset__-1/tulA-kAvErI-snAna-samApanam.toml)<br/>- Tags: TamilnaduTempleFes
- tivals
+ tithi/tree/master/temples/Tamil/relative_event/kRttikA-maNDala-pArAyaNa-Ar
+ ambhaH/offset__-1/tulA-kAvErI-snAna-samApanam.toml)<br/>- Tags: TamilnaduT
+ empleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -32269,15 +32269,15 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:kṛttikā-maṇḍala-pārāyaṇam
+SUMMARY:kṛttikā-maṇḍala-pārāyaṇa-ārambhaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191116T235957
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191118T235957
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191117T235957
 DESCRIPTION:Observed on day 1 of Vṛścikaḥ (sidereal solar) month (Sū
- ryodayaḥ/puurvaviddha). Conduct veda parayanam in the evening\, on one o
- f these 48 days.<br/><br/>## Details<br/>- [Edit config file](https://gith
- ub.com/jyotisham/adyatithi/tree/master/time_focus/misc/sidereal_solar_mont
- h/day/08/01/kRttikA-maNDala-pArAyaNam.toml)<br/>- Tags: SpecialPeriodStart
-  CommonFestivals
+ ryodayaḥ/puurvaviddha). Conduct Veda parayanam in the evening\, during (
+ or at least on one of) these 48 days.<br/><br/>## Details<br/>- [Edit conf
+ ig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/mis
+ c/sidereal_solar_month/day/08/01/kRttikA-maNDala-pArAyaNa-ArambhaH.toml)<b
+ r/>- Tags: SpecialPeriodStart CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE

@@ -56,6 +56,7 @@ def get_full_festival_instance(festival_instance, daily_panchaangas, day_index):
                     'pakSa-': 'pakSaH',
                     'puSkara-': 'puSkaram',
                     'dIpa-': 'dIpaH',
+                    'pArAyaNa-': 'pArAyaNam',
                     'snAna-': 'snAnam',
                     'tsava-': 'tsavaH',
                     'vrata-': 'vratam'}
@@ -100,9 +101,6 @@ def set_interval(daily_panchaanga, festival_instance):
     festival_instance.interval.jd_start = daily_panchaanga.julian_day_start
   if festival_instance.interval.jd_end is None:
     festival_instance.interval.jd_end = daily_panchaanga.julian_day_start + 1
-  if festival_instance.name == 'kRttikA-maNDala-pArAyaNam':
-    festival_instance.interval = Interval(jd_start=daily_panchaanga.julian_day_start,
-                                          jd_end=daily_panchaanga.julian_day_start + 2)
 
 
 def add_festival_events(day_index, ics_calendar, panchaanga, languages, scripts):
