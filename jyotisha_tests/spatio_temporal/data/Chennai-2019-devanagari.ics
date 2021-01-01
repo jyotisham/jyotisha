@@ -128,7 +128,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:kāñcī 68 jagadguru śrī-candraśekharendra sarasvatī 7 ārād
- hanā
+ hanā #25
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190101T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190102T235957
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -358,6 +358,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:kāñcī 14 jagadguru śrī-vidyāghanendra sarasvatī ārādhanā
+  #1702
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190104T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190105T235957
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -378,7 +379,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:kāñcī 34 jagadguru śrī-candraśekharendra sarasvatī 2 ārād
- hanā
+ hanā #1309
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190104T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190105T235957
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -1298,7 +1299,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:kāñcī 55 jagadguru śrī-candracūḍendra sarasvatī 3 ārādh
- anā
+ anā #495
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190116T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190117T235957
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -1617,7 +1618,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:kāñcī 8 jagadguru śrī-kaivalyānandayogendra sarasvatī ārā
- dhanā
+ dhanā #1990
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190119T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190120T235957
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -1785,7 +1786,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:badarī jyotirmaṭha-pratiṣṭhāpana-jayantī
+SUMMARY:badarī jyotirmaṭha-pratiṣṭhāpana-jayantī #2504
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190120T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190121T235957
 DESCRIPTION:Observed on Paurṇamāsī tithi of Pauṣaḥ (lunar) month (
@@ -1886,7 +1887,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:śṛṅgerī śāradāmaṭha-pratiṣṭhāpana-jayantī
+SUMMARY:śṛṅgerī śāradāmaṭha-pratiṣṭhāpana-jayantī #2502
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190120T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190121T235957
 DESCRIPTION:Observed on Paurṇamāsī tithi of Pauṣaḥ (lunar) month (
@@ -1948,7 +1949,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:kāñcī 37 jagadguru śrī-vidyāghanendra sarasvatī 3 ārādhan
- ā
+ ā #1231
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190121T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190122T235957
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -1969,7 +1970,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:kāñcī 62 jagadguru śrī-candraśekharendra sarasvatī 4 ārād
- hanā
+ hanā #236
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190121T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190122T235957
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -2200,7 +2201,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:tyāgarāja-ārādhanā
+SUMMARY:tyāgarāja-ārādhanā #172
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190124T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190125T235957
 DESCRIPTION:Observed on Kṛṣṇa-Pañcamī tithi of Pauṣaḥ (lunar) 
@@ -2261,7 +2262,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:śrī-śeṣādri-svāmi-jayantī
+SUMMARY:śrī-śeṣādri-svāmi-jayantī #150
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190125T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190126T235957
 DESCRIPTION:Observed on Hastaḥ nakshatra of Makaraḥ (sidereal solar) m
@@ -2358,7 +2359,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:vivekānanda-jayantī
+SUMMARY:vivekānanda-jayantī #157
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190126T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190127T235957
 DESCRIPTION:Observed on Kṛṣṇa-Saptamī tithi of Pauṣaḥ (lunar) m
@@ -2724,7 +2725,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:seṅgālipuram-muttaṇṇāvāḻ-ārādhanā
+SUMMARY:seṅgālipuram-muttaṇṇāvāḻ-ārādhanā #126
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190131T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190201T235957
 DESCRIPTION:Observed on Kṛṣṇa-Dvādaśī tithi of Makaraḥ (siderea
@@ -3413,7 +3414,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:proklas-janma
+SUMMARY:proklas-janma #1607
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190208T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190209T235957
 DESCRIPTION:Observed on day 9 of February (gregorian) month. Julian date w
@@ -3747,7 +3748,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:dvārakā-maṭha-pratiṣṭhāpana-jayantī
+SUMMARY:dvārakā-maṭha-pratiṣṭhāpana-jayantī #2509
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190211T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190212T235957
 DESCRIPTION:Observed on Śukla-Saptamī tithi of Māghaḥ (lunar) month (
@@ -4025,7 +4026,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:kāñcī 11 jagadguru śrī-śivānanda cidghanendra sarasvatī ā
- rādhanā
+ rādhanā #1847
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190213T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190214T235957
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -4805,7 +4806,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:kāñcī 51 jagadguru śrī-vidyātīrthendra sarasvatī ārādhan
- ā
+ ā #634
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190219T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190220T235957
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -5232,7 +5233,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:kāñcī 66 jagadguru śrī-candraśekharendra sarasvatī 6 ārād
- hanā
+ hanā #112
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190225T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190226T235957
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -5572,6 +5573,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:kāñcī jagadguru śrī-śaṅkara vijayendra sarasvatī jayantī
+  #51
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190302T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190303T235957
 DESCRIPTION:Observed on Uttarāṣāḍhā nakshatra of Kumbhaḥ (siderea
@@ -5928,7 +5930,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:purandaradāsa-ārādhanā
+SUMMARY:purandaradāsa-ārādhanā #455
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190305T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190306T235957
 DESCRIPTION:Observed on Amāvāsyā tithi of Māghaḥ (lunar) month (Sūr
@@ -6008,6 +6010,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:kāñcī 67 jagadguru śrī-mahādevendra sarasvatī 5 ārādhanā
+  #112
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190306T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190307T235957
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -6139,7 +6142,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:rāmakṛṣṇa-paramahaṃsa-jayantī
+SUMMARY:rāmakṛṣṇa-paramahaṃsa-jayantī #184
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190307T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190308T235957
 DESCRIPTION:Observed on Śukla-Dvitīyā tithi of Phālgunaḥ (lunar) mon
@@ -6239,7 +6242,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:pūntānaṃ-jayantī
+SUMMARY:pūntānaṃ-jayantī #472
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190309T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190310T235957
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -6531,7 +6534,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:śrī-rāghavendra-svāmi-jayantī
+SUMMARY:śrī-rāghavendra-svāmi-jayantī #425
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190312T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190313T235957
 DESCRIPTION:Observed on Śukla-Saptamī tithi of Phālgunaḥ (lunar) mont
@@ -7098,7 +7101,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:kāñcī 69 jagadguru śrī-jayendra sarasvatī ārādhanā
+SUMMARY:kāñcī 69 jagadguru śrī-jayendra sarasvatī ārādhanā #1
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190318T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190319T235957
 DESCRIPTION:Observed on Śukla-Trayodaśī tithi of Phālgunaḥ (lunar) m
@@ -7374,7 +7377,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:caitanya-mahāprabhu-jayantī
+SUMMARY:caitanya-mahāprabhu-jayantī #534
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190320T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190321T235957
 DESCRIPTION:Observed on Paurṇamāsī tithi of Phālgunaḥ (lunar) month
@@ -7627,7 +7630,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:chatrapati-śivājī-jayantī
+SUMMARY:chatrapati-śivājī-jayantī #390
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190322T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190323T235957
 DESCRIPTION:Observed on Kṛṣṇa-Tṛtīyā tithi of Phālgunaḥ (luna
@@ -7646,7 +7649,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:kāñcī jagadguru śrī-jayendra sarasvatī āśrama-svīkāra-ja
- yantī
+ yantī #66
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190322T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190323T235957
 DESCRIPTION:Observed on Svātī nakshatra of Mīnaḥ (sidereal solar) mon
@@ -8482,7 +8485,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:kāñcī 65 jagadguru śrī-sudarśana mahādevendra sarasvatī ā
- rādhanā
+ rādhanā #129
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190403T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190404T235957
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -8691,7 +8694,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:kāñcī 15 jagadguru śrī-gaṅgādharendra sarasvatī ārādhan
- ā
+ ā #1691
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190405T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190406T235957
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -8711,7 +8714,8 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:kāñcī 27 jagadguru śrī-cidvilāsendra sarasvatī ārādhanā
+SUMMARY:kāñcī 27 jagadguru śrī-cidvilāsendra sarasvatī ārādhanā 
+ #1443
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190405T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190406T235957
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -8732,7 +8736,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:kāñcī 52 jagadguru śrī-śaṅkarānandendra sarasvatī ārād
- hanā
+ hanā #603
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190405T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190406T235957
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -9069,7 +9073,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:muttusvāmi-dīkṣita-jayantī
+SUMMARY:muttusvāmi-dīkṣita-jayantī #245
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190408T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190409T235957
 DESCRIPTION:Observed on Kṛttikā nakshatra of Mīnaḥ (sidereal solar) 
@@ -9450,7 +9454,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:kāñcī 43 jagadguru śrī-ānandaghanendra sarasvatī ārādhan
- ā
+ ā #1006
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190412T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190413T235957
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -10389,7 +10393,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:kāñcī 60 jagadguru śrī-advaitātmaprakāśendra sarasvatī ā
- rādhanā
+ rādhanā #316
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190419T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190420T235957
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -10861,7 +10865,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:kāñcī 56 jagadguru śrī-sarvajña sadāśiva bodhendra sarasva
- tī ārādhanā
+ tī ārādhanā #481
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190426T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190427T235957
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -11073,7 +11077,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:vallabhācārya-jayantī
+SUMMARY:vallabhācārya-jayantī #541
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190429T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190430T235957
 DESCRIPTION:Observed on Kṛṣṇa-Ekādaśī tithi of Caitraḥ (lunar) 
@@ -11234,7 +11238,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ramaṇa-maharṣi-ārādhanā
+SUMMARY:ramaṇa-maharṣi-ārādhanā #69
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190501T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190502T235957
 DESCRIPTION:Observed on Kṛṣṇa-Trayodaśī tithi of Meṣaḥ (sidere
@@ -11421,7 +11425,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:kāñcī 47 jagadguru śrī-candraśekharendra sarasvatī 3 ārād
- hanā
+ hanā #854
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190503T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190504T235957
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -11691,7 +11695,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:śyāmā-śāstrī-jayantī
+SUMMARY:śyāmā-śāstrī-jayantī #258
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190505T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190506T235957
 DESCRIPTION:Observed on Kṛttikā nakshatra of Meṣaḥ (sidereal solar)
@@ -12008,7 +12012,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:rāmānuja-janma-nakṣatram
+SUMMARY:rāmānuja-janma-nakṣatram #1003
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190508T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190509T235957
 DESCRIPTION:Observed on Ārdrā nakshatra of Meṣaḥ (sidereal solar) mo
@@ -12026,7 +12030,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sūradāsa-jayantī
+SUMMARY:sūradāsa-jayantī #542
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190508T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190509T235957
 DESCRIPTION:Observed on Śukla-Pañcamī tithi of Vaiśākhaḥ (lunar) mo
@@ -12078,7 +12082,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:śaṅkara-jayantī
+SUMMARY:śaṅkara-jayantī #2528
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190508T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190509T235957
 DESCRIPTION:Observed on Śukla-Pañcamī tithi of Vaiśākhaḥ (lunar) mo
@@ -12154,6 +12158,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:kāñcī 40 jagadguru śrī-mahādevendra sarasvatī 2 ārādhanā
+  #1105
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190509T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190510T235957
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -12173,7 +12178,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:rāmānuja-jayantī
+SUMMARY:rāmānuja-jayantī #1003
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190509T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190510T235957
 DESCRIPTION:Observed on Śukla-Ṣaṣṭhī tithi of Vaiśākhaḥ (lunar
@@ -12251,7 +12256,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:tyāgarāja-jayantī
+SUMMARY:tyāgarāja-jayantī #253
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190510T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190511T235957
 DESCRIPTION:Observed on Śukla-Saptamī tithi of Vaiśākhaḥ (lunar) mon
@@ -12350,7 +12355,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:kāñcī 26 jagadguru śrī-prajñāghanendra sarasvatī ārādhan
- ā
+ ā #1456
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190511T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190512T235957
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -12412,7 +12417,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:nêrūr-śrī-sadāśiva-brahmendra-ārādhanā
+SUMMARY:nêrūr-śrī-sadāśiva-brahmendra-ārādhanā #105
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190512T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190513T235957
 DESCRIPTION:Observed on Śukla-Daśamī tithi of Vaiśākhaḥ (lunar) mon
@@ -12430,7 +12435,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:purī govardhana-maṭha-pratiṣṭhāpana-jayantī
+SUMMARY:purī govardhana-maṭha-pratiṣṭhāpana-jayantī #2504
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190512T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190513T235957
 DESCRIPTION:Observed on Śukla-Navamī tithi of Vaiśākhaḥ (lunar) mont
@@ -12904,7 +12909,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:kāñcī 39 jagadguru śrī-saccidvilāsendra sarasvatī ārādhan
- ā
+ ā #1147
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190516T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190517T235957
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -13050,7 +13055,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:kāñcī kāmakoṭi-maṭha-pratiṣṭhāpana-jayantī
+SUMMARY:kāñcī kāmakoṭi-maṭha-pratiṣṭhāpana-jayantī #2501
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190517T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190518T235957
 DESCRIPTION:Observed on Paurṇamāsī tithi of Vaiśākhaḥ (lunar) mont
@@ -13247,7 +13252,8 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:kāñcī jagadguru śrī-candraśekharendra sarasvatī 7 jayantī
+SUMMARY:kāñcī jagadguru śrī-candraśekharendra sarasvatī 7 jayantī 
+ #126
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190518T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190519T235957
 DESCRIPTION:Observed on Anūrādhā nakshatra of Vṛṣabhaḥ (sidereal 
@@ -13412,7 +13418,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:kāñcī jagadguru śrī-śaṅkara vijayendra sarasvatī āśrama
- -svīkāra-jayantī
+ -svīkāra-jayantī #37
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190520T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190521T235957
 DESCRIPTION:Observed on Mūlā nakshatra of Vṛṣabhaḥ (sidereal solar
@@ -13574,7 +13580,8 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:kāñcī 30 jagadguru śrī-bodhendra sarasvatī 2 ārādhanā
+SUMMARY:kāñcī 30 jagadguru śrī-bodhendra sarasvatī 2 ārādhanā #13
+ 65
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190521T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190522T235957
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -13925,7 +13932,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:kāñcī 7 jagadguru śrī-ānandajñānendra sarasvatī ārādhan
- ā
+ ā #2074
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190526T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190527T235957
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -14333,7 +14340,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:kāñcī 3 jagadguru śrī-sarvajñātmendra sarasvatī ārādhan
- ā
+ ā #2383
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190601T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190602T235957
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -15003,7 +15010,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:kāñcī 50 jagadguru śrī-candracūḍendra sarasvatī 2 ārādh
- anā
+ anā #723
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190607T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190608T235957
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -15024,7 +15031,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:kāñcī 6 jagadguru śrī-śuddhānandendra sarasvatī ārādhan
- ā
+ ā #2143
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190607T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190608T235957
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -15139,6 +15146,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:kāñcī 23 jagadguru śrī-saccitsukhendra sarasvatī ārādhanā
+  #1508
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190608T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190609T235957
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -15305,7 +15313,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:kāñcī 16 jagadguru śrī-ujjvala śaṅkarendra sarasvatī ār
- ādhanā
+ ādhanā #1653
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190609T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190610T235957
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -15384,6 +15392,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:kāñcī 61 jagadguru śrī-mahādevendra sarasvatī 4 ārādhanā
+  #274
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190610T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190611T235957
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -15518,7 +15527,8 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:kāñcī 17 jagadguru śrī-sadāśivendra sarasvatī ārādhanā
+SUMMARY:kāñcī 17 jagadguru śrī-sadāśivendra sarasvatī ārādhanā 
+ #1645
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190611T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190612T235957
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -15539,7 +15549,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:kāñcī 53 jagadguru śrī-pūrṇānanda sadāśivendra sarasvat
- ī ārādhanā
+ ī ārādhanā #522
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190611T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190612T235957
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -15628,7 +15638,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:kāñcī 1 jagadguru śrī-ādi-śaṅkara bhagavatpāda ārādhan
- ā
+ ā #2495
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190612T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190613T235957
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -15761,7 +15771,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:kāñcī 2 jagadguru śrī-sureśvarācārya ārādhanā
+SUMMARY:kāñcī 2 jagadguru śrī-sureśvarācārya ārādhanā #2425
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190613T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190614T235957
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -15871,7 +15881,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:chatrapati-śivājī-rājyābhiṣekaḥ
+SUMMARY:chatrapati-śivājī-rājyābhiṣekaḥ #346
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190614T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190615T235957
 DESCRIPTION:Observed on Śukla-Trayodaśī tithi of Jyaiṣṭhaḥ (lunar
@@ -15939,7 +15949,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:vidyāraṇya-svāmi-ārādhanā
+SUMMARY:vidyāraṇya-svāmi-ārādhanā #628
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190614T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190615T235957
 DESCRIPTION:Observed on Śukla-Trayodaśī tithi of Jyaiṣṭhaḥ (lunar
@@ -17406,7 +17416,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:kāñcī 25 jagadguru śrī-saccidānandaghanendra sarasvatī ār
- ādhanā
+ ādhanā #1472
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190702T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190703T235957
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -17811,7 +17821,8 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:kāñcī 35 jagadguru śrī-citsukhendra sarasvatī ārādhanā
+SUMMARY:kāñcī 35 jagadguru śrī-citsukhendra sarasvatī ārādhanā #1
+ 283
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190706T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190707T235957
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -18121,7 +18132,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:kāñcī 12 jagadguru śrī-candraśekharendra sarasvatī ārādha
- nā
+ nā #1785
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190709T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190710T235957
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -18284,7 +18295,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:kāñcī 48 jagadguru śrī-advaitānandabodhendra sarasvatī ār
- ādhanā
+ ādhanā #820
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190710T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190711T235957
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -18474,7 +18485,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:kāñcī 31 jagadguru śrī-brahmānandaghanendra sarasvatī ārā
- dhanā
+ dhanā #1352
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190712T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190713T235957
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -18495,6 +18506,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:kāñcī 63 jagadguru śrī-mahādevendra sarasvatī 5 ārādhanā
+  #206
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190712T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190713T235957
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -18777,7 +18789,8 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:kāñcī 10 jagadguru śrī-sureśvarendra sarasvatī ārādhanā
+SUMMARY:kāñcī 10 jagadguru śrī-sureśvarendra sarasvatī ārādhanā 
+ #1893
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190715T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190716T235957
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -18988,7 +19001,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:kāñcī 54 jagadguru śrī-vyāsācala mahādevendra sarasvatī 
- ārādhanā
+ ārādhanā #513
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190716T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190717T235957
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -20029,7 +20042,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:kāñcī 38 jagadguru śrī-abhinavaśaṅkarendra sarasvatī ār
- ādhanā
+ ādhanā #1180
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190730T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190731T235957
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -20050,7 +20063,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:kāñcī 46 jagadguru śrī-sāndrānandabodhendra sarasvatī ār
- ādhanā
+ ādhanā #922
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190730T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190731T235957
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -20195,7 +20208,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:kāñcī 41 jagadguru śrī-gaṅgādharendra sarasvatī 2 ārādh
- anā
+ anā #1070
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190731T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190801T235957
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -21041,7 +21054,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:kāñcī 57 jagadguru śrī-paramaśivendra sarasvatī 2 ārādhan
- ā
+ ā #434
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190808T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190809T235957
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -21078,7 +21091,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:seṅgālipuram anantarāma-dīkṣita-jayantī
+SUMMARY:seṅgālipuram anantarāma-dīkṣita-jayantī #117
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190808T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190809T235957
 DESCRIPTION:Observed on Anūrādhā nakshatra of Karkaṭaḥ (sidereal so
@@ -21155,7 +21168,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:kāñcī 29 jagadguru śrī-pūrṇabodhendra sarasvatī ārādhan
- ā
+ ā #1402
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190809T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190810T235957
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -21668,7 +21681,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:kāñcī 20 jagadguru śrī-mūkaśaṅkarendra sarasvatī ārādh
- anā
+ anā #1583
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190814T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190815T235957
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -21897,7 +21910,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:kāñcī jagadguru śrī-jayendra sarasvatī jayantī
+SUMMARY:kāñcī jagadguru śrī-jayendra sarasvatī jayantī #85
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190815T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190816T235957
 DESCRIPTION:Observed on Śraviṣṭhā nakshatra of Karkaṭaḥ (siderea
@@ -22057,7 +22070,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:śrī-rāghavendra-svāmi-ārādhanā
+SUMMARY:śrī-rāghavendra-svāmi-ārādhanā #348
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190816T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190817T235957
 DESCRIPTION:Observed on Kṛṣṇa-Dvitīyā tithi of Śrāvaṇaḥ (lun
@@ -22476,7 +22489,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:kāñcī 21 jagadguru śrī-sārvabhaumaguruḥ candracūḍendra 
- sarasvatī ārādhanā
+ sarasvatī ārādhanā #1573
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190822T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190823T235957
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -22619,7 +22632,8 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:kāñcī 24 jagadguru śrī-citsukhendra sarasvatī ārādhanā
+SUMMARY:kāñcī 24 jagadguru śrī-citsukhendra sarasvatī ārādhanā #1
+ 493
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190823T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190824T235957
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -25032,7 +25046,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:kāñcī 59 jagadguru śrī-bhagavannāma bodhendra sarasvatī ār
- ādhanā
+ ādhanā #328
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190912T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190913T235957
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -25782,7 +25796,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:kāñcī 33 jagadguru śrī-saccidānandaghanendra sarasvatī 2 ā
- rādhanā
+ rādhanā #1328
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190919T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190920T235957
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -26385,7 +26399,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:kāñcī 44 jagadguru śrī-pūrṇabodhendra sarasvatī 2 ārādh
- anā
+ anā #980
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190925T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190926T235957
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -27213,7 +27227,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:kāñcī 45 jagadguru śrī-paramaśivendra sarasvatī 1 ārādhan
- ā
+ ā #959
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191003T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191004T235957
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -27416,7 +27430,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:kāñcī 19 jagadguru śrī-mārtāṇḍa vidyāghanendra sarasva
- tī ārādhanā
+ tī ārādhanā #1622
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191005T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191006T235957
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -27754,7 +27768,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:madhvācārya-jayantī
+SUMMARY:madhvācārya-jayantī #782
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191007T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191008T235957
 DESCRIPTION:Observed on Śukla-Daśamī tithi of Āśvayujaḥ (lunar) mon
@@ -28176,7 +28190,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:kāñcī 36 jagadguru śrī-citsukhānandendra sarasvatī ārādha
- nā
+ nā #1262
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191012T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191013T235957
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -28287,7 +28301,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:mīrābāī-jayantī
+SUMMARY:mīrābāī-jayantī #522
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191012T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191013T235957
 DESCRIPTION:Observed on Paurṇamāsī tithi of Āśvayujaḥ (lunar) mont
@@ -28430,7 +28444,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:appayya-dīkṣita-jayantī
+SUMMARY:appayya-dīkṣita-jayantī #501
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191013T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191014T235957
 DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of Kanyā (sidereal so
@@ -28978,7 +28992,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:seṅgālipuram anantarāma-dīkṣita-ārādhanā
+SUMMARY:seṅgālipuram anantarāma-dīkṣita-ārādhanā #50
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191018T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191019T235957
 DESCRIPTION:Observed on Kṛṣṇa-Ṣaṣṭhī tithi of Tulā (sidereal
@@ -30790,7 +30804,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:kāñcī 22 jagadguru śrī-paripūrṇabodhendra sarasvatī ārā
- dhanā
+ dhanā #1539
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191104T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191105T235957
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -31821,7 +31835,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:kāñcī 64 jagadguru śrī-candraśekharendra sarasvatī 5 ārād
- hanā
+ hanā #169
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191112T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191113T235957
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -32014,7 +32028,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:kāñcī 9 jagadguru śrī-kṛpāśaṅkarendra sarasvatī ārād
- hanā
+ hanā #1951
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191114T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191115T235957
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -32486,7 +32500,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:kāñcī 42 jagadguru śrī-brahmānandaghanendra sarasvatī 2 ār
- ādhanā
+ ādhanā #1042
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191119T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191120T235957
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -32507,6 +32521,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:kāñcī 49 jagadguru śrī-mahādevendra sarasvatī 3 ārādhanā
+  #773
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191119T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191120T235957
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -32526,7 +32541,8 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:kāñcī 58 jagadguru śrī-ātmabodhendra sarasvatī ārādhanā
+SUMMARY:kāñcī 58 jagadguru śrī-ātmabodhendra sarasvatī ārādhanā 
+ #382
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191119T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191120T235957
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -32606,6 +32622,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:kāñcī 28 jagadguru śrī-mahādevendra sarasvatī 1 ārādhanā
+  #1419
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191120T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191121T235957
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -33249,7 +33266,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:kāñcī 18 jagadguru śrī-yogatilaka surendra sarasvatī ārādh
- anā
+ anā #1635
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191126T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191127T235957
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -33631,7 +33648,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:kāñcī 32 jagadguru śrī-cidānandaghanendra sarasvatī ārādh
- anā
+ anā #1348
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191201T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191202T235957
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -33751,7 +33768,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:kāñcī 5 jagadguru śrī-jñānānandendra sarasvatī ārādhan
- ā
+ ā #2224
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191202T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191203T235957
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -34606,6 +34623,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:kāñcī 13 jagadguru śrī-saccidghanendra sarasvatī ārādhanā
+  #1748
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191211T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191212T235957
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -34811,7 +34829,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:nārāyaṇīyaṃ-jayantī
+SUMMARY:nārāyaṇīyaṃ-jayantī #434
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191213T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191214T235957
 DESCRIPTION:Observed on day 28 of Vṛścikaḥ (sidereal solar) month (S
@@ -35170,7 +35188,8 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:kāñcī 4 jagadguru śrī-satyabodhendra sarasvatī ārādhanā
+SUMMARY:kāñcī 4 jagadguru śrī-satyabodhendra sarasvatī ārādhanā #
+ 2287
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191218T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191219T235957
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -35265,7 +35284,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:śrī-śeṣādri-svāmi-ārādhanā
+SUMMARY:śrī-śeṣādri-svāmi-ārādhanā #91
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191219T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191220T235957
 DESCRIPTION:Observed on Kṛṣṇa-Navamī tithi of Mārgaśīrṣaḥ (l
@@ -35369,7 +35388,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:gaṇitajña-rāmānuja-janma
+SUMMARY:gaṇitajña-rāmānuja-janma #132
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191221T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191222T235957
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -35512,7 +35531,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:kāñcī 68 jagadguru śrī-candraśekharendra sarasvatī 7 ārād
- hanā
+ hanā #26
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191222T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191223T235957
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -35650,6 +35669,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:kāñcī 14 jagadguru śrī-vidyāghanendra sarasvatī ārādhanā
+  #1703
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191224T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191225T235957
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -35670,7 +35690,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:kāñcī 34 jagadguru śrī-candraśekharendra sarasvatī 2 ārād
- hanā
+ hanā #1310
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191224T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191225T235957
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish

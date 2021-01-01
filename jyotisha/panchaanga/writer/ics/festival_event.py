@@ -4,6 +4,7 @@ from copy import deepcopy
 
 from icalendar import Event
 
+from jyotisha import custom_transliteration
 from jyotisha.panchaanga.temporal.festival import FestivalInstance, rules, get_description
 from jyotisha.panchaanga.temporal.interval import Interval
 from jyotisha.panchaanga.writer.ics.util import get_4_hr_display_alarm
@@ -69,6 +70,8 @@ def festival_instance_to_event(festival_instance, languages, scripts, panchaanga
     repos_tuple=tuple(panchaanga.computation_system.festival_options.repos), julian_handling=panchaanga.computation_system.festival_options.julian_handling)
   fest_details_dict = rules_collection.name_to_rule
   fest_name = festival_instance.get_best_transliterated_name(languages=languages, scripts=scripts, fest_details_dict=rules_collection.name_to_rule)["text"].replace("~", " ")
+  if festival_instance.ordinal is not None:
+    fest_name += ' #%s' % custom_transliteration.tr(str(festival_instance.ordinal), scripts[0])
   event = Event()
   event.add('summary', fest_name)
   desc = get_description(festival_instance=festival_instance, script=scripts[0], fest_details_dict=fest_details_dict, header_md="##")
