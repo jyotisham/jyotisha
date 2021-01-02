@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210102112221
+SEQUENCE:20210102181823
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -879,9 +879,14 @@ BEGIN:VEVENT
 SUMMARY:प्रदोष-व्रतम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210110T175506
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210110T184558
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/time_focus/monthly/pradoSha/description_only/prad
- OSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
+ n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
+  तु  ये  कुर्याच्छ्रद्धया  यु
+ ताः।  <br/>न  भवेत्  तस्य  दारिद्
+ र्यं  जन्मान्तरशतेष्वपि॥  <br/
+ ><br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.co
+ m/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/description_
+ only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -1458,10 +1463,7 @@ BEGIN:VEVENT
 SUMMARY:मकर-सङ्क्रमण-पुण्यकालः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210114T075216
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210114T155216
-DESCRIPTION:Makara-Saṅkramaṇa Punyakala.<br/><br/>## Details<br/>- [Ed
- it config file](https://github.com/jyotisham/adyatithi/tree/master/time_fo
- cus/sankrAnti/description_only/makara-saGkramaNa-puNyakAlaH.toml)<br/>- Ta
- gs: SunSankranti CommonFestivals
+DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -2657,9 +2659,14 @@ BEGIN:VEVENT
 SUMMARY:प्रदोष-व्रतम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210126T180334
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210126T185357
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/time_focus/monthly/pradoSha/description_only/prad
- OSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
+ n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
+  तु  ये  कुर्याच्छ्रद्धया  यु
+ ताः।  <br/>न  भवेत्  तस्य  दारिद्
+ र्यं  जन्मान्तरशतेष्वपि॥  <br/
+ ><br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.co
+ m/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/description_
+ only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -4172,9 +4179,14 @@ BEGIN:VEVENT
 SUMMARY:प्रदोष-व्रतम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210209T180918
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210209T185908
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/time_focus/monthly/pradoSha/description_only/prad
- OSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
+ n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
+  तु  ये  कुर्याच्छ्रद्धया  यु
+ ताः।  <br/>न  भवेत्  तस्य  दारिद्
+ र्यं  जन्मान्तरशतेष्वपि॥  <br/
+ ><br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.co
+ m/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/description_
+ only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -6198,9 +6210,14 @@ BEGIN:VEVENT
 SUMMARY:प्रदोष-व्रतम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210224T181322
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210224T190231
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/time_focus/monthly/pradoSha/description_only/prad
- OSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
+ n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
+  तु  ये  कुर्याच्छ्रद्धया  यु
+ ताः।  <br/>न  भवेत्  तस्य  दारिद्
+ र्यं  जन्मान्तरशतेष्वपि॥  <br/
+ ><br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.co
+ m/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/description_
+ only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -6353,10 +6370,14 @@ DTSTART;VALUE=DATE:20210225
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210226T062959
 DTEND;VALUE=DATE:20210226
 DESCRIPTION:Observed on Śukla-Caturdaśī tithi of Kumbhaḥ (sidereal so
- lar) month (Sūryāstamayaḥ/puurvaviddha). <br/><br/>## Details<br/>- [E
- dit config file](https://github.com/jyotisham/adyatithi/tree/master/temple
- s/Tamil/sidereal_solar_month/tithi/11/14/naTarAjar%20mahAbhiSEkam~6.toml)<
- br/>- Tags: TamilnaduTempleFestivals
+ lar) month (Sūryāstamayaḥ/puurvaviddha). <br/><br/>कृपासम
+ ुद्रं सुमुखं त्रिनेत्रं जट
+ ाधरं पार्वति-वामभागम्।  <br/>स
+ दाशिवं रुद्रमनन्तरूपं चिदम
+ ्बरेशं हृदि भावयामि॥<br/><br/><br/><br
+ />## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatit
+ hi/tree/master/temples/Tamil/sidereal_solar_month/tithi/11/14/naTarAjar%20
+ mahAbhiSEkam~6.toml)<br/>- Tags: TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -7845,9 +7866,14 @@ BEGIN:VEVENT
 SUMMARY:प्रदोष-व्रतम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210310T181529
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210310T190356
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/time_focus/monthly/pradoSha/description_only/prad
- OSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
+ n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
+  तु  ये  कुर्याच्छ्रद्धया  यु
+ ताः।  <br/>न  भवेत्  तस्य  दारिद्
+ र्यं  जन्मान्तरशतेष्वपि॥  <br/
+ ><br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.co
+ m/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/description_
+ only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -9923,9 +9949,14 @@ BEGIN:VEVENT
 SUMMARY:प्रदोष-व्रतम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210326T181645
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210326T190426
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/time_focus/monthly/pradoSha/description_only/prad
- OSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
+ n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
+  तु  ये  कुर्याच्छ्रद्धया  यु
+ ताः।  <br/>न  भवेत्  तस्य  दारिद्
+ र्यं  जन्मान्तरशतेष्वपि॥  <br/
+ ><br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.co
+ m/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/description_
+ only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -11507,9 +11538,14 @@ BEGIN:VEVENT
 SUMMARY:प्रदोष-व्रतम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210409T181742
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210409T190442
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/time_focus/monthly/pradoSha/description_only/prad
- OSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
+ n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
+  तु  ये  कुर्याच्छ्रद्धया  यु
+ ताः।  <br/>न  भवेत्  तस्य  दारिद्
+ र्यं  जन्मान्तरशतेष्वपि॥  <br/
+ ><br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.co
+ m/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/description_
+ only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -15197,9 +15233,14 @@ BEGIN:VEVENT
 SUMMARY:प्रदोष-व्रतम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210509T182210
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210509T190755
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/time_focus/monthly/pradoSha/description_only/prad
- OSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
+ n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
+  तु  ये  कुर्याच्छ्रद्धया  यु
+ ताः।  <br/>न  भवेत्  तस्य  दारिद्
+ र्यं  जन्मान्तरशतेष्वपि॥  <br/
+ ><br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.co
+ m/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/description_
+ only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -21140,9 +21181,14 @@ BEGIN:VEVENT
 SUMMARY:प्रदोष-व्रतम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210622T183407
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210622T191903
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/time_focus/monthly/pradoSha/description_only/prad
- OSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
+ n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
+  तु  ये  कुर्याच्छ्रद्धया  यु
+ ताः।  <br/>न  भवेत्  तस्य  दारिद्
+ र्यं  जन्मान्तरशतेष्वपि॥  <br/
+ ><br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.co
+ m/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/description_
+ only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -22812,9 +22858,14 @@ BEGIN:VEVENT
 SUMMARY:प्रदोष-व्रतम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210707T183602
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210707T192105
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/time_focus/monthly/pradoSha/description_only/prad
- OSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
+ n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
+  तु  ये  कुर्याच्छ्रद्धया  यु
+ ताः।  <br/>न  भवेत्  तस्य  दारिद्
+ र्यं  जन्मान्तरशतेष्वपि॥  <br/
+ ><br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.co
+ m/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/description_
+ only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -23790,10 +23841,14 @@ DTSTART;VALUE=DATE:20210715
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210716T055407
 DTEND;VALUE=DATE:20210716
 DESCRIPTION:Observed on Uttaraphalgunī nakshatra of Mithunam (sidereal so
- lar) month (Prātaḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config
-  file](https://github.com/jyotisham/adyatithi/tree/master/temples/Tamil/si
- dereal_solar_month/nakshatra/03/12/naTarAjar%20An2i%20tirumaJcan2am.toml)<
- br/>- Tags: TamilnaduTempleFestivals
+ lar) month (Prātaḥ/paraviddha). <br/><br/>कृपासमुद्
+ रं सुमुखं त्रिनेत्रं जटाधर
+ ं पार्वति-वामभागम्।  <br/>सदाश
+ िवं रुद्रमनन्तरूपं चिदम्बर
+ ेशं हृदि भावयामि॥<br/><br/><br/><br/>## Deta
+ ils<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/m
+ aster/temples/Tamil/sidereal_solar_month/nakshatra/03/12/naTarAjar%20An2i%
+ 20tirumaJcan2am.toml)<br/>- Tags: TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -24625,9 +24680,14 @@ BEGIN:VEVENT
 SUMMARY:प्रदोष-व्रतम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210721T183510
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210721T192032
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/time_focus/monthly/pradoSha/description_only/prad
- OSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
+ n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
+  तु  ये  कुर्याच्छ्रद्धया  यु
+ ताः।  <br/>न  भवेत्  तस्य  दारिद्
+ र्यं  जन्मान्तरशतेष्वपि॥  <br/
+ ><br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.co
+ m/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/description_
+ only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -26328,9 +26388,14 @@ BEGIN:VEVENT
 SUMMARY:प्रदोष-व्रतम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210805T183101
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210805T191652
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/time_focus/monthly/pradoSha/description_only/prad
- OSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
+ n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
+  तु  ये  कुर्याच्छ्रद्धया  यु
+ ताः।  <br/>न  भवेत्  तस्य  दारिद्
+ र्यं  जन्मान्तरशतेष्वपि॥  <br/
+ ><br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.co
+ m/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/description_
+ only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -26922,8 +26987,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:चन्द्र-दर्शनम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210809T182922
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210809T191523
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210810T182856
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210810T191458
 DESCRIPTION:Have darshan of Moon today\, chanting the following shloka<br/
  ><br/>श्वेताम्बरः श्वेतविभूषण
  श्च श्वेतद्युतिर्दण्डधरो द
@@ -28247,9 +28312,14 @@ BEGIN:VEVENT
 SUMMARY:प्रदोष-व्रतम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210820T182349
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210820T191017
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/time_focus/monthly/pradoSha/description_only/prad
- OSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
+ n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
+  तु  ये  कुर्याच्छ्रद्धया  यु
+ ताः।  <br/>न  भवेत्  तस्य  दारिद्
+ र्यं  जन्मान्तरशतेष्वपि॥  <br/
+ ><br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.co
+ m/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/description_
+ only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -28388,10 +28458,14 @@ DTSTART;VALUE=DATE:20210821
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210822T060046
 DTEND;VALUE=DATE:20210822
 DESCRIPTION:Observed on Śukla-Caturdaśī tithi of Siṃhaḥ (sidereal s
- olar) month (Sūryāstamayaḥ/puurvaviddha). <br/><br/>## Details<br/>- [
- Edit config file](https://github.com/jyotisham/adyatithi/tree/master/templ
- es/Tamil/sidereal_solar_month/tithi/05/14/naTarAjar%20mahAbhiSEkam~2.toml)
- <br/>- Tags: TamilnaduTempleFestivals
+ olar) month (Sūryāstamayaḥ/puurvaviddha). <br/><br/>कृपासम
+ ुद्रं सुमुखं त्रिनेत्रं जट
+ ाधरं पार्वति-वामभागम्।  <br/>स
+ दाशिवं रुद्रमनन्तरूपं चिदम
+ ्बरेशं हृदि भावयामि॥<br/><br/><br/><br
+ />## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatit
+ hi/tree/master/temples/Tamil/sidereal_solar_month/tithi/05/14/naTarAjar%20
+ mahAbhiSEkam~2.toml)<br/>- Tags: TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -32547,10 +32621,14 @@ DTSTART;VALUE=DATE:20210919
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210920T060125
 DTEND;VALUE=DATE:20210920
 DESCRIPTION:Observed on Śukla-Caturdaśī tithi of Kanyā (sidereal solar
- ) month (Sūryāstamayaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit
-  config file](https://github.com/jyotisham/adyatithi/tree/master/temples/T
- amil/sidereal_solar_month/tithi/06/14/naTarAjar%20mahAbhiSEkam~3.toml)<br/
- >- Tags: TamilnaduTempleFestivals
+ ) month (Sūryāstamayaḥ/puurvaviddha). <br/><br/>कृपासमु
+ द्रं सुमुखं त्रिनेत्रं जटा
+ धरं पार्वति-वामभागम्।  <br/>सद
+ ाशिवं रुद्रमनन्तरूपं चिदम्
+ बरेशं हृदि भावयामि॥<br/><br/><br/><br/>#
+ # Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/
+ tree/master/temples/Tamil/sidereal_solar_month/tithi/06/14/naTarAjar%20mah
+ AbhiSEkam~3.toml)<br/>- Tags: TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -36278,9 +36356,14 @@ BEGIN:VEVENT
 SUMMARY:प्रदोष-व्रतम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211017T174521
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211017T183432
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/time_focus/monthly/pradoSha/description_only/prad
- OSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
+ n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
+  तु  ये  कुर्याच्छ्रद्धया  यु
+ ताः।  <br/>न  भवेत्  तस्य  दारिद्
+ र्यं  जन्मान्तरशतेष्वपि॥  <br/
+ ><br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.co
+ m/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/description_
+ only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -38217,9 +38300,14 @@ BEGIN:VEVENT
 SUMMARY:प्रदोष-व्रतम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211102T173816
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211102T182810
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/time_focus/monthly/pradoSha/description_only/prad
- OSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
+ n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
+  तु  ये  कुर्याच्छ्रद्धया  यु
+ ताः।  <br/>न  भवेत्  तस्य  दारिद्
+ र्यं  जन्मान्तरशतेष्वपि॥  <br/
+ ><br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.co
+ m/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/description_
+ only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -40351,9 +40439,14 @@ BEGIN:VEVENT
 SUMMARY:प्रदोष-व्रतम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211116T173529
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211116T182556
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/time_focus/monthly/pradoSha/description_only/prad
- OSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
+ n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
+  तु  ये  कुर्याच्छ्रद्धया  यु
+ ताः।  <br/>न  भवेत्  तस्य  दारिद्
+ र्यं  जन्मान्तरशतेष्वपि॥  <br/
+ ><br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.co
+ m/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/description_
+ only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -42555,9 +42648,14 @@ BEGIN:VEVENT
 SUMMARY:प्रदोष-व्रतम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211202T173647
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211202T182741
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/time_focus/monthly/pradoSha/description_only/prad
- OSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
+ n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
+  तु  ये  कुर्याच्छ्रद्धया  यु
+ ताः।  <br/>न  भवेत्  तस्य  दारिद्
+ र्यं  जन्मान्तरशतेष्वपि॥  <br/
+ ><br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.co
+ m/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/description_
+ only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -44291,9 +44389,14 @@ BEGIN:VEVENT
 SUMMARY:प्रदोष-व्रतम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211216T174135
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211216T183241
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/time_focus/monthly/pradoSha/description_only/prad
- OSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
+ n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
+  तु  ये  कुर्याच्छ्रद्धया  यु
+ ताः।  <br/>न  भवेत्  तस्य  दारिद्
+ र्यं  जन्मान्तरशतेष्वपि॥  <br/
+ ><br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.co
+ m/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/description_
+ only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -45893,9 +45996,14 @@ BEGIN:VEVENT
 SUMMARY:प्रदोष-व्रतम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211231T174916
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211231T184018
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/time_focus/monthly/pradoSha/description_only/prad
- OSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
+ n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
+  तु  ये  कुर्याच्छ्रद्धया  यु
+ ताः।  <br/>न  भवेत्  तस्य  दारिद्
+ र्यं  जन्मान्तरशतेष्वपि॥  <br/
+ ><br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.co
+ m/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/description_
+ only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
