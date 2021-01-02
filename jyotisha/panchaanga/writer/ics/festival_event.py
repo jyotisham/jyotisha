@@ -10,6 +10,8 @@ from jyotisha.panchaanga.temporal.interval import Interval
 from jyotisha.panchaanga.writer.ics.util import get_4_hr_display_alarm
 from datetime import datetime, date, timedelta
 
+from jyotisha.util import default_if_none
+
 
 def write_to_file(ics_calendar, fname):
   os.makedirs(os.path.dirname(fname), exist_ok=True)
@@ -117,7 +119,7 @@ def add_festival_events(day_index, ics_calendar, panchaanga, languages, scripts)
     all_day = False
     if festival_instance.interval is None:
       all_day = True
-    elif festival_instance.interval.jd_start is not None and festival_instance.interval.jd_end is not None and festival_instance.interval.jd_end - festival_instance.interval.jd_start > 0.75:
+    elif default_if_none(festival_instance.interval.get_jd_length(), 0) > 0.75:
       all_day = True
       
 

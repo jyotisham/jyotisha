@@ -82,6 +82,12 @@ default_if_none(time.ist_timezone.julian_day_to_local_time_str(jd=self.jd_end), 
     else:
       return BoundaryAngas(start=f(self.jd_start), end=f(self.jd_end), interval=self)
 
+  def get_jd_length(self):
+    if self.jd_start is not None and self.jd_end is not None:
+      return self.jd_end - self.jd_start
+    else:
+      return None
+
 
 def intervals_to_md(intervals, script, tz, reference_date=None):
   return "; ".join([x.to_hour_md(script=script, tz=tz, reference_date=reference_date) for x in intervals])
