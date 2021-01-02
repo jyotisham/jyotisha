@@ -72,7 +72,11 @@ class FestivalInstance(common.JsonObject):
     if self.ordinal is not None:
       name = name + "~\\#{%s}" % custom_transliteration.tr(str(self.ordinal), script=scripts[0])
 
-    if self.interval is None:
+    sunrise_to_sunrise = False
+    if self.interval.jd_start is not None and self.interval.jd_end is not None and (self.interval.jd_end - self.interval.jd_start) > 0.9 and self.name.find('SaDazIti') == -1:
+      sunrise_to_sunrise = True
+    
+    if self.interval is None or sunrise_to_sunrise:
       return name
     else:
       return "%s%s" % (name, self.interval.to_hour_tex(script=scripts[0], tz=timezone, reference_date=reference_date))
