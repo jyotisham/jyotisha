@@ -72,7 +72,6 @@ class FestivalInstance(common.JsonObject):
     if self.ordinal is not None:
       name = name + "~\\#{%s}" % custom_transliteration.tr(str(self.ordinal), script=scripts[0])
 
-    logging.debug((name, self._show_interval()))
     if self.interval is not None and self._show_interval():
       return "%s%s" % (name, self.interval.to_hour_tex(script=scripts[0], tz=timezone, reference_date=reference_date))
     else:
