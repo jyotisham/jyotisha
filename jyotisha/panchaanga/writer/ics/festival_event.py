@@ -53,13 +53,13 @@ def get_full_festival_instance(festival_instance, daily_panchaangas, day_index):
     # TODO: Reimplement the below in another way if needed.
     new_fest_id = fest_id
     REPLACEMENTS = {'samApanam': '',
-                    'rAtri-': 'rAtriH',
                     'rAtra-': 'rAtraH',
                     'nakSatra-': 'nakSatram',
                     'pakSa-': 'pakSaH',
                     'puSkara-': 'puSkaram',
                     'dIpa-': 'dIpaH',
                     'pArAyaNa-': 'pArAyaNam',
+                    'mAsa-': 'mAsaH',
                     'snAna-': 'snAnam',
                     'tsava-': 'tsavaH',
                     'vrata-': 'vratam'}
