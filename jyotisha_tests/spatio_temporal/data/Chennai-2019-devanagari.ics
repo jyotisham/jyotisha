@@ -28603,8 +28603,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:candra-darśanam
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190929T175704
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190929T184518
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190930T175621
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190930T184444
 DESCRIPTION:Have darshan of Moon today\, chanting the following shloka<br/
  ><br/>śvetāmbaraḥ śvetavibhūṣaṇaśca śvetadyutirdaṇḍadharo 
  dvibāhuḥ|  <br/>candro'mṛtātmā varadaḥ kirīṭī mayi prasāda

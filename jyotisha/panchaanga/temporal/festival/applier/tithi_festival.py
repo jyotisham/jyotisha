@@ -457,13 +457,15 @@ class TithiFestivalAssigner(FestivalAssigner):
         tithi_sunset = temporal.tithi.get_tithi(day_panchaanga.jd_sunset).index
         tithi_sunset_tmrw = temporal.tithi.get_tithi(self.daily_panchaangas[d + 1].jd_sunset).index
         # if tithi_sunset <= 2 and tithi_sunset_tmrw != 2:
-        fest = FestivalInstance(name='candra-darzanam', interval=day_panchaanga.get_interval(interval_id="pradosha"))
         if tithi_sunset <= 2:
           if tithi_sunset == 1:
+            fest = FestivalInstance(name='candra-darzanam', interval=self.daily_panchaangas[d+1].get_interval(interval_id="pradosha"))
             self.panchaanga.add_festival_instance(festival_instance=fest, date=self.daily_panchaangas[d+1].date)
           else:
+            fest = FestivalInstance(name='candra-darzanam', interval=day_panchaanga.get_interval(interval_id="pradosha"))
             self.panchaanga.add_festival_instance(festival_instance=fest, date=day_panchaanga.date)
         elif tithi_sunset_tmrw == 2:
+          fest = FestivalInstance(name='candra-darzanam', interval=self.daily_panchaangas[d+1].get_interval(interval_id="pradosha"))
           self.panchaanga.add_festival_instance(festival_instance=fest, date=self.daily_panchaangas[d+1].date)
 
   def assign_vaarunii_trayodashi(self):
