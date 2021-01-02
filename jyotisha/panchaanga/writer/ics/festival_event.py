@@ -81,14 +81,7 @@ def festival_instance_to_event(festival_instance, languages, scripts, panchaanga
   desc = get_description(festival_instance=festival_instance, script=scripts[0], fest_details_dict=fest_details_dict, header_md="##")
   event.add('description', desc.strip().replace('\n', '<br/>'))
 
-  if festival_instance.interval is not None and festival_instance.interval.jd_end is not None and festival_instance.interval.jd_start is not None :
-    # Starting or ending time is empty, e.g. harivasara, so no ICS entry
-    t1 = panchaanga.city.get_timezone_obj().julian_day_to_local_datetime(jd=festival_instance.interval.jd_start)
-    t2 = panchaanga.city.get_timezone_obj().julian_day_to_local_datetime(jd=festival_instance.interval.jd_end)
-    event.add('dtstart', t1)
-    event.add('dtend', t2)
-
-  if all_day:
+  if all_day or not festival_instance._show_interval():
     t1 = panchaanga.city.get_timezone_obj().julian_day_to_local_datetime(jd=festival_instance.interval.jd_start)
     t2 = panchaanga.city.get_timezone_obj().julian_day_to_local_datetime(jd=festival_instance.interval.jd_end)
     event.add('dtstart', t1.date())
@@ -96,6 +89,13 @@ def festival_instance_to_event(festival_instance, languages, scripts, panchaanga
     event['X-MICROSOFT-CDO-ALLDAYEVENT'] = 'TRUE'
     event['TRANSP'] = 'TRANSPARENT'
     event['X-MICROSOFT-CDO-BUSYSTATUS'] = 'FREE'
+  elif festival_instance.interval is not None and festival_instance.interval.jd_end is not None and festival_instance.interval.jd_start is not None:
+    # Starting or ending time is empty, e.g. harivasara, so no ICS entry
+    t1 = panchaanga.city.get_timezone_obj().julian_day_to_local_datetime(jd=festival_instance.interval.jd_start)
+    t2 = panchaanga.city.get_timezone_obj().julian_day_to_local_datetime(jd=festival_instance.interval.jd_end)
+    event.add('dtstart', t1)
+    event.add('dtend', t2)
+
   alarm = get_4_hr_display_alarm()
   event.add_component(alarm)
   return event
