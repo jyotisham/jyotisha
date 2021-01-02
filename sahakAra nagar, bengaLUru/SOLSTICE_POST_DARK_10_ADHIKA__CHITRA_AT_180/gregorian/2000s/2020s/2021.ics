@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210102192703
+SEQUENCE:20210102201608
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -276,9 +276,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:माघ-अष्टका-पूर्वेद्युः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210105T064709
 DTSTART;VALUE=DATE:20210105
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210106T064728
 DTEND;VALUE=DATE:20210106
 DESCRIPTION:Shannavati Shraddham Day.<br/><br/>## Details<br/>- [Edit conf
  ig file](https://github.com/jyotisham/adyatithi/tree/master/gRhya/general/
@@ -348,9 +346,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:माघ-अष्टका-श्राद्धम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210106T064728
 DTSTART;VALUE=DATE:20210106
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210107T064746
 DTEND;VALUE=DATE:20210107
 DESCRIPTION:Observed on Kṛṣṇa-Aṣṭamī tithi of Māghaḥ (lunar)
   month (Aparāhṇaḥ/vyaapti). <br/><br/>## Details<br/>- [Edit config f
@@ -420,9 +416,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:माघ-अन्वष्टका-श्राद्धम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210107T064746
 DTSTART;VALUE=DATE:20210107
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210108T064803
 DTEND;VALUE=DATE:20210108
 DESCRIPTION:Shannavati Shraddham Day.<br/><br/>## Details<br/>- [Edit conf
  ig file](https://github.com/jyotisham/adyatithi/tree/master/gRhya/general/
@@ -710,9 +704,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:पार्वणव्रतम् अमावास्या
  याम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210112T064901
 DTSTART;VALUE=DATE:20210112
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210113T064913
 DTEND;VALUE=DATE:20210113
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_1/offset
@@ -781,9 +773,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:दर्शेष्टिः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210113T064913
 DTSTART;VALUE=DATE:20210113
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210114T064924
 DTEND;VALUE=DATE:20210114
 DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
  rvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config file](
@@ -799,9 +789,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210113T064913
 DTSTART;VALUE=DATE:20210113
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210114T064924
 DTEND;VALUE=DATE:20210114
 DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
  rvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config file](
@@ -1627,9 +1615,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:पार्वणव्रतम् पूर्णिमाय
  ाम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210128T065003
 DTSTART;VALUE=DATE:20210128
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210129T064957
 DTEND;VALUE=DATE:20210129
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_16/offse
@@ -1698,9 +1684,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:पूर्र्णमासेष्टिः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210129T064957
 DTSTART;VALUE=DATE:20210129
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210130T064950
 DTEND;VALUE=DATE:20210130
 DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month
   (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config f
@@ -1716,9 +1700,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210129T064957
 DTSTART;VALUE=DATE:20210129
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210130T064950
 DTEND;VALUE=DATE:20210130
 DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month
   (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config f
@@ -2439,9 +2421,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:पार्वणव्रतम् अमावास्या
  याम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210211T064709
 DTSTART;VALUE=DATE:20210211
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210212T064649
 DTEND;VALUE=DATE:20210212
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_1/offset
@@ -2515,9 +2495,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:दर्शेष्टिः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210212T064649
 DTSTART;VALUE=DATE:20210212
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210213T064629
 DTEND;VALUE=DATE:20210213
 DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
  rvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config file](
@@ -2533,9 +2511,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210212T064649
 DTSTART;VALUE=DATE:20210212
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210213T064629
 DTEND;VALUE=DATE:20210213
 DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
  rvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config file](
@@ -3424,9 +3400,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:पार्वणव्रतम् पूर्णिमाय
  ाम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210227T064011
 DTSTART;VALUE=DATE:20210227
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210228T063939
 DTEND;VALUE=DATE:20210228
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_16/offse
@@ -3499,9 +3473,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:पूर्र्णमासेष्टिः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210228T063939
 DTSTART;VALUE=DATE:20210228
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210301T063906
 DTEND;VALUE=DATE:20210301
 DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month
   (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config f
@@ -3517,9 +3489,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210228T063939
 DTSTART;VALUE=DATE:20210228
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210301T063906
 DTEND;VALUE=DATE:20210301
 DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month
   (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config f
@@ -4299,9 +4269,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:पार्वणव्रतम् अमावास्या
  याम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210313T063154
 DTSTART;VALUE=DATE:20210313
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210314T063116
 DTEND;VALUE=DATE:20210314
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_1/offset
@@ -4374,9 +4342,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:दर्शेष्टिः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210314T063116
 DTSTART;VALUE=DATE:20210314
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210315T063037
 DTEND;VALUE=DATE:20210315
 DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
  rvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config file](
@@ -4392,9 +4358,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210314T063116
 DTSTART;VALUE=DATE:20210314
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210315T063037
 DTEND;VALUE=DATE:20210315
 DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
  rvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config file](
@@ -5229,9 +5193,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:पार्वणव्रतम् पूर्णिमाय
  ाम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210328T062201
 DTSTART;VALUE=DATE:20210328
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210329T062121
 DTEND;VALUE=DATE:20210329
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_16/offse
@@ -5304,9 +5266,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:पूर्र्णमासेष्टिः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210329T062121
 DTSTART;VALUE=DATE:20210329
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210330T062042
 DTEND;VALUE=DATE:20210330
 DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month
   (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config f
@@ -5322,9 +5282,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210329T062121
 DTSTART;VALUE=DATE:20210329
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210330T062042
 DTEND;VALUE=DATE:20210330
 DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month
   (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config f
@@ -6098,9 +6056,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:पार्वणव्रतम् अमावास्या
  याम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210411T061300
 DTSTART;VALUE=DATE:20210411
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210412T061223
 DTEND;VALUE=DATE:20210412
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_1/offset
@@ -6173,9 +6129,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:दर्शेष्टिः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210412T061223
 DTSTART;VALUE=DATE:20210412
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210413T061147
 DTEND;VALUE=DATE:20210413
 DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
  rvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config file](
@@ -6191,9 +6145,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210412T061223
 DTSTART;VALUE=DATE:20210412
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210413T061147
 DTEND;VALUE=DATE:20210413
 DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
  rvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config file](
@@ -6965,9 +6917,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:पार्वणव्रतम् पूर्णिमाय
  ाम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210426T060443
 DTSTART;VALUE=DATE:20210426
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210427T060415
 DTEND;VALUE=DATE:20210427
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_16/offse
@@ -7037,9 +6987,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:पूर्र्णमासेष्टिः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210427T060415
 DTSTART;VALUE=DATE:20210427
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210428T060347
 DTEND;VALUE=DATE:20210428
 DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month
   (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config f
@@ -7055,9 +7003,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210427T060415
 DTSTART;VALUE=DATE:20210427
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210428T060347
 DTEND;VALUE=DATE:20210428
 DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month
   (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config f
@@ -7827,9 +7773,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:पार्वणव्रतम् अमावास्या
  याम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210511T055853
 DTSTART;VALUE=DATE:20210511
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210512T055836
 DTEND;VALUE=DATE:20210512
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_1/offset
@@ -7898,9 +7842,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:दर्शेष्टिः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210512T055836
 DTSTART;VALUE=DATE:20210512
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210513T055820
 DTEND;VALUE=DATE:20210513
 DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
  rvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config file](
@@ -7916,9 +7858,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210512T055836
 DTSTART;VALUE=DATE:20210512
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210513T055820
 DTEND;VALUE=DATE:20210513
 DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
  rvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config file](
@@ -8684,9 +8624,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:पार्वणव्रतम् पूर्णिमाय
  ाम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210526T055607
 DTSTART;VALUE=DATE:20210526
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210527T055603
 DTEND;VALUE=DATE:20210527
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_16/offse
@@ -8754,9 +8692,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:पूर्र्णमासेष्टिः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210527T055603
 DTSTART;VALUE=DATE:20210527
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210528T055559
 DTEND;VALUE=DATE:20210528
 DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month
   (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config f
@@ -8772,9 +8708,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210527T055603
 DTSTART;VALUE=DATE:20210527
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210528T055559
 DTEND;VALUE=DATE:20210528
 DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month
   (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config f
@@ -9540,9 +9474,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:पार्वणव्रतम् अमावास्या
  याम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210610T055628
 DTSTART;VALUE=DATE:20210610
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210611T055635
 DTEND;VALUE=DATE:20210611
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_1/offset
@@ -9610,9 +9542,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:दर्शेष्टिः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210611T055635
 DTSTART;VALUE=DATE:20210611
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210612T055643
 DTEND;VALUE=DATE:20210612
 DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
  rvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config file](
@@ -9628,9 +9558,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210611T055635
 DTSTART;VALUE=DATE:20210611
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210612T055643
 DTEND;VALUE=DATE:20210612
 DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
  rvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config file](
@@ -10347,9 +10275,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:पार्वणव्रतम् पूर्णिमाय
  ाम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210624T055900
 DTSTART;VALUE=DATE:20210624
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210625T055915
 DTEND;VALUE=DATE:20210625
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_16/offse
@@ -10418,9 +10344,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:पूर्र्णमासेष्टिः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210625T055915
 DTSTART;VALUE=DATE:20210625
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210626T055929
 DTEND;VALUE=DATE:20210626
 DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month
   (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config f
@@ -10436,9 +10360,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210625T055915
 DTSTART;VALUE=DATE:20210625
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210626T055929
 DTEND;VALUE=DATE:20210626
 DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month
   (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config f
@@ -11207,9 +11129,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:पार्वणव्रतम् अमावास्या
  याम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210709T060259
 DTSTART;VALUE=DATE:20210709
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210710T060316
 DTEND;VALUE=DATE:20210710
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_1/offset
@@ -11278,9 +11198,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:दर्शेष्टिः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210710T060316
 DTSTART;VALUE=DATE:20210710
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210711T060333
 DTEND;VALUE=DATE:20210711
 DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
  rvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config file](
@@ -11296,9 +11214,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210710T060316
 DTSTART;VALUE=DATE:20210710
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210711T060333
 DTEND;VALUE=DATE:20210711
 DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
  rvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config file](
@@ -12015,9 +11931,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:पार्वणव्रतम् पूर्णिमाय
  ाम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210723T060644
 DTSTART;VALUE=DATE:20210723
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210724T060658
 DTEND;VALUE=DATE:20210724
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_16/offse
@@ -12087,9 +12001,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:पूर्र्णमासेष्टिः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210724T060658
 DTSTART;VALUE=DATE:20210724
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210725T060712
 DTEND;VALUE=DATE:20210725
 DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month
   (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config f
@@ -12105,9 +12017,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210724T060658
 DTSTART;VALUE=DATE:20210724
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210725T060712
 DTEND;VALUE=DATE:20210725
 DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month
   (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config f
@@ -12123,9 +12033,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:यजुर्वेद-उपाकर्म
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210724T060658
 DTSTART;VALUE=DATE:20210724
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210725T060712
 DTEND;VALUE=DATE:20210725
 DESCRIPTION:Observed on Paurṇamāsī tithi of Śrāvaṇaḥ (lunar) mon
  th (Sūryodayaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config f
@@ -12195,9 +12103,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ऋग्वेद-उपाकर्म
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210725T060712
 DTSTART;VALUE=DATE:20210725
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210726T060726
 DTEND;VALUE=DATE:20210726
 DESCRIPTION:Observed on Śravaṇaḥ nakshatra of Śrāvaṇaḥ (lunar) 
  month (Sūryodayaḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config 
@@ -12213,9 +12119,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:गायत्री-जपः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210725T060712
 DTSTART;VALUE=DATE:20210725
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210726T060726
 DTEND;VALUE=DATE:20210726
 DESCRIPTION:Perform 1008 Gayatri Japa.<br/><br/>## Details<br/>- [Edit con
  fig file](https://github.com/jyotisham/adyatithi/tree/master/gRhya/general
@@ -12984,9 +12888,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:पार्वणव्रतम् अमावास्या
  याम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210808T060958
 DTSTART;VALUE=DATE:20210808
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210809T061008
 DTEND;VALUE=DATE:20210809
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_1/offset
@@ -13054,9 +12956,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:दर्शेष्टिः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210809T061008
 DTSTART;VALUE=DATE:20210809
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210810T061016
 DTEND;VALUE=DATE:20210810
 DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
  rvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config file](
@@ -13072,9 +12972,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210809T061008
 DTSTART;VALUE=DATE:20210809
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210810T061016
 DTEND;VALUE=DATE:20210810
 DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
  rvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config file](
@@ -13789,9 +13687,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:पार्वणव्रतम् पूर्णिमाय
  ाम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210822T061133
 DTSTART;VALUE=DATE:20210822
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210823T061137
 DTEND;VALUE=DATE:20210823
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_16/offse
@@ -13860,9 +13756,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:पूर्र्णमासेष्टिः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210823T061137
 DTSTART;VALUE=DATE:20210823
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210824T061141
 DTEND;VALUE=DATE:20210824
 DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month
   (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config f
@@ -13878,9 +13772,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210823T061137
 DTSTART;VALUE=DATE:20210823
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210824T061141
 DTEND;VALUE=DATE:20210824
 DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month
   (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config f
@@ -14647,9 +14539,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:पार्वणव्रतम् अमावास्या
  याम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210906T061207
 DTSTART;VALUE=DATE:20210906
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210907T061208
 DTEND;VALUE=DATE:20210907
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_1/offset
@@ -14719,9 +14609,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:दर्शेष्टिः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210907T061208
 DTSTART;VALUE=DATE:20210907
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210908T061208
 DTEND;VALUE=DATE:20210908
 DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
  rvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config file](
@@ -14737,9 +14625,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210907T061208
 DTSTART;VALUE=DATE:20210907
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210908T061208
 DTEND;VALUE=DATE:20210908
 DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
  rvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config file](
@@ -14862,9 +14748,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:सामवेद-उपाकर्म
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210909T061209
 DTSTART;VALUE=DATE:20210909
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210910T061209
 DTEND;VALUE=DATE:20210910
 DESCRIPTION:Observed on Hastaḥ nakshatra of Siṃhaḥ (sidereal solar) 
  month (Sūryodayaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit confi
@@ -15477,9 +15361,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:पार्वणव्रतम् पूर्णिमाय
  ाम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210920T061211
 DTSTART;VALUE=DATE:20210920
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210921T061211
 DTEND;VALUE=DATE:20210921
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_16/offse
@@ -15548,9 +15430,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:पूर्र्णमासेष्टिः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210921T061211
 DTSTART;VALUE=DATE:20210921
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210922T061211
 DTEND;VALUE=DATE:20210922
 DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month
   (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config f
@@ -15566,9 +15446,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210921T061211
 DTSTART;VALUE=DATE:20210921
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210922T061211
 DTEND;VALUE=DATE:20210922
 DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month
   (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config f
@@ -16381,9 +16259,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:पार्वणव्रतम् अमावास्या
  याम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211006T061238
 DTSTART;VALUE=DATE:20211006
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211007T061242
 DTEND;VALUE=DATE:20211007
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_1/offset
@@ -16451,9 +16327,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:दर्शेष्टिः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211007T061242
 DTSTART;VALUE=DATE:20211007
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211008T061246
 DTEND;VALUE=DATE:20211008
 DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
  rvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config file](
@@ -16469,9 +16343,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211007T061242
 DTSTART;VALUE=DATE:20211007
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211008T061246
 DTEND;VALUE=DATE:20211008
 DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
  rvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config file](
@@ -17186,9 +17058,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:आग्रयण-होमः द्राविडेषु
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211020T061413
 DTSTART;VALUE=DATE:20211020
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211021T061423
 DTEND;VALUE=DATE:20211021
 DESCRIPTION:Observed on Paurṇamāsī tithi of Tulā (sidereal solar) mon
  th (Sūryodayaḥ/puurvaviddha). Perform homa with fresh rice from paddy.<
@@ -17207,9 +17077,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:पार्वणव्रतम् पूर्णिमाय
  ाम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211020T061413
 DTSTART;VALUE=DATE:20211020
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211021T061423
 DTEND;VALUE=DATE:20211021
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_16/offse
@@ -17277,9 +17145,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:पूर्र्णमासेष्टिः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211021T061423
 DTSTART;VALUE=DATE:20211021
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211022T061434
 DTEND;VALUE=DATE:20211022
 DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month
   (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config f
@@ -17295,9 +17161,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211021T061423
 DTSTART;VALUE=DATE:20211021
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211022T061434
 DTEND;VALUE=DATE:20211022
 DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month
   (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config f
@@ -18062,9 +17926,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:आग्रयण-होमः द्राविडेषु
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211104T061752
 DTSTART;VALUE=DATE:20211104
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211105T061811
 DTEND;VALUE=DATE:20211105
 DESCRIPTION:Observed on Amāvāsyā tithi of Tulā (sidereal solar) month 
  (Sūryodayaḥ/puurvaviddha). Perform homa with fresh rice from paddy.<br/
@@ -18083,9 +17945,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:पार्वणव्रतम् अमावास्या
  याम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211104T061752
 DTSTART;VALUE=DATE:20211104
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211105T061811
 DTEND;VALUE=DATE:20211105
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_1/offset
@@ -18154,9 +18014,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:दर्शेष्टिः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211105T061811
 DTSTART;VALUE=DATE:20211105
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211106T061832
 DTEND;VALUE=DATE:20211106
 DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
  rvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config file](
@@ -18172,9 +18030,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211105T061811
 DTSTART;VALUE=DATE:20211105
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211106T061832
 DTEND;VALUE=DATE:20211106
 DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
  rvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config file](
@@ -18944,9 +18800,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:आग्रयण-होमः द्राविडेषु
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211119T062348
 DTSTART;VALUE=DATE:20211119
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211120T062416
 DTEND;VALUE=DATE:20211120
 DESCRIPTION:Observed on Paurṇamāsī tithi of Vṛścikaḥ (sidereal so
  lar) month (Sūryodayaḥ/puurvaviddha). Perform homa with fresh rice from
@@ -18965,9 +18819,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:पार्वणव्रतम् पूर्णिमाय
  ाम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211119T062348
 DTSTART;VALUE=DATE:20211119
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211120T062416
 DTEND;VALUE=DATE:20211120
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_16/offse
@@ -19035,9 +18887,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:पूर्र्णमासेष्टिः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211120T062416
 DTSTART;VALUE=DATE:20211120
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211121T062445
 DTEND;VALUE=DATE:20211121
 DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month
   (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config f
@@ -19053,9 +18903,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211120T062416
 DTSTART;VALUE=DATE:20211120
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211121T062445
 DTEND;VALUE=DATE:20211121
 DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month
   (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config f
@@ -19829,9 +19677,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:आग्रयण-होमः द्राविडेषु
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211204T063132
 DTSTART;VALUE=DATE:20211204
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211205T063205
 DTEND;VALUE=DATE:20211205
 DESCRIPTION:Observed on Amāvāsyā tithi of Vṛścikaḥ (sidereal solar
  ) month (Sūryodayaḥ/puurvaviddha). Perform homa with fresh rice from pa
@@ -19850,9 +19696,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:पार्वणव्रतम् अमावास्या
  याम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211204T063132
 DTSTART;VALUE=DATE:20211204
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211205T063205
 DTEND;VALUE=DATE:20211205
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_1/offset
@@ -19922,9 +19766,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:दर्शेष्टिः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211205T063205
 DTSTART;VALUE=DATE:20211205
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211206T063238
 DTEND;VALUE=DATE:20211206
 DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
  rvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config file](
@@ -19940,9 +19782,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211205T063205
 DTSTART;VALUE=DATE:20211205
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211206T063238
 DTEND;VALUE=DATE:20211206
 DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
  rvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config file](
@@ -20654,9 +20494,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:पार्वणव्रतम् पूर्णिमाय
  ाम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211218T063910
 DTSTART;VALUE=DATE:20211218
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211219T063941
 DTEND;VALUE=DATE:20211219
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_16/offse
@@ -20725,9 +20563,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:पूर्र्णमासेष्टिः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211219T063941
 DTSTART;VALUE=DATE:20211219
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211220T064012
 DTEND;VALUE=DATE:20211220
 DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month
   (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config f
@@ -20743,9 +20579,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:स्थालीपाकः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211219T063941
 DTSTART;VALUE=DATE:20211219
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211220T064012
 DTEND;VALUE=DATE:20211220
 DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month
   (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config f
