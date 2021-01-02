@@ -104,7 +104,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:budhānūrādhā-puṇyakālaḥ
+SUMMARY:budhānurādhā-puṇyakālaḥ
 DTSTART;VALUE=DATE:20190102
 DTEND;VALUE=DATE:20190103
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -128,9 +128,11 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190101T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190102T073625
 DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
- rivāsaraḥ is over.<br/><br/>## Details<br/>- [Edit config file](https:/
- /github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/ekAdashI/de
- scription_only/harivAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ rivāsaraḥ is over.<br/><br/>ajñānatimirāndhasya vratenānena keśava
+ |  <br/>prasīda sumukho nātha jñānadṛṣṭiprado bhava||<br/><br/><
+ br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/
+ adyatithi/tree/master/time_focus/monthly/ekAdashI/description_only/harivAs
+ araH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -1438,9 +1440,11 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190117T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190118T040519
 DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
- rivāsaraḥ is over.<br/><br/>## Details<br/>- [Edit config file](https:/
- /github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/ekAdashI/de
- scription_only/harivAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ rivāsaraḥ is over.<br/><br/>ajñānatimirāndhasya vratenānena keśava
+ |  <br/>prasīda sumukho nātha jñānadṛṣṭiprado bhava||<br/><br/><
+ br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/
+ adyatithi/tree/master/time_focus/monthly/ekAdashI/description_only/harivAs
+ araH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -1744,10 +1748,15 @@ BEGIN:VEVENT
 SUMMARY:viṣṇupadī-puṇyakālaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190120T080531
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190120T205328
-DESCRIPTION:Viṣṇupadī Punyakala.<br/><br/>## Details<br/>- [Edit conf
- ig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/san
- krAnti/description_only/viSNupadI-puNyakAlaH.toml)<br/>- Tags: SunSankrant
- i CommonFestivals
+DESCRIPTION:Viṣṇupadī Punyakala.<br/><br/>saṅkrāntisnānākaraṇe
+  pratyavāyamāha śātātapaḥ—  <br/>sūryasaṅkramaṇe puṇye na 
+ snāyādyadi mānavaḥ|  <br/>saptajanmasu rogī syāt duḥkhabhāgī ca
+  jāyate||  <br/>saṅkrāntyāṃ yāni dattāni havyakavyāni mānavai
+ ḥ|  <br/>tāni tasya dadātyarkaḥ saptajanmasu niścitam iti|| (smṛt
+ imuktāphale āhnika-kāṇḍe-pūrvabhāgaḥ)<br/><br/><br/><br/>## Det
+ ails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/
+ master/time_focus/sankrAnti/description_only/viSNupadI-puNyakAlaH.toml)<br
+ />- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -2580,7 +2589,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:budhānūrādhā-puṇyakālaḥ
+SUMMARY:budhānurādhā-puṇyakālaḥ
 DTSTART;VALUE=DATE:20190130
 DTEND;VALUE=DATE:20190131
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -2662,9 +2671,11 @@ DTSTART;VALUE=DATE:20190130
 DTEND;VALUE=DATE:20190131
 DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
- rivāsaraḥ is over.<br/><br/>## Details<br/>- [Edit config file](https:/
- /github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/ekAdashI/de
- scription_only/harivAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ rivāsaraḥ is over.<br/><br/>ajñānatimirāndhasya vratenānena keśava
+ |  <br/>prasīda sumukho nātha jñānadṛṣṭiprado bhava||<br/><br/><
+ br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/
+ adyatithi/tree/master/time_focus/monthly/ekAdashI/description_only/harivAs
+ araH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3790,10 +3801,15 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190213T020557
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190213T145354
 DESCRIPTION:Kumbha-Ravi-Saṅkramaṇa-Viṣṇupadī Punyakala. Perform d
  anam of hay\, grass\, food and pure water to cows.<br/><br/>kumbhapraveśe
-  dānaṃ tu gavaṃ ambu tṛṇasya ca|<br/><br/><br/><br/>## Details<br
- />- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/
- time_focus/sankrAnti/description_only/kumbha-ravi-saGkramaNa-viSNupadI-puN
- yakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
+  dānaṃ tu gavaṃ ambu tṛṇasya ca|  <br/>saṅkrāntisnānākaraṇ
+ e pratyavāyamāha śātātapaḥ—  <br/>sūryasaṅkramaṇe puṇye na
+  snāyādyadi mānavaḥ|  <br/>saptajanmasu rogī syāt duḥkhabhāgī c
+ a jāyate||  <br/>saṅkrāntyāṃ yāni dattāni havyakavyāni mānavai
+ ḥ|  <br/>tāni tasya dadātyarkaḥ saptajanmasu niścitam iti|| (smṛt
+ imuktāphale āhnika-kāṇḍe-pūrvabhāgaḥ)<br/><br/><br/><br/>## Det
+ ails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/
+ master/time_focus/sankrAnti/description_only/kumbha-ravi-saGkramaNa-viSNup
+ adI-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -4273,9 +4289,11 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190215T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190216T162210
 DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
- rivāsaraḥ is over.<br/><br/>## Details<br/>- [Edit config file](https:/
- /github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/ekAdashI/de
- scription_only/harivAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ rivāsaraḥ is over.<br/><br/>ajñānatimirāndhasya vratenānena keśava
+ |  <br/>prasīda sumukho nātha jñānadṛṣṭiprado bhava||<br/><br/><
+ br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/
+ adyatithi/tree/master/time_focus/monthly/ekAdashI/description_only/harivAs
+ araH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -4552,10 +4570,15 @@ BEGIN:VEVENT
 SUMMARY:ṣaḍaśīti-puṇyakālaḥ
 DTSTART;VALUE=DATE:20190219
 DTEND;VALUE=DATE:20190220
-DESCRIPTION:Ṣaḍaśīti Punyakala.<br/><br/>## Details<br/>- [Edit conf
- ig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/san
- krAnti/description_only/SaDazIti-puNyakAlaH.toml)<br/>- Tags: SunSankranti
-  CommonFestivals
+DESCRIPTION:Ṣaḍaśīti Punyakala.<br/><br/>saṅkrāntisnānākaraṇe
+  pratyavāyamāha śātātapaḥ—  <br/>sūryasaṅkramaṇe puṇye na 
+ snāyādyadi mānavaḥ|  <br/>saptajanmasu rogī syāt duḥkhabhāgī ca
+  jāyate||  <br/>saṅkrāntyāṃ yāni dattāni havyakavyāni mānavai
+ ḥ|  <br/>tāni tasya dadātyarkaḥ saptajanmasu niścitam iti|| (smṛt
+ imuktāphale āhnika-kāṇḍe-pūrvabhāgaḥ)<br/><br/><br/><br/>## Det
+ ails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/
+ master/time_focus/sankrAnti/description_only/SaDazIti-puNyakAlaH.toml)<br/
+ >- Tags: SunSankranti CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5540,9 +5563,11 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190301T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190302T174340
 DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
- rivāsaraḥ is over.<br/><br/>## Details<br/>- [Edit config file](https:/
- /github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/ekAdashI/de
- scription_only/harivAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ rivāsaraḥ is over.<br/><br/>ajñānatimirāndhasya vratenānena keśava
+ |  <br/>prasīda sumukho nātha jñānadṛṣṭiprado bhava||<br/><br/><
+ br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/
+ adyatithi/tree/master/time_focus/monthly/ekAdashI/description_only/harivAs
+ araH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -6633,10 +6658,16 @@ BEGIN:VEVENT
 SUMMARY:mīna-ravi-saṅkramaṇa-ṣaḍaśīti-puṇyakālaḥ
 DTSTART;VALUE=DATE:20190315
 DTEND;VALUE=DATE:20190316
-DESCRIPTION:Mīna-Ravi-Saṅkramaṇa-Ṣaḍaśīti Punyakala.<br/><br/>#
- # Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/
- tree/master/time_focus/sankrAnti/description_only/mIna-ravi-saGkramaNa-SaD
- azIti-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
+DESCRIPTION:Mīna-Ravi-Saṅkramaṇa-Ṣaḍaśīti Punyakala.<br/><br/>s
+ aṅkrāntisnānākaraṇe pratyavāyamāha śātātapaḥ—  <br/>sūrya
+ saṅkramaṇe puṇye na snāyādyadi mānavaḥ|  <br/>saptajanmasu rog
+ ī syāt duḥkhabhāgī ca jāyate||  <br/>saṅkrāntyāṃ yāni dattā
+ ni havyakavyāni mānavaiḥ|  <br/>tāni tasya dadātyarkaḥ saptajanmas
+ u niścitam iti|| (smṛtimuktāphale āhnika-kāṇḍe-pūrvabhāgaḥ)<
+ br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/
+ jyotisham/adyatithi/tree/master/time_focus/sankrAnti/description_only/mIna
+ -ravi-saGkramaNa-SaDazIti-puNyakAlaH.toml)<br/>- Tags: SunSankranti Common
+ Festivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -7002,9 +7033,11 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190317T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190318T020614
 DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
- rivāsaraḥ is over.<br/><br/>## Details<br/>- [Edit config file](https:/
- /github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/ekAdashI/de
- scription_only/harivAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ rivāsaraḥ is over.<br/><br/>ajñānatimirāndhasya vratenānena keśava
+ |  <br/>prasīda sumukho nātha jñānadṛṣṭiprado bhava||<br/><br/><
+ br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/
+ adyatithi/tree/master/time_focus/monthly/ekAdashI/description_only/harivAs
+ araH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -7274,10 +7307,15 @@ BEGIN:VEVENT
 SUMMARY:meṣa-viṣu-puṇyakālaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190320T232824
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190321T072830
-DESCRIPTION:Meṣa-Viṣu Punyakala.<br/><br/>## Details<br/>- [Edit confi
- g file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/sank
- rAnti/description_only/mESa-viSu-puNyakAlaH.toml)<br/>- Tags: SunSankranti
-  CommonFestivals
+DESCRIPTION:Meṣa-Viṣu Punyakala.<br/><br/>saṅkrāntisnānākaraṇe 
+ pratyavāyamāha śātātapaḥ—  <br/>sūryasaṅkramaṇe puṇye na s
+ nāyādyadi mānavaḥ|  <br/>saptajanmasu rogī syāt duḥkhabhāgī ca 
+ jāyate||  <br/>saṅkrāntyāṃ yāni dattāni havyakavyāni mānavaiḥ
+ |  <br/>tāni tasya dadātyarkaḥ saptajanmasu niścitam iti|| (smṛtimu
+ ktāphale āhnika-kāṇḍe-pūrvabhāgaḥ)<br/><br/><br/><br/>## Detail
+ s<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/mas
+ ter/time_focus/sankrAnti/description_only/mESa-viSu-puNyakAlaH.toml)<br/>-
+  Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -8309,9 +8347,11 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190331T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190401T124400
 DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
- rivāsaraḥ is over.<br/><br/>## Details<br/>- [Edit config file](https:/
- /github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/ekAdashI/de
- scription_only/harivAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ rivāsaraḥ is over.<br/><br/>ajñānatimirāndhasya vratenānena keśava
+ |  <br/>prasīda sumukho nātha jñānadṛṣṭiprado bhava||<br/><br/><
+ br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/
+ adyatithi/tree/master/time_focus/monthly/ekAdashI/description_only/harivAs
+ araH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -9602,10 +9642,15 @@ BEGIN:VEVENT
 SUMMARY:meṣa-saṅkrāntiḥ (vikārī-saṃvatsaraḥ)
 DTSTART;VALUE=DATE:20190414
 DTEND;VALUE=DATE:20190415
-DESCRIPTION:Tamil New Year.<br/><br/>## Details<br/>- [Edit config file](h
- ttps://github.com/jyotisham/adyatithi/tree/master/time_focus/sankrAnti/des
- cription_only/mESa-saGkrAntiH.toml)<br/>- Tags: SunSankranti CommonFestiva
- ls
+DESCRIPTION:Tamil New Year.<br/><br/>saṅkrāntisnānākaraṇe pratyavā
+ yamāha śātātapaḥ—  <br/>sūryasaṅkramaṇe puṇye na snāyādya
+ di mānavaḥ|  <br/>saptajanmasu rogī syāt duḥkhabhāgī ca jāyate||
+   <br/>saṅkrāntyāṃ yāni dattāni havyakavyāni mānavaiḥ|  <br/>t
+ āni tasya dadātyarkaḥ saptajanmasu niścitam iti|| (smṛtimuktāphale
+  āhnika-kāṇḍe-pūrvabhāgaḥ)<br/><br/><br/><br/>## Details<br/>- [
+ Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time_
+ focus/sankrAnti/description_only/mESa-saGkrAntiH.toml)<br/>- Tags: SunSank
+ ranti CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9618,10 +9663,15 @@ BEGIN:VEVENT
 SUMMARY:meṣa-saṅkramaṇa-puṇyakālaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190414T095357
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190414T175354
-DESCRIPTION:Meṣa-Saṅkramaṇa Punyakala.<br/><br/>## Details<br/>- [Ed
- it config file](https://github.com/jyotisham/adyatithi/tree/master/time_fo
- cus/sankrAnti/description_only/mESa-saGkramaNa-puNyakAlaH.toml)<br/>- Tags
- : SunSankranti CommonFestivals
+DESCRIPTION:Meṣa-Saṅkramaṇa Punyakala.<br/><br/>saṅkrāntisnānāk
+ araṇe pratyavāyamāha śātātapaḥ—  <br/>sūryasaṅkramaṇe pu
+ ṇye na snāyādyadi mānavaḥ|  <br/>saptajanmasu rogī syāt duḥkhab
+ hāgī ca jāyate||  <br/>saṅkrāntyāṃ yāni dattāni havyakavyāni m
+ ānavaiḥ|  <br/>tāni tasya dadātyarkaḥ saptajanmasu niścitam iti|| 
+ (smṛtimuktāphale āhnika-kāṇḍe-pūrvabhāgaḥ)<br/><br/><br/><br/
+ >## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatith
+ i/tree/master/time_focus/sankrAnti/description_only/mESa-saGkramaNa-puNyak
+ AlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -9882,9 +9932,11 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190415T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190416T093950
 DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
- rivāsaraḥ is over.<br/><br/>## Details<br/>- [Edit config file](https:/
- /github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/ekAdashI/de
- scription_only/harivAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ rivāsaraḥ is over.<br/><br/>ajñānatimirāndhasya vratenānena keśava
+ |  <br/>prasīda sumukho nātha jñānadṛṣṭiprado bhava||<br/><br/><
+ br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/
+ adyatithi/tree/master/time_focus/monthly/ekAdashI/description_only/harivAs
+ araH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -10529,10 +10581,15 @@ BEGIN:VEVENT
 SUMMARY:viṣṇupadī-puṇyakālaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190420T080120
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190420T204917
-DESCRIPTION:Viṣṇupadī Punyakala.<br/><br/>## Details<br/>- [Edit conf
- ig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/san
- krAnti/description_only/viSNupadI-puNyakAlaH.toml)<br/>- Tags: SunSankrant
- i CommonFestivals
+DESCRIPTION:Viṣṇupadī Punyakala.<br/><br/>saṅkrāntisnānākaraṇe
+  pratyavāyamāha śātātapaḥ—  <br/>sūryasaṅkramaṇe puṇye na 
+ snāyādyadi mānavaḥ|  <br/>saptajanmasu rogī syāt duḥkhabhāgī ca
+  jāyate||  <br/>saṅkrāntyāṃ yāni dattāni havyakavyāni mānavai
+ ḥ|  <br/>tāni tasya dadātyarkaḥ saptajanmasu niścitam iti|| (smṛt
+ imuktāphale āhnika-kāṇḍe-pūrvabhāgaḥ)<br/><br/><br/><br/>## Det
+ ails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/
+ master/time_focus/sankrAnti/description_only/viSNupadI-puNyakAlaH.toml)<br
+ />- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -11196,9 +11253,11 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190430T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190501T064728
 DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
- rivāsaraḥ is over.<br/><br/>## Details<br/>- [Edit config file](https:/
- /github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/ekAdashI/de
- scription_only/harivAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ rivāsaraḥ is over.<br/><br/>ajñānatimirāndhasya vratenānena keśava
+ |  <br/>prasīda sumukho nātha jñānadṛṣṭiprado bhava||<br/><br/><
+ br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/
+ adyatithi/tree/master/time_focus/monthly/ekAdashI/description_only/harivAs
+ araH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -12677,9 +12736,15 @@ SUMMARY:vṛṣabha-ravi-saṅkramaṇa-viṣṇupadī-puṇyakālaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190515T042035
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190515T170841
 DESCRIPTION:Vṛṣabha-Ravi-Saṅkramaṇa-Viṣṇupadī Punyakala.<br/>
- <br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adya
- tithi/tree/master/time_focus/sankrAnti/description_only/vRSabha-ravi-saGkr
- amaNa-viSNupadI-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
+ <br/>saṅkrāntisnānākaraṇe pratyavāyamāha śātātapaḥ—  <br/>
+ sūryasaṅkramaṇe puṇye na snāyādyadi mānavaḥ|  <br/>saptajanmas
+ u rogī syāt duḥkhabhāgī ca jāyate||  <br/>saṅkrāntyāṃ yāni d
+ attāni havyakavyāni mānavaiḥ|  <br/>tāni tasya dadātyarkaḥ saptaj
+ anmasu niścitam iti|| (smṛtimuktāphale āhnika-kāṇḍe-pūrvabhāga
+ ḥ)<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github
+ .com/jyotisham/adyatithi/tree/master/time_focus/sankrAnti/description_only
+ /vRSabha-ravi-saGkramaNa-viSNupadI-puNyakAlaH.toml)<br/>- Tags: SunSankran
+ ti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -12764,9 +12829,11 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190514T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190515T160008
 DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
- rivāsaraḥ is over.<br/><br/>## Details<br/>- [Edit config file](https:/
- /github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/ekAdashI/de
- scription_only/harivAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ rivāsaraḥ is over.<br/><br/>ajñānatimirāndhasya vratenānena keśava
+ |  <br/>prasīda sumukho nātha jñānadṛṣṭiprado bhava||<br/><br/><
+ br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/
+ adyatithi/tree/master/time_focus/monthly/ekAdashI/description_only/harivAs
+ araH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -13468,10 +13535,15 @@ BEGIN:VEVENT
 SUMMARY:ṣaḍaśīti-puṇyakālaḥ
 DTSTART;VALUE=DATE:20190521
 DTEND;VALUE=DATE:20190522
-DESCRIPTION:Ṣaḍaśīti Punyakala.<br/><br/>## Details<br/>- [Edit conf
- ig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/san
- krAnti/description_only/SaDazIti-puNyakAlaH.toml)<br/>- Tags: SunSankranti
-  CommonFestivals
+DESCRIPTION:Ṣaḍaśīti Punyakala.<br/><br/>saṅkrāntisnānākaraṇe
+  pratyavāyamāha śātātapaḥ—  <br/>sūryasaṅkramaṇe puṇye na 
+ snāyādyadi mānavaḥ|  <br/>saptajanmasu rogī syāt duḥkhabhāgī ca
+  jāyate||  <br/>saṅkrāntyāṃ yāni dattāni havyakavyāni mānavai
+ ḥ|  <br/>tāni tasya dadātyarkaḥ saptajanmasu niścitam iti|| (smṛt
+ imuktāphale āhnika-kāṇḍe-pūrvabhāgaḥ)<br/><br/><br/><br/>## Det
+ ails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/
+ master/time_focus/sankrAnti/description_only/SaDazIti-puNyakAlaH.toml)<br/
+ >- Tags: SunSankranti CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -14208,9 +14280,11 @@ DTSTART;VALUE=DATE:20190529
 DTEND;VALUE=DATE:20190530
 DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
- rivāsaraḥ is over.<br/><br/>## Details<br/>- [Edit config file](https:/
- /github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/ekAdashI/de
- scription_only/harivAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ rivāsaraḥ is over.<br/><br/>ajñānatimirāndhasya vratenānena keśava
+ |  <br/>prasīda sumukho nātha jñānadṛṣṭiprado bhava||<br/><br/><
+ br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/
+ adyatithi/tree/master/time_focus/monthly/ekAdashI/description_only/harivAs
+ araH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15701,9 +15775,11 @@ DTSTART;VALUE=DATE:20190612
 DTEND;VALUE=DATE:20190613
 DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
- rivāsaraḥ is over.<br/><br/>## Details<br/>- [Edit config file](https:/
- /github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/ekAdashI/de
- scription_only/harivAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ rivāsaraḥ is over.<br/><br/>ajñānatimirāndhasya vratenānena keśava
+ |  <br/>prasīda sumukho nātha jñānadṛṣṭiprado bhava||<br/><br/><
+ br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/
+ adyatithi/tree/master/time_focus/monthly/ekAdashI/description_only/harivAs
+ araH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15998,10 +16074,15 @@ DTSTART;VALUE=DATE:20190615
 DTEND;VALUE=DATE:20190616
 DESCRIPTION:Mithuna-Ravi-Saṅkramaṇa-Ṣaḍaśīti Punyakala. Perform 
  danam of clothes\, food and water.<br/><br/>vastrānnapānadānāni mithun
- e vihitāni tu|<br/><br/><br/><br/>## Details<br/>- [Edit config file](htt
- ps://github.com/jyotisham/adyatithi/tree/master/time_focus/sankrAnti/descr
- iption_only/mithuna-ravi-saGkramaNa-SaDazIti-puNyakAlaH.toml)<br/>- Tags: 
- SunSankranti CommonFestivals
+ e vihitāni tu|  <br/>saṅkrāntisnānākaraṇe pratyavāyamāha śātā
+ tapaḥ—  <br/>sūryasaṅkramaṇe puṇye na snāyādyadi mānavaḥ| 
+  <br/>saptajanmasu rogī syāt duḥkhabhāgī ca jāyate||  <br/>saṅkr
+ āntyāṃ yāni dattāni havyakavyāni mānavaiḥ|  <br/>tāni tasya dad
+ ātyarkaḥ saptajanmasu niścitam iti|| (smṛtimuktāphale āhnika-kā
+ ṇḍe-pūrvabhāgaḥ)<br/><br/><br/><br/>## Details<br/>- [Edit config 
+ file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/sankrA
+ nti/description_only/mithuna-ravi-saGkramaNa-SaDazIti-puNyakAlaH.toml)<br/
+ >- Tags: SunSankranti CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -16556,10 +16637,15 @@ BEGIN:VEVENT
 SUMMARY:dakṣiṇāyana-puṇyakālaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190621T092417
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190621T212417
-DESCRIPTION:Dakṣiṇāyana Punyakala.<br/><br/>## Details<br/>- [Edit co
- nfig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/s
- ankrAnti/description_only/dakSiNAyana-puNyakAlaH.toml)<br/>- Tags: SunSank
- ranti CommonFestivals
+DESCRIPTION:Dakṣiṇāyana Punyakala.<br/><br/>saṅkrāntisnānākara
+ ṇe pratyavāyamāha śātātapaḥ—  <br/>sūryasaṅkramaṇe puṇye
+  na snāyādyadi mānavaḥ|  <br/>saptajanmasu rogī syāt duḥkhabhāg
+ ī ca jāyate||  <br/>saṅkrāntyāṃ yāni dattāni havyakavyāni māna
+ vaiḥ|  <br/>tāni tasya dadātyarkaḥ saptajanmasu niścitam iti|| (sm
+ ṛtimuktāphale āhnika-kāṇḍe-pūrvabhāgaḥ)<br/><br/><br/><br/>##
+  Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/t
+ ree/master/time_focus/sankrAnti/description_only/dakSiNAyana-puNyakAlaH.to
+ ml)<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -17081,9 +17167,11 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190628T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190629T124116
 DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
- rivāsaraḥ is over.<br/><br/>## Details<br/>- [Edit config file](https:/
- /github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/ekAdashI/de
- scription_only/harivAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ rivāsaraḥ is over.<br/><br/>ajñānatimirāndhasya vratenānena keśava
+ |  <br/>prasīda sumukho nātha jñānadṛṣṭiprado bhava||<br/><br/><
+ br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/
+ adyatithi/tree/master/time_focus/monthly/ekAdashI/description_only/harivAs
+ araH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -18579,9 +18667,11 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190712T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190713T062753
 DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
- rivāsaraḥ is over.<br/><br/>## Details<br/>- [Edit config file](https:/
- /github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/ekAdashI/de
- scription_only/harivAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ rivāsaraḥ is over.<br/><br/>ajñānatimirāndhasya vratenānena keśava
+ |  <br/>prasīda sumukho nātha jñānadṛṣṭiprado bhava||<br/><br/><
+ br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/
+ adyatithi/tree/master/time_focus/monthly/ekAdashI/description_only/harivAs
+ araH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -18935,10 +19025,15 @@ BEGIN:VEVENT
 SUMMARY:karkaṭa-saṅkramaṇa-puṇyakālaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190716T160930
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190717T040930
-DESCRIPTION:Karkaṭa-Saṅkramaṇa Punyakala.<br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
- _focus/sankrAnti/description_only/karkaTa-saGkramaNa-puNyakAlaH.toml)<br/>
- - Tags: SunSankranti CommonFestivals
+DESCRIPTION:Karkaṭa-Saṅkramaṇa Punyakala.<br/><br/>saṅkrāntisnān
+ ākaraṇe pratyavāyamāha śātātapaḥ—  <br/>sūryasaṅkramaṇe p
+ uṇye na snāyādyadi mānavaḥ|  <br/>saptajanmasu rogī syāt duḥkha
+ bhāgī ca jāyate||  <br/>saṅkrāntyāṃ yāni dattāni havyakavyāni 
+ mānavaiḥ|  <br/>tāni tasya dadātyarkaḥ saptajanmasu niścitam iti||
+  (smṛtimuktāphale āhnika-kāṇḍe-pūrvabhāgaḥ)<br/><br/><br/><br
+ />## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatit
+ hi/tree/master/time_focus/sankrAnti/description_only/karkaTa-saGkramaNa-pu
+ NyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -19508,10 +19603,15 @@ BEGIN:VEVENT
 SUMMARY:viṣṇupadī-puṇyakālaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190723T015618
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190723T144423
-DESCRIPTION:Viṣṇupadī Punyakala.<br/><br/>## Details<br/>- [Edit conf
- ig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/san
- krAnti/description_only/viSNupadI-puNyakAlaH.toml)<br/>- Tags: SunSankrant
- i CommonFestivals
+DESCRIPTION:Viṣṇupadī Punyakala.<br/><br/>saṅkrāntisnānākaraṇe
+  pratyavāyamāha śātātapaḥ—  <br/>sūryasaṅkramaṇe puṇye na 
+ snāyādyadi mānavaḥ|  <br/>saptajanmasu rogī syāt duḥkhabhāgī ca
+  jāyate||  <br/>saṅkrāntyāṃ yāni dattāni havyakavyāni mānavai
+ ḥ|  <br/>tāni tasya dadātyarkaḥ saptajanmasu niścitam iti|| (smṛt
+ imuktāphale āhnika-kāṇḍe-pūrvabhāgaḥ)<br/><br/><br/><br/>## Det
+ ails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/
+ master/time_focus/sankrAnti/description_only/viSNupadI-puNyakAlaH.toml)<br
+ />- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -19964,9 +20064,11 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190728T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190729T002845
 DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
- rivāsaraḥ is over.<br/><br/>## Details<br/>- [Edit config file](https:/
- /github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/ekAdashI/de
- scription_only/harivAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ rivāsaraḥ is over.<br/><br/>ajñānatimirāndhasya vratenānena keśava
+ |  <br/>prasīda sumukho nātha jñānadṛṣṭiprado bhava||<br/><br/><
+ br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/
+ adyatithi/tree/master/time_focus/monthly/ekAdashI/description_only/harivAs
+ araH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -21406,9 +21508,11 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190810T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190811T170823
 DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
- rivāsaraḥ is over.<br/><br/>## Details<br/>- [Edit config file](https:/
- /github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/ekAdashI/de
- scription_only/harivAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ rivāsaraḥ is over.<br/><br/>ajñānatimirāndhasya vratenānena keśava
+ |  <br/>prasīda sumukho nātha jñānadṛṣṭiprado bhava||<br/><br/><
+ br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/
+ adyatithi/tree/master/time_focus/monthly/ekAdashI/description_only/harivAs
+ araH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -22161,13 +22265,13 @@ BEGIN:VEVENT
 SUMMARY:siṃha-ravi-saṅkramaṇa-viṣṇupadī-puṇyakālaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190817T060944
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190817T185750
-DESCRIPTION:Siṃha-Ravi-Saṅkramaṇa-Viṣṇupadī Punyakala. Perform 
- danam of ghee\, milk vessel\, "ghee cow" and fruits.<br/><br/>ghṛtaṃ c
- a kṣīrakumbhaśca ghṛtadhenu phalāni ca|  <br/>śrāvaṇe śrīdhar
- aprītyai dātavyāni vipaścitā||<br/><br/><br/><br/>## Details<br/>- [E
- dit config file](https://github.com/jyotisham/adyatithi/tree/master/time_f
- ocus/sankrAnti/description_only/siMha-ravi-saGkramaNa-viSNupadI-puNyakAlaH
- .toml)<br/>- Tags: SunSankranti CommonFestivals
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/time_focus/sankrAnti/description_only/siMha-ravi-
+ saGkramaNa-viSNupadI-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFesti
+ vals<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github
+ .com/jyotisham/adyatithi/tree/master/time_focus/sankrAnti/description_only
+ /siMha-ravi-saGkramaNa-viSNupadI-puNyakAlaH.toml)<br/>- Tags: SunSankranti
+  CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -22582,10 +22686,15 @@ BEGIN:VEVENT
 SUMMARY:ṣaḍaśīti-puṇyakālaḥ
 DTSTART;VALUE=DATE:20190823
 DTEND;VALUE=DATE:20190824
-DESCRIPTION:Ṣaḍaśīti Punyakala.<br/><br/>## Details<br/>- [Edit conf
- ig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/san
- krAnti/description_only/SaDazIti-puNyakAlaH.toml)<br/>- Tags: SunSankranti
-  CommonFestivals
+DESCRIPTION:Ṣaḍaśīti Punyakala.<br/><br/>saṅkrāntisnānākaraṇe
+  pratyavāyamāha śātātapaḥ—  <br/>sūryasaṅkramaṇe puṇye na 
+ snāyādyadi mānavaḥ|  <br/>saptajanmasu rogī syāt duḥkhabhāgī ca
+  jāyate||  <br/>saṅkrāntyāṃ yāni dattāni havyakavyāni mānavai
+ ḥ|  <br/>tāni tasya dadātyarkaḥ saptajanmasu niścitam iti|| (smṛt
+ imuktāphale āhnika-kāṇḍe-pūrvabhāgaḥ)<br/><br/><br/><br/>## Det
+ ails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/
+ master/time_focus/sankrAnti/description_only/SaDazIti-puNyakAlaH.toml)<br/
+ >- Tags: SunSankranti CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -23108,9 +23217,11 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190826T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190827T103508
 DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
- rivāsaraḥ is over.<br/><br/>## Details<br/>- [Edit config file](https:/
- /github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/ekAdashI/de
- scription_only/harivAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ rivāsaraḥ is over.<br/><br/>ajñānatimirāndhasya vratenānena keśava
+ |  <br/>prasīda sumukho nātha jñānadṛṣṭiprado bhava||<br/><br/><
+ br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/
+ adyatithi/tree/master/time_focus/monthly/ekAdashI/description_only/harivAs
+ araH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -24861,9 +24972,11 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190909T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190910T070218
 DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
- rivāsaraḥ is over.<br/><br/>## Details<br/>- [Edit config file](https:/
- /github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/ekAdashI/de
- scription_only/harivAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ rivāsaraḥ is over.<br/><br/>ajñānatimirāndhasya vratenānena keśava
+ |  <br/>prasīda sumukho nātha jñānadṛṣṭiprado bhava||<br/><br/><
+ br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/
+ adyatithi/tree/master/time_focus/monthly/ekAdashI/description_only/harivAs
+ araH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -25658,10 +25771,15 @@ DTSTART;VALUE=DATE:20190917
 DTEND;VALUE=DATE:20190918
 DESCRIPTION:Kanyā-Ravi-Saṅkramaṇa-Ṣaḍaśīti Punyakala. Perform d
  anam of clothes/place to live.<br/><br/>kanyāpraveśe vastrāṇāṃ ve
- śmanāṃ dānameva ca|<br/><br/><br/><br/>## Details<br/>- [Edit config 
- file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/sankrA
- nti/description_only/kanyA-ravi-saGkramaNa-SaDazIti-puNyakAlaH.toml)<br/>-
-  Tags: SunSankranti CommonFestivals
+ śmanāṃ dānameva ca|  <br/>saṅkrāntisnānākaraṇe pratyavāyamāh
+ a śātātapaḥ—  <br/>sūryasaṅkramaṇe puṇye na snāyādyadi mā
+ navaḥ|  <br/>saptajanmasu rogī syāt duḥkhabhāgī ca jāyate||  <br/
+ >saṅkrāntyāṃ yāni dattāni havyakavyāni mānavaiḥ|  <br/>tāni t
+ asya dadātyarkaḥ saptajanmasu niścitam iti|| (smṛtimuktāphale āhni
+ ka-kāṇḍe-pūrvabhāgaḥ)<br/><br/><br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/
+ sankrAnti/description_only/kanyA-ravi-saGkramaNa-SaDazIti-puNyakAlaH.toml)
+ <br/>- Tags: SunSankranti CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -26318,10 +26436,15 @@ BEGIN:VEVENT
 SUMMARY:tulā-viṣu-puṇyakālaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190923T092006
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190923T172012
-DESCRIPTION:Tulā-Viṣu Punyakala.<br/><br/>## Details<br/>- [Edit config
-  file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/sankr
- Anti/description_only/tulA-viSu-puNyakAlaH.toml)<br/>- Tags: SunSankranti 
- CommonFestivals
+DESCRIPTION:Tulā-Viṣu Punyakala.<br/><br/>saṅkrāntisnānākaraṇe p
+ ratyavāyamāha śātātapaḥ—  <br/>sūryasaṅkramaṇe puṇye na sn
+ āyādyadi mānavaḥ|  <br/>saptajanmasu rogī syāt duḥkhabhāgī ca j
+ āyate||  <br/>saṅkrāntyāṃ yāni dattāni havyakavyāni mānavaiḥ|
+   <br/>tāni tasya dadātyarkaḥ saptajanmasu niścitam iti|| (smṛtimuk
+ tāphale āhnika-kāṇḍe-pūrvabhāgaḥ)<br/><br/><br/><br/>## Details
+ <br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/mast
+ er/time_focus/sankrAnti/description_only/tulA-viSu-puNyakAlaH.toml)<br/>- 
+ Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -26417,9 +26540,11 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190924T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190925T192520
 DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
- rivāsaraḥ is over.<br/><br/>## Details<br/>- [Edit config file](https:/
- /github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/ekAdashI/de
- scription_only/harivAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ rivāsaraḥ is over.<br/><br/>ajñānatimirāndhasya vratenānena keśava
+ |  <br/>prasīda sumukho nātha jñānadṛṣṭiprado bhava||<br/><br/><
+ br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/
+ adyatithi/tree/master/time_focus/monthly/ekAdashI/description_only/harivAs
+ araH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -27170,7 +27295,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:budhānūrādhā-puṇyakālaḥ
+SUMMARY:budhānurādhā-puṇyakālaḥ
 DTSTART;VALUE=DATE:20191002
 DTEND;VALUE=DATE:20191003
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -28029,9 +28154,11 @@ DTSTART;VALUE=DATE:20191008
 DTEND;VALUE=DATE:20191009
 DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
- rivāsaraḥ is over.<br/><br/>## Details<br/>- [Edit config file](https:/
- /github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/ekAdashI/de
- scription_only/harivAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ rivāsaraḥ is over.<br/><br/>ajñānatimirāndhasya vratenānena keśava
+ |  <br/>prasīda sumukho nātha jñānadṛṣṭiprado bhava||<br/><br/><
+ br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/
+ adyatithi/tree/master/time_focus/monthly/ekAdashI/description_only/harivAs
+ araH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -28948,10 +29075,15 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191017T203117
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191018T043114
 DESCRIPTION:Tulā-Saṅkramaṇa Punyakala. Perform danam of rice/wheat/gr
  ains and cow ghee/curd etc.<br/><br/>tulāpraveśe dhānyānāṃ gorasān
- āmapīṣṭadam<br/><br/><br/><br/>## Details<br/>- [Edit config file](h
- ttps://github.com/jyotisham/adyatithi/tree/master/time_focus/sankrAnti/des
- cription_only/tulA-saGkramaNa-puNyakAlaH.toml)<br/>- Tags: SunSankranti Co
- mmonFestivals
+ āmapīṣṭadam"  <br/>saṅkrāntisnānākaraṇe pratyavāyamāha śā
+ tātapaḥ—  <br/>sūryasaṅkramaṇe puṇye na snāyādyadi mānava
+ ḥ|  <br/>saptajanmasu rogī syāt duḥkhabhāgī ca jāyate||  <br/>sa
+ ṅkrāntyāṃ yāni dattāni havyakavyāni mānavaiḥ|  <br/>tāni tasy
+ a dadātyarkaḥ saptajanmasu niścitam iti|| (smṛtimuktāphale āhnika-
+ kāṇḍe-pūrvabhāgaḥ)<br/><br/><br/><br/>## Details<br/>- [Edit conf
+ ig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/san
+ krAnti/description_only/tulA-saGkramaNa-puNyakAlaH.toml)<br/>- Tags: SunSa
+ nkranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -29434,10 +29566,15 @@ BEGIN:VEVENT
 SUMMARY:viṣṇupadī-puṇyakālaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191023T162546
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191024T051343
-DESCRIPTION:Viṣṇupadī Punyakala.<br/><br/>## Details<br/>- [Edit conf
- ig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/san
- krAnti/description_only/viSNupadI-puNyakAlaH.toml)<br/>- Tags: SunSankrant
- i CommonFestivals
+DESCRIPTION:Viṣṇupadī Punyakala.<br/><br/>saṅkrāntisnānākaraṇe
+  pratyavāyamāha śātātapaḥ—  <br/>sūryasaṅkramaṇe puṇye na 
+ snāyādyadi mānavaḥ|  <br/>saptajanmasu rogī syāt duḥkhabhāgī ca
+  jāyate||  <br/>saṅkrāntyāṃ yāni dattāni havyakavyāni mānavai
+ ḥ|  <br/>tāni tasya dadātyarkaḥ saptajanmasu niścitam iti|| (smṛt
+ imuktāphale āhnika-kāṇḍe-pūrvabhāgaḥ)<br/><br/><br/><br/>## Det
+ ails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/
+ master/time_focus/sankrAnti/description_only/viSNupadI-puNyakAlaH.toml)<br
+ />- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -29627,9 +29764,11 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191024T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191025T033238
 DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
- rivāsaraḥ is over.<br/><br/>## Details<br/>- [Edit config file](https:/
- /github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/ekAdashI/de
- scription_only/harivAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ rivāsaraḥ is over.<br/><br/>ajñānatimirāndhasya vratenānena keśava
+ |  <br/>prasīda sumukho nātha jñānadṛṣṭiprado bhava||<br/><br/><
+ br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/
+ adyatithi/tree/master/time_focus/monthly/ekAdashI/description_only/harivAs
+ araH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -30340,7 +30479,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:budhānūrādhā-puṇyakālaḥ
+SUMMARY:budhānurādhā-puṇyakālaḥ
 DTSTART;VALUE=DATE:20191030
 DTEND;VALUE=DATE:20191031
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -31211,9 +31350,11 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191107T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191108T190000
 DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
- rivāsaraḥ is over.<br/><br/>## Details<br/>- [Edit config file](https:/
- /github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/ekAdashI/de
- scription_only/harivAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ rivāsaraḥ is over.<br/><br/>ajñānatimirāndhasya vratenānena keśava
+ |  <br/>prasīda sumukho nātha jñānadṛṣṭiprado bhava||<br/><br/><
+ br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/
+ adyatithi/tree/master/time_focus/monthly/ekAdashI/description_only/harivAs
+ araH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -32351,10 +32492,15 @@ SUMMARY:vṛścika-ravi-saṅkramaṇa-viṣṇupadī-puṇyakālaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191116T175721
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191117T064518
 DESCRIPTION:Vṛśchika-Ravi-Saṅkramaṇa-Viṣṇupadī Punyakala. Do d
- anam of deepam.<br/><br/>## Details<br/>- [Edit config file](https://githu
- b.com/jyotisham/adyatithi/tree/master/time_focus/sankrAnti/description_onl
- y/vRzcika-ravi-saGkramaNa-viSNupadI-puNyakAlaH.toml)<br/>- Tags: SunSankra
- nti CommonFestivals
+ anam of deepam.<br/><br/>saṅkrāntisnānākaraṇe pratyavāyamāha śā
+ tātapaḥ—  <br/>sūryasaṅkramaṇe puṇye na snāyādyadi mānava
+ ḥ|  <br/>saptajanmasu rogī syāt duḥkhabhāgī ca jāyate||  <br/>sa
+ ṅkrāntyāṃ yāni dattāni havyakavyāni mānavaiḥ|  <br/>tāni tasy
+ a dadātyarkaḥ saptajanmasu niścitam iti|| (smṛtimuktāphale āhnika-
+ kāṇḍe-pūrvabhāgaḥ)<br/><br/><br/><br/>## Details<br/>- [Edit conf
+ ig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/san
+ krAnti/description_only/vRzcika-ravi-saGkramaNa-viSNupadI-puNyakAlaH.toml)
+ <br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -32854,10 +33000,15 @@ BEGIN:VEVENT
 SUMMARY:ṣaḍaśīti-puṇyakālaḥ
 DTSTART;VALUE=DATE:20191122
 DTEND;VALUE=DATE:20191123
-DESCRIPTION:Ṣaḍaśīti Punyakala.<br/><br/>## Details<br/>- [Edit conf
- ig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/san
- krAnti/description_only/SaDazIti-puNyakAlaH.toml)<br/>- Tags: SunSankranti
-  CommonFestivals
+DESCRIPTION:Ṣaḍaśīti Punyakala.<br/><br/>saṅkrāntisnānākaraṇe
+  pratyavāyamāha śātātapaḥ—  <br/>sūryasaṅkramaṇe puṇye na 
+ snāyādyadi mānavaḥ|  <br/>saptajanmasu rogī syāt duḥkhabhāgī ca
+  jāyate||  <br/>saṅkrāntyāṃ yāni dattāni havyakavyāni mānavai
+ ḥ|  <br/>tāni tasya dadātyarkaḥ saptajanmasu niścitam iti|| (smṛt
+ imuktāphale āhnika-kāṇḍe-pūrvabhāgaḥ)<br/><br/><br/><br/>## Det
+ ails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/
+ master/time_focus/sankrAnti/description_only/SaDazIti-puNyakAlaH.toml)<br/
+ >- Tags: SunSankranti CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -32975,9 +33126,11 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191122T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191123T114358
 DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
- rivāsaraḥ is over.<br/><br/>## Details<br/>- [Edit config file](https:/
- /github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/ekAdashI/de
- scription_only/harivAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ rivāsaraḥ is over.<br/><br/>ajñānatimirāndhasya vratenānena keśava
+ |  <br/>prasīda sumukho nātha jñānadṛṣṭiprado bhava||<br/><br/><
+ br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/
+ adyatithi/tree/master/time_focus/monthly/ekAdashI/description_only/harivAs
+ araH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -33394,7 +33547,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:budhānūrādhā-puṇyakālaḥ
+SUMMARY:budhānurādhā-puṇyakālaḥ
 DTSTART;VALUE=DATE:20191127
 DTEND;VALUE=DATE:20191128
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -34317,9 +34470,11 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191207T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191208T145345
 DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
- rivāsaraḥ is over.<br/><br/>## Details<br/>- [Edit config file](https:/
- /github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/ekAdashI/de
- scription_only/harivAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ rivāsaraḥ is over.<br/><br/>ajñānatimirāndhasya vratenānena keśava
+ |  <br/>prasīda sumukho nātha jñānadṛṣṭiprado bhava||<br/><br/><
+ br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/
+ adyatithi/tree/master/time_focus/monthly/ekAdashI/description_only/harivAs
+ araH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -35152,10 +35307,15 @@ DTSTART;VALUE=DATE:20191216
 DTEND;VALUE=DATE:20191217
 DESCRIPTION:Dhanur-Ravi-Saṅkramaṇa-Ṣaḍaśīti Punyakala. Perform d
  anam of clothes/vehicle (e.g. bullock cart).<br/><br/>dhanuḥpraveśe vas
- trāṇāṃ yānānāṃ ca mahāphalam<br/><br/><br/><br/>## Details<br/
- >- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/t
- ime_focus/sankrAnti/description_only/dhanUravi-saGkramaNa-SaDazIti-puNyakA
- laH.toml)<br/>- Tags: SunSankranti CommonFestivals
+ trāṇāṃ yānānāṃ ca mahāphalam  <br/>saṅkrāntisnānākaraṇe
+  pratyavāyamāha śātātapaḥ—  <br/>sūryasaṅkramaṇe puṇye na 
+ snāyādyadi mānavaḥ|  <br/>saptajanmasu rogī syāt duḥkhabhāgī ca
+  jāyate||  <br/>saṅkrāntyāṃ yāni dattāni havyakavyāni mānavai
+ ḥ|  <br/>tāni tasya dadātyarkaḥ saptajanmasu niścitam iti|| (smṛt
+ imuktāphale āhnika-kāṇḍe-pūrvabhāgaḥ)  <br/><br/><br/><br/><br/
+ >## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatith
+ i/tree/master/time_focus/sankrAnti/description_only/dhanUravi-saGkramaNa-S
+ aDazIti-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -35580,9 +35740,11 @@ DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191221T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191222T205555
 DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
- rivāsaraḥ is over.<br/><br/>## Details<br/>- [Edit config file](https:/
- /github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/ekAdashI/de
- scription_only/harivAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ rivāsaraḥ is over.<br/><br/>ajñānatimirāndhasya vratenānena keśava
+ |  <br/>prasīda sumukho nātha jñānadṛṣṭiprado bhava||<br/><br/><
+ br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/
+ adyatithi/tree/master/time_focus/monthly/ekAdashI/description_only/harivAs
+ araH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -35652,10 +35814,15 @@ BEGIN:VEVENT
 SUMMARY:uttarāyaṇa-puṇyakālaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191222T094920
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191222T174926
-DESCRIPTION:Uttarāyaṇa Punyakala.<br/><br/>## Details<br/>- [Edit confi
- g file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/sank
- rAnti/description_only/uttarAyaNa-puNyakAlaH.toml)<br/>- Tags: SunSankrant
- i CommonFestivals
+DESCRIPTION:Uttarāyaṇa Punyakala.<br/><br/>saṅkrāntisnānākaraṇe 
+ pratyavāyamāha śātātapaḥ—  <br/>sūryasaṅkramaṇe puṇye na s
+ nāyādyadi mānavaḥ|  <br/>saptajanmasu rogī syāt duḥkhabhāgī ca 
+ jāyate||  <br/>saṅkrāntyāṃ yāni dattāni havyakavyāni mānavaiḥ
+ |  <br/>tāni tasya dadātyarkaḥ saptajanmasu niścitam iti|| (smṛtimu
+ ktāphale āhnika-kāṇḍe-pūrvabhāgaḥ)<br/><br/><br/><br/>## Detail
+ s<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/mas
+ ter/time_focus/sankrAnti/description_only/uttarAyaNa-puNyakAlaH.toml)<br/>
+ - Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
