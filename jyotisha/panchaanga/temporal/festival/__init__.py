@@ -72,14 +72,11 @@ class FestivalInstance(common.JsonObject):
     if self.ordinal is not None:
       name = name + "~\\#{%s}" % custom_transliteration.tr(str(self.ordinal), script=scripts[0])
 
-    sunrise_to_sunrise = False
-    if self.interval.jd_start is not None and self.interval.jd_end is not None and (self.interval.jd_end - self.interval.jd_start) > 0.9 and self.name.find('SaDazIti') == -1:
-      sunrise_to_sunrise = True
-    
-    if self.interval is None or sunrise_to_sunrise:
-      return name
-    else:
+    logging.debug((name, self._show_interval()))
+    if self.interval is not None and self._show_interval():
       return "%s%s" % (name, self.interval.to_hour_tex(script=scripts[0], tz=timezone, reference_date=reference_date))
+    else:
+      return name
 
   def get_full_title(self, fest_details_dict, languages=["sa"], scripts=[xsanscript.DEVANAGARI]):
     name_details = self.get_best_transliterated_name(languages=languages, scripts=scripts, fest_details_dict=fest_details_dict)
@@ -99,6 +96,14 @@ class FestivalInstance(common.JsonObject):
     if description != "":
       md = "%s\n\n%s" % (md, description)
     return md
+
+  def _show_interval(self):
+    if self.interval.jd_start is None and self.interval.jd_end is None:
+      return False
+    elif self.interval.jd_start is not None and self.interval.jd_end is not None and self.interval.get_jd_length() > 0.9 and self.name.find('SaDazIti') == -1:
+      return False
+    else:
+      return True
 
   def __lt__(self, other):
     return self.name < other.name

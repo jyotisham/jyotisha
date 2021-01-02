@@ -238,9 +238,13 @@ BEGIN:VEVENT
 SUMMARY:pradoṣa-vratam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190103T175052
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190103T184151
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/time_focus/monthly/pradoSha/description_only/prad
- OSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
+ n Pradosha Kala.<br/><br/>pradoṣe  śivapūjāṃ  tu  ye  kuryācchradd
+ hayā  yutāḥ|  <br/>na  bhavet  tasya  dāridryaṃ  janmāntaraśate
+ ṣvapi||  <br/><br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
+ tps://github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoS
+ ha/description_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pradosh
+ aVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -1066,10 +1070,7 @@ BEGIN:VEVENT
 SUMMARY:makara-saṅkramaṇa-puṇyakālaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190114T192848
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190115T032853
-DESCRIPTION:Makara-Saṅkramaṇa Punyakala.<br/><br/>## Details<br/>- [Ed
- it config file](https://github.com/jyotisham/adyatithi/tree/master/time_fo
- cus/sankrAnti/description_only/makara-saGkramaNa-puNyakAlaH.toml)<br/>- Ta
- gs: SunSankranti CommonFestivals
+DESCRIPTION:
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -1525,9 +1526,13 @@ BEGIN:VEVENT
 SUMMARY:pradoṣa-vratam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190118T175913
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190118T184955
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/time_focus/monthly/pradoSha/description_only/prad
- OSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
+ n Pradosha Kala.<br/><br/>pradoṣe  śivapūjāṃ  tu  ye  kuryācchradd
+ hayā  yutāḥ|  <br/>na  bhavet  tasya  dāridryaṃ  janmāntaraśate
+ ṣvapi||  <br/><br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
+ tps://github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoS
+ ha/description_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pradosh
+ aVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -2789,9 +2794,13 @@ BEGIN:VEVENT
 SUMMARY:pradoṣa-vratam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190131T180534
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190131T185549
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/time_focus/monthly/pradoSha/description_only/prad
- OSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
+ n Pradosha Kala.<br/><br/>pradoṣe  śivapūjāṃ  tu  ye  kuryācchradd
+ hayā  yutāḥ|  <br/>na  bhavet  tasya  dāridryaṃ  janmāntaraśate
+ ṣvapi||  <br/><br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
+ tps://github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoS
+ ha/description_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pradosh
+ aVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -4621,9 +4630,13 @@ BEGIN:VEVENT
 SUMMARY:pradoṣa-vratam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190217T181136
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190217T190109
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/time_focus/monthly/pradoSha/description_only/prad
- OSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
+ n Pradosha Kala.<br/><br/>pradoṣe  śivapūjāṃ  tu  ye  kuryācchradd
+ hayā  yutāḥ|  <br/>na  bhavet  tasya  dāridryaṃ  janmāntaraśate
+ ṣvapi||  <br/><br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
+ tps://github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoS
+ ha/description_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pradosh
+ aVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -4793,10 +4806,12 @@ DTSTART;VALUE=DATE:20190218
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190219T063338
 DTEND;VALUE=DATE:20190219
 DESCRIPTION:Observed on Śukla-Caturdaśī tithi of Kumbhaḥ (sidereal so
- lar) month (Sūryāstamayaḥ/puurvaviddha). <br/><br/>## Details<br/>- [E
- dit config file](https://github.com/jyotisham/adyatithi/tree/master/temple
- s/Tamil/sidereal_solar_month/tithi/11/14/naTarAjar%20mahAbhiSEkam~6.toml)<
- br/>- Tags: TamilnaduTempleFestivals
+ lar) month (Sūryāstamayaḥ/puurvaviddha). <br/><br/>kṛpāsamudraṃ s
+ umukhaṃ trinetraṃ jaṭādharaṃ pārvati-vāmabhāgam|  <br/>sadāś
+ ivaṃ rudramanantarūpaṃ cidambareśaṃ hṛdi bhāvayāmi||<br/><br/>
+ <br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham
+ /adyatithi/tree/master/temples/Tamil/sidereal_solar_month/tithi/11/14/naTa
+ rAjar%20mahAbhiSEkam~6.toml)<br/>- Tags: TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5899,9 +5914,13 @@ BEGIN:VEVENT
 SUMMARY:pradoṣa-vratam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190303T181429
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190303T190318
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/time_focus/monthly/pradoSha/description_only/prad
- OSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
+ n Pradosha Kala.<br/><br/>pradoṣe  śivapūjāṃ  tu  ye  kuryācchradd
+ hayā  yutāḥ|  <br/>na  bhavet  tasya  dāridryaṃ  janmāntaraśate
+ ṣvapi||  <br/><br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
+ tps://github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoS
+ ha/description_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pradosh
+ aVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -8830,9 +8849,13 @@ BEGIN:VEVENT
 SUMMARY:pradoṣa-vratam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190402T181713
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190402T190436
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/time_focus/monthly/pradoSha/description_only/prad
- OSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
+ n Pradosha Kala.<br/><br/>pradoṣe  śivapūjāṃ  tu  ye  kuryācchradd
+ hayā  yutāḥ|  <br/>na  bhavet  tasya  dāridryaṃ  janmāntaraśate
+ ṣvapi||  <br/><br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
+ tps://github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoS
+ ha/description_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pradosh
+ aVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -10533,9 +10556,13 @@ BEGIN:VEVENT
 SUMMARY:pradoṣa-vratam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190417T181823
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190417T190502
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/time_focus/monthly/pradoSha/description_only/prad
- OSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
+ n Pradosha Kala.<br/><br/>pradoṣe  śivapūjāṃ  tu  ye  kuryācchradd
+ hayā  yutāḥ|  <br/>na  bhavet  tasya  dāridryaṃ  janmāntaraśate
+ ṣvapi||  <br/><br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
+ tps://github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoS
+ ha/description_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pradosh
+ aVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -11851,9 +11878,13 @@ BEGIN:VEVENT
 SUMMARY:pradoṣa-vratam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190502T182041
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190502T190637
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/time_focus/monthly/pradoSha/description_only/prad
- OSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
+ n Pradosha Kala.<br/><br/>pradoṣe  śivapūjāṃ  tu  ye  kuryācchradd
+ hayā  yutāḥ|  <br/>na  bhavet  tasya  dāridryaṃ  janmāntaraśate
+ ṣvapi||  <br/><br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
+ tps://github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoS
+ ha/description_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pradosh
+ aVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -13569,9 +13600,13 @@ BEGIN:VEVENT
 SUMMARY:pradoṣa-vratam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190516T182342
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190516T190921
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/time_focus/monthly/pradoSha/description_only/prad
- OSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
+ n Pradosha Kala.<br/><br/>pradoṣe  śivapūjāṃ  tu  ye  kuryācchradd
+ hayā  yutāḥ|  <br/>na  bhavet  tasya  dāridryaṃ  janmāntaraśate
+ ṣvapi||  <br/><br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
+ tps://github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoS
+ ha/description_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pradosh
+ aVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -15023,9 +15058,13 @@ BEGIN:VEVENT
 SUMMARY:pradoṣa-vratam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190531T182801
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190531T191314
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/time_focus/monthly/pradoSha/description_only/prad
- OSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
+ n Pradosha Kala.<br/><br/>pradoṣe  śivapūjāṃ  tu  ye  kuryācchradd
+ hayā  yutāḥ|  <br/>na  bhavet  tasya  dāridryaṃ  janmāntaraśate
+ ṣvapi||  <br/><br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
+ tps://github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoS
+ ha/description_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pradosh
+ aVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -16707,9 +16746,13 @@ BEGIN:VEVENT
 SUMMARY:pradoṣa-vratam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190614T183203
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190614T191659
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/time_focus/monthly/pradoSha/description_only/prad
- OSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
+ n Pradosha Kala.<br/><br/>pradoṣe  śivapūjāṃ  tu  ye  kuryācchradd
+ hayā  yutāḥ|  <br/>na  bhavet  tasya  dāridryaṃ  janmāntaraśate
+ ṣvapi||  <br/><br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
+ tps://github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoS
+ ha/description_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pradosh
+ aVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -18105,9 +18148,13 @@ BEGIN:VEVENT
 SUMMARY:pradoṣa-vratam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190630T183522
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190630T192018
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/time_focus/monthly/pradoSha/description_only/prad
- OSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
+ n Pradosha Kala.<br/><br/>pradoṣe  śivapūjāṃ  tu  ye  kuryācchradd
+ hayā  yutāḥ|  <br/>na  bhavet  tasya  dāridryaṃ  janmāntaraśate
+ ṣvapi||  <br/><br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
+ tps://github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoS
+ ha/description_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pradosh
+ aVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -19010,10 +19057,12 @@ DTSTART;VALUE=DATE:20190708
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190709T055201
 DTEND;VALUE=DATE:20190709
 DESCRIPTION:Observed on Uttaraphalgunī nakshatra of Mithunam (sidereal so
- lar) month (Prātaḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config
-  file](https://github.com/jyotisham/adyatithi/tree/master/temples/Tamil/si
- dereal_solar_month/nakshatra/03/12/naTarAjar%20An2i%20tirumaJcan2am.toml)<
- br/>- Tags: TamilnaduTempleFestivals
+ lar) month (Prātaḥ/paraviddha). <br/><br/>kṛpāsamudraṃ sumukhaṃ 
+ trinetraṃ jaṭādharaṃ pārvati-vāmabhāgam|  <br/>sadāśivaṃ rud
+ ramanantarūpaṃ cidambareśaṃ hṛdi bhāvayāmi||<br/><br/><br/><br/>
+ ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
+ /tree/master/temples/Tamil/sidereal_solar_month/nakshatra/03/12/naTarAjar%
+ 20An2i%20tirumaJcan2am.toml)<br/>- Tags: TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -19705,9 +19754,13 @@ BEGIN:VEVENT
 SUMMARY:pradoṣa-vratam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190714T183557
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190714T192110
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/time_focus/monthly/pradoSha/description_only/prad
- OSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
+ n Pradosha Kala.<br/><br/>pradoṣe  śivapūjāṃ  tu  ye  kuryācchradd
+ hayā  yutāḥ|  <br/>na  bhavet  tasya  dāridryaṃ  janmāntaraśate
+ ṣvapi||  <br/><br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
+ tps://github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoS
+ ha/description_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pradosh
+ aVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -24531,9 +24584,13 @@ BEGIN:VEVENT
 SUMMARY:pradoṣa-vratam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190828T181923
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190828T190602
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/time_focus/monthly/pradoSha/description_only/prad
- OSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
+ n Pradosha Kala.<br/><br/>pradoṣe  śivapūjāṃ  tu  ye  kuryācchradd
+ hayā  yutāḥ|  <br/>na  bhavet  tasya  dāridryaṃ  janmāntaraśate
+ ṣvapi||  <br/><br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
+ tps://github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoS
+ ha/description_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pradosh
+ aVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -26366,9 +26423,13 @@ BEGIN:VEVENT
 SUMMARY:pradoṣa-vratam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190911T180953
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190911T185715
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/time_focus/monthly/pradoSha/description_only/prad
- OSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
+ n Pradosha Kala.<br/><br/>pradoṣe  śivapūjāṃ  tu  ye  kuryācchradd
+ hayā  yutāḥ|  <br/>na  bhavet  tasya  dāridryaṃ  janmāntaraśate
+ ṣvapi||  <br/><br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
+ tps://github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoS
+ ha/description_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pradosh
+ aVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -26479,10 +26540,12 @@ DTSTART;VALUE=DATE:20190912
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190913T060123
 DTEND;VALUE=DATE:20190913
 DESCRIPTION:Observed on Śukla-Caturdaśī tithi of Siṃhaḥ (sidereal s
- olar) month (Sūryāstamayaḥ/puurvaviddha). <br/><br/>## Details<br/>- [
- Edit config file](https://github.com/jyotisham/adyatithi/tree/master/templ
- es/Tamil/sidereal_solar_month/tithi/05/14/naTarAjar%20mahAbhiSEkam~2.toml)
- <br/>- Tags: TamilnaduTempleFestivals
+ olar) month (Sūryāstamayaḥ/puurvaviddha). <br/><br/>kṛpāsamudraṃ 
+ sumukhaṃ trinetraṃ jaṭādharaṃ pārvati-vāmabhāgam|  <br/>sadā
+ śivaṃ rudramanantarūpaṃ cidambareśaṃ hṛdi bhāvayāmi||<br/><br
+ /><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/temples/Tamil/sidereal_solar_month/tithi/05/14/na
+ TarAjar%20mahAbhiSEkam~2.toml)<br/>- Tags: TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -28006,9 +28069,13 @@ BEGIN:VEVENT
 SUMMARY:pradoṣa-vratam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190926T175905
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190926T184719
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/time_focus/monthly/pradoSha/description_only/prad
- OSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
+ n Pradosha Kala.<br/><br/>pradoṣe  śivapūjāṃ  tu  ye  kuryācchradd
+ hayā  yutāḥ|  <br/>na  bhavet  tasya  dāridryaṃ  janmāntaraśate
+ ṣvapi||  <br/><br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
+ tps://github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoS
+ ha/description_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pradosh
+ aVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -29596,9 +29663,13 @@ BEGIN:VEVENT
 SUMMARY:pradoṣa-vratam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191009T175026
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191009T183907
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/time_focus/monthly/pradoSha/description_only/prad
- OSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
+ n Pradosha Kala.<br/><br/>pradoṣe  śivapūjāṃ  tu  ye  kuryācchradd
+ hayā  yutāḥ|  <br/>na  bhavet  tasya  dāridryaṃ  janmāntaraśate
+ ṣvapi||  <br/><br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
+ tps://github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoS
+ ha/description_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pradosh
+ aVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -29751,9 +29822,13 @@ BEGIN:VEVENT
 SUMMARY:pradoṣa-vratam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191011T174909
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191011T183758
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/time_focus/monthly/pradoSha/description_only/prad
- OSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
+ n Pradosha Kala.<br/><br/>pradoṣe  śivapūjāṃ  tu  ye  kuryācchradd
+ hayā  yutāḥ|  <br/>na  bhavet  tasya  dāridryaṃ  janmāntaraśate
+ ṣvapi||  <br/><br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
+ tps://github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoS
+ ha/description_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pradosh
+ aVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -29807,10 +29882,12 @@ DTSTART;VALUE=DATE:20191012
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191013T060223
 DTEND;VALUE=DATE:20191013
 DESCRIPTION:Observed on Śukla-Caturdaśī tithi of Kanyā (sidereal solar
- ) month (Sūryāstamayaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit
-  config file](https://github.com/jyotisham/adyatithi/tree/master/temples/T
- amil/sidereal_solar_month/tithi/06/14/naTarAjar%20mahAbhiSEkam~3.toml)<br/
- >- Tags: TamilnaduTempleFestivals
+ ) month (Sūryāstamayaḥ/puurvaviddha). <br/><br/>kṛpāsamudraṃ sumu
+ khaṃ trinetraṃ jaṭādharaṃ pārvati-vāmabhāgam|  <br/>sadāśiva
+ ṃ rudramanantarūpaṃ cidambareśaṃ hṛdi bhāvayāmi||<br/><br/><br
+ /><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/ad
+ yatithi/tree/master/temples/Tamil/sidereal_solar_month/tithi/06/14/naTarAj
+ ar%20mahAbhiSEkam~3.toml)<br/>- Tags: TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -31270,9 +31347,13 @@ BEGIN:VEVENT
 SUMMARY:pradoṣa-vratam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191025T174131
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191025T183103
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/time_focus/monthly/pradoSha/description_only/prad
- OSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
+ n Pradosha Kala.<br/><br/>pradoṣe  śivapūjāṃ  tu  ye  kuryācchradd
+ hayā  yutāḥ|  <br/>na  bhavet  tasya  dāridryaṃ  janmāntaraśate
+ ṣvapi||  <br/><br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
+ tps://github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoS
+ ha/description_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pradosh
+ aVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -34970,9 +35051,13 @@ BEGIN:VEVENT
 SUMMARY:pradoṣa-vratam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191124T173528
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191124T182609
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/time_focus/monthly/pradoSha/description_only/prad
- OSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
+ n Pradosha Kala.<br/><br/>pradoṣe  śivapūjāṃ  tu  ye  kuryācchradd
+ hayā  yutāḥ|  <br/>na  bhavet  tasya  dāridryaṃ  janmāntaraśate
+ ṣvapi||  <br/><br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
+ tps://github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoS
+ ha/description_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pradosh
+ aVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
