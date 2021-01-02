@@ -104,10 +104,16 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:budhānurādhā-puṇyakālaḥ
+SUMMARY:budhānūrādhā-puṇyakālaḥ
 DTSTART;VALUE=DATE:20190102
 DTEND;VALUE=DATE:20190103
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/time_focus/amrita-siddhi/description_only/budhAnu
+ rAdhA-puNyakAlaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYogaD
+ ays<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.
+ com/jyotisham/adyatithi/tree/master/time_focus/amrita-siddhi/description_o
+ nly/budhAnurAdhA-puNyakAlaH.toml)<br/>- Tags: RareDays Combinations Amrita
+ SiddhiYogaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -120,7 +126,11 @@ BEGIN:VEVENT
 SUMMARY:harivāsaraḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190101T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190102T073625
-DESCRIPTION:
+DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
+ king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
+ rivāsaraḥ is over.<br/><br/>## Details<br/>- [Edit config file](https:/
+ /github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/ekAdashI/de
+ scription_only/harivAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -1426,7 +1436,11 @@ BEGIN:VEVENT
 SUMMARY:harivāsaraḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190117T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190118T040519
-DESCRIPTION:
+DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
+ king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
+ rivāsaraḥ is over.<br/><br/>## Details<br/>- [Edit config file](https:/
+ /github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/ekAdashI/de
+ scription_only/harivAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -2566,10 +2580,16 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:budhānurādhā-puṇyakālaḥ
+SUMMARY:budhānūrādhā-puṇyakālaḥ
 DTSTART;VALUE=DATE:20190130
 DTEND;VALUE=DATE:20190131
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/time_focus/amrita-siddhi/description_only/budhAnu
+ rAdhA-puNyakAlaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYogaD
+ ays<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.
+ com/jyotisham/adyatithi/tree/master/time_focus/amrita-siddhi/description_o
+ nly/budhAnurAdhA-puNyakAlaH.toml)<br/>- Tags: RareDays Combinations Amrita
+ SiddhiYogaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2640,7 +2660,11 @@ BEGIN:VEVENT
 SUMMARY:harivāsaraḥ
 DTSTART;VALUE=DATE:20190130
 DTEND;VALUE=DATE:20190131
-DESCRIPTION:
+DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
+ king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
+ rivāsaraḥ is over.<br/><br/>## Details<br/>- [Edit config file](https:/
+ /github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/ekAdashI/de
+ scription_only/harivAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4247,7 +4271,11 @@ BEGIN:VEVENT
 SUMMARY:harivāsaraḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190215T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190216T162210
-DESCRIPTION:
+DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
+ king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
+ rivāsaraḥ is over.<br/><br/>## Details<br/>- [Edit config file](https:/
+ /github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/ekAdashI/de
+ scription_only/harivAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -5510,7 +5538,11 @@ BEGIN:VEVENT
 SUMMARY:harivāsaraḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190301T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190302T174340
-DESCRIPTION:
+DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
+ king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
+ rivāsaraḥ is over.<br/><br/>## Details<br/>- [Edit config file](https:/
+ /github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/ekAdashI/de
+ scription_only/harivAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -5781,11 +5813,13 @@ BEGIN:VEVENT
 SUMMARY:kṛṣṇāṅgāraka-caturdaśī-puṇyakālaḥ/yamatarpaṇam
 DTSTART;VALUE=DATE:20190305
 DTEND;VALUE=DATE:20190306
-DESCRIPTION:kṛṣṇa chaturdaśī tithi on a Tuesday is very sacred. Pe
- rform tarpaṇam to Yama Dharamaraja.<br/><br/>## Details<br/>- [Edit conf
- ig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/tit
- hi-vara-combinations/description_only/kRSNAGgAraka-caturdazI-puNyakAlaH%20
- or%20yamatarpaNam.toml)<br/>- Tags: RareDays Combinations
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/time_focus/tithi-vara-combinations/description_on
+ ly/kRSNAGgAraka-caturdazI-puNyakAlaH%20or%20yamatarpaNam.toml)<br/>- Tags:
+  RareDays Combinations<br/><br/><br/><br/>## Details<br/>- [Edit config fi
+ le](https://github.com/jyotisham/adyatithi/tree/master/time_focus/tithi-va
+ ra-combinations/description_only/kRSNAGgAraka-caturdazI-puNyakAlaH%20or%20
+ yamatarpaNam.toml)<br/>- Tags: RareDays Combinations
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6656,9 +6690,14 @@ BEGIN:VEVENT
 SUMMARY:Kāraḍaiyān Nonbu
 DTSTART;VALUE=DATE:20190315
 DTEND;VALUE=DATE:20190316
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/tamil/description_only/kAraDaiyAn2%20nOn2bu.toml)
- <br/>- Tags: CommonFestivalsTamilnadu
+DESCRIPTION:Tradition in South India (especially Tamil Nadu)\, where all w
+ omen perform this nonbu praying for their husband's long life. This vratam
+  was peformed by Savitri in the forest\, following which she redeemed his 
+ life from Lord Yama.<br/><br/>doraṃ gṛhṇāmi subhage sahāridraṃ d
+ harāmyaham|  <br/>bharturāyuṣya-siddhyarthaṃ suprītā bhava sarvad
+ ā||  <br/><br/><br/><br/><br/>## Details<br/>- [Edit config file](https:/
+ /github.com/jyotisham/adyatithi/tree/master/tamil/description_only/kAraDai
+ yAn2%20nOn2bu.toml)<br/>- Tags: CommonFestivalsTamilnadu
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6961,7 +7000,11 @@ BEGIN:VEVENT
 SUMMARY:harivāsaraḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190317T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190318T020614
-DESCRIPTION:
+DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
+ king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
+ rivāsaraḥ is over.<br/><br/>## Details<br/>- [Edit config file](https:/
+ /github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/ekAdashI/de
+ scription_only/harivAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -8264,7 +8307,11 @@ BEGIN:VEVENT
 SUMMARY:harivāsaraḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190331T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190401T124400
-DESCRIPTION:
+DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
+ king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
+ rivāsaraḥ is over.<br/><br/>## Details<br/>- [Edit config file](https:/
+ /github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/ekAdashI/de
+ scription_only/harivAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -9833,7 +9880,11 @@ BEGIN:VEVENT
 SUMMARY:harivāsaraḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190415T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190416T093950
-DESCRIPTION:
+DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
+ king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
+ rivāsaraḥ is over.<br/><br/>## Details<br/>- [Edit config file](https:/
+ /github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/ekAdashI/de
+ scription_only/harivAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -11143,7 +11194,11 @@ BEGIN:VEVENT
 SUMMARY:harivāsaraḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190430T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190501T064728
-DESCRIPTION:
+DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
+ king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
+ rivāsaraḥ is over.<br/><br/>## Details<br/>- [Edit config file](https:/
+ /github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/ekAdashI/de
+ scription_only/harivAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -12707,7 +12762,11 @@ BEGIN:VEVENT
 SUMMARY:harivāsaraḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190514T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190515T160008
-DESCRIPTION:
+DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
+ king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
+ rivāsaraḥ is over.<br/><br/>## Details<br/>- [Edit config file](https:/
+ /github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/ekAdashI/de
+ scription_only/harivAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -14147,7 +14206,11 @@ BEGIN:VEVENT
 SUMMARY:harivāsaraḥ
 DTSTART;VALUE=DATE:20190529
 DTEND;VALUE=DATE:20190530
-DESCRIPTION:
+DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
+ king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
+ rivāsaraḥ is over.<br/><br/>## Details<br/>- [Edit config file](https:/
+ /github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/ekAdashI/de
+ scription_only/harivAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -14482,7 +14545,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:vaiśākha-māsa-
+SUMMARY:vaiśākha-māsaḥ
 DTSTART;VALUE=DATE:20190504
 DTEND;VALUE=DATE:20190604
 DESCRIPTION:
@@ -15636,7 +15699,11 @@ BEGIN:VEVENT
 SUMMARY:harivāsaraḥ
 DTSTART;VALUE=DATE:20190612
 DTEND;VALUE=DATE:20190613
-DESCRIPTION:
+DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
+ king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
+ rivāsaraḥ is over.<br/><br/>## Details<br/>- [Edit config file](https:/
+ /github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/ekAdashI/de
+ scription_only/harivAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17012,7 +17079,11 @@ BEGIN:VEVENT
 SUMMARY:harivāsaraḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190628T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190629T124116
-DESCRIPTION:
+DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
+ king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
+ rivāsaraḥ is over.<br/><br/>## Details<br/>- [Edit config file](https:/
+ /github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/ekAdashI/de
+ scription_only/harivAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -18445,6 +18516,22 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:viṣṇu-śayanotsavaḥ
+DTSTART;VALUE=DATE:20190712
+DTEND;VALUE=DATE:20190713
+DESCRIPTION:Perform Vishnu Shayanotsava in the night.<br/><br/>## Details<
+ br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/maste
+ r/devatA/vaiShNava/relative_event/zAkavrata-ArambhaH/offset__-1/viSNu-zaya
+ nOtsavaH.toml)<br/>- Tags: CommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Āṣāḍhaḥ-04-12\,Vṛścikaḥ-Anūrādhā🌛🌌◢◣Mith
  unam-Punarvasuḥ-03-29🌌🌞◢◣Śuciḥ-04-22🪐🌞
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190713T055311
@@ -18490,7 +18577,11 @@ BEGIN:VEVENT
 SUMMARY:harivāsaraḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190712T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190713T062753
-DESCRIPTION:
+DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
+ king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
+ rivāsaraḥ is over.<br/><br/>## Details<br/>- [Edit config file](https:/
+ /github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/ekAdashI/de
+ scription_only/harivAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -19871,7 +19962,11 @@ BEGIN:VEVENT
 SUMMARY:harivāsaraḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190728T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190729T002845
-DESCRIPTION:
+DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
+ king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
+ rivāsaraḥ is over.<br/><br/>## Details<br/>- [Edit config file](https:/
+ /github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/ekAdashI/de
+ scription_only/harivAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -21309,7 +21404,11 @@ BEGIN:VEVENT
 SUMMARY:harivāsaraḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190810T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190811T170823
-DESCRIPTION:
+DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
+ king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
+ rivāsaraḥ is over.<br/><br/>## Details<br/>- [Edit config file](https:/
+ /github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/ekAdashI/de
+ scription_only/harivAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -23007,7 +23106,11 @@ BEGIN:VEVENT
 SUMMARY:harivāsaraḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190826T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190827T103508
-DESCRIPTION:
+DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
+ king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
+ rivāsaraḥ is over.<br/><br/>## Details<br/>- [Edit config file](https:/
+ /github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/ekAdashI/de
+ scription_only/harivAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -24756,7 +24859,11 @@ BEGIN:VEVENT
 SUMMARY:harivāsaraḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190909T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190910T070218
-DESCRIPTION:
+DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
+ king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
+ rivāsaraḥ is over.<br/><br/>## Details<br/>- [Edit config file](https:/
+ /github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/ekAdashI/de
+ scription_only/harivAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -26308,7 +26415,11 @@ BEGIN:VEVENT
 SUMMARY:harivāsaraḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190924T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190925T192520
-DESCRIPTION:
+DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
+ king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
+ rivāsaraḥ is over.<br/><br/>## Details<br/>- [Edit config file](https:/
+ /github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/ekAdashI/de
+ scription_only/harivAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -27059,10 +27170,16 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:budhānurādhā-puṇyakālaḥ
+SUMMARY:budhānūrādhā-puṇyakālaḥ
 DTSTART;VALUE=DATE:20191002
 DTEND;VALUE=DATE:20191003
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/time_focus/amrita-siddhi/description_only/budhAnu
+ rAdhA-puNyakAlaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYogaD
+ ays<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.
+ com/jyotisham/adyatithi/tree/master/time_focus/amrita-siddhi/description_o
+ nly/budhAnurAdhA-puNyakAlaH.toml)<br/>- Tags: RareDays Combinations Amrita
+ SiddhiYogaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -27910,7 +28027,11 @@ BEGIN:VEVENT
 SUMMARY:harivāsaraḥ
 DTSTART;VALUE=DATE:20191008
 DTEND;VALUE=DATE:20191009
-DESCRIPTION:
+DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
+ king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
+ rivāsaraḥ is over.<br/><br/>## Details<br/>- [Edit config file](https:/
+ /github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/ekAdashI/de
+ scription_only/harivAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -29504,7 +29625,11 @@ BEGIN:VEVENT
 SUMMARY:harivāsaraḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191024T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191025T033238
-DESCRIPTION:
+DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
+ king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
+ rivāsaraḥ is over.<br/><br/>## Details<br/>- [Edit config file](https:/
+ /github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/ekAdashI/de
+ scription_only/harivAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -30215,10 +30340,16 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:budhānurādhā-puṇyakālaḥ
+SUMMARY:budhānūrādhā-puṇyakālaḥ
 DTSTART;VALUE=DATE:20191030
 DTEND;VALUE=DATE:20191031
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/time_focus/amrita-siddhi/description_only/budhAnu
+ rAdhA-puNyakAlaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYogaD
+ ays<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.
+ com/jyotisham/adyatithi/tree/master/time_focus/amrita-siddhi/description_o
+ nly/budhAnurAdhA-puNyakAlaH.toml)<br/>- Tags: RareDays Combinations Amrita
+ SiddhiYogaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -31078,7 +31209,11 @@ BEGIN:VEVENT
 SUMMARY:harivāsaraḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191107T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191108T190000
-DESCRIPTION:
+DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
+ king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
+ rivāsaraḥ is over.<br/><br/>## Details<br/>- [Edit config file](https:/
+ /github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/ekAdashI/de
+ scription_only/harivAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -31617,7 +31752,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:kārttika-māsa-antimatrayatithi-vratam
+SUMMARY:kārttika-māsaḥantimatrayatithi-vratam
 DTSTART;VALUE=DATE:20191109
 DTEND;VALUE=DATE:20191113
 DESCRIPTION:
@@ -32838,7 +32973,11 @@ BEGIN:VEVENT
 SUMMARY:harivāsaraḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191122T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191123T114358
-DESCRIPTION:
+DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
+ king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
+ rivāsaraḥ is over.<br/><br/>## Details<br/>- [Edit config file](https:/
+ /github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/ekAdashI/de
+ scription_only/harivAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -33255,10 +33394,16 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:budhānurādhā-puṇyakālaḥ
+SUMMARY:budhānūrādhā-puṇyakālaḥ
 DTSTART;VALUE=DATE:20191127
 DTEND;VALUE=DATE:20191128
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/time_focus/amrita-siddhi/description_only/budhAnu
+ rAdhA-puNyakAlaH.toml)<br/>- Tags: RareDays Combinations AmritaSiddhiYogaD
+ ays<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.
+ com/jyotisham/adyatithi/tree/master/time_focus/amrita-siddhi/description_o
+ nly/budhAnurAdhA-puNyakAlaH.toml)<br/>- Tags: RareDays Combinations Amrita
+ SiddhiYogaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -34170,7 +34315,11 @@ BEGIN:VEVENT
 SUMMARY:harivāsaraḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191207T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191208T145345
-DESCRIPTION:
+DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
+ king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
+ rivāsaraḥ is over.<br/><br/>## Details<br/>- [Edit config file](https:/
+ /github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/ekAdashI/de
+ scription_only/harivAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -35001,7 +35150,12 @@ BEGIN:VEVENT
 SUMMARY:dhanūravi-saṅkramaṇa-ṣaḍaśīti-puṇyakālaḥ
 DTSTART;VALUE=DATE:20191216
 DTEND;VALUE=DATE:20191217
-DESCRIPTION:
+DESCRIPTION:Dhanur-Ravi-Saṅkramaṇa-Ṣaḍaśīti Punyakala. Perform d
+ anam of clothes/vehicle (e.g. bullock cart).<br/><br/>dhanuḥpraveśe vas
+ trāṇāṃ yānānāṃ ca mahāphalam<br/><br/><br/><br/>## Details<br/
+ >- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/t
+ ime_focus/sankrAnti/description_only/dhanUravi-saGkramaNa-SaDazIti-puNyakA
+ laH.toml)<br/>- Tags: SunSankranti CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -35424,7 +35578,11 @@ BEGIN:VEVENT
 SUMMARY:harivāsaraḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191221T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191222T205555
-DESCRIPTION:
+DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
+ king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
+ rivāsaraḥ is over.<br/><br/>## Details<br/>- [Edit config file](https:/
+ /github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/ekAdashI/de
+ scription_only/harivAsaraH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
