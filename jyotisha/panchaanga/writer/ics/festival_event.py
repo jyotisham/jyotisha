@@ -79,19 +79,18 @@ def festival_instance_to_event(festival_instance, languages, scripts, panchaanga
   desc = get_description(festival_instance=festival_instance, script=scripts[0], fest_details_dict=fest_details_dict, header_md="##")
   event.add('description', desc.strip().replace('\n', '<br/>'))
 
-  if not all_day and festival_instance.interval is not None and festival_instance.interval.jd_end is not None and festival_instance.interval.jd_start is not None :
+  if festival_instance.interval is not None and festival_instance.interval.jd_end is not None and festival_instance.interval.jd_start is not None :
     # Starting or ending time is empty, e.g. harivasara, so no ICS entry
     t1 = panchaanga.city.get_timezone_obj().julian_day_to_local_datetime(jd=festival_instance.interval.jd_start)
     t2 = panchaanga.city.get_timezone_obj().julian_day_to_local_datetime(jd=festival_instance.interval.jd_end)
     event.add('dtstart', t1)
     event.add('dtend', t2)
+
   if all_day:
     t1 = panchaanga.city.get_timezone_obj().julian_day_to_local_datetime(jd=festival_instance.interval.jd_start)
     t2 = panchaanga.city.get_timezone_obj().julian_day_to_local_datetime(jd=festival_instance.interval.jd_end)
-    # event.add('dtstart', t1.date())
-    # event.add('dtend', t2.date())
-    event.add('dtstart', date(t1.year, t1.month, t1.day))
-    event.add('dtend', (date(t1.year, t1.month, t1.day) + timedelta(1)))
+    event.add('dtstart', t1.date())
+    event.add('dtend', t2.date())
     event['X-MICROSOFT-CDO-ALLDAYEVENT'] = 'TRUE'
     event['TRANSP'] = 'TRANSPARENT'
     event['X-MICROSOFT-CDO-BUSYSTATUS'] = 'FREE'
@@ -118,6 +117,9 @@ def add_festival_events(day_index, ics_calendar, panchaanga, languages, scripts)
     all_day = False
     if festival_instance.interval is None:
       all_day = True
+    elif festival_instance.interval.jd_start is not None and festival_instance.interval.jd_end is not None and festival_instance.interval.jd_end - festival_instance.interval.jd_start > 0.75:
+      all_day = True
+      
 
     set_interval(daily_panchaanga, festival_instance)
     if fest_id.find('samApanam') != -1:

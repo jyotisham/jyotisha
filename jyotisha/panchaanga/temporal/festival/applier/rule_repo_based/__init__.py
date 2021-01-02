@@ -3,6 +3,7 @@ import logging
 from timebudget import timebudget
 
 from jyotisha.panchaanga.temporal import Anga, AngaType
+from jyotisha.panchaanga.temporal.festival import FestivalInstance
 from jyotisha.panchaanga.temporal.festival.applier import FestivalAssigner
 from jyotisha.panchaanga.temporal.festival.rules import RulesRepo
 
@@ -71,7 +72,12 @@ class RuleLookupAssigner(FestivalAssigner):
           days = [30, 31]
     fest_dict = rule_set.get_possibly_relevant_fests(month=date.month, angas=days, month_type=month_type, anga_type_id=rules.RulesRepo.DAY_DIR)
     for fest_id, fest in fest_dict.items():
-      self.panchaanga.add_festival(fest_id=fest_id, date=day_panchaanga.date)
+      if month_type in [RulesRepo.GREGORIAN_MONTH_DIR, RulesRepo.JULIAN_MONTH_DIR]:
+        interval = day_panchaanga.get_interval(interval_id="julian_day")
+      else:
+        # TODO : Set intervals for preceeding_arunodaya differently? 
+        interval = day_panchaanga.get_interval(interval_id="full_day")
+      self.panchaanga.add_festival_instance(date=day_panchaanga.date, festival_instance=FestivalInstance(name=fest_id, interval=interval))
 
   @timebudget
   def _get_relevant_festivals(self, anga_type, month_type, panchaangas):
@@ -150,5 +156,6 @@ class RuleLookupAssigner(FestivalAssigner):
             # Plus, a gap of not much more than 1 month is desirable for monthly festivals even otherwise - https://github.com/jyotisham/jyotisha/issues/54#issuecomment-735355325 . 
             if fest_rule.timing.month_number != 0 and p_fday.date - previous_fest_day <= 31 and p_previous_fday.get_date(month_type=month_type).month == month:
               self.panchaanga.delete_festival_date(fest_id=fest_id, date=previous_fest_day)
+          # TODO : Set intervals for preceeding_arunodaya differently? 
           self.panchaanga.add_festival(fest_id=fest_id, date=p_fday.date)
 
