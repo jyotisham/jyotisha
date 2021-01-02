@@ -85,7 +85,7 @@ class FestivalInstance(common.JsonObject):
   def md_code(self, languages, scripts, timezone, fest_details_dict, header_md):
     title = self.get_full_title(languages=languages, scripts=scripts, fest_details_dict=fest_details_dict)
     heading = "%s %s" % (header_md, title)
-    if self.interval is None or default_if_none(self.interval.get_jd_length(), 0) > 0.75:
+    if self.interval is None or  not self._show_interval():
       md = heading
     else:
       start_time_str = "" if self.interval.jd_start is None else timezone.julian_day_to_local_time(self.interval.jd_start).get_hour_str()
@@ -99,7 +99,8 @@ class FestivalInstance(common.JsonObject):
   def _show_interval(self):
     if self.interval.jd_start is None and self.interval.jd_end is None:
       return False
-    elif self.interval.jd_start is not None and self.interval.jd_end is not None and self.interval.get_jd_length() > 0.9 and self.name.find('SaDazIti') == -1:
+
+    if self.interval.jd_start is not None and self.interval.jd_end is not None and self.interval.get_jd_length() > 0.9 and self.name.find('SaDazIti') == -1:
       return False
     else:
       return True
