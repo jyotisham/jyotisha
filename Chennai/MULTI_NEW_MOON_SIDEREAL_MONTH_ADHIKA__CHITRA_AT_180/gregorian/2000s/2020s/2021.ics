@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210103201109
+SEQUENCE:20210103203919
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -38735,24 +38735,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:मुडवऩ् मुऴुक्कु
-DTSTART;VALUE=DATE:20211116
-DTEND;VALUE=DATE:20211117
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/tamil/sidereal_solar_month/day/08/01/muDavan2%20m
- uzhukku.toml)<br/>- Tags: CommonFestivals<br/><br/><br/><br/>## Details<br
- />- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/
- tamil/sidereal_solar_month/day/08/01/muDavan2%20muzhukku.toml)<br/>- Tags:
-  CommonFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:प्रबोधोत्सवः
 DTSTART;VALUE=DATE:20211116
 DTEND;VALUE=DATE:20211117
@@ -38878,6 +38860,23 @@ DESCRIPTION:Observed on Śukla-Trayodaśī tithi of Kārttikaḥ (lunar) m
  br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/maste
  r/general/lunar_month/tithi/08/13/kArttika-mAsa-antimatrayatithi-vrata-Ara
  mbhaH.toml)<br/>- Tags: LessCommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:मुडवऩ् मुऴुक्कु
+DTSTART;VALUE=DATE:20211117
+DTEND;VALUE=DATE:20211118
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/tamil/description_only/muDavan2%20muzhukku.toml)<
+ br/>- Tags: CommonFestivals<br/><br/><br/><br/>## Details<br/>- [Edit conf
+ ig file](https://github.com/jyotisham/adyatithi/tree/master/tamil/descript
+ ion_only/muDavan2%20muzhukku.toml)<br/>- Tags: CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
