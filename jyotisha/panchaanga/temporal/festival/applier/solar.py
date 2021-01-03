@@ -25,6 +25,7 @@ class SolarFestivalAssigner(FestivalAssigner):
     self.assign_sankranti_punyakaala()
     self.assign_mahodaya_ardhodaya()
     self.assign_month_day_kaaradaiyan()
+    self.assign_month_day_muDavan_muzhukku()
     self.assign_month_day_kuchela()
     self.assign_month_day_mesha_sankraanti()
     self.assign_vishesha_vyatipata()
@@ -180,6 +181,18 @@ class SolarFestivalAssigner(FestivalAssigner):
       if daily_panchaanga.solar_sidereal_date_sunset.month == 9 and daily_panchaanga.solar_sidereal_date_sunset.day <= 7 and daily_panchaanga.date.get_weekday() == 3:
         self.panchaanga.add_festival(
           fest_id='kucEla-dinam', date=daily_panchaanga.date)
+
+  def assign_month_day_muDavan_muzhukku(self):
+    if 'muDavan2 muzhukku' not in self.rules_collection.name_to_rule:
+      return
+    for d, daily_panchaanga in enumerate(self.daily_panchaangas):
+      # KUCHELA DINAM
+      if daily_panchaanga.solar_sidereal_date_sunset.month == 8 and daily_panchaanga.solar_sidereal_date_sunset.day == 1:
+        if daily_panchaanga.solar_sidereal_date_sunset.month_transition is None or daily_panchaanga.solar_sidereal_date_sunset.month_transition < daily_panchaanga.jd_sunrise:
+          self.panchaanga.add_festival(fest_id='muDavan2 muzhukku', date=daily_panchaanga.date)
+        else:
+          self.panchaanga.add_festival(fest_id='muDavan2 muzhukku', date=self.daily_panchaangas[d + 1].date)
+
 
   def assign_month_day_mesha_sankraanti(self):
     if 'mESa-saGkrAntiH' not in self.rules_collection.name_to_rule:
