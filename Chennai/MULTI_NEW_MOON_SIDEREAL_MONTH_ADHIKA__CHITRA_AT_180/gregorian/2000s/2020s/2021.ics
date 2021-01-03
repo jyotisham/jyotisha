@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210102220253
+SEQUENCE:20210103142751
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -579,7 +579,7 @@ DTSTART;VALUE=DATE:20210107
 DTEND;VALUE=DATE:20210108
 DESCRIPTION:Observed on day 7 of January (gregorian) month. Julian date wa
  s converted to Gregorian in this reckoning. The event has been commemorate
- d since it occurred in 1659 (gregorian era).  <br/>Shivaji defeated Rustam
+ d since it occurred in 1659 (Gregorian era).  <br/>Shivaji defeated Rustam
  -i Zaman in an epic battle fought near Kolhapur.<br/><br/>## Details<br/>-
   [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/mah
  ApuruSha/xatra-later/gregorian/day/01/07/shivAjI_vs_rustam-zamAn.toml)<br/
@@ -599,7 +599,7 @@ DTSTART;VALUE=DATE:20210107
 DTEND;VALUE=DATE:20210108
 DESCRIPTION:Observed on Kṛṣṇa-Navamī tithi of Mārgaśīrṣaḥ (l
  unar) month (Aparāhṇaḥ/vyaapti). The event has been commemorated sinc
- e it occurred in 5030 (kali era).  <br/><br/><br/>करुणासाग
+ e it occurred in 5030 (Kali era).  <br/><br/><br/>करुणासाग
  रं शान्तम् अरुणाचलवासिनम्।
    <br/>श्रीशेषाद्रिगुरुं वन्दे
   ब्रह्मीभूतं तपोनिधिम्॥<br/><br/
@@ -1421,7 +1421,7 @@ SUMMARY:पानीयपथे पराजितिर् हिन्
 DTSTART;VALUE=DATE:20210114
 DTEND;VALUE=DATE:20210115
 DESCRIPTION:Observed on day 14 of January (gregorian) month. The event has
-  been commemorated since it occurred in 1761 (gregorian era).  <br/>Sad an
+  been commemorated since it occurred in 1761 (Gregorian era).  <br/>Sad an
  niversary of 3rd battle of pAnIpat where ahmed shAh abdAli defeated the st
  arving\, outmaneouvred\, civilian heavy Maratha forces under the 31 yr old
   sadAshivarAv bhAu with the bold 19 year old vishvAs rAv\, with cataclysmi
@@ -1545,7 +1545,7 @@ DTSTART;VALUE=DATE:20210115
 DTEND;VALUE=DATE:20210116
 DESCRIPTION:Observed on day 15 of January (gregorian) month. Julian date w
  as converted to Gregorian in this reckoning. The event has been commemorat
- ed since it occurred in 1658 (gregorian era).  <br/><br/><br/>## Details<b
+ ed since it occurred in 1658 (Gregorian era).  <br/><br/><br/>## Details<b
  r/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master
  /mahApuruSha/xatra-later/gregorian/day/01/15/shivarAjo_mAhulIM_jayati.toml
  )<br/>- Tags:
@@ -1864,7 +1864,7 @@ SUMMARY:काश्मीर-पण्डित-निष्कासन
 DTSTART;VALUE=DATE:20210119
 DTEND;VALUE=DATE:20210120
 DESCRIPTION:Observed on day 19 of January (gregorian) month. The event has
-  been commemorated since it occurred in 1990 (gregorian era).  <br/>paNDit
+  been commemorated since it occurred in 1990 (Gregorian era).  <br/>paNDit
   exodus day. ethnic cleansing of Kashmir's Hindus began. Didn't stop until
    500\,000 were made chased\, killed and their properties looted or destro
  yed by their Muslim neighbours & even friends.<br/><br/>## Details<br/>- [
@@ -1905,11 +1905,11 @@ DESCRIPTION:Viṣṇupadī Punyakala.<br/><br/>सङ्क्रान्
  ान्त्यां यानि दत्तानि हव्य
  कव्यानि मानवैः।  <br/>तानि तस्
  य ददात्यर्कः सप्तजन्मसु नि
- श्चितम् इति॥ (स्मृतिमुक्ता
- फले आह्निक-काण्डे-पूर्वभाग
- ः)<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github
- .com/jyotisham/adyatithi/tree/master/time_focus/sankrAnti/description_only
- /viSNupadI-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
+ श्चितम्॥ (स्मृतिमुक्ताफले 
+ आह्निक-काण्डे-पूर्वभागः)<br/><br
+ /><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/time_focus/sankrAnti/description_only/viSNupadI-p
+ uNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -2773,7 +2773,7 @@ DTSTART;VALUE=DATE:20210128
 DTEND;VALUE=DATE:20210129
 DESCRIPTION:Observed on Paurṇamāsī tithi of Pauṣaḥ (lunar) month (
  Sūryodayaḥ/puurvaviddha). The event has been commemorated since it occu
- rred in 2616 (kali era).  <br/>Adi Shankara founded Jyotir Mutt\, Badarina
+ rred in 2616 (Kali era).  <br/>Adi Shankara founded Jyotir Mutt\, Badarina
  th in Rakshasa year Totakacharya as first<br/><br/>## Details<br/>- [Edit 
  config file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSh
  a/kAnchI-maTha/lunar_month/tithi/10/15/badarI%20jyOtirmaTha-pratiSThApana~
@@ -2898,7 +2898,7 @@ DTSTART;VALUE=DATE:20210128
 DTEND;VALUE=DATE:20210129
 DESCRIPTION:Observed on Paurṇamāsī tithi of Pauṣaḥ (lunar) month (
  Sūryodayaḥ/puurvaviddha). The event has been commemorated since it occu
- rred in 2618 (kali era).  <br/>Adi Shankara founded Sharada Mutt\, Shringe
+ rred in 2618 (Kali era).  <br/>Adi Shankara founded Sharada Mutt\, Shringe
  ri in Pingala year Sureshwaracharya as first<br/><br/>## Details<br/>- [Ed
  it config file](https://github.com/jyotisham/adyatithi/tree/master/mahApur
  uSha/kAnchI-maTha/lunar_month/tithi/10/15/zRGgErI%20zAradAmaTha-pratiSThAp
@@ -3282,7 +3282,7 @@ SUMMARY:मैसूरु-कृष्ण-राजस्याभिष
 DTSTART;VALUE=DATE:20210201
 DTEND;VALUE=DATE:20210202
 DESCRIPTION:Observed on day 1 of February (gregorian) month. The event has
-  been commemorated since it occurred in 1895 (gregorian era).  <br/>4th kR
+  been commemorated since it occurred in 1895 (Gregorian era).  <br/>4th kR
  ShNa-rAja-vaDiya\, rAjarShi\, ascends the throne<br/><br/>## Details<br/>-
   [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/mah
  ApuruSha/xatra-later/gregorian/day/02/01/maisUru-kRShNa-rAjasyAbhiShekaH.t
@@ -3370,7 +3370,7 @@ DTSTART;VALUE=DATE:20210202
 DTEND;VALUE=DATE:20210203
 DESCRIPTION:Observed on day 2 of February (gregorian) month. Julian date w
  as converted to Gregorian in this reckoning. The event has been commemorat
- ed since it occurred in 1664 (gregorian era).  <br/>shAhaji father of shiv
+ ed since it occurred in 1664 (Gregorian era).  <br/>shAhaji father of shiv
  AjI died<br/><br/>## Details<br/>- [Edit config file](https://github.com/j
  yotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/02/02
  /shAhAjI-mRtyuH.toml)<br/>- Tags:
@@ -3388,7 +3388,7 @@ DTSTART;VALUE=DATE:20210202
 DTEND;VALUE=DATE:20210203
 DESCRIPTION:Observed on day 2 of February (gregorian) month. Julian date w
  as converted to Gregorian in this reckoning. The event has been commemorat
- ed since it occurred in 1565 (gregorian era).  <br/>battle of tAlikoTa. ji
+ ed since it occurred in 1565 (Gregorian era).  <br/>battle of tAlikoTa. ji
  hAdi forces won a major victory against the forces of vijayanagara and beh
  eaded rAmarAya - thanks supposedly in part to betrayal by two muslim gener
  als.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyoti
@@ -3408,7 +3408,7 @@ DTSTART;VALUE=DATE:20210202
 DTEND;VALUE=DATE:20210203
 DESCRIPTION:Observed on Kṛṣṇa-Pañcamī tithi of Pauṣaḥ (lunar) 
  month (Sūryodayaḥ/puurvaviddha). The event has been commemorated since 
- it occurred in 4948 (kali era).  <br/><br/><br/>कामक्रोध
+ it occurred in 4948 (Kali era).  <br/><br/><br/>कामक्रोध
  ादिरहितं रामभक्तशिरोमणिम्
  ।  <br/>त्यागराजगुरुं वन्दे सङ
  ्गीताब्धिं कलानिधिम्॥<br/><br/><br
@@ -3430,7 +3430,7 @@ DTSTART;VALUE=DATE:20210202
 DTEND;VALUE=DATE:20210203
 DESCRIPTION:Observed on Hastaḥ nakshatra of Makaraḥ (sidereal solar) m
  onth (Prātaḥ/paraviddha). The event has been commemorated since it occu
- rred in 4970 (kali era).  <br/><br/><br/>करुणासागरं 
+ rred in 4970 (Kali era).  <br/><br/><br/>करुणासागरं 
  शान्तम् अरुणाचलवासिनम्।  <br/>
  श्रीशेषाद्रिगुरुं वन्दे ब्
  रह्मीभूतं तपोनिधिम्॥<br/><br/><br/><
@@ -3589,7 +3589,7 @@ DTSTART;VALUE=DATE:20210204
 DTEND;VALUE=DATE:20210205
 DESCRIPTION:Observed on Kṛṣṇa-Saptamī tithi of Pauṣaḥ (lunar) m
  onth (Sūryodayaḥ/puurvaviddha). The event has been commemorated since i
- t occurred in 4963 (kali era).  <br/><br/><br/>## Details<br/>- [Edit conf
+ t occurred in 4963 (Kali era).  <br/><br/><br/>## Details<br/>- [Edit conf
  ig file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/sm
  Arta-misc/lunar_month/tithi/10/22/vivEkAnanda~jayantI.toml)<br/>- Tags: Ma
  hapurushaEvents CommonFestivals
@@ -3941,7 +3941,7 @@ DTSTART;VALUE=DATE:20210208
 DTEND;VALUE=DATE:20210209
 DESCRIPTION:Observed on Kṛṣṇa-Dvādaśī tithi of Makaraḥ (siderea
  l solar) month (Aparāhṇaḥ/vyaapti). The event has been commemorated s
- ince it occurred in 4994 (kali era).  <br/><br/><br/>## Details<br/>- [Edi
+ ince it occurred in 4994 (Kali era).  <br/><br/><br/>## Details<br/>- [Edi
  t config file](https://github.com/jyotisham/adyatithi/tree/master/mahApuru
  Sha/smArta-misc/sidereal_solar_month/tithi/10/27/sEGgAlipuram~muttaNNAvAL~
  ArAdhanA.toml)<br/>- Tags: MahapurushaEvents
@@ -4047,7 +4047,7 @@ DTSTART;VALUE=DATE:20210209
 DTEND;VALUE=DATE:20210210
 DESCRIPTION:Observed on day 9 of February (gregorian) month. Julian date w
  as converted to Gregorian in this reckoning. The event has been commemorat
- ed since it occurred in 412 (gregorian era).  <br/>Roman Polytheist Platon
+ ed since it occurred in 412 (Gregorian era).  <br/>Roman Polytheist Platon
  ist sage Proclus was born on this day<br/><br/>## Details<br/>- [Edit conf
  ig file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/ge
  neral/gregorian/day/02/09/proklas-janma.toml)<br/>- Tags:
@@ -4355,11 +4355,11 @@ DESCRIPTION:Kumbha-Ravi-Saṅkramaṇa-Viṣṇupadī Punyakala. Perform d
  ां यानि दत्तानि हव्यकव्यान
  ि मानवैः।  <br/>तानि तस्य ददात्
  यर्कः सप्तजन्मसु निश्चितम्
-  इति॥ (स्मृतिमुक्ताफले आह्न
- िक-काण्डे-पूर्वभागः)<br/><br/><br/><br/>
- ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
- /tree/master/time_focus/sankrAnti/description_only/kumbha-ravi-saGkramaNa-
- viSNupadI-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
+ ॥ (स्मृतिमुक्ताफले आह्निक-क
+ ाण्डे-पूर्वभागः)<br/><br/><br/><br/>## Details
+ <br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/mast
+ er/time_focus/sankrAnti/description_only/kumbha-ravi-saGkramaNa-viSNupadI-
+ puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -4370,7 +4370,7 @@ SUMMARY:फड्नवीस्-नाना-जन्म #२७९
 DTSTART;VALUE=DATE:20210212
 DTEND;VALUE=DATE:20210213
 DESCRIPTION:Observed on day 12 of February (gregorian) month. The event ha
- s been commemorated since it occurred in 1742 (gregorian era).  <br/>birth
+ s been commemorated since it occurred in 1742 (Gregorian era).  <br/>birth
   annivserary of Nana Phadnavis. Held together the Maratha Empire for nearl
  y three decades\, against tough challenges.<br/><br/>## Details<br/>- [Edi
  t config file](https://github.com/jyotisham/adyatithi/tree/master/mahApuru
@@ -4564,7 +4564,7 @@ DTSTART;VALUE=DATE:20210214
 DTEND;VALUE=DATE:20210215
 DESCRIPTION:Observed on day 14 of February (gregorian) month. Julian date 
  was converted to Gregorian in this reckoning. The event has been commemora
- ted since it occurred in 1670 (gregorian era).  <br/>tANAji mAlsure captur
+ ted since it occurred in 1670 (Gregorian era).  <br/>tANAji mAlsure captur
  e sinhagad\, scaling the wall with a lizard and sacrifices his life.<br/><
  br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyat
  ithi/tree/master/mahApuruSha/xatra-later/gregorian/day/02/14/tAnAjI-vIra-g
@@ -4922,7 +4922,7 @@ SUMMARY:भारतीय-नौ-सैनिक-विद्रोहः
 DTSTART;VALUE=DATE:20210217
 DTEND;VALUE=DATE:20210218
 DESCRIPTION:Observed on day 17 of February (gregorian) month. The event ha
- s been commemorated since it occurred in 1946 (gregorian era).  <br/>sailo
+ s been commemorated since it occurred in 1946 (Gregorian era).  <br/>sailo
  rs of Royal Indian Navy revolted against British rule in Bombay Declared t
  hemselves as Indian National Navy<br/><br/>## Details<br/>- [Edit config f
  ile](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-
@@ -4958,7 +4958,7 @@ SUMMARY:फड्के-वासुदेवो मृतः #१३८
 DTSTART;VALUE=DATE:20210217
 DTEND;VALUE=DATE:20210218
 DESCRIPTION:Observed on day 17 of February (gregorian) month. The event ha
- s been commemorated since it occurred in 1883 (gregorian era).  <br/>On th
+ s been commemorated since it occurred in 1883 (Gregorian era).  <br/>On th
  is day died the selfless patriot Vasudev Balwant Phadke\, who single hande
  dly tried to resist the might of British Empire.<br/><br/>## Details<br/>-
   [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/mah
@@ -5055,11 +5055,11 @@ DESCRIPTION:Ṣaḍaśīti Punyakala.<br/><br/>सङ्क्रान्
  ान्त्यां यानि दत्तानि हव्य
  कव्यानि मानवैः।  <br/>तानि तस्
  य ददात्यर्कः सप्तजन्मसु नि
- श्चितम् इति॥ (स्मृतिमुक्ता
- फले आह्निक-काण्डे-पूर्वभाग
- ः)<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github
- .com/jyotisham/adyatithi/tree/master/time_focus/sankrAnti/description_only
- /SaDazIti-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
+ श्चितम्॥ (स्मृतिमुक्ताफले 
+ आह्निक-काण्डे-पूर्वभागः)<br/><br
+ /><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/time_focus/sankrAnti/description_only/SaDazIti-pu
+ NyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5174,7 +5174,7 @@ SUMMARY:आङ्ग्लेया भारतत्यागम् अ
 DTSTART;VALUE=DATE:20210219
 DTEND;VALUE=DATE:20210220
 DESCRIPTION:Observed on day 19 of February (gregorian) month. The event ha
- s been commemorated since it occurred in 1946 (gregorian era).  <br/>Briti
+ s been commemorated since it occurred in 1946 (Gregorian era).  <br/>Briti
  sh announced they will leave India<br/><br/>## Details<br/>- [Edit config 
  file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra
  -later/gregorian/day/02/19/AngleyA_bhAratatyAgam_aghoShayan.toml)<br/>- Ta
@@ -5250,7 +5250,7 @@ DTSTART;VALUE=DATE:20210219
 DTEND;VALUE=DATE:20210220
 DESCRIPTION:Observed on Śukla-Saptamī tithi of Māghaḥ (lunar) month (
  Sūryodayaḥ/puurvaviddha). The event has been commemorated since it occu
- rred in 2611 (kali era).  <br/>Adi Shankara founded Dwaraka Mutt in Sadhar
+ rred in 2611 (Kali era).  <br/>Adi Shankara founded Dwaraka Mutt in Sadhar
  ana year with HastamalakaAcharya as first<br/><br/>## Details<br/>- [Edit 
  config file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSh
  a/kAnchI-maTha/lunar_month/tithi/11/07/dvArakA-maTha-pratiSThApana~jayantI
@@ -5269,7 +5269,7 @@ SUMMARY:गोल्वाल्कर-माधवो जातः #१
 DTSTART;VALUE=DATE:20210219
 DTEND;VALUE=DATE:20210220
 DESCRIPTION:Observed on day 19 of February (gregorian) month. The event ha
- s been commemorated since it occurred in 1906 (gregorian era).  <br/>Madha
+ s been commemorated since it occurred in 1906 (Gregorian era).  <br/>Madha
  v Sadashiv Golwalkar\, 2nd RSS head\, born.<br/><br/>## Details<br/>- [Edi
  t config file](https://github.com/jyotisham/adyatithi/tree/master/mahApuru
  Sha/xatra-later/gregorian/day/02/19/golvAlkara-mAdhavo_jAtaH.toml)<br/>- T
@@ -6229,7 +6229,7 @@ SUMMARY:सावर्कर-वीरस्य प्रायोपव
 DTSTART;VALUE=DATE:20210226
 DTEND;VALUE=DATE:20210227
 DESCRIPTION:Observed on day 26 of February (gregorian) month. The event ha
- s been commemorated since it occurred in 1966 (gregorian era).  <br/>On th
+ s been commemorated since it occurred in 1966 (Gregorian era).  <br/>On th
  is day\, vIra sAvarkara fasted to death (unlike dramabaazi seen in recent 
  years). Besides inspiring the likes of rAjaguru and madana lAla Dhingra\, 
  he worked for hindu recruitment into british military\, which proved cruci
@@ -6340,7 +6340,7 @@ SUMMARY:आज़ाद-चन्द्रशेखरो मृतः #९
 DTSTART;VALUE=DATE:20210227
 DTEND;VALUE=DATE:20210228
 DESCRIPTION:Observed on day 27 of February (gregorian) month. The event ha
- s been commemorated since it occurred in 1931 (gregorian era).  <br/>chand
+ s been commemorated since it occurred in 1931 (Gregorian era).  <br/>chand
  rashekhara AzAd\, cornered by british police in prayAga\, shot himself wit
  h his last bullet.<br/><br/>## Details<br/>- [Edit config file](https://gi
  thub.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian
@@ -6358,7 +6358,7 @@ SUMMARY:गोध्रा-ज्वालनम् #१९
 DTSTART;VALUE=DATE:20210227
 DTEND;VALUE=DATE:20210228
 DESCRIPTION:Observed on day 27 of February (gregorian) month. The event ha
- s been commemorated since it occurred in 2002 (gregorian era).  <br/>59 Hi
+ s been commemorated since it occurred in 2002 (Gregorian era).  <br/>59 Hi
  ndus were burnt to death in godhra\, GJ.<br/><br/>## Details<br/>- [Edit c
  onfig file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha
  /xatra-later/gregorian/day/02/27/godhrA-jvAlanam.toml)<br/>- Tags:
@@ -6605,7 +6605,7 @@ SUMMARY:वेङ्कट-रामार्यस्याविश्
 DTSTART;VALUE=DATE:20210228
 DTEND;VALUE=DATE:20210301
 DESCRIPTION:Observed on day 28 of February (gregorian) month. The event ha
- s been commemorated since it occurred in 1928 (gregorian era).  <br/>CV Ra
+ s been commemorated since it occurred in 1928 (Gregorian era).  <br/>CV Ra
  man discovered the Raman Effect on this day in 1928<br/><br/>## Details<br
  />- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/
  mahApuruSha/xatra-later/gregorian/day/02/28/venkaTa-rAmAryasyAvishkAraH.to
@@ -6696,7 +6696,7 @@ DTSTART;VALUE=DATE:20210301
 DTEND;VALUE=DATE:20210302
 DESCRIPTION:Observed on day 1 of March (gregorian) month. Julian date was 
  converted to Gregorian in this reckoning. The event has been commemorated 
- since it occurred in 1630 (gregorian era).  <br/>phAlguna k3 I recall the 
+ since it occurred in 1630 (Gregorian era).  <br/>phAlguna k3 I recall the 
  sacred memory of the great rAjan shivAji\, about whom bhUShaNa wrote "च
  ारौ वर्ण धर्म छोडि कलमा नेवा
  ज पढि सिवाजी न होतो तौ सुनति 
@@ -7154,7 +7154,7 @@ DTSTART;VALUE=DATE:20210306
 DTEND;VALUE=DATE:20210307
 DESCRIPTION:Observed on day 6 of March (gregorian) month. Julian date was 
  converted to Gregorian in this reckoning. The event has been commemorated 
- since it occurred in 1674 (gregorian era).  <br/>Died fighting Bahlul Khan
+ since it occurred in 1674 (Gregorian era).  <br/>Died fighting Bahlul Khan
   (as ordered by shivAjI) at Nesari. A romantic tale (without evidence) is 
  that pratAprAv rode in heedless after being censured by shivAjI.<br/><br/>
  ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
@@ -7174,7 +7174,7 @@ DTSTART;VALUE=DATE:20210306
 DTEND;VALUE=DATE:20210307
 DESCRIPTION:Observed on day 6 of March (gregorian) month. Julian date was 
  converted to Gregorian in this reckoning. The event has been commemorated 
- since it occurred in 1670 (gregorian era).  <br/>On this day was born Raja
+ since it occurred in 1670 (Gregorian era).  <br/>On this day was born Raja
  ram\, 2nd son of Ch Shivaji\, who continued the struggle for Swarajya from
   Ginjee after Sambhaji's brutal torture and execution for refusing to conv
  ert to Islam.<br/><br/>## Details<br/>- [Edit config file](https://github.
@@ -7427,7 +7427,7 @@ DTSTART;VALUE=DATE:20210309
 DTEND;VALUE=DATE:20210310
 DESCRIPTION:Observed on Uttarāṣāḍhā nakshatra of Kumbhaḥ (siderea
  l solar) month (Prātaḥ/paraviddha). The event has been commemorated sin
- ce it occurred in 5069 (kali era).  <br/><br/><br/>## Details<br/>- [Edit 
+ ce it occurred in 5069 (Kali era).  <br/><br/><br/>## Details<br/>- [Edit 
  config file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSh
  a/kAnchI-maTha/sidereal_solar_month/nakshatra/11/21/kAJcI%20jagadguru%20zr
  I~zaGkara%20vijayEndra%20sarasvatI%20jayantI.toml)<br/>- Tags: Mahapurusha
@@ -7567,7 +7567,7 @@ DTSTART;VALUE=DATE:20210310
 DTEND;VALUE=DATE:20210311
 DESCRIPTION:Observed on day 10 of March (gregorian) month. Julian date was
   converted to Gregorian in this reckoning. The event has been commemorated
-  since it occurred in 1728 (gregorian era).  <br/>Chimaji Appa ground down
+  since it occurred in 1728 (Gregorian era).  <br/>Chimaji Appa ground down
   the Portuguese\, systematically mined\, blasted and won vasAi/ bessein (l
  ong suffering Christian inquisition barbarisms).<br/><br/>## Details<br/>-
   [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/mah
@@ -7777,7 +7777,7 @@ SUMMARY:मुम्बापुर्याम् १२ विस्फ
 DTSTART;VALUE=DATE:20210312
 DTEND;VALUE=DATE:20210313
 DESCRIPTION:Observed on day 12 of March (gregorian) month. The event has b
- een commemorated since it occurred in 1993 (gregorian era).  <br/>Mumbai: 
+ een commemorated since it occurred in 1993 (Gregorian era).  <br/>Mumbai: 
  12 bombs exploded\, 260 people dead\, 700 + Injured<br/><br/>## Details<br
  />- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/
  mahApuruSha/xatra-later/gregorian/day/03/12/mumbApuryAm_12_visphoTakAni.to
@@ -7851,7 +7851,7 @@ SUMMARY:फ़ड्नवीस्-नाना-मृत्युः #२
 DTSTART;VALUE=DATE:20210313
 DTEND;VALUE=DATE:20210314
 DESCRIPTION:Observed on day 13 of March (gregorian) month. The event has b
- een commemorated since it occurred in 1800 (gregorian era).  <br/>nAnA Fad
+ een commemorated since it occurred in 1800 (Gregorian era).  <br/>nAnA Fad
  navis\, who loyally and effectively kept the marATha confrederacy together
   during the time of fratricide\, died.<br/><br/>## Details<br/>- [Edit con
  fig file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/x
@@ -7936,7 +7936,7 @@ DTSTART;VALUE=DATE:20210313
 DTEND;VALUE=DATE:20210314
 DESCRIPTION:Observed on Amāvāsyā tithi of Māghaḥ (lunar) month (Sūr
  yodayaḥ/puurvaviddha). The event has been commemorated since it occurred
-  in 4665 (kali era).  <br/><br/><br/>मन्मनोभीष्टव
+  in 4665 (Kali era).  <br/><br/><br/>मन्मनोभीष्टव
  रदं सर्वाभीष्टफलप्रदम्।  <br/>
  पुरन्दरगुरुं वन्दे दासशृएष
  ्ठं दयानिधिम्॥<br/><br/><br/><br/>## Details<br/
@@ -7957,7 +7957,7 @@ SUMMARY:उधमसिंहेन जल्लिअन्वाला-
 DTSTART;VALUE=DATE:20210313
 DTEND;VALUE=DATE:20210314
 DESCRIPTION:Observed on day 13 of March (gregorian) month. The event has b
- een commemorated since it occurred in 1940 (gregorian era).  <br/>Udham Si
+ een commemorated since it occurred in 1940 (Gregorian era).  <br/>Udham Si
  ngh dispatched Michael O'Dwyer to his maker for ordering the Jallianwala B
  agh massacre.<br/><br/>## Details<br/>- [Edit config file](https://github.
  com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/
@@ -8117,12 +8117,12 @@ DESCRIPTION:Mīna-Ravi-Saṅkramaṇa-Ṣaḍaśīti Punyakala.<br/><br/>
  ॥  <br/>सङ्क्रान्त्यां यानि दत
  ्तानि हव्यकव्यानि मानवैः।  <
  br/>तानि तस्य ददात्यर्कः सप्त
- जन्मसु निश्चितम् इति॥ (स्मृ
- तिमुक्ताफले आह्निक-काण्डे-
- पूर्वभागः)<br/><br/><br/><br/>## Details<br/>- [Edit con
- fig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/sa
- nkrAnti/description_only/mIna-ravi-saGkramaNa-SaDazIti-puNyakAlaH.toml)<br
- />- Tags: SunSankranti CommonFestivals
+ जन्मसु निश्चितम्॥ (स्मृतिम
+ ुक्ताफले आह्निक-काण्डे-पूर
+ ्वभागः)<br/><br/><br/><br/>## Details<br/>- [Edit config file]
+ (https://github.com/jyotisham/adyatithi/tree/master/time_focus/sankrAnti/d
+ escription_only/mIna-ravi-saGkramaNa-SaDazIti-puNyakAlaH.toml)<br/>- Tags:
+  SunSankranti CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8138,9 +8138,9 @@ DTEND;VALUE=DATE:20210315
 DESCRIPTION:Observed on Śukla-Prathamā tithi of Phālgunaḥ (lunar) mon
  th (Sūryodayaḥ/puurvaviddha). payovratam observed by Aditi Devi begins 
  today.<br/><br/>फाल्गुनस्यामले पक्षे
-  द्वादशाहं पयोव्रतम्। अर्च
- येदरविन्दाक्षं भक्त्या परम
- या।अ।अन्वितः॥<br/><br/><br/><br/>## Details<br/>
+  द्वादशाहं पयोव्रतम्।  <br/>अर
+ ्चयेदरविन्दाक्षं भक्त्या प
+ रमयाऽऽन्वितः॥<br/><br/><br/><br/>## Details<br/>
  - [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/ge
  neral/lunar_month/tithi/12/01/payOvrata-ArambhaH.toml)<br/>- Tags: VratamS
  tart SpecialPeriodStart
@@ -8282,7 +8282,7 @@ DTSTART;VALUE=DATE:20210315
 DTEND;VALUE=DATE:20210316
 DESCRIPTION:Observed on Śukla-Dvitīyā tithi of Phālgunaḥ (lunar) mon
  th (Sūryodayaḥ/puurvaviddha). The event has been commemorated since it 
- occurred in 4936 (kali era).  <br/><br/><br/>## Details<br/>- [Edit config
+ occurred in 4936 (Kali era).  <br/><br/><br/>## Details<br/>- [Edit config
   file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/smAr
  ta-misc/lunar_month/tithi/12/02/rAmakRSNa-paramahaMsa~jayantI.toml)<br/>- 
  Tags: MahapurushaEvents CommonFestivals
@@ -8373,7 +8373,7 @@ DTSTART;VALUE=DATE:20210316
 DTEND;VALUE=DATE:20210317
 DESCRIPTION:Observed on day 16 of March (gregorian) month. Julian date was
   converted to Gregorian in this reckoning. The event has been commemorated
-  since it occurred in 1673 (gregorian era).  <br/>Kondaji Farzand captured
+  since it occurred in 1673 (Gregorian era).  <br/>Kondaji Farzand captured
   Panhala in a daring night escalade & the garrison was massacred.<br/><br/
  >## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatith
  i/tree/master/mahApuruSha/xatra-later/gregorian/day/03/16/koNDAjI-senAdhip
@@ -8624,7 +8624,7 @@ DTSTART;VALUE=DATE:20210319
 DTEND;VALUE=DATE:20210320
 DESCRIPTION:Observed on Kṛttikā nakshatra of Mīnaḥ (sidereal solar) 
  month (Prātaḥ/paraviddha). The event has been commemorated since it occ
- urred in 4875 (kali era).  <br/><br/><br/>## Details<br/>- [Edit config fi
+ urred in 4875 (Kali era).  <br/><br/><br/>## Details<br/>- [Edit config fi
  le](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/sangIta
  -kRt/sidereal_solar_month/nakshatra/12/03/muttusvAmI~dIkSita~jayantI.toml)
  <br/>- Tags: MahapurushaEvents CommonFestivals
@@ -8724,11 +8724,11 @@ DESCRIPTION:Meṣa-Viṣu Punyakala.<br/><br/>सङ्क्रान्
  ान्त्यां यानि दत्तानि हव्य
  कव्यानि मानवैः।  <br/>तानि तस्
  य ददात्यर्कः सप्तजन्मसु नि
- श्चितम् इति॥ (स्मृतिमुक्ता
- फले आह्निक-काण्डे-पूर्वभाग
- ः)<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github
- .com/jyotisham/adyatithi/tree/master/time_focus/sankrAnti/description_only
- /mESa-viSu-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
+ श्चितम्॥ (स्मृतिमुक्ताफले 
+ आह्निक-काण्डे-पूर्वभागः)<br/><br
+ /><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/time_focus/sankrAnti/description_only/mESa-viSu-p
+ uNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -8820,7 +8820,7 @@ DTSTART;VALUE=DATE:20210320
 DTEND;VALUE=DATE:20210321
 DESCRIPTION:Observed on Śukla-Saptamī tithi of Phālgunaḥ (lunar) mont
  h (Sūryodayaḥ/puurvaviddha). The event has been commemorated since it o
- ccurred in 4695 (kali era).  <br/><br/><br/>## Details<br/>- [Edit config 
+ ccurred in 4695 (Kali era).  <br/><br/><br/>## Details<br/>- [Edit config 
  file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/mAdhv
  a-misc/lunar_month/tithi/12/07/zrI~rAghavEndra-svAmI~jayantI.toml)<br/>- T
  ags: MahapurushaEvents CommonFestivals
@@ -8930,7 +8930,7 @@ DTSTART;VALUE=DATE:20210321
 DTEND;VALUE=DATE:20210322
 DESCRIPTION:Observed on day 21 of March (gregorian) month. Julian date was
   converted to Gregorian in this reckoning. The event has been commemorated
-  since it occurred in 1689 (gregorian era).  <br/>sambhAji mahArAj torture
+  since it occurred in 1689 (Gregorian era).  <br/>sambhAji mahArAj torture
  d and killed by awrangzeb<br/><br/>## Details<br/>- [Edit config file](htt
  ps://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gr
  egorian/day/03/21/shambhurAjo_pIDito_hatash_cha.toml)<br/>- Tags:
@@ -9139,7 +9139,7 @@ SUMMARY:नन्दिमार्गे २४ पण्डिता ह
 DTSTART;VALUE=DATE:20210323
 DTEND;VALUE=DATE:20210324
 DESCRIPTION:Observed on day 23 of March (gregorian) month. The event has b
- een commemorated since it occurred in 2003 (gregorian era).  <br/>Nadimarg
+ een commemorated since it occurred in 2003 (Gregorian era).  <br/>Nadimarg
   massacre of Kashmiri Pandits: 24 killed included toddlers.<br/><br/>## De
  tails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree
  /master/mahApuruSha/xatra-later/gregorian/day/03/23/nandimArge_24_paNDitA_
@@ -9471,7 +9471,7 @@ DTSTART;VALUE=DATE:20210326
 DTEND;VALUE=DATE:20210327
 DESCRIPTION:Observed on Śukla-Trayodaśī tithi of Phālgunaḥ (lunar) m
  onth (Aparāhṇaḥ/vyaapti). The event has been commemorated since it oc
- curred in 5119 (kali era).  <br/><br/><br/><br/><br/><br/><br/>## Details<
+ curred in 5119 (Kali era).  <br/><br/><br/><br/><br/><br/><br/>## Details<
  br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/maste
  r/mahApuruSha/kAnchI-maTha/lunar_month/tithi/12/13/kAJcI%2069%20jagadguru%
  20zrI~jayEndra%20sarasvatI%20ArAdhanA.toml)<br/>- Tags: KanchiAradhanaDays
@@ -9666,7 +9666,7 @@ SUMMARY:होल्कर-मल्हररावो मृतः #२
 DTSTART;VALUE=DATE:20210327
 DTEND;VALUE=DATE:20210328
 DESCRIPTION:Observed on day 27 of March (gregorian) month. The event has b
- een commemorated since it occurred in 1766 (gregorian era).  <br/>malharrA
+ een commemorated since it occurred in 1766 (Gregorian era).  <br/>malharrA
  v holkar dies<br/><br/>## Details<br/>- [Edit config file](https://github.
  com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/
  03/27/holkara-malhararAvo_mRtaH.toml)<br/>- Tags:
@@ -9779,7 +9779,7 @@ DTSTART;VALUE=DATE:20210328
 DTEND;VALUE=DATE:20210329
 DESCRIPTION:Observed on Paurṇamāsī tithi of Phālgunaḥ (lunar) month
   (Sūryodayaḥ/puurvaviddha). The event has been commemorated since it oc
- curred in 4586 (kali era).  <br/><br/><br/>## Details<br/>- [Edit config f
+ curred in 4586 (Kali era).  <br/><br/><br/>## Details<br/>- [Edit config f
  ile](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/vaiShN
  ava-misc/lunar_month/tithi/12/15/caitanya-mahAprabhu~jayantI.toml)<br/>- T
  ags: MahapurushaEvents
@@ -10265,7 +10265,7 @@ DTSTART;VALUE=DATE:20210331
 DTEND;VALUE=DATE:20210401
 DESCRIPTION:Observed on Kṛṣṇa-Tṛtīyā tithi of Phālgunaḥ (luna
  r) month (Sūryodayaḥ/puurvaviddha). The event has been commemorated sin
- ce it occurred in 4730 (kali era).  <br/><br/><br/>## Details<br/>- [Edit 
+ ce it occurred in 4730 (Kali era).  <br/><br/><br/>## Details<br/>- [Edit 
  config file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSh
  a/xatra/lunar_month/tithi/12/18/chatrapati-zivAjI~jayantI.toml)<br/>- Tags
  : MahapurushaEvents CommonFestivals
@@ -10285,7 +10285,7 @@ DTSTART;VALUE=DATE:20210331
 DTEND;VALUE=DATE:20210401
 DESCRIPTION:Observed on Svātī nakshatra of Mīnaḥ (sidereal solar) mon
  th (Prātaḥ/paraviddha). The event has been commemorated since it occurr
- ed in 5054 (kali era).  <br/>jagadguru śrī~jayendra sarasvatī was induc
+ ed in 5054 (Kali era).  <br/>jagadguru śrī~jayendra sarasvatī was induc
  ted into the kāmakoṭi-pīṭham on 22nd March 1954\, vijaya year\, mīn
  a/phālguna māsa kṛṣṇa dvitīyā somavāsaraḥ chitrā upari svāt
  ī nakṣatram.<br/><br/>## Details<br/>- [Edit config file](https://githu
@@ -10460,7 +10460,7 @@ DTSTART;VALUE=DATE:20210402
 DTEND;VALUE=DATE:20210403
 DESCRIPTION:Observed on day 2 of April (gregorian) month. Julian date was 
  converted to Gregorian in this reckoning. The event has been commemorated 
- since it occurred in 1739 (gregorian era).  <br/>9 AM: It was the morning 
+ since it occurred in 1739 (Gregorian era).  <br/>9 AM: It was the morning 
  of Holi. A massacre\, horrific beyond any description\, breaks out on the 
  streets of Delhi (started by nAdir shAh).<br/>When it ended several hours 
  later\, tens of thousands of corpses lay on the streets. Estimates range f
@@ -11284,7 +11284,7 @@ DTSTART;VALUE=DATE:20210411
 DTEND;VALUE=DATE:20210412
 DESCRIPTION:Observed on day 11 of April (gregorian) month. Julian date was
   converted to Gregorian in this reckoning. The event has been commemorated
-  since it occurred in 1673 (gregorian era).  <br/>Parali too was taken fro
+  since it occurred in 1673 (Gregorian era).  <br/>Parali too was taken fro
  m Adil shAhi-s.<br/><br/>## Details<br/>- [Edit config file](https://githu
  b.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/da
  y/04/11/parali-durgo_jitaH_svarAjyEna.toml)<br/>- Tags:
@@ -11638,12 +11638,11 @@ DESCRIPTION:Meṣa-Saṅkramaṇa Punyakala.<br/><br/>सङ्क्र
  क्रान्त्यां यानि दत्तानि ह
  व्यकव्यानि मानवैः।  <br/>तानि 
  तस्य ददात्यर्कः सप्तजन्मसु
-  निश्चितम् इति॥ (स्मृतिमुक्
- ताफले आह्निक-काण्डे-पूर्वभ
- ागः)<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://
- github.com/jyotisham/adyatithi/tree/master/time_focus/sankrAnti/descriptio
- n_only/mESa-saGkramaNa-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFes
- tivals
+  निश्चितम्॥ (स्मृतिमुक्ताफ
+ ले आह्निक-काण्डे-पूर्वभागः)<
+ br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/
+ jyotisham/adyatithi/tree/master/time_focus/sankrAnti/description_only/mESa
+ -saGkramaNa-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -11655,7 +11654,7 @@ DTSTART;VALUE=DATE:20210413
 DTEND;VALUE=DATE:20210414
 DESCRIPTION:Observed on day 13 of April (gregorian) month. Julian date was
   converted to Gregorian in this reckoning. The event has been commemorated
-  since it occurred in 1680 (gregorian era).  <br/>Saturday. Chatrapati die
+  since it occurred in 1680 (Gregorian era).  <br/>Saturday. Chatrapati die
  d at Raigad.<br/><br/>Contemporary muslim chroniclers like Muhammad Saqi K
  han and Khafi Khan declared that he will go to hell. Even Cosme da Guarda\
  , his admirer\, declared that as a pagan he will go to hell.<br/><br/><br/
@@ -11839,11 +11838,11 @@ DESCRIPTION:Tamil New Year.<br/><br/>सङ्क्रान्तिस
  त्यां यानि दत्तानि हव्यकव्
  यानि मानवैः।  <br/>तानि तस्य दद
  ात्यर्कः सप्तजन्मसु निश्चि
- तम् इति॥ (स्मृतिमुक्ताफले आ
- ह्निक-काण्डे-पूर्वभागः)<br/><br/><
- br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/
- adyatithi/tree/master/time_focus/sankrAnti/description_only/mESa-saGkrAnti
- H.toml)<br/>- Tags: SunSankranti CommonFestivals
+ तम्॥ (स्मृतिमुक्ताफले आह्न
+ िक-काण्डे-पूर्वभागः)<br/><br/><br/><br/>
+ ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
+ /tree/master/time_focus/sankrAnti/description_only/mESa-saGkrAntiH.toml)<b
+ r/>- Tags: SunSankranti CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12267,7 +12266,7 @@ DTSTART;VALUE=DATE:20210418
 DTEND;VALUE=DATE:20210419
 DESCRIPTION:Observed on Ārdrā nakshatra of Meṣaḥ (sidereal solar) mo
  nth (Sūryodayaḥ/puurvaviddha). The event has been commemorated since it
-  occurred in 4118 (kali era).  <br/><br/><br/>## Details<br/>- [Edit confi
+  occurred in 4118 (Kali era).  <br/><br/><br/>## Details<br/>- [Edit confi
  g file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/vai
  ShNava-misc/sidereal_solar_month/nakshatra/01/06/rAmAnuja-janma-nakSatram.
  toml)<br/>- Tags: MahapurushaEvents CommonFestivals
@@ -12286,7 +12285,7 @@ DTSTART;VALUE=DATE:20210418
 DTEND;VALUE=DATE:20210419
 DESCRIPTION:Observed on day 18 of April (gregorian) month. Julian date was
   converted to Gregorian in this reckoning. The event has been commemorated
-  since it occurred in 1674 (gregorian era).  <br/>Chhatrapati Shivaji insp
+  since it occurred in 1674 (Gregorian era).  <br/>Chhatrapati Shivaji insp
  ected his army at Chiplun. A new commander-in-chief had been identified. H
  is name was Hansaji Mohite. But that day Shivaji titled him Sarnobat (Chie
  f of Army) Hambirrao & history will remember him by that name: Hambirrao f
@@ -12306,7 +12305,7 @@ SUMMARY:तात्या-सेनानी हतः #१६२
 DTSTART;VALUE=DATE:20210418
 DTEND;VALUE=DATE:20210419
 DESCRIPTION:Observed on day 18 of April (gregorian) month. The event has b
- een commemorated since it occurred in 1859 (gregorian era).  <br/>Ramachan
+ een commemorated since it occurred in 1859 (Gregorian era).  <br/>Ramachan
  dra Panduranga Yawalkar\, Aka Tantia Tope\, general of the last peshvA nAn
  A saheb\, victor of many battles\, killed by the British after being surre
  ndered to them by mAn singh.<br/><br/><br/>## Details<br/>- [Edit config f
@@ -12452,11 +12451,11 @@ DESCRIPTION:Viṣṇupadī Punyakala.<br/><br/>सङ्क्रान्
  ान्त्यां यानि दत्तानि हव्य
  कव्यानि मानवैः।  <br/>तानि तस्
  य ददात्यर्कः सप्तजन्मसु नि
- श्चितम् इति॥ (स्मृतिमुक्ता
- फले आह्निक-काण्डे-पूर्वभाग
- ः)<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github
- .com/jyotisham/adyatithi/tree/master/time_focus/sankrAnti/description_only
- /viSNupadI-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
+ श्चितम्॥ (स्मृतिमुक्ताफले 
+ आह्निक-काण्डे-पूर्वभागः)<br/><br
+ /><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/time_focus/sankrAnti/description_only/viSNupadI-p
+ uNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -12817,7 +12816,7 @@ DTSTART;VALUE=DATE:20210423
 DTEND;VALUE=DATE:20210424
 DESCRIPTION:Observed on day 23 of April (gregorian) month. Julian date was
   converted to Gregorian in this reckoning. The event has been commemorated
-  since it occurred in 1720 (gregorian era).  <br/>great peshva bAlAjI vish
+  since it occurred in 1720 (Gregorian era).  <br/>great peshva bAlAjI vish
  vanAth died.<br/><br/>## Details<br/>- [Edit config file](https://github.c
  om/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/0
  4/23/bAlAjI-vishvanAtho_mRtaH.toml)<br/>- Tags:
@@ -13355,7 +13354,7 @@ DTSTART;VALUE=DATE:20210426
 DTEND;VALUE=DATE:20210427
 DESCRIPTION:Observed on day 26 of April (gregorian) month. Julian date was
   converted to Gregorian in this reckoning. The event has been commemorated
-  since it occurred in 1673 (gregorian era).  <br/>Prataprao General of shi
+  since it occurred in 1673 (Gregorian era).  <br/>Prataprao General of shi
  vAjI sacked Hubli\, plundered the British East India Company's house and e
  scaped before Muzaffar Khan's 4k cavalry arrived.<br/><br/>## Details<br/>
  - [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/ma
@@ -14448,7 +14447,7 @@ DTSTART;VALUE=DATE:20210507
 DTEND;VALUE=DATE:20210508
 DESCRIPTION:Observed on Kṛṣṇa-Ekādaśī tithi of Caitraḥ (lunar) 
  month (Sūryodayaḥ/puurvaviddha). The event has been commemorated since 
- it occurred in 4580 (kali era).  <br/><br/><br/>## Details<br/>- [Edit con
+ it occurred in 4580 (Kali era).  <br/><br/><br/>## Details<br/>- [Edit con
  fig file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/v
  aiShNava-misc/lunar_month/tithi/01/26/vallabhAcArya~jayantI.toml)<br/>- Ta
  gs: MahapurushaEvents
@@ -14585,7 +14584,7 @@ DTSTART;VALUE=DATE:20210509
 DTEND;VALUE=DATE:20210510
 DESCRIPTION:Observed on day 9 of May (gregorian) month. Julian date was co
  nverted to Gregorian in this reckoning. The event has been commemorated si
- nce it occurred in 1740 (gregorian era).  <br/>vaishAkha s13\, Raudra Sanv
+ nce it occurred in 1740 (Gregorian era).  <br/>vaishAkha s13\, Raudra Sanv
  atsar\, Saka era bAji rAv 1 dead.<br/><br/>## Details<br/>- [Edit config f
  ile](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-
  later/gregorian/day/05/09/bAjI-rAvo_mRtaH.toml)<br/>- Tags:
@@ -14654,7 +14653,7 @@ DTSTART;VALUE=DATE:20210509
 DTEND;VALUE=DATE:20210510
 DESCRIPTION:Observed on Kṛṣṇa-Trayodaśī tithi of Meṣaḥ (sidere
  al solar) month (Aparāhṇaḥ/vyaapti). The event has been commemorated 
- since it occurred in 5052 (kali era).  <br/><br/><br/>## Details<br/>- [Ed
+ since it occurred in 5052 (Kali era).  <br/><br/><br/>## Details<br/>- [Ed
  it config file](https://github.com/jyotisham/adyatithi/tree/master/mahApur
  uSha/smArta-misc/sidereal_solar_month/tithi/01/28/ramaNa~maharSi~ArAdhanA.
  toml)<br/>- Tags: MahapurushaEvents CommonFestivals
@@ -15045,7 +15044,7 @@ DTSTART;VALUE=DATE:20210512
 DTEND;VALUE=DATE:20210513
 DESCRIPTION:Observed on Kṛttikā nakshatra of Meṣaḥ (sidereal solar)
   month (Prātaḥ/paraviddha). The event has been commemorated since it oc
- curred in 4863 (kali era).  <br/><br/><br/>## Details<br/>- [Edit config f
+ curred in 4863 (Kali era).  <br/><br/><br/>## Details<br/>- [Edit config f
  ile](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/sangIt
  a-kRt/sidereal_solar_month/nakshatra/01/03/zyAmA~zAstrI~jayantI.toml)<br/>
  - Tags: MahapurushaEvents CommonFestivals
@@ -15325,12 +15324,12 @@ DESCRIPTION:Vṛṣabha-Ravi-Saṅkramaṇa-Viṣṇupadī Punyakala.<br/>
  े॥  <br/>सङ्क्रान्त्यां यानि द
  त्तानि हव्यकव्यानि मानवैः।
    <br/>तानि तस्य ददात्यर्कः सप्
- तजन्मसु निश्चितम् इति॥ (स्म
- ृतिमुक्ताफले आह्निक-काण्डे
- -पूर्वभागः)<br/><br/><br/><br/>## Details<br/>- [Edit co
- nfig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/s
- ankrAnti/description_only/vRSabha-ravi-saGkramaNa-viSNupadI-puNyakAlaH.tom
- l)<br/>- Tags: SunSankranti CommonFestivals
+ तजन्मसु निश्चितम्॥ (स्मृति
+ मुक्ताफले आह्निक-काण्डे-पू
+ र्वभागः)<br/><br/><br/><br/>## Details<br/>- [Edit config fi
+ le](https://github.com/jyotisham/adyatithi/tree/master/time_focus/sankrAnt
+ i/description_only/vRSabha-ravi-saGkramaNa-viSNupadI-puNyakAlaH.toml)<br/>
+ - Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -15589,7 +15588,7 @@ DTSTART;VALUE=DATE:20210517
 DTEND;VALUE=DATE:20210518
 DESCRIPTION:Observed on Śukla-Pañcamī tithi of Vaiśākhaḥ (lunar) mo
  nth (Sūryodayaḥ/puurvaviddha). The event has been commemorated since it
-  occurred in 4579 (kali era).  <br/><br/><br/>## Details<br/>- [Edit confi
+  occurred in 4579 (Kali era).  <br/><br/><br/>## Details<br/>- [Edit confi
  g file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/san
  gIta-kRt/lunar_month/tithi/02/05/sUradAsa~jayantI.toml)<br/>- Tags: Mahapu
  rushaEvents
@@ -15624,7 +15623,7 @@ DTSTART;VALUE=DATE:20210517
 DTEND;VALUE=DATE:20210518
 DESCRIPTION:Observed on Śukla-Pañcamī tithi of Vaiśākhaḥ (lunar) mo
  nth (Prātaḥ/paraviddha). The event has been commemorated since it occur
- red in 2593 (kali era).  <br/>Nandana year<br/><br/>## Details<br/>- [Edit
+ red in 2593 (Kali era).  <br/>Nandana year<br/><br/>## Details<br/>- [Edit
   config file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruS
  ha/kAnchI-maTha/lunar_month/tithi/02/05/zaGkara~jayantI.toml)<br/>- Tags: 
  CommonFestivals AdiShankaraHistory MahapurushaEvents
@@ -15713,7 +15712,7 @@ DTSTART;VALUE=DATE:20210518
 DTEND;VALUE=DATE:20210519
 DESCRIPTION:Observed on Śukla-Ṣaṣṭhī tithi of Vaiśākhaḥ (lunar
  ) month (Sūryodayaḥ/puurvaviddha). The event has been commemorated sinc
- e it occurred in 4118 (kali era).  <br/><br/><br/>## Details<br/>- [Edit c
+ e it occurred in 4118 (Kali era).  <br/><br/><br/>## Details<br/>- [Edit c
  onfig file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha
  /vaiShNava-misc/lunar_month/tithi/02/06/rAmAnuja~jayantI.toml)<br/>- Tags:
   MahapurushaEvents CommonFestivals
@@ -15806,7 +15805,7 @@ DTSTART;VALUE=DATE:20210519
 DTEND;VALUE=DATE:20210520
 DESCRIPTION:Observed on day 19 of May (gregorian) month. Julian date was c
  onverted to Gregorian in this reckoning. The event has been commemorated s
- ince it occurred in 1540 (gregorian era).  <br/>jyeShTha s3 Maharana Prata
+ ince it occurred in 1540 (Gregorian era).  <br/>jyeShTha s3 Maharana Prata
  p Jayanti<br/><br/>## Details<br/>- [Edit config file](https://github.com/
  jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/05/1
  9/pratApasiMho_jAtaH.toml)<br/>- Tags:
@@ -15842,7 +15841,7 @@ DTSTART;VALUE=DATE:20210519
 DTEND;VALUE=DATE:20210520
 DESCRIPTION:Observed on Śukla-Saptamī tithi of Vaiśākhaḥ (lunar) mon
  th (Sūryodayaḥ/puurvaviddha). The event has been commemorated since it 
- occurred in 4868 (kali era).  <br/><br/><br/>## Details<br/>- References<b
+ occurred in 4868 (Kali era).  <br/><br/><br/>## Details<br/>- References<b
  r/>  - Vaidikasri May 2017<br/>- [Edit config file](https://github.com/jyo
  tisham/adyatithi/tree/master/mahApuruSha/sangIta-kRt/lunar_month/tithi/02/
  07/tyAgarAja~jayantI.toml)<br/>- Tags: MahapurushaEvents CommonFestivals
@@ -15960,11 +15959,11 @@ DESCRIPTION:Ṣaḍaśīti Punyakala.<br/><br/>सङ्क्रान्
  ान्त्यां यानि दत्तानि हव्य
  कव्यानि मानवैः।  <br/>तानि तस्
  य ददात्यर्कः सप्तजन्मसु नि
- श्चितम् इति॥ (स्मृतिमुक्ता
- फले आह्निक-काण्डे-पूर्वभाग
- ः)<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github
- .com/jyotisham/adyatithi/tree/master/time_focus/sankrAnti/description_only
- /SaDazIti-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
+ श्चितम्॥ (स्मृतिमुक्ताफले 
+ आह्निक-काण्डे-पूर्वभागः)<br/><br
+ /><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/time_focus/sankrAnti/description_only/SaDazIti-pu
+ NyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -16009,7 +16008,7 @@ SUMMARY:वङ्गे सेन्दिअ-क्षेत्रे म
 DTSTART;VALUE=DATE:20210520
 DTEND;VALUE=DATE:20210521
 DESCRIPTION:Observed on day 20 of May (gregorian) month. The event has bee
- n commemorated since it occurred in 1971 (gregorian era).  <br/>Pakistani 
+ n commemorated since it occurred in 1971 (Gregorian era).  <br/>Pakistani 
  army with local Islamists massacre Hindus in Bengal at Sendia\, Galimpur\,
   Chuknagar<br/><br/>## Details<br/>- [Edit config file](https://github.com
  /jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/05/
@@ -16083,7 +16082,7 @@ DTSTART;VALUE=DATE:20210521
 DTEND;VALUE=DATE:20210522
 DESCRIPTION:Observed on Śukla-Daśamī tithi of Vaiśākhaḥ (lunar) mon
  th (Aparāhṇaḥ/vyaapti). The event has been commemorated since it occu
- rred in 5016 (kali era).  <br/><br/><br/>## Details<br/>- [Edit config fil
+ rred in 5016 (Kali era).  <br/><br/><br/>## Details<br/>- [Edit config fil
  e](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/kAnchI-m
  aTha/lunar_month/tithi/02/10/nerUr~zrI~sadAziva~brahmEndra~ArAdhanA.toml)<
  br/>- Tags: MahapurushaEvents
@@ -16102,7 +16101,7 @@ DTSTART;VALUE=DATE:20210521
 DTEND;VALUE=DATE:20210522
 DESCRIPTION:Observed on Śukla-Navamī tithi of Vaiśākhaḥ (lunar) mont
  h (Sūryodayaḥ/puurvaviddha). The event has been commemorated since it o
- ccurred in 2617 (kali era).  <br/>Adi Shankara founded Govardhan mutt\, Pu
+ ccurred in 2617 (Kali era).  <br/>Adi Shankara founded Govardhan mutt\, Pu
  ri in Nala year Padmapadacharya as first<br/><br/>## Details<br/>- [Edit c
  onfig file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha
  /kAnchI-maTha/lunar_month/tithi/02/09/purI%20gOvardhana-maTha-pratiSThApan
@@ -16678,7 +16677,7 @@ DTSTART;VALUE=DATE:20210524
 DTEND;VALUE=DATE:20210525
 DESCRIPTION:Observed on day 24 of May (gregorian) month. Julian date was c
  onverted to Gregorian in this reckoning. The event has been commemorated s
- ince it occurred in 1657 (gregorian era).  <br/>jyeShTha s12 Sambhaji born
+ ince it occurred in 1657 (Gregorian era).  <br/>jyeShTha s12 Sambhaji born
  <br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham
  /adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/05/24/shambhu
  rAjo_jAtaH.toml)<br/>- Tags:
@@ -16826,7 +16825,7 @@ SUMMARY:रास-विहारी जातः #१३५
 DTSTART;VALUE=DATE:20210525
 DTEND;VALUE=DATE:20210526
 DESCRIPTION:Observed on day 25 of May (gregorian) month. The event has bee
- n commemorated since it occurred in 1886 (gregorian era).  <br/>Rash bihAr
+ n commemorated since it occurred in 1886 (Gregorian era).  <br/>Rash bihAr
  I bose born.<br/><br/>## Details<br/>- [Edit config file](https://github.c
  om/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/0
  5/25/rAsa-vihArI_jAtaH.toml)<br/>- Tags:
@@ -17008,7 +17007,7 @@ DTSTART;VALUE=DATE:20210526
 DTEND;VALUE=DATE:20210527
 DESCRIPTION:Observed on Anūrādhā nakshatra of Vṛṣabhaḥ (sidereal 
  solar) month (Prātaḥ/paraviddha). The event has been commemorated since
-  it occurred in 4995 (kali era).  <br/><br/><br/>## Details<br/>- [Edit co
+  it occurred in 4995 (Kali era).  <br/><br/><br/>## Details<br/>- [Edit co
  nfig file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/
  kAnchI-maTha/sidereal_solar_month/nakshatra/02/17/kAJcI%20jagadguru%20zrI~
  candrazEkharEndra%20sarasvatI%207%20jayantI.toml)<br/>- Tags: MahapurushaE
@@ -17028,7 +17027,7 @@ DTSTART;VALUE=DATE:20210526
 DTEND;VALUE=DATE:20210527
 DESCRIPTION:Observed on Paurṇamāsī tithi of Vaiśākhaḥ (lunar) mont
  h (Sūryodayaḥ/puurvaviddha). The event has been commemorated since it o
- ccurred in 2620 (kali era).  <br/>Adi Shankara founded Kamakoti Mutt\, Kan
+ ccurred in 2620 (Kali era).  <br/>Adi Shankara founded Kamakoti Mutt\, Kan
  chi in Siddharthi year with himself as first<br/><br/>## Details<br/>- [Ed
  it config file](https://github.com/jyotisham/adyatithi/tree/master/mahApur
  uSha/kAnchI-maTha/lunar_month/tithi/02/15/kAJcI%20kAmakOTi-maTha-pratiSThA
@@ -17296,7 +17295,7 @@ DTSTART;VALUE=DATE:20210528
 DTEND;VALUE=DATE:20210529
 DESCRIPTION:Observed on Mūlā nakshatra of Vṛṣabhaḥ (sidereal solar
  ) month (Prātaḥ/paraviddha). The event has been commemorated since it o
- ccurred in 5084 (kali era).  <br/>jagadguru śrī~śaṅkara vijayendra sa
+ ccurred in 5084 (Kali era).  <br/>jagadguru śrī~śaṅkara vijayendra sa
  rasvatī was inducted into the kāmakoṭi-pīṭham on 29th May 1983\, ru
  dhirodgārī year\, vṛṣabha/vaiśākha māsa kṛṣṇa tṛtīyā bh
  ānuvāsaraḥ mūlā nakṣatram.<br/><br/>## Details<br/>- [Edit config 
@@ -17535,7 +17534,7 @@ DTSTART;VALUE=DATE:20210529
 DTEND;VALUE=DATE:20210530
 DESCRIPTION:Observed on day 29 of May (gregorian) month. Julian date was c
  onverted to Gregorian in this reckoning. The event has been commemorated s
- ince it occurred in 1520 (gregorian era).  <br/>kRShNadevarAya smashed the
+ ince it occurred in 1520 (Gregorian era).  <br/>kRShNadevarAya smashed the
   Jihad of the Army of Islam in a great victory at Raichur<br/><br/>## Deta
  ils<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/m
  aster/mahApuruSha/xatra-later/gregorian/day/05/29/kRShNadevarAyasya_rAyach
@@ -17555,7 +17554,7 @@ DTSTART;VALUE=DATE:20210529
 DTEND;VALUE=DATE:20210530
 DESCRIPTION:Observed on day 29 of May (gregorian) month. Julian date was c
  onverted to Gregorian in this reckoning. The event has been commemorated s
- ince it occurred in 1520 (gregorian era).  <br/> Ismail Adil Shah  of  Mus
+ ince it occurred in 1520 (Gregorian era).  <br/> Ismail Adil Shah  of  Mus
  lim  Bijapur  seized  the  fortress  ofRaichur\, southwest of Hyderabad\, 
  then faced asiege by Krishnadeva Raya of Hindu Vijayana-gar. The Bijapuri 
  army was routed and Raichur fell to Krishnadeva Raya.<br/><br/>## Details<
@@ -18046,7 +18045,7 @@ SUMMARY:महिषपुर-राजर्षिः कृष्णर
 DTSTART;VALUE=DATE:20210604
 DTEND;VALUE=DATE:20210605
 DESCRIPTION:Observed on day 4 of June (gregorian) month. The event has bee
- n commemorated since it occurred in 1884 (gregorian era).  <br/>nAlvaDi-kR
+ n commemorated since it occurred in 1884 (Gregorian era).  <br/>nAlvaDi-kR
  ShNarAja-vaDiya\, rAjarShi of mysore\, born https://twitter.com/adikulk/st
  atus/893381975440064512<br/><br/>## Details<br/>- [Edit config file](https
  ://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/greg
@@ -18064,7 +18063,7 @@ SUMMARY:पेश्वा-राज्य-नाशः #२०३
 DTSTART;VALUE=DATE:20210604
 DTEND;VALUE=DATE:20210605
 DESCRIPTION:Observed on day 4 of June (gregorian) month. The event has bee
- n commemorated since it occurred in 1818 (gregorian era).  <br/>Peshwa Baj
+ n commemorated since it occurred in 1818 (Gregorian era).  <br/>Peshwa Baj
  irao II surrendered to the British\, after an eight month long war (The 3r
  d Anglo-Maratha War) - a war which began in Nov 1817 with the 'Battle of K
  hadki'.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jy
@@ -19078,12 +19077,12 @@ DESCRIPTION:Mithuna-Ravi-Saṅkramaṇa-Ṣaḍaśīti Punyakala. Perform
  ायते॥  <br/>सङ्क्रान्त्यां यान
  ि दत्तानि हव्यकव्यानि मानव
  ैः।  <br/>तानि तस्य ददात्यर्कः 
- सप्तजन्मसु निश्चितम् इति॥ (
- स्मृतिमुक्ताफले आह्निक-काण
- ्डे-पूर्वभागः)<br/><br/><br/><br/>## Details<br/>-
-  [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/tim
- e_focus/sankrAnti/description_only/mithuna-ravi-saGkramaNa-SaDazIti-puNyak
- AlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
+ सप्तजन्मसु निश्चितम्॥ (स्म
+ ृतिमुक्ताफले आह्निक-काण्डे
+ -पूर्वभागः)<br/><br/><br/><br/>## Details<br/>- [Edit co
+ nfig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/s
+ ankrAnti/description_only/mithuna-ravi-saGkramaNa-SaDazIti-puNyakAlaH.toml
+ )<br/>- Tags: SunSankranti CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -19359,7 +19358,7 @@ DTSTART;VALUE=DATE:20210616
 DTEND;VALUE=DATE:20210617
 DESCRIPTION:Observed on day 16 of June (gregorian) month. Julian date was 
  converted to Gregorian in this reckoning. The event has been commemorated 
- since it occurred in 1674 (gregorian era).  <br/>jyeShTha shukla 13 shivAj
+ since it occurred in 1674 (Gregorian era).  <br/>jyeShTha shukla 13 shivAj
  i's aindrAbhiSheka.<br/><br/>## Details<br/>- [Edit config file](https://g
  ithub.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregoria
  n/day/06/16/shivarAjasyaindrAbhiSekaH.toml)<br/>- Tags:
@@ -19378,7 +19377,7 @@ DTSTART;VALUE=DATE:20210616
 DTEND;VALUE=DATE:20210617
 DESCRIPTION:Observed on day 16 of June (gregorian) month. Julian date was 
  converted to Gregorian in this reckoning. The event has been commemorated 
- since it occurred in 1660 (gregorian era).  <br/>shivAjI captured vasota/ 
+ since it occurred in 1660 (Gregorian era).  <br/>shivAjI captured vasota/ 
  wasota.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jy
  otisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/06/16/
  vasota-grahaNam.toml)<br/>- Tags:
@@ -19896,11 +19895,11 @@ DESCRIPTION:Dakṣiṇāyana Punyakala.<br/><br/>सङ्क्रान
  रान्त्यां यानि दत्तानि हव्
  यकव्यानि मानवैः।  <br/>तानि तस
  ्य ददात्यर्कः सप्तजन्मसु न
- िश्चितम् इति॥ (स्मृतिमुक्त
- ाफले आह्निक-काण्डे-पूर्वभा
- गः)<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://git
- hub.com/jyotisham/adyatithi/tree/master/time_focus/sankrAnti/description_o
- nly/dakSiNAyana-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
+ िश्चितम्॥ (स्मृतिमुक्ताफले
+  आह्निक-काण्डे-पूर्वभागः)<br/><b
+ r/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotis
+ ham/adyatithi/tree/master/time_focus/sankrAnti/description_only/dakSiNAyan
+ a-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -20262,7 +20261,7 @@ SUMMARY:चापेकराभ्यां रण्ड-वधः #१
 DTSTART;VALUE=DATE:20210622
 DTEND;VALUE=DATE:20210623
 DESCRIPTION:Observed on day 22 of June (gregorian) month. The event has be
- en commemorated since it occurred in 1897 (gregorian era).  <br/>Chāpekar
+ en commemorated since it occurred in 1897 (Gregorian era).  <br/>Chāpekar
   brothers killed W. C. Rand.<br/>“ Govindā ālā rè “ used first by 
  these guys to signal the approach of Rand.<br/><br/>## Details<br/>- [Edit
   config file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruS
@@ -20446,7 +20445,7 @@ SUMMARY:बालाजी-बाजी-रावो मृतः #२६
 DTSTART;VALUE=DATE:20210623
 DTEND;VALUE=DATE:20210624
 DESCRIPTION:Observed on day 23 of June (gregorian) month. The event has be
- en commemorated since it occurred in 1761 (gregorian era).  <br/>bAlAji bA
+ en commemorated since it occurred in 1761 (Gregorian era).  <br/>bAlAji bA
  ji rao\, not long after pAnipaT disaster\, died. Son of a great father (Ba
  jirao-1)<br/>Father to a great son (Madhavrao-1)<br/>Brother to a great co
  usin (Sadashiv Rao Bhau)<br/><br/>## Details<br/>- [Edit config file](http
@@ -20486,7 +20485,7 @@ DTSTART;VALUE=DATE:20210623
 DTEND;VALUE=DATE:20210624
 DESCRIPTION:Observed on Śukla-Trayodaśī tithi of Jyaiṣṭhaḥ (lunar
  ) month (Sūryodayaḥ/puurvaviddha). The event has been commemorated sinc
- e it occurred in 1596 (shaka era).  <br/><br/><br/>## Details<br/>- [Edit 
+ e it occurred in 1596 (Shaka era).  <br/><br/><br/>## Details<br/>- [Edit 
  config file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSh
  a/xatra/lunar_month/tithi/03/13/chatrapati~zivAjI~rAjyAbhiSEkaH.toml)<br/>
  - Tags: MahapurushaEvents
@@ -20541,7 +20540,7 @@ DTSTART;VALUE=DATE:20210623
 DTEND;VALUE=DATE:20210624
 DESCRIPTION:Observed on Śukla-Trayodaśī tithi of Jyaiṣṭhaḥ (lunar
  ) month (Sūryodayaḥ/puurvaviddha). The event has been commemorated sinc
- e it occurred in 4493 (kali era).  <br/><br/><br/>## Details<br/>- [Edit c
+ e it occurred in 4493 (Kali era).  <br/><br/><br/>## Details<br/>- [Edit c
  onfig file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha
  /kAnchI-maTha/lunar_month/tithi/03/13/vidyAraNya~svAmI~ArAdhanA.toml)<br/>
  - Tags: MahapurushaEvents
@@ -21214,7 +21213,7 @@ SUMMARY:पाल्कर-नेतुः शुद्धिः #३४
 DTSTART;VALUE=DATE:20210629
 DTEND;VALUE=DATE:20210630
 DESCRIPTION:Observed on day 29 of June (gregorian) month. The event has be
- en commemorated since it occurred in 1676 (gregorian era).  <br/>AShADha k
+ en commemorated since it occurred in 1676 (Gregorian era).  <br/>AShADha k
  4 Netaji pAlkar's prAyashcitta and readmission to the hindu fold. https://
  twitter.com/ColonelGerard/status/876548420269334528<br/><br/>## Details<br
  />- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/
@@ -21342,7 +21341,7 @@ DTSTART;VALUE=DATE:20210701
 DTEND;VALUE=DATE:20210702
 DESCRIPTION:Observed on day 1 of July (gregorian) month. Julian date was c
  onverted to Gregorian in this reckoning. The event has been commemorated s
- ince it occurred in 1576 (gregorian era).  <br/>After the fierce battle at
+ ince it occurred in 1576 (Gregorian era).  <br/>After the fierce battle at
   haldIghATI\, mahArANA pratAp wounded\, as was his heroic horse chetak. Ch
  etak succumbed on this day.<br/><br/><br/><br/>## Details<br/>- [Edit conf
  ig file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xa
@@ -22760,7 +22759,7 @@ SUMMARY:आङ्ग्रॆ-कान्होजी-जन्म #२
 DTSTART;VALUE=DATE:20210715
 DTEND;VALUE=DATE:20210716
 DESCRIPTION:Observed on day 15 of July (gregorian) month. The event has be
- en commemorated since it occurred in 1729 (gregorian era).  <br/>death ann
+ en commemorated since it occurred in 1729 (Gregorian era).  <br/>death ann
  iversary of Maratha Navy Admiral Kanhoji Angre. During his undefeated reig
  n\, his navy controlled west coast\, prevented entry of slave trade in Ind
  ia\, fully succeeded in keeping British\, Dutch\, Portuguese at bay.<br/><
@@ -22828,12 +22827,12 @@ DESCRIPTION:Karkaṭa-Saṅkramaṇa Punyakala.<br/><br/>सङ्क्
  ्क्रान्त्यां यानि दत्तानि 
  हव्यकव्यानि मानवैः।  <br/>तानि
   तस्य ददात्यर्कः सप्तजन्मस
- ु निश्चितम् इति॥ (स्मृतिमुक
- ्ताफले आह्निक-काण्डे-पूर्व
- भागः)<br/><br/><br/><br/>## Details<br/>- [Edit config file](https
- ://github.com/jyotisham/adyatithi/tree/master/time_focus/sankrAnti/descrip
- tion_only/karkaTa-saGkramaNa-puNyakAlaH.toml)<br/>- Tags: SunSankranti Com
- monFestivals
+ ु निश्चितम्॥ (स्मृतिमुक्ता
+ फले आह्निक-काण्डे-पूर्वभाग
+ ः)<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github
+ .com/jyotisham/adyatithi/tree/master/time_focus/sankrAnti/description_only
+ /karkaTa-saGkramaNa-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestiv
+ als
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -23813,11 +23812,11 @@ DESCRIPTION:Viṣṇupadī Punyakala.<br/><br/>सङ्क्रान्
  ान्त्यां यानि दत्तानि हव्य
  कव्यानि मानवैः।  <br/>तानि तस्
  य ददात्यर्कः सप्तजन्मसु नि
- श्चितम् इति॥ (स्मृतिमुक्ता
- फले आह्निक-काण्डे-पूर्वभाग
- ः)<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github
- .com/jyotisham/adyatithi/tree/master/time_focus/sankrAnti/description_only
- /viSNupadI-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
+ श्चितम्॥ (स्मृतिमुक्ताफले 
+ आह्निक-काण्डे-पूर्वभागः)<br/><br
+ /><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/time_focus/sankrAnti/description_only/viSNupadI-p
+ uNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -23983,7 +23982,7 @@ SUMMARY:लोकमान्य-तिळको जातः #१६५
 DTSTART;VALUE=DATE:20210723
 DTEND;VALUE=DATE:20210724
 DESCRIPTION:Observed on day 23 of July (gregorian) month. The event has be
- en commemorated since it occurred in 1856 (gregorian era).  <br/>AshADha k
+ en commemorated since it occurred in 1856 (Gregorian era).  <br/>AshADha k
  1  lokamAnya bhAlagangAdhara Tilak born.<br/><br/>## Details<br/>- [Edit c
  onfig file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha
  /xatra-later/gregorian/day/07/23/lokamAnya-tiLako_jAtaH.toml)<br/>- Tags:
@@ -24436,7 +24435,7 @@ DTSTART;VALUE=DATE:20210726
 DTEND;VALUE=DATE:20210727
 DESCRIPTION:Observed on Śraviṣṭhā nakshatra of Karkaṭaḥ (siderea
  l solar) month (Prātaḥ/paraviddha). The event has been commemorated sin
- ce it occurred in 5036 (kali era).  <br/><br/><br/>## Details<br/>- [Edit 
+ ce it occurred in 5036 (Kali era).  <br/><br/><br/>## Details<br/>- [Edit 
  config file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSh
  a/kAnchI-maTha/sidereal_solar_month/nakshatra/04/23/kAJcI%20jagadguru%20zr
  I~jayEndra%20sarasvatI%20jayantI.toml)<br/>- Tags: MahapurushaEvents Commo
@@ -24765,7 +24764,7 @@ DTSTART;VALUE=DATE:20210730
 DTEND;VALUE=DATE:20210731
 DESCRIPTION:Observed on day 30 of July (gregorian) month. Julian date was 
  converted to Gregorian in this reckoning. The event has been commemorated 
- since it occurred in 1680 (gregorian era).  <br/>shrAvaNa s5  Sambhaji asc
+ since it occurred in 1680 (Gregorian era).  <br/>shrAvaNa s5  Sambhaji asc
  ended the throne<br/><br/>## Details<br/>- [Edit config file](https://gith
  ub.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/d
  ay/07/30/shambhu-paTTAbhiShekaH.toml)<br/>- Tags:
@@ -24888,7 +24887,7 @@ SUMMARY:लोकमान्य-तिळको दिवं गतः #
 DTSTART;VALUE=DATE:20210801
 DTEND;VALUE=DATE:20210802
 DESCRIPTION:Observed on day 1 of August (gregorian) month. The event has b
- een commemorated since it occurred in 1920 (gregorian era).  <br/>LokamAny
+ een commemorated since it occurred in 1920 (Gregorian era).  <br/>LokamAny
  a Tilak died at age 64.<br/><br/>## Details<br/>- [Edit config file](https
  ://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/greg
  orian/day/08/01/lokamAnya-tiLako_divaM_gataH.toml)<br/>- Tags:
@@ -24907,7 +24906,7 @@ DTSTART;VALUE=DATE:20210801
 DTEND;VALUE=DATE:20210802
 DESCRIPTION:Observed on day 1 of August (gregorian) month. Julian date was
   converted to Gregorian in this reckoning. The event has been commemorated
-  since it occurred in 1678 (gregorian era).  <br/>After 14 months of obsti
+  since it occurred in 1678 (Gregorian era).  <br/>After 14 months of obsti
  nate defence by the Siddi Abdulla Khan general of Adil Shah\, Vellore fort
   fell after a contagion broke out there.<br/><br/>## Details<br/>- [Edit c
  onfig file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha
@@ -25289,7 +25288,7 @@ DTSTART;VALUE=DATE:20210805
 DTEND;VALUE=DATE:20210806
 DESCRIPTION:Observed on day 5 of August (gregorian) month. Julian date was
   converted to Gregorian in this reckoning. The event has been commemorated
-  since it occurred in 1509 (gregorian era).  <br/>kRShNAShTamI (bhAdrapada
+  since it occurred in 1509 (Gregorian era).  <br/>kRShNAShTamI (bhAdrapada
  -kRShNa likely) kRShNadevarAya coronated. https://twitter.com/i/moments/89
  0055413374173186<br/><br/>## Details<br/>- [Edit config file](https://gith
  ub.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/d
@@ -25342,7 +25341,7 @@ SUMMARY:राम-मन्दिर-भूमि-पूजा #१
 DTSTART;VALUE=DATE:20210805
 DTEND;VALUE=DATE:20210806
 DESCRIPTION:Observed on day 5 of August (gregorian) month. The event has b
- een commemorated since it occurred in 2020 (gregorian era).  <br/>bhUmipUj
+ een commemorated since it occurred in 2020 (Gregorian era).  <br/>bhUmipUj
  ana for rAma mandir reconstruction at ayodhya.<br/><br/>## Details<br/>- [
  Edit config file](https://github.com/jyotisham/adyatithi/tree/master/mahAp
  uruSha/xatra-later/gregorian/day/08/05/rAma-mandira-bhUmi-pUjA.toml)<br/>-
@@ -26229,12 +26228,12 @@ SUMMARY:गरुड-पञ्चमी
 DTSTART;VALUE=DATE:20210813
 DTEND;VALUE=DATE:20210814
 DESCRIPTION:Observed on Śukla-Pañcamī tithi of Śrāvaṇaḥ (lunar) m
- onth (Sūryodayaḥ/puurvaviddha). <br/>* Day Garuda brought Amrutam for N
- agas<br/>* Day Garuda and Takshaka fought and compromise was struck with T
- akshaka as garland in Garuda's neck (peace treaty :) <br/><br/>## Details<
- br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/maste
- r/devatA/vaiShNava/lunar_month/tithi/05/05/garuDa-paJcamI.toml)<br/>- Tags
- : PuranaEvents
+ onth (Sūryodayaḥ/puurvaviddha). * Day Garuda brought Amrutam for Nagas<
+ br/>* Day Garuda and Takshaka fought and compromise was struck with Taksha
+ ka as garland in Garuda's neck (peace treaty :) <br/><br/>## Details<br/>-
+  [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/dev
+ atA/vaiShNava/lunar_month/tithi/05/05/garuDa-paJcamI.toml)<br/>- Tags: Pur
+ anaEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -26549,7 +26548,7 @@ DTSTART;VALUE=DATE:20210815
 DTEND;VALUE=DATE:20210816
 DESCRIPTION:Observed on day 15 of August (gregorian) month. Julian date wa
  s converted to Gregorian in this reckoning. The event has been commemorate
- d since it occurred in 1730 (gregorian era).  <br/>sadAshivrAv bhAu\, who 
+ d since it occurred in 1730 (Gregorian era).  <br/>sadAshivrAv bhAu\, who 
  died fighting at 30 in pAnipaT\, was born.<br/><br/>## Details<br/>- [Edit
   config file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruS
  ha/xatra-later/gregorian/day/08/15/sadAshiva-rAvo_jAtaH.toml)<br/>- Tags:
@@ -26697,7 +26696,7 @@ DTSTART;VALUE=DATE:20210816
 DTEND;VALUE=DATE:20210817
 DESCRIPTION:Observed on Anūrādhā nakshatra of Karkaṭaḥ (sidereal so
  lar) month (Prātaḥ/paraviddha). The event has been commemorated since i
- t occurred in 5004 (kali era).  <br/>Jayanti Day of Sri Anantarama Dikshit
+ t occurred in 5004 (Kali era).  <br/>Jayanti Day of Sri Anantarama Dikshit
  ar.<br/><br/>## Details<br/>- References<br/>  - Vaidikasri Nov 2009<br/>-
   [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/mah
  ApuruSha/smArta-misc/sidereal_solar_month/nakshatra/04/17/sEGgAlipuram%20a
@@ -27420,11 +27419,11 @@ DESCRIPTION:Ṣaḍaśīti Punyakala.<br/><br/>सङ्क्रान्
  ान्त्यां यानि दत्तानि हव्य
  कव्यानि मानवैः।  <br/>तानि तस्
  य ददात्यर्कः सप्तजन्मसु नि
- श्चितम् इति॥ (स्मृतिमुक्ता
- फले आह्निक-काण्डे-पूर्वभाग
- ः)<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github
- .com/jyotisham/adyatithi/tree/master/time_focus/sankrAnti/description_only
- /SaDazIti-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
+ श्चितम्॥ (स्मृतिमुक्ताफले 
+ आह्निक-काण्डे-पूर्वभागः)<br/><br
+ /><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/time_focus/sankrAnti/description_only/SaDazIti-pu
+ NyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -27860,7 +27859,7 @@ DTSTART;VALUE=DATE:20210824
 DTEND;VALUE=DATE:20210825
 DESCRIPTION:Observed on Kṛṣṇa-Dvitīyā tithi of Śrāvaṇaḥ (lun
  ar) month (Sūryodayaḥ/puurvaviddha). The event has been commemorated si
- nce it occurred in 4773 (kali era).  <br/><br/><br/>पूज्याय 
+ nce it occurred in 4773 (Kali era).  <br/><br/><br/>पूज्याय 
  राघवेन्द्राय सत्यधर्मरताय 
  च।  <br/>भजतां कल्पवृक्षाय नमत
  ां कामधेनवे॥<br/><br/><br/><br/>## Details<br/>- [Ed
@@ -28303,7 +28302,7 @@ DTSTART;VALUE=DATE:20210829
 DTEND;VALUE=DATE:20210830
 DESCRIPTION:Observed on day 29 of August (gregorian) month. Julian date wa
  s converted to Gregorian in this reckoning. The event has been commemorate
- d since it occurred in 1700 (gregorian era).  <br/>bAjI rAv born<br/><br/>
+ d since it occurred in 1700 (Gregorian era).  <br/>bAjI rAv born<br/><br/>
  ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
  /tree/master/mahApuruSha/xatra-later/gregorian/day/08/29/bAjI-rAvo_jAtaH.t
  oml)<br/>- Tags:
@@ -29035,7 +29034,7 @@ SUMMARY:काशी-विश्वेश्वर-मन्दिर-न
 DTSTART;VALUE=DATE:20210904
 DTEND;VALUE=DATE:20210905
 DESCRIPTION:Observed on day 4 of September (gregorian) month. The event ha
- s been commemorated since it occurred in 1669 (gregorian era).  <br/>Auran
+ s been commemorated since it occurred in 1669 (Gregorian era).  <br/>Auran
  gzeb informed that Kashi Vishweshwar was pulled down. Maasiri-‘ Alamgiri
  \, 88. Julian month August.<br/><br/>## Details<br/>- [Edit config file](h
  ttps://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/
@@ -30313,7 +30312,7 @@ SUMMARY:२००८ वर्षे देहल्यां विस्
 DTSTART;VALUE=DATE:20210913
 DTEND;VALUE=DATE:20210914
 DESCRIPTION:Observed on day 13 of September (gregorian) month. The event h
- as been commemorated since it occurred in 2008 (gregorian era).  <br/>Five
+ as been commemorated since it occurred in 2008 (Gregorian era).  <br/>Five
   synchronised bomb blasts that took place within a span of few minutes. Ca
  rried out by Indian Mujahideen.<br/><br/>## Details<br/>- [Edit config fil
  e](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-la
@@ -30723,12 +30722,12 @@ DESCRIPTION:Kanyā-Ravi-Saṅkramaṇa-Ṣaḍaśīti Punyakala. Perform d
  जायते॥  <br/>सङ्क्रान्त्यां या
  नि दत्तानि हव्यकव्यानि मान
  वैः।  <br/>तानि तस्य ददात्यर्क
- ः सप्तजन्मसु निश्चितम् इति
- ॥ (स्मृतिमुक्ताफले आह्निक-क
- ाण्डे-पूर्वभागः)<br/><br/><br/><br/>## Details
- <br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/mast
- er/time_focus/sankrAnti/description_only/kanyA-ravi-saGkramaNa-SaDazIti-pu
- NyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
+ ः सप्तजन्मसु निश्चितम्॥ (स्
+ मृतिमुक्ताफले आह्निक-काण्ड
+ े-पूर्वभागः)<br/><br/><br/><br/>## Details<br/>- [Edit
+  config file](https://github.com/jyotisham/adyatithi/tree/master/time_focu
+ s/sankrAnti/description_only/kanyA-ravi-saGkramaNa-SaDazIti-puNyakAlaH.tom
+ l)<br/>- Tags: SunSankranti CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -30820,7 +30819,7 @@ SUMMARY:भाग्यनगर-विमुक्तिः #७३
 DTSTART;VALUE=DATE:20210917
 DTEND;VALUE=DATE:20210918
 DESCRIPTION:Observed on day 17 of September (gregorian) month. The event h
- as been commemorated since it occurred in 1948 (gregorian era).  <br/>Oper
+ as been commemorated since it occurred in 1948 (Gregorian era).  <br/>Oper
  ation Polo ends. The last Nizam and his armies from hell\, the Razakars su
  rrender to the Indian troops after 3 days of hostilities. Hyderabad is lib
  erated and enters the Indian Union.<br/><br/>## Details<br/>- [Edit config
@@ -31022,12 +31021,12 @@ DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Bhādrapadaḥ (lunar)
  month (Sūryodayaḥ/puurvaviddha). Goddess Bhuvaneshwari is 4th of the Da
  sha Maha Vidyas.<br/><br/>उद्यदिनद्युतिमिन
  ्दुकिरीटाम् तुङ्गकुचां नयन
- त्रययुक्तां   <br/>स्मेरमुखीं 
- वरदाङ्कुशपाशाभीतिकराम् प्
- रभजे भुवनेशीम् <br/><br/><br/><br/>## Details<br
- />- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/
- devatA/shakti/lunar_month/tithi/06/12/bhuvanEzvarI~jayantI.toml)<br/>- Tag
- s: Dashamahavidya
+ त्रययुक्ताम्।  <br/>स्मेरमुखी
+ ं वरदाङ्कुशपाशाभीतिकराम् प
+ ्रभजे भुवनेशीम्॥<br/><br/><br/><br/>## Detai
+ ls<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/ma
+ ster/devatA/shakti/lunar_month/tithi/06/12/bhuvanEzvarI~jayantI.toml)<br/>
+ - Tags: Dashamahavidya
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -31553,7 +31552,7 @@ DTSTART;VALUE=DATE:20210921
 DTEND;VALUE=DATE:20210922
 DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of Kanyā (sidereal so
  lar) month (Prātaḥ/paraviddha). The event has been commemorated since i
- t occurred in 4620 (kali era).  <br/><br/><br/>## Details<br/>- [Edit conf
+ t occurred in 4620 (Kali era).  <br/><br/><br/>## Details<br/>- [Edit conf
  ig file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/sm
  Arta-misc/sidereal_solar_month/tithi/06/16/appayya-dIkSita-jayantI.toml)<b
  r/>- Tags: MahapurushaEvents CommonFestivals
@@ -31709,11 +31708,11 @@ DESCRIPTION:Tulā-Viṣu Punyakala.<br/><br/>सङ्क्रान्
  ान्त्यां यानि दत्तानि हव्य
  कव्यानि मानवैः।  <br/>तानि तस्
  य ददात्यर्कः सप्तजन्मसु नि
- श्चितम् इति॥ (स्मृतिमुक्ता
- फले आह्निक-काण्डे-पूर्वभाग
- ः)<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github
- .com/jyotisham/adyatithi/tree/master/time_focus/sankrAnti/description_only
- /tulA-viSu-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
+ श्चितम्॥ (स्मृतिमुक्ताफले 
+ आह्निक-काण्डे-पूर्वभागः)<br/><br
+ /><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/time_focus/sankrAnti/description_only/tulA-viSu-p
+ uNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -32972,7 +32971,7 @@ DTSTART;VALUE=DATE:20211004
 DTEND;VALUE=DATE:20211005
 DESCRIPTION:Observed on day 4 of October (gregorian) month. Julian date wa
  s converted to Gregorian in this reckoning. The event has been commemorate
- d since it occurred in 1674 (gregorian era).  <br/>On lalitapanchamI (ashv
+ d since it occurred in 1674 (Gregorian era).  <br/>On lalitapanchamI (ashv
  in shuddha 5)\, nishchapapurI\, as requested by shivAjI\, conducted a tAnt
  rik coronation. This was preceeded by ill omens such as a lightening strik
  e\, deaths of jIjAbai\, kAshIbAi and pratAprAv.<br/><br/>## Details<br/>- 
@@ -33703,7 +33702,7 @@ SUMMARY:नओखल्यां हिन्दुक-निघातस
 DTSTART;VALUE=DATE:20211010
 DTEND;VALUE=DATE:20211011
 DESCRIPTION:Observed on day 10 of October (gregorian) month. The event has
-  been commemorated since it occurred in 1946 (gregorian era).  <br/>Naokha
+  been commemorated since it occurred in 1946 (Gregorian era).  <br/>Naokha
  li massacre of hindus by muslims started<br/><br/>## Details<br/>- [Edit c
  onfig file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha
  /xatra-later/gregorian/day/10/10/naokhalyAM_hinduka-nighAtasyArambhaH.toml
@@ -34043,9 +34042,9 @@ DTSTART;VALUE=DATE:20211013
 DTEND;VALUE=DATE:20211014
 DESCRIPTION:Observed on day 13 of October (gregorian) month. Julian date w
  as converted to Gregorian in this reckoning. The event has been commemorat
- ed since it occurred in 1677 (gregorian era).  <br/>He had arrived near Fo
+ ed since it occurred in 1677 (Gregorian era).  <br/>He had arrived near Fo
  rt St George in May on his karNATaka campaign. shivAjI worships kAlikAmbA 
- in modern chennai on this day.<br/>https://twitter.com/iParamanand/status/
+ in modern Chennai on this day.<br/>https://twitter.com/iParamanand/status/
  915268209510563840<br/><br/>## Details<br/>- [Edit config file](https://gi
  thub.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian
  /day/10/13/cennai-nagare_shivarAjaH_kAlikAm_apUjayat.toml)<br/>- Tags:
@@ -34115,7 +34114,7 @@ DTSTART;VALUE=DATE:20211013
 DTEND;VALUE=DATE:20211014
 DESCRIPTION:Observed on day 13 of October (gregorian) month. Julian date w
  as converted to Gregorian in this reckoning. The event has been commemorat
- ed since it occurred in 1670 (gregorian era).  <br/><br/><br/>## Details<b
+ ed since it occurred in 1670 (Gregorian era).  <br/><br/><br/>## Details<b
  r/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master
  /mahApuruSha/xatra-later/gregorian/day/10/13/shivarAjo_sUrata-nagaraM_luNT
  hati.toml)<br/>- Tags:
@@ -34481,7 +34480,7 @@ DTSTART;VALUE=DATE:20211015
 DTEND;VALUE=DATE:20211016
 DESCRIPTION:Observed on Śukla-Daśamī tithi of Āśvayujaḥ (lunar) mon
  th (Sūryodayaḥ/puurvaviddha). The event has been commemorated since it 
- occurred in 4339 (kali era).  <br/>Jayanti of Madhvacharya\, a proponent o
+ occurred in 4339 (Kali era).  <br/>Jayanti of Madhvacharya\, a proponent o
  f Dvaita Vedanta<br/><br/>## Details<br/>- [Edit config file](https://gith
  ub.com/jyotisham/adyatithi/tree/master/mahApuruSha/mAdhva-misc/lunar_month
  /tithi/07/10/madhvAcArya~jayantI.toml)<br/>- Tags: MahapurushaEvents
@@ -34499,7 +34498,7 @@ SUMMARY:थ्रोचि-दुर्गे गोरक्ष-सैन
 DTSTART;VALUE=DATE:20211015
 DTEND;VALUE=DATE:20211016
 DESCRIPTION:Observed on day 15 of October (gregorian) month. The event has
-  been commemorated since it occurred in 1947 (gregorian era).  <br/>the Mu
+  been commemorated since it occurred in 1947 (Gregorian era).  <br/>the Mu
  slim Major Nasrullah Khan who murdered all Hindu Gorkha soldiers of his ow
  n battalion went to the garrison of Raghubir Thapa. After killing all the 
  Gorkhas\, Major Nasrullah khan gave the Pakistani invaders a rousing welco
@@ -34828,12 +34827,12 @@ DESCRIPTION:Tulā-Saṅkramaṇa Punyakala. Perform danam of rice/wheat/gr
  े॥  <br/>सङ्क्रान्त्यां यानि द
  त्तानि हव्यकव्यानि मानवैः।
    <br/>तानि तस्य ददात्यर्कः सप्
- तजन्मसु निश्चितम् इति॥ (स्म
- ृतिमुक्ताफले आह्निक-काण्डे
- -पूर्वभागः)<br/><br/><br/><br/>## Details<br/>- [Edit co
- nfig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/s
- ankrAnti/description_only/tulA-saGkramaNa-puNyakAlaH.toml)<br/>- Tags: Sun
- Sankranti CommonFestivals
+ तजन्मसु निश्चितम्॥ (स्मृति
+ मुक्ताफले आह्निक-काण्डे-पू
+ र्वभागः)<br/><br/><br/><br/>## Details<br/>- [Edit config fi
+ le](https://github.com/jyotisham/adyatithi/tree/master/time_focus/sankrAnt
+ i/description_only/tulA-saGkramaNa-puNyakAlaH.toml)<br/>- Tags: SunSankran
+ ti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -35153,7 +35152,7 @@ DTSTART;VALUE=DATE:20211020
 DTEND;VALUE=DATE:20211021
 DESCRIPTION:Observed on Paurṇamāsī tithi of Āśvayujaḥ (lunar) mont
  h (Sūryodayaḥ/puurvaviddha). The event has been commemorated since it o
- ccurred in 4599 (kali era).  <br/><br/><br/>## Details<br/>- [Edit config 
+ ccurred in 4599 (Kali era).  <br/><br/><br/>## Details<br/>- [Edit config 
  file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/sangI
  ta-kRt/lunar_month/tithi/07/15/mIrAbAI~jayantI.toml)<br/>- Tags: Mahapurus
  haEvents CommonFestivals
@@ -35524,11 +35523,11 @@ DESCRIPTION:Viṣṇupadī Punyakala.<br/><br/>सङ्क्रान्
  ान्त्यां यानि दत्तानि हव्य
  कव्यानि मानवैः।  <br/>तानि तस्
  य ददात्यर्कः सप्तजन्मसु नि
- श्चितम् इति॥ (स्मृतिमुक्ता
- फले आह्निक-काण्डे-पूर्वभाग
- ः)<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github
- .com/jyotisham/adyatithi/tree/master/time_focus/sankrAnti/description_only
- /viSNupadI-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
+ श्चितम्॥ (स्मृतिमुक्ताफले 
+ आह्निक-काण्डे-पूर्वभागः)<br/><br
+ /><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/time_focus/sankrAnti/description_only/viSNupadI-p
+ uNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -35694,7 +35693,7 @@ DTSTART;VALUE=DATE:20211023
 DTEND;VALUE=DATE:20211024
 DESCRIPTION:Observed on day 23 of October (gregorian) month. Julian date w
  as converted to Gregorian in this reckoning. The event has been commemorat
- ed since it occurred in 1673 (gregorian era).  <br/>shivAjI set out on vij
+ ed since it occurred in 1673 (Gregorian era).  <br/>shivAjI set out on vij
  aya-dashamI on his coastal campaign\, arrived in satArA\, thence plundered
   bankApur.<br/><br/>## Details<br/>- [Edit config file](https://github.com
  /jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/10/
@@ -35978,7 +35977,7 @@ DTSTART;VALUE=DATE:20211026
 DTEND;VALUE=DATE:20211027
 DESCRIPTION:Observed on Kṛṣṇa-Ṣaṣṭhī tithi of Tulā (sidereal
   solar) month (Aparāhṇaḥ/vyaapti). The event has been commemorated si
- nce it occurred in 5071 (kali era).  <br/>Aradhana Day of Sri Anantarama D
+ nce it occurred in 5071 (Kali era).  <br/>Aradhana Day of Sri Anantarama D
  ikshitar.<br/><br/>## Details<br/>- References<br/>  - Vaidikasri Nov 2017
  <br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/mast
  er/mahApuruSha/smArta-misc/sidereal_solar_month/tithi/07/21/sEGgAlipuram%2
@@ -36052,7 +36051,7 @@ DTSTART;VALUE=DATE:20211027
 DTEND;VALUE=DATE:20211028
 DESCRIPTION:Observed on day 27 of October (gregorian) month. Julian date w
  as converted to Gregorian in this reckoning. The event has been commemorat
- ed since it occurred in 1670 (gregorian era).  <br/>On this day was fought
+ ed since it occurred in 1670 (Gregorian era).  <br/>On this day was fought
   the fierce battle of Vani-Dindori where Shivaji led the Marathas to a gre
  at victory against the Mughals. shivAjI was returning from the sack of sUr
  at and daud khAn was sent to cut him off. Date here is as per Jedhe shAkhA
@@ -36337,7 +36336,7 @@ SUMMARY:बाबर-राक्षसालयस्य पुरतो
 DTSTART;VALUE=DATE:20211030
 DTEND;VALUE=DATE:20211031
 DESCRIPTION:Observed on day 30 of October (gregorian) month. The event has
-  been commemorated since it occurred in 1991 (gregorian era).  <br/>mulAya
+  been commemorated since it occurred in 1991 (Gregorian era).  <br/>mulAya
  m singh yAdav's police murdered >hunderd of kara-sevaka-s in ayodhyA after
   an unanticipated number surrounded bAbrI masjid despite government effort
  s.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -36427,7 +36426,7 @@ SUMMARY:सर्दार-पटेल-जन्मोत्सवः #
 DTSTART;VALUE=DATE:20211031
 DTEND;VALUE=DATE:20211101
 DESCRIPTION:Observed on day 31 of October (gregorian) month. The event has
-  been commemorated since it occurred in 1875 (gregorian era).  <br/>rAShTr
+  been commemorated since it occurred in 1875 (Gregorian era).  <br/>rAShTr
  Iya-ekatA-divasa. Great unifier\, iron man sardAr paTel was born.<br/><br/
  >## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatith
  i/tree/master/mahApuruSha/xatra-later/gregorian/day/10/31/sardAra-paTela-j
@@ -36926,7 +36925,7 @@ DTSTART;VALUE=DATE:20211103
 DTEND;VALUE=DATE:20211104
 DESCRIPTION:Observed on day 3 of November (gregorian) month. Julian date w
  as converted to Gregorian in this reckoning. The event has been commemorat
- ed since it occurred in 1657 (gregorian era).  <br/>dAdAjI bApUjI captures
+ ed since it occurred in 1657 (Gregorian era).  <br/>dAdAjI bApUjI captures
   kalyAN and bhivaNDi for svarAjya.<br/><br/>## Details<br/>- [Edit config 
  file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra
  -later/gregorian/day/11/03/shivarAjaH_kalyANaM_jayati.toml)<br/>- Tags:
@@ -37273,7 +37272,7 @@ SUMMARY:खड्कि-युद्धम् #२०४
 DTSTART;VALUE=DATE:20211105
 DTEND;VALUE=DATE:20211106
 DESCRIPTION:Observed on day 5 of November (gregorian) month. The event has
-  been commemorated since it occurred in 1817 (gregorian era).  <br/>battle
+  been commemorated since it occurred in 1817 (Gregorian era).  <br/>battle
   of Khadki (aka battle of Ganeshkhind) at Pune. Casualties:<br/>English si
  de: 86<br/>Marathas: 500<br/><br/>## Details<br/>- [Edit config file](http
  s://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gre
@@ -38467,11 +38466,11 @@ DESCRIPTION:Vṛśchika-Ravi-Saṅkramaṇa-Viṣṇupadī Punyakala. Do d
  ां यानि दत्तानि हव्यकव्यान
  ि मानवैः।  <br/>तानि तस्य ददात्
  यर्कः सप्तजन्मसु निश्चितम्
-  इति॥ (स्मृतिमुक्ताफले आह्न
- िक-काण्डे-पूर्वभागः)<br/><br/><br/><br/>
- ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
- /tree/master/time_focus/sankrAnti/description_only/vRzcika-ravi-saGkramaNa
- -viSNupadI-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
+ ॥ (स्मृतिमुक्ताफले आह्निक-क
+ ाण्डे-पूर्वभागः)<br/><br/><br/><br/>## Details
+ <br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/mast
+ er/time_focus/sankrAnti/description_only/vRzcika-ravi-saGkramaNa-viSNupadI
+ -puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -38880,7 +38879,7 @@ SUMMARY:माधव-राव-क्षयः #२४९
 DTSTART;VALUE=DATE:20211118
 DTEND;VALUE=DATE:20211119
 DESCRIPTION:Observed on day 18 of November (gregorian) month. The event ha
- s been commemorated since it occurred in 1772 (gregorian era).  <br/>The y
+ s been commemorated since it occurred in 1772 (Gregorian era).  <br/>The y
  oung but bold and astute visionary\, peshvA mAdhava rAv\, died of tubercul
  osis at his favourite Ganesha Chintamani Temple\, Theur. Aged 28.  "And th
  e plains of Panipat were not more fatal to the Maratha Empire than the ear
@@ -39430,7 +39429,7 @@ DTSTART;VALUE=DATE:20211120
 DTEND;VALUE=DATE:20211121
 DESCRIPTION:Observed on day 20 of November (gregorian) month. Julian date 
  was converted to Gregorian in this reckoning. The event has been commemora
- ted since it occurred in 1659 (gregorian era).  <br/>Afzal Khan is killed 
+ ted since it occurred in 1659 (Gregorian era).  <br/>Afzal Khan is killed 
  in an epic encounter. Shivaji ordered Netoji Palkar to destroy Afzal's bas
  e at Wai the very same day & himself followed soon. https://twitter.com/Go
  panarya/status/928748402245976064<br/><br/>## Details<br/>- [Edit config f
@@ -39665,11 +39664,11 @@ DESCRIPTION:Ṣaḍaśīti Punyakala.<br/><br/>सङ्क्रान्
  ान्त्यां यानि दत्तानि हव्य
  कव्यानि मानवैः।  <br/>तानि तस्
  य ददात्यर्कः सप्तजन्मसु नि
- श्चितम् इति॥ (स्मृतिमुक्ता
- फले आह्निक-काण्डे-पूर्वभाग
- ः)<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github
- .com/jyotisham/adyatithi/tree/master/time_focus/sankrAnti/description_only
- /SaDazIti-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
+ श्चितम्॥ (स्मृतिमुक्ताफले 
+ आह्निक-काण्डे-पूर्वभागः)<br/><br
+ /><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/time_focus/sankrAnti/description_only/SaDazIti-pu
+ NyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -39733,7 +39732,7 @@ DTSTART;VALUE=DATE:20211122
 DTEND;VALUE=DATE:20211123
 DESCRIPTION:Observed on day 22 of November (gregorian) month. Julian date 
  was converted to Gregorian in this reckoning. The event has been commemora
- ted since it occurred in 1662 (gregorian era).  <br/>raghunAtharAv joined 
+ ted since it occurred in 1662 (Gregorian era).  <br/>raghunAtharAv joined 
  the Nizam of Hyderabad. mAdhavarAv at Alegaon saw the disaster that would 
  unfold due to intra-marATha war of that scale shortly after pAnIpat. In an
   extremly humble and farsighted gesture\, he rode into rAghoba's camp and 
@@ -40844,7 +40843,7 @@ DTSTART;VALUE=DATE:20211203
 DTEND;VALUE=DATE:20211204
 DESCRIPTION:Observed on day 3 of December (gregorian) month. Julian date w
  as converted to Gregorian in this reckoning. The event has been commemorat
- ed since it occurred in 1659 (gregorian era).  <br/>Day 13 (after Afzal's 
+ ed since it occurred in 1659 (Gregorian era).  <br/>Day 13 (after Afzal's 
  death): Supe\, Tambe\, Pali\, Nerle\, Kameri\, Visapur\, Save Uran\, Koley
   are all taken.<br/><br/>## Details<br/>- [Edit config file](https://githu
  b.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/da
@@ -41129,7 +41128,7 @@ SUMMARY:१९७१ तमे वर्षे पाकिस्तान
 DTSTART;VALUE=DATE:20211205
 DTEND;VALUE=DATE:20211206
 DESCRIPTION:Observed on day 5 of December (gregorian) month. The event has
-  been commemorated since it occurred in 1971 (gregorian era).  <br/>On the
+  been commemorated since it occurred in 1971 (Gregorian era).  <br/>On the
   evening of 3 December\, at about 17:40\, the Islamic repulic of Pakistan 
  Air Force (PAF) (<50 planes) launched surprise strikes on 11 airfields in 
  north-western India\, including Agra\, which was 480 kilometres (300 mi) f
@@ -41340,7 +41339,7 @@ SUMMARY:बाबर-राक्षसालय-नाशः #२९
 DTSTART;VALUE=DATE:20211206
 DTEND;VALUE=DATE:20211207
 DESCRIPTION:Observed on day 6 of December (gregorian) month. The event has
-  been commemorated since it occurred in 1992 (gregorian era).  <br/><br/><
+  been commemorated since it occurred in 1992 (Gregorian era).  <br/><br/><
  br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyat
  ithi/tree/master/mahApuruSha/xatra-later/gregorian/day/12/06/bAbri-mosque-
  demolition.toml)<br/>- Tags:
@@ -41516,7 +41515,7 @@ DTSTART;VALUE=DATE:20211208
 DTEND;VALUE=DATE:20211209
 DESCRIPTION:Observed on day 8 of December (gregorian) month. Julian date w
  as converted to Gregorian in this reckoning. The event has been commemorat
- ed since it occurred in 1659 (gregorian era).  <br/>Panhala fell on the 2n
+ ed since it occurred in 1659 (Gregorian era).  <br/>Panhala fell on the 2n
  d night of the siege! Just 18 days after the slaying of Afzal Khan!<br/><b
  r/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyati
  thi/tree/master/mahApuruSha/xatra-later/gregorian/day/12/08/shivAjI_takes_
@@ -42031,7 +42030,7 @@ DTSTART;VALUE=DATE:20211213
 DTEND;VALUE=DATE:20211214
 DESCRIPTION:Observed on day 28 of Vṛścikaḥ (sidereal solar) month (S
  ūryodayaḥ/puurvaviddha). The event has been commemorated since it occur
- red in 4687 (kali era).  <br/>Celebration of completion of Narayaniyam (Ko
+ red in 4687 (Kali era).  <br/>Celebration of completion of Narayaniyam (Ko
  llam 762/1586 CE)\, in Guruvayur temple.<br/><br/>## Details<br/>- [Edit c
  onfig file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha
  /vaiShNava-misc/sidereal_solar_month/day/08/28/nArAyaNIyaM~jayantI.toml)<b
@@ -42050,7 +42049,7 @@ SUMMARY:२००१ वर्षे सांसदभवने मरु
 DTSTART;VALUE=DATE:20211213
 DTEND;VALUE=DATE:20211214
 DESCRIPTION:Observed on day 13 of December (gregorian) month. The event ha
- s been commemorated since it occurred in 2001 (gregorian era).  <br/>Islam
+ s been commemorated since it occurred in 2001 (Gregorian era).  <br/>Islam
  ic terrorists belonging to Lashkar-e-Taiba (LeT "Army of the Pure") and Ja
  ish-e-Mohammed (JeM\, "Army of Muhammad") attack Indian parliament. Deaths
  : 9 Indians (Constable Kamlesh Kumari of CRPF who raised the alarm)\, and 
@@ -42296,11 +42295,11 @@ DESCRIPTION:Dhanur-Ravi-Saṅkramaṇa-Ṣaḍaśīti Punyakala. Perform d
  ां यानि दत्तानि हव्यकव्यान
  ि मानवैः।  <br/>तानि तस्य ददात्
  यर्कः सप्तजन्मसु निश्चितम्
-  इति॥ (स्मृतिमुक्ताफले आह्न
- िक-काण्डे-पूर्वभागः)  <br/><br/><br/><br
- /><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/ad
- yatithi/tree/master/time_focus/sankrAnti/description_only/dhanUravi-saGkra
- maNa-SaDazIti-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
+ ॥ (स्मृतिमुक्ताफले आह्निक-क
+ ाण्डे-पूर्वभागः)  <br/><br/><br/><br/><br/>## 
+ Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tr
+ ee/master/time_focus/sankrAnti/description_only/dhanUravi-saGkramaNa-SaDaz
+ Iti-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -42423,7 +42422,7 @@ SUMMARY:पाकिस्तान-पूर्व-पक्ष-कर्
 DTSTART;VALUE=DATE:20211216
 DTEND;VALUE=DATE:20211217
 DESCRIPTION:Observed on day 16 of December (gregorian) month. The event ha
- s been commemorated since it occurred in 1971 (gregorian era).  <br/>Genoc
+ s been commemorated since it occurred in 1971 (Gregorian era).  <br/>Genoc
  idal Pakistan Islamic Republic army (93\,000 - mostly eastern command sold
  iers) surrendered to Indian forces at DhAka.<br/><br/><br/>## Details<br/>
  - [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/ma
@@ -42729,7 +42728,7 @@ SUMMARY:गोवा-मोक्षः #६०
 DTSTART;VALUE=DATE:20211219
 DTEND;VALUE=DATE:20211220
 DESCRIPTION:Observed on day 19 of December (gregorian) month. The event ha
- s been commemorated since it occurred in 1961 (gregorian era).  <br/>Goa\,
+ s been commemorated since it occurred in 1961 (Gregorian era).  <br/>Goa\,
   much traumatized by missionaries (including the evil Jesuit Francis Xavie
  r)\, inquisition and racist misrule\, finally freed from Portuguese.<br/><
  br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/
@@ -42968,7 +42967,7 @@ SUMMARY:गोविन्द-पन्त-हत्या #२६१
 DTSTART;VALUE=DATE:20211220
 DTEND;VALUE=DATE:20211221
 DESCRIPTION:Observed on day 20 of December (gregorian) month. The event ha
- s been commemorated since it occurred in 1760 (gregorian era).  <br/>On th
+ s been commemorated since it occurred in 1760 (Gregorian era).  <br/>On th
  is day\, in the lead up to Panipat\, the Marathas suffer a major setback a
  s their veteran revenue collector Govind Pant\, who was in charge of an ex
  tremely critical & strategic role\, is killed in an overwhelming attack le
@@ -43043,7 +43042,7 @@ DTSTART;VALUE=DATE:20211221
 DTEND;VALUE=DATE:20211222
 DESCRIPTION:Observed on Punarvasuḥ nakshatra of Dhanuḥ (sidereal solar
  ) month (Prātaḥ/paraviddha). The event has been commemorated since it o
- ccurred in 4980 (kali era).  <br/><br/><br/>## Details<br/>- [Edit config 
+ ccurred in 4980 (Kali era).  <br/><br/><br/>## Details<br/>- [Edit config 
  file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/smArt
  a-misc/sidereal_solar_month/nakshatra/09/07/ramaNa~maharSi~jayantI.toml)<b
  r/>- Tags: MahapurushaEvents CommonFestivals
@@ -43078,11 +43077,11 @@ DESCRIPTION:Uttarāyaṇa Punyakala.<br/><br/>सङ्क्रान्
  ान्त्यां यानि दत्तानि हव्य
  कव्यानि मानवैः।  <br/>तानि तस्
  य ददात्यर्कः सप्तजन्मसु नि
- श्चितम् इति॥ (स्मृतिमुक्ता
- फले आह्निक-काण्डे-पूर्वभाग
- ः)<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github
- .com/jyotisham/adyatithi/tree/master/time_focus/sankrAnti/description_only
- /uttarAyaNa-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
+ श्चितम्॥ (स्मृतिमुक्ताफले 
+ आह्निक-काण्डे-पूर्वभागः)<br/><br
+ /><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/time_focus/sankrAnti/description_only/uttarAyaNa-
+ puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -43292,7 +43291,7 @@ DTSTART;VALUE=DATE:20211223
 DTEND;VALUE=DATE:20211224
 DESCRIPTION:Observed on day 23 of December (gregorian) month. Julian date 
  was converted to Gregorian in this reckoning. The event has been commemora
- ted since it occurred in 1678 (gregorian era).  <br/>sAmbhAji fled from pa
+ ted since it occurred in 1678 (Gregorian era).  <br/>sAmbhAji fled from pa
  rali and joined mogol general dilIr khan. He was greeted with a command po
  sition. sambhAjI would escape the next year\, disgusted by dilIr khAn's cr
  uelty and conciliated by shivAjI.<br/><br/>## Details<br/>- [Edit config f
@@ -43311,7 +43310,7 @@ SUMMARY:श्रद्धानन्द-हत्या #९५
 DTSTART;VALUE=DATE:20211223
 DTEND;VALUE=DATE:20211224
 DESCRIPTION:Observed on day 23 of December (gregorian) month. The event ha
- s been commemorated since it occurred in 1926 (gregorian era).  <br/>Swami
+ s been commemorated since it occurred in 1926 (Gregorian era).  <br/>Swami
   shraddhananda\, who brought back lakhs of muslims to the deva-dharma\, wa
  s shot to death by Abdul Rashid.<br/><br/>## Details<br/>- [Edit config fi
  le](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-l
@@ -43698,7 +43697,7 @@ DTSTART;VALUE=DATE:20211228
 DTEND;VALUE=DATE:20211229
 DESCRIPTION:Observed on day 28 of December (gregorian) month. Julian date 
  was converted to Gregorian in this reckoning. The event has been commemora
- ted since it occurred in 1740 (gregorian era).  <br/>Chimaji Appa passed a
+ ted since it occurred in 1740 (Gregorian era).  <br/>Chimaji Appa passed a
  way at Pune on 17 Dec 1740\, leaving a young Nanasaheb Peshwa to face the 
  challenges of the extraordinary epoch that was to follow. Chimaji's decisi
  ve victories in Malwa\, Vasai and against the Siddi deserve to be remember
@@ -43737,7 +43736,7 @@ DTSTART;VALUE=DATE:20211228
 DTEND;VALUE=DATE:20211229
 DESCRIPTION:Observed on Kṛṣṇa-Navamī tithi of Mārgaśīrṣaḥ (l
  unar) month (Aparāhṇaḥ/vyaapti). The event has been commemorated sinc
- e it occurred in 5030 (kali era).  <br/><br/><br/>करुणासाग
+ e it occurred in 5030 (Kali era).  <br/><br/><br/>करुणासाग
  रं शान्तम् अरुणाचलवासिनम्।
    <br/>श्रीशेषाद्रिगुरुं वन्दे
   ब्रह्मीभूतं तपोनिधिम्॥<br/><br/
