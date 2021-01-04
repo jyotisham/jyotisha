@@ -2862,9 +2862,14 @@ BEGIN:VEVENT
 SUMMARY:śani-pradoṣa-vratam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190202T180625
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190202T185641
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/time_focus/monthly/pradoSha/description_only/zani
- -pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
+ n Pradosha Kala.  Pradosha vratam is even more special\, when if falls on 
+ a Monday/Saturday.<br/><br/>pradoṣe  śivapūjāṃ  tu  ye  kuryācchra
+ ddhayā  yutāḥ|  <br/>na  bhavet  tasya  dāridryaṃ  janmāntaraśate
+ ṣvapi||  <br/><br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
+ tps://github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoS
+ ha/description_only/zani-pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pr
+ adoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -7122,9 +7127,14 @@ BEGIN:VEVENT
 SUMMARY:soma-pradoṣa-vratam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190318T181613
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190318T190419
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/time_focus/monthly/pradoSha/description_only/sOma
- -pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
+ n Pradosha Kala. Pradosha vratam is even more special\, when if falls on a
+  Monday/Saturday.<br/><br/>pradoṣe  śivapūjāṃ  tu  ye  kuryācchrad
+ dhayā  yutāḥ|  <br/>na  bhavet  tasya  dāridryaṃ  janmāntaraśate
+ ṣvapi||  <br/><br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
+ tps://github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoS
+ ha/description_only/sOma-pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pr
+ adoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -20104,9 +20114,14 @@ BEGIN:VEVENT
 SUMMARY:soma-pradoṣa-vratam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190729T183330
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190729T191909
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/time_focus/monthly/pradoSha/description_only/sOma
- -pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
+ n Pradosha Kala. Pradosha vratam is even more special\, when if falls on a
+  Monday/Saturday.<br/><br/>pradoṣe  śivapūjāṃ  tu  ye  kuryācchrad
+ dhayā  yutāḥ|  <br/>na  bhavet  tasya  dāridryaṃ  janmāntaraśate
+ ṣvapi||  <br/><br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
+ tps://github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoS
+ ha/description_only/sOma-pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pr
+ adoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -21643,9 +21658,14 @@ BEGIN:VEVENT
 SUMMARY:soma-pradoṣa-vratam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190812T182819
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190812T191423
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/time_focus/monthly/pradoSha/description_only/sOma
- -pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
+ n Pradosha Kala. Pradosha vratam is even more special\, when if falls on a
+  Monday/Saturday.<br/><br/>pradoṣe  śivapūjāṃ  tu  ye  kuryācchrad
+ dhayā  yutāḥ|  <br/>na  bhavet  tasya  dāridryaṃ  janmāntaraśate
+ ṣvapi||  <br/><br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
+ tps://github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoS
+ ha/description_only/sOma-pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pr
+ adoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -26884,6 +26904,21 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:gajacchāyā-yogaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190928T220025
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190928T235621
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/time_focus/special-tithis/description_only/gajacc
+ hAyA-yOgaH.toml)<br/>- Tags: RareDays Combinations<br/><br/><br/><br/>## D
+ etails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tre
+ e/master/time_focus/special-tithis/description_only/gajacchAyA-yOgaH.toml)
+ <br/>- Tags: RareDays Combinations
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:mahālaya-pakṣaḥ
 DTSTART;VALUE=DATE:20190913
 DTEND;VALUE=DATE:20190929
@@ -31607,9 +31642,14 @@ BEGIN:VEVENT
 SUMMARY:śani-pradoṣa-vratam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191109T173628
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191109T182644
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/time_focus/monthly/pradoSha/description_only/zani
- -pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
+ n Pradosha Kala.  Pradosha vratam is even more special\, when if falls on 
+ a Monday/Saturday.<br/><br/>pradoṣe  śivapūjāṃ  tu  ye  kuryācchra
+ ddhayā  yutāḥ|  <br/>na  bhavet  tasya  dāridryaṃ  janmāntaraśate
+ ṣvapi||  <br/><br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
+ tps://github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoS
+ ha/description_only/zani-pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pr
+ adoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -32619,11 +32659,10 @@ SUMMARY:Muḍavan Muḽukku
 DTSTART;VALUE=DATE:20191117
 DTEND;VALUE=DATE:20191118
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/tamil/sidereal_solar_month/day/08/01/muDavan2%20m
- uzhukku.toml)<br/>- Tags: CommonFestivals<br/><br/><br/><br/>## Details<br
- />- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/
- tamil/sidereal_solar_month/day/08/01/muDavan2%20muzhukku.toml)<br/>- Tags:
-  CommonFestivals
+ am/adyatithi/tree/master/tamil/description_only/muDavan2%20muzhukku.toml)<
+ br/>- Tags: CommonFestivals<br/><br/><br/><br/>## Details<br/>- [Edit conf
+ ig file](https://github.com/jyotisham/adyatithi/tree/master/tamil/descript
+ ion_only/muDavan2%20muzhukku.toml)<br/>- Tags: CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -34667,9 +34706,14 @@ BEGIN:VEVENT
 SUMMARY:soma-pradoṣa-vratam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191209T173838
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191209T182936
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/time_focus/monthly/pradoSha/description_only/sOma
- -pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
+ n Pradosha Kala. Pradosha vratam is even more special\, when if falls on a
+  Monday/Saturday.<br/><br/>pradoṣe  śivapūjāṃ  tu  ye  kuryācchrad
+ dhayā  yutāḥ|  <br/>na  bhavet  tasya  dāridryaṃ  janmāntaraśate
+ ṣvapi||  <br/><br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
+ tps://github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoS
+ ha/description_only/sOma-pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pr
+ adoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -35935,9 +35979,14 @@ BEGIN:VEVENT
 SUMMARY:soma-pradoṣa-vratam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191223T174441
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191223T183548
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/time_focus/monthly/pradoSha/description_only/sOma
- -pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
+ n Pradosha Kala. Pradosha vratam is even more special\, when if falls on a
+  Monday/Saturday.<br/><br/>pradoṣe  śivapūjāṃ  tu  ye  kuryācchrad
+ dhayā  yutāḥ|  <br/>na  bhavet  tasya  dāridryaṃ  janmāntaraśate
+ ṣvapi||  <br/><br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
+ tps://github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoS
+ ha/description_only/sOma-pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pr
+ adoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H

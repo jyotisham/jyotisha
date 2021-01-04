@@ -75,7 +75,7 @@ class RuleLookupAssigner(FestivalAssigner):
       if month_type in [RulesRepo.GREGORIAN_MONTH_DIR, RulesRepo.JULIAN_MONTH_DIR]:
         interval = day_panchaanga.get_interval(interval_id="julian_day")
       else:
-        # TODO : Set intervals for preceeding_arunodaya differently? 
+        # TODO : Set intervals for preceding_arunodaya differently? 
         interval = day_panchaanga.get_interval(interval_id="full_day")
       self.panchaanga.add_festival_instance(date=day_panchaanga.date, festival_instance=FestivalInstance(name=fest_id, interval=interval))
 
