@@ -1,12 +1,12 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210103203823
+SEQUENCE:20210104133142
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
 BEGIN:VEVENT
 SUMMARY:मार्गशीर्षः-09-17\,कर्कटः-पु
  ष्यः🌛🌌◢◣धनुः-पूर्वाषाढा-09-1
- 7🌌🌞◢◣सहस्यः-10-12🪐🌞
+ 7🌌🌞◢◣सहस्यः-10-12🪐🌞शुक्रः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210101T064544
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210102T064607
 DESCRIPTION:- Indian civil date: 1942-10-11\, Islamic: 1442-05-17 Jumādā
@@ -60,7 +60,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:मार्गशीर्षः-09-18\,कर्कटः-आश
  ्रेषा🌛🌌◢◣धनुः-पूर्वाषाढा-0
- 9-18🌌🌞◢◣सहस्यः-10-13🪐🌞
+ 9-18🌌🌞◢◣सहस्यः-10-13🪐🌞शनिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210102T064607
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210103T064628
 DESCRIPTION:- Indian civil date: 1942-10-12\, Islamic: 1442-05-18 Jumādā
@@ -154,7 +154,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:मार्गशीर्षः-09-19\,सिंहः-मघा
  🌛🌌◢◣धनुः-पूर्वाषाढा-09-19🌌🌞◢
- ◣सहस्यः-10-14🪐🌞
+ ◣सहस्यः-10-14🪐🌞भानुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210103T064628
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210104T064649
 DESCRIPTION:- Indian civil date: 1942-10-13\, Islamic: 1442-05-19 Jumādā
@@ -208,7 +208,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:मार्गशीर्षः-09-20\,सिंहः-पूर
  ्वफल्गुनी🌛🌌◢◣धनुः-पूर्वा
- षाढा-09-20🌌🌞◢◣सहस्यः-10-15🪐🌞
+ षाढा-09-20🌌🌞◢◣सहस्यः-10-15🪐🌞सोम
+ ः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210104T064649
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210105T064709
 DESCRIPTION:- Indian civil date: 1942-10-14\, Islamic: 1442-05-20 Jumādā
@@ -281,7 +282,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:मार्गशीर्षः-09-22\,कन्या-उत्
  तरफल्गुनी🌛🌌◢◣धनुः-पूर्वा
- षाढा-09-21🌌🌞◢◣सहस्यः-10-16🪐🌞
+ षाढा-09-21🌌🌞◢◣सहस्यः-10-16🪐🌞मङ्
+ गलः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210105T064709
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210106T064728
 DESCRIPTION:- Indian civil date: 1942-10-15\, Islamic: 1442-05-21 Jumādā
@@ -370,7 +372,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:मार्गशीर्षः-09-23\,कन्या-हस्
  तः🌛🌌◢◣धनुः-पूर्वाषाढा-09-22🌌
- 🌞◢◣सहस्यः-10-17🪐🌞
+ 🌞◢◣सहस्यः-10-17🪐🌞बुधः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210106T064728
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210107T064746
 DESCRIPTION:- Indian civil date: 1942-10-16\, Islamic: 1442-05-22 Jumādā
@@ -504,7 +506,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:मार्गशीर्षः-09-24\,तुला-चित्
  रा🌛🌌◢◣धनुः-पूर्वाषाढा-09-23🌌
- 🌞◢◣सहस्यः-10-18🪐🌞
+ 🌞◢◣सहस्यः-10-18🪐🌞गुरुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210107T064746
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210108T064803
 DESCRIPTION:- Indian civil date: 1942-10-17\, Islamic: 1442-05-23 Jumādā
@@ -617,7 +619,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:मार्गशीर्षः-09-25\,तुला-स्वा
  ती🌛🌌◢◣धनुः-पूर्वाषाढा-09-24🌌
- 🌞◢◣सहस्यः-10-19🪐🌞
+ 🌞◢◣सहस्यः-10-19🪐🌞शुक्रः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210108T064803
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210109T064819
 DESCRIPTION:- Indian civil date: 1942-10-18\, Islamic: 1442-05-24 Jumādā
@@ -689,7 +691,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:मार्गशीर्षः-09-26\,तुला-विशा
  खा🌛🌌◢◣धनुः-पूर्वाषाढा-09-25🌌
- 🌞◢◣सहस्यः-10-20🪐🌞
+ 🌞◢◣सहस्यः-10-20🪐🌞शनिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210109T064819
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210110T064834
 DESCRIPTION:- Indian civil date: 1942-10-19\, Islamic: 1442-05-25 Jumādā
@@ -760,7 +762,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:मार्गशीर्षः-09-27\,वृश्चिकः-
  अनूराधा🌛🌌◢◣धनुः-पूर्वाषा
- ढा-09-26🌌🌞◢◣सहस्यः-10-21🪐🌞
+ ढा-09-26🌌🌞◢◣सहस्यः-10-21🪐🌞भानुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210110T064834
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210111T064848
 DESCRIPTION:- Indian civil date: 1942-10-20\, Islamic: 1442-05-26 Jumādā
@@ -873,7 +875,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:मार्गशीर्षः-09-28\,वृश्चिकः-
  ज्येष्ठा🌛🌌◢◣धनुः-उत्तराष
- ाढा-09-27🌌🌞◢◣सहस्यः-10-22🪐🌞
+ ाढा-09-27🌌🌞◢◣सहस्यः-10-22🪐🌞सोमः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210111T064848
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210112T064901
 DESCRIPTION:- Indian civil date: 1942-10-21\, Islamic: 1442-05-27 Jumādā
@@ -980,7 +982,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:मार्गशीर्षः-09-29\,धनुः-मूला
  🌛🌌◢◣धनुः-उत्तराषाढा-09-28🌌🌞◢
- ◣सहस्यः-10-23🪐🌞
+ ◣सहस्यः-10-23🪐🌞मङ्गलः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210112T064901
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210113T064913
 DESCRIPTION:- Indian civil date: 1942-10-22\, Islamic: 1442-05-28 Jumādā
@@ -1166,7 +1168,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:मार्गशीर्षः-09-30\,धनुः-उत्त
  राषाढा🌛🌌◢◣धनुः-उत्तराषाढ
- ा-09-29🌌🌞◢◣सहस्यः-10-24🪐🌞
+ ा-09-29🌌🌞◢◣सहस्यः-10-24🪐🌞बुधः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210113T064913
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210114T064924
 DESCRIPTION:- Indian civil date: 1942-10-23\, Islamic: 1442-05-29 Jumādā
@@ -1284,7 +1286,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:पौषः-10-01\,मकरः-श्रवणः🌛🌌◢◣
  मकरः-उत्तराषाढा-10-01🌌🌞◢◣सहस
- ्यः-10-25🪐🌞
+ ्यः-10-25🪐🌞गुरुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210114T064924
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210115T064934
 DESCRIPTION:- Indian civil date: 1942-10-24\, Islamic: 1442-05-30 Jumādā
@@ -1457,7 +1459,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:पौषः-10-02\,मकरः-श्रविष्ठा🌛
  🌌◢◣मकरः-उत्तराषाढा-10-02🌌🌞◢◣
- सहस्यः-10-26🪐🌞
+ सहस्यः-10-26🪐🌞शुक्रः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210115T064934
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210116T064943
 DESCRIPTION:- Indian civil date: 1942-10-25\, Islamic: 1442-06-01 Jumādā
@@ -1575,7 +1577,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:पौषः-10-03\,कुम्भः-शतभिषक्🌛
  🌌◢◣मकरः-उत्तराषाढा-10-03🌌🌞◢◣
- सहस्यः-10-27🪐🌞
+ सहस्यः-10-27🪐🌞शनिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210116T064943
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210117T064951
 DESCRIPTION:- Indian civil date: 1942-10-26\, Islamic: 1442-06-02 Jumādā
@@ -1683,7 +1685,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:पौषः-10-04\,कुम्भः-पूर्वप्रो
  ष्ठपदा🌛🌌◢◣मकरः-उत्तराषाढ
- ा-10-04🌌🌞◢◣सहस्यः-10-28🪐🌞
+ ा-10-04🌌🌞◢◣सहस्यः-10-28🪐🌞भानुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210117T064951
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210118T064958
 DESCRIPTION:- Indian civil date: 1942-10-27\, Islamic: 1442-06-03 Jumādā
@@ -1737,7 +1739,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:पौषः-10-05\,मीनः-पूर्वप्रोष्
  ठपदा🌛🌌◢◣मकरः-उत्तराषाढा-10-0
- 5🌌🌞◢◣सहस्यः-10-29🪐🌞
+ 5🌌🌞◢◣सहस्यः-10-29🪐🌞सोमः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210118T064958
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210119T065003
 DESCRIPTION:- Indian civil date: 1942-10-28\, Islamic: 1442-06-04 Jumādā
@@ -1807,7 +1809,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:पौषः-10-06\,मीनः-उत्तरप्रोष्
  ठपदा🌛🌌◢◣मकरः-उत्तराषाढा-10-0
- 6🌌🌞◢◣सहस्यः-10-30🪐🌞
+ 6🌌🌞◢◣सहस्यः-10-30🪐🌞मङ्गलः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210119T065003
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210120T065008
 DESCRIPTION:- Indian civil date: 1942-10-29\, Islamic: 1442-06-05 Jumādā
@@ -1918,7 +1920,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:पौषः-10-07\,मीनः-रेवती🌛🌌◢◣म
  करः-उत्तराषाढा-10-07🌌🌞◢◣तपः-11-0
- 1🪐🌞
+ 1🪐🌞बुधः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210120T065008
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210121T065011
 DESCRIPTION:- Indian civil date: 1942-10-30\, Islamic: 1442-06-06 Jumādā
@@ -1990,7 +1992,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:पौषः-10-08\,मेषः-अश्विनी🌛🌌◢
  ◣मकरः-उत्तराषाढा-10-08🌌🌞◢◣तप
- ः-11-02🪐🌞
+ ः-11-02🪐🌞गुरुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210121T065011
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210122T065013
 DESCRIPTION:- Indian civil date: 1942-11-01\, Islamic: 1442-06-07 Jumādā
@@ -2063,7 +2065,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:पौषः-10-09\,मेषः-अपभरणी🌛🌌◢◣
  मकरः-उत्तराषाढा-10-09🌌🌞◢◣तपः-1
- 1-03🪐🌞
+ 1-03🪐🌞शुक्रः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210122T065013
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210123T065014
 DESCRIPTION:- Indian civil date: 1942-11-02\, Islamic: 1442-06-08 Jumādā
@@ -2131,7 +2133,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:पौषः-10-10\,वृषभः-कृत्तिका🌛
  🌌◢◣मकरः-उत्तराषाढा-10-10🌌🌞◢◣
- तपः-11-04🪐🌞
+ तपः-11-04🪐🌞शनिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210123T065014
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210124T065014
 DESCRIPTION:- Indian civil date: 1942-11-03\, Islamic: 1442-06-09 Jumādā
@@ -2221,7 +2223,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:पौषः-10-11\,वृषभः-रोहिणी🌛🌌◢
  ◣मकरः-श्रवणः-10-11🌌🌞◢◣तपः-11-05🪐
- 🌞
+ 🌞भानुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210124T065014
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210125T065013
 DESCRIPTION:- Indian civil date: 1942-11-04\, Islamic: 1442-06-10 Jumādā
@@ -2347,7 +2349,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:पौषः-10-12\,वृषभः-मृगशीर्षम्
  🌛🌌◢◣मकरः-श्रवणः-10-12🌌🌞◢◣तपः
- -11-06🪐🌞
+ -11-06🪐🌞सोमः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210125T065013
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210126T065011
 DESCRIPTION:- Indian civil date: 1942-11-05\, Islamic: 1442-06-11 Jumādā
@@ -2473,7 +2475,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:पौषः-10-13\,मिथुनम्-आर्द्रा
  🌛🌌◢◣मकरः-श्रवणः-10-13🌌🌞◢◣तपः
- -11-07🪐🌞
+ -11-07🪐🌞मङ्गलः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210126T065011
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210127T065007
 DESCRIPTION:- Indian civil date: 1942-11-06\, Islamic: 1442-06-12 Jumādā
@@ -2607,7 +2609,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:पौषः-10-14\,मिथुनम्-पुनर्वसु
  ः🌛🌌◢◣मकरः-श्रवणः-10-14🌌🌞◢◣तप
- ः-11-08🪐🌞
+ ः-11-08🪐🌞बुधः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210127T065007
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210128T065003
 DESCRIPTION:- Indian civil date: 1942-11-07\, Islamic: 1442-06-13 Jumādā
@@ -2715,7 +2717,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:पौषः-10-15\,कर्कटः-पुष्यः🌛🌌
  ◢◣मकरः-श्रवणः-10-15🌌🌞◢◣तपः-11-09
- 🪐🌞
+ 🪐🌞गुरुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210128T065003
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210129T064957
 DESCRIPTION:- Indian civil date: 1942-11-08\, Islamic: 1442-06-14 Jumādā
@@ -2914,7 +2916,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:पौषः-10-16\,कर्कटः-आश्रेषा🌛
  🌌◢◣मकरः-श्रवणः-10-16🌌🌞◢◣तपः-11-
- 10🪐🌞
+ 10🪐🌞शुक्रः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210129T064957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210130T064950
 DESCRIPTION:- Indian civil date: 1942-11-09\, Islamic: 1442-06-15 Jumādā
@@ -3014,7 +3016,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:पौषः-10-17\,सिंहः-मघा🌛🌌◢◣मक
- रः-श्रवणः-10-17🌌🌞◢◣तपः-11-11🪐🌞
+ रः-श्रवणः-10-17🌌🌞◢◣तपः-11-11🪐🌞शन
+ िः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210130T064950
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210131T064943
 DESCRIPTION:- Indian civil date: 1942-11-10\, Islamic: 1442-06-16 Jumādā
@@ -3130,7 +3133,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:पौषः-10-18\,सिंहः-पूर्वफल्गु
  नी🌛🌌◢◣मकरः-श्रवणः-10-18🌌🌞◢◣त
- पः-11-12🪐🌞
+ पः-11-12🪐🌞भानुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210131T064943
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210201T064934
 DESCRIPTION:- Indian civil date: 1942-11-11\, Islamic: 1442-06-17 Jumādā
@@ -3207,7 +3210,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:पौषः-10-19\,सिंहः-उत्तरफल्गु
  नी🌛🌌◢◣मकरः-श्रवणः-10-19🌌🌞◢◣त
- पः-11-13🪐🌞
+ पः-11-13🪐🌞सोमः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210201T064934
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210202T064924
 DESCRIPTION:- Indian civil date: 1942-11-12\, Islamic: 1442-06-18 Jumādā
@@ -3298,6 +3301,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:पौषः-10-20\,कन्या-हस्तः🌛🌌◢◣
  मकरः-श्रवणः-10-20🌌🌞◢◣तपः-11-14🪐🌞
+ मङ्गलः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210202T064924
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210203T064913
 DESCRIPTION:- Indian civil date: 1942-11-13\, Islamic: 1442-06-19 Jumādā
@@ -3447,7 +3451,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:पौषः-10-21\,कन्या-चित्रा🌛🌌◢
  ◣मकरः-श्रवणः-10-21🌌🌞◢◣तपः-11-15🪐
- 🌞
+ 🌞बुधः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210203T064913
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210204T064901
 DESCRIPTION:- Indian civil date: 1942-11-14\, Islamic: 1442-06-20 Jumādā
@@ -3516,6 +3520,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:पौषः-10-22\,तुला-स्वाती🌛🌌◢◣
  मकरः-श्रवणः-10-22🌌🌞◢◣तपः-11-16🪐🌞
+ गुरुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210204T064901
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210205T064848
 DESCRIPTION:- Indian civil date: 1942-11-15\, Islamic: 1442-06-21 Jumādā
@@ -3603,6 +3608,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:पौषः-10-23\,तुला-विशाखा🌛🌌◢◣
  मकरः-श्रवणः-10-23🌌🌞◢◣तपः-11-17🪐🌞
+ शुक्रः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210205T064848
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210206T064834
 DESCRIPTION:- Indian civil date: 1942-11-16\, Islamic: 1442-06-22 Jumādā
@@ -3705,7 +3711,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:पौषः-10-24\,वृश्चिकः-अनूराधा
  🌛🌌◢◣मकरः-श्रवणः-10-24🌌🌞◢◣तपः
- -11-18🪐🌞
+ -11-18🪐🌞शनिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210206T064834
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210207T064819
 DESCRIPTION:- Indian civil date: 1942-11-17\, Islamic: 1442-06-23 Jumādā
@@ -3793,7 +3799,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:पौषः-10-26\,वृश्चिकः-ज्येष्ठ
  ा🌛🌌◢◣मकरः-श्रविष्ठा-10-25🌌🌞◢
- ◣तपः-11-19🪐🌞
+ ◣तपः-11-19🪐🌞भानुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210207T064819
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210208T064803
 DESCRIPTION:- Indian civil date: 1942-11-18\, Islamic: 1442-06-24 Jumādā
@@ -3864,7 +3870,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:पौषः-10-27\,धनुः-मूला🌛🌌◢◣मक
  रः-श्रविष्ठा-10-26🌌🌞◢◣तपः-11-20🪐
- 🌞
+ 🌞सोमः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210208T064803
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210209T064746
 DESCRIPTION:- Indian civil date: 1942-11-19\, Islamic: 1442-06-25 Jumādā
@@ -3972,7 +3978,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:पौषः-10-28\,धनुः-पूर्वाषाढा
  🌛🌌◢◣मकरः-श्रविष्ठा-10-27🌌🌞◢◣
- तपः-11-21🪐🌞
+ तपः-11-21🪐🌞मङ्गलः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210209T064746
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210210T064728
 DESCRIPTION:- Indian civil date: 1942-11-20\, Islamic: 1442-06-26 Jumādā
@@ -4061,7 +4067,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:पौषः-10-29\,मकरः-उत्तराषाढा
  🌛🌌◢◣मकरः-श्रविष्ठा-10-28🌌🌞◢◣
- तपः-11-22🪐🌞
+ तपः-11-22🪐🌞बुधः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210210T064728
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210211T064709
 DESCRIPTION:- Indian civil date: 1942-11-21\, Islamic: 1442-06-27 Jumādā
@@ -4150,7 +4156,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:पौषः-10-30\,मकरः-श्रवणः🌛🌌◢◣
  मकरः-श्रविष्ठा-10-29🌌🌞◢◣तपः-11-2
- 3🪐🌞
+ 3🪐🌞गुरुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210211T064709
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210212T064649
 DESCRIPTION:- Indian civil date: 1942-11-22\, Islamic: 1442-06-28 Jumādā
@@ -4270,7 +4276,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:माघः-11-01\,कुम्भः-श्रविष्ठा
  🌛🌌◢◣मकरः-श्रविष्ठा-10-30🌌🌞◢◣
- तपः-11-24🪐🌞
+ तपः-11-24🪐🌞शुक्रः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210212T064649
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210213T064629
 DESCRIPTION:- Indian civil date: 1942-11-23\, Islamic: 1442-06-29 Jumādā
@@ -4434,7 +4440,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:माघः-11-02\,कुम्भः-शतभिषक्🌛
  🌌◢◣कुम्भः-श्रविष्ठा-11-01🌌🌞◢
- ◣तपः-11-25🪐🌞
+ ◣तपः-11-25🪐🌞शनिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210213T064629
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210214T064607
 DESCRIPTION:- Indian civil date: 1942-11-24\, Islamic: 1442-07-01 Rajab\n-
@@ -4506,7 +4512,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:माघः-11-03\,कुम्भः-पूर्वप्रो
  ष्ठपदा🌛🌌◢◣कुम्भः-श्रविष्
- ठा-11-02🌌🌞◢◣तपः-11-26🪐🌞
+ ठा-11-02🌌🌞◢◣तपः-11-26🪐🌞भानुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210214T064607
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210215T064544
 DESCRIPTION:- Indian civil date: 1942-11-25\, Islamic: 1442-07-02 Rajab\n-
@@ -4579,7 +4585,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:माघः-11-04\,मीनः-उत्तरप्रोष्
  ठपदा🌛🌌◢◣कुम्भः-श्रविष्ठा-1
- 1-03🌌🌞◢◣तपः-11-27🪐🌞
+ 1-03🌌🌞◢◣तपः-11-27🪐🌞सोमः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210215T064544
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210216T064521
 DESCRIPTION:- Indian civil date: 1942-11-26\, Islamic: 1442-07-03 Rajab\n-
@@ -4690,7 +4696,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:माघः-11-05\,मीनः-रेवती🌛🌌◢◣क
  ुम्भः-श्रविष्ठा-11-04🌌🌞◢◣तपः-1
- 1-28🪐🌞
+ 1-28🪐🌞मङ्गलः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210216T064521
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210217T064457
 DESCRIPTION:- Indian civil date: 1942-11-27\, Islamic: 1442-07-04 Rajab\n-
@@ -4850,7 +4856,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:माघः-11-06\,मेषः-अश्विनी🌛🌌◢
  ◣कुम्भः-श्रविष्ठा-11-05🌌🌞◢◣त
- पः-11-29🪐🌞
+ पः-11-29🪐🌞बुधः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210217T064457
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210218T064432
 DESCRIPTION:- Indian civil date: 1942-11-28\, Islamic: 1442-07-05 Rajab\n-
@@ -4991,7 +4997,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:माघः-11-06\,मेषः-अपभरणी🌛🌌◢◣
  कुम्भः-श्रविष्ठा-11-06🌌🌞◢◣तप
- स्यः-12-01🪐🌞
+ स्यः-12-01🪐🌞गुरुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210218T064432
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210219T064406
 DESCRIPTION:- Indian civil date: 1942-11-29\, Islamic: 1442-07-06 Rajab\n-
@@ -5116,7 +5122,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:माघः-11-07\,मेषः-कृत्तिका🌛🌌
  ◢◣कुम्भः-श्रविष्ठा-11-07🌌🌞◢◣
- तपस्यः-12-02🪐🌞
+ तपस्यः-12-02🪐🌞शुक्रः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210219T064406
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210220T064339
 DESCRIPTION:- Indian civil date: 1942-11-30\, Islamic: 1442-07-07 Rajab\n-
@@ -5354,7 +5360,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:माघः-11-08\,वृषभः-रोहिणी🌛🌌◢
  ◣कुम्भः-शतभिषक्-11-08🌌🌞◢◣तपस
- ्यः-12-03🪐🌞
+ ्यः-12-03🪐🌞शनिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210220T064339
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210221T064312
 DESCRIPTION:- Indian civil date: 1942-12-01\, Islamic: 1442-07-08 Rajab\n-
@@ -5477,7 +5483,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:माघः-11-09\,वृषभः-रोहिणी🌛🌌◢
  ◣कुम्भः-शतभिषक्-11-09🌌🌞◢◣तपस
- ्यः-12-04🪐🌞
+ ्यः-12-04🪐🌞भानुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210221T064312
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210222T064243
 DESCRIPTION:- Indian civil date: 1942-12-02\, Islamic: 1442-07-09 Rajab\n-
@@ -5597,7 +5603,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:माघः-11-10\,मिथुनम्-मृगशीर्ष
  म्🌛🌌◢◣कुम्भः-शतभिषक्-11-10🌌🌞
- ◢◣तपस्यः-12-05🪐🌞
+ ◢◣तपस्यः-12-05🪐🌞सोमः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210222T064243
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210223T064214
 DESCRIPTION:- Indian civil date: 1942-12-03\, Islamic: 1442-07-10 Rajab\n-
@@ -5731,7 +5737,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:माघः-11-11\,मिथुनम्-आर्द्रा
  🌛🌌◢◣कुम्भः-शतभिषक्-11-11🌌🌞◢◣
- तपस्यः-12-06🪐🌞
+ तपस्यः-12-06🪐🌞मङ्गलः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210223T064214
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210224T064145
 DESCRIPTION:- Indian civil date: 1942-12-04\, Islamic: 1442-07-11 Rajab\n-
@@ -5846,7 +5852,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:माघः-11-12\,मिथुनम्-पुनर्वसु
  ः🌛🌌◢◣कुम्भः-शतभिषक्-11-12🌌🌞◢
- ◣तपस्यः-12-07🪐🌞
+ ◣तपस्यः-12-07🪐🌞बुधः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210224T064145
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210225T064114
 DESCRIPTION:- Indian civil date: 1942-12-05\, Islamic: 1442-07-12 Rajab\n-
@@ -6044,7 +6050,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:माघः-11-13\,कर्कटः-पुष्यः🌛🌌
  ◢◣कुम्भः-शतभिषक्-11-13🌌🌞◢◣तप
- स्यः-12-08🪐🌞
+ स्यः-12-08🪐🌞गुरुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210225T064114
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210226T064043
 DESCRIPTION:- Indian civil date: 1942-12-06\, Islamic: 1442-07-13 Rajab\n-
@@ -6172,7 +6178,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:माघः-11-14\,कर्कटः-आश्रेषा🌛
  🌌◢◣कुम्भः-शतभिषक्-11-14🌌🌞◢◣त
- पस्यः-12-09🪐🌞
+ पस्यः-12-09🪐🌞शुक्रः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210226T064043
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210227T064011
 DESCRIPTION:- Indian civil date: 1942-12-07\, Islamic: 1442-07-14 Rajab\n-
@@ -6283,7 +6289,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:माघः-11-15\,सिंहः-मघा🌛🌌◢◣कु
  म्भः-शतभिषक्-11-15🌌🌞◢◣तपस्यः-1
- 2-10🪐🌞
+ 2-10🪐🌞शनिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210227T064011
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210228T063939
 DESCRIPTION:- Indian civil date: 1942-12-08\, Islamic: 1442-07-15 Rajab\n-
@@ -6516,7 +6522,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:माघः-11-16\,सिंहः-पूर्वफल्गु
  नी🌛🌌◢◣कुम्भः-शतभिषक्-11-16🌌🌞
- ◢◣तपस्यः-12-11🪐🌞
+ ◢◣तपस्यः-12-11🪐🌞भानुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210228T063939
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210301T063906
 DESCRIPTION:- Indian civil date: 1942-12-09\, Islamic: 1442-07-16 Rajab\n-
@@ -6620,7 +6626,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:माघः-11-17\,कन्या-उत्तरफल्गु
  नी🌛🌌◢◣कुम्भः-शतभिषक्-11-17🌌🌞
- ◢◣तपस्यः-12-12🪐🌞
+ ◢◣तपस्यः-12-12🪐🌞सोमः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210301T063906
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210302T063833
 DESCRIPTION:- Indian civil date: 1942-12-10\, Islamic: 1442-07-17 Rajab\n-
@@ -6714,7 +6720,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:माघः-11-19\,कन्या-चित्रा🌛🌌◢
  ◣कुम्भः-शतभिषक्-11-18🌌🌞◢◣तपस
- ्यः-12-13🪐🌞
+ ्यः-12-13🪐🌞मङ्गलः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210302T063833
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210303T063759
 DESCRIPTION:- Indian civil date: 1942-12-11\, Islamic: 1442-07-18 Rajab\n-
@@ -6827,7 +6833,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:माघः-11-20\,तुला-स्वाती🌛🌌◢◣
  कुम्भः-शतभिषक्-11-19🌌🌞◢◣तपस्
- यः-12-14🪐🌞
+ यः-12-14🪐🌞बुधः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210303T063759
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210304T063724
 DESCRIPTION:- Indian civil date: 1942-12-12\, Islamic: 1442-07-19 Rajab\n-
@@ -6880,7 +6886,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:माघः-11-21\,तुला-विशाखा🌛🌌◢◣
  कुम्भः-शतभिषक्-11-20🌌🌞◢◣तपस्
- यः-12-15🪐🌞
+ यः-12-15🪐🌞गुरुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210304T063724
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210305T063649
 DESCRIPTION:- Indian civil date: 1942-12-13\, Islamic: 1442-07-20 Rajab\n-
@@ -6952,7 +6958,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:माघः-11-22\,वृश्चिकः-अनूराधा
  🌛🌌◢◣कुम्भः-पूर्वप्रोष्ठप
- दा-11-21🌌🌞◢◣तपस्यः-12-16🪐🌞
+ दा-11-21🌌🌞◢◣तपस्यः-12-16🪐🌞शुक्र
+ ः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210305T063649
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210306T063614
 DESCRIPTION:- Indian civil date: 1942-12-14\, Islamic: 1442-07-21 Rajab\n-
@@ -7056,7 +7063,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:माघः-11-23\,वृश्चिकः-ज्येष्ठ
  ा🌛🌌◢◣कुम्भः-पूर्वप्रोष्ठ
- पदा-11-22🌌🌞◢◣तपस्यः-12-17🪐🌞
+ पदा-11-22🌌🌞◢◣तपस्यः-12-17🪐🌞शनिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210306T063614
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210307T063538
 DESCRIPTION:- Indian civil date: 1942-12-15\, Islamic: 1442-07-22 Rajab\n-
@@ -7190,7 +7197,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:माघः-11-24\,धनुः-मूला🌛🌌◢◣कु
  म्भः-पूर्वप्रोष्ठपदा-11-23🌌🌞
- ◢◣तपस्यः-12-18🪐🌞
+ ◢◣तपस्यः-12-18🪐🌞भानुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210307T063538
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210308T063501
 DESCRIPTION:- Indian civil date: 1942-12-16\, Islamic: 1442-07-23 Rajab\n-
@@ -7299,7 +7306,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:माघः-11-25\,धनुः-पूर्वाषाढा
  🌛🌌◢◣कुम्भः-पूर्वप्रोष्ठप
- दा-11-24🌌🌞◢◣तपस्यः-12-19🪐🌞
+ दा-11-24🌌🌞◢◣तपस्यः-12-19🪐🌞सोमः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210308T063501
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210309T063425
 DESCRIPTION:- Indian civil date: 1942-12-17\, Islamic: 1442-07-24 Rajab\n-
@@ -7371,7 +7378,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:माघः-11-26\,मकरः-उत्तराषाढा
  🌛🌌◢◣कुम्भः-पूर्वप्रोष्ठप
- दा-11-25🌌🌞◢◣तपस्यः-12-20🪐🌞
+ दा-11-25🌌🌞◢◣तपस्यः-12-20🪐🌞मङ्गल
+ ः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210309T063425
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210310T063348
 DESCRIPTION:- Indian civil date: 1942-12-18\, Islamic: 1442-07-25 Rajab\n-
@@ -7496,7 +7504,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:माघः-11-27\,मकरः-श्रवणः🌛🌌◢◣
  कुम्भः-पूर्वप्रोष्ठपदा-11-26🌌
- 🌞◢◣तपस्यः-12-21🪐🌞
+ 🌞◢◣तपस्यः-12-21🪐🌞बुधः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210310T063348
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210311T063310
 DESCRIPTION:- Indian civil date: 1942-12-19\, Islamic: 1442-07-26 Rajab\n-
@@ -7635,7 +7643,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:माघः-11-28\,मकरः-श्रविष्ठा🌛
  🌌◢◣कुम्भः-पूर्वप्रोष्ठपदा
- -11-27🌌🌞◢◣तपस्यः-12-22🪐🌞
+ -11-27🌌🌞◢◣तपस्यः-12-22🪐🌞गुरुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210311T063310
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210312T063232
 DESCRIPTION:- Indian civil date: 1942-12-20\, Islamic: 1442-07-27 Rajab\n-
@@ -7723,7 +7731,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:माघः-11-29\,कुम्भः-शतभिषक्🌛
  🌌◢◣कुम्भः-पूर्वप्रोष्ठपदा
- -11-28🌌🌞◢◣तपस्यः-12-23🪐🌞
+ -11-28🌌🌞◢◣तपस्यः-12-23🪐🌞शुक्रः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210312T063232
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210313T063154
 DESCRIPTION:- Indian civil date: 1942-12-21\, Islamic: 1442-07-28 Rajab\n-
@@ -7815,7 +7823,7 @@ BEGIN:VEVENT
 SUMMARY:माघः-11-30\,कुम्भः-पूर्वप्रो
  ष्ठपदा🌛🌌◢◣कुम्भः-पूर्वप्
  रोष्ठपदा-11-29🌌🌞◢◣तपस्यः-12-24🪐
- 🌞
+ 🌞शनिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210313T063154
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210314T063116
 DESCRIPTION:- Indian civil date: 1942-12-22\, Islamic: 1442-07-29 Rajab\n-
@@ -7995,7 +8003,7 @@ BEGIN:VEVENT
 SUMMARY:फाल्गुनः-12-01\,मीनः-उत्तरप्
  रोष्ठपदा🌛🌌◢◣मीनः-पूर्वप्
  रोष्ठपदा-12-01🌌🌞◢◣तपस्यः-12-25🪐
- 🌞
+ 🌞भानुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210314T063116
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210315T063037
 DESCRIPTION:- Indian civil date: 1942-12-23\, Islamic: 1442-07-30 Rajab\n-
@@ -8211,7 +8219,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:फाल्गुनः-12-02\,मीनः-रेवती🌛
  🌌◢◣मीनः-पूर्वप्रोष्ठपदा-12-02
- 🌌🌞◢◣तपस्यः-12-26🪐🌞
+ 🌌🌞◢◣तपस्यः-12-26🪐🌞सोमः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210315T063037
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210316T062959
 DESCRIPTION:- Indian civil date: 1942-12-24\, Islamic: 1442-08-01 Shaʿbā
@@ -8318,7 +8326,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:फाल्गुनः-12-03\,मेषः-अश्विनी
  🌛🌌◢◣मीनः-पूर्वप्रोष्ठपदा-1
- 2-03🌌🌞◢◣तपस्यः-12-27🪐🌞
+ 2-03🌌🌞◢◣तपस्यः-12-27🪐🌞मङ्गलः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210316T062959
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210317T062919
 DESCRIPTION:- Indian civil date: 1942-12-25\, Islamic: 1442-08-02 Shaʿbā
@@ -8410,7 +8418,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:फाल्गुनः-12-04\,मेषः-अश्विनी
  🌛🌌◢◣मीनः-पूर्वप्रोष्ठपदा-1
- 2-04🌌🌞◢◣तपस्यः-12-28🪐🌞
+ 2-04🌌🌞◢◣तपस्यः-12-28🪐🌞बुधः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210317T062919
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210318T062840
 DESCRIPTION:- Indian civil date: 1942-12-26\, Islamic: 1442-08-03 Shaʿbā
@@ -8482,7 +8490,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:फाल्गुनः-12-05\,मेषः-अपभरणी
  🌛🌌◢◣मीनः-उत्तरप्रोष्ठपदा-1
- 2-05🌌🌞◢◣तपस्यः-12-29🪐🌞
+ 2-05🌌🌞◢◣तपस्यः-12-29🪐🌞गुरुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210318T062840
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210319T062801
 DESCRIPTION:- Indian civil date: 1942-12-27\, Islamic: 1442-08-04 Shaʿbā
@@ -8555,7 +8563,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:फाल्गुनः-12-06\,वृषभः-कृत्ति
  का🌛🌌◢◣मीनः-उत्तरप्रोष्ठप
- दा-12-06🌌🌞◢◣तपस्यः-12-30🪐🌞
+ दा-12-06🌌🌞◢◣तपस्यः-12-30🪐🌞शुक्र
+ ः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210319T062801
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210320T062721
 DESCRIPTION:- Indian civil date: 1942-12-28\, Islamic: 1442-08-05 Shaʿbā
@@ -8660,7 +8669,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:फाल्गुनः-12-07\,वृषभः-रोहिणी
  🌛🌌◢◣मीनः-उत्तरप्रोष्ठपदा-1
- 2-07🌌🌞◢◣मधुः-01-01🪐🌞
+ 2-07🌌🌞◢◣मधुः-01-01🪐🌞शनिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210320T062721
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210321T062641
 DESCRIPTION:- Indian civil date: 1942-12-29\, Islamic: 1442-08-06 Shaʿbā
@@ -8856,7 +8865,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:फाल्गुनः-12-07\,मिथुनम्-मृगश
  ीर्षम्🌛🌌◢◣मीनः-उत्तरप्रो
- ष्ठपदा-12-08🌌🌞◢◣मधुः-01-02🪐🌞
+ ष्ठपदा-12-08🌌🌞◢◣मधुः-01-02🪐🌞भान
+ ुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210321T062641
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210322T062602
 DESCRIPTION:- Indian civil date: 1942-12-30\, Islamic: 1442-08-07 Shaʿbā
@@ -8989,7 +8999,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:फाल्गुनः-12-08\,मिथुनम्-आर्द
  ्रा🌛🌌◢◣मीनः-उत्तरप्रोष्ठ
- पदा-12-09🌌🌞◢◣मधुः-01-03🪐🌞
+ पदा-12-09🌌🌞◢◣मधुः-01-03🪐🌞सोमः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210322T062602
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210323T062522
 DESCRIPTION:- Indian civil date: 1943-01-01\, Islamic: 1442-08-08 Shaʿbā
@@ -9066,7 +9076,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:फाल्गुनः-12-09\,मिथुनम्-पुनर
  ्वसुः🌛🌌◢◣मीनः-उत्तरप्रोष
- ्ठपदा-12-10🌌🌞◢◣मधुः-01-04🪐🌞
+ ्ठपदा-12-10🌌🌞◢◣मधुः-01-04🪐🌞मङ्ग
+ लः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210323T062522
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210324T062442
 DESCRIPTION:- Indian civil date: 1943-01-02\, Islamic: 1442-08-09 Shaʿbā
@@ -9176,7 +9187,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:फाल्गुनः-12-10\,कर्कटः-पुष्य
  ः🌛🌌◢◣मीनः-उत्तरप्रोष्ठपद
- ा-12-11🌌🌞◢◣मधुः-01-05🪐🌞
+ ा-12-11🌌🌞◢◣मधुः-01-05🪐🌞बुधः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210324T062442
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210325T062402
 DESCRIPTION:- Indian civil date: 1943-01-03\, Islamic: 1442-08-10 Shaʿbā
@@ -9286,7 +9297,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:फाल्गुनः-12-11\,कर्कटः-आश्रे
  षा🌛🌌◢◣मीनः-उत्तरप्रोष्ठप
- दा-12-12🌌🌞◢◣मधुः-01-06🪐🌞
+ दा-12-12🌌🌞◢◣मधुः-01-06🪐🌞गुरुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210325T062402
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210326T062321
 DESCRIPTION:- Indian civil date: 1943-01-04\, Islamic: 1442-08-11 Shaʿbā
@@ -9429,7 +9440,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:फाल्गुनः-12-12\,सिंहः-मघा🌛🌌
  ◢◣मीनः-उत्तरप्रोष्ठपदा-12-13🌌
- 🌞◢◣मधुः-01-07🪐🌞
+ 🌞◢◣मधुः-01-07🪐🌞शुक्रः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210326T062321
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210327T062241
 DESCRIPTION:- Indian civil date: 1943-01-05\, Islamic: 1442-08-12 Shaʿbā
@@ -9625,7 +9636,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:फाल्गुनः-12-14\,सिंहः-पूर्वफ
  ल्गुनी🌛🌌◢◣मीनः-उत्तरप्रो
- ष्ठपदा-12-14🌌🌞◢◣मधुः-01-08🪐🌞
+ ष्ठपदा-12-14🌌🌞◢◣मधुः-01-08🪐🌞शनि
+ ः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210327T062241
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210328T062201
 DESCRIPTION:- Indian civil date: 1943-01-06\, Islamic: 1442-08-13 Shaʿbā
@@ -9718,7 +9730,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:फाल्गुनः-12-15\,कन्या-उत्तरफ
  ल्गुनी🌛🌌◢◣मीनः-उत्तरप्रो
- ष्ठपदा-12-15🌌🌞◢◣मधुः-01-09🪐🌞
+ ष्ठपदा-12-15🌌🌞◢◣मधुः-01-09🪐🌞भान
+ ुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210328T062201
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210329T062121
 DESCRIPTION:- Indian civil date: 1943-01-07\, Islamic: 1442-08-14 Shaʿbā
@@ -9984,7 +9997,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:फाल्गुनः-12-16\,कन्या-हस्तः
  🌛🌌◢◣मीनः-उत्तरप्रोष्ठपदा-1
- 2-16🌌🌞◢◣मधुः-01-10🪐🌞
+ 2-16🌌🌞◢◣मधुः-01-10🪐🌞सोमः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210329T062121
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210330T062042
 DESCRIPTION:- Indian civil date: 1943-01-08\, Islamic: 1442-08-15 Shaʿbā
@@ -10124,7 +10137,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:फाल्गुनः-12-17\,तुला-चित्रा
  🌛🌌◢◣मीनः-उत्तरप्रोष्ठपदा-1
- 2-17🌌🌞◢◣मधुः-01-11🪐🌞
+ 2-17🌌🌞◢◣मधुः-01-11🪐🌞मङ्गलः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210330T062042
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210331T062002
 DESCRIPTION:- Indian civil date: 1943-01-09\, Islamic: 1442-08-16 Shaʿbā
@@ -10183,7 +10196,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:फाल्गुनः-12-18\,तुला-स्वाती
  🌛🌌◢◣मीनः-उत्तरप्रोष्ठपदा-1
- 2-18🌌🌞◢◣मधुः-01-12🪐🌞
+ 2-18🌌🌞◢◣मधुः-01-12🪐🌞बुधः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210331T062002
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210401T061922
 DESCRIPTION:- Indian civil date: 1943-01-10\, Islamic: 1442-08-17 Shaʿbā
@@ -10342,7 +10355,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:फाल्गुनः-12-19\,वृश्चिकः-विश
  ाखा🌛🌌◢◣मीनः-रेवती-12-19🌌🌞◢◣म
- धुः-01-13🪐🌞
+ धुः-01-13🪐🌞गुरुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210401T061922
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210402T061843
 DESCRIPTION:- Indian civil date: 1943-01-11\, Islamic: 1442-08-18 Shaʿbā
@@ -10418,7 +10431,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:फाल्गुनः-12-20\,वृश्चिकः-ज्य
  ेष्ठा🌛🌌◢◣मीनः-रेवती-12-20🌌🌞◢
- ◣मधुः-01-14🪐🌞
+ ◣मधुः-01-14🪐🌞शुक्रः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210402T061843
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210403T061804
 DESCRIPTION:- Indian civil date: 1943-01-12\, Islamic: 1442-08-19 Shaʿbā
@@ -10516,7 +10529,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:फाल्गुनः-12-22\,धनुः-मूला🌛🌌
  ◢◣मीनः-रेवती-12-21🌌🌞◢◣मधुः-01-15
- 🪐🌞
+ 🪐🌞शनिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210403T061804
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210404T061725
 DESCRIPTION:- Indian civil date: 1943-01-13\, Islamic: 1442-08-20 Shaʿbā
@@ -10591,7 +10604,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:फाल्गुनः-12-23\,धनुः-पूर्वाष
  ाढा🌛🌌◢◣मीनः-रेवती-12-22🌌🌞◢◣म
- धुः-01-16🪐🌞
+ धुः-01-16🪐🌞भानुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210404T061725
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210405T061646
 DESCRIPTION:- Indian civil date: 1943-01-14\, Islamic: 1442-08-21 Shaʿbā
@@ -10667,7 +10680,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:फाल्गुनः-12-24\,धनुः-उत्तराष
  ाढा🌛🌌◢◣मीनः-रेवती-12-23🌌🌞◢◣म
- धुः-01-17🪐🌞
+ धुः-01-17🪐🌞सोमः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210405T061646
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210406T061607
 DESCRIPTION:- Indian civil date: 1943-01-15\, Islamic: 1442-08-22 Shaʿbā
@@ -10742,7 +10755,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:फाल्गुनः-12-25\,मकरः-श्रवणः
  🌛🌌◢◣मीनः-रेवती-12-24🌌🌞◢◣मधुः
- -01-18🪐🌞
+ -01-18🪐🌞मङ्गलः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210406T061607
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210407T061529
 DESCRIPTION:- Indian civil date: 1943-01-16\, Islamic: 1442-08-23 Shaʿbā
@@ -10832,7 +10845,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:फाल्गुनः-12-26\,मकरः-श्रविष्
  ठा🌛🌌◢◣मीनः-रेवती-12-25🌌🌞◢◣मध
- ुः-01-19🪐🌞
+ ुः-01-19🪐🌞बुधः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210407T061529
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210408T061451
 DESCRIPTION:- Indian civil date: 1943-01-17\, Islamic: 1442-08-24 Shaʿbā
@@ -10907,7 +10920,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:फाल्गुनः-12-27\,कुम्भः-शतभिष
  क्🌛🌌◢◣मीनः-रेवती-12-26🌌🌞◢◣मध
- ुः-01-20🪐🌞
+ ुः-01-20🪐🌞गुरुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210408T061451
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210409T061414
 DESCRIPTION:- Indian civil date: 1943-01-18\, Islamic: 1442-08-25 Shaʿbā
@@ -11054,7 +11067,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:फाल्गुनः-12-28\,कुम्भः-पूर्व
  प्रोष्ठपदा🌛🌌◢◣मीनः-रेवती-1
- 2-27🌌🌞◢◣मधुः-01-21🪐🌞
+ 2-27🌌🌞◢◣मधुः-01-21🪐🌞शुक्रः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210409T061414
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210410T061337
 DESCRIPTION:- Indian civil date: 1943-01-19\, Islamic: 1442-08-26 Shaʿbā
@@ -11129,7 +11142,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:फाल्गुनः-12-29\,मीनः-पूर्वप्
  रोष्ठपदा🌛🌌◢◣मीनः-रेवती-12-28
- 🌌🌞◢◣मधुः-01-22🪐🌞
+ 🌌🌞◢◣मधुः-01-22🪐🌞शनिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210410T061337
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210411T061300
 DESCRIPTION:- Indian civil date: 1943-01-20\, Islamic: 1442-08-27 Shaʿbā
@@ -11205,7 +11218,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:फाल्गुनः-12-30\,मीनः-उत्तरप्
  रोष्ठपदा🌛🌌◢◣मीनः-रेवती-12-29
- 🌌🌞◢◣मधुः-01-23🪐🌞
+ 🌌🌞◢◣मधुः-01-23🪐🌞भानुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210411T061300
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210412T061223
 DESCRIPTION:- Indian civil date: 1943-01-21\, Islamic: 1442-08-28 Shaʿbā
@@ -11369,7 +11382,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:फाल्गुनः-12-30\,मीनः-रेवती🌛
  🌌◢◣मीनः-रेवती-12-30🌌🌞◢◣मधुः-01-
- 24🪐🌞
+ 24🪐🌞सोमः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210412T061223
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210413T061147
 DESCRIPTION:- Indian civil date: 1943-01-22\, Islamic: 1442-08-29 Shaʿbā
@@ -11570,7 +11583,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:चैत्रः-01-01\,मेषः-अश्विनी🌛
  🌌◢◣मीनः-रेवती-12-31🌌🌞◢◣मधुः-01-
- 25🪐🌞
+ 25🪐🌞मङ्गलः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210413T061147
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210414T061112
 DESCRIPTION:- Indian civil date: 1943-01-23\, Islamic: 1442-09-01 Ramaḍ
@@ -11743,7 +11756,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:चैत्रः-01-02\,मेषः-अपभरणी🌛🌌
  ◢◣मेषः-अश्विनी-01-01🌌🌞◢◣मधुः-0
- 1-26🪐🌞
+ 1-26🪐🌞बुधः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210414T061112
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210415T061037
 DESCRIPTION:- Indian civil date: 1943-01-24\, Islamic: 1442-09-02 Ramaḍ
@@ -11943,7 +11956,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:चैत्रः-01-03\,वृषभः-कृत्तिका
  🌛🌌◢◣मेषः-अश्विनी-01-02🌌🌞◢◣मध
- ुः-01-27🪐🌞
+ ुः-01-27🪐🌞गुरुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210415T061037
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210416T061002
 DESCRIPTION:- Indian civil date: 1943-01-25\, Islamic: 1442-09-03 Ramaḍ
@@ -12033,7 +12046,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:चैत्रः-01-04\,वृषभः-रोहिणी🌛
  🌌◢◣मेषः-अश्विनी-01-03🌌🌞◢◣मधु
- ः-01-28🪐🌞
+ ः-01-28🪐🌞शुक्रः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210416T061002
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210417T060928
 DESCRIPTION:- Indian civil date: 1943-01-26\, Islamic: 1442-09-04 Ramaḍ
@@ -12086,7 +12099,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:चैत्रः-01-05\,वृषभः-मृगशीर्ष
  म्🌛🌌◢◣मेषः-अश्विनी-01-04🌌🌞◢◣
- मधुः-01-29🪐🌞
+ मधुः-01-29🪐🌞शनिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210417T060928
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210418T060854
 DESCRIPTION:- Indian civil date: 1943-01-27\, Islamic: 1442-09-05 Ramaḍ
@@ -12213,7 +12226,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:चैत्रः-01-06\,मिथुनम्-आर्द्र
  ा🌛🌌◢◣मेषः-अश्विनी-01-05🌌🌞◢◣म
- धुः-01-30🪐🌞
+ धुः-01-30🪐🌞भानुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210418T060854
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210419T060821
 DESCRIPTION:- Indian civil date: 1943-01-28\, Islamic: 1442-09-06 Ramaḍ
@@ -12394,7 +12407,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:चैत्रः-01-07\,मिथुनम्-पुनर्व
  सुः🌛🌌◢◣मेषः-अश्विनी-01-06🌌🌞◢
- ◣मधुः-01-31🪐🌞
+ ◣मधुः-01-31🪐🌞सोमः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210419T060821
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210420T060748
 DESCRIPTION:- Indian civil date: 1943-01-29\, Islamic: 1442-09-07 Ramaḍ
@@ -12502,7 +12515,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:चैत्रः-01-08\,कर्कटः-पुनर्वस
  ुः🌛🌌◢◣मेषः-अश्विनी-01-07🌌🌞◢◣
- माधवः-02-01🪐🌞
+ माधवः-02-01🪐🌞मङ्गलः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210420T060748
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210421T060716
 DESCRIPTION:- Indian civil date: 1943-01-30\, Islamic: 1442-09-08 Ramaḍ
@@ -12589,7 +12602,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:चैत्रः-01-09\,कर्कटः-पुष्यः
  🌛🌌◢◣मेषः-अश्विनी-01-08🌌🌞◢◣मा
- धवः-02-02🪐🌞
+ धवः-02-02🪐🌞बुधः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210421T060716
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210422T060644
 DESCRIPTION:- Indian civil date: 1943-02-01\, Islamic: 1442-09-09 Ramaḍ
@@ -12728,7 +12741,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:चैत्रः-01-10\,कर्कटः-आश्रेषा
  🌛🌌◢◣मेषः-अश्विनी-01-09🌌🌞◢◣मा
- धवः-02-03🪐🌞
+ धवः-02-03🪐🌞गुरुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210422T060644
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210423T060613
 DESCRIPTION:- Indian civil date: 1943-02-02\, Islamic: 1442-09-10 Ramaḍ
@@ -12797,7 +12810,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:चैत्रः-01-11\,सिंहः-मघा🌛🌌◢◣
  मेषः-अश्विनी-01-10🌌🌞◢◣माधवः-02-0
- 4🪐🌞
+ 4🪐🌞शुक्रः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210423T060613
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210424T060542
 DESCRIPTION:- Indian civil date: 1943-02-03\, Islamic: 1442-09-11 Ramaḍ
@@ -12904,7 +12917,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:चैत्रः-01-12\,सिंहः-पूर्वफल्
  गुनी🌛🌌◢◣मेषः-अश्विनी-01-11🌌🌞
- ◢◣माधवः-02-05🪐🌞
+ ◢◣माधवः-02-05🪐🌞शनिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210424T060542
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210425T060513
 DESCRIPTION:- Indian civil date: 1943-02-04\, Islamic: 1442-09-12 Ramaḍ
@@ -13088,7 +13101,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:चैत्रः-01-13\,कन्या-हस्तः🌛🌌
  ◢◣मेषः-अश्विनी-01-12🌌🌞◢◣माधव
- ः-02-06🪐🌞
+ ः-02-06🪐🌞भानुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210425T060513
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210426T060443
 DESCRIPTION:- Indian civil date: 1943-02-05\, Islamic: 1442-09-13 Ramaḍ
@@ -13217,7 +13230,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:चैत्रः-01-14\,कन्या-चित्रा🌛
  🌌◢◣मेषः-अश्विनी-01-13🌌🌞◢◣माध
- वः-02-07🪐🌞
+ वः-02-07🪐🌞सोमः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210426T060443
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210427T060415
 DESCRIPTION:- Indian civil date: 1943-02-06\, Islamic: 1442-09-14 Ramaḍ
@@ -13477,7 +13490,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:चैत्रः-01-15\,तुला-स्वाती🌛🌌
  ◢◣मेषः-अश्विनी-01-14🌌🌞◢◣माधव
- ः-02-08🪐🌞
+ ः-02-08🪐🌞मङ्गलः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210427T060415
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210428T060347
 DESCRIPTION:- Indian civil date: 1943-02-07\, Islamic: 1442-09-15 Ramaḍ
@@ -13667,7 +13680,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:चैत्रः-01-17\,तुला-विशाखा🌛🌌
  ◢◣मेषः-अपभरणी-01-15🌌🌞◢◣माधवः-0
- 2-09🪐🌞
+ 2-09🪐🌞बुधः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210428T060347
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210429T060320
 DESCRIPTION:- Indian civil date: 1943-02-08\, Islamic: 1442-09-16 Ramaḍ
@@ -13778,7 +13791,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:चैत्रः-01-18\,वृश्चिकः-अनूरा
  धा🌛🌌◢◣मेषः-अपभरणी-01-16🌌🌞◢◣म
- ाधवः-02-10🪐🌞
+ ाधवः-02-10🪐🌞गुरुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210429T060320
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210430T060253
 DESCRIPTION:- Indian civil date: 1943-02-09\, Islamic: 1442-09-17 Ramaḍ
@@ -13831,7 +13844,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:चैत्रः-01-19\,वृश्चिकः-ज्येष
  ्ठा🌛🌌◢◣मेषः-अपभरणी-01-17🌌🌞◢◣
- माधवः-02-11🪐🌞
+ माधवः-02-11🪐🌞शुक्रः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210430T060253
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210501T060227
 DESCRIPTION:- Indian civil date: 1943-02-10\, Islamic: 1442-09-18 Ramaḍ
@@ -13927,7 +13940,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:चैत्रः-01-20\,धनुः-मूला🌛🌌◢◣
  मेषः-अपभरणी-01-18🌌🌞◢◣माधवः-02-12
- 🪐🌞
+ 🪐🌞शनिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210501T060227
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210502T060202
 DESCRIPTION:- Indian civil date: 1943-02-11\, Islamic: 1442-09-19 Ramaḍ
@@ -14004,7 +14017,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:चैत्रः-01-21\,धनुः-पूर्वाषाढ
  ा🌛🌌◢◣मेषः-अपभरणी-01-19🌌🌞◢◣मा
- धवः-02-13🪐🌞
+ धवः-02-13🪐🌞भानुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210502T060202
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210503T060138
 DESCRIPTION:- Indian civil date: 1943-02-12\, Islamic: 1442-09-20 Ramaḍ
@@ -14057,7 +14070,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:चैत्रः-01-22\,मकरः-उत्तराषाढ
  ा🌛🌌◢◣मेषः-अपभरणी-01-20🌌🌞◢◣मा
- धवः-02-14🪐🌞
+ धवः-02-14🪐🌞सोमः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210503T060138
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210504T060115
 DESCRIPTION:- Indian civil date: 1943-02-13\, Islamic: 1442-09-21 Ramaḍ
@@ -14186,7 +14199,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:चैत्रः-01-23\,मकरः-श्रवणः🌛🌌
  ◢◣मेषः-अपभरणी-01-21🌌🌞◢◣माधवः-0
- 2-15🪐🌞
+ 2-15🪐🌞मङ्गलः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210504T060115
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210505T060052
 DESCRIPTION:- Indian civil date: 1943-02-14\, Islamic: 1442-09-22 Ramaḍ
@@ -14254,7 +14267,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:चैत्रः-01-24\,कुम्भः-श्रविष्
  ठा🌛🌌◢◣मेषः-अपभरणी-01-22🌌🌞◢◣म
- ाधवः-02-16🪐🌞
+ ाधवः-02-16🪐🌞बुधः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210505T060052
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210506T060030
 DESCRIPTION:- Indian civil date: 1943-02-15\, Islamic: 1442-09-23 Ramaḍ
@@ -14307,7 +14320,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:चैत्रः-01-25\,कुम्भः-शतभिषक्
  🌛🌌◢◣मेषः-अपभरणी-01-23🌌🌞◢◣माध
- वः-02-17🪐🌞
+ वः-02-17🪐🌞गुरुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210506T060030
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210507T060009
 DESCRIPTION:- Indian civil date: 1943-02-16\, Islamic: 1442-09-24 Ramaḍ
@@ -14379,7 +14392,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:चैत्रः-01-26\,मीनः-पूर्वप्रो
  ष्ठपदा🌛🌌◢◣मेषः-अपभरणी-01-24🌌
- 🌞◢◣माधवः-02-18🪐🌞
+ 🌞◢◣माधवः-02-18🪐🌞शुक्रः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210507T060009
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210508T055949
 DESCRIPTION:- Indian civil date: 1943-02-17\, Islamic: 1442-09-25 Ramaḍ
@@ -14506,7 +14519,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:चैत्रः-01-27\,मीनः-उत्तरप्रो
  ष्ठपदा🌛🌌◢◣मेषः-अपभरणी-01-25🌌
- 🌞◢◣माधवः-02-19🪐🌞
+ 🌞◢◣माधवः-02-19🪐🌞शनिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210508T055949
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210509T055929
 DESCRIPTION:- Indian civil date: 1943-02-18\, Islamic: 1442-09-26 Ramaḍ
@@ -14577,7 +14590,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:चैत्रः-01-28\,मीनः-रेवती🌛🌌◢
  ◣मेषः-अपभरणी-01-26🌌🌞◢◣माधवः-02-2
- 0🪐🌞
+ 0🪐🌞भानुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210509T055929
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210510T055911
 DESCRIPTION:- Indian civil date: 1943-02-19\, Islamic: 1442-09-27 Ramaḍ
@@ -14718,7 +14731,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:चैत्रः-01-29\,मेषः-अश्विनी🌛
  🌌◢◣मेषः-अपभरणी-01-27🌌🌞◢◣माधव
- ः-02-21🪐🌞
+ ः-02-21🪐🌞सोमः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210510T055911
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210511T055853
 DESCRIPTION:- Indian civil date: 1943-02-20\, Islamic: 1442-09-28 Ramaḍ
@@ -14788,7 +14801,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:चैत्रः-01-30\,मेषः-अपभरणी🌛🌌
  ◢◣मेषः-अपभरणी-01-28🌌🌞◢◣माधवः-0
- 2-22🪐🌞
+ 2-22🪐🌞मङ्गलः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210511T055853
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210512T055836
 DESCRIPTION:- Indian civil date: 1943-02-21\, Islamic: 1442-09-29 Ramaḍ
@@ -14949,7 +14962,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:वैशाखः-02-01\,मेषः-कृत्तिका
  🌛🌌◢◣मेषः-कृत्तिका-01-29🌌🌞◢◣म
- ाधवः-02-23🪐🌞
+ ाधवः-02-23🪐🌞बुधः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210512T055836
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210513T055820
 DESCRIPTION:- Indian civil date: 1943-02-22\, Islamic: 1442-09-30 Ramaḍ
@@ -15109,7 +15122,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:वैशाखः-02-02\,वृषभः-रोहिणी🌛
  🌌◢◣मेषः-कृत्तिका-01-30🌌🌞◢◣मा
- धवः-02-24🪐🌞
+ धवः-02-24🪐🌞गुरुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210513T055820
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210514T055804
 DESCRIPTION:- Indian civil date: 1943-02-23\, Islamic: 1442-10-01 Shawwāl
@@ -15199,7 +15212,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:वैशाखः-02-03\,वृषभः-मृगशीर्ष
  म्🌛🌌◢◣मेषः-कृत्तिका-01-31🌌🌞◢
- ◣माधवः-02-25🪐🌞
+ ◣माधवः-02-25🪐🌞शुक्रः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210514T055804
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210515T055750
 DESCRIPTION:- Indian civil date: 1943-02-24\, Islamic: 1442-10-02 Shawwāl
@@ -15388,7 +15401,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:वैशाखः-02-03\,मिथुनम्-मृगशीर
  ्षम्🌛🌌◢◣वृषभः-कृत्तिका-02-01
- 🌌🌞◢◣माधवः-02-26🪐🌞
+ 🌌🌞◢◣माधवः-02-26🪐🌞शनिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210515T055750
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210516T055736
 DESCRIPTION:- Indian civil date: 1943-02-25\, Islamic: 1442-10-03 Shawwāl
@@ -15459,7 +15472,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:वैशाखः-02-04\,मिथुनम्-आर्द्र
  ा🌛🌌◢◣वृषभः-कृत्तिका-02-02🌌🌞◢
- ◣माधवः-02-27🪐🌞
+ ◣माधवः-02-27🪐🌞भानुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210516T055736
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210517T055724
 DESCRIPTION:- Indian civil date: 1943-02-26\, Islamic: 1442-10-04 Shawwāl
@@ -15528,7 +15541,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:वैशाखः-02-05\,मिथुनम्-पुनर्व
  सुः🌛🌌◢◣वृषभः-कृत्तिका-02-03🌌
- 🌞◢◣माधवः-02-28🪐🌞
+ 🌞◢◣माधवः-02-28🪐🌞सोमः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210517T055724
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210518T055712
 DESCRIPTION:- Indian civil date: 1943-02-27\, Islamic: 1442-10-05 Shawwāl
@@ -15688,7 +15701,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:वैशाखः-02-06\,कर्कटः-पुष्यः
  🌛🌌◢◣वृषभः-कृत्तिका-02-04🌌🌞◢◣
- माधवः-02-29🪐🌞
+ माधवः-02-29🪐🌞मङ्गलः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210518T055712
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210519T055701
 DESCRIPTION:- Indian civil date: 1943-02-28\, Islamic: 1442-10-06 Shawwāl
@@ -15777,7 +15790,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:वैशाखः-02-07\,कर्कटः-आश्रेषा
  🌛🌌◢◣वृषभः-कृत्तिका-02-05🌌🌞◢◣
- माधवः-02-30🪐🌞
+ माधवः-02-30🪐🌞बुधः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210519T055701
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210520T055650
 DESCRIPTION:- Indian civil date: 1943-02-29\, Islamic: 1442-10-07 Shawwāl
@@ -15946,7 +15959,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:वैशाखः-02-08\,सिंहः-मघा🌛🌌◢◣
  वृषभः-कृत्तिका-02-06🌌🌞◢◣माधव
- ः-02-31🪐🌞
+ ः-02-31🪐🌞गुरुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210520T055650
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210521T055641
 DESCRIPTION:- Indian civil date: 1943-02-30\, Islamic: 1442-10-08 Shawwāl
@@ -16074,7 +16087,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:वैशाखः-02-09\,सिंहः-पूर्वफल्
  गुनी🌛🌌◢◣वृषभः-कृत्तिका-02-07
- 🌌🌞◢◣शुक्रः-03-01🪐🌞
+ 🌌🌞◢◣शुक्रः-03-01🪐🌞शुक्रः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210521T055641
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210522T055633
 DESCRIPTION:- Indian civil date: 1943-02-31\, Islamic: 1442-10-09 Shawwāl
@@ -16222,7 +16235,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:वैशाखः-02-10\,कन्या-उत्तरफल्
  गुनी🌛🌌◢◣वृषभः-कृत्तिका-02-08
- 🌌🌞◢◣शुक्रः-03-02🪐🌞
+ 🌌🌞◢◣शुक्रः-03-02🪐🌞शनिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210522T055633
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210523T055625
 DESCRIPTION:- Indian civil date: 1943-03-01\, Islamic: 1442-10-10 Shawwāl
@@ -16403,7 +16416,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:वैशाखः-02-11\,कन्या-हस्तः🌛🌌
  ◢◣वृषभः-कृत्तिका-02-09🌌🌞◢◣शु
- क्रः-03-03🪐🌞
+ क्रः-03-03🪐🌞भानुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210523T055625
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210524T055618
 DESCRIPTION:- Indian civil date: 1943-03-02\, Islamic: 1442-10-11 Shawwāl
@@ -16659,7 +16672,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:वैशाखः-02-13\,तुला-चित्रा🌛🌌
  ◢◣वृषभः-कृत्तिका-02-10🌌🌞◢◣शु
- क्रः-03-04🪐🌞
+ क्रः-03-04🪐🌞सोमः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210524T055618
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210525T055612
 DESCRIPTION:- Indian civil date: 1943-03-03\, Islamic: 1442-10-12 Shawwāl
@@ -16767,7 +16780,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:वैशाखः-02-14\,तुला-स्वाती🌛🌌
  ◢◣वृषभः-कृत्तिका-02-11🌌🌞◢◣शु
- क्रः-03-05🪐🌞
+ क्रः-03-05🪐🌞मङ्गलः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210525T055612
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210526T055607
 DESCRIPTION:- Indian civil date: 1943-03-04\, Islamic: 1442-10-13 Shawwāl
@@ -16934,7 +16947,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:वैशाखः-02-15\,वृश्चिकः-अनूरा
  धा🌛🌌◢◣वृषभः-रोहिणी-02-12🌌🌞◢◣
- शुक्रः-03-06🪐🌞
+ शुक्रः-03-06🪐🌞बुधः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210526T055607
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210527T055603
 DESCRIPTION:- Indian civil date: 1943-03-05\, Islamic: 1442-10-14 Shawwāl
@@ -17208,7 +17221,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:वैशाखः-02-16\,वृश्चिकः-ज्येष
  ्ठा🌛🌌◢◣वृषभः-रोहिणी-02-13🌌🌞◢
- ◣शुक्रः-03-07🪐🌞
+ ◣शुक्रः-03-07🪐🌞गुरुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210527T055603
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210528T055559
 DESCRIPTION:- Indian civil date: 1943-03-06\, Islamic: 1442-10-15 Shawwāl
@@ -17293,7 +17306,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:वैशाखः-02-17\,धनुः-मूला🌛🌌◢◣
  वृषभः-रोहिणी-02-14🌌🌞◢◣शुक्रः-0
- 3-08🪐🌞
+ 3-08🪐🌞शुक्रः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210528T055559
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210529T055557
 DESCRIPTION:- Indian civil date: 1943-03-07\, Islamic: 1442-10-16 Shawwāl
@@ -17459,7 +17472,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:वैशाखः-02-18\,धनुः-पूर्वाषाढ
  ा🌛🌌◢◣वृषभः-रोहिणी-02-15🌌🌞◢◣श
- ुक्रः-03-09🪐🌞
+ ुक्रः-03-09🪐🌞शनिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210529T055557
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210530T055555
 DESCRIPTION:- Indian civil date: 1943-03-08\, Islamic: 1442-10-17 Shawwāl
@@ -17661,7 +17674,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:वैशाखः-02-20\,मकरः-उत्तराषाढ
  ा🌛🌌◢◣वृषभः-रोहिणी-02-16🌌🌞◢◣श
- ुक्रः-03-10🪐🌞
+ ुक्रः-03-10🪐🌞भानुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210530T055555
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210531T055554
 DESCRIPTION:- Indian civil date: 1943-03-09\, Islamic: 1442-10-18 Shawwāl
@@ -17732,7 +17745,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:वैशाखः-02-21\,मकरः-श्रवणः🌛🌌
  ◢◣वृषभः-रोहिणी-02-17🌌🌞◢◣शुक्
- रः-03-11🪐🌞
+ रः-03-11🪐🌞सोमः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210531T055554
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210601T055554
 DESCRIPTION:- Indian civil date: 1943-03-10\, Islamic: 1442-10-19 Shawwāl
@@ -17822,7 +17835,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:वैशाखः-02-22\,कुम्भः-श्रविष्
  ठा🌛🌌◢◣वृषभः-रोहिणी-02-18🌌🌞◢◣
- शुक्रः-03-12🪐🌞
+ शुक्रः-03-12🪐🌞मङ्गलः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210601T055554
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210602T055554
 DESCRIPTION:- Indian civil date: 1943-03-11\, Islamic: 1442-10-20 Shawwāl
@@ -17893,7 +17906,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:वैशाखः-02-23\,कुम्भः-शतभिषक्
  🌛🌌◢◣वृषभः-रोहिणी-02-19🌌🌞◢◣शु
- क्रः-03-13🪐🌞
+ क्रः-03-13🪐🌞बुधः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210602T055554
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210603T055556
 DESCRIPTION:- Indian civil date: 1943-03-12\, Islamic: 1442-10-21 Shawwāl
@@ -17968,7 +17981,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:वैशाखः-02-24\,कुम्भः-पूर्वप्
  रोष्ठपदा🌛🌌◢◣वृषभः-रोहिणी-0
- 2-20🌌🌞◢◣शुक्रः-03-14🪐🌞
+ 2-20🌌🌞◢◣शुक्रः-03-14🪐🌞गुरुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210603T055556
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210604T055558
 DESCRIPTION:- Indian civil date: 1943-03-13\, Islamic: 1442-10-22 Shawwāl
@@ -18044,7 +18057,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:वैशाखः-02-25\,मीनः-उत्तरप्रो
  ष्ठपदा🌛🌌◢◣वृषभः-रोहिणी-02-21
- 🌌🌞◢◣शुक्रः-03-15🪐🌞
+ 🌌🌞◢◣शुक्रः-03-15🪐🌞शुक्रः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210604T055558
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210605T055601
 DESCRIPTION:- Indian civil date: 1943-03-14\, Islamic: 1442-10-23 Shawwāl
@@ -18136,7 +18149,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:वैशाखः-02-26\,मीनः-रेवती🌛🌌◢
  ◣वृषभः-रोहिणी-02-22🌌🌞◢◣शुक्र
- ः-03-16🪐🌞
+ ः-03-16🪐🌞शनिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210605T055601
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210606T055605
 DESCRIPTION:- Indian civil date: 1943-03-15\, Islamic: 1442-10-24 Shawwāl
@@ -18205,7 +18218,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:वैशाखः-02-26\,मेषः-अश्विनी🌛
  🌌◢◣वृषभः-रोहिणी-02-23🌌🌞◢◣शुक
- ्रः-03-17🪐🌞
+ ्रः-03-17🪐🌞भानुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210606T055605
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210607T055610
 DESCRIPTION:- Indian civil date: 1943-03-16\, Islamic: 1442-10-25 Shawwāl
@@ -18305,7 +18318,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:वैशाखः-02-27\,मेषः-अपभरणी🌛🌌
  ◢◣वृषभः-रोहिणी-02-24🌌🌞◢◣शुक्
- रः-03-18🪐🌞
+ रः-03-18🪐🌞सोमः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210607T055610
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210608T055615
 DESCRIPTION:- Indian civil date: 1943-03-17\, Islamic: 1442-10-26 Shawwāl
@@ -18394,7 +18407,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:वैशाखः-02-28\,मेषः-कृत्तिका
  🌛🌌◢◣वृषभः-रोहिणी-02-25🌌🌞◢◣शु
- क्रः-03-19🪐🌞
+ क्रः-03-19🪐🌞मङ्गलः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210608T055615
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210609T055621
 DESCRIPTION:- Indian civil date: 1943-03-18\, Islamic: 1442-10-27 Shawwāl
@@ -18505,7 +18518,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:वैशाखः-02-29\,वृषभः-कृत्तिका
  🌛🌌◢◣वृषभः-मृगशीर्षम्-02-26🌌🌞
- ◢◣शुक्रः-03-20🪐🌞
+ ◢◣शुक्रः-03-20🪐🌞बुधः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210609T055621
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210610T055628
 DESCRIPTION:- Indian civil date: 1943-03-19\, Islamic: 1442-10-28 Shawwāl
@@ -18558,7 +18571,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:वैशाखः-02-30\,वृषभः-रोहिणी🌛
  🌌◢◣वृषभः-मृगशीर्षम्-02-27🌌🌞◢
- ◣शुक्रः-03-21🪐🌞
+ ◣शुक्रः-03-21🪐🌞गुरुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210610T055628
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210611T055635
 DESCRIPTION:- Indian civil date: 1943-03-20\, Islamic: 1442-10-29 Shawwāl
@@ -18727,7 +18740,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ज्यैष्ठः-03-01\,मिथुनम्-मृगश
  ीर्षम्🌛🌌◢◣वृषभः-मृगशीर्ष
- म्-02-28🌌🌞◢◣शुक्रः-03-22🪐🌞
+ म्-02-28🌌🌞◢◣शुक्रः-03-22🪐🌞शुक्र
+ ः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210611T055635
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210612T055643
 DESCRIPTION:- Indian civil date: 1943-03-21\, Islamic: 1442-11-01 Ḏū al
@@ -18883,7 +18897,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ज्यैष्ठः-03-02\,मिथुनम्-आर्द
  ्रा🌛🌌◢◣वृषभः-मृगशीर्षम्-02-2
- 9🌌🌞◢◣शुक्रः-03-23🪐🌞
+ 9🌌🌞◢◣शुक्रः-03-23🪐🌞शनिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210612T055643
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210613T055651
 DESCRIPTION:- Indian civil date: 1943-03-22\, Islamic: 1442-11-02 Ḏū al
@@ -18977,7 +18991,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ज्यैष्ठः-03-03\,मिथुनम्-पुनर
  ्वसुः🌛🌌◢◣वृषभः-मृगशीर्षम
- ्-02-30🌌🌞◢◣शुक्रः-03-24🪐🌞
+ ्-02-30🌌🌞◢◣शुक्रः-03-24🪐🌞भानुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210613T055651
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210614T055701
 DESCRIPTION:- Indian civil date: 1943-03-23\, Islamic: 1442-11-03 Ḏū al
@@ -19049,7 +19063,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ज्यैष्ठः-03-04\,कर्कटः-पुष्य
  ः🌛🌌◢◣वृषभः-मृगशीर्षम्-02-31🌌
- 🌞◢◣शुक्रः-03-25🪐🌞
+ 🌞◢◣शुक्रः-03-25🪐🌞सोमः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210614T055701
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210615T055710
 DESCRIPTION:- Indian civil date: 1943-03-24\, Islamic: 1442-11-04 Ḏū al
@@ -19195,7 +19209,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ज्यैष्ठः-03-05\,कर्कटः-आश्रे
  षा🌛🌌◢◣मिथुनम्-मृगशीर्षम्-0
- 3-01🌌🌞◢◣शुक्रः-03-26🪐🌞
+ 3-01🌌🌞◢◣शुक्रः-03-26🪐🌞मङ्गलः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210615T055710
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210616T055721
 DESCRIPTION:- Indian civil date: 1943-03-25\, Islamic: 1442-11-05 Ḏū al
@@ -19285,7 +19299,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ज्यैष्ठः-03-06\,सिंहः-मघा🌛🌌
  ◢◣मिथुनम्-मृगशीर्षम्-03-02🌌🌞
- ◢◣शुक्रः-03-27🪐🌞
+ ◢◣शुक्रः-03-27🪐🌞बुधः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210616T055721
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210617T055732
 DESCRIPTION:- Indian civil date: 1943-03-26\, Islamic: 1442-11-06 Ḏū al
@@ -19492,7 +19506,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ज्यैष्ठः-03-07\,सिंहः-पूर्वफ
  ल्गुनी🌛🌌◢◣मिथुनम्-मृगशीर
- ्षम्-03-03🌌🌞◢◣शुक्रः-03-28🪐🌞
+ ्षम्-03-03🌌🌞◢◣शुक्रः-03-28🪐🌞गुर
+ ुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210617T055732
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210618T055743
 DESCRIPTION:- Indian civil date: 1943-03-27\, Islamic: 1442-11-07 Ḏū al
@@ -19622,7 +19637,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ज्यैष्ठः-03-08\,कन्या-उत्तरफ
  ल्गुनी🌛🌌◢◣मिथुनम्-मृगशीर
- ्षम्-03-04🌌🌞◢◣शुक्रः-03-29🪐🌞
+ ्षम्-03-04🌌🌞◢◣शुक्रः-03-29🪐🌞शुक
+ ्रः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210618T055743
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210619T055755
 DESCRIPTION:- Indian civil date: 1943-03-28\, Islamic: 1442-11-08 Ḏū al
@@ -19749,7 +19765,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ज्यैष्ठः-03-09\,कन्या-हस्तः
  🌛🌌◢◣मिथुनम्-मृगशीर्षम्-03-05
- 🌌🌞◢◣शुक्रः-03-30🪐🌞
+ 🌌🌞◢◣शुक्रः-03-30🪐🌞शनिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210619T055755
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210620T055807
 DESCRIPTION:- Indian civil date: 1943-03-29\, Islamic: 1442-11-09 Ḏū al
@@ -19875,7 +19891,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ज्यैष्ठः-03-10\,कन्या-चित्रा
  🌛🌌◢◣मिथुनम्-मृगशीर्षम्-03-06
- 🌌🌞◢◣शुक्रः-03-31🪐🌞
+ 🌌🌞◢◣शुक्रः-03-31🪐🌞भानुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210620T055807
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210621T055820
 DESCRIPTION:- Indian civil date: 1943-03-30\, Islamic: 1442-11-10 Ḏū al
@@ -20058,7 +20074,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ज्यैष्ठः-03-11\,तुला-स्वाती
  🌛🌌◢◣मिथुनम्-मृगशीर्षम्-03-07
- 🌌🌞◢◣शुचिः-04-01🪐🌞
+ 🌌🌞◢◣शुचिः-04-01🪐🌞सोमः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210621T055820
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210622T055833
 DESCRIPTION:- Indian civil date: 1943-03-31\, Islamic: 1442-11-11 Ḏū al
@@ -20248,7 +20264,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ज्यैष्ठः-03-12\,तुला-विशाखा
  🌛🌌◢◣मिथुनम्-आर्द्रा-03-08🌌🌞◢
- ◣शुचिः-04-02🪐🌞
+ ◣शुचिः-04-02🪐🌞मङ्गलः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210622T055833
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210623T055847
 DESCRIPTION:- Indian civil date: 1943-04-01\, Islamic: 1442-11-12 Ḏū al
@@ -20431,7 +20447,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ज्यैष्ठः-03-13\,वृश्चिकः-अनू
  राधा🌛🌌◢◣मिथुनम्-आर्द्रा-03-0
- 9🌌🌞◢◣शुचिः-04-03🪐🌞
+ 9🌌🌞◢◣शुचिः-04-03🪐🌞बुधः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210623T055847
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210624T055900
 DESCRIPTION:- Indian civil date: 1943-04-02\, Islamic: 1442-11-13 Ḏū al
@@ -20617,7 +20633,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ज्यैष्ठः-03-15\,वृश्चिकः-ज्य
  ेष्ठा🌛🌌◢◣मिथुनम्-आर्द्रा-0
- 3-10🌌🌞◢◣शुचिः-04-04🪐🌞
+ 3-10🌌🌞◢◣शुचिः-04-04🪐🌞गुरुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210624T055900
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210625T055915
 DESCRIPTION:- Indian civil date: 1943-04-03\, Islamic: 1442-11-14 Ḏū al
@@ -20862,7 +20878,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ज्यैष्ठः-03-16\,धनुः-मूला🌛🌌
  ◢◣मिथुनम्-आर्द्रा-03-11🌌🌞◢◣श
- ुचिः-04-05🪐🌞
+ ुचिः-04-05🪐🌞शुक्रः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210625T055915
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210626T055929
 DESCRIPTION:- Indian civil date: 1943-04-04\, Islamic: 1442-11-15 Ḏū al
@@ -20965,7 +20981,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ज्यैष्ठः-03-17\,धनुः-उत्तराष
  ाढा🌛🌌◢◣मिथुनम्-आर्द्रा-03-12
- 🌌🌞◢◣शुचिः-04-06🪐🌞
+ 🌌🌞◢◣शुचिः-04-06🪐🌞शनिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210626T055929
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210627T055944
 DESCRIPTION:- Indian civil date: 1943-04-05\, Islamic: 1442-11-16 Ḏū al
@@ -21019,7 +21035,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ज्यैष्ठः-03-18\,मकरः-श्रवणः
  🌛🌌◢◣मिथुनम्-आर्द्रा-03-13🌌🌞◢
- ◣शुचिः-04-07🪐🌞
+ ◣शुचिः-04-07🪐🌞भानुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210627T055944
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210628T055959
 DESCRIPTION:- Indian civil date: 1943-04-06\, Islamic: 1442-11-17 Ḏū al
@@ -21130,7 +21146,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ज्यैष्ठः-03-19\,मकरः-श्रविष्
  ठा🌛🌌◢◣मिथुनम्-आर्द्रा-03-14🌌
- 🌞◢◣शुचिः-04-08🪐🌞
+ 🌞◢◣शुचिः-04-08🪐🌞सोमः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210628T055959
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210629T060015
 DESCRIPTION:- Indian civil date: 1943-04-07\, Islamic: 1442-11-18 Ḏū al
@@ -21201,7 +21217,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ज्यैष्ठः-03-20\,कुम्भः-शतभिष
  क्🌛🌌◢◣मिथुनम्-आर्द्रा-03-15🌌
- 🌞◢◣शुचिः-04-09🪐🌞
+ 🌞◢◣शुचिः-04-09🪐🌞मङ्गलः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210629T060015
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210630T060031
 DESCRIPTION:- Indian civil date: 1943-04-08\, Islamic: 1442-11-19 Ḏū al
@@ -21292,7 +21308,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ज्यैष्ठः-03-21\,कुम्भः-पूर्व
  प्रोष्ठपदा🌛🌌◢◣मिथुनम्-आर
- ्द्रा-03-16🌌🌞◢◣शुचिः-04-10🪐🌞
+ ्द्रा-03-16🌌🌞◢◣शुचिः-04-10🪐🌞बुध
+ ः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210630T060031
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210701T060047
 DESCRIPTION:- Indian civil date: 1943-04-09\, Islamic: 1442-11-20 Ḏū al
@@ -21346,7 +21363,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ज्यैष्ठः-03-22\,मीनः-उत्तरप्
  रोष्ठपदा🌛🌌◢◣मिथुनम्-आर्द
- ्रा-03-17🌌🌞◢◣शुचिः-04-11🪐🌞
+ ्रा-03-17🌌🌞◢◣शुचिः-04-11🪐🌞गुरुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210701T060047
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210702T060103
 DESCRIPTION:- Indian civil date: 1943-04-10\, Islamic: 1442-11-21 Ḏū al
@@ -21419,7 +21436,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ज्यैष्ठः-03-23\,मीनः-रेवती🌛
  🌌◢◣मिथुनम्-आर्द्रा-03-18🌌🌞◢◣
- शुचिः-04-12🪐🌞
+ शुचिः-04-12🪐🌞शुक्रः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210702T060103
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210703T060119
 DESCRIPTION:- Indian civil date: 1943-04-11\, Islamic: 1442-11-22 Ḏū al
@@ -21577,7 +21594,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ज्यैष्ठः-03-24\,मीनः-रेवती🌛
  🌌◢◣मिथुनम्-आर्द्रा-03-19🌌🌞◢◣
- शुचिः-04-13🪐🌞
+ शुचिः-04-13🪐🌞शनिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210703T060119
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210704T060135
 DESCRIPTION:- Indian civil date: 1943-04-12\, Islamic: 1442-11-23 Ḏū al
@@ -21646,7 +21663,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ज्यैष्ठः-03-25\,मेषः-अश्विनी
  🌛🌌◢◣मिथुनम्-आर्द्रा-03-20🌌🌞◢
- ◣शुचिः-04-14🪐🌞
+ ◣शुचिः-04-14🪐🌞भानुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210704T060135
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210705T060152
 DESCRIPTION:- Indian civil date: 1943-04-13\, Islamic: 1442-11-24 Ḏū al
@@ -21700,7 +21717,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ज्यैष्ठः-03-26\,मेषः-अपभरणी
  🌛🌌◢◣मिथुनम्-आर्द्रा-03-21🌌🌞◢
- ◣शुचिः-04-15🪐🌞
+ ◣शुचिः-04-15🪐🌞सोमः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210705T060152
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210706T060209
 DESCRIPTION:- Indian civil date: 1943-04-14\, Islamic: 1442-11-25 Ḏū al
@@ -21789,7 +21806,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ज्यैष्ठः-03-27\,वृषभः-कृत्ति
  का🌛🌌◢◣मिथुनम्-पुनर्वसुः-03-2
- 2🌌🌞◢◣शुचिः-04-16🪐🌞
+ 2🌌🌞◢◣शुचिः-04-16🪐🌞मङ्गलः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210706T060209
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210707T060226
 DESCRIPTION:- Indian civil date: 1943-04-15\, Islamic: 1442-11-26 Ḏū al
@@ -21913,7 +21930,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ज्यैष्ठः-03-28\,वृषभः-रोहिणी
  🌛🌌◢◣मिथुनम्-पुनर्वसुः-03-23🌌
- 🌞◢◣शुचिः-04-17🪐🌞
+ 🌞◢◣शुचिः-04-17🪐🌞बुधः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210707T060226
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210708T060242
 DESCRIPTION:- Indian civil date: 1943-04-16\, Islamic: 1442-11-27 Ḏū al
@@ -22001,7 +22018,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ज्यैष्ठः-03-29\,वृषभः-मृगशीर
  ्षम्🌛🌌◢◣मिथुनम्-पुनर्वसु
- ः-03-24🌌🌞◢◣शुचिः-04-18🪐🌞
+ ः-03-24🌌🌞◢◣शुचिः-04-18🪐🌞गुरुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210708T060242
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210709T060259
 DESCRIPTION:- Indian civil date: 1943-04-17\, Islamic: 1442-11-28 Ḏū al
@@ -22089,7 +22106,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ज्यैष्ठः-03-30\,मिथुनम्-आर्द
  ्रा🌛🌌◢◣मिथुनम्-पुनर्वसुः-0
- 3-25🌌🌞◢◣शुचिः-04-19🪐🌞
+ 3-25🌌🌞◢◣शुचिः-04-19🪐🌞शुक्रः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210709T060259
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210710T060316
 DESCRIPTION:- Indian civil date: 1943-04-18\, Islamic: 1442-11-29 Ḏū al
@@ -22206,7 +22223,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ज्यैष्ठः-03-30\,मिथुनम्-पुनर
  ्वसुः🌛🌌◢◣मिथुनम्-पुनर्वस
- ुः-03-26🌌🌞◢◣शुचिः-04-20🪐🌞
+ ुः-03-26🌌🌞◢◣शुचिः-04-20🪐🌞शनिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210710T060316
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210711T060333
 DESCRIPTION:- Indian civil date: 1943-04-19\, Islamic: 1442-11-30 Ḏū al
@@ -22330,7 +22347,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:आषाढः-04-01\,कर्कटः-पुष्यः🌛
  🌌◢◣मिथुनम्-पुनर्वसुः-03-27🌌🌞
- ◢◣शुचिः-04-21🪐🌞
+ ◢◣शुचिः-04-21🪐🌞भानुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210711T060333
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210712T060350
 DESCRIPTION:- Indian civil date: 1943-04-20\, Islamic: 1442-12-01 Ḏū al
@@ -22451,7 +22468,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:आषाढः-04-02\,कर्कटः-आश्रेषा
  🌛🌌◢◣मिथुनम्-पुनर्वसुः-03-28🌌
- 🌞◢◣शुचिः-04-22🪐🌞
+ 🌞◢◣शुचिः-04-22🪐🌞सोमः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210712T060350
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210713T060406
 DESCRIPTION:- Indian civil date: 1943-04-21\, Islamic: 1442-12-02 Ḏū al
@@ -22571,7 +22588,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:आषाढः-04-03\,सिंहः-मघा🌛🌌◢◣म
  िथुनम्-पुनर्वसुः-03-29🌌🌞◢◣शु
- चिः-04-23🪐🌞
+ चिः-04-23🪐🌞मङ्गलः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210713T060406
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210714T060423
 DESCRIPTION:- Indian civil date: 1943-04-22\, Islamic: 1442-12-03 Ḏū al
@@ -22676,7 +22693,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:आषाढः-04-04\,सिंहः-पूर्वफल्ग
  ुनी🌛🌌◢◣मिथुनम्-पुनर्वसुः-0
- 3-30🌌🌞◢◣शुचिः-04-24🪐🌞
+ 3-30🌌🌞◢◣शुचिः-04-24🪐🌞बुधः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210714T060423
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210715T060439
 DESCRIPTION:- Indian civil date: 1943-04-23\, Islamic: 1442-12-04 Ḏū al
@@ -22764,7 +22781,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:आषाढः-04-05\,सिंहः-उत्तरफल्ग
  ुनी🌛🌌◢◣मिथुनम्-पुनर्वसुः-0
- 3-31🌌🌞◢◣शुचिः-04-25🪐🌞
+ 3-31🌌🌞◢◣शुचिः-04-25🪐🌞गुरुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210715T060439
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210716T060456
 DESCRIPTION:- Indian civil date: 1943-04-24\, Islamic: 1442-12-05 Ḏū al
@@ -22976,7 +22993,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:आषाढः-04-06\,कन्या-हस्तः🌛🌌◢
  ◣कर्कटः-पुनर्वसुः-04-01🌌🌞◢◣श
- ुचिः-04-26🪐🌞
+ ुचिः-04-26🪐🌞शुक्रः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210716T060456
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210717T060512
 DESCRIPTION:- Indian civil date: 1943-04-25\, Islamic: 1442-12-06 Ḏū al
@@ -23096,7 +23113,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:आषाढः-04-08\,कन्या-चित्रा🌛🌌
  ◢◣कर्कटः-पुनर्वसुः-04-02🌌🌞◢◣
- शुचिः-04-27🪐🌞
+ शुचिः-04-27🪐🌞शनिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210717T060512
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210718T060528
 DESCRIPTION:- Indian civil date: 1943-04-26\, Islamic: 1442-12-07 Ḏū al
@@ -23183,7 +23200,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:आषाढः-04-09\,तुला-स्वाती🌛🌌◢
  ◣कर्कटः-पुनर्वसुः-04-03🌌🌞◢◣श
- ुचिः-04-28🪐🌞
+ ुचिः-04-28🪐🌞भानुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210718T060528
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210719T060543
 DESCRIPTION:- Indian civil date: 1943-04-27\, Islamic: 1442-12-08 Ḏū al
@@ -23338,7 +23355,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:आषाढः-04-10\,तुला-विशाखा🌛🌌◢
  ◣कर्कटः-पुनर्वसुः-04-04🌌🌞◢◣श
- ुचिः-04-29🪐🌞
+ ुचिः-04-29🪐🌞सोमः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210719T060543
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210720T060559
 DESCRIPTION:- Indian civil date: 1943-04-28\, Islamic: 1442-12-09 Ḏū al
@@ -23468,7 +23485,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:आषाढः-04-11\,वृश्चिकः-अनूराध
  ा🌛🌌◢◣कर्कटः-पुष्यः-04-05🌌🌞◢◣
- शुचिः-04-30🪐🌞
+ शुचिः-04-30🪐🌞मङ्गलः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210720T060559
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210721T060614
 DESCRIPTION:- Indian civil date: 1943-04-29\, Islamic: 1442-12-10 Ḏū al
@@ -23587,7 +23604,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:आषाढः-04-12\,वृश्चिकः-ज्येष्
  ठा🌛🌌◢◣कर्कटः-पुष्यः-04-06🌌🌞◢
- ◣शुचिः-04-31🪐🌞
+ ◣शुचिः-04-31🪐🌞बुधः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210721T060614
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210722T060629
 DESCRIPTION:- Indian civil date: 1943-04-30\, Islamic: 1442-12-11 Ḏū al
@@ -23793,7 +23810,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:आषाढः-04-13\,धनुः-मूला🌛🌌◢◣क
  र्कटः-पुष्यः-04-07🌌🌞◢◣शुचिः-04-3
- 2🪐🌞
+ 2🪐🌞गुरुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210722T060629
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210723T060644
 DESCRIPTION:- Indian civil date: 1943-04-31\, Islamic: 1442-12-12 Ḏū al
@@ -23897,7 +23914,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:आषाढः-04-14\,धनुः-पूर्वाषाढा
  🌛🌌◢◣कर्कटः-पुष्यः-04-08🌌🌞◢◣न
- भः-05-01🪐🌞
+ भः-05-01🪐🌞शुक्रः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210723T060644
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210724T060658
 DESCRIPTION:- Indian civil date: 1943-05-01\, Islamic: 1442-12-13 Ḏū al
@@ -24128,7 +24145,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:आषाढः-04-15\,मकरः-उत्तराषाढा
  🌛🌌◢◣कर्कटः-पुष्यः-04-09🌌🌞◢◣न
- भः-05-02🪐🌞
+ भः-05-02🪐🌞शनिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210724T060658
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210725T060712
 DESCRIPTION:- Indian civil date: 1943-05-02\, Islamic: 1442-12-14 Ḏū al
@@ -24330,7 +24347,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:आषाढः-04-17\,मकरः-श्रवणः🌛🌌◢
  ◣कर्कटः-पुष्यः-04-10🌌🌞◢◣नभः-05-0
- 3🪐🌞
+ 3🪐🌞भानुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210725T060712
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210726T060726
 DESCRIPTION:- Indian civil date: 1943-05-03\, Islamic: 1442-12-15 Ḏū al
@@ -24439,7 +24456,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:आषाढः-04-18\,कुम्भः-श्रविष्ठ
  ा🌛🌌◢◣कर्कटः-पुष्यः-04-11🌌🌞◢◣
- नभः-05-04🪐🌞
+ नभः-05-04🪐🌞सोमः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210726T060726
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210727T060740
 DESCRIPTION:- Indian civil date: 1943-05-04\, Islamic: 1442-12-16 Ḏū al
@@ -24513,7 +24530,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:आषाढः-04-19\,कुम्भः-शतभिषक्
  🌛🌌◢◣कर्कटः-पुष्यः-04-12🌌🌞◢◣न
- भः-05-05🪐🌞
+ भः-05-05🪐🌞मङ्गलः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210727T060740
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210728T060753
 DESCRIPTION:- Indian civil date: 1943-05-05\, Islamic: 1442-12-17 Ḏū al
@@ -24610,7 +24627,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:आषाढः-04-20\,मीनः-पूर्वप्रोष
  ्ठपदा🌛🌌◢◣कर्कटः-पुष्यः-04-13
- 🌌🌞◢◣नभः-05-06🪐🌞
+ 🌌🌞◢◣नभः-05-06🪐🌞बुधः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210728T060753
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210729T060806
 DESCRIPTION:- Indian civil date: 1943-05-06\, Islamic: 1442-12-18 Ḏū al
@@ -24664,7 +24681,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:आषाढः-04-21\,मीनः-उत्तरप्रोष
  ्ठपदा🌛🌌◢◣कर्कटः-पुष्यः-04-14
- 🌌🌞◢◣नभः-05-07🪐🌞
+ 🌌🌞◢◣नभः-05-07🪐🌞गुरुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210729T060806
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210730T060819
 DESCRIPTION:- Indian civil date: 1943-05-07\, Islamic: 1442-12-19 Ḏū al
@@ -24718,7 +24735,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:आषाढः-04-22\,मीनः-रेवती🌛🌌◢◣
  कर्कटः-पुष्यः-04-15🌌🌞◢◣नभः-05-08
- 🪐🌞
+ 🪐🌞शुक्रः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210730T060819
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210731T060831
 DESCRIPTION:- Indian civil date: 1943-05-08\, Islamic: 1442-12-20 Ḏū al
@@ -24841,7 +24858,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:आषाढः-04-23\,मेषः-अश्विनी🌛🌌
  ◢◣कर्कटः-पुष्यः-04-16🌌🌞◢◣नभः-0
- 5-09🪐🌞
+ 5-09🪐🌞शनिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210731T060831
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210801T060844
 DESCRIPTION:- Indian civil date: 1943-05-09\, Islamic: 1442-12-21 Ḏū al
@@ -24893,7 +24910,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:आषाढः-04-23\,मेषः-अपभरणी🌛🌌◢
  ◣कर्कटः-पुष्यः-04-17🌌🌞◢◣नभः-05-1
- 0🪐🌞
+ 0🪐🌞भानुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210801T060844
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210802T060855
 DESCRIPTION:- Indian civil date: 1943-05-10\, Islamic: 1442-12-22 Ḏū al
@@ -24984,7 +25001,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:आषाढः-04-24\,वृषभः-कृत्तिका
  🌛🌌◢◣कर्कटः-पुष्यः-04-18🌌🌞◢◣न
- भः-05-11🪐🌞
+ भः-05-11🪐🌞सोमः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210802T060855
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210803T060907
 DESCRIPTION:- Indian civil date: 1943-05-11\, Islamic: 1442-12-23 Ḏū al
@@ -25128,7 +25145,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:आषाढः-04-25\,वृषभः-रोहिणी🌛🌌
  ◢◣कर्कटः-आश्रेषा-04-19🌌🌞◢◣नभ
- ः-05-12🪐🌞
+ ः-05-12🪐🌞मङ्गलः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210803T060907
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210804T060918
 DESCRIPTION:- Indian civil date: 1943-05-12\, Islamic: 1442-12-24 Ḏū al
@@ -25200,7 +25217,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:आषाढः-04-26\,वृषभः-मृगशीर्षम
  ्🌛🌌◢◣कर्कटः-आश्रेषा-04-20🌌🌞◢
- ◣नभः-05-13🪐🌞
+ ◣नभः-05-13🪐🌞बुधः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210804T060918
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210805T060928
 DESCRIPTION:- Indian civil date: 1943-05-13\, Islamic: 1442-12-25 Ḏū al
@@ -25292,7 +25309,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:आषाढः-04-27\,मिथुनम्-आर्द्रा
  🌛🌌◢◣कर्कटः-आश्रेषा-04-21🌌🌞◢◣
- नभः-05-14🪐🌞
+ नभः-05-14🪐🌞गुरुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210805T060928
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210806T060939
 DESCRIPTION:- Indian civil date: 1943-05-14\, Islamic: 1442-12-26 Ḏū al
@@ -25419,7 +25436,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:आषाढः-04-28\,मिथुनम्-आर्द्रा
  🌛🌌◢◣कर्कटः-आश्रेषा-04-22🌌🌞◢◣
- नभः-05-15🪐🌞
+ नभः-05-15🪐🌞शुक्रः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210806T060939
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210807T060949
 DESCRIPTION:- Indian civil date: 1943-05-15\, Islamic: 1442-12-27 Ḏū al
@@ -25505,7 +25522,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:आषाढः-04-29\,कर्कटः-पुनर्वसु
  ः🌛🌌◢◣कर्कटः-आश्रेषा-04-23🌌🌞◢
- ◣नभः-05-16🪐🌞
+ ◣नभः-05-16🪐🌞शनिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210807T060949
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210808T060958
 DESCRIPTION:- Indian civil date: 1943-05-16\, Islamic: 1442-12-28 Ḏū al
@@ -25559,7 +25576,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:आषाढः-04-30\,कर्कटः-पुष्यः🌛
  🌌◢◣कर्कटः-आश्रेषा-04-24🌌🌞◢◣न
- भः-05-17🪐🌞
+ भः-05-17🪐🌞भानुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210808T060958
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210809T061008
 DESCRIPTION:- Indian civil date: 1943-05-17\, Islamic: 1442-12-29 Ḏū al
@@ -25792,7 +25809,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:श्रावणः-05-01\,कर्कटः-आश्रेष
  ा🌛🌌◢◣कर्कटः-आश्रेषा-04-25🌌🌞◢
- ◣नभः-05-18🪐🌞
+ ◣नभः-05-18🪐🌞सोमः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210809T061008
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210810T061016
 DESCRIPTION:- Indian civil date: 1943-05-18\, Islamic: 1442-12-30 Ḏū al
@@ -25899,7 +25916,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:श्रावणः-05-02\,सिंहः-मघा🌛🌌◢
  ◣कर्कटः-आश्रेषा-04-26🌌🌞◢◣नभः-0
- 5-19🪐🌞
+ 5-19🪐🌞मङ्गलः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210810T061016
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210811T061025
 DESCRIPTION:- Indian civil date: 1943-05-19\, Islamic: 1443-01-01 Al-Muḥ
@@ -26007,7 +26024,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:श्रावणः-05-03\,सिंहः-पूर्वफल
  ्गुनी🌛🌌◢◣कर्कटः-आश्रेषा-04-2
- 7🌌🌞◢◣नभः-05-20🪐🌞
+ 7🌌🌞◢◣नभः-05-20🪐🌞बुधः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210811T061025
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210812T061033
 DESCRIPTION:- Indian civil date: 1943-05-20\, Islamic: 1443-01-02 Al-Muḥ
@@ -26149,7 +26166,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:श्रावणः-05-04\,कन्या-उत्तरफल
  ्गुनी🌛🌌◢◣कर्कटः-आश्रेषा-04-2
- 8🌌🌞◢◣नभः-05-21🪐🌞
+ 8🌌🌞◢◣नभः-05-21🪐🌞गुरुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210812T061033
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210813T061041
 DESCRIPTION:- Indian civil date: 1943-05-21\, Islamic: 1443-01-03 Al-Muḥ
@@ -26220,7 +26237,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:श्रावणः-05-05\,कन्या-हस्तः🌛
  🌌◢◣कर्कटः-आश्रेषा-04-29🌌🌞◢◣न
- भः-05-22🪐🌞
+ भः-05-22🪐🌞शुक्रः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210813T061041
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210814T061048
 DESCRIPTION:- Indian civil date: 1943-05-22\, Islamic: 1443-01-04 Al-Muḥ
@@ -26363,7 +26380,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:श्रावणः-05-06\,तुला-चित्रा🌛
  🌌◢◣कर्कटः-आश्रेषा-04-30🌌🌞◢◣न
- भः-05-23🪐🌞
+ भः-05-23🪐🌞शनिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210814T061048
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210815T061055
 DESCRIPTION:- Indian civil date: 1943-05-23\, Islamic: 1443-01-05 Al-Muḥ
@@ -26504,7 +26521,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:श्रावणः-05-07\,तुला-विशाखा🌛
  🌌◢◣कर्कटः-आश्रेषा-04-31🌌🌞◢◣न
- भः-05-24🪐🌞
+ भः-05-24🪐🌞भानुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210815T061055
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210816T061101
 DESCRIPTION:- Indian civil date: 1943-05-24\, Islamic: 1443-01-06 Al-Muḥ
@@ -26665,7 +26682,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:श्रावणः-05-08\,वृश्चिकः-अनूर
  ाधा🌛🌌◢◣कर्कटः-आश्रेषा-04-32🌌
- 🌞◢◣नभः-05-25🪐🌞
+ 🌞◢◣नभः-05-25🪐🌞सोमः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210816T061101
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210817T061108
 DESCRIPTION:- Indian civil date: 1943-05-25\, Islamic: 1443-01-07 Al-Muḥ
@@ -26792,7 +26809,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:श्रावणः-05-10\,वृश्चिकः-ज्ये
  ष्ठा🌛🌌◢◣सिंहः-मघा-05-01🌌🌞◢◣न
- भः-05-26🪐🌞
+ भः-05-26🪐🌞मङ्गलः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210817T061108
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210818T061113
 DESCRIPTION:- Indian civil date: 1943-05-26\, Islamic: 1443-01-08 Al-Muḥ
@@ -26900,7 +26917,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:श्रावणः-05-11\,धनुः-मूला🌛🌌◢
- ◣सिंहः-मघा-05-02🌌🌞◢◣नभः-05-27🪐🌞
+ ◣सिंहः-मघा-05-02🌌🌞◢◣नभः-05-27🪐🌞ब
+ ुधः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210818T061113
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210819T061119
 DESCRIPTION:- Indian civil date: 1943-05-27\, Islamic: 1443-01-09 Al-Muḥ
@@ -26992,7 +27010,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:श्रावणः-05-12\,धनुः-पूर्वाषा
  ढा🌛🌌◢◣सिंहः-मघा-05-03🌌🌞◢◣नभः
- -05-28🪐🌞
+ -05-28🪐🌞गुरुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210819T061119
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210820T061124
 DESCRIPTION:- Indian civil date: 1943-05-28\, Islamic: 1443-01-10 Al-Muḥ
@@ -27138,7 +27156,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:श्रावणः-05-13\,मकरः-उत्तराषा
  ढा🌛🌌◢◣सिंहः-मघा-05-04🌌🌞◢◣नभः
- -05-29🪐🌞
+ -05-29🪐🌞शुक्रः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210820T061124
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210821T061128
 DESCRIPTION:- Indian civil date: 1943-05-29\, Islamic: 1443-01-11 Al-Muḥ
@@ -27258,7 +27276,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:श्रावणः-05-14\,मकरः-श्रवणः🌛
  🌌◢◣सिंहः-मघा-05-05🌌🌞◢◣नभः-05-30🪐
- 🌞
+ 🌞शनिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210821T061128
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210822T061133
 DESCRIPTION:- Indian civil date: 1943-05-30\, Islamic: 1443-01-12 Al-Muḥ
@@ -27401,7 +27419,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:श्रावणः-05-15\,मकरः-श्रविष्ठ
  ा🌛🌌◢◣सिंहः-मघा-05-06🌌🌞◢◣नभः-05
- -31🪐🌞
+ -31🪐🌞भानुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210822T061133
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210823T061137
 DESCRIPTION:- Indian civil date: 1943-05-31\, Islamic: 1443-01-13 Al-Muḥ
@@ -27710,7 +27728,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:श्रावणः-05-16\,कुम्भः-शतभिषक
  ्🌛🌌◢◣सिंहः-मघा-05-07🌌🌞◢◣नभस्
- यः-06-01🪐🌞
+ यः-06-01🪐🌞सोमः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210823T061137
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210824T061141
 DESCRIPTION:- Indian civil date: 1943-06-01\, Islamic: 1443-01-14 Al-Muḥ
@@ -27829,7 +27847,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:श्रावणः-05-17\,कुम्भः-पूर्वप
  ्रोष्ठपदा🌛🌌◢◣सिंहः-मघा-05-08
- 🌌🌞◢◣नभस्यः-06-02🪐🌞
+ 🌌🌞◢◣नभस्यः-06-02🪐🌞मङ्गलः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210824T061141
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210825T061144
 DESCRIPTION:- Indian civil date: 1943-06-02\, Islamic: 1443-01-15 Al-Muḥ
@@ -27939,7 +27957,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:श्रावणः-05-18\,मीनः-उत्तरप्र
  ोष्ठपदा🌛🌌◢◣सिंहः-मघा-05-09🌌🌞
- ◢◣नभस्यः-06-03🪐🌞
+ ◢◣नभस्यः-06-03🪐🌞बुधः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210825T061144
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210826T061147
 DESCRIPTION:- Indian civil date: 1943-06-03\, Islamic: 1443-01-16 Al-Muḥ
@@ -28079,7 +28097,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:श्रावणः-05-19\,मीनः-रेवती🌛🌌
  ◢◣सिंहः-मघा-05-10🌌🌞◢◣नभस्यः-06-0
- 4🪐🌞
+ 4🪐🌞गुरुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210826T061147
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210827T061150
 DESCRIPTION:- Indian civil date: 1943-06-04\, Islamic: 1443-01-17 Al-Muḥ
@@ -28132,7 +28150,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:श्रावणः-05-20\,मेषः-अश्विनी
  🌛🌌◢◣सिंहः-मघा-05-11🌌🌞◢◣नभस्य
- ः-06-05🪐🌞
+ ः-06-05🪐🌞शुक्रः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210827T061150
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210828T061153
 DESCRIPTION:- Indian civil date: 1943-06-05\, Islamic: 1443-01-18 Al-Muḥ
@@ -28221,7 +28239,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:श्रावणः-05-21\,मेषः-अपभरणी🌛
  🌌◢◣सिंहः-मघा-05-12🌌🌞◢◣नभस्यः-
- 06-06🪐🌞
+ 06-06🪐🌞शनिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210828T061153
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210829T061155
 DESCRIPTION:- Indian civil date: 1943-06-06\, Islamic: 1443-01-19 Al-Muḥ
@@ -28292,7 +28310,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:श्रावणः-05-22\,मेषः-कृत्तिका
  🌛🌌◢◣सिंहः-मघा-05-13🌌🌞◢◣नभस्य
- ः-06-07🪐🌞
+ ः-06-07🪐🌞भानुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210829T061155
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210830T061157
 DESCRIPTION:- Indian civil date: 1943-06-07\, Islamic: 1443-01-20 Al-Muḥ
@@ -28420,7 +28438,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:श्रावणः-05-23\,वृषभः-कृत्तिक
  ा🌛🌌◢◣सिंहः-मघा-05-14🌌🌞◢◣नभस्
- यः-06-08🪐🌞
+ यः-06-08🪐🌞सोमः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210830T061157
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210831T061159
 DESCRIPTION:- Indian civil date: 1943-06-08\, Islamic: 1443-01-21 Al-Muḥ
@@ -28583,7 +28601,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:श्रावणः-05-24\,वृषभः-रोहिणी
  🌛🌌◢◣सिंहः-पूर्वफल्गुनी-05-15
- 🌌🌞◢◣नभस्यः-06-09🪐🌞
+ 🌌🌞◢◣नभस्यः-06-09🪐🌞मङ्गलः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210831T061159
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210901T061201
 DESCRIPTION:- Indian civil date: 1943-06-09\, Islamic: 1443-01-22 Al-Muḥ
@@ -28738,7 +28756,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:श्रावणः-05-25\,मिथुनम्-मृगशी
  र्षम्🌛🌌◢◣सिंहः-पूर्वफल्ग
- ुनी-05-16🌌🌞◢◣नभस्यः-06-10🪐🌞
+ ुनी-05-16🌌🌞◢◣नभस्यः-06-10🪐🌞बुधः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210901T061201
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210902T061203
 DESCRIPTION:- Indian civil date: 1943-06-10\, Islamic: 1443-01-23 Al-Muḥ
@@ -28810,7 +28828,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:श्रावणः-05-25\,मिथुनम्-आर्द्
  रा🌛🌌◢◣सिंहः-पूर्वफल्गुनी-0
- 5-17🌌🌞◢◣नभस्यः-06-11🪐🌞
+ 5-17🌌🌞◢◣नभस्यः-06-11🪐🌞गुरुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210902T061203
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210903T061204
 DESCRIPTION:- Indian civil date: 1943-06-11\, Islamic: 1443-01-24 Al-Muḥ
@@ -28898,7 +28916,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:श्रावणः-05-26\,मिथुनम्-पुनर्
  वसुः🌛🌌◢◣सिंहः-पूर्वफल्गु
- नी-05-18🌌🌞◢◣नभस्यः-06-12🪐🌞
+ नी-05-18🌌🌞◢◣नभस्यः-06-12🪐🌞शुक्र
+ ः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210903T061204
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210904T061205
 DESCRIPTION:- Indian civil date: 1943-06-12\, Islamic: 1443-01-25 Al-Muḥ
@@ -29006,7 +29025,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:श्रावणः-05-27\,कर्कटः-पुष्यः
  🌛🌌◢◣सिंहः-पूर्वफल्गुनी-05-19
- 🌌🌞◢◣नभस्यः-06-13🪐🌞
+ 🌌🌞◢◣नभस्यः-06-13🪐🌞शनिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210904T061205
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210905T061206
 DESCRIPTION:- Indian civil date: 1943-06-13\, Islamic: 1443-01-26 Al-Muḥ
@@ -29166,7 +29185,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:श्रावणः-05-28\,कर्कटः-आश्रेष
  ा🌛🌌◢◣सिंहः-पूर्वफल्गुनी-05-2
- 0🌌🌞◢◣नभस्यः-06-14🪐🌞
+ 0🌌🌞◢◣नभस्यः-06-14🪐🌞भानुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210905T061206
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210906T061207
 DESCRIPTION:- Indian civil date: 1943-06-14\, Islamic: 1443-01-27 Al-Muḥ
@@ -29307,7 +29326,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:श्रावणः-05-29\,सिंहः-मघा🌛🌌◢
  ◣सिंहः-पूर्वफल्गुनी-05-21🌌🌞◢
- ◣नभस्यः-06-15🪐🌞
+ ◣नभस्यः-06-15🪐🌞सोमः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210906T061207
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210907T061208
 DESCRIPTION:- Indian civil date: 1943-06-15\, Islamic: 1443-01-28 Al-Muḥ
@@ -29464,7 +29483,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:श्रावणः-05-30\,सिंहः-पूर्वफल
  ्गुनी🌛🌌◢◣सिंहः-पूर्वफल्ग
- ुनी-05-22🌌🌞◢◣नभस्यः-06-16🪐🌞
+ ुनी-05-22🌌🌞◢◣नभस्यः-06-16🪐🌞मङ्ग
+ लः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210907T061208
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210908T061208
 DESCRIPTION:- Indian civil date: 1943-06-16\, Islamic: 1443-01-29 Al-Muḥ
@@ -29619,7 +29639,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:भाद्रपदः-06-02\,कन्या-उत्तरफ
  ल्गुनी🌛🌌◢◣सिंहः-पूर्वफल्
- गुनी-05-23🌌🌞◢◣नभस्यः-06-17🪐🌞
+ गुनी-05-23🌌🌞◢◣नभस्यः-06-17🪐🌞बुध
+ ः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210908T061208
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210909T061209
 DESCRIPTION:- Indian civil date: 1943-06-17\, Islamic: 1443-01-30 Al-Muḥ
@@ -29726,7 +29747,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:भाद्रपदः-06-03\,कन्या-हस्तः
  🌛🌌◢◣सिंहः-पूर्वफल्गुनी-05-24
- 🌌🌞◢◣नभस्यः-06-18🪐🌞
+ 🌌🌞◢◣नभस्यः-06-18🪐🌞गुरुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210909T061209
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210910T061209
 DESCRIPTION:- Indian civil date: 1943-06-18\, Islamic: 1443-02-01 Ṣafar\
@@ -29881,7 +29902,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:भाद्रपदः-06-04\,तुला-चित्रा
  🌛🌌◢◣सिंहः-पूर्वफल्गुनी-05-25
- 🌌🌞◢◣नभस्यः-06-19🪐🌞
+ 🌌🌞◢◣नभस्यः-06-19🪐🌞शुक्रः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210910T061209
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210911T061210
 DESCRIPTION:- Indian civil date: 1943-06-19\, Islamic: 1443-02-02 Ṣafar\
@@ -29970,7 +29991,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:भाद्रपदः-06-05\,तुला-स्वाती
  🌛🌌◢◣सिंहः-पूर्वफल्गुनी-05-26
- 🌌🌞◢◣नभस्यः-06-20🪐🌞
+ 🌌🌞◢◣नभस्यः-06-20🪐🌞शनिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210911T061210
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210912T061210
 DESCRIPTION:- Indian civil date: 1943-06-20\, Islamic: 1443-02-03 Ṣafar\
@@ -30074,7 +30095,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:भाद्रपदः-06-06\,वृश्चिकः-विश
  ाखा🌛🌌◢◣सिंहः-पूर्वफल्गुन
- ी-05-27🌌🌞◢◣नभस्यः-06-21🪐🌞
+ ी-05-27🌌🌞◢◣नभस्यः-06-21🪐🌞भानुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210912T061210
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210913T061210
 DESCRIPTION:- Indian civil date: 1943-06-21\, Islamic: 1443-02-04 Ṣafar\
@@ -30272,7 +30293,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:भाद्रपदः-06-07\,वृश्चिकः-अनू
  राधा🌛🌌◢◣सिंहः-पूर्वफल्गु
- नी-05-28🌌🌞◢◣नभस्यः-06-22🪐🌞
+ नी-05-28🌌🌞◢◣नभस्यः-06-22🪐🌞सोमः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210913T061210
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210914T061210
 DESCRIPTION:- Indian civil date: 1943-06-22\, Islamic: 1443-02-05 Ṣafar\
@@ -30413,7 +30434,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:भाद्रपदः-06-08\,वृश्चिकः-ज्य
  ेष्ठा🌛🌌◢◣सिंहः-उत्तरफल्ग
- ुनी-05-29🌌🌞◢◣नभस्यः-06-23🪐🌞
+ ुनी-05-29🌌🌞◢◣नभस्यः-06-23🪐🌞मङ्ग
+ लः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210914T061210
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210915T061210
 DESCRIPTION:- Indian civil date: 1943-06-23\, Islamic: 1443-02-06 Ṣafar\
@@ -30554,7 +30576,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:भाद्रपदः-06-09\,धनुः-पूर्वाष
  ाढा🌛🌌◢◣सिंहः-उत्तरफल्गुन
- ी-05-30🌌🌞◢◣नभस्यः-06-24🪐🌞
+ ी-05-30🌌🌞◢◣नभस्यः-06-24🪐🌞बुधः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210915T061210
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210916T061210
 DESCRIPTION:- Indian civil date: 1943-06-24\, Islamic: 1443-02-07 Ṣafar\
@@ -30706,7 +30728,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:भाद्रपदः-06-10\,धनुः-उत्तराष
  ाढा🌛🌌◢◣सिंहः-उत्तरफल्गुन
- ी-05-31🌌🌞◢◣नभस्यः-06-25🪐🌞
+ ी-05-31🌌🌞◢◣नभस्यः-06-25🪐🌞गुरुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210916T061210
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210917T061210
 DESCRIPTION:- Indian civil date: 1943-06-25\, Islamic: 1443-02-08 Ṣafar\
@@ -30831,7 +30853,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:भाद्रपदः-06-11\,मकरः-श्रवणः
  🌛🌌◢◣कन्या-उत्तरफल्गुनी-06-01
- 🌌🌞◢◣नभस्यः-06-26🪐🌞
+ 🌌🌞◢◣नभस्यः-06-26🪐🌞शुक्रः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210917T061210
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210918T061210
 DESCRIPTION:- Indian civil date: 1943-06-26\, Islamic: 1443-02-09 Ṣafar\
@@ -31012,7 +31034,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:भाद्रपदः-06-12\,मकरः-श्रविष्
  ठा🌛🌌◢◣कन्या-उत्तरफल्गुनी-0
- 6-02🌌🌞◢◣नभस्यः-06-27🪐🌞
+ 6-02🌌🌞◢◣नभस्यः-06-27🪐🌞शनिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210918T061210
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210919T061210
 DESCRIPTION:- Indian civil date: 1943-06-27\, Islamic: 1443-02-10 Ṣafar\
@@ -31211,7 +31233,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:भाद्रपदः-06-14\,कुम्भः-शतभिष
  क्🌛🌌◢◣कन्या-उत्तरफल्गुनी-0
- 6-03🌌🌞◢◣नभस्यः-06-28🪐🌞
+ 6-03🌌🌞◢◣नभस्यः-06-28🪐🌞भानुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210919T061210
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210920T061211
 DESCRIPTION:- Indian civil date: 1943-06-28\, Islamic: 1443-02-11 Ṣafar\
@@ -31339,7 +31361,7 @@ BEGIN:VEVENT
 SUMMARY:भाद्रपदः-06-15\,कुम्भः-पूर्व
  प्रोष्ठपदा🌛🌌◢◣कन्या-उत्त
  रफल्गुनी-06-04🌌🌞◢◣नभस्यः-06-29🪐
- 🌞
+ 🌞सोमः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210920T061211
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210921T061211
 DESCRIPTION:- Indian civil date: 1943-06-29\, Islamic: 1443-02-12 Ṣafar\
@@ -31568,7 +31590,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:भाद्रपदः-06-16\,मीनः-उत्तरप्
  रोष्ठपदा🌛🌌◢◣कन्या-उत्तरफ
- ल्गुनी-06-05🌌🌞◢◣नभस्यः-06-30🪐🌞
+ ल्गुनी-06-05🌌🌞◢◣नभस्यः-06-30🪐🌞म
+ ङ्गलः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210921T061211
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210922T061211
 DESCRIPTION:- Indian civil date: 1943-06-30\, Islamic: 1443-02-13 Ṣafar\
@@ -31690,7 +31713,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:भाद्रपदः-06-17\,मीनः-रेवती🌛
  🌌◢◣कन्या-उत्तरफल्गुनी-06-06🌌
- 🌞◢◣नभस्यः-06-31🪐🌞
+ 🌞◢◣नभस्यः-06-31🪐🌞बुधः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210922T061211
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210923T061212
 DESCRIPTION:- Indian civil date: 1943-06-31\, Islamic: 1443-02-14 Ṣafar\
@@ -31795,7 +31818,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:भाद्रपदः-06-17\,मीनः-रेवती🌛
  🌌◢◣कन्या-उत्तरफल्गुनी-06-07🌌
- 🌞◢◣इषः-07-01🪐🌞
+ 🌞◢◣इषः-07-01🪐🌞गुरुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210923T061212
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210924T061212
 DESCRIPTION:- Indian civil date: 1943-07-01\, Islamic: 1443-02-15 Ṣafar\
@@ -31864,7 +31887,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:भाद्रपदः-06-18\,मेषः-अश्विनी
  🌛🌌◢◣कन्या-उत्तरफल्गुनी-06-08
- 🌌🌞◢◣इषः-07-02🪐🌞
+ 🌌🌞◢◣इषः-07-02🪐🌞शुक्रः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210924T061212
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210925T061213
 DESCRIPTION:- Indian civil date: 1943-07-02\, Islamic: 1443-02-16 Ṣafar\
@@ -32008,7 +32031,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:भाद्रपदः-06-19\,मेषः-अपभरणी
  🌛🌌◢◣कन्या-उत्तरफल्गुनी-06-09
- 🌌🌞◢◣इषः-07-03🪐🌞
+ 🌌🌞◢◣इषः-07-03🪐🌞शनिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210925T061213
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210926T061214
 DESCRIPTION:- Indian civil date: 1943-07-03\, Islamic: 1443-02-17 Ṣafar\
@@ -32113,7 +32136,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:भाद्रपदः-06-20\,वृषभः-कृत्ति
  का🌛🌌◢◣कन्या-उत्तरफल्गुनी-0
- 6-10🌌🌞◢◣इषः-07-04🪐🌞
+ 6-10🌌🌞◢◣इषः-07-04🪐🌞भानुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210926T061214
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210927T061215
 DESCRIPTION:- Indian civil date: 1943-07-04\, Islamic: 1443-02-18 Ṣafar\
@@ -32239,7 +32262,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:भाद्रपदः-06-21\,वृषभः-रोहिणी
  🌛🌌◢◣कन्या-हस्तः-06-11🌌🌞◢◣इषः
- -07-05🪐🌞
+ -07-05🪐🌞सोमः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210927T061215
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210928T061217
 DESCRIPTION:- Indian civil date: 1943-07-05\, Islamic: 1443-02-19 Ṣafar\
@@ -32349,7 +32372,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:भाद्रपदः-06-22\,वृषभः-मृगशीर
  ्षम्🌛🌌◢◣कन्या-हस्तः-06-12🌌🌞◢
- ◣इषः-07-06🪐🌞
+ ◣इषः-07-06🪐🌞मङ्गलः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210928T061217
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210929T061218
 DESCRIPTION:- Indian civil date: 1943-07-06\, Islamic: 1443-02-20 Ṣafar\
@@ -32472,7 +32495,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:भाद्रपदः-06-23\,मिथुनम्-आर्द
  ्रा🌛🌌◢◣कन्या-हस्तः-06-13🌌🌞◢◣
- इषः-07-07🪐🌞
+ इषः-07-07🪐🌞बुधः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210929T061218
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210930T061220
 DESCRIPTION:- Indian civil date: 1943-07-07\, Islamic: 1443-02-21 Ṣafar\
@@ -32599,7 +32622,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:भाद्रपदः-06-24\,मिथुनम्-पुनर
  ्वसुः🌛🌌◢◣कन्या-हस्तः-06-14🌌🌞
- ◢◣इषः-07-08🪐🌞
+ ◢◣इषः-07-08🪐🌞गुरुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210930T061220
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211001T061222
 DESCRIPTION:- Indian civil date: 1943-07-08\, Islamic: 1443-02-22 Ṣafar\
@@ -32690,7 +32713,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:भाद्रपदः-06-25\,कर्कटः-पुष्य
  ः🌛🌌◢◣कन्या-हस्तः-06-15🌌🌞◢◣इष
- ः-07-09🪐🌞
+ ः-07-09🪐🌞शुक्रः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211001T061222
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211002T061225
 DESCRIPTION:- Indian civil date: 1943-07-09\, Islamic: 1443-02-23 Ṣafar\
@@ -32743,7 +32766,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:भाद्रपदः-06-26\,कर्कटः-आश्रे
  षा🌛🌌◢◣कन्या-हस्तः-06-16🌌🌞◢◣इ
- षः-07-10🪐🌞
+ षः-07-10🪐🌞शनिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211002T061225
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211003T061227
 DESCRIPTION:- Indian civil date: 1943-07-10\, Islamic: 1443-02-24 Ṣafar\
@@ -32830,7 +32853,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:भाद्रपदः-06-27\,सिंहः-मघा🌛🌌
  ◢◣कन्या-हस्तः-06-17🌌🌞◢◣इषः-07-11
- 🪐🌞
+ 🪐🌞भानुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211003T061227
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211004T061230
 DESCRIPTION:- Indian civil date: 1943-07-11\, Islamic: 1443-02-25 Ṣafar\
@@ -32933,7 +32956,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:भाद्रपदः-06-28\,सिंहः-पूर्वफ
  ल्गुनी🌛🌌◢◣कन्या-हस्तः-06-18🌌
- 🌞◢◣इषः-07-12🪐🌞
+ 🌞◢◣इषः-07-12🪐🌞सोमः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211004T061230
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211005T061234
 DESCRIPTION:- Indian civil date: 1943-07-12\, Islamic: 1443-02-26 Ṣafar\
@@ -33084,7 +33107,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:भाद्रपदः-06-29\,सिंहः-उत्तरफ
  ल्गुनी🌛🌌◢◣कन्या-हस्तः-06-19🌌
- 🌞◢◣इषः-07-13🪐🌞
+ 🌞◢◣इषः-07-13🪐🌞मङ्गलः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211005T061234
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211006T061238
 DESCRIPTION:- Indian civil date: 1943-07-13\, Islamic: 1443-02-27 Ṣafar\
@@ -33210,7 +33233,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:भाद्रपदः-06-30\,कन्या-हस्तः
  🌛🌌◢◣कन्या-हस्तः-06-20🌌🌞◢◣इषः
- -07-14🪐🌞
+ -07-14🪐🌞बुधः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211006T061238
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211007T061242
 DESCRIPTION:- Indian civil date: 1943-07-14\, Islamic: 1443-02-28 Ṣafar\
@@ -33379,7 +33402,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:आश्वयुजः-07-01\,कन्या-चित्रा
  🌛🌌◢◣कन्या-हस्तः-06-21🌌🌞◢◣इषः
- -07-15🪐🌞
+ -07-15🪐🌞गुरुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211007T061242
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211008T061246
 DESCRIPTION:- Indian civil date: 1943-07-15\, Islamic: 1443-02-29 Ṣafar\
@@ -33583,7 +33606,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:आश्वयुजः-07-02\,तुला-स्वाती
  🌛🌌◢◣कन्या-हस्तः-06-22🌌🌞◢◣इषः
- -07-16🪐🌞
+ -07-16🪐🌞शुक्रः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211008T061246
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211009T061251
 DESCRIPTION:- Indian civil date: 1943-07-16\, Islamic: 1443-03-01 Rabīʿ 
@@ -33636,7 +33659,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:आश्वयुजः-07-03\,तुला-विशाखा
  🌛🌌◢◣कन्या-हस्तः-06-23🌌🌞◢◣इषः
- -07-17🪐🌞
+ -07-17🪐🌞शनिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211009T061251
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211010T061256
 DESCRIPTION:- Indian civil date: 1943-07-17\, Islamic: 1443-03-02 Rabīʿ 
@@ -33739,7 +33762,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:आश्वयुजः-07-05\,वृश्चिकः-अनू
  राधा🌛🌌◢◣कन्या-हस्तः-06-24🌌🌞◢
- ◣इषः-07-18🪐🌞
+ ◣इषः-07-18🪐🌞भानुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211010T061256
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211011T061302
 DESCRIPTION:- Indian civil date: 1943-07-18\, Islamic: 1443-03-03 Rabīʿ 
@@ -33861,7 +33884,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:आश्वयुजः-07-06\,वृश्चिकः-ज्य
  ेष्ठा🌛🌌◢◣कन्या-चित्रा-06-25🌌
- 🌞◢◣इषः-07-19🪐🌞
+ 🌞◢◣इषः-07-19🪐🌞सोमः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211011T061302
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211012T061308
 DESCRIPTION:- Indian civil date: 1943-07-19\, Islamic: 1443-03-04 Rabīʿ 
@@ -33948,7 +33971,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:आश्वयुजः-07-07\,धनुः-मूला🌛🌌
  ◢◣कन्या-चित्रा-06-26🌌🌞◢◣इषः-07-2
- 0🪐🌞
+ 0🪐🌞मङ्गलः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211012T061308
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211013T061314
 DESCRIPTION:- Indian civil date: 1943-07-20\, Islamic: 1443-03-05 Rabīʿ 
@@ -34057,7 +34080,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:आश्वयुजः-07-08\,धनुः-पूर्वाष
  ाढा🌛🌌◢◣कन्या-चित्रा-06-27🌌🌞◢
- ◣इषः-07-21🪐🌞
+ ◣इषः-07-21🪐🌞बुधः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211013T061314
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211014T061321
 DESCRIPTION:- Indian civil date: 1943-07-21\, Islamic: 1443-03-06 Rabīʿ 
@@ -34240,7 +34263,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:आश्वयुजः-07-09\,मकरः-उत्तराष
  ाढा🌛🌌◢◣कन्या-चित्रा-06-28🌌🌞◢
- ◣इषः-07-22🪐🌞
+ ◣इषः-07-22🪐🌞गुरुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211014T061321
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211015T061329
 DESCRIPTION:- Indian civil date: 1943-07-22\, Islamic: 1443-03-07 Rabīʿ 
@@ -34432,7 +34455,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:आश्वयुजः-07-10\,मकरः-श्रवणः
  🌛🌌◢◣कन्या-चित्रा-06-29🌌🌞◢◣इष
- ः-07-23🪐🌞
+ ः-07-23🪐🌞शुक्रः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211015T061329
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211016T061336
 DESCRIPTION:- Indian civil date: 1943-07-23\, Islamic: 1443-03-08 Rabīʿ 
@@ -34680,7 +34703,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:आश्वयुजः-07-11\,कुम्भः-श्रवि
  ष्ठा🌛🌌◢◣कन्या-चित्रा-06-30🌌🌞
- ◢◣इषः-07-24🪐🌞
+ ◢◣इषः-07-24🪐🌞शनिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211016T061336
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211017T061345
 DESCRIPTION:- Indian civil date: 1943-07-24\, Islamic: 1443-03-09 Rabīʿ 
@@ -34787,7 +34810,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:आश्वयुजः-07-12\,कुम्भः-शतभिष
  क्🌛🌌◢◣तुला-चित्रा-07-01🌌🌞◢◣इ
- षः-07-25🪐🌞
+ षः-07-25🪐🌞भानुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211017T061345
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211018T061354
 DESCRIPTION:- Indian civil date: 1943-07-25\, Islamic: 1443-03-10 Rabīʿ 
@@ -34952,7 +34975,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:आश्वयुजः-07-13\,मीनः-पूर्वप्
  रोष्ठपदा🌛🌌◢◣तुला-चित्रा-07-0
- 2🌌🌞◢◣इषः-07-26🪐🌞
+ 2🌌🌞◢◣इषः-07-26🪐🌞सोमः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211018T061354
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211019T061403
 DESCRIPTION:- Indian civil date: 1943-07-26\, Islamic: 1443-03-11 Rabīʿ 
@@ -35024,7 +35047,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:आश्वयुजः-07-14\,मीनः-उत्तरप्
  रोष्ठपदा🌛🌌◢◣तुला-चित्रा-07-0
- 3🌌🌞◢◣इषः-07-27🪐🌞
+ 3🌌🌞◢◣इषः-07-27🪐🌞मङ्गलः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211019T061403
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211020T061413
 DESCRIPTION:- Indian civil date: 1943-07-27\, Islamic: 1443-03-12 Rabīʿ 
@@ -35101,7 +35124,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:आश्वयुजः-07-15\,मीनः-रेवती🌛
  🌌◢◣तुला-चित्रा-07-04🌌🌞◢◣इषः-07-
- 28🪐🌞
+ 28🪐🌞बुधः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211020T061413
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211021T061423
 DESCRIPTION:- Indian civil date: 1943-07-28\, Islamic: 1443-03-13 Rabīʿ 
@@ -35387,7 +35410,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:आश्वयुजः-07-16\,मेषः-अश्विनी
  🌛🌌◢◣तुला-चित्रा-07-05🌌🌞◢◣इषः
- -07-29🪐🌞
+ -07-29🪐🌞गुरुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211021T061423
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211022T061434
 DESCRIPTION:- Indian civil date: 1943-07-29\, Islamic: 1443-03-14 Rabīʿ 
@@ -35524,7 +35547,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:आश्वयुजः-07-17\,मेषः-अपभरणी
  🌛🌌◢◣तुला-चित्रा-07-06🌌🌞◢◣इषः
- -07-30🪐🌞
+ -07-30🪐🌞शुक्रः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211022T061434
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211023T061446
 DESCRIPTION:- Indian civil date: 1943-07-30\, Islamic: 1443-03-15 Rabīʿ 
@@ -35653,7 +35676,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:आश्वयुजः-07-18\,वृषभः-कृत्ति
  का🌛🌌◢◣तुला-चित्रा-07-07🌌🌞◢◣ऊ
- र्जः-08-01🪐🌞
+ र्जः-08-01🪐🌞शनिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211023T061446
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211024T061458
 DESCRIPTION:- Indian civil date: 1943-08-01\, Islamic: 1443-03-16 Rabīʿ 
@@ -35843,7 +35866,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:आश्वयुजः-07-19\,वृषभः-रोहिणी
  🌛🌌◢◣तुला-स्वाती-07-08🌌🌞◢◣ऊर्
- जः-08-02🪐🌞
+ जः-08-02🪐🌞भानुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211024T061458
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211025T061510
 DESCRIPTION:- Indian civil date: 1943-08-02\, Islamic: 1443-03-17 Rabīʿ 
@@ -35936,7 +35959,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:आश्वयुजः-07-20\,वृषभः-मृगशीर
  ्षम्🌛🌌◢◣तुला-स्वाती-07-09🌌🌞◢
- ◣ऊर्जः-08-03🪐🌞
+ ◣ऊर्जः-08-03🪐🌞सोमः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211025T061510
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211026T061524
 DESCRIPTION:- Indian civil date: 1943-08-03\, Islamic: 1443-03-18 Rabīʿ 
@@ -36024,7 +36047,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:आश्वयुजः-07-20\,मिथुनम्-आर्द
  ्रा🌛🌌◢◣तुला-स्वाती-07-10🌌🌞◢◣
- ऊर्जः-08-04🪐🌞
+ ऊर्जः-08-04🪐🌞मङ्गलः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211026T061524
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211027T061538
 DESCRIPTION:- Indian civil date: 1943-08-04\, Islamic: 1443-03-19 Rabīʿ 
@@ -36111,7 +36134,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:आश्वयुजः-07-21\,मिथुनम्-आर्द
  ्रा🌛🌌◢◣तुला-स्वाती-07-11🌌🌞◢◣
- ऊर्जः-08-05🪐🌞
+ ऊर्जः-08-05🪐🌞बुधः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211027T061538
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211028T061552
 DESCRIPTION:- Indian civil date: 1943-08-05\, Islamic: 1443-03-20 Rabīʿ 
@@ -36186,7 +36209,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:आश्वयुजः-07-22\,कर्कटः-पुनर्
  वसुः🌛🌌◢◣तुला-स्वाती-07-12🌌🌞◢
- ◣ऊर्जः-08-06🪐🌞
+ ◣ऊर्जः-08-06🪐🌞गुरुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211028T061552
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211029T061607
 DESCRIPTION:- Indian civil date: 1943-08-06\, Islamic: 1443-03-21 Rabīʿ 
@@ -36258,7 +36281,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:आश्वयुजः-07-23\,कर्कटः-पुष्य
  ः🌛🌌◢◣तुला-स्वाती-07-13🌌🌞◢◣ऊर
- ्जः-08-07🪐🌞
+ ्जः-08-07🪐🌞शुक्रः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211029T061607
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211030T061623
 DESCRIPTION:- Indian civil date: 1943-08-07\, Islamic: 1443-03-22 Rabīʿ 
@@ -36397,7 +36420,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:आश्वयुजः-07-24\,कर्कटः-आश्रे
  षा🌛🌌◢◣तुला-स्वाती-07-14🌌🌞◢◣ऊ
- र्जः-08-08🪐🌞
+ र्जः-08-08🪐🌞शनिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211030T061623
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211031T061640
 DESCRIPTION:- Indian civil date: 1943-08-08\, Islamic: 1443-03-23 Rabīʿ 
@@ -36487,7 +36510,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:आश्वयुजः-07-25\,सिंहः-मघा🌛🌌
  ◢◣तुला-स्वाती-07-15🌌🌞◢◣ऊर्जः-0
- 8-09🪐🌞
+ 8-09🪐🌞भानुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211031T061640
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211101T061657
 DESCRIPTION:- Indian civil date: 1943-08-09\, Islamic: 1443-03-24 Rabīʿ 
@@ -36559,7 +36582,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:आश्वयुजः-07-26\,सिंहः-पूर्वफ
  ल्गुनी🌛🌌◢◣तुला-स्वाती-07-16🌌
- 🌞◢◣ऊर्जः-08-10🪐🌞
+ 🌞◢◣ऊर्जः-08-10🪐🌞सोमः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211101T061657
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211102T061714
 DESCRIPTION:- Indian civil date: 1943-08-10\, Islamic: 1443-03-25 Rabīʿ 
@@ -36713,7 +36736,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:आश्वयुजः-07-27\,कन्या-उत्तरफ
  ल्गुनी🌛🌌◢◣तुला-स्वाती-07-17🌌
- 🌞◢◣ऊर्जः-08-11🪐🌞
+ 🌞◢◣ऊर्जः-08-11🪐🌞मङ्गलः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211102T061714
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211103T061733
 DESCRIPTION:- Indian civil date: 1943-08-11\, Islamic: 1443-03-26 Rabīʿ 
@@ -36835,7 +36858,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:आश्वयुजः-07-28\,कन्या-हस्तः
  🌛🌌◢◣तुला-स्वाती-07-18🌌🌞◢◣ऊर्
- जः-08-12🪐🌞
+ जः-08-12🪐🌞बुधः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211103T061733
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211104T061752
 DESCRIPTION:- Indian civil date: 1943-08-12\, Islamic: 1443-03-27 Rabīʿ 
@@ -37080,7 +37103,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:आश्वयुजः-07-30\,तुला-चित्रा
  🌛🌌◢◣तुला-स्वाती-07-19🌌🌞◢◣ऊर्
- जः-08-13🪐🌞
+ जः-08-13🪐🌞गुरुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211104T061752
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211105T061811
 DESCRIPTION:- Indian civil date: 1943-08-13\, Islamic: 1443-03-28 Rabīʿ 
@@ -37299,7 +37322,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:कार्त्तिकः-08-01\,तुला-विशाख
  ा🌛🌌◢◣तुला-स्वाती-07-20🌌🌞◢◣ऊर
- ्जः-08-14🪐🌞
+ ्जः-08-14🪐🌞शुक्रः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211105T061811
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211106T061832
 DESCRIPTION:- Indian civil date: 1943-08-14\, Islamic: 1443-03-29 Rabīʿ 
@@ -37421,7 +37444,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:कार्त्तिकः-08-02\,वृश्चिकः-अ
  नूराधा🌛🌌◢◣तुला-स्वाती-07-21🌌
- 🌞◢◣ऊर्जः-08-15🪐🌞
+ 🌞◢◣ऊर्जः-08-15🪐🌞शनिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211106T061832
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211107T061853
 DESCRIPTION:- Indian civil date: 1943-08-15\, Islamic: 1443-03-30 Rabīʿ 
@@ -37527,7 +37550,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:कार्त्तिकः-08-03\,वृश्चिकः-ज
  ्येष्ठा🌛🌌◢◣तुला-विशाखा-07-22
- 🌌🌞◢◣ऊर्जः-08-16🪐🌞
+ 🌌🌞◢◣ऊर्जः-08-16🪐🌞भानुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211107T061853
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211108T061914
 DESCRIPTION:- Indian civil date: 1943-08-16\, Islamic: 1443-04-01 Rabīʿ 
@@ -37581,7 +37604,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:कार्त्तिकः-08-04\,धनुः-मूला
  🌛🌌◢◣तुला-विशाखा-07-23🌌🌞◢◣ऊर्
- जः-08-17🪐🌞
+ जः-08-17🪐🌞सोमः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211108T061914
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211109T061936
 DESCRIPTION:- Indian civil date: 1943-08-17\, Islamic: 1443-04-02 Rabīʿ 
@@ -37668,7 +37691,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:कार्त्तिकः-08-05\,धनुः-पूर्व
  ाषाढा🌛🌌◢◣तुला-विशाखा-07-24🌌🌞
- ◢◣ऊर्जः-08-18🪐🌞
+ ◢◣ऊर्जः-08-18🪐🌞मङ्गलः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211109T061936
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211110T061959
 DESCRIPTION:- Indian civil date: 1943-08-18\, Islamic: 1443-04-03 Rabīʿ 
@@ -37819,7 +37842,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:कार्त्तिकः-08-06\,मकरः-उत्तर
  ाषाढा🌛🌌◢◣तुला-विशाखा-07-25🌌🌞
- ◢◣ऊर्जः-08-19🪐🌞
+ ◢◣ऊर्जः-08-19🪐🌞बुधः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211110T061959
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211111T062022
 DESCRIPTION:- Indian civil date: 1943-08-19\, Islamic: 1443-04-04 Rabīʿ 
@@ -37888,7 +37911,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:कार्त्तिकः-08-07\,मकरः-श्रवण
  ः🌛🌌◢◣तुला-विशाखा-07-26🌌🌞◢◣ऊर
- ्जः-08-20🪐🌞
+ ्जः-08-20🪐🌞गुरुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211111T062022
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211112T062046
 DESCRIPTION:- Indian civil date: 1943-08-20\, Islamic: 1443-04-05 Rabīʿ 
@@ -38019,7 +38042,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:कार्त्तिकः-08-09\,कुम्भः-श्र
  विष्ठा🌛🌌◢◣तुला-विशाखा-07-27🌌
- 🌞◢◣ऊर्जः-08-21🪐🌞
+ 🌞◢◣ऊर्जः-08-21🪐🌞शुक्रः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211112T062046
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211113T062110
 DESCRIPTION:- Indian civil date: 1943-08-21\, Islamic: 1443-04-06 Rabīʿ 
@@ -38163,7 +38186,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:कार्त्तिकः-08-10\,कुम्भः-शतभ
  िषक्🌛🌌◢◣तुला-विशाखा-07-28🌌🌞◢
- ◣ऊर्जः-08-22🪐🌞
+ ◣ऊर्जः-08-22🪐🌞शनिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211113T062110
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211114T062135
 DESCRIPTION:- Indian civil date: 1943-08-22\, Islamic: 1443-04-07 Rabīʿ 
@@ -38253,7 +38276,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:कार्त्तिकः-08-11\,कुम्भः-पूर
  ्वप्रोष्ठपदा🌛🌌◢◣तुला-विश
- ाखा-07-29🌌🌞◢◣ऊर्जः-08-23🪐🌞
+ ाखा-07-29🌌🌞◢◣ऊर्जः-08-23🪐🌞भानुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211114T062135
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211115T062201
 DESCRIPTION:- Indian civil date: 1943-08-23\, Islamic: 1443-04-08 Rabīʿ 
@@ -38343,7 +38366,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:कार्त्तिकः-08-11\,मीनः-उत्तर
  प्रोष्ठपदा🌛🌌◢◣तुला-विशाख
- ा-07-30🌌🌞◢◣ऊर्जः-08-24🪐🌞
+ ा-07-30🌌🌞◢◣ऊर्जः-08-24🪐🌞सोमः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211115T062201
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211116T062227
 DESCRIPTION:- Indian civil date: 1943-08-24\, Islamic: 1443-04-09 Rabīʿ 
@@ -38596,7 +38619,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:कार्त्तिकः-08-12\,मीनः-रेवती
  🌛🌌◢◣वृश्चिकः-विशाखा-08-01🌌🌞◢
- ◣ऊर्जः-08-25🪐🌞
+ ◣ऊर्जः-08-25🪐🌞मङ्गलः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211116T062227
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211117T062253
 DESCRIPTION:- Indian civil date: 1943-08-25\, Islamic: 1443-04-10 Rabīʿ 
@@ -38813,7 +38836,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:कार्त्तिकः-08-13\,मेषः-अश्वि
  नी🌛🌌◢◣वृश्चिकः-विशाखा-08-02🌌
- 🌞◢◣ऊर्जः-08-26🪐🌞
+ 🌞◢◣ऊर्जः-08-26🪐🌞बुधः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211117T062253
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211118T062321
 DESCRIPTION:- Indian civil date: 1943-08-26\, Islamic: 1443-04-11 Rabīʿ 
@@ -38922,7 +38945,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:कार्त्तिकः-08-14\,मेषः-अपभरण
  ी🌛🌌◢◣वृश्चिकः-विशाखा-08-03🌌🌞
- ◢◣ऊर्जः-08-27🪐🌞
+ ◢◣ऊर्जः-08-27🪐🌞गुरुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211118T062321
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211119T062348
 DESCRIPTION:- Indian civil date: 1943-08-27\, Islamic: 1443-04-12 Rabīʿ 
@@ -39139,7 +39162,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:कार्त्तिकः-08-15\,मेषः-कृत्त
  िका🌛🌌◢◣वृश्चिकः-विशाखा-08-04
- 🌌🌞◢◣ऊर्जः-08-28🪐🌞
+ 🌌🌞◢◣ऊर्जः-08-28🪐🌞शुक्रः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211119T062348
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211120T062416
 DESCRIPTION:- Indian civil date: 1943-08-28\, Islamic: 1443-04-13 Rabīʿ 
@@ -39435,7 +39458,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:कार्त्तिकः-08-16\,वृषभः-रोहि
  णी🌛🌌◢◣वृश्चिकः-अनूराधा-08-05
- 🌌🌞◢◣ऊर्जः-08-29🪐🌞
+ 🌌🌞◢◣ऊर्जः-08-29🪐🌞शनिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211120T062416
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211121T062445
 DESCRIPTION:- Indian civil date: 1943-08-29\, Islamic: 1443-04-14 Rabīʿ 
@@ -39613,7 +39636,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:कार्त्तिकः-08-17\,वृषभः-रोहि
  णी🌛🌌◢◣वृश्चिकः-अनूराधा-08-06
- 🌌🌞◢◣ऊर्जः-08-30🪐🌞
+ 🌌🌞◢◣ऊर्जः-08-30🪐🌞भानुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211121T062445
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211122T062514
 DESCRIPTION:- Indian civil date: 1943-08-30\, Islamic: 1443-04-15 Rabīʿ 
@@ -39717,7 +39740,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:कार्त्तिकः-08-18\,मिथुनम्-मृ
  गशीर्षम्🌛🌌◢◣वृश्चिकः-अनू
- राधा-08-07🌌🌞◢◣सहः-09-01🪐🌞
+ राधा-08-07🌌🌞◢◣सहः-09-01🪐🌞सोमः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211122T062514
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211123T062543
 DESCRIPTION:- Indian civil date: 1943-09-01\, Islamic: 1443-04-16 Rabīʿ 
@@ -39902,7 +39925,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:कार्त्तिकः-08-19\,मिथुनम्-आर
  ्द्रा🌛🌌◢◣वृश्चिकः-अनूराध
- ा-08-08🌌🌞◢◣सहः-09-02🪐🌞
+ ा-08-08🌌🌞◢◣सहः-09-02🪐🌞मङ्गलः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211123T062543
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211124T062613
 DESCRIPTION:- Indian civil date: 1943-09-02\, Islamic: 1443-04-17 Rabīʿ 
@@ -40031,7 +40054,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:कार्त्तिकः-08-20\,मिथुनम्-पु
  नर्वसुः🌛🌌◢◣वृश्चिकः-अनूर
- ाधा-08-09🌌🌞◢◣सहः-09-03🪐🌞
+ ाधा-08-09🌌🌞◢◣सहः-09-03🪐🌞बुधः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211124T062613
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211125T062644
 DESCRIPTION:- Indian civil date: 1943-09-03\, Islamic: 1443-04-18 Rabīʿ 
@@ -40085,7 +40108,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:कार्त्तिकः-08-21\,कर्कटः-पुष
  ्यः🌛🌌◢◣वृश्चिकः-अनूराधा-08-1
- 0🌌🌞◢◣सहः-09-04🪐🌞
+ 0🌌🌞◢◣सहः-09-04🪐🌞गुरुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211125T062644
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211126T062714
 DESCRIPTION:- Indian civil date: 1943-09-04\, Islamic: 1443-04-19 Rabīʿ 
@@ -40177,7 +40200,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:कार्त्तिकः-08-22\,कर्कटः-आश्
  रेषा🌛🌌◢◣वृश्चिकः-अनूराधा-0
- 8-11🌌🌞◢◣सहः-09-05🪐🌞
+ 8-11🌌🌞◢◣सहः-09-05🪐🌞शुक्रः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211126T062714
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211127T062746
 DESCRIPTION:- Indian civil date: 1943-09-05\, Islamic: 1443-04-20 Rabīʿ 
@@ -40250,7 +40273,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:कार्त्तिकः-08-23\,सिंहः-मघा
  🌛🌌◢◣वृश्चिकः-अनूराधा-08-12🌌🌞
- ◢◣सहः-09-06🪐🌞
+ ◢◣सहः-09-06🪐🌞शनिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211127T062746
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211128T062817
 DESCRIPTION:- Indian civil date: 1943-09-06\, Islamic: 1443-04-21 Rabīʿ 
@@ -40420,7 +40443,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:कार्त्तिकः-08-24\,सिंहः-पूर्
  वफल्गुनी🌛🌌◢◣वृश्चिकः-अनू
- राधा-08-13🌌🌞◢◣सहः-09-07🪐🌞
+ राधा-08-13🌌🌞◢◣सहः-09-07🪐🌞भानुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211128T062817
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211129T062849
 DESCRIPTION:- Indian civil date: 1943-09-07\, Islamic: 1443-04-22 Rabīʿ 
@@ -40492,7 +40515,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:कार्त्तिकः-08-25\,कन्या-उत्त
  रफल्गुनी🌛🌌◢◣वृश्चिकः-अनू
- राधा-08-14🌌🌞◢◣सहः-09-08🪐🌞
+ राधा-08-14🌌🌞◢◣सहः-09-08🪐🌞सोमः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211129T062849
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211130T062921
 DESCRIPTION:- Indian civil date: 1943-09-08\, Islamic: 1443-04-23 Rabīʿ 
@@ -40621,7 +40644,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:कार्त्तिकः-08-26\,कन्या-हस्त
  ः🌛🌌◢◣वृश्चिकः-अनूराधा-08-15🌌
- 🌞◢◣सहः-09-09🪐🌞
+ 🌞◢◣सहः-09-09🪐🌞मङ्गलः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211130T062921
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211201T062953
 DESCRIPTION:- Indian civil date: 1943-09-09\, Islamic: 1443-04-24 Rabīʿ 
@@ -40709,7 +40732,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:कार्त्तिकः-08-27\,कन्या-चित्
  रा🌛🌌◢◣वृश्चिकः-अनूराधा-08-16
- 🌌🌞◢◣सहः-09-10🪐🌞
+ 🌌🌞◢◣सहः-09-10🪐🌞बुधः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211201T062953
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211202T063026
 DESCRIPTION:- Indian civil date: 1943-09-10\, Islamic: 1443-04-25 Rabīʿ 
@@ -40781,7 +40804,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:कार्त्तिकः-08-28\,तुला-स्वात
  ी🌛🌌◢◣वृश्चिकः-अनूराधा-08-17🌌
- 🌞◢◣सहः-09-11🪐🌞
+ 🌞◢◣सहः-09-11🪐🌞गुरुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211202T063026
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211203T063059
 DESCRIPTION:- Indian civil date: 1943-09-11\, Islamic: 1443-04-26 Rabīʿ 
@@ -40901,7 +40924,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:कार्त्तिकः-08-29\,तुला-विशाख
  ा🌛🌌◢◣वृश्चिकः-ज्येष्ठा-08-18
- 🌌🌞◢◣सहः-09-12🪐🌞
+ 🌌🌞◢◣सहः-09-12🪐🌞शुक्रः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211203T063059
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211204T063132
 DESCRIPTION:- Indian civil date: 1943-09-12\, Islamic: 1443-04-27 Rabīʿ 
@@ -40975,7 +40998,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:कार्त्तिकः-08-30\,वृश्चिकः-अ
  नूराधा🌛🌌◢◣वृश्चिकः-ज्येष
- ्ठा-08-19🌌🌞◢◣सहः-09-13🪐🌞
+ ्ठा-08-19🌌🌞◢◣सहः-09-13🪐🌞शनिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211204T063132
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211205T063205
 DESCRIPTION:- Indian civil date: 1943-09-13\, Islamic: 1443-04-28 Rabīʿ 
@@ -41185,7 +41208,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:मार्गशीर्षः-09-01\,वृश्चिकः-
  ज्येष्ठा🌛🌌◢◣वृश्चिकः-ज्य
- ेष्ठा-08-20🌌🌞◢◣सहः-09-14🪐🌞
+ ेष्ठा-08-20🌌🌞◢◣सहः-09-14🪐🌞भानुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211205T063205
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211206T063238
 DESCRIPTION:- Indian civil date: 1943-09-14\, Islamic: 1443-04-29 Rabīʿ 
@@ -41399,7 +41422,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:मार्गशीर्षः-09-03\,धनुः-पूर्
  वाषाढा🌛🌌◢◣वृश्चिकः-ज्येष
- ्ठा-08-21🌌🌞◢◣सहः-09-15🪐🌞
+ ्ठा-08-21🌌🌞◢◣सहः-09-15🪐🌞सोमः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211206T063238
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211207T063311
 DESCRIPTION:- Indian civil date: 1943-09-15\, Islamic: 1443-05-01 Jumādā
@@ -41488,7 +41511,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:मार्गशीर्षः-09-04\,धनुः-उत्त
  राषाढा🌛🌌◢◣वृश्चिकः-ज्येष
- ्ठा-08-22🌌🌞◢◣सहः-09-16🪐🌞
+ ्ठा-08-22🌌🌞◢◣सहः-09-16🪐🌞मङ्गलः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211207T063311
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211208T063344
 DESCRIPTION:- Indian civil date: 1943-09-16\, Islamic: 1443-05-02 Jumādā
@@ -41573,7 +41596,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:मार्गशीर्षः-09-05\,मकरः-श्रव
  णः🌛🌌◢◣वृश्चिकः-ज्येष्ठा-08-2
- 3🌌🌞◢◣सहः-09-17🪐🌞
+ 3🌌🌞◢◣सहः-09-17🪐🌞बुधः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211208T063344
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211209T063418
 DESCRIPTION:- Indian civil date: 1943-09-17\, Islamic: 1443-05-03 Jumādā
@@ -41664,7 +41687,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:मार्गशीर्षः-09-06\,मकरः-श्रव
  िष्ठा🌛🌌◢◣वृश्चिकः-ज्येष्
- ठा-08-24🌌🌞◢◣सहः-09-18🪐🌞
+ ठा-08-24🌌🌞◢◣सहः-09-18🪐🌞गुरुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211209T063418
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211210T063451
 DESCRIPTION:- Indian civil date: 1943-09-18\, Islamic: 1443-05-04 Jumādā
@@ -41783,7 +41806,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:मार्गशीर्षः-09-07\,कुम्भः-शत
  भिषक्🌛🌌◢◣वृश्चिकः-ज्येष्
- ठा-08-25🌌🌞◢◣सहः-09-19🪐🌞
+ ठा-08-25🌌🌞◢◣सहः-09-19🪐🌞शुक्रः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211210T063451
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211211T063524
 DESCRIPTION:- Indian civil date: 1943-09-19\, Islamic: 1443-05-05 Jumādā
@@ -41897,7 +41920,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:मार्गशीर्षः-09-08\,कुम्भः-पू
  र्वप्रोष्ठपदा🌛🌌◢◣वृश्चिक
- ः-ज्येष्ठा-08-26🌌🌞◢◣सहः-09-20🪐🌞
+ ः-ज्येष्ठा-08-26🌌🌞◢◣सहः-09-20🪐🌞श
+ निः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211211T063524
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211212T063557
 DESCRIPTION:- Indian civil date: 1943-09-20\, Islamic: 1443-05-06 Jumādā
@@ -41952,7 +41976,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:मार्गशीर्षः-09-09\,मीनः-उत्त
  रप्रोष्ठपदा🌛🌌◢◣वृश्चिकः-
- ज्येष्ठा-08-27🌌🌞◢◣सहः-09-21🪐🌞
+ ज्येष्ठा-08-27🌌🌞◢◣सहः-09-21🪐🌞भा
+ नुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211212T063557
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211213T063630
 DESCRIPTION:- Indian civil date: 1943-09-21\, Islamic: 1443-05-07 Jumādā
@@ -42089,7 +42114,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:मार्गशीर्षः-09-10\,मीनः-रेवत
  ी🌛🌌◢◣वृश्चिकः-ज्येष्ठा-08-28
- 🌌🌞◢◣सहः-09-22🪐🌞
+ 🌌🌞◢◣सहः-09-22🪐🌞सोमः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211213T063630
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211214T063702
 DESCRIPTION:- Indian civil date: 1943-09-22\, Islamic: 1443-05-08 Jumādā
@@ -42183,7 +42208,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:मार्गशीर्षः-09-11\,मेषः-अश्व
  िनी🌛🌌◢◣वृश्चिकः-ज्येष्ठा-0
- 8-29🌌🌞◢◣सहः-09-23🪐🌞
+ 8-29🌌🌞◢◣सहः-09-23🪐🌞मङ्गलः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211214T063702
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211215T063734
 DESCRIPTION:- Indian civil date: 1943-09-23\, Islamic: 1443-05-09 Jumādā
@@ -42327,7 +42352,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:मार्गशीर्षः-09-12\,मेषः-अपभर
  णी🌛🌌◢◣वृश्चिकः-ज्येष्ठा-08-3
- 0🌌🌞◢◣सहः-09-24🪐🌞
+ 0🌌🌞◢◣सहः-09-24🪐🌞बुधः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211215T063734
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211216T063807
 DESCRIPTION:- Indian civil date: 1943-09-24\, Islamic: 1443-05-10 Jumādā
@@ -42462,7 +42487,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:मार्गशीर्षः-09-13\,मेषः-अपभर
  णी🌛🌌◢◣धनुः-मूला-09-01🌌🌞◢◣सहः
- -09-25🪐🌞
+ -09-25🪐🌞गुरुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211216T063807
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211217T063838
 DESCRIPTION:- Indian civil date: 1943-09-25\, Islamic: 1443-05-11 Jumādā
@@ -42572,7 +42597,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:मार्गशीर्षः-09-14\,वृषभः-कृत
  ्तिका🌛🌌◢◣धनुः-मूला-09-02🌌🌞◢◣
- सहः-09-26🪐🌞
+ सहः-09-26🪐🌞शुक्रः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211217T063838
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211218T063910
 DESCRIPTION:- Indian civil date: 1943-09-26\, Islamic: 1443-05-12 Jumādā
@@ -42625,7 +42650,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:मार्गशीर्षः-09-14\,वृषभः-रोह
  िणी🌛🌌◢◣धनुः-मूला-09-03🌌🌞◢◣सह
- ः-09-27🪐🌞
+ ः-09-27🪐🌞शनिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211218T063910
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211219T063941
 DESCRIPTION:- Indian civil date: 1943-09-27\, Islamic: 1443-05-13 Jumādā
@@ -42754,7 +42779,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:मार्गशीर्षः-09-15\,मिथुनम्-म
  ृगशीर्षम्🌛🌌◢◣धनुः-मूला-09-04
- 🌌🌞◢◣सहः-09-28🪐🌞
+ 🌌🌞◢◣सहः-09-28🪐🌞भानुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211219T063941
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211220T064012
 DESCRIPTION:- Indian civil date: 1943-09-28\, Islamic: 1443-05-14 Jumādā
@@ -42985,7 +43010,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:मार्गशीर्षः-09-16\,मिथुनम्-आ
  र्द्रा🌛🌌◢◣धनुः-मूला-09-05🌌🌞◢
- ◣सहः-09-29🪐🌞
+ ◣सहः-09-29🪐🌞सोमः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211220T064012
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211221T064042
 DESCRIPTION:- Indian civil date: 1943-09-29\, Islamic: 1443-05-15 Jumādā
@@ -43101,7 +43126,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:मार्गशीर्षः-09-17\,मिथुनम्-प
  ुनर्वसुः🌛🌌◢◣धनुः-मूला-09-06🌌
- 🌞◢◣सहः-09-30🪐🌞
+ 🌞◢◣सहः-09-30🪐🌞मङ्गलः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211221T064042
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211222T064112
 DESCRIPTION:- Indian civil date: 1943-09-30\, Islamic: 1443-05-16 Jumādā
@@ -43206,7 +43231,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:मार्गशीर्षः-09-18\,कर्कटः-पु
  ष्यः🌛🌌◢◣धनुः-मूला-09-07🌌🌞◢◣स
- हस्यः-10-01🪐🌞
+ हस्यः-10-01🪐🌞बुधः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211222T064112
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211223T064141
 DESCRIPTION:- Indian civil date: 1943-10-01\, Islamic: 1443-05-17 Jumādā
@@ -43351,7 +43376,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:मार्गशीर्षः-09-19\,कर्कटः-आश
  ्रेषा🌛🌌◢◣धनुः-मूला-09-08🌌🌞◢◣
- सहस्यः-10-02🪐🌞
+ सहस्यः-10-02🪐🌞गुरुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211223T064141
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211224T064210
 DESCRIPTION:- Indian civil date: 1943-10-02\, Islamic: 1443-05-18 Jumādā
@@ -43442,7 +43467,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:मार्गशीर्षः-09-20\,सिंहः-मघा
  🌛🌌◢◣धनुः-मूला-09-09🌌🌞◢◣सहस्य
- ः-10-03🪐🌞
+ ः-10-03🪐🌞शुक्रः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211224T064210
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211225T064238
 DESCRIPTION:- Indian civil date: 1943-10-03\, Islamic: 1443-05-19 Jumādā
@@ -43496,7 +43521,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:मार्गशीर्षः-09-21\,सिंहः-पूर
  ्वफल्गुनी🌛🌌◢◣धनुः-मूला-09-10
- 🌌🌞◢◣सहस्यः-10-04🪐🌞
+ 🌌🌞◢◣सहस्यः-10-04🪐🌞शनिः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211225T064238
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211226T064306
 DESCRIPTION:- Indian civil date: 1943-10-04\, Islamic: 1443-05-20 Jumādā
@@ -43550,7 +43575,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:मार्गशीर्षः-09-22\,सिंहः-उत्
  तरफल्गुनी🌛🌌◢◣धनुः-मूला-09-11
- 🌌🌞◢◣सहस्यः-10-05🪐🌞
+ 🌌🌞◢◣सहस्यः-10-05🪐🌞भानुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211226T064306
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211227T064333
 DESCRIPTION:- Indian civil date: 1943-10-05\, Islamic: 1443-05-21 Jumādā
@@ -43661,7 +43686,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:मार्गशीर्षः-09-23\,कन्या-हस्
  तः🌛🌌◢◣धनुः-मूला-09-12🌌🌞◢◣सहस
- ्यः-10-06🪐🌞
+ ्यः-10-06🪐🌞सोमः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211227T064333
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211228T064359
 DESCRIPTION:- Indian civil date: 1943-10-06\, Islamic: 1443-05-22 Jumādā
@@ -43755,7 +43780,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:मार्गशीर्षः-09-24\,कन्या-चित
  ्रा🌛🌌◢◣धनुः-मूला-09-13🌌🌞◢◣सह
- स्यः-10-07🪐🌞
+ स्यः-10-07🪐🌞मङ्गलः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211228T064359
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211229T064425
 DESCRIPTION:- Indian civil date: 1943-10-07\, Islamic: 1443-05-23 Jumādā
@@ -43870,7 +43895,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:मार्गशीर्षः-09-25\,तुला-स्वा
  ती🌛🌌◢◣धनुः-पूर्वाषाढा-09-14🌌
- 🌞◢◣सहस्यः-10-08🪐🌞
+ 🌞◢◣सहस्यः-10-08🪐🌞बुधः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211229T064425
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211230T064450
 DESCRIPTION:- Indian civil date: 1943-10-08\, Islamic: 1443-05-24 Jumādā
@@ -43942,7 +43967,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:मार्गशीर्षः-09-26\,तुला-विशा
  खा🌛🌌◢◣धनुः-पूर्वाषाढा-09-15🌌
- 🌞◢◣सहस्यः-10-09🪐🌞
+ 🌞◢◣सहस्यः-10-09🪐🌞गुरुः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211230T064450
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211231T064514
 DESCRIPTION:- Indian civil date: 1943-10-09\, Islamic: 1443-05-25 Jumādā
@@ -44054,7 +44079,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:मार्गशीर्षः-09-27\,वृश्चिकः-
  अनूराधा🌛🌌◢◣धनुः-पूर्वाषा
- ढा-09-16🌌🌞◢◣सहस्यः-10-10🪐🌞
+ ढा-09-16🌌🌞◢◣सहस्यः-10-10🪐🌞शुक्र
+ ः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211231T064514
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20220101T064538
 DESCRIPTION:- Indian civil date: 1943-10-10\, Islamic: 1443-05-26 Jumādā
