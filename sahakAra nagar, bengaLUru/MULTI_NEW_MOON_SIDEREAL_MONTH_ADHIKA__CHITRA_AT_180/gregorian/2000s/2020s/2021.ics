@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210106130535
+SEQUENCE:20210106134956
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -20402,6 +20402,24 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:१९१५-लवपुर-विद्रोहि-हत्य
+ ा #१२४
+DTSTART;VALUE=DATE:20210622
+DTEND;VALUE=DATE:20210623
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/06/22/ranDA
+ di-vadhaH.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/x
+ atra-later/gregorian/day/06/22/ranDAdi-vadhaH.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:वेङ्कटाचले ज्येष्ठ-अभिद
  ्येयकाभिषेकः (वज्र-कवचम्)
 DTSTART;VALUE=DATE:20210622
@@ -38623,6 +38641,27 @@ DESCRIPTION:- Indian civil date: 1943-08-25\, Islamic: 1443-04-10 Rabīʿ
  13:29  \n___________________\n- **शूलम्**—उदीची द
  िक् (►10:55)\; **परिहारः**–क्षीरम्  
  \n___________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:१९१५-लवपुर-विद्रोहि-हत्य
+ ा #१०६
+DTSTART;VALUE=DATE:20211116
+DTEND;VALUE=DATE:20211117
+DESCRIPTION:Observed on day 16 of November (gregorian) month. The event oc
+ curred in 1915 (Gregorian era).  <br/>viShNu gaNesha pingale and kartAr si
+ ngh were executed by hanging by the British. They were active conspirators
+  in the attempted mutiny (with German collaboration) under rAsh behArI bAs
+ u. They were betrayed by spies such as Kirpal Singh.<br/><br/><br/>## Deta
+ ils<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/m
+ aster/mahApuruSha/xatra-later/gregorian/day/11/16/1915-lavapura-vidrohi-ha
+ tyA.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
