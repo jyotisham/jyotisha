@@ -30,6 +30,8 @@ class Graha(JsonObject):
   SATURN = "saturn"
   RAHU = "rahu"
 
+  BODY_TO_ANGULAR_DIA_DEGREES = {SUN: .53, JUPITER: 0.0147222, VENUS: 0.0183333, SATURN: 0.005583, MARS: 0.006972, MERCURY: 0.00361111}
+
   @methodtools.lru_cache(maxsize=None)
   @classmethod
   def singleton(cls, body_name):
@@ -58,6 +60,16 @@ class Graha(JsonObject):
     elif self.body_name == Graha.RAHU:
       body_id = 10
     return body_id
+
+  def get_next_collision(self, jd_start, body2, gap=None):
+    if gap is None:
+      gap = (self.BODY_TO_ANGULAR_DIA_DEGREES[self.body_name] + self.BODY_TO_ANGULAR_DIA_DEGREES[body2.body_name])/ 2.0
+    
+    def has_collision(jd):
+      return abs(self.get_longitude(jd=jd) - body2.get_longitude(jd=jd)) > gap
+    
+    raise NotImplementedError
+
 
   def get_longitude(self, jd, ayanaamsha_id=None):
     """
