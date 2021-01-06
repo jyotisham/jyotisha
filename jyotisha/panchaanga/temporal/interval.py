@@ -213,21 +213,36 @@ class EightFoldDivision(common.JsonObject):
   """
   def __init__(self, jd_sunrise, jd_sunset, jd_next_sunrise, weekday):
     super(EightFoldDivision, self).__init__()
-    YAMAGHANTA_SLICES = [4, 3, 2, 1, 0, 6, 5]
-    # YAMAGHANTA_SLICES_NIGHT = [4, 3, 2, 1, 0, 6, 5]
     RAHUKALA_SLICES = [7, 1, 6, 4, 5, 3, 2]
+    # Every graha has an upagraha
+    # सूर्यः – कालः
+    # चन्द्रः – परिधिः/परिवेषः
+    # मङ्गलः – मृत्युः/धूमः
+    # बुधः – अर्धप्रहरः
+    # गुरुः – यमघण्टः
+    # शुक्रः – कोदण्डः
+    # शनैश्चरः – गुलिकः/कुलिकः/मान्दिः
+    # राहुः – पातः
+    # केतुः – उपकेतुः
+    #
+    # The day is divided into eight folds: first section is for the adhipati of the day, and so on.
+    # So, yamaghanta on Sunday is slice 4 (beginning from 0) - last fold is ignored.
+    # The night is also divided into eight folds: first section is for the fifth graha beginning 
+    # from the adhipati of the day - last fold is ignored. So, yamaghanta on Sunday is slice 0.
+    YAMAGHANTA_SLICES = [4, 3, 2, 1, 0, 6, 5]
+    YAMAGHANTA_SLICES_NIGHT = [0, 6, 5, 4, 3, 2, 1]
     GULIKAKALA_SLICES = [6, 5, 4, 3, 2, 1, 0]
-    # GULIKAKALA_SLICES_NIGHT = [4, 3, 2, 1, 0, 5, 6]
+    GULIKAKALA_SLICES_NIGHT = [2, 1, 0, 6, 5, 4, 3]
     self.raahu = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset,
                               part_index=RAHUKALA_SLICES[weekday], num_parts=8)
     self.yama = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset,
                              part_index=YAMAGHANTA_SLICES[weekday], num_parts=8)
     self.gulika = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset,
                                part_index=GULIKAKALA_SLICES[weekday], num_parts=8)
-    # self.raatri_gulika = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise,
-    #                            part_index=GULIKAKALA_SLICES_NIGHT[weekday], num_parts=8)
-    # self.raatri_yama = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise,
-    #                            part_index=YAMAGHANTA_SLICES_NIGHT[weekday], num_parts=8)
+    self.raatri_gulika = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise,
+                               part_index=GULIKAKALA_SLICES_NIGHT[weekday], num_parts=8)
+    self.raatri_yama = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise,
+                               part_index=YAMAGHANTA_SLICES_NIGHT[weekday], num_parts=8)
     self.raatri_yaama_1 = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=1, num_parts=4)
     self.shayana = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=3, num_parts=8)
     self.dinaanta = get_interval(jd_sunset, end_jd=jd_next_sunrise, part_index=5, num_parts=8)

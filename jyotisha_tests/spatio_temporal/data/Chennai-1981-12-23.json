@@ -322,11 +322,23 @@
         "jsonClass": "Interval",
         "name": "राहुकालः"
       },
+      "raatri_gulika": {
+        "jd_end": 2444962.4761,
+        "jd_start": 2444962.4096,
+        "jsonClass": "Interval",
+        "name": "रात्रौ गुलिककालः"
+      },
       "raatri_yaama_1": {
         "jd_end": 2444962.2765,
         "jd_start": 2444962.1434,
         "jsonClass": "Interval",
         "name": "यामः प्रथमः"
+      },
+      "raatri_yama": {
+        "jd_end": 2444962.343,
+        "jd_start": 2444962.2765,
+        "jsonClass": "Interval",
+        "name": "रात्रौ यमघण्टः"
       },
       "saangava": {
         "jd_end": 2444961.7178,
