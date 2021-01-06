@@ -141,5 +141,5 @@ def get_timing_summary(rule):
       blurb += 'Julian date was %s in this reckoning. ' % (rule.timing.julian_handling)
     # logging.debug(blurb)
   if rule.timing.year_start is not None:
-    blurb += "The event has been commemorated since it occurred in %s (%s era).  \n" % (rule.timing.year_start, rule.timing.year_start_era.capitalize())
+    blurb += "The event occurred in %s (%s era).  \n" % (rule.timing.year_start, rule.timing.year_start_era.capitalize())
   return blurb

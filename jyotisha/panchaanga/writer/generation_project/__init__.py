@@ -2,6 +2,7 @@
 Module where we generate and present certain calendars automatically for handy use and as usage examples.
 """
 import codecs
+import logging
 import os
 import shutil
 
@@ -36,22 +37,27 @@ def dump_ics_md_pair(panchaanga, period_str):
   monthly_file_path = md_file.file_path.replace(".md", "_monthly.md")
   monthly_dir = monthly_file_path.replace(".md", "/")
   shutil.rmtree(path=monthly_dir, ignore_errors=True)
+  logging.info("%s exists? %s", monthly_dir, os.path.exists(monthly_dir))
+  logging.info("Copying to %s", monthly_file_path)
   shutil.copy(md_file.file_path, monthly_file_path)
   monthly_md_file = MdFile(file_path=monthly_file_path)
   monthly_md_file.set_title_from_filename(dry_run=False, transliteration_target=None)
   monthly_md_file.split_to_bits(source_script=None, dry_run=False, indexed_title_pattern=None)
   MdFile.apply_function(fn=MdFile.split_to_bits, dir_path=monthly_dir, frontmatter_type=MdFile.TOML, source_script=None, dry_run=False, indexed_title_pattern=None)
+  logging.info("%s exists? %s", monthly_dir, os.path.exists(monthly_dir))
 
   MdFile.fix_index_files(dir_path=output_dir, transliteration_target=None, dry_run=False)
 
 
 def dump_detailed(year, city, year_type, computation_system=ComputationSystem.MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_180):
+  logging.info("Generating detailed panchaanga for %s year %d (%s), with computation system %s ", city.name, year, year_type, str(computation_system))
   panchaanga = annual.get_panchaanga_for_year(city=city, year=year, computation_system=computation_system, year_type=year_type, allow_precomputed=False)
   dump_ics_md_pair(panchaanga=panchaanga, period_str="%s/%04d" % (year_type, year))
 
 
 def dump_summary(year, city, script=xsanscript.DEVANAGARI, computation_system=ComputationSystem.MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_180):
-  year_type = era.ERA_GREGORIAN  
+  year_type = era.ERA_GREGORIAN
+  logging.info("Generating sumamry panchaanga for %s year %d (%s), with computation system %s ", city.name, year, year_type, str(computation_system))
   panchaanga = annual.get_panchaanga_for_year(city=city, year=year, computation_system=computation_system, year_type=year_type, allow_precomputed=True)
   year_table = to_table_dict(panchaanga=panchaanga )
   out_path = get_canonical_path(city=panchaanga.city.name, computation_system_str=str(panchaanga.computation_system), year=year, year_type=year_type)

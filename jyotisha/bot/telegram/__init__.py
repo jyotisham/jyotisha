@@ -8,7 +8,7 @@ from jyotisha.panchaanga.temporal import era
 from jyotisha.panchaanga.writer.generation_project import get_canonical_path
 
 
-def send_panchaanga(city, channel_id, token, computation_system_str, md_url_base, html_url_base):
+def send_panchaanga(city, channel_id, token, computation_system_str, md_url_base, html_url_base, dry_run=False):
   bot = telegram.Bot(token=token)
   today = city.get_timezone_obj().current_time()
   import urllib
@@ -25,4 +25,7 @@ def send_panchaanga(city, channel_id, token, computation_system_str, md_url_base
   md = "%s\n\n%s" % (html_url, urlopen(md_url).read().decode("utf-8"))
   if len(md) >= telegram.MAX_MESSAGE_LENGTH - 100:
     md = md[:telegram.MAX_MESSAGE_LENGTH - 500] + "\n\n Message truncated. Please visit URL at top for full details."
-  bot.sendMessage(chat_id="-" + channel_id, text=md)
+  logging.info("Sending message: \n%s", md)
+  if not dry_run:
+    md = "## माघः-11-23,कन्या-हस्तः🌛🌌◢◣धनुः-पूर्वाषाढा-09-22🌌🌞◢◣सहस्यः-10-17🪐🌞 बुधः"
+    bot.sendMessage(chat_id="-" + channel_id, text=md)

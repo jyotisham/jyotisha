@@ -25,10 +25,11 @@ def day_summary(d, panchaanga, script, subsection_md):
   lunar_position = "%s-%s" % (names.NAMES['RASHI_NAMES']['sa'][script][daily_panchaanga.sunrise_day_angas.raashis_with_ends[0].anga.index], names.NAMES['NAKSHATRA_NAMES']['sa'][script][daily_panchaanga.sunrise_day_angas.nakshatras_with_ends[0].anga.index])
   solar_position = "%s-%s" % (daily_panchaanga.get_month_str(month_type=RulesRepo.SIDEREAL_SOLAR_MONTH_DIR, script=script), names.NAMES['NAKSHATRA_NAMES']['sa'][script][daily_panchaanga.sunrise_day_angas.solar_nakshatras_with_ends[0].anga.index])
   lunar_month_str = daily_panchaanga.get_month_str(month_type=RulesRepo.LUNAR_MONTH_DIR, script=script)
-  title = '%s-%s,%s🌛🌌◢◣%s-%s🌌🌞◢◣%s-%s🪐🌞' % (
+  vaara = names.NAMES['VARA_NAMES']['sa'][script][daily_panchaanga.date.get_weekday()]
+  title = '%s-%s,%s🌛🌌◢◣%s-%s🌌🌞◢◣%s-%s🪐🌞%s' % (
     lunar_month_str, str(daily_panchaanga.get_date(month_type=RulesRepo.LUNAR_MONTH_DIR)), lunar_position,
     solar_position, str(daily_panchaanga.solar_sidereal_date_sunset), daily_panchaanga.get_month_str(month_type=RulesRepo.TROPICAL_MONTH_DIR, script=script),
-    str(daily_panchaanga.tropical_date_sunset))
+    str(daily_panchaanga.tropical_date_sunset), vaara)
 
   output_stream = StringIO()
   tz = daily_panchaanga.city.get_timezone_obj()
@@ -82,8 +83,7 @@ def day_summary(d, panchaanga, script, subsection_md):
   print("\n\n%s %s" % (subsection_md, names.translate_or_transliterate(text="खचक्रस्थितिः", script=script)), file=output_stream)
   tithi_data_str = daily_panchaanga.sunrise_day_angas.get_anga_data_str(anga_type=AngaType.TITHI, script=script, reference_jd=daily_panchaanga.julian_day_start)
   print('- |🌞-🌛|%s  ' % (tithi_data_str), file=output_stream)
-  vara = names.NAMES['VARA_NAMES']['sa'][script][daily_panchaanga.date.get_weekday()]
-  print('- **%s**—%s  ' % (translate_or_transliterate('वासरः', script, source_script=sanscript.DEVANAGARI), vara), file=output_stream)
+  print('- **%s**—%s  ' % (translate_or_transliterate('वासरः', script, source_script=sanscript.DEVANAGARI), vaara), file=output_stream)
   nakshatra_data_str = daily_panchaanga.sunrise_day_angas.get_anga_data_str(anga_type=AngaType.NAKSHATRA, script=script, reference_jd=daily_panchaanga.julian_day_start)
   chandrashtama_rashi_data_str, rashi_data_str = get_raashi_data_str(daily_panchaanga, script)
   print('- 🌌🌛%s (%s)  ' % (nakshatra_data_str, rashi_data_str), file=output_stream)
@@ -214,7 +214,7 @@ def get_festivals_md(daily_panchaanga, panchaanga, languages, scripts, subsectio
     repos_tuple=tuple(panchaanga.computation_system.festival_options.repos), julian_handling=panchaanga.computation_system.festival_options.julian_handling)
   fest_details_dict = rules_collection.name_to_rule
   output_stream = StringIO()
-  fest_summary = ", ".join([x.get_full_title(fest_details_dict=rules_collection.name_to_rule, languages=languages, scripts=scripts) for x in daily_panchaanga.festival_id_to_instance.values()])
+  fest_summary = ", ".join(sorted([x.get_full_title(fest_details_dict=rules_collection.name_to_rule, languages=languages, scripts=scripts) for x in daily_panchaanga.festival_id_to_instance.values()]))
   if len(fest_summary) > 0:
     print("- %s" % fest_summary, file=output_stream)
   for f in sorted(daily_panchaanga.festival_id_to_instance.values()):
