@@ -214,7 +214,7 @@ def get_festivals_md(daily_panchaanga, panchaanga, languages, scripts, subsectio
     repos_tuple=tuple(panchaanga.computation_system.festival_options.repos), julian_handling=panchaanga.computation_system.festival_options.julian_handling)
   fest_details_dict = rules_collection.name_to_rule
   output_stream = StringIO()
-  fest_summary = ", ".join([x.get_full_title(fest_details_dict=rules_collection.name_to_rule, languages=languages, scripts=scripts) for x in daily_panchaanga.festival_id_to_instance.values()])
+  fest_summary = ", ".join(sorted([x.get_full_title(fest_details_dict=rules_collection.name_to_rule, languages=languages, scripts=scripts) for x in daily_panchaanga.festival_id_to_instance.values()]))
   if len(fest_summary) > 0:
     print("- %s" % fest_summary, file=output_stream)
   for f in sorted(daily_panchaanga.festival_id_to_instance.values()):
