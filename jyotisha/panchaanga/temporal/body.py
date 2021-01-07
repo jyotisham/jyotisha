@@ -61,16 +61,7 @@ class Graha(JsonObject):
       body_id = 10
     return body_id
 
-  def get_next_collision(self, jd_start, body2, gap=None):
-    if gap is None:
-      gap = (self.BODY_TO_ANGULAR_DIA_DEGREES[self.body_name] + self.BODY_TO_ANGULAR_DIA_DEGREES[body2.body_name])/ 2.0
-    
-    def has_collision(jd):
-      return abs(self.get_longitude(jd=jd) - body2.get_longitude(jd=jd)) > gap
-    
-    raise NotImplementedError
-
-
+  @methodtools.lru_cache(maxsize=10)
   def get_longitude(self, jd, ayanaamsha_id=None):
     """
     

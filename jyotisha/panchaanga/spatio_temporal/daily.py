@@ -156,6 +156,7 @@ class DailyPanchaanga(common.JsonObject):
     
     self.shraaddha_tithi = []
     self.festival_id_to_instance = {}
+    self.mauDhyas = {}
 
     self.compute_sun_moon_transitions(previous_day_panchaanga=previous_day_panchaanga)
     self.compute_solar_day_sunset(previous_day_panchaanga=previous_day_panchaanga)
@@ -165,6 +166,7 @@ class DailyPanchaanga(common.JsonObject):
     if self.computation_system.lunar_month_assigner_type is not None:
       lunar_month_assigner = LunarMonthAssigner.get_assigner(computation_system=self.computation_system)
       self.set_lunar_month_sunrise(month_assigner=lunar_month_assigner, previous_day_panchaanga=previous_day_panchaanga)
+
 
   def __repr__(self):
     return "%s %s" % (repr(self.date), repr(self.city))
@@ -405,6 +407,27 @@ class DailyPanchaanga(common.JsonObject):
       if lagna_end_time < self.jd_next_sunrise:
         self.lagna_data.append((lagna, lagna_end_time))
     return self.lagna_data
+
+
+  def day_has_conjunction(self, body1, body2, gap=None):
+    if gap is None:
+      gap = (Graha.BODY_TO_ANGULAR_DIA_DEGREES[body1.body_name] + Graha.BODY_TO_ANGULAR_DIA_DEGREES[body2.body_name])/ 2.0
+
+    def longitude_difference(jd):
+      return body1.get_longitude(jd=jd) - body2.get_longitude(jd=jd)
+
+    def has_collision(jd):
+      return abs(longitude_difference(jd=jd)) < gap
+
+    sign = lambda x: -1 if x < 0 else (1 if x > 0 else (0 if x == 0 else None))
+    return has_collision(jd=self.jd_sunrise) or has_collision(jd=self.jd_next_sunrise) or sign(longitude_difference(jd=self.jd_sunrise)) != sign(longitude_difference(jd=self.jd_next_sunrise))
+
+  def set_mauDhyas(self):
+    sun = Graha.singleton(body_name=Graha.SUN)
+    for graha_id in [Graha.MERCURY, Graha.VENUS, Graha.MARS, Graha.JUPITER, Graha.SATURN]:
+      graha = Graha.singleton(body_name=graha_id)
+      if self.day_has_conjunction(body1=sun, body2=graha):
+        self.mauDhyas[graha_id] = True
 
 
 # Essential for depickling to work.
