@@ -22,27 +22,11 @@ CODE_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
 
 # Defining "bits" for rsmi in swe.rise_trans per documentation on https://www.astro.com/swisseph/swephprg.htm#_Toc505244865
 
-#     The variable rsmi can have the following values:
-
-#     /* for swe_rise_trans() and swe_rise_trans_true_hor() */
-#     #define SE_CALC_RISE            1
-#     #define SE_CALC_SET             2
-#     #define SE_CALC_MTRANSIT   4       /* upper meridian transit (southern for northern geo. latitudes) */
-#     #define SE_CALC_ITRANSIT     8       /* lower meridian transit (northern, below the horizon) */
-#     /* the following bits can be added (or’ed) to SE_CALC_RISE or SE_CALC_SET */
-#     #define SE_BIT_DISC_CENTER         256     /* for rising or setting of disc center */
-#     #define SE_BIT_DISC_BOTTOM      8192     /* for rising or setting of lower limb of disc */
-#     #define SE_BIT_GEOCTR_NO_ECL_LAT 128 /* use topocentric position of object and ignore its ecliptic latitude */
-#     #define SE_BIT_NO_REFRACTION    512      /* if refraction is not to be considered */
-#     #define SE_BIT_CIVIL_TWILIGHT    1024    /* in order to calculate civil twilight */
-#     #define SE_BIT_NAUTIC_TWILIGHT 2048    /* in order to calculate nautical twilight */
-#     #define SE_BIT_ASTRO_TWILIGHT   4096    /* in order to calculate astronomical twilight */
-#     #define SE_BIT_FIXED_DISC_SIZE (16*1024) /* neglect the effect of distance on disc size */
-#     #define SE_BIT_HINDU_RISING (SE_BIT_DISC_CENTER|SE_BIT_NO_REFRACTION|SE_BIT_GEOCTR_NO_ECL_LAT)
-#                                                                      /* risings according to Hindu astrology */
-
-CALC_RISE = 897  # 512 + 256 + 128 + 1
-CALC_SET = 898  # 512 + 256 + 128 + 2
+# SE_BIT_HINDU_RISING (SE_BIT_DISC_CENTER|SE_BIT_NO_REFRACTION|SE_BIT_GEOCTR_NO_ECL_LAT)
+# risings according to Hindu astrology 
+# TODO: Ignoring ecliptic latitude may be theoretically unfounded. Examine.
+CALC_RISE = 512 + 256 + 128 + 1
+CALC_SET = 512 + 256 + 128 + 2
 
 
 class City(JsonObject):
