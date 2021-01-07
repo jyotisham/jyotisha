@@ -4,6 +4,7 @@ import logging
 import sys
 from math import floor, modf
 
+import methodtools
 from scipy.optimize import brentq
 from timebudget import timebudget
 
@@ -327,6 +328,7 @@ class DailyPanchaanga(common.JsonObject):
     elif month_type == RulesRepo.GREGORIAN_MONTH_DIR:
       return self.date
 
+  @methodtools.lru_cache(maxsize=None)
   def get_month_str(self, month_type, script):
     if month_type == RulesRepo.SIDEREAL_SOLAR_MONTH_DIR:
       return names.NAMES['RASHI_NAMES']['sa'][script][self.solar_sidereal_date_sunset.month]

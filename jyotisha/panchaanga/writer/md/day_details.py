@@ -32,40 +32,8 @@ def day_summary(d, panchaanga, script, subsection_md):
     str(daily_panchaanga.tropical_date_sunset), vaara)
 
   output_stream = StringIO()
-  tz = daily_panchaanga.city.get_timezone_obj()
-  # Assign ayana, rtu #
-  ayanam_sidereal = names.NAMES['AYANA_NAMES']['sa'][script][daily_panchaanga.solar_sidereal_date_sunset.month]
-  ayanam = names.NAMES['AYANA_NAMES']['sa'][script][daily_panchaanga.tropical_date_sunset.month]
-  rtu_solar = names.NAMES['RTU_NAMES']['sa'][script][daily_panchaanga.solar_sidereal_date_sunset.month]
-  rtu_tropical = names.NAMES['RTU_NAMES']['sa'][script][daily_panchaanga.tropical_date_sunset.month]
-  rtu_lunar = names.NAMES['RTU_NAMES']['sa'][script][int(ceil(daily_panchaanga.lunar_month_sunrise.index))]
 
-  # Why include Islamic date? Hindus are today in close contact with muslim societies and are impacted by their calendric reckoning (eg. spikes in anti-hindu violence during ramadan https://swarajyamag.com/politics/behind-the-spikes-in-islamic-terror-during-ramzan , frenzies after Friday jumma etc..). It is the job of a good panchaanga to inform it's user about predictable (spiritual and other) situations in his surroundings.
-  islamic_date = daily_panchaanga.date.to_islamic_date()
-  islamic_month_name = names.NAMES["ARAB_MONTH_NAMES"]["ar"][islamic_date.month-1]
-  print("- Indian civil date: %s, Islamic: %s %s" % (daily_panchaanga.date.to_indian_civil_date().get_date_str(), islamic_date.get_date_str(), islamic_month_name), file=output_stream)
-
-  samvatsara_lunar = daily_panchaanga.get_samvatsara(month_type=RulesRepo.LUNAR_MONTH_DIR).get_name(script=script)
-  samvatsara_sidereal = daily_panchaanga.get_samvatsara(month_type=RulesRepo.SIDEREAL_SOLAR_MONTH_DIR).get_name(script=script)
-  samvatsara_tropical = daily_panchaanga.get_samvatsara(month_type=RulesRepo.TROPICAL_MONTH_DIR).get_name(script=script)
-  
-  if samvatsara_lunar == samvatsara_sidereal and samvatsara_lunar == samvatsara_tropical:
-    saMvatsara_string = "- संवत्सरः - %s" % samvatsara_lunar
-    year_number_string_solar_sidereal = None
-    year_number_string_tropical = None
-  else:
-    saMvatsara_string = "- संवत्सरः 🌛- %s, 🌌🌞- %s, 🪐🌞- %s" % (samvatsara_lunar, samvatsara_sidereal, samvatsara_tropical)
-    year_number_string_solar_sidereal = "- वर्षसङ्ख्या 🌌🌞- शकाब्दः %d, विक्रमाब्दः %d, कलियुगे %d" % (daily_panchaanga.get_year_number(month_type=RulesRepo.SIDEREAL_SOLAR_MONTH_DIR, era_id=era.ERA_SHAKA), daily_panchaanga.get_year_number(month_type=RulesRepo.SIDEREAL_SOLAR_MONTH_DIR, era_id=era.ERA_VIKRAMA), daily_panchaanga.get_year_number(month_type=RulesRepo.SIDEREAL_SOLAR_MONTH_DIR, era_id=era.ERA_KALI))
-    year_number_string_tropical = "- वर्षसङ्ख्या 🪐🌞 - शकाब्दः %d, विक्रमाब्दः %d, कलियुगे %d" % (daily_panchaanga.get_year_number(month_type=RulesRepo.TROPICAL_MONTH_DIR, era_id=era.ERA_SHAKA), daily_panchaanga.get_year_number(month_type=RulesRepo.TROPICAL_MONTH_DIR, era_id=era.ERA_VIKRAMA), daily_panchaanga.get_year_number(month_type=RulesRepo.TROPICAL_MONTH_DIR, era_id=era.ERA_KALI))
-
-  transliterate_and_print(text=saMvatsara_string, script=script, output_stream=output_stream)
-
-  year_number_string_lunar = "- वर्षसङ्ख्या 🌛- शकाब्दः %d, विक्रमाब्दः %d, कलियुगे %d" % (daily_panchaanga.get_year_number(month_type=RulesRepo.LUNAR_MONTH_DIR, era_id=era.ERA_SHAKA), daily_panchaanga.get_year_number(month_type=RulesRepo.LUNAR_MONTH_DIR, era_id=era.ERA_VIKRAMA), daily_panchaanga.get_year_number(month_type=RulesRepo.LUNAR_MONTH_DIR, era_id=era.ERA_KALI))
-  transliterate_and_print(text=year_number_string_lunar, script=script, output_stream=output_stream)
-  if year_number_string_solar_sidereal is not None:
-    transliterate_and_print(text=year_number_string_solar_sidereal, script=script, output_stream=output_stream)
-  if year_number_string_tropical is not None:
-    transliterate_and_print(text=year_number_string_tropical, script=script, output_stream=output_stream)
+  print_year_details(daily_panchaanga, output_stream, script)
 
   # if yname_lunar == yname_solar:
   #   print('*' + getName('saMvatsaraH', language) + '*—%s' % yname_lunar, file=output_stream)
@@ -75,52 +43,12 @@ def day_summary(d, panchaanga, script, subsection_md):
   # if yname_lunar != yname_solar:
   #   print('*' + getName('saMvatsaraH', language) + '*—%s' % yname_lunar, file=output_stream)
   #   print('*' + getName('ayanam', language) + '*—%s' % ayanam, file=output_stream)
-  print("___________________", file=output_stream)
-  print('- 🪐🌞**%s** — %s %s' % (translate_or_transliterate('ऋतुमानम्', script, source_script=sanscript.DEVANAGARI), rtu_tropical, ayanam), file=output_stream)
-  print('- 🌌🌞**%s** — %s %s' % (translate_or_transliterate('सौरमानम्', script, source_script=sanscript.DEVANAGARI), rtu_solar, ayanam_sidereal), file=output_stream)
-  print('- 🌛**%s** — %s %s' % (translate_or_transliterate('चान्द्रमानम्', script, source_script=sanscript.DEVANAGARI), rtu_lunar, lunar_month_str), file=output_stream)
-  print("___________________", file=output_stream)
-  print("\n\n%s %s" % (subsection_md, names.translate_or_transliterate(text="खचक्रस्थितिः", script=script)), file=output_stream)
-  tithi_data_str = daily_panchaanga.sunrise_day_angas.get_anga_data_str(anga_type=AngaType.TITHI, script=script, reference_jd=daily_panchaanga.julian_day_start)
-  print('- |🌞-🌛|%s  ' % (tithi_data_str), file=output_stream)
-  print('- **%s**—%s  ' % (translate_or_transliterate('वासरः', script, source_script=sanscript.DEVANAGARI), vaara), file=output_stream)
-  nakshatra_data_str = daily_panchaanga.sunrise_day_angas.get_anga_data_str(anga_type=AngaType.NAKSHATRA, script=script, reference_jd=daily_panchaanga.julian_day_start)
-  chandrashtama_rashi_data_str, rashi_data_str = get_raashi_data_str(daily_panchaanga, script)
-  print('- 🌌🌛%s (%s)  ' % (nakshatra_data_str, rashi_data_str), file=output_stream)
-  solar_nakshatra_str = daily_panchaanga.sunrise_day_angas.get_anga_data_str(anga_type=AngaType.SOLAR_NAKSH, script=script, reference_jd=daily_panchaanga.julian_day_start)
-  print('- 🌌🌞%s  ' % (solar_nakshatra_str), file=output_stream)
-  print("___________________", file=output_stream)
-  yoga_data_str = daily_panchaanga.sunrise_day_angas.get_anga_data_str(anga_type=AngaType.YOGA, script=script, reference_jd=daily_panchaanga.julian_day_start)
-  print('- 🌛+🌞%s  ' % (yoga_data_str), file=output_stream)
-  karana_data_str = daily_panchaanga.sunrise_day_angas.get_anga_data_str(anga_type=AngaType.KARANA, script=script, reference_jd=daily_panchaanga.julian_day_start)
-  print('- २|🌛-🌞|%s  ' % (karana_data_str), file=output_stream)
-  print('- 🌌🌛%s  ' % (chandrashtama_rashi_data_str), file=output_stream)
-  print("\n\n%s %s" % (subsection_md, names.translate_or_transliterate(text="दिनमान-कालविभागाः", script=script)), file=output_stream)
-  add_sun_moon_rise_info(daily_panchaanga, output_stream, script)
+  # Assign ayana, rtu #
+  print_ayana_Rtu_maasa_info(daily_panchaanga, output_stream, script)
 
-  if daily_panchaanga.mauDhyas is not None:
-    muuDha_grahas = sorted(map(lambda x: translate_or_transliterate(text=names.NAMES["GRAHA_NAMES"]["sa"][x], script=script, source_script=sanscript.DEVANAGARI), daily_panchaanga.mauDhyas.keys()))
-    print('- %s - %s' % (names.translate_or_transliterate(text="मूढग्रहाः", script=script), ", ".join(muuDha_grahas)), file=output_stream)
-    
+  print_khachakra_stithi(daily_panchaanga, output_stream, script, subsection_md)
 
-  if panchaanga.computation_system.festival_options.set_lagnas:
-    lagna_data_str = get_lagna_data_str(daily_panchaanga, script)
-    print('- %s  ' % (lagna_data_str), file=output_stream)
-
-
-  print("___________________", file=output_stream)
-  intervals = daily_panchaanga.day_length_based_periods.eight_fold_division.get_virile_intervals()
-  print('- 🌞⚝%s— %s  ' % (translate_or_transliterate('भट्टभास्कर-मते वीर्यवन्तः', script, source_script=sanscript.DEVANAGARI), interval.intervals_to_md(intervals=intervals, script=script, tz=tz)),
-        file=output_stream)
-  intervals = daily_panchaanga.day_length_based_periods.fifteen_fold_division.get_virile_intervals()
-  print('- 🌞⚝%s— %s  ' % (translate_or_transliterate('सायण-मते वीर्यवन्तः', script, source_script=sanscript.DEVANAGARI), interval.intervals_to_md(intervals=intervals, script=script, tz=tz)),
-        file=output_stream)
-  intervals = [daily_panchaanga.day_length_based_periods.fifteen_fold_division.braahma, daily_panchaanga.day_length_based_periods.fifteen_fold_division.madhyaraatri]
-  print('- 🌞%s— %s  ' % (translate_or_transliterate('कालान्तरम्', script, source_script=sanscript.DEVANAGARI), interval.intervals_to_md(intervals=intervals, script=script, tz=tz)),
-        file=output_stream)
-  print("___________________", file=output_stream)
-
-  add_raahu_yama_gulika_info(daily_panchaanga, output_stream, script)
+  print_dinamaana_kaala_vibhaaga(daily_panchaanga, output_stream, script, subsection_md)
 
   print("___________________", file=output_stream)
   add_shuula_info(daily_panchaanga, output_stream, script)
@@ -128,6 +56,125 @@ def day_summary(d, panchaanga, script, subsection_md):
 
   output_text = output_stream.getvalue()
   return (title, output_text)
+
+
+def print_year_details(daily_panchaanga, output_stream, script):
+  # Why include Islamic date? Hindus are today in close contact with muslim societies and are impacted by their calendric reckoning (eg. spikes in anti-hindu violence during ramadan https://swarajyamag.com/politics/behind-the-spikes-in-islamic-terror-during-ramzan , frenzies after Friday jumma etc..). It is the job of a good panchaanga to inform it's user about predictable (spiritual and other) situations in his surroundings.
+  islamic_date = daily_panchaanga.date.to_islamic_date()
+  islamic_month_name = names.NAMES["ARAB_MONTH_NAMES"]["ar"][islamic_date.month - 1]
+  print("- Indian civil date: %s, Islamic: %s %s" % (
+  daily_panchaanga.date.to_indian_civil_date().get_date_str(), islamic_date.get_date_str(), islamic_month_name),
+        file=output_stream)
+  samvatsara_lunar = daily_panchaanga.get_samvatsara(month_type=RulesRepo.LUNAR_MONTH_DIR).get_name(script=script)
+  samvatsara_sidereal = daily_panchaanga.get_samvatsara(month_type=RulesRepo.SIDEREAL_SOLAR_MONTH_DIR).get_name(
+    script=script)
+  samvatsara_tropical = daily_panchaanga.get_samvatsara(month_type=RulesRepo.TROPICAL_MONTH_DIR).get_name(script=script)
+  if samvatsara_lunar == samvatsara_sidereal and samvatsara_lunar == samvatsara_tropical:
+    saMvatsara_string = "- संवत्सरः - %s" % samvatsara_lunar
+    year_number_string_solar_sidereal = None
+    year_number_string_tropical = None
+  else:
+    saMvatsara_string = "- संवत्सरः 🌛- %s, 🌌🌞- %s, 🪐🌞- %s" % (
+    samvatsara_lunar, samvatsara_sidereal, samvatsara_tropical)
+    year_number_string_solar_sidereal = "- वर्षसङ्ख्या 🌌🌞- शकाब्दः %d, विक्रमाब्दः %d, कलियुगे %d" % (
+    daily_panchaanga.get_year_number(month_type=RulesRepo.SIDEREAL_SOLAR_MONTH_DIR, era_id=era.ERA_SHAKA),
+    daily_panchaanga.get_year_number(month_type=RulesRepo.SIDEREAL_SOLAR_MONTH_DIR, era_id=era.ERA_VIKRAMA),
+    daily_panchaanga.get_year_number(month_type=RulesRepo.SIDEREAL_SOLAR_MONTH_DIR, era_id=era.ERA_KALI))
+    year_number_string_tropical = "- वर्षसङ्ख्या 🪐🌞 - शकाब्दः %d, विक्रमाब्दः %d, कलियुगे %d" % (
+    daily_panchaanga.get_year_number(month_type=RulesRepo.TROPICAL_MONTH_DIR, era_id=era.ERA_SHAKA),
+    daily_panchaanga.get_year_number(month_type=RulesRepo.TROPICAL_MONTH_DIR, era_id=era.ERA_VIKRAMA),
+    daily_panchaanga.get_year_number(month_type=RulesRepo.TROPICAL_MONTH_DIR, era_id=era.ERA_KALI))
+  transliterate_and_print(text=saMvatsara_string, script=script, output_stream=output_stream)
+  year_number_string_lunar = "- वर्षसङ्ख्या 🌛- शकाब्दः %d, विक्रमाब्दः %d, कलियुगे %d" % (
+  daily_panchaanga.get_year_number(month_type=RulesRepo.LUNAR_MONTH_DIR, era_id=era.ERA_SHAKA),
+  daily_panchaanga.get_year_number(month_type=RulesRepo.LUNAR_MONTH_DIR, era_id=era.ERA_VIKRAMA),
+  daily_panchaanga.get_year_number(month_type=RulesRepo.LUNAR_MONTH_DIR, era_id=era.ERA_KALI))
+  transliterate_and_print(text=year_number_string_lunar, script=script, output_stream=output_stream)
+  if year_number_string_solar_sidereal is not None:
+    transliterate_and_print(text=year_number_string_solar_sidereal, script=script, output_stream=output_stream)
+  if year_number_string_tropical is not None:
+    transliterate_and_print(text=year_number_string_tropical, script=script, output_stream=output_stream)
+
+
+def print_ayana_Rtu_maasa_info(daily_panchaanga, output_stream, script):
+  ayanam_sidereal = names.NAMES['AYANA_NAMES']['sa'][script][daily_panchaanga.solar_sidereal_date_sunset.month]
+  ayanam = names.NAMES['AYANA_NAMES']['sa'][script][daily_panchaanga.tropical_date_sunset.month]
+  rtu_solar = names.NAMES['RTU_NAMES']['sa'][script][daily_panchaanga.solar_sidereal_date_sunset.month]
+  rtu_tropical = names.NAMES['RTU_NAMES']['sa'][script][daily_panchaanga.tropical_date_sunset.month]
+  rtu_lunar = names.NAMES['RTU_NAMES']['sa'][script][int(ceil(daily_panchaanga.lunar_month_sunrise.index))]
+  print("___________________", file=output_stream)
+  print('- 🪐🌞**%s** — %s %s' % (
+  translate_or_transliterate('ऋतुमानम्', script, source_script=sanscript.DEVANAGARI), rtu_tropical, ayanam),
+        file=output_stream)
+  print('- 🌌🌞**%s** — %s %s' % (
+  translate_or_transliterate('सौरमानम्', script, source_script=sanscript.DEVANAGARI), rtu_solar, ayanam_sidereal),
+        file=output_stream)
+  lunar_month_str = daily_panchaanga.get_month_str(month_type=RulesRepo.LUNAR_MONTH_DIR, script=script)
+  print('- 🌛**%s** — %s %s' % (
+  translate_or_transliterate('चान्द्रमानम्', script, source_script=sanscript.DEVANAGARI), rtu_lunar, lunar_month_str),
+        file=output_stream)
+  print("___________________", file=output_stream)
+
+
+def print_dinamaana_kaala_vibhaaga(daily_panchaanga, output_stream, script, subsection_md):
+  print("\n\n%s %s" % (subsection_md, names.translate_or_transliterate(text="दिनमान-कालविभागाः", script=script)),
+        file=output_stream)
+  add_sun_moon_rise_info(daily_panchaanga, output_stream, script)
+  if daily_panchaanga.computation_system.festival_options.set_lagnas:
+    lagna_data_str = get_lagna_data_str(daily_panchaanga, script)
+    print('- %s  ' % (lagna_data_str), file=output_stream)
+  tz = daily_panchaanga.city.get_timezone_obj()
+  print("___________________", file=output_stream)
+  intervals = daily_panchaanga.day_length_based_periods.eight_fold_division.get_virile_intervals()
+  print('- 🌞⚝%s— %s  ' % (
+  translate_or_transliterate('भट्टभास्कर-मते वीर्यवन्तः', script, source_script=sanscript.DEVANAGARI),
+  interval.intervals_to_md(intervals=intervals, script=script, tz=tz)),
+        file=output_stream)
+  intervals = daily_panchaanga.day_length_based_periods.fifteen_fold_division.get_virile_intervals()
+  print('- 🌞⚝%s— %s  ' % (
+  translate_or_transliterate('सायण-मते वीर्यवन्तः', script, source_script=sanscript.DEVANAGARI),
+  interval.intervals_to_md(intervals=intervals, script=script, tz=tz)),
+        file=output_stream)
+  intervals = [daily_panchaanga.day_length_based_periods.fifteen_fold_division.braahma,
+               daily_panchaanga.day_length_based_periods.fifteen_fold_division.madhyaraatri]
+  print('- 🌞%s— %s  ' % (translate_or_transliterate('कालान्तरम्', script, source_script=sanscript.DEVANAGARI),
+                          interval.intervals_to_md(intervals=intervals, script=script, tz=tz)),
+        file=output_stream)
+  print("___________________", file=output_stream)
+  add_raahu_yama_gulika_info(daily_panchaanga, output_stream, script)
+
+
+def print_khachakra_stithi(daily_panchaanga, output_stream, script, subsection_md):
+  print("\n\n%s %s" % (subsection_md, names.translate_or_transliterate(text="खचक्रस्थितिः", script=script)),
+        file=output_stream)
+  tithi_data_str = daily_panchaanga.sunrise_day_angas.get_anga_data_str(anga_type=AngaType.TITHI, script=script,
+                                                                        reference_jd=daily_panchaanga.julian_day_start)
+  print('- |🌞-🌛|%s  ' % (tithi_data_str), file=output_stream)
+  nakshatra_data_str = daily_panchaanga.sunrise_day_angas.get_anga_data_str(anga_type=AngaType.NAKSHATRA, script=script,
+                                                                            reference_jd=daily_panchaanga.julian_day_start)
+  chandrashtama_rashi_data_str, rashi_data_str = get_raashi_data_str(daily_panchaanga, script)
+  print('- 🌌🌛%s (%s)  ' % (nakshatra_data_str, rashi_data_str), file=output_stream)
+  solar_nakshatra_str = daily_panchaanga.sunrise_day_angas.get_anga_data_str(anga_type=AngaType.SOLAR_NAKSH,
+                                                                             script=script,
+                                                                             reference_jd=daily_panchaanga.julian_day_start)
+  print('- 🌌🌞%s  ' % (solar_nakshatra_str), file=output_stream)
+  print("___________________", file=output_stream)
+  yoga_data_str = daily_panchaanga.sunrise_day_angas.get_anga_data_str(anga_type=AngaType.YOGA, script=script,
+                                                                       reference_jd=daily_panchaanga.julian_day_start)
+  print('- 🌛+🌞%s  ' % (yoga_data_str), file=output_stream)
+  karana_data_str = daily_panchaanga.sunrise_day_angas.get_anga_data_str(anga_type=AngaType.KARANA, script=script,
+                                                                         reference_jd=daily_panchaanga.julian_day_start)
+  print('- २|🌛-🌞|%s  ' % (karana_data_str), file=output_stream)
+  print('- 🌌🌛%s  ' % (chandrashtama_rashi_data_str), file=output_stream)
+  if daily_panchaanga.mauDhyas is not None:
+    muuDha_grahas = sorted(map(
+      lambda x: translate_or_transliterate(text=names.NAMES["GRAHA_NAMES"]["sa"][x], script=script,
+                                           source_script=sanscript.DEVANAGARI), daily_panchaanga.mauDhyas.keys()))
+    print("___________________", file=output_stream)
+    print(
+      '- **%s** - %s' % (names.translate_or_transliterate(text="मूढग्रहाः", script=script), ", ".join(muuDha_grahas)),
+      file=output_stream)
+  print("___________________", file=output_stream)
 
 
 def add_raahu_yama_gulika_info(daily_panchaanga, output_stream, script):
