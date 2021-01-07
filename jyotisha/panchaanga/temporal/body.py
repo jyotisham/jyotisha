@@ -76,6 +76,11 @@ class Graha(JsonObject):
     else:
       return swe.calc_ut(jd, self._get_swisseph_id())[0][0]
 
+  @methodtools.lru_cache(maxsize=10)
+  def get_longitude_anga(self, jd):
+    from jyotisha.panchaanga.temporal import Anga, AngaType
+    return Anga(index=self.get_longitude(jd=jd), anga_type_id=AngaType.DEGREE.name)
+
   def get_transits(self, jd_start: float, jd_end: float, ayanaamsha_id: str, anga_type: object) -> [Transit]:
     """Returns the next transit of the given planet e.g. jupiter
 

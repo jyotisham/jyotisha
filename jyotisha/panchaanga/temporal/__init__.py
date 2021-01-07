@@ -2,6 +2,7 @@ import logging
 import sys
 from copy import deepcopy, copy
 
+from jyotisha.panchaanga.temporal.body import Graha
 from jyotisha.panchaanga.temporal.festival.rules import RulesCollection, RulesRepo
 from jyotisha.panchaanga.temporal.zodiac.angas import BoundaryAngas, Anga, AngaType
 from sanskrit_data.schema import common
@@ -73,6 +74,16 @@ class FestivalOptions(JsonObject):
     return md
 
 
+class GrahaLopaMeasures(JsonObject):
+  def __init__(self):
+    self.graha_id_to_lopa_measure = {
+      # For Jupiter Lope Surya Siddhanta suggests angular separation of 11° on both sides of the Sun.
+      Graha.JUPITER: 11,
+      # Surya Siddhanta suggests angular separation of 10° on both sides of the Sun when Venus is in the forward motion and 8° when Venus is in the retrograde motion.
+      Graha.VENUS: 9,
+    }
+
+
 class ComputationSystem(JsonObject):
   MULTI_NEW_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_180 = None
   MULTI_FULL_MOON_SIDEREAL_MONTH_ADHIKA__CHITRA_180 = None
@@ -88,6 +99,7 @@ class ComputationSystem(JsonObject):
     self.lunar_month_assigner_type = lunar_month_assigner_type
     self.ayanaamsha_id = ayanaamsha_id
     self.festival_options = festival_options
+    self.graha_lopa_measures = GrahaLopaMeasures()
 
   def __repr__(self):
     return "%s__%s" % (self.lunar_month_assigner_type, self.ayanaamsha_id)
