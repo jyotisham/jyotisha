@@ -20,9 +20,8 @@ def init_names_auto(fname=os.path.join(os.path.dirname(os.path.dirname(__file__)
   with open(fname) as f:
     import json
     names_dict = json.load(f)
-    new_names_dict = {}
     for dictionary in names_dict:
-      if dictionary in ("SHUULAM", "SA_TO_TAMIL", "ARAB_MONTH_NAMES", "TIPU_ABJAD_MONTH_NAMES", "TIPU_ABTATH_MONTH_NAMES"):
+      if dictionary in ("SHUULAM", "SA_TO_TAMIL", "ARAB_MONTH_NAMES", "TIPU_ABJAD_MONTH_NAMES", "TIPU_ABTATH_MONTH_NAMES", "GRAHA_NAMES"):
         continue
       if not dictionary.startswith('VARA_NAMES'):
         # Vara Names follow zero indexing, rest don't

@@ -265,6 +265,9 @@
     "graha_lopa_measures": {
       "graha_id_to_lopa_measure": {
         "jupiter": 11,
+        "mars": 17,
+        "mercury": 13,
+        "saturn": 15,
         "venus": 9
       },
       "jsonClass": "GrahaLopaMeasures"
@@ -812,6 +815,9 @@
     "anga_type_id": "SIDEREAL_MONTH",
     "index": 9,
     "jsonClass": "Anga"
+  },
+  "mauDhyas": {
+    "mercury": true
   },
   "shraaddha_tithi": [],
   "solar_sidereal_date_sunset": {

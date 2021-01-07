@@ -81,6 +81,12 @@ class GrahaLopaMeasures(JsonObject):
       Graha.JUPITER: 11,
       # Surya Siddhanta suggests angular separation of 10° on both sides of the Sun when Venus is in the forward motion and 8° when Venus is in the retrograde motion.
       Graha.VENUS: 9,
+      #  Surya Siddhanta suggests angular separation of 14° on both sides of the Sun when Mercury is in the forward motion and 12° when Mercury is in the retrograde motion.
+      Graha.MERCURY: 13,
+      # Surya Siddhanta suggests angular separation of 17° on both sides of the Sun.
+      Graha.MARS: 17,
+      # Surya Siddhanta suggests angular separation of 15° on both sides of the Sun.
+      Graha.SATURN: 15,
     }
 
 

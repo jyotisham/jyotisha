@@ -98,6 +98,11 @@ def day_summary(d, panchaanga, script, subsection_md):
   print("\n\n%s %s" % (subsection_md, names.translate_or_transliterate(text="दिनमान-कालविभागाः", script=script)), file=output_stream)
   add_sun_moon_rise_info(daily_panchaanga, output_stream, script)
 
+  if daily_panchaanga.mauDhyas is not None:
+    muuDha_grahas = sorted(map(lambda x: translate_or_transliterate(text=names.NAMES["GRAHA_NAMES"]["sa"][x], script=script, source_script=sanscript.DEVANAGARI), daily_panchaanga.mauDhyas.keys()))
+    print('- %s - %s' % (names.translate_or_transliterate(text="मूढग्रहाः", script=script), ", ".join(muuDha_grahas)), file=output_stream)
+    
+
   if panchaanga.computation_system.festival_options.set_lagnas:
     lagna_data_str = get_lagna_data_str(daily_panchaanga, script)
     print('- %s  ' % (lagna_data_str), file=output_stream)
