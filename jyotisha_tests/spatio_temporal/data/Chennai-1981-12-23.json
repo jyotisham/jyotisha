@@ -817,7 +817,10 @@
     "jsonClass": "Anga"
   },
   "mauDhyas": {
-    "mercury": true
+    "mercury": [
+      -7.0237,
+      -7.6049
+    ]
   },
   "shraaddha_tithi": [],
   "solar_sidereal_date_sunset": {

@@ -79,7 +79,7 @@ class Graha(JsonObject):
   @methodtools.lru_cache(maxsize=10)
   def get_longitude_anga(self, jd):
     from jyotisha.panchaanga.temporal import Anga, AngaType
-    return Anga(index=self.get_longitude(jd=jd), anga_type_id=AngaType.DEGREE.name)
+    return Anga(index=self.get_longitude(jd=jd) + 1, anga_type_id=AngaType.DEGREE.name)
 
   def get_transits(self, jd_start: float, jd_end: float, ayanaamsha_id: str, anga_type: object) -> [Transit]:
     """Returns the next transit of the given planet e.g. jupiter
@@ -137,6 +137,11 @@ class Graha(JsonObject):
       from jyotisha.panchaanga.temporal.time import ist_timezone
       logging.info("Could not find a transit of %s between %s (%f) and %s (%f)", self.body_name, ist_timezone.julian_day_to_local_time_str(jd_start), jd_start, ist_timezone.julian_day_to_local_time_str(jd_end), jd_end)
     return transits
+
+
+
+def longitude_difference(jd, body1, body2):
+  return body1.get_longitude_anga(jd=jd) - body2.get_longitude_anga(jd=jd)
 
 
 def get_star_longitude(star, jd):

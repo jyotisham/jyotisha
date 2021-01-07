@@ -9,7 +9,7 @@ from scipy.optimize import brentq
 from timebudget import timebudget
 
 from jyotisha.panchaanga.spatio_temporal import City
-from jyotisha.panchaanga.temporal import time, ComputationSystem, set_constants, names, era
+from jyotisha.panchaanga.temporal import time, ComputationSystem, set_constants, names, era, body
 from jyotisha.panchaanga.temporal import zodiac
 from jyotisha.panchaanga.temporal.body import Graha
 from jyotisha.panchaanga.temporal.festival.rules import RulesRepo
@@ -416,23 +416,23 @@ class DailyPanchaanga(common.JsonObject):
     if gap is None:
       gap = (Graha.BODY_TO_ANGULAR_DIA_DEGREES[body1.body_name] + Graha.BODY_TO_ANGULAR_DIA_DEGREES[body2.body_name])/ 2.0
 
-    def longitude_difference(jd):
-      return body1.get_longitude_anga(jd=jd) - body2.get_longitude_anga(jd=jd)
-
     def has_collision(jd):
-      return abs(longitude_difference(jd=jd)) < gap
+      return abs(body.longitude_difference(jd=jd, body1=body1, body2=body2)) < gap
 
     sign = lambda x: -1 if x < 0 else (1 if x > 0 else (0 if x == 0 else None))
-    return has_collision(jd=self.jd_sunrise) or has_collision(jd=self.jd_next_sunrise) or sign(longitude_difference(jd=self.jd_sunrise)) != sign(longitude_difference(jd=self.jd_next_sunrise))
+    return has_collision(jd=self.jd_sunrise) or has_collision(jd=self.jd_next_sunrise) or sign(body.longitude_difference(jd=self.jd_sunrise, body1=body1, body2=body2)) != sign(body.longitude_difference(jd=self.jd_next_sunrise, body1=body1, body2=body2))
 
   def set_mauDhyas(self):
     sun = Graha.singleton(body_name=Graha.SUN)
     mauDhyas = {}
+
     for graha_id in [Graha.MERCURY, Graha.VENUS, Graha.MARS, Graha.JUPITER, Graha.SATURN]:
       graha = Graha.singleton(body_name=graha_id)
       gap = self.computation_system.graha_lopa_measures.graha_id_to_lopa_measure.get(graha_id, None)
+
       if self.day_has_conjunction(body1=sun, body2=graha, gap=gap):
-        mauDhyas[graha_id] = True
+        mauDhyas[graha_id] = [body.longitude_difference(jd=self.jd_sunrise, body1=sun, body2=graha), body.longitude_difference(jd=self.jd_next_sunrise, body1=sun, body2=graha)]
+
     if len(mauDhyas) > 0:
       self.mauDhyas = mauDhyas
 

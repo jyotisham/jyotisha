@@ -1,5 +1,7 @@
 import logging
 
+import numpy
+
 from jyotisha.panchaanga.temporal import body
 from jyotisha.panchaanga.temporal.body import Graha, Transit
 
@@ -11,6 +13,10 @@ logging.basicConfig(
 
 def test_graha_get_longitude():
   assert Graha.singleton(Graha.SUN).get_longitude(jd=2458434.083333251) == 229.12286985575702
+
+def test_longitude_difference():
+  numpy.testing.assert_approx_equal(body.longitude_difference(jd=2458484.545, body1=Graha.singleton(Graha.SUN), body2=Graha.singleton(Graha.MARS)), -79.66, significant=2)
+  numpy.testing.assert_approx_equal(body.longitude_difference(jd=2458485.5453, body1=Graha.singleton(Graha.SUN), body2=Graha.singleton(Graha.MARS)), -79.31, significant=2)
 
 
 def test_graha_get_next_raashi_transit():

@@ -1,3 +1,4 @@
+import math
 from numbers import Number
 
 import methodtools
@@ -127,7 +128,7 @@ class Anga(common.JsonObject):
       # if self.anga_type_id != other.anga_type_id: raise ValueError("anga_type mismatch!", (self.anga_type_id, other.anga_type_id))
       num_angas = NAME_TO_TYPE[self.anga_type_id].num_angas
       gap = min((self.index - other.index) % num_angas, (other.index - self.index) % num_angas)
-      if (self.index - 1 + gap) % num_angas == other.index - 1:
+      if math.isclose((self.index - 1 + gap) % num_angas, other.index - 1):
         return -gap
       else:
         return gap
