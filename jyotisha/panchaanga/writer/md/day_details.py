@@ -167,7 +167,7 @@ def print_khachakra_stithi(daily_panchaanga, output_stream, script, subsection_m
   print('- २|🌛-🌞|%s  ' % (karana_data_str), file=output_stream)
   print('- 🌌🌛%s  ' % (chandrashtama_rashi_data_str), file=output_stream)
   if daily_panchaanga.mauDhyas is not None:
-    muuDha_grahas = ["%s (%.2f° - %.2f°)" % (translate_or_transliterate(text=names.NAMES["GRAHA_NAMES"]["sa"][g], script=script, source_script=sanscript.DEVANAGARI), angles[0], angles[1]) for g, angles in daily_panchaanga.mauDhyas.items()]
+    muuDha_grahas = ["%s (%.2f° → %.2f°)" % (translate_or_transliterate(text=names.NAMES["GRAHA_NAMES"]["sa"][g], script=script, source_script=sanscript.DEVANAGARI), angles[0], angles[1]) for g, angles in daily_panchaanga.mauDhyas.items()]
     print("___________________", file=output_stream)
     print(
       '- **%s** - %s' % (names.translate_or_transliterate(text="मूढग्रहाः", script=script), ", ".join(muuDha_grahas)),
