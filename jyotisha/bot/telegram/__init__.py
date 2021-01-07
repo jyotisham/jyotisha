@@ -27,5 +27,5 @@ def send_panchaanga(city, channel_id, token, computation_system_str, md_url_base
     md = md[:telegram.MAX_MESSAGE_LENGTH - 500] + "\n\n Message truncated. Please visit URL at top for full details."
   logging.info("Sending message: \n%s", md)
   if not dry_run:
-    md = "## माघः-11-23,कन्या-हस्तः🌛🌌◢◣धनुः-पूर्वाषाढा-09-22🌌🌞◢◣सहस्यः-10-17🪐🌞 बुधः"
+    # md = "## माघः-11-23,कन्या-हस्तः🌛🌌◢◣धनुः-पूर्वाषाढा-09-22🌌🌞◢◣सहस्यः-10-17🪐🌞 बुधः"
     bot.sendMessage(chat_id="-" + channel_id, text=md)
