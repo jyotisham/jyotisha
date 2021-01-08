@@ -158,6 +158,7 @@ class DailyPanchaanga(common.JsonObject):
     self.shraaddha_tithi = []
     self.festival_id_to_instance = {}
     self.mauDhyas = None
+    self.amauDhyas = None
 
     self.compute_sun_moon_transitions(previous_day_panchaanga=previous_day_panchaanga)
     self.compute_solar_day_sunset(previous_day_panchaanga=previous_day_panchaanga)
@@ -425,6 +426,7 @@ class DailyPanchaanga(common.JsonObject):
   def set_mauDhyas(self):
     sun = Graha.singleton(body_name=Graha.SUN)
     mauDhyas = {}
+    amauDhyas = {}
 
     for graha_id in [Graha.MERCURY, Graha.VENUS, Graha.MARS, Graha.JUPITER, Graha.SATURN]:
       graha = Graha.singleton(body_name=graha_id)
@@ -432,9 +434,13 @@ class DailyPanchaanga(common.JsonObject):
 
       if self.day_has_conjunction(body1=sun, body2=graha, gap=gap):
         mauDhyas[graha_id] = [body.longitude_difference(jd=self.jd_sunrise, body1=sun, body2=graha), body.longitude_difference(jd=self.jd_next_sunrise, body1=sun, body2=graha)]
+      else:
+        amauDhyas[graha_id] = [body.longitude_difference(jd=self.jd_sunrise, body1=sun, body2=graha), body.longitude_difference(jd=self.jd_next_sunrise, body1=sun, body2=graha)]
 
     if len(mauDhyas) > 0:
       self.mauDhyas = mauDhyas
+    if len(amauDhyas) > 0:
+      self.amauDhyas = amauDhyas
 
 
 # Essential for depickling to work.
