@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210108190239
+SEQUENCE:20210110163721
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -778,6 +778,25 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:प्रवासि-भारतीय-दिवसम् #१
+ ८
+DTSTART;VALUE=DATE:20210109
+DTEND;VALUE=DATE:20210110
+DESCRIPTION:Observed on day 9 of January (gregorian) month. The event occu
+ rred in 2003 (Gregorian era).  <br/>The date was originally picked to coin
+ cide with MK Gandhi's return from Africa in 1915.<br/><br/>## Details<br/>
+ - [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/ma
+ hApuruSha/general/gregorian/day/01/09/pravAsi-bhAratIya-divasam.toml)<br/>
+ - Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:सर्व-सफला-एकादशी
 DTSTART;VALUE=DATE:20210109
 DTEND;VALUE=DATE:20210110
@@ -906,6 +925,28 @@ DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  ><br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.co
  m/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/description_
  only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:शिण्डे-दत्ताजी-वीरगतिः #
+ २६१
+DTSTART;VALUE=DATE:20210110
+DTEND;VALUE=DATE:20210111
+DESCRIPTION:Observed on day 10 of January (gregorian) month. The event occ
+ urred in 1760 (Gregorian era).  <br/>10 Jan 1760 will be remembered for th
+ e defence of Delhi by an outnumbered Maratha army from the Afghan armies o
+ f  Ahmed Shah Abdali & Najib Khan Rohilla. Dattaji Scindia laid down his l
+ ife at Burari ghat Delhi. (Earlier\, Ahmad Shah Durrani on his fifth invas
+ ion was defeated by the Marathas in the Battle of Lahore (1759).)<br/><br/
+ ><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/ady
+ atithi/tree/master/mahApuruSha/xatra-later/gregorian/day/01/10/shiNDE-datt
+ AjI-mRtaH.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
