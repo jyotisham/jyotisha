@@ -746,6 +746,24 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:pravāsi-bhāratīya-divasam #16
+DTSTART;VALUE=DATE:20190108
+DTEND;VALUE=DATE:20190109
+DESCRIPTION:Observed on day 9 of January (gregorian) month. The event occu
+ rred in 2003 (Gregorian era).  <br/>The date was originally picked to coin
+ cide with MK Gandhi's return from Africa in 1915.<br/><br/>## Details<br/>
+ - [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/ma
+ hApuruSha/general/gregorian/day/01/09/pravAsi-bhAratIya-divasam.toml)<br/>
+ - Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Pauṣaḥ-10-04\,Kumbhaḥ-Śatabhiṣak🌛🌌◢◣Dhanuḥ-P
  ūrvāṣāḍhā-09-26🌌🌞◢◣Sahasyaḥ-10-20🪐🌞Guruḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190110T063740
