@@ -43,12 +43,22 @@ def get_raahu_yama_gulika_strings(daily_panchaanga, time_format):
       format=time_format),
     time.Hour(24 * (daily_panchaanga.day_length_based_periods.eight_fold_division.yama.jd_end - jd)).to_string(
       format=time_format))
+  raatri_yama = '%s--%s' % (
+    time.Hour(24 * (daily_panchaanga.day_length_based_periods.eight_fold_division.raatri_yama.jd_start - jd)).to_string(
+      format=time_format),
+    time.Hour(24 * (daily_panchaanga.day_length_based_periods.eight_fold_division.raatri_yama.jd_end - jd)).to_string(
+      format=time_format))
   gulika = '%s--%s' % (
     time.Hour(24 * (daily_panchaanga.day_length_based_periods.eight_fold_division.gulika.jd_start - jd)).to_string(
       format=time_format),
     time.Hour(24 * (daily_panchaanga.day_length_based_periods.eight_fold_division.gulika.jd_end - jd)).to_string(
       format=time_format))
-  return gulika, rahu, yama
+  raatri_gulika = '%s--%s' % (
+    time.Hour(24 * (daily_panchaanga.day_length_based_periods.eight_fold_division.raatri_gulika.jd_start - jd)).to_string(
+      format=time_format),
+    time.Hour(24 * (daily_panchaanga.day_length_based_periods.eight_fold_division.raatri_gulika.jd_end - jd)).to_string(
+      format=time_format))
+  return gulika, rahu, yama, raatri_gulika, raatri_yama
 
 
 def get_karaNa_data_str(daily_panchaanga, scripts, time_format):
@@ -110,7 +120,7 @@ def get_raashi_data_str(daily_panchaanga, scripts, time_format):
       if rashi_end_jd is None:
         rashi_data_str = '%s\\mbox{%s}' % (rashi_data_str, rashi)
       else:
-        rashi_data_str = '%s\\mbox{%s\\RIGHTarrow\\textsf{%s}}' % \
+        rashi_data_str = '%s\\mbox{%s\\RIGHTarrow{%s}}' % \
                          (rashi_data_str, rashi,
                           time.Hour(24 * (rashi_end_jd - jd)).to_string(
                             format=time_format))

@@ -41,14 +41,14 @@ default_if_none(time.ist_timezone.julian_day_to_local_time_str(jd=self.jd_end), 
 
   def to_hour_tex(self, tz, script, reference_date=None):
     if self.jd_start is not None:
-      start_time = '~\\textsf{%s}' % default_if_none(tz.julian_day_to_local_time(julian_day=self.jd_start).get_hour_str(reference_date=reference_date), "")
+      start_time = '~%s' % default_if_none(tz.julian_day_to_local_time(julian_day=self.jd_start).get_hour_str(reference_date=reference_date), "")
     else:
       start_time = ''
     if self.jd_end is not None:
-      end_time = '\\textsf{%s}' % default_if_none(tz.julian_day_to_local_time(julian_day=self.jd_end).get_hour_str(reference_date=reference_date), "")
+      end_time = '%s' % default_if_none(tz.julian_day_to_local_time(julian_day=self.jd_end).get_hour_str(reference_date=reference_date), "")
     else:
       end_time = ''
-    return "%s{\\RIGHTarrow}%s" % (start_time, end_time)
+    return "%s\\RIGHTarrow{}%s" % (start_time, end_time)
 
   def to_hour_text(self, tz, script=xsanscript.IAST, reference_date=None):
     if self.jd_start is not None:
@@ -243,7 +243,14 @@ class EightFoldDivision(common.JsonObject):
                                part_index=GULIKAKALA_SLICES_NIGHT[weekday], num_parts=8)
     self.raatri_yama = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise,
                                part_index=YAMAGHANTA_SLICES_NIGHT[weekday], num_parts=8)
-    self.raatri_yaama_1 = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=1, num_parts=4)
+    self.raatri_yaama_1 = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=0, num_parts=4)
+    self.raatri_yaama_2 = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=1, num_parts=4)
+    self.raatri_yaama_3 = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=2, num_parts=4)
+    self.raatri_yaama_4 = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=3, num_parts=4)
+    self.ahar_yaama_1 = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=0, num_parts=4)
+    self.ahar_yaama_2 = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=1, num_parts=4)
+    self.ahar_yaama_3 = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=2, num_parts=4)
+    self.ahar_yaama_4 = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=3, num_parts=4)
     self.shayana = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=3, num_parts=8)
     self.dinaanta = get_interval(jd_sunset, end_jd=jd_next_sunrise, part_index=5, num_parts=8)
 
