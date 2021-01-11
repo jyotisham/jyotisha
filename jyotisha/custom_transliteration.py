@@ -45,6 +45,8 @@ def tr(text, script, titled=True, source_script=sanscript.HK):
     # transliterated_text = clean_tamil_Na(transliterated_text)
   if script == 'iast':
     transliterated_text = transliterated_text.replace('ṉ', 'n')
+  if script == 'telugu' or script == sanscript.TELUGU:
+    transliterated_text = transliterated_text.replace('ऩ', 'న')
   return transliterated_text
 
 
