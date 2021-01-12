@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210112124803
+SEQUENCE:20210112194312
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -1242,6 +1242,40 @@ DTEND;VALUE=DATE:20210113
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_1/offset
  __-1/pArvaNa-vratam_30.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:सूर्यसेनो हतः #८७
+DTSTART;VALUE=DATE:20210112
+DTEND;VALUE=DATE:20210113
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/01/12/sUrya
+ seno_hataH.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit co
+ nfig file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/
+ xatra-later/gregorian/day/01/12/sUryaseno_hataH.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:वाञ्छिनाथो हतः #८७
+DTSTART;VALUE=DATE:20210112
+DTEND;VALUE=DATE:20210113
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/01/12/vAnCh
+ inAtho_hataH.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit 
+ config file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSh
+ a/xatra-later/gregorian/day/01/12/vAnChinAtho_hataH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5913,6 +5947,24 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  /github.com/jyotisham/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar
  _month/tithi/11/10/kAJcI%2011%20jagadguru%20zrI~zivAnanda%20cidghanEndra%2
  0sarasvatI%20ArAdhanA.toml)<br/>- Tags: KanchiAradhanaDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:रॆड्डि-नरसिंहो हतः #१७४
+DTSTART;VALUE=DATE:20210222
+DTEND;VALUE=DATE:20210223
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/02/22/reDDi
+ -narasiMho_hataH.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [E
+ dit config file](https://github.com/jyotisham/adyatithi/tree/master/mahApu
+ ruSha/xatra-later/gregorian/day/02/22/reDDi-narasiMho_hataH.toml)<br/>- Ta
+ gs:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -22850,6 +22902,23 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:बामाशाहो जातः #४७४
+DTSTART;VALUE=DATE:20210708
+DTEND;VALUE=DATE:20210709
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/07/08/bAmAs
+ hAho_jAtaH.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit co
+ nfig file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/
+ xatra-later/gregorian/day/07/08/bAmAshAho_jAtaH.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:चिदम्बरे स्वर्ण-सूर्यप्
  रभ वाहनम्
 DTSTART;VALUE=DATE:20210708
@@ -33354,6 +33423,25 @@ DESCRIPTION:Observed on Kṛṣṇa-Pañcamī tithi of Bhādrapadaḥ (lun
  ar) month (Sūryodayaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit c
  onfig file](https://github.com/jyotisham/adyatithi/tree/master/devatA/misc
  -fauna/lunar_month/tithi/06/20/nAga-pUjA.toml)<br/>- Tags: SpecialPuja
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:प्रतापसिंहो देवैरदुर्ग
+ ं जयति #४३९
+DTSTART;VALUE=DATE:20210926
+DTEND;VALUE=DATE:20210927
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/09/26/pratA
+ pasiMho_devaira-yuddhe_jayati.toml)<br/>- Tags: <br/><br/><br/><br/>## Det
+ ails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/
+ master/mahApuruSha/xatra-later/gregorian/day/09/26/pratApasiMho_devaira-yu
+ ddhe_jayati.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
