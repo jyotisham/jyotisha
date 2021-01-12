@@ -84,7 +84,7 @@ def emit(panchaanga, time_format="hh:mm", languages=None, scripts=None, output_s
 
     karana_data_str = get_karaNa_data_str(daily_panchaanga, scripts, time_format)
 
-    gulika, rahu, yama = get_raahu_yama_gulika_strings(daily_panchaanga, time_format)
+    gulika, rahu, yama, raatri_gulika, raatri_yama = get_raahu_yama_gulika_strings(daily_panchaanga, time_format)
 
     if daily_panchaanga.solar_sidereal_date_sunset.month == 1:
       # Flip the year name for the remaining days
@@ -100,11 +100,11 @@ def emit(panchaanga, time_format="hh:mm", languages=None, scripts=None, output_s
     else:
       _m = daily_panchaangas[d - 1].solar_sidereal_date_sunset.month
       if daily_panchaanga.solar_sidereal_date_sunset.month_transition >= daily_panchaangas[d + 1].jd_sunrise:
-        month_end_str = '\\mbox{%s{\\tiny\\RIGHTarrow}\\textsf{%s}}' % (
+        month_end_str = '\\mbox{%s{\\tiny\\RIGHTarrow}{%s}}' % (
           names.NAMES['RASHI_NAMES']['sa'][scripts[0]][_m], time.Hour(
             24 * (daily_panchaanga.solar_sidereal_date_sunset.month_transition - daily_panchaangas[d + 1].julian_day_start)).to_string(format=time_format))
       else:
-        month_end_str = '\\mbox{%s{\\tiny\\RIGHTarrow}\\textsf{%s}}' % (
+        month_end_str = '\\mbox{%s{\\tiny\\RIGHTarrow}{%s}}' % (
           names.NAMES['RASHI_NAMES']['sa'][scripts[0]][_m], time.Hour(
             24 * (daily_panchaanga.solar_sidereal_date_sunset.month_transition - daily_panchaanga.julian_day_start)).to_string(format=time_format))
 
@@ -164,7 +164,7 @@ def stream_daylength_based_periods(daily_panchaanga, output_stream, time_format)
     24 * (daily_panchaanga.day_length_based_periods.fifteen_fold_division.saayam_sandhyaa.jd_start - jd)).to_string(format=time_format)
   sayamsandhya_end = time.Hour(
     24 * (daily_panchaanga.day_length_based_periods.fifteen_fold_division.pradosha.jd_end - jd)).to_string(format=time_format)
-  ratriyama1 = time.Hour(24 * (daily_panchaanga.day_length_based_periods.eight_fold_division.raatri_yaama_1.jd_start - jd)).to_string(
+  ratriyama1 = time.Hour(24 * (daily_panchaanga.day_length_based_periods.eight_fold_division.raatri_yaama_1.jd_end - jd)).to_string(
     format=time_format)
   shayana_time_end = time.Hour(24 * (daily_panchaanga.day_length_based_periods.eight_fold_division.shayana.jd_start - jd)).to_string(
     format=time_format)
