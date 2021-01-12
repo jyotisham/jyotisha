@@ -26053,6 +26053,23 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:vivekānanda-bhāṣaṇaṃ cikāgonagare #126
+DTSTART;VALUE=DATE:20190910
+DTEND;VALUE=DATE:20190911
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/mahApuruSha/general/gregorian/day/09/11/vivekAnan
+ da-speech.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/g
+ eneral/gregorian/day/09/11/vivekAnanda-speech.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:śravaṇa-vratam
 DTSTART;VALUE=DATE:20190911
 DTEND;VALUE=DATE:20190912
