@@ -313,30 +313,28 @@
       "name": "दिनमानम्"
     },
     "eight_fold_division": {
-      "ahar_yaama_1": {
-        "jd_end": 2444961.6593,
-        "jd_start": 2444961.5423,
-        "jsonClass": "Interval",
-        "name": "अह्नि यामः १"
-      },
-      "ahar_yaama_2": {
-        "jd_end": 2444961.7763,
-        "jd_start": 2444961.6593,
-        "jsonClass": "Interval",
-        "name": "अह्नि यामः २"
-      },
-      "ahar_yaama_3": {
-        "jd_end": 2444961.8933,
-        "jd_start": 2444961.7763,
-        "jsonClass": "Interval",
-        "name": "अह्नि यामः ३"
-      },
-      "ahar_yaama_4": {
-        "jd_end": 2444962.0104,
-        "jd_start": 2444961.8933,
-        "jsonClass": "Interval",
-        "name": "अह्नि यामः ४"
-      },
+      "ahar_yaama": [
+        {
+          "jd_end": 2444961.6593,
+          "jd_start": 2444961.5423,
+          "jsonClass": "Interval"
+        },
+        {
+          "jd_end": 2444961.7763,
+          "jd_start": 2444961.6593,
+          "jsonClass": "Interval"
+        },
+        {
+          "jd_end": 2444961.8933,
+          "jd_start": 2444961.7763,
+          "jsonClass": "Interval"
+        },
+        {
+          "jd_end": 2444962.0104,
+          "jd_start": 2444961.8933,
+          "jsonClass": "Interval"
+        }
+      ],
       "aparaahna": {
         "jd_end": 2444961.9518,
         "jd_start": 2444961.8933,
@@ -380,30 +378,28 @@
         "jsonClass": "Interval",
         "name": "रात्रौ गुलिककालः"
       },
-      "raatri_yaama_1": {
-        "jd_end": 2444962.1434,
-        "jd_start": 2444962.0104,
-        "jsonClass": "Interval",
-        "name": "रात्रौ यामः १"
-      },
-      "raatri_yaama_2": {
-        "jd_end": 2444962.2765,
-        "jd_start": 2444962.1434,
-        "jsonClass": "Interval",
-        "name": "रात्रौ यामः २"
-      },
-      "raatri_yaama_3": {
-        "jd_end": 2444962.4096,
-        "jd_start": 2444962.2765,
-        "jsonClass": "Interval",
-        "name": "रात्रौ यामः ३"
-      },
-      "raatri_yaama_4": {
-        "jd_end": 2444962.5427,
-        "jd_start": 2444962.4096,
-        "jsonClass": "Interval",
-        "name": "रात्रौ यामः ४"
-      },
+      "raatri_yaama": [
+        {
+          "jd_end": 2444962.1434,
+          "jd_start": 2444962.0104,
+          "jsonClass": "Interval"
+        },
+        {
+          "jd_end": 2444962.2765,
+          "jd_start": 2444962.1434,
+          "jsonClass": "Interval"
+        },
+        {
+          "jd_end": 2444962.4096,
+          "jd_start": 2444962.2765,
+          "jsonClass": "Interval"
+        },
+        {
+          "jd_end": 2444962.5427,
+          "jd_start": 2444962.4096,
+          "jsonClass": "Interval"
+        }
+      ],
       "raatri_yama": {
         "jd_end": 2444962.343,
         "jd_start": 2444962.2765,

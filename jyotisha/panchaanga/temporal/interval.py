@@ -243,14 +243,14 @@ class EightFoldDivision(common.JsonObject):
                                part_index=GULIKAKALA_SLICES_NIGHT[weekday], num_parts=8)
     self.raatri_yama = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise,
                                part_index=YAMAGHANTA_SLICES_NIGHT[weekday], num_parts=8)
-    self.raatri_yaama_1 = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=0, num_parts=4)
-    self.raatri_yaama_2 = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=1, num_parts=4)
-    self.raatri_yaama_3 = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=2, num_parts=4)
-    self.raatri_yaama_4 = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=3, num_parts=4)
-    self.ahar_yaama_1 = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=0, num_parts=4)
-    self.ahar_yaama_2 = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=1, num_parts=4)
-    self.ahar_yaama_3 = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=2, num_parts=4)
-    self.ahar_yaama_4 = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=3, num_parts=4)
+    self.raatri_yaama = [get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=0, num_parts=4),
+                         get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=1, num_parts=4),
+                         get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=2, num_parts=4),
+                         get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=3, num_parts=4)]
+    self.ahar_yaama = [get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=0, num_parts=4),
+                       get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=1, num_parts=4),
+                       get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=2, num_parts=4),
+                       get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=3, num_parts=4)]
     self.shayana = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=3, num_parts=8)
     self.dinaanta = get_interval(jd_sunset, end_jd=jd_next_sunrise, part_index=5, num_parts=8)
 
@@ -287,7 +287,11 @@ class DayLengthBasedPeriods(common.JsonObject):
 
     for attr_name, obj in self.__dict__.items():
       if isinstance(obj, Interval):
-        obj.name = names.python_to_devanaagarii[attr_name]
+        if obj.name is not None:
+          name = obj.name
+        else:
+          name = attr_name
+        obj.name = names.python_to_devanaagarii[name]
 
 
 class TbSayanaMuhuurta(Interval):
