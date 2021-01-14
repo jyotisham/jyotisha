@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210113223509
+SEQUENCE:20210114184132
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -5849,7 +5849,11 @@ BEGIN:VEVENT
 SUMMARY:श्यामळानवरात्रः
 DTSTART;VALUE=DATE:20210212
 DTEND;VALUE=DATE:20210222
-DESCRIPTION:
+DESCRIPTION:Shyamala Devi specially blesses musicians\; honour musicians i
+ n this period.<br/><br/>## Details<br/>- References<br/>  - Vaidikasri Feb
+  2016<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree
+ /master/devatA/shakti/description_only/zyAmaLAnavarAtraH.toml)<br/>- Tags:
+  Navaratri SpecialPeriod
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9975,7 +9979,13 @@ BEGIN:VEVENT
 SUMMARY:पयोव्रतम्
 DTSTART;VALUE=DATE:20210314
 DTEND;VALUE=DATE:20210327
-DESCRIPTION:
+DESCRIPTION:payovratam observed by Aditi Devi begins today.<br/><br/>फ
+ ाल्गुनस्यामले पक्षे द्वादश
+ ाहं पयोव्रतम्।  <br/>अर्चयेदरव
+ िन्दाक्षं भक्त्या परमयाऽऽन
+ ्वितः॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](
+ https://github.com/jyotisham/adyatithi/tree/master/general/description_onl
+ y/payOvratam.toml)<br/>- Tags: Vratam SpecialPeriod
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10396,7 +10406,9 @@ BEGIN:VEVENT
 SUMMARY:वेङ्कटाचले प्लवोत्सवः
 DTSTART;VALUE=DATE:20210324
 DTEND;VALUE=DATE:20210329
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/temples/venkaTAchala/description_only/vEGkaTAcalE
+ %20plavOtsavaH.toml)<br/>- Tags: AndhraTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13207,7 +13219,9 @@ BEGIN:VEVENT
 SUMMARY:वसन्तनवरात्रः
 DTSTART;VALUE=DATE:20210413
 DTEND;VALUE=DATE:20210422
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/general/description_only/vasantanavarAtraH.toml)<
+ br/>- Tags: CommonFestivals Navaratri SpecialPeriod
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17240,7 +17254,9 @@ SUMMARY:वेङ्कटाचले पद्मावती-परि
  णयोत्सवः (गरुड-वाहनम्)
 DTSTART;VALUE=DATE:20210521
 DTEND;VALUE=DATE:20210524
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/temples/venkaTAchala/description_only/vEGkaTAcalE
+ %20padmAvatI-pariNayOtsavaH.toml)<br/>- Tags: AndhraTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18201,7 +18217,9 @@ BEGIN:VEVENT
 SUMMARY:अग्निनक्षत्रम्
 DTSTART;VALUE=DATE:20210504
 DTEND;VALUE=DATE:20210530
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/time_focus/nakShatra/description_only/agninakSatr
+ am.toml)<br/>- Tags: SpecialPeriod
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -19358,7 +19376,12 @@ BEGIN:VEVENT
 SUMMARY:वैशाख-मासः
 DTSTART;VALUE=DATE:20210512
 DTEND;VALUE=DATE:20210611
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/time_focus/misc/description_only/vaizAkha-mAsaH.t
+ oml)<br/>- Tags: SpecialDays SpecialPeriod<br/><br/><br/><br/>## Details<b
+ r/>- References<br/>  - Skanda Puranam<br/>- [Edit config file](https://gi
+ thub.com/jyotisham/adyatithi/tree/master/time_focus/misc/description_only/
+ vaizAkha-mAsaH.toml)<br/>- Tags: SpecialDays SpecialPeriod
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -21457,7 +21480,10 @@ SUMMARY:अलर्मेल्मङ्गापुरे प्लव
  ोत्सवः
 DTSTART;VALUE=DATE:20210620
 DTEND;VALUE=DATE:20210625
-DESCRIPTION:
+DESCRIPTION:Rukmini Satyabhama sahita Krishna are taken out on the plava.<
+ br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/
+ adyatithi/tree/master/temples/Andhra/description_only/alarmElmaGgApurE%20p
+ lavOtsavaH.toml)<br/>- Tags: AndhraTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -24191,7 +24217,9 @@ BEGIN:VEVENT
 SUMMARY:वाराही-नवरात्रः
 DTSTART;VALUE=DATE:20210711
 DTEND;VALUE=DATE:20210719
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/devatA/shakti/description_only/vArAhI-navarAtraH.
+ toml)<br/>- Tags: Navaratri SpecialPeriod
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -28113,7 +28141,13 @@ BEGIN:VEVENT
 SUMMARY:शाकव्रतम्
 DTSTART;VALUE=DATE:20210721
 DTEND;VALUE=DATE:20210820
-DESCRIPTION:
+DESCRIPTION:वासुदेव शुचौ मासे शाकव
+ ्रतमनुत्तमम्।  <br/>त्वत्प्री
+ त्यर्थं करिष्येऽहं निर्विघ
+ ्नं कुरु माधव॥<br/><br/><br/><br/>## Details<br/>-
+  [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/gen
+ eral/description_only/zAkavratam.toml)<br/>- Tags: Vratam SpecialPeriod Co
+ mmonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -32281,7 +32315,13 @@ BEGIN:VEVENT
 SUMMARY:दधि-व्रतम्
 DTSTART;VALUE=DATE:20210819
 DTEND;VALUE=DATE:20210919
-DESCRIPTION:
+DESCRIPTION:सङ्कर्षणारविन्दाक्ष क
+ रिष्येऽहं दधिव्रतम्।  <br/>द्व
+ ितीये मासि देवेश निर्विघ्न
+ ं कुरु मे प्रभो॥<br/><br/><br/><br/>## Details<b
+ r/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master
+ /general/description_only/dadhi-vratam.toml)<br/>- Tags: Vratam SpecialPer
+ iod CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -32704,7 +32744,9 @@ BEGIN:VEVENT
 SUMMARY:यतिचातुर्मास्यव्रतम्
 DTSTART;VALUE=DATE:20210724
 DTEND;VALUE=DATE:20210921
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/time_focus/misc/description_only/yaticAturmAsyavr
+ atam.toml)<br/>- Tags: Vratam SpecialPeriod CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -34553,7 +34595,9 @@ BEGIN:VEVENT
 SUMMARY:महालय-पक्षः
 DTSTART;VALUE=DATE:20210921
 DTEND;VALUE=DATE:20211007
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/devatA/pitR/description_only/mahAlaya-pakSaH.toml
+ )<br/>- Tags: SpecialPeriod
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -35675,7 +35719,9 @@ BEGIN:VEVENT
 SUMMARY:शरन्नवरात्रः
 DTSTART;VALUE=DATE:20211007
 DTEND;VALUE=DATE:20211015
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/general/description_only/zarannavarAtraH.toml)<br
+ />- Tags: Navaratri SpecialPeriod CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -38614,7 +38660,9 @@ BEGIN:VEVENT
 SUMMARY:सप्तम-अपरपक्षः
 DTSTART;VALUE=DATE:20211021
 DTEND;VALUE=DATE:20211105
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/general/description_only/saptama-aparapakSaH.toml
+ )<br/>- Tags: SpecialPeriod
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -39822,7 +39870,19 @@ BEGIN:VEVENT
 SUMMARY:आकाशदीपः
 DTSTART;VALUE=DATE:20211017
 DTEND;VALUE=DATE:20211116
-DESCRIPTION:
+DESCRIPTION:Offer Akasha Dipam for this entire month\, in the evening\, on
+  a high place (pillar?). Light lamps using gingelly oil with eight wicks.<
+ br/><br/>तुलायां  तिलतैलेन  सायङ्
+ काले  समागते।  <br/>आकाशदीपं  यो
+   दद्यान्मासमेकं  हरिं  प्रत
+ ि।  <br/>महतीं  श्रियमाप्नोति  र
+ ूप-सौभाग्य-सम्पदम्॥  <br/>  <br/>दा
+ मोदराय  नभसि  तुलायां  लोलया  
+ सह।  <br/>प्रदीपं  ते  प्रयच्छाम
+ ि  नमोऽनन्ताय  वेधसे॥  <br/><br/><br/><b
+ r/><br/>## Details<br/>- References<br/>  - Nirnaya Sindhu 146<br/>- [Edit
+  config file](https://github.com/jyotisham/adyatithi/tree/master/general/d
+ escription_only/AkAzadIpaH.toml)<br/>- Tags: LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -39936,7 +39996,14 @@ BEGIN:VEVENT
 SUMMARY:तुला-कावेरी-स्नानम्
 DTSTART;VALUE=DATE:20211017
 DTEND;VALUE=DATE:20211116
-DESCRIPTION:
+DESCRIPTION:Perform snānam in Kaveri during this month.<br/><br/>षट
+ ्षष्टिकोटितीर्थानि द्विसप
+ ्तभुवनेषु च।  <br/>केशवस्याऽऽज
+ ्ञया यान्ति तुलामासे मरुद्
+ वृधम्॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](
+ https://github.com/jyotisham/adyatithi/tree/master/temples/Tamil/descripti
+ on_only/tulA-kAvErI-snAnam.toml)<br/>- Tags: TamilnaduTempleFestivals Spec
+ ialPeriod
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -40117,7 +40184,13 @@ BEGIN:VEVENT
 SUMMARY:द्विदल-व्रतम्
 DTSTART;VALUE=DATE:20211017
 DTEND;VALUE=DATE:20211117
-DESCRIPTION:
+DESCRIPTION:अनिरुद्ध सुरैर्वन्द्य 
+ द्विदलव्रतमुत्तमम्।  <br/>करो
+ म्यहमिषेमासे निर्विघ्नं कु
+ रु मे प्रभो॥<br/><br/><br/><br/>## Details<br/>- [Edit
+  config file](https://github.com/jyotisham/adyatithi/tree/master/general/d
+ escription_only/dvidala-vratam.toml)<br/>- Tags: Vratam SpecialPeriod Comm
+ onFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -40154,7 +40227,15 @@ BEGIN:VEVENT
 SUMMARY:गोपद्म-व्रतम्
 DTSTART;VALUE=DATE:20210720
 DTEND;VALUE=DATE:20211117
-DESCRIPTION:
+DESCRIPTION:Perform puja of Mahalakshmi-Mahavishnu<br/><br/>गोपद
+ ्ममिति विख्यातं सर्वपापहरं
+  परम्।  <br/>सर्वदुःखोपशमनं सर
+ ्वसम्पत्प्रदायकम्।  <br/>सुवा
+ सिन्यास्तु सौभाग्यपुत्रपौ
+ त्रप्रवर्धनम्॥<br/><br/><br/><br/>## Details<b
+ r/>- References<br/>  - Vrata Chudamani 173<br/>- [Edit config file](https
+ ://github.com/jyotisham/adyatithi/tree/master/devatA/vaiShNava/description
+ _only/gOpadma-vratam.toml)<br/>- Tags: SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -40673,7 +40754,11 @@ BEGIN:VEVENT
 SUMMARY:भीष्म-पञ्चक-व्रतम्
 DTSTART;VALUE=DATE:20211114
 DTEND;VALUE=DATE:20211120
-DESCRIPTION:
+DESCRIPTION:Bhishma\, lying on śaratalpa performed upadesha to Yudhisthir
+ a and other Pandavas for these five days.<br/><br/>## Details<br/>- [Edit 
+ config file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSh
+ a/xatra/description_only/bhISma-paJcaka-vratam.toml)<br/>- Tags: LessCommo
+ nFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -40704,7 +40789,12 @@ BEGIN:VEVENT
 SUMMARY:चातुर्मास्यव्रतम्
 DTSTART;VALUE=DATE:20210719
 DTEND;VALUE=DATE:20211120
-DESCRIPTION:
+DESCRIPTION:Chaaturmasya begins\; 4 months\; Pradakshina to Pippala\; Deep
+ aradhana in temple\; Saraswati Pooja\; 1st month no vegetables\; 2nd month
+  no curds\; 3rd month no milk\; 4th month no dals\;<br/><br/>## Details<br
+ />- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/
+ time_focus/misc/description_only/cAturmAsyavratam.toml)<br/>- Tags: Vratam
+  SpecialPeriod CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -40954,7 +41044,12 @@ BEGIN:VEVENT
 SUMMARY:भद्रा-अन्त्य-पुष्करम्
 DTSTART;VALUE=DATE:20211109
 DTEND;VALUE=DATE:20211121
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/time_focus/puShkara/description_only/bhadrA-antya
+ -puSkaram.toml)<br/>- Tags: RareDays Pushkara<br/><br/><br/><br/>## Detail
+ s<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/mas
+ ter/time_focus/puShkara/description_only/bhadrA-antya-puSkaram.toml)<br/>-
+  Tags: RareDays Pushkara
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -42350,7 +42445,12 @@ BEGIN:VEVENT
 SUMMARY:भीमरथी-आदि-पुष्करम्
 DTSTART;VALUE=DATE:20211121
 DTEND;VALUE=DATE:20211203
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/time_focus/puShkara/description_only/bhImarathI-A
+ di-puSkaram.toml)<br/>- Tags: RareDays Pushkara<br/><br/><br/><br/>## Deta
+ ils<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/m
+ aster/time_focus/puShkara/description_only/bhImarathI-Adi-puSkaram.toml)<b
+ r/>- Tags: RareDays Pushkara
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -42624,7 +42724,9 @@ BEGIN:VEVENT
 SUMMARY:नवम-अपरपक्षः
 DTSTART;VALUE=DATE:20211119
 DTEND;VALUE=DATE:20211205
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/general/description_only/navama-aparapakSaH.toml)
+ <br/>- Tags: SpecialPeriod
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -42669,7 +42771,11 @@ SUMMARY:तिरुविशलूर् गङ्गाकर्षण-
  महोत्सवः
 DTSTART;VALUE=DATE:20211125
 DTEND;VALUE=DATE:20211205
-DESCRIPTION:
+DESCRIPTION:Beginning of Gangakarshana Mahotsava in Thiruvisanallur. See a
+ lso http://www.sriayyaval.org/ .  <br/><br/>## Details<br/>- [Edit config 
+ file](https://github.com/jyotisham/adyatithi/tree/master/temples/Tamil/des
+ cription_only/tiruvizalUr%20gaGgAkarSaNa-mahOtsavaH.toml)<br/>- Tags: Maha
+ purushaEvents TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -43597,7 +43703,10 @@ BEGIN:VEVENT
 SUMMARY:वनदुर्गानवरात्रः
 DTSTART;VALUE=DATE:20211205
 DTEND;VALUE=DATE:20211213
-DESCRIPTION:
+DESCRIPTION:Vanadurga Navaratri. Specially celebrated in Kathiramangalam.<
+ br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/
+ adyatithi/tree/master/devatA/shakti/description_only/vanadurgAnavarAtraH.t
+ oml)<br/>- Tags: Navaratri SpecialPeriod
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
