@@ -128,7 +128,7 @@ class TransitionFestivalInstance(FestivalInstance):
 
 
 def get_description(festival_instance, fest_details_dict, script, truncate=True, header_md="#####"):
-  fest_id = festival_instance.name
+  fest_id = festival_instance.name.replace('/', ' or ')
   desc = None
   if re.match('aGgArakI.*saGkaTahara-caturthI-vratam', fest_id):
     fest_id = fest_id.replace('aGgArakI~', '')
