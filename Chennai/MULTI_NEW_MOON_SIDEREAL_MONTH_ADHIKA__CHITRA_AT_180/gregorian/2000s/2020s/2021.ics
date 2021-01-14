@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210114184132
+SEQUENCE:20210114232526
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -1239,9 +1239,10 @@ SUMMARY:पार्वणव्रतम् अमावास्या
  याम्
 DTSTART;VALUE=DATE:20210112
 DTEND;VALUE=DATE:20210113
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_1/offset
- __-1/pArvaNa-vratam_30.toml)<br/>- Tags:
+DESCRIPTION:pārvaṇavratam on the eve of darśa-sthālīpākaḥ.<br/><b
+ r/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyati
+ thi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_1/offset__-1/pArv
+ aNa-vratam_30.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1378,9 +1379,11 @@ SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20210113
 DTEND;VALUE=DATE:20210114
 DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
- rvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config file](
- https://github.com/jyotisham/adyatithi/tree/master/gRhya/general/lunar_mon
- th/tithi/00/01/sthAlIpAkaH_1.toml)<br/>- Tags: MonthlyFestivals
+ rvāhṇaḥ/puurvaviddha). sthālīpakaḥ is an important fortnightly ri
+ tual\, involving the offering of haviṣyānna to agni\, with the offering
+  being cooked on the fire itself.<br/><br/>## Details<br/>- [Edit config f
+ ile](https://github.com/jyotisham/adyatithi/tree/master/gRhya/general/luna
+ r_month/tithi/00/01/sthAlIpAkaH_1.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1693,9 +1696,12 @@ BEGIN:VEVENT
 SUMMARY:तै वॆळ्ळिक्किऴमै
 DTSTART;VALUE=DATE:20210115
 DTEND;VALUE=DATE:20210116
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/tamil/description_only/tai~veLLikkizhamai.toml)<b
- r/>- Tags: MonthWeekdayFestivals
+DESCRIPTION:Very widely celebrated in Tamil Nadu temples\, Fridays in the 
+ month of tai are special for propitiating Shakti Devi. At homes\, there is
+  also a common practice of māviḻakku\, lighting ghee lamps in flour.<br
+ /><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/ad
+ yatithi/tree/master/tamil/description_only/tai~veLLikkizhamai.toml)<br/>- 
+ Tags: MonthWeekdayFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2277,9 +2283,12 @@ BEGIN:VEVENT
 SUMMARY:तै वॆळ्ळिक्किऴमै
 DTSTART;VALUE=DATE:20210122
 DTEND;VALUE=DATE:20210123
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/tamil/description_only/tai~veLLikkizhamai.toml)<b
- r/>- Tags: MonthWeekdayFestivals
+DESCRIPTION:Very widely celebrated in Tamil Nadu temples\, Fridays in the 
+ month of tai are special for propitiating Shakti Devi. At homes\, there is
+  also a common practice of māviḻakku\, lighting ghee lamps in flour.<br
+ /><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/ad
+ yatithi/tree/master/tamil/description_only/tai~veLLikkizhamai.toml)<br/>- 
+ Tags: MonthWeekdayFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3009,9 +3018,10 @@ SUMMARY:पार्वणव्रतम् पूर्णिमाय
  ाम्
 DTSTART;VALUE=DATE:20210128
 DTEND;VALUE=DATE:20210129
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_16/offse
- t__-1/pArvaNa-vratam_15.toml)<br/>- Tags:
+DESCRIPTION:pārvaṇavratam on the eve of pūrṇa-sthālīpākaḥ.<br/>
+ <br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adya
+ tithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_16/offset__-1/p
+ ArvaNa-vratam_15.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3174,9 +3184,11 @@ SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20210129
 DTEND;VALUE=DATE:20210130
 DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month
-  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config f
- ile](https://github.com/jyotisham/adyatithi/tree/master/gRhya/general/luna
- r_month/tithi/00/16/sthAlIpAkaH_16.toml)<br/>- Tags: MonthlyFestivals
+  (Pūrvāhṇaḥ/puurvaviddha). sthālīpakaḥ is an important fortnight
+ ly ritual\, involving the offering of haviṣyānna to agni\, with the off
+ ering being cooked on the fire itself.<br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/tree/master/gRhya/general
+ /lunar_month/tithi/00/16/sthAlIpAkaH_16.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3189,9 +3201,12 @@ BEGIN:VEVENT
 SUMMARY:तै वॆळ्ळिक्किऴमै
 DTSTART;VALUE=DATE:20210129
 DTEND;VALUE=DATE:20210130
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/tamil/description_only/tai~veLLikkizhamai.toml)<b
- r/>- Tags: MonthWeekdayFestivals
+DESCRIPTION:Very widely celebrated in Tamil Nadu temples\, Fridays in the 
+ month of tai are special for propitiating Shakti Devi. At homes\, there is
+  also a common practice of māviḻakku\, lighting ghee lamps in flour.<br
+ /><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/ad
+ yatithi/tree/master/tamil/description_only/tai~veLLikkizhamai.toml)<br/>- 
+ Tags: MonthWeekdayFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3892,9 +3907,12 @@ BEGIN:VEVENT
 SUMMARY:तै वॆळ्ळिक्किऴमै
 DTSTART;VALUE=DATE:20210205
 DTEND;VALUE=DATE:20210206
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/tamil/description_only/tai~veLLikkizhamai.toml)<b
- r/>- Tags: MonthWeekdayFestivals
+DESCRIPTION:Very widely celebrated in Tamil Nadu temples\, Fridays in the 
+ month of tai are special for propitiating Shakti Devi. At homes\, there is
+  also a common practice of māviḻakku\, lighting ghee lamps in flour.<br
+ /><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/ad
+ yatithi/tree/master/tamil/description_only/tai~veLLikkizhamai.toml)<br/>- 
+ Tags: MonthWeekdayFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4450,7 +4468,9 @@ SUMMARY:मौनि (पौष/मकर) अमावास्या (
  ा)
 DTSTART;VALUE=DATE:20210211
 DTEND;VALUE=DATE:20210212
-DESCRIPTION:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/time_focus/monthly/amAvAsyA/description_only/maun
+ i%20%28pauSa%20or%20makara%29%20amAvAsyA.toml)<br/>- Tags: AmavasyaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4464,9 +4484,10 @@ SUMMARY:पार्वणव्रतम् अमावास्या
  याम्
 DTSTART;VALUE=DATE:20210211
 DTEND;VALUE=DATE:20210212
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_1/offset
- __-1/pArvaNa-vratam_30.toml)<br/>- Tags:
+DESCRIPTION:pārvaṇavratam on the eve of darśa-sthālīpākaḥ.<br/><b
+ r/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyati
+ thi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_1/offset__-1/pArv
+ aNa-vratam_30.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4634,9 +4655,11 @@ SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20210212
 DTEND;VALUE=DATE:20210213
 DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
- rvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config file](
- https://github.com/jyotisham/adyatithi/tree/master/gRhya/general/lunar_mon
- th/tithi/00/01/sthAlIpAkaH_1.toml)<br/>- Tags: MonthlyFestivals
+ rvāhṇaḥ/puurvaviddha). sthālīpakaḥ is an important fortnightly ri
+ tual\, involving the offering of haviṣyānna to agni\, with the offering
+  being cooked on the fire itself.<br/><br/>## Details<br/>- [Edit config f
+ ile](https://github.com/jyotisham/adyatithi/tree/master/gRhya/general/luna
+ r_month/tithi/00/01/sthAlIpAkaH_1.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4649,9 +4672,12 @@ BEGIN:VEVENT
 SUMMARY:तै वॆळ्ळिक्किऴमै
 DTSTART;VALUE=DATE:20210212
 DTEND;VALUE=DATE:20210213
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/tamil/description_only/tai~veLLikkizhamai.toml)<b
- r/>- Tags: MonthWeekdayFestivals
+DESCRIPTION:Very widely celebrated in Tamil Nadu temples\, Fridays in the 
+ month of tai are special for propitiating Shakti Devi. At homes\, there is
+  also a common practice of māviḻakku\, lighting ghee lamps in flour.<br
+ /><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/ad
+ yatithi/tree/master/tamil/description_only/tai~veLLikkizhamai.toml)<br/>- 
+ Tags: MonthWeekdayFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6127,7 +6153,11 @@ BEGIN:VEVENT
 SUMMARY:सर्व-जया/भैमी-एकादशी
 DTSTART;VALUE=DATE:20210223
 DTEND;VALUE=DATE:20210224
-DESCRIPTION:
+DESCRIPTION:The Shukla-paksha Ekadashi of māgha month is known as bhaimī
+ -ekādaśī.<br/><br/>## Details<br/>- [Edit config file](https://github.c
+ om/jyotisham/adyatithi/tree/master/time_focus/monthly/ekAdashI/description
+ _only/jayA%20or%20bhaimI-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiV
+ ratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6797,9 +6827,10 @@ SUMMARY:पार्वणव्रतम् पूर्णिमाय
  ाम्
 DTSTART;VALUE=DATE:20210227
 DTEND;VALUE=DATE:20210228
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_16/offse
- t__-1/pArvaNa-vratam_15.toml)<br/>- Tags:
+DESCRIPTION:pārvaṇavratam on the eve of pūrṇa-sthālīpākaḥ.<br/>
+ <br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adya
+ tithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_16/offset__-1/p
+ ArvaNa-vratam_15.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6922,9 +6953,11 @@ SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20210228
 DTEND;VALUE=DATE:20210301
 DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month
-  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config f
- ile](https://github.com/jyotisham/adyatithi/tree/master/gRhya/general/luna
- r_month/tithi/00/16/sthAlIpAkaH_16.toml)<br/>- Tags: MonthlyFestivals
+  (Pūrvāhṇaḥ/puurvaviddha). sthālīpakaḥ is an important fortnight
+ ly ritual\, involving the offering of haviṣyānna to agni\, with the off
+ ering being cooked on the fire itself.<br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/tree/master/gRhya/general
+ /lunar_month/tithi/00/16/sthAlIpAkaH_16.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -7979,7 +8012,10 @@ BEGIN:VEVENT
 SUMMARY:विजया/श्रवण-महाद्वादशी
 DTSTART;VALUE=DATE:20210310
 DTEND;VALUE=DATE:20210311
-DESCRIPTION:
+DESCRIPTION:Dvadashi tithi\, combined with Shravana nakshatra.<br/><br/>##
+  Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/t
+ ree/master/time_focus/monthly/dvAdashI/description_only/vijayA%20or%20zrav
+ aNa-mahAdvAdazI.toml)<br/>- Tags: RareDays Combinations SpecialVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8324,9 +8360,10 @@ SUMMARY:पार्वणव्रतम् अमावास्या
  याम्
 DTSTART;VALUE=DATE:20210313
 DTEND;VALUE=DATE:20210314
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_1/offset
- __-1/pArvaNa-vratam_30.toml)<br/>- Tags:
+DESCRIPTION:pārvaṇavratam on the eve of darśa-sthālīpākaḥ.<br/><b
+ r/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyati
+ thi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_1/offset__-1/pArv
+ aNa-vratam_30.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8585,9 +8622,11 @@ SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20210314
 DTEND;VALUE=DATE:20210315
 DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
- rvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config file](
- https://github.com/jyotisham/adyatithi/tree/master/gRhya/general/lunar_mon
- th/tithi/00/01/sthAlIpAkaH_1.toml)<br/>- Tags: MonthlyFestivals
+ rvāhṇaḥ/puurvaviddha). sthālīpakaḥ is an important fortnightly ri
+ tual\, involving the offering of haviṣyānna to agni\, with the offering
+  being cooked on the fire itself.<br/><br/>## Details<br/>- [Edit config f
+ ile](https://github.com/jyotisham/adyatithi/tree/master/gRhya/general/luna
+ r_month/tithi/00/01/sthAlIpAkaH_1.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10337,9 +10376,10 @@ SUMMARY:पार्वणव्रतम् पूर्णिमाय
  ाम्
 DTSTART;VALUE=DATE:20210328
 DTEND;VALUE=DATE:20210329
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_16/offse
- t__-1/pArvaNa-vratam_15.toml)<br/>- Tags:
+DESCRIPTION:pārvaṇavratam on the eve of pūrṇa-sthālīpākaḥ.<br/>
+ <br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adya
+ tithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_16/offset__-1/p
+ ArvaNa-vratam_15.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10570,9 +10610,11 @@ SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20210329
 DTEND;VALUE=DATE:20210330
 DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month
-  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config f
- ile](https://github.com/jyotisham/adyatithi/tree/master/gRhya/general/luna
- r_month/tithi/00/16/sthAlIpAkaH_16.toml)<br/>- Tags: MonthlyFestivals
+  (Pūrvāhṇaḥ/puurvaviddha). sthālīpakaḥ is an important fortnight
+ ly ritual\, involving the offering of haviṣyānna to agni\, with the off
+ ering being cooked on the fire itself.<br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/tree/master/gRhya/general
+ /lunar_month/tithi/00/16/sthAlIpAkaH_16.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11294,9 +11336,11 @@ BEGIN:VEVENT
 SUMMARY:गुरु-सङ्क्रान्तिः
 DTSTART;VALUE=DATE:20210406
 DTEND;VALUE=DATE:20210407
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/time_focus/sankrAnti/description_only/guru-saGkrA
- ntiH.toml)<br/>- Tags: Sankranti
+DESCRIPTION:Transition of Jupiter from one Rashi to another. When it is no
+ t retrograde\, it also marks the beginning of a new Pushkara.<br/><br/>## 
+ Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tr
+ ee/master/time_focus/sankrAnti/description_only/guru-saGkrAntiH.toml)<br/>
+ - Tags: Sankranti
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11800,9 +11844,10 @@ SUMMARY:पार्वणव्रतम् अमावास्या
  याम्
 DTSTART;VALUE=DATE:20210411
 DTEND;VALUE=DATE:20210412
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_1/offset
- __-1/pArvaNa-vratam_30.toml)<br/>- Tags:
+DESCRIPTION:pārvaṇavratam on the eve of darśa-sthālīpākaḥ.<br/><b
+ r/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyati
+ thi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_1/offset__-1/pArv
+ aNa-vratam_30.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12040,9 +12085,11 @@ SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20210412
 DTEND;VALUE=DATE:20210413
 DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
- rvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config file](
- https://github.com/jyotisham/adyatithi/tree/master/gRhya/general/lunar_mon
- th/tithi/00/01/sthAlIpAkaH_1.toml)<br/>- Tags: MonthlyFestivals
+ rvāhṇaḥ/puurvaviddha). sthālīpakaḥ is an important fortnightly ri
+ tual\, involving the offering of haviṣyānna to agni\, with the offering
+  being cooked on the fire itself.<br/><br/>## Details<br/>- [Edit config f
+ ile](https://github.com/jyotisham/adyatithi/tree/master/gRhya/general/luna
+ r_month/tithi/00/01/sthAlIpAkaH_1.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13941,9 +13988,10 @@ SUMMARY:पार्वणव्रतम् पूर्णिमाय
  ाम्
 DTSTART;VALUE=DATE:20210426
 DTEND;VALUE=DATE:20210427
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_16/offse
- t__-1/pArvaNa-vratam_15.toml)<br/>- Tags:
+DESCRIPTION:pārvaṇavratam on the eve of pūrṇa-sthālīpākaḥ.<br/>
+ <br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adya
+ tithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_16/offset__-1/p
+ ArvaNa-vratam_15.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -14181,9 +14229,11 @@ SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20210427
 DTEND;VALUE=DATE:20210428
 DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month
-  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config f
- ile](https://github.com/jyotisham/adyatithi/tree/master/gRhya/general/luna
- r_month/tithi/00/16/sthAlIpAkaH_16.toml)<br/>- Tags: MonthlyFestivals
+  (Pūrvāhṇaḥ/puurvaviddha). sthālīpakaḥ is an important fortnight
+ ly ritual\, involving the offering of haviṣyānna to agni\, with the off
+ ering being cooked on the fire itself.<br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/tree/master/gRhya/general
+ /lunar_month/tithi/00/16/sthAlIpAkaH_16.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15536,9 +15586,10 @@ SUMMARY:पार्वणव्रतम् अमावास्या
  याम्
 DTSTART;VALUE=DATE:20210511
 DTEND;VALUE=DATE:20210512
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_1/offset
- __-1/pArvaNa-vratam_30.toml)<br/>- Tags:
+DESCRIPTION:pārvaṇavratam on the eve of darśa-sthālīpākaḥ.<br/><b
+ r/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyati
+ thi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_1/offset__-1/pArv
+ aNa-vratam_30.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15677,9 +15728,11 @@ SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20210512
 DTEND;VALUE=DATE:20210513
 DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
- rvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config file](
- https://github.com/jyotisham/adyatithi/tree/master/gRhya/general/lunar_mon
- th/tithi/00/01/sthAlIpAkaH_1.toml)<br/>- Tags: MonthlyFestivals
+ rvāhṇaḥ/puurvaviddha). sthālīpakaḥ is an important fortnightly ri
+ tual\, involving the offering of haviṣyānna to agni\, with the offering
+  being cooked on the fire itself.<br/><br/>## Details<br/>- [Edit config f
+ ile](https://github.com/jyotisham/adyatithi/tree/master/gRhya/general/luna
+ r_month/tithi/00/01/sthAlIpAkaH_1.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17788,9 +17841,10 @@ SUMMARY:पार्वणव्रतम् पूर्णिमाय
  ाम्
 DTSTART;VALUE=DATE:20210526
 DTEND;VALUE=DATE:20210527
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_16/offse
- t__-1/pArvaNa-vratam_15.toml)<br/>- Tags:
+DESCRIPTION:pārvaṇavratam on the eve of pūrṇa-sthālīpākaḥ.<br/>
+ <br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adya
+ tithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_16/offset__-1/p
+ ArvaNa-vratam_15.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17952,9 +18006,11 @@ SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20210527
 DTEND;VALUE=DATE:20210528
 DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month
-  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config f
- ile](https://github.com/jyotisham/adyatithi/tree/master/gRhya/general/luna
- r_month/tithi/00/16/sthAlIpAkaH_16.toml)<br/>- Tags: MonthlyFestivals
+  (Pūrvāhṇaḥ/puurvaviddha). sthālīpakaḥ is an important fortnight
+ ly ritual\, involving the offering of haviṣyānna to agni\, with the off
+ ering being cooked on the fire itself.<br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/tree/master/gRhya/general
+ /lunar_month/tithi/00/16/sthAlIpAkaH_16.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -19345,9 +19401,10 @@ SUMMARY:पार्वणव्रतम् अमावास्या
  याम्
 DTSTART;VALUE=DATE:20210610
 DTEND;VALUE=DATE:20210611
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_1/offset
- __-1/pArvaNa-vratam_30.toml)<br/>- Tags:
+DESCRIPTION:pārvaṇavratam on the eve of darśa-sthālīpākaḥ.<br/><b
+ r/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyati
+ thi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_1/offset__-1/pArv
+ aNa-vratam_30.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -19611,9 +19668,11 @@ SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20210611
 DTEND;VALUE=DATE:20210612
 DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
- rvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config file](
- https://github.com/jyotisham/adyatithi/tree/master/gRhya/general/lunar_mon
- th/tithi/00/01/sthAlIpAkaH_1.toml)<br/>- Tags: MonthlyFestivals
+ rvāhṇaḥ/puurvaviddha). sthālīpakaḥ is an important fortnightly ri
+ tual\, involving the offering of haviṣyānna to agni\, with the offering
+  being cooked on the fire itself.<br/><br/>## Details<br/>- [Edit config f
+ ile](https://github.com/jyotisham/adyatithi/tree/master/gRhya/general/luna
+ r_month/tithi/00/01/sthAlIpAkaH_1.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -21584,9 +21643,10 @@ SUMMARY:पार्वणव्रतम् पूर्णिमाय
  ाम्
 DTSTART;VALUE=DATE:20210624
 DTEND;VALUE=DATE:20210625
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_16/offse
- t__-1/pArvaNa-vratam_15.toml)<br/>- Tags:
+DESCRIPTION:pārvaṇavratam on the eve of pūrṇa-sthālīpākaḥ.<br/>
+ <br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adya
+ tithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_16/offset__-1/p
+ ArvaNa-vratam_15.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -21765,9 +21825,11 @@ SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20210625
 DTEND;VALUE=DATE:20210626
 DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month
-  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config f
- ile](https://github.com/jyotisham/adyatithi/tree/master/gRhya/general/luna
- r_month/tithi/00/16/sthAlIpAkaH_16.toml)<br/>- Tags: MonthlyFestivals
+  (Pūrvāhṇaḥ/puurvaviddha). sthālīpakaḥ is an important fortnight
+ ly ritual\, involving the offering of haviṣyānna to agni\, with the off
+ ering being cooked on the fire itself.<br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/tree/master/gRhya/general
+ /lunar_month/tithi/00/16/sthAlIpAkaH_16.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -23070,9 +23132,10 @@ SUMMARY:पार्वणव्रतम् अमावास्या
  याम्
 DTSTART;VALUE=DATE:20210709
 DTEND;VALUE=DATE:20210710
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_1/offset
- __-1/pArvaNa-vratam_30.toml)<br/>- Tags:
+DESCRIPTION:pārvaṇavratam on the eve of darśa-sthālīpākaḥ.<br/><b
+ r/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyati
+ thi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_1/offset__-1/pArv
+ aNa-vratam_30.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -23197,9 +23260,11 @@ SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20210710
 DTEND;VALUE=DATE:20210711
 DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
- rvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config file](
- https://github.com/jyotisham/adyatithi/tree/master/gRhya/general/lunar_mon
- th/tithi/00/01/sthAlIpAkaH_1.toml)<br/>- Tags: MonthlyFestivals
+ rvāhṇaḥ/puurvaviddha). sthālīpakaḥ is an important fortnightly ri
+ tual\, involving the offering of haviṣyānna to agni\, with the offering
+  being cooked on the fire itself.<br/><br/>## Details<br/>- [Edit config f
+ ile](https://github.com/jyotisham/adyatithi/tree/master/gRhya/general/luna
+ r_month/tithi/00/01/sthAlIpAkaH_1.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -23932,9 +23997,11 @@ BEGIN:VEVENT
 SUMMARY:आडि वॆळ्ळिक्किऴमै
 DTSTART;VALUE=DATE:20210716
 DTEND;VALUE=DATE:20210717
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/tamil/description_only/ADi~veLLikkizhamai.toml)<b
- r/>- Tags: MonthWeekdayFestivals
+DESCRIPTION:Very widely celebrated in Tamil Nadu temples\, Fridays in the 
+ month of āḍi are special for propitiating Shakti Devi.<br/><br/>## Deta
+ ils<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/m
+ aster/tamil/description_only/ADi~veLLikkizhamai.toml)<br/>- Tags: MonthWee
+ kdayFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -24881,9 +24948,11 @@ BEGIN:VEVENT
 SUMMARY:आडि वॆळ्ळिक्किऴमै
 DTSTART;VALUE=DATE:20210723
 DTEND;VALUE=DATE:20210724
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/tamil/description_only/ADi~veLLikkizhamai.toml)<b
- r/>- Tags: MonthWeekdayFestivals
+DESCRIPTION:Very widely celebrated in Tamil Nadu temples\, Fridays in the 
+ month of āḍi are special for propitiating Shakti Devi.<br/><br/>## Deta
+ ils<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/m
+ aster/tamil/description_only/ADi~veLLikkizhamai.toml)<br/>- Tags: MonthWee
+ kdayFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -25007,9 +25076,10 @@ SUMMARY:पार्वणव्रतम् पूर्णिमाय
  ाम्
 DTSTART;VALUE=DATE:20210723
 DTEND;VALUE=DATE:20210724
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_16/offse
- t__-1/pArvaNa-vratam_15.toml)<br/>- Tags:
+DESCRIPTION:pārvaṇavratam on the eve of pūrṇa-sthālīpākaḥ.<br/>
+ <br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adya
+ tithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_16/offset__-1/p
+ ArvaNa-vratam_15.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -25215,9 +25285,11 @@ SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20210724
 DTEND;VALUE=DATE:20210725
 DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month
-  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config f
- ile](https://github.com/jyotisham/adyatithi/tree/master/gRhya/general/luna
- r_month/tithi/00/16/sthAlIpAkaH_16.toml)<br/>- Tags: MonthlyFestivals
+  (Pūrvāhṇaḥ/puurvaviddha). sthālīpakaḥ is an important fortnight
+ ly ritual\, involving the offering of haviṣyānna to agni\, with the off
+ ering being cooked on the fire itself.<br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/tree/master/gRhya/general
+ /lunar_month/tithi/00/16/sthAlIpAkaH_16.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -25728,9 +25800,11 @@ BEGIN:VEVENT
 SUMMARY:आडि वॆळ्ळिक्किऴमै
 DTSTART;VALUE=DATE:20210730
 DTEND;VALUE=DATE:20210731
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/tamil/description_only/ADi~veLLikkizhamai.toml)<b
- r/>- Tags: MonthWeekdayFestivals
+DESCRIPTION:Very widely celebrated in Tamil Nadu temples\, Fridays in the 
+ month of āḍi are special for propitiating Shakti Devi.<br/><br/>## Deta
+ ils<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/m
+ aster/tamil/description_only/ADi~veLLikkizhamai.toml)<br/>- Tags: MonthWee
+ kdayFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -26458,9 +26532,11 @@ BEGIN:VEVENT
 SUMMARY:आडि वॆळ्ळिक्किऴमै
 DTSTART;VALUE=DATE:20210806
 DTEND;VALUE=DATE:20210807
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/tamil/description_only/ADi~veLLikkizhamai.toml)<b
- r/>- Tags: MonthWeekdayFestivals
+DESCRIPTION:Very widely celebrated in Tamil Nadu temples\, Fridays in the 
+ month of āḍi are special for propitiating Shakti Devi.<br/><br/>## Deta
+ ils<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/m
+ aster/tamil/description_only/ADi~veLLikkizhamai.toml)<br/>- Tags: MonthWee
+ kdayFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -26696,9 +26772,10 @@ SUMMARY:पार्वणव्रतम् अमावास्या
  याम्
 DTSTART;VALUE=DATE:20210808
 DTEND;VALUE=DATE:20210809
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_1/offset
- __-1/pArvaNa-vratam_30.toml)<br/>- Tags:
+DESCRIPTION:pārvaṇavratam on the eve of darśa-sthālīpākaḥ.<br/><b
+ r/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyati
+ thi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_1/offset__-1/pArv
+ aNa-vratam_30.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -26882,9 +26959,11 @@ SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20210809
 DTEND;VALUE=DATE:20210810
 DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
- rvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config file](
- https://github.com/jyotisham/adyatithi/tree/master/gRhya/general/lunar_mon
- th/tithi/00/01/sthAlIpAkaH_1.toml)<br/>- Tags: MonthlyFestivals
+ rvāhṇaḥ/puurvaviddha). sthālīpakaḥ is an important fortnightly ri
+ tual\, involving the offering of haviṣyānna to agni\, with the offering
+  being cooked on the fire itself.<br/><br/>## Details<br/>- [Edit config f
+ ile](https://github.com/jyotisham/adyatithi/tree/master/gRhya/general/luna
+ r_month/tithi/00/01/sthAlIpAkaH_1.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -27288,9 +27367,11 @@ BEGIN:VEVENT
 SUMMARY:आडि वॆळ्ळिक्किऴमै
 DTSTART;VALUE=DATE:20210813
 DTEND;VALUE=DATE:20210814
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/tamil/description_only/ADi~veLLikkizhamai.toml)<b
- r/>- Tags: MonthWeekdayFestivals
+DESCRIPTION:Very widely celebrated in Tamil Nadu temples\, Fridays in the 
+ month of āḍi are special for propitiating Shakti Devi.<br/><br/>## Deta
+ ils<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/m
+ aster/tamil/description_only/ADi~veLLikkizhamai.toml)<br/>- Tags: MonthWee
+ kdayFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -28648,9 +28729,10 @@ SUMMARY:पार्वणव्रतम् पूर्णिमाय
  ाम्
 DTSTART;VALUE=DATE:20210822
 DTEND;VALUE=DATE:20210823
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_16/offse
- t__-1/pArvaNa-vratam_15.toml)<br/>- Tags:
+DESCRIPTION:pārvaṇavratam on the eve of pūrṇa-sthālīpākaḥ.<br/>
+ <br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adya
+ tithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_16/offset__-1/p
+ ArvaNa-vratam_15.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -28876,9 +28958,11 @@ SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20210823
 DTEND;VALUE=DATE:20210824
 DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month
-  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config f
- ile](https://github.com/jyotisham/adyatithi/tree/master/gRhya/general/luna
- r_month/tithi/00/16/sthAlIpAkaH_16.toml)<br/>- Tags: MonthlyFestivals
+  (Pūrvāhṇaḥ/puurvaviddha). sthālīpakaḥ is an important fortnight
+ ly ritual\, involving the offering of haviṣyānna to agni\, with the off
+ ering being cooked on the fire itself.<br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/tree/master/gRhya/general
+ /lunar_month/tithi/00/16/sthAlIpAkaH_16.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -30535,9 +30619,10 @@ SUMMARY:पार्वणव्रतम् अमावास्या
  याम्
 DTSTART;VALUE=DATE:20210906
 DTEND;VALUE=DATE:20210907
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_1/offset
- __-1/pArvaNa-vratam_30.toml)<br/>- Tags:
+DESCRIPTION:pārvaṇavratam on the eve of darśa-sthālīpākaḥ.<br/><b
+ r/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyati
+ thi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_1/offset__-1/pArv
+ aNa-vratam_30.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -30694,9 +30779,11 @@ SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20210907
 DTEND;VALUE=DATE:20210908
 DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
- rvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config file](
- https://github.com/jyotisham/adyatithi/tree/master/gRhya/general/lunar_mon
- th/tithi/00/01/sthAlIpAkaH_1.toml)<br/>- Tags: MonthlyFestivals
+ rvāhṇaḥ/puurvaviddha). sthālīpakaḥ is an important fortnightly ri
+ tual\, involving the offering of haviṣyānna to agni\, with the offering
+  being cooked on the fire itself.<br/><br/>## Details<br/>- [Edit config f
+ ile](https://github.com/jyotisham/adyatithi/tree/master/gRhya/general/luna
+ r_month/tithi/00/01/sthAlIpAkaH_1.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -31822,9 +31909,11 @@ BEGIN:VEVENT
 SUMMARY:गुरु-सङ्क्रान्तिः
 DTSTART;VALUE=DATE:20210915
 DTEND;VALUE=DATE:20210916
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/time_focus/sankrAnti/description_only/guru-saGkrA
- ntiH.toml)<br/>- Tags: Sankranti
+DESCRIPTION:Transition of Jupiter from one Rashi to another. When it is no
+ t retrograde\, it also marks the beginning of a new Pushkara.<br/><br/>## 
+ Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tr
+ ee/master/time_focus/sankrAnti/description_only/guru-saGkrAntiH.toml)<br/>
+ - Tags: Sankranti
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -32640,9 +32729,10 @@ SUMMARY:पार्वणव्रतम् पूर्णिमाय
  ाम्
 DTSTART;VALUE=DATE:20210920
 DTEND;VALUE=DATE:20210921
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_16/offse
- t__-1/pArvaNa-vratam_15.toml)<br/>- Tags:
+DESCRIPTION:pārvaṇavratam on the eve of pūrṇa-sthālīpākaḥ.<br/>
+ <br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adya
+ tithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_16/offset__-1/p
+ ArvaNa-vratam_15.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -32889,9 +32979,11 @@ SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20210921
 DTEND;VALUE=DATE:20210922
 DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month
-  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config f
- ile](https://github.com/jyotisham/adyatithi/tree/master/gRhya/general/luna
- r_month/tithi/00/16/sthAlIpAkaH_16.toml)<br/>- Tags: MonthlyFestivals
+  (Pūrvāhṇaḥ/puurvaviddha). sthālīpakaḥ is an important fortnight
+ ly ritual\, involving the offering of haviṣyānna to agni\, with the off
+ ering being cooked on the fire itself.<br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/tree/master/gRhya/general
+ /lunar_month/tithi/00/16/sthAlIpAkaH_16.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -34627,9 +34719,10 @@ SUMMARY:पार्वणव्रतम् अमावास्या
  याम्
 DTSTART;VALUE=DATE:20211006
 DTEND;VALUE=DATE:20211007
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_1/offset
- __-1/pArvaNa-vratam_30.toml)<br/>- Tags:
+DESCRIPTION:pārvaṇavratam on the eve of darśa-sthālīpākaḥ.<br/><b
+ r/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyati
+ thi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_1/offset__-1/pArv
+ aNa-vratam_30.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -34839,9 +34932,11 @@ SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20211007
 DTEND;VALUE=DATE:20211008
 DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
- rvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config file](
- https://github.com/jyotisham/adyatithi/tree/master/gRhya/general/lunar_mon
- th/tithi/00/01/sthAlIpAkaH_1.toml)<br/>- Tags: MonthlyFestivals
+ rvāhṇaḥ/puurvaviddha). sthālīpakaḥ is an important fortnightly ri
+ tual\, involving the offering of haviṣyānna to agni\, with the offering
+  being cooked on the fire itself.<br/><br/>## Details<br/>- [Edit config f
+ ile](https://github.com/jyotisham/adyatithi/tree/master/gRhya/general/luna
+ r_month/tithi/00/01/sthAlIpAkaH_1.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -36662,9 +36757,10 @@ SUMMARY:पार्वणव्रतम् पूर्णिमाय
  ाम्
 DTSTART;VALUE=DATE:20211020
 DTEND;VALUE=DATE:20211021
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_16/offse
- t__-1/pArvaNa-vratam_15.toml)<br/>- Tags:
+DESCRIPTION:pārvaṇavratam on the eve of pūrṇa-sthālīpākaḥ.<br/>
+ <br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adya
+ tithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_16/offset__-1/p
+ ArvaNa-vratam_15.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -36856,9 +36952,11 @@ SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20211021
 DTEND;VALUE=DATE:20211022
 DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month
-  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config f
- ile](https://github.com/jyotisham/adyatithi/tree/master/gRhya/general/luna
- r_month/tithi/00/16/sthAlIpAkaH_16.toml)<br/>- Tags: MonthlyFestivals
+  (Pūrvāhṇaḥ/puurvaviddha). sthālīpakaḥ is an important fortnight
+ ly ritual\, involving the offering of haviṣyānna to agni\, with the off
+ ering being cooked on the fire itself.<br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/tree/master/gRhya/general
+ /lunar_month/tithi/00/16/sthAlIpAkaH_16.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -38645,9 +38743,10 @@ SUMMARY:पार्वणव्रतम् अमावास्या
  याम्
 DTSTART;VALUE=DATE:20211104
 DTEND;VALUE=DATE:20211105
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_1/offset
- __-1/pArvaNa-vratam_30.toml)<br/>- Tags:
+DESCRIPTION:pārvaṇavratam on the eve of darśa-sthālīpākaḥ.<br/><b
+ r/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyati
+ thi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_1/offset__-1/pArv
+ aNa-vratam_30.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -38836,9 +38935,11 @@ SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20211105
 DTEND;VALUE=DATE:20211106
 DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
- rvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config file](
- https://github.com/jyotisham/adyatithi/tree/master/gRhya/general/lunar_mon
- th/tithi/00/01/sthAlIpAkaH_1.toml)<br/>- Tags: MonthlyFestivals
+ rvāhṇaḥ/puurvaviddha). sthālīpakaḥ is an important fortnightly ri
+ tual\, involving the offering of haviṣyānna to agni\, with the offering
+  being cooked on the fire itself.<br/><br/>## Details<br/>- [Edit config f
+ ile](https://github.com/jyotisham/adyatithi/tree/master/gRhya/general/luna
+ r_month/tithi/00/01/sthAlIpAkaH_1.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -40937,9 +41038,10 @@ SUMMARY:पार्वणव्रतम् पूर्णिमाय
  ाम्
 DTSTART;VALUE=DATE:20211119
 DTEND;VALUE=DATE:20211120
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_16/offse
- t__-1/pArvaNa-vratam_15.toml)<br/>- Tags:
+DESCRIPTION:pārvaṇavratam on the eve of pūrṇa-sthālīpākaḥ.<br/>
+ <br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adya
+ tithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_16/offset__-1/p
+ ArvaNa-vratam_15.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -41140,9 +41242,11 @@ SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20211120
 DTEND;VALUE=DATE:20211121
 DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month
-  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config f
- ile](https://github.com/jyotisham/adyatithi/tree/master/gRhya/general/luna
- r_month/tithi/00/16/sthAlIpAkaH_16.toml)<br/>- Tags: MonthlyFestivals
+  (Pūrvāhṇaḥ/puurvaviddha). sthālīpakaḥ is an important fortnight
+ ly ritual\, involving the offering of haviṣyānna to agni\, with the off
+ ering being cooked on the fire itself.<br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/tree/master/gRhya/general
+ /lunar_month/tithi/00/16/sthAlIpAkaH_16.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -41250,9 +41354,11 @@ BEGIN:VEVENT
 SUMMARY:गुरु-सङ्क्रान्तिः
 DTSTART;VALUE=DATE:20211121
 DTEND;VALUE=DATE:20211122
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/time_focus/sankrAnti/description_only/guru-saGkrA
- ntiH.toml)<br/>- Tags: Sankranti
+DESCRIPTION:Transition of Jupiter from one Rashi to another. When it is no
+ t retrograde\, it also marks the beginning of a new Pushkara.<br/><br/>## 
+ Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tr
+ ee/master/time_focus/sankrAnti/description_only/guru-saGkrAntiH.toml)<br/>
+ - Tags: Sankranti
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -42755,9 +42861,10 @@ SUMMARY:पार्वणव्रतम् अमावास्या
  याम्
 DTSTART;VALUE=DATE:20211204
 DTEND;VALUE=DATE:20211205
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_1/offset
- __-1/pArvaNa-vratam_30.toml)<br/>- Tags:
+DESCRIPTION:pārvaṇavratam on the eve of darśa-sthālīpākaḥ.<br/><b
+ r/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyati
+ thi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_1/offset__-1/pArv
+ aNa-vratam_30.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -42983,9 +43090,11 @@ SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20211205
 DTEND;VALUE=DATE:20211206
 DESCRIPTION:Observed on Śukla-Prathamā tithi of every (lunar) month (Pū
- rvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config file](
- https://github.com/jyotisham/adyatithi/tree/master/gRhya/general/lunar_mon
- th/tithi/00/01/sthAlIpAkaH_1.toml)<br/>- Tags: MonthlyFestivals
+ rvāhṇaḥ/puurvaviddha). sthālīpakaḥ is an important fortnightly ri
+ tual\, involving the offering of haviṣyānna to agni\, with the offering
+  being cooked on the fire itself.<br/><br/>## Details<br/>- [Edit config f
+ ile](https://github.com/jyotisham/adyatithi/tree/master/gRhya/general/luna
+ r_month/tithi/00/01/sthAlIpAkaH_1.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -43199,9 +43308,12 @@ BEGIN:VEVENT
 SUMMARY:सुखा-अङ्गारक-चतुर्थी
 DTSTART;VALUE=DATE:20211207
 DTEND;VALUE=DATE:20211208
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/time_focus/tithi-vara-combinations/description_on
- ly/sukhA~aGgAraka-caturthI.toml)<br/>- Tags: RareDays Combinations
+DESCRIPTION:chaturthī tithi on a Tuesday is as sacred as a solar eclipse.
+  When it occurs in śuklapakṣa\, it is called sukhā. Good day for doing
+  puja of Ganesha/Subrahmanya with naivedyam of modakam/millet flour respec
+ tively.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jy
+ otisham/adyatithi/tree/master/time_focus/tithi-vara-combinations/descripti
+ on_only/sukhA~aGgAraka-caturthI.toml)<br/>- Tags: RareDays Combinations
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -44389,9 +44501,10 @@ SUMMARY:पार्वणव्रतम् पूर्णिमाय
  ाम्
 DTSTART;VALUE=DATE:20211218
 DTEND;VALUE=DATE:20211219
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_16/offse
- t__-1/pArvaNa-vratam_15.toml)<br/>- Tags:
+DESCRIPTION:pārvaṇavratam on the eve of pūrṇa-sthālīpākaḥ.<br/>
+ <br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adya
+ tithi/tree/master/gRhya/general/relative_event/sthAlIpAkaH_16/offset__-1/p
+ ArvaNa-vratam_15.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -44645,9 +44758,11 @@ SUMMARY:स्थालीपाकः
 DTSTART;VALUE=DATE:20211219
 DTEND;VALUE=DATE:20211220
 DESCRIPTION:Observed on Kṛṣṇa-Prathamā tithi of every (lunar) month
-  (Pūrvāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config f
- ile](https://github.com/jyotisham/adyatithi/tree/master/gRhya/general/luna
- r_month/tithi/00/16/sthAlIpAkaH_16.toml)<br/>- Tags: MonthlyFestivals
+  (Pūrvāhṇaḥ/puurvaviddha). sthālīpakaḥ is an important fortnight
+ ly ritual\, involving the offering of haviṣyānna to agni\, with the off
+ ering being cooked on the fire itself.<br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/tree/master/gRhya/general
+ /lunar_month/tithi/00/16/sthAlIpAkaH_16.toml)<br/>- Tags: MonthlyFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
