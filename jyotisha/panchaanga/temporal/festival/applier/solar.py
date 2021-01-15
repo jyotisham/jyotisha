@@ -131,6 +131,23 @@ class SolarFestivalAssigner(FestivalAssigner):
   def assign_agni_nakshatra(self):
     if 'agninakSatra-ArambhaH' not in self.rules_collection.name_to_rule:
       return 
+
+    # AGNI nakshatra
+    # anga_finder = zodiac.AngaSpanFinder.get_cached(ayanaamsha_id=self.ayanaamsha_id, anga_type=zodiac.AngaType.SOLAR_NAKSH_PADA)
+
+    # agni_jd_start, dummy = anga_finder.find(jd1=self.panchaanga.jd_start, jd2=self.panchaanga.jd_end, target_anga_id=7).to_tuple()
+    # dummy, agni_jd_end = anga_finder.find(jd1=agni_jd_start, jd2=agni_jd_start + 30, target_anga_id=13).to_tuple()
+
+    # fday = int(floor(agni_jd_start) - floor(self.daily_panchaangas[0].julian_day_start))
+    # if agni_jd_start < self.daily_panchaangas[fday].jd_sunrise:
+    #   fday -= 1
+    # self.panchaanga.add_festival(fest_id='agninakSatra-ArambhaH', date=self.daily_panchaangas[fday].date)
+
+    # fday = int(floor(agni_jd_end) - floor(self.daily_panchaangas[0].julian_day_start))
+    # if agni_jd_end < self.daily_panchaangas[fday].jd_sunrise:
+    #   fday -= 1
+    # self.panchaanga.add_festival(fest_id='agninakSatra-samApanam', date=self.daily_panchaangas[fday].date)
+
     agni_jd_start = agni_jd_end = None
     for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
       # AGNI nakshatra
