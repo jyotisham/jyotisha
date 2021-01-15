@@ -10195,23 +10195,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Viṣukkani
-DTSTART;VALUE=DATE:20190414
-DTEND;VALUE=DATE:20190415
-DESCRIPTION:Observed on day 1 of Meṣaḥ (sidereal solar) month (Prākta
- nāruṇodayaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config fi
- le](https://github.com/jyotisham/adyatithi/tree/master/tamil/sidereal_sola
- r_month/day/01/01/viSukkan2i.toml)<br/>- Tags: CommonFestivals SunSankrant
- i
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Caitraḥ-01-10\,Siṃhaḥ-Maghā🌛🌌◢◣Meṣaḥ-Aśvinī
  -01-02🌌🌞◢◣Madhuḥ-01-26🪐🌞Somaḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190415T060005
@@ -10299,6 +10282,21 @@ DESCRIPTION:The Shukla-paksha Ekadashi of chaitra month is known as kāmad
  ā-ekādaśī.<br/><br/>## Details<br/>- [Edit config file](https://github
  .com/jyotisham/adyatithi/tree/master/time_focus/monthly/ekAdashI/descripti
  on_only/kAmadA-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Viṣukkani
+DTSTART;VALUE=DATE:20190415
+DTEND;VALUE=DATE:20190416
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/tamil/description_only/viSukkan2i.toml)<br/>- Tag
+ s: CommonFestivals SunSankranti
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18195,19 +18193,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:bhaumārdrā-puṇyakālaḥ
-DTSTART;VALUE=DATE:20190702
-DTEND;VALUE=DATE:20190703
-DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:cidambare rajata bhūta vāhanam
 DTSTART;VALUE=DATE:20190702
 DTEND;VALUE=DATE:20190703
@@ -21002,19 +20987,6 @@ DESCRIPTION:- Indian civil date: 1941-05-08\, Islamic: 1440-11-27 Ḏū al
  -10:40\; **Gulikakālaḥ**—12:15-13:49  \n___________________\n- **Śū
  lam**—Udīchī Dik (►10:59)\; **Parihāraḥ**–Kṣīram  \n________
  ___________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:bhaumārdrā-puṇyakālaḥ
-DTSTART;VALUE=DATE:20190730
-DTEND;VALUE=DATE:20190731
-DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
