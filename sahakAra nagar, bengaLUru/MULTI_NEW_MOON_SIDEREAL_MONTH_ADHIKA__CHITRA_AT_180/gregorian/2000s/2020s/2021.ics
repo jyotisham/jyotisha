@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210114232435
+SEQUENCE:20210115201735
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -2719,19 +2719,6 @@ DESCRIPTION:Observed on Ārdrā nakshatra of Makaraḥ (sidereal solar) mo
  https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/nAyanAr/sid
  ereal_solar_month/nakshatra/10/06/arivATTAya%20nAyan2Ar%20%2812%29%20gurup
  Ujai.toml)<br/>- Tags: NayanarGurupujai
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:भौमार्द्रा-पुण्यकालः
-DTSTART;VALUE=DATE:20210126
-DTEND;VALUE=DATE:20210127
-DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6112,19 +6099,6 @@ DESCRIPTION:- Indian civil date: 1942-12-04\, Islamic: 1442-07-11 Rajab\n-
  —12:33-14:00  \n___________________\n- **शूलम्**—उदी
  ची दिक् (►11:22)\; **परिहारः**–क्षी
  रम्  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:भौमार्द्रा-पुण्यकालः
-DTSTART;VALUE=DATE:20210223
-DTEND;VALUE=DATE:20210224
-DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12499,11 +12473,9 @@ BEGIN:VEVENT
 SUMMARY:विषुक्कऩि
 DTSTART;VALUE=DATE:20210414
 DTEND;VALUE=DATE:20210415
-DESCRIPTION:Observed on day 1 of Meṣaḥ (sidereal solar) month (Prākta
- nāruṇodayaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config fi
- le](https://github.com/jyotisham/adyatithi/tree/master/tamil/sidereal_sola
- r_month/day/01/01/viSukkan2i.toml)<br/>- Tags: CommonFestivals SunSankrant
- i
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/tamil/description_only/viSukkan2i.toml)<br/>- Tag
+ s: CommonFestivals SunSankranti
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -37578,19 +37550,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:भौमार्द्रा-पुण्यकालः
-DTSTART;VALUE=DATE:20211026
-DTEND;VALUE=DATE:20211027
-DESCRIPTION:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:सेङ्गालिपुरम् अनन्तराम-
  दीक्षित-आराधना #५२
 DTSTART;VALUE=DATE:20211026
@@ -41686,19 +41645,6 @@ DESCRIPTION:chaturthī tithi on a Tuesday is as sacred as a solar eclipse.
  ः॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://gith
  ub.com/jyotisham/adyatithi/tree/master/time_focus/tithi-vara-combinations/
  description_only/aGgAraka-caturthI.toml)<br/>- Tags: RareDays Combinations
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:भौमार्द्रा-पुण्यकालः
-DTSTART;VALUE=DATE:20211123
-DTEND;VALUE=DATE:20211124
-DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
