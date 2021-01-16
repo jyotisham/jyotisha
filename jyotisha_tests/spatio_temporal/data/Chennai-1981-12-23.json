@@ -649,6 +649,24 @@
         "jsonClass": "Interval",
         "name": "शङ्करः"
       },
+      "shraadha_kaala": {
+        "jd_end": 2444961.9479,
+        "jd_start": 2444961.7919,
+        "jsonClass": "Interval",
+        "name": "श्राद्-कालः"
+      },
+      "shraadhaarambha_gauna": {
+        "jd_end": 2444961.7607,
+        "jd_start": 2444961.7295,
+        "jsonClass": "Interval",
+        "name": "श्राद्धारम्भ-कालः (गौणः)"
+      },
+      "shraadhaarambha_mukhya": {
+        "jd_end": 2444961.7919,
+        "jd_start": 2444961.7607,
+        "jsonClass": "Interval",
+        "name": "श्राद्धारम्भ-कालः (मुख्यः)"
+      },
       "succeeding_braahma": {
         "jd_end": 2444962.5072,
         "jd_start": 2444962.4717,
