@@ -74,6 +74,8 @@ class VaraFestivalAssigner(FestivalAssigner):
       if self.daily_panchaangas[d].date.get_weekday() == 2 and self.daily_panchaangas[d].sunrise_day_angas.tithi_at_sunrise.index == 29:
         # Double-check rule. When should the vyApti be?
         self.panchaanga.add_festival(fest_id='kRSNAGgAraka-caturdazI-puNyakAlaH or yamatarpaNam', date=self.daily_panchaangas[d].date)
+        if self.daily_panchaangas[d].lunar_month_sunrise.index == 1:
+          self.panchaanga.add_festival(fest_id='pizAcamOcanam', date=self.daily_panchaangas[d].date)
 
   def assign_tithi_vara_yoga_budhaaShTamii(self):
     if 'budhASTamI' not in self.rules_collection.name_to_rule:

@@ -9310,10 +9310,13 @@ SUMMARY:vasantanavarātra-ārambhaḥ
 DTSTART;VALUE=DATE:20190406
 DTEND;VALUE=DATE:20190407
 DESCRIPTION:Observed on Śukla-Prathamā tithi of Caitraḥ (lunar) month 
- (Sūryodayaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config file
- ](https://github.com/jyotisham/adyatithi/tree/master/general/lunar_month/t
- ithi/01/01/vasantanavarAtra-ArambhaH.toml)<br/>- Tags: CommonFestivals Nav
- aratri SpecialPeriodStart
+ (Sūryodayaḥ/puurvaviddha). <br/><br/>śaratkāle mahāpūjā kriyate y
+ ā ca vārṣikī|  <br/>vasantakāle sā proktā kāryā sarvaiḥ śubh
+ ārthibhiḥ||  <br/>---mārkaṇḍeya-purāṇam (smṛtikaustubhe)  <br
+ /><br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.c
+ om/jyotisham/adyatithi/tree/master/general/lunar_month/tithi/01/01/vasanta
+ navarAtra-ArambhaH.toml)<br/>- Tags: CommonFestivals Navaratri SpecialPeri
+ odStart
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10221,9 +10224,12 @@ BEGIN:VEVENT
 SUMMARY:vasantanavarātraḥ
 DTSTART;VALUE=DATE:20190405
 DTEND;VALUE=DATE:20190415
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/general/description_only/vasantanavarAtraH.toml)<
- br/>- Tags: CommonFestivals Navaratri SpecialPeriod
+DESCRIPTION:śaratkāle mahāpūjā kriyate yā ca vārṣikī|  <br/>vasa
+ ntakāle sā proktā kāryā sarvaiḥ śubhārthibhiḥ||  <br/>---mārka
+ ṇḍeya-purāṇam (smṛtikaustubhe)  <br/><br/><br/><br/><br/>## Detai
+ ls<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/ma
+ ster/general/description_only/vasantanavarAtraH.toml)<br/>- Tags: CommonFe
+ stivals Navaratri SpecialPeriod
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10237,10 +10243,13 @@ SUMMARY:vasantanavarātra-samāpanam
 DTSTART;VALUE=DATE:20190414
 DTEND;VALUE=DATE:20190415
 DESCRIPTION:Observed on Śukla-Navamī tithi of Caitraḥ (lunar) month (S
- ūryodayaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config file](
- https://github.com/jyotisham/adyatithi/tree/master/general/lunar_month/tit
- hi/01/09/vasantanavarAtra-samApanam.toml)<br/>- Tags: CommonFestivals Nava
- ratri SpecialPeriodEnd
+ ūryodayaḥ/puurvaviddha). <br/><br/>śaratkāle mahāpūjā kriyate yā 
+ ca vārṣikī|  <br/>vasantakāle sā proktā kāryā sarvaiḥ śubhārt
+ hibhiḥ||  <br/>---mārkaṇḍeya-purāṇam (smṛtikaustubhe)  <br/><b
+ r/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/j
+ yotisham/adyatithi/tree/master/general/lunar_month/tithi/01/09/vasantanava
+ rAtra-samApanam.toml)<br/>- Tags: CommonFestivals Navaratri SpecialPeriodE
+ nd
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10299,9 +10308,12 @@ SUMMARY:dharmarāja-daśamī
 DTSTART;VALUE=DATE:20190415
 DTEND;VALUE=DATE:20190416
 DESCRIPTION:Observed on Śukla-Daśamī tithi of Caitraḥ (lunar) month (
- Sūryodayaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config file]
- (https://github.com/jyotisham/adyatithi/tree/master/general/lunar_month/ti
- thi/01/10/dharmarAja-dazamI.toml)<br/>- Tags: LessCommonFestivals
+ Sūryodayaḥ/puurvaviddha). <br/><br/>dharmarājasya damanakena pūjanamu
+ ktaṃ nirṇayāmṛte devīpurāṇe---  <br/>dharmarājaṃ daśamyā
+ ṃ tu pūjayitvā sugandhibhiḥ|  <br/>vigatārirnirātaṅka iha cānte
+  paraṃ padam||  <br/><br/><br/><br/><br/>## Details<br/>- [Edit config f
+ ile](https://github.com/jyotisham/adyatithi/tree/master/general/lunar_mont
+ h/tithi/01/10/dharmarAja-dazamI.toml)<br/>- Tags: LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11913,10 +11925,12 @@ SUMMARY:matsya-jayantī
 DTSTART;VALUE=DATE:20190502
 DTEND;VALUE=DATE:20190503
 DESCRIPTION:Observed on Kṛṣṇa-Trayodaśī tithi of Caitraḥ (lunar)
-  month (Aparāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- Reference
- s<br/>  - Kielhorn (1897)<br/>- [Edit config file](https://github.com/jyot
- isham/adyatithi/tree/master/devatA/vaiShNava/lunar_month/tithi/01/28/matsy
- a~jayantI.toml)<br/>- Tags: Dashavataram
+  month (Aparāhṇaḥ/puurvaviddha). <br/><br/>satyavratopadeśāya jihma
+ mīnasvarūpadhṛk|  <br/>pralayābdhikṛtāvāsa gṛhāṇārghyaṃ n
+ amo'stu te||  <br/><br/><br/><br/><br/>## Details<br/>- References<br/>  -
+  Kielhorn (1897)<br/>- [Edit config file](https://github.com/jyotisham/ady
+ atithi/tree/master/devatA/vaiShNava/lunar_month/tithi/01/28/matsya~jayantI
+ .toml)<br/>- Tags: Dashavataram
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12479,9 +12493,9 @@ DTEND;VALUE=DATE:20190508
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/tree/master/general/lunar_month/tithi/02/03/akSayya-tRtIyA.to
  ml)<br/>- Tags: CommonFestivals<br/><br/><br/><br/>## Details<br/>- Refere
- nces<br/>  - Nirnaya Sindhu p.71<br/>- [Edit config file](https://github.c
- om/jyotisham/adyatithi/tree/master/general/lunar_month/tithi/02/03/akSayya
- -tRtIyA.toml)<br/>- Tags: CommonFestivals
+ nces<br/>  - Nirnaya Sindhu p.109<br/>- [Edit config file](https://github.
+ com/jyotisham/adyatithi/tree/master/general/lunar_month/tithi/02/03/akSayy
+ a-tRtIyA.toml)<br/>- Tags: CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -32137,9 +32151,9 @@ DTEND;VALUE=DATE:20191104
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/tree/master/time_focus/yugAdiH/lunar_month/tithi/08/07/sAvitr
  ya-kalpAdiH.toml)<br/>- Tags: KalpadiDays<br/><br/><br/><br/>## Details<br
- />- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/
- time_focus/yugAdiH/lunar_month/tithi/08/07/sAvitrya-kalpAdiH.toml)<br/>- T
- ags: KalpadiDays
+ />- References<br/>  - Smriti Kaustubham p.87--88<br/>- [Edit config file]
+ (https://github.com/jyotisham/adyatithi/tree/master/time_focus/yugAdiH/lun
+ ar_month/tithi/08/07/sAvitrya-kalpAdiH.toml)<br/>- Tags: KalpadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
