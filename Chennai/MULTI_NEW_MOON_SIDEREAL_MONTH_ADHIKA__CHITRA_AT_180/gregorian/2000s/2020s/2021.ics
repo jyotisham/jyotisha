@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210116194600
+SEQUENCE:20210116233456
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -12241,10 +12241,15 @@ SUMMARY:वसन्तनवरात्र-आरम्भः
 DTSTART;VALUE=DATE:20210413
 DTEND;VALUE=DATE:20210414
 DESCRIPTION:Observed on Śukla-Prathamā tithi of Caitraḥ (lunar) month 
- (Sūryodayaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config file
- ](https://github.com/jyotisham/adyatithi/tree/master/general/lunar_month/t
- ithi/01/01/vasantanavarAtra-ArambhaH.toml)<br/>- Tags: CommonFestivals Nav
- aratri SpecialPeriodStart
+ (Sūryodayaḥ/puurvaviddha). <br/><br/>शरत्काले महा
+ पूजा क्रियते या च वार्षिकी। 
+  <br/>वसन्तकाले सा प्रोक्ता का
+ र्या सर्वैः शुभार्थिभिः॥  <br/
+ >---मार्कण्डेय-पुराणम् (स्मृत
+ िकौस्तुभे)  <br/><br/><br/><br/><br/>## Details<br/>- [E
+ dit config file](https://github.com/jyotisham/adyatithi/tree/master/genera
+ l/lunar_month/tithi/01/01/vasantanavarAtra-ArambhaH.toml)<br/>- Tags: Comm
+ onFestivals Navaratri SpecialPeriodStart
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13305,9 +13310,14 @@ BEGIN:VEVENT
 SUMMARY:वसन्तनवरात्रः
 DTSTART;VALUE=DATE:20210413
 DTEND;VALUE=DATE:20210422
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/general/description_only/vasantanavarAtraH.toml)<
- br/>- Tags: CommonFestivals Navaratri SpecialPeriod
+DESCRIPTION:शरत्काले महापूजा क्रिय
+ ते या च वार्षिकी।  <br/>वसन्तका
+ ले सा प्रोक्ता कार्या सर्वै
+ ः शुभार्थिभिः॥  <br/>---मार्कण्ड
+ ेय-पुराणम् (स्मृतिकौस्तुभे) 
+  <br/><br/><br/><br/><br/>## Details<br/>- [Edit config file](https://gith
+ ub.com/jyotisham/adyatithi/tree/master/general/description_only/vasantanav
+ arAtraH.toml)<br/>- Tags: CommonFestivals Navaratri SpecialPeriod
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13321,10 +13331,15 @@ SUMMARY:वसन्तनवरात्र-समापनम्
 DTSTART;VALUE=DATE:20210421
 DTEND;VALUE=DATE:20210422
 DESCRIPTION:Observed on Śukla-Navamī tithi of Caitraḥ (lunar) month (S
- ūryodayaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config file](
- https://github.com/jyotisham/adyatithi/tree/master/general/lunar_month/tit
- hi/01/09/vasantanavarAtra-samApanam.toml)<br/>- Tags: CommonFestivals Nava
- ratri SpecialPeriodEnd
+ ūryodayaḥ/puurvaviddha). <br/><br/>शरत्काले महा
+ पूजा क्रियते या च वार्षिकी। 
+  <br/>वसन्तकाले सा प्रोक्ता का
+ र्या सर्वैः शुभार्थिभिः॥  <br/
+ >---मार्कण्डेय-पुराणम् (स्मृत
+ िकौस्तुभे)  <br/><br/><br/><br/><br/>## Details<br/>- [E
+ dit config file](https://github.com/jyotisham/adyatithi/tree/master/genera
+ l/lunar_month/tithi/01/09/vasantanavarAtra-samApanam.toml)<br/>- Tags: Com
+ monFestivals Navaratri SpecialPeriodEnd
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13412,9 +13427,15 @@ SUMMARY:धर्मराज-दशमी
 DTSTART;VALUE=DATE:20210422
 DTEND;VALUE=DATE:20210423
 DESCRIPTION:Observed on Śukla-Daśamī tithi of Caitraḥ (lunar) month (
- Sūryodayaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config file]
- (https://github.com/jyotisham/adyatithi/tree/master/general/lunar_month/ti
- thi/01/10/dharmarAja-dazamI.toml)<br/>- Tags: LessCommonFestivals
+ Sūryodayaḥ/puurvaviddha). <br/><br/>धर्मराजस्य द
+ मनकेन पूजनमुक्तं निर्णयामृ
+ ते देवीपुराणे---  <br/>धर्मराजं 
+ दशम्यां तु पूजयित्वा सुगन्
+ धिभिः।  <br/>विगतारिर्निरातङ्
+ क इह चान्ते परं पदम्॥  <br/><br/><br/><b
+ r/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/a
+ dyatithi/tree/master/general/lunar_month/tithi/01/10/dharmarAja-dazamI.tom
+ l)<br/>- Tags: LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15393,10 +15414,14 @@ SUMMARY:मत्स्य-जयन्ती
 DTSTART;VALUE=DATE:20210509
 DTEND;VALUE=DATE:20210510
 DESCRIPTION:Observed on Kṛṣṇa-Trayodaśī tithi of Caitraḥ (lunar)
-  month (Aparāhṇaḥ/puurvaviddha). <br/><br/>## Details<br/>- Reference
- s<br/>  - Kielhorn (1897)<br/>- [Edit config file](https://github.com/jyot
- isham/adyatithi/tree/master/devatA/vaiShNava/lunar_month/tithi/01/28/matsy
- a~jayantI.toml)<br/>- Tags: Dashavataram
+  month (Aparāhṇaḥ/puurvaviddha). <br/><br/>सत्यव्रत
+ ोपदेशाय जिह्ममीनस्वरूपधृक
+ ्।  <br/>प्रलयाब्धिकृतावास गृह
+ ाणार्घ्यं नमोऽस्तु ते॥  <br/><br/>
+ <br/><br/><br/>## Details<br/>- References<br/>  - Kielhorn (1897)<br/>- [
+ Edit config file](https://github.com/jyotisham/adyatithi/tree/master/devat
+ A/vaiShNava/lunar_month/tithi/01/28/matsya~jayantI.toml)<br/>- Tags: Dasha
+ vataram
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15998,9 +16023,9 @@ DTEND;VALUE=DATE:20210515
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/tree/master/general/lunar_month/tithi/02/03/akSayya-tRtIyA.to
  ml)<br/>- Tags: CommonFestivals<br/><br/><br/><br/>## Details<br/>- Refere
- nces<br/>  - Nirnaya Sindhu p.71<br/>- [Edit config file](https://github.c
- om/jyotisham/adyatithi/tree/master/general/lunar_month/tithi/02/03/akSayya
- -tRtIyA.toml)<br/>- Tags: CommonFestivals
+ nces<br/>  - Nirnaya Sindhu p.109<br/>- [Edit config file](https://github.
+ com/jyotisham/adyatithi/tree/master/general/lunar_month/tithi/02/03/akSayy
+ a-tRtIyA.toml)<br/>- Tags: CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -39481,9 +39506,9 @@ DTEND;VALUE=DATE:20211111
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/tree/master/time_focus/yugAdiH/lunar_month/tithi/08/07/sAvitr
  ya-kalpAdiH.toml)<br/>- Tags: KalpadiDays<br/><br/><br/><br/>## Details<br
- />- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/
- time_focus/yugAdiH/lunar_month/tithi/08/07/sAvitrya-kalpAdiH.toml)<br/>- T
- ags: KalpadiDays
+ />- References<br/>  - Smriti Kaustubham p.87--88<br/>- [Edit config file]
+ (https://github.com/jyotisham/adyatithi/tree/master/time_focus/yugAdiH/lun
+ ar_month/tithi/08/07/sAvitrya-kalpAdiH.toml)<br/>- Tags: KalpadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
