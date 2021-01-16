@@ -4747,10 +4747,12 @@ BEGIN:VEVENT
 SUMMARY:varāha-kalpādiḥ
 DTSTART;VALUE=DATE:20190217
 DTEND;VALUE=DATE:20190218
-DESCRIPTION:Observed on Śukla-Trayodaśī tithi of Māghaḥ (lunar) mont
- h (Aparāhṇaḥ/vyaapti). Kalpadi<br/><br/>## Details<br/>- [Edit config
-  file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/yugAd
- iH/lunar_month/tithi/11/13/varAha-kalpAdiH.toml)<br/>- Tags: KalpadiDays
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/time_focus/yugAdiH/lunar_month/tithi/11/13/varAha
+ -kalpAdiH.toml)<br/>- Tags: KalpadiDays<br/><br/><br/><br/>## Details<br/>
+ - References<br/>  - Smriti Kaustubham p.87--88<br/>- [Edit config file](h
+ ttps://github.com/jyotisham/adyatithi/tree/master/time_focus/yugAdiH/lunar
+ _month/tithi/11/13/varAha-kalpAdiH.toml)<br/>- Tags: KalpadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8075,11 +8077,12 @@ BEGIN:VEVENT
 SUMMARY:brahma-kalpādiḥ
 DTSTART;VALUE=DATE:20190323
 DTEND;VALUE=DATE:20190324
-DESCRIPTION:Observed on Kṛṣṇa-Tṛtīyā tithi of Phālgunaḥ (luna
- r) month (Aparāhṇaḥ/vyaapti). Brahma Kalpadi<br/><br/>## Details<br/>
- - [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/ti
- me_focus/yugAdiH/lunar_month/tithi/12/18/brahma-kalpAdiH.toml)<br/>- Tags:
-  KalpadiDays
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/time_focus/yugAdiH/lunar_month/tithi/12/18/brahma
+ -kalpAdiH.toml)<br/>- Tags: KalpadiDays<br/><br/><br/><br/>## Details<br/>
+ - References<br/>  - Smriti Kaustubham p.87--88<br/>- [Edit config file](h
+ ttps://github.com/jyotisham/adyatithi/tree/master/time_focus/yugAdiH/lunar
+ _month/tithi/12/18/brahma-kalpAdiH.toml)<br/>- Tags: KalpadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9339,10 +9342,12 @@ BEGIN:VEVENT
 SUMMARY:śveta-kalpādiḥ
 DTSTART;VALUE=DATE:20190406
 DTEND;VALUE=DATE:20190407
-DESCRIPTION:Observed on Śukla-Prathamā tithi of Caitraḥ (lunar) month 
- (Aparāhṇaḥ/vyaapti). Kalpadi<br/><br/>## Details<br/>- [Edit config f
- ile](https://github.com/jyotisham/adyatithi/tree/master/time_focus/yugAdiH
- /lunar_month/tithi/01/01/zvEta-kalpAdiH.toml)<br/>- Tags: KalpadiDays
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/time_focus/yugAdiH/lunar_month/tithi/01/01/zvEta-
+ kalpAdiH.toml)<br/>- Tags: KalpadiDays<br/><br/><br/><br/>## Details<br/>-
+  References<br/>  - Smriti Kaustubham p.87--88<br/>- [Edit config file](ht
+ tps://github.com/jyotisham/adyatithi/tree/master/time_focus/yugAdiH/lunar_
+ month/tithi/01/01/zvEta-kalpAdiH.toml)<br/>- Tags: KalpadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9432,6 +9437,24 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:bālenduvratam
+DTSTART;VALUE=DATE:20190407
+DTEND;VALUE=DATE:20190408
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/devatA/graha/lunar_month/tithi/01/02/bAlenduvrata
+ m.toml)<br/>- Tags: LessCommonFestivals<br/><br/><br/><br/>## Details<br/>
+ - References<br/>  - Smriti Kaustubham p.90<br/>- [Edit config file](https
+ ://github.com/jyotisham/adyatithi/tree/master/devatA/graha/lunar_month/tit
+ hi/01/02/bAlenduvratam.toml)<br/>- Tags: LessCommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:jhūlelāla-jayantī
 DTSTART;VALUE=DATE:20190407
 DTEND;VALUE=DATE:20190408
@@ -9500,10 +9523,15 @@ SUMMARY:gaurī-tṛtīyā/saubhāgya-gaurī-vratam
 DTSTART;VALUE=DATE:20190408
 DTEND;VALUE=DATE:20190409
 DESCRIPTION:Observed on Śukla-Tṛtīyā tithi of Caitraḥ (lunar) month
-  (Sūryodayaḥ/puurvaviddha). <br/><br/>## Details<br/>- References<br/> 
-  - Kielhorn (1897)<br/>- [Edit config file](https://github.com/jyotisham/a
- dyatithi/tree/master/devatA/umA/lunar_month/tithi/01/03/gaurI~tRtIyA%20or%
- 20saubhAgya-gaurI-vratam.toml)<br/>- Tags: SpecialVratam DeviPuja
+  (Sūryodayaḥ/puurvaviddha). <br/><br/>varjayitvā madhau yastu dadhik
+ ṣīraghṛtaikṣavam|  <br/>dadyādvastrāṇi sūkṣmāṇi rasavastr
+ aphalāni vā||  <br/>sampūjya vipramithunaṃ gaurī me prīyatāmiti|  
+ <br/>etadgaurīvrataṃ nāma bhavānīlokadāyakam||  <br/>---matsyapurā
+ ṇam (smṛtikaustubhe)  <br/><br/><br/><br/><br/>## Details<br/>- Refere
+ nces<br/>  - Smriti Kaustubham p.89<br/>- [Edit config file](https://githu
+ b.com/jyotisham/adyatithi/tree/master/devatA/umA/lunar_month/tithi/01/03/g
+ aurI~tRtIyA%20or%20saubhAgya-gaurI-vratam.toml)<br/>- Tags: SpecialVratam 
+ DeviPuja
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9540,6 +9568,30 @@ DESCRIPTION:Observed on Śukla-Tṛtīyā tithi of Caitraḥ (lunar) month
  aidyanātha-Dīkṣitīyam<br/>- [Edit config file](https://github.com/jyo
  tisham/adyatithi/tree/master/time_focus/yugAdiH/lunar_month/tithi/01/03/ma
  nvAdiH~%28uttamaH~%5B3%5D%29.toml)<br/>- Tags: ManvadiDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:pārvatīśvarayorāndalanavratam
+DTSTART;VALUE=DATE:20190408
+DTEND;VALUE=DATE:20190409
+DESCRIPTION:Observed on Śukla-Tṛtīyā tithi of Caitraḥ (lunar) month
+  (Sūryodayaḥ/puurvaviddha). <br/><br/>tṛtīyāyāṃ madhordevīṃ 
+ śaṅkareṇa samanvitām|  <br/>kuṅkumāgarukarpūramaṇivastrasugand
+ hakaiḥ||  <br/>sraggandhadhūpadīpaiśca damanena viśeṣataḥ|  <br/
+ >āndolayettato vatsa śivomātuṣṭaye sadā||  <br/>rātrau jāgaraṇ
+ aṃ kāryaṃ prātardeyā ca dakṣiṇā|  <br/>hemavastrānnapānāni 
+ tāmbūlāni srajastathā|  <br/>saubhāgyāya sadā strībhiḥ kāryā p
+ utrasukhepsubhiḥ||  <br/>---devīpurāṇam (smṛtikaustubhe)  <br/><br
+ /><br/><br/><br/>## Details<br/>- References<br/>  - Smriti Kaustubham p.9
+ 0<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/mas
+ ter/devatA/shaiva/lunar_month/tithi/01/03/pArvatIzvarayOrAndalanavratam.to
+ ml)<br/>- Tags: LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9682,12 +9734,12 @@ BEGIN:VEVENT
 SUMMARY:haya-pūjā
 DTSTART;VALUE=DATE:20190410
 DTEND;VALUE=DATE:20190411
-DESCRIPTION:Observed on Śukla-Pañcamī tithi of Caitraḥ (lunar) month 
- (Sūryodayaḥ/puurvaviddha). Celebrating the birth of uchchaiśravā hors
- e\, offer puja to horses or even Lord Hayagriva.<br/><br/>## Details<br/>-
-  References<br/>  - Vaidikasri Mar 2018<br/>- [Edit config file](https://g
- ithub.com/jyotisham/adyatithi/tree/master/devatA/misc-fauna/lunar_month/ti
- thi/01/05/haya-pUjA.toml)<br/>- Tags: LessCommonFestivals
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/devatA/misc-fauna/lunar_month/tithi/01/05/haya-pU
+ jA.toml)<br/>- Tags: LessCommonFestivals<br/><br/><br/><br/>## Details<br/
+ >- References<br/>  - Smriti Kaustubham p.92--93<br/>- [Edit config file](
+ https://github.com/jyotisham/adyatithi/tree/master/devatA/misc-fauna/lunar
+ _month/tithi/01/05/haya-pUjA.toml)<br/>- Tags: LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9700,10 +9752,12 @@ BEGIN:VEVENT
 SUMMARY:kūrma-kalpādiḥ
 DTSTART;VALUE=DATE:20190410
 DTEND;VALUE=DATE:20190411
-DESCRIPTION:Observed on Śukla-Pañcamī tithi of Caitraḥ (lunar) month 
- (Aparāhṇaḥ/vyaapti). Kalpadi<br/><br/>## Details<br/>- [Edit config f
- ile](https://github.com/jyotisham/adyatithi/tree/master/devatA/vaiShNava/l
- unar_month/tithi/01/05/kUrma-kalpAdiH.toml)<br/>- Tags: KalpadiDays
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/devatA/vaiShNava/lunar_month/tithi/01/05/kUrma-ka
+ lpAdiH.toml)<br/>- Tags: KalpadiDays<br/><br/><br/><br/>## Details<br/>- R
+ eferences<br/>  - Smriti Kaustubham p.87--88<br/>- [Edit config file](http
+ s://github.com/jyotisham/adyatithi/tree/master/devatA/vaiShNava/lunar_mont
+ h/tithi/01/05/kUrma-kalpAdiH.toml)<br/>- Tags: KalpadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9720,10 +9774,11 @@ DESCRIPTION:Observed on Śukla-Pañcamī tithi of Caitraḥ (lunar) month
  (Sūryodayaḥ/puurvaviddha). <br/><br/>śuklāyāṃatha pañcamyāṃ ca
  itre māsi śubhānanā|  <br/>śrīrviṣṇulokānmānuṣyaṃ samprāp
  tā keśavājñayā||  <br/>tasmāt tāṃ pūjayet tatra yastaṃ lakṣm
- īrna muñcati||<br/><br/><br/><br/>## Details<br/>- References<br/>  - Va
- idikasri Mar 2018<br/>- [Edit config file](https://github.com/jyotisham/ad
- yatithi/tree/master/devatA/lakShmI/lunar_month/tithi/01/05/lakSmI-paJcamI.
- toml)<br/>- Tags: CommonFestivals
+ īrna muñcati|  <br/>eṣā śrīpañcamī kāryā viṣṇulokagatiprad
+ ā||  <br/><br/><br/><br/><br/>## Details<br/>- References<br/>  - Smriti 
+ Kaustubham p.92<br/>- [Edit config file](https://github.com/jyotisham/adya
+ tithi/tree/master/devatA/lakShmI/lunar_month/tithi/01/05/lakSmI-paJcamI.to
+ ml)<br/>- Tags: CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10660,6 +10715,27 @@ DESCRIPTION:Observed on Śukla-Caturdaśī tithi of Caitraḥ (lunar) mont
  h (Sūryodayaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config fi
  le](https://github.com/jyotisham/adyatithi/tree/master/general/lunar_month
  /tithi/01/14/madana-caturdazI.toml)<br/>- Tags: LessCommonFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:nṛsiṃha-dolotsavaḥ
+DTSTART;VALUE=DATE:20190418
+DTEND;VALUE=DATE:20190419
+DESCRIPTION:Observed on Śukla-Caturdaśī tithi of Caitraḥ (lunar) mont
+ h (Sūryodayaḥ/puurvaviddha). Perform dolotsavaḥ for nṛsiṃha.<br/>
+ <br/>madhau śuklacaturdaśyāṃ nṛsiṃhaṃ jagataḥ prabhum|  <br/>
+ rājopacāraiḥ sampūjya māsamāndolayetkalau||  <br/>dakṣiṇābhimu
+ khaṃ devaṃ dolamānaṃ sureśvaram|  <br/>sampūjitaṃ sakṛdṛṣ
+ ṭvā sarvapāpaiḥ pramucyate||  <br/><br/><br/><br/><br/>## Details<br
+ />- References<br/>  - Smriti Kaustubham p.90<br/>- [Edit config file](htt
+ ps://github.com/jyotisham/adyatithi/tree/master/devatA/vaiShNava/lunar_mon
+ th/tithi/01/14/nRsiMha-dOlOtsavaH.toml)<br/>- Tags: LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12470,11 +12546,12 @@ BEGIN:VEVENT
 SUMMARY:pārthiva-kalpādiḥ
 DTSTART;VALUE=DATE:20190507
 DTEND;VALUE=DATE:20190508
-DESCRIPTION:Observed on Śukla-Tṛtīyā tithi of Vaiśākhaḥ (lunar) m
- onth (Aparāhṇaḥ/vyaapti). Kalpadi<br/><br/>## Details<br/>- [Edit con
- fig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/yu
- gAdiH/lunar_month/tithi/02/03/pArthiva-kalpAdiH.toml)<br/>- Tags: KalpadiD
- ays
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/time_focus/yugAdiH/lunar_month/tithi/02/03/pArthi
+ va-kalpAdiH.toml)<br/>- Tags: KalpadiDays<br/><br/><br/><br/>## Details<br
+ />- References<br/>  - Smriti Kaustubham p.87--88<br/>- [Edit config file]
+ (https://github.com/jyotisham/adyatithi/tree/master/time_focus/yugAdiH/lun
+ ar_month/tithi/02/03/pArthiva-kalpAdiH.toml)<br/>- Tags: KalpadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -32057,10 +32134,12 @@ BEGIN:VEVENT
 SUMMARY:sāvitrya-kalpādiḥ
 DTSTART;VALUE=DATE:20191103
 DTEND;VALUE=DATE:20191104
-DESCRIPTION:Observed on Śukla-Saptamī tithi of Kārttikaḥ (lunar) mont
- h (Aparāhṇaḥ/vyaapti). Kalpadi<br/><br/>## Details<br/>- [Edit config
-  file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/yugAd
- iH/lunar_month/tithi/08/07/sAvitrya-kalpAdiH.toml)<br/>- Tags: KalpadiDays
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/time_focus/yugAdiH/lunar_month/tithi/08/07/sAvitr
+ ya-kalpAdiH.toml)<br/>- Tags: KalpadiDays<br/><br/><br/><br/>## Details<br
+ />- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/
+ time_focus/yugAdiH/lunar_month/tithi/08/07/sAvitrya-kalpAdiH.toml)<br/>- T
+ ags: KalpadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -35695,11 +35774,12 @@ BEGIN:VEVENT
 SUMMARY:pralaya-kalpādiḥ
 DTSTART;VALUE=DATE:20191205
 DTEND;VALUE=DATE:20191206
-DESCRIPTION:Observed on Śukla-Navamī tithi of Mārgaśīrṣaḥ (lunar)
-  month (Aparāhṇaḥ/vyaapti). Kalpadi<br/><br/>## Details<br/>- [Edit c
- onfig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/
- yugAdiH/lunar_month/tithi/09/09/pralaya-kalpAdiH.toml)<br/>- Tags: Kalpadi
- Days
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/time_focus/yugAdiH/lunar_month/tithi/09/09/pralay
+ a-kalpAdiH.toml)<br/>- Tags: KalpadiDays<br/><br/><br/><br/>## Details<br/
+ >- References<br/>  - Smriti Kaustubham p.87--88<br/>- [Edit config file](
+ https://github.com/jyotisham/adyatithi/tree/master/time_focus/yugAdiH/luna
+ r_month/tithi/09/09/pralaya-kalpAdiH.toml)<br/>- Tags: KalpadiDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
