@@ -113,21 +113,28 @@ class FifteenFoldDivision(common.JsonObject):
   """
   def __init__(self, jd_previous_sunset, jd_sunrise, jd_sunset, jd_next_sunrise):
     super(FifteenFoldDivision, self).__init__()
-    self.braahma = get_interval(start_jd=jd_previous_sunset, end_jd=jd_sunrise, part_index=13, num_parts=15)
-    self.praatas_sandhyaa = get_interval(start_jd=jd_previous_sunset, end_jd=jd_sunrise, part_index=14, num_parts=15) + get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=range(0,4), num_parts=15)
     self.preceding_arunodaya = get_interval(start_jd=jd_previous_sunset, end_jd=jd_sunrise, part_index=[13, 14], num_parts=15)
+    # Technically, the following is preceding braahma
+    self.braahma = get_interval(start_jd=jd_previous_sunset, end_jd=jd_sunrise, part_index=13, num_parts=15)
     self.praatah = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=0, num_parts=5)
     self.saangava = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=1, num_parts=5)
     self.madhyaahna = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=2, num_parts=5)
-    self.maadhyaahnika_sandhyaa = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=range(5,13), num_parts=15)
     self.aparaahna = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=3, num_parts=5)
     self.saayaahna = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=4, num_parts=5)
+
+    self.praatas_sandhyaa = get_interval(start_jd=jd_previous_sunset, end_jd=jd_sunrise, part_index=14, num_parts=15) + get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=range(0,4), num_parts=15)
+    self.maadhyaahnika_sandhyaa = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=range(5,13), num_parts=15)
     self.saayam_sandhyaa = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=14, num_parts=15)
+
     # pradOSo.astamayAdUrdhvaM ghaTikAdvayamiShyatE (tithyAdi tattvam, Vrat Parichay p. 25 Gita Press).
     self.pradosha = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=0, num_parts=15)
     self.madhyaraatri = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=2, num_parts=5)
     self.nishiitha = get_interval(start_jd=jd_sunset, end_jd=jd_next_sunrise, part_index=7, num_parts=15)
-    
+
+    self.shraadhaarambha_mukhya = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=7, num_parts=15)
+    self.shraadhaarambha_gauna = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=6, num_parts=15)
+    self.shraadha_kaala = get_interval(start_jd=jd_sunrise, end_jd=jd_sunset, part_index=range(7, 12), num_parts=15)
+
     # रौद्रश्चैत्रस्तथा मैत्रस्तथा सालकटः स्मृतः ।
     # सावित्रश्च जयन्तश्च गान्धर्वः कुतपस्तथा ।
     # रौहिणश्च विरिञ्चिश्च विजयो नैर्ऋतस्तथा ।
