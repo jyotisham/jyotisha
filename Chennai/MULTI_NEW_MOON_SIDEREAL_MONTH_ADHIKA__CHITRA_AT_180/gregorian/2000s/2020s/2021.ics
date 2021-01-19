@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210116233456
+SEQUENCE:20210119084121
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -2018,13 +2018,12 @@ SUMMARY:काश्मीर-पण्डित-निष्कासन
  म् #३१
 DTSTART;VALUE=DATE:20210119
 DTEND;VALUE=DATE:20210120
-DESCRIPTION:Observed on day 19 of January (gregorian) month. The event occ
- urred in 1990 (Gregorian era).  <br/>paNDit exodus day. ethnic cleansing o
- f Kashmir's Hindus began. Didn't stop until  500\,000 were made chased\, k
- illed and their properties looted or destroyed by their Muslim neighbours 
- & even friends.<br/><br/>## Details<br/>- [Edit config file](https://githu
- b.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/da
- y/01/19/kAshmIra-paNDita-niShkAsanam.toml)<br/>- Tags:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/01/19/kAshm
+ Ira-paNDita-niShkAsanam.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<b
+ r/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master
+ /mahApuruSha/xatra-later/gregorian/day/01/19/kAshmIra-paNDita-niShkAsanam.
+ toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9492,6 +9491,23 @@ DESCRIPTION:Observed on Ārdrā nakshatra of Mīnaḥ (sidereal solar) mon
  ttps://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/nAyanAr/side
  real_solar_month/nakshatra/12/06/gaNanAtha%20nAyan2Ar%20%2837%29%20gurupUj
  ai.toml)<br/>- Tags: NayanarGurupujai
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:मोहितशर्मा-वीरगतिः #१२
+DTSTART;VALUE=DATE:20210322
+DTEND;VALUE=DATE:20210323
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/03/22/mohit
+ a-sharmA_hataH.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edi
+ t config file](https://github.com/jyotisham/adyatithi/tree/master/mahApuru
+ Sha/xatra-later/gregorian/day/03/22/mohita-sharmA_hataH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
