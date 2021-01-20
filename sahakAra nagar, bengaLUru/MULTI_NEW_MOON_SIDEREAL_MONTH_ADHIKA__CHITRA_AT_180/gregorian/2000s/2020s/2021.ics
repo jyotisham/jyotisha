@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210119084028
+SEQUENCE:20210121035136
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -20993,6 +20993,27 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  //github.com/jyotisham/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/luna
  r_month/tithi/03/10/kAJcI%2053%20jagadguru%20zrI~pUrNAnanda%20sadAzivEndra
  %20sarasvatI%20ArAdhanA.toml)<br/>- Tags: KanchiAradhanaDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:कास्मीरं डोग्रैर् गृहीत
+ म् #२०२
+DTSTART;VALUE=DATE:20210620
+DTEND;VALUE=DATE:20210621
+DESCRIPTION:Observed on day 20 of June (gregorian) month. The event occurr
+ ed in 1819 (Gregorian era).  <br/>On this day\, Pandit Birbal Dhar entered
+  with Sikh soldiers into Kashmir as a victor over afghAns. He had made a d
+ aring and costly escape (loosing wife\, daughter in law) from Azam Khan's 
+ court to raNajIt singh at lahore via gulAb singh in jammu.<br/><br/><br/>#
+ # Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/
+ tree/master/mahApuruSha/xatra-later/gregorian/day/06/20/kAshmIram_Dograir_
+ gRhItam.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
