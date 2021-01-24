@@ -4156,25 +4156,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:budhāṣṭamī
-DTSTART;VALUE=DATE:20190213
-DTEND;VALUE=DATE:20190214
-DESCRIPTION:aṣṭamī tithi on a Wednesday is as sacred as a solar eclip
- se.<br/><br/>amāvasyā tu somena saptamī bhānunā saha|  <br/>caturthī
-  bhūmiputreṇa somaputreṇa cāṣṭamī|  <br/>catasrastithayastvetā
- ḥ sūryagrahaṇasannibhāḥ||<br/><br/><br/><br/>## Details<br/>- [Edi
- t config file](https://github.com/jyotisham/adyatithi/tree/master/time_foc
- us/tithi-vara-combinations/description_only/budhASTamI.toml)<br/>- Tags: R
- areDays Combinations
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:kṛttikā-vratam
 DTSTART;VALUE=DATE:20190213
 DTEND;VALUE=DATE:20190214
@@ -4202,6 +4183,19 @@ DESCRIPTION:Observed on Śukla-Aṣṭamī tithi of Māghaḥ (lunar) mont
    - http://hindupad.com/khodiyar-mata-jayanti/<br/>- [Edit config file](ht
  tps://github.com/jyotisham/adyatithi/tree/master/devatA/shakti/lunar_month
  /tithi/11/08/khODiyAra~mAtA~jayantI.toml)<br/>- Tags: OtherJayantis
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:mahābhadrā budhāṣṭamī
+DTSTART;VALUE=DATE:20190213
+DTEND;VALUE=DATE:20190214
+DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10311,9 +10305,10 @@ DESCRIPTION:Observed on Śukla-Daśamī tithi of Caitraḥ (lunar) month (
  Sūryodayaḥ/puurvaviddha). <br/><br/>dharmarājasya damanakena pūjanamu
  ktaṃ nirṇayāmṛte devīpurāṇe---  <br/>dharmarājaṃ daśamyā
  ṃ tu pūjayitvā sugandhibhiḥ|  <br/>vigatārirnirātaṅka iha cānte
-  paraṃ padam||  <br/><br/><br/><br/><br/>## Details<br/>- [Edit config f
- ile](https://github.com/jyotisham/adyatithi/tree/master/general/lunar_mont
- h/tithi/01/10/dharmarAja-dazamI.toml)<br/>- Tags: LessCommonFestivals
+  paraṃ padam||  <br/><br/><br/><br/><br/>## Details<br/>- References<br/
+ >  - Smriti Kaustubham p.101<br/>- [Edit config file](https://github.com/j
+ yotisham/adyatithi/tree/master/general/lunar_month/tithi/01/10/dharmarAja-
+ dazamI.toml)<br/>- Tags: LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10589,9 +10584,13 @@ SUMMARY:madana-trayodaśī
 DTSTART;VALUE=DATE:20190417
 DTEND;VALUE=DATE:20190418
 DESCRIPTION:Observed on Śukla-Trayodaśī tithi of Caitraḥ (lunar) mont
- h (Sūryodayaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config fi
- le](https://github.com/jyotisham/adyatithi/tree/master/general/lunar_month
- /tithi/01/13/madana-trayOdazI.toml)<br/>- Tags: LessCommonFestivals
+ h (Sūryodayaḥ/puurvaviddha). <br/><br/>caitraśuklatrayodaśyāṃ mada
+ naṃ campakātmakam|  <br/>kṛtvā sampūjya yatnena vījayedyajanena tu
+ |  <br/>tataḥ sandhukṣitaḥ kāmaḥ putrapautrasamṛddhidaḥ||  <b
+ r/><br/><br/><br/><br/>## Details<br/>- References<br/>  - Smriti Kaustubh
+ am p.104<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/t
+ ree/master/general/lunar_month/tithi/01/13/madana-trayOdazI.toml)<br/>- Ta
+ gs: LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE

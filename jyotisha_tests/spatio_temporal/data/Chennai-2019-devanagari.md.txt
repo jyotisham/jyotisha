@@ -3237,7 +3237,7 @@ ___________________
 ___________________
 
 #### उत्सवाः
-- कृत्तिका-व्रतम्, खोडियार-माता-जयन्ती, तिरुच्चॆन्दूर् मुरुगऩ् माचित् तिरुविऴा 6म् नाळ्—वॆळ्ळित् तेर् भवऩि, बुधाष्टमी, भीष्माष्टमी
+- कृत्तिका-व्रतम्, खोडियार-माता-जयन्ती, तिरुच्चॆन्दूर् मुरुगऩ् माचित् तिरुविऴा 6म् नाळ्—वॆळ्ळित् तेर् भवऩि, भीष्माष्टमी, महाभद्रा बुधाष्टमी
 ##### भीष्माष्टमी
 
 Observed on Śukla-Aṣṭamī tithi of Māghaḥ (lunar) month (Madhyāhnaḥ/puurvaviddha). Bhishma obtained mukti on this day; offer tarpana to Bhishma (even those with parents). Brings health, long life and harmony in family.
@@ -3247,21 +3247,6 @@ Observed on Śukla-Aṣṭamī tithi of Māghaḥ (lunar) month (Madhyāhnaḥ/p
   - Vaidikasri Feb 2016
 - [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra/lunar_month/tithi/11/08/bhISmASTamI.toml)
 - Tags: SpecialPuja CommonFestivals CommonFestivals
-
-
-##### बुधाष्टमी
-
-aṣṭamī tithi on a Wednesday is as sacred as a solar eclipse.
-
-अमावस्या तु सोमेन सप्तमी भानुना सह।  
-चतुर्थी भूमिपुत्रेण सोमपुत्रेण चाष्टमी।  
-चतस्रस्तिथयस्त्वेताः सूर्यग्रहणसन्निभाः॥
-
-
-
-###### Details
-- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/tithi-vara-combinations/description_only/budhASTamI.toml)
-- Tags: RareDays Combinations
 
 
 ##### कृत्तिका-व्रतम्
@@ -3284,6 +3269,7 @@ Observed on Śukla-Aṣṭamī tithi of Māghaḥ (lunar) month (Sūryodayaḥ/p
 - Tags: OtherJayantis
 
 
+##### महाभद्रा बुधाष्टमी
 ##### तिरुच्चॆन्दूर् मुरुगऩ् माचित् तिरुविऴा 6म् नाळ्—वॆळ्ळित् तेर् भवऩि
 
 
@@ -7966,6 +7952,8 @@ Observed on Śukla-Daśamī tithi of Caitraḥ (lunar) month (Sūryodayaḥ/puur
 
 
 ###### Details
+- References
+  - Smriti Kaustubham p.101
 - [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/general/lunar_month/tithi/01/10/dharmarAja-dazamI.toml)
 - Tags: LessCommonFestivals
 
@@ -8150,7 +8138,16 @@ Observed on Śukla-Trayodaśī tithi of Caitraḥ (lunar) month (Sūryodayaḥ/p
 
 Observed on Śukla-Trayodaśī tithi of Caitraḥ (lunar) month (Sūryodayaḥ/puurvaviddha). 
 
+चैत्रशुक्लत्रयोदश्यां मदनं चम्पकात्मकम्।  
+कृत्वा सम्पूज्य यत्नेन वीजयेद्यजनेन तु।  
+ततः सन्धुक्षितः कामः पुत्रपौत्रसमृद्धिदः॥  
+
+
+
+
 ###### Details
+- References
+  - Smriti Kaustubham p.104
 - [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/general/lunar_month/tithi/01/13/madana-trayOdazI.toml)
 - Tags: LessCommonFestivals
 
