@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210122150522
+SEQUENCE:20210124215845
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -13449,9 +13449,10 @@ DESCRIPTION:Observed on Śukla-Daśamī tithi of Caitraḥ (lunar) month (
  दशम्यां तु पूजयित्वा सुगन्
  धिभिः।  <br/>विगतारिर्निरातङ्
  क इह चान्ते परं पदम्॥  <br/><br/><br/><b
- r/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/a
- dyatithi/tree/master/general/lunar_month/tithi/01/10/dharmarAja-dazamI.tom
- l)<br/>- Tags: LessCommonFestivals
+ r/><br/>## Details<br/>- References<br/>  - Smriti Kaustubham p.101<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/gene
+ ral/lunar_month/tithi/01/10/dharmarAja-dazamI.toml)<br/>- Tags: LessCommon
+ Festivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13861,9 +13862,15 @@ SUMMARY:मदन-त्रयोदशी
 DTSTART;VALUE=DATE:20210425
 DTEND;VALUE=DATE:20210426
 DESCRIPTION:Observed on Śukla-Trayodaśī tithi of Caitraḥ (lunar) mont
- h (Sūryodayaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config fi
- le](https://github.com/jyotisham/adyatithi/tree/master/general/lunar_month
- /tithi/01/13/madana-trayOdazI.toml)<br/>- Tags: LessCommonFestivals
+ h (Sūryodayaḥ/puurvaviddha). <br/><br/>चैत्रशुक्ल
+ त्रयोदश्यां मदनं चम्पकात्म
+ कम्।  <br/>कृत्वा सम्पूज्य यत्
+ नेन वीजयेद्यजनेन तु।  <br/>ततः 
+ सन्धुक्षितः कामः पुत्रपौत्
+ रसमृद्धिदः॥  <br/><br/><br/><br/><br/>## Details<br/
+ >- References<br/>  - Smriti Kaustubham p.104<br/>- [Edit config file](htt
+ ps://github.com/jyotisham/adyatithi/tree/master/general/lunar_month/tithi/
+ 01/13/madana-trayOdazI.toml)<br/>- Tags: LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
