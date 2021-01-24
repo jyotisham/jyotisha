@@ -83,7 +83,11 @@ class VaraFestivalAssigner(FestivalAssigner):
     for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
       # BUDHASHTAMI
       if self.daily_panchaangas[d].date.get_weekday() == 3 and (self.daily_panchaangas[d].sunrise_day_angas.tithi_at_sunrise.index % 15) == 8:
-        self.panchaanga.add_festival(fest_id='budhASTamI', date=self.daily_panchaangas[d].date)
+        if self.daily_panchaangas[d].lunar_month_sunrise.index == 11 and self.daily_panchaangas[d].sunrise_day_angas.tithi_at_sunrise.index == 8:
+          # Pausha Shukla Ashtami + Budha vasara
+          self.panchaanga.add_festival(fest_id='mahAbhadrA~budhASTamI', date=self.daily_panchaangas[d].date)
+        else:
+          self.panchaanga.add_festival(fest_id='budhASTamI', date=self.daily_panchaangas[d].date)
 
 
   def assign_nakshatra_vara_yoga_vratam(self):
