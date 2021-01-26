@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210124220907
+SEQUENCE:20210126124707
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -2733,6 +2733,24 @@ DTEND;VALUE=DATE:20210127
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/tree/master/temples/Tamil/relative_event/taippUcam/offset__-1
  /kapAlI%20teppOtsavam~1.toml)<br/>- Tags: TamilnaduTempleFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:पूर्णस्वराज्यघोषणम् #९१
+DTSTART;VALUE=DATE:20210126
+DTEND;VALUE=DATE:20210127
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/01/26/pUrNa
+ -svarAjya-ghoShaNam.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>-
+  [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/mah
+ ApuruSha/xatra-later/gregorian/day/01/26/pUrNa-svarAjya-ghoShaNam.toml)<br
+ />- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
