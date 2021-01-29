@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210126124707
+SEQUENCE:20210129140737
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -2374,14 +2374,23 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:तै किरुत्तिकै
+SUMMARY:मकर-श्रवण-कार्त्तिकोत्स
+ वः
 DTSTART;VALUE=DATE:20210123
 DTEND;VALUE=DATE:20210124
 DESCRIPTION:Observed on Kṛttikā nakshatra of Makaraḥ (sidereal solar)
-  month (Sūryodayaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit conf
- ig file](https://github.com/jyotisham/adyatithi/tree/master/temples/Tamil/
- sidereal_solar_month/nakshatra/10/03/tai%20kiruttikai.toml)<br/>- Tags: Ta
- milnaduTempleFestivals
+  month (Sūryodayaḥ/puurvaviddha). सूर्ये मकरराश
+ ौ श्रवणनक्षत्रे सति चन्द्र
+ मसि कृत्तिकासु च कार्त्तिक
+ ेयपूजा। एतादृशे दिने ऽग्नि
+ वायू कार्त्तिकेयस्य ६ ज्वा
+ लाः द्युगङ्गातीरे श्रवणसरः
+  प्रति (तत्रैव शरवणे) निन्यत
+ ुः। तत्र जाताः ६ बालाः कृत्त
+ िकाभिर् वर्धिताः।<br/><br/><br/>## Details
+ <br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/mast
+ er/devatA/kaumAra/sidereal_solar_month/nakshatra/10/03/tai_kiruttikai.toml
+ )<br/>- Tags: TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2889,14 +2898,20 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:तैप्पूचम्
+SUMMARY:मकर-पुष्योत्सवः
 DTSTART;VALUE=DATE:20210127
 DTEND;VALUE=DATE:20210128
 DESCRIPTION:Observed on Puṣyaḥ nakshatra of Makaraḥ (sidereal solar)
-  month (Rātrimānam/puurvaviddha). <br/><br/>## Details<br/>- [Edit confi
- g file](https://github.com/jyotisham/adyatithi/tree/master/temples/Tamil/s
- idereal_solar_month/nakshatra/10/08/taippUcam.toml)<br/>- Tags: TamilnaduT
- empleFestivals CommonFestivals
+  month (Rātrimānam/puurvaviddha). सूर्ये मकरराश
+ ौ सति\, खे विपरीतदिशि चन्द्र
+ मसि पुष्यनक्षत्रे सत्य् उत
+ ्सवोयम् आचर्यते। एतादृशे द
+ िने पार्वती कार्त्तिकेयाय 
+ शक्त्यायुधं ददौ शूरपद्मादि
+ निग्रहाय।<br/><br/><br/>## Details<br/>- [Edit config fi
+ le](https://github.com/jyotisham/adyatithi/tree/master/devatA/kaumAra/side
+ real_solar_month/nakshatra/10/08/taippUcam.toml)<br/>- Tags: TamilnaduTemp
+ leFestivals CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6762,14 +6777,24 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:माचि मघम्
+SUMMARY:कुम्भमाघोत्सवः
 DTSTART;VALUE=DATE:20210227
 DTEND;VALUE=DATE:20210228
 DESCRIPTION:Observed on Maghā nakshatra of Kumbhaḥ (sidereal solar) mon
- th (Sūryodayaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config f
- ile](https://github.com/jyotisham/adyatithi/tree/master/temples/Tamil/side
- real_solar_month/nakshatra/11/10/mAci~magham.toml)<br/>- Tags: TamilnaduTe
- mpleFestivals CommonFestivals
+ th (Sūryodayaḥ/puurvaviddha). कुम्भराशौ सूर्
+ ये सति\, खे विपरीतदिशि मघासु 
+ च चन्द्रमसि सति पर्वेदम्।<br/>
+ <br/>एतादृशे दिने दाक्षायणी दक
+ ्षेण लब्धा। गुहेन शिवायोपद
+ िष्टश् च प्रणवः। वराहेण पृथ
+ िवी चोद्धृता। <br/><br/>कुम्भकोन
+ क्षेत्रे स्नानस्य विशेषः। 
+ शिवानुग्रहेण तत्र सर्वा अप
+ ि नद्यः पापनिवृत्त्याय् आय
+ न्ति।<br/><br/><br/>## Details<br/>- [Edit config file](https://
+ github.com/jyotisham/adyatithi/tree/master/general/sidereal_solar_month/na
+ kshatra/11/10/mAci~magham.toml)<br/>- Tags: TamilnaduTempleFestivals Commo
+ nFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10416,14 +10441,18 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:पङ्गुऩि उत्तिरम्
+SUMMARY:मीनोत्तरफाल्गुनोत्सवः
 DTSTART;VALUE=DATE:20210328
 DTEND;VALUE=DATE:20210329
 DESCRIPTION:Observed on Uttaraphalgunī nakshatra of Mīnaḥ (sidereal so
- lar) month (Prātaḥ/paraviddha). <br/><br/>## Details<br/>- [Edit config
-  file](https://github.com/jyotisham/adyatithi/tree/master/temples/Tamil/si
- dereal_solar_month/nakshatra/12/12/paGgun2i~uttiram.toml)<br/>- Tags: Tami
- lnaduTempleFestivals CommonFestivals
+ lar) month (Prātaḥ/paraviddha). मीनराशौ सूर्य
+ े सत्य् उत्तरफाल्गुने च चन्
+ द्रमसि (खे विपरितदिशि) पर्वे
+ दमाचर्यते। नानादेवतानां वि
+ वाहा एतादृशे दिने बभूवुः।<br/>
+ <br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham
+ /adyatithi/tree/master/general/sidereal_solar_month/nakshatra/12/12/paGgun
+ 2i~uttiram.toml)<br/>- Tags: TamilnaduTempleFestivals CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17783,15 +17812,23 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:वैकाचि विशाखम्
+SUMMARY:कृत्तिकावैषाखोत्सवः
 DTSTART;VALUE=DATE:20210525
 DTEND;VALUE=DATE:20210526
 DESCRIPTION:Observed on Viśākhā nakshatra of Vṛṣabhaḥ (sidereal s
  olar) month (Sūryodayaḥ/puurvaviddha). Special puja for Subrahmanya Swa
  mi in temples. Birth of Subrahmanya Swami. Worship Him with red flowers.<b
- r/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/a
- dyatithi/tree/master/temples/Tamil/sidereal_solar_month/nakshatra/02/16/va
- ikAci~vizAkham.toml)<br/>- Tags: TamilnaduTempleFestivals CommonFestivals
+ r/><br/>सूर्ये वृषभराशौ कृत्तिक
+ ासु सति\, चन्द्रमसि च विपरीत
+ दिशि विशाखासु सत्य् आचर्यत
+ े सुब्रह्मण्यजन्मोत्सवः (प
+ ूर्वं श्रवण-कार्त्तिकोत्सव
+ े जातानां षण्णाम् बालानाम् 
+ कृत्तिकाभिर् वर्ध्यमाननाम
+ ् एकीकरणेन पार्वत्या)।<br/><br/>## D
+ etails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tre
+ e/master/devatA/kaumAra/sidereal_solar_month/nakshatra/02/16/vaikAci~vizAk
+ ham.toml)<br/>- Tags: TamilnaduTempleFestivals CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -21758,14 +21795,16 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ज्येष्ठाभिषेकम्
+SUMMARY:ज्येष्ठाभिषेकः
 DTSTART;VALUE=DATE:20210624
 DTEND;VALUE=DATE:20210625
 DESCRIPTION:Observed on Jyeṣṭhā nakshatra of Mithunam (sidereal solar
- ) month (Sūryodayaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit con
- fig file](https://github.com/jyotisham/adyatithi/tree/master/temples/Tamil
- /sidereal_solar_month/nakshatra/03/18/jyESThAbhiSEkam.toml)<br/>- Tags: Ta
- milnaduTempleFestivals
+ ) month (Sūryodayaḥ/puurvaviddha). चन्द्रमसि ज्
+ येष्ठनक्षत्रे सत्य् आचर्यत
+ े कर्कटराशौ च सूर्ये सति खे 
+ विपरीतदिशि।<br/><br/>## Details<br/>- [Edit config f
+ ile](https://github.com/jyotisham/adyatithi/tree/master/devatA/vaiShNava/s
+ idereal_solar_month/nakshatra/03/18/jyESThAbhiSEkam.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -26250,15 +26289,15 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:आडिक् किरुत्तिकै
+SUMMARY:कर्कट-कार्त्तिक-पूजा
 DTSTART;VALUE=DATE:20210802
 DTEND;VALUE=DATE:20210803
 DESCRIPTION:Observed on Kṛttikā nakshatra of Karkaṭaḥ (sidereal sol
  ar) month (Sūryodayaḥ/puurvaviddha). Special puja for Subrahmanya Swami
   in temples.<br/><br/>## Details<br/>- [Edit config file](https://github.c
- om/jyotisham/adyatithi/tree/master/temples/Tamil/sidereal_solar_month/naks
- hatra/04/03/ADik~kiruttikai.toml)<br/>- Tags: TamilnaduTempleFestivals Com
- monFestivals
+ om/jyotisham/adyatithi/tree/master/devatA/kaumAra/sidereal_solar_month/nak
+ shatra/04/03/ADik~kiruttikai.toml)<br/>- Tags: TamilnaduTempleFestivals Co
+ mmonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -36526,9 +36565,8 @@ DESCRIPTION:Observed on day 1 of Tulā (sidereal solar) month (Sūryodaya
  सप्तभुवनेषु च।  <br/>केशवस्याऽ
  ऽज्ञया यान्ति तुलामासे मरु
  द्वृधम्॥<br/><br/><br/><br/>## Details<br/>- [Edit config 
- file](https://github.com/jyotisham/adyatithi/tree/master/temples/Tamil/sid
- ereal_solar_month/day/07/01/tulA-kAvErI-snAna-ArambhaH.toml)<br/>- Tags: T
- amilnaduTempleFestivals
+ file](https://github.com/jyotisham/adyatithi/tree/master/devatA/nadI/sider
+ eal_solar_month/day/07/01/tulA-kAvErI-snAna-ArambhaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -40262,9 +40300,9 @@ DESCRIPTION:Perform snānam in Kaveri during this month.<br/><br/>षट
  ्तभुवनेषु च।  <br/>केशवस्याऽऽज
  ्ञया यान्ति तुलामासे मरुद्
  वृधम्॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](
- https://github.com/jyotisham/adyatithi/tree/master/temples/Tamil/descripti
- on_only/tulA-kAvErI-snAnam.toml)<br/>- Tags: TamilnaduTempleFestivals Spec
- ialPeriod
+ https://github.com/jyotisham/adyatithi/tree/master/devatA/nadI/description
+ _only/tulA-kAvErI-snAnam.toml)<br/>- Tags: TamilnaduTempleFestivals Specia
+ lPeriod
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -40280,9 +40318,9 @@ DTSTART;VALUE=DATE:20211115
 DTEND;VALUE=DATE:20211116
 DESCRIPTION:End of Tula Kaveri Snanam. Also known as ta:kaḍaimugam.<br/>
  <br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adya
- tithi/tree/master/temples/Tamil/relative_event/kRttikA-maNDala-pArAyaNa-Ar
- ambhaH/offset__-1/tulA-kAvErI-snAna-samApanam.toml)<br/>- Tags: TamilnaduT
- empleFestivals
+ tithi/tree/master/devatA/nadI/relative_event/kRttikA-maNDala-pArAyaNa-Aram
+ bhaH/offset__-1/tulA-kAvErI-snAna-samApanam.toml)<br/>- Tags: TamilnaduTem
+ pleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -44995,8 +45033,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:आरुद्रा दरिचऩम्/नटराजर् 
- महाभिषेकम्
+SUMMARY:आर्द्रादर्शनम्
 DTSTART;VALUE=DATE:20211220
 DTEND;VALUE=DATE:20211221
 DESCRIPTION:Observed on Ārdrā nakshatra of Dhanuḥ (sidereal solar) mon
@@ -45006,8 +45043,8 @@ DESCRIPTION:Observed on Ārdrā nakshatra of Dhanuḥ (sidereal solar) mon
  रुद्रमनन्तरूपम्।  <br/>जटाधरं 
  पार्वतिवामभागं चिदम्बरेशं 
  हृदि भावयामि॥<br/><br/><br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/temp
- les/Tamil/sidereal_solar_month/nakshatra/09/06/ArudrA~darican2am%20or%20na
+ [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/deva
+ tA/shaiva/sidereal_solar_month/nakshatra/09/06/ArudrA~darican2am%20or%20na
  TarAjar%20mahAbhiSEkam.toml)<br/>- Tags: TamilnaduTempleFestivals CommonFe
  stivals
 TRANSP:TRANSPARENT
