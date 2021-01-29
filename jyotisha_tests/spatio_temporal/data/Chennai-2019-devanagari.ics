@@ -5135,14 +5135,24 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Māchi Magham
+SUMMARY:kumbhamāghotsavaḥ
 DTSTART;VALUE=DATE:20190220
 DTEND;VALUE=DATE:20190221
 DESCRIPTION:Observed on Maghā nakshatra of Kumbhaḥ (sidereal solar) mon
- th (Sūryodayaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config f
- ile](https://github.com/jyotisham/adyatithi/tree/master/temples/Tamil/side
- real_solar_month/nakshatra/11/10/mAci~magham.toml)<br/>- Tags: TamilnaduTe
- mpleFestivals CommonFestivals
+ th (Sūryodayaḥ/puurvaviddha). कुम्भराशौ सूर्
+ ये सति\, खे विपरीतदिशि मघासु 
+ च चन्द्रमसि सति पर्वेदम्।<br/>
+ <br/>एतादृशे दिने दाक्षायणी दक
+ ्षेण लब्धा। गुहेन शिवायोपद
+ िष्टश् च प्रणवः। वराहेण पृथ
+ िवी चोद्धृता। <br/><br/>कुम्भकोन
+ क्षेत्रे स्नानस्य विशेषः। 
+ शिवानुग्रहेण तत्र सर्वा अप
+ ि नद्यः पापनिवृत्त्याय् आय
+ न्ति।<br/><br/><br/>## Details<br/>- [Edit config file](https://
+ github.com/jyotisham/adyatithi/tree/master/general/sidereal_solar_month/na
+ kshatra/11/10/mAci~magham.toml)<br/>- Tags: TamilnaduTempleFestivals Commo
+ nFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
