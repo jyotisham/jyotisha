@@ -5,6 +5,7 @@ import sys
 from pathlib import Path
 
 import methodtools
+import regex
 import toml
 from timebudget import timebudget
 
@@ -27,6 +28,11 @@ def transliterate_quoted_text(text, script):
       logging.warning('Unmatched backquotes in string: %s' % transliterated_text)
   return transliterated_text
 
+
+def clean_id(id):
+  id = id.replace('/','__').strip('{}')
+  id = regex.sub(" +", "_", id)
+  return id
 
 
 class HinduCalendarEventTiming(common.JsonObject):
@@ -167,7 +173,7 @@ class HinduCalendarEvent(common.JsonObject):
   def get_storage_file_name_flat(self, base_dir):
     return "%(base_dir)s/%(id)s.toml"  % dict(
       base_dir=base_dir,
-      id=self.id.replace('/','__').strip('{}')
+      id=self.id
     )
 
   def get_storage_file_name_granular(self, base_dir):
@@ -175,11 +181,11 @@ class HinduCalendarEvent(common.JsonObject):
       path = "relative_event/%(anchor_festival_id)s/offset__%(offset)02d/%(id)s.toml" % dict(
         anchor_festival_id=self.timing.anchor_festival_id.replace('/','__'),
         offset=self.timing.offset,
-        id=self.id.replace('/','__').strip('{}')
+        id=self.id
       )
     elif self.timing is None or self.timing.month_number is None:
       path = "description_only/%(id)s.toml" % dict(
-        id=self.id.replace('/','__').strip('{}')
+        id=self.id
       )
     else:
       try:
@@ -188,7 +194,7 @@ class HinduCalendarEvent(common.JsonObject):
           anga_type=self.timing.anga_type,
           month_number=self.timing.month_number,
           anga_number=self.timing.anga_number,
-          id=self.id.replace('/','__').strip('{}')
+          id=self.id
         )
       except Exception:
         logging.error(str(self))
@@ -306,6 +312,7 @@ class RulesCollection(common.JsonObject):
       rules_map = get_festival_rules_map(
         os.path.join(DATA_ROOT, repo.get_path()), repo=repo, julian_handling=None)
       for rule in rules_map.values():
+        rule.id = clean_id(rule.id)
         expected_path = rule.get_storage_file_name(base_dir=base_dir)
         if rule.path_actual != expected_path:
           logging.info(str((rule.path_actual, expected_path)))
@@ -384,3 +391,4 @@ if __name__ == '__main__':
   # rules_collection = RulesCollection(repos=[RulesRepo(name="mahApuruSha/xatra-later")], julian_handling=None)
   rules_collection.fix_filenames()
   # rules_collection.fix_content()
+
