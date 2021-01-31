@@ -180,6 +180,65 @@ def get_description(festival_instance, fest_details_dict, script, truncate=True,
                                                                               truncate=True, header_md=header_md)
   return default_if_none(desc, "")
 
+def get_description_tex(festival_instance, fest_details_dict, script):
+  fest_id = festival_instance.name.replace('/', ' or ')
+  desc = {}
+  if re.match('aGgArakI.*saGkaTahara-caturthI-vratam', fest_id):
+    fest_id = fest_id.replace('aGgArakI~', '')
+    if fest_id in fest_details_dict:
+      desc = fest_details_dict[fest_id].get_description_dict(script=script)
+      desc['detailed'] += 'When `caturthI` occurs on a Tuesday, it is known as `aGgArakI` and is even more sacred.'
+    else:
+      logging.warning('No description found for caturthI festival %s!' % fest_id)
+  elif re.match('.*-.*-EkAdazI', fest_id) is not None:
+    # Handle ekaadashii descriptions differently
+    ekad = '-'.join(fest_id.split('-')[1:])  # get rid of sarva etc. prefix!
+    ekad_suff_pos = ekad.find(' (')
+    if ekad_suff_pos != -1:
+      # ekad_suff = ekad[ekad_suff_pos + 1:-1]
+      ekad = ekad[:ekad_suff_pos]
+    if ekad in fest_details_dict:
+      desc = fest_details_dict[ekad].get_description_dict(script=script)
+    else:
+      logging.warning('No description found for Ekadashi festival %s (%s)!' % (ekad, fest_id))
+  elif fest_id.find('saGkrAntiH') != -1:
+    # Handle Sankranti descriptions differently
+    planet_trans = fest_id.split('~')[0]  # get rid of ~(rAshi name) etc.
+    if planet_trans in fest_details_dict:
+      desc = fest_details_dict[planet_trans].get_description_dict(script=script)
+    else:
+      logging.warning('No description found for festival %s!' % planet_trans)
+  elif fest_id in fest_details_dict:
+      desc = fest_details_dict[fest_id].get_description_dict(script=script)
+
+
+  if desc is None:
+      # Check approx. match
+      matched_festivals = []
+      for fest_key in fest_details_dict:
+        if fest_id.startswith(fest_key):
+          matched_festivals += [fest_key]
+      if matched_festivals == []:
+        logging.warning('No description found for festival %s!' % fest_id)
+      elif len(matched_festivals) > 1:
+        logging.warning('No exact match found for festival %s! Found more than one approximate match: %s' % (
+          fest_id, str(matched_festivals)))
+      else:
+        desc = fest_details_dict[matched_festivals[0]].get_description_dict(script=script)
+  # Returns '{blurb}{detailed-description}{image}{shlokas}{references}'
+  if desc == {}:
+    logging.warning(fest_id)
+    return '{}{}{}{}{} %%EMPTY DESCRIPTION!'
+  else:
+    desc['detailed'] = desc['detailed'].replace('&', '\\&').replace('\n', '\\\\').replace('\\\\\\\\', '\\\\')
+    desc['detailed'] = desc['detailed'][:1].capitalize() + desc['detailed'][1:]
+    desc['shlokas'] = desc['shlokas'].replace('\n', '\\\\').replace('\\\\\\\\', '\\\\')
+    desc['references'] = desc['references'].replace('- References\n  ', '')
+    return '{%s}{%s}{%s}{%s}{%s}' % (desc['blurb'], 
+                                     desc['detailed'],
+                                     desc['image'], desc['shlokas'],
+                                     desc['references'])
+
 
 # Essential for depickling to work.
 common.update_json_class_index(sys.modules[__name__])
