@@ -12,7 +12,7 @@ from timebudget import timebudget
 from jyotisha import custom_transliteration
 from jyotisha.panchaanga.temporal import names
 from sanskrit_data.schema import common
-
+from indic_transliteration import xsanscript
 
 def transliterate_quoted_text(text, script):
   transliterated_text = text
@@ -217,6 +217,27 @@ class HinduCalendarEvent(common.JsonObject):
     truncate, header_md=header_md)
 
     return final_description_string
+
+  def get_description_dict(self, script):
+    from jyotisha.panchaanga.temporal.festival.rules import summary
+
+    description_dict = {}
+
+    description_dict['blurb'] = summary.get_timing_summary(self)
+    description_dict['detailed'] = summary.get_description_str_with_shlokas(False, self, script)
+    if self.image is None:
+      description_dict['image'] = ''
+    else:
+      description_dict['image'] = self.image
+
+    description_dict['references'] = summary.get_references_md(self)
+
+    if self.shlokas is not None:
+      description_dict['shlokas'] = xsanscript.transliterate(self.shlokas.replace("\n", "  \n"), xsanscript.DEVANAGARI, script)
+    else:
+      description_dict['shlokas'] = ''
+
+    return description_dict
 
   def to_gregorian(self, julian_handling):
     if self.timing.month_type != RulesRepo.JULIAN_MONTH_DIR:
