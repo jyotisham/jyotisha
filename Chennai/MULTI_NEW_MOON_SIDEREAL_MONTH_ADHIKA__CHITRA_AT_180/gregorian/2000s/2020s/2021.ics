@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210129140832
+SEQUENCE:20210131182751
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -2053,16 +2053,16 @@ DESCRIPTION:Viṣṇupadī Punyakala.<br/><br/>सङ्क्रान्
  तिस्नानाकरणे प्रत्यवायमाह 
  शातातपः—  <br/>सूर्यसङ्क्रमणे 
  पुण्ये न स्नायाद्यदि मानवः
- ।  <br/>सप्तजन्मसु रोगी स्यात् 
+ ।  <br/>सप्तजन्मसु रोगी स्याद् 
  दुःखभागी च जायते॥  <br/>सङ्क्र
  ान्त्यां यानि दत्तानि हव्य
  कव्यानि मानवैः।  <br/>तानि तस्
  य ददात्यर्कः सप्तजन्मसु नि
- श्चितम्॥ (स्मृतिमुक्ताफले 
- आह्निक-काण्डे-पूर्वभागः)<br/><br
- /><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/time_focus/sankrAnti/description_only/viSNupadI-p
- uNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
+ श्चितम्॥  <br/>(स्मृतिमुक्ताफल
+ े आह्निक-काण्डे-पूर्वभागः)<br/
+ ><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyo
+ tisham/adyatithi/tree/master/time_focus/sankrAnti/description_only/viSNupa
+ dI-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -4636,16 +4636,16 @@ DESCRIPTION:Kumbha-Ravi-Saṅkramaṇa-Viṣṇupadī Punyakala. Perform d
  नाकरणे प्रत्यवायमाह शातातप
  ः—  <br/>सूर्यसङ्क्रमणे पुण्ये
   न स्नायाद्यदि मानवः।  <br/>सप्
- तजन्मसु रोगी स्यात् दुःखभा
+ तजन्मसु रोगी स्याद् दुःखभा
  गी च जायते॥  <br/>सङ्क्रान्त्य
  ां यानि दत्तानि हव्यकव्यान
  ि मानवैः।  <br/>तानि तस्य ददात्
  यर्कः सप्तजन्मसु निश्चितम्
- ॥ (स्मृतिमुक्ताफले आह्निक-क
- ाण्डे-पूर्वभागः)<br/><br/><br/><br/>## Details
- <br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/mast
- er/time_focus/sankrAnti/description_only/kumbha-ravi-saGkramaNa-viSNupadI-
- puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
+ ॥  <br/>(स्मृतिमुक्ताफले आह्नि
+ क-काण्डे-पूर्वभागः)<br/><br/><br/><br/>## 
+ Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tr
+ ee/master/time_focus/sankrAnti/description_only/kumbha-ravi-saGkramaNa-viS
+ NupadI-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -5365,16 +5365,16 @@ DESCRIPTION:Ṣaḍaśīti Punyakala.<br/><br/>सङ्क्रान्
  तिस्नानाकरणे प्रत्यवायमाह 
  शातातपः—  <br/>सूर्यसङ्क्रमणे 
  पुण्ये न स्नायाद्यदि मानवः
- ।  <br/>सप्तजन्मसु रोगी स्यात् 
+ ।  <br/>सप्तजन्मसु रोगी स्याद् 
  दुःखभागी च जायते॥  <br/>सङ्क्र
  ान्त्यां यानि दत्तानि हव्य
  कव्यानि मानवैः।  <br/>तानि तस्
  य ददात्यर्कः सप्तजन्मसु नि
- श्चितम्॥ (स्मृतिमुक्ताफले 
- आह्निक-काण्डे-पूर्वभागः)<br/><br
- /><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/time_focus/sankrAnti/description_only/SaDazIti-pu
- NyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
+ श्चितम्॥  <br/>(स्मृतिमुक्ताफल
+ े आह्निक-काण्डे-पूर्वभागः)<br/
+ ><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyo
+ tisham/adyatithi/tree/master/time_focus/sankrAnti/description_only/SaDazIt
+ i-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8577,16 +8577,16 @@ DESCRIPTION:Mīna-Ravi-Saṅkramaṇa-Ṣaḍaśīti Punyakala.<br/><br/>
  त्यवायमाह शातातपः—  <br/>सूर्य
  सङ्क्रमणे पुण्ये न स्नायाद
  ्यदि मानवः।  <br/>सप्तजन्मसु र
- ोगी स्यात् दुःखभागी च जायते
+ ोगी स्याद् दुःखभागी च जायते
  ॥  <br/>सङ्क्रान्त्यां यानि दत
  ्तानि हव्यकव्यानि मानवैः।  <
  br/>तानि तस्य ददात्यर्कः सप्त
- जन्मसु निश्चितम्॥ (स्मृतिम
- ुक्ताफले आह्निक-काण्डे-पूर
- ्वभागः)<br/><br/><br/><br/>## Details<br/>- [Edit config file]
- (https://github.com/jyotisham/adyatithi/tree/master/time_focus/sankrAnti/d
- escription_only/mIna-ravi-saGkramaNa-SaDazIti-puNyakAlaH.toml)<br/>- Tags:
-  SunSankranti CommonFestivals
+ जन्मसु निश्चितम्॥  <br/>(स्मृत
+ िमुक्ताफले आह्निक-काण्डे-प
+ ूर्वभागः)<br/><br/><br/><br/>## Details<br/>- [Edit config
+  file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/sankr
+ Anti/description_only/mIna-ravi-saGkramaNa-SaDazIti-puNyakAlaH.toml)<br/>-
+  Tags: SunSankranti CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9210,16 +9210,16 @@ DESCRIPTION:Meṣa-Viṣu Punyakala.<br/><br/>सङ्क्रान्
  तिस्नानाकरणे प्रत्यवायमाह 
  शातातपः—  <br/>सूर्यसङ्क्रमणे 
  पुण्ये न स्नायाद्यदि मानवः
- ।  <br/>सप्तजन्मसु रोगी स्यात् 
+ ।  <br/>सप्तजन्मसु रोगी स्याद् 
  दुःखभागी च जायते॥  <br/>सङ्क्र
  ान्त्यां यानि दत्तानि हव्य
  कव्यानि मानवैः।  <br/>तानि तस्
  य ददात्यर्कः सप्तजन्मसु नि
- श्चितम्॥ (स्मृतिमुक्ताफले 
- आह्निक-काण्डे-पूर्वभागः)<br/><br
- /><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/time_focus/sankrAnti/description_only/mESa-viSu-p
- uNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
+ श्चितम्॥  <br/>(स्मृतिमुक्ताफल
+ े आह्निक-काण्डे-पूर्वभागः)<br/
+ ><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyo
+ tisham/adyatithi/tree/master/time_focus/sankrAnti/description_only/mESa-vi
+ Su-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -12265,15 +12265,16 @@ DESCRIPTION:Meṣa-Saṅkramaṇa Punyakala.<br/><br/>सङ्क्र
  माह शातातपः—  <br/>सूर्यसङ्क्र
  मणे पुण्ये न स्नायाद्यदि मा
  नवः।  <br/>सप्तजन्मसु रोगी स्य
- ात् दुःखभागी च जायते॥  <br/>सङ्
+ ाद् दुःखभागी च जायते॥  <br/>सङ्
  क्रान्त्यां यानि दत्तानि ह
  व्यकव्यानि मानवैः।  <br/>तानि 
  तस्य ददात्यर्कः सप्तजन्मसु
-  निश्चितम्॥ (स्मृतिमुक्ताफ
- ले आह्निक-काण्डे-पूर्वभागः)<
- br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/
- jyotisham/adyatithi/tree/master/time_focus/sankrAnti/description_only/mESa
- -saGkramaNa-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
+  निश्चितम्॥  <br/>(स्मृतिमुक्त
+ ाफले आह्निक-काण्डे-पूर्वभा
+ गः)<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://git
+ hub.com/jyotisham/adyatithi/tree/master/time_focus/sankrAnti/description_o
+ nly/mESa-saGkramaNa-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestiv
+ als
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -12490,16 +12491,16 @@ DESCRIPTION:Tamil New Year.<br/><br/>सङ्क्रान्तिस
  ्नानाकरणे प्रत्यवायमाह शात
  ातपः—  <br/>सूर्यसङ्क्रमणे पुण
  ्ये न स्नायाद्यदि मानवः।  <br/>
- सप्तजन्मसु रोगी स्यात् दुः
+ सप्तजन्मसु रोगी स्याद् दुः
  खभागी च जायते॥  <br/>सङ्क्रान्
  त्यां यानि दत्तानि हव्यकव्
  यानि मानवैः।  <br/>तानि तस्य दद
  ात्यर्कः सप्तजन्मसु निश्चि
- तम्॥ (स्मृतिमुक्ताफले आह्न
- िक-काण्डे-पूर्वभागः)<br/><br/><br/><br/>
- ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
- /tree/master/time_focus/sankrAnti/description_only/mESa-saGkrAntiH.toml)<b
- r/>- Tags: SunSankranti CommonFestivals
+ तम्॥  <br/>(स्मृतिमुक्ताफले आह
+ ्निक-काण्डे-पूर्वभागः)<br/><br/><br/
+ ><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/ady
+ atithi/tree/master/time_focus/sankrAnti/description_only/mESa-saGkrAntiH.t
+ oml)<br/>- Tags: SunSankranti CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12643,8 +12644,8 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:पार्वतीश्वरयोरान्दलनव्
- रतम्
+SUMMARY:पार्वतीश्वरयोरान्दोलनव
+ ्रतम्
 DTSTART;VALUE=DATE:20210415
 DTEND;VALUE=DATE:20210416
 DESCRIPTION:Observed on Śukla-Tṛtīyā tithi of Caitraḥ (lunar) month
@@ -13167,16 +13168,16 @@ DESCRIPTION:Viṣṇupadī Punyakala.<br/><br/>सङ्क्रान्
  तिस्नानाकरणे प्रत्यवायमाह 
  शातातपः—  <br/>सूर्यसङ्क्रमणे 
  पुण्ये न स्नायाद्यदि मानवः
- ।  <br/>सप्तजन्मसु रोगी स्यात् 
+ ।  <br/>सप्तजन्मसु रोगी स्याद् 
  दुःखभागी च जायते॥  <br/>सङ्क्र
  ान्त्यां यानि दत्तानि हव्य
  कव्यानि मानवैः।  <br/>तानि तस्
  य ददात्यर्कः सप्तजन्मसु नि
- श्चितम्॥ (स्मृतिमुक्ताफले 
- आह्निक-काण्डे-पूर्वभागः)<br/><br
- /><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/time_focus/sankrAnti/description_only/viSNupadI-p
- uNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
+ श्चितम्॥  <br/>(स्मृतिमुक्ताफल
+ े आह्निक-काण्डे-पूर्वभागः)<br/
+ ><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyo
+ tisham/adyatithi/tree/master/time_focus/sankrAnti/description_only/viSNupa
+ dI-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -16209,16 +16210,16 @@ DESCRIPTION:Vṛṣabha-Ravi-Saṅkramaṇa-Viṣṇupadī Punyakala.<br/>
  ्रत्यवायमाह शातातपः—  <br/>सूर
  ्यसङ्क्रमणे पुण्ये न स्नाय
  ाद्यदि मानवः।  <br/>सप्तजन्मसु
-  रोगी स्यात् दुःखभागी च जायत
+  रोगी स्याद् दुःखभागी च जायत
  े॥  <br/>सङ्क्रान्त्यां यानि द
  त्तानि हव्यकव्यानि मानवैः।
    <br/>तानि तस्य ददात्यर्कः सप्
- तजन्मसु निश्चितम्॥ (स्मृति
- मुक्ताफले आह्निक-काण्डे-पू
- र्वभागः)<br/><br/><br/><br/>## Details<br/>- [Edit config fi
- le](https://github.com/jyotisham/adyatithi/tree/master/time_focus/sankrAnt
- i/description_only/vRSabha-ravi-saGkramaNa-viSNupadI-puNyakAlaH.toml)<br/>
- - Tags: SunSankranti CommonFestivals
+ तजन्मसु निश्चितम्॥  <br/>(स्मृ
+ तिमुक्ताफले आह्निक-काण्डे-
+ पूर्वभागः)<br/><br/><br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/sa
+ nkrAnti/description_only/vRSabha-ravi-saGkramaNa-viSNupadI-puNyakAlaH.toml
+ )<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -16866,16 +16867,16 @@ DESCRIPTION:Ṣaḍaśīti Punyakala.<br/><br/>सङ्क्रान्
  तिस्नानाकरणे प्रत्यवायमाह 
  शातातपः—  <br/>सूर्यसङ्क्रमणे 
  पुण्ये न स्नायाद्यदि मानवः
- ।  <br/>सप्तजन्मसु रोगी स्यात् 
+ ।  <br/>सप्तजन्मसु रोगी स्याद् 
  दुःखभागी च जायते॥  <br/>सङ्क्र
  ान्त्यां यानि दत्तानि हव्य
  कव्यानि मानवैः।  <br/>तानि तस्
  य ददात्यर्कः सप्तजन्मसु नि
- श्चितम्॥ (स्मृतिमुक्ताफले 
- आह्निक-काण्डे-पूर्वभागः)<br/><br
- /><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/time_focus/sankrAnti/description_only/SaDazIti-pu
- NyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
+ श्चितम्॥  <br/>(स्मृतिमुक्ताफल
+ े आह्निक-काण्डे-पूर्वभागः)<br/
+ ><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyo
+ tisham/adyatithi/tree/master/time_focus/sankrAnti/description_only/SaDazIt
+ i-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -20116,16 +20117,16 @@ DESCRIPTION:Mithuna-Ravi-Saṅkramaṇa-Ṣaḍaśīti Punyakala. Perform
  णे प्रत्यवायमाह शातातपः—  <br/
  >सूर्यसङ्क्रमणे पुण्ये न स्
  नायाद्यदि मानवः।  <br/>सप्तजन्
- मसु रोगी स्यात् दुःखभागी च ज
+ मसु रोगी स्याद् दुःखभागी च ज
  ायते॥  <br/>सङ्क्रान्त्यां यान
  ि दत्तानि हव्यकव्यानि मानव
  ैः।  <br/>तानि तस्य ददात्यर्कः 
- सप्तजन्मसु निश्चितम्॥ (स्म
- ृतिमुक्ताफले आह्निक-काण्डे
- -पूर्वभागः)<br/><br/><br/><br/>## Details<br/>- [Edit co
- nfig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/s
- ankrAnti/description_only/mithuna-ravi-saGkramaNa-SaDazIti-puNyakAlaH.toml
- )<br/>- Tags: SunSankranti CommonFestivals
+ सप्तजन्मसु निश्चितम्॥  <br/>(स
+ ्मृतिमुक्ताफले आह्निक-काण्
+ डे-पूर्वभागः)<br/><br/><br/><br/>## Details<br/>- [E
+ dit config file](https://github.com/jyotisham/adyatithi/tree/master/time_f
+ ocus/sankrAnti/description_only/mithuna-ravi-saGkramaNa-SaDazIti-puNyakAla
+ H.toml)<br/>- Tags: SunSankranti CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -20959,16 +20960,16 @@ DESCRIPTION:Dakṣiṇāyana Punyakala.<br/><br/>सङ्क्रान
  ्तिस्नानाकरणे प्रत्यवायमा
  ह शातातपः—  <br/>सूर्यसङ्क्रमण
  े पुण्ये न स्नायाद्यदि मानव
- ः।  <br/>सप्तजन्मसु रोगी स्यात
+ ः।  <br/>सप्तजन्मसु रोगी स्याद
  ् दुःखभागी च जायते॥  <br/>सङ्क्
  रान्त्यां यानि दत्तानि हव्
  यकव्यानि मानवैः।  <br/>तानि तस
  ्य ददात्यर्कः सप्तजन्मसु न
- िश्चितम्॥ (स्मृतिमुक्ताफले
-  आह्निक-काण्डे-पूर्वभागः)<br/><b
- r/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotis
- ham/adyatithi/tree/master/time_focus/sankrAnti/description_only/dakSiNAyan
- a-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
+ िश्चितम्॥  <br/>(स्मृतिमुक्ताफ
+ ले आह्निक-काण्डे-पूर्वभागः)<
+ br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/
+ jyotisham/adyatithi/tree/master/time_focus/sankrAnti/description_only/dakS
+ iNAyana-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -24038,16 +24039,16 @@ DESCRIPTION:Karkaṭa-Saṅkramaṇa Punyakala.<br/><br/>सङ्क्
  यमाह शातातपः—  <br/>सूर्यसङ्क्
  रमणे पुण्ये न स्नायाद्यदि म
  ानवः।  <br/>सप्तजन्मसु रोगी स्
- यात् दुःखभागी च जायते॥  <br/>सङ
+ याद् दुःखभागी च जायते॥  <br/>सङ
  ्क्रान्त्यां यानि दत्तानि 
  हव्यकव्यानि मानवैः।  <br/>तानि
   तस्य ददात्यर्कः सप्तजन्मस
- ु निश्चितम्॥ (स्मृतिमुक्ता
- फले आह्निक-काण्डे-पूर्वभाग
- ः)<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github
- .com/jyotisham/adyatithi/tree/master/time_focus/sankrAnti/description_only
- /karkaTa-saGkramaNa-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestiv
- als
+ ु निश्चितम्॥  <br/>(स्मृतिमुक्
+ ताफले आह्निक-काण्डे-पूर्वभ
+ ागः)<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://
+ github.com/jyotisham/adyatithi/tree/master/time_focus/sankrAnti/descriptio
+ n_only/karkaTa-saGkramaNa-puNyakAlaH.toml)<br/>- Tags: SunSankranti Common
+ Festivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -25052,16 +25053,16 @@ DESCRIPTION:Viṣṇupadī Punyakala.<br/><br/>सङ्क्रान्
  तिस्नानाकरणे प्रत्यवायमाह 
  शातातपः—  <br/>सूर्यसङ्क्रमणे 
  पुण्ये न स्नायाद्यदि मानवः
- ।  <br/>सप्तजन्मसु रोगी स्यात् 
+ ।  <br/>सप्तजन्मसु रोगी स्याद् 
  दुःखभागी च जायते॥  <br/>सङ्क्र
  ान्त्यां यानि दत्तानि हव्य
  कव्यानि मानवैः।  <br/>तानि तस्
  य ददात्यर्कः सप्तजन्मसु नि
- श्चितम्॥ (स्मृतिमुक्ताफले 
- आह्निक-काण्डे-पूर्वभागः)<br/><br
- /><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/time_focus/sankrAnti/description_only/viSNupadI-p
- uNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
+ श्चितम्॥  <br/>(स्मृतिमुक्ताफल
+ े आह्निक-काण्डे-पूर्वभागः)<br/
+ ><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyo
+ tisham/adyatithi/tree/master/time_focus/sankrAnti/description_only/viSNupa
+ dI-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -28805,16 +28806,16 @@ DESCRIPTION:Ṣaḍaśīti Punyakala.<br/><br/>सङ्क्रान्
  तिस्नानाकरणे प्रत्यवायमाह 
  शातातपः—  <br/>सूर्यसङ्क्रमणे 
  पुण्ये न स्नायाद्यदि मानवः
- ।  <br/>सप्तजन्मसु रोगी स्यात् 
+ ।  <br/>सप्तजन्मसु रोगी स्याद् 
  दुःखभागी च जायते॥  <br/>सङ्क्र
  ान्त्यां यानि दत्तानि हव्य
  कव्यानि मानवैः।  <br/>तानि तस्
  य ददात्यर्कः सप्तजन्मसु नि
- श्चितम्॥ (स्मृतिमुक्ताफले 
- आह्निक-काण्डे-पूर्वभागः)<br/><br
- /><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/time_focus/sankrAnti/description_only/SaDazIti-pu
- NyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
+ श्चितम्॥  <br/>(स्मृतिमुक्ताफल
+ े आह्निक-काण्डे-पूर्वभागः)<br/
+ ><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyo
+ tisham/adyatithi/tree/master/time_focus/sankrAnti/description_only/SaDazIt
+ i-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -32250,16 +32251,16 @@ DESCRIPTION:Kanyā-Ravi-Saṅkramaṇa-Ṣaḍaśīti Punyakala. Perform d
  रणे प्रत्यवायमाह शातातपः—  <
  br/>सूर्यसङ्क्रमणे पुण्ये न स
  ्नायाद्यदि मानवः।  <br/>सप्तजन
- ्मसु रोगी स्यात् दुःखभागी च 
+ ्मसु रोगी स्याद् दुःखभागी च 
  जायते॥  <br/>सङ्क्रान्त्यां या
  नि दत्तानि हव्यकव्यानि मान
  वैः।  <br/>तानि तस्य ददात्यर्क
- ः सप्तजन्मसु निश्चितम्॥ (स्
- मृतिमुक्ताफले आह्निक-काण्ड
- े-पूर्वभागः)<br/><br/><br/><br/>## Details<br/>- [Edit
-  config file](https://github.com/jyotisham/adyatithi/tree/master/time_focu
- s/sankrAnti/description_only/kanyA-ravi-saGkramaNa-SaDazIti-puNyakAlaH.tom
- l)<br/>- Tags: SunSankranti CommonFestivals
+ ः सप्तजन्मसु निश्चितम्॥  <br/>(
+ स्मृतिमुक्ताफले आह्निक-काण
+ ्डे-पूर्वभागः)<br/><br/><br/><br/>## Details<br/>-
+  [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/tim
+ e_focus/sankrAnti/description_only/kanyA-ravi-saGkramaNa-SaDazIti-puNyakAl
+ aH.toml)<br/>- Tags: SunSankranti CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -33277,16 +33278,16 @@ DESCRIPTION:Tulā-Viṣu Punyakala.<br/><br/>सङ्क्रान्
  तिस्नानाकरणे प्रत्यवायमाह 
  शातातपः—  <br/>सूर्यसङ्क्रमणे 
  पुण्ये न स्नायाद्यदि मानवः
- ।  <br/>सप्तजन्मसु रोगी स्यात् 
+ ।  <br/>सप्तजन्मसु रोगी स्याद् 
  दुःखभागी च जायते॥  <br/>सङ्क्र
  ान्त्यां यानि दत्तानि हव्य
  कव्यानि मानवैः।  <br/>तानि तस्
  य ददात्यर्कः सप्तजन्मसु नि
- श्चितम्॥ (स्मृतिमुक्ताफले 
- आह्निक-काण्डे-पूर्वभागः)<br/><br
- /><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/time_focus/sankrAnti/description_only/tulA-viSu-p
- uNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
+ श्चितम्॥  <br/>(स्मृतिमुक्ताफल
+ े आह्निक-काण्डे-पूर्वभागः)<br/
+ ><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyo
+ tisham/adyatithi/tree/master/time_focus/sankrAnti/description_only/tulA-vi
+ Su-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -36567,16 +36568,16 @@ DESCRIPTION:Tulā-Saṅkramaṇa Punyakala. Perform danam of rice/wheat/gr
  ्रत्यवायमाह शातातपः—  <br/>सूर
  ्यसङ्क्रमणे पुण्ये न स्नाय
  ाद्यदि मानवः।  <br/>सप्तजन्मसु
-  रोगी स्यात् दुःखभागी च जायत
+  रोगी स्याद् दुःखभागी च जायत
  े॥  <br/>सङ्क्रान्त्यां यानि द
  त्तानि हव्यकव्यानि मानवैः।
    <br/>तानि तस्य ददात्यर्कः सप्
- तजन्मसु निश्चितम्॥ (स्मृति
- मुक्ताफले आह्निक-काण्डे-पू
- र्वभागः)<br/><br/><br/><br/>## Details<br/>- [Edit config fi
- le](https://github.com/jyotisham/adyatithi/tree/master/time_focus/sankrAnt
- i/description_only/tulA-saGkramaNa-puNyakAlaH.toml)<br/>- Tags: SunSankran
- ti CommonFestivals
+ तजन्मसु निश्चितम्॥  <br/>(स्मृ
+ तिमुक्ताफले आह्निक-काण्डे-
+ पूर्वभागः)<br/><br/><br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/sa
+ nkrAnti/description_only/tulA-saGkramaNa-puNyakAlaH.toml)<br/>- Tags: SunS
+ ankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -37291,16 +37292,16 @@ DESCRIPTION:Viṣṇupadī Punyakala.<br/><br/>सङ्क्रान्
  तिस्नानाकरणे प्रत्यवायमाह 
  शातातपः—  <br/>सूर्यसङ्क्रमणे 
  पुण्ये न स्नायाद्यदि मानवः
- ।  <br/>सप्तजन्मसु रोगी स्यात् 
+ ।  <br/>सप्तजन्मसु रोगी स्याद् 
  दुःखभागी च जायते॥  <br/>सङ्क्र
  ान्त्यां यानि दत्तानि हव्य
  कव्यानि मानवैः।  <br/>तानि तस्
  य ददात्यर्कः सप्तजन्मसु नि
- श्चितम्॥ (स्मृतिमुक्ताफले 
- आह्निक-काण्डे-पूर्वभागः)<br/><br
- /><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/time_focus/sankrAnti/description_only/viSNupadI-p
- uNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
+ श्चितम्॥  <br/>(स्मृतिमुक्ताफल
+ े आह्निक-काण्डे-पूर्वभागः)<br/
+ ><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyo
+ tisham/adyatithi/tree/master/time_focus/sankrAnti/description_only/viSNupa
+ dI-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -40349,16 +40350,16 @@ DESCRIPTION:Vṛśchika-Ravi-Saṅkramaṇa-Viṣṇupadī Punyakala. Do d
  ाकरणे प्रत्यवायमाह शातातपः
  —  <br/>सूर्यसङ्क्रमणे पुण्ये 
  न स्नायाद्यदि मानवः।  <br/>सप्
- तजन्मसु रोगी स्यात् दुःखभा
+ तजन्मसु रोगी स्याद् दुःखभा
  गी च जायते॥  <br/>सङ्क्रान्त्य
  ां यानि दत्तानि हव्यकव्यान
  ि मानवैः।  <br/>तानि तस्य ददात्
  यर्कः सप्तजन्मसु निश्चितम्
- ॥ (स्मृतिमुक्ताफले आह्निक-क
- ाण्डे-पूर्वभागः)<br/><br/><br/><br/>## Details
- <br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/mast
- er/time_focus/sankrAnti/description_only/vRzcika-ravi-saGkramaNa-viSNupadI
- -puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
+ ॥  <br/>(स्मृतिमुक्ताफले आह्नि
+ क-काण्डे-पूर्वभागः)<br/><br/><br/><br/>## 
+ Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tr
+ ee/master/time_focus/sankrAnti/description_only/vRzcika-ravi-saGkramaNa-vi
+ SNupadI-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -41629,16 +41630,16 @@ DESCRIPTION:Ṣaḍaśīti Punyakala.<br/><br/>सङ्क्रान्
  तिस्नानाकरणे प्रत्यवायमाह 
  शातातपः—  <br/>सूर्यसङ्क्रमणे 
  पुण्ये न स्नायाद्यदि मानवः
- ।  <br/>सप्तजन्मसु रोगी स्यात् 
+ ।  <br/>सप्तजन्मसु रोगी स्याद् 
  दुःखभागी च जायते॥  <br/>सङ्क्र
  ान्त्यां यानि दत्तानि हव्य
  कव्यानि मानवैः।  <br/>तानि तस्
  य ददात्यर्कः सप्तजन्मसु नि
- श्चितम्॥ (स्मृतिमुक्ताफले 
- आह्निक-काण्डे-पूर्वभागः)<br/><br
- /><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/time_focus/sankrAnti/description_only/SaDazIti-pu
- NyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
+ श्चितम्॥  <br/>(स्मृतिमुक्ताफल
+ े आह्निक-काण्डे-पूर्वभागः)<br/
+ ><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyo
+ tisham/adyatithi/tree/master/time_focus/sankrAnti/description_only/SaDazIt
+ i-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -44362,16 +44363,16 @@ DESCRIPTION:Dhanur-Ravi-Saṅkramaṇa-Ṣaḍaśīti Punyakala. Perform d
  नाकरणे प्रत्यवायमाह शातातप
  ः—  <br/>सूर्यसङ्क्रमणे पुण्ये
   न स्नायाद्यदि मानवः।  <br/>सप्
- तजन्मसु रोगी स्यात् दुःखभा
+ तजन्मसु रोगी स्याद् दुःखभा
  गी च जायते॥  <br/>सङ्क्रान्त्य
  ां यानि दत्तानि हव्यकव्यान
  ि मानवैः।  <br/>तानि तस्य ददात्
  यर्कः सप्तजन्मसु निश्चितम्
- ॥ (स्मृतिमुक्ताफले आह्निक-क
- ाण्डे-पूर्वभागः)  <br/><br/><br/><br/><br/>## 
- Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tr
- ee/master/time_focus/sankrAnti/description_only/dhanUravi-saGkramaNa-SaDaz
- Iti-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
+ ॥  <br/>(स्मृतिमुक्ताफले आह्नि
+ क-काण्डे-पूर्वभागः)  <br/><br/><br/><br/><
+ br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyat
+ ithi/tree/master/time_focus/sankrAnti/description_only/dhanUravi-saGkramaN
+ a-SaDazIti-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -45168,16 +45169,16 @@ DESCRIPTION:Uttarāyaṇa Punyakala.<br/><br/>सङ्क्रान्
  तिस्नानाकरणे प्रत्यवायमाह 
  शातातपः—  <br/>सूर्यसङ्क्रमणे 
  पुण्ये न स्नायाद्यदि मानवः
- ।  <br/>सप्तजन्मसु रोगी स्यात् 
+ ।  <br/>सप्तजन्मसु रोगी स्याद् 
  दुःखभागी च जायते॥  <br/>सङ्क्र
  ान्त्यां यानि दत्तानि हव्य
  कव्यानि मानवैः।  <br/>तानि तस्
  य ददात्यर्कः सप्तजन्मसु नि
- श्चितम्॥ (स्मृतिमुक्ताफले 
- आह्निक-काण्डे-पूर्वभागः)<br/><br
- /><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/time_focus/sankrAnti/description_only/uttarAyaNa-
- puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
+ श्चितम्॥  <br/>(स्मृतिमुक्ताफल
+ े आह्निक-काण्डे-पूर्वभागः)<br/
+ ><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyo
+ tisham/adyatithi/tree/master/time_focus/sankrAnti/description_only/uttarAy
+ aNa-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
