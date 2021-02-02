@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210131224310
+SEQUENCE:20210202225303
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -20980,20 +20980,14 @@ SUMMARY:दशहरा/गङ्गावतरणम्/दशपाप
  हरा-दशमी
 DTSTART;VALUE=DATE:20210620
 DTEND;VALUE=DATE:20210621
-DESCRIPTION:Observed on Śukla-Daśamī tithi of Jyaiṣṭhaḥ (lunar) m
- onth (Sūryodayaḥ/puurvaviddha). Avataranam of Ganga Devi. Bathe in any 
- river and offer arghyam — destroys 10 types of sins (daśaharā).<br/><b
- r/>दशम्यां शुक्लपक्षे तु ज्य
- ेष्ठे मासे कुजे दिने।  <br/>गङ्
- गाऽवतीर्णा हस्तर्क्षे सर्व
- पापहरा स्मृता॥  <br/>  <br/>यां काञ
- ्चित् सरितं प्राप्य दद्याद
- र्घ्यं शुभोदकम्।  <br/>मुच्यते
-  दशभिः पापैः स महापातकोपमैः
- ॥<br/><br/><br/><br/>## Details<br/>- References<br/>  - Vaidikasri June
-  2017<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree
- /master/general/lunar_month/tithi/03/10/dazaharA%20or%20gaGgAvataraNam%20o
- r%20dazapApaharA~dazamI.toml)<br/>- Tags: OtherJayantis CommonFestivals
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/general/lunar_month/tithi/03/10/dazaharA%20or%20g
+ aGgAvataraNam%20or%20dazapApaharA~dazamI.toml)<br/>- Tags: OtherJayantis C
+ ommonFestivals<br/><br/><br/><br/>## Details<br/>- References<br/>  - Nirn
+ aya Sindu\, Valmiki Ramayanam<br/>- [Edit config file](https://github.com/
+ jyotisham/adyatithi/tree/master/general/lunar_month/tithi/03/10/dazaharA%2
+ 0or%20gaGgAvataraNam%20or%20dazapApaharA~dazamI.toml)<br/>- Tags: OtherJay
+ antis CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -36484,14 +36478,14 @@ DESCRIPTION:Observed on day 1 of Tulā (sidereal solar) month (Sūryodaya
  ङ्काले  समागते।  <br/>आकाशदीपं  
  यो  दद्यान्मासमेकं  हरिं  प्
  रति।  <br/>महतीं  श्रियमाप्नोत
- ि  रूप-सौभाग्य-सम्पदम्॥  <br/>  <br/
- >दामोदराय  नभसि  तुलायां  लोल
- या  सह।  <br/>प्रदीपं  ते  प्रयच्
- छामि  नमोऽनन्ताय  वेधसे॥  <br/><br
- /><br/><br/><br/>## Details<br/>- References<br/>  - Nirnaya Sindhu 146<br
- />- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/
- general/sidereal_solar_month/day/07/01/AkAzadIpa-ArambhaH.toml)<br/>- Tags
- : LessCommonFestivals
+ ि  रूप-सौभाग्य-सम्पदम्॥  <br/>दा
+ मोदराय  नभसि  तुलायां  लोलया  
+ सह।  <br/>प्रदीपं  ते  प्रयच्छाम
+ ि  नमोऽनन्ताय  वेधसे॥  <br/><br/><br/><b
+ r/><br/>## Details<br/>- References<br/>  - Nirnaya Sindhu 146<br/>- [Edit
+  config file](https://github.com/jyotisham/adyatithi/tree/master/general/s
+ idereal_solar_month/day/07/01/AkAzadIpa-ArambhaH.toml)<br/>- Tags: LessCom
+ monFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -38323,16 +38317,16 @@ DESCRIPTION:Observed on Kṛṣṇa-Dvādaśī tithi of Āśvayujaḥ (lun
  ar) month (Pradoṣaḥ/puurvaviddha). Avoid cow's milk\, ghee\, curd and 
  buttermilk on this day. Give grass to cows and pray to them.<br/><br/>ग
  ोक्षीरं गोघृतं चैव दधि तक्र
- ं च वर्जयेत्।  <br/>  <br/>सुरभि त्व
- ं जगन्मातर्देवि विष्णुपदे 
- स्थिता।  <br/>सर्वदेवमये ग्रास
- ं मया दत्तमिदं ग्रस॥  <br/>  <br/>सर
- ्वदेवमये देवि सर्वेदेवैश्च
-  सत्कृता।  <br/>मातर्ममाऽभिलाष
- ितं सफलं कुरु नन्दिनि॥  <br/><br/><b
- r/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotis
- ham/adyatithi/tree/master/devatA/misc-fauna/lunar_month/tithi/07/27/gOvats
- a-dvAdazI.toml)<br/>- Tags: SpecialVratam CommonFestivals
+ ं च वर्जयेत्।  <br/>सुरभि त्वं ज
+ गन्मातर्देवि विष्णुपदे स्थ
+ िता।  <br/>सर्वदेवमये ग्रासं म
+ या दत्तमिदं ग्रस॥  <br/>सर्वदे
+ वमये देवि सर्वेदेवैश्च सत्
+ कृता।  <br/>मातर्ममाऽभिलाषितं 
+ सफलं कुरु नन्दिनि॥  <br/><br/><br/><br/><b
+ r/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyati
+ thi/tree/master/devatA/misc-fauna/lunar_month/tithi/07/27/gOvatsa-dvAdazI.
+ toml)<br/>- Tags: SpecialVratam CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -38591,13 +38585,13 @@ DESCRIPTION:Observed on Kṛṣṇa-Trayodaśī tithi of Āśvayujaḥ (lu
  pam outside the house.<br/><br/>आश्विनस्यासिते
   पक्षे त्रयोदश्यां निशामुख
  े।  <br/>यमदीपं बहिर्दद्यात् अ
- पमृत्युर्विनश्यति॥  <br/>  <br/>मृ
- त्युना पाशदण्डाभ्यां कालेन
-  श्यामया सह।  <br/>त्रयोदश्यां 
- दीपदानात् सूर्यजः प्रीयतां
-  मम॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://
- github.com/jyotisham/adyatithi/tree/master/general/lunar_month/tithi/07/28
- /%28yama%29-dIpa-trayOdazI.toml)<br/>- Tags: CommonFestivals
+ पमृत्युर्विनश्यति॥  <br/>मृत्
+ युना पाशदण्डाभ्यां कालेन श
+ ्यामया सह।  <br/>त्रयोदश्यां द
+ ीपदानात् सूर्यजः प्रीयतां 
+ मम॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://g
+ ithub.com/jyotisham/adyatithi/tree/master/general/lunar_month/tithi/07/28/
+ %28yama%29-dIpa-trayOdazI.toml)<br/>- Tags: CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
