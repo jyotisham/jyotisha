@@ -16448,17 +16448,14 @@ BEGIN:VEVENT
 SUMMARY:daśaharā/gaṅgāvataraṇam/daśapāpaharā-daśamī
 DTSTART;VALUE=DATE:20190612
 DTEND;VALUE=DATE:20190613
-DESCRIPTION:Observed on Śukla-Daśamī tithi of Jyaiṣṭhaḥ (lunar) m
- onth (Sūryodayaḥ/puurvaviddha). Avataranam of Ganga Devi. Bathe in any 
- river and offer arghyam — destroys 10 types of sins (daśaharā).<br/><b
- r/>daśamyāṃ śuklapakṣe tu jyeṣṭhe māse kuje dine|  <br/>gaṅg
- ā'vatīrṇā hastarkṣe sarvapāpaharā smṛtā||  <br/>  <br/>yāṃ 
- kāñcit saritaṃ prāpya dadyādarghyaṃ śubhodakam|  <br/>mucyate da
- śabhiḥ pāpaiḥ sa mahāpātakopamaiḥ||<br/><br/><br/><br/>## Detail
- s<br/>- References<br/>  - Vaidikasri June 2017<br/>- [Edit config file](h
- ttps://github.com/jyotisham/adyatithi/tree/master/general/lunar_month/tith
- i/03/10/dazaharA%20or%20gaGgAvataraNam%20or%20dazapApaharA~dazamI.toml)<br
- />- Tags: OtherJayantis CommonFestivals
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/general/lunar_month/tithi/03/10/dazaharA%20or%20g
+ aGgAvataraNam%20or%20dazapApaharA~dazamI.toml)<br/>- Tags: OtherJayantis C
+ ommonFestivals<br/><br/><br/><br/>## Details<br/>- References<br/>  - Nirn
+ aya Sindu\, Valmiki Ramayanam<br/>- [Edit config file](https://github.com/
+ jyotisham/adyatithi/tree/master/general/lunar_month/tithi/03/10/dazaharA%2
+ 0or%20gaGgAvataraNam%20or%20dazapApaharA~dazamI.toml)<br/>- Tags: OtherJay
+ antis CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -31118,14 +31115,13 @@ DTEND;VALUE=DATE:20191026
 DESCRIPTION:Observed on Kṛṣṇa-Dvādaśī tithi of Āśvayujaḥ (lun
  ar) month (Pradoṣaḥ/puurvaviddha). Avoid cow's milk\, ghee\, curd and 
  buttermilk on this day. Give grass to cows and pray to them.<br/><br/>gok
- ṣīraṃ goghṛtaṃ caiva dadhi takraṃ ca varjayet|  <br/>  <br/>sur
- abhi tvaṃ jaganmātardevi viṣṇupade sthitā|  <br/>sarvadevamaye gr
- āsaṃ mayā dattamidaṃ grasa||  <br/>  <br/>sarvadevamaye devi sarvede
- vaiśca satkṛtā|  <br/>mātarmamā'bhilāṣitaṃ saphalaṃ kuru nand
- ini||  <br/><br/><br/><br/><br/>## Details<br/>- [Edit config file](https:
- //github.com/jyotisham/adyatithi/tree/master/devatA/misc-fauna/lunar_month
- /tithi/07/27/gOvatsa-dvAdazI.toml)<br/>- Tags: SpecialVratam CommonFestiva
- ls
+ ṣīraṃ goghṛtaṃ caiva dadhi takraṃ ca varjayet|  <br/>surabhi tv
+ aṃ jaganmātardevi viṣṇupade sthitā|  <br/>sarvadevamaye grāsaṃ 
+ mayā dattamidaṃ grasa||  <br/>sarvadevamaye devi sarvedevaiśca satkṛ
+ tā|  <br/>mātarmamā'bhilāṣitaṃ saphalaṃ kuru nandini||  <br/><br
+ /><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jy
+ otisham/adyatithi/tree/master/devatA/misc-fauna/lunar_month/tithi/07/27/gO
+ vatsa-dvAdazI.toml)<br/>- Tags: SpecialVratam CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -31253,11 +31249,11 @@ DESCRIPTION:Observed on Kṛṣṇa-Trayodaśī tithi of Āśvayujaḥ (lu
  nar) month (Sūryodayaḥ/puurvaviddha). Do dānaṃ of dīpam\, light dee
  pam outside the house.<br/><br/>āśvinasyāsite pakṣe trayodaśyāṃ n
  iśāmukhe|  <br/>yamadīpaṃ bahirdadyāt apamṛtyurvinaśyati||  <br/>
-   <br/>mṛtyunā pāśadaṇḍābhyāṃ kālena śyāmayā saha|  <br/>
- trayodaśyāṃ dīpadānāt sūryajaḥ prīyatāṃ mama||<br/><br/><br/
- ><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/ady
- atithi/tree/master/general/lunar_month/tithi/07/28/%28yama%29-dIpa-trayOda
- zI.toml)<br/>- Tags: CommonFestivals
+ mṛtyunā pāśadaṇḍābhyāṃ kālena śyāmayā saha|  <br/>trayoda
+ śyāṃ dīpadānāt sūryajaḥ prīyatāṃ mama||<br/><br/><br/><br/>#
+ # Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/
+ tree/master/general/lunar_month/tithi/07/28/%28yama%29-dIpa-trayOdazI.toml
+ )<br/>- Tags: CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
