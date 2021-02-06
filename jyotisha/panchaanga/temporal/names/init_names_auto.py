@@ -9,7 +9,7 @@ from indic_transliteration import xsanscript as xsanscript
 logging.basicConfig(level=logging.DEBUG,
                     format="%(levelname)s: %(asctime)s {%(filename)s:%(lineno)d}: %(message)s ")
 
-scripts = [xsanscript.HK, xsanscript.IAST, xsanscript.TAMIL, xsanscript.TELUGU, xsanscript.GRANTHA]
+scripts = [xsanscript.HK, xsanscript.IAST, xsanscript.TAMIL, xsanscript.TELUGU, xsanscript.GRANTHA, xsanscript.MALAYALAM]
 
 
 def init_names_auto(fname=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'festival/data/period_names/translation_table.json')):
