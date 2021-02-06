@@ -100,7 +100,7 @@ class VaraFestivalAssigner(FestivalAssigner):
                                                        (22, 1, 'sOmazrAvaNI-puNyakAlaH'),
                                                        (5, 1, 'sOmamRgazIrSa-puNyakAlaH'),
                                                        (1, 2, 'bhaumAzvinI-puNyakAlaH'),
-                                                       # (6, 2, 'bhaumArdrA-puNyakAlaH'),
+                                                       # (6, 2, 'bhaumArdrA-puNyakAlaH'), removed because no pramANam
                                                        (17, 3, 'budhAnurAdhA-puNyakAlaH'),
                                                        (8, 4, 'gurupuSya-puNyakAlaH'),
                                                        (27, 5, 'bhRgurEvatI-puNyakAlaH'),
