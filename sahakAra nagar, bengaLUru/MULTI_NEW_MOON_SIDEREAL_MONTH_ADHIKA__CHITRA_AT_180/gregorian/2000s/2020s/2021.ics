@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210206205915
+SEQUENCE:20210209170539
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -4646,24 +4646,6 @@ DESCRIPTION:Kumbha-Ravi-Saṅkramaṇa-Viṣṇupadī Punyakala. Perform d
  Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tr
  ee/master/time_focus/sankrAnti/description_only/kumbha-ravi-saGkramaNa-viS
  NupadI-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:फड्नवीस्-नाना-जन्म #२७९
-DTSTART;VALUE=DATE:20210212
-DTEND;VALUE=DATE:20210213
-DESCRIPTION:Observed on day 12 of February (gregorian) month. The event oc
- curred in 1742 (Gregorian era).  <br/>birth annivserary of Nana Phadnavis.
-  Held together the Maratha Empire for nearly three decades\, against tough
-  challenges.<br/><br/>## Details<br/>- [Edit config file](https://github.c
- om/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/0
- 2/12/phaDnavIs-nAnA-janma.toml)<br/>- Tags:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
