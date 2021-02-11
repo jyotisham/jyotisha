@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210209170632
+SEQUENCE:20210211062737
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -3815,6 +3815,23 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:चौरि-चौर-दाहः #१०१
+DTSTART;VALUE=DATE:20210204
+DTEND;VALUE=DATE:20210205
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/02/04/chaur
+ i-chaura-dAhaH.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edi
+ t config file](https://github.com/jyotisham/adyatithi/tree/master/mahApuru
+ Sha/xatra-later/gregorian/day/02/04/chauri-chaura-dAhaH.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:पौष-अष्टका-श्राद्धम्
 DTSTART;VALUE=DATE:20210204
 DTEND;VALUE=DATE:20210205
@@ -4322,6 +4339,25 @@ DESCRIPTION:Observed on day 9 of February (gregorian) month. Julian date w
  is day<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyo
  tisham/adyatithi/tree/master/mahApuruSha/later/gregorian/day/02/09/proklas
  -janma.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:शिण्डे महज्ज्या रक्तदुर
+ ्गग्रहणम् #२५०
+DTSTART;VALUE=DATE:20210209
+DTEND;VALUE=DATE:20210210
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/02/09/shiND
+ e-mahadjyA_rakta-durga-grahaNam.toml)<br/>- Tags: <br/><br/><br/><br/>## D
+ etails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tre
+ e/master/mahApuruSha/xatra-later/gregorian/day/02/09/shiNDe-mahadjyA_rakta
+ -durga-grahaNam.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
