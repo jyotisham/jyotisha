@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210211062737
+SEQUENCE:20210214065340
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -4879,12 +4879,11 @@ BEGIN:VEVENT
 SUMMARY:तानाजी-वीर-गतिः #३५१
 DTSTART;VALUE=DATE:20210214
 DTEND;VALUE=DATE:20210215
-DESCRIPTION:Observed on day 14 of February (gregorian) month. Julian date 
- was converted to Gregorian in this reckoning. The event occurred in 1670 (
- Gregorian era).  <br/>tANAji mAlsure capture sinhagad\, scaling the wall w
- ith a lizard and sacrifices his life.<br/><br/>## Details<br/>- [Edit conf
- ig file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xa
- tra-later/gregorian/day/02/14/tAnAjI-vIra-gatiH.toml)<br/>- Tags:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/02/14/tAnAj
+ I-vIra-gatiH.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit 
+ config file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSh
+ a/xatra-later/gregorian/day/02/14/tAnAjI-vIra-gatiH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
