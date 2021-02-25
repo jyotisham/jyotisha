@@ -1,3 +1,4 @@
+import copy
 import logging
 import os
 import sys
@@ -33,7 +34,7 @@ class FestivalAssigner(PeriodicPanchaangaApplier):
         lunar_y_start_d.append(d)
 
     period_start_year = self.panchaanga.start_date.year
-    for festival_name in self.panchaanga.festival_id_to_days:
+    for festival_name in copy.copy(self.panchaanga.festival_id_to_days):
       festival_rule = self.rules_collection.name_to_rule.get(festival_name, None)
       if festival_rule is None:
         continue
@@ -42,7 +43,7 @@ class FestivalAssigner(PeriodicPanchaangaApplier):
         fest_start_year_era = festival_rule.timing.year_start_era
         year_offset = era.get_year_0_offset(fest_start_year_era)
         month_type = festival_rule.timing.month_type
-        for assigned_day in self.panchaanga.festival_id_to_days[festival_name]:
+        for assigned_day in copy.copy(self.panchaanga.festival_id_to_days[festival_name]):
           assigned_day_index = int(assigned_day - self.daily_panchaangas[0].date)
           if month_type == RulesRepo.SIDEREAL_SOLAR_MONTH_DIR:
             fest_num = period_start_year + year_offset - fest_start_year
@@ -66,9 +67,10 @@ class FestivalAssigner(PeriodicPanchaangaApplier):
             fest_num = period_start_year + year_offset - fest_start_year
 
           if fest_num <= 0:
-            logging.warning('Festival %s is only in the future!' % festival_name)
-            # TODO: Delete such "future fests" in such a case. Or ensure that they're not set in the first place.
-          self.panchaanga.date_str_to_panchaanga[assigned_day.get_date_str()].festival_id_to_instance[festival_name].ordinal = fest_num
+            logging.debug('Festival %s is only in the future!' % festival_name)
+            self.panchaanga.delete_festival_date(fest_id=festival_name, date=assigned_day)
+          else:
+            self.panchaanga.date_str_to_panchaanga[assigned_day.get_date_str()].festival_id_to_instance[festival_name].ordinal = fest_num
 
   def cleanup_festivals(self):
     # If tripurotsava coincides with maha kArttikI (kRttikA nakShatram)
