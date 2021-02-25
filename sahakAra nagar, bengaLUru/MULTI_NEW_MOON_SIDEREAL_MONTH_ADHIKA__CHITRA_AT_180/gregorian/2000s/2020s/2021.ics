@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210214065242
+SEQUENCE:20210225175114
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -37849,6 +37849,26 @@ DESCRIPTION:- Indian civil date: 1943-08-05\, Islamic: 1443-03-20 Rabīʿ
  ________________\n- **शूलम्**—उदीची दिक् (
  ►12:26)\; **परिहारः**–क्षीरम्  \n_________
  __________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:कृष्णदेवराय-मरणम् #४९२
+DTSTART;VALUE=DATE:20211027
+DTEND;VALUE=DATE:20211028
+DESCRIPTION:Observed on day 27 of October (gregorian) month. Julian date w
+ as converted to Gregorian in this reckoning. The event occurred in 1529 (G
+ regorian era).  <br/>Great emperor kRShNadevarAya died. An inscription in 
+ Honehalli near Tumkur records this. There was a lunar eclipse on the day. 
+ कार्त्तिक-पूर्णिमा.<br/><br/>## Details<
+ br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/maste
+ r/mahApuruSha/xatra-later/gregorian/day/10/27/kRShNadevarAya-mRtyuH.toml)<
+ br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
