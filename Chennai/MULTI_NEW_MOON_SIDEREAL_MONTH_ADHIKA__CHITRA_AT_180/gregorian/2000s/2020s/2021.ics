@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210228074324
+SEQUENCE:20210228183532
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -6101,12 +6101,12 @@ DTSTART;VALUE=DATE:20210222
 DTEND;VALUE=DATE:20210223
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/tree/master/temples/Odisha/lunar_month/tithi/11/10/sAmba-daza
- mI%20%28sUryapUjA%29.toml)<br/>- Tags: LessCommonFestivals OdishaTempleFes
- tivals<br/><br/><br/><br/>## Details<br/>- References<br/>  - https://hind
- upad.com/samba-dashami-2009-samba-dasami-or-surya-puja-in-orissa/<br/>- [E
- dit config file](https://github.com/jyotisham/adyatithi/tree/master/temple
- s/Odisha/lunar_month/tithi/11/10/sAmba-dazamI%20%28sUryapUjA%29.toml)<br/>
- - Tags: LessCommonFestivals OdishaTempleFestivals
+ mI__sUryapUjA.toml)<br/>- Tags: LessCommonFestivals OdishaTempleFestivals<
+ br/><br/><br/><br/>## Details<br/>- References<br/>  - https://hindupad.co
+ m/samba-dashami-2009-samba-dasami-or-surya-puja-in-orissa/<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/tree/master/temples/Odish
+ a/lunar_month/tithi/11/10/sAmba-dazamI__sUryapUjA.toml)<br/>- Tags: LessCo
+ mmonFestivals OdishaTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12949,6 +12949,23 @@ DESCRIPTION:- Indian civil date: 1943-01-27\, Islamic: 1442-09-05 Ramaḍ
  —13:41-15:13\; **गुलिककालः**—05:58-07:31  \n________
  ___________\n- **शूलम्**—प्राची दिक् (►0
  9:15)\; **परिहारः**–दधि  \n___________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:९८-प्राणकोट-हत्या #२३
+DTSTART;VALUE=DATE:20210417
+DTEND;VALUE=DATE:20210418
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/04/17/98-pr
+ ANakoTe-hatyA.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit
+  config file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruS
+ ha/xatra-later/gregorian/day/04/17/98-prANakoTe-hatyA.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -26394,6 +26411,27 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:२०००-आगस्ट-काश्मीर-हत्या
+  #२१
+DTSTART;VALUE=DATE:20210801
+DTEND;VALUE=DATE:20210802
+DESCRIPTION:Observed on day 1 of August (gregorian) month. The event occur
+ red in 2000 (Gregorian era).  <br/>Total up to 105 or more killed and at l
+ east 62 injured (mostly hindu)\, in five separate coordinated terror attac
+ ks by Islamic terrorists on Aug 1\, 2. The attacks included the pahalgAm b
+ ase camp of amaranAtha shrine\, migrant laborer camps\, and Doda villages.
+ <br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
+ isham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/08/01/au
+ gust-2k-kAshmIra-hatyA.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:लोकमान्य-तिळको दिवं गतः #
  १०१
 DTSTART;VALUE=DATE:20210801
@@ -29850,6 +29888,23 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:शान्ति-कालि-हत्या #२१
+DTSTART;VALUE=DATE:20210827
+DTEND;VALUE=DATE:20210828
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/08/27/shAnt
+ i-kAli-hatyA.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit 
+ config file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSh
+ a/xatra-later/gregorian/day/08/27/shAnti-kAli-hatyA.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:श्रावणः-05-21\,मेषः-अपभरणी🌛
  🌌◢◣सिंहः-मघा-05-12🌌🌞◢◣नभस्यः-
  06-06🪐🌞शनिः
@@ -30918,6 +30973,24 @@ DESCRIPTION:Observed on Āśreṣā nakshatra of Siṃhaḥ (sidereal sola
  ile](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/nAyanA
  r/sidereal_solar_month/nakshatra/05/09/atipatta%20nAyan2Ar%20%2841%29%20gu
  rupUjai.toml)<br/>- Tags: NayanarGurupujai
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:गुज्जर-बिल्लू-वधः #१५
+DTSTART;VALUE=DATE:20210905
+DTEND;VALUE=DATE:20210906
+DESCRIPTION:Observed on day 5 of September (gregorian) month. The event oc
+ curred in 2006 (Gregorian era).  <br/>billU gujjar (Wasim Khan)\, Islamist
+  jihAdI belonging to Hizbul Mujahideen ('Party of Holy Fighters')\, big-ti
+ me murderer of hindus\, was killed.<br/><br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha
+ /xatra-later/gregorian/day/09/05/gujjara-billU-vadhaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -45313,6 +45386,27 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of every (lunar) month (Sūry
  atyanarayana.<br/><br/>## Details<br/>- [Edit config file](https://github.
  com/jyotisham/adyatithi/tree/master/devatA/vaiShNava/lunar_month/tithi/00/
  15/pUrNimA~vratam.toml)<br/>- Tags: MonthlyFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:राम-प्रसाद-हत्या #९४
+DTSTART;VALUE=DATE:20211219
+DTEND;VALUE=DATE:20211220
+DESCRIPTION:Observed on day 19 of December (gregorian) month. The event oc
+ curred in 1927 (Gregorian era).  <br/>On this day\, the Arya-samAjist paND
+ it rAma-prasAd bismil\, a fine revolutionary and urdu/ Hindi poet was murd
+ ered by British in retaliation for the Kakori heist\; as was his protege A
+ shfaqullah Khan.<br/><br/>sarfaroshī kī tamannā ab hamāre dil meñ hai
+   <br/>dekhnā hai zor kitnā bāzū-e-qātil meñ hai<br/><br/><br/>## De
+ tails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree
+ /master/mahApuruSha/xatra-later/gregorian/day/12/19/rAma-prasAda-hatyA.tom
+ l)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
