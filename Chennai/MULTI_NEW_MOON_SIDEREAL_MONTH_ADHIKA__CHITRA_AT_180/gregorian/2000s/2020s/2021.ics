@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210225175213
+SEQUENCE:20210228074324
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -881,10 +881,17 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  rivāsaraḥ is over.<br/><br/>अज्ञानतिमिरान्
  धस्य व्रतेनानेन केशव।  <br/>प्
  रसीद सुमुखो नाथ ज्ञानदृष्ट
- िप्रदो भव॥<br/><br/><br/><br/>## Details<br/>- [Edit con
- fig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/mo
- nthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVrata
- m EkadashiVratam
+ िप्रदो भव॥  <br/>वैद्यनाथदीक्ष
+ ितीये तिथिनिर्णयकाण्डे विष
+ ्णुधर्मे---  <br/>असम्भाष्यांस्
+ तु सम्भाष्य तुलस्यतसिकादलम
+ ्।  <br/>द्वादश्यामच्युतफलम् आ
+ गस्त्यं पत्रमेव वा।   <br/>आमलक
+ ्याः फलं वापि पारणे प्राश्य 
+ शुद्ध्यति॥  <br/><br/><br/><br/><br/>## Details<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
+ _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
+ thlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -2588,6 +2595,23 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:वनधाम-हत्या #२३
+DTSTART;VALUE=DATE:20210125
+DTEND;VALUE=DATE:20210126
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/01/25/Wandh
+ Ama-massacre.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit 
+ config file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSh
+ a/xatra-later/gregorian/day/01/25/WandhAma-massacre.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:हरिवासरः
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210125T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210125T052335
@@ -2596,10 +2620,17 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  rivāsaraḥ is over.<br/><br/>अज्ञानतिमिरान्
  धस्य व्रतेनानेन केशव।  <br/>प्
  रसीद सुमुखो नाथ ज्ञानदृष्ट
- िप्रदो भव॥<br/><br/><br/><br/>## Details<br/>- [Edit con
- fig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/mo
- nthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVrata
- m EkadashiVratam
+ िप्रदो भव॥  <br/>वैद्यनाथदीक्ष
+ ितीये तिथिनिर्णयकाण्डे विष
+ ्णुधर्मे---  <br/>असम्भाष्यांस्
+ तु सम्भाष्य तुलस्यतसिकादलम
+ ्।  <br/>द्वादश्यामच्युतफलम् आ
+ गस्त्यं पत्रमेव वा।   <br/>आमलक
+ ्याः फलं वापि पारणे प्राश्य 
+ शुद्ध्यति॥  <br/><br/><br/><br/><br/>## Details<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
+ _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
+ thlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -2615,6 +2646,23 @@ DESCRIPTION:Observed on Mṛgaśīrṣam nakshatra of Makaraḥ (sidereal
  ig file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/nA
  yanAr/sidereal_solar_month/nakshatra/10/05/kaNNappa%20nAyan2Ar%20%289%29%2
  0gurupUjai.toml)<br/>- Tags: NayanarGurupujai
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:वनधाम-हत्या #२३
+DTSTART;VALUE=DATE:20210125
+DTEND;VALUE=DATE:20210126
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/01/25/marad
+ -massacre.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/x
+ atra-later/gregorian/day/01/25/marad-massacre.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4209,10 +4257,17 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  rivāsaraḥ is over.<br/><br/>अज्ञानतिमिरान्
  धस्य व्रतेनानेन केशव।  <br/>प्
  रसीद सुमुखो नाथ ज्ञानदृष्ट
- िप्रदो भव॥<br/><br/><br/><br/>## Details<br/>- [Edit con
- fig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/mo
- nthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVrata
- m EkadashiVratam
+ िप्रदो भव॥  <br/>वैद्यनाथदीक्ष
+ ितीये तिथिनिर्णयकाण्डे विष
+ ्णुधर्मे---  <br/>असम्भाष्यांस्
+ तु सम्भाष्य तुलस्यतसिकादलम
+ ्।  <br/>द्वादश्यामच्युतफलम् आ
+ गस्त्यं पत्रमेव वा।   <br/>आमलक
+ ्याः फलं वापि पारणे प्राश्य 
+ शुद्ध्यति॥  <br/><br/><br/><br/><br/>## Details<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
+ _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
+ thlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -5639,11 +5694,12 @@ BEGIN:VEVENT
 SUMMARY:नर्मदा-जयन्ती
 DTSTART;VALUE=DATE:20210219
 DTEND;VALUE=DATE:20210220
-DESCRIPTION:Observed on Śukla-Saptamī tithi of Māghaḥ (lunar) month (
- Sūryodayaḥ/puurvaviddha). <br/><br/>## Details<br/>- References<br/>  -
-  http://hindupad.com/narmada-jayanti/<br/>- [Edit config file](https://git
- hub.com/jyotisham/adyatithi/tree/master/devatA/nadI/lunar_month/tithi/11/0
- 7/narmadA~jayantI.toml)<br/>- Tags: OtherJayantis
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/devatA/nadI/lunar_month/tithi/11/07/narmadA~jayan
+ tI.toml)<br/>- Tags: OtherJayantis<br/><br/><br/><br/>## Details<br/>- Ref
+ erences<br/>  - http://hindupad.com/narmada-jayanti/<br/>- [Edit config fi
+ le](https://github.com/jyotisham/adyatithi/tree/master/devatA/nadI/lunar_m
+ onth/tithi/11/07/narmadA~jayantI.toml)<br/>- Tags: OtherJayantis
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6043,14 +6099,14 @@ BEGIN:VEVENT
 SUMMARY:साम्ब-दशमी (सूर्यपूजा)
 DTSTART;VALUE=DATE:20210222
 DTEND;VALUE=DATE:20210223
-DESCRIPTION:Observed on Śukla-Daśamī tithi of Māghaḥ (lunar) month (
- Sūryodayaḥ/puurvaviddha). sāmba\, the son of Sri Krishna\, was cured o
- f leprosy after performing tapaḥ to propitiate Surya Bhagavan.<br/><br/>
- ## Details<br/>- References<br/>  - https://hindupad.com/samba-dashami-200
- 9-samba-dasami-or-surya-puja-in-orissa/<br/>- [Edit config file](https://g
- ithub.com/jyotisham/adyatithi/tree/master/temples/Odisha/lunar_month/tithi
- /11/10/sAmba-dazamI%20%28sUryapUjA%29.toml)<br/>- Tags: LessCommonFestival
- s OdishaTempleFestivals
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/temples/Odisha/lunar_month/tithi/11/10/sAmba-daza
+ mI%20%28sUryapUjA%29.toml)<br/>- Tags: LessCommonFestivals OdishaTempleFes
+ tivals<br/><br/><br/><br/>## Details<br/>- References<br/>  - https://hind
+ upad.com/samba-dashami-2009-samba-dasami-or-surya-puja-in-orissa/<br/>- [E
+ dit config file](https://github.com/jyotisham/adyatithi/tree/master/temple
+ s/Odisha/lunar_month/tithi/11/10/sAmba-dazamI%20%28sUryapUjA%29.toml)<br/>
+ - Tags: LessCommonFestivals OdishaTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6177,10 +6233,17 @@ SUMMARY:सर्व-जया/भैमी-एकादशी
 DTSTART;VALUE=DATE:20210223
 DTEND;VALUE=DATE:20210224
 DESCRIPTION:The Shukla-paksha Ekadashi of māgha month is known as bhaimī
- -ekādaśī.<br/><br/>## Details<br/>- [Edit config file](https://github.c
- om/jyotisham/adyatithi/tree/master/time_focus/monthly/ekAdashI/description
- _only/jayA%20or%20bhaimI-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiV
- ratam
+ -ekādaśī. If this coincides with the nakshatram Punarvasu\, the tithi i
+ s even more special and is known by the appellation jayā.<br/><br/>एक
+ ादश्यां यदा ऋक्षं शुक्लपक्
+ षे पुनर्वसुः।  <br/>नाम्ना सा च 
+ जया ख्याता तिथीनामुत्तमा त
+ िथिः।  <br/>तामुपोष्य नरः पापा
+ न्मुच्यते नात्र संशयः॥  <br/>--प
+ द्मपुराणे  <br/><br/><br/><br/><br/>## Details<br/>- [Ed
+ it config file](https://github.com/jyotisham/adyatithi/tree/master/time_fo
+ cus/monthly/ekAdashI/description_only/jayA%20or%20bhaimI-EkAdazI.toml)<br/
+ >- Tags: MonthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6291,10 +6354,17 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  rivāsaraḥ is over.<br/><br/>अज्ञानतिमिरान्
  धस्य व्रतेनानेन केशव।  <br/>प्
  रसीद सुमुखो नाथ ज्ञानदृष्ट
- िप्रदो भव॥<br/><br/><br/><br/>## Details<br/>- [Edit con
- fig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/mo
- nthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVrata
- m EkadashiVratam
+ िप्रदो भव॥  <br/>वैद्यनाथदीक्ष
+ ितीये तिथिनिर्णयकाण्डे विष
+ ्णुधर्मे---  <br/>असम्भाष्यांस्
+ तु सम्भाष्य तुलस्यतसिकादलम
+ ्।  <br/>द्वादश्यामच्युतफलम् आ
+ गस्त्यं पत्रमेव वा।   <br/>आमलक
+ ्याः फलं वापि पारणे प्राश्य 
+ शुद्ध्यति॥  <br/><br/><br/><br/><br/>## Details<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
+ _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
+ thlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -6497,10 +6567,18 @@ DESCRIPTION:Observed on Śukla-Caturdaśī tithi of Kumbhaḥ (sidereal so
  ुद्रं सुमुखं त्रिनेत्रं जट
  ाधरं पार्वति-वामभागम्।  <br/>स
  दाशिवं रुद्रमनन्तरूपं चिदम
- ्बरेशं हृदि भावयामि॥<br/><br/><br/><br
- />## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatit
- hi/tree/master/temples/Tamil/sidereal_solar_month/tithi/11/14/naTarAjar%20
- mahAbhiSEkam~6.toml)<br/>- Tags: TamilnaduTempleFestivals
+ ्बरेशं हृदि भावयामि॥  <br/>मौल
+ ौ गङ्गा-शशाङ्कौ करचरणतले शी
+ तलाङ्गा भुजङ्गा:  <br/>वामे भाग
+ े दयार्द्रा हिमगिरिदुहिता 
+ चन्दनं सर्वगात्रे।  <br/>इत्थं
+  शीतं प्रभूतं तव कनकसभानाथ स
+ ोढुं क्व शक्ति:  <br/>चित्ते निर
+ ्वेदतप्ते यदि भवति न ते नित्
+ यवासो मदीये॥  <br/><br/><br/><br/><br/>## Details<br
+ />- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/
+ temples/Tamil/sidereal_solar_month/tithi/11/14/naTarAjar%20mahAbhiSEkam~6.
+ toml)<br/>- Tags: TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6725,10 +6803,13 @@ DTSTART;VALUE=DATE:20210227
 DTEND;VALUE=DATE:20210228
 DESCRIPTION:Observed on day 27 of February (gregorian) month. The event oc
  curred in 1931 (Gregorian era).  <br/>chandrashekhara AzAd\, cornered by b
- ritish police in prayAga\, shot himself with his last bullet.<br/><br/>## 
- Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tr
- ee/master/mahApuruSha/xatra-later/gregorian/day/02/27/AzAda-chandrashekhar
- o_mRtaH.toml)<br/>- Tags:
+ ritish police in prayAga (being ratted out by vIrabhadra tivArI)\, shot hi
+ mself with his last bullet. He was commander in chief "Balraj" of Hindusta
+ n Socialist Republic Army\, which included revolutionaries such as Ashfaqu
+ llah Khan and his mentor rAm prasAd bismil.<br/><br/><br/>## Details<br/>-
+  [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/mah
+ ApuruSha/xatra-later/gregorian/day/02/27/AzAda-chandrashekharo_mRtaH.toml)
+ <br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6742,10 +6823,14 @@ SUMMARY:गोध्रा-ज्वालनम् #१९
 DTSTART;VALUE=DATE:20210227
 DTEND;VALUE=DATE:20210228
 DESCRIPTION:Observed on day 27 of February (gregorian) month. The event oc
- curred in 2002 (Gregorian era).  <br/>59 Hindus were burnt to death in god
- hra\, GJ.<br/><br/>## Details<br/>- [Edit config file](https://github.com/
- jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/02/2
- 7/godhrA-jvAlanam.toml)<br/>- Tags:
+ curred in 2002 (Gregorian era).  <br/>A roughly 1k+ strong Muslim mob burn
+ t 59 Hindu pilgrims alive in Godhra\, GJ. Maulvi Husain Haji Ibrahim Umarj
+ i\, the alleged mastermind\, was acquitted due to lack of evidence - thoug
+ h they managed to convict around 31 people\; and the courts termed it a we
+ ll planned attack. Riots followed\, resulting in 1k-2k deaths (~ 75% musli
+ m).<br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/j
+ yotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/02/27
+ /godhrA-jvAlanam.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6797,21 +6882,12 @@ BEGIN:VEVENT
 SUMMARY:कुम्भमाघोत्सवः
 DTSTART;VALUE=DATE:20210227
 DTEND;VALUE=DATE:20210228
-DESCRIPTION:Observed on Maghā nakshatra of Kumbhaḥ (sidereal solar) mon
- th (Sūryodayaḥ/puurvaviddha). कुम्भराशौ सूर्
- ये सति\, खे विपरीतदिशि मघासु 
- च चन्द्रमसि सति पर्वेदम्।<br/>
- <br/>एतादृशे दिने दाक्षायणी दक
- ्षेण लब्धा। गुहेन शिवायोपद
- िष्टश् च प्रणवः। वराहेण पृथ
- िवी चोद्धृता। <br/><br/>कुम्भकोन
- क्षेत्रे स्नानस्य विशेषः। 
- शिवानुग्रहेण तत्र सर्वा अप
- ि नद्यः पापनिवृत्त्याय् आय
- न्ति।<br/><br/><br/>## Details<br/>- [Edit config file](https://
- github.com/jyotisham/adyatithi/tree/master/general/sidereal_solar_month/na
- kshatra/11/10/mAci~magham.toml)<br/>- Tags: TamilnaduTempleFestivals Commo
- nFestivals
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/general/sidereal_solar_month/nakshatra/11/10/mAci
+ ~magham.toml)<br/>- Tags: TamilnaduTempleFestivals CommonFestivals<br/><br
+ /><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/general/sidereal_solar_month/nakshatra/11/10/mAci
+ ~magham.toml)<br/>- Tags: TamilnaduTempleFestivals CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -7710,6 +7786,25 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:२००६-वाराणासी-विस्फोटाः 
+ #१५
+DTSTART;VALUE=DATE:20210307
+DTEND;VALUE=DATE:20210308
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/03/07/vArAN
+ AsI-visphoTAH_2006.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/mahA
+ puruSha/xatra-later/gregorian/day/03/07/vArANAsI-visphoTAH_2006.toml)<br/>
+ - Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:माघः-11-25\,धनुः-पूर्वाषाढा
  🌛🌌◢◣कुम्भः-पूर्वप्रोष्ठप
  दा-11-24🌌🌞◢◣तपस्यः-12-19🪐🌞सोमः
@@ -7870,10 +7965,17 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  rivāsaraḥ is over.<br/><br/>अज्ञानतिमिरान्
  धस्य व्रतेनानेन केशव।  <br/>प्
  रसीद सुमुखो नाथ ज्ञानदृष्ट
- िप्रदो भव॥<br/><br/><br/><br/>## Details<br/>- [Edit con
- fig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/mo
- nthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVrata
- m EkadashiVratam
+ िप्रदो भव॥  <br/>वैद्यनाथदीक्ष
+ ितीये तिथिनिर्णयकाण्डे विष
+ ्णुधर्मे---  <br/>असम्भाष्यांस्
+ तु सम्भाष्य तुलस्यतसिकादलम
+ ्।  <br/>द्वादश्यामच्युतफलम् आ
+ गस्त्यं पत्रमेव वा।   <br/>आमलक
+ ्याः फलं वापि पारणे प्राश्य 
+ शुद्ध्यति॥  <br/><br/><br/><br/><br/>## Details<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
+ _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
+ thlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -9673,6 +9775,23 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:नन्दिमार्गहत्या #१८
+DTSTART;VALUE=DATE:20210323
+DTEND;VALUE=DATE:20210324
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/03/23/nandi
+ mArg-massacre.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit
+  config file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruS
+ ha/xatra-later/gregorian/day/03/23/nandimArg-massacre.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:नन्दिमार्गे २४ पण्डिता ह
  ताः #१८
 DTSTART;VALUE=DATE:20210323
@@ -9876,10 +9995,17 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  rivāsaraḥ is over.<br/><br/>अज्ञानतिमिरान्
  धस्य व्रतेनानेन केशव।  <br/>प्
  रसीद सुमुखो नाथ ज्ञानदृष्ट
- िप्रदो भव॥<br/><br/><br/><br/>## Details<br/>- [Edit con
- fig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/mo
- nthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVrata
- m EkadashiVratam
+ िप्रदो भव॥  <br/>वैद्यनाथदीक्ष
+ ितीये तिथिनिर्णयकाण्डे विष
+ ्णुधर्मे---  <br/>असम्भाष्यांस्
+ तु सम्भाष्य तुलस्यतसिकादलम
+ ्।  <br/>द्वादश्यामच्युतफलम् आ
+ गस्त्यं पत्रमेव वा।   <br/>आमलक
+ ्याः फलं वापि पारणे प्राश्य 
+ शुद्ध्यति॥  <br/><br/><br/><br/><br/>## Details<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
+ _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
+ thlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -11611,10 +11737,17 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  rivāsaraḥ is over.<br/><br/>अज्ञानतिमिरान्
  धस्य व्रतेनानेन केशव।  <br/>प्
  रसीद सुमुखो नाथ ज्ञानदृष्ट
- िप्रदो भव॥<br/><br/><br/><br/>## Details<br/>- [Edit con
- fig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/mo
- nthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVrata
- m EkadashiVratam
+ िप्रदो भव॥  <br/>वैद्यनाथदीक्ष
+ ितीये तिथिनिर्णयकाण्डे विष
+ ्णुधर्मे---  <br/>असम्भाष्यांस्
+ तु सम्भाष्य तुलस्यतसिकादलम
+ ्।  <br/>द्वादश्यामच्युतफलम् आ
+ गस्त्यं पत्रमेव वा।   <br/>आमलक
+ ्याः फलं वापि पारणे प्राश्य 
+ शुद्ध्यति॥  <br/><br/><br/><br/><br/>## Details<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
+ _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
+ thlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -13742,10 +13875,17 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  rivāsaraḥ is over.<br/><br/>अज्ञानतिमिरान्
  धस्य व्रतेनानेन केशव।  <br/>प्
  रसीद सुमुखो नाथ ज्ञानदृष्ट
- िप्रदो भव॥<br/><br/><br/><br/>## Details<br/>- [Edit con
- fig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/mo
- nthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVrata
- m EkadashiVratam
+ िप्रदो भव॥  <br/>वैद्यनाथदीक्ष
+ ितीये तिथिनिर्णयकाण्डे विष
+ ्णुधर्मे---  <br/>असम्भाष्यांस्
+ तु सम्भाष्य तुलस्यतसिकादलम
+ ्।  <br/>द्वादश्यामच्युतफलम् आ
+ गस्त्यं पत्रमेव वा।   <br/>आमलक
+ ्याः फलं वापि पारणे प्राश्य 
+ शुद्ध्यति॥  <br/><br/><br/><br/><br/>## Details<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
+ _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
+ thlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -14684,6 +14824,23 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:२००६-डोडा-हत्या #१५
+DTSTART;VALUE=DATE:20210430
+DTEND;VALUE=DATE:20210501
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/04/30/DoDa-
+ massacre-2006.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit
+  config file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruS
+ ha/xatra-later/gregorian/day/04/30/DoDa-massacre-2006.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:मरुराक्षसस्य सिद्दि-सौत
  स्य वधः #२८५
 DTSTART;VALUE=DATE:20210430
@@ -14949,10 +15106,22 @@ SUMMARY:नटराजर् चित्तिरै ओणम् मह
 DTSTART;VALUE=DATE:20210503
 DTEND;VALUE=DATE:20210504
 DESCRIPTION:Observed on Śravaṇaḥ nakshatra of Meṣaḥ (sidereal sol
- ar) month (Pradoṣaḥ/paraviddha). <br/><br/>## Details<br/>- [Edit conf
- ig file](https://github.com/jyotisham/adyatithi/tree/master/temples/Tamil/
- sidereal_solar_month/nakshatra/01/22/naTarAjar%20cittirai%20ONam%20mahAbhi
- SEkam.toml)<br/>- Tags: TamilnaduTempleFestivals
+ ar) month (Pradoṣaḥ/paraviddha). <br/><br/>कृपासमुद्
+ रं सुमुखं त्रिनेत्रं जटाधर
+ ं पार्वति-वामभागम्।  <br/>सदाश
+ िवं रुद्रमनन्तरूपं चिदम्बर
+ ेशं हृदि भावयामि॥  <br/>मौलौ गङ
+ ्गा-शशाङ्कौ करचरणतले शीतला
+ ङ्गा भुजङ्गा:  <br/>वामे भागे दय
+ ार्द्रा हिमगिरिदुहिता चन्द
+ नं सर्वगात्रे।  <br/>इत्थं शीत
+ ं प्रभूतं तव कनकसभानाथ सोढु
+ ं क्व शक्ति:  <br/>चित्ते निर्वे
+ दतप्ते यदि भवति न ते नित्यवा
+ सो मदीये॥  <br/><br/><br/><br/><br/>## Details<br/>- [Edit
+  config file](https://github.com/jyotisham/adyatithi/tree/master/temples/T
+ amil/sidereal_solar_month/nakshatra/01/22/naTarAjar%20cittirai%20ONam%20ma
+ hAbhiSEkam.toml)<br/>- Tags: TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15267,10 +15436,17 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  rivāsaraḥ is over.<br/><br/>अज्ञानतिमिरान्
  धस्य व्रतेनानेन केशव।  <br/>प्
  रसीद सुमुखो नाथ ज्ञानदृष्ट
- िप्रदो भव॥<br/><br/><br/><br/>## Details<br/>- [Edit con
- fig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/mo
- nthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVrata
- m EkadashiVratam
+ िप्रदो भव॥  <br/>वैद्यनाथदीक्ष
+ ितीये तिथिनिर्णयकाण्डे विष
+ ्णुधर्मे---  <br/>असम्भाष्यांस्
+ तु सम्भाष्य तुलस्यतसिकादलम
+ ्।  <br/>द्वादश्यामच्युतफलम् आ
+ गस्त्यं पत्रमेव वा।   <br/>आमलक
+ ्याः फलं वापि पारणे प्राश्य 
+ शुद्ध्यति॥  <br/><br/><br/><br/><br/>## Details<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
+ _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
+ thlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17404,10 +17580,17 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  rivāsaraḥ is over.<br/><br/>अज्ञानतिमिरान्
  धस्य व्रतेनानेन केशव।  <br/>प्
  रसीद सुमुखो नाथ ज्ञानदृष्ट
- िप्रदो भव॥<br/><br/><br/><br/>## Details<br/>- [Edit con
- fig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/mo
- nthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVrata
- m EkadashiVratam
+ िप्रदो भव॥  <br/>वैद्यनाथदीक्ष
+ ितीये तिथिनिर्णयकाण्डे विष
+ ्णुधर्मे---  <br/>असम्भाष्यांस्
+ तु सम्भाष्य तुलस्यतसिकादलम
+ ्।  <br/>द्वादश्यामच्युतफलम् आ
+ गस्त्यं पत्रमेव वा।   <br/>आमलक
+ ्याः फलं वापि पारणे प्राश्य 
+ शुद्ध्यति॥  <br/><br/><br/><br/><br/>## Details<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
+ _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
+ thlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -18514,31 +18697,12 @@ DTSTART;VALUE=DATE:20210529
 DTEND;VALUE=DATE:20210530
 DESCRIPTION:Observed on day 29 of May (gregorian) month. Julian date was c
  onverted to Gregorian in this reckoning. The event occurred in 1520 (Grego
- rian era).  <br/>kRShNadevarAya smashed the Jihad of the Army of Islam in 
- a great victory at Raichur<br/><br/>## Details<br/>- [Edit config file](ht
- tps://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/g
- regorian/day/05/29/kRShNadevarAyasya_rAyachUru-jayaH.toml)<br/>- Tags:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:कृष्णदेवो रायचूरं जयति #
- ५०१
-DTSTART;VALUE=DATE:20210529
-DTEND;VALUE=DATE:20210530
-DESCRIPTION:Observed on day 29 of May (gregorian) month. Julian date was c
- onverted to Gregorian in this reckoning. The event occurred in 1520 (Grego
  rian era).  <br/> Ismail Adil Shah  of  Muslim  Bijapur  seized  the  fort
- ress  ofRaichur\, southwest of Hyderabad\, then faced asiege by Krishnadev
+ ress of Raichur\, southwest of Hyderabad\, then faced asiege by Krishnadev
  a Raya of Hindu Vijayana-gar. The Bijapuri army was routed and Raichur fel
  l to Krishnadeva Raya.<br/><br/>## Details<br/>- [Edit config file](https:
  //github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/grego
- rian/day/05/29/kRShNadevarAyo_rAyachUraM_yajati.toml)<br/>- Tags:
+ rian/day/05/29/kRShNadevarAyasya_rAyachUru-jayaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -19218,10 +19382,17 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  rivāsaraḥ is over.<br/><br/>अज्ञानतिमिरान्
  धस्य व्रतेनानेन केशव।  <br/>प्
  रसीद सुमुखो नाथ ज्ञानदृष्ट
- िप्रदो भव॥<br/><br/><br/><br/>## Details<br/>- [Edit con
- fig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/mo
- nthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVrata
- m EkadashiVratam
+ िप्रदो भव॥  <br/>वैद्यनाथदीक्ष
+ ितीये तिथिनिर्णयकाण्डे विष
+ ्णुधर्मे---  <br/>असम्भाष्यांस्
+ तु सम्भाष्य तुलस्यतसिकादलम
+ ्।  <br/>द्वादश्यामच्युतफलम् आ
+ गस्त्यं पत्रमेव वा।   <br/>आमलक
+ ्याः फलं वापि पारणे प्राश्य 
+ शुद्ध्यति॥  <br/><br/><br/><br/><br/>## Details<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
+ _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
+ thlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -21195,10 +21366,17 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  rivāsaraḥ is over.<br/><br/>अज्ञानतिमिरान्
  धस्य व्रतेनानेन केशव।  <br/>प्
  रसीद सुमुखो नाथ ज्ञानदृष्ट
- िप्रदो भव॥<br/><br/><br/><br/>## Details<br/>- [Edit con
- fig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/mo
- nthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVrata
- m EkadashiVratam
+ िप्रदो भव॥  <br/>वैद्यनाथदीक्ष
+ ितीये तिथिनिर्णयकाण्डे विष
+ ्णुधर्मे---  <br/>असम्भाष्यांस्
+ तु सम्भाष्य तुलस्यतसिकादलम
+ ्।  <br/>द्वादश्यामच्युतफलम् आ
+ गस्त्यं पत्रमेव वा।   <br/>आमलक
+ ्याः फलं वापि पारणे प्राश्य 
+ शुद्ध्यति॥  <br/><br/><br/><br/><br/>## Details<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
+ _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
+ thlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -22981,10 +23159,17 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  rivāsaraḥ is over.<br/><br/>अज्ञानतिमिरान्
  धस्य व्रतेनानेन केशव।  <br/>प्
  रसीद सुमुखो नाथ ज्ञानदृष्ट
- िप्रदो भव॥<br/><br/><br/><br/>## Details<br/>- [Edit con
- fig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/mo
- nthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVrata
- m EkadashiVratam
+ िप्रदो भव॥  <br/>वैद्यनाथदीक्ष
+ ितीये तिथिनिर्णयकाण्डे विष
+ ्णुधर्मे---  <br/>असम्भाष्यांस्
+ तु सम्भाष्य तुलस्यतसिकादलम
+ ्।  <br/>द्वादश्यामच्युतफलम् आ
+ गस्त्यं पत्रमेव वा।   <br/>आमलक
+ ्याः फलं वापि पारणे प्राश्य 
+ शुद्ध्यति॥  <br/><br/><br/><br/><br/>## Details<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
+ _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
+ thlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -24006,10 +24191,18 @@ SUMMARY:चिदम्बरे नटराजस्य राजसभ
  ायां महाभिषेकः
 DTSTART;VALUE=DATE:20210715
 DTEND;VALUE=DATE:20210716
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/temples/Tamil/relative_event/naTarAjar%20An2i%20t
- irumaJcan2am/offset__00/cidambarE%20naTarAjasya%20rAjasabhAyAM%20mahAbhiSE
- kaH.toml)<br/>- Tags: TamilnaduTempleFestivals
+DESCRIPTION:मौलौ गङ्गा-शशाङ्कौ करच
+ रणतले शीतलाङ्गा भुजङ्गा:  <br/>
+ वामे भागे दयार्द्रा हिमगिर
+ िदुहिता चन्दनं सर्वगात्रे।
+   <br/>इत्थं शीतं प्रभूतं तव कनक
+ सभानाथ सोढुं क्व शक्ति:  <br/>चि
+ त्ते निर्वेदतप्ते यदि भवति 
+ न ते नित्यवासो मदीये॥<br/><br/><br/><b
+ r/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyati
+ thi/tree/master/temples/Tamil/relative_event/naTarAjar%20An2i%20tirumaJcan
+ 2am/offset__00/cidambarE%20naTarAjasya%20rAjasabhAyAM%20mahAbhiSEkaH.toml)
+ <br/>- Tags: TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -24094,10 +24287,18 @@ DESCRIPTION:Observed on Uttaraphalgunī nakshatra of Mithunam (sidereal so
  रं सुमुखं त्रिनेत्रं जटाधर
  ं पार्वति-वामभागम्।  <br/>सदाश
  िवं रुद्रमनन्तरूपं चिदम्बर
- ेशं हृदि भावयामि॥<br/><br/><br/><br/>## Deta
- ils<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/m
- aster/temples/Tamil/sidereal_solar_month/nakshatra/03/12/naTarAjar%20An2i%
- 20tirumaJcan2am.toml)<br/>- Tags: TamilnaduTempleFestivals
+ ेशं हृदि भावयामि॥  <br/>मौलौ गङ
+ ्गा-शशाङ्कौ करचरणतले शीतला
+ ङ्गा भुजङ्गा:  <br/>वामे भागे दय
+ ार्द्रा हिमगिरिदुहिता चन्द
+ नं सर्वगात्रे।  <br/>इत्थं शीत
+ ं प्रभूतं तव कनकसभानाथ सोढु
+ ं क्व शक्ति:  <br/>चित्ते निर्वे
+ दतप्ते यदि भवति न ते नित्यवा
+ सो मदीये॥  <br/><br/><br/><br/><br/>## Details<br/>- [Edit
+  config file](https://github.com/jyotisham/adyatithi/tree/master/temples/T
+ amil/sidereal_solar_month/nakshatra/03/12/naTarAjar%20An2i%20tirumaJcan2am
+ .toml)<br/>- Tags: TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -24838,10 +25039,17 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  rivāsaraḥ is over.<br/><br/>अज्ञानतिमिरान्
  धस्य व्रतेनानेन केशव।  <br/>प्
  रसीद सुमुखो नाथ ज्ञानदृष्ट
- िप्रदो भव॥<br/><br/><br/><br/>## Details<br/>- [Edit con
- fig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/mo
- nthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVrata
- m EkadashiVratam
+ िप्रदो भव॥  <br/>वैद्यनाथदीक्ष
+ ितीये तिथिनिर्णयकाण्डे विष
+ ्णुधर्मे---  <br/>असम्भाष्यांस्
+ तु सम्भाष्य तुलस्यतसिकादलम
+ ्।  <br/>द्वादश्यामच्युतफलम् आ
+ गस्त्यं पत्रमेव वा।   <br/>आमलक
+ ्याः फलं वापि पारणे प्राश्य 
+ शुद्ध्यति॥  <br/><br/><br/><br/><br/>## Details<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
+ _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
+ thlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -26514,10 +26722,17 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  rivāsaraḥ is over.<br/><br/>अज्ञानतिमिरान्
  धस्य व्रतेनानेन केशव।  <br/>प्
  रसीद सुमुखो नाथ ज्ञानदृष्ट
- िप्रदो भव॥<br/><br/><br/><br/>## Details<br/>- [Edit con
- fig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/mo
- nthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVrata
- m EkadashiVratam
+ िप्रदो भव॥  <br/>वैद्यनाथदीक्ष
+ ितीये तिथिनिर्णयकाण्डे विष
+ ्णुधर्मे---  <br/>असम्भाष्यांस्
+ तु सम्भाष्य तुलस्यतसिकादलम
+ ्।  <br/>द्वादश्यामच्युतफलम् आ
+ गस्त्यं पत्रमेव वा।   <br/>आमलक
+ ्याः फलं वापि पारणे प्राश्य 
+ शुद्ध्यति॥  <br/><br/><br/><br/><br/>## Details<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
+ _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
+ thlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -27149,6 +27364,23 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  b.com/jyotisham/adyatithi/tree/master/mahApuruSha/kAnchI-maTha/lunar_month
  /tithi/05/01/kAJcI%2041%20jagadguru%20zrI~gaGgAdharEndra%20sarasvatI%202%2
  0ArAdhanA.toml)<br/>- Tags: KanchiAradhanaDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ककोरि-लुण्ठनम् #९६
+DTSTART;VALUE=DATE:20210809
+DTEND;VALUE=DATE:20210810
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/08/09/kakor
+ i-luNThanam.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha
+ /xatra-later/gregorian/day/08/09/kakori-luNThanam.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -28412,10 +28644,35 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  rivāsaraḥ is over.<br/><br/>अज्ञानतिमिरान्
  धस्य व्रतेनानेन केशव।  <br/>प्
  रसीद सुमुखो नाथ ज्ञानदृष्ट
- िप्रदो भव॥<br/><br/><br/><br/>## Details<br/>- [Edit con
- fig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/mo
- nthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVrata
- m EkadashiVratam
+ िप्रदो भव॥  <br/>वैद्यनाथदीक्ष
+ ितीये तिथिनिर्णयकाण्डे विष
+ ्णुधर्मे---  <br/>असम्भाष्यांस्
+ तु सम्भाष्य तुलस्यतसिकादलम
+ ्।  <br/>द्वादश्यामच्युतफलम् आ
+ गस्त्यं पत्रमेव वा।   <br/>आमलक
+ ्याः फलं वापि पारणे प्राश्य 
+ शुद्ध्यति॥  <br/><br/><br/><br/><br/>## Details<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
+ _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
+ thlyVratam EkadashiVratam
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:तिवारि-कमलेशो हतः #२
+DTSTART;VALUE=DATE:20210819
+DTEND;VALUE=DATE:20210820
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/08/19/tivAr
+ I-kamalesho_hataH.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [
+ Edit config file](https://github.com/jyotisham/adyatithi/tree/master/mahAp
+ uruSha/xatra-later/gregorian/day/08/19/tivArI-kamalesho_hataH.toml)<br/>- 
+ Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -28686,10 +28943,18 @@ DESCRIPTION:Observed on Śukla-Caturdaśī tithi of Siṃhaḥ (sidereal s
  ुद्रं सुमुखं त्रिनेत्रं जट
  ाधरं पार्वति-वामभागम्।  <br/>स
  दाशिवं रुद्रमनन्तरूपं चिदम
- ्बरेशं हृदि भावयामि॥<br/><br/><br/><br
- />## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatit
- hi/tree/master/temples/Tamil/sidereal_solar_month/tithi/05/14/naTarAjar%20
- mahAbhiSEkam~2.toml)<br/>- Tags: TamilnaduTempleFestivals
+ ्बरेशं हृदि भावयामि॥  <br/>मौल
+ ौ गङ्गा-शशाङ्कौ करचरणतले शी
+ तलाङ्गा भुजङ्गा:  <br/>वामे भाग
+ े दयार्द्रा हिमगिरिदुहिता 
+ चन्दनं सर्वगात्रे।  <br/>इत्थं
+  शीतं प्रभूतं तव कनकसभानाथ स
+ ोढुं क्व शक्ति:  <br/>चित्ते निर
+ ्वेदतप्ते यदि भवति न ते नित्
+ यवासो मदीये॥  <br/><br/><br/><br/><br/>## Details<br
+ />- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/
+ temples/Tamil/sidereal_solar_month/tithi/05/14/naTarAjar%20mahAbhiSEkam~2.
+ toml)<br/>- Tags: TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -30352,10 +30617,17 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  rivāsaraḥ is over.<br/><br/>अज्ञानतिमिरान्
  धस्य व्रतेनानेन केशव।  <br/>प्
  रसीद सुमुखो नाथ ज्ञानदृष्ट
- िप्रदो भव॥<br/><br/><br/><br/>## Details<br/>- [Edit con
- fig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/mo
- nthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVrata
- m EkadashiVratam
+ िप्रदो भव॥  <br/>वैद्यनाथदीक्ष
+ ितीये तिथिनिर्णयकाण्डे विष
+ ्णुधर्मे---  <br/>असम्भाष्यांस्
+ तु सम्भाष्य तुलस्यतसिकादलम
+ ्।  <br/>द्वादश्यामच्युतफलम् आ
+ गस्त्यं पत्रमेव वा।   <br/>आमलक
+ ्याः फलं वापि पारणे प्राश्य 
+ शुद्ध्यति॥  <br/><br/><br/><br/><br/>## Details<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
+ _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
+ thlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -32390,10 +32662,17 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  rivāsaraḥ is over.<br/><br/>अज्ञानतिमिरान्
  धस्य व्रतेनानेन केशव।  <br/>प्
  रसीद सुमुखो नाथ ज्ञानदृष्ट
- िप्रदो भव॥<br/><br/><br/><br/>## Details<br/>- [Edit con
- fig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/mo
- nthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVrata
- m EkadashiVratam
+ िप्रदो भव॥  <br/>वैद्यनाथदीक्ष
+ ितीये तिथिनिर्णयकाण्डे विष
+ ्णुधर्मे---  <br/>असम्भाष्यांस्
+ तु सम्भाष्य तुलस्यतसिकादलम
+ ्।  <br/>द्वादश्यामच्युतफलम् आ
+ गस्त्यं पत्रमेव वा।   <br/>आमलक
+ ्याः फलं वापि पारणे प्राश्य 
+ शुद्ध्यति॥  <br/><br/><br/><br/><br/>## Details<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
+ _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
+ thlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -32799,10 +33078,18 @@ DESCRIPTION:Observed on Śukla-Caturdaśī tithi of Kanyā (sidereal solar
  द्रं सुमुखं त्रिनेत्रं जटा
  धरं पार्वति-वामभागम्।  <br/>सद
  ाशिवं रुद्रमनन्तरूपं चिदम्
- बरेशं हृदि भावयामि॥<br/><br/><br/><br/>#
- # Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/
- tree/master/temples/Tamil/sidereal_solar_month/tithi/06/14/naTarAjar%20mah
- AbhiSEkam~3.toml)<br/>- Tags: TamilnaduTempleFestivals
+ बरेशं हृदि भावयामि॥  <br/>मौलौ 
+ गङ्गा-शशाङ्कौ करचरणतले शीत
+ लाङ्गा भुजङ्गा:  <br/>वामे भागे 
+ दयार्द्रा हिमगिरिदुहिता चन
+ ्दनं सर्वगात्रे।  <br/>इत्थं श
+ ीतं प्रभूतं तव कनकसभानाथ सो
+ ढुं क्व शक्ति:  <br/>चित्ते निर्
+ वेदतप्ते यदि भवति न ते नित्य
+ वासो मदीये॥  <br/><br/><br/><br/><br/>## Details<br/>-
+  [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/tem
+ ples/Tamil/sidereal_solar_month/tithi/06/14/naTarAjar%20mahAbhiSEkam~3.tom
+ l)<br/>- Tags: TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -33437,6 +33724,23 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:अक्षरधाम-ज्वालनम् #१९
+DTSTART;VALUE=DATE:20210924
+DTEND;VALUE=DATE:20210925
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/09/24/akSha
+ radhAma-hatyA.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit
+  config file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruS
+ ha/xatra-later/gregorian/day/09/24/akSharadhAma-hatyA.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:गौरी-व्रतम्
 DTSTART;VALUE=DATE:20210924
 DTEND;VALUE=DATE:20210925
@@ -33461,6 +33765,25 @@ DESCRIPTION:Observed on Kṛṣṇa-Tṛtīyā tithi of Bhādrapadaḥ (lu
  nar) month (Sūryodayaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit 
  config file](https://github.com/jyotisham/adyatithi/tree/master/general/lu
  nar_month/tithi/06/18/kajarI~tRtIyA.toml)<br/>- Tags: SpecialVratam
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:लक्ष्मणानन्द-सरस्वती-बल
+ िदानम् #१९
+DTSTART;VALUE=DATE:20210924
+DTEND;VALUE=DATE:20210925
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/09/24/laxma
+ NAnanda-sarasvatI-balidAnam.toml)<br/>- Tags: <br/><br/><br/><br/>## Detai
+ ls<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/ma
+ ster/mahApuruSha/xatra-later/gregorian/day/09/24/laxmaNAnanda-sarasvatI-ba
+ lidAnam.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -34485,10 +34808,17 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  rivāsaraḥ is over.<br/><br/>अज्ञानतिमिरान्
  धस्य व्रतेनानेन केशव।  <br/>प्
  रसीद सुमुखो नाथ ज्ञानदृष्ट
- िप्रदो भव॥<br/><br/><br/><br/>## Details<br/>- [Edit con
- fig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/mo
- nthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVrata
- m EkadashiVratam
+ िप्रदो भव॥  <br/>वैद्यनाथदीक्ष
+ ितीये तिथिनिर्णयकाण्डे विष
+ ्णुधर्मे---  <br/>असम्भाष्यांस्
+ तु सम्भाष्य तुलस्यतसिकादलम
+ ्।  <br/>द्वादश्यामच्युतफलम् आ
+ गस्त्यं पत्रमेव वा।   <br/>आमलक
+ ्याः फलं वापि पारणे प्राश्य 
+ शुद्ध्यति॥  <br/><br/><br/><br/><br/>## Details<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
+ _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
+ thlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -36381,10 +36711,17 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  rivāsaraḥ is over.<br/><br/>अज्ञानतिमिरान्
  धस्य व्रतेनानेन केशव।  <br/>प्
  रसीद सुमुखो नाथ ज्ञानदृष्ट
- िप्रदो भव॥<br/><br/><br/><br/>## Details<br/>- [Edit con
- fig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/mo
- nthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVrata
- m EkadashiVratam
+ िप्रदो भव॥  <br/>वैद्यनाथदीक्ष
+ ितीये तिथिनिर्णयकाण्डे विष
+ ्णुधर्मे---  <br/>असम्भाष्यांस्
+ तु सम्भाष्य तुलस्यतसिकादलम
+ ्।  <br/>द्वादश्यामच्युतफलम् आ
+ गस्त्यं पत्रमेव वा।   <br/>आमलक
+ ्याः फलं वापि पारणे प्राश्य 
+ शुद्ध्यति॥  <br/><br/><br/><br/><br/>## Details<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
+ _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
+ thlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -38381,10 +38718,17 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  rivāsaraḥ is over.<br/><br/>अज्ञानतिमिरान्
  धस्य व्रतेनानेन केशव।  <br/>प्
  रसीद सुमुखो नाथ ज्ञानदृष्ट
- िप्रदो भव॥<br/><br/><br/><br/>## Details<br/>- [Edit con
- fig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/mo
- nthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVrata
- m EkadashiVratam
+ िप्रदो भव॥  <br/>वैद्यनाथदीक्ष
+ ितीये तिथिनिर्णयकाण्डे विष
+ ्णुधर्मे---  <br/>असम्भाष्यांस्
+ तु सम्भाष्य तुलस्यतसिकादलम
+ ्।  <br/>द्वादश्यामच्युतफलम् आ
+ गस्त्यं पत्रमेव वा।   <br/>आमलक
+ ्याः फलं वापि पारणे प्राश्य 
+ शुद्ध्यति॥  <br/><br/><br/><br/><br/>## Details<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
+ _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
+ thlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -40228,10 +40572,17 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  rivāsaraḥ is over.<br/><br/>अज्ञानतिमिरान्
  धस्य व्रतेनानेन केशव।  <br/>प्
  रसीद सुमुखो नाथ ज्ञानदृष्ट
- िप्रदो भव॥<br/><br/><br/><br/>## Details<br/>- [Edit con
- fig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/mo
- nthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVrata
- m EkadashiVratam
+ िप्रदो भव॥  <br/>वैद्यनाथदीक्ष
+ ितीये तिथिनिर्णयकाण्डे विष
+ ्णुधर्मे---  <br/>असम्भाष्यांस्
+ तु सम्भाष्य तुलस्यतसिकादलम
+ ्।  <br/>द्वादश्यामच्युतफलम् आ
+ गस्त्यं पत्रमेव वा।   <br/>आमलक
+ ्याः फलं वापि पारणे प्राश्य 
+ शुद्ध्यति॥  <br/><br/><br/><br/><br/>## Details<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
+ _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
+ thlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -41964,6 +42315,28 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:रघुनाथमन्दिराक्रमणम् २
+ ००२११ #१९
+DTSTART;VALUE=DATE:20211124
+DTEND;VALUE=DATE:20211125
+DESCRIPTION:Observed on day 24 of November (gregorian) month. The event oc
+ curred in 2002 (Gregorian era).  <br/>Two suicide bombers attacked the rAm
+ a temple in Jammu (dating to 1860)\, just a few months after the March att
+ ack. They killed fourteen devotees and injured 45 others. CRPF men Yatindr
+ a Nath Rai\, Assistant Commandant\, Dev Singh\, Head Constable\, E.G. Rao\
+ , Head Constable\, T.A.Singh\, Constable\, and Late K.K. Pandey showed gre
+ at gallantry.<br/><br/><br/>## Details<br/>- [Edit config file](https://gi
+ thub.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian
+ /day/11/24/raghunAth-temple-attack_200203.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:कार्त्तिकः-08-21\,कर्कटः-पुष
  ्यः🌛🌌◢◣वृश्चिकः-अनूराधा-08-1
  0🌌🌞◢◣सहः-09-04🪐🌞गुरुः
@@ -42678,10 +43051,17 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  rivāsaraḥ is over.<br/><br/>अज्ञानतिमिरान्
  धस्य व्रतेनानेन केशव।  <br/>प्
  रसीद सुमुखो नाथ ज्ञानदृष्ट
- िप्रदो भव॥<br/><br/><br/><br/>## Details<br/>- [Edit con
- fig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/mo
- nthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVrata
- m EkadashiVratam
+ िप्रदो भव॥  <br/>वैद्यनाथदीक्ष
+ ितीये तिथिनिर्णयकाण्डे विष
+ ्णुधर्मे---  <br/>असम्भाष्यांस्
+ तु सम्भाष्य तुलस्यतसिकादलम
+ ्।  <br/>द्वादश्यामच्युतफलम् आ
+ गस्त्यं पत्रमेव वा।   <br/>आमलक
+ ्याः फलं वापि पारणे प्राश्य 
+ शुद्ध्यति॥  <br/><br/><br/><br/><br/>## Details<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
+ _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
+ thlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -44421,10 +44801,17 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  rivāsaraḥ is over.<br/><br/>अज्ञानतिमिरान्
  धस्य व्रतेनानेन केशव।  <br/>प्
  रसीद सुमुखो नाथ ज्ञानदृष्ट
- िप्रदो भव॥<br/><br/><br/><br/>## Details<br/>- [Edit con
- fig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/mo
- nthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVrata
- m EkadashiVratam
+ िप्रदो भव॥  <br/>वैद्यनाथदीक्ष
+ ितीये तिथिनिर्णयकाण्डे विष
+ ्णुधर्मे---  <br/>असम्भाष्यांस्
+ तु सम्भाष्य तुलस्यतसिकादलम
+ ्।  <br/>द्वादश्यामच्युतफलम् आ
+ गस्त्यं पत्रमेव वा।   <br/>आमलक
+ ्याः फलं वापि पारणे प्राश्य 
+ शुद्ध्यति॥  <br/><br/><br/><br/><br/>## Details<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
+ _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
+ thlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -46043,10 +46430,17 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  rivāsaraḥ is over.<br/><br/>अज्ञानतिमिरान्
  धस्य व्रतेनानेन केशव।  <br/>प्
  रसीद सुमुखो नाथ ज्ञानदृष्ट
- िप्रदो भव॥<br/><br/><br/><br/>## Details<br/>- [Edit con
- fig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/mo
- nthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVrata
- m EkadashiVratam
+ िप्रदो भव॥  <br/>वैद्यनाथदीक्ष
+ ितीये तिथिनिर्णयकाण्डे विष
+ ्णुधर्मे---  <br/>असम्भाष्यांस्
+ तु सम्भाष्य तुलस्यतसिकादलम
+ ्।  <br/>द्वादश्यामच्युतफलम् आ
+ गस्त्यं पत्रमेव वा।   <br/>आमलक
+ ्याः फलं वापि पारणे प्राश्य 
+ शुद्ध्यति॥  <br/><br/><br/><br/><br/>## Details<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
+ _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
+ thlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
