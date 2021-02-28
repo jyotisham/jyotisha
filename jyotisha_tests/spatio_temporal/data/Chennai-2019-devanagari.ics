@@ -138,10 +138,14 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190102T073625
 DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
  rivāsaraḥ is over.<br/><br/>ajñānatimirāndhasya vratenānena keśava
- |  <br/>prasīda sumukho nātha jñānadṛṣṭiprado bhava||<br/><br/><
- br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/
- adyatithi/tree/master/time_focus/monthly/ekAdashI/description_only/harivAs
- araH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ |  <br/>prasīda sumukho nātha jñānadṛṣṭiprado bhava||  <br/>vaid
+ yanāthadīkṣitīye tithinirṇayakāṇḍe viṣṇudharme---  <br/>as
+ ambhāṣyāṃstu sambhāṣya tulasyatasikādalam|  <br/>dvādaśyāmacy
+ utaphalam āgastyaṃ patrameva vā|   <br/>āmalakyāḥ phalaṃ vāpi p
+ āraṇe prāśya śuddhyati||  <br/><br/><br/><br/><br/>## Details<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
+ _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
+ thlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -187,7 +191,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Undu Madakkaḻir̂R̂An
+SUMMARY:Undu Madakkaḻir̂r̂an
 DTSTART;VALUE=DATE:20190102
 DTEND;VALUE=DATE:20190103
 DESCRIPTION:Observed on day 18 of Dhanuḥ (sidereal solar) month (Sūryod
@@ -969,7 +973,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Kar̂Avaigaḻ Pinchênr̂U
+SUMMARY:Kar̂avaigaḻ Pinchênr̂u
 DTSTART;VALUE=DATE:20190112
 DTEND;VALUE=DATE:20190113
 DESCRIPTION:Observed on day 28 of Dhanuḥ (sidereal solar) month (Sūryod
@@ -1542,10 +1546,14 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190118T040519
 DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
  rivāsaraḥ is over.<br/><br/>ajñānatimirāndhasya vratenānena keśava
- |  <br/>prasīda sumukho nātha jñānadṛṣṭiprado bhava||<br/><br/><
- br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/
- adyatithi/tree/master/time_focus/monthly/ekAdashI/description_only/harivAs
- araH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ |  <br/>prasīda sumukho nātha jñānadṛṣṭiprado bhava||  <br/>vaid
+ yanāthadīkṣitīye tithinirṇayakāṇḍe viṣṇudharme---  <br/>as
+ ambhāṣyāṃstu sambhāṣya tulasyatasikādalam|  <br/>dvādaśyāmacy
+ utaphalam āgastyaṃ patrameva vā|   <br/>āmalakyāḥ phalaṃ vāpi p
+ āraṇe prāśya śuddhyati||  <br/><br/><br/><br/><br/>## Details<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
+ _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
+ thlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -2836,10 +2844,14 @@ DTEND;VALUE=DATE:20190131
 DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
  rivāsaraḥ is over.<br/><br/>ajñānatimirāndhasya vratenānena keśava
- |  <br/>prasīda sumukho nātha jñānadṛṣṭiprado bhava||<br/><br/><
- br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/
- adyatithi/tree/master/time_focus/monthly/ekAdashI/description_only/harivAs
- araH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ |  <br/>prasīda sumukho nātha jñānadṛṣṭiprado bhava||  <br/>vaid
+ yanāthadīkṣitīye tithinirṇayakāṇḍe viṣṇudharme---  <br/>as
+ ambhāṣyāṃstu sambhāṣya tulasyatasikādalam|  <br/>dvādaśyāmacy
+ utaphalam āgastyaṃ patrameva vā|   <br/>āmalakyāḥ phalaṃ vāpi p
+ āraṇe prāśya śuddhyati||  <br/><br/><br/><br/><br/>## Details<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
+ _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
+ thlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4059,11 +4071,12 @@ BEGIN:VEVENT
 SUMMARY:narmadā-jayantī
 DTSTART;VALUE=DATE:20190212
 DTEND;VALUE=DATE:20190213
-DESCRIPTION:Observed on Śukla-Saptamī tithi of Māghaḥ (lunar) month (
- Sūryodayaḥ/puurvaviddha). <br/><br/>## Details<br/>- References<br/>  -
-  http://hindupad.com/narmada-jayanti/<br/>- [Edit config file](https://git
- hub.com/jyotisham/adyatithi/tree/master/devatA/nadI/lunar_month/tithi/11/0
- 7/narmadA~jayantI.toml)<br/>- Tags: OtherJayantis
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/devatA/nadI/lunar_month/tithi/11/07/narmadA~jayan
+ tI.toml)<br/>- Tags: OtherJayantis<br/><br/><br/><br/>## Details<br/>- Ref
+ erences<br/>  - http://hindupad.com/narmada-jayanti/<br/>- [Edit config fi
+ le](https://github.com/jyotisham/adyatithi/tree/master/devatA/nadI/lunar_m
+ onth/tithi/11/07/narmadA~jayantI.toml)<br/>- Tags: OtherJayantis
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4439,14 +4452,14 @@ BEGIN:VEVENT
 SUMMARY:sāmba-daśamī (sūryapūjā)
 DTSTART;VALUE=DATE:20190215
 DTEND;VALUE=DATE:20190216
-DESCRIPTION:Observed on Śukla-Daśamī tithi of Māghaḥ (lunar) month (
- Sūryodayaḥ/puurvaviddha). sāmba\, the son of Sri Krishna\, was cured o
- f leprosy after performing tapaḥ to propitiate Surya Bhagavan.<br/><br/>
- ## Details<br/>- References<br/>  - https://hindupad.com/samba-dashami-200
- 9-samba-dasami-or-surya-puja-in-orissa/<br/>- [Edit config file](https://g
- ithub.com/jyotisham/adyatithi/tree/master/temples/Odisha/lunar_month/tithi
- /11/10/sAmba-dazamI%20%28sUryapUjA%29.toml)<br/>- Tags: LessCommonFestival
- s OdishaTempleFestivals
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/temples/Odisha/lunar_month/tithi/11/10/sAmba-daza
+ mI%20%28sUryapUjA%29.toml)<br/>- Tags: LessCommonFestivals OdishaTempleFes
+ tivals<br/><br/><br/><br/>## Details<br/>- References<br/>  - https://hind
+ upad.com/samba-dashami-2009-samba-dasami-or-surya-puja-in-orissa/<br/>- [E
+ dit config file](https://github.com/jyotisham/adyatithi/tree/master/temple
+ s/Odisha/lunar_month/tithi/11/10/sAmba-dazamI%20%28sUryapUjA%29.toml)<br/>
+ - Tags: LessCommonFestivals OdishaTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4526,10 +4539,14 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190216T162210
 DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
  rivāsaraḥ is over.<br/><br/>ajñānatimirāndhasya vratenānena keśava
- |  <br/>prasīda sumukho nātha jñānadṛṣṭiprado bhava||<br/><br/><
- br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/
- adyatithi/tree/master/time_focus/monthly/ekAdashI/description_only/harivAs
- araH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ |  <br/>prasīda sumukho nātha jñānadṛṣṭiprado bhava||  <br/>vaid
+ yanāthadīkṣitīye tithinirṇayakāṇḍe viṣṇudharme---  <br/>as
+ ambhāṣyāṃstu sambhāṣya tulasyatasikādalam|  <br/>dvādaśyāmacy
+ utaphalam āgastyaṃ patrameva vā|   <br/>āmalakyāḥ phalaṃ vāpi p
+ āraṇe prāśya śuddhyati||  <br/><br/><br/><br/><br/>## Details<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
+ _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
+ thlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -4540,10 +4557,14 @@ SUMMARY:sarva-jayā/bhaimī-ekādaśī
 DTSTART;VALUE=DATE:20190216
 DTEND;VALUE=DATE:20190217
 DESCRIPTION:The Shukla-paksha Ekadashi of māgha month is known as bhaimī
- -ekādaśī.<br/><br/>## Details<br/>- [Edit config file](https://github.c
- om/jyotisham/adyatithi/tree/master/time_focus/monthly/ekAdashI/description
- _only/jayA%20or%20bhaimI-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiV
- ratam
+ -ekādaśī. If this coincides with the nakshatram Punarvasu\, the tithi i
+ s even more special and is known by the appellation jayā.<br/><br/>ekāda
+ śyāṃ yadā ṛkṣaṃ śuklapakṣe punarvasuḥ|  <br/>nāmnā sā c
+ a jayā khyātā tithīnāmuttamā tithiḥ|  <br/>tāmupoṣya naraḥ p
+ āpānmucyate nātra saṃśayaḥ||  <br/>--padmapurāṇe  <br/><br/><br
+ /><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/time_focus/monthly/ekAdashI/description_only/jayA
+ %20or%20bhaimI-EkAdazI.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4839,13 +4860,12 @@ BEGIN:VEVENT
 SUMMARY:Naṭarājar Mahābhiṣekam
 DTSTART;VALUE=DATE:20190218
 DTEND;VALUE=DATE:20190219
-DESCRIPTION:Observed on Śukla-Caturdaśī tithi of Kumbhaḥ (sidereal so
- lar) month (Sūryāstamayaḥ/puurvaviddha). <br/><br/>kṛpāsamudraṃ s
- umukhaṃ trinetraṃ jaṭādharaṃ pārvati-vāmabhāgam|  <br/>sadāś
- ivaṃ rudramanantarūpaṃ cidambareśaṃ hṛdi bhāvayāmi||<br/><br/>
- <br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham
- /adyatithi/tree/master/temples/Tamil/sidereal_solar_month/tithi/11/14/naTa
- rAjar%20mahAbhiSEkam~6.toml)<br/>- Tags: TamilnaduTempleFestivals
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/temples/Tamil/sidereal_solar_month/tithi/11/14/na
+ TarAjar%20mahAbhiSEkam~6.toml)<br/>- Tags: TamilnaduTempleFestivals<br/><b
+ r/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotis
+ ham/adyatithi/tree/master/temples/Tamil/sidereal_solar_month/tithi/11/14/n
+ aTarAjar%20mahAbhiSEkam~6.toml)<br/>- Tags: TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5032,7 +5052,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Tiruchchêndūr Māchit Tiruviḽā Nir̂Aivu
+SUMMARY:Tiruchchêndūr Māchit Tiruviḽā Nir̂aivu
 DTSTART;VALUE=DATE:20190219
 DTEND;VALUE=DATE:20190220
 DESCRIPTION:Observed on Paurṇamāsī tithi of Kumbhaḥ (sidereal solar)
@@ -5138,21 +5158,12 @@ BEGIN:VEVENT
 SUMMARY:kumbhamāghotsavaḥ
 DTSTART;VALUE=DATE:20190220
 DTEND;VALUE=DATE:20190221
-DESCRIPTION:Observed on Maghā nakshatra of Kumbhaḥ (sidereal solar) mon
- th (Sūryodayaḥ/puurvaviddha). कुम्भराशौ सूर्
- ये सति\, खे विपरीतदिशि मघासु 
- च चन्द्रमसि सति पर्वेदम्।<br/>
- <br/>एतादृशे दिने दाक्षायणी दक
- ्षेण लब्धा। गुहेन शिवायोपद
- िष्टश् च प्रणवः। वराहेण पृथ
- िवी चोद्धृता। <br/><br/>कुम्भकोन
- क्षेत्रे स्नानस्य विशेषः। 
- शिवानुग्रहेण तत्र सर्वा अप
- ि नद्यः पापनिवृत्त्याय् आय
- न्ति।<br/><br/><br/>## Details<br/>- [Edit config file](https://
- github.com/jyotisham/adyatithi/tree/master/general/sidereal_solar_month/na
- kshatra/11/10/mAci~magham.toml)<br/>- Tags: TamilnaduTempleFestivals Commo
- nFestivals
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/general/sidereal_solar_month/nakshatra/11/10/mAci
+ ~magham.toml)<br/>- Tags: TamilnaduTempleFestivals CommonFestivals<br/><br
+ /><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/general/sidereal_solar_month/nakshatra/11/10/mAci
+ ~magham.toml)<br/>- Tags: TamilnaduTempleFestivals CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5306,7 +5317,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Êr̂Ipatta Nāyanār (7) Gurupūjai
+SUMMARY:Êr̂ipatta Nāyanār (7) Gurupūjai
 DTSTART;VALUE=DATE:20190222
 DTEND;VALUE=DATE:20190223
 DESCRIPTION:Observed on Hastaḥ nakshatra of Kumbhaḥ (sidereal solar) m
@@ -5861,10 +5872,14 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190302T174340
 DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
  rivāsaraḥ is over.<br/><br/>ajñānatimirāndhasya vratenānena keśava
- |  <br/>prasīda sumukho nātha jñānadṛṣṭiprado bhava||<br/><br/><
- br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/
- adyatithi/tree/master/time_focus/monthly/ekAdashI/description_only/harivAs
- araH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ |  <br/>prasīda sumukho nātha jñānadṛṣṭiprado bhava||  <br/>vaid
+ yanāthadīkṣitīye tithinirṇayakāṇḍe viṣṇudharme---  <br/>as
+ ambhāṣyāṃstu sambhāṣya tulasyatasikādalam|  <br/>dvādaśyāmacy
+ utaphalam āgastyaṃ patrameva vā|   <br/>āmalakyāḥ phalaṃ vāpi p
+ āraṇe prāśya śuddhyati||  <br/><br/><br/><br/><br/>## Details<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
+ _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
+ thlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -7398,17 +7413,21 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190318T020614
 DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
  rivāsaraḥ is over.<br/><br/>ajñānatimirāndhasya vratenānena keśava
- |  <br/>prasīda sumukho nātha jñānadṛṣṭiprado bhava||<br/><br/><
- br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/
- adyatithi/tree/master/time_focus/monthly/ekAdashI/description_only/harivAs
- araH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ |  <br/>prasīda sumukho nātha jñānadṛṣṭiprado bhava||  <br/>vaid
+ yanāthadīkṣitīye tithinirṇayakāṇḍe viṣṇudharme---  <br/>as
+ ambhāṣyāṃstu sambhāṣya tulasyatasikādalam|  <br/>dvādaśyāmacy
+ utaphalam āgastyaṃ patrameva vā|   <br/>āmalakyāḥ phalaṃ vāpi p
+ āraṇe prāśya śuddhyati||  <br/><br/><br/><br/><br/>## Details<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
+ _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
+ thlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Kapālī Ar̂Upattu Mūvar
+SUMMARY:Kapālī Ar̂upattu Mūvar
 DTSTART;VALUE=DATE:20190318
 DTEND;VALUE=DATE:20190319
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -7666,7 +7685,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Kar̂Pagāmbāḻ–Kapālīśvarar Tirukkalyāṇam
+SUMMARY:Kar̂pagāmbāḻ–Kapālīśvarar Tirukkalyāṇam
 DTSTART;VALUE=DATE:20190320
 DTEND;VALUE=DATE:20190321
 DESCRIPTION:Observed on Paurṇamāsī tithi of Mīnaḥ (sidereal solar) 
@@ -7897,7 +7916,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Kapālī Viḍaiyār̂R̂I Tôḍakkam
+SUMMARY:Kapālī Viḍaiyār̂r̂i Tôḍakkam
 DTSTART;VALUE=DATE:20190321
 DTEND;VALUE=DATE:20190322
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -8677,7 +8696,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Kapālī Viḍaiyār̂R̂I Nir̂Aivu
+SUMMARY:Kapālī Viḍaiyār̂r̂i Nir̂aivu
 DTSTART;VALUE=DATE:20190331
 DTEND;VALUE=DATE:20190401
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -8780,10 +8799,14 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190401T124400
 DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
  rivāsaraḥ is over.<br/><br/>ajñānatimirāndhasya vratenānena keśava
- |  <br/>prasīda sumukho nātha jñānadṛṣṭiprado bhava||<br/><br/><
- br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/
- adyatithi/tree/master/time_focus/monthly/ekAdashI/description_only/harivAs
- araH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ |  <br/>prasīda sumukho nātha jñānadṛṣṭiprado bhava||  <br/>vaid
+ yanāthadīkṣitīye tithinirṇayakāṇḍe viṣṇudharme---  <br/>as
+ ambhāṣyāṃstu sambhāṣya tulasyatasikādalam|  <br/>dvādaśyāmacy
+ utaphalam āgastyaṃ patrameva vā|   <br/>āmalakyāḥ phalaṃ vāpi p
+ āraṇe prāśya śuddhyati||  <br/><br/><br/><br/><br/>## Details<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
+ _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
+ thlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -10481,10 +10504,14 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190416T093950
 DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
  rivāsaraḥ is over.<br/><br/>ajñānatimirāndhasya vratenānena keśava
- |  <br/>prasīda sumukho nātha jñānadṛṣṭiprado bhava||<br/><br/><
- br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/
- adyatithi/tree/master/time_focus/monthly/ekAdashI/description_only/harivAs
- araH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ |  <br/>prasīda sumukho nātha jñānadṛṣṭiprado bhava||  <br/>vaid
+ yanāthadīkṣitīye tithinirṇayakāṇḍe viṣṇudharme---  <br/>as
+ ambhāṣyāṃstu sambhāṣya tulasyatasikādalam|  <br/>dvādaśyāmacy
+ utaphalam āgastyaṃ patrameva vā|   <br/>āmalakyāḥ phalaṃ vāpi p
+ āraṇe prāśya śuddhyati||  <br/><br/><br/><br/><br/>## Details<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
+ _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
+ thlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -11149,7 +11176,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Tirukkur̂Ipput Tôṇḍa Nāyanār (18) Gurupūjai
+SUMMARY:Tirukkur̂ipput Tôṇḍa Nāyanār (18) Gurupūjai
 DTSTART;VALUE=DATE:20190420
 DTEND;VALUE=DATE:20190421
 DESCRIPTION:Observed on Svātī nakshatra of Meṣaḥ (sidereal solar) mo
@@ -11610,11 +11637,13 @@ BEGIN:VEVENT
 SUMMARY:Naṭarājar Chittirai Oṇam Mahābhiṣekam
 DTSTART;VALUE=DATE:20190427
 DTEND;VALUE=DATE:20190428
-DESCRIPTION:Observed on Śravaṇaḥ nakshatra of Meṣaḥ (sidereal sol
- ar) month (Pradoṣaḥ/paraviddha). <br/><br/>## Details<br/>- [Edit conf
- ig file](https://github.com/jyotisham/adyatithi/tree/master/temples/Tamil/
- sidereal_solar_month/nakshatra/01/22/naTarAjar%20cittirai%20ONam%20mahAbhi
- SEkam.toml)<br/>- Tags: TamilnaduTempleFestivals
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/temples/Tamil/sidereal_solar_month/nakshatra/01/2
+ 2/naTarAjar%20cittirai%20ONam%20mahAbhiSEkam.toml)<br/>- Tags: TamilnaduTe
+ mpleFestivals<br/><br/><br/><br/>## Details<br/>- [Edit config file](https
+ ://github.com/jyotisham/adyatithi/tree/master/temples/Tamil/sidereal_solar
+ _month/nakshatra/01/22/naTarAjar%20cittirai%20ONam%20mahAbhiSEkam.toml)<br
+ />- Tags: TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11876,10 +11905,14 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190501T064728
 DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
  rivāsaraḥ is over.<br/><br/>ajñānatimirāndhasya vratenānena keśava
- |  <br/>prasīda sumukho nātha jñānadṛṣṭiprado bhava||<br/><br/><
- br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/
- adyatithi/tree/master/time_focus/monthly/ekAdashI/description_only/harivAs
- araH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ |  <br/>prasīda sumukho nātha jñānadṛṣṭiprado bhava||  <br/>vaid
+ yanāthadīkṣitīye tithinirṇayakāṇḍe viṣṇudharme---  <br/>as
+ ambhāṣyāṃstu sambhāṣya tulasyatasikādalam|  <br/>dvādaśyāmacy
+ utaphalam āgastyaṃ patrameva vā|   <br/>āmalakyāḥ phalaṃ vāpi p
+ āraṇe prāśya śuddhyati||  <br/><br/><br/><br/><br/>## Details<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
+ _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
+ thlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -12287,7 +12320,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Chir̂Uttôṇḍa Nāyanār (35) Gurupūjai
+SUMMARY:Chir̂uttôṇḍa Nāyanār (35) Gurupūjai
 DTSTART;VALUE=DATE:20190505
 DTEND;VALUE=DATE:20190506
 DESCRIPTION:Observed on Apabharaṇī nakshatra of Meṣaḥ (sidereal sol
@@ -12832,7 +12865,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Vir̂Anmiṇḍa Nāyanār (5) Gurupūjai
+SUMMARY:Vir̂anmiṇḍa Nāyanār (5) Gurupūjai
 DTSTART;VALUE=DATE:20190509
 DTEND;VALUE=DATE:20190510
 DESCRIPTION:Observed on Ārdrā nakshatra of Meṣaḥ (sidereal solar) mo
@@ -13503,10 +13536,14 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190515T160008
 DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
  rivāsaraḥ is over.<br/><br/>ajñānatimirāndhasya vratenānena keśava
- |  <br/>prasīda sumukho nātha jñānadṛṣṭiprado bhava||<br/><br/><
- br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/
- adyatithi/tree/master/time_focus/monthly/ekAdashI/description_only/harivAs
- araH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ |  <br/>prasīda sumukho nātha jñānadṛṣṭiprado bhava||  <br/>vaid
+ yanāthadīkṣitīye tithinirṇayakāṇḍe viṣṇudharme---  <br/>as
+ ambhāṣyāṃstu sambhāṣya tulasyatasikādalam|  <br/>dvādaśyāmacy
+ utaphalam āgastyaṃ patrameva vā|   <br/>āmalakyāḥ phalaṃ vāpi p
+ āraṇe prāśya śuddhyati||  <br/><br/><br/><br/><br/>## Details<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
+ _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
+ thlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -15028,10 +15065,14 @@ DTEND;VALUE=DATE:20190530
 DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
  rivāsaraḥ is over.<br/><br/>ajñānatimirāndhasya vratenānena keśava
- |  <br/>prasīda sumukho nātha jñānadṛṣṭiprado bhava||<br/><br/><
- br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/
- adyatithi/tree/master/time_focus/monthly/ekAdashI/description_only/harivAs
- araH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ |  <br/>prasīda sumukho nātha jñānadṛṣṭiprado bhava||  <br/>vaid
+ yanāthadīkṣitīye tithinirṇayakāṇḍe viṣṇudharme---  <br/>as
+ ambhāṣyāṃstu sambhāṣya tulasyatasikādalam|  <br/>dvādaśyāmacy
+ utaphalam āgastyaṃ patrameva vā|   <br/>āmalakyāḥ phalaṃ vāpi p
+ āraṇe prāśya śuddhyati||  <br/><br/><br/><br/><br/>## Details<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
+ _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
+ thlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15163,7 +15204,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Kaḽar̂Chiṅga Nāyanār (51) Gurupūjai
+SUMMARY:Kaḽar̂chiṅga Nāyanār (51) Gurupūjai
 DTSTART;VALUE=DATE:20190601
 DTEND;VALUE=DATE:20190602
 DESCRIPTION:Observed on Apabharaṇī nakshatra of Vṛṣabhaḥ (siderea
@@ -16574,10 +16615,14 @@ DTEND;VALUE=DATE:20190613
 DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
  rivāsaraḥ is over.<br/><br/>ajñānatimirāndhasya vratenānena keśava
- |  <br/>prasīda sumukho nātha jñānadṛṣṭiprado bhava||<br/><br/><
- br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/
- adyatithi/tree/master/time_focus/monthly/ekAdashI/description_only/harivAs
- araH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ |  <br/>prasīda sumukho nātha jñānadṛṣṭiprado bhava||  <br/>vaid
+ yanāthadīkṣitīye tithinirṇayakāṇḍe viṣṇudharme---  <br/>as
+ ambhāṣyāṃstu sambhāṣya tulasyatasikādalam|  <br/>dvādaśyāmacy
+ utaphalam āgastyaṃ patrameva vā|   <br/>āmalakyāḥ phalaṃ vāpi p
+ āraṇe prāśya śuddhyati||  <br/><br/><br/><br/><br/>## Details<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
+ _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
+ thlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18019,10 +18064,14 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190629T124116
 DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
  rivāsaraḥ is over.<br/><br/>ajñānatimirāndhasya vratenānena keśava
- |  <br/>prasīda sumukho nātha jñānadṛṣṭiprado bhava||<br/><br/><
- br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/
- adyatithi/tree/master/time_focus/monthly/ekAdashI/description_only/harivAs
- araH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ |  <br/>prasīda sumukho nātha jñānadṛṣṭiprado bhava||  <br/>vaid
+ yanāthadīkṣitīye tithinirṇayakāṇḍe viṣṇudharme---  <br/>as
+ ambhāṣyāṃstu sambhāṣya tulasyatasikādalam|  <br/>dvādaśyāmacy
+ utaphalam āgastyaṃ patrameva vā|   <br/>āmalakyāḥ phalaṃ vāpi p
+ āraṇe prāśya śuddhyati||  <br/><br/><br/><br/><br/>## Details<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
+ _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
+ thlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -18993,10 +19042,14 @@ BEGIN:VEVENT
 SUMMARY:cidambare naṭarājasya rājasabhāyāṃ mahābhiṣekaḥ
 DTSTART;VALUE=DATE:20190708
 DTEND;VALUE=DATE:20190709
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/temples/Tamil/relative_event/naTarAjar%20An2i%20t
- irumaJcan2am/offset__00/cidambarE%20naTarAjasya%20rAjasabhAyAM%20mahAbhiSE
- kaH.toml)<br/>- Tags: TamilnaduTempleFestivals
+DESCRIPTION:maulau gaṅgā-śaśāṅkau karacaraṇatale śītalāṅgā
+  bhujaṅgā:  <br/>vāme bhāge dayārdrā himagiriduhitā candanaṃ sar
+ vagātre|  <br/>itthaṃ śītaṃ prabhūtaṃ tava kanakasabhānātha so
+ ḍhuṃ kva śakti:  <br/>citte nirvedatapte yadi bhavati na te nityavās
+ o madīye||<br/><br/><br/><br/>## Details<br/>- [Edit config file](https:/
+ /github.com/jyotisham/adyatithi/tree/master/temples/Tamil/relative_event/n
+ aTarAjar%20An2i%20tirumaJcan2am/offset__00/cidambarE%20naTarAjasya%20rAjas
+ abhAyAM%20mahAbhiSEkaH.toml)<br/>- Tags: TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -19009,13 +19062,13 @@ BEGIN:VEVENT
 SUMMARY:Naṭarājar Āni Tirumañchanam
 DTSTART;VALUE=DATE:20190708
 DTEND;VALUE=DATE:20190709
-DESCRIPTION:Observed on Uttaraphalgunī nakshatra of Mithunam (sidereal so
- lar) month (Prātaḥ/paraviddha). <br/><br/>kṛpāsamudraṃ sumukhaṃ 
- trinetraṃ jaṭādharaṃ pārvati-vāmabhāgam|  <br/>sadāśivaṃ rud
- ramanantarūpaṃ cidambareśaṃ hṛdi bhāvayāmi||<br/><br/><br/><br/>
- ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
- /tree/master/temples/Tamil/sidereal_solar_month/nakshatra/03/12/naTarAjar%
- 20An2i%20tirumaJcan2am.toml)<br/>- Tags: TamilnaduTempleFestivals
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/temples/Tamil/sidereal_solar_month/nakshatra/03/1
+ 2/naTarAjar%20An2i%20tirumaJcan2am.toml)<br/>- Tags: TamilnaduTempleFestiv
+ als<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.
+ com/jyotisham/adyatithi/tree/master/temples/Tamil/sidereal_solar_month/nak
+ shatra/03/12/naTarAjar%20An2i%20tirumaJcan2am.toml)<br/>- Tags: TamilnaduT
+ empleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -19558,10 +19611,14 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190713T062753
 DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
  rivāsaraḥ is over.<br/><br/>ajñānatimirāndhasya vratenānena keśava
- |  <br/>prasīda sumukho nātha jñānadṛṣṭiprado bhava||<br/><br/><
- br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/
- adyatithi/tree/master/time_focus/monthly/ekAdashI/description_only/harivAs
- araH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ |  <br/>prasīda sumukho nātha jñānadṛṣṭiprado bhava||  <br/>vaid
+ yanāthadīkṣitīye tithinirṇayakāṇḍe viṣṇudharme---  <br/>as
+ ambhāṣyāṃstu sambhāṣya tulasyatasikādalam|  <br/>dvādaśyāmacy
+ utaphalam āgastyaṃ patrameva vā|   <br/>āmalakyāḥ phalaṃ vāpi p
+ āraṇe prāśya śuddhyati||  <br/><br/><br/><br/><br/>## Details<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
+ _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
+ thlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -21029,10 +21086,14 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190729T002845
 DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
  rivāsaraḥ is over.<br/><br/>ajñānatimirāndhasya vratenānena keśava
- |  <br/>prasīda sumukho nātha jñānadṛṣṭiprado bhava||<br/><br/><
- br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/
- adyatithi/tree/master/time_focus/monthly/ekAdashI/description_only/harivAs
- araH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ |  <br/>prasīda sumukho nātha jñānadṛṣṭiprado bhava||  <br/>vaid
+ yanāthadīkṣitīye tithinirṇayakāṇḍe viṣṇudharme---  <br/>as
+ ambhāṣyāṃstu sambhāṣya tulasyatasikādalam|  <br/>dvādaśyāmacy
+ utaphalam āgastyaṃ patrameva vā|   <br/>āmalakyāḥ phalaṃ vāpi p
+ āraṇe prāśya śuddhyati||  <br/><br/><br/><br/><br/>## Details<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
+ _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
+ thlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -21121,7 +21182,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Kūr̂R̂Uva Nāyanār (38) Gurupūjai
+SUMMARY:Kūr̂r̂uva Nāyanār (38) Gurupūjai
 DTSTART;VALUE=DATE:20190730
 DTEND;VALUE=DATE:20190731
 DESCRIPTION:Observed on Ārdrā nakshatra of Karkaṭaḥ (sidereal solar)
@@ -21943,7 +22004,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Pêrumiḽalaik Kur̂Umba Nāyanār (22) Gurupūjai
+SUMMARY:Pêrumiḽalaik Kur̂umba Nāyanār (22) Gurupūjai
 DTSTART;VALUE=DATE:20190806
 DTEND;VALUE=DATE:20190807
 DESCRIPTION:Observed on Citrā nakshatra of Karkaṭaḥ (sidereal solar) 
@@ -22072,7 +22133,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Kaḽar̂Ir̂R̂Ar̂Ivār/Cheramān Pêrumāḻ Nāyanār (36) Gur
+SUMMARY:Kaḽar̂ir̂r̂ar̂ivār/Cheramān Pêrumāḻ Nāyanār (36) Gur
  upūjai
 DTSTART;VALUE=DATE:20190807
 DTEND;VALUE=DATE:20190808
@@ -22523,10 +22584,14 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190811T170823
 DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
  rivāsaraḥ is over.<br/><br/>ajñānatimirāndhasya vratenānena keśava
- |  <br/>prasīda sumukho nātha jñānadṛṣṭiprado bhava||<br/><br/><
- br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/
- adyatithi/tree/master/time_focus/monthly/ekAdashI/description_only/harivAs
- araH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ |  <br/>prasīda sumukho nātha jñānadṛṣṭiprado bhava||  <br/>vaid
+ yanāthadīkṣitīye tithinirṇayakāṇḍe viṣṇudharme---  <br/>as
+ ambhāṣyāṃstu sambhāṣya tulasyatasikādalam|  <br/>dvādaśyāmacy
+ utaphalam āgastyaṃ patrameva vā|   <br/>āmalakyāḥ phalaṃ vāpi p
+ āraṇe prāśya śuddhyati||  <br/><br/><br/><br/><br/>## Details<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
+ _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
+ thlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -23395,7 +23460,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Āvaṇi Ñāyir̂R̂Ukkiḽamai
+SUMMARY:Āvaṇi Ñāyir̂r̂ukkiḽamai
 DTSTART;VALUE=DATE:20190818
 DTEND;VALUE=DATE:20190819
 DESCRIPTION:Do puja to Surya/Suryanamaskaram.<br/><br/>## Details<br/>- [E
@@ -23961,7 +24026,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tiruchchêndūr Murugan Āvaṇit Tiruviḽā Tôḍakkam/Kôḍiy
- er̂R̂Am
+ er̂r̂am
 DTSTART;VALUE=DATE:20190824
 DTEND;VALUE=DATE:20190825
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -23978,7 +24043,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Varagūr Ur̂Iyaḍi Utsavam
+SUMMARY:Varagūr Ur̂iyaḍi Utsavam
 DTSTART;VALUE=DATE:20190824
 DTEND;VALUE=DATE:20190825
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -24093,7 +24158,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Āvaṇi Ñāyir̂R̂Ukkiḽamai
+SUMMARY:Āvaṇi Ñāyir̂r̂ukkiḽamai
 DTSTART;VALUE=DATE:20190825
 DTEND;VALUE=DATE:20190826
 DESCRIPTION:Do puja to Surya/Suryanamaskaram.<br/><br/>## Details<br/>- [E
@@ -24306,10 +24371,14 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190827T103508
 DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
  rivāsaraḥ is over.<br/><br/>ajñānatimirāndhasya vratenānena keśava
- |  <br/>prasīda sumukho nātha jñānadṛṣṭiprado bhava||<br/><br/><
- br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/
- adyatithi/tree/master/time_focus/monthly/ekAdashI/description_only/harivAs
- araH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ |  <br/>prasīda sumukho nātha jñānadṛṣṭiprado bhava||  <br/>vaid
+ yanāthadīkṣitīye tithinirṇayakāṇḍe viṣṇudharme---  <br/>as
+ ambhāṣyāṃstu sambhāṣya tulasyatasikādalam|  <br/>dvādaśyāmacy
+ utaphalam āgastyaṃ patrameva vā|   <br/>āmalakyāḥ phalaṃ vāpi p
+ āraṇe prāśya śuddhyati||  <br/><br/><br/><br/><br/>## Details<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
+ _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
+ thlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -24687,7 +24756,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Iḻaiyānkuḍi Mār̂A Nāyanār (3) Gurupūjai
+SUMMARY:Iḻaiyānkuḍi Mār̂a Nāyanār (3) Gurupūjai
 DTSTART;VALUE=DATE:20190830
 DTEND;VALUE=DATE:20190831
 DESCRIPTION:Observed on Maghā nakshatra of Siṃhaḥ (sidereal solar) mo
@@ -24963,7 +25032,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Āvaṇi Ñāyir̂R̂Ukkiḽamai
+SUMMARY:Āvaṇi Ñāyir̂r̂ukkiḽamai
 DTSTART;VALUE=DATE:20190901
 DTEND;VALUE=DATE:20190902
 DESCRIPTION:Do puja to Surya/Suryanamaskaram.<br/><br/>## Details<br/>- [E
@@ -25386,7 +25455,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Tiruchchêndūr Āvaṇit Tiruviḽā Nir̂Aivu
+SUMMARY:Tiruchchêndūr Āvaṇit Tiruviḽā Nir̂aivu
 DTSTART;VALUE=DATE:20190904
 DTEND;VALUE=DATE:20190905
 DESCRIPTION:Observed on Viśākhā nakshatra of Siṃhaḥ (sidereal solar
@@ -25854,7 +25923,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Āvaṇi Ñāyir̂R̂Ukkiḽamai
+SUMMARY:Āvaṇi Ñāyir̂r̂ukkiḽamai
 DTSTART;VALUE=DATE:20190908
 DTEND;VALUE=DATE:20190909
 DESCRIPTION:Do puja to Surya/Suryanamaskaram.<br/><br/>## Details<br/>- [E
@@ -26121,10 +26190,14 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190910T070218
 DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
  rivāsaraḥ is over.<br/><br/>ajñānatimirāndhasya vratenānena keśava
- |  <br/>prasīda sumukho nātha jñānadṛṣṭiprado bhava||<br/><br/><
- br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/
- adyatithi/tree/master/time_focus/monthly/ekAdashI/description_only/harivAs
- araH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ |  <br/>prasīda sumukho nātha jñānadṛṣṭiprado bhava||  <br/>vaid
+ yanāthadīkṣitīye tithinirṇayakāṇḍe viṣṇudharme---  <br/>as
+ ambhāṣyāṃstu sambhāṣya tulasyatasikādalam|  <br/>dvādaśyāmacy
+ utaphalam āgastyaṃ patrameva vā|   <br/>āmalakyāḥ phalaṃ vāpi p
+ āraṇe prāśya śuddhyati||  <br/><br/><br/><br/><br/>## Details<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
+ _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
+ thlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -26392,13 +26465,12 @@ BEGIN:VEVENT
 SUMMARY:Naṭarājar Mahābhiṣekam
 DTSTART;VALUE=DATE:20190912
 DTEND;VALUE=DATE:20190913
-DESCRIPTION:Observed on Śukla-Caturdaśī tithi of Siṃhaḥ (sidereal s
- olar) month (Sūryāstamayaḥ/puurvaviddha). <br/><br/>kṛpāsamudraṃ 
- sumukhaṃ trinetraṃ jaṭādharaṃ pārvati-vāmabhāgam|  <br/>sadā
- śivaṃ rudramanantarūpaṃ cidambareśaṃ hṛdi bhāvayāmi||<br/><br
- /><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotish
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/tree/master/temples/Tamil/sidereal_solar_month/tithi/05/14/na
- TarAjar%20mahAbhiSEkam~2.toml)<br/>- Tags: TamilnaduTempleFestivals
+ TarAjar%20mahAbhiSEkam~2.toml)<br/>- Tags: TamilnaduTempleFestivals<br/><b
+ r/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotis
+ ham/adyatithi/tree/master/temples/Tamil/sidereal_solar_month/tithi/05/14/n
+ aTarAjar%20mahAbhiSEkam~2.toml)<br/>- Tags: TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -26773,7 +26845,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Āvaṇi Ñāyir̂R̂Ukkiḽamai
+SUMMARY:Āvaṇi Ñāyir̂r̂ukkiḽamai
 DTSTART;VALUE=DATE:20190915
 DTEND;VALUE=DATE:20190916
 DESCRIPTION:Do puja to Surya/Suryanamaskaram.<br/><br/>## Details<br/>- [E
@@ -27775,10 +27847,14 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190925T192520
 DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
  rivāsaraḥ is over.<br/><br/>ajñānatimirāndhasya vratenānena keśava
- |  <br/>prasīda sumukho nātha jñānadṛṣṭiprado bhava||<br/><br/><
- br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/
- adyatithi/tree/master/time_focus/monthly/ekAdashI/description_only/harivAs
- araH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ |  <br/>prasīda sumukho nātha jñānadṛṣṭiprado bhava||  <br/>vaid
+ yanāthadīkṣitīye tithinirṇayakāṇḍe viṣṇudharme---  <br/>as
+ ambhāṣyāṃstu sambhāṣya tulasyatasikādalam|  <br/>dvādaśyāmacy
+ utaphalam āgastyaṃ patrameva vā|   <br/>āmalakyāḥ phalaṃ vāpi p
+ āraṇe prāśya śuddhyati||  <br/><br/><br/><br/><br/>## Details<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
+ _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
+ thlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -29467,10 +29543,14 @@ DTEND;VALUE=DATE:20191009
 DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
  rivāsaraḥ is over.<br/><br/>ajñānatimirāndhasya vratenānena keśava
- |  <br/>prasīda sumukho nātha jñānadṛṣṭiprado bhava||<br/><br/><
- br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/
- adyatithi/tree/master/time_focus/monthly/ekAdashI/description_only/harivAs
- araH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ |  <br/>prasīda sumukho nātha jñānadṛṣṭiprado bhava||  <br/>vaid
+ yanāthadīkṣitīye tithinirṇayakāṇḍe viṣṇudharme---  <br/>as
+ ambhāṣyāṃstu sambhāṣya tulasyatasikādalam|  <br/>dvādaśyāmacy
+ utaphalam āgastyaṃ patrameva vā|   <br/>āmalakyāḥ phalaṃ vāpi p
+ āraṇe prāśya śuddhyati||  <br/><br/><br/><br/><br/>## Details<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
+ _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
+ thlyVratam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -29704,13 +29784,12 @@ BEGIN:VEVENT
 SUMMARY:Naṭarājar Mahābhiṣekam
 DTSTART;VALUE=DATE:20191012
 DTEND;VALUE=DATE:20191013
-DESCRIPTION:Observed on Śukla-Caturdaśī tithi of Kanyā (sidereal solar
- ) month (Sūryāstamayaḥ/puurvaviddha). <br/><br/>kṛpāsamudraṃ sumu
- khaṃ trinetraṃ jaṭādharaṃ pārvati-vāmabhāgam|  <br/>sadāśiva
- ṃ rudramanantarūpaṃ cidambareśaṃ hṛdi bhāvayāmi||<br/><br/><br
- /><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/ad
- yatithi/tree/master/temples/Tamil/sidereal_solar_month/tithi/06/14/naTarAj
- ar%20mahAbhiSEkam~3.toml)<br/>- Tags: TamilnaduTempleFestivals
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/temples/Tamil/sidereal_solar_month/tithi/06/14/na
+ TarAjar%20mahAbhiSEkam~3.toml)<br/>- Tags: TamilnaduTempleFestivals<br/><b
+ r/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotis
+ ham/adyatithi/tree/master/temples/Tamil/sidereal_solar_month/tithi/06/14/n
+ aTarAjar%20mahAbhiSEkam~3.toml)<br/>- Tags: TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -31137,10 +31216,14 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191025T033238
 DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
  rivāsaraḥ is over.<br/><br/>ajñānatimirāndhasya vratenānena keśava
- |  <br/>prasīda sumukho nātha jñānadṛṣṭiprado bhava||<br/><br/><
- br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/
- adyatithi/tree/master/time_focus/monthly/ekAdashI/description_only/harivAs
- araH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ |  <br/>prasīda sumukho nātha jñānadṛṣṭiprado bhava||  <br/>vaid
+ yanāthadīkṣitīye tithinirṇayakāṇḍe viṣṇudharme---  <br/>as
+ ambhāṣyāṃstu sambhāṣya tulasyatasikādalam|  <br/>dvādaśyāmacy
+ utaphalam āgastyaṃ patrameva vā|   <br/>āmalakyāḥ phalaṃ vāpi p
+ āraṇe prāśya śuddhyati||  <br/><br/><br/><br/><br/>## Details<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
+ _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
+ thlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -32787,10 +32870,14 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191108T190000
 DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
  rivāsaraḥ is over.<br/><br/>ajñānatimirāndhasya vratenānena keśava
- |  <br/>prasīda sumukho nātha jñānadṛṣṭiprado bhava||<br/><br/><
- br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/
- adyatithi/tree/master/time_focus/monthly/ekAdashI/description_only/harivAs
- araH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ |  <br/>prasīda sumukho nātha jñānadṛṣṭiprado bhava||  <br/>vaid
+ yanāthadīkṣitīye tithinirṇayakāṇḍe viṣṇudharme---  <br/>as
+ ambhāṣyāṃstu sambhāṣya tulasyatasikādalam|  <br/>dvādaśyāmacy
+ utaphalam āgastyaṃ patrameva vā|   <br/>āmalakyāḥ phalaṃ vāpi p
+ āraṇe prāśya śuddhyati||  <br/><br/><br/><br/><br/>## Details<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
+ _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
+ thlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -33455,7 +33542,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Ninr̂Achīr Nêḍumār̂A Nāyanār (48) Gurupūjai
+SUMMARY:Ninr̂achīr Nêḍumār̂a Nāyanār (48) Gurupūjai
 DTSTART;VALUE=DATE:20191112
 DTEND;VALUE=DATE:20191113
 DESCRIPTION:Observed on Apabharaṇī nakshatra of Tulā (sidereal solar) 
@@ -34062,7 +34149,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Kārttigai Ñāyir̂R̂Ukkiḽamai
+SUMMARY:Kārttigai Ñāyir̂r̂ukkiḽamai
 DTSTART;VALUE=DATE:20191117
 DTEND;VALUE=DATE:20191118
 DESCRIPTION:Do puja to Surya/Suryanamaskaram.<br/><br/>## Details<br/>- [E
@@ -34656,10 +34743,14 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191123T114358
 DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
  rivāsaraḥ is over.<br/><br/>ajñānatimirāndhasya vratenānena keśava
- |  <br/>prasīda sumukho nātha jñānadṛṣṭiprado bhava||<br/><br/><
- br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/
- adyatithi/tree/master/time_focus/monthly/ekAdashI/description_only/harivAs
- araH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ |  <br/>prasīda sumukho nātha jñānadṛṣṭiprado bhava||  <br/>vaid
+ yanāthadīkṣitīye tithinirṇayakāṇḍe viṣṇudharme---  <br/>as
+ ambhāṣyāṃstu sambhāṣya tulasyatasikādalam|  <br/>dvādaśyāmacy
+ utaphalam āgastyaṃ patrameva vā|   <br/>āmalakyāḥ phalaṃ vāpi p
+ āraṇe prāśya śuddhyati||  <br/><br/><br/><br/><br/>## Details<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
+ _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
+ thlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -34760,7 +34851,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Kārttigai Ñāyir̂R̂Ukkiḽamai
+SUMMARY:Kārttigai Ñāyir̂r̂ukkiḽamai
 DTSTART;VALUE=DATE:20191124
 DTEND;VALUE=DATE:20191125
 DESCRIPTION:Do puja to Surya/Suryanamaskaram.<br/><br/>## Details<br/>- [E
@@ -35325,7 +35416,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Chir̂Appuli Nāyanār (34) Gurupūjai
+SUMMARY:Chir̂appuli Nāyanār (34) Gurupūjai
 DTSTART;VALUE=DATE:20191129
 DTEND;VALUE=DATE:20191130
 DESCRIPTION:Observed on Pūrvāṣāḍhā nakshatra of Vṛścikaḥ (sid
@@ -35449,7 +35540,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Kārttigai Ñāyir̂R̂Ukkiḽamai
+SUMMARY:Kārttigai Ñāyir̂r̂ukkiḽamai
 DTSTART;VALUE=DATE:20191201
 DTEND;VALUE=DATE:20191202
 DESCRIPTION:Do puja to Surya/Suryanamaskaram.<br/><br/>## Details<br/>- [E
@@ -36062,17 +36153,21 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191208T145345
 DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
  rivāsaraḥ is over.<br/><br/>ajñānatimirāndhasya vratenānena keśava
- |  <br/>prasīda sumukho nātha jñānadṛṣṭiprado bhava||<br/><br/><
- br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/
- adyatithi/tree/master/time_focus/monthly/ekAdashI/description_only/harivAs
- araH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ |  <br/>prasīda sumukho nātha jñānadṛṣṭiprado bhava||  <br/>vaid
+ yanāthadīkṣitīye tithinirṇayakāṇḍe viṣṇudharme---  <br/>as
+ ambhāṣyāṃstu sambhāṣya tulasyatasikādalam|  <br/>dvādaśyāmacy
+ utaphalam āgastyaṃ patrameva vā|   <br/>āmalakyāḥ phalaṃ vāpi p
+ āraṇe prāśya śuddhyati||  <br/><br/><br/><br/><br/>## Details<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
+ _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
+ thlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Kārttigai Ñāyir̂R̂Ukkiḽamai
+SUMMARY:Kārttigai Ñāyir̂r̂ukkiḽamai
 DTSTART;VALUE=DATE:20191208
 DTEND;VALUE=DATE:20191209
 DESCRIPTION:Do puja to Surya/Suryanamaskaram.<br/><br/>## Details<br/>- [E
@@ -36853,7 +36948,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Kārttigai Ñāyir̂R̂Ukkiḽamai
+SUMMARY:Kārttigai Ñāyir̂r̂ukkiḽamai
 DTSTART;VALUE=DATE:20191215
 DTEND;VALUE=DATE:20191216
 DESCRIPTION:Do puja to Surya/Suryanamaskaram.<br/><br/>## Details<br/>- [E
@@ -37142,7 +37237,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Iyar̂Pagai Nāyanār (2) Gurupūjai
+SUMMARY:Iyar̂pagai Nāyanār (2) Gurupūjai
 DTSTART;VALUE=DATE:20191219
 DTEND;VALUE=DATE:20191220
 DESCRIPTION:Observed on Uttaraphalgunī nakshatra of Dhanuḥ (sidereal so
@@ -37393,17 +37488,21 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191222T205555
 DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  king fast (pāraṇa)\, and is known as harivāsaraḥ. Break fast once ha
  rivāsaraḥ is over.<br/><br/>ajñānatimirāndhasya vratenānena keśava
- |  <br/>prasīda sumukho nātha jñānadṛṣṭiprado bhava||<br/><br/><
- br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/
- adyatithi/tree/master/time_focus/monthly/ekAdashI/description_only/harivAs
- araH.toml)<br/>- Tags: MonthlyVratam EkadashiVratam
+ |  <br/>prasīda sumukho nātha jñānadṛṣṭiprado bhava||  <br/>vaid
+ yanāthadīkṣitīye tithinirṇayakāṇḍe viṣṇudharme---  <br/>as
+ ambhāṣyāṃstu sambhāṣya tulasyatasikādalam|  <br/>dvādaśyāmacy
+ utaphalam āgastyaṃ patrameva vā|   <br/>āmalakyāḥ phalaṃ vāpi p
+ āraṇe prāśya śuddhyati||  <br/><br/><br/><br/><br/>## Details<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
+ _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
+ thlyVratam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Mānakkañchār̂A Nāyanār (11) Gurupūjai
+SUMMARY:Mānakkañchār̂a Nāyanār (11) Gurupūjai
 DTSTART;VALUE=DATE:20191222
 DTEND;VALUE=DATE:20191223
 DESCRIPTION:Observed on Svātī nakshatra of Dhanuḥ (sidereal solar) mon
