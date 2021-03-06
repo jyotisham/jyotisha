@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210306124804
+SEQUENCE:20210306200911
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -4422,6 +4422,25 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:सङ्ग्रामसिंहो हतः #४९३
+DTSTART;VALUE=DATE:20210209
+DTEND;VALUE=DATE:20210210
+DESCRIPTION:Event occured on 1528-02-09 (gregorian). Julian date was conve
+ rted to Gregorian in this reckoning. Shortly after the defeat at khanvA\, 
+ Sangra\, grandson of kumbha\, died on 30 January 1528 in Kalpi\, evidently
+  poisoned by his own chiefs who held his further plans against Babur to be
+  suicidal.<br/><br/><br/>## Details<br/>- [Edit config file](https://githu
+ b.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/da
+ y/02/09/sangrAmasiMho_hataH.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:शिण्डे महज्ज्या रक्तदुर
  ्गग्रहणम् #२५०
 DTSTART;VALUE=DATE:20210209
@@ -8243,6 +8262,23 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:खर्द-युद्धम् #२२६
+DTSTART;VALUE=DATE:20210311
+DTEND;VALUE=DATE:20210312
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/03/11/khard
+ a-yuddham.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/x
+ atra-later/gregorian/day/03/11/kharda-yuddham.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:मासशिवरात्रिः
 DTSTART;VALUE=DATE:20210311
 DTEND;VALUE=DATE:20210312
@@ -9542,6 +9578,25 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:लखपतरायेण शिष्यहत्याः #२
+ ७५
+DTSTART;VALUE=DATE:20210321
+DTEND;VALUE=DATE:20210322
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/03/21/lakha
+ pata-rAyeNa_shiShya-hatyAH.toml)<br/>- Tags: <br/><br/><br/><br/>## Detail
+ s<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/mas
+ ter/mahApuruSha/xatra-later/gregorian/day/03/21/lakhapata-rAyeNa_shiShya-h
+ atyAH.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:शम्भुराजो पीडितो हतश् च #
  ३३२
 DTSTART;VALUE=DATE:20210321
@@ -10170,6 +10225,23 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/tree/master/temples/Tamil/relative_event/kar2pagAmbAL%E2%80%9
  3kapAlIzvarar%20tirukkalyANam/offset__-2/kapAlI%20ar2upattu%20mUvar.toml)<
  br/>- Tags: TamilnaduTempleFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:खन्व-युद्धम् #४९४
+DTSTART;VALUE=DATE:20210326
+DTEND;VALUE=DATE:20210327
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/03/26/khanv
+ a-yuddham.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/x
+ atra-later/gregorian/day/03/26/khanva-yuddham.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
