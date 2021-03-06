@@ -107,21 +107,21 @@ def get_timing_summary(rule):
   angam = ''
   from jyotisha.panchaanga.temporal.festival.rules import RulesRepo
   if rule.timing is not None and rule.timing.month_type is not None:
+    if rule.timing.month_type in ['julian', 'gregorian'] and rule.timing.year_start is not None:
+      blurb = "Event occured on %04d-%02d-%02d (%s). " % (rule.timing.year_start, rule.timing.month_number, rule.timing.anga_number, rule.timing.month_type)
+      if rule.timing.julian_handling is not None:
+        blurb += 'Julian date was %s in this reckoning. ' % (rule.timing.julian_handling)
+      return blurb
     month = ' of %s (%s) month' % (rule.timing.get_month_name_en(script=xsanscript.IAST), rule.timing.month_type.replace("_month", "").replace("_", " "))
   if rule.timing is not None and rule.timing.anga_type is not None:
-    # logging.debug(rule.name)
-    # if rule.name.startswith("ta:"):
-    #   anga = custom_transliteration.tr(rule.name[3:], sanscript.TAMIL).replace("~", " ").strip("{}") + ' is observed on '
-    # else:
-    #   anga = custom_transliteration.tr(rule.name, sanscript.DEVANAGARI).replace("~", " ") + ' is observed on '
-    angam = 'Observed on '
-
     if rule.timing.anga_type in ['tithi', 'yoga', 'nakshatra']:
+      angam = 'Observed on '
       anga_type = AngaType.from_name(name=rule.timing.anga_type)
       angam += '%s %s' % (anga_type.names_dict[sanscript.IAST][rule.timing.anga_number], rule.timing.anga_type)
     elif rule.timing.anga_type == 'day':
+      angam = 'Observed on '
       angam += 'day %d' % rule.timing.anga_number
-  else:
+  else: # No timing or anga_type
     if rule.description is None:
       logging.debug("No anga_type in %s or description even!!", rule.id)
 
@@ -137,8 +137,6 @@ def get_timing_summary(rule):
     else:
       kaala_str = ""
     blurb += "%s. " % kaala_str
-    if rule.timing.julian_handling is not None:
-      blurb += 'Julian date was %s in this reckoning. ' % (rule.timing.julian_handling)
     # logging.debug(blurb)
   if rule.timing.year_start is not None:
     blurb += "The event occurred in %s (%s era).  \n" % (rule.timing.year_start, rule.timing.year_start_era.capitalize())
