@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210228183439
+SEQUENCE:20210306075826
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -3972,6 +3972,24 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:कूपयुद्धे शिष्यहत्या #२५
+ ९
+DTSTART;VALUE=DATE:20210205
+DTEND;VALUE=DATE:20210206
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/02/05/kUpa-
+ yuddham.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit confi
+ g file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xat
+ ra-later/gregorian/day/02/05/kUpa-yuddham.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:पौष-अन्वष्टका-श्राद्धम्
 DTSTART;VALUE=DATE:20210205
 DTEND;VALUE=DATE:20210206
@@ -7178,13 +7196,13 @@ DTSTART;VALUE=DATE:20210301
 DTEND;VALUE=DATE:20210302
 DESCRIPTION:Observed on day 1 of March (gregorian) month. Julian date was 
  converted to Gregorian in this reckoning. The event occurred in 1630 (Greg
- orian era).  <br/>phAlguna k3 I recall the sacred memory of the great rAja
- n shivAji\, about whom bhUShaNa wrote "चारौ वर्ण धर्
- म छोडि कलमा नेवाज पढि सिवाजी
-  न होतो तौ सुनति होत सबकी" 🙏🙏<
- br/> Some dispute it.<br/><br/>## Details<br/>- [Edit config file](https:/
- /github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregor
- ian/day/03/01/shivarAjo_jAtaH.toml)<br/>- Tags:
+ orian era).  <br/>On this day was born the great rAjan shivAjI (It was phA
+ lguna k3)\, about whom bhUShaNa wrote<br/>"चारौ वर्ण ध
+ र्म छोडि  <br/>कलमा नेवाज पढि  <br/>
+ सिवाजी न होतो तौ  <br/>सुनति होत
+  सबकी" 🙏🙏<br/><br/><br/>## Details<br/>- [Edit config file](
+ https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later
+ /gregorian/day/03/01/shivarAjo_jAtaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -7655,13 +7673,11 @@ BEGIN:VEVENT
 SUMMARY:प्रतापरावो हतः #३४७
 DTSTART;VALUE=DATE:20210306
 DTEND;VALUE=DATE:20210307
-DESCRIPTION:Observed on day 6 of March (gregorian) month. Julian date was 
- converted to Gregorian in this reckoning. The event occurred in 1674 (Greg
- orian era).  <br/>Died fighting Bahlul Khan (as ordered by shivAjI) at Nes
- ari. A romantic tale (without evidence) is that pratAprAv rode in heedless
-  after being censured by shivAjI.<br/><br/>## Details<br/>- [Edit config f
- ile](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-
- later/gregorian/day/03/06/pratAparAvo_hataH.toml)<br/>- Tags:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/03/06/pratA
+ parAvo_hataH.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit 
+ config file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSh
+ a/xatra-later/gregorian/day/03/06/pratAparAvo_hataH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15599,6 +15615,25 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:होल्करैः पेशावर-ग्रहणम् 
+ #२६३
+DTSTART;VALUE=DATE:20210508
+DTEND;VALUE=DATE:20210509
+DESCRIPTION:Observed on day 8 of May (gregorian) month. The event occurred
+  in 1758 (Gregorian era).  <br/>Tukoji Rao Holkar defeats the afghAn Durra
+ ni Empire at the Battle of Peshawar. He was left there by raghunAth rAv an
+ d malharrAv holkar.<br/><br/><br/>## Details<br/>- [Edit config file](http
+ s://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gre
+ gorian/day/05/08/holkaraiH_peshAvara-grahaNam.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:शनि-प्रदोष-व्रतम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210508T183240
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210508T191827
@@ -17566,6 +17601,25 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  om/jyotisham/adyatithi/tree/master/time_focus/amrita-siddhi/description_on
  ly/Adityahasta-puNyakAlaH.toml)<br/>- Tags: RareDays Combinations AmritaSi
  ddhiYogaDays
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:बन्दा-शिष्याः छप्परछिर्
+ यां जयन्ति #३११
+DTSTART;VALUE=DATE:20210523
+DTEND;VALUE=DATE:20210524
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/05/23/bandA
+ -shiShyAH_chappar-chiryAM_jayanti.toml)<br/>- Tags: <br/><br/><br/><br/>##
+  Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/t
+ ree/master/mahApuruSha/xatra-later/gregorian/day/05/23/bandA-shiShyAH_chap
+ par-chiryAM_jayanti.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -21167,6 +21221,23 @@ DESCRIPTION:Rukmini Satyabhama sahita Krishna are taken out on the plava.<
  adyatithi/tree/master/temples/Andhra/relative_event/alarmElmaGgApurE%20pla
  vOtsava-samApanam/offset__-4/alarmElmaGgApurE%20plavOtsava-ArambhaH.toml)<
  br/>- Tags: AndhraTempleFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:बन्दा-हत्या #३०५
+DTSTART;VALUE=DATE:20210620
+DTEND;VALUE=DATE:20210621
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/06/20/bandA
+ -hatyA.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit config
+  file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatr
+ a-later/gregorian/day/06/20/bandA-hatyA.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
