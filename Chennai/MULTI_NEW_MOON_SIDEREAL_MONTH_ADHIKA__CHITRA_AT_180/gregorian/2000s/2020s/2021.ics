@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210306075917
+SEQUENCE:20210306124804
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -452,12 +452,15 @@ SUMMARY:आनन्दपालो गर्जनमहामदेन
  जितः #१०१३
 DTSTART;VALUE=DATE:20210106
 DTEND;VALUE=DATE:20210107
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/01/06/Anand
- apAla-parAjitiH.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Ed
- it config file](https://github.com/jyotisham/adyatithi/tree/master/mahApur
- uSha/xatra-later/gregorian/day/01/06/AnandapAla-parAjitiH.toml)<br/>- Tags
- :
+DESCRIPTION:Event occured on 1008-01-06 (gregorian). Julian date was conve
+ rted to Gregorian in this reckoning. Mahmud of ghazni  met  a  large  Hind
+ u force under Prince Anandpal at the same site as two years earlier. Mahmu
+ d’s Muslims dispersed the Hindu war-elephants and inflicted a decisive d
+ efeat  in  battle  at  Waihand\,  near  Peshawar. The Afghan’s subsequen
+ t invasions  ravaged  much  of  northern  India.<br/><br/>## Details<br/>-
+  [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/mah
+ ApuruSha/xatra-later/gregorian/day/01/06/AnandapAla-parAjitiH.toml)<br/>- 
+ Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -607,12 +610,12 @@ SUMMARY:शिवराजेन रुस्तम्-जमानॊ ध
  ्वस्तः #३६२
 DTSTART;VALUE=DATE:20210107
 DTEND;VALUE=DATE:20210108
-DESCRIPTION:Observed on day 7 of January (gregorian) month. Julian date wa
- s converted to Gregorian in this reckoning. The event occurred in 1659 (Gr
- egorian era).  <br/>Shivaji defeated Rustam-i Zaman in an epic battle foug
- ht near Kolhapur.<br/><br/>## Details<br/>- [Edit config file](https://git
- hub.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/
- day/01/07/shivAjI_vs_rustam-zamAn.toml)<br/>- Tags: Shivaji
+DESCRIPTION:Event occured on 1659-01-07 (gregorian). Julian date was conve
+ rted to Gregorian in this reckoning. Shivaji defeated Rustam-i Zaman in an
+  epic battle fought near Kolhapur.<br/><br/>## Details<br/>- [Edit config 
+ file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra
+ -later/gregorian/day/01/07/shivAjI_vs_rustam-zamAn.toml)<br/>- Tags: Shiva
+ ji
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -782,12 +785,11 @@ SUMMARY:प्रवासि-भारतीय-दिवसम् #१
  ८
 DTSTART;VALUE=DATE:20210109
 DTEND;VALUE=DATE:20210110
-DESCRIPTION:Observed on day 9 of January (gregorian) month. The event occu
- rred in 2003 (Gregorian era).  <br/>The date was originally picked to coin
- cide with MK Gandhi's return from Africa in 1915.<br/><br/>## Details<br/>
- - [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/ma
- hApuruSha/later/gregorian/day/01/09/pravAsi-bhAratIya-divasam.toml)<br/>- 
- Tags:
+DESCRIPTION:Event occured on 2003-01-09 (gregorian). The date was original
+ ly picked to coincide with MK Gandhi's return from Africa in 1915.<br/><br
+ />## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatit
+ hi/tree/master/mahApuruSha/later/gregorian/day/01/09/pravAsi-bhAratIya-div
+ asam.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1559,15 +1561,14 @@ SUMMARY:पानीयपथे पराजितिर् हिन्
  दुकानाम् #२६०
 DTSTART;VALUE=DATE:20210114
 DTEND;VALUE=DATE:20210115
-DESCRIPTION:Observed on day 14 of January (gregorian) month. The event occ
- urred in 1761 (Gregorian era).  <br/>Sad anniversary of 3rd battle of pAnI
- pat where ahmed shAh abdAli defeated the starving\, outmaneouvred\, civili
- an heavy Maratha forces under the 31 yr old sadAshivarAv bhAu with the bol
- d 19 year old vishvAs rAv\, with cataclysmic effects accross India (includ
- ing the loss of star generals and rise of Hyder ali).<br/><br/>## Details<
- br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/maste
- r/mahApuruSha/xatra-later/gregorian/day/01/14/pAnIyapathe_parAjitir_hinduk
- AnAm.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 1761-01-14 (gregorian). Sad anniversary of 3r
+ d battle of pAnIpat where ahmed shAh abdAli defeated the starving\, outman
+ eouvred\, civilian heavy Maratha forces under the 31 yr old sadAshivarAv b
+ hAu with the bold 19 year old vishvAs rAv\, with cataclysmic effects accro
+ ss India (including the loss of star generals and rise of Hyder ali).<br/>
+ <br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adya
+ tithi/tree/master/mahApuruSha/xatra-later/gregorian/day/01/14/pAnIyapathe_
+ parAjitir_hindukAnAm.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1686,11 +1687,10 @@ SUMMARY:शिवराजो माहुलीं जयति #३६
  ३
 DTSTART;VALUE=DATE:20210115
 DTEND;VALUE=DATE:20210116
-DESCRIPTION:Observed on day 15 of January (gregorian) month. Julian date w
- as converted to Gregorian in this reckoning. The event occurred in 1658 (G
- regorian era).  <br/><br/><br/>## Details<br/>- [Edit config file](https:/
- /github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregor
- ian/day/01/15/shivarAjo_mAhulIM_jayati.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 1658-01-15 (gregorian). Julian date was conve
+ rted to Gregorian in this reckoning. <br/><br/>## Details<br/>- [Edit conf
+ ig file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xa
+ tra-later/gregorian/day/01/15/shivarAjo_mAhulIM_jayati.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2694,11 +2694,14 @@ BEGIN:VEVENT
 SUMMARY:उम्बेरखिण्ड-युद्धम् #३६०
 DTSTART;VALUE=DATE:20210125
 DTEND;VALUE=DATE:20210126
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/01/25/umber
- khiND-yuddham.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit
-  config file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruS
- ha/xatra-later/gregorian/day/01/25/umberkhiND-yuddham.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 1661-01-25 (gregorian). Julian date was conve
+ rted to Gregorian in this reckoning. shivAjI with his 3000 men ambushes an
+ d defeats 30k Mughals led by kartalab khan and Rai Bagan (sAvitrIbAI\, roy
+ al tigress). After an hour or two\,  kartalab khan surrendered and was ran
+ somed off as adviced by sAvitrIbAI (who praised and knew shivAjI's nature)
+ . Date is as per one accepted by Mehendale.<br/><br/>## Details<br/>- [Edi
+ t config file](https://github.com/jyotisham/adyatithi/tree/master/mahApuru
+ Sha/xatra-later/gregorian/day/01/25/umberkhiND-yuddham.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3564,11 +3567,11 @@ SUMMARY:मैसूरु-कृष्ण-राजस्याभिष
  ेकः #१२६
 DTSTART;VALUE=DATE:20210201
 DTEND;VALUE=DATE:20210202
-DESCRIPTION:Observed on day 1 of February (gregorian) month. The event occ
- urred in 1895 (Gregorian era).  <br/>4th kRShNa-rAja-vaDiya\, rAjarShi\, a
- scends the throne<br/><br/>## Details<br/>- [Edit config file](https://git
- hub.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/
- day/02/01/maisUru-kRShNa-rAjasyAbhiShekaH.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 1895-02-01 (gregorian). 4th kRShNa-rAja-vaDiy
+ a\, rAjarShi\, ascends the throne<br/><br/>## Details<br/>- [Edit config f
+ ile](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-
+ later/gregorian/day/02/01/maisUru-kRShNa-rAjasyAbhiShekaH.toml)<br/>- Tags
+ :
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3655,12 +3658,11 @@ BEGIN:VEVENT
 SUMMARY:शाहाजी-मृत्युः #३५७
 DTSTART;VALUE=DATE:20210202
 DTEND;VALUE=DATE:20210203
-DESCRIPTION:Observed on day 2 of February (gregorian) month. Julian date w
- as converted to Gregorian in this reckoning. The event occurred in 1664 (G
- regorian era).  <br/>shAhaji father of shivAjI died<br/><br/>## Details<br
- />- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/
- mahApuruSha/xatra-later/gregorian/day/02/02/shAhAjI-mRtyuH.toml)<br/>- Tag
- s:
+DESCRIPTION:Event occured on 1664-02-02 (gregorian). Julian date was conve
+ rted to Gregorian in this reckoning. shAhaji father of shivAjI died<br/><b
+ r/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyati
+ thi/tree/master/mahApuruSha/xatra-later/gregorian/day/02/02/shAhAjI-mRtyuH
+ .toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3673,13 +3675,13 @@ BEGIN:VEVENT
 SUMMARY:तालिकोट-युद्धम् #४५६
 DTSTART;VALUE=DATE:20210202
 DTEND;VALUE=DATE:20210203
-DESCRIPTION:Observed on day 2 of February (gregorian) month. Julian date w
- as converted to Gregorian in this reckoning. The event occurred in 1565 (G
- regorian era).  <br/>battle of tAlikoTa. jihAdi forces won a major victory
-  against the forces of vijayanagara and beheaded rAmarAya - thanks suppose
- dly in part to betrayal by two muslim generals.<br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/mahA
- puruSha/xatra-later/gregorian/day/02/02/tAlikoTa-yuddham.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 1565-02-02 (gregorian). Julian date was conve
+ rted to Gregorian in this reckoning. battle of tAlikoTa. jihAdi forces won
+  a major victory against the forces of vijayanagara and beheaded rAmarAya 
+ - thanks supposedly in part to betrayal by two muslim generals.<br/><br/>#
+ # Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/
+ tree/master/mahApuruSha/xatra-later/gregorian/day/02/02/tAlikoTa-yuddham.t
+ oml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3972,8 +3974,8 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:कूपयुद्धे शिष्यहत्या #२५
- ९
+SUMMARY:कूपयुद्धे वृद्धा शिष्यह
+ त्या #२५९
 DTSTART;VALUE=DATE:20210205
 DTEND;VALUE=DATE:20210206
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -4406,12 +4408,11 @@ BEGIN:VEVENT
 SUMMARY:प्रोक्लस्-जन्म #१६०९
 DTSTART;VALUE=DATE:20210209
 DTEND;VALUE=DATE:20210210
-DESCRIPTION:Observed on day 9 of February (gregorian) month. Julian date w
- as converted to Gregorian in this reckoning. The event occurred in 412 (Gr
- egorian era).  <br/>Roman Polytheist Platonist sage Proclus was born on th
- is day<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyo
- tisham/adyatithi/tree/master/mahApuruSha/later/gregorian/day/02/09/proklas
- -janma.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 0412-02-09 (gregorian). Julian date was conve
+ rted to Gregorian in this reckoning. Roman Polytheist Platonist sage Procl
+ us was born on this day<br/><br/>## Details<br/>- [Edit config file](https
+ ://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/later/gregorian/
+ day/02/09/proklas-janma.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5320,12 +5321,11 @@ SUMMARY:भारतीय-नौ-सैनिक-विद्रोहः
   #७५
 DTSTART;VALUE=DATE:20210217
 DTEND;VALUE=DATE:20210218
-DESCRIPTION:Observed on day 17 of February (gregorian) month. The event oc
- curred in 1946 (Gregorian era).  <br/>sailors of Royal Indian Navy revolte
- d against British rule in Bombay Declared themselves as Indian National Na
- vy<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/02/17/bhAra
- tIya-nau-sainika-vidrohaH.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 1946-02-17 (gregorian). sailors of Royal Indi
+ an Navy revolted against British rule in Bombay Declared themselves as Ind
+ ian National Navy<br/><br/>## Details<br/>- [Edit config file](https://git
+ hub.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/
+ day/02/17/bhAratIya-nau-sainika-vidrohaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5359,12 +5359,11 @@ BEGIN:VEVENT
 SUMMARY:फड्के-वासुदेवो मृतः #१३८
 DTSTART;VALUE=DATE:20210217
 DTEND;VALUE=DATE:20210218
-DESCRIPTION:Observed on day 17 of February (gregorian) month. The event oc
- curred in 1883 (Gregorian era).  <br/>On this day died the selfless patrio
- t Vasudev Balwant Phadke\, who single handedly tried to resist the might o
- f British Empire.<br/><br/>## Details<br/>- [Edit config file](https://git
- hub.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/
- day/02/17/phaDke-vAsudevo_mRtaH.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 1883-02-17 (gregorian). On this day died the 
+ selfless patriot Vasudev Balwant Phadke\, who single handedly tried to res
+ ist the might of British Empire.<br/><br/>## Details<br/>- [Edit config fi
+ le](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-l
+ ater/gregorian/day/02/17/phaDke-vAsudevo_mRtaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5582,11 +5581,10 @@ SUMMARY:आङ्ग्लेया भारतत्यागम् अ
  घोषयन् #७५
 DTSTART;VALUE=DATE:20210219
 DTEND;VALUE=DATE:20210220
-DESCRIPTION:Observed on day 19 of February (gregorian) month. The event oc
- curred in 1946 (Gregorian era).  <br/>British announced they will leave In
- dia<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotis
- ham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/02/19/Angl
- eyA_bhAratatyAgam_aghoShayan.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 1946-02-19 (gregorian). British announced the
+ y will leave India<br/><br/>## Details<br/>- [Edit config file](https://gi
+ thub.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian
+ /day/02/19/AngleyA_bhAratatyAgam_aghoShayan.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5676,11 +5674,10 @@ SUMMARY:गोल्वाल्कर-माधवो जातः #१
  १५
 DTSTART;VALUE=DATE:20210219
 DTEND;VALUE=DATE:20210220
-DESCRIPTION:Observed on day 19 of February (gregorian) month. The event oc
- curred in 1906 (Gregorian era).  <br/>Madhav Sadashiv Golwalkar\, 2nd RSS 
- head\, born.<br/><br/>## Details<br/>- [Edit config file](https://github.c
- om/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/0
- 2/19/golvAlkara-mAdhavo_jAtaH.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 1906-02-19 (gregorian). Madhav Sadashiv Golwa
+ lkar\, 2nd RSS head\, born.<br/><br/>## Details<br/>- [Edit config file](h
+ ttps://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/
+ gregorian/day/02/19/golvAlkara-mAdhavo_jAtaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6704,14 +6701,13 @@ SUMMARY:सावर्कर-वीरस्य प्रायोपव
  ेशः #५५
 DTSTART;VALUE=DATE:20210226
 DTEND;VALUE=DATE:20210227
-DESCRIPTION:Observed on day 26 of February (gregorian) month. The event oc
- curred in 1966 (Gregorian era).  <br/>On this day\, vIra sAvarkara fasted 
- to death (unlike dramabaazi seen in recent years). Besides inspiring the l
- ikes of rAjaguru and madana lAla Dhingra\, he worked for hindu recruitment
-  into british military\, which proved crucial during the partition.<br/><b
- r/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyati
- thi/tree/master/mahApuruSha/xatra-later/gregorian/day/02/26/sAvarkara-vIra
- sya_prAyopaveshaH.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 1966-02-26 (gregorian). On this day\, vIra sA
+ varkara fasted to death (unlike dramabaazi seen in recent years). Besides 
+ inspiring the likes of rAjaguru and madana lAla Dhingra\, he worked for hi
+ ndu recruitment into british military\, which proved crucial during the pa
+ rtition.<br/><br/>## Details<br/>- [Edit config file](https://github.com/j
+ yotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/02/26
+ /sAvarkara-vIrasya_prAyopaveshaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6819,15 +6815,14 @@ SUMMARY:आज़ाद-चन्द्रशेखरो मृतः #९
  ०
 DTSTART;VALUE=DATE:20210227
 DTEND;VALUE=DATE:20210228
-DESCRIPTION:Observed on day 27 of February (gregorian) month. The event oc
- curred in 1931 (Gregorian era).  <br/>chandrashekhara AzAd\, cornered by b
- ritish police in prayAga (being ratted out by vIrabhadra tivArI)\, shot hi
- mself with his last bullet. He was commander in chief "Balraj" of Hindusta
- n Socialist Republic Army\, which included revolutionaries such as Ashfaqu
- llah Khan and his mentor rAm prasAd bismil.<br/><br/><br/>## Details<br/>-
-  [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/mah
- ApuruSha/xatra-later/gregorian/day/02/27/AzAda-chandrashekharo_mRtaH.toml)
- <br/>- Tags:
+DESCRIPTION:Event occured on 1931-02-27 (gregorian). chandrashekhara AzAd\
+ , cornered by british police in prayAga (being ratted out by vIrabhadra ti
+ vArI)\, shot himself with his last bullet. He was commander in chief "Balr
+ aj" of Hindustan Socialist Republic Army\, which included revolutionaries 
+ such as Ashfaqullah Khan and his mentor rAm prasAd bismil.<br/><br/><br/>#
+ # Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/
+ tree/master/mahApuruSha/xatra-later/gregorian/day/02/27/AzAda-chandrashekh
+ aro_mRtaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6840,15 +6835,14 @@ BEGIN:VEVENT
 SUMMARY:गोध्रा-ज्वालनम् #१९
 DTSTART;VALUE=DATE:20210227
 DTEND;VALUE=DATE:20210228
-DESCRIPTION:Observed on day 27 of February (gregorian) month. The event oc
- curred in 2002 (Gregorian era).  <br/>A roughly 1k+ strong Muslim mob burn
- t 59 Hindu pilgrims alive in Godhra\, GJ. Maulvi Husain Haji Ibrahim Umarj
- i\, the alleged mastermind\, was acquitted due to lack of evidence - thoug
- h they managed to convict around 31 people\; and the courts termed it a we
- ll planned attack. Riots followed\, resulting in 1k-2k deaths (~ 75% musli
- m).<br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/j
- yotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/02/27
- /godhrA-jvAlanam.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 2002-02-27 (gregorian). A roughly 1k+ strong 
+ Muslim mob burnt 59 Hindu pilgrims alive in Godhra\, GJ. Maulvi Husain Haj
+ i Ibrahim Umarji\, the alleged mastermind\, was acquitted due to lack of e
+ vidence - though they managed to convict around 31 people\; and the courts
+  termed it a well planned attack. Riots followed\, resulting in 1k-2k deat
+ hs (~ 75% muslim).<br/><br/><br/>## Details<br/>- [Edit config file](https
+ ://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/greg
+ orian/day/02/27/godhrA-jvAlanam.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -7100,11 +7094,10 @@ SUMMARY:वेङ्कट-रामार्यस्याविश्
  कारः #९३
 DTSTART;VALUE=DATE:20210228
 DTEND;VALUE=DATE:20210301
-DESCRIPTION:Observed on day 28 of February (gregorian) month. The event oc
- curred in 1928 (Gregorian era).  <br/>CV Raman discovered the Raman Effect
-  on this day in 1928<br/><br/>## Details<br/>- [Edit config file](https://
- github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregori
- an/day/02/28/venkaTa-rAmAryasyAvishkAraH.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 1928-02-28 (gregorian). CV Raman discovered t
+ he Raman Effect on this day in 1928<br/><br/>## Details<br/>- [Edit config
+  file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatr
+ a-later/gregorian/day/02/28/venkaTa-rAmAryasyAvishkAraH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -7194,15 +7187,14 @@ BEGIN:VEVENT
 SUMMARY:शिवराजो जातः #३९१
 DTSTART;VALUE=DATE:20210301
 DTEND;VALUE=DATE:20210302
-DESCRIPTION:Observed on day 1 of March (gregorian) month. Julian date was 
- converted to Gregorian in this reckoning. The event occurred in 1630 (Greg
- orian era).  <br/>On this day was born the great rAjan shivAjI (It was phA
- lguna k3)\, about whom bhUShaNa wrote<br/>"चारौ वर्ण ध
- र्म छोडि  <br/>कलमा नेवाज पढि  <br/>
- सिवाजी न होतो तौ  <br/>सुनति होत
-  सबकी" 🙏🙏<br/><br/><br/>## Details<br/>- [Edit config file](
- https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later
- /gregorian/day/03/01/shivarAjo_jAtaH.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 1630-03-01 (gregorian). Julian date was conve
+ rted to Gregorian in this reckoning. On this day was born the great rAjan 
+ shivAjI (It was phAlguna k3)\, about whom bhUShaNa wrote<br/>"चारौ
+  वर्ण धर्म छोडि  <br/>कलमा नेवाज
+  पढि  <br/>सिवाजी न होतो तौ  <br/>सु
+ नति होत सबकी" 🙏🙏<br/><br/><br/>## Details<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/mahA
+ puruSha/xatra-later/gregorian/day/03/01/shivarAjo_jAtaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -7690,14 +7682,13 @@ BEGIN:VEVENT
 SUMMARY:राजारामो जातः #३५१
 DTSTART;VALUE=DATE:20210306
 DTEND;VALUE=DATE:20210307
-DESCRIPTION:Observed on day 6 of March (gregorian) month. Julian date was 
- converted to Gregorian in this reckoning. The event occurred in 1670 (Greg
- orian era).  <br/>On this day was born Rajaram\, 2nd son of Ch Shivaji\, w
- ho continued the struggle for Swarajya from Ginjee after Sambhaji's brutal
-  torture and execution for refusing to convert to Islam.<br/><br/>## Detai
- ls<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/ma
- ster/mahApuruSha/xatra-later/gregorian/day/03/06/rAjArAmo_jAtaH.toml)<br/>
- - Tags:
+DESCRIPTION:Event occured on 1670-03-06 (gregorian). Julian date was conve
+ rted to Gregorian in this reckoning. On this day was born Rajaram\, 2nd so
+ n of Ch Shivaji\, who continued the struggle for Swarajya from Ginjee afte
+ r Sambhaji's brutal torture and execution for refusing to convert to Islam
+ .<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisha
+ m/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/03/06/rAjArA
+ mo_jAtaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -7785,14 +7776,14 @@ SUMMARY:यदुगिरिसरे त्र्यम्बकरा
  वो हैदरं जयति #२५०
 DTSTART;VALUE=DATE:20210307
 DTEND;VALUE=DATE:20210308
-DESCRIPTION:Observed on day 7 of March (gregorian) month. The event occurr
- ed in 1771 (Gregorian era).  <br/>Moti tAlab / tonnur kere- Melukote battl
- efield where Trimbak rao Pethe\, uncle to Sadashiv rao\, inflicted a major
-  defeat on Hyder Ali & Tipu on 7 March 1771. Srirangapatna placed under a 
- siege for 6 weeks. Hyder eventually paid a 50 lakh indemnity & signed a tr
- eaty.<br/><br/><br/>## Details<br/>- [Edit config file](https://github.com
- /jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/03/
- 07/tryambak-rAvo_haidaram_jayati_yadugiri-sare.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 1771-03-07 (gregorian). Moti tAlab / tonnur k
+ ere- Melukote battlefield where Trimbak rao Pethe\, uncle to Sadashiv rao\
+ , inflicted a major defeat on Hyder Ali & Tipu on 7 March 1771. Srirangapa
+ tna placed under a siege for 6 weeks. Hyder eventually paid a 50 lakh inde
+ mnity & signed a treaty.<br/><br/><br/>## Details<br/>- [Edit config file]
+ (https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-late
+ r/gregorian/day/03/07/tryambak-rAvo_haidaram_jayati_yadugiri-sare.toml)<br
+ />- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8146,13 +8137,12 @@ SUMMARY:वासायि-युद्ध-समाप्तिः #२
  ९३
 DTSTART;VALUE=DATE:20210310
 DTEND;VALUE=DATE:20210311
-DESCRIPTION:Observed on day 10 of March (gregorian) month. Julian date was
-  converted to Gregorian in this reckoning. The event occurred in 1728 (Gre
- gorian era).  <br/>Chimaji Appa ground down the Portuguese\, systematicall
- y mined\, blasted and won vasAi/ bessein (long suffering Christian inquisi
- tion barbarisms).<br/><br/>## Details<br/>- [Edit config file](https://git
- hub.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/
- day/03/10/vAsAy-yuddha-samAptiH.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 1728-03-10 (gregorian). Julian date was conve
+ rted to Gregorian in this reckoning. Chimaji Appa ground down the Portugue
+ se\, systematically mined\, blasted and won vasAi/ bessein (long suffering
+  Christian inquisition barbarisms).<br/><br/>## Details<br/>- [Edit config
+  file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatr
+ a-later/gregorian/day/03/10/vAsAy-yuddha-samAptiH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8367,11 +8357,11 @@ SUMMARY:मुम्बापुर्याम् १२ विस्फ
  ोटकानि #२८
 DTSTART;VALUE=DATE:20210312
 DTEND;VALUE=DATE:20210313
-DESCRIPTION:Observed on day 12 of March (gregorian) month. The event occur
- red in 1993 (Gregorian era).  <br/>Mumbai: 12 bombs exploded\, 260 people 
- dead\, 700 + Injured<br/><br/>## Details<br/>- [Edit config file](https://
- github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregori
- an/day/03/12/mumbApuryAm_12_visphoTakAni.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 1993-03-12 (gregorian). Mumbai: 12 bombs expl
+ oded\, 260 people dead\, 700 + Injured<br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/x
+ atra-later/gregorian/day/03/12/mumbApuryAm_12_visphoTakAni.toml)<br/>- Tag
+ s:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8444,12 +8434,11 @@ SUMMARY:फ़ड्नवीस्-नाना-मृत्युः #२
  २१
 DTSTART;VALUE=DATE:20210313
 DTEND;VALUE=DATE:20210314
-DESCRIPTION:Observed on day 13 of March (gregorian) month. The event occur
- red in 1800 (Gregorian era).  <br/>nAnA Fadnavis\, who loyally and effecti
- vely kept the marATha confrederacy together during the time of fratricide\
- , died.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jy
- otisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/03/13/
- faDnavIs-nAnA-mRtyuH.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 1800-03-13 (gregorian). nAnA Fadnavis\, who l
+ oyally and effectively kept the marATha confrederacy together during the t
+ ime of fratricide\, died.<br/><br/>## Details<br/>- [Edit config file](htt
+ ps://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gr
+ egorian/day/03/13/faDnavIs-nAnA-mRtyuH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8551,12 +8540,11 @@ SUMMARY:उधमसिंहेन जल्लिअन्वाला-
  प्रतीकारः #८१
 DTSTART;VALUE=DATE:20210313
 DTEND;VALUE=DATE:20210314
-DESCRIPTION:Observed on day 13 of March (gregorian) month. The event occur
- red in 1940 (Gregorian era).  <br/>Udham Singh dispatched Michael O'Dwyer 
- to his maker for ordering the Jallianwala Bagh massacre.<br/><br/>## Detai
- ls<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/ma
- ster/mahApuruSha/xatra-later/gregorian/day/03/13/udhamasiMhena_jallianvAlA
- -pratIkAraH.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 1940-03-13 (gregorian). Udham Singh dispatche
+ d Michael O'Dwyer to his maker for ordering the Jallianwala Bagh massacre.
+ <br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham
+ /adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/03/13/udhamas
+ iMhena_jallianvAlA-pratIkAraH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8980,13 +8968,12 @@ SUMMARY:कोण्डाजी-सेनाधिपेन पन्ह
  ळ-दुर्गं गृहीतम् #३४८
 DTSTART;VALUE=DATE:20210316
 DTEND;VALUE=DATE:20210317
-DESCRIPTION:Observed on day 16 of March (gregorian) month. Julian date was
-  converted to Gregorian in this reckoning. The event occurred in 1673 (Gre
- gorian era).  <br/>Kondaji Farzand captured Panhala in a daring night esca
- lade & the garrison was massacred.<br/><br/>## Details<br/>- [Edit config 
- file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra
- -later/gregorian/day/03/16/koNDAjI-senAdhipena_panhaLa-durgaM_gRhItam.toml
- )<br/>- Tags:
+DESCRIPTION:Event occured on 1673-03-16 (gregorian). Julian date was conve
+ rted to Gregorian in this reckoning. Kondaji Farzand captured Panhala in a
+  daring night escalade & the garrison was massacred.<br/><br/>## Details<b
+ r/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master
+ /mahApuruSha/xatra-later/gregorian/day/03/16/koNDAjI-senAdhipena_panhaLa-d
+ urgaM_gRhItam.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9559,12 +9546,11 @@ SUMMARY:शम्भुराजो पीडितो हतश् च #
  ३३२
 DTSTART;VALUE=DATE:20210321
 DTEND;VALUE=DATE:20210322
-DESCRIPTION:Observed on day 21 of March (gregorian) month. Julian date was
-  converted to Gregorian in this reckoning. The event occurred in 1689 (Gre
- gorian era).  <br/>sambhAji mahArAj tortured and killed by awrangzeb<br/><
- br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyat
- ithi/tree/master/mahApuruSha/xatra-later/gregorian/day/03/21/shambhurAjo_p
- IDito_hatash_cha.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 1689-03-21 (gregorian). Julian date was conve
+ rted to Gregorian in this reckoning. sambhAji mahArAj tortured and killed 
+ by awrangzeb<br/><br/>## Details<br/>- [Edit config file](https://github.c
+ om/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/0
+ 3/21/shambhurAjo_pIDito_hatash_cha.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9812,11 +9798,11 @@ SUMMARY:नन्दिमार्गे २४ पण्डिता ह
  ताः #१८
 DTSTART;VALUE=DATE:20210323
 DTEND;VALUE=DATE:20210324
-DESCRIPTION:Observed on day 23 of March (gregorian) month. The event occur
- red in 2003 (Gregorian era).  <br/>Nadimarg massacre of Kashmiri Pandits: 
- 24 killed included toddlers.<br/><br/>## Details<br/>- [Edit config file](
- https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later
- /gregorian/day/03/23/nandimArge_24_paNDitA_hatAH.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 2003-03-23 (gregorian). Nadimarg massacre of 
+ Kashmiri Pandits: 24 killed included toddlers.<br/><br/>## Details<br/>- [
+ Edit config file](https://github.com/jyotisham/adyatithi/tree/master/mahAp
+ uruSha/xatra-later/gregorian/day/03/23/nandimArge_24_paNDitA_hatAH.toml)<b
+ r/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10368,11 +10354,10 @@ SUMMARY:होल्कर-मल्हररावो मृतः #२
  ५५
 DTSTART;VALUE=DATE:20210327
 DTEND;VALUE=DATE:20210328
-DESCRIPTION:Observed on day 27 of March (gregorian) month. The event occur
- red in 1766 (Gregorian era).  <br/>malharrAv holkar dies<br/><br/>## Detai
- ls<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/ma
- ster/mahApuruSha/xatra-later/gregorian/day/03/27/holkara-malhararAvo_mRtaH
- .toml)<br/>- Tags:
+DESCRIPTION:Event occured on 1766-03-27 (gregorian). malharrAv holkar dies
+ <br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham
+ /adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/03/27/holkara
+ -malhararAvo_mRtaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11196,15 +11181,14 @@ SUMMARY:नादिरशाहेन देहल्यां लोक
  हत्या #२८२
 DTSTART;VALUE=DATE:20210402
 DTEND;VALUE=DATE:20210403
-DESCRIPTION:Observed on day 2 of April (gregorian) month. Julian date was 
- converted to Gregorian in this reckoning. The event occurred in 1739 (Greg
- orian era).  <br/>9 AM: It was the morning of Holi. A massacre\, horrific 
- beyond any description\, breaks out on the streets of Delhi (started by nA
- dir shAh).<br/>When it ended several hours later\, tens of thousands of co
- rpses lay on the streets. Estimates range from 30000-80000<br/><br/>## Det
- ails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/
- master/mahApuruSha/xatra-later/gregorian/day/04/02/nAdirashAhena_dehalyAM_
- lokahatyA.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 1739-04-02 (gregorian). Julian date was conve
+ rted to Gregorian in this reckoning. 9 AM: It was the morning of Holi. A m
+ assacre\, horrific beyond any description\, breaks out on the streets of D
+ elhi (started by nAdir shAh).<br/>When it ended several hours later\, tens
+  of thousands of corpses lay on the streets. Estimates range from 30000-80
+ 000<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotis
+ ham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/04/02/nAdi
+ rashAhena_dehalyAM_lokahatyA.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12067,12 +12051,11 @@ SUMMARY:परलि-दुर्गो जितः स्वराज्
  येन #३४८
 DTSTART;VALUE=DATE:20210411
 DTEND;VALUE=DATE:20210412
-DESCRIPTION:Observed on day 11 of April (gregorian) month. Julian date was
-  converted to Gregorian in this reckoning. The event occurred in 1673 (Gre
- gorian era).  <br/>Parali too was taken from Adil shAhi-s.<br/><br/>## Det
- ails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/
- master/mahApuruSha/xatra-later/gregorian/day/04/11/parali-durgo_jitaH_svar
- AjyEna.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 1673-04-11 (gregorian). Julian date was conve
+ rted to Gregorian in this reckoning. Parali too was taken from Adil shAhi-
+ s.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/04/11/paral
+ i-durgo_jitaH_svarAjyEna.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12450,14 +12433,14 @@ BEGIN:VEVENT
 SUMMARY:शिवराजो मृतः #३४१
 DTSTART;VALUE=DATE:20210413
 DTEND;VALUE=DATE:20210414
-DESCRIPTION:Observed on day 13 of April (gregorian) month. Julian date was
-  converted to Gregorian in this reckoning. The event occurred in 1680 (Gre
- gorian era).  <br/>Saturday. Chatrapati died at Raigad.<br/><br/>Contempor
- ary muslim chroniclers like Muhammad Saqi Khan and Khafi Khan declared tha
- t he will go to hell. Even Cosme da Guarda\, his admirer\, declared that a
- s a pagan he will go to hell.<br/><br/><br/>## Details<br/>- [Edit config 
- file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra
- -later/gregorian/day/04/13/shivarAjo_mRtaH.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 1680-04-13 (gregorian). Julian date was conve
+ rted to Gregorian in this reckoning. Saturday. Chatrapati died at Raigad.<
+ br/><br/>Contemporary muslim chroniclers like Muhammad Saqi Khan and Khafi
+  Khan declared that he will go to hell. Even Cosme da Guarda\, his admirer
+ \, declared that as a pagan he will go to hell.<br/><br/><br/>## Details<b
+ r/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master
+ /mahApuruSha/xatra-later/gregorian/day/04/13/shivarAjo_mRtaH.toml)<br/>- T
+ ags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12977,11 +12960,15 @@ BEGIN:VEVENT
 SUMMARY:९८-प्राणकोट-हत्या #२३
 DTSTART;VALUE=DATE:20210417
 DTEND;VALUE=DATE:20210418
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/04/17/98-pr
- ANakoTe-hatyA.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit
-  config file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruS
- ha/xatra-later/gregorian/day/04/17/98-prANakoTe-hatyA.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 1998-04-17 (gregorian). 26 Hindus in the vill
+ ages of Prankote and Dakikote were butchered ("no bullets fired") by kAshm
+ Iri muslim terrorists belonging to Hizbul Mujahideen ('Party of Holy Fight
+ ers'). The massacre forced migration of nearly 1\,000 people to Reasi\, Po
+ uni Thanpal\, Chasana and other towns of the district.<br/><br/>In April 2
+ 008\, the alleged mastermind Abdul Haque alias Jahangir\, was shot dead.<b
+ r/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotis
+ ham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/04/17/98-p
+ rANakoTe-hatyA.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13184,15 +13171,14 @@ SUMMARY:शिवराजेन हम्बीररावं सेन
  ाधिपं चकार #३४७
 DTSTART;VALUE=DATE:20210418
 DTEND;VALUE=DATE:20210419
-DESCRIPTION:Observed on day 18 of April (gregorian) month. Julian date was
-  converted to Gregorian in this reckoning. The event occurred in 1674 (Gre
- gorian era).  <br/>Chhatrapati Shivaji inspected his army at Chiplun. A ne
- w commander-in-chief had been identified. His name was Hansaji Mohite. But
-  that day Shivaji titled him Sarnobat (Chief of Army) Hambirrao & history 
- will remember him by that name: Hambirrao father of Tara Bai<br/><br/>## D
- etails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tre
- e/master/mahApuruSha/xatra-later/gregorian/day/04/18/shivarAjena_hambIrarA
- vaM_senAdhipaM_cakAra.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 1674-04-18 (gregorian). Julian date was conve
+ rted to Gregorian in this reckoning. Chhatrapati Shivaji inspected his arm
+ y at Chiplun. A new commander-in-chief had been identified. His name was H
+ ansaji Mohite. But that day Shivaji titled him Sarnobat (Chief of Army) Ha
+ mbirrao & history will remember him by that name: Hambirrao father of Tara
+  Bai<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyoti
+ sham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/04/18/shi
+ varAjena_hambIrarAvaM_senAdhipaM_cakAra.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13205,13 +13191,12 @@ BEGIN:VEVENT
 SUMMARY:तात्या-सेनानी हतः #१६२
 DTSTART;VALUE=DATE:20210418
 DTEND;VALUE=DATE:20210419
-DESCRIPTION:Observed on day 18 of April (gregorian) month. The event occur
- red in 1859 (Gregorian era).  <br/>Ramachandra Panduranga Yawalkar\, Aka T
- antia Tope\, general of the last peshvA nAnA saheb\, victor of many battle
- s\, killed by the British after being surrendered to them by mAn singh.<br
- /><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/04/18/tAnty
- A_hataH.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 1859-04-18 (gregorian). Ramachandra Pandurang
+ a Yawalkar\, Aka Tantia Tope\, general of the last peshvA nAnA saheb\, vic
+ tor of many battles\, killed by the British after being surrendered to the
+ m by mAn singh.<br/><br/><br/>## Details<br/>- [Edit config file](https://
+ github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregori
+ an/day/04/18/tAntyA_hataH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13755,12 +13740,11 @@ SUMMARY:बालाजी-विश्वनाथो मृतः #३
  ०१
 DTSTART;VALUE=DATE:20210423
 DTEND;VALUE=DATE:20210424
-DESCRIPTION:Observed on day 23 of April (gregorian) month. Julian date was
-  converted to Gregorian in this reckoning. The event occurred in 1720 (Gre
- gorian era).  <br/>great peshva bAlAjI vishvanAth died.<br/><br/>## Detail
- s<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/mas
- ter/mahApuruSha/xatra-later/gregorian/day/04/23/bAlAjI-vishvanAtho_mRtaH.t
- oml)<br/>- Tags:
+DESCRIPTION:Event occured on 1720-04-23 (gregorian). Julian date was conve
+ rted to Gregorian in this reckoning. great peshva bAlAjI vishvanAth died.<
+ br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/
+ adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/04/23/bAlAjI-v
+ ishvanAtho_mRtaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -14351,13 +14335,13 @@ SUMMARY:प्रतापरावेन हुब्लि-ग्रह
  णम् #३४८
 DTSTART;VALUE=DATE:20210426
 DTEND;VALUE=DATE:20210427
-DESCRIPTION:Observed on day 26 of April (gregorian) month. Julian date was
-  converted to Gregorian in this reckoning. The event occurred in 1673 (Gre
- gorian era).  <br/>Prataprao General of shivAjI sacked Hubli\, plundered t
- he British East India Company's house and escaped before Muzaffar Khan's 4
- k cavalry arrived.<br/><br/>## Details<br/>- [Edit config file](https://gi
- thub.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian
- /day/04/26/pratAparAvena_hubli-grahaNam.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 1673-04-26 (gregorian). Julian date was conve
+ rted to Gregorian in this reckoning. Prataprao General of shivAjI sacked H
+ ubli\, plundered the British East India Company's house and escaped before
+  Muzaffar Khan's 4k cavalry arrived.<br/><br/>## Details<br/>- [Edit confi
+ g file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xat
+ ra-later/gregorian/day/04/26/pratAparAvena_hubli-grahaNam.toml)<br/>- Tags
+ :
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -14878,15 +14862,15 @@ SUMMARY:मरुराक्षसस्य सिद्दि-सौत
  स्य वधः #२८५
 DTSTART;VALUE=DATE:20210430
 DTEND;VALUE=DATE:20210501
-DESCRIPTION:Observed on day 30 of April (gregorian) month. Julian date was
-  converted to Gregorian in this reckoning. The event occurred in 1736 (Gre
- gorian era).  <br/>On 19 April 1736 (julian) Chimaji Appa with Manaji Angr
- e killed Siddi Saut in a battle at Kamarle in the Konkan. The Siddi had be
- en cursed by BrahmendraSwami in 1726- 'you will be utterly destroyed'\, fo
- r attacking his Parshuram temple at Chiplun. Siddi Saut paid the price ten
-  years later.<br/><br/>## Details<br/>- [Edit config file](https://github.
- com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/
- 04/30/marurAkShasasya_siddi-sautasya_vadhaH.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 1736-04-30 (gregorian). Julian date was conve
+ rted to Gregorian in this reckoning. On 19 April 1736 (julian) Chimaji App
+ a with Manaji Angre killed Siddi Saut in a battle at Kamarle in the Konkan
+ . The Siddi had been cursed by BrahmendraSwami in 1726- 'you will be utter
+ ly destroyed'\, for attacking his Parshuram temple at Chiplun. Siddi Saut 
+ paid the price ten years later.<br/><br/>## Details<br/>- [Edit config fil
+ e](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-la
+ ter/gregorian/day/04/30/marurAkShasasya_siddi-sautasya_vadhaH.toml)<br/>- 
+ Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15601,12 +15585,12 @@ SUMMARY:होल्करैः पेशावर-ग्रहणम्
  #२६३
 DTSTART;VALUE=DATE:20210508
 DTEND;VALUE=DATE:20210509
-DESCRIPTION:Observed on day 8 of May (gregorian) month. The event occurred
-  in 1758 (Gregorian era).  <br/>Tukoji Rao Holkar defeats the afghAn Durra
- ni Empire at the Battle of Peshawar. He was left there by raghunAth rAv an
- d malharrAv holkar.<br/><br/><br/>## Details<br/>- [Edit config file](http
- s://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gre
- gorian/day/05/08/holkaraiH_peshAvara-grahaNam.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 1758-05-08 (gregorian). Tukoji Rao Holkar def
+ eats the afghAn Durrani Empire at the Battle of Peshawar. He was left ther
+ e by raghunAth rAv and malharrAv holkar.<br/><br/><br/>## Details<br/>- [E
+ dit config file](https://github.com/jyotisham/adyatithi/tree/master/mahApu
+ ruSha/xatra-later/gregorian/day/05/08/holkaraiH_peshAvara-grahaNam.toml)<b
+ r/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15694,12 +15678,11 @@ BEGIN:VEVENT
 SUMMARY:बाजी-रावो मृतः #२८१
 DTSTART;VALUE=DATE:20210509
 DTEND;VALUE=DATE:20210510
-DESCRIPTION:Observed on day 9 of May (gregorian) month. Julian date was co
- nverted to Gregorian in this reckoning. The event occurred in 1740 (Gregor
- ian era).  <br/>vaishAkha s13\, Raudra Sanvatsar\, Saka era bAji rAv 1 dea
- d.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/05/09/bAjI-
- rAvo_mRtaH.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 1740-05-09 (gregorian). Julian date was conve
+ rted to Gregorian in this reckoning. vaishAkha s13\, Raudra Sanvatsar\, Sa
+ ka era bAji rAv 1 dead.<br/><br/>## Details<br/>- [Edit config file](https
+ ://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/greg
+ orian/day/05/09/bAjI-rAvo_mRtaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -16957,12 +16940,11 @@ BEGIN:VEVENT
 SUMMARY:प्रतापसिंहो जातः #४८१
 DTSTART;VALUE=DATE:20210519
 DTEND;VALUE=DATE:20210520
-DESCRIPTION:Observed on day 19 of May (gregorian) month. Julian date was c
- onverted to Gregorian in this reckoning. The event occurred in 1540 (Grego
- rian era).  <br/>jyeShTha s3 Maharana Pratap Jayanti<br/><br/>## Details<b
- r/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master
- /mahApuruSha/xatra-later/gregorian/day/05/19/pratApasiMho_jAtaH.toml)<br/>
- - Tags:
+DESCRIPTION:Event occured on 1540-05-19 (gregorian). Julian date was conve
+ rted to Gregorian in this reckoning. jyeShTha s3 Maharana Pratap Jayanti<b
+ r/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/a
+ dyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/05/19/pratApasi
+ Mho_jAtaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17165,12 +17147,11 @@ SUMMARY:वङ्गे सेन्दिअ-क्षेत्रे म
  रुसैन्य-विप्लवः #५०
 DTSTART;VALUE=DATE:20210520
 DTEND;VALUE=DATE:20210521
-DESCRIPTION:Observed on day 20 of May (gregorian) month. The event occurre
- d in 1971 (Gregorian era).  <br/>Pakistani army with local Islamists massa
- cre Hindus in Bengal at Sendia\, Galimpur\, Chuknagar<br/><br/>## Details<
- br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/maste
- r/mahApuruSha/xatra-later/gregorian/day/05/20/vange_sendia-kShetre_marusai
- nya-viplavaH.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 1971-05-20 (gregorian). Pakistani army with l
+ ocal Islamists massacre Hindus in Bengal at Sendia\, Galimpur\, Chuknagar<
+ br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/
+ adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/05/20/vange_se
+ ndia-kShetre_marusainya-viplavaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17881,11 +17862,11 @@ BEGIN:VEVENT
 SUMMARY:शम्भुराजो जातः #३६४
 DTSTART;VALUE=DATE:20210524
 DTEND;VALUE=DATE:20210525
-DESCRIPTION:Observed on day 24 of May (gregorian) month. Julian date was c
- onverted to Gregorian in this reckoning. The event occurred in 1657 (Grego
- rian era).  <br/>jyeShTha s12 Sambhaji born<br/><br/>## Details<br/>- [Edi
- t config file](https://github.com/jyotisham/adyatithi/tree/master/mahApuru
- Sha/xatra-later/gregorian/day/05/24/shambhurAjo_jAtaH.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 1657-05-24 (gregorian). Julian date was conve
+ rted to Gregorian in this reckoning. jyeShTha s12 Sambhaji born<br/><br/>#
+ # Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/
+ tree/master/mahApuruSha/xatra-later/gregorian/day/05/24/shambhurAjo_jAtaH.
+ toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18032,11 +18013,10 @@ BEGIN:VEVENT
 SUMMARY:रास-विहारी जातः #१३५
 DTSTART;VALUE=DATE:20210525
 DTEND;VALUE=DATE:20210526
-DESCRIPTION:Observed on day 25 of May (gregorian) month. The event occurre
- d in 1886 (Gregorian era).  <br/>Rash bihArI bose born.<br/><br/>## Detail
- s<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/mas
- ter/mahApuruSha/xatra-later/gregorian/day/05/25/rAsa-vihArI_jAtaH.toml)<br
- />- Tags:
+DESCRIPTION:Event occured on 1886-05-25 (gregorian). Rash bihArI bose born
+ .<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisha
+ m/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/05/25/rAsa-v
+ ihArI_jAtaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -18766,14 +18746,14 @@ SUMMARY:कृष्णदेवरायस्य रायचूरु-
  जयः #५०१
 DTSTART;VALUE=DATE:20210529
 DTEND;VALUE=DATE:20210530
-DESCRIPTION:Observed on day 29 of May (gregorian) month. Julian date was c
- onverted to Gregorian in this reckoning. The event occurred in 1520 (Grego
- rian era).  <br/> Ismail Adil Shah  of  Muslim  Bijapur  seized  the  fort
- ress of Raichur\, southwest of Hyderabad\, then faced asiege by Krishnadev
- a Raya of Hindu Vijayana-gar. The Bijapuri army was routed and Raichur fel
- l to Krishnadeva Raya.<br/><br/>## Details<br/>- [Edit config file](https:
- //github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/grego
- rian/day/05/29/kRShNadevarAyasya_rAyachUru-jayaH.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 1520-05-29 (gregorian). Julian date was conve
+ rted to Gregorian in this reckoning.  Ismail Adil Shah  of  Muslim  Bijapu
+ r  seized  the  fortress of Raichur\, southwest of Hyderabad\, then faced 
+ asiege by Krishnadeva Raya of Hindu Vijayana-gar. The Bijapuri army was ro
+ uted and Raichur fell to Krishnadeva Raya.<br/><br/>## Details<br/>- [Edit
+  config file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruS
+ ha/xatra-later/gregorian/day/05/29/kRShNadevarAyasya_rAyachUru-jayaH.toml)
+ <br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -19280,12 +19260,11 @@ SUMMARY:महिषपुर-राजर्षिः कृष्णर
  ाजो जातः #१३७
 DTSTART;VALUE=DATE:20210604
 DTEND;VALUE=DATE:20210605
-DESCRIPTION:Observed on day 4 of June (gregorian) month. The event occurre
- d in 1884 (Gregorian era).  <br/>nAlvaDi-kRShNarAja-vaDiya\, rAjarShi of m
- ysore\, born https://twitter.com/adikulk/status/893381975440064512<br/><br
- />## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatit
- hi/tree/master/mahApuruSha/xatra-later/gregorian/day/06/04/mahiShapura-rAj
- arSiH_kRSNarAjo_jAtaH.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 1884-06-04 (gregorian). nAlvaDi-kRShNarAja-va
+ Diya\, rAjarShi of mysore\, born https://twitter.com/adikulk/status/893381
+ 975440064512<br/><br/>## Details<br/>- [Edit config file](https://github.c
+ om/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/0
+ 6/04/mahiShapura-rAjarSiH_kRSNarAjo_jAtaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -19298,13 +19277,12 @@ BEGIN:VEVENT
 SUMMARY:पेश्वा-राज्य-नाशः #२०३
 DTSTART;VALUE=DATE:20210604
 DTEND;VALUE=DATE:20210605
-DESCRIPTION:Observed on day 4 of June (gregorian) month. The event occurre
- d in 1818 (Gregorian era).  <br/>Peshwa Bajirao II surrendered to the Brit
- ish\, after an eight month long war (The 3rd Anglo-Maratha War) - a war wh
- ich began in Nov 1817 with the 'Battle of Khadki'.<br/><br/>## Details<br/
- >- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/m
- ahApuruSha/xatra-later/gregorian/day/06/04/peshvA-rAjya-nAshaH.toml)<br/>-
-  Tags:
+DESCRIPTION:Event occured on 1818-06-04 (gregorian). Peshwa Bajirao II sur
+ rendered to the British\, after an eight month long war (The 3rd Anglo-Mar
+ atha War) - a war which began in Nov 1817 with the 'Battle of Khadki'.<br/
+ ><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/ady
+ atithi/tree/master/mahApuruSha/xatra-later/gregorian/day/06/04/peshvA-rAjy
+ a-nAshaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -20667,12 +20645,11 @@ SUMMARY:शिवराजस्यैन्द्राभिषेकः
   #३४७
 DTSTART;VALUE=DATE:20210616
 DTEND;VALUE=DATE:20210617
-DESCRIPTION:Observed on day 16 of June (gregorian) month. Julian date was 
- converted to Gregorian in this reckoning. The event occurred in 1674 (Greg
- orian era).  <br/>jyeShTha shukla 13 shivAji's aindrAbhiSheka.<br/><br/>##
-  Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/t
- ree/master/mahApuruSha/xatra-later/gregorian/day/06/16/shivarAjasyaindrAbh
- iSekaH.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 1674-06-16 (gregorian). Julian date was conve
+ rted to Gregorian in this reckoning. jyeShTha shukla 13 shivAji's aindrAbh
+ iSheka.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jy
+ otisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/06/16/
+ shivarAjasyaindrAbhiSekaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -20686,12 +20663,11 @@ SUMMARY:व्याघ्रदुर्ग-ग्रहणम् #३६
  १
 DTSTART;VALUE=DATE:20210616
 DTEND;VALUE=DATE:20210617
-DESCRIPTION:Observed on day 16 of June (gregorian) month. Julian date was 
- converted to Gregorian in this reckoning. The event occurred in 1660 (Greg
- orian era).  <br/>shivAjI captured vasota/ wasota.<br/><br/>## Details<br/
- >- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/m
- ahApuruSha/xatra-later/gregorian/day/06/16/vasota-grahaNam.toml)<br/>- Tag
- s:
+DESCRIPTION:Event occured on 1660-06-16 (gregorian). Julian date was conve
+ rted to Gregorian in this reckoning. shivAjI captured vasota/ wasota.<br/>
+ <br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adya
+ tithi/tree/master/mahApuruSha/xatra-later/gregorian/day/06/16/vasota-graha
+ Nam.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -21321,14 +21297,13 @@ SUMMARY:कास्मीरं डोग्रैर् गृहीत
  म् #२०२
 DTSTART;VALUE=DATE:20210620
 DTEND;VALUE=DATE:20210621
-DESCRIPTION:Observed on day 20 of June (gregorian) month. The event occurr
- ed in 1819 (Gregorian era).  <br/>On this day\, Pandit Birbal Dhar entered
-  with Sikh soldiers into Kashmir as a victor over afghAns. He had made a d
- aring and costly escape (loosing wife\, daughter in law) from Azam Khan's 
- court to raNajIt singh at lahore via gulAb singh in jammu.<br/><br/><br/>#
- # Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/
- tree/master/mahApuruSha/xatra-later/gregorian/day/06/20/kAshmIram_Dograir_
- gRhItam.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 1819-06-20 (gregorian). On this day\, Pandit 
+ Birbal Dhar entered with Sikh soldiers into Kashmir as a victor over afghA
+ ns. He had made a daring and costly escape (loosing wife\, daughter in law
+ ) from Azam Khan's court to raNajIt singh at lahore via gulAb singh in jam
+ mu.<br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/j
+ yotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/06/20
+ /kAshmIram_Dograir_gRhItam.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -21634,12 +21609,11 @@ SUMMARY:चापेकराभ्यां रण्ड-वधः #१
  २४
 DTSTART;VALUE=DATE:20210622
 DTEND;VALUE=DATE:20210623
-DESCRIPTION:Observed on day 22 of June (gregorian) month. The event occurr
- ed in 1897 (Gregorian era).  <br/>Chāpekar brothers killed W. C. Rand.<br
- />“ Govindā ālā rè “ used first by these guys to signal the approa
- ch of Rand.<br/><br/>## Details<br/>- [Edit config file](https://github.co
- m/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/06
- /22/cApekarAbhyAM_raNDa-vadhaH.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 1897-06-22 (gregorian). Chāpekar brothers ki
+ lled W. C. Rand.<br/>“ Govindā ālā rè “ used first by these guys t
+ o signal the approach of Rand.<br/><br/>## Details<br/>- [Edit config file
+ ](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-lat
+ er/gregorian/day/06/22/cApekarAbhyAM_raNDa-vadhaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -21838,13 +21812,12 @@ SUMMARY:बालाजी-बाजी-रावो मृतः #२६
  ०
 DTSTART;VALUE=DATE:20210623
 DTEND;VALUE=DATE:20210624
-DESCRIPTION:Observed on day 23 of June (gregorian) month. The event occurr
- ed in 1761 (Gregorian era).  <br/>bAlAji bAji rao\, not long after pAnipaT
-  disaster\, died. Son of a great father (Bajirao-1)<br/>Father to a great 
- son (Madhavrao-1)<br/>Brother to a great cousin (Sadashiv Rao Bhau)<br/><b
- r/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyati
- thi/tree/master/mahApuruSha/xatra-later/gregorian/day/06/23/bAlAjI-bAjI-rA
- vo_mRtaH.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 1761-06-23 (gregorian). bAlAji bAji rao\, not
+  long after pAnipaT disaster\, died. Son of a great father (Bajirao-1)<br/
+ >Father to a great son (Madhavrao-1)<br/>Brother to a great cousin (Sadash
+ iv Rao Bhau)<br/><br/>## Details<br/>- [Edit config file](https://github.c
+ om/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/0
+ 6/23/bAlAjI-bAjI-rAvo_mRtaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -22274,6 +22247,23 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:मणि-राम-मारणम् #२८३
+DTSTART;VALUE=DATE:20210625
+DTEND;VALUE=DATE:20210626
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/06/25/maNi-
+ rAma-mAraNam.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit 
+ config file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSh
+ a/xatra-later/gregorian/day/06/25/maNi-rAma-mAraNam.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:पूर्णमासेष्टिः
 DTSTART;VALUE=DATE:20210625
 DTEND;VALUE=DATE:20210626
@@ -22633,12 +22623,11 @@ SUMMARY:पाल्कर-नेतुः शुद्धिः #३४
  ५
 DTSTART;VALUE=DATE:20210629
 DTEND;VALUE=DATE:20210630
-DESCRIPTION:Observed on day 29 of June (gregorian) month. The event occurr
- ed in 1676 (Gregorian era).  <br/>AShADha k4 Netaji pAlkar's prAyashcitta 
- and readmission to the hindu fold. https://twitter.com/ColonelGerard/statu
- s/876548420269334528<br/><br/>## Details<br/>- [Edit config file](https://
- github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregori
- an/day/06/29/pAlkara-netuH_shuddhiH.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 1676-06-29 (gregorian). AShADha k4 Netaji pAl
+ kar's prAyashcitta and readmission to the hindu fold. https://twitter.com/
+ ColonelGerard/status/876548420269334528<br/><br/>## Details<br/>- [Edit co
+ nfig file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/
+ xatra-later/gregorian/day/06/29/pAlkara-netuH_shuddhiH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -22767,13 +22756,12 @@ BEGIN:VEVENT
 SUMMARY:चेतको दिवं गतः #४४५
 DTSTART;VALUE=DATE:20210701
 DTEND;VALUE=DATE:20210702
-DESCRIPTION:Observed on day 1 of July (gregorian) month. Julian date was c
- onverted to Gregorian in this reckoning. The event occurred in 1576 (Grego
- rian era).  <br/>After the fierce battle at haldIghATI\, mahArANA pratAp w
- ounded\, as was his heroic horse chetak. Chetak succumbed on this day.<br/
- ><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyo
- tisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/07/01/c
- hetako_mRtaH.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 1576-07-01 (gregorian). Julian date was conve
+ rted to Gregorian in this reckoning. After the fierce battle at haldIghATI
+ \, mahArANA pratAp wounded\, as was his heroic horse chetak. Chetak succum
+ bed on this day.<br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
+ tps://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/g
+ regorian/day/07/01/chetako_mRtaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -23998,6 +23986,23 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:तारु-सिंह-हत्या #२७६
+DTSTART;VALUE=DATE:20210712
+DTEND;VALUE=DATE:20210713
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/07/12/tAru-
+ siMha-hatyA.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha
+ /xatra-later/gregorian/day/07/12/tAru-siMha-hatyA.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:आषाढः-04-03\,सिंहः-मघा🌛🌌◢◣म
  िथुनम्-पुनर्वसुः-03-29🌌🌞◢◣शु
  चिः-04-23🪐🌞मङ्गलः
@@ -24259,13 +24264,13 @@ SUMMARY:आङ्ग्रॆ-कान्होजी-जन्म #२
  ९२
 DTSTART;VALUE=DATE:20210715
 DTEND;VALUE=DATE:20210716
-DESCRIPTION:Observed on day 15 of July (gregorian) month. The event occurr
- ed in 1729 (Gregorian era).  <br/>death anniversary of Maratha Navy Admira
- l Kanhoji Angre. During his undefeated reign\, his navy controlled west co
- ast\, prevented entry of slave trade in India\, fully succeeded in keeping
-  British\, Dutch\, Portuguese at bay.<br/><br/>## Details<br/>- [Edit conf
- ig file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xa
- tra-later/gregorian/day/07/15/AngrE-kAnhojI-janma.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 1729-07-15 (gregorian). death anniversary of 
+ Maratha Navy Admiral Kanhoji Angre. During his undefeated reign\, his navy
+  controlled west coast\, prevented entry of slave trade in India\, fully s
+ ucceeded in keeping British\, Dutch\, Portuguese at bay.<br/><br/>## Detai
+ ls<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/ma
+ ster/mahApuruSha/xatra-later/gregorian/day/07/15/AngrE-kAnhojI-janma.toml)
+ <br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -25540,11 +25545,10 @@ BEGIN:VEVENT
 SUMMARY:लोकमान्य-तिळको जातः #१६५
 DTSTART;VALUE=DATE:20210723
 DTEND;VALUE=DATE:20210724
-DESCRIPTION:Observed on day 23 of July (gregorian) month. The event occurr
- ed in 1856 (Gregorian era).  <br/>AshADha k1  lokamAnya bhAlagangAdhara Ti
- lak born.<br/><br/>## Details<br/>- [Edit config file](https://github.com/
- jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/07/2
- 3/lokamAnya-tiLako_jAtaH.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 1856-07-23 (gregorian). AshADha k1  lokamAnya
+  bhAlagangAdhara Tilak born.<br/><br/>## Details<br/>- [Edit config file](
+ https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later
+ /gregorian/day/07/23/lokamAnya-tiLako_jAtaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -26353,12 +26357,11 @@ BEGIN:VEVENT
 SUMMARY:शम्भु-पट्टाभिषेकः #३४१
 DTSTART;VALUE=DATE:20210730
 DTEND;VALUE=DATE:20210731
-DESCRIPTION:Observed on day 30 of July (gregorian) month. Julian date was 
- converted to Gregorian in this reckoning. The event occurred in 1680 (Greg
- orian era).  <br/>shrAvaNa s5  Sambhaji ascended the throne<br/><br/>## De
- tails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree
- /master/mahApuruSha/xatra-later/gregorian/day/07/30/shambhu-paTTAbhiShekaH
- .toml)<br/>- Tags:
+DESCRIPTION:Event occured on 1680-07-30 (gregorian). Julian date was conve
+ rted to Gregorian in this reckoning. shrAvaNa s5  Sambhaji ascended the th
+ rone<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyoti
+ sham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/07/30/sha
+ mbhu-paTTAbhiShekaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -26486,14 +26489,13 @@ SUMMARY:२०००-आगस्ट-काश्मीर-हत्या
   #२१
 DTSTART;VALUE=DATE:20210801
 DTEND;VALUE=DATE:20210802
-DESCRIPTION:Observed on day 1 of August (gregorian) month. The event occur
- red in 2000 (Gregorian era).  <br/>Total up to 105 or more killed and at l
- east 62 injured (mostly hindu)\, in five separate coordinated terror attac
- ks by Islamic terrorists on Aug 1\, 2. The attacks included the pahalgAm b
- ase camp of amaranAtha shrine\, migrant laborer camps\, and Doda villages.
- <br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
- isham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/08/01/au
- gust-2k-kAshmIra-hatyA.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 2000-08-01 (gregorian). Total up to 105 or mo
+ re killed and at least 62 injured (mostly hindu)\, in five separate coordi
+ nated terror attacks by Islamic terrorists on Aug 1\, 2. The attacks inclu
+ ded the pahalgAm base camp of amaranAtha shrine\, migrant laborer camps\, 
+ and Doda villages.<br/><br/><br/>## Details<br/>- [Edit config file](https
+ ://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/greg
+ orian/day/08/01/august-2k-kAshmIra-hatyA.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -26507,11 +26509,10 @@ SUMMARY:लोकमान्य-तिळको दिवं गतः #
  १०१
 DTSTART;VALUE=DATE:20210801
 DTEND;VALUE=DATE:20210802
-DESCRIPTION:Observed on day 1 of August (gregorian) month. The event occur
- red in 1920 (Gregorian era).  <br/>LokamAnya Tilak died at age 64.<br/><br
- />## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatit
- hi/tree/master/mahApuruSha/xatra-later/gregorian/day/08/01/lokamAnya-tiLak
- o_divaM_gataH.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 1920-08-01 (gregorian). LokamAnya Tilak died 
+ at age 64.<br/><br/>## Details<br/>- [Edit config file](https://github.com
+ /jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/08/
+ 01/lokamAnya-tiLako_divaM_gataH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -26525,13 +26526,12 @@ SUMMARY:वॆल्लूरु-दुर्ग-ग्रहणम् #
  ३४३
 DTSTART;VALUE=DATE:20210801
 DTEND;VALUE=DATE:20210802
-DESCRIPTION:Observed on day 1 of August (gregorian) month. Julian date was
-  converted to Gregorian in this reckoning. The event occurred in 1678 (Gre
- gorian era).  <br/>After 14 months of obstinate defence by the Siddi Abdul
- la Khan general of Adil Shah\, Vellore fort fell after a contagion broke o
- ut there.<br/><br/>## Details<br/>- [Edit config file](https://github.com/
- jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/08/0
- 1/vellUru-durga-grahaNam.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 1678-08-01 (gregorian). Julian date was conve
+ rted to Gregorian in this reckoning. After 14 months of obstinate defence 
+ by the Siddi Abdulla Khan general of Adil Shah\, Vellore fort fell after a
+  contagion broke out there.<br/><br/>## Details<br/>- [Edit config file](h
+ ttps://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/
+ gregorian/day/08/01/vellUru-durga-grahaNam.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -26930,13 +26930,12 @@ SUMMARY:कृष्णदेवराय-पट्टाभिषेक
  ः #५१२
 DTSTART;VALUE=DATE:20210805
 DTEND;VALUE=DATE:20210806
-DESCRIPTION:Observed on day 5 of August (gregorian) month. Julian date was
-  converted to Gregorian in this reckoning. The event occurred in 1509 (Gre
- gorian era).  <br/>kRShNAShTamI (bhAdrapada-kRShNa likely) kRShNadevarAya 
- coronated. https://twitter.com/i/moments/890055413374173186<br/><br/>## De
- tails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree
- /master/mahApuruSha/xatra-later/gregorian/day/08/05/kRShNadevarAya-paTTAbh
- iShekaH.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 1509-08-05 (gregorian). Julian date was conve
+ rted to Gregorian in this reckoning. kRShNAShTamI (bhAdrapada-kRShNa likel
+ y) kRShNadevarAya coronated. https://twitter.com/i/moments/890055413374173
+ 186<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotis
+ ham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/08/05/kRSh
+ NadevarAya-paTTAbhiShekaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -26984,11 +26983,10 @@ BEGIN:VEVENT
 SUMMARY:राम-मन्दिर-भूमि-पूजा #१
 DTSTART;VALUE=DATE:20210805
 DTEND;VALUE=DATE:20210806
-DESCRIPTION:Observed on day 5 of August (gregorian) month. The event occur
- red in 2020 (Gregorian era).  <br/>bhUmipUjana for rAma mandir reconstruct
- ion at ayodhya.<br/><br/>## Details<br/>- [Edit config file](https://githu
- b.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/da
- y/08/05/rAma-mandira-bhUmi-pUjA.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 2020-08-05 (gregorian). bhUmipUjana for rAma 
+ mandir reconstruction at ayodhya.<br/><br/>## Details<br/>- [Edit config f
+ ile](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-
+ later/gregorian/day/08/05/rAma-mandira-bhUmi-pUjA.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -28255,12 +28253,11 @@ BEGIN:VEVENT
 SUMMARY:सदाशिव-रावो जातः #२९१
 DTSTART;VALUE=DATE:20210815
 DTEND;VALUE=DATE:20210816
-DESCRIPTION:Observed on day 15 of August (gregorian) month. Julian date wa
- s converted to Gregorian in this reckoning. The event occurred in 1730 (Gr
- egorian era).  <br/>sadAshivrAv bhAu\, who died fighting at 30 in pAnipaT\
- , was born.<br/><br/>## Details<br/>- [Edit config file](https://github.co
- m/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/08
- /15/sadAshiva-rAvo_jAtaH.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 1730-08-15 (gregorian). Julian date was conve
+ rted to Gregorian in this reckoning. sadAshivrAv bhAu\, who died fighting 
+ at 30 in pAnipaT\, was born.<br/><br/>## Details<br/>- [Edit config file](
+ https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later
+ /gregorian/day/08/15/sadAshiva-rAvo_jAtaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -29272,6 +29269,24 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:मस्स-रङ्घर-वधः #२८१
+DTSTART;VALUE=DATE:20210822
+DTEND;VALUE=DATE:20210823
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/08/22/massa
+ -raghara-vadhaH.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Ed
+ it config file](https://github.com/jyotisham/adyatithi/tree/master/mahApur
+ uSha/xatra-later/gregorian/day/08/22/massa-raghara-vadhaH.toml)<br/>- Tags
+ :
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:नारिकेल-पूर्णिमा
 DTSTART;VALUE=DATE:20210822
 DTEND;VALUE=DATE:20210823
@@ -30127,11 +30142,11 @@ BEGIN:VEVENT
 SUMMARY:बाजी-रावो जातः #३२१
 DTSTART;VALUE=DATE:20210829
 DTEND;VALUE=DATE:20210830
-DESCRIPTION:Observed on day 29 of August (gregorian) month. Julian date wa
- s converted to Gregorian in this reckoning. The event occurred in 1700 (Gr
- egorian era).  <br/>bAjI rAv born<br/><br/>## Details<br/>- [Edit config f
- ile](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-
- later/gregorian/day/08/29/bAjI-rAvo_jAtaH.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 1700-08-29 (gregorian). Julian date was conve
+ rted to Gregorian in this reckoning. bAjI rAv born<br/><br/>## Details<br/
+ >- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/m
+ ahApuruSha/xatra-later/gregorian/day/08/29/bAjI-rAvo_jAtaH.toml)<br/>- Tag
+ s:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -30892,12 +30907,11 @@ SUMMARY:काशी-विश्वेश्वर-मन्दिर-न
  ाशः #३५२
 DTSTART;VALUE=DATE:20210904
 DTEND;VALUE=DATE:20210905
-DESCRIPTION:Observed on day 4 of September (gregorian) month. The event oc
- curred in 1669 (Gregorian era).  <br/>Aurangzeb informed that Kashi Vishwe
- shwar was pulled down. Maasiri-‘ Alamgiri\, 88. Julian month August.<br/
- ><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/ady
- atithi/tree/master/mahApuruSha/xatra-later/gregorian/day/09/04/kAshI-vishv
- eshvara-mandira-nAshaH.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 1669-09-04 (gregorian). Aurangzeb informed th
+ at Kashi Vishweshwar was pulled down. Maasiri-‘ Alamgiri\, 88. Julian mo
+ nth August.<br/><br/>## Details<br/>- [Edit config file](https://github.co
+ m/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/09
+ /04/kAshI-vishveshvara-mandira-nAshaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -31056,12 +31070,12 @@ BEGIN:VEVENT
 SUMMARY:गुज्जर-बिल्लू-वधः #१५
 DTSTART;VALUE=DATE:20210905
 DTEND;VALUE=DATE:20210906
-DESCRIPTION:Observed on day 5 of September (gregorian) month. The event oc
- curred in 2006 (Gregorian era).  <br/>billU gujjar (Wasim Khan)\, Islamist
-  jihAdI belonging to Hizbul Mujahideen ('Party of Holy Fighters')\, big-ti
- me murderer of hindus\, was killed.<br/><br/><br/>## Details<br/>- [Edit c
- onfig file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha
- /xatra-later/gregorian/day/09/05/gujjara-billU-vadhaH.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 2006-09-05 (gregorian). billU gujjar (Wasim K
+ han)\, Islamist jihAdI belonging to Hizbul Mujahideen ('Party of Holy Figh
+ ters')\, big-time murderer of hindus\, was killed.<br/><br/><br/>## Detail
+ s<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/mas
+ ter/mahApuruSha/xatra-later/gregorian/day/09/05/gujjara-billU-vadhaH.toml)
+ <br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -32256,12 +32270,11 @@ SUMMARY:२००८ वर्षे देहल्यां विस्
  फोटाः #१३
 DTSTART;VALUE=DATE:20210913
 DTEND;VALUE=DATE:20210914
-DESCRIPTION:Observed on day 13 of September (gregorian) month. The event o
- ccurred in 2008 (Gregorian era).  <br/>Five synchronised bomb blasts that 
- took place within a span of few minutes. Carried out by Indian Mujahideen.
- <br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham
- /adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/09/13/delhi-b
- lasts-2008.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 2008-09-13 (gregorian). Five synchronised bom
+ b blasts that took place within a span of few minutes. Carried out by Indi
+ an Mujahideen.<br/><br/>## Details<br/>- [Edit config file](https://github
+ .com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day
+ /09/13/delhi-blasts-2008.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -32782,13 +32795,12 @@ BEGIN:VEVENT
 SUMMARY:भाग्यनगर-विमुक्तिः #७३
 DTSTART;VALUE=DATE:20210917
 DTEND;VALUE=DATE:20210918
-DESCRIPTION:Observed on day 17 of September (gregorian) month. The event o
- ccurred in 1948 (Gregorian era).  <br/>Operation Polo ends. The last Nizam
-  and his armies from hell\, the Razakars surrender to the Indian troops af
- ter 3 days of hostilities. Hyderabad is liberated and enters the Indian Un
- ion.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyoti
- sham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/09/17/bhA
- gyanagara-vimuktiH.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 1948-09-17 (gregorian). Operation Polo ends. 
+ The last Nizam and his armies from hell\, the Razakars surrender to the In
+ dian troops after 3 days of hostilities. Hyderabad is liberated and enters
+  the Indian Union.<br/><br/>## Details<br/>- [Edit config file](https://gi
+ thub.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian
+ /day/09/17/bhAgyanagara-vimuktiH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -33871,11 +33883,15 @@ BEGIN:VEVENT
 SUMMARY:अक्षरधाम-ज्वालनम् #१९
 DTSTART;VALUE=DATE:20210924
 DTEND;VALUE=DATE:20210925
-DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/09/24/akSha
- radhAma-hatyA.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit
-  config file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruS
- ha/xatra-later/gregorian/day/09/24/akSharadhAma-hatyA.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 2002-09-24 (gregorian). On 24 September 2002\
+ , Murtaza Hafiz Yasin and Ashraf Ali Mohammad Farooq attacked the Swaminar
+ ayan Akshardham complex at Gandhinagar\, Gujarat\, India. They killed 30 p
+ eople and injured more than 80. National Security Guards intervened and en
+ ded the siege the next day\, killing both attackers. This was shortly afte
+ r the Godhra burning of Hindu pilgrims and the subsequent riots.<br/><br/>
+ <br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adya
+ tithi/tree/master/mahApuruSha/xatra-later/gregorian/day/09/24/akSharadhAma
+ -hatyA.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -35123,14 +35139,13 @@ SUMMARY:शिवराजस्य तान्त्रिकाभि
  षेकः #३४७
 DTSTART;VALUE=DATE:20211004
 DTEND;VALUE=DATE:20211005
-DESCRIPTION:Observed on day 4 of October (gregorian) month. Julian date wa
- s converted to Gregorian in this reckoning. The event occurred in 1674 (Gr
- egorian era).  <br/>On lalitapanchamI (ashvin shuddha 5)\, nishchapapurI\,
-  as requested by shivAjI\, conducted a tAntrik coronation. This was precee
- ded by ill omens such as a lightening strike\, deaths of jIjAbai\, kAshIbA
- i and pratAprAv.<br/><br/>## Details<br/>- [Edit config file](https://gith
- ub.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/d
- ay/10/04/shivarAjasya_tAntrikAbhiShekaH.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 1674-10-04 (gregorian). Julian date was conve
+ rted to Gregorian in this reckoning. On lalitapanchamI (ashvin shuddha 5)\
+ , nishchapapurI\, as requested by shivAjI\, conducted a tAntrik coronation
+ . This was preceeded by ill omens such as a lightening strike\, deaths of 
+ jIjAbai\, kAshIbAi and pratAprAv.<br/><br/>## Details<br/>- [Edit config f
+ ile](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-
+ later/gregorian/day/10/04/shivarAjasya_tAntrikAbhiShekaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -35901,11 +35916,10 @@ SUMMARY:नओखल्यां हिन्दुक-निघातस
  ्यारम्भः #७५
 DTSTART;VALUE=DATE:20211010
 DTEND;VALUE=DATE:20211011
-DESCRIPTION:Observed on day 10 of October (gregorian) month. The event occ
- urred in 1946 (Gregorian era).  <br/>Naokhali massacre of hindus by muslim
- s started<br/><br/>## Details<br/>- [Edit config file](https://github.com/
- jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/10/1
- 0/naokhalyAM_hinduka-nighAtasyArambhaH.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 1946-10-10 (gregorian). Naokhali massacre of 
+ hindus by muslims started<br/><br/>## Details<br/>- [Edit config file](htt
+ ps://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gr
+ egorian/day/10/10/naokhalyAM_hinduka-nighAtasyArambhaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -36252,14 +36266,13 @@ SUMMARY:चेन्नै-नगरे शिवराजः कालि
  काम् अपूजयत् #३४४
 DTSTART;VALUE=DATE:20211013
 DTEND;VALUE=DATE:20211014
-DESCRIPTION:Observed on day 13 of October (gregorian) month. Julian date w
- as converted to Gregorian in this reckoning. The event occurred in 1677 (G
- regorian era).  <br/>He had arrived near Fort St George in May on his karN
- ATaka campaign. shivAjI worships kAlikAmbA in modern Chennai on this day.<
- br/>https://twitter.com/iParamanand/status/915268209510563840<br/><br/>## 
- Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tr
- ee/master/mahApuruSha/xatra-later/gregorian/day/10/13/cennai-nagare_shivar
- AjaH_kAlikAm_apUjayat.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 1677-10-13 (gregorian). Julian date was conve
+ rted to Gregorian in this reckoning. He had arrived near Fort St George in
+  May on his karNATaka campaign. shivAjI worships kAlikAmbA in modern Chenn
+ ai on this day.<br/>https://twitter.com/iParamanand/status/915268209510563
+ 840<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotis
+ ham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/10/13/cenn
+ ai-nagare_shivarAjaH_kAlikAm_apUjayat.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -36324,11 +36337,11 @@ SUMMARY:शिवराजो सूरत-नगरं लुण्ठत
  ि #३५१
 DTSTART;VALUE=DATE:20211013
 DTEND;VALUE=DATE:20211014
-DESCRIPTION:Observed on day 13 of October (gregorian) month. Julian date w
- as converted to Gregorian in this reckoning. The event occurred in 1670 (G
- regorian era).  <br/><br/><br/>## Details<br/>- [Edit config file](https:/
- /github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregor
- ian/day/10/13/shivarAjo_sUrata-nagaraM_luNThati.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 1670-10-13 (gregorian). Julian date was conve
+ rted to Gregorian in this reckoning. <br/><br/>## Details<br/>- [Edit conf
+ ig file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xa
+ tra-later/gregorian/day/10/13/shivarAjo_sUrata-nagaraM_luNThati.toml)<br/>
+ - Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -36719,14 +36732,13 @@ SUMMARY:थ्रोचि-दुर्गे गोरक्ष-सैन
  िक-निघातः #७४
 DTSTART;VALUE=DATE:20211015
 DTEND;VALUE=DATE:20211016
-DESCRIPTION:Observed on day 15 of October (gregorian) month. The event occ
- urred in 1947 (Gregorian era).  <br/>the Muslim Major Nasrullah Khan who m
- urdered all Hindu Gorkha soldiers of his own battalion went to the garriso
- n of Raghubir Thapa. After killing all the Gorkhas\, Major Nasrullah khan 
- gave the Pakistani invaders a rousing welcome and joined their ranks<br/><
- br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyat
- ithi/tree/master/mahApuruSha/xatra-later/gregorian/day/10/15/throchi-durge
- _goraxa-sainika-nighAtaH.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 1947-10-15 (gregorian). the Muslim Major Nasr
+ ullah Khan who murdered all Hindu Gorkha soldiers of his own battalion wen
+ t to the garrison of Raghubir Thapa. After killing all the Gorkhas\, Major
+  Nasrullah khan gave the Pakistani invaders a rousing welcome and joined t
+ heir ranks<br/><br/>## Details<br/>- [Edit config file](https://github.com
+ /jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/10/
+ 15/throchi-durge_goraxa-sainika-nighAtaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -37961,13 +37973,12 @@ SUMMARY:शिवराजो विजयपुरम् आक्रा
  मति #३४८
 DTSTART;VALUE=DATE:20211023
 DTEND;VALUE=DATE:20211024
-DESCRIPTION:Observed on day 23 of October (gregorian) month. Julian date w
- as converted to Gregorian in this reckoning. The event occurred in 1673 (G
- regorian era).  <br/>shivAjI set out on vijaya-dashamI on his coastal camp
- aign\, arrived in satArA\, thence plundered bankApur.<br/><br/>## Details<
- br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/maste
- r/mahApuruSha/xatra-later/gregorian/day/10/23/shivarAjo_vijayapuram_AkrAma
- ti.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 1673-10-23 (gregorian). Julian date was conve
+ rted to Gregorian in this reckoning. shivAjI set out on vijaya-dashamI on 
+ his coastal campaign\, arrived in satArA\, thence plundered bankApur.<br/>
+ <br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adya
+ tithi/tree/master/mahApuruSha/xatra-later/gregorian/day/10/23/shivarAjo_vi
+ jayapuram_AkrAmati.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -38323,14 +38334,13 @@ BEGIN:VEVENT
 SUMMARY:कृष्णदेवराय-मरणम् #४९२
 DTSTART;VALUE=DATE:20211027
 DTEND;VALUE=DATE:20211028
-DESCRIPTION:Observed on day 27 of October (gregorian) month. Julian date w
- as converted to Gregorian in this reckoning. The event occurred in 1529 (G
- regorian era).  <br/>Great emperor kRShNadevarAya died. An inscription in 
- Honehalli near Tumkur records this. There was a lunar eclipse on the day. 
- कार्त्तिक-पूर्णिमा.<br/><br/>## Details<
- br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/maste
- r/mahApuruSha/xatra-later/gregorian/day/10/27/kRShNadevarAya-mRtyuH.toml)<
- br/>- Tags:
+DESCRIPTION:Event occured on 1529-10-27 (gregorian). Julian date was conve
+ rted to Gregorian in this reckoning. Great emperor kRShNadevarAya died. An
+  inscription in Honehalli near Tumkur records this. There was a lunar ecli
+ pse on the day. कार्त्तिक-पूर्णिमा.<br/>
+ <br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adya
+ tithi/tree/master/mahApuruSha/xatra-later/gregorian/day/10/27/kRShNadevarA
+ ya-mRtyuH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -38344,15 +38354,14 @@ SUMMARY:शिवराजो दिण्डोर्यां जयत
  ि #३५१
 DTSTART;VALUE=DATE:20211027
 DTEND;VALUE=DATE:20211028
-DESCRIPTION:Observed on day 27 of October (gregorian) month. Julian date w
- as converted to Gregorian in this reckoning. The event occurred in 1670 (G
- regorian era).  <br/>On this day was fought the fierce battle of Vani-Dind
- ori where Shivaji led the Marathas to a great victory against the Mughals.
-  shivAjI was returning from the sack of sUrat and daud khAn was sent to cu
- t him off. Date here is as per Jedhe shAkhAvalI.<br/><br/>## Details<br/>-
-  [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/mah
- ApuruSha/xatra-later/gregorian/day/10/27/shivarAjo_diNDoryAM_jayati.toml)<
- br/>- Tags:
+DESCRIPTION:Event occured on 1670-10-27 (gregorian). Julian date was conve
+ rted to Gregorian in this reckoning. On this day was fought the fierce bat
+ tle of Vani-Dindori where Shivaji led the Marathas to a great victory agai
+ nst the Mughals. shivAjI was returning from the sack of sUrat and daud khA
+ n was sent to cut him off. Date here is as per Jedhe shAkhAvalI.<br/><br/>
+ ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
+ /tree/master/mahApuruSha/xatra-later/gregorian/day/10/27/shivarAjo_diNDory
+ AM_jayati.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -38643,13 +38652,12 @@ SUMMARY:बाबर-राक्षसालयस्य पुरतो
  राम-सेवक-हननम् #३०
 DTSTART;VALUE=DATE:20211030
 DTEND;VALUE=DATE:20211031
-DESCRIPTION:Observed on day 30 of October (gregorian) month. The event occ
- urred in 1991 (Gregorian era).  <br/>mulAyam singh yAdav's police murdered
-  >hunderd of kara-sevaka-s in ayodhyA after an unanticipated number surrou
- nded bAbrI masjid despite government efforts.<br/><br/>## Details<br/>- [E
- dit config file](https://github.com/jyotisham/adyatithi/tree/master/mahApu
- ruSha/xatra-later/gregorian/day/10/30/bAbara-rAkSasAlayasya_purato_rAma-se
- vaka-hananam.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 1991-10-30 (gregorian). mulAyam singh yAdav's
+  police murdered >hunderd of kara-sevaka-s in ayodhyA after an unanticipat
+ ed number surrounded bAbrI masjid despite government efforts.<br/><br/>## 
+ Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tr
+ ee/master/mahApuruSha/xatra-later/gregorian/day/10/30/bAbara-rAkSasAlayasy
+ a_purato_rAma-sevaka-hananam.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -38738,11 +38746,11 @@ SUMMARY:सर्दार-पटेल-जन्मोत्सवः #
  १४६
 DTSTART;VALUE=DATE:20211031
 DTEND;VALUE=DATE:20211101
-DESCRIPTION:Observed on day 31 of October (gregorian) month. The event occ
- urred in 1875 (Gregorian era).  <br/>rAShTrIya-ekatA-divasa. Great unifier
- \, iron man sardAr paTel was born.<br/><br/>## Details<br/>- [Edit config 
- file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra
- -later/gregorian/day/10/31/sardAra-paTela-janmotsavaH.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 1875-10-31 (gregorian). rAShTrIya-ekatA-divas
+ a. Great unifier\, iron man sardAr paTel was born.<br/><br/>## Details<br/
+ >- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/m
+ ahApuruSha/xatra-later/gregorian/day/10/31/sardAra-paTela-janmotsavaH.toml
+ )<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -39254,12 +39262,11 @@ SUMMARY:शिवराजः कल्याणं जयति #३६
  ४
 DTSTART;VALUE=DATE:20211103
 DTEND;VALUE=DATE:20211104
-DESCRIPTION:Observed on day 3 of November (gregorian) month. Julian date w
- as converted to Gregorian in this reckoning. The event occurred in 1657 (G
- regorian era).  <br/>dAdAjI bApUjI captures kalyAN and bhivaNDi for svarAj
- ya.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotis
- ham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/11/03/shiv
- arAjaH_kalyANaM_jayati.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 1657-11-03 (gregorian). Julian date was conve
+ rted to Gregorian in this reckoning. dAdAjI bApUjI captures kalyAN and bhi
+ vaNDi for svarAjya.<br/><br/>## Details<br/>- [Edit config file](https://g
+ ithub.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregoria
+ n/day/11/03/shivarAjaH_kalyANaM_jayati.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -39613,12 +39620,11 @@ BEGIN:VEVENT
 SUMMARY:खड्कि-युद्धम् #२०४
 DTSTART;VALUE=DATE:20211105
 DTEND;VALUE=DATE:20211106
-DESCRIPTION:Observed on day 5 of November (gregorian) month. The event occ
- urred in 1817 (Gregorian era).  <br/>battle of Khadki (aka battle of Ganes
- hkhind) at Pune. Casualties:<br/>English side: 86<br/>Marathas: 500<br/><b
- r/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyati
- thi/tree/master/mahApuruSha/xatra-later/gregorian/day/11/05/khaDki-yuddham
- .toml)<br/>- Tags:
+DESCRIPTION:Event occured on 1817-11-05 (gregorian). battle of Khadki (aka
+  battle of Ganeshkhind) at Pune. Casualties:<br/>English side: 86<br/>Mara
+ thas: 500<br/><br/>## Details<br/>- [Edit config file](https://github.com/
+ jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/11/0
+ 5/khaDki-yuddham.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -40954,14 +40960,13 @@ SUMMARY:१९१५-लवपुर-विद्रोहि-हत्य
  ा #१०६
 DTSTART;VALUE=DATE:20211116
 DTEND;VALUE=DATE:20211117
-DESCRIPTION:Observed on day 16 of November (gregorian) month. The event oc
- curred in 1915 (Gregorian era).  <br/>viShNu gaNesha pingale and kartAr si
- ngh were executed by hanging by the British. They were active conspirators
-  in the attempted mutiny (with German collaboration) under rAsh behArI bAs
- u. They were betrayed by spies such as Kirpal Singh.<br/><br/><br/>## Deta
- ils<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/m
- aster/mahApuruSha/xatra-later/gregorian/day/11/16/1915-lavapura-vidrohi-ha
- tyA.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 1915-11-16 (gregorian). viShNu gaNesha pingal
+ e and kartAr singh were executed by hanging by the British. They were acti
+ ve conspirators in the attempted mutiny (with German collaboration) under 
+ rAsh behArI bAsu. They were betrayed by spies such as Kirpal Singh.<br/><b
+ r/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/a
+ dyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/11/16/1915-lava
+ pura-vidrohi-hatyA.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -41339,14 +41344,13 @@ BEGIN:VEVENT
 SUMMARY:माधव-राव-क्षयः #२४९
 DTSTART;VALUE=DATE:20211118
 DTEND;VALUE=DATE:20211119
-DESCRIPTION:Observed on day 18 of November (gregorian) month. The event oc
- curred in 1772 (Gregorian era).  <br/>The young but bold and astute vision
- ary\, peshvA mAdhava rAv\, died of tuberculosis at his favourite Ganesha C
- hintamani Temple\, Theur. Aged 28.  "And the plains of Panipat were not mo
- re fatal to the Maratha Empire than the early end of this excellent prince
- …"<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyoti
- sham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/11/18/mAd
- hava-rAva-kSayaH.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 1772-11-18 (gregorian). The young but bold an
+ d astute visionary\, peshvA mAdhava rAv\, died of tuberculosis at his favo
+ urite Ganesha Chintamani Temple\, Theur. Aged 28.  "And the plains of Pani
+ pat were not more fatal to the Maratha Empire than the early end of this e
+ xcellent prince…"<br/><br/>## Details<br/>- [Edit config file](https://g
+ ithub.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregoria
+ n/day/11/18/mAdhava-rAva-kSayaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -41911,14 +41915,13 @@ BEGIN:VEVENT
 SUMMARY:खानोदर-विदारणम् #३६२
 DTSTART;VALUE=DATE:20211120
 DTEND;VALUE=DATE:20211121
-DESCRIPTION:Observed on day 20 of November (gregorian) month. Julian date 
- was converted to Gregorian in this reckoning. The event occurred in 1659 (
- Gregorian era).  <br/>Afzal Khan is killed in an epic encounter. Shivaji o
- rdered Netoji Palkar to destroy Afzal's base at Wai the very same day & hi
- mself followed soon. https://twitter.com/Gopanarya/status/9287484022459760
- 64<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/11/20/khAno
- dara-vidAraNam.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 1659-11-20 (gregorian). Julian date was conve
+ rted to Gregorian in this reckoning. Afzal Khan is killed in an epic encou
+ nter. Shivaji ordered Netoji Palkar to destroy Afzal's base at Wai the ver
+ y same day & himself followed soon. https://twitter.com/Gopanarya/status/9
+ 28748402245976064<br/><br/>## Details<br/>- [Edit config file](https://git
+ hub.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/
+ day/11/20/khAnodara-vidAraNam.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -42227,15 +42230,14 @@ SUMMARY:राष्ट्राय माधवरावकृतम्
  आत्मसमर्पणम् #३५९
 DTSTART;VALUE=DATE:20211122
 DTEND;VALUE=DATE:20211123
-DESCRIPTION:Observed on day 22 of November (gregorian) month. Julian date 
- was converted to Gregorian in this reckoning. The event occurred in 1662 (
- Gregorian era).  <br/>raghunAtharAv joined the Nizam of Hyderabad. mAdhava
- rAv at Alegaon saw the disaster that would unfold due to intra-marATha war
-  of that scale shortly after pAnIpat. In an extremly humble and farsighted
-  gesture\, he rode into rAghoba's camp and surrendered.<br/><br/>## Detail
- s<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/mas
- ter/mahApuruSha/xatra-later/gregorian/day/11/22/mAdhavarAva-kRta-raghunAth
- a-sAntvanam.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 1662-11-22 (gregorian). Julian date was conve
+ rted to Gregorian in this reckoning. raghunAtharAv joined the Nizam of Hyd
+ erabad. mAdhavarAv at Alegaon saw the disaster that would unfold due to in
+ tra-marATha war of that scale shortly after pAnIpat. In an extremly humble
+  and farsighted gesture\, he rode into rAghoba's camp and surrendered.<br/
+ ><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/ady
+ atithi/tree/master/mahApuruSha/xatra-later/gregorian/day/11/22/mAdhavarAva
+ -kRta-raghunAtha-sAntvanam.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -42463,15 +42465,14 @@ SUMMARY:रघुनाथमन्दिराक्रमणम् २
  ००२११ #१९
 DTSTART;VALUE=DATE:20211124
 DTEND;VALUE=DATE:20211125
-DESCRIPTION:Observed on day 24 of November (gregorian) month. The event oc
- curred in 2002 (Gregorian era).  <br/>Two suicide bombers attacked the rAm
- a temple in Jammu (dating to 1860)\, just a few months after the March att
- ack. They killed fourteen devotees and injured 45 others. CRPF men Yatindr
- a Nath Rai\, Assistant Commandant\, Dev Singh\, Head Constable\, E.G. Rao\
- , Head Constable\, T.A.Singh\, Constable\, and Late K.K. Pandey showed gre
- at gallantry.<br/><br/><br/>## Details<br/>- [Edit config file](https://gi
- thub.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian
- /day/11/24/raghunAth-temple-attack_200203.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 2002-11-24 (gregorian). Two suicide bombers a
+ ttacked the rAma temple in Jammu (dating to 1860)\, just a few months afte
+ r the March attack. They killed fourteen devotees and injured 45 others. C
+ RPF men Yatindra Nath Rai\, Assistant Commandant\, Dev Singh\, Head Consta
+ ble\, E.G. Rao\, Head Constable\, T.A.Singh\, Constable\, and Late K.K. Pa
+ ndey showed great gallantry.<br/><br/><br/>## Details<br/>- [Edit config f
+ ile](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-
+ later/gregorian/day/11/24/raghunAth-temple-attack_200203.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -43404,13 +43405,12 @@ SUMMARY:अफ़्ज़ल्-खान-वधात् १३ दिनम
  ् #३६२
 DTSTART;VALUE=DATE:20211203
 DTEND;VALUE=DATE:20211204
-DESCRIPTION:Observed on day 3 of December (gregorian) month. Julian date w
- as converted to Gregorian in this reckoning. The event occurred in 1659 (G
- regorian era).  <br/>Day 13 (after Afzal's death): Supe\, Tambe\, Pali\, N
- erle\, Kameri\, Visapur\, Save Uran\, Koley are all taken.<br/><br/>## Det
- ails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/
- master/mahApuruSha/xatra-later/gregorian/day/12/03/afzal-khAna-vadhAt_13_d
- inam.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 1659-12-03 (gregorian). Julian date was conve
+ rted to Gregorian in this reckoning. Day 13 (after Afzal's death): Supe\, 
+ Tambe\, Pali\, Nerle\, Kameri\, Visapur\, Save Uran\, Koley are all taken.
+ <br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham
+ /adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/12/03/afzal-k
+ hAna-vadhAt_13_dinam.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -43705,14 +43705,13 @@ SUMMARY:१९७१ तमे वर्षे पाकिस्तान
   #५०
 DTSTART;VALUE=DATE:20211205
 DTEND;VALUE=DATE:20211206
-DESCRIPTION:Observed on day 5 of December (gregorian) month. The event occ
- urred in 1971 (Gregorian era).  <br/>On the evening of 3 December\, at abo
- ut 17:40\, the Islamic repulic of Pakistan Air Force (PAF) (<50 planes) la
- unched surprise strikes on 11 airfields in north-western India\, including
-  Agra\, which was 480 kilometres (300 mi) from the border.<br/><br/><br/>#
- # Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/
- tree/master/mahApuruSha/xatra-later/gregorian/day/12/05/71-indo-pAk-war-st
- art.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 1971-12-05 (gregorian). On the evening of 3 D
+ ecember\, at about 17:40\, the Islamic repulic of Pakistan Air Force (PAF)
+  (<50 planes) launched surprise strikes on 11 airfields in north-western I
+ ndia\, including Agra\, which was 480 kilometres (300 mi) from the border.
+ <br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
+ isham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/12/05/71
+ -indo-pAk-war-start.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -43922,10 +43921,10 @@ BEGIN:VEVENT
 SUMMARY:बाबर-राक्षसालय-नाशः #२९
 DTSTART;VALUE=DATE:20211206
 DTEND;VALUE=DATE:20211207
-DESCRIPTION:Observed on day 6 of December (gregorian) month. The event occ
- urred in 1992 (Gregorian era).  <br/><br/><br/>## Details<br/>- [Edit conf
- ig file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xa
- tra-later/gregorian/day/12/06/bAbri-mosque-demolition.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 1992-12-06 (gregorian). <br/><br/>## Details<
+ br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/maste
+ r/mahApuruSha/xatra-later/gregorian/day/12/06/bAbri-mosque-demolition.toml
+ )<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -44107,13 +44106,12 @@ SUMMARY:शिवराजेन पन्हळदुर्गं गृ
  हीतम् #३६२
 DTSTART;VALUE=DATE:20211208
 DTEND;VALUE=DATE:20211209
-DESCRIPTION:Observed on day 8 of December (gregorian) month. Julian date w
- as converted to Gregorian in this reckoning. The event occurred in 1659 (G
- regorian era).  <br/>Panhala fell on the 2nd night of the siege! Just 18 d
- ays after the slaying of Afzal Khan!<br/><br/>## Details<br/>- [Edit confi
- g file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xat
- ra-later/gregorian/day/12/08/shivAjI_takes_panhaLa.toml)<br/>- Tags: Shiva
- ji
+DESCRIPTION:Event occured on 1659-12-08 (gregorian). Julian date was conve
+ rted to Gregorian in this reckoning. Panhala fell on the 2nd night of the 
+ siege! Just 18 days after the slaying of Afzal Khan!<br/><br/>## Details<b
+ r/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master
+ /mahApuruSha/xatra-later/gregorian/day/12/08/shivAjI_takes_panhaLa.toml)<b
+ r/>- Tags: Shivaji
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -44668,14 +44666,13 @@ SUMMARY:२००१ वर्षे सांसदभवने मरु
  राक्षसप्रहारः #२०
 DTSTART;VALUE=DATE:20211213
 DTEND;VALUE=DATE:20211214
-DESCRIPTION:Observed on day 13 of December (gregorian) month. The event oc
- curred in 2001 (Gregorian era).  <br/>Islamic terrorists belonging to Lash
- kar-e-Taiba (LeT "Army of the Pure") and Jaish-e-Mohammed (JeM\, "Army of 
- Muhammad") attack Indian parliament. Deaths: 9 Indians (Constable Kamlesh 
- Kumari of CRPF who raised the alarm)\, and 5 jihAdis. Injured: 18.<br/><br
- /><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/ad
- yatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/12/13/parliament
- -attack-2001.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 2001-12-13 (gregorian). Islamic terrorists be
+ longing to Lashkar-e-Taiba (LeT "Army of the Pure") and Jaish-e-Mohammed (
+ JeM\, "Army of Muhammad") attack Indian parliament. Deaths: 9 Indians (Con
+ stable Kamlesh Kumari of CRPF who raised the alarm)\, and 5 jihAdis. Injur
+ ed: 18.<br/><br/><br/>## Details<br/>- [Edit config file](https://github.c
+ om/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/1
+ 2/13/parliament-attack-2001.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -45060,12 +45057,11 @@ SUMMARY:पाकिस्तान-पूर्व-पक्ष-कर्
  तनम् #५०
 DTSTART;VALUE=DATE:20211216
 DTEND;VALUE=DATE:20211217
-DESCRIPTION:Observed on day 16 of December (gregorian) month. The event oc
- curred in 1971 (Gregorian era).  <br/>Genocidal Pakistan Islamic Republic 
- army (93\,000 - mostly eastern command soldiers) surrendered to Indian for
- ces at DhAka.<br/><br/><br/>## Details<br/>- [Edit config file](https://gi
- thub.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian
- /day/12/16/pAkistAna-pUrva-paxa-kartanam.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 1971-12-16 (gregorian). Genocidal Pakistan Is
+ lamic Republic army (93\,000 - mostly eastern command soldiers) surrendere
+ d to Indian forces at DhAka.<br/><br/><br/>## Details<br/>- [Edit config f
+ ile](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-
+ later/gregorian/day/12/16/pAkistAna-pUrva-paxa-kartanam.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -45378,12 +45374,12 @@ BEGIN:VEVENT
 SUMMARY:गोवा-मोक्षः #६०
 DTSTART;VALUE=DATE:20211219
 DTEND;VALUE=DATE:20211220
-DESCRIPTION:Observed on day 19 of December (gregorian) month. The event oc
- curred in 1961 (Gregorian era).  <br/>Goa\, much traumatized by missionari
- es (including the evil Jesuit Francis Xavier)\, inquisition and racist mis
- rule\, finally freed from Portuguese.<br/><br/><br/>## Details<br/>- [Edit
-  config file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruS
- ha/xatra-later/gregorian/day/12/19/govA-moxaH.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 1961-12-19 (gregorian). Goa\, much traumatize
+ d by missionaries (including the evil Jesuit Francis Xavier)\, inquisition
+  and racist misrule\, finally freed from Portuguese.<br/><br/><br/>## Deta
+ ils<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/m
+ aster/mahApuruSha/xatra-later/gregorian/day/12/19/govA-moxaH.toml)<br/>- T
+ ags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -45469,15 +45465,14 @@ BEGIN:VEVENT
 SUMMARY:राम-प्रसाद-हत्या #९४
 DTSTART;VALUE=DATE:20211219
 DTEND;VALUE=DATE:20211220
-DESCRIPTION:Observed on day 19 of December (gregorian) month. The event oc
- curred in 1927 (Gregorian era).  <br/>On this day\, the Arya-samAjist paND
- it rAma-prasAd bismil\, a fine revolutionary and urdu/ Hindi poet was murd
- ered by British in retaliation for the Kakori heist\; as was his protege A
- shfaqullah Khan.<br/><br/>sarfaroshī kī tamannā ab hamāre dil meñ hai
-   <br/>dekhnā hai zor kitnā bāzū-e-qātil meñ hai<br/><br/><br/>## De
- tails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree
- /master/mahApuruSha/xatra-later/gregorian/day/12/19/rAma-prasAda-hatyA.tom
- l)<br/>- Tags:
+DESCRIPTION:Event occured on 1927-12-19 (gregorian). On this day\, the Ary
+ a-samAjist paNDit rAma-prasAd bismil\, a fine revolutionary and urdu/ Hind
+ i poet was murdered by British in retaliation for the Kakori heist\; as wa
+ s his protege Ashfaqullah Khan.<br/><br/>sarfaroshī kī tamannā ab hamā
+ re dil meñ hai  <br/>dekhnā hai zor kitnā bāzū-e-qātil meñ hai<br/>
+ <br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham
+ /adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/12/19/rAma-pr
+ asAda-hatyA.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -45642,14 +45637,13 @@ BEGIN:VEVENT
 SUMMARY:गोविन्द-पन्त-हत्या #२६१
 DTSTART;VALUE=DATE:20211220
 DTEND;VALUE=DATE:20211221
-DESCRIPTION:Observed on day 20 of December (gregorian) month. The event oc
- curred in 1760 (Gregorian era).  <br/>On this day\, in the lead up to Pani
- pat\, the Marathas suffer a major setback as their veteran revenue collect
- or Govind Pant\, who was in charge of an extremely critical & strategic ro
- le\, is killed in an overwhelming attack led by Atai Khan\, the Durrani Wa
- zir's nephew.<br/><br/>## Details<br/>- [Edit config file](https://github.
- com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/
- 12/20/govinda-panta-hatyA.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 1760-12-20 (gregorian). On this day\, in the 
+ lead up to Panipat\, the Marathas suffer a major setback as their veteran 
+ revenue collector Govind Pant\, who was in charge of an extremely critical
+  & strategic role\, is killed in an overwhelming attack led by Atai Khan\,
+  the Durrani Wazir's nephew.<br/><br/>## Details<br/>- [Edit config file](
+ https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later
+ /gregorian/day/12/20/govinda-panta-hatyA.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -45977,14 +45971,13 @@ BEGIN:VEVENT
 SUMMARY:शम्भु-विद्रोहः #३४३
 DTSTART;VALUE=DATE:20211223
 DTEND;VALUE=DATE:20211224
-DESCRIPTION:Observed on day 23 of December (gregorian) month. Julian date 
- was converted to Gregorian in this reckoning. The event occurred in 1678 (
- Gregorian era).  <br/>sAmbhAji fled from parali and joined mogol general d
- ilIr khan. He was greeted with a command position. sambhAjI would escape t
- he next year\, disgusted by dilIr khAn's cruelty and conciliated by shivAj
- I.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/12/23/shamb
- hu_vidrohaH.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 1678-12-23 (gregorian). Julian date was conve
+ rted to Gregorian in this reckoning. sAmbhAji fled from parali and joined 
+ mogol general dilIr khan. He was greeted with a command position. sambhAjI
+  would escape the next year\, disgusted by dilIr khAn's cruelty and concil
+ iated by shivAjI.<br/><br/>## Details<br/>- [Edit config file](https://git
+ hub.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/
+ day/12/23/shambhu_vidrohaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -45997,12 +45990,11 @@ BEGIN:VEVENT
 SUMMARY:श्रद्धानन्द-हत्या #९५
 DTSTART;VALUE=DATE:20211223
 DTEND;VALUE=DATE:20211224
-DESCRIPTION:Observed on day 23 of December (gregorian) month. The event oc
- curred in 1926 (Gregorian era).  <br/>Swami shraddhananda\, who brought ba
- ck lakhs of muslims to the deva-dharma\, was shot to death by Abdul Rashid
- .<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisha
- m/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/12/23/shradd
- hAnanda-murder.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 1926-12-23 (gregorian). Swami shraddhananda\,
+  who brought back lakhs of muslims to the deva-dharma\, was shot to death 
+ by Abdul Rashid.<br/><br/>## Details<br/>- [Edit config file](https://gith
+ ub.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/d
+ ay/12/23/shraddhAnanda-murder.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -46398,15 +46390,14 @@ BEGIN:VEVENT
 SUMMARY:चिमाजी-देह-त्यागः #२८१
 DTSTART;VALUE=DATE:20211228
 DTEND;VALUE=DATE:20211229
-DESCRIPTION:Observed on day 28 of December (gregorian) month. Julian date 
- was converted to Gregorian in this reckoning. The event occurred in 1740 (
- Gregorian era).  <br/>Chimaji Appa passed away at Pune on 17 Dec 1740\, le
- aving a young Nanasaheb Peshwa to face the challenges of the extraordinary
-  epoch that was to follow. Chimaji's decisive victories in Malwa\, Vasai a
- nd against the Siddi deserve to be remembered.<br/><br/>## Details<br/>- [
- Edit config file](https://github.com/jyotisham/adyatithi/tree/master/mahAp
- uruSha/xatra-later/gregorian/day/12/28/chimAjI-appa-death.toml)<br/>- Tags
- :
+DESCRIPTION:Event occured on 1740-12-28 (gregorian). Julian date was conve
+ rted to Gregorian in this reckoning. Chimaji Appa passed away at Pune on 1
+ 7 Dec 1740\, leaving a young Nanasaheb Peshwa to face the challenges of th
+ e extraordinary epoch that was to follow. Chimaji's decisive victories in 
+ Malwa\, Vasai and against the Siddi deserve to be remembered.<br/><br/>## 
+ Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tr
+ ee/master/mahApuruSha/xatra-later/gregorian/day/12/28/chimAjI-appa-death.t
+ oml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
