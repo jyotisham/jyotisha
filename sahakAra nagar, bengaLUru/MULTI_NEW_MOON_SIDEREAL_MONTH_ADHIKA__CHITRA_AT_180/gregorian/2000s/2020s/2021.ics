@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210310082202
+SEQUENCE:20210310223808
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -1286,6 +1286,23 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  inAtho_hataH.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit 
  config file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSh
  a/xatra-later/gregorian/day/01/12/vAnChinAtho_hataH.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:वडग्रामयुद्धम् #२४२
+DTSTART;VALUE=DATE:20210112
+DTEND;VALUE=DATE:20210113
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/01/12/vaDag
+ rAma-yuddham.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit 
+ config file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSh
+ a/xatra-later/gregorian/day/01/12/vaDagrAma-yuddham.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -39038,6 +39055,23 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:लस्वरि-युद्धम् #२१८
+DTSTART;VALUE=DATE:20211101
+DTEND;VALUE=DATE:20211102
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/11/01/lasva
+ ri-yuddham.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit co
+ nfig file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/
+ xatra-later/gregorian/day/11/01/lasvari-yuddham.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:सर्व-रमा-एकादशी
 DTSTART;VALUE=DATE:20211101
 DTEND;VALUE=DATE:20211102
@@ -46212,6 +46246,25 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:होल्कर-राजघट्ट-सन्धिः #२
+ १७
+DTSTART;VALUE=DATE:20211224
+DTEND;VALUE=DATE:20211225
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/12/24/holka
+ ra-rAjaghaTTa-sandhiH.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/
+ >- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/m
+ ahApuruSha/xatra-later/gregorian/day/12/24/holkara-rAjaghaTTa-sandhiH.toml
+ )<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:मार्गशीर्षः-09-21\,सिंहः-पूर
  ्वफल्गुनी🌛🌌◢◣धनुः-मूला-09-10
  🌌🌞◢◣सहस्यः-10-04🪐🌞शनिः
@@ -46863,6 +46916,23 @@ DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  ><br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.co
  m/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/description_
  only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:वसाय्-सन्धिः #२१९
+DTSTART;VALUE=DATE:20211231
+DTEND;VALUE=DATE:20220101
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/12/31/vasAy
+ -sandhiH.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit conf
+ ig file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xa
+ tra-later/gregorian/day/12/31/vasAy-sandhiH.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
