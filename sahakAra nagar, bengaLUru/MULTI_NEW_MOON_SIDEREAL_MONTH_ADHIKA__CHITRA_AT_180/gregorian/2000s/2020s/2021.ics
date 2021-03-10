@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210307092618
+SEQUENCE:20210310082202
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -3335,6 +3335,23 @@ DESCRIPTION:- Indian civil date: 1942-11-10\, Islamic: 1442-06-16 Jumādā
  49-08:15  \n___________________\n- **शूलम्**—प्राच
  ी दिक् (►09:52)\; **परिहारः**–दधि  \n___
  ________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:गान्धिमारणम् #७३
+DTSTART;VALUE=DATE:20210130
+DTEND;VALUE=DATE:20210131
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/01/30/gAndh
+ i-mAraNam.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/x
+ atra-later/gregorian/day/01/30/gAndhi-mAraNam.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8152,25 +8169,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:वासायि-युद्ध-समाप्तिः #२
- ९३
-DTSTART;VALUE=DATE:20210310
-DTEND;VALUE=DATE:20210311
-DESCRIPTION:Event occured on 1728-03-10 (gregorian). Julian date was conve
- rted to Gregorian in this reckoning. Chimaji Appa ground down the Portugue
- se\, systematically mined\, blasted and won vasAi/ bessein (long suffering
-  Christian inquisition barbarisms).<br/><br/>## Details<br/>- [Edit config
-  file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatr
- a-later/gregorian/day/03/10/vAsAy-yuddha-samAptiH.toml)<br/>- Tags:
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:विजया/श्रवण-महाद्वादशी
 DTSTART;VALUE=DATE:20210310
 DTEND;VALUE=DATE:20210311
@@ -11606,6 +11604,27 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:थाने-ग्रहणम् #२८४
+DTSTART;VALUE=DATE:20210406
+DTEND;VALUE=DATE:20210407
+DESCRIPTION:Event occured on 1737-04-06 (gregorian). Julian date was conve
+ rted to Gregorian in this reckoning. Thane captured from Portuguese. Peshw
+ a Bajirao's aim was to capture Sashthi Island by attacking the various for
+ ts guarding it. The first aim was to capture Thane. Having left Pune\, one
+  contingent of the Marathas reached Thane by the end of that month. chimAj
+ I appa\, on hearing this\, directed his troops west to shaShThI island.<br
+ /><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/04/06/thAne
+ -grahaNam.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:श्रवण-व्रतम्
 DTSTART;VALUE=DATE:20210406
 DTEND;VALUE=DATE:20210407
@@ -13929,6 +13948,28 @@ DESCRIPTION:- Indian civil date: 1943-02-04\, Islamic: 1442-09-12 Ramaḍ
  07:38  \n___________________\n- **शूलम्**—प्राची 
  दिक् (►09:24)\; **परिहारः**–दधि  \n_______
  ____________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:आङ्ग्लैः कोडगुग्रहणम् #१
+ ८७
+DTSTART;VALUE=DATE:20210424
+DTEND;VALUE=DATE:20210425
+DESCRIPTION:Event occured on 1834-04-24 (gregorian). chikka-vIra-rAjendra 
+ (allegedly tyrranical) was deposed and exiled by the British\; his kingdom
+  was annexed into British India. He lived 14 years in exile\; one of his d
+ aughters married jung bahAdur rANa\, while another\, gauramma (then aged 1
+ 1 years)\, adopted to be taken care by Queen Victoria was converted to Chr
+ istianity and married to some old colnel.<br/><br/><br/>## Details<br/>- [
+ Edit config file](https://github.com/jyotisham/adyatithi/tree/master/mahAp
+ uruSha/xatra-later/gregorian/day/04/24/AnglaiH_koDagu-grahaNam.toml)<br/>-
+  Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -16683,6 +16724,25 @@ DESCRIPTION:Observed on Śukla-Caturthī tithi of Vaiśākhaḥ (lunar) mo
  nth (Sūryodayaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config 
  file](https://github.com/jyotisham/adyatithi/tree/master/devatA/umA/lunar_
  month/tithi/02/04/vArtA-gaurI-vratam.toml)<br/>- Tags: SpecialVratam
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:वासायि-युद्ध-समाप्तिः #२
+ ८२
+DTSTART;VALUE=DATE:20210516
+DTEND;VALUE=DATE:20210517
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/05/16/vAsAy
+ -yuddha-samAptiH.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [E
+ dit config file](https://github.com/jyotisham/adyatithi/tree/master/mahApu
+ ruSha/xatra-later/gregorian/day/05/16/vAsAy-yuddha-samAptiH.toml)<br/>- Ta
+ gs:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
