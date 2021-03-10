@@ -22,7 +22,9 @@ logging.basicConfig(
 class SolarFestivalAssigner(FestivalAssigner):
   def assign_all(self):
     self.assign_gajachhaya_yoga()
-    self.assign_sankranti_punyakaala()
+    self.assign_sidereal_sankranti_punyakaala()
+    self.assign_tropical_sankranti_punyakaala()
+    self.assign_tropical_sankranti()
     self.assign_mahodaya_ardhodaya()
     self.assign_month_day_kaaradaiyan()
     self.assign_month_day_muDavan_muzhukku()
@@ -32,7 +34,14 @@ class SolarFestivalAssigner(FestivalAssigner):
     self.assign_agni_nakshatra()
 
 
-  def assign_sankranti_punyakaala(self):
+  def assign_pitr_dina(self):
+    self.assign_gajachhaya_yoga()
+    self.assign_sidereal_sankranti_punyakaala()
+    self.assign_mahodaya_ardhodaya()
+    self.assign_vishesha_vyatipata()
+
+
+  def assign_sidereal_sankranti_punyakaala(self):
     if 'mESa-viSu-puNyakAlaH' not in self.rules_collection.name_to_rule:
       return 
 
@@ -64,20 +73,38 @@ class SolarFestivalAssigner(FestivalAssigner):
         11: "kumbha-ravi-saGkramaNa-viSNupadI",
         12: "mIna-ravi-saGkramaNa-SaDazIti",
     }
-    RTU_MASA_NAMES = {
-        1: "madhu-mAsaH",
-        2: "mAdhava-mAsaH/vasantaRtuH",
-        3: "zukra-mAsaH/uttarAyaNam",
-        4: "zuci-mAsaH/grISmaRtuH",
-        5: "nabhO-mAsaH",
-        6: "nabhasya-mAsaH/varSaRtuH",
-        7: "iSa-mAsaH",
-        8: "Urja-mAsaH/zaradRtuH",
-        9: "sahO-mAsaH/dakSiNAyanam",
-        10: "sahasya-mAsaH/hEmantaRtuH",
-        11: "tapO-mAsaH",
-        12: "tapasya-mAsaH/ziziraRtuH",
-    }
+    for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
+      if self.daily_panchaangas[d].solar_sidereal_date_sunset.month_transition is not None:
+        punya_kaala_str = SANKRANTI_PUNYAKALA_NAMES[self.daily_panchaangas[d + 1].solar_sidereal_date_sunset.month] + '-puNyakAlaH'
+        jd_transition = self.daily_panchaangas[d].solar_sidereal_date_sunset.month_transition
+        # TODO: convert carefully to relative nadikas!
+        punya_kaala_start_jd = jd_transition - PUNYA_KAALA[self.daily_panchaangas[d + 1].solar_sidereal_date_sunset.month][0] * 1/60
+        punya_kaala_end_jd = jd_transition + PUNYA_KAALA[self.daily_panchaangas[d + 1].solar_sidereal_date_sunset.month][1] * 1/60
+        if punya_kaala_start_jd < self.daily_panchaangas[d].jd_sunrise:
+          fday = d - 1
+        else:
+          fday = d
+        self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name=punya_kaala_str, interval=Interval(jd_start=punya_kaala_start_jd, jd_end=punya_kaala_end_jd)), date=self.daily_panchaangas[fday].date)
+
+
+  def assign_tropical_sankranti_punyakaala(self):
+    if 'mESa-viSu-puNyakAlaH' not in self.rules_collection.name_to_rule:
+      return 
+
+    # Reference
+    # ---------
+    #
+    # अतीतानागते पुण्ये द्वे उदग्दक्षिणायने। त्रिंशत्कर्कटके नाड्यो मकरे विंशतिः स्मृताः॥
+    # वर्तमाने तुलामेषे नाड्यस्तूभयतो दश। षडशीत्यामतीतायां षष्टिरुक्तास्तु नाडिकाः॥
+    # पुण्यायां विष्णुपद्यां च प्राक् पश्चादपि षोडशः॥
+    # —वैद्यनाथ-दीक्षितीये स्मृतिमुक्ताफले आह्निक-काण्डः
+    #
+    # The times before and/or after any given sankranti (tropical/sidereal) are sacred for snanam & danam
+    # with specific times specified. For Mesha and Tula, 10 nAdikas before and after are special,
+    # while for Shadashiti, an entire 60 nAdikas following the sankramaNam are special, and so on.
+
+    PUNYA_KAALA = {1: (10, 10), 2: (16, 16), 3: (0, 60), 4: (30, 0), 5: (16, 16), 6: (0, 60),
+                   7: (10, 10), 8: (16, 16), 9: (0, 60), 10: (0, 20), 11: (16, 16), 12: (0, 60)}
     TROPICAL_SANKRANTI_PUNYAKALA_NAMES = {
         1: "mESa-viSu",
         2: "viSNupadI",
@@ -94,18 +121,6 @@ class SolarFestivalAssigner(FestivalAssigner):
     }
 
     for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
-      if self.daily_panchaangas[d].solar_sidereal_date_sunset.month_transition is not None:
-        punya_kaala_str = SANKRANTI_PUNYAKALA_NAMES[self.daily_panchaangas[d + 1].solar_sidereal_date_sunset.month] + '-puNyakAlaH'
-        jd_transition = self.daily_panchaangas[d].solar_sidereal_date_sunset.month_transition
-        # TODO: convert carefully to relative nadikas!
-        punya_kaala_start_jd = jd_transition - PUNYA_KAALA[self.daily_panchaangas[d + 1].solar_sidereal_date_sunset.month][0] * 1/60
-        punya_kaala_end_jd = jd_transition + PUNYA_KAALA[self.daily_panchaangas[d + 1].solar_sidereal_date_sunset.month][1] * 1/60
-        if punya_kaala_start_jd < self.daily_panchaangas[d].jd_sunrise:
-          fday = d - 1
-        else:
-          fday = d
-        self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name=punya_kaala_str, interval=Interval(jd_start=punya_kaala_start_jd, jd_end=punya_kaala_end_jd)), date=self.daily_panchaangas[fday].date)
-
       if self.daily_panchaangas[d].tropical_date_sunset.month_transition is not None:
         # Add punyakala
         punya_kaala_str = TROPICAL_SANKRANTI_PUNYAKALA_NAMES[self.daily_panchaangas[d + 1].tropical_date_sunset.month] + '-puNyakAlaH'
@@ -118,6 +133,29 @@ class SolarFestivalAssigner(FestivalAssigner):
         else:
           fday = d
         self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name=punya_kaala_str, interval=Interval(jd_start=punya_kaala_start_jd, jd_end=punya_kaala_end_jd)), date=self.daily_panchaangas[fday].date)
+
+
+  def assign_tropical_sankranti(self):
+    if 'mESa-viSu-puNyakAlaH' not in self.rules_collection.name_to_rule:
+      return 
+    RTU_MASA_NAMES = {
+        1: "madhu-mAsaH",
+        2: "mAdhava-mAsaH/vasantaRtuH",
+        3: "zukra-mAsaH/uttarAyaNam",
+        4: "zuci-mAsaH/grISmaRtuH",
+        5: "nabhO-mAsaH",
+        6: "nabhasya-mAsaH/varSaRtuH",
+        7: "iSa-mAsaH",
+        8: "Urja-mAsaH/zaradRtuH",
+        9: "sahO-mAsaH/dakSiNAyanam",
+        10: "sahasya-mAsaH/hEmantaRtuH",
+        11: "tapO-mAsaH",
+        12: "tapasya-mAsaH/ziziraRtuH",
+    }
+
+    for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
+      if self.daily_panchaangas[d].tropical_date_sunset.month_transition is not None:
+        jd_transition = self.daily_panchaangas[d].tropical_date_sunset.month_transition
 
         # Add tropical sankranti
         masa_name = RTU_MASA_NAMES[(self.daily_panchaangas[d + 1].tropical_date_sunset.month - 2) % 12 + 1]
