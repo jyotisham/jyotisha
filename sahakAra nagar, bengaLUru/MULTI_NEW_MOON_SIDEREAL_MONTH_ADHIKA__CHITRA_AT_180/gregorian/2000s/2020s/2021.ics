@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210312081024
+SEQUENCE:20210312135056
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -8395,6 +8395,23 @@ DESCRIPTION:Observed on Śatabhiṣak nakshatra of Kumbhaḥ (sidereal sol
  file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/nAyan
  Ar/sidereal_solar_month/nakshatra/11/24/kocceGgaT%20cOzha%20nAyan2Ar%20%28
  59%29%20gurupUjai.toml)<br/>- Tags: NayanarGurupujai
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:लवण-सङ्घर्षः #९१
+DTSTART;VALUE=DATE:20210312
+DTEND;VALUE=DATE:20210313
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/03/12/lavaN
+ a-sangharShaH.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit
+  config file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruS
+ ha/xatra-later/gregorian/day/03/12/lavaNa-sangharShaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
