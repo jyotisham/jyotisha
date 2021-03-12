@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210310223900
+SEQUENCE:20210312075800
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -8408,11 +8408,12 @@ SUMMARY:मुम्बापुर्याम् १२ विस्फ
  ोटकानि #२८
 DTSTART;VALUE=DATE:20210312
 DTEND;VALUE=DATE:20210313
-DESCRIPTION:Event occured on 1993-03-12 (gregorian). Mumbai: 12 bombs expl
- oded\, 260 people dead\, 700 + Injured<br/><br/>## Details<br/>- [Edit con
- fig file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/x
- atra-later/gregorian/day/03/12/mumbApuryAm_12_visphoTakAni.toml)<br/>- Tag
- s:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/03/12/mumbA
+ puryAm_12_visphoTakAni.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br
+ />- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/
+ mahApuruSha/xatra-later/gregorian/day/03/12/mumbApuryAm_12_visphoTakAni.to
+ ml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
