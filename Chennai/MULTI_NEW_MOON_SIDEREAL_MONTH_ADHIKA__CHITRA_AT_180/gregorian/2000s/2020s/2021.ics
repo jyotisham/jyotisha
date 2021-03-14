@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210312135154
+SEQUENCE:20210314133101
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -8609,11 +8609,12 @@ SUMMARY:उधमसिंहेन जल्लिअन्वाला-
  प्रतीकारः #८१
 DTSTART;VALUE=DATE:20210313
 DTEND;VALUE=DATE:20210314
-DESCRIPTION:Event occured on 1940-03-13 (gregorian). Udham Singh dispatche
- d Michael O'Dwyer to his maker for ordering the Jallianwala Bagh massacre.
- <br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham
- /adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/03/13/udhamas
- iMhena_jallianvAlA-pratIkAraH.toml)<br/>- Tags:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/03/13/udham
+ asiMhena_jallianvAlA-pratIkAraH.toml)<br/>- Tags: <br/><br/><br/><br/>## D
+ etails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tre
+ e/master/mahApuruSha/xatra-later/gregorian/day/03/13/udhamasiMhena_jallian
+ vAlA-pratIkAraH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8738,19 +8739,15 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:कारडैयाऩ् नोऩ्बु
+SUMMARY:सावित्री-व्रतम्
 DTSTART;VALUE=DATE:20210314
 DTEND;VALUE=DATE:20210315
-DESCRIPTION:Tradition in South India (especially Tamil Nadu)\, where all w
- omen perform this nonbu praying for their husband's long life. This vratam
-  was peformed by Savitri in the forest\, following which she redeemed his 
- life from Lord Yama.<br/><br/>दोरं गृह्णामि सु
- भगे सहारिद्रं धराम्यहम्।  <br/
- >भर्तुरायुष्य-सिद्ध्यर्थं 
- सुप्रीता भव सर्वदा॥  <br/><br/><br/><br/
- ><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/ady
- atithi/tree/master/tamil/description_only/kAraDaiyAn2%20nOn2bu.toml)<br/>-
-  Tags: CommonFestivalsTamilnadu
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/tamil/description_only/kAraDaiyAn2%20nOn2bu.toml)
+ <br/>- Tags: CommonFestivalsTamilnadu<br/><br/><br/><br/>## Details<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/tami
+ l/description_only/kAraDaiyAn2%20nOn2bu.toml)<br/>- Tags: CommonFestivalsT
+ amilnadu
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -22938,6 +22935,25 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:मदनलाल आङ्ग्लेयं घ्नन्त
+ ि #११२
+DTSTART;VALUE=DATE:20210701
+DTEND;VALUE=DATE:20210702
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/07/01/madan
+ alAla_AngleyaM_ghnanti.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br
+ />- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/
+ mahApuruSha/xatra-later/gregorian/day/07/01/madanalAla_AngleyaM_ghnanti.to
+ ml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:ज्यैष्ठः-03-23\,मीनः-रेवती🌛
  🌌◢◣मिथुनम्-आर्द्रा-03-18🌌🌞◢◣
  शुचिः-04-12🪐🌞शुक्रः
@@ -24418,26 +24434,6 @@ DESCRIPTION:- Indian civil date: 1943-04-24\, Islamic: 1442-12-05 Ḏū al
  ककालः**—09:04-10:39  \n___________________\n- **शूलम
  ्**—दक्षिणा दिक् (►14:21)\; **परिहा
  रः**–तैलम्  \n___________________\n
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:आङ्ग्रॆ-कान्होजी-जन्म #२
- ९२
-DTSTART;VALUE=DATE:20210715
-DTEND;VALUE=DATE:20210716
-DESCRIPTION:Event occured on 1729-07-15 (gregorian). death anniversary of 
- Maratha Navy Admiral Kanhoji Angre. During his undefeated reign\, his navy
-  controlled west coast\, prevented entry of slave trade in India\, fully s
- ucceeded in keeping British\, Dutch\, Portuguese at bay.<br/><br/>## Detai
- ls<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/ma
- ster/mahApuruSha/xatra-later/gregorian/day/07/15/AngrE-kAnhojI-janma.toml)
- <br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -26165,6 +26161,30 @@ DESCRIPTION:- Indian civil date: 1943-05-04\, Islamic: 1442-12-16 Ḏū al
  लः**—13:50-15:24  \n___________________\n- **शूलम्**—प
  ्राची दिक् (►09:18)\; **परिहारः**–द
  धि  \n___________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:आङ्ग्रॆ-कान्होजी-मृत्यु
+ ः #२९२
+DTSTART;VALUE=DATE:20210726
+DTEND;VALUE=DATE:20210727
+DESCRIPTION:Event occured on 1729-07-26 (gregorian). Julian date was conve
+ rted to Gregorian in this reckoning. Death anniversary of Maratha Navy Adm
+ iral Kanhoji Angre. During his undefeated reign\, his navy controlled west
+  coast\, prevented entry of slave trade in India\, fully succeeded in keep
+ ing British\, Dutch\, Portuguese at bay.<br/><br/>॥श्री॥ श
+ ्री शाहू-नृपती-प्रित्या तुक
+ ोजी-तनुजन्मना कान्होजी-सरख
+ ेलस्य मुद्रा जयति सर्वदा॥ <br/
+ ><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisha
+ m/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/07/26/AngrE-
+ kAnhojI-mRtyuH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
