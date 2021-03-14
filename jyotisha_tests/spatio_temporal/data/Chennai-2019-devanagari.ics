@@ -7083,17 +7083,15 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Kāraḍaiyān Nonbu
+SUMMARY:sāvitrī-vratam
 DTSTART;VALUE=DATE:20190315
 DTEND;VALUE=DATE:20190316
-DESCRIPTION:Tradition in South India (especially Tamil Nadu)\, where all w
- omen perform this nonbu praying for their husband's long life. This vratam
-  was peformed by Savitri in the forest\, following which she redeemed his 
- life from Lord Yama.<br/><br/>doraṃ gṛhṇāmi subhage sahāridraṃ d
- harāmyaham|  <br/>bharturāyuṣya-siddhyarthaṃ suprītā bhava sarvad
- ā||  <br/><br/><br/><br/><br/>## Details<br/>- [Edit config file](https:/
- /github.com/jyotisham/adyatithi/tree/master/tamil/description_only/kAraDai
- yAn2%20nOn2bu.toml)<br/>- Tags: CommonFestivalsTamilnadu
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/tamil/description_only/kAraDaiyAn2%20nOn2bu.toml)
+ <br/>- Tags: CommonFestivalsTamilnadu<br/><br/><br/><br/>## Details<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/tami
+ l/description_only/kAraDaiyAn2%20nOn2bu.toml)<br/>- Tags: CommonFestivalsT
+ amilnadu
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
