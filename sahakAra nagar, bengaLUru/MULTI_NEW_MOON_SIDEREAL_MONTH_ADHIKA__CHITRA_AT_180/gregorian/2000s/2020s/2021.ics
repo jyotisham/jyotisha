@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210314201606
+SEQUENCE:20210314202304
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -8591,11 +8591,11 @@ DESCRIPTION:Observed on Amāvāsyā tithi of Māghaḥ (lunar) month (Sūr
  yodayaḥ/puurvaviddha). The event occurred in 4665 (Kali era).  <br/><br/
  ><br/>मन्मनोभीष्टवरदं सर्वाभी
  ष्टफलप्रदम्।  <br/>पुरन्दरगुर
- ुं वन्दे दासशृएष्ठं दयानिध
- िम्॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](https:
- //github.com/jyotisham/adyatithi/tree/master/mahApuruSha/sangIta-kRt/lunar
- _month/tithi/11/30/purandaradAsa-ArAdhanA.toml)<br/>- Tags: MahapurushaEve
- nts CommonFestivals
+ ुं वन्दे दासश्रेष्ठं दयानि
+ धिम्॥<br/><br/><br/><br/>## Details<br/>- [Edit config file](htt
+ ps://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/sangIta-kRt/lu
+ nar_month/tithi/11/30/purandaradAsa-ArAdhanA.toml)<br/>- Tags: Mahapurusha
+ Events CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
