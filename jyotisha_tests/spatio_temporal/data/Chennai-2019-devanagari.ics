@@ -6711,13 +6711,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Kapālī Dvajārohaṇam
+SUMMARY:kapālīśvara-dhvajārohaṇam
 DTSTART;VALUE=DATE:20190311
 DTEND;VALUE=DATE:20190312
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/tree/master/temples/Tamil/relative_event/kar2pagAmbAL%E2%80%9
- 3kapAlIzvarar%20tirukkalyANam/offset__-9/kapAlI%20dvajArOhaNam.toml)<br/>-
-  Tags: TamilnaduTempleFestivals
+ 3kapAlIzvarar%20tirukkalyANam/offset__-9/kapAlI%20dhvajArOhaNam.toml)<br/>
+ - Tags: TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
