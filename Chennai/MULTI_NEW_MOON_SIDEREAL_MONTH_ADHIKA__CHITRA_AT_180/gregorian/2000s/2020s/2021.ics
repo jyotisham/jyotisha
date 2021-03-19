@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210314203311
+SEQUENCE:20210319070609
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -9277,13 +9277,13 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:कपाली द्वजारोहणम्
+SUMMARY:कपालीश्वर-ध्वजारोहणम्
 DTSTART;VALUE=DATE:20210319
 DTEND;VALUE=DATE:20210320
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  am/adyatithi/tree/master/temples/Tamil/relative_event/kar2pagAmbAL%E2%80%9
- 3kapAlIzvarar%20tirukkalyANam/offset__-9/kapAlI%20dvajArOhaNam.toml)<br/>-
-  Tags: TamilnaduTempleFestivals
+ 3kapAlIzvarar%20tirukkalyANam/offset__-9/kapAlI%20dhvajArOhaNam.toml)<br/>
+ - Tags: TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10220,6 +10220,24 @@ DESCRIPTION:- Indian civil date: 1943-01-05\, Islamic: 1442-08-12 Shaʿbā
  ककालः**—07:43-09:13  \n___________________\n- **शूलम
  ्**—प्रतीची दिक् (►11:02)\; **परिहा
  रः**–गुडम्  \n___________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:होल्कर-मल्हर-जन्म #३२८
+DTSTART;VALUE=DATE:20210326
+DTEND;VALUE=DATE:20210327
+DESCRIPTION:Event occured on 1693-03-26 (gregorian). Julian date was conve
+ rted to Gregorian in this reckoning. On this day was born the great genera
+ l Malhar Rao Holkar\, who served under peshva-s ranging from bAjI rAv to m
+ Adhav rAv.<br/><br/><br/>## Details<br/>- [Edit config file](https://githu
+ b.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/da
+ y/03/26/holkara-malhara-janma.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
