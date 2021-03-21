@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210319070518
+SEQUENCE:20210321123532
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -134,6 +134,25 @@ DESCRIPTION:Special vrata day for Ganesha. In this month\, Ganesha is wors
  /adyatithi/tree/master/devatA/gaNapati/description_only/Akhuratha-mahAgaNa
  pati%20saGkaTahara-caturthI-vratam.toml)<br/>- Tags: MonthlyVratam Sankata
  haraChaturthiVratam
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:औरङ्गज़ेब उदयपुरमन्दिरन
+ ाशम् आदिशति #३४२
+DTSTART;VALUE=DATE:20210102
+DTEND;VALUE=DATE:20210103
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/01/02/avran
+ gzeba_udayapura-mandira-nAsham_Adishati.toml)<br/>- Tags: <br/><br/><br/><
+ br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyat
+ ithi/tree/master/mahApuruSha/xatra-later/gregorian/day/01/02/avrangzeba_ud
+ ayapura-mandira-nAsham_Adishati.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4561,6 +4580,25 @@ DESCRIPTION:Observed on Kṛṣṇa-Caturdaśī tithi of every (lunar) mon
  br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/maste
  r/devatA/shaiva/lunar_month/tithi/00/29/mAsazivarAtriH.toml)<br/>- Tags: M
  onthlyFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:शम्भुराजो बुर्हानपुरम् 
+ आक्रामति #३४०
+DTSTART;VALUE=DATE:20210210
+DTEND;VALUE=DATE:20210211
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/02/10/shamb
+ hurAjo_burhAnapuram_AkrAmati.toml)<br/>- Tags: <br/><br/><br/><br/>## Deta
+ ils<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/m
+ aster/mahApuruSha/xatra-later/gregorian/day/02/10/shambhurAjo_burhAnapuram
+ _AkrAmati.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9631,11 +9669,12 @@ SUMMARY:शम्भुराजो पीडितो हतश् च #
  ३३२
 DTSTART;VALUE=DATE:20210321
 DTEND;VALUE=DATE:20210322
-DESCRIPTION:Event occured on 1689-03-21 (gregorian). Julian date was conve
- rted to Gregorian in this reckoning. sambhAji mahArAj tortured and killed 
- by awrangzeb<br/><br/>## Details<br/>- [Edit config file](https://github.c
- om/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/0
- 3/21/shambhurAjo_pIDito_hatash_cha.toml)<br/>- Tags:
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/03/21/shamb
+ hurAjo_pIDito_hatash_cha.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<
+ br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/maste
+ r/mahApuruSha/xatra-later/gregorian/day/03/21/shambhurAjo_pIDito_hatash_ch
+ a.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
