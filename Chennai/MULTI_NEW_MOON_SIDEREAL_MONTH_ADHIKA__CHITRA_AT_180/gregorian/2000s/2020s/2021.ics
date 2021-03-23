@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210321123630
+SEQUENCE:20210323071218
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -9614,7 +9614,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:कपाली अधिकार नन्दि
+SUMMARY:कपाल्यधिकार-नन्दी
 DTSTART;VALUE=DATE:20210321
 DTEND;VALUE=DATE:20210322
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -9885,7 +9885,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:कपाली रिषभ वाहऩम्
+SUMMARY:कपालि-वृषभ-वाहनम्
 DTSTART;VALUE=DATE:20210323
 DTEND;VALUE=DATE:20210324
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -10138,7 +10138,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:कपाली तेर्
+SUMMARY:कपालीश्वरयात्रा
 DTSTART;VALUE=DATE:20210325
 DTEND;VALUE=DATE:20210326
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -10898,8 +10898,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:कपाली उमा-महेश्वर दरिचऩम
- ्
+SUMMARY:उमा-कपालीश्वर-दर्शनम्
 DTSTART;VALUE=DATE:20210329
 DTEND;VALUE=DATE:20210330
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -42030,6 +42029,24 @@ DESCRIPTION:Observed on Paurṇamāsī tithi of every (lunar) month (Sūry
  atyanarayana.<br/><br/>## Details<br/>- [Edit config file](https://github.
  com/jyotisham/adyatithi/tree/master/devatA/vaiShNava/lunar_month/tithi/00/
  15/pUrNimA~vratam.toml)<br/>- Tags: MonthlyFestivals
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:फोण्ड-दुर्ग-रक्षणम् #३३८
+DTSTART;VALUE=DATE:20211119
+DTEND;VALUE=DATE:20211120
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/11/19/phoND
+ a-durga-raxaNam.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Ed
+ it config file](https://github.com/jyotisham/adyatithi/tree/master/mahApur
+ uSha/xatra-later/gregorian/day/11/19/phoNDa-durga-raxaNam.toml)<br/>- Tags
+ :
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
