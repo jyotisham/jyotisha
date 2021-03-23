@@ -6903,7 +6903,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Kapālī Adhikāra Nandi
+SUMMARY:kapālyadhikāra-nandī
 DTSTART;VALUE=DATE:20190313
 DTEND;VALUE=DATE:20190314
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -7117,7 +7117,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Kapālī Riṣabha Vāhanam
+SUMMARY:kapāli-vṛṣabha-vāhanam
 DTSTART;VALUE=DATE:20190315
 DTEND;VALUE=DATE:20190316
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -7257,7 +7257,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Kapālī Ter
+SUMMARY:kapālīśvarayātrā
 DTSTART;VALUE=DATE:20190317
 DTEND;VALUE=DATE:20190318
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -7896,7 +7896,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Kapālī Umā-Maheśvara Darichanam
+SUMMARY:umā-kapālīśvara-darśanam
 DTSTART;VALUE=DATE:20190321
 DTEND;VALUE=DATE:20190322
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
