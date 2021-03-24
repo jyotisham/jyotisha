@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210323071125
+SEQUENCE:20210324065847
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -1288,6 +1288,25 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
  seno_hataH.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit co
  nfig file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/
  xatra-later/gregorian/day/01/12/sUryaseno_hataH.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:शम्भुराजो गोवाया निर्या
+ ति #३३७
+DTSTART;VALUE=DATE:20210112
+DTEND;VALUE=DATE:20210113
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/01/12/shamb
+ hurAjo_govAyA_niryAti.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/
+ >- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/m
+ ahApuruSha/xatra-later/gregorian/day/01/12/shambhurAjo_govAyA_niryAti.toml
+ )<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10033,8 +10052,8 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:वेङ्कटाचले प्लवोत्सव-आर
- म्भः
+SUMMARY:वेङ्कटाचले प्लवोत्सव-प्
+ रारम्भः
 DTSTART;VALUE=DATE:20210324
 DTEND;VALUE=DATE:20210325
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -14163,8 +14182,8 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:वेङ्कटाचले वसन्तोत्सव-आ
- रम्भः
+SUMMARY:वेङ्कटाचले वसन्तोत्सव-प
+ ्रारम्भः
 DTSTART;VALUE=DATE:20210424
 DTEND;VALUE=DATE:20210425
 DESCRIPTION:Vasantotsava is an annual festival conducted for three days (T
@@ -17512,7 +17531,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:वेङ्कटाचले पद्मावती-परि
- णयोत्सव-आरम्भः (गज-वाहनम्)
+ णयोत्सव-प्रारम्भः (गज-वाहनम
+ ्)
 DTSTART;VALUE=DATE:20210521
 DTEND;VALUE=DATE:20210522
 DESCRIPTION:Sri Venkateshwara Swami mounts Gaja Vahana and Sri devi and Bh
@@ -21409,7 +21429,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:अलर्मेल्मङ्गापुरे प्लव
- ोत्सव-आरम्भः
+ ोत्सव-प्रारम्भः
 DTSTART;VALUE=DATE:20210620
 DTEND;VALUE=DATE:20210621
 DESCRIPTION:Rukmini Satyabhama sahita Krishna are taken out on the plava.<
@@ -43793,6 +43813,25 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:ऎस्टिव-द्वीप-ग्रहणम् #३३
+ ८
+DTSTART;VALUE=DATE:20211204
+DTEND;VALUE=DATE:20211205
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/12/04/esTiv
+ a-dvIpa-grahaNam.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [E
+ dit config file](https://github.com/jyotisham/adyatithi/tree/master/mahApu
+ ruSha/xatra-later/gregorian/day/12/04/esTiva-dvIpa-grahaNam.toml)<br/>- Ta
+ gs:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:काञ्ची १८ जगद्गुरु श्री-
  योगतिलक सुरेन्द्र सरस्वती 
  आराधना #१६३७
@@ -46030,6 +46069,25 @@ SUMMARY:सहो-मासः/दक्षिणायनम्
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211221T000000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211221T212917
 DESCRIPTION:
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:शम्भुराजो द्वादशदेशं गृ
+ ह्णाति #३३८
+DTSTART;VALUE=DATE:20211221
+DTEND;VALUE=DATE:20211222
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/12/21/shamb
+ hurAjo_dvAdashadeshaM_gRhNAti.toml)<br/>- Tags: <br/><br/><br/><br/>## Det
+ ails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/
+ master/mahApuruSha/xatra-later/gregorian/day/12/21/shambhurAjo_dvAdashades
+ haM_gRhNAti.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
