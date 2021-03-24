@@ -7195,7 +7195,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:veṅkaṭācale plavotsava-ārambhaḥ
+SUMMARY:veṅkaṭācale plavotsava-prārambhaḥ
 DTSTART;VALUE=DATE:20190316
 DTEND;VALUE=DATE:20190317
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -10531,7 +10531,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:veṅkaṭācale vasantotsava-ārambhaḥ
+SUMMARY:veṅkaṭācale vasantotsava-prārambhaḥ
 DTSTART;VALUE=DATE:20190416
 DTEND;VALUE=DATE:20190417
 DESCRIPTION:Vasantotsava is an annual festival conducted for three days (T
@@ -13297,8 +13297,8 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:veṅkaṭācale padmāvatī-pariṇayotsava-ārambhaḥ (gaja-vā
- hanam)
+SUMMARY:veṅkaṭācale padmāvatī-pariṇayotsava-prārambhaḥ (gaja-v
+ āhanam)
 DTSTART;VALUE=DATE:20190513
 DTEND;VALUE=DATE:20190514
 DESCRIPTION:Sri Venkateshwara Swami mounts Gaja Vahana and Sri devi and Bh
@@ -16588,7 +16588,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:alarmelmaṅgāpure plavotsava-ārambhaḥ
+SUMMARY:alarmelmaṅgāpure plavotsava-prārambhaḥ
 DTSTART;VALUE=DATE:20190613
 DTEND;VALUE=DATE:20190614
 DESCRIPTION:Rukmini Satyabhama sahita Krishna are taken out on the plava.<
