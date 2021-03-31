@@ -33,7 +33,7 @@ class TithiFestivalAssigner(FestivalAssigner):
     self.assign_amaavaasya_vyatiipaata()
   
   def assign_chaturthi_vratam(self):
-    if "vikaTa-mahAgaNapati saGkaTahara-caturthI-vratam" not in self.rules_collection.name_to_rule:
+    if "vikaTa-mahAgaNapati_saGkaTahara-caturthI-vratam" not in self.rules_collection.name_to_rule:
       return
     for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
       # SANKATAHARA chaturthi
@@ -415,7 +415,7 @@ class TithiFestivalAssigner(FestivalAssigner):
     self.panchaanga.delete_festival(fest_id='sidereal_solar_month_amAvAsyA')
 
   def assign_amaavaasya_soma(self):
-    if 'sOmavatI amAvAsyA' not in self.rules_collection.name_to_rule:
+    if 'sOmavatI_amAvAsyA' not in self.rules_collection.name_to_rule:
       return
     for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
       day_panchaanga = self.daily_panchaangas[d]
@@ -424,7 +424,7 @@ class TithiFestivalAssigner(FestivalAssigner):
         self.panchaanga.add_festival(fest_id='sOmavatI amAvAsyA', date=day_panchaanga.date)
 
   def assign_amaavaasya_vyatiipaata(self):
-    if 'vyatIpAta-yOgaH (alabhyam)' not in self.rules_collection.name_to_rule:
+    if 'vyatIpAta-yOgaH_(alabhyam)' not in self.rules_collection.name_to_rule:
       return
     for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
       day_panchaanga = self.daily_panchaangas[d]

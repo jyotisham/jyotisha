@@ -7,6 +7,7 @@ from pathlib import Path
 import methodtools
 import regex
 import toml
+from curation_utils import file_helper
 from timebudget import timebudget
 
 from jyotisha import custom_transliteration
@@ -333,12 +334,24 @@ class RulesCollection(common.JsonObject):
       rules_map = get_festival_rules_map(
         os.path.join(DATA_ROOT, repo.get_path()), repo=repo, julian_handling=None)
       for rule in rules_map.values():
+        update_path = False
+        old_id = rule.id
         rule.id = clean_id(rule.id)
+        update_path = update_path or old_id != rule.id
+        if rule.timing.anchor_festival_id is not None:
+          old_id = rule.timing.anchor_festival_id
+          rule.timing.anchor_festival_id = clean_id(rule.timing.anchor_festival_id)
+          update_path = update_path or old_id != rule.timing.anchor_festival_id
         expected_path = rule.get_storage_file_name(base_dir=base_dir)
-        if rule.path_actual != expected_path:
+        update_path = update_path or rule.path_actual != expected_path
+        if update_path:
           logging.info(str((rule.path_actual, expected_path)))
-          os.makedirs(os.path.dirname(expected_path), exist_ok=True)
-          os.rename(rule.path_actual, expected_path)
+          os.remove(str(rule.path_actual))
+          rule.path_actual = None
+          rule.repo = None
+          rule.dump_to_file(filename=rule.get_storage_file_name(base_dir=base_dir))
+          # os.makedirs(os.path.dirname(expected_path), exist_ok=True)
+      file_helper.remove_empty_dirs(path=os.path.join(DATA_ROOT, repo.get_path()))
 
   @timebudget
   def set_rule_dicts(self, julian_handling):

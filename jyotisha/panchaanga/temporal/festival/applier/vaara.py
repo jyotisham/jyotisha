@@ -67,7 +67,7 @@ class VaraFestivalAssigner(FestivalAssigner):
         self.panchaanga.add_festival(fest_id=festival_name, date=self.daily_panchaangas[d].date)
 
   def assign_tithi_vara_yoga_kRSNAGgAraka(self):
-    if 'kRSNAGgAraka-caturdazI-puNyakAlaH or yamatarpaNam' not in self.rules_collection.name_to_rule:
+    if 'kRSNAGgAraka-caturdazI-puNyakAlaH_or_yamatarpaNam' not in self.rules_collection.name_to_rule:
       return
     for d in range(self.panchaanga.duration_prior_padding, self.panchaanga.duration + self.panchaanga.duration_prior_padding):
       # KRISHNA ANGARAKA CHATURDASHI

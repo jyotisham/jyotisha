@@ -20,7 +20,7 @@ def test_get_best_transliterated_name():
                                            fest_details_dict=rules_collection.name_to_rule)
   assert name["text"] == "सर्व-सफला-एकादशी"
 
-  fest = festival.FestivalInstance(name="ArudrA~darican2am or naTarAjar mahAbhiSEkam", ordinal=1000)
+  fest = festival.FestivalInstance(name="ArudrA~darican2am_or_naTarAjar_mahAbhiSEkam", ordinal=1000)
   name = fest.get_best_transliterated_name(languages=["kn", "ta"], scripts=[sanscript.DEVANAGARI, sanscript.TAMIL],
                                            fest_details_dict=rules_collection.name_to_rule)
   assert name["text"] == "ஆருத்ரா~தரிசனம்/நடராஜர் மஹாபிஷேகம்"

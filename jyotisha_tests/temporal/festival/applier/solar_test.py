@@ -23,5 +23,5 @@ def test_periodic_solar_viSukkaNi():
 def test_periodic_solar_mUDavaN_muLukku():
   computation_system = ComputationSystem.DEFAULT
   panchaanga = periodical.Panchaanga(city=chennai, start_date=Date(2018, 11, 14), end_date=Date(2018, 11, 20), computation_system=computation_system)
-  assert "muDavan2 muzhukku" in panchaanga.date_str_to_panchaanga[Date(2018, 11, 17).get_date_str()].festival_id_to_instance
-  assert "muDavan2 muzhukku" not in panchaanga.date_str_to_panchaanga[Date(2018, 11, 18).get_date_str()].festival_id_to_instance
+  assert "muDavan2_muzhukku" in panchaanga.date_str_to_panchaanga[Date(2018, 11, 17).get_date_str()].festival_id_to_instance
+  assert "muDavan2_muzhukku" not in panchaanga.date_str_to_panchaanga[Date(2018, 11, 18).get_date_str()].festival_id_to_instance

@@ -203,6 +203,8 @@ class Panchaanga(common.JsonObject):
     self.add_festival_instance(date=date, festival_instance=FestivalInstance(name=fest_id, interval=interval))
 
   def add_festival_instance(self, festival_instance, date):
+    from jyotisha.panchaanga.temporal.festival import rules
+    festival_instance.name = rules.clean_id(id=festival_instance.name)
     p_fday = self.date_str_to_panchaanga.get(date.get_date_str(), None)
     if p_fday is not None:
       p_fday.festival_id_to_instance[festival_instance.name] = festival_instance
