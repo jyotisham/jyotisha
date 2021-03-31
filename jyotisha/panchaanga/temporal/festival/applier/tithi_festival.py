@@ -52,7 +52,7 @@ class TithiFestivalAssigner(FestivalAssigner):
         _m = day_panchaanga.lunar_month_sunrise.index
         if floor(_m) != _m:
           _m = 13  # Adhika masa
-        chaturthi_name = names.NAMES['SANKATAHARA_CHATURTHI_NAMES']['sa']['hk'][_m] + '-mahAgaNapati '
+        chaturthi_name = names.NAMES['SANKATAHARA_CHATURTHI_NAMES']['sa']['hk'][_m] + '-mahAgaNapati_'
 
         if tithi_moonrise == 19:
           # otherwise yesterday would have already been assigned

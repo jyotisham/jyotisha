@@ -2254,17 +2254,10 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:lambodara-mahāgaṇapati saṅkaṭahara-caturthī-vratam
+SUMMARY:lambodara-mahāgaṇapati_saṅkaṭahara-caturthī-vratam
 DTSTART;VALUE=DATE:20190123
 DTEND;VALUE=DATE:20190124
-DESCRIPTION:Special vrata day for Ganesha. In this month\, Ganesha is wors
- hipped as lambodara-mahāgaṇapatiḥ. Fast during the day and pray to Ga
- nesha after moonrise\, as follows:<br/><br/>gaṇādhipastvaṃ deveśa ca
- turthyāṃ pūjito mayā|  <br/>kaṣṭānmāṃ mocayeśāna sarvamiṣ
- ṭaṃ ca dehi me||<br/><br/><br/><br/>## Details<br/>- [Edit config file
- ](https://github.com/jyotisham/adyatithi/tree/master/devatA/gaNapati/descr
- iption_only/lambOdara-mahAgaNapati%20saGkaTahara-caturthI-vratam.toml)<br/
- >- Tags: MonthlyVratam SankataharaChaturthiVratam
+DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5295,17 +5288,10 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:dvijapriya-mahāgaṇapati saṅkaṭahara-caturthī-vratam
+SUMMARY:dvijapriya-mahāgaṇapati_saṅkaṭahara-caturthī-vratam
 DTSTART;VALUE=DATE:20190222
 DTEND;VALUE=DATE:20190223
-DESCRIPTION:Special vrata day for Ganesha. In this month\, Ganesha is wors
- hipped as dvijapriya-mahāgaṇapatiḥ. Fast during the day and pray to G
- anesha after moonrise\, as follows:<br/><br/>gaṇādhipastvaṃ deveśa c
- aturthyāṃ pūjito mayā|  <br/>kaṣṭānmāṃ mocayeśāna sarvami
- ṣṭaṃ ca dehi me||<br/><br/><br/><br/>## Details<br/>- [Edit config f
- ile](https://github.com/jyotisham/adyatithi/tree/master/devatA/gaNapati/de
- scription_only/dvijapriya-mahAgaNapati%20saGkaTahara-caturthI-vratam.toml)
- <br/>- Tags: MonthlyVratam SankataharaChaturthiVratam
+DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8233,17 +8219,10 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:bhālacandra-mahāgaṇapati saṅkaṭahara-caturthī-vratam
+SUMMARY:bhālacandra-mahāgaṇapati_saṅkaṭahara-caturthī-vratam
 DTSTART;VALUE=DATE:20190323
 DTEND;VALUE=DATE:20190324
-DESCRIPTION:Special vrata day for Ganesha. In this month\, Ganesha is wors
- hipped as bhālachandra-mahāgaṇapatiḥ. Fast during the day and pray t
- o Ganesha after moonrise\, as follows:<br/><br/>gaṇādhipastvaṃ deveś
- a caturthyāṃ pūjito mayā|  <br/>kaṣṭānmāṃ mocayeśāna sarvam
- iṣṭaṃ ca dehi me||<br/><br/><br/><br/>## Details<br/>- [Edit config 
- file](https://github.com/jyotisham/adyatithi/tree/master/devatA/gaNapati/d
- escription_only/bhAlacandra-mahAgaNapati%20saGkaTahara-caturthI-vratam.tom
- l)<br/>- Tags: MonthlyVratam SankataharaChaturthiVratam
+DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11312,17 +11291,10 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:vikaṭa-mahāgaṇapati saṅkaṭahara-caturthī-vratam
+SUMMARY:vikaṭa-mahāgaṇapati_saṅkaṭahara-caturthī-vratam
 DTSTART;VALUE=DATE:20190422
 DTEND;VALUE=DATE:20190423
-DESCRIPTION:Special vrata day for Ganesha. In this month\, Ganesha is wors
- hipped as vikaṭa-mahāgaṇapatiḥ. Fast during the day and pray to Gan
- esha after moonrise\, as follows:<br/><br/>gaṇādhipastvaṃ deveśa cat
- urthyāṃ pūjito mayā|  <br/>kaṣṭānmāṃ mocayeśāna sarvamiṣ
- ṭaṃ ca dehi me||<br/><br/><br/><br/>## Details<br/>- [Edit config file
- ](https://github.com/jyotisham/adyatithi/tree/master/devatA/gaNapati/descr
- iption_only/vikaTa-mahAgaNapati%20saGkaTahara-caturthI-vratam.toml)<br/>- 
- Tags: MonthlyVratam SankataharaChaturthiVratam
+DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -14441,17 +14413,10 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ekadanta-mahāgaṇapati saṅkaṭahara-caturthī-vratam
+SUMMARY:ekadanta-mahāgaṇapati_saṅkaṭahara-caturthī-vratam
 DTSTART;VALUE=DATE:20190522
 DTEND;VALUE=DATE:20190523
-DESCRIPTION:Special vrata day for Ganesha. In this month\, Ganesha is wors
- hipped as ekadanta-mahāgaṇapatiḥ. Fast during the day and pray to Gan
- esha after moonrise\, as follows:<br/><br/>gaṇādhipastvaṃ deveśa cat
- urthyāṃ pūjito mayā|  <br/>kaṣṭānmāṃ mocayeśāna sarvamiṣ
- ṭaṃ ca dehi me||<br/><br/><br/><br/>## Details<br/>- [Edit config file
- ](https://github.com/jyotisham/adyatithi/tree/master/devatA/gaNapati/descr
- iption_only/Ekadanta-mahAgaNapati%20saGkaTahara-caturthI-vratam.toml)<br/>
- - Tags: MonthlyVratam SankataharaChaturthiVratam
+DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -17436,18 +17401,11 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:kṛṣṇapiṅgala-mahāgaṇapati saṅkaṭahara-caturthī-vra
+SUMMARY:kṛṣṇapiṅgala-mahāgaṇapati_saṅkaṭahara-caturthī-vra
  tam
 DTSTART;VALUE=DATE:20190620
 DTEND;VALUE=DATE:20190621
-DESCRIPTION:Special vrata day for Ganesha. In this month\, Ganesha is wors
- hipped as kṛṣṇapiṅgala-mahāgaṇapatiḥ. Fast during the day and
-  pray to Ganesha after moonrise\, as follows:<br/><br/>gaṇādhipastvaṃ
-  deveśa caturthyāṃ pūjito mayā|  <br/>kaṣṭānmāṃ mocayeśāna
-  sarvamiṣṭaṃ ca dehi me||<br/><br/><br/><br/>## Details<br/>- [Edit 
- config file](https://github.com/jyotisham/adyatithi/tree/master/devatA/gaN
- apati/description_only/kRSNapiGgala-mahAgaNapati%20saGkaTahara-caturthI-vr
- atam.toml)<br/>- Tags: MonthlyVratam SankataharaChaturthiVratam
+DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -20473,17 +20431,10 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:gajānana-mahāgaṇapati saṅkaṭahara-caturthī-vratam
+SUMMARY:gajānana-mahāgaṇapati_saṅkaṭahara-caturthī-vratam
 DTSTART;VALUE=DATE:20190720
 DTEND;VALUE=DATE:20190721
-DESCRIPTION:Special vrata day for Ganesha. In this month\, Ganesha is wors
- hipped as gajānana-mahāgaṇapatiḥ. Fast during the day and pray to Ga
- nesha after moonrise\, as follows:<br/><br/>gaṇādhipastvaṃ deveśa ca
- turthyāṃ pūjito mayā|  <br/>kaṣṭānmāṃ mocayeśāna sarvamiṣ
- ṭaṃ ca dehi me||<br/><br/><br/><br/>## Details<br/>- [Edit config file
- ](https://github.com/jyotisham/adyatithi/tree/master/devatA/gaNapati/descr
- iption_only/gajAnana-mahAgaNapati%20saGkaTahara-caturthI-vratam.toml)<br/>
- - Tags: MonthlyVratam SankataharaChaturthiVratam
+DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -23567,17 +23518,10 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:heramba-mahāgaṇapati mahāsaṅkaṭahara-caturthī-vratam
+SUMMARY:heramba-mahāgaṇapati_mahāsaṅkaṭahara-caturthī-vratam
 DTSTART;VALUE=DATE:20190819
 DTEND;VALUE=DATE:20190820
-DESCRIPTION:Special vrata day for Ganesha. In this month\, Ganesha is wors
- hipped as heramba-mahāgaṇapatiḥ. Fast during the day and pray to Gane
- sha after moonrise\, as follows:<br/><br/>gaṇādhipastvaṃ deveśa catu
- rthyāṃ pūjito mayā|  <br/>kaṣṭānmāṃ mocayeśāna sarvamiṣ
- ṭaṃ ca dehi me||<br/><br/><br/><br/>## Details<br/>- [Edit config file
- ](https://github.com/jyotisham/adyatithi/tree/master/devatA/gaNapati/descr
- iption_only/hEramba-mahAgaNapati%20mahAsaGkaTahara-caturthI-vratam.toml)<b
- r/>- Tags: MonthlyVratam SankataharaChaturthiVratam
+DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -23587,7 +23531,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:heramba-mahāgaṇapati saṅkaṭahara-caturthī-vratam
+SUMMARY:heramba-mahāgaṇapati_saṅkaṭahara-caturthī-vratam
 DTSTART;VALUE=DATE:20190819
 DTEND;VALUE=DATE:20190820
 DESCRIPTION:
@@ -26964,18 +26908,11 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:aṅgārakī vighnarāja-mahāgaṇapati saṅkaṭahara-caturthī
+SUMMARY:aṅgārakī vighnarāja-mahāgaṇapati_saṅkaṭahara-caturthī
  -vratam
 DTSTART;VALUE=DATE:20190917
 DTEND;VALUE=DATE:20190918
-DESCRIPTION:Special vrata day for Ganesha. In this month\, Ganesha is wors
- hipped as vighnarāja-mahāgaṇapatiḥ. Fast during the day and pray to 
- Ganesha after moonrise\, as follows:<br/><br/>## Details<br/>- [Edit confi
- g file](https://github.com/jyotisham/adyatithi/tree/master/devatA/gaNapati
- /description_only/vighnarAja-mahAgaNapati%20saGkaTahara-caturthI-vratam.to
- ml)<br/>- Tags: MonthlyVratam SankataharaChaturthiVratam<br/><br/>When `ca
- turthI` occurs on a Tuesday\, it is known as `aGgArakI` and is even more s
- acred.
+DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -30510,17 +30447,10 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:vakratuṇḍa-mahāgaṇapati saṅkaṭahara-caturthī-vratam
+SUMMARY:vakratuṇḍa-mahāgaṇapati_saṅkaṭahara-caturthī-vratam
 DTSTART;VALUE=DATE:20191017
 DTEND;VALUE=DATE:20191018
-DESCRIPTION:Special vrata day for Ganesha. In this month\, Ganesha is wors
- hipped as vakratuṇḍa-mahāgaṇapatiḥ. Fast during the day and pray 
- to Ganesha after moonrise\, as follows:<br/><br/>gaṇādhipastvaṃ deve
- śa caturthyāṃ pūjito mayā|  <br/>kaṣṭānmāṃ mocayeśāna sarv
- amiṣṭaṃ ca dehi me||<br/><br/><br/><br/>## Details<br/>- [Edit confi
- g file](https://github.com/jyotisham/adyatithi/tree/master/devatA/gaNapati
- /description_only/vakratuNDa-mahAgaNapati%20saGkaTahara-caturthI-vratam.to
- ml)<br/>- Tags: MonthlyVratam SankataharaChaturthiVratam
+DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -33867,17 +33797,10 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:gaṇādhipa-mahāgaṇapati saṅkaṭahara-caturthī-vratam
+SUMMARY:gaṇādhipa-mahāgaṇapati_saṅkaṭahara-caturthī-vratam
 DTSTART;VALUE=DATE:20191115
 DTEND;VALUE=DATE:20191116
-DESCRIPTION:Special vrata day for Ganesha. In this month\, Ganesha is wors
- hipped as gaṇādhipa-mahāgaṇapatiḥ. Fast during the day and pray to
-  Ganesha after moonrise\, as follows:<br/><br/>gaṇādhipastvaṃ deveśa
-  caturthyāṃ pūjito mayā|  <br/>kaṣṭānmāṃ mocayeśāna sarvami
- ṣṭaṃ ca dehi me||<br/><br/><br/><br/>## Details<br/>- [Edit config f
- ile](https://github.com/jyotisham/adyatithi/tree/master/devatA/gaNapati/de
- scription_only/gaNAdhipa-mahAgaNapati%20saGkaTahara-caturthI-vratam.toml)<
- br/>- Tags: MonthlyVratam SankataharaChaturthiVratam
+DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -36924,17 +36847,10 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ākhuratha-mahāgaṇapati saṅkaṭahara-caturthī-vratam
+SUMMARY:ākhuratha-mahāgaṇapati_saṅkaṭahara-caturthī-vratam
 DTSTART;VALUE=DATE:20191215
 DTEND;VALUE=DATE:20191216
-DESCRIPTION:Special vrata day for Ganesha. In this month\, Ganesha is wors
- hipped as ākhuratha-mahāgaṇapatiḥ. Fast during the day and pray to G
- anesha after moonrise\, as follows:<br/><br/>gaṇādhipastvaṃ deveśa c
- aturthyāṃ pūjito mayā|  <br/>kaṣṭānmāṃ mocayeśāna sarvami
- ṣṭaṃ ca dehi me||<br/><br/><br/><br/>## Details<br/>- [Edit config f
- ile](https://github.com/jyotisham/adyatithi/tree/master/devatA/gaNapati/de
- scription_only/Akhuratha-mahAgaNapati%20saGkaTahara-caturthI-vratam.toml)<
- br/>- Tags: MonthlyVratam SankataharaChaturthiVratam
+DESCRIPTION:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
