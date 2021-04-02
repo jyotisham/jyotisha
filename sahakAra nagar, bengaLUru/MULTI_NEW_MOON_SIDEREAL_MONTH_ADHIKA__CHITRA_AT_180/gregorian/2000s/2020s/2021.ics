@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210402093715
+SEQUENCE:20210402212808
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -10171,6 +10171,25 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:वङ्गहिन्दुकहत्यारम्भः #
+ ५०
+DTSTART;VALUE=DATE:20210325
+DTEND;VALUE=DATE:20210326
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/03/25/opera
+ tion-searchlight-prArambhaH.toml)<br/>- Tags: <br/><br/><br/><br/>## Detai
+ ls<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/ma
+ ster/mahApuruSha/xatra-later/gregorian/day/03/25/operation-searchlight-prA
+ rambhaH.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:रंगभरी एकादशी
 DTSTART;VALUE=DATE:20210325
 DTEND;VALUE=DATE:20210326
@@ -13977,6 +13996,25 @@ DESCRIPTION:Event occured on 1720-04-23 (gregorian). Julian date was conve
  br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/
  adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/04/23/bAlAjI-v
  ishvanAtho_mRtaH.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:जाठिभाङ्गा-हत्या #५०
+DTSTART;VALUE=DATE:20210423
+DTEND;VALUE=DATE:20210424
+DESCRIPTION:Event occured on 1971-04-23 (gregorian). Over 3k Bengali and R
+ ajbanshi Hindu males trying to run away to India were stopped and killed b
+ y Islamic Republic of Pakistan Army in collaboration with razAkar-s (volun
+ teers) including members of Jamaat-e-Islami and Muslim League.<br/><br/><b
+ r/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyati
+ thi/tree/master/mahApuruSha/xatra-later/gregorian/day/04/23/jAThibhAngA-ha
+ tyA.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
