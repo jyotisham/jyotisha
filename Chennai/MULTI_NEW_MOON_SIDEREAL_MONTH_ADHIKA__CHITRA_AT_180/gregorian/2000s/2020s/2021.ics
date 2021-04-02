@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210402082929
+SEQUENCE:20210402093809
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -17360,32 +17360,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:षडशीति-पुण्यकालः
-DTSTART;VALUE=DATE:20210521
-DTEND;VALUE=DATE:20210522
-DESCRIPTION:Ṣaḍaśīti Punyakala.<br/><br/>सङ्क्रान्
- तिस्नानाकरणे प्रत्यवायमाह 
- शातातपः—  <br/>सूर्यसङ्क्रमणे 
- पुण्ये न स्नायाद्यदि मानवः
- ।  <br/>सप्तजन्मसु रोगी स्याद् 
- दुःखभागी च जायते॥  <br/>सङ्क्र
- ान्त्यां यानि दत्तानि हव्य
- कव्यानि मानवैः।  <br/>तानि तस्
- य ददात्यर्कः सप्तजन्मसु नि
- श्चितम्॥  <br/>(स्मृतिमुक्ताफल
- े आह्निक-काण्डे-पूर्वभागः)<br/
- ><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyo
- tisham/adyatithi/tree/master/time_focus/sankrAnti/description_only/SaDazIt
- i-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:माधव-मासः/वसन्तऋतुः
 DTSTART;VALUE=DATE:20210520
 DTEND;VALUE=DATE:20210521
@@ -17482,6 +17456,32 @@ DESCRIPTION:- Indian civil date: 1943-02-31\, Islamic: 1442-10-09 Shawwāl
  07:20-08:55  \n___________________\n- **शूलम्**—प्रत
  ीची दिक् (►10:49)\; **परिहारः**–गुड
  म्  \n___________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:षडशीति-पुण्यकालः
+DTSTART;VALUE=DATE:20210521
+DTEND;VALUE=DATE:20210522
+DESCRIPTION:Ṣaḍaśīti Punyakala.<br/><br/>सङ्क्रान्
+ तिस्नानाकरणे प्रत्यवायमाह 
+ शातातपः—  <br/>सूर्यसङ्क्रमणे 
+ पुण्ये न स्नायाद्यदि मानवः
+ ।  <br/>सप्तजन्मसु रोगी स्याद् 
+ दुःखभागी च जायते॥  <br/>सङ्क्र
+ ान्त्यां यानि दत्तानि हव्य
+ कव्यानि मानवैः।  <br/>तानि तस्
+ य ददात्यर्कः सप्तजन्मसु नि
+ श्चितम्॥  <br/>(स्मृतिमुक्ताफल
+ े आह्निक-काण्डे-पूर्वभागः)<br/
+ ><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyo
+ tisham/adyatithi/tree/master/time_focus/sankrAnti/description_only/SaDazIt
+ i-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -24592,31 +24592,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:कर्कट-सङ्क्रमण-पुण्यकाल
- ः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210716T042929
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210716T162929
-DESCRIPTION:Karkaṭa-Saṅkramaṇa Punyakala.<br/><br/>सङ्क्
- रान्तिस्नानाकरणे प्रत्यवा
- यमाह शातातपः—  <br/>सूर्यसङ्क्
- रमणे पुण्ये न स्नायाद्यदि म
- ानवः।  <br/>सप्तजन्मसु रोगी स्
- याद् दुःखभागी च जायते॥  <br/>सङ
- ्क्रान्त्यां यानि दत्तानि 
- हव्यकव्यानि मानवैः।  <br/>तानि
-  तस्य ददात्यर्कः सप्तजन्मस
- ु निश्चितम्॥  <br/>(स्मृतिमुक्
- ताफले आह्निक-काण्डे-पूर्वभ
- ागः)<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://
- github.com/jyotisham/adyatithi/tree/master/time_focus/sankrAnti/descriptio
- n_only/karkaTa-saGkramaNa-puNyakAlaH.toml)<br/>- Tags: SunSankranti Common
- Festivals
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:कुमार-षष्ठी-व्रतम्
 DTSTART;VALUE=DATE:20210715
 DTEND;VALUE=DATE:20210716
@@ -24784,6 +24759,31 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:कर्कट-सङ्क्रमण-पुण्यकाल
+ ः
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210716T042929
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210716T162929
+DESCRIPTION:Karkaṭa-Saṅkramaṇa Punyakala.<br/><br/>सङ्क्
+ रान्तिस्नानाकरणे प्रत्यवा
+ यमाह शातातपः—  <br/>सूर्यसङ्क्
+ रमणे पुण्ये न स्नायाद्यदि म
+ ानवः।  <br/>सप्तजन्मसु रोगी स्
+ याद् दुःखभागी च जायते॥  <br/>सङ
+ ्क्रान्त्यां यानि दत्तानि 
+ हव्यकव्यानि मानवैः।  <br/>तानि
+  तस्य ददात्यर्कः सप्तजन्मस
+ ु निश्चितम्॥  <br/>(स्मृतिमुक्
+ ताफले आह्निक-काण्डे-पूर्वभ
+ ागः)<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://
+ github.com/jyotisham/adyatithi/tree/master/time_focus/sankrAnti/descriptio
+ n_only/karkaTa-saGkramaNa-puNyakAlaH.toml)<br/>- Tags: SunSankranti Common
+ Festivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -29468,32 +29468,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:षडशीति-पुण्यकालः
-DTSTART;VALUE=DATE:20210823
-DTEND;VALUE=DATE:20210824
-DESCRIPTION:Ṣaḍaśīti Punyakala.<br/><br/>सङ्क्रान्
- तिस्नानाकरणे प्रत्यवायमाह 
- शातातपः—  <br/>सूर्यसङ्क्रमणे 
- पुण्ये न स्नायाद्यदि मानवः
- ।  <br/>सप्तजन्मसु रोगी स्याद् 
- दुःखभागी च जायते॥  <br/>सङ्क्र
- ान्त्यां यानि दत्तानि हव्य
- कव्यानि मानवैः।  <br/>तानि तस्
- य ददात्यर्कः सप्तजन्मसु नि
- श्चितम्॥  <br/>(स्मृतिमुक्ताफल
- े आह्निक-काण्डे-पूर्वभागः)<br/
- ><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyo
- tisham/adyatithi/tree/master/time_focus/sankrAnti/description_only/SaDazIt
- i-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:गायत्री-जयन्ती
 DTSTART;VALUE=DATE:20210822
 DTEND;VALUE=DATE:20210823
@@ -29775,6 +29749,32 @@ DESCRIPTION:- Indian civil date: 1943-06-01\, Islamic: 1443-01-14 Al-Muḥ
  ककालः**—13:44-15:16  \n___________________\n- **शूलम
  ्**—प्राची दिक् (►09:18)\; **परिहार
  ः**–दधि  \n___________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:षडशीति-पुण्यकालः
+DTSTART;VALUE=DATE:20210823
+DTEND;VALUE=DATE:20210824
+DESCRIPTION:Ṣaḍaśīti Punyakala.<br/><br/>सङ्क्रान्
+ तिस्नानाकरणे प्रत्यवायमाह 
+ शातातपः—  <br/>सूर्यसङ्क्रमणे 
+ पुण्ये न स्नायाद्यदि मानवः
+ ।  <br/>सप्तजन्मसु रोगी स्याद् 
+ दुःखभागी च जायते॥  <br/>सङ्क्र
+ ान्त्यां यानि दत्तानि हव्य
+ कव्यानि मानवैः।  <br/>तानि तस्
+ य ददात्यर्कः सप्तजन्मसु नि
+ श्चितम्॥  <br/>(स्मृतिमुक्ताफल
+ े आह्निक-काण्डे-पूर्वभागः)<br/
+ ><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyo
+ tisham/adyatithi/tree/master/time_focus/sankrAnti/description_only/SaDazIt
+ i-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -38073,29 +38073,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:विष्णुपदी-पुण्यकालः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211023T035708
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211023T164508
-DESCRIPTION:Viṣṇupadī Punyakala.<br/><br/>सङ्क्रान्
- तिस्नानाकरणे प्रत्यवायमाह 
- शातातपः—  <br/>सूर्यसङ्क्रमणे 
- पुण्ये न स्नायाद्यदि मानवः
- ।  <br/>सप्तजन्मसु रोगी स्याद् 
- दुःखभागी च जायते॥  <br/>सङ्क्र
- ान्त्यां यानि दत्तानि हव्य
- कव्यानि मानवैः।  <br/>तानि तस्
- य ददात्यर्कः सप्तजन्मसु नि
- श्चितम्॥  <br/>(स्मृतिमुक्ताफल
- े आह्निक-काण्डे-पूर्वभागः)<br/
- ><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyo
- tisham/adyatithi/tree/master/time_focus/sankrAnti/description_only/viSNupa
- dI-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:आश्वयुजः-07-18\,वृषभः-कृत्ति
  का🌛🌌◢◣तुला-चित्रा-07-07🌌🌞◢◣ऊ
  र्जः-08-01🪐🌞शनिः
@@ -38266,6 +38243,29 @@ DESCRIPTION:Event occured on 1673-10-23 (gregorian). Julian date was conve
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:विष्णुपदी-पुण्यकालः
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211023T035708
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211023T164508
+DESCRIPTION:Viṣṇupadī Punyakala.<br/><br/>सङ्क्रान्
+ तिस्नानाकरणे प्रत्यवायमाह 
+ शातातपः—  <br/>सूर्यसङ्क्रमणे 
+ पुण्ये न स्नायाद्यदि मानवः
+ ।  <br/>सप्तजन्मसु रोगी स्याद् 
+ दुःखभागी च जायते॥  <br/>सङ्क्र
+ ान्त्यां यानि दत्तानि हव्य
+ कव्यानि मानवैः।  <br/>तानि तस्
+ य ददात्यर्कः सप्तजन्मसु नि
+ श्चितम्॥  <br/>(स्मृतिमुक्ताफल
+ े आह्निक-काण्डे-पूर्वभागः)<br/
+ ><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyo
+ tisham/adyatithi/tree/master/time_focus/sankrAnti/description_only/viSNupa
+ dI-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -41174,31 +41174,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:वृश्चिक-रवि-सङ्क्रमण-विष
- ्णुपदी-पुण्यकालः
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211116T060903
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211116T185703
-DESCRIPTION:Vṛśchika-Ravi-Saṅkramaṇa-Viṣṇupadī Punyakala. Do d
- anam of deepam.<br/><br/>सङ्क्रान्तिस्नान
- ाकरणे प्रत्यवायमाह शातातपः
- —  <br/>सूर्यसङ्क्रमणे पुण्ये 
- न स्नायाद्यदि मानवः।  <br/>सप्
- तजन्मसु रोगी स्याद् दुःखभा
- गी च जायते॥  <br/>सङ्क्रान्त्य
- ां यानि दत्तानि हव्यकव्यान
- ि मानवैः।  <br/>तानि तस्य ददात्
- यर्कः सप्तजन्मसु निश्चितम्
- ॥  <br/>(स्मृतिमुक्ताफले आह्नि
- क-काण्डे-पूर्वभागः)<br/><br/><br/><br/>## 
- Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tr
- ee/master/time_focus/sankrAnti/description_only/vRzcika-ravi-saGkramaNa-vi
- SNupadI-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:कार्त्तिकः-08-12\,मीनः-रेवती
  🌛🌌◢◣वृश्चिकः-विशाखा-08-01🌌🌞◢
  ◣ऊर्जः-08-25🪐🌞मङ्गलः
@@ -41422,6 +41397,31 @@ DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  ><br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.co
  m/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/description_
  only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:वृश्चिक-रवि-सङ्क्रमण-विष
+ ्णुपदी-पुण्यकालः
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211116T060903
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211116T185703
+DESCRIPTION:Vṛśchika-Ravi-Saṅkramaṇa-Viṣṇupadī Punyakala. Do d
+ anam of deepam.<br/><br/>सङ्क्रान्तिस्नान
+ ाकरणे प्रत्यवायमाह शातातपः
+ —  <br/>सूर्यसङ्क्रमणे पुण्ये 
+ न स्नायाद्यदि मानवः।  <br/>सप्
+ तजन्मसु रोगी स्याद् दुःखभा
+ गी च जायते॥  <br/>सङ्क्रान्त्य
+ ां यानि दत्तानि हव्यकव्यान
+ ि मानवैः।  <br/>तानि तस्य ददात्
+ यर्कः सप्तजन्मसु निश्चितम्
+ ॥  <br/>(स्मृतिमुक्ताफले आह्नि
+ क-काण्डे-पूर्वभागः)<br/><br/><br/><br/>## 
+ Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tr
+ ee/master/time_focus/sankrAnti/description_only/vRzcika-ravi-saGkramaNa-vi
+ SNupadI-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
