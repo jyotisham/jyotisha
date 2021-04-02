@@ -80,7 +80,7 @@ class SolarFestivalAssigner(FestivalAssigner):
         # TODO: convert carefully to relative nadikas!
         punya_kaala_start_jd = jd_transition - PUNYA_KAALA[self.daily_panchaangas[d + 1].solar_sidereal_date_sunset.month][0] * 1/60
         punya_kaala_end_jd = jd_transition + PUNYA_KAALA[self.daily_panchaangas[d + 1].solar_sidereal_date_sunset.month][1] * 1/60
-        if punya_kaala_start_jd < self.daily_panchaangas[d].jd_sunrise:
+        if punya_kaala_start_jd < self.daily_panchaangas[d].julian_day_start:
           fday = d - 1
         else:
           fday = d
@@ -128,7 +128,7 @@ class SolarFestivalAssigner(FestivalAssigner):
         # TODO: convert carefully to relative nadikas!
         punya_kaala_start_jd = jd_transition - PUNYA_KAALA[self.daily_panchaangas[d + 1].tropical_date_sunset.month][0] * 1/60
         punya_kaala_end_jd = jd_transition + PUNYA_KAALA[self.daily_panchaangas[d + 1].tropical_date_sunset.month][1] * 1/60
-        if punya_kaala_start_jd < self.daily_panchaangas[d].jd_sunrise:
+        if punya_kaala_start_jd < self.daily_panchaangas[d].julian_day_start:
           fday = d - 1
         else:
           fday = d
