@@ -36,6 +36,12 @@ def clean_id(id):
   return id
 
 
+def inverse_clean_id(id):
+  id = id.replace('__', '/')
+  id = regex.sub("_", " ", id)
+  return id
+
+
 class HinduCalendarEventTiming(common.JsonObject):
   schema = common.recursively_merge_json_schemas(common.JsonObject.schema, ({
     "type": "object",

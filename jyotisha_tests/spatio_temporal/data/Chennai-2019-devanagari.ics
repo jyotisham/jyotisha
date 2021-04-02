@@ -1801,7 +1801,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sahasya-māsaḥ__hemantaṛtuḥ
+SUMMARY:sahasya-māsaḥ/hemantaṛtuḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190119T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190120T142934
 DESCRIPTION:
@@ -3160,7 +3160,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:mauni_(pauṣa__makara)_amāvāsyā_(alabhyam–puṣkalā)
+SUMMARY:mauni (pauṣa/makara) amāvāsyā (alabhyam–puṣkalā)
 DTSTART;VALUE=DATE:20190204
 DTEND;VALUE=DATE:20190205
 DESCRIPTION:
@@ -4548,7 +4548,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sarva-jayā__bhaimī-ekādaśī
+SUMMARY:sarva-jayā/bhaimī-ekādaśī
 DTSTART;VALUE=DATE:20190216
 DTEND;VALUE=DATE:20190217
 DESCRIPTION:
@@ -5967,7 +5967,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:vijayā__śravaṇa-mahādvādaśī
+SUMMARY:vijayā/śravaṇa-mahādvādaśī
 DTSTART;VALUE=DATE:20190303
 DTEND;VALUE=DATE:20190304
 DESCRIPTION:
@@ -6255,7 +6255,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:māgha-amāvāsyā_(alabhyam–śatabhiṣak)
+SUMMARY:māgha-amāvāsyā (alabhyam–śatabhiṣak)
 DTSTART;VALUE=DATE:20190306
 DTEND;VALUE=DATE:20190307
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -7733,7 +7733,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:tapasya-māsaḥ__śiśiraṛtuḥ
+SUMMARY:tapasya-māsaḥ/śiśiraṛtuḥ
 DTSTART;VALUE=DATE:20190319
 DTEND;VALUE=DATE:20190321
 DESCRIPTION:
@@ -9058,7 +9058,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:phālguna-amāvāsyā_(alabhyam–puṣkalā)
+SUMMARY:phālguna-amāvāsyā (alabhyam–puṣkalā)
 DTSTART;VALUE=DATE:20190404
 DTEND;VALUE=DATE:20190405
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -13545,7 +13545,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:veṅkaṭācale_padmāvatī-pariṇayotsavaḥ_(garuḍa-vāhanam
+SUMMARY:veṅkaṭācale padmāvatī-pariṇayotsavaḥ (garuḍa-vāhanam
  )
 DTSTART;VALUE=DATE:20190512
 DTEND;VALUE=DATE:20190516
@@ -14300,7 +14300,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:mādhava-māsaḥ__vasantaṛtuḥ
+SUMMARY:mādhava-māsaḥ/vasantaṛtuḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190520T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190521T132905
 DESCRIPTION:
@@ -15384,7 +15384,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:vaiśākha-amāvāsyā_(alabhyam–puṣkalā)
+SUMMARY:vaiśākha-amāvāsyā (alabhyam–puṣkalā)
 DTSTART;VALUE=DATE:20190603
 DTEND;VALUE=DATE:20190604
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -17534,7 +17534,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:śukra-māsaḥ__uttarāyaṇam
+SUMMARY:śukra-māsaḥ/uttarāyaṇam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190620T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190621T212417
 DESCRIPTION:
@@ -18357,7 +18357,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:jyaiṣṭha-amāvāsyā_(alabhyam–ārdrā\,_puṣkalā)
+SUMMARY:jyaiṣṭha-amāvāsyā (alabhyam–ārdrā\, puṣkalā)
 DTSTART;VALUE=DATE:20190702
 DTEND;VALUE=DATE:20190703
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -20630,7 +20630,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:śuci-māsaḥ__grīṣmaṛtuḥ
+SUMMARY:śuci-māsaḥ/grīṣmaṛtuḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190722T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190723T082021
 DESCRIPTION:
@@ -21236,7 +21236,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:āṣāḍha_(karkaṭa)_amāvāsyā_(alabhyam–punarvasuḥ)
+SUMMARY:āṣāḍha (karkaṭa) amāvāsyā (alabhyam–punarvasuḥ)
 DTSTART;VALUE=DATE:20190731
 DTEND;VALUE=DATE:20190801
 DESCRIPTION:
@@ -23565,7 +23565,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:heramba-mahāgaṇapati_saṅkaṭahara-caturthī-vratam
+SUMMARY:heramba-mahāgaṇapati saṅkaṭahara-caturthī-vratam
 DTSTART;VALUE=DATE:20190819
 DTEND;VALUE=DATE:20190820
 DESCRIPTION:
@@ -26193,7 +26193,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:vijayā__śravaṇa-mahādvādaśī
+SUMMARY:vijayā/śravaṇa-mahādvādaśī
 DTSTART;VALUE=DATE:20190910
 DTEND;VALUE=DATE:20190911
 DESCRIPTION:
@@ -26936,7 +26936,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:aṅgārakī vighnarāja-mahāgaṇapati_saṅkaṭahara-caturthī
+SUMMARY:aṅgārakī vighnarāja-mahāgaṇapati saṅkaṭahara-caturthī
  -vratam
 DTSTART;VALUE=DATE:20190917
 DTEND;VALUE=DATE:20190918
@@ -27669,7 +27669,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:nabhasya-māsaḥ__varṣaṛtuḥ
+SUMMARY:nabhasya-māsaḥ/varṣaṛtuḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190922T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190923T132009
 DESCRIPTION:
@@ -34598,7 +34598,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ūrja-māsaḥ__śaradṛtuḥ
+SUMMARY:ūrja-māsaḥ/śaradṛtuḥ
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191121T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191122T202850
 DESCRIPTION:
@@ -34625,7 +34625,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:smārta-utpannā-ekādaśī_(gṛhastha)
+SUMMARY:smārta-utpannā-ekādaśī (gṛhastha)
 DTSTART;VALUE=DATE:20191122
 DTEND;VALUE=DATE:20191123
 DESCRIPTION:
@@ -34721,7 +34721,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:smārta-utpannā-ekādaśī_(sannyastha)
+SUMMARY:smārta-utpannā-ekādaśī (sannyastha)
 DTSTART;VALUE=DATE:20191123
 DTEND;VALUE=DATE:20191124
 DESCRIPTION:
@@ -34984,7 +34984,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:kārttika-amāvāsyā_(alabhyam–anūrādhā\,_puṣkalā)
+SUMMARY:kārttika-amāvāsyā (alabhyam–anūrādhā\, puṣkalā)
 DTSTART;VALUE=DATE:20191126
 DTEND;VALUE=DATE:20191127
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
@@ -37480,7 +37480,7 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:saho-māsaḥ__dakṣiṇāyanam
+SUMMARY:saho-māsaḥ/dakṣiṇāyanam
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191221T235957
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191222T094920
 DESCRIPTION:
