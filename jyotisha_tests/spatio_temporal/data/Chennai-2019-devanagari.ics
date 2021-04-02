@@ -4026,26 +4026,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:kumbha-ravi-saṅkramaṇa-viṣṇupadī-puṇyakālaḥ
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190213T020557
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190213T145354
-DESCRIPTION:Kumbha-Ravi-Saṅkramaṇa-Viṣṇupadī Punyakala. Perform d
- anam of hay\, grass\, food and pure water to cows.<br/><br/>kumbhapraveśe
-  dānaṃ tu gavaṃ ambu tṛṇasya ca|  <br/>saṅkrāntisnānākaraṇ
- e pratyavāyamāha śātātapaḥ—  <br/>sūryasaṅkramaṇe puṇye na
-  snāyādyadi mānavaḥ|  <br/>saptajanmasu rogī syād duḥkhabhāgī c
- a jāyate||  <br/>saṅkrāntyāṃ yāni dattāni havyakavyāni mānavai
- ḥ|  <br/>tāni tasya dadātyarkaḥ saptajanmasu niścitam||  <br/>(sm
- ṛtimuktāphale āhnika-kāṇḍe-pūrvabhāgaḥ)<br/><br/><br/><br/>##
-  Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/t
- ree/master/time_focus/sankrAnti/description_only/kumbha-ravi-saGkramaNa-vi
- SNupadI-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:manvādiḥ-(sāvarṇiḥ-[8])
 DTSTART;VALUE=DATE:20190212
 DTEND;VALUE=DATE:20190213
@@ -4208,6 +4188,26 @@ DESCRIPTION:Observed on Śukla-Aṣṭamī tithi of Māghaḥ (lunar) mont
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:kumbha-ravi-saṅkramaṇa-viṣṇupadī-puṇyakālaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190213T020557
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190213T145354
+DESCRIPTION:Kumbha-Ravi-Saṅkramaṇa-Viṣṇupadī Punyakala. Perform d
+ anam of hay\, grass\, food and pure water to cows.<br/><br/>kumbhapraveśe
+  dānaṃ tu gavaṃ ambu tṛṇasya ca|  <br/>saṅkrāntisnānākaraṇ
+ e pratyavāyamāha śātātapaḥ—  <br/>sūryasaṅkramaṇe puṇye na
+  snāyādyadi mānavaḥ|  <br/>saptajanmasu rogī syād duḥkhabhāgī c
+ a jāyate||  <br/>saṅkrāntyāṃ yāni dattāni havyakavyāni mānavai
+ ḥ|  <br/>tāni tasya dadātyarkaḥ saptajanmasu niścitam||  <br/>(sm
+ ṛtimuktāphale āhnika-kāṇḍe-pūrvabhāgaḥ)<br/><br/><br/><br/>##
+  Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/t
+ ree/master/time_focus/sankrAnti/description_only/kumbha-ravi-saGkramaNa-vi
+ SNupadI-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -4822,27 +4822,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ṣaḍaśīti-puṇyakālaḥ
-DTSTART;VALUE=DATE:20190219
-DTEND;VALUE=DATE:20190220
-DESCRIPTION:Ṣaḍaśīti Punyakala.<br/><br/>saṅkrāntisnānākaraṇe
-  pratyavāyamāha śātātapaḥ—  <br/>sūryasaṅkramaṇe puṇye na 
- snāyādyadi mānavaḥ|  <br/>saptajanmasu rogī syād duḥkhabhāgī ca
-  jāyate||  <br/>saṅkrāntyāṃ yāni dattāni havyakavyāni mānavai
- ḥ|  <br/>tāni tasya dadātyarkaḥ saptajanmasu niścitam||  <br/>(sm
- ṛtimuktāphale āhnika-kāṇḍe-pūrvabhāgaḥ)<br/><br/><br/><br/>##
-  Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/t
- ree/master/time_focus/sankrAnti/description_only/SaDazIti-puNyakAlaH.toml)
- <br/>- Tags: SunSankranti CommonFestivals
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Naṭarājar Mahābhiṣekam
 DTSTART;VALUE=DATE:20190218
 DTEND;VALUE=DATE:20190219
@@ -4926,6 +4905,27 @@ DESCRIPTION:- Indian civil date: 1940-11-30\, Islamic: 1440-06-13 Jumādā
  aghaṇṭaḥ**—09:28-10:55\; **Gulikakālaḥ**—12:22-13:50  \n_____
  ______________\n- **Śūlam**—Udīchī Dik (►11:13)\; **Parihāraḥ**
  –Kṣīram  \n___________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ṣaḍaśīti-puṇyakālaḥ
+DTSTART;VALUE=DATE:20190219
+DTEND;VALUE=DATE:20190220
+DESCRIPTION:Ṣaḍaśīti Punyakala.<br/><br/>saṅkrāntisnānākaraṇe
+  pratyavāyamāha śātātapaḥ—  <br/>sūryasaṅkramaṇe puṇye na 
+ snāyādyadi mānavaḥ|  <br/>saptajanmasu rogī syād duḥkhabhāgī ca
+  jāyate||  <br/>saṅkrāntyāṃ yāni dattāni havyakavyāni mānavai
+ ḥ|  <br/>tāni tasya dadātyarkaḥ saptajanmasu niścitam||  <br/>(sm
+ ṛtimuktāphale āhnika-kāṇḍe-pūrvabhāgaḥ)<br/><br/><br/><br/>##
+  Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/t
+ ree/master/time_focus/sankrAnti/description_only/SaDazIti-puNyakAlaH.toml)
+ <br/>- Tags: SunSankranti CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13413,25 +13413,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:vṛṣabha-ravi-saṅkramaṇa-viṣṇupadī-puṇyakālaḥ
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190515T042035
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190515T170841
-DESCRIPTION:Vṛṣabha-Ravi-Saṅkramaṇa-Viṣṇupadī Punyakala.<br/>
- <br/>saṅkrāntisnānākaraṇe pratyavāyamāha śātātapaḥ—  <br/>
- sūryasaṅkramaṇe puṇye na snāyādyadi mānavaḥ|  <br/>saptajanmas
- u rogī syād duḥkhabhāgī ca jāyate||  <br/>saṅkrāntyāṃ yāni d
- attāni havyakavyāni mānavaiḥ|  <br/>tāni tasya dadātyarkaḥ saptaj
- anmasu niścitam||  <br/>(smṛtimuktāphale āhnika-kāṇḍe-pūrvabhā
- gaḥ)<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://gith
- ub.com/jyotisham/adyatithi/tree/master/time_focus/sankrAnti/description_on
- ly/vRSabha-ravi-saGkramaNa-viSNupadI-puNyakAlaH.toml)<br/>- Tags: SunSankr
- anti CommonFestivals
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:śrī-vāsavī-jayantī
 DTSTART;VALUE=DATE:20190514
 DTEND;VALUE=DATE:20190515
@@ -13573,6 +13554,25 @@ DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:vṛṣabha-ravi-saṅkramaṇa-viṣṇupadī-puṇyakālaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190515T042035
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190515T170841
+DESCRIPTION:Vṛṣabha-Ravi-Saṅkramaṇa-Viṣṇupadī Punyakala.<br/>
+ <br/>saṅkrāntisnānākaraṇe pratyavāyamāha śātātapaḥ—  <br/>
+ sūryasaṅkramaṇe puṇye na snāyādyadi mānavaḥ|  <br/>saptajanmas
+ u rogī syād duḥkhabhāgī ca jāyate||  <br/>saṅkrāntyāṃ yāni d
+ attāni havyakavyāni mānavaiḥ|  <br/>tāni tasya dadātyarkaḥ saptaj
+ anmasu niścitam||  <br/>(smṛtimuktāphale āhnika-kāṇḍe-pūrvabhā
+ gaḥ)<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://gith
+ ub.com/jyotisham/adyatithi/tree/master/time_focus/sankrAnti/description_on
+ ly/vRSabha-ravi-saGkramaNa-viSNupadI-puNyakAlaH.toml)<br/>- Tags: SunSankr
+ anti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -20565,24 +20565,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:viṣṇupadī-puṇyakālaḥ
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190723T015618
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190723T144423
-DESCRIPTION:Viṣṇupadī Punyakala.<br/><br/>saṅkrāntisnānākaraṇe
-  pratyavāyamāha śātātapaḥ—  <br/>sūryasaṅkramaṇe puṇye na 
- snāyādyadi mānavaḥ|  <br/>saptajanmasu rogī syād duḥkhabhāgī ca
-  jāyate||  <br/>saṅkrāntyāṃ yāni dattāni havyakavyāni mānavai
- ḥ|  <br/>tāni tasya dadātyarkaḥ saptajanmasu niścitam||  <br/>(sm
- ṛtimuktāphale āhnika-kāṇḍe-pūrvabhāgaḥ)<br/><br/><br/><br/>##
-  Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/t
- ree/master/time_focus/sankrAnti/description_only/viSNupadI-puNyakAlaH.toml
- )<br/>- Tags: SunSankranti CommonFestivals
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Āṣāḍhaḥ-04-21\,Mīnaḥ-Uttaraproṣṭhapadā🌛🌌◢
  ◣Karkaṭaḥ-Puṣyaḥ-04-07🌌🌞◢◣Nabhaḥ-05-01🪐🌞Maṅg
  alaḥ
@@ -20624,6 +20606,24 @@ DESCRIPTION:- Indian civil date: 1941-05-01\, Islamic: 1440-11-20 Ḏū al
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:viṣṇupadī-puṇyakālaḥ
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190723T015618
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190723T144423
+DESCRIPTION:Viṣṇupadī Punyakala.<br/><br/>saṅkrāntisnānākaraṇe
+  pratyavāyamāha śātātapaḥ—  <br/>sūryasaṅkramaṇe puṇye na 
+ snāyādyadi mānavaḥ|  <br/>saptajanmasu rogī syād duḥkhabhāgī ca
+  jāyate||  <br/>saṅkrāntyāṃ yāni dattāni havyakavyāni mānavai
+ ḥ|  <br/>tāni tasya dadātyarkaḥ saptajanmasu niścitam||  <br/>(sm
+ ṛtimuktāphale āhnika-kāṇḍe-pūrvabhāgaḥ)<br/><br/><br/><br/>##
+  Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/t
+ ree/master/time_focus/sankrAnti/description_only/viSNupadI-puNyakAlaH.toml
+ )<br/>- Tags: SunSankranti CommonFestivals
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
