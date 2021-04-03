@@ -167,7 +167,7 @@ class EclipticFestivalAssigner(FestivalAssigner):
           fday = int(floor(jd_transit) - floor(self.daily_panchaangas[0].julian_day_start))
           fest = TransitionFestivalInstance(name='guru-saGkrAntiH', status_1_hk=names.NAMES['RASHI_NAMES']['sa']['hk'][rashi1], status_2_hk=names.NAMES['RASHI_NAMES']['sa']['hk'][rashi2])
           self.panchaanga.add_festival_instance(festival_instance=fest, date=self.daily_panchaangas[fday].date)
-          if rashi1 < rashi2 and transits[i + 1].value_1 < transits[i + 1].value_2:
+          if (rashi1 % 12 + 1) == rashi2 and ((transits[i + 1].value_1 % 12) + 1) == transits[i + 1].value_2:
             # Considering only non-retrograde transits for pushkara computations
             # logging.debug('Non-retrograde transit; we have a pushkaram!')
             (madhyanha_start, madhyaahna_end) = interval.get_interval(self.daily_panchaangas[fday].jd_sunrise,
