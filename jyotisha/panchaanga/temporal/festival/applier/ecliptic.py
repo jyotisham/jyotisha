@@ -154,16 +154,16 @@ class EclipticFestivalAssigner(FestivalAssigner):
   def set_jupiter_transits(self):
     if 'guru-saGkrAntiH' not in self.rules_collection.name_to_rule:
       return 
-    jd_end = self.panchaanga.jd_start + self.panchaanga.duration
+    jd_end = self.panchaanga.jd_start + self.panchaanga.duration + 13
     check_window = 400  # Max t between two Jupiter transits is ~396 (checked across 180y)
     # Let's check for transitions in a relatively large window
     # to finalise what is the FINAL transition post retrograde movements
-    transits = Graha.singleton(Graha.JUPITER).get_transits(self.panchaanga.jd_start, jd_end + check_window, anga_type=AngaType.RASHI,
+    transits = Graha.singleton(Graha.JUPITER).get_transits(self.panchaanga.jd_start - 13, jd_end + check_window, anga_type=AngaType.RASHI,
                                                            ayanaamsha_id=self.ayanaamsha_id)
     if len(transits) > 0:
       for i, transit in enumerate(transits):
         (jd_transit, rashi1, rashi2) = (transit.jd, transit.value_1, transit.value_2)
-        if self.panchaanga.jd_start < jd_transit < jd_end:
+        if self.panchaanga.jd_start - 13 < jd_transit < jd_end:
           fday = int(floor(jd_transit) - floor(self.daily_panchaangas[0].julian_day_start))
           fest = TransitionFestivalInstance(name='guru-saGkrAntiH', status_1_hk=names.NAMES['RASHI_NAMES']['sa']['hk'][rashi1], status_2_hk=names.NAMES['RASHI_NAMES']['sa']['hk'][rashi2])
           self.panchaanga.add_festival_instance(festival_instance=fest, date=self.daily_panchaangas[fday].date)
