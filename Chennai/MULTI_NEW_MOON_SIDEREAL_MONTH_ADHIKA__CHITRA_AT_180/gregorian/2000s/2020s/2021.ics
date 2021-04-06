@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210402212901
+SEQUENCE:20210406092546
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -909,10 +909,10 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  ्।  <br/>द्वादश्यामच्युतफलम् आ
  गस्त्यं पत्रमेव वा।   <br/>आमलक
  ्याः फलं वापि पारणे प्राश्य 
- शुद्ध्यति॥  <br/><br/><br/><br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
- _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
- thlyVratam EkadashiVratam
+ शुद्ध्यति॥<br/><br/><br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/
+ monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
+ tam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -948,10 +948,10 @@ DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
   तु  ये  कुर्याच्छ्रद्धया  यु
  ताः।  <br/>न  भवेत्  तस्य  दारिद्
- र्यं  जन्मान्तरशतेष्वपि॥  <br/
- ><br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.co
- m/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/description_
- only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+ र्यं  जन्मान्तरशतेष्वपि॥<br/><
+ br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyoti
+ sham/adyatithi/tree/master/time_focus/monthly/pradoSha/description_only/pr
+ adOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -1543,6 +1543,25 @@ DESCRIPTION:Have darshan of Moon today\, chanting the following shloka<br/
  [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/deva
  tA/graha/description_only/candra-darzanam.toml)<br/>- Tags: ChandraDarshan
  am
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:गोलाकान्दैल-हत्या #५७
+DTSTART;VALUE=DATE:20210114
+DTEND;VALUE=DATE:20210115
+DESCRIPTION:Event occured on 1964-01-14 (gregorian). Poush Parbon (Makar S
+ ankranti)\, 20k Bengali Hindus had come to Golakandail to attend a Fair. M
+ ill workers armed and roused by a mill GM Karim killed 5k to 6k Hindus on 
+ that day. (Source -Report submitted to the Indian Commission of Jurists by
+  its committee of enquiry)<br/><br/>## Details<br/>- [Edit config file](ht
+ tps://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/g
+ regorian/day/01/14/golAkAndaila-hatyA.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -2465,10 +2484,10 @@ DESCRIPTION:Observed on Kṛttikā nakshatra of Makaraḥ (sidereal solar)
  लाः द्युगङ्गातीरे श्रवणसरः
   प्रति (तत्रैव शरवणे) निन्यत
  ुः। तत्र जाताः ६ बालाः कृत्त
- िकाभिर् वर्धिताः।<br/><br/><br/>## Details
- <br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/mast
- er/devatA/kaumAra/sidereal_solar_month/nakshatra/10/03/tai_kiruttikai.toml
- )<br/>- Tags: TamilnaduTempleFestivals
+ िकाभिर् वर्धिताः।<br/><br/>## Details<br/>
+ - [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/de
+ vatA/kaumAra/sidereal_solar_month/nakshatra/10/03/tai_kiruttikai.toml)<br/
+ >- Tags: TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2698,10 +2717,10 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  ्।  <br/>द्वादश्यामच्युतफलम् आ
  गस्त्यं पत्रमेव वा।   <br/>आमलक
  ्याः फलं वापि पारणे प्राश्य 
- शुद्ध्यति॥  <br/><br/><br/><br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
- _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
- thlyVratam EkadashiVratam
+ शुद्ध्यति॥<br/><br/><br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/
+ monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
+ tam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -2898,10 +2917,10 @@ DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
   तु  ये  कुर्याच्छ्रद्धया  यु
  ताः।  <br/>न  भवेत्  तस्य  दारिद्
- र्यं  जन्मान्तरशतेष्वपि॥  <br/
- ><br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.co
- m/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/description_
- only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+ र्यं  जन्मान्तरशतेष्वपि॥<br/><
+ br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyoti
+ sham/adyatithi/tree/master/time_focus/monthly/pradoSha/description_only/pr
+ adOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -3030,10 +3049,10 @@ DESCRIPTION:Observed on Puṣyaḥ nakshatra of Makaraḥ (sidereal solar)
  ्सवोयम् आचर्यते। एतादृशे द
  िने पार्वती कार्त्तिकेयाय 
  शक्त्यायुधं ददौ शूरपद्मादि
- निग्रहाय।<br/><br/><br/>## Details<br/>- [Edit config fi
- le](https://github.com/jyotisham/adyatithi/tree/master/devatA/kaumAra/side
- real_solar_month/nakshatra/10/08/taippUcam.toml)<br/>- Tags: TamilnaduTemp
- leFestivals CommonFestivals
+ निग्रहाय।<br/><br/>## Details<br/>- [Edit config file](h
+ ttps://github.com/jyotisham/adyatithi/tree/master/devatA/kaumAra/sidereal_
+ solar_month/nakshatra/10/08/taippUcam.toml)<br/>- Tags: TamilnaduTempleFes
+ tivals CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4372,10 +4391,10 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  ्।  <br/>द्वादश्यामच्युतफलम् आ
  गस्त्यं पत्रमेव वा।   <br/>आमलक
  ्याः फलं वापि पारणे प्राश्य 
- शुद्ध्यति॥  <br/><br/><br/><br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
- _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
- thlyVratam EkadashiVratam
+ शुद्ध्यति॥<br/><br/><br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/
+ monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
+ tam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -4483,10 +4502,10 @@ DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
   तु  ये  कुर्याच्छ्रद्धया  यु
  ताः।  <br/>न  भवेत्  तस्य  दारिद्
- र्यं  जन्मान्तरशतेष्वपि॥  <br/
- ><br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.co
- m/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/description_
- only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+ र्यं  जन्मान्तरशतेष्वपि॥<br/><
+ br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyoti
+ sham/adyatithi/tree/master/time_focus/monthly/pradoSha/description_only/pr
+ adOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -4517,9 +4536,9 @@ DESCRIPTION:Event occured on 1528-02-09 (gregorian). Julian date was conve
  rted to Gregorian in this reckoning. Shortly after the defeat at khanvA\, 
  Sangra\, grandson of kumbha\, died on 30 January 1528 in Kalpi\, evidently
   poisoned by his own chiefs who held his further plans against Babur to be
-  suicidal.<br/><br/><br/>## Details<br/>- [Edit config file](https://githu
- b.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/da
- y/02/09/sangrAmasiMho_hataH.toml)<br/>- Tags:
+  suicidal.<br/><br/>## Details<br/>- [Edit config file](https://github.com
+ /jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/02/
+ 09/sangrAmasiMho_hataH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5450,6 +5469,23 @@ DESCRIPTION:Event occured on 1946-02-17 (gregorian). sailors of Royal Indi
  ian National Navy<br/><br/>## Details<br/>- [Edit config file](https://git
  hub.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/
  day/02/17/bhAratIya-nau-sainika-vidrohaH.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:मूलादि-हत्या #७१
+DTSTART;VALUE=DATE:20210217
+DTEND;VALUE=DATE:20210218
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/02/17/mUlAd
+ i-hatyA.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit confi
+ g file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xat
+ ra-later/gregorian/day/02/17/mUlAdi-hatyA.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6489,10 +6525,10 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  ्।  <br/>द्वादश्यामच्युतफलम् आ
  गस्त्यं पत्रमेव वा।   <br/>आमलक
  ्याः फलं वापि पारणे प्राश्य 
- शुद्ध्यति॥  <br/><br/><br/><br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
- _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
- thlyVratam EkadashiVratam
+ शुद्ध्यति॥<br/><br/><br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/
+ monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
+ tam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -6540,10 +6576,10 @@ DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
   तु  ये  कुर्याच्छ्रद्धया  यु
  ताः।  <br/>न  भवेत्  तस्य  दारिद्
- र्यं  जन्मान्तरशतेष्वपि॥  <br/
- ><br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.co
- m/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/description_
- only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+ र्यं  जन्मान्तरशतेष्वपि॥<br/><
+ br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyoti
+ sham/adyatithi/tree/master/time_focus/monthly/pradoSha/description_only/pr
+ adOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -6703,10 +6739,10 @@ DESCRIPTION:Observed on Śukla-Caturdaśī tithi of Kumbhaḥ (sidereal so
   शीतं प्रभूतं तव कनकसभानाथ स
  ोढुं क्व शक्ति:  <br/>चित्ते निर
  ्वेदतप्ते यदि भवति न ते नित्
- यवासो मदीये॥  <br/><br/><br/><br/><br/>## Details<br
- />- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/
- temples/Tamil/sidereal_solar_month/tithi/11/14/naTarAjar_mahAbhiSEkam~6.to
- ml)<br/>- Tags: TamilnaduTempleFestivals
+ यवासो मदीये॥<br/><br/><br/><br/>## Details<br/>- [Ed
+ it config file](https://github.com/jyotisham/adyatithi/tree/master/temples
+ /Tamil/sidereal_solar_month/tithi/11/14/naTarAjar_mahAbhiSEkam~6.toml)<br/
+ >- Tags: TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6931,10 +6967,10 @@ DESCRIPTION:Event occured on 1931-02-27 (gregorian). chandrashekhara AzAd\
  , cornered by british police in prayAga (being ratted out by vIrabhadra ti
  vArI)\, shot himself with his last bullet. He was commander in chief "Balr
  aj" of Hindustan Socialist Republic Army\, which included revolutionaries 
- such as Ashfaqullah Khan and his mentor rAm prasAd bismil.<br/><br/><br/>#
- # Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/
- tree/master/mahApuruSha/xatra-later/gregorian/day/02/27/AzAda-chandrashekh
- aro_mRtaH.toml)<br/>- Tags:
+ such as Ashfaqullah Khan and his mentor rAm prasAd bismil.<br/><br/>## Det
+ ails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/
+ master/mahApuruSha/xatra-later/gregorian/day/02/27/AzAda-chandrashekharo_m
+ RtaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -6952,9 +6988,9 @@ DESCRIPTION:Event occured on 2002-02-27 (gregorian). A roughly 1k+ strong
  i Ibrahim Umarji\, the alleged mastermind\, was acquitted due to lack of e
  vidence - though they managed to convict around 31 people\; and the courts
   termed it a well planned attack. Riots followed\, resulting in 1k-2k deat
- hs (~ 75% muslim).<br/><br/><br/>## Details<br/>- [Edit config file](https
- ://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/greg
- orian/day/02/27/godhrA-jvAlanam.toml)<br/>- Tags:
+ hs (~ 75% muslim).<br/><br/>## Details<br/>- [Edit config file](https://gi
+ thub.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian
+ /day/02/27/godhrA-jvAlanam.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -7304,9 +7340,9 @@ DESCRIPTION:Event occured on 1630-03-01 (gregorian). Julian date was conve
  shivAjI (It was phAlguna k3)\, about whom bhUShaNa wrote<br/>"चारौ
   वर्ण धर्म छोडि  <br/>कलमा नेवाज
   पढि  <br/>सिवाजी न होतो तौ  <br/>सु
- नति होत सबकी" 🙏🙏<br/><br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/mahA
- puruSha/xatra-later/gregorian/day/03/01/shivarAjo_jAtaH.toml)<br/>- Tags:
+ नति होत सबकी" 🙏🙏<br/><br/>## Details<br/>- [Edit
+  config file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruS
+ ha/xatra-later/gregorian/day/03/01/shivarAjo_jAtaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -7891,10 +7927,10 @@ DESCRIPTION:Event occured on 1771-03-07 (gregorian). Moti tAlab / tonnur k
  ere- Melukote battlefield where Trimbak rao Pethe\, uncle to Sadashiv rao\
  , inflicted a major defeat on Hyder Ali & Tipu on 7 March 1771. Srirangapa
  tna placed under a siege for 6 weeks. Hyder eventually paid a 50 lakh inde
- mnity & signed a treaty.<br/><br/><br/>## Details<br/>- [Edit config file]
- (https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-late
- r/gregorian/day/03/07/tryambak-rAvo_haidaram_jayati_yadugiri-sare.toml)<br
- />- Tags:
+ mnity & signed a treaty.<br/><br/>## Details<br/>- [Edit config file](http
+ s://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gre
+ gorian/day/03/07/tryambak-rAvo_haidaram_jayati_yadugiri-sare.toml)<br/>- T
+ ags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8090,10 +8126,10 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  ्।  <br/>द्वादश्यामच्युतफलम् आ
  गस्त्यं पत्रमेव वा।   <br/>आमलक
  ्याः फलं वापि पारणे प्राश्य 
- शुद्ध्यति॥  <br/><br/><br/><br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
- _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
- thlyVratam EkadashiVratam
+ शुद्ध्यति॥<br/><br/><br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/
+ monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
+ tam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -8234,10 +8270,10 @@ DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
   तु  ये  कुर्याच्छ्रद्धया  यु
  ताः।  <br/>न  भवेत्  तस्य  दारिद्
- र्यं  जन्मान्तरशतेष्वपि॥  <br/
- ><br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.co
- m/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/description_
- only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+ र्यं  जन्मान्तरशतेष्वपि॥<br/><
+ br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyoti
+ sham/adyatithi/tree/master/time_focus/monthly/pradoSha/description_only/pr
+ adOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -10145,10 +10181,10 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  ्।  <br/>द्वादश्यामच्युतफलम् आ
  गस्त्यं पत्रमेव वा।   <br/>आमलक
  ्याः फलं वापि पारणे प्राश्य 
- शुद्ध्यति॥  <br/><br/><br/><br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
- _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
- thlyVratam EkadashiVratam
+ शुद्ध्यति॥<br/><br/><br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/
+ monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
+ tam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -10310,9 +10346,9 @@ DTEND;VALUE=DATE:20210327
 DESCRIPTION:Event occured on 1693-03-26 (gregorian). Julian date was conve
  rted to Gregorian in this reckoning. On this day was born the great genera
  l Malhar Rao Holkar\, who served under peshva-s ranging from bAjI rAv to m
- Adhav rAv.<br/><br/><br/>## Details<br/>- [Edit config file](https://githu
- b.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/da
- y/03/26/holkara-malhara-janma.toml)<br/>- Tags:
+ Adhav rAv.<br/><br/>## Details<br/>- [Edit config file](https://github.com
+ /jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/03/
+ 26/holkara-malhara-janma.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10437,10 +10473,10 @@ DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
   तु  ये  कुर्याच्छ्रद्धया  यु
  ताः।  <br/>न  भवेत्  तस्य  दारिद्
- र्यं  जन्मान्तरशतेष्वपि॥  <br/
- ><br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.co
- m/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/description_
- only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+ र्यं  जन्मान्तरशतेष्वपि॥<br/><
+ br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyoti
+ sham/adyatithi/tree/master/time_focus/monthly/pradoSha/description_only/pr
+ adOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -10553,6 +10589,24 @@ DESCRIPTION:Event occured on 1766-03-27 (gregorian). malharrAv holkar dies
  <br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham
  /adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/03/27/holkara
  -malhararAvo_mRtaH.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:रमना-काली-मन्दिर-नाशः #५०
+DTSTART;VALUE=DATE:20210327
+DTEND;VALUE=DATE:20210328
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/03/27/raman
+ A-kAlI-mandira-nAshaH.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/
+ >- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/m
+ ahApuruSha/xatra-later/gregorian/day/03/27/ramanA-kAlI-mandira-nAshaH.toml
+ )<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10789,9 +10843,9 @@ DESCRIPTION:Observed on Uttaraphalgunī nakshatra of Mīnaḥ (sidereal so
  द्रमसि (खे विपरितदिशि) पर्वे
  दमाचर्यते। नानादेवतानां वि
  वाहा एतादृशे दिने बभूवुः।<br/>
- <br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham
- /adyatithi/tree/master/general/sidereal_solar_month/nakshatra/12/12/paGgun
- 2i~uttiram.toml)<br/>- Tags: TamilnaduTempleFestivals CommonFestivals
+ <br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adya
+ tithi/tree/master/general/sidereal_solar_month/nakshatra/12/12/paGgun2i~ut
+ tiram.toml)<br/>- Tags: TamilnaduTempleFestivals CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11736,9 +11790,9 @@ DESCRIPTION:Event occured on 1737-04-06 (gregorian). Julian date was conve
  ts guarding it. The first aim was to capture Thane. Having left Pune\, one
   contingent of the Marathas reached Thane by the end of that month. chimAj
  I appa\, on hearing this\, directed his troops west to shaShThI island.<br
- /><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/04/06/thAne
- -grahaNam.toml)<br/>- Tags:
+ /><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/ad
+ yatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/04/06/thAne-grah
+ aNam.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11959,10 +12013,10 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  ्।  <br/>द्वादश्यामच्युतफलम् आ
  गस्त्यं पत्रमेव वा।   <br/>आमलक
  ्याः फलं वापि पारणे प्राश्य 
- शुद्ध्यति॥  <br/><br/><br/><br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
- _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
- thlyVratam EkadashiVratam
+ शुद्ध्यति॥<br/><br/><br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/
+ monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
+ tam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -12054,10 +12108,10 @@ DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
   तु  ये  कुर्याच्छ्रद्धया  यु
  ताः।  <br/>न  भवेत्  तस्य  दारिद्
- र्यं  जन्मान्तरशतेष्वपि॥  <br/
- ><br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.co
- m/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/description_
- only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+ र्यं  जन्मान्तरशतेष्वपि॥<br/><
+ br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyoti
+ sham/adyatithi/tree/master/time_focus/monthly/pradoSha/description_only/pr
+ adOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -12652,10 +12706,9 @@ DESCRIPTION:Event occured on 1680-04-13 (gregorian). Julian date was conve
  rted to Gregorian in this reckoning. Saturday. Chatrapati died at Raigad.<
  br/><br/>Contemporary muslim chroniclers like Muhammad Saqi Khan and Khafi
   Khan declared that he will go to hell. Even Cosme da Guarda\, his admirer
- \, declared that as a pagan he will go to hell.<br/><br/><br/>## Details<b
- r/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master
- /mahApuruSha/xatra-later/gregorian/day/04/13/shivarAjo_mRtaH.toml)<br/>- T
- ags:
+ \, declared that as a pagan he will go to hell.<br/><br/>## Details<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/mahA
+ puruSha/xatra-later/gregorian/day/04/13/shivarAjo_mRtaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12674,10 +12727,10 @@ DESCRIPTION:Observed on Śukla-Prathamā tithi of Caitraḥ (lunar) month
   <br/>वसन्तकाले सा प्रोक्ता का
  र्या सर्वैः शुभार्थिभिः॥  <br/
  >---मार्कण्डेय-पुराणम् (स्मृत
- िकौस्तुभे)  <br/><br/><br/><br/><br/>## Details<br/>- [E
- dit config file](https://github.com/jyotisham/adyatithi/tree/master/genera
- l/lunar_month/tithi/01/01/vasantanavarAtra-ArambhaH.toml)<br/>- Tags: Comm
- onFestivals Navaratri SpecialPeriodStart
+ िकौस्तुभे)<br/><br/><br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/tree/master/general/lunar
+ _month/tithi/01/01/vasantanavarAtra-ArambhaH.toml)<br/>- Tags: CommonFesti
+ vals Navaratri SpecialPeriodStart
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12994,11 +13047,10 @@ DESCRIPTION:Observed on Śukla-Tṛtīyā tithi of Caitraḥ (lunar) month
  ी मे प्रीयतामिति।  <br/>एतद्गौ
  रीव्रतं नाम भवानीलोकदायकम्
  ॥  <br/>---मत्स्यपुराणम् (स्मृति
- कौस्तुभे)  <br/><br/><br/><br/><br/>## Details<br/>- Refer
- ences<br/>  - Smriti Kaustubham p.89<br/>- [Edit config file](https://gith
- ub.com/jyotisham/adyatithi/tree/master/devatA/umA/lunar_month/tithi/01/03/
- gaurI~tRtIyA_or_saubhAgya-gaurI-vratam.toml)<br/>- Tags: SpecialVratam Dev
- iPuja
+ कौस्तुभे)<br/><br/><br/><br/>## Details<br/>- References<b
+ r/>  - Smriti Kaustubham p.89<br/>- [Edit config file](https://github.com/
+ jyotisham/adyatithi/tree/master/devatA/umA/lunar_month/tithi/01/03/gaurI~t
+ RtIyA_or_saubhAgya-gaurI-vratam.toml)<br/>- Tags: SpecialVratam DeviPuja
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13026,10 +13078,10 @@ DESCRIPTION:Observed on Śukla-Tṛtīyā tithi of Caitraḥ (lunar) month
  ा।  <br/>सौभाग्याय सदा स्त्रीभ
  िः कार्या पुत्रसुखेप्सुभिः
  ॥  <br/>---देवीपुराणम् (स्मृतिकौ
- स्तुभे)  <br/><br/><br/><br/><br/>## Details<br/>- References<
- br/>  - Smriti Kaustubham p.90<br/>- [Edit config file](https://github.com
- /jyotisham/adyatithi/tree/master/devatA/shaiva/lunar_month/tithi/01/03/pAr
- vatIzvarayOrAndalanavratam.toml)<br/>- Tags: LessCommonFestivals
+ स्तुभे)<br/><br/><br/><br/>## Details<br/>- References<br/>  -
+  Smriti Kaustubham p.90<br/>- [Edit config file](https://github.com/jyotis
+ ham/adyatithi/tree/master/devatA/shaiva/lunar_month/tithi/01/03/pArvatIzva
+ rayOrAndalanavratam.toml)<br/>- Tags: LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13181,9 +13233,9 @@ DESCRIPTION:Event occured on 1998-04-17 (gregorian). 26 Hindus in the vill
  ers'). The massacre forced migration of nearly 1\,000 people to Reasi\, Po
  uni Thanpal\, Chasana and other towns of the district.<br/><br/>In April 2
  008\, the alleged mastermind Abdul Haque alias Jahangir\, was shot dead.<b
- r/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotis
- ham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/04/17/98-p
- rANakoTe-hatyA.toml)<br/>- Tags:
+ r/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/a
+ dyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/04/17/98-prANak
+ oTe-hatyA.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13240,11 +13292,11 @@ DESCRIPTION:Observed on Śukla-Pañcamī tithi of Caitraḥ (lunar) month
  ज्ञया॥  <br/>तस्मात् तां पूजये
  त् तत्र यस्तं लक्ष्मीर्न मु
  ञ्चति।  <br/>एषा श्रीपञ्चमी का
- र्या विष्णुलोकगतिप्रदा॥  <br/>
- <br/><br/><br/><br/>## Details<br/>- References<br/>  - Smriti Kaustubham 
- p.92<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/
- master/devatA/lakShmI/lunar_month/tithi/01/05/lakSmI-paJcamI.toml)<br/>- T
- ags: CommonFestivals
+ र्या विष्णुलोकगतिप्रदा॥<br/><b
+ r/><br/><br/>## Details<br/>- References<br/>  - Smriti Kaustubham p.92<br
+ />- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/
+ devatA/lakShmI/lunar_month/tithi/01/05/lakSmI-paJcamI.toml)<br/>- Tags: Co
+ mmonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13409,9 +13461,9 @@ DTEND;VALUE=DATE:20210419
 DESCRIPTION:Event occured on 1859-04-18 (gregorian). Ramachandra Pandurang
  a Yawalkar\, Aka Tantia Tope\, general of the last peshvA nAnA saheb\, vic
  tor of many battles\, killed by the British after being surrendered to the
- m by mAn singh.<br/><br/><br/>## Details<br/>- [Edit config file](https://
- github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregori
- an/day/04/18/tAntyA_hataH.toml)<br/>- Tags:
+ m by mAn singh.<br/><br/>## Details<br/>- [Edit config file](https://githu
+ b.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/da
+ y/04/18/tAntyA_hataH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13779,10 +13831,10 @@ DESCRIPTION:शरत्काले महापूजा क्रिय
  ते या च वार्षिकी।  <br/>वसन्तका
  ले सा प्रोक्ता कार्या सर्वै
  ः शुभार्थिभिः॥  <br/>---मार्कण्ड
- ेय-पुराणम् (स्मृतिकौस्तुभे) 
-  <br/><br/><br/><br/><br/>## Details<br/>- [Edit config file](https://gith
- ub.com/jyotisham/adyatithi/tree/master/general/description_only/vasantanav
- arAtraH.toml)<br/>- Tags: CommonFestivals Navaratri SpecialPeriod
+ ेय-पुराणम् (स्मृतिकौस्तुभे)<
+ br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/
+ jyotisham/adyatithi/tree/master/general/description_only/vasantanavarAtraH
+ .toml)<br/>- Tags: CommonFestivals Navaratri SpecialPeriod
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13801,10 +13853,10 @@ DESCRIPTION:Observed on Śukla-Navamī tithi of Caitraḥ (lunar) month (S
   <br/>वसन्तकाले सा प्रोक्ता का
  र्या सर्वैः शुभार्थिभिः॥  <br/
  >---मार्कण्डेय-पुराणम् (स्मृत
- िकौस्तुभे)  <br/><br/><br/><br/><br/>## Details<br/>- [E
- dit config file](https://github.com/jyotisham/adyatithi/tree/master/genera
- l/lunar_month/tithi/01/09/vasantanavarAtra-samApanam.toml)<br/>- Tags: Com
- monFestivals Navaratri SpecialPeriodEnd
+ िकौस्तुभे)<br/><br/><br/><br/>## Details<br/>- [Edit con
+ fig file](https://github.com/jyotisham/adyatithi/tree/master/general/lunar
+ _month/tithi/01/09/vasantanavarAtra-samApanam.toml)<br/>- Tags: CommonFest
+ ivals Navaratri SpecialPeriodEnd
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13897,11 +13949,11 @@ DESCRIPTION:Observed on Śukla-Daśamī tithi of Caitraḥ (lunar) month (
  ते देवीपुराणे---  <br/>धर्मराजं 
  दशम्यां तु पूजयित्वा सुगन्
  धिभिः।  <br/>विगतारिर्निरातङ्
- क इह चान्ते परं पदम्॥  <br/><br/><br/><b
- r/><br/>## Details<br/>- References<br/>  - Smriti Kaustubham p.101<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/gene
- ral/lunar_month/tithi/01/10/dharmarAja-dazamI.toml)<br/>- Tags: LessCommon
- Festivals
+ क इह चान्ते परं पदम्॥<br/><br/><br/><br/
+ >## Details<br/>- References<br/>  - Smriti Kaustubham p.101<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/tree/master/general/lun
+ ar_month/tithi/01/10/dharmarAja-dazamI.toml)<br/>- Tags: LessCommonFestiva
+ ls
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13993,10 +14045,10 @@ DTEND;VALUE=DATE:20210424
 DESCRIPTION:Event occured on 1971-04-23 (gregorian). Over 3k Bengali and R
  ajbanshi Hindu males trying to run away to India were stopped and killed b
  y Islamic Republic of Pakistan Army in collaboration with razAkar-s (volun
- teers) including members of Jamaat-e-Islami and Muslim League.<br/><br/><b
- r/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyati
- thi/tree/master/mahApuruSha/xatra-later/gregorian/day/04/23/jAThibhAngA-ha
- tyA.toml)<br/>- Tags:
+ teers) including members of Jamaat-e-Islami and Muslim League.<br/><br/>##
+  Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/t
+ ree/master/mahApuruSha/xatra-later/gregorian/day/04/23/jAThibhAngA-hatyA.t
+ oml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -14128,10 +14180,10 @@ DESCRIPTION:Event occured on 1834-04-24 (gregorian). chikka-vIra-rAjendra
   was annexed into British India. He lived 14 years in exile\; one of his d
  aughters married jung bahAdur rANa\, while another\, gauramma (then aged 1
  1 years)\, adopted to be taken care by Queen Victoria was converted to Chr
- istianity and married to some old colnel.<br/><br/><br/>## Details<br/>- [
- Edit config file](https://github.com/jyotisham/adyatithi/tree/master/mahAp
- uruSha/xatra-later/gregorian/day/04/24/AnglaiH_koDagu-grahaNam.toml)<br/>-
-  Tags:
+ istianity and married to some old colnel.<br/><br/>## Details<br/>- [Edit 
+ config file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSh
+ a/xatra-later/gregorian/day/04/24/AnglaiH_koDagu-grahaNam.toml)<br/>- Tags
+ :
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -14192,10 +14244,10 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  ्।  <br/>द्वादश्यामच्युतफलम् आ
  गस्त्यं पत्रमेव वा।   <br/>आमलक
  ्याः फलं वापि पारणे प्राश्य 
- शुद्ध्यति॥  <br/><br/><br/><br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
- _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
- thlyVratam EkadashiVratam
+ शुद्ध्यति॥<br/><br/><br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/
+ monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
+ tam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -14268,10 +14320,10 @@ DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  a Monday/Saturday.<br/><br/>प्रदोषे  शिवपूजा
  ं  तु  ये  कुर्याच्छ्रद्धया  य
  ुताः।  <br/>न  भवेत्  तस्य  दारिद
- ्र्यं  जन्मान्तरशतेष्वपि॥  <
- br/><br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github
- .com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/descripti
- on_only/zani-pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+ ्र्यं  जन्मान्तरशतेष्वपि॥<br
+ /><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jy
+ otisham/adyatithi/tree/master/time_focus/monthly/pradoSha/description_only
+ /zani-pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -14382,10 +14434,10 @@ DESCRIPTION:Observed on Śukla-Trayodaśī tithi of Caitraḥ (lunar) mont
  कम्।  <br/>कृत्वा सम्पूज्य यत्
  नेन वीजयेद्यजनेन तु।  <br/>ततः 
  सन्धुक्षितः कामः पुत्रपौत्
- रसमृद्धिदः॥  <br/><br/><br/><br/><br/>## Details<br/
- >- References<br/>  - Smriti Kaustubham p.104<br/>- [Edit config file](htt
- ps://github.com/jyotisham/adyatithi/tree/master/general/lunar_month/tithi/
- 01/13/madana-trayOdazI.toml)<br/>- Tags: LessCommonFestivals
+ रसमृद्धिदः॥<br/><br/><br/><br/>## Details<br/>- Refe
+ rences<br/>  - Smriti Kaustubham p.104<br/>- [Edit config file](https://gi
+ thub.com/jyotisham/adyatithi/tree/master/general/lunar_month/tithi/01/13/m
+ adana-trayOdazI.toml)<br/>- Tags: LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -14593,11 +14645,11 @@ DESCRIPTION:Observed on Śukla-Caturdaśī tithi of Caitraḥ (lunar) mont
  ेत्कलौ॥  <br/>दक्षिणाभिमुखं दे
  वं दोलमानं सुरेश्वरम्।  <br/>स
  म्पूजितं सकृदृष्ट्वा सर्वप
- ापैः प्रमुच्यते॥  <br/><br/><br/><br/><br/>#
- # Details<br/>- References<br/>  - Smriti Kaustubham p.90<br/>- [Edit conf
- ig file](https://github.com/jyotisham/adyatithi/tree/master/devatA/vaiShNa
- va/lunar_month/tithi/01/14/nRsiMha-dOlOtsavaH.toml)<br/>- Tags: LessCommon
- Festivals
+ ापैः प्रमुच्यते॥<br/><br/><br/><br/>## Detai
+ ls<br/>- References<br/>  - Smriti Kaustubham p.90<br/>- [Edit config file
+ ](https://github.com/jyotisham/adyatithi/tree/master/devatA/vaiShNava/luna
+ r_month/tithi/01/14/nRsiMha-dOlOtsavaH.toml)<br/>- Tags: LessCommonFestiva
+ ls
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15262,10 +15314,10 @@ DESCRIPTION:Observed on Kṛṣṇa-Pañcamī tithi of Caitraḥ (lunar) m
  स्तस्मै नमः कारणसूकराय ते॥
  ३-१३-३५॥  <br/>—श्रीमद्भागवते म
  हापुराणे तृतीयेस्कन्धे त्र
- योदशेऽध्याये <br/><br/><br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/deva
- tA/lakShmI/lunar_month/tithi/01/20/lakSmI-varAha~jayantI.toml)<br/>- Tags:
-  Dashavataram
+ योदशेऽध्याये<br/><br/><br/><br/>## Details<br/>- [
+ Edit config file](https://github.com/jyotisham/adyatithi/tree/master/devat
+ A/lakShmI/lunar_month/tithi/01/20/lakSmI-varAha~jayantI.toml)<br/>- Tags: 
+ Dashavataram
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15427,10 +15479,10 @@ DESCRIPTION:Observed on Śravaṇaḥ nakshatra of Meṣaḥ (sidereal sol
  ं प्रभूतं तव कनकसभानाथ सोढु
  ं क्व शक्ति:  <br/>चित्ते निर्वे
  दतप्ते यदि भवति न ते नित्यवा
- सो मदीये॥  <br/><br/><br/><br/><br/>## Details<br/>- [Edit
-  config file](https://github.com/jyotisham/adyatithi/tree/master/temples/T
- amil/sidereal_solar_month/nakshatra/01/22/naTarAjar_cittirai_ONam_mahAbhiS
- Ekam.toml)<br/>- Tags: TamilnaduTempleFestivals
+ सो मदीये॥<br/><br/><br/><br/>## Details<br/>- [Edit config
+  file](https://github.com/jyotisham/adyatithi/tree/master/temples/Tamil/si
+ dereal_solar_month/nakshatra/01/22/naTarAjar_cittirai_ONam_mahAbhiSEkam.to
+ ml)<br/>- Tags: TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15752,10 +15804,10 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  ्।  <br/>द्वादश्यामच्युतफलम् आ
  गस्त्यं पत्रमेव वा।   <br/>आमलक
  ्याः फलं वापि पारणे प्राश्य 
- शुद्ध्यति॥  <br/><br/><br/><br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
- _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
- thlyVratam EkadashiVratam
+ शुद्ध्यति॥<br/><br/><br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/
+ monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
+ tam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15879,10 +15931,10 @@ DTSTART;VALUE=DATE:20210508
 DTEND;VALUE=DATE:20210509
 DESCRIPTION:Event occured on 1758-05-08 (gregorian). Tukoji Rao Holkar def
  eats the afghAn Durrani Empire at the Battle of Peshawar. He was left ther
- e by raghunAth rAv and malharrAv holkar.<br/><br/><br/>## Details<br/>- [E
- dit config file](https://github.com/jyotisham/adyatithi/tree/master/mahApu
- ruSha/xatra-later/gregorian/day/05/08/holkaraiH_peshAvara-grahaNam.toml)<b
- r/>- Tags:
+ e by raghunAth rAv and malharrAv holkar.<br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha
+ /xatra-later/gregorian/day/05/08/holkaraiH_peshAvara-grahaNam.toml)<br/>- 
+ Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15900,10 +15952,10 @@ DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  a Monday/Saturday.<br/><br/>प्रदोषे  शिवपूजा
  ं  तु  ये  कुर्याच्छ्रद्धया  य
  ुताः।  <br/>न  भवेत्  तस्य  दारिद
- ्र्यं  जन्मान्तरशतेष्वपि॥  <
- br/><br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github
- .com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/descripti
- on_only/zani-pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+ ्र्यं  जन्मान्तरशतेष्वपि॥<br
+ /><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jy
+ otisham/adyatithi/tree/master/time_focus/monthly/pradoSha/description_only
+ /zani-pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -16008,11 +16060,10 @@ DESCRIPTION:Observed on Kṛṣṇa-Trayodaśī tithi of Caitraḥ (lunar)
   month (Aparāhṇaḥ/puurvaviddha). <br/><br/>सत्यव्रत
  ोपदेशाय जिह्ममीनस्वरूपधृक
  ्।  <br/>प्रलयाब्धिकृतावास गृह
- ाणार्घ्यं नमोऽस्तु ते॥  <br/><br/>
- <br/><br/><br/>## Details<br/>- References<br/>  - Kielhorn (1897)<br/>- [
- Edit config file](https://github.com/jyotisham/adyatithi/tree/master/devat
- A/vaiShNava/lunar_month/tithi/01/28/matsya~jayantI.toml)<br/>- Tags: Dasha
- vataram
+ ाणार्घ्यं नमोऽस्तु ते॥<br/><br/><b
+ r/><br/>## Details<br/>- References<br/>  - Kielhorn (1897)<br/>- [Edit co
+ nfig file](https://github.com/jyotisham/adyatithi/tree/master/devatA/vaiSh
+ Nava/lunar_month/tithi/01/28/matsya~jayantI.toml)<br/>- Tags: Dashavataram
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -16029,10 +16080,10 @@ DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
   तु  ये  कुर्याच्छ्रद्धया  यु
  ताः।  <br/>न  भवेत्  तस्य  दारिद्
- र्यं  जन्मान्तरशतेष्वपि॥  <br/
- ><br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.co
- m/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/description_
- only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+ र्यं  जन्मान्तरशतेष्वपि॥<br/><
+ br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyoti
+ sham/adyatithi/tree/master/time_focus/monthly/pradoSha/description_only/pr
+ adOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -17947,10 +17998,10 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  ्।  <br/>द्वादश्यामच्युतफलम् आ
  गस्त्यं पत्रमेव वा।   <br/>आमलक
  ्याः फलं वापि पारणे प्राश्य 
- शुद्ध्यति॥  <br/><br/><br/><br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
- _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
- thlyVratam EkadashiVratam
+ शुद्ध्यति॥<br/><br/><br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/
+ monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
+ tam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -18154,10 +18205,10 @@ DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
   Monday/Saturday.<br/><br/>प्रदोषे  शिवपूजां
    तु  ये  कुर्याच्छ्रद्धया  यु
  ताः।  <br/>न  भवेत्  तस्य  दारिद्
- र्यं  जन्मान्तरशतेष्वपि॥  <br/
- ><br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.co
- m/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/description_
- only/sOma-pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+ र्यं  जन्मान्तरशतेष्वपि॥<br/><
+ br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyoti
+ sham/adyatithi/tree/master/time_focus/monthly/pradoSha/description_only/sO
+ ma-pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -19052,13 +19103,13 @@ SUMMARY:कृष्णदेवरायस्य रायचूरु-
 DTSTART;VALUE=DATE:20210529
 DTEND;VALUE=DATE:20210530
 DESCRIPTION:Event occured on 1520-05-29 (gregorian). Julian date was conve
- rted to Gregorian in this reckoning.  Ismail Adil Shah  of  Muslim  Bijapu
- r  seized  the  fortress of Raichur\, southwest of Hyderabad\, then faced 
- asiege by Krishnadeva Raya of Hindu Vijayana-gar. The Bijapuri army was ro
- uted and Raichur fell to Krishnadeva Raya.<br/><br/>## Details<br/>- [Edit
-  config file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruS
- ha/xatra-later/gregorian/day/05/29/kRShNadevarAyasya_rAyachUru-jayaH.toml)
- <br/>- Tags:
+ rted to Gregorian in this reckoning. Ismail Adil Shah  of  Muslim  Bijapur
+   seized  the  fortress of Raichur\, southwest of Hyderabad\, then faced a
+ siege by Krishnadeva Raya of Hindu Vijayana-gar. The Bijapuri army was rou
+ ted and Raichur fell to Krishnadeva Raya.<br/><br/>## Details<br/>- [Edit 
+ config file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSh
+ a/xatra-later/gregorian/day/05/29/kRShNadevarAyasya_rAyachUru-jayaH.toml)<
+ br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -19743,10 +19794,10 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  ्।  <br/>द्वादश्यामच्युतफलम् आ
  गस्त्यं पत्रमेव वा।   <br/>आमलक
  ्याः फलं वापि पारणे प्राश्य 
- शुद्ध्यति॥  <br/><br/><br/><br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
- _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
- thlyVratam EkadashiVratam
+ शुद्ध्यति॥<br/><br/><br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/
+ monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
+ tam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -19866,10 +19917,10 @@ DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
   Monday/Saturday.<br/><br/>प्रदोषे  शिवपूजां
    तु  ये  कुर्याच्छ्रद्धया  यु
  ताः।  <br/>न  भवेत्  तस्य  दारिद्
- र्यं  जन्मान्तरशतेष्वपि॥  <br/
- ><br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.co
- m/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/description_
- only/sOma-pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+ र्यं  जन्मान्तरशतेष्वपि॥<br/><
+ br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyoti
+ sham/adyatithi/tree/master/time_focus/monthly/pradoSha/description_only/sO
+ ma-pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -21606,9 +21657,9 @@ DESCRIPTION:Event occured on 1819-06-20 (gregorian). On this day\, Pandit
  Birbal Dhar entered with Sikh soldiers into Kashmir as a victor over afghA
  ns. He had made a daring and costly escape (loosing wife\, daughter in law
  ) from Azam Khan's court to raNajIt singh at lahore via gulAb singh in jam
- mu.<br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/j
- yotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/06/20
- /kAshmIram_Dograir_gRhItam.toml)<br/>- Tags:
+ mu.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotis
+ ham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/06/20/kAsh
+ mIram_Dograir_gRhItam.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -21741,10 +21792,10 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  ्।  <br/>द्वादश्यामच्युतफलम् आ
  गस्त्यं पत्रमेव वा।   <br/>आमलक
  ्याः फलं वापि पारणे प्राश्य 
- शुद्ध्यति॥  <br/><br/><br/><br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
- _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
- thlyVratam EkadashiVratam
+ शुद्ध्यति॥<br/><br/><br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/
+ monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
+ tam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -21973,10 +22024,10 @@ DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
   तु  ये  कुर्याच्छ्रद्धया  यु
  ताः।  <br/>न  भवेत्  तस्य  दारिद्
- र्यं  जन्मान्तरशतेष्वपि॥  <br/
- ><br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.co
- m/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/description_
- only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+ र्यं  जन्मान्तरशतेष्वपि॥<br/><
+ br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyoti
+ sham/adyatithi/tree/master/time_focus/monthly/pradoSha/description_only/pr
+ adOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -23063,9 +23114,9 @@ DTEND;VALUE=DATE:20210702
 DESCRIPTION:Event occured on 1576-07-01 (gregorian). Julian date was conve
  rted to Gregorian in this reckoning. After the fierce battle at haldIghATI
  \, mahArANA pratAp wounded\, as was his heroic horse chetak. Chetak succum
- bed on this day.<br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
- tps://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/g
- regorian/day/07/01/chetako_mRtaH.toml)<br/>- Tags:
+ bed on this day.<br/><br/>## Details<br/>- [Edit config file](https://gith
+ ub.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/d
+ ay/07/01/chetako_mRtaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -23565,10 +23616,10 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  ्।  <br/>द्वादश्यामच्युतफलम् आ
  गस्त्यं पत्रमेव वा।   <br/>आमलक
  ्याः फलं वापि पारणे प्राश्य 
- शुद्ध्यति॥  <br/><br/><br/><br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
- _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
- thlyVratam EkadashiVratam
+ शुद्ध्यति॥<br/><br/><br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/
+ monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
+ tam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -23691,10 +23742,10 @@ DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
   तु  ये  कुर्याच्छ्रद्धया  यु
  ताः।  <br/>न  भवेत्  तस्य  दारिद्
- र्यं  जन्मान्तरशतेष्वपि॥  <br/
- ><br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.co
- m/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/description_
- only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+ र्यं  जन्मान्तरशतेष्वपि॥<br/><
+ br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyoti
+ sham/adyatithi/tree/master/time_focus/monthly/pradoSha/description_only/pr
+ adOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -24666,10 +24717,10 @@ DESCRIPTION:Observed on Uttaraphalgunī nakshatra of Mithunam (sidereal so
  ं प्रभूतं तव कनकसभानाथ सोढु
  ं क्व शक्ति:  <br/>चित्ते निर्वे
  दतप्ते यदि भवति न ते नित्यवा
- सो मदीये॥  <br/><br/><br/><br/><br/>## Details<br/>- [Edit
-  config file](https://github.com/jyotisham/adyatithi/tree/master/temples/T
- amil/sidereal_solar_month/nakshatra/03/12/naTarAjar_An2i_tirumaJcan2am.tom
- l)<br/>- Tags: TamilnaduTempleFestivals
+ सो मदीये॥<br/><br/><br/><br/>## Details<br/>- [Edit config
+  file](https://github.com/jyotisham/adyatithi/tree/master/temples/Tamil/si
+ dereal_solar_month/nakshatra/03/12/naTarAjar_An2i_tirumaJcan2am.toml)<br/>
+ - Tags: TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -25442,10 +25493,10 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  ्।  <br/>द्वादश्यामच्युतफलम् आ
  गस्त्यं पत्रमेव वा।   <br/>आमलक
  ्याः फलं वापि पारणे प्राश्य 
- शुद्ध्यति॥  <br/><br/><br/><br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
- _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
- thlyVratam EkadashiVratam
+ शुद्ध्यति॥<br/><br/><br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/
+ monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
+ tam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -25539,10 +25590,10 @@ DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
   तु  ये  कुर्याच्छ्रद्धया  यु
  ताः।  <br/>न  भवेत्  तस्य  दारिद्
- र्यं  जन्मान्तरशतेष्वपि॥  <br/
- ><br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.co
- m/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/description_
- only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+ र्यं  जन्मान्तरशतेष्वपि॥<br/><
+ br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyoti
+ sham/adyatithi/tree/master/time_focus/monthly/pradoSha/description_only/pr
+ adOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -26321,10 +26372,10 @@ DESCRIPTION:Event occured on 1729-07-26 (gregorian). Julian date was conve
  ing British\, Dutch\, Portuguese at bay.<br/><br/>॥श्री॥ श
  ्री शाहू-नृपती-प्रित्या तुक
  ोजी-तनुजन्मना कान्होजी-सरख
- ेलस्य मुद्रा जयति सर्वदा॥ <br/
- ><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisha
- m/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/07/26/AngrE-
- kAnhojI-mRtyuH.toml)<br/>- Tags:
+ ेलस्य मुद्रा जयति सर्वदा॥<br/>
+ <br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adya
+ tithi/tree/master/mahApuruSha/xatra-later/gregorian/day/07/26/AngrE-kAnhoj
+ I-mRtyuH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -26819,9 +26870,9 @@ DESCRIPTION:Event occured on 2000-08-01 (gregorian). Total up to 105 or mo
  re killed and at least 62 injured (mostly hindu)\, in five separate coordi
  nated terror attacks by Islamic terrorists on Aug 1\, 2. The attacks inclu
  ded the pahalgAm base camp of amaranAtha shrine\, migrant laborer camps\, 
- and Doda villages.<br/><br/><br/>## Details<br/>- [Edit config file](https
- ://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/greg
- orian/day/08/01/august-2k-kAshmIra-hatyA.toml)<br/>- Tags:
+ and Doda villages.<br/><br/>## Details<br/>- [Edit config file](https://gi
+ thub.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian
+ /day/08/01/august-2k-kAshmIra-hatyA.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -27164,10 +27215,10 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  ्।  <br/>द्वादश्यामच्युतफलम् आ
  गस्त्यं पत्रमेव वा।   <br/>आमलक
  ्याः फलं वापि पारणे प्राश्य 
- शुद्ध्यति॥  <br/><br/><br/><br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
- _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
- thlyVratam EkadashiVratam
+ शुद्ध्यति॥<br/><br/><br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/
+ monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
+ tam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -27296,10 +27347,10 @@ DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
   तु  ये  कुर्याच्छ्रद्धया  यु
  ताः।  <br/>न  भवेत्  तस्य  दारिद्
- र्यं  जन्मान्तरशतेष्वपि॥  <br/
- ><br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.co
- m/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/description_
- only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+ र्यं  जन्मान्तरशतेष्वपि॥<br/><
+ br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyoti
+ sham/adyatithi/tree/master/time_focus/monthly/pradoSha/description_only/pr
+ adOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -27679,11 +27730,11 @@ DESCRIPTION:If\, on a Sunday\, amāvāsyā and one of the stars—śrava
  ्द्रानागदैवतमापतेत्।  <br/>रव
  िवारयुतामायां व्यतीपातः स 
  उच्यते।  <br/>व्यतीपाताख्ययोग
- ोऽयं शतार्कग्रहसन्निभः॥  <br/>
- <br/><br/><br/><br/>## Details<br/>- References<br/>  - Mahabharatam<br/>-
-  [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/tim
- e_focus/monthly/amAvAsyA/description_only/vyatIpAta-yOgaH_%28alabhyam%29.t
- oml)<br/>- Tags: RareDays Combinations AmavasyaDays
+ ोऽयं शतार्कग्रहसन्निभः॥<br/><b
+ r/><br/><br/>## Details<br/>- References<br/>  - Mahabharatam<br/>- [Edit 
+ config file](https://github.com/jyotisham/adyatithi/tree/master/time_focus
+ /monthly/amAvAsyA/description_only/vyatIpAta-yOgaH_%28alabhyam%29.toml)<br
+ />- Tags: RareDays Combinations AmavasyaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -27934,6 +27985,23 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:नोयाखाली-हत्या #७५
+DTSTART;VALUE=DATE:20210810
+DTEND;VALUE=DATE:20210811
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/08/10/noyAk
+ hAlI-hatyA.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit co
+ nfig file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/
+ xatra-later/gregorian/day/08/10/noyAkhAlI-hatyA.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:सत्यनारायण-जयन्ती
 DTSTART;VALUE=DATE:20210810
 DTEND;VALUE=DATE:20210811
@@ -28174,6 +28242,24 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:राजेन्द्रलाल-वीरगतिः #७५
+DTSTART;VALUE=DATE:20210812
+DTEND;VALUE=DATE:20210813
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/08/12/rAjen
+ dralAla-vIragatiH.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [
+ Edit config file](https://github.com/jyotisham/adyatithi/tree/master/mahAp
+ uruSha/xatra-later/gregorian/day/08/12/rAjendralAla-vIragatiH.toml)<br/>- 
+ Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:श्रावणः-05-05\,कन्या-हस्तः🌛
  🌌◢◣कर्कटः-आश्रेषा-04-29🌌🌞◢◣न
  भः-05-22🪐🌞शुक्रः
@@ -28255,10 +28341,10 @@ DTEND;VALUE=DATE:20210814
 DESCRIPTION:Observed on Śukla-Pañcamī tithi of Śrāvaṇaḥ (lunar) m
  onth (Sūryodayaḥ/puurvaviddha). * Day Garuda brought Amrutam for Nagas<
  br/>* Day Garuda and Takshaka fought and compromise was struck with Taksha
- ka as garland in Garuda's neck (peace treaty :) <br/><br/>## Details<br/>-
-  [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/dev
- atA/vaiShNava/lunar_month/tithi/05/05/garuDa-paJcamI.toml)<br/>- Tags: Pur
- anaEvents
+ ka as garland in Garuda's neck (peace treaty :)<br/><br/>## Details<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/deva
+ tA/vaiShNava/lunar_month/tithi/05/05/garuDa-paJcamI.toml)<br/>- Tags: Pura
+ naEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -29082,10 +29168,10 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  ्।  <br/>द्वादश्यामच्युतफलम् आ
  गस्त्यं पत्रमेव वा।   <br/>आमलक
  ्याः फलं वापि पारणे प्राश्य 
- शुद्ध्यति॥  <br/><br/><br/><br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
- _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
- thlyVratam EkadashiVratam
+ शुद्ध्यति॥<br/><br/><br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/
+ monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
+ tam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -29233,10 +29319,10 @@ DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
   तु  ये  कुर्याच्छ्रद्धया  यु
  ताः।  <br/>न  भवेत्  तस्य  दारिद्
- र्यं  जन्मान्तरशतेष्वपि॥  <br/
- ><br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.co
- m/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/description_
- only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+ र्यं  जन्मान्तरशतेष्वपि॥<br/><
+ br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyoti
+ sham/adyatithi/tree/master/time_focus/monthly/pradoSha/description_only/pr
+ adOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -29382,10 +29468,10 @@ DESCRIPTION:Observed on Śukla-Caturdaśī tithi of Siṃhaḥ (sidereal s
   शीतं प्रभूतं तव कनकसभानाथ स
  ोढुं क्व शक्ति:  <br/>चित्ते निर
  ्वेदतप्ते यदि भवति न ते नित्
- यवासो मदीये॥  <br/><br/><br/><br/><br/>## Details<br
- />- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/
- temples/Tamil/sidereal_solar_month/tithi/05/14/naTarAjar_mahAbhiSEkam~2.to
- ml)<br/>- Tags: TamilnaduTempleFestivals
+ यवासो मदीये॥<br/><br/><br/><br/>## Details<br/>- [Ed
+ it config file](https://github.com/jyotisham/adyatithi/tree/master/temples
+ /Tamil/sidereal_solar_month/tithi/05/14/naTarAjar_mahAbhiSEkam~2.toml)<br/
+ >- Tags: TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -31088,10 +31174,10 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  ्।  <br/>द्वादश्यामच्युतफलम् आ
  गस्त्यं पत्रमेव वा।   <br/>आमलक
  ्याः फलं वापि पारणे प्राश्य 
- शुद्ध्यति॥  <br/><br/><br/><br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
- _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
- thlyVratam EkadashiVratam
+ शुद्ध्यति॥<br/><br/><br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/
+ monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
+ tam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -31288,10 +31374,10 @@ DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  a Monday/Saturday.<br/><br/>प्रदोषे  शिवपूजा
  ं  तु  ये  कुर्याच्छ्रद्धया  य
  ुताः।  <br/>न  भवेत्  तस्य  दारिद
- ्र्यं  जन्मान्तरशतेष्वपि॥  <
- br/><br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github
- .com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/descripti
- on_only/zani-pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+ ्र्यं  जन्मान्तरशतेष्वपि॥<br
+ /><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jy
+ otisham/adyatithi/tree/master/time_focus/monthly/pradoSha/description_only
+ /zani-pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -31395,10 +31481,10 @@ DTSTART;VALUE=DATE:20210905
 DTEND;VALUE=DATE:20210906
 DESCRIPTION:Event occured on 2006-09-05 (gregorian). billU gujjar (Wasim K
  han)\, Islamist jihAdI belonging to Hizbul Mujahideen ('Party of Holy Figh
- ters')\, big-time murderer of hindus\, was killed.<br/><br/><br/>## Detail
- s<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/mas
- ter/mahApuruSha/xatra-later/gregorian/day/09/05/gujjara-billU-vadhaH.toml)
- <br/>- Tags:
+ ters')\, big-time murderer of hindus\, was killed.<br/><br/>## Details<br/
+ >- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/m
+ ahApuruSha/xatra-later/gregorian/day/09/05/gujjara-billU-vadhaH.toml)<br/>
+ - Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -33147,10 +33233,10 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  ्।  <br/>द्वादश्यामच्युतफलम् आ
  गस्त्यं पत्रमेव वा।   <br/>आमलक
  ्याः फलं वापि पारणे प्राश्य 
- शुद्ध्यति॥  <br/><br/><br/><br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
- _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
- thlyVratam EkadashiVratam
+ शुद्ध्यति॥<br/><br/><br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/
+ monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
+ tam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -33446,10 +33532,10 @@ DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  a Monday/Saturday.<br/><br/>प्रदोषे  शिवपूजा
  ं  तु  ये  कुर्याच्छ्रद्धया  य
  ुताः।  <br/>न  भवेत्  तस्य  दारिद
- ्र्यं  जन्मान्तरशतेष्वपि॥  <
- br/><br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github
- .com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/descripti
- on_only/zani-pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+ ्र्यं  जन्मान्तरशतेष्वपि॥<br
+ /><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jy
+ otisham/adyatithi/tree/master/time_focus/monthly/pradoSha/description_only
+ /zani-pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -33564,10 +33650,10 @@ DESCRIPTION:Observed on Śukla-Caturdaśī tithi of Kanyā (sidereal solar
  ीतं प्रभूतं तव कनकसभानाथ सो
  ढुं क्व शक्ति:  <br/>चित्ते निर्
  वेदतप्ते यदि भवति न ते नित्य
- वासो मदीये॥  <br/><br/><br/><br/><br/>## Details<br/>-
-  [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/tem
- ples/Tamil/sidereal_solar_month/tithi/06/14/naTarAjar_mahAbhiSEkam~3.toml)
- <br/>- Tags: TamilnaduTempleFestivals
+ वासो मदीये॥<br/><br/><br/><br/>## Details<br/>- [Edit 
+ config file](https://github.com/jyotisham/adyatithi/tree/master/temples/Ta
+ mil/sidereal_solar_month/tithi/06/14/naTarAjar_mahAbhiSEkam~3.toml)<br/>- 
+ Tags: TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -34211,9 +34297,9 @@ DESCRIPTION:Event occured on 2002-09-24 (gregorian). On 24 September 2002\
  eople and injured more than 80. National Security Guards intervened and en
  ded the siege the next day\, killing both attackers. This was shortly afte
  r the Godhra burning of Hindu pilgrims and the subsequent riots.<br/><br/>
- <br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adya
- tithi/tree/master/mahApuruSha/xatra-later/gregorian/day/09/24/akSharadhAma
- -hatyA.toml)<br/>- Tags:
+ ## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi
+ /tree/master/mahApuruSha/xatra-later/gregorian/day/09/24/akSharadhAma-haty
+ A.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -35297,10 +35383,10 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  ्।  <br/>द्वादश्यामच्युतफलम् आ
  गस्त्यं पत्रमेव वा।   <br/>आमलक
  ्याः फलं वापि पारणे प्राश्य 
- शुद्ध्यति॥  <br/><br/><br/><br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
- _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
- thlyVratam EkadashiVratam
+ शुद्ध्यति॥<br/><br/><br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/
+ monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
+ tam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -35447,10 +35533,10 @@ DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
   Monday/Saturday.<br/><br/>प्रदोषे  शिवपूजां
    तु  ये  कुर्याच्छ्रद्धया  यु
  ताः।  <br/>न  भवेत्  तस्य  दारिद्
- र्यं  जन्मान्तरशतेष्वपि॥  <br/
- ><br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.co
- m/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/description_
- only/sOma-pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+ र्यं  जन्मान्तरशतेष्वपि॥<br/><
+ br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyoti
+ sham/adyatithi/tree/master/time_focus/monthly/pradoSha/description_only/sO
+ ma-pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -37196,10 +37282,10 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  ्।  <br/>द्वादश्यामच्युतफलम् आ
  गस्त्यं पत्रमेव वा।   <br/>आमलक
  ्याः फलं वापि पारणे प्राश्य 
- शुद्ध्यति॥  <br/><br/><br/><br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
- _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
- thlyVratam EkadashiVratam
+ शुद्ध्यति॥<br/><br/><br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/
+ monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
+ tam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -37313,11 +37399,11 @@ DESCRIPTION:Observed on day 1 of Tulā (sidereal solar) month (Sūryodaya
  ि  रूप-सौभाग्य-सम्पदम्॥  <br/>दा
  मोदराय  नभसि  तुलायां  लोलया  
  सह।  <br/>प्रदीपं  ते  प्रयच्छाम
- ि  नमोऽनन्ताय  वेधसे॥  <br/><br/><br/><b
- r/><br/>## Details<br/>- References<br/>  - Nirnaya Sindhu 146<br/>- [Edit
-  config file](https://github.com/jyotisham/adyatithi/tree/master/general/s
- idereal_solar_month/day/07/01/AkAzadIpa-ArambhaH.toml)<br/>- Tags: LessCom
- monFestivals
+ ि  नमोऽनन्ताय  वेधसे॥<br/><br/><br/><br/
+ >## Details<br/>- References<br/>  - Nirnaya Sindhu 146<br/>- [Edit config
+  file](https://github.com/jyotisham/adyatithi/tree/master/general/sidereal
+ _solar_month/day/07/01/AkAzadIpa-ArambhaH.toml)<br/>- Tags: LessCommonFest
+ ivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -37354,10 +37440,10 @@ DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
   तु  ये  कुर्याच्छ्रद्धया  यु
  ताः।  <br/>न  भवेत्  तस्य  दारिद्
- र्यं  जन्मान्तरशतेष्वपि॥  <br/
- ><br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.co
- m/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/description_
- only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+ र्यं  जन्मान्तरशतेष्वपि॥<br/><
+ br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyoti
+ sham/adyatithi/tree/master/time_focus/monthly/pradoSha/description_only/pr
+ adOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -37476,10 +37562,10 @@ DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
   Monday/Saturday.<br/><br/>प्रदोषे  शिवपूजां
    तु  ये  कुर्याच्छ्रद्धया  यु
  ताः।  <br/>न  भवेत्  तस्य  दारिद्
- र्यं  जन्मान्तरशतेष्वपि॥  <br/
- ><br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.co
- m/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/description_
- only/sOma-pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+ र्यं  जन्मान्तरशतेष्वपि॥<br/><
+ br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyoti
+ sham/adyatithi/tree/master/time_focus/monthly/pradoSha/description_only/sO
+ ma-pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -39171,10 +39257,10 @@ DESCRIPTION:Observed on Kṛṣṇa-Dvādaśī tithi of Āśvayujaḥ (lun
  या दत्तमिदं ग्रस॥  <br/>सर्वदे
  वमये देवि सर्वेदेवैश्च सत्
  कृता।  <br/>मातर्ममाऽभिलाषितं 
- सफलं कुरु नन्दिनि॥  <br/><br/><br/><br/><b
- r/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyati
- thi/tree/master/devatA/misc-fauna/lunar_month/tithi/07/27/gOvatsa-dvAdazI.
- toml)<br/>- Tags: SpecialVratam CommonFestivals
+ सफलं कुरु नन्दिनि॥<br/><br/><br/><br/>## D
+ etails<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tre
+ e/master/devatA/misc-fauna/lunar_month/tithi/07/27/gOvatsa-dvAdazI.toml)<b
+ r/>- Tags: SpecialVratam CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -39199,10 +39285,10 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  ्।  <br/>द्वादश्यामच्युतफलम् आ
  गस्त्यं पत्रमेव वा।   <br/>आमलक
  ्याः फलं वापि पारणे प्राश्य 
- शुद्ध्यति॥  <br/><br/><br/><br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
- _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
- thlyVratam EkadashiVratam
+ शुद्ध्यति॥<br/><br/><br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/
+ monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
+ tam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -39329,10 +39415,10 @@ DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
   तु  ये  कुर्याच्छ्रद्धया  यु
  ताः।  <br/>न  भवेत्  तस्य  दारिद्
- र्यं  जन्मान्तरशतेष्वपि॥  <br/
- ><br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.co
- m/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/description_
- only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+ र्यं  जन्मान्तरशतेष्वपि॥<br/><
+ br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyoti
+ sham/adyatithi/tree/master/time_focus/monthly/pradoSha/description_only/pr
+ adOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -41024,10 +41110,10 @@ DESCRIPTION:Offer Akasha Dipam for this entire month\, in the evening\, on
  ूप-सौभाग्य-सम्पदम्॥  <br/>  <br/>दा
  मोदराय  नभसि  तुलायां  लोलया  
  सह।  <br/>प्रदीपं  ते  प्रयच्छाम
- ि  नमोऽनन्ताय  वेधसे॥  <br/><br/><br/><b
- r/><br/>## Details<br/>- References<br/>  - Nirnaya Sindhu 146<br/>- [Edit
-  config file](https://github.com/jyotisham/adyatithi/tree/master/general/d
- escription_only/AkAzadIpaH.toml)<br/>- Tags: LessCommonFestivals
+ ि  नमोऽनन्ताय  वेधसे॥<br/><br/><br/><br/
+ >## Details<br/>- References<br/>  - Nirnaya Sindhu 146<br/>- [Edit config
+  file](https://github.com/jyotisham/adyatithi/tree/master/general/descript
+ ion_only/AkAzadIpaH.toml)<br/>- Tags: LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -41068,10 +41154,10 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  ्।  <br/>द्वादश्यामच्युतफलम् आ
  गस्त्यं पत्रमेव वा।   <br/>आमलक
  ्याः फलं वापि पारणे प्राश्य 
- शुद्ध्यति॥  <br/><br/><br/><br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
- _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
- thlyVratam EkadashiVratam
+ शुद्ध्यति॥<br/><br/><br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/
+ monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
+ tam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -41278,9 +41364,9 @@ DESCRIPTION:Event occured on 1915-11-16 (gregorian). viShNu gaNesha pingal
  e and kartAr singh were executed by hanging by the British. They were acti
  ve conspirators in the attempted mutiny (with German collaboration) under 
  rAsh behArI bAsu. They were betrayed by spies such as Kirpal Singh.<br/><b
- r/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/a
- dyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/11/16/1915-lava
- pura-vidrohi-hatyA.toml)<br/>- Tags:
+ r/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyati
+ thi/tree/master/mahApuruSha/xatra-later/gregorian/day/11/16/1915-lavapura-
+ vidrohi-hatyA.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -41431,10 +41517,10 @@ DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
   तु  ये  कुर्याच्छ्रद्धया  यु
  ताः।  <br/>न  भवेत्  तस्य  दारिद्
- र्यं  जन्मान्तरशतेष्वपि॥  <br/
- ><br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.co
- m/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/description_
- only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+ र्यं  जन्मान्तरशतेष्वपि॥<br/><
+ br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyoti
+ sham/adyatithi/tree/master/time_focus/monthly/pradoSha/description_only/pr
+ adOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -41479,10 +41565,10 @@ DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Kārttikaḥ (lunar) mo
  ितेन्द्रियं  जितक्रोधं  सदा 
   ध्यानपरायणम्।  <br/>आनन्दनिलय
  ं  वन्दे  योगानन्दमुनीश्वरम
- ्॥  <br/><br/><br/><br/><br/>## Details<br/>- References<br/>  - Vaidi
- kasri Nov 2017<br/>- [Edit config file](https://github.com/jyotisham/adyat
- ithi/tree/master/mahApuruSha/RShi/lunar_month/tithi/08/12/yAjJavalkya~jaya
- ntI.toml)<br/>- Tags: MahapurushaEvents
+ ्॥<br/><br/><br/><br/>## Details<br/>- References<br/>  - Vaidikasri N
+ ov 2017<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tr
+ ee/master/mahApuruSha/RShi/lunar_month/tithi/08/12/yAjJavalkya~jayantI.tom
+ l)<br/>- Tags: MahapurushaEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -42826,9 +42912,9 @@ DESCRIPTION:Event occured on 2002-11-24 (gregorian). Two suicide bombers a
  r the March attack. They killed fourteen devotees and injured 45 others. C
  RPF men Yatindra Nath Rai\, Assistant Commandant\, Dev Singh\, Head Consta
  ble\, E.G. Rao\, Head Constable\, T.A.Singh\, Constable\, and Late K.K. Pa
- ndey showed great gallantry.<br/><br/><br/>## Details<br/>- [Edit config f
- ile](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-
- later/gregorian/day/11/24/raghunAth-temple-attack_200203.toml)<br/>- Tags:
+ ndey showed great gallantry.<br/><br/>## Details<br/>- [Edit config file](
+ https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later
+ /gregorian/day/11/24/raghunAth-temple-attack_200203.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -42920,11 +43006,11 @@ SUMMARY:तिरुविशलूर् गङ्गाकर्षण-
 DTSTART;VALUE=DATE:20211125
 DTEND;VALUE=DATE:20211126
 DESCRIPTION:Beginning of Gangakarshana Mahotsava in Thiruvisanallur. See a
- lso http://www.sriayyaval.org/ .  <br/><br/>## Details<br/>- [Edit config 
- file](https://github.com/jyotisham/adyatithi/tree/master/temples/Tamil/rel
- ative_event/tiruvizalUr_gaGgAkarSaNa-mahOtsava-samApanam/offset__-9/tiruvi
- zalUr_gaGgAkarSaNa-mahOtsava-ArambhaH.toml)<br/>- Tags: MahapurushaEvents 
- TamilnaduTempleFestivals
+ lso http://www.sriayyaval.org/ .<br/><br/>## Details<br/>- [Edit config fi
+ le](https://github.com/jyotisham/adyatithi/tree/master/temples/Tamil/relat
+ ive_event/tiruvizalUr_gaGgAkarSaNa-mahOtsava-samApanam/offset__-9/tiruviza
+ lUr_gaGgAkarSaNa-mahOtsava-ArambhaH.toml)<br/>- Tags: MahapurushaEvents Ta
+ milnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -43559,10 +43645,10 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  ्।  <br/>द्वादश्यामच्युतफलम् आ
  गस्त्यं पत्रमेव वा।   <br/>आमलक
  ्याः फलं वापि पारणे प्राश्य 
- शुद्ध्यति॥  <br/><br/><br/><br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
- _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
- thlyVratam EkadashiVratam
+ शुद्ध्यति॥<br/><br/><br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/
+ monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
+ tam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -43688,10 +43774,10 @@ DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
   तु  ये  कुर्याच्छ्रद्धया  यु
  ताः।  <br/>न  भवेत्  तस्य  दारिद्
- र्यं  जन्मान्तरशतेष्वपि॥  <br/
- ><br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.co
- m/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/description_
- only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+ र्यं  जन्मान्तरशतेष्वपि॥<br/><
+ br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyoti
+ sham/adyatithi/tree/master/time_focus/monthly/pradoSha/description_only/pr
+ adOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -43976,10 +44062,10 @@ SUMMARY:तिरुविशलूर् गङ्गाकर्षण-
 DTSTART;VALUE=DATE:20211125
 DTEND;VALUE=DATE:20211205
 DESCRIPTION:Beginning of Gangakarshana Mahotsava in Thiruvisanallur. See a
- lso http://www.sriayyaval.org/ .  <br/><br/>## Details<br/>- [Edit config 
- file](https://github.com/jyotisham/adyatithi/tree/master/temples/Tamil/des
- cription_only/tiruvizalUr_gaGgAkarSaNa-mahOtsavaH.toml)<br/>- Tags: Mahapu
- rushaEvents TamilnaduTempleFestivals
+ lso http://www.sriayyaval.org/ .<br/><br/>## Details<br/>- [Edit config fi
+ le](https://github.com/jyotisham/adyatithi/tree/master/temples/Tamil/descr
+ iption_only/tiruvizalUr_gaGgAkarSaNa-mahOtsavaH.toml)<br/>- Tags: Mahapuru
+ shaEvents TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -44084,9 +44170,9 @@ DESCRIPTION:Event occured on 1971-12-05 (gregorian). On the evening of 3 D
  ecember\, at about 17:40\, the Islamic repulic of Pakistan Air Force (PAF)
   (<50 planes) launched surprise strikes on 11 airfields in north-western I
  ndia\, including Agra\, which was 480 kilometres (300 mi) from the border.
- <br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
- isham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/12/05/71
- -indo-pAk-war-start.toml)<br/>- Tags:
+ <br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham
+ /adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/12/05/71-indo
+ -pAk-war-start.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -45045,9 +45131,9 @@ DESCRIPTION:Event occured on 2001-12-13 (gregorian). Islamic terrorists be
  longing to Lashkar-e-Taiba (LeT "Army of the Pure") and Jaish-e-Mohammed (
  JeM\, "Army of Muhammad") attack Indian parliament. Deaths: 9 Indians (Con
  stable Kamlesh Kumari of CRPF who raised the alarm)\, and 5 jihAdis. Injur
- ed: 18.<br/><br/><br/>## Details<br/>- [Edit config file](https://github.c
- om/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/1
- 2/13/parliament-attack-2001.toml)<br/>- Tags:
+ ed: 18.<br/><br/>## Details<br/>- [Edit config file](https://github.com/jy
+ otisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/12/13/
+ parliament-attack-2001.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -45296,10 +45382,10 @@ DESCRIPTION:Dhanur-Ravi-Saṅkramaṇa-Ṣaḍaśīti Punyakala. Perform d
  ि मानवैः।  <br/>तानि तस्य ददात्
  यर्कः सप्तजन्मसु निश्चितम्
  ॥  <br/>(स्मृतिमुक्ताफले आह्नि
- क-काण्डे-पूर्वभागः)  <br/><br/><br/><br/><
- br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adyat
- ithi/tree/master/time_focus/sankrAnti/description_only/dhanUravi-saGkramaN
- a-SaDazIti-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
+ क-काण्डे-पूर्वभागः)<br/><br/><br/><br/>## 
+ Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tr
+ ee/master/time_focus/sankrAnti/description_only/dhanUravi-saGkramaNa-SaDaz
+ Iti-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -45324,10 +45410,10 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  ्।  <br/>द्वादश्यामच्युतफलम् आ
  गस्त्यं पत्रमेव वा।   <br/>आमलक
  ्याः फलं वापि पारणे प्राश्य 
- शुद्ध्यति॥  <br/><br/><br/><br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
- _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
- thlyVratam EkadashiVratam
+ शुद्ध्यति॥<br/><br/><br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/
+ monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
+ tam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -45434,9 +45520,9 @@ DTSTART;VALUE=DATE:20211216
 DTEND;VALUE=DATE:20211217
 DESCRIPTION:Event occured on 1971-12-16 (gregorian). Genocidal Pakistan Is
  lamic Republic army (93\,000 - mostly eastern command soldiers) surrendere
- d to Indian forces at DhAka.<br/><br/><br/>## Details<br/>- [Edit config f
- ile](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-
- later/gregorian/day/12/16/pAkistAna-pUrva-paxa-kartanam.toml)<br/>- Tags:
+ d to Indian forces at DhAka.<br/><br/>## Details<br/>- [Edit config file](
+ https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later
+ /gregorian/day/12/16/pAkistAna-pUrva-paxa-kartanam.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -45453,10 +45539,10 @@ DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
   तु  ये  कुर्याच्छ्रद्धया  यु
  ताः।  <br/>न  भवेत्  तस्य  दारिद्
- र्यं  जन्मान्तरशतेष्वपि॥  <br/
- ><br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.co
- m/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/description_
- only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+ र्यं  जन्मान्तरशतेष्वपि॥<br/><
+ br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyoti
+ sham/adyatithi/tree/master/time_focus/monthly/pradoSha/description_only/pr
+ adOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -45751,10 +45837,9 @@ DTSTART;VALUE=DATE:20211219
 DTEND;VALUE=DATE:20211220
 DESCRIPTION:Event occured on 1961-12-19 (gregorian). Goa\, much traumatize
  d by missionaries (including the evil Jesuit Francis Xavier)\, inquisition
-  and racist misrule\, finally freed from Portuguese.<br/><br/><br/>## Deta
- ils<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/m
- aster/mahApuruSha/xatra-later/gregorian/day/12/19/govA-moxaH.toml)<br/>- T
- ags:
+  and racist misrule\, finally freed from Portuguese.<br/><br/>## Details<b
+ r/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master
+ /mahApuruSha/xatra-later/gregorian/day/12/19/govA-moxaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -45845,9 +45930,9 @@ DESCRIPTION:Event occured on 1927-12-19 (gregorian). On this day\, the Ary
  i poet was murdered by British in retaliation for the Kakori heist\; as wa
  s his protege Ashfaqullah Khan.<br/><br/>sarfaroshī kī tamannā ab hamā
  re dil meñ hai  <br/>dekhnā hai zor kitnā bāzū-e-qātil meñ hai<br/>
- <br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham
- /adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/12/19/rAma-pr
- asAda-hatyA.toml)<br/>- Tags:
+ <br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adya
+ tithi/tree/master/mahApuruSha/xatra-later/gregorian/day/12/19/rAma-prasAda
+ -hatyA.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -46019,6 +46104,23 @@ DESCRIPTION:Event occured on 1760-12-20 (gregorian). On this day\, in the
   the Durrani Wazir's nephew.<br/><br/>## Details<br/>- [Edit config file](
  https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later
  /gregorian/day/12/20/govinda-panta-hatyA.toml)<br/>- Tags:
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:खूलना-हत्या #७२
+DTSTART;VALUE=DATE:20211220
+DTEND;VALUE=DATE:20211221
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/12/20/khUla
+ na-hatyA.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit conf
+ ig file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xa
+ tra-later/gregorian/day/12/20/khUlana-hatyA.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -47006,10 +47108,10 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  ्।  <br/>द्वादश्यामच्युतफलम् आ
  गस्त्यं पत्रमेव वा।   <br/>आमलक
  ्याः फलं वापि पारणे प्राश्य 
- शुद्ध्यति॥  <br/><br/><br/><br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
- _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
- thlyVratam EkadashiVratam
+ शुद्ध्यति॥<br/><br/><br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/
+ monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
+ tam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -47120,10 +47222,10 @@ DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
   तु  ये  कुर्याच्छ्रद्धया  यु
  ताः।  <br/>न  भवेत्  तस्य  दारिद्
- र्यं  जन्मान्तरशतेष्वपि॥  <br/
- ><br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.co
- m/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/description_
- only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
+ र्यं  जन्मान्तरशतेष्वपि॥<br/><
+ br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyoti
+ sham/adyatithi/tree/master/time_focus/monthly/pradoSha/description_only/pr
+ adOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
