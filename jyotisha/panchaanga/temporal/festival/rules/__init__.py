@@ -326,10 +326,8 @@ class RulesCollection(common.JsonObject):
     for repo in self.repos:
       base_dir = repo.get_path()
       rules_map = get_festival_rules_map(
-        os.path.join(DATA_ROOT, repo.get_path(), julian_handling=None), repo=repo)
+        os.path.join(DATA_ROOT, repo.get_path()), julian_handling=None, repo=repo)
       for rule in rules_map.values():
-        if rule.shlokas is not None:
-          rule.shlokas = rule.shlokas.replace("\\n", "  \n")
         rule.path_actual = None
         rule.repo = None
         rule.dump_to_file(filename=rule.get_storage_file_name(base_dir=base_dir))
