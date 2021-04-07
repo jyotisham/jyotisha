@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210406092447
+SEQUENCE:20210407072948
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -1555,10 +1555,11 @@ DTEND;VALUE=DATE:20210115
 DESCRIPTION:Event occured on 1964-01-14 (gregorian). Poush Parbon (Makar S
  ankranti)\, 20k Bengali Hindus had come to Golakandail to attend a Fair. M
  ill workers armed and roused by a mill GM Karim killed 5k to 6k Hindus on 
- that day. (Source -Report submitted to the Indian Commission of Jurists by
-  its committee of enquiry)<br/><br/>## Details<br/>- [Edit config file](ht
- tps://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/g
- regorian/day/01/14/golAkAndaila-hatyA.toml)<br/>- Tags:
+ that day. This was part of the infamous 1964 East Pakistan anti-Hindu geno
+ cide. (Source -Report submitted to the Indian Commission of Jurists by its
+  committee of enquiry)<br/><br/>## Details<br/>- [Edit config file](https:
+ //github.com/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/grego
+ rian/day/01/14/golAkAndaila-hatyA.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13972,6 +13973,23 @@ DESCRIPTION:Observed on Śukla-Daśamī tithi of Caitraḥ (lunar) month (
  onfig file](https://github.com/jyotisham/adyatithi/tree/master/general/lun
  ar_month/tithi/01/10/dharmarAja-dazamI.toml)<br/>- Tags: LessCommonFestiva
  ls
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:राजशाहि-हत्या #५९
+DTSTART;VALUE=DATE:20210422
+DTEND;VALUE=DATE:20210423
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/04/22/rAjas
+ hAhi-hatyA.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit co
+ nfig file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/
+ xatra-later/gregorian/day/04/22/rAjashAhi-hatyA.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
