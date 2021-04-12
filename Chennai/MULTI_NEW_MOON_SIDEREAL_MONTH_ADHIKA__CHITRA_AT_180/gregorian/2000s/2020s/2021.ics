@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210407073040
+SEQUENCE:20210412125920
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -12514,23 +12514,12 @@ BEGIN:VEVENT
 SUMMARY:सोमवती अमावास्या
 DTSTART;VALUE=DATE:20210412
 DTEND;VALUE=DATE:20210413
-DESCRIPTION:amāvāsyā on a Monday is as sacred as a solar eclipse. Parti
- cularly good for performing pradakshinam of Pippala tree.<br/><br/>अम
- ावस्या तु सोमेन सप्तमी भानु
- ना सह।  <br/>चतुर्थी भूमिपुत्र
- ेण सोमपुत्रेण चाष्टमी।  <br/>च
- तस्रस्तिथयस्त्वेताः सूर्य
- ग्रहणसन्निभाः॥  <br/>  <br/>मूलतो 
- ब्रह्मरूपाय मध्यतो विष्णुर
- ूपिणे।  <br/>अग्रतः शिवरूपाय व
- ृक्षराजाय ते नमः॥  <br/>अक्षिस
- ्पन्दं भुजस्पन्दं दुःस्वप्
- नं दुर्विचिन्तनम्।  <br/>शत्रू
- नाम् च समुत्पन्नम् अश्वत्थ 
- शमयस्व मे॥<br/><br/><br/><br/>## Details<br/>- [Edit con
- fig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/mo
- nthly/amAvAsyA/description_only/sOmavatI_amAvAsyA.toml)<br/>- Tags: RareDa
- ys Combinations AmavasyaDays
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/time_focus/monthly/amAvAsyA/description_only/sOma
+ vatI_amAvAsyA.toml)<br/>- Tags: RareDays Combinations AmavasyaDays<br/><br
+ /><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/tree/master/time_focus/monthly/amAvAsyA/description_only/sOma
+ vatI_amAvAsyA.toml)<br/>- Tags: RareDays Combinations AmavasyaDays
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13286,18 +13275,18 @@ SUMMARY:लक्ष्मी-पञ्चमी
 DTSTART;VALUE=DATE:20210417
 DTEND;VALUE=DATE:20210418
 DESCRIPTION:Observed on Śukla-Pañcamī tithi of Caitraḥ (lunar) month 
- (Sūryodayaḥ/puurvaviddha). <br/><br/>शुक्लायांअथ 
- पञ्चम्यां चैत्रे मासि शुभा
- नना।  <br/>श्रीर्विष्णुलोकान्
- मानुष्यं सम्प्राप्ता केशवा
- ज्ञया॥  <br/>तस्मात् तां पूजये
- त् तत्र यस्तं लक्ष्मीर्न मु
- ञ्चति।  <br/>एषा श्रीपञ्चमी का
- र्या विष्णुलोकगतिप्रदा॥<br/><b
- r/><br/><br/>## Details<br/>- References<br/>  - Smriti Kaustubham p.92<br
- />- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/
- devatA/lakShmI/lunar_month/tithi/01/05/lakSmI-paJcamI.toml)<br/>- Tags: Co
- mmonFestivals
+ (Sūryodayaḥ/puurvaviddha). <br/><br/>शुक्लायामथ प
+ ञ्चम्यां चैत्रे मासि शुभान
+ ना।  <br/>श्रीर्विष्णुलोकान्म
+ ानुष्यं सम्प्राप्ता केशवाज
+ ्ञया॥  <br/>तस्मात् तां पूजयेत
+ ् तत्र यस्तं लक्ष्मीर्न मुञ
+ ्चति।  <br/>एषा श्रीपञ्चमी कार
+ ्या विष्णुलोकगतिप्रदा॥<br/><br/>
+ <br/><br/>## Details<br/>- References<br/>  - Smriti Kaustubham p.92<br/>-
+  [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/dev
+ atA/lakShmI/lunar_month/tithi/01/05/lakSmI-paJcamI.toml)<br/>- Tags: Commo
+ nFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -31334,11 +31323,11 @@ SUMMARY:काशी-विश्वेश्वर-मन्दिर-न
  ाशः #३५२
 DTSTART;VALUE=DATE:20210904
 DTEND;VALUE=DATE:20210905
-DESCRIPTION:Event occured on 1669-09-04 (gregorian). Aurangzeb informed th
- at Kashi Vishweshwar was pulled down. Maasiri-‘ Alamgiri\, 88. Julian mo
- nth August.<br/><br/>## Details<br/>- [Edit config file](https://github.co
- m/jyotisham/adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/09
- /04/kAshI-vishveshvara-mandira-nAshaH.toml)<br/>- Tags:
+DESCRIPTION:Event occured on 1669-09-04 (gregorian). Aurangzeb was later i
+ nformed that Kashi Vishweshwar was pulled down. Maasiri-‘ Alamgiri\, 88.
+ <br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham
+ /adyatithi/tree/master/mahApuruSha/xatra-later/gregorian/day/09/04/kAshI-v
+ ishveshvara-mandira-nAshaH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
