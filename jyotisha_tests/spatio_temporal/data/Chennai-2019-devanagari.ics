@@ -142,10 +142,10 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  yanāthadīkṣitīye tithinirṇayakāṇḍe viṣṇudharme---  <br/>as
  ambhāṣyāṃstu sambhāṣya tulasyatasikādalam|  <br/>dvādaśyāmacy
  utaphalam āgastyaṃ patrameva vā|   <br/>āmalakyāḥ phalaṃ vāpi p
- āraṇe prāśya śuddhyati||  <br/><br/><br/><br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
- _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
- thlyVratam EkadashiVratam
+ āraṇe prāśya śuddhyati||<br/><br/><br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/
+ monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
+ tam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -260,10 +260,9 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190103T184151
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>pradoṣe  śivapūjāṃ  tu  ye  kuryācchradd
  hayā  yutāḥ|  <br/>na  bhavet  tasya  dāridryaṃ  janmāntaraśate
- ṣvapi||  <br/><br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
- tps://github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoS
- ha/description_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pradosh
- aVratam
+ ṣvapi||<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://g
+ ithub.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/desc
+ ription_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -1463,10 +1462,10 @@ DESCRIPTION:Observed on Kṛttikā nakshatra of Makaraḥ (sidereal solar)
  लाः द्युगङ्गातीरे श्रवणसरः
   प्रति (तत्रैव शरवणे) निन्यत
  ुः। तत्र जाताः ६ बालाः कृत्त
- िकाभिर् वर्धिताः।<br/><br/><br/>## Details
- <br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/mast
- er/devatA/kaumAra/sidereal_solar_month/nakshatra/10/03/tai_kiruttikai.toml
- )<br/>- Tags: TamilnaduTempleFestivals
+ िकाभिर् वर्धिताः।<br/><br/>## Details<br/>
+ - [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/de
+ vatA/kaumAra/sidereal_solar_month/nakshatra/10/03/tai_kiruttikai.toml)<br/
+ >- Tags: TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -1548,10 +1547,10 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  yanāthadīkṣitīye tithinirṇayakāṇḍe viṣṇudharme---  <br/>as
  ambhāṣyāṃstu sambhāṣya tulasyatasikādalam|  <br/>dvādaśyāmacy
  utaphalam āgastyaṃ patrameva vā|   <br/>āmalakyāḥ phalaṃ vāpi p
- āraṇe prāśya śuddhyati||  <br/><br/><br/><br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
- _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
- thlyVratam EkadashiVratam
+ āraṇe prāśya śuddhyati||<br/><br/><br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/
+ monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
+ tam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -1580,10 +1579,9 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190118T184955
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>pradoṣe  śivapūjāṃ  tu  ye  kuryācchradd
  hayā  yutāḥ|  <br/>na  bhavet  tasya  dāridryaṃ  janmāntaraśate
- ṣvapi||  <br/><br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
- tps://github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoS
- ha/description_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pradosh
- aVratam
+ ṣvapi||<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://g
+ ithub.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/desc
+ ription_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -1821,10 +1819,10 @@ DESCRIPTION:Observed on Puṣyaḥ nakshatra of Makaraḥ (sidereal solar)
  ्सवोयम् आचर्यते। एतादृशे द
  िने पार्वती कार्त्तिकेयाय 
  शक्त्यायुधं ददौ शूरपद्मादि
- निग्रहाय।<br/><br/><br/>## Details<br/>- [Edit config fi
- le](https://github.com/jyotisham/adyatithi/tree/master/devatA/kaumAra/side
- real_solar_month/nakshatra/10/08/taippUcam.toml)<br/>- Tags: TamilnaduTemp
- leFestivals CommonFestivals
+ निग्रहाय।<br/><br/>## Details<br/>- [Edit config file](h
+ ttps://github.com/jyotisham/adyatithi/tree/master/devatA/kaumAra/sidereal_
+ solar_month/nakshatra/10/08/taippUcam.toml)<br/>- Tags: TamilnaduTempleFes
+ tivals CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2846,10 +2844,10 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  yanāthadīkṣitīye tithinirṇayakāṇḍe viṣṇudharme---  <br/>as
  ambhāṣyāṃstu sambhāṣya tulasyatasikādalam|  <br/>dvādaśyāmacy
  utaphalam āgastyaṃ patrameva vā|   <br/>āmalakyāḥ phalaṃ vāpi p
- āraṇe prāśya śuddhyati||  <br/><br/><br/><br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
- _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
- thlyVratam EkadashiVratam
+ āraṇe prāśya śuddhyati||<br/><br/><br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/
+ monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
+ tam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2865,10 +2863,9 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190131T185549
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>pradoṣe  śivapūjāṃ  tu  ye  kuryācchradd
  hayā  yutāḥ|  <br/>na  bhavet  tasya  dāridryaṃ  janmāntaraśate
- ṣvapi||  <br/><br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
- tps://github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoS
- ha/description_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pradosh
- aVratam
+ ṣvapi||<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://g
+ ithub.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/desc
+ ription_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -3042,10 +3039,10 @@ DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.  Pradosha vratam is even more special\, when if falls on 
  a Monday/Saturday.<br/><br/>pradoṣe  śivapūjāṃ  tu  ye  kuryācchra
  ddhayā  yutāḥ|  <br/>na  bhavet  tasya  dāridryaṃ  janmāntaraśate
- ṣvapi||  <br/><br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
- tps://github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoS
- ha/description_only/zani-pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pr
- adoshaVratam
+ ṣvapi||<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://g
+ ithub.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/desc
+ ription_only/zani-pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaV
+ ratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -4538,10 +4535,10 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  yanāthadīkṣitīye tithinirṇayakāṇḍe viṣṇudharme---  <br/>as
  ambhāṣyāṃstu sambhāṣya tulasyatasikādalam|  <br/>dvādaśyāmacy
  utaphalam āgastyaṃ patrameva vā|   <br/>āmalakyāḥ phalaṃ vāpi p
- āraṇe prāśya śuddhyati||  <br/><br/><br/><br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
- _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
- thlyVratam EkadashiVratam
+ āraṇe prāśya śuddhyati||<br/><br/><br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/
+ monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
+ tam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -4679,10 +4676,9 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190217T190109
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>pradoṣe  śivapūjāṃ  tu  ye  kuryācchradd
  hayā  yutāḥ|  <br/>na  bhavet  tasya  dāridryaṃ  janmāntaraśate
- ṣvapi||  <br/><br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
- tps://github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoS
- ha/description_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pradosh
- aVratam
+ ṣvapi||<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://g
+ ithub.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/desc
+ ription_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -5861,10 +5857,10 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  yanāthadīkṣitīye tithinirṇayakāṇḍe viṣṇudharme---  <br/>as
  ambhāṣyāṃstu sambhāṣya tulasyatasikādalam|  <br/>dvādaśyāmacy
  utaphalam āgastyaṃ patrameva vā|   <br/>āmalakyāḥ phalaṃ vāpi p
- āraṇe prāśya śuddhyati||  <br/><br/><br/><br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
- _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
- thlyVratam EkadashiVratam
+ āraṇe prāśya śuddhyati||<br/><br/><br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/
+ monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
+ tam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -5957,10 +5953,9 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190303T190318
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>pradoṣe  śivapūjāṃ  tu  ye  kuryācchradd
  hayā  yutāḥ|  <br/>na  bhavet  tasya  dāridryaṃ  janmāntaraśate
- ṣvapi||  <br/><br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
- tps://github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoS
- ha/description_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pradosh
- aVratam
+ ṣvapi||<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://g
+ ithub.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/desc
+ ription_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -7397,10 +7392,10 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  yanāthadīkṣitīye tithinirṇayakāṇḍe viṣṇudharme---  <br/>as
  ambhāṣyāṃstu sambhāṣya tulasyatasikādalam|  <br/>dvādaśyāmacy
  utaphalam āgastyaṃ patrameva vā|   <br/>āmalakyāḥ phalaṃ vāpi p
- āraṇe prāśya śuddhyati||  <br/><br/><br/><br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
- _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
- thlyVratam EkadashiVratam
+ āraṇe prāśya śuddhyati||<br/><br/><br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/
+ monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
+ tam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -7482,10 +7477,10 @@ DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala. Pradosha vratam is even more special\, when if falls on a
   Monday/Saturday.<br/><br/>pradoṣe  śivapūjāṃ  tu  ye  kuryācchrad
  dhayā  yutāḥ|  <br/>na  bhavet  tasya  dāridryaṃ  janmāntaraśate
- ṣvapi||  <br/><br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
- tps://github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoS
- ha/description_only/sOma-pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pr
- adoshaVratam
+ ṣvapi||<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://g
+ ithub.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/desc
+ ription_only/sOma-pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaV
+ ratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -7954,9 +7949,9 @@ DESCRIPTION:Observed on Uttaraphalgunī nakshatra of Mīnaḥ (sidereal so
  द्रमसि (खे विपरितदिशि) पर्वे
  दमाचर्यते। नानादेवतानां वि
  वाहा एतादृशे दिने बभूवुः।<br/>
- <br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham
- /adyatithi/tree/master/general/sidereal_solar_month/nakshatra/12/12/paGgun
- 2i~uttiram.toml)<br/>- Tags: TamilnaduTempleFestivals CommonFestivals
+ <br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adya
+ tithi/tree/master/general/sidereal_solar_month/nakshatra/12/12/paGgun2i~ut
+ tiram.toml)<br/>- Tags: TamilnaduTempleFestivals CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -8783,10 +8778,10 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  yanāthadīkṣitīye tithinirṇayakāṇḍe viṣṇudharme---  <br/>as
  ambhāṣyāṃstu sambhāṣya tulasyatasikādalam|  <br/>dvādaśyāmacy
  utaphalam āgastyaṃ patrameva vā|   <br/>āmalakyāḥ phalaṃ vāpi p
- āraṇe prāśya śuddhyati||  <br/><br/><br/><br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
- _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
- thlyVratam EkadashiVratam
+ āraṇe prāśya śuddhyati||<br/><br/><br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/
+ monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
+ tam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -8898,10 +8893,9 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190402T190436
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>pradoṣe  śivapūjāṃ  tu  ye  kuryācchradd
  hayā  yutāḥ|  <br/>na  bhavet  tasya  dāridryaṃ  janmāntaraśate
- ṣvapi||  <br/><br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
- tps://github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoS
- ha/description_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pradosh
- aVratam
+ ṣvapi||<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://g
+ ithub.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/desc
+ ription_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -9337,11 +9331,10 @@ DTEND;VALUE=DATE:20190407
 DESCRIPTION:Observed on Śukla-Prathamā tithi of Caitraḥ (lunar) month 
  (Sūryodayaḥ/puurvaviddha). <br/><br/>śaratkāle mahāpūjā kriyate y
  ā ca vārṣikī|  <br/>vasantakāle sā proktā kāryā sarvaiḥ śubh
- ārthibhiḥ||  <br/>---mārkaṇḍeya-purāṇam (smṛtikaustubhe)  <br
- /><br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.c
- om/jyotisham/adyatithi/tree/master/general/lunar_month/tithi/01/01/vasanta
- navarAtra-ArambhaH.toml)<br/>- Tags: CommonFestivals Navaratri SpecialPeri
- odStart
+ ārthibhiḥ||  <br/>---mārkaṇḍeya-purāṇam (smṛtikaustubhe)<br/>
+ <br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyot
+ isham/adyatithi/tree/master/general/lunar_month/tithi/01/01/vasantanavarAt
+ ra-ArambhaH.toml)<br/>- Tags: CommonFestivals Navaratri SpecialPeriodStart
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9555,11 +9548,10 @@ DESCRIPTION:Observed on Śukla-Tṛtīyā tithi of Caitraḥ (lunar) month
  ṣīraghṛtaikṣavam|  <br/>dadyādvastrāṇi sūkṣmāṇi rasavastr
  aphalāni vā||  <br/>sampūjya vipramithunaṃ gaurī me prīyatāmiti|  
  <br/>etadgaurīvrataṃ nāma bhavānīlokadāyakam||  <br/>---matsyapurā
- ṇam (smṛtikaustubhe)  <br/><br/><br/><br/><br/>## Details<br/>- Refere
- nces<br/>  - Smriti Kaustubham p.89<br/>- [Edit config file](https://githu
- b.com/jyotisham/adyatithi/tree/master/devatA/umA/lunar_month/tithi/01/03/g
- aurI~tRtIyA_or_saubhAgya-gaurI-vratam.toml)<br/>- Tags: SpecialVratam Devi
- Puja
+ ṇam (smṛtikaustubhe)<br/><br/><br/><br/>## Details<br/>- References<br
+ />  - Smriti Kaustubham p.89<br/>- [Edit config file](https://github.com/j
+ yotisham/adyatithi/tree/master/devatA/umA/lunar_month/tithi/01/03/gaurI~tR
+ tIyA_or_saubhAgya-gaurI-vratam.toml)<br/>- Tags: SpecialVratam DeviPuja
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9615,11 +9607,11 @@ DESCRIPTION:Observed on Śukla-Tṛtīyā tithi of Caitraḥ (lunar) month
  >āndolayettato vatsa śivomātuṣṭaye sadā||  <br/>rātrau jāgaraṇ
  aṃ kāryaṃ prātardeyā ca dakṣiṇā|  <br/>hemavastrānnapānāni 
  tāmbūlāni srajastathā|  <br/>saubhāgyāya sadā strībhiḥ kāryā p
- utrasukhepsubhiḥ||  <br/>---devīpurāṇam (smṛtikaustubhe)  <br/><br
- /><br/><br/><br/>## Details<br/>- References<br/>  - Smriti Kaustubham p.9
- 0<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/mas
- ter/devatA/shaiva/lunar_month/tithi/01/03/pArvatIzvarayOrAndalanavratam.to
- ml)<br/>- Tags: LessCommonFestivals
+ utrasukhepsubhiḥ||  <br/>---devīpurāṇam (smṛtikaustubhe)<br/><br/>
+ <br/><br/>## Details<br/>- References<br/>  - Smriti Kaustubham p.90<br/>-
+  [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/dev
+ atA/shaiva/lunar_month/tithi/01/03/pArvatIzvarayOrAndalanavratam.toml)<br/
+ >- Tags: LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -9803,10 +9795,10 @@ DESCRIPTION:Observed on Śukla-Pañcamī tithi of Caitraḥ (lunar) month
  itre māsi śubhānanā|  <br/>śrīrviṣṇulokānmānuṣyaṃ samprāp
  tā keśavājñayā||  <br/>tasmāt tāṃ pūjayet tatra yastaṃ lakṣm
  īrna muñcati|  <br/>eṣā śrīpañcamī kāryā viṣṇulokagatiprad
- ā||  <br/><br/><br/><br/><br/>## Details<br/>- References<br/>  - Smriti 
- Kaustubham p.92<br/>- [Edit config file](https://github.com/jyotisham/adya
- tithi/tree/master/devatA/lakShmI/lunar_month/tithi/01/05/lakSmI-paJcamI.to
- ml)<br/>- Tags: CommonFestivals
+ ā||<br/><br/><br/><br/>## Details<br/>- References<br/>  - Smriti Kaustub
+ ham p.92<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/t
+ ree/master/devatA/lakShmI/lunar_month/tithi/01/05/lakSmI-paJcamI.toml)<br/
+ >- Tags: CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10251,10 +10243,10 @@ DTSTART;VALUE=DATE:20190405
 DTEND;VALUE=DATE:20190415
 DESCRIPTION:śaratkāle mahāpūjā kriyate yā ca vārṣikī|  <br/>vasa
  ntakāle sā proktā kāryā sarvaiḥ śubhārthibhiḥ||  <br/>---mārka
- ṇḍeya-purāṇam (smṛtikaustubhe)  <br/><br/><br/><br/><br/>## Detai
- ls<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/ma
- ster/general/description_only/vasantanavarAtraH.toml)<br/>- Tags: CommonFe
- stivals Navaratri SpecialPeriod
+ ṇḍeya-purāṇam (smṛtikaustubhe)<br/><br/><br/><br/>## Details<br/>
+ - [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/ge
+ neral/description_only/vasantanavarAtraH.toml)<br/>- Tags: CommonFestivals
+  Navaratri SpecialPeriod
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10270,11 +10262,10 @@ DTEND;VALUE=DATE:20190415
 DESCRIPTION:Observed on Śukla-Navamī tithi of Caitraḥ (lunar) month (S
  ūryodayaḥ/puurvaviddha). <br/><br/>śaratkāle mahāpūjā kriyate yā 
  ca vārṣikī|  <br/>vasantakāle sā proktā kāryā sarvaiḥ śubhārt
- hibhiḥ||  <br/>---mārkaṇḍeya-purāṇam (smṛtikaustubhe)  <br/><b
- r/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/j
- yotisham/adyatithi/tree/master/general/lunar_month/tithi/01/09/vasantanava
- rAtra-samApanam.toml)<br/>- Tags: CommonFestivals Navaratri SpecialPeriodE
- nd
+ hibhiḥ||  <br/>---mārkaṇḍeya-purāṇam (smṛtikaustubhe)<br/><br/
+ ><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisha
+ m/adyatithi/tree/master/general/lunar_month/tithi/01/09/vasantanavarAtra-s
+ amApanam.toml)<br/>- Tags: CommonFestivals Navaratri SpecialPeriodEnd
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10336,10 +10327,10 @@ DESCRIPTION:Observed on Śukla-Daśamī tithi of Caitraḥ (lunar) month (
  Sūryodayaḥ/puurvaviddha). <br/><br/>dharmarājasya damanakena pūjanamu
  ktaṃ nirṇayāmṛte devīpurāṇe---  <br/>dharmarājaṃ daśamyā
  ṃ tu pūjayitvā sugandhibhiḥ|  <br/>vigatārirnirātaṅka iha cānte
-  paraṃ padam||  <br/><br/><br/><br/><br/>## Details<br/>- References<br/
- >  - Smriti Kaustubham p.101<br/>- [Edit config file](https://github.com/j
- yotisham/adyatithi/tree/master/general/lunar_month/tithi/01/10/dharmarAja-
- dazamI.toml)<br/>- Tags: LessCommonFestivals
+  paraṃ padam||<br/><br/><br/><br/>## Details<br/>- References<br/>  - Sm
+ riti Kaustubham p.101<br/>- [Edit config file](https://github.com/jyotisha
+ m/adyatithi/tree/master/general/lunar_month/tithi/01/10/dharmarAja-dazamI.
+ toml)<br/>- Tags: LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10488,10 +10479,10 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  yanāthadīkṣitīye tithinirṇayakāṇḍe viṣṇudharme---  <br/>as
  ambhāṣyāṃstu sambhāṣya tulasyatasikādalam|  <br/>dvādaśyāmacy
  utaphalam āgastyaṃ patrameva vā|   <br/>āmalakyāḥ phalaṃ vāpi p
- āraṇe prāśya śuddhyati||  <br/><br/><br/><br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
- _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
- thlyVratam EkadashiVratam
+ āraṇe prāśya śuddhyati||<br/><br/><br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/
+ monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
+ tam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -10621,11 +10612,11 @@ DTEND;VALUE=DATE:20190418
 DESCRIPTION:Observed on Śukla-Trayodaśī tithi of Caitraḥ (lunar) mont
  h (Sūryodayaḥ/puurvaviddha). <br/><br/>caitraśuklatrayodaśyāṃ mada
  naṃ campakātmakam|  <br/>kṛtvā sampūjya yatnena vījayedyajanena tu
- |  <br/>tataḥ sandhukṣitaḥ kāmaḥ putrapautrasamṛddhidaḥ||  <b
- r/><br/><br/><br/><br/>## Details<br/>- References<br/>  - Smriti Kaustubh
- am p.104<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/t
- ree/master/general/lunar_month/tithi/01/13/madana-trayOdazI.toml)<br/>- Ta
- gs: LessCommonFestivals
+ |  <br/>tataḥ sandhukṣitaḥ kāmaḥ putrapautrasamṛddhidaḥ||<br/
+ ><br/><br/><br/>## Details<br/>- References<br/>  - Smriti Kaustubham p.10
+ 4<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/tree/mas
+ ter/general/lunar_month/tithi/01/13/madana-trayOdazI.toml)<br/>- Tags: Les
+ sCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -10641,10 +10632,9 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190417T190502
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>pradoṣe  śivapūjāṃ  tu  ye  kuryācchradd
  hayā  yutāḥ|  <br/>na  bhavet  tasya  dāridryaṃ  janmāntaraśate
- ṣvapi||  <br/><br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
- tps://github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoS
- ha/description_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pradosh
- aVratam
+ ṣvapi||<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://g
+ ithub.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/desc
+ ription_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -10778,10 +10768,10 @@ DESCRIPTION:Observed on Śukla-Caturdaśī tithi of Caitraḥ (lunar) mont
  <br/>madhau śuklacaturdaśyāṃ nṛsiṃhaṃ jagataḥ prabhum|  <br/>
  rājopacāraiḥ sampūjya māsamāndolayetkalau||  <br/>dakṣiṇābhimu
  khaṃ devaṃ dolamānaṃ sureśvaram|  <br/>sampūjitaṃ sakṛdṛṣ
- ṭvā sarvapāpaiḥ pramucyate||  <br/><br/><br/><br/><br/>## Details<br
- />- References<br/>  - Smriti Kaustubham p.90<br/>- [Edit config file](htt
- ps://github.com/jyotisham/adyatithi/tree/master/devatA/vaiShNava/lunar_mon
- th/tithi/01/14/nRsiMha-dOlOtsavaH.toml)<br/>- Tags: LessCommonFestivals
+ ṭvā sarvapāpaiḥ pramucyate||<br/><br/><br/><br/>## Details<br/>- Ref
+ erences<br/>  - Smriti Kaustubham p.90<br/>- [Edit config file](https://gi
+ thub.com/jyotisham/adyatithi/tree/master/devatA/vaiShNava/lunar_month/tith
+ i/01/14/nRsiMha-dOlOtsavaH.toml)<br/>- Tags: LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11448,9 +11438,9 @@ DESCRIPTION:Observed on Kṛṣṇa-Pañcamī tithi of Caitraḥ (lunar) m
  abhāvana trayīṃ tanuṃ svāṃ paridhunvate namaḥ|  <br/>yadromagar
  teṣu nililyuraddhayastasmai namaḥ kāraṇasūkarāya te||3-13-35||  <
  br/>—śrīmadbhāgavate mahāpurāṇe tṛtīyeskandhe trayodaśe'dhyā
- ye <br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.
- com/jyotisham/adyatithi/tree/master/devatA/lakShmI/lunar_month/tithi/01/20
- /lakSmI-varAha~jayantI.toml)<br/>- Tags: Dashavataram
+ ye<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://github.c
+ om/jyotisham/adyatithi/tree/master/devatA/lakShmI/lunar_month/tithi/01/20/
+ lakSmI-varAha~jayantI.toml)<br/>- Tags: Dashavataram
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11888,10 +11878,10 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  yanāthadīkṣitīye tithinirṇayakāṇḍe viṣṇudharme---  <br/>as
  ambhāṣyāṃstu sambhāṣya tulasyatasikādalam|  <br/>dvādaśyāmacy
  utaphalam āgastyaṃ patrameva vā|   <br/>āmalakyāḥ phalaṃ vāpi p
- āraṇe prāśya śuddhyati||  <br/><br/><br/><br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
- _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
- thlyVratam EkadashiVratam
+ āraṇe prāśya śuddhyati||<br/><br/><br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/
+ monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
+ tam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -11966,10 +11956,10 @@ DTEND;VALUE=DATE:20190503
 DESCRIPTION:Observed on Kṛṣṇa-Trayodaśī tithi of Caitraḥ (lunar)
   month (Aparāhṇaḥ/puurvaviddha). <br/><br/>satyavratopadeśāya jihma
  mīnasvarūpadhṛk|  <br/>pralayābdhikṛtāvāsa gṛhāṇārghyaṃ n
- amo'stu te||  <br/><br/><br/><br/><br/>## Details<br/>- References<br/>  -
-  Kielhorn (1897)<br/>- [Edit config file](https://github.com/jyotisham/ady
- atithi/tree/master/devatA/vaiShNava/lunar_month/tithi/01/28/matsya~jayantI
- .toml)<br/>- Tags: Dashavataram
+ amo'stu te||<br/><br/><br/><br/>## Details<br/>- References<br/>  - Kielho
+ rn (1897)<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/
+ tree/master/devatA/vaiShNava/lunar_month/tithi/01/28/matsya~jayantI.toml)<
+ br/>- Tags: Dashavataram
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -11985,10 +11975,9 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190502T190637
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>pradoṣe  śivapūjāṃ  tu  ye  kuryācchradd
  hayā  yutāḥ|  <br/>na  bhavet  tasya  dāridryaṃ  janmāntaraśate
- ṣvapi||  <br/><br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
- tps://github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoS
- ha/description_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pradosh
- aVratam
+ ṣvapi||<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://g
+ ithub.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/desc
+ ription_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -13500,10 +13489,10 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  yanāthadīkṣitīye tithinirṇayakāṇḍe viṣṇudharme---  <br/>as
  ambhāṣyāṃstu sambhāṣya tulasyatasikādalam|  <br/>dvādaśyāmacy
  utaphalam āgastyaṃ patrameva vā|   <br/>āmalakyāḥ phalaṃ vāpi p
- āraṇe prāśya śuddhyati||  <br/><br/><br/><br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
- _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
- thlyVratam EkadashiVratam
+ āraṇe prāśya śuddhyati||<br/><br/><br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/
+ monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
+ tam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -13663,10 +13652,9 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190516T190921
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>pradoṣe  śivapūjāṃ  tu  ye  kuryācchradd
  hayā  yutāḥ|  <br/>na  bhavet  tasya  dāridryaṃ  janmāntaraśate
- ṣvapi||  <br/><br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
- tps://github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoS
- ha/description_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pradosh
- aVratam
+ ṣvapi||<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://g
+ ithub.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/desc
+ ription_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -15048,10 +15036,10 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  yanāthadīkṣitīye tithinirṇayakāṇḍe viṣṇudharme---  <br/>as
  ambhāṣyāṃstu sambhāṣya tulasyatasikādalam|  <br/>dvādaśyāmacy
  utaphalam āgastyaṃ patrameva vā|   <br/>āmalakyāḥ phalaṃ vāpi p
- āraṇe prāśya śuddhyati||  <br/><br/><br/><br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
- _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
- thlyVratam EkadashiVratam
+ āraṇe prāśya śuddhyati||<br/><br/><br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/
+ monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
+ tam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15128,10 +15116,9 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190531T191314
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>pradoṣe  śivapūjāṃ  tu  ye  kuryācchradd
  hayā  yutāḥ|  <br/>na  bhavet  tasya  dāridryaṃ  janmāntaraśate
- ṣvapi||  <br/><br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
- tps://github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoS
- ha/description_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pradosh
- aVratam
+ ṣvapi||<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://g
+ ithub.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/desc
+ ription_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -16597,10 +16584,10 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  yanāthadīkṣitīye tithinirṇayakāṇḍe viṣṇudharme---  <br/>as
  ambhāṣyāṃstu sambhāṣya tulasyatasikādalam|  <br/>dvādaśyāmacy
  utaphalam āgastyaṃ patrameva vā|   <br/>āmalakyāḥ phalaṃ vāpi p
- āraṇe prāśya śuddhyati||  <br/><br/><br/><br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
- _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
- thlyVratam EkadashiVratam
+ āraṇe prāśya śuddhyati||<br/><br/><br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/
+ monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
+ tam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -16771,10 +16758,9 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190614T191659
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>pradoṣe  śivapūjāṃ  tu  ye  kuryācchradd
  hayā  yutāḥ|  <br/>na  bhavet  tasya  dāridryaṃ  janmāntaraśate
- ṣvapi||  <br/><br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
- tps://github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoS
- ha/description_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pradosh
- aVratam
+ ṣvapi||<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://g
+ ithub.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/desc
+ ription_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -18044,10 +18030,10 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  yanāthadīkṣitīye tithinirṇayakāṇḍe viṣṇudharme---  <br/>as
  ambhāṣyāṃstu sambhāṣya tulasyatasikādalam|  <br/>dvādaśyāmacy
  utaphalam āgastyaṃ patrameva vā|   <br/>āmalakyāḥ phalaṃ vāpi p
- āraṇe prāśya śuddhyati||  <br/><br/><br/><br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
- _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
- thlyVratam EkadashiVratam
+ āraṇe prāśya śuddhyati||<br/><br/><br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/
+ monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
+ tam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -18174,10 +18160,9 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190630T192018
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>pradoṣe  śivapūjāṃ  tu  ye  kuryācchradd
  hayā  yutāḥ|  <br/>na  bhavet  tasya  dāridryaṃ  janmāntaraśate
- ṣvapi||  <br/><br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
- tps://github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoS
- ha/description_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pradosh
- aVratam
+ ṣvapi||<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://g
+ ithub.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/desc
+ ription_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -19591,10 +19576,10 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  yanāthadīkṣitīye tithinirṇayakāṇḍe viṣṇudharme---  <br/>as
  ambhāṣyāṃstu sambhāṣya tulasyatasikādalam|  <br/>dvādaśyāmacy
  utaphalam āgastyaṃ patrameva vā|   <br/>āmalakyāḥ phalaṃ vāpi p
- āraṇe prāśya śuddhyati||  <br/><br/><br/><br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
- _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
- thlyVratam EkadashiVratam
+ āraṇe prāśya śuddhyati||<br/><br/><br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/
+ monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
+ tam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -19749,10 +19734,9 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190714T192110
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>pradoṣe  śivapūjāṃ  tu  ye  kuryācchradd
  hayā  yutāḥ|  <br/>na  bhavet  tasya  dāridryaṃ  janmāntaraśate
- ṣvapi||  <br/><br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
- tps://github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoS
- ha/description_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pradosh
- aVratam
+ ṣvapi||<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://g
+ ithub.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/desc
+ ription_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -21065,10 +21049,10 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  yanāthadīkṣitīye tithinirṇayakāṇḍe viṣṇudharme---  <br/>as
  ambhāṣyāṃstu sambhāṣya tulasyatasikādalam|  <br/>dvādaśyāmacy
  utaphalam āgastyaṃ patrameva vā|   <br/>āmalakyāḥ phalaṃ vāpi p
- āraṇe prāśya śuddhyati||  <br/><br/><br/><br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
- _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
- thlyVratam EkadashiVratam
+ āraṇe prāśya śuddhyati||<br/><br/><br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/
+ monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
+ tam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -21082,10 +21066,10 @@ DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala. Pradosha vratam is even more special\, when if falls on a
   Monday/Saturday.<br/><br/>pradoṣe  śivapūjāṃ  tu  ye  kuryācchrad
  dhayā  yutāḥ|  <br/>na  bhavet  tasya  dāridryaṃ  janmāntaraśate
- ṣvapi||  <br/><br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
- tps://github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoS
- ha/description_only/sOma-pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pr
- adoshaVratam
+ ṣvapi||<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://g
+ ithub.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/desc
+ ription_only/sOma-pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaV
+ ratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -21868,10 +21852,10 @@ DTEND;VALUE=DATE:20190806
 DESCRIPTION:Observed on Śukla-Pañcamī tithi of Śrāvaṇaḥ (lunar) m
  onth (Sūryodayaḥ/puurvaviddha). * Day Garuda brought Amrutam for Nagas<
  br/>* Day Garuda and Takshaka fought and compromise was struck with Taksha
- ka as garland in Garuda's neck (peace treaty :) <br/><br/>## Details<br/>-
-  [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/dev
- atA/vaiShNava/lunar_month/tithi/05/05/garuDa-paJcamI.toml)<br/>- Tags: Pur
- anaEvents
+ ka as garland in Garuda's neck (peace treaty :)<br/><br/>## Details<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/deva
+ tA/vaiShNava/lunar_month/tithi/05/05/garuDa-paJcamI.toml)<br/>- Tags: Pura
+ naEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -22562,10 +22546,10 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  yanāthadīkṣitīye tithinirṇayakāṇḍe viṣṇudharme---  <br/>as
  ambhāṣyāṃstu sambhāṣya tulasyatasikādalam|  <br/>dvādaśyāmacy
  utaphalam āgastyaṃ patrameva vā|   <br/>āmalakyāḥ phalaṃ vāpi p
- āraṇe prāśya śuddhyati||  <br/><br/><br/><br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
- _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
- thlyVratam EkadashiVratam
+ āraṇe prāśya śuddhyati||<br/><br/><br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/
+ monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
+ tam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -22678,10 +22662,10 @@ DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala. Pradosha vratam is even more special\, when if falls on a
   Monday/Saturday.<br/><br/>pradoṣe  śivapūjāṃ  tu  ye  kuryācchrad
  dhayā  yutāḥ|  <br/>na  bhavet  tasya  dāridryaṃ  janmāntaraśate
- ṣvapi||  <br/><br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
- tps://github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoS
- ha/description_only/sOma-pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pr
- adoshaVratam
+ ṣvapi||<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://g
+ ithub.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/desc
+ ription_only/sOma-pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaV
+ ratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -24347,10 +24331,10 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  yanāthadīkṣitīye tithinirṇayakāṇḍe viṣṇudharme---  <br/>as
  ambhāṣyāṃstu sambhāṣya tulasyatasikādalam|  <br/>dvādaśyāmacy
  utaphalam āgastyaṃ patrameva vā|   <br/>āmalakyāḥ phalaṃ vāpi p
- āraṇe prāśya śuddhyati||  <br/><br/><br/><br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
- _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
- thlyVratam EkadashiVratam
+ āraṇe prāśya śuddhyati||<br/><br/><br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/
+ monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
+ tam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -24527,10 +24511,9 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190828T190602
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>pradoṣe  śivapūjāṃ  tu  ye  kuryācchradd
  hayā  yutāḥ|  <br/>na  bhavet  tasya  dāridryaṃ  janmāntaraśate
- ṣvapi||  <br/><br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
- tps://github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoS
- ha/description_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pradosh
- aVratam
+ ṣvapi||<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://g
+ ithub.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/desc
+ ription_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -26165,10 +26148,10 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  yanāthadīkṣitīye tithinirṇayakāṇḍe viṣṇudharme---  <br/>as
  ambhāṣyāṃstu sambhāṣya tulasyatasikādalam|  <br/>dvādaśyāmacy
  utaphalam āgastyaṃ patrameva vā|   <br/>āmalakyāḥ phalaṃ vāpi p
- āraṇe prāśya śuddhyati||  <br/><br/><br/><br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
- _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
- thlyVratam EkadashiVratam
+ āraṇe prāśya śuddhyati||<br/><br/><br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/
+ monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
+ tam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -26307,10 +26290,9 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190911T185715
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>pradoṣe  śivapūjāṃ  tu  ye  kuryācchradd
  hayā  yutāḥ|  <br/>na  bhavet  tasya  dāridryaṃ  janmāntaraśate
- ṣvapi||  <br/><br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
- tps://github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoS
- ha/description_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pradosh
- aVratam
+ ṣvapi||<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://g
+ ithub.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/desc
+ ription_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -27819,10 +27801,10 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  yanāthadīkṣitīye tithinirṇayakāṇḍe viṣṇudharme---  <br/>as
  ambhāṣyāṃstu sambhāṣya tulasyatasikādalam|  <br/>dvādaśyāmacy
  utaphalam āgastyaṃ patrameva vā|   <br/>āmalakyāḥ phalaṃ vāpi p
- āraṇe prāśya śuddhyati||  <br/><br/><br/><br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
- _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
- thlyVratam EkadashiVratam
+ āraṇe prāśya śuddhyati||<br/><br/><br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/
+ monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
+ tam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -27955,10 +27937,9 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20190926T184719
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>pradoṣe  śivapūjāṃ  tu  ye  kuryācchradd
  hayā  yutāḥ|  <br/>na  bhavet  tasya  dāridryaṃ  janmāntaraśate
- ṣvapi||  <br/><br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
- tps://github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoS
- ha/description_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pradosh
- aVratam
+ ṣvapi||<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://g
+ ithub.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/desc
+ ription_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -29515,10 +29496,10 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  yanāthadīkṣitīye tithinirṇayakāṇḍe viṣṇudharme---  <br/>as
  ambhāṣyāṃstu sambhāṣya tulasyatasikādalam|  <br/>dvādaśyāmacy
  utaphalam āgastyaṃ patrameva vā|   <br/>āmalakyāḥ phalaṃ vāpi p
- āraṇe prāśya śuddhyati||  <br/><br/><br/><br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
- _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
- thlyVratam EkadashiVratam
+ āraṇe prāśya śuddhyati||<br/><br/><br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/
+ monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
+ tam EkadashiVratam
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -29534,10 +29515,9 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191009T183907
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>pradoṣe  śivapūjāṃ  tu  ye  kuryācchradd
  hayā  yutāḥ|  <br/>na  bhavet  tasya  dāridryaṃ  janmāntaraśate
- ṣvapi||  <br/><br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
- tps://github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoS
- ha/description_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pradosh
- aVratam
+ ṣvapi||<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://g
+ ithub.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/desc
+ ription_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -29694,10 +29674,9 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191011T183758
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>pradoṣe  śivapūjāṃ  tu  ye  kuryācchradd
  hayā  yutāḥ|  <br/>na  bhavet  tasya  dāridryaṃ  janmāntaraśate
- ṣvapi||  <br/><br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
- tps://github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoS
- ha/description_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pradosh
- aVratam
+ ṣvapi||<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://g
+ ithub.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/desc
+ ription_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -31165,10 +31144,10 @@ DESCRIPTION:Observed on Kṛṣṇa-Dvādaśī tithi of Āśvayujaḥ (lun
  ṣīraṃ goghṛtaṃ caiva dadhi takraṃ ca varjayet|  <br/>surabhi tv
  aṃ jaganmātardevi viṣṇupade sthitā|  <br/>sarvadevamaye grāsaṃ 
  mayā dattamidaṃ grasa||  <br/>sarvadevamaye devi sarvedevaiśca satkṛ
- tā|  <br/>mātarmamā'bhilāṣitaṃ saphalaṃ kuru nandini||  <br/><br
- /><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jy
- otisham/adyatithi/tree/master/devatA/misc-fauna/lunar_month/tithi/07/27/gO
- vatsa-dvAdazI.toml)<br/>- Tags: SpecialVratam CommonFestivals
+ tā|  <br/>mātarmamā'bhilāṣitaṃ saphalaṃ kuru nandini||<br/><br/>
+ <br/><br/>## Details<br/>- [Edit config file](https://github.com/jyotisham
+ /adyatithi/tree/master/devatA/misc-fauna/lunar_month/tithi/07/27/gOvatsa-d
+ vAdazI.toml)<br/>- Tags: SpecialVratam CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -31188,10 +31167,10 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  yanāthadīkṣitīye tithinirṇayakāṇḍe viṣṇudharme---  <br/>as
  ambhāṣyāṃstu sambhāṣya tulasyatasikādalam|  <br/>dvādaśyāmacy
  utaphalam āgastyaṃ patrameva vā|   <br/>āmalakyāḥ phalaṃ vāpi p
- āraṇe prāśya śuddhyati||  <br/><br/><br/><br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
- _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
- thlyVratam EkadashiVratam
+ āraṇe prāśya śuddhyati||<br/><br/><br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/
+ monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
+ tam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -31204,10 +31183,9 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191025T183103
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>pradoṣe  śivapūjāṃ  tu  ye  kuryācchradd
  hayā  yutāḥ|  <br/>na  bhavet  tasya  dāridryaṃ  janmāntaraśate
- ṣvapi||  <br/><br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
- tps://github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoS
- ha/description_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pradosh
- aVratam
+ ṣvapi||<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://g
+ ithub.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/desc
+ ription_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -32842,10 +32820,10 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  yanāthadīkṣitīye tithinirṇayakāṇḍe viṣṇudharme---  <br/>as
  ambhāṣyāṃstu sambhāṣya tulasyatasikādalam|  <br/>dvādaśyāmacy
  utaphalam āgastyaṃ patrameva vā|   <br/>āmalakyāḥ phalaṃ vāpi p
- āraṇe prāśya śuddhyati||  <br/><br/><br/><br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
- _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
- thlyVratam EkadashiVratam
+ āraṇe prāśya śuddhyati||<br/><br/><br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/
+ monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
+ tam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -33062,11 +33040,11 @@ DESCRIPTION:Observed on Śukla-Dvādaśī tithi of Kārttikaḥ (lunar) mo
  gnam.<br/><br/>vande'haṃ  maṅgaḻātmānaṃ  bhāsvantaṃ  vedavigr
  aham|  <br/>yājñavalkyaṃ  muniśreṣṭhaṃ  jīṣṇuṃ  harihara
  prabham||  <br/>jitendriyaṃ  jitakrodhaṃ  sadā  dhyānaparāyaṇam| 
-  <br/>ānandanilayaṃ  vande  yogānandamunīśvaram||  <br/><br/><br/><b
- r/><br/>## Details<br/>- References<br/>  - Vaidikasri Nov 2017<br/>- [Edi
- t config file](https://github.com/jyotisham/adyatithi/tree/master/mahApuru
- Sha/RShi/lunar_month/tithi/08/12/yAjJavalkya~jayantI.toml)<br/>- Tags: Mah
- apurushaEvents
+  <br/>ānandanilayaṃ  vande  yogānandamunīśvaram||<br/><br/><br/><br/
+ >## Details<br/>- References<br/>  - Vaidikasri Nov 2017<br/>- [Edit confi
+ g file](https://github.com/jyotisham/adyatithi/tree/master/mahApuruSha/RSh
+ i/lunar_month/tithi/08/12/yAjJavalkya~jayantI.toml)<br/>- Tags: Mahapurush
+ aEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -33083,10 +33061,10 @@ DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.  Pradosha vratam is even more special\, when if falls on 
  a Monday/Saturday.<br/><br/>pradoṣe  śivapūjāṃ  tu  ye  kuryācchra
  ddhayā  yutāḥ|  <br/>na  bhavet  tasya  dāridryaṃ  janmāntaraśate
- ṣvapi||  <br/><br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
- tps://github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoS
- ha/description_only/zani-pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pr
- adoshaVratam
+ ṣvapi||<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://g
+ ithub.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/desc
+ ription_only/zani-pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaV
+ ratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -33951,10 +33929,10 @@ DESCRIPTION:Offer Akasha Dipam for this entire month\, in the evening\, on
  adīpaṃ  yo  dadyānmāsamekaṃ  hariṃ  prati|  <br/>mahatīṃ  śri
  yamāpnoti  rūpa-saubhāgya-sampadam||  <br/>  <br/>dāmodarāya  nabhasi
    tulāyāṃ  lolayā  saha|  <br/>pradīpaṃ  te  prayacchāmi  namo'na
- ntāya  vedhase||  <br/><br/><br/><br/><br/>## Details<br/>- References<br
- />  - Nirnaya Sindhu 146<br/>- [Edit config file](https://github.com/jyoti
- sham/adyatithi/tree/master/general/description_only/AkAzadIpaH.toml)<br/>-
-  Tags: LessCommonFestivals
+ ntāya  vedhase||<br/><br/><br/><br/>## Details<br/>- References<br/>  - N
+ irnaya Sindhu 146<br/>- [Edit config file](https://github.com/jyotisham/ad
+ yatithi/tree/master/general/description_only/AkAzadIpaH.toml)<br/>- Tags: 
+ LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -34171,11 +34149,11 @@ SUMMARY:tiruviśalūr gaṅgākarṣaṇa-mahotsava-ārambhaḥ
 DTSTART;VALUE=DATE:20191117
 DTEND;VALUE=DATE:20191118
 DESCRIPTION:Beginning of Gangakarshana Mahotsava in Thiruvisanallur. See a
- lso http://www.sriayyaval.org/ .  <br/><br/>## Details<br/>- [Edit config 
- file](https://github.com/jyotisham/adyatithi/tree/master/temples/Tamil/rel
- ative_event/tiruvizalUr_gaGgAkarSaNa-mahOtsava-samApanam/offset__-9/tiruvi
- zalUr_gaGgAkarSaNa-mahOtsava-ArambhaH.toml)<br/>- Tags: MahapurushaEvents 
- TamilnaduTempleFestivals
+ lso http://www.sriayyaval.org/ .<br/><br/>## Details<br/>- [Edit config fi
+ le](https://github.com/jyotisham/adyatithi/tree/master/temples/Tamil/relat
+ ive_event/tiruvizalUr_gaGgAkarSaNa-mahOtsava-samApanam/offset__-9/tiruviza
+ lUr_gaGgAkarSaNa-mahOtsava-ArambhaH.toml)<br/>- Tags: MahapurushaEvents Ta
+ milnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -34711,10 +34689,10 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  yanāthadīkṣitīye tithinirṇayakāṇḍe viṣṇudharme---  <br/>as
  ambhāṣyāṃstu sambhāṣya tulasyatasikādalam|  <br/>dvādaśyāmacy
  utaphalam āgastyaṃ patrameva vā|   <br/>āmalakyāḥ phalaṃ vāpi p
- āraṇe prāśya śuddhyati||  <br/><br/><br/><br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
- _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
- thlyVratam EkadashiVratam
+ āraṇe prāśya śuddhyati||<br/><br/><br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/
+ monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
+ tam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -34851,10 +34829,9 @@ DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20191124T182609
 DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala.<br/><br/>pradoṣe  śivapūjāṃ  tu  ye  kuryācchradd
  hayā  yutāḥ|  <br/>na  bhavet  tasya  dāridryaṃ  janmāntaraśate
- ṣvapi||  <br/><br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
- tps://github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoS
- ha/description_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pradosh
- aVratam
+ ṣvapi||<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://g
+ ithub.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/desc
+ ription_only/pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -35065,10 +35042,10 @@ SUMMARY:tiruviśalūr gaṅgākarṣaṇa-mahotsavaḥ
 DTSTART;VALUE=DATE:20191116
 DTEND;VALUE=DATE:20191127
 DESCRIPTION:Beginning of Gangakarshana Mahotsava in Thiruvisanallur. See a
- lso http://www.sriayyaval.org/ .  <br/><br/>## Details<br/>- [Edit config 
- file](https://github.com/jyotisham/adyatithi/tree/master/temples/Tamil/des
- cription_only/tiruvizalUr_gaGgAkarSaNa-mahOtsavaH.toml)<br/>- Tags: Mahapu
- rushaEvents TamilnaduTempleFestivals
+ lso http://www.sriayyaval.org/ .<br/><br/>## Details<br/>- [Edit config fi
+ le](https://github.com/jyotisham/adyatithi/tree/master/temples/Tamil/descr
+ iption_only/tiruvizalUr_gaGgAkarSaNa-mahOtsavaH.toml)<br/>- Tags: Mahapuru
+ shaEvents TamilnaduTempleFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -36118,10 +36095,10 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  yanāthadīkṣitīye tithinirṇayakāṇḍe viṣṇudharme---  <br/>as
  ambhāṣyāṃstu sambhāṣya tulasyatasikādalam|  <br/>dvādaśyāmacy
  utaphalam āgastyaṃ patrameva vā|   <br/>āmalakyāḥ phalaṃ vāpi p
- āraṇe prāśya śuddhyati||  <br/><br/><br/><br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
- _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
- thlyVratam EkadashiVratam
+ āraṇe prāśya śuddhyati||<br/><br/><br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/
+ monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
+ tam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -36284,10 +36261,10 @@ DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala. Pradosha vratam is even more special\, when if falls on a
   Monday/Saturday.<br/><br/>pradoṣe  śivapūjāṃ  tu  ye  kuryācchrad
  dhayā  yutāḥ|  <br/>na  bhavet  tasya  dāridryaṃ  janmāntaraśate
- ṣvapi||  <br/><br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
- tps://github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoS
- ha/description_only/sOma-pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pr
- adoshaVratam
+ ṣvapi||<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://g
+ ithub.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/desc
+ ription_only/sOma-pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaV
+ ratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -36997,10 +36974,10 @@ DESCRIPTION:Dhanur-Ravi-Saṅkramaṇa-Ṣaḍaśīti Punyakala. Perform d
  snāyādyadi mānavaḥ|  <br/>saptajanmasu rogī syād duḥkhabhāgī ca
   jāyate||  <br/>saṅkrāntyāṃ yāni dattāni havyakavyāni mānavai
  ḥ|  <br/>tāni tasya dadātyarkaḥ saptajanmasu niścitam||  <br/>(sm
- ṛtimuktāphale āhnika-kāṇḍe-pūrvabhāgaḥ)  <br/><br/><br/><br/>
- <br/>## Details<br/>- [Edit config file](https://github.com/jyotisham/adya
- tithi/tree/master/time_focus/sankrAnti/description_only/dhanUravi-saGkrama
- Na-SaDazIti-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
+ ṛtimuktāphale āhnika-kāṇḍe-pūrvabhāgaḥ)<br/><br/><br/><br/>##
+  Details<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/t
+ ree/master/time_focus/sankrAnti/description_only/dhanUravi-saGkramaNa-SaDa
+ zIti-puNyakAlaH.toml)<br/>- Tags: SunSankranti CommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -37453,10 +37430,10 @@ DESCRIPTION:The first quarter of dvādaśī tithi is not suitable for brea
  yanāthadīkṣitīye tithinirṇayakāṇḍe viṣṇudharme---  <br/>as
  ambhāṣyāṃstu sambhāṣya tulasyatasikādalam|  <br/>dvādaśyāmacy
  utaphalam āgastyaṃ patrameva vā|   <br/>āmalakyāḥ phalaṃ vāpi p
- āraṇe prāśya śuddhyati||  <br/><br/><br/><br/><br/>## Details<br/>- 
- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/time
- _focus/monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: Mon
- thlyVratam EkadashiVratam
+ āraṇe prāśya śuddhyati||<br/><br/><br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/tree/master/time_focus/
+ monthly/ekAdashI/description_only/harivAsaraH.toml)<br/>- Tags: MonthlyVra
+ tam EkadashiVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -37615,10 +37592,10 @@ DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
  n Pradosha Kala. Pradosha vratam is even more special\, when if falls on a
   Monday/Saturday.<br/><br/>pradoṣe  śivapūjāṃ  tu  ye  kuryācchrad
  dhayā  yutāḥ|  <br/>na  bhavet  tasya  dāridryaṃ  janmāntaraśate
- ṣvapi||  <br/><br/><br/><br/><br/>## Details<br/>- [Edit config file](ht
- tps://github.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoS
- ha/description_only/sOma-pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam Pr
- adoshaVratam
+ ṣvapi||<br/><br/><br/><br/>## Details<br/>- [Edit config file](https://g
+ ithub.com/jyotisham/adyatithi/tree/master/time_focus/monthly/pradoSha/desc
+ ription_only/sOma-pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaV
+ ratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
