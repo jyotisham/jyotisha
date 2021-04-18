@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210418114017
+SEQUENCE:20210418115457
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -13485,9 +13485,16 @@ SUMMARY:यमुना-जयन्ती
 DTSTART;VALUE=DATE:20210418
 DTEND;VALUE=DATE:20210419
 DESCRIPTION:Observed on Śukla-Ṣaṣṭhī tithi of Caitraḥ (lunar) mo
- nth (Sūryodayaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config 
- file](https://github.com/jyotisham/adyatithi/tree/master/devatA/nadI/lunar
- _month/tithi/01/06/yamunA~jayantI.toml)<br/>- Tags: CommonFestivals
+ nth (Sūryodayaḥ/puurvaviddha). <br/><br/>कृष्णे साक
+ ्षात्कृष्णरूपा त्वमेव  <br/>वे
+ गावर्ते वर्तसे मत्स्यरूपी।
+   <br/>ऊर्मावूर्मौ कूर्मरूपी स
+ दा ते  <br/>बिन्दौ बिन्दौ भाति ग
+ ोविन्ददेवः॥  <br/>---गर्गसंहिता
+ यां यमुनास्तवे<br/><br/><br/><br/>## Details<br/
+ >- [Edit config file](https://github.com/jyotisham/adyatithi/tree/master/d
+ evatA/nadI/lunar_month/tithi/01/06/yamunA~jayantI.toml)<br/>- Tags: Common
+ Festivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
