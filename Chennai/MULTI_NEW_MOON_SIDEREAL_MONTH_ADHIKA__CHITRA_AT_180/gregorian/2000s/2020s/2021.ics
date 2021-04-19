@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210419100614
+SEQUENCE:20210419190154
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -654,8 +654,8 @@ DESCRIPTION:Observed on Kṛṣṇa-Navamī tithi of Mārgaśīrṣaḥ (l
  ाद्रिगुरुं वन्दे ब्रह्मीभू
  तं तपोनिधिम्॥<br/><br/><br/><br/>## Details<br/>- 
  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mahA
- puruSha/general/lunar_month/tithi/09/24/zrI~zESAdri-svAmI~ArAdhanA.toml)<b
- r/>- Tags: MahapurushaEvents
+ puruSha/general-indic/lunar_month/tithi/09/24/zrI~zESAdri-svAmI~ArAdhanA.t
+ oml)<br/>- Tags: MahapurushaEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -806,8 +806,8 @@ DTEND;VALUE=DATE:20210110
 DESCRIPTION:Event occured on 2003-01-09 (gregorian). The date was original
  ly picked to coincide with MK Gandhi's return from Africa in 1915.<br/><br
  />## Details<br/>- [Edit config file](https://github.com/jyotisham/adyatit
- hi/blob/master/mahApuruSha/later/gregorian/day/01/09/pravAsi-bhAratIya-div
- asam.toml)<br/>- Tags:
+ hi/blob/master/mahApuruSha/general-tropical/gregorian/day/01/09/pravAsi-bh
+ AratIya-divasam.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -2616,8 +2616,8 @@ DTEND;VALUE=DATE:20210125
 DESCRIPTION:Observed on Śukla-Ekādaśī tithi of Pauṣaḥ (lunar) mont
  h (Sūryodayaḥ/puurvaviddha). Paramahamsa described Him as "walking Shiv
  a of Varanasi"<br/><br/>## Details<br/>- [Edit config file](https://github
- .com/jyotisham/adyatithi/blob/master/mahApuruSha/general/lunar_month/tithi
- /10/11/trailaGga-svAmI~jayantI.toml)<br/>- Tags: MahapurushaEvents
+ .com/jyotisham/adyatithi/blob/master/mahApuruSha/general-indic/lunar_month
+ /tithi/10/11/trailaGga-svAmI~jayantI.toml)<br/>- Tags: MahapurushaEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -3830,8 +3830,8 @@ DESCRIPTION:Observed on Hastaḥ nakshatra of Makaraḥ (sidereal solar) m
  रिगुरुं वन्दे ब्रह्मीभूतं 
  तपोनिधिम्॥<br/><br/><br/><br/>## Details<br/>- [Edit c
  onfig file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha
- /general/sidereal_solar_month/nakshatra/10/13/zrI~zESAdri-svAmI~jayantI.to
- ml)<br/>- Tags: MahapurushaEvents
+ /general-indic/sidereal_solar_month/nakshatra/10/13/zrI~zESAdri-svAmI~jaya
+ ntI.toml)<br/>- Tags: MahapurushaEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -4518,8 +4518,8 @@ DTEND;VALUE=DATE:20210210
 DESCRIPTION:Event occured on 0412-02-09 (gregorian). Julian date was conve
  rted to Gregorian in this reckoning. Roman Polytheist Platonist sage Procl
  us was born on this day<br/><br/>## Details<br/>- [Edit config file](https
- ://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/later/julian/day
- /02/08/proklas-janma.toml)<br/>- Tags:
+ ://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/general-tropical
+ /julian/day/02/08/proklas-janma.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -5505,8 +5505,9 @@ DESCRIPTION:Observed on Aśvinī nakshatra of Kumbhaḥ (sidereal solar) m
   philosophical work of all times. On this day\, recital of Poonthanam's wo
  rks and debate takes place. A one week literary festival is conducted at P
  oonthanam illam.<br/><br/>## Details<br/>- [Edit config file](https://gith
- ub.com/jyotisham/adyatithi/blob/master/mahApuruSha/general/sidereal_solar_
- month/nakshatra/11/01/pUntAnaM~jayantI.toml)<br/>- Tags: MahapurushaEvents
+ ub.com/jyotisham/adyatithi/blob/master/mahApuruSha/general-indic/sidereal_
+ solar_month/nakshatra/11/01/pUntAnaM~jayantI.toml)<br/>- Tags: Mahapurusha
+ Events
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -7701,8 +7702,8 @@ DTEND;VALUE=DATE:20210306
 DESCRIPTION:Observed on Kṛṣṇa-Saptamī tithi of Māghaḥ (lunar) mo
  nth (Sūryodayaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config 
  file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/gener
- al/lunar_month/tithi/11/22/zabarI~jayantI.toml)<br/>- Tags: MahapurushaEve
- nts
+ al-indic/lunar_month/tithi/11/22/zabarI~jayantI.toml)<br/>- Tags: Mahapuru
+ shaEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -12859,8 +12860,9 @@ DTEND;VALUE=DATE:20210415
 DESCRIPTION:Observed on Śukla-Dvitīyā tithi of Caitraḥ (lunar) month 
  (Sūryodayaḥ/puurvaviddha). <br/><br/>## Details<br/>- References<br/>  
  - http://hindupad.com/jhulelal-jayanti-2012-date/<br/>- [Edit config file]
- (https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/general/lu
- nar_month/tithi/01/02/jhUlElAla~jayantI.toml)<br/>- Tags: OtherJayantis
+ (https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/general-in
+ dic/lunar_month/tithi/01/02/jhUlElAla~jayantI.toml)<br/>- Tags: OtherJayan
+ tis
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -13377,6 +13379,23 @@ DESCRIPTION:Monthly Shashthi vratam for Lord Subrahmanya.<br/><br/>## Deta
  ils<br/>- [Edit config file](https://github.com/jyotisham/adyatithi/blob/m
  aster/devatA/kaumAra/description_only/SaSThI-vratam.toml)<br/>- Tags: Mont
  hlyVratam ShashthiVratam
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:प्रोक्लस्-मृत्युः #१५३६
+DTSTART;VALUE=DATE:20210418
+DTEND;VALUE=DATE:20210419
+DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
+ am/adyatithi/blob/master/mahApuruSha/general-tropical/julian/day/04/17/pro
+ klas-mRtyuH.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha
+ /general-tropical/julian/day/04/17/proklas-mRtyuH.toml)<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -19133,8 +19152,8 @@ DTEND;VALUE=DATE:20210530
 DESCRIPTION:Observed on Kṛṣṇa-Caturthī tithi of Vaiśākhaḥ (luna
  r) month (Sūryodayaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit co
  nfig file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/
- general/lunar_month/tithi/02/19/satI~anasUyA~jayantI.toml)<br/>- Tags: Mah
- apurushaEvents
+ general-indic/lunar_month/tithi/02/19/satI~anasUyA~jayantI.toml)<br/>- Tag
+ s: MahapurushaEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -32356,10 +32375,11 @@ SUMMARY:विवेकानन्द-भाषणं चिकागो
 DTSTART;VALUE=DATE:20210911
 DTEND;VALUE=DATE:20210912
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/later/gregorian/day/09/11/vivekAnanda
- -speech.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit confi
- g file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/lat
- er/gregorian/day/09/11/vivekAnanda-speech.toml)<br/>- Tags:
+ am/adyatithi/blob/master/mahApuruSha/general-tropical/gregorian/day/09/11/
+ vivekAnanda-speech.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- 
+ [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mahA
+ puruSha/general-tropical/gregorian/day/09/11/vivekAnanda-speech.toml)<br/>
+ - Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -35939,8 +35959,8 @@ DTEND;VALUE=DATE:20211008
 DESCRIPTION:Observed on Śukla-Prathamā tithi of Āśvayujaḥ (lunar) mo
  nth (Sūryodayaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit config 
  file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/gener
- al/lunar_month/tithi/07/01/agrasEna~mahArAja~jayantI.toml)<br/>- Tags: Mah
- apurushaEvents
+ al-indic/lunar_month/tithi/07/01/agrasEna~mahArAja~jayantI.toml)<br/>- Tag
+ s: MahapurushaEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -37046,8 +37066,8 @@ DTEND;VALUE=DATE:20211016
 DESCRIPTION:Observed on Śukla-Daśamī tithi of Āśvayujaḥ (lunar) mon
  th (Sūryāstamayaḥ/puurvaviddha). <br/><br/>## Details<br/>- [Edit conf
  ig file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/ge
- neral/lunar_month/tithi/07/10/buddha~jayantI.toml)<br/>- Tags: Dashavatara
- m LessCommonFestivals
+ neral-indic/lunar_month/tithi/07/10/buddha~jayantI.toml)<br/>- Tags: Dasha
+ vataram LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -46348,10 +46368,11 @@ SUMMARY:गणितज्ञ-रामानुज-जन्म #१३
 DTSTART;VALUE=DATE:20211222
 DTEND;VALUE=DATE:20211223
 DESCRIPTION:## Details<br/>- [Edit config file](https://github.com/jyotish
- am/adyatithi/blob/master/mahApuruSha/later/gregorian/day/12/22/gaNita-rAmA
- nuja-janma.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/>- [Edit co
- nfig file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha/
- later/gregorian/day/12/22/gaNita-rAmAnuja-janma.toml)<br/>- Tags:
+ am/adyatithi/blob/master/mahApuruSha/general-tropical/gregorian/day/12/22/
+ gaNita-rAmAnuja-janma.toml)<br/>- Tags: <br/><br/><br/><br/>## Details<br/
+ >- [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/m
+ ahApuruSha/general-tropical/gregorian/day/12/22/gaNita-rAmAnuja-janma.toml
+ )<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -46954,8 +46975,8 @@ DESCRIPTION:Observed on Kṛṣṇa-Navamī tithi of Mārgaśīrṣaḥ (l
  ाद्रिगुरुं वन्दे ब्रह्मीभू
  तं तपोनिधिम्॥<br/><br/><br/><br/>## Details<br/>- 
  [Edit config file](https://github.com/jyotisham/adyatithi/blob/master/mahA
- puruSha/general/lunar_month/tithi/09/24/zrI~zESAdri-svAmI~ArAdhanA.toml)<b
- r/>- Tags: MahapurushaEvents
+ puruSha/general-indic/lunar_month/tithi/09/24/zrI~zESAdri-svAmI~ArAdhanA.t
+ oml)<br/>- Tags: MahapurushaEvents
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
