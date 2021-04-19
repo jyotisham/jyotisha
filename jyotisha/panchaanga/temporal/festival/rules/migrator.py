@@ -32,4 +32,4 @@ def import_to_xaatra_later():
     en_description = " ".join([event["tithi"], event["Incident"], event["Other notes"]])
     rule.description = {"en": en_description.strip()}
     rule.names = {"sa": [sanscript.transliterate(data=event["name_sa"], _from=sanscript.OPTITRANS, _to=sanscript.DEVANAGARI)]}
-    rule.dump_to_file(filename=rule.get_storage_file_name(base_dir=repo.get_path()))
+    rule.dump_to_file(filename=rule.get_storage_file_name(base_dir=repo.get_path(), undo_conversions=True))

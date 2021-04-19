@@ -201,6 +201,12 @@ class Date(BasicDate):
     greg_date_tuple = julian.to_gregorian(year=year, month=month, day=day)
     return Date(year=greg_date_tuple[0], month=greg_date_tuple[1], day=greg_date_tuple[2])
 
+  @classmethod
+  def to_julian_date(cls, year, month, day):
+    from convertdate import julian
+    date_tuple = julian.from_gregorian(year=year, month=month, day=day)
+    return Date(year=date_tuple[0], month=date_tuple[1], day=date_tuple[2])
+
   def to_indian_civil_date(self):
     from convertdate import indian_civil
     date_tuple = indian_civil.from_gregorian(year=self.year, month=self.month, day=self.day)

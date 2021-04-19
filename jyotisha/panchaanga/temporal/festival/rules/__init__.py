@@ -1,4 +1,5 @@
 import codecs
+import copy
 import logging
 import os
 import sys
@@ -174,16 +175,13 @@ class HinduCalendarEvent(common.JsonObject):
     self.image = None
     self.path_actual = None
 
-  def get_storage_file_name(self, base_dir):
-    return self.get_storage_file_name_granular(base_dir=base_dir)
-
   def get_storage_file_name_flat(self, base_dir):
     return "%(base_dir)s/%(id)s.toml"  % dict(
       base_dir=base_dir,
       id=self.id
     )
 
-  def get_storage_file_name_granular(self, base_dir):
+  def get_storage_file_name(self, base_dir, undo_conversions):
     if self.timing.anchor_festival_id is not None:
       path = "relative_event/%(anchor_festival_id)s/offset__%(offset)02d/%(id)s.toml" % dict(
         anchor_festival_id=self.timing.anchor_festival_id.replace('/','__'),
@@ -196,11 +194,22 @@ class HinduCalendarEvent(common.JsonObject):
       )
     else:
       try:
+        month_type = self.timing.month_type
+        anga_type = self.timing.anga_type
+        month_number = self.timing.month_number
+        anga_number = self.timing.anga_number
+        if undo_conversions:
+          if self.timing.julian_handling == RulesCollection.JULIAN_TO_GREGORIAN:
+            from jyotisha.panchaanga.temporal import time
+            jul_date = time.Date.to_julian_date(year=self.timing.year_start, month=self.timing.month_number, day=self.timing.anga_number)
+            anga_number = jul_date.day
+            month_number = jul_date.month
+            month_type = RulesRepo.JULIAN_MONTH_DIR
         path = "%(month_type)s/%(anga_type)s/%(month_number)02d/%(anga_number)02d/%(id)s.toml" % dict(
-          month_type=self.timing.month_type,
-          anga_type=self.timing.anga_type,
-          month_number=self.timing.month_number,
-          anga_number=self.timing.anga_number,
+          month_type=month_type,
+          anga_type=anga_type,
+          month_number=month_number,
+          anga_number=anga_number,
           id=self.id
         )
       except Exception:
@@ -208,12 +217,11 @@ class HinduCalendarEvent(common.JsonObject):
         raise 
     if base_dir.startswith("http"):
       from urllib.parse import quote
-      path = quote(path)
+      path = quote(path)  
     return "%s/%s" % (base_dir, path)
 
   def get_url(self):
-    # encoded_url = "https://" + quote(self.path_actual.replace(self.repo.path, self.repo.base_url.replace("https://", "")))
-    encoded_url = self.get_storage_file_name(base_dir=self.repo.base_url)
+    encoded_url = self.get_storage_file_name(base_dir=self.repo.base_url, undo_conversions=True)
     # https://github.com/jyotisham/jyotisha/runs/1229399248?check_suite_focus=true shows that ~ is being replaced there, which breaks tests. Hence the below.
     return encoded_url.replace("%7E", "~")
 
@@ -294,7 +302,7 @@ class RulesRepo(common.JsonObject):
   NAKSHATRA_DIR = "nakshatra"
   YOGA_DIR = "yoga"
 
-  def __init__(self, name, path=None, base_url='https://github.com/jyotisham/adyatithi/tree/master'):
+  def __init__(self, name, path=None, base_url='https://github.com/jyotisham/adyatithi/blob/master'):
     super().__init__()
     self.name = name
     self.path = path
@@ -330,7 +338,7 @@ class RulesCollection(common.JsonObject):
       for rule in rules_map.values():
         rule.path_actual = None
         rule.repo = None
-        rule.dump_to_file(filename=rule.get_storage_file_name(base_dir=base_dir))
+        rule.dump_to_file(filename=rule.get_storage_file_name(base_dir=base_dir, undo_conversions=True))
 
   def fix_filenames(self):
     for repo in self.repos:
@@ -346,14 +354,14 @@ class RulesCollection(common.JsonObject):
           old_id = rule.timing.anchor_festival_id
           rule.timing.anchor_festival_id = clean_id(rule.timing.anchor_festival_id)
           update_path = update_path or old_id != rule.timing.anchor_festival_id
-        expected_path = rule.get_storage_file_name(base_dir=base_dir)
+        expected_path = rule.get_storage_file_name(base_dir=base_dir, undo_conversions=True)
         update_path = update_path or rule.path_actual != expected_path
         if update_path:
           logging.info(str((rule.path_actual, expected_path)))
           os.remove(str(rule.path_actual))
           rule.path_actual = None
           rule.repo = None
-          rule.dump_to_file(filename=rule.get_storage_file_name(base_dir=base_dir))
+          rule.dump_to_file(filename=rule.get_storage_file_name(base_dir=base_dir, undo_conversions=True))
           # os.makedirs(os.path.dirname(expected_path), exist_ok=True)
       file_helper.remove_empty_dirs(path=os.path.join(DATA_ROOT, repo.get_path()))
 
@@ -364,7 +372,7 @@ class RulesCollection(common.JsonObject):
         os.path.join(DATA_ROOT, repo.get_path()), repo=repo, julian_handling=julian_handling))
 
     from sanskrit_data import collection_helper
-    self.tree = collection_helper.tree_maker(leaves=self.name_to_rule.values(), path_fn=lambda x: x.get_storage_file_name_granular(base_dir="").replace(".toml", ""))
+    self.tree = collection_helper.tree_maker(leaves=self.name_to_rule.values(), path_fn=lambda x: x.get_storage_file_name(base_dir="", undo_conversions=False).replace(".toml", ""))
 
   def get_month_anga_fests(self, month_type, month, anga_type_id, anga):
     if int(month) != month:
