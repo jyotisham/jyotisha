@@ -196,8 +196,19 @@ class ShraddhaTithiAssigner(PeriodicPanchaangaApplier):
               logging.debug('Sankranti after aparaahna!')
             # Depending on whether sankranti is before or after sunset, m2 may or may not be equal to m1
             # In any case, we wish to assign this tithi to the previous month, where it really occurs.
-            for t in daily_panchaangas[d].shraaddha_tithi:
-              tithi_days[m1][t.index].extend([d, '*'])
+            # Sankranti dushatam, denoted by '*' should be added only if sankranti is before midnight
+            madhyaraatri_start = daily_panchaangas[d].day_length_based_periods.fifteen_fold_division.vaidhaatra.jd_start
+            madhyaraatri_end = daily_panchaangas[d].day_length_based_periods.fifteen_fold_division.vaidhaatra.jd_end
+            if daily_panchaangas[d].solar_sidereal_date_sunset.month_transition < madhyaraatri_start:
+              for t in daily_panchaangas[d].shraaddha_tithi:
+                tithi_days[m1][t.index].extend([d, '*'])
+            elif daily_panchaangas[d].solar_sidereal_date_sunset.month_transition > madhyaraatri_end:
+              for t in daily_panchaangas[d].shraaddha_tithi:
+                tithi_days[m1][t.index].extend([d])
+            else:
+              # Transition during madhyaratri!
+              for t in daily_panchaangas[d].shraaddha_tithi:
+                tithi_days[m1][t.index].extend([d, '*'])
         else:
           for t in daily_panchaangas[d].shraaddha_tithi:
             tithi_days[daily_panchaangas[d].solar_sidereal_date_sunset.month][t.index].append(d)
