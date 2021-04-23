@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210423090010
+SEQUENCE:20210423171624
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -13677,10 +13677,18 @@ SUMMARY:अशोकाष्टमी
 DTSTART;VALUE=DATE:20210420
 DTEND;VALUE=DATE:20210421
 DESCRIPTION:Observed on Śukla-Aṣṭamī tithi of Caitraḥ (lunar) mont
- h (Sūryodayaḥ/puurvaviddha). <br/><br/>## Details<br/>- References<br/>
-   - Vaidikasri Mar 2018<br/>- [Edit config file](https://github.com/jyotis
- ham/adyatithi/blob/master/general/lunar_month/tithi/01/08/azOkASTamI.toml)
- <br/>- Tags: LessCommonFestivals
+ h (Sūryodayaḥ/puurvaviddha). <br/><br/>ब्रह्मोवाच  
+ <br/>अशोककलिका ह्यष्टौ ये पिबन
+ ्ति पुनर्वसौ।  <br/>चैत्रे मास
+ ि सिताष्टम्यां न ते शोकमवाप
+ ्नुयुः॥  <br/>  <br/>प्राशन-मन्त्र
+ ः---  <br/>त्वामशोक हराभीष्ट  मधु
+ माससमुद्भव।  <br/>पिबामि शोकसन
+ ्तप्तो मामशोकं सदा कुरु॥  <br/>-
+ - गरुड-पुराणात्<br/><br/><br/><br/>## Details<br/>
+ - References<br/>  - Vaidikasri Mar 2018<br/>- [Edit config file](https://
+ github.com/jyotisham/adyatithi/blob/master/general/lunar_month/tithi/01/08
+ /azOkASTamI.toml)<br/>- Tags: LessCommonFestivals
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -15951,24 +15959,6 @@ DESCRIPTION:Event occured on 1758-05-08 (gregorian). Tukoji Rao Holkar def
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:शनि-प्रदोष-व्रतम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210508T182156
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20210508T190743
-DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
- n Pradosha Kala.  Pradosha vratam is even more special\, when if falls on 
- a Monday/Saturday.<br/><br/>प्रदोषे  शिवपूजा
- ं  तु  ये  कुर्याच्छ्रद्धया  य
- ुताः।  <br/>न  भवेत्  तस्य  दारिद
- ्र्यं  जन्मान्तरशतेष्वपि॥<br
- /><br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jy
- otisham/adyatithi/blob/master/time_focus/monthly/pradoSha/description_only
- /zani-pradOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
@@ -37459,23 +37449,6 @@ TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:प्रदोष-व्रतम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211017T174521
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211017T183432
-DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
- n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
-  तु  ये  कुर्याच्छ्रद्धया  यु
- ताः।  <br/>न  भवेत्  तस्य  दारिद्
- र्यं  जन्मान्तरशतेष्वपि॥<br/><
- br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyoti
- sham/adyatithi/blob/master/time_focus/monthly/pradoSha/description_only/pr
- adOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:तुला-कावेरी-स्नान-आरम्भः
 DTSTART;VALUE=DATE:20211017
 DTEND;VALUE=DATE:20211018
@@ -43786,23 +43759,6 @@ DESCRIPTION:Observed on Kṛṣṇa-Caturdaśī tithi of every (lunar) mon
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:प्रदोष-व्रतम्
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211202T173647
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20211202T182741
-DESCRIPTION:Pradosha Vratam. Fast during the day and perform śivapūjā i
- n Pradosha Kala.<br/><br/>प्रदोषे  शिवपूजां 
-  तु  ये  कुर्याच्छ्रद्धया  यु
- ताः।  <br/>न  भवेत्  तस्य  दारिद्
- र्यं  जन्मान्तरशतेष्वपि॥<br/><
- br/><br/><br/>## Details<br/>- [Edit config file](https://github.com/jyoti
- sham/adyatithi/blob/master/time_focus/monthly/pradoSha/description_only/pr
- adOSa-vratam.toml)<br/>- Tags: MonthlyVratam PradoshaVratam
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT4H
