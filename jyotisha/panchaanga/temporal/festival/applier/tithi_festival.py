@@ -358,7 +358,10 @@ class TithiFestivalAssigner(FestivalAssigner):
       tithi_sunset = day_panchaanga.sunrise_day_angas.get_anga_at_jd(jd=day_panchaanga.jd_sunset, anga_type=AngaType.TITHI) % 15
       tithi_sunset_tmrw = self.daily_panchaangas[d+1].sunrise_day_angas.get_anga_at_jd(jd=self.daily_panchaangas[d+1].jd_sunset, anga_type=AngaType.TITHI) % 15
       fday = None
-      if tithi_sunset in [12, 13] and tithi_sunset_tmrw != 13:
+      if tithi_sunset_tmrw == 13:
+        # Let's worry about assigning this tomorrow!
+        continue
+      if tithi_sunset in [12, 13] and tithi_sunset_tmrw > 13:
         fday = d
       elif tithi_sunset in [12, 13] and tithi_sunset_tmrw == 13:
         fday = d + 1
