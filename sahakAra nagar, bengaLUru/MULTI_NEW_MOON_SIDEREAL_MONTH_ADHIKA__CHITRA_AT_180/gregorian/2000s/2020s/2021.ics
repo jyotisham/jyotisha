@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-SEQUENCE:20210423171528
+SEQUENCE:20210425062936
 BEGIN:VTIMEZONE
 TZID:Asia/Calcutta
 END:VTIMEZONE
@@ -42303,6 +42303,25 @@ DESCRIPTION:- Indian civil date: 1943-08-29\, Islamic: 1443-04-14 Rabīʿ
  24-07:49  \n___________________\n- **शूलम्**—प्राच
  ी दिक् (►09:26)\; **परिहारः**–दधि  \n___
  ________________\n
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:शिण्डेप्रभावेण गोवधनिर
+ ्बन्धो मुघलराज्ये #२३२
+DTSTART;VALUE=DATE:20211120
+DTEND;VALUE=DATE:20211121
+DESCRIPTION:Event occured on 1789-11-20 (gregorian). The Mughal emperor Sh
+ ah Alam II prohibited cow killing. Also\, Mathura and vRndAvan granted to 
+ peshva (represented by Mahadji Scindia).<br/><br/>## Details<br/>- [Edit c
+ onfig file](https://github.com/jyotisham/adyatithi/blob/master/mahApuruSha
+ /xatra-later/gregorian/day/11/20/ShiNDe-prabhaveNa_govadha-nirbandhaH.toml
+ )<br/>- Tags:
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
