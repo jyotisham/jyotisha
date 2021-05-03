@@ -2,6 +2,8 @@ import sys
 
 from jyotisha.panchaanga.temporal import zodiac
 from jyotisha.panchaanga.temporal.festival.applier import FestivalAssigner
+from jyotisha.panchaanga.temporal.festival import FestivalInstance
+from jyotisha.panchaanga.temporal.interval import Interval
 from jyotisha.panchaanga.temporal.zodiac import NakshatraDivision, AngaType
 from sanskrit_data.schema import common
 
@@ -112,8 +114,30 @@ class VaraFestivalAssigner(FestivalAssigner):
           # Is it necessarily only at sunrise?
           d0_angas = self.daily_panchaangas[d].day_length_based_periods.dinamaana.get_boundary_angas(anga_type=AngaType.NAKSHATRA, ayanaamsha_id=self.ayanaamsha_id)
 
-          if any(x == nwd_fest_n for x in [self.daily_panchaangas[d].sunrise_day_angas.nakshatra_at_sunrise.index, d0_angas.start.index, d0_angas.end.index]):
-            self.panchaanga.add_festival(fest_id=nwd_fest_name, date=self.daily_panchaangas[d].date)
+          # if any(x == nwd_fest_n for x in [self.daily_panchaangas[d].sunrise_day_angas.nakshatra_at_sunrise.index, d0_angas.start.index, d0_angas.end.index]):
+          #   self.panchaanga.add_festival(fest_id=nwd_fest_name, date=self.daily_panchaangas[d].date)
+
+          nakshatram_praatah = self.daily_panchaangas[d].sunrise_day_angas.nakshatra_at_sunrise.index
+          nakshatram_saayam = NakshatraDivision(jd=self.daily_panchaangas[d].jd_sunset, ayanaamsha_id=self.panchaanga.computation_system.ayanaamsha_id).get_anga(anga_type=AngaType.NAKSHATRA).index
+
+          if nakshatram_praatah == nakshatram_saayam == n_prev:
+            continue
+
+          if nwd_fest_n == nakshatram_praatah == nakshatram_saayam:
+            self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name=nwd_fest_name), date=self.daily_panchaangas[d].date)
+          else:
+            (nakshatra_ID, nakshatra_end_jd) = (self.daily_panchaangas[d].sunrise_day_angas.nakshatras_with_ends[0].anga.index,
+                                                self.daily_panchaangas[d].sunrise_day_angas.nakshatras_with_ends[0].jd_end)
+
+            if nwd_fest_n == nakshatram_praatah:
+              # assert nwd_fest_n == nakshatra_ID
+              self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name=nwd_fest_name, interval=Interval(jd_start=None, jd_end=nakshatra_end_jd)), date=self.daily_panchaangas[d].date)
+            elif nwd_fest_n == nakshatram_saayam:
+              # assert n_prev == nakshatra_ID
+              self.panchaanga.add_festival_instance(festival_instance=FestivalInstance(name=nwd_fest_name, interval=Interval(jd_start=nakshatra_end_jd, jd_end=None)), date=self.daily_panchaangas[d].date)
+            else:
+              logging.error('Should never be here!')
+
 
 
   def assign_ayushman_bava_saumya_yoga(self):
